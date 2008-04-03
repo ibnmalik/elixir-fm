@@ -1824,6 +1824,10 @@ cluster_33  = listing "Lexicon's properties"
 
     FIL                       `noun`    {- biyl -}             [ unwords [ "ball", "bearing" ], "marble" ] ]
 
+ |> "b y m" <| [
+
+    FaCCUL |< Iy              `adj`     {- bay~uwmiy~ -}       [ "Bayyoumi" ] ]
+
 
 cluster_34  = listing "Lexicon's properties"
 

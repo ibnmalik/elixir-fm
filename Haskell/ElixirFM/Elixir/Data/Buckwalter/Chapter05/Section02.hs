@@ -323,7 +323,7 @@ cluster_27  = listing "Lexicon's properties"
     MiFCaL |< Iy              `adj`     {- mijohariy~ -}       [ "microscopic" ],
 
     MiFCAL                    `noun`    {- mijohAr -}          [ unwords [ "loud", "-", "voiced" ], "megaphone" ]
-                           {- `others`  [ "mA^gAhiyr Ndip" ] -},
+                              `plural`     MaFACIL,
 
     MuFACaL |< aT             `noun`    {- mujAharap -}        [ "frankness", "candor" ],
 

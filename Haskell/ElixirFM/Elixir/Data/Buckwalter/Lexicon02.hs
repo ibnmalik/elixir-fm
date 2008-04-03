@@ -5777,6 +5777,10 @@ cluster_111 = listing "Lexicon's properties"
     KiRDIS                    `noun`    {- biyliyn -}          [ "Bilin", "Billin" ]
                            {- `others`  [ "bylyn Nprop" ] -} ]
 
+ |> "b y m" <| [
+
+    FaCCUL |< Iy              `adj`     {- bay~uwmiy~ -}       [ "Bayyoumi" ] ]
+
 
 cluster_112 = listing "Lexicon's properties"
 
@@ -7331,10 +7335,6 @@ cluster_132 = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bayoraqodAr -}      [ unwords [ "flag", "-", "bearer" ] ] ]
 
- |> "bayyum" <| [
-
-    Identity |< Iy            `adj`     {- bay~umiy~ -}        [ "" {- "Bayyoumi" -} ] ]
-
  |> "bfIl^sIftr" <| [
 
     Identity                  `noun`    {- bfiyl$iyftr -}      [ "" {- "Pfeilschifter" -} ] ]
@@ -7395,13 +7395,13 @@ cluster_132 = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- bil~aworiy~ -}      [ "crystalline" ] ]
 
-
-cluster_133 = listing "Lexicon's properties"
-
-
  |> "bilyArdU" <| [
 
     Identity                  `noun`    {- biloyAroduw -}      [ "billiards" ] ]
+
+
+cluster_133 = listing "Lexicon's properties"
+
 
  |> "bilyUnIr" <| [
 
@@ -7477,13 +7477,13 @@ cluster_133 = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bisokiliyt -}       [ "bicycle" ] ]
 
-
-cluster_134 = listing "Lexicon's properties"
-
-
  |> "bitrUkImA'" <| [
 
     Identity |< Iy            `adj`     {- bitruwkiymAwiy~ -}  [ "petrochemical" ] ]
+
+
+cluster_134 = listing "Lexicon's properties"
+
 
  |> "bitrUliyUm" <| [
 
@@ -7561,13 +7561,13 @@ cluster_134 = listing "Lexicon's properties"
 
     Identity                  `noun`    {- blAnotiyr -}        [ "" {- "Blantyre" -} ] ]
 
-
-cluster_135 = listing "Lexicon's properties"
-
-
  |> "blAs" <| [
 
     Identity                  `noun`    {- blAs -}             [ "" {- "Blas" -} ] ]
+
+
+cluster_135 = listing "Lexicon's properties"
+
 
  |> "blAstIk" <| [
 
@@ -7639,13 +7639,13 @@ cluster_135 = listing "Lexicon's properties"
 
     Identity                  `noun`    {- bluwz -}            [ "blouse" ] ]
 
-
-cluster_136 = listing "Lexicon's properties"
-
-
  |> "brA.g" <| [
 
     Identity                  `noun`    {- brAg -}             [ "" {- "Prague" -} ] ]
+
+
+cluster_136 = listing "Lexicon's properties"
+
 
  |> "brA_hA" <| [
 
@@ -7721,13 +7721,13 @@ cluster_136 = listing "Lexicon's properties"
 
     Identity                  `noun`    {- briydrAg -}         [ "" {- "Predrag" -} ] ]
 
-
-cluster_137 = listing "Lexicon's properties"
-
-
  |> "brImAkUf" <| [
 
     Identity                  `noun`    {- briymAkuwf -}       [ "" {- "Primakoff" -} ] ]
+
+
+cluster_137 = listing "Lexicon's properties"
+
 
  |> "brImin" <| [
 
@@ -7803,13 +7803,13 @@ cluster_137 = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- bruwtuwkuwliy~ -}   [ "protocol" ] ]
 
-
-cluster_138 = listing "Lexicon's properties"
-
-
  |> "brUtUn" <| [
 
     Identity                  `noun`    {- bruwtuwn -}         [ "proton" ] ]
+
+
+cluster_138 = listing "Lexicon's properties"
+
 
  |> "brUtistAnt" <| [
 
@@ -7885,13 +7885,13 @@ cluster_138 = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- buro$Amojiy~ -}     [ "riveter", "riveting" ] ]
 
-
-cluster_139 = listing "Lexicon's properties"
-
-
  |> "burmA" <| [
 
     Identity                  `noun`    {- buromA -}           [ "" {- "Burma" -} ] ]
+
+
+cluster_139 = listing "Lexicon's properties"
+
 
  |> "burnay.t" <| [
 

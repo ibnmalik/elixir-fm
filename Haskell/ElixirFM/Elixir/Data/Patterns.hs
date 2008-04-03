@@ -61,7 +61,7 @@ instance Template String where
                                     _       -> x
 
 
-instance Forming String where
+instance Rules String where
 
     isForm I "lays" = True
 
@@ -70,21 +70,10 @@ instance Forming String where
 
                                -- f `isForm` y, show y == x ]
 
-                     q = [ True | y <- [toEnum 0 :: PatternT ..],
+                     q = [ True | y <- [toEnum 0 :: PatternQ ..],
                                   show y == x, f `isForm` y ]
 
-                 in any (not . null) [t, q]
+                     l = [ True | y <- [toEnum 0 :: PatternL ..],
+                                  show y == x, f `isForm` y ]
 
-
-    verbStems _ _ = [
-
-        (   Just  (     "FaL",      "X",        "X",         "X"         ),
-                        "FaCL",     "X",        "X",         "X"         ),  -- laysa
-
-        (   Just  (     "las",      "X",        "X",         "X"         ),
-                        "lays",     "X",        "X",         "X"         )   -- laysa
-
-        ]
-
-
-instance Rules String
+                 in any (not . null) [t, q, l]

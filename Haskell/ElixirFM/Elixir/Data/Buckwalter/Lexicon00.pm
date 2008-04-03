@@ -13,7 +13,7 @@ $Lexicon = {
       'form' => '\'iyh',
       'lines' => [
         ';; <iyh_1',
-        '<yh     <iyh    FW      A.     [[>ay/ABBREV]]'
+        '<iyh    FW      A.     [[>ay/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34,7 +34,7 @@ $Lexicon = {
       'form' => '.t',
       'lines' => [
         ';; T_1',
-        'T       T       FW      T;9th     [[T/ABBREV]]'
+        'T       FW      T;9th     [[T/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -56,7 +56,7 @@ $Lexicon = {
       'form' => 'd',
       'lines' => [
         ';; d_1',
-        'd       d       FW      D;4th;Dr.;(minute);(dinar);(dirham)     [[d/ABBREV]]'
+        'd       FW      D;4th;Dr.;(minute);(dinar);(dirham)     [[d/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -82,8 +82,8 @@ $Lexicon = {
       'form' => 'y',
       'lines' => [
         ';; y_1',
-        'y       y       FW      Y;10th     [[y/ABBREV]]',
-        'Y       y       FW      Y;10th     [[y/ABBREV]]'
+        'y       FW      Y;10th     [[y/ABBREV]]',
+        'y       FW      Y;10th     [[y/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -105,7 +105,7 @@ $Lexicon = {
       'form' => '\'uw',
       'lines' => [
         ';; >uw_1',
-        '>w      >uw     FW      O.     [[>uw/ABBREV]]'
+        '>uw     FW      O.     [[>uw/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -126,7 +126,7 @@ $Lexicon = {
       'form' => '_h',
       'lines' => [
         ';; x_1',
-        'x       x       FW      KH;24th     [[x/ABBREV]]'
+        'x       FW      KH;24th     [[x/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -152,8 +152,8 @@ $Lexicon = {
       'form' => 'ka',
       'lines' => [
         ';; ka_1',
-        'k       ka      FW      as;like     [[ka/PREP]]',
-        'k       k       FW      K;11th;(kilo-)     [[k/ABBREV]]'
+        'ka      FW      as;like     [[ka/PREP]]',
+        'k       FW      K;11th;(kilo-)     [[k/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -178,9 +178,9 @@ $Lexicon = {
       'form' => 'At^s',
       'lines' => [
         ';; At$_1',
-        'At$     At$     FW      H.     [[At$/ABBREV]]',
-        '>t$     At$     FW      H.     [[At$/ABBREV]]',
-        '<t$     At$     FW      H.     [[At$/ABBREV]]'
+        'At$     FW      H.     [[At$/ABBREV]]',
+        'At$     FW      H.     [[At$/ABBREV]]',
+        'At$     FW      H.     [[At$/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -201,7 +201,7 @@ $Lexicon = {
       'form' => 't',
       'lines' => [
         ';; t_1',
-        't       t       FW      T;(date);(time/timing);(died);22nd     [[t/ABBREV]]'
+        't       FW      T;(date);(time/timing);(died);22nd     [[t/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -226,7 +226,7 @@ $Lexicon = {
       'form' => '^g',
       'lines' => [
         ';; j_1',
-        'j       j       FW      J;3rd;(pounds/lira);(answer);(republic);(gram)     [[j/ABBREV]]'
+        'j       FW      J;3rd;(pounds/lira);(answer);(republic);(gram)     [[j/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -252,7 +252,7 @@ $Lexicon = {
       'form' => '.g',
       'lines' => [
         ';; g_1',
-        'g       g       FW      GH;28th;(Greenwich);(piaster);(gram)     [[g/ABBREV]]'
+        'g       FW      GH;28th;(Greenwich);(piaster);(gram)     [[g/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -277,7 +277,7 @@ $Lexicon = {
       'form' => 'tiy',
       'lines' => [
         ';; tiy_1',
-        'ty      tiy     FW      T.     [[tiy/ABBREV]]'
+        'tiy     FW      T.     [[tiy/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -298,8 +298,8 @@ $Lexicon = {
       'form' => '\'in',
       'lines' => [
         ';; <in_2',
-        '<n      <in     FW      N.     [[<in/ABBREV]]',
-        '>n      <in     FW      N.     [[<in/ABBREV]]'
+        '<in     FW      N.     [[<in/ABBREV]]',
+        '<in     FW      N.     [[<in/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -320,7 +320,7 @@ $Lexicon = {
       'form' => '.d',
       'lines' => [
         ';; D_1',
-        'D       D       FW      D;26th     [[D/ABBREV]]'
+        'D       FW      D;26th     [[D/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -342,7 +342,7 @@ $Lexicon = {
       'form' => 'dabilyuw',
       'lines' => [
         ';; dabiloyuw_1',
-        'dblyw   dabiloyuw       N0      W.'
+        'dabiloyuw       N0      W.'
       ],
       'patterns' => {},
       'index' => '1',
@@ -363,7 +363,7 @@ $Lexicon = {
       'form' => '.s',
       'lines' => [
         ';; S_1',
-        'S       S       FW      S;18th     [[S/ABBREV]]'
+        'S       FW      S;18th     [[S/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -385,7 +385,7 @@ $Lexicon = {
       'form' => 's',
       'lines' => [
         ';; s_1',
-        's       s       FW      S;15th;(question);(hour)     [[s/ABBREV]]'
+        's       FW      S;15th;(question);(hour)     [[s/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -409,7 +409,7 @@ $Lexicon = {
       'form' => 't.g',
       'lines' => [
         ';; tg_1',
-        'tg      tg      FW      G.M.T. [[tg/ABBREV]]'
+        'tg      FW      G.M.T. [[tg/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -430,7 +430,7 @@ $Lexicon = {
       'form' => 'siy',
       'lines' => [
         ';; siy_1',
-        'sy      siy     N0      C.     [[siy/ABBREV]]'
+        'siy     N0      C.     [[siy/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -451,7 +451,7 @@ $Lexicon = {
       'form' => '_d',
       'lines' => [
         ';; *_1',
-        '*       *       FW      DH;25th     [[*/ABBREV]]'
+        '*       FW      DH;25th     [[*/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -473,7 +473,7 @@ $Lexicon = {
       'form' => 'q',
       'lines' => [
         ';; q_1',
-        'q       q       FW      Q;Qatari;19th;(before);(piaster)     [[q/ABBREV]]'
+        'q       FW      Q;Qatari;19th;(before);(piaster)     [[q/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -502,8 +502,8 @@ $Lexicon = {
       'form' => 'bi',
       'lines' => [
         ';; bi_1',
-        'b       bi      FW      with;by     [[bi/PREP]]',
-        'b       b       FW      B;2nd;P     [[b/ABBREV]]'
+        'bi      FW      with;by     [[bi/PREP]]',
+        'b       FW      B;2nd;P     [[b/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -528,8 +528,8 @@ $Lexicon = {
       'form' => 'diy',
       'lines' => [
         ';; diy_1',
-        'dy      diy     FW      D.     [[diy/ABBREV]]',
-        'dy      diy     FW      De     [[diy/NOUN_PROP]]'
+        'diy     FW      D.     [[diy/ABBREV]]',
+        'diy     FW      De     [[diy/NOUN_PROP]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -551,8 +551,8 @@ $Lexicon = {
       'form' => '\'Ay',
       'lines' => [
         ';; |y_1',
-        '|y      |y      FW      A.     [[|y/ABBREV]]',
-        '|y      |y      FW      I.     [[|y/ABBREV]]'
+        '|y      FW      A.     [[|y/ABBREV]]',
+        '|y      FW      I.     [[|y/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -574,7 +574,7 @@ $Lexicon = {
       'form' => 'z',
       'lines' => [
         ';; z_1',
-        'z       z       FW      Z;7th     [[z/ABBREV]]'
+        'z       FW      Z;7th     [[z/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -596,7 +596,7 @@ $Lexicon = {
       'form' => '`',
       'lines' => [
         ';; E_1',
-        'E       E       FW      (\'ayn);16th;(Arab)     [[E/ABBREV]]'
+        'E       FW      (\'ayn);16th;(Arab)     [[E/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -619,7 +619,7 @@ $Lexicon = {
       'form' => '^s',
       'lines' => [
         ';; $_1',
-        '$       $       FW      SH;21st;(street)     [[$/ABBREV]]'
+        '$       FW      SH;21st;(street)     [[$/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -646,8 +646,8 @@ $Lexicon = {
       'form' => 'wa',
       'lines' => [
         ';; wa_1',
-        'w       wa      FW      and       [[wa/CONJ]]',
-        'w       w       FW      W;6th     [[w/ABBREV]]'
+        'wa      FW      and       [[wa/CONJ]]',
+        'w       FW      W;6th     [[w/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -670,7 +670,7 @@ $Lexicon = {
       'form' => '.h',
       'lines' => [
         ';; H_1',
-        'H       H       FW      H;8th     [[H/ABBREV]]'
+        'H       FW      H;8th     [[H/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -692,8 +692,8 @@ $Lexicon = {
       'form' => '\'is',
       'lines' => [
         ';; <is_1',
-        '<s      <is     FW      S.     [[<is/ABBREV]]',
-        '|s      <is     FW      S.     [[<is/ABBREV]]'
+        '<is     FW      S.     [[<is/ABBREV]]',
+        '<is     FW      S.     [[<is/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -714,8 +714,8 @@ $Lexicon = {
       'form' => 'r',
       'lines' => [
         ';; r_1',
-        'r       r       FW      R;20th;(Reuters);(rial)     [[r/ABBREV]]',
-        'r       r       FW      (numeric comma)     [[r/NUMERIC_COMMA]]'
+        'r       FW      R;20th;(Reuters);(rial)     [[r/ABBREV]]',
+        'r       FW      (numeric comma)     [[r/NUMERIC_COMMA]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -740,7 +740,7 @@ $Lexicon = {
       'form' => '\'im',
       'lines' => [
         ';; <im_1',
-        '<m      <im     FW      M.     [[<im/ABBREV]]'
+        '<im     FW      M.     [[<im/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -761,7 +761,7 @@ $Lexicon = {
       'form' => '_t',
       'lines' => [
         ';; v_1',
-        'v       v       FW      TH;23rd     [[v/ABBREV]]'
+        'v       FW      TH;23rd     [[v/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -783,7 +783,7 @@ $Lexicon = {
       'form' => '\'ar',
       'lines' => [
         ';; >ar_1',
-        '>r      >ar     FW      R.     [[>ar/ABBREV]]'
+        '>ar     FW      R.     [[>ar/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -804,7 +804,7 @@ $Lexicon = {
       'form' => '\'af',
       'lines' => [
         ';; >af_1',
-        '>f      >af     FW      A.F.     [[Af/ABBREV]]'
+        '>af     FW      A.F.     [[Af/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -823,7 +823,7 @@ $Lexicon = {
       'form' => '\'if',
       'lines' => [
         ';; <if_1',
-        '<f      <if     N0      F.     [[<if/ABBREV]]'
+        '<if     N0      F.     [[<if/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -844,7 +844,7 @@ $Lexicon = {
       'form' => 'h',
       'lines' => [
         ';; h_1',
-        'h       h       FW      H;(Hijrah);5th     [[h/ABBREV]]'
+        'h       FW      H;(Hijrah);5th     [[h/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -867,7 +867,7 @@ $Lexicon = {
       'form' => '\'iy',
       'lines' => [
         ';; <iy_1',
-        '<y      <iy     FW      E.     [[<iy/ABBREV]]'
+        '<iy     FW      E.     [[<iy/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -900,8 +900,8 @@ $Lexicon = {
       'form' => '\'ay',
       'lines' => [
         ';; >ay_1',
-        '>y      >ay     FW      A.     [[>ay/ABBREV]]',
-        '>y      >ay     FW      I.     [[>ay/ABBREV]]'
+        '>ay     FW      A.     [[>ay/ABBREV]]',
+        '>ay     FW      I.     [[>ay/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -927,8 +927,8 @@ $Lexicon = {
       'form' => 'fa',
       'lines' => [
         ';; fa_1',
-        'f       fa      FW      and;so     [[fa/CONJ]]',
-        'f       f       FW      F;17th;(fils)     [[f/ABBREV]]'
+        'fa      FW      and;so     [[fa/CONJ]]',
+        'f       FW      F;17th;(fils)     [[f/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -953,7 +953,7 @@ $Lexicon = {
       'form' => 'n',
       'lines' => [
         ';; n_1',
-        'n       n       FW      N;14th     [[n/ABBREV]]'
+        'n       FW      N;14th     [[n/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -975,7 +975,7 @@ $Lexicon = {
       'form' => '.z',
       'lines' => [
         ';; Z_1',
-        'Z       Z       FW      ZH;27th     [[Z/ABBREV]]'
+        'Z       FW      ZH;27th     [[Z/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -997,7 +997,7 @@ $Lexicon = {
       'form' => 'm',
       'lines' => [
         ';; m_1',
-        'm       m       FW      (A.D.);M;13th;meter     [[m/ABBREV]]'
+        'm       FW      (A.D.);M;13th;meter     [[m/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1021,7 +1021,7 @@ $Lexicon = {
       'form' => 'biy',
       'lines' => [
         ';; biy_1',
-        'by      biy     N0      B.     [[biy/ABBREV]]'
+        'biy     N0      B.     [[biy/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1046,8 +1046,8 @@ $Lexicon = {
       'form' => 'li',
       'lines' => [
         ';; li_1',
-        'l       li      FW      for;to     [[li/PREP]]',
-        'l       l       FW      L;12th;(pounds/lira)     [[l/ABBREV]]'
+        'li      FW      for;to     [[li/PREP]]',
+        'l       FW      L;12th;(pounds/lira)     [[l/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1072,7 +1072,7 @@ $Lexicon = {
       'form' => '\'il',
       'lines' => [
         ';; <il_2',
-        '<l      <il     FW      L.     [[<il/ABBREV]]'
+        '<il     FW      L.     [[<il/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -1093,7 +1093,7 @@ $Lexicon = {
       'form' => 'fiy',
       'lines' => [
         ';; fiy_2',
-        'fy      fiy     FW      V.     [[Viy/ABBREV]]'
+        'fiy     FW      V.     [[Viy/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -1114,8 +1114,8 @@ $Lexicon = {
       'form' => '^giy',
       'lines' => [
         ';; jiy_1',
-        'jy      jiy     FW      G.     [[jiy/ABBREV]]',
-        'jy      jiy     FW      J.     [[jiy/ABBREV]]'
+        'jiy     FW      G.     [[jiy/ABBREV]]',
+        'jiy     FW      J.     [[jiy/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1137,7 +1137,7 @@ $Lexicon = {
       'form' => '\'a',
       'lines' => [
         ';; >a_1',
-        '>       >a      FW      A;1st     [[>a/ABBREV]]'
+        '>a      FW      A;1st     [[>a/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1157,7 +1157,7 @@ $Lexicon = {
       'form' => '\'i',
       'lines' => [
         ';; <i_1',
-        '<       <i      FW      I     [[<i/ABBREV]]'
+        '<i      FW      I     [[<i/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',

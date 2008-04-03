@@ -572,10 +572,6 @@ cluster_32  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- muD~ajaE -}         [ "couch" ] ]
 
- |> "muta.dAdd" <| [
-
-    Identity                  `adj`     {- mutaDAd~ -}         [ "opposing", "contrary", "antagonistic" ] ]
-
 
 section = [ cluster_21,
             cluster_22,

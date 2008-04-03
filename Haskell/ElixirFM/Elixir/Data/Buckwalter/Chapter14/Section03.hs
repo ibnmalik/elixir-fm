@@ -191,7 +191,9 @@ cluster_44  = listing "Lexicon's properties"
     MuFaCCaL                  `adj`     {- muSam~am -}         [ "designed", "resolved" ],
 
     HiFCAL                    `noun`    {- IiSomAm -}          [ "obstruction", "deafening" ]
-                              `plural`     HiFCAL |< At ]
+                              `plural`     HiFCAL |< At,
+
+    MutaFACL                  `adj`     {- mutaSAm~ -}         [ unwords [ "deaf", "to" ] ] ]
 
 
 cluster_45  = listing "Lexicon's properties"

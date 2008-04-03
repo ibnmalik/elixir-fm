@@ -214,38 +214,6 @@ isClosed _ = True
 c -<- x = c : show x
 
 
-class Forming a where
-
-    isForm :: Form -> a -> Bool
-
-    verbStems :: Form -> String -> [InfoStem a]
-
-
-type InfoStem a = (Maybe (a, a, a, a), a, a, a, a)
-
-lookStem :: Eq a => a -> (Tense, Voice) -> (Tense, Voice) -> Bool -> [InfoStem a] -> [a]
-
-lookStem x (Perfect, Active)  y z is = [ findStem y z i | i@(_, a, _, _, _) <- is, x == a ]
-lookStem x (Perfect, Passive) y z is = [ findStem y z i | i@(_, _, b, _, _) <- is, x == b ]
-lookStem x (   _   , Active)  y z is = [ findStem y z i | i@(_, _, _, c, _) <- is, x == c ]
-lookStem x (   _   ,    _   ) y z is = [ findStem y z i | i@(_, _, _, _, d) <- is, x == d ]
-
-
-findStem :: (Tense, Voice) -> Bool -> InfoStem a -> a
-
-findStem (Perfect, Active)  True (Just (a, _, _, _), _, _, _, _) = a
-findStem (Perfect, Active)  _    ( _               , a, _, _, _) = a
-
-findStem (Perfect, Passive) True (Just (_, b, _, _), _, _, _, _) = b
-findStem (Perfect, Passive) _    ( _               , _, b, _, _) = b
-
-findStem (   _   , Active)  True (Just (_, _, c, _), _, _, _, _) = c
-findStem (   _   , Active)  _    ( _               , _, _, c, _) = c
-
-findStem (   _   ,    _   ) True (Just (_, _, _, d), _, _, _, _) = d
-findStem (   _   ,    _   ) _    ( _               , _, _, _, d) = d
-
-
 data Form = I | II | III | IV | V | VI | VII | VIII | IX | X |
             XI | XII | XIII | XIV | XV
 
@@ -254,22 +222,27 @@ data Form = I | II | III | IV | V | VI | VII | VIII | IX | X |
 
 class Eq a => Rules a where
 
+    isForm :: Form -> a -> Bool
+
+    isDiptote :: a -> Bool
+
+    isPassive :: a -> Bool
+
     prefixVerbI :: Form -> a -> Voice -> String
 
     prefixVerbC :: Form -> a -> String
 
     auxiesDouble :: Form -> a -> [String]
 
-    isDiptote :: a -> Bool
-
-    isPassive :: a -> Bool
-
+    isForm I = const True
+    isForm _ = const False
+    
+    isDiptote = const False
+    isPassive = const False
+    
     prefixVerbI _ _ _ = []
     prefixVerbC _ _   = []
     auxiesDouble  _ _ = []
-
-    isDiptote = const False
-    isPassive = const False
 
 
 auxies  = ["-i", "-a"]          -- Fischer (2001), par. 53

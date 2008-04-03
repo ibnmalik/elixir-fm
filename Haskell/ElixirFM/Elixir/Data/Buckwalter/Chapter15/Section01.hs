@@ -554,6 +554,8 @@ cluster_11  = listing "Lexicon's properties"
 
     MuFACL                    `adj`     {- muDAd~ -}           [ unwords [ "anti", "-" ], unwords [ "counter", "-" ], unwords [ "contra", "-" ] ],
 
+    MutaFACL                  `adj`     {- mutaDAd~ -}         [ "opposing", "contrary", "antagonistic" ],
+
     TaFACL                    `noun`    {- taDAd~ -}           [ "ambivalence", "contradiction" ]
                               `plural`     TaFACL |< At ]
 

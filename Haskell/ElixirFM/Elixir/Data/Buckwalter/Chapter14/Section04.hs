@@ -473,10 +473,6 @@ cluster_69  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- SuwayoHib -}        [ unwords [ "little", "friend" ] ] ]
 
- |> "muta.sAmm" <| [
-
-    Identity                  `adj`     {- mutaSAm~ -}         [ unwords [ "deaf", "to" ] ] ]
-
  |> "ta.sfY" <| [
 
     Identity |< Iy            `adj`     {- taSofawiy~ -}       [ "definitive", "radical" ] ]

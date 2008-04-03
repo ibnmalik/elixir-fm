@@ -565,6 +565,10 @@ cluster_111 = listing "Lexicon's properties"
     KiRDIS                    `noun`    {- biyliyn -}          [ "Bilin", "Billin" ]
                            {- `others`  [ "bylyn Nprop" ] -} ]
 
+ |> "b y m" <| [
+
+    FaCCUL |< Iy              `adj`     {- bay~uwmiy~ -}       [ "Bayyoumi" ] ]
+
 
 cluster_112 = listing "Lexicon's properties"
 

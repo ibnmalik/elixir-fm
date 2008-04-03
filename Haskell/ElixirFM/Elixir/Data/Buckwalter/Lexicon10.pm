@@ -13,7 +13,7 @@ $Lexicon = {
       'form' => 'rAnyiyriy',
       'lines' => [
         ';; rAnoyiyriy_1',
-        'rAnyyry rAnoyiyriy      N0      Ranieri'
+        'rAnoyiyriy      N0      Ranieri'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34,7 +34,7 @@ $Lexicon = {
       'form' => 'rwnAld',
       'lines' => [
         ';; rwnAld_1',
-        'rwnAld  rwnAld  Nprop   Ronald'
+        'rwnAld  Nprop   Ronald'
       ],
       'patterns' => {},
       'index' => '1',
@@ -59,8 +59,8 @@ $Lexicon = {
       'form' => 'rafraf',
       'lines' => [
         ';; raforaf_1',
-        'rfrf    raforaf PV      flap;flutter;flicker',
-        'rfrf    raforif IV_yu   flap;flutter;flicker'
+        'raforaf PV      flap;flutter;flicker',
+        'raforif IV_yu   flap;flutter;flicker'
       ],
       'patterns' => {
         'rafrif' => [
@@ -85,7 +85,7 @@ $Lexicon = {
       'form' => 'rafrafaT',
       'lines' => [
         ';; raforafap_1',
-        'rfrf    raforaf Nap     flapping;fluttering;flickering'
+        'raforaf Nap     flapping;fluttering;flickering'
       ],
       'patterns' => {},
       'index' => '1',
@@ -110,8 +110,8 @@ $Lexicon = {
       'form' => 'rafraf',
       'lines' => [
         ';; raforaf_2',
-        'rfrf    raforaf Ndu     eyeshade',
-        'rfArf   rafArif Ndip    eyeshades'
+        'raforaf Ndu     eyeshade',
+        'rafArif Ndip    eyeshades'
       ],
       'patterns' => {
         'rafArif' => [
@@ -139,8 +139,8 @@ $Lexicon = {
       'form' => 'rafraf',
       'lines' => [
         ';; raforaf_3',
-        'rfrf    raforaf Ndu     fender',
-        'rfArf   rafArif Ndip    fenders'
+        'raforaf Ndu     fender',
+        'rafArif Ndip    fenders'
       ],
       'patterns' => {
         'rafArif' => [
@@ -168,8 +168,8 @@ $Lexicon = {
       'form' => 'rafruwf',
       'lines' => [
         ';; raforuwf_1',
-        'rfrwf   raforuwf        Ndu     eye bandage',
-        'rfAryf  rafAriyf        Ndip    eye bandages'
+        'raforuwf        Ndu     eye bandage',
+        'rafAriyf        Ndip    eye bandages'
       ],
       'patterns' => {
         'rafAriyf' => [
@@ -195,7 +195,7 @@ $Lexicon = {
       'form' => 'rA\'i^g',
       'lines' => [
         ';; rA}ij_1',
-        'rA}j    rA}ij   Nall    circulating;widespread     [[rA}ij/ADJ]]'
+        'rA}ij   Nall    circulating;widespread     [[rA}ij/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -224,9 +224,9 @@ $Lexicon = {
       'form' => 'ra_huw',
       'lines' => [
         ';; raxuw-a_1',
-        'rxw     raxuw   PV_intr be loose;slacken',
-        'rxw     roxuw   IV_0hAnn        be loose;slacken',
-        'rx      rox     IV_0hwnyn       be loose;slacken'
+        'raxuw   PV_intr be loose;slacken',
+        'roxuw   IV_0hAnn        be loose;slacken',
+        'rox     IV_0hwnyn       be loose;slacken'
       ],
       'patterns' => {
         'r_huw' => [
@@ -269,12 +269,12 @@ $Lexicon = {
       'form' => 'ra_hiy',
       'lines' => [
         ';; raxiy-a_1',
-        'rxy     raxiy   PV_no-w_intr    be loose;slacken',
-        'rx      rax     PV_w_intr       be loose;slacken',
-        'rxY     roxaY   IV_0    be loose;slacken',
-        'rxA     roxA    IV_h    be loose;slacken',
-        'rxy     roxay   IV_Ann  be loose;slacken',
-        'rx      roxa    IV_0hwnyn       be loose;slacken'
+        'raxiy   PV_no-w_intr    be loose;slacken',
+        'rax     PV_w_intr       be loose;slacken',
+        'roxaY   IV_0    be loose;slacken',
+        'roxA    IV_h    be loose;slacken',
+        'roxay   IV_Ann  be loose;slacken',
+        'roxa    IV_0hwnyn       be loose;slacken'
       ],
       'patterns' => {
         'r_hY' => [
@@ -317,11 +317,11 @@ $Lexicon = {
       'form' => 'ra_hA',
       'lines' => [
         ';; raxA-u_1',
-        'rxA     raxA    PV_0    live in ease or opulence',
-        'rxw     raxaw   PV_Atn  live in ease or opulence',
-        'rx      rax     PV_ttAw live in ease or opulence',
-        'rxw     roxuw   IV_0hAnn        live in ease or opulence',
-        'rx      rox     IV_0hwnyn       live in ease or opulence'
+        'raxA    PV_0    live in ease or opulence',
+        'raxaw   PV_Atn  live in ease or opulence',
+        'rax     PV_ttAw live in ease or opulence',
+        'roxuw   IV_0hAnn        live in ease or opulence',
+        'rox     IV_0hwnyn       live in ease or opulence'
       ],
       'patterns' => {
         'ra_haw' => [
@@ -375,14 +375,14 @@ $Lexicon = {
       'form' => '\'ar_hY',
       'lines' => [
         ';; >aroxaY_1',
-        '>rxY    >aroxaY PV_0    loosen;lower',
-        '>rxA    >aroxA  PV_h    loosen;lower',
-        '>rxy    >aroxay PV_Atn  loosen;lower',
-        '>rx     >arox   PV_ttAw loosen;lower',
-        'rxy     roxiy   IV_0hAnn_yu     loosen;lower',
-        'rx      rox     IV_0hwnyn_yu    loosen;lower',
-        'rxY     roxaY   IV_0_Pass_yu    be loosened;be lowered',
-        'rxy     roxay   IV_Ann_Pass_yu  be loosened;be lowered'
+        '>aroxaY PV_0    loosen;lower',
+        '>aroxA  PV_h    loosen;lower',
+        '>aroxay PV_Atn  loosen;lower',
+        '>arox   PV_ttAw loosen;lower',
+        'roxiy   IV_0hAnn_yu     loosen;lower',
+        'rox     IV_0hwnyn_yu    loosen;lower',
+        'roxaY   IV_0_Pass_yu    be loosened;be lowered',
+        'roxay   IV_Ann_Pass_yu  be loosened;be lowered'
       ],
       'patterns' => {
         'r_hiy' => [
@@ -424,14 +424,14 @@ $Lexicon = {
       'form' => 'tarA_hY',
       'lines' => [
         ';; tarAxaY_1',
-        'trAxY   tarAxaY PV_0    slacken;slump',
-        'trAxA   tarAxA  PV_h    slacken;slump',
-        'trAxy   tarAxay PV_Atn  slacken;slump',
-        'trAx    tarAx   PV_ttAw slacken;slump',
-        'trAxY   tarAxaY IV_0    slacken;slump',
-        'trAxA   tarAxA  IV_h    slacken;slump',
-        'trAxy   tarAxay IV_Ann  slacken;slump',
-        'trAx    tarAx   IV_0hwnyn       slacken;slump'
+        'tarAxaY PV_0    slacken;slump',
+        'tarAxA  PV_h    slacken;slump',
+        'tarAxay PV_Atn  slacken;slump',
+        'tarAx   PV_ttAw slacken;slump',
+        'tarAxaY IV_0    slacken;slump',
+        'tarAxA  IV_h    slacken;slump',
+        'tarAxay IV_Ann  slacken;slump',
+        'tarAx   IV_0hwnyn       slacken;slump'
       ],
       'patterns' => {},
       'index' => '1',
@@ -469,14 +469,14 @@ $Lexicon = {
       'entry' => 'irta_hY',
       'form' => 'irta_hY',
       'lines' => [
-        ';; {irotaxaY_1',
-        '<rtxY   {irotaxaY       PV_0    slacken;slump',
-        '<rtxA   {irotaxA        PV_h    slacken;slump',
-        '<rtxy   {irotaxay       PV_Atn  slacken;slump',
-        '<rtx    {irotax PV_ttAw slacken;slump',
-        'rtxy    rotaxiy IV_0hAnn        slacken;slump',
-        'rtx     rotax   IV_0hwnyn       slacken;slump',
-        'rtxY    rotaxaY IV_0    slacken;slump'
+        ';; AirotaxaY_1',
+        'AirotaxaY       PV_0    slacken;slump',
+        'AirotaxA        PV_h    slacken;slump',
+        'Airotaxay       PV_Atn  slacken;slump',
+        'Airotax PV_ttAw slacken;slump',
+        'rotaxiy IV_0hAnn        slacken;slump',
+        'rotax   IV_0hwnyn       slacken;slump',
+        'rotaxaY IV_0    slacken;slump'
       ],
       'patterns' => {
         'rta_hY' => [
@@ -521,14 +521,14 @@ $Lexicon = {
       'entry' => 'istar_hY',
       'form' => 'istar_hY',
       'lines' => [
-        ';; {isotaroxaY_1',
-        '<strxY  {isotaroxaY     PV_0    slacken;slump',
-        '<strxA  {isotaroxA      PV_h    slacken;slump',
-        '<strxy  {isotaroxay     PV_Atn  slacken;slump',
-        '<strx   {isotarox       PV_ttAw slacken;slump',
-        'strxy   sotaroxiy       IV_0hAnn        slacken;slump',
-        'strx    sotarox IV_0hwnyn       slacken;slump',
-        'strxY   sotaroxaY       IV_0    slacken;slump'
+        ';; AisotaroxaY_1',
+        'AisotaroxaY     PV_0    slacken;slump',
+        'AisotaroxA      PV_h    slacken;slump',
+        'Aisotaroxay     PV_Atn  slacken;slump',
+        'Aisotarox       PV_ttAw slacken;slump',
+        'sotaroxiy       IV_0hAnn        slacken;slump',
+        'sotarox IV_0hwnyn       slacken;slump',
+        'sotaroxaY       IV_0    slacken;slump'
       ],
       'patterns' => {},
       'index' => '1',
@@ -552,8 +552,8 @@ $Lexicon = {
       'form' => 'ra_hw',
       'lines' => [
         ';; raxow_1',
-        'rxw     raxow   N/ap    loose;limp',
-        'rxw     rixow   N/ap    loose;limp'
+        'raxow   N/ap    loose;limp',
+        'rixow   N/ap    loose;limp'
       ],
       'patterns' => {
         'ri_hw' => [
@@ -581,7 +581,7 @@ $Lexicon = {
       'form' => 'ra_hawiyy',
       'lines' => [
         ';; raxawiy~_1',
-        'rxwy    raxawiy~        NAt     mollusks'
+        'raxawiy~        NAt     mollusks'
       ],
       'patterns' => {
         'ra_hawiyy' => []
@@ -602,9 +602,9 @@ $Lexicon = {
       'form' => 'ra_hA\'',
       'lines' => [
         ';; raxA\'_1',
-        'rxA\'    raxA\'   N0_Nh   comfort;luxury',
-        'rxA&    raxA&   Nh      comfort;luxury',
-        'rxA}    raxA}   Nhy     comfort;luxury'
+        'raxA\'   N0_Nh   comfort;luxury',
+        'raxA&   Nh      comfort;luxury',
+        'raxA}   Nhy     comfort;luxury'
       ],
       'patterns' => {},
       'index' => '1',
@@ -624,9 +624,9 @@ $Lexicon = {
       'form' => 'ru_hA\'',
       'lines' => [
         ';; ruxA\'_1',
-        'rxA\'    ruxA\'   N0_Nh   gentle breeze',
-        'rxA&    ruxA&   Nh      gentle breeze',
-        'rxA}    ruxA}   Nhy     gentle breeze'
+        'ruxA\'   N0_Nh   gentle breeze',
+        'ruxA&   Nh      gentle breeze',
+        'ruxA}   Nhy     gentle breeze'
       ],
       'patterns' => {},
       'index' => '1',
@@ -645,7 +645,7 @@ $Lexicon = {
       'form' => 'ra_hAwaT',
       'lines' => [
         ';; raxAwap_1',
-        'rxAw    raxAw   Nap     softness;weakness'
+        'raxAw   Nap     softness;weakness'
       ],
       'patterns' => {},
       'index' => '1',
@@ -669,10 +669,10 @@ $Lexicon = {
       'form' => 'tarA_hiy',
       'lines' => [
         ';; tarAxiy_1',
-        'trAxy   tarAxiy N0_Nh   languor;mitigation;looseness',
-        'trAx    tarAx   NK      languor;mitigation;looseness',
-        'trAxy   tarAxiy NAn_Nayn        languor;mitigation;looseness',
-        'trAxy   tarAxiy NAt     languor;mitigation;looseness'
+        'tarAxiy N0_Nh   languor;mitigation;looseness',
+        'tarAx   NK      languor;mitigation;looseness',
+        'tarAxiy NAn_Nayn        languor;mitigation;looseness',
+        'tarAxiy NAt     languor;mitigation;looseness'
       ],
       'patterns' => {
         'tarA_hiy' => [
@@ -700,13 +700,13 @@ $Lexicon = {
       'entry' => 'irti_hA\'',
       'form' => 'irti_hA\'',
       'lines' => [
-        ';; {irotixA\'_1',
-        '<rtxA\'  {irotixA\'       N0_Nh   laxity;slackening',
-        '<rtxA&  {irotixA&       Nh      laxity;slackening',
-        '<rtxA}  {irotixA}       Nhy     laxity;slackening',
-        '<rtxA\'  {irotixA\'       NAn_Nayn        laxity;slackening',
-        '<rtxA}  {irotixA}       Nayn    laxity;slackening',
-        '<rtxA\'  {irotixA\'       NAt     laxity;slackening'
+        ';; AirotixA\'_1',
+        'AirotixA\'       N0_Nh   laxity;slackening',
+        'AirotixA&       Nh      laxity;slackening',
+        'AirotixA}       Nhy     laxity;slackening',
+        'AirotixA\'       NAn_Nayn        laxity;slackening',
+        'AirotixA}       Nayn    laxity;slackening',
+        'AirotixA\'       NAt     laxity;slackening'
       ],
       'patterns' => {
         'irti_hA\'' => [
@@ -733,11 +733,11 @@ $Lexicon = {
       'entry' => 'istir_hA\'',
       'form' => 'istir_hA\'',
       'lines' => [
-        ';; {isotiroxA\'_1',
-        '<strxA\' {isotiroxA\'     N0_Nh   laxity;slackening',
-        '<strxA& {isotiroxA&     Nh      laxity;slackening',
-        '<strxA} {isotiroxA}     Nhy     laxity;slackening',
-        '<strxA\' {isotiroxA\'     NAt     laxity;slackening'
+        ';; AisotiroxA\'_1',
+        'AisotiroxA\'     N0_Nh   laxity;slackening',
+        'AisotiroxA&     Nh      laxity;slackening',
+        'AisotiroxA}     Nhy     laxity;slackening',
+        'AisotiroxA\'     NAt     laxity;slackening'
       ],
       'patterns' => {
         'istir_hA\'' => [
@@ -768,11 +768,11 @@ $Lexicon = {
       'form' => 'rA_hiy',
       'lines' => [
         ';; rAxiy_1',
-        'rAxy    rAxiy   N0F     sagging;drooping     [[rAxiy/ADJ]]',
-        'rAx     rAx     NK      sagging;drooping',
-        'rAxy    rAxiy   NAn_Nayn        sagging;drooping',
-        'rAx     rAx     Nuwn_Niyn       sagging;drooping',
-        'rAxy    rAxiy   NapAt   sagging;drooping'
+        'rAxiy   N0F     sagging;drooping     [[rAxiy/ADJ]]',
+        'rAx     NK      sagging;drooping',
+        'rAxiy   NAn_Nayn        sagging;drooping',
+        'rAx     Nuwn_Niyn       sagging;drooping',
+        'rAxiy   NapAt   sagging;drooping'
       ],
       'patterns' => {
         'rA_hiy' => [
@@ -804,11 +804,11 @@ $Lexicon = {
       'form' => 'mutarA_hiy',
       'lines' => [
         ';; mutarAxiy_1',
-        'mtrAxy  mutarAxiy       N0F_Nh  languid;indolent     [[mutarAxiy/ADJ]]',
-        'mtrAx   mutarAx NK      languid;indolent',
-        'mtrAxy  mutarAxiy       NAn_Nayn        languid;indolent',
-        'mtrAx   mutarAx Nuwn_Niyn       languid;indolent',
-        'mtrAxy  mutarAxiy       NapAt   languid;indolent'
+        'mutarAxiy       N0F_Nh  languid;indolent     [[mutarAxiy/ADJ]]',
+        'mutarAx NK      languid;indolent',
+        'mutarAxiy       NAn_Nayn        languid;indolent',
+        'mutarAx Nuwn_Niyn       languid;indolent',
+        'mutarAxiy       NapAt   languid;indolent'
       ],
       'patterns' => {
         'mutarA_hiy' => [
@@ -839,8 +839,8 @@ $Lexicon = {
       'form' => 'ra_hu.s',
       'lines' => [
         ';; raxuS-u_1',
-        'rxS     raxuS   PV_intr be cheap;be tender',
-        'rxS     roxuS   IV_intr be cheap;be tender'
+        'raxuS   PV_intr be cheap;be tender',
+        'roxuS   IV_intr be cheap;be tender'
       ],
       'patterns' => {
         'r_hu.s' => [
@@ -871,8 +871,8 @@ $Lexicon = {
       'form' => 'ra_h_ha.s',
       'lines' => [
         ';; rax~aS_1',
-        'rxS     rax~aS  PV      authorize;license',
-        'rxS     rax~iS  IV_yu   authorize;license'
+        'rax~aS  PV      authorize;license',
+        'rax~iS  IV_yu   authorize;license'
       ],
       'patterns' => {
         'ra_h_hi.s' => [
@@ -903,9 +903,9 @@ $Lexicon = {
       'form' => '\'ar_ha.s',
       'lines' => [
         ';; >aroxaS_1',
-        '>rxS    >aroxaS PV      cheapen',
-        'rxS     roxiS   IV_yu   cheapen',
-        'rxS     roxaS   IV_Pass_yu      be cheapened'
+        '>aroxaS PV      cheapen',
+        'roxiS   IV_yu   cheapen',
+        'roxaS   IV_Pass_yu      be cheapened'
       ],
       'patterns' => {
         'r_hi.s' => [
@@ -932,8 +932,8 @@ $Lexicon = {
       'form' => 'tara_h_ha.s',
       'lines' => [
         ';; tarax~aS_1',
-        'trxS    tarax~aS        PV_intr be compromising;make concessions',
-        'trxS    tarax~aS        IV_intr be compromising;make concessions'
+        'tarax~aS        PV_intr be compromising;make concessions',
+        'tarax~aS        IV_intr be compromising;make concessions'
       ],
       'patterns' => {},
       'index' => '1',
@@ -956,9 +956,9 @@ $Lexicon = {
       'entry' => 'istar_ha.s',
       'form' => 'istar_ha.s',
       'lines' => [
-        ';; {isotaroxaS_1',
-        '<strxS  {isotaroxaS     PV      regard as inexpensive;request permission',
-        'strxS   sotaroxiS       IV      regard as inexpensive;request permission'
+        ';; AisotaroxaS_1',
+        'AisotaroxaS     PV      regard as inexpensive;request permission',
+        'sotaroxiS       IV      regard as inexpensive;request permission'
       ],
       'patterns' => {},
       'index' => '1',
@@ -978,7 +978,7 @@ $Lexicon = {
       'form' => 'ra_h.s',
       'lines' => [
         ';; raxoS_1',
-        'rxS     raxoS   N       supple;soft'
+        'raxoS   N       supple;soft'
       ],
       'patterns' => {},
       'index' => '1',
@@ -998,7 +998,7 @@ $Lexicon = {
       'form' => 'ru_h.s',
       'lines' => [
         ';; ruxoS_1',
-        'rxS     ruxoS   N       cheapness;inexpensiveness'
+        'ruxoS   N       cheapness;inexpensiveness'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1022,8 +1022,8 @@ $Lexicon = {
       'form' => 'ru_h.saT',
       'lines' => [
         ';; ruxoSap_1',
-        'rxS     ruxoS   Napdu   license;permit',
-        'rxS     ruxaS   N       licenses;permits'
+        'ruxoS   Napdu   license;permit',
+        'ruxaS   N       licenses;permits'
       ],
       'patterns' => {
         'ru_ha.s' => [
@@ -1049,7 +1049,7 @@ $Lexicon = {
       'form' => 'ra_hiy.s',
       'lines' => [
         ';; raxiyS_1',
-        'rxyS    raxiyS  N/ap    cheap     [[raxiyS/ADJ]]'
+        'raxiyS  N/ap    cheap     [[raxiyS/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1075,8 +1075,8 @@ $Lexicon = {
       'form' => 'tar_hiy.s',
       'lines' => [
         ';; taroxiyS_1',
-        'trxyS   taroxiyS        NduAt   granting of permission;licensing',
-        'trAxyS  tarAxiyS        Ndip    granting of permission;licensing'
+        'taroxiyS        NduAt   granting of permission;licensing',
+        'tarAxiyS        Ndip    granting of permission;licensing'
       ],
       'patterns' => {
         'tarA_hiy.s' => [
@@ -1103,7 +1103,7 @@ $Lexicon = {
       'form' => 'mura_h_ha.s',
       'lines' => [
         ';; murax~aS_1',
-        'mrxS    murax~aS        Nall    licensed;officially registered     [[murax~aS/ADJ]]'
+        'murax~aS        Nall    licensed;officially registered     [[murax~aS/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1123,7 +1123,7 @@ $Lexicon = {
       'form' => 'murta_ha.s',
       'lines' => [
         ';; murotaxaS_1',
-        'mrtxS   murotaxaS       Nall    cheap;low-priced     [[murotaxaS/ADJ]]'
+        'murotaxaS       Nall    cheap;low-priced     [[murotaxaS/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1145,7 +1145,7 @@ $Lexicon = {
       'form' => 'ruwAnuw',
       'lines' => [
         ';; ruwAnuw_1',
-        'rwAnw   ruwAnuw Nprop   Ruano'
+        'ruwAnuw Nprop   Ruano'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1176,10 +1176,10 @@ $Lexicon = {
       'form' => 'ra^g^g',
       'lines' => [
         ';; raj~-u_1',
-        'rj      raj~    PV_V    convulse;shake;quake',
-        'rjj     rajaj   PV_C    convulse;shake;quake',
-        'rj      ruj~    IV_V    convulse;shake;quake',
-        'rjj     rojuj   IV_C    convulse;shake;quake'
+        'raj~    PV_V    convulse;shake;quake',
+        'rajaj   PV_C    convulse;shake;quake',
+        'ruj~    IV_V    convulse;shake;quake',
+        'rojuj   IV_C    convulse;shake;quake'
       ],
       'patterns' => {
         'ru^g^g' => [
@@ -1222,11 +1222,11 @@ $Lexicon = {
       'entry' => 'irta^g^g',
       'form' => 'irta^g^g',
       'lines' => [
-        ';; {irotaj~_1',
-        '<rtj    {irotaj~        PV_V    shake;tremble;be blurred',
-        '<rtjj   {irotajaj       PV_C    shake;tremble;be blurred',
-        'rtj     rotaj~  IV_V    shake;tremble;be blurred',
-        'rtjj    rotajij IV_C    shake;tremble;be blurred'
+        ';; Airotaj~_1',
+        'Airotaj~        PV_V    shake;tremble;be blurred',
+        'Airotajaj       PV_C    shake;tremble;be blurred',
+        'rotaj~  IV_V    shake;tremble;be blurred',
+        'rotajij IV_C    shake;tremble;be blurred'
       ],
       'patterns' => {
         'rta^g^g' => [
@@ -1257,7 +1257,7 @@ $Lexicon = {
       'form' => 'ra^g^g',
       'lines' => [
         ';; raj~_1',
-        'rj      raj~    N       rocking;shaking'
+        'raj~    N       rocking;shaking'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1277,7 +1277,7 @@ $Lexicon = {
       'form' => 'ra^g^gaT',
       'lines' => [
         ';; raj~ap_1',
-        'rj      raj~    Nap     shock;tremor;concussion'
+        'raj~    Nap     shock;tremor;concussion'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1298,7 +1298,7 @@ $Lexicon = {
       'form' => 'ra^g^gA^g',
       'lines' => [
         ';; raj~Aj_1',
-        'rjAj    raj~Aj  N       convulsion;shock;concussion'
+        'raj~Aj  N       convulsion;shock;concussion'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1322,8 +1322,8 @@ $Lexicon = {
       'entry' => 'irti^gA^g',
       'form' => 'irti^gA^g',
       'lines' => [
-        ';; {irotijAj_1',
-        '<rtjAj  {irotijAj       NduAt   trembling;shock'
+        ';; AirotijAj_1',
+        'AirotijAj       NduAt   trembling;shock'
       ],
       'patterns' => {
         'irti^gA^g' => [
@@ -1350,8 +1350,8 @@ $Lexicon = {
       'entry' => 'irti^gA^g',
       'form' => 'irti^gA^g',
       'lines' => [
-        ';; {irotijAj_2',
-        '<rtjAj  {irotijAj       NduAt   tremor;concussion'
+        ';; AirotijAj_2',
+        'AirotijAj       NduAt   tremor;concussion'
       ],
       'patterns' => {
         'irti^gA^g' => [
@@ -1375,7 +1375,7 @@ $Lexicon = {
       'form' => 'murta^g^g',
       'lines' => [
         ';; murotaj~_1',
-        'mrtj    murotaj~        Nall    shaking;trembling     [[murotaj~/ADJ]]'
+        'murotaj~        Nall    shaking;trembling     [[murotaj~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1397,7 +1397,7 @@ $Lexicon = {
       'form' => 'rAtiyna^g',
       'lines' => [
         ';; rAtiynaj_1',
-        'rAtynj  rAtiynaj        N       resin'
+        'rAtiynaj        N       resin'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1422,8 +1422,8 @@ $Lexicon = {
       'form' => 'raqraq',
       'lines' => [
         ';; raqoraq_1',
-        'rqrq    raqoraq PV      mix;dilute',
-        'rqrq    raqoriq IV_yu   mix;dilute'
+        'raqoraq PV      mix;dilute',
+        'raqoriq IV_yu   mix;dilute'
       ],
       'patterns' => {
         'raqriq' => [
@@ -1447,8 +1447,8 @@ $Lexicon = {
       'form' => 'taraqraq',
       'lines' => [
         ';; taraqoraq_1',
-        'trqrq   taraqoraq       PV      overflow;glisten;stir gently',
-        'trqrq   taraqoraq       IV      overflow;glisten;stir gently'
+        'taraqoraq       PV      overflow;glisten;stir gently',
+        'taraqoraq       IV      overflow;glisten;stir gently'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1469,7 +1469,7 @@ $Lexicon = {
       'form' => 'raqrAq',
       'lines' => [
         ';; raqorAq_1',
-        'rqrAq   raqorAq N-ap    moist;glistening;radiant'
+        'raqorAq N-ap    moist;glistening;radiant'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1492,7 +1492,7 @@ $Lexicon = {
       'form' => 'raqn',
       'lines' => [
         ';; raqon_1',
-        'rqn     raqon   N       typewriting'
+        'raqon   N       typewriting'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1511,7 +1511,7 @@ $Lexicon = {
       'form' => 'rAqin',
       'lines' => [
         ';; rAqin_1',
-        'rAqn    rAqin   N-ap    typewriter'
+        'rAqin   N-ap    typewriter'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1536,8 +1536,8 @@ $Lexicon = {
       'form' => 'ra\'am',
       'lines' => [
         ';; ra>am-a_1',
-        'r>m     ra>am   PV      repair;mend',
-        'r>m     ro>am   IV      repair;mend'
+        'ra>am   PV      repair;mend',
+        'ro>am   IV      repair;mend'
       ],
       'patterns' => {
         'r\'am' => [
@@ -1568,8 +1568,8 @@ $Lexicon = {
       'form' => 'ra\'im',
       'lines' => [
         ';; ra}im-a_1',
-        'r}m     ra}im   PV      love tenderly;be fond of;caress',
-        'r>m     ro>am   IV      love tenderly;be fond of;caress'
+        'ra}im   PV      love tenderly;be fond of;caress',
+        'ro>am   IV      love tenderly;be fond of;caress'
       ],
       'patterns' => {
         'r\'am' => [
@@ -1607,10 +1607,10 @@ $Lexicon = {
       'form' => 'ri\'m',
       'lines' => [
         ';; ri}om_1',
-        'r}m     ri}om   N       white antelope;addax',
-        'rym     riym    N       white antelope;addax',
-        '>r|m    >aro|m  N       white antelope;addax',
-        '|rAm    |rAm    N       white antelope;addax'
+        'ri}om   N       white antelope;addax',
+        'riym    N       white antelope;addax',
+        '>aro|m  N       white antelope;addax',
+        '|rAm    N       white antelope;addax'
       ],
       'patterns' => {
         '\'ar\'Am' => [
@@ -1640,8 +1640,8 @@ $Lexicon = {
       'form' => 'ra\'uwm',
       'lines' => [
         ';; ra&uwm_1',
-        'r&wm    ra&uwm  N/ap    loving;tender',
-        'r\'wm    ra\'uwm  N/ap    loving;tender'
+        'ra&uwm  N/ap    loving;tender',
+        'ra\'uwm  N/ap    loving;tender'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1661,7 +1661,7 @@ $Lexicon = {
       'form' => 'rAm',
       'lines' => [
         ';; rAm_1',
-        'rAm     rAm     N0      Ram'
+        'rAm     N0      Ram'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1680,7 +1680,7 @@ $Lexicon = {
       'form' => 'rAm',
       'lines' => [
         ';; rAm_2',
-        'rAm     rAm     N0      RAM (random access memory)'
+        'rAm     N0      RAM (random access memory)'
       ],
       'patterns' => {},
       'index' => '2',
@@ -1701,7 +1701,7 @@ $Lexicon = {
       'form' => 'rAlf',
       'lines' => [
         ';; rAlf_1',
-        'rAlf    rAlf    Nprop   Ralph'
+        'rAlf    Nprop   Ralph'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1729,9 +1729,9 @@ $Lexicon = {
       'form' => 'razam',
       'lines' => [
         ';; razam-ui_1',
-        'rzm     razam   PV      bundle;wrap up',
-        'rzm     rozum   IV      bundle;wrap up',
-        'rzm     rozim   IV      bundle;wrap up'
+        'razam   PV      bundle;wrap up',
+        'rozum   IV      bundle;wrap up',
+        'rozim   IV      bundle;wrap up'
       ],
       'patterns' => {
         'rzim' => [
@@ -1766,8 +1766,8 @@ $Lexicon = {
       'form' => 'rizmaT',
       'lines' => [
         ';; rizomap_1',
-        'rzm     rizom   Napdu   bundle;parcel',
-        'rzm     rizam   N       bundles;parcels'
+        'rizom   Napdu   bundle;parcel',
+        'rizam   N       bundles;parcels'
       ],
       'patterns' => {
         'rizam' => [
@@ -1793,7 +1793,7 @@ $Lexicon = {
       'form' => 'rAzim',
       'lines' => [
         ';; rAzim_1',
-        'rAzm    rAzim   N0      Razim;Razem'
+        'rAzim   N0      Razim;Razem'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1815,7 +1815,7 @@ $Lexicon = {
       'form' => 'rufAt',
       'lines' => [
         ';; rufAt_1',
-        'rfAt    rufAt   N       remains;body'
+        'rufAt   N       remains;body'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1840,8 +1840,8 @@ $Lexicon = {
       'entry' => 'irtiyAd',
       'form' => 'irtiyAd',
       'lines' => [
-        ';; {irotiyAd_1',
-        '<rtyAd  {irotiyAd       NduAt   exploration;visit'
+        ';; AirotiyAd_1',
+        'AirotiyAd       NduAt   exploration;visit'
       ],
       'patterns' => {
         'irtiyAd' => [
@@ -1865,7 +1865,7 @@ $Lexicon = {
       'form' => 'muriyd',
       'lines' => [
         ';; muriyd_1',
-        'mryd    muriyd  Nall    desiring;follower;aspirant'
+        'muriyd  Nall    desiring;follower;aspirant'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1892,8 +1892,8 @@ $Lexicon = {
       'form' => 'ri`diyd',
       'lines' => [
         ';; riEodiyd_1',
-        'rEdyd   riEodiyd        N/ap    coward;cowardly     [[riEodiyd/ADJ]]',
-        'rEAdyd  raEAdiyd        Ndip    coward;cowardly'
+        'riEodiyd        N/ap    coward;cowardly     [[riEodiyd/ADJ]]',
+        'raEAdiyd        Ndip    coward;cowardly'
       ],
       'patterns' => {
         'ra`Adiyd' => [
@@ -1919,7 +1919,7 @@ $Lexicon = {
       'form' => 'riyuw',
       'lines' => [
         ';; riyuw_1',
-        'ryw     riyuw   Nprop   Rio'
+        'riyuw   Nprop   Rio'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1940,7 +1940,7 @@ $Lexicon = {
       'form' => 'ruwbiyr',
       'lines' => [
         ';; ruwbiyr_1',
-        'rwbyr   ruwbiyr Nprop   Robert'
+        'ruwbiyr Nprop   Robert'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1968,9 +1968,9 @@ $Lexicon = {
       'form' => 'rihmaT',
       'lines' => [
         ';; rihomap_1',
-        'rhm     rihom   Nap     drizzle',
-        'rhm     riham   N       drizzle',
-        'rhAm    rihAm   N       drizzle'
+        'rihom   Nap     drizzle',
+        'riham   N       drizzle',
+        'rihAm   N       drizzle'
       ],
       'patterns' => {
         'riham' => [
@@ -2000,8 +2000,8 @@ $Lexicon = {
       'form' => 'marham',
       'lines' => [
         ';; maroham_1',
-        'mrhm    maroham Ndu     ointment;salve',
-        'mrAhm   marAhim Ndip    ointments;salves'
+        'maroham Ndu     ointment;salve',
+        'marAhim Ndip    ointments;salves'
       ],
       'patterns' => {
         'marAhim' => [
@@ -2034,9 +2034,9 @@ $Lexicon = {
       'form' => 'rA^gA',
       'lines' => [
         ';; rAjA_1',
-        'rAjA    rAjA    N0      Rajah',
-        'rAjAw   rAjAw   NAn_Nayn        Rajahs',
-        'rAjAw   rAjAw   NAt     Rajahs'
+        'rAjA    N0      Rajah',
+        'rAjAw   NAn_Nayn        Rajahs',
+        'rAjAw   NAt     Rajahs'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2062,8 +2062,8 @@ $Lexicon = {
       'form' => 'rama.h',
       'lines' => [
         ';; ramaH-a_1',
-        'rmH     ramaH   PV      pierce;transfix',
-        'rmH     romaH   IV      pierce;transfix'
+        'ramaH   PV      pierce;transfix',
+        'romaH   IV      pierce;transfix'
       ],
       'patterns' => {
         'rma.h' => [
@@ -2097,9 +2097,9 @@ $Lexicon = {
       'form' => 'rum.h',
       'lines' => [
         ';; rumoH_1',
-        'rmH     rumoH   Ndu     spear;lance;javelin',
-        'rmAH    rimAH   N       spears;lances;javelins',
-        '>rmAH   >aromAH N       spears;lances;javelins'
+        'rumoH   Ndu     spear;lance;javelin',
+        'rimAH   N       spears;lances;javelins',
+        '>aromAH N       spears;lances;javelins'
       ],
       'patterns' => {
         'rimA.h' => [
@@ -2130,7 +2130,7 @@ $Lexicon = {
       'form' => 'rumay.hiyy',
       'lines' => [
         ';; rumayoHiy~_1',
-        'rmyHy   rumayoHiy~      N0      Rumaihi'
+        'rumayoHiy~      N0      Rumaihi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2149,8 +2149,8 @@ $Lexicon = {
       'form' => 'rammA.h',
       'lines' => [
         ';; ram~AH_1',
-        'rmAH    ram~AH  Ndu     lancer;uhlan',
-        'rmAH    ram~AH  Nap     lancers;uhlans'
+        'ram~AH  Ndu     lancer;uhlan',
+        'ram~AH  Nap     lancers;uhlans'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2172,7 +2172,7 @@ $Lexicon = {
       'form' => 'rAmi.h',
       'lines' => [
         ';; rAmiH_1',
-        'rAmH    rAmiH   N0      Arcturus (star)'
+        'rAmiH   N0      Arcturus (star)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2193,7 +2193,7 @@ $Lexicon = {
       'form' => 'ra^sAwiyy',
       'lines' => [
         ';; ra$Awiy~_1',
-        'r$Awy   ra$Awiy~        N       bribery;bribes'
+        'ra$Awiy~        N       bribery;bribes'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2222,9 +2222,9 @@ $Lexicon = {
       'form' => 'rasaf',
       'lines' => [
         ';; rasaf-ui_1',
-        'rsf     rasaf   PV_intr be shackled;be moored',
-        'rsf     rosuf   IV_intr be shackled;be moored',
-        'rsf     rosif   IV_intr be shackled;be moored'
+        'rasaf   PV_intr be shackled;be moored',
+        'rosuf   IV_intr be shackled;be moored',
+        'rosif   IV_intr be shackled;be moored'
       ],
       'patterns' => {
         'rsuf' => [
@@ -2255,7 +2255,7 @@ $Lexicon = {
       'form' => 'rasf',
       'lines' => [
         ';; rasof_1',
-        'rsf     rasof   N       being shackled;being moored'
+        'rasof   N       being shackled;being moored'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2281,8 +2281,8 @@ $Lexicon = {
       'form' => 'yarbuw`',
       'lines' => [
         ';; yarobuwE_1',
-        'yrbwE   yarobuwE        N       jerboa',
-        'yrAbyE  yarAbiyE        Ndip    jerboas'
+        'yarobuwE        N       jerboa',
+        'yarAbiyE        Ndip    jerboas'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2308,8 +2308,8 @@ $Lexicon = {
       'form' => 'ruwlA',
       'lines' => [
         ';; ruwlA_1',
-        'rwlA    ruwlA   Nprop   Rola;Rula;Roula',
-        'rlA     rulA    Nprop   Rola;Rula;Roula'
+        'ruwlA   Nprop   Rola;Rula;Roula',
+        'rulA    Nprop   Rola;Rula;Roula'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2344,13 +2344,13 @@ $Lexicon = {
       'form' => 'raqa\'',
       'lines' => [
         ';; raqa>-a_1',
-        'rq>     raqa>   PV->    cease flowing',
-        'rq|     raqa|   PV-|    cease flowing',
-        'rq&     raqa&   PV_w    cease flowing',
-        'rq>     roqa>   IV_intr cease flowing',
-        'rq|     roqa|   IV-|    cease flowing',
-        'rq&     roqa&   IV_wn   cease flowing',
-        'rq}     roqa}   IV_yn   cease flowing'
+        'raqa>   PV->    cease flowing',
+        'raqa|   PV-|    cease flowing',
+        'raqa&   PV_w    cease flowing',
+        'roqa>   IV_intr cease flowing',
+        'roqa|   IV-|    cease flowing',
+        'roqa&   IV_wn   cease flowing',
+        'roqa}   IV_yn   cease flowing'
       ],
       'patterns' => {
         'rqa\'' => [
@@ -2379,13 +2379,13 @@ $Lexicon = {
       'entry' => 'irtiqA\'',
       'form' => 'irtiqA\'',
       'lines' => [
-        ';; {irotiqA\'_1',
-        '<rtqA\'  {irotiqA\'       N0_Nh   ascent;advancement;progress;evolution',
-        '<rtqA&  {irotiqA&       Nh      ascent;advancement;progress;evolution',
-        '<rtqA}  {irotiqA}       Nhy     ascent;advancement;progress;evolution',
-        '<rtqA\'  {irotiqA\'       NAn_Nayn        ascents;advancements;progress',
-        '<rtqA}  {irotiqA}       Nayn    ascents;advancements;progress',
-        '<rtqA\'  {irotiqA\'       NAt     ascents;advancements;progress'
+        ';; AirotiqA\'_1',
+        'AirotiqA\'       N0_Nh   ascent;advancement;progress;evolution',
+        'AirotiqA&       Nh      ascent;advancement;progress;evolution',
+        'AirotiqA}       Nhy     ascent;advancement;progress;evolution',
+        'AirotiqA\'       NAn_Nayn        ascents;advancements;progress',
+        'AirotiqA}       Nayn    ascents;advancements;progress',
+        'AirotiqA\'       NAt     ascents;advancements;progress'
       ],
       'patterns' => {
         'irtiqA\'' => [
@@ -2422,9 +2422,9 @@ $Lexicon = {
       'form' => 'radas',
       'lines' => [
         ';; radas-ui_1',
-        'rds     radas   PV      crush;roll smooth',
-        'rds     rodus   IV      crush;roll smooth',
-        'rds     rodis   IV      crush;roll smooth'
+        'radas   PV      crush;roll smooth',
+        'rodus   IV      crush;roll smooth',
+        'rodis   IV      crush;roll smooth'
       ],
       'patterns' => {
         'rdis' => [
@@ -2457,7 +2457,7 @@ $Lexicon = {
       'form' => 'rAm^stAyin',
       'lines' => [
         ';; rAmo$tAyin_1',
-        'rAm$tAyn        rAmo$tAyin      N0      Ramstein'
+        'rAmo$tAyin      N0      Ramstein'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2478,7 +2478,7 @@ $Lexicon = {
       'form' => 'tarbawiyy',
       'lines' => [
         ';; tarobawiy~_1',
-        'trbwy   tarobawiy~      Nall    pedagogical;educational     [[tarobawiy~/ADJ]]'
+        'tarobawiy~      Nall    pedagogical;educational     [[tarobawiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2500,7 +2500,7 @@ $Lexicon = {
       'form' => 'rA\'iq',
       'lines' => [
         ';; rA}iq_1',
-        'rA}q    rA}iq   Nall    clear;pure;unblemished     [[rA}iq/ADJ]]'
+        'rA}iq   Nall    clear;pure;unblemished     [[rA}iq/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2531,10 +2531,10 @@ $Lexicon = {
       'form' => 'rAq',
       'lines' => [
         ';; rAq-i_1',
-        'rAq     rAq     PV_V    shine;glisten',
-        'rq      riq     PV_C    shine;glisten',
-        'ryq     riyq    IV_V    shine;glisten',
-        'rq      riq     IV_C    shine;glisten'
+        'rAq     PV_V    shine;glisten',
+        'riq     PV_C    shine;glisten',
+        'riyq    IV_V    shine;glisten',
+        'riq     IV_C    shine;glisten'
       ],
       'patterns' => {
         'riq' => [
@@ -2568,9 +2568,9 @@ $Lexicon = {
       'form' => 'riyq',
       'lines' => [
         ';; riyq_1',
-        'ryq     riyq    N       saliva;spittle',
-        'ryq     riyq    Nap     saliva;spittle',
-        '>ryAq   >aroyAq N       saliva;spittle'
+        'riyq    N       saliva;spittle',
+        'riyq    Nap     saliva;spittle',
+        '>aroyAq N       saliva;spittle'
       ],
       'patterns' => {
         '\'aryAq' => [
@@ -2594,7 +2594,7 @@ $Lexicon = {
       'form' => 'rayyiq',
       'lines' => [
         ';; ray~iq_1',
-        'ryq     ray~iq  N       prime time;full bloom'
+        'ray~iq  N       prime time;full bloom'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2626,10 +2626,10 @@ $Lexicon = {
       'form' => 'ramaz',
       'lines' => [
         ';; ramaz-ui_1',
-        'rmz     ramaz   PV      signal;designate;indicate;symbolize;represent',
-        'rmz     romuz   IV      signal;designate;indicate;symbolize;represent',
-        'rmz     romiz   IV      signal;designate;indicate;symbolize;represent',
-        'rmz     romaz   IV_Pass_yu      be indicated;be represented;be designated'
+        'ramaz   PV      signal;designate;indicate;symbolize;represent',
+        'romuz   IV      signal;designate;indicate;symbolize;represent',
+        'romiz   IV      signal;designate;indicate;symbolize;represent',
+        'romaz   IV_Pass_yu      be indicated;be represented;be designated'
       ],
       'patterns' => {
         'rmaz' => [
@@ -2673,8 +2673,8 @@ $Lexicon = {
       'form' => 'ramz',
       'lines' => [
         ';; ramoz_1',
-        'rmz     ramoz   Ndu     sign;symbol;emblem',
-        'rmwz    rumuwz  N       signs;symbols;emblems'
+        'ramoz   Ndu     sign;symbol;emblem',
+        'rumuwz  N       signs;symbols;emblems'
       ],
       'patterns' => {
         'rumuwz' => [
@@ -2702,7 +2702,7 @@ $Lexicon = {
       'form' => 'ramziyy',
       'lines' => [
         ';; ramoziy~_1',
-        'rmzy    ramoziy~        Nall    symbolic     [[ramoziy~/ADJ]]'
+        'ramoziy~        Nall    symbolic     [[ramoziy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2721,7 +2721,7 @@ $Lexicon = {
       'form' => 'ramziyy',
       'lines' => [
         ';; ramoziy~_2',
-        'rmzy    ramoziy~        Nall    encoded;encrypted;in cipher     [[ramoziy~/ADJ]]'
+        'ramoziy~        Nall    encoded;encrypted;in cipher     [[ramoziy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -2742,7 +2742,7 @@ $Lexicon = {
       'form' => 'ramziyyaT',
       'lines' => [
         ';; ramoziy~ap_1',
-        'rmzy    ramoziy~        Nap     symbolism     [[ramoziy~/NOUN]]'
+        'ramoziy~        Nap     symbolism     [[ramoziy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2765,7 +2765,7 @@ $Lexicon = {
       'form' => 'ramziyyAt',
       'lines' => [
         ';; ramoziy~At_1',
-        'rmzy    ramoziy~        NAt     cipher;code;encryption     [[ramoziy~/NOUN]]'
+        'ramoziy~        NAt     cipher;code;encryption     [[ramoziy~/NOUN]]'
       ],
       'patterns' => {
         'ramziyy' => []
@@ -2792,8 +2792,8 @@ $Lexicon = {
       'form' => 'rAmuwz',
       'lines' => [
         ';; rAmuwz_1',
-        'rAmwz   rAmuwz  N       specimen;sample;facsimile',
-        'rwAmyz  rawAmiyz        Ndip    specimens;samples;facsimiles'
+        'rAmuwz  N       specimen;sample;facsimile',
+        'rawAmiyz        Ndip    specimens;samples;facsimiles'
       ],
       'patterns' => {
         'rawAmiyz' => [
@@ -2827,8 +2827,8 @@ $Lexicon = {
       'form' => 'ra.tam',
       'lines' => [
         ';; raTam-u_1',
-        'rTm     raTam   PV      involve;implicate',
-        'rTm     roTum   IV      involve;implicate'
+        'raTam   PV      involve;implicate',
+        'roTum   IV      involve;implicate'
       ],
       'patterns' => {
         'r.tum' => [
@@ -2858,9 +2858,9 @@ $Lexicon = {
       'entry' => 'irta.tam',
       'form' => 'irta.tam',
       'lines' => [
-        ';; {irotaTam_1',
-        '<rtTm   {irotaTam       PV      crash;impact',
-        'rtTm    rotaTim IV      crash;impact'
+        ';; AirotaTam_1',
+        'AirotaTam       PV      crash;impact',
+        'rotaTim IV      crash;impact'
       ],
       'patterns' => {
         'rta.tim' => [
@@ -2887,9 +2887,9 @@ $Lexicon = {
       'entry' => 'irta.tam',
       'form' => 'irta.tam',
       'lines' => [
-        ';; {irotaTam_2',
-        '<rtTm   {irotaTam       PV_intr be involved;be implicated',
-        'rtTm    rotaTim IV_intr be involved;be implicated'
+        ';; AirotaTam_2',
+        'AirotaTam       PV_intr be involved;be implicated',
+        'rotaTim IV_intr be involved;be implicated'
       ],
       'patterns' => {
         'rta.tim' => [
@@ -2913,7 +2913,7 @@ $Lexicon = {
       'form' => 'mar.tam',
       'lines' => [
         ';; maroTam_1',
-        'mrTm    maroTam Ndu     breakwater;mole;jetty'
+        'maroTam Ndu     breakwater;mole;jetty'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2937,8 +2937,8 @@ $Lexicon = {
       'entry' => 'irti.tAm',
       'form' => 'irti.tAm',
       'lines' => [
-        ';; {irotiTAm_1',
-        '<rtTAm  {irotiTAm       NduAt   crash;impact'
+        ';; AirotiTAm_1',
+        'AirotiTAm       NduAt   crash;impact'
       ],
       'patterns' => {
         'irti.tAm' => [
@@ -2968,8 +2968,8 @@ $Lexicon = {
       'form' => 'rastaq',
       'lines' => [
         ';; rasotaq_1',
-        'rstq    rasotaq PV      put in order;arrange',
-        'rstq    rasotiq IV_yu   put in order;arrange'
+        'rasotaq PV      put in order;arrange',
+        'rasotiq IV_yu   put in order;arrange'
       ],
       'patterns' => {
         'rastiq' => [
@@ -2995,7 +2995,7 @@ $Lexicon = {
       'form' => 'ruwbin',
       'lines' => [
         ';; ruwbin_1',
-        'rwbn    ruwbin  Nprop   Robin'
+        'ruwbin  Nprop   Robin'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3014,7 +3014,7 @@ $Lexicon = {
       'form' => 'ruwbin',
       'lines' => [
         ';; ruwbin_2',
-        'rwbn    ruwbin  Nprop   Reuben'
+        'ruwbin  Nprop   Reuben'
       ],
       'patterns' => {},
       'index' => '2',
@@ -3033,7 +3033,7 @@ $Lexicon = {
       'form' => 'ruwbiyn',
       'lines' => [
         ';; ruwbiyn_1',
-        'rwbyn   ruwbiyn Nprop   Rubin;Robin'
+        'ruwbiyn Nprop   Rubin;Robin'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3059,10 +3059,10 @@ $Lexicon = {
       'form' => 'rutaylA\'',
       'lines' => [
         ';; rutayolA\'_1',
-        'rtylA\'  rutayolA\'       N0_Nh   tarantula',
-        'rtylA&  rutayolA&       Nh      tarantula',
-        'rtylA}  rutayolA}       Nhy     tarantula',
-        'rtylAw  rutayolAw       NAt     tarantulas'
+        'rutayolA\'       N0_Nh   tarantula',
+        'rutayolA&       Nh      tarantula',
+        'rutayolA}       Nhy     tarantula',
+        'rutayolAw       NAt     tarantulas'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3084,7 +3084,7 @@ $Lexicon = {
       'form' => 'riybrAt^sA',
       'lines' => [
         ';; riybrAt$A_1',
-        'rybrAt$A        riybrAt$A       Nprop   Rebraca'
+        'riybrAt$A       Nprop   Rebraca'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3112,9 +3112,9 @@ $Lexicon = {
       'form' => 'rama_t',
       'lines' => [
         ';; ramav_1',
-        'rmv     ramav   Ndu     log raft',
-        '>rmAv   >aromAv N       log rafts',
-        'rmAv    rimAv   N       log rafts'
+        'ramav   Ndu     log raft',
+        '>aromAv N       log rafts',
+        'rimAv   N       log rafts'
       ],
       'patterns' => {
         'rimA_t' => [
@@ -3141,7 +3141,7 @@ $Lexicon = {
       'form' => 'rumay_taT',
       'lines' => [
         ';; rumayovap_1',
-        'rmyvp   rumayovap       N0      Rumaitha'
+        'rumayovap       N0      Rumaitha'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3162,7 +3162,7 @@ $Lexicon = {
       'form' => 'ruwytirz',
       'lines' => [
         ';; ruwyotirz_1',
-        'rwytrz  ruwyotirz       Nprop   Reuters'
+        'ruwyotirz       Nprop   Reuters'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3183,7 +3183,7 @@ $Lexicon = {
       'form' => 'rA.hiyl',
       'lines' => [
         ';; rAHiyl_1',
-        'rAHyl   rAHiyl  Ndip    Rachel'
+        'rAHiyl  Ndip    Rachel'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3208,8 +3208,8 @@ $Lexicon = {
       'form' => 'ru.taynY',
       'lines' => [
         ';; ruTayonaY_1',
-        'rTynY   ruTayonaY       N0      gibberish;jabber',
-        'rTynA   ruTayonA        Nhy     gibberish;jabber'
+        'ruTayonaY       N0      gibberish;jabber',
+        'ruTayonA        Nhy     gibberish;jabber'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3239,10 +3239,10 @@ $Lexicon = {
       'form' => 'rAd',
       'lines' => [
         ';; rAd-u_1',
-        'rAd     rAd     PV_V    tour;explore',
-        'rd      rud     PV_C    tour;explore',
-        'rwd     ruwd    IV_V    tour;explore',
-        'rd      rud     IV_C    tour;explore'
+        'rAd     PV_V    tour;explore',
+        'rud     PV_C    tour;explore',
+        'ruwd    IV_V    tour;explore',
+        'rud     IV_C    tour;explore'
       ],
       'patterns' => {
         'rud' => [
@@ -3276,8 +3276,8 @@ $Lexicon = {
       'form' => 'rAwad',
       'lines' => [
         ';; rAwad_1',
-        'rAwd    rAwad   PV      entice;seduce',
-        'rAwd    rAwid   IV_yu   entice;seduce'
+        'rAwad   PV      entice;seduce',
+        'rAwid   IV_yu   entice;seduce'
       ],
       'patterns' => {
         'rAwid' => [
@@ -3317,12 +3317,12 @@ $Lexicon = {
       'form' => '\'arAd',
       'lines' => [
         ';; >arAd_1',
-        '>rAd    >arAd   PV_V    want;desire;intend',
-        '>rd     >arad   PV_C    want;desire;intend',
-        'ryd     riyd    IV_V_yu want;desire;intend',
-        'rd      rid     IV_C_yu want;desire;intend',
-        'rAd     rAd     IV_V_Pass_yu    be desired;be intended',
-        'rd      rad     IV_C_Pass_yu    be desired;be intended'
+        '>arAd   PV_V    want;desire;intend',
+        '>arad   PV_C    want;desire;intend',
+        'riyd    IV_V_yu want;desire;intend',
+        'rid     IV_C_yu want;desire;intend',
+        'rAd     IV_V_Pass_yu    be desired;be intended',
+        'rad     IV_C_Pass_yu    be desired;be intended'
       ],
       'patterns' => {
         'rAd' => [
@@ -3370,11 +3370,11 @@ $Lexicon = {
       'entry' => 'irtAd',
       'form' => 'irtAd',
       'lines' => [
-        ';; {irotAd_1',
-        '<rtAd   {irotAd PV_V    explore;visit frequently;reconnoiter',
-        '<rtd    {irotad PV_C    explore;visit frequently;reconnoiter',
-        'rtAd    rotAd   IV_V    explore;visit frequently;reconnoiter',
-        'rtd     rotad   IV_C    explore;visit frequently;reconnoiter'
+        ';; AirotAd_1',
+        'AirotAd PV_V    explore;visit frequently;reconnoiter',
+        'Airotad PV_C    explore;visit frequently;reconnoiter',
+        'rotAd   IV_V    explore;visit frequently;reconnoiter',
+        'rotad   IV_C    explore;visit frequently;reconnoiter'
       ],
       'patterns' => {
         'rtAd' => [
@@ -3414,11 +3414,11 @@ $Lexicon = {
       'entry' => 'istarAd',
       'form' => 'istarAd',
       'lines' => [
-        ';; {isotarAd_1',
-        '<strAd  {isotarAd       PV_V    aspire;strive',
-        '<strd   {isotarad       PV_C    aspire;strive',
-        'stryd   sotariyd        IV_V    aspire;strive',
-        'strd    sotarid IV_C    aspire;strive'
+        ';; AisotarAd_1',
+        'AisotarAd       PV_V    aspire;strive',
+        'Aisotarad       PV_C    aspire;strive',
+        'sotariyd        IV_V    aspire;strive',
+        'sotarid IV_C    aspire;strive'
       ],
       'patterns' => {
         'istarad' => [
@@ -3446,8 +3446,8 @@ $Lexicon = {
       'form' => 'rawd',
       'lines' => [
         ';; rawod_1',
-        'rwd     rawod   N       exploration',
-        'ryd     riyad   Nap     exploration'
+        'rawod   N       exploration',
+        'riyad   Nap     exploration'
       ],
       'patterns' => {
         'riyad' => []
@@ -3472,8 +3472,8 @@ $Lexicon = {
       'form' => 'ruwayd',
       'lines' => [
         ';; ruwayod_1',
-        'rwyd    ruwayod NF      slowly;gently;gradually     [[ruwayod/ADV]]',
-        'rwyd    ruwayoda        FW-Wa-a slowly;gently;gradually     [[ruwayod/ADV]]'
+        'ruwayod NF      slowly;gently;gradually     [[ruwayod/ADV]]',
+        'ruwayoda        FW-Wa-a slowly;gently;gradually     [[ruwayod/ADV]]'
       ],
       'patterns' => {
         'ruwayda' => []
@@ -3496,7 +3496,7 @@ $Lexicon = {
       'form' => '\'irAdaT',
       'lines' => [
         ';; <irAdap_1',
-        '<rAd    <irAd   Nap     desire;will'
+        '<irAd   Nap     desire;will'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3516,7 +3516,7 @@ $Lexicon = {
       'form' => '\'irAdiyy',
       'lines' => [
         ';; <irAdiy~_1',
-        '<rAdy   <irAdiy~        Nall    intentional;willful     [[<irAdiy~/ADJ]]'
+        '<irAdiy~        Nall    intentional;willful     [[<irAdiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3536,8 +3536,8 @@ $Lexicon = {
       'form' => 'lA\'irAdiyy',
       'lines' => [
         ';; lA<irAdiy~_1',
-        'lA<rAdy lA<irAdiy~      Nall_L  involuntary;instinctive     [[lA<irAdiy~/ADJ]]',
-        'lAArAdy lA<irAdiy~      Nall_L  involuntary;instinctive     [[lAAirAdiy~/ADJ]]'
+        'lA<irAdiy~      Nall_L  involuntary;instinctive     [[lA<irAdiy~/ADJ]]',
+        'lA<irAdiy~      Nall_L  involuntary;instinctive     [[lAAirAdiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3579,8 +3579,8 @@ $Lexicon = {
       'form' => 'rA\'id',
       'lines' => [
         ';; rA}id_1',
-        'rA}d    rA}id   N/ap    leader;explorer;pioneer',
-        'rwAd    ruw~Ad  N       leaders;explorers;pioneers'
+        'rA}id   N/ap    leader;explorer;pioneer',
+        'ruw~Ad  N       leaders;explorers;pioneers'
       ],
       'patterns' => {
         'ruwwAd' => [
@@ -3608,7 +3608,7 @@ $Lexicon = {
       'form' => 'rA\'id',
       'lines' => [
         ';; rA}id_2',
-        'rA}d    rA}id   N       major;commandant'
+        'rA}id   N       major;commandant'
       ],
       'patterns' => {},
       'index' => '2',
@@ -3628,7 +3628,7 @@ $Lexicon = {
       'form' => 'rA\'id',
       'lines' => [
         ';; rA}id_3',
-        'rA}d    rA}id   Nprop   Ra\'id'
+        'rA}id   Nprop   Ra\'id'
       ],
       'patterns' => {},
       'index' => '3',
@@ -3647,7 +3647,7 @@ $Lexicon = {
       'form' => 'rA\'idaT',
       'lines' => [
         ';; rA}idap_1',
-        'rA}dp   rA}idap Nprop   Ra\'ids'
+        'rA}idap Nprop   Ra\'ids'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3680,7 +3680,7 @@ $Lexicon = {
       'form' => 'murAd',
       'lines' => [
         ';; murAd_1',
-        'mrAd    murAd   N-ap    desired;intended;intention'
+        'murAd   N-ap    desired;intended;intention'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3701,7 +3701,7 @@ $Lexicon = {
       'form' => 'murAd',
       'lines' => [
         ';; murAd_2',
-        'mrAd    murAd   N0      Murad;Mrad'
+        'murAd   N0      Murad;Mrad'
       ],
       'patterns' => {},
       'index' => '2',
@@ -3721,7 +3721,7 @@ $Lexicon = {
       'form' => 'murtAd',
       'lines' => [
         ';; murotAd_1',
-        'mrtAd   murotAd N-ap    desired goal;desideratum'
+        'murotAd N-ap    desired goal;desideratum'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3741,7 +3741,7 @@ $Lexicon = {
       'form' => 'mustarAd',
       'lines' => [
         ';; musotarAd_1',
-        'mstrAd  musotarAd       N-ap    desired goal;desideratum'
+        'musotarAd       N-ap    desired goal;desideratum'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3765,8 +3765,8 @@ $Lexicon = {
       'form' => 'mirwad',
       'lines' => [
         ';; mirowad_1',
-        'mrwd    mirowad Ndu     pencil;little stick',
-        'mrAwd   marAwid Ndip    pencils;little sticks'
+        'mirowad Ndu     pencil;little stick',
+        'marAwid Ndip    pencils;little sticks'
       ],
       'patterns' => {
         'marAwid' => [
@@ -3792,7 +3792,7 @@ $Lexicon = {
       'form' => 'ruwd',
       'lines' => [
         ';; ruwd_1',
-        'rwd     ruwd    Nprop   Rod;Ruud'
+        'ruwd    Nprop   Rod;Ruud'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3818,8 +3818,8 @@ $Lexicon = {
       'form' => 'ra.hra.h',
       'lines' => [
         ';; raHoraH_1',
-        'rHrH    raHoraH PV      equivocate;speak ambiguously',
-        'rHrH    raHoriH IV_yu   equivocate;speak ambiguously'
+        'raHoraH PV      equivocate;speak ambiguously',
+        'raHoriH IV_yu   equivocate;speak ambiguously'
       ],
       'patterns' => {
         'ra.hri.h' => [
@@ -3847,8 +3847,8 @@ $Lexicon = {
       'form' => 'ra.hra.h',
       'lines' => [
         ';; raHoraH_2',
-        'rHrH    raHoraH N       wide;flat;carefree',
-        'rHrAH   raHorAH N       wide;flat;carefree'
+        'raHoraH N       wide;flat;carefree',
+        'raHorAH N       wide;flat;carefree'
       ],
       'patterns' => {
         'ra.hrA.h' => [
@@ -3875,7 +3875,7 @@ $Lexicon = {
       'form' => 'ruwkits',
       'lines' => [
         ';; ruwkits_1',
-        'rwkts   ruwkits Nprop   Rockets'
+        'ruwkits Nprop   Rockets'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3909,12 +3909,12 @@ $Lexicon = {
       'form' => '\'ar^ga\'',
       'lines' => [
         ';; >aroja>_1',
-        '>rj>    >aroja> PV->    postpone;delay;defer',
-        '>rj|    >aroja| PV-|    postpone;delay;defer',
-        '>rj&    >aroja& PV_w    postpone;delay;defer',
-        'rj}     roji}   IV_yu   postpone;delay;defer',
-        '>rj}    >uroji} PV_Pass be postponed;be delayed;be deferred',
-        'rj>     roja>   IV_Pass_yu      be postponed;be delayed;be deferred'
+        '>aroja> PV->    postpone;delay;defer',
+        '>aroja| PV-|    postpone;delay;defer',
+        '>aroja& PV_w    postpone;delay;defer',
+        'roji}   IV_yu   postpone;delay;defer',
+        '>uroji} PV_Pass be postponed;be delayed;be deferred',
+        'roja>   IV_Pass_yu      be postponed;be delayed;be deferred'
       ],
       'patterns' => {
         'r^ga\'' => [
@@ -3952,12 +3952,12 @@ $Lexicon = {
       'form' => '\'ir^gA\'',
       'lines' => [
         ';; <irojA\'_1',
-        '<rjA\'   <irojA\' N0_Nh   postponement;deferment',
-        '<rjA&   <irojA& Nh      postponement;deferment',
-        '<rjA}   <irojA} Nhy     postponement;deferment',
-        '<rjA\'   <irojA\' NAn_Nayn        postponements;deferments',
-        '<rjA}   <irojA} Nayn    postponements;deferments',
-        '<rjA\'   <irojA\' NAt     postponements;deferments'
+        '<irojA\' N0_Nh   postponement;deferment',
+        '<irojA& Nh      postponement;deferment',
+        '<irojA} Nhy     postponement;deferment',
+        '<irojA\' NAn_Nayn        postponements;deferments',
+        '<irojA} Nayn    postponements;deferments',
+        '<irojA\' NAt     postponements;deferments'
       ],
       'patterns' => {
         '\'ir^gA\'' => [
@@ -3983,7 +3983,7 @@ $Lexicon = {
       'form' => 'mur^gi\'',
       'lines' => [
         ';; muroji}_1',
-        'mrj}    muroji} Nall    postponing;deferring'
+        'muroji} Nall    postponing;deferring'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4003,9 +4003,9 @@ $Lexicon = {
       'form' => '\'ar^gA\'',
       'lines' => [
         ';; >arojA\'_1',
-        '>rjA\'   >arojA\' N0_Nh   periphery;zones;throughout',
-        '>rjA&   >arojA& Nh      periphery;zones;throughout',
-        '>rjA}   >arojA} Nhy     periphery;zones;throughout'
+        '>arojA\' N0_Nh   periphery;zones;throughout',
+        '>arojA& Nh      periphery;zones;throughout',
+        '>arojA} Nhy     periphery;zones;throughout'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4026,9 +4026,9 @@ $Lexicon = {
       'form' => 'ra^gA\'',
       'lines' => [
         ';; rajA\'_1',
-        'rjA\'    rajA\'   N0_Nh   hope',
-        'rjA&    rajA&   Nh      hope',
-        'rjA}    rajA}   Nhy     hope'
+        'rajA\'   N0_Nh   hope',
+        'rajA&   Nh      hope',
+        'rajA}   Nhy     hope'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4047,7 +4047,7 @@ $Lexicon = {
       'form' => 'ra^gA\'',
       'lines' => [
         ';; rajA\'_2',
-        'rjA\'    rajA\'   N0      Raja'
+        'rajA\'   N0      Raja'
       ],
       'patterns' => {},
       'index' => '2',
@@ -4070,8 +4070,8 @@ $Lexicon = {
       'form' => 'ra^gA\'aN',
       'lines' => [
         ';; rajA\'F_1',
-        'rjA\'    rajA\'F  FW-Wa   if you please     [[rajA\'F/ADV]]',
-        'rjA\'    rajA\'   N0      if you please'
+        'rajA\'F  FW-Wa   if you please     [[rajA\'F/ADV]]',
+        'rajA\'   N0      if you please'
       ],
       'patterns' => {
         'ra^gA\'' => [
@@ -4099,9 +4099,9 @@ $Lexicon = {
       'entry' => 'irta^gaz',
       'form' => 'irta^gaz',
       'lines' => [
-        ';; {irotajaz_1',
-        '<rtjz   {irotajaz       PV      thunder;roar;declaim rajaz poetry',
-        'rtjz    rotajiz IV      thunder;roar;declaim rajaz poetry'
+        ';; Airotajaz_1',
+        'Airotajaz       PV      thunder;roar;declaim rajaz poetry',
+        'rotajiz IV      thunder;roar;declaim rajaz poetry'
       ],
       'patterns' => {
         'rta^giz' => [
@@ -4126,7 +4126,7 @@ $Lexicon = {
       'form' => 'ru^gz',
       'lines' => [
         ';; rujoz_1',
-        'rjz     rujoz   N       punishment;filth'
+        'rujoz   N       punishment;filth'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4150,8 +4150,8 @@ $Lexicon = {
       'form' => 'ra^gaz',
       'lines' => [
         ';; rajaz_1',
-        'rjz     rajaz   N       rajaz (poetry)',
-        '>rjAz   >arojAz N       work song'
+        'rajaz   N       rajaz (poetry)',
+        '>arojAz N       work song'
       ],
       'patterns' => {
         '\'ar^gAz' => [
@@ -4179,8 +4179,8 @@ $Lexicon = {
       'form' => '\'ur^guwzaT',
       'lines' => [
         ';; >urojuwzap_1',
-        '>rjwz   >urojuwz        Napdu   rajaz poem;work song',
-        '>rAjyz  >arAjiyz        Ndip    rajaz poems;work songs'
+        '>urojuwz        Napdu   rajaz poem;work song',
+        '>arAjiyz        Ndip    rajaz poems;work songs'
       ],
       'patterns' => {
         '\'arA^giyz' => [
@@ -4208,7 +4208,7 @@ $Lexicon = {
       'form' => 'rAliy',
       'lines' => [
         ';; rAliy_1',
-        'rAly    rAliy   N0      rally'
+        'rAliy   N0      rally'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4233,8 +4233,8 @@ $Lexicon = {
       'form' => 'rakib',
       'lines' => [
         ';; rakib-a_1',
-        'rkb     rakib   PV      get on;board;ride;climb',
-        'rkb     rokab   IV      get on;board;ride;climb'
+        'rakib   PV      get on;board;ride;climb',
+        'rokab   IV      get on;board;ride;climb'
       ],
       'patterns' => {
         'rkab' => [
@@ -4267,8 +4267,8 @@ $Lexicon = {
       'form' => 'rakkab',
       'lines' => [
         ';; rak~ab_1',
-        'rkb     rak~ab  PV      install;assemble;put together',
-        'rkb     rak~ib  IV_yu   install;assemble;put together'
+        'rak~ab  PV      install;assemble;put together',
+        'rak~ib  IV_yu   install;assemble;put together'
       ],
       'patterns' => {
         'rakkib' => [
@@ -4297,8 +4297,8 @@ $Lexicon = {
       'form' => '\'arkab',
       'lines' => [
         ';; >arokab_1',
-        '>rkb    >arokab PV      make ride;put on board',
-        'rkb     rokib   IV_yu   make ride;put on board'
+        '>arokab PV      make ride;put on board',
+        'rokib   IV_yu   make ride;put on board'
       ],
       'patterns' => {
         'rkib' => [
@@ -4322,8 +4322,8 @@ $Lexicon = {
       'form' => 'tarakkab',
       'lines' => [
         ';; tarak~ab_1',
-        'trkb    tarak~ab        PV_intr be composed;consist',
-        'trkb    tarak~ab        IV_intr be composed;consist'
+        'tarak~ab        PV_intr be composed;consist',
+        'tarak~ab        IV_intr be composed;consist'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4343,8 +4343,8 @@ $Lexicon = {
       'form' => 'tarAkab',
       'lines' => [
         ';; tarAkab_1',
-        'trAkb   tarAkab PV_intr be superimposed',
-        'trAkb   tarAkab IV_intr be superimposed'
+        'tarAkab PV_intr be superimposed',
+        'tarAkab IV_intr be superimposed'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4372,11 +4372,11 @@ $Lexicon = {
       'entry' => 'irtakab',
       'form' => 'irtakab',
       'lines' => [
-        ';; {irotakab_1',
-        '<rtkb   {irotakab       PV      commit;perpetrate',
-        'rtkb    rotakib IV      commit;perpetrate',
-        '>rtkb   {urotukib       PV_Pass be committed;be perpetrated',
-        'rtkb    rotakab IV_Pass_yu      be committed;be perpetrated'
+        ';; Airotakab_1',
+        'Airotakab       PV      commit;perpetrate',
+        'rotakib IV      commit;perpetrate',
+        'Aurotukib       PV_Pass be committed;be perpetrated',
+        'rotakab IV_Pass_yu      be committed;be perpetrated'
       ],
       'patterns' => {
         'rtakib' => [
@@ -4408,7 +4408,7 @@ $Lexicon = {
       'form' => 'rakb',
       'lines' => [
         ';; rakob_1',
-        'rkb     rakob   N       cavalcade;retinue'
+        'rakob   N       cavalcade;retinue'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4432,8 +4432,8 @@ $Lexicon = {
       'form' => 'rukbaT',
       'lines' => [
         ';; rukobap_1',
-        'rkb     rukob   NapAt   knee',
-        'rkb     rukab   N       knees'
+        'rukob   NapAt   knee',
+        'rukab   N       knees'
       ],
       'patterns' => {
         'rukab' => [
@@ -4461,8 +4461,8 @@ $Lexicon = {
       'form' => 'rikAb',
       'lines' => [
         ';; rikAb_1',
-        'rkAb    rikAb   Ndu     stirrup',
-        'rkb     rukub   N       stirrups;riding camels'
+        'rikAb   Ndu     stirrup',
+        'rukub   N       stirrups;riding camels'
       ],
       'patterns' => {
         'rukub' => [
@@ -4494,8 +4494,8 @@ $Lexicon = {
       'form' => 'rikAb',
       'lines' => [
         ';; rikAb_2',
-        'rkAb    rikAb   NduAt   riding camels',
-        'rkA}b   rakA}ib Ndip    riding camels;riding animals'
+        'rikAb   NduAt   riding camels',
+        'rakA}ib Ndip    riding camels;riding animals'
       ],
       'patterns' => {
         'rikAb' => [
@@ -4522,8 +4522,8 @@ $Lexicon = {
       'form' => 'rakuwb',
       'lines' => [
         ';; rakuwb_1',
-        'rkwb    rakuwb  N-ap    riding animal',
-        'rkwb    rakuwb  Nap     riding animal'
+        'rakuwb  N-ap    riding animal',
+        'rakuwb  Nap     riding animal'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4542,7 +4542,7 @@ $Lexicon = {
       'form' => 'rukuwb',
       'lines' => [
         ';; rukuwb_1',
-        'rkwb    rukuwb  N       riding;traveling'
+        'rukuwb  N       riding;traveling'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4562,7 +4562,7 @@ $Lexicon = {
       'form' => 'rukuwb',
       'lines' => [
         ';; rukuwb_2',
-        'rkwb    rukuwb  N       mounting;boarding;getting on'
+        'rukuwb  N       mounting;boarding;getting on'
       ],
       'patterns' => {},
       'index' => '2',
@@ -4583,7 +4583,7 @@ $Lexicon = {
       'form' => 'rakkAb',
       'lines' => [
         ';; rak~Ab_1',
-        'rkAb    rak~Ab  Nall    rider;jockey'
+        'rak~Ab  Nall    rider;jockey'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4607,8 +4607,8 @@ $Lexicon = {
       'form' => 'markab',
       'lines' => [
         ';; marokab_1',
-        'mrkb    marokab Ndu     ship;vessel',
-        'mrAkb   marAkib Ndip    ships;vessels'
+        'marokab Ndu     ship;vessel',
+        'marAkib Ndip    ships;vessels'
       ],
       'patterns' => {
         'marAkib' => [
@@ -4634,7 +4634,7 @@ $Lexicon = {
       'form' => 'markabaT',
       'lines' => [
         ';; marokabap_1',
-        'mrkb    marokab NapAt   vehicle;carriage;craft'
+        'marokab NapAt   vehicle;carriage;craft'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4655,8 +4655,8 @@ $Lexicon = {
       'form' => 'marAkibiyy',
       'lines' => [
         ';; marAkibiy~_1',
-        'mrAkby  marAkibiy~      Nall    boatman;ferryman     [[marAkibiy~/ADJ]]',
-        'mrAkby  marAkibiy~      Nap     boatmen;ferrymen     [[marAkibiy~/NOUN]]'
+        'marAkibiy~      Nall    boatman;ferryman     [[marAkibiy~/ADJ]]',
+        'marAkibiy~      Nap     boatmen;ferrymen     [[marAkibiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4682,8 +4682,8 @@ $Lexicon = {
       'form' => 'tarkiyb',
       'lines' => [
         ';; tarokiyb_1',
-        'trkyb   tarokiyb        Ndu     installation;assembling',
-        'trkyb   tarokiyb        NAt     installations;assemblage'
+        'tarokiyb        Ndu     installation;assembling',
+        'tarokiyb        NAt     installations;assemblage'
       ],
       'patterns' => {
         'tarkiyb' => [
@@ -4716,8 +4716,8 @@ $Lexicon = {
       'form' => 'tarkiyb',
       'lines' => [
         ';; tarokiyb_2',
-        'trkyb   tarokiyb        NduAt   construction;structure;assemblage',
-        'trAkyb  tarAkiyb        Ndip    constructions;structures'
+        'tarokiyb        NduAt   construction;structure;assemblage',
+        'tarAkiyb        Ndip    constructions;structures'
       ],
       'patterns' => {
         'tarkiyb' => [
@@ -4747,7 +4747,7 @@ $Lexicon = {
       'form' => 'tarkiybiyy',
       'lines' => [
         ';; tarokiybiy~_1',
-        'trkyby  tarokiybiy~     Nall    structural     [[tarokiybiy~/ADJ]]'
+        'tarokiybiy~     Nall    structural     [[tarokiybiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4766,7 +4766,7 @@ $Lexicon = {
       'form' => 'tarkiybaT',
       'lines' => [
         ';; tarokiybap_1',
-        'trkyb   tarokiyb        NapAt   structure;composition'
+        'tarokiyb        NapAt   structure;composition'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4789,8 +4789,8 @@ $Lexicon = {
       'entry' => 'irtikAb',
       'form' => 'irtikAb',
       'lines' => [
-        ';; {irotikAb_1',
-        '<rtkAb  {irotikAb       NduAt   perpetration;commission'
+        ';; AirotikAb_1',
+        'AirotikAb       NduAt   perpetration;commission'
       ],
       'patterns' => {
         'irtikAb' => [
@@ -4818,8 +4818,8 @@ $Lexicon = {
       'form' => 'rAkib',
       'lines' => [
         ';; rAkib_1',
-        'rAkb    rAkib   Nall    rider;passenger',
-        'rkAb    ruk~Ab  N       riders;passengers'
+        'rAkib   Nall    rider;passenger',
+        'ruk~Ab  N       riders;passengers'
       ],
       'patterns' => {
         'rukkAb' => [
@@ -4849,8 +4849,8 @@ $Lexicon = {
       'form' => 'markuwb',
       'lines' => [
         ';; marokuwb_1',
-        'mrkwb   marokuwb        N-ap    riding animal',
-        'mrAkyb  marAkiyb        Ndip    riding animals'
+        'marokuwb        N-ap    riding animal',
+        'marAkiyb        Ndip    riding animals'
       ],
       'patterns' => {
         'marAkiyb' => [
@@ -4878,7 +4878,7 @@ $Lexicon = {
       'form' => 'murakkibAt',
       'lines' => [
         ';; murak~ibAt_1',
-        'mrkb    murak~ib        NAt     components;constituents;ingredients'
+        'murak~ib        NAt     components;constituents;ingredients'
       ],
       'patterns' => {
         'murakkib' => [
@@ -4903,7 +4903,7 @@ $Lexicon = {
       'form' => 'murakkab',
       'lines' => [
         ';; murak~ab_1',
-        'mrkb    murak~ab        N-ap    composed;installed;consisting     [[murak~ab/ADJ]]'
+        'murak~ab        N-ap    composed;installed;consisting     [[murak~ab/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4928,7 +4928,7 @@ $Lexicon = {
       'form' => 'murakkab',
       'lines' => [
         ';; murak~ab_2',
-        'mrkb    murak~ab        NduAt   compound'
+        'murak~ab        NduAt   compound'
       ],
       'patterns' => {
         'murakkab' => [
@@ -4951,7 +4951,7 @@ $Lexicon = {
       'form' => 'murtakib',
       'lines' => [
         ';; murotakib_1',
-        'mrtkb   murotakib       Nall    perpetrator'
+        'murotakib       Nall    perpetrator'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4972,7 +4972,7 @@ $Lexicon = {
       'form' => 'rustum',
       'lines' => [
         ';; rusotum_1',
-        'rstm    rusotum Nprop   Rustum'
+        'rusotum Nprop   Rustum'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4991,7 +4991,7 @@ $Lexicon = {
       'form' => 'rustAmiyyaT',
       'lines' => [
         ';; rusotAmiy~ap_1',
-        'rstAmy  rusotAmiy~      Nap     cassock     [[rusotAmiy~/NOUN]]'
+        'rusotAmiy~      Nap     cassock     [[rusotAmiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5031,13 +5031,13 @@ $Lexicon = {
       'form' => 'rabA',
       'lines' => [
         ';; rabA-u_1',
-        'rbA     rabA    PV_0h   grow;increase;exceed',
-        'rbw     rabaw   PV_Atn  grow;increase;exceed',
-        'rb      rab     PV_ttAw grow;increase;exceed',
-        'rbw     robuw   IV_0hAnn        grow;increase;exceed',
-        'rb      rob     IV_0hwnyn       grow;increase;exceed',
-        'rbY     robaY   IV_0_Pass_yu    be grown;be increased;be exceeded',
-        'rby     robay   IV_Ann_Pass_yu  be grown;be increased;be exceeded'
+        'rabA    PV_0h   grow;increase;exceed',
+        'rabaw   PV_Atn  grow;increase;exceed',
+        'rab     PV_ttAw grow;increase;exceed',
+        'robuw   IV_0hAnn        grow;increase;exceed',
+        'rob     IV_0hwnyn       grow;increase;exceed',
+        'robaY   IV_0_Pass_yu    be grown;be increased;be exceeded',
+        'robay   IV_Ann_Pass_yu  be grown;be increased;be exceeded'
       ],
       'patterns' => {
         'rbuw' => [
@@ -5092,14 +5092,14 @@ $Lexicon = {
       'form' => 'rabbY',
       'lines' => [
         ';; rab~aY_1',
-        'rbY     rab~aY  PV_0    raise;grow',
-        'rbA     rab~A   PV_h    raise;grow',
-        'rby     rab~ay  PV_Atn  raise;grow',
-        'rb      rab~    PV_ttAw raise;grow',
-        'rby     rab~iy  IV_0hAnn_yu     raise;grow',
-        'rb      rab~    IV_0hwnyn_yu    raise;grow',
-        'rbY     rab~aY  IV_0_Pass_yu    be raised;be grown',
-        'rby     rab~ay  IV_Ann_Pass_yu  be raised;be grown'
+        'rab~aY  PV_0    raise;grow',
+        'rab~A   PV_h    raise;grow',
+        'rab~ay  PV_Atn  raise;grow',
+        'rab~    PV_ttAw raise;grow',
+        'rab~iy  IV_0hAnn_yu     raise;grow',
+        'rab~    IV_0hwnyn_yu    raise;grow',
+        'rab~aY  IV_0_Pass_yu    be raised;be grown',
+        'rab~ay  IV_Ann_Pass_yu  be raised;be grown'
       ],
       'patterns' => {
         'rabbiy' => [
@@ -5140,14 +5140,14 @@ $Lexicon = {
       'form' => 'rAbY',
       'lines' => [
         ';; rAbaY_1',
-        'rAbY    rAbaY   PV_0    practice usury',
-        'rAbA    rAbA    PV_h    practice usury',
-        'rAby    rAbay   PV_Atn  practice usury',
-        'rAb     rAb     PV_ttAw practice usury',
-        'rAby    rAbiy   IV_0hAnn_yu     practice usury',
-        'rAb     rAb     IV_0hwnyn_yu    practice usury',
-        'rAbY    rAbaY   IV_0_Pass_yu    be practiced (usury)',
-        'rAby    rAbay   IV_Ann_Pass_yu  be practiced (usury)'
+        'rAbaY   PV_0    practice usury',
+        'rAbA    PV_h    practice usury',
+        'rAbay   PV_Atn  practice usury',
+        'rAb     PV_ttAw practice usury',
+        'rAbiy   IV_0hAnn_yu     practice usury',
+        'rAb     IV_0hwnyn_yu    practice usury',
+        'rAbaY   IV_0_Pass_yu    be practiced (usury)',
+        'rAbay   IV_Ann_Pass_yu  be practiced (usury)'
       ],
       'patterns' => {
         'rAbiy' => [
@@ -5193,14 +5193,14 @@ $Lexicon = {
       'form' => '\'arbY',
       'lines' => [
         ';; >arobaY_1',
-        '>rbY    >arobaY PV_0    make grow;increase;exceed',
-        '>rbA    >arobA  PV_h    make grow;increase;exceed',
-        '>rby    >arobay PV_Atn  make grow;increase;exceed',
-        '>rb     >arob   PV_ttAw make grow;increase;exceed',
-        'rby     robiy   IV_0hAnn_yu     make grow;increase;exceed',
-        'rb      rob     IV_0hwnyn_yu    make grow;increase;exceed',
-        'rbY     robaY   IV_0_Pass_yu    be grown;be increased;be exceeded',
-        'rby     robay   IV_Ann_Pass_yu  be grown;be increased;be exceeded'
+        '>arobaY PV_0    make grow;increase;exceed',
+        '>arobA  PV_h    make grow;increase;exceed',
+        '>arobay PV_Atn  make grow;increase;exceed',
+        '>arob   PV_ttAw make grow;increase;exceed',
+        'robiy   IV_0hAnn_yu     make grow;increase;exceed',
+        'rob     IV_0hwnyn_yu    make grow;increase;exceed',
+        'robaY   IV_0_Pass_yu    be grown;be increased;be exceeded',
+        'robay   IV_Ann_Pass_yu  be grown;be increased;be exceeded'
       ],
       'patterns' => {
         'rbiy' => [
@@ -5240,12 +5240,12 @@ $Lexicon = {
       'form' => 'tarabbY',
       'lines' => [
         ';; tarab~aY_1',
-        'trbY    tarab~aY        PV_0    be educated;be brought up;be bred',
-        'trby    tarab~ay        PV_Atn  be educated;be brought up;be bred',
-        'trb     tarab~  PV_ttAw_intr    be educated;be brought up;be bred',
-        'trbY    tarab~aY        IV_0    be educated;be brought up;be bred',
-        'trby    tarab~ay        IV_Ann  be educated;be brought up;be bred',
-        'trb     tarab~  IV_0hwnyn       be educated;be brought up;be bred'
+        'tarab~aY        PV_0    be educated;be brought up;be bred',
+        'tarab~ay        PV_Atn  be educated;be brought up;be bred',
+        'tarab~  PV_ttAw_intr    be educated;be brought up;be bred',
+        'tarab~aY        IV_0    be educated;be brought up;be bred',
+        'tarab~ay        IV_Ann  be educated;be brought up;be bred',
+        'tarab~  IV_0hwnyn       be educated;be brought up;be bred'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5266,7 +5266,7 @@ $Lexicon = {
       'form' => 'rabw',
       'lines' => [
         ';; rabow_1',
-        'rbw     rabow   N       asthma'
+        'rabow   N       asthma'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5292,9 +5292,9 @@ $Lexicon = {
       'form' => 'rabwaT',
       'lines' => [
         ';; rabowap_1',
-        'rbw     rabow   Napdu   hill',
-        'rbY     rubaY   N0      hills',
-        'rbA     rubA    Nhy     hills'
+        'rabow   Napdu   hill',
+        'rubaY   N0      hills',
+        'rubA    Nhy     hills'
       ],
       'patterns' => {
         'rubA' => [],
@@ -5319,7 +5319,7 @@ $Lexicon = {
       'form' => 'ribwaT',
       'lines' => [
         ';; ribowap_1',
-        'rbw     ribow   NapAt   ten thousand;myriad'
+        'ribow   NapAt   ten thousand;myriad'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5339,7 +5339,7 @@ $Lexicon = {
       'form' => 'ribawiyy',
       'lines' => [
         ';; ribawiy~_1',
-        'rbwy    ribawiy~        Nall    usurious;interest     [[ribawiy~/ADJ]]'
+        'ribawiy~        Nall    usurious;interest     [[ribawiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5359,9 +5359,9 @@ $Lexicon = {
       'form' => 'rabA\'',
       'lines' => [
         ';; rabA\'_1',
-        'rbA\'    rabA\'   N0_Nh   surplus;superiority;favor',
-        'rbA&    rabA&   Nh      surplus;superiority;favor',
-        'rbA}    rabA}   Nhy     surplus;superiority;favor'
+        'rabA\'   N0_Nh   surplus;superiority;favor',
+        'rabA&   Nh      surplus;superiority;favor',
+        'rabA}   Nhy     surplus;superiority;favor'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5386,8 +5386,8 @@ $Lexicon = {
       'form' => 'marbY',
       'lines' => [
         ';; marobaY_1',
-        'mrbY    marobaY N0      place of growing up',
-        'mrbA    marobA  Nhy     place of growing up'
+        'marobaY N0      place of growing up',
+        'marobA  Nhy     place of growing up'
       ],
       'patterns' => {
         'marbA' => []
@@ -5408,7 +5408,7 @@ $Lexicon = {
       'form' => 'tarbiyaT',
       'lines' => [
         ';; tarobiyap_1',
-        'trby    tarobiy NapAt   education;pedagogy;breeding'
+        'tarobiy NapAt   education;pedagogy;breeding'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5433,9 +5433,9 @@ $Lexicon = {
       'form' => 'rAbiyaT',
       'lines' => [
         ';; rAbiyap_1',
-        'rAby    rAbiy   Napdu   hill',
-        'rwAby   rawAbiy N0_Nh   hills',
-        'rwAb    rawAb   NK      hills'
+        'rAbiy   Napdu   hill',
+        'rawAbiy N0_Nh   hills',
+        'rawAb   NK      hills'
       ],
       'patterns' => {
         'rawAbiy' => [
@@ -5466,12 +5466,12 @@ $Lexicon = {
       'form' => 'murabbiy',
       'lines' => [
         ';; murab~iy_1',
-        'mrby    murab~iy        N0F_Nh  educator;pedagogue;breeder',
-        'mrb     murab~  NK      educator;pedagogue;breeder',
-        'mrby    murab~iy        NAn_Nayn        educator;pedagogue;breeder',
-        'mrb     murab~  Nuwn_Niyn       educator;pedagogue;breeder',
-        'mrby    murab~iy        NapAt   educator;pedagogue;breeder',
-        'mrby    murab~iy        NapAt   tutoress;governess;nursemaid'
+        'murab~iy        N0F_Nh  educator;pedagogue;breeder',
+        'murab~  NK      educator;pedagogue;breeder',
+        'murab~iy        NAn_Nayn        educator;pedagogue;breeder',
+        'murab~  Nuwn_Niyn       educator;pedagogue;breeder',
+        'murab~iy        NapAt   educator;pedagogue;breeder',
+        'murab~iy        NapAt   tutoress;governess;nursemaid'
       ],
       'patterns' => {
         'murabb' => [],
@@ -5510,12 +5510,12 @@ $Lexicon = {
       'form' => 'murabbY',
       'lines' => [
         ';; murab~aY_1',
-        'mrbY    murab~aY        N0      educated;brought up     [[murab~aY/ADJ]]',
-        'mrbA    murab~A Nhy     educated;brought up',
-        'mrby    murab~ay        NAn_Nayn        educated;brought up',
-        'mrb     murab~  Nuwn_Niyn       educated;brought up',
-        'mrby    murab~ay        NAt     educated;brought up',
-        'mrbA    murab~A Napdu   educated;brought up'
+        'murab~aY        N0      educated;brought up     [[murab~aY/ADJ]]',
+        'murab~A Nhy     educated;brought up',
+        'murab~ay        NAn_Nayn        educated;brought up',
+        'murab~  Nuwn_Niyn       educated;brought up',
+        'murab~ay        NAt     educated;brought up',
+        'murab~A Napdu   educated;brought up'
       ],
       'patterns' => {
         'murabbA' => [],
@@ -5548,10 +5548,10 @@ $Lexicon = {
       'form' => 'murabbY',
       'lines' => [
         ';; murab~aY_2',
-        'mrbY    murab~aY        N0      jam preserve',
-        'mrbA    murab~A Nhy     jam preserve',
-        'mrby    murab~ay        NAn_Nayn        jam preserves',
-        'mrby    murab~ay        NAt     jam preserves'
+        'murab~aY        N0      jam preserve',
+        'murab~A Nhy     jam preserve',
+        'murab~ay        NAn_Nayn        jam preserves',
+        'murab~ay        NAt     jam preserves'
       ],
       'patterns' => {
         'murabbA' => [],
@@ -5583,11 +5583,11 @@ $Lexicon = {
       'form' => 'murAbiy',
       'lines' => [
         ';; murAbiy_1',
-        'mrAby   murAbiy N0F_Nh  usurer;charging interest',
-        'mrAb    murAb   NK      usurer;charging interest',
-        'mrAby   murAbiy NAn_Nayn        usurer;charging interest',
-        'mrAb    murAb   Nuwn_Niyn       usurer;charging interest',
-        'mrAby   murAbiy NapAt   usurer;charging interest'
+        'murAbiy N0F_Nh  usurer;charging interest',
+        'murAb   NK      usurer;charging interest',
+        'murAbiy NAn_Nayn        usurer;charging interest',
+        'murAb   Nuwn_Niyn       usurer;charging interest',
+        'murAbiy NapAt   usurer;charging interest'
       ],
       'patterns' => {
         'murAbiy' => [
@@ -5619,11 +5619,11 @@ $Lexicon = {
       'form' => 'mutarabbiy',
       'lines' => [
         ';; mutarab~iy_1',
-        'mtrby   mutarab~iy      N0F_Nh  well-bred;well-mannered     [[mutarab~iy/ADJ]]',
-        'mtrb    mutarab~        NK      well-bred;well-mannered',
-        'mtrby   mutarab~iy      NAn_Nayn        well-bred;well-mannered',
-        'mtrb    mutarab~        Nuwn_Niyn       well-bred;well-mannered',
-        'mtrby   mutarab~iy      NapAt   well-bred;well-mannered'
+        'mutarab~iy      N0F_Nh  well-bred;well-mannered     [[mutarab~iy/ADJ]]',
+        'mutarab~        NK      well-bred;well-mannered',
+        'mutarab~iy      NAn_Nayn        well-bred;well-mannered',
+        'mutarab~        Nuwn_Niyn       well-bred;well-mannered',
+        'mutarab~iy      NapAt   well-bred;well-mannered'
       ],
       'patterns' => {
         'mutarabb' => [],
@@ -5675,7 +5675,7 @@ $Lexicon = {
       'form' => 'ra_hiyy',
       'lines' => [
         ';; raxiy~_1',
-        'rxy     raxiy~  N/ap    feeble;cozy     [[raxiy~/ADJ]]'
+        'raxiy~  N/ap    feeble;cozy     [[raxiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5757,8 +5757,8 @@ $Lexicon = {
       'form' => 'yAturY',
       'lines' => [
         ';; yAturaY_1',
-        'yAtrY   yAturaY FW      perhaps;maybe     [[yAturaY/ADV]]',
-        'trY     turaY   FW      perhaps;maybe     [[turaY/ADV]]'
+        'yAturaY FW      perhaps;maybe     [[yAturaY/ADV]]',
+        'turaY   FW      perhaps;maybe     [[turaY/ADV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5784,8 +5784,8 @@ $Lexicon = {
       'form' => 'ra.di`',
       'lines' => [
         ';; raDiE-a_1',
-        'rDE     raDiE   PV_intr be breast-fed;be nurtured',
-        'rDE     roDaE   IV_intr be breast-fed;be nurtured'
+        'raDiE   PV_intr be breast-fed;be nurtured',
+        'roDaE   IV_intr be breast-fed;be nurtured'
       ],
       'patterns' => {
         'r.da`' => [
@@ -5816,8 +5816,8 @@ $Lexicon = {
       'form' => 'ra.da`',
       'lines' => [
         ';; raDaE-i_1',
-        'rDE     raDaE   PV_intr be breast-fed;be nurtured',
-        'rDE     roDiE   IV_intr be breast-fed;be nurtured'
+        'raDaE   PV_intr be breast-fed;be nurtured',
+        'roDiE   IV_intr be breast-fed;be nurtured'
       ],
       'patterns' => {
         'r.di`' => [
@@ -5848,8 +5848,8 @@ $Lexicon = {
       'form' => 'ra.d.da`',
       'lines' => [
         ';; raD~aE_1',
-        'rDE     raD~aE  PV      breast-feed;nurture',
-        'rDE     raD~iE  IV_yu   breast-feed;nurture'
+        'raD~aE  PV      breast-feed;nurture',
+        'raD~iE  IV_yu   breast-feed;nurture'
       ],
       'patterns' => {
         'ra.d.di`' => [
@@ -5880,9 +5880,9 @@ $Lexicon = {
       'form' => '\'ar.da`',
       'lines' => [
         ';; >aroDaE_1',
-        '>rDE    >aroDaE PV      breast-feed;nurture',
-        'rDE     roDiE   IV_yu   breast-feed;nurture',
-        'rDE     roDaE   IV_Pass_yu      be breast-fed;be nurtured'
+        '>aroDaE PV      breast-feed;nurture',
+        'roDiE   IV_yu   breast-feed;nurture',
+        'roDaE   IV_Pass_yu      be breast-fed;be nurtured'
       ],
       'patterns' => {
         'r.di`' => [
@@ -5911,7 +5911,7 @@ $Lexicon = {
       'form' => 'ra.dA`aT',
       'lines' => [
         ';; raDAEap_1',
-        'rDAE    raDAE   Nap     breast-feeding;sucking'
+        'raDAE   Nap     breast-feeding;sucking'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5940,11 +5940,11 @@ $Lexicon = {
       'form' => 'ra.diy`',
       'lines' => [
         ';; raDiyE_1',
-        'rDyE    raDiyE  N/ap    breast-feeding infant;foster child     [[raDiyE/ADJ]]',
-        'rDEA\'   ruDaEA\' N0_Nh   breast-feeding infants;foster children',
-        'rDEA&   ruDaEA& Nh      breast-feeding infants;foster children',
-        'rDEA}   ruDaEA} Nhy     breast-feeding infants;foster children',
-        'rDA}E   raDA}iE Ndip    breast-feeding infants;foster children'
+        'raDiyE  N/ap    breast-feeding infant;foster child     [[raDiyE/ADJ]]',
+        'ruDaEA\' N0_Nh   breast-feeding infants;foster children',
+        'ruDaEA& Nh      breast-feeding infants;foster children',
+        'ruDaEA} Nhy     breast-feeding infants;foster children',
+        'raDA}iE Ndip    breast-feeding infants;foster children'
       ],
       'patterns' => {
         'ru.da`A\'' => [
@@ -5973,7 +5973,7 @@ $Lexicon = {
       'form' => 'ra.d.dA`aT',
       'lines' => [
         ';; raD~AEap_1',
-        'rDAE    raD~AE  NapAt   nursing bottle'
+        'raD~AE  NapAt   nursing bottle'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5992,7 +5992,7 @@ $Lexicon = {
       'form' => 'ri.dA`',
       'lines' => [
         ';; riDAE_1',
-        'rDAE    riDAE   N       foster relationship'
+        'riDAE   N       foster relationship'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6015,8 +6015,8 @@ $Lexicon = {
       'form' => 'rA.di`',
       'lines' => [
         ';; rADiE_1',
-        'rADE    rADiE   Nall    breast-feeding;suckling infant     [[rADiE/ADJ]]',
-        'rDE     ruD~aE  N       breast-feeding;suckling infants'
+        'rADiE   Nall    breast-feeding;suckling infant     [[rADiE/ADJ]]',
+        'ruD~aE  N       breast-feeding;suckling infants'
       ],
       'patterns' => {
         'ru.d.da`' => [
@@ -6041,7 +6041,7 @@ $Lexicon = {
       'form' => 'mur.di`',
       'lines' => [
         ';; muroDiE_1',
-        'mrDE    muroDiE N/ap    wet nurse;foster mother'
+        'muroDiE N/ap    wet nurse;foster mother'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6063,8 +6063,8 @@ $Lexicon = {
       'form' => 'ruwmantiykiyy',
       'lines' => [
         ';; ruwmanotiykiy~_1',
-        'rwmntyky        ruwmanotiykiy~  Nall    romantic     [[ruwmanotiykiy~/ADJ]]',
-        'rwmntyky        ruwmanotiykiy~  Nap     romanticism     [[ruwmanotiykiy~/NOUN]]'
+        'ruwmanotiykiy~  Nall    romantic     [[ruwmanotiykiy~/ADJ]]',
+        'ruwmanotiykiy~  Nap     romanticism     [[ruwmanotiykiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6090,8 +6090,8 @@ $Lexicon = {
       'form' => 'rammal',
       'lines' => [
         ';; ram~al_1',
-        'rml     ram~al  PV      sprinkle with sand',
-        'rml     ram~il  IV_yu   sprinkle with sand'
+        'ram~al  PV      sprinkle with sand',
+        'ram~il  IV_yu   sprinkle with sand'
       ],
       'patterns' => {
         'rammil' => [
@@ -6118,8 +6118,8 @@ $Lexicon = {
       'form' => '\'armal',
       'lines' => [
         ';; >aromal_1',
-        '>rml    >aromal PV_intr be widowed',
-        'rml     romil   IV_intr_yu      be widowed'
+        '>aromal PV_intr be widowed',
+        'romil   IV_intr_yu      be widowed'
       ],
       'patterns' => {
         'rmil' => [
@@ -6142,8 +6142,8 @@ $Lexicon = {
       'form' => 'tarammal',
       'lines' => [
         ';; taram~al_1',
-        'trml    taram~al        PV_intr be widowed',
-        'trml    taram~al        IV_intr be widowed'
+        'taram~al        PV_intr be widowed',
+        'taram~al        IV_intr be widowed'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6166,8 +6166,8 @@ $Lexicon = {
       'form' => 'raml',
       'lines' => [
         ';; ramol_1',
-        'rml     ramol   N       sand',
-        'rmAl    rimAl   N       sands'
+        'ramol   N       sand',
+        'rimAl   N       sands'
       ],
       'patterns' => {
         'rimAl' => [
@@ -6191,7 +6191,7 @@ $Lexicon = {
       'form' => 'ramliyy',
       'lines' => [
         ';; ramoliy~_1',
-        'rmly    ramoliy~        N-ap    sandy;sand     [[ramoliy~/ADJ]]'
+        'ramoliy~        N-ap    sandy;sand     [[ramoliy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6211,7 +6211,7 @@ $Lexicon = {
       'form' => 'rumaylaT',
       'lines' => [
         ';; rumayolap_1',
-        'rmyl    rumayol Nap     Rumeila'
+        'rumayol Nap     Rumeila'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6230,7 +6230,7 @@ $Lexicon = {
       'form' => 'rammAl',
       'lines' => [
         ';; ram~Al_1',
-        'rmAl    ram~Al  Nall    geomancer'
+        'ram~Al  Nall    geomancer'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6253,8 +6253,8 @@ $Lexicon = {
       'form' => '\'armal',
       'lines' => [
         ';; >aromal_2',
-        '>rml    >aromal Nel     widower',
-        '>rAml   >arAmil Ndip    widowers'
+        '>aromal Nel     widower',
+        '>arAmil Ndip    widowers'
       ],
       'patterns' => {
         '\'arAmil' => [
@@ -6283,9 +6283,9 @@ $Lexicon = {
       'form' => '\'armalaT',
       'lines' => [
         ';; >aromalap_1',
-        '>rml    >aromal Napdu   widow',
-        '>rAml   >arAmil Ndip    widows',
-        '>rAml   >arAmil Nap     widows'
+        '>aromal Napdu   widow',
+        '>arAmil Ndip    widows',
+        '>arAmil Nap     widows'
       ],
       'patterns' => {
         '\'arAmil' => [
@@ -6309,7 +6309,7 @@ $Lexicon = {
       'form' => 'mirmalaT',
       'lines' => [
         ';; miromalap_1',
-        'mrml    miromal NapAt   sandbox'
+        'miromal NapAt   sandbox'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6332,7 +6332,7 @@ $Lexicon = {
       'form' => 'tarammul',
       'lines' => [
         ';; taram~ul_1',
-        'trml    taram~ul        NduAt   widowhood;widowerhood'
+        'taram~ul        NduAt   widowhood;widowerhood'
       ],
       'patterns' => {
         'tarammul' => [
@@ -6368,10 +6368,10 @@ $Lexicon = {
       'form' => 'ruwdriy^giyz',
       'lines' => [
         ';; ruwdoriyjiyz_1',
-        'rwdryjyz        ruwdoriyjiyz    Nprop   Rodriguez',
-        'rwdryjys        ruwdoriyjiys    Nprop   Rodriguez',
-        'rwdrygyz        ruwdoriygiyz    Nprop   Rodriguez',
-        'rwdrygys        ruwdoriygiys    Nprop   Rodriguez'
+        'ruwdoriyjiyz    Nprop   Rodriguez',
+        'ruwdoriyjiys    Nprop   Rodriguez',
+        'ruwdoriygiyz    Nprop   Rodriguez',
+        'ruwdoriygiys    Nprop   Rodriguez'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6404,13 +6404,13 @@ $Lexicon = {
       'form' => 'rafa\'',
       'lines' => [
         ';; rafa>-a_1',
-        'rf>     rafa>   PV->    repair;mend',
-        'rf|     rafa|   PV-|    repair;mend',
-        'rf&     rafa&   PV_w    repair;mend',
-        'rf>     rofa>   IV      repair;mend',
-        'rf|     rofa|   IV-|    repair;mend',
-        'rf&     rofa&   IV_wn   repair;mend',
-        'rf}     rofa}   IV_yn   repair;mend'
+        'rafa>   PV->    repair;mend',
+        'rafa|   PV-|    repair;mend',
+        'rafa&   PV_w    repair;mend',
+        'rofa>   IV      repair;mend',
+        'rofa|   IV-|    repair;mend',
+        'rofa&   IV_wn   repair;mend',
+        'rofa}   IV_yn   repair;mend'
       ],
       'patterns' => {
         'rfa\'' => [
@@ -6437,8 +6437,8 @@ $Lexicon = {
       'form' => 'raf\'',
       'lines' => [
         ';; rafo\'_1',
-        'rf\'     rafo\'   N0      repairing;mending',
-        'rf}     rafo}   NF_Nhy  repairing;mending'
+        'rafo\'   N0      repairing;mending',
+        'rafo}   NF_Nhy  repairing;mending'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6462,11 +6462,11 @@ $Lexicon = {
       'form' => 'raffA\'',
       'lines' => [
         ';; raf~A\'_1',
-        'rfA\'    raf~A\'  N0_Nh   darner;fine-drawer',
-        'rfA\'    raf~A\'  NAn_Nayn        darner;fine-drawer',
-        'rfA&    raf~A&  Nh      darner;fine-drawer',
-        'rfA}    raf~A}  Nhy     darner;fine-drawer',
-        'rfA\'    raf~A\'  NapAt   darner;fine-drawer'
+        'raf~A\'  N0_Nh   darner;fine-drawer',
+        'raf~A\'  NAn_Nayn        darner;fine-drawer',
+        'raf~A&  Nh      darner;fine-drawer',
+        'raf~A}  Nhy     darner;fine-drawer',
+        'raf~A\'  NapAt   darner;fine-drawer'
       ],
       'patterns' => {
         'raffA\'' => [
@@ -6490,9 +6490,9 @@ $Lexicon = {
       'form' => 'rifA\'',
       'lines' => [
         ';; rifA\'_1',
-        'rfA\'    rifA\'   N0_Nh   harmony;bliss',
-        'rfA&    rifA&   Nh      harmony;bliss',
-        'rfA}    rifA}   Nhy     harmony;bliss'
+        'rifA\'   N0_Nh   harmony;bliss',
+        'rifA&   Nh      harmony;bliss',
+        'rifA}   Nhy     harmony;bliss'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6522,15 +6522,15 @@ $Lexicon = {
       'form' => 'marfa\'',
       'lines' => [
         ';; marofa>_1',
-        'mrf>    marofa> N0_Nh   port;harbor',
-        'mrfA    marofa> N0_Nh   port;harbor',
-        'mrf&    marofa& Nh      port;harbor',
-        'mrf}    marofa} Nhy     port;harbor',
-        'mrf}    marofa} Nayn    ports;harbors',
-        'mrf|    marofa| Ndip    ports;harbors',
-        'mrf|    marofa| N-|     ports;harbors',
-        'mrf     marofa  N-|t    ports;harbors',
-        'mrAf}   marAfi} Ndip    ports;harbors;landing places'
+        'marofa> N0_Nh   port;harbor',
+        'marofa> N0_Nh   port;harbor',
+        'marofa& Nh      port;harbor',
+        'marofa} Nhy     port;harbor',
+        'marofa} Nayn    ports;harbors',
+        'marofa| Ndip    ports;harbors',
+        'marofa| N-|     ports;harbors',
+        'marofa  N-|t    ports;harbors',
+        'marAfi} Ndip    ports;harbors;landing places'
       ],
       'patterns' => {
         'marfa\'A' => [],
@@ -6563,7 +6563,7 @@ $Lexicon = {
       'form' => 'ratiyna^g',
       'lines' => [
         ';; ratiynaj_1',
-        'rtynj   ratiynaj        N       resin'
+        'ratiynaj        N       resin'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6584,7 +6584,7 @@ $Lexicon = {
       'form' => 'ruwytirs',
       'lines' => [
         ';; ruwyotirs_1',
-        'rwytrs  ruwyotirs       Nprop   Reuters'
+        'ruwyotirs       Nprop   Reuters'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6605,7 +6605,7 @@ $Lexicon = {
       'form' => 'ruwdiysiyA',
       'lines' => [
         ';; ruwdiysiyA_1',
-        'rwdysyA ruwdiysiyA      N0      Rhodesia'
+        'ruwdiysiyA      N0      Rhodesia'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6630,8 +6630,8 @@ $Lexicon = {
       'form' => 'rafaq',
       'lines' => [
         ';; rafaq-u_1',
-        'rfq     rafaq   PV_intr be courteous;treat gently',
-        'rfq     rofuq   IV_intr be courteous;treat gently'
+        'rafaq   PV_intr be courteous;treat gently',
+        'rofuq   IV_intr be courteous;treat gently'
       ],
       'patterns' => {
         'rfuq' => [
@@ -6662,8 +6662,8 @@ $Lexicon = {
       'form' => 'rafiq',
       'lines' => [
         ';; rafiq-a_1',
-        'rfq     rafiq   PV_intr be courteous;treat gently',
-        'rfq     rofaq   IV_intr be courteous;treat gently'
+        'rafiq   PV_intr be courteous;treat gently',
+        'rofaq   IV_intr be courteous;treat gently'
       ],
       'patterns' => {
         'rfaq' => [
@@ -6694,8 +6694,8 @@ $Lexicon = {
       'form' => 'rAfaq',
       'lines' => [
         ';; rAfaq_1',
-        'rAfq    rAfaq   PV      accompany;escort',
-        'rAfq    rAfiq   IV_yu   accompany;escort'
+        'rAfaq   PV      accompany;escort',
+        'rAfiq   IV_yu   accompany;escort'
       ],
       'patterns' => {
         'rAfiq' => [
@@ -6726,9 +6726,9 @@ $Lexicon = {
       'form' => '\'arfaq',
       'lines' => [
         ';; >arofaq_1',
-        '>rfq    >arofaq PV      attach;append',
-        'rfq     rofiq   IV_yu   attach;append',
-        'rfq     rofaq   IV_Pass_yu      be attached;be appended'
+        '>arofaq PV      attach;append',
+        'rofiq   IV_yu   attach;append',
+        'rofaq   IV_Pass_yu      be attached;be appended'
       ],
       'patterns' => {
         'rfaq' => [
@@ -6757,8 +6757,8 @@ $Lexicon = {
       'form' => 'taraffaq',
       'lines' => [
         ';; taraf~aq_1',
-        'trfq    taraf~aq        PV_intr be courteous;treat gently;go slowly',
-        'trfq    taraf~aq        IV_intr be courteous;treat gently;go slowly'
+        'taraf~aq        PV_intr be courteous;treat gently;go slowly',
+        'taraf~aq        IV_intr be courteous;treat gently;go slowly'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6779,8 +6779,8 @@ $Lexicon = {
       'form' => 'tarAfaq',
       'lines' => [
         ';; tarAfaq_1',
-        'trAfq   tarAfaq PV      go together',
-        'trAfq   tarAfaq IV      go together'
+        'tarAfaq PV      go together',
+        'tarAfaq IV      go together'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6802,9 +6802,9 @@ $Lexicon = {
       'entry' => 'irtafaq',
       'form' => 'irtafaq',
       'lines' => [
-        ';; {irotafaq_1',
-        '<rtfq   {irotafaq       PV      benefit;take advantage',
-        'rtfq    rotafiq IV      benefit;take advantage'
+        ';; Airotafaq_1',
+        'Airotafaq       PV      benefit;take advantage',
+        'rotafiq IV      benefit;take advantage'
       ],
       'patterns' => {
         'rtafiq' => [
@@ -6828,7 +6828,7 @@ $Lexicon = {
       'form' => 'rifq',
       'lines' => [
         ';; rifoq_1',
-        'rfq     rifoq   N       friendliness;gentleness'
+        'rifoq   N       friendliness;gentleness'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6858,10 +6858,10 @@ $Lexicon = {
       'form' => 'rifqaT',
       'lines' => [
         ';; rifoqap_1',
-        'rfq     rifoq   Napdu   company;group',
-        'rfAq    rifAq   N       groups;companions',
-        'rfq     rifaq   N       groups;companions',
-        '>rfAq   >arofAq N       groups;companions'
+        'rifoq   Napdu   company;group',
+        'rifAq   N       groups;companions',
+        'rifaq   N       groups;companions',
+        '>arofAq N       groups;companions'
       ],
       'patterns' => {
         '\'arfAq' => [
@@ -6893,7 +6893,7 @@ $Lexicon = {
       'form' => 'rifAqiyy',
       'lines' => [
         ';; rifAqiy~_1',
-        'rfAqy   rifAqiy~        Nall    friendly;cordial'
+        'rifAqiy~        Nall    friendly;cordial'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6913,7 +6913,7 @@ $Lexicon = {
       'form' => 'rafiyq',
       'lines' => [
         ';; rafiyq_1',
-        'rfyq    rafiyq  N0      Rafiq;Rafeek'
+        'rafiyq  N0      Rafiq;Rafeek'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6942,11 +6942,11 @@ $Lexicon = {
       'form' => 'rafiyq',
       'lines' => [
         ';; rafiyq_2',
-        'rfyq    rafiyq  Ndu     companion;partner;comrade',
-        'rfqA\'   rufaqA\' N0_Nh   companions;partners;comrades',
-        'rfqA&   rufaqA& Nh      companions;partners;comrades',
-        'rfqA}   rufaqA} Nhy     companions;partners;comrades',
-        'rfAq    rifAq   N       companions;partners;comrades'
+        'rafiyq  Ndu     companion;partner;comrade',
+        'rufaqA\' N0_Nh   companions;partners;comrades',
+        'rufaqA& Nh      companions;partners;comrades',
+        'rufaqA} Nhy     companions;partners;comrades',
+        'rifAq   N       companions;partners;comrades'
       ],
       'patterns' => {
         'rufaqA\'' => [
@@ -6977,7 +6977,7 @@ $Lexicon = {
       'form' => 'rafiyqaT',
       'lines' => [
         ';; rafiyqap_1',
-        'rfyq    rafiyq  NapAt   woman companion;mistress'
+        'rafiyq  NapAt   woman companion;mistress'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7001,8 +7001,8 @@ $Lexicon = {
       'form' => 'mirfaq',
       'lines' => [
         ';; mirofaq_1',
-        'mrfq    mirofaq Ndu     convenience;amenity;facility',
-        'mrAfq   marAfiq Ndip    conveniences;amenities;facilities'
+        'mirofaq Ndu     convenience;amenity;facility',
+        'marAfiq Ndip    conveniences;amenities;facilities'
       ],
       'patterns' => {
         'marAfiq' => [
@@ -7030,7 +7030,7 @@ $Lexicon = {
       'form' => 'murAfaqaT',
       'lines' => [
         ';; murAfaqap_1',
-        'mrAfq   murAfaq NapAt   accompaniment;escort'
+        'murAfaq NapAt   accompaniment;escort'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7053,8 +7053,8 @@ $Lexicon = {
       'entry' => 'irtifAq',
       'form' => 'irtifAq',
       'lines' => [
-        ';; {irotifAq_1',
-        '<rtfAq  {irotifAq       NduAt   benefit;usefulness'
+        ';; AirotifAq_1',
+        'AirotifAq       NduAt   benefit;usefulness'
       ],
       'patterns' => {
         'irtifAq' => [
@@ -7078,8 +7078,8 @@ $Lexicon = {
       'form' => 'murAfiq',
       'lines' => [
         ';; murAfiq_1',
-        'mrAfq   murAfiq Nall    companion;adjutant',
-        'mrAfq   murAfiq Nall    accompaning;attached     [[murAfiq/ADJ]]'
+        'murAfiq Nall    companion;adjutant',
+        'murAfiq Nall    accompaning;attached     [[murAfiq/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7105,8 +7105,8 @@ $Lexicon = {
       'form' => 'murfaq',
       'lines' => [
         ';; murofaq_1',
-        'mrfq    murofaq N       attached;enclosed     [[murofaq/ADJ]]',
-        'mrfq    murofaq NAt     enclosures;attached items'
+        'murofaq N       attached;enclosed     [[murofaq/ADJ]]',
+        'murofaq NAt     enclosures;attached items'
       ],
       'patterns' => {
         'murfaq' => [
@@ -7132,8 +7132,8 @@ $Lexicon = {
       'form' => 'murtafaq',
       'lines' => [
         ';; murotafaq_1',
-        'mrtfq   murotafaq       N       support',
-        'mrtfq   murotafaq       N       toilet'
+        'murotafaq       N       support',
+        'murotafaq       N       toilet'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7171,12 +7171,12 @@ $Lexicon = {
       'form' => 'rawY',
       'lines' => [
         ';; rawaY-i_1',
-        'rwY     rawaY   PV_0    tell;report;relate;narrate',
-        'rwA     rawA    PV_h    tell;report;relate;narrate',
-        'rwy     raway   PV_Atn  tell;report;relate;narrate',
-        'rw      rawa    PV_ttAw tell;report;relate;narrate',
-        'rwy     rowiy   IV_0hAnn        tell;report;relate;narrate',
-        'rw      row     IV_0hwnyn       tell;report;relate;narrate'
+        'rawaY   PV_0    tell;report;relate;narrate',
+        'rawA    PV_h    tell;report;relate;narrate',
+        'raway   PV_Atn  tell;report;relate;narrate',
+        'rawa    PV_ttAw tell;report;relate;narrate',
+        'rowiy   IV_0hAnn        tell;report;relate;narrate',
+        'row     IV_0hwnyn       tell;report;relate;narrate'
       ],
       'patterns' => {
         'raway' => [
@@ -7226,14 +7226,14 @@ $Lexicon = {
       'form' => 'rawwY',
       'lines' => [
         ';; raw~aY_1',
-        'rwY     raw~aY  PV_0    irrigate',
-        'rwA     raw~A   PV_h    irrigate',
-        'rwy     raw~ay  PV_Atn  irrigate',
-        'rw      raw~    PV_ttAw irrigate',
-        'rwy     raw~iy  IV_0hAnn_yu     irrigate',
-        'rw      raw~    IV_0hwnyn_yu    irrigate',
-        'rwY     raw~aY  IV_0_Pass_yu    be irrigated',
-        'rwy     raw~ay  IV_Ann_Pass_yu  be irrigated'
+        'raw~aY  PV_0    irrigate',
+        'raw~A   PV_h    irrigate',
+        'raw~ay  PV_Atn  irrigate',
+        'raw~    PV_ttAw irrigate',
+        'raw~iy  IV_0hAnn_yu     irrigate',
+        'raw~    IV_0hwnyn_yu    irrigate',
+        'raw~aY  IV_0_Pass_yu    be irrigated',
+        'raw~ay  IV_Ann_Pass_yu  be irrigated'
       ],
       'patterns' => {
         'rawwiy' => [
@@ -7282,14 +7282,14 @@ $Lexicon = {
       'form' => '\'arwY',
       'lines' => [
         ';; >arowaY_1',
-        '>rwY    >arowaY PV_0    irrigate',
-        '>rwA    >arowA  PV_h    irrigate',
-        '>rwy    >aroway PV_Atn  irrigate',
-        '>rw     >arow   PV_ttAw irrigate',
-        'rwy     rowiy   IV_0hAnn_yu     irrigate',
-        'rw      row     IV_0hwnyn_yu    irrigate',
-        'rwY     rowaY   IV_0_Pass_yu    be irrigated',
-        'rwy     roway   IV_Ann_Pass_yu  be irrigated'
+        '>arowaY PV_0    irrigate',
+        '>arowA  PV_h    irrigate',
+        '>aroway PV_Atn  irrigate',
+        '>arow   PV_ttAw irrigate',
+        'rowiy   IV_0hAnn_yu     irrigate',
+        'row     IV_0hwnyn_yu    irrigate',
+        'rowaY   IV_0_Pass_yu    be irrigated',
+        'roway   IV_Ann_Pass_yu  be irrigated'
       ],
       'patterns' => {
         'rwY' => [
@@ -7331,12 +7331,12 @@ $Lexicon = {
       'form' => 'tarawwY',
       'lines' => [
         ';; taraw~aY_1',
-        'trwY    taraw~aY        PV_0    ponder;reflect',
-        'trwy    taraw~ay        PV_Atn  ponder;reflect',
-        'trw     taraw~  PV_ttAw ponder;reflect',
-        'trwY    taraw~aY        IV_0    ponder;reflect',
-        'trwy    taraw~ay        IV_Ann  ponder;reflect',
-        'trw     taraw~  IV_0hwnyn       ponder;reflect'
+        'taraw~aY        PV_0    ponder;reflect',
+        'taraw~ay        PV_Atn  ponder;reflect',
+        'taraw~  PV_ttAw ponder;reflect',
+        'taraw~aY        IV_0    ponder;reflect',
+        'taraw~ay        IV_Ann  ponder;reflect',
+        'taraw~  IV_0hwnyn       ponder;reflect'
       ],
       'patterns' => {
         'tarawway' => [
@@ -7378,14 +7378,14 @@ $Lexicon = {
       'entry' => 'irtawY',
       'form' => 'irtawY',
       'lines' => [
-        ';; {irotawaY_1',
-        '<rtwY   {irotawaY       PV_0    be irrigated',
-        '<rtwA   {irotawA        PV_h    be irrigated',
-        '<rtwy   {irotaway       PV_Atn  be irrigated',
-        '<rtw    {irotaw PV_ttAw_intr    be irrigated',
-        'rtwy    rotawiy IV_0hAnn        be irrigated',
-        'rtw     rotaw   IV_0hwnyn       be irrigated',
-        'rtwY    rotawaY IV_0_Pass_yu    be irrigated'
+        ';; AirotawaY_1',
+        'AirotawaY       PV_0    be irrigated',
+        'AirotawA        PV_h    be irrigated',
+        'Airotaway       PV_Atn  be irrigated',
+        'Airotaw PV_ttAw_intr    be irrigated',
+        'rotawiy IV_0hAnn        be irrigated',
+        'rotaw   IV_0hwnyn       be irrigated',
+        'rotawaY IV_0_Pass_yu    be irrigated'
       ],
       'patterns' => {
         'irtaway' => [
@@ -7414,7 +7414,7 @@ $Lexicon = {
       'form' => 'rawiyy',
       'lines' => [
         ';; rawiy~_1',
-        'rwy     rawiy~  N-ap    thirst-quenching     [[rawiy~/ADJ]]'
+        'rawiy~  N-ap    thirst-quenching     [[rawiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7433,7 +7433,7 @@ $Lexicon = {
       'form' => 'rawiyy',
       'lines' => [
         ';; rawiy~_2',
-        'rwy     rawiy~  N       rhyming letter'
+        'rawiy~  N       rhyming letter'
       ],
       'patterns' => {},
       'index' => '2',
@@ -7452,9 +7452,9 @@ $Lexicon = {
       'form' => 'rawA\'',
       'lines' => [
         ';; rawA\'_1',
-        'rwA\'    rawA\'   N0_Nh   fresh water',
-        'rwA&    rawA&   Nh      fresh water',
-        'rwA}    rawA}   Nhy     fresh water'
+        'rawA\'   N0_Nh   fresh water',
+        'rawA&   Nh      fresh water',
+        'rawA}   Nhy     fresh water'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7473,9 +7473,9 @@ $Lexicon = {
       'form' => 'ruwA\'',
       'lines' => [
         ';; ruwA\'_1',
-        'rwA\'    ruwA\'   N0_Nh   comeliness',
-        'rwA&    ruwA&   Nh      comeliness',
-        'rwA}    ruwA}   Nhy     comeliness'
+        'ruwA\'   N0_Nh   comeliness',
+        'ruwA&   Nh      comeliness',
+        'ruwA}   Nhy     comeliness'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7494,7 +7494,7 @@ $Lexicon = {
       'form' => 'rawiyyaT',
       'lines' => [
         ';; rawiy~ap_1',
-        'rwy     rawiy~  Nap     deliberation;reflection;consideration     [[rawiy~/NOUN]]'
+        'rawiy~  Nap     deliberation;reflection;consideration     [[rawiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7519,8 +7519,8 @@ $Lexicon = {
       'form' => 'riwAyaT',
       'lines' => [
         ';; riwAyap_1',
-        'rwAy    riwAy   Napdu   story;novel',
-        'rwAy    riwAy   NAt     stories;novels'
+        'riwAy   Napdu   story;novel',
+        'riwAy   NAt     stories;novels'
       ],
       'patterns' => {
         'riwAy' => [
@@ -7546,7 +7546,7 @@ $Lexicon = {
       'form' => 'riwAyaT',
       'lines' => [
         ';; riwAyap_2',
-        'rwAy    riwAy   NapAt   report;account'
+        'riwAy   NapAt   report;account'
       ],
       'patterns' => {},
       'index' => '2',
@@ -7566,7 +7566,7 @@ $Lexicon = {
       'form' => 'riwA\'iyy',
       'lines' => [
         ';; riwA}iy~_1',
-        'rwA}y   riwA}iy~        Nall    novelist;narrator     [[riwA}iy~/ADJ]]'
+        'riwA}iy~        Nall    novelist;narrator     [[riwA}iy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7586,7 +7586,7 @@ $Lexicon = {
       'form' => 'riwA\'',
       'lines' => [
         ';; riwA\'_1',
-        'rwA\'    riwA\'   N0      well irrigated;plump'
+        'riwA\'   N0      well irrigated;plump'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7606,7 +7606,7 @@ $Lexicon = {
       'form' => 'tarwiyaT',
       'lines' => [
         ';; tarowiyap_1',
-        'trwy    tarowiy NapAt   deliberation;reflection;consideration'
+        'tarowiy NapAt   deliberation;reflection;consideration'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7627,7 +7627,7 @@ $Lexicon = {
       'form' => '\'irwA\'iyy',
       'lines' => [
         ';; <irowA}iy~_1',
-        '<rwA}y  <irowA}iy~      N-ap    irrigational;irrigated     [[<irowA}iy~/ADJ]]'
+        '<irowA}iy~      N-ap    irrigational;irrigated     [[<irowA}iy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7651,10 +7651,10 @@ $Lexicon = {
       'form' => 'tarawwiy',
       'lines' => [
         ';; taraw~iy_1',
-        'trwy    taraw~iy        N0_Nh   deliberation;reflection;consideration',
-        'trw     taraw~  NK      deliberation;reflection;consideration',
-        'trwy    taraw~iy        NAn_Nayn        deliberations;reflections;considerations',
-        'trwy    taraw~iy        NAt     deliberations;reflections;considerations'
+        'taraw~iy        N0_Nh   deliberation;reflection;consideration',
+        'taraw~  NK      deliberation;reflection;consideration',
+        'taraw~iy        NAn_Nayn        deliberations;reflections;considerations',
+        'taraw~iy        NAt     deliberations;reflections;considerations'
       ],
       'patterns' => {
         'tarawwiy' => [
@@ -7695,13 +7695,13 @@ $Lexicon = {
       'form' => 'rAwiy',
       'lines' => [
         ';; rAwiy_1',
-        'rAwy    rAwiy   N0F_Nh  narrator;storyteller',
-        'rAw     rAw     NK      narrator;storyteller',
-        'rAwy    rAwiy   NAn_Nayn        narrator;storyteller',
-        'rAw     rAw     Nuwn_Niyn       narrator;storyteller',
-        'rAwy    rAwiy   NapAt   narrator;storyteller',
-        'rwA     ruwA    Nap     narrators;storytellers',
-        'rwAyA   rawAyA  N0_Nhy  narrators;storytellers'
+        'rAwiy   N0F_Nh  narrator;storyteller',
+        'rAw     NK      narrator;storyteller',
+        'rAwiy   NAn_Nayn        narrator;storyteller',
+        'rAw     Nuwn_Niyn       narrator;storyteller',
+        'rAwiy   NapAt   narrator;storyteller',
+        'ruwA    Nap     narrators;storytellers',
+        'rawAyA  N0_Nhy  narrators;storytellers'
       ],
       'patterns' => {
         'rAw' => [],
@@ -7738,7 +7738,7 @@ $Lexicon = {
       'form' => 'marwiyyAt',
       'lines' => [
         ';; marowiy~At_1',
-        'mrwy    marowiy~        NAt     tales;stories;reports     [[marowiy~/NOUN]]'
+        'marowiy~        NAt     tales;stories;reports     [[marowiy~/NOUN]]'
       ],
       'patterns' => {
         'marwiyy' => [
@@ -7775,10 +7775,10 @@ $Lexicon = {
       'form' => 'rann',
       'lines' => [
         ';; ran~-i_1',
-        'rn      ran~    PV_V    ring;resound',
-        'rnn     ranan   PV_Cn   ring;resound',
-        'rn      rin~    IV_V    ring;resound',
-        'rnn     ronin   IV-n    ring;resound'
+        'ran~    PV_V    ring;resound',
+        'ranan   PV_Cn   ring;resound',
+        'rin~    IV_V    ring;resound',
+        'ronin   IV-n    ring;resound'
       ],
       'patterns' => {
         'rnin' => [
@@ -7811,7 +7811,7 @@ $Lexicon = {
       'form' => 'rannaT',
       'lines' => [
         ';; ran~ap_1',
-        'rn      ran~    NapAt   ringing;reverberation;shout'
+        'ran~    NapAt   ringing;reverberation;shout'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7832,7 +7832,7 @@ $Lexicon = {
       'form' => 'raniyn',
       'lines' => [
         ';; raniyn_1',
-        'rnyn    raniyn  N       ringing;reverberation;resonance'
+        'raniyn  N       ringing;reverberation;resonance'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7853,7 +7853,7 @@ $Lexicon = {
       'form' => 'rannAn',
       'lines' => [
         ';; ran~An_1',
-        'rnAn    ran~An  Nall    resounding;resonating;ringing;reverberating     [[ran~An/ADJ]]'
+        'ran~An  Nall    resounding;resonating;ringing;reverberating     [[ran~An/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7889,8 +7889,8 @@ $Lexicon = {
       'form' => 'mirnAn',
       'lines' => [
         ';; mironAn_1',
-        'mrnAn   mironAn Ndu     resonator',
-        'mrnAn   mironAn N-ap    resonating'
+        'mironAn Ndu     resonator',
+        'mironAn N-ap    resonating'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7912,7 +7912,7 @@ $Lexicon = {
       'form' => 'rituw^s',
       'lines' => [
         ';; rituw$_1',
-        'rtw$    rituw$  N       retouch;change;embellishment'
+        'rituw$  N       retouch;change;embellishment'
       ],
       'patterns' => {},
       'index' => '1',
@@ -7939,8 +7939,8 @@ $Lexicon = {
       'form' => 'raqa^s',
       'lines' => [
         ';; raqa$-u_1',
-        'rq$     raqa$   PV      variegate;make multicolored',
-        'rq$     roqu$   IV      variegate;make multicolored'
+        'raqa$   PV      variegate;make multicolored',
+        'roqu$   IV      variegate;make multicolored'
       ],
       'patterns' => {
         'rqu^s' => [
@@ -7971,8 +7971,8 @@ $Lexicon = {
       'form' => 'raqqa^s',
       'lines' => [
         ';; raq~a$_1',
-        'rq$     raq~a$  PV      variegate;embellish',
-        'rq$     raq~i$  IV_yu   variegate;embellish'
+        'raq~a$  PV      variegate;embellish',
+        'raq~i$  IV_yu   variegate;embellish'
       ],
       'patterns' => {
         'raqqi^s' => [
@@ -7996,7 +7996,7 @@ $Lexicon = {
       'form' => '\'arqa^s',
       'lines' => [
         ';; >aroqa$_1',
-        '>rq$    >aroqa$ Nel     variegated;multicolored'
+        '>aroqa$ Nel     variegated;multicolored'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8020,8 +8020,8 @@ $Lexicon = {
       'form' => 'mirqA^s',
       'lines' => [
         ';; miroqA$_1',
-        'mrqA$   miroqA$ Ndu     painting brush',
-        'mrAqy$  marAqiy$        Ndip    painting brushes'
+        'miroqA$ Ndu     painting brush',
+        'marAqiy$        Ndip    painting brushes'
       ],
       'patterns' => {
         'marAqiy^s' => [
@@ -8051,8 +8051,8 @@ $Lexicon = {
       'form' => 'rabat',
       'lines' => [
         ';; rabat-i_1',
-        'rbt     rabat   PV-t    caress;stroke',
-        'rbt     robit   IV      caress;stroke'
+        'rabat   PV-t    caress;stroke',
+        'robit   IV      caress;stroke'
       ],
       'patterns' => {
         'rbit' => [
@@ -8083,8 +8083,8 @@ $Lexicon = {
       'form' => 'rabbat',
       'lines' => [
         ';; rab~at_1',
-        'rbt     rab~at  PV-t    stroke;caress',
-        'rbt     rab~it  IV_yu   stroke;caress'
+        'rab~at  PV-t    stroke;caress',
+        'rab~it  IV_yu   stroke;caress'
       ],
       'patterns' => {
         'rabbit' => [
@@ -8108,7 +8108,7 @@ $Lexicon = {
       'form' => 'rabt',
       'lines' => [
         ';; rabot_1',
-        'rbt     rabot   N       caress;stroke'
+        'rabot   N       caress;stroke'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8130,7 +8130,7 @@ $Lexicon = {
       'form' => 'riyt^sArdsuwn',
       'lines' => [
         ';; riyto$Ardosuwn_1',
-        'ryt$Ardswn      riyto$Ardosuwn  Nprop   Richardson'
+        'riyto$Ardosuwn  Nprop   Richardson'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8151,7 +8151,7 @@ $Lexicon = {
       'form' => 'riytir',
       'lines' => [
         ';; riytir_1',
-        'rytr    riytir  Nprop   Ritter'
+        'riytir  Nprop   Ritter'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8176,8 +8176,8 @@ $Lexicon = {
       'form' => 'rasam',
       'lines' => [
         ';; rasam-u_1',
-        'rsm     rasam   PV      trace;sketch',
-        'rsm     rosum   IV      trace;sketch'
+        'rasam   PV      trace;sketch',
+        'rosum   IV      trace;sketch'
       ],
       'patterns' => {
         'rsum' => [
@@ -8208,8 +8208,8 @@ $Lexicon = {
       'form' => 'rasam',
       'lines' => [
         ';; rasam-u_2',
-        'rsm     rasam   PV      prescribe',
-        'rsm     rosum   IV      prescribe'
+        'rasam   PV      prescribe',
+        'rosum   IV      prescribe'
       ],
       'patterns' => {
         'rsum' => [
@@ -8239,8 +8239,8 @@ $Lexicon = {
       'form' => 'rassam',
       'lines' => [
         ';; ras~am_1',
-        'rsm     ras~am  PV      indicate;appoint',
-        'rsm     ras~im  IV_yu   indicate;appoint'
+        'ras~am  PV      indicate;appoint',
+        'ras~im  IV_yu   indicate;appoint'
       ],
       'patterns' => {
         'rassim' => [
@@ -8264,8 +8264,8 @@ $Lexicon = {
       'form' => 'tarassam',
       'lines' => [
         ';; taras~am_1',
-        'trsm    taras~am        PV_intr be indicated;be appointed',
-        'trsm    taras~am        IV_intr be indicated;be appointed'
+        'taras~am        PV_intr be indicated;be appointed',
+        'taras~am        IV_intr be indicated;be appointed'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8288,9 +8288,9 @@ $Lexicon = {
       'entry' => 'irtasam',
       'form' => 'irtasam',
       'lines' => [
-        ';; {irotasam_1',
-        '<rtsm   {irotasam       PV_intr be manifest;be expressed',
-        'rtsm    rotasim IV_intr be manifest;be expressed'
+        ';; Airotasam_1',
+        'Airotasam       PV_intr be manifest;be expressed',
+        'rotasim IV_intr be manifest;be expressed'
       ],
       'patterns' => {
         'rtasim' => [
@@ -8318,8 +8318,8 @@ $Lexicon = {
       'form' => 'rasm',
       'lines' => [
         ';; rasom_1',
-        'rsm     rasom   N       drawing;sketch;illustration',
-        'rswm    rusuwm  N       drawings;sketches;illustrations'
+        'rasom   N       drawing;sketch;illustration',
+        'rusuwm  N       drawings;sketches;illustrations'
       ],
       'patterns' => {
         'rusuwm' => [
@@ -8352,9 +8352,9 @@ $Lexicon = {
       'form' => 'rasm',
       'lines' => [
         ';; rasom_2',
-        'rsm     rasom   N       fee;tax',
-        'rswm    rusuwm  N       taxes;fees',
-        'rswm    rusuwm  NAt     taxes;fees'
+        'rasom   N       fee;tax',
+        'rusuwm  N       taxes;fees',
+        'rusuwm  NAt     taxes;fees'
       ],
       'patterns' => {
         'rusuwm' => [
@@ -8380,7 +8380,7 @@ $Lexicon = {
       'form' => 'rasmiyy',
       'lines' => [
         ';; rasomiy~_1',
-        'rsmy    rasomiy~        Nall    official     [[rasomiy~/ADJ]]'
+        'rasomiy~        Nall    official     [[rasomiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8403,7 +8403,7 @@ $Lexicon = {
       'form' => 'rasmiyyaN',
       'lines' => [
         ';; rasomiy~AF_1',
-        'rsmy    rasomiy~        NF      officially     [[rasomiy~/ADV]]'
+        'rasomiy~        NF      officially     [[rasomiy~/ADV]]'
       ],
       'patterns' => {
         'rasmiyy' => []
@@ -8424,7 +8424,7 @@ $Lexicon = {
       'form' => 'rassAm',
       'lines' => [
         ';; ras~Am_1',
-        'rsAm    ras~Am  Nprop   Ressam;Rassam'
+        'ras~Am  Nprop   Ressam;Rassam'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8444,7 +8444,7 @@ $Lexicon = {
       'form' => 'rassAm',
       'lines' => [
         ';; ras~Am_2',
-        'rsAm    ras~Am  Nall    artist;painter'
+        'ras~Am  Nall    artist;painter'
       ],
       'patterns' => {},
       'index' => '2',
@@ -8464,7 +8464,7 @@ $Lexicon = {
       'form' => 'risAmaT',
       'lines' => [
         ';; risAmap_1',
-        'rsAm    risAm   Nap     ordination;consecration'
+        'risAm   Nap     ordination;consecration'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8488,8 +8488,8 @@ $Lexicon = {
       'form' => 'marsam',
       'lines' => [
         ';; marosam_1',
-        'mrsm    marosam Ndu     studio',
-        'mrAsm   marAsim Ndip    regulations;protocol'
+        'marosam Ndu     studio',
+        'marAsim Ndip    regulations;protocol'
       ],
       'patterns' => {
         'marAsim' => [
@@ -8518,7 +8518,7 @@ $Lexicon = {
       'form' => 'tarsiym',
       'lines' => [
         ';; tarosiym_1',
-        'trsym   tarosiym        NduAt   demarcation;delineation'
+        'tarosiym        NduAt   demarcation;delineation'
       ],
       'patterns' => {
         'tarsiym' => [
@@ -8546,7 +8546,7 @@ $Lexicon = {
       'form' => 'tarassum',
       'lines' => [
         ';; taras~um_1',
-        'trsm    taras~um        NduAt   design;planning'
+        'taras~um        NduAt   design;planning'
       ],
       'patterns' => {
         'tarassum' => [
@@ -8573,8 +8573,8 @@ $Lexicon = {
       'entry' => 'irtisAm',
       'form' => 'irtisAm',
       'lines' => [
-        ';; {irotisAm_1',
-        '<rtsAm  {irotisAm       NduAt   expression;manifestation'
+        ';; AirotisAm_1',
+        'AirotisAm       NduAt   expression;manifestation'
       ],
       'patterns' => {
         'irtisAm' => [
@@ -8602,8 +8602,8 @@ $Lexicon = {
       'form' => 'marsuwm',
       'lines' => [
         ';; marosuwm_1',
-        'mrswm   marosuwm        Ndu     decree;ordinance;statute',
-        'mrAsym  marAsiym        Ndip    decrees;ordinances;statutes'
+        'marosuwm        Ndu     decree;ordinance;statute',
+        'marAsiym        Ndip    decrees;ordinances;statutes'
       ],
       'patterns' => {
         'marAsiym' => [
@@ -8631,7 +8631,7 @@ $Lexicon = {
       'form' => 'marsuwm',
       'lines' => [
         ';; marosuwm_2',
-        'mrswm   marosuwm        Nall    decreed;ordered     [[marosuwm/ADJ]]'
+        'marosuwm        Nall    decreed;ordered     [[marosuwm/ADJ]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -8651,7 +8651,7 @@ $Lexicon = {
       'form' => 'marsuwm',
       'lines' => [
         ';; marosuwm_3',
-        'mrswm   marosuwm        Nall    drawn;sketched     [[marosuwm/ADJ]]'
+        'marosuwm        Nall    drawn;sketched     [[marosuwm/ADJ]]'
       ],
       'patterns' => {},
       'index' => '3',
@@ -8673,7 +8673,7 @@ $Lexicon = {
       'form' => 'ra.h.hAy',
       'lines' => [
         ';; raH~Ay_1',
-        'rHAy    raH~Ay  Nall    grinder'
+        'raH~Ay  Nall    grinder'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8717,17 +8717,17 @@ $Lexicon = {
       'form' => 'ra\'Y',
       'lines' => [
         ';; ra>aY-a_1',
-        'r>Y     ra>aY   PV_0    see;think;believe',
-        'rAY     ra>aY   PV_0    see;think;believe',
-        'r|      ra|     PV_h    see;think;believe',
-        'r>y     ra>ay   PV_Atn  see;think;believe',
-        'r>      ra>     PV_ttAw see;think;believe',
-        'rA      ra>     PV_ttAw see;think;believe',
-        'r&      ra&     PV_w    see;think;believe',
-        'rY      raY     IV_0    see;think;believe',
-        'rA      rA      IV_h    see;think;believe',
-        'ry      ray     IV_Ann  see;think;believe',
-        'r       ra      IV_0hwnyn       see;think;believe'
+        'ra>aY   PV_0    see;think;believe',
+        'ra>aY   PV_0    see;think;believe',
+        'ra|     PV_h    see;think;believe',
+        'ra>ay   PV_Atn  see;think;believe',
+        'ra>     PV_ttAw see;think;believe',
+        'ra>     PV_ttAw see;think;believe',
+        'ra&     PV_w    see;think;believe',
+        'raY     IV_0    see;think;believe',
+        'rA      IV_h    see;think;believe',
+        'ray     IV_Ann  see;think;believe',
+        'ra      IV_0hwnyn       see;think;believe'
       ],
       'patterns' => {
         'ra\'A' => [
@@ -8785,18 +8785,18 @@ $Lexicon = {
       'form' => 'rA\'Y',
       'lines' => [
         ';; rA\'aY_1',
-        'rA\'Y    rA\'aY   PV_0    be hypocritical;be ostentatious',
-        'rA\'A    rA\'A    PV_h    be hypocritical;be ostentatious',
-        'rA\'y    rA\'ay   PV_Atn  be hypocritical;be ostentatious',
-        'rA}y    rA}ay   PV_Atn  be hypocritical;be ostentatious',
-        'rA\'     rA\'     PV_ttAw_intr    be hypocritical;be ostentatious',
-        'rA&     rA&     PV_w_intr       be hypocritical;be ostentatious',
-        'rA}y    rA}iy   IV_0hAnn_yu     be hypocritical;be ostentatious',
-        'rA\'     rA\'     IV_0hwnyn_yu    be hypocritical;be ostentatious',
-        'rA&     rA&     IV_wn_yu        be hypocritical;be ostentatious',
-        'rA}     rA}     IV_yn_yu        be hypocritical;be ostentatious',
-        'rA\'Y    rA\'aY   IV_0_Pass_yu    be hypocritical;be ostentatious',
-        'rA\'y    rA\'ay   IV_Ann_Pass_yu  be hypocritical;be ostentatious'
+        'rA\'aY   PV_0    be hypocritical;be ostentatious',
+        'rA\'A    PV_h    be hypocritical;be ostentatious',
+        'rA\'ay   PV_Atn  be hypocritical;be ostentatious',
+        'rA}ay   PV_Atn  be hypocritical;be ostentatious',
+        'rA\'     PV_ttAw_intr    be hypocritical;be ostentatious',
+        'rA&     PV_w_intr       be hypocritical;be ostentatious',
+        'rA}iy   IV_0hAnn_yu     be hypocritical;be ostentatious',
+        'rA\'     IV_0hwnyn_yu    be hypocritical;be ostentatious',
+        'rA&     IV_wn_yu        be hypocritical;be ostentatious',
+        'rA}     IV_yn_yu        be hypocritical;be ostentatious',
+        'rA\'aY   IV_0_Pass_yu    be hypocritical;be ostentatious',
+        'rA\'ay   IV_Ann_Pass_yu  be hypocritical;be ostentatious'
       ],
       'patterns' => {
         'rA\'iy' => [
@@ -8848,21 +8848,21 @@ $Lexicon = {
       'form' => '\'ar\'Y',
       'lines' => [
         ';; >aro>aY_1',
-        '>r>Y    >aro>aY PV_0    show;demonstrate',
-        '>r|     >aro|   PV_h    show;demonstrate',
-        '>r>y    >aro>ay PV_Atn  show;demonstrate',
-        '>r}y    >aro}ay PV_Atn  show;demonstrate',
-        '>r>     >aro>   PV_ttAw show;demonstrate',
-        '>r&     >aro&   PV_w    show;demonstrate',
-        'r}y     ro}iy   IV_0hAnn_yu     show;demonstrate',
-        'r\'      ro\'     IV_0hwnyn_yu    show;demonstrate',
-        'r>      ro>     IV_0hwnyn_yu    show;demonstrate',
-        'r&      ro&     IV_wn_yu        show;demonstrate',
-        'r}      ro}     IV_yn_yu        show;demonstrate',
-        'r\'Y     ro\'aY   IV_0_Pass_yu    be shown;be demonstrated',
-        'r>Y     ro>aY   IV_0_Pass_yu    be shown;be demonstrated',
-        'r\'y     ro\'ay   IV_Ann_Pass_yu  be shown;be demonstrated',
-        'r>y     ro>ay   IV_Ann_Pass_yu  be shown;be demonstrated'
+        '>aro>aY PV_0    show;demonstrate',
+        '>aro|   PV_h    show;demonstrate',
+        '>aro>ay PV_Atn  show;demonstrate',
+        '>aro}ay PV_Atn  show;demonstrate',
+        '>aro>   PV_ttAw show;demonstrate',
+        '>aro&   PV_w    show;demonstrate',
+        'ro}iy   IV_0hAnn_yu     show;demonstrate',
+        'ro\'     IV_0hwnyn_yu    show;demonstrate',
+        'ro>     IV_0hwnyn_yu    show;demonstrate',
+        'ro&     IV_wn_yu        show;demonstrate',
+        'ro}     IV_yn_yu        show;demonstrate',
+        'ro\'aY   IV_0_Pass_yu    be shown;be demonstrated',
+        'ro>aY   IV_0_Pass_yu    be shown;be demonstrated',
+        'ro\'ay   IV_Ann_Pass_yu  be shown;be demonstrated',
+        'ro>ay   IV_Ann_Pass_yu  be shown;be demonstrated'
       ],
       'patterns' => {
         'r\'iy' => [
@@ -8913,17 +8913,17 @@ $Lexicon = {
       'form' => 'tara\'\'Y',
       'lines' => [
         ';; tara>~aY_1',
-        'tr>Y    tara>~aY        PV_0    think;believe',
-        'tr>A    tara>~A PV_h    think;believe',
-        'tr>y    tara>~ay        PV_Atn  think;believe',
-        'tr>     tara>~  PV_ttAw think;believe',
-        'tr&     tara&~  PV_w    think;believe',
-        'tr>Y    tara>~aY        IV_0    think;believe',
-        'tr>A    tara>~A IV_h    think;believe',
-        'tr>y    tara>~ay        IV_Ann  think;believe',
-        'tr>     tara>~  IV_0hwnyn       think;believe',
-        'tr&     tara&~  IV_wn   think;believe',
-        'tr}     tara}~  IV_yn   think;believe'
+        'tara>~aY        PV_0    think;believe',
+        'tara>~A PV_h    think;believe',
+        'tara>~ay        PV_Atn  think;believe',
+        'tara>~  PV_ttAw think;believe',
+        'tara&~  PV_w    think;believe',
+        'tara>~aY        IV_0    think;believe',
+        'tara>~A IV_h    think;believe',
+        'tara>~ay        IV_Ann  think;believe',
+        'tara>~  IV_0hwnyn       think;believe',
+        'tara&~  IV_wn   think;believe',
+        'tara}~  IV_yn   think;believe'
       ],
       'patterns' => {
         'tara\'\'ay' => [
@@ -8963,17 +8963,17 @@ $Lexicon = {
       'form' => 'tarA\'Y',
       'lines' => [
         ';; tarA\'aY_1',
-        'trA\'Y   tarA\'aY PV_0    appear;be appropriate;feign',
-        'trA|    tarA|   PV_h    appear;be appropriate;feign',
-        'trA}y   tarA}ay PV_Atn  appear;be appropriate;feign',
-        'trA\'    tarA\'   PV_ttAw appear;be appropriate;feign',
-        'trA&    tarA&   PV_w    appear;be appropriate;feign',
-        'trA\'Y   tarA\'aY IV_0    appear;be appropriate;feign',
-        'trA|    tarA|   IV_h    appear;be appropriate;feign',
-        'trA}y   tarA}ay IV_Ann  appear;be appropriate;feign',
-        'trA\'    tarA\'   IV_0hwnyn       appear;be appropriate;feign',
-        'trA&    tarA&   IV_wn   appear;be appropriate;feign',
-        'trA}    tarA}   IV_yn   appear;be appropriate;feign'
+        'tarA\'aY PV_0    appear;be appropriate;feign',
+        'tarA|   PV_h    appear;be appropriate;feign',
+        'tarA}ay PV_Atn  appear;be appropriate;feign',
+        'tarA\'   PV_ttAw appear;be appropriate;feign',
+        'tarA&   PV_w    appear;be appropriate;feign',
+        'tarA\'aY IV_0    appear;be appropriate;feign',
+        'tarA|   IV_h    appear;be appropriate;feign',
+        'tarA}ay IV_Ann  appear;be appropriate;feign',
+        'tarA\'   IV_0hwnyn       appear;be appropriate;feign',
+        'tarA&   IV_wn   appear;be appropriate;feign',
+        'tarA}   IV_yn   appear;be appropriate;feign'
       ],
       'patterns' => {
         'tarA\'ay' => [
@@ -9019,18 +9019,18 @@ $Lexicon = {
       'entry' => 'irta\'Y',
       'form' => 'irta\'Y',
       'lines' => [
-        ';; {irota>aY_1',
-        '<rt>Y   {irota>aY       PV_0    consider;contemplate',
-        '<rt|    {irota| PV_h    consider;contemplate',
-        '<rt>y   {irota>ay       PV_Atn  consider;contemplate',
-        '<rt}y   {irota}ay       PV_Atn  consider;contemplate',
-        '<rt>    {irota> PV_ttAw consider;contemplate',
-        '<rt&    {irota& PV_w    consider;contemplate',
-        'rt}y    rota}iy IV_0hAnn        consider;contemplate',
-        'rt}     rota}   IV_0hwnyn       consider;contemplate',
-        'rt&     rota&   IV_wn   consider;contemplate',
-        'rt}     rota}   IV_yn   consider;contemplate',
-        'rt>Y    rota>aY IV_0_Pass_yu    be considered;be contemplated'
+        ';; Airota>aY_1',
+        'Airota>aY       PV_0    consider;contemplate',
+        'Airota| PV_h    consider;contemplate',
+        'Airota>ay       PV_Atn  consider;contemplate',
+        'Airota}ay       PV_Atn  consider;contemplate',
+        'Airota> PV_ttAw consider;contemplate',
+        'Airota& PV_w    consider;contemplate',
+        'rota}iy IV_0hAnn        consider;contemplate',
+        'rota}   IV_0hwnyn       consider;contemplate',
+        'rota&   IV_wn   consider;contemplate',
+        'rota}   IV_yn   consider;contemplate',
+        'rota>aY IV_0_Pass_yu    be considered;be contemplated'
       ],
       'patterns' => {
         'irta\'ay' => [
@@ -9068,11 +9068,11 @@ $Lexicon = {
       'form' => 'ra\'y',
       'lines' => [
         ';; ra>oy_1',
-        'r>y     ra>oy   N       opinion;view;idea',
-        'rAy     ra>oy   N       opinion;view;idea',
-        '|rA\'    |rA\'    N0_Nh   opinions;views;ideas',
-        '|rA&    |rA&    Nh      opinions;views;ideas',
-        '|rA}    |rA}    Nhy     opinions;views;ideas'
+        'ra>oy   N       opinion;view;idea',
+        'ra>oy   N       opinion;view;idea',
+        '|rA\'    N0_Nh   opinions;views;ideas',
+        '|rA&    Nh      opinions;views;ideas',
+        '|rA}    Nhy     opinions;views;ideas'
       ],
       'patterns' => {
         '\'ArA\'' => [
@@ -9100,7 +9100,7 @@ $Lexicon = {
       'form' => 'rAyaT',
       'lines' => [
         ';; rAyap_1',
-        'rAy     rAy     NapAt   banner;flag'
+        'rAy     NapAt   banner;flag'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9120,7 +9120,7 @@ $Lexicon = {
       'form' => 'rAyaT',
       'lines' => [
         ';; rAyap_2',
-        'rAyp    rAyap   N0      Raya'
+        'rAyap   N0      Raya'
       ],
       'patterns' => {},
       'index' => '2',
@@ -9139,7 +9139,7 @@ $Lexicon = {
       'form' => 'ru\'yaT',
       'lines' => [
         ';; ru&oyap_1',
-        'r&y     ru&oy   Nap     vision;sight;view;viewing'
+        'ru&oy   Nap     vision;sight;view;viewing'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9161,7 +9161,7 @@ $Lexicon = {
       'form' => 'ru\'yaT',
       'lines' => [
         ';; ru&oyap_2',
-        'r&y     ru&oy   Napdu   view;opinion'
+        'ru&oy   Napdu   view;opinion'
       ],
       'patterns' => {},
       'index' => '2',
@@ -9188,9 +9188,9 @@ $Lexicon = {
       'form' => 'ru\'Y',
       'lines' => [
         ';; ru&aY_1',
-        'r&Y     ru&aY   N0      vision;dream',
-        'r&A     ru&A    Nhy     vision;dream',
-        'r&yA    ru&oyA  N0_Nh   vision;dream'
+        'ru&aY   N0      vision;dream',
+        'ru&A    Nhy     vision;dream',
+        'ru&oyA  N0_Nh   vision;dream'
       ],
       'patterns' => {
         'ru\'yY' => [
@@ -9222,11 +9222,11 @@ $Lexicon = {
       'form' => 'mar\'Y',
       'lines' => [
         ';; maro>aY_1',
-        'mr>Y    maro>aY N0      sight;view;apparition',
-        'mr|     maro|   Ndip    sight;view;apparition',
-        'mr>y    maro>ay NAn_Nayn        sights;views;apparitions',
-        'mrA}y   marA}iy N0_Nh   sights;views;apparitions',
-        'mrA\'    marA\'   NK      sights;views;apparitions'
+        'maro>aY N0      sight;view;apparition',
+        'maro|   Ndip    sight;view;apparition',
+        'maro>ay NAn_Nayn        sights;views;apparitions',
+        'marA}iy N0_Nh   sights;views;apparitions',
+        'marA\'   NK      sights;views;apparitions'
       ],
       'patterns' => {
         'mar\'A' => [],
@@ -9265,11 +9265,11 @@ $Lexicon = {
       'form' => 'mir\'AT',
       'lines' => [
         ';; miro|ap_1',
-        'mr|     miro|   Napdu   mirror',
-        'mrAy    mirAy   NapAt   mirror',
-        'mrAyA   marAyA  N0_Nh   mirrors',
-        'mrA}y   marA}iy N0_Nh   mirrors',
-        'mrA\'    marA\'   NK      mirrors'
+        'miro|   Napdu   mirror',
+        'mirAy   NapAt   mirror',
+        'marAyA  N0_Nh   mirrors',
+        'marA}iy N0_Nh   mirrors',
+        'marA\'   NK      mirrors'
       ],
       'patterns' => {
         'marAyY' => [],
@@ -9301,12 +9301,12 @@ $Lexicon = {
       'form' => 'ri\'A\'',
       'lines' => [
         ';; ri}A\'_1',
-        'r}A\'    ri}A\'   N0_Nh   hypocrisy;dissimulation',
-        'r}A&    ri}A&   Nh      hypocrisy;dissimulation',
-        'r}A}    ri}A}   Nhy     hypocrisy;dissimulation',
-        'ryA\'    riyA\'   N0_Nh   hypocrisy;dissimulation',
-        'ryA&    riyA&   Nh      hypocrisy;dissimulation',
-        'ryA}    riyA}   Nhy     hypocrisy;dissimulation'
+        'ri}A\'   N0_Nh   hypocrisy;dissimulation',
+        'ri}A&   Nh      hypocrisy;dissimulation',
+        'ri}A}   Nhy     hypocrisy;dissimulation',
+        'riyA\'   N0_Nh   hypocrisy;dissimulation',
+        'riyA&   Nh      hypocrisy;dissimulation',
+        'riyA}   Nhy     hypocrisy;dissimulation'
       ],
       'patterns' => {
         'riyA\'' => [
@@ -9334,10 +9334,10 @@ $Lexicon = {
       'form' => 'murA\'AT',
       'lines' => [
         ';; murA\'Ap_1',
-        'mrA\'A   murA\'A  Napdu   hypocrisy;dissimulation',
-        'mrA|    murA|   Napdu   hypocrisy;dissimulation',
-        'mrA}y   murA}ay NAt     hypocrisy;dissimulation',
-        'mrA\'y   murA\'ay NAt     hypocrisy;dissimulation'
+        'murA\'A  Napdu   hypocrisy;dissimulation',
+        'murA|   Napdu   hypocrisy;dissimulation',
+        'murA}ay NAt     hypocrisy;dissimulation',
+        'murA\'ay NAt     hypocrisy;dissimulation'
       ],
       'patterns' => {
         'murA\'Y' => [
@@ -9361,8 +9361,8 @@ $Lexicon = {
       'form' => 'rA\'iy',
       'lines' => [
         ';; rA}iy_1',
-        'rA}y    rA}iy   N0F     viewer;observer;onlooker',
-        'rA\'     rA\'     NK      viewer;observer;onlooker'
+        'rA}iy   N0F     viewer;observer;onlooker',
+        'rA\'     NK      viewer;observer;onlooker'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9383,7 +9383,7 @@ $Lexicon = {
       'form' => 'rA\'iyaT',
       'lines' => [
         ';; rA}iyap_1',
-        'rA}y    rA}iy   NapAt   view finder'
+        'rA}iy   NapAt   view finder'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9402,7 +9402,7 @@ $Lexicon = {
       'form' => 'mar\'iyy',
       'lines' => [
         ';; maro}iy~_1',
-        'mr}y    maro}iy~        Nall    visual;seen;visible     [[maro}iy~/ADJ]]'
+        'maro}iy~        Nall    visual;seen;visible     [[maro}iy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9430,12 +9430,12 @@ $Lexicon = {
       'form' => 'murA\'iy',
       'lines' => [
         ';; murA}iy_1',
-        'mrA}y   murA}iy N0F_Nh  hypocrite',
-        'mrA\'    murA\'   NK      hypocrite',
-        'mrA}y   murA}iy NAn_Nayn        hypocrites',
-        'mrA}    murA}   Nuwn_Niyn       hypocrites',
-        'mrA&    murA&   Nuwn_Niyn       hypocrites',
-        'mrA}y   murA}iy NapAt   hypocrite'
+        'murA}iy N0F_Nh  hypocrite',
+        'murA\'   NK      hypocrite',
+        'murA}iy NAn_Nayn        hypocrites',
+        'murA}   Nuwn_Niyn       hypocrites',
+        'murA&   Nuwn_Niyn       hypocrites',
+        'murA}iy NapAt   hypocrite'
       ],
       'patterns' => {
         'murA\'' => [],
@@ -9460,7 +9460,7 @@ $Lexicon = {
       'form' => 'rAy',
       'lines' => [
         ';; rAy_1',
-        'rAy     rAy     Nprop   Ray'
+        'rAy     Nprop   Ray'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9495,12 +9495,12 @@ $Lexicon = {
       'form' => 'rAm',
       'lines' => [
         ';; rAm-u_1',
-        'rAm     rAm     PV_V    desire;wish;covet',
-        'rm      rum     PV_C    desire;wish;covet',
-        'rwm     ruwm    IV_V    desire;wish;covet',
-        'rm      rum     IV_C    desire;wish;covet',
-        'yrAm    yurAm   FW      fine;okay     [[yurAm/FUNC_WORD]]',
-        'mAyrAm  mAyurAm FW      fine;okay     [[mAyurAm/FUNC_WORD]]'
+        'rAm     PV_V    desire;wish;covet',
+        'rum     PV_C    desire;wish;covet',
+        'ruwm    IV_V    desire;wish;covet',
+        'rum     IV_C    desire;wish;covet',
+        'yurAm   FW      fine;okay     [[yurAm/FUNC_WORD]]',
+        'mAyurAm FW      fine;okay     [[mAyurAm/FUNC_WORD]]'
       ],
       'tags' => {
         'mAyurAm/FUNC_WORD' => 1,
@@ -9537,7 +9537,7 @@ $Lexicon = {
       'form' => 'rawm',
       'lines' => [
         ';; rawom_1',
-        'rwm     rawom   N       wish;desire'
+        'rawom   N       wish;desire'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9561,7 +9561,7 @@ $Lexicon = {
       'form' => 'marAm',
       'lines' => [
         ';; marAm_1',
-        'mrAm    marAm   NduAt   desire;longing;aspiration'
+        'marAm   NduAt   desire;longing;aspiration'
       ],
       'patterns' => {
         'marAm' => [
@@ -9590,8 +9590,8 @@ $Lexicon = {
       'form' => 'ruwm',
       'lines' => [
         ';; ruwm_1',
-        'rwm     ruwm    N       Romans;Byzantines',
-        '>rwAm   >arowAm N       Romans;Byzantines'
+        'ruwm    N       Romans;Byzantines',
+        '>arowAm N       Romans;Byzantines'
       ],
       'patterns' => {
         '\'arwAm' => [
@@ -9615,8 +9615,8 @@ $Lexicon = {
       'form' => 'ruwmiyy',
       'lines' => [
         ';; ruwmiy~_1',
-        'rwmy    ruwmiy~ Nall    Roman     [[ruwmiy~/NOUN]]',
-        'rwmy    ruwmiy~ Nall    Roman     [[ruwmiy~/ADJ]]'
+        'ruwmiy~ Nall    Roman     [[ruwmiy~/NOUN]]',
+        'ruwmiy~ Nall    Roman     [[ruwmiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9635,8 +9635,8 @@ $Lexicon = {
       'form' => 'ruwmiyy',
       'lines' => [
         ';; ruwmiy~_2',
-        'rwmy    ruwmiy~ Nall    Byzantine;Greek Orthodox     [[ruwmiy~/NOUN]]',
-        'rwmy    ruwmiy~ Nall    Byzantine;Greek Orthodox     [[ruwmiy~/ADJ]]'
+        'ruwmiy~ Nall    Byzantine;Greek Orthodox     [[ruwmiy~/NOUN]]',
+        'ruwmiy~ Nall    Byzantine;Greek Orthodox     [[ruwmiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -9656,7 +9656,7 @@ $Lexicon = {
       'form' => 'ruwmiyy',
       'lines' => [
         ';; ruwmiy~_3',
-        'rwmy    ruwmiy~ N0      Rumi;Roumi'
+        'ruwmiy~ N0      Rumi;Roumi'
       ],
       'patterns' => {},
       'index' => '3',
@@ -9676,7 +9676,7 @@ $Lexicon = {
       'form' => 'ruwmAn',
       'lines' => [
         ';; ruwmAn_1',
-        'rwmAn   ruwmAn  N       Romans'
+        'ruwmAn  N       Romans'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9695,8 +9695,8 @@ $Lexicon = {
       'form' => 'ruwmAniyy',
       'lines' => [
         ';; ruwmAniy~_1',
-        'rwmAny  ruwmAniy~       Nall    Romanian     [[ruwmAniy~/NOUN]]',
-        'rwmAny  ruwmAniy~       Nall    Romanian     [[ruwmAniy~/ADJ]]'
+        'ruwmAniy~       Nall    Romanian     [[ruwmAniy~/NOUN]]',
+        'ruwmAniy~       Nall    Romanian     [[ruwmAniy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9721,8 +9721,8 @@ $Lexicon = {
       'form' => 'raza.h',
       'lines' => [
         ';; razaH-a_1',
-        'rzH     razaH   PV      sink down;be burdened;suffer',
-        'rzH     rozaH   IV      sink down;be burdened;suffer'
+        'razaH   PV      sink down;be burdened;suffer',
+        'rozaH   IV      sink down;be burdened;suffer'
       ],
       'patterns' => {
         'rza.h' => [
@@ -9754,8 +9754,8 @@ $Lexicon = {
       'form' => 'rAza.h',
       'lines' => [
         ';; rAzaH_1',
-        'rAzH    rAzaH   PV      suffer',
-        'rAzH    rAziH   IV_yu   suffer'
+        'rAzaH   PV      suffer',
+        'rAziH   IV_yu   suffer'
       ],
       'patterns' => {
         'rAzi.h' => [
@@ -9778,7 +9778,7 @@ $Lexicon = {
       'form' => 'ruzuw.h',
       'lines' => [
         ';; ruzuwH_1',
-        'rzwH    ruzuwH  N       fatigue'
+        'ruzuwH  N       fatigue'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9797,7 +9797,7 @@ $Lexicon = {
       'form' => 'rAzi.h',
       'lines' => [
         ';; rAziH_1',
-        'rAzH    rAziH   Nall    tired'
+        'rAziH   Nall    tired'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9822,8 +9822,8 @@ $Lexicon = {
       'form' => 'rafa`',
       'lines' => [
         ';; rafaE-a_1',
-        'rfE     rafaE   PV      lift;raise;increase',
-        'rfE     rofaE   IV      lift;raise;increase'
+        'rafaE   PV      lift;raise;increase',
+        'rofaE   IV      lift;raise;increase'
       ],
       'patterns' => {
         'rfa`' => [
@@ -9855,8 +9855,8 @@ $Lexicon = {
       'form' => 'raffa`',
       'lines' => [
         ';; raf~aE_1',
-        'rfE     raf~aE  PV      promote;raise',
-        'rfE     raf~iE  IV_yu   promote;raise'
+        'raf~aE  PV      promote;raise',
+        'raf~iE  IV_yu   promote;raise'
       ],
       'patterns' => {
         'raffi`' => [
@@ -9884,8 +9884,8 @@ $Lexicon = {
       'form' => 'rAfa`',
       'lines' => [
         ';; rAfaE_1',
-        'rAfE    rAfaE   PV      defend',
-        'rAfE    rAfiE   IV_yu   defend'
+        'rAfaE   PV      defend',
+        'rAfiE   IV_yu   defend'
       ],
       'patterns' => {
         'rAfi`' => [
@@ -9908,8 +9908,8 @@ $Lexicon = {
       'form' => 'taraffa`',
       'lines' => [
         ';; taraf~aE_1',
-        'trfE    taraf~aE        PV_intr be haughty',
-        'trfE    taraf~aE        IV_intr be haughty'
+        'taraf~aE        PV_intr be haughty',
+        'taraf~aE        IV_intr be haughty'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9928,8 +9928,8 @@ $Lexicon = {
       'form' => 'tarAfa`',
       'lines' => [
         ';; tarAfaE_1',
-        'trAfE   tarAfaE PV      litigate',
-        'trAfE   tarAfaE IV      litigate'
+        'tarAfaE PV      litigate',
+        'tarAfaE IV      litigate'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9951,9 +9951,9 @@ $Lexicon = {
       'entry' => 'irtafa`',
       'form' => 'irtafa`',
       'lines' => [
-        ';; {irotafaE_1',
-        '<rtfE   {irotafaE       PV      rise;ascend;increase',
-        'rtfE    rotafiE IV      rise;ascend;increase'
+        ';; AirotafaE_1',
+        'AirotafaE       PV      rise;ascend;increase',
+        'rotafiE IV      rise;ascend;increase'
       ],
       'patterns' => {
         'rtafi`' => [
@@ -9978,7 +9978,7 @@ $Lexicon = {
       'form' => 'raf`',
       'lines' => [
         ';; rafoE_1',
-        'rfE     rafoE   N       raising;lifting;increasing'
+        'rafoE   N       raising;lifting;increasing'
       ],
       'patterns' => {},
       'index' => '1',
@@ -9999,7 +9999,7 @@ $Lexicon = {
       'form' => 'raf`aT',
       'lines' => [
         ';; rafoEap_1',
-        'rfE     rafoE   Nap     lift'
+        'rafoE   Nap     lift'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10018,7 +10018,7 @@ $Lexicon = {
       'form' => 'rif`aT',
       'lines' => [
         ';; rifoEap_1',
-        'rfE     rifoE   Nap     height;elevation;high rank'
+        'rifoE   Nap     height;elevation;high rank'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10039,7 +10039,7 @@ $Lexicon = {
       'form' => 'rifA`',
       'lines' => [
         ';; rifAE_1',
-        'rfAE    rifAE   N       Shrovetide'
+        'rifAE   N       Shrovetide'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10058,7 +10058,7 @@ $Lexicon = {
       'form' => 'rifA`iyy',
       'lines' => [
         ';; rifAEiy~_1',
-        'rfAEy   rifAEiy~        N0      Rifa\'i'
+        'rifAEiy~        N0      Rifa\'i'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10077,7 +10077,7 @@ $Lexicon = {
       'form' => 'rafiy`',
       'lines' => [
         ';; rafiyE_1',
-        'rfyE    rafiyE  Nall    high-ranking;top-level     [[rafiyE/ADJ]]'
+        'rafiyE  Nall    high-ranking;top-level     [[rafiyE/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10097,7 +10097,7 @@ $Lexicon = {
       'form' => 'rafiy`',
       'lines' => [
         ';; rafiyE_2',
-        'rfyE    rafiyE  Nall    thin     [[rafiyE/ADJ]]'
+        'rafiyE  Nall    thin     [[rafiyE/ADJ]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -10116,7 +10116,7 @@ $Lexicon = {
       'form' => 'rafiy`',
       'lines' => [
         ';; rafiyE_3',
-        'rfyE    rafiyE  Nall    fine;delicate     [[rafiyE/ADJ]]'
+        'rafiyE  Nall    fine;delicate     [[rafiyE/ADJ]]'
       ],
       'patterns' => {},
       'index' => '3',
@@ -10136,7 +10136,7 @@ $Lexicon = {
       'form' => '\'arfa`',
       'lines' => [
         ';; >arofaE_1',
-        '>rfE    >arofaE Nel     finer/finest;loftier/loftiest;more/most sublime'
+        '>arofaE Nel     finer/finest;loftier/loftiest;more/most sublime'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10161,8 +10161,8 @@ $Lexicon = {
       'form' => 'rafiy`aT',
       'lines' => [
         ';; rafiyEap_1',
-        'rfyE    rafiyE  Napdu   legal case',
-        'rfA}E   rafA}iE Ndip    legal cases'
+        'rafiyE  Napdu   legal case',
+        'rafA}iE Ndip    legal cases'
       ],
       'patterns' => {
         'rafA\'i`' => [
@@ -10190,8 +10190,8 @@ $Lexicon = {
       'form' => 'marfa`',
       'lines' => [
         ';; marofaE_1',
-        'mrfE    marofaE N       Shrovetide;carnival',
-        'mrAfE   marAfiE Ndip    Shrovetide;carnivals'
+        'marofaE N       Shrovetide;carnival',
+        'marAfiE Ndip    Shrovetide;carnivals'
       ],
       'patterns' => {
         'marAfi`' => [
@@ -10220,8 +10220,8 @@ $Lexicon = {
       'form' => 'mirfa`aT',
       'lines' => [
         ';; mirofaEap_1',
-        'mrfE    mirofaE Napdu   hoisting gear;crane',
-        'mrAfE   marAfiE Ndip    hoisting gear;cranes'
+        'mirofaE Napdu   hoisting gear;crane',
+        'marAfiE Ndip    hoisting gear;cranes'
       ],
       'patterns' => {
         'marAfi`' => [
@@ -10250,7 +10250,7 @@ $Lexicon = {
       'form' => 'mirfA`',
       'lines' => [
         ';; mirofAE_1',
-        'mrfAE   mirofAE NduAt   crane;hoist'
+        'mirofAE NduAt   crane;hoist'
       ],
       'patterns' => {
         'mirfA`' => [
@@ -10278,7 +10278,7 @@ $Lexicon = {
       'form' => 'tarfiy`',
       'lines' => [
         ';; tarofiyE_1',
-        'trfyE   tarofiyE        NduAt   promotion;salary raise'
+        'tarofiyE        NduAt   promotion;salary raise'
       ],
       'patterns' => {
         'tarfiy`' => [
@@ -10302,7 +10302,7 @@ $Lexicon = {
       'form' => 'murAfa`aT',
       'lines' => [
         ';; murAfaEap_1',
-        'mrAfE   murAfaE NapAt   legal proceeding'
+        'murAfaE NapAt   legal proceeding'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10325,7 +10325,7 @@ $Lexicon = {
       'form' => 'taraffu`',
       'lines' => [
         ';; taraf~uE_1',
-        'trfE    taraf~uE        NduAt   arrogance;contempt'
+        'taraf~uE        NduAt   arrogance;contempt'
       ],
       'patterns' => {
         'taraffu`' => [
@@ -10352,8 +10352,8 @@ $Lexicon = {
       'entry' => 'irtifA`',
       'form' => 'irtifA`',
       'lines' => [
-        ';; {irotifAE_1',
-        '<rtfAE  {irotifAE       NduAt   rise;increase;elevation'
+        ';; AirotifAE_1',
+        'AirotifAE       NduAt   rise;increase;elevation'
       ],
       'patterns' => {
         'irtifA`' => [
@@ -10378,7 +10378,7 @@ $Lexicon = {
       'form' => 'rAfi`',
       'lines' => [
         ';; rAfiE_1',
-        'rAfE    rAfiE   N-ap    hoisting;lifting;crane'
+        'rAfiE   N-ap    hoisting;lifting;crane'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10399,7 +10399,7 @@ $Lexicon = {
       'form' => 'rAfi`aT',
       'lines' => [
         ';; rAfiEap_1',
-        'rAfE    rAfiE   NapAt   hoisting gear;lifting apparatus;crane'
+        'rAfiE   NapAt   hoisting gear;lifting apparatus;crane'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10420,7 +10420,7 @@ $Lexicon = {
       'form' => 'marfuw`',
       'lines' => [
         ';; marofuwE_1',
-        'mrfwE   marofuwE        N-ap    lifted;raised;hoisted     [[marofuwE/ADJ]]'
+        'marofuwE        N-ap    lifted;raised;hoisted     [[marofuwE/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10441,7 +10441,7 @@ $Lexicon = {
       'form' => 'muraffa`',
       'lines' => [
         ';; muraf~aE_1',
-        'mrfE    muraf~aE        N       exalted;raised     [[muraf~aE/ADJ]]'
+        'muraf~aE        N       exalted;raised     [[muraf~aE/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10461,7 +10461,7 @@ $Lexicon = {
       'form' => 'murAfi`',
       'lines' => [
         ';; murAfiE_1',
-        'mrAfE   murAfiE N       plaintiff'
+        'murAfiE N       plaintiff'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10480,7 +10480,7 @@ $Lexicon = {
       'form' => 'mutaraffi`',
       'lines' => [
         ';; mutaraf~iE_1',
-        'mtrfE   mutaraf~iE      Nall    haughty;snobbish     [[mutaraf~iE/ADJ]]'
+        'mutaraf~iE      Nall    haughty;snobbish     [[mutaraf~iE/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10500,7 +10500,7 @@ $Lexicon = {
       'form' => 'murtafi`',
       'lines' => [
         ';; murotafiE_1',
-        'mrtfE   murotafiE       Nall    elevated;rising'
+        'murotafiE       Nall    elevated;rising'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10524,8 +10524,8 @@ $Lexicon = {
       'form' => 'murtafa`',
       'lines' => [
         ';; murotafaE_1',
-        'mrtfE   murotafaE       Nall    height;altitude;elevation',
-        'mrtfE   murotafaE       NAt     heights'
+        'murotafaE       Nall    height;altitude;elevation',
+        'murotafaE       NAt     heights'
       ],
       'patterns' => {
         'murtafa`' => [
@@ -10553,7 +10553,7 @@ $Lexicon = {
       'form' => 'ruwfir',
       'lines' => [
         ';; ruwfir_1',
-        'rwfr    ruwfir  Nprop   Rover'
+        'ruwfir  Nprop   Rover'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10644,7 +10644,7 @@ $Lexicon = {
       'form' => 'riyiynA',
       'lines' => [
         ';; riyiynA_1',
-        'ryynA   riyynA  Nprop   Reina'
+        'riyynA  Nprop   Reina'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10669,7 +10669,7 @@ $Lexicon = {
       'form' => 'raba`',
       'lines' => [
         ';; rabaE-a_1',
-        'rbE     robaE   IV      squat;stay'
+        'robaE   IV      squat;stay'
       ],
       'patterns' => {
         'rba`' => [
@@ -10700,8 +10700,8 @@ $Lexicon = {
       'form' => 'rabba`',
       'lines' => [
         ';; rab~aE_1',
-        'rbE     rab~aE  PV      quadruple;square',
-        'rbE     rab~iE  IV_yu   quadruple;square'
+        'rab~aE  PV      quadruple;square',
+        'rab~iE  IV_yu   quadruple;square'
       ],
       'patterns' => {
         'rabbi`' => [
@@ -10725,8 +10725,8 @@ $Lexicon = {
       'form' => 'tarabba`',
       'lines' => [
         ';; tarab~aE_1',
-        'trbE    tarab~aE        PV      sit;be situated',
-        'trbE    tarab~aE        IV      sit;be situated'
+        'tarab~aE        PV      sit;be situated',
+        'tarab~aE        IV      sit;be situated'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10750,8 +10750,8 @@ $Lexicon = {
       'form' => 'rab`',
       'lines' => [
         ';; raboE_1',
-        'rbE     raboE   Ndu     living zone;residence',
-        'rbAE    ribAE   N       living zones;residence'
+        'raboE   Ndu     living zone;residence',
+        'ribAE   N       living zones;residence'
       ],
       'patterns' => {
         'ribA`' => [
@@ -10776,7 +10776,7 @@ $Lexicon = {
       'form' => 'rubuw`',
       'lines' => [
         ';; rubuwE_1',
-        'rbwE    rubuwE  N       territory;inhabited area'
+        'rubuwE  N       territory;inhabited area'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10800,8 +10800,8 @@ $Lexicon = {
       'form' => 'rub`',
       'lines' => [
         ';; ruboE_1',
-        'rbE     ruboE   Ndu     quarter;fourth',
-        '>rbAE   >arobAE N       quarters;fourths'
+        'ruboE   Ndu     quarter;fourth',
+        '>arobAE N       quarters;fourths'
       ],
       'patterns' => {
         '\'arbA`' => [
@@ -10827,7 +10827,7 @@ $Lexicon = {
       'form' => 'rub`iyy',
       'lines' => [
         ';; ruboEiy~_1',
-        'rbEy    ruboEiy~        Nall    quarterly;trimestral     [[ruboEiy~/ADJ]]'
+        'ruboEiy~        Nall    quarterly;trimestral     [[ruboEiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10847,7 +10847,7 @@ $Lexicon = {
       'form' => 'rab`aT',
       'lines' => [
         ';; raboEap_1',
-        'rbE     raboE   Nap     rab\'ah (dry measure)'
+        'raboE   Nap     rab\'ah (dry measure)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10866,7 +10866,7 @@ $Lexicon = {
       'form' => 'rabbA`',
       'lines' => [
         ';; rab~AE_1',
-        'rbAE    rab~AE  Nall    athlete'
+        'rab~AE  Nall    athlete'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10885,7 +10885,7 @@ $Lexicon = {
       'form' => 'rabiy`',
       'lines' => [
         ';; rabiyE_1',
-        'rbyE    rabiyE  N       Spring'
+        'rabiyE  N       Spring'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10904,7 +10904,7 @@ $Lexicon = {
       'form' => 'rabiy`',
       'lines' => [
         ';; rabiyE_2',
-        'rbyE    rabiyE  N       Rabiee'
+        'rabiyE  N       Rabiee'
       ],
       'patterns' => {},
       'index' => '2',
@@ -10923,7 +10923,7 @@ $Lexicon = {
       'form' => 'rabiy`aT',
       'lines' => [
         ';; rabiyEap_1',
-        'rbyEp   rabiyEap        Nprop   Rabiya'
+        'rabiyEap        Nprop   Rabiya'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10942,9 +10942,9 @@ $Lexicon = {
       'form' => '\'arba`',
       'lines' => [
         ';; >arobaE_1',
-        '>rbE    >arobaE Nel     four     [[>arobaE/ADJ]]',
-        '>rbE    >arobaE Nap     four     [[>arobaE/ADJ]]',
-        '>rbE    >arobaE Numb    forty;fortieth'
+        '>arobaE Nel     four     [[>arobaE/ADJ]]',
+        '>arobaE Nap     four     [[>arobaE/ADJ]]',
+        '>arobaE Numb    forty;fortieth'
       ],
       'patterns' => {},
       'index' => '1',
@@ -10965,7 +10965,7 @@ $Lexicon = {
       'form' => '\'arba`',
       'lines' => [
         ';; >arobaE_2',
-        '>rbE    >arobaE FW      Arba     [[>arobaE/NOUN_PROP]]'
+        '>arobaE FW      Arba     [[>arobaE/NOUN_PROP]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -10984,7 +10984,7 @@ $Lexicon = {
       'form' => 'rubA`',
       'lines' => [
         ';; rubAE_1',
-        'rbAE    rubAE   N       four at a time'
+        'rubAE   N       four at a time'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11007,8 +11007,8 @@ $Lexicon = {
       'form' => 'rubA`iyy',
       'lines' => [
         ';; rubAEiy~_1',
-        'rbAEy   rubAEiy~        Nall    four-part;four-sided;     [[rubAEiy~/ADJ]]',
-        'rbAEy   rubAEiy~        NduAt   quadrangle'
+        'rubAEiy~        Nall    four-part;four-sided;     [[rubAEiy~/ADJ]]',
+        'rubAEiy~        NduAt   quadrangle'
       ],
       'patterns' => {
         'rubA`iyy' => []
@@ -11031,9 +11031,9 @@ $Lexicon = {
       'form' => '\'arbi`A\'',
       'lines' => [
         ';; >arobiEA\'_1',
-        '>rbEA\'  >arobiEA\'       N0_Nh   Wednesday',
-        '>rbEA&  >arobiEA&       Nh      Wednesday',
-        '>rbEA}  >arobiEA}       Nhy     Wednesday'
+        '>arobiEA\'       N0_Nh   Wednesday',
+        '>arobiEA&       Nh      Wednesday',
+        '>arobiEA}       Nhy     Wednesday'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11056,8 +11056,8 @@ $Lexicon = {
       'form' => 'marba`',
       'lines' => [
         ';; marobaE_1',
-        'mrbE    marobaE Ndu     meadow;pasture;place of entertainment',
-        'mrAbE   marAbiE Ndip    meadows;pastures;places of entertainment'
+        'marobaE Ndu     meadow;pasture;place of entertainment',
+        'marAbiE Ndip    meadows;pastures;places of entertainment'
       ],
       'patterns' => {
         'marAbi`' => [
@@ -11092,8 +11092,8 @@ $Lexicon = {
       'form' => 'tarbiy`',
       'lines' => [
         ';; tarobiyE_1',
-        'trbyE   tarobiyE        NduAt   quadrangle;plaza;quadrilateral',
-        'trAbyE  tarAbiyE        Ndip    quadrangles;plazas;quadrilaterals'
+        'tarobiyE        NduAt   quadrangle;plaza;quadrilateral',
+        'tarAbiyE        Ndip    quadrangles;plazas;quadrilaterals'
       ],
       'patterns' => {
         'tarbiy`' => [
@@ -11128,7 +11128,7 @@ $Lexicon = {
       'form' => 'tarbiy`',
       'lines' => [
         ';; tarobiyE_2',
-        'trbyE   tarobiyE        NduAt   quadrupling;squaring'
+        'tarobiyE        NduAt   quadrupling;squaring'
       ],
       'patterns' => {
         'tarbiy`' => [
@@ -11152,7 +11152,7 @@ $Lexicon = {
       'form' => 'tarbiy`aT',
       'lines' => [
         ';; tarobiyEap_1',
-        'trbyE   tarobiyE        NapAt   square;plaza'
+        'tarobiyE        NapAt   square;plaza'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11172,7 +11172,7 @@ $Lexicon = {
       'form' => 'tarbiy`iyy',
       'lines' => [
         ';; tarobiyEiy~_1',
-        'trbyEy  tarobiyEiy~     Nall    quadratic;square     [[tarobiyEiy~/ADJ]]'
+        'tarobiyEiy~     Nall    quadratic;square     [[tarobiyEiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11192,8 +11192,8 @@ $Lexicon = {
       'form' => 'rAbi`',
       'lines' => [
         ';; rAbiE_1',
-        'rAbE    rAbiE   Nall    fourth     [[rAbiE/ADJ]]',
-        'rAbE    rAbiE   NF      fourthly;in the fourth place     [[rAbiE/ADV]]'
+        'rAbiE   Nall    fourth     [[rAbiE/ADJ]]',
+        'rAbiE   NF      fourthly;in the fourth place     [[rAbiE/ADV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11214,7 +11214,7 @@ $Lexicon = {
       'form' => 'marbuw`',
       'lines' => [
         ';; marobuwE_1',
-        'mrbwE   marobuwE        N       medium;square'
+        'marobuwE        N       medium;square'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11234,7 +11234,7 @@ $Lexicon = {
       'form' => 'murabba`',
       'lines' => [
         ';; murab~aE_1',
-        'mrbE    murab~aE        Nall    square;quadruple;tetragonal'
+        'murab~aE        Nall    square;quadruple;tetragonal'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11255,7 +11255,7 @@ $Lexicon = {
       'form' => 'murabba`aT',
       'lines' => [
         ';; murab~aEap_1',
-        'mrbE    murab~aE        NapAt   section;district'
+        'murab~aE        NapAt   section;district'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11275,7 +11275,7 @@ $Lexicon = {
       'form' => 'mutarabbi`',
       'lines' => [
         ';; mutarab~iE_1',
-        'mtrbE   mutarab~iE      NF      cross-legged     [[mutarab~iE/ADV]]'
+        'mutarab~iE      NF      cross-legged     [[mutarab~iE/ADV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11306,10 +11306,10 @@ $Lexicon = {
       'form' => 'rakk',
       'lines' => [
         ';; rak~-i_1',
-        'rk      rak~    PV_V_intr       be weak;be poor',
-        'rkk     rakak   PV_C_intr       be weak;be poor',
-        'rk      rik~    IV_V_intr       be weak;be poor',
-        'rkk     rokik   IV_C_intr       be weak;be poor'
+        'rak~    PV_V_intr       be weak;be poor',
+        'rakak   PV_C_intr       be weak;be poor',
+        'rik~    IV_V_intr       be weak;be poor',
+        'rokik   IV_C_intr       be weak;be poor'
       ],
       'patterns' => {
         'rkik' => [
@@ -11352,10 +11352,10 @@ $Lexicon = {
       'form' => 'rakk',
       'lines' => [
         ';; rak~-u_1',
-        'rk      rak~    PV_V    entrust',
-        'rkk     rakak   PV_C    entrust',
-        'rk      ruk~    IV_V    entrust',
-        'rkk     rokuk   IV_C    entrust'
+        'rak~    PV_V    entrust',
+        'rakak   PV_C    entrust',
+        'ruk~    IV_V    entrust',
+        'rokuk   IV_C    entrust'
       ],
       'patterns' => {
         'rkuk' => [
@@ -11387,7 +11387,7 @@ $Lexicon = {
       'form' => 'rikkaT',
       'lines' => [
         ';; rik~ap_1',
-        'rk      rik~    Nap     weakness'
+        'rik~    Nap     weakness'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11413,9 +11413,9 @@ $Lexicon = {
       'form' => 'rakiyk',
       'lines' => [
         ';; rakiyk_1',
-        'rkyk    rakiyk  N/ap    weak;colorless;poor     [[rakiyk/ADJ]]',
-        'rkAk    rikAk   N       weak;colorless;poor',
-        'rkk     rakak   Nap     weak;colorless;poor'
+        'rakiyk  N/ap    weak;colorless;poor     [[rakiyk/ADJ]]',
+        'rikAk   N       weak;colorless;poor',
+        'rakak   Nap     weak;colorless;poor'
       ],
       'patterns' => {
         'rikAk' => [
@@ -11443,7 +11443,7 @@ $Lexicon = {
       'form' => 'rukAk',
       'lines' => [
         ';; rukAk_1',
-        'rkAk    rukAk   N       weak;feeble'
+        'rukAk   N       weak;feeble'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11463,7 +11463,7 @@ $Lexicon = {
       'form' => 'rakAkaT',
       'lines' => [
         ';; rakAkap_1',
-        'rkAk    rakAk   Nap     weakness;inadequacy;lack of color'
+        'rakAk   Nap     weakness;inadequacy;lack of color'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11484,7 +11484,7 @@ $Lexicon = {
       'form' => 'rukkaT',
       'lines' => [
         ';; ruk~ap_1',
-        'rk      ruk~    Nap     distaff;sorcery'
+        'ruk~    Nap     distaff;sorcery'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11513,9 +11513,9 @@ $Lexicon = {
       'form' => 'raba.t',
       'lines' => [
         ';; rabaT-ui_1',
-        'rbT     rabaT   PV      tie;connect',
-        'rbT     robuT   IV      tie;connect',
-        'rbT     robiT   IV      tie;connect'
+        'rabaT   PV      tie;connect',
+        'robuT   IV      tie;connect',
+        'robiT   IV      tie;connect'
       ],
       'patterns' => {
         'rbi.t' => [
@@ -11550,8 +11550,8 @@ $Lexicon = {
       'form' => 'rAba.t',
       'lines' => [
         ';; rAbaT_1',
-        'rAbT    rAbaT   PV_intr be stationed;take up positions',
-        'rAbT    rAbiT   IV_intr_yu      be stationed;take up positions'
+        'rAbaT   PV_intr be stationed;take up positions',
+        'rAbiT   IV_intr_yu      be stationed;take up positions'
       ],
       'patterns' => {
         'rAbi.t' => [
@@ -11575,8 +11575,8 @@ $Lexicon = {
       'form' => 'tarAba.t',
       'lines' => [
         ';; tarAbaT_1',
-        'trAbT   tarAbaT PV_intr be tied together',
-        'trAbT   tarAbaT IV_intr be tied together'
+        'tarAbaT PV_intr be tied together',
+        'tarAbaT IV_intr be tied together'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11598,9 +11598,9 @@ $Lexicon = {
       'entry' => 'irtaba.t',
       'form' => 'irtaba.t',
       'lines' => [
-        ';; {irotabaT_1',
-        '<rtbT   {irotabaT       PV_intr be tied;be connected',
-        'rtbT    rotabiT IV_intr be tied;be connected'
+        ';; AirotabaT_1',
+        'AirotabaT       PV_intr be tied;be connected',
+        'rotabiT IV_intr be tied;be connected'
       ],
       'patterns' => {
         'rtabi.t' => [
@@ -11624,7 +11624,7 @@ $Lexicon = {
       'form' => 'rab.t',
       'lines' => [
         ';; raboT_1',
-        'rbT     raboT   N       tying;connecting'
+        'raboT   N       tying;connecting'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11648,8 +11648,8 @@ $Lexicon = {
       'form' => 'rab.taT',
       'lines' => [
         ';; raboTap_1',
-        'rbT     raboT   Napdu   tie;bandage',
-        'rbT     rabaT   NAt     ties;bandages'
+        'raboT   Napdu   tie;bandage',
+        'rabaT   NAt     ties;bandages'
       ],
       'patterns' => {
         'raba.t' => [
@@ -11679,8 +11679,8 @@ $Lexicon = {
       'form' => 'rab.taT',
       'lines' => [
         ';; raboTap_2',
-        'rbT     raboT   Napdu   parcel',
-        'rbT     rabaT   NAt     parcels'
+        'raboT   Napdu   parcel',
+        'rabaT   NAt     parcels'
       ],
       'patterns' => {
         'raba.t' => [
@@ -11708,8 +11708,8 @@ $Lexicon = {
       'form' => 'rab.taT',
       'lines' => [
         ';; raboTap_3',
-        'rbT     raboT   Napdu   wallet',
-        'rbT     rabaT   NAt     wallets'
+        'raboT   Napdu   wallet',
+        'rabaT   NAt     wallets'
       ],
       'patterns' => {
         'raba.t' => [
@@ -11733,7 +11733,7 @@ $Lexicon = {
       'form' => 'ribA.t',
       'lines' => [
         ';; ribAT_1',
-        'rbAT    ribAT   N       Rabat'
+        'ribAT   N       Rabat'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11752,7 +11752,7 @@ $Lexicon = {
       'form' => 'ribA.tiyy',
       'lines' => [
         ';; ribATiy~_1',
-        'rbATy   ribATiy~        Nall    from/of Rabat     [[ribATiy~/ADJ]]'
+        'ribATiy~        Nall    from/of Rabat     [[ribATiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11781,9 +11781,9 @@ $Lexicon = {
       'form' => 'ribA.t',
       'lines' => [
         ';; ribAT_2',
-        'rbAT    ribAT   N/At    tie;ligature;bandage',
-        'rbT     rubuT   N       ties;ligatures;bandages',
-        '>rbT    >arobiT Nap     ties;ligatures;bandages'
+        'ribAT   N/At    tie;ligature;bandage',
+        'rubuT   N       ties;ligatures;bandages',
+        '>arobiT Nap     ties;ligatures;bandages'
       ],
       'patterns' => {
         'ribA.t' => [
@@ -11817,7 +11817,7 @@ $Lexicon = {
       'form' => 'ribA.taT',
       'lines' => [
         ';; ribATap_1',
-        'rbAT    ribAT   Nap     self-control;self-restraint'
+        'ribAT   Nap     self-control;self-restraint'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11844,9 +11844,9 @@ $Lexicon = {
       'form' => 'marbi.t',
       'lines' => [
         ';; marobiT_1',
-        'mrbT    marobiT Ndu     horse box',
-        'mrbT    marobaT Ndu     horse box',
-        'mrAbT   marAbiT Ndip    horse boxes'
+        'marobiT Ndu     horse box',
+        'marobaT Ndu     horse box',
+        'marAbiT Ndip    horse boxes'
       ],
       'patterns' => {
         'marba.t' => [
@@ -11877,8 +11877,8 @@ $Lexicon = {
       'form' => 'mirba.t',
       'lines' => [
         ';; mirobaT_1',
-        'mrbT    mirobaT Ndu     mooring cable;terminal',
-        'mrAbT   marAbiT Ndip    mooring cables;terminals'
+        'mirobaT Ndu     mooring cable;terminal',
+        'marAbiT Ndip    mooring cables;terminals'
       ],
       'patterns' => {
         'marAbi.t' => [
@@ -11904,7 +11904,7 @@ $Lexicon = {
       'form' => 'murAba.taT',
       'lines' => [
         ';; murAbaTap_1',
-        'mrAbT   murAbaT NapAt   stationing'
+        'murAbaT NapAt   stationing'
       ],
       'patterns' => {},
       'index' => '1',
@@ -11927,7 +11927,7 @@ $Lexicon = {
       'form' => 'tarAbu.t',
       'lines' => [
         ';; tarAbuT_1',
-        'trAbT   tarAbuT NduAt   cohesion;interconnectedness'
+        'tarAbuT NduAt   cohesion;interconnectedness'
       ],
       'patterns' => {
         'tarAbu.t' => [
@@ -11954,8 +11954,8 @@ $Lexicon = {
       'entry' => 'irtibA.t',
       'form' => 'irtibA.t',
       'lines' => [
-        ';; {irotibAT_1',
-        '<rtbAT  {irotibAT       NduAt   connection;link;cohesion'
+        ';; AirotibAT_1',
+        'AirotibAT       NduAt   connection;link;cohesion'
       ],
       'patterns' => {
         'irtibA.t' => [
@@ -11984,8 +11984,8 @@ $Lexicon = {
       'form' => 'rAbi.taT',
       'lines' => [
         ';; rAbiTap_1',
-        'rAbT    rAbiT   Napdu   tie;link',
-        'rwAbT   rawAbiT Ndip    ties;links'
+        'rAbiT   Napdu   tie;link',
+        'rawAbiT Ndip    ties;links'
       ],
       'patterns' => {
         'rawAbi.t' => [
@@ -12015,8 +12015,8 @@ $Lexicon = {
       'form' => 'rAbi.taT',
       'lines' => [
         ';; rAbiTap_2',
-        'rAbT    rAbiT   Napdu   league;union',
-        'rwAbT   rawAbiT Ndip    leagues;unions'
+        'rAbiT   Napdu   league;union',
+        'rawAbiT Ndip    leagues;unions'
       ],
       'patterns' => {
         'rawAbi.t' => [
@@ -12042,7 +12042,7 @@ $Lexicon = {
       'form' => 'marbuw.t',
       'lines' => [
         ';; marobuwT_1',
-        'mrbwT   marobuwT        Nall    tied;connected     [[marobuwT/ADJ]]'
+        'marobuwT        Nall    tied;connected     [[marobuwT/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12066,8 +12066,8 @@ $Lexicon = {
       'form' => 'murAbi.t',
       'lines' => [
         ';; murAbiT_1',
-        'mrAbT   murAbiT Nall    posted;stationed;garrisoned     [[murAbiT/ADJ]]',
-        'mrAbT   murAbiT Nuwn_Niyn       Mourabitoun'
+        'murAbiT Nall    posted;stationed;garrisoned     [[murAbiT/ADJ]]',
+        'murAbiT Nuwn_Niyn       Mourabitoun'
       ],
       'patterns' => {
         'murAbi.t' => [
@@ -12093,7 +12093,7 @@ $Lexicon = {
       'form' => 'mutarAbi.t',
       'lines' => [
         ';; mutarAbiT_1',
-        'mtrAbT  mutarAbiT       Nall    closely tied together;closely related     [[mutarAbiT/ADJ]]'
+        'mutarAbiT       Nall    closely tied together;closely related     [[mutarAbiT/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12113,7 +12113,7 @@ $Lexicon = {
       'form' => 'murtabi.t',
       'lines' => [
         ';; murotabiT_1',
-        'mrtbT   murotabiT       Nall    connected;linked     [[murotabiT/ADJ]]'
+        'murotabiT       Nall    connected;linked     [[murotabiT/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12135,7 +12135,7 @@ $Lexicon = {
       'form' => 'rabil',
       'lines' => [
         ';; rabil_1',
-        'rbl     rabil   Nall    plump;fat     [[rabil/ADJ]]'
+        'rabil   Nall    plump;fat     [[rabil/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12155,7 +12155,7 @@ $Lexicon = {
       'form' => 'rabliyy',
       'lines' => [
         ';; raboliy~_1',
-        'rbly    raboliy~        Nall    plump;fat     [[raboliy~/ADJ]]'
+        'raboliy~        Nall    plump;fat     [[raboliy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12179,8 +12179,8 @@ $Lexicon = {
       'form' => 'rablaT',
       'lines' => [
         ';; rabolap_1',
-        'rbl     rabol   Napdu   mass of flesh',
-        'rbl     rabal   NAt     masses of flesh'
+        'rabol   Napdu   mass of flesh',
+        'rabal   NAt     masses of flesh'
       ],
       'patterns' => {
         'rabal' => [
@@ -12204,7 +12204,7 @@ $Lexicon = {
       'form' => 'rabiyl',
       'lines' => [
         ';; rabiyl_1',
-        'rbyl    rabiyl  Nall    corpulent;fleshy     [[rabiyl/ADJ]]'
+        'rabiyl  Nall    corpulent;fleshy     [[rabiyl/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12224,7 +12224,7 @@ $Lexicon = {
       'form' => 'rabAlaT',
       'lines' => [
         ';; rabAlap_1',
-        'rbAl    rabAl   Nap     corpulence'
+        'rabAl   Nap     corpulence'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12245,7 +12245,7 @@ $Lexicon = {
       'form' => 'ri^giym',
       'lines' => [
         ';; rijiym_1',
-        'rjym    rijiym  N       diet'
+        'rijiym  N       diet'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12266,7 +12266,7 @@ $Lexicon = {
       'form' => 'ruway^sid',
       'lines' => [
         ';; ruwayo$id_1',
-        'rwy$d   ruwayo$id       N0      Ruwaishid'
+        'ruwayo$id       N0      Ruwaishid'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12287,7 +12287,7 @@ $Lexicon = {
       'form' => 'rAy_h',
       'lines' => [
         ';; rAyox_1',
-        'rAyx    rAyox   N0      Reich'
+        'rAyox   N0      Reich'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12308,7 +12308,7 @@ $Lexicon = {
       'form' => 'ruwniy',
       'lines' => [
         ';; ruwniy_1',
-        'rwny    ruwniy  Nprop   Ronny;Ronnie'
+        'ruwniy  Nprop   Ronny;Ronnie'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12334,8 +12334,8 @@ $Lexicon = {
       'form' => 'randa.h',
       'lines' => [
         ';; ranodaH_1',
-        'rndH    ranodaH PV      scan (verse)',
-        'rndH    ranodiH IV_yu   scan (verse)'
+        'ranodaH PV      scan (verse)',
+        'ranodiH IV_yu   scan (verse)'
       ],
       'patterns' => {
         'randi.h' => [
@@ -12358,7 +12358,7 @@ $Lexicon = {
       'form' => 'randa.haT',
       'lines' => [
         ';; ranodaHap_1',
-        'rndH    ranodaH NapAt   scanning (verse)'
+        'ranodaH NapAt   scanning (verse)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12383,8 +12383,8 @@ $Lexicon = {
       'form' => 'ra^gam',
       'lines' => [
         ';; rajam-u_1',
-        'rjm     rajam   PV      revile;stone',
-        'rjm     rojum   IV      revile;stone'
+        'rajam   PV      revile;stone',
+        'rojum   IV      revile;stone'
       ],
       'patterns' => {
         'r^gum' => [
@@ -12415,8 +12415,8 @@ $Lexicon = {
       'form' => 'ra^g^gam',
       'lines' => [
         ';; raj~am_1',
-        'rjm     raj~am  PV      surmise;conjecture',
-        'rjm     raj~im  IV_yu   surmise;conjecture'
+        'raj~am  PV      surmise;conjecture',
+        'raj~im  IV_yu   surmise;conjecture'
       ],
       'patterns' => {
         'ra^g^gim' => [
@@ -12440,7 +12440,7 @@ $Lexicon = {
       'form' => 'ra^gm',
       'lines' => [
         ';; rajom_1',
-        'rjm     rajom   N       stoning;conjecture'
+        'rajom   N       stoning;conjecture'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12464,8 +12464,8 @@ $Lexicon = {
       'form' => 'ra^gm',
       'lines' => [
         ';; rajom_2',
-        'rjm     rajom   N       missile',
-        'rjwm    rujuwm  N       missiles'
+        'rajom   N       missile',
+        'rujuwm  N       missiles'
       ],
       'patterns' => {
         'ru^guwm' => [
@@ -12493,8 +12493,8 @@ $Lexicon = {
       'form' => 'ra^gm',
       'lines' => [
         ';; rajom_3',
-        'rjm     rajom   N       meteorite',
-        'rjm     rujum   N       meteorites'
+        'rajom   N       meteorite',
+        'rujum   N       meteorites'
       ],
       'patterns' => {
         'ru^gum' => [
@@ -12525,9 +12525,9 @@ $Lexicon = {
       'form' => 'ru^gmaT',
       'lines' => [
         ';; rujomap_1',
-        'rjm     rujom   Napdu   tombstone',
-        'rjm     rujam   N       tombstones',
-        'rjAm    rijAm   N       tombstones'
+        'rujom   Napdu   tombstone',
+        'rujam   N       tombstones',
+        'rijAm   N       tombstones'
       ],
       'patterns' => {
         'ru^gam' => [
@@ -12554,7 +12554,7 @@ $Lexicon = {
       'form' => 'ra^giym',
       'lines' => [
         ';; rajiym_1',
-        'rjym    rajiym  N/ap    damned;cursed     [[rajiym/ADJ]]'
+        'rajiym  N/ap    damned;cursed     [[rajiym/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12574,7 +12574,7 @@ $Lexicon = {
       'form' => 'rA^gim',
       'lines' => [
         ';; rAjim_1',
-        'rAjm    rAjim   N/ap    bomber;launcher'
+        'rAjim   N/ap    bomber;launcher'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12600,8 +12600,8 @@ $Lexicon = {
       'form' => 'rafa.d',
       'lines' => [
         ';; rafaD-u_1',
-        'rfD     rafaD   PV      reject;refuse',
-        'rfD     rofuD   IV      reject;refuse'
+        'rafaD   PV      reject;refuse',
+        'rofuD   IV      reject;refuse'
       ],
       'patterns' => {
         'rfu.d' => [
@@ -12635,9 +12635,9 @@ $Lexicon = {
       'form' => '\'arfa.d',
       'lines' => [
         ';; >arofaD_1',
-        '>rfD    >arofaD PV      finish',
-        'rfD     rofiD   IV_yu   finish',
-        'rfD     rofaD   IV_Pass_yu      be finished'
+        '>arofaD PV      finish',
+        'rofiD   IV_yu   finish',
+        'rofaD   IV_Pass_yu      be finished'
       ],
       'patterns' => {
         'rfi.d' => [
@@ -12664,8 +12664,8 @@ $Lexicon = {
       'form' => 'taraffa.d',
       'lines' => [
         ';; taraf~aD_1',
-        'trfD    taraf~aD        PV_intr be bigoted;be fanatical',
-        'trfD    taraf~aD        IV_intr be bigoted;be fanatical'
+        'taraf~aD        PV_intr be bigoted;be fanatical',
+        'taraf~aD        IV_intr be bigoted;be fanatical'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12694,11 +12694,11 @@ $Lexicon = {
       'entry' => 'irfa.d.d',
       'form' => 'irfa.d.d',
       'lines' => [
-        ';; {irofaD~_1',
-        '<rfD    {irofaD~        PV_V    drip;scatter;break up',
-        '<rfDD   {irofaDaD       PV_C    drip;scatter;break up',
-        'rfD     rofaD~  IV_V    drip;scatter;break up',
-        'rfDD    rofaDiD IV_C    drip;scatter;break up'
+        ';; AirofaD~_1',
+        'AirofaD~        PV_V    drip;scatter;break up',
+        'AirofaDaD       PV_C    drip;scatter;break up',
+        'rofaD~  IV_V    drip;scatter;break up',
+        'rofaDiD IV_C    drip;scatter;break up'
       ],
       'patterns' => {
         'irfa.da.d' => [
@@ -12729,7 +12729,7 @@ $Lexicon = {
       'form' => 'raf.d',
       'lines' => [
         ';; rafoD_1',
-        'rfD     rafoD   N       rejection;refusal'
+        'rafoD   N       rejection;refusal'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12749,7 +12749,7 @@ $Lexicon = {
       'form' => 'rafiy.d',
       'lines' => [
         ';; rafiyD_1',
-        'rfyD    rafiyD  Nall    abandoned;rejected     [[rafiyD/ADJ]]'
+        'rafiyD  Nall    abandoned;rejected     [[rafiyD/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12773,7 +12773,7 @@ $Lexicon = {
       'form' => 'taraffu.d',
       'lines' => [
         ';; taraf~uD_1',
-        'trfD    taraf~uD        NduAt   bigotry;fanaticism'
+        'taraf~uD        NduAt   bigotry;fanaticism'
       ],
       'patterns' => {
         'taraffu.d' => [
@@ -12797,7 +12797,7 @@ $Lexicon = {
       'form' => 'rAfi.d',
       'lines' => [
         ';; rAfiD_1',
-        'rAfD    rAfiD   Nall    rejecting;refusing     [[rAfiD/ADJ]]'
+        'rAfiD   Nall    rejecting;refusing     [[rAfiD/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12821,8 +12821,8 @@ $Lexicon = {
       'form' => 'rAfi.daT',
       'lines' => [
         ';; rAfiDap_1',
-        'rAfD    rAfiD   Napdu   renegade;defector;deserter',
-        'rwAfD   rawAfiD Ndip    renegades;defectors;deserters'
+        'rAfiD   Napdu   renegade;defector;deserter',
+        'rawAfiD Ndip    renegades;defectors;deserters'
       ],
       'patterns' => {
         'rawAfi.d' => [
@@ -12850,7 +12850,7 @@ $Lexicon = {
       'form' => 'rAfi.diyy',
       'lines' => [
         ';; rAfiDiy~_1',
-        'rAfDy   rAfiDiy~        Nall    apostate;rebellious;fanatical     [[rAfiDiy~/ADJ]]'
+        'rAfiDiy~        Nall    apostate;rebellious;fanatical     [[rAfiDiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12871,7 +12871,7 @@ $Lexicon = {
       'form' => '\'arfA.d',
       'lines' => [
         ';; >arofAD_1',
-        '>rfAD   >arofAD N       apostate;rebellious;fanatical'
+        '>arofAD N       apostate;rebellious;fanatical'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12892,7 +12892,7 @@ $Lexicon = {
       'form' => 'marfuw.d',
       'lines' => [
         ';; marofuwD_1',
-        'mrfwD   marofuwD        Nall    rejected;refused     [[marofuwD/ADJ]]'
+        'marofuwD        Nall    rejected;refused     [[marofuwD/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -12924,10 +12924,10 @@ $Lexicon = {
       'form' => 'raff',
       'lines' => [
         ';; raf~-i_1',
-        'rf      raf~    PV_V    glitter;glisten',
-        'rff     rafaf   PV_C    glitter;glisten',
-        'rf      rif~    IV_V    glitter;glisten',
-        'rff     rofif   IV_C    glitter;glisten'
+        'raf~    PV_V    glitter;glisten',
+        'rafaf   PV_C    glitter;glisten',
+        'rif~    IV_V    glitter;glisten',
+        'rofif   IV_C    glitter;glisten'
       ],
       'patterns' => {
         'rafaf' => [
@@ -12970,10 +12970,10 @@ $Lexicon = {
       'form' => 'raff',
       'lines' => [
         ';; raf~-u_1',
-        'rf      raf~    PV_V    flutter;quiver',
-        'rff     rafaf   PV_C    flutter;quiver',
-        'rf      ruf~    IV_V    flutter;quiver',
-        'rff     rofuf   IV_C    flutter;quiver'
+        'raf~    PV_V    flutter;quiver',
+        'rafaf   PV_C    flutter;quiver',
+        'ruf~    IV_V    flutter;quiver',
+        'rofuf   IV_C    flutter;quiver'
       ],
       'patterns' => {
         'rafaf' => [
@@ -13006,7 +13006,7 @@ $Lexicon = {
       'form' => 'raff',
       'lines' => [
         ';; raf~_1',
-        'rf      raf~    N       glittering;fluttering'
+        'raf~    N       glittering;fluttering'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13033,9 +13033,9 @@ $Lexicon = {
       'form' => 'raff',
       'lines' => [
         ';; raf~_2',
-        'rf      raf~    Ndu     shelf',
-        'rfwf    rufuwf  N       shelves',
-        'rfAf    rifAf   N       shelves'
+        'raf~    Ndu     shelf',
+        'rufuwf  N       shelves',
+        'rifAf   N       shelves'
       ],
       'patterns' => {
         'rifAf' => [
@@ -13062,7 +13062,7 @@ $Lexicon = {
       'form' => 'raffAf',
       'lines' => [
         ';; raf~Af_1',
-        'rfAf    raf~Af  Nall    radiant;glistening'
+        'raf~Af  Nall    radiant;glistening'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13102,8 +13102,8 @@ $Lexicon = {
       'form' => 'rahuf',
       'lines' => [
         ';; rahuf-u_1',
-        'rhf     rahuf   PV_intr be thin;be sharp',
-        'rhf     rohuf   IV_intr be thin;be sharp'
+        'rahuf   PV_intr be thin;be sharp',
+        'rohuf   IV_intr be thin;be sharp'
       ],
       'patterns' => {
         'rhuf' => [
@@ -13134,8 +13134,8 @@ $Lexicon = {
       'form' => 'rahaf',
       'lines' => [
         ';; rahaf-a_1',
-        'rhf     rahaf   PV      make thin;make sharp',
-        'rhf     rohaf   IV      make thin;make sharp'
+        'rahaf   PV      make thin;make sharp',
+        'rohaf   IV      make thin;make sharp'
       ],
       'patterns' => {
         'rhaf' => [
@@ -13169,9 +13169,9 @@ $Lexicon = {
       'form' => '\'arhaf',
       'lines' => [
         ';; >arohaf_1',
-        '>rhf    >arohaf PV      make thin;make sharp',
-        'rhf     rohif   IV_yu   make thin;make sharp',
-        'rhf     rohaf   IV_Pass_yu      be made thin;be made sharp'
+        '>arohaf PV      make thin;make sharp',
+        'rohif   IV_yu   make thin;make sharp',
+        'rohaf   IV_Pass_yu      be made thin;be made sharp'
       ],
       'patterns' => {
         'rhaf' => [
@@ -13200,7 +13200,7 @@ $Lexicon = {
       'form' => 'rahif',
       'lines' => [
         ';; rahif_1',
-        'rhf     rahif   N-ap    thin'
+        'rahif   N-ap    thin'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13219,7 +13219,7 @@ $Lexicon = {
       'form' => 'rahiyf',
       'lines' => [
         ';; rahiyf_1',
-        'rhyf    rahiyf  Nall    slender;sharp     [[rahiyf/ADJ]]'
+        'rahiyf  Nall    slender;sharp     [[rahiyf/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13243,7 +13243,7 @@ $Lexicon = {
       'form' => '\'irhAf',
       'lines' => [
         ';; <irohAf_1',
-        '<rhAf   <irohAf NduAt   sharpening'
+        '<irohAf NduAt   sharpening'
       ],
       'patterns' => {
         '\'irhAf' => [
@@ -13266,7 +13266,7 @@ $Lexicon = {
       'form' => 'murhaf',
       'lines' => [
         ';; murohaf_1',
-        'mrhf    murohaf Nall    thin;sharp;delicate     [[murohaf/ADJ]]'
+        'murohaf Nall    thin;sharp;delicate     [[murohaf/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13299,10 +13299,10 @@ $Lexicon = {
       'form' => 'ra^ga.h',
       'lines' => [
         ';; rajaH-uia_1',
-        'rjH     rajaH   PV_intr be likely;be expected;weigh more',
-        'rjH     rojuH   IV_intr be likely;be expected;weigh more',
-        'rjH     rojiH   IV_intr be likely;be expected;weigh more',
-        'rjH     rojaH   IV_intr be likely;be expected;weigh more'
+        'rajaH   PV_intr be likely;be expected;weigh more',
+        'rojuH   IV_intr be likely;be expected;weigh more',
+        'rojiH   IV_intr be likely;be expected;weigh more',
+        'rojaH   IV_intr be likely;be expected;weigh more'
       ],
       'patterns' => {
         'r^gu.h' => [
@@ -13342,8 +13342,8 @@ $Lexicon = {
       'form' => 'ra^g^ga.h',
       'lines' => [
         ';; raj~aH_1',
-        'rjH     raj~aH  PV      outweigh;prefer;think more likely',
-        'rjH     raj~iH  IV_yu   outweigh;prefer;think more likely'
+        'raj~aH  PV      outweigh;prefer;think more likely',
+        'raj~iH  IV_yu   outweigh;prefer;think more likely'
       ],
       'patterns' => {
         'ra^g^gi.h' => [
@@ -13368,8 +13368,8 @@ $Lexicon = {
       'form' => 'tara^g^ga.h',
       'lines' => [
         ';; taraj~aH_1',
-        'trjH    taraj~aH        PV_intr be weightier;preponderate',
-        'trjH    taraj~aH        IV_intr be weightier;preponderate'
+        'taraj~aH        PV_intr be weightier;preponderate',
+        'taraj~aH        IV_intr be weightier;preponderate'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13392,9 +13392,9 @@ $Lexicon = {
       'entry' => 'irta^ga.h',
       'form' => 'irta^ga.h',
       'lines' => [
-        ';; {irotajaH_1',
-        '<rtjH   {irotajaH       PV      oscillate;swing back and forth',
-        'rtjH    rotajiH IV      oscillate;swing back and forth'
+        ';; AirotajaH_1',
+        'AirotajaH       PV      oscillate;swing back and forth',
+        'rotajiH IV      oscillate;swing back and forth'
       ],
       'patterns' => {
         'rta^gi.h' => [
@@ -13418,7 +13418,7 @@ $Lexicon = {
       'form' => 'ra^gA.haT',
       'lines' => [
         ';; rajAHap_1',
-        'rjAH    rajAH   Nap     forbearance;composure'
+        'rajAH   Nap     forbearance;composure'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13438,7 +13438,7 @@ $Lexicon = {
       'form' => 'ru^g.hAn',
       'lines' => [
         ';; rujoHAn_1',
-        'rjHAn   rujoHAn N       preponderance;superiority'
+        'rujoHAn N       preponderance;superiority'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13458,7 +13458,7 @@ $Lexicon = {
       'form' => '\'ar^ga.h',
       'lines' => [
         ';; >arojaH_1',
-        '>rjH    >arojaH Nel     more/most likely;more/most probably'
+        '>arojaH Nel     more/most likely;more/most probably'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13478,7 +13478,7 @@ $Lexicon = {
       'form' => '\'ar^ga.hiyyaT',
       'lines' => [
         ';; >arojaHiy~ap_1',
-        '>rjHy   >arojaHiy~      Nap     preponderance;prevalence     [[>arojaHiy~/NOUN]]'
+        '>arojaHiy~      Nap     preponderance;prevalence     [[>arojaHiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13502,8 +13502,8 @@ $Lexicon = {
       'form' => '\'ur^guw.haT',
       'lines' => [
         ';; >urojuwHap_1',
-        '>rjwH   >urojuwH        Napdu   seesaw;swing',
-        '>rAjyH  >arAjiyH        Ndip    seesaws;swings'
+        '>urojuwH        Napdu   seesaw;swing',
+        '>arAjiyH        Ndip    seesaws;swings'
       ],
       'patterns' => {
         '\'arA^giy.h' => [
@@ -13529,7 +13529,7 @@ $Lexicon = {
       'form' => 'rA^gi.h',
       'lines' => [
         ';; rAjiH_1',
-        'rAjH    rAjiH   Nall    probable;likely;preponderant     [[rAjiH/ADJ]]'
+        'rAjiH   Nall    probable;likely;preponderant     [[rAjiH/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13550,7 +13550,7 @@ $Lexicon = {
       'form' => 'rA^gi.h',
       'lines' => [
         ';; rAjiH_2',
-        'rAjH    rAjiH   N0      Rajih'
+        'rAjiH   N0      Rajih'
       ],
       'patterns' => {},
       'index' => '2',
@@ -13569,7 +13569,7 @@ $Lexicon = {
       'form' => 'rA^gi.hiyy',
       'lines' => [
         ';; rAjiHiy~_1',
-        'rAjHy   rAjiHiy~        N0      Rajihi'
+        'rAjiHiy~        N0      Rajihi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13592,8 +13592,8 @@ $Lexicon = {
       'form' => 'mar^guw.haT',
       'lines' => [
         ';; marojuwHap_1',
-        'mrjwH   marojuwH        Napdu   seesaw;swing',
-        'mrAjyH  marAjiyH        Ndip    seesaws;swings'
+        'marojuwH        Napdu   seesaw;swing',
+        'marAjiyH        Ndip    seesaws;swings'
       ],
       'patterns' => {
         'marA^giy.h' => [
@@ -13619,7 +13619,7 @@ $Lexicon = {
       'form' => 'mura^g^gi.h',
       'lines' => [
         ';; muraj~iH_1',
-        'mrjH    muraj~iH        N-ap    deciding'
+        'muraj~iH        N-ap    deciding'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13638,7 +13638,7 @@ $Lexicon = {
       'form' => 'mura^g^ga.h',
       'lines' => [
         ';; muraj~aH_1',
-        'mrjH    muraj~aH        N-ap    probable;likely     [[muraj~aH/ADJ]]'
+        'muraj~aH        N-ap    probable;likely     [[muraj~aH/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13662,7 +13662,7 @@ $Lexicon = {
       'form' => 'tar^giy.h',
       'lines' => [
         ';; tarojiyH_1',
-        'trjyH   tarojiyH        NduAt   likelihood;probability'
+        'tarojiyH        NduAt   likelihood;probability'
       ],
       'patterns' => {
         'tar^giy.h' => [
@@ -13692,8 +13692,8 @@ $Lexicon = {
       'form' => 'rata^g',
       'lines' => [
         ';; rataj-u_1',
-        'rtj     rataj   PV      bolt;lock',
-        'rtj     rotuj   IV      bolt;lock'
+        'rataj   PV      bolt;lock',
+        'rotuj   IV      bolt;lock'
       ],
       'patterns' => {
         'rtu^g' => [
@@ -13724,8 +13724,8 @@ $Lexicon = {
       'form' => 'rati^g',
       'lines' => [
         ';; ratij-a_1',
-        'rtj     ratij   PV_intr be speechless',
-        'rtj     rotaj   IV_intr be speechless'
+        'ratij   PV_intr be speechless',
+        'rotaj   IV_intr be speechless'
       ],
       'patterns' => {
         'rta^g' => [
@@ -13756,8 +13756,8 @@ $Lexicon = {
       'form' => '\'arta^g',
       'lines' => [
         ';; >arotaj_1',
-        '>rtj    >arotaj PV_intr be speechless',
-        'rtj     rotij   IV_intr_yu      be speechless'
+        '>arotaj PV_intr be speechless',
+        'rotij   IV_intr_yu      be speechless'
       ],
       'patterns' => {
         'rti^g' => [
@@ -13787,9 +13787,9 @@ $Lexicon = {
       'form' => 'ritA^g',
       'lines' => [
         ';; ritAj_1',
-        'rtAj    ritAj   Ndu     gate;gateway',
-        'rtj     rutuj   N       gates;gateways',
-        'rtA}j   ratA}ij Ndip    gates;gateways'
+        'ritAj   Ndu     gate;gateway',
+        'rutuj   N       gates;gateways',
+        'ratA}ij Ndip    gates;gateways'
       ],
       'patterns' => {
         'rutu^g' => [
@@ -13820,7 +13820,7 @@ $Lexicon = {
       'form' => 'riykir',
       'lines' => [
         ';; riykir_1',
-        'rykr    riykir  Nprop   Rieker'
+        'riykir  Nprop   Rieker'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13841,7 +13841,7 @@ $Lexicon = {
       'form' => 'ruwduwlf',
       'lines' => [
         ';; ruwduwlof_1',
-        'rwdwlf  ruwduwlof       Nprop   Rudolf'
+        'ruwduwlof       Nprop   Rudolf'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13866,8 +13866,8 @@ $Lexicon = {
       'form' => 'ra`A\'iyy',
       'lines' => [
         ';; raEA}iy~_1',
-        'rEA}y   raEA}iy~        Nall    pastoral;bucolic     [[raEA}iy~/ADJ]]',
-        'rEAwy   raEAwiy~        Nall    pastoral;bucolic     [[raEAwiy~/ADJ]]'
+        'raEA}iy~        Nall    pastoral;bucolic     [[raEA}iy~/ADJ]]',
+        'raEAwiy~        Nall    pastoral;bucolic     [[raEAwiy~/ADJ]]'
       ],
       'patterns' => {
         'ra`Awiyy' => []
@@ -13895,8 +13895,8 @@ $Lexicon = {
       'form' => 'rakal',
       'lines' => [
         ';; rakal-u_1',
-        'rkl     rakal   PV      kick',
-        'rkl     rokul   IV      kick'
+        'rakal   PV      kick',
+        'rokul   IV      kick'
       ],
       'patterns' => {
         'rkul' => [
@@ -13926,9 +13926,9 @@ $Lexicon = {
       'form' => 'rakl',
       'lines' => [
         ';; rakol_1',
-        'rkl     rakol   N       kick;shot',
-        'rkl     rakol   Napdu   kick;shot',
-        'rkl     rakal   NAt     kicks;kicking;shots'
+        'rakol   N       kick;shot',
+        'rakol   Napdu   kick;shot',
+        'rakal   NAt     kicks;kicking;shots'
       ],
       'patterns' => {
         'rakal' => [
@@ -13961,8 +13961,8 @@ $Lexicon = {
       'form' => 'rafad',
       'lines' => [
         ';; rafad-i_1',
-        'rfd     rafad   PV      support;uphold',
-        'rfd     rofid   IV      support;uphold'
+        'rafad   PV      support;uphold',
+        'rofid   IV      support;uphold'
       ],
       'patterns' => {
         'rfid' => [
@@ -13996,9 +13996,9 @@ $Lexicon = {
       'form' => '\'arfad',
       'lines' => [
         ';; >arofad_1',
-        '>rfd    >arofad PV      support;aid',
-        'rfd     rofid   IV_yu   support;aid',
-        'rfd     rofad   IV_Pass_yu      be supported;be aided'
+        '>arofad PV      support;aid',
+        'rofid   IV_yu   support;aid',
+        'rofad   IV_Pass_yu      be supported;be aided'
       ],
       'patterns' => {
         'rfid' => [
@@ -14030,9 +14030,9 @@ $Lexicon = {
       'entry' => 'istarfad',
       'form' => 'istarfad',
       'lines' => [
-        ';; {isotarofad_1',
-        '<strfd  {isotarofad     PV      appeal;seek support',
-        'strfd   sotarofid       IV      appeal;seek support'
+        ';; Aisotarofad_1',
+        'Aisotarofad     PV      appeal;seek support',
+        'sotarofid       IV      appeal;seek support'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14059,9 +14059,9 @@ $Lexicon = {
       'form' => 'rifd',
       'lines' => [
         ';; rifod_1',
-        'rfd     rifod   Ndu     support;gift',
-        'rfwd    rufuwd  N       support;gifts',
-        '>rfAd   >arofAd N       support;gifts'
+        'rifod   Ndu     support;gift',
+        'rufuwd  N       support;gifts',
+        '>arofAd N       support;gifts'
       ],
       'patterns' => {
         '\'arfAd' => [
@@ -14089,7 +14089,7 @@ $Lexicon = {
       'form' => 'rifAdaT',
       'lines' => [
         ';; rifAdap_1',
-        'rfAd    rifAd   Nap     bandage;saddlecloth'
+        'rifAd   Nap     bandage;saddlecloth'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14109,7 +14109,7 @@ $Lexicon = {
       'form' => 'rAfid',
       'lines' => [
         ';; rAfid_1',
-        'rAfd    rAfid   N-ap    tributary stream'
+        'rAfid   N-ap    tributary stream'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14132,8 +14132,8 @@ $Lexicon = {
       'form' => 'rAfidaT',
       'lines' => [
         ';; rAfidap_1',
-        'rAfd    rAfid   Napdu   support;girder',
-        'rwAfd   rawAfid Ndip    support;girders'
+        'rAfid   Napdu   support;girder',
+        'rawAfid Ndip    support;girders'
       ],
       'patterns' => {
         'rawAfid' => [
@@ -14160,7 +14160,7 @@ $Lexicon = {
       'form' => 'ri.dwAn',
       'lines' => [
         ';; riDowAn_1',
-        'rDwAn   riDowAn N0      Redwan;Radwan'
+        'riDowAn N0      Redwan;Radwan'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14180,7 +14180,7 @@ $Lexicon = {
       'form' => 'ri.dwAn',
       'lines' => [
         ';; riDowAn_2',
-        'rDwAn   riDowAn N       approval;acceptance;satisfaction'
+        'riDowAn N       approval;acceptance;satisfaction'
       ],
       'patterns' => {},
       'index' => '2',
@@ -14203,8 +14203,8 @@ $Lexicon = {
       'form' => 'ruwman.tiyqiyy',
       'lines' => [
         ';; ruwmanoTiyqiy~_1',
-        'rwmnTyqy        ruwmanoTiyqiy~  Nall    romantic     [[ruwmanoTiyqiy~/ADJ]]',
-        'rwmnTyqy        ruwmanoTiyqiy~  Nap     romanticism     [[ruwmanoTiyqiy~/NOUN]]'
+        'ruwmanoTiyqiy~  Nall    romantic     [[ruwmanoTiyqiy~/ADJ]]',
+        'ruwmanoTiyqiy~  Nap     romanticism     [[ruwmanoTiyqiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14236,10 +14236,10 @@ $Lexicon = {
       'form' => 'razz',
       'lines' => [
         ';; raz~-u_1',
-        'rz      raz~    PV_V    insert;drive in',
-        'rzz     razaz   PV_C    insert;drive in',
-        'rz      ruz~    IV_V    insert;drive in',
-        'rzz     rozuz   IV_C    insert;drive in'
+        'raz~    PV_V    insert;drive in',
+        'razaz   PV_C    insert;drive in',
+        'ruz~    IV_V    insert;drive in',
+        'rozuz   IV_C    insert;drive in'
       ],
       'patterns' => {
         'ruzz' => [
@@ -14276,8 +14276,8 @@ $Lexicon = {
       'form' => 'razzaz',
       'lines' => [
         ';; raz~az_1',
-        'rzz     raz~az  PV      burnish;polish',
-        'rzz     raz~iz  IV_yu   burnish;polish'
+        'raz~az  PV      burnish;polish',
+        'raz~iz  IV_yu   burnish;polish'
       ],
       'patterns' => {
         'razziz' => [
@@ -14311,10 +14311,10 @@ $Lexicon = {
       'form' => '\'arazz',
       'lines' => [
         ';; >araz~_1',
-        '>rz     >araz~  PV_V    telephone',
-        '>rzz    >arozaz PV_C    telephone',
-        'rz      riz~    IV_V_yu telephone',
-        'rzz     roziz   IV_C_yu telephone'
+        '>araz~  PV_V    telephone',
+        '>arozaz PV_C    telephone',
+        'riz~    IV_V_yu telephone',
+        'roziz   IV_C_yu telephone'
       ],
       'patterns' => {
         '\'arzaz' => [
@@ -14347,8 +14347,8 @@ $Lexicon = {
       'form' => 'ruzz',
       'lines' => [
         ';; ruz~_1',
-        'rz      ruz~    N       rice',
-        '>rz     >aruz~  N       rice'
+        'ruz~    N       rice',
+        '>aruz~  N       rice'
       ],
       'patterns' => {
         '\'aruzz' => [
@@ -14371,7 +14371,7 @@ $Lexicon = {
       'form' => 'razzaT',
       'lines' => [
         ';; raz~ap_1',
-        'rz      raz~    NapAt   ring screw;joint pin'
+        'raz~    NapAt   ring screw;joint pin'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14391,7 +14391,7 @@ $Lexicon = {
       'form' => 'razzAz',
       'lines' => [
         ';; raz~Az_1',
-        'rzAz    raz~Az  N0      Razzaz'
+        'raz~Az  N0      Razzaz'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14410,7 +14410,7 @@ $Lexicon = {
       'form' => 'razzAz',
       'lines' => [
         ';; raz~Az_2',
-        'rzAz    raz~Az  Nall    rice merchant'
+        'raz~Az  Nall    rice merchant'
       ],
       'patterns' => {},
       'index' => '2',
@@ -14433,7 +14433,7 @@ $Lexicon = {
       'form' => 'marazz',
       'lines' => [
         ';; maraz~_1',
-        'mrz     maraz~  NduAt   rice field'
+        'maraz~  NduAt   rice field'
       ],
       'patterns' => {
         'marazz' => [
@@ -14462,8 +14462,8 @@ $Lexicon = {
       'form' => 'ra^ga`',
       'lines' => [
         ';; rajaE-i_1',
-        'rjE     rajaE   PV      return',
-        'rjE     rojiE   IV      return'
+        'rajaE   PV      return',
+        'rojiE   IV      return'
       ],
       'patterns' => {
         'r^gi`' => [
@@ -14493,8 +14493,8 @@ $Lexicon = {
       'form' => 'ra^g^ga`',
       'lines' => [
         ';; raj~aE_1',
-        'rjE     raj~aE  PV      send back',
-        'rjE     raj~iE  IV_yu   send back'
+        'raj~aE  PV      send back',
+        'raj~iE  IV_yu   send back'
       ],
       'patterns' => {
         'ra^g^gi`' => [
@@ -14521,8 +14521,8 @@ $Lexicon = {
       'form' => 'rA^ga`',
       'lines' => [
         ';; rAjaE_1',
-        'rAjE    rAjaE   PV      consult;refer to;examine',
-        'rAjE    rAjiE   IV_yu   consult;refer to;examine'
+        'rAjaE   PV      consult;refer to;examine',
+        'rAjiE   IV_yu   consult;refer to;examine'
       ],
       'patterns' => {
         'rA^gi`' => [
@@ -14554,9 +14554,9 @@ $Lexicon = {
       'form' => '\'ar^ga`',
       'lines' => [
         ';; >arojaE_1',
-        '>rjE    >arojaE PV      send back',
-        'rjE     rojiE   IV_yu   send back',
-        'rjE     rojaE   IV_Pass_yu      be sent back'
+        '>arojaE PV      send back',
+        'rojiE   IV_yu   send back',
+        'rojaE   IV_Pass_yu      be sent back'
       ],
       'patterns' => {
         'r^ga`' => [
@@ -14583,8 +14583,8 @@ $Lexicon = {
       'form' => 'tara^g^ga`',
       'lines' => [
         ';; taraj~aE_1',
-        'trjE    taraj~aE        PV      reverberate',
-        'trjE    taraj~aE        IV      reverberate'
+        'taraj~aE        PV      reverberate',
+        'taraj~aE        IV      reverberate'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14603,8 +14603,8 @@ $Lexicon = {
       'form' => 'tarA^ga`',
       'lines' => [
         ';; tarAjaE_1',
-        'trAjE   tarAjaE PV      retreat;fall behind',
-        'trAjE   tarAjaE IV      retreat;fall behind'
+        'tarAjaE PV      retreat;fall behind',
+        'tarAjaE IV      retreat;fall behind'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14627,9 +14627,9 @@ $Lexicon = {
       'entry' => 'irta^ga`',
       'form' => 'irta^ga`',
       'lines' => [
-        ';; {irotajaE_1',
-        '<rtjE   {irotajaE       PV_intr be stale',
-        'rtjE    rotajiE IV_intr be stale'
+        ';; AirotajaE_1',
+        'AirotajaE       PV_intr be stale',
+        'rotajiE IV_intr be stale'
       ],
       'patterns' => {
         'rta^gi`' => [
@@ -14655,9 +14655,9 @@ $Lexicon = {
       'entry' => 'istar^ga`',
       'form' => 'istar^ga`',
       'lines' => [
-        ';; {isotarojaE_1',
-        '<strjE  {isotarojaE     PV      reclaim;retrieve',
-        'strjE   sotarojiE       IV      reclaim;retrieve'
+        ';; AisotarojaE_1',
+        'AisotarojaE     PV      reclaim;retrieve',
+        'sotarojiE       IV      reclaim;retrieve'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14677,7 +14677,7 @@ $Lexicon = {
       'form' => 'ra^g`',
       'lines' => [
         ';; rajoE_1',
-        'rjE     rajoE   N       return;coming back'
+        'rajoE   N       return;coming back'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14697,7 +14697,7 @@ $Lexicon = {
       'form' => 'ra^g`iyy',
       'lines' => [
         ';; rajoEiy~_1',
-        'rjEy    rajoEiy~        Nall    reactionary;retroactive     [[rajoEiy~/ADJ]]'
+        'rajoEiy~        Nall    reactionary;retroactive     [[rajoEiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14717,7 +14717,7 @@ $Lexicon = {
       'form' => 'ra^g`iyyaT',
       'lines' => [
         ';; rajoEiy~ap_1',
-        'rjEy    rajoEiy~        Nap     reactionary conservatism;reaction     [[rajoEiy~/NOUN]]'
+        'rajoEiy~        Nap     reactionary conservatism;reaction     [[rajoEiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14737,7 +14737,7 @@ $Lexicon = {
       'form' => 'ra^g`aT',
       'lines' => [
         ';; rajoEap_1',
-        'rjE     rajoE   Nap     return;voucher'
+        'rajoE   Nap     return;voucher'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14764,10 +14764,10 @@ $Lexicon = {
       'form' => 'ru^g`Y',
       'lines' => [
         ';; rujoEaY_1',
-        'rjEY    rujoEaY N0      reaction',
-        'rjEA    rujoEA  Nhy     reaction',
-        'rjEy    rujoEay NAn_Nayn        reactions',
-        'rjEy    rujoEay NAt     reactions'
+        'rujoEaY N0      reaction',
+        'rujoEA  Nhy     reaction',
+        'rujoEay NAn_Nayn        reactions',
+        'rujoEay NAt     reactions'
       ],
       'patterns' => {
         'ru^g`A' => [],
@@ -14792,7 +14792,7 @@ $Lexicon = {
       'form' => 'ru^guw`',
       'lines' => [
         ';; rujuwE_1',
-        'rjwE    rujuwE  N       return;reverting'
+        'rujuwE  N       return;reverting'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14812,7 +14812,7 @@ $Lexicon = {
       'form' => 'ru^guw`iyy',
       'lines' => [
         ';; rujuwEiy~_1',
-        'rjwEy   rujuwEiy~       Nall    backwards;retrospective     [[rujuwEiy~/ADJ]]'
+        'rujuwEiy~       Nall    backwards;retrospective     [[rujuwEiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14832,7 +14832,7 @@ $Lexicon = {
       'form' => 'ra^giy`',
       'lines' => [
         ';; rajiyE_1',
-        'rjyE    rajiyE  N       excrement'
+        'rajiyE  N       excrement'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14851,7 +14851,7 @@ $Lexicon = {
       'form' => 'mar^gi`',
       'lines' => [
         ';; marojiE_1',
-        'mrjE    marojiE N       return;retreat'
+        'marojiE N       return;retreat'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14875,8 +14875,8 @@ $Lexicon = {
       'form' => 'mar^gi`',
       'lines' => [
         ';; marojiE_2',
-        'mrjE    marojiE Ndu     source;reference work',
-        'mrAjE   marAjiE Ndip    sources;reference works'
+        'marojiE Ndu     source;reference work',
+        'marAjiE Ndip    sources;reference works'
       ],
       'patterns' => {
         'marA^gi`' => [
@@ -14902,7 +14902,7 @@ $Lexicon = {
       'form' => 'mar^gi`iyy',
       'lines' => [
         ';; marojiEiy~_1',
-        'mrjEy   marojiEiy~      Nall    authoritative;qualified     [[marojiEiy~/ADJ]]'
+        'marojiEiy~      Nall    authoritative;qualified     [[marojiEiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14922,7 +14922,7 @@ $Lexicon = {
       'form' => 'mar^gi`iyyaT',
       'lines' => [
         ';; marojiEiy~ap_1',
-        'mrjEy   marojiEiy~      Nap     authority     [[marojiEiy~/NOUN]]'
+        'marojiEiy~      Nap     authority     [[marojiEiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14941,7 +14941,7 @@ $Lexicon = {
       'form' => 'murA^ga`aT',
       'lines' => [
         ';; murAjaEap_1',
-        'mrAjE   murAjaE NapAt   review;inspection'
+        'murAjaE NapAt   review;inspection'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14965,7 +14965,7 @@ $Lexicon = {
       'form' => '\'ir^gA`',
       'lines' => [
         ';; <irojAE_1',
-        '<rjAE   <irojAE NduAt   return;attribution;reduction'
+        '<irojAE NduAt   return;attribution;reduction'
       ],
       'patterns' => {
         '\'ir^gA`' => [
@@ -14994,7 +14994,7 @@ $Lexicon = {
       'form' => 'tarA^gu`',
       'lines' => [
         ';; tarAjuE_1',
-        'trAjE   tarAjuE NduAt   retreat;backing down;retraction'
+        'tarAjuE NduAt   retreat;backing down;retraction'
       ],
       'patterns' => {
         'tarA^gu`' => [
@@ -15022,8 +15022,8 @@ $Lexicon = {
       'entry' => 'irti^gA`',
       'form' => 'irti^gA`',
       'lines' => [
-        ';; {irotijAE_1',
-        '<rtjAE  {irotijAE       NduAt   regression;return to an older form'
+        ';; AirotijAE_1',
+        'AirotijAE       NduAt   regression;return to an older form'
       ],
       'patterns' => {
         'irti^gA`' => [
@@ -15046,8 +15046,8 @@ $Lexicon = {
       'entry' => 'irti^gA`',
       'form' => 'irti^gA`iyy',
       'lines' => [
-        ';; {irotijAEiy~_1',
-        '<rtjAEy {irotijAEiy~    Nall    reactionary     [[{irotijAEiy~/ADJ]]'
+        ';; AirotijAEiy~_1',
+        'AirotijAEiy~    Nall    reactionary     [[AirotijAEiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15069,8 +15069,8 @@ $Lexicon = {
       'entry' => 'istir^gA`',
       'form' => 'istir^gA`',
       'lines' => [
-        ';; {isotirojAE_1',
-        '<strjAE {isotirojAE     NduAt   reclamation;recovery;retraction'
+        ';; AisotirojAE_1',
+        'AisotirojAE     NduAt   reclamation;recovery;retraction'
       ],
       'patterns' => {
         'istir^gA`' => [
@@ -15095,7 +15095,7 @@ $Lexicon = {
       'form' => 'rA^gi`',
       'lines' => [
         ';; rAjiE_1',
-        'rAjE    rAjiE   Nall    returning;reverting;attributed     [[rAjiE/ADJ]]'
+        'rAjiE   Nall    returning;reverting;attributed     [[rAjiE/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15116,7 +15116,7 @@ $Lexicon = {
       'form' => 'murA^gi`',
       'lines' => [
         ';; murAjiE_1',
-        'mrAjE   murAjiE Nall    reviewer;examiner'
+        'murAjiE Nall    reviewer;examiner'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15136,7 +15136,7 @@ $Lexicon = {
       'form' => 'mutarA^gi`',
       'lines' => [
         ';; mutarAjiE_1',
-        'mtrAjE  mutarAjiE       Nall    retreating;falling behind     [[mutarAjiE/ADJ]]'
+        'mutarAjiE       Nall    retreating;falling behind     [[mutarAjiE/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15156,7 +15156,7 @@ $Lexicon = {
       'form' => 'murta^gi`',
       'lines' => [
         ';; murotajiE_1',
-        'mrtjE   murotajiE       N-ap    stale     [[murotajiE/ADJ]]'
+        'murotajiE       N-ap    stale     [[murotajiE/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15177,7 +15177,7 @@ $Lexicon = {
       'form' => 'ru\'d',
       'lines' => [
         ';; ru&od_1',
-        'r&d     ru&od   N       soft;tender'
+        'ru&od   N       soft;tender'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15201,8 +15201,8 @@ $Lexicon = {
       'form' => 'ri\'d',
       'lines' => [
         ';; ri}od_1',
-        'r}d     ri}od   N/ap    contemporary;of the same age',
-        '>r|d    >aro|d  N       contemporary;of the same age'
+        'ri}od   N/ap    contemporary;of the same age',
+        '>aro|d  N       contemporary;of the same age'
       ],
       'patterns' => {
         '\'ar\'Ad' => [
@@ -15286,7 +15286,7 @@ $Lexicon = {
       'form' => 'tAriy`',
       'lines' => [
         ';; tAriyE_1',
-        'tAryE   tAriyE  N       cadastre;survey'
+        'tAriyE  N       cadastre;survey'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15312,7 +15312,7 @@ $Lexicon = {
       'form' => 'ruwbuw.t',
       'lines' => [
         ';; ruwbuwT_1',
-        'rwbwT   ruwbuwT N/At    robot'
+        'ruwbuwT N/At    robot'
       ],
       'patterns' => {
         'ruwbuw.t' => []
@@ -15335,7 +15335,7 @@ $Lexicon = {
       'form' => 'ruwbinsuwn',
       'lines' => [
         ';; ruwbinosuwn_1',
-        'rwbnswn ruwbinosuwn     N0      Robinson'
+        'ruwbinosuwn     N0      Robinson'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15356,7 +15356,7 @@ $Lexicon = {
       'form' => 'ridmuwnd',
       'lines' => [
         ';; ridomuwnod_1',
-        'rdmwnd  ridomuwnod      Nprop   Redmond'
+        'ridomuwnod      Nprop   Redmond'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15387,10 +15387,10 @@ $Lexicon = {
       'form' => 'rasan',
       'lines' => [
         ';; rasan_1',
-        'rsn     rasan   Ndu     halter',
-        '>rsn    >arosun N       halters',
-        '>rsAn   >arosAn N       halters',
-        '>rsn    >arosin Nap     halters'
+        'rasan   Ndu     halter',
+        '>arosun N       halters',
+        '>arosAn N       halters',
+        '>arosin Nap     halters'
       ],
       'patterns' => {
         '\'arsun' => [
@@ -15426,7 +15426,7 @@ $Lexicon = {
       'form' => '\'arba`iyn',
       'lines' => [
         ';; >arobaEiyn_1',
-        '>rbEyn  >arobaEiyn      NAt     forties'
+        '>arobaEiyn      NAt     forties'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15449,7 +15449,7 @@ $Lexicon = {
       'form' => '\'arba`iyniyy',
       'lines' => [
         ';; >arobaEiyniy~_1',
-        '>rbEyny >arobaEiyniy~   NAt     forties     [[>arobaEiyniy~/NOUN]]'
+        '>arobaEiyniy~   NAt     forties     [[>arobaEiyniy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15474,7 +15474,7 @@ $Lexicon = {
       'form' => 'riynuw',
       'lines' => [
         ';; riynuw_1',
-        'rynw    rynw    Nprop   Renault'
+        'rynw    Nprop   Renault'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15497,7 +15497,7 @@ $Lexicon = {
       'form' => 'riynuw',
       'lines' => [
         ';; riynuw_2',
-        'rynw    rynw    Nprop   Reno'
+        'rynw    Nprop   Reno'
       ],
       'patterns' => {},
       'index' => '2',
@@ -15522,8 +15522,8 @@ $Lexicon = {
       'form' => 'ra.hal',
       'lines' => [
         ';; raHal-a_1',
-        'rHl     raHal   PV      depart;move away',
-        'rHl     roHal   IV      depart;move away'
+        'raHal   PV      depart;move away',
+        'roHal   IV      depart;move away'
       ],
       'patterns' => {
         'r.hal' => [
@@ -15554,8 +15554,8 @@ $Lexicon = {
       'form' => 'ra.h.hal',
       'lines' => [
         ';; raH~al_1',
-        'rHl     raH~al  PV      expel;make leave;transfer',
-        'rHl     raH~il  IV_yu   expel;make leave;transfer'
+        'raH~al  PV      expel;make leave;transfer',
+        'raH~il  IV_yu   expel;make leave;transfer'
       ],
       'patterns' => {
         'ra.h.hil' => [
@@ -15580,8 +15580,8 @@ $Lexicon = {
       'form' => 'tara.h.hal',
       'lines' => [
         ';; taraH~al_1',
-        'trHl    taraH~al        PV      wander',
-        'trHl    taraH~al        IV      wander'
+        'taraH~al        PV      wander',
+        'taraH~al        IV      wander'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15603,9 +15603,9 @@ $Lexicon = {
       'entry' => 'irta.hal',
       'form' => 'irta.hal',
       'lines' => [
-        ';; {irotaHal_1',
-        '<rtHl   {irotaHal       PV      depart',
-        'rtHl    rotaHil IV      depart'
+        ';; AirotaHal_1',
+        'AirotaHal       PV      depart',
+        'rotaHil IV      depart'
       ],
       'patterns' => {
         'rta.hil' => [
@@ -15632,8 +15632,8 @@ $Lexicon = {
       'form' => 'ra.hl',
       'lines' => [
         ';; raHol_1',
-        'rHl     raHol   N       baggage',
-        'rHAl    riHAl   N       baggage'
+        'raHol   N       baggage',
+        'riHAl   N       baggage'
       ],
       'patterns' => {
         'ri.hAl' => [
@@ -15656,7 +15656,7 @@ $Lexicon = {
       'form' => 'ri.hAl',
       'lines' => [
         ';; riHAl_1',
-        'rHAl    riHAl   N       stopover'
+        'riHAl   N       stopover'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15675,7 +15675,7 @@ $Lexicon = {
       'form' => 'ri.hlaT',
       'lines' => [
         ';; riHolap_1',
-        'rHl     riHol   NapAt   journey;career'
+        'riHol   NapAt   journey;career'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15695,7 +15695,7 @@ $Lexicon = {
       'form' => 'ra.hiyl',
       'lines' => [
         ';; raHiyl_1',
-        'rHyl    raHiyl  N       departure;demise'
+        'raHiyl  N       departure;demise'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15719,8 +15719,8 @@ $Lexicon = {
       'form' => 'ra.h.hAl',
       'lines' => [
         ';; raH~Al_1',
-        'rHAl    raH~Al  Nall    roving;wandering',
-        'rHl     ruH~al  N       roving;wandering'
+        'raH~Al  Nall    roving;wandering',
+        'ruH~al  N       roving;wandering'
       ],
       'patterns' => {
         'ru.h.hal' => [
@@ -15744,7 +15744,7 @@ $Lexicon = {
       'form' => 'ra.h.hAlaT',
       'lines' => [
         ';; raH~Alap_1',
-        'rHAl    raH~Al  Nap     great traveler;explorer'
+        'raH~Al  Nap     great traveler;explorer'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15768,8 +15768,8 @@ $Lexicon = {
       'form' => 'mar.halaT',
       'lines' => [
         ';; maroHalap_1',
-        'mrHl    maroHal Napdu   phase;stage;round',
-        'mrAHl   marAHil Ndip    phases;stages;rounds'
+        'maroHal Napdu   phase;stage;round',
+        'marAHil Ndip    phases;stages;rounds'
       ],
       'patterns' => {
         'marA.hil' => [
@@ -15801,7 +15801,7 @@ $Lexicon = {
       'form' => 'tar.hiyl',
       'lines' => [
         ';; taroHiyl_1',
-        'trHyl   taroHiyl        NduAt   deportation;evacuation;exodus'
+        'taroHiyl        NduAt   deportation;evacuation;exodus'
       ],
       'patterns' => {
         'tar.hiyl' => [
@@ -15829,8 +15829,8 @@ $Lexicon = {
       'entry' => 'irti.hAl',
       'form' => 'irti.hAl',
       'lines' => [
-        ';; {irotiHAl_1',
-        '<rtHAl  {irotiHAl       NduAt   departure;exodus;demise'
+        ';; AirotiHAl_1',
+        'AirotiHAl       NduAt   departure;exodus;demise'
       ],
       'patterns' => {
         'irti.hAl' => [
@@ -15859,8 +15859,8 @@ $Lexicon = {
       'form' => 'rA.hil',
       'lines' => [
         ';; rAHil_1',
-        'rAHl    rAHil   N/ap    departing',
-        'rHl     ruH~al  N       departing'
+        'rAHil   N/ap    departing',
+        'ruH~al  N       departing'
       ],
       'patterns' => {
         'ru.h.hal' => [
@@ -15883,7 +15883,7 @@ $Lexicon = {
       'form' => 'rA.hil',
       'lines' => [
         ';; rAHil_2',
-        'rAHl    rAHil   Nall    deceased'
+        'rAHil   Nall    deceased'
       ],
       'patterns' => {},
       'index' => '2',
@@ -15906,8 +15906,8 @@ $Lexicon = {
       'form' => 'rA.hilaT',
       'lines' => [
         ';; rAHilap_1',
-        'rAHl    rAHil   Napdu   riding camel',
-        'rwAHl   rawAHil Ndip    riding camels'
+        'rAHil   Napdu   riding camel',
+        'rawAHil Ndip    riding camels'
       ],
       'patterns' => {
         'rawA.hil' => [
@@ -15935,7 +15935,7 @@ $Lexicon = {
       'form' => 'mura.h.hil',
       'lines' => [
         ';; muraH~il_1',
-        'mrHl    muraH~il        NduAt   relay'
+        'muraH~il        NduAt   relay'
       ],
       'patterns' => {
         'mura.h.hil' => [
@@ -15962,7 +15962,7 @@ $Lexicon = {
       'form' => 'mura.h.hal',
       'lines' => [
         ';; muraH~al_1',
-        'mrHl    muraH~al        NduAt   carry-over'
+        'muraH~al        NduAt   carry-over'
       ],
       'patterns' => {
         'mura.h.hal' => [
@@ -15991,10 +15991,10 @@ $Lexicon = {
       'form' => 'rA\'',
       'lines' => [
         ';; rA\'_1',
-        'rA\'     rA\'     N0_Nh   ra\' (Arabic letter)',
-        'rA&     rA&     Nh      ra\' (Arabic letter)',
-        'rA}     rA}     Nhy     ra\' (Arabic letter)',
-        'rA\'     rA\'     NAt     ra\'s (Arabic letter)'
+        'rA\'     N0_Nh   ra\' (Arabic letter)',
+        'rA&     Nh      ra\' (Arabic letter)',
+        'rA}     Nhy     ra\' (Arabic letter)',
+        'rA\'     NAt     ra\'s (Arabic letter)'
       ],
       'patterns' => {
         'rA\'' => [
@@ -16036,13 +16036,13 @@ $Lexicon = {
       'form' => 'ra.hY',
       'lines' => [
         ';; raHaY_1',
-        'rHY     raHaY   N0      quern;hand mill',
-        'rHA     raHA    Nhy     quern;hand mill',
-        '>rHA\'   >aroHA\' N0_Nh   querns;hand mills',
-        '>rHA&   >aroHA& Nh      querns;hand mills',
-        '>rHA}   >aroHA} Nhy     querns;hand mills',
-        'rHy     ruHiy~  N       querns;hand mills',
-        '>rHy    >aroHiy Nap     querns;hand mills'
+        'raHaY   N0      quern;hand mill',
+        'raHA    Nhy     quern;hand mill',
+        '>aroHA\' N0_Nh   querns;hand mills',
+        '>aroHA& Nh      querns;hand mills',
+        '>aroHA} Nhy     querns;hand mills',
+        'ruHiy~  N       querns;hand mills',
+        '>aroHiy Nap     querns;hand mills'
       ],
       'patterns' => {
         '\'ar.hA\'' => [
@@ -16075,7 +16075,7 @@ $Lexicon = {
       'form' => 'ra.hawiyy',
       'lines' => [
         ';; raHawiy~_1',
-        'rHwy    raHawiy~        Nall    rotating;rotatory     [[raHawiy~/ADJ]]'
+        'raHawiy~        Nall    rotating;rotatory     [[raHawiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16101,8 +16101,8 @@ $Lexicon = {
       'form' => 'raqab',
       'lines' => [
         ';; raqab-u_1',
-        'rqb     raqab   PV      monitor;observe;supervise',
-        'rqb     roqub   IV      monitor;observe;supervise'
+        'raqab   PV      monitor;observe;supervise',
+        'roqub   IV      monitor;observe;supervise'
       ],
       'patterns' => {
         'rqub' => [
@@ -16137,10 +16137,10 @@ $Lexicon = {
       'form' => 'rAqab',
       'lines' => [
         ';; rAqab_1',
-        'rAqb    rAqab   PV      monitor;observe;supervise',
-        'rAqb    rAqib   IV_yu   monitor;observe;supervise',
-        'rwqb    ruwqib  PV_Pass be monitored;be observed;be under surveillance',
-        'rAqb    rAqab   IV_Pass_yu      be monitored;be observed;be under surveillance'
+        'rAqab   PV      monitor;observe;supervise',
+        'rAqib   IV_yu   monitor;observe;supervise',
+        'ruwqib  PV_Pass be monitored;be observed;be under surveillance',
+        'rAqab   IV_Pass_yu      be monitored;be observed;be under surveillance'
       ],
       'patterns' => {
         'rAqib' => [
@@ -16171,8 +16171,8 @@ $Lexicon = {
       'form' => 'taraqqab',
       'lines' => [
         ';; taraq~ab_1',
-        'trqb    taraq~ab        PV      anticipate;watch',
-        'trqb    taraq~ab        IV      anticipate;watch'
+        'taraq~ab        PV      anticipate;watch',
+        'taraq~ab        IV      anticipate;watch'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16195,9 +16195,9 @@ $Lexicon = {
       'entry' => 'irtaqab',
       'form' => 'irtaqab',
       'lines' => [
-        ';; {irotaqab_1',
-        '<rtqb   {irotaqab       PV      anticipate;watch',
-        'rtqb    rotaqib IV      anticipate;watch'
+        ';; Airotaqab_1',
+        'Airotaqab       PV      anticipate;watch',
+        'rotaqib IV      anticipate;watch'
       ],
       'patterns' => {
         'rtaqib' => [
@@ -16221,7 +16221,7 @@ $Lexicon = {
       'form' => 'riqbaT',
       'lines' => [
         ';; riqobap_1',
-        'rqb     riqob   Nap     observation;vigilance'
+        'riqob   Nap     observation;vigilance'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16248,10 +16248,10 @@ $Lexicon = {
       'form' => 'raqabaT',
       'lines' => [
         ';; raqabap_1',
-        'rqb     raqab   Napdu   neck',
-        'rqb     raqab   NAt     necks',
-        'rqAb    riqAb   N       necks',
-        'rqAb    riqAb   N       slaves'
+        'raqab   Napdu   neck',
+        'raqab   NAt     necks',
+        'riqAb   N       necks',
+        'riqAb   N       slaves'
       ],
       'patterns' => {
         'raqab' => [
@@ -16279,7 +16279,7 @@ $Lexicon = {
       'form' => 'ruquwb',
       'lines' => [
         ';; ruquwb_1',
-        'rqwb    ruquwb  N       anticipation;expectation'
+        'ruquwb  N       anticipation;expectation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16305,10 +16305,10 @@ $Lexicon = {
       'form' => 'raqiyb',
       'lines' => [
         ';; raqiyb_1',
-        'rqyb    raqiyb  Ndu     sergeant',
-        'rqbA\'   ruqabA\' N0_Nh   sergeants',
-        'rqbA&   ruqabA& Nh      sergeants',
-        'rqbA}   ruqabA} Nhy     sergeants'
+        'raqiyb  Ndu     sergeant',
+        'ruqabA\' N0_Nh   sergeants',
+        'ruqabA& Nh      sergeants',
+        'ruqabA} Nhy     sergeants'
       ],
       'patterns' => {
         'ruqabA\'' => [
@@ -16338,10 +16338,10 @@ $Lexicon = {
       'form' => 'raqiyb',
       'lines' => [
         ';; raqiyb_2',
-        'rqyb    raqiyb  Ndu     observer;inspector',
-        'rqbA\'   ruqabA\' N0_Nh   observers;inspectors',
-        'rqbA&   ruqabA& Nh      observers;inspectors',
-        'rqbA}   ruqabA} Nhy     observers;inspectors'
+        'raqiyb  Ndu     observer;inspector',
+        'ruqabA\' N0_Nh   observers;inspectors',
+        'ruqabA& Nh      observers;inspectors',
+        'ruqabA} Nhy     observers;inspectors'
       ],
       'patterns' => {
         'ruqabA\'' => [
@@ -16367,7 +16367,7 @@ $Lexicon = {
       'form' => 'raqiyb',
       'lines' => [
         ';; raqiyb_3',
-        'rqyb    raqiyb  N0      Raqeeb'
+        'raqiyb  N0      Raqeeb'
       ],
       'patterns' => {},
       'index' => '3',
@@ -16393,10 +16393,10 @@ $Lexicon = {
       'form' => 'ruqbY',
       'lines' => [
         ';; ruqobaY_1',
-        'rqbY    ruqobaY N0      donation',
-        'rqbA    ruqobA  Nhy     donation',
-        'rqby    ruqobay NAn_Nayn        donation',
-        'rqby    ruqobay NAt     donations'
+        'ruqobaY N0      donation',
+        'ruqobA  Nhy     donation',
+        'ruqobay NAn_Nayn        donation',
+        'ruqobay NAt     donations'
       ],
       'patterns' => {
         'ruqbA' => [],
@@ -16421,7 +16421,7 @@ $Lexicon = {
       'form' => 'raqAbaT',
       'lines' => [
         ';; raqAbap_1',
-        'rqAb    raqAb   Nap     censorship;surveillance'
+        'raqAb   Nap     censorship;surveillance'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16441,7 +16441,7 @@ $Lexicon = {
       'form' => 'raqAbiyy',
       'lines' => [
         ';; raqAbiy~_1',
-        'rqAby   raqAbiy~        N-ap    censorship;surveillance     [[raqAbiy~/ADJ]]'
+        'raqAbiy~        N-ap    censorship;surveillance     [[raqAbiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16465,8 +16465,8 @@ $Lexicon = {
       'form' => 'raquwbaT',
       'lines' => [
         ';; raquwbap_1',
-        'rqwb    raquwb  NapAt   nest egg',
-        'rAqwb   rAquwb  NapAt   nest egg'
+        'raquwb  NapAt   nest egg',
+        'rAquwb  NapAt   nest egg'
       ],
       'patterns' => {
         'rAquwb' => [
@@ -16489,7 +16489,7 @@ $Lexicon = {
       'form' => 'marqab',
       'lines' => [
         ';; maroqab_1',
-        'mrqb    maroqab Ndu     observatory'
+        'maroqab Ndu     observatory'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16512,9 +16512,9 @@ $Lexicon = {
       'form' => 'marqab',
       'lines' => [
         ';; maroqab_2',
-        'mrqb    maroqab Ndu     watchtower;observation post',
-        'mrqb    maroqab Napdu   watchtower;observation post',
-        'mrAqb   marAqib Ndip    watchtowers;observation posts'
+        'maroqab Ndu     watchtower;observation post',
+        'maroqab Napdu   watchtower;observation post',
+        'marAqib Ndip    watchtowers;observation posts'
       ],
       'patterns' => {
         'marAqib' => [
@@ -16544,8 +16544,8 @@ $Lexicon = {
       'form' => 'mirqab',
       'lines' => [
         ';; miroqab_1',
-        'mrqb    miroqab Ndu     telescope',
-        'mrAqb   marAqib Ndip    telescopes'
+        'miroqab Ndu     telescope',
+        'marAqib Ndip    telescopes'
       ],
       'patterns' => {
         'marAqib' => [
@@ -16569,7 +16569,7 @@ $Lexicon = {
       'form' => 'murAqabaT',
       'lines' => [
         ';; murAqabap_1',
-        'mrAqb   murAqab NapAt   surveillance;monitoring'
+        'murAqab NapAt   surveillance;monitoring'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16589,7 +16589,7 @@ $Lexicon = {
       'form' => 'murAqabaT',
       'lines' => [
         ';; murAqabap_2',
-        'mrAqb   murAqab NapAt   observation;inspection'
+        'murAqab NapAt   observation;inspection'
       ],
       'patterns' => {},
       'index' => '2',
@@ -16613,7 +16613,7 @@ $Lexicon = {
       'form' => 'taraqqub',
       'lines' => [
         ';; taraq~ub_1',
-        'trqb    taraq~ub        NduAt   expectation;anticipation'
+        'taraq~ub        NduAt   expectation;anticipation'
       ],
       'patterns' => {
         'taraqqub' => [
@@ -16640,8 +16640,8 @@ $Lexicon = {
       'entry' => 'irtiqAb',
       'form' => 'irtiqAb',
       'lines' => [
-        ';; {irotiqAb_1',
-        '<rtqAb  {irotiqAb       NduAt   expectation;anticipation'
+        ';; AirotiqAb_1',
+        'AirotiqAb       NduAt   expectation;anticipation'
       ],
       'patterns' => {
         'irtiqAb' => [
@@ -16665,7 +16665,7 @@ $Lexicon = {
       'form' => 'murAqib',
       'lines' => [
         ';; murAqib_1',
-        'mrAqb   murAqib Nall    observer;inspector'
+        'murAqib Nall    observer;inspector'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16685,7 +16685,7 @@ $Lexicon = {
       'form' => 'murtaqab',
       'lines' => [
         ';; murotaqab_1',
-        'mrtqb   murotaqab       Nall    expected;anticipated     [[murotaqab/ADJ]]'
+        'murotaqab       Nall    expected;anticipated     [[murotaqab/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16717,10 +16717,10 @@ $Lexicon = {
       'form' => 'radd',
       'lines' => [
         ';; rad~-u_1',
-        'rd      rad~    PV_V    answer;reply;return',
-        'rdd     radad   PV_C    answer;reply;return',
-        'rd      rud~    IV_V    answer;reply;return',
-        'rdd     rodud   IV_C    answer;reply;return'
+        'rad~    PV_V    answer;reply;return',
+        'radad   PV_C    answer;reply;return',
+        'rud~    IV_V    answer;reply;return',
+        'rodud   IV_C    answer;reply;return'
       ],
       'patterns' => {
         'radad' => [
@@ -16758,8 +16758,8 @@ $Lexicon = {
       'form' => 'raddad',
       'lines' => [
         ';; rad~ad_1',
-        'rdd     rad~ad  PV      repeat;reiterate',
-        'rdd     rad~id  IV_yu   repeat;reiterate'
+        'rad~ad  PV      repeat;reiterate',
+        'rad~id  IV_yu   repeat;reiterate'
       ],
       'patterns' => {
         'raddid' => [
@@ -16783,10 +16783,10 @@ $Lexicon = {
       'form' => 'taraddad',
       'lines' => [
         ';; tarad~ad_1',
-        'trdd    tarad~ad        PV_intr be repeated;occur repeatedly',
-        'trdd    tarad~ad        IV_intr be repeated;occur repeatedly',
-        'trdd    tarad~ad        PV_intr be hesitant;have doubts',
-        'trdd    tarad~ad        IV_intr be hesitant;have doubts'
+        'tarad~ad        PV_intr be repeated;occur repeatedly',
+        'tarad~ad        IV_intr be repeated;occur repeatedly',
+        'tarad~ad        PV_intr be hesitant;have doubts',
+        'tarad~ad        IV_intr be hesitant;have doubts'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16817,11 +16817,11 @@ $Lexicon = {
       'entry' => 'irtadd',
       'form' => 'irtadd',
       'lines' => [
-        ';; {irotad~_1',
-        '<rtd    {irotad~        PV_V    revert;forsake;refrain',
-        '<rtdd   {irotadad       PV_C    revert;forsake;refrain',
-        'rtd     rotad~  IV_V    revert;forsake;refrain',
-        'rtdd    rotadid IV_C    revert;forsake;refrain'
+        ';; Airotad~_1',
+        'Airotad~        PV_V    revert;forsake;refrain',
+        'Airotadad       PV_C    revert;forsake;refrain',
+        'rotad~  IV_V    revert;forsake;refrain',
+        'rotadid IV_C    revert;forsake;refrain'
       ],
       'patterns' => {
         'irtadad' => [
@@ -16861,11 +16861,11 @@ $Lexicon = {
       'entry' => 'istaradd',
       'form' => 'istaradd',
       'lines' => [
-        ';; {isotarad~_1',
-        '<strd   {isotarad~      PV_V    recover;reclaim;regain',
-        '<strdd  {isotarodad     PV_C    recover;reclaim;regain',
-        'strd    sotarid~        IV_V    recover;reclaim;regain',
-        'strdd   sotarodid       IV_C    recover;reclaim;regain'
+        ';; Aisotarad~_1',
+        'Aisotarad~      PV_V    recover;reclaim;regain',
+        'Aisotarodad     PV_C    recover;reclaim;regain',
+        'sotarid~        IV_V    recover;reclaim;regain',
+        'sotarodid       IV_C    recover;reclaim;regain'
       ],
       'patterns' => {
         'istardad' => [
@@ -16894,8 +16894,8 @@ $Lexicon = {
       'form' => 'radd',
       'lines' => [
         ';; rad~_1',
-        'rd      rad~    N       reply',
-        'rdwd    ruduwd  N       replies'
+        'rad~    N       reply',
+        'ruduwd  N       replies'
       ],
       'patterns' => {
         'ruduwd' => [
@@ -16919,7 +16919,7 @@ $Lexicon = {
       'form' => 'radd',
       'lines' => [
         ';; rad~_2',
-        'rd      rad~    N       return;repulsion'
+        'rad~    N       return;repulsion'
       ],
       'patterns' => {},
       'index' => '2',
@@ -16943,7 +16943,7 @@ $Lexicon = {
       'form' => 'raddaN',
       'lines' => [
         ';; rad~AF_1',
-        'rd      rad~    NF      in reply to;in answer to     [[rad~/ADV]]'
+        'rad~    NF      in reply to;in answer to     [[rad~/ADV]]'
       ],
       'patterns' => {
         'radd' => [
@@ -16967,7 +16967,7 @@ $Lexicon = {
       'form' => 'raddaT',
       'lines' => [
         ';; rad~ap_1',
-        'rd      rad~    Nap     reverberation;echo'
+        'rad~    Nap     reverberation;echo'
       ],
       'patterns' => {},
       'index' => '1',
@@ -16987,7 +16987,7 @@ $Lexicon = {
       'form' => '\'aradd',
       'lines' => [
         ';; >arad~_1',
-        '>rd     >arad~  Nel     more/most useful;more/most profitable'
+        '>arad~  Nel     more/most useful;more/most profitable'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17007,7 +17007,7 @@ $Lexicon = {
       'form' => 'maradd',
       'lines' => [
         ';; marad~_1',
-        'mrd     marad~  Ndu     underlying factor;rejection'
+        'marad~  Ndu     underlying factor;rejection'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17031,7 +17031,7 @@ $Lexicon = {
       'form' => 'tardiyd',
       'lines' => [
         ';; tarodiyd_1',
-        'trdyd   tarodiyd        NduAt   repetition;reiteration'
+        'tarodiyd        NduAt   repetition;reiteration'
       ],
       'patterns' => {
         'tardiyd' => [
@@ -17059,7 +17059,7 @@ $Lexicon = {
       'form' => 'taraddud',
       'lines' => [
         ';; tarad~ud_1',
-        'trdd    tarad~ud        NduAt   frequentation;reluctance'
+        'tarad~ud        NduAt   frequentation;reluctance'
       ],
       'patterns' => {
         'taraddud' => [
@@ -17087,8 +17087,8 @@ $Lexicon = {
       'form' => 'taraddud',
       'lines' => [
         ';; tarad~ud_2',
-        'trdd    tarad~ud        Ndu     frequency',
-        'trdd    tarad~ud        NAt     frequencies'
+        'tarad~ud        Ndu     frequency',
+        'tarad~ud        NAt     frequencies'
       ],
       'patterns' => {
         'taraddud' => [
@@ -17112,7 +17112,7 @@ $Lexicon = {
       'form' => 'taraddudiyy',
       'lines' => [
         ';; tarad~udiy~_1',
-        'trddy   tarad~udiy~     Nall    frequency     [[tarad~udiy~/ADJ]]'
+        'tarad~udiy~     Nall    frequency     [[tarad~udiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17134,8 +17134,8 @@ $Lexicon = {
       'entry' => 'irtidAd',
       'form' => 'irtidAd',
       'lines' => [
-        ';; {irotidAd_1',
-        '<rtdAd  {irotidAd       NduAt   retreat;renunciation'
+        ';; AirotidAd_1',
+        'AirotidAd       NduAt   retreat;renunciation'
       ],
       'patterns' => {
         'irtidAd' => [
@@ -17162,8 +17162,8 @@ $Lexicon = {
       'entry' => 'istirdAd',
       'form' => 'istirdAd',
       'lines' => [
-        ';; {isotirodAd_1',
-        '<strdAd {isotirodAd     NduAt   reclamation;recovery;retraction'
+        ';; AisotirodAd_1',
+        'AisotirodAd     NduAt   reclamation;recovery;retraction'
       ],
       'patterns' => {
         'istirdAd' => [
@@ -17188,7 +17188,7 @@ $Lexicon = {
       'form' => 'marduwd',
       'lines' => [
         ';; maroduwd_1',
-        'mrdwd   maroduwd        Nall    yield;returns;revenue'
+        'maroduwd        Nall    yield;returns;revenue'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17209,7 +17209,7 @@ $Lexicon = {
       'form' => 'marduwdiyyaT',
       'lines' => [
         ';; maroduwdiy~ap_1',
-        'mrdwdy  maroduwdiy~     Nap     profitability     [[maroduwdiy~/NOUN]]'
+        'maroduwdiy~     Nap     profitability     [[maroduwdiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17228,7 +17228,7 @@ $Lexicon = {
       'form' => 'murtadd',
       'lines' => [
         ';; murotad~_1',
-        'mrtd    murotad~        Nall    renegade;apostate'
+        'murotad~        Nall    renegade;apostate'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17248,7 +17248,7 @@ $Lexicon = {
       'form' => 'mutaraddid',
       'lines' => [
         ';; mutarad~id_1',
-        'mtrdd   mutarad~id      Nall    hesitant;hesitating;having doubts     [[mutarad~id/ADJ]]'
+        'mutarad~id      Nall    hesitant;hesitating;having doubts     [[mutarad~id/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17269,7 +17269,7 @@ $Lexicon = {
       'form' => 'mutaraddid',
       'lines' => [
         ';; mutarad~id_2',
-        'mtrdd   mutarad~id      N-ap    repeated;continuous     [[mutarad~id/ADJ]]'
+        'mutarad~id      N-ap    repeated;continuous     [[mutarad~id/ADJ]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -17291,7 +17291,7 @@ $Lexicon = {
       'form' => 'tardAd',
       'lines' => [
         ';; tarodAd_1',
-        'trdAd   tarodAd N       frequent repetition;frequentation'
+        'tarodAd N       frequent repetition;frequentation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17332,13 +17332,13 @@ $Lexicon = {
       'form' => 'ratA',
       'lines' => [
         ';; ratA-u_1',
-        'rtA     ratA    PV_0h   mend;darn',
-        'rtw     rataw   PV_Atn  mend;darn',
-        'rt      rat     PV_ttAw mend;darn',
-        'rtw     rotuw   IV_0hAnn        mend;darn',
-        'rt      rot     IV_0hwnyn       mend;darn',
-        'rtY     rotaY   IV_0_Pass_yu    be mended;be darned',
-        'rty     rotay   IV_Ann_Pass_yu  be mended;be darned'
+        'ratA    PV_0h   mend;darn',
+        'rataw   PV_Atn  mend;darn',
+        'rat     PV_ttAw mend;darn',
+        'rotuw   IV_0hAnn        mend;darn',
+        'rot     IV_0hwnyn       mend;darn',
+        'rotaY   IV_0_Pass_yu    be mended;be darned',
+        'rotay   IV_Ann_Pass_yu  be mended;be darned'
       ],
       'patterns' => {
         'rat' => [
@@ -17391,14 +17391,14 @@ $Lexicon = {
       'form' => 'rattY',
       'lines' => [
         ';; rat~aY_1',
-        'rtY     rat~aY  PV_0    mend;darn',
-        'rtA     rat~A   PV_h    mend;darn',
-        'rty     rat~ay  PV_Atn  mend;darn',
-        'rt      rat~    PV_ttAw mend;darn',
-        'rty     rat~iy  IV_0hAnn_yu     mend;darn',
-        'rt      rat~    IV_0hwnyn_yu    mend;darn',
-        'rtY     rat~aY  IV_0_Pass_yu    be mended;be darned',
-        'rty     rat~ay  IV_Ann_Pass_yu  be mended;be darned'
+        'rat~aY  PV_0    mend;darn',
+        'rat~A   PV_h    mend;darn',
+        'rat~ay  PV_Atn  mend;darn',
+        'rat~    PV_ttAw mend;darn',
+        'rat~iy  IV_0hAnn_yu     mend;darn',
+        'rat~    IV_0hwnyn_yu    mend;darn',
+        'rat~aY  IV_0_Pass_yu    be mended;be darned',
+        'rat~ay  IV_Ann_Pass_yu  be mended;be darned'
       ],
       'patterns' => {
         'rattiy' => [
@@ -17424,7 +17424,7 @@ $Lexicon = {
       'form' => 'ratw',
       'lines' => [
         ';; ratow_1',
-        'rtw     ratow   N       mending;darning'
+        'ratow   N       mending;darning'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17446,7 +17446,7 @@ $Lexicon = {
       'form' => 'ra.hbAriyfArd',
       'lines' => [
         ';; raHobAriyfArod_1',
-        'rHbAryfArd      raHobAriyfArod  Nprop   Rahbarifard'
+        'raHobAriyfArod  Nprop   Rahbarifard'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17474,9 +17474,9 @@ $Lexicon = {
       'form' => 'rataq',
       'lines' => [
         ';; rataq-ui_1',
-        'rtq     rataq   PV      repair;patch up',
-        'rtq     rotuq   IV      repair;patch up',
-        'rtq     rotiq   IV      repair;patch up'
+        'rataq   PV      repair;patch up',
+        'rotuq   IV      repair;patch up',
+        'rotiq   IV      repair;patch up'
       ],
       'patterns' => {
         'rtiq' => [
@@ -17511,8 +17511,8 @@ $Lexicon = {
       'form' => 'ratq',
       'lines' => [
         ';; ratoq_1',
-        'rtq     ratoq   N       repairing;patching up',
-        'rtwq    rutuwq  N       repairs;patching up'
+        'ratoq   N       repairing;patching up',
+        'rutuwq  N       repairs;patching up'
       ],
       'patterns' => {
         'rutuwq' => [
@@ -17539,7 +17539,7 @@ $Lexicon = {
       'form' => 'riyniyh',
       'lines' => [
         ';; riyniyh_1',
-        'rynyh   riyniyh Nprop   Rene'
+        'riyniyh Nprop   Rene'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17560,7 +17560,7 @@ $Lexicon = {
       'form' => 'ra.dm',
       'lines' => [
         ';; raDom_1',
-        'rDm     raDom   N       ashlar (thin slabs of stone)'
+        'raDom   N       ashlar (thin slabs of stone)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17581,8 +17581,8 @@ $Lexicon = {
       'form' => 'tarabbad',
       'lines' => [
         ';; tarab~ad_1',
-        'trbd    tarab~ad        PV_intr become clouded;turn ashen;glower',
-        'trbd    tarab~ad        IV_intr become clouded;turn ashen;glower'
+        'tarab~ad        PV_intr become clouded;turn ashen;glower',
+        'tarab~ad        IV_intr become clouded;turn ashen;glower'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17612,11 +17612,11 @@ $Lexicon = {
       'entry' => 'irbadd',
       'form' => 'irbadd',
       'lines' => [
-        ';; {irobad~_1',
-        '<rbd    {irobad~        PV_V_intr       become ashen;glower',
-        '<rbdd   {irobadad       PV_C_intr       become ashen;glower',
-        'rbd     robad~  IV_V_intr       become ashen;glower',
-        'rbdd    robadid IV_C_intr       become ashen;glower'
+        ';; Airobad~_1',
+        'Airobad~        PV_V_intr       become ashen;glower',
+        'Airobadad       PV_C_intr       become ashen;glower',
+        'robad~  IV_V_intr       become ashen;glower',
+        'robadid IV_C_intr       become ashen;glower'
       ],
       'patterns' => {
         'irbadad' => [
@@ -17646,7 +17646,7 @@ $Lexicon = {
       'form' => 'murabbad',
       'lines' => [
         ';; murab~ad_1',
-        'mrbd    murab~ad        Nall    cloudy;gloomy     [[murab~ad/ADJ]]'
+        'murab~ad        Nall    cloudy;gloomy     [[murab~ad/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17666,7 +17666,7 @@ $Lexicon = {
       'form' => 'rawAbidaT',
       'lines' => [
         ';; rawAbidap_1',
-        'rwAbdp  rawAbidap       N0      Rawabdeh'
+        'rawAbidap       N0      Rawabdeh'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17687,7 +17687,7 @@ $Lexicon = {
       'form' => 'ra^giyyaT',
       'lines' => [
         ';; rajiy~ap_1',
-        'rjy     rajiy~  Nap     hoped for     [[rajiy~/NOUN]]'
+        'rajiy~  Nap     hoped for     [[rajiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -17713,11 +17713,11 @@ $Lexicon = {
       'form' => 'rA^giy',
       'lines' => [
         ';; rAjiy_1',
-        'rAjy    rAjiy   N0F     hoping;full of hope     [[rAjiy/ADJ]]',
-        'rAj     rAj     NK      hoping;full of hope',
-        'rAjy    rAjiy   NAn_Nayn        hoping;full of hope',
-        'rAj     rAj     Nuwn_Niyn       hoping;full of hope',
-        'rAjy    rAjiy   NapAt   hoping;full of hope'
+        'rAjiy   N0F     hoping;full of hope     [[rAjiy/ADJ]]',
+        'rAj     NK      hoping;full of hope',
+        'rAjiy   NAn_Nayn        hoping;full of hope',
+        'rAj     Nuwn_Niyn       hoping;full of hope',
+        'rAjiy   NapAt   hoping;full of hope'
       ],
       'patterns' => {
         'rA^giy' => [
@@ -17758,12 +17758,12 @@ $Lexicon = {
       'form' => 'ra^giy',
       'lines' => [
         ';; rajiy-a_1',
-        'rjy     rajiy   PV_no-w remain silent',
-        'rj      raj     PV_w    remain silent',
-        'rjY     rojaY   IV_0    remain silent',
-        'rjy     rojay   IV_Ann  remain silent',
-        'rj      roja    IV_0hwnyn       remain silent',
-        'rjy     rujiy   PV_Pass-a       remain silent'
+        'rajiy   PV_no-w remain silent',
+        'raj     PV_w    remain silent',
+        'rojaY   IV_0    remain silent',
+        'rojay   IV_Ann  remain silent',
+        'roja    IV_0hwnyn       remain silent',
+        'rujiy   PV_Pass-a       remain silent'
       ],
       'patterns' => {
         'r^gY' => [
@@ -17804,8 +17804,8 @@ $Lexicon = {
       'form' => 'rakan',
       'lines' => [
         ';; rakan-u_1',
-        'rkn     rakan   PV-n_intr       be dependent;be supported',
-        'rkn     rokun   IV-n_intr       be dependent;be supported'
+        'rakan   PV-n_intr       be dependent;be supported',
+        'rokun   IV-n_intr       be dependent;be supported'
       ],
       'patterns' => {
         'rkun' => [
@@ -17836,8 +17836,8 @@ $Lexicon = {
       'form' => 'rakin',
       'lines' => [
         ';; rakin-a_1',
-        'rkn     rakin   PV-n_intr       be dependent;be supported',
-        'rkn     rokan   IV-n_intr       be dependent;be supported'
+        'rakin   PV-n_intr       be dependent;be supported',
+        'rokan   IV-n_intr       be dependent;be supported'
       ],
       'patterns' => {
         'rkan' => [
@@ -17871,9 +17871,9 @@ $Lexicon = {
       'form' => '\'arkan',
       'lines' => [
         ';; >arokan_1',
-        '>rkn    >arokan PV-n    trust;rely;resort',
-        'rkn     rokin   IV-n_yu trust;rely;resort',
-        'rkn     rokan   IV-n_Pass_yu    be trusted;be relied on;be resorted to'
+        '>arokan PV-n    trust;rely;resort',
+        'rokin   IV-n_yu trust;rely;resort',
+        'rokan   IV-n_Pass_yu    be trusted;be relied on;be resorted to'
       ],
       'patterns' => {
         'rkin' => [
@@ -17907,9 +17907,9 @@ $Lexicon = {
       'entry' => 'irtakan',
       'form' => 'irtakan',
       'lines' => [
-        ';; {irotakan_1',
-        '<rtkn   {irotakan       PV-n    lean;recline',
-        'rtkn    rotakin IV-n    lean;recline'
+        ';; Airotakan_1',
+        'Airotakan       PV-n    lean;recline',
+        'rotakin IV-n    lean;recline'
       ],
       'patterns' => {
         'rtakin' => [
@@ -17937,9 +17937,9 @@ $Lexicon = {
       'form' => 'rukn',
       'lines' => [
         ';; rukon_1',
-        'rkn     rukon   Ndu     foundation;support;corner',
-        '>rkAn   >arokAn N       foundations;support;fundamentals',
-        '>rkAn   >arokAn N       general staff'
+        'rukon   Ndu     foundation;support;corner',
+        '>arokAn N       foundations;support;fundamentals',
+        '>arokAn N       general staff'
       ],
       'patterns' => {
         '\'arkAn' => [
@@ -17967,7 +17967,7 @@ $Lexicon = {
       'form' => 'rukn',
       'lines' => [
         ';; rukon_2',
-        'rkn     rukon   N0      Rukn'
+        'rukon   N0      Rukn'
       ],
       'patterns' => {},
       'index' => '2',
@@ -17986,7 +17986,7 @@ $Lexicon = {
       'form' => 'rukniyy',
       'lines' => [
         ';; rukoniy~_1',
-        'rkny    rukoniy~        Nall    corner     [[rukoniy~/ADJ]]'
+        'rukoniy~        Nall    corner     [[rukoniy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18005,7 +18005,7 @@ $Lexicon = {
       'form' => 'rakiyn',
       'lines' => [
         ';; rakiyn_1',
-        'rkyn    rakiyn  Nall    confident;steady     [[rakiyn/ADJ]]'
+        'rakiyn  Nall    confident;steady     [[rakiyn/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18025,7 +18025,7 @@ $Lexicon = {
       'form' => 'rukuwn',
       'lines' => [
         ';; rukuwn_1',
-        'rkwn    rukuwn  N       reliance;confidence'
+        'rukuwn  N       reliance;confidence'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18049,8 +18049,8 @@ $Lexicon = {
       'form' => 'mirkan',
       'lines' => [
         ';; mirokan_1',
-        'mrkn    mirokan Ndu     washtub',
-        'mrAkn   marAkin Ndip    washtubs'
+        'mirokan Ndu     washtub',
+        'marAkin Ndip    washtubs'
       ],
       'patterns' => {
         'marAkin' => [
@@ -18074,7 +18074,7 @@ $Lexicon = {
       'form' => 'murAkanaT',
       'lines' => [
         ';; murAkanap_1',
-        'mrAkn   murAkan NapAt   betrothal;engagement'
+        'murAkan NapAt   betrothal;engagement'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18098,7 +18098,7 @@ $Lexicon = {
       'form' => '\'irkAn',
       'lines' => [
         ';; <irokAn_1',
-        '<rkAn   <irokAn NduAt   reliance;confidence'
+        '<irokAn NduAt   reliance;confidence'
       ],
       'patterns' => {
         '\'irkAn' => [
@@ -18124,7 +18124,7 @@ $Lexicon = {
       'form' => 'tar.hAb',
       'lines' => [
         ';; taroHAb_1',
-        'trHAb   taroHAb N       welcome;greeting'
+        'taroHAb N       welcome;greeting'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18153,9 +18153,9 @@ $Lexicon = {
       'form' => 'ra`ad',
       'lines' => [
         ';; raEad-ua_1',
-        'rEd     raEad   PV      thunder;threaten',
-        'rEd     roEud   IV      thunder;threaten',
-        'rEd     roEad   IV      thunder;threaten'
+        'raEad   PV      thunder;threaten',
+        'roEud   IV      thunder;threaten',
+        'roEad   IV      thunder;threaten'
       ],
       'patterns' => {
         'r`ud' => [
@@ -18196,10 +18196,10 @@ $Lexicon = {
       'form' => '\'ar`ad',
       'lines' => [
         ';; >aroEad_1',
-        '>rEd    >aroEad PV      make tremble;shudder;tremble',
-        'rEd     roEid   IV_yu   make tremble;shudder;tremble',
-        '>rEd    >uroEid PV_Pass be made to tremble',
-        'rEd     roEad   IV_Pass_yu      be made to tremble'
+        '>aroEad PV      make tremble;shudder;tremble',
+        'roEid   IV_yu   make tremble;shudder;tremble',
+        '>uroEid PV_Pass be made to tremble',
+        'roEad   IV_Pass_yu      be made to tremble'
       ],
       'patterns' => {
         '\'ur`id' => [
@@ -18234,9 +18234,9 @@ $Lexicon = {
       'entry' => 'irta`ad',
       'form' => 'irta`ad',
       'lines' => [
-        ';; {irotaEad_1',
-        '<rtEd   {irotaEad       PV      tremble',
-        'rtEd    rotaEid IV      tremble'
+        ';; AirotaEad_1',
+        'AirotaEad       PV      tremble',
+        'rotaEid IV      tremble'
       ],
       'patterns' => {
         'rta`id' => [
@@ -18263,8 +18263,8 @@ $Lexicon = {
       'form' => 'ra`d',
       'lines' => [
         ';; raEod_1',
-        'rEd     raEod   N       thunder',
-        'rEwd    ruEuwd  N       thunder'
+        'raEod   N       thunder',
+        'ruEuwd  N       thunder'
       ],
       'patterns' => {
         'ru`uwd' => [
@@ -18287,7 +18287,7 @@ $Lexicon = {
       'form' => 'ra`daT',
       'lines' => [
         ';; raEodap_1',
-        'rEd     raEod   Napdu   tremor;shiver'
+        'raEod   Napdu   tremor;shiver'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18307,7 +18307,7 @@ $Lexicon = {
       'form' => 'ra`diyy',
       'lines' => [
         ';; raEodiy~_1',
-        'rEdy    raEodiy~        N-ap    thunderous     [[raEodiy~/ADJ]]'
+        'raEodiy~        N-ap    thunderous     [[raEodiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18326,8 +18326,8 @@ $Lexicon = {
       'form' => 'ra``Ad',
       'lines' => [
         ';; raE~Ad_1',
-        'rEAd    raE~Ad  N       electric ray',
-        'rEAd    raE~Ad  Napdu   electric ray'
+        'raE~Ad  N       electric ray',
+        'raE~Ad  Napdu   electric ray'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18346,7 +18346,7 @@ $Lexicon = {
       'form' => 'murta`id',
       'lines' => [
         ';; murotaEid_1',
-        'mrtEd   murotaEid       Nall    trembling     [[murotaEid/ADJ]]'
+        'murotaEid       Nall    trembling     [[murotaEid/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18383,12 +18383,12 @@ $Lexicon = {
       'form' => 'ramm',
       'lines' => [
         ';; ram~-ui_1',
-        'rm      ram~    PV_V    repair;overhaul',
-        'rmm     ramam   PV_C    repair;overhaul',
-        'rm      rum~    IV_V    repair;overhaul',
-        'rmm     romum   IV_C    repair;overhaul',
-        'rm      rim~    IV_V    repair;overhaul',
-        'rmm     romim   IV_C    repair;overhaul'
+        'ram~    PV_V    repair;overhaul',
+        'ramam   PV_C    repair;overhaul',
+        'rum~    IV_V    repair;overhaul',
+        'romum   IV_C    repair;overhaul',
+        'rim~    IV_V    repair;overhaul',
+        'romim   IV_C    repair;overhaul'
       ],
       'patterns' => {
         'rmim' => [
@@ -18438,10 +18438,10 @@ $Lexicon = {
       'form' => 'ramm',
       'lines' => [
         ';; ram~-i_1',
-        'rm      ram~    PV_V_intr       decay;rot',
-        'rmm     ramam   PV_C_intr       decay;rot',
-        'rm      rim~    IV_V_intr       decay;rot',
-        'rmm     romim   IV_C_intr       decay;rot'
+        'ram~    PV_V_intr       decay;rot',
+        'ramam   PV_C_intr       decay;rot',
+        'rim~    IV_V_intr       decay;rot',
+        'romim   IV_C_intr       decay;rot'
       ],
       'patterns' => {
         'rmim' => [
@@ -18478,8 +18478,8 @@ $Lexicon = {
       'form' => 'rammam',
       'lines' => [
         ';; ram~am_1',
-        'rmm     ram~am  PV      repair;restore;renovate',
-        'rmm     ram~im  IV_yu   repair;restore;renovate'
+        'ram~am  PV      repair;restore;renovate',
+        'ram~im  IV_yu   repair;restore;renovate'
       ],
       'patterns' => {
         'rammim' => [
@@ -18504,8 +18504,8 @@ $Lexicon = {
       'form' => 'tarammam',
       'lines' => [
         ';; taram~am_1',
-        'trmm    taram~am        PV_intr be repaired;be restored;be renovated',
-        'trmm    taram~am        IV_intr be repaired;be restored;be renovated'
+        'taram~am        PV_intr be repaired;be restored;be renovated',
+        'taram~am        IV_intr be repaired;be restored;be renovated'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18526,7 +18526,7 @@ $Lexicon = {
       'form' => 'ramm',
       'lines' => [
         ';; ram~_1',
-        'rm      ram~    N       repair;restoration'
+        'ram~    N       repair;restoration'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18550,8 +18550,8 @@ $Lexicon = {
       'form' => 'rimmaT',
       'lines' => [
         ';; rim~ap_1',
-        'rm      rim~    Napdu   cadaver',
-        'rmm     rimam   N       cadavers'
+        'rim~    Napdu   cadaver',
+        'rimam   N       cadavers'
       ],
       'patterns' => {
         'rimam' => [
@@ -18575,7 +18575,7 @@ $Lexicon = {
       'form' => 'rummaT',
       'lines' => [
         ';; rum~ap_1',
-        'rm      rum~    Nap     entire;complete'
+        'rum~    Nap     entire;complete'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18599,8 +18599,8 @@ $Lexicon = {
       'form' => 'ramiym',
       'lines' => [
         ';; ramiym_1',
-        'rmym    ramiym  Nall    decayed;rotten     [[ramiym/ADJ]]',
-        'rmA}m   ramA}im Ndip    decayed;rotten'
+        'ramiym  Nall    decayed;rotten     [[ramiym/ADJ]]',
+        'ramA}im Ndip    decayed;rotten'
       ],
       'patterns' => {
         'ramA\'im' => [
@@ -18624,7 +18624,7 @@ $Lexicon = {
       'form' => 'rumAm',
       'lines' => [
         ';; rumAm_1',
-        'rmAm    rumAm   N-ap    decayed;rotten'
+        'rumAm   N-ap    decayed;rotten'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18644,7 +18644,7 @@ $Lexicon = {
       'form' => 'marammaT',
       'lines' => [
         ';; maram~ap_1',
-        'mrm     maram~  NapAt   repair;shipyard'
+        'maram~  NapAt   repair;shipyard'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18668,7 +18668,7 @@ $Lexicon = {
       'form' => 'tarmiym',
       'lines' => [
         ';; taromiym_1',
-        'trmym   taromiym        NduAt   restoration;renovation'
+        'taromiym        NduAt   restoration;renovation'
       ],
       'patterns' => {
         'tarmiym' => [
@@ -18692,7 +18692,7 @@ $Lexicon = {
       'form' => 'murammim',
       'lines' => [
         ';; muram~im_1',
-        'mrmm    muram~im        Nall    restorer;renovator'
+        'muram~im        Nall    restorer;renovator'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18718,8 +18718,8 @@ $Lexicon = {
       'form' => 'rahib',
       'lines' => [
         ';; rahib-a_1',
-        'rhb     rahib   PV_intr be frightened;be afraid of',
-        'rhb     rohab   IV_intr be frightened;be afraid of'
+        'rahib   PV_intr be frightened;be afraid of',
+        'rohab   IV_intr be frightened;be afraid of'
       ],
       'patterns' => {
         'rhab' => [
@@ -18750,8 +18750,8 @@ $Lexicon = {
       'form' => 'rahhab',
       'lines' => [
         ';; rah~ab_1',
-        'rhb     rah~ab  PV      intimidate;terrorize;frighten',
-        'rhb     rah~ib  IV_yu   intimidate;terrorize;frighten'
+        'rah~ab  PV      intimidate;terrorize;frighten',
+        'rah~ib  IV_yu   intimidate;terrorize;frighten'
       ],
       'patterns' => {
         'rahhib' => [
@@ -18783,9 +18783,9 @@ $Lexicon = {
       'form' => '\'arhab',
       'lines' => [
         ';; >arohab_1',
-        '>rhb    >arohab PV      terrorize;frighten',
-        'rhb     rohib   IV_yu   terrorize;frighten',
-        'rhb     rohab   IV_Pass_yu      be terrorized;be frightened'
+        '>arohab PV      terrorize;frighten',
+        'rohib   IV_yu   terrorize;frighten',
+        'rohab   IV_Pass_yu      be terrorized;be frightened'
       ],
       'patterns' => {
         'rhib' => [
@@ -18814,8 +18814,8 @@ $Lexicon = {
       'form' => 'tarahhab',
       'lines' => [
         ';; tarah~ab_1',
-        'trhb    tarah~ab        PV      threaten',
-        'trhb    tarah~ab        IV      threaten'
+        'tarah~ab        PV      threaten',
+        'tarah~ab        IV      threaten'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18834,7 +18834,7 @@ $Lexicon = {
       'form' => 'rahbaT',
       'lines' => [
         ';; rahobap_1',
-        'rhb     rahob   Nap     fear;alarm'
+        'rahob   Nap     fear;alarm'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18864,10 +18864,10 @@ $Lexicon = {
       'form' => 'rahbY',
       'lines' => [
         ';; rahobaY_1',
-        'rhbY    rahobaY N0      fear',
-        'rhbA    rahobA  Nhy     fear',
-        'rhbY    ruhobaY N0      fear',
-        'rhbA    ruhobA  Nhy     fear'
+        'rahobaY N0      fear',
+        'rahobA  Nhy     fear',
+        'ruhobaY N0      fear',
+        'ruhobA  Nhy     fear'
       ],
       'patterns' => {
         'rahbA' => [],
@@ -18892,7 +18892,7 @@ $Lexicon = {
       'form' => 'rahiyb',
       'lines' => [
         ';; rahiyb_1',
-        'rhyb    rahiyb  Nall    dreadful;fearful;serious     [[rahiyb/ADJ]]'
+        'rahiyb  Nall    dreadful;fearful;serious     [[rahiyb/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18917,7 +18917,7 @@ $Lexicon = {
       'form' => 'tarhiyb',
       'lines' => [
         ';; tarohiyb_1',
-        'trhyb   tarohiyb        NduAt   intimidation;terrorizing'
+        'tarohiyb        NduAt   intimidation;terrorizing'
       ],
       'patterns' => {
         'tarhiyb' => [
@@ -18945,7 +18945,7 @@ $Lexicon = {
       'form' => '\'irhAb',
       'lines' => [
         ';; <irohAb_1',
-        '<rhAb   <irohAb NduAt   terrorism;terrorizing'
+        '<irohAb NduAt   terrorism;terrorizing'
       ],
       'patterns' => {
         '\'irhAb' => [
@@ -18969,8 +18969,8 @@ $Lexicon = {
       'form' => '\'irhAbiyy',
       'lines' => [
         ';; <irohAbiy~_1',
-        '<rhAby  <irohAbiy~      Nall    terrorist     [[<irohAbiy~/NOUN]]',
-        '<rhAby  <irohAbiy~      Nall    terrorist     [[<irohAbiy~/ADJ]]'
+        '<irohAbiy~      Nall    terrorist     [[<irohAbiy~/NOUN]]',
+        '<irohAbiy~      Nall    terrorist     [[<irohAbiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -18989,7 +18989,7 @@ $Lexicon = {
       'form' => 'marhuwb',
       'lines' => [
         ';; marohuwb_1',
-        'mrhwb   marohuwb        Nall    dreadful;terrible     [[marohuwb/ADJ]]'
+        'marohuwb        Nall    dreadful;terrible     [[marohuwb/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19009,8 +19009,8 @@ $Lexicon = {
       'form' => 'tarahhab',
       'lines' => [
         ';; tarah~ab_2',
-        'trhb    tarah~ab        PV_intr become a monk',
-        'trhb    tarah~ab        IV_intr become a monk'
+        'tarah~ab        PV_intr become a monk',
+        'tarah~ab        IV_intr become a monk'
       ],
       'patterns' => {},
       'index' => '2',
@@ -19029,7 +19029,7 @@ $Lexicon = {
       'form' => 'rahab',
       'lines' => [
         ';; rahab_1',
-        'rhb     rahab   N       reverence;respect'
+        'rahab   N       reverence;respect'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19053,7 +19053,7 @@ $Lexicon = {
       'form' => 'tarahhub',
       'lines' => [
         ';; tarah~ub_1',
-        'trhb    tarah~ub        NduAt   monasticism'
+        'tarah~ub        NduAt   monasticism'
       ],
       'patterns' => {
         'tarahhub' => [
@@ -19080,8 +19080,8 @@ $Lexicon = {
       'form' => 'rAhib',
       'lines' => [
         ';; rAhib_1',
-        'rAhb    rAhib   Ndu     monk',
-        'rhbAn   ruhobAn N       monks'
+        'rAhib   Ndu     monk',
+        'ruhobAn N       monks'
       ],
       'patterns' => {
         'ruhbAn' => [
@@ -19109,8 +19109,8 @@ $Lexicon = {
       'form' => 'rAhibaT',
       'lines' => [
         ';; rAhibap_1',
-        'rAhb    rAhib   Napdu   nun',
-        'rAhb    rAhib   NAt     nuns'
+        'rAhib   Napdu   nun',
+        'rAhib   NAt     nuns'
       ],
       'patterns' => {
         'rAhib' => [
@@ -19143,9 +19143,9 @@ $Lexicon = {
       'form' => 'ramas',
       'lines' => [
         ';; ramas-ui_1',
-        'rms     ramas   PV      bury;cover',
-        'rms     romus   IV      bury;cover',
-        'rms     romis   IV      bury;cover'
+        'ramas   PV      bury;cover',
+        'romus   IV      bury;cover',
+        'romis   IV      bury;cover'
       ],
       'patterns' => {
         'rmus' => [
@@ -19179,9 +19179,9 @@ $Lexicon = {
       'entry' => 'irtamas',
       'form' => 'irtamas',
       'lines' => [
-        ';; {irotamas_1',
-        '<rtms   {irotamas       PV_intr be immersed',
-        'rtms    rotamis IV_intr be immersed'
+        ';; Airotamas_1',
+        'Airotamas       PV_intr be immersed',
+        'rotamis IV_intr be immersed'
       ],
       'patterns' => {
         'rtamis' => [
@@ -19211,9 +19211,9 @@ $Lexicon = {
       'form' => 'rams',
       'lines' => [
         ';; ramos_1',
-        'rms     ramos   Ndu     grave;tomb',
-        'rmws    rumuws  N       graves;tombs',
-        '>rmAs   >aromAs N       graves;tombs'
+        'ramos   Ndu     grave;tomb',
+        'rumuws  N       graves;tombs',
+        '>aromAs N       graves;tombs'
       ],
       'patterns' => {
         'rumuws' => [
@@ -19246,8 +19246,8 @@ $Lexicon = {
       'form' => 'rAmuws',
       'lines' => [
         ';; rAmuws_1',
-        'rAmws   rAmuws  Ndu     grave;tomb',
-        'rwAmys  rawAmiys        Ndip    graves;tombs'
+        'rAmuws  Ndu     grave;tomb',
+        'rawAmiys        Ndip    graves;tombs'
       ],
       'patterns' => {
         'rawAmiys' => [
@@ -19297,14 +19297,14 @@ $Lexicon = {
       'form' => 'ra`Y',
       'lines' => [
         ';; raEaY-a_1',
-        'rEY     raEaY   PV_0    protect;care for;sponsor;promote',
-        'rEA     raEA    PV_h    protect;care for;sponsor;promote',
-        'rEy     raEay   PV_Atn  protect;care for;sponsor;promote',
-        'rE      raEa    PV_ttAw protect;care for;sponsor;promote',
-        'rEY     roEaY   IV_0    protect;care for;sponsor;promote',
-        'rEA     roEA    IV_h    protect;care for;sponsor;promote',
-        'rEy     roEay   IV_Ann  protect;care for;sponsor;promote',
-        'rE      roEa    IV_0hwnyn       protect;care for;sponsor;promote'
+        'raEaY   PV_0    protect;care for;sponsor;promote',
+        'raEA    PV_h    protect;care for;sponsor;promote',
+        'raEay   PV_Atn  protect;care for;sponsor;promote',
+        'raEa    PV_ttAw protect;care for;sponsor;promote',
+        'roEaY   IV_0    protect;care for;sponsor;promote',
+        'roEA    IV_h    protect;care for;sponsor;promote',
+        'roEay   IV_Ann  protect;care for;sponsor;promote',
+        'roEa    IV_0hwnyn       protect;care for;sponsor;promote'
       ],
       'patterns' => {
         'r`ay' => [
@@ -19357,14 +19357,14 @@ $Lexicon = {
       'form' => 'rA`Y',
       'lines' => [
         ';; rAEaY_1',
-        'rAEY    rAEaY   PV_0    observe;heed;show deference',
-        'rAEA    rAEA    PV_h    observe;heed;show deference',
-        'rAEy    rAEay   PV_Atn  observe;heed;show deference',
-        'rAE     rAE     PV_ttAw observe;heed;show deference',
-        'rAEy    rAEiy   IV_0hAnn_yu     observe;heed;show deference',
-        'rAE     rAE     IV_0hwnyn_yu    observe;heed;show deference',
-        'rAEY    rAEaY   IV_0_Pass_yu    be observed;be heeded;be shown deference',
-        'rAEy    rAEay   IV_Ann_Pass_yu  be observed;be heeded;be shown deference'
+        'rAEaY   PV_0    observe;heed;show deference',
+        'rAEA    PV_h    observe;heed;show deference',
+        'rAEay   PV_Atn  observe;heed;show deference',
+        'rAE     PV_ttAw observe;heed;show deference',
+        'rAEiy   IV_0hAnn_yu     observe;heed;show deference',
+        'rAE     IV_0hwnyn_yu    observe;heed;show deference',
+        'rAEaY   IV_0_Pass_yu    be observed;be heeded;be shown deference',
+        'rAEay   IV_Ann_Pass_yu  be observed;be heeded;be shown deference'
       ],
       'patterns' => {
         'rA`iy' => [
@@ -19417,14 +19417,14 @@ $Lexicon = {
       'form' => '\'ar`Y',
       'lines' => [
         ';; >aroEaY_1',
-        '>rEY    >aroEaY PV_0    watch;pay attention',
-        '>rEA    >aroEA  PV_h    watch;pay attention',
-        '>rEy    >aroEay PV_Atn  watch;pay attention',
-        '>rE     >aroE   PV_ttAw watch;pay attention',
-        'rEy     roEiy   IV_0hAnn_yu     watch;pay attention',
-        'rE      roE     IV_0hwnyn_yu    watch;pay attention',
-        'rEY     roEaY   IV_0_Pass_yu    be watched;be paid attention',
-        'rEy     roEay   IV_Ann_Pass_yu  be watched;be paid attention'
+        '>aroEaY PV_0    watch;pay attention',
+        '>aroEA  PV_h    watch;pay attention',
+        '>aroEay PV_Atn  watch;pay attention',
+        '>aroE   PV_ttAw watch;pay attention',
+        'roEiy   IV_0hAnn_yu     watch;pay attention',
+        'roE     IV_0hwnyn_yu    watch;pay attention',
+        'roEaY   IV_0_Pass_yu    be watched;be paid attention',
+        'roEay   IV_Ann_Pass_yu  be watched;be paid attention'
       ],
       'patterns' => {
         'r`ay' => [
@@ -19477,14 +19477,14 @@ $Lexicon = {
       'entry' => 'irta`Y',
       'form' => 'irta`Y',
       'lines' => [
-        ';; {irotaEaY_1',
-        '<rtEY   {irotaEaY       PV_0    graze;pasture',
-        '<rtEA   {irotaEA        PV_h    graze;pasture',
-        '<rtEy   {irotaEay       PV_Atn  graze;pasture',
-        '<rtE    {irotaE PV_ttAw graze;pasture',
-        'rtEy    rotaEiy IV_0hAnn        graze;pasture',
-        'rtE     rotaE   IV_0hwnyn       graze;pasture',
-        'rtEY    rotaEaY IV_0    graze;pasture'
+        ';; AirotaEaY_1',
+        'AirotaEaY       PV_0    graze;pasture',
+        'AirotaEA        PV_h    graze;pasture',
+        'AirotaEay       PV_Atn  graze;pasture',
+        'AirotaE PV_ttAw graze;pasture',
+        'rotaEiy IV_0hAnn        graze;pasture',
+        'rotaE   IV_0hwnyn       graze;pasture',
+        'rotaEaY IV_0    graze;pasture'
       ],
       'patterns' => {
         'rta`iy' => [
@@ -19532,14 +19532,14 @@ $Lexicon = {
       'entry' => 'istar`Y',
       'form' => 'istar`Y',
       'lines' => [
-        ';; {isotaroEaY_1',
-        '<strEY  {isotaroEaY     PV_0    attract;catch;observe',
-        '<strEA  {isotaroEA      PV_h    attract;catch;observe',
-        '<strEy  {isotaroEay     PV_Atn  attract;catch;observe',
-        '<strE   {isotaroE       PV_ttAw attract;catch;observe',
-        'strEy   sotaroEiy       IV_0hAnn        attract;catch;observe',
-        'strE    sotaroE IV_0hwnyn       attract;catch;observe',
-        'strEY   sotaroEaY       IV_0    attract;catch;observe'
+        ';; AisotaroEaY_1',
+        'AisotaroEaY     PV_0    attract;catch;observe',
+        'AisotaroEA      PV_h    attract;catch;observe',
+        'AisotaroEay     PV_Atn  attract;catch;observe',
+        'AisotaroE       PV_ttAw attract;catch;observe',
+        'sotaroEiy       IV_0hAnn        attract;catch;observe',
+        'sotaroE IV_0hwnyn       attract;catch;observe',
+        'sotaroEaY       IV_0    attract;catch;observe'
       ],
       'patterns' => {
         'istar`ay' => [
@@ -19564,7 +19564,7 @@ $Lexicon = {
       'form' => 'ra`y',
       'lines' => [
         ';; raEoy_1',
-        'rEy     raEoy   N       care;custody;protection'
+        'raEoy   N       care;custody;protection'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19589,8 +19589,8 @@ $Lexicon = {
       'form' => 'ra`iyyaT',
       'lines' => [
         ';; raEiy~ap_1',
-        'rEy     raEiy~  Napdu   subject;citizen     [[raEiy~/NOUN]]',
-        'rEAyA   raEAyA  N0_Nhy  subjects;citizens'
+        'raEiy~  Napdu   subject;citizen     [[raEiy~/NOUN]]',
+        'raEAyA  N0_Nhy  subjects;citizens'
       ],
       'patterns' => {
         'ra`AyY' => [
@@ -19623,10 +19623,10 @@ $Lexicon = {
       'form' => 'mar`Y',
       'lines' => [
         ';; maroEaY_1',
-        'mrEY    maroEaY N0      grassland;pasture',
-        'mrEA    maroEA  Nhy     grassland;pasture',
-        'mrAEy   marAEiy N0_Nh   grassland;pasture',
-        'mrAE    marAE   NK      grassland;pasture'
+        'maroEaY N0      grassland;pasture',
+        'maroEA  Nhy     grassland;pasture',
+        'marAEiy N0_Nh   grassland;pasture',
+        'marAE   NK      grassland;pasture'
       ],
       'patterns' => {
         'marA`iy' => [
@@ -19651,7 +19651,7 @@ $Lexicon = {
       'form' => 'ri`AyaT',
       'lines' => [
         ';; riEAyap_1',
-        'rEAy    riEAy   NapAt   custody;protection;sponsorship'
+        'riEAy   NapAt   custody;protection;sponsorship'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19676,8 +19676,8 @@ $Lexicon = {
       'form' => 'murA`AT',
       'lines' => [
         ';; murAEAp_1',
-        'mrAEA   murAEA  Napdu   compliance;observance;deference',
-        'mrAEy   murAEay NAt     compliance;observance;deference'
+        'murAEA  Napdu   compliance;observance;deference',
+        'murAEay NAt     compliance;observance;deference'
       ],
       'patterns' => {
         'murA`Y' => [
@@ -19720,16 +19720,16 @@ $Lexicon = {
       'form' => 'rA`iy',
       'lines' => [
         ';; rAEiy_1',
-        'rAEy    rAEiy   N0F_Nh  guardian;patron;sponsor',
-        'rAE     rAE     NK      guardian;patron;sponsor',
-        'rAEy    rAEiy   NAn_Nayn        guardian;patron;sponsor',
-        'rAE     rAE     Nuwn_Niyn       guardian;patron;sponsor',
-        'rAEy    rAEiy   NapAt   guardian;patron;sponsor',
-        'rEA     ruEA    Nap     guardians;patrons;sponsors',
-        'rEyAn   ruEoyAn N       guardians;patrons;sponsors',
-        'rEA\'    ruEA\'   N0_Nh   guardians;patrons;sponsors',
-        'rEA&    ruEA&   Nh      guardians;patrons;sponsors',
-        'rEA}    ruEA}   Nhy     guardians;patrons;sponsors'
+        'rAEiy   N0F_Nh  guardian;patron;sponsor',
+        'rAE     NK      guardian;patron;sponsor',
+        'rAEiy   NAn_Nayn        guardian;patron;sponsor',
+        'rAE     Nuwn_Niyn       guardian;patron;sponsor',
+        'rAEiy   NapAt   guardian;patron;sponsor',
+        'ruEA    Nap     guardians;patrons;sponsors',
+        'ruEoyAn N       guardians;patrons;sponsors',
+        'ruEA\'   N0_Nh   guardians;patrons;sponsors',
+        'ruEA&   Nh      guardians;patrons;sponsors',
+        'ruEA}   Nhy     guardians;patrons;sponsors'
       ],
       'patterns' => {
         'ru`A\'' => [
@@ -19767,7 +19767,7 @@ $Lexicon = {
       'form' => 'mar`iyy',
       'lines' => [
         ';; maroEiy~_1',
-        'mrEy    maroEiy~        N-ap    observed;complied with     [[maroEiy~/ADJ]]'
+        'maroEiy~        N-ap    observed;complied with     [[maroEiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19789,7 +19789,7 @@ $Lexicon = {
       'form' => 'ruwmAniyA',
       'lines' => [
         ';; ruwmAniyA_1',
-        'rwmAnyA ruwmAniyA       N0      Romania'
+        'ruwmAniyA       N0      Romania'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19814,7 +19814,7 @@ $Lexicon = {
       'form' => 'rAfidAn',
       'lines' => [
         ';; rAfidAn_1',
-        'rAfd    rAfid   NAn_Nayn        Mesopotamia;Iraq'
+        'rAfid   NAn_Nayn        Mesopotamia;Iraq'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19866,7 +19866,7 @@ $Lexicon = {
       'form' => 'ramziy',
       'lines' => [
         ';; ramoziy_1',
-        'rmzy    ramoziy Nprop   Ramzi'
+        'ramoziy Nprop   Ramzi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -19897,10 +19897,10 @@ $Lexicon = {
       'form' => 'raqq',
       'lines' => [
         ';; raq~-i_1',
-        'rq      raq~    PV_V_intr       be thin;be delicate',
-        'rqq     raqaq   PV_C_intr       be thin;be delicate',
-        'rq      riq~    IV_V_intr       be thin;be delicate',
-        'rqq     roqiq   IV_C_intr       be thin;be delicate'
+        'raq~    PV_V_intr       be thin;be delicate',
+        'raqaq   PV_C_intr       be thin;be delicate',
+        'riq~    IV_V_intr       be thin;be delicate',
+        'roqiq   IV_C_intr       be thin;be delicate'
       ],
       'patterns' => {
         'riqq' => [
@@ -19937,8 +19937,8 @@ $Lexicon = {
       'form' => 'raqqaq',
       'lines' => [
         ';; raq~aq_1',
-        'rqq     raq~aq  PV      make thin;refine',
-        'rqq     raq~iq  IV_yu   make thin;refine'
+        'raq~aq  PV      make thin;refine',
+        'raq~iq  IV_yu   make thin;refine'
       ],
       'patterns' => {
         'raqqiq' => [
@@ -19972,10 +19972,10 @@ $Lexicon = {
       'form' => '\'araqq',
       'lines' => [
         ';; >araq~_1',
-        '>rq     >araq~  PV_V    make thin;refine',
-        '>rqq    >aroqaq PV_C    make thin;refine',
-        'rq      riq~    IV_V_yu make thin;refine',
-        'rqq     roqiq   IV_C_yu make thin;refine'
+        '>araq~  PV_V    make thin;refine',
+        '>aroqaq PV_C    make thin;refine',
+        'riq~    IV_V_yu make thin;refine',
+        'roqiq   IV_C_yu make thin;refine'
       ],
       'patterns' => {
         'riqq' => [
@@ -20005,8 +20005,8 @@ $Lexicon = {
       'form' => 'taraqqaq',
       'lines' => [
         ';; taraq~aq_1',
-        'trqq    taraq~aq        PV_intr be refined;be atomized',
-        'trqq    taraq~aq        IV_intr be refined;be atomized'
+        'taraq~aq        PV_intr be refined;be atomized',
+        'taraq~aq        IV_intr be refined;be atomized'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20035,11 +20035,11 @@ $Lexicon = {
       'entry' => 'istaraqq',
       'form' => 'istaraqq',
       'lines' => [
-        ';; {isotaraq~_1',
-        '<strq   {isotaraq~      PV_V_intr       be thin;be delicate;enslave',
-        '<strqq  {isotaroqaq     PV_C_intr       be thin;be delicate;enslave',
-        'strq    sotariq~        IV_V_intr       be thin;be delicate;enslave',
-        'strqq   sotaroqiq       IV_C_intr       be thin;be delicate;enslave'
+        ';; Aisotaraq~_1',
+        'Aisotaraq~      PV_V_intr       be thin;be delicate;enslave',
+        'Aisotaroqaq     PV_C_intr       be thin;be delicate;enslave',
+        'sotariq~        IV_V_intr       be thin;be delicate;enslave',
+        'sotaroqiq       IV_C_intr       be thin;be delicate;enslave'
       ],
       'patterns' => {
         'istarqaq' => [
@@ -20064,7 +20064,7 @@ $Lexicon = {
       'form' => 'riqq',
       'lines' => [
         ';; riq~_1',
-        'rq      riq~    N       slavery'
+        'riq~    N       slavery'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20087,8 +20087,8 @@ $Lexicon = {
       'form' => 'raqq',
       'lines' => [
         ';; raq~_1',
-        'rq      raq~    N       parchment',
-        'rqwq    ruquwq  N       parchments'
+        'raq~    N       parchment',
+        'ruquwq  N       parchments'
       ],
       'patterns' => {
         'ruquwq' => [
@@ -20112,7 +20112,7 @@ $Lexicon = {
       'form' => 'riqqaT',
       'lines' => [
         ';; riq~ap_1',
-        'rq      riq~    Nap     thinness;delicateness;amiability'
+        'riq~    Nap     thinness;delicateness;amiability'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20133,7 +20133,7 @@ $Lexicon = {
       'form' => 'ruqAq',
       'lines' => [
         ';; ruqAq_1',
-        'rqAq    ruqAq   N       waffles'
+        'ruqAq   N       waffles'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20161,11 +20161,11 @@ $Lexicon = {
       'form' => 'raqiyq',
       'lines' => [
         ';; raqiyq_1',
-        'rqyq    raqiyq  N       slaves',
-        '>rqA\'   >ariq~A\'        N0_Nh   slaves',
-        '>rqA&   >ariq~A&        Nh      slaves',
-        '>rqA}   >ariq~A}        Nhy     slaves',
-        'rqAq    riqAq   N       slaves'
+        'raqiyq  N       slaves',
+        '>ariq~A\'        N0_Nh   slaves',
+        '>ariq~A&        Nh      slaves',
+        '>ariq~A}        Nhy     slaves',
+        'riqAq   N       slaves'
       ],
       'patterns' => {
         'riqAq' => [
@@ -20195,8 +20195,8 @@ $Lexicon = {
       'form' => 'raqiyq',
       'lines' => [
         ';; raqiyq_2',
-        'rqyq    raqiyq  N/ap    gentle;delicate     [[raqiyq/ADJ]]',
-        'rqAq    riqAq   N       slender'
+        'raqiyq  N/ap    gentle;delicate     [[raqiyq/ADJ]]',
+        'riqAq   N       slender'
       ],
       'patterns' => {
         'riqAq' => [
@@ -20221,7 +20221,7 @@ $Lexicon = {
       'form' => 'riqAq',
       'lines' => [
         ';; riqAq_1',
-        'rqAq    riqAq   N       flat loaves of bread'
+        'riqAq   N       flat loaves of bread'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20244,8 +20244,8 @@ $Lexicon = {
       'form' => 'raqiyqaT',
       'lines' => [
         ';; raqiyqap_1',
-        'rqyq    raqiyq  Nap     plastic foil',
-        'rqA}q   raqA}iq Ndip    subtleties;niceties'
+        'raqiyq  Nap     plastic foil',
+        'raqA}iq Ndip    subtleties;niceties'
       ],
       'patterns' => {
         'raqA\'iq' => [
@@ -20270,7 +20270,7 @@ $Lexicon = {
       'form' => '\'araqq',
       'lines' => [
         ';; >araq~_2',
-        '>rq     >araq~  Nel     more/most gentle;thinner/thinnest;more/most delicate'
+        '>araq~  Nel     more/most gentle;thinner/thinnest;more/most delicate'
       ],
       'patterns' => {},
       'index' => '2',
@@ -20291,7 +20291,7 @@ $Lexicon = {
       'form' => 'mirqAq',
       'lines' => [
         ';; miroqAq_1',
-        'mrqAq   miroqAq Ndu     rolling pin'
+        'miroqAq Ndu     rolling pin'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20314,7 +20314,7 @@ $Lexicon = {
       'form' => 'taraqquq',
       'lines' => [
         ';; taraq~uq_1',
-        'trqq    taraq~uq        NduAt   atomization'
+        'taraq~uq        NduAt   atomization'
       ],
       'patterns' => {
         'taraqquq' => [
@@ -20337,7 +20337,7 @@ $Lexicon = {
       'form' => 'marquwq',
       'lines' => [
         ';; maroquwq_1',
-        'mrqwq   maroquwq        N       marqouq (thin bread)'
+        'maroquwq        N       marqouq (thin bread)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20358,7 +20358,7 @@ $Lexicon = {
       'form' => 'rAbi.g',
       'lines' => [
         ';; rAbig_1',
-        'rAbg    rAbig   Nall    pleasant;comfortable'
+        'rAbig   Nall    pleasant;comfortable'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20384,8 +20384,8 @@ $Lexicon = {
       'form' => 'ra^gra^g',
       'lines' => [
         ';; rajoraj_1',
-        'rjrj    rajoraj PV      shake;quiver',
-        'rjrj    rajorij IV_yu   shake;quiver'
+        'rajoraj PV      shake;quiver',
+        'rajorij IV_yu   shake;quiver'
       ],
       'patterns' => {
         'ra^gri^g' => [
@@ -20409,8 +20409,8 @@ $Lexicon = {
       'form' => 'tara^gra^g',
       'lines' => [
         ';; tarajoraj_1',
-        'trjrj   tarajoraj       PV      tremble;sway',
-        'trjrj   tarajoraj       IV      tremble;sway'
+        'tarajoraj       PV      tremble;sway',
+        'tarajoraj       IV      tremble;sway'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20430,7 +20430,7 @@ $Lexicon = {
       'form' => 'ra^grA^g',
       'lines' => [
         ';; rajorAj_1',
-        'rjrAj   rajorAj N       trembling;swaying'
+        'rajorAj N       trembling;swaying'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20456,7 +20456,7 @@ $Lexicon = {
       'form' => 'riykuwrdar',
       'lines' => [
         ';; riykuwrodar_1',
-        'rykwrdr riykuwrodar     N/At    tape recorder'
+        'riykuwrodar     N/At    tape recorder'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20477,7 +20477,7 @@ $Lexicon = {
       'form' => 'tarsiyaT',
       'lines' => [
         ';; tarosiyap_1',
-        'trsy    tarosiy Nap     award of bid;knockdown'
+        'tarosiy Nap     award of bid;knockdown'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20507,13 +20507,13 @@ $Lexicon = {
       'form' => 'rAsiy',
       'lines' => [
         ';; rAsiy_1',
-        'rAsy    rAsiy   N0F     immovable;anchored;moored     [[rAsiy/ADJ]]',
-        'rAs     rAs     NK      immovable;anchored;moored',
-        'rAsy    rAsiy   NAn_Nayn        immovable;anchored;moored',
-        'rAs     rAs     Nuwn_Niyn       immovable;anchored;moored',
-        'rAsy    rAsiy   NapAt   immovable;anchored;moored',
-        'rwAsy   rawAsiy N0_Nh   immovable;anchored;moored',
-        'rwAs    rawAs   NK      immovable;anchored;moored'
+        'rAsiy   N0F     immovable;anchored;moored     [[rAsiy/ADJ]]',
+        'rAs     NK      immovable;anchored;moored',
+        'rAsiy   NAn_Nayn        immovable;anchored;moored',
+        'rAs     Nuwn_Niyn       immovable;anchored;moored',
+        'rAsiy   NapAt   immovable;anchored;moored',
+        'rawAsiy N0_Nh   immovable;anchored;moored',
+        'rawAs   NK      immovable;anchored;moored'
       ],
       'patterns' => {
         'rAsiy' => [
@@ -20549,9 +20549,9 @@ $Lexicon = {
       'form' => 'rAsiyAt',
       'lines' => [
         ';; rAsiyAt_1',
-        'rAsy    rAsiy   NAt     towering;unshakable (mountains)',
-        'rwAsy   rawAsiy N0_Nh   towering;unshakable (mountains)',
-        'rwAs    rawAs   NK      towering;unshakable (mountains)'
+        'rAsiy   NAt     towering;unshakable (mountains)',
+        'rawAsiy N0_Nh   towering;unshakable (mountains)',
+        'rawAs   NK      towering;unshakable (mountains)'
       ],
       'patterns' => {
         'rAsiy' => [
@@ -20580,7 +20580,7 @@ $Lexicon = {
       'form' => 'rada.h',
       'lines' => [
         ';; radaH_1',
-        'rdH     radaH   N       long period'
+        'radaH   N       long period'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20604,8 +20604,8 @@ $Lexicon = {
       'entry' => 'irtiyA`',
       'form' => 'irtiyA`',
       'lines' => [
-        ';; {irotiyAE_1',
-        '<rtyAE  {irotiyAE       NduAt   alarm;shock'
+        ';; AirotiyAE_1',
+        'AirotiyAE       NduAt   alarm;shock'
       ],
       'patterns' => {
         'irtiyA`' => [
@@ -20629,7 +20629,7 @@ $Lexicon = {
       'form' => 'muriy`',
       'lines' => [
         ';; muriyE_1',
-        'mryE    muriyE  Nall    dreadful;terrible     [[muriyE/ADJ]]'
+        'muriyE  Nall    dreadful;terrible     [[muriyE/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20657,10 +20657,10 @@ $Lexicon = {
       'form' => 'rA`',
       'lines' => [
         ';; rAE-i_1',
-        'rAE     rAE     PV_V    grow;increase;thrive',
-        'rE      riE     PV_C    grow;increase;thrive',
-        'ryE     riyE    IV_V    grow;increase;thrive',
-        'rE      riE     IV_C    grow;increase;thrive'
+        'rAE     PV_V    grow;increase;thrive',
+        'riE     PV_C    grow;increase;thrive',
+        'riyE    IV_V    grow;increase;thrive',
+        'riE     IV_C    grow;increase;thrive'
       ],
       'patterns' => {
         'riy`' => [
@@ -20695,8 +20695,8 @@ $Lexicon = {
       'form' => 'rayya`',
       'lines' => [
         ';; ray~aE_1',
-        'ryE     ray~aE  PV      increase;augment',
-        'ryE     ray~iE  IV_yu   increase;augment'
+        'ray~aE  PV      increase;augment',
+        'ray~iE  IV_yu   increase;augment'
       ],
       'patterns' => {
         'rayyi`' => [
@@ -20724,8 +20724,8 @@ $Lexicon = {
       'form' => 'ray`',
       'lines' => [
         ';; rayoE_1',
-        'ryE     rayoE   N       income;proceeds;profit',
-        'rywE    ruyuwE  N       income;proceeds;profits'
+        'rayoE   N       income;proceeds;profit',
+        'ruyuwE  N       income;proceeds;profits'
       ],
       'patterns' => {
         'ruyuw`' => [
@@ -20751,7 +20751,7 @@ $Lexicon = {
       'form' => 'ray`An',
       'lines' => [
         ';; rayoEAn_1',
-        'ryEAn   rayoEAn N       choicest part;prime time;full bloom'
+        'rayoEAn N       choicest part;prime time;full bloom'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20772,7 +20772,7 @@ $Lexicon = {
       'form' => 'mariy`aT',
       'lines' => [
         ';; mariyEap_1',
-        'mryE    mariyE  Nap     productive     [[mariyE/ADJ]]'
+        'mariyE  Nap     productive     [[mariyE/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20791,7 +20791,7 @@ $Lexicon = {
       'form' => 'rA\'i`',
       'lines' => [
         ';; rA}iE_2',
-        'rA}E    rA}iE   N       crystal clear;brilliant     [[rA}iE/ADJ]]'
+        'rA}iE   N       crystal clear;brilliant     [[rA}iE/ADJ]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -20811,7 +20811,7 @@ $Lexicon = {
       'form' => 'rA\'i`aT',
       'lines' => [
         ';; rA}iEap_2',
-        'rA}E    rA}iE   Nap     prime time;full bloom'
+        'rA}iE   Nap     prime time;full bloom'
       ],
       'patterns' => {},
       'index' => '2',
@@ -20840,9 +20840,9 @@ $Lexicon = {
       'form' => 'rakaz',
       'lines' => [
         ';; rakaz-ui_1',
-        'rkz     rakaz   PV      set up;implant',
-        'rkz     rokuz   IV      set up;implant',
-        'rkz     rokiz   IV      set up;implant'
+        'rakaz   PV      set up;implant',
+        'rokuz   IV      set up;implant',
+        'rokiz   IV      set up;implant'
       ],
       'patterns' => {
         'rkiz' => [
@@ -20877,8 +20877,8 @@ $Lexicon = {
       'form' => 'rakkaz',
       'lines' => [
         ';; rak~az_1',
-        'rkz     rak~az  PV      focus;concentrate;emphasize',
-        'rkz     rak~iz  IV_yu   focus;concentrate;emphasize'
+        'rak~az  PV      focus;concentrate;emphasize',
+        'rak~iz  IV_yu   focus;concentrate;emphasize'
       ],
       'patterns' => {
         'rakkiz' => [
@@ -20903,8 +20903,8 @@ $Lexicon = {
       'form' => 'tarakkaz',
       'lines' => [
         ';; tarak~az_1',
-        'trkz    tarak~az        PV      concentrate;focus',
-        'trkz    tarak~az        IV      concentrate;focus'
+        'tarak~az        PV      concentrate;focus',
+        'tarak~az        IV      concentrate;focus'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20927,9 +20927,9 @@ $Lexicon = {
       'entry' => 'irtakaz',
       'form' => 'irtakaz',
       'lines' => [
-        ';; {irotakaz_1',
-        '<rtkz   {irotakaz       PV_intr be focused;be implanted',
-        'rtkz    rotakiz IV_intr be focused;be implanted'
+        ';; Airotakaz_1',
+        'Airotakaz       PV_intr be focused;be implanted',
+        'rotakiz IV_intr be focused;be implanted'
       ],
       'patterns' => {
         'rtakiz' => [
@@ -20953,7 +20953,7 @@ $Lexicon = {
       'form' => 'rikz',
       'lines' => [
         ';; rikoz_1',
-        'rkz     rikoz   N       sound;tone'
+        'rikoz   N       sound;tone'
       ],
       'patterns' => {},
       'index' => '1',
@@ -20973,7 +20973,7 @@ $Lexicon = {
       'form' => 'rakzaT',
       'lines' => [
         ';; rakozap_1',
-        'rkz     rakoz   Nap     pause;break'
+        'rakoz   Nap     pause;break'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21000,9 +21000,9 @@ $Lexicon = {
       'form' => 'rikAz',
       'lines' => [
         ';; rikAz_1',
-        'rkAz    rikAz   N       gold ore',
-        'rkzAn   rikozAn N       treasures',
-        '>rkz    >arokiz Nap     treasures'
+        'rikAz   N       gold ore',
+        'rikozAn N       treasures',
+        '>arokiz Nap     treasures'
       ],
       'patterns' => {
         '\'arkiz' => [
@@ -21033,8 +21033,8 @@ $Lexicon = {
       'form' => 'rakiyzaT',
       'lines' => [
         ';; rakiyzap_1',
-        'rkyz    rakiyz  Napdu   support;pillar;pole',
-        'rkA}z   rakA}iz Ndip    supports;pillars'
+        'rakiyz  Napdu   support;pillar;pole',
+        'rakA}iz Ndip    supports;pillars'
       ],
       'patterns' => {
         'rakA\'iz' => [
@@ -21065,8 +21065,8 @@ $Lexicon = {
       'form' => 'markaz',
       'lines' => [
         ';; marokaz_1',
-        'mrkz    marokaz Ndu     center;station',
-        'mrAkz   marAkiz Ndip    centers;stations'
+        'marokaz Ndu     center;station',
+        'marAkiz Ndip    centers;stations'
       ],
       'patterns' => {
         'marAkiz' => [
@@ -21092,7 +21092,7 @@ $Lexicon = {
       'form' => 'markaz',
       'lines' => [
         ';; marokaz_2',
-        'mrkz    marokaz Ndu     ranking;position'
+        'marokaz Ndu     ranking;position'
       ],
       'patterns' => {},
       'index' => '2',
@@ -21112,7 +21112,7 @@ $Lexicon = {
       'form' => 'markaziyy',
       'lines' => [
         ';; marokaziy~_1',
-        'mrkzy   marokaziy~      N-ap    central     [[marokaziy~/ADJ]]'
+        'marokaziy~      N-ap    central     [[marokaziy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21131,7 +21131,7 @@ $Lexicon = {
       'form' => 'markaziyyaT',
       'lines' => [
         ';; marokaziy~ap_1',
-        'mrkzy   marokaziy~      Nap     centralization     [[marokaziy~/NOUN]]'
+        'marokaziy~      Nap     centralization     [[marokaziy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21150,7 +21150,7 @@ $Lexicon = {
       'form' => 'lAmarkaziyy',
       'lines' => [
         ';; lAmarokaziy~_1',
-        'lAmrkzy lAmarokaziy~    Nall_L  decentralized     [[lAmarokaziy~/ADJ]]'
+        'lAmarokaziy~    Nall_L  decentralized     [[lAmarokaziy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21169,7 +21169,7 @@ $Lexicon = {
       'form' => 'lAmarkaziyyaT',
       'lines' => [
         ';; lAmarokaziy~ap_1',
-        'lAmrkzy lAmarokaziy~    Nap_L   decentralization     [[lAmarokaziy~/NOUN]]'
+        'lAmarokaziy~    Nap_L   decentralization     [[lAmarokaziy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21192,7 +21192,7 @@ $Lexicon = {
       'form' => 'tarkiyz',
       'lines' => [
         ';; tarokiyz_1',
-        'trkyz   tarokiyz        NduAt   emphasis;focus;concentration;installation'
+        'tarokiyz        NduAt   emphasis;focus;concentration;installation'
       ],
       'patterns' => {
         'tarkiyz' => [
@@ -21222,7 +21222,7 @@ $Lexicon = {
       'form' => 'tarAkuz',
       'lines' => [
         ';; tarAkuz_1',
-        'trAkz   tarAkuz NduAt   concentricity'
+        'tarAkuz NduAt   concentricity'
       ],
       'patterns' => {
         'tarAkuz' => [
@@ -21248,8 +21248,8 @@ $Lexicon = {
       'entry' => 'irtikAz',
       'form' => 'irtikAz',
       'lines' => [
-        ';; {irotikAz_1',
-        '<rtkAz  {irotikAz       NduAt   support;basis'
+        ';; AirotikAz_1',
+        'AirotikAz       NduAt   support;basis'
       ],
       'patterns' => {
         'irtikAz' => [
@@ -21273,7 +21273,7 @@ $Lexicon = {
       'form' => 'murakkaz',
       'lines' => [
         ';; murak~az_1',
-        'mrkz    murak~az        N-ap    concentrated;centralized;condensed     [[murak~az/ADJ]]'
+        'murak~az        N-ap    concentrated;centralized;condensed     [[murak~az/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21298,7 +21298,7 @@ $Lexicon = {
       'form' => 'murakkaz',
       'lines' => [
         ';; murak~az_2',
-        'mrkz    murak~az        NduAt   concentrate'
+        'murak~az        NduAt   concentrate'
       ],
       'patterns' => {
         'murakkaz' => [
@@ -21321,7 +21321,7 @@ $Lexicon = {
       'form' => 'mutarAkiz',
       'lines' => [
         ';; mutarAkiz_1',
-        'mtrAkz  mutarAkiz       N-ap    concentric     [[mutarAkiz/ADJ]]'
+        'mutarAkiz       N-ap    concentric     [[mutarAkiz/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21340,7 +21340,7 @@ $Lexicon = {
       'form' => 'murtakiz',
       'lines' => [
         ';; murotakiz_1',
-        'mrtkz   murotakiz       Nall    focused;implanted     [[murotakiz/ADJ]]'
+        'murotakiz       Nall    focused;implanted     [[murotakiz/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21369,9 +21369,9 @@ $Lexicon = {
       'form' => 'rafa_t',
       'lines' => [
         ';; rafav-iu_1',
-        'rfv     rafav   PV      behave obscenely',
-        'rfv     rofiv   IV      behave obscenely',
-        'rfv     rofuv   IV      behave obscenely'
+        'rafav   PV      behave obscenely',
+        'rofiv   IV      behave obscenely',
+        'rofuv   IV      behave obscenely'
       ],
       'patterns' => {
         'rfi_t' => [
@@ -21401,7 +21401,7 @@ $Lexicon = {
       'form' => 'rafa_t',
       'lines' => [
         ';; rafav_1',
-        'rfv     rafav   N       obscenity'
+        'rafav   N       obscenity'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21422,9 +21422,9 @@ $Lexicon = {
       'form' => 'ri.dA\'',
       'lines' => [
         ';; riDA\'_1',
-        'rDA\'    riDA\'   N0_Nh   satisfaction;acceptance',
-        'rDA&    riDA&   Nh      satisfaction;acceptance',
-        'rDA}    riDA}   Nhy     satisfaction;acceptance'
+        'riDA\'   N0_Nh   satisfaction;acceptance',
+        'riDA&   Nh      satisfaction;acceptance',
+        'riDA}   Nhy     satisfaction;acceptance'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21448,12 +21448,12 @@ $Lexicon = {
       'form' => '\'ir.dA\'',
       'lines' => [
         ';; <iroDA\'_1',
-        '<rDA\'   <iroDA\' N0_Nh   satisfaction;fulfillment',
-        '<rDA&   <iroDA& Nh      satisfaction;fulfillment',
-        '<rDA}   <iroDA} Nhy     satisfaction;fulfillment',
-        '<rDA\'   <iroDA\' NAn_Nayn        satisfaction;fulfillment',
-        '<rDA}   <iroDA} Nayn    satisfaction;fulfillment',
-        '<rDA\'   <iroDA\' NAt     satisfaction;fulfillment'
+        '<iroDA\' N0_Nh   satisfaction;fulfillment',
+        '<iroDA& Nh      satisfaction;fulfillment',
+        '<iroDA} Nhy     satisfaction;fulfillment',
+        '<iroDA\' NAn_Nayn        satisfaction;fulfillment',
+        '<iroDA} Nayn    satisfaction;fulfillment',
+        '<iroDA\' NAt     satisfaction;fulfillment'
       ],
       'patterns' => {
         '\'ir.dA\'' => [
@@ -21480,11 +21480,11 @@ $Lexicon = {
       'entry' => 'istir.dA\'',
       'form' => 'istir.dA\'',
       'lines' => [
-        ';; {isotiroDA\'_1',
-        '<strDA\' {isotiroDA\'     N0_Nh   conciliatory attitude;propitiation',
-        '<strDA& {isotiroDA&     Nh      conciliatory attitude;propitiation',
-        '<strDA} {isotiroDA}     Nhy     conciliatory attitude;propitiation',
-        '<strDA\' {isotiroDA\'     NAt     conciliatory attitude;propitiation'
+        ';; AisotiroDA\'_1',
+        'AisotiroDA\'     N0_Nh   conciliatory attitude;propitiation',
+        'AisotiroDA&     Nh      conciliatory attitude;propitiation',
+        'AisotiroDA}     Nhy     conciliatory attitude;propitiation',
+        'AisotiroDA\'     NAt     conciliatory attitude;propitiation'
       ],
       'patterns' => {
         'istir.dA\'' => [
@@ -21507,8 +21507,8 @@ $Lexicon = {
       'entry' => 'istir.dA\'',
       'form' => 'istir.dA\'iyy',
       'lines' => [
-        ';; {isotiroDA}iy~_1',
-        '<strDA}y        {isotiroDA}iy~  Nall    conciliatory     [[{isotiroDA}iy~/ADJ]]'
+        ';; AisotiroDA}iy~_1',
+        'AisotiroDA}iy~  Nall    conciliatory     [[AisotiroDA}iy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21537,10 +21537,10 @@ $Lexicon = {
       'form' => 'rA.g',
       'lines' => [
         ';; rAg-u_1',
-        'rAg     rAg     PV_V    evade;dodge;swerve',
-        'rg      rug     PV_C    evade;dodge;swerve',
-        'rwg     ruwg    IV_V    evade;dodge;swerve',
-        'rg      rug     IV_C    evade;dodge;swerve'
+        'rAg     PV_V    evade;dodge;swerve',
+        'rug     PV_C    evade;dodge;swerve',
+        'ruwg    IV_V    evade;dodge;swerve',
+        'rug     IV_C    evade;dodge;swerve'
       ],
       'patterns' => {
         'ru.g' => [
@@ -21575,8 +21575,8 @@ $Lexicon = {
       'form' => 'rAwa.g',
       'lines' => [
         ';; rAwag_1',
-        'rAwg    rAwag   PV      double-cross;deal fraudulently with',
-        'rAwg    rAwig   IV_yu   double-cross;deal fraudulently with'
+        'rAwag   PV      double-cross;deal fraudulently with',
+        'rAwig   IV_yu   double-cross;deal fraudulently with'
       ],
       'patterns' => {
         'rAwi.g' => [
@@ -21600,7 +21600,7 @@ $Lexicon = {
       'form' => 'raw.g',
       'lines' => [
         ';; rawog_1',
-        'rwg     rawog   N       evasion'
+        'rawog   N       evasion'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21619,7 +21619,7 @@ $Lexicon = {
       'form' => 'rawa.gAn',
       'lines' => [
         ';; rawagAn_1',
-        'rwgAn   rawagAn N       evasion'
+        'rawagAn N       evasion'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21638,7 +21638,7 @@ $Lexicon = {
       'form' => 'rawA.g',
       'lines' => [
         ';; rawAg_1',
-        'rwAg    rawAg   N       artifice;trick'
+        'rawAg   N       artifice;trick'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21658,7 +21658,7 @@ $Lexicon = {
       'form' => 'rawwA.g',
       'lines' => [
         ';; raw~Ag_1',
-        'rwAg    raw~Ag  Nall    tricky;insidious     [[raw~Ag/ADJ]]'
+        'raw~Ag  Nall    tricky;insidious     [[raw~Ag/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21678,7 +21678,7 @@ $Lexicon = {
       'form' => 'ruway.gaT',
       'lines' => [
         ';; ruwayogap_1',
-        'rwyg    ruwayog NapAt   trick;evasion'
+        'ruwayog NapAt   trick;evasion'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21698,7 +21698,7 @@ $Lexicon = {
       'form' => '\'arwa.g',
       'lines' => [
         ';; >arowag_1',
-        '>rwg    >arowag Nel     more/most cunning'
+        '>arowag Nel     more/most cunning'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21721,8 +21721,8 @@ $Lexicon = {
       'form' => 'murAwa.gaT',
       'lines' => [
         ';; murAwagap_1',
-        'mrAwg   murAwag Nap     underhanded dealing;artifice',
-        'mrAwg   murAwag NAt     prevarications;trickery'
+        'murAwag Nap     underhanded dealing;artifice',
+        'murAwag NAt     prevarications;trickery'
       ],
       'patterns' => {
         'murAwa.g' => [
@@ -21754,8 +21754,8 @@ $Lexicon = {
       'form' => 'rabak',
       'lines' => [
         ';; rabak-u_1',
-        'rbk     rabak   PV      muddle;complicate',
-        'rbk     robuk   IV      muddle;complicate'
+        'rabak   PV      muddle;complicate',
+        'robuk   IV      muddle;complicate'
       ],
       'patterns' => {
         'rbuk' => [
@@ -21786,8 +21786,8 @@ $Lexicon = {
       'form' => 'rabik',
       'lines' => [
         ';; rabik-a_1',
-        'rbk     rabik   PV_intr be entangled',
-        'rbk     robak   IV_intr be entangled'
+        'rabik   PV_intr be entangled',
+        'robak   IV_intr be entangled'
       ],
       'patterns' => {
         'rbak' => [
@@ -21820,9 +21820,9 @@ $Lexicon = {
       'form' => '\'arbak',
       'lines' => [
         ';; >arobak_1',
-        '>rbk    >arobak PV      confuse;embarrass',
-        'rbk     robik   IV_yu   confuse;embarrass',
-        'rbk     robak   IV_Pass_yu      be confused;be embarrassed'
+        '>arobak PV      confuse;embarrass',
+        'robik   IV_yu   confuse;embarrass',
+        'robak   IV_Pass_yu      be confused;be embarrassed'
       ],
       'patterns' => {
         'rbik' => [
@@ -21854,9 +21854,9 @@ $Lexicon = {
       'entry' => 'irtabak',
       'form' => 'irtabak',
       'lines' => [
-        ';; {irotabak_1',
-        '<rtbk   {irotabak       PV_intr be confused;be entangled',
-        'rtbk    rotabik IV_intr be confused;be entangled'
+        ';; Airotabak_1',
+        'Airotabak       PV_intr be confused;be entangled',
+        'rotabik IV_intr be confused;be entangled'
       ],
       'patterns' => {
         'rtabik' => [
@@ -21880,7 +21880,7 @@ $Lexicon = {
       'form' => 'rabak',
       'lines' => [
         ';; rabak_1',
-        'rbk     rabak   N       involvement;embarrassment'
+        'rabak   N       involvement;embarrassment'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21900,7 +21900,7 @@ $Lexicon = {
       'form' => 'rabik',
       'lines' => [
         ';; rabik_1',
-        'rbk     rabik   Nall    confused;embarrassed     [[rabik/ADJ]]'
+        'rabik   Nall    confused;embarrassed     [[rabik/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21924,7 +21924,7 @@ $Lexicon = {
       'form' => '\'irbAk',
       'lines' => [
         ';; <irobAk_1',
-        '<rbAk   <irobAk N/At    confusion;embarrassment'
+        '<irobAk N/At    confusion;embarrassment'
       ],
       'patterns' => {
         '\'irbAk' => [
@@ -21951,8 +21951,8 @@ $Lexicon = {
       'entry' => 'irtibAk',
       'form' => 'irtibAk',
       'lines' => [
-        ';; {irotibAk_1',
-        '<rtbAk  {irotibAk       NduAt   involvement;entanglement'
+        ';; AirotibAk_1',
+        'AirotibAk       NduAt   involvement;entanglement'
       ],
       'patterns' => {
         'irtibAk' => [
@@ -21976,7 +21976,7 @@ $Lexicon = {
       'form' => 'murbik',
       'lines' => [
         ';; murobik_1',
-        'mrbk    murobik Nall    bewildering;embarrassing     [[murobik/ADJ]]'
+        'murobik Nall    bewildering;embarrassing     [[murobik/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -21996,8 +21996,8 @@ $Lexicon = {
       'form' => 'murtabik',
       'lines' => [
         ';; murotabik_1',
-        'mrtbk   murotabik       Nall    involved;entangled     [[murotabik/ADJ]]',
-        'mrtbk   murotabik       Nall    embarrassed     [[murotabik/ADJ]]'
+        'murotabik       Nall    involved;entangled     [[murotabik/ADJ]]',
+        'murotabik       Nall    embarrassed     [[murotabik/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22020,7 +22020,7 @@ $Lexicon = {
       'form' => 'riy.hAniyy',
       'lines' => [
         ';; riyoHAniy~_1',
-        'ryHAny  riyoHAniy~      N0      Rihani'
+        'riyoHAniy~      N0      Rihani'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22045,8 +22045,8 @@ $Lexicon = {
       'form' => 'ra.saf',
       'lines' => [
         ';; raSaf-u_1',
-        'rSf     raSaf   PV      pave;stack close together',
-        'rSf     roSuf   IV      pave;stack close together'
+        'raSaf   PV      pave;stack close together',
+        'roSuf   IV      pave;stack close together'
       ],
       'patterns' => {
         'r.suf' => [
@@ -22077,8 +22077,8 @@ $Lexicon = {
       'form' => 'ra.suf',
       'lines' => [
         ';; raSuf-u_1',
-        'rSf     raSuf   PV_intr be firmly joined',
-        'rSf     roSuf   IV_intr be firmly joined'
+        'raSuf   PV_intr be firmly joined',
+        'roSuf   IV_intr be firmly joined'
       ],
       'patterns' => {
         'r.suf' => [
@@ -22108,8 +22108,8 @@ $Lexicon = {
       'form' => 'ra.s.saf',
       'lines' => [
         ';; raS~af_1',
-        'rSf     raS~af  PV      pave',
-        'rSf     raS~if  IV_yu   pave'
+        'raS~af  PV      pave',
+        'raS~if  IV_yu   pave'
       ],
       'patterns' => {
         'ra.s.sif' => [
@@ -22132,7 +22132,7 @@ $Lexicon = {
       'form' => 'ra.sf',
       'lines' => [
         ';; raSof_1',
-        'rSf     raSof   N       paving;setting up'
+        'raSof   N       paving;setting up'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22156,8 +22156,8 @@ $Lexicon = {
       'form' => 'ra.siyf',
       'lines' => [
         ';; raSiyf_1',
-        'rSyf    raSiyf  N       sidewalk;platform',
-        '>rSf    >aroSif Nap     sidewalks;platforms'
+        'raSiyf  N       sidewalk;platform',
+        '>aroSif Nap     sidewalks;platforms'
       ],
       'patterns' => {
         '\'ar.sif' => [
@@ -22183,7 +22183,7 @@ $Lexicon = {
       'form' => 'ra.sif',
       'lines' => [
         ';; raSif_1',
-        'rSf     raSif   N-ap    firmly joined     [[raSif/ADJ]]'
+        'raSif   N-ap    firmly joined     [[raSif/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22208,10 +22208,10 @@ $Lexicon = {
       'form' => 'ra.siyf',
       'lines' => [
         ';; raSiyf_2',
-        'rSyf    raSiyf  N/ap    colleague',
-        'rSfA\'   ruSafA\' N0_Nh   colleagues',
-        'rSfA&   ruSafA& Nh      colleagues',
-        'rSfA}   ruSafA} Nhy     colleagues'
+        'raSiyf  N/ap    colleague',
+        'ruSafA\' N0_Nh   colleagues',
+        'ruSafA& Nh      colleagues',
+        'ruSafA} Nhy     colleagues'
       ],
       'patterns' => {
         'ru.safA\'' => [
@@ -22235,7 +22235,7 @@ $Lexicon = {
       'form' => 'ra.siyfaT',
       'lines' => [
         ';; raSiyfap_1',
-        'rSyf    raSiyf  NapAt   woman colleague;honorable friends'
+        'raSiyf  NapAt   woman colleague;honorable friends'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22255,7 +22255,7 @@ $Lexicon = {
       'form' => 'ra.sAfaT',
       'lines' => [
         ';; raSAfap_1',
-        'rSAf    raSAf   Nap     firmness;compactness'
+        'raSAf   Nap     firmness;compactness'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22275,7 +22275,7 @@ $Lexicon = {
       'form' => 'ra.s.sAf',
       'lines' => [
         ';; raS~Af_1',
-        'rSAf    raS~Af  Nall    typesetter;compositor'
+        'raS~Af  Nall    typesetter;compositor'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22295,7 +22295,7 @@ $Lexicon = {
       'form' => 'mar.suwf',
       'lines' => [
         ';; maroSuwf_1',
-        'mrSwf   maroSuwf        N-ap    paved     [[maroSuwf/ADJ]]'
+        'maroSuwf        N-ap    paved     [[maroSuwf/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22320,8 +22320,8 @@ $Lexicon = {
       'form' => 'ra.hm_an',
       'lines' => [
         ';; raHom`n_1',
-        'rHmn    raHom`n N0      Rahman',
-        'rHmAn   raHomAn N0      Rahman'
+        'raHom`n N0      Rahman',
+        'raHomAn N0      Rahman'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22344,8 +22344,8 @@ $Lexicon = {
       'form' => 'ra.hm_an',
       'lines' => [
         ';; raHom`n_2',
-        'rHmn    raHom`n N       merciful     [[raHom`n/ADJ]]',
-        'rHmAn   raHomAn N       merciful     [[raHomAn/ADJ]]'
+        'raHom`n N       merciful     [[raHom`n/ADJ]]',
+        'raHomAn N       merciful     [[raHomAn/ADJ]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -22370,8 +22370,8 @@ $Lexicon = {
       'form' => 'ra.tan',
       'lines' => [
         ';; raTan-u_1',
-        'rTn     raTan   PV-n    talk gibberish;speak unintelligibly',
-        'rTn     roTun   IV-n    talk gibberish;speak unintelligibly'
+        'raTan   PV-n    talk gibberish;speak unintelligibly',
+        'roTun   IV-n    talk gibberish;speak unintelligibly'
       ],
       'patterns' => {
         'r.tun' => [
@@ -22398,7 +22398,7 @@ $Lexicon = {
       'form' => 'ra.tAnaT',
       'lines' => [
         ';; raTAnap_1',
-        'rTAn    raTAn   Nap     gibberish;jabber'
+        'raTAn   Nap     gibberish;jabber'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22439,13 +22439,13 @@ $Lexicon = {
       'form' => 'ra_tA',
       'lines' => [
         ';; ravA-u_1',
-        'rvA     ravA    PV_0h   lament;mourn',
-        'rvw     ravaw   PV_Atn  lament;mourn',
-        'rv      rav     PV_ttAw lament;mourn',
-        'rvw     rovuw   IV_0hAnn        lament;mourn',
-        'rv      rov     IV_0hwnyn       lament;mourn',
-        'rvY     rovaY   IV_0_Pass_yu    be lamented;be mourned',
-        'rvy     rovay   IV_Ann_Pass_yu  be lamented;be mourned'
+        'ravA    PV_0h   lament;mourn',
+        'ravaw   PV_Atn  lament;mourn',
+        'rav     PV_ttAw lament;mourn',
+        'rovuw   IV_0hAnn        lament;mourn',
+        'rov     IV_0hwnyn       lament;mourn',
+        'rovaY   IV_0_Pass_yu    be lamented;be mourned',
+        'rovay   IV_Ann_Pass_yu  be lamented;be mourned'
       ],
       'patterns' => {
         'ra_taw' => [
@@ -22502,13 +22502,13 @@ $Lexicon = {
       'form' => 'ra_tY',
       'lines' => [
         ';; ravaY-i_1',
-        'rvY     ravaY   PV_0    elegize;mourn',
-        'rvA     ravA    PV_h    elegize;mourn',
-        'rvy     ravay   PV_Atn  elegize;mourn',
-        'rv      rav     PV_ttAw elegize;mourn',
-        'rvy     roviy   IV_0hAnn        elegize;mourn',
-        'rv      rov     IV_0hwnyn       elegize;mourn',
-        'rvY     rovaY   IV_0    elegize;mourn'
+        'ravaY   PV_0    elegize;mourn',
+        'ravA    PV_h    elegize;mourn',
+        'ravay   PV_Atn  elegize;mourn',
+        'rav     PV_ttAw elegize;mourn',
+        'roviy   IV_0hAnn        elegize;mourn',
+        'rov     IV_0hwnyn       elegize;mourn',
+        'rovaY   IV_0    elegize;mourn'
       ],
       'patterns' => {
         'r_tiy' => [
@@ -22544,9 +22544,9 @@ $Lexicon = {
       'form' => 'ri_tA\'',
       'lines' => [
         ';; rivA\'_1',
-        'rvA\'    rivA\'   N0_Nh   mourning;lamentation;elegiac poetry',
-        'rvA&    rivA&   Nh      mourning;lamentation;elegiac poetry',
-        'rvA}    rivA}   Nhy     mourning;lamentation;elegiac poetry'
+        'rivA\'   N0_Nh   mourning;lamentation;elegiac poetry',
+        'rivA&   Nh      mourning;lamentation;elegiac poetry',
+        'rivA}   Nhy     mourning;lamentation;elegiac poetry'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22574,10 +22574,10 @@ $Lexicon = {
       'form' => 'mar_tiyaT',
       'lines' => [
         ';; maroviyap_1',
-        'mrvy    maroviy Napdu   elegy',
-        'mrvA    marovA  Napdu   elegy',
-        'mrAvy   marAviy N0_Nh   funeral orations;elegies',
-        'mrAv    marAv   NK      funeral orations;elegies'
+        'maroviy Napdu   elegy',
+        'marovA  Napdu   elegy',
+        'marAviy N0_Nh   funeral orations;elegies',
+        'marAv   NK      funeral orations;elegies'
       ],
       'patterns' => {
         'mar_tY' => [
@@ -22617,10 +22617,10 @@ $Lexicon = {
       'form' => 'ra_h_h',
       'lines' => [
         ';; rax~-u_1',
-        'rx      rax~    PV_V    dilute',
-        'rxx     raxax   PV_C    dilute',
-        'rx      rux~    IV_V    dilute',
-        'rxx     roxux   IV_C    dilute'
+        'rax~    PV_V    dilute',
+        'raxax   PV_C    dilute',
+        'rux~    IV_V    dilute',
+        'roxux   IV_C    dilute'
       ],
       'patterns' => {
         'r_hu_h' => [
@@ -22652,7 +22652,7 @@ $Lexicon = {
       'form' => 'ra_h_h',
       'lines' => [
         ';; rax~_1',
-        'rx      rax~    N       light shower'
+        'rax~    N       light shower'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22671,7 +22671,7 @@ $Lexicon = {
       'form' => 'ra_h_haT',
       'lines' => [
         ';; rax~ap_1',
-        'rx      rax~    Nap     light shower'
+        'rax~    Nap     light shower'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22690,7 +22690,7 @@ $Lexicon = {
       'form' => 'ru_h_h',
       'lines' => [
         ';; rux~_1',
-        'rx      rux~    N       rukh (legendary bird);griffin'
+        'rux~    N       rukh (legendary bird);griffin'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22717,9 +22717,9 @@ $Lexicon = {
       'form' => 'ru_h_h',
       'lines' => [
         ';; rux~_2',
-        'rx      rux~    Ndu     rook;castle (chess)',
-        'rxAx    rixAx   N       rooks;castles (chess)',
-        'rxx     rixax   Nap     rooks;castles (chess)'
+        'rux~    Ndu     rook;castle (chess)',
+        'rixAx   N       rooks;castles (chess)',
+        'rixax   Nap     rooks;castles (chess)'
       ],
       'patterns' => {
         'ri_hA_h' => [
@@ -22748,7 +22748,7 @@ $Lexicon = {
       'form' => 'ra_hA_h',
       'lines' => [
         ';; raxAx_1',
-        'rxAx    raxAx   N-ap    soft;comfortable     [[raxAx/ADJ]]'
+        'raxAx   N-ap    soft;comfortable     [[raxAx/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22786,8 +22786,8 @@ $Lexicon = {
       'form' => 'tarahban',
       'lines' => [
         ';; tarahoban_1',
-        'trhbn   tarahoban       PV-n_intr       become a monk;enter monastic life',
-        'trhbn   tarahoban       IV-n    become a monk;enter monastic life'
+        'tarahoban       PV-n_intr       become a monk;enter monastic life',
+        'tarahoban       IV-n    become a monk;enter monastic life'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22807,7 +22807,7 @@ $Lexicon = {
       'form' => 'rahbanaT',
       'lines' => [
         ';; rahobanap_1',
-        'rhbn    rahoban Nap     monasticism;monastic order'
+        'rahoban Nap     monasticism;monastic order'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22827,7 +22827,7 @@ $Lexicon = {
       'form' => 'rahbAniyyaT',
       'lines' => [
         ';; rahobAniy~ap_1',
-        'rhbAny  rahobAniy~      Nap     monasticism;monastic order     [[rahobAniy~/NOUN]]'
+        'rahobAniy~      Nap     monasticism;monastic order     [[rahobAniy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22853,8 +22853,8 @@ $Lexicon = {
       'form' => 'raba.s',
       'lines' => [
         ';; rabaS-u_1',
-        'rbS     rabaS   PV      wait;watch',
-        'rbS     robuS   IV      wait;watch'
+        'rabaS   PV      wait;watch',
+        'robuS   IV      wait;watch'
       ],
       'patterns' => {
         'rbu.s' => [
@@ -22881,8 +22881,8 @@ $Lexicon = {
       'form' => 'tarabba.s',
       'lines' => [
         ';; tarab~aS_1',
-        'trbS    tarab~aS        PV      lay an ambush;take up positions',
-        'trbS    tarab~aS        IV      lay an ambush;take up positions'
+        'tarab~aS        PV      lay an ambush;take up positions',
+        'tarab~aS        IV      lay an ambush;take up positions'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22906,7 +22906,7 @@ $Lexicon = {
       'form' => 'tarabbu.s',
       'lines' => [
         ';; tarab~uS_1',
-        'trbS    tarab~uS        NduAt   probationary term;training course'
+        'tarab~uS        NduAt   probationary term;training course'
       ],
       'patterns' => {
         'tarabbu.s' => [
@@ -22930,7 +22930,7 @@ $Lexicon = {
       'form' => 'tarabbu.siyy',
       'lines' => [
         ';; tarab~uSiy~_1',
-        'trbSy   tarab~uSiy~     Nall    continuation training     [[tarab~uSiy~/ADJ]]'
+        'tarab~uSiy~     Nall    continuation training     [[tarab~uSiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22949,7 +22949,7 @@ $Lexicon = {
       'form' => 'mutarabbi.s',
       'lines' => [
         ';; mutarab~iS_1',
-        'mtrbS   mutarab~iS      Nall    candidate;student;apprentice'
+        'mutarab~iS      Nall    candidate;student;apprentice'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22972,7 +22972,7 @@ $Lexicon = {
       'form' => 'ruwsiyA',
       'lines' => [
         ';; ruwsiyA_1',
-        'rwsyA   ruwsiyA N0      Russia'
+        'ruwsiyA N0      Russia'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22993,7 +22993,7 @@ $Lexicon = {
       'form' => 'rayyAn',
       'lines' => [
         ';; ray~An_1',
-        'ryAn    ray~An  Ndip    well irrigated;verdant;plump'
+        'ray~An  Ndip    well irrigated;verdant;plump'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23022,10 +23022,10 @@ $Lexicon = {
       'form' => 'rAn',
       'lines' => [
         ';; rAn-i_1',
-        'rAn     rAn     PV_V    seize;overcome;prevail',
-        'rn      rin     PV_Cn   seize;overcome;prevail',
-        'ryn     riyn    IV_V    seize;overcome;prevail',
-        'rn      rin     IV-n    seize;overcome;prevail'
+        'rAn     PV_V    seize;overcome;prevail',
+        'rin     PV_Cn   seize;overcome;prevail',
+        'riyn    IV_V    seize;overcome;prevail',
+        'rin     IV-n    seize;overcome;prevail'
       ],
       'patterns' => {
         'riyn' => [
@@ -23056,7 +23056,7 @@ $Lexicon = {
       'form' => 'riyAn',
       'lines' => [
         ';; riyAn_1',
-        'ryAn    riyAn   N       Riyan'
+        'riyAn   N       Riyan'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23096,9 +23096,9 @@ $Lexicon = {
       'entry' => 'irtama.d',
       'form' => 'irtama.d',
       'lines' => [
-        ';; {irotamaD_1',
-        '<rtmD   {irotamaD       PV_intr be consumed by sorrow',
-        'rtmD    rotamiD IV_intr be consumed by sorrow'
+        ';; AirotamaD_1',
+        'AirotamaD       PV_intr be consumed by sorrow',
+        'rotamiD IV_intr be consumed by sorrow'
       ],
       'patterns' => {
         'rtami.d' => [
@@ -23121,7 +23121,7 @@ $Lexicon = {
       'form' => 'rama.d',
       'lines' => [
         ';; ramaD_1',
-        'rmD     ramaD   N       parchedness;scorchedness'
+        'ramaD   N       parchedness;scorchedness'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23141,9 +23141,9 @@ $Lexicon = {
       'form' => 'ram.dA\'',
       'lines' => [
         ';; ramoDA\'_1',
-        'rmDA\'   ramoDA\' N0_Nh   sun-baked ground;hot ground',
-        'rmDA&   ramoDA& Nh      sun-baked ground;hot ground',
-        'rmDA}   ramoDA} Nhy     sun-baked ground;hot ground'
+        'ramoDA\' N0_Nh   sun-baked ground;hot ground',
+        'ramoDA& Nh      sun-baked ground;hot ground',
+        'ramoDA} Nhy     sun-baked ground;hot ground'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23163,7 +23163,7 @@ $Lexicon = {
       'form' => 'rama.dAn',
       'lines' => [
         ';; ramaDAn_1',
-        'rmDAn   ramaDAn Ndip    Ramadan'
+        'ramaDAn Ndip    Ramadan'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23182,8 +23182,8 @@ $Lexicon = {
       'form' => 'rama.dAniyy',
       'lines' => [
         ';; ramaDAniy~_1',
-        'rmDAny  ramaDAniy~      Nall    Ramadan-related     [[ramaDAniy~/NOUN]]',
-        'rmDAny  ramaDAniy~      Nall    Ramadan-related     [[ramaDAniy~/ADJ]]'
+        'ramaDAniy~      Nall    Ramadan-related     [[ramaDAniy~/NOUN]]',
+        'ramaDAniy~      Nall    Ramadan-related     [[ramaDAniy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23205,8 +23205,8 @@ $Lexicon = {
       'entry' => 'irtimA.d',
       'form' => 'irtimA.d',
       'lines' => [
-        ';; {irotimAD_1',
-        '<rtmAD  {irotimAD       NduAt   being consumed by sorrow'
+        ';; AirotimAD_1',
+        'AirotimAD       NduAt   being consumed by sorrow'
       ],
       'patterns' => {
         'irtimA.d' => [
@@ -23231,7 +23231,7 @@ $Lexicon = {
       'form' => 'rAbiyn',
       'lines' => [
         ';; rAbiyn_1',
-        'rAbyn   rAbiyn  Nprop   Rabin'
+        'rAbiyn  Nprop   Rabin'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23252,7 +23252,7 @@ $Lexicon = {
       'form' => 'ruwmAnuws',
       'lines' => [
         ';; ruwmAnuws_1',
-        'rwmAnws ruwmAnuws       Nprop   Romanos'
+        'ruwmAnuws       Nprop   Romanos'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23273,7 +23273,7 @@ $Lexicon = {
       'form' => 'ra_ty',
       'lines' => [
         ';; ravoy_1',
-        'rvy     ravoy   N       lamentation;mourning'
+        'ravoy   N       lamentation;mourning'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23297,8 +23297,8 @@ $Lexicon = {
       'form' => 'ra_tyaT',
       'lines' => [
         ';; ravoyap_1',
-        'rvy     ravoy   Napdu   arthritis;gout',
-        'rvy     ravay   NAt     arthritis;gout'
+        'ravoy   Napdu   arthritis;gout',
+        'ravay   NAt     arthritis;gout'
       ],
       'patterns' => {
         'ra_tY' => [
@@ -23345,7 +23345,7 @@ $Lexicon = {
       'form' => 'rAbuwr',
       'lines' => [
         ';; rAbuwr_1',
-        'rAbwr   rAbuwr  N       report'
+        'rAbuwr  N       report'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23366,7 +23366,7 @@ $Lexicon = {
       'form' => 'rAbiyd',
       'lines' => [
         ';; rAbiyd_1',
-        'rAbyd   rAbiyd  Nprop   Rapid'
+        'rAbiyd  Nprop   Rapid'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23391,8 +23391,8 @@ $Lexicon = {
       'form' => 'rakad',
       'lines' => [
         ';; rakad-u_1',
-        'rkd     rakad   PV_intr be motionless;stagnate',
-        'rkd     rokud   IV_intr be motionless;stagnate'
+        'rakad   PV_intr be motionless;stagnate',
+        'rokud   IV_intr be motionless;stagnate'
       ],
       'patterns' => {
         'rkud' => [
@@ -23419,7 +23419,7 @@ $Lexicon = {
       'form' => 'rukuwd',
       'lines' => [
         ';; rukuwd_1',
-        'rkwd    rukuwd  N       stagnation;standstill;suspension'
+        'rukuwd  N       stagnation;standstill;suspension'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23440,7 +23440,7 @@ $Lexicon = {
       'form' => 'rAkid',
       'lines' => [
         ';; rAkid_1',
-        'rAkd    rAkid   Nall    stagnant;sluggish;tranquil     [[rAkid/ADJ]]'
+        'rAkid   Nall    stagnant;sluggish;tranquil     [[rAkid/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23467,8 +23467,8 @@ $Lexicon = {
       'form' => 'raqqa.t',
       'lines' => [
         ';; raq~aT_1',
-        'rqT     raq~aT  PV      speckle;spot',
-        'rqT     raq~iT  IV_yu   speckle;spot'
+        'raq~aT  PV      speckle;spot',
+        'raq~iT  IV_yu   speckle;spot'
       ],
       'patterns' => {
         'raqqi.t' => [
@@ -23492,7 +23492,7 @@ $Lexicon = {
       'form' => '\'arqa.t',
       'lines' => [
         ';; >aroqaT_1',
-        '>rqT    >aroqaT Nel     speckled;spotted;leopard'
+        '>aroqaT Nel     speckled;spotted;leopard'
       ],
       'patterns' => {},
       'index' => '1',
@@ -23531,12 +23531,12 @@ $Lexicon = {
       'form' => 'ra.diy',
       'lines' => [
         ';; raDiy-a_1',
-        'rDy     raDiy   PV_no-w_intr    be pleased;agree;approve',
-        'rD      raD     PV_w_intr       be pleased;agree;approve',
-        'rDY     roDaY   IV_0    be pleased;agree;approve',
-        'rDA     roDA    IV_h    be pleased;agree;approve',
-        'rDy     roDay   IV_Ann  be pleased;agree;approve',
-        'rD      roDa    IV_0hwnyn       be pleased;agree;approve'
+        'raDiy   PV_no-w_intr    be pleased;agree;approve',
+        'raD     PV_w_intr       be pleased;agree;approve',
+        'roDaY   IV_0    be pleased;agree;approve',
+        'roDA    IV_h    be pleased;agree;approve',
+        'roDay   IV_Ann  be pleased;agree;approve',
+        'roDa    IV_0hwnyn       be pleased;agree;approve'
       ],
       'patterns' => {
         'ra.d' => [
@@ -23585,14 +23585,14 @@ $Lexicon = {
       'form' => 'ra.d.dY',
       'lines' => [
         ';; raD~aY_1',
-        'rDY     raD~aY  PV_0    satisfy;compensate',
-        'rDA     raD~A   PV_h    satisfy;compensate',
-        'rDy     raD~ay  PV_Atn  satisfy;compensate',
-        'rD      raD~    PV_ttAw satisfy;compensate',
-        'rDy     raD~iy  IV_0hAnn_yu     satisfy;compensate',
-        'rD      raD~    IV_0hwnyn_yu    satisfy;compensate',
-        'rDY     raD~aY  IV_0_Pass_yu    be satisfied;be compensated',
-        'rDy     raD~ay  IV_Ann_Pass_yu  be satisfied;be compensated'
+        'raD~aY  PV_0    satisfy;compensate',
+        'raD~A   PV_h    satisfy;compensate',
+        'raD~ay  PV_Atn  satisfy;compensate',
+        'raD~    PV_ttAw satisfy;compensate',
+        'raD~iy  IV_0hAnn_yu     satisfy;compensate',
+        'raD~    IV_0hwnyn_yu    satisfy;compensate',
+        'raD~aY  IV_0_Pass_yu    be satisfied;be compensated',
+        'raD~ay  IV_Ann_Pass_yu  be satisfied;be compensated'
       ],
       'patterns' => {
         'ra.d.day' => [
@@ -23636,14 +23636,14 @@ $Lexicon = {
       'form' => 'rA.dY',
       'lines' => [
         ';; rADaY_1',
-        'rADY    rADaY   PV_0    propitiate;conciliate',
-        'rADA    rADA    PV_h    propitiate;conciliate',
-        'rADy    rADay   PV_Atn  propitiate;conciliate',
-        'rAD     rAD     PV_ttAw propitiate;conciliate',
-        'rADy    rADiy   IV_0hAnn_yu     propitiate;conciliate',
-        'rAD     rAD     IV_0hwnyn_yu    propitiate;conciliate',
-        'rADY    rADaY   IV_0_Pass_yu    be propitiated;be conciliated',
-        'rADy    rADay   IV_Ann_Pass_yu  be propitiated;be conciliated'
+        'rADaY   PV_0    propitiate;conciliate',
+        'rADA    PV_h    propitiate;conciliate',
+        'rADay   PV_Atn  propitiate;conciliate',
+        'rAD     PV_ttAw propitiate;conciliate',
+        'rADiy   IV_0hAnn_yu     propitiate;conciliate',
+        'rAD     IV_0hwnyn_yu    propitiate;conciliate',
+        'rADaY   IV_0_Pass_yu    be propitiated;be conciliated',
+        'rADay   IV_Ann_Pass_yu  be propitiated;be conciliated'
       ],
       'patterns' => {
         'rA.diy' => [
@@ -23694,14 +23694,14 @@ $Lexicon = {
       'form' => '\'ar.dY',
       'lines' => [
         ';; >aroDaY_1',
-        '>rDY    >aroDaY PV_0    satisfy;please',
-        '>rDA    >aroDA  PV_h    satisfy;please',
-        '>rDy    >aroDay PV_Atn  satisfy;please',
-        '>rD     >aroD   PV_ttAw satisfy;please',
-        'rDy     roDiy   IV_0hAnn_yu     satisfy;please',
-        'rD      roD     IV_0hwnyn_yu    satisfy;please',
-        'rDY     roDaY   IV_0_Pass_yu    be satisfied;be pleased',
-        'rDy     roDay   IV_Ann_Pass_yu  be satisfied;be pleased'
+        '>aroDaY PV_0    satisfy;please',
+        '>aroDA  PV_h    satisfy;please',
+        '>aroDay PV_Atn  satisfy;please',
+        '>aroD   PV_ttAw satisfy;please',
+        'roDiy   IV_0hAnn_yu     satisfy;please',
+        'roD     IV_0hwnyn_yu    satisfy;please',
+        'roDaY   IV_0_Pass_yu    be satisfied;be pleased',
+        'roDay   IV_Ann_Pass_yu  be satisfied;be pleased'
       ],
       'patterns' => {
         'r.diy' => [
@@ -23749,14 +23749,14 @@ $Lexicon = {
       'form' => 'tara.d.dY',
       'lines' => [
         ';; taraD~aY_1',
-        'trDY    taraD~aY        PV_0    try to please;appease',
-        'trDA    taraD~A PV_h    try to please;appease',
-        'trDy    taraD~ay        PV_Atn  try to please;appease',
-        'trD     taraD~  PV_ttAw try to please;appease',
-        'trDY    taraD~aY        IV_0    try to please;appease',
-        'trDA    taraD~A IV_h    try to please;appease',
-        'trDy    taraD~ay        IV_Ann  try to please;appease',
-        'trD     taraD~  IV_0hwnyn       try to please;appease'
+        'taraD~aY        PV_0    try to please;appease',
+        'taraD~A PV_h    try to please;appease',
+        'taraD~ay        PV_Atn  try to please;appease',
+        'taraD~  PV_ttAw try to please;appease',
+        'taraD~aY        IV_0    try to please;appease',
+        'taraD~A IV_h    try to please;appease',
+        'taraD~ay        IV_Ann  try to please;appease',
+        'taraD~  IV_0hwnyn       try to please;appease'
       ],
       'patterns' => {
         'tara.d.day' => [
@@ -23793,14 +23793,14 @@ $Lexicon = {
       'form' => 'tarA.dY',
       'lines' => [
         ';; tarADaY_1',
-        'trADY   tarADaY PV_0    come to terms',
-        'trADA   tarADA  PV_h    come to terms',
-        'trADy   tarADay PV_Atn  come to terms',
-        'trAD    tarAD   PV_ttAw come to terms',
-        'trADY   tarADaY IV_0    come to terms',
-        'trADA   tarADA  IV_h    come to terms',
-        'trADy   tarADay IV_Ann  come to terms',
-        'trAD    tarAD   IV_0hwnyn       come to terms'
+        'tarADaY PV_0    come to terms',
+        'tarADA  PV_h    come to terms',
+        'tarADay PV_Atn  come to terms',
+        'tarAD   PV_ttAw come to terms',
+        'tarADaY IV_0    come to terms',
+        'tarADA  IV_h    come to terms',
+        'tarADay IV_Ann  come to terms',
+        'tarAD   IV_0hwnyn       come to terms'
       ],
       'patterns' => {
         'tarA.day' => [
@@ -23841,14 +23841,14 @@ $Lexicon = {
       'entry' => 'irta.dY',
       'form' => 'irta.dY',
       'lines' => [
-        ';; {irotaDaY_1',
-        '<rtDY   {irotaDaY       PV_0    be pleased;agree;approve',
-        '<rtDA   {irotaDA        PV_h    be pleased;agree;approve',
-        '<rtDy   {irotaDay       PV_Atn  be pleased;agree;approve',
-        '<rtD    {irotaD PV_ttAw_intr    be pleased;agree;approve',
-        'rtDy    rotaDiy IV_0hAnn        be pleased;agree;approve',
-        'rtD     rotaD   IV_0hwnyn       be pleased;agree;approve',
-        'rtDY    rotaDaY IV_0_Pass_yu    be pleased;agree;approve'
+        ';; AirotaDaY_1',
+        'AirotaDaY       PV_0    be pleased;agree;approve',
+        'AirotaDA        PV_h    be pleased;agree;approve',
+        'AirotaDay       PV_Atn  be pleased;agree;approve',
+        'AirotaD PV_ttAw_intr    be pleased;agree;approve',
+        'rotaDiy IV_0hAnn        be pleased;agree;approve',
+        'rotaD   IV_0hwnyn       be pleased;agree;approve',
+        'rotaDaY IV_0_Pass_yu    be pleased;agree;approve'
       ],
       'patterns' => {
         'irta.day' => [
@@ -23897,14 +23897,14 @@ $Lexicon = {
       'entry' => 'istar.dY',
       'form' => 'istar.dY',
       'lines' => [
-        ';; {isotaroDaY_1',
-        '<strDY  {isotaroDaY     PV_0    try to satisfy;conciliate',
-        '<strDA  {isotaroDA      PV_h    try to satisfy;conciliate',
-        '<strDy  {isotaroDay     PV_Atn  try to satisfy;conciliate',
-        '<strD   {isotaroD       PV_ttAw try to satisfy;conciliate',
-        'strDy   sotaroDiy       IV_0hAnn        try to satisfy;conciliate',
-        'strD    sotaroD IV_0hwnyn       try to satisfy;conciliate',
-        'strDY   sotaroDaY       IV_0    try to satisfy;conciliate'
+        ';; AisotaroDaY_1',
+        'AisotaroDaY     PV_0    try to satisfy;conciliate',
+        'AisotaroDA      PV_h    try to satisfy;conciliate',
+        'AisotaroDay     PV_Atn  try to satisfy;conciliate',
+        'AisotaroD       PV_ttAw try to satisfy;conciliate',
+        'sotaroDiy       IV_0hAnn        try to satisfy;conciliate',
+        'sotaroD IV_0hwnyn       try to satisfy;conciliate',
+        'sotaroDaY       IV_0    try to satisfy;conciliate'
       ],
       'patterns' => {
         'istar.day' => [
@@ -23935,9 +23935,9 @@ $Lexicon = {
       'form' => 'ri.dY',
       'lines' => [
         ';; riDaY_1',
-        'rDY     riDaY   N0      approval;pleasure',
-        'rDA     riDAF   FW-WaBi approval;pleasure     [[riDAF/NOUN]]',
-        'rDA     riDA    N0_Nhy  approval;pleasure'
+        'riDaY   N0      approval;pleasure',
+        'riDAF   FW-WaBi approval;pleasure     [[riDAF/NOUN]]',
+        'riDA    N0_Nhy  approval;pleasure'
       ],
       'patterns' => {
         'ri.dA' => [],
@@ -23966,10 +23966,10 @@ $Lexicon = {
       'form' => 'ra.diyy',
       'lines' => [
         ';; raDiy~_1',
-        'rDy     raDiy~  N/ap    satisfied;content;accepting     [[raDiy~/ADJ]]',
-        '>rDyA\'  >aroDiyA\'       N0_Nh   satisfied;content;accepting',
-        '>rDyA&  >aroDiyA&       Nh      satisfied;content;accepting',
-        '>rDyA}  >aroDiyA}       Nhy     satisfied;content;accepting'
+        'raDiy~  N/ap    satisfied;content;accepting     [[raDiy~/ADJ]]',
+        '>aroDiyA\'       N0_Nh   satisfied;content;accepting',
+        '>aroDiyA&       Nh      satisfied;content;accepting',
+        '>aroDiyA}       Nhy     satisfied;content;accepting'
       ],
       'patterns' => {
         '\'ar.diyA\'' => [
@@ -23994,7 +23994,7 @@ $Lexicon = {
       'form' => 'mar.dAT',
       'lines' => [
         ';; maroDAp_1',
-        'mrDA    maroDA  Nap     satisfaction;gratification'
+        'maroDA  Nap     satisfaction;gratification'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24014,7 +24014,7 @@ $Lexicon = {
       'form' => 'tar.diyaT',
       'lines' => [
         ';; taroDiyap_1',
-        'trDy    taroDiy Nap     satisfaction;gratification;compensation'
+        'taroDiy Nap     satisfaction;gratification;compensation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24053,8 +24053,8 @@ $Lexicon = {
       'form' => 'murA.dAT',
       'lines' => [
         ';; murADAp_1',
-        'mrADA   murADA  Napdu   fair means;amicable manner',
-        'mrADy   murADay NAt     fair means;amicable manner'
+        'murADA  Napdu   fair means;amicable manner',
+        'murADay NAt     fair means;amicable manner'
       ],
       'patterns' => {
         'murA.dY' => [
@@ -24100,10 +24100,10 @@ $Lexicon = {
       'form' => 'tarA.diy',
       'lines' => [
         ';; tarADiy_1',
-        'trADy   tarADiy N0_Nh   mutual consent;compromise',
-        'trAD    tarAD   NK      mutual consent;compromise',
-        'trADy   tarADiy NAn_Nayn        mutual consent;compromise',
-        'trADy   tarADiy NAt     mutual consent;compromise'
+        'tarADiy N0_Nh   mutual consent;compromise',
+        'tarAD   NK      mutual consent;compromise',
+        'tarADiy NAn_Nayn        mutual consent;compromise',
+        'tarADiy NAt     mutual consent;compromise'
       ],
       'patterns' => {
         'tarA.diy' => [
@@ -24169,12 +24169,12 @@ $Lexicon = {
       'form' => 'rA.diy',
       'lines' => [
         ';; rADiy_1',
-        'rADy    rADiy   N0F     pleased;accepting;consenting     [[rADiy/ADJ]]',
-        'rAD     rAD     NK      pleased;accepting;consenting',
-        'rADy    rADiy   NAn_Nayn        pleased;accepting;consenting',
-        'rAD     rAD     Nuwn_Niyn       pleased;accepting;consenting',
-        'rADy    rADiy   NapAt   pleased;accepting;consenting',
-        'rDA     ruDA    Nap     pleased;accepting;consenting'
+        'rADiy   N0F     pleased;accepting;consenting     [[rADiy/ADJ]]',
+        'rAD     NK      pleased;accepting;consenting',
+        'rADiy   NAn_Nayn        pleased;accepting;consenting',
+        'rAD     Nuwn_Niyn       pleased;accepting;consenting',
+        'rADiy   NapAt   pleased;accepting;consenting',
+        'ruDA    Nap     pleased;accepting;consenting'
       ],
       'patterns' => {
         'rA.diy' => [
@@ -24210,11 +24210,11 @@ $Lexicon = {
       'form' => 'mur.diy',
       'lines' => [
         ';; muroDiy_1',
-        'mrDy    muroDiy N0F_Nh  satisfactory;pleasing;sufficient     [[muroDiy/ADJ]]',
-        'mrD     muroD   NK      satisfactory;pleasing;sufficient',
-        'mrDy    muroDiy NAn_Nayn        satisfactory;pleasing;sufficient',
-        'mrD     muroD   Nuwn_Niyn       satisfactory;pleasing;sufficient',
-        'mrDy    muroDiy NapAt   satisfactory;pleasing;sufficient'
+        'muroDiy N0F_Nh  satisfactory;pleasing;sufficient     [[muroDiy/ADJ]]',
+        'muroD   NK      satisfactory;pleasing;sufficient',
+        'muroDiy NAn_Nayn        satisfactory;pleasing;sufficient',
+        'muroD   Nuwn_Niyn       satisfactory;pleasing;sufficient',
+        'muroDiy NapAt   satisfactory;pleasing;sufficient'
       ],
       'patterns' => {
         'mur.d' => [],
@@ -24240,7 +24240,7 @@ $Lexicon = {
       'form' => 'murta.dY',
       'lines' => [
         ';; murotaDaY_1',
-        'mrtDY   murotaDaY       Nprop   Murtada'
+        'murotaDaY       Nprop   Murtada'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24265,8 +24265,8 @@ $Lexicon = {
       'form' => 'radhaT',
       'lines' => [
         ';; radohap_1',
-        'rdh     radoh   Napdu   hall;large room',
-        'rdh     radah   NAt     halls;large rooms'
+        'radoh   Napdu   hall;large room',
+        'radah   NAt     halls;large rooms'
       ],
       'patterns' => {
         'radah' => [
@@ -24301,9 +24301,9 @@ $Lexicon = {
       'form' => 'radam',
       'lines' => [
         ';; radam-ui_1',
-        'rdm     radam   PV      fill with earth/gravel',
-        'rdm     rodum   IV      fill with earth/gravel',
-        'rdm     rodim   IV      fill with earth/gravel'
+        'radam   PV      fill with earth/gravel',
+        'rodum   IV      fill with earth/gravel',
+        'rodim   IV      fill with earth/gravel'
       ],
       'patterns' => {
         'rdim' => [
@@ -24337,8 +24337,8 @@ $Lexicon = {
       'form' => 'raddam',
       'lines' => [
         ';; rad~am_1',
-        'rdm     rad~am  PV      repair;mend',
-        'rdm     rad~im  IV_yu   repair;mend'
+        'rad~am  PV      repair;mend',
+        'rad~im  IV_yu   repair;mend'
       ],
       'patterns' => {
         'raddim' => [
@@ -24366,8 +24366,8 @@ $Lexicon = {
       'form' => '\'ardam',
       'lines' => [
         ';; >arodam_1',
-        '>rdm    >arodam PV      cling;be chronic',
-        'rdm     rodim   IV_yu   cling;be chronic'
+        '>arodam PV      cling;be chronic',
+        'rodim   IV_yu   cling;be chronic'
       ],
       'patterns' => {
         'rdim' => [
@@ -24391,8 +24391,8 @@ $Lexicon = {
       'form' => 'taraddam',
       'lines' => [
         ';; tarad~am_1',
-        'trdm    tarad~am        PV_intr be repaired;be worn out',
-        'trdm    tarad~am        IV_intr be repaired;be worn out'
+        'tarad~am        PV_intr be repaired;be worn out',
+        'tarad~am        IV_intr be repaired;be worn out'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24412,7 +24412,7 @@ $Lexicon = {
       'form' => 'radm',
       'lines' => [
         ';; radom_1',
-        'rdm     radom   N       filling up'
+        'radom   N       filling up'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24431,7 +24431,7 @@ $Lexicon = {
       'form' => 'radiym',
       'lines' => [
         ';; radiym_1',
-        'rdym    radiym  N/ap    shabby;threadbare     [[radiym/ADJ]]'
+        'radiym  N/ap    shabby;threadbare     [[radiym/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24457,8 +24457,8 @@ $Lexicon = {
       'form' => 'raw^san',
       'lines' => [
         ';; rawo$an_1',
-        'rw$n    rawo$an Ndu     skylight;peep-hole',
-        'rwA$n   rawA$in Ndip    skylights;peep-holes'
+        'rawo$an Ndu     skylight;peep-hole',
+        'rawA$in Ndip    skylights;peep-holes'
       ],
       'patterns' => {
         'rawA^sin' => [
@@ -24494,10 +24494,10 @@ $Lexicon = {
       'form' => 'rA^s',
       'lines' => [
         ';; rA$-i_1',
-        'rA$     rA$     PV_V    provide with feathers;become wealthy',
-        'r$      ri$     PV_C    provide with feathers;become wealthy',
-        'ry$     riy$    IV_V    provide with feathers;become wealthy',
-        'r$      ri$     IV_C    provide with feathers;become wealthy'
+        'rA$     PV_V    provide with feathers;become wealthy',
+        'ri$     PV_C    provide with feathers;become wealthy',
+        'riy$    IV_V    provide with feathers;become wealthy',
+        'ri$     IV_C    provide with feathers;become wealthy'
       ],
       'patterns' => {
         'riy^s' => [
@@ -24531,8 +24531,8 @@ $Lexicon = {
       'form' => 'rayya^s',
       'lines' => [
         ';; ray~a$_1',
-        'ry$     ray~a$  PV      provide with feathers',
-        'ry$     ray~i$  IV_yu   provide with feathers'
+        'ray~a$  PV      provide with feathers',
+        'ray~i$  IV_yu   provide with feathers'
       ],
       'patterns' => {
         'rayyi^s' => [
@@ -24555,8 +24555,8 @@ $Lexicon = {
       'form' => 'tarayya^s',
       'lines' => [
         ';; taray~a$_1',
-        'try$    taray~a$        PV_intr become wealthy',
-        'try$    taray~a$        IV_intr become wealthy'
+        'taray~a$        PV_intr become wealthy',
+        'taray~a$        IV_intr become wealthy'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24582,10 +24582,10 @@ $Lexicon = {
       'form' => 'riy^s',
       'lines' => [
         ';; riy$_1',
-        'ry$     riy$    N       feathers',
-        'ry$     riy$    Napdu   feather;quill;pen',
-        'ryA$    riyA$   N       feathers;furniture',
-        '>ryA$   >aroyA$ N       feathers'
+        'riy$    N       feathers',
+        'riy$    Napdu   feather;quill;pen',
+        'riyA$   N       feathers;furniture',
+        '>aroyA$ N       feathers'
       ],
       'patterns' => {
         '\'aryA^s' => [
@@ -24615,7 +24615,7 @@ $Lexicon = {
       'form' => 'riy^siyy',
       'lines' => [
         ';; riy$iy~_1',
-        'ry$y    riy$iy~ Nall    feathery;feather     [[riy$iy~/ADJ]]'
+        'riy$iy~ Nall    feathery;feather     [[riy$iy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24635,7 +24635,7 @@ $Lexicon = {
       'form' => 'murayya^s',
       'lines' => [
         ';; muray~a$_1',
-        'mry$    muray~a$        Nall    feathered     [[muray~a$/ADJ]]'
+        'muray~a$        Nall    feathered     [[muray~a$/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24660,9 +24660,9 @@ $Lexicon = {
       'form' => 'ra.tl',
       'lines' => [
         ';; raTol_1',
-        'rTl     raTol   Ndu     ratl',
-        '>rTAl   >aroTAl N       ratls',
-        'ArTAl   >aroTAl N       ratls'
+        'raTol   Ndu     ratl',
+        '>aroTAl N       ratls',
+        '>aroTAl N       ratls'
       ],
       'patterns' => {
         '\'ar.tAl' => [
@@ -24692,8 +24692,8 @@ $Lexicon = {
       'form' => 'riyf',
       'lines' => [
         ';; riyf_1',
-        'ryf     riyf    N       country;rural area;countryside',
-        '>ryAf   >aroyAf N       country;rural areas;countryside'
+        'riyf    N       country;rural area;countryside',
+        '>aroyAf N       country;rural areas;countryside'
       ],
       'patterns' => {
         '\'aryAf' => [
@@ -24719,7 +24719,7 @@ $Lexicon = {
       'form' => 'riyfiyy',
       'lines' => [
         ';; riyfiy~_1',
-        'ryfy    riyfiy~ Nall    country;rural;rustic     [[riyfiy~/ADJ]]'
+        'riyfiy~ Nall    country;rural;rustic     [[riyfiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24746,8 +24746,8 @@ $Lexicon = {
       'form' => 'rahil',
       'lines' => [
         ';; rahil-a_1',
-        'rhl     rahil   PV_intr be flabby;be bloated',
-        'rhl     rohal   IV_intr be flabby;be bloated'
+        'rahil   PV_intr be flabby;be bloated',
+        'rohal   IV_intr be flabby;be bloated'
       ],
       'patterns' => {
         'rhal' => [
@@ -24774,8 +24774,8 @@ $Lexicon = {
       'form' => 'tarahhal',
       'lines' => [
         ';; tarah~al_1',
-        'trhl    tarah~al        PV_intr be flabby;be bloated',
-        'trhl    tarah~al        IV_intr be flabby;be bloated'
+        'tarah~al        PV_intr be flabby;be bloated',
+        'tarah~al        IV_intr be flabby;be bloated'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24795,7 +24795,7 @@ $Lexicon = {
       'form' => 'rahil',
       'lines' => [
         ';; rahil_1',
-        'rhl     rahil   Nall    flaccid;flabby     [[rahil/ADJ]]'
+        'rahil   Nall    flaccid;flabby     [[rahil/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24819,7 +24819,7 @@ $Lexicon = {
       'form' => 'tarahhul',
       'lines' => [
         ';; tarah~ul_1',
-        'trhl    tarah~ul        NduAt   flabbiness;fatness'
+        'tarah~ul        NduAt   flabbiness;fatness'
       ],
       'patterns' => {
         'tarahhul' => [
@@ -24843,7 +24843,7 @@ $Lexicon = {
       'form' => 'mutarahhil',
       'lines' => [
         ';; mutarah~il_1',
-        'mtrhl   mutarah~il      Nall    flaccid;fat     [[mutarah~il/ADJ]]'
+        'mutarah~il      Nall    flaccid;fat     [[mutarah~il/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24880,14 +24880,14 @@ $Lexicon = {
       'form' => 'rannY',
       'lines' => [
         ';; ran~aY_1',
-        'rnY     ran~aY  PV_0    attract;please;delight',
-        'rnA     ran~A   PV_h    attract;please;delight',
-        'rny     ran~ay  PV_Atn  attract;please;delight',
-        'rn      ran~    PV_ttAw attract;please;delight',
-        'rny     ran~iy  IV_0hAnn_yu     attract;please;delight',
-        'rn      ran~    IV_0hwnyn_yu    attract;please;delight',
-        'rnY     ran~aY  IV_0_Pass_yu    be attracted;be pleased;be delighted',
-        'rny     ran~ay  IV_Ann_Pass_yu  be attracted;be pleased;be delighted'
+        'ran~aY  PV_0    attract;please;delight',
+        'ran~A   PV_h    attract;please;delight',
+        'ran~ay  PV_Atn  attract;please;delight',
+        'ran~    PV_ttAw attract;please;delight',
+        'ran~iy  IV_0hAnn_yu     attract;please;delight',
+        'ran~    IV_0hwnyn_yu    attract;please;delight',
+        'ran~aY  IV_0_Pass_yu    be attracted;be pleased;be delighted',
+        'ran~ay  IV_Ann_Pass_yu  be attracted;be pleased;be delighted'
       ],
       'patterns' => {
         'ranniy' => [
@@ -24940,14 +24940,14 @@ $Lexicon = {
       'form' => '\'arnY',
       'lines' => [
         ';; >aronaY_1',
-        '>rnY    >aronaY PV_0    attract;please;delight',
-        '>rnA    >aronA  PV_h    attract;please;delight',
-        '>rny    >aronay PV_Atn  attract;please;delight',
-        '>rn     >aron   PV_ttAw attract;please;delight',
-        'rny     roniy   IV_0hAnn_yu     attract;please;delight',
-        'rn      ron     IV_0hwnyn_yu    attract;please;delight',
-        'rnY     ronaY   IV_0_Pass_yu    be attracted;be pleased;be delighted',
-        'rny     ronay   IV_Ann_Pass_yu  be attracted;be pleased;be delighted'
+        '>aronaY PV_0    attract;please;delight',
+        '>aronA  PV_h    attract;please;delight',
+        '>aronay PV_Atn  attract;please;delight',
+        '>aron   PV_ttAw attract;please;delight',
+        'roniy   IV_0hAnn_yu     attract;please;delight',
+        'ron     IV_0hwnyn_yu    attract;please;delight',
+        'ronaY   IV_0_Pass_yu    be attracted;be pleased;be delighted',
+        'ronay   IV_Ann_Pass_yu  be attracted;be pleased;be delighted'
       ],
       'patterns' => {
         'rniy' => [
@@ -25000,7 +25000,7 @@ $Lexicon = {
       'form' => 'ruwAn',
       'lines' => [
         ';; ruwAn_1',
-        'rwAn    ruwAn   Nprop   Rowan'
+        'ruwAn   Nprop   Rowan'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25025,7 +25025,7 @@ $Lexicon = {
       'form' => 'ribuwrtA^g',
       'lines' => [
         ';; ribuwrotAj_1',
-        'rbwrtAj ribuwrotAj      N/At    report;news reporting'
+        'ribuwrotAj      N/At    report;news reporting'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25051,8 +25051,8 @@ $Lexicon = {
       'form' => '\'ar`a.s',
       'lines' => [
         ';; >aroEaS_1',
-        '>rES    >aroEaS PV      shake',
-        'rES     roEiS   IV      shake'
+        '>aroEaS PV      shake',
+        'roEiS   IV      shake'
       ],
       'patterns' => {
         'r`i.s' => [
@@ -25075,8 +25075,8 @@ $Lexicon = {
       'form' => 'tara``a.s',
       'lines' => [
         ';; taraE~aS_1',
-        'trES    taraE~aS        PV      coil;wind;writhe',
-        'trES    taraE~aS        IV      coil;wind;writhe'
+        'taraE~aS        PV      coil;wind;writhe',
+        'taraE~aS        IV      coil;wind;writhe'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25100,9 +25100,9 @@ $Lexicon = {
       'entry' => 'irta`a.s',
       'form' => 'irta`a.s',
       'lines' => [
-        ';; {irotaEaS_1',
-        '<rtES   {irotaEaS       PV      coil;wind;writhe',
-        'rtES    rotaEiS IV      coil;wind;writhe'
+        ';; AirotaEaS_1',
+        'AirotaEaS       PV      coil;wind;writhe',
+        'rotaEiS IV      coil;wind;writhe'
       ],
       'patterns' => {
         'rta`i.s' => [
@@ -25133,8 +25133,8 @@ $Lexicon = {
       'form' => 'ra`ab',
       'lines' => [
         ';; raEab-a_1',
-        'rEb     raEab   PV_intr be alarmed;be terrified',
-        'rEb     roEab   IV_intr be alarmed;be terrified'
+        'raEab   PV_intr be alarmed;be terrified',
+        'roEab   IV_intr be alarmed;be terrified'
       ],
       'patterns' => {
         'r`ab' => [
@@ -25165,8 +25165,8 @@ $Lexicon = {
       'form' => 'ra``ab',
       'lines' => [
         ';; raE~ab_1',
-        'rEb     raE~ab  PV      frighten;terrify',
-        'rEb     raE~ib  IV_yu   frighten;terrify'
+        'raE~ab  PV      frighten;terrify',
+        'raE~ib  IV_yu   frighten;terrify'
       ],
       'patterns' => {
         'ra``ib' => [
@@ -25197,9 +25197,9 @@ $Lexicon = {
       'form' => '\'ar`ab',
       'lines' => [
         ';; >aroEab_1',
-        '>rEb    >aroEab PV      frighten;terrify',
-        'rEb     roEib   IV_yu   frighten;terrify',
-        'rEb     roEab   IV_Pass_yu      be frighten;be terrified'
+        '>aroEab PV      frighten;terrify',
+        'roEib   IV_yu   frighten;terrify',
+        'roEab   IV_Pass_yu      be frighten;be terrified'
       ],
       'patterns' => {
         'r`ab' => [
@@ -25231,9 +25231,9 @@ $Lexicon = {
       'entry' => 'irta`ab',
       'form' => 'irta`ab',
       'lines' => [
-        ';; {irotaEab_1',
-        '<rtEb   {irotaEab       PV_intr be frightened;be alarmed',
-        'rtEb    rotaEib IV_intr be frightened;be alarmed'
+        ';; AirotaEab_1',
+        'AirotaEab       PV_intr be frightened;be alarmed',
+        'rotaEib IV_intr be frightened;be alarmed'
       ],
       'patterns' => {
         'rta`ib' => [
@@ -25257,7 +25257,7 @@ $Lexicon = {
       'form' => 'ru`b',
       'lines' => [
         ';; ruEob_1',
-        'rEb     ruEob   N       fright;terror'
+        'ruEob   N       fright;terror'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25281,7 +25281,7 @@ $Lexicon = {
       'form' => '\'ir`Ab',
       'lines' => [
         ';; <iroEAb_1',
-        '<rEAb   <iroEAb NduAt   intimidation;frightening'
+        '<iroEAb NduAt   intimidation;frightening'
       ],
       'patterns' => {
         '\'ir`Ab' => [
@@ -25305,7 +25305,7 @@ $Lexicon = {
       'form' => 'rA`ib',
       'lines' => [
         ';; rAEib_1',
-        'rAEb    rAEib   Nall    frightening;terrible     [[rAEib/ADJ]]'
+        'rAEib   Nall    frightening;terrible     [[rAEib/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25325,7 +25325,7 @@ $Lexicon = {
       'form' => 'mar`uwb',
       'lines' => [
         ';; maroEuwb_1',
-        'mrEwb   maroEuwb        Nall    frightened;terrified     [[maroEuwb/ADJ]]'
+        'maroEuwb        Nall    frightened;terrified     [[maroEuwb/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25345,7 +25345,7 @@ $Lexicon = {
       'form' => 'mur`ib',
       'lines' => [
         ';; muroEib_1',
-        'mrEb    muroEib Nall    frightening;terrifying     [[muroEib/ADJ]]'
+        'muroEib Nall    frightening;terrifying     [[muroEib/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25371,8 +25371,8 @@ $Lexicon = {
       'form' => 'ramsfild',
       'lines' => [
         ';; ramsofild_1',
-        'rmsfld  ramsofild       N0      Rumsfeld',
-        'rmsfyld ramsofiyld      N0      Rumsfeld'
+        'ramsofild       N0      Rumsfeld',
+        'ramsofiyld      N0      Rumsfeld'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25393,7 +25393,7 @@ $Lexicon = {
       'form' => 'riyfyiyrA',
       'lines' => [
         ';; riyfoyiyrA_1',
-        'ryfyyrA riyfoyiyrA      N0      riviera'
+        'riyfoyiyrA      N0      riviera'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25412,7 +25412,7 @@ $Lexicon = {
       'form' => 'riyfyiyrA',
       'lines' => [
         ';; riyfoyiyrA_2',
-        'ryfyyrA riyfoyiyrA      N0      Riviera'
+        'riyfoyiyrA      N0      Riviera'
       ],
       'patterns' => {},
       'index' => '2',
@@ -25441,10 +25441,10 @@ $Lexicon = {
       'form' => 'rAb',
       'lines' => [
         ';; rAb-u_1',
-        'rAb     rAb     PV_V    curdle',
-        'rb      rub     PV_C    curdle',
-        'rwb     ruwb    IV_V    curdle',
-        'rb      rub     IV_C    curdle'
+        'rAb     PV_V    curdle',
+        'rub     PV_C    curdle',
+        'ruwb    IV_V    curdle',
+        'rub     IV_C    curdle'
       ],
       'patterns' => {
         'rub' => [
@@ -25477,8 +25477,8 @@ $Lexicon = {
       'form' => 'rawwab',
       'lines' => [
         ';; raw~ab_1',
-        'rwb     raw~ab  PV      make curdle',
-        'rwb     raw~ib  IV_yu   make curdle'
+        'raw~ab  PV      make curdle',
+        'raw~ib  IV_yu   make curdle'
       ],
       'patterns' => {
         'rawwib' => [
@@ -25517,12 +25517,12 @@ $Lexicon = {
       'form' => '\'arAb',
       'lines' => [
         ';; >arAb_1',
-        '>rAb    >arAb   PV_V    make curdle',
-        '>rb     >arab   PV_C    make curdle',
-        'ryb     riyb    IV_V_yu make curdle',
-        'rb      rib     IV_C_yu make curdle',
-        'rAb     rAb     IV_V_Pass_yu    be curdled',
-        'rb      rab     IV_C_Pass_yu    be curdled'
+        '>arAb   PV_V    make curdle',
+        '>arab   PV_C    make curdle',
+        'riyb    IV_V_yu make curdle',
+        'rib     IV_C_yu make curdle',
+        'rAb     IV_V_Pass_yu    be curdled',
+        'rab     IV_C_Pass_yu    be curdled'
       ],
       'patterns' => {
         'riyb' => [
@@ -25558,7 +25558,7 @@ $Lexicon = {
       'form' => 'rawb',
       'lines' => [
         ';; rawob_1',
-        'rwb     rawob   N       curds;curdled milk;coagulation'
+        'rawob   N       curds;curdled milk;coagulation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25583,7 +25583,7 @@ $Lexicon = {
       'form' => 'tarwiyb',
       'lines' => [
         ';; tarowiyb_1',
-        'trwyb   tarowiyb        NduAt   coagulation'
+        'tarowiyb        NduAt   coagulation'
       ],
       'patterns' => {
         'tarwiyb' => [
@@ -25606,7 +25606,7 @@ $Lexicon = {
       'form' => 'rA\'ib',
       'lines' => [
         ';; rA}ib_1',
-        'rA}b    rA}ib   N-ap    curdled;coagulated     [[rA}ib/ADJ]]'
+        'rA}ib   N-ap    curdled;coagulated     [[rA}ib/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25630,8 +25630,8 @@ $Lexicon = {
       'form' => 'ruwb',
       'lines' => [
         ';; ruwb_1',
-        'rwb     ruwb    N       robe;dressing gown',
-        '>rwAb   >arowAb N       robes;dressing gowns'
+        'ruwb    N       robe;dressing gown',
+        '>arowAb N       robes;dressing gowns'
       ],
       'patterns' => {
         '\'arwAb' => [
@@ -25657,7 +25657,7 @@ $Lexicon = {
       'form' => 'ruwbiyyaT',
       'lines' => [
         ';; ruwbiy~ap_1',
-        'rwby    ruwbiy~ NapAt   rupee     [[ruwbiy~/NOUN]]'
+        'ruwbiy~ NapAt   rupee     [[ruwbiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25678,7 +25678,7 @@ $Lexicon = {
       'form' => 'ra.sda_hAnaT',
       'lines' => [
         ';; raSodaxAnap_1',
-        'rSdxAn  raSodaxAn       NapAt   observatory'
+        'raSodaxAn       NapAt   observatory'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25703,8 +25703,8 @@ $Lexicon = {
       'form' => 'rama^g',
       'lines' => [
         ';; ramaj-u_1',
-        'rmj     ramaj   PV      exempt (from military service)',
-        'rmj     romuj   IV      exempt (from military service)'
+        'ramaj   PV      exempt (from military service)',
+        'romuj   IV      exempt (from military service)'
       ],
       'patterns' => {
         'rmu^g' => [
@@ -25730,7 +25730,7 @@ $Lexicon = {
       'form' => 'ram^g',
       'lines' => [
         ';; ramoj_1',
-        'rmj     ramoj   N       exempting;exemption (from military service)'
+        'ramoj   N       exempting;exemption (from military service)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25756,8 +25756,8 @@ $Lexicon = {
       'form' => 'ra.gra.g',
       'lines' => [
         ';; ragorag_1',
-        'rgrg    ragorag PV      gargle',
-        'rgrg    ragorig IV_yu   gargle'
+        'ragorag PV      gargle',
+        'ragorig IV_yu   gargle'
       ],
       'patterns' => {
         'ra.gri.g' => [
@@ -25792,10 +25792,10 @@ $Lexicon = {
       'form' => 'razaq',
       'lines' => [
         ';; razaq-u_1',
-        'rzq     razaq   PV      bestow;endow',
-        'rzq     rozuq   IV      bestow;endow',
-        'rzq     ruziq   PV_Pass be bestown;be blessed',
-        'rzq     rozaq   IV_Pass_yu      be bestown;be blessed'
+        'razaq   PV      bestow;endow',
+        'rozuq   IV      bestow;endow',
+        'ruziq   PV_Pass be bestown;be blessed',
+        'rozaq   IV_Pass_yu      be bestown;be blessed'
       ],
       'patterns' => {
         'rzaq' => [
@@ -25833,9 +25833,9 @@ $Lexicon = {
       'entry' => 'irtazaq',
       'form' => 'irtazaq',
       'lines' => [
-        ';; {irotazaq_1',
-        '<rtzq   {irotazaq       PV      make a living;gain a livelihood',
-        'rtzq    rotaziq IV      make a living;gain a livelihood'
+        ';; Airotazaq_1',
+        'Airotazaq       PV      make a living;gain a livelihood',
+        'rotaziq IV      make a living;gain a livelihood'
       ],
       'patterns' => {
         'rtaziq' => [
@@ -25862,9 +25862,9 @@ $Lexicon = {
       'entry' => 'istarzaq',
       'form' => 'istarzaq',
       'lines' => [
-        ';; {isotarozaq_1',
-        '<strzq  {isotarozaq     PV      seek to make a living;seek to gain a livelihood',
-        'strzq   sotaroziq       IV      seek to make a living;seek to gain a livelihood'
+        ';; Aisotarozaq_1',
+        'Aisotarozaq     PV      seek to make a living;seek to gain a livelihood',
+        'sotaroziq       IV      seek to make a living;seek to gain a livelihood'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25888,9 +25888,9 @@ $Lexicon = {
       'form' => 'rizq',
       'lines' => [
         ';; rizoq_1',
-        'rzq     rizoq   N       livelihood;sustenance',
-        '>rzAq   >arozAq N       livelihood;sustenance',
-        '>rzAq   >arozAq N       rations'
+        'rizoq   N       livelihood;sustenance',
+        '>arozAq N       livelihood;sustenance',
+        '>arozAq N       rations'
       ],
       'patterns' => {
         '\'arzAq' => [
@@ -25915,7 +25915,7 @@ $Lexicon = {
       'form' => 'rizq',
       'lines' => [
         ';; rizoq_2',
-        'rzq     rizoq   Nprop   Rizq'
+        'rizoq   Nprop   Rizq'
       ],
       'patterns' => {},
       'index' => '2',
@@ -25934,7 +25934,7 @@ $Lexicon = {
       'form' => 'razzAq',
       'lines' => [
         ';; raz~Aq_1',
-        'rzAq    raz~Aq  N0      Razzaq'
+        'raz~Aq  N0      Razzaq'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25953,7 +25953,7 @@ $Lexicon = {
       'form' => 'razzAq',
       'lines' => [
         ';; raz~Aq_2',
-        'rzAq    raz~Aq  N       maintainer'
+        'raz~Aq  N       maintainer'
       ],
       'patterns' => {},
       'index' => '2',
@@ -25975,8 +25975,8 @@ $Lexicon = {
       'entry' => 'istirzAq',
       'form' => 'istirzAq',
       'lines' => [
-        ';; {isotirozAq_1',
-        '<strzAq {isotirozAq     N/At    self-support'
+        ';; AisotirozAq_1',
+        'AisotirozAq     N/At    self-support'
       ],
       'patterns' => {
         'istirzAq' => [
@@ -25999,7 +25999,7 @@ $Lexicon = {
       'form' => 'rAziq',
       'lines' => [
         ';; rAziq_1',
-        'rAzq    rAziq   N0      Raziq'
+        'rAziq   N0      Raziq'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26018,7 +26018,7 @@ $Lexicon = {
       'form' => 'marzuwq',
       'lines' => [
         ';; marozuwq_1',
-        'mrzwq   marozuwq        N0      Marzouq;Marzouk'
+        'marozuwq        N0      Marzouq;Marzouk'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26038,7 +26038,7 @@ $Lexicon = {
       'form' => 'marzuwq',
       'lines' => [
         ';; marozuwq_2',
-        'mrzwq   marozuwq        Nall    blessed;successful'
+        'marozuwq        Nall    blessed;successful'
       ],
       'patterns' => {},
       'index' => '2',
@@ -26058,7 +26058,7 @@ $Lexicon = {
       'form' => 'marzuwqiyy',
       'lines' => [
         ';; marozuwqiy~_1',
-        'mrzwqy  marozuwqiy~     N0      Marzouqi;Marzouki'
+        'marozuwqiy~     N0      Marzouqi;Marzouki'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26078,7 +26078,7 @@ $Lexicon = {
       'form' => 'murtaziq',
       'lines' => [
         ';; murotaziq_1',
-        'mrtzq   murotaziq       Nall    mercenary'
+        'murotaziq       Nall    mercenary'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26097,7 +26097,7 @@ $Lexicon = {
       'form' => 'murtazaq',
       'lines' => [
         ';; murotazaq_1',
-        'mrtzq   murotazaq       N       means of subsistence;livelihood'
+        'murotazaq       N       means of subsistence;livelihood'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26123,8 +26123,8 @@ $Lexicon = {
       'form' => 'rubbamA',
       'lines' => [
         ';; rub~amA_1',
-        'rbmA    rub~amA FW-Wa   perhaps;maybe     [[rub~amA/ADV]]',
-        'lrbmA   larub~amA       FW-Wa   perhaps;maybe     [[la/EMPHATIC_PARTICLE+rub~amA/ADV]]'
+        'rub~amA FW-Wa   perhaps;maybe     [[rub~amA/ADV]]',
+        'larub~amA       FW-Wa   perhaps;maybe     [[la/EMPHATIC_PARTICLE+rub~amA/ADV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26150,8 +26150,8 @@ $Lexicon = {
       'form' => 'raka`',
       'lines' => [
         ';; rakaE-a_1',
-        'rkE     rakaE   PV      kneel;bow',
-        'rkE     rokaE   IV      kneel;bow'
+        'rakaE   PV      kneel;bow',
+        'rokaE   IV      kneel;bow'
       ],
       'patterns' => {
         'rka`' => [
@@ -26182,8 +26182,8 @@ $Lexicon = {
       'form' => 'rakka`',
       'lines' => [
         ';; rak~aE_1',
-        'rkE     rak~aE  PV      make kneel down;make subservient',
-        'rkE     rak~iE  IV_yu   make kneel down;make subservient'
+        'rak~aE  PV      make kneel down;make subservient',
+        'rak~iE  IV_yu   make kneel down;make subservient'
       ],
       'patterns' => {
         'rakki`' => [
@@ -26214,9 +26214,9 @@ $Lexicon = {
       'form' => '\'arka`',
       'lines' => [
         ';; >arokaE_1',
-        '>rkE    >arokaE PV      make kneel down;make subservient',
-        'rkE     rokiE   IV_yu   make kneel down;make subservient',
-        'rkE     rokaE   IV_Pass_yu      be forced to kneel;be made subservient'
+        '>arokaE PV      make kneel down;make subservient',
+        'rokiE   IV_yu   make kneel down;make subservient',
+        'rokaE   IV_Pass_yu      be forced to kneel;be made subservient'
       ],
       'patterns' => {
         'rka`' => [
@@ -26249,8 +26249,8 @@ $Lexicon = {
       'form' => 'rak`aT',
       'lines' => [
         ';; rakoEap_1',
-        'rkE     rakoE   Napdu   kneeling down;genuflection;prostration',
-        'rkE     rakaE   NAt     kneeling down;genuflections;prostrations'
+        'rakoE   Napdu   kneeling down;genuflection;prostration',
+        'rakaE   NAt     kneeling down;genuflections;prostrations'
       ],
       'patterns' => {
         'raka`' => [
@@ -26281,8 +26281,8 @@ $Lexicon = {
       'form' => 'rAki`',
       'lines' => [
         ';; rAkiE_1',
-        'rAkE    rAkiE   N/ap    bowing;kneeling;prostrate     [[rAkiE/ADJ]]',
-        'rkE     ruk~aE  N       bowing;kneeling;prostrate'
+        'rAkiE   N/ap    bowing;kneeling;prostrate     [[rAkiE/ADJ]]',
+        'ruk~aE  N       bowing;kneeling;prostrate'
       ],
       'patterns' => {
         'rukka`' => [
@@ -26311,7 +26311,7 @@ $Lexicon = {
       'form' => 'tarkiy`',
       'lines' => [
         ';; tarokiyE_1',
-        'trkyE   tarokiyE        NduAt   rendering subservient'
+        'tarokiyE        NduAt   rendering subservient'
       ],
       'patterns' => {
         'tarkiy`' => [
@@ -26336,7 +26336,7 @@ $Lexicon = {
       'form' => 'ra.gwiyy',
       'lines' => [
         ';; ragowiy~_1',
-        'rgwy    ragowiy~        N-ap    foamy;frothy     [[ragowiy~/ADJ]]'
+        'ragowiy~        N-ap    foamy;frothy     [[ragowiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26362,8 +26362,8 @@ $Lexicon = {
       'form' => 'rasab',
       'lines' => [
         ';; rasab-u_1',
-        'rsb     rasab   PV      sink;fail;flunk',
-        'rsb     rosub   IV      sink;fail;flunk'
+        'rasab   PV      sink;fail;flunk',
+        'rosub   IV      sink;fail;flunk'
       ],
       'patterns' => {
         'rsub' => [
@@ -26395,8 +26395,8 @@ $Lexicon = {
       'form' => 'rassab',
       'lines' => [
         ';; ras~ab_1',
-        'rsb     ras~ab  PV      deposit;precipitate',
-        'rsb     ras~ib  IV_yu   deposit;precipitate'
+        'ras~ab  PV      deposit;precipitate',
+        'ras~ib  IV_yu   deposit;precipitate'
       ],
       'patterns' => {
         'rassib' => [
@@ -26420,8 +26420,8 @@ $Lexicon = {
       'form' => 'tarassab',
       'lines' => [
         ';; taras~ab_1',
-        'trsb    taras~ab        PV      settle;precipitate',
-        'trsb    taras~ab        IV      settle;precipitate'
+        'taras~ab        PV      settle;precipitate',
+        'taras~ab        IV      settle;precipitate'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26445,7 +26445,7 @@ $Lexicon = {
       'form' => 'rusuwb',
       'lines' => [
         ';; rusuwb_1',
-        'rswb    rusuwb  N/At    sediment;deposit;precipitation'
+        'rusuwb  N/At    sediment;deposit;precipitation'
       ],
       'patterns' => {
         'rusuwb' => [
@@ -26470,7 +26470,7 @@ $Lexicon = {
       'form' => 'rusuwb',
       'lines' => [
         ';; rusuwb_2',
-        'rswb    rusuwb  N       failure;flunking'
+        'rusuwb  N       failure;flunking'
       ],
       'patterns' => {},
       'index' => '2',
@@ -26490,7 +26490,7 @@ $Lexicon = {
       'form' => 'rusuwbiyy',
       'lines' => [
         ';; rusuwbiy~_1',
-        'rswby   rusuwbiy~       Nall    sedimentary;stratified     [[rusuwbiy~/ADJ]]'
+        'rusuwbiy~       Nall    sedimentary;stratified     [[rusuwbiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26514,7 +26514,7 @@ $Lexicon = {
       'form' => 'tarsiyb',
       'lines' => [
         ';; tarosiyb_1',
-        'trsyb   tarosiyb        NduAt   sedimentation;precipitation'
+        'tarosiyb        NduAt   sedimentation;precipitation'
       ],
       'patterns' => {
         'tarsiyb' => [
@@ -26542,7 +26542,7 @@ $Lexicon = {
       'form' => 'tarassub',
       'lines' => [
         ';; taras~ub_1',
-        'trsb    taras~ub        NduAt   sedimentation;precipitation'
+        'taras~ub        NduAt   sedimentation;precipitation'
       ],
       'patterns' => {
         'tarassub' => [
@@ -26566,7 +26566,7 @@ $Lexicon = {
       'form' => 'rAsib',
       'lines' => [
         ';; rAsib_1',
-        'rAsb    rAsib   Nall    failing;flunking     [[rAsib/ADJ]]'
+        'rAsib   Nall    failing;flunking     [[rAsib/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26590,9 +26590,9 @@ $Lexicon = {
       'form' => 'rAsib',
       'lines' => [
         ';; rAsib_2',
-        'rAsb    rAsib   N-ap    sediments;precipitate;residue',
-        'rwAsb   rawAsib Ndip    sediments;precipitate;residue',
-        'rwAsb   rawAsib Ndip    remains;remnants'
+        'rAsib   N-ap    sediments;precipitate;residue',
+        'rawAsib Ndip    sediments;precipitate;residue',
+        'rawAsib Ndip    remains;remnants'
       ],
       'patterns' => {
         'rawAsib' => [
@@ -26621,7 +26621,7 @@ $Lexicon = {
       'form' => 'ruwmiydAl',
       'lines' => [
         ';; ruwmiydAl_1',
-        'rwmydAl ruwmiydAl       N0      Romedal'
+        'ruwmiydAl       N0      Romedal'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26642,7 +26642,7 @@ $Lexicon = {
       'form' => 'ruwf',
       'lines' => [
         ';; ruwf_1',
-        'rwf     ruwf    N       roof garden'
+        'ruwf    N       roof garden'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26663,7 +26663,7 @@ $Lexicon = {
       'form' => 'ruwfA\'iyl',
       'lines' => [
         ';; ruwfA}iyl_1',
-        'rwfA}yl ruwfA}iyl       Nprop   Rufa\'il;Raphael'
+        'ruwfA}iyl       Nprop   Rufa\'il;Raphael'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26685,7 +26685,7 @@ $Lexicon = {
       'form' => 'riymuwnd',
       'lines' => [
         ';; riymuwnd_1',
-        'rymwnd  riymuwnd        Nprop   Raymond'
+        'riymuwnd        Nprop   Raymond'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26701,15 +26701,14 @@ $Lexicon = {
     {
       'types' => {
         'raymuwndaT' => {
-          'Nprop' => 2
+          'Nprop' => 1
         }
       },
       'entry' => 'riymuwnd',
       'form' => 'riymuwndaT',
       'lines' => [
         ';; riymuwndap_1',
-        'rymwndp rayomuwndap     Nprop   Raimonda',
-        'rymwndh rayomuwndap     Nprop   Raimonda'
+        'rayomuwndap     Nprop   Raimonda'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26734,8 +26733,8 @@ $Lexicon = {
       'form' => 'ra^sam',
       'lines' => [
         ';; ra$am-u_1',
-        'r$m     ra$am   PV      mark;designate',
-        'r$m     ro$um   IV      mark;designate'
+        'ra$am   PV      mark;designate',
+        'ro$um   IV      mark;designate'
       ],
       'patterns' => {
         'r^sum' => [
@@ -26767,9 +26766,9 @@ $Lexicon = {
       'form' => 'ra^sm',
       'lines' => [
         ';; ra$om_1',
-        'r$m     ra$om   N       sign of the cross;unction',
-        'r$wm    ru$uwm  N       signs of the cross;unction',
-        'r$wm    ru$uwm  NAt     signs of the cross;unction'
+        'ra$om   N       sign of the cross;unction',
+        'ru$uwm  N       signs of the cross;unction',
+        'ru$uwm  NAt     signs of the cross;unction'
       ],
       'patterns' => {
         'ru^suwm' => [
@@ -26794,7 +26793,7 @@ $Lexicon = {
       'form' => 'ra^smaT',
       'lines' => [
         ';; ra$omap_1',
-        'r$m     ra$om   Nap     ornamental halter;plastering'
+        'ra$om   Nap     ornamental halter;plastering'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26828,13 +26827,13 @@ $Lexicon = {
       'form' => 'raza\'',
       'lines' => [
         ';; raza>-a_1',
-        'rz>     raza>   PV->    deprive',
-        'rz|     raza|   PV-|    deprive',
-        'rz&     raza&   PV_w    deprive',
-        'rz>     roza>   IV      deprive',
-        'rz|     roza|   IV-|    deprive',
-        'rz&     roza&   IV_wn   deprive',
-        'rz}     roza}   IV_yn   deprive'
+        'raza>   PV->    deprive',
+        'raza|   PV-|    deprive',
+        'raza&   PV_w    deprive',
+        'roza>   IV      deprive',
+        'roza|   IV-|    deprive',
+        'roza&   IV_wn   deprive',
+        'roza}   IV_yn   deprive'
       ],
       'patterns' => {
         'rza\'' => [
@@ -26867,9 +26866,9 @@ $Lexicon = {
       'form' => 'ruzi\'',
       'lines' => [
         ';; ruzi}-a_1',
-        'rz}     ruzi}   PV_intr incur a loss;be afflicted',
-        'rz>     roza>   IV_intr incur a loss;be afflicted',
-        'rz|     roza|   IV-|    incur a loss;be afflicted'
+        'ruzi}   PV_intr incur a loss;be afflicted',
+        'roza>   IV_intr incur a loss;be afflicted',
+        'roza|   IV-|    incur a loss;be afflicted'
       ],
       'patterns' => {
         'rza\'' => [
@@ -26902,12 +26901,12 @@ $Lexicon = {
       'form' => 'ruz\'',
       'lines' => [
         ';; ruzo\'_1',
-        'rz\'     ruzo\'   N0F_Nh  heavy loss;serious damage',
-        'rz&     ruzo&   Nh      heavy loss;serious damage',
-        'rz}     ruzo}   Nhy     heavy loss;serious damage',
-        '>rzA\'   >arozA\' N0_Nh   heavy losses;serious damage',
-        '>rzA&   >arozA& Nh      heavy losses;serious damage',
-        '>rzA}   >arozA} Nhy     heavy losses;serious damage'
+        'ruzo\'   N0F_Nh  heavy loss;serious damage',
+        'ruzo&   Nh      heavy loss;serious damage',
+        'ruzo}   Nhy     heavy loss;serious damage',
+        '>arozA\' N0_Nh   heavy losses;serious damage',
+        '>arozA& Nh      heavy losses;serious damage',
+        '>arozA} Nhy     heavy losses;serious damage'
       ],
       'patterns' => {
         '\'arzA\'' => [
@@ -26939,9 +26938,9 @@ $Lexicon = {
       'form' => 'raziy\'aT',
       'lines' => [
         ';; raziy}ap_1',
-        'rzy}    raziy}  Nap     heavy loss;serious damage',
-        'rzy     raziy~  Nap     heavy loss;serious damage     [[raziy~/NOUN]]',
-        'rzAyA   razAyA  N0_Nhy  heavy losses;serious damage'
+        'raziy}  Nap     heavy loss;serious damage',
+        'raziy~  Nap     heavy loss;serious damage     [[raziy~/NOUN]]',
+        'razAyA  N0_Nhy  heavy losses;serious damage'
       ],
       'patterns' => {
         'raziyy' => [],
@@ -26967,8 +26966,8 @@ $Lexicon = {
       'form' => 'ruwmAntiykiyy',
       'lines' => [
         ';; ruwmAnotiykiy~_1',
-        'rwmAntyky       ruwmAnotiykiy~  Nall    romantic     [[ruwmAnotiykiy~/ADJ]]',
-        'rwmAntyky       ruwmAnotiykiy~  Nap     romanticism     [[ruwmAnotiykiy~/NOUN]]'
+        'ruwmAnotiykiy~  Nall    romantic     [[ruwmAnotiykiy~/ADJ]]',
+        'ruwmAnotiykiy~  Nap     romanticism     [[ruwmAnotiykiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26994,8 +26993,8 @@ $Lexicon = {
       'form' => 'rAsal',
       'lines' => [
         ';; rAsal_1',
-        'rAsl    rAsal   PV      correspond',
-        'rAsl    rAsil   IV_yu   correspond'
+        'rAsal   PV      correspond',
+        'rAsil   IV_yu   correspond'
       ],
       'patterns' => {
         'rAsil' => [
@@ -27025,9 +27024,9 @@ $Lexicon = {
       'form' => '\'arsal',
       'lines' => [
         ';; >arosal_1',
-        '>rsl    >arosal PV      send;transmit',
-        'rsl     rosil   IV_yu   send;transmit',
-        'rsl     rosal   IV_Pass_yu      be sent;be transmitted'
+        '>arosal PV      send;transmit',
+        'rosil   IV_yu   send;transmit',
+        'rosal   IV_Pass_yu      be sent;be transmitted'
       ],
       'patterns' => {
         'rsil' => [
@@ -27056,8 +27055,8 @@ $Lexicon = {
       'form' => 'tarassal',
       'lines' => [
         ';; taras~al_1',
-        'trsl    taras~al        PV_intr be slow',
-        'trsl    taras~al        IV_intr be slow'
+        'taras~al        PV_intr be slow',
+        'taras~al        IV_intr be slow'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27076,8 +27075,8 @@ $Lexicon = {
       'form' => 'tarAsal',
       'lines' => [
         ';; tarAsal_1',
-        'trAsl   tarAsal PV      exchange correspondence',
-        'trAsl   tarAsal IV      exchange correspondence'
+        'tarAsal PV      exchange correspondence',
+        'tarAsal IV      exchange correspondence'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27099,9 +27098,9 @@ $Lexicon = {
       'entry' => 'istarsal',
       'form' => 'istarsal',
       'lines' => [
-        ';; {isotarosal_1',
-        '<strsl  {isotarosal     PV_intr be unrestrained;be uninhibited',
-        'strsl   sotarosil       IV_intr be unrestrained;be uninhibited'
+        ';; Aisotarosal_1',
+        'Aisotarosal     PV_intr be unrestrained;be uninhibited',
+        'sotarosil       IV_intr be unrestrained;be uninhibited'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27121,7 +27120,7 @@ $Lexicon = {
       'form' => 'rasl',
       'lines' => [
         ';; rasol_1',
-        'rsl     rasol   N-ap    leisurely;loose'
+        'rasol   N-ap    leisurely;loose'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27141,7 +27140,7 @@ $Lexicon = {
       'form' => 'risl',
       'lines' => [
         ';; risol_1',
-        'rsl     risol   N       moderation'
+        'risol   N       moderation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27166,10 +27165,10 @@ $Lexicon = {
       'form' => 'rasiyl',
       'lines' => [
         ';; rasiyl_1',
-        'rsyl    rasiyl  N/ap    messenger;runner',
-        'rslA\'   rusalA\' N0_Nh   messenger;runner',
-        'rslA&   rusalA& Nh      messenger;runner',
-        'rslA}   rusalA} Nhy     messenger;runner'
+        'rasiyl  N/ap    messenger;runner',
+        'rusalA\' N0_Nh   messenger;runner',
+        'rusalA& Nh      messenger;runner',
+        'rusalA} Nhy     messenger;runner'
       ],
       'patterns' => {
         'rusalA\'' => [
@@ -27193,7 +27192,7 @@ $Lexicon = {
       'form' => 'rasuwl',
       'lines' => [
         ';; rasuwl_1',
-        'rswl    rasuwl  N       messenger (Muhammad)'
+        'rasuwl  N       messenger (Muhammad)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27216,8 +27215,8 @@ $Lexicon = {
       'form' => 'rasuwl',
       'lines' => [
         ';; rasuwl_2',
-        'rswl    rasuwl  Ndu     messenger;apostle',
-        'rsl     rusul   N       messengers;apostles'
+        'rasuwl  Ndu     messenger;apostle',
+        'rusul   N       messengers;apostles'
       ],
       'patterns' => {
         'rusul' => [
@@ -27243,7 +27242,7 @@ $Lexicon = {
       'form' => 'rasuwliyy',
       'lines' => [
         ';; rasuwliy~_1',
-        'rswly   rasuwliy~       Nall    relating to the messenger (Muhammad)     [[rasuwliy~/ADJ]]'
+        'rasuwliy~       Nall    relating to the messenger (Muhammad)     [[rasuwliy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27262,7 +27261,7 @@ $Lexicon = {
       'form' => 'rasuwliyy',
       'lines' => [
         ';; rasuwliy~_2',
-        'rswly   rasuwliy~       Nall    apostolic     [[rasuwliy~/ADJ]]'
+        'rasuwliy~       Nall    apostolic     [[rasuwliy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -27285,9 +27284,9 @@ $Lexicon = {
       'form' => 'risAlaT',
       'lines' => [
         ';; risAlap_1',
-        'rsAl    risAl   Napdu   letter;communication',
-        'rsAl    risAl   Napdu   dissertation',
-        'rsA}l   rasA}il Ndip    letters;messages'
+        'risAl   Napdu   letter;communication',
+        'risAl   Napdu   dissertation',
+        'rasA}il Ndip    letters;messages'
       ],
       'patterns' => {
         'rasA\'il' => [
@@ -27314,7 +27313,7 @@ $Lexicon = {
       'form' => 'risAlaT',
       'lines' => [
         ';; risAlap_2',
-        'rsAl    risAl   NapAt   mission;task'
+        'risAl   NapAt   mission;task'
       ],
       'patterns' => {},
       'index' => '2',
@@ -27338,7 +27337,7 @@ $Lexicon = {
       'form' => 'rusaylAt',
       'lines' => [
         ';; rusayolAt_1',
-        'rsyl    rusayol NAt     trivialities;trivia'
+        'rusayol NAt     trivialities;trivia'
       ],
       'patterns' => {
         'rusayl' => [
@@ -27366,7 +27365,7 @@ $Lexicon = {
       'form' => 'mirsAl',
       'lines' => [
         ';; mirosAl_1',
-        'mrsAl   mirosAl NduAt   search light'
+        'mirosAl NduAt   search light'
       ],
       'patterns' => {
         'mirsAl' => [
@@ -27389,7 +27388,7 @@ $Lexicon = {
       'form' => 'murAsalaT',
       'lines' => [
         ';; murAsalap_1',
-        'mrAsl   murAsal NapAt   correspondence;communication'
+        'murAsal NapAt   correspondence;communication'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27413,7 +27412,7 @@ $Lexicon = {
       'form' => '\'irsAl',
       'lines' => [
         ';; <irosAl_1',
-        '<rsAl   <irosAl NduAt   transmission;broadcast'
+        '<irosAl NduAt   transmission;broadcast'
       ],
       'patterns' => {
         '\'irsAl' => [
@@ -27437,7 +27436,7 @@ $Lexicon = {
       'form' => '\'irsAliyyaT',
       'lines' => [
         ';; <irosAliy~ap_1',
-        '<rsAly  <irosAliy~      NapAt   consignment;shipment     [[<irosAliy~/NOUN]]'
+        '<irosAliy~      NapAt   consignment;shipment     [[<irosAliy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27457,7 +27456,7 @@ $Lexicon = {
       'form' => '\'irsAliyyaT',
       'lines' => [
         ';; <irosAliy~ap_2',
-        '<rsAly  <irosAliy~      NapAt   expedition;mission     [[<irosAliy~/NOUN]]'
+        '<irosAliy~      NapAt   expedition;mission     [[<irosAliy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -27481,7 +27480,7 @@ $Lexicon = {
       'form' => 'tarassul',
       'lines' => [
         ';; taras~ul_1',
-        'trsl    taras~ul        NduAt   (art of) letter writing'
+        'taras~ul        NduAt   (art of) letter writing'
       ],
       'patterns' => {
         'tarassul' => [
@@ -27507,8 +27506,8 @@ $Lexicon = {
       'entry' => 'istirsAl',
       'form' => 'istirsAl',
       'lines' => [
-        ';; {isotirosAl_1',
-        '<strsAl {isotirosAl     N/At    naturalness;elaboration'
+        ';; AisotirosAl_1',
+        'AisotirosAl     N/At    naturalness;elaboration'
       ],
       'patterns' => {
         'istirsAl' => [
@@ -27532,7 +27531,7 @@ $Lexicon = {
       'form' => 'murAsil',
       'lines' => [
         ';; murAsil_1',
-        'mrAsl   murAsil Nall    correspondent'
+        'murAsil Nall    correspondent'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27551,7 +27550,7 @@ $Lexicon = {
       'form' => 'mursil',
       'lines' => [
         ';; murosil_1',
-        'mrsl    murosil Nall    transmitter;radio installation'
+        'murosil Nall    transmitter;radio installation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27571,7 +27570,7 @@ $Lexicon = {
       'form' => 'mursal',
       'lines' => [
         ';; murosal_1',
-        'mrsl    murosal Nall    sent;transmitted     [[murosal/ADJ]]'
+        'murosal Nall    sent;transmitted     [[murosal/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27591,7 +27590,7 @@ $Lexicon = {
       'form' => 'mursaliyyaT',
       'lines' => [
         ';; murosaliy~ap_1',
-        'mrsly   murosaliy~      NapAt   mission     [[murosaliy~/NOUN]]'
+        'murosaliy~      NapAt   mission     [[murosaliy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27610,7 +27609,7 @@ $Lexicon = {
       'form' => 'mustarsil',
       'lines' => [
         ';; musotarosil_1',
-        'mstrsl  musotarosil     Nall    flowing;affable;devoted     [[musotarosil/ADJ]]'
+        'musotarosil     Nall    flowing;affable;devoted     [[musotarosil/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27633,7 +27632,7 @@ $Lexicon = {
       'form' => 'rwn',
       'lines' => [
         ';; rwn_1',
-        'rwn     rwn     Nprop   Ron'
+        'rwn     Nprop   Ron'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27658,8 +27657,8 @@ $Lexicon = {
       'form' => 'ra_dil',
       'lines' => [
         ';; ra*il-a_1',
-        'r*l     ra*il   PV_intr be despicable;be contemptible',
-        'r*l     ro*al   IV_intr be despicable;be contemptible'
+        'ra*il   PV_intr be despicable;be contemptible',
+        'ro*al   IV_intr be despicable;be contemptible'
       ],
       'patterns' => {
         'r_dal' => [
@@ -27690,8 +27689,8 @@ $Lexicon = {
       'form' => 'ra_dul',
       'lines' => [
         ';; ra*ul-u_1',
-        'r*l     ra*ul   PV_intr be despicable;be contemptible',
-        'r*l     ro*ul   IV_intr be despicable;be contemptible'
+        'ra*ul   PV_intr be despicable;be contemptible',
+        'ro*ul   IV_intr be despicable;be contemptible'
       ],
       'patterns' => {
         'r_dul' => [
@@ -27722,8 +27721,8 @@ $Lexicon = {
       'form' => 'ra_dal',
       'lines' => [
         ';; ra*al-u_1',
-        'r*l     ra*al   PV      reject;repudiate',
-        'r*l     ro*ul   IV      reject;repudiate'
+        'ra*al   PV      reject;repudiate',
+        'ro*ul   IV      reject;repudiate'
       ],
       'patterns' => {
         'r_dul' => [
@@ -27757,9 +27756,9 @@ $Lexicon = {
       'form' => '\'ar_dal',
       'lines' => [
         ';; >aro*al_1',
-        '>r*l    >aro*al PV      reject;repudiate',
-        'r*l     ro*il   IV_yu   reject;repudiate',
-        'r*l     ro*al   IV_Pass_yu      be rejected;be repudiated'
+        '>aro*al PV      reject;repudiate',
+        'ro*il   IV_yu   reject;repudiate',
+        'ro*al   IV_Pass_yu      be rejected;be repudiated'
       ],
       'patterns' => {
         'r_dil' => [
@@ -27791,9 +27790,9 @@ $Lexicon = {
       'entry' => 'istar_dal',
       'form' => 'istar_dal',
       'lines' => [
-        ';; {isotaro*al_1',
-        '<str*l  {isotaro*al     PV      view as despicable',
-        'str*l   sotaro*il       IV      view as despicable'
+        ';; Aisotaro*al_1',
+        'Aisotaro*al     PV      view as despicable',
+        'sotaro*il       IV      view as despicable'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27812,7 +27811,7 @@ $Lexicon = {
       'form' => 'ra_dl',
       'lines' => [
         ';; ra*ol_1',
-        'r*l     ra*ol   N       rejection;repudiation'
+        'ra*ol   N       rejection;repudiation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27838,10 +27837,10 @@ $Lexicon = {
       'form' => 'ra_diyl',
       'lines' => [
         ';; ra*iyl_1',
-        'r*yl    ra*iyl  N/ap    despicable;depraved     [[ra*iyl/ADJ]]',
-        'r*lA\'   ru*alA\' N0_Nh   despicable;depraved',
-        'r*lA&   ru*alA& Nh      despicable;depraved',
-        'r*lA}   ru*alA} Nhy     despicable;depraved'
+        'ra*iyl  N/ap    despicable;depraved     [[ra*iyl/ADJ]]',
+        'ru*alA\' N0_Nh   despicable;depraved',
+        'ru*alA& Nh      despicable;depraved',
+        'ru*alA} Nhy     despicable;depraved'
       ],
       'patterns' => {
         'ru_dalA\'' => [
@@ -27865,7 +27864,7 @@ $Lexicon = {
       'form' => 'ra_dAlaT',
       'lines' => [
         ';; ra*Alap_1',
-        'r*Al    ra*Al   Nap     depravity;vice'
+        'ra*Al   Nap     depravity;vice'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27889,8 +27888,8 @@ $Lexicon = {
       'form' => 'ra_diylaT',
       'lines' => [
         ';; ra*iylap_1',
-        'r*yl    ra*iyl  Napdu   vice;fault;demerit',
-        'r*A}l   ra*A}il Ndip    vices;faults;demerits'
+        'ra*iyl  Napdu   vice;fault;demerit',
+        'ra*A}il Ndip    vices;faults;demerits'
       ],
       'patterns' => {
         'ra_dA\'il' => [
@@ -27918,7 +27917,7 @@ $Lexicon = {
       'form' => 'mar_duwl',
       'lines' => [
         ';; maro*uwl_1',
-        'mr*wl   maro*uwl        Nall    depraved;wicked     [[maro*uwl/ADJ]]'
+        'maro*uwl        Nall    depraved;wicked     [[maro*uwl/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27944,7 +27943,7 @@ $Lexicon = {
       'form' => 'ridin^guwt',
       'lines' => [
         ';; ridinojuwt_1',
-        'rdnjwt  ridinojuwt      NduAt   frock coat'
+        'ridinojuwt      NduAt   frock coat'
       ],
       'patterns' => {},
       'index' => '1',
@@ -27971,10 +27970,10 @@ $Lexicon = {
       'form' => '\'armak',
       'lines' => [
         ';; >aromak_1',
-        '>rmk    >aromak Nel     gray;ashen',
-        'rmkA\'   ramokA\' N0_Nh   gray;ashen',
-        'rmkA&   ramokA& Nh      gray;ashen',
-        'rmkA}   ramokA} Nhy     gray;ashen'
+        '>aromak Nel     gray;ashen',
+        'ramokA\' N0_Nh   gray;ashen',
+        'ramokA& Nh      gray;ashen',
+        'ramokA} Nhy     gray;ashen'
       ],
       'patterns' => {
         'ramkA\'' => [
@@ -28005,9 +28004,9 @@ $Lexicon = {
       'form' => 'ramakaT',
       'lines' => [
         ';; ramakap_1',
-        'rmk     ramak   NapAt   mare',
-        'rmAk    rimAk   N       mares',
-        '>rmAk   >aromAk N       mares'
+        'ramak   NapAt   mare',
+        'rimAk   N       mares',
+        '>aromAk N       mares'
       ],
       'patterns' => {
         'rimAk' => [
@@ -28036,7 +28035,7 @@ $Lexicon = {
       'form' => 'rA\'i`',
       'lines' => [
         ';; rA}iE_1',
-        'rA}E    rA}iE   Nall    splendid;marvelous;magnificent     [[rA}iE/ADJ]]'
+        'rA}iE   Nall    splendid;marvelous;magnificent     [[rA}iE/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28061,8 +28060,8 @@ $Lexicon = {
       'form' => 'rA\'i`aT',
       'lines' => [
         ';; rA}iEap_1',
-        'rA}E    rA}iE   Nap     masterpiece;magnificent item',
-        'rwA}E   rawA}iE Ndip    masterpieces;magnificent items'
+        'rA}iE   Nap     masterpiece;magnificent item',
+        'rawA}iE Ndip    masterpieces;magnificent items'
       ],
       'patterns' => {
         'rawA\'i`' => [
@@ -28122,8 +28121,8 @@ $Lexicon = {
       'form' => 'rannaq',
       'lines' => [
         ';; ran~aq_1',
-        'rnq     ran~aq  PV      muddy;blur;glance',
-        'rnq     ran~iq  IV_yu   muddy;blur;glance'
+        'ran~aq  PV      muddy;blur;glance',
+        'ran~iq  IV_yu   muddy;blur;glance'
       ],
       'patterns' => {
         'ranniq' => [
@@ -28148,7 +28147,7 @@ $Lexicon = {
       'form' => 'ranq',
       'lines' => [
         ';; ranoq_1',
-        'rnq     ranoq   N-ap    turbid;clouded'
+        'ranoq   N-ap    turbid;clouded'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28170,7 +28169,7 @@ $Lexicon = {
       'form' => 'murzi.g',
       'lines' => [
         ';; murozig_1',
-        'mrzg    murozig Nall    muddy;boggy'
+        'murozig Nall    muddy;boggy'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28192,7 +28191,7 @@ $Lexicon = {
       'form' => 'ruwytir',
       'lines' => [
         ';; ruwyotir_1',
-        'rwytr   ruwyotir        Nprop   Reuters'
+        'ruwyotir        Nprop   Reuters'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28213,7 +28212,7 @@ $Lexicon = {
       'form' => 'ray_tamA',
       'lines' => [
         ';; rayovamA_1',
-        'ryvmA   rayovamA        FW-Wa   as long as;until   [[rayovamA/CONJ]]'
+        'rayovamA        FW-Wa   as long as;until   [[rayovamA/CONJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28239,8 +28238,8 @@ $Lexicon = {
       'form' => 'ruwzfilt',
       'lines' => [
         ';; ruwzofilot_1',
-        'rwzflt  ruwzofilot      N0      Roosevelt',
-        'rwzfylt ruwzofiylot     N0      Roosevelt'
+        'ruwzofilot      N0      Roosevelt',
+        'ruwzofiylot     N0      Roosevelt'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28264,9 +28263,9 @@ $Lexicon = {
       'entry' => 'irtakas',
       'form' => 'irtakas',
       'lines' => [
-        ';; {irotakas_1',
-        '<rtks   {irotakas       PV      decline;be thrown back;degenerate',
-        'rtks    rotakis IV      decline;be thrown back;degenerate'
+        ';; Airotakas_1',
+        'Airotakas       PV      decline;be thrown back;degenerate',
+        'rotakis IV      decline;be thrown back;degenerate'
       ],
       'patterns' => {
         'rtakis' => [
@@ -28294,8 +28293,8 @@ $Lexicon = {
       'entry' => 'irtikAs',
       'form' => 'irtikAs',
       'lines' => [
-        ';; {irotikAs_1',
-        '<rtkAs  {irotikAs       NduAt   decline;degeneration'
+        ';; AirotikAs_1',
+        'AirotikAs       NduAt   decline;degeneration'
       ],
       'patterns' => {
         'irtikAs' => [
@@ -28325,8 +28324,8 @@ $Lexicon = {
       'form' => 'rasa_h',
       'lines' => [
         ';; rasax-u_1',
-        'rsx     rasax   PV_intr be firmly rooted;be permeated',
-        'rsx     rosux   IV_intr be firmly rooted;be permeated'
+        'rasax   PV_intr be firmly rooted;be permeated',
+        'rosux   IV_intr be firmly rooted;be permeated'
       ],
       'patterns' => {
         'rsu_h' => [
@@ -28357,8 +28356,8 @@ $Lexicon = {
       'form' => 'rassa_h',
       'lines' => [
         ';; ras~ax_1',
-        'rsx     ras~ax  PV      take root;be anchored',
-        'rsx     ras~ix  IV_yu   take root;be anchored'
+        'ras~ax  PV      take root;be anchored',
+        'ras~ix  IV_yu   take root;be anchored'
       ],
       'patterns' => {
         'rassi_h' => [
@@ -28386,8 +28385,8 @@ $Lexicon = {
       'form' => '\'arsa_h',
       'lines' => [
         ';; >arosax_1',
-        '>rsx    >arosax PV      take root;be implanted',
-        'rsx     rosix   IV_yu   take root;be implanted'
+        '>arosax PV      take root;be implanted',
+        'rosix   IV_yu   take root;be implanted'
       ],
       'patterns' => {
         'rsi_h' => [
@@ -28411,7 +28410,7 @@ $Lexicon = {
       'form' => '\'arsa_h',
       'lines' => [
         ';; >arosax_2',
-        '>rsx    >arosax Nel     firmly established;deeply rooted'
+        '>arosax Nel     firmly established;deeply rooted'
       ],
       'patterns' => {},
       'index' => '2',
@@ -28431,7 +28430,7 @@ $Lexicon = {
       'form' => 'rusuw_h',
       'lines' => [
         ';; rusuwx_1',
-        'rswx    rusuwx  N       firmness;thorough understanding'
+        'rusuwx  N       firmness;thorough understanding'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28455,7 +28454,7 @@ $Lexicon = {
       'form' => 'tarsiy_h',
       'lines' => [
         ';; tarosiyx_1',
-        'trsyx   tarosiyx        NduAt   rooting;anchoring;ingraining'
+        'tarosiyx        NduAt   rooting;anchoring;ingraining'
       ],
       'patterns' => {
         'tarsiy_h' => [
@@ -28480,7 +28479,7 @@ $Lexicon = {
       'form' => 'rAsi_h',
       'lines' => [
         ';; rAsix_1',
-        'rAsx    rAsix   Nall    firmly established;deeply rooted;ingrained'
+        'rAsix   Nall    firmly established;deeply rooted;ingrained'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28503,7 +28502,7 @@ $Lexicon = {
       'form' => 'riyt^sArd',
       'lines' => [
         ';; riyto$Arod_1',
-        'ryt$Ard riyto$Arod      Nprop   Richard'
+        'riyto$Arod      Nprop   Richard'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28528,8 +28527,8 @@ $Lexicon = {
       'form' => 'rakam',
       'lines' => [
         ';; rakam-u_1',
-        'rkm     rakam   PV      accumulate;amass',
-        'rkm     rokum   IV      accumulate;amass'
+        'rakam   PV      accumulate;amass',
+        'rokum   IV      accumulate;amass'
       ],
       'patterns' => {
         'rkum' => [
@@ -28560,8 +28559,8 @@ $Lexicon = {
       'form' => 'rAkam',
       'lines' => [
         ';; rAkam_1',
-        'rAkm    rAkam   PV      accumulate;amass',
-        'rAkm    rAkim   IV_yu   accumulate;amass'
+        'rAkam   PV      accumulate;amass',
+        'rAkim   IV_yu   accumulate;amass'
       ],
       'patterns' => {
         'rAkim' => [
@@ -28585,8 +28584,8 @@ $Lexicon = {
       'form' => 'tarAkam',
       'lines' => [
         ';; tarAkam_1',
-        'trAkm   tarAkam PV      accumulate;gather',
-        'trAkm   tarAkam IV      accumulate;gather'
+        'tarAkam PV      accumulate;gather',
+        'tarAkam IV      accumulate;gather'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28609,9 +28608,9 @@ $Lexicon = {
       'entry' => 'irtakam',
       'form' => 'irtakam',
       'lines' => [
-        ';; {irotakam_1',
-        '<rtkm   {irotakam       PV      accumulate;gather',
-        'rtkm    rotakim IV      accumulate;gather'
+        ';; Airotakam_1',
+        'Airotakam       PV      accumulate;gather',
+        'rotakim IV      accumulate;gather'
       ],
       'patterns' => {
         'rtakim' => [
@@ -28635,7 +28634,7 @@ $Lexicon = {
       'form' => 'rakam',
       'lines' => [
         ';; rakam_1',
-        'rkm     rakam   Ndu     pile;heap'
+        'rakam   Ndu     pile;heap'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28655,7 +28654,7 @@ $Lexicon = {
       'form' => 'rukAm',
       'lines' => [
         ';; rukAm_1',
-        'rkAm    rukAm   N       heap;accumulation'
+        'rukAm   N       heap;accumulation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28675,7 +28674,7 @@ $Lexicon = {
       'form' => 'rukAmiyy',
       'lines' => [
         ';; rukAmiy~_1',
-        'rkAmy   rukAmiy~        Nall    accumulated;cumulus     [[rukAmiy~/ADJ]]'
+        'rukAmiy~        Nall    accumulated;cumulus     [[rukAmiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28699,8 +28698,8 @@ $Lexicon = {
       'form' => 'mirkam',
       'lines' => [
         ';; mirokam_1',
-        'mrkm    mirokam N       accumulator;storage battery',
-        'mrAkm   marAkim Ndip    accumulators;storage batteries'
+        'mirokam N       accumulator;storage battery',
+        'marAkim Ndip    accumulators;storage batteries'
       ],
       'patterns' => {
         'marAkim' => [
@@ -28730,7 +28729,7 @@ $Lexicon = {
       'form' => 'tarAkum',
       'lines' => [
         ';; tarAkum_1',
-        'trAkm   tarAkum NduAt   accumulation'
+        'tarAkum NduAt   accumulation'
       ],
       'patterns' => {
         'tarAkum' => [
@@ -28753,7 +28752,7 @@ $Lexicon = {
       'form' => 'mutarAkim',
       'lines' => [
         ';; mutarAkim_1',
-        'mtrAkm  mutarAkim       Nall    accumulated;gathered;amassed     [[mutarAkim/ADJ]]'
+        'mutarAkim       Nall    accumulated;gathered;amassed     [[mutarAkim/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28786,10 +28785,10 @@ $Lexicon = {
       'form' => 'ra.giyf',
       'lines' => [
         ';; ragiyf_1',
-        'rgyf    ragiyf  Ndu     loaf',
-        '>rgf    >arogif Nap     loaves',
-        'rgfAn   rugofAn N       loaves',
-        'rgf     ruguf   N       loaves'
+        'ragiyf  Ndu     loaf',
+        '>arogif Nap     loaves',
+        'rugofAn N       loaves',
+        'ruguf   N       loaves'
       ],
       'patterns' => {
         'ru.guf' => [
@@ -28821,7 +28820,7 @@ $Lexicon = {
       'form' => 'ruw^suw',
       'lines' => [
         ';; ruw$uw_1',
-        'rw$w    ruw$uw  Nprop   Rochus'
+        'ruw$uw  Nprop   Rochus'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28842,7 +28841,7 @@ $Lexicon = {
       'form' => 'rawAlbindiy',
       'lines' => [
         ';; rawAlobinodiy_1',
-        'rwAlbndy        rawAlobinodiy   N0      Rawalpindi'
+        'rawAlobinodiy   N0      Rawalpindi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28871,10 +28870,10 @@ $Lexicon = {
       'form' => 'rA^g',
       'lines' => [
         ';; rAj-u_1',
-        'rAj     rAj     PV_V    circulate;spread;be available',
-        'rj      ruj     PV_C    circulate;spread;be available',
-        'rwj     ruwj    IV_V    circulate;spread;be available',
-        'rj      ruj     IV_C    circulate;spread;be available'
+        'rAj     PV_V    circulate;spread;be available',
+        'ruj     PV_C    circulate;spread;be available',
+        'ruwj    IV_V    circulate;spread;be available',
+        'ruj     IV_C    circulate;spread;be available'
       ],
       'patterns' => {
         'ru^g' => [
@@ -28909,8 +28908,8 @@ $Lexicon = {
       'form' => 'rawwa^g',
       'lines' => [
         ';; raw~aj_1',
-        'rwj     raw~aj  PV      promote;market;circulate',
-        'rwj     raw~ij  IV_yu   promote;market;circulate'
+        'raw~aj  PV      promote;market;circulate',
+        'raw~ij  IV_yu   promote;market;circulate'
       ],
       'patterns' => {
         'rawwi^g' => [
@@ -28935,7 +28934,7 @@ $Lexicon = {
       'form' => 'rawA^g',
       'lines' => [
         ';; rawAj_1',
-        'rwAj    rawAj   N       circulation;propagation'
+        'rawAj   N       circulation;propagation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28955,7 +28954,7 @@ $Lexicon = {
       'form' => '\'arwa^g',
       'lines' => [
         ';; >arowaj_1',
-        '>rwj    >arowaj Nel     more/most widespread;in wider/widest circulation'
+        '>arowaj Nel     more/most widespread;in wider/widest circulation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28979,7 +28978,7 @@ $Lexicon = {
       'form' => 'tarwiy^g',
       'lines' => [
         ';; tarowiyj_1',
-        'trwyj   tarowiyj        NduAt   furtherance;promotion;distribution;marketing'
+        'tarowiyj        NduAt   furtherance;promotion;distribution;marketing'
       ],
       'patterns' => {
         'tarwiy^g' => [
@@ -29005,7 +29004,7 @@ $Lexicon = {
       'form' => 'tarwiy^giyy',
       'lines' => [
         ';; tarowiyjiy~_1',
-        'trwyjy  tarowiyjiy~     Nall    marketing;promotional;advertising     [[tarowiyjiy~/ADJ]]'
+        'tarowiyjiy~     Nall    marketing;promotional;advertising     [[tarowiyjiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29040,7 +29039,7 @@ $Lexicon = {
       'form' => 'murawwi^g',
       'lines' => [
         ';; muraw~ij_1',
-        'mrwj    muraw~ij        Nall    promoter'
+        'muraw~ij        Nall    promoter'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29059,7 +29058,7 @@ $Lexicon = {
       'form' => 'ruw^g',
       'lines' => [
         ';; ruwj_1',
-        'rwj     ruwj    N       rouge'
+        'ruwj    N       rouge'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29080,7 +29079,7 @@ $Lexicon = {
       'form' => 'rA^siyfskiy',
       'lines' => [
         ';; rA$iyfskiy_1',
-        'rA$yfsky        rA$iyfskiy      Nprop   Rashevsky'
+        'rA$iyfskiy      Nprop   Rashevsky'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29101,8 +29100,8 @@ $Lexicon = {
       'form' => 'ruwmAn.tiyqiyy',
       'lines' => [
         ';; ruwmAnoTiyqiy~_1',
-        'rwmAnTyqy       ruwmAnoTiyqiy~  Nall    romantic     [[ruwmAnoTiyqiy~/ADJ]]',
-        'rwmAnTyqy       ruwmAnoTiyqiy~  Nap     romanticism     [[ruwmAnoTiyqiy~/NOUN]]'
+        'ruwmAnoTiyqiy~  Nall    romantic     [[ruwmAnoTiyqiy~/ADJ]]',
+        'ruwmAnoTiyqiy~  Nap     romanticism     [[ruwmAnoTiyqiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29124,7 +29123,7 @@ $Lexicon = {
       'form' => 'riymuwn',
       'lines' => [
         ';; riymuwn_1',
-        'rymwn   riymuwn Nprop   Raymond'
+        'riymuwn Nprop   Raymond'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29149,8 +29148,8 @@ $Lexicon = {
       'form' => 'rAdiyuw',
       'lines' => [
         ';; rAdiyuw_1',
-        'rAdyw   rAdiyuw N0      radio',
-        'rAdywh  rAdiyuwh        NAt     radios'
+        'rAdiyuw N0      radio',
+        'rAdiyuwh        NAt     radios'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29185,11 +29184,11 @@ $Lexicon = {
       'form' => 'ra`A',
       'lines' => [
         ';; raEA-u_1',
-        'rEA     raEA    PV_0    desist;repent',
-        'rEw     raEaw   PV_Atn  desist;repent',
-        'rE      raE     PV_ttAw desist;repent',
-        'rEw     roEuw   IV_0hAnn        desist;repent',
-        'rE      roE     IV_0hwnyn       desist;repent'
+        'raEA    PV_0    desist;repent',
+        'raEaw   PV_Atn  desist;repent',
+        'raE     PV_ttAw desist;repent',
+        'roEuw   IV_0hAnn        desist;repent',
+        'roE     IV_0hwnyn       desist;repent'
       ],
       'patterns' => {
         'ra`' => [
@@ -29229,10 +29228,10 @@ $Lexicon = {
       'form' => 'ra`w',
       'lines' => [
         ';; raEow_1',
-        'rEw     raEow   N       repentance;conversion',
-        'rEw     raEow   Nap     repentance;conversion',
-        'rEwY    raEowaY N0      repentance;conversion',
-        'rEwA    raEowA  Nhy     repentance;conversion'
+        'raEow   N       repentance;conversion',
+        'raEow   Nap     repentance;conversion',
+        'raEowaY N0      repentance;conversion',
+        'raEowA  Nhy     repentance;conversion'
       ],
       'patterns' => {
         'ra`wY' => [
@@ -29257,7 +29256,7 @@ $Lexicon = {
       'form' => 'ra`awiyy',
       'lines' => [
         ';; raEawiy~_1',
-        'rEwy    raEawiy~        Nall    pastoral;bucolic     [[raEawiy~/ADJ]]'
+        'raEawiy~        Nall    pastoral;bucolic     [[raEawiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29293,7 +29292,7 @@ $Lexicon = {
       'form' => 'ra`awiyyaT',
       'lines' => [
         ';; raEawiy~ap_1',
-        'rEwy    raEawiy~        Nap     citizenship;nationality     [[raEawiy~/NOUN]]'
+        'raEawiy~        Nap     citizenship;nationality     [[raEawiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29312,13 +29311,13 @@ $Lexicon = {
       'entry' => 'ir`iwA\'',
       'form' => 'ir`iwA\'',
       'lines' => [
-        ';; {iroEiwA\'_1',
-        '<rEwA\'  {iroEiwA\'       N0_Nh   desisting;repenting;refraining',
-        '<rEwA&  {iroEiwA&       Nh      desisting;repenting;refraining',
-        '<rEwA}  {iroEiwA}       Nhy     desisting;repenting;refraining',
-        'ArEwA\'  {iroEiwA\'       N0_Nh   desisting;repenting;refraining',
-        'ArEwA&  {iroEiwA&       Nh      desisting;repenting;refraining',
-        'ArEwA}  {iroEiwA}       Nhy     desisting;repenting;refraining'
+        ';; AiroEiwA\'_1',
+        'AiroEiwA\'       N0_Nh   desisting;repenting;refraining',
+        'AiroEiwA&       Nh      desisting;repenting;refraining',
+        'AiroEiwA}       Nhy     desisting;repenting;refraining',
+        'AiroEiwA\'       N0_Nh   desisting;repenting;refraining',
+        'AiroEiwA&       Nh      desisting;repenting;refraining',
+        'AiroEiwA}       Nhy     desisting;repenting;refraining'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29345,8 +29344,8 @@ $Lexicon = {
       'form' => 'raqa.s',
       'lines' => [
         ';; raqaS-u_1',
-        'rqS     raqaS   PV      dance',
-        'rqS     roquS   IV      dance'
+        'raqaS   PV      dance',
+        'roquS   IV      dance'
       ],
       'patterns' => {
         'rqu.s' => [
@@ -29376,8 +29375,8 @@ $Lexicon = {
       'form' => 'raqqa.s',
       'lines' => [
         ';; raq~aS_1',
-        'rqS     raq~aS  PV      make dance;make tremble',
-        'rqS     raq~iS  IV_yu   make dance;make tremble'
+        'raq~aS  PV      make dance;make tremble',
+        'raq~iS  IV_yu   make dance;make tremble'
       ],
       'patterns' => {
         'raqqi.s' => [
@@ -29405,8 +29404,8 @@ $Lexicon = {
       'form' => 'rAqa.s',
       'lines' => [
         ';; rAqaS_1',
-        'rAqS    rAqaS   PV      dance with',
-        'rAqS    rAqiS   IV_yu   dance with'
+        'rAqaS   PV      dance with',
+        'rAqiS   IV_yu   dance with'
       ],
       'patterns' => {
         'rAqi.s' => [
@@ -29436,9 +29435,9 @@ $Lexicon = {
       'form' => '\'arqa.s',
       'lines' => [
         ';; >aroqaS_1',
-        '>rqS    >aroqaS PV      make dance;make tremble',
-        'rqS     roqiS   IV_yu   make dance;make tremble',
-        'rqS     roqaS   IV_Pass_yu      be made to dance;be made to tremble'
+        '>aroqaS PV      make dance;make tremble',
+        'roqiS   IV_yu   make dance;make tremble',
+        'roqaS   IV_Pass_yu      be made to dance;be made to tremble'
       ],
       'patterns' => {
         'rqa.s' => [
@@ -29467,8 +29466,8 @@ $Lexicon = {
       'form' => 'tarAqa.s',
       'lines' => [
         ';; tarAqaS_1',
-        'trAqS   tarAqaS PV      move;dance;tremble',
-        'trAqS   tarAqaS IV      move;dance;tremble'
+        'tarAqaS PV      move;dance;tremble',
+        'tarAqaS IV      move;dance;tremble'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29489,7 +29488,7 @@ $Lexicon = {
       'form' => 'raq.s',
       'lines' => [
         ';; raqoS_1',
-        'rqS     raqoS   Ndu     dancing;dance'
+        'raqoS   Ndu     dancing;dance'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29509,7 +29508,7 @@ $Lexicon = {
       'form' => 'raq.siyy',
       'lines' => [
         ';; raqoSiy~_1',
-        'rqSy    raqoSiy~        N/ap    dance;dancing     [[raqoSiy~/ADJ]]'
+        'raqoSiy~        N/ap    dance;dancing     [[raqoSiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29533,8 +29532,8 @@ $Lexicon = {
       'form' => 'raq.saT',
       'lines' => [
         ';; raqoSap_1',
-        'rqS     raqoS   Napdu   dance',
-        'rqS     raqaS   NAt     dances;dancing'
+        'raqoS   Napdu   dance',
+        'raqaS   NAt     dances;dancing'
       ],
       'patterns' => {
         'raqa.s' => [
@@ -29559,7 +29558,7 @@ $Lexicon = {
       'form' => 'raqqA.s',
       'lines' => [
         ';; raq~AS_1',
-        'rqAS    raq~AS  Nall    dancer'
+        'raq~AS  Nall    dancer'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29582,8 +29581,8 @@ $Lexicon = {
       'form' => 'marqa.s',
       'lines' => [
         ';; maroqaS_1',
-        'mrqS    maroqaS Ndu     dance hall',
-        'mrAqS   marAqiS Ndip    dance halls'
+        'maroqaS Ndu     dance hall',
+        'marAqiS Ndip    dance halls'
       ],
       'patterns' => {
         'marAqi.s' => [
@@ -29607,7 +29606,7 @@ $Lexicon = {
       'form' => 'rAqi.s',
       'lines' => [
         ';; rAqiS_1',
-        'rAqS    rAqiS   Nall    dancing;dancer'
+        'rAqiS   Nall    dancing;dancer'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29627,7 +29626,7 @@ $Lexicon = {
       'form' => 'murAqi.s',
       'lines' => [
         ';; murAqiS_1',
-        'mrAqS   murAqiS Nall    dancing partner'
+        'murAqiS Nall    dancing partner'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29655,9 +29654,9 @@ $Lexicon = {
       'form' => 'rama^s',
       'lines' => [
         ';; rama$-iu_1',
-        'rm$     rama$   PV      take with the fingertips;wink;blink',
-        'rm$     romi$   IV      take with the fingertips;wink;blink',
-        'rm$     romu$   IV      take with the fingertips;wink;blink'
+        'rama$   PV      take with the fingertips;wink;blink',
+        'romi$   IV      take with the fingertips;wink;blink',
+        'romu$   IV      take with the fingertips;wink;blink'
       ],
       'patterns' => {
         'rmi^s' => [
@@ -29689,7 +29688,7 @@ $Lexicon = {
       'form' => 'rama^s',
       'lines' => [
         ';; rama$_1',
-        'rm$     rama$   N       conjunctivitis'
+        'rama$   N       conjunctivitis'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29712,8 +29711,8 @@ $Lexicon = {
       'form' => 'ram^saT',
       'lines' => [
         ';; ramo$ap_1',
-        'rm$     ramo$   Napdu   wink;blink',
-        'rm$     rama$   NAt     winks;blinking'
+        'ramo$   Napdu   wink;blink',
+        'rama$   NAt     winks;blinking'
       ],
       'patterns' => {
         'rama^s' => [
@@ -29743,8 +29742,8 @@ $Lexicon = {
       'form' => 'rim^s',
       'lines' => [
         ';; rimo$_1',
-        'rm$     rimo$   Ndu     eyelashes',
-        'rmw$    rumuw$  N       eyelashes'
+        'rimo$   Ndu     eyelashes',
+        'rumuw$  N       eyelashes'
       ],
       'patterns' => {
         'rumuw^s' => [
@@ -29777,10 +29776,10 @@ $Lexicon = {
       'form' => 'rAm',
       'lines' => [
         ';; rAm-i_1',
-        'rAm     rAm     PV_V    depart;move',
-        'rm      rim     PV_C    depart;move',
-        'rym     riym    IV_V    depart;move',
-        'rm      rim     IV_C    depart;move'
+        'rAm     PV_V    depart;move',
+        'rim     PV_C    depart;move',
+        'riym    IV_V    depart;move',
+        'rim     IV_C    depart;move'
       ],
       'patterns' => {
         'riym' => [
@@ -29814,8 +29813,8 @@ $Lexicon = {
       'form' => 'rayyam',
       'lines' => [
         ';; ray~am_1',
-        'rym     ray~am  PV      remain;bluff',
-        'rym     ray~im  IV_yu   remain;bluff'
+        'ray~am  PV      remain;bluff',
+        'ray~im  IV_yu   remain;bluff'
       ],
       'patterns' => {
         'rayyim' => [
@@ -29839,7 +29838,7 @@ $Lexicon = {
       'form' => 'riym',
       'lines' => [
         ';; riym_1',
-        'rym     riym    N       froth;foam'
+        'riym    N       froth;foam'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29859,7 +29858,7 @@ $Lexicon = {
       'form' => 'riym',
       'lines' => [
         ';; riym_2',
-        'rym     riym    Nprop   Reem;Rim'
+        'riym    Nprop   Reem;Rim'
       ],
       'patterns' => {},
       'index' => '2',
@@ -29879,7 +29878,7 @@ $Lexicon = {
       'form' => 'riymiyy',
       'lines' => [
         ';; riymiy~_1',
-        'rymy    riymiy~ N0      Rimi'
+        'riymiy~ N0      Rimi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29898,7 +29897,7 @@ $Lexicon = {
       'form' => 'riymaT',
       'lines' => [
         ';; riymap_1',
-        'rymp    riymap  Nprop   Rima'
+        'riymap  Nprop   Rima'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29921,7 +29920,7 @@ $Lexicon = {
       'form' => 'taryiym',
       'lines' => [
         ';; taroyiym_1',
-        'tryym   taroyiym        NduAt   swaggering;bluffing'
+        'taroyiym        NduAt   swaggering;bluffing'
       ],
       'patterns' => {
         'taryiym' => [
@@ -29951,8 +29950,8 @@ $Lexicon = {
       'form' => 'ra.sun',
       'lines' => [
         ';; raSun-u_1',
-        'rSn     raSun   PV-n_intr       be firm;be composed',
-        'rSn     roSun   IV-n_intr       be firm;be composed'
+        'raSun   PV-n_intr       be firm;be composed',
+        'roSun   IV-n_intr       be firm;be composed'
       ],
       'patterns' => {
         'r.sun' => [
@@ -29979,7 +29978,7 @@ $Lexicon = {
       'form' => 'ra.siyn',
       'lines' => [
         ';; raSiyn_1',
-        'rSyn    raSiyn  N/ap    firm;composed;serious     [[raSiyn/ADJ]]'
+        'raSiyn  N/ap    firm;composed;serious     [[raSiyn/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30000,7 +29999,7 @@ $Lexicon = {
       'form' => 'ra.sAnaT',
       'lines' => [
         ';; raSAnap_1',
-        'rSAn    raSAn   Nap     equanimity;composure;calmness'
+        'raSAn   Nap     equanimity;composure;calmness'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30023,7 +30022,7 @@ $Lexicon = {
       'form' => 'rubsuws',
       'lines' => [
         ';; rubsuws_1',
-        'rbsws   rubsuws N       licorice rob'
+        'rubsuws N       licorice rob'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30044,7 +30043,7 @@ $Lexicon = {
       'form' => 'ruw^giyriyuw',
       'lines' => [
         ';; ruwjiyriyuw_1',
-        'rwjyryw ruwjiyriyuw     Nprop   Rogerio'
+        'ruwjiyriyuw     Nprop   Rogerio'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30065,7 +30064,7 @@ $Lexicon = {
       'form' => 'rah^g',
       'lines' => [
         ';; rahoj_1',
-        'rhj     rahoj   N       dust'
+        'rahoj   N       dust'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30086,7 +30085,7 @@ $Lexicon = {
       'form' => 'rAynir',
       'lines' => [
         ';; rAyonir_1',
-        'rAynr   rAyonir Nprop   Reiner'
+        'rAyonir Nprop   Reiner'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30117,10 +30116,10 @@ $Lexicon = {
       'form' => 'ruw^sittaT',
       'lines' => [
         ';; ruw$it~ap_1',
-        'rw$t    ruw$it~ NapAt   medical prescription',
-        'r$yt    ru$iyt~ NapAt   medical prescription',
-        'r$yth   ru$iyt~ah       N       medical prescription',
-        'r$t     ru$it~  NapAt   medical prescription'
+        'ruw$it~ NapAt   medical prescription',
+        'ru$iyt~ NapAt   medical prescription',
+        'ru$iyt~ah       N       medical prescription',
+        'ru$it~  NapAt   medical prescription'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30154,11 +30153,11 @@ $Lexicon = {
       'form' => 'raqiy',
       'lines' => [
         ';; raqiy-a_1',
-        'rqy     raqiy   PV_no-w ascend;rise;promote',
-        'rq      raq     PV_w    ascend;rise;promote',
-        'rqY     roqaY   IV_0    ascend;rise;promote',
-        'rqy     roqay   IV_Ann  ascend;rise;promote',
-        'rq      roqa    IV_0hwnyn       ascend;rise;promote'
+        'raqiy   PV_no-w ascend;rise;promote',
+        'raq     PV_w    ascend;rise;promote',
+        'roqaY   IV_0    ascend;rise;promote',
+        'roqay   IV_Ann  ascend;rise;promote',
+        'roqa    IV_0hwnyn       ascend;rise;promote'
       ],
       'patterns' => {
         'rqay' => [
@@ -30207,14 +30206,14 @@ $Lexicon = {
       'form' => 'raqqY',
       'lines' => [
         ';; raq~aY_1',
-        'rqY     raq~aY  PV_0    promote;advance',
-        'rqA     raq~A   PV_h    promote;advance',
-        'rqy     raq~ay  PV_Atn  promote;advance',
-        'rq      raq~    PV_ttAw promote;advance',
-        'rqy     raq~iy  IV_0hAnn_yu     promote;advance',
-        'rq      raq~    IV_0hwnyn_yu    promote;advance',
-        'rqY     raq~aY  IV_0_Pass_yu    be promoted;be advanced',
-        'rqy     raq~ay  IV_Ann_Pass_yu  be promoted;be advanced'
+        'raq~aY  PV_0    promote;advance',
+        'raq~A   PV_h    promote;advance',
+        'raq~ay  PV_Atn  promote;advance',
+        'raq~    PV_ttAw promote;advance',
+        'raq~iy  IV_0hAnn_yu     promote;advance',
+        'raq~    IV_0hwnyn_yu    promote;advance',
+        'raq~aY  IV_0_Pass_yu    be promoted;be advanced',
+        'raq~ay  IV_Ann_Pass_yu  be promoted;be advanced'
       ],
       'patterns' => {
         'raqqiy' => [
@@ -30252,12 +30251,12 @@ $Lexicon = {
       'form' => 'taraqqY',
       'lines' => [
         ';; taraq~aY_1',
-        'trqY    taraq~aY        PV_0    progress;advance;ascend',
-        'trqy    taraq~ay        PV_Atn  progress;advance;ascend',
-        'trq     taraq~  PV_ttAw progress;advance;ascend',
-        'trqY    taraq~aY        IV_0    progress;advance;ascend',
-        'trqy    taraq~ay        IV_Ann  progress;advance;ascend',
-        'trq     taraq~  IV_0hwnyn       progress;advance;ascend'
+        'taraq~aY        PV_0    progress;advance;ascend',
+        'taraq~ay        PV_Atn  progress;advance;ascend',
+        'taraq~  PV_ttAw progress;advance;ascend',
+        'taraq~aY        IV_0    progress;advance;ascend',
+        'taraq~ay        IV_Ann  progress;advance;ascend',
+        'taraq~  IV_0hwnyn       progress;advance;ascend'
       ],
       'patterns' => {
         'taraqqay' => [
@@ -30300,14 +30299,14 @@ $Lexicon = {
       'entry' => 'irtaqY',
       'form' => 'irtaqY',
       'lines' => [
-        ';; {irotaqaY_1',
-        '<rtqY   {irotaqaY       PV_0    ascend;increase;rise',
-        '<rtqA   {irotaqA        PV_h    ascend;increase;rise',
-        '<rtqy   {irotaqay       PV_Atn  ascend;increase;rise',
-        '<rtq    {irotaq PV_ttAw ascend;increase;rise',
-        'rtqy    rotaqiy IV_0hAnn        ascend;increase;rise',
-        'rtq     rotaq   IV_0hwnyn       ascend;increase;rise',
-        'rtqY    rotaqaY IV_0    ascend;increase;rise'
+        ';; AirotaqaY_1',
+        'AirotaqaY       PV_0    ascend;increase;rise',
+        'AirotaqA        PV_h    ascend;increase;rise',
+        'Airotaqay       PV_Atn  ascend;increase;rise',
+        'Airotaq PV_ttAw ascend;increase;rise',
+        'rotaqiy IV_0hAnn        ascend;increase;rise',
+        'rotaq   IV_0hwnyn       ascend;increase;rise',
+        'rotaqaY IV_0    ascend;increase;rise'
       ],
       'patterns' => {
         'irtaqay' => [
@@ -30338,7 +30337,7 @@ $Lexicon = {
       'form' => 'ruqiyy',
       'lines' => [
         ';; ruqiy~_1',
-        'rqy     ruqiy~  N       progress;rise;promotion'
+        'ruqiy~  N       progress;rise;promotion'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30359,7 +30358,7 @@ $Lexicon = {
       'form' => 'ruqyaT',
       'lines' => [
         ';; ruqoyap_1',
-        'rqy     ruqoy   Nap     spell;charm;incantation;magic'
+        'ruqoy   Nap     spell;charm;incantation;magic'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30381,7 +30380,7 @@ $Lexicon = {
       'form' => 'ruqayyaT',
       'lines' => [
         ';; ruqay~ap_1',
-        'rqyp    ruqay~ap        Nprop   Ruqayya'
+        'ruqay~ap        Nprop   Ruqayya'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30409,11 +30408,11 @@ $Lexicon = {
       'form' => 'ruqY',
       'lines' => [
         ';; ruqaY_1',
-        'rqY     ruqaY   N0      magic;sorcery',
-        'rqA     ruqA    Nhy     magic;sorcery',
-        'rqA\'    raq~A\'  N0_Nh   magician;sorcerer',
-        'rqA&    raq~A&  Nh      magician;sorcerer',
-        'rqA}    raq~A}  Nhy     magician;sorcerer'
+        'ruqaY   N0      magic;sorcery',
+        'ruqA    Nhy     magic;sorcery',
+        'raq~A\'  N0_Nh   magician;sorcerer',
+        'raq~A&  Nh      magician;sorcerer',
+        'raq~A}  Nhy     magician;sorcerer'
       ],
       'patterns' => {
         'raqqA\'' => [],
@@ -30442,9 +30441,9 @@ $Lexicon = {
       'form' => '\'arqY',
       'lines' => [
         ';; >aroqaY_1',
-        '>rqY    >aroqaY N0      higher;superior;more/most advanced',
-        '>rqA    >aroqA  Nhy     higher;superior;more/most advanced',
-        '>rqy    >aroqay NAn_Nayn        higher;superior;more/most advanced'
+        '>aroqaY N0      higher;superior;more/most advanced',
+        '>aroqA  Nhy     higher;superior;more/most advanced',
+        '>aroqay NAn_Nayn        higher;superior;more/most advanced'
       ],
       'patterns' => {
         '\'arqA' => []
@@ -30471,9 +30470,9 @@ $Lexicon = {
       'form' => 'mirqAT',
       'lines' => [
         ';; miroqAp_1',
-        'mrqA    miroqA  Napdu   stairs;ladder;elevator',
-        'mrAqy   marAqiy N0_Nh   stairs;ladders;elevators',
-        'mrAq    marAq   NK      stairs;ladders;elevators'
+        'miroqA  Napdu   stairs;ladder;elevator',
+        'marAqiy N0_Nh   stairs;ladders;elevators',
+        'marAq   NK      stairs;ladders;elevators'
       ],
       'patterns' => {
         'marAqiy' => [
@@ -30500,7 +30499,7 @@ $Lexicon = {
       'form' => 'tarqiyaT',
       'lines' => [
         ';; taroqiyap_1',
-        'trqy    taroqiy NapAt   promotion;advancement;elevation'
+        'taroqiy NapAt   promotion;advancement;elevation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30525,10 +30524,10 @@ $Lexicon = {
       'form' => 'taraqqiy',
       'lines' => [
         ';; taraq~iy_1',
-        'trqy    taraq~iy        N0_Nh   ascent;advance;progress',
-        'trq     taraq~  NK      ascent;advance;progress',
-        'trqy    taraq~iy        NAn_Nayn        ascent;advance;progress',
-        'trqy    taraq~iy        NAt     ascent;advances;progress'
+        'taraq~iy        N0_Nh   ascent;advance;progress',
+        'taraq~  NK      ascent;advance;progress',
+        'taraq~iy        NAn_Nayn        ascent;advance;progress',
+        'taraq~iy        NAt     ascent;advances;progress'
       ],
       'patterns' => {
         'taraqqiy' => [
@@ -30579,11 +30578,11 @@ $Lexicon = {
       'form' => 'rAqiy',
       'lines' => [
         ';; rAqiy_1',
-        'rAqy    rAqiy   N0F     ascending;advanced     [[rAqiy/ADJ]]',
-        'rAq     rAq     NK      ascending;advanced',
-        'rAqy    rAqiy   NAn_Nayn        ascending;advanced',
-        'rAq     rAq     Nuwn_Niyn       ascending;advanced',
-        'rAqy    rAqiy   NapAt   ascending;advanced'
+        'rAqiy   N0F     ascending;advanced     [[rAqiy/ADJ]]',
+        'rAq     NK      ascending;advanced',
+        'rAqiy   NAn_Nayn        ascending;advanced',
+        'rAq     Nuwn_Niyn       ascending;advanced',
+        'rAqiy   NapAt   ascending;advanced'
       ],
       'patterns' => {
         'rAqiy' => [
@@ -30615,11 +30614,11 @@ $Lexicon = {
       'form' => 'rAqiy',
       'lines' => [
         ';; rAqiy_2',
-        'rAqy    rAqiy   N0F_Nh  sorcerer',
-        'rAq     rAq     NK      sorcerer',
-        'rAqy    rAqiy   NAn_Nayn        sorcerers',
-        'rAq     rAq     Nuwn_Niyn       sorcerers',
-        'rqA     ruqA    Nap     sorcerers'
+        'rAqiy   N0F_Nh  sorcerer',
+        'rAq     NK      sorcerer',
+        'rAqiy   NAn_Nayn        sorcerers',
+        'rAq     Nuwn_Niyn       sorcerers',
+        'ruqA    Nap     sorcerers'
       ],
       'patterns' => {
         'rAq' => [],
@@ -30651,11 +30650,11 @@ $Lexicon = {
       'form' => 'murtaqiy',
       'lines' => [
         ';; murotaqiy_1',
-        'mrtqy   murotaqiy       N0_Nh   superior;advanced     [[murotaqiy/ADJ]]',
-        'mrtq    murotaq NK      superior;advanced',
-        'mrtqy   murotaqiy       NAn_Nayn        superior;advanced',
-        'mrtq    murotaq Nuwn_Niyn       superior;advanced',
-        'mrtqy   murotaqiy       NapAt   superior;advanced'
+        'murotaqiy       N0_Nh   superior;advanced     [[murotaqiy/ADJ]]',
+        'murotaq NK      superior;advanced',
+        'murotaqiy       NAn_Nayn        superior;advanced',
+        'murotaq Nuwn_Niyn       superior;advanced',
+        'murotaqiy       NapAt   superior;advanced'
       ],
       'patterns' => {
         'murtaqiy' => [
@@ -30684,8 +30683,8 @@ $Lexicon = {
       'form' => 'murtaqY',
       'lines' => [
         ';; murotaqaY_1',
-        'mrtqY   murotaqaY       N0      ascent;rise',
-        'mrtqA   murotaqA        Nhy     ascent;rise'
+        'murotaqaY       N0      ascent;rise',
+        'murotaqA        Nhy     ascent;rise'
       ],
       'patterns' => {
         'murtaqA' => []
@@ -30713,8 +30712,8 @@ $Lexicon = {
       'form' => 'ra^saq',
       'lines' => [
         ';; ra$aq-u_1',
-        'r$q     ra$aq   PV      throw;strike;insert',
-        'r$q     ro$uq   IV      throw;strike;insert'
+        'ra$aq   PV      throw;strike;insert',
+        'ro$uq   IV      throw;strike;insert'
       ],
       'patterns' => {
         'r^suq' => [
@@ -30746,8 +30745,8 @@ $Lexicon = {
       'form' => 'ra^suq',
       'lines' => [
         ';; ra$uq-u_1',
-        'r$q     ra$uq   PV_intr be shapely;be elegant',
-        'r$q     ro$uq   IV_intr be shapely;be elegant'
+        'ra$uq   PV_intr be shapely;be elegant',
+        'ro$uq   IV_intr be shapely;be elegant'
       ],
       'patterns' => {
         'r^suq' => [
@@ -30774,8 +30773,8 @@ $Lexicon = {
       'form' => 'tarA^saq',
       'lines' => [
         ';; tarA$aq_1',
-        'trA$q   tarA$aq PV      pelt each other',
-        'trA$q   tarA$aq IV      pelt each other'
+        'tarA$aq PV      pelt each other',
+        'tarA$aq IV      pelt each other'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30794,7 +30793,7 @@ $Lexicon = {
       'form' => 'ra^siyq',
       'lines' => [
         ';; ra$iyq_1',
-        'r$yq    ra$iyq  Nall    elegant;slender     [[ra$iyq/ADJ]]'
+        'ra$iyq  Nall    elegant;slender     [[ra$iyq/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30814,7 +30813,7 @@ $Lexicon = {
       'form' => 'ra^sAqaT',
       'lines' => [
         ';; ra$Aqap_1',
-        'r$Aq    ra$Aq   Nap     shapeliness;slenderness'
+        'ra$Aq   Nap     shapeliness;slenderness'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30836,7 +30835,7 @@ $Lexicon = {
       'form' => 'rayy',
       'lines' => [
         ';; ray~_1',
-        'ry      ray~    N       irrigation'
+        'ray~    N       irrigation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30873,8 +30872,8 @@ $Lexicon = {
       'form' => 'rayyaN',
       'lines' => [
         ';; ray~AF_1',
-        'ryA     ray~AF  FW-WaBi fragrance;aroma;scent     [[ray~AF/NOUN]]',
-        'ryA     ray~A   N0_Nhy  fragrance;aroma;scent'
+        'ray~AF  FW-WaBi fragrance;aroma;scent     [[ray~AF/NOUN]]',
+        'ray~A   N0_Nhy  fragrance;aroma;scent'
       ],
       'patterns' => {
         'rayyY' => [
@@ -30906,8 +30905,8 @@ $Lexicon = {
       'form' => 'ranna.h',
       'lines' => [
         ';; ran~aH_1',
-        'rnH     ran~aH  PV      make dizzy;sway',
-        'rnH     ran~iH  IV_yu   make dizzy;sway'
+        'ran~aH  PV      make dizzy;sway',
+        'ran~iH  IV_yu   make dizzy;sway'
       ],
       'patterns' => {
         'ranni.h' => [
@@ -30931,8 +30930,8 @@ $Lexicon = {
       'form' => 'taranna.h',
       'lines' => [
         ';; taran~aH_1',
-        'trnH    taran~aH        PV_intr be swayed;be carried away;become ecstatic',
-        'trnH    taran~aH        IV_intr be swayed;be carried away;become ecstatic'
+        'taran~aH        PV_intr be swayed;be carried away;become ecstatic',
+        'taran~aH        IV_intr be swayed;be carried away;become ecstatic'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30953,7 +30952,7 @@ $Lexicon = {
       'form' => 'marna.haT',
       'lines' => [
         ';; maronaHap_1',
-        'mrnH    maronaH Nap     prow (of a ship)'
+        'maronaH Nap     prow (of a ship)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -30974,7 +30973,7 @@ $Lexicon = {
       'form' => 'ri.dA',
       'lines' => [
         ';; riDA_1',
-        'rDA     riDA    Nprop   Rida;Reza'
+        'riDA    Nprop   Rida;Reza'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31000,8 +30999,8 @@ $Lexicon = {
       'form' => 'rAnA',
       'lines' => [
         ';; rAnA_1',
-        'rAnA    rAnA    Nprop   Rana',
-        'rnA     ranA    Nprop   Rana'
+        'rAnA    Nprop   Rana',
+        'ranA    Nprop   Rana'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31032,10 +31031,10 @@ $Lexicon = {
       'form' => 'ra_t_t',
       'lines' => [
         ';; rav~-i_1',
-        'rv      rav~    PV_V_intr       be ragged;be shabby',
-        'rvv     ravav   PV_C_intr       be ragged;be shabby',
-        'rv      riv~    IV_V_intr       be ragged;be shabby',
-        'rvv     roviv   IV_C_intr       be ragged;be shabby'
+        'rav~    PV_V_intr       be ragged;be shabby',
+        'ravav   PV_C_intr       be ragged;be shabby',
+        'riv~    IV_V_intr       be ragged;be shabby',
+        'roviv   IV_C_intr       be ragged;be shabby'
       ],
       'patterns' => {
         'r_ti_t' => [
@@ -31072,8 +31071,8 @@ $Lexicon = {
       'form' => 'ra_t_t',
       'lines' => [
         ';; rav~_1',
-        'rv      rav~    N/ap    shabby;tattered',
-        'rvAv    rivAv   N       shabby;tattered'
+        'rav~    N/ap    shabby;tattered',
+        'rivAv   N       shabby;tattered'
       ],
       'patterns' => {
         'ri_tA_t' => [
@@ -31097,7 +31096,7 @@ $Lexicon = {
       'form' => 'ri_t_taT',
       'lines' => [
         ';; riv~ap_1',
-        'rv      riv~    Nap     old clothes'
+        'riv~    Nap     old clothes'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31116,7 +31115,7 @@ $Lexicon = {
       'form' => 'ra_tiy_t',
       'lines' => [
         ';; raviyv_1',
-        'rvyv    raviyv  N/ap    shabby;tattered     [[raviyv/ADJ]]'
+        'raviyv  N/ap    shabby;tattered     [[raviyv/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31136,7 +31135,7 @@ $Lexicon = {
       'form' => 'ra_tA_taT',
       'lines' => [
         ';; ravAvap_1',
-        'rvAv    ravAv   Nap     shabbiness'
+        'ravAv   Nap     shabbiness'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31155,7 +31154,7 @@ $Lexicon = {
       'form' => 'ru_tuw_taT',
       'lines' => [
         ';; ruvuwvap_1',
-        'rvwv    ruvuwv  Nap     shabbiness'
+        'ruvuwv  Nap     shabbiness'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31176,7 +31175,7 @@ $Lexicon = {
       'form' => 'rafsan^gAniyy',
       'lines' => [
         ';; rafosanojAniy~_1',
-        'rfsnjAny        rafosanojAniy~  Nprop   Rafsanjani'
+        'rafosanojAniy~  Nprop   Rafsanjani'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31273,8 +31272,8 @@ $Lexicon = {
       'form' => 'ra.dra.d',
       'lines' => [
         ';; raDoraD_1',
-        'rDrD    raDoraD PV      crush;grind',
-        'rDrD    raDoriD IV_yu   crush;grind'
+        'raDoraD PV      crush;grind',
+        'raDoriD IV_yu   crush;grind'
       ],
       'patterns' => {
         'ra.dri.d' => [
@@ -31298,7 +31297,7 @@ $Lexicon = {
       'form' => 'ra.drA.d',
       'lines' => [
         ';; raDorAD_1',
-        'rDrAD   raDorAD N       gravel;crushed rock'
+        'raDorAD N       gravel;crushed rock'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31324,8 +31323,8 @@ $Lexicon = {
       'form' => 'ruwmatizm',
       'lines' => [
         ';; ruwmatizm_1',
-        'rwmtzm  ruwmatizm       N       rheumatism',
-        'rwmAtzm ruwmAtizm       N       rheumatism'
+        'ruwmatizm       N       rheumatism',
+        'ruwmAtizm       N       rheumatism'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31350,8 +31349,8 @@ $Lexicon = {
       'form' => 'rabi.h',
       'lines' => [
         ';; rabiH-a_1',
-        'rbH     rabiH   PV      gain;profit',
-        'rbH     robaH   IV      gain;profit'
+        'rabiH   PV      gain;profit',
+        'robaH   IV      gain;profit'
       ],
       'patterns' => {
         'rba.h' => [
@@ -31382,8 +31381,8 @@ $Lexicon = {
       'form' => 'rabba.h',
       'lines' => [
         ';; rab~aH_1',
-        'rbH     rab~aH  PV      make gain;give profit',
-        'rbH     rab~iH  IV_yu   make gain;give profit'
+        'rab~aH  PV      make gain;give profit',
+        'rab~iH  IV_yu   make gain;give profit'
       ],
       'patterns' => {
         'rabbi.h' => [
@@ -31411,8 +31410,8 @@ $Lexicon = {
       'form' => '\'arba.h',
       'lines' => [
         ';; >arobaH_1',
-        '>rbH    >arobaH PV      make gain;give profit',
-        'rbH     robiH   IV_yu   make gain;give profit'
+        '>arobaH PV      make gain;give profit',
+        'robiH   IV_yu   make gain;give profit'
       ],
       'patterns' => {
         'rbi.h' => [
@@ -31440,8 +31439,8 @@ $Lexicon = {
       'form' => 'rib.h',
       'lines' => [
         ';; riboH_1',
-        'rbH     riboH   N       profit;interest',
-        '>rbAH   >arobAH N       dividends;revenues'
+        'riboH   N       profit;interest',
+        '>arobAH N       dividends;revenues'
       ],
       'patterns' => {
         '\'arbA.h' => [
@@ -31467,7 +31466,7 @@ $Lexicon = {
       'form' => 'rib.hiyy',
       'lines' => [
         ';; riboHiy~_1',
-        'rbHy    riboHiy~        Nall    profit;interest     [[riboHiy~/ADJ]]'
+        'riboHiy~        Nall    profit;interest     [[riboHiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31491,8 +31490,8 @@ $Lexicon = {
       'form' => 'rubbA.h',
       'lines' => [
         ';; rub~AH_1',
-        'rbAH    rub~AH  Ndu     monkey',
-        'rbAbyH  rabAbiyH        Ndip    monkeys'
+        'rub~AH  Ndu     monkey',
+        'rabAbiyH        Ndip    monkeys'
       ],
       'patterns' => {
         'rabAbiy.h' => [
@@ -31516,7 +31515,7 @@ $Lexicon = {
       'form' => '\'arba.h',
       'lines' => [
         ';; >arobaH_2',
-        '>rbH    >arobaH Nel     more/most profitable;more/most lucrative'
+        '>arobaH Nel     more/most profitable;more/most lucrative'
       ],
       'patterns' => {},
       'index' => '2',
@@ -31536,7 +31535,7 @@ $Lexicon = {
       'form' => 'murAba.haT',
       'lines' => [
         ';; murAbaHap_1',
-        'mrAbH   murAbaH NapAt   resale for profit'
+        'murAbaH NapAt   resale for profit'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31555,7 +31554,7 @@ $Lexicon = {
       'form' => 'rAbi.h',
       'lines' => [
         ';; rAbiH_1',
-        'rAbH    rAbiH   Nall    beneficiary;profiteer;lucrative'
+        'rAbiH   Nall    beneficiary;profiteer;lucrative'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31576,7 +31575,7 @@ $Lexicon = {
       'form' => 'murbi.h',
       'lines' => [
         ';; murobiH_1',
-        'mrbH    murobiH Nall    lucrative;profitable     [[murobiH/ADJ]]'
+        'murobiH Nall    lucrative;profitable     [[murobiH/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31606,10 +31605,10 @@ $Lexicon = {
       'form' => 'rAb',
       'lines' => [
         ';; rAb-i_1',
-        'rAb     rAb     PV_V    elicit doubts;cast suspicion on;question',
-        'rb      rib     PV_C    elicit doubts;cast suspicion on;question',
-        'ryb     riyb    IV_V    elicit doubts;cast suspicion on;question',
-        'rb      rib     IV_C    elicit doubts;cast suspicion on;question'
+        'rAb     PV_V    elicit doubts;cast suspicion on;question',
+        'rib     PV_C    elicit doubts;cast suspicion on;question',
+        'riyb    IV_V    elicit doubts;cast suspicion on;question',
+        'rib     IV_C    elicit doubts;cast suspicion on;question'
       ],
       'patterns' => {
         'riyb' => [
@@ -31656,12 +31655,12 @@ $Lexicon = {
       'form' => '\'arAb',
       'lines' => [
         ';; >arAb_2',
-        '>rAb    >arAb   PV_V    disquiet;fill with misgivings',
-        '>rb     >arab   PV_C    disquiet;fill with misgivings',
-        'ryb     riyb    IV_V_yu disquiet;fill with misgivings',
-        'rb      rib     IV_C_yu disquiet;fill with misgivings',
-        'rAb     rAb     IV_V_Pass_yu    be disquieted;be filled with misgivings',
-        'rb      rab     IV_C_Pass_yu    be disquieted;be filled with misgivings'
+        '>arAb   PV_V    disquiet;fill with misgivings',
+        '>arab   PV_C    disquiet;fill with misgivings',
+        'riyb    IV_V_yu disquiet;fill with misgivings',
+        'rib     IV_C_yu disquiet;fill with misgivings',
+        'rAb     IV_V_Pass_yu    be disquieted;be filled with misgivings',
+        'rab     IV_C_Pass_yu    be disquieted;be filled with misgivings'
       ],
       'patterns' => {
         'riyb' => [
@@ -31699,8 +31698,8 @@ $Lexicon = {
       'form' => 'tarayyab',
       'lines' => [
         ';; taray~ab_1',
-        'tryb    taray~ab        PV      have misgivings;be suspicious',
-        'tryb    taray~ab        IV      have misgivings;be suspicious'
+        'taray~ab        PV      have misgivings;be suspicious',
+        'taray~ab        IV      have misgivings;be suspicious'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31729,11 +31728,11 @@ $Lexicon = {
       'entry' => 'irtAb',
       'form' => 'irtAb',
       'lines' => [
-        ';; {irotAb_1',
-        '<rtAb   {irotAb PV_V    have misgivings;be suspicious',
-        '<rtb    {irotab PV_C    have misgivings;be suspicious',
-        'rtAb    rotAb   IV_V    have misgivings;be suspicious',
-        'rtb     rotab   IV_C    have misgivings;be suspicious'
+        ';; AirotAb_1',
+        'AirotAb PV_V    have misgivings;be suspicious',
+        'Airotab PV_C    have misgivings;be suspicious',
+        'rotAb   IV_V    have misgivings;be suspicious',
+        'rotab   IV_C    have misgivings;be suspicious'
       ],
       'patterns' => {
         'rtAb' => [
@@ -31772,11 +31771,11 @@ $Lexicon = {
       'entry' => 'istarAb',
       'form' => 'istarAb',
       'lines' => [
-        ';; {isotarAb_1',
-        '<strAb  {isotarAb       PV_V    have misgivings;be suspicious',
-        '<strb   {isotarab       PV_C    have misgivings;be suspicious',
-        'stryb   sotariyb        IV_V    have misgivings;be suspicious',
-        'strb    sotarib IV_C    have misgivings;be suspicious'
+        ';; AisotarAb_1',
+        'AisotarAb       PV_V    have misgivings;be suspicious',
+        'Aisotarab       PV_C    have misgivings;be suspicious',
+        'sotariyb        IV_V    have misgivings;be suspicious',
+        'sotarib IV_C    have misgivings;be suspicious'
       ],
       'patterns' => {
         'istarab' => [
@@ -31800,7 +31799,7 @@ $Lexicon = {
       'form' => 'rayb',
       'lines' => [
         ';; rayob_1',
-        'ryb     rayob   N       doubt;suspicion'
+        'rayob   N       doubt;suspicion'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31820,7 +31819,7 @@ $Lexicon = {
       'form' => 'lArayba',
       'lines' => [
         ';; lArayoba_1',
-        'lAryb   lArayoba        FW-Wa   without a doubt'
+        'lArayoba        FW-Wa   without a doubt'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31843,8 +31842,8 @@ $Lexicon = {
       'form' => 'riybaT',
       'lines' => [
         ';; riybap_1',
-        'ryb     riyb    Nap     doubt;suspicion',
-        'ryb     riyab   N       doubts;suspicions'
+        'riyb    Nap     doubt;suspicion',
+        'riyab   N       doubts;suspicions'
       ],
       'patterns' => {
         'riyab' => [
@@ -31870,7 +31869,7 @@ $Lexicon = {
       'form' => '\'aryab',
       'lines' => [
         ';; >aroyab_1',
-        '>ryb    >aroyab Nel     more/most skeptical'
+        '>aroyab Nel     more/most skeptical'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31892,8 +31891,8 @@ $Lexicon = {
       'entry' => 'irtiyAb',
       'form' => 'irtiyAb',
       'lines' => [
-        ';; {irotiyAb_1',
-        '<rtyAb  {irotiyAb       NduAt   doubt;suspicion'
+        ';; AirotiyAb_1',
+        'AirotiyAb       NduAt   doubt;suspicion'
       ],
       'patterns' => {
         'irtiyAb' => [
@@ -31917,7 +31916,7 @@ $Lexicon = {
       'form' => 'muriyb',
       'lines' => [
         ';; muriyb_1',
-        'mryb    muriyb  Nall    suspicious;doubtful     [[muriyb/ADJ]]'
+        'muriyb  Nall    suspicious;doubtful     [[muriyb/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31937,7 +31936,7 @@ $Lexicon = {
       'form' => 'murtAb',
       'lines' => [
         ';; murotAb_1',
-        'mrtAb   murotAb Nall    skeptical;suspicious;questionable     [[murotAb/ADJ]]'
+        'murotAb Nall    skeptical;suspicious;questionable     [[murotAb/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31958,7 +31957,7 @@ $Lexicon = {
       'form' => 'mustariyb',
       'lines' => [
         ';; musotariyb_1',
-        'mstryb  musotariyb      Nall    doubtful;suspicious     [[musotariyb/ADJ]]'
+        'musotariyb      Nall    doubtful;suspicious     [[musotariyb/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31978,7 +31977,7 @@ $Lexicon = {
       'form' => 'mustarAb',
       'lines' => [
         ';; musotarAb_1',
-        'mstrAb  musotarAb       N       suspect;doubtful     [[musotarAb/ADJ]]'
+        'musotarAb       N       suspect;doubtful     [[musotarAb/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31998,7 +31997,7 @@ $Lexicon = {
       'form' => 'riybiyy',
       'lines' => [
         ';; riybiy~_1',
-        'ryby    riybiy~ N-ap    ribo (in "deoxy-ribo-nucleic acid")     [[riybiy~/ADJ]]'
+        'riybiy~ N-ap    ribo (in "deoxy-ribo-nucleic acid")     [[riybiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32019,7 +32018,7 @@ $Lexicon = {
       'form' => 'ra.hmiy',
       'lines' => [
         ';; raHomiy_1',
-        'rHmy    raHomiy N0      Rahmi'
+        'raHomiy N0      Rahmi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32040,7 +32039,7 @@ $Lexicon = {
       'form' => 'ruw^giyih',
       'lines' => [
         ';; ruwjiyih_1',
-        'rwjyh   ruwjiyih        Nprop   Rogier'
+        'ruwjiyih        Nprop   Rogier'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32071,10 +32070,10 @@ $Lexicon = {
       'form' => 'ra.d.d',
       'lines' => [
         ';; raD~-u_1',
-        'rD      raD~    PV_V    crush;bruise',
-        'rDD     raDaD   PV_C    crush;bruise',
-        'rD      ruD~    IV_V    crush;bruise',
-        'rDD     roDuD   IV_C    crush;bruise'
+        'raD~    PV_V    crush;bruise',
+        'raDaD   PV_C    crush;bruise',
+        'ruD~    IV_V    crush;bruise',
+        'roDuD   IV_C    crush;bruise'
       ],
       'patterns' => {
         'ru.d.d' => [
@@ -32111,8 +32110,8 @@ $Lexicon = {
       'form' => 'ra.d.d',
       'lines' => [
         ';; raD~_1',
-        'rD      raD~    Ndu     bruise;contusion',
-        'rDwD    ruDuwD  N       bruises;contusions'
+        'raD~    Ndu     bruise;contusion',
+        'ruDuwD  N       bruises;contusions'
       ],
       'patterns' => {
         'ru.duw.d' => [
@@ -32138,7 +32137,7 @@ $Lexicon = {
       'form' => 'ra.diy.d',
       'lines' => [
         ';; raDiyD_1',
-        'rDyD    raDiyD  Nall    crushed;bruised     [[raDiyD/ADJ]]'
+        'raDiyD  Nall    crushed;bruised     [[raDiyD/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32164,8 +32163,8 @@ $Lexicon = {
       'form' => 'radan',
       'lines' => [
         ';; radan-i_1',
-        'rdn     radan   PV-n    spin;purr;grumble',
-        'rdn     rodin   IV-n    spin;purr;grumble'
+        'radan   PV-n    spin;purr;grumble',
+        'rodin   IV-n    spin;purr;grumble'
       ],
       'patterns' => {
         'rdin' => [
@@ -32193,7 +32192,7 @@ $Lexicon = {
       'form' => 'radn',
       'lines' => [
         ';; radon_1',
-        'rdn     radon   N       spinning;purring;grumbling'
+        'radon   N       spinning;purring;grumbling'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32218,8 +32217,8 @@ $Lexicon = {
       'form' => 'rudn',
       'lines' => [
         ';; rudon_1',
-        'rdn     rudon   Ndu     sleeve',
-        '>rdAn   >arodAn N       sleeves'
+        'rudon   Ndu     sleeve',
+        '>arodAn N       sleeves'
       ],
       'patterns' => {
         '\'ardAn' => [
@@ -32243,8 +32242,7 @@ $Lexicon = {
       'form' => 'rudaynaT',
       'lines' => [
         ';; rudayonap_1',
-        'rdynp   rudayonap       Nprop   Rdeneh;Rudaina',
-        'rdynh   rudayonap       Nprop   Rdeneh;Rudaina'
+        'rudayonap       Nprop   Rdeneh;Rudaina'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32264,7 +32262,7 @@ $Lexicon = {
       'form' => 'rudayniyy',
       'lines' => [
         ';; rudayoniy~_1',
-        'rdyny   rudayoniy~      Nall    spear     [[rudayoniy~/NOUN]]'
+        'rudayoniy~      Nall    spear     [[rudayoniy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32283,7 +32281,7 @@ $Lexicon = {
       'form' => 'rudayniyy',
       'lines' => [
         ';; rudayoniy~_2',
-        'rdyny   rudayoniy~      Nall    high-quality     [[rudayoniy~/ADJ]]'
+        'rudayoniy~      Nall    high-quality     [[rudayoniy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -32306,8 +32304,8 @@ $Lexicon = {
       'form' => 'mirdan',
       'lines' => [
         ';; mirodan_1',
-        'mrdn    mirodan Ndu     spindle;drum',
-        'mrAdn   marAdin Ndip    spindles;drums'
+        'mirodan Ndu     spindle;drum',
+        'marAdin Ndip    spindles;drums'
       ],
       'patterns' => {
         'marAdin' => [
@@ -32335,7 +32333,7 @@ $Lexicon = {
       'form' => 'risrAs',
       'lines' => [
         ';; risorAs_1',
-        'rsrAs   risorAs N       adhesive;glue'
+        'risorAs N       adhesive;glue'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32357,7 +32355,7 @@ $Lexicon = {
       'form' => 'ruwk',
       'lines' => [
         ';; ruwk_1',
-        'rwk     ruwk    N       rock;public;community'
+        'ruwk    N       rock;public;community'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32399,13 +32397,13 @@ $Lexicon = {
       'form' => 'ra^sA',
       'lines' => [
         ';; ra$A-u_1',
-        'r$A     ra$A    PV_0h   bribe',
-        'r$w     ra$aw   PV_Atn  bribe',
-        'r$      ra$     PV_ttAw bribe',
-        'r$w     ro$uw   IV_0hAnn        bribe',
-        'r$      ro$     IV_0hwnyn       bribe',
-        'r$Y     ro$aY   IV_0_Pass_yu    be bribed',
-        'r$y     ro$ay   IV_Ann_Pass_yu  be bribed'
+        'ra$A    PV_0h   bribe',
+        'ra$aw   PV_Atn  bribe',
+        'ra$     PV_ttAw bribe',
+        'ro$uw   IV_0hAnn        bribe',
+        'ro$     IV_0hwnyn       bribe',
+        'ro$aY   IV_0_Pass_yu    be bribed',
+        'ro$ay   IV_Ann_Pass_yu  be bribed'
       ],
       'patterns' => {
         'ra^saw' => [
@@ -32456,13 +32454,13 @@ $Lexicon = {
       'entry' => 'irta^sY',
       'form' => 'irta^sY',
       'lines' => [
-        ';; {irota$aY_1',
-        '<rt$Y   {irota$aY       PV_0    take bribes;be corrupt',
-        '<rt$A   {irota$A        PV_h    take bribes;be corrupt',
-        '<rt$y   {irota$ay       PV_Atn  take bribes;be corrupt',
-        '<rt$    {irota$ PV_ttAw take bribes;be corrupt',
-        'rt$y    rota$iy IV_0hAnn        take bribes;be corrupt',
-        'rt$     rota$   IV_0hwnyn       take bribes;be corrupt'
+        ';; Airota$aY_1',
+        'Airota$aY       PV_0    take bribes;be corrupt',
+        'Airota$A        PV_h    take bribes;be corrupt',
+        'Airota$ay       PV_Atn  take bribes;be corrupt',
+        'Airota$ PV_ttAw take bribes;be corrupt',
+        'rota$iy IV_0hAnn        take bribes;be corrupt',
+        'rota$   IV_0hwnyn       take bribes;be corrupt'
       ],
       'patterns' => {
         'rta^siy' => [
@@ -32486,7 +32484,7 @@ $Lexicon = {
       'form' => 'ra^sw',
       'lines' => [
         ';; ra$ow_1',
-        'r$w     ra$ow   N       bribery;corruption'
+        'ra$ow   N       bribery;corruption'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32525,13 +32523,13 @@ $Lexicon = {
       'form' => 'ra^swaT',
       'lines' => [
         ';; ra$owap_1',
-        'r$w     ra$ow   Napdu   bribe',
-        'r$AwY   ra$AwaY N0      bribes',
-        'r$AwA   ra$AwA  Nhy     bribes',
-        'r$Y     ru$aY   N0      bribes',
-        'r$A     ru$A    Nhy     bribes',
-        'r$A     ri$AF   FW-WaBi bribes     [[ri$AF/NOUN]]',
-        'r$A     ri$A    N0_Nhy  bribes'
+        'ra$ow   Napdu   bribe',
+        'ra$AwaY N0      bribes',
+        'ra$AwA  Nhy     bribes',
+        'ru$aY   N0      bribes',
+        'ru$A    Nhy     bribes',
+        'ri$AF   FW-WaBi bribes     [[ri$AF/NOUN]]',
+        'ri$A    N0_Nhy  bribes'
       ],
       'patterns' => {
         'ra^sAwY' => [
@@ -32562,9 +32560,9 @@ $Lexicon = {
       'form' => 'ri^sA\'',
       'lines' => [
         ';; ri$A\'_1',
-        'r$A\'    ri$A\'   N0_Nh   rope;well rope',
-        'r$A&    ri$A&   Nh      rope;well rope',
-        'r$A}    ri$A}   Nhy     rope;well rope'
+        'ri$A\'   N0_Nh   rope;well rope',
+        'ri$A&   Nh      rope;well rope',
+        'ri$A}   Nhy     rope;well rope'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32587,13 +32585,13 @@ $Lexicon = {
       'entry' => 'irti^sA\'',
       'form' => 'irti^sA\'',
       'lines' => [
-        ';; {iroti$A\'_1',
-        '<rt$A\'  {iroti$A\'       N0_Nh   venality;bribery;corruption',
-        '<rt$A&  {iroti$A&       Nh      venality;bribery;corruption',
-        '<rt$A}  {iroti$A}       Nhy     venality;bribery;corruption',
-        '<rt$A\'  {iroti$A\'       NAn_Nayn        venality;bribery;corruption',
-        '<rt$A}  {iroti$A}       Nayn    venality;bribery;corruption',
-        '<rt$A\'  {iroti$A\'       NAt     venality;bribery;corruption'
+        ';; Airoti$A\'_1',
+        'Airoti$A\'       N0_Nh   venality;bribery;corruption',
+        'Airoti$A&       Nh      venality;bribery;corruption',
+        'Airoti$A}       Nhy     venality;bribery;corruption',
+        'Airoti$A\'       NAn_Nayn        venality;bribery;corruption',
+        'Airoti$A}       Nayn    venality;bribery;corruption',
+        'Airoti$A\'       NAt     venality;bribery;corruption'
       ],
       'patterns' => {
         'irti^sA\'' => [
@@ -32624,7 +32622,7 @@ $Lexicon = {
       'form' => 'riybuwrtA^g',
       'lines' => [
         ';; riybuwrotAj_1',
-        'rybwrtAj        riybuwrotAj     N/At    report;news reporting'
+        'riybuwrotAj     N/At    report;news reporting'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32650,7 +32648,7 @@ $Lexicon = {
       'form' => 'ruwbuwt',
       'lines' => [
         ';; ruwbuwt_1',
-        'rwbwt   ruwbuwt N/At    robot'
+        'ruwbuwt N/At    robot'
       ],
       'patterns' => {
         'ruwbuwt' => []
@@ -32677,8 +32675,8 @@ $Lexicon = {
       'form' => 'raqam',
       'lines' => [
         ';; raqam-u_1',
-        'rqm     raqam   PV      number;mark',
-        'rqm     roqum   IV      number;mark'
+        'raqam   PV      number;mark',
+        'roqum   IV      number;mark'
       ],
       'patterns' => {
         'rqum' => [
@@ -32709,8 +32707,8 @@ $Lexicon = {
       'form' => 'raqqam',
       'lines' => [
         ';; raq~am_1',
-        'rqm     raq~am  PV      number;stripe',
-        'rqm     raq~im  IV_yu   number;stripe'
+        'raq~am  PV      number;stripe',
+        'raq~im  IV_yu   number;stripe'
       ],
       'patterns' => {
         'raqqim' => [
@@ -32738,9 +32736,9 @@ $Lexicon = {
       'form' => 'raqm',
       'lines' => [
         ';; raqom_1',
-        'rqm     raqom   Ndu     number;numeral',
-        'rqm     raqom   Ndu     record',
-        '>rqAm   >aroqAm N       numbers;numerals'
+        'raqom   Ndu     number;numeral',
+        'raqom   Ndu     record',
+        '>aroqAm N       numbers;numerals'
       ],
       'patterns' => {
         '\'arqAm' => [
@@ -32767,7 +32765,7 @@ $Lexicon = {
       'form' => 'raqamiyy',
       'lines' => [
         ';; raqamiy~_1',
-        'rqmy    raqamiy~        N-ap    numerical;number     [[raqamiy~/ADJ]]'
+        'raqamiy~        N-ap    numerical;number     [[raqamiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32791,8 +32789,8 @@ $Lexicon = {
       'form' => 'raqiym',
       'lines' => [
         ';; raqiym_1',
-        'rqym    raqiym  Ndu     text;message',
-        'rqA}m   raqA}im Ndip    texts;messages'
+        'raqiym  Ndu     text;message',
+        'raqA}im Ndip    texts;messages'
       ],
       'patterns' => {
         'raqA\'im' => [
@@ -32818,7 +32816,7 @@ $Lexicon = {
       'form' => 'raqqAmaT',
       'lines' => [
         ';; raq~Amap_1',
-        'rqAm    raq~Am  NapAt   numerator'
+        'raq~Am  NapAt   numerator'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32841,8 +32839,8 @@ $Lexicon = {
       'form' => 'mirqam',
       'lines' => [
         ';; miroqam_1',
-        'mrqm    miroqam Ndu     drawing pencil;crayon',
-        'mrAqm   marAqim Ndip    drawing pencils;crayons'
+        'miroqam Ndu     drawing pencil;crayon',
+        'marAqim Ndip    drawing pencils;crayons'
       ],
       'patterns' => {
         'marAqim' => [
@@ -32872,7 +32870,7 @@ $Lexicon = {
       'form' => 'tarqiym',
       'lines' => [
         ';; taroqiym_1',
-        'trqym   taroqiym        NduAt   numbering;numeration'
+        'taroqiym        NduAt   numbering;numeration'
       ],
       'patterns' => {
         'tarqiym' => [
@@ -32900,8 +32898,8 @@ $Lexicon = {
       'form' => 'marquwm',
       'lines' => [
         ';; maroquwm_1',
-        'mrqwm   maroquwm        N-ap    striped blanket',
-        'mrAqym  marAqiym        Ndip    striped blankets'
+        'maroquwm        N-ap    striped blanket',
+        'marAqiym        Ndip    striped blankets'
       ],
       'patterns' => {
         'marAqiym' => [
@@ -32927,8 +32925,8 @@ $Lexicon = {
       'form' => 'tarayya.d',
       'lines' => [
         ';; taray~aD_1',
-        'tryD    taray~aD        PV      do physical exercise;practice a sport',
-        'tryD    taray~aD        IV      do physical exercise;practice a sport'
+        'taray~aD        PV      do physical exercise;practice a sport',
+        'taray~aD        IV      do physical exercise;practice a sport'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32948,7 +32946,7 @@ $Lexicon = {
       'form' => 'riyA.d',
       'lines' => [
         ';; riyAD_1',
-        'ryAD    riyAD   N       Riyadh'
+        'riyAD   N       Riyadh'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32967,8 +32965,8 @@ $Lexicon = {
       'form' => 'riyA.daT',
       'lines' => [
         ';; riyADap_1',
-        'ryAD    riyAD   NapAt   sport;physical exercise',
-        'ryAD    riyAD   NapAt   mathematics'
+        'riyAD   NapAt   sport;physical exercise',
+        'riyAD   NapAt   mathematics'
       ],
       'patterns' => {},
       'index' => '1',
@@ -32989,8 +32987,8 @@ $Lexicon = {
       'form' => 'riyA.diyy',
       'lines' => [
         ';; riyADiy~_1',
-        'ryADy   riyADiy~        Nall    sports;sportive;mathematical     [[riyADiy~/ADJ]]',
-        'ryADy   riyADiy~        Nall    mathematician     [[riyADiy~/ADJ]]'
+        'riyADiy~        Nall    sports;sportive;mathematical     [[riyADiy~/ADJ]]',
+        'riyADiy~        Nall    mathematician     [[riyADiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33012,7 +33010,7 @@ $Lexicon = {
       'form' => 'riyA.diyy',
       'lines' => [
         ';; riyADiy~_2',
-        'ryADy   riyADiy~        N0      Riyadi;Sportif'
+        'riyADiy~        N0      Riyadi;Sportif'
       ],
       'patterns' => {},
       'index' => '2',
@@ -33036,7 +33034,7 @@ $Lexicon = {
       'form' => 'riyA.diyyAt',
       'lines' => [
         ';; riyADiy~At_1',
-        'ryADy   riyADiy~        NAt     mathematics     [[riyADiy~/NOUN]]'
+        'riyADiy~        NAt     mathematics     [[riyADiy~/NOUN]]'
       ],
       'patterns' => {
         'riyA.diyy' => []
@@ -33059,7 +33057,7 @@ $Lexicon = {
       'form' => 'rAduwfAn',
       'lines' => [
         ';; rAduwfAn_1',
-        'rAdwfAn rAduwfAn        Nprop   Radovan'
+        'rAduwfAn        Nprop   Radovan'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33084,8 +33082,8 @@ $Lexicon = {
       'form' => 'razab',
       'lines' => [
         ';; razab-u_1',
-        'rzb     razab   PV      cling to',
-        'rzb     rozub   IV      cling to'
+        'razab   PV      cling to',
+        'rozub   IV      cling to'
       ],
       'patterns' => {
         'rzub' => [
@@ -33115,8 +33113,8 @@ $Lexicon = {
       'form' => 'mirzAb',
       'lines' => [
         ';; mirozAb_1',
-        'mrzAb   mirozAb Ndu     waterspout;gargoyle;roof gutter',
-        'mrAzyb  marAziyb        Ndip    waterspouts;gargoyles;roof gutters'
+        'mirozAb Ndu     waterspout;gargoyle;roof gutter',
+        'marAziyb        Ndip    waterspouts;gargoyles;roof gutters'
       ],
       'patterns' => {
         'marAziyb' => [
@@ -33146,7 +33144,7 @@ $Lexicon = {
       'form' => 'rAdyawiyy',
       'lines' => [
         ';; rAdoyawiy~_1',
-        'rAdywy  rAdoyawiy~      Nall    radio     [[rAdoyawiy~/ADJ]]'
+        'rAdoyawiy~      Nall    radio     [[rAdoyawiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33171,8 +33169,8 @@ $Lexicon = {
       'form' => 'ra^gil',
       'lines' => [
         ';; rajil-a_1',
-        'rjl     rajil   PV      walk',
-        'rjl     rojal   IV      walk'
+        'rajil   PV      walk',
+        'rojal   IV      walk'
       ],
       'patterns' => {
         'r^gal' => [
@@ -33202,8 +33200,8 @@ $Lexicon = {
       'form' => 'ra^g^gal',
       'lines' => [
         ';; raj~al_1',
-        'rjl     raj~al  PV      comb',
-        'rjl     raj~il  IV_yu   comb'
+        'raj~al  PV      comb',
+        'raj~il  IV_yu   comb'
       ],
       'patterns' => {
         'ra^g^gil' => [
@@ -33226,8 +33224,8 @@ $Lexicon = {
       'form' => 'tara^g^gal',
       'lines' => [
         ';; taraj~al_1',
-        'trjl    taraj~al        PV      walk;march',
-        'trjl    taraj~al        IV      walk;march'
+        'taraj~al        PV      walk;march',
+        'taraj~al        IV      walk;march'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33250,9 +33248,9 @@ $Lexicon = {
       'entry' => 'irta^gal',
       'form' => 'irta^gal',
       'lines' => [
-        ';; {irotajal_1',
-        '<rtjl   {irotajal       PV      improvise;extemporize',
-        'rtjl    rotajil IV      improvise;extemporize'
+        ';; Airotajal_1',
+        'Airotajal       PV      improvise;extemporize',
+        'rotajil IV      improvise;extemporize'
       ],
       'patterns' => {
         'rta^gil' => [
@@ -33279,9 +33277,9 @@ $Lexicon = {
       'entry' => 'istar^gal',
       'form' => 'istar^gal',
       'lines' => [
-        ';; {isotarojal_1',
-        '<strjl  {isotarojal     PV_intr be masculine',
-        'strjl   sotarojil       IV_intr be masculine'
+        ';; Aisotarojal_1',
+        'Aisotarojal     PV_intr be masculine',
+        'sotarojil       IV_intr be masculine'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33304,8 +33302,8 @@ $Lexicon = {
       'form' => 'ri^gl',
       'lines' => [
         ';; rijol_1',
-        'rjl     rijol   Ndu     leg',
-        '>rjl    >arojul N       legs'
+        'rijol   Ndu     leg',
+        '>arojul N       legs'
       ],
       'patterns' => {
         '\'ar^gul' => [
@@ -33329,7 +33327,7 @@ $Lexicon = {
       'form' => '\'ar^gAl',
       'lines' => [
         ';; >arojAl_1',
-        '>rjAl   >arojAl N       swarms'
+        '>arojAl N       swarms'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33352,8 +33350,8 @@ $Lexicon = {
       'form' => 'ra^gul',
       'lines' => [
         ';; rajul_1',
-        'rjl     rajul   Ndu     man',
-        'rjAl    rijAl   N       men;people'
+        'rajul   Ndu     man',
+        'rijAl   N       men;people'
       ],
       'patterns' => {
         'ri^gAl' => [
@@ -33378,7 +33376,7 @@ $Lexicon = {
       'form' => 'ri^gAliyy',
       'lines' => [
         ';; rijAliy~_1',
-        'rjAly   rijAliy~        N-ap    for men;men\'s     [[rijAliy~/ADJ]]'
+        'rijAliy~        N-ap    for men;men\'s     [[rijAliy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33398,7 +33396,7 @@ $Lexicon = {
       'form' => 'ru^guwlaT',
       'lines' => [
         ';; rujuwlap_1',
-        'rjwl    rujuwl  Nap     masculinity;virility'
+        'rujuwl  Nap     masculinity;virility'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33418,7 +33416,7 @@ $Lexicon = {
       'form' => 'ru^guwliyyaT',
       'lines' => [
         ';; rujuwliy~ap_1',
-        'rjwly   rujuwliy~       Nap     masculinity;virility     [[rujuwliy~/NOUN]]'
+        'rujuwliy~       Nap     masculinity;virility     [[rujuwliy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33442,8 +33440,8 @@ $Lexicon = {
       'form' => 'mir^gal',
       'lines' => [
         ';; mirojal_1',
-        'mrjl    mirojal Ndu     caldron;boiler',
-        'mrAjl   marAjil Ndip    caldrons;boilers'
+        'mirojal Ndu     caldron;boiler',
+        'marAjil Ndip    caldrons;boilers'
       ],
       'patterns' => {
         'marA^gil' => [
@@ -33472,8 +33470,8 @@ $Lexicon = {
       'entry' => 'irti^gAl',
       'form' => 'irti^gAl',
       'lines' => [
-        ';; {irotijAl_1',
-        '<rtjAl  {irotijAl       NduAt   improvisation;extemporization'
+        ';; AirotijAl_1',
+        'AirotijAl       NduAt   improvisation;extemporization'
       ],
       'patterns' => {
         'irti^gAl' => [
@@ -33496,8 +33494,8 @@ $Lexicon = {
       'entry' => 'irti^gAl',
       'form' => 'irti^gAliyy',
       'lines' => [
-        ';; {irotijAliy~_1',
-        '<rtjAly {irotijAliy~    Nall    improvised;impromptu     [[{irotijAliy~/ADJ]]'
+        ';; AirotijAliy~_1',
+        'AirotijAliy~    Nall    improvised;impromptu     [[AirotijAliy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33516,8 +33514,8 @@ $Lexicon = {
       'entry' => 'irti^gAl',
       'form' => 'irti^gAliyyaT',
       'lines' => [
-        ';; {irotijAliy~ap_1',
-        '<rtjAly {irotijAliy~    Nap     unplanned procedure;improvised procedure     [[{irotijAliy~/NOUN]]'
+        ';; AirotijAliy~ap_1',
+        'AirotijAliy~    Nap     unplanned procedure;improvised procedure     [[AirotijAliy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33541,8 +33539,8 @@ $Lexicon = {
       'form' => 'rA^gil',
       'lines' => [
         ';; rAjil_1',
-        'rAjl    rAjil   Nall    man',
-        'rjAl    raj~Al  Nap     men'
+        'rAjil   Nall    man',
+        'raj~Al  Nap     men'
       ],
       'patterns' => {
         'ra^g^gAl' => [
@@ -33570,9 +33568,9 @@ $Lexicon = {
       'form' => 'rA^gil',
       'lines' => [
         ';; rAjil_2',
-        'rAjl    rAjil   Nall    pedestrian',
-        'rjAl    raj~Al  Nap     pedestrians',
-        'rAjl    rAjil   Nap     pedestrians'
+        'rAjil   Nall    pedestrian',
+        'raj~Al  Nap     pedestrians',
+        'rAjil   Nap     pedestrians'
       ],
       'patterns' => {
         'ra^g^gAl' => [
@@ -33596,7 +33594,7 @@ $Lexicon = {
       'form' => 'mutara^g^gil',
       'lines' => [
         ';; mutaraj~il_1',
-        'mtrjl   mutaraj~il      Nall    infantry;foot soldiers'
+        'mutaraj~il      Nall    infantry;foot soldiers'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33616,7 +33614,7 @@ $Lexicon = {
       'form' => 'murta^gal',
       'lines' => [
         ';; murotajal_1',
-        'mrtjl   murotajal       N-ap    improvised;impromptu     [[murotajal/ADJ]]'
+        'murotajal       N-ap    improvised;impromptu     [[murotajal/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33642,8 +33640,8 @@ $Lexicon = {
       'form' => 'marsa.h',
       'lines' => [
         ';; marosaH_1',
-        'mrsH    marosaH Ndu     theater;stage',
-        'mrAsH   marAsiH Ndip    theaters;stages'
+        'marosaH Ndu     theater;stage',
+        'marAsiH Ndip    theaters;stages'
       ],
       'patterns' => {
         'marAsi.h' => [
@@ -33669,7 +33667,7 @@ $Lexicon = {
       'form' => 'marsa.hiyy',
       'lines' => [
         ';; marosaHiy~_1',
-        'mrsHy   marosaHiy~      Nall    social;formal     [[marosaHiy~/ADJ]]'
+        'marosaHiy~      Nall    social;formal     [[marosaHiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33691,7 +33689,7 @@ $Lexicon = {
       'form' => 'ruwnAlduw',
       'lines' => [
         ';; ruwnAloduw_1',
-        'rwnAldw ruwnAloduw      Nprop   Ronaldo'
+        'ruwnAloduw      Nprop   Ronaldo'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33712,7 +33710,7 @@ $Lexicon = {
       'form' => 'rAwand',
       'lines' => [
         ';; rAwanod_1',
-        'rAwnd   rAwanod N       rhubarb'
+        'rAwanod N       rhubarb'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33737,8 +33735,8 @@ $Lexicon = {
       'form' => 'rahwan',
       'lines' => [
         ';; rahowan_1',
-        'rhwn    rahowan PV-n    amble (horse)',
-        'rhwn    rahowin IV-n_yu amble (horse)'
+        'rahowan PV-n    amble (horse)',
+        'rahowin IV-n_yu amble (horse)'
       ],
       'patterns' => {
         'rahwin' => [
@@ -33761,8 +33759,8 @@ $Lexicon = {
       'form' => 'tarahwan',
       'lines' => [
         ';; tarahowan_1',
-        'trhwn   tarahowan       PV-n    amble (horse)',
-        'trhwn   tarahowan       IV-n    amble (horse)'
+        'tarahowan       PV-n    amble (horse)',
+        'tarahowan       IV-n    amble (horse)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33781,7 +33779,7 @@ $Lexicon = {
       'form' => 'rahwanaT',
       'lines' => [
         ';; rahowanap_1',
-        'rhwn    rahowan Nap     ambling (horse)'
+        'rahowan Nap     ambling (horse)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33804,7 +33802,7 @@ $Lexicon = {
       'form' => 'tarahwun',
       'lines' => [
         ';; tarahowun_1',
-        'trhwn   tarahowun       N/At    ambling (horse)'
+        'tarahowun       N/At    ambling (horse)'
       ],
       'patterns' => {
         'tarahwun' => [
@@ -33836,9 +33834,9 @@ $Lexicon = {
       'form' => 'rAtiynaT',
       'lines' => [
         ';; rAtiynap_1',
-        'rtyn    ratiyn  Nap     mantle (on incandescent lamp)',
-        'rAtyn   rAtiyn  Nap     mantle (on incandescent lamp)',
-        'rtA}n   ratA}in Ndip    mantles (on incandescent lamps)'
+        'ratiyn  Nap     mantle (on incandescent lamp)',
+        'rAtiyn  Nap     mantle (on incandescent lamp)',
+        'ratA}in Ndip    mantles (on incandescent lamps)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -33868,10 +33866,10 @@ $Lexicon = {
       'form' => 'rA`',
       'lines' => [
         ';; rAE-u_1',
-        'rAE     rAE     PV_V    surprise;startle;thrill',
-        'rE      ruE     PV_C    surprise;startle;thrill',
-        'rwE     ruwE    IV_V    surprise;startle;thrill',
-        'rE      ruE     IV_C    surprise;startle;thrill'
+        'rAE     PV_V    surprise;startle;thrill',
+        'ruE     PV_C    surprise;startle;thrill',
+        'ruwE    IV_V    surprise;startle;thrill',
+        'ruE     IV_C    surprise;startle;thrill'
       ],
       'patterns' => {
         'ru`' => [
@@ -33906,8 +33904,8 @@ $Lexicon = {
       'form' => 'rawwa`',
       'lines' => [
         ';; raw~aE_1',
-        'rwE     raw~aE  PV      frighten',
-        'rwE     raw~iE  IV_yu   frighten'
+        'raw~aE  PV      frighten',
+        'raw~iE  IV_yu   frighten'
       ],
       'patterns' => {
         'rawwi`' => [
@@ -33946,12 +33944,12 @@ $Lexicon = {
       'form' => '\'arA`',
       'lines' => [
         ';; >arAE_1',
-        '>rAE    >arAE   PV_V    frighten',
-        '>rE     >araE   PV_C    frighten',
-        'ryE     riyE    IV_V_yu frighten',
-        'rE      riE     IV_C_yu frighten',
-        'rAE     rAE     IV_V_Pass_yu    be frightened',
-        'rE      raE     IV_C_Pass_yu    be frightened'
+        '>arAE   PV_V    frighten',
+        '>araE   PV_C    frighten',
+        'riyE    IV_V_yu frighten',
+        'riE     IV_C_yu frighten',
+        'rAE     IV_V_Pass_yu    be frightened',
+        'raE     IV_C_Pass_yu    be frightened'
       ],
       'patterns' => {
         'riy`' => [
@@ -33987,8 +33985,8 @@ $Lexicon = {
       'form' => 'tarawwa`',
       'lines' => [
         ';; taraw~aE_1',
-        'trwE    taraw~aE        PV_intr be frightened',
-        'trwE    taraw~aE        IV_intr be frightened'
+        'taraw~aE        PV_intr be frightened',
+        'taraw~aE        IV_intr be frightened'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34016,11 +34014,11 @@ $Lexicon = {
       'entry' => 'irtA`',
       'form' => 'irtA`',
       'lines' => [
-        ';; {irotAE_1',
-        '<rtAE   {irotAE PV_V_intr       be frightened',
-        '<rtE    {irotaE PV_C_intr       be frightened',
-        'rtAE    rotAE   IV_V_intr       be frightened',
-        'rtE     rotaE   IV_C_intr       be frightened'
+        ';; AirotAE_1',
+        'AirotAE PV_V_intr       be frightened',
+        'AirotaE PV_C_intr       be frightened',
+        'rotAE   IV_V_intr       be frightened',
+        'rotaE   IV_C_intr       be frightened'
       ],
       'patterns' => {
         'rta`' => [
@@ -34049,7 +34047,7 @@ $Lexicon = {
       'form' => 'raw`',
       'lines' => [
         ';; rawoE_1',
-        'rwE     rawoE   N       fright;alarm'
+        'rawoE   N       fright;alarm'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34069,7 +34067,7 @@ $Lexicon = {
       'form' => 'ruw`',
       'lines' => [
         ';; ruwE_1',
-        'rwE     ruwE    N       heart;mind;soul'
+        'ruwE    N       heart;mind;soul'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34090,7 +34088,7 @@ $Lexicon = {
       'form' => 'rA`',
       'lines' => [
         ';; rAE_1',
-        'rAE     rAE     N       beauty'
+        'rAE     N       beauty'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34109,7 +34107,7 @@ $Lexicon = {
       'form' => 'raw`aT',
       'lines' => [
         ';; rawoEap_1',
-        'rwE     rawoE   Nap     alarm;surprise;magnificence'
+        'rawoE   Nap     alarm;surprise;magnificence'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34130,7 +34128,7 @@ $Lexicon = {
       'form' => '\'arwa`',
       'lines' => [
         ';; >arowaE_1',
-        '>rwE    >arowaE Nel     more/most magnificent'
+        '>arowaE Nel     more/most magnificent'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34199,7 +34197,7 @@ $Lexicon = {
       'form' => 'murawwi`',
       'lines' => [
         ';; muraw~iE_1',
-        'mrwE    muraw~iE        Nall    terrible;dreadful     [[muraw~iE/ADJ]]'
+        'muraw~iE        Nall    terrible;dreadful     [[muraw~iE/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34219,7 +34217,7 @@ $Lexicon = {
       'form' => 'murawwa`',
       'lines' => [
         ';; muraw~aE_1',
-        'mrwE    muraw~aE        Nall    terrified;alarmed     [[muraw~aE/ADJ]]'
+        'muraw~aE        Nall    terrified;alarmed     [[muraw~aE/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34253,7 +34251,7 @@ $Lexicon = {
       'form' => 'murtA`',
       'lines' => [
         ';; murotAE_1',
-        'mrtAE   murotAE Nall    frightened;alarmed     [[murotAE/ADJ]]'
+        'murotAE Nall    frightened;alarmed     [[murotAE/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34283,10 +34281,10 @@ $Lexicon = {
       'form' => 'rA.d',
       'lines' => [
         ';; rAD-u_1',
-        'rAD     rAD     PV_V    domesticate;pacify',
-        'rD      ruD     PV_C    domesticate;pacify',
-        'rwD     ruwD    IV_V    domesticate;pacify',
-        'rD      ruD     IV_C    domesticate;pacify'
+        'rAD     PV_V    domesticate;pacify',
+        'ruD     PV_C    domesticate;pacify',
+        'ruwD    IV_V    domesticate;pacify',
+        'ruD     IV_C    domesticate;pacify'
       ],
       'patterns' => {
         'ru.d' => [
@@ -34320,8 +34318,8 @@ $Lexicon = {
       'form' => 'rawwa.d',
       'lines' => [
         ';; raw~aD_1',
-        'rwD     raw~aD  PV      domesticate;pacify;regulate',
-        'rwD     raw~iD  IV_yu   domesticate;pacify;regulate'
+        'raw~aD  PV      domesticate;pacify;regulate',
+        'raw~iD  IV_yu   domesticate;pacify;regulate'
       ],
       'patterns' => {
         'rawwi.d' => [
@@ -34350,8 +34348,8 @@ $Lexicon = {
       'form' => 'rAwa.d',
       'lines' => [
         ';; rAwaD_1',
-        'rAwD    rAwaD   PV      try to pacify;try to regulate',
-        'rAwD    rAwiD   IV_yu   try to pacify;try to regulate'
+        'rAwaD   PV      try to pacify;try to regulate',
+        'rAwiD   IV_yu   try to pacify;try to regulate'
       ],
       'patterns' => {
         'rAwi.d' => [
@@ -34375,8 +34373,8 @@ $Lexicon = {
       'form' => 'tarawwa.d',
       'lines' => [
         ';; taraw~aD_1',
-        'trwD    taraw~aD        PV      practice;exercise',
-        'trwD    taraw~aD        IV      practice;exercise'
+        'taraw~aD        PV      practice;exercise',
+        'taraw~aD        IV      practice;exercise'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34396,8 +34394,8 @@ $Lexicon = {
       'form' => 'tarAwa.d',
       'lines' => [
         ';; tarAwaD_1',
-        'trAwD   tarAwaD PV      haggle;bargain',
-        'trAwD   tarAwaD IV      haggle;bargain'
+        'tarAwaD PV      haggle;bargain',
+        'tarAwaD IV      haggle;bargain'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34426,11 +34424,11 @@ $Lexicon = {
       'entry' => 'irtA.d',
       'form' => 'irtA.d',
       'lines' => [
-        ';; {irotAD_1',
-        '<rtAD   {irotAD PV_V    practice;exercise',
-        '<rtD    {irotaD PV_C    practice;exercise',
-        'rtAD    rotAD   IV_V    practice;exercise',
-        'rtD     rotaD   IV_C    practice;exercise'
+        ';; AirotAD_1',
+        'AirotAD PV_V    practice;exercise',
+        'AirotaD PV_C    practice;exercise',
+        'rotAD   IV_V    practice;exercise',
+        'rotaD   IV_C    practice;exercise'
       ],
       'patterns' => {
         'rta.d' => [
@@ -34469,11 +34467,11 @@ $Lexicon = {
       'entry' => 'istarA.d',
       'form' => 'istarA.d',
       'lines' => [
-        ';; {isotarAD_1',
-        '<strAD  {isotarAD       PV_V_intr       be cheerful',
-        '<strD   {isotaraD       PV_C_intr       be cheerful',
-        'stryD   sotariyD        IV_V_intr       be cheerful',
-        'strD    sotariD IV_C_intr       be cheerful'
+        ';; AisotarAD_1',
+        'AisotarAD       PV_V_intr       be cheerful',
+        'AisotaraD       PV_C_intr       be cheerful',
+        'sotariyD        IV_V_intr       be cheerful',
+        'sotariD IV_C_intr       be cheerful'
       ],
       'patterns' => {
         'istara.d' => [
@@ -34506,10 +34504,10 @@ $Lexicon = {
       'form' => 'raw.daT',
       'lines' => [
         ';; rawoDap_1',
-        'rwD     rawoD   NapAt   garden;meadow;kindergarten',
-        'rwD     rawoD   N       gardens;meadows;kindergartens',
-        'ryDAn   riyDAn  N       gardens;meadows',
-        'ryAD    riyAD   N       gardens'
+        'rawoD   NapAt   garden;meadow;kindergarten',
+        'rawoD   N       gardens;meadows;kindergartens',
+        'riyDAn  N       gardens;meadows',
+        'riyAD   N       gardens'
       ],
       'patterns' => {
         'riy.dAn' => [
@@ -34619,7 +34617,7 @@ $Lexicon = {
       'form' => 'tarwiy.d',
       'lines' => [
         ';; tarowiyD_1',
-        'trwyD   tarowiyD        NduAt   sports'
+        'tarowiyD        NduAt   sports'
       ],
       'patterns' => {
         'tarwiy.d' => [
@@ -34648,9 +34646,9 @@ $Lexicon = {
       'form' => 'ruwsiyy',
       'lines' => [
         ';; ruwsiy~_1',
-        'rwsy    ruwsiy~ Nall    Russian     [[ruwsiy~/NOUN]]',
-        'rwsy    ruwsiy~ Nall    Russian     [[ruwsiy~/ADJ]]',
-        'rws     ruws    N       Russians'
+        'ruwsiy~ Nall    Russian     [[ruwsiy~/NOUN]]',
+        'ruwsiy~ Nall    Russian     [[ruwsiy~/ADJ]]',
+        'ruws    N       Russians'
       ],
       'patterns' => {
         'ruws' => [
@@ -34674,7 +34672,7 @@ $Lexicon = {
       'form' => 'ruwsiyyaT',
       'lines' => [
         ';; ruwsiy~ap_1',
-        'rwsy    ruwsiy~ Nap     Russian (language)     [[ruwsiy~/NOUN]]'
+        'ruwsiy~ Nap     Russian (language)     [[ruwsiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34693,7 +34691,7 @@ $Lexicon = {
       'form' => 'ruws',
       'lines' => [
         ';; ruws_1',
-        'rws     ruws    Nprop   Ross'
+        'ruws    Nprop   Ross'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34716,8 +34714,8 @@ $Lexicon = {
       'form' => 'rawwas',
       'lines' => [
         ';; raw~as_1',
-        'rws     raw~as  PV      sharpen;taper;give a heading/title',
-        'rws     raw~is  IV_yu   sharpen;taper;give a heading/title'
+        'raw~as  PV      sharpen;taper;give a heading/title',
+        'raw~is  IV_yu   sharpen;taper;give a heading/title'
       ],
       'patterns' => {
         'rawwis' => [
@@ -34742,7 +34740,7 @@ $Lexicon = {
       'form' => 'tarwiysaT',
       'lines' => [
         ';; tarowiysap_1',
-        'trwys   tarowiys        NapAt   title;heading;caption'
+        'tarowiys        NapAt   title;heading;caption'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34767,9 +34765,9 @@ $Lexicon = {
       'form' => 'mirwAs',
       'lines' => [
         ';; mirowAs_1',
-        'mrwAs   mirowAs Ndu     race track',
-        'mrAwys  marAwiys        Ndip    race track',
-        'mrAwys  marAwiys        Ndip    race horses'
+        'mirowAs Ndu     race track',
+        'marAwiys        Ndip    race track',
+        'marAwiys        Ndip    race horses'
       ],
       'patterns' => {
         'marAwiys' => [
@@ -34795,7 +34793,7 @@ $Lexicon = {
       'form' => 'ruwdiy',
       'lines' => [
         ';; ruwdiy_1',
-        'rwdy    ruwdiy  Nprop   Rudi'
+        'ruwdiy  Nprop   Rudi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -34824,10 +34822,10 @@ $Lexicon = {
       'form' => 'rA_t',
       'lines' => [
         ';; rAv-u_1',
-        'rAv     rAv     PV_V    drop dung',
-        'rv      ruv     PV_C    drop dung',
-        'rwv     ruwv    IV_V    drop dung',
-        'rv      ruv     IV_C    drop dung'
+        'rAv     PV_V    drop dung',
+        'ruv     PV_C    drop dung',
+        'ruwv    IV_V    drop dung',
+        'ruv     IV_C    drop dung'
       ],
       'patterns' => {
         'ru_t' => [
@@ -34860,9 +34858,9 @@ $Lexicon = {
       'form' => 'raw_t',
       'lines' => [
         ';; rawov_1',
-        'rwv     rawov   N       dung',
-        'rwv     rawov   Nap     dung',
-        '>rwAv   >arowAv N       dung'
+        'rawov   N       dung',
+        'rawov   Nap     dung',
+        '>arowAv N       dung'
       ],
       'patterns' => {
         '\'arwA_t' => [
@@ -34891,8 +34889,8 @@ $Lexicon = {
       'form' => 'ra.tib',
       'lines' => [
         ';; raTib-a_1',
-        'rTb     raTib   PV_intr be moist;be damp',
-        'rTb     roTab   IV_intr be moist;be damp'
+        'raTib   PV_intr be moist;be damp',
+        'roTab   IV_intr be moist;be damp'
       ],
       'patterns' => {
         'r.tab' => [
@@ -34923,8 +34921,8 @@ $Lexicon = {
       'form' => 'ra.tub',
       'lines' => [
         ';; raTub-u_1',
-        'rTb     raTub   PV_intr be moist;be damp',
-        'rTb     roTub   IV_intr be moist;be damp'
+        'raTub   PV_intr be moist;be damp',
+        'roTub   IV_intr be moist;be damp'
       ],
       'patterns' => {
         'r.tub' => [
@@ -34955,8 +34953,8 @@ $Lexicon = {
       'form' => 'ra.t.tab',
       'lines' => [
         ';; raT~ab_1',
-        'rTb     raT~ab  PV      moisten;refresh;soothe',
-        'rTb     raT~ib  IV_yu   moisten;refresh;soothe'
+        'raT~ab  PV      moisten;refresh;soothe',
+        'raT~ib  IV_yu   moisten;refresh;soothe'
       ],
       'patterns' => {
         'ra.t.tib' => [
@@ -34988,9 +34986,9 @@ $Lexicon = {
       'form' => '\'ar.tab',
       'lines' => [
         ';; >aroTab_1',
-        '>rTb    >aroTab PV      moisten;become ripe',
-        'rTb     roTib   IV_yu   moisten;become ripe',
-        'rTb     roTab   IV_Pass_yu      be moistened'
+        '>aroTab PV      moisten;become ripe',
+        'roTib   IV_yu   moisten;become ripe',
+        'roTab   IV_Pass_yu      be moistened'
       ],
       'patterns' => {
         'r.tib' => [
@@ -35018,8 +35016,8 @@ $Lexicon = {
       'form' => 'tara.t.tab',
       'lines' => [
         ';; taraT~ab_1',
-        'trTb    taraT~ab        PV_intr be moistened;be refreshed;be soothed',
-        'trTb    taraT~ab        IV_intr be moistened;be refreshed;be soothed'
+        'taraT~ab        PV_intr be moistened;be refreshed;be soothed',
+        'taraT~ab        IV_intr be moistened;be refreshed;be soothed'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35040,7 +35038,7 @@ $Lexicon = {
       'form' => 'ra.tb',
       'lines' => [
         ';; raTob_1',
-        'rTb     raTob   N-ap    moist;fresh'
+        'raTob   N-ap    moist;fresh'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35064,9 +35062,9 @@ $Lexicon = {
       'form' => 'ru.tab',
       'lines' => [
         ';; ruTab_1',
-        'rTb     ruTab   N       ripe dates',
-        'rTb     ruTab   Napdu   ripe date',
-        '>rTAb   >aroTAb N       ripe dates'
+        'ruTab   N       ripe dates',
+        'ruTab   Napdu   ripe date',
+        '>aroTAb N       ripe dates'
       ],
       'patterns' => {
         '\'ar.tAb' => [
@@ -35094,8 +35092,8 @@ $Lexicon = {
       'form' => 'ra.tiyb',
       'lines' => [
         ';; raTiyb_1',
-        'rTyb    raTiyb  N-ap    moist;fresh     [[raTiyb/ADJ]]',
-        'rTAb    riTAb   N       moist;fresh'
+        'raTiyb  N-ap    moist;fresh     [[raTiyb/ADJ]]',
+        'riTAb   N       moist;fresh'
       ],
       'patterns' => {
         'ri.tAb' => [
@@ -35119,7 +35117,7 @@ $Lexicon = {
       'form' => 'ru.tuwbaT',
       'lines' => [
         ';; ruTuwbap_1',
-        'rTwb    ruTuwb  Nap     moistness;humidity'
+        'ruTuwb  Nap     moistness;humidity'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35139,7 +35137,7 @@ $Lexicon = {
       'form' => 'rA.tib',
       'lines' => [
         ';; rATib_1',
-        'rATb    rATib   N-ap    moist;humid     [[rATib/ADJ]]'
+        'rATib   N-ap    moist;humid     [[rATib/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35159,7 +35157,7 @@ $Lexicon = {
       'form' => 'mura.t.tib',
       'lines' => [
         ';; muraT~ib_1',
-        'mrTb    muraT~ib        Nall    refreshing;refreshment'
+        'muraT~ib        Nall    refreshing;refreshment'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35183,7 +35181,7 @@ $Lexicon = {
       'form' => 'mura.t.tib',
       'lines' => [
         ';; muraT~ib_2',
-        'mrTb    muraT~ib        NduAt   humidified;moisturizer'
+        'muraT~ib        NduAt   humidified;moisturizer'
       ],
       'patterns' => {
         'mura.t.tib' => [
@@ -35213,8 +35211,8 @@ $Lexicon = {
       'form' => 'ra`ra`',
       'lines' => [
         ';; raEoraE_1',
-        'rErE    raEoraE PV      grow up;be raised',
-        'rErE    raEoriE IV_yu   grow up;be raised'
+        'raEoraE PV      grow up;be raised',
+        'raEoriE IV_yu   grow up;be raised'
       ],
       'patterns' => {
         'ra`ri`' => [
@@ -35238,8 +35236,8 @@ $Lexicon = {
       'form' => 'tara`ra`',
       'lines' => [
         ';; taraEoraE_1',
-        'trErE   taraEoraE       PV_intr be raised;grow up',
-        'trErE   taraEoraE       IV_intr be raised;grow up'
+        'taraEoraE       PV_intr be raised;grow up',
+        'taraEoraE       IV_intr be raised;grow up'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35263,8 +35261,8 @@ $Lexicon = {
       'form' => 'ra`ra`',
       'lines' => [
         ';; raEoraE_2',
-        'rErE    raEoraE N/ap    in full bloom',
-        'rEArE   raEAriE Ndip    in full bloom'
+        'raEoraE N/ap    in full bloom',
+        'raEAriE Ndip    in full bloom'
       ],
       'patterns' => {
         'ra`Ari`' => [
@@ -35289,7 +35287,7 @@ $Lexicon = {
       'form' => 'ru.dAb',
       'lines' => [
         ';; ruDAb_1',
-        'rDAb    ruDAb   N       saliva;spittle'
+        'ruDAb   N       saliva;spittle'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35315,8 +35313,8 @@ $Lexicon = {
       'form' => 'rayya.h',
       'lines' => [
         ';; ray~aH_1',
-        'ryH     ray~aH  PV      make rest;make relax',
-        'ryH     ray~iH  IV_yu   make rest;make relax'
+        'ray~aH  PV      make rest;make relax',
+        'ray~iH  IV_yu   make rest;make relax'
       ],
       'patterns' => {
         'rayyi.h' => [
@@ -35350,10 +35348,10 @@ $Lexicon = {
       'form' => 'riy.h',
       'lines' => [
         ';; riyH_1',
-        'ryH     riyH    N       wind;odor',
-        'ryAH    riyAH   N       winds;odors',
-        '>rwAH   >arowAH N       winds;odors',
-        '>ryAH   >aroyAH N       winds;odors'
+        'riyH    N       wind;odor',
+        'riyAH   N       winds;odors',
+        '>arowAH N       winds;odors',
+        '>aroyAH N       winds;odors'
       ],
       'patterns' => {
         '\'aryA.h' => [
@@ -35383,7 +35381,7 @@ $Lexicon = {
       'form' => 'riy.haT',
       'lines' => [
         ';; riyHap_1',
-        'ryH     riyH    Nap     smell;odor'
+        'riyH    Nap     smell;odor'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35403,7 +35401,7 @@ $Lexicon = {
       'form' => 'rayyi.h',
       'lines' => [
         ';; ray~iH_1',
-        'ryH     ray~iH  N-ap    windy     [[ray~iH/ADJ]]'
+        'ray~iH  N-ap    windy     [[ray~iH/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35426,8 +35424,8 @@ $Lexicon = {
       'form' => 'ray.hAn',
       'lines' => [
         ';; rayoHAn_1',
-        'ryHAn   rayoHAn N       sweet basil;aromatic plant',
-        'ryAHyn  rayAHiyn        Ndip    aromatic plants'
+        'rayoHAn N       sweet basil;aromatic plant',
+        'rayAHiyn        Ndip    aromatic plants'
       ],
       'patterns' => {
         'rayA.hiyn' => [
@@ -35466,7 +35464,7 @@ $Lexicon = {
       'form' => 'ray.hAniyy',
       'lines' => [
         ';; rayoHAniy~_1',
-        'ryHAny  rayoHAniy~      N-ap    raihani (calligraphy style)'
+        'rayoHAniy~      N-ap    raihani (calligraphy style)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35489,7 +35487,7 @@ $Lexicon = {
       'form' => 'rayyA.h',
       'lines' => [
         ';; ray~AH_1',
-        'ryAH    ray~AH  N/At    irrigation canal;main canal'
+        'ray~AH  N/At    irrigation canal;main canal'
       ],
       'patterns' => {
         'rayyA.h' => [
@@ -35513,7 +35511,7 @@ $Lexicon = {
       'form' => '\'arya.hiyy',
       'lines' => [
         ';; >aroyaHiy~_1',
-        '>ryHy   >aroyaHiy~      Nall    generous;liberal     [[>aroyaHiy~/ADJ]]'
+        '>aroyaHiy~      Nall    generous;liberal     [[>aroyaHiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35533,7 +35531,7 @@ $Lexicon = {
       'form' => '\'arya.hiyyaT',
       'lines' => [
         ';; >aroyaHiy~ap_1',
-        '>ryHy   >aroyaHiy~      Nap     munificence;generosity     [[>aroyaHiy~/NOUN]]'
+        '>aroyaHiy~      Nap     munificence;generosity     [[>aroyaHiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35553,7 +35551,7 @@ $Lexicon = {
       'form' => 'miryA.h',
       'lines' => [
         ';; miroyAH_1',
-        'mryAH   miroyAH N       flatulent'
+        'miroyAH N       flatulent'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35576,7 +35574,7 @@ $Lexicon = {
       'form' => 'taryiy.h',
       'lines' => [
         ';; taroyiyH_1',
-        'tryyH   taroyiyH        NduAt   relief;installation;insertion'
+        'taroyiyH        NduAt   relief;installation;insertion'
       ],
       'patterns' => {
         'taryiy.h' => [
@@ -35604,8 +35602,8 @@ $Lexicon = {
       'entry' => 'irtiyA.h',
       'form' => 'irtiyA.h',
       'lines' => [
-        ';; {irotiyAH_1',
-        '<rtyAH  {irotiyAH       NduAt   rest;contentment;satisfaction'
+        ';; AirotiyAH_1',
+        'AirotiyAH       NduAt   rest;contentment;satisfaction'
       ],
       'patterns' => {
         'irtiyA.h' => [
@@ -35630,7 +35628,7 @@ $Lexicon = {
       'form' => 'muriy.h',
       'lines' => [
         ';; muriyH_1',
-        'mryH    muriyH  N-ap    soothing;restful;comfortable     [[muriyH/ADJ]]'
+        'muriyH  N-ap    soothing;restful;comfortable     [[muriyH/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35651,7 +35649,7 @@ $Lexicon = {
       'form' => 'mustariy.h',
       'lines' => [
         ';; musotariyH_1',
-        'mstryH  musotariyH      Nall    resting;relaxed     [[musotariyH/ADJ]]'
+        'musotariyH      Nall    resting;relaxed     [[musotariyH/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35673,9 +35671,9 @@ $Lexicon = {
       'form' => 'ra.g.gA\'',
       'lines' => [
         ';; rag~A\'_1',
-        'rgA\'    rag~A\'  N0_Nh   garrulous;chatterbox',
-        'rgA&    rag~A&  Nh      garrulous;chatterbox',
-        'rgA}    rag~A}  Nhy     garrulous;chatterbox'
+        'rag~A\'  N0_Nh   garrulous;chatterbox',
+        'rag~A&  Nh      garrulous;chatterbox',
+        'rag~A}  Nhy     garrulous;chatterbox'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35704,9 +35702,9 @@ $Lexicon = {
       'form' => 'ratak',
       'lines' => [
         ';; ratak-iu_1',
-        'rtk     ratak   PV      trot',
-        'rtk     rotik   IV      trot',
-        'rtk     rotuk   IV      trot'
+        'ratak   PV      trot',
+        'rotik   IV      trot',
+        'rotuk   IV      trot'
       ],
       'patterns' => {
         'rtuk' => [
@@ -35736,7 +35734,7 @@ $Lexicon = {
       'form' => 'martak',
       'lines' => [
         ';; marotak_1',
-        'mrtk    marotak N       lead monoxide;litharge (chem.)'
+        'marotak N       lead monoxide;litharge (chem.)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35758,7 +35756,7 @@ $Lexicon = {
       'form' => 'ruwbil',
       'lines' => [
         ';; ruwbil_1',
-        'rwbl    ruwbil  N       ruble'
+        'ruwbil  N       ruble'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35783,8 +35781,8 @@ $Lexicon = {
       'form' => 'ra^sa.h',
       'lines' => [
         ';; ra$aH-a_1',
-        'r$H     ra$aH   PV      perspire;filter',
-        'r$H     ro$aH   IV      perspire;filter'
+        'ra$aH   PV      perspire;filter',
+        'ro$aH   IV      perspire;filter'
       ],
       'patterns' => {
         'r^sa.h' => [
@@ -35815,8 +35813,8 @@ $Lexicon = {
       'form' => 'ra^s^sa.h',
       'lines' => [
         ';; ra$~aH_1',
-        'r$H     ra$~aH  PV      nominate;appoint as candidate',
-        'r$H     ra$~iH  IV_yu   nominate;appoint as candidate'
+        'ra$~aH  PV      nominate;appoint as candidate',
+        'ra$~iH  IV_yu   nominate;appoint as candidate'
       ],
       'patterns' => {
         'ra^s^si.h' => [
@@ -35840,8 +35838,8 @@ $Lexicon = {
       'form' => 'tara^s^sa.h',
       'lines' => [
         ';; tara$~aH_1',
-        'tr$H    tara$~aH        PV_intr be nominated;be a candidate',
-        'tr$H    tara$~aH        IV_intr be nominated;be a candidate'
+        'tara$~aH        PV_intr be nominated;be a candidate',
+        'tara$~aH        IV_intr be nominated;be a candidate'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35861,7 +35859,7 @@ $Lexicon = {
       'form' => 'ra^s.h',
       'lines' => [
         ';; ra$oH_1',
-        'r$H     ra$oH   N       perspiration;filtration'
+        'ra$oH   N       perspiration;filtration'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35881,7 +35879,7 @@ $Lexicon = {
       'form' => 'ra^sA.haT',
       'lines' => [
         ';; ra$AHap_1',
-        'r$AH    ra$AH   Nap     transudation (sweat passing through pores)'
+        'ra$AH   Nap     transudation (sweat passing through pores)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35904,7 +35902,7 @@ $Lexicon = {
       'form' => 'tar^siy.h',
       'lines' => [
         ';; taro$iyH_1',
-        'tr$yH   taro$iyH        NduAt   nomination;candidacy'
+        'taro$iyH        NduAt   nomination;candidacy'
       ],
       'patterns' => {
         'tar^siy.h' => [
@@ -35932,7 +35930,7 @@ $Lexicon = {
       'form' => 'tara^s^su.h',
       'lines' => [
         ';; tara$~uH_1',
-        'tr$H    tara$~uH        NduAt   infiltration;candidature'
+        'tara$~uH        NduAt   infiltration;candidature'
       ],
       'patterns' => {
         'tara^s^su.h' => [
@@ -35959,8 +35957,8 @@ $Lexicon = {
       'entry' => 'irti^sA.h',
       'form' => 'irti^sA.h',
       'lines' => [
-        ';; {iroti$AH_1',
-        '<rt$AH  {iroti$AH       NduAt   infiltration'
+        ';; Airoti$AH_1',
+        'Airoti$AH       NduAt   infiltration'
       ],
       'patterns' => {
         'irti^sA.h' => [
@@ -35987,7 +35985,7 @@ $Lexicon = {
       'form' => 'mura^s^si.h',
       'lines' => [
         ';; mura$~iH_1',
-        'mr$H    mura$~iH        NduAt   filter;filtering installation'
+        'mura$~iH        NduAt   filter;filtering installation'
       ],
       'patterns' => {
         'mura^s^si.h' => [
@@ -36011,7 +36009,7 @@ $Lexicon = {
       'form' => 'mura^s^sa.h',
       'lines' => [
         ';; mura$~aH_1',
-        'mr$H    mura$~aH        Nall    candidate;nominee;nominated'
+        'mura$~aH        Nall    candidate;nominee;nominated'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36032,7 +36030,7 @@ $Lexicon = {
       'form' => 'mutara^s^si.h',
       'lines' => [
         ';; mutara$~iH_1',
-        'mtr$H   mutara$~iH      Nall    candidate;nominee;nominated'
+        'mutara$~iH      Nall    candidate;nominee;nominated'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36059,12 +36057,12 @@ $Lexicon = {
       'form' => '\'irsA\'',
       'lines' => [
         ';; <irosA\'_1',
-        '<rsA\'   <irosA\' N0_Nh   anchorage',
-        '<rsA&   <irosA& Nh      anchorage',
-        '<rsA}   <irosA} Nhy     anchorage',
-        '<rsA\'   <irosA\' NAn_Nayn        anchorage',
-        '<rsA}   <irosA} Nayn    anchorage',
-        '<rsA\'   <irosA\' NAt     anchorage'
+        '<irosA\' N0_Nh   anchorage',
+        '<irosA& Nh      anchorage',
+        '<irosA} Nhy     anchorage',
+        '<irosA\' NAn_Nayn        anchorage',
+        '<irosA} Nayn    anchorage',
+        '<irosA\' NAt     anchorage'
       ],
       'patterns' => {
         '\'irsA\'' => [
@@ -36095,10 +36093,10 @@ $Lexicon = {
       'form' => '\'aratt',
       'lines' => [
         ';; >arat~_1',
-        '>rt     >arat~  Nel     speech-defective',
-        'rtA\'    rat~A\'  N0_Nh   speech-defective',
-        'rtA&    rat~A&  Nh      speech-defective',
-        'rtA}    rat~A}  Nhy     speech-defective'
+        '>arat~  Nel     speech-defective',
+        'rat~A\'  N0_Nh   speech-defective',
+        'rat~A&  Nh      speech-defective',
+        'rat~A}  Nhy     speech-defective'
       ],
       'patterns' => {
         'rattA\'' => [
@@ -36121,7 +36119,7 @@ $Lexicon = {
       'form' => 'rutt',
       'lines' => [
         ';; rut~_1',
-        'rt      rut~    N       having a speech defect'
+        'rut~    N       having a speech defect'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36158,7 +36156,7 @@ $Lexicon = {
       'form' => 'rAmiyaT',
       'lines' => [
         ';; rAmiyap_1',
-        'rAmy    rAmiy   Nap     ramie;China jute'
+        'rAmiy   Nap     ramie;China jute'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36197,13 +36195,13 @@ $Lexicon = {
       'form' => 'ramY',
       'lines' => [
         ';; ramaY-i_1',
-        'rmY     ramaY   PV_0    throw;fling;shoot',
-        'rmA     ramA    PV_h    throw;fling;shoot',
-        'rmy     ramay   PV_Atn  throw;fling;shoot',
-        'rm      ram     PV_ttAw throw;fling;shoot',
-        'rmy     romiy   IV_0hAnn        throw;fling;shoot',
-        'rm      rom     IV_0hwnyn       throw;fling;shoot',
-        'rmY     romaY   IV_0_Pass_yu    be thrown;be flung;be shot'
+        'ramaY   PV_0    throw;fling;shoot',
+        'ramA    PV_h    throw;fling;shoot',
+        'ramay   PV_Atn  throw;fling;shoot',
+        'ram     PV_ttAw throw;fling;shoot',
+        'romiy   IV_0hAnn        throw;fling;shoot',
+        'rom     IV_0hwnyn       throw;fling;shoot',
+        'romaY   IV_0_Pass_yu    be thrown;be flung;be shot'
       ],
       'patterns' => {
         'ramay' => [
@@ -36259,14 +36257,14 @@ $Lexicon = {
       'form' => 'tarAmY',
       'lines' => [
         ';; tarAmaY_1',
-        'trAmY   tarAmaY PV_0    fall prostrate',
-        'trAmA   tarAmA  PV_h    fall prostrate',
-        'trAmy   tarAmay PV_Atn  fall prostrate',
-        'trAm    tarAm   PV_ttAw fall prostrate',
-        'trAmY   tarAmaY IV_0    fall prostrate',
-        'trAmA   tarAmA  IV_h    fall prostrate',
-        'trAmy   tarAmay IV_Ann  fall prostrate',
-        'trAm    tarAm   IV_0hwnyn       fall prostrate'
+        'tarAmaY PV_0    fall prostrate',
+        'tarAmA  PV_h    fall prostrate',
+        'tarAmay PV_Atn  fall prostrate',
+        'tarAm   PV_ttAw fall prostrate',
+        'tarAmaY IV_0    fall prostrate',
+        'tarAmA  IV_h    fall prostrate',
+        'tarAmay IV_Ann  fall prostrate',
+        'tarAm   IV_0hwnyn       fall prostrate'
       ],
       'patterns' => {
         'tarAmay' => [
@@ -36307,14 +36305,14 @@ $Lexicon = {
       'entry' => 'irtamY',
       'form' => 'irtamY',
       'lines' => [
-        ';; {irotamaY_1',
-        '<rtmY   {irotamaY       PV_0    fall prostrate;be thrown',
-        '<rtmA   {irotamA        PV_h    fall prostrate;be thrown',
-        '<rtmy   {irotamay       PV_Atn  fall prostrate;be thrown',
-        '<rtm    {irotam PV_ttAw fall prostrate;be thrown',
-        'rtmy    rotamiy IV_0hAnn        fall prostrate;be thrown',
-        'rtm     rotam   IV_0hwnyn       fall prostrate;be thrown',
-        'rtmY    rotamaY IV_0    fall prostrate;be thrown'
+        ';; AirotamaY_1',
+        'AirotamaY       PV_0    fall prostrate;be thrown',
+        'AirotamA        PV_h    fall prostrate;be thrown',
+        'Airotamay       PV_Atn  fall prostrate;be thrown',
+        'Airotam PV_ttAw fall prostrate;be thrown',
+        'rotamiy IV_0hAnn        fall prostrate;be thrown',
+        'rotam   IV_0hwnyn       fall prostrate;be thrown',
+        'rotamaY IV_0    fall prostrate;be thrown'
       ],
       'patterns' => {
         'irtamay' => [
@@ -36344,7 +36342,7 @@ $Lexicon = {
       'form' => 'ramy',
       'lines' => [
         ';; ramoy_1',
-        'rmy     ramoy   N       throwing;shooting'
+        'ramoy   N       throwing;shooting'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36368,8 +36366,8 @@ $Lexicon = {
       'form' => 'ramyaT',
       'lines' => [
         ';; ramoyap_1',
-        'rmy     ramoy   Napdu   shot;throw;toss;fling',
-        'rmy     ramay   NAt     shots;throws;tosses;flings'
+        'ramoy   Napdu   shot;throw;toss;fling',
+        'ramay   NAt     shots;throws;tosses;flings'
       ],
       'patterns' => {
         'ramY' => [
@@ -36403,8 +36401,8 @@ $Lexicon = {
       'form' => 'ramiyyaT',
       'lines' => [
         ';; ramiy~ap_1',
-        'rmy     ramiy~  Nap     game animal     [[ramiy~/NOUN]]',
-        'rmAyA   ramAyA  N0_Nhy  game animals'
+        'ramiy~  Nap     game animal     [[ramiy~/NOUN]]',
+        'ramAyA  N0_Nhy  game animals'
       ],
       'patterns' => {
         'ramAyY' => [
@@ -36428,7 +36426,7 @@ $Lexicon = {
       'form' => 'rimAyaT',
       'lines' => [
         ';; rimAyap_1',
-        'rmAy    rimAy   Nap     shooting'
+        'rimAy   Nap     shooting'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36451,8 +36449,8 @@ $Lexicon = {
       'form' => 'marmY',
       'lines' => [
         ';; maromaY_1',
-        'mrmY    maromaY N0      goal;purpose;target',
-        'mrmA    maromA  Nhy     goal;purpose;target'
+        'maromaY N0      goal;purpose;target',
+        'maromA  Nhy     goal;purpose;target'
       ],
       'patterns' => {
         'marmA' => []
@@ -36479,10 +36477,10 @@ $Lexicon = {
       'form' => 'tarAmiy',
       'lines' => [
         ';; tarAmiy_1',
-        'trAmy   tarAmiy N0_Nh   vastness;expanse',
-        'trAm    tarAm   NK      vastness;expanse',
-        'trAmy   tarAmiy NAn_Nayn        vastness;expanse',
-        'trAmy   tarAmiy NAt     vastness;expanse'
+        'tarAmiy N0_Nh   vastness;expanse',
+        'tarAm   NK      vastness;expanse',
+        'tarAmiy NAn_Nayn        vastness;expanse',
+        'tarAmiy NAt     vastness;expanse'
       ],
       'patterns' => {
         'tarAmiy' => [
@@ -36510,9 +36508,9 @@ $Lexicon = {
       'form' => 'rAmiy',
       'lines' => [
         ';; rAmiy_1',
-        'rAmy    rAmiy   N0F     aimed (at);attempting (to)',
-        'rAmy    rAmiy   NAn_Nayn        aimed (at);attempting (to)',
-        'rAmy    rAmiy   NapAt   aimed (at);attempting (to)'
+        'rAmiy   N0F     aimed (at);attempting (to)',
+        'rAmiy   NAn_Nayn        aimed (at);attempting (to)',
+        'rAmiy   NapAt   aimed (at);attempting (to)'
       ],
       'patterns' => {
         'rAmiy' => [
@@ -36546,12 +36544,12 @@ $Lexicon = {
       'form' => 'rAmiy',
       'lines' => [
         ';; rAmiy_2',
-        'rAmy    rAmiy   N0F     throwing;thrower;rifleman;archer',
-        'rAm     rAm     NK      throwing;thrower;rifleman;archer',
-        'rAmy    rAmiy   NAn_Nayn        throwing;throwers;riflemen;archers',
-        'rAm     rAm     Nuwn_Niyn       throwing;throwers;riflemen;archers',
-        'rAmy    rAmiy   NapAt   throwing;thrower;rifleman;archer',
-        'rmA     rumA    Nap     throwing;throwers;riflemen;archers'
+        'rAmiy   N0F     throwing;thrower;rifleman;archer',
+        'rAm     NK      throwing;thrower;rifleman;archer',
+        'rAmiy   NAn_Nayn        throwing;throwers;riflemen;archers',
+        'rAm     Nuwn_Niyn       throwing;throwers;riflemen;archers',
+        'rAmiy   NapAt   throwing;thrower;rifleman;archer',
+        'rumA    Nap     throwing;throwers;riflemen;archers'
       ],
       'patterns' => {
         'rAm' => [],
@@ -36584,7 +36582,7 @@ $Lexicon = {
       'form' => 'rAmiy',
       'lines' => [
         ';; rAmiy_3',
-        'rAmy    rAmiy   N0      Sagittarius'
+        'rAmiy   N0      Sagittarius'
       ],
       'patterns' => {},
       'index' => '3',
@@ -36603,7 +36601,7 @@ $Lexicon = {
       'form' => 'marmiyy',
       'lines' => [
         ';; maromiy~_1',
-        'mrmy    maromiy~        Nall    thrown;discarded     [[maromiy~/ADJ]]'
+        'maromiy~        Nall    thrown;discarded     [[maromiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36630,11 +36628,11 @@ $Lexicon = {
       'form' => 'mutarAmiy',
       'lines' => [
         ';; mutarAmiy_1',
-        'mtrAmy  mutarAmiy       N0F_Nh  wide;extensive     [[mutarAmiy/ADJ]]',
-        'mtrAm   mutarAm NK      wide;extensive',
-        'mtrAmy  mutarAmiy       NAn_Nayn        wide;extensive',
-        'mtrAm   mutarAm Nuwn_Niyn       wide;extensive',
-        'mtrAmy  mutarAmiy       NapAt   wide;extensive'
+        'mutarAmiy       N0F_Nh  wide;extensive     [[mutarAmiy/ADJ]]',
+        'mutarAm NK      wide;extensive',
+        'mutarAmiy       NAn_Nayn        wide;extensive',
+        'mutarAm Nuwn_Niyn       wide;extensive',
+        'mutarAmiy       NapAt   wide;extensive'
       ],
       'patterns' => {
         'mutarAmiy' => [
@@ -36661,7 +36659,7 @@ $Lexicon = {
       'form' => 'rAdiyuwluw^giyy',
       'lines' => [
         ';; rAdiyuwluwjiy~_1',
-        'rAdywlwjy       rAdiyuwluwjiy~  Nall    radiology     [[rAdiyuwluwjiy~/ADJ]]'
+        'rAdiyuwluwjiy~  Nall    radiology     [[rAdiyuwluwjiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36682,7 +36680,7 @@ $Lexicon = {
       'form' => 'ruwstuwk',
       'lines' => [
         ';; ruwsotuwk_1',
-        'rwstwk  ruwsotuwk       Nprop   Rostock'
+        'ruwsotuwk       Nprop   Rostock'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36703,7 +36701,7 @@ $Lexicon = {
       'form' => 'rAmiyn',
       'lines' => [
         ';; rAmiyn_1',
-        'rAmyn   rAmiyn  N0      Ramin'
+        'rAmiyn  N0      Ramin'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36728,8 +36726,8 @@ $Lexicon = {
       'form' => 'raka.d',
       'lines' => [
         ';; rakaD-u_1',
-        'rkD     rakaD   PV      run;race',
-        'rkD     rokuD   IV      run;race'
+        'rakaD   PV      run;race',
+        'rokuD   IV      run;race'
       ],
       'patterns' => {
         'rku.d' => [
@@ -36760,8 +36758,8 @@ $Lexicon = {
       'form' => 'rAka.d',
       'lines' => [
         ';; rAkaD_1',
-        'rAkD    rAkaD   PV      race',
-        'rAkD    rAkiD   IV_yu   race'
+        'rAkaD   PV      race',
+        'rAkiD   IV_yu   race'
       ],
       'patterns' => {
         'rAki.d' => [
@@ -36784,8 +36782,8 @@ $Lexicon = {
       'form' => 'tarAka.d',
       'lines' => [
         ';; tarAkaD_1',
-        'trAkD   tarAkaD PV      compete',
-        'trAkD   tarAkaD IV      compete'
+        'tarAkaD PV      compete',
+        'tarAkaD IV      compete'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36807,9 +36805,9 @@ $Lexicon = {
       'entry' => 'irtaka.d',
       'form' => 'irtaka.d',
       'lines' => [
-        ';; {irotakaD_1',
-        '<rtkD   {irotakaD       PV      stir;be agitated',
-        'rtkD    rotakiD IV      stir;be agitated'
+        ';; AirotakaD_1',
+        'AirotakaD       PV      stir;be agitated',
+        'rotakiD IV      stir;be agitated'
       ],
       'patterns' => {
         'rtaki.d' => [
@@ -36833,7 +36831,7 @@ $Lexicon = {
       'form' => 'rak.daT',
       'lines' => [
         ';; rakoDap_1',
-        'rkD     rakoD   Nap     gallop;run'
+        'rakoD   Nap     gallop;run'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36853,7 +36851,7 @@ $Lexicon = {
       'form' => 'rakkA.d',
       'lines' => [
         ';; rak~AD_1',
-        'rkAD    rak~AD  Nall    runner;racer'
+        'rak~AD  Nall    runner;racer'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36873,7 +36871,7 @@ $Lexicon = {
       'form' => 'rakuw.d',
       'lines' => [
         ';; rakuwD_1',
-        'rkwD    rakuwD  N/ap    swift;fast-running     [[rakuwD/ADJ]]'
+        'rakuwD  N/ap    swift;fast-running     [[rakuwD/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36895,7 +36893,7 @@ $Lexicon = {
       'form' => 'rAtuw',
       'lines' => [
         ';; rAtuw_1',
-        'rAtw    rAtuw   Nprop   Ratu'
+        'rAtuw   Nprop   Ratu'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36923,9 +36921,9 @@ $Lexicon = {
       'form' => 'rubbAn',
       'lines' => [
         ';; rub~An_1',
-        'rbAn    rub~An  N       captain',
-        'rbAny   rub~Aniy~       Nap     captain     [[rub~Aniy~/NOUN]]',
-        'rbAbn   rabAbin Nap     captains'
+        'rub~An  N       captain',
+        'rub~Aniy~       Nap     captain     [[rub~Aniy~/NOUN]]',
+        'rabAbin Nap     captains'
       ],
       'patterns' => {
         'rubbAniyy' => [],
@@ -36954,8 +36952,8 @@ $Lexicon = {
       'form' => 'rabbAniyy',
       'lines' => [
         ';; rab~Aniy~_1',
-        'rbAny   rab~Aniy~       N-ap    divine     [[rab~Aniy~/ADJ]]',
-        'rbAny   rab~Aniy~       NAt     divinities     [[rab~Aniy~/ADJ]]'
+        'rab~Aniy~       N-ap    divine     [[rab~Aniy~/ADJ]]',
+        'rab~Aniy~       NAt     divinities     [[rab~Aniy~/ADJ]]'
       ],
       'patterns' => {
         'rabbAniyy' => []
@@ -36983,8 +36981,8 @@ $Lexicon = {
       'form' => 'ra`un',
       'lines' => [
         ';; raEun-u_1',
-        'rEn     raEun   PV-n_intr       be frivolous;be lightheaded',
-        'rEn     roEun   IV-n_intr       be frivolous;be lightheaded'
+        'raEun   PV-n_intr       be frivolous;be lightheaded',
+        'roEun   IV-n_intr       be frivolous;be lightheaded'
       ],
       'patterns' => {
         'r`un' => [
@@ -37015,8 +37013,8 @@ $Lexicon = {
       'form' => 'ra`an',
       'lines' => [
         ';; raEan-u_1',
-        'rEn     raEan   PV-n    give sunstroke',
-        'rEn     roEun   IV-n    give sunstroke'
+        'raEan   PV-n    give sunstroke',
+        'roEun   IV-n    give sunstroke'
       ],
       'patterns' => {
         'r`un' => [
@@ -37042,7 +37040,7 @@ $Lexicon = {
       'form' => 'ra`n',
       'lines' => [
         ';; raEon_1',
-        'rEn     raEon   N       sunstroke'
+        'raEon   N       sunstroke'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37065,8 +37063,8 @@ $Lexicon = {
       'form' => 'ra`n',
       'lines' => [
         ';; raEon_2',
-        'rEn     raEon   N       mountain peak',
-        'rEAn    riEAn   N       mountain peaks'
+        'raEon   N       mountain peak',
+        'riEAn   N       mountain peaks'
       ],
       'patterns' => {
         'ri`An' => [
@@ -37090,7 +37088,7 @@ $Lexicon = {
       'form' => '\'ar`an',
       'lines' => [
         ';; >aroEan_1',
-        '>rEn    >aroEan Nel     frivolous;careless;thoughtless'
+        '>aroEan Nel     frivolous;careless;thoughtless'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37111,7 +37109,7 @@ $Lexicon = {
       'form' => 'ru`uwnaT',
       'lines' => [
         ';; ruEuwnap_1',
-        'rEwn    ruEuwn  NapAt   frivolity;thoughtlessness'
+        'ruEuwn  NapAt   frivolity;thoughtlessness'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37137,8 +37135,8 @@ $Lexicon = {
       'form' => 'rawsam',
       'lines' => [
         ';; rawosam_1',
-        'rwsm    rawosam Ndu     cliche',
-        'rwAsm   rawAsim Ndip    cliches'
+        'rawosam Ndu     cliche',
+        'rawAsim Ndip    cliches'
       ],
       'patterns' => {
         'rawAsim' => [
@@ -37164,7 +37162,7 @@ $Lexicon = {
       'form' => 'ru.hAq',
       'lines' => [
         ';; ruHAq_1',
-        'rHAq    ruHAq   N       nectar;exquisite wine'
+        'ruHAq   N       nectar;exquisite wine'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37184,7 +37182,7 @@ $Lexicon = {
       'form' => 'ra.hiyq',
       'lines' => [
         ';; raHiyq_1',
-        'rHyq    raHiyq  N       nectar;exquisite wine'
+        'raHiyq  N       nectar;exquisite wine'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37204,7 +37202,7 @@ $Lexicon = {
       'form' => 'ru.hAqiyy',
       'lines' => [
         ';; ruHAqiy~_1',
-        'rHAqy   ruHAqiy~        N-ap    exquisite;delicious'
+        'ruHAqiy~        N-ap    exquisite;delicious'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37224,7 +37222,7 @@ $Lexicon = {
       'form' => 'ra.hiyqiyy',
       'lines' => [
         ';; raHiyqiy~_1',
-        'rHyqy   raHiyqiy~       N-ap    exquisite;delicious'
+        'raHiyqiy~       N-ap    exquisite;delicious'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37250,8 +37248,8 @@ $Lexicon = {
       'form' => 'ra^gab',
       'lines' => [
         ';; rajab-u_1',
-        'rjb     rajab   PV_intr be afraid;be awed',
-        'rjb     rojub   IV_intr be afraid;be awed'
+        'rajab   PV_intr be afraid;be awed',
+        'rojub   IV_intr be afraid;be awed'
       ],
       'patterns' => {
         'r^gub' => [
@@ -37282,8 +37280,8 @@ $Lexicon = {
       'form' => 'ra^gib',
       'lines' => [
         ';; rajib-a_1',
-        'rjb     rajib   PV_intr be afraid;be awed',
-        'rjb     rojab   IV_intr be afraid;be awed'
+        'rajib   PV_intr be afraid;be awed',
+        'rojab   IV_intr be afraid;be awed'
       ],
       'patterns' => {
         'r^gab' => [
@@ -37310,7 +37308,7 @@ $Lexicon = {
       'form' => 'ra^gab',
       'lines' => [
         ';; rajab_1',
-        'rjb     rajab   N       Rajab (month)'
+        'rajab   N       Rajab (month)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37329,7 +37327,7 @@ $Lexicon = {
       'form' => 'ra^guwb',
       'lines' => [
         ';; rajuwb_1',
-        'rjwb    rajuwb  N0      Rajoub;Rajjoub'
+        'rajuwb  N0      Rajoub;Rajjoub'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37351,7 +37349,7 @@ $Lexicon = {
       'form' => 'riy^stir',
       'lines' => [
         ';; riy$otir_1',
-        'ry$tr   riy$otir        N0      Richter'
+        'riy$otir        N0      Richter'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37388,12 +37386,12 @@ $Lexicon = {
       'form' => 'rasA',
       'lines' => [
         ';; rasA-u_1',
-        'rsA     rasA    PV_0    set anchor;disembark',
-        'rsw     rasaw   PV_Atn  set anchor;disembark',
-        'rs      ras     PV_ttAw set anchor;disembark',
-        'rsw     rosuw   IV_0hAnn        set anchor;disembark',
-        'rs      ros     IV_0hwnyn       set anchor;disembark',
-        'rsY     rosaY   IV_0_Pass_yu    be anchored;be moored'
+        'rasA    PV_0    set anchor;disembark',
+        'rasaw   PV_Atn  set anchor;disembark',
+        'ras     PV_ttAw set anchor;disembark',
+        'rosuw   IV_0hAnn        set anchor;disembark',
+        'ros     IV_0hwnyn       set anchor;disembark',
+        'rosaY   IV_0_Pass_yu    be anchored;be moored'
       ],
       'patterns' => {
         'rsuw' => [
@@ -37446,14 +37444,14 @@ $Lexicon = {
       'form' => 'rassY',
       'lines' => [
         ';; ras~aY_1',
-        'rsY     ras~aY  PV_0    grant;award',
-        'rsA     ras~A   PV_h    grant;award',
-        'rsy     ras~ay  PV_Atn  grant;award',
-        'rs      ras~    PV_ttAw grant;award',
-        'rsy     ras~iy  IV_0hAnn_yu     grant;award',
-        'rs      ras~    IV_0hwnyn_yu    grant;award',
-        'rsY     ras~aY  IV_0_Pass_yu    be granted;be awarded',
-        'rsy     ras~ay  IV_Ann_Pass_yu  be granted;be awarded'
+        'ras~aY  PV_0    grant;award',
+        'ras~A   PV_h    grant;award',
+        'ras~ay  PV_Atn  grant;award',
+        'ras~    PV_ttAw grant;award',
+        'ras~iy  IV_0hAnn_yu     grant;award',
+        'ras~    IV_0hwnyn_yu    grant;award',
+        'ras~aY  IV_0_Pass_yu    be granted;be awarded',
+        'ras~ay  IV_Ann_Pass_yu  be granted;be awarded'
       ],
       'patterns' => {
         'rassiy' => [
@@ -37501,14 +37499,14 @@ $Lexicon = {
       'form' => '\'arsY',
       'lines' => [
         ';; >arosaY_1',
-        '>rsY    >arosaY PV_0    lay plans;set anchor',
-        '>rsA    >arosA  PV_h    lay plans;set anchor',
-        '>rsy    >arosay PV_Atn  lay plans;set anchor',
-        '>rs     >aros   PV_ttAw lay plans;set anchor',
-        'rsy     rosiy   IV_0hAnn_yu     lay plans;set anchor',
-        'rs      ros     IV_0hwnyn_yu    lay plans;set anchor',
-        'rsY     rosaY   IV_0_Pass_yu    be lain (plans);be set (anchor);be moored',
-        'rsy     rosay   IV_Ann_Pass_yu  be lain (plans);be set (anchor);be moored'
+        '>arosaY PV_0    lay plans;set anchor',
+        '>arosA  PV_h    lay plans;set anchor',
+        '>arosay PV_Atn  lay plans;set anchor',
+        '>aros   PV_ttAw lay plans;set anchor',
+        'rosiy   IV_0hAnn_yu     lay plans;set anchor',
+        'ros     IV_0hwnyn_yu    lay plans;set anchor',
+        'rosaY   IV_0_Pass_yu    be lain (plans);be set (anchor);be moored',
+        'rosay   IV_Ann_Pass_yu  be lain (plans);be set (anchor);be moored'
       ],
       'patterns' => {
         'rsiy' => [
@@ -37548,12 +37546,12 @@ $Lexicon = {
       'form' => 'marsY',
       'lines' => [
         ';; marosaY_1',
-        'mrsY    marosaY N0      anchorage',
-        'mrsA    marosA  Nhy     anchorage',
-        'mrsy    marosay NAn_Nayn        anchorages',
-        'mrAsy   marAsiy N0_Nh   anchorages',
-        'mrAs    marAs   NK      anchorages',
-        'mrsA    mirosA  Nap     anchorage'
+        'marosaY N0      anchorage',
+        'marosA  Nhy     anchorage',
+        'marosay NAn_Nayn        anchorages',
+        'marAsiy N0_Nh   anchorages',
+        'marAs   NK      anchorages',
+        'mirosA  Nap     anchorage'
       ],
       'patterns' => {
         'marAsiy' => [
@@ -37665,9 +37663,9 @@ $Lexicon = {
       'form' => '\'arha.s',
       'lines' => [
         ';; >arohaS_1',
-        '>rhS    >arohaS PV      lay foundations;make firm/stable',
-        'rhS     rohiS   IV_yu   lay foundations;make firm/stable',
-        'rhS     rohaS   IV_Pass_yu      be laid (foundations);be made firm/stable'
+        '>arohaS PV      lay foundations;make firm/stable',
+        'rohiS   IV_yu   lay foundations;make firm/stable',
+        'rohaS   IV_Pass_yu      be laid (foundations);be made firm/stable'
       ],
       'patterns' => {
         'rhi.s' => [
@@ -37700,7 +37698,7 @@ $Lexicon = {
       'form' => '\'irhA.s',
       'lines' => [
         ';; <irohAS_1',
-        '<rhAS   <irohAS NduAt   foundation;precondition;down payment'
+        '<irohAS NduAt   foundation;precondition;down payment'
       ],
       'patterns' => {
         '\'irhA.s' => [
@@ -37731,8 +37729,8 @@ $Lexicon = {
       'form' => 'ru^sru^s',
       'lines' => [
         ';; ru$oru$_1',
-        'r$r$    ru$oru$ N       belt',
-        'r$Ar$   ra$Ari$ Ndip    belts'
+        'ru$oru$ N       belt',
+        'ra$Ari$ Ndip    belts'
       ],
       'patterns' => {
         'ra^sAri^s' => [
@@ -37756,7 +37754,7 @@ $Lexicon = {
       'form' => 'ra^srA^s',
       'lines' => [
         ';; ra$orA$_1',
-        'r$rA$   ra$orA$ N       tender'
+        'ra$orA$ N       tender'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37785,10 +37783,10 @@ $Lexicon = {
       'form' => 'rA.h',
       'lines' => [
         ';; rAH-u_1',
-        'rAH     rAH     PV_V    begin;go',
-        'rH      ruH     PV_C    begin;go',
-        'rwH     ruwH    IV_V    begin;go',
-        'rH      ruH     IV_C    begin;go'
+        'rAH     PV_V    begin;go',
+        'ruH     PV_C    begin;go',
+        'ruwH    IV_V    begin;go',
+        'ruH     IV_C    begin;go'
       ],
       'patterns' => {
         'ru.h' => [
@@ -37822,8 +37820,8 @@ $Lexicon = {
       'form' => 'rawwa.h',
       'lines' => [
         ';; raw~aH_1',
-        'rwH     raw~aH  PV      fan;ventilate;revive',
-        'rwH     raw~iH  IV_yu   fan;ventilate;revive'
+        'raw~aH  PV      fan;ventilate;revive',
+        'raw~iH  IV_yu   fan;ventilate;revive'
       ],
       'patterns' => {
         'rawwi.h' => [
@@ -37852,8 +37850,8 @@ $Lexicon = {
       'form' => 'rAwa.h',
       'lines' => [
         ';; rAwaH_1',
-        'rAwH    rAwaH   PV      alternate;vary',
-        'rAwH    rAwiH   IV_yu   alternate;vary'
+        'rAwaH   PV      alternate;vary',
+        'rAwiH   IV_yu   alternate;vary'
       ],
       'patterns' => {
         'rAwi.h' => [
@@ -37893,12 +37891,12 @@ $Lexicon = {
       'form' => '\'arA.h',
       'lines' => [
         ';; >arAH_1',
-        '>rAH    >arAH   PV_V    make rest;put at ease',
-        '>rH     >araH   PV_C    make rest;put at ease',
-        'ryH     riyH    IV_V_yu make rest;put at ease',
-        'rH      riH     IV_C_yu make rest;put at ease',
-        'rAH     rAH     IV_V_Pass_yu    be made to rest;be put at ease',
-        'rH      raH     IV_C_Pass_yu    be made to rest;be put at ease'
+        '>arAH   PV_V    make rest;put at ease',
+        '>araH   PV_C    make rest;put at ease',
+        'riyH    IV_V_yu make rest;put at ease',
+        'riH     IV_C_yu make rest;put at ease',
+        'rAH     IV_V_Pass_yu    be made to rest;be put at ease',
+        'raH     IV_C_Pass_yu    be made to rest;be put at ease'
       ],
       'patterns' => {
         'ra.h' => [
@@ -37940,8 +37938,8 @@ $Lexicon = {
       'form' => '\'arwa.h',
       'lines' => [
         ';; >arowaH_1',
-        '>rwH    >arowaH PV      smell bad;stink',
-        'rwH     rowiH   IV_yu   smell bad;stink'
+        '>arowaH PV      smell bad;stink',
+        'rowiH   IV_yu   smell bad;stink'
       ],
       'patterns' => {
         'rwi.h' => [
@@ -37965,8 +37963,8 @@ $Lexicon = {
       'form' => 'tarawwa.h',
       'lines' => [
         ';; taraw~aH_1',
-        'trwH    taraw~aH        PV      ventilate',
-        'trwH    taraw~aH        IV      ventilate'
+        'taraw~aH        PV      ventilate',
+        'taraw~aH        IV      ventilate'
       ],
       'patterns' => {},
       'index' => '1',
@@ -37985,8 +37983,8 @@ $Lexicon = {
       'form' => 'tarAwa.h',
       'lines' => [
         ';; tarAwaH_1',
-        'trAwH   tarAwaH PV      fluctuate;vary;range',
-        'trAwH   tarAwaH IV      fluctuate;vary;range'
+        'tarAwaH PV      fluctuate;vary;range',
+        'tarAwaH IV      fluctuate;vary;range'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38016,11 +38014,11 @@ $Lexicon = {
       'entry' => 'irtA.h',
       'form' => 'irtA.h',
       'lines' => [
-        ';; {irotAH_1',
-        '<rtAH   {irotAH PV_V_intr       be at rest;relax;be satisfied',
-        '<rtH    {irotaH PV_C_intr       be at rest;relax;be satisfied',
-        'rtAH    rotAH   IV_V_intr       be at rest;relax;be satisfied',
-        'rtH     rotaH   IV_C_intr       be at rest;relax;be satisfied'
+        ';; AirotAH_1',
+        'AirotAH PV_V_intr       be at rest;relax;be satisfied',
+        'AirotaH PV_C_intr       be at rest;relax;be satisfied',
+        'rotAH   IV_V_intr       be at rest;relax;be satisfied',
+        'rotaH   IV_C_intr       be at rest;relax;be satisfied'
       ],
       'patterns' => {
         'rtA.h' => [
@@ -38060,11 +38058,11 @@ $Lexicon = {
       'entry' => 'istarA.h',
       'form' => 'istarA.h',
       'lines' => [
-        ';; {isotarAH_1',
-        '<strAH  {isotarAH       PV_V    rest;relax;calm down;be pleased',
-        '<strH   {isotaraH       PV_C    rest;relax;calm down;be pleased',
-        'stryH   sotariyH        IV_V    rest;relax;calm down;be pleased',
-        'strH    sotariH IV_C    rest;relax;calm down;be pleased'
+        ';; AisotarAH_1',
+        'AisotarAH       PV_V    rest;relax;calm down;be pleased',
+        'AisotaraH       PV_C    rest;relax;calm down;be pleased',
+        'sotariyH        IV_V    rest;relax;calm down;be pleased',
+        'sotariH IV_C    rest;relax;calm down;be pleased'
       ],
       'patterns' => {
         'istara.h' => [
@@ -38093,9 +38091,9 @@ $Lexicon = {
       'entry' => 'istarwa.h',
       'form' => 'istarwa.h',
       'lines' => [
-        ';; {isotarowaH_1',
-        '<strwH  {isotarowaH     PV      inhale;sniff;be refreshed',
-        'strwH   sotarowiH       IV      inhale;sniff;be refreshed'
+        ';; AisotarowaH_1',
+        'AisotarowaH     PV      inhale;sniff;be refreshed',
+        'sotarowiH       IV      inhale;sniff;be refreshed'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38116,7 +38114,7 @@ $Lexicon = {
       'form' => 'rA.h',
       'lines' => [
         ';; rAH_1',
-        'rAH     rAH     N       wine'
+        'rAH     N       wine'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38135,7 +38133,7 @@ $Lexicon = {
       'form' => 'rA.haT',
       'lines' => [
         ';; rAHap_1',
-        'rAH     rAH     Nap     rest;repose;leisure'
+        'rAH     Nap     rest;repose;leisure'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38156,7 +38154,7 @@ $Lexicon = {
       'form' => 'rA.haT',
       'lines' => [
         ';; rAHap_2',
-        'rAH     rAH     NapAt   palm of the hand'
+        'rAH     NapAt   palm of the hand'
       ],
       'patterns' => {},
       'index' => '2',
@@ -38179,8 +38177,8 @@ $Lexicon = {
       'form' => 'ruw.h',
       'lines' => [
         ';; ruwH_1',
-        'rwH     ruwH    N       spirit;soul',
-        '>rwAH   >arowAH N       spirits'
+        'ruwH    N       spirit;soul',
+        '>arowAH N       spirits'
       ],
       'patterns' => {
         '\'arwA.h' => [
@@ -38205,7 +38203,7 @@ $Lexicon = {
       'form' => 'raw.h',
       'lines' => [
         ';; rawoH_1',
-        'rwH     rawoH   N       repose;refreshment'
+        'rawoH   N       repose;refreshment'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38225,7 +38223,7 @@ $Lexicon = {
       'form' => 'raw.haT',
       'lines' => [
         ';; rawoHap_1',
-        'rwH     rawoH   NapAt   early journey;errand'
+        'rawoH   NapAt   early journey;errand'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38245,8 +38243,8 @@ $Lexicon = {
       'form' => 'ruw.hiyy',
       'lines' => [
         ';; ruwHiy~_1',
-        'rwHy    ruwHiy~ Nall    spiritual     [[ruwHiy~/ADJ]]',
-        'rwHy    ruwHiy~ Nall    alcoholic     [[ruwHiy~/ADJ]]'
+        'ruwHiy~ Nall    spiritual     [[ruwHiy~/ADJ]]',
+        'ruwHiy~ Nall    alcoholic     [[ruwHiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38266,7 +38264,7 @@ $Lexicon = {
       'form' => 'ruw.hiyyaT',
       'lines' => [
         ';; ruwHiy~ap_1',
-        'rwHy    ruwHiy~ Nap     spirituality     [[ruwHiy~/NOUN]]'
+        'ruwHiy~ Nap     spirituality     [[ruwHiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38285,7 +38283,7 @@ $Lexicon = {
       'form' => 'ruw.hAniyy',
       'lines' => [
         ';; ruwHAniy~_1',
-        'rwHAny  ruwHAniy~       Nall    Ruhani'
+        'ruwHAniy~       Nall    Ruhani'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38304,7 +38302,7 @@ $Lexicon = {
       'form' => 'ruw.hAniyyaT',
       'lines' => [
         ';; ruwHAniy~ap_1',
-        'rwHAny  ruwHAniy~       Nap     spirituality     [[ruwHAniy~/NOUN]]'
+        'ruwHAniy~       Nap     spirituality     [[ruwHAniy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38323,7 +38321,7 @@ $Lexicon = {
       'form' => 'rawA.h',
       'lines' => [
         ';; rawAH_1',
-        'rwAH    rawAH   N       departure;return'
+        'rawAH   N       departure;return'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38415,10 +38413,10 @@ $Lexicon = {
       'form' => '\'arwa.h',
       'lines' => [
         ';; >arowaH_2',
-        '>rwH    >arowaH Nel     more/most calming;more/most soothing',
-        'rwHA\'   rawoHA\' N0_Nh   more/most calming;more/most soothing',
-        'rwHA&   rawoHA& Nh      more/most calming;more/most soothing',
-        'rwHA}   rawoHA} Nhy     more/most calming;more/most soothing'
+        '>arowaH Nel     more/most calming;more/most soothing',
+        'rawoHA\' N0_Nh   more/most calming;more/most soothing',
+        'rawoHA& Nh      more/most calming;more/most soothing',
+        'rawoHA} Nhy     more/most calming;more/most soothing'
       ],
       'patterns' => {
         'raw.hA\'' => [
@@ -38442,7 +38440,7 @@ $Lexicon = {
       'form' => 'raw.hA\'',
       'lines' => [
         ';; rawoHA\'_1',
-        'rwHA\'   rawoHA\' N0      Rawha'
+        'rawoHA\' N0      Rawha'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38461,7 +38459,7 @@ $Lexicon = {
       'form' => 'marA.h',
       'lines' => [
         ';; marAH_1',
-        'mrAH    marAH   N       pasture;visited place'
+        'marAH   N       pasture;visited place'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38481,7 +38479,7 @@ $Lexicon = {
       'form' => 'murA.h',
       'lines' => [
         ';; murAH_1',
-        'mrAH    murAH   N       pasture;visited place'
+        'murAH   N       pasture;visited place'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38505,8 +38503,8 @@ $Lexicon = {
       'form' => 'mirwa.haT',
       'lines' => [
         ';; mirowaHap_1',
-        'mrwH    mirowaH Napdu   fan;ventilator;propeller',
-        'mrAwH   marAwiH Ndip    fans;ventilators;propellers'
+        'mirowaH Napdu   fan;ventilator;propeller',
+        'marAwiH Ndip    fans;ventilators;propellers'
       ],
       'patterns' => {
         'marAwi.h' => [
@@ -38534,7 +38532,7 @@ $Lexicon = {
       'form' => 'mirwa.hiyy',
       'lines' => [
         ';; mirowaHiy~_1',
-        'mrwHy   mirowaHiy~      Nall    propeller;helicopter     [[mirowaHiy~/ADJ]]'
+        'mirowaHiy~      Nall    propeller;helicopter     [[mirowaHiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38558,8 +38556,8 @@ $Lexicon = {
       'form' => 'mirwa.hiyyaT',
       'lines' => [
         ';; mirowaHiy~ap_1',
-        'mrwHy   mirowaHiy~      Napdu   helicopter     [[mirowaHiy~/NOUN]]',
-        'mrwHy   mirowaHiy~      NAt     helicopters     [[mirowaHiy~/NOUN]]'
+        'mirowaHiy~      Napdu   helicopter     [[mirowaHiy~/NOUN]]',
+        'mirowaHiy~      NAt     helicopters     [[mirowaHiy~/NOUN]]'
       ],
       'patterns' => {
         'mirwa.hiyy' => []
@@ -38585,8 +38583,8 @@ $Lexicon = {
       'form' => 'mirwA.h',
       'lines' => [
         ';; mirowAH_1',
-        'mrwAH   mirowAH Ndu     fan;ventilator',
-        'mrAwyH  marAwiyH        Ndip    fans;ventilators'
+        'mirowAH Ndu     fan;ventilator',
+        'marAwiyH        Ndip    fans;ventilators'
       ],
       'patterns' => {
         'marAwiy.h' => [
@@ -38616,7 +38614,7 @@ $Lexicon = {
       'form' => 'tarwiy.h',
       'lines' => [
         ';; tarowiyH_1',
-        'trwyH   tarowiyH        NduAt   ventilation;amusement'
+        'tarowiyH        NduAt   ventilation;amusement'
       ],
       'patterns' => {
         'tarwiy.h' => [
@@ -38644,9 +38642,9 @@ $Lexicon = {
       'form' => 'tarwiy.haT',
       'lines' => [
         ';; tarowiyHap_1',
-        'trwyH   tarowiyH        Nap     distraction;diversion',
-        'trAwyH  tarAwiyH        Ndip    distractions;diversions',
-        'trAwyH  tarAwiyH        Ndip    evening prayers (during Ramadan)'
+        'tarowiyH        Nap     distraction;diversion',
+        'tarAwiyH        Ndip    distractions;diversions',
+        'tarAwiyH        Ndip    evening prayers (during Ramadan)'
       ],
       'patterns' => {
         'tarAwiy.h' => [
@@ -38673,7 +38671,7 @@ $Lexicon = {
       'form' => 'tarwiy.hiyy',
       'lines' => [
         ';; tarowiyHiy~_1',
-        'trwyHy  tarowiyHiy~     Nall    recreational'
+        'tarowiyHiy~     Nall    recreational'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38692,7 +38690,7 @@ $Lexicon = {
       'form' => '\'irA.haT',
       'lines' => [
         ';; <irAHap_1',
-        '<rAH    <irAH   Nap     relief'
+        '<irAH   Nap     relief'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38728,8 +38726,8 @@ $Lexicon = {
       'entry' => 'istirA.h',
       'form' => 'istirA.haT',
       'lines' => [
-        ';; {isotirAHap_1',
-        '<strAH  {isotirAH       Nap     rest;relaxation'
+        ';; AisotirAHap_1',
+        'AisotirAH       Nap     rest;relaxation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38748,8 +38746,8 @@ $Lexicon = {
       'entry' => 'istirA.h',
       'form' => 'istirA.haT',
       'lines' => [
-        ';; {isotirAHap_2',
-        '<strAH  {isotirAH       NapAt   intermission;recess'
+        ';; AisotirAHap_2',
+        'AisotirAH       NapAt   intermission;recess'
       ],
       'patterns' => {},
       'index' => '2',
@@ -38772,8 +38770,8 @@ $Lexicon = {
       'entry' => 'istirwA.h',
       'form' => 'istirwA.h',
       'lines' => [
-        ';; {isotirowAH_1',
-        '<strwAH {isotirowAH     N/At    ventilation;respiration'
+        ';; AisotirowAH_1',
+        'AisotirowAH     N/At    ventilation;respiration'
       ],
       'patterns' => {
         'istirwA.h' => [
@@ -38801,8 +38799,8 @@ $Lexicon = {
       'form' => 'rA\'i.h',
       'lines' => [
         ';; rA}iH_1',
-        'rA}H    rA}iH   Nall    going',
-        'rAyH    rAyiH   Nall    going'
+        'rA}iH   Nall    going',
+        'rAyiH   Nall    going'
       ],
       'patterns' => {
         'rAyi.h' => []
@@ -38827,8 +38825,8 @@ $Lexicon = {
       'form' => 'rA\'i.haT',
       'lines' => [
         ';; rA}iHap_1',
-        'rA}H    rA}iH   Nap     odor;perfume',
-        'rwA}H   rawA}iH Ndip    odors;perfume'
+        'rA}iH   Nap     odor;perfume',
+        'rawA}iH Ndip    odors;perfume'
       ],
       'patterns' => {
         'rawA\'i.h' => [
@@ -38867,7 +38865,7 @@ $Lexicon = {
       'form' => 'murtA.h',
       'lines' => [
         ';; murotAH_1',
-        'mrtAH   murotAH Nall    relaxed;resting;satisfied     [[murotAH/ADJ]]'
+        'murotAH Nall    relaxed;resting;satisfied     [[murotAH/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38906,7 +38904,7 @@ $Lexicon = {
       'form' => 'mustarA.h',
       'lines' => [
         ';; musotarAH_1',
-        'mstrAH  musotarAH       NduAt   water closet;toilet'
+        'musotarAH       NduAt   water closet;toilet'
       ],
       'patterns' => {
         'mustarA.h' => [
@@ -38936,8 +38934,8 @@ $Lexicon = {
       'form' => 'randaT',
       'lines' => [
         ';; ranodap_1',
-        'rndp    ranodap Nprop   Randa',
-        'rndh    ranodah Nprop   Randa'
+        'ranodap Nprop   Randa',
+        'ranodah Nprop   Randa'
       ],
       'patterns' => {
         'randah' => []
@@ -38964,8 +38962,8 @@ $Lexicon = {
       'form' => 'ruwdus',
       'lines' => [
         ';; ruwdus_1',
-        'rwds    ruwdus  Nprop   Rhodes',
-        'rwdws   ruwduws Nprop   Rhodes'
+        'ruwdus  Nprop   Rhodes',
+        'ruwduws Nprop   Rhodes'
       ],
       'patterns' => {
         'ruwduws' => []
@@ -38986,8 +38984,8 @@ $Lexicon = {
       'form' => 'ruwdiysiyy',
       'lines' => [
         ';; ruwdiysiy~_1',
-        'rwdysy  ruwdiysiy~      Nall    Rhodesian     [[ruwdiysiy~/NOUN]]',
-        'rwdysy  ruwdiysiy~      Nall    Rhodesian     [[ruwdiysiy~/ADJ]]'
+        'ruwdiysiy~      Nall    Rhodesian     [[ruwdiysiy~/NOUN]]',
+        'ruwdiysiy~      Nall    Rhodesian     [[ruwdiysiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39008,7 +39006,7 @@ $Lexicon = {
       'form' => 'rayyis',
       'lines' => [
         ';; ray~is_1',
-        'rys     ray~is  N       captain;chief'
+        'ray~is  N       captain;chief'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39028,7 +39026,7 @@ $Lexicon = {
       'form' => 'rAys',
       'lines' => [
         ';; rAyos_1',
-        'rAys    rAyos   Nprop   Rice'
+        'rAyos   Nprop   Rice'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39049,7 +39047,7 @@ $Lexicon = {
       'form' => 'rAmuwn',
       'lines' => [
         ';; rAmuwn_1',
-        'rAmwn   rAmuwn  N0      Ramon'
+        'rAmuwn  N0      Ramon'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39068,8 +39066,8 @@ $Lexicon = {
       'form' => 'rummAn',
       'lines' => [
         ';; rum~An_1',
-        'rmAn    rum~An  N       pomegranates',
-        'rmAn    rum~An  Napdu   pomegranate'
+        'rum~An  N       pomegranates',
+        'rum~An  Napdu   pomegranate'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39089,7 +39087,7 @@ $Lexicon = {
       'form' => 'rummAnaT',
       'lines' => [
         ';; rum~Anap_1',
-        'rmAn    rum~An  NapAt   knob;pommel;grenade'
+        'rum~An  NapAt   knob;pommel;grenade'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39122,10 +39120,10 @@ $Lexicon = {
       'form' => 'ra^s^s',
       'lines' => [
         ';; ra$~-u_1',
-        'r$      ra$~    PV_V    spray;splatter',
-        'r$$     ra$a$   PV_C    spray;splatter',
-        'r$      ru$~    IV_V    spray;splatter',
-        'r$$     ro$u$   IV_C    spray;splatter'
+        'ra$~    PV_V    spray;splatter',
+        'ra$a$   PV_C    spray;splatter',
+        'ru$~    IV_V    spray;splatter',
+        'ro$u$   IV_C    spray;splatter'
       ],
       'patterns' => {
         'ru^s^s' => [
@@ -39158,7 +39156,7 @@ $Lexicon = {
       'form' => 'ra^s^s',
       'lines' => [
         ';; ra$~_1',
-        'r$      ra$~    N       sprinkling;spraying'
+        'ra$~    N       sprinkling;spraying'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39178,7 +39176,7 @@ $Lexicon = {
       'form' => 'ra^s^saT',
       'lines' => [
         ';; ra$~ap_1',
-        'r$      ra$~    Nap     sprinkle;drizzle'
+        'ra$~    Nap     sprinkle;drizzle'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39198,7 +39196,7 @@ $Lexicon = {
       'form' => 'ra^sA^s',
       'lines' => [
         ';; ra$A$_1',
-        'r$A$    ra$A$   N       spray'
+        'ra$A$   N       spray'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39222,9 +39220,9 @@ $Lexicon = {
       'form' => 'ra^s^sA^saT',
       'lines' => [
         ';; ra$~A$ap_1',
-        'r$A$    ra$~A$  Napdu   machine gun',
-        'r$A$    ra$~A$  NAt     machine guns',
-        'r$A$    ra$~A$  Ndu     machine gun'
+        'ra$~A$  Napdu   machine gun',
+        'ra$~A$  NAt     machine guns',
+        'ra$~A$  Ndu     machine gun'
       ],
       'patterns' => {
         'ra^s^sA^s' => [
@@ -39253,8 +39251,8 @@ $Lexicon = {
       'form' => 'ra^s^sA^s',
       'lines' => [
         ';; ra$~A$_1',
-        'r$A$    ra$~A$  NduAt   water hose;sprinkler',
-        'r$A$    ra$~A$  NapAt   sprinkler;shower'
+        'ra$~A$  NduAt   water hose;sprinkler',
+        'ra$~A$  NapAt   sprinkler;shower'
       ],
       'patterns' => {
         'ra^s^sA^s' => [
@@ -39279,7 +39277,7 @@ $Lexicon = {
       'form' => 'mira^s^saT',
       'lines' => [
         ';; mira$~ap_1',
-        'mr$     mira$~  NapAt   watering can'
+        'mira$~  NapAt   watering can'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39304,8 +39302,8 @@ $Lexicon = {
       'form' => 'ra.gib',
       'lines' => [
         ';; ragib-a_1',
-        'rgb     ragib   PV      wish;desire',
-        'rgb     rogab   IV      wish;desire'
+        'ragib   PV      wish;desire',
+        'rogab   IV      wish;desire'
       ],
       'patterns' => {
         'r.gab' => [
@@ -39332,7 +39330,7 @@ $Lexicon = {
       'form' => 'ra.gab',
       'lines' => [
         ';; ragab_1',
-        'rgb     ragab   N       desiring;wishing'
+        'ragab   N       desiring;wishing'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39359,9 +39357,9 @@ $Lexicon = {
       'form' => 'ra.gbaT',
       'lines' => [
         ';; ragobap_1',
-        'rgb     ragob   Napdu   desire;wish',
-        'rgb     ragab   NAt     desires;wishes',
-        'rgAb    rigAb   N       desires;wishes'
+        'ragob   Napdu   desire;wish',
+        'ragab   NAt     desires;wishes',
+        'rigAb   N       desires;wishes'
       ],
       'patterns' => {
         'ra.gab' => [
@@ -39390,7 +39388,7 @@ $Lexicon = {
       'form' => 'ra.giyb',
       'lines' => [
         ';; ragiyb_1',
-        'rgyb    ragiyb  N0      Ragheeb'
+        'ragiyb  N0      Ragheeb'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39413,8 +39411,8 @@ $Lexicon = {
       'form' => 'ra.giybaT',
       'lines' => [
         ';; ragiybap_1',
-        'rgyb    ragiyb  Napdu   desideratum;wish',
-        'rgA}b   ragA}ib Ndip    desiderata;wishes'
+        'ragiyb  Napdu   desideratum;wish',
+        'ragA}ib Ndip    desiderata;wishes'
       ],
       'patterns' => {
         'ra.gA\'ib' => [
@@ -39444,7 +39442,7 @@ $Lexicon = {
       'form' => 'tar.giyb',
       'lines' => [
         ';; tarogiyb_1',
-        'trgyb   tarogiyb        NduAt   invitation;attraction'
+        'tarogiyb        NduAt   invitation;attraction'
       ],
       'patterns' => {
         'tar.giyb' => [
@@ -39468,7 +39466,7 @@ $Lexicon = {
       'form' => 'rA.gib',
       'lines' => [
         ';; rAgib_1',
-        'rAgb    rAgib   Nall    wishing;desirous'
+        'rAgib   Nall    wishing;desirous'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39488,7 +39486,7 @@ $Lexicon = {
       'form' => 'rA.gib',
       'lines' => [
         ';; rAgib_2',
-        'rAgb    rAgib   N0      Ragheb;Raghib'
+        'rAgib   N0      Ragheb;Raghib'
       ],
       'patterns' => {},
       'index' => '2',
@@ -39508,7 +39506,7 @@ $Lexicon = {
       'form' => 'mar.guwb',
       'lines' => [
         ';; maroguwb_1',
-        'mrgwb   maroguwb        N-ap    desired;sought after     [[maroguwb/ADJ]]'
+        'maroguwb        N-ap    desired;sought after     [[maroguwb/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39532,7 +39530,7 @@ $Lexicon = {
       'form' => 'mura.g.gibAt',
       'lines' => [
         ';; murag~ibAt_1',
-        'mrgb    murag~ib        NAt     attractions;advantages'
+        'murag~ib        NAt     attractions;advantages'
       ],
       'patterns' => {
         'mura.g.gib' => [
@@ -39568,10 +39566,10 @@ $Lexicon = {
       'form' => 'ra.s.s',
       'lines' => [
         ';; raS~-u_1',
-        'rS      raS~    PV_V    compress;join together;align',
-        'rSS     raSaS   PV_C    compress;join together;align',
-        'rS      ruS~    IV_V    compress;join together;align',
-        'rSS     roSuS   IV_C    compress;join together;align'
+        'raS~    PV_V    compress;join together;align',
+        'raSaS   PV_C    compress;join together;align',
+        'ruS~    IV_V    compress;join together;align',
+        'roSuS   IV_C    compress;join together;align'
       ],
       'patterns' => {
         'r.su.s' => [
@@ -39609,8 +39607,8 @@ $Lexicon = {
       'form' => 'ra.s.sa.s',
       'lines' => [
         ';; raS~aS_1',
-        'rSS     raS~aS  PV      fit tightly together;compress',
-        'rSS     raS~iS  IV_yu   fit tightly together;compress'
+        'raS~aS  PV      fit tightly together;compress',
+        'raS~iS  IV_yu   fit tightly together;compress'
       ],
       'patterns' => {
         'ra.s.si.s' => [
@@ -39641,10 +39639,10 @@ $Lexicon = {
       'form' => 'tarA.s.s',
       'lines' => [
         ';; tarAS~_1',
-        'trAS    tarAS~  PV_V_intr       be pressed together;be compacted',
-        'trASS   tarASaS PV_C_intr       be pressed together;be compacted',
-        'trAS    tarAS~  IV_V_intr       be pressed together;be compacted',
-        'trASS   tarASiS IV_C_intr       be pressed together;be compacted'
+        'tarAS~  PV_V_intr       be pressed together;be compacted',
+        'tarASaS PV_C_intr       be pressed together;be compacted',
+        'tarAS~  IV_V_intr       be pressed together;be compacted',
+        'tarASiS IV_C_intr       be pressed together;be compacted'
       ],
       'patterns' => {
         'tarA.sa.s' => [
@@ -39671,8 +39669,8 @@ $Lexicon = {
       'form' => 'ra.sA.s',
       'lines' => [
         ';; raSAS_1',
-        'rSAS    raSAS   N       lead (metal)',
-        'rSAS    raSAS   N       bullets'
+        'raSAS   N       lead (metal)',
+        'raSAS   N       bullets'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39696,8 +39694,8 @@ $Lexicon = {
       'form' => 'ra.sA.saT',
       'lines' => [
         ';; raSASap_1',
-        'rSAS    raSAS   Napdu   bullet;shot',
-        'rSAS    raSAS   NAt     bullets;shots'
+        'raSAS   Napdu   bullet;shot',
+        'raSAS   NAt     bullets;shots'
       ],
       'patterns' => {
         'ra.sA.s' => [
@@ -39723,7 +39721,7 @@ $Lexicon = {
       'form' => 'ra.sA.siyy',
       'lines' => [
         ';; raSASiy~_1',
-        'rSASy   raSASiy~        Nall    lead;leaden     [[raSASiy~/ADJ]]'
+        'raSASiy~        Nall    lead;leaden     [[raSASiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39743,7 +39741,7 @@ $Lexicon = {
       'form' => 'ra.siy.s',
       'lines' => [
         ';; raSiyS_1',
-        'rSyS    raSiyS  N-ap    compressed;compacted     [[raSiyS/ADJ]]'
+        'raSiyS  N-ap    compressed;compacted     [[raSiyS/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39767,7 +39765,7 @@ $Lexicon = {
       'form' => 'tarA.s.s',
       'lines' => [
         ';; tarAS~_2',
-        'trAS    tarAS~  NduAt   agglutination'
+        'tarAS~  NduAt   agglutination'
       ],
       'patterns' => {
         'tarA.s.s' => [
@@ -39792,7 +39790,7 @@ $Lexicon = {
       'form' => 'riyfir',
       'lines' => [
         ';; riyfir_1',
-        'ryfr    riyfir  Nprop   River'
+        'riyfir  Nprop   River'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39820,9 +39818,9 @@ $Lexicon = {
       'form' => 'rus.g',
       'lines' => [
         ';; rusog_1',
-        'rsg     rusog   Ndu     wrist',
-        '>rsAg   >arosAg N       wrists',
-        '>rsg    >arosug N       wrists'
+        'rusog   Ndu     wrist',
+        '>arosAg N       wrists',
+        '>arosug N       wrists'
       ],
       'patterns' => {
         '\'arsu.g' => [
@@ -39851,7 +39849,7 @@ $Lexicon = {
       'form' => 'rAdiyuwm',
       'lines' => [
         ';; rAdiyuwm_1',
-        'rAdywm  rAdiyuwm        N       radium'
+        'rAdiyuwm        N       radium'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39870,7 +39868,7 @@ $Lexicon = {
       'form' => 'rAdiyuwmiyy',
       'lines' => [
         ';; rAdiyuwmiy~_1',
-        'rAdywmy rAdiyuwmiy~     Nall    radium     [[rAdiyuwmiy~/ADJ]]'
+        'rAdiyuwmiy~     Nall    radium     [[rAdiyuwmiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39898,9 +39896,9 @@ $Lexicon = {
       'form' => 'rafat',
       'lines' => [
         ';; rafat-ui_1',
-        'rft     rafat   PV-t    smash;reject;discharge',
-        'rft     rofut   IV      smash;reject;discharge',
-        'rft     rofit   IV      smash;reject;discharge'
+        'rafat   PV-t    smash;reject;discharge',
+        'rofut   IV      smash;reject;discharge',
+        'rofit   IV      smash;reject;discharge'
       ],
       'patterns' => {
         'rfut' => [
@@ -39932,7 +39930,7 @@ $Lexicon = {
       'form' => 'raft',
       'lines' => [
         ';; rafot_1',
-        'rft     rafot   N       dismissal;discharge'
+        'rafot   N       dismissal;discharge'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39952,7 +39950,7 @@ $Lexicon = {
       'form' => 'raftiyyaT',
       'lines' => [
         ';; rafotiy~ap_1',
-        'rfty    rafotiy~        Nap     transit duty;clearance papers     [[rafotiy~/NOUN]]'
+        'rafotiy~        Nap     transit duty;clearance papers     [[rafotiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39978,8 +39976,8 @@ $Lexicon = {
       'form' => 'ra.ga_t',
       'lines' => [
         ';; ragav-a_1',
-        'rgv     ragav   PV      breast-feed',
-        'rgv     rogav   IV      breast-feed'
+        'ragav   PV      breast-feed',
+        'rogav   IV      breast-feed'
       ],
       'patterns' => {
         'r.ga_t' => [
@@ -40005,7 +40003,7 @@ $Lexicon = {
       'form' => 'ra.guw_t',
       'lines' => [
         ';; raguwv_1',
-        'rgwv    raguwv  Nall    unweaned'
+        'raguwv  Nall    unweaned'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40045,13 +40043,13 @@ $Lexicon = {
       'form' => 'rafA',
       'lines' => [
         ';; rafA-u_1',
-        'rfA     rafA    PV_0h   mend;darn',
-        'rfw     rafaw   PV_Atn  mend;darn',
-        'rf      raf     PV_ttAw mend;darn',
-        'rfw     rofuw   IV_0hAnn        mend;darn',
-        'rf      rof     IV_0hwnyn       mend;darn',
-        'rfY     rofaY   IV_0_Pass_yu    be mended;be darned',
-        'rfy     rofay   IV_Ann_Pass_yu  be mended;be darned'
+        'rafA    PV_0h   mend;darn',
+        'rafaw   PV_Atn  mend;darn',
+        'raf     PV_ttAw mend;darn',
+        'rofuw   IV_0hAnn        mend;darn',
+        'rof     IV_0hwnyn       mend;darn',
+        'rofaY   IV_0_Pass_yu    be mended;be darned',
+        'rofay   IV_Ann_Pass_yu  be mended;be darned'
       ],
       'patterns' => {
         'rafaw' => [
@@ -40089,7 +40087,7 @@ $Lexicon = {
       'form' => 'rafw',
       'lines' => [
         ';; rafow_1',
-        'rfw     rafow   N       mending;darning'
+        'rafow   N       mending;darning'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40111,7 +40109,7 @@ $Lexicon = {
       'form' => 'ruwAndA',
       'lines' => [
         ';; ruwAnodA_1',
-        'rwAndA  ruwAnodA        N0      Rwanda'
+        'ruwAnodA        N0      Rwanda'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40139,9 +40137,9 @@ $Lexicon = {
       'form' => 'ra\'as',
       'lines' => [
         ';; ra>as-ai_1',
-        'r>s     ra>as   PV      lead;direct',
-        'r>s     ro>as   IV      lead;direct',
-        'r}s     ro}is   IV      lead;direct'
+        'ra>as   PV      lead;direct',
+        'ro>as   IV      lead;direct',
+        'ro}is   IV      lead;direct'
       ],
       'patterns' => {
         'r\'is' => [
@@ -40176,8 +40174,8 @@ $Lexicon = {
       'form' => 'ra\'us',
       'lines' => [
         ';; ra&us-u_1',
-        'r&s     ra&us   PV_intr be chief',
-        'r&s     ro&us   IV_intr be chief'
+        'ra&us   PV_intr be chief',
+        'ro&us   IV_intr be chief'
       ],
       'patterns' => {
         'r\'us' => [
@@ -40203,8 +40201,8 @@ $Lexicon = {
       'form' => 'tara\'\'as',
       'lines' => [
         ';; tara>~as_1',
-        'tr>s    tara>~as        PV      lead;be head of;direct',
-        'tr>s    tara>~as        IV      lead;be head of;direct'
+        'tara>~as        PV      lead;be head of;direct',
+        'tara>~as        IV      lead;be head of;direct'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40228,9 +40226,9 @@ $Lexicon = {
       'entry' => 'irta\'as',
       'form' => 'irta\'as',
       'lines' => [
-        ';; {irota>as_1',
-        '<rt>s   {irota>as       PV_intr be chief;be director',
-        'rt}s    rota}is IV_intr be chief;be director'
+        ';; Airota>as_1',
+        'Airota>as       PV_intr be chief;be director',
+        'rota}is IV_intr be chief;be director'
       ],
       'patterns' => {
         'rta\'is' => [
@@ -40261,10 +40259,10 @@ $Lexicon = {
       'form' => 'ra\'s',
       'lines' => [
         ';; ra>os_1',
-        'r>s     ra>os   Ndu     head;top',
-        'rAs     ra>os   Ndu     head;top',
-        'r&ws    ru&uws  N       heads;tops',
-        '>r&s    >aro&us N       heads;tops'
+        'ra>os   Ndu     head;top',
+        'ra>os   Ndu     head;top',
+        'ru&uws  N       heads;tops',
+        '>aro&us N       heads;tops'
       ],
       'patterns' => {
         '\'ar\'us' => [
@@ -40293,8 +40291,8 @@ $Lexicon = {
       'form' => 'ra\'s',
       'lines' => [
         ';; ra>os_2',
-        'r>s     ra>os   Nprop   Ras (cape)',
-        'rAs     ra>os   Nprop   Ras (cape)'
+        'ra>os   Nprop   Ras (cape)',
+        'ra>os   Nprop   Ras (cape)'
       ],
       'patterns' => {},
       'index' => '2',
@@ -40320,10 +40318,10 @@ $Lexicon = {
       'form' => 'ra\'s',
       'lines' => [
         ';; ra>os_3',
-        'r>s     ra>os   Ndu     leader;chief',
-        'rAs     ra>os   Ndu     leader;chief',
-        'r&ws    ru&uws  N       leaders;chiefs',
-        '>r&s    >aro&us N       leaders;chiefs'
+        'ra>os   Ndu     leader;chief',
+        'ra>os   Ndu     leader;chief',
+        'ru&uws  N       leaders;chiefs',
+        '>aro&us N       leaders;chiefs'
       ],
       'patterns' => {
         '\'ar\'us' => [
@@ -40352,7 +40350,7 @@ $Lexicon = {
       'form' => 'ra\'siyy',
       'lines' => [
         ';; ra>osiy~_1',
-        'r>sy    ra>osiy~        Nall    principal;main     [[ra>osiy~/ADJ]]'
+        'ra>osiy~        Nall    principal;main     [[ra>osiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40372,7 +40370,7 @@ $Lexicon = {
       'form' => 'ra\'siyy',
       'lines' => [
         ';; ra>osiy~_2',
-        'r>sy    ra>osiy~        N-ap    header;head shot (sport)     [[ra>osiy~/ADJ]]'
+        'ra>osiy~        N-ap    header;head shot (sport)     [[ra>osiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -40398,10 +40396,10 @@ $Lexicon = {
       'form' => 'ra\'iys',
       'lines' => [
         ';; ra}iys_1',
-        'r}ys    ra}iys  N/ap    president;head;chairman',
-        'r&sA\'   ru&asA\' N0_Nh   presidents',
-        'r&sA&   ru&asA& Nh      presidents',
-        'r&sA}   ru&asA} Nhy     presidents'
+        'ra}iys  N/ap    president;head;chairman',
+        'ru&asA\' N0_Nh   presidents',
+        'ru&asA& Nh      presidents',
+        'ru&asA} Nhy     presidents'
       ],
       'patterns' => {
         'ru\'asA\'' => [
@@ -40427,7 +40425,7 @@ $Lexicon = {
       'form' => 'ra\'iysiyy',
       'lines' => [
         ';; ra}iysiy~_1',
-        'r}ysy   ra}iysiy~       Nall    main;principal     [[ra}iysiy~/ADJ]]'
+        'ra}iysiy~       Nall    main;principal     [[ra}iysiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40468,9 +40466,9 @@ $Lexicon = {
       'form' => 'ri\'AsaT',
       'lines' => [
         ';; ri}Asap_1',
-        'r}As    ri}As   Nap     presidency;leadership;chairmanship',
-        'ryAs    riyAs   Nap     presidency;leadership;chairmanship',
-        'r|s     ra|s    Nap     presidency;leadership;chairmanship'
+        'ri}As   Nap     presidency;leadership;chairmanship',
+        'riyAs   Nap     presidency;leadership;chairmanship',
+        'ra|s    Nap     presidency;leadership;chairmanship'
       ],
       'patterns' => {
         'riyAs' => [
@@ -40502,8 +40500,8 @@ $Lexicon = {
       'form' => 'ri\'Asiyy',
       'lines' => [
         ';; ri}Asiy~_1',
-        'r}Asy   ri}Asiy~        Nall    presidential;executive     [[ri}Asiy~/ADJ]]',
-        'ryAsy   riyAsiy~        Nall    presidential;executive     [[riyAsiy~/ADJ]]'
+        'ri}Asiy~        Nall    presidential;executive     [[ri}Asiy~/ADJ]]',
+        'riyAsiy~        Nall    presidential;executive     [[riyAsiy~/ADJ]]'
       ],
       'patterns' => {
         'riyAsiyy' => []
@@ -40529,7 +40527,7 @@ $Lexicon = {
       'form' => 'tara\'\'us',
       'lines' => [
         ';; tara&~us_1',
-        'tr&s    tara&~us        NduAt   leadership;chairmanship'
+        'tara&~us        NduAt   leadership;chairmanship'
       ],
       'patterns' => {
         'tara\'\'us' => [
@@ -40553,7 +40551,7 @@ $Lexicon = {
       'form' => 'rawA\'is',
       'lines' => [
         ';; rawA}is_1',
-        'rwA}s   rawA}is Ndip    cliffs'
+        'rawA}is Ndip    cliffs'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40572,9 +40570,9 @@ $Lexicon = {
       'form' => 'mar\'uws',
       'lines' => [
         ';; maro&uws_1',
-        'mr&ws   maro&uws        Nall    subordinate;subaltern',
-        'mr}ws   maro}uws        Nall    subordinate;subaltern',
-        'mr\'ws   maro\'uws        Nall    subordinate;subaltern'
+        'maro&uws        Nall    subordinate;subaltern',
+        'maro}uws        Nall    subordinate;subaltern',
+        'maro\'uws        Nall    subordinate;subaltern'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40600,8 +40598,8 @@ $Lexicon = {
       'form' => 'ra^gaf',
       'lines' => [
         ';; rajaf-u_1',
-        'rjf     rajaf   PV      convulse;tremble',
-        'rjf     rojuf   IV      convulse;tremble'
+        'rajaf   PV      convulse;tremble',
+        'rojuf   IV      convulse;tremble'
       ],
       'patterns' => {
         'r^guf' => [
@@ -40635,9 +40633,9 @@ $Lexicon = {
       'form' => '\'ar^gaf',
       'lines' => [
         ';; >arojaf_1',
-        '>rjf    >arojaf PV      make tremble;shake',
-        'rjf     rojif   IV_yu   make tremble;shake',
-        'rjf     rojaf   IV_Pass_yu      be shaken'
+        '>arojaf PV      make tremble;shake',
+        'rojif   IV_yu   make tremble;shake',
+        'rojaf   IV_Pass_yu      be shaken'
       ],
       'patterns' => {
         'r^gif' => [
@@ -40668,9 +40666,9 @@ $Lexicon = {
       'entry' => 'irta^gaf',
       'form' => 'irta^gaf',
       'lines' => [
-        ';; {irotajaf_1',
-        '<rtjf   {irotajaf       PV      tremble;quake',
-        'rtjf    rotajif IV      tremble;quake'
+        ';; Airotajaf_1',
+        'Airotajaf       PV      tremble;quake',
+        'rotajif IV      tremble;quake'
       ],
       'patterns' => {
         'rta^gif' => [
@@ -40694,7 +40692,7 @@ $Lexicon = {
       'form' => 'ra^gfaT',
       'lines' => [
         ';; rajofap_1',
-        'rjf     rajof   Nap     tremor;shiver'
+        'rajof   Nap     tremor;shiver'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40714,7 +40712,7 @@ $Lexicon = {
       'form' => 'ra^g^gAf',
       'lines' => [
         ';; raj~Af_1',
-        'rjAf    raj~Af  N/ap    trembling;shaken     [[raj~Af/ADJ]]'
+        'raj~Af  N/ap    trembling;shaken     [[raj~Af/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40741,8 +40739,8 @@ $Lexicon = {
       'form' => '\'ir^gAf',
       'lines' => [
         ';; <irojAf_1',
-        '<rjAf   <irojAf NduAt   false rumor',
-        '>rAjyf  >arAjiyf        Ndip    false rumors'
+        '<irojAf NduAt   false rumor',
+        '>arAjiyf        Ndip    false rumors'
       ],
       'patterns' => {
         '\'arA^giyf' => [
@@ -40778,9 +40776,9 @@ $Lexicon = {
       'form' => 'ra`a^s',
       'lines' => [
         ';; raEa$-a_1',
-        'rE$     raEa$   PV      tremble;shake',
-        'rE$     raEi$   PV      tremble;shake',
-        'rE$     roEa$   IV      tremble;shake'
+        'raEa$   PV      tremble;shake',
+        'raEi$   PV      tremble;shake',
+        'roEa$   IV      tremble;shake'
       ],
       'patterns' => {
         'r`a^s' => [
@@ -40817,9 +40815,9 @@ $Lexicon = {
       'form' => '\'ar`a^s',
       'lines' => [
         ';; >aroEa$_1',
-        '>rE$    >aroEa$ PV      make tremble;make shake',
-        'rE$     roEi$   IV_yu   make tremble;make shake',
-        'rE$     roEa$   IV_Pass_yu      be made to tremble;be made to shake'
+        '>aroEa$ PV      make tremble;make shake',
+        'roEi$   IV_yu   make tremble;make shake',
+        'roEa$   IV_Pass_yu      be made to tremble;be made to shake'
       ],
       'patterns' => {
         'r`i^s' => [
@@ -40851,9 +40849,9 @@ $Lexicon = {
       'entry' => 'irta`a^s',
       'form' => 'irta`a^s',
       'lines' => [
-        ';; {irotaEa$_1',
-        '<rtE$   {irotaEa$       PV      tremble;shake',
-        'rtE$    rotaEi$ IV      tremble;shake'
+        ';; AirotaEa$_1',
+        'AirotaEa$       PV      tremble;shake',
+        'rotaEi$ IV      tremble;shake'
       ],
       'patterns' => {
         'rta`i^s' => [
@@ -40877,7 +40875,7 @@ $Lexicon = {
       'form' => 'ri`^saT',
       'lines' => [
         ';; riEo$ap_1',
-        'rE$     riEo$   Nap     tremor'
+        'riEo$   Nap     tremor'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40899,8 +40897,8 @@ $Lexicon = {
       'entry' => 'irti`A^s',
       'form' => 'irti`A^s',
       'lines' => [
-        ';; {irotiEA$_1',
-        '<rtEA$  {irotiEA$       NduAt   trembling;tremor'
+        ';; AirotiEA$_1',
+        'AirotiEA$       NduAt   trembling;tremor'
       ],
       'patterns' => {
         'irti`A^s' => [
@@ -40923,8 +40921,8 @@ $Lexicon = {
       'entry' => 'irti`A^s',
       'form' => 'irti`A^saT',
       'lines' => [
-        ';; {irotiEA$ap_1',
-        '<rtEA$  {irotiEA$       NapAt   quake;shiver'
+        ';; AirotiEA$ap_1',
+        'AirotiEA$       NapAt   quake;shiver'
       ],
       'patterns' => {},
       'index' => '1',
@@ -40953,9 +40951,9 @@ $Lexicon = {
       'form' => '\'ar.gam',
       'lines' => [
         ';; >arogam_1',
-        '>rgm    >arogam PV      compel;coerce;force',
-        'rgm     rogim   IV_yu   compel;coerce;force',
-        'rgm     rogam   IV_Pass_yu      be compelled;be coerced;be forced'
+        '>arogam PV      compel;coerce;force',
+        'rogim   IV_yu   compel;coerce;force',
+        'rogam   IV_Pass_yu      be compelled;be coerced;be forced'
       ],
       'patterns' => {
         'r.gim' => [
@@ -40986,7 +40984,7 @@ $Lexicon = {
       'form' => 'ra.gm',
       'lines' => [
         ';; ragom_1',
-        'rgm     ragom   N       in spite of;despite'
+        'ragom   N       in spite of;despite'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41006,8 +41004,8 @@ $Lexicon = {
       'form' => 'ra.gma',
       'lines' => [
         ';; ragoma_1',
-        'rgm     ragoma  FW-Wa   in spite of;despite     [[ragoma/PREP]]',
-        'rgm     ragoma  FW-Wa-a in spite of;despite     [[ragoma/PREP]]'
+        'ragoma  FW-Wa   in spite of;despite     [[ragoma/PREP]]',
+        'ragoma  FW-Wa-a in spite of;despite     [[ragoma/PREP]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41027,7 +41025,7 @@ $Lexicon = {
       'form' => 'ra.gAm',
       'lines' => [
         ';; ragAm_1',
-        'rgAm    ragAm   N       dust and sand'
+        'ragAm   N       dust and sand'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41046,7 +41044,7 @@ $Lexicon = {
       'form' => 'ru.gAm',
       'lines' => [
         ';; rugAm_1',
-        'rgAm    rugAm   N       mucus'
+        'rugAm   N       mucus'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41069,8 +41067,8 @@ $Lexicon = {
       'form' => 'ru.gAmY',
       'lines' => [
         ';; rugAmaY_1',
-        'rgAmY   rugAmaY N0      trachea;windpipe',
-        'rgAmA   rugAmA  Nhy     trachea;windpipe'
+        'rugAmaY N0      trachea;windpipe',
+        'rugAmA  Nhy     trachea;windpipe'
       ],
       'patterns' => {
         'ru.gAmA' => []
@@ -41092,7 +41090,7 @@ $Lexicon = {
       'form' => '\'ar.gam',
       'lines' => [
         ';; >arogam_2',
-        '>rgm    >arogam Nel     more compelled;more forced'
+        '>arogam Nel     more compelled;more forced'
       ],
       'patterns' => {},
       'index' => '2',
@@ -41112,7 +41110,7 @@ $Lexicon = {
       'form' => 'mar.gamaT',
       'lines' => [
         ';; marogamap_1',
-        'mrgm    marogam Napdu   compulsion;reluctance'
+        'marogam Napdu   compulsion;reluctance'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41136,7 +41134,7 @@ $Lexicon = {
       'form' => '\'ir.gAm',
       'lines' => [
         ';; <irogAm_1',
-        '<rgAm   <irogAm NduAt   compulsion'
+        '<irogAm NduAt   compulsion'
       ],
       'patterns' => {
         '\'ir.gAm' => [
@@ -41159,7 +41157,7 @@ $Lexicon = {
       'form' => 'rA.gim',
       'lines' => [
         ';; rAgim_1',
-        'rAgm    rAgim   Nall    reluctant;unwilling'
+        'rAgim   Nall    reluctant;unwilling'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41185,8 +41183,8 @@ $Lexicon = {
       'form' => 'ruwmAnsiyy',
       'lines' => [
         ';; ruwmAnosiy~_1',
-        'rwmAnsy ruwmAnosiy~     Nall    romantic     [[ruwmAnosiy~/ADJ]]',
-        'rwmnsy  ruwmanosiy~     Nall    romantic     [[ruwmAnosiy~/ADJ]]'
+        'ruwmAnosiy~     Nall    romantic     [[ruwmAnosiy~/ADJ]]',
+        'ruwmanosiy~     Nall    romantic     [[ruwmAnosiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41209,8 +41207,8 @@ $Lexicon = {
       'form' => 'ruwmAnsiyyaT',
       'lines' => [
         ';; ruwmAnosiy~ap_1',
-        'rwmAnsy ruwmAnosiy~     Nap     romanticism     [[ruwmAnosiy~/NOUN]]',
-        'rwmnsy  ruwmanosiy~     Nap     romanticism     [[ruwmAnosiy~/NOUN]]'
+        'ruwmAnosiy~     Nap     romanticism     [[ruwmAnosiy~/NOUN]]',
+        'ruwmanosiy~     Nap     romanticism     [[ruwmAnosiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41235,8 +41233,8 @@ $Lexicon = {
       'form' => 'rannam',
       'lines' => [
         ';; ran~am_1',
-        'rnm     ran~am  PV      chant;intone;sing',
-        'rnm     ran~im  IV_yu   chant;intone;sing'
+        'ran~am  PV      chant;intone;sing',
+        'ran~im  IV_yu   chant;intone;sing'
       ],
       'patterns' => {
         'rannim' => [
@@ -41261,8 +41259,8 @@ $Lexicon = {
       'form' => 'tarannam',
       'lines' => [
         ';; taran~am_1',
-        'trnm    taran~am        PV      chant;intone;sing',
-        'trnm    taran~am        IV      chant;intone;sing'
+        'taran~am        PV      chant;intone;sing',
+        'taran~am        IV      chant;intone;sing'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41287,8 +41285,8 @@ $Lexicon = {
       'form' => 'tarniymaT',
       'lines' => [
         ';; taroniymap_1',
-        'trnym   taroniym        NapAt   anthem;chanting;song',
-        'trAnym  tarAniym        Ndip    anthems;chanting;songs'
+        'taroniym        NapAt   anthem;chanting;song',
+        'tarAniym        Ndip    anthems;chanting;songs'
       ],
       'patterns' => {
         'tarAniym' => [
@@ -41317,7 +41315,7 @@ $Lexicon = {
       'form' => 'ruqAriq',
       'lines' => [
         ';; ruqAriq_1',
-        'rqArq   ruqAriq N-ap    shallow'
+        'ruqAriq N-ap    shallow'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41342,8 +41340,8 @@ $Lexicon = {
       'form' => 'ra.hib',
       'lines' => [
         ';; raHib-a_1',
-        'rHb     raHib   PV_intr be spacious',
-        'rHb     roHab   IV_intr be spacious'
+        'raHib   PV_intr be spacious',
+        'roHab   IV_intr be spacious'
       ],
       'patterns' => {
         'r.hab' => [
@@ -41373,8 +41371,8 @@ $Lexicon = {
       'form' => 'ra.hub',
       'lines' => [
         ';; raHub-u_1',
-        'rHb     raHub   PV_intr be spacious',
-        'rHb     roHub   IV_intr be spacious'
+        'raHub   PV_intr be spacious',
+        'roHub   IV_intr be spacious'
       ],
       'patterns' => {
         'r.hub' => [
@@ -41404,8 +41402,8 @@ $Lexicon = {
       'form' => 'ra.h.hab',
       'lines' => [
         ';; raH~ab_1',
-        'rHb     raH~ab  PV      welcome;receive',
-        'rHb     raH~ib  IV_yu   welcome;receive'
+        'raH~ab  PV      welcome;receive',
+        'raH~ib  IV_yu   welcome;receive'
       ],
       'patterns' => {
         'ra.h.hib' => [
@@ -41429,8 +41427,8 @@ $Lexicon = {
       'form' => 'tara.h.hab',
       'lines' => [
         ';; taraH~ab_1',
-        'trHb    taraH~ab        PV      welcome',
-        'trHb    taraH~ab        IV      welcome'
+        'taraH~ab        PV      welcome',
+        'taraH~ab        IV      welcome'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41449,7 +41447,7 @@ $Lexicon = {
       'form' => 'ra.hb',
       'lines' => [
         ';; raHob_1',
-        'rHb     raHob   N-ap    spacious;generous'
+        'raHob   N-ap    spacious;generous'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41469,7 +41467,7 @@ $Lexicon = {
       'form' => 'ru.hb',
       'lines' => [
         ';; ruHob_1',
-        'rHb     ruHob   N       spaciousness'
+        'ruHob   N       spaciousness'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41488,7 +41486,7 @@ $Lexicon = {
       'form' => 'ra.hab',
       'lines' => [
         ';; raHab_1',
-        'rHb     raHab   N       spaciousness'
+        'raHab   N       spaciousness'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41514,9 +41512,9 @@ $Lexicon = {
       'form' => 'ra.hbaT',
       'lines' => [
         ';; raHobap_1',
-        'rHb     raHob   Napdu   wide area;courtyard',
-        'rHb     raHab   NAt     wide areas;courtyards',
-        'rHAb    riHAb   N       wide area;campus;protection'
+        'raHob   Napdu   wide area;courtyard',
+        'raHab   NAt     wide areas;courtyards',
+        'riHAb   N       wide area;campus;protection'
       ],
       'patterns' => {
         'ra.hab' => [
@@ -41547,7 +41545,7 @@ $Lexicon = {
       'form' => 'ra.hiyb',
       'lines' => [
         ';; raHiyb_1',
-        'rHyb    raHiyb  Nall    spacious;generous     [[raHiyb/ADJ]]'
+        'raHiyb  Nall    spacious;generous     [[raHiyb/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41567,7 +41565,7 @@ $Lexicon = {
       'form' => 'ra.hAbaT',
       'lines' => [
         ';; raHAbap_1',
-        'rHAb    raHAb   Nap     wideness;spaciousness'
+        'raHAb   Nap     wideness;spaciousness'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41591,7 +41589,7 @@ $Lexicon = {
       'form' => 'mar.habaN',
       'lines' => [
         ';; maroHabAF_1',
-        'mrHb    maroHab NF      welcome!;hello!     [[maroHab/ADV]]'
+        'maroHab NF      welcome!;hello!     [[maroHab/ADV]]'
       ],
       'patterns' => {
         'mar.hab' => [
@@ -41619,7 +41617,7 @@ $Lexicon = {
       'form' => 'tar.hiyb',
       'lines' => [
         ';; taroHiyb_1',
-        'trHyb   taroHiyb        NduAt   welcoming;greeting'
+        'taroHiyb        NduAt   welcoming;greeting'
       ],
       'patterns' => {
         'tar.hiyb' => [
@@ -41643,7 +41641,7 @@ $Lexicon = {
       'form' => 'tar.hiybiyy',
       'lines' => [
         ';; taroHiybiy~_1',
-        'trHyby  taroHiybiy~     N-ap    welcoming     [[taroHiybiy~/ADJ]]'
+        'taroHiybiy~     N-ap    welcoming     [[taroHiybiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41668,8 +41666,8 @@ $Lexicon = {
       'form' => 'rakwaT',
       'lines' => [
         ';; rakowap_1',
-        'rkw     rakow   Napdu   copper coffee pot',
-        'rkw     rakaw   NAt     copper coffee pots'
+        'rakow   Napdu   copper coffee pot',
+        'rakaw   NAt     copper coffee pots'
       ],
       'patterns' => {
         'rakaw' => [
@@ -41695,7 +41693,7 @@ $Lexicon = {
       'form' => 'rantiys',
       'lines' => [
         ';; ranotiys_1',
-        'rntys   ranotiys        N0      Rantis'
+        'ranotiys        N0      Rantis'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41714,7 +41712,7 @@ $Lexicon = {
       'form' => 'rantiysiyy',
       'lines' => [
         ';; ranotiysiy~_1',
-        'rntysy  ranotiysiy~     N0      Rantissi'
+        'ranotiysiy~     N0      Rantissi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41735,7 +41733,7 @@ $Lexicon = {
       'form' => '\'arba`mA\'aT',
       'lines' => [
         ';; >arobaEmA}ap_1',
-        '>rbEmA} >arobaEmA}      Nap     four-hundred'
+        '>arobaEmA}      Nap     four-hundred'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41763,9 +41761,9 @@ $Lexicon = {
       'form' => 'ra^saf',
       'lines' => [
         ';; ra$af-ui_1',
-        'r$f     ra$af   PV      drink;sip',
-        'r$f     ro$uf   IV      drink;sip',
-        'r$f     ro$if   IV      drink;sip'
+        'ra$af   PV      drink;sip',
+        'ro$uf   IV      drink;sip',
+        'ro$if   IV      drink;sip'
       ],
       'patterns' => {
         'r^suf' => [
@@ -41800,8 +41798,8 @@ $Lexicon = {
       'form' => 'ra^sif',
       'lines' => [
         ';; ra$if-a_1',
-        'r$f     ra$if   PV      drink;sip',
-        'r$f     ro$af   IV      drink;sip'
+        'ra$if   PV      drink;sip',
+        'ro$af   IV      drink;sip'
       ],
       'patterns' => {
         'r^saf' => [
@@ -41828,8 +41826,8 @@ $Lexicon = {
       'form' => 'tara^s^saf',
       'lines' => [
         ';; tara$~af_1',
-        'tr$f    tara$~af        PV      drink;sip',
-        'tr$f    tara$~af        IV      drink;sip'
+        'tara$~af        PV      drink;sip',
+        'tara$~af        IV      drink;sip'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41852,9 +41850,9 @@ $Lexicon = {
       'entry' => 'irta^saf',
       'form' => 'irta^saf',
       'lines' => [
-        ';; {irota$af_1',
-        '<rt$f   {irota$af       PV      drink;sip',
-        'rt$f    rota$if IV      drink;sip'
+        ';; Airota$af_1',
+        'Airota$af       PV      drink;sip',
+        'rota$if IV      drink;sip'
       ],
       'patterns' => {
         'rta^sif' => [
@@ -41882,8 +41880,8 @@ $Lexicon = {
       'form' => 'ra^sfaT',
       'lines' => [
         ';; ra$ofap_1',
-        'r$f     ra$of   Napdu   gulp;sip',
-        'r$f     ra$af   NAt     gulps;sips'
+        'ra$of   Napdu   gulp;sip',
+        'ra$af   NAt     gulps;sips'
       ],
       'patterns' => {
         'ra^saf' => [
@@ -41911,7 +41909,7 @@ $Lexicon = {
       'form' => 'riyfkind',
       'lines' => [
         ';; riyfokinod_1',
-        'ryfknd  riyfokinod      Nprop   Rivkind;Rifkind'
+        'riyfokinod      Nprop   Rivkind;Rifkind'
       ],
       'patterns' => {},
       'index' => '1',
@@ -41937,8 +41935,8 @@ $Lexicon = {
       'form' => 'rahiq',
       'lines' => [
         ';; rahiq-a_1',
-        'rhq     rahiq   PV      overtake;come over',
-        'rhq     rohaq   IV      overtake;come over'
+        'rahiq   PV      overtake;come over',
+        'rohaq   IV      overtake;come over'
       ],
       'patterns' => {
         'rhaq' => [
@@ -41969,8 +41967,8 @@ $Lexicon = {
       'form' => 'rAhaq',
       'lines' => [
         ';; rAhaq_1',
-        'rAhq    rAhaq   PV      approach;be close to',
-        'rAhq    rAhiq   IV_yu   approach;be close to'
+        'rAhaq   PV      approach;be close to',
+        'rAhiq   IV_yu   approach;be close to'
       ],
       'patterns' => {
         'rAhiq' => [
@@ -42001,9 +41999,9 @@ $Lexicon = {
       'form' => '\'arhaq',
       'lines' => [
         ';; >arohaq_1',
-        '>rhq    >arohaq PV      burden;oppress;demand',
-        'rhq     rohiq   IV_yu   burden;oppress;demand',
-        'rhq     rohaq   IV_Pass_yu      be burdened;be oppressed;be demanded'
+        '>arohaq PV      burden;oppress;demand',
+        'rohiq   IV_yu   burden;oppress;demand',
+        'rohaq   IV_Pass_yu      be burdened;be oppressed;be demanded'
       ],
       'patterns' => {
         'rhaq' => [
@@ -42034,7 +42032,7 @@ $Lexicon = {
       'form' => 'murAhaqaT',
       'lines' => [
         ';; murAhaqap_1',
-        'mrAhq   murAhaq Nap     puberty;adolescence'
+        'murAhaq Nap     puberty;adolescence'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42058,7 +42056,7 @@ $Lexicon = {
       'form' => '\'irhAq',
       'lines' => [
         ';; <irohAq_1',
-        '<rhAq   <irohAq NduAt   pressure;oppression;heavy burden'
+        '<irohAq NduAt   pressure;oppression;heavy burden'
       ],
       'patterns' => {
         '\'irhAq' => [
@@ -42083,7 +42081,7 @@ $Lexicon = {
       'form' => 'murAhiq',
       'lines' => [
         ';; murAhiq_1',
-        'mrAhq   murAhiq Nall    adolescent'
+        'murAhiq Nall    adolescent'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42102,7 +42100,7 @@ $Lexicon = {
       'form' => 'murhiq',
       'lines' => [
         ';; murohiq_1',
-        'mrhq    murohiq N-ap    oppressive     [[murohiq/ADJ]]'
+        'murohiq N-ap    oppressive     [[murohiq/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42121,7 +42119,7 @@ $Lexicon = {
       'form' => 'murhaq',
       'lines' => [
         ';; murohaq_1',
-        'mrhq    murohaq N-ap    oppressed;overburdened;suppressed     [[murohaq/ADJ]]'
+        'murohaq N-ap    oppressed;overburdened;suppressed     [[murohaq/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42144,8 +42142,8 @@ $Lexicon = {
       'form' => 'taraqwa.s',
       'lines' => [
         ';; taraqowaS_1',
-        'trqwS   taraqowaS       PV      toss;fling about;sway',
-        'trqwS   taraqowaS       IV      toss;fling about;sway'
+        'taraqowaS       PV      toss;fling about;sway',
+        'taraqowaS       IV      toss;fling about;sway'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42184,7 +42182,7 @@ $Lexicon = {
       'form' => 'ru^sdiy',
       'lines' => [
         ';; ru$odiy_1',
-        'r$dy    ru$odiy Nprop   Rushdi'
+        'ru$odiy Nprop   Rushdi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42209,8 +42207,8 @@ $Lexicon = {
       'form' => 'ra^gis',
       'lines' => [
         ';; rajis-a_1',
-        'rjs     rajis   PV_intr be filthy;be disgraceful',
-        'rjs     rojas   IV_intr be filthy;be disgraceful'
+        'rajis   PV_intr be filthy;be disgraceful',
+        'rojas   IV_intr be filthy;be disgraceful'
       ],
       'patterns' => {
         'r^gas' => [
@@ -42241,8 +42239,8 @@ $Lexicon = {
       'form' => 'ra^gus',
       'lines' => [
         ';; rajus-u_1',
-        'rjs     rajus   PV_intr be filthy;be disgraceful',
-        'rjs     rojus   IV_intr be filthy;be disgraceful'
+        'rajus   PV_intr be filthy;be disgraceful',
+        'rojus   IV_intr be filthy;be disgraceful'
       ],
       'patterns' => {
         'r^gus' => [
@@ -42273,8 +42271,8 @@ $Lexicon = {
       'form' => 'ri^gs',
       'lines' => [
         ';; rijos_1',
-        'rjs     rijos   N       filth;atrocity',
-        '>rjAs   >arojAs N       filth;atrocities'
+        'rijos   N       filth;atrocity',
+        '>arojAs N       filth;atrocities'
       ],
       'patterns' => {
         '\'ar^gAs' => [
@@ -42299,7 +42297,7 @@ $Lexicon = {
       'form' => 'ra^gis',
       'lines' => [
         ';; rajis_1',
-        'rjs     rajis   Nall    filthy     [[rajis/ADJ]]'
+        'rajis   Nall    filthy     [[rajis/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42318,7 +42316,7 @@ $Lexicon = {
       'form' => 'ra^gAsaT',
       'lines' => [
         ';; rajAsap_1',
-        'rjAs    rajAs   Nap     filth;squalor'
+        'rajAs   Nap     filth;squalor'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42338,7 +42336,7 @@ $Lexicon = {
       'form' => 'ra^g^gAs',
       'lines' => [
         ';; raj~As_1',
-        'rjAs    raj~As  N-ap    thundering;surging     [[raj~As/ADJ]]'
+        'raj~As  N-ap    thundering;surging     [[raj~As/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42358,7 +42356,7 @@ $Lexicon = {
       'form' => 'mir^gAs',
       'lines' => [
         ';; mirojAs_1',
-        'mrjAs   mirojAs Ndu     plumb;lead line'
+        'mirojAs Ndu     plumb;lead line'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42384,8 +42382,8 @@ $Lexicon = {
       'form' => 'ra^sad',
       'lines' => [
         ';; ra$ad-u_1',
-        'r$d     ra$ad   PV_intr be well guided;be mature',
-        'r$d     ro$ud   IV_intr be well guided;be mature'
+        'ra$ad   PV_intr be well guided;be mature',
+        'ro$ud   IV_intr be well guided;be mature'
       ],
       'patterns' => {
         'r^sud' => [
@@ -42416,8 +42414,8 @@ $Lexicon = {
       'form' => 'ra^s^sad',
       'lines' => [
         ';; ra$~ad_1',
-        'r$d     ra$~ad  PV      guide;lead',
-        'r$d     ra$~id  IV_yu   guide;lead'
+        'ra$~ad  PV      guide;lead',
+        'ra$~id  IV_yu   guide;lead'
       ],
       'patterns' => {
         'ra^s^sid' => [
@@ -42448,9 +42446,9 @@ $Lexicon = {
       'form' => '\'ar^sad',
       'lines' => [
         ';; >aro$ad_1',
-        '>r$d    >aro$ad PV      guide;direct;instruct',
-        'r$d     ro$id   IV_yu   guide;direct;instruct',
-        'r$d     ro$ad   IV_Pass_yu      be guided;be directed;be instructed'
+        '>aro$ad PV      guide;direct;instruct',
+        'ro$id   IV_yu   guide;direct;instruct',
+        'ro$ad   IV_Pass_yu      be guided;be directed;be instructed'
       ],
       'patterns' => {
         'r^sad' => [
@@ -42484,9 +42482,9 @@ $Lexicon = {
       'entry' => 'istar^sad',
       'form' => 'istar^sad',
       'lines' => [
-        ';; {isotaro$ad_1',
-        '<str$d  {isotaro$ad     PV      request guidance;seek advice',
-        'str$d   sotaro$id       IV      request guidance;seek advice'
+        ';; Aisotaro$ad_1',
+        'Aisotaro$ad     PV      request guidance;seek advice',
+        'sotaro$id       IV      request guidance;seek advice'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42506,7 +42504,7 @@ $Lexicon = {
       'form' => 'ru^sd',
       'lines' => [
         ';; ru$od_1',
-        'r$d     ru$od   N       integrity;maturity'
+        'ru$od   N       integrity;maturity'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42526,7 +42524,7 @@ $Lexicon = {
       'form' => 'ra^sdaT',
       'lines' => [
         ';; ra$odap_1',
-        'r$dp    ra$odap Nprop   Rashda'
+        'ra$odap Nprop   Rashda'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42545,7 +42543,7 @@ $Lexicon = {
       'form' => 'ra^sad',
       'lines' => [
         ';; ra$ad_1',
-        'r$d     ra$ad   N       integrity;forthrightness'
+        'ra$ad   N       integrity;forthrightness'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42565,7 +42563,7 @@ $Lexicon = {
       'form' => 'ra^sAd',
       'lines' => [
         ';; ra$Ad_1',
-        'r$Ad    ra$Ad   N0      Rashad'
+        'ra$Ad   N0      Rashad'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42584,7 +42582,7 @@ $Lexicon = {
       'form' => 'ra^sAd',
       'lines' => [
         ';; ra$Ad_2',
-        'r$Ad    ra$Ad   N       integrity;maturity'
+        'ra$Ad   N       integrity;maturity'
       ],
       'patterns' => {},
       'index' => '2',
@@ -42604,7 +42602,7 @@ $Lexicon = {
       'form' => 'ra^sdAn',
       'lines' => [
         ';; ra$odAn_1',
-        'r$dAn   ra$odAn Nprop   Rashdan'
+        'ra$odAn Nprop   Rashdan'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42623,7 +42621,7 @@ $Lexicon = {
       'form' => 'ra^siyd',
       'lines' => [
         ';; ra$iyd_1',
-        'r$yd    ra$iyd  N0      Rasheed;Rashid'
+        'ra$iyd  N0      Rasheed;Rashid'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42649,10 +42647,10 @@ $Lexicon = {
       'form' => 'ra^siyd',
       'lines' => [
         ';; ra$iyd_2',
-        'r$yd    ra$iyd  N/ap    rational;mature     [[ra$iyd/ADJ]]',
-        'r$dA\'   ru$adA\' N0_Nh   rational;mature',
-        'r$dA&   ru$adA& Nh      rational;mature',
-        'r$dA}   ru$adA} Nhy     rational;mature'
+        'ra$iyd  N/ap    rational;mature     [[ra$iyd/ADJ]]',
+        'ru$adA\' N0_Nh   rational;mature',
+        'ru$adA& Nh      rational;mature',
+        'ru$adA} Nhy     rational;mature'
       ],
       'patterns' => {
         'ru^sadA\'' => [
@@ -42676,7 +42674,7 @@ $Lexicon = {
       'form' => 'ra^siydiyy',
       'lines' => [
         ';; ra$iydiy~_1',
-        'r$ydy   ra$iydiy~       N0      Rashidi'
+        'ra$iydiy~       N0      Rashidi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42695,7 +42693,7 @@ $Lexicon = {
       'form' => 'marA^sid',
       'lines' => [
         ';; marA$id_1',
-        'mrA$d   marA$id Ndip    salvation'
+        'marA$id Ndip    salvation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42718,7 +42716,7 @@ $Lexicon = {
       'form' => 'tar^siyd',
       'lines' => [
         ';; taro$iyd_1',
-        'tr$yd   taro$iyd        NduAt   guidance'
+        'taro$iyd        NduAt   guidance'
       ],
       'patterns' => {
         'tar^siyd' => [
@@ -42745,7 +42743,7 @@ $Lexicon = {
       'form' => '\'ir^sAd',
       'lines' => [
         ';; <iro$Ad_1',
-        '<r$Ad   <iro$Ad NduAt   guidance;advice;counseling;instruction'
+        '<iro$Ad NduAt   guidance;advice;counseling;instruction'
       ],
       'patterns' => {
         '\'ir^sAd' => [
@@ -42771,7 +42769,7 @@ $Lexicon = {
       'form' => '\'ir^sAdiyy',
       'lines' => [
         ';; <iro$Adiy~_1',
-        '<r$Ady  <iro$Adiy~      Nall    didactic     [[<iro$Adiy~/ADJ]]'
+        '<iro$Adiy~      Nall    didactic     [[<iro$Adiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42790,7 +42788,7 @@ $Lexicon = {
       'form' => 'rA^sid',
       'lines' => [
         ';; rA$id_1',
-        'rA$d    rA$id   Nall    adult;rightly guided'
+        'rA$id   Nall    adult;rightly guided'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42810,7 +42808,7 @@ $Lexicon = {
       'form' => 'rA^sid',
       'lines' => [
         ';; rA$id_2',
-        'rA$d    rA$id   N0      Rashid'
+        'rA$id   N0      Rashid'
       ],
       'patterns' => {},
       'index' => '2',
@@ -42829,7 +42827,7 @@ $Lexicon = {
       'form' => 'mur^sid',
       'lines' => [
         ';; muro$id_1',
-        'mr$d    muro$id Nall    guide;instructor;adviser'
+        'muro$id Nall    guide;instructor;adviser'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42856,8 +42854,8 @@ $Lexicon = {
       'form' => 'rafuh',
       'lines' => [
         ';; rafuh-u_1',
-        'rfh     rafuh   PV_intr be comfortable;be luxurious',
-        'rfh     rofuh   IV_intr be comfortable;be luxurious'
+        'rafuh   PV_intr be comfortable;be luxurious',
+        'rofuh   IV_intr be comfortable;be luxurious'
       ],
       'patterns' => {
         'rfuh' => [
@@ -42888,8 +42886,8 @@ $Lexicon = {
       'form' => 'raffah',
       'lines' => [
         ';; raf~ah_1',
-        'rfh     raf~ah  PV      provide recreation;make pleasant',
-        'rfh     raf~ih  IV_yu   provide recreation;make pleasant'
+        'raf~ah  PV      provide recreation;make pleasant',
+        'raf~ih  IV_yu   provide recreation;make pleasant'
       ],
       'patterns' => {
         'raffih' => [
@@ -42913,7 +42911,7 @@ $Lexicon = {
       'form' => 'rifh',
       'lines' => [
         ';; rifoh_1',
-        'rfh     rifoh   N       well-being;ease and comfort'
+        'rifoh   N       well-being;ease and comfort'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42933,7 +42931,7 @@ $Lexicon = {
       'form' => 'rafAh',
       'lines' => [
         ';; rafAh_1',
-        'rfAh    rafAh   N       well-being;ease and comfort'
+        'rafAh   N       well-being;ease and comfort'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42953,7 +42951,7 @@ $Lexicon = {
       'form' => 'rafAhaT',
       'lines' => [
         ';; rafAhap_1',
-        'rfAh    rafAh   Nap     comfort;luxury'
+        'rafAh   Nap     comfort;luxury'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42973,7 +42971,7 @@ $Lexicon = {
       'form' => 'rafAhiyyaT',
       'lines' => [
         ';; rafAhiy~ap_1',
-        'rfAhy   rafAhiy~        Nap     comfort;luxury     [[rafAhiy~/NOUN]]'
+        'rafAhiy~        Nap     comfort;luxury     [[rafAhiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -42997,7 +42995,7 @@ $Lexicon = {
       'form' => 'tarfiyh',
       'lines' => [
         ';; tarofiyh_1',
-        'trfyh   tarofiyh        NduAt   entertainment;recreation;amusement'
+        'tarofiyh        NduAt   entertainment;recreation;amusement'
       ],
       'patterns' => {
         'tarfiyh' => [
@@ -43022,7 +43020,7 @@ $Lexicon = {
       'form' => 'tarfiyhiyy',
       'lines' => [
         ';; tarofiyhiy~_1',
-        'trfyhy  tarofiyhiy~     Nall    entertainment;recreation;amusement     [[tarofiyhiy~/ADJ]]'
+        'tarofiyhiy~     Nall    entertainment;recreation;amusement     [[tarofiyhiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43058,11 +43056,11 @@ $Lexicon = {
       'form' => 'ra.gA',
       'lines' => [
         ';; ragA-u_1',
-        'rgA     ragA    PV_0    foam;froth (in anger)',
-        'rgw     ragaw   PV_Atn  foam;froth (in anger)',
-        'rg      rag     PV_ttAw foam;froth (in anger)',
-        'rgw     roguw   IV_0hAnn        foam;froth (in anger)',
-        'rg      rog     IV_0hwnyn       foam;froth (in anger)'
+        'ragA    PV_0    foam;froth (in anger)',
+        'ragaw   PV_Atn  foam;froth (in anger)',
+        'rag     PV_ttAw foam;froth (in anger)',
+        'roguw   IV_0hAnn        foam;froth (in anger)',
+        'rog     IV_0hwnyn       foam;froth (in anger)'
       ],
       'patterns' => {
         'r.guw' => [
@@ -43109,12 +43107,12 @@ $Lexicon = {
       'form' => 'ra.g.gY',
       'lines' => [
         ';; rag~aY_1',
-        'rgY     rag~aY  PV_0    foam;froth (in anger)',
-        'rgA     rag~A   PV_h    foam;froth (in anger)',
-        'rgy     rag~ay  PV_Atn  foam;froth (in anger)',
-        'rg      rag~    PV_ttAw foam;froth (in anger)',
-        'rgy     rag~iy  IV_0hAnn_yu     foam;froth (in anger)',
-        'rg      rag~    IV_0hwnyn_yu    foam;froth (in anger)'
+        'rag~aY  PV_0    foam;froth (in anger)',
+        'rag~A   PV_h    foam;froth (in anger)',
+        'rag~ay  PV_Atn  foam;froth (in anger)',
+        'rag~    PV_ttAw foam;froth (in anger)',
+        'rag~iy  IV_0hAnn_yu     foam;froth (in anger)',
+        'rag~    IV_0hwnyn_yu    foam;froth (in anger)'
       ],
       'patterns' => {
         'ra.g.giy' => [
@@ -43160,14 +43158,14 @@ $Lexicon = {
       'form' => '\'ar.gY',
       'lines' => [
         ';; >arogaY_1',
-        '>rgY    >arogaY PV_0    foam;froth',
-        '>rgA    >arogA  PV_h    foam;froth',
-        '>rgy    >arogay PV_Atn  foam;froth',
-        '>rg     >arog   PV_ttAw foam;froth',
-        'rgy     rogiy   IV_0hAnn_yu     foam;froth',
-        'rg      rog     IV_0hwnyn_yu    foam;froth',
-        'rgY     rogaY   IV_0_Pass_yu    be made to foam or froth (in anger)',
-        'rgy     rogay   IV_Ann_Pass_yu  be made to foam or froth (in anger)'
+        '>arogaY PV_0    foam;froth',
+        '>arogA  PV_h    foam;froth',
+        '>arogay PV_Atn  foam;froth',
+        '>arog   PV_ttAw foam;froth',
+        'rogiy   IV_0hAnn_yu     foam;froth',
+        'rog     IV_0hwnyn_yu    foam;froth',
+        'rogaY   IV_0_Pass_yu    be made to foam or froth (in anger)',
+        'rogay   IV_Ann_Pass_yu  be made to foam or froth (in anger)'
       ],
       'patterns' => {
         'r.giy' => [
@@ -43195,7 +43193,7 @@ $Lexicon = {
       'form' => 'ra.gwaT',
       'lines' => [
         ';; ragowap_1',
-        'rgw     ragow   Nap     foam;froth'
+        'ragow   Nap     foam;froth'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43215,8 +43213,8 @@ $Lexicon = {
       'form' => 'ra.gAwiy',
       'lines' => [
         ';; ragAwiy_1',
-        'rgAwy   ragAwiy N0_Nh   foam;froth',
-        'rgAw    ragAw   NK      foam;froth'
+        'ragAwiy N0_Nh   foam;froth',
+        'ragAw   NK      foam;froth'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43236,7 +43234,7 @@ $Lexicon = {
       'form' => 'ru.gAwaT',
       'lines' => [
         ';; rugAwap_1',
-        'rgAw    rugAw   Nap     foam;froth'
+        'rugAw   Nap     foam;froth'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43262,8 +43260,8 @@ $Lexicon = {
       'form' => 'mirzabbaT',
       'lines' => [
         ';; mirozab~ap_1',
-        'mrzb    mirozab~        NapAt   iron rod',
-        'mrAzb   marAzib Ndip    iron rods'
+        'mirozab~        NapAt   iron rod',
+        'marAzib Ndip    iron rods'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43293,10 +43291,10 @@ $Lexicon = {
       'form' => 'rA_t',
       'lines' => [
         ';; rAv-i_1',
-        'rAv     rAv     PV_V    hesitate;delay',
-        'rv      riv     PV_C    hesitate;delay',
-        'ryv     riyv    IV_V    hesitate;delay',
-        'rv      riv     IV_C    hesitate;delay'
+        'rAv     PV_V    hesitate;delay',
+        'riv     PV_C    hesitate;delay',
+        'riyv    IV_V    hesitate;delay',
+        'riv     IV_C    hesitate;delay'
       ],
       'patterns' => {
         'riy_t' => [
@@ -43326,8 +43324,8 @@ $Lexicon = {
       'form' => 'tarayya_t',
       'lines' => [
         ';; taray~av_1',
-        'tryv    taray~av        PV      hesitate;delay;be patient',
-        'tryv    taray~av        IV      hesitate;delay;be patient'
+        'taray~av        PV      hesitate;delay;be patient',
+        'taray~av        IV      hesitate;delay;be patient'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43357,9 +43355,9 @@ $Lexicon = {
       'form' => 'ra.sad',
       'lines' => [
         ';; raSad-ua_1',
-        'rSd     raSad   PV      observe;watch',
-        'rSd     roSud   IV      observe;watch',
-        'rSd     roSad   IV_Pass_yu      be observed;be watched'
+        'raSad   PV      observe;watch',
+        'roSud   IV      observe;watch',
+        'roSad   IV_Pass_yu      be observed;be watched'
       ],
       'patterns' => {
         'r.sud' => [
@@ -43396,8 +43394,8 @@ $Lexicon = {
       'form' => 'ra.s.sad',
       'lines' => [
         ';; raS~ad_1',
-        'rSd     raS~ad  PV      earmark;set aside;prepare',
-        'rSd     raS~id  IV_yu   earmark;set aside;prepare'
+        'raS~ad  PV      earmark;set aside;prepare',
+        'raS~id  IV_yu   earmark;set aside;prepare'
       ],
       'patterns' => {
         'ra.s.sid' => [
@@ -43429,9 +43427,9 @@ $Lexicon = {
       'form' => '\'ar.sad',
       'lines' => [
         ';; >aroSad_1',
-        '>rSd    >aroSad PV      earmark;set aside;procure',
-        'rSd     roSid   IV_yu   earmark;set aside;procure',
-        'rSd     roSad   IV_Pass_yu      be earmarked;be set aside;be procured'
+        '>aroSad PV      earmark;set aside;procure',
+        'roSid   IV_yu   earmark;set aside;procure',
+        'roSad   IV_Pass_yu      be earmarked;be set aside;be procured'
       ],
       'patterns' => {
         'r.sad' => [
@@ -43462,8 +43460,8 @@ $Lexicon = {
       'form' => 'tara.s.sad',
       'lines' => [
         ';; taraS~ad_1',
-        'trSd    taraS~ad        PV      observe;watch',
-        'trSd    taraS~ad        IV      observe;watch'
+        'taraS~ad        PV      observe;watch',
+        'taraS~ad        IV      observe;watch'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43483,7 +43481,7 @@ $Lexicon = {
       'form' => 'ra.sd',
       'lines' => [
         ';; raSod_1',
-        'rSd     raSod   N       observation;survey'
+        'raSod   N       observation;survey'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43503,7 +43501,7 @@ $Lexicon = {
       'form' => 'ra.sad',
       'lines' => [
         ';; raSad_1',
-        'rSd     raSad   N/ap    observer;watcher'
+        'raSad   N/ap    observer;watcher'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43527,8 +43525,8 @@ $Lexicon = {
       'form' => 'ra.sad',
       'lines' => [
         ';; raSad_2',
-        'rSd     raSad   N/ap    observation post;lookout;ambush',
-        '>rSAd   >aroSAd N       observation posts;lookouts;ambushes'
+        'raSad   N/ap    observation post;lookout;ambush',
+        '>aroSAd N       observation posts;lookouts;ambushes'
       ],
       'patterns' => {
         '\'ar.sAd' => [
@@ -43556,7 +43554,7 @@ $Lexicon = {
       'form' => 'ra.s.sAd',
       'lines' => [
         ';; raS~Ad_1',
-        'rSAd    raS~Ad  Nall    observer;lookout'
+        'raS~Ad  Nall    observer;lookout'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43580,8 +43578,8 @@ $Lexicon = {
       'form' => 'ra.siyd',
       'lines' => [
         ';; raSiyd_1',
-        'rSyd    raSiyd  Ndu     funds;stock;inventory',
-        '>rSd    >aroSid Nap     funds;stock;inventory'
+        'raSiyd  Ndu     funds;stock;inventory',
+        '>aroSid Nap     funds;stock;inventory'
       ],
       'patterns' => {
         '\'ar.sid' => [
@@ -43610,8 +43608,8 @@ $Lexicon = {
       'form' => 'mar.sad',
       'lines' => [
         ';; maroSad_1',
-        'mrSd    maroSad Ndu     observatory;observation post',
-        'mrASd   marASid Ndip    observatories;observation posts'
+        'maroSad Ndu     observatory;observation post',
+        'marASid Ndip    observatories;observation posts'
       ],
       'patterns' => {
         'marA.sid' => [
@@ -43641,7 +43639,7 @@ $Lexicon = {
       'form' => 'mir.sad',
       'lines' => [
         ';; miroSad_1',
-        'mrSd    miroSad NduAt   telescope'
+        'miroSad NduAt   telescope'
       ],
       'patterns' => {
         'mir.sad' => [
@@ -43664,7 +43662,7 @@ $Lexicon = {
       'form' => 'mir.sAd',
       'lines' => [
         ';; miroSAd_1',
-        'mrSAd   miroSAd Ndu     observation post;lookout;ambush'
+        'miroSAd Ndu     observation post;lookout;ambush'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43685,7 +43683,7 @@ $Lexicon = {
       'form' => 'rA.sid',
       'lines' => [
         ';; rASid_1',
-        'rASd    rASid   Nall    registering     [[rASid/ADJ]]'
+        'rASid   Nall    registering     [[rASid/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43708,8 +43706,8 @@ $Lexicon = {
       'form' => 'rA.sid',
       'lines' => [
         ';; rASid_2',
-        'rASd    rASid   Nall    watchdog;spy',
-        'rSAd    ruS~Ad  N       watchdogs;spies'
+        'rASid   Nall    watchdog;spy',
+        'ruS~Ad  N       watchdogs;spies'
       ],
       'patterns' => {
         'ru.s.sAd' => [
@@ -43735,7 +43733,7 @@ $Lexicon = {
       'form' => 'rA.sidaT',
       'lines' => [
         ';; rASidap_1',
-        'rASd    rASid   NapAt   observation instrument;telescope'
+        'rASid   NapAt   observation instrument;telescope'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43755,7 +43753,7 @@ $Lexicon = {
       'form' => 'mar.suwd',
       'lines' => [
         ';; maroSuwd_1',
-        'mrSwd   maroSuwd        Nall    financial cover;security'
+        'maroSuwd        Nall    financial cover;security'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43777,7 +43775,7 @@ $Lexicon = {
       'form' => 'ruwzuwfiyt^s',
       'lines' => [
         ';; ruwzuwfiyt$_1',
-        'rwzwfyt$        ruwzuwfiyt$     Nprop   Rusovick'
+        'ruwzuwfiyt$     Nprop   Rusovick'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43802,8 +43800,8 @@ $Lexicon = {
       'form' => '\'ur.gA.taT',
       'lines' => [
         ';; >urogATap_1',
-        '>rgAT   >urogAT NapAt   winch;capstan',
-        '>rAgyT  >arAgiyT        Ndip    winches;capstans'
+        '>urogAT NapAt   winch;capstan',
+        '>arAgiyT        Ndip    winches;capstans'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43827,7 +43825,7 @@ $Lexicon = {
       'form' => 'rAyt',
       'lines' => [
         ';; rAyot_1',
-        'rAyt    rAyot   Nprop   Wright;Write'
+        'rAyot   Nprop   Wright;Write'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43849,7 +43847,7 @@ $Lexicon = {
       'form' => 'rawnaq',
       'lines' => [
         ';; rawonaq_1',
-        'rwnq    rawonaq N       splendor;luster'
+        'rawonaq N       splendor;luster'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43871,7 +43869,7 @@ $Lexicon = {
       'form' => 'rAbiynuwfiyt^s',
       'lines' => [
         ';; rAbiynuwfiyt$_1',
-        'rAbynwfyt$      rAbiynuwfiyt$   N0      Rabinovich;Rabinovitch'
+        'rAbiynuwfiyt$   N0      Rabinovich;Rabinovitch'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43897,8 +43895,8 @@ $Lexicon = {
       'form' => 'rA^sin',
       'lines' => [
         ';; rA$in_1',
-        'rA$n    rA$in   Ndu     tip;gratuity;baksheesh',
-        'rwA$n   rawA$in Ndip    tips;gratuities;baksheesh'
+        'rA$in   Ndu     tip;gratuity;baksheesh',
+        'rawA$in Ndip    tips;gratuities;baksheesh'
       ],
       'patterns' => {
         'rawA^sin' => [
@@ -43927,7 +43925,7 @@ $Lexicon = {
       'form' => '\'irziyz',
       'lines' => [
         ';; <iroziyz_1',
-        '<rzyz   <iroziyz        N       telephone'
+        '<iroziyz        N       telephone'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43948,7 +43946,7 @@ $Lexicon = {
       'form' => 'ramsiys',
       'lines' => [
         ';; ramosiys_1',
-        'rmsys   ramosiys        Nprop   Ramses'
+        'ramosiys        Nprop   Ramses'
       ],
       'patterns' => {},
       'index' => '1',
@@ -43969,7 +43967,7 @@ $Lexicon = {
       'form' => 'rAfAyiyl',
       'lines' => [
         ';; rAfAyiyl_1',
-        'rAfAyyl rAfAyiyl        Nprop   Rafael;Raphael'
+        'rAfAyiyl        Nprop   Rafael;Raphael'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44037,10 +44035,10 @@ $Lexicon = {
       'form' => 'ra_d_d',
       'lines' => [
         ';; ra*~-u_1',
-        'r*      ra*~    PV_V    drizzle;sprinkle',
-        'r**     ra*a*   PV_C    drizzle;sprinkle',
-        'r*      ru*~    IV_V    drizzle;sprinkle',
-        'r**     ro*u*   IV_C    drizzle;sprinkle'
+        'ra*~    PV_V    drizzle;sprinkle',
+        'ra*a*   PV_C    drizzle;sprinkle',
+        'ru*~    IV_V    drizzle;sprinkle',
+        'ro*u*   IV_C    drizzle;sprinkle'
       ],
       'patterns' => {
         'ra_da_d' => [
@@ -44083,10 +44081,10 @@ $Lexicon = {
       'form' => '\'ara_d_d',
       'lines' => [
         ';; >ara*~_1',
-        '>r*     >ara*~  PV_V    drizzle;sprinkle',
-        '>r**    >aro*a* PV_C    drizzle;sprinkle',
-        'r*      ri*~    IV_V_yu drizzle;sprinkle',
-        'r**     ro*i*   IV_C_yu drizzle;sprinkle'
+        '>ara*~  PV_V    drizzle;sprinkle',
+        '>aro*a* PV_C    drizzle;sprinkle',
+        'ri*~    IV_V_yu drizzle;sprinkle',
+        'ro*i*   IV_C_yu drizzle;sprinkle'
       ],
       'patterns' => {
         'r_di_d' => [
@@ -44116,7 +44114,7 @@ $Lexicon = {
       'form' => 'ra_dA_d',
       'lines' => [
         ';; ra*A*_1',
-        'r*A*    ra*A*   N       drizzle;sprinkle'
+        'ra*A*   N       drizzle;sprinkle'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44136,7 +44134,7 @@ $Lexicon = {
       'form' => 'mir_dA_d',
       'lines' => [
         ';; miro*A*_1',
-        'mr*A*   miro*A* N       atomizer;pulverizer;sprinkler'
+        'miro*A* N       atomizer;pulverizer;sprinkler'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44166,9 +44164,9 @@ $Lexicon = {
       'form' => 'riyntiyrA',
       'lines' => [
         ';; riynotiyrA_1',
-        'ryntyrA riynotiyrA      Nprop   Renteria',
-        'ryntryA riynotiriyA     Nprop   Renteria',
-        'ryntyryA        riynotiyriyA    Nprop   Renteria'
+        'riynotiyrA      Nprop   Renteria',
+        'riynotiriyA     Nprop   Renteria',
+        'riynotiyriyA    Nprop   Renteria'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44189,7 +44187,7 @@ $Lexicon = {
       'form' => 'riy^giynA',
       'lines' => [
         ';; riyjiynA_1',
-        'ryjynA  riyjiynA        Nprop   Regina'
+        'riyjiynA        Nprop   Regina'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44229,13 +44227,13 @@ $Lexicon = {
       'form' => 'ra^gA',
       'lines' => [
         ';; rajA-u_1',
-        'rjA     rajA    PV_0h   request;hope for;plead to',
-        'rjw     rajaw   PV_Atn  request;hope for;plead to',
-        'rj      raj     PV_ttAw request;hope for;plead to',
-        'rjw     rojuw   IV_0hAnn        request;hope for;plead to',
-        'rj      roj     IV_0hwnyn       request;hope for;plead to',
-        'rjY     rojaY   IV_0_Pass_yu    be requested;be hoped for;be pleaded to',
-        'rjy     rojay   IV_Ann_Pass_yu  be requested;be hoped for;be pleaded to'
+        'rajA    PV_0h   request;hope for;plead to',
+        'rajaw   PV_Atn  request;hope for;plead to',
+        'raj     PV_ttAw request;hope for;plead to',
+        'rojuw   IV_0hAnn        request;hope for;plead to',
+        'roj     IV_0hwnyn       request;hope for;plead to',
+        'rojaY   IV_0_Pass_yu    be requested;be hoped for;be pleaded to',
+        'rojay   IV_Ann_Pass_yu  be requested;be hoped for;be pleaded to'
       ],
       'patterns' => {
         'r^gY' => [
@@ -44288,14 +44286,14 @@ $Lexicon = {
       'form' => 'tara^g^gY',
       'lines' => [
         ';; taraj~aY_1',
-        'trjY    taraj~aY        PV_0    hope;expect;request',
-        'trjA    taraj~A PV_h    hope;expect;request',
-        'trjy    taraj~ay        PV_Atn  hope;expect;request',
-        'trj     taraj~  PV_ttAw hope;expect;request',
-        'trjY    taraj~aY        IV_0    hope;expect;request',
-        'trjA    taraj~A IV_h    hope;expect;request',
-        'trjy    taraj~ay        IV_Ann  hope;expect;request',
-        'trj     taraj~  IV_0hwnyn       hope;expect;request'
+        'taraj~aY        PV_0    hope;expect;request',
+        'taraj~A PV_h    hope;expect;request',
+        'taraj~ay        PV_Atn  hope;expect;request',
+        'taraj~  PV_ttAw hope;expect;request',
+        'taraj~aY        IV_0    hope;expect;request',
+        'taraj~A IV_h    hope;expect;request',
+        'taraj~ay        IV_Ann  hope;expect;request',
+        'taraj~  IV_0hwnyn       hope;expect;request'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44334,14 +44332,14 @@ $Lexicon = {
       'entry' => 'irta^gY',
       'form' => 'irta^gY',
       'lines' => [
-        ';; {irotajaY_1',
-        '<rtjY   {irotajaY       PV_0    hope;expect',
-        '<rtjA   {irotajA        PV_h    hope;expect',
-        '<rtjy   {irotajay       PV_Atn  hope;expect',
-        '<rtj    {irotaj PV_ttAw hope;expect',
-        'rtjy    rotajiy IV_0hAnn        hope;expect',
-        'rtj     rotaj   IV_0hwnyn       hope;expect',
-        'rtjY    rotajaY IV_0_Pass_yu    be hoped;be expected'
+        ';; AirotajaY_1',
+        'AirotajaY       PV_0    hope;expect',
+        'AirotajA        PV_h    hope;expect',
+        'Airotajay       PV_Atn  hope;expect',
+        'Airotaj PV_ttAw hope;expect',
+        'rotajiy IV_0hAnn        hope;expect',
+        'rotaj   IV_0hwnyn       hope;expect',
+        'rotajaY IV_0_Pass_yu    be hoped;be expected'
       ],
       'patterns' => {
         'rta^gY' => [
@@ -44374,8 +44372,8 @@ $Lexicon = {
       'form' => 'ra^gA',
       'lines' => [
         ';; rajA_1',
-        'rjA     rajA    N0_Nh   side wall',
-        'rjw     rajaw   NAn_Nayn        side walls'
+        'rajA    N0_Nh   side wall',
+        'rajaw   NAn_Nayn        side walls'
       ],
       'patterns' => {
         'ra^gaw' => [
@@ -44459,7 +44457,7 @@ $Lexicon = {
       'form' => 'ra^gAT',
       'lines' => [
         ';; rajAp_1',
-        'rjA     rajA    Nap     hope;expectation'
+        'rajA    Nap     hope;expectation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44479,7 +44477,7 @@ $Lexicon = {
       'form' => 'mar^gAT',
       'lines' => [
         ';; marojAp_1',
-        'mrjA    marojA  Nap     hope'
+        'marojA  Nap     hope'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44502,10 +44500,10 @@ $Lexicon = {
       'form' => 'tara^g^giy',
       'lines' => [
         ';; taraj~iy_1',
-        'trjy    taraj~iy        N0_Nh   hope;expectation;request',
-        'trj     taraj~  NK      hope;expectation;request',
-        'trjy    taraj~iy        NAn_Nayn        hopes;expectations;requests',
-        'trjy    taraj~iy        NAt     hopes;expectations;requests'
+        'taraj~iy        N0_Nh   hope;expectation;request',
+        'taraj~  NK      hope;expectation;request',
+        'taraj~iy        NAn_Nayn        hopes;expectations;requests',
+        'taraj~iy        NAt     hopes;expectations;requests'
       ],
       'patterns' => {
         'tara^g^giy' => [
@@ -44533,7 +44531,7 @@ $Lexicon = {
       'form' => 'tara^g^giy',
       'lines' => [
         ';; taraj~iy_2',
-        'trjy    taraj~iy        N0      Taragi;Taraji'
+        'taraj~iy        N0      Taragi;Taraji'
       ],
       'patterns' => {},
       'index' => '2',
@@ -44572,7 +44570,7 @@ $Lexicon = {
       'form' => 'mar^guww',
       'lines' => [
         ';; marojuw~_1',
-        'mrjw    marojuw~        N/ap    requested;hoped for     [[marojuw~/ADJ]]'
+        'marojuw~        N/ap    requested;hoped for     [[marojuw~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44594,7 +44592,7 @@ $Lexicon = {
       'form' => 'ribq',
       'lines' => [
         ';; riboq_1',
-        'rbq     riboq   N       lasso;lariat'
+        'riboq   N       lasso;lariat'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44624,10 +44622,10 @@ $Lexicon = {
       'form' => 'ribqaT',
       'lines' => [
         ';; riboqap_1',
-        'rbq     riboq   Nap     noose',
-        'rbq     ribaq   N       nooses',
-        'rbAq    ribAq   N       nooses',
-        '>rbAq   >arobAq N       nooses'
+        'riboq   Nap     noose',
+        'ribaq   N       nooses',
+        'ribAq   N       nooses',
+        '>arobAq N       nooses'
       ],
       'patterns' => {
         'ribaq' => [
@@ -44659,7 +44657,7 @@ $Lexicon = {
       'form' => 'rA^gkuwmAr',
       'lines' => [
         ';; rAjokuwmAr_1',
-        'rAjkwmAr        rAjokuwmAr      Nprop   Rajkumar'
+        'rAjokuwmAr      Nprop   Rajkumar'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44680,7 +44678,7 @@ $Lexicon = {
       'form' => 'rAmAkAntA',
       'lines' => [
         ';; rAmAkAnotA_1',
-        'rAmAkAntA       rAmAkAnotA      Nprop   Ramakanta'
+        'rAmAkAnotA      Nprop   Ramakanta'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44701,7 +44699,7 @@ $Lexicon = {
       'form' => 'rAsiyn.g',
       'lines' => [
         ';; rAsiyng_1',
-        'rAsyng  rAsiyng Nprop   Racing'
+        'rAsiyng Nprop   Racing'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44726,8 +44724,8 @@ $Lexicon = {
       'form' => 'ruwznAmaT',
       'lines' => [
         ';; ruwzonAmap_1',
-        'rwznAm  ruwzonAm        NapAt   almanac;calendar',
-        'rwznAmh ruwzonAmah      N0      almanac;calendar'
+        'ruwzonAm        NapAt   almanac;calendar',
+        'ruwzonAmah      N0      almanac;calendar'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44762,11 +44760,11 @@ $Lexicon = {
       'form' => 'rahA',
       'lines' => [
         ';; rahA-u_1',
-        'rhA     rahA    PV_0    amble',
-        'rhw     rahaw   PV_Atn  amble',
-        'rh      rah     PV_ttAw amble',
-        'rhw     rohuw   IV_0hAnn        amble',
-        'rh      roh     IV_0hwnyn       amble'
+        'rahA    PV_0    amble',
+        'rahaw   PV_Atn  amble',
+        'rah     PV_ttAw amble',
+        'rohuw   IV_0hAnn        amble',
+        'roh     IV_0hwnyn       amble'
       ],
       'patterns' => {
         'rahaw' => [
@@ -44798,7 +44796,7 @@ $Lexicon = {
       'form' => 'rahw',
       'lines' => [
         ';; rahow_1',
-        'rhw     rahow   N       calm;quiet;tranquillity'
+        'rahow   N       calm;quiet;tranquillity'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44825,10 +44823,10 @@ $Lexicon = {
       'form' => 'rahw',
       'lines' => [
         ';; rahow_2',
-        'rhw     rahow   Ndu     crane',
-        'rhA\'    rihA\'   N0_Nh   cranes',
-        'rhA&    rihA&   Nh      cranes',
-        'rhA}    rihA}   Nhy     cranes'
+        'rahow   Ndu     crane',
+        'rihA\'   N0_Nh   cranes',
+        'rihA&   Nh      cranes',
+        'rihA}   Nhy     cranes'
       ],
       'patterns' => {
         'rihA\'' => [
@@ -44852,7 +44850,7 @@ $Lexicon = {
       'form' => 'rahwAn',
       'lines' => [
         ';; rahowAn_1',
-        'rhwAn   rahowAn N       ambler (horse);palfrey (woman\'s riding horse)'
+        'rahowAn N       ambler (horse);palfrey (woman\'s riding horse)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44872,7 +44870,7 @@ $Lexicon = {
       'form' => 'ruhA\'',
       'lines' => [
         ';; ruhA\'_1',
-        'rhA\'    ruhA\'   N0      Urfa (Edessa)'
+        'ruhA\'   N0      Urfa (Edessa)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44893,7 +44891,7 @@ $Lexicon = {
       'form' => 'tar.hAl',
       'lines' => [
         ';; taroHAl_1',
-        'trHAl   taroHAl N       departure;nomadism'
+        'taroHAl N       departure;nomadism'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44935,8 +44933,8 @@ $Lexicon = {
       'form' => 'ra.s.sa`',
       'lines' => [
         ';; raS~aE_1',
-        'rSE     raS~aE  PV      adorn;inlay',
-        'rSE     raS~iE  IV_yu   adorn;inlay'
+        'raS~aE  PV      adorn;inlay',
+        'raS~iE  IV_yu   adorn;inlay'
       ],
       'patterns' => {
         'ra.s.si`' => [
@@ -44964,7 +44962,7 @@ $Lexicon = {
       'form' => 'tar.siy`',
       'lines' => [
         ';; taroSiyE_1',
-        'trSyE   taroSiyE        NduAt   adorning;inlaying'
+        'taroSiyE        NduAt   adorning;inlaying'
       ],
       'patterns' => {
         'tar.siy`' => [
@@ -44994,8 +44992,8 @@ $Lexicon = {
       'form' => 'ra.da_h',
       'lines' => [
         ';; raDax-a_1',
-        'rDx     raDax   PV      shatter;crack;yield;submit',
-        'rDx     roDax   IV      shatter;crack;yield;submit'
+        'raDax   PV      shatter;crack;yield;submit',
+        'roDax   IV      shatter;crack;yield;submit'
       ],
       'patterns' => {
         'r.da_h' => [
@@ -45028,8 +45026,8 @@ $Lexicon = {
       'form' => 'ra.da_h',
       'lines' => [
         ';; raDax-i_1',
-        'rDx     raDax   PV      shatter;crack',
-        'rDx     roDix   IV      shatter;crack'
+        'raDax   PV      shatter;crack',
+        'roDix   IV      shatter;crack'
       ],
       'patterns' => {
         'r.di_h' => [
@@ -45059,9 +45057,9 @@ $Lexicon = {
       'entry' => 'irta.da_h',
       'form' => 'irta.da_h',
       'lines' => [
-        ';; {irotaDax_1',
-        '<rtDx   {irotaDax       PV      speak with a foreign accent',
-        'rtDx    rotaDix IV      speak with a foreign accent'
+        ';; AirotaDax_1',
+        'AirotaDax       PV      speak with a foreign accent',
+        'rotaDix IV      speak with a foreign accent'
       ],
       'patterns' => {
         'rta.di_h' => [
@@ -45084,8 +45082,8 @@ $Lexicon = {
       'form' => 'ra.d_h',
       'lines' => [
         ';; raDox_1',
-        'rDx     raDox   N       small gift',
-        'rDx     raDox   Napdu   small gift'
+        'raDox   N       small gift',
+        'raDox   Napdu   small gift'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45104,7 +45102,7 @@ $Lexicon = {
       'form' => 'ra.diy_haT',
       'lines' => [
         ';; raDiyxap_1',
-        'rDyx    raDiyx  Napdu   small gift;gratuity'
+        'raDiyx  Napdu   small gift;gratuity'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45124,7 +45122,7 @@ $Lexicon = {
       'form' => 'ru.duw_h',
       'lines' => [
         ';; ruDuwx_1',
-        'rDwx    ruDuwx  N       submission;compliance'
+        'ruDuwx  N       submission;compliance'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45144,7 +45142,7 @@ $Lexicon = {
       'form' => 'mir.dA_h',
       'lines' => [
         ';; miroDAx_1',
-        'mrDAx   miroDAx Ndu     nutcracker'
+        'miroDAx Ndu     nutcracker'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45169,7 +45167,7 @@ $Lexicon = {
       'form' => 'rabAyA',
       'lines' => [
         ';; rabAyA_1',
-        'rbAyA   rabAyA  N0_Nhy  guards'
+        'rabAyA  N0_Nhy  guards'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45231,9 +45229,9 @@ $Lexicon = {
       'form' => 'rafas',
       'lines' => [
         ';; rafas-ui_1',
-        'rfs     rafas   PV      kick',
-        'rfs     rofus   IV      kick',
-        'rfs     rofis   IV      kick'
+        'rafas   PV      kick',
+        'rofus   IV      kick',
+        'rofis   IV      kick'
       ],
       'patterns' => {
         'rfus' => [
@@ -45263,8 +45261,8 @@ $Lexicon = {
       'form' => 'tarAfas',
       'lines' => [
         ';; tarAfas_1',
-        'trAfs   tarAfas PV      kick each other;scuffle',
-        'trAfs   tarAfas IV      kick each other;scuffle'
+        'tarAfas PV      kick each other;scuffle',
+        'tarAfas IV      kick each other;scuffle'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45288,8 +45286,8 @@ $Lexicon = {
       'form' => 'rafsaT',
       'lines' => [
         ';; rafosap_1',
-        'rfs     rafos   Napdu   kick',
-        'rfs     rafas   NAt     kicks'
+        'rafos   Napdu   kick',
+        'rafas   NAt     kicks'
       ],
       'patterns' => {
         'rafas' => [
@@ -45317,7 +45315,7 @@ $Lexicon = {
       'form' => 'raffAs',
       'lines' => [
         ';; raf~As_1',
-        'rfAs    raf~As  N/At    steamboat;propeller'
+        'raf~As  N/At    steamboat;propeller'
       ],
       'patterns' => {
         'raffAs' => [
@@ -45350,10 +45348,10 @@ $Lexicon = {
       'form' => 'ra\'ra\'',
       'lines' => [
         ';; ra>ora>_1',
-        'r>r>    ra>ora> PV->    roll;flicker (eyes)',
-        'r>r|    ra>ora| PV-|    roll;flicker (eyes)',
-        'r>r&    ra>ora& PV_w    roll;flicker (eyes)',
-        'r>r}    ra>ori} IV_yu   roll;flicker (eyes)'
+        'ra>ora> PV->    roll;flicker (eyes)',
+        'ra>ora| PV-|    roll;flicker (eyes)',
+        'ra>ora& PV_w    roll;flicker (eyes)',
+        'ra>ori} IV_yu   roll;flicker (eyes)'
       ],
       'patterns' => {
         'ra\'ri\'' => [
@@ -45377,7 +45375,7 @@ $Lexicon = {
       'form' => 'ra\'ra\'aT',
       'lines' => [
         ';; ra>ora>ap_1',
-        'r>r>    ra>ora> NapAt   rolling;flickering (eyes)'
+        'ra>ora> NapAt   rolling;flickering (eyes)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45403,8 +45401,8 @@ $Lexicon = {
       'form' => 'ranna_h',
       'lines' => [
         ';; ran~ax_1',
-        'rnx     ran~ax  PV      stagnate;cease flowing',
-        'rnx     ran~ix  IV_yu   stagnate;cease flowing'
+        'ran~ax  PV      stagnate;cease flowing',
+        'ran~ix  IV_yu   stagnate;cease flowing'
       ],
       'patterns' => {
         'ranni_h' => [
@@ -45432,7 +45430,7 @@ $Lexicon = {
       'form' => 'tarniy_h',
       'lines' => [
         ';; taroniyx_1',
-        'trnyx   taroniyx        NduAt   stagnation'
+        'taroniyx        NduAt   stagnation'
       ],
       'patterns' => {
         'tarniy_h' => [
@@ -45461,8 +45459,8 @@ $Lexicon = {
       'form' => 'ra.ha.d',
       'lines' => [
         ';; raHaD-a_1',
-        'rHD     raHaD   PV      rinse;wash',
-        'rHD     roHaD   IV      rinse;wash'
+        'raHaD   PV      rinse;wash',
+        'roHaD   IV      rinse;wash'
       ],
       'patterns' => {
         'r.ha.d' => [
@@ -45489,7 +45487,7 @@ $Lexicon = {
       'form' => 'ra.h.d',
       'lines' => [
         ';; raHoD_1',
-        'rHD     raHoD   N       rinse;wash'
+        'raHoD   N       rinse;wash'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45513,8 +45511,8 @@ $Lexicon = {
       'form' => 'mir.hA.d',
       'lines' => [
         ';; miroHAD_1',
-        'mrHAD   miroHAD Ndu     lavatory;toilet',
-        'mrAHyD  marAHiyD        Ndip    lavatories;toilets'
+        'miroHAD Ndu     lavatory;toilet',
+        'marAHiyD        Ndip    lavatories;toilets'
       ],
       'patterns' => {
         'marA.hiy.d' => [
@@ -45546,8 +45544,8 @@ $Lexicon = {
       'form' => 'rasmal',
       'lines' => [
         ';; rasomal_1',
-        'rsml    rasomal PV      finance;underwrite',
-        'rsml    rasomil IV      finance;underwrite'
+        'rasomal PV      finance;underwrite',
+        'rasomil IV      finance;underwrite'
       ],
       'patterns' => {
         'rasmil' => [
@@ -45571,7 +45569,7 @@ $Lexicon = {
       'form' => 'rasmalaT',
       'lines' => [
         ';; rasomalap_1',
-        'rsml    rasomal Nap     financing;underwriting'
+        'rasomal Nap     financing;underwriting'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45595,8 +45593,8 @@ $Lexicon = {
       'form' => 'rasmAl',
       'lines' => [
         ';; rasomAl_1',
-        'rsmAl   rasomAl N       capital',
-        'rsAmyl  rasAmiyl        Ndip    capital'
+        'rasomAl N       capital',
+        'rasAmiyl        Ndip    capital'
       ],
       'patterns' => {
         'rasAmiyl' => [
@@ -45621,7 +45619,7 @@ $Lexicon = {
       'form' => 'rAftir',
       'lines' => [
         ';; rAfotir_1',
-        'rAftr   rAfotir Nprop   Rafter'
+        'rAfotir Nprop   Rafter'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45646,8 +45644,8 @@ $Lexicon = {
       'form' => 'ra\'af',
       'lines' => [
         ';; ra>af-a_1',
-        'r>f     ra>af   PV      show mercy;have pity',
-        'r>f     ro>af   IV      show mercy;have pity'
+        'ra>af   PV      show mercy;have pity',
+        'ro>af   IV      show mercy;have pity'
       ],
       'patterns' => {
         'r\'af' => [
@@ -45678,8 +45676,8 @@ $Lexicon = {
       'form' => 'ra\'uf',
       'lines' => [
         ';; ra&uf-u_1',
-        'r&f     ra&uf   PV      show mercy;have pity',
-        'r&f     ro&uf   IV      show mercy;have pity'
+        'ra&uf   PV      show mercy;have pity',
+        'ro&uf   IV      show mercy;have pity'
       ],
       'patterns' => {
         'r\'uf' => [
@@ -45706,8 +45704,8 @@ $Lexicon = {
       'form' => 'tara\'\'af',
       'lines' => [
         ';; tara>~af_1',
-        'tr>f    tara>~af        PV      show mercy;have pity',
-        'tr>f    tara>~af        IV      show mercy;have pity'
+        'tara>~af        PV      show mercy;have pity',
+        'tara>~af        IV      show mercy;have pity'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45727,7 +45725,7 @@ $Lexicon = {
       'form' => 'ra\'faT',
       'lines' => [
         ';; ra>ofap_1',
-        'r>f     ra>of   Nap     mercy;pity;indulgence'
+        'ra>of   Nap     mercy;pity;indulgence'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45748,7 +45746,7 @@ $Lexicon = {
       'form' => 'ra\'AfaT',
       'lines' => [
         ';; ra|fap_1',
-        'r|f     ra|f    Nap     mercy;pity;indulgence'
+        'ra|f    Nap     mercy;pity;indulgence'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45769,8 +45767,7 @@ $Lexicon = {
       'form' => 'ra\'uwf',
       'lines' => [
         ';; ra&uwf_1',
-        'r&wf    ra&uwf  N0      Raouf',
-        'r\'wf    ra&uwf  N0      Raouf'
+        'ra&uwf  N0      Raouf'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45789,8 +45786,7 @@ $Lexicon = {
       'form' => 'ra\'uwf',
       'lines' => [
         ';; ra&uwf_2',
-        'r&wf    ra&uwf  N/ap    merciful;benevolent;gracious',
-        'r\'wf    ra&uwf  N/ap    merciful;benevolent;gracious'
+        'ra&uwf  N/ap    merciful;benevolent;gracious'
       ],
       'patterns' => {},
       'index' => '2',
@@ -45811,7 +45807,7 @@ $Lexicon = {
       'form' => '\'ar\'af',
       'lines' => [
         ';; >aro>af_1',
-        '>r>f    >aro>af Nel     more/most gracious'
+        '>aro>af Nel     more/most gracious'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45836,8 +45832,8 @@ $Lexicon = {
       'form' => 'rAmsfild',
       'lines' => [
         ';; rAmsofild_1',
-        'rAmsfld rAmsofild       N0      Rumsfeld',
-        'rAmsfyld        rAmsofiyld      N0      Rumsfeld'
+        'rAmsofild       N0      Rumsfeld',
+        'rAmsofiyld      N0      Rumsfeld'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45858,7 +45854,7 @@ $Lexicon = {
       'form' => 'rAbtuwrz',
       'lines' => [
         ';; rAbtuwrz_1',
-        'rAbtwrz rAbtuwrz        Nprop   Raptors'
+        'rAbtuwrz        Nprop   Raptors'
       ],
       'patterns' => {},
       'index' => '1',
@@ -45883,8 +45879,8 @@ $Lexicon = {
       'form' => 'radaf',
       'lines' => [
         ';; radaf-u_1',
-        'rdf     radaf   PV      follow;come immediately after;succeed',
-        'rdf     roduf   IV      follow;come immediately after;succeed'
+        'radaf   PV      follow;come immediately after;succeed',
+        'roduf   IV      follow;come immediately after;succeed'
       ],
       'patterns' => {
         'rduf' => [
@@ -45916,8 +45912,8 @@ $Lexicon = {
       'form' => 'radif',
       'lines' => [
         ';; radif-a_1',
-        'rdf     radif   PV      follow;come immediately after;succeed',
-        'rdf     rodaf   IV      follow;come immediately after;succeed'
+        'radif   PV      follow;come immediately after;succeed',
+        'rodaf   IV      follow;come immediately after;succeed'
       ],
       'patterns' => {
         'rdaf' => [
@@ -45949,8 +45945,8 @@ $Lexicon = {
       'form' => 'rAdaf',
       'lines' => [
         ';; rAdaf_1',
-        'rAdf    rAdaf   PV      replace;be synonymous',
-        'rAdf    rAdif   IV_yu   replace;be synonymous'
+        'rAdaf   PV      replace;be synonymous',
+        'rAdif   IV_yu   replace;be synonymous'
       ],
       'patterns' => {
         'rAdif' => [
@@ -45981,9 +45977,9 @@ $Lexicon = {
       'form' => '\'ardaf',
       'lines' => [
         ';; >arodaf_1',
-        '>rdf    >arodaf PV      complement;add',
-        'rdf     rodif   IV_yu   complement;add',
-        'rdf     rodaf   IV_Pass_yu      be complemented;be added'
+        '>arodaf PV      complement;add',
+        'rodif   IV_yu   complement;add',
+        'rodaf   IV_Pass_yu      be complemented;be added'
       ],
       'patterns' => {
         'rdif' => [
@@ -46012,8 +46008,8 @@ $Lexicon = {
       'form' => 'tarAdaf',
       'lines' => [
         ';; tarAdaf_1',
-        'trAdf   tarAdaf PV      follow one another;come in succession;be synonymous',
-        'trAdf   tarAdaf IV      follow one another;come in succession;be synonymous'
+        'tarAdaf PV      follow one another;come in succession;be synonymous',
+        'tarAdaf IV      follow one another;come in succession;be synonymous'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46034,7 +46030,7 @@ $Lexicon = {
       'form' => 'ridf',
       'lines' => [
         ';; ridof_1',
-        'rdf     ridof   N/ap    subsequent'
+        'ridof   N/ap    subsequent'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46053,7 +46049,7 @@ $Lexicon = {
       'form' => 'radiyf',
       'lines' => [
         ';; radiyf_1',
-        'rdyf    radiyf  N/ap    next in line'
+        'radiyf  N/ap    next in line'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46072,7 +46068,7 @@ $Lexicon = {
       'form' => 'radiyf',
       'lines' => [
         ';; radiyf_2',
-        'rdyf    radiyf  N/ap    reserve'
+        'radiyf  N/ap    reserve'
       ],
       'patterns' => {},
       'index' => '2',
@@ -46095,7 +46091,7 @@ $Lexicon = {
       'form' => 'tarAduf',
       'lines' => [
         ';; tarAduf_1',
-        'trAdf   tarAduf NduAt   succession;synonymity;synonymy'
+        'tarAduf NduAt   succession;synonymity;synonymy'
       ],
       'patterns' => {
         'tarAduf' => [
@@ -46120,7 +46116,7 @@ $Lexicon = {
       'form' => 'murAdif',
       'lines' => [
         ';; murAdif_1',
-        'mrAdf   murAdif Nall    synonym;analogous'
+        'murAdif Nall    synonym;analogous'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46140,7 +46136,7 @@ $Lexicon = {
       'form' => 'mutarAdif',
       'lines' => [
         ';; mutarAdif_1',
-        'mtrAdf  mutarAdif       Nall    synonym;analogous'
+        'mutarAdif       Nall    synonym;analogous'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46166,8 +46162,8 @@ $Lexicon = {
       'form' => 'ra\'smAl',
       'lines' => [
         ';; ra>osmAl_1',
-        'r>smAl  ra>osmAl        N       capital',
-        'rAsmAl  rAsomAl N       capital'
+        'ra>osmAl        N       capital',
+        'rAsomAl N       capital'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46190,8 +46186,8 @@ $Lexicon = {
       'form' => 'ra\'smAliyy',
       'lines' => [
         ';; ra>osmAliy~_1',
-        'r>smAly ra>osmAliy~     Nall    capital;capitalist     [[ra>osmAliy~/ADJ]]',
-        'rAsmAly rAsomAliy~      Nall    capital;capitalist     [[rAsomAliy~/ADJ]]'
+        'ra>osmAliy~     Nall    capital;capitalist     [[ra>osmAliy~/ADJ]]',
+        'rAsomAliy~      Nall    capital;capitalist     [[rAsomAliy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46215,8 +46211,8 @@ $Lexicon = {
       'form' => 'ra\'smAliyyaT',
       'lines' => [
         ';; ra>osmAliy~ap_1',
-        'r>smAly ra>osmAliy~     NapAt   capitalism     [[ra>osmAliy~/NOUN]]',
-        'rAsmAly rAsomAliy~      NapAt   capitalism     [[rAsomAliy~/NOUN]]'
+        'ra>osmAliy~     NapAt   capitalism     [[ra>osmAliy~/NOUN]]',
+        'rAsomAliy~      NapAt   capitalism     [[rAsomAliy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46241,8 +46237,8 @@ $Lexicon = {
       'form' => 'ra\'ab',
       'lines' => [
         ';; ra>ab-a_1',
-        'r>b     ra>ab   PV      repair;rectify;mend',
-        'r>b     ro>ab   IV      repair;rectify;mend'
+        'ra>ab   PV      repair;rectify;mend',
+        'ro>ab   IV      repair;rectify;mend'
       ],
       'patterns' => {
         'r\'ab' => [
@@ -46274,8 +46270,8 @@ $Lexicon = {
       'form' => 'ru\'baT',
       'lines' => [
         ';; ru&obap_1',
-        'r&b     ru&ob   Nap     patch',
-        'r}Ab    ri}Ab   N       patches'
+        'ru&ob   Nap     patch',
+        'ri}Ab   N       patches'
       ],
       'patterns' => {
         'ri\'Ab' => [
@@ -46303,8 +46299,8 @@ $Lexicon = {
       'form' => 'mir\'ab',
       'lines' => [
         ';; miro>ab_1',
-        'mr>b    miro>ab Ndu     garage;parking lot',
-        'mrA}b   marA}ib Ndip    garages;parking lots'
+        'miro>ab Ndu     garage;parking lot',
+        'marA}ib Ndip    garages;parking lots'
       ],
       'patterns' => {
         'marA\'ib' => [
@@ -46330,7 +46326,7 @@ $Lexicon = {
       'form' => 'mir\'Ab',
       'lines' => [
         ';; miro|b_1',
-        'mr|b    miro|b  Ndu     garage;parking lot'
+        'miro|b  Ndu     garage;parking lot'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46366,7 +46362,7 @@ $Lexicon = {
       'form' => 'ruwbirtuw',
       'lines' => [
         ';; ruwbirotuw_1',
-        'rwbrtw  ruwbirotuw      Nprop   Roberto'
+        'ruwbirotuw      Nprop   Roberto'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46387,7 +46383,7 @@ $Lexicon = {
       'form' => 'rAniyA',
       'lines' => [
         ';; rAniyA_1',
-        'rAnyA   rAniyA  Nprop   Rania'
+        'rAniyA  Nprop   Rania'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46412,8 +46408,8 @@ $Lexicon = {
       'form' => 'ratam',
       'lines' => [
         ';; ratam-i_1',
-        'rtm     ratam   PV      utter;say',
-        'rtm     rotim   IV      utter;say'
+        'ratam   PV      utter;say',
+        'rotim   IV      utter;say'
       ],
       'patterns' => {
         'rtim' => [
@@ -46440,8 +46436,8 @@ $Lexicon = {
       'form' => 'ratam',
       'lines' => [
         ';; ratam_1',
-        'rtm     ratam   N       retem;juniper',
-        'rtm     ratam   Nap     retem;juniper'
+        'ratam   N       retem;juniper',
+        'ratam   Nap     retem;juniper'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46461,7 +46457,7 @@ $Lexicon = {
       'form' => 'ratmaT',
       'lines' => [
         ';; ratomap_1',
-        'rtm     ratom   Nap     reminder'
+        'ratom   Nap     reminder'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46484,8 +46480,8 @@ $Lexicon = {
       'form' => 'ratiymaT',
       'lines' => [
         ';; ratiymap_1',
-        'rtym    ratiym  Nap     reminder',
-        'rtA}m   ratA}im Ndip    reminder'
+        'ratiym  Nap     reminder',
+        'ratA}im Ndip    reminder'
       ],
       'patterns' => {
         'ratA\'im' => [
@@ -46514,8 +46510,8 @@ $Lexicon = {
       'form' => 'raha.t',
       'lines' => [
         ';; rahaT-a_1',
-        'rhT     rahaT   PV      gobble;gulp',
-        'rhT     rohaT   IV      gobble;gulp'
+        'rahaT   PV      gobble;gulp',
+        'rohaT   IV      gobble;gulp'
       ],
       'patterns' => {
         'rha.t' => [
@@ -46555,11 +46551,11 @@ $Lexicon = {
       'form' => 'rah.t',
       'lines' => [
         ';; rahoT_1',
-        'rhT     rahoT   Ndu     group;band',
-        '>rhAT   >arohAT N       groups;bands',
-        '>rhT    >arohuT N       groups;bands',
-        '>rAhT   >arAhiT Ndip    groups;bands',
-        '>rAhyT  >arAhiyT        Ndip    groups;bands'
+        'rahoT   Ndu     group;band',
+        '>arohAT N       groups;bands',
+        '>arohuT N       groups;bands',
+        '>arAhiT Ndip    groups;bands',
+        '>arAhiyT        Ndip    groups;bands'
       ],
       'patterns' => {
         '\'arhA.t' => [
@@ -46598,8 +46594,8 @@ $Lexicon = {
       'form' => 'rah.t',
       'lines' => [
         ';; rahoT_2',
-        'rhT     rahoT   Ndu     leather loincloth',
-        'rhAT    rihAT   N       leather loincloths'
+        'rahoT   Ndu     leather loincloth',
+        'rihAT   N       leather loincloths'
       ],
       'patterns' => {
         'rihA.t' => [
@@ -46625,7 +46621,7 @@ $Lexicon = {
       'form' => 'rAmAkriy^snA',
       'lines' => [
         ';; rAmAkriy$onA_1',
-        'rAmAkry$nA      rAmAkriy$onA    N0      Ramakrishna'
+        'rAmAkriy$onA    N0      Ramakrishna'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46646,7 +46642,7 @@ $Lexicon = {
       'form' => 'ru`laT',
       'lines' => [
         ';; ruEolap_1',
-        'rEl     ruEol   NapAt   wreath'
+        'ruEol   NapAt   wreath'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46669,8 +46665,8 @@ $Lexicon = {
       'form' => 'ra`iyl',
       'lines' => [
         ';; raEiyl_1',
-        'rEyl    raEiyl  N       flock;group;squadron',
-        'rEAl    riEAl   N       flocks;groups;squadrons'
+        'raEiyl  N       flock;group;squadron',
+        'riEAl   N       flocks;groups;squadrons'
       ],
       'patterns' => {
         'ri`Al' => [
@@ -46708,10 +46704,10 @@ $Lexicon = {
       'form' => 'rAz',
       'lines' => [
         ';; rAz-u_1',
-        'rAz     rAz     PV_V    weigh;examine;consider',
-        'rz      ruz     PV_C    weigh;examine;consider',
-        'rwz     ruwz    IV_V    weigh;examine;consider',
-        'rz      ruz     IV_C    weigh;examine;consider'
+        'rAz     PV_V    weigh;examine;consider',
+        'ruz     PV_C    weigh;examine;consider',
+        'ruwz    IV_V    weigh;examine;consider',
+        'ruz     IV_C    weigh;examine;consider'
       ],
       'patterns' => {
         'ruz' => [
@@ -46742,7 +46738,7 @@ $Lexicon = {
       'form' => 'rawz',
       'lines' => [
         ';; rawoz_1',
-        'rwz     rawoz   N       weighing;examining;considering'
+        'rawoz   N       weighing;examining;considering'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46765,7 +46761,7 @@ $Lexicon = {
       'form' => 'ra`A`',
       'lines' => [
         ';; raEAE_1',
-        'rEAE    raEAE   N       mob;riffraff;hooligans'
+        'raEAE   N       mob;riffraff;hooligans'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46832,7 +46828,7 @@ $Lexicon = {
       'form' => 'rahbuwt',
       'lines' => [
         ';; rahobuwt_1',
-        'rhbwt   rahobuwt        N       fright;terror'
+        'rahobuwt        N       fright;terror'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46854,7 +46850,7 @@ $Lexicon = {
       'form' => 'riyuwzuw',
       'lines' => [
         ';; riyuwzuw_1',
-        'rywzw   riyuwzuw        Nprop   Ryuzo'
+        'riyuwzuw        Nprop   Ryuzo'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46879,8 +46875,8 @@ $Lexicon = {
       'form' => 'ratil',
       'lines' => [
         ';; ratil-a_1',
-        'rtl     ratil   PV_intr be tidy;be well-ordered',
-        'rtl     rotal   IV_intr be tidy;be well-ordered'
+        'ratil   PV_intr be tidy;be well-ordered',
+        'rotal   IV_intr be tidy;be well-ordered'
       ],
       'patterns' => {
         'rtal' => [
@@ -46912,8 +46908,8 @@ $Lexicon = {
       'form' => 'rattal',
       'lines' => [
         ';; rat~al_1',
-        'rtl     rat~al  PV      articulate carefully;chant (the Quran)',
-        'rtl     rat~il  IV_yu   articulate carefully;chant (the Quran)'
+        'rat~al  PV      articulate carefully;chant (the Quran)',
+        'rat~il  IV_yu   articulate carefully;chant (the Quran)'
       ],
       'patterns' => {
         'rattil' => [
@@ -46941,8 +46937,8 @@ $Lexicon = {
       'form' => 'ratl',
       'lines' => [
         ';; ratol_1',
-        'rtl     ratol   Ndu     queue;column;convoy',
-        '>rtAl   >arotAl N       queues;columns;convoys'
+        'ratol   Ndu     queue;column;convoy',
+        '>arotAl N       queues;columns;convoys'
       ],
       'patterns' => {
         '\'artAl' => [
@@ -46970,7 +46966,7 @@ $Lexicon = {
       'form' => 'ratl',
       'lines' => [
         ';; ratol_2',
-        'rtl     ratol   N       organizing;putting in order'
+        'ratol   N       organizing;putting in order'
       ],
       'patterns' => {},
       'index' => '2',
@@ -46994,7 +46990,7 @@ $Lexicon = {
       'form' => 'tartiyl',
       'lines' => [
         ';; tarotiyl_1',
-        'trtyl   tarotiyl        NduAt   chanting (the Quran)'
+        'tarotiyl        NduAt   chanting (the Quran)'
       ],
       'patterns' => {
         'tartiyl' => [
@@ -47021,8 +47017,8 @@ $Lexicon = {
       'form' => 'tartiylaT',
       'lines' => [
         ';; tarotiylap_1',
-        'trtyl   tarotiyl        Napdu   hymn',
-        'trAtyl  tarAtiyl        Ndip    hymns'
+        'tarotiyl        Napdu   hymn',
+        'tarAtiyl        Ndip    hymns'
       ],
       'patterns' => {
         'tarAtiyl' => [
@@ -47046,7 +47042,7 @@ $Lexicon = {
       'form' => 'murattil',
       'lines' => [
         ';; murat~il_1',
-        'mrtl    murat~il        Nall    singer;chanter'
+        'murat~il        Nall    singer;chanter'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47066,7 +47062,7 @@ $Lexicon = {
       'form' => 'murattal',
       'lines' => [
         ';; murat~al_1',
-        'mrtl    murat~al        N-ap    chanted;sung'
+        'murat~al        N-ap    chanted;sung'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47088,7 +47084,7 @@ $Lexicon = {
       'form' => 'raf^s',
       'lines' => [
         ';; rafo$_1',
-        'rf$     rafo$   Ndu     shovel;spade'
+        'rafo$   Ndu     shovel;spade'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47114,8 +47110,8 @@ $Lexicon = {
       'form' => 'rafal',
       'lines' => [
         ';; rafal-u_1',
-        'rfl     rafal   PV      swagger',
-        'rfl     roful   IV      swagger'
+        'rafal   PV      swagger',
+        'roful   IV      swagger'
       ],
       'patterns' => {
         'rful' => [
@@ -47141,7 +47137,7 @@ $Lexicon = {
       'form' => 'rafl',
       'lines' => [
         ';; rafol_1',
-        'rfl     rafol   N       swaggering'
+        'rafol   N       swaggering'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47167,9 +47163,9 @@ $Lexicon = {
       'form' => 'rifl',
       'lines' => [
         ';; rifol_1',
-        'rfl     rifol   N       train (of a garment)',
-        '>rfAl   >arofAl N       train (of a garment)',
-        'rfwl    rufuwl  N       train (of a garment)'
+        'rifol   N       train (of a garment)',
+        '>arofAl N       train (of a garment)',
+        'rufuwl  N       train (of a garment)'
       ],
       'patterns' => {
         '\'arfAl' => [
@@ -47204,9 +47200,9 @@ $Lexicon = {
       'form' => 'ri\'aT',
       'lines' => [
         ';; ri}ap_1',
-        'r}      ri}     Napdu   lung',
-        'ry      riy~    Napdu   lung     [[riy~/NOUN]]',
-        'r}wn    ri}uwn  N       lungs'
+        'ri}     Napdu   lung',
+        'riy~    Napdu   lung     [[riy~/NOUN]]',
+        'ri}uwn  N       lungs'
       ],
       'patterns' => {
         'ri\'uwn' => [],
@@ -47250,7 +47246,7 @@ $Lexicon = {
       'form' => 'ri\'awiyy',
       'lines' => [
         ';; ri}awiy~_1',
-        'r}wy    ri}awiy~        Nall    pulmonary     [[ri}awiy~/ADJ]]'
+        'ri}awiy~        Nall    pulmonary     [[ri}awiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47303,7 +47299,7 @@ $Lexicon = {
       'form' => 'rafa.h',
       'lines' => [
         ';; rafaH_1',
-        'rfH     rafaH   N       Rafah'
+        'rafaH   N       Rafah'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47328,8 +47324,8 @@ $Lexicon = {
       'form' => 'ramaq',
       'lines' => [
         ';; ramaq-u_1',
-        'rmq     ramaq   PV      glance at;view;look at',
-        'rmq     romuq   IV      glance at;view;look at'
+        'ramaq   PV      glance at;view;look at',
+        'romuq   IV      glance at;view;look at'
       ],
       'patterns' => {
         'rmuq' => [
@@ -47361,8 +47357,8 @@ $Lexicon = {
       'form' => 'rammaq',
       'lines' => [
         ';; ram~aq_1',
-        'rmq     ram~aq  PV      gaze at;stare at',
-        'rmq     ram~iq  IV_yu   gaze at;stare at'
+        'ram~aq  PV      gaze at;stare at',
+        'ram~iq  IV_yu   gaze at;stare at'
       ],
       'patterns' => {
         'rammiq' => [
@@ -47386,8 +47382,8 @@ $Lexicon = {
       'form' => 'tarammaq',
       'lines' => [
         ';; taram~aq_1',
-        'trmq    taram~aq        PV      await',
-        'trmq    taram~aq        IV      await'
+        'taram~aq        PV      await',
+        'taram~aq        IV      await'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47410,8 +47406,8 @@ $Lexicon = {
       'form' => 'ramaq',
       'lines' => [
         ';; ramaq_1',
-        'rmq     ramaq   N       last sign of life;last breath of life',
-        '>rmAq   >aromAq N       last signs of life;last breaths of life'
+        'ramaq   N       last sign of life;last breath of life',
+        '>aromAq N       last signs of life;last breaths of life'
       ],
       'patterns' => {
         '\'armAq' => [
@@ -47437,7 +47433,7 @@ $Lexicon = {
       'form' => 'marmuwq',
       'lines' => [
         ';; maromuwq_1',
-        'mrmwq   maromuwq        Nall    highly-regarded;distinguished;notable     [[maromuwq/ADJ]]'
+        'maromuwq        Nall    highly-regarded;distinguished;notable     [[maromuwq/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47464,8 +47460,8 @@ $Lexicon = {
       'form' => 'rAdiykAliyy',
       'lines' => [
         ';; rAdiykAliy~_1',
-        'rAdykAly        rAdiykAliy~     Nall    radical     [[rAdiykAliy~/ADJ]]',
-        'rAdkAly rAdikAliy~      Nall    radical     [[rAdikAliy~/ADJ]]'
+        'rAdiykAliy~     Nall    radical     [[rAdiykAliy~/ADJ]]',
+        'rAdikAliy~      Nall    radical     [[rAdikAliy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47488,8 +47484,8 @@ $Lexicon = {
       'form' => 'rAdiykAliyyaT',
       'lines' => [
         ';; rAdiykAliy~ap_1',
-        'rAdykAly        rAdiykAliy~     Nap     radicalism     [[rAdiykAliy~/NOUN]]',
-        'rAdkAly rAdikAliy~      Nap     radicalism     [[rAdikAliy~/NOUN]]'
+        'rAdiykAliy~     Nap     radicalism     [[rAdiykAliy~/NOUN]]',
+        'rAdikAliy~      Nap     radicalism     [[rAdikAliy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47510,7 +47506,7 @@ $Lexicon = {
       'form' => 'ru`Am',
       'lines' => [
         ';; ruEAm_1',
-        'rEAm    ruEAm   N       glanders (infectious horse disease)'
+        'ruEAm   N       glanders (infectious horse disease)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47529,7 +47525,7 @@ $Lexicon = {
       'form' => 'ra`uwm',
       'lines' => [
         ';; raEuwm_1',
-        'rEwm    raEuwm  N-ap    suffering from glanders (infectious horse disease)'
+        'raEuwm  N-ap    suffering from glanders (infectious horse disease)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47550,7 +47546,7 @@ $Lexicon = {
       'form' => 'riystuw',
       'lines' => [
         ';; riysotuw_1',
-        'rystw   riysotuw        Nprop   Risto'
+        'riysotuw        Nprop   Risto'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47581,10 +47577,10 @@ $Lexicon = {
       'form' => 'rabb',
       'lines' => [
         ';; rab~-u_1',
-        'rb      rab~    PV_V_intr       be master of;control',
-        'rbb     rabab   PV_C_intr       be master of;control',
-        'rb      rub~    IV_V_intr       be master of;control',
-        'rbb     robub   IV_C_intr       be master of;control'
+        'rab~    PV_V_intr       be master of;control',
+        'rabab   PV_C_intr       be master of;control',
+        'rub~    IV_V_intr       be master of;control',
+        'robub   IV_C_intr       be master of;control'
       ],
       'patterns' => {
         'rbub' => [
@@ -47621,8 +47617,8 @@ $Lexicon = {
       'form' => 'rabbab',
       'lines' => [
         ';; rab~ab_1',
-        'rbb     rab~ab  PV      bring up;raise;idolize',
-        'rbb     rab~ib  IV_yu   bring up;raise;idolize'
+        'rab~ab  PV      bring up;raise;idolize',
+        'rab~ib  IV_yu   bring up;raise;idolize'
       ],
       'patterns' => {
         'rabbib' => [
@@ -47651,8 +47647,8 @@ $Lexicon = {
       'form' => 'rabb',
       'lines' => [
         ';; rab~_1',
-        'rb      rab~    Ndu     lord;master',
-        '>rbAb   >arobAb N       lords;masters'
+        'rab~    Ndu     lord;master',
+        '>arobAb N       lords;masters'
       ],
       'patterns' => {
         '\'arbAb' => [
@@ -47682,8 +47678,8 @@ $Lexicon = {
       'form' => 'rabbaT',
       'lines' => [
         ';; rab~ap_1',
-        'rb      rab~    Napdu   lady;mistress',
-        'rb      rab~    NAt     ladies;mistresses'
+        'rab~    Napdu   lady;mistress',
+        'rab~    NAt     ladies;mistresses'
       ],
       'patterns' => {
         'rabb' => [
@@ -47716,9 +47712,9 @@ $Lexicon = {
       'form' => 'rabb',
       'lines' => [
         ';; rab~_2',
-        'rb      rab~    Ndu     owner;proprietor',
-        'rb      rab~    NapAt   owner;proprietor',
-        '>rbAb   >arobAb N       owners;proprietors'
+        'rab~    Ndu     owner;proprietor',
+        'rab~    NapAt   owner;proprietor',
+        '>arobAb N       owners;proprietors'
       ],
       'patterns' => {
         '\'arbAb' => [
@@ -47747,7 +47743,7 @@ $Lexicon = {
       'form' => 'rubb',
       'lines' => [
         ';; rub~_1',
-        'rb      rub~    N       thickened juice;pulp'
+        'rub~    N       thickened juice;pulp'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47767,7 +47763,7 @@ $Lexicon = {
       'form' => 'rubba',
       'lines' => [
         ';; rub~a_1',
-        'rb      rub~a   FW      (so) many     [[rub~a/FUNC_WORD]]'
+        'rub~a   FW      (so) many     [[rub~a/FUNC_WORD]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47786,7 +47782,7 @@ $Lexicon = {
       'form' => 'ribbaT',
       'lines' => [
         ';; rib~ap_1',
-        'rb      rib~    Nap     skin eruption'
+        'rib~    Nap     skin eruption'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47805,7 +47801,7 @@ $Lexicon = {
       'form' => 'rabAb',
       'lines' => [
         ';; rabAb_1',
-        'rbAb    rabAb   N       rebec;rabab (lute-like instrument played with a bow)'
+        'rabAb   N       rebec;rabab (lute-like instrument played with a bow)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47825,7 +47821,7 @@ $Lexicon = {
       'form' => 'rabAbaT',
       'lines' => [
         ';; rabAbap_1',
-        'rbAb    rabAb   Napdu   rebec;rababa (lute-like instrument played with a bow)'
+        'rabAb   Napdu   rebec;rababa (lute-like instrument played with a bow)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47845,7 +47841,7 @@ $Lexicon = {
       'form' => 'rabiyb',
       'lines' => [
         ';; rabiyb_1',
-        'rbyb    rabiyb  Ndu     stepson;ally'
+        'rabiyb  Ndu     stepson;ally'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47865,7 +47861,7 @@ $Lexicon = {
       'form' => 'rabiybaT',
       'lines' => [
         ';; rabiybap_1',
-        'rbyb    rabiyb  Napdu   stepdaughter;ally'
+        'rabiyb  Napdu   stepdaughter;ally'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47885,7 +47881,7 @@ $Lexicon = {
       'form' => 'rubuwbiyyaT',
       'lines' => [
         ';; rubuwbiy~ap_1',
-        'rbwby   rubuwbiy~       Nap     divinity;deity     [[rubuwbiy~/NOUN]]'
+        'rubuwbiy~       Nap     divinity;deity     [[rubuwbiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47905,7 +47901,7 @@ $Lexicon = {
       'form' => 'rAbb',
       'lines' => [
         ';; rAb~_1',
-        'rAb     rAb~    Ndu     stepfather'
+        'rAb~    Ndu     stepfather'
       ],
       'patterns' => {},
       'index' => '1',
@@ -47928,8 +47924,8 @@ $Lexicon = {
       'form' => 'rAbbaT',
       'lines' => [
         ';; rAb~ap_1',
-        'rAb     rAb~    Napdu   stepmother',
-        'rAb     rAb~    NAt     stepmothers'
+        'rAb~    Napdu   stepmother',
+        'rAb~    NAt     stepmothers'
       ],
       'patterns' => {
         'rAbb' => [
@@ -48014,13 +48010,13 @@ $Lexicon = {
       'form' => 'rada\'',
       'lines' => [
         ';; rada>-a_1',
-        'rd>     rada>   PV->    support;prop',
-        'rd|     rada|   PV-|    support;prop',
-        'rd&     rada&   PV_w    support;prop',
-        'rd>     roda>   IV      support;prop',
-        'rd|     roda|   IV-|    support;prop',
-        'rd&     roda&   IV_wn   support;prop',
-        'rd}     roda}   IV_yn   support;prop'
+        'rada>   PV->    support;prop',
+        'rada|   PV-|    support;prop',
+        'rada&   PV_w    support;prop',
+        'roda>   IV      support;prop',
+        'roda|   IV-|    support;prop',
+        'roda&   IV_wn   support;prop',
+        'roda}   IV_yn   support;prop'
       ],
       'patterns' => {
         'rda\'' => [
@@ -48052,9 +48048,9 @@ $Lexicon = {
       'form' => 'radu\'',
       'lines' => [
         ';; radu&-u_1',
-        'rd&     radu&   PV_intr be bad',
-        'rd&     rodu&   IV_intr be bad',
-        'rd}     rodu}   IV_yn   be bad'
+        'radu&   PV_intr be bad',
+        'rodu&   IV_intr be bad',
+        'rodu}   IV_yn   be bad'
       ],
       'patterns' => {
         'rdu\'' => [
@@ -48085,13 +48081,13 @@ $Lexicon = {
       'form' => 'taradda\'',
       'lines' => [
         ';; tarad~a>_1',
-        'trd>    tarad~a>        PV->_intr       be spoiled',
-        'trd|    tarad~a|        PV-|_intr       be spoiled',
-        'trd&    tarad~a&        PV_w_intr       be spoiled',
-        'trd>    tarad~a>        IV_intr be spoiled',
-        'trd|    tarad~a|        IV-|    be spoiled',
-        'trd&    tarad~a&        IV_wn   be spoiled',
-        'trd}    tarad~a}        IV_yn   be spoiled'
+        'tarad~a>        PV->_intr       be spoiled',
+        'tarad~a|        PV-|_intr       be spoiled',
+        'tarad~a&        PV_w_intr       be spoiled',
+        'tarad~a>        IV_intr be spoiled',
+        'tarad~a|        IV-|    be spoiled',
+        'tarad~a&        IV_wn   be spoiled',
+        'tarad~a}        IV_yn   be spoiled'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48116,12 +48112,12 @@ $Lexicon = {
       'form' => 'rid\'',
       'lines' => [
         ';; rido\'_1',
-        'rd\'     rido\'   N0F_Nh  support;helper',
-        'rd&     rido&   Nh      support;helper',
-        'rd}     rido}   Nhy     support;helper',
-        '>rdA\'   >arodA\' N0_Nh   support;helpers',
-        '>rdA&   >arodA& Nh      support;helpers',
-        '>rdA}   >arodA} Nhy     support;helpers'
+        'rido\'   N0F_Nh  support;helper',
+        'rido&   Nh      support;helper',
+        'rido}   Nhy     support;helper',
+        '>arodA\' N0_Nh   support;helpers',
+        '>arodA& Nh      support;helpers',
+        '>arodA} Nhy     support;helpers'
       ],
       'patterns' => {
         '\'ardA\'' => [
@@ -48156,14 +48152,14 @@ $Lexicon = {
       'form' => 'radiy\'',
       'lines' => [
         ';; radiy\'_1',
-        'rdy\'    radiy\'  N0      bad;wicked;malicious     [[radiy\'/ADJ]]',
-        'rdy}    radiy}  NapAt   bad;wicked;malicious',
-        'rdy}    radiy}  NF_Nhy  bad;wicked;malicious',
-        'rdy}    radiy}  NAn_Nayn        bad;wicked;malicious',
-        'rdy}    radiy}  Nuwn_Niyn       bad;wicked;malicious',
-        '>rdyA\'  >arodiyA\'       N0_Nh   bad;wicked;malicious',
-        '>rdyA&  >arodiyA&       Nh      bad;wicked;malicious',
-        '>rdyA}  >arodiyA}       Nhy     bad;wicked;malicious'
+        'radiy\'  N0      bad;wicked;malicious     [[radiy\'/ADJ]]',
+        'radiy}  NapAt   bad;wicked;malicious',
+        'radiy}  NF_Nhy  bad;wicked;malicious',
+        'radiy}  NAn_Nayn        bad;wicked;malicious',
+        'radiy}  Nuwn_Niyn       bad;wicked;malicious',
+        '>arodiyA\'       N0_Nh   bad;wicked;malicious',
+        '>arodiyA&       Nh      bad;wicked;malicious',
+        '>arodiyA}       Nhy     bad;wicked;malicious'
       ],
       'patterns' => {
         '\'ardiyA\'' => [],
@@ -48189,9 +48185,9 @@ $Lexicon = {
       'form' => '\'arda\'',
       'lines' => [
         ';; >aroda>_1',
-        '>rd>    >aroda> N0_Nh   worse/worst',
-        '>rd|    >aroda| N-|     worst',
-        '>rd}    >aroda} Nayn    worst'
+        '>aroda> N0_Nh   worse/worst',
+        '>aroda| N-|     worst',
+        '>aroda} Nayn    worst'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48211,7 +48207,7 @@ $Lexicon = {
       'form' => 'radA\'aT',
       'lines' => [
         ';; radA\'ap_1',
-        'rdA\'    radA\'   Nap     wickedness;maliciousness'
+        'radA\'   Nap     wickedness;maliciousness'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48235,10 +48231,10 @@ $Lexicon = {
       'form' => 'ridA\'',
       'lines' => [
         ';; ridA\'_1',
-        'rdA\'    ridA\'   N0_Nh   gown;robe',
-        'rdA&    ridA&   Nh      gown;robe',
-        'rdA}    ridA}   Nhy     gown;robe',
-        '>rdy    >arodiy Nap     gowns;robes'
+        'ridA\'   N0_Nh   gown;robe',
+        'ridA&   Nh      gown;robe',
+        'ridA}   Nhy     gown;robe',
+        '>arodiy Nap     gowns;robes'
       ],
       'patterns' => {
         '\'ardiy' => [
@@ -48267,13 +48263,13 @@ $Lexicon = {
       'entry' => 'irtidA\'',
       'form' => 'irtidA\'',
       'lines' => [
-        ';; {irotidA\'_1',
-        '<rtdA\'  {irotidA\'       N0_Nh   wearing;putting on',
-        '<rtdA&  {irotidA&       Nh      wearing;putting on',
-        '<rtdA}  {irotidA}       Nhy     wearing;putting on',
-        '<rtdA\'  {irotidA\'       NAn_Nayn        wearing;putting on',
-        '<rtdA}  {irotidA}       Nayn    wearing;putting on',
-        '<rtdA\'  {irotidA\'       NAt     wearing;putting on'
+        ';; AirotidA\'_1',
+        'AirotidA\'       N0_Nh   wearing;putting on',
+        'AirotidA&       Nh      wearing;putting on',
+        'AirotidA}       Nhy     wearing;putting on',
+        'AirotidA\'       NAn_Nayn        wearing;putting on',
+        'AirotidA}       Nayn    wearing;putting on',
+        'AirotidA\'       NAt     wearing;putting on'
       ],
       'patterns' => {
         'irtidA\'' => [
@@ -48299,7 +48295,7 @@ $Lexicon = {
       'form' => 'ruwtiyn',
       'lines' => [
         ';; ruwtiyn_1',
-        'rwtyn   ruwtiyn N       bureaucracy;red tape;routine'
+        'ruwtiyn N       bureaucracy;red tape;routine'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48320,7 +48316,7 @@ $Lexicon = {
       'form' => 'ruwtiyniyy',
       'lines' => [
         ';; ruwtiyniy~_1',
-        'rwtyny  ruwtiyniy~      Nall    routine;bureaucratic     [[ruwtiyniy~/ADJ]]'
+        'ruwtiyniy~      Nall    routine;bureaucratic     [[ruwtiyniy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48349,9 +48345,9 @@ $Lexicon = {
       'form' => 'rad.gaT',
       'lines' => [
         ';; radogap_1',
-        'rdg     radog   Nap     mud;mire',
-        'rdg     radog   N       mud;mire',
-        'rdAg    ridAg   N       mud;mire'
+        'radog   Nap     mud;mire',
+        'radog   N       mud;mire',
+        'ridAg   N       mud;mire'
       ],
       'patterns' => {
         'rad.g' => [
@@ -48384,8 +48380,8 @@ $Lexicon = {
       'form' => 'rawba.s',
       'lines' => [
         ';; rawobaS_1',
-        'rwbS    rawobaS PV      sleepwalk',
-        'rwbS    rawobiS IV_yu   sleepwalk'
+        'rawobaS PV      sleepwalk',
+        'rawobiS IV_yu   sleepwalk'
       ],
       'patterns' => {
         'rawbi.s' => [
@@ -48408,8 +48404,8 @@ $Lexicon = {
       'form' => 'tarawba.s',
       'lines' => [
         ';; tarawobaS_1',
-        'trwbS   tarawobaS       PV      sleepwalk',
-        'trwbS   tarawobaS       IV      sleepwalk'
+        'tarawobaS       PV      sleepwalk',
+        'tarawobaS       IV      sleepwalk'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48428,7 +48424,7 @@ $Lexicon = {
       'form' => 'rawba.saT',
       'lines' => [
         ';; rawobaSap_1',
-        'rwbS    rawobaS Nap     sleepwalking'
+        'rawobaS Nap     sleepwalking'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48451,7 +48447,7 @@ $Lexicon = {
       'form' => 'tarawbu.s',
       'lines' => [
         ';; tarawobuS_1',
-        'trwbS   tarawobuS       N/At    sleepwalking'
+        'tarawobuS       N/At    sleepwalking'
       ],
       'patterns' => {
         'tarawbu.s' => [
@@ -48480,8 +48476,8 @@ $Lexicon = {
       'form' => 'ruznAmaT',
       'lines' => [
         ';; ruzonAmap_1',
-        'rznAm   ruzonAm Napdu   calendar',
-        'rznAmh  ruzonAmah       N0      calendar'
+        'ruzonAm Napdu   calendar',
+        'ruzonAmah       N0      calendar'
       ],
       'patterns' => {
         'ruznAmah' => []
@@ -48504,7 +48500,7 @@ $Lexicon = {
       'form' => 'ruwskiy_h',
       'lines' => [
         ';; ruwsokiyx_1',
-        'rwskyx  ruwsokiyx       Nprop   Russkikh'
+        'ruwsokiyx       Nprop   Russkikh'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48525,7 +48521,7 @@ $Lexicon = {
       'form' => 'rama.s',
       'lines' => [
         ';; ramaS_1',
-        'rmS     ramaS   N       white secretion (of the eye)'
+        'ramaS   N       white secretion (of the eye)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48554,10 +48550,10 @@ $Lexicon = {
       'form' => 'rAdAr',
       'lines' => [
         ';; rAdAr_1',
-        'rAdAr   rAdAr   Ndu     radar',
-        'rdAr    radAr   Ndu     radar',
-        'rAdAr   rAdAr   NAt     radars',
-        'rdAr    radAr   NAt     radars'
+        'rAdAr   Ndu     radar',
+        'radAr   Ndu     radar',
+        'rAdAr   NAt     radars',
+        'radAr   NAt     radars'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48581,8 +48577,8 @@ $Lexicon = {
       'form' => 'rAdAriyy',
       'lines' => [
         ';; rAdAriy~_1',
-        'rAdAry  rAdAriy~        Nall    radar     [[rAdAriy~/ADJ]]',
-        'rdAry   radAriy~        Nall    radar     [[radAriy~/ADJ]]'
+        'rAdAriy~        Nall    radar     [[rAdAriy~/ADJ]]',
+        'radAriy~        Nall    radar     [[radAriy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48603,7 +48599,7 @@ $Lexicon = {
       'form' => 'riwand',
       'lines' => [
         ';; riwanod_1',
-        'rwnd    riwanod N       rhubarb'
+        'riwanod N       rhubarb'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48624,7 +48620,7 @@ $Lexicon = {
       'form' => 'ram_tA',
       'lines' => [
         ';; ramovA_1',
-        'rmvA    ramovA  N0      Ramtha'
+        'ramovA  N0      Ramtha'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48649,8 +48645,8 @@ $Lexicon = {
       'form' => 'raqa`',
       'lines' => [
         ';; raqaE-a_1',
-        'rqE     raqaE   PV      repair;mend',
-        'rqE     roqaE   IV      repair;mend'
+        'raqaE   PV      repair;mend',
+        'roqaE   IV      repair;mend'
       ],
       'patterns' => {
         'rqa`' => [
@@ -48681,8 +48677,8 @@ $Lexicon = {
       'form' => 'raqu`',
       'lines' => [
         ';; raquE-u_1',
-        'rqE     raquE   PV_intr be doltish',
-        'rqE     roquE   IV_intr be doltish'
+        'raquE   PV_intr be doltish',
+        'roquE   IV_intr be doltish'
       ],
       'patterns' => {
         'rqu`' => [
@@ -48712,8 +48708,8 @@ $Lexicon = {
       'form' => 'raqqa`',
       'lines' => [
         ';; raq~aE_1',
-        'rqE     raq~aE  PV      repair;mend',
-        'rqE     raq~iE  IV_yu   repair;mend'
+        'raq~aE  PV      repair;mend',
+        'raq~iE  IV_yu   repair;mend'
       ],
       'patterns' => {
         'raqqi`' => [
@@ -48744,9 +48740,9 @@ $Lexicon = {
       'form' => 'ruq`aT',
       'lines' => [
         ';; ruqoEap_1',
-        'rqE     ruqoE   NapAt   patch;plot of land',
-        'rqE     ruqaE   N       patches;plots of land',
-        'rqAE    riqAE   N       patches;plots of land'
+        'ruqoE   NapAt   patch;plot of land',
+        'ruqaE   N       patches;plots of land',
+        'riqAE   N       patches;plots of land'
       ],
       'patterns' => {
         'ruqa`' => [
@@ -48782,9 +48778,9 @@ $Lexicon = {
       'form' => 'ruq`aT',
       'lines' => [
         ';; ruqoEap_2',
-        'rqE     ruqoE   NapAt   coupon;ticket',
-        'rqE     ruqaE   N       coupons;tickets',
-        'rqAE    riqAE   N       coupons;tickets'
+        'ruqoE   NapAt   coupon;ticket',
+        'ruqaE   N       coupons;tickets',
+        'riqAE   N       coupons;tickets'
       ],
       'patterns' => {
         'ruqa`' => [
@@ -48813,7 +48809,7 @@ $Lexicon = {
       'form' => 'ruq`aT',
       'lines' => [
         ';; ruqoEap_3',
-        'rqE     ruqoE   Nap     ruq\'ah (cursive Arabic script)'
+        'ruqoE   Nap     ruq\'ah (cursive Arabic script)'
       ],
       'patterns' => {},
       'index' => '3',
@@ -48836,8 +48832,8 @@ $Lexicon = {
       'form' => 'raqiy`',
       'lines' => [
         ';; raqiyE_1',
-        'rqyE    raqiyE  N/ap    doltish;shameless     [[raqiyE/ADJ]]',
-        '>rqE    >aroqiE Nap     doltish;shameless'
+        'raqiyE  N/ap    doltish;shameless     [[raqiyE/ADJ]]',
+        '>aroqiE Nap     doltish;shameless'
       ],
       'patterns' => {
         '\'arqi`' => [
@@ -48861,7 +48857,7 @@ $Lexicon = {
       'form' => 'raqA`aT',
       'lines' => [
         ';; raqAEap_1',
-        'rqAE    raqAE   Nap     stupidity;folly'
+        'raqAE   Nap     stupidity;folly'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48881,7 +48877,7 @@ $Lexicon = {
       'form' => 'raqqA`',
       'lines' => [
         ';; raq~AE_1',
-        'rqAE    raq~AE  N/ap    cobbler'
+        'raq~AE  N/ap    cobbler'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48900,7 +48896,7 @@ $Lexicon = {
       'form' => 'marqa`aT',
       'lines' => [
         ';; maroqaEap_1',
-        'mrqE    maroqaE Nap     tatters;rags'
+        'maroqaE Nap     tatters;rags'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48920,7 +48916,7 @@ $Lexicon = {
       'form' => 'marqa`iyy',
       'lines' => [
         ';; maroqaEiy~_1',
-        'mrqEy   maroqaEiy~      Nap     tatters;rags     [[maroqaEiy~/NOUN]]'
+        'maroqaEiy~      Nap     tatters;rags     [[maroqaEiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -48944,7 +48940,7 @@ $Lexicon = {
       'form' => 'tarqiy`',
       'lines' => [
         ';; taroqiyE_1',
-        'trqyE   taroqiyE        NduAt   patching;mending;transplantation'
+        'taroqiyE        NduAt   patching;mending;transplantation'
       ],
       'patterns' => {
         'tarqiy`' => [
@@ -48973,7 +48969,7 @@ $Lexicon = {
       'form' => 'muraqqa`At',
       'lines' => [
         ';; muraq~aEAt_1',
-        'mrqE    muraq~aE        NAt     fragments'
+        'muraq~aE        NAt     fragments'
       ],
       'patterns' => {
         'muraqqa`' => [
@@ -48998,7 +48994,7 @@ $Lexicon = {
       'form' => 'ruwbirt',
       'lines' => [
         ';; ruwbirot_1',
-        'rwbrt   ruwbirot        Nprop   Robert'
+        'ruwbirot        Nprop   Robert'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49017,7 +49013,7 @@ $Lexicon = {
       'form' => 'ruwbirt',
       'lines' => [
         ';; ruwbirot_2',
-        'rwbrt   ruwbirot        Nprop   Rupert'
+        'ruwbirot        Nprop   Rupert'
       ],
       'patterns' => {},
       'index' => '2',
@@ -49043,10 +49039,10 @@ $Lexicon = {
       'form' => 'ra.him',
       'lines' => [
         ';; raHim-a_1',
-        'rHm     raHim   PV      have mercy with',
-        'rHm     roHam   IV      have mercy with',
-        'rHm     raHim   PV_intr be merciful',
-        'rHm     roHam   IV_intr be merciful'
+        'raHim   PV      have mercy with',
+        'roHam   IV      have mercy with',
+        'raHim   PV_intr be merciful',
+        'roHam   IV_intr be merciful'
       ],
       'patterns' => {
         'r.ham' => [
@@ -49077,8 +49073,8 @@ $Lexicon = {
       'form' => 'ra.h.ham',
       'lines' => [
         ';; raH~am_1',
-        'rHm     raH~am  PV      plead for mercy',
-        'rHm     raH~im  IV_yu   plead for mercy'
+        'raH~am  PV      plead for mercy',
+        'raH~im  IV_yu   plead for mercy'
       ],
       'patterns' => {
         'ra.h.him' => [
@@ -49101,8 +49097,8 @@ $Lexicon = {
       'form' => 'tara.h.ham',
       'lines' => [
         ';; taraH~am_1',
-        'trHm    taraH~am        PV      plead for mercy',
-        'trHm    taraH~am        IV      plead for mercy'
+        'taraH~am        PV      plead for mercy',
+        'taraH~am        IV      plead for mercy'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49121,8 +49117,8 @@ $Lexicon = {
       'form' => 'tarA.ham',
       'lines' => [
         ';; tarAHam_1',
-        'trAHm   tarAHam PV_intr be merciful to each other',
-        'trAHm   tarAHam IV_intr be merciful to each other'
+        'tarAHam PV_intr be merciful to each other',
+        'tarAHam IV_intr be merciful to each other'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49144,9 +49140,9 @@ $Lexicon = {
       'entry' => 'istar.ham',
       'form' => 'istar.ham',
       'lines' => [
-        ';; {isotaroHam_1',
-        '<strHm  {isotaroHam     PV      ask to have mercy',
-        'strHm   sotaroHim       IV      ask to have mercy'
+        ';; AisotaroHam_1',
+        'AisotaroHam     PV      ask to have mercy',
+        'sotaroHim       IV      ask to have mercy'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49169,8 +49165,8 @@ $Lexicon = {
       'form' => 'ra.him',
       'lines' => [
         ';; raHim_1',
-        'rHm     raHim   N       uterus;womb',
-        '>rHAm   >aroHAm N       wombs'
+        'raHim   N       uterus;womb',
+        '>aroHAm N       wombs'
       ],
       'patterns' => {
         '\'ar.hAm' => [
@@ -49199,8 +49195,8 @@ $Lexicon = {
       'form' => 'ra.him',
       'lines' => [
         ';; raHim_2',
-        'rHm     raHim   N       kinship',
-        '>rHAm   >aroHAm N       kinships'
+        'raHim   N       kinship',
+        '>aroHAm N       kinships'
       ],
       'patterns' => {
         '\'ar.hAm' => [
@@ -49224,7 +49220,7 @@ $Lexicon = {
       'form' => 'ra.hmaT',
       'lines' => [
         ';; raHomap_1',
-        'rHm     raHom   Nap     compassion;mercy'
+        'raHom   Nap     compassion;mercy'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49244,7 +49240,7 @@ $Lexicon = {
       'form' => 'ra.huwm',
       'lines' => [
         ';; raHuwm_1',
-        'rHwm    raHuwm  N       compassionate'
+        'raHuwm  N       compassionate'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49263,7 +49259,7 @@ $Lexicon = {
       'form' => 'ra.hiym',
       'lines' => [
         ';; raHiym_1',
-        'rHym    raHiym  N0      Rahim'
+        'raHiym  N0      Rahim'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49288,10 +49284,10 @@ $Lexicon = {
       'form' => 'ra.hiym',
       'lines' => [
         ';; raHiym_2',
-        'rHym    raHiym  N/ap    compassionate     [[raHiym/ADJ]]',
-        'rHmA\'   ruHamA\' N0_Nh   compassionate',
-        'rHmA&   ruHamA& Nh      compassionate',
-        'rHmA}   ruHamA} Nhy     compassionate'
+        'raHiym  N/ap    compassionate     [[raHiym/ADJ]]',
+        'ruHamA\' N0_Nh   compassionate',
+        'ruHamA& Nh      compassionate',
+        'ruHamA} Nhy     compassionate'
       ],
       'patterns' => {
         'ru.hamA\'' => [
@@ -49318,8 +49314,8 @@ $Lexicon = {
       'form' => 'mar.hamaT',
       'lines' => [
         ';; maroHamap_1',
-        'mrHm    maroHam Nap     pity;compassion',
-        'mrAHm   marAHim Ndip    pity;compassion'
+        'maroHam Nap     pity;compassion',
+        'marAHim Ndip    pity;compassion'
       ],
       'patterns' => {
         'marA.him' => [
@@ -49350,8 +49346,8 @@ $Lexicon = {
       'form' => 'tar.hiym',
       'lines' => [
         ';; taroHiym_1',
-        'trHym   taroHiym        NduAt   intercessory prayer',
-        'trAHym  tarAHiym        Ndip    intercessory prayer'
+        'taroHiym        NduAt   intercessory prayer',
+        'tarAHiym        Ndip    intercessory prayer'
       ],
       'patterns' => {
         'tar.hiym' => [
@@ -49380,8 +49376,8 @@ $Lexicon = {
       'entry' => 'istir.hAm',
       'form' => 'istir.hAm',
       'lines' => [
-        ';; {isotiroHAm_1',
-        '<strHAm {isotiroHAm     N/At    plea for mercy'
+        ';; AisotiroHAm_1',
+        'AisotiroHAm     N/At    plea for mercy'
       ],
       'patterns' => {
         'istir.hAm' => [
@@ -49404,7 +49400,7 @@ $Lexicon = {
       'form' => 'mar.huwm',
       'lines' => [
         ';; maroHuwm_1',
-        'mrHwm   maroHuwm        Nall    deceased;late     [[maroHuwm/ADJ]]'
+        'maroHuwm        Nall    deceased;late     [[maroHuwm/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49430,8 +49426,8 @@ $Lexicon = {
       'form' => 'raba.d',
       'lines' => [
         ';; rabaD-i_1',
-        'rbD     rabaD   PV      lie down;lurk;be parked',
-        'rbD     robiD   IV      lie down;lurk;be parked'
+        'rabaD   PV      lie down;lurk;be parked',
+        'robiD   IV      lie down;lurk;be parked'
       ],
       'patterns' => {
         'rbi.d' => [
@@ -49463,8 +49459,8 @@ $Lexicon = {
       'form' => 'raba.d',
       'lines' => [
         ';; rabaD-i_2',
-        'rbD     rabaD   PV_intr be positioned;be stationed;lie at anchor',
-        'rbD     robiD   IV_intr be positioned;be stationed;lie at anchor'
+        'rabaD   PV_intr be positioned;be stationed;lie at anchor',
+        'robiD   IV_intr be positioned;be stationed;lie at anchor'
       ],
       'patterns' => {
         'rbi.d' => [
@@ -49496,8 +49492,8 @@ $Lexicon = {
       'form' => 'raba.d',
       'lines' => [
         ';; rabaD_1',
-        'rbD     rabaD   Ndu     suburb;resting place',
-        '>rbAD   >arobAD N       suburbs;resting places'
+        'rabaD   Ndu     suburb;resting place',
+        '>arobAD N       suburbs;resting places'
       ],
       'patterns' => {
         '\'arbA.d' => [
@@ -49527,8 +49523,8 @@ $Lexicon = {
       'form' => 'marbi.d',
       'lines' => [
         ';; marobiD_1',
-        'mrbD    marobiD Ndu     resting place;sheep pen',
-        'mrAbD   marAbiD Ndip    resting place;sheep pen'
+        'marobiD Ndu     resting place;sheep pen',
+        'marAbiD Ndip    resting place;sheep pen'
       ],
       'patterns' => {
         'marAbi.d' => [
@@ -49558,8 +49554,8 @@ $Lexicon = {
       'form' => 'razun',
       'lines' => [
         ';; razun-u_1',
-        'rzn     razun   PV-n_intr       be serious;be sedate',
-        'rzn     rozun   IV-n_intr       be serious;be sedate'
+        'razun   PV-n_intr       be serious;be sedate',
+        'rozun   IV-n_intr       be serious;be sedate'
       ],
       'patterns' => {
         'rzun' => [
@@ -49586,8 +49582,8 @@ $Lexicon = {
       'form' => 'tarazzan',
       'lines' => [
         ';; taraz~an_1',
-        'trzn    taraz~an        PV-n_intr       be serious;be sedate',
-        'trzn    taraz~an        IV-n_intr       be serious;be sedate'
+        'taraz~an        PV-n_intr       be serious;be sedate',
+        'taraz~an        IV-n_intr       be serious;be sedate'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49607,7 +49603,7 @@ $Lexicon = {
       'form' => 'raziyn',
       'lines' => [
         ';; raziyn_1',
-        'rzyn    raziyn  N/ap    serious;calm     [[raziyn/ADJ]]'
+        'raziyn  N/ap    serious;calm     [[raziyn/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49627,7 +49623,7 @@ $Lexicon = {
       'form' => 'razAnaT',
       'lines' => [
         ';; razAnap_1',
-        'rzAn    razAn   Nap     poise;gravity;composure'
+        'razAn   Nap     poise;gravity;composure'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49650,7 +49646,7 @@ $Lexicon = {
       'form' => 'mar^guwnaT',
       'lines' => [
         ';; marojuwnap_1',
-        'mrjwn   marojuwn        NapAt   basket'
+        'marojuwn        NapAt   basket'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49678,9 +49674,9 @@ $Lexicon = {
       'form' => 'ra_hum',
       'lines' => [
         ';; raxum-u_1',
-        'rxm     raxum   PV_intr be soft;be gentle',
-        'rxm     raxam   PV_intr be soft;be gentle',
-        'rxm     roxum   IV_intr be soft;be gentle'
+        'raxum   PV_intr be soft;be gentle',
+        'raxam   PV_intr be soft;be gentle',
+        'roxum   IV_intr be soft;be gentle'
       ],
       'patterns' => {
         'ra_ham' => [
@@ -49714,8 +49710,8 @@ $Lexicon = {
       'form' => 'ra_h_ham',
       'lines' => [
         ';; rax~am_1',
-        'rxm     rax~am  PV      soften;make mellow',
-        'rxm     rax~im  IV_yu   soften;make mellow'
+        'rax~am  PV      soften;make mellow',
+        'rax~im  IV_yu   soften;make mellow'
       ],
       'patterns' => {
         'ra_h_him' => [
@@ -49739,8 +49735,8 @@ $Lexicon = {
       'form' => 'ra_ham',
       'lines' => [
         ';; raxam_1',
-        'rxm     raxam   N       Egyptian vultures',
-        'rxm     raxam   Napdu   Egyptian vulture'
+        'raxam   N       Egyptian vultures',
+        'raxam   Napdu   Egyptian vulture'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49760,7 +49756,7 @@ $Lexicon = {
       'form' => 'ru_hAm',
       'lines' => [
         ';; ruxAm_1',
-        'rxAm    ruxAm   N       marble'
+        'ruxAm   N       marble'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49779,7 +49775,7 @@ $Lexicon = {
       'form' => 'ru_hAmiyy',
       'lines' => [
         ';; ruxAmiy~_1',
-        'rxAmy   ruxAmiy~        Nall    marble     [[ruxAmiy~/ADJ]]'
+        'ruxAmiy~        Nall    marble     [[ruxAmiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49798,7 +49794,7 @@ $Lexicon = {
       'form' => 'ru_hAmaT',
       'lines' => [
         ';; ruxAmap_1',
-        'rxAm    ruxAm   NapAt   marble slab'
+        'ruxAm   NapAt   marble slab'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49817,7 +49813,7 @@ $Lexicon = {
       'form' => 'ra_hiym',
       'lines' => [
         ';; raxiym_1',
-        'rxym    raxiym  N/ap    mellow;melodious     [[raxiym/ADJ]]'
+        'raxiym  N/ap    mellow;melodious     [[raxiym/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49841,7 +49837,7 @@ $Lexicon = {
       'form' => 'tar_hiym',
       'lines' => [
         ';; taroxiym_1',
-        'trxym   taroxiym        NduAt   shortening;apocopation'
+        'taroxiym        NduAt   shortening;apocopation'
       ],
       'patterns' => {
         'tar_hiym' => [
@@ -49871,8 +49867,8 @@ $Lexicon = {
       'form' => 'rada`',
       'lines' => [
         ';; radaE-a_1',
-        'rdE     radaE   PV      prevent;deter;repel',
-        'rdE     rodaE   IV      prevent;deter;repel'
+        'radaE   PV      prevent;deter;repel',
+        'rodaE   IV      prevent;deter;repel'
       ],
       'patterns' => {
         'rda`' => [
@@ -49903,9 +49899,9 @@ $Lexicon = {
       'entry' => 'irtada`',
       'form' => 'irtada`',
       'lines' => [
-        ';; {irotadaE_1',
-        '<rtdE   {irotadaE       PV_intr be prevented',
-        'rtdE    rotadiE IV_intr be prevented'
+        ';; AirotadaE_1',
+        'AirotadaE       PV_intr be prevented',
+        'rotadiE IV_intr be prevented'
       ],
       'patterns' => {
         'rtadi`' => [
@@ -49928,7 +49924,7 @@ $Lexicon = {
       'form' => 'rad`',
       'lines' => [
         ';; radoE_1',
-        'rdE     radoE   N       deterrence;repelling;inhibition'
+        'radoE   N       deterrence;repelling;inhibition'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49949,7 +49945,7 @@ $Lexicon = {
       'form' => 'rAdi`',
       'lines' => [
         ';; rAdiE_1',
-        'rAdE    rAdiE   Nall    deterring;repelling     [[rAdiE/ADJ]]'
+        'rAdiE   Nall    deterring;repelling     [[rAdiE/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -49973,8 +49969,8 @@ $Lexicon = {
       'form' => 'rAdi`',
       'lines' => [
         ';; rAdiE_2',
-        'rAdE    rAdiE   Ndu     deterrence;obstacle',
-        'rwAdE   rawAdiE Ndip    deterrences;obstacles;impediments'
+        'rAdiE   Ndu     deterrence;obstacle',
+        'rawAdiE Ndip    deterrences;obstacles;impediments'
       ],
       'patterns' => {
         'rawAdi`' => [
@@ -50010,9 +50006,9 @@ $Lexicon = {
       'form' => 'ra`af',
       'lines' => [
         ';; raEaf-ua_1',
-        'rEf     raEaf   PV      bleed',
-        'rEf     roEuf   IV      bleed',
-        'rEf     roEaf   IV      bleed'
+        'raEaf   PV      bleed',
+        'roEuf   IV      bleed',
+        'roEaf   IV      bleed'
       ],
       'patterns' => {
         'r`uf' => [
@@ -50046,8 +50042,8 @@ $Lexicon = {
       'form' => 'ra`if',
       'lines' => [
         ';; raEif-a_1',
-        'rEf     raEif   PV      bleed',
-        'rEf     roEaf   IV      bleed'
+        'raEif   PV      bleed',
+        'roEaf   IV      bleed'
       ],
       'patterns' => {
         'r`af' => [
@@ -50073,7 +50069,7 @@ $Lexicon = {
       'form' => 'ru`Af',
       'lines' => [
         ';; ruEAf_1',
-        'rEAf    ruEAf   N       nosebleed'
+        'ruEAf   N       nosebleed'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50092,7 +50088,7 @@ $Lexicon = {
       'form' => 'ra`iyf',
       'lines' => [
         ';; raEiyf_1',
-        'rEyf    raEiyf  N       nosebleed'
+        'raEiyf  N       nosebleed'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50111,7 +50107,7 @@ $Lexicon = {
       'form' => 'rA`if',
       'lines' => [
         ';; rAEif_1',
-        'rAEf    rAEif   N       tip of the nose'
+        'rAEif   N       tip of the nose'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50130,7 +50126,7 @@ $Lexicon = {
       'form' => 'mar`uwf',
       'lines' => [
         ';; maroEuwf_1',
-        'mrEwf   maroEuwf        Nall    having a bleeding nose'
+        'maroEuwf        Nall    having a bleeding nose'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50155,8 +50151,8 @@ $Lexicon = {
       'form' => 'ra.gud',
       'lines' => [
         ';; ragud-u_1',
-        'rgd     ragud   PV_intr be pleasant;be carefree',
-        'rgd     rogud   IV_intr be pleasant;be carefree'
+        'ragud   PV_intr be pleasant;be carefree',
+        'rogud   IV_intr be pleasant;be carefree'
       ],
       'patterns' => {
         'r.gud' => [
@@ -50187,8 +50183,8 @@ $Lexicon = {
       'form' => 'ra.gid',
       'lines' => [
         ';; ragid-a_1',
-        'rgd     ragid   PV_intr be pleasant;be carefree',
-        'rgd     rogad   IV_intr be pleasant;be carefree'
+        'ragid   PV_intr be pleasant;be carefree',
+        'rogad   IV_intr be pleasant;be carefree'
       ],
       'patterns' => {
         'r.gad' => [
@@ -50215,7 +50211,7 @@ $Lexicon = {
       'form' => 'ra.gd',
       'lines' => [
         ';; ragod_1',
-        'rgd     ragod   N/ap    pleasant;carefree'
+        'ragod   N/ap    pleasant;carefree'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50235,7 +50231,7 @@ $Lexicon = {
       'form' => 'ra.giyd',
       'lines' => [
         ';; ragiyd_1',
-        'rgyd    ragiyd  N/ap    pleasant;carefree     [[ragiyd/ADJ]]'
+        'ragiyd  N/ap    pleasant;carefree     [[ragiyd/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50255,7 +50251,7 @@ $Lexicon = {
       'form' => 'ra.gad',
       'lines' => [
         ';; ragad_1',
-        'rgd     ragad   N       comfort;affluence'
+        'ragad   N       comfort;affluence'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50275,7 +50271,7 @@ $Lexicon = {
       'form' => 'ra.gAdaT',
       'lines' => [
         ';; ragAdap_1',
-        'rgAd    ragAd   Nap     comfort;affluence'
+        'ragAd   Nap     comfort;affluence'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50295,7 +50291,7 @@ $Lexicon = {
       'form' => 'rA.gidaT',
       'lines' => [
         ';; rAgidap_1',
-        'rAgdp   rAgidap Nprop   Raghida'
+        'rAgidap Nprop   Raghida'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50320,8 +50316,8 @@ $Lexicon = {
       'form' => 'raqad',
       'lines' => [
         ';; raqad-u_1',
-        'rqd     raqad   PV      lie down;subside;abate',
-        'rqd     roqud   IV      lie down;subside;abate'
+        'raqad   PV      lie down;subside;abate',
+        'roqud   IV      lie down;subside;abate'
       ],
       'patterns' => {
         'rqud' => [
@@ -50353,8 +50349,8 @@ $Lexicon = {
       'form' => 'raqqad',
       'lines' => [
         ';; raq~ad_1',
-        'rqd     raq~ad  PV      make lie down;lay down',
-        'rqd     raq~id  IV_yu   make lie down;lay down'
+        'raq~ad  PV      make lie down;lay down',
+        'raq~id  IV_yu   make lie down;lay down'
       ],
       'patterns' => {
         'raqqid' => [
@@ -50385,9 +50381,9 @@ $Lexicon = {
       'form' => '\'arqad',
       'lines' => [
         ';; >aroqad_1',
-        '>rqd    >aroqad PV      put to sleep;make lie down',
-        'rqd     roqid   IV_yu   put to sleep;make lie down',
-        'rqd     roqad   IV_Pass_yu      be put to sleep;be laid down'
+        '>aroqad PV      put to sleep;make lie down',
+        'roqid   IV_yu   put to sleep;make lie down',
+        'roqad   IV_Pass_yu      be put to sleep;be laid down'
       ],
       'patterns' => {
         'rqad' => [
@@ -50416,7 +50412,7 @@ $Lexicon = {
       'form' => 'raqd',
       'lines' => [
         ';; raqod_1',
-        'rqd     raqod   N       subsiding;abatement;lying down'
+        'raqod   N       subsiding;abatement;lying down'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50437,7 +50433,7 @@ $Lexicon = {
       'form' => 'raqdaT',
       'lines' => [
         ';; raqodap_1',
-        'rqd     raqod   Nap     sleep;lying position'
+        'raqod   Nap     sleep;lying position'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50457,7 +50453,7 @@ $Lexicon = {
       'form' => 'ruqAd',
       'lines' => [
         ';; ruqAd_1',
-        'rqAd    ruqAd   N       sleep;recumbent position'
+        'ruqAd   N       sleep;recumbent position'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50477,7 +50473,7 @@ $Lexicon = {
       'form' => 'ruquwd',
       'lines' => [
         ';; ruquwd_1',
-        'rqwd    ruquwd  N       sleep;recumbent position'
+        'ruquwd  N       sleep;recumbent position'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50501,8 +50497,8 @@ $Lexicon = {
       'form' => 'rAquwd',
       'lines' => [
         ';; rAquwd_1',
-        'rAqwd   rAquwd  Ndu     large jug',
-        'rwAqyd  rawAqiyd        Ndip    large jugs'
+        'rAquwd  Ndu     large jug',
+        'rawAqiyd        Ndip    large jugs'
       ],
       'patterns' => {
         'rawAqiyd' => [
@@ -50530,8 +50526,8 @@ $Lexicon = {
       'form' => 'marqad',
       'lines' => [
         ';; maroqad_1',
-        'mrqd    maroqad Ndu     couch;mausoleum',
-        'mrAqd   marAqid Ndip    couches;mausoleums'
+        'maroqad Ndu     couch;mausoleum',
+        'marAqid Ndip    couches;mausoleums'
       ],
       'patterns' => {
         'marAqid' => [
@@ -50561,7 +50557,7 @@ $Lexicon = {
       'form' => 'tarqiyd',
       'lines' => [
         ';; taroqiyd_1',
-        'trqyd   taroqiyd        NduAt   layering;layerage;hatching'
+        'taroqiyd        NduAt   layering;layerage;hatching'
       ],
       'patterns' => {
         'tarqiyd' => [
@@ -50586,7 +50582,7 @@ $Lexicon = {
       'form' => 'tarqiydaT',
       'lines' => [
         ';; taroqiydap_1',
-        'trqyd   taroqiyd        NapAt   layer'
+        'taroqiyd        NapAt   layer'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50612,9 +50608,9 @@ $Lexicon = {
       'form' => 'rAqid',
       'lines' => [
         ';; rAqid_1',
-        'rAqd    rAqid   N/ap    asleep;reclining;resting     [[rAqid/ADJ]]',
-        'rqd     ruq~ad  N       asleep;reclining;resting',
-        'rqwd    ruquwd  N       asleep;reclining;resting'
+        'rAqid   N/ap    asleep;reclining;resting     [[rAqid/ADJ]]',
+        'ruq~ad  N       asleep;reclining;resting',
+        'ruquwd  N       asleep;reclining;resting'
       ],
       'patterns' => {
         'ruquwd' => [
@@ -50642,7 +50638,7 @@ $Lexicon = {
       'form' => 'muraqqid',
       'lines' => [
         ';; muraq~id_1',
-        'mrqd    muraq~id        Nall    somniferous;soporific'
+        'muraq~id        Nall    somniferous;soporific'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50753,7 +50749,7 @@ $Lexicon = {
       'form' => 'rubyAn',
       'lines' => [
         ';; ruboyAn_1',
-        'rbyAn   ruboyAn N       shrimps'
+        'ruboyAn N       shrimps'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50778,7 +50774,7 @@ $Lexicon = {
       'form' => 'raffA.s',
       'lines' => [
         ';; raf~AS_1',
-        'rfAS    raf~AS  N/At    steam launch;steamboat'
+        'raf~AS  N/At    steam launch;steamboat'
       ],
       'patterns' => {
         'raffA.s' => [
@@ -50856,8 +50852,8 @@ $Lexicon = {
       'form' => 'rawwal',
       'lines' => [
         ';; raw~al_1',
-        'rwl     raw~al  PV      drool;slobber',
-        'rwl     raw~il  IV_yu   drool;slobber'
+        'raw~al  PV      drool;slobber',
+        'raw~il  IV_yu   drool;slobber'
       ],
       'patterns' => {
         'rawwil' => [
@@ -50881,7 +50877,7 @@ $Lexicon = {
       'form' => 'ruwAl',
       'lines' => [
         ';; ruwAl_1',
-        'rwAl    ruwAl   N       slobber;drooling'
+        'ruwAl   N       slobber;drooling'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50901,7 +50897,7 @@ $Lexicon = {
       'form' => 'ruwayliyy',
       'lines' => [
         ';; ruwayoliy~_1',
-        'rwyly   ruwayoliy~      N0      Ruwaili'
+        'ruwayoliy~      N0      Ruwaili'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50920,7 +50916,7 @@ $Lexicon = {
       'form' => 'ruwl',
       'lines' => [
         ';; ruwl_1',
-        'rwl     ruwl    N       role'
+        'ruwl    N       role'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50939,7 +50935,7 @@ $Lexicon = {
       'form' => 'ruwlAn',
       'lines' => [
         ';; ruwlAn_1',
-        'rwlAn   ruwlAn  Nprop   Roland'
+        'ruwlAn  Nprop   Roland'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50960,7 +50956,7 @@ $Lexicon = {
       'form' => 'rif`at',
       'lines' => [
         ';; rifoEat_1',
-        'rfEt    rifoEat Nprop   Rifa\'at;Rif\'at'
+        'rifoEat Nprop   Rifa\'at;Rif\'at'
       ],
       'patterns' => {},
       'index' => '1',
@@ -50982,7 +50978,7 @@ $Lexicon = {
       'form' => 'rAfiyA',
       'lines' => [
         ';; rAfiyA_1',
-        'rAfyA   rAfiyA  N0      raffia;raffia palm'
+        'rAfiyA  N0      raffia;raffia palm'
       ],
       'patterns' => {},
       'index' => '1',
@@ -51017,11 +51013,11 @@ $Lexicon = {
       'form' => 'radiy',
       'lines' => [
         ';; radiy-a_1',
-        'rdy     radiy   PV_no-w perish',
-        'rd      rad     PV_w    perish',
-        'rdY     rodaY   IV_0    perish',
-        'rdy     roday   IV_Ann  perish',
-        'rd      roda    IV_0hwnyn       perish'
+        'radiy   PV_no-w perish',
+        'rad     PV_w    perish',
+        'rodaY   IV_0    perish',
+        'roday   IV_Ann  perish',
+        'roda    IV_0hwnyn       perish'
       ],
       'patterns' => {
         'rdY' => [
@@ -51068,14 +51064,14 @@ $Lexicon = {
       'form' => 'raddY',
       'lines' => [
         ';; rad~aY_1',
-        'rdY     rad~aY  PV_0    make fall;annihilate',
-        'rdA     rad~A   PV_h    make fall;annihilate',
-        'rdy     rad~ay  PV_Atn  make fall;annihilate',
-        'rd      rad~    PV_ttAw make fall;annihilate',
-        'rdy     rad~iy  IV_0hAnn_yu     make fall;annihilate',
-        'rd      rad~    IV_0hwnyn_yu    make fall;annihilate',
-        'rdY     rad~aY  IV_0_Pass_yu    be struck down;be annihilated',
-        'rdy     rad~ay  IV_Ann_Pass_yu  be struck down;be annihilated'
+        'rad~aY  PV_0    make fall;annihilate',
+        'rad~A   PV_h    make fall;annihilate',
+        'rad~ay  PV_Atn  make fall;annihilate',
+        'rad~    PV_ttAw make fall;annihilate',
+        'rad~iy  IV_0hAnn_yu     make fall;annihilate',
+        'rad~    IV_0hwnyn_yu    make fall;annihilate',
+        'rad~aY  IV_0_Pass_yu    be struck down;be annihilated',
+        'rad~ay  IV_Ann_Pass_yu  be struck down;be annihilated'
       ],
       'patterns' => {
         'radday' => [
@@ -51126,14 +51122,14 @@ $Lexicon = {
       'form' => '\'ardY',
       'lines' => [
         ';; >arodaY_1',
-        '>rdY    >arodaY PV_0    kill;smite',
-        '>rdA    >arodA  PV_h    kill;smite',
-        '>rdy    >aroday PV_Atn  kill;smite',
-        '>rd     >arod   PV_ttAw kill;smite',
-        'rdy     rodiy   IV_0hAnn_yu     kill;smite',
-        'rd      rod     IV_0hwnyn_yu    kill;smite',
-        'rdY     rodaY   IV_0_Pass_yu    be killed',
-        'rdy     roday   IV_Ann_Pass_yu  be killed'
+        '>arodaY PV_0    kill;smite',
+        '>arodA  PV_h    kill;smite',
+        '>aroday PV_Atn  kill;smite',
+        '>arod   PV_ttAw kill;smite',
+        'rodiy   IV_0hAnn_yu     kill;smite',
+        'rod     IV_0hwnyn_yu    kill;smite',
+        'rodaY   IV_0_Pass_yu    be killed',
+        'roday   IV_Ann_Pass_yu  be killed'
       ],
       'patterns' => {
         '\'arday' => [
@@ -51176,12 +51172,12 @@ $Lexicon = {
       'form' => 'taraddY',
       'lines' => [
         ';; tarad~aY_1',
-        'trdY    tarad~aY        PV_0    decline;deteriorate',
-        'trdy    tarad~ay        PV_Atn  decline;deteriorate',
-        'trd     tarad~  PV_ttAw decline;deteriorate',
-        'trdY    tarad~aY        IV_0    decline;deteriorate',
-        'trdy    tarad~ay        IV_Ann  decline;deteriorate',
-        'trd     tarad~  IV_0hwnyn       decline;deteriorate'
+        'tarad~aY        PV_0    decline;deteriorate',
+        'tarad~ay        PV_Atn  decline;deteriorate',
+        'tarad~  PV_ttAw decline;deteriorate',
+        'tarad~aY        IV_0    decline;deteriorate',
+        'tarad~ay        IV_Ann  decline;deteriorate',
+        'tarad~  IV_0hwnyn       decline;deteriorate'
       ],
       'patterns' => {
         'taradday' => [
@@ -51223,14 +51219,14 @@ $Lexicon = {
       'entry' => 'irtadY',
       'form' => 'irtadY',
       'lines' => [
-        ';; {irotadaY_1',
-        '<rtdY   {irotadaY       PV_0    wear;put on',
-        '<rtdA   {irotadA        PV_h    wear;put on',
-        '<rtdy   {irotaday       PV_Atn  wear;put on',
-        '<rtd    {irotad PV_ttAw wear;put on',
-        'rtdy    rotadiy IV_0hAnn        wear;put on',
-        'rtd     rotad   IV_0hwnyn       wear;put on',
-        'rtdY    rotadaY IV_0    wear;put on'
+        ';; AirotadaY_1',
+        'AirotadaY       PV_0    wear;put on',
+        'AirotadA        PV_h    wear;put on',
+        'Airotaday       PV_Atn  wear;put on',
+        'Airotad PV_ttAw wear;put on',
+        'rotadiy IV_0hAnn        wear;put on',
+        'rotad   IV_0hwnyn       wear;put on',
+        'rotadaY IV_0    wear;put on'
       ],
       'patterns' => {
         'rtadiy' => [
@@ -51264,8 +51260,8 @@ $Lexicon = {
       'form' => 'radY',
       'lines' => [
         ';; radaY_1',
-        'rdY     radaY   N0      destruction;ruin;perdition',
-        'rdA     radA    Nhy     destruction;ruin;perdition'
+        'radaY   N0      destruction;ruin;perdition',
+        'radA    Nhy     destruction;ruin;perdition'
       ],
       'patterns' => {
         'radA' => [
@@ -51333,11 +51329,11 @@ $Lexicon = {
       'form' => 'mutaraddiy',
       'lines' => [
         ';; mutarad~iy_1',
-        'mtrdy   mutarad~iy      N0F_Nh  deteriorating;worsened',
-        'mtrd    mutarad~        NK      deteriorating;worsened',
-        'mtrdy   mutarad~iy      NAn_Nayn        deteriorating;worsened',
-        'mtrd    mutarad~        Nuwn_Niyn       deteriorating;worsened',
-        'mtrdy   mutarad~iy      NapAt   deteriorating;worsened'
+        'mutarad~iy      N0F_Nh  deteriorating;worsened',
+        'mutarad~        NK      deteriorating;worsened',
+        'mutarad~iy      NAn_Nayn        deteriorating;worsened',
+        'mutarad~        Nuwn_Niyn       deteriorating;worsened',
+        'mutarad~iy      NapAt   deteriorating;worsened'
       ],
       'patterns' => {
         'mutaradd' => [],
@@ -51382,8 +51378,8 @@ $Lexicon = {
       'form' => 'ruwmA',
       'lines' => [
         ';; ruwmA_1',
-        'rwmA    ruwmA   N0      Rome',
-        'rwm     ruwm    Nap     Rome'
+        'ruwmA   N0      Rome',
+        'ruwm    Nap     Rome'
       ],
       'patterns' => {},
       'index' => '1',
@@ -51408,8 +51404,8 @@ $Lexicon = {
       'form' => 'rahan',
       'lines' => [
         ';; rahan-a_1',
-        'rhn     rahan   PV-n    mortgage;pawn',
-        'rhn     rohan   IV-n    mortgage;pawn'
+        'rahan   PV-n    mortgage;pawn',
+        'rohan   IV-n    mortgage;pawn'
       ],
       'patterns' => {
         'rhan' => [
@@ -51440,8 +51436,8 @@ $Lexicon = {
       'form' => 'rAhan',
       'lines' => [
         ';; rAhan_1',
-        'rAhn    rAhan   PV-n    wager;bet',
-        'rAhn    rAhin   IV-n_yu wager;bet'
+        'rAhan   PV-n    wager;bet',
+        'rAhin   IV-n_yu wager;bet'
       ],
       'patterns' => {
         'rAhin' => [
@@ -51472,9 +51468,9 @@ $Lexicon = {
       'form' => '\'arhan',
       'lines' => [
         ';; >arohan_1',
-        '>rhn    >arohan PV-n    deposit in pledge;give as a security',
-        'rhn     rohin   IV-n_yu deposit in pledge;give as a security',
-        'rhn     rohan   IV-n_Pass_yu    be deposited in pledge;be given as a security'
+        '>arohan PV-n    deposit in pledge;give as a security',
+        'rohin   IV-n_yu deposit in pledge;give as a security',
+        'rohan   IV-n_Pass_yu    be deposited in pledge;be given as a security'
       ],
       'patterns' => {
         'rhin' => [
@@ -51506,9 +51502,9 @@ $Lexicon = {
       'entry' => 'irtahan',
       'form' => 'irtahan',
       'lines' => [
-        ';; {irotahan_1',
-        '<rthn   {irotahan       PV-n    deposit in pledge;give as a security',
-        'rthn    rotahin IV-n    deposit in pledge;give as a security'
+        ';; Airotahan_1',
+        'Airotahan       PV-n    deposit in pledge;give as a security',
+        'rotahin IV-n    deposit in pledge;give as a security'
       ],
       'patterns' => {
         'rtahin' => [
@@ -51535,9 +51531,9 @@ $Lexicon = {
       'entry' => 'istarhan',
       'form' => 'istarhan',
       'lines' => [
-        ';; {isotarohan_1',
-        '<strhn  {isotarohan     PV-n    demand as a security',
-        'strhn   sotarohin       IV-n    demand as a security'
+        ';; Aisotarohan_1',
+        'Aisotarohan     PV-n    demand as a security',
+        'sotarohin       IV-n    demand as a security'
       ],
       'patterns' => {},
       'index' => '1',
@@ -51556,7 +51552,7 @@ $Lexicon = {
       'form' => 'rahn',
       'lines' => [
         ';; rahon_1',
-        'rhn     rahon   N       mortgaging;pawning;pledging'
+        'rahon   N       mortgaging;pawning;pledging'
       ],
       'patterns' => {},
       'index' => '1',
@@ -51581,8 +51577,8 @@ $Lexicon = {
       'form' => 'rahn',
       'lines' => [
         ';; rahon_2',
-        'rhn     rahon   Ndu     mortgage;security',
-        'rhwn    ruhuwn  N/At    mortgages;securities'
+        'rahon   Ndu     mortgage;security',
+        'ruhuwn  N/At    mortgages;securities'
       ],
       'patterns' => {
         'ruhuwn' => [
@@ -51608,7 +51604,7 @@ $Lexicon = {
       'form' => 'rahna',
       'lines' => [
         ';; rahona_1',
-        'rhn     rahona  FW-Wa   subject to;depending on;conditional on     [[rahona/PREP]]'
+        'rahona  FW-Wa   subject to;depending on;conditional on     [[rahona/PREP]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -51629,7 +51625,7 @@ $Lexicon = {
       'form' => 'rahniyyaT',
       'lines' => [
         ';; rahoniy~ap_1',
-        'rhny    rahoniy~        Nap     mortgage (deed)     [[rahoniy~/NOUN]]'
+        'rahoniy~        Nap     mortgage (deed)     [[rahoniy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -51648,8 +51644,8 @@ $Lexicon = {
       'form' => 'rahiyn',
       'lines' => [
         ';; rahiyn_1',
-        'rhyn    rahiyn  Nall    mortgaged;security',
-        'rhyn    rahiyn  Napdu   mortgage'
+        'rahiyn  Nall    mortgaged;security',
+        'rahiyn  Napdu   mortgage'
       ],
       'patterns' => {},
       'index' => '1',
@@ -51670,7 +51666,7 @@ $Lexicon = {
       'form' => 'rahiyna',
       'lines' => [
         ';; rahiyna_1',
-        'rhyn    rahiyna FW-Wa   subject to;depending on     [[rahiyna/PREP]]'
+        'rahiyna FW-Wa   subject to;depending on     [[rahiyna/PREP]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -51694,8 +51690,8 @@ $Lexicon = {
       'form' => 'rahiynaT',
       'lines' => [
         ';; rahiynap_1',
-        'rhyn    rahiyn  Napdu   hostage',
-        'rhA}n   rahA}in Ndip    hostages'
+        'rahiyn  Napdu   hostage',
+        'rahA}in Ndip    hostages'
       ],
       'patterns' => {
         'rahA\'in' => [
@@ -51723,8 +51719,8 @@ $Lexicon = {
       'form' => 'rihAn',
       'lines' => [
         ';; rihAn_1',
-        'rhAn    rihAn   N       wager;contest',
-        'mrAhn   murAhan NapAt   wager;betting'
+        'rihAn   N       wager;contest',
+        'murAhan NapAt   wager;betting'
       ],
       'patterns' => {
         'murAhan' => [
@@ -51749,7 +51745,7 @@ $Lexicon = {
       'form' => 'rAhin',
       'lines' => [
         ';; rAhin_1',
-        'rAhn    rAhin   N-ap    present;current     [[rAhin/ADJ]]'
+        'rAhin   N-ap    present;current     [[rAhin/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -51769,7 +51765,7 @@ $Lexicon = {
       'form' => 'rAhin',
       'lines' => [
         ';; rAhin_2',
-        'rAhn    rAhin   Nall    mortgagor;pledger'
+        'rAhin   Nall    mortgagor;pledger'
       ],
       'patterns' => {},
       'index' => '2',
@@ -51789,7 +51785,7 @@ $Lexicon = {
       'form' => 'marhuwn',
       'lines' => [
         ';; marohuwn_1',
-        'mrhwn   marohuwn        N-ap    pawned;pledged;mortgaged     [[marohuwn/ADJ]]'
+        'marohuwn        N-ap    pawned;pledged;mortgaged     [[marohuwn/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -51810,7 +51806,7 @@ $Lexicon = {
       'form' => 'murtahin',
       'lines' => [
         ';; murotahin_1',
-        'mrthn   murotahin       Nall    pawnbroker;pledgee'
+        'murotahin       Nall    pawnbroker;pledgee'
       ],
       'patterns' => {},
       'index' => '1',
@@ -51840,10 +51836,10 @@ $Lexicon = {
       'form' => 'rAq',
       'lines' => [
         ';; rAq-u_1',
-        'rAq     rAq     PV_V    please;be pure;surpass',
-        'rq      ruq     PV_C    please;be pure;surpass',
-        'rwq     ruwq    IV_V    please;be pure;surpass',
-        'rq      ruq     IV_C    please;be pure;surpass'
+        'rAq     PV_V    please;be pure;surpass',
+        'ruq     PV_C    please;be pure;surpass',
+        'ruwq    IV_V    please;be pure;surpass',
+        'ruq     IV_C    please;be pure;surpass'
       ],
       'patterns' => {
         'ruwq' => [
@@ -51878,8 +51874,8 @@ $Lexicon = {
       'form' => 'rawwaq',
       'lines' => [
         ';; raw~aq_1',
-        'rwq     raw~aq  PV      clarify;purify;filter',
-        'rwq     raw~iq  IV_yu   clarify;purify;filter'
+        'raw~aq  PV      clarify;purify;filter',
+        'raw~iq  IV_yu   clarify;purify;filter'
       ],
       'patterns' => {
         'rawwiq' => [
@@ -51920,12 +51916,12 @@ $Lexicon = {
       'form' => '\'arAq',
       'lines' => [
         ';; >arAq_1',
-        '>rAq    >arAq   PV_V    pour;spill',
-        '>rq     >araq   PV_C    pour;spill',
-        'ryq     riyq    IV_V_yu pour;spill',
-        'rq      riq     IV_C_yu pour;spill',
-        'rAq     rAq     IV_V_Pass_yu    be poured;be spilled',
-        'rq      raq     IV_C_Pass_yu    be poured;be spilled'
+        '>arAq   PV_V    pour;spill',
+        '>araq   PV_C    pour;spill',
+        'riyq    IV_V_yu pour;spill',
+        'riq     IV_C_yu pour;spill',
+        'rAq     IV_V_Pass_yu    be poured;be spilled',
+        'raq     IV_C_Pass_yu    be poured;be spilled'
       ],
       'patterns' => {
         '\'araq' => [
@@ -51963,8 +51959,8 @@ $Lexicon = {
       'form' => 'tarawwaq',
       'lines' => [
         ';; taraw~aq_1',
-        'trwq    taraw~aq        PV      have breakfast',
-        'trwq    taraw~aq        IV      have breakfast'
+        'taraw~aq        PV      have breakfast',
+        'taraw~aq        IV      have breakfast'
       ],
       'patterns' => {},
       'index' => '1',
@@ -51987,7 +51983,7 @@ $Lexicon = {
       'form' => 'rAq',
       'lines' => [
         ';; rAq_1',
-        'rAq     rAq     N/At    layer;stratum'
+        'rAq     N/At    layer;stratum'
       ],
       'patterns' => {
         'rAq' => [
@@ -52011,7 +52007,7 @@ $Lexicon = {
       'form' => 'rawq',
       'lines' => [
         ';; rawoq_1',
-        'rwq     rawoq   N       portico;horn'
+        'rawoq   N       portico;horn'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52031,7 +52027,7 @@ $Lexicon = {
       'form' => 'ruwqaT',
       'lines' => [
         ';; ruwqap_1',
-        'rwq     ruwq    Nap     beautiful;handsome'
+        'ruwq    Nap     beautiful;handsome'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52051,7 +52047,7 @@ $Lexicon = {
       'form' => '\'irAqaT',
       'lines' => [
         ';; <irAqap_1',
-        '<rAq    <irAq   NapAt   pouring out;shedding;spilling'
+        '<irAq   NapAt   pouring out;shedding;spilling'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52086,7 +52082,7 @@ $Lexicon = {
       'form' => '\'arwAq',
       'lines' => [
         ';; >arowAq_1',
-        '>rwAq   >arowAq N       porticos;horns'
+        '>arowAq N       porticos;horns'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52110,8 +52106,8 @@ $Lexicon = {
       'form' => 'riwAq',
       'lines' => [
         ';; riwAq_1',
-        'rwAq    riwAq   N       halls;porticos',
-        '>rwq    >arowiq Nap     halls;porticos'
+        'riwAq   N       halls;porticos',
+        '>arowiq Nap     halls;porticos'
       ],
       'patterns' => {
         '\'arwiq' => [
@@ -52135,7 +52131,7 @@ $Lexicon = {
       'form' => 'riwAqiyy',
       'lines' => [
         ';; riwAqiy~_1',
-        'rwAqy   riwAqiy~        Nall    stoic;friar     [[riwAqiy~/ADJ]]'
+        'riwAqiy~        Nall    stoic;friar     [[riwAqiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52155,7 +52151,7 @@ $Lexicon = {
       'form' => 'riwAqiyyaT',
       'lines' => [
         ';; riwAqiy~ap_1',
-        'rwAqy   riwAqiy~        Nap     stoicism     [[riwAqiy~/NOUN]]'
+        'riwAqiy~        Nap     stoicism     [[riwAqiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52174,7 +52170,7 @@ $Lexicon = {
       'form' => 'rAwuwq',
       'lines' => [
         ';; rAwuwq_1',
-        'rAwwq   rAwuwq  Ndu     filter'
+        'rAwuwq  Ndu     filter'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52197,7 +52193,7 @@ $Lexicon = {
       'form' => 'tarwiyq',
       'lines' => [
         ';; tarowiyq_1',
-        'trwyq   tarowiyq        NduAt   filtration;purification'
+        'tarowiyq        NduAt   filtration;purification'
       ],
       'patterns' => {
         'tarwiyq' => [
@@ -52221,7 +52217,7 @@ $Lexicon = {
       'form' => 'tarwiyqaT',
       'lines' => [
         ';; tarowiyqap_1',
-        'trwyq   tarowiyq        Nap     breakfast'
+        'tarowiyq        Nap     breakfast'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52246,8 +52242,8 @@ $Lexicon = {
       'form' => 'ramid',
       'lines' => [
         ';; ramid-a_1',
-        'rmd     ramid   PV      have sore eyes;be inflamed',
-        'rmd     romad   IV      have sore eyes;be inflamed'
+        'ramid   PV      have sore eyes;be inflamed',
+        'romad   IV      have sore eyes;be inflamed'
       ],
       'patterns' => {
         'rmad' => [
@@ -52278,8 +52274,8 @@ $Lexicon = {
       'form' => 'rammad',
       'lines' => [
         ';; ram~ad_1',
-        'rmd     ram~ad  PV      incinerate;cremate',
-        'rmd     ram~id  IV_yu   incinerate;cremate'
+        'ram~ad  PV      incinerate;cremate',
+        'ram~id  IV_yu   incinerate;cremate'
       ],
       'patterns' => {
         'rammid' => [
@@ -52303,8 +52299,8 @@ $Lexicon = {
       'form' => 'tarammad',
       'lines' => [
         ';; taram~ad_1',
-        'trmd    taram~ad        PV_intr be incinerated;be cremated',
-        'trmd    taram~ad        IV_intr be incinerated;be cremated'
+        'taram~ad        PV_intr be incinerated;be cremated',
+        'taram~ad        IV_intr be incinerated;be cremated'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52324,7 +52320,7 @@ $Lexicon = {
       'form' => 'ramad',
       'lines' => [
         ';; ramad_1',
-        'rmd     ramad   N       ophthalmia;eye inflammation'
+        'ramad   N       ophthalmia;eye inflammation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52344,7 +52340,7 @@ $Lexicon = {
       'form' => 'ramadiyy',
       'lines' => [
         ';; ramadiy~_1',
-        'rmdy    ramadiy~        Nall    ocular;ophthalmologist     [[ramadiy~/ADJ]]'
+        'ramadiy~        Nall    ocular;ophthalmologist     [[ramadiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52368,8 +52364,8 @@ $Lexicon = {
       'form' => 'ramid',
       'lines' => [
         ';; ramid_1',
-        'rmd     ramid   Nall    sore-eyed     [[ramid/ADJ]]',
-        '>rmd    >aromad Nel     sore-eyed'
+        'ramid   Nall    sore-eyed     [[ramid/ADJ]]',
+        '>aromad Nel     sore-eyed'
       ],
       'patterns' => {
         '\'armad' => [
@@ -52396,8 +52392,8 @@ $Lexicon = {
       'form' => 'ramAd',
       'lines' => [
         ';; ramAd_1',
-        'rmAd    ramAd   N       ashes',
-        '>rmd    >aromid Nap     ashes'
+        'ramAd   N       ashes',
+        '>aromid Nap     ashes'
       ],
       'patterns' => {
         '\'armid' => [
@@ -52420,7 +52416,7 @@ $Lexicon = {
       'form' => 'ramAdiyy',
       'lines' => [
         ';; ramAdiy~_1',
-        'rmAdy   ramAdiy~        Nall    ashen;ash-colored;gray;taupe     [[ramAdiy~/ADJ]]'
+        'ramAdiy~        Nall    ashen;ash-colored;gray;taupe     [[ramAdiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52446,7 +52442,7 @@ $Lexicon = {
       'form' => 'tarmiyd',
       'lines' => [
         ';; taromiyd_1',
-        'trmyd   taromiyd        NduAt   cremation;incineration'
+        'taromiyd        NduAt   cremation;incineration'
       ],
       'patterns' => {
         'tarmiyd' => [
@@ -52472,7 +52468,7 @@ $Lexicon = {
       'form' => 'ribA',
       'lines' => [
         ';; ribA_1',
-        'rbA     ribA    N0_Nh   interest;usury'
+        'ribA    N0_Nh   interest;usury'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52494,7 +52490,7 @@ $Lexicon = {
       'form' => 'rAbAyiyt^s',
       'lines' => [
         ';; rAbAyiyt$_1',
-        'rAbAyyt$        rAbAyiyt$       Nprop   Rapaic'
+        'rAbAyiyt$       Nprop   Rapaic'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52515,7 +52511,7 @@ $Lexicon = {
       'form' => 'ruwziyt^s',
       'lines' => [
         ';; ruwziyt$_1',
-        'rwzyt$  ruwziyt$        Nprop   Rosic'
+        'ruwziyt$        Nprop   Rosic'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52536,7 +52532,7 @@ $Lexicon = {
       'form' => 'ruw.guwziyn',
       'lines' => [
         ';; ruwguwziyn_1',
-        'rwgwzyn ruwguwziyn      Nprop   Rogozin'
+        'ruwguwziyn      Nprop   Rogozin'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52569,13 +52565,13 @@ $Lexicon = {
       'form' => 'raba\'',
       'lines' => [
         ';; raba>-a_1',
-        'rb>     raba>   PV->    esteem highly',
-        'rb|     raba|   PV-|    esteem highly',
-        'rb&     raba&   PV_w    esteem highly',
-        'rb>     roba>   IV      esteem highly',
-        'rb|     roba|   IV-|    esteem highly',
-        'rb&     roba&   IV_wn   esteem highly',
-        'rb}     roba}   IV_yn   esteem highly'
+        'raba>   PV->    esteem highly',
+        'raba|   PV-|    esteem highly',
+        'raba&   PV_w    esteem highly',
+        'roba>   IV      esteem highly',
+        'roba|   IV-|    esteem highly',
+        'roba&   IV_wn   esteem highly',
+        'roba}   IV_yn   esteem highly'
       ],
       'patterns' => {
         'rba\'' => [
@@ -52601,7 +52597,7 @@ $Lexicon = {
       'form' => 'rabiy\'aT',
       'lines' => [
         ';; rabiy}ap_1',
-        'rby}    rabiy}  Napdu   guard'
+        'rabiy}  Napdu   guard'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52636,7 +52632,7 @@ $Lexicon = {
       'form' => 'ruwyAl',
       'lines' => [
         ';; ruwyAl_1',
-        'rwyAl   ruwyAl  Nprop   Royal'
+        'ruwyAl  Nprop   Royal'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52675,7 +52671,7 @@ $Lexicon = {
       'form' => 'riyAl',
       'lines' => [
         ';; riyAl_1',
-        'ryAl    riyAl   NduAt   riyal'
+        'riyAl   NduAt   riyal'
       ],
       'patterns' => {
         'riyAl' => [
@@ -52706,10 +52702,10 @@ $Lexicon = {
       'form' => 'rAl',
       'lines' => [
         ';; rAl-i_1',
-        'rAl     rAl     PV_V    drool;slobber',
-        'rl      ril     PV_C    drool;slobber',
-        'ryl     riyl    IV_V    drool;slobber',
-        'rl      ril     IV_C    drool;slobber'
+        'rAl     PV_V    drool;slobber',
+        'ril     PV_C    drool;slobber',
+        'riyl    IV_V    drool;slobber',
+        'ril     IV_C    drool;slobber'
       ],
       'patterns' => {
         'ril' => [
@@ -52743,8 +52739,8 @@ $Lexicon = {
       'form' => 'rayyal',
       'lines' => [
         ';; ray~al_1',
-        'ryl     ray~al  PV      drool;slobber',
-        'ryl     ray~il  IV_yu   drool;slobber'
+        'ray~al  PV      drool;slobber',
+        'ray~il  IV_yu   drool;slobber'
       ],
       'patterns' => {
         'rayyil' => [
@@ -52768,7 +52764,7 @@ $Lexicon = {
       'form' => 'maryalaT',
       'lines' => [
         ';; maroyalap_1',
-        'mryl    maroyal Nap     string apron'
+        'maroyal Nap     string apron'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52791,8 +52787,8 @@ $Lexicon = {
       'form' => 'maryuwl',
       'lines' => [
         ';; maroyuwl_1',
-        'mrywl   maroyuwl        N       bib;apron',
-        'mrAyyl  marAyiyl        Ndip    bibs;aprons'
+        'maroyuwl        N       bib;apron',
+        'marAyiyl        Ndip    bibs;aprons'
       ],
       'patterns' => {
         'marAyiyl' => [
@@ -52827,10 +52823,10 @@ $Lexicon = {
       'form' => 'rattab',
       'lines' => [
         ';; rat~ab_1',
-        'rtb     rat~ab  PV      arrange;organize;regulate',
-        'rtb     rat~ib  IV_yu   arrange;organize;regulate',
-        'rtb     rut~ib  PV_Pass be arranged;be organized;be regulated',
-        'rtb     rat~ab  IV_Pass_yu      be arranged;be organized;be regulated'
+        'rat~ab  PV      arrange;organize;regulate',
+        'rat~ib  IV_yu   arrange;organize;regulate',
+        'rut~ib  PV_Pass be arranged;be organized;be regulated',
+        'rat~ab  IV_Pass_yu      be arranged;be organized;be regulated'
       ],
       'patterns' => {
         'rattib' => [
@@ -52861,8 +52857,8 @@ $Lexicon = {
       'form' => 'tarattab',
       'lines' => [
         ';; tarat~ab_1',
-        'trtb    tarat~ab        PV_intr be arranged;be organized;be regulated',
-        'trtb    tarat~ab        IV_intr be arranged;be organized;be regulated'
+        'tarat~ab        PV_intr be arranged;be organized;be regulated',
+        'tarat~ab        IV_intr be arranged;be organized;be regulated'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52887,8 +52883,8 @@ $Lexicon = {
       'form' => 'rutbaT',
       'lines' => [
         ';; rutobap_1',
-        'rtb     rutob   Napdu   level;degree;rank',
-        'rtb     rutab   N       levels;degrees;ranks'
+        'rutob   Napdu   level;degree;rank',
+        'rutab   N       levels;degrees;ranks'
       ],
       'patterns' => {
         'rutab' => [
@@ -52916,7 +52912,7 @@ $Lexicon = {
       'form' => 'ratAbaT',
       'lines' => [
         ';; ratAbap_1',
-        'rtAb    ratAb   Nap     monotony'
+        'ratAb   Nap     monotony'
       ],
       'patterns' => {},
       'index' => '1',
@@ -52939,8 +52935,8 @@ $Lexicon = {
       'form' => 'ratiyb',
       'lines' => [
         ';; ratiyb_1',
-        'rtyb    ratiyb  N/ap    monotonous     [[ratiyb/ADJ]]',
-        'rtbA\'   rutabA\' N0_Nh   monotonous'
+        'ratiyb  N/ap    monotonous     [[ratiyb/ADJ]]',
+        'rutabA\' N0_Nh   monotonous'
       ],
       'patterns' => {
         'rutabA\'' => [
@@ -52969,10 +52965,10 @@ $Lexicon = {
       'form' => 'ratiyb',
       'lines' => [
         ';; ratiyb_2',
-        'rtyb    ratiyb  N/ap    noncommissioned officer',
-        'rtbA\'   rutabA\' N0_Nh   noncommissioned officers',
-        'rtbA&   rutabA& Nh      noncommissioned officers',
-        'rtbA}   rutabA} Nhy     noncommissioned officers'
+        'ratiyb  N/ap    noncommissioned officer',
+        'rutabA\' N0_Nh   noncommissioned officers',
+        'rutabA& Nh      noncommissioned officers',
+        'rutabA} Nhy     noncommissioned officers'
       ],
       'patterns' => {
         'rutabA\'' => [
@@ -53000,8 +52996,8 @@ $Lexicon = {
       'form' => 'martabaT',
       'lines' => [
         ';; marotabap_1',
-        'mrtb    marotab Napdu   level;degree;rank;class',
-        'mrAtb   marAtib Ndip    levels;degrees;ranks;classes'
+        'marotab Napdu   level;degree;rank;class',
+        'marAtib Ndip    levels;degrees;ranks;classes'
       ],
       'patterns' => {
         'marAtib' => [
@@ -53035,8 +53031,8 @@ $Lexicon = {
       'form' => 'tartiyb',
       'lines' => [
         ';; tarotiyb_1',
-        'trtyb   tarotiyb        Ndu     arrangement;organization;preparation',
-        'trtyb   tarotiyb        NAt     arrangements;preparations;organization'
+        'tarotiyb        Ndu     arrangement;organization;preparation',
+        'tarotiyb        NAt     arrangements;preparations;organization'
       ],
       'patterns' => {
         'tartiyb' => [
@@ -53063,7 +53059,7 @@ $Lexicon = {
       'form' => 'tartiybiyy',
       'lines' => [
         ';; tarotiybiy~_1',
-        'trtyby  tarotiybiy~     Nall    preparatory;ordinal;arrangement     [[tarotiybiy~/ADJ]]'
+        'tarotiybiy~     Nall    preparatory;ordinal;arrangement     [[tarotiybiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -53088,8 +53084,8 @@ $Lexicon = {
       'form' => 'rAtib',
       'lines' => [
         ';; rAtib_1',
-        'rAtb    rAtib   Ndu     salary;pay',
-        'rwAtb   rawAtib Ndip    salaries;wages'
+        'rAtib   Ndu     salary;pay',
+        'rawAtib Ndip    salaries;wages'
       ],
       'patterns' => {
         'rawAtib' => [
@@ -53115,7 +53111,7 @@ $Lexicon = {
       'form' => 'murattab',
       'lines' => [
         ';; murat~ab_1',
-        'mrtb    murat~ab        N-ap    organized;arranged;regulated     [[murat~ab/ADJ]]'
+        'murat~ab        N-ap    organized;arranged;regulated     [[murat~ab/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -53140,8 +53136,8 @@ $Lexicon = {
       'form' => 'murattab',
       'lines' => [
         ';; murat~ab_2',
-        'mrtb    murat~ab        Ndu     salary;pay',
-        'mrtb    murat~ab        NAt     salaries;wages;pay'
+        'murat~ab        Ndu     salary;pay',
+        'murat~ab        NAt     salaries;wages;pay'
       ],
       'patterns' => {
         'murattab' => [
@@ -53167,7 +53163,7 @@ $Lexicon = {
       'form' => 'mutarattib',
       'lines' => [
         ';; mutarat~ib_1',
-        'mtrtb   mutarat~ib      Nall    arranged;organized;regulated     [[mutarat~ib/ADJ]]'
+        'mutarat~ib      Nall    arranged;organized;regulated     [[mutarat~ib/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -53203,11 +53199,11 @@ $Lexicon = {
       'form' => 'ranA',
       'lines' => [
         ';; ranA-u_1',
-        'rnA     ranA    PV_0    gaze;stare',
-        'rnw     ranaw   PV_Atn  gaze;stare',
-        'rn      ran     PV_ttAw gaze;stare',
-        'rnw     ronuw   IV_0hAnn        gaze;stare',
-        'rn      ron     IV_0hwnyn       gaze;stare'
+        'ranA    PV_0    gaze;stare',
+        'ranaw   PV_Atn  gaze;stare',
+        'ran     PV_ttAw gaze;stare',
+        'ronuw   IV_0hAnn        gaze;stare',
+        'ron     IV_0hwnyn       gaze;stare'
       ],
       'patterns' => {
         'ranaw' => [
@@ -53240,7 +53236,7 @@ $Lexicon = {
       'form' => 'ranA',
       'lines' => [
         ';; ranA_1',
-        'rnA     ranA    N0_Nh   gaze;stare'
+        'ranA    N0_Nh   gaze;stare'
       ],
       'patterns' => {},
       'index' => '1',
@@ -53260,7 +53256,7 @@ $Lexicon = {
       'form' => 'runuww',
       'lines' => [
         ';; runuw~_1',
-        'rnw     runuw~  N       gazing;staring'
+        'runuw~  N       gazing;staring'
       ],
       'patterns' => {},
       'index' => '1',
@@ -53284,8 +53280,8 @@ $Lexicon = {
       'form' => 'ranwaT',
       'lines' => [
         ';; ranowap_1',
-        'rnw     ranow   Napdu   stare;glance',
-        'rnw     ranaw   NAt     staring;stares;glances'
+        'ranow   Napdu   stare;glance',
+        'ranaw   NAt     staring;stares;glances'
       ],
       'patterns' => {
         'ranaw' => [
@@ -53312,7 +53308,7 @@ $Lexicon = {
       'form' => 'mirnAT',
       'lines' => [
         ';; mironAp_1',
-        'mrnA    mironA  Napdu   viewer;television set'
+        'mironA  Napdu   viewer;television set'
       ],
       'patterns' => {},
       'index' => '1',

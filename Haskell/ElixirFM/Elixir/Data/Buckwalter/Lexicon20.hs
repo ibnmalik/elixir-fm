@@ -2855,8 +2855,7 @@ cluster_57  = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- faroHap -}          [ "joy" ]
                               `plural`     FaCaL |< At,
 
-    FaCaL |< At               `noun`    {- faraHAt -}          [ "Farhat" ]
-                           {- `others`  [ "far.hAt N0" ] -},
+    FaCL |< At                `noun`    {- faroHAt -}          [ "Farhat" ],
 
     FuCayL |< At              `noun`    {- furayoHAt -}        [ "Freihat" ],
 

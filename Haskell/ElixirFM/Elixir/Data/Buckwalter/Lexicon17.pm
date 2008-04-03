@@ -24,10 +24,10 @@ $Lexicon = {
       'form' => '.zalla',
       'lines' => [
         ';; Zal~a_1',
-        'Zl      Zal~    PV_V    remain;continue',
-        'Zll     Zalil   PV_C    remain;continue',
-        'Zl      Zal~    IV_V    remain;continue',
-        'Zll     Zolal   IV_C    remain;continue'
+        'Zal~    PV_V    remain;continue',
+        'Zalil   PV_C    remain;continue',
+        'Zal~    IV_V    remain;continue',
+        'Zolal   IV_C    remain;continue'
       ],
       'patterns' => {
         '.zall' => [
@@ -61,8 +61,8 @@ $Lexicon = {
       'form' => '.zallal',
       'lines' => [
         ';; Zal~al_1',
-        'Zll     Zal~al  PV      shade',
-        'Zll     Zal~il  IV_yu   shade'
+        'Zal~al  PV      shade',
+        'Zal~il  IV_yu   shade'
       ],
       'patterns' => {
         '.zallil' => [
@@ -98,11 +98,11 @@ $Lexicon = {
       'form' => '\'a.zall',
       'lines' => [
         ';; >aZal~_1',
-        '>Zl     >aZal~  PV_V    shade',
-        '>Zll    >aZolal PV_C    shade',
-        'Zl      Zil~    IV_V_yu shade',
-        'Zll     Zolil   IV_C_yu shade',
-        'Zl      Zal~    IV_V_Pass_yu    be shaded'
+        '>aZal~  PV_V    shade',
+        '>aZolal PV_C    shade',
+        'Zil~    IV_V_yu shade',
+        'Zolil   IV_C_yu shade',
+        'Zal~    IV_V_Pass_yu    be shaded'
       ],
       'patterns' => {
         '.zill' => [
@@ -135,8 +135,8 @@ $Lexicon = {
       'form' => 'ta.zallal',
       'lines' => [
         ';; taZal~al_1',
-        'tZll    taZal~al        PV_intr be shaded',
-        'tZll    taZal~al        IV_intr be shaded'
+        'taZal~al        PV_intr be shaded',
+        'taZal~al        IV_intr be shaded'
       ],
       'patterns' => {},
       'index' => '1',
@@ -164,11 +164,11 @@ $Lexicon = {
       'entry' => 'ista.zall',
       'form' => 'ista.zall',
       'lines' => [
-        ';; {isotaZal~_1',
-        '<stZl   {isotaZal~      PV_V    seek refuge;seek shade',
-        '<stZll  {isotaZolal     PV_C    seek refuge;seek shade',
-        'stZl    sotaZil~        IV_V    seek refuge;seek shade',
-        'stZll   sotaZolil       IV_C    seek refuge;seek shade'
+        ';; AisotaZal~_1',
+        'AisotaZal~      PV_V    seek refuge;seek shade',
+        'AisotaZolal     PV_C    seek refuge;seek shade',
+        'sotaZil~        IV_V    seek refuge;seek shade',
+        'sotaZolil       IV_C    seek refuge;seek shade'
       ],
       'patterns' => {
         'ista.zlal' => [
@@ -202,10 +202,10 @@ $Lexicon = {
       'form' => '.zill',
       'lines' => [
         ';; Zil~_1',
-        'Zl      Zil~    N       patronage;shelter',
-        'ZlAl    ZilAl   N       auspices;shelter',
-        'Zlwl    Zuluwl  N       auspices;shelter',
-        '>ZlAl   >aZolAl N       auspices;shelter'
+        'Zil~    N       patronage;shelter',
+        'ZilAl   N       auspices;shelter',
+        'Zuluwl  N       auspices;shelter',
+        '>aZolAl N       auspices;shelter'
       ],
       'patterns' => {
         '.zilAl' => [
@@ -240,8 +240,8 @@ $Lexicon = {
       'form' => '.zullaT',
       'lines' => [
         ';; Zul~ap_1',
-        'Zl      Zul~    Nap     veranda',
-        'Zll     Zulal   N       shelters'
+        'Zul~    Nap     veranda',
+        'Zulal   N       shelters'
       ],
       'patterns' => {
         '.zulal' => [
@@ -265,7 +265,7 @@ $Lexicon = {
       'form' => '.zaliyl',
       'lines' => [
         ';; Zaliyl_1',
-        'Zlyl    Zaliyl  N-ap    shaded'
+        'Zaliyl  N-ap    shaded'
       ],
       'patterns' => {},
       'index' => '1',
@@ -288,8 +288,8 @@ $Lexicon = {
       'form' => 'mi.zallaT',
       'lines' => [
         ';; miZal~ap_1',
-        'mZl     miZal~  NapAt   umbrella',
-        'mZAl    maZAl~  Ndip    umbrellas'
+        'miZal~  NapAt   umbrella',
+        'maZAl~  Ndip    umbrellas'
       ],
       'patterns' => {
         'ma.zAll' => [
@@ -317,8 +317,8 @@ $Lexicon = {
       'form' => 'mi.zallaT',
       'lines' => [
         ';; miZal~ap_2',
-        'mZl     miZal~  NapAt   parachute',
-        'mZAl    maZAl~  Ndip    parachutes'
+        'miZal~  NapAt   parachute',
+        'maZAl~  Ndip    parachutes'
       ],
       'patterns' => {
         'ma.zAll' => [
@@ -342,7 +342,7 @@ $Lexicon = {
       'form' => 'mi.zalliyy',
       'lines' => [
         ';; miZal~iy~_1',
-        'mZly    miZal~iy~       Nall    parachutists;paratrooper     [[miZal~iy~/ADJ]]'
+        'miZal~iy~       Nall    parachutists;paratrooper     [[miZal~iy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -362,7 +362,7 @@ $Lexicon = {
       'form' => 'mu.zallil',
       'lines' => [
         ';; muZal~il_1',
-        'mZll    muZal~il        N-ap    shady;shadowy     [[muZal~il/ADJ]]'
+        'muZal~il        N-ap    shady;shadowy     [[muZal~il/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -382,7 +382,7 @@ $Lexicon = {
       'form' => 'mu.zill',
       'lines' => [
         ';; muZil~_1',
-        'mZl     muZil~  N-ap    shady;shadowy     [[muZil~/ADJ]]'
+        'muZil~  N-ap    shady;shadowy     [[muZil~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -410,10 +410,10 @@ $Lexicon = {
       'form' => '.zaby',
       'lines' => [
         ';; Zaboy_1',
-        'Zby     Zaboy   Ndu     gazelle',
-        'ZbA\'    ZibA\'   N0_Nh   gazelles',
-        'ZbA&    ZibA&   Nh      gazelles',
-        'ZbA}    ZibA}   Nhy     gazelles'
+        'Zaboy   Ndu     gazelle',
+        'ZibA\'   N0_Nh   gazelles',
+        'ZibA&   Nh      gazelles',
+        'ZibA}   Nhy     gazelles'
       ],
       'patterns' => {
         '.zibA\'' => [
@@ -437,7 +437,7 @@ $Lexicon = {
       'form' => '.zabiy',
       'lines' => [
         ';; Zabiy_1',
-        'Zby     Zabiy   FW      Dhabi     [[Zabiy/NOUN_PROP]]'
+        'Zabiy   FW      Dhabi     [[Zabiy/NOUN_PROP]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -460,8 +460,8 @@ $Lexicon = {
       'form' => '.zabyaT',
       'lines' => [
         ';; Zaboyap_1',
-        'Zby     Zaboy   Napdu   gazelle',
-        'Zby     Zabay   NAt     gazelles'
+        'Zaboy   Napdu   gazelle',
+        'Zabay   NAt     gazelles'
       ],
       'patterns' => {
         '.zabY' => [
@@ -485,7 +485,7 @@ $Lexicon = {
       'form' => '.zubyAniyy',
       'lines' => [
         ';; ZuboyAniy~_1',
-        'ZbyAny  ZuboyAniy~      Nall    from/of Abu Dhabi     [[ZuboyAniy~/ADJ]]'
+        'ZuboyAniy~      Nall    from/of Abu Dhabi     [[ZuboyAniy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -510,8 +510,8 @@ $Lexicon = {
       'form' => '.zahar',
       'lines' => [
         ';; Zahar-a_1',
-        'Zhr     Zahar   PV      appear;emerge',
-        'Zhr     Zohar   IV      appear;emerge'
+        'Zahar   PV      appear;emerge',
+        'Zohar   IV      appear;emerge'
       ],
       'patterns' => {
         '.zhar' => [
@@ -542,8 +542,8 @@ $Lexicon = {
       'form' => '.zahhar',
       'lines' => [
         ';; Zah~ar_1',
-        'Zhr     Zah~ar  PV      endorse',
-        'Zhr     Zah~ir  IV_yu   endorse'
+        'Zah~ar  PV      endorse',
+        'Zah~ir  IV_yu   endorse'
       ],
       'patterns' => {
         '.zahhir' => [
@@ -570,8 +570,8 @@ $Lexicon = {
       'form' => '.zahhar',
       'lines' => [
         ';; Zah~ar_2',
-        'Zhr     Zah~ar  PV      develop',
-        'Zhr     Zah~ir  IV_yu   develop'
+        'Zah~ar  PV      develop',
+        'Zah~ir  IV_yu   develop'
       ],
       'patterns' => {
         '.zahhir' => [
@@ -598,8 +598,8 @@ $Lexicon = {
       'form' => '.zAhar',
       'lines' => [
         ';; ZAhar_1',
-        'ZAhr    ZAhar   PV      assist;support',
-        'ZAhr    ZAhir   IV_yu   assist;support'
+        'ZAhar   PV      assist;support',
+        'ZAhir   IV_yu   assist;support'
       ],
       'patterns' => {
         '.zAhir' => [
@@ -630,9 +630,9 @@ $Lexicon = {
       'form' => '\'a.zhar',
       'lines' => [
         ';; >aZohar_1',
-        '>Zhr    >aZohar PV      show;manifest;demonstrate',
-        'Zhr     Zohir   IV_yu   show;manifest;demonstrate',
-        'Zhr     Zohar   IV_Pass_yu      be shown;be manifest;be demonstrated'
+        '>aZohar PV      show;manifest;demonstrate',
+        'Zohir   IV_yu   show;manifest;demonstrate',
+        'Zohar   IV_Pass_yu      be shown;be manifest;be demonstrated'
       ],
       'patterns' => {
         '.zhar' => [
@@ -663,8 +663,8 @@ $Lexicon = {
       'form' => 'ta.zAhar',
       'lines' => [
         ';; taZAhar_1',
-        'tZAhr   taZAhar PV      manifest;demonstrate',
-        'tZAhr   taZAhar IV      manifest;demonstrate'
+        'taZAhar PV      manifest;demonstrate',
+        'taZAhar IV      manifest;demonstrate'
       ],
       'patterns' => {},
       'index' => '1',
@@ -687,9 +687,9 @@ $Lexicon = {
       'entry' => 'ista.zhar',
       'form' => 'ista.zhar',
       'lines' => [
-        ';; {isotaZohar_1',
-        '<stZhr  {isotaZohar     PV      memorize;demonstrate',
-        'stZhr   sotaZohir       IV      memorize;demonstrate'
+        ';; AisotaZohar_1',
+        'AisotaZohar     PV      memorize;demonstrate',
+        'sotaZohir       IV      memorize;demonstrate'
       ],
       'patterns' => {},
       'index' => '1',
@@ -709,8 +709,8 @@ $Lexicon = {
       'form' => '.zahr',
       'lines' => [
         ';; Zahor_1',
-        'Zhr     Zahor   N       back;spine',
-        'Zhr     Zahor   NAn_Nayn        midst'
+        'Zahor   N       back;spine',
+        'Zahor   NAn_Nayn        midst'
       ],
       'patterns' => {},
       'index' => '1',
@@ -731,7 +731,7 @@ $Lexicon = {
       'form' => '.zahriyy',
       'lines' => [
         ';; Zahoriy~_1',
-        'Zhry    Zahoriy~        N-ap    dorsal     [[Zahoriy~/ADJ]]'
+        'Zahoriy~        N-ap    dorsal     [[Zahoriy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -750,7 +750,7 @@ $Lexicon = {
       'form' => '\'a.zhur',
       'lines' => [
         ';; >aZohur_1',
-        '>Zhr    >aZohur N       rear part'
+        '>aZohur N       rear part'
       ],
       'patterns' => {},
       'index' => '1',
@@ -773,9 +773,9 @@ $Lexicon = {
       'form' => '.zuhr',
       'lines' => [
         ';; Zuhor_1',
-        'Zhr     Zuhor   N       noon;afternoon',
-        'Zhr     Zuhor   NF      in the afternoon;at noon     [[Zuhor/ADV]]',
-        '>ZhAr   >aZohAr N       afternoons'
+        'Zuhor   N       noon;afternoon',
+        'Zuhor   NF      in the afternoon;at noon     [[Zuhor/ADV]]',
+        '>aZohAr N       afternoons'
       ],
       'patterns' => {
         '\'a.zhAr' => [
@@ -802,7 +802,7 @@ $Lexicon = {
       'form' => '.zuhriyy',
       'lines' => [
         ';; Zuhoriy~_1',
-        'Zhry    Zuhoriy~        N-ap    afternoon;meridian     [[Zuhoriy~/ADJ]]'
+        'Zuhoriy~        N-ap    afternoon;meridian     [[Zuhoriy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -822,7 +822,7 @@ $Lexicon = {
       'form' => '.zahiyr',
       'lines' => [
         ';; Zahiyr_1',
-        'Zhyr    Zahiyr  N/ap    assistant;partisan'
+        'Zahiyr  N/ap    assistant;partisan'
       ],
       'patterns' => {},
       'index' => '1',
@@ -842,7 +842,7 @@ $Lexicon = {
       'form' => '.zahiyraT',
       'lines' => [
         ';; Zahiyrap_1',
-        'Zhyr    Zahiyr  Nap     noon;midday'
+        'Zahiyr  Nap     noon;midday'
       ],
       'patterns' => {},
       'index' => '1',
@@ -862,7 +862,7 @@ $Lexicon = {
       'form' => '.zuhuwr',
       'lines' => [
         ';; Zuhuwr_1',
-        'Zhwr    Zuhuwr  N       appearance;emergence'
+        'Zuhuwr  N       appearance;emergence'
       ],
       'patterns' => {},
       'index' => '1',
@@ -882,7 +882,7 @@ $Lexicon = {
       'form' => '.zahrAn',
       'lines' => [
         ';; ZahorAn_1',
-        'ZhrAn   ZahorAn N       Dhahran'
+        'ZahorAn N       Dhahran'
       ],
       'patterns' => {},
       'index' => '1',
@@ -901,7 +901,7 @@ $Lexicon = {
       'form' => '.zihAraT',
       'lines' => [
         ';; ZihArap_1',
-        'ZhAr    ZihAr   Nap     outside;epithelium'
+        'ZihAr   Nap     outside;epithelium'
       ],
       'patterns' => {},
       'index' => '1',
@@ -921,7 +921,7 @@ $Lexicon = {
       'form' => '\'a.zhar',
       'lines' => [
         ';; >aZohar_2',
-        '>Zhr    >aZohar Nel     clearer/clearest;more/most apparent'
+        '>aZohar Nel     clearer/clearest;more/most apparent'
       ],
       'patterns' => {},
       'index' => '2',
@@ -945,8 +945,8 @@ $Lexicon = {
       'form' => 'ma.zhar',
       'lines' => [
         ';; maZohar_1',
-        'mZhr    maZohar Ndu     appearance;facade',
-        'mZAhr   maZAhir Ndip    features;manifestations'
+        'maZohar Ndu     appearance;facade',
+        'maZAhir Ndip    features;manifestations'
       ],
       'patterns' => {
         'ma.zAhir' => [
@@ -976,7 +976,7 @@ $Lexicon = {
       'form' => 'ta.zhiyr',
       'lines' => [
         ';; taZohiyr_1',
-        'tZhyr   taZohiyr        N/At    endorsement;transfer'
+        'taZohiyr        N/At    endorsement;transfer'
       ],
       'patterns' => {
         'ta.zhiyr' => [
@@ -1004,7 +1004,7 @@ $Lexicon = {
       'form' => 'ta.zhiyr',
       'lines' => [
         ';; taZohiyr_2',
-        'tZhyr   taZohiyr        N/At    (photo) developing'
+        'taZohiyr        N/At    (photo) developing'
       ],
       'patterns' => {
         'ta.zhiyr' => [
@@ -1027,7 +1027,7 @@ $Lexicon = {
       'form' => '.zihAr',
       'lines' => [
         ';; ZihAr_1',
-        'ZhAr    ZihAr   N       epithelium'
+        'ZihAr   N       epithelium'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1046,7 +1046,7 @@ $Lexicon = {
       'form' => '.zihAriyy',
       'lines' => [
         ';; ZihAriy~_1',
-        'ZhAry   ZihAriy~        N-ap    epithelial     [[ZihAriy~/ADJ]]'
+        'ZihAriy~        N-ap    epithelial     [[ZihAriy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1065,7 +1065,7 @@ $Lexicon = {
       'form' => 'mu.zAharaT',
       'lines' => [
         ';; muZAharap_1',
-        'mZAhr   muZAhar NapAt   demonstration;rally'
+        'muZAhar NapAt   demonstration;rally'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1089,7 +1089,7 @@ $Lexicon = {
       'form' => '\'i.zhAr',
       'lines' => [
         ';; <iZohAr_1',
-        '<ZhAr   <iZohAr N/At    expressing;showing;demonstrating'
+        '<iZohAr N/At    expressing;showing;demonstrating'
       ],
       'patterns' => {
         '\'i.zhAr' => [
@@ -1114,7 +1114,7 @@ $Lexicon = {
       'form' => '\'i.zhAriyy',
       'lines' => [
         ';; <iZohAriy~_1',
-        '<ZhAry  <iZohAriy~      Nall    demonstrative;exhibitionist     [[<iZohAriy~/ADJ]]'
+        '<iZohAriy~      Nall    demonstrative;exhibitionist     [[<iZohAriy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1138,7 +1138,7 @@ $Lexicon = {
       'form' => 'ta.zAhur',
       'lines' => [
         ';; taZAhur_1',
-        'tZAhr   taZAhur NduAt   demonstration;exhibition;simulation'
+        'taZAhur NduAt   demonstration;exhibition;simulation'
       ],
       'patterns' => {
         'ta.zAhur' => [
@@ -1163,7 +1163,7 @@ $Lexicon = {
       'form' => 'ta.zAhuraT',
       'lines' => [
         ';; taZAhurap_1',
-        'tZAhr   taZAhur NapAt   rally;demonstration'
+        'taZAhur NapAt   rally;demonstration'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1183,7 +1183,7 @@ $Lexicon = {
       'form' => 'ta.zAhuriyy',
       'lines' => [
         ';; taZAhuriy~_1',
-        'tZAhry  taZAhuriy~      N-ap    simulated     [[taZAhuriy~/ADJ]]'
+        'taZAhuriy~      N-ap    simulated     [[taZAhuriy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1202,7 +1202,7 @@ $Lexicon = {
       'form' => '.zAhir',
       'lines' => [
         ';; ZAhir_1',
-        'ZAhr    ZAhir   N/ap    evident;apparent;manifest;visible'
+        'ZAhir   N/ap    evident;apparent;manifest;visible'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1224,7 +1224,7 @@ $Lexicon = {
       'form' => '.zAhir',
       'lines' => [
         ';; ZAhir_2',
-        'ZAhr    ZAhir   N0      Zahir'
+        'ZAhir   N0      Zahir'
       ],
       'patterns' => {},
       'index' => '2',
@@ -1243,7 +1243,7 @@ $Lexicon = {
       'form' => '.zAhiriyy',
       'lines' => [
         ';; ZAhiriy~_1',
-        'ZAhry   ZAhiriy~        N-ap    apparent;external     [[ZAhiriy~/ADJ]]'
+        'ZAhiriy~        N-ap    apparent;external     [[ZAhiriy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1263,7 +1263,7 @@ $Lexicon = {
       'form' => '.zAhiriyyaT',
       'lines' => [
         ';; ZAhiriy~ap_1',
-        'ZAhryp  ZAhiriy~ap      N0      Zaheriya'
+        'ZAhiriy~ap      N0      Zaheriya'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1286,8 +1286,8 @@ $Lexicon = {
       'form' => '.zAhiraT',
       'lines' => [
         ';; ZAhirap_1',
-        'ZAhr    ZAhir   Napdu   phenomenon',
-        'ZwAhr   ZawAhir Ndip    phenomena'
+        'ZAhir   Napdu   phenomenon',
+        'ZawAhir Ndip    phenomena'
       ],
       'patterns' => {
         '.zawAhir' => [
@@ -1311,7 +1311,7 @@ $Lexicon = {
       'form' => '.zawAhiriyy',
       'lines' => [
         ';; ZawAhiriy~_1',
-        'ZwAhry  ZawAhiriy~      N0      Zawahri;Zawahiri'
+        'ZawAhiriy~      N0      Zawahri;Zawahiri'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1331,7 +1331,7 @@ $Lexicon = {
       'form' => '.zawAhiriyy',
       'lines' => [
         ';; ZawAhiriy~_2',
-        'ZwAhry  ZawAhiriy~      Nall    phenomenal     [[ZawAhiriy~/ADJ]]'
+        'ZawAhiriy~      Nall    phenomenal     [[ZawAhiriy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -1350,7 +1350,7 @@ $Lexicon = {
       'form' => '.zAhirAtiyy',
       'lines' => [
         ';; ZAhirAtiy~_1',
-        'ZAhrAty ZAhirAtiy~      Nall    phenomenological     [[ZAhirAtiy~/ADJ]]'
+        'ZAhirAtiy~      Nall    phenomenological     [[ZAhirAtiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1369,7 +1369,7 @@ $Lexicon = {
       'form' => 'mu.zahhir',
       'lines' => [
         ';; muZah~ir_1',
-        'mZhr    muZah~ir        Nall    endorser'
+        'muZah~ir        Nall    endorser'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1388,7 +1388,7 @@ $Lexicon = {
       'form' => 'muta.zAhir',
       'lines' => [
         ';; mutaZAhir_1',
-        'mtZAhr  mutaZAhir       Nall    demonstrator'
+        'mutaZAhir       Nall    demonstrator'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1409,7 +1409,7 @@ $Lexicon = {
       'form' => '.zirrAn',
       'lines' => [
         ';; Zir~An_1',
-        'ZrAn    Zir~An  N       flint'
+        'Zir~An  N       flint'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1439,11 +1439,11 @@ $Lexicon = {
       'form' => '.zami\'',
       'lines' => [
         ';; Zami}-a_1',
-        'Zm}     Zami}   PV_intr be thirsty',
-        'Zm>     Zoma>   IV_intr be thirsty',
-        'Zm|     Zoma|   IV-|    be thirsty',
-        'Zm&     Zoma&   IV_wn   be thirsty',
-        'Zm}     Zoma}   IV_yn   be thirsty'
+        'Zami}   PV_intr be thirsty',
+        'Zoma>   IV_intr be thirsty',
+        'Zoma|   IV-|    be thirsty',
+        'Zoma&   IV_wn   be thirsty',
+        'Zoma}   IV_yn   be thirsty'
       ],
       'patterns' => {
         '.zma\'' => [
@@ -1476,10 +1476,10 @@ $Lexicon = {
       'form' => '.zamma\'',
       'lines' => [
         ';; Zam~a>_1',
-        'Zm>     Zam~a>  PV->    make thirsty',
-        'Zm|     Zam~a|  PV-|    make thirsty',
-        'Zm&     Zam~a&  PV_w    make thirsty',
-        'Zm}     Zam~i}  IV_yu   make thirsty'
+        'Zam~a>  PV->    make thirsty',
+        'Zam~a|  PV-|    make thirsty',
+        'Zam~a&  PV_w    make thirsty',
+        'Zam~i}  IV_yu   make thirsty'
       ],
       'patterns' => {
         '.zammi\'' => [
@@ -1512,11 +1512,11 @@ $Lexicon = {
       'form' => '\'a.zma\'',
       'lines' => [
         ';; >aZoma>_1',
-        '>Zm>    >aZoma> PV->    make thirsty',
-        '>Zm|    >aZoma| PV-|    make thirsty',
-        '>Zm&    >aZoma& PV_w    make thirsty',
-        'Zm}     Zomi}   IV_yu   make thirsty',
-        'Zm>     Zoma>   IV_Pass_yu      be made thirsty'
+        '>aZoma> PV->    make thirsty',
+        '>aZoma| PV-|    make thirsty',
+        '>aZoma& PV_w    make thirsty',
+        'Zomi}   IV_yu   make thirsty',
+        'Zoma>   IV_Pass_yu      be made thirsty'
       ],
       'patterns' => {
         '.zmi\'' => [
@@ -1543,9 +1543,9 @@ $Lexicon = {
       'form' => '.zama\'',
       'lines' => [
         ';; Zama>_1',
-        'Zm>     Zama>   N0_Nh   thirst',
-        'Zm&     Zama&   Nh      thirst',
-        'Zm}     Zama}   Nhy     thirst'
+        'Zama>   N0_Nh   thirst',
+        'Zama&   Nh      thirst',
+        'Zama}   Nhy     thirst'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1564,10 +1564,10 @@ $Lexicon = {
       'form' => '.zamA\'',
       'lines' => [
         ';; ZamA\'_1',
-        'ZmA\'    ZamA\'   N0_Nh   thirst',
-        'ZmA&    ZamA&   Nh      thirst',
-        'ZmA}    ZamA}   Nhy     thirst',
-        'ZmA\'    ZamA\'   Nap     thirst'
+        'ZamA\'   N0_Nh   thirst',
+        'ZamA&   Nh      thirst',
+        'ZamA}   Nhy     thirst',
+        'ZamA\'   Nap     thirst'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1586,10 +1586,10 @@ $Lexicon = {
       'form' => '.zim\'',
       'lines' => [
         ';; Zimo\'_1',
-        'Zm\'     Zimo\'   N0      thirst',
-        'Zm>     Zimo>   N0_Nh   thirst',
-        'Zm&     Zimo&   Nh      thirst',
-        'Zm}     Zimo}   Nhy     thirst'
+        'Zimo\'   N0      thirst',
+        'Zimo>   N0_Nh   thirst',
+        'Zimo&   Nh      thirst',
+        'Zimo}   Nhy     thirst'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1612,8 +1612,8 @@ $Lexicon = {
       'form' => '.zam\'An',
       'lines' => [
         ';; Zamo|n_1',
-        'Zm|n    Zamo|n  Ndip    thirsty     [[Zamo|n/ADJ]]',
-        'Zm>Y    Zamo>aY N0      thirsty'
+        'Zamo|n  Ndip    thirsty     [[Zamo|n/ADJ]]',
+        'Zamo>aY N0      thirsty'
       ],
       'patterns' => {
         '.zam\'Y' => [
@@ -1636,7 +1636,7 @@ $Lexicon = {
       'form' => '.zAmi\'',
       'lines' => [
         ';; ZAmi}_1',
-        'ZAm}    ZAmi}   Nall    thirsty     [[ZAmi}/ADJ]]'
+        'ZAmi}   Nall    thirsty     [[ZAmi}/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1661,8 +1661,8 @@ $Lexicon = {
       'form' => '.zirbAn',
       'lines' => [
         ';; ZirobAn_1',
-        'ZrbAn   ZirobAn N       polecat;fitchew',
-        'ZrAbyn  ZarAbiyn        Ndip    polecat;fitchew'
+        'ZirobAn N       polecat;fitchew',
+        'ZarAbiyn        Ndip    polecat;fitchew'
       ],
       'patterns' => {
         '.zarAbiyn' => [
@@ -1692,8 +1692,8 @@ $Lexicon = {
       'form' => 'ma.zinnaT',
       'lines' => [
         ';; maZin~ap_1',
-        'mZn     maZin~  Nap     presumption;prejudice',
-        'mZAn    maZAn~  Ndip    presumptions;prejudices'
+        'maZin~  Nap     presumption;prejudice',
+        'maZAn~  Ndip    presumptions;prejudices'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1721,8 +1721,8 @@ $Lexicon = {
       'form' => '.zunbuwb',
       'lines' => [
         ';; Zunobuwb_1',
-        'Znbwb   Zunobuwb        Ndu     shinbone;tibia',
-        'ZnAbyb  ZanAbiyb        Ndip    shinbones'
+        'Zunobuwb        Ndu     shinbone;tibia',
+        'ZanAbiyb        Ndip    shinbones'
       ],
       'patterns' => {
         '.zanAbiyb' => [
@@ -1747,7 +1747,7 @@ $Lexicon = {
       'form' => '.zunbuwbiyy',
       'lines' => [
         ';; Zunobuwbiy~_1',
-        'Znbwby  Zunobuwbiy~     N-ap    tibial;shin     [[Zunobuwbiy~/ADJ]]'
+        'Zunobuwbiy~     N-ap    tibial;shin     [[Zunobuwbiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1769,7 +1769,7 @@ $Lexicon = {
       'form' => '.zi\'r',
       'lines' => [
         ';; Zi}or_1',
-        'Z}r     Zi}or   N       wet nurse'
+        'Zi}or   N       wet nurse'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1794,8 +1794,8 @@ $Lexicon = {
       'form' => '.zala`',
       'lines' => [
         ';; ZalaE-a_1',
-        'ZlE     ZalaE   PV      limp',
-        'ZlE     ZolaE   IV      limp'
+        'ZalaE   PV      limp',
+        'ZolaE   IV      limp'
       ],
       'patterns' => {
         '.zla`' => [
@@ -1821,7 +1821,7 @@ $Lexicon = {
       'form' => '.zal`',
       'lines' => [
         ';; ZaloE_1',
-        'ZlE     ZaloE   N       limping'
+        'ZaloE   N       limping'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1840,7 +1840,7 @@ $Lexicon = {
       'form' => '.zAli`',
       'lines' => [
         ';; ZAliE_1',
-        'ZAlE    ZAliE   Nall    lame;limping'
+        'ZAliE   Nall    lame;limping'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1860,7 +1860,7 @@ $Lexicon = {
       'form' => '.zulA`',
       'lines' => [
         ';; ZulAE_1',
-        'ZlAE    ZulAE   N       rheumatism'
+        'ZulAE   N       rheumatism'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1885,8 +1885,8 @@ $Lexicon = {
       'form' => '.zaruf',
       'lines' => [
         ';; Zaruf-u_1',
-        'Zrf     Zaruf   PV_intr be charming;be witty',
-        'Zrf     Zoruf   IV_intr be charming;be witty'
+        'Zaruf   PV_intr be charming;be witty',
+        'Zoruf   IV_intr be charming;be witty'
       ],
       'patterns' => {
         '.zruf' => [
@@ -1917,8 +1917,8 @@ $Lexicon = {
       'form' => '.zarraf',
       'lines' => [
         ';; Zar~af_1',
-        'Zrf     Zar~af  PV      adorn',
-        'Zrf     Zar~if  IV_yu   adorn'
+        'Zar~af  PV      adorn',
+        'Zar~if  IV_yu   adorn'
       ],
       'patterns' => {
         '.zarrif' => [
@@ -1941,8 +1941,8 @@ $Lexicon = {
       'form' => 'ta.zarraf',
       'lines' => [
         ';; taZar~af_1',
-        'tZrf    taZar~af        PV_intr be elegant',
-        'tZrf    taZar~af        IV_intr be elegant'
+        'taZar~af        PV_intr be elegant',
+        'taZar~af        IV_intr be elegant'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1961,8 +1961,8 @@ $Lexicon = {
       'form' => 'ta.zAraf',
       'lines' => [
         ';; taZAraf_1',
-        'tZArf   taZAraf PV_intr be elegant',
-        'tZArf   taZAraf IV_intr be elegant'
+        'taZAraf PV_intr be elegant',
+        'taZAraf IV_intr be elegant'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1984,9 +1984,9 @@ $Lexicon = {
       'entry' => 'ista.zraf',
       'form' => 'ista.zraf',
       'lines' => [
-        ';; {isotaZoraf_1',
-        '<stZrf  {isotaZoraf     PV      deem charming',
-        'stZrf   sotaZorif       IV      deem charming'
+        ';; AisotaZoraf_1',
+        'AisotaZoraf     PV      deem charming',
+        'sotaZorif       IV      deem charming'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2005,7 +2005,7 @@ $Lexicon = {
       'form' => '.zarf',
       'lines' => [
         ';; Zarof_1',
-        'Zrf     Zarof   N       charm'
+        'Zarof   N       charm'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2024,7 +2024,7 @@ $Lexicon = {
       'form' => '.zarf',
       'lines' => [
         ';; Zarof_2',
-        'Zrf     Zarof   Ndu     envelope'
+        'Zarof   Ndu     envelope'
       ],
       'patterns' => {},
       'index' => '2',
@@ -2047,8 +2047,8 @@ $Lexicon = {
       'form' => '.zarf',
       'lines' => [
         ';; Zarof_3',
-        'Zrf     Zarof   Ndu     circumstance;condition;situation',
-        'Zrwf    Zuruwf  N       circumstances;condition;situation'
+        'Zarof   Ndu     circumstance;condition;situation',
+        'Zuruwf  N       circumstances;condition;situation'
       ],
       'patterns' => {
         '.zuruwf' => [
@@ -2074,7 +2074,7 @@ $Lexicon = {
       'form' => '.zarfiyy',
       'lines' => [
         ';; Zarofiy~_1',
-        'Zrfy    Zarofiy~        N-ap    circumstantial     [[Zarofiy~/ADJ]]'
+        'Zarofiy~        N-ap    circumstantial     [[Zarofiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2102,11 +2102,11 @@ $Lexicon = {
       'form' => '.zariyf',
       'lines' => [
         ';; Zariyf_1',
-        'Zryf    Zariyf  N/ap    adroit;elegant',
-        'ZrfA\'   ZurafA\' N0_Nh   adroit;elegant',
-        'ZrfA&   ZurafA& Nh      adroit;elegant',
-        'ZrfA}   ZurafA} Nhy     adroit;elegant',
-        'ZrA}f   ZarA}if Ndip    adroit;elegant;courteous'
+        'Zariyf  N/ap    adroit;elegant',
+        'ZurafA\' N0_Nh   adroit;elegant',
+        'ZurafA& Nh      adroit;elegant',
+        'ZurafA} Nhy     adroit;elegant',
+        'ZarA}if Ndip    adroit;elegant;courteous'
       ],
       'patterns' => {
         '.zurafA\'' => [
@@ -2134,7 +2134,7 @@ $Lexicon = {
       'form' => '.zariyf',
       'lines' => [
         ';; Zariyf_2',
-        'Zryf    Zariyf  N0      Zarif'
+        'Zariyf  N0      Zarif'
       ],
       'patterns' => {},
       'index' => '2',
@@ -2153,7 +2153,7 @@ $Lexicon = {
       'form' => '.zarAfaT',
       'lines' => [
         ';; ZarAfap_1',
-        'ZrAf    ZarAf   Nap     elegance;wittiness;courtesy'
+        'ZarAf   Nap     elegance;wittiness;courtesy'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2174,7 +2174,7 @@ $Lexicon = {
       'form' => '\'a.zraf',
       'lines' => [
         ';; >aZoraf_1',
-        '>Zrf    >aZoraf Nel     more/most elegant;wittier/wittiest'
+        '>aZoraf Nel     more/most elegant;wittier/wittiest'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2198,7 +2198,7 @@ $Lexicon = {
       'form' => 'ta.zriyf',
       'lines' => [
         ';; taZoriyf_1',
-        'tZryf   taZoriyf        N/At    wittiness;courtesy'
+        'taZoriyf        N/At    wittiness;courtesy'
       ],
       'patterns' => {
         'ta.zriyf' => [
@@ -2226,7 +2226,7 @@ $Lexicon = {
       'form' => 'ta.zarruf',
       'lines' => [
         ';; taZar~uf_1',
-        'tZrf    taZar~uf        N/At    wittiness;courtesy'
+        'taZar~uf        N/At    wittiness;courtesy'
       ],
       'patterns' => {
         'ta.zarruf' => [
@@ -2254,8 +2254,8 @@ $Lexicon = {
       'form' => 'ma.zruwf',
       'lines' => [
         ';; maZoruwf_1',
-        'mZrwf   maZoruwf        Ndu     envelope',
-        'mZAryf  maZAriyf        Ndip    envelopes'
+        'maZoruwf        Ndu     envelope',
+        'maZAriyf        Ndip    envelopes'
       ],
       'patterns' => {
         'ma.zAriyf' => [
@@ -2279,7 +2279,7 @@ $Lexicon = {
       'form' => 'muta.zarrif',
       'lines' => [
         ';; mutaZar~if_1',
-        'mtZrf   mutaZar~if      Nall    elegant;courteous     [[mutaZar~if/ADJ]]'
+        'mutaZar~if      Nall    elegant;courteous     [[mutaZar~if/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2299,7 +2299,7 @@ $Lexicon = {
       'form' => 'musta.zraf',
       'lines' => [
         ';; musotaZoraf_1',
-        'mstZrf  musotaZoraf     Nall    elegant;fancy     [[musotaZoraf/ADJ]]'
+        'musotaZoraf     Nall    elegant;fancy     [[musotaZoraf/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2325,8 +2325,8 @@ $Lexicon = {
       'form' => '.zafir',
       'lines' => [
         ';; Zafir-a_1',
-        'Zfr     Zafir   PV      succeed',
-        'Zfr     Zofar   IV      succeed'
+        'Zafir   PV      succeed',
+        'Zofar   IV      succeed'
       ],
       'patterns' => {
         '.zfar' => [
@@ -2356,8 +2356,8 @@ $Lexicon = {
       'form' => '.zaffar',
       'lines' => [
         ';; Zaf~ar_1',
-        'Zfr     Zaf~ar  PV      grant victory',
-        'Zfr     Zaf~ir  IV_yu   grant victory'
+        'Zaf~ar  PV      grant victory',
+        'Zaf~ir  IV_yu   grant victory'
       ],
       'patterns' => {
         '.zaffir' => [
@@ -2387,9 +2387,9 @@ $Lexicon = {
       'form' => '\'a.zfar',
       'lines' => [
         ';; >aZofar_1',
-        '>Zfr    >aZofar PV      grant victory',
-        'Zfr     Zofir   IV_yu   grant victory',
-        'Zfr     Zofar   IV_Pass_yu      be granted victory'
+        '>aZofar PV      grant victory',
+        'Zofir   IV_yu   grant victory',
+        'Zofar   IV_Pass_yu      be granted victory'
       ],
       'patterns' => {
         '.zfir' => [
@@ -2416,8 +2416,8 @@ $Lexicon = {
       'form' => 'ta.zAfar',
       'lines' => [
         ';; taZAfar_1',
-        'tZAfr   taZAfar PV_intr be allied with',
-        'tZAfr   taZAfar IV_intr be allied with'
+        'taZAfar PV_intr be allied with',
+        'taZAfar IV_intr be allied with'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2443,9 +2443,9 @@ $Lexicon = {
       'form' => '.zufur',
       'lines' => [
         ';; Zufur_1',
-        'Zfr     Zufur   Ndu     nail;claw;talon',
-        '>ZfAr   >aZofAr N       nails;claws;talons',
-        '>ZAfr   >aZAfir Ndip    nails;claws;talons'
+        'Zufur   Ndu     nail;claw;talon',
+        '>aZofAr N       nails;claws;talons',
+        '>aZAfir Ndip    nails;claws;talons'
       ],
       'patterns' => {
         '\'a.zfAr' => [
@@ -2480,8 +2480,8 @@ $Lexicon = {
       'form' => '\'u.zfuwr',
       'lines' => [
         ';; >uZofuwr_1',
-        '>Zfwr   >uZofuwr        Ndu     nail;claw;talon',
-        '>ZAfyr  >aZAfiyr        Ndip    nails;claws;talons'
+        '>uZofuwr        Ndu     nail;claw;talon',
+        '>aZAfiyr        Ndip    nails;claws;talons'
       ],
       'patterns' => {
         '\'a.zAfiyr' => [
@@ -2509,7 +2509,7 @@ $Lexicon = {
       'form' => '.zafar',
       'lines' => [
         ';; Zafar_1',
-        'Zfr     Zafar   N       victory'
+        'Zafar   N       victory'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2528,7 +2528,7 @@ $Lexicon = {
       'form' => '.zafir',
       'lines' => [
         ';; Zafir_1',
-        'Zfr     Zafir   N-ap    victorious     [[Zafir/ADJ]]'
+        'Zafir   N-ap    victorious     [[Zafir/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2547,7 +2547,7 @@ $Lexicon = {
       'form' => '.zufrAn',
       'lines' => [
         ';; ZuforAn_1',
-        'ZfrAn   ZuforAn N       victorious     [[ZuforAn/ADJ]]'
+        'ZuforAn N       victorious     [[ZuforAn/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2566,7 +2566,7 @@ $Lexicon = {
       'form' => '.zAfir',
       'lines' => [
         ';; ZAfir_1',
-        'ZAfr    ZAfir   N-ap    victorious'
+        'ZAfir   N-ap    victorious'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2585,7 +2585,7 @@ $Lexicon = {
       'form' => '.zAfir',
       'lines' => [
         ';; ZAfir_2',
-        'ZAfr    ZAfir   N0      Zafir'
+        'ZAfir   N0      Zafir'
       ],
       'patterns' => {},
       'index' => '2',
@@ -2604,7 +2604,7 @@ $Lexicon = {
       'form' => 'mu.zaffar',
       'lines' => [
         ';; muZaf~ar_1',
-        'mZfr    muZaf~ar        N-ap    victorious'
+        'muZaf~ar        N-ap    victorious'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2623,7 +2623,7 @@ $Lexicon = {
       'form' => 'mu.zaffar',
       'lines' => [
         ';; muZaf~ar_2',
-        'mZfr    muZaf~ar        N0      Muzaffar'
+        'muZaf~ar        N0      Muzaffar'
       ],
       'patterns' => {},
       'index' => '2',
@@ -2642,7 +2642,7 @@ $Lexicon = {
       'form' => '.zafiyriyy',
       'lines' => [
         ';; Zafiyriy~_1',
-        'Zfyry   Zafiyriy~       N0      Zafiri'
+        'Zafiyriy~       N0      Zafiri'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2661,7 +2661,7 @@ $Lexicon = {
       'form' => '.zufayriyy',
       'lines' => [
         ';; Zufayoriy~_1',
-        'Zfyry   Zufayoriy~      N0      Zufairi'
+        'Zufayoriy~      N0      Zufairi'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2692,10 +2692,10 @@ $Lexicon = {
       'form' => '.zann',
       'lines' => [
         ';; Zan~-u_1',
-        'Zn      Zan~    PV_V    think;believe;presume',
-        'Znn     Zanan   PV_Cn   think;believe;presume',
-        'Zn      Zun~    IV_V    think;believe;presume',
-        'Znn     Zonun   IV-n    think;believe;presume'
+        'Zan~    PV_V    think;believe;presume',
+        'Zanan   PV_Cn   think;believe;presume',
+        'Zun~    IV_V    think;believe;presume',
+        'Zonun   IV-n    think;believe;presume'
       ],
       'patterns' => {
         '.zanan' => [
@@ -2729,7 +2729,7 @@ $Lexicon = {
       'form' => '.zann',
       'lines' => [
         ';; Zan~_1',
-        'Zn      Zan~    N       opinion;assumption'
+        'Zan~    N       opinion;assumption'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2749,7 +2749,7 @@ $Lexicon = {
       'form' => '.zunuwn',
       'lines' => [
         ';; Zunuwn_1',
-        'Znwn    Zunuwn  N       suppositions'
+        'Zunuwn  N       suppositions'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2768,7 +2768,7 @@ $Lexicon = {
       'form' => '.zanniyy',
       'lines' => [
         ';; Zan~iy~_1',
-        'Zny     Zan~iy~ N-ap    hypothetical;supposed     [[Zan~iy~/ADJ]]'
+        'Zan~iy~ N-ap    hypothetical;supposed     [[Zan~iy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2792,8 +2792,8 @@ $Lexicon = {
       'form' => '.zinnaT',
       'lines' => [
         ';; Zin~ap_1',
-        'Zn      Zin~    Nap     distrust',
-        'Znn     Zinan   N       misgivings'
+        'Zin~    Nap     distrust',
+        'Zinan   N       misgivings'
       ],
       'patterns' => {
         '.zinan' => [
@@ -2817,7 +2817,7 @@ $Lexicon = {
       'form' => '.zaniyn',
       'lines' => [
         ';; Zaniyn_1',
-        'Znyn    Zaniyn  Nall    suspicious;suspected     [[Zaniyn/ADJ]]'
+        'Zaniyn  Nall    suspicious;suspected     [[Zaniyn/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2837,7 +2837,7 @@ $Lexicon = {
       'form' => '.zanuwn',
       'lines' => [
         ';; Zanuwn_1',
-        'Znwn    Zanuwn  Nall    suspicious;suspected     [[Zanuwn/ADJ]]'
+        'Zanuwn  Nall    suspicious;suspected     [[Zanuwn/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2857,7 +2857,7 @@ $Lexicon = {
       'form' => 'ma.znuwn',
       'lines' => [
         ';; maZonuwn_1',
-        'mZnwn   maZonuwn        Nall    presumed;suspected;suspicious     [[maZonuwn/ADJ]]'
+        'maZonuwn        Nall    presumed;suspected;suspicious     [[maZonuwn/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2887,9 +2887,9 @@ $Lexicon = {
       'form' => '.zalam',
       'lines' => [
         ';; Zalam-i_1',
-        'Zlm     Zalam   PV_intr be unjust;oppress',
-        'Zlm     Zolim   IV_intr be unjust;oppress',
-        'Zlm     Zolam   IV_Pass_yu      be oppressed'
+        'Zalam   PV_intr be unjust;oppress',
+        'Zolim   IV_intr be unjust;oppress',
+        'Zolam   IV_Pass_yu      be oppressed'
       ],
       'patterns' => {
         '.zlim' => [
@@ -2927,9 +2927,9 @@ $Lexicon = {
       'form' => '\'a.zlam',
       'lines' => [
         ';; >aZolam_1',
-        '>Zlm    >aZolam PV_intr become dark',
-        'Zlm     Zolim   IV_intr_yu      become dark',
-        'Zlm     Zolam   IV_Pass_yu      be darkened'
+        '>aZolam PV_intr become dark',
+        'Zolim   IV_intr_yu      become dark',
+        'Zolam   IV_Pass_yu      be darkened'
       ],
       'patterns' => {
         '.zlim' => [
@@ -2956,8 +2956,8 @@ $Lexicon = {
       'form' => 'ta.zallam',
       'lines' => [
         ';; taZal~am_1',
-        'tZlm    taZal~am        PV      complain',
-        'tZlm    taZal~am        IV      complain'
+        'taZal~am        PV      complain',
+        'taZal~am        IV      complain'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2979,9 +2979,9 @@ $Lexicon = {
       'entry' => 'in.zalam',
       'form' => 'in.zalam',
       'lines' => [
-        ';; {inoZalam_1',
-        '<nZlm   {inoZalam       PV_intr be wronged',
-        'nZlm    noZalim IV_intr be wronged'
+        ';; AinoZalam_1',
+        'AinoZalam       PV_intr be wronged',
+        'noZalim IV_intr be wronged'
       ],
       'patterns' => {
         'n.zalim' => [
@@ -3007,9 +3007,9 @@ $Lexicon = {
       'entry' => 'i.z.zalam',
       'form' => 'i.z.zalam',
       'lines' => [
-        ';; {iZ~alam_1',
-        '<Zlm    {iZ~alam        PV_intr be wronged',
-        'Zlm     Z~alim  IV_intr be wronged'
+        ';; AiZ~alam_1',
+        'AiZ~alam        PV_intr be wronged',
+        'Z~alim  IV_intr be wronged'
       ],
       'patterns' => {
         '.z.zalim' => [
@@ -3032,7 +3032,7 @@ $Lexicon = {
       'form' => '.zulm',
       'lines' => [
         ';; Zulom_1',
-        'Zlm     Zulom   N       injustice'
+        'Zulom   N       injustice'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3057,10 +3057,10 @@ $Lexicon = {
       'form' => '.zulmaT',
       'lines' => [
         ';; Zulomap_1',
-        'Zlm     Zulom   NapAt   darkness',
-        'ZlmA\'   ZalomA\' N0_Nh   darkness',
-        'ZlmA&   ZalomA& Nh      darkness',
-        'ZlmA}   ZalomA} Nhy     darkness'
+        'Zulom   NapAt   darkness',
+        'ZalomA\' N0_Nh   darkness',
+        'ZalomA& Nh      darkness',
+        'ZalomA} Nhy     darkness'
       ],
       'patterns' => {
         '.zalmA\'' => [
@@ -3083,8 +3083,8 @@ $Lexicon = {
       'form' => '.zalAm',
       'lines' => [
         ';; ZalAm_1',
-        'ZlAm    ZalAm   N       darkness',
-        'ZlAm    ZalAm   N       injustice'
+        'ZalAm   N       darkness',
+        'ZalAm   N       injustice'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3104,7 +3104,7 @@ $Lexicon = {
       'form' => '.zalAmiyy',
       'lines' => [
         ';; ZalAmiy~_1',
-        'ZlAmy   ZalAmiy~        Nall    obscurantist     [[ZalAmiy~/ADJ]]'
+        'ZalAmiy~        Nall    obscurantist     [[ZalAmiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3123,7 +3123,7 @@ $Lexicon = {
       'form' => '.zallAm',
       'lines' => [
         ';; Zal~Am_1',
-        'ZlAm    Zal~Am  N       tyrant'
+        'Zal~Am  N       tyrant'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3146,8 +3146,8 @@ $Lexicon = {
       'form' => '.zaliym',
       'lines' => [
         ';; Zaliym_1',
-        'Zlym    Zaliym  Ndu     ostrich',
-        'ZlmAn   ZilomAn N       ostriches'
+        'Zaliym  Ndu     ostrich',
+        'ZilomAn N       ostriches'
       ],
       'patterns' => {
         '.zilmAn' => [
@@ -3171,7 +3171,7 @@ $Lexicon = {
       'form' => '.zulAmaT',
       'lines' => [
         ';; ZulAmap_1',
-        'ZlAm    ZulAm   NapAt   injustice;misdeed'
+        'ZulAm   NapAt   injustice;misdeed'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3191,7 +3191,7 @@ $Lexicon = {
       'form' => '\'a.zlam',
       'lines' => [
         ';; >aZolam_2',
-        '>Zlm    >aZolam Nel     darker/darkest;viler/vilest'
+        '>aZolam Nel     darker/darkest;viler/vilest'
       ],
       'patterns' => {},
       'index' => '2',
@@ -3215,8 +3215,8 @@ $Lexicon = {
       'form' => 'ma.zlimaT',
       'lines' => [
         ';; maZolimap_1',
-        'mZlm    maZolim Napdu   injustice;misdeed',
-        'mZAlm   maZAlim Ndip    injustices;misdeeds'
+        'maZolim Napdu   injustice;misdeed',
+        'maZAlim Ndip    injustices;misdeeds'
       ],
       'patterns' => {
         'ma.zAlim' => [
@@ -3246,7 +3246,7 @@ $Lexicon = {
       'form' => '\'i.zlAm',
       'lines' => [
         ';; <iZolAm_1',
-        '<ZlAm   <iZolAm N/At    darkness;gloom'
+        '<iZolAm N/At    darkness;gloom'
       ],
       'patterns' => {
         '\'i.zlAm' => [
@@ -3274,7 +3274,7 @@ $Lexicon = {
       'form' => 'ta.zallum',
       'lines' => [
         ';; taZal~um_1',
-        'tZlm    taZal~um        N/At    complaint'
+        'taZal~um        N/At    complaint'
       ],
       'patterns' => {
         'ta.zallum' => [
@@ -3304,9 +3304,9 @@ $Lexicon = {
       'form' => '.zAlim',
       'lines' => [
         ';; ZAlim_1',
-        'ZAlm    ZAlim   Nall    oppressor;tyrant',
-        'ZlAm    Zul~Am  N       oppressors;tyrants',
-        'Zlm     Zalam   Nap     oppressors;tyrants'
+        'ZAlim   Nall    oppressor;tyrant',
+        'Zul~Am  N       oppressors;tyrants',
+        'Zalam   Nap     oppressors;tyrants'
       ],
       'patterns' => {
         '.zullAm' => [
@@ -3335,7 +3335,7 @@ $Lexicon = {
       'form' => 'ma.zluwm',
       'lines' => [
         ';; maZoluwm_1',
-        'mZlwm   maZoluwm        Nall    oppressed;treated unjustly     [[maZoluwm/ADJ]]'
+        'maZoluwm        Nall    oppressed;treated unjustly     [[maZoluwm/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3355,7 +3355,7 @@ $Lexicon = {
       'form' => 'mu.zlim',
       'lines' => [
         ';; muZolim_1',
-        'mZlm    muZolim Nall    dark;gloomy     [[muZolim/ADJ]]'
+        'muZolim Nall    dark;gloomy     [[muZolim/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3381,10 +3381,10 @@ $Lexicon = {
       'form' => '.zA\'',
       'lines' => [
         ';; ZA\'_1',
-        'ZA\'     ZA\'     N0_Nh   Za\' (Arabic letter)',
-        'ZA&     ZA&     Nh      Za\' (Arabic letter)',
-        'ZA}     ZA}     Nhy     Za\' (Arabic letter)',
-        'ZA\'     ZA\'     NAt     Za\'s (Arabic letter)'
+        'ZA\'     N0_Nh   Za\' (Arabic letter)',
+        'ZA&     Nh      Za\' (Arabic letter)',
+        'ZA}     Nhy     Za\' (Arabic letter)',
+        'ZA\'     NAt     Za\'s (Arabic letter)'
       ],
       'patterns' => {
         '.zA\'' => [
@@ -3411,7 +3411,7 @@ $Lexicon = {
       'form' => '.zirr',
       'lines' => [
         ';; Zir~_1',
-        'Zr      Zir~    N       flint'
+        'Zir~    N       flint'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3450,8 +3450,8 @@ $Lexicon = {
       'form' => '.za`an',
       'lines' => [
         ';; ZaEan-a_1',
-        'ZEn     ZaEan   PV-n    depart;move away',
-        'ZEn     ZoEan   IV-n    depart;move away'
+        'ZaEan   PV-n    depart;move away',
+        'ZoEan   IV-n    depart;move away'
       ],
       'patterns' => {
         '.z`an' => [
@@ -3478,7 +3478,7 @@ $Lexicon = {
       'form' => '.za`n',
       'lines' => [
         ';; ZaEon_1',
-        'ZEn     ZaEon   N       departure;journey'
+        'ZaEon   N       departure;journey'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3505,9 +3505,9 @@ $Lexicon = {
       'form' => '.za`iynaT',
       'lines' => [
         ';; ZaEiynap_1',
-        'ZEyn    ZaEiyn  Nap     camel load',
-        '>ZEAn   >aZoEAn N       camel loads',
-        'ZEA}n   ZaEA}in Ndip    camel loads'
+        'ZaEiyn  Nap     camel load',
+        '>aZoEAn N       camel loads',
+        'ZaEA}in Ndip    camel loads'
       ],
       'patterns' => {
         '\'a.z`An' => [
@@ -3534,7 +3534,7 @@ $Lexicon = {
       'form' => '.za`uwn',
       'lines' => [
         ';; ZaEuwn_1',
-        'ZEwn    ZaEuwn  N       load camel'
+        'ZaEuwn  N       load camel'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3553,7 +3553,7 @@ $Lexicon = {
       'form' => '.zA`in',
       'lines' => [
         ';; ZAEin_1',
-        'ZAEn    ZAEin   Nall    ephemeral;transitory     [[ZAEin/ADJ]]'
+        'ZAEin   Nall    ephemeral;transitory     [[ZAEin/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3582,9 +3582,9 @@ $Lexicon = {
       'form' => '.zilf',
       'lines' => [
         ';; Zilof_1',
-        'Zlf     Zilof   N       cloven hoof',
-        'Zlwf    Zuluwf  N       cloven hoof',
-        '>ZlAf   >aZolAf N       cloven hoof'
+        'Zilof   N       cloven hoof',
+        'Zuluwf  N       cloven hoof',
+        '>aZolAf N       cloven hoof'
       ],
       'patterns' => {
         '.zuluwf' => [

@@ -30,6 +30,8 @@ module Elixir.Inflect {- (
 
 import Elixir.System
 
+import Elixir.Derive
+
 import FM.Generic.General
 
 import Encode
@@ -60,7 +62,7 @@ instance Show a => Pretty (String, [(Root, Morphs a)]) where
     pretty = text . show
 
 
--- prettyInflect :: (Morphing a a, Forming a, Rules a, Template a, Inflect b c) => b a -> c -> IO ()
+-- prettyInflect :: (Morphing a a, Derive a, Rules a, Template a, Inflect b c) => b a -> c -> IO ()
 
 prettyInflect x y = (putStr . unlines . map show) (inflect x y)
 
@@ -87,7 +89,7 @@ inflectLookup l t = [ case i of WrapT x -> inflects x
 
 class Inflect m p where
 
-    inflect :: (Template a, Rules a, Forming a, Morphing a a, Morphing (Morphs a) a) =>
+    inflect :: (Template a, Rules a, Derive a, Morphing a a, Morphing (Morphs a) a) =>
                m a -> p -> [(String, [(Root, Morphs a)])]
 
     -- inflect :: Template b => a -> b -> Root -> [String]
@@ -241,7 +243,7 @@ instance Inflect Lexeme ParaVerb where
     inflect (RE r e) x@(VerbC       g n) = [(show x, inflectVerbC (RE r e) x)]
 
 
-inflectVerbP :: (Template a, Forming a, Eq a, Morphing a a) => Lexeme a -> ParaVerb -> [(Root, Morphs a)]
+inflectVerbP :: (Template a, Derive a, Eq a, Morphing a a) => Lexeme a -> ParaVerb -> [(Root, Morphs a)]
 
 inflectVerbP (RE r e) x@(VerbP   v p g n) = paradigm (paraVerbP v p g n)
 
@@ -273,7 +275,7 @@ inflectVerbP (RE r e) x@(VerbP   v p g n) = paradigm (paraVerbP v p g n)
                                 l <- nub ls ]
 
 
-inflectVerbI :: (Template a, Rules b, Morphing b a, Forming b) => Lexeme b -> ParaVerb -> [(Root, Morphs a)]
+inflectVerbI :: (Template a, Rules b, Morphing b a, Derive b) => Lexeme b -> ParaVerb -> [(Root, Morphs a)]
 
 inflectVerbI (RE r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
 
@@ -329,7 +331,7 @@ inflectVerbI (RE r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
                                 l <- nub ls ]
 
 
-inflectVerbC :: (Template a, Rules b, Morphing b a, Forming b) => Lexeme b -> ParaVerb -> [(Root, Morphs a)]
+inflectVerbC :: (Template a, Rules b, Morphing b a, Derive b) => Lexeme b -> ParaVerb -> [(Root, Morphs a)]
 
 inflectVerbC (RE r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
 

@@ -50,7 +50,7 @@ instance Template PatternQ where
                                     _       -> x
 
 
-instance Forming PatternQ where
+instance Rules PatternQ where
 
     isForm f x = x `elem` case f of
 
@@ -60,43 +60,7 @@ instance Forming PatternQ where
                             IV      ->  [IKRaDaSS ..]
                             _       ->  []
 
-    verbStems I _ = [
-
-        (   Nothing,    KaRDaS,     KuRDiS,     KaRDiS,     KaRDaS      ),
-        (   Nothing,    KaRDY,      KuRDI,      KaRDI,      KaRDY       )
-
-        ]
-
-
-    verbStems II _ = [
-
-        (   Nothing,    TaKaRDaS,   TuKuRDiS,   TaKaRDaS,   TaKaRDaS    ),
-        (   Nothing,    TaKaRDY,    TuKuRDI,    TaKaRDY,    TaKaRDY     )
-
-        ]
-
-
-    verbStems III _ = [
-
-        (   Nothing,    IKRanDaS,   UKRunDiS,   KRanDiS,    KRanDaS     ),
-        (   Nothing,    IKRanDY,    UKRunDI,    KRanDI,     KRanDY      )
-
-        ]
-
-
-    verbStems IV _ = [
-
-        (   Just   (    IKRaDSaS,   UKRuDSiS,   KRaDSiS,    KRaDSaS     ),
-                        IKRaDaSS,   UKRuDiSS,   KRaDiSS,    KRaDaSS     )
-
-        ]
-
-
-    verbStems _ _ = []
-
-
-instance Rules PatternQ where
-
+                            
     prefixVerbI x _ _   | x `elem` [I, II]  = "u"
                         | otherwise         = "a"
 
