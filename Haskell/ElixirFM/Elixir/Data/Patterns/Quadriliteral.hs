@@ -136,7 +136,7 @@ data PatternQ =
         |   KRanDiS         |   KRanDI
         |   KRanDaS         |   KRanDY
 
-        |   IKRinDAS
+        |   IKRinDAS        |   IKRinDA'
 
         |   MuKRanDiS       |   MuKRanDI
         |   MuKRanDaS       |   MuKRanDY

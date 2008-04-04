@@ -27,14 +27,19 @@ import Elixir.Data.Patterns
 
 class Derive a where
 
-    verbStems :: Form -> String -> [InfoStem a]
+    verbStems :: Form -> String -> [VerbStems a]
 
-    derive :: (Morphing a a, Morphing (Morphs a) a) => Form -> String -> [(a, a, a, Morphs a)]
+    nounStems :: (Morphing a a, Morphing (Morphs a) a) => Form -> String -> [NounStems a]
+
+    derive :: (Morphing a a, Morphing (Morphs a) a) => Morphs a -> Morphs a
 
 
-type InfoStem a = (Maybe (a, a, a, a), a, a, a, a)
+type VerbStems a = (Maybe (a, a, a, a), a, a, a, a)
 
-lookStem :: Eq a => a -> (Tense, Voice) -> (Tense, Voice) -> Bool -> [InfoStem a] -> [a]
+type NounStems a = (a, a, a, Morphs a)
+
+
+lookStem :: Eq a => a -> (Tense, Voice) -> (Tense, Voice) -> Bool -> [VerbStems a] -> [a]
 
 lookStem x (Perfect, Active)  y z is = [ findStem y z i | i@(_, a, _, _, _) <- is, x == a ]
 lookStem x (Perfect, Passive) y z is = [ findStem y z i | i@(_, _, b, _, _) <- is, x == b ]
@@ -42,7 +47,7 @@ lookStem x (   _   , Active)  y z is = [ findStem y z i | i@(_, _, _, c, _) <- i
 lookStem x (   _   ,    _   ) y z is = [ findStem y z i | i@(_, _, _, _, d) <- is, x == d ]
 
 
-findStem :: (Tense, Voice) -> Bool -> InfoStem a -> a
+findStem :: (Tense, Voice) -> Bool -> VerbStems a -> a
 
 findStem (Perfect, Active)  True (Just (a, _, _, _), _, _, _, _) = a
 findStem (Perfect, Active)  _    ( _               , a, _, _, _) = a
@@ -338,7 +343,7 @@ instance Derive PatternT where
  -- verbStems _ _ = []
 
 
-    derive I _ = [
+    nounStems I _ = [
 
             (   FaCaL,      FACiL,      MaFCUL,     morph   FiCL            ),
             (   FaCaL,      FACiL,      MaFCUL,             FiCAL |< aT     ),
@@ -357,7 +362,7 @@ instance Derive PatternT where
         ]
 
 
-    derive II _ = [
+    nounStems II _ = [
 
             (   FaCCaL,     MuFaCCiL,   MuFaCCaL,   morph   TaFCIL          ),
             (   FaCCaL,     MuFaCCiL,   MuFaCCaL,           TaFCiL |< aT    ),
@@ -368,7 +373,7 @@ instance Derive PatternT where
         ]
 
 
-    derive III _ = [
+    nounStems III _ = [
 
             (   FACaL,      MuFACiL,    MuFACaL,            MuFACaL |< aT   ),
             (   FACaL,      MuFACiL,    MuFACaL,    morph   FiCAL           ),
@@ -378,7 +383,7 @@ instance Derive PatternT where
         ]
 
 
-    derive IV r
+    nounStems IV r
 
         | let x = words r in if null x || length x > 2 && x !! 1 == x !! 2
                                        then False
@@ -403,7 +408,7 @@ instance Derive PatternT where
         ]
 
 
-    derive V _ = [
+    nounStems V _ = [
 
             (   TaFaCCaL,   MutaFaCCiL, MutaFaCCaL, morph   TaFaCCuL        ),
             (   TaFaCCY,    MutaFaCCI,  MutaFaCCY,  morph   TaFaCCI         )
@@ -411,7 +416,7 @@ instance Derive PatternT where
         ]
 
 
-    derive VI _ = [
+    nounStems VI _ = [
 
             (   TaFACaL,    MutaFACiL,  MutaFACaL,  morph   TaFACuL         ),
             (   TaFACY,     MutaFACI,   MutaFACY,   morph   TaFACI          ),
@@ -420,7 +425,7 @@ instance Derive PatternT where
         ]
 
 
-    derive VII _ = [
+    nounStems VII _ = [
 
             (   InFaCaL,    MunFaCiL,   MunFaCaL,   morph   InFiCAL         ),
             (   InFAL,      MunFAL,     MunFAL,     morph   InFiCAL         ),
@@ -430,7 +435,7 @@ instance Derive PatternT where
         ]
 
 
-    derive VIII _ = [
+    nounStems VIII _ = [
 
             (   IFtaCaL,    MuFtaCiL,   MuFtaCaL,   morph   IFtiCAL         ),
             (   IFtAL,      MuFtAL,     MuFtAL,     morph   IFtiCAL         ),
@@ -440,7 +445,7 @@ instance Derive PatternT where
         ]
 
 
-    derive IX _ = [
+    nounStems IX _ = [
 
             (   IFCaLL,     MuFCaLL,    MuFCaLL,    morph   IFCiLAL         ),
             (   IFCaLY,     MuFCaLI,    MuFCaLY,    morph   IFCiLA'         )
@@ -448,7 +453,7 @@ instance Derive PatternT where
         ]
 
 
-    derive X r
+    nounStems X r
 
         | let x = words r in if null x || length x > 2 && x !! 1 == x !! 2
                                        then False
@@ -470,14 +475,14 @@ instance Derive PatternT where
         ]
 
 
-    derive XI _ = [
+    nounStems XI _ = [
 
             (   IFCALL,     MuFCALL,    MuFCALL,    morph   IFCILAL         )
 
         ]
 
 
-    derive XII _ = [
+    nounStems XII _ = [
 
             (   IFCawCaL,   MuFCawCiL,  MuFCawCaL,  morph   IFCICAL         ),
             (   IFCawCY,    MuFCawCI,   MuFCawCY,   morph   IFCICA'         )
@@ -485,21 +490,21 @@ instance Derive PatternT where
         ]
 
 
-    derive XIII _ = [
+    nounStems XIII _ = [
 
             (   IFCawwaL,   MuFCawwiL,  MuFCawwaL,  morph   IFCiwwAL        )
 
         ]
 
 
-    derive XIV _ = [
+    nounStems XIV _ = [
 
             (   IFCanLaL,   MuFCanLiL,  MuFCanLaL,  morph   IFCinLAL        )
 
         ]
 
 
-    derive XV _ = [
+    nounStems XV _ = [
 
             (   IFCanLY,    MuFCanLI,   MuFCanLY,   morph   IFCinLA'        )
 
@@ -541,3 +546,37 @@ instance Derive PatternQ where
 
 
     verbStems _ _ = []
+
+
+    nounStems I _ = [
+
+            (   KaRDaS,     MuKaRDiS,   MuKaRDaS,           KaRDaS |< aT    ),
+            (   KaRDY,      MuKaRDI,    MuKaRDY,            KaRDY |< aT     )
+
+        ]
+
+
+    nounStems II _ = [
+
+            (   TaKaRDaS,   MutaKaRDiS, MutaKaRDaS, morph   TaKaRDaS        ),
+            (   TaKaRDY,    MutaKaRDI,  MutaKaRDY,  morph   TaKaRDI         )
+
+        ]
+
+
+    nounStems III _ = [
+
+            (   IKRanDaS,   MuKRanDiS,  MuKRanDaS,  morph   IKRinDAS        ),
+            (   IKRanDY,    MuKRanDI,   MuKRanDY,   morph   IKRinDA'        )
+
+        ]
+
+
+    nounStems IV _ = [
+
+            (   IKRaDaSS,   MuKRaDiSS,  MuKRaDaSS,  morph   IKRiDSAS        )
+
+        ]
+
+
+    nounStems _ _ = []
