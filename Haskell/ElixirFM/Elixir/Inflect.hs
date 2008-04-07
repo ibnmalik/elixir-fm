@@ -12,7 +12,7 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Elixir", "FM"
+-- "Elixir" "FM"
 
 
 module Elixir.Inflect {- (
@@ -41,8 +41,6 @@ import Elixir.Template
 
 import Elixir.Lexicon
 
--- import Elixir.Data.Patterns.Triliteral
-
 import Data.List (nub, isPrefixOf)
 
 import Elixir.Pretty
@@ -62,7 +60,7 @@ instance Show a => Pretty (String, [(Root, Morphs a)]) where
     pretty = text . show
 
 
--- prettyInflect :: (Morphing a a, Derive a, Rules a, Template a, Inflect b c) => b a -> c -> IO ()
+-- prettyInflect :: (Morphing a a, Forming a, Rules a, Template a, Inflect b c) => b a -> c -> IO ()
 
 prettyInflect x y = (putStr . unlines . map show) (inflect x y)
 
@@ -89,7 +87,7 @@ inflectLookup l t = [ case i of WrapT x -> inflects x
 
 class Inflect m p where
 
-    inflect :: (Template a, Rules a, Derive a, Morphing a a, Morphing (Morphs a) a) =>
+    inflect :: (Template a, Rules a, Forming a, Morphing a a, Morphing (Morphs a) a) =>
                m a -> p -> [(String, [(Root, Morphs a)])]
 
     -- inflect :: Template b => a -> b -> Root -> [String]
@@ -243,7 +241,7 @@ instance Inflect Lexeme ParaVerb where
     inflect (RE r e) x@(VerbC       g n) = [(show x, inflectVerbC (RE r e) x)]
 
 
-inflectVerbP :: (Template a, Derive a, Eq a, Morphing a a) => Lexeme a -> ParaVerb -> [(Root, Morphs a)]
+inflectVerbP :: (Morphing a b, Forming a, Eq a) => Lexeme a -> ParaVerb -> [(Root, Morphs b)]
 
 inflectVerbP (RE r e) x@(VerbP   v p g n) = paradigm (paraVerbP v p g n)
 
@@ -262,7 +260,7 @@ inflectVerbP (RE r e) x@(VerbP   v p g n) = paradigm (paraVerbP v p g n)
                 | null is || v == Passive
                        || not theVariant  -> inRules fs (Perfect, w) [pattern]
 
-                | otherwise            -> [ morph i `asTypeOf` morphs e | f <- fs, i <- is ]
+                | otherwise            -> [ morph i | f <- fs, i <- is ]
 
                         where w = maybe Active id jv
 
@@ -275,7 +273,7 @@ inflectVerbP (RE r e) x@(VerbP   v p g n) = paradigm (paraVerbP v p g n)
                                 l <- nub ls ]
 
 
-inflectVerbI :: (Template a, Rules b, Morphing b a, Derive b) => Lexeme b -> ParaVerb -> [(Root, Morphs a)]
+inflectVerbI :: (Morphing a b, Forming a, Rules a) => Lexeme a -> ParaVerb -> [(Root, Morphs b)]
 
 inflectVerbI (RE r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
 
@@ -331,7 +329,7 @@ inflectVerbI (RE r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
                                 l <- nub ls ]
 
 
-inflectVerbC :: (Template a, Rules b, Morphing b a, Derive b) => Lexeme b -> ParaVerb -> [(Root, Morphs a)]
+inflectVerbC :: (Morphing a b, Forming a, Rules a) => Lexeme a -> ParaVerb -> [(Root, Morphs b)]
 
 inflectVerbC (RE r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
 

@@ -166,7 +166,7 @@ class Wrapping a where
     unwrap :: Wrap m -> m a
 
 
-wraps :: (forall c . (Template c, Derive c, Morphing c c, Rules c)
+wraps :: (forall c . (Template c, Forming c, Morphing c c, Rules c)
             => a c -> [b c]) -> Wrap a -> [Wrap b]
 
 -- wraps f x = unwraps (map wrap . f)     -- ... not exactly
@@ -286,7 +286,7 @@ isIntj Intj = True
 isIntj _    = False
 
 
-verb :: (Morphing a b, Derive a, Rules a, Eq a) => a -> Reflex -> Entry b
+verb :: (Morphing a b, Forming a, Rules a, Eq a) => a -> Reflex -> Entry b
 
 verb m l = Entry (Verb forms [] [] [] justT justV) (morph m) l
 

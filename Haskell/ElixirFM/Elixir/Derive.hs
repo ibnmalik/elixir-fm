@@ -27,11 +27,14 @@ import Elixir.Data.Patterns
 
 class Derive a where
 
+    derive :: (Morphing a a, Morphing (Morphs a) a, Forming a) => Morphs a -> Morphs a
+
+
+class Forming a where
+
     verbStems :: Form -> String -> [VerbStems a]
 
-    nounStems :: (Morphing a a, Morphing (Morphs a) a) => Form -> String -> [NounStems a]
-
-    derive :: (Morphing a a, Morphing (Morphs a) a) => Morphs a -> Morphs a
+    nounStems :: Morphing a a => Form -> String -> [NounStems a]
 
 
 type VerbStems a = (Maybe (a, a, a, a), a, a, a, a)
@@ -62,7 +65,7 @@ findStem (   _   ,    _   ) True (Just (_, _, _, d), _, _, _, _) = d
 findStem (   _   ,    _   ) _    ( _               , _, _, _, d) = d
 
 
-instance Derive String where
+instance Forming String where
 
     verbStems _ _ = [
 
@@ -75,14 +78,14 @@ instance Derive String where
         ]
 
 
-instance Derive PatternL where
+instance Forming PatternL where
 
     verbStems _ _ = []
 
     -- [ (Nothing, Identity, Identity, Identity, Identity) ]
 
 
-instance Derive PatternT where
+instance Forming PatternT where
 
     verbStems I r
 
@@ -213,7 +216,6 @@ instance Derive PatternT where
         ]
 
         | otherwise = [
-
 
         (   Nothing,    HaFCaL,     HuFCiL,     FCiL,       FCaL        ),
         (   Nothing,    HACaL,      HUCiL,      FCiL,       FCaL        ),
@@ -396,7 +398,6 @@ instance Derive PatternT where
 
         | otherwise = [
 
-
             (   HaFCaL,     MuFCiL,     MuFCaL,     morph   HiFCAL          ),
             (   HACaL,      MUCiL,      MUCaL,      morph   HICAL           ),
             (   HaFAL,      MuFIL,      MuFAL,              HiFAL |< aT     ),
@@ -511,7 +512,7 @@ instance Derive PatternT where
         ]
 
 
-instance Derive PatternQ where
+instance Forming PatternQ where
 
     verbStems I _ = [
 
