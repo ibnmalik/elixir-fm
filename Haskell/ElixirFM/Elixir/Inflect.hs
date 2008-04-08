@@ -60,7 +60,7 @@ instance Show a => Pretty (String, [(Root, Morphs a)]) where
     pretty = text . show
 
 
--- prettyInflect :: (Morphing a a, Forming a, Rules a, Template a, Inflect b c) => b a -> c -> IO ()
+prettyInflect :: (Morphing a a, Forming a, Rules a, Show a, Inflect b c) => b a -> c -> IO ()
 
 prettyInflect x y = (putStr . unlines . map show) (inflect x y)
 
@@ -87,7 +87,7 @@ inflectLookup l t = [ case i of WrapT x -> inflects x
 
 class Inflect m p where
 
-    inflect :: (Template a, Rules a, Forming a, Morphing a a, Morphing (Morphs a) a) =>
+    inflect :: (Rules a, Forming a, Morphing a a, Morphing (Morphs a) a) =>
                m a -> p -> [(String, [(Root, Morphs a)])]
 
     -- inflect :: Template b => a -> b -> Root -> [String]
@@ -268,7 +268,7 @@ inflectVerbP (RE r e) x@(VerbP   v p g n) = paradigm (paraVerbP v p g n)
 
           inRules fs pp ts =  [ morph l | f <- fs, t <- ts,
 
-                                let ls = lookStem t pp (Perfect, v) theVariant
+                                let ls = lookVerb t pp (Perfect, v) theVariant
                                                        (verbStems f r),
                                 l <- nub ls ]
 
@@ -306,10 +306,10 @@ inflectVerbI (RE r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
 
             | isEndless x  =  [ k | f <- fs, t <- ts,
 
-                                let ls = lookStem t pp (Imperfect, v) True
+                                let ls = lookVerb t pp (Imperfect, v) True
                                                        (verbStems f r)
 
-                                    hs = lookStem t pp (Imperfect, v) False
+                                    hs = lookVerb t pp (Imperfect, v) False
                                                        (verbStems f r),
 
                                 k <- [ (prefixVerbI f l v, morph l) | l <- nub ls ]
@@ -324,7 +324,7 @@ inflectVerbI (RE r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
 
             | otherwise    =  [ (prefixVerbI f l v, morph l) | f <- fs, t <- ts,
 
-                                let ls = lookStem t pp (Imperfect, v) theVariant
+                                let ls = lookVerb t pp (Imperfect, v) theVariant
                                                        (verbStems f r),
                                 l <- nub ls ]
 
@@ -362,10 +362,10 @@ inflectVerbC (RE r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
 
             | isEndless x  =  [ k | f <- fs, t <- ts,
 
-                                let ls = lookStem t pp (Imperfect, Active) True
+                                let ls = lookVerb t pp (Imperfect, Active) True
                                                        (verbStems f r)
 
-                                    hs = lookStem t pp (Imperfect, Active) False
+                                    hs = lookVerb t pp (Imperfect, Active) False
                                                        (verbStems f r),
 
                                     k <- [ (prefixVerbC f l, morph l) | l <- nub ls ]
@@ -379,17 +379,17 @@ inflectVerbC (RE r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
 
             | otherwise    =  [ (prefixVerbC f l, morph l) | f <- fs, t <- ts,
 
-                                let ls = lookStem t pp (Imperfect, Active) theVariant
+                                let ls = lookVerb t pp (Imperfect, Active) theVariant
                                                        (verbStems f r),
                                 l <- nub ls ]
 
     {-
           inRules fs pp ts = [ k | f <- fs, t <- ts,
 
-                               let ls = lookStem t pp (Imperfect, Active) variant
+                               let ls = lookVerb t pp (Imperfect, Active) variant
                                                       (verbStems f r),
 
-                               let hs = lookStem t pp (Imperfect, Active) False
+                               let hs = lookVerb t pp (Imperfect, Active) False
                                                       (verbStems f r),
 
                                let is = if endless then
@@ -402,7 +402,7 @@ inflectVerbC (RE r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
 
           inRules fs pp ts = [ (prefixVerbC f l, morph l) | f <- fs, t <- ts,
 
-                               let ls = lookStem t pp (Imperfect, Active) variant
+                               let ls = lookVerb t pp (Imperfect, Active) variant
                                                       (verbStems f r),
                                l <- nub ls ]
     -}

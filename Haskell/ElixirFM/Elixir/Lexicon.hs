@@ -86,11 +86,9 @@ module Elixir.Lexicon (
 
 import Elixir.Template
 
-import Elixir.Derive
+import Elixir.System
 
 import Elixir.Data.Patterns
-
-import Elixir.System
 
 -- import English
 

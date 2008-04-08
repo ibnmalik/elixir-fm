@@ -43,6 +43,15 @@ instance Rules PatternL where
     isForm _ _        = False
 
 
+instance Forming PatternL where
+
+    verbStems _ _ = []
+
+    -- [ (Nothing, Identity, Identity, Identity, Identity) ]
+
+    nounStems _ _ = []
+
+
 data PatternL =  Identity
 
     deriving (Enum, Show, Eq)

@@ -87,6 +87,77 @@ instance Rules (Morphs PatternQ) where
 -}
 
 
+instance Forming PatternQ where
+
+    verbStems I _ = [
+
+        (   Nothing,    KaRDaS,     KuRDiS,     KaRDiS,     KaRDaS      ),
+        (   Nothing,    KaRDY,      KuRDI,      KaRDI,      KaRDY       )
+
+        ]
+
+
+    verbStems II _ = [
+
+        (   Nothing,    TaKaRDaS,   TuKuRDiS,   TaKaRDaS,   TaKaRDaS    ),
+        (   Nothing,    TaKaRDY,    TuKuRDI,    TaKaRDY,    TaKaRDY     )
+
+        ]
+
+
+    verbStems III _ = [
+
+        (   Nothing,    IKRanDaS,   UKRunDiS,   KRanDiS,    KRanDaS     ),
+        (   Nothing,    IKRanDY,    UKRunDI,    KRanDI,     KRanDY      )
+
+        ]
+
+
+    verbStems IV _ = [
+
+        (   Just   (    IKRaDSaS,   UKRuDSiS,   KRaDSiS,    KRaDSaS     ),
+                        IKRaDaSS,   UKRuDiSS,   KRaDiSS,    KRaDaSS     )
+
+        ]
+
+
+    verbStems _ _ = []
+
+
+    nounStems I _ = [
+
+        (   KaRDaS,     MuKaRDiS,   MuKaRDaS,           KaRDaS |< aT    ),
+        (   KaRDY,      MuKaRDI,    MuKaRDY,            KaRDY |< aT     )
+
+        ]
+
+
+    nounStems II _ = [
+
+        (   TaKaRDaS,   MutaKaRDiS, MutaKaRDaS, morph   TaKaRDaS        ),
+        (   TaKaRDY,    MutaKaRDI,  MutaKaRDY,  morph   TaKaRDI         )
+
+        ]
+
+
+    nounStems III _ = [
+
+        (   IKRanDaS,   MuKRanDiS,  MuKRanDaS,  morph   IKRinDAS        ),
+        (   IKRanDY,    MuKRanDI,   MuKRanDY,   morph   IKRinDA'        )
+
+        ]
+
+
+    nounStems IV _ = [
+
+        (   IKRaDaSS,   MuKRaDiSS,  MuKRaDaSS,  morph   IKRiDSAS        )
+
+        ]
+
+
+    nounStems _ _ = []
+
+
 data PatternQ =
 
 --  Form I

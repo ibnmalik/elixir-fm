@@ -220,6 +220,18 @@ data Form = I | II | III | IV | V | VI | VII | VIII | IX | X |
     deriving (Show, Eq, Enum)
 
 
+class Forming a where
+
+    verbStems :: Form -> String -> [VerbStems a]
+
+    nounStems :: Morphing a a => Form -> String -> [NounStems a]
+
+
+type VerbStems a = (Maybe (a, a, a, a), a, a, a, a)
+
+type NounStems a = (a, a, a, Morphs a)
+
+
 class Eq a => Rules a where
 
     isForm :: Form -> a -> Bool

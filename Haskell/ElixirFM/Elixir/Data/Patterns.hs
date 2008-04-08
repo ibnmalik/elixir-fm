@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Data.Patterns
--- Copyright   :  Otakar Smrz 2005-2007
+-- Copyright   :  Otakar Smrz 2005-2008
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -77,3 +77,19 @@ instance Rules String where
                                   show y == x, f `isForm` y ]
 
                  in any (not . null) [t, q, l]
+
+
+instance Forming String where
+
+    verbStems _ _ = [
+
+        (   Just  (     "FaL",      "X",        "X",         "X"         ),
+                        "FaCL",     "X",        "X",         "X"         ),  -- laysa
+
+        (   Just  (     "las",      "X",        "X",         "X"         ),
+                        "lays",     "X",        "X",         "X"         )   -- laysa
+
+        ]
+
+
+    nounStems _ _ = []
