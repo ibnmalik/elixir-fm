@@ -22,19 +22,19 @@ wAH     Napdu   oasis
 wAH     NAt     oases
 ;
 ;--- wAd
-;; wa>ad-i_1
-wa>ad   PV      bury alive
+;; waOad-i_1
+waOad   PV      bury alive
 }id     IV      bury alive
 wu}id   PV_Pass be buried alive
-w&ad    IV_Pass_yu      be buried alive
-;; tawa>~ad_1
-tawa>~ad        PV      slow down;hesitate
-tawa>~ad        IV      slow down;hesitate
-;; Ait~a>ad_1
-Ait~a>ad        PV      slow down;hesitate
+wWad    IV_Pass_yu      be buried alive
+;; tawaO~ad_1
+tawaO~ad        PV      slow down;hesitate
+tawaO~ad        IV      slow down;hesitate
+;; Ait~aOad_1
+Ait~aOad        PV      slow down;hesitate
 t~a}id  IV      slow down;hesitate
-;; tu&adap_1
-tu&ad   Nap     slowness;unhurried
+;; tuWadap_1
+tuWad   Nap     slowness;unhurried
 ;; wa}iyd_1
 wa}iyd  N       unhurried;gradual
 ;; wa}iydAF_1
@@ -46,16 +46,16 @@ mut~a}id        Nall    slow;unhurried
 wAd     FW      Wade;Wad     [[wAd/NOUN_PROP]]
 ;
 ;--- wAr
-;; wa>ar-i_1
-wa>ar   PV      frighten
+;; waOar-i_1
+waOar   PV      frighten
 }ir     IV      frighten
 wu}ir   PV_Pass be frightened
-w&ar    IV_Pass_yu      be frightened
-;; Aisotawo>ar_1
-Aisotawo>ar     PV_intr be frightened
+wWar    IV_Pass_yu      be frightened
+;; AisotawoOar_1
+AisotawoOar     PV_intr be frightened
 sotawo}ir       IV_intr be frightened
-;; wa>or_1
-wa>or   N       frightening
+;; waOor_1
+waOor   N       frightening
 ;
 ;--- wArT
 ; striker Wartan Gazarian
@@ -133,29 +133,29 @@ wAyin   Nprop   Wayne
 ;--- wbA
 ;; wabi}-a_1
 wabi}   PV_intr be diseased;be infested
-wba>    IV_intr be diseased;be infested
+wbaO    IV_intr be diseased;be infested
 wba|    IV-|    be diseased;be infested
-wba&    IV_wn   be diseased;be infested
+wbaW    IV_wn   be diseased;be infested
 wba}    IV_yn   be diseased;be infested
-;; wabu&-u_1
-wabu&   PV_intr be diseased;be infested
-wbu&    IV_intr be diseased;be infested
+;; wabuW-u_1
+wabuW   PV_intr be diseased;be infested
+wbuW    IV_intr be diseased;be infested
 wbu}    IV_yn   be diseased;be infested
-;; waba>_1
-waba>   N0_Nh   epidemic;disease
-waba&   Nh      epidemic;disease
+;; wabaO_1
+wabaO   N0_Nh   epidemic;disease
+wabaW   Nh      epidemic;disease
 waba}   Nhy     epidemic;disease
 waba|   N-|     epidemics;diseases
->awobA' N0_Nh   epidemics;disease
->awobA& Nh      epidemics;disease
->awobA} Nhy     epidemics;disease
+OawobA' N0_Nh   epidemics;disease
+OawobAW Nh      epidemics;disease
+OawobA} Nhy     epidemics;disease
 ;; wabA'_1
 wabA'   N0_Nh   disease;epidemic
-wabA&   Nh      disease;epidemic
+wabAW   Nh      disease;epidemic
 wabA}   Nhy     disease;epidemic
 wabA'   NAn_Nayn        diseases;epidemics
 wabA}   Nayn    diseases;epidemics
->awobi} Nap     diseases;epidemics
+Oawobi} Nap     diseases;epidemics
 ;; wabA}iy~_1
 wabA}iy~        N-ap    epidemical;plague-like     [[wabA}iy~/ADJ]]
 ;; wabi}_1
@@ -168,7 +168,7 @@ wabiy}  NAn_Nayn        plague-stricken;infested
 wabiy}  Nuwn_Niyn       plague-stricken;infested
 ;; mawobuw'_1
 mawobuw'        Nall    plague-stricken;infested     [[mawobuw'/ADJ]]
-mawobuw&        Nall    plague-stricken;infested
+mawobuwW        Nall    plague-stricken;infested
 mawobuw}        Nall    plague-stricken;infested
 ;
 ;--- wbx
@@ -186,15 +186,15 @@ wabir   PV_intr be hirsute
 wbar    IV_intr be hirsute
 ;; wabar_1
 wabar   N       hair;camel fur;goat fur
->awobAr N       hair;camel fur;goat fur
+OawobAr N       hair;camel fur;goat fur
 ;; wabariy~_1
 wabariy~        N-ap    terry;toweling     [[wabariy~/ADJ]]
 ;; wabir_1
 wabir   N-ap    hairy;fluffy
-;; >awobar_1
->awobar Nel     hairy;fluffy
+;; Oawobar_1
+Oawobar Nel     hairy;fluffy
 waborA' N0_Nh   hairy;fluffy
-waborA& Nh      hairy;fluffy
+waborAW Nh      hairy;fluffy
 waborA} Nhy     hairy;fluffy
 ;; muwab~ar_1
 muwab~ar        N-ap    woolly     [[muwab~ar/ADJ]]
@@ -202,9 +202,9 @@ muwab~ar        N-ap    woolly     [[muwab~ar/ADJ]]
 ;--- wb$
 ;; waba$_1
 waba$   N       trash;nonsense
->awobA$ N       trash;nonsense
-;; >awobA$_1
->awobA$ N       riffraf;rabble
+OawobA$ N       trash;nonsense
+;; OawobA$_1
+OawobA$ N       riffraf;rabble
 ;
 ;--- wbq
 ;; wabiq-a_1
@@ -213,8 +213,8 @@ wbaq    IV_intr perish
 ;; wabaq-i_1
 wabaq   PV_intr perish
 biq     IV_intr perish
-;; >awobaq_1
->awobaq PV      ruin;debase
+;; Oawobaq_1
+Oawobaq PV      ruin;debase
 wbiq    IV_yu   ruin;debase
 wbaq    IV_Pass_yu      be ruined;be debased
 ;; mawobiq_1
@@ -243,8 +243,8 @@ wAbil   N       shower;downpour
 wabah   PV      heed;mind;pay attention
 wabih   PV      heed;mind;pay attention
 wbah    IV      heed;mind;pay attention
-;; >awobah_1
->awobah PV      heed;mind;pay attention
+;; Oawobah_1
+Oawobah PV      heed;mind;pay attention
 wbih    IV_yu   heed;mind;pay attention
 wbah    IV_Pass_yu      be heeded;be minded
 ;; waboh_1
@@ -260,7 +260,7 @@ wat~ad  PV      fasten;secure
 wat~id  IV_yu   fasten;secure
 ;; watad_1
 watad   N       stake;peg;stick
->awotAd Ndip    stakes;pegs;sticks
+OawotAd Ndip    stakes;pegs;sticks
 ;; tawotiyd_1
 tawotiyd        N/At    fastening;securing;strengthening
 ;
@@ -274,8 +274,8 @@ wat~ir  IV_yu   strain;stretch;tighten
 ;; wAtar_1
 wAtar   PV      repeat at intervals
 wAtir   IV_yu   repeat at intervals
-;; >awotar_1
->awotar PV      string (a bow);tighten the strings
+;; Oawotar_1
+Oawotar PV      string (a bow);tighten the strings
 wtir    IV_yu   string (a bow);tighten the strings
 wtar    IV_Pass_yu      be strung (bow);be tightened (strings)
 ;; tawat~ar_1
@@ -292,7 +292,7 @@ wator   NF      separately;one by one     [[wator/ADV]]
 watoriy~        N-ap    uneven number;odd number     [[watoriy~/ADJ]]
 ;; watar_1
 watar   Ndu     string;tendon;cord
->awotAr N       strings;tendons;cords
+OawotAr N       strings;tendons;cords
 ;; watariy~_1
 watariy~        N-ap    stringed;string     [[watariy~/ADJ]]
 ;; watiyrap_1
@@ -318,7 +318,7 @@ mutawAtir       N-ap    continuous     [[mutawAtir/ADJ]]
 ;; watiyn_1
 watiyn  N       aorta
 wutun   N       aortas
->awotin Nap     aortas
+Oawotin Nap     aortas
 ;
 ;--- wty
 ;; wAtaY_1
@@ -338,26 +338,26 @@ muwAt   Nuwn_Niyn       pleasing;suitable
 muwAtiy NapAt   pleasing;suitable
 ;
 ;--- wvA
-;; wava>-a_1
-wava>   PV->    bruise;sprain
+;; wavaO-a_1
+wavaO   PV-O    bruise;sprain
 wava|   PV-|    bruise;sprain
-wava&   PV_w    bruise;sprain
-va>     IV      bruise;sprain
+wavaW   PV_w    bruise;sprain
+vaO     IV      bruise;sprain
 va|     IV-|    bruise;sprain
-va&     IV_wn   bruise;sprain
+vaW     IV_wn   bruise;sprain
 va}     IV_yn   bruise;sprain
 ;; wavi}-a_1
 wavi}   PV_intr be bruised;be sprained
-va>     IV      be bruised;be sprained
+vaO     IV      be bruised;be sprained
 va|     IV-|    be bruised;be sprained
-va&     IV_wn   be bruised;be sprained
+vaW     IV_wn   be bruised;be sprained
 va}     IV_yn   be bruised;be sprained
-;; >awova>_1
->awova> PV->    bruise;sprain
->awova| PV-|    bruise;sprain
->awova& PV_w    bruise;sprain
+;; OawovaO_1
+OawovaO PV-O    bruise;sprain
+Oawova| PV-|    bruise;sprain
+OawovaW PV_w    bruise;sprain
 wvi}    IV_yu   bruise;sprain
-wva>    IV_Pass_yu      be bruised;be sprained
+wvaO    IV_Pass_yu      be bruised;be sprained
 ;; wavo'_1
 wavo'   N0      contusion;sprain
 wavo}   NF_Nhy  contusion;sprain
@@ -371,8 +371,8 @@ vib     IV      jump;leap
 ;; wAvab_1
 wAvab   PV      fall upon
 wAvib   IV_yu   fall upon
-;; >awovab_1
->awovab PV      make jump
+;; Oawovab_1
+Oawovab PV      make jump
 wvib    IV_yu   make jump
 wvab    IV_Pass_yu      be made to jump
 ;; tawav~ab_1
@@ -422,8 +422,8 @@ wav~iq  IV_yu   attest;certify;authenticate
 ;; wAvaq_1
 wAvaq   PV      make a treaty with;sign an agreement with
 wAviq   IV_yu   make a treaty with;sign an agreement with
-;; >awovaq_1
->awovaq PV      fasten;tie
+;; Oawovaq_1
+Oawovaq PV      fasten;tie
 wviq    IV_yu   fasten;tie
 wvaq    IV_Pass_yu      be fastened;be tied
 ;; tawav~aq_1
@@ -450,8 +450,8 @@ wavA}iq Ndip    documents;charters
 wavA}iqiy~      N-ap    documentary;document     [[wavA}iqiy~/ADJ]]
 ;; wuvuwq_1
 wuvuwq  N       confidence;self-assurance
-;; >awovaq_2
->awovaq Nel     firmer/firmest;stronger/strongest
+;; Oawovaq_2
+Oawovaq Nel     firmer/firmest;stronger/strongest
 ;; mawoviq_1
 mawoviq Ndu     treaty;contract
 ;; miyvAq_1
@@ -479,7 +479,7 @@ waviyl  N       rope
 ;--- wvn
 ;; wavan_1
 wavan   Ndu     idol
->awovAn N       idols
+OawovAn N       idols
 wuvun   N       idols
 ;; wavaniy~_1
 wavaniy~        Nall    pagan;idolatrous     [[wavaniy~/ADJ]]
@@ -493,8 +493,8 @@ jib     IV_intr be necessary;be incumbent
 ;; waj~ab_1
 waj~ab  PV      make necessary;obligate
 waj~ib  IV_yu   make necessary;obligate
-;; >awojab_1
->awojab PV      make necessary;obligate
+;; Oawojab_1
+Oawojab PV      make necessary;obligate
 wjib    IV_yu   make necessary;obligate
 wjab    IV_Pass_yu      be made necessary;be obligated
 ;; tawaj~ab_1
@@ -508,16 +508,16 @@ wajob   Napdu   meal;menu
 wajab   NAt     meals;menus
 ;; wujuwb_1
 wujuwb  N       duty;necessity;obligation
-;; <iyjAb_1
-<iyjAb  N       affirmative;obligation;compliance
-;; <iyjAbAF_1
-<iyjAb  NF      in accordance with     [[<iyjAb/ADV]]
-;; <iyjAbiy~_1
-<iyjAbiy~       Nall    positive;affirmative     [[<iyjAbiy~/ADJ]]
-;; <iyjAbiy~At_1
-<iyjAbiy~       NAt     positive aspects;good points     [[<iyjAbiy~/NOUN]]
-;; <iyjAbiy~ap_1
-<iyjAbiy~       Nap     positive attitude;positive nature     [[<iyjAbiy~/NOUN]]
+;; IiyjAb_1
+IiyjAb  N       affirmative;obligation;compliance
+;; IiyjAbAF_1
+IiyjAb  NF      in accordance with     [[IiyjAb/ADV]]
+;; IiyjAbiy~_1
+IiyjAbiy~       Nall    positive;affirmative     [[IiyjAbiy~/ADJ]]
+;; IiyjAbiy~At_1
+IiyjAbiy~       NAt     positive aspects;good points     [[IiyjAbiy~/NOUN]]
+;; IiyjAbiy~ap_1
+IiyjAbiy~       Nap     positive attitude;positive nature     [[IiyjAbiy~/NOUN]]
 ;; wAjib_1
 wAjib   NduAt   duty;obligation;requirement
 wajA}ib Ndip    duties;obligations;requirement
@@ -542,8 +542,8 @@ wajad   PV      find
 jid     IV      find
 wujid   PV_Pass be found;exist
 wjad    IV_Pass_yu      be found;exist
-;; >awojad_1
->awojad PV      find;obtain
+;; Oawojad_1
+Oawojad PV      find;obtain
 wjid    IV_yu   find;obtain
 ;; tawAjad_1
 tawAjad PV      exist;be present
@@ -562,8 +562,8 @@ wujuwdiy~       Nall    existential     [[wujuwdiy~/ADJ]]
 wujuwdiy~       Nap     existentialism     [[wujuwdiy~/NOUN]]
 ;; mawojidap_1
 mawojid Nap     feeling;emotion;resentment
-;; <iyjAd_1
-<iyjAd  N/At    discovery;finding
+;; IiyjAd_1
+IiyjAd  N/At    discovery;finding
 ;; wAjid_1
 wAjid   N       finding
 ;; mawojuwd_1
@@ -578,13 +578,13 @@ tawAjud N/At    presence
 ;--- wjr
 ;; wajor_1
 wajor   Ndu     cavern;den
->awojAr N       caverns;dens
+OawojAr N       caverns;dens
 ;; wajorap_1
 wajor   Nap     pitfall
 wajar   Nap     pitfall
 ;; wijAr_1
 wijAr   Ndu     cave;burrow
->awojir Nap     caves;burrows
+Oawojir Nap     caves;burrows
 ;; miyjAr_1
 miyjAr  Ndu     racket;bat (sport)
 mawAjiyr        Ndip    rackets;bats (sport)
@@ -593,8 +593,8 @@ mawAjiyr        Ndip    rackets;bats (sport)
 ;; wajaz-i_1
 wajaz   PV_intr be brief;be concise
 jiz     IV_intr be brief;be concise
-;; >awojaz_1
->awojaz PV_intr be concise;be brief;summarize
+;; Oawojaz_1
+Oawojaz PV_intr be concise;be brief;summarize
 wjiz    IV_intr_yu      be concise;be brief;summarize
 wjaz    IV_Pass_yu      be summarized
 ;; wajAzap_1
@@ -603,8 +603,8 @@ wajAz   Nap     brevity;conciseness
 wajoz   N-ap    brief;concise
 ;; wajiyz_1
 wajiyz  N-ap    short;brief;summarized     [[wajiyz/ADJ]]
-;; <iyjAz_1
-<iyjAz  N/At    shortness;brevity
+;; IiyjAz_1
+IiyjAz  N/At    shortness;brevity
 ;; muwjaz_1
 muwjaz  NduAt   summary;abstract
 ;
@@ -612,8 +612,8 @@ muwjaz  NduAt   summary;abstract
 ;; wajas-i_1
 wajas   PV_intr be afraid;be worried
 jis     IV_intr be afraid;be worried
-;; >awojas_1
->awojas PV_intr worry;sense;feel
+;; Oawojas_1
+Oawojas PV_intr worry;sense;feel
 wjis    IV_intr_yu      worry;sense;feel
 wjas    IV_Pass_yu      be felt
 ;; tawaj~as_1
@@ -632,8 +632,8 @@ wAjis   NduAt   premonition
 ;; wajiE-a_1
 wajiE   PV      feel pain;hurt
 wjaE    IV      feel pain;hurt
-;; >awojaE_1
->awojaE PV      hurt
+;; OawojaE_1
+OawojaE PV      hurt
 wjiE    IV_yu   hurt
 wjaE    IV_Pass_yu      be hurt
 ;; tawaj~aE_1
@@ -641,7 +641,7 @@ tawaj~aE        PV      suffer pain;commiserate
 tawaj~aE        IV      suffer pain;commiserate
 ;; wajaE_1
 wajaE   N       pain;ache
->awojAE N       pains;aches
+OawojAE N       pains;aches
 wijAE   N       pains;aches
 ;; wajiyE_1
 wajiyE  N-ap    painful;grievous     [[wajiyE/ADJ]]
@@ -654,8 +654,8 @@ mawojuwE        Nall    suffering;feeling pain     [[mawojuwE/ADJ]]
 ;; wajaf-i_1
 wajaf   PV_intr be agitated;be troubled;palpitate
 jif     IV_intr be agitated;be troubled;palpitate
-;; >awojaf_1
->awojaf PV      agitate;disturb
+;; Oawojaf_1
+Oawojaf PV      agitate;disturb
 wjif    IV_yu   agitate;disturb
 wjaf    IV_Pass_yu      be agitated;be disturbed
 ;; Aisotawojaf_1
@@ -673,19 +673,19 @@ wAjif   N-ap    fluttering;throbbing
 wujaq   N       oudjak (Tunisian gendarme)
 ;; wujAq_1
 wujAq   NduAt   cooking stove
->uwjAq  N       cooking stove
+OuwjAq  N       cooking stove
 ;
 ;--- wjl
 ;; wajil-a_1
 wajil   PV_intr be afraid;be cowardly
 wjal    IV_intr be afraid;be cowardly
-;; >awojal_1
->awojal PV      frighten;fill with fear
+;; Oawojal_1
+Oawojal PV      frighten;fill with fear
 wjil    IV_yu   frighten;fill with fear
 wjal    IV_Pass_yu      be frightened;be filled with fear
 ;; wajal_1
 wajal   N       fear;dread
->awojAl N       fear;dread
+OawojAl N       fear;dread
 ;; wajil_1
 wajil   Nall    fearful;cowardly
 wijAl   N       fearful;cowardly
@@ -749,7 +749,7 @@ wijAhiy~        N-ap    contradictory     [[wijAhiy~/ADJ]]
 ;; wajiyh_1
 wajiyh  N/ap    prominent;distinguished     [[wajiyh/ADJ]]
 wujahA' N0_Nh   prominent;distinguished;socialites
-wujahA& Nh      prominent;distinguished;socialites
+wujahAW Nh      prominent;distinguished;socialites
 wujahA} Nhy     prominent;distinguished;socialites
 ;; tujAha_1
 tujAha  FW-Wa   towards;facing     [[tujAha/PREP]]
@@ -821,8 +821,8 @@ waHodAniy~      Nap     singleness;individualness     [[waHodAniy~/NOUN]]
 waHiyd  Nprop   Waheed
 ;; waHiyd_2
 waHiyd  N-ap    only;sole;alone;exclusive     [[waHiyd/ADJ]]
-;; >awoHad_1
->awoHad Nel     unique;singular
+;; OawoHad_1
+OawoHad Nel     unique;singular
 ;; tawoHiyd_1
 tawoHiyd        N/At    unification;standardization
 ;; tawoHiyd_2
@@ -860,8 +860,8 @@ mut~aHid        Nap     United     [[mut~aHid/NOUN_PROP]]
 musotawoHid     Nall    solitary;isolated
 ;
 ;--- wH$
-;; >awoHa$_1
->awoHa$ PV_intr be deserted;be desolate
+;; OawoHa$_1
+OawoHa$ PV_intr be deserted;be desolate
 wHi$    IV_intr_yu      be deserted;be desolate
 ;; tawaH~a$_1
 tawaH~a$        PV_intr be wild;be deserted;be desolate
@@ -881,8 +881,8 @@ waHo$   Nap     loneliness;desolation
 waHo$iy~        Nall    brutal;savage     [[waHo$iy~/ADJ]]
 ;; waHo$iy~ap_1
 waHo$iy~        Nap     brutality     [[waHo$iy~/NOUN]]
-;; <iyHA$_1
-<iyHA$  N/At    loneliness;desolation
+;; IiyHA$_1
+IiyHA$  N/At    loneliness;desolation
 ;; tawaH~u$_1
 tawaH~u$        N/At    brutality;savagery
 ;; AisotiyHA$_1
@@ -902,8 +902,8 @@ waHof   N-ap    luxuriant;black
 ;; waHil-a_1
 waHil   PV_intr be stuck;be stranded;be bogged down
 wHal    IV_intr be stuck;be stranded;be bogged down
-;; >awoHal_1
->awoHal PV      bog down;put in a fix
+;; OawoHal_1
+OawoHal PV      bog down;put in a fix
 wHil    IV_yu   bog down;put in a fix
 wHal    IV_Pass_yu      be bogged down;be put in a fix
 ;; tawaH~al_1
@@ -960,17 +960,17 @@ waH     PV_ttAw inspire
 Hiy     IV_0hAnn        inspire
 H       IV_0hwnyn       inspire
 wHaY    IV_0_Pass_yu    be inspired
-;; >awoHaY_1
->awoHaY PV_0    inspire;suggest
->awoHA  PV_h    inspire;suggest
->awoHay PV_Atn  inspire;suggest
->awoH   PV_ttAw inspire;suggest
+;; OawoHaY_1
+OawoHaY PV_0    inspire;suggest
+OawoHA  PV_h    inspire;suggest
+OawoHay PV_Atn  inspire;suggest
+OawoH   PV_ttAw inspire;suggest
 wHiy    IV_0hAnn_yu     inspire;suggest
 wH      IV_0hwnyn_yu    inspire;suggest
 wHaY    IV_0_Pass_yu    be inspired;be suggested
 wHay    IV_Ann_Pass_yu  be inspired;be suggested
-;; >uwoHiy_2
->uwHiy  PV_Pass-aAat    occur
+;; OuwoHiy_2
+OuwHiy  PV_Pass-aAat    occur
 wHaY    IV_0_Pass_yu    occur
 ;; AisotawoHaY_1
 AisotawoHaY     PV_0    consult;seek advice from;be inspired by
@@ -982,13 +982,13 @@ sotawoH IV_0hwnyn       consult;seek advice from;be inspired by
 sotawoHaY       IV_0_Pass_yu    be consulted;be sought (advice, inspiration)
 ;; waHoy_1
 waHoy   N       inspiration
-;; <iyHA'_1
-<iyHA'  N0_Nh   suggestion;inspiration
-<iyHA&  Nh      suggestion;inspiration
-<iyHA}  Nhy     suggestion;inspiration
-<iyHA'  NAn_Nayn        suggestions;inspiration
-<iyHA}  Nayn    suggestions;inspiration
-<iyHA'  NAt     suggestions;inspiration
+;; IiyHA'_1
+IiyHA'  N0_Nh   suggestion;inspiration
+IiyHAW  Nh      suggestion;inspiration
+IiyHA}  Nhy     suggestion;inspiration
+IiyHA'  NAn_Nayn        suggestions;inspiration
+IiyHA}  Nayn    suggestions;inspiration
+IiyHA'  NAt     suggestions;inspiration
 ;; muwHiy_1
 muwHiy  N0F_Nh  inspiring     [[muwHiy/ADJ]]
 muwH    NK      inspiring
@@ -1048,8 +1048,8 @@ waxiym  N-ap    unhealthy;indigestible     [[waxiym/ADJ]]
 waxiym  N-ap    evil;fatal     [[waxiym/ADJ]]
 ;; waxAmap_1
 waxAm   Nap     unhealthiness;evil nature
-;; >awoxam_1
->awoxam Nel     worse/worst
+;; Oawoxam_1
+Oawoxam Nel     worse/worst
 ;; musotawoxam_1
 musotawoxam     N-ap    unwholesome;indigestible     [[musotawoxam/ADJ]]
 ;
@@ -1112,8 +1112,8 @@ tawAdid IV_C_intr       be friends;live harmoniously
 ;; wud~_1
 wud~    N       affection;friendship
 wid~    N       affection;friendship
-;; >awodAd_1
->awodAd N       affectionate
+;; OawodAd_1
+OawodAd N       affectionate
 ;; wud~iy~_1
 wud~iy~ Nall    friendly;amicable     [[wud~iy~/ADJ]]
 wid~iy~ Nall    friendly;amicable     [[wid~iy~/ADJ]]
@@ -1139,7 +1139,7 @@ tawAd~  N/At    amicable relations;friendly basis
 ;--- wdj
 ;; wadaj_1
 wadaj   Ndu     jugular vein
->awodAj N       jugular veins
+OawodAj N       jugular veins
 widAj   N       jugular vein
 ;
 ;--- wdr
@@ -1157,8 +1157,8 @@ daE     IV      let;allow
 ;; wad~aE_1
 wad~aE  PV      bid farewell
 wad~iE  IV_yu   bid farewell
-;; >awodaE_1
->awodaE PV      deposit;entrust
+;; OawodaE_1
+OawodaE PV      deposit;entrust
 wdiE    IV_yu   deposit;entrust
 wdaE    IV_Pass_yu      be deposited;be entrusted
 ;; AisotawodaE_1
@@ -1185,8 +1185,8 @@ wadA}iE Ndip    deposits;trusts;charges
 miydaE  Napdu   apron;smock
 ;; tawodiyE_1
 tawodiyE        N/At    departure;farewell
-;; <iydAE_1
-<iydAE  N/At    depositing;consigning;deposition
+;; IiydAE_1
+IiydAE  N/At    depositing;consigning;deposition
 ;; AisotiydAE_1
 AisotiydAE      N/At    depositing;consigning;deposition
 ;; wAdiE_1
@@ -1217,7 +1217,7 @@ wadiyq  Napdu   lawn;meadow
 ;--- wdk
 ;; wadak_1
 wadak   N       fat
->awodAk N       fat
+OawodAk N       fat
 ;; wadik_1
 wadik   N-ap    fatty
 ;; waduwk_1
@@ -1235,11 +1235,11 @@ waday   PV_Atn  pay blood money
 wad     PV_ttAw pay blood money
 diy     IV_0hAnn        pay blood money
 wdaY    IV_0_Pass_yu    be paid blood money
-;; >awodaY_1
->awodaY PV_0    put and end to;destroy
->awodA  PV_h    put and end to;destroy
->awoday PV_Atn  put and end to;destroy
->awod   PV_ttAw put and end to;destroy
+;; OawodaY_1
+OawodaY PV_0    put and end to;destroy
+OawodA  PV_h    put and end to;destroy
+Oawoday PV_Atn  put and end to;destroy
+Oawod   PV_ttAw put and end to;destroy
 wdiy    IV_0hAnn_yu     put and end to;destroy
 wd      IV_0hwnyn_yu    put and end to;destroy
 wdaY    IV_0_Pass_yu    be ended;be destroyed
@@ -1251,7 +1251,7 @@ diy     NapAt   blood money;indemnity;wergild
 wAdiy   N0F_Nh  wadi;valley
 wAd     NK      wadi;valley
 wAdiy   NAn_Nayn        wadis;valleys
->awodiy Nap     wadis;valleys
+Oawodiy Nap     wadis;valleys
 widoyAn N       wadis;valleys
 ;
 ;--- w*r
@@ -1268,7 +1268,7 @@ wArab   PV      double-cross;outsmart
 wArib   IV_yu   double-cross;outsmart
 ;; warob_1
 warob   N       slant;slope;diagonal
->aworAb N       slants;slopes;diagonals
+OaworAb N       slants;slopes;diagonals
 ;; wirAb_1
 wirAb   N       obliqueness
 ;; muwArabap_1
@@ -1287,15 +1287,15 @@ wrav    IV_Pass_yu      be inherited
 ;; war~av_1
 war~av  PV      transmit;bequeath
 war~iv  IV_yu   transmit;bequeath
-;; >aworav_1
->aworav PV      transmit;bequeath
+;; Oaworav_1
+Oaworav PV      transmit;bequeath
 wriv    IV_yu   transmit;bequeath
 wrav    IV_Pass_yu      be transmited;be bequeathed
 ;; tawArav_1
 tawArav PV      inherit successively
 tawArav IV      inherit successively
-;; <irv_1
-<irv    N       heritage;legacy
+;; Iirv_1
+Iirv    N       heritage;legacy
 ;; wirov_1
 wirov   N       inheritance;legacy
 ;; wirAvap_1
@@ -1307,7 +1307,7 @@ wirAviy~        NF      genetically     [[wirAviy~/ADV]]
 ;; wariyv_1
 wariyv  N/ap    heir;inheritor
 wuravA' N0_Nh   heirs;inheritors
-wuravA& Nh      heirs;inheritors
+wuravAW Nh      heirs;inheritors
 wuravA} Nhy     heirs;inheritors
 ;; miyrAv_1
 miyrAv  Ndu     inheritance;heritage
@@ -1340,8 +1340,8 @@ rid     IV_intr be mentioned;appear;arrive
 ;; war~ad_1
 war~ad  PV      supply;furnish;be in bloom
 war~id  IV_yu   supply;furnish;be in bloom
-;; >aworad_1
->aworad PV      present;import
+;; Oaworad_1
+Oaworad PV      present;import
 wrid    IV_yu   present;import
 wrad    IV_Pass_yu      be presented;be imported
 ;; tawArad_1
@@ -1352,10 +1352,10 @@ Aisotaworad     PV      import
 sotaworid       IV      import
 ;; wirod_1
 wirod   N       wird (Islamic prayer)
->aworAd N       wird (Islamic prayer)
+OaworAd N       wird (Islamic prayer)
 ;; wariyd_1
 wariyd  Ndu     vein;jugular vein
->aworid Nap     veins;jugular veins
+Oaworid Nap     veins;jugular veins
 ;; wuruwd_1
 wuruwd  N       appearance;arrival
 ;; maworid_1
@@ -1367,9 +1367,9 @@ maworid N0      Mawrid
 maworid Nap     landing place;wharf
 ;; taworiyd_1
 taworiyd        N/At    provision;supply;furnishing
-;; <iyrAd_1
-<iyrAd  N       revenue;yield;profit
-<iyrAd  NAt     revenues;yields;profits
+;; IiyrAd_1
+IiyrAd  N       revenue;yield;profit
+IiyrAd  NAt     revenues;yields;profits
 ;; tawArud_1
 tawArud N/At    successive arrival
 ;; AisotiyrAd_1
@@ -1408,8 +1408,8 @@ warodiy~        Nap     work shift;shift rotation     [[warodiy~/NOUN]]
 ;--- wrs
 ;; waros_1
 waros   N       dye plant
-;; >aworAs_1
->aworAs N       Aures (mountains in Algeria)
+;; OaworAs_1
+OaworAs N       Aures (mountains in Algeria)
 ;
 ;--- wr$
 ;; wara$-i_1
@@ -1430,8 +1430,8 @@ wira$   N       workshops
 ;; war~aT_1
 war~aT  PV      entangle;involve
 war~iT  IV_yu   entangle;involve
-;; >aworaT_1
->aworaT PV      entangle;involve
+;; OaworaT_1
+OaworaT PV      entangle;involve
 wriT    IV_yu   entangle;involve
 wraT    IV_Pass_yu      be entangled;be involved
 ;; tawar~aT_1
@@ -1472,8 +1472,8 @@ rif     IV      stretch;extend;sprout
 ;; war~af_1
 war~af  PV      stretch;extend
 war~if  IV_yu   stretch;extend
-;; >aworaf_1
->aworaf PV      stretch;extend
+;; Oaworaf_1
+Oaworaf PV      stretch;extend
 wrif    IV_yu   stretch;extend
 wraf    IV_Pass_yu      be stretched;be extended
 ;; wArif_1
@@ -1483,17 +1483,17 @@ wArif   Nall    extending;stretching;sprouting     [[wArif/ADJ]]
 ;; war~aq_1
 war~aq  PV      sprout leaves;cover with paper
 war~iq  IV_yu   sprout leaves;cover with paper
-;; >aworaq_1
->aworaq PV      sprout leaves
+;; Oaworaq_1
+Oaworaq PV      sprout leaves
 wriq    IV_yu   sprout leaves
 ;; waraq_1
 waraq   N       paper;sheet
 waraq   Napdu   paper;sheet
->aworAq N       papers;sheets
+OaworAq N       papers;sheets
 ;; waraq_2
 waraq   N       leaves
 waraq   Napdu   leaf
->aworAq N       leaves
+OaworAq N       leaves
 ;; waraqiy~_1
 waraqiy~        N-ap    paper     [[waraqiy~/ADJ]]
 ;; war~Aq_1
@@ -1513,13 +1513,13 @@ muwriq  N-ap    verdant;leafy;green     [[muwriq/ADJ]]
 ;; warok_1
 warok   Ndu     hip;thigh
 wirok   N       hip;thigh
->aworAk N       hips;thighs
+OaworAk N       hips;thighs
 ;
 ;--- wrl
 ;; waral_1
 waral   N       varan;monitor lizard
 wirolAn N       varans;monitor lizards
->aworAl N       varans;monitor lizards
+OaworAl N       varans;monitor lizards
 ;
 ;--- wrm
 ;; warim-i_1
@@ -1528,8 +1528,8 @@ rim     IV_intr become swollen;swell
 ;; war~am_1
 war~am  PV      cause to swell;annoy
 war~im  IV_yu   cause to swell;annoy
-;; >aworam_1
->aworam PV      cause to swell
+;; Oaworam_1
+Oaworam PV      cause to swell
 wrim    IV_yu   cause to swell
 wram    IV_Pass_yu      be caused to swell
 ;; tawar~am_1
@@ -1537,7 +1537,7 @@ tawar~am        PV_intr become swollen;swell
 tawar~am        IV_intr become swollen;swell
 ;; waram_1
 waram   Ndu     tumor;swelling
->aworAm N       tumors;swelling
+OaworAm N       tumors;swelling
 ;; tawar~um_1
 tawar~um        N/At    swelling;tumor growth
 ;; wArim_1
@@ -1585,11 +1585,11 @@ wAriy   IV_0hAnn_yu     conceal;disguise
 wAr     IV_0hwnyn_yu    conceal;disguise
 wAraY   IV_0_Pass_yu    be concealed;be disguised
 wAray   IV_Ann_Pass_yu  be concealed;be disguised
-;; >aworaY_1
->aworaY PV_0    kindle;light
->aworA  PV_h    kindle;light
->aworay PV_Atn  kindle;light
->awor   PV_ttAw kindle;light
+;; OaworaY_1
+OaworaY PV_0    kindle;light
+OaworA  PV_h    kindle;light
+Oaworay PV_Atn  kindle;light
+Oawor   PV_ttAw kindle;light
 wriy    IV_0hAnn_yu     kindle;light
 wr      IV_0hwnyn_yu    kindle;light
 wraY    IV_0_Pass_yu    be kindled;be lit
@@ -1623,16 +1623,16 @@ warA}i  FW-Wa-i behind;past;beyond     [[warA}i/PREP]]
 warA}   FW-Wa-o behind;past;beyond     [[warA}/PREP]]
 ;; warA'_1
 warA'   N0_Nh   behind;past;beyond
-warA&   Nh      behind;past;beyond
+warAW   Nh      behind;past;beyond
 warA}   Nhy     behind;past;beyond
 ;; warA'u_1
 warA'u  FW-Wa   behind     [[warA'u/ADV]]
 ;; warA}iy~_1
 warA}iy~        N-ap    rear;back     [[warA}iy~/ADJ]]
-;; >aworaY_2
->aworaY N0      hiding better
->aworA  Nhy     hiding better
->aworay NAn_Nayn        hiding better
+;; OaworaY_2
+OaworaY N0      hiding better
+OaworA  Nhy     hiding better
+Oaworay NAn_Nayn        hiding better
 ;; taworiyap_1
 taworiy Nap     hiding;dissimulation
 ;
@@ -1668,8 +1668,8 @@ zir     IV      assume
 ;; wAzar_1
 wAzar   PV      assist;support
 wAzir   IV_yu   assist;support
-;; >awozar_1
->awozar PV      support;strengthen
+;; Oawozar_1
+Oawozar PV      support;strengthen
 wzir    IV_yu   support;strengthen
 wzar    IV_Pass_yu      be supported;be strengthened
 ;; tawaz~ar_1
@@ -1683,11 +1683,11 @@ Aisotawozar     PV      appoint as minister
 sotawozir       IV      appoint as minister
 ;; wizor_1
 wizor   N       sin;burden;responsibility
->awozAr N       sins;burdens;responsibilities
+OawozAr N       sins;burdens;responsibilities
 ;; waziyr_1
 waziyr  N/ap    minister
 wuzarA' N0_Nh   ministers
-wuzarA& Nh      ministers
+wuzarAW Nh      ministers
 wuzarA} Nhy     ministers
 ;; waziyr_2
 waziyr  N0      Wazir
@@ -1704,8 +1704,8 @@ waz~iE  IV_yu   distribute
 ;; tawaz~aE_1
 tawaz~aE        PV_intr be distributed;be spread;be apportioned
 tawaz~aE        IV_intr be distributed;be spread;be apportioned
-;; >awozAE_1
->awozAE N       crowds;groups
+;; OawozAE_1
+OawozAE N       crowds;groups
 ;; waziyEap_1
 waziyE  Napdu   share;allotment
 wazA}iE Ndip    shares;allotments
@@ -1824,8 +1824,8 @@ wosax   IV_intr be soiled
 ;; was~ax_1
 was~ax  PV      pollute;soil
 was~ix  IV_yu   pollute;soil
-;; >awosax_1
->awosax PV      pollute;soil
+;; Oawosax_1
+Oawosax PV      pollute;soil
 wsix    IV_yu   pollute;soil
 wsax    IV_Pass_yu      be polluted;be soiled
 ;; tawas~ax_1
@@ -1836,7 +1836,7 @@ Ait~asax        PV_intr be polluted;be soiled
 t~asix  IV_intr be polluted;be soiled
 ;; wasax_1
 wasax   N       filth;squalor
->awosAx N       filth;squalor
+OawosAx N       filth;squalor
 ;; wasix_1
 wasix   N-ap    dirty;sullied     [[wasix/ADJ]]
 ;; wasAxap_1
@@ -1875,7 +1875,7 @@ wasoTi  FW-Wa-i middle;midst;among     [[wasoTi/PREP]]
 wasoT   FW-Wa-o middle;midst;among     [[wasoT/PREP]]
 ;; wasoT_1
 wasaT   N       middle;center;environment
->awosAT N       circles;quarters;environments
+OawosAT N       circles;quarters;environments
 ;; wasaTiy~_1
 wasaTiy~        N-ap    environmental     [[wasaTiy~/ADJ]]
 ;; wasoTAniy~_1
@@ -1889,24 +1889,24 @@ wisAT   NapAt   means;medium
 ;; wasiyT_1
 wasiyT  N-ap    mediator;go-between;intermediary
 wusaTA' N0_Nh   mediators;go-betweens;intermediaries
-wusaTA& Nh      mediators;go-betweens;intermediaries
+wusaTAW Nh      mediators;go-betweens;intermediaries
 wusaTA} Nhy     mediators;go-betweens;intermediaries
 ;; wasiyT_2
 wasiyT  N-ap    middle;medium
 ;; wasiyTap_1
 wasiyT  Napdu   means;medium
 wasA}iT Ndip    means;media
-;; >awosaT_1
->awosaT N0      Middle
-;; >awosaT_2
->awosaT Nel     middle;central     [[>awosaT/ADJ]]
+;; OawosaT_1
+OawosaT N0      Middle
+;; OawosaT_2
+OawosaT Nel     middle;central     [[OawosaT/ADJ]]
 wusoTY  N0      middle;central     [[wusoTY/ADJ]]
 wusoTA  Nhy     middle;central     [[wusoTA/ADJ]]
 wusoTay NAn_Nayn        middle;central     [[wusoTay/ADJ]]
 wusoTay NAt     middle;central     [[wusoTay/ADJ]]
->awAsiT Ndip    middle;central
-;; >awosaTiy~_1
->awosaTiy~      Nall    Middle
+OawAsiT Ndip    middle;central
+;; OawosaTiy~_1
+OawosaTiy~      Nall    Middle
 ;; tawas~uT_1
 tawas~uT        N/At    mediation
 ;; wAsiTap_1
@@ -1927,8 +1927,8 @@ saE     IV_intr be spacious;be wide;be able;be possible
 ;; was~aE_1
 was~aE  PV      expand;widen;enable
 was~iE  IV_yu   expand;widen;enable
-;; >awosaE_1
->awosaE PV      expand;widen;enable
+;; OawosaE_1
+OawosaE PV      expand;widen;enable
 wsiE    IV_yu   expand;widen;enable
 wsaE    IV_Pass_yu      be expanded;be widened;be enabled
 ;; tawas~aE_1
@@ -1950,8 +1950,8 @@ wasaE   N       vastness
 wusoE   Nap     extent;range
 ;; wasiyE_1
 wasiyE  N-ap    wide     [[wasiyE/ADJ]]
-;; >awosaE_2
->awosaE Nel     broader/broadest;wider/widest
+;; OawosaE_2
+OawosaE Nel     broader/broadest;wider/widest
 ;; tawosiyE_1
 tawosiyE        N/At    expansion;widening
 ;; tawosiEap_1
@@ -1982,8 +1982,8 @@ mut~asaE        N       space;room
 ;; wasaq-i_1
 wasaq   PV      load;freight
 siq     IV      load;freight
-;; >awosaq_1
->awosaq PV      load;freight;levy
+;; Oawosaq_1
+Oawosaq PV      load;freight;levy
 wsiq    IV_yu   load;freight;levy
 wsaq    IV_Pass_yu      be loaded;be levied
 ;; Ait~asaq_1
@@ -1995,7 +1995,7 @@ sotawosiq       IV_intr become possible
 ;; wasoq_1
 wasoq   N       load;freight;cargo
 wusuwq  N       load;freight;cargo
->awosAq N       load;freight;cargo
+OawosAq N       load;freight;cargo
 ;; Ait~isAq_1
 Ait~isAq        N/At    harmony
 ;; mut~asiq_1
@@ -2036,7 +2036,7 @@ wasom   Ndu     characteristic;mark
 wusuwm  N       characteristics;marks
 ;; wisAm_1
 wisAm   Ndu     badge;decoration
->awosim Nap     badges;decorations
+Oawosim Nap     badges;decorations
 ;; wisAm_2
 wisAm   N0      Wisam;Wissam
 ;; wasAmap_1
@@ -2044,7 +2044,7 @@ wasAm   Nap     gracefulness;charm
 ;; wasiym_1
 wasiym  N/ap    graceful;good-looking     [[wasiym/ADJ]]
 wusamA' N0_Nh   graceful;good-looking
-wusamA& Nh      graceful;good-looking
+wusamAW Nh      graceful;good-looking
 wusamA} Nhy     graceful;good-looking
 ;; wasiym_2
 wasiym  N0      Waseem;Wasim
@@ -2102,11 +2102,11 @@ wAsiy   IV_0hAnn_yu     be charitable;assist;support
 wAs     IV_0hwnyn_yu    be charitable;assist;support
 wAsaY   IV_0_Pass_yu    be assisted;be supported
 wAsay   IV_Ann_Pass_yu  be assisted;be supported
-;; >awosaY_1
->awosaY PV_0    shave (head)
->awosA  PV_h    shave (head)
->awosay PV_Atn  shave (head)
->awos   PV_ttAw shave (head)
+;; OawosaY_1
+OawosaY PV_0    shave (head)
+OawosA  PV_h    shave (head)
+Oawosay PV_Atn  shave (head)
+Oawos   PV_ttAw shave (head)
 wsiy    IV_0hAnn_yu     shave (head)
 ws      IV_0hwnyn_yu    shave (head)
 wsaY    IV_0_Pass_yu    be shaved (head)
@@ -2125,7 +2125,7 @@ mawAs   NK      straight razors
 ;--- w$b
 ;; wi$ob_1
 wi$ob   N       crowd;mob;riffraff
->awo$Ab N       crowds;mobs;riffraff
+Oawo$Ab N       crowds;mobs;riffraff
 ;
 ;--- w$j
 ;; wa$iyj_1
@@ -2193,8 +2193,8 @@ wo$uk   IV      hurry;be quick
 ;; wa$~ak_1
 wa$~ak  PV      hurry;be quick
 wa$~ik  IV_yu   hurry;be quick
-;; >awo$ak_1
->awo$ak PV_intr be on the verge of;be about to;almost
+;; Oawo$ak_1
+Oawo$ak PV_intr be on the verge of;be about to;almost
 w$ik    IV_intr_yu      be on the verge of;be about to;almost
 w$ak    IV_Pass_yu      be on the verge of;be about to;almost
 ;; wa$ok_1
@@ -2207,7 +2207,7 @@ wa$iyk  N-ap    imminent;near     [[wa$iyk/ADJ]]
 ;--- w$l
 ;; wa$al_1
 wa$al   N       dripping water;tears
->awo$Al N       dripping water;tears
+Oawo$Al N       dripping water;tears
 ;
 ;--- w$m
 ;; wa$am-i_1
@@ -2260,11 +2260,11 @@ $iy     NapAt   blemish;defect
 ;; wa$oy_1
 wa$oy   N       embroidery;colorful ornamentation
 wi$A'   N0_Nh   embroidery;colorful ornamentation
-wi$A&   Nh      embroidery;colorful ornamentation
+wi$AW   Nh      embroidery;colorful ornamentation
 wi$A}   Nhy     embroidery;colorful ornamentation
 ;; wa$~A'_1
 wa$~A'  N0_Nh   embroidery vendor
-wa$~A&  Nh_Nuwn embroidery vendor
+wa$~AW  Nh_Nuwn embroidery vendor
 wa$~A}  Nh_Niyn embroidery vendor
 ;; wi$Ayap_1
 wi$Ay   Nap     defamation;slander
@@ -2289,7 +2289,7 @@ tawaS~ab        PV_intr be chronically ill
 tawaS~ab        IV_intr be chronically ill
 ;; waSab_1
 waSab   N       illness;hardship
->awoSAb N       illnesses;hardships
+OawoSAb N       illnesses;hardships
 ;; wASib_1
 wASib   Nall    lasting;permanent     [[wASib/ADJ]]
 ;
@@ -2297,8 +2297,8 @@ wASib   Nall    lasting;permanent     [[wASib/ADJ]]
 ;; waSad-i_1
 waSad   PV_intr be firm;stand firm
 Sid     IV_intr be firm;stand firm
-;; >awoSad_1
->awoSad PV      shut;close
+;; OawoSad_1
+OawoSad PV      shut;close
 wSid    IV_yu   shut;close
 wSad    IV_Pass_yu      be shut;be closed
 ;; waSiyd_1
@@ -2327,7 +2327,7 @@ Sif     NAt     attributes;characteristics;features
 waSof   N       description;portrayal;characterization
 ;; waSof_2
 waSof   Ndu     characteristic
->awoSAf N       characteristics
+OawoSAf N       characteristics
 ;; waSof_3
 waSof   N       because;as
 ;; waSofap_1
@@ -2343,7 +2343,7 @@ waS~Af  Nall    describer
 ;; waSiyf_1
 waSiyf  Ndu     valet;lad;page
 wuSafA' N0_Nh   valets;lads;pages
-wuSafA& Nh      valets;lads;pages
+wuSafAW Nh      valets;lads;pages
 wuSafA} Nhy     valets;lads;pages
 ;; waSiyf_2
 waSiyf  N0      Waseef;Wasif
@@ -2383,8 +2383,8 @@ waS~il  IV_yu   connect
 ;; wASal_1
 wASal   PV      continue
 wASil   IV_yu   continue
-;; >awoSal_1
->awoSal PV      connect;contact
+;; OawoSal_1
+OawoSal PV      connect;contact
 wSil    IV_yu   connect;contact
 wSal    IV_Pass_yu      be connected;be contacted
 ;; tawaS~al_1
@@ -2396,7 +2396,7 @@ tawASal IV_intr be interconnected
 ;; Ait~aSal_1
 Ait~aSal        PV_intr contact;get in touch (with)
 t~aSil  IV_intr contact;get in touch (with)
-; <tSl    Ait~aSil        CV_intr contact;get in touch (with)
+; ItSl    Ait~aSil        CV_intr contact;get in touch (with)
 ; AtSl    Ait~aSil        CV_intr contact;get in touch (with)
 ;; Ait~aSal_2
 Ait~aSal        PV_intr be connected or related (to)
@@ -2406,7 +2406,7 @@ Sil     Napdu   link;connection;contact
 Sil     NAt     links;connections;contacts
 ;; waSol_1
 waSol   Ndu     connection;contact;receipt
->awoSAl N       connections;contacts;limbs
+OawoSAl N       connections;contacts;limbs
 ;; waSolap_1
 waSol   Nap     wasla (Arabic diacritic)
 ;; wuSolap_1
@@ -2445,8 +2445,8 @@ wiSAl   N       sexual intercourse
 muwASal Nap     continuation;continue
 ;; muwASalap_2
 muwASal NapAt   communication;connection
-;; <iySAl_1
-<iySAl  N/At    connection;transportation;transmission
+;; IiySAl_1
+IiySAl  N/At    connection;transportation;transmission
 ;; tawaS~ul_1
 tawaS~ul        N/At    attainment;arrival;reunion
 ;; tawASul_1
@@ -2500,11 +2500,11 @@ waS~iy  IV_0hAnn_yu     recommend;advise
 waS~    IV_0hwnyn_yu    recommend;advise
 waS~aY  IV_0_Pass_yu    be recommended;be advised
 waS~ay  IV_Ann_Pass_yu  be recommended;be advised
-;; >awoSaY_1
->awoSaY PV_0    recommend;advise;prescribe
->awoSA  PV_h    recommend;advise;prescribe
->awoSay PV_Atn  recommend;advise;prescribe
->awoS   PV_ttAw recommend;advise;prescribe
+;; OawoSaY_1
+OawoSaY PV_0    recommend;advise;prescribe
+OawoSA  PV_h    recommend;advise;prescribe
+OawoSay PV_Atn  recommend;advise;prescribe
+OawoS   PV_ttAw recommend;advise;prescribe
 wSiy    IV_0hAnn_yu     recommend;advise;prescribe
 wS      IV_0hwnyn_yu    recommend;advise;prescribe
 wSaY    IV_0_Pass_yu    be recommended;be advised;be prescribed
@@ -2528,9 +2528,9 @@ sotawoS IV_0hwnyn       adopt;assume
 sotawoSaY       IV_0_Pass_yu    be adopted;be assumed
 ;; waSiy~_1
 waSiy~  Ndu     authorized agent;trustee
->awoSiyA'       N0_Nh   authorized agents;trustees
->awoSiyA&       Nh      authorized agents;trustees
->awoSiyA}       Nhy     authorized agents;trustees
+OawoSiyA'       N0_Nh   authorized agents;trustees
+OawoSiyAW       Nh      authorized agents;trustees
+OawoSiyA}       Nhy     authorized agents;trustees
 ;; waSiy~ap_1
 waSiy~  Napdu   advice
 waSAyA  N0_Nhy  advice
@@ -2544,13 +2544,13 @@ wiSAy   Nap     guardianship;trusteeship
 ;; tawoSiyap_1
 tawoSiy Napdu   advice;recommendation
 tawoSiy NAt     advice;recommendations
-;; <iySA'_1
-<iySA'  N0_Nh   recommendation;order;mandate
-<iySA&  Nh      recommendation;order;mandate
-<iySA}  Nhy     recommendation;order;mandate
-<iySA'  NAn_Nayn        recommendation;order;mandate
-<iySA}  Nayn    recommendation;order;mandate
-<iySA'  NAt     recommendation;order;mandate
+;; IiySA'_1
+IiySA'  N0_Nh   recommendation;order;mandate
+IiySAW  Nh      recommendation;order;mandate
+IiySA}  Nhy     recommendation;order;mandate
+IiySA'  NAn_Nayn        recommendation;order;mandate
+IiySA}  Nayn    recommendation;order;mandate
+IiySA'  NAt     recommendation;order;mandate
 ;; muwaS~iy_1
 muwaS~iy        N0F_Nh  recommender;advising
 muwaS~  NK      recommender;advising
@@ -2573,21 +2573,21 @@ muwSaY  N0      bequeathed;willed
 mawASiy N0      Mawasi
 ;
 ;--- wDA
-;; waDu&-u_1
-waDu&   PV_intr be pure;be clean
-woDu&   IV_intr be pure;be clean
+;; waDuW-u_1
+waDuW   PV_intr be pure;be clean
+woDuW   IV_intr be pure;be clean
 woDu}   IV_yn   be pure;be clean
-;; tawaD~a>_1
-tawaD~a>        PV->_intr       perform ablutions
+;; tawaD~aO_1
+tawaD~aO        PV-O_intr       perform ablutions
 tawaD~a|        PV-|_intr       perform ablutions
-tawaD~a&        PV_w_intr       perform ablutions
-tawaD~a>        IV_intr perform ablutions
+tawaD~aW        PV_w_intr       perform ablutions
+tawaD~aO        IV_intr perform ablutions
 tawaD~a|        IV-|    perform ablutions
-tawaD~a&        IV_wn   perform ablutions
+tawaD~aW        IV_wn   perform ablutions
 tawaD~a}        IV_yn   perform ablutions
 ;; wuD~A'_1
 wuD~A'  N0_Nh   radiant;brilliant
-wuD~A&  Nh      radiant;brilliant
+wuD~AW  Nh      radiant;brilliant
 wuD~A}  Nhy     radiant;brilliant
 ;; waDA'ap_1
 waDA'   Nap     purity;cleanliness
@@ -2603,14 +2603,14 @@ waDiy}  NapAt   pure;clean
 waDiy}  NAn_Nayn        pure;clean
 waDiy}  Nuwn_Niyn       pure;clean
 wiDA'   N0_Nh   pure;clean
-wiDA&   Nh      pure;clean
+wiDAW   Nh      pure;clean
 wiDA}   Nhy     pure;clean
-;; tawaD~u&_1
-tawaD~u&        N/At    ritual ablution
+;; tawaD~uW_1
+tawaD~uW        N/At    ritual ablution
 tawaD~u}        N/At    ritual ablution
 ;; miyDA'_1
 miyDA'  N0_Nh   ablution basin
-miyDA&  Nh      ablution basin
+miyDAW  Nh      ablution basin
 miyDA}  Nhy     ablution basin
 miyDA'  NAn_Nayn        ablution basins
 miyDA}  Nayn    ablution basins
@@ -2631,8 +2631,8 @@ DiH     IV_intr become clear;become evident;appear
 ;; waD~aH_1
 waD~aH  PV      clarify;explain;indicate
 waD~iH  IV_yu   clarify;explain;indicate
-;; >awoDaH_1
->awoDaH PV      clarify;explain;indicate
+;; OawoDaH_1
+OawoDaH PV      clarify;explain;indicate
 wDiH    IV_yu   clarify;explain;indicate
 wDaH    IV_Pass_yu      be clarified;be explained;be indicated
 ;; tawaD~aH_1
@@ -2646,20 +2646,20 @@ AisotawoDaH     PV      seek clarification;examine
 sotawoDiH       IV      seek clarification;examine
 ;; waDaH_1
 waDaH   N       brightness
->awoDAH N       brightness
+OawoDAH N       brightness
 ;; waD~AH_1
 waD~AH  N-ap    bright;clear     [[waD~AH/ADJ]]
 ;; wuDuwH_1
 wuDuwH  N       clarity;plainness
-;; >awoDaH_2
->awoDaH Nel     clearer/clearest
+;; OawoDaH_2
+OawoDaH Nel     clearer/clearest
 ;; tawoDiyH_1
 tawoDiyH        N/At    explanation;clarification
-;; <iyDAH_1
-<iyDAH  N       explanation;clarification
-<iyDAH  NAt     explanations;clarifications
-;; <iyDAHiy~_1
-<iyDAHiy~       N-ap    clarifying;explanatory     [[<iyDAHiy~/ADJ]]
+;; IiyDAH_1
+IiyDAH  N       explanation;clarification
+IiyDAH  NAt     explanations;clarifications
+;; IiyDAHiy~_1
+IiyDAHiy~       N-ap    clarifying;explanatory     [[IiyDAHiy~/ADJ]]
 ;; Ait~iDAH_1
 Ait~iDAH        N/At    clarity;manifestness
 ;; AisotiyDAH_1
@@ -2674,7 +2674,7 @@ mut~aDiH        Nall    clear;obvious
 ;--- wDr
 ;; waDar_1
 waDar   Ndu     grease spots;dirt
->awoDAr N       grease spots;dirt
+OawoDAr N       grease spots;dirt
 ;
 ;--- wDE
 ;; waDaE-a_1
@@ -2682,8 +2682,8 @@ waDaE   PV      put;place
 DaE     IV      put;place
 wuDiE   PV_intr be put;be placed
 wDaE    IV_Pass_yu      be put;be placed
-;; >awoDaE_1
->awoDaE PV      suffer losses
+;; OawoDaE_1
+OawoDaE PV      suffer losses
 wDiE    IV_yu   suffer losses
 ;; tawADaE_1
 tawADaE PV_intr be modest;be humble
@@ -2695,7 +2695,7 @@ t~aDiE  IV_intr be humble
 waDoE   N       laying down;putting;placing
 ;; waDoE_2
 waDoE   N       situation;status
->awoDAE N       conditions;situation
+OawoDAE N       conditions;situation
 ;; waDoEap_1
 waDoE   Napdu   situation;position
 wiDoE   Napdu   situation;position
@@ -2711,7 +2711,7 @@ waDAE   Nap     lowliness;humility
 ;; waDiyE_1
 waDiyE  N/ap    lowly;inferior;humble     [[waDiyE/ADJ]]
 wuDaEA' N0_Nh   lowly;inferior;humble
-wuDaEA& Nh      lowly;inferior;humble
+wuDaEAW Nh      lowly;inferior;humble
 wuDaEA} Nhy     lowly;inferior;humble
 ;; waDiyEap_1
 waDiyE  Nap     deposit;trust;charge
@@ -2744,64 +2744,64 @@ mutawADiE       Nall    humble;modest     [[mutawADiE/ADJ]]
 ;--- wDm
 ;; waDom_1
 waDom   Ndu     butcher's block;meat counter
->awoDAm N       butchers' blocks;meat counters
+OawoDAm N       butchers' blocks;meat counters
 ;
 ;--- wTA
 ;; waTi}-a_1
 waTi}   PV      tread on;step on;trample underfoot
-; wT>     waTa>   PV->    tread on;step on;trample underfoot
+; wTO     waTaO   PV-O    tread on;step on;trample underfoot
 ; wT|     waTa|   PV-|    tread on;step on;trample underfoot
-; wT&     waTa&   PV_w    tread on;step on;trample underfoot
-Ta>     IV      tread on;step on;trample underfoot
+; wTW     waTaW   PV_w    tread on;step on;trample underfoot
+TaO     IV      tread on;step on;trample underfoot
 Ta|     IV-|    tread on;step on;trample underfoot
-Ta&     IV_wn   tread on;step on;trample underfoot
+TaW     IV_wn   tread on;step on;trample underfoot
 Ta}     IV_yn   tread on;step on;trample underfoot
-;; waT~a>_1
-waT~a>  PV->    lower;pave the way;prepare
+;; waT~aO_1
+waT~aO  PV-O    lower;pave the way;prepare
 waT~a|  PV-|    lower;pave the way;prepare
-waT~a&  PV_w    lower;pave the way;prepare
+waT~aW  PV_w    lower;pave the way;prepare
 waT~i}  IV_yu   lower;pave the way;prepare
-;; wATa>_1
-wATa>   PV->    agree with
+;; wATaO_1
+wATaO   PV-O    agree with
 wATa|   PV-|    agree with
-wATa&   PV_w    agree with
+wATaW   PV_w    agree with
 wATi}   IV_yu   agree with
-;; >awoTa>_1
->awoTa> PV->    cause to tread on;cause to trample down
->awoTa| PV-|    cause to tread on;cause to trample down
->awoTa& PV_w    cause to tread on;cause to trample down
+;; OawoTaO_1
+OawoTaO PV-O    cause to tread on;cause to trample down
+OawoTa| PV-|    cause to tread on;cause to trample down
+OawoTaW PV_w    cause to tread on;cause to trample down
 wTi}    IV_yu   cause to tread on;cause to trample down
-wTa>    IV_Pass_yu      be made to tread on;be made to trample down
-;; tawATa>_1
-tawATa> PV->_intr       be in agreement;cooperate
+wTaO    IV_Pass_yu      be made to tread on;be made to trample down
+;; tawATaO_1
+tawATaO PV-O_intr       be in agreement;cooperate
 tawATa| PV-|_intr       be in agreement;cooperate
-tawATa& PV_w_intr       be in agreement;cooperate
-tawATa> IV_intr be in agreement;cooperate
+tawATaW PV_w_intr       be in agreement;cooperate
+tawATaO IV_intr be in agreement;cooperate
 tawATa| IV-|    be in agreement;cooperate
-tawATa& IV_wn   be in agreement;cooperate
+tawATaW IV_wn   be in agreement;cooperate
 tawATa} IV_yn   be in agreement;cooperate
 ;; waTo'_1
 waTo'   N0      low ground;depression
 waTo}   NF_Nhy  low ground;depression
 ;; waTA'_1
 waTA'   N0_Nh   low ground;depression
-waTA&   Nh      low ground;depression
+waTAW   Nh      low ground;depression
 waTA}   Nhy     low ground;depression
-;; waTo>ap_1
-waTo>   Nap     pressure;coercion;vehemence
+;; waToOap_1
+waToO   Nap     pressure;coercion;vehemence
 ;; waTiy'_1
 waTiy'  N0      low;flat     [[waTiy'/ADJ]]
 waTiy}  NF_Nhy  low;flat
 waTiy}  NapAt   low;flat
 waTiy}  NAn_Nayn        low;flat
 waTiy}  Nuwn_Niyn       low;flat
-;; >awoTa>_2
->awoTa> N0_Nh   lower/lowest
->awoTa| N-|     lowest
->awoTa} Nayn    lowest
-;; mawoTa>_1
-mawoTa> N0_Nh   foothold;footing
-mawoTa& Nh      foothold;footing
+;; OawoTaO_2
+OawoTaO N0_Nh   lower/lowest
+OawoTa| N-|     lowest
+OawoTa} Nayn    lowest
+;; mawoTaO_1
+mawoTaO N0_Nh   foothold;footing
+mawoTaW Nh      foothold;footing
 mawoTa} Nhy     foothold;footing
 mawoTa} Nayn    footholds;footing
 mawoTa| N-|     footholds;footing
@@ -2809,11 +2809,11 @@ mawoTi} Ndu     foothold;footing
 mawATi} Ndip    footholds;footing
 ;; tawoTi}ap_1
 tawoTi} Nap     preliminary step;paving the way;lowering
-;; muwATa>ap_1
-muwATa> Napdu   agreement;collusion
+;; muwATaOap_1
+muwATaO Napdu   agreement;collusion
 muwATa  N-|t    agreements;collusions
-;; tawATu&_1
-tawATu& NduAt   connivance;collusion
+;; tawATuW_1
+tawATuW NduAt   connivance;collusion
 tawATu} Nhy     connivance;collusion
 ;; wATi}_1
 wATi}   Nall    low;subdued     [[wATi}/ADJ]]
@@ -2825,8 +2825,8 @@ muwaT~i}        NAt     predisposing factors
 ;; waTob_1
 waTob   N       milkskin
 wiTAb   N       milkskins
->awoTAb N       milkskins
->awATib Ndip    milkskins
+OawoTAb N       milkskins
+OawATib Ndip    milkskins
 ;
 ;--- wTd
 ;; waTad-i_1
@@ -2840,8 +2840,8 @@ tawaT~ad        PV_intr be strengthened;be consolidated
 tawaT~ad        IV_intr be strengthened;be consolidated
 ;; waTiyd_1
 waTiyd  N-ap    strong;solid;unshakable     [[waTiyd/ADJ]]
-;; >awoTAd_1
->awoTAd N       mountains
+;; OawoTAd_1
+OawoTAd N       mountains
 ;; miyTadap_1
 miyTad  Nap     rammer;tamper
 ;; tawoTiyd_1
@@ -2852,7 +2852,7 @@ muwaT~ad        Nall    strong;solid;sturdy     [[muwaT~ad/ADJ]]
 ;--- wTr
 ;; waTar_1
 waTar   Ndu     objective;purpose;wish
->awoTAr N       objectives;wishes;desires
+OawoTAr N       objectives;wishes;desires
 ;
 ;--- wTs
 ;; waTiys_1
@@ -2869,14 +2869,14 @@ waTo$   N       striking;slapping
 ;; waTif-a_1
 waTif   PV      have bushy eyebrows
 woTaf   IV      have bushy eyebrows
-;; >awoTaf_1
->awoTaf Nel     bushy-browed
+;; OawoTaf_1
+OawoTaf Nel     bushy-browed
 waTofA' N0_Nh   bushy-browed
-waTofA& Nh      bushy-browed
+waTofAW Nh      bushy-browed
 waTofA} Nhy     bushy-browed
 ;; waTofA'_1
 waTofA' N0_Nh   heavy clouds
-waTofA& Nh      heavy clouds
+waTofAW Nh      heavy clouds
 waTofA} Nhy     heavy clouds
 ;
 ;--- wTn
@@ -2894,7 +2894,7 @@ AisotawoTan     PV-n    settle;colonize
 sotawoTin       IV-n    settle;colonize
 ;; waTan_1
 waTan   Ndu     nation;homeland
->awoTAn N       nations;homelands
+OawoTAn N       nations;homelands
 ;; waTan_2
 waTan   N0      Watan
 ;; waTaniy~_1
@@ -2989,8 +2989,8 @@ muwaZ~af        N-ap    employed;hired     [[muwaZ~af/ADJ]]
 ;; waEab-i_1
 waEab   PV      take entirely
 Eib     IV      take entirely
-;; >awoEab_1
->awoEab PV      take entirely;insert
+;; OawoEab_1
+OawoEab PV      take entirely;insert
 wEib    IV_yu   take entirely;insert
 wEab    IV_Pass_yu      be taken entirely;be inserted
 ;; AisotawoEab_1
@@ -3010,7 +3010,7 @@ waEov   N-ap    troublesome;laborious     [[waEov/ADJ]]
 wiEov   N-ap    troublesome;laborious     [[wiEov/ADJ]]
 ;; waEovA'_1
 waEovA' N0_Nh   difficulty;inconvenience
-waEovA& Nh      difficulty;inconvenience
+waEovAW Nh      difficulty;inconvenience
 waEovA} Nhy     difficulty;inconvenience
 ;
 ;--- wEd
@@ -3021,8 +3021,8 @@ wEad    IV_Pass_yu      be promised
 ;; wAEad_1
 wAEad   PV      arrange a meeting with;make an appointment with
 wAEid   IV_yu   arrange a meeting with;make an appointment with
-;; >awoEad_1
->awoEad PV      promise
+;; OawoEad_1
+OawoEad PV      promise
 wEid    IV_yu   promise
 ;; tawaE~ad_1
 tawaE~ad        PV      threaten;promise
@@ -3054,8 +3054,8 @@ miyEAd  Ndu     appointment;appointed time
 mawAEiyd        Ndip    appointments;appointed times
 ;; muwAEadap_1
 muwAEad NapAt   appointment;arrangement
-;; <iyEAd_1
-<iyEAd  N/At    threat
+;; IiyEAd_1
+IiyEAd  N/At    threat
 ;; tawaE~ud_1
 tawaE~ud        N/At    threat
 ;; tawaE~udiy~_1
@@ -3084,23 +3084,23 @@ waEor   N       rugged terrain
 ;; waEor_2
 waEor   N-ap    rugged terrain;barely accessible
 wuEuwr  N       rugged terrain;barely accessible
->awoEAr N       rugged terrain;barely accessible
+OawoEAr N       rugged terrain;barely accessible
 ;; waEiyr_1
 waEiyr  N-ap    rugged terrain;barely accessible
 ;; wuEuwrap_1
 wuEuwr  Nap     ruggedness;impassability
-;; >awoEar_1
->awoEar Nel     rougher/roughest;more/most rugged
+;; OawoEar_1
+OawoEar Nel     rougher/roughest;more/most rugged
 ;
 ;--- wEz
-;; >awoEaz_1
->awoEaz PV      advise;recommend;intimate
+;; OawoEaz_1
+OawoEaz PV      advise;recommend;intimate
 wEiz    IV_yu   advise;recommend;intimate
 wEaz    IV_Pass_yu      be advised;be recommended;be intimated
-;; <iyEAz_1
-<iyEAz  N/At    advice;recommendation;hint
-;; <iyEAziy~_1
-<iyEAziy~       N-ap    advisory;inspiring     [[<iyEAziy~/ADJ]]
+;; IiyEAz_1
+IiyEAz  N/At    advice;recommendation;hint
+;; IiyEAziy~_1
+IiyEAziy~       N-ap    advisory;inspiring     [[IiyEAziy~/ADJ]]
 ;; muwEaz_1
 muwEaz  N       inspired;suggested     [[muwEaz/ADJ]]
 ;
@@ -3110,7 +3110,7 @@ waEas   PV      make experienced;make wise
 Eis     IV      make experienced;make wise
 ;; waEos_1
 waEos   N       quicksand
->awoEAs N       quicksand
+OawoEAs N       quicksand
 ;; miyEAs_1
 miyEAs  N       quicksand
 ;
@@ -3158,7 +3158,7 @@ mutawaE~ik      Nall    indisposed     [[mutawaE~ik/ADJ]]
 ;--- wEl
 ;; waEol_1
 waEol   N       mountain goat
->awoEAl N       mountain goats
+OawoEAl N       mountain goats
 ;; waEolAn_1
 waEolAn N       day flower;commelina
 ;
@@ -3186,11 +3186,11 @@ waE~iy  IV_0hAnn_yu     make conscious;raise the consciousness
 waE~    IV_0hwnyn_yu    make conscious;raise the consciousness
 waE~aY  IV_0_Pass_yu    be made conscious;be made aware
 waE~ay  IV_Ann_Pass_yu  be made conscious;be made aware
-;; >awoEaY_1
->awoEaY PV_0    pack;put into a container
->awoEA  PV_h    pack;put into a container
->awoEay PV_Atn  pack;put into a container
->awoE   PV_ttAw pack;put into a container
+;; OawoEaY_1
+OawoEaY PV_0    pack;put into a container
+OawoEA  PV_h    pack;put into a container
+OawoEay PV_Atn  pack;put into a container
+OawoE   PV_ttAw pack;put into a container
 wEiy    IV_0hAnn_yu     pack;put into a container
 wE      IV_0hwnyn_yu    pack;put into a container
 wEaY    IV_0_Pass_yu    be packed;be put into a container
@@ -3208,12 +3208,12 @@ waEoy   N       consciousness;awareness;attention
 lAwaEoy N_L     unconscious
 ;; wiEA'_1
 wiEA'   N0_Nh   container;receptacle;vessel
-wiEA&   Nh      container;receptacle;vessel
+wiEAW   Nh      container;receptacle;vessel
 wiEA}   Nhy     container;receptacle;vessel
 wiEA}   Nayn    container;receptacle;vessel
->awoEiy Nap     containers;receptacles;vessels
->awAEiy N0_Nh   containers;receptacles;vessels
->awAE   NK      containers;receptacles;vessels
+OawoEiy Nap     containers;receptacles;vessels
+OawAEiy N0_Nh   containers;receptacles;vessels
+OawAE   NK      containers;receptacles;vessels
 ;; tawoEiyap_1
 tawoEiy Nap     making aware;enlightening
 ;; wAEiy_1
@@ -3230,7 +3230,7 @@ wAEiy   Nap     consciousness
 ;--- wgd
 ;; wagod_1
 wagod   N/ap    scoundrel;villain
->awogAd N       scoundrels;villains
+OawogAd N       scoundrels;villains
 wugodAn N       scoundrels;villains
 ;
 ;--- wgr
@@ -3238,8 +3238,8 @@ wugodAn N       scoundrels;villains
 wagar   PV_intr be hot;be angry
 wogir   IV_intr be hot;be angry
 gir     IV_intr be hot;be angry
-;; >awogar_1
->awogar PV      arouse anger against;strip up against
+;; Oawogar_1
+Oawogar PV      arouse anger against;strip up against
 wgir    IV_yu   arouse anger against;strip up against
 ;; tawag~ar_1
 tawag~ar        PV_intr be furious
@@ -3253,8 +3253,8 @@ wagar   N       wrath;malice
 wagal   PV      penetrate;intrude
 gil     IV      penetrate;intrude
 wgal    IV_Pass_yu      be penetrated;be intruded on
-;; >awogal_1
->awogal PV      penetrate;do intensively
+;; Oawogal_1
+Oawogal PV      penetrate;do intensively
 wgil    IV_yu   penetrate;do intensively
 ;; tawag~al_1
 tawag~al        PV      make an incursion;penetrate;advance
@@ -3289,8 +3289,8 @@ waf~id  IV_yu   dispatch;send
 ;; wAfad_1
 wAfad   PV      arrive together
 wAfid   IV_yu   arrive together
-;; >awofad_1
->awofad PV      dispatch;send
+;; Oawofad_1
+Oawofad PV      dispatch;send
 wfid    IV_yu   dispatch;send
 wfad    IV_Pass_yu      be dispatched;be sent
 ;; tawAfad_1
@@ -3306,8 +3306,8 @@ wafodiy~        Nall    Wafdist     [[wafodiy~/NOUN]]
 wafodiy~        Nall    Wafdist     [[wafodiy~/ADJ]]
 ;; wifAdap_1
 wifAd   Nap     arrival
-;; <iyfAd_1
-<iyfAd  N/At    deputation;delegation;dispatch
+;; IiyfAd_1
+IiyfAd  N/At    deputation;delegation;dispatch
 ;; wAfid_1
 wAfid   Nall    arriving;coming     [[wAfid/ADJ]]
 ;; wAfid_2
@@ -3325,8 +3325,8 @@ fir     IV_intr be plentiful
 ;; waf~ar_1
 waf~ar  PV      provide;fulfill
 waf~ir  IV_yu   provide;fulfill
-;; >awofar_1
->awofar PV      increase
+;; Oawofar_1
+Oawofar PV      increase
 wfir    IV_yu   increase
 wfar    IV_Pass_yu      be increased
 ;; tawaf~ar_1
@@ -3342,8 +3342,8 @@ wufuwr  N/At    abundance;surplus;excess
 wafor   Nap     abundance;availability
 ;; wafiyr_1
 wafiyr  N-ap    ample;abundant     [[wafiyr/ADJ]]
-;; >awofar_2
->awofar Nel     more/most ample;more/most
+;; Oawofar_2
+Oawofar Nel     more/most ample;more/most
 ;; tawofiyr_1
 tawofiyr        N/At    provision;furnishing
 ;; tawaf~ur_1
@@ -3369,7 +3369,7 @@ sotawofiz       IV_intr be prepared;be alert;be in suspense
 ;; wafoz_1
 wafoz   N       hurry;haste
 wafaz   N       hurry;haste
->awofAz N       hurry;haste
+OawofAz N       hurry;haste
 ;; mutawaf~iz_1
 mutawaf~iz      Nall    alert;quick     [[mutawaf~iz/ADJ]]
 ;
@@ -3414,8 +3414,8 @@ wifoqa  FW-Wa-a according to;in accordance with     [[wifoqa/ADV]]
 wifoq   NF      according to;in accordance with;pursuant to     [[wafoq/ADV]]
 ;; wafoqap_1
 wafoq   Nap     task item;work piece
-;; >awofaq_1
->awofaq Nel     more/most suitable
+;; Oawofaq_1
+Oawofaq Nel     more/most suitable
 ;; tawofiyq_1
 tawofiyq        N/At    success;successful outcome;conformation
 ;; wifAq_1
@@ -3471,11 +3471,11 @@ wAfiy   IV_0hAnn_yu     arrive;provide
 wAf     IV_0hwnyn_yu    arrive;provide
 wAfaY   IV_0_Pass_yu    be provided
 wAfay   IV_Ann_Pass_yu  be provided
-;; >awofaY_1
->awofaY PV_0    fulfill;discharge;pay
->awofA  PV_h    fulfill;discharge;pay
->awofay PV_Atn  fulfill;discharge;pay
->awof   PV_ttAw fulfill;discharge;pay
+;; OawofaY_1
+OawofaY PV_0    fulfill;discharge;pay
+OawofA  PV_h    fulfill;discharge;pay
+Oawofay PV_Atn  fulfill;discharge;pay
+Oawof   PV_ttAw fulfill;discharge;pay
 wfiy    IV_0hAnn_yu     fulfill;discharge;pay
 wf      IV_0hwnyn_yu    fulfill;discharge;pay
 wfaY    IV_0_Pass_yu    be fulfilled;be discharged;be paid
@@ -3515,11 +3515,11 @@ sotawof IV_0hwnyn       recover;fulfill
 sotawofaY       IV_0_Pass_yu    be recovered;be fulfilled
 ;; wafA'_1
 wafA'   N0_Nh   fulfillment;completion
-wafA&   Nh      fulfillment;completion
+wafAW   Nh      fulfillment;completion
 wafA}   Nhy     fulfillment;completion
 ;; wafA'_2
 wafA'   N0_Nh   loyalty;allegiance
-wafA&   Nh      loyalty;allegiance
+wafAW   Nh      loyalty;allegiance
 wafA}   Nhy     loyalty;allegiance
 ;; wafA'_3
 wafA'   Nprop   Wafa'
@@ -3528,28 +3528,28 @@ wafA    Napdu   death
 wafay   NAt     deaths
 ;; wafiy~_1
 wafiy~  N/ap    faithful;complete     [[wafiy~/ADJ]]
->awofiyA'       N0_Nh   faithful;complete
->awofiyA&       Nh      faithful;complete
->awofiyA}       Nhy     faithful;complete
-;; >awofaY_2
->awofaY N0      more/most faithful;more/most complete
->awofA  Nhy     most faithful;most complete
->awofay NAn_Nayn        most faithful;most complete
+OawofiyA'       N0_Nh   faithful;complete
+OawofiyAW       Nh      faithful;complete
+OawofiyA}       Nhy     faithful;complete
+;; OawofaY_2
+OawofaY N0      more/most faithful;more/most complete
+OawofA  Nhy     most faithful;most complete
+Oawofay NAn_Nayn        most faithful;most complete
 ;; tawofiyap_1
 tawofiy Nap     satisfaction;fulfillment
 ;; muwAfAp_1
 muwAfA  Napdu   arrival;communication
 muwAfay NAt     arrivals;communications
-;; <iyfA'_1
-<iyfA'  N0_Nh   fulfillment;payment
-<iyfA&  Nh      fulfillment;payment
-<iyfA}  Nhy     fulfillment;payment
-<iyfA'  NAn_Nayn        fulfillment;payment
-<iyfA}  Nayn    fulfillment;payment
-<iyfA'  NAt     fulfillment;payment
+;; IiyfA'_1
+IiyfA'  N0_Nh   fulfillment;payment
+IiyfAW  Nh      fulfillment;payment
+IiyfA}  Nhy     fulfillment;payment
+IiyfA'  NAn_Nayn        fulfillment;payment
+IiyfA}  Nayn    fulfillment;payment
+IiyfA'  NAt     fulfillment;payment
 ;; AisotiyfA'_1
 AisotiyfA'      N0_Nh   fulfillment;completion
-AisotiyfA&      Nh      fulfillment;completion
+AisotiyfAW      Nh      fulfillment;completion
 AisotiyfA}      Nhy     fulfillment;completion
 AisotiyfA'      NAt     fulfillment;completion
 ;; wAfiy_1
@@ -3588,10 +3588,10 @@ waqab   PV_intr be sunken;be gloomy
 qib     IV_intr be sunken;be gloomy
 ;; waqob_1
 waqob   Ndu     cavity
->awoqAb N       cavities
+OawoqAb N       cavities
 ;; waqob_2
 waqob   Ndu     eye socket
->awoqAb N       eye sockets
+OawoqAb N       eye sockets
 ;; waqobap_1
 waqob   Napdu   cavity
 waqab   NAt     cavities
@@ -3605,9 +3605,9 @@ waqot   N       time;moment;period of time
 waqota}i*K      FW-Wa   at that time     [[waqota}i*K/ADV]]
 waqota*Ak       FW-Wa   at that time     [[waqota*Ak/ADV]]
 waqotamA        FW-Wa   whenever     [[waqotamA/CONJ]]
->awoqAt N       moments;times
-;; >uwayoqAt_1
->uwayoq NAt     short times;good times
+OawoqAt N       moments;times
+;; OuwayoqAt_1
+Ouwayoq NAt     short times;good times
 ;; waqotiy~_1
 waqotiy~        N-ap    temporal;temporary;provisional     [[waqotiy~/ADJ]]
 ;; mawoqit_1
@@ -3667,8 +3667,8 @@ qid     IV      ignite;burn
 ;; waq~ad_1
 waq~ad  PV      kindle;ignite
 waq~id  IV_yu   kindle;ignite
-;; >awoqad_1
->awoqad PV      ignite;kindle
+;; Oawoqad_1
+Oawoqad PV      ignite;kindle
 wqid    IV_yu   ignite;kindle
 wqad    IV_Pass_yu      be ignited;be kindled
 ;; tawaq~ad_1
@@ -3698,8 +3698,8 @@ waqiyd  N       fuel
 ;; mawoqid_1
 mawoqid Ndu     fireplace;stove
 mawAqid Ndip    fireplaces;stoves
-;; <iyqAd_1
-<iyqAd  N/At    ignition;kindling
+;; IiyqAd_1
+IiyqAd  N/At    ignition;kindling
 ;; tawaq~ud_1
 tawaq~ud        N/At    burning;combustion
 ;; Ait~iqAd_1
@@ -3736,8 +3736,8 @@ qir     IV      fracture;become certain;become an established fact
 ;; waq~ar_1
 waq~ar  PV      revere
 waq~ir  IV_yu   revere
-;; >awoqar_1
->awoqar PV      overload;oppress
+;; Oawoqar_1
+Oawoqar PV      overload;oppress
 wqir    IV_yu   overload;oppress
 wqar    IV_Pass_yu      be overloaded;be oppressed
 ;; waqor_1
@@ -3747,7 +3747,7 @@ wuquwr  N       cavities;hollows
 waqor   Napdu   cavity;hollow
 ;; wiqor_1
 wiqor   N       heavy load;burden
->awoqAr N       heavy loads;burdens
+OawoqAr N       heavy loads;burdens
 ;; waqAr_1
 waqAr   N       dignity;sobriety
 ;; waquwr_1
@@ -3780,8 +3780,8 @@ waq~iE  IV_yu   sign
 ;; wuq~iE_1
 wuq~iE  PV_Pass be signed
 waq~aE  IV_Pass_yu      be signed
-;; >awoqaE_1
->awoqaE PV      inflict;bring about
+;; OawoqaE_1
+OawoqaE PV      inflict;bring about
 wqiE    IV_yu   inflict;bring about
 wqaE    IV_Pass_yu      be inflicted;be brought about
 ;; tawaq~aE_1
@@ -3825,10 +3825,10 @@ tawoqiyE        NduAt   signature
 tawoqiyEiy~     N-ap    signature;rhythmical     [[tawoqiyEiy~/ADJ]]
 ;; wiqAE_1
 wiqAE   N       coitus
-;; <iyqAE_1
-<iyqAE  N/At    rhythm;projection
-;; <iyqAEiy~_1
-<iyqAEiy~       Nall    rhythmical     [[<iyqAEiy~/ADJ]]
+;; IiyqAE_1
+IiyqAE  N/At    rhythm;projection
+;; IiyqAEiy~_1
+IiyqAEiy~       Nall    rhythmical     [[IiyqAEiy~/ADJ]]
 ;; tawaq~uE_1
 tawaq~uE        Ndu     expectation;anticipation
 tawaq~uE        NAt     expectations;anticipations
@@ -3860,10 +3860,10 @@ qif     IV      stop;cease;stand
 ;; waq~af_1
 waq~af  PV      stop;detain
 waq~if  IV_yu   stop;detain
-;; >awoqaf_1
->awoqaf PV      detain;make stand
+;; Oawoqaf_1
+Oawoqaf PV      detain;make stand
 wqif    IV_yu   detain;make stand
->uwoqif PV_Pass be detained;be made to stand
+Ouwoqif PV_Pass be detained;be made to stand
 wqaf    IV_Pass_yu      be detained;be made to stand
 ;; tawaq~af_1
 tawaq~af        PV      stop;halt;depend on
@@ -3878,7 +3878,7 @@ sotawoqif       IV      ask to stop;catch
 waqof   N       stopping;ceasing
 ;; waqof_2
 waqof   N       waqf (religious endowment)
->awoqAf N       waqf (religious endowment)
+OawoqAf N       waqf (religious endowment)
 ;; waqofiy~_1
 waqofiy~        N-ap    waqf (religious endowment)     [[waqofiy~/ADJ]]
 ;; waqofiy~ap_1
@@ -3894,8 +3894,8 @@ mawoqif Ndu     position
 mawAqif Ndip    positions
 ;; tawoqiyf_1
 tawoqiyf        N/At    detention;stopping;halting
-;; <iyqAf_1
-<iyqAf  N/At    stopping;halting
+;; IiyqAf_1
+IiyqAf  N/At    stopping;halting
 ;; tawaq~uf_1
 tawaq~uf        N/At    stop;halt
 ;; wAqif_1
@@ -3959,10 +3959,10 @@ t~aqaY  IV_0_Pass_yu    beware;be on guard
 waqoy   N       protection;safeguard
 ;; waqA'_1
 waqA'   N0_Nh   prevention;protection
-waqA&   Nh      prevention;protection
+waqAW   Nh      prevention;protection
 waqA}   Nhy     prevention;protection
 wiqA'   N0_Nh   prevention;protection
-wiqA&   Nh      prevention;protection
+wiqAW   Nh      prevention;protection
 wiqA}   Nhy     prevention;protection
 ;; wiqAyap_1
 wiqAy   Nap     precaution;prevention;protection
@@ -3980,7 +3980,7 @@ wiqA}iy~        Nap     prevention;protection     [[wiqA}iy~/NOUN]]
 waqiy~  Nall    protecting;guardian     [[waqiy~/ADJ]]
 ;; Ait~iqA'_1
 Ait~iqA'        N0_Nh   caution;precaution
-Ait~iqA&        Nh      caution;precaution
+Ait~iqAW        Nh      caution;precaution
 Ait~iqA}        Nhy     caution;precaution
 Ait~iqA'        NAn_Nayn        caution;precaution
 Ait~iqA}        Nayn    caution;precaution
@@ -4000,43 +4000,43 @@ wiqiy~  NapAt   uqiya
 ; (measure = 1/12 ratl) Beirut: 213 gr; Jerusalem 240 gr; Aleppo 320 gr
 ;
 ;--- wkA
-;; tawak~a>_1
-tawak~a>        PV->_intr       lean;recline;be supported
+;; tawak~aO_1
+tawak~aO        PV-O_intr       lean;recline;be supported
 tawak~a|        PV-|_intr       lean;recline;be supported
-tawak~a&        PV_w_intr       lean;recline;be supported
-tawak~a>        IV_intr lean;recline;be supported
+tawak~aW        PV_w_intr       lean;recline;be supported
+tawak~aO        IV_intr lean;recline;be supported
 tawak~a|        IV-|    lean;recline;be supported
-tawak~a&        IV_wn   lean;recline;be supported
+tawak~aW        IV_wn   lean;recline;be supported
 tawak~a}        IV_yn   lean;recline;be supported
-;; Ait~aka>_1
-Ait~aka>        PV->    lean;recline;be supported
+;; Ait~akaO_1
+Ait~akaO        PV-O    lean;recline;be supported
 Ait~aka|        PV-|    lean;recline;be supported
-Ait~aka&        PV_w    lean;recline;be supported
+Ait~akaW        PV_w    lean;recline;be supported
 t~aki}  IV      lean;recline;be supported
-;; tuka>ap_1
-tuka>   Napdu   support;prop;staff
-;; tawak~u&_1
-tawak~u&        N/At    resting;leaning;reclining
+;; tukaOap_1
+tukaO   Napdu   support;prop;staff
+;; tawak~uW_1
+tawak~uW        N/At    resting;leaning;reclining
 tawak~u}        N/At    resting;leaning;reclining
 ;; Ait~ikA'_1
 Ait~ikA'        N0_Nh   resting;leaning;reclining
-Ait~ikA&        Nh      resting;leaning;reclining
+Ait~ikAW        Nh      resting;leaning;reclining
 Ait~ikA}        Nhy     resting;leaning;reclining
 Ait~ikA'        NAn_Nayn        resting;leaning;reclining
 Ait~ikA}        Nayn    resting;leaning;reclining
 Ait~ikA'        NAt     resting;leaning;reclining
 ;; mut~aki}_1
 mut~aki}        Nall    leaning;resting
-;; mut~aka>_1
-mut~aka>        N0_Nh   support;prop
-mut~aka&        Nh      support;prop
+;; mut~akaO_1
+mut~akaO        N0_Nh   support;prop
+mut~akaW        Nh      support;prop
 mut~aka}        Nhy     support;prop
 mut~aka|        N-|     supports;props
 mut~aka}        Nayn    supports;props
 mut~aka N-|t    supports;props
-;; mut~aka>_2
-mut~aka>        N0_Nh   cushion;couch
-mut~aka&        Nh      cushion;couch
+;; mut~akaO_2
+mut~akaO        N0_Nh   cushion;couch
+mut~akaW        Nh      cushion;couch
 mut~aka}        Nhy     cushion;couch
 mut~aka|        N-|     cushions;couches
 mut~aka}        Nayn    cushions;couches
@@ -4097,7 +4097,7 @@ wak~ar  PV      nest
 wak~ir  IV_yu   nest
 ;; wakor_1
 wakor   Ndu     nest;hangar
->awokAr N       nests;hangars
+OawokAr N       nests;hangars
 wukuwr  N       nests;hangars
 ;; wakorap_1
 wakor   Napdu   nest
@@ -4150,8 +4150,8 @@ wak~il  IV_yu   authorize;empower;entrust
 ;; wAkal_1
 wAkal   PV      confide in;trust
 wAkil   IV_yu   confide in;trust
-;; >awokal_1
->awokal PV      entrust;assign
+;; Oawokal_1
+Oawokal PV      entrust;assign
 wkil    IV_yu   entrust;assign
 wkal    IV_Pass_yu      be entrusted;be assigned
 ;; tawak~al_1
@@ -4166,7 +4166,7 @@ t~akil  IV      rely on;trust
 ;; wakiyl_1
 wakiyl  N/ap    representative;agent
 wukalA' N0_Nh   representatives;agents
-wukalA& Nh      representatives;agents
+wukalAW Nh      representatives;agents
 wukalA} Nhy     representatives;agents
 ;; wakiyl_2
 wakiyl  N0      Wakil;Wakeel
@@ -4182,8 +4182,8 @@ wakAl   Nap     proxy
 tukal   Nap     not self-reliant
 ;; tawokiyl_1
 tawokiyl        N/At    appointing (representative);delegation of authority
-;; <iykAl_1
-<iykAl  N/At    entrusting;assigning;authorizing;empowering
+;; IiykAl_1
+IiykAl  N/At    entrusting;assigning;authorizing;empowering
 ;; tawak~ul_1
 tawak~ul        N/At    trust;confidence
 ;; tawAkul_1
@@ -4220,16 +4220,16 @@ kiy     IV_0hAnn        tie up
 wkaY    IV_0_Pass_yu    be tied up
 ;; wikA'_1
 wikA'   N0_Nh   string;thong
-wikA&   Nh      string;thong
+wikAW   Nh      string;thong
 wikA}   Nhy     string;thong
->awokiy Nap     strings;thongs
+Oawokiy Nap     strings;thongs
 ;
 ;--- wlj
 ;; walaj-i_1
 walaj   PV      enter;penetrate
 lij     IV      enter;penetrate
-;; >awolaj_1
->awolaj PV      insert;introduce;thrust
+;; Oawolaj_1
+Oawolaj PV      insert;introduce;thrust
 wlij    IV_yu   insert;introduce;thrust
 wlaj    IV_Pass_yu      be inserted;be introduced;be thrusted
 ;; tawal~aj_1
@@ -4241,8 +4241,8 @@ lij     Nap_L   entering;penetration
 wuluwj  N       entering;penetration
 ;; waliyjap_1
 waliyj  Napdu   intimate friend;confidant
-;; <iylAj_1
-<iylAj  N/At    insertion;intromission;intercalation
+;; IiylAj_1
+IiylAj  N/At    insertion;intromission;intercalation
 ;; mawolij_1
 mawolij Ndu     entrance
 mawAlij Ndip    entrances
@@ -4269,7 +4269,7 @@ lid     NapAt_L contemporary
 lid     Nuwn_Niyn_L     contemporaries
 ;; walad_1
 walad   Ndu     child;son
->awolAd N       children
+OawolAd N       children
 ;; walodap_1
 walod   Nap     childbirth
 ;; waliyd_1
@@ -4350,8 +4350,8 @@ wlas    IV_Pass_yu      be deceived;be cheated
 ;; wAlas_1
 wAlas   PV      double-cross;misrepresent;distort
 wAlis   IV_yu   double-cross;misrepresent;distort
-;; >awolas_1
->awolas PV      misrepresent;distort
+;; Oawolas_1
+Oawolas PV      misrepresent;distort
 wlis    IV_yu   misrepresent;distort
 wlas    IV_Pass_yu      be misrepresented;be distorted
 ;; walos_1
@@ -4370,12 +4370,12 @@ wolaE   IV      burn
 ;; wal~aE_1
 wal~aE  PV      kindle;light;set fire to
 wal~iE  IV_yu   kindle;light;set fire to
-;; >awolaE_1
->awolaE PV      kindle;light;set fire to
+;; OawolaE_1
+OawolaE PV      kindle;light;set fire to
 wliE    IV_yu   kindle;light;set fire to
 wlaE    IV_Pass_yu      be kindled;be lit;be set afire
-;; >uwoliE_2
->uwliE  PV_Pass be enamored;fall in love
+;; OuwoliE_2
+OuwliE  PV_Pass be enamored;fall in love
 wlaE    IV_Pass_yu      be enamored;fall in love
 ;; tawal~aE_1
 tawal~aE        PV      catch fire;burn;be enthusiastic
@@ -4419,8 +4419,8 @@ muwAlaf NapAt   fine-tuning
 wulofirohAmbotuwn       Nprop   Wolverhampton
 ;
 ;--- wlm
-;; >awolam_1
->awolam PV      give a banquet
+;; Oawolam_1
+Oawolam PV      give a banquet
 wlim    IV_yu   give a banquet
 wlam    IV_Pass_yu      be given a banquet
 ; ;; walom_1
@@ -4438,8 +4438,8 @@ lih     IV_intr become insane
 ;; wal~ah_1
 wal~ah  PV      make insane;confuse utterly
 wal~ih  IV_yu   make insane;confuse utterly
-;; >awolah_1
->awolah PV      make insane;confuse utterly
+;; Oawolah_1
+Oawolah PV      make insane;confuse utterly
 wlih    IV_yu   make insane;confuse utterly
 wlah    IV_Pass_yu      be driven insane;be confused utterly
 ;; tawal~ah_1
@@ -4489,11 +4489,11 @@ wAliy   IV_0hAnn_yu     sympathize with;be close to
 wAl     IV_0hwnyn_yu    sympathize with;be close to
 wAlaY   IV_0_Pass_yu    be sympathized with
 wAlay   IV_Ann_Pass_yu  be sympathized with
-;; >awolaY_1
->awolaY PV_0    devote;apply
->awolA  PV_h    devote;apply
->awolay PV_Atn  devote;apply
->awol   PV_ttAw devote;apply
+;; OawolaY_1
+OawolaY PV_0    devote;apply
+OawolA  PV_h    devote;apply
+Oawolay PV_Atn  devote;apply
+Oawol   PV_ttAw devote;apply
 wliy    IV_0hAnn_yu     devote;apply
 wl      IV_0hwnyn_yu    devote;apply
 wlaY    IV_0_Pass_yu    be devoted;be applied
@@ -4526,14 +4526,14 @@ sotawol IV_0hwnyn       overpower;capture
 sotawolaY       IV_0_Pass_yu    be overpowered;be captured
 ;; waliy~_1
 waliy~  N       successor;heir;patron
->awoliyA'       N0_Nh   responsible;guardian
->awoliyA&       Nh      responsible;guardian
->awoliyA}       Nhy     responsible;guardian
+OawoliyA'       N0_Nh   responsible;guardian
+OawoliyAW       Nh      responsible;guardian
+OawoliyA}       Nhy     responsible;guardian
 ;; waliy~ap_1
 waliy~  Nap     woman saint     [[waliy~/NOUN]]
 ;; walA'_1
 walA'   N0_Nh   loyalty;allegiance
-walA&   Nh      loyalty;allegiance
+walAW   Nh      loyalty;allegiance
 walA}   Nhy     loyalty;allegiance
 ;; walA}iy~_1
 walA}iy~        N-ap    amicable;friendly     [[walA}iy~/ADJ]]
@@ -4541,10 +4541,10 @@ walA}iy~        N-ap    amicable;friendly     [[walA}iy~/ADJ]]
 wilAy   NapAt   state;province
 ;; wilAyAt_1
 wilAy   NAt     States
-;; >awolaY_2
->awolaY N0      more/most appropriate/suitable/deserving
->awolA  Nhy     most appropriate/suitable/deserving
->awolay NAn_Nayn        most appropriate/suitable/deserving
+;; OawolaY_2
+OawolaY N0      more/most appropriate/suitable/deserving
+OawolA  Nhy     most appropriate/suitable/deserving
+Oawolay NAn_Nayn        most appropriate/suitable/deserving
 ;; mawolaY_1
 mawolaY N0      master;lord
 mawolA  Nhy     master;lord
@@ -4560,7 +4560,7 @@ mawolay NAt     ladies;mistresses
 tawoliy Nap     appointment as successor
 ;; wilA'_1
 wilA'   N0_Nh   succession
-wilA&   Nh      succession
+wilAW   Nh      succession
 wilA}   Nhy     succession
 ;; wilA'_2
 wilA'   N0      successively
@@ -4569,13 +4569,13 @@ wilA'F  FW-Wa   successively     [[wilA'F/ADV]]
 muwAlA  Napdu   friendship;continuous practice
 muwAlay NAt     friendships;continuous practice
 ; see also under --- Aly
-;; <iylA'_2
-<iylA'  N0_Nh   marriage annulment
-<iylA&  Nh      marriage annulment
-<iylA}  Nhy     marriage annulment
-<iylA'  NAn_Nayn        marriage annulments
-<iylA}  Nayn    marriage annulments
-<iylA'  NAt     marriage annulments
+;; IiylA'_2
+IiylA'  N0_Nh   marriage annulment
+IiylAW  Nh      marriage annulment
+IiylA}  Nhy     marriage annulment
+IiylA'  NAn_Nayn        marriage annulments
+IiylA}  Nayn    marriage annulments
+IiylA'  NAt     marriage annulments
 ;; tawal~iy_1
 tawal~iy        N0_Nh   taking charge of;assuming responsibility
 tawal~  NK      taking charge of;assuming responsibility
@@ -4587,7 +4587,7 @@ tawAliy NAn_Nayn        continuous succession;consecutive
 tawAliy NAt     continuous succession;consecutive
 ;; AisotiylA'_1
 AisotiylA'      N0_Nh   appropriation;seizure
-AisotiylA&      Nh      appropriation;seizure
+AisotiylAW      Nh      appropriation;seizure
 AisotiylA}      Nhy     appropriation;seizure
 AisotiylA'      NAn_Nayn        appropriations;seizures
 AisotiylA}      Nayn    appropriations;seizures
@@ -4626,27 +4626,27 @@ mawolawiy~      Nall    Mawlawi dervish     [[mawolawiy~/ADJ]]
 matAwil Nap     Metuali (Shiite sect)
 ;
 ;--- wmA
-;; >awoma>_1
->awoma> PV->    signal;motion
->awoma| PV-|    signal;motion
->awoma& PV_w    signal;motion
+;; OawomaO_1
+OawomaO PV-O    signal;motion
+Oawoma| PV-|    signal;motion
+OawomaW PV_w    signal;motion
 wmi}    IV_yu   signal;motion
-wma>    IV_Pass_yu      be signaled;be motioned
-;; <iymA'_1
-<iymA'  N0_Nh   gesture;sign
-<iymA&  Nh      gesture;sign
-<iymA}  Nhy     gesture;sign
-<iymA'  NAn_Nayn        gestures;signs
-<iymA}  Nayn    gestures;signs
-<iymA'  NAt     gestures;signs
-;; <iymA'_2
-<iymA'  N0      with reference to
-;; <iymA'ap_1
-<iymA'  NapAt   gesture;sign;clue
-;; <iymA}iy~_1
-<iymA}iy~       Nall    pantomimic;gesturing     [[<iymA}iy~/ADJ]]
-;; muwma>_1
-muwma>  N0_Nh   referred to;above-mentioned     [[muwma>/ADJ]]
+wmaO    IV_Pass_yu      be signaled;be motioned
+;; IiymA'_1
+IiymA'  N0_Nh   gesture;sign
+IiymAW  Nh      gesture;sign
+IiymA}  Nhy     gesture;sign
+IiymA'  NAn_Nayn        gestures;signs
+IiymA}  Nayn    gestures;signs
+IiymA'  NAt     gestures;signs
+;; IiymA'_2
+IiymA'  N0      with reference to
+;; IiymA'ap_1
+IiymA'  NapAt   gesture;sign;clue
+;; IiymA}iy~_1
+IiymA}iy~       Nall    pantomimic;gesturing     [[IiymA}iy~/ADJ]]
+;; muwmaO_1
+muwmaO  N0_Nh   referred to;above-mentioned     [[muwmaO/ADJ]]
 ;
 ;--- wmd
 ;; wamid_1
@@ -4667,8 +4667,8 @@ muwmis  NapAt   prostitute
 ;; wamaD-i_1
 wamaD   PV      flash;gleam
 miD     IV      flash;gleam
-;; >awomaD_1
->awomaD PV      glow;light up;wink
+;; OawomaD_1
+OawomaD PV      glow;light up;wink
 wmiD    IV_yu   glow;light up;wink
 wmaD    IV_Pass_yu      be lit up;be winked
 ;; wamaDAn_1
@@ -4690,7 +4690,7 @@ wamoq   N       tender love
 ;; mawomAp_1
 mawomA  Napdu   desert
 mawomA' N0_Nh   desert
-mawomA& Nh      desert
+mawomAW Nh      desert
 mawomA} Nhy     desert
 mawAmiy N0_Nh   deserts
 mawAm   NK      deserts
@@ -4746,7 +4746,7 @@ wanaY   N0      slackening;lassitude
 wanA    Nhy     slackening;lassitude
 ;; wanA'_1
 wanA'   N0_Nh   slackening;lassitude
-wanA&   Nh      slackening;lassitude
+wanAW   Nh      slackening;lassitude
 wanA}   Nhy     slackening;lassitude
 ;; tawAniy_1
 tawAniy N0_Nh   slowness;negligence;indifference
@@ -4770,8 +4770,8 @@ mutawAniy       NapAt   slack;negligent;indifferent
 wahab   PV      donate;grant
 hab     IV      donate;grant
 whab    IV_Pass_yu      be donated;be granted
-;; >awohab_1
->awohab PV      present;give as a gift
+;; Oawohab_1
+Oawohab PV      present;give as a gift
 whib    IV_yu   present;give as a gift
 whab    IV_Pass_yu      be presented;be granted
 ;; Aisotawohab_1
@@ -4794,10 +4794,10 @@ wah~Abiy~       Nap     Wahhabism     [[wah~Abiy~/NOUN]]
 mawohib Napdu   talent;gift
 mawohab Napdu   talent;gift
 mawAhib Ndip    talents;gifts
-;; <iyhAb_1
-<iyhAb  N/At    donation;granting
-;; <iyhAb_2
-<iyhAb  N0      Ihab;Ehab
+;; IiyhAb_1
+IiyhAb  N/At    donation;granting
+;; IiyhAb_2
+IiyhAb  N0      Ihab;Ehab
 ;; wAhib_1
 wAhib   Nall    granting;donor
 ;; mawohuwb_1
@@ -4813,8 +4813,8 @@ mawohuwb        N0      Mawhub
 ;; wahaj-i_1
 wahaj   PV      glow;burn
 hij     IV      glow;burn
-;; >awohaj_1
->awohaj PV      kindle;light
+;; Oawohaj_1
+Oawohaj PV      kindle;light
 whij    IV_yu   kindle;light
 whaj    IV_Pass_yu      be kindled;be set afire
 ;; tawah~aj_1
@@ -4839,8 +4839,8 @@ wahod   N       lowland;depression
 wahod   Napdu   depression;lowland;precipice
 wihAd   N       depressions;lowlands;precipices
 wuhad   N       depressions;lowlands;precipices
-;; >awohad_1
->awohad Nel     low-lying;depressed
+;; Oawohad_1
+Oawohad Nel     low-lying;depressed
 ;
 ;--- whr
 ;; wahar-i_1
@@ -4860,7 +4860,7 @@ wahorAn Ndip    Oran
 ;; wahoq_1
 wahoq   N       lasso
 wahaq   N       lasso
->awohAq N       lassos
+OawohAq N       lassos
 ;
 ;--- whl
 ;; wahil-a_1
@@ -4895,13 +4895,13 @@ tuhom   Napdu   accusation;charge
 tuham   N       accusations;charges
 ;; wahom_1
 wahom   N       delusion;imagination
->awohAm N       delusions;imaginations
+OawohAm N       delusions;imaginations
 ;; wahomiy~_1
 wahomiy~        Nall    imagined;imaginary;fake;bogus     [[wahomiy~/ADJ]]
 ;; wahomiy~ap_1
 wahomiy~        Nap     conjecture;delusion     [[wahomiy~/NOUN]]
-;; <iyhAm_1
-<iyhAm  N/At    deception;delusion
+;; IiyhAm_1
+IiyhAm  N/At    deception;delusion
 ;; tawah~um_1
 tawah~um        N/At    imagination;suspicion
 ;; Ait~ihAm_1
@@ -4929,8 +4929,8 @@ wohun   IV-n_intr       be weak;lack the strength for
 ;; wah~an_1
 wah~an  PV-n    weaken;discourage
 wah~in  IV-n_yu weaken;discourage
-;; >awohan_1
->awohan PV-n    weaken;discourage
+;; Oawohan_1
+Oawohan PV-n    weaken;discourage
 whin    IV-n_yu weaken;discourage
 whan    IV-n_Pass_yu    be weakened;be discouraged
 ;; wahon_1
@@ -4958,11 +4958,11 @@ wahA    PV_h    be frail;be fragile
 wahay   PV_Atn  be frail;be fragile
 wah     PV_ttAw_intr    be frail;be fragile
 hiy     IV_0hAnn        be frail;be fragile
-;; >awohaY_1
->awohaY PV_0    weaken;debilitate
->awohA  PV_h    weaken;debilitate
->awohay PV_Atn  weaken;debilitate
->awoh   PV_ttAw weaken;debilitate
+;; OawohaY_1
+OawohaY PV_0    weaken;debilitate
+OawohA  PV_h    weaken;debilitate
+Oawohay PV_Atn  weaken;debilitate
+Oawoh   PV_ttAw weaken;debilitate
 whiy    IV_0hAnn_yu     weaken;debilitate
 wh      IV_0hwnyn_yu    weaken;debilitate
 whaY    IV_0_Pass_yu    be weakened;be debilitated

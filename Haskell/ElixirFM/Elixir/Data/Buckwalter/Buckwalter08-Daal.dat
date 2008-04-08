@@ -3,25 +3,25 @@
 dA      FW-Wa   Da     [[dA/NOUN_PROP]]
 ;
 ;--- dAb
-;; da>ab-a_1
-da>ab   PV      persist;be devoted
-do>ab   IV      persist;be devoted
-;; da>ob_1
-da>ob   N       habit
->ado&ub N       habits
-;; da>ab_1
-da>ab   N       persistence;eagerness
-;; du&uwb_1
-du&uwb  N       persistence;eagerness
+;; daOab-a_1
+daOab   PV      persist;be devoted
+doOab   IV      persist;be devoted
+;; daOob_1
+daOob   N       habit
+OadoWub N       habits
+;; daOab_1
+daOab   N       persistence;eagerness
+;; duWuwb_1
+duWuwb  N       persistence;eagerness
 ;; da}ib_1
 da}ib   N/ap    devoted;untiring     [[da}ib/ADJ]]
 ;; dA}ib_1
 dA}ib   Nall    devoted;untiring     [[dA}ib/ADJ]]
 ;; da'uwb_1
 da'uwb  Nall    persistent;persevering     [[da'uwb/ADJ]]
-da&uwb  Nall    persistent;persevering     [[da&uwb/ADJ]]
-;; >ado>ab_1
->ado>ab Nel     more/most persistent
+daWuwb  Nall    persistent;persevering     [[daWuwb/ADJ]]
+;; OadoOab_1
+OadoOab Nel     more/most persistent
 ;
 ;--- dAd
 ;; dAdap_1
@@ -150,7 +150,7 @@ dab~ib  IV_yu   sharpen;taper
 ;; dub~_1
 dub~    Ndu     bear
 dub~    Nap     she-bear
->adobAb N       bears
+OadobAb N       bears
 dibab   Nap     bears
 ;; dub~_2
 dub~    N0      Ursa
@@ -211,8 +211,8 @@ dobur   IV      turn the back;elapse;pass
 dab~ar  PV      make plans;arrange;manage
 dab~ir  IV_yu   make plans;arrange;manage
 dab~ar  IV_Pass_yu      be planned;be arranged;be managed
-;; >adobar_1
->adobar PV      turn the back;flee;dodge
+;; Oadobar_1
+Oadobar PV      turn the back;flee;dodge
 dobir   IV_yu   turn the back;flee;dodge
 ;; tadab~ar_1
 tadab~ar        PV_intr be prepared;be arranged
@@ -225,7 +225,7 @@ Aisotadobar     PV      turn the back
 sotadobir       IV      turn the back
 ;; dubor_1
 dubor   Ndu     backside;posterior
->adobAr N       backsides;posteriors
+OadobAr N       backsides;posteriors
 ;; dabariy~_1
 dabariy~        Nall    late;behind     [[dabariy~/ADJ]]
 ;; daborap_1
@@ -239,8 +239,8 @@ dabAbiyr        Ndip    hornets;wasps
 tadobiyr        Ndu     arrangement;preparation;management
 tadobiyr        NAt     arrangements;preparations
 tadAbiyr        Ndip    measures;arrangements;preparations
-;; <idobAr_1
-<idobAr NduAt   retreat
+;; IidobAr_1
+IidobAr NduAt   retreat
 ;; tadab~ur_1
 tadab~ur        NduAt   meditation;deliberation
 ;; tadAbur_1
@@ -273,10 +273,10 @@ dabAbiys        Ndip    pins;safety pins
 daba$   N       crushed rock
 ;; daba$_2
 daba$   N       rubbish
->adobA$ N       rubbish
+OadobA$ N       rubbish
 ;; daba$_3
 daba$   N       furniture
->adobA$ N       furniture
+OadobA$ N       furniture
 ;
 ;--- dbg
 ;; dabag-uia_1
@@ -429,15 +429,15 @@ daj~in  IV-n_yu tame;domesticate
 ;; dAjan_1
 dAjan   PV-n    flatter;cajole
 dAjin   IV-n_yu flatter;cajole
-;; >adojan_1
->adojan PV-n_intr       be murky;be overcast;be dark
+;; Oadojan_1
+Oadojan PV-n_intr       be murky;be overcast;be dark
 dojin   IV-n_yu be murky;be overcast;be dark
 ;; dujonap_1
 dujon   Nap     darkness;gloom
 ;; dujun~ap_1
 dujun~  Nap     darkness;gloom
-;; >adojan_2
->adojan Nel     dark;gloomy
+;; Oadojan_2
+Oadojan Nel     dark;gloomy
 ;; dAjin_1
 dAjin   Nall    tame;domesticated     [[dAjin/ADJ]]
 ;; dAjin_2
@@ -556,8 +556,8 @@ doHaD   IV_intr be void;invalidate
 ;; daH~aD_1
 daH~aD  PV      disprove;refute
 daH~iD  IV_yu   disprove;refute
-;; >adoHaD_1
->adoHaD PV      disprove;refute
+;; OadoHaD_1
+OadoHaD PV      disprove;refute
 doHiD   IV_yu   disprove;refute
 doHaD   IV_Pass_yu      be disproved;be refuted
 ;; daHoD_1
@@ -582,8 +582,8 @@ doHuw   IV_0hAnn        spread out;level;flatten
 doH     IV_0hwnyn       spread out;level;flatten
 doHaY   IV_0_Pass_yu    be spread out;be leveled;be flattened
 doHay   IV_Ann_Pass_yu  be spread out;be leveled;be flattened
-;; >udoHiy~ap_1
->udoHiy~        NapAt   ostrich nest     [[>udoHiy~/NOUN]]
+;; OudoHiy~ap_1
+OudoHiy~        NapAt   ostrich nest     [[OudoHiy~/NOUN]]
 ;; midoHaY_1
 midoHaY N0      steamroller;roller
 midoHA  Nhy     steamroller;roller
@@ -603,8 +603,8 @@ doxal   IV_Pass_yu      be entered
 ;; dAxal_1
 dAxal   PV      come over;befall;seize
 dAxil   IV_yu   come over;befall;seize
-;; >adoxal_1
->adoxal PV      enter;include;insert
+;; Oadoxal_1
+Oadoxal PV      enter;include;insert
 doxil   IV_yu   enter;include;insert
 doxal   IV_Pass_yu      be entered;be included;be inserted
 ;; tadax~al_1
@@ -624,7 +624,7 @@ dux~al  Nap     warbler
 ;; daxiyl_1
 daxiyl  Nall    foreign;intruder     [[daxiyl/NOUN]]
 duxalA' N0_Nh   foreigners;intruders
-duxalA& Nh      foreigners;intruders
+duxalAW Nh      foreigners;intruders
 duxalA} Nhy     foreigners;intruders
 ;; daxiyl_2
 daxiyl  Nall    internal;inner     [[daxiyl/ADJ]]
@@ -639,8 +639,8 @@ duxuwliy~       Nap     entrance fee     [[duxuwliy~/NOUN]]
 madoxal Ndu     entrance;entering;introduction
 ;; mudAxalap_1
 mudAxal NapAt   interference;participation
-;; <idoxAl_1
-<idoxAl NduAt   insertion;entering;inclusion
+;; IidoxAl_1
+IidoxAl NduAt   insertion;entering;inclusion
 ;; tadax~ul_1
 tadax~ul        NduAt   intervention;interference
 ;; tadAxul_1
@@ -681,8 +681,8 @@ doxun   IV-n_intr       smolder;smoke
 dax~an  PV-n    smoke;fumigate
 dax~in  IV-n_yu smoke;fumigate
 dax~an  IV-n_Pass_yu    be smoked;be fumigated
-;; >adoxan_1
->adoxan PV-n    smoke
+;; Oadoxan_1
+Oadoxan PV-n    smoke
 doxin   IV-n_yu smoke
 doxan   IV-n_Pass_yu    be smoked
 ;; tadax~an_1
@@ -695,7 +695,7 @@ daxan   N       smoke;vapor
 ;; duxAn_1
 duxAn   N       smoke;smoking
 dux~An  N       smoke;smoking
->adoxin Nap     smoke;smoking
+Oadoxin Nap     smoke;smoking
 ;; duxonap_1
 duxon   Nap     smoke;incense
 ;; daxiynap_1
@@ -744,9 +744,9 @@ dir~    IV_V    stream;accrue;be abundant
 dorir   IV_C    stream;accrue;be abundant
 dur~    IV_V    stream;accrue;be abundant
 dorur   IV_C    stream;accrue;be abundant
-;; >adar~_1
->adar~  PV_V    make flow;bestow lavishly;yield
->adorar PV_C    make flow;bestow lavishly;yield
+;; Oadar~_1
+Oadar~  PV_V    make flow;bestow lavishly;yield
+Oadorar PV_C    make flow;bestow lavishly;yield
 dir~    IV_V_yu make flow;bestow lavishly;yield
 dorir   IV_C_yu make flow;bestow lavishly;yield
 dar~    IV_V_Pass_yu    be made to flow;be bestowed lavishly;be yielded
@@ -767,8 +767,8 @@ dir~    Nap     teat;udder
 dirar   N       teats;udders
 ;; midorAr_1
 midorAr N/ap    spouting;showering
-;; <idorAr_1
-<idorAr NduAt   copious;unrestrained
+;; IidorAr_1
+IidorAr NduAt   copious;unrestrained
 ;; dAr~_1
 dAr~    N/ap    copious;showering     [[dAr~/ADJ]]
 ;; mudir~_1
@@ -780,33 +780,33 @@ darobaziyn      N       banister;railing
 darAboziyn      N       banister;railing
 ;
 ;--- drA
-;; dara>-a_1
-dara>   PV->    reject;avert;ward off
+;; daraO-a_1
+daraO   PV-O    reject;avert;ward off
 dara|   PV-|    reject;avert;ward off
-dara&   PV_w    reject;avert;ward off
-dora>   IV      reject;avert;ward off
+daraW   PV_w    reject;avert;ward off
+doraO   IV      reject;avert;ward off
 dora|   IV-|    reject;avert;ward off
-dora&   IV_wn   reject;avert;ward off
+doraW   IV_wn   reject;avert;ward off
 dora}   IV_yn   reject;avert;ward off
-;; tadAra>_1
-tadAra> PV->    contend
+;; tadAraO_1
+tadAraO PV-O    contend
 tadAra| PV-|    contend
-tadAra& PV_w    contend
-tadAra> IV      contend
+tadAraW PV_w    contend
+tadAraO IV      contend
 tadAra| IV-|    contend
-tadAra& IV_wn   contend
+tadAraW IV_wn   contend
 tadAra} IV_yn   contend
 ;; daro'_1
 daro'   N0F     prevention;averting
-daro>   Nh      prevention;averting
-daro&   Nh      prevention;averting
+daroO   Nh      prevention;averting
+daroW   Nh      prevention;averting
 daro}   Nhy     prevention;averting
 ;; dariy}ap_1
 dariy}  Napdu   target
 dariy}  NAt     targets
 ;; dur~A'_1
 dur~A'  N0_Nh   peaches
-dur~A&  Nh      peaches
+dur~AW  Nh      peaches
 dur~A}  Nhy     peaches
 dur~A'  Napdu   peach
 dur~A'  NAt     peaches
@@ -879,8 +879,8 @@ dar~ij  IV_yu   categorize;classify;gradate
 ;; dAraj_1
 dAraj   PV      keep up with
 dArij   IV_yu   keep up with
-;; >adoraj_1
->adoraj PV      insert;include;integrate
+;; Oadoraj_1
+Oadoraj PV      insert;include;integrate
 dorij   IV_yu   insert;include;integrate
 doraj   IV_Pass_yu      be inserted;be included;be integrated
 ;; tadar~aj_1
@@ -896,14 +896,14 @@ sotadorij       IV      promote;advance gradually
 daroj   N       entry;registration;recording
 ;; duroj_1
 duroj   N       desk drawer
->adorAj N       desk drawers
+OadorAj N       desk drawers
 duruwj  N       desk drawers
 ;; daraj_1
 daraj   Ndu     step;stairs
->adorAj N       steps;stairs
+OadorAj N       steps;stairs
 ;; daraj_2
 daraj   Ndu     route;course
->adorAj N       routes;courses
+OadorAj N       routes;courses
 ;; darajap_1
 daraj   Napdu   degree;class;rank;grade;level
 daraj   NAt     degrees;classes;ranks;grades;levels
@@ -925,8 +925,8 @@ tadoriyj        NduAt   gradation;classification;categorization
 ;; tadoriyjiy~_1
 tadoriyjiy~     Nall    gradual;progressive     [[tadoriyjiy~/ADJ]]
 tadoriyjiy~     NF      gradually;in stages;step by step     [[tadoriyjiy~/ADV]]
-;; <idorAj_1
-<idorAj NduAt   insertion;registration;recording
+;; IidorAj_1
+IidorAj NduAt   insertion;registration;recording
 ;; tadar~uj_1
 tadar~uj        NduAt   gradual progress;gradation;hierarchy
 ;; AisotidorAj_1
@@ -948,8 +948,8 @@ mutadar~ij      Nall    apprentice
 ;; darid-a_1
 darid   PV_intr be toothless
 dorad   IV_intr be toothless
-;; >adorad_1
->adorad Nel     toothless
+;; Oadorad_1
+Oadorad Nel     toothless
 ;; durodiy~_1
 durodiy~        N-ap    sediment;dregs     [[durodiy~/ADJ]]
 ;
@@ -1058,8 +1058,8 @@ d~ariE  IV_intr be armed;be equipped
 ;; diroE_1
 diroE   N       armor;plate armor
 duruwE  N       armor;plate armor
->adoruE N       armor;plate armor
->adorAE N       armor;plate armor
+OadoruE N       armor;plate armor
+OadorAE N       armor;plate armor
 ;; diroEiy~_1
 diroEiy~        N-ap    shielding;armored     [[diroEiy~/ADJ]]
 ;; dar~AEap_1
@@ -1118,12 +1118,12 @@ dar~ik  IV_yu   last;continue
 ;; dArak_1
 dArak   PV      overtake;catch up with
 dArik   IV_yu   overtake;catch up with
-;; >adorak_1
->adorak PV      comprehend;realize
+;; Oadorak_1
+Oadorak PV      comprehend;realize
 dorik   IV_yu   comprehend;realize
 dorak   IV_Pass_yu      be comprehended;be realized
-;; >adorak_2
->adorak PV      reach;attain
+;; Oadorak_2
+Oadorak PV      reach;attain
 dorik   IV_yu   reach;attain
 dorak   IV_Pass_yu      be reached;be attained
 ;; tadar~ak_1
@@ -1137,8 +1137,8 @@ Aisotadorak     PV      set the record straight;correct;amend;remedy
 sotadorik       IV      set the record straight;correct;amend;remedy
 ;; darak_1
 darak   N       attainment;achievement
-;; >adorAk_1
->adorAk N       lowest levels
+;; OadorAk_1
+OadorAk N       lowest levels
 ;; darakiy~_1
 darakiy~        Nall    policeman     [[darakiy~/ADJ]]
 ;; darakap_1
@@ -1149,8 +1149,8 @@ dar~Ak  N/ap    successful;accomplishing
 madArik Ndip    faculties;powers
 ;; dirAk_1
 dirAk   NF      constantly;without interruption     [[dirAk/ADV]]
-;; <idorAk_1
-<idorAk NduAt   attainment;realization;awareness
+;; IidorAk_1
+IidorAk NduAt   attainment;realization;awareness
 ;; tadar~uk_1
 tadar~uk        NduAt   gradual decline
 ;; AisotidorAk_1
@@ -1177,15 +1177,15 @@ dar~im  IV_yu   clip;trim
 ;; darin-a_1
 darin   PV-n_intr       be filthy;be dirty
 doran   IV-n_intr       be filthy;be dirty
-;; >adoran_1
->adoran PV-n_intr       be filthy;be dirty
+;; Oadoran_1
+Oadoran PV-n_intr       be filthy;be dirty
 dorin   IV-n_yu be filthy;be dirty
 ;; tadar~an_1
 tadar~an        PV-n    have tuberculosis
 tadar~an        IV-n    have tuberculosis
 ;; daran_1
 daran   N       dirt;filth;tuberculosis
->adorAn N       dirt;filth;tuberculosis
+OadorAn N       dirt;filth;tuberculosis
 ;; daranap_1
 daran   NapAt   tubercle;tumor;nodule
 ;; daraniy~_1
@@ -1245,11 +1245,11 @@ dAriy   IV_0hAnn_yu     flatter;deceive;shelter
 dAr     IV_0hwnyn_yu    flatter;deceive;shelter
 dAraY   IV_0_Pass_yu    be flattered;be deceived;be sheltered
 dAray   IV_Ann_Pass_yu  be flattered;be deceived;be sheltered
-;; >adoraY_1
->adoraY PV_0    inform
->adorA  PV_h    inform
->adoray PV_Atn  inform
->ador   PV_ttAw inform
+;; OadoraY_1
+OadoraY PV_0    inform
+OadorA  PV_h    inform
+Oadoray PV_Atn  inform
+Oador   PV_ttAw inform
 doriy   IV_0hAnn_yu     inform
 dor     IV_0hwnyn_yu    inform
 doraY   IV_0_Pass_yu    be informed
@@ -1265,10 +1265,10 @@ tadAray IV_Ann  hide
 tadAr   IV_0hwnyn       hide
 ;; dirAyap_1
 dirAy   Nap     knowledge;knowing
-;; >adoraY_2
->adoraY N0      more/most knowledgeable;more/most informed
->adorA  Nhy     more/most knowledgeable;more/most informed
->adoray NAn_Nayn        more/most knowledgeable;more/most informed
+;; OadoraY_2
+OadoraY N0      more/most knowledgeable;more/most informed
+OadorA  Nhy     more/most knowledgeable;more/most informed
+Oadoray NAn_Nayn        more/most knowledgeable;more/most informed
 ;; mudArAp_1
 mudArA  Napdu   flattery;affability
 mudAray NAt     flattery;affability
@@ -1287,12 +1287,12 @@ madAriy N0_Nh   punting poles
 madAr   NK      punting poles
 ;
 ;--- dr
-;; lA>adoriy~_1
-lA>adoriy~      Nall_L  skeptic;agnostic     [[lA>adoriy~/ADJ]]
-lA>adoriy~      Nall_L  skeptic;agnostic     [[lAAadoriy~/ADJ]]
-;; lA>adoriy~ap_1
-lA>adoriy~      Nap_L   skepticism;agnosticism     [[lA>adoriy~/NOUN]]
-lA>adoriy~      Nap_L   skepticism;agnosticism     [[lAAadoriy~/NOUN]]
+;; lAOadoriy~_1
+lAOadoriy~      Nall_L  skeptic;agnostic     [[lAOadoriy~/ADJ]]
+lAOadoriy~      Nall_L  skeptic;agnostic     [[lAAadoriy~/ADJ]]
+;; lAOadoriy~ap_1
+lAOadoriy~      Nap_L   skepticism;agnosticism     [[lAOadoriy~/NOUN]]
+lAOadoriy~      Nap_L   skepticism;agnosticism     [[lAAadoriy~/NOUN]]
 ;--- dryq
 ;; diroyAq_1
 diroyAq N       antidote;theriaca
@@ -1389,10 +1389,10 @@ duwsiloduwrf    N0      Dusseldorf
 dasam   N       fat;grease
 ;; dasim_1
 dasim   N/ap    fat;greasy;meaty     [[dasim/ADJ]]
-;; >adosam_1
->adosam Nel     fatty;greasy;pithy
+;; Oadosam_1
+Oadosam Nel     fatty;greasy;pithy
 dasomA' N0_Nh   fatty;greasy;pithy
-dasomA& Nh      fatty;greasy;pithy
+dasomAW Nh      fatty;greasy;pithy
 dasomA} Nhy     fatty;greasy;pithy
 dusom   N       fatty;greasy;pithy
 ;; dasAmap_1
@@ -1506,10 +1506,10 @@ mudaEobal       Nall    indisposed     [[mudaEobal/ADJ]]
 mudaEobal       Nall    round;ball-shaped     [[mudaEobal/ADJ]]
 ;
 ;--- dEj
-;; >adoEaj_1
->adoEaj Nel     black-eyed
+;; OadoEaj_1
+OadoEaj Nel     black-eyed
 daEojA' N0_Nh   black-eyed
-daEojA& Nh      black-eyed
+daEojAW Nh      black-eyed
 daEojA} Nhy     black-eyed
 duEoj   N       black-eyed
 ;
@@ -1634,22 +1634,22 @@ daEAwaY N0      lawsuits;allegations;legal actions
 daEAwA  Nhy     lawsuits;allegations;legal actions
 ;; daEiy~_1
 daEiy~  Ndu     bastard;braggart;impostor
->adoEiyA'       N0_Nh   bastards;braggarts;impostors
->adoEiyA&       Nh      bastards;braggarts;impostors
->adoEiyA}       Nhy     bastards;braggarts;impostors
+OadoEiyA'       N0_Nh   bastards;braggarts;impostors
+OadoEiyAW       Nh      bastards;braggarts;impostors
+OadoEiyA}       Nhy     bastards;braggarts;impostors
 ;; duEA'_1
 duEA'   N0_Nh   call;request;invocation
-duEA&   Nh      call;request;invocation
+duEAW   Nh      call;request;invocation
 duEA}   Nhy     call;request;invocation
->adoEiy Nap     call;request;invocation
+OadoEiy Nap     call;request;invocation
 ;; diEAyap_1
 diEAy   NapAt   propaganda;advertising
 ;; diEA}iy~_1
 diEA}iy~        Nall    propagandistic     [[diEA}iy~/ADJ]]
-;; >adoEaY_1
->adoEaY N0      more/most conducive;more/most provoking
->adoEA  Nhy     more/most conducive;more/most provoking
->adoEay NAn_Nayn        most conducive;most provoking
+;; OadoEaY_1
+OadoEaY N0      more/most conducive;more/most provoking
+OadoEA  Nhy     more/most conducive;more/most provoking
+OadoEay NAn_Nayn        most conducive;most provoking
 ;; daEAwap_1
 daEAw   Nap     propaganda;publicity
 ;; madoEAp_1
@@ -1661,14 +1661,14 @@ tadAEiy NAn_Nayn        association;mutual summoning
 tadAEiy NAt     association;mutual summoning
 ;; Aid~iEA'_1
 Aid~iEA'        N0_Nh   allegation;claim;prosecution
-Aid~iEA&        Nh      allegation;claim;prosecution
+Aid~iEAW        Nh      allegation;claim;prosecution
 Aid~iEA}        Nhy     allegation;claim;prosecution
 Aid~iEA'        NAn_Nayn        allegation;claim;prosecution
 Aid~iEA}        Nayn    allegation;claim;prosecution
 Aid~iEA'        NAt     allegation;claim;prosecution
 ;; AisotidoEA'_1
 AisotidoEA'     N0_Nh   summons;petition
-AisotidoEA&     Nh      summons;petition
+AisotidoEAW     Nh      summons;petition
 AisotidoEA}     Nhy     summons;petition
 AisotidoEA'     NAn_Nayn        summons;petitions
 AisotidoEA}     Nayn    summons;petitions
@@ -1741,8 +1741,8 @@ dagorA  Nhy     attach;assault
 dugoriy~        N       straight;direct
 ;
 ;--- dg$
-;; >adoga$_1
->adoga$ PV_intr become dark
+;; Oadoga$_1
+Oadoga$ PV_intr become dark
 dogi$   IV_intr_yu      become dark
 ;; daga$_1
 daga$   N       darkness;twilight
@@ -1770,8 +1770,8 @@ mudogil Nall    densely covered     [[mudogil/ADJ]]
 mudogil Nall    false;perfidious     [[mudogil/ADJ]]
 ;
 ;--- dgm
-;; >adogam_1
->adogam PV      insert;embody
+;; Oadogam_1
+Oadogam PV      insert;embody
 dogim   IV_yu   insert;embody
 dogam   IV_Pass_yu      be inserted;be embodied
 ;; Ainodagam_1
@@ -1780,8 +1780,8 @@ nodagim IV_intr be incorporated;be embodied
 ;; Aid~agam_1
 Aid~agam        PV      insert;embody
 d~agim  IV      insert;embody
-;; <idogAm_1
-<idogAm NduAt   incorporation;coalescence
+;; IidogAm_1
+IidogAm NduAt   incorporation;coalescence
 ;; Aid~igAm_1
 Aid~igAm        NduAt   incorporation;coalescence
 ;
@@ -1814,46 +1814,46 @@ dif~iy~ Nap     cloak     [[dif~iy~/NOUN]]
 ;--- dfA
 ;; dafi}-a_1
 dafi}   PV_intr feel warm;be warm
-dofa>   IV_intr feel warm;be warm
+dofaO   IV_intr feel warm;be warm
 dofa|   IV-|    feel warm;be warm
-dofa&   IV_wn   feel warm;be warm
+dofaW   IV_wn   feel warm;be warm
 dofa}   IV_yn   feel warm;be warm
-;; dafu&-u_1
-dafu&   PV_intr feel warm;be warm
-dofu&   IV_intr feel warm;be warm
+;; dafuW-u_1
+dafuW   PV_intr feel warm;be warm
+dofuW   IV_intr feel warm;be warm
 dofu}   IV_yn   feel warm;be warm
-;; daf~a>_1
-daf~a>  PV->    warm;heat
+;; daf~aO_1
+daf~aO  PV-O    warm;heat
 daf~a|  PV-|    warm;heat
-daf~a&  PV_w    warm;heat
+daf~aW  PV_w    warm;heat
 daf~i}  IV_yu   warm;heat
-;; >adofa>_1
->adofa> PV->    warm;heat
->adofa| PV-|    warm;heat
->adofa& PV_w    warm;heat
+;; OadofaO_1
+OadofaO PV-O    warm;heat
+Oadofa| PV-|    warm;heat
+OadofaW PV_w    warm;heat
 dofi}   IV_yu   warm;heat
-dofa>   IV_Pass_yu      be warmed;be heated
-;; tadaf~a>_1
-tadaf~a>        PV->_intr       be warmed
+dofaO   IV_Pass_yu      be warmed;be heated
+;; tadaf~aO_1
+tadaf~aO        PV-O_intr       be warmed
 tadaf~a|        PV-|_intr       be warmed
-tadaf~a&        PV_w_intr       be warmed
-tadaf~a>        IV_intr be warmed
+tadaf~aW        PV_w_intr       be warmed
+tadaf~aO        IV_intr be warmed
 tadaf~a|        IV-|    be warmed
-tadaf~a&        IV_wn   be warmed
+tadaf~aW        IV_wn   be warmed
 tadaf~a}        IV_yn   be warmed
-;; Aid~afa>_1
-Aid~afa>        PV->_intr       get warm
+;; Aid~afaO_1
+Aid~afaO        PV-O_intr       get warm
 Aid~afa|        PV-|_intr       get warm
-Aid~afa&        PV_w_intr       get warm
+Aid~afaW        PV_w_intr       get warm
 d~afi}  IV_intr get warm
-;; Aisotadofa>_1
-Aisotadofa>     PV->_intr       be warmed
+;; AisotadofaO_1
+AisotadofaO     PV-O_intr       be warmed
 Aisotadofa|     PV-|_intr       be warmed
-Aisotadofa&     PV_w_intr       be warmed
+AisotadofaW     PV_w_intr       be warmed
 sotadofi}       IV_intr be warmed
 ;; difo'_1
 difo'   N0_Nh   warmth;heat
-difo&   Nh      warmth;heat
+difoW   Nh      warmth;heat
 difo}   Nhy     warmth;heat
 ;; dafi}_1
 dafi}   N/ap    warm
@@ -1865,23 +1865,23 @@ dafiy}  NAn_Nayn        warm
 dafiy}  Nuwn_Niyn       warm
 ;; dafo|n_1
 dafo|n  Ndip    warm
-dafo>aY N0      warm
+dafoOaY N0      warm
 ;; difA'_1
 difA'   N0_Nh   heating
-difA&   Nh      heating
+difAW   Nh      heating
 difA}   Nhy     heating
 ;; dafA'ap_1
 dafA'   Nap     warmth;heat
 ;; daf~Ayap_1
 daf~Ay  Napdu   stove;heater
 daf~Ay  NAt     stoves;heaters
-;; midofa>_1
-midofa> N0_Nh   stove;heater
-midofa& Nh      stove;heater
+;; midofaO_1
+midofaO N0_Nh   stove;heater
+midofaW Nh      stove;heater
 midofa} Nhy     stove;heater
 midofa| N-|     stoves;heaters
 midofa} Nayn    stoves;heaters
-midofa> Napdu   stove;heater
+midofaO Napdu   stove;heater
 madAfi} Ndip    stoves;heaters
 ;; tadofi}ap_1
 tadofi} Nap     heating
@@ -2035,7 +2035,7 @@ dafon   N       burial
 ;; dafiyn_1
 dafiyn  N/ap    buried;hidden     [[dafiyn/ADJ]]
 dufanA' N0_Nh   buried;hidden
-dufanA& Nh      buried;hidden
+dufanAW Nh      buried;hidden
 dufanA} Nhy     buried;hidden
 ;; dafiynap_1
 dafiyn  Napdu   hidden treasure;treasure-trove
@@ -2066,9 +2066,9 @@ dAq~    PV_V    deal scrupulously with
 dAqaq   PV_C    deal scrupulously with
 dAq~    IV_V_yu deal scrupulously with
 dAqiq   IV_C_yu deal scrupulously with
-;; >adaq~_1
->adaq~  PV_V    make fine;make precise
->adoqaq PV_C    make fine;make precise
+;; Oadaq~_1
+Oadaq~  PV_V    make fine;make precise
+Oadoqaq PV_C    make fine;make precise
 diq~    IV_V_yu make fine;make precise
 doqiq   IV_C_yu make fine;make precise
 daq~    IV_V_Pass_yu    be made fine;be made precise
@@ -2104,7 +2104,7 @@ duqAq   N       pulverized;powder
 ;; daqiyq_1
 daqiyq  N/ap    precise;minute;delicate     [[daqiyq/ADJ]]
 diqAq   N       precise;minute;delicate
->adiq~  Nap     precise;minute;delicate
+Oadiq~  Nap     precise;minute;delicate
 ;; daqiyq_2
 daqiyq  N       flour
 ;; daqiyqap_1
@@ -2116,8 +2116,8 @@ daqiyqiy~       Nall    precise;minute     [[daqiyqiy~/ADJ]]
 daq~Aq  Nall    grinder;miller
 ;; daq~Aqap_1
 daq~Aq  Napdu   knocker;rapper
-;; >adaq~_2
->adaq~  Nel     more/most accurate/precise
+;; Oadaq~_2
+Oadaq~  Nel     more/most accurate/precise
 ;; midaq~_1
 midaq~  Ndu     masher;footpath
 ;; midaq~ap_1
@@ -2145,18 +2145,18 @@ daqo$uwm        N       crushed rock;gravel
 ;; daqiE-a_1
 daqiE   PV      grovel;be miserable;live in poverty
 doqaE   IV      grovel;be miserable;live in poverty
-;; >adoqaE_1
->adoqaE PV      grovel;be miserable;live in poverty
+;; OadoqaE_1
+OadoqaE PV      grovel;be miserable;live in poverty
 doqiE   IV_yu   grovel;be miserable;live in poverty
-;; <idoqAE_1
-<idoqAE NduAt   mass poverty
+;; IidoqAE_1
+IidoqAE NduAt   mass poverty
 ;; mudoqiE_1
 mudoqiE Nall    miserable;abject     [[mudoqiE/ADJ]]
 ;
 ;--- dql
 ;; daqal_1
 daqal   Ndu     mast;mainmast
->adoqAl N       masts;mainmasts
+OadoqAl N       masts;mainmasts
 dawAqil Ndip    masts;mainmasts
 ;; daqol_1
 daqol   N       dates (fruit)
@@ -2221,10 +2221,10 @@ duk~An  Ndu     shop;store
 dakAkiyn        Ndip    shops;stores
 ;; duk~Anojiy~_1
 duk~Anojiy~     Nall    shopkeeper     [[duk~Anojiy~/ADJ]]
-;; >adokan_1
->adokan Nel     dark;blackish
+;; Oadokan_1
+Oadokan Nel     dark;blackish
 dakonA' N0_Nh   dark;blackish
-dakonA& Nh      dark;blackish
+dakonAW Nh      dark;blackish
 dakonA} Nhy     dark;blackish
 dukonaY N0      dark;blackish
 dukonA  Nhy     dark;blackish
@@ -2246,9 +2246,9 @@ dal~il  IV_yu   prove;confirm
 ;; dal~al_2
 dal~al  PV      pamper;spoil
 dal~il  IV_yu   pamper;spoil
-;; >adal~_1
->adal~  PV_V_intr       be conceited
->adolal PV_C_intr       be conceited
+;; Oadal~_1
+Oadal~  PV_V_intr       be conceited
+Oadolal PV_C_intr       be conceited
 dil~    IV_V_intr_yu    be conceited
 dolil   IV_C_intr_yu    be conceited
 ;; tadal~al_1
@@ -2272,7 +2272,7 @@ dalAl   N       coquettishness
 daliyl  NduAt   directory;manual;guide-book
 ;; daliyl_2
 daliyl  Ndu     evidence;proof;indication
->adil~  Nap     evidence;proof;indications
+Oadil~  Nap     evidence;proof;indications
 ;; daliyl_3
 daliyl  N/ap    indicator;guide
 dalA}il Ndip    indicators;guides
@@ -2284,12 +2284,12 @@ dalAl   NapAt   meaning;indication
 dalAliy~        N-ap    meaning;semantic     [[dalAliy~/ADJ]]
 ;; dilAlap_1
 dilAl   Nap     auction;brokerage
-;; >adal~_2
->adal~  Nel     more/most indicative;more/most conclusive
+;; Oadal~_2
+Oadal~  Nel     more/most indicative;more/most conclusive
 ;; tadoliyl_1
 tadoliyl        NduAt   proof;evidence;substantiation
-;; <idolAl_1
-<idolAl NduAt   arrogance;conceit
+;; IidolAl_1
+IidolAl NduAt   arrogance;conceit
 ;; tadal~ul_1
 tadal~ul        NduAt   coquetry;coddling
 ;; AisotidolAl_1
@@ -2320,8 +2320,8 @@ dulob   N       sycamore;plane tree
 dilotA  N0      delta
 ;
 ;--- dlj
-;; >adolaj_1
->adolaj PV      set out at nightfall
+;; Oadolaj_1
+Oadolaj PV      set out at nightfall
 dolij   IV_yu   set out at nightfall
 ;
 ;--- dlH
@@ -2363,8 +2363,8 @@ dolaE   IV      loll
 ;; dal~aE_1
 dal~aE  PV      pamper;spoil
 dal~iE  IV_yu   pamper;spoil
-;; >adolaE_1
->adolaE PV      nauseate;disgust
+;; OadolaE_1
+OadolaE PV      nauseate;disgust
 doliE   IV_yu   nauseate;disgust
 dolaE   IV_Pass_yu      be nauseated;be disgusted
 ;; AinodalaE_1
@@ -2468,11 +2468,11 @@ dal~iy  IV_0hAnn_yu     dangle;suspend;lower
 dal~    IV_0hwnyn_yu    dangle;suspend;lower
 dal~aY  IV_0_Pass_yu    be dangled;be suspended;be lowered
 dal~ay  IV_Ann_Pass_yu  be dangled;be suspended;be lowered
-;; >adolaY_1
->adolaY PV_0    provide;present;grant
->adolA  PV_h    provide;present;grant
->adolay PV_Atn  provide;present;grant
->adol   PV_ttAw provide;present;grant
+;; OadolaY_1
+OadolaY PV_0    provide;present;grant
+OadolA  PV_h    provide;present;grant
+Oadolay PV_Atn  provide;present;grant
+Oadol   PV_ttAw provide;present;grant
 doliy   IV_0hAnn_yu     provide;present;grant
 dol     IV_0hwnyn_yu    provide;present;grant
 dolaY   IV_0_Pass_yu    be provided;be presented;be granted
@@ -2488,13 +2488,13 @@ tadal~  IV_0hwnyn       be dangled;be suspended;be lowered
 dalow   N       bucket
 ;; dalow_2
 dalow   Ndip    Aquarius
-;; <idolA'_1
-<idolA' N0_Nh   delivery;presentation;granting
-<idolA& Nh      delivery;presentation;granting
-<idolA} Nhy     delivery;presentation;granting
-<idolA' NAn_Nayn        delivery;presentation;granting
-<idolA} Nayn    delivery;presentation;granting
-<idolA' NAt     delivery;presentation;granting
+;; IidolA'_1
+IidolA' N0_Nh   delivery;presentation;granting
+IidolAW Nh      delivery;presentation;granting
+IidolA} Nhy     delivery;presentation;granting
+IidolA' NAn_Nayn        delivery;presentation;granting
+IidolA} Nayn    delivery;presentation;granting
+IidolA' NAt     delivery;presentation;granting
 ;; dAliyap_1
 dAliy   Napdu   waterwheel;trellis
 dawAliy N0_Nh   waterwheels;trellises
@@ -2549,8 +2549,8 @@ domuj   IV      enter;be inserted
 ;; dam~aj_1
 dam~aj  PV      write shorthand
 dam~ij  IV_yu   write shorthand
-;; >adomaj_1
->adomaj PV      insert;incorporate;interpolate;integrate
+;; Oadomaj_1
+Oadomaj PV      insert;incorporate;interpolate;integrate
 domij   IV_yu   insert;incorporate;interpolate;integrate
 domaj   IV_Pass_yu      be inserted;be incorporated;be interpolated;be integrated
 ;; Ainodamaj_1
@@ -2560,8 +2560,8 @@ nodamij IV_intr be included;be inserted;be integrated
 damoj   N       insertion;inclusion;integration
 ;; tadomiyj_1
 tadomiyj        NduAt   stenography
-;; <idomAj_1
-<idomAj NduAt   insertion;incorporation;inclusion;integration
+;; IidomAj_1
+IidomAj NduAt   insertion;incorporation;inclusion;integration
 ;; AinodimAj_1
 AinodimAj       NduAt   absorption;fusion;assimilation
 ;; mudomaj_1
@@ -2629,8 +2629,8 @@ dam~is  IV_yu   conceal;disguise;bury
 dimos   N       cinders;ashes
 ;; damAsap_1
 damAs   Nap     darkness
-;; >adomAs_1
->adomAs N       shanties;hovels
+;; OadomAs_1
+OadomAs N       shanties;hovels
 ;; dam~uws_1
 dam~uws Ndu     cave;cavern
 damAmiys        Ndip    caves;caverns
@@ -2658,8 +2658,8 @@ mudamo$aq       N       damascene (cloth)
 ;; damaE-a_1
 damaE   PV      cry tears
 domaE   IV      cry tears
-;; >adomaE_1
->adomaE PV      evoke tears;drive to tears
+;; OadomaE_1
+OadomaE PV      evoke tears;drive to tears
 domiE   IV_yu   evoke tears;drive to tears
 domaE   IV_Pass_yu      be driven to tears
 ;; damoE_1
@@ -2695,7 +2695,7 @@ damag   PV      stamp;brand;label
 domug   IV      stamp;brand;label
 ;; dimAg_1
 dimAg   Ndu     brain
->adomig Nap     brains
+Oadomig Nap     brains
 ;; dAmig_1
 dAmig   N-ap    irrefutable;cogent     [[dAmig/ADJ]]
 ;; damog_1
@@ -2765,8 +2765,8 @@ damAlij Ndip    bracelets;bangles
 ;; daman-u_1
 daman   PV-n    fertilize
 domun   IV-n    fertilize
-;; >adoman_1
->adoman PV-n_intr       be addicted or devoted to
+;; Oadoman_1
+Oadoman PV-n_intr       be addicted or devoted to
 domin   IV-n_yu be addicted or devoted to
 doman   IV-n_Pass_yu    be addictive
 ;; dimon_1
@@ -2778,8 +2778,8 @@ dimon   Nap     ruins;vestiges
 diman   N       ruins;vestiges
 ;; damAn_1
 damAn   N       fertilizer;dung
-;; <idomAn_1
-<idomAn NduAt   addiction;mania
+;; IidomAn_1
+IidomAn NduAt   addiction;mania
 ;; mudomin_1
 mudomin Nall    addict
 ;
@@ -2811,11 +2811,11 @@ dam~iy  IV_0hAnn_yu     make bleed
 dam~    IV_0hwnyn_yu    make bleed
 dam~aY  IV_0_Pass_yu    be bled
 dam~ay  IV_Ann_Pass_yu  be bled
-;; >adomaY_1
->adomaY PV_0    make bleed
->adomA  PV_h    make bleed
->adomay PV_Atn  make bleed
->adom   PV_ttAw make bleed
+;; OadomaY_1
+OadomaY PV_0    make bleed
+OadomA  PV_h    make bleed
+Oadomay PV_Atn  make bleed
+Oadom   PV_ttAw make bleed
 domiy   IV_0hAnn_yu     make bleed
 dom     IV_0hwnyn_yu    make bleed
 domaY   IV_0_Pass_yu    be bled
@@ -2823,7 +2823,7 @@ domay   IV_Ann_Pass_yu  be bled
 ;; dam_1
 dam     N       blood
 dimA'   N0_Nh   blood
-dimA&   Nh      blood
+dimAW   Nh      blood
 dimA}   Nhy     blood
 ;; damawiy~_1
 damawiy~        Nall    bloody;blood     [[damawiy~/ADJ]]
@@ -2859,17 +2859,17 @@ daniyn  N       buzzing;humming;droning
 dinAn   N       wine jug
 ;
 ;--- dnA
-;; dana>-a_1
-dana>   PV->_intr       be vile;be despicable
+;; danaO-a_1
+danaO   PV-O_intr       be vile;be despicable
 dana|   PV-|_intr       be vile;be despicable
-dana&   PV_w_intr       be vile;be despicable
-dona>   IV_intr be vile;be despicable
+danaW   PV_w_intr       be vile;be despicable
+donaO   IV_intr be vile;be despicable
 dona|   IV-|    be vile;be despicable
-dona&   IV_wn   be vile;be despicable
+donaW   IV_wn   be vile;be despicable
 dona}   IV_yn   be vile;be despicable
-;; danu&-u_1
-danu&   PV_intr be vile;be despicable
-donu&   IV_intr be vile;be despicable
+;; danuW-u_1
+danuW   PV_intr be vile;be despicable
+donuW   IV_intr be vile;be despicable
 donu}   IV_yn   be vile;be despicable
 ;; daniy'_1
 daniy'  N0      contemptible;inferior     [[daniy'/ADJ]]
@@ -2877,13 +2877,13 @@ daniy}  NF      contemptible;inferior
 daniy}  NapAt   contemptible;inferior
 daniy}  NAn_Nayn        contemptible;inferior
 daniy}  Nuwn_Niyn       contemptible;inferior
->adonA' N0_Nh   contemptible;inferior
->adonA& Nh      contemptible;inferior
->adonA} Nhy     contemptible;inferior
-;; >adona>_1
->adona> N0_Nh   meaner/meanest;inferior
->adona| N-|     meanest;inferior
->adona} Nayn    meanest;inferior
+OadonA' N0_Nh   contemptible;inferior
+OadonAW Nh      contemptible;inferior
+OadonA} Nhy     contemptible;inferior
+;; OadonaO_1
+OadonaO N0_Nh   meaner/meanest;inferior
+Oadona| N-|     meanest;inferior
+Oadona} Nayn    meanest;inferior
 ;; danA'ap_1
 danA'   Nap     baseness;meanness;inferiority
 ;
@@ -2927,13 +2927,13 @@ tadan~as        PV_intr be polluted;be soiled;be disgraced
 tadan~as        IV_intr be polluted;be soiled;be disgraced
 ;; danas_1
 danas   N       squalor;stain;blemish
->adonAs N       squalor;stain;blemish
+OadonAs N       squalor;stain;blemish
 ;; danis_1
 danis   N/ap    soiled;polluted;stained     [[danis/ADJ]]
-;; >adonAs_1
->adonAs N       soiled;polluted;stained
+;; OadonAs_1
+OadonAs N       soiled;polluted;stained
 dunasA' N0_Nh   soiled;polluted;stained
-dunasA& Nh      soiled;polluted;stained
+dunasAW Nh      soiled;polluted;stained
 dunasA} Nhy     soiled;polluted;stained
 ;; tadoniys_1
 tadoniys        NduAt   pollution;contamination;disgracing
@@ -2942,12 +2942,12 @@ tadoniys        NduAt   pollution;contamination;disgracing
 ;; danif-a_1
 danif   PV_intr be seriously ill
 donaf   IV_intr be seriously ill
-;; >adonaf_1
->adonaf PV_intr be seriously ill
+;; Oadonaf_1
+Oadonaf PV_intr be seriously ill
 donif   IV_intr_yu      be seriously ill
 ;; danif_1
 danif   N/ap    seriously ill
->adonAf N       seriously ill
+OadonAf N       seriously ill
 ;; danaf_1
 danaf   N       long illness;cachexia;marasmus
 ;; mudonif_1
@@ -3024,11 +3024,11 @@ dAniy   IV_0hAnn_yu     approach;approximate
 dAn     IV_0hwnyn_yu    approach;approximate
 dAnaY   IV_0_Pass_yu    be approached;be approximated
 dAnay   IV_Ann_Pass_yu  be approached;be approximated
-;; >adonaY_1
->adonaY PV_0    be near;approach
->adonA  PV_h    be near;approach
->adonay PV_Atn  be near;approach
->adon   PV_ttAw_intr    be near;approach
+;; OadonaY_1
+OadonaY PV_0    be near;approach
+OadonA  PV_h    be near;approach
+Oadonay PV_Atn  be near;approach
+Oadon   PV_ttAw_intr    be near;approach
 doniy   IV_0hAnn_yu     be near;approach
 don     IV_0hwnyn_yu    be near;approach
 donaY   IV_0_Pass_yu    be approached
@@ -3068,9 +3068,9 @@ sotadon IV_0hwnyn       reach out
 dunuw~  N       advent;imminence;proximity
 ;; daniy~_1
 daniy~  N/ap    mean;contemptible;inferior     [[daniy~/ADJ]]
->adoniyA'       N0_Nh   mean;contemptible;inferior
->adoniyA&       Nh      mean;contemptible;inferior
->adoniyA}       Nhy     mean;contemptible;inferior
+OadoniyA'       N0_Nh   mean;contemptible;inferior
+OadoniyAW       Nh      mean;contemptible;inferior
+OadoniyA}       Nhy     mean;contemptible;inferior
 ;; daniy~ap_1
 daniy~  NapAt   base quality;disgrace     [[daniy~/NOUN]]
 danAyA  N0_Nhy  base qualities;disgrace
@@ -3078,22 +3078,22 @@ danAyA  N0_Nhy  base qualities;disgrace
 danAw   Nap     nearness;lowliness;baseness
 ;; danAyap_1
 danAy   Nap     nearness;lowliness;baseness
-;; >adonaY_2
->adonaY N0      lower/lowest;inferior
->adonA  Nhy     lower/lowest;inferior
->adonay NAn_Nayn        lowest;most inferior
-;; >adonaY_3
->adonaY N0      near;nearer;nearest
->adonA  Nhy     near;nearer;nearest
->adonay NAn_Nayn        nearest
->adAniy N0_Nh   nearest;inferior;lowest
->adAn   NK      nearest;inferior;lowest
->adonawona      N       nearest;lowest
+;; OadonaY_2
+OadonaY N0      lower/lowest;inferior
+OadonA  Nhy     lower/lowest;inferior
+Oadonay NAn_Nayn        lowest;most inferior
+;; OadonaY_3
+OadonaY N0      near;nearer;nearest
+OadonA  Nhy     near;nearer;nearest
+Oadonay NAn_Nayn        nearest
+OadAniy N0_Nh   nearest;inferior;lowest
+OadAn   NK      nearest;inferior;lowest
+Oadonawona      N       nearest;lowest
 dunaY   N0      near/nearer/nearest;inferior;lower/lowest
 dunA    Nhy     near/nearer/nearest;inferior;lower/lowest
-;; >adonaY_4
->adonaY N0      minimum
->adonA  Nhy     minimum
+;; OadonaY_4
+OadonaY N0      minimum
+OadonA  Nhy     minimum
 ;; dunoyaY_1
 dunoyA  N0_Nh   world;near;low;inferior
 dunoyay NAt     worlds
@@ -3132,7 +3132,7 @@ danoyAl Nprop   Daniel
 ;; dahor_1
 dahor   N       fate;fortune;circumstance
 duhuwr  N       fate;fortune;circumstances
->adohur N       fate;fortune;circumstances
+Oadohur N       fate;fortune;circumstances
 ;; dahoriy~_1
 dahoriy~        N-ap    temporal;worldly     [[dahoriy~/ADJ]]
 ;; dahoriy~_2
@@ -3154,8 +3154,8 @@ doha$   IV_intr be astonished;be surprised
 ;; dah~a$_1
 dah~a$  PV      amaze;surprise
 dah~i$  IV_yu   amaze;surprise
-;; >adoha$_1
->adoha$ PV      amaze;surprise
+;; Oadoha$_1
+Oadoha$ PV      amaze;surprise
 dohi$   IV_yu   amaze;surprise
 doha$   IV_Pass_yu      be amazed;be surprised
 ;; Ainodaha$_1
@@ -3234,15 +3234,15 @@ doham~  IV_V_intr       become black
 dohamim IV_C_intr       become black
 ;; duhomap_1
 duhom   Nap     blackness
-;; >adoham_1
->adoham Nel     black
+;; Oadoham_1
+Oadoham Nel     black
 dahomA' N0_Nh   black
-dahomA& Nh      black
+dahomAW Nh      black
 dahomA} Nhy     black
 duhom   N       black
 ;; dahomA'_1
 dahomA' N0_Nh   masses;common folk
-dahomA& Nh      masses;common folk
+dahomAW Nh      masses;common folk
 dahomA} Nhy     masses;common folk
 ;; mudAhamap_1
 mudAham NapAt   raid;storming;search
@@ -3266,7 +3266,7 @@ tadah~an        IV-n_intr       be painted;be greased;be oiled
 dahon   N       oiling;greasing;painting
 ;; duhon_1
 duhon   N       oil;grease;fat
->adohAn N       oil;grease;fat
+OadohAn N       oil;grease;fat
 duhuwn  N/At    oil;grease;fat
 dihAn   N       oil;grease;fat
 ;; duhoniy~_1
@@ -3275,7 +3275,7 @@ duhoniy~        N-ap    oily;greasy;fatty     [[duhoniy~/ADJ]]
 duhoniy~        NAt     fats;oils;greasy substances     [[duhoniy~/NOUN]]
 ;; dahonA'_1
 dahonA' N0_Nh   Dahna
-dahonA& Nh      Dahna
+dahonAW Nh      Dahna
 dahonA} Nhy     Dahna
 ;; dah~An_1
 dah~An  N/ap    painter
@@ -3283,7 +3283,7 @@ dah~An  N/ap    painter
 dahiyn  Nap     pomade
 ;; dihAn_1
 dihAn   N/At    cosmetic cream;varnish
->adohin Nap     cosmetic cream;varnish
+Oadohin Nap     cosmetic cream;varnish
 ;; dihAn_2
 dihAn   N       hypocrisy;whitewashing
 ;; mudAhanap_1
@@ -3341,12 +3341,12 @@ tadAhay IV_Ann  pretend to be clever
 tadAh   IV_0hwnyn       pretend to be clever
 ;; dahA'_1
 dahA'   N0_Nh   cunning;craft
-dahA&   Nh      cunning;craft
+dahAW   Nh      cunning;craft
 dahA}   Nhy     cunning;craft
-;; >adohaY_1
->adohaY N0      craftier/craftiest;shrewder/shrewdest
->adohA  Nhy     craftier/craftiest;shrewder/shrewdest
->adohay NAn_Nayn        craftier/craftiest;shrewder/shrewdest
+;; OadohaY_1
+OadohaY N0      craftier/craftiest;shrewder/shrewdest
+OadohA  Nhy     craftier/craftiest;shrewder/shrewdest
+Oadohay NAn_Nayn        craftier/craftiest;shrewder/shrewdest
 ;; dAhiy_1
 dAhiy   N0F     smart;sly     [[dAhiy/ADJ]]
 dAh     NK      smart;sly
@@ -3368,9 +3368,9 @@ duw     FW      Du;Do     [[duw/NOUN_PROP]]
 ;--- dwA
 ;; dA'_1
 dA'     Ndu     disease;illness
->adowA' N0_Nh   diseases;illnesses
->adowA& Nh      diseases;illnesses
->adowA} Nhy     diseases;illnesses
+OadowA' N0_Nh   diseases;illnesses
+OadowAW Nh      diseases;illnesses
+OadowA} Nhy     diseases;illnesses
 ;
 ;--- dwb
 ;; dAb-u_1
@@ -3407,7 +3407,7 @@ dawoH   Nap     Doha
 ;; dawoHap_2
 dawoH   Nap     large tree;family tree
 dawoH   N       large trees;family trees
->adowAH N       large trees;family trees
+OadowAH N       large trees;family trees
 ;
 ;--- dwx
 ;; dAx-u_1
@@ -3473,9 +3473,9 @@ daw~ir  IV_yu   rotate;wind
 ;; dAwar_1
 dAwar   PV      ensnare
 dAwir   IV_yu   ensnare
-;; >adAr_1
->adAr   PV_V    direct;manage;conduct
->adar   PV_C    direct;manage;conduct
+;; OadAr_1
+OadAr   PV_V    direct;manage;conduct
+Oadar   PV_C    direct;manage;conduct
 diyr    IV_V_yu direct;manage;conduct
 dir     IV_C_yu direct;manage;conduct
 dAr     IV_V_Pass_yu    be directed;be managed;be conducted
@@ -3505,7 +3505,7 @@ diyAriy~        N-ap    domestic;native     [[diyAriy~/ADJ]]
 duwriy~ N-ap    domestic     [[duwriy~/ADJ]]
 ;; dawor_1
 dawor   Ndu     role;part
->adowAr N       roles;parts
+OadowAr N       roles;parts
 ;; daworap_1
 dawor   NapAt   championship;tournament
 ;; daworap_2
@@ -3539,16 +3539,16 @@ daw~Ar  Nap     whirlpool;vortex
 dayor   Nprop   Deir
 ;; dayor_2
 dayor   Ndu     monastery;convent
->adoyAr N       monasteries;convents
->adoyir Nap     monasteries;convents
+OadoyAr N       monasteries;convents
+Oadoyir Nap     monasteries;convents
 ;; dayoriy~_1
 dayoriy~        Nall    monastic     [[dayoriy~/ADJ]]
 ;; day~Ar_1
 day~Ar  Nall    monastic;monk
 ;; dayorAniy~_1
 dayorAniy~      Nall    monastic;monk     [[dayorAniy~/ADJ]]
-;; >adowar_1
->adowar Nel     more/most circulated
+;; Oadowar_1
+Oadowar Nel     more/most circulated
 ;; madAr_1
 madAr   Ndu     orbit;sphere;axis;pivot
 madAr   NAt     orbits;spheres;axes;pivots
@@ -3558,12 +3558,12 @@ madAriy~        Nall    orbiting;circling     [[madAriy~/ADJ]]
 tadowiyr        NduAt   turning;Quran recitation
 ;; mudAwarap_1
 mudAwar NapAt   cheating;evasion;ensnaring
-;; <idArap_1
-<idAr   NapAt   administration;management;bureau
-;; <idAriy~_1
-<idAriy~        Nall    administrative;management;departmental;officer     [[<idAriy~/ADJ]]
-;; <idAriy~AF_1
-<idAriy~        NF      administratively;officially     [[<idAriy~/ADV]]
+;; IidArap_1
+IidAr   NapAt   administration;management;bureau
+;; IidAriy~_1
+IidAriy~        Nall    administrative;management;departmental;officer     [[IidAriy~/ADJ]]
+;; IidAriy~AF_1
+IidAriy~        NF      administratively;officially     [[IidAriy~/ADV]]
 ;; AisotidArap_1
 AisotidAr       NapAt   circularity;roundness
 ;; dA}ir_1
@@ -3585,7 +3585,7 @@ mudaw~ar        N-ap    circular;round     [[mudaw~ar/ADJ]]
 ;; mudiyr_1
 mudiyr  Nall    director;manager;chief
 mudarA' N0_Nh   directors;managers
-mudarA& Nh      directors;managers
+mudarAW Nh      directors;managers
 mudarA} Nhy     directors;managers
 ;; mudiyriy~ap_1
 mudiyriy~       Nap     administration;management     [[mudiyriy~/NOUN]]
@@ -3747,9 +3747,9 @@ dul     IV_C    rotate;change
 ;; dAwal_1
 dAwal   PV      alternate;rotate
 dAwil   IV_yu   alternate;rotate
-;; >adAl_1
->adAl   PV_V    transfer power;substitute
->adal   PV_C    transfer power;substitute
+;; OadAl_1
+OadAl   PV_V    transfer power;substitute
+Oadal   PV_C    transfer power;substitute
 diyl    IV_V_yu transfer power;substitute
 dil     IV_C_yu transfer power;substitute
 dAl     IV_V_Pass_yu    be transferred (power);be substituted
@@ -3811,9 +3811,9 @@ daw~im  IV_yu   revolve;spin
 ;; dAwam_1
 dAwam   PV      continue;persevere
 dAwim   IV_yu   continue;persevere
-;; >adAm_1
->adAm   PV_V    perpetuate
->adam   PV_C    perpetuate
+;; OadAm_1
+OadAm   PV_V    perpetuate
+Oadam   PV_C    perpetuate
 diym    IV_V_yu perpetuate
 dim     IV_C_yu perpetuate
 dAm     IV_V_Pass_yu    be perpetuated
@@ -3961,9 +3961,9 @@ tadAw   IV_0hwnyn       be treated;be nursed
 ;; dawaY_1
 dawaY   N0      illness;disease
 dawA    Nhy     illness;disease
->adowA' N0_Nh   illnesses;diseases
->adowA& Nh      illnesses;diseases
->adowA} Nhy     illnesses;diseases
+OadowA' N0_Nh   illnesses;diseases
+OadowAW Nh      illnesses;diseases
+OadowA} Nhy     illnesses;diseases
 ;; dawaY_2
 dawaY   N0      buzzing;humming
 ;; dawiy~_1
@@ -3976,14 +3976,14 @@ dawAy   Napdu   socket;well
 duwiy~  N       sockets;wells
 ;; dawA'_1
 dawA'   N0_Nh   remedy;medication
-dawA&   Nh      remedy;medication
+dawAW   Nh      remedy;medication
 dawA}   Nhy     remedy;medication
->adowiy Nap     remedies;medications
+Oadowiy Nap     remedies;medications
 ;; dawA}iy~_1
 dawA}iy~        N-ap    medicinal;curative     [[dawA}iy~/ADJ]]
 ;; diwA'_1
 diwA'   N0_Nh   therapy;treatment
-diwA&   Nh      therapy;treatment
+diwAW   Nh      therapy;treatment
 diwA}   Nhy     therapy;treatment
 ;; mudAwAp_1
 mudAwA  Napdu   therapy;treatment
@@ -4144,7 +4144,7 @@ diyk    Nprop   Dick
 diyk    N       cock;rooster
 diyak   Nap     cocks;roosters
 duyuwk  N       cocks;roosters
->adoyAk N       cocks;roosters
+OadoyAk N       cocks;roosters
 ;
 ;; diykAtoluwn_1
 diykAtoluwn     N       decathlon
@@ -4229,9 +4229,9 @@ din     IV_C    condemn;borrow;profess
 ;; dAyan_1
 dAyan   PV-n_intr       be indebted to
 dAyin   IV-n_yu be indebted to
-;; >adAn_1
->adAn   PV_V    condemn;censure
->adan   PV_Cn   condemn;censure
+;; OadAn_1
+OadAn   PV_V    condemn;censure
+Oadan   PV_Cn   condemn;censure
 diyn    IV_V_yu condemn;censure
 din     IV-n_yu condemn;censure
 dAn     IV_V_Pass_yu    be condemned;be censured
@@ -4254,8 +4254,8 @@ duyuwn  N       debts
 dayonuwn        Nap     (last) judgment
 ;; day~An_1
 day~An  N       Judge (God)
-;; <idAnap_1
-<idAn   NapAt   condemnation;censure
+;; IidAnap_1
+IidAn   NapAt   condemnation;censure
 ;; AisotidAnap_1
 AisotidAn       NapAt   incurrence of debts
 ;; dA}in_1
@@ -4274,7 +4274,7 @@ madoyuwn        Nall    indebted;obligated     [[madoyuwn/ADJ]]
 madoyuwniy~     Nap     indebtedness;obligation     [[madoyuwniy~/NOUN]]
 ;; diyn_1
 diyn    N       religion
->adoyAn N       religions
+OadoyAn N       religions
 ;; Ald~iyn_1
 Ald~iyn FW      Al-Din;El-Din;Eddin     [[Ald~iyn/NOUN_PROP]]
 ;; diyniy~_1

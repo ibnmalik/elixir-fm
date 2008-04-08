@@ -1,14 +1,14 @@
 ;--- T
 ;; TA'_1
 TA'     N0_Nh   Ta' (Arabic letter)
-TA&     Nh      Ta' (Arabic letter)
+TAW     Nh      Ta' (Arabic letter)
 TA}     Nhy     Ta' (Arabic letter)
 TA'     NAt     Ta's (Arabic letter)
 ;
 ;; TA}iy~_1
 TA}iy~  N0      Ta'i
 ;
-; TA'ws, TA&ws, TAwws, : see under --- Tws
+; TA'ws, TAWws, TAwws, : see under --- Tws
 ;
 ;--- TAb
 ;; TAb_1
@@ -45,29 +45,29 @@ TAs     N/At    cup;bowl
 TAs     Napdu   cup;pan
 ;
 ;--- TATA
-;; Ta>oTa>_1
-Ta>oTa> PV->    incline;bend
-Ta>oTa| PV-|    incline;bend
-Ta>oTa& PV_w    incline;bend
-Ta>oTi} IV_yu   incline;bend
-;; muTa>oTi}_1
-muTa>oTi}       Nall    with bowed head     [[muTa>oTi}/ADJ]]
-;; muTa>oTa>_1
-muTa>oTa>       N0_Nh   bowed;inclined     [[muTa>oTa>/ADJ]]
-muTa>oTa&       Nh      bowed;inclined
-muTa>oTa}       Nhy     bowed;inclined
-muTa>oTa|       N-|     bowed;inclined
-muTa>oTa&       Nuwn_Niyn       bowed;inclined
-muTa>oTa}       Nuwn_Niyn       bowed;inclined
-muTa>oTa        N-|t    bowed;inclined
+;; TaOoTaO_1
+TaOoTaO PV-O    incline;bend
+TaOoTa| PV-|    incline;bend
+TaOoTaW PV_w    incline;bend
+TaOoTi} IV_yu   incline;bend
+;; muTaOoTi}_1
+muTaOoTi}       Nall    with bowed head     [[muTaOoTi}/ADJ]]
+;; muTaOoTaO_1
+muTaOoTaO       N0_Nh   bowed;inclined     [[muTaOoTaO/ADJ]]
+muTaOoTaW       Nh      bowed;inclined
+muTaOoTa}       Nhy     bowed;inclined
+muTaOoTa|       N-|     bowed;inclined
+muTaOoTaW       Nuwn_Niyn       bowed;inclined
+muTaOoTa}       Nuwn_Niyn       bowed;inclined
+muTaOoTa        N-|t    bowed;inclined
 ;
 ;--- TAmn
-;; Ta>oman_1
-Ta>oman PV-n    assuage;allay
-Ta>omin IV-n_yu assuage;allay
-;; taTa>oman_1
-taTa>oman       PV-n    assuage;allay
-taTa>oman       IV-n    assuage;allay
+;; TaOoman_1
+TaOoman PV-n    assuage;allay
+TaOomin IV-n_yu assuage;allay
+;; taTaOoman_1
+taTaOoman       PV-n    assuage;allay
+taTaOoman       IV-n    assuage;allay
 ;
 ;--- TAwl
 ;; TAwilap_1
@@ -99,10 +99,10 @@ Tib~    N       medicine;medical treatment
 Tib~iy~ N-ap    medical     [[Tib~iy~/ADJ]]
 ;; Tabiyb_1
 Tabiyb  N/ap    physician;doctor
->aTib~A'        N0_Nh   physicians;doctors
->aTib~A&        Nh      physicians;doctors
->aTib~A}        Nhy     physicians;doctors
->aTib~  Nap     physicians;doctors
+OaTib~A'        N0_Nh   physicians;doctors
+OaTib~AW        Nh      physicians;doctors
+OaTib~A}        Nhy     physicians;doctors
+OaTib~  Nap     physicians;doctors
 ;; TibAbap_1
 TibAb   Nap     medical profession;medical treatment
 ;; maTab~_1
@@ -264,8 +264,8 @@ Tab~iq  IV_yu   apply;implement
 ;; TAbaq_1
 TAbaq   PV      suit;conform with
 TAbiq   IV_yu   suit;conform with
-;; >aTobaq_1
->aTobaq PV      shut;close
+;; OaTobaq_1
+OaTobaq PV      shut;close
 Tobiq   IV_yu   shut;close
 Tobaq   IV_Pass_yu      be shut;be close
 ;; taTab~aq_1
@@ -282,7 +282,7 @@ Tiboq   N0_Nh   according to;conforming with
 Tiboq   NF      according to;in accordance with     [[Tiboq/ADV]]
 ;; Tabaq_1
 Tabaq   Ndu     dish;course;meal
->aTobAq N       dishes;saucers
+OaTobAq N       dishes;saucers
 ;; Tabaqap_1
 Tabaq   NapAt   class;category
 ;; Tabaqap_2
@@ -296,8 +296,8 @@ TAbuwq  N       bricks
 taTobiyq        N/At    application
 ;; taTobiyqiy~_1
 taTobiyqiy~     N-ap    applied     [[taTobiyqiy~/ADJ]]
-;; <iTobAq_1
-<iTobAq N/At    agreement
+;; IiTobAq_1
+IiTobAq N/At    agreement
 ;; muTAbaqap_1
 muTAbaq NapAt   conformity;agreement
 ;; taTab~uq_1
@@ -330,7 +330,7 @@ Tabol   N       drumming
 ;; Tabol_2
 Tabol   Ndu     drum
 Tubuwl  N       drums
->aTobAl N       drums
+OaTobAl N       drums
 ;; Tabolap_1
 Tabol   Napdu   drum
 ;; Taboliy~_1
@@ -467,7 +467,7 @@ TaxAf   N       thin wispy cloud
 ;--- Txy
 ;; TaxA'_1
 TaxA'   N0_Nh   thin wispy cloud
-TaxA&   Nh      thin wispy cloud
+TaxAW   Nh      thin wispy cloud
 TaxA}   Nhy     thin wispy cloud
 ;; TaxA'ap_1
 TaxA'   Napdu   thin wispy cloud
@@ -502,20 +502,20 @@ Tar~Ar  Ndu     scoundrel
 Tar~Ar  Nap     scoundrels
 ;
 ;--- TrA
-;; Tara>-a_1
-Tara>   PV->_intr       occur;happen
+;; TaraO-a_1
+TaraO   PV-O_intr       occur;happen
 Tara|   PV-|_intr       occur;happen
-Tara&   PV_w_intr       occur;happen
-Tora>   IV_intr occur;happen
+TaraW   PV_w_intr       occur;happen
+ToraO   IV_intr occur;happen
 Tora|   IV-|    occur;happen
-Tora&   IV_wn   occur;happen
+ToraW   IV_wn   occur;happen
 Tora}   IV_yn   occur;happen
-;; >aTora>_1
->aTora> PV->    eulogize
->aTora| PV-|    eulogize
->aTora& PV_w    eulogize
+;; OaToraO_1
+OaToraO PV-O    eulogize
+OaTora| PV-|    eulogize
+OaToraW PV_w    eulogize
 Tori}   IV_yu   eulogize
-Tora>   IV_Pass_yu      be eulogized
+ToraO   IV_Pass_yu      be eulogized
 ;; Tariy'_1
 Tariy'  N0      fresh;new     [[Tariy'/ADJ]]
 Tariy}  NF      fresh;new
@@ -531,13 +531,13 @@ TawAri} Ndip    emergency
 ;; Turo|niy~_1
 Turo|niy~       N-ap    of unknown origin;wild     [[Turo|niy~/ADJ]]
 ; see also under --- Try
-;; <iTorA'_1
-<iTorA' N0_Nh   eulogy
-<iTorA& Nh      eulogy
-<iTorA} Nhy     eulogy
-<iTorA' NAn_Nayn        eulogies
-<iTorA} Nayn    eulogies
-<iTorA' NAt     eulogies
+;; IiTorA'_1
+IiTorA' N0_Nh   eulogy
+IiTorAW Nh      eulogy
+IiTorA} Nhy     eulogy
+IiTorA' NAn_Nayn        eulogies
+IiTorA} Nayn    eulogies
+IiTorA' NAt     eulogies
 ;
 ;--- Trb
 ;; Tarib-a_1
@@ -546,24 +546,24 @@ Torab   IV_intr be delighted;be moved with emotion
 ;; Tar~ab_1
 Tar~ab  PV      sing
 Tar~ib  IV_yu   sing
-;; >aTorab_1
->aTorab PV      please;sing
+;; OaTorab_1
+OaTorab PV      please;sing
 Torib   IV_yu   please;sing
 Torab   IV_Pass_yu      be pleased;be sung
 ;; Tarab_1
 Tarab   N       delight;music
->aTorAb N       delight;music
+OaTorAb N       delight;music
 ;; Tarib_1
 Tarib   N-ap    delighted;moved with emotion     [[Tarib/ADJ]]
 TirAb   N       delighted;moved with emotion
 ;; Taruwb_1
 Taruwb  N-ap    lively;merry     [[Taruwb/ADJ]]
-;; >aTorab_2
->aTorab Nel     more/most delightful;more/most melodious
+;; OaTorab_2
+OaTorab Nel     more/most delightful;more/most melodious
 ;; taToriyb_1
 taToriyb        N/At    diversion by music;making music
-;; <iTorAb_1
-<iTorAb N/At    diversion by music;making music
+;; IiTorAb_1
+IiTorAb N/At    diversion by music;making music
 ;; muTorib_1
 muTorib Nall    musician;delightful
 ;
@@ -652,8 +652,8 @@ TariyH  Nap     task;assignment
 ;; Tar~AHap_1
 Tar~AH  Napdu   cushion
 TarAriyH        Ndip    cushions
-;; >uToruwHap_1
->uToruwH        NapAt   dissertation;thesis
+;; OuToruwHap_1
+OuToruwH        NapAt   dissertation;thesis
 ;; maToraH_1
 maToraH Ndu     place;seat
 maTAriH Ndip    places;seats
@@ -751,7 +751,7 @@ Taroziy~        N-ap    fashion     [[Taroziy~/ADJ]]
 ;; TirAz_1
 TirAz   N/At    model;type;calibre
 Turuz   N       models;types
->aToriz Nap     models;types
+OaToriz Nap     models;types
 ;; taToriyz_1
 taToriyz        N/At    embroidery
 ;; muTar~az_1
@@ -760,7 +760,7 @@ muTar~az        N-ap    embroidered     [[muTar~az/ADJ]]
 ;--- Trs
 ;; Tiros_1
 Tiros   Ndu     sheet of paper
->aTorAs N       sheets of paper
+OaTorAs N       sheets of paper
 Turuws  N       sheets of paper
 ;
 ;--- Tr$
@@ -787,14 +787,14 @@ Tara$   N       deafness
 Turo$   Nap     deafness
 ;; Turo$iy~_1
 Turo$iy~        N-ap    pickled     [[Turo$iy~/ADJ]]
-;; >aTora$_1
->aTora$ Nel     deaf
+;; OaTora$_1
+OaTora$ Nel     deaf
 Taro$A' N0_Nh   deaf
-Taro$A& Nh      deaf
+Taro$AW Nh      deaf
 Taro$A} Nhy     deaf
 Turo$   N       deaf
-;; >aTora$_2
->aTora$ N0      Atrash
+;; OaTora$_2
+OaTora$ N0      Atrash
 ;; Taro$A_1
 Taro$A  N0      Tarsha
 ;; muTar~i$_1
@@ -859,7 +859,7 @@ AisotaToraf     PV      deem unusual;be unique
 sotaTorif       IV      deem unusual;be unique
 ;; Taraf_1
 Taraf   Ndu     party;side
->aTorAf N       parties;sides
+OaTorAf N       parties;sides
 ;; Tarafiy~_1
 Tarafiy~        N-ap    extreme     [[Tarafiy~/ADJ]]
 ;; Tarofap_1
@@ -868,7 +868,7 @@ Tarof   Napdu   instant
 Turof   Nap     novelty;curiosity
 ;; TarofA'_1
 TarofA' N0_Nh   tamarisk
-TarofA& Nh      tamarisk
+TarofAW Nh      tamarisk
 TarofA} Nhy     tamarisk
 Tarof   Napdu   tamarisk
 ;; Tariyf_1
@@ -881,10 +881,10 @@ Tariyf  Nap     rarity;oddity
 TarA}if Ndip    rarities;oddities
 ;; TarAfap_1
 TarAf   Nap     novelty;originality
-;; >aToraf_1
->aToraf Nel     more/most curious
-;; >uToruwfap_1
->uToruwf        Napdu   masterpiece
+;; OaToraf_1
+OaToraf Nel     more/most curious
+;; OuToruwfap_1
+OuToruwf        Napdu   masterpiece
 ;; miToraf_1
 miToraf Ndu     shawl
 muToraf N       shawl
@@ -905,8 +905,8 @@ Toraq   IV_Pass_yu      be knocked on (door)
 ;; Tar~aq_1
 Tar~aq  PV      hammer
 Tar~iq  IV_yu   hammer
-;; >aToraq_1
->aToraq PV      bow
+;; OaToraq_1
+OaToraq PV      bow
 Toriq   IV_yu   bow
 Toraq   IV_Pass_yu      be bowed
 ;; taTar~aq_1
@@ -934,8 +934,8 @@ miToraq Napdu   hammer
 maTAriq Ndip    hammers
 ;; miTorAq_1
 miTorAq N-ap    versatile
-;; <iTorAqap_1
-<iTorAq NapAt   bowing of the head
+;; IiTorAqap_1
+IiTorAq NapAt   bowing of the head
 ;; AisotiTorAq_1
 AisotiTorAq     N/At    transit permission
 ;; TAriq_1
@@ -995,11 +995,11 @@ Tar~iy  IV_0hAnn_yu     tenderize;freshen
 Tar~    IV_0hwnyn_yu    tenderize;freshen
 Tar~aY  IV_0_Pass_yu    be tenderized;be freshened
 Tar~ay  IV_Ann_Pass_yu  be tenderized;be freshened
-;; >aToraY_1
->aToraY PV_0    flatter;praise
->aTorA  PV_h    flatter;praise
->aToray PV_Atn  flatter;praise
->aTor   PV_ttAw flatter;praise
+;; OaToraY_1
+OaToraY PV_0    flatter;praise
+OaTorA  PV_h    flatter;praise
+OaToray PV_Atn  flatter;praise
+OaTor   PV_ttAw flatter;praise
 Toriy   IV_0hAnn_yu     flatter;praise
 Tor     IV_0hwnyn_yu    flatter;praise
 ToraY   IV_0_Pass_yu    be flattered;be praised
@@ -1009,11 +1009,11 @@ Tariy~  N-ap    fresh;tender     [[Tariy~/ADJ]]
 ;; TarAwap_1
 TarAw   Nap     freshness;tenderness
 ; see also under --- TrA
-;; <iTorA'_2
-<iTorA' N0_Nh   praise;flattery
-<iTorA& Nh      praise;flattery
-<iTorA} Nhy     praise;flattery
-<iTorA' NAt     praise;flattery
+;; IiTorA'_2
+IiTorA' N0_Nh   praise;flattery
+IiTorAW Nh      praise;flattery
+IiTorA} Nhy     praise;flattery
+IiTorA' NAt     praise;flattery
 ;; muToriy_1
 muToriy N0F_Nh  flattering     [[muToriy/ADJ]]
 muTor   NK      flattering
@@ -1021,8 +1021,8 @@ muToriy NAn_Nayn        flattering
 muTor   Nuwn_Niyn       flattering
 muToriy NapAt   flattering
 ;
-;; <iToriyap_1
-<iToriy Nap     vermicelli
+;; IiToriyap_1
+IiToriy Nap     vermicelli
 ;
 ;--- Trwd
 ;; TirowAdap_1
@@ -1076,8 +1076,8 @@ ToEam   IV      taste;ingest
 ;; TaE~am_1
 TaE~am  PV      inlay
 TaE~im  IV_yu   inlay
-;; >aToEam_1
->aToEam PV      feed
+;; OaToEam_1
+OaToEam PV      feed
 ToEim   IV_yu   feed
 ToEam   IV_Pass_yu      be fed
 ;; taTaE~am_1
@@ -1099,7 +1099,7 @@ TuEom   Napdu   food;piece of bread
 TuEom   N0      Tu'ma;Toma
 ;; TaEAm_1
 TaEAm   N       food
->aToEim Nap     food
+OaToEim Nap     food
 ;; maToEam_1
 maToEam Ndu     restaurant
 maTAEim Ndip    restaurants
@@ -1109,8 +1109,8 @@ taToEiym        N/At    feeding;inoculation;inlaying
 muTaE~am        Nall    vaccinated
 muTaE~am        Nall    encrusted
 muTaE~am        NAt     incrustations
-;; <iToEAm_1
-<iToEAm N/At    feeding
+;; IiToEAm_1
+IiToEAm N/At    feeding
 ;; maToEuwm_1
 maToEuwm        Nall    tasted;known     [[maToEuwm/ADJ]]
 ;
@@ -1153,7 +1153,7 @@ TigAr   N       tughra (weight measure)
 TugoraY N0      Ottoman calligraphic signature
 TugorA  Nhy     Ottoman calligraphic signature
 TugorA' N0_Nh   Ottoman calligraphic signature
-TugorA& Nh      Ottoman calligraphic signature
+TugorAW Nh      Ottoman calligraphic signature
 TugorA} Nhy     Ottoman calligraphic signature
 ;
 ;--- Tgm
@@ -1204,42 +1204,42 @@ taTofiyf        N/At    stinginess;giving incompletely
 ;--- TfA
 ;; Tafi}-a_1
 Tafi}   PV_intr die out;be extinguished
-Tofa>   IV_intr die out;be extinguished
+TofaO   IV_intr die out;be extinguished
 Tofa|   IV-|    die out;be extinguished
-Tofa&   IV_wn   die out;be extinguished
+TofaW   IV_wn   die out;be extinguished
 Tofa}   IV_yn   die out;be extinguished
-;; >aTofa>_1
->aTofa> PV->    put out;extinguish
->aTofa| PV-|    put out;extinguish
->aTofa& PV_w    put out;extinguish
+;; OaTofaO_1
+OaTofaO PV-O    put out;extinguish
+OaTofa| PV-|    put out;extinguish
+OaTofaW PV_w    put out;extinguish
 Tofi}   IV_yu   put out;extinguish
-Tofa>   IV_Pass_yu      be extinguished
-;; AinoTafa>_1
-AinoTafa>       PV->    die out;be extinguished
+TofaO   IV_Pass_yu      be extinguished
+;; AinoTafaO_1
+AinoTafaO       PV-O    die out;be extinguished
 AinoTafa|       PV-|    die out;be extinguished
-AinoTafa&       PV_w    die out;be extinguished
+AinoTafaW       PV_w    die out;be extinguished
 noTafi} IV      die out;be extinguished
 ;; Taf~Ay_1
 Taf~Ay  NapAt   extinguisher
-;; miTofa>ap_1
-miTofa> NapAt   fire extinguisher
+;; miTofaOap_1
+miTofaO NapAt   fire extinguisher
 maTAfi} Ndip    fire fighters
-;; <iTofA'_1
-<iTofA' N0_Nh   extinguishing;fire fighting
-<iTofA& Nh      extinguishing;fire fighting
-<iTofA} Nhy     extinguishing;fire fighting
-<iTofA' NAn_Nayn        extinguishing;fire fighting
-<iTofA} Nayn    extinguishing;fire fighting
-<iTofA' NAt     extinguishing;fire fighting
-;; <iTofA}iy~_1
-<iTofA}iy~      Nall    fire fighting;extinguishing     [[<iTofA}iy~/ADJ]]
+;; IiTofA'_1
+IiTofA' N0_Nh   extinguishing;fire fighting
+IiTofAW Nh      extinguishing;fire fighting
+IiTofA} Nhy     extinguishing;fire fighting
+IiTofA' NAn_Nayn        extinguishing;fire fighting
+IiTofA} Nayn    extinguishing;fire fighting
+IiTofA' NAt     extinguishing;fire fighting
+;; IiTofA}iy~_1
+IiTofA}iy~      Nall    fire fighting;extinguishing     [[IiTofA}iy~/ADJ]]
 ;; muTofi}_1
 muTofi} Nall    fire extinguisher
-;; muTofa>_1
-muTofa> N0      extinguished     [[muTofa>/ADJ]]
+;; muTofaO_1
+muTofaO N0      extinguished     [[muTofaO/ADJ]]
 muTofa| N-|     extinguished
 muTofa} Nayn    extinguished
-muTofa> Napdu   extinguished
+muTofaO Napdu   extinguished
 muTofa  N-|t    extinguished
 ;; munoTafi}_1
 munoTafi}       Nall    extinguished     [[munoTafi}/ADJ]]
@@ -1251,8 +1251,8 @@ TofaH   IV      overflow
 ;; Taf~aH_1
 Taf~aH  PV      make overflow;overfill
 Taf~iH  IV_yu   make overflow;overfill
-;; >aTofaH_1
->aTofaH PV      make overflow;overfill
+;; OaTofaH_1
+OaTofaH PV      make overflow;overfill
 TofiH   IV_yu   make overflow;overfill
 TofaH   IV_Pass_yu      be overfilled
 ;; TufuwH_1
@@ -1274,8 +1274,8 @@ TafoHA  Nhy     overflowing
 miTofaH Nap     skimmer;ladle
 ;; taTofiyH_1
 taTofiyH        N/At    overfilling
-;; <iTofAH_1
-<iTofAH N/At    overfilling
+;; IiTofAH_1
+IiTofAH N/At    overfilling
 ;; TAfiH_1
 TAfiH   Nall    overflowing;replete     [[TAfiH/ADJ]]
 ;
@@ -1319,7 +1319,7 @@ taTaf~al        IV_intr be parasitic;sponge off of
 ;; Tifol_1
 Tifol   Ndu     child;boy
 Tifol   Napdu   child;girl
->aTofAl N       children;infants
+OaTofAl N       children;infants
 ;; Tifoliy~_1
 Tifoliy~        N-ap    infant;infantile     [[Tifoliy~/ADJ]]
 ;; Tafoliy~_1
@@ -1419,11 +1419,11 @@ Taq~im  IV_yu   harness;bridle
 Taqom   Ndu     collection;series;set
 Tuquwm  N       series;sets
 Tuquwm  Nap     series;sets
->aToqum N       series;sets
+OaToqum N       series;sets
 ;; TAqim_1
 TAqim   Ndu     crew
 TawAqim Ndip    crew
->aToqum N       crew
+OaToqum N       crew
 ;; taToqiym_1
 taToqiym        N/At    harnessing;bridling
 ;
@@ -1439,9 +1439,9 @@ Tal~    PV_V    sprinkle
 Talal   PV_C    sprinkle
 Tul~    IV_V    sprinkle
 Tolul   IV_C    sprinkle
-;; >aTal~_1
->aTal~  PV_V    overlook;face;look out
->aTolal PV_C    overlook;face;look out
+;; OaTal~_1
+OaTal~  PV_V    overlook;face;look out
+OaTolal PV_C    overlook;face;look out
 Til~    IV_V_yu overlook;face;look out
 Tolil   IV_C_yu overlook;face;look out
 Tal~    IV_V_Pass_yu    be viewed;be looked over
@@ -1452,10 +1452,10 @@ TilAl   N       dew
 TalAl   N0      Talal;Tilal
 ;; Talal_1
 Talal   N       remains;ruins
->aTolAl N       ruins;remains
+OaTolAl N       ruins;remains
 Tuluwl  N       ruins;remains
-;; <iTolAl_1
-<iTolAl N/At    overlooking;facing
+;; IiTolAl_1
+IiTolAl N/At    overlooking;facing
 ;; maTal~_1
 maTal~  N       overhang;lookout point
 maTAl~  Ndip    overhangs;lookout points
@@ -1555,7 +1555,7 @@ Tolis   IV      efface;obliterate
 Talos   N       effacement;obliteration
 ;; Tilos_1
 Tilos   N-ap    effaced;obliterated
->aTolAs N       effaced;obliterated
+OaTolAs N       effaced;obliterated
 ; ATls: see alphabetically
 ;; TalAs_1
 TalAs   Nprop   Tlas
@@ -1576,8 +1576,8 @@ ToluE   IV      appear;rise
 ;; TAlaE_1
 TAlaE   PV      examine;inspect
 TAliE   IV_yu   examine;inspect
-;; >aTolaE_1
->aTolaE PV      instruct;disclose;inform
+;; OaTolaE_1
+OaTolaE PV      instruct;disclose;inform
 ToliE   IV_yu   instruct;disclose;inform
 TolaE   IV_Pass_yu      be instructed;be disclosed;be informed
 ;; taTal~aE_1
@@ -1640,10 +1640,10 @@ Toluq   IV      let go
 ;; Tal~aq_1
 Tal~aq  PV      divorce
 Tal~iq  IV_yu   divorce
-;; >aTolaq_1
->aTolaq PV      release;fire
+;; OaTolaq_1
+OaTolaq PV      release;fire
 Toliq   IV_yu   release;fire
->uToliq PV_Pass be released;be fired
+OuToliq PV_Pass be released;be fired
 Tolaq   IV_Pass_yu      be released;be fired
 ;; AinoTalaq_1
 AinoTalaq       PV      take off;be sent out
@@ -1656,25 +1656,25 @@ TalAq   N       divorce
 TalAq   Nap     facility;ease
 ;; Talaq_1
 Talaq   N       firing
->aTolAq N       firing
+OaTolAq N       firing
 ;; Talaqap_1
 Talaq   NapAt   shot
 ;; Taliyq_1
 Taliyq  N/ap    free;released;at large     [[Taliyq/ADJ]]
 TulaqA' N0_Nh   free;released;at large
-TulaqA& Nh      free;released;at large
+TulaqAW Nh      free;released;at large
 TulaqA} Nhy     free;released;at large
 ;; Taliyqap_1
 Taliyq  Napdu   divorcee
 ;; Taluwqap_1
 Taluwq  Nap     stallion
 TalA}iq Ndip    stallions
-;; <iTolAq_1
-<iTolAq N/At    release
-;; <iTolAq_2
-<iTolAq N/At    firing
-;; <iTolAqAF_1
-<iTolAq NF      absolutely     [[<iTolAq/ADV]]
+;; IiTolAq_1
+IiTolAq N/At    release
+;; IiTolAq_2
+IiTolAq N/At    firing
+;; IiTolAqAF_1
+IiTolAq NF      absolutely     [[IiTolAq/ADV]]
 ;; taTal~uq_1
 taTal~uq        N/At    cheerfulness
 ;; AinoTilAq_1
@@ -1737,11 +1737,11 @@ noTalaY IV_0_Pass_yu    be deceived
 ;; Taloy_1
 Taloy   N       painting
 TilA'   N0_Nh   painting
-TilA&   Nh      painting
+TilAW   Nh      painting
 TilA}   Nhy     painting
 ;; Tal~A'_1
 Tal~A'  N0_Nh   electroplate
-Tal~A&  Nh_Nuwn electroplate
+Tal~AW  Nh_Nuwn electroplate
 Tal~A}  Nh_Niyn electroplate
 Tal~A'  NapAt   electroplate
 ;; Taliy~_1
@@ -1779,23 +1779,23 @@ Tim~    N       large quantity
 TAm~    NapAt   calamity;disaster
 ;
 ;--- TmAn
-;; Tamo>an_1
-Tamo>an PV-n    pacify;assuage
+;; TamoOan_1
+TamoOan PV-n    pacify;assuage
 Tamo}in IV-n_yu pacify;assuage
-;; taTamo>an_1
-taTamo>an       PV-n_intr       be pacified;be assuaged
-taTamo>an       IV-n_intr       be pacified;be assuaged
-;; AiToma>an~_1
-AiToma>an~      PV_V_intr       be calm;be reassured
-AiToma>onan     PV_Cn_intr      be calm;be reassured
+;; taTamoOan_1
+taTamoOan       PV-n_intr       be pacified;be assuaged
+taTamoOan       IV-n_intr       be pacified;be assuaged
+;; AiTomaOan~_1
+AiTomaOan~      PV_V_intr       be calm;be reassured
+AiTomaOonan     PV_Cn_intr      be calm;be reassured
 Toma}in~        IV_V_intr       be calm;be reassured
-Toma>onin       IV_Cn_intr      be calm;be reassured
-;; Tamo>anap_1
-Tamo>an Nap     pacifying;calming;reassuring
-;; Tumo>aniynap_1
-Tumo>aniyn      Nap     calm;tranquillity
-;; Tumo>aniyniy~_1
-Tumo>aniyniy~   N-ap    calming;tranquilizing     [[Tumo>aniyniy~/ADJ]]
+TomaOonin       IV_Cn_intr      be calm;be reassured
+;; TamoOanap_1
+TamoOan Nap     pacifying;calming;reassuring
+;; TumoOaniynap_1
+TumoOaniyn      Nap     calm;tranquillity
+;; TumoOaniyniy~_1
+TumoOaniyniy~   N-ap    calming;tranquilizing     [[TumoOaniyniy~/ADJ]]
 ;; AiTomi}onAn_1
 AiTomi}onAn     N/At    tranquillity;serenity
 ;; muToma}in~_1
@@ -1841,7 +1841,7 @@ Tam~ir  IV_yu   comb
 Tamor   N       burial
 ;; Timor_1
 Timor   N       tatters
->aTomAr N       tatters
+OaTomAr N       tatters
 ;; Timir~_1
 Timir~  NduAt   race horse
 ;; miTomar_1
@@ -1894,13 +1894,13 @@ TomuE   IV      covet;desire
 ;; Tam~aE_1
 Tam~aE  PV      entice
 Tam~iE  IV_yu   entice
-;; >aTomaE_1
->aTomaE PV      entice
+;; OaTomaE_1
+OaTomaE PV      entice
 TomiE   IV_yu   entice
 TomaE   IV_Pass_yu      be enticed
 ;; TamaE_1
 TamaE   N       greed;ambition
->aTomAE N       ambitions
+OaTomAE N       ambitions
 ;; Tam~AE_1
 Tam~AE  Nall    greedy     [[Tam~AE/ADJ]]
 ;; TamAEiy~ap_1
@@ -1967,37 +1967,37 @@ Tonin   IV-n    sound;ring out
 ;; Tan~an_1
 Tan~an  PV-n    resound
 Tan~in  IV-n_yu resound
-;; >aTan~_1
->aTan~  PV_V    resound
->aTonan PV_Cn   resound
+;; OaTan~_1
+OaTan~  PV_V    resound
+OaTonan PV_Cn   resound
 Tin~    IV_V_yu resound
 Tonin   IV_C_yu resound
 ;; Tun~_1
 Tun~    Ndu     ton
->aTonAn N       tons
+OaTonAn N       tons
 ;; Taniyn_1
 Taniyn  N       ringing
 ;; Tan~An_1
 Tan~An  Nall    resounding;ringing
-<iTonAn N/At    resounding;ringing
+IiTonAn N/At    resounding;ringing
 ;
 ;--- Tnb
 ;; Tan~ab_1
 Tan~ab  PV      abide
 Tan~ib  IV_yu   abide
-;; >aTonab_1
->aTonab PV      exaggerate
+;; OaTonab_1
+OaTonab PV      exaggerate
 Tonib   IV_yu   exaggerate
 Tonab   IV_Pass_yu      be exaggerated
 ;; Tunub_1
 Tunub   N       tendon;rope
->aTonAb N       tendons;ropes
+OaTonAb N       tendons;ropes
 ;; Tunubiy~_1
 Tunubiy~        N-ap    tendinous     [[Tunubiy~/ADJ]]
-;; <iTonAb_1
-<iTonAb N/At    exaggeration
-;; <iTonAbiy~_1
-<iTonAbiy~      N-ap    exaggerated     [[<iTonAbiy~/ADJ]]
+;; IiTonAb_1
+IiTonAb N/At    exaggeration
+;; IiTonAbiy~_1
+IiTonAbiy~      N-ap    exaggerated     [[IiTonAbiy~/ADJ]]
 ;; muTonib_1
 muTonib Nall    exaggerating     [[muTonib/ADJ]]
 ;; muTonab_1
@@ -2049,7 +2049,7 @@ TanoTan Nap     ringing;resounding
 ;; Tunuf_1
 Tunuf   Ndu     summit;ledge
 Tanof   Ndu     summit;ledge
->aTonAf N       summits;ledges
+OaTonAf N       summits;ledges
 Tunuwf  N       summits;ledges
 ;
 ;--- Tnfs
@@ -2094,7 +2094,7 @@ taTohiyriy~     N-ap    cleansing;antiseptic     [[taTohiyriy~/ADJ]]
 TAhir   N0      Tahir
 ;; TAhir_2
 TAhir   N/ap    clean;pure;chaste
->aTohAr N       clean;pure;chaste
+OaTohAr N       clean;pure;chaste
 ;; muTah~ir_1
 muTah~ir        NduAt   detergent;disinfectant
 ;; muTah~ar_1
@@ -2218,9 +2218,9 @@ TuH     IV_C    go astray
 ;; Taw~aH_1
 Taw~aH  PV      mislead
 Taw~iH  IV_yu   mislead
-;; >aTAH_1
->aTAH   PV_V    overthrow;topple
->aTaH   PV_C    overthrow;topple
+;; OaTAH_1
+OaTAH   PV_V    overthrow;topple
+OaTaH   PV_C    overthrow;topple
 TiyH    IV_V_yu overthrow;topple
 TiH     IV_C_yu overthrow;topple
 TAH     IV_V_Pass_yu    be overthrown;be toppled
@@ -2228,8 +2228,8 @@ TaH     IV_C_Pass_yu    be overthrown;be toppled
 ;; taTaw~aH_1
 taTaw~aH        PV      fall;be destroyed
 taTaw~aH        IV      fall;be destroyed
-;; <iTAHap_1
-<iTAH   NapAt   overthrow;topple
+;; IiTAHap_1
+IiTAH   NapAt   overthrow;topple
 ;; TA}iH_1
 TA}iH   N-ap    lost;stray;loose     [[TA}iH/ADJ]]
 ;; TA}iHap_1
@@ -2246,7 +2246,7 @@ noTAd   IV_V    rise;soar
 noTad   IV_C    rise;soar
 ;; Tawod_1
 Tawod   Ndu     mountain
->aTowAd N       mountains
+OaTowAd N       mountains
 ;; munoTAd_1
 munoTAd Ndu     blimp;dirigible
 manATiyd        Ndip    blimps;dirigibles
@@ -2262,7 +2262,7 @@ taTaw~ar        PV      develop;advance
 taTaw~ar        IV      develop;advance
 ;; Tawor_1
 Tawor   Ndu     stage;phase;period
->aTowAr N       stages;phases;periods
+OaTowAr N       stages;phases;periods
 ;; Tawor_2
 Tawor   N       mountain
 ;; TawAr_1
@@ -2298,8 +2298,8 @@ Taw~as  PV      adorn;decorate
 Taw~is  IV_yu   adorn;decorate
 ;; muTaw~as_1
 muTaw~as        N-ap    ornate;decorated     [[muTaw~as/ADJ]]
-;; TA&uws_1
-TA&uws  Ndu     peacock
+;; TAWuws_1
+TAWuws  Ndu     peacock
 TA'uws  Ndu     peacock
 TA}uws  Ndu     peacock
 TAwuws  Ndu     peacock
@@ -2327,9 +2327,9 @@ Taw~iE  IV_yu   enlist;recruit
 ;; TAwaE_1
 TAwaE   PV      comply with;obey
 TAwiE   IV_yu   comply with;obey
-;; >aTAE_1
->aTAE   PV_V    obey
->aTaE   PV_C    obey
+;; OaTAE_1
+OaTAE   PV_V    obey
+OaTaE   PV_C    obey
 TiyE    IV_V_yu obey
 TiE     IV_C_yu obey
 TAE     IV_V_Pass_yu    be obeyed
@@ -2365,8 +2365,8 @@ TawAEiy~        Nap     voluntariness
 taTowiyE        N/At    recruitment;enlisting
 ;; muTAwaEap_1
 muTAwaE NapAt   compliance;tractability
-;; <iTAEap_1
-<iTAE   NapAt   obedience
+;; IiTAEap_1
+IiTAE   NapAt   obedience
 ;; taTaw~uE_1
 taTaw~uE        N/At    voluntary
 taTaw~uE        NF      voluntarily     [[taTaw~uE/ADV]]
@@ -2400,9 +2400,9 @@ Tuf     IV_C    circulate;wander about
 ;; Taw~af_1
 Taw~af  PV      circulate;wander about
 Taw~if  IV_yu   circulate;wander about
-;; >aTAf_1
->aTAf   PV_V    surround;encircle
->aTaf   PV_C    surround;encircle
+;; OaTAf_1
+OaTAf   PV_V    surround;encircle
+OaTaf   PV_C    surround;encircle
 Tiyf    IV_V_yu surround;encircle
 Tif     IV_C_yu surround;encircle
 TAf     IV_V_Pass_yu    be surrounded;be encircled
@@ -2414,7 +2414,7 @@ taTaw~af        IV      roam;wander
 Tawof   N       circuit
 ;; Tawof_2
 Tawof   Ndu     pontoon;raft
->aTowAf N       pontoons;rafts
+OaTowAf N       pontoons;rafts
 ;; Tawofap_1
 Tawof   Nap     patrol;round
 ;; TuwfAn_1
@@ -2452,9 +2452,9 @@ Tuq     IV_C_intr       be able;be capable
 ;; Taw~aq_1
 Taw~aq  PV      encircle;surround
 Taw~iq  IV_yu   encircle;surround
-;; >aTAq_1
->aTAq   PV_V    tolerate;endure
->aTaq   PV_C    tolerate;endure
+;; OaTAq_1
+OaTAq   PV_V    tolerate;endure
+OaTaq   PV_C    tolerate;endure
 Tiyq    IV_V_yu tolerate;endure
 Tiq     IV_C_yu tolerate;endure
 TAq     IV_V_Pass_yu    be tolerated;be endured
@@ -2477,8 +2477,8 @@ Tawoqiy~        N-ap    collar-like;ring-shaped     [[Tawoqiy~/ADJ]]
 TAq     NapAt   energy;power;potential
 ;; taTowiyq_1
 taTowiyq        N/At    encirclement;surrounding
-;; <iTAqap_1
-<iTAq   NapAt   capability
+;; IiTAqap_1
+IiTAq   NapAt   capability
 ;; muTaw~aq_1
 muTaw~aq        N       ringdove
 ;; muTAq_1
@@ -2502,9 +2502,9 @@ Taw~il  IV_yu   lengthen
 ;; TAwal_1
 TAwal   PV      contend with
 TAwil   IV_yu   contend with
-;; >aTAl_1
->aTAl   PV_V    lengthen
->aTal   PV_C    lengthen
+;; OaTAl_1
+OaTAl   PV_V    lengthen
+OaTal   PV_C    lengthen
 Tiyl    IV_V_yu lengthen
 Til     IV_C_yu lengthen
 TAl     IV_V_Pass_yu    be lengthened
@@ -2524,7 +2524,7 @@ laTAlamA        FW-Wa   how often;as long as     [[la/EMPHATIC_PARTICLE+TAlamA/C
 Tawol   N       power
 ;; Tuwl_1
 Tuwl    N       length;height
->aTowAl N       lengths;heights
+OaTowAl N       lengths;heights
 ;; Tuwliy~_1
 Tuwliy~ N-ap    linear;longitudinal     [[Tuwliy~/ADJ]]
 ;; TuwlAniy~_1
@@ -2546,15 +2546,15 @@ Tawiyl  Nprop   Taweel
 Tawiyl  NF      for a long time;at length;extensively     [[Tawiyl/ADV]]
 ;; TuwAlap_1
 TuwAl   NapAt   stable
-;; >aTowal_1
->aTowal Nel     taller/tallest;longer/longest
+;; OaTowal_1
+OaTowal Nel     taller/tallest;longer/longest
 TuwlaY  N0      taller/tallest;longer/longest
 Tuwlay  NAn_Nayn        taller/tallest;longer/longest
 Tuwlay  NAt     taller/tallest;longer/longest
 ;; taTowiyl_1
 taTowiyl        N/At    lengthening;prolongation
-;; <iTAlap_1
-<iTAl   NapAt   lengthening;prolongation
+;; IiTAlap_1
+IiTAl   NapAt   lengthening;prolongation
 ;; taTAwul_1
 taTAwul N/At    insolence
 ;; AisotiTAlap_1
@@ -2630,9 +2630,9 @@ TawAyA  N0_Nhy  intentions;convictions
 TawAyA  N0_Nhy  interior;insides (of)
 ;; Tay~_1
 Tay~    N       concealment;hiding
->aTowA' N0_Nh   inside
->aTowA& Nh      inside
->aTowA} Nhy     inside
+OaTowA' N0_Nh   inside
+OaTowAW Nh      inside
+OaTowA} Nhy     inside
 ;; Tay~ap_1
 Tay~    NapAt   fold
 Tay~    NAt     interior;insides (of)
@@ -2648,7 +2648,7 @@ maTAw   NK      inside;within
 miTowA  Napdu   pocket knife
 ;; AinoTiwA'_1
 AinoTiwA'       N0_Nh   withdrawal
-AinoTiwA&       Nh      withdrawal
+AinoTiwAW       Nh      withdrawal
 AinoTiwA}       Nhy     withdrawal
 AinoTiwA'       NAn_Nayn        withdrawals
 AinoTiwA}       Nayn    withdrawals
@@ -2686,9 +2686,9 @@ Tay~ib  IV_yu   make pleasant
 ;; TAyab_1
 TAyab   PV      banter
 TAyib   IV_yu   banter
-;; >aTAb_1
->aTAb   PV_V    make pleasant
->aTab   PV_C    make pleasant
+;; OaTAb_1
+OaTAb   PV_V    make pleasant
+OaTab   PV_C    make pleasant
 Tiyb    IV_V_yu make pleasant
 Tib     IV_C_yu make pleasant
 TAb     IV_V_Pass_yu    be made pleasant
@@ -2707,7 +2707,7 @@ sotaToyib       IV      appreciate;consider pleasant
 ;; Tiyb_1
 Tiyb    N       noble;good
 Tuyuwb  N       noble;good
->aToyAb N       noble;good
+OaToyAb N       noble;good
 ;; Tiybiy~_1
 Tiybiy~ N-ap    aromatic     [[Tiybiy~/ADJ]]
 ;; Tiybiy~_2
@@ -2724,9 +2724,9 @@ Tiyb    Nap     good nature;goodness
 Tay~Ab  Nall    masseur
 ;; Tay~Ab_2
 Tay~Ab  N0      Tayyab
-;; >aToyab_1
->aToyab Nel     better/best
->aTAyib Ndip    pleasures;amenities
+;; OaToyab_1
+OaToyab Nel     better/best
+OaTAyib Ndip    pleasures;amenities
 ;; maTAyib_1
 maTAyib Ndip    comforts;amenities
 ;; muTAyabap_1
@@ -2783,7 +2783,7 @@ sotaTar IV_C_intr       be terrified
 ;; Tayor_1
 Tayor   N       bird
 Tuyuwr  N       birds
->aToyAr N       birds
+OaToyAr N       birds
 ;; Tayorap_1
 Tayor   Nap     agitation
 ;; Tiyrap_1
@@ -2830,8 +2830,8 @@ Tayo$   N       inconstancy;recklessness
 Taya$An N       inconstancy;recklessness
 ;; TiyA$ap_1
 TiyA$   Nap     inconstancy;recklessness
-;; >aToya$_1
->aToya$ Nel     reckless;out of control
+;; OaToya$_1
+OaToya$ Nel     reckless;out of control
 ;
 ;--- Tyf
 ;; TAf-i_1
@@ -2844,7 +2844,7 @@ Tayof   N       spectrum (light)
 ;; Tayof_2
 Tayof   N       apparition
 Tuyuwf  N       apparitions
->aToyAf N       apparitions
+OaToyAf N       apparitions
 ;; Tayofiy~_1
 Tayofiy~        N-ap    spectral     [[Tayofiy~/ADJ]]
 Tayofiy~        N-ap    phantom     [[Tayofiy~/ADJ]]
@@ -2862,7 +2862,7 @@ Tay~an  PV-n    daub with clay
 Tay~in  IV-n_yu daub with clay
 ;; Tiyn_1
 Tiyn    N       clay
->aToyAn N       clay
+OaToyAn N       clay
 ;; Tiynap_1
 Tiyn    Nap     potter's clay
 ;; Tiyniy~_1

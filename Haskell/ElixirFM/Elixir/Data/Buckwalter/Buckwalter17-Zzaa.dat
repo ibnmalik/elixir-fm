@@ -1,7 +1,7 @@
 ;--- Z
 ;; ZA'_1
 ZA'     N0_Nh   Za' (Arabic letter)
-ZA&     Nh      Za' (Arabic letter)
+ZAW     Nh      Za' (Arabic letter)
 ZA}     Nhy     Za' (Arabic letter)
 ZA'     NAt     Za's (Arabic letter)
 ;
@@ -13,7 +13,7 @@ Zi}or   N       wet nurse
 ;; Zaboy_1
 Zaboy   Ndu     gazelle
 ZibA'   N0_Nh   gazelles
-ZibA&   Nh      gazelles
+ZibAW   Nh      gazelles
 ZibA}   Nhy     gazelles
 ;; Zabiy_1
 Zabiy   FW      Dhabi     [[Zabiy/NOUN_PROP]]
@@ -62,15 +62,15 @@ Zarofiy~        N-ap    circumstantial     [[Zarofiy~/ADJ]]
 ;; Zariyf_1
 Zariyf  N/ap    adroit;elegant
 ZurafA' N0_Nh   adroit;elegant
-ZurafA& Nh      adroit;elegant
+ZurafAW Nh      adroit;elegant
 ZurafA} Nhy     adroit;elegant
 ZarA}if Ndip    adroit;elegant;courteous
 ;; Zariyf_2
 Zariyf  N0      Zarif
 ;; ZarAfap_1
 ZarAf   Nap     elegance;wittiness;courtesy
-;; >aZoraf_1
->aZoraf Nel     more/most elegant;wittier/wittiest
+;; OaZoraf_1
+OaZoraf Nel     more/most elegant;wittier/wittiest
 ;; taZoriyf_1
 taZoriyf        N/At    wittiness;courtesy
 ;; taZar~uf_1
@@ -91,7 +91,7 @@ ZoEan   IV-n    depart;move away
 ZaEon   N       departure;journey
 ;; ZaEiynap_1
 ZaEiyn  Nap     camel load
->aZoEAn N       camel loads
+OaZoEAn N       camel loads
 ZaEA}in Ndip    camel loads
 ;; ZaEuwn_1
 ZaEuwn  N       load camel
@@ -105,8 +105,8 @@ Zofar   IV      succeed
 ;; Zaf~ar_1
 Zaf~ar  PV      grant victory
 Zaf~ir  IV_yu   grant victory
-;; >aZofar_1
->aZofar PV      grant victory
+;; OaZofar_1
+OaZofar PV      grant victory
 Zofir   IV_yu   grant victory
 Zofar   IV_Pass_yu      be granted victory
 ;; taZAfar_1
@@ -114,11 +114,11 @@ taZAfar PV_intr be allied with
 taZAfar IV_intr be allied with
 ;; Zufur_1
 Zufur   Ndu     nail;claw;talon
->aZofAr N       nails;claws;talons
->aZAfir Ndip    nails;claws;talons
-;; >uZofuwr_1
->uZofuwr        Ndu     nail;claw;talon
->aZAfiyr        Ndip    nails;claws;talons
+OaZofAr N       nails;claws;talons
+OaZAfir Ndip    nails;claws;talons
+;; OuZofuwr_1
+OuZofuwr        Ndu     nail;claw;talon
+OaZAfiyr        Ndip    nails;claws;talons
 ;; Zafar_1
 Zafar   N       victory
 ;; Zafir_1
@@ -147,9 +147,9 @@ Zolal   IV_C    remain;continue
 ;; Zal~al_1
 Zal~al  PV      shade
 Zal~il  IV_yu   shade
-;; >aZal~_1
->aZal~  PV_V    shade
->aZolal PV_C    shade
+;; OaZal~_1
+OaZal~  PV_V    shade
+OaZolal PV_C    shade
 Zil~    IV_V_yu shade
 Zolil   IV_C_yu shade
 Zal~    IV_V_Pass_yu    be shaded
@@ -165,7 +165,7 @@ sotaZolil       IV_C    seek refuge;seek shade
 Zil~    N       patronage;shelter
 ZilAl   N       auspices;shelter
 Zuluwl  N       auspices;shelter
->aZolAl N       auspices;shelter
+OaZolAl N       auspices;shelter
 ;; Zul~ap_1
 Zul~    Nap     veranda
 Zulal   N       shelters
@@ -199,15 +199,15 @@ ZulAE   N       rheumatism
 ;; Zilof_1
 Zilof   N       cloven hoof
 Zuluwf  N       cloven hoof
->aZolAf N       cloven hoof
+OaZolAf N       cloven hoof
 ;
 ;--- Zlm
 ;; Zalam-i_1
 Zalam   PV_intr be unjust;oppress
 Zolim   IV_intr be unjust;oppress
 Zolam   IV_Pass_yu      be oppressed
-;; >aZolam_1
->aZolam PV_intr become dark
+;; OaZolam_1
+OaZolam PV_intr become dark
 Zolim   IV_intr_yu      become dark
 Zolam   IV_Pass_yu      be darkened
 ;; taZal~am_1
@@ -224,7 +224,7 @@ Zulom   N       injustice
 ;; Zulomap_1
 Zulom   NapAt   darkness
 ZalomA' N0_Nh   darkness
-ZalomA& Nh      darkness
+ZalomAW Nh      darkness
 ZalomA} Nhy     darkness
 ;; ZalAm_1
 ZalAm   N       darkness
@@ -238,13 +238,13 @@ Zaliym  Ndu     ostrich
 ZilomAn N       ostriches
 ;; ZulAmap_1
 ZulAm   NapAt   injustice;misdeed
-;; >aZolam_2
->aZolam Nel     darker/darkest;viler/vilest
+;; OaZolam_2
+OaZolam Nel     darker/darkest;viler/vilest
 ;; maZolimap_1
 maZolim Napdu   injustice;misdeed
 maZAlim Ndip    injustices;misdeeds
-;; <iZolAm_1
-<iZolAm N/At    darkness;gloom
+;; IiZolAm_1
+IiZolAm N/At    darkness;gloom
 ;; taZal~um_1
 taZal~um        N/At    complaint
 ;; ZAlim_1
@@ -259,38 +259,38 @@ muZolim Nall    dark;gloomy     [[muZolim/ADJ]]
 ;--- ZmA
 ;; Zami}-a_1
 Zami}   PV_intr be thirsty
-Zoma>   IV_intr be thirsty
+ZomaO   IV_intr be thirsty
 Zoma|   IV-|    be thirsty
-Zoma&   IV_wn   be thirsty
+ZomaW   IV_wn   be thirsty
 Zoma}   IV_yn   be thirsty
-;; Zam~a>_1
-Zam~a>  PV->    make thirsty
+;; Zam~aO_1
+Zam~aO  PV-O    make thirsty
 Zam~a|  PV-|    make thirsty
-Zam~a&  PV_w    make thirsty
+Zam~aW  PV_w    make thirsty
 Zam~i}  IV_yu   make thirsty
-;; >aZoma>_1
->aZoma> PV->    make thirsty
->aZoma| PV-|    make thirsty
->aZoma& PV_w    make thirsty
+;; OaZomaO_1
+OaZomaO PV-O    make thirsty
+OaZoma| PV-|    make thirsty
+OaZomaW PV_w    make thirsty
 Zomi}   IV_yu   make thirsty
-Zoma>   IV_Pass_yu      be made thirsty
-;; Zama>_1
-Zama>   N0_Nh   thirst
-Zama&   Nh      thirst
+ZomaO   IV_Pass_yu      be made thirsty
+;; ZamaO_1
+ZamaO   N0_Nh   thirst
+ZamaW   Nh      thirst
 Zama}   Nhy     thirst
 ;; ZamA'_1
 ZamA'   N0_Nh   thirst
-ZamA&   Nh      thirst
+ZamAW   Nh      thirst
 ZamA}   Nhy     thirst
 ZamA'   Nap     thirst
 ;; Zimo'_1
 Zimo'   N0      thirst
-Zimo>   N0_Nh   thirst
-Zimo&   Nh      thirst
+ZimoO   N0_Nh   thirst
+ZimoW   Nh      thirst
 Zimo}   Nhy     thirst
 ;; Zamo|n_1
 Zamo|n  Ndip    thirsty     [[Zamo|n/ADJ]]
-Zamo>aY N0      thirsty
+ZamoOaY N0      thirsty
 ;; ZAmi}_1
 ZAmi}   Nall    thirsty     [[ZAmi}/ADJ]]
 ;
@@ -339,8 +339,8 @@ Zah~ir  IV_yu   develop
 ;; ZAhar_1
 ZAhar   PV      assist;support
 ZAhir   IV_yu   assist;support
-;; >aZohar_1
->aZohar PV      show;manifest;demonstrate
+;; OaZohar_1
+OaZohar PV      show;manifest;demonstrate
 Zohir   IV_yu   show;manifest;demonstrate
 Zohar   IV_Pass_yu      be shown;be manifest;be demonstrated
 ;; taZAhar_1
@@ -354,12 +354,12 @@ Zahor   N       back;spine
 Zahor   NAn_Nayn        midst
 ;; Zahoriy~_1
 Zahoriy~        N-ap    dorsal     [[Zahoriy~/ADJ]]
-;; >aZohur_1
->aZohur N       rear part
+;; OaZohur_1
+OaZohur N       rear part
 ;; Zuhor_1
 Zuhor   N       noon;afternoon
 Zuhor   NF      in the afternoon;at noon     [[Zuhor/ADV]]
->aZohAr N       afternoons
+OaZohAr N       afternoons
 ;; Zuhoriy~_1
 Zuhoriy~        N-ap    afternoon;meridian     [[Zuhoriy~/ADJ]]
 ;; Zahiyr_1
@@ -372,8 +372,8 @@ Zuhuwr  N       appearance;emergence
 ZahorAn N       Dhahran
 ;; ZihArap_1
 ZihAr   Nap     outside;epithelium
-;; >aZohar_2
->aZohar Nel     clearer/clearest;more/most apparent
+;; OaZohar_2
+OaZohar Nel     clearer/clearest;more/most apparent
 ;; maZohar_1
 maZohar Ndu     appearance;facade
 maZAhir Ndip    features;manifestations
@@ -387,10 +387,10 @@ ZihAr   N       epithelium
 ZihAriy~        N-ap    epithelial     [[ZihAriy~/ADJ]]
 ;; muZAharap_1
 muZAhar NapAt   demonstration;rally
-;; <iZohAr_1
-<iZohAr N/At    expressing;showing;demonstrating
-;; <iZohAriy~_1
-<iZohAriy~      Nall    demonstrative;exhibitionist     [[<iZohAriy~/ADJ]]
+;; IiZohAr_1
+IiZohAr N/At    expressing;showing;demonstrating
+;; IiZohAriy~_1
+IiZohAriy~      Nall    demonstrative;exhibitionist     [[IiZohAriy~/ADJ]]
 ;; taZAhur_1
 taZAhur NduAt   demonstration;exhibition;simulation
 ;; taZAhurap_1

@@ -1,7 +1,7 @@
 ;--- x
 ;; xA'_1
 xA'     N0_Nh   xa' (Arabic letter)
-xA&     Nh      xa' (Arabic letter)
+xAW     Nh      xa' (Arabic letter)
 xA}     Nhy     xa' (Arabic letter)
 xA'     NAt     xa's (Arabic letter)
 ;
@@ -84,41 +84,41 @@ xabiyb  N       ambling;trotting
 xab~    N/ap    impostor;swindler
 ;
 ;--- xbA
-;; xaba>-a_1
-xaba>   PV->    hide;conceal
+;; xabaO-a_1
+xabaO   PV-O    hide;conceal
 xaba|   PV-|    hide;conceal
-xaba&   PV_w    hide;conceal
-xoba>   IV      hide;conceal
+xabaW   PV_w    hide;conceal
+xobaO   IV      hide;conceal
 xoba|   IV-|    hide;conceal
-xoba&   IV_wn   hide;conceal
+xobaW   IV_wn   hide;conceal
 xoba}   IV_yn   hide;conceal
-;; xab~a>_1
-xab~a>  PV->    hide;conceal
+;; xab~aO_1
+xab~aO  PV-O    hide;conceal
 xab~a|  PV-|    hide;conceal
-xab~a&  PV_w    hide;conceal
+xab~aW  PV_w    hide;conceal
 xab~i}  IV_yu   hide;conceal
-;; taxab~a>_1
-taxab~a>        PV->_intr       be hidden;be concealed
+;; taxab~aO_1
+taxab~aO        PV-O_intr       be hidden;be concealed
 taxab~a|        PV-|_intr       be hidden;be concealed
-taxab~a&        PV_w_intr       be hidden;be concealed
-taxab~a>        IV_intr be hidden;be concealed
+taxab~aW        PV_w_intr       be hidden;be concealed
+taxab~aO        IV_intr be hidden;be concealed
 taxab~a|        IV-|    be hidden;be concealed
-taxab~a&        IV_wn   be hidden;be concealed
+taxab~aW        IV_wn   be hidden;be concealed
 taxab~a}        IV_yn   be hidden;be concealed
-;; Aixotaba>_1
-Aixotaba>       PV->    hide;disappear;be hidden
+;; AixotabaO_1
+AixotabaO       PV-O    hide;disappear;be hidden
 Aixotaba|       PV-|    hide;disappear;be hidden
-Aixotaba&       PV_w    hide;disappear;be hidden
+AixotabaW       PV_w    hide;disappear;be hidden
 xotabi} IV      hide;disappear;be hidden
 ;; AixotibA'_1
 AixotibA'       N0_Nh   disappearance;hiding
-AixotibA&       Nh      disappearance;hiding
+AixotibAW       Nh      disappearance;hiding
 AixotibA}       Nhy     disappearance;hiding
 AixotibA'       NAn_Nayn        disappearance;hiding
 AixotibA}       Nayn    disappearance;hiding
 AixotibA'       NAt     disappearance;hiding
 AixotibA'       N0_Nh   disappearance;hiding
-AixotibA&       Nh      disappearance;hiding
+AixotibAW       Nh      disappearance;hiding
 AixotibA}       Nhy     disappearance;hiding
 AixotibA'       NAn_Nayn        disappearance;hiding
 AixotibA}       Nayn    disappearance;hiding
@@ -126,9 +126,9 @@ AixotibA'       NAt     disappearance;hiding
 ;; xabiy}ap_1
 xabiy}  Napdu   secret;cache
 xabAyA  N0_Nhy  hidden;natural resources
-;; maxoba>_1
-maxoba> N0_Nh   hide-out;shelter
-maxoba& Nh      hide-out;shelter
+;; maxobaO_1
+maxobaO N0_Nh   hide-out;shelter
+maxobaW Nh      hide-out;shelter
 maxoba} Nhy     hide-out;shelter
 maxoba| N-|     hide-outs;shelters
 maxoba} Nayn    hide-outs;shelters
@@ -136,28 +136,28 @@ maxoba  N-|t    hide-outs;shelters
 maxAbi} Ndip    hide-outs;shelters
 ;; xibA'_1
 xibA'   N0_Nh   tent;husk;hull
-xibA&   Nh      tent;husk;hull
+xibAW   Nh      tent;husk;hull
 xibA}   Nhy     tent;husk;hull
->axobi} Nap     tents;husks;hulls
->axobiy Nap     tents;husks;hulls
+Oaxobi} Nap     tents;husks;hulls
+Oaxobiy Nap     tents;husks;hulls
 ;; xAbi}ap_1
 xAbi}   Napdu   cask;jar
 xAbiy   Napdu   cask;jar
 xawAbi} Ndip    casks;jars
 xawAbiy N0_Nh   casks;jars
 xawAb   NK      casks;jars
-;; muxab~a>ap_1
-muxab~a>        Napdu   hidden;secret
+;; muxab~aOap_1
+muxab~aO        Napdu   hidden;secret
 muxab~a N-|t    hidden;secrets
 ;; muxotabi}_1
 muxotabi}       Nall    hidden;concealed
 ;
 ;--- xbt
-;; >axobat_1
->axobat PV-t_intr       be humble
+;; Oaxobat_1
+Oaxobat PV-t_intr       be humble
 xobit   IV_intr_yu      be humble
-;; <ixobAt_1
-<ixobAt NduAt   being humble
+;; IixobAt_1
+IixobAt NduAt   being humble
 ;; muxobit_1
 muxobit Nall    being humble
 ;
@@ -175,10 +175,10 @@ xabav   N       refuse;dross
 ;; xabiyv_1
 xabiyv  N/ap    malicious;malignant     [[xabiyv/ADJ]]
 xubavA' N0_Nh   malicious
-xubavA& Nh      malicious
+xubavAW Nh      malicious
 xubavA} Nhy     malicious
-;; >axobav_1
->axobav Nel     worse;more/most malicious
+;; Oaxobav_1
+Oaxobav Nel     worse;more/most malicious
 ;; xabAvap_1
 xabAv   Nap     malice;malignancy
 ;
@@ -195,8 +195,8 @@ xab~ir  IV_yu   notify;inform
 ;; xAbar_1
 xAbar   PV      contact
 xAbir   IV_yu   contact
-;; >axobar_1
->axobar PV      notify;communicate
+;; Oaxobar_1
+Oaxobar PV      notify;communicate
 xobir   IV_yu   notify;communicate
 xobar   IV_Pass_yu      be notified;be communicated
 ;; taxab~ar_1
@@ -213,7 +213,7 @@ Aisotaxobar     PV      inquire
 sotaxobir       IV      inquire
 ;; xabar_1
 xabar   Ndu     news;report
->axobAr N       news;reports
+OaxobAr N       news;reports
 ;; xubar_1
 xubar   N0      Khobar
 ;; xiborap_1
@@ -221,7 +221,7 @@ xibor   NapAt   experience;expertise
 ;; xabiyr_1
 xabiyr  N/ap    expert;specialist
 xubarA' N0_Nh   experts;specialists
-xubarA& Nh      experts;specialists
+xubarAW Nh      experts;specialists
 xubarA} Nhy     experts;specialists
 ;; xAbuwr_1
 xAbuwr  Ndu     peg;pin;wedge
@@ -240,10 +240,10 @@ muxAbar Nap     correspondence;communication
 muxAbar NAt     intelligence service;secret service
 ;; muxAbarAtiy~_1
 muxAbarAtiy~    Nall    intelligence service;secret service     [[muxAbarAtiy~/ADJ]]
-;; <ixobAr_1
-<ixobAr NduAt   notification;communication
-;; <ixobAriy~_1
-<ixobAriy~      Nall    news;information     [[<ixobAriy~/ADJ]]
+;; IixobAr_1
+IixobAr NduAt   notification;communication
+;; IixobAriy~_1
+IixobAriy~      Nall    news;information     [[IixobAriy~/ADJ]]
 ;; taxAbur_1
 taxAbur NduAt   communication;intelligence contact
 ;; AixotibAr_1
@@ -272,7 +272,7 @@ Aixotabaz       PV      bake;be baked
 xotabiz IV      bake;be baked
 ;; xuboz_1
 xuboz   N       bread
->axobAz N       bread
+OaxobAz N       bread
 xuboz   Nap     loaf of bread
 ;; xab~Az_1
 xab~Az  Nall    baker
@@ -344,8 +344,8 @@ Aixotabal       PV_intr be muddled
 xotabil IV_intr be muddled
 ;; xabol_1
 xabol   N       confusion;insanity
-;; >axobal_1
->axobal Nel     insane
+;; Oaxobal_1
+Oaxobal Nel     insane
 ;; AixotibAl_1
 AixotibAl       NduAt   insanity
 ;; maxobuwl_1
@@ -401,7 +401,7 @@ Auxotutim       PV_Pass be concluded;be terminated
 xotatam IV_Pass_yu      be concluded;be terminated
 ;; xatom_1
 xatom   N       seal;stamp
->axotAm N       seals;stamps
+OaxotAm N       seals;stamps
 xutuwm  N       seals;stamps
 ;; xAtam_1
 xAtam   Ndu     ring;seal
@@ -436,7 +436,7 @@ xotatin IV-n_intr       be circumcised
 xaton   N       circumcision
 ;; xaton_2
 xaton   Ndu     son-in-law;bridegroom
->axotAn N       sons-in-law;bridegrooms
+OaxotAn N       sons-in-law;bridegrooms
 ;; xitAn_1
 xitAn   N       circumcision
 xitAn   Nap     circumcision
@@ -454,8 +454,8 @@ xovar   IV      thicken;curdle;coagulate
 ;; xav~ar_1
 xav~ar  PV      thicken;condense;curdle
 xav~ir  IV_yu   thicken;condense;curdle
-;; >axovar_1
->axovar PV      thicken;condense;curdle
+;; Oaxovar_1
+Oaxovar PV      thicken;condense;curdle
 xovir   IV_yu   thicken;condense;curdle
 xovar   IV_Pass_yu      be thickened;be condensed;be curdled
 ;; taxav~ar_1
@@ -485,8 +485,8 @@ xojal   IV_intr be ashamed;be shy
 ;; xaj~al_1
 xaj~al  PV      shame;embarrass
 xaj~il  IV_yu   shame;embarrass
-;; >axojal_1
->axojal PV      embarrass
+;; Oaxojal_1
+Oaxojal PV      embarrass
 xojil   IV_yu   embarrass
 xojal   IV_Pass_yu      be embarrassed
 ;; xajal_1
@@ -514,9 +514,9 @@ xad~    Ndu     cheek;side;furrow
 xuduwd  N       cheeks;side
 ;; xud~ap_1
 xud~    Napdu   furrow;groove
-;; >uxoduwd_1
->uxoduwd        Ndu     slot;groove;furrow
->axAdiyd        Ndip    slots;grooves;furrows
+;; Ouxoduwd_1
+Ouxoduwd        Ndu     slot;groove;furrow
+OaxAdiyd        Ndip    slots;grooves;furrows
 ;; mixad~ap_1
 mixad~  Napdu   cushion;pillow
 ;
@@ -539,8 +539,8 @@ xodur   IV      confine;seclude
 ;; xad~ar_1
 xad~ar  PV      make numb;anesthetize;seclude
 xad~ir  IV_yu   make numb;anesthetize;seclude
-;; >axodar_1
->axodar PV      make numb;anesthetize
+;; Oaxodar_1
+Oaxodar PV      make numb;anesthetize
 xodir   IV_yu   make numb;anesthetize
 xodar   IV_Pass_yu      be made numb;be anesthetized
 ;; taxad~ar_1
@@ -549,8 +549,8 @@ taxad~ar        IV_intr be numbed;be stunned;calm down
 ;; xidor_1
 xidor   N       curtain;boudoir
 xuduwr  N       curtains
->axodAr N       curtains
->axAdiyr        Ndip    curtains
+OaxodAr N       curtains
+OaxAdiyr        Ndip    curtains
 ;; xadar_1
 xadar   N       numbness;daze
 ;; xudorap_1
@@ -559,8 +559,8 @@ xudor   Nap     numbness;daze
 xadorAn Ndip    numb;dazed     [[xadorAn/ADJ]]
 ;; taxodiyr_1
 taxodiyr        NduAt   narcotization;anesthesia
-;; <ixodAr_1
-<ixodAr N       analgesia
+;; IixodAr_1
+IixodAr N       analgesia
 ;; xAdir_1
 xAdir   Nall    dazed;languid     [[xAdir/ADJ]]
 ;; muxad~ir_1
@@ -586,7 +586,7 @@ noxadi$ IV_intr be scratched;be offended;be ruined
 ;; xado$_1
 xado$   N       scratch;abrasion
 xuduw$  N       scratch;abrasion
->axodA$ N       scratches;abrasions
+OaxodA$ N       scratches;abrasions
 ;
 ;--- xdE
 ;; xadaE-a_1
@@ -609,9 +609,9 @@ xadA}iE Ndip    deceptions
 xayodaE Ndu     mirage
 ;; xad~AE_1
 xad~AE  Nall    impostor;crook
-;; <ixodAE_1
-<ixodAE N       swindling;deception
->axAdiyE        Ndip    swindles;deceptions
+;; IixodAE_1
+IixodAE N       swindling;deception
+OaxAdiyE        Ndip    swindles;deceptions
 ;; mixodaE_1
 mixodaE N       chamber
 maxAdiE Ndip    chambers
@@ -634,7 +634,7 @@ xodal   IV      stiffen;be numb
 xadam   PV      serve;assist
 xodim   IV      serve;assist
 xodum   IV      serve;assist
-; >xdm    Auxodum CV      serve;assist
+; Oxdm    Auxodum CV      serve;assist
 ; Axdm    Auxodum CV      serve;assist
 ;; xad~am_1
 xad~am  PV      employ;hire
@@ -644,7 +644,7 @@ Aisotaxodam     PV      utilize;employ;operate
 Ausotuxodim     PV_Pass be used;be utilized;be employed
 sotaxodim       IV      utilize;employ;operate
 sotaxodam       IV_Pass_yu      be used;be utilized;be employed
-; <stxdm  Aisotaxodim     CV      use
+; Istxdm  Aisotaxodim     CV      use
 ; Astxdm  Aisotaxodim     CV      use
 ;; xadam_1
 xadam   N       servants;attendants
@@ -681,7 +681,7 @@ xAdan   PV-n    befriend;be sociable with
 xAdin   IV-n_yu befriend;be sociable with
 ;; xidon_1
 xidon   Ndu     friend;confidant
->axodAn N       friends;confidants
+OaxodAn N       friends;confidants
 ;; xadiyn_1
 xadiyn  Nall    friends;confidants
 ;
@@ -693,10 +693,10 @@ xudayowiy~      Nall    khedive     [[xudayowiy~/ADJ]]
 xidiywiy~       Nall    khedivial     [[xidiywiy~/ADJ]]
 ;
 ;--- x*A
-;; Aisotaxo*a>_1
-Aisotaxo*a>     PV->    submit;be servile
+;; Aisotaxo*aO_1
+Aisotaxo*aO     PV-O    submit;be servile
 Aisotaxo*a|     PV-|    submit;be servile
-Aisotaxo*a&     PV_w    submit;be servile
+Aisotaxo*aW     PV_w    submit;be servile
 sotaxo*i}       IV      submit;be servile
 ;; musotaxo*i}_1
 musotaxo*i}     Nall    submissive;servile;submitting     [[musotaxo*i}/ADJ]]
@@ -753,7 +753,7 @@ sotaxo* IV_0hwnyn       submit;be servile
 sotaxo*aY       IV_0    submit;be servile
 ;; Aisotixo*A'_1
 Aisotixo*A'     N0_Nh   subservience;servility
-Aisotixo*A&     Nh      subservience;servility
+Aisotixo*AW     Nh      subservience;servility
 Aisotixo*A}     Nhy     subservience;servility
 Aisotixo*A'     NAt     subservience;servility
 ;; musotaxo*iy_1
@@ -781,17 +781,17 @@ xuruwr  N       falling down;collapse
 ;--- xrA
 ;; xari}-a_1
 xari}   PV      defecate
-xora>   IV      defecate
+xoraO   IV      defecate
 xora|   IV-|    defecate
-xora&   IV_wn   defecate
+xoraW   IV_wn   defecate
 xora}   IV_yn   defecate
 ;; xuro'_1
 xuro'   N0F_Nh  feces
-xuro&   Nh      feces
+xuroW   Nh      feces
 xuro}   Nhy     feces
 ;; xarA'_1
 xarA'   N0_Nh   feces
-xarA&   Nh      feces
+xarAW   Nh      feces
 xarA}   Nhy     feces
 ;
 ;--- xrb
@@ -804,8 +804,8 @@ xorab   IV_intr be destroyed;disintegrate
 ;; xar~ab_1
 xar~ab  PV      destroy
 xar~ib  IV_yu   destroy
-;; >axorab_1
->axorab PV      destroy
+;; Oaxorab_1
+Oaxorab PV      destroy
 xorib   IV_yu   destroy
 xorab   IV_Pass_yu      be destroyed
 ;; taxar~ab_1
@@ -872,7 +872,7 @@ xarat   PV-t    perforate
 xorut   IV      perforate
 ;; xurot_1
 xurot   N       hole;bore
->axorAt N       holes;eyelets
+OaxorAt N       holes;eyelets
 ;; xir~iyt_1
 xir~iyt N/ap    experienced;skilled
 ;
@@ -886,8 +886,8 @@ xoruj   IV_intr go out;exit;leave
 ;; xar~aj_1
 xar~aj  PV      oust;remove
 xar~ij  IV_yu   oust;remove
-;; >axoraj_1
->axoraj PV      oust;remove;emit
+;; Oaxoraj_1
+Oaxoraj PV      oust;remove;emit
 xorij   IV_yu   oust;remove;emit
 xoraj   IV_Pass_yu      be ousted;be removed;be emitted
 ;; taxar~aj_1
@@ -918,8 +918,8 @@ maxoraj Ndu     exit;outlet;escape
 maxArij Ndip    exits;outlets
 ;; taxoriyj_1
 taxoriyj        NduAt   upbringing;extraction;derivation
-;; <ixorAj_1
-<ixorAj NduAt   production;extraction;ousting
+;; IixorAj_1
+IixorAj NduAt   production;extraction;ousting
 ;; taxar~uj_1
 taxar~uj        NduAt   graduation
 ;; taxAruj_1
@@ -1008,18 +1008,18 @@ xarozAn Nap     switch;rod
 ;; xaris-a_1
 xaris   PV_intr be silent;shut up
 xoras   IV_intr be silent;shut up
-;; >axoras_1
->axoras PV      silence;gag
+;; Oaxoras_1
+Oaxoras PV      silence;gag
 xoris   IV_yu   silence;gag
 xoras   IV_Pass_yu      be silenced;be gagged
 ;; xaras_1
 xaras   N       dumbness
-;; >axoras_2
->axoras N0      Akhras
-;; >axoras_3
->axoras Nel     mute;dumb
+;; Oaxoras_2
+Oaxoras N0      Akhras
+;; Oaxoras_3
+Oaxoras Nel     mute;dumb
 xarosA' N0_Nh   mute;dumb
-xarosA& Nh      mute;dumb
+xarosAW Nh      mute;dumb
 xarosA} Nhy     mute;dumb
 xuros   N       mute;dumb
 xurosAn Ndip    mute;dumb
@@ -1165,7 +1165,7 @@ xariyfiy~       N-ap    autumnal;fall     [[xariyfiy~/ADJ]]
 ;; xaruwf_1
 xaruwf  Ndu     sheep;lamb
 xirAf   N       sheep
->axorif Nap     sheep
+Oaxorif Nap     sheep
 xirofAn N       sheep
 ;; xurAfap_1
 xurAf   NapAt   superstition;fairy tale
@@ -1193,8 +1193,8 @@ xarAfiy$        Ndip    discards;worthless
 xaraq   PV      tear;violate
 xoriq   IV      tear;violate
 xoruq   IV      tear;violate
-;; >axoraq_1
->axoraq PV      lurk
+;; Oaxoraq_1
+Oaxoraq PV      lurk
 xoriq   IV_yu   lurk
 ;; taxar~aq_1
 taxar~aq        PV_intr be torn;be broken
@@ -1216,10 +1216,10 @@ xuroq   Nap     clumsiness;stupidity
 ;; xiroqap_1
 xiroq   Nap     shred;rag
 xiraq   N       shreds;rags
-;; >axoraq_2
->axoraq Nel     clumsy;foolish
+;; Oaxoraq_2
+Oaxoraq Nel     clumsy;foolish
 xaroqA' N0_Nh   clumsy;foolish
-xaroqA& Nh      clumsy;foolish
+xaroqAW Nh      clumsy;foolish
 xaroqA} Nhy     clumsy;foolish
 xuroq   N       clumsy;foolish
 ;; maxoraqap_1
@@ -1451,11 +1451,11 @@ xaz     PV_ttAw disgrace;humiliate
 xoziy   IV_0hAnn        disgrace;humiliate
 xoz     IV_0hwnyn       disgrace;humiliate
 xozaY   IV_0    disgrace;humiliate
-;; >axozaY_1
->axozaY PV_0    humiliate;degrade
->axozA  PV_h    humiliate;degrade
->axozay PV_Atn  humiliate;degrade
->axoz   PV_ttAw humiliate;degrade
+;; OaxozaY_1
+OaxozaY PV_0    humiliate;degrade
+OaxozA  PV_h    humiliate;degrade
+Oaxozay PV_Atn  humiliate;degrade
+Oaxoz   PV_ttAw humiliate;degrade
 xoziy   IV_0hAnn_yu     humiliate;degrade
 xoz     IV_0hwnyn_yu    humiliate;degrade
 xozaY   IV_0_Pass_yu    be humiliated;be degraded
@@ -1512,7 +1512,7 @@ xis~    Nap     meanness;vileness
 xasAs   Nap     meanness;vileness
 ;; xasiys_1
 xasiys  N/ap    despicable;miserable
->axis~  Nap     despicable;miserable
+Oaxis~  Nap     despicable;miserable
 ;; xasiys_2
 xasiys  N/ap    mean trick;infamy
 xasA}is Ndip    mean tricks;infamies
@@ -1520,24 +1520,24 @@ xasA}is Ndip    mean tricks;infamies
 taxosiys        NduAt   reduction
 ;
 ;--- xsA
-;; xasa>-a_1
-xasa>   PV->    chase away
+;; xasaO-a_1
+xasaO   PV-O    chase away
 xasa|   PV-|    chase away
-xasa&   PV_w    chase away
-xosa>   IV      chase away
+xasaW   PV_w    chase away
+xosaO   IV      chase away
 xosa|   IV-|    chase away
-xosa&   IV_wn   chase away
+xosaW   IV_wn   chase away
 xosa}   IV_yn   chase away
 ;; xasi}-a_1
 xasi}   PV_intr be driven away;make off
-xosa>   IV      be driven away;make off
+xosaO   IV      be driven away;make off
 xosa|   IV-|    be driven away;make off
-xosa&   IV_wn   be driven away;make off
+xosaW   IV_wn   be driven away;make off
 xosa}   IV_yn   be driven away;make off
-;; >axosa>_1
->axosa> N0_Nh   more/most despicable;meaner/meanest
->axosa| N-|     most despicable;meanest
->axosa} Nayn    most despicable;meanest
+;; OaxosaO_1
+OaxosaO N0_Nh   more/most despicable;meaner/meanest
+Oaxosa| N-|     most despicable;meanest
+Oaxosa} Nayn    most despicable;meanest
 ;; xAsi}_1
 xAsi}   Nall    rejected;disgraceful;feeble     [[xAsi}/ADJ]]
 ;
@@ -1554,8 +1554,8 @@ xosar   IV      lose
 ;; xas~ar_1
 xas~ar  PV      harm;destroy
 xas~ir  IV_yu   harm;destroy
-;; >axosar_1
->axosar PV      cause a loss;shorten
+;; Oaxosar_1
+Oaxosar PV      cause a loss;shorten
 xosir   IV_yu   cause a loss;shorten
 xosar   IV_Pass_yu      be shortened
 ;; Aisotaxosar_1
@@ -1608,7 +1608,7 @@ taxa$~ab        PV_intr become woodlike;become hard;stiffen
 taxa$~ab        IV_intr become woodlike;become hard;stiffen
 ;; xa$ab_1
 xa$ab   N       wood
->axo$Ab N       wood;timber
+Oaxo$Ab N       wood;timber
 xa$ab   NapAt   wood;timber;stage
 ;; xa$abiy~_1
 xa$abiy~        Nall    wooden     [[xa$abiy~/ADJ]]
@@ -1702,10 +1702,10 @@ xa$in   N/ap    rough;crude     [[xa$in/ADJ]]
 xi$An   N       rough;crude
 ;; xa$Anap_1
 xa$An   Nap     roughness
-;; >axo$an_1
->axo$an Nel     rough;rude
+;; Oaxo$an_1
+Oaxo$an Nel     rough;rude
 xa$onA' N0_Nh   rough;rude
-xa$onA& Nh      rough;rude
+xa$onAW Nh      rough;rude
 xa$onA} Nhy     rough;rude
 xu$un   N       rough;rude
 ;; xu$uwnap_1
@@ -1786,15 +1786,15 @@ xaS~    N       lettuce
 ;; xuS~_1
 xuS~    Ndu     shack;shanty
 xiSAS   N       shacks;shanties
->axoSAS N       shacks;shanties
+OaxoSAS N       shacks;shanties
 ;; xaSAS_1
 xaSAS   Ndu     crevice;gap
 xaSAS   Nap     crevice;gap
 ;; xaSiyS_1
 xaSiyS  N       friend;confidant
->axiS~A'        N0_Nh   friends;confidants
->axiS~A&        Nh      friends;confidants
->axiS~A}        Nhy     friends;confidants
+OaxiS~A'        N0_Nh   friends;confidants
+OaxiS~AW        Nh      friends;confidants
+OaxiS~A}        Nhy     friends;confidants
 ;; xaSiySap_1
 xaSiyS  Napdu   peculiarity;feature
 xaSA}iS Ndip    attributes;features
@@ -1807,14 +1807,14 @@ xuSuwS  NF      especially;in particular     [[xuSuwS/ADV]]
 xuSuwSiy~       Nall    private;personal;special     [[xuSuwSiy~/ADJ]]
 ;; xaSASap_1
 xaSAS   Nap     poverty;destitution
-;; >axaS~_1
->axaS~  Nel     more specific
+;; OaxaS~_1
+OaxaS~  Nel     more specific
 ;; taxoSiyS_1
 taxoSiyS        NduAt   designation;allocation;apportionment
-;; <ixoSA}iy~_1
-<ixoSA}iy~      Nall    specialist;expert     [[<ixoSA}iy~/ADJ]]
-;; >axiS~A}iy~_1
->axiS~A}iy~     Nall    specialist;expert     [[>axiS~A}iy~/ADJ]]
+;; IixoSA}iy~_1
+IixoSA}iy~      Nall    specialist;expert     [[IixoSA}iy~/ADJ]]
+;; OaxiS~A}iy~_1
+OaxiS~A}iy~     Nall    specialist;expert     [[OaxiS~A}iy~/ADJ]]
 ;; taxaS~uS_1
 taxaS~uS        NduAt   specialization;major field
 ;; taxaS~uSiy~_1
@@ -1854,23 +1854,23 @@ xoSab   IV_intr be fertile
 ;; xaS~ab_1
 xaS~ab  PV      make fertile;fertilize
 xaS~ib  IV_yu   make fertile;fertilize
-;; >axoSab_1
->axoSab PV_intr be fertile
+;; OaxoSab_1
+OaxoSab PV_intr be fertile
 xoSib   IV_intr_yu      be fertile
 ;; xiSob_1
 xiSob   N       fertility;profusion
 xaSiyb  N/ap    fertile;productive
 xaSib   N/ap    fertile;productive
-;; >axoSab_2
->axoSab Nel     more/most fertile;more/most productive
+;; OaxoSab_2
+OaxoSab Nel     more/most fertile;more/most productive
 ;; xuSuwbap_1
 xuSuwb  Nap     fertility
 ;; mixoSAb_1
 mixoSAb N/ap    fertile;productive
 ;; taxoSiyb_1
 taxoSiyb        NduAt   fertilization
-;; <ixoSAb_1
-<ixoSAb NduAt   fertilization;fertility
+;; IixoSAb_1
+IixoSAb NduAt   fertilization;fertility
 ;; muxaS~ib_1
 muxaS~ib        Nall    fertilizer
 ;; muxoSib_1
@@ -1943,14 +1943,14 @@ xotaSim IV      quarrel;conflict
 ;; xaSom_1
 xaSom   Ndu     adversary
 xuSuwm  N       adversaries
->axoSAm N       adversaries
+OaxoSAm N       adversaries
 ;; xaSom_2
 xaSom   N       deduction;subtraction
 xuSuwm  N       liabilities
 ;; xaSiym_1
 xaSiym  Ndu     adversary
 xuSamA' N0_Nh   adversaries
-xuSamA& Nh      adversaries
+xuSamAW Nh      adversaries
 xuSamA} Nhy     adversaries
 xuSomAn N       adversaries
 ;; xuSuwmap_1
@@ -1981,7 +1981,7 @@ xuSaY   N0      testicles
 xuSA    Nhy     testicles
 ;; xiSA'_1
 xiSA'   N0_Nh   castration
-xiSA&   Nh      castration
+xiSAW   Nh      castration
 xiSA}   Nhy     castration
 ;; maxoSiy~_1
 maxoSiy~        Nall    castrated;emasculated     [[maxoSiy~/ADJ]]
@@ -2074,13 +2074,13 @@ xaDiyr  Nap     Hadera
 xuDAr   Nap     greens;herbs
 ;; xaD~Ar_1
 xaD~Ar  N/ap    greengrocer
-;; >axoDar_1
->axoDar Nel     green
+;; OaxoDar_1
+OaxoDar Nel     green
 xaDorA' N0_Nh   green
-xaDorA& Nh      green
+xaDorAW Nh      green
 xaDorA} Nhy     green
-;; >axoDar_2
->axoDar N0      Akhdar
+;; OaxoDar_2
+OaxoDar N0      Akhdar
 ;; xuDor_1
 xuDor   N0      Greens (ecologists)
 ;; maxoDarap_1
@@ -2089,7 +2089,7 @@ maxoDar Nap     meadow
 muxaD~ar        NAt     vegetables
 ;; xuDayorA'_1
 xuDayorA'       N0_Nh   Paradise
-xuDayorA&       Nh      Paradise
+xuDayorAW       Nh      Paradise
 xuDayorA}       Nhy     Paradise
 ;; yaxoDuwr_1
 yaxoDuwr        N       chlorophyll
@@ -2109,8 +2109,8 @@ xoDaE   IV_Pass_yu      be submitted;be subjected
 ;; xaD~aE_1
 xaD~aE  PV      subdue;subjugate
 xaD~iE  IV_yu   subdue;subjugate
-;; >axoDaE_1
->axoDaE PV      subdue;subjugate
+;; OaxoDaE_1
+OaxoDaE PV      subdue;subjugate
 xoDiE   IV_yu   subdue;subjugate
 xoDaE   IV_Pass_yu      be subdued;be subjugated
 ;; AixotaDaE_1
@@ -2120,8 +2120,8 @@ xotaDiE IV      submit;be subject
 xuDuwE  N       submission;obedience
 ;; xaDuwE_1
 xaDuwE  N/ap    submissive     [[xaDuwE/ADJ]]
-;; <ixoDAE_1
-<ixoDAE NduAt   subjection;surrender
+;; IixoDAE_1
+IixoDAE NduAt   subjection;surrender
 ;; xADiE_1
 xADiE   Nall    subservient;obedient;subject     [[xADiE/ADJ]]
 xuDoEAn N       subservient;obedient;subject
@@ -2133,8 +2133,8 @@ xoDal   IV_intr be moist
 ;; xaD~al_1
 xaD~al  PV      moisten;wet
 xaD~il  IV_yu   moisten;wet
-;; >axoDal_1
->axoDal PV      moisten;wet
+;; OaxoDal_1
+OaxoDal PV      moisten;wet
 xoDil   IV_yu   moisten;wet
 xoDal   IV_Pass_yu      be moistened;be made wet
 ;; AixoDal~_1
@@ -2176,8 +2176,8 @@ xaT~    Ndu     handwriting;script
 ;; xaT~_2
 xaT~    Ndu     line
 xuTuwT  N       lines
-;; >axoTAT_1
->axoTAT N       sections;districts
+;; OaxoTAT_1
+OaxoTAT N       sections;districts
 ;; xaT~iy~_1
 xaT~iy~ N/ap    handwritten;linear     [[xaT~iy~/ADJ]]
 ;; xuT~ap_1
@@ -2202,32 +2202,32 @@ muxaT~aT        NAt     plans;sketches
 ;--- xTA
 ;; xaTi}-a_1
 xaTi}   PV_intr be mistaken;sin
-xoTa>   IV_intr be mistaken;sin
+xoTaO   IV_intr be mistaken;sin
 xoTa|   IV-|    be mistaken;sin
-xoTa&   IV_wn   be mistaken;sin
+xoTaW   IV_wn   be mistaken;sin
 xoTa}   IV_yn   be mistaken;sin
-;; xaT~a>_1
-xaT~a>  PV->    incriminate
+;; xaT~aO_1
+xaT~aO  PV-O    incriminate
 xaT~a|  PV-|    incriminate
-xaT~a&  PV_w    incriminate
+xaT~aW  PV_w    incriminate
 xaT~i}  IV_yu   incriminate
-;; >axoTa>_1
->axoTa> PV->    be wrong;do incorrectly
->axoTa| PV-|    be wrong;do incorrectly
->axoTa& PV_w    be wrong;do incorrectly
+;; OaxoTaO_1
+OaxoTaO PV-O    be wrong;do incorrectly
+OaxoTa| PV-|    be wrong;do incorrectly
+OaxoTaW PV_w    be wrong;do incorrectly
 xoTi}   IV_yu   be wrong;do incorrectly
-xoTa>   IV_Pass_yu      be done incorrectly
-;; xaTa>_1
-xaTa>   N0_Nh   mistake;error;fault
-xaTa&   Nh      mistake;error;fault
+xoTaO   IV_Pass_yu      be done incorrectly
+;; xaTaO_1
+xaTaO   N0_Nh   mistake;error;fault
+xaTaW   Nh      mistake;error;fault
 xaTa}   Nhy     mistake;error;fault
 xaTa|   N-|     mistakes;errors;faults
 xaTa}   Nayn    mistakes;errors;faults
->axoTA' N0_Nh   mistakes;errors;faults
->axoTA& Nh      mistakes;errors;faults
->axoTA} Nhy     mistakes;errors;faults
+OaxoTA' N0_Nh   mistakes;errors;faults
+OaxoTAW Nh      mistakes;errors;faults
+OaxoTA} Nhy     mistakes;errors;faults
 xaTA'   N0_Nh   mistakes;errors;faults
-xaTA&   Nh      mistakes;errors;faults
+xaTAW   Nh      mistakes;errors;faults
 xaTA}   Nhy     mistakes;errors;faults
 ;; xaTiy}ap_1
 xaTiy}  NapAt   mistake;error;fault
@@ -2260,7 +2260,7 @@ xuTob   Napdu   speech;sermon
 xuTab   N       speeches;sermons
 ;; xiTAb_1
 xiTAb   N/At    speech
->axoTib Nap     speeches
+OaxoTib Nap     speeches
 ;; xiTAb_2
 xiTAb   N/At    letter
 ;; xiTAbiy~_1
@@ -2308,8 +2308,8 @@ xoTur   IV_intr be serious
 ;; xATar_1
 xATar   PV      risk;hazard;wager
 xATir   IV_yu   risk;hazard;wager
-;; >axoTar_1
->axoTar PV      notify;warn
+;; OaxoTar_1
+OaxoTar PV      notify;warn
 xoTir   IV_yu   notify;warn
 xoTar   IV_Pass_yu      be notified;be warned
 ;; taxaT~ar_1
@@ -2320,7 +2320,7 @@ taxATar PV      wager
 taxATar IV      wager
 ;; xaTar_1
 xaTar   Ndu     danger
->axoTAr N       dangers
+OaxoTAr N       dangers
 ;; xaTir_1
 xaTir   N-ap    serious;dangerous;critical     [[xaTir/ADJ]]
 ;; xaTorap_1
@@ -2336,14 +2336,14 @@ xaTiyr  N/ap    serious;grave;dangerous;significant     [[xaTiyr/ADJ]]
 xuTuwr  Nap     importance;gravity;danger
 ;; xaTarAn_1
 xaTarAn N       oscillation;vibration
-;; >axoTar_2
->axoTar Nel     more/most dangerous;more/most serious
+;; OaxoTar_2
+OaxoTar Nel     more/most dangerous;more/most serious
 ;; maxATir_1
 maxATir Ndip    dangers;perils;adventures
 ;; muxATarap_1
 muxATar NapAt   venture;risk;hazard
-;; <ixoTAr_1
-<ixoTAr NduAt   notification;warning
+;; IixoTAr_1
+IixoTAr NduAt   notification;warning
 ;; xATir_1
 xATir   Ndu     mind;feeling;wish
 xawATir Ndip    ideas
@@ -2419,8 +2419,8 @@ muxotaTif       Nall    abductor;kidnapper
 ;; xaTil-a_1
 xaTil   PV      talk nonsense
 xoTal   IV      talk nonsense
-;; >axoTal_1
->axoTal PV      talk nonsense
+;; OaxoTal_1
+OaxoTal PV      talk nonsense
 xoTil   IV_yu   talk nonsense
 ;; taxaT~al_1
 taxaT~al        PV      strut;swagger
@@ -2504,12 +2504,12 @@ sotaxofif       IV_C    lighten;disdain
 ;; xuf~_1
 xuf~    Ndu     slippers
 xifAf   N       slippers
->axofAf N       slippers
->axofAf N       camel hoof;sole
+OaxofAf N       slippers
+OaxofAf N       camel hoof;sole
 ;; xif~ap_1
 xif~    Nap     lightness;disdain
-;; >axaf~_1
->axaf~  Nel     lighter/lightest;lesser/least
+;; Oaxaf~_1
+Oaxaf~  Nel     lighter/lightest;lesser/least
 ;; xafAf_1
 xafAf   N       pumice
 ;; xuf~An_1
@@ -2517,10 +2517,10 @@ xuf~An  N       pumice stone
 ;; xafiyf_1
 xafiyf  N/ap    light;slight;sparse     [[xafiyf/ADJ]]
 xifAf   N       light;slight;sparse
->axofAf N       light;slight;sparse
->axif~A'        N0_Nh   light;slight;sparse
->axif~A&        Nh      light;slight;sparse
->axif~A}        Nhy     light;slight;sparse
+OaxofAf N       light;slight;sparse
+Oaxif~A'        N0_Nh   light;slight;sparse
+Oaxif~AW        Nh      light;slight;sparse
+Oaxif~A}        Nhy     light;slight;sparse
 ;; taxofiyf_1
 taxofiyf        NduAt   decrease;reduction;dilution
 ;; AisotixofAf_1
@@ -2537,8 +2537,8 @@ xofut   IV_intr be inaudible;be silent;become dim
 ;; xAfat_1
 xAfat   PV-t    lower;reduce
 xAfit   IV_yu   lower;reduce
-;; >axofat_1
->axofat PV-t    silence;make silent
+;; Oaxofat_1
+Oaxofat PV-t    silence;make silent
 xofit   IV_yu   silence;make silent
 xofat   IV_Pass_yu      be silenced;be made silent
 ;; Aixotafat_1
@@ -2574,7 +2574,7 @@ xafar   N       shyness
 ;; xafiyr_1
 xafiyr  N/ap    guard;protector
 xufarA' N0_Nh   guards;protectors
-xufarA& Nh      guards;protectors
+xufarAW Nh      guards;protectors
 xufarA} Nhy     guards;protectors
 ;; xifArap_1
 xifAr   Nap     watching;guarding;protection
@@ -2594,10 +2594,10 @@ xofus   IV      ridicule;mock;destroy
 ;--- xf$
 ;; xafa$_1
 xafa$   N       day blindness
-;; >axofa$_1
->axofa$ Nel     day blind;weak-sighted
+;; Oaxofa$_1
+Oaxofa$ Nel     day blind;weak-sighted
 xafo$A' N0_Nh   day blind;weak-sighted
-xafo$A& Nh      day blind;weak-sighted
+xafo$AW Nh      day blind;weak-sighted
 xafo$A} Nhy     day blind;weak-sighted
 ;; xuf~A$_1
 xuf~A$  Ndu     bat
@@ -2642,8 +2642,8 @@ xofuq   IV      tremble;beat
 ;; xaf~aq_1
 xaf~aq  PV      plaster;roughcast
 xaf~iq  IV_yu   plaster;roughcast
-;; >axofaq_1
->axofaq PV      fail;go down
+;; Oaxofaq_1
+Oaxofaq PV      fail;go down
 xofiq   IV_yu   fail;go down
 ;; xafoq_1
 xafoq   N       palpitation;beating
@@ -2656,8 +2656,8 @@ xafaqAn N       palpitation;flutter
 xaf~Aq  N/ap    throbbing;fluttering     [[xaf~Aq/ADJ]]
 ;; mixofaqap_1
 mixofaq NapAt   eggbeater;whisk
-;; <ixofAq_1
-<ixofAq NduAt   failure;fiasco
+;; IixofAq_1
+IixofAq NduAt   failure;fiasco
 ;; xAfiq_1
 xAfiq   Nall    fluttering
 ;; xawAfiq_1
@@ -2681,11 +2681,11 @@ xafay   PV_Atn  hide;conceal
 xaf     PV_ttAw hide;conceal
 xofiy   IV_0hAnn        hide;conceal
 xof     IV_0hwnyn       hide;conceal
-;; >axofaY_1
->axofaY PV_0    hide;conceal
->axofA  PV_h    hide;conceal
->axofay PV_Atn  hide;conceal
->axof   PV_ttAw hide;conceal
+;; OaxofaY_1
+OaxofaY PV_0    hide;conceal
+OaxofA  PV_h    hide;conceal
+Oaxofay PV_Atn  hide;conceal
+Oaxof   PV_ttAw hide;conceal
 xofiy   IV_0hAnn_yu     hide;conceal
 xof     IV_0hwnyn_yu    hide;conceal
 xofaY   IV_0_Pass_yu    be hidden;be concealed
@@ -2725,15 +2725,15 @@ xafiy~  Napdu   secret     [[xafiy~/NOUN]]
 xafAyA  N0_Nhy  secrets
 ;; xafA'_1
 xafA'   N0_Nh   secrecy;secret
-xafA&   Nh      secrecy;secret
+xafAW   Nh      secrecy;secret
 xafA}   Nhy     secrecy;secret
-;; <ixofA'_1
-<ixofA' N0_Nh   hiding;concealment
-<ixofA& Nh      hiding;concealment
-<ixofA} Nhy     hiding;concealment
-<ixofA' NAn_Nayn        hiding;concealment
-<ixofA} Nayn    hiding;concealment
-<ixofA' NAt     hiding;concealment
+;; IixofA'_1
+IixofA' N0_Nh   hiding;concealment
+IixofAW Nh      hiding;concealment
+IixofA} Nhy     hiding;concealment
+IixofA' NAn_Nayn        hiding;concealment
+IixofA} Nayn    hiding;concealment
+IixofA' NAt     hiding;concealment
 ;; taxaf~iy_1
 taxaf~iy        N0_Nh   disguise
 taxaf~  NK      disguise
@@ -2741,7 +2741,7 @@ taxaf~iy        NAn_Nayn        disguises
 taxaf~iy        NAt     disguises
 ;; AixotifA'_1
 AixotifA'       N0_Nh   disappearance
-AixotifA&       Nh      disappearance
+AixotifAW       Nh      disappearance
 AixotifA}       Nhy     disappearance
 AixotifA'       NAn_Nayn        disappearances
 AixotifA}       Nayn    disappearances
@@ -2795,9 +2795,9 @@ xAl~    PV_V    befriend
 xAlal   PV_C    befriend
 xAl~    IV_V_yu befriend
 xAlil   IV_C_yu befriend
-;; >axal~_1
->axal~  PV_V    offend;disturb
->axolal PV_C    offend;disturb
+;; Oaxal~_1
+Oaxal~  PV_V    offend;disturb
+Oaxolal PV_C    offend;disturb
 xil~    IV_V_yu offend;disturb
 xolil   IV_C_yu offend;disturb
 xal~    IV_V_Pass_yu    be offended;be disturbed
@@ -2811,8 +2811,8 @@ xotal~  IV_V    weaken;malfunction
 xotalil IV_C    weaken;malfunction
 ;; xal~_1
 xal~    N       vinegar
-;; >axolAl_1
->axolAl N       friends
+;; OaxolAl_1
+OaxolAl N       friends
 ;; xalal_1
 xalal   Ndu     fault;malfunction;gap
 ;; xilAla_1
@@ -2828,12 +2828,12 @@ xul~    Nap     friendship
 xaliyl  Ndip    Hebron
 ;; xaliyl_2
 xaliyl  N/ap    friend
->axil~A'        N0_Nh   friends
->axil~A&        Nh      friends
->axil~A}        Nhy     friends
+Oaxil~A'        N0_Nh   friends
+Oaxil~AW        Nh      friends
+Oaxil~A}        Nhy     friends
 xul~An  N       friends
-;; <ixolAl_1
-<ixolAl NduAt   breach;disturbance;harm
+;; IixolAl_1
+IixolAl NduAt   breach;disturbance;harm
 ;; AixotilAl_1
 AixotilAl       NduAt   disturbance;disorder;deterioration
 ;; muxal~al_1
@@ -2945,8 +2945,8 @@ xolud   IV_intr be everlasting;be immortal;remain
 ;; xal~ad_1
 xal~ad  PV      make eternal;perpetuate;remain
 xal~id  IV_yu   make eternal;perpetuate;remain
-;; >axolad_1
->axolad PV      eternalize;perpetuate;remain
+;; Oaxolad_1
+Oaxolad PV      eternalize;perpetuate;remain
 xolid   IV_yu   eternalize;perpetuate;remain
 xolad   IV_Pass_yu      be eternalized;be perpetuated
 ;; taxal~ad_1
@@ -2958,7 +2958,7 @@ xulod   N       eternity
 xaloduwn        N0      Khaldoun
 ;; xalad_1
 xalad   N       mind;heart
->axolAd N       minds;hearts
+OaxolAd N       minds;hearts
 ;; xalad_2
 xalad   N       temper
 ;; xuluwd_1
@@ -3008,8 +3008,8 @@ xal~iS  IV_yu   purify;refine;clarify
 ;; xAlaS_1
 xAlaS   PV_intr be sincere;treat fairly
 xAliS   IV_intr_yu      be sincere;treat fairly
-;; >axolaS_1
->axolaS PV_intr be devoted;dedicate
+;; OaxolaS_1
+OaxolaS PV_intr be devoted;dedicate
 xoliS   IV_intr_yu      be devoted;dedicate
 ;; taxal~aS_1
 taxal~aS        PV      get rid of
@@ -3034,10 +3034,10 @@ maxolaS Ndu     refuge;deliverance
 taxoliyS        NduAt   refining;clearing
 ;; muxAlaSap_1
 muxAlaS NapAt   receipt
-;; <ixolAS_1
-<ixolAS NduAt   fidelity;sincerity
-;; <ixolAS_2
-<ixolAS Nprop   Ikhlas
+;; IixolAS_1
+IixolAS NduAt   fidelity;sincerity
+;; IixolAS_2
+IixolAS Nprop   Ikhlas
 ;; taxal~uS_1
 taxal~uS        NduAt   freedom;riddance;escape
 ;; AisotixolAS_1
@@ -3072,7 +3072,7 @@ AixotalaT       PV      mix;associate
 xotaliT IV      mix;associate
 ;; xaloT_1
 xaloT   N       mixture;blending
->axolAT N       mixture;blend
+OaxolAT N       mixture;blend
 ;; xaloT_2
 xaloT   N       confusion
 ;; xaloTap_1
@@ -3089,7 +3089,7 @@ xaliyT  N/ap    mixture;blend
 ;; xaliyT_2
 xaliyT  N/ap    associate;companion
 xulaTA' N0_Nh   associates;companions
-xulaTA& Nh      associates;companions
+xulaTAW Nh      associates;companions
 xulaTA} Nhy     associates;companions
 ;; taxoliyT_1
 taxoliyT        NduAt   insanity;delirium
@@ -3140,7 +3140,7 @@ xilaE   N       robes of honor
 ;; xaliyE_1
 xaliyE  N/ap    deposed;repudiated;dissolute     [[xaliyE/ADJ]]
 xulaEA' N0_Nh   deposed;repudiated;dissolute
-xulaEA& Nh      deposed;repudiated;dissolute
+xulaEAW Nh      deposed;repudiated;dissolute
 xulaEA} Nhy     deposed;repudiated;dissolute
 ;; xal~AE_1
 xal~AE  Nall    unruly;wild
@@ -3163,8 +3163,8 @@ xal~if  IV_yu   appoint as successor;leave behind
 ;; xAlaf_1
 xAlaf   PV      contradict;conflict with;go against
 xAlif   IV_yu   contradict;conflict with;go against
-;; >axolaf_1
->axolaf PV      leave;compensate;break
+;; Oaxolaf_1
+Oaxolaf PV      leave;compensate;break
 xolif   IV_yu   leave;compensate;break
 ;; taxal~af_1
 taxal~af        PV      fall behind
@@ -3194,14 +3194,14 @@ xalofiy~        Nall    rear;hinder;enigmatic     [[xalofiy~/ADJ]]
 xalofiy~        NapAt   background     [[xalofiy~/NOUN]]
 ;; xilof_1
 xilof   Ndu     teat;nipple
->axolAf N       teats;nipples
+OaxolAf N       teats;nipples
 ;; xulof_1
 xulof   N       dissimilarity;variance
 ;; xalaf_1
 xalaf   Nprop   Khalaf
 ;; xalaf_2
 xalaf   N       substitute;scion
->axolAf N       substitutes;scions
+OaxolAf N       substitutes;scions
 ;; xilofap_1
 xilof   Nap     dissimilarity;difference
 ;; xaliyf_1
@@ -3211,7 +3211,7 @@ xaliyfap        N0      Khalifa
 ;; xaliyfap_2
 xaliyf  Napdu   deputy;caliph
 xulafA' N0_Nh   deputies;caliphs
-xulafA& Nh      deputies;caliphs
+xulafAW Nh      deputies;caliphs
 xulafA} Nhy     deputies;caliphs
 xalA}if Ndip    deputies
 ;; xilAfap_1
@@ -3264,8 +3264,8 @@ xoluq   IV_intr be old;be suitable;be worn
 ;; xal~aq_1
 xal~aq  PV      perfume
 xal~iq  IV_yu   perfume
-;; >axolaq_1
->axolaq PV      wear out
+;; Oaxolaq_1
+Oaxolaq PV      wear out
 xoliq   IV_yu   wear out
 xolaq   IV_Pass_yu      be worn out
 ;; taxal~aq_1
@@ -3278,7 +3278,7 @@ xotaliq IV      invent;devise;fabricate
 xaloq   N       creation
 ;; xuloq_1
 xuloq   N       character;morality
->axolAq N       morals;character;ethics
+OaxolAq N       morals;character;ethics
 ;; xuloqiy~_1
 xuloqiy~        Nall    moral;ethical     [[xuloqiy~/ADJ]]
 ;; xalaq_1
@@ -3297,23 +3297,23 @@ xalAq   N       positive quality
 ;; xaliyq_1
 xaliyq  N/ap    qualified;suitable;adequate     [[xaliyq/ADJ]]
 xulaqA' N0_Nh   qualified;suitable;adequate
-xulaqA& Nh      qualified;suitable;adequate
+xulaqAW Nh      qualified;suitable;adequate
 xulaqA} Nhy     qualified;suitable;adequate
 ;; xaluwq_1
 xaluwq  N/ap    upright;decent     [[xaluwq/ADJ]]
-;; >axolaq_2
->axolaq Nel     more/most appropriate
+;; Oaxolaq_2
+Oaxolaq Nel     more/most appropriate
 ;; xal~Aq_1
 xal~Aq  N/ap    creative;creator
 ;; xaliyq_2
 xaliyq  Nap     creation;nature;trait
 xalA}iq Ndip    creatures
-;; >axolAqiy~_1
->axolAqiy~      Nall    moral;ethical     [[>axolAqiy~/ADJ]]
->axolAqiy~      NapAt   morality;ethics     [[>axolAqiy~/NOUN]]
-;; lA>axolAqiy~_1
-lA>axolAqiy~    Nall_L  immoral;amoral     [[lA>axolAqiy~/ADJ]]
-lA>axolAqiy~    Nall_L  immoral;amoral     [[lAAaxolAqiy~/ADJ]]
+;; OaxolAqiy~_1
+OaxolAqiy~      Nall    moral;ethical     [[OaxolAqiy~/ADJ]]
+OaxolAqiy~      NapAt   morality;ethics     [[OaxolAqiy~/NOUN]]
+;; lAOaxolAqiy~_1
+lAOaxolAqiy~    Nall_L  immoral;amoral     [[lAOaxolAqiy~/ADJ]]
+lAOaxolAqiy~    Nall_L  immoral;amoral     [[lAAaxolAqiy~/ADJ]]
 ;; xuloqAniy~_1
 xuloqAniy~      Nall    old-clothes dealer     [[xuloqAniy~/ADJ]]
 ;; xAliq_1
@@ -3368,11 +3368,11 @@ xal~iy  IV_0hAnn_yu     release;evacuate;allow
 xal~    IV_0hwnyn_yu    release;evacuate;allow
 xal~aY  IV_0_Pass_yu    be released;be evacuated;be allowed
 xal~ay  IV_Ann_Pass_yu  be released;be evacuated;be allowed
-;; >axolaY_1
->axolaY PV_0    allow;evacuate
->axolA  PV_h    allow;evacuate
->axolay PV_Atn  allow;evacuate
->axol   PV_ttAw allow;evacuate
+;; OaxolaY_1
+OaxolaY PV_0    allow;evacuate
+OaxolA  PV_h    allow;evacuate
+Oaxolay PV_Atn  allow;evacuate
+Oaxol   PV_ttAw allow;evacuate
 xoliy   IV_0hAnn_yu     allow;evacuate
 xol     IV_0hwnyn_yu    allow;evacuate
 xolaY   IV_0_Pass_yu    be allowed;be evacuated;be emptied
@@ -3406,7 +3406,7 @@ xilow   N       devoid;free
 xuluw~  N       freedom;emptiness
 ;; xalA'_1
 xalA'   N0_Nh   emptiness;void;outdoors
-xalA&   Nh      emptiness;void;outdoors
+xalAW   Nh      emptiness;void;outdoors
 xalA}   Nhy     emptiness;void;outdoors
 ;; xalowap_1
 xalow   Napdu   privacy;seclusion;booth
@@ -3417,9 +3417,9 @@ xalawiy~        Nall    solitary;rustic;in the open country     [[xalawiy~/ADJ]]
 xalawiy~        N-ap    cell (phone)     [[xalawiy~/ADJ]]
 ;; xaliy~_1
 xaliy~  N/ap    free;devoid     [[xaliy~/ADJ]]
->axoliyA'       N0_Nh   free;devoid
->axoliyA&       Nh      free;devoid
->axoliyA}       Nhy     free;devoid
+OaxoliyA'       N0_Nh   free;devoid
+OaxoliyAW       Nh      free;devoid
+OaxoliyA}       Nhy     free;devoid
 ;; xaliy~ap_1
 xaliy~  Napdu   cell
 xalAyA  N0_Nhy  cells
@@ -3431,20 +3431,20 @@ mixolA  Napdu   sack;bag
 mixolay NAt     sacks;bags
 ;; taxoliyap_1
 taxoliy Nap     vacating;evacuation
-;; <ixolA'_1
-<ixolA' N0_Nh   emptying;evacuation
-<ixolA& Nh      emptying;evacuation
-<ixolA} Nhy     emptying;evacuation
-<ixolA' NAn_Nayn        emptying;evacuation
-<ixolA} Nayn    emptying;evacuation
-<ixolA' NAt     emptying;evacuation
-;; <ixolA'_2
-<ixolA' N0_Nh   release
-<ixolA& Nh      release
-<ixolA} Nhy     release
-<ixolA' NAn_Nayn        release
-<ixolA} Nayn    release
-<ixolA' NAt     release
+;; IixolA'_1
+IixolA' N0_Nh   emptying;evacuation
+IixolAW Nh      emptying;evacuation
+IixolA} Nhy     emptying;evacuation
+IixolA' NAn_Nayn        emptying;evacuation
+IixolA} Nayn    emptying;evacuation
+IixolA' NAt     emptying;evacuation
+;; IixolA'_2
+IixolA' N0_Nh   release
+IixolAW Nh      release
+IixolA} Nhy     release
+IixolA' NAn_Nayn        release
+IixolA} Nayn    release
+IixolA' NAt     release
 ;; taxal~iy_1
 taxal~iy        N0_Nh   relinquishment;surrender;renunciation
 taxal~  NK      relinquishment;surrender;renunciation
@@ -3452,7 +3452,7 @@ taxal~iy        NAn_Nayn        relinquishment;surrender;renunciation
 taxal~iy        NAt     relinquishment;surrender;renunciation
 ;; AixotilA'_1
 AixotilA'       N0_Nh   privacy;solitude
-AixotilA&       Nh      privacy;solitude
+AixotilAW       Nh      privacy;solitude
 AixotilA}       Nhy     privacy;solitude
 AixotilA'       NAn_Nayn        privacy;solitude
 AixotilA}       Nayn    privacy;solitude
@@ -3485,7 +3485,7 @@ xim~    IV_V    stink;rot;decay
 xomim   IV_C    stink;rot;decay
 ;; xum~_1
 xum~    N       chicken coop;brooder
->axomAm N       chicken coops;brooders
+OaxomAm N       chicken coops;brooders
 ;; xam~ap_1
 xam~    Nap     stench
 ;; xAm~_1
@@ -3502,18 +3502,18 @@ xomaj   IV      spoil;rot;decay
 ;; xamad-u_1
 xamad   PV      go out;calm down;die down
 xomud   IV      go out;calm down;die down
-;; >axomad_1
->axomad PV      extinguish;calm;subdue
+;; Oaxomad_1
+Oaxomad PV      extinguish;calm;subdue
 xomid   IV_yu   extinguish;calm;subdue
 xomad   IV_Pass_yu      be extinguished;be calmed;be subdued
 ;; xumuwd_1
 xumuwd  N       extinguishing
 xumuwd  N       deterioration
 xumuwd  N       tranquillity
-;; <ixomAd_1
-<ixomAd NduAt   extinguishing
-;; <ixomAd_2
-<ixomAd NduAt   quelling;subduing
+;; IixomAd_1
+IixomAd NduAt   extinguishing
+;; IixomAd_2
+IixomAd NduAt   quelling;subduing
 ;; xAmid_1
 xAmid   Nall    dying;subsiding;tranquil     [[xAmid/ADJ]]
 ;
@@ -3527,8 +3527,8 @@ xam~ir  IV_yu   cover;conceal;ferment
 ;; xAmar_1
 xAmar   PV      permeate;mix
 xAmir   IV_yu   permeate;mix
-;; >axomar_1
->axomar PV      leaven;ferment;harbor
+;; Oaxomar_1
+Oaxomar PV      leaven;ferment;harbor
 xomir   IV_yu   leaven;ferment;harbor
 xomar   IV_Pass_yu      be fermented;be harbored
 ;; taxam~ar_1
@@ -3551,7 +3551,7 @@ xamoriy~        N-ap    wine-colored     [[xamoriy~/ADJ]]
 xamoriy~        NapAt   wine poem;bacchanalian verse     [[xamoriy~/NOUN]]
 ;; ximAr_1
 ximAr   Ndu     veil
->axomir Nap     veils
+Oaxomir Nap     veils
 xumur   N       veils
 ;; xumAr_1
 xumAr   N       hangover
@@ -3582,7 +3582,7 @@ xam~as  PV      multiply by five;make pentagonal;divide into five parts
 xam~is  IV_yu   multiply by five;make pentagonal;divide into five parts
 ;; xumos_1
 xumos   Ndu     fifth
->axomAs N       fifths
+OaxomAs N       fifths
 ;; xamos_1
 xamos   N       five     [[xamos/ADJ]]
 xamos   Nap     five     [[xamos/ADJ]]
@@ -3637,9 +3637,9 @@ xamiS   PV_intr be empty;be hungry
 xomaS   IV_intr be empty;be hungry
 ;; xamiyS_1
 xamiyS  N/ap    empty;hungry     [[xamiyS/ADJ]]
-;; >axomaS_1
->axomaS Nel     sole;toe
->axAmiS Ndip    soles;toes
+;; OaxomaS_1
+OaxomaS Nel     sole;toe
+OaxAmiS Ndip    soles;toes
 ;
 ;--- xmE
 ;; xamaE-a_1
@@ -3695,14 +3695,14 @@ xonin   IV-n    nasalize;twang
 ;; xun~ap_1
 xun~    Nap     nasal twang
 xaniyn  N       nasal twang
-;; >axan~_1
->axan~  Nel     twanging
+;; Oaxan~_1
+Oaxan~  Nel     twanging
 xan~A'  N0_Nh   twanging
-xan~A&  Nh      twanging
+xan~AW  Nh      twanging
 xan~A}  Nhy     twanging
 ;; xun~_1
 xun~    N       chicken coop;brooder
->axonAn N       chicken coops;brooders
+OaxonAn N       chicken coops;brooders
 ;
 ;--- xnv
 ;; xaniv-a_1
@@ -3768,10 +3768,10 @@ xunozuwAniy~    Nap     megalomania     [[xunozuwAniy~/NOUN]]
 ;--- xns
 ;; xan~As_1
 xan~As  N       Devil
-;; >axonas_1
->axonas Nel     pug-nosed
+;; Oaxonas_1
+Oaxonas Nel     pug-nosed
 xanosA' N0_Nh   pug-nosed
-xanosA& Nh      pug-nosed
+xanosAW Nh      pug-nosed
 xanosA} Nhy     pug-nosed
 xunus   N       pug-nosed
 ;; xanosA'_1
@@ -3823,7 +3823,7 @@ xanofar NapAt   snuffling;snorting
 ;; xunofus_1
 xunofus N       dung beetle;scarab
 xunofusA'       N0_Nh   dung beetles;scarabs
-xunofusA&       Nh      dung beetles;scarabs
+xunofusAW       Nh      dung beetles;scarabs
 xunofusA}       Nhy     dung beetles;scarabs
 xanAfis Ndip    dung beetles;scarabs
 ;
@@ -3890,11 +3890,11 @@ xaniy   PV_no-w_intr    be obscene
 xan     PV_w_intr       be obscene
 xonay   IV_Ann  be obscene
 xona    IV_0hwnyn       be obscene
-;; >axonaY_1
->axonaY PV_0    afflict;wear down;ruin
->axonA  PV_h    afflict;wear down;ruin
->axonay PV_Atn  afflict;wear down;ruin
->axon   PV_ttAw afflict;wear down;ruin
+;; OaxonaY_1
+OaxonaY PV_0    afflict;wear down;ruin
+OaxonA  PV_h    afflict;wear down;ruin
+Oaxonay PV_Atn  afflict;wear down;ruin
+Oaxon   PV_ttAw afflict;wear down;ruin
 xoniy   IV_0hAnn_yu     afflict;wear down;ruin
 xon     IV_0hwnyn_yu    afflict;wear down;ruin
 xonaY   IV_0_Pass_yu    be afflicted;be worn down;be ruined
@@ -3952,7 +3952,7 @@ xawir   PV      grow weak;dwindle;languish
 xowar   IV      grow weak;dwindle;languish
 ;; xawor_1
 xawor   Ndu     inlet;bay
->axowAr N       inlets;bays
+OaxowAr N       inlets;bays
 xiyrAn  N       inlets;bays
 ;; xawar_1
 xawar   N       weakness;fatigue
@@ -4015,8 +4015,8 @@ xuwS    Nap     palm leaf plait
 xiwAS   Nap     palm-leaf plaiting
 ;; xawaS_1
 xawaS   N       squinting
-;; >axowaS_1
->axowaS Nel     squinting
+;; OaxowaS_1
+OaxowaS Nel     squinting
 ;
 ;--- xwD
 ;; xAD-u_1
@@ -4045,9 +4045,9 @@ xaf     IV_C_intr       be scared;be afraid;be frightened
 ;; xaw~af_1
 xaw~af  PV      frighten;alarm
 xaw~if  IV_yu   frighten;alarm
-;; >axAf_1
->axAf   PV_V    frighten;alarm
->axaf   PV_C    frighten;alarm
+;; OaxAf_1
+OaxAf   PV_V    frighten;alarm
+Oaxaf   PV_C    frighten;alarm
 xiyf    IV_V_yu frighten;alarm
 xif     IV_C_yu frighten;alarm
 xAf     IV_V_Pass_yu    be frightened;be alarmed
@@ -4069,8 +4069,8 @@ maxAf   Nap     fearing;out of fear
 maxAwif Ndip    fears;apprehensions
 ;; taxowiyf_1
 taxowiyf        NduAt   intimidation
-;; <ixAf_1
-<ixAf   NapAt   intimidation
+;; IixAf_1
+IixAf   NapAt   intimidation
 ;; taxaw~uf_1
 taxaw~uf        NduAt   fear;dread
 ;; xA}if_1
@@ -4080,8 +4080,8 @@ xuw~af  N       afraid;fearful
 maxuwf  Nall    feared;dangerous     [[maxuwf/ADJ]]
 ;; muxiyf_1
 muxiyf  Nall    frightful;horrible     [[muxiyf/ADJ]]
-;; >axowaf_1
->axowaf Nel     more/most fearful
+;; Oaxowaf_1
+Oaxowaf Nel     more/most fearful
 ;
 ;; xuwfuw_1
 xuwfw   N0      Cheops
@@ -4092,12 +4092,12 @@ xaw~al  PV      grant;bestow;endow
 xaw~il  IV_yu   grant;bestow;endow
 ;; xAl_1
 xAl     Ndu     maternal uncle
->axowAl N       maternal uncles
+OaxowAl N       maternal uncles
 xiylAn  N       maternal uncles
 xuwuwl  N       maternal uncles
-xu&uwl  N       maternal uncles
+xuWuwl  N       maternal uncles
 xuwuwl  Nap     maternal uncles
-xu&uwl  Nap     maternal uncles
+xuWuwl  Nap     maternal uncles
 ;; xAl_2
 xAl     Ndu     mole
 xiylAn  N       moles
@@ -4116,8 +4116,8 @@ xuwliy~ N0      Khouli
 muxaw~al        N-ap    authorized
 ;; xuwuwlap_1
 xuwuwl  Nap     maternal uncle relationship
-;; xu&uwlap_1
-xu&uwl  Nap     maternal uncle relationship
+;; xuWuwlap_1
+xuWuwl  Nap     maternal uncle relationship
 ;; xawal_1
 xawal   N       sissy;chattel
 ;
@@ -4153,8 +4153,8 @@ sotaxowin       IV-n    distrust
 xiyAn   NapAt   treason;betrayal
 ;; xawuwn_1
 xawuwn  N/ap    faithless;disloyal
-;; xa&uwn_1
-xa&uwn  N/ap    faithless;disloyal
+;; xaWuwn_1
+xaWuwn  N/ap    faithless;disloyal
 ;; xaw~An_1
 xaw~An  N/ap    traitor;treacherous
 ;; xA}in_1
@@ -4165,8 +4165,8 @@ xawon   Nap     traitors;disloyal
 ;; xuwAn_1
 xuwAn   Ndu     table
 xiwAn   Ndu     table
->axowin Nap     tables
->axAwiyn        Ndip    tables
+Oaxowin Nap     tables
+OaxAwiyn        Ndip    tables
 ;
 ;--- xwy
 ;; xawaY-i_1
@@ -4194,7 +4194,7 @@ xAwaY   IV_0_Pass_yu    be joined;be accompanied
 xAway   IV_Ann_Pass_yu  be joined;be accompanied
 ;; xawA'_1
 xawA'   N0_Nh   emptiness;hunger
-xawA&   Nh      emptiness;hunger
+xawAW   Nh      emptiness;hunger
 xawA}   Nhy     emptiness;hunger
 xawaY   N0      emptiness;hunger
 xawA    Nhy     emptiness;hunger
@@ -4226,9 +4226,9 @@ xib     IV_C    fail;be frustrated;go wrong
 ;; xay~ab_1
 xay~ab  PV      thwart;disappoint
 xay~ib  IV_yu   thwart;disappoint
-;; >axAb_1
->axAb   PV_V    thwart;disappoint
->axab   PV_C    thwart;disappoint
+;; OaxAb_1
+OaxAb   PV_V    thwart;disappoint
+Oaxab   PV_C    thwart;disappoint
 xiyb    IV_V_yu thwart;disappoint
 xib     IV_C_yu thwart;disappoint
 xAb     IV_V_Pass_yu    be thwarted;be disappointed
@@ -4272,7 +4272,7 @@ xayor   N       good
 ;; xayor_2
 xayor   N       better/best
 xiyAr   N       good;better/best
->axoyAr N       good;better/best
+OaxoyAr N       good;better/best
 xuyuwr  N       good;better/best
 ;; xayorAllh_1
 xayorAll~`h     N0      Khairallah;Kheirallah;Khairullah
@@ -4289,11 +4289,11 @@ xayor   NapAt   good deed
 xayor   NAt     resources;treasures
 ;; xiyrap_1
 xiyr    Nap     choice;pick;elite
-;; >axoyar_1
->axoyar Nel     better;superior
+;; Oaxoyar_1
+Oaxoyar Nel     better;superior
 xiyraY  N0      better;superior
 xiyrA   Nhy     better;superior
->axAyir Ndip    better;superior
+OaxAyir Ndip    better;superior
 ;; xiyAr_1
 xiyAr   NduAt   option;choice;selection
 ;; xiyAriy~_1
@@ -4360,7 +4360,7 @@ xay~iT  IV_yu   sew;stitch
 ;; xayoT_1
 xayoT   N       string;thread
 xuyuwT  N       strings;thread
->axoyAT N       strings;thread
+OaxoyAT N       strings;thread
 xiyTAn  N       strings;thread
 ;; xayoTiy~_1
 xayoTiy~        Nall    threadlike;fibrous;stringy     [[xayoTiy~/ADJ]]
@@ -4390,9 +4390,9 @@ xay~al  PV      make believe;give the impression;suggest
 xay~il  IV_yu   make believe;give the impression;suggest
 xuy~il  PV_Pass imagine;suppose
 xay~al  IV_Pass_yu      imagine;suppose
-;; >axAl_1
->axAl   PV_V_intr       be vague;be doubtful;be intricate
->axal   PV_C_intr       be vague;be doubtful;be intricate
+;; OaxAl_1
+OaxAl   PV_V_intr       be vague;be doubtful;be intricate
+Oaxal   PV_C_intr       be vague;be doubtful;be intricate
 xiyl    IV_V_intr_yu    be vague;be doubtful;be intricate
 xil     IV_C_intr_yu    be vague;be doubtful;be intricate
 ;; taxay~al_1
@@ -4408,19 +4408,19 @@ xotAl   IV_V_intr       be conceited;swagger
 xotal   IV_C_intr       be conceited;swagger
 ;; xayAl_1
 xayAl   N       imagination;fantasy
->axoyil Nap     imagination;fantasies
+Oaxoyil Nap     imagination;fantasies
 ;; xayAlap_1
 xayAl   NapAt   spirit;phantom
 ;; xayAliy~_1
 xayAliy~        Nall    imaginary;fantastic;fictitious     [[xayAliy~/ADJ]]
-;; >axoyal_1
->axoyal Nel     prouder/proudest
-;; >axoyal_2
->axoyal N       green woodpecker
+;; Oaxoyal_1
+Oaxoyal Nel     prouder/proudest
+;; Oaxoyal_2
+Oaxoyal N       green woodpecker
 xiyl    N       green woodpeckers
->axAyil Ndip    green woodpeckers
+OaxAyil Ndip    green woodpeckers
 xuyalA' N0_Nh   conceit;arrogance
-xuyalA& Nh      conceit;arrogance
+xuyalAW Nh      conceit;arrogance
 xuyalA} Nhy     conceit;arrogance
 ;; xayoluwlap_1
 xayoluwl        Nap     conceit;arrogance

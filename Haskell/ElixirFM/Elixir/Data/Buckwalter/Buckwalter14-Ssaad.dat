@@ -1,7 +1,7 @@
 ;--- SAb
-;; Su&Abap_1
-Su&Ab   Nap     nit;louse egg
-Su&Ab   N       nits;lice eggs
+;; SuWAbap_1
+SuWAb   Nap     nit;louse egg
+SuWAb   N       nits;lice eggs
 Si}obAn N       nits;lice eggs
 SiybAn  N       nits;lice eggs
 ;
@@ -25,22 +25,22 @@ SAg     N       standard
 SAl     NapAt   hall
 ;
 ;--- SAy
-;; Sa>aY-a_1
-Sa>aY   PV_0    twitter;chirp
-Sa>ay   PV_Atn  twitter;chirp
-Sa>a    PV_ttAw twitter;chirp
-So>aY   IV_0    twitter;chirp
-So>ay   IV_Ann  twitter;chirp
+;; SaOaY-a_1
+SaOaY   PV_0    twitter;chirp
+SaOay   PV_Atn  twitter;chirp
+SaOa    PV_ttAw twitter;chirp
+SoOaY   IV_0    twitter;chirp
+SoOay   IV_Ann  twitter;chirp
 So}ay   IV_Ann  twitter;chirp
-;; Sa>aY-i_1
-Sa>aY   PV_0    twitter;chirp
+;; SaOaY-i_1
+SaOaY   PV_0    twitter;chirp
 Sa|     PV_h    twitter;chirp
-Sa>ay   PV_Atn  twitter;chirp
-Sa>     PV_ttAw twitter;chirp
+SaOay   PV_Atn  twitter;chirp
+SaO     PV_ttAw twitter;chirp
 So}iy   IV_0hAnn        twitter;chirp
-So>     IV_0hwnyn       twitter;chirp
+SoO     IV_0hwnyn       twitter;chirp
 So}     IV_0hwnyn       twitter;chirp
-So&     IV_wn   twitter;chirp
+SoW     IV_wn   twitter;chirp
 ;; Sa}iy~_1
 Sa}iy~  N       twittering;chirping
 ;
@@ -67,7 +67,7 @@ noSabib IV_C_intr       be poured out;flow
 Sab~    N       pouring;flowing
 ;; Sabab_1
 Sabab   N       declivity;slope
->aSobAb N       hillsides;slopes
+OaSobAb N       hillsides;slopes
 ;; Sabiyb_1
 Sabiyb  N-ap    poured out;spilled
 ;; SabAbap_1
@@ -86,13 +86,13 @@ Sab~Ab  N       spout;pouring lip
 AinoSibAb       N/At    pouring out;throwing out
 ;
 ;--- SbA
-;; Saba>-a_1
-Saba>   PV->    grow;sprout
+;; SabaO-a_1
+SabaO   PV-O    grow;sprout
 Saba|   PV-|    grow;sprout
-Saba&   PV_w    grow;sprout
-Soba>   IV      grow;sprout
+SabaW   PV_w    grow;sprout
+SobaO   IV      grow;sprout
 Soba|   IV-|    grow;sprout
-Soba&   IV_wn   grow;sprout
+SobaW   IV_wn   grow;sprout
 Soba}   IV_yn   grow;sprout
 ;; Subuw'_1
 Subuw'  N0_Nh   growing;sprouting
@@ -105,15 +105,15 @@ SAbi}iy~        Nall    Sabian;Mandean     [[SAbi}iy~/ADJ]]
 ;; Sab~aH_1
 Sab~aH  PV      greet
 Sab~iH  IV_yu   greet
-;; >aSobaH_1
->aSobaH PV      become;begin;start
+;; OaSobaH_1
+OaSobaH PV      become;begin;start
 SobiH   IV_yu   become;begin;start
 ;; AisotaSobaH_1
 AisotaSobaH     PV      light;illuminate
 sotaSobiH       IV      light;illuminate
 ;; SuboH_1
 SuboH   N       morning;daybreak
->aSobAH N       mornings;daybreak
+OaSobAH N       mornings;daybreak
 ;; SuboHiy_1
 SuboHiy N0      Subhi;Sobhi
 ;; SabAH_1
@@ -183,9 +183,9 @@ Sabuwr  N-ap    patient;enduring
 Sabuwr  N0      Sabour
 ;; SabArap_1
 SabAr   Nap     severe cold
-;; >aSobar_1
->aSobar Nel     more/most patient;more/most persistent     [[>aSobar/ADJ]]
->aSobar Nel     more/most patient;more/most persistent
+;; OaSobar_1
+OaSobar Nel     more/most patient;more/most persistent     [[OaSobar/ADJ]]
+OaSobar Nel     more/most patient;more/most persistent
 ;; taSobiyr_1
 taSobiyr        N/At    preservation;comforting;stabilizing
 ;; muSAbarap_1
@@ -211,19 +211,19 @@ Sub~ayor        N       Indian fig     [[Sub~ayor/NOUN]]
 ;; SabaE-a_1
 SabaE   PV      point the finger at
 SobaE   IV      point the finger at
-;; <iSobaE_1
-<iSobaE Ndu     finger
->aSAbiE Ndip    fingers
-;; <iSobaEiy~_1
-<iSobaEiy~      N-ap    finger-related;digital     [[<iSobaEiy~/ADJ]]
-;; <iSobaEiy~At_1
-<iSobaEiy~      NAt     digitigrades (walking on the toes)    [[<iSobaEiy~/NOUN]]
+;; IiSobaE_1
+IiSobaE Ndu     finger
+OaSAbiE Ndip    fingers
+;; IiSobaEiy~_1
+IiSobaEiy~      N-ap    finger-related;digital     [[IiSobaEiy~/ADJ]]
+;; IiSobaEiy~At_1
+IiSobaEiy~      NAt     digitigrades (walking on the toes)    [[IiSobaEiy~/NOUN]]
 ;; SubAE_1
 SubAE   Ndu     finger;toe
 SawAbiE Ndip    fingers;toes
-;; >uSobuwE_1
->uSobuwE        Ndu     finger;toe
->aSAbiyE        Ndip    fingers;toes
+;; OuSobuwE_1
+OuSobuwE        Ndu     finger;toe
+OaSAbiyE        Ndip    fingers;toes
 ;
 ;; muSab~aE_1
 muSab~aE        NduAt   grill;gridiron
@@ -240,7 +240,7 @@ AiSoTabag       PV_intr be colored;be tinted;be dyed
 SoTabig IV_intr be colored;be tinted;be dyed
 ;; Sibog_1
 Sibog   N       color;dye
->aSobAg N       colors;dyes
+OaSobAg N       colors;dyes
 ;; Sibogap_1
 Sibog   Nap     color;dye;tint
 ;; Sibogap_2
@@ -251,7 +251,7 @@ Sibogiy~        N       chromosome
 Sibogiy~        NapAt   chromosome     [[Sibogiy~/NOUN]]
 ;; SibAg_1
 SibAg   N       color;dye;condiment
->aSobig Nap     colors;dyes;condiments
+OaSobig Nap     colors;dyes;condiments
 ;; Sab~Ag_1
 Sab~Ag  Nall    dyer
 ;; Sab~Ag_2
@@ -338,15 +338,15 @@ sotaSobaY       IV_0_Pass_yu    be childish;be infantile
 Sab     NF      east wind     [[Sab/NOUN]]
 SabA    N0      east wind
 Sabaw   NAt     east winds
->aSobA' N0_Nh   east winds
->aSobA& Nh      east winds
->aSobA} Nhy     east winds
+OaSobA' N0_Nh   east winds
+OaSobAW Nh      east winds
+OaSobA} Nhy     east winds
 ;; SibAF_1
 SibAF   FW-WaBi youth;childhood     [[SibAF/NOUN]]
 SibA    N0_Nhy  youth;childhood
 ;; SibA'_1
 SabA'   N0_Nh   childhood;youth
-SabA&   Nh      childhood;youth
+SabAW   Nh      childhood;youth
 SabA}   Nhy     childhood;youth
 ;; Subuw~_1
 Subuw~  N       youthful zeal;childish manners
@@ -358,7 +358,7 @@ Sabow   Nap     youthful zeal;childish manners
 Sabiy~  Ndu     young boy;youth
 Siboy   Nap     young boys;youths
 SiboyAn N       young boys;youths
->aSobiy Nap     young boys;youths
+OaSobiy Nap     young boys;youths
 ;; Sabiy~ap_1
 Sabiy~  Nap     girl;young girl     [[Sabiy~/NOUN]]
 SabAyA  N0_Nhy  girls;young girls
@@ -402,8 +402,8 @@ SiH~iy~ N-ap    health;healthy;sanitary     [[SiH~iy~/ADJ]]
 SiH~iy~ Nap     healthiness;salubriousness     [[SiH~iy~/NOUN]]
 ;; SaHiyH_1
 SaHiyH  N-ap    true;correct     [[SaHiyH/ADJ]]
-;; >aSaH~_1
->aSaH~  Nel     more correct
+;; OaSaH~_1
+OaSaH~  Nel     more correct
 ;; maSaH~_1
 maSaH~  NduAt   sanatorium
 ;; maSaH~ap_1
@@ -422,8 +422,8 @@ SoHab   IV      befriend;accompany
 ;; SAHab_1
 SAHab   PV      befriend;accompany
 SAHib   IV_yu   befriend;accompany
-;; >aSoHab_1
->aSoHab PV      escort
+;; OaSoHab_1
+OaSoHab PV      escort
 SoHib   IV_yu   escort
 SoHab   IV_Pass_yu      be escorted
 ;; AiSoTaHab_1
@@ -444,11 +444,11 @@ muSAHab NapAt   escort;accompanying
 AiSoTiHAb       N/At    accompanying;escort
 ;; SAHib_1
 SAHib   N/ap    owner;originator
->aSoHAb N       owners;originators
+OaSoHAb N       owners;originators
 SuHobAn N       owners;originators
 ;; SAHib_2
 SAHib   N/ap    friend;companion
->aSoHAb N       friends;companions
+OaSoHAb N       friends;companions
 SuHobAn N       friends;companions
 ;; maSoHuwb_1
 maSoHuwb        Nall    accompanied     [[maSoHuwb/ADJ]]
@@ -456,13 +456,13 @@ maSoHuwb        Nall    accompanied     [[maSoHuwb/ADJ]]
 SuwayoHib       Nall    little friend
 ;
 ;--- SHr
-;; >aSoHar_1
->aSoHar Nel     desert-like;desolate
+;; OaSoHar_1
+OaSoHar Nel     desert-like;desolate
 ;; SaHorA'_1
 SaHorA' N0      Sahara
 ;; SaHorA'_2
 SaHorA' N0_Nh   desert
-SaHorA& Nh      desert
+SaHorAW Nh      desert
 SaHorA} Nhy     desert
 SaHoraw NAt     deserts
 SaHAraY N0      deserts
@@ -521,10 +521,10 @@ taSoHiyf        N/At    mispronunciation;misspelling;misrepresentation
 ;--- SHl
 ;; SaHal_1
 SaHal   N-ap    raucous;hoarse     [[SaHal/ADJ]]
-;; >aSoHal_1
->aSoHal Nel     raucous;hoarse
+;; OaSoHal_1
+OaSoHal Nel     raucous;hoarse
 SaHolA' N0_Nh   raucous;hoarse
-SaHolA& Nh      raucous;hoarse
+SaHolAW Nh      raucous;hoarse
 SaHolA} Nhy     raucous;hoarse
 ;
 ;--- SHn
@@ -565,11 +565,11 @@ SaH~iy  IV_0hAnn_yu     awaken;rouse
 SaH~    IV_0hwnyn_yu    awaken;rouse
 SaH~aY  IV_0_Pass_yu    be awakened;be roused
 SaH~ay  IV_Ann_Pass_yu  be awakened;be roused
-;; >aSoHaY_1
->aSoHaY PV_0    awaken;rouse
->aSoHA  PV_h    awaken;rouse
->aSoHay PV_Atn  awaken;rouse
->aSoH   PV_ttAw awaken;rouse
+;; OaSoHaY_1
+OaSoHaY PV_0    awaken;rouse
+OaSoHA  PV_h    awaken;rouse
+OaSoHay PV_Atn  awaken;rouse
+OaSoH   PV_ttAw awaken;rouse
 SoHiy   IV_0hAnn_yu     awaken;rouse
 SoH     IV_0hwnyn_yu    awaken;rouse
 SoHaY   IV_0_Pass_yu    be awakened;be roused
@@ -634,9 +634,9 @@ Sad~    PV_V    repel;deter;resist
 Sadad   PV_C    repel;deter;resist
 Sud~    IV_V    repel;deter;resist
 Sodud   IV_C    repel;deter;resist
-;; >aSad~_1
->aSad~  PV_V    suppurate;fester
->aSodad PV_C    suppurate;fester
+;; OaSad~_1
+OaSad~  PV_V    suppurate;fester
+OaSodad PV_C    suppurate;fester
 Sid~    IV_V_yu suppurate;fester
 Sodid   IV_C_yu suppurate;fester
 ;; Sad~_1
@@ -653,54 +653,54 @@ Sadiydiy~       N-ap    festering;suppurating     [[Sadiydiy~/ADJ]]
 maSad~  NduAt   wall;barrier
 ;; miSad~_1
 miSad~  NduAt   bumper;stopper;cork
-;; <iSodAd_1
-<iSodAd N/At    suppuration
+;; IiSodAd_1
+IiSodAd N/At    suppuration
 ;
 ;--- SdA
 ;; Sadi}-a_1
 Sadi}   PV_intr oxidize;be rusty
-Soda>   IV_intr oxidize;be rusty
+SodaO   IV_intr oxidize;be rusty
 Soda|   IV-|    oxidize;be rusty
-Soda&   IV_wn   oxidize;be rusty
+SodaW   IV_wn   oxidize;be rusty
 Soda}   IV_yn   oxidize;be rusty
-;; Sadu&-u_1
-Sadu&   PV_intr oxidize;be rusty
-Sodu&   IV_intr oxidize;be rusty
+;; SaduW-u_1
+SaduW   PV_intr oxidize;be rusty
+SoduW   IV_intr oxidize;be rusty
 Sodu}   IV_yn   oxidize;be rusty
-;; Sad~a>_1
-Sad~a>  PV->    oxidize;make rusty
+;; Sad~aO_1
+Sad~aO  PV-O    oxidize;make rusty
 Sad~a|  PV-|    oxidize;make rusty
-Sad~a&  PV_w    oxidize;make rusty
+Sad~aW  PV_w    oxidize;make rusty
 Sad~i}  IV_yu   oxidize;make rusty
-;; >aSoda>_1
->aSoda> PV->    oxidize;make rusty
->aSoda| PV-|    oxidize;make rusty
->aSoda& PV_w    oxidize;make rusty
+;; OaSodaO_1
+OaSodaO PV-O    oxidize;make rusty
+OaSoda| PV-|    oxidize;make rusty
+OaSodaW PV_w    oxidize;make rusty
 Sodi}   IV_yu   oxidize;make rusty
-Soda>   IV_Pass_yu      get rusty;become oxidized
-;; Sada>_1
-Sada>   N0_Nh   rust;oxidation
-Sada&   Nh      rust;oxidation
+SodaO   IV_Pass_yu      get rusty;become oxidized
+;; SadaO_1
+SadaO   N0_Nh   rust;oxidation
+SadaW   Nh      rust;oxidation
 Sada}   Nhy     rust;oxidation
 SadA'   Nap     rust;oxidation
 Sadi}   N-ap    rusty;oxidized
-;; muSoda>_1
-muSoda> N0      rusty;oxidized     [[muSoda>/ADJ]]
+;; muSodaO_1
+muSodaO N0      rusty;oxidized     [[muSodaO/ADJ]]
 muSoda| N-|     rusty;oxidized
 muSoda} Nayn    rusty;oxidized
-muSoda> Napdu   rusty;oxidized
-;; >aSoda>_2
->aSoda> N0      rusty;oxidized     [[>aSoda>/ADJ]]
->aSoda> N0      rusty;oxidized
->aSoda| N-|     rusty;oxidized
->aSoda} Nayn    rusty;oxidized
+muSodaO Napdu   rusty;oxidized
+;; OaSodaO_2
+OaSodaO N0      rusty;oxidized     [[OaSodaO/ADJ]]
+OaSodaO N0      rusty;oxidized
+OaSoda| N-|     rusty;oxidized
+OaSoda} Nayn    rusty;oxidized
 Sado|   N0_Nh   rusty;oxidized
 ; see also under --- ASd
-;; <iSodA'_2
-<iSodA' N0_Nh   oxidation
-<iSodA& Nh      oxidation
-<iSodA} Nhy     oxidation
-<iSodA' NAt     oxidation
+;; IiSodA'_2
+IiSodA' N0_Nh   oxidation
+IiSodAW Nh      oxidation
+IiSodA} Nhy     oxidation
+IiSodA' NAt     oxidation
 ;
 ;--- SdH
 ;; SadaH-a_1
@@ -729,8 +729,8 @@ SAdar   PV      confiscate
 SAdir   IV_yu   confiscate
 Suwdir  PV_Pass be confiscated
 SAdar   IV_Pass_yu      be confiscated
-;; >aSodar_1
->aSodar PV      issue;publish
+;; OaSodar_1
+OaSodar PV      issue;publish
 Sodir   IV_yu   issue;publish
 Sodar   IV_Pass_yu      be issued;be published
 ;; taSad~ar_1
@@ -765,10 +765,10 @@ taSodiyr        NAt     exports
 taSodiyriy~     N-ap    export     [[taSodiyriy~/ADJ]]
 ;; muSAdarap_1
 muSAdar NapAt   confiscation;embargo
-;; <iSodAr_1
-<iSodAr N       export;issuance
-;; <iSodArAt_1
-<iSodAr NAt     exports
+;; IiSodAr_1
+IiSodAr N       export;issuance
+;; IiSodArAt_1
+IiSodAr NAt     exports
 ;; taSad~ur_1
 taSad~ur        N/At    chairmanship;preeminence
 ;; AiSoTidAr_1
@@ -826,7 +826,7 @@ mutaSad~iE      N-ap    cracked;brittle     [[mutaSad~iE/ADJ]]
 ;--- Sdg
 ;; Sudog_1
 Sudog   N       temple (anat)
->aSodAg N       temples (anat)
+OaSodAg N       temples (anat)
 ;; Sudogiy~_1
 Sudogiy~        N-ap    temporal (anat)     [[Sudogiy~/ADJ]]
 ;
@@ -839,7 +839,7 @@ SAdaf   PV      coincide;concur;encounter
 SAdif   IV_yu   coincide;concur;encounter
 ;; Sadaf_1
 Sadaf   N       pearl
->aSodAf N       pearls
+OaSodAf N       pearls
 ;; Sadaf_2
 Sadaf   N       psoriasis
 ;; Sadafiy~_1
@@ -889,11 +889,11 @@ SadAq   N       marriage contract;bridal dower
 SadAq   NapAt   friendship
 ;; Sadiyq_1
 Sadiyq  N/ap    friend
->aSodiqA'       N0_Nh   friends
->aSodiqA&       Nh      friends
->aSodiqA}       Nhy     friends
+OaSodiqA'       N0_Nh   friends
+OaSodiqAW       Nh      friends
+OaSodiqA}       Nhy     friends
 SudaqA' N0_Nh   friends
-SudaqA& Nh      friends
+SudaqAW Nh      friends
 SudaqA} Nhy     friends
 SudoqAn N       friends
 ;; Saduwq_1
@@ -904,8 +904,8 @@ Sid~iyq N0      Siddiq
 Sid~iyq N       honest;veracious
 ;; Sid~iyqiy_1
 Sid~iyqiy       N0      Siddiqi
-;; >aSodaq_1
->aSodaq Nel     truer/truest;more/most reliable
+;; OaSodaq_1
+OaSodaq Nel     truer/truest;more/most reliable
 ;; miSodAq_1
 miSodAq N       confirmation;substantiation
 ;; miSodAqiy~ap_1
@@ -986,11 +986,11 @@ Sad~iy  IV_0hAnn_yu     echo
 Sad~    IV_0hwnyn_yu    echo
 Sad~aY  IV_0_Pass_yu    be echoed
 Sad~ay  IV_Ann_Pass_yu  be echoed
-;; >aSodaY_1
->aSodaY PV_0    echo;reverberate
->aSodA  PV_h    echo;reverberate
->aSoday PV_Atn  echo;reverberate
->aSod   PV_ttAw echo;reverberate
+;; OaSodaY_1
+OaSodaY PV_0    echo;reverberate
+OaSodA  PV_h    echo;reverberate
+OaSoday PV_Atn  echo;reverberate
+OaSod   PV_ttAw echo;reverberate
 Sodiy   IV_0hAnn_yu     echo;reverberate
 Sod     IV_0hwnyn_yu    echo;reverberate
 SodaY   IV_0_Pass_yu    be echoed;be reverberated
@@ -1008,9 +1008,9 @@ taSad~  IV_0hwnyn       resist;confront
 SadaY   N0      echo
 SadAF   FW-WaBi echo     [[SadAF/NOUN]]
 SadA    N0_Nhy  echo
->aSodA' N0_Nh   echoes
->aSodA& Nh      echoes
->aSodA} Nhy     echoes
+OaSodA' N0_Nh   echoes
+OaSodAW Nh      echoes
+OaSodA} Nhy     echoes
 ;; taSodiyap_1
 taSodiy Nap     hand clapping
 ;; muSAdAp_1
@@ -1027,9 +1027,9 @@ Sar~    PV_V    screech;chirp
 Sarar   PV_C    screech;chirp
 Sir~    IV_V    screech;chirp
 Sorir   IV_C    screech;chirp
-;; >aSar~_1
->aSar~  PV_V    insist;assert
->aSorar PV_C    insist;assert
+;; OaSar~_1
+OaSar~  PV_V    insist;assert
+OaSorar PV_C    insist;assert
 Sir~    IV_V_yu insist;assert
 Sorir   IV_C_yu insist;assert
 Sar~    IV_V_Pass_yu    be insisted;be asserted
@@ -1039,8 +1039,8 @@ Sur~    Nap     money bag;bundle
 Sariyr  N       screeching;scratching;chirping
 ;; Sar~Ar_1
 Sar~Ar  N       cricket
-;; <iSorAr_1
-<iSorAr N/At    insistence;determination;premeditation
+;; IiSorAr_1
+IiSorAr N/At    insistence;determination;premeditation
 ;; muSir~_1
 muSir~  Nall    determined;insistent     [[muSir~/ADJ]]
 ;; SAr~ap_1
@@ -1081,7 +1081,7 @@ SurAH   N       pure;distinct
 ;; SariyH_1
 SariyH  N/ap    candid;sincere     [[SariyH/ADJ]]
 SuraHA' N0_Nh   candid;sincere
-SuraHA& Nh      candid;sincere
+SuraHAW Nh      candid;sincere
 SuraHA} Nhy     candid;sincere
 SarA}iH Ndip    candid;sincere
 ;; SarAHap_1
@@ -1340,8 +1340,8 @@ sotaSoEib       IV      consider difficult
 ;; SaEob_1
 SaEob   N-ap    difficult;arduous     [[SaEob/ADJ]]
 SiEAb   N       difficult;arduous
-;; >aSoEab_1
->aSoEab Nel     more/most difficult;more/most arduous
+;; OaSoEab_1
+OaSoEab Nel     more/most difficult;more/most arduous
 ;; SuEuwbap_1
 SuEuwb  NapAt   difficulty
 ;; maSAEib_1
@@ -1360,8 +1360,8 @@ SoEad   IV      rise;climb
 ;; SaE~ad_1
 SaE~ad  PV      escalate;intensify
 SaE~id  IV_yu   escalate;intensify
-;; >aSoEad_1
->aSoEad PV      make rise
+;; OaSoEad_1
+OaSoEad PV      make rise
 SoEid   IV_yu   make rise
 SoEad   IV_Pass_yu      be raised
 ;; taSaE~ad_1
@@ -1377,7 +1377,7 @@ SaEod   Napdu   rise;incline
 SaEad   NAt     rises;inclines
 ;; SaEiyd_1
 SaEiyd  Ndu     level;plane
->aSoEid Nap     levels;planes;domains
+OaSoEid Nap     levels;planes;domains
 SuEud   N       levels;planes
 ;; SaEiyd_2
 SaEiyd  N       highlands;Upper Egypt
@@ -1387,10 +1387,10 @@ SaEA}id Nap     Saidis;Upper Egyptians
 SaEAyid Nap     Saidis;Upper Egyptians
 ;; SuEadA'_1
 SuEadA' N0_Nh   deep sigh
-SuEadA& Nh      deep sigh
+SuEadAW Nh      deep sigh
 SuEadA} Nhy     deep sigh
 SaEadA' N0_Nh   deep sigh
-SaEadA& Nh      deep sigh
+SaEadAW Nh      deep sigh
 SaEadA} Nhy     deep sigh
 ;; maSoEad_1
 maSoEad Ndu     anode
@@ -1403,8 +1403,8 @@ maSAEid Ndip    elevators
 taSoEiyd        N/At    escalation;intensification
 ;; taSoEiydiy~_1
 taSoEiydiy~     N-ap    escalation     [[taSoEiydiy~/ADJ]]
-;; <iSoEAd_1
-<iSoEAd N/At    raise;increase
+;; IiSoEAd_1
+IiSoEAd N/At    raise;increase
 ;; taSAEud_1
 taSAEud N/At    growth;increase;escalation
 ;; taSAEudiy~_1
@@ -1440,8 +1440,8 @@ SoEaq   IV      stun;strike
 ;; SaEiq-a_1
 SaEiq   PV_intr be stunned;be thunderstruck
 SoEaq   IV_intr be stunned;be thunderstruck
-;; >aSoEaq_1
->aSoEaq PV      stun;strike
+;; OaSoEaq_1
+OaSoEaq PV      stun;strike
 SoEiq   IV_yu   stun;strike
 SoEaq   IV_Pass_yu      be stunned;be struck
 ;; AinoSaEaq_1
@@ -1464,7 +1464,7 @@ munoSaEiq       Nall    thunderstruck;stunned     [[munoSaEiq/ADJ]]
 ;--- SEl
 ;; SaEol_1
 SaEol   N       microcephalic
->aSoEal Nel     microcephalic
+OaSoEal Nel     microcephalic
 ;
 ;--- SElk
 ;; SaEolakap_1
@@ -1498,16 +1498,16 @@ SigAr   N       small;young
 ;; Sagiyrap_1
 Sagiyr  Nap     venial sin
 SagA}ir Ndip    venial sins
-;; >aSogar_1
->aSogar Nel     smaller/smallest;younger/youngest     [[>aSogar/ADJ]]
+;; OaSogar_1
+OaSogar Nel     smaller/smallest;younger/youngest     [[OaSogar/ADJ]]
 SugoraY N0      minor;smaller/smallest;younger/youngest
 SugorA  Nhy     minor;smaller/smallest;younger/youngest
 Sugoray NAn_Nayn        minor;smaller/smallest;younger/youngest
 Sugoray NAt     minor;smaller/smallest;younger/youngest
 ;; taSogiyr_1
 taSogiyr        N/At    diminution;reduction
-;; <iSogAr_1
-<iSogAr N/At    contempt;disregard
+;; IiSogAr_1
+IiSogAr N/At    contempt;disregard
 ;; taSAgur_1
 taSAgur N/At    servility;humility
 ;; SAgir_1
@@ -1530,11 +1530,11 @@ Sag     PV_w    lean over;incline
 SogaY   IV_0    lean over;incline
 Sogay   IV_Ann  lean over;incline
 Soga    IV_0hwnyn       lean over;incline
-;; >aSogaY_1
->aSogaY PV_0    pay attention;heed
->aSogA  PV_h    pay attention;heed
->aSogay PV_Atn  pay attention;heed
->aSog   PV_ttAw pay attention;heed
+;; OaSogaY_1
+OaSogaY PV_0    pay attention;heed
+OaSogA  PV_h    pay attention;heed
+OaSogay PV_Atn  pay attention;heed
+OaSog   PV_ttAw pay attention;heed
 Sogiy   IV_0hAnn_yu     pay attention;heed
 Sog     IV_0hwnyn_yu    pay attention;heed
 SogaY   IV_0_Pass_yu    be heeded;be listened to
@@ -1546,11 +1546,11 @@ SagAF   FW-WaBi inclination;disposition;benevolence     [[SagAF/NOUN]]
 ;; SagaY_1
 SagaY   N0      inclination;disposition;benevolence
 SagA    N0_Nhy  inclination;disposition;benevolence
-;; <iSogA'_1
-<iSogA' N0_Nh   attentiveness;listening
-<iSogA& Nh      attentiveness;listening
-<iSogA} Nhy     attentiveness;listening
-<iSogA' NAt     attentiveness;listening
+;; IiSogA'_1
+IiSogA' N0_Nh   attentiveness;listening
+IiSogAW Nh      attentiveness;listening
+IiSogA} Nhy     attentiveness;listening
+IiSogA' NAt     attentiveness;listening
 ;; SAgiy_1
 SAgiy   N0F     attentive;listening     [[SAgiy/ADJ]]
 SAg     NK      attentive;listening
@@ -1655,22 +1655,22 @@ muSAfaH NapAt   handshake
 Saf~ad  PV      shackle;handcuff
 Saf~id  IV_yu   shackle;handcuff
 Saf~ad  IV_Pass_yu      be shackled;be handcuffed
-;; >aSofad_1
->aSofad PV      shackle;handcuff
+;; OaSofad_1
+OaSofad PV      shackle;handcuff
 Sofid   IV_yu   shackle;handcuff
 Sofad   IV_Pass_yu      be shackled;be handcuffed
 ;; Safad_1
 Safad   Nprop   Safad
 ;; Safad_2
 Safad   Ndu     handcuff;shackle
->aSofAd N       handcuffs;shackles
+OaSofAd N       handcuffs;shackles
 ;; SifAd_1
 SifAd   Ndu     handcuffs;shackles
->aSofAd N       handcuffs;shackles
+OaSofAd N       handcuffs;shackles
 ;; taSofiyd_1
 taSofiyd        N/At    handcuffing;shackling
-;; <iSofAd_1
-<iSofAd N/At    handcuffing;shackling
+;; IiSofAd_1
+IiSofAd N/At    handcuffing;shackling
 ;
 ;--- Sfr
 ;; Safar-i_1
@@ -1682,12 +1682,12 @@ Saf~ir  IV_yu   whistle
 ;; Saf~ar_3
 Saf~ar  PV      dye yellow
 Saf~ir  IV_yu   dye yellow
-;; >aSofar_1
->aSofar PV      empty
+;; OaSofar_1
+OaSofar PV      empty
 Sofir   IV_yu   empty
 Sofar   IV_Pass_yu      be emptied
-;; >aSofar_2
->aSofar PV_intr be empty-handed
+;; OaSofar_2
+OaSofar PV_intr be empty-handed
 Sofir   IV_intr_yu      be empty-handed
 ;; AiSofar~_1
 AiSofar~        PV_V    turn yellow;become pale
@@ -1723,14 +1723,14 @@ Safar   N       Safar (month)
 Sufor   Nap     yellowness;pallor
 ;; SafAr_1
 SafAr   N       yellowness;pallor
-;; >aSofar_3
->aSofar Nel     yellow
+;; OaSofar_3
+OaSofar Nel     yellow
 SaforA' N0_Nh   yellow
-SaforA& Nh      yellow
+SaforAW Nh      yellow
 SaforA} Nhy     yellow
 Sufor   N       yellow
-;; >aSofar_4
->aSofar Nel     empty
+;; OaSofar_4
+OaSofar Nel     empty
 ;; SaforAwiy~_1
 SaforAwiy~      Nall    yellow     [[SaforAwiy~/ADJ]]
 ;; miSofAr_1
@@ -1781,8 +1781,8 @@ Sofuq   IV      transfuse
 ;; Saf~aq_1
 Saf~aq  PV      applaud;clap
 Saf~iq  IV_yu   applaud;clap
-;; >aSofaq_1
->aSofaq PV      transfuse
+;; OaSofaq_1
+OaSofaq PV      transfuse
 Sofiq   IV_yu   transfuse
 Sofaq   IV_Pass_yu      be transfused
 ;; Safoq_1
@@ -1809,7 +1809,7 @@ Safan   PV-n    ponder
 Sofin   IV-n    ponder
 ;; Safan_1
 Safan   N       scrotum
->aSofAn N       scrota
+OaSofAn N       scrota
 ;; Safiyn_1
 Safiyn  N       savin
 ;
@@ -1838,11 +1838,11 @@ SAfiy   IV_0hAnn_yu     be sincere with;deal honestly with
 SAf     IV_0hwnyn_yu    be sincere with;deal honestly with
 SAfaY   IV_0_Pass_yu    be treated with sincerity;be dealt with honestly
 SAfay   IV_Ann_Pass_yu  be treated with sincerity;be dealt with honestly
-;; >aSofaY_1
->aSofaY PV_0    choose;prefer
->aSofA  PV_h    choose;prefer
->aSofay PV_Atn  choose;prefer
->aSof   PV_ttAw choose;prefer
+;; OaSofaY_1
+OaSofaY PV_0    choose;prefer
+OaSofA  PV_h    choose;prefer
+OaSofay PV_Atn  choose;prefer
+OaSof   PV_ttAw choose;prefer
 Sofiy   IV_0hAnn_yu     choose;prefer
 Sof     IV_0hwnyn_yu    choose;prefer
 SofaY   IV_0_Pass_yu    be chosen;be preferred
@@ -1890,13 +1890,13 @@ SafowAn N       stones;rocks
 SafA'   N0      Safaa;Safa
 ;; SafA'_2
 SafA'   N0_Nh   purity;clarity;sincerity
-SafA&   Nh      purity;clarity;sincerity
+SafAW   Nh      purity;clarity;sincerity
 SafA}   Nhy     purity;clarity;sincerity
 ;; Safiy~_1
 Safiy~  N-ap    pure;clear;sincere     [[Safiy~/ADJ]]
->aSofiyA'       N0_Nh   pure;clear;sincere
->aSofiyA&       Nh      pure;clear;sincere
->aSofiyA}       Nhy     pure;clear;sincere
+OaSofiyA'       N0_Nh   pure;clear;sincere
+OaSofiyAW       Nh      pure;clear;sincere
+OaSofiyA}       Nhy     pure;clear;sincere
 ;; Safiy~ap_1
 Safiy~  Nap     lion's share     [[Safiy~/NOUN]]
 SafAyA  N0_Nhy  lion's share
@@ -1934,14 +1934,14 @@ taSAfiy NAn_Nayn        peaceful settlement;compromise
 taSAfiy NAt     peaceful settlement;compromise
 ;; AiSoTifA'_1
 AiSoTifA'       N0_Nh   selection
-AiSoTifA&       Nh      selection
+AiSoTifAW       Nh      selection
 AiSoTifA}       Nhy     selection
 AiSoTifA'       NAn_Nayn        selection
 AiSoTifA}       Nayn    selection
 AiSoTifA'       NAt     selection
 ;; AisotiSofA'_1
 AisotiSofA'     N0_Nh   sequestration;confiscation
-AisotiSofA&     Nh      sequestration;confiscation
+AisotiSofAW     Nh      sequestration;confiscation
 AisotiSofA}     Nhy     sequestration;confiscation
 AisotiSofA'     NAt     sequestrations;confiscations
 ;; SAfiy_1
@@ -1993,7 +1993,7 @@ Saqor   Nprop   Saqr
 ;; Saqor_2
 Saqor   Ndu     falcon;hawk
 Suquwr  N       falcons;hawks
->aSoqur N       falcons;hawks
+OaSoqur N       falcons;hawks
 ;; Saqoriy~_1
 Saqoriy~        N/ap    falcon-like;hawk-like     [[Saqoriy~/ADJ]]
 ;; Saq~Ar_1
@@ -2017,13 +2017,13 @@ Saq~aE  PV_intr be frozen
 Saq~iE  IV_intr_yu      be frozen
 ;; SuqoE_1
 SuqoE   Ndu     region
->aSoqAE N       regions
+OaSoqAE N       regions
 ;; SaqoEap_1
 SaqoE   Nap     severe cold;cold spell
 ;; SaqiyE_1
 SaqiyE  N       frost;ice
-;; >aSoqaE_1
->aSoqaE Nel     more/most eloquent
+;; OaSoqaE_1
+OaSoqaE Nel     more/most eloquent
 ;; miSoqaE_1
 miSoqaE N-ap    eloquent;stentorian     [[miSoqaE/ADJ]]
 maSAqiE Ndip    eloquent;stentorian
@@ -2093,8 +2093,8 @@ muSoTak~        Nall    trembling;shaking     [[muSoTak~/ADJ]]
 ;
 ;; Saliyl_1
 Saliyl  N       clanging
-;; >aSolAl_1
->aSolAl N       vipers
+;; OaSolAl_1
+OaSolAl N       vipers
 SilAl   N       vipers
 ;
 ;--- Slb
@@ -2121,7 +2121,7 @@ Sulob   N-ap    hard;solid;robust     [[Sulob/ADJ]]
 SalAb   Nap     firmness;consistency
 ;; Sulob_3
 Sulob   N       spinal column
->aSolAb N       spinal columns
+OaSolAb N       spinal columns
 ;; Sulobiy~_1
 Sulobiy~        N-ap    dorsal;lumbar     [[Sulobiy~/ADJ]]
 ;; SAlib_1
@@ -2157,8 +2157,8 @@ taSAlub N/At    crossing;intersecting
 ;; Salut-u_1
 Salut   PV-t_intr       be glossy;be shining
 Solut   IV_intr be glossy;be shining
-;; >aSolat_1
->aSolat PV-t    unsheathe
+;; OaSolat_1
+OaSolat PV-t    unsheathe
 Solit   IV_yu   unsheathe
 Solat   IV_Pass_yu      be unsheathed
 ;; Suluwtap_1
@@ -2179,8 +2179,8 @@ Sal~iH  IV_yu   put in order;repair
 ;; SAlaH_1
 SAlaH   PV      reconcile;compromise
 SAliH   IV_yu   reconcile;compromise
-;; >aSolaH_1
->aSolaH PV      put in order;repair
+;; OaSolaH_1
+OaSolaH PV      put in order;repair
 SoliH   IV_yu   put in order;repair
 SolaH   IV_Pass_yu      be put in order;be repaired
 ;; taSAlaH_1
@@ -2207,8 +2207,8 @@ SalAH   N       proper;good condition
 SalAHiy~        NapAt   practicability;viability;competence     [[SalAHiy~/NOUN]]
 ;; SuluwHiy~ap_1
 SuluwHiy~       NapAt   practicability;viability;competence     [[SuluwHiy~/NOUN]]
-;; >aSolaH_2
->aSolaH Nel     more/most convenient;better/best
+;; OaSolaH_2
+OaSolaH Nel     more/most convenient;better/best
 ;; maSolaH_1
 maSolaH N       garage
 ;; maSolaHap_1
@@ -2220,16 +2220,16 @@ maSolaHiy~      N-ap    administrational;governmental     [[maSolaHiy~/ADJ]]
 taSoliyH        N/At    repair
 ;; muSAlaHap_1
 muSAlaH NapAt   conciliation;compromise
-;; <iSolAH_1
-<iSolAH N/At    reform;restoration
-;; <iSolAHAt_1
-<iSolAH NAt     corrections;amendments
-;; <iSolAHiy~_1
-<iSolAHiy~      N-ap    reformative;corrective     [[<iSolAHiy~/ADJ]]
-;; <iSolAHiy~_2
-<iSolAHiy~      Nall    reformer;revisionist     [[<iSolAHiy~/ADJ]]
-;; <iSolAHiy~ap_1
-<iSolAHiy~      NapAt   reformism;rehabilitation     [[<iSolAHiy~/NOUN]]
+;; IiSolAH_1
+IiSolAH N/At    reform;restoration
+;; IiSolAHAt_1
+IiSolAH NAt     corrections;amendments
+;; IiSolAHiy~_1
+IiSolAHiy~      N-ap    reformative;corrective     [[IiSolAHiy~/ADJ]]
+;; IiSolAHiy~_2
+IiSolAHiy~      Nall    reformer;revisionist     [[IiSolAHiy~/ADJ]]
+;; IiSolAHiy~ap_1
+IiSolAHiy~      NapAt   reformism;rehabilitation     [[IiSolAHiy~/NOUN]]
 ;; taSAluH_1
 taSAluH N/At    reconciliation;settlement
 ;; AiSoTilAH_1
@@ -2251,7 +2251,7 @@ SawAliH Nap     Sawalheh
 SAliH   Nall    pious;upright     [[SAliH/ADJ]]
 Sul~AH  N       pious;upright
 SulaHA' N0_Nh   pious;upright
-SulaHA& Nh      pious;upright
+SulaHAW Nh      pious;upright
 SulaHA} Nhy     pious;upright
 ;; SAliHAt_1
 SAliH   NAt     good deeds
@@ -2266,11 +2266,11 @@ mutaSAliH       Nall    at peace;reconciled     [[mutaSAliH/ADJ]]
 muSoTalaH       N/At    technical term;terminology
 ;
 ;--- Slx
-;; >aSolax_1
->aSolax Nel     deaf     [[>aSolax/ADJ]]
->aSolax Nel     deaf
+;; OaSolax_1
+OaSolax Nel     deaf     [[OaSolax/ADJ]]
+OaSolax Nel     deaf
 SaloxA' N0_Nh   deaf
-SaloxA& Nh      deaf
+SaloxAW Nh      deaf
 SaloxA} Nhy     deaf
 ;
 ;--- Sld
@@ -2280,12 +2280,12 @@ Solud   IV_intr be solid;be compact
 ;; Sal~ad_1
 Sal~ad  PV      harden
 Sal~id  IV_yu   harden
-;; >aSolad_1
->aSolad PV_intr be solid;be compact
+;; OaSolad_1
+OaSolad PV_intr be solid;be compact
 Solid   IV_intr_yu      be solid;be compact
 ;; Salod_1
 Salod   N-ap    firm;solid
->aSolAd N       firm;solid
+OaSolAd N       firm;solid
 ;; SalAdap_1
 SalAd   Nap     solidity;hardness;resistance
 ;; Suluwdap_1
@@ -2325,10 +2325,10 @@ SolaE   IV_intr be bald
 SalaE   N       baldness
 ;; SaloEap_1
 SaloE   Nap     bald spot;bald head
-;; >aSolaE_1
->aSolaE Nel     bald
+;; OaSolaE_1
+OaSolaE Nel     bald
 SaloEA' N0_Nh   bald
-SaloEA& Nh      bald
+SaloEAW Nh      bald
 SaloEA} Nhy     bald
 SuloE   N       bald
 SuloEAn N       bald
@@ -2349,7 +2349,7 @@ Salaf   N       bragging
 ;; Salif_1
 Salif   N/ap    boastful     [[Salif/ADJ]]
 SulafA' N0_Nh   boastful
-SulafA& Nh      boastful
+SulafAW Nh      boastful
 SulafA} Nhy     boastful
 ;; taSal~uf_1
 taSal~uf        N/At    boasting;conceit
@@ -2406,11 +2406,11 @@ Sal     PV_w    get burned
 SolaY   IV_0    get burned
 Solay   IV_Ann  get burned
 Sola    IV_0hwnyn       get burned
-;; >aSolaY_1
->aSolaY PV_0    burn
->aSolA  PV_h    burn
->aSolay PV_Atn  burn
->aSol   PV_ttAw burn
+;; OaSolaY_1
+OaSolaY PV_0    burn
+OaSolA  PV_h    burn
+OaSolay PV_Atn  burn
+OaSol   PV_ttAw burn
 Soliy   IV_0hAnn_yu     burn
 Sol     IV_0hwnyn_yu    burn
 SolaY   IV_0_Pass_yu    be burned
@@ -2434,7 +2434,7 @@ SoTal   IV_0hwnyn       get burned
 SoTalaY IV_0    get burned
 ;; AiSoTilA'_1
 AiSoTilA'       N0_Nh   burning
-AiSoTilA&       Nh      burning
+AiSoTilAW       Nh      burning
 AiSoTilA}       Nhy     burning
 AiSoTilA'       NAn_Nayn        burning
 AiSoTilA}       Nayn    burning
@@ -2452,9 +2452,9 @@ Somum   IV_C    plug;stop up
 ;; Sam~am_1
 Sam~am  PV_intr be determined;be persistent
 Sam~im  IV_intr_yu      be determined;be persistent
-;; >aSam~_1
->aSam~  PV_V    deafen;make deaf;become deaf
->aSomam PV_C    deafen;make deaf;become deaf
+;; OaSam~_1
+OaSam~  PV_V    deafen;make deaf;become deaf
+OaSomam PV_C    deafen;make deaf;become deaf
 Sim~    IV_V_yu deafen;make deaf;become deaf
 Somim   IV_C_yu deafen;make deaf;become deaf
 ;; taSAm~_1
@@ -2468,7 +2468,7 @@ Sim~    Nap     plug;stopper
 Samam   N       deafness
 ;; SimAm_1
 SimAm   NduAt   plug;valve;stopper
->aSim~  Nap     plugs;valves;stoppers
+OaSim~  Nap     plugs;valves;stoppers
 ;; SimAmap_1
 SimAm   Nap     embolism
 SamA}im Ndip    embolisms
@@ -2482,11 +2482,11 @@ Samiym  N-ap    true;sincere     [[Samiym/ADJ]]
 Samiymiy~       N-ap    cordial;intimate     [[Samiymiy~/ADJ]]
 ;; Samiymiy~ap_1
 Samiymiy~       Nap     cordiality;intimacy     [[Samiymiy~/NOUN]]
-;; >aSam~_2
->aSam~  Nel     deaf;plugged     [[>aSam~/ADJ]]
->aSam~  Nel     deaf;plugged
+;; OaSam~_2
+OaSam~  Nel     deaf;plugged     [[OaSam~/ADJ]]
+OaSam~  Nel     deaf;plugged
 Sam~A'  N0_Nh   deaf;plugged
-Sam~A&  Nh      deaf;plugged
+Sam~AW  Nh      deaf;plugged
 Sam~A}  Nhy     deaf;plugged
 Sum~    N       deaf;plugged
 Sum~An  N       deaf;plugged
@@ -2501,8 +2501,8 @@ muSam~im        Nall    determined;resolute     [[muSam~im/ADJ]]
 muSam~im        Nall    designer;stylist
 ;; muSam~am_1
 muSam~am        N-ap    designed;resolved     [[muSam~am/ADJ]]
-;; <iSomAm_1
-<iSomAm N/At    obstruction;deafening
+;; IiSomAm_1
+IiSomAm N/At    obstruction;deafening
 ;; mutaSAm~_1
 mutaSAm~        Nall    deaf to     [[mutaSAm~/ADJ]]
 ;
@@ -2513,8 +2513,8 @@ Somut   IV_intr be silent;be quiet
 ;; Sam~at_1
 Sam~at  PV-t    silence
 Sam~it  IV_yu   silence
-;; >aSomat_1
->aSomat PV-t    silence
+;; OaSomat_1
+OaSomat PV-t    silence
 Somit   IV_yu   silence
 Somat   IV_Pass_yu      be silenced
 ;; Samot_1
@@ -2534,7 +2534,7 @@ muSomat N-ap    solid;massive     [[muSomat/ADJ]]
 ;--- Smx
 ;; SimAx_1
 SimAx   Ndu     ear canal;eardrum
->aSomix Nap     ear canals;eardrums
+OaSomix Nap     ear canals;eardrums
 ;
 ;--- Smd
 ;; Samad-u_1
@@ -2572,8 +2572,8 @@ muSamoSim       Nall    persisting;persistent     [[muSamoSim/ADJ]]
 ;; Sam~ag_1
 Sam~ag  PV      paste;glue
 Sam~ig  IV_yu   paste;glue
-;; >aSomag_1
->aSomag PV      paste;glue
+;; OaSomag_1
+OaSomag PV      paste;glue
 Somig   IV_yu   paste;glue
 Somag   IV_Pass_yu      be pasted;be glued
 ;; Samog_1
@@ -2588,8 +2588,8 @@ taSomiyg        N/At    gumming;resinification
 ;; Samal-u_1
 Samal   PV      stand firm
 Somul   IV      stand firm
-;; >aSomal_1
->aSomal PV      dehydrate;harden
+;; OaSomal_1
+OaSomal PV      dehydrate;harden
 Somil   IV_yu   dehydrate;harden
 Somal   IV_Pass_yu      be dehydrated;be hardened
 ;; Samol_1
@@ -2618,11 +2618,11 @@ Sam     PV_ttAw_intr    be fatally wounded
 Somiy   IV_0hAnn        be fatally wounded
 Som     IV_0hwnyn       be fatally wounded
 SomaY   IV_0_Pass_yu    be fatally wounded
-;; >aSomaY_1
->aSomaY PV_0    deal a fatal blow
->aSomA  PV_h    deal a fatal blow
->aSomay PV_Atn  deal a fatal blow
->aSom   PV_ttAw deal a fatal blow
+;; OaSomaY_1
+OaSomaY PV_0    deal a fatal blow
+OaSomA  PV_h    deal a fatal blow
+OaSomay PV_Atn  deal a fatal blow
+OaSom   PV_ttAw deal a fatal blow
 Somiy   IV_0hAnn_yu     deal a fatal blow
 Som     IV_0hwnyn_yu    deal a fatal blow
 SomaY   IV_0_Pass_yu    be dealt a fatal blow
@@ -2779,7 +2779,7 @@ San~af  PV      sort;classify;compile
 San~if  IV_yu   sort;classify;compile
 ;; Sinof_1
 Sinof   N       class;category
->aSonAf N       classes;categories
+OaSonAf N       classes;categories
 ;; taSoniyf_1
 taSoniyf        N/At    classification;sorting;compilation
 taSAniyf        Ndip    compilations
@@ -2817,16 +2817,16 @@ Sanoq   Nap     foul odor;stench
 ;--- Snm
 ;; Sanam_1
 Sanam   Ndu     idol;image
->aSonAm N       idol;image
+OaSonAm N       idol;image
 ;; Sanamiy~_1
 Sanamiy~        N-ap    fetish     [[Sanamiy~/ADJ]]
 ;
 ;--- Snw
 ;; Sinow_1
 Sinow   Ndu     twin
->aSonA' N0_Nh   twins
->aSonA& Nh      twins
->aSonA} Nhy     twins
+OaSonA' N0_Nh   twins
+OaSonAW Nh      twins
+OaSonA} Nhy     twins
 ;; Sinowap_1
 Sinow   Nap     sister
 ;
@@ -2852,10 +2852,10 @@ SohAb~  IV_V_intr       become reddish
 SohAbab IV_C_intr       become reddish
 ;; Suhobap_1
 Suhob   Nap     redness;gingery
-;; >aSohab_1
->aSohab Nel     reddish;ginger
+;; OaSohab_1
+OaSohab Nel     reddish;ginger
 SahobA' N0_Nh   reddish;ginger
-SahobA& Nh      reddish;ginger
+SahobAW Nh      reddish;ginger
 SahobA} Nhy     reddish;ginger
 Suhob   N       reddish;ginger
 ;
@@ -2887,10 +2887,10 @@ noSahir IV_intr be forged;be fused;be melted
 Sahor   N       melting;forging;fusing
 ;; Sihor_1
 Sihor   N       family tie
->aSohAr N       family ties
+OaSohAr N       family ties
 ;; Sihor_2
 Sihor   N       brother-in-law;son-in-law
->aSohAr N       brothers-in-law;sons-in-law
+OaSohAr N       brothers-in-law;sons-in-law
 ;; Sihorap_1
 Sihor   NapAt   sister-in-law
 ;; Sahiyr_1
@@ -2931,9 +2931,9 @@ Sahiyl  N       neighing
 ;; Sahowap_1
 Sahow   Napdu   rump;back
 Sahaw   NAt     rumps;backs
->aSohA' N0_Nh   rumps;backs
->aSohA& Nh      rumps;backs
->aSohA} Nhy     rumps;backs
+OaSohA' N0_Nh   rumps;backs
+OaSohAW Nh      rumps;backs
+OaSohA} Nhy     rumps;backs
 ;
 ;--- Shyn
 ;; Sahoyuwn_1
@@ -2951,12 +2951,12 @@ Sahoyuwniy~     Nap     Zionism     [[Sahoyuwniy~/NOUN]]
 ;; Saw~ab_1
 Saw~ab  PV      rectify;correct
 Saw~ib  IV_yu   rectify;correct
-;; >aSAb_1
->aSAb   PV_V    strike;afflict
->aSab   PV_C    strike;afflict
+;; OaSAb_1
+OaSAb   PV_V    strike;afflict
+OaSab   PV_C    strike;afflict
 Siyb    IV_V_yu strike;afflict
 Sib     IV_C_yu strike;afflict
->uSiyb  PV_V_Pass       be hit;be struck;be afflicted
+OuSiyb  PV_V_Pass       be hit;be struck;be afflicted
 SAb     IV_V_Pass_yu    be hit;be struck;be afflicted
 Sab     IV_C_Pass_yu    be hit;be struck;be afflicted
 ;; Sawob_1
@@ -2973,21 +2973,21 @@ SawAbiy~        N-ap    well-founded;reasoned     [[SawAbiy~/ADJ]]
 SA}ib   N0      Saeb;Sa'ib
 ;; SA}ib_2
 SA}ib   N-ap    correct;accurate;on target;opportune     [[SA}ib/ADJ]]
-;; <iSAbap_1
-<iSAb   Napdu   casualty;injury
-<iSAb   NAt     casualties;injuries
-;; <iSAbap_2
-<iSAb   Nap     affliction
+;; IiSAbap_1
+IiSAb   Napdu   casualty;injury
+IiSAb   NAt     casualties;injuries
+;; IiSAbap_2
+IiSAb   Nap     affliction
 ;; muSiybap_1
 muSiyb  NapAt   accident;misfortune
 maSA}ib Ndip    accidents;misfortunes
 ;; muSAb_1
 muSAb   Nall    afflicted;injured;wounded     [[muSAb/ADJ]]
-;; >aSowab_1
->aSowab Nel     pertinent;apropos     [[>aSowab/ADJ]]
->aSowab Nel     pertinent;apropos
-;; >aSowabiy~ap_1
->aSowabiy~      Nap     advisability;expediency     [[>aSowabiy~/NOUN]]
+;; OaSowab_1
+OaSowab Nel     pertinent;apropos     [[OaSowab/ADJ]]
+OaSowab Nel     pertinent;apropos
+;; OaSowabiy~ap_1
+OaSowabiy~      Nap     advisability;expediency     [[OaSowabiy~/NOUN]]
 ;; taSowiyb_1
 taSowiyb        N/At    correction;rectifying
 ;; taSowiybiy~_1
@@ -3020,18 +3020,18 @@ Saw~at  PV-t    vote
 Saw~it  IV_yu   vote
 ;; Sawot_1
 Sawot   Ndu     vote
->aSowAt N       votes
+OaSowAt N       votes
 ;; Sawot_2
 Sawot   Ndu     voice;sound
->aSowAt N       voices;sounds
+OaSowAt N       voices;sounds
 ;; Sawotiy~_1
 Sawotiy~        N-ap    acoustic;vocalic     [[Sawotiy~/ADJ]]
 ;; Sawotiy~ap_1
 Sawotiy~        NapAt   acoustics;resonance     [[Sawotiy~/NOUN]]
 ;; Sawotiy~At_1
 Sawotiy~        NAt     phonetics     [[Sawotiy~/NOUN]]
-;; >aSowAtiy~_1
->aSowAtiy~      Nall    phonetician     [[>aSowAtiy~/ADJ]]
+;; OaSowAtiy~_1
+OaSowAtiy~      Nall    phonetician     [[OaSowAtiy~/ADJ]]
 ;; Siyt_1
 Siyt    N       renown;reputation
 ;; Say~it_1
@@ -3078,15 +3078,15 @@ Suwx    IV_V_intr       be slippery;sink;swoon
 Sux     IV_C_intr       be slippery;sink;swoon
 ;; Sawox_1
 Sawox   N       sinking;swooning
-;; >aSAx_1
->aSAx   PV_V    listen;lend an ear
->aSax   PV_C    listen;lend an ear
+;; OaSAx_1
+OaSAx   PV_V    listen;lend an ear
+OaSax   PV_C    listen;lend an ear
 Siyx    IV_V_yu listen;lend an ear
 Six     IV_C_yu listen;lend an ear
 SAx     IV_V_Pass_yu    be listened to;be lent an ear
 Sax     IV_C_Pass_yu    be listened to;be lent an ear
-;; <iSAxap_1
-<iSAx   NapAt   listening;lending an ear
+;; IiSAxap_1
+IiSAx   NapAt   listening;lending an ear
 ;
 ;--- Swd
 ;; SuwdA_1
@@ -3164,7 +3164,7 @@ noSAE   IV_V    submit;obey
 noSaE   IV_C    submit;obey
 ;; SAE_1
 SAE     Ndu     saa (cubic dry measure)
->aSowAE N       saas (cubic dry measure)
+OaSowAE N       saas (cubic dry measure)
 ;; SawAE_1
 SawAE   N       dish;jar
 ;; AinoSiyAE_1
@@ -3208,7 +3208,7 @@ taSaw~af        PV_intr become a Sufi;become a mystic
 taSaw~af        IV_intr become a Sufi;become a mystic
 ;; Suwf_1
 Suwf    N       wool
->aSowAf N       wool
+OaSowAf N       wool
 ;; Suwfiy~_1
 Suwfiy~ Nall    Sufi;Muslim mystic     [[Suwfiy~/NOUN]]
 Suwfiy~ Nall    Sufi;Muslim mystic     [[Suwfiy~/ADJ]]
@@ -3216,11 +3216,11 @@ Suwfiy~ Nall    Sufi;Muslim mystic     [[Suwfiy~/ADJ]]
 Suwfiy~ N-ap    woolen     [[Suwfiy~/ADJ]]
 ;; Suwfiy~ap_1
 Suwfiy~ Nap     Sufism;Islamic mysticism     [[Suwfiy~/NOUN]]
-;; >aSowaf_1
->aSowaf Nel     woolen     [[>aSowaf/ADJ]]
->aSowaf Nel     woolen
+;; OaSowaf_1
+OaSowaf Nel     woolen     [[OaSowaf/ADJ]]
+OaSowaf Nel     woolen
 SawofA' N0_Nh   woolen
-SawofA& Nh      woolen
+SawofAW Nh      woolen
 SawofA} Nhy     woolen
 ;; SuwfAn_1
 SuwfAn  N-ap    touchwood;tinder
@@ -3315,7 +3315,7 @@ Sun     IV_C    maintain;preserve;protect
 Sawon   N       maintenance;preservation;protection
 ;; SiwAn_1
 SiwAn   N       cupboard;wardrobe
->aSowin Nap     cupboards;wardrobes
+OaSowin Nap     cupboards;wardrobes
 ;; Saw~An_1
 Saw~An  N       granite;quartz
 ;; Saw~Aniy~_1
@@ -3457,7 +3457,7 @@ SoTAf   IV_V    estivate;spend the summer
 SoTaf   IV_C    estivate;spend the summer
 ;; Sayof_1
 Sayof   Ndu     summer
->aSoyAf N       summers
+OaSoyAf N       summers
 Suyuwf  N       summers
 ;; Sayofiy~_1
 Sayofiy~        N-ap    summer;estival     [[Sayofiy~/ADJ]]

@@ -1,7 +1,7 @@
 ;--- t
 ;; tA'_1
 tA'     N0_Nh   ta' (Arabic letter)
-tA&     Nh      ta' (Arabic letter)
+tAW     Nh      ta' (Arabic letter)
 tA}     Nhy     ta' (Arabic letter)
 tA'     NAt     ta's (Arabic letter)
 ;
@@ -17,16 +17,16 @@ tawAbiyt        Ndip    boxes;cases
 tAbiyuwkA       N0      tapioca
 tabiyuwkA       N0      tapioca
 ;
-;; ta>ota>_1
-ta>ota> PV->    stammer;stutter
-ta>ota| PV-|    stammer;stutter
-ta>ota& PV_w    stammer;stutter
-ta>oti} IV_yu   stammer;stutter
-;; ta>ota>ap_1
-ta>ota> NapAt   stammering;stuttering
+;; taOotaO_1
+taOotaO PV-O    stammer;stutter
+taOota| PV-|    stammer;stutter
+taOotaW PV_w    stammer;stutter
+taOoti} IV_yu   stammer;stutter
+;; taOotaOap_1
+taOotaO NapAt   stammering;stuttering
 ;
-;; >ato>ar_1
->ato>ar PV      stare;fix eyes on
+;; OatoOar_1
+OatoOar PV      stare;fix eyes on
 to}ir   IV_yu   stare;fix eyes on
 ;
 ;; tAdiyrAn_1
@@ -42,8 +42,8 @@ tAz     Nap     fresh;tender
 ;; tAs_1
 tAs     Nprop   TASS
 ;
-;; ta>oq_1
-ta>oq   N/At    allergy
+;; taOoq_1
+taOoq   N/At    allergy
 ;
 ;; tAkAhArA_1
 tAkAhArA        Nprop   Takahara
@@ -183,8 +183,8 @@ tobaE   IV      follow;pursue
 ;; tAbaE_1
 tAbaE   PV      continue;follow
 tAbiE   IV_yu   continue;follow
-;; >atobaE_1
->atobaE PV      follow
+;; OatobaE_1
+OatobaE PV      follow
 tobiE   IV_yu   follow
 tobaE   IV_Pass_yu      be followed
 ;; tatab~aE_1
@@ -203,8 +203,8 @@ sotatobiE       IV      result in;make follow
 tabaE   N       subordinate;follower
 ;; tabaEAF_1
 tabaE   NF      according;pursuant     [[tabaE/ADV]]
-;; >atobAE_1
->atobAE N       followers;partisans
+;; OatobAE_1
+OatobAE N       followers;partisans
 ;; tabaEiy~_1
 tabaEiy~        Nall    incidental     [[tabaEiy~/ADJ]]
 ;; tabiEap_1
@@ -335,8 +335,8 @@ tuj~Ar  N       merchants;businessmen
 ;; tuwayojriy~_1
 tuwayojriy~     N0      Tuwaijri
 ;
-;; >atoHaf_1
->atoHaf PV      present
+;; OatoHaf_1
+OatoHaf PV      present
 toHif   IV_yu   present
 toHaf   IV_Pass_yu      be presented
 ;; tuHofap_1
@@ -391,8 +391,8 @@ toxim   IV      delimit;bound
 ;; tAxam_1
 tAxam   PV      border
 tAxim   IV_yu   border
-;; >atoxam_1
->atoxam PV      give indigestion;satiate
+;; Oatoxam_1
+Oatoxam PV      give indigestion;satiate
 toxim   IV_yu   give indigestion;satiate
 toxam   IV_Pass_yu      be given indigestion;be satiated
 ;; Ait~axam_1
@@ -461,8 +461,8 @@ tar~ib  IV_yu   make dusty
 ;; tArab_1
 tArab   PV      accompany;be of the same age
 tArib   IV_yu   accompany;be of the same age
-;; >atorab_1
->atorab PV      make dusty
+;; Oatorab_1
+Oatorab PV      make dusty
 torib   IV_yu   make dusty
 torab   IV_Pass_yu      be made dusty
 ;; tatar~ab_1
@@ -470,7 +470,7 @@ tatar~ab        PV_intr be dusty
 tatar~ab        IV_intr be dusty
 ;; tirob_1
 tirob   N       companion
->atorAb N       companions
+OatorAb N       companions
 ;; tarib_1
 tarib   N       dusty
 ;; turobap_1
@@ -480,7 +480,7 @@ turab   N       dust;graveyard
 turabiy~        Nall    gravedigger     [[turabiy~/ADJ]]
 ;; turAb_1
 turAb   N       dirt;soil
->atorib Nap     dirt;soil
+Oatorib Nap     dirt;soil
 tirobAn N       dirt;soil
 ;; turAbiy~_1
 turAbiy~        N0      Turabi
@@ -544,15 +544,15 @@ toraH   IV      grieve;be sad
 ;; tar~aH_1
 tar~aH  PV      grieve;distress
 tar~iH  IV_yu   grieve;distress
-;; >atoraH_1
->atoraH PV      grieve;distress
+;; OatoraH_1
+OatoraH PV      grieve;distress
 toriH   IV_yu   grieve;distress
 ;; tatar~aH_1
 tatar~aH        PV      grieve;be sad
 tatar~aH        IV      grieve;be sad
 ;; taraH_1
 taraH   N       grief;sadness
->atorAH N       grief;sadness
+OatorAH N       grief;sadness
 ;
 ;; taroziy~_1
 taroziy~        Nall    tailor     [[taroziy~/ADJ]]
@@ -565,7 +565,7 @@ tatar~as        PV      armor;barricade
 tatar~as        IV      armor;barricade
 ;; turos_1
 turos   Ndu     shield
->atorAs N       shields
+OatorAs N       shields
 turuws  N       shields
 ;; tiros_1
 tiros   Ndu     gear
@@ -590,8 +590,8 @@ tirsw   N       third class
 ;; tariE-a_1
 tariE   PV_intr be full
 toraE   IV_intr be full
-;; >atoraE_1
->atoraE PV      fill
+;; OatoraE_1
+OatoraE PV      fill
 toriE   IV_yu   fill
 toraE   IV_Pass_yu      be filled
 ;; turoEap_1
@@ -610,8 +610,8 @@ turogul~        Nap     turtledove
 ;; tarif-a_1
 tarif   PV      live in luxury
 toraf   IV      live in luxury
-;; >atoraf_1
->atoraf PV      surround with luxury
+;; Oatoraf_1
+Oatoraf PV      surround with luxury
 torif   IV_yu   surround with luxury
 toraf   IV_Pass_yu      be surrounded with luxury
 ;; tatar~af_1
@@ -637,7 +637,7 @@ tirfAs  N       truffle
 ;; tarak-u_1
 tarak   PV      leave;quit
 toruk   IV      leave;quit
-; >trk    Autoruk CV      leave;quit
+; Otrk    Autoruk CV      leave;quit
 ; Atrk    Autoruk CV      leave;quit
 ;; tArak_1
 tArak   PV      cease
@@ -664,7 +664,7 @@ Aisotatorak     PV_intr become Turkish
 sotatorik       IV_intr become Turkish
 ;; turok_1
 turok   N       Turks
->atorAk N       Turks
+OatorAk N       Turks
 ;; turkiyA_1
 turkiyA N0      Turkey
 ;; turokiy~_1
@@ -836,14 +836,14 @@ tiTowAn Ndip    Tetouan
 ;; taEib-a_1
 taEib   PV_intr be tired;work hard
 toEab   IV_intr be tired;work hard
-;; >atoEab_1
->atoEab PV      bother;make tired
+;; OatoEab_1
+OatoEab PV      bother;make tired
 toEib   IV_yu   bother;make tired
 toEab   IV_Pass_yu      be bothered;be tired out
 ;; taEob_1
 taEob   N       trouble;burden
-;; >atoEAb_1
->atoEAb N       inconveniences;labor
+;; OatoEAb_1
+OatoEAb N       inconveniences;labor
 ;; taEobAn_1
 taEobAn N/ap    tired
 ;; matAEib_1
@@ -861,8 +861,8 @@ taEotiE IV_yu   stammer;shake
 taEas   PV      perish;be miserable
 taEis   PV      perish;be miserable
 toEas   IV      perish;be miserable
-;; >atoEas_1
->atoEas PV      make unhappy;make miserable
+;; OatoEas_1
+OatoEas PV      make unhappy;make miserable
 toEis   IV_yu   make unhappy;make miserable
 toEas   IV_Pass_yu      be made unhappy;be made miserable
 ;; taEos_1
@@ -872,7 +872,7 @@ taEAs   Nap     misery
 ;; taEiys_1
 taEiys  N/ap    wretched;miserable
 tuEasA' N0_Nh   wretched;miserable
-tuEasA& Nh      wretched;miserable
+tuEasAW Nh      wretched;miserable
 tuEasA} Nhy     wretched;miserable
 ;; matoEuws_1
 matoEuws        Nall    wretched;miserable
@@ -929,14 +929,14 @@ tufuwh  N       triviality;insignificance
 tafAh   Nap     triviality;inanity
 ;; tAfih_1
 tAfih   Nall    trivial;commonplace
-;; >atofah_1
->atofah Nel     more/most trivial
+;; Oatofah_1
+Oatofah Nel     more/most trivial
 ;; tAfihap_1
 tAfih   NapAt   triviality
 tawAfih Ndip    trivialities
 ;
-;; >atoqan_1
->atoqan PV-n    master;perfect
+;; Oatoqan_1
+Oatoqan PV-n    master;perfect
 toqin   IV-n_yu master;perfect
 toqan   IV-n_Pass_yu    be mastered;be perfected
 ;; taqoniy~_1
@@ -947,10 +947,10 @@ taqoniy~        Nall    technician     [[taqoniy~/NOUN]]
 taqoniy~        NapAt   technique;technology     [[taqoniy~/NOUN]]
 ;; taqAnap_1
 taqAn   Nap     perfection;firmness
-;; >atoqan_2
->atoqan Nel     more/most perfect
-;; <itoqAn_1
-<itoqAn NduAt   mastery;proficiency
+;; Oatoqan_2
+Oatoqan Nel     more/most perfect
+;; IitoqAn_1
+IitoqAn NduAt   mastery;proficiency
 ;; mutoqan_1
 mutoqan Nall    exact;perfect
 ;
@@ -964,13 +964,13 @@ toq     IV_0hwnyn       be devout;be pious
 toqaY   IV_0_Pass_yu    be devout;be pious
 ;; taqiy~_1
 taqiy~  N/ap    pious;devout     [[taqiy~/ADJ]]
->atoqiyA'       N0_Nh   pious;devout
->atoqiyA&       Nh      pious;devout
->atoqiyA}       Nhy     pious;devout
-;; >atoqaY_1
->atoqaY N0      more/most pious
->atoqA  Nhy     more/most pious
->atoqay NAn_Nayn        more/most pious
+OatoqiyA'       N0_Nh   pious;devout
+OatoqiyAW       Nh      pious;devout
+OatoqiyA}       Nhy     pious;devout
+;; OatoqaY_1
+OatoqaY N0      more/most pious
+OatoqA  Nhy     more/most pious
+Oatoqay NAn_Nayn        more/most pious
 ;; tuqaY_1
 tuqaY   N0      piety
 tuqA    Nhy     piety
@@ -1055,7 +1055,7 @@ tal~    FW-WaBi Tel     [[tal~/NOUN_PROP]]
 ;; tal~_2
 tal~    Ndu     hill;elevation
 tilAl   N       hills;elevations;mountains
->atolAl N       hills;elevations;mountains
+OatolAl N       hills;elevations;mountains
 tuluwl  N       hills;elevations;mountains
 ;; tal~ap_1
 tal~    NapAt   heap
@@ -1082,8 +1082,8 @@ tilisokuwb      NduAt   telescope
 ;; tilisokuwbiy~_1
 tilisokuwbiy~   N-ap    telescopic     [[tiliskuwbiy~/ADJ]]
 ;
-;; >atolaE_1
->atolaE PV      crane;ogle
+;; OatolaE_1
+OatolaE PV      crane;ogle
 toliE   IV_yu   crane;ogle
 ;; taloEap_1
 taloE   Napdu   hill;stream
@@ -1107,8 +1107,8 @@ tolaf   IV_intr be damaged;be destroyed
 ;; tal~af_1
 tal~af  PV      ruin;wear out
 tal~if  IV_yu   ruin;wear out
-;; >atolaf_1
->atolaf PV      damage;ruin
+;; Oatolaf_1
+Oatolaf PV      damage;ruin
 tolif   IV_yu   damage;ruin
 tolaf   IV_Pass_yu      be damaged;be ruined
 ;; talaf_1
@@ -1122,8 +1122,8 @@ matolaf Napdu   desert
 matAlif Ndip    deserts
 ;; mitolAf_1
 mitolAf Nall    wastrel;harmful
-;; <itolAf_1
-<itolAf NduAt   destruction;harm
+;; IitolAf_1
+IitolAf NduAt   destruction;harm
 ;; tAlif_1
 tAlif   Nall    ruined;broken
 ;; matoluwf_1
@@ -1178,7 +1178,7 @@ tal~am  PV      plow
 tal~im  IV_yu   plow
 ;; talam_1
 talam   Ndu     furrow
->atolAm N       furrows
+OatolAm N       furrows
 ;
 ;; taloma*_1
 taloma* PV_intr be pupil;be apprentice
@@ -1224,11 +1224,11 @@ toluw   IV_0hAnn        follow;recite
 tol     IV_0hwnyn       follow;recite
 tolaY   IV_0_Pass_yu    be followed;be recited
 tolay   IV_Ann_Pass_yu  be followed;be recited
-;; >atolaY_1
->atolaY PV_0    make follow;put next
->atolA  PV_h    make follow;put next
->atolay PV_Atn  make follow;put next
->atol   PV_ttAw make follow;put next
+;; OatolaY_1
+OatolaY PV_0    make follow;put next
+OatolA  PV_h    make follow;put next
+Oatolay PV_Atn  make follow;put next
+Oatol   PV_ttAw make follow;put next
 toliy   IV_0hAnn_yu     make follow;put next
 tol     IV_0hwnyn_yu    make follow;put next
 tolaY   IV_0_Pass_yu    be made to follow;be put next
@@ -1281,9 +1281,9 @@ tomim   IV_C    conclude;take place
 ;; tam~am_1
 tam~am  PV      complete;conclude
 tam~im  IV_yu   complete;conclude
-;; >atam~_1
->atam~  PV_V    complete;conclude
->atomam PV_C    complete;conclude
+;; Oatam~_1
+Oatam~  PV_V    complete;conclude
+Oatomam PV_C    complete;conclude
 tim~    IV_V_yu complete;conclude
 tomim   IV_C_yu complete;conclude
 tam~    IV_V_Pass_yu    be completed;be concluded
@@ -1306,14 +1306,14 @@ tamiymiy~       Nall    Tamimi     [[tamiymiy~/ADJ]]
 ;; tamiymap_1
 tamiym  Napdu   amulet
 tamA}im Ndip    amulets
-;; >atam~_2
->atam~  Nel     more/most complete;more/most perfect
+;; Oatam~_2
+Oatam~  Nel     more/most complete;more/most perfect
 ;; tatim~ap_1
 tatim~  NapAt   completion;conclusion
 ;; tatomiym_1
 tatomiym        NduAt   completion;realization
-;; <itomAm_1
-<itomAm NduAt   completion;realization
+;; IitomAm_1
+IitomAm NduAt   completion;realization
 ;; AisotitomAm_1
 AisotitomAm     NduAt   termination;conclusion
 ;; tAm~_1
@@ -1371,7 +1371,7 @@ tanAniyn        Ndip    dragons
 ;; tAni}_1
 tAni}   N       resident
 tun~A'  N0_Nh   residents
-tun~A&  Nh      residents
+tun~AW  Nh      residents
 tun~A}  Nhy     residents
 ;
 ;--- tnb
@@ -1463,15 +1463,15 @@ litaw~inA       FW-Wa   immediately + we                          [[litaw~i/ADV+
 tuwAliyt        N       toilette
 ;
 ;--- twAm
-;; tawo>am_1
-tawo>am N/ap    twin
+;; tawoOam_1
+tawoOam N/ap    twin
 tawo'am N/ap    twin
 tawA}im Ndip    twins
-;; tawo>amap_1
-tawo>am Nap     partnership;twinning
+;; tawoOamap_1
+tawoOam Nap     partnership;twinning
 tawo'am Nap     partnership;twinning
-;; mutawo>am_1
-mutawo>am       Nall    twinned
+;; mutawoOam_1
+mutawoOam       Nall    twinned
 mutawo'am       Nall    twinned
 ;
 ;--- twb
@@ -1702,16 +1702,16 @@ tiytAnuws       N       tetanus
 tiytsiww        Nprop   Tetsu
 ;
 ;--- tyH
-;; >atAH_1
->atAH   PV_V    grant;provide
->ataH   PV_C    grant;provide
->utiyH  PV_V_Pass       be provided;be granted;be available
+;; OatAH_1
+OatAH   PV_V    grant;provide
+OataH   PV_C    grant;provide
+OutiyH  PV_V_Pass       be provided;be granted;be available
 tiyH    IV_V_yu grant;provide
 tiH     IV_C_yu grant;provide
 tAH     IV_V_Pass_yu    be provided;be granted;be available
 taH     IV_C_Pass_yu    be provided;be granted;be available
-;; <itAHap_1
-<itAH   Nap     granting;providing
+;; IitAHap_1
+IitAH   Nap     granting;providing
 ;; mutAH_1
 mutAH   Nall    provided;available;granted
 ;
@@ -1737,10 +1737,10 @@ tiyriysA        Nprop   Teresa
 ;--- tys
 ;; tayos_1
 tayos   Ndu     billy goat;fool
->atoyAs N       billy goats;fools
+OatoyAs N       billy goats;fools
 tuyuws  N       billy goats;fools
-;; >atoyas_1
->atoyas Nel     billy goat;fool
+;; Oatoyas_1
+Oatoyas Nel     billy goat;fool
 ;
 ;--- tyf
 ;; tiyfuwd_1
@@ -1778,7 +1778,7 @@ tay~am  PV      infatuate;enslave
 tay~im  IV_yu   infatuate;enslave
 ;; tayomA'_1
 tayomA' N0_Nh   Taima'
-tayomA& Nh      Taima'
+tayomAW Nh      Taima'
 tayomA} Nhy     Taima'
 ;; tiymAwiy~_1
 tiymAwiy~       N0      Timawi
@@ -1808,9 +1808,9 @@ tih     IV_C    get lost;perish
 ;; tay~ah_1
 tay~ah  PV      mislead;confuse
 tay~ih  IV_yu   mislead;confuse
-;; >atAh_1
->atAh   PV_V    mislead;confuse
->atah   PV_C    mislead;confuse
+;; OatAh_1
+OatAh   PV_V    mislead;confuse
+Oatah   PV_C    mislead;confuse
 tiyh    IV_V_yu mislead;confuse
 tih     IV_C_yu mislead;confuse
 tAh     IV_V_Pass_yu    be misled;be confused
@@ -1827,7 +1827,7 @@ tayohAn N/ap    straying;perplexed
 tayohAn N/ap    haughty
 ;; tayohA'_1
 tayohA' N0_Nh   desolate;wilderness
-tayohA& Nh      desolate;wilderness
+tayohAW Nh      desolate;wilderness
 tayohA} Nhy     desolate;wilderness
 ;; tayohap_1
 tayoh   Napdu   maze;labyrinth

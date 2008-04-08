@@ -4,7 +4,7 @@ yA      FW-Wa   oh;you     [[yA/INTERJ]]
 ;
 ;; yA'_1
 yA'     N0_Nh   ya' (Arabic letter)
-yA&     Nh      ya' (Arabic letter)
+yAW     Nh      ya' (Arabic letter)
 yA}     Nhy     ya' (Arabic letter)
 yA'     NAt     ya's (Arabic letter)
 ;
@@ -35,25 +35,25 @@ yAzijiy~        N0      Yaziji
 ;--- yAs
 ;; ya}is-ai_1
 ya}is   PV      despair;be hopeless
-yo>as   IV      despair;be hopeless
+yoOas   IV      despair;be hopeless
 yo}is   IV      despair;be hopeless
-;; >ayo>as_1
->ayo>as PV      make despair
+;; OayoOas_1
+OayoOas PV      make despair
 yo}is   IV_yu   make despair
-;; Aisotayo>as_1
-Aisotayo>as     PV      despair;be hopeless
+;; AisotayoOas_1
+AisotayoOas     PV      despair;be hopeless
 sotayo}is       IV      despair;be hopeless
-;; ya>os_1
-ya>os   N       despair;hopelessness
+;; yaOos_1
+yaOos   N       despair;hopelessness
 ;; ya|sap_1
 ya|s    Nap     despair;hopelessness
-;; ya&uws_1
-ya&uws  Nall    despairing;hopeless     [[ya&uws/ADJ]]
+;; yaWuws_1
+yaWuws  Nall    despairing;hopeless     [[yaWuws/ADJ]]
 ya}uws  Nall    despairing;hopeless
 ;; yA}is_1
 yA}is   Nall    hopeless;despairing     [[yA}is/ADJ]]
-;; mayo&uws_1
-mayo&uws        Nall    hopeless;desperate     [[mayo&uws/ADJ]]
+;; mayoWuws_1
+mayoWuws        Nall    hopeless;desperate     [[mayoWuws/ADJ]]
 mayo}uws        Nall    hopeless;desperate
 ;; musotayo}is_1
 musotayo}is     Nall    hopeless;desperate
@@ -121,8 +121,8 @@ yobas   IV_intr become dry
 ;; yab~as_1
 yab~as  PV      make dry;desiccate
 yab~is  IV_yu   make dry;desiccate
-;; >ayobas_1
->ayobas PV      make dry;desiccate
+;; Oayobas_1
+Oayobas PV      make dry;desiccate
 wbis    IV_yu   make dry;desiccate
 wbas    IV_Pass_yu      be dried;be desiccated
 ;; yabos_1
@@ -150,8 +150,8 @@ yotum   IV_intr be orphaned
 ;; yatim-a_1
 yatim   PV_intr be orphaned
 yotam   IV_intr be orphaned
-;; >ayotam_1
->ayotam PV      make orphan
+;; Oayotam_1
+Oayotam PV      make orphan
 wtim    IV_yu   make orphan
 wtam    IV_Pass_yu      be orphaned
 ;; tayat~am_1
@@ -159,7 +159,7 @@ tayat~am        PV_intr be orphaned
 tayat~am        IV_intr be orphaned
 ;; yatiym_1
 yatiym  N/ap    orphan;unique
->ayotAm N       orphans;unique
+OayotAm N       orphans;unique
 yatAmaY N0      orphans;unique
 yatAmA  Nhy     orphans;unique
 ;; mayotam_1
@@ -204,10 +204,10 @@ yaxoniy~        N-ap    ragout;meat and vegetable stew     [[yaxoniy~/ADJ]]
 ;--- yd
 ;; yad_1
 yad     Ndu     hand
->ayodiy N0_Nh   hands
->ayod   NK      hands
->ayAdiy N0_Nh   hands
->ayAd   NK      hands
+Oayodiy N0_Nh   hands
+Oayod   NK      hands
+OayAdiy N0_Nh   hands
+OayAd   NK      hands
 ;; yadawiy~_1
 yadawiy~        Nall    manual;hand     [[yadawiy~/ADJ]]
 ;
@@ -287,8 +287,8 @@ yas~ir  IV_yu   facilitate;make easy
 ;; yAsar_1
 yAsar   PV_intr be lenient with;be obliging with
 yAsir   IV_intr_yu      be lenient with;be obliging with
-;; >ayosar_1
->ayosar PV      live in comfort
+;; Oayosar_1
+Oayosar PV      live in comfort
 wsir    IV_yu   live in comfort
 wsar    IV_Pass_yu      be made easy;be facilitated
 ;; tayas~ar_1
@@ -314,14 +314,14 @@ yasAriy~        Nall    leftist     [[yasAriy~/ADJ]]
 yasiyr  N-ap    easy;simple     [[yasiyr/ADJ]]
 ;; yasiyr_2
 yasiyr  N-ap    small;short     [[yasiyr/ADJ]]
-;; >ayosar_2
->ayosar Nel     left
+;; Oayosar_2
+Oayosar Nel     left
 yusoraY N0      left;left hand
 yusorA  Nhy     left;left hand
 yusoray NAn_Nayn        left;left hands
 yusoray NAt     left;left hands
-;; >ayosar_3
->ayosar Nel     easier/easiest;smaller/smallest
+;; Oayosar_3
+Oayosar Nel     easier/easiest;smaller/smallest
 ;; mayosir_1
 mayosir N       maisir (pre-Islamic gambling)
 ;; mayosarap_1
@@ -418,8 +418,8 @@ yAfoT   NapAt   placard;sign
 ;; yafaE-a_1
 yafaE   PV      reach adolescence
 yofaE   IV      reach adolescence
-;; >ayofaE_1
->ayofaE PV      reach adolescence
+;; OayofaE_1
+OayofaE PV      reach adolescence
 wfiE    IV_yu   reach adolescence
 ;; tayaf~aE_1
 tayaf~aE        PV      reach adolescence
@@ -430,7 +430,7 @@ yafoE   N       adolescence;puberty
 yafaE   Ndu     hill
 ;; yafaE_2
 yafaE   Ndu     adolescent
->ayofAE N       adolescents
+OayofAE N       adolescents
 ;; yafAE_1
 yafAE   N       hill
 ;; yAfiE_1
@@ -460,8 +460,8 @@ yoquZ   IV_intr be awake;be alert
 ;; yaq~aZ_1
 yaq~aZ  PV      awaken;warn
 yaq~iZ  IV_yu   awaken;warn
-;; >ayoqaZ_1
->ayoqaZ PV      awaken;warn
+;; OayoqaZ_1
+OayoqaZ PV      awaken;warn
 wqiZ    IV_yu   awaken;warn
 wqaZ    IV_Pass_yu      be awakened;be warned
 ;; tayaq~aZ_1
@@ -473,7 +473,7 @@ sotayoqiZ       IV      wake up;be roused;be alert
 ;; yaqiZ_1
 yaqiZ   N-ap    awake;alert;vigilant     [[yaqiZ/ADJ]]
 yaquZ   N-ap    awake;alert;vigilant
->ayoqAZ N       awake;alert;vigilant
+OayoqAZ N       awake;alert;vigilant
 ;; yaqoZap_1
 yaqoZ   Nap     alertness;wakefulness
 yaqaZ   Nap     alertness;wakefulness
@@ -485,8 +485,8 @@ yaqoZY  N0      awake;alert;vigilant
 yaqoZA  Nhy     awake;alert;vigilant
 yaqAZY  N0      awake;alert;vigilant
 yaqAZA  Nhy     awake;alert;vigilant
-;; <iyqAZ_1
-<iyqAZ  N/At    awakening;reveille
+;; IiyqAZ_1
+IiyqAZ  N/At    awakening;reveille
 ;; tayaq~uZ_1
 tayaq~uZ        N/At    awakening;alertness;vigilance
 ;; AisotiyqAZ_1
@@ -500,8 +500,8 @@ musotayoqiZ     Nall    awake     [[musotayoqiZ/ADJ]]
 ;; yaqin-a_1
 yaqin   PV-n_intr       be sure;know for certain
 yoqan   IV-n_intr       be sure;know for certain
-;; >ayoqan_1
->ayoqan PV-n    ascertain;be convinced
+;; Oayoqan_1
+Oayoqan PV-n    ascertain;be convinced
 yoqin   IV-n    ascertain;be convinced
 ;; tayaq~an_1
 tayaq~an        PV-n    ascertain;be convinced
@@ -601,14 +601,14 @@ yamiyn  N       right side;right hand
 yamiyn  NF      to the right     [[yamiyn/ADV]]
 ;; yamiyn_2
 yamiyn  Ndu     oath
->ayomun N       oaths
->ayomAn N       oaths
+Oayomun N       oaths
+OayomAn N       oaths
 ;; yamiyniy~_1
 yamiyniy~       Nall    rightist;right-wing     [[yamiyniy~/ADJ]]
-;; >ayoman_1
->ayoman Nprop   Ayman;Aiman
-;; >ayoman_2
->ayoman Nel     right;right hand;lucky     [[>ayoman/ADJ]]
+;; Oayoman_1
+Oayoman Nprop   Ayman;Aiman
+;; Oayoman_2
+Oayoman Nel     right;right hand;lucky     [[Oayoman/ADJ]]
 ;; yumonaY_1
 yumonaY N0      right hand;right side;lucky     [[yumonY/ADJ]]
 yumonA  Nhy     right hand;right side;lucky     [[yumonA/ADJ]]
@@ -650,8 +650,8 @@ yanosuwn        N       aniseed;anise
 yanaE   PV      ripen;mellow
 yonaE   IV      ripen;mellow
 yoniE   IV      ripen;mellow
-;; >ayonaE_1
->ayonaE PV      ripen;mellow
+;; OayonaE_1
+OayonaE PV      ripen;mellow
 wniE    IV_yu   ripen;mellow
 wnaE    IV_Pass_yu      be ripened;be mellowed
 ;; yanoE_1
@@ -660,8 +660,8 @@ yanoE   N       ripening;mellowing
 yunuwE  N       ripening;mellowing
 ;; yaniyE_1
 yaniyE  Nall    ripe;mellow     [[yaniyE/ADJ]]
-;; <iynAE_1
-<iynAE  N/At    ripening;mellowing
+;; IiynAE_1
+IiynAE  N/At    ripening;mellowing
 ;; yAniE_1
 yAniE   N/ap    ripe;mellow     [[yAniE/ADJ]]
 yanoE   N-ap    ripe;mellow
@@ -705,7 +705,7 @@ yuwd    N       iodine
 ;--- ywrA
 ;; yuwrAniyuwm_1
 yuwrAniyuwm     N0      uranium
->uwrAniyuwm     N0      uranium
+OuwrAniyuwm     N0      uranium
 ;
 ;--- ywrk
 ;; yuwrk_1
@@ -798,7 +798,7 @@ yAwam   PV      hire (as a day laborer)
 yAwim   IV_yu   hire (as a day laborer)
 ;; yawom_1
 yawom   Ndu     day
->ay~Am  N       days
+Oay~Am  N       days
 ;; yawom_2
 yawomAF FW-Wa   some day    [[yawomAF/ADV]]
 ;; yawom_3

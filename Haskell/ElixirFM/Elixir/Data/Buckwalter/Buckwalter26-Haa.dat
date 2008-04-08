@@ -4,7 +4,7 @@ hA      FW-Wa   look;now     [[hA/INTERJ]]
 ;
 ;; hA'_1
 hA'     N0_Nh   ha' (Arabic letter)
-hA&     Nh      ha' (Arabic letter)
+hAW     Nh      ha' (Arabic letter)
 hA}     Nhy     ha' (Arabic letter)
 hA'     NAt     ha's (Arabic letter)
 ;
@@ -125,11 +125,11 @@ hAnuwfiyr       Nprop   Hannover
 hAnuwy  Nprop   Hanoi
 ;
 ;--- hAhA
-;; ha>oha>_1
-ha>oha> PV->    laugh
-ha>oha| PV-|    laugh
-ha>oha& PV_w    laugh
-ha>ohi} IV_yu   laugh
+;; haOohaO_1
+haOohaO PV-O    laugh
+haOoha| PV-|    laugh
+haOohaW PV_w    laugh
+haOohi} IV_yu   laugh
 ;
 ; ;--- hAw
 ;; hAward_1
@@ -145,7 +145,7 @@ hAwAyiy N0      Hawaii
 hAwun   N       mortar
 hAwuwn  N       mortar
 hawAwiyn        Ndip    mortars
->ahowAn N       mortars
+OahowAn N       mortars
 ;
 ; ;--- hAy
 ;; hAytiy_1
@@ -163,9 +163,9 @@ hobub   IV_C    get up;set out;blow
 ;; hab~ab_1
 hab~ab  PV      tear;bungle
 hab~ib  IV_yu   tear;bungle
-;; >ahab~_1
->ahab~  PV_V    awaken;rouse
->ahobab PV_C    awaken;rouse
+;; Oahab~_1
+Oahab~  PV_V    awaken;rouse
+Oahobab PV_C    awaken;rouse
 hib~    IV_V_yu awaken;rouse
 hobib   IV_C_yu awaken;rouse
 hab~    IV_V_Pass_yu    be awakened;be roused
@@ -221,8 +221,8 @@ habo$   N       gathering;seizing;clutching
 habaT   PV      land;descend;fall
 hobuT   IV      land;descend;fall
 hobiT   IV      land;descend;fall
-;; >ahobaT_1
->ahobaT PV      lower;reduce
+;; OahobaT_1
+OahobaT PV      lower;reduce
 hobiT   IV_yu   lower;reduce
 hobaT   IV_Pass_yu      be lowered;be reduced
 ;; haboT_1
@@ -235,9 +235,9 @@ hubuwT  N       landing;descent;drop;fall;downfall
 habuwT  N       slope
 ;; habiyT_1
 habiyT  N-ap    emaciated;worn out     [[habiyT/ADJ]]
-;; >uhobuwTap_1
->uhobuwT        Napdu   parachute
->ahAbiyT        Ndip    parachutes
+;; OuhobuwTap_1
+OuhobuwT        Napdu   parachute
+OahAbiyT        Ndip    parachutes
 ;; mahobiT_1
 mahobiT Ndu     airstrip;runway
 mahAbiT Ndip    airstrips;runways
@@ -263,11 +263,11 @@ hotabil IV      take advantage;scheme;intrigue
 hibal~  N       husky;tall
 ;; habiyl_1
 habiyl  N       fool;dolt     [[habiyl/ADJ]]
-;; >ahobal_1
->ahobal Nel     dim-witted;imbecile     [[>ahobal/ADJ]]
->ahobal Nel     dim-witted;imbecile
+;; Oahobal_1
+Oahobal Nel     dim-witted;imbecile     [[Oahobal/ADJ]]
+Oahobal Nel     dim-witted;imbecile
 habolA' N0_Nh   dim-witted;imbecile
-habolA& Nh      dim-witted;imbecile
+habolAW Nh      dim-witted;imbecile
 habolA} Nhy     dim-witted;imbecile
 hubol   N       dim-witted;imbeciles
 ;; mahobal_1
@@ -301,12 +301,12 @@ habow   Napdu   swirl of dust
 habaw   NAt     swirls of dust
 ;; habA'_1
 habA'   N0_Nh   dust particles
-habA&   Nh      dust particles
+habAW   Nh      dust particles
 habA}   Nhy     dust particles
 habA'   Napdu   dust particle
->ahobA' N0_Nh   dust particles
->ahobA& Nh      dust particles
->ahobA} Nhy     dust particles
+OahobA' N0_Nh   dust particles
+OahobAW Nh      dust particles
+OahobA} Nhy     dust particles
 ;
 ;--- htr
 ;; hatar-i_1
@@ -315,8 +315,8 @@ hotir   IV      tear to pieces
 ;; hAtar_1
 hAtar   PV      insult;revile
 hAtir   IV_yu   insult;revile
-;; >ahotar_1
->ahotar PV_intr become senile
+;; Oahotar_1
+Oahotar PV_intr become senile
 hotir   IV_intr_yu      become senile
 ;; tahAtar_1
 tahAtar PV_intr be contradictory;revile each other
@@ -326,7 +326,7 @@ Aisotahotar     PV_intr be negligent;disdain
 sotahotir       IV_intr be negligent;disdain
 ;; hitor_1
 hitor   N       drivel;childish talk;falsehood
->ahotAr N       drivel;childish talk;falsehood
+OahotAr N       drivel;childish talk;falsehood
 ;; hutor_1
 hutor   N       feeble-mindedness;senility
 ;; muhAtarap_1
@@ -399,10 +399,10 @@ hiytolar        Nprop   Hitler
 ;--- htm
 ;; hutAmap_1
 hutAm   Nap     fragment
-;; >ahotam_1
->ahotam Nel     toothless;without front teeth
+;; Oahotam_1
+Oahotam Nel     toothless;without front teeth
 hatomA' N0_Nh   toothless;without front teeth
-hatomA& Nh      toothless;without front teeth
+hatomAW Nh      toothless;without front teeth
 hatomA} Nhy     toothless;without front teeth
 hutom   N       toothless;without front teeth
 ;; hitomiy~_1
@@ -441,20 +441,20 @@ sotahojij       IV_C    activate;stimulate
 hajiyj  N       burning;blazing
 ;
 ;--- hjA
-;; haja>-a_1
-haja>   PV->_intr       be satiated;be appeased
+;; hajaO-a_1
+hajaO   PV-O_intr       be satiated;be appeased
 haja|   PV-|_intr       be satiated;be appeased
-haja&   PV_w_intr       be satiated;be appeased
-hoja>   IV      be satiated;be appeased
+hajaW   PV_w_intr       be satiated;be appeased
+hojaO   IV      be satiated;be appeased
 hoja|   IV-|    be satiated;be appeased
-hoja&   IV_wn   be satiated;be appeased
+hojaW   IV_wn   be satiated;be appeased
 hoja}   IV_yn   be satiated;be appeased
-;; >ahoja>_1
->ahoja> PV->    satiate;appease
->ahoja| PV-|    satiate;appease
->ahoja& PV_w    satiate;appease
+;; OahojaO_1
+OahojaO PV-O    satiate;appease
+Oahoja| PV-|    satiate;appease
+OahojaW PV_w    satiate;appease
 hoji}   IV_yu   satiate;appease
-hoja>   IV_Pass_yu      be satiated;be appeased
+hojaO   IV_Pass_yu      be satiated;be appeased
 ;
 ;--- hjd
 ;; hajad-u_1
@@ -476,8 +476,8 @@ haj~ir  IV_yu   deport;expel
 ;; hAjar_1
 hAjar   PV      emigrate
 hAjir   IV_yu   emigrate
-;; >ahojar_1
->ahojar PV      abandon
+;; Oahojar_1
+Oahojar PV      abandon
 hojir   IV_yu   abandon
 hojar   IV_Pass_yu      be abandoned
 ;; tahAjar_1
@@ -491,7 +491,7 @@ hijor   Nap     emigration;exodus;Hegira
 hijoriy~        N-ap    Hijri;Hegira (calendar)     [[hijoriy~/ADJ]]
 ;; hajorA'_1
 hajorA' N0_Nh   obscenity
-hajorA& Nh      obscenity
+hajorAW Nh      obscenity
 hajorA} Nhy     obscenity
 hawAjir Ndip    obscenities
 ;; hajiyr_1
@@ -553,8 +553,8 @@ hajaS   N       mischief;horseplay;nuisance
 ;; hajaE-a_1
 hajaE   PV      sleep;be calm
 hojaE   IV      sleep;be calm
-;; >ahojaE_1
->ahojaE PV      satiate;appease
+;; OahojaE_1
+OahojaE PV      satiate;appease
 hojiE   IV_yu   satiate;appease
 hojaE   IV_Pass_yu      be satiated;be appeased
 ;; hajoE_1
@@ -584,8 +584,8 @@ haj~im  IV_yu   attack;strike
 ;; hAjam_1
 hAjam   PV      attack;assault
 hAjim   IV_yu   attack;assault
-;; >ahojam_1
->ahojam PV      attack;strike
+;; Oahojam_1
+Oahojam PV      attack;strike
 hojim   IV_yu   attack;strike
 hojam   IV_Pass_yu      be attacked
 ;; tahaj~am_1
@@ -632,7 +632,7 @@ haj~An  Nap     camel jockeys
 ;; hajiyn_1
 hajiyn  N/ap    half-breed;mulatto
 hujanA' N0_Nh   half-breeds;mulattos
-hujanA& Nh      half-breeds;mulattos
+hujanAW Nh      half-breeds;mulattos
 hujanA} Nhy     half-breeds;mulattos
 ;; mahAjiyn_1
 mahAjiyn        Ndip    half-breeds;mulattos
@@ -697,20 +697,20 @@ hajow   N       ridicule;ridiculing
 hajowiy~        Nall    defamatory;disparaging     [[hajowiy~/ADJ]]
 ;; hijA'_1
 hijA'   N0_Nh   derision;invective
-hijA&   Nh      derision;invective
+hijAW   Nh      derision;invective
 hijA}   Nhy     derision;invective
 ;; hijA'_2
 hijA'   N0_Nh   alphabet
-hijA&   Nh      alphabet
+hijAW   Nh      alphabet
 hijA}   Nhy     alphabet
 ;; hijA}iy~_1
 hijA}iy~        N-ap    satirical;invective     [[hijA}iy~/ADJ]]
 ;; hijA}iy~_2
 hijA}iy~        N-ap    alphabetical     [[hijA}iy~/ADJ]]
-;; >uhojuw~ap_1
->uhojuw~        Napdu   satirical poem;lampoon
->uhojiy~        Napdu   satirical poem;lampoon     [[>uhojiy~/NOUN]]
->ahAjiy~        N0_Nh   satirical poems;lampoons
+;; Ouhojuw~ap_1
+Ouhojuw~        Napdu   satirical poem;lampoon
+Ouhojiy~        Napdu   satirical poem;lampoon     [[Ouhojiy~/NOUN]]
+OahAjiy~        N0_Nh   satirical poems;lampoons
 ;; tahojiyap_1
 tahojiy Nap     spelling
 ;; tahaj~iy_1
@@ -777,38 +777,38 @@ muhad~id        Nall    threatening;menacing     [[muhad~id/ADJ]]
 muhad~ad        Nall    threatened;intimidated     [[muhad~ad/ADJ]]
 ;
 ;--- hdA
-;; hada>-a_1
-hada>   PV->    calm down;subside
+;; hadaO-a_1
+hadaO   PV-O    calm down;subside
 hada|   PV-|    calm down;subside
-hada&   PV_w    calm down;subside
-hoda>   IV      calm down;subside
+hadaW   PV_w    calm down;subside
+hodaO   IV      calm down;subside
 hoda|   IV-|    calm down;subside
-hoda&   IV_wn   calm down;subside
+hodaW   IV_wn   calm down;subside
 hoda}   IV_yn   calm down;subside
-;; had~a>_1
-had~a>  PV->    placate;appease;calm
+;; had~aO_1
+had~aO  PV-O    placate;appease;calm
 had~a|  PV-|    placate;appease;calm
-had~a&  PV_w    placate;appease;calm
+had~aW  PV_w    placate;appease;calm
 had~i}  IV_yu   placate;appease;calm
-;; >ahoda>_1
->ahoda> PV->    pacify;placate
->ahoda| PV-|    pacify;placate;calm down
->ahoda& PV_w    pacify;placate;calm down
+;; OahodaO_1
+OahodaO PV-O    pacify;placate
+Oahoda| PV-|    pacify;placate;calm down
+OahodaW PV_w    pacify;placate;calm down
 hodi}   IV_yu   pacify;placate;calm down
-hoda>   IV_Pass_yu      be pacified;be placated;be calmed down
+hodaO   IV_Pass_yu      be pacified;be placated;be calmed down
 ;; hado'_1
 hado'   N0F     calm;tranquillity
-hado>   Nh      calm;tranquillity
-hado&   Nh      calm;tranquillity
+hadoO   Nh      calm;tranquillity
+hadoW   Nh      calm;tranquillity
 hado}   Nhy     calm;tranquillity
-hado>   Nap     calm;tranquillity
+hadoO   Nap     calm;tranquillity
 ;; huduw'_1
 huduw'  N0_Nh   calm;quiet;tranquillity
 huduw}  Nhy     calm;quiet;tranquillity
-;; >ahoda>_2
->ahoda> N0_Nh   more/most quiet;calmer/calmest
->ahoda| N-|     most quiet;calmest
->ahoda} Nayn    most quiet;calmest
+;; OahodaO_2
+OahodaO N0_Nh   more/most quiet;calmer/calmest
+Oahoda| N-|     most quiet;calmest
+Oahoda} Nayn    most quiet;calmest
 ;; tahodi}ap_1
 tahodi} Nap     calming;appeasement
 ;; hAdi}_1
@@ -831,17 +831,17 @@ had~ib  IV_yu   trim with fringe;fringe
 ;; hudob_1
 hudob   Ndu     eyelashes
 hudub   Ndu     eyelashes
->ahodAb N       eyelashes
+OahodAb N       eyelashes
 ;; hudob_2
 hudob   Ndu     fringe;tassel
 hudub   Ndu     fringe;tassel
->ahodAb N       fringes;tassels
+OahodAb N       fringes;tassels
 ;; hadib_1
 hadib   N/ap    having long lashes
-;; >ahodab_1
->ahodab Nel     having long lashes
+;; Oahodab_1
+Oahodab Nel     having long lashes
 hadobA' N0_Nh   having long lashes
-hadobA& Nh      having long lashes
+hadobAW Nh      having long lashes
 hadobA} Nhy     having long lashes
 ;; hud~Ab_1
 hud~Ab  N       fringes;border
@@ -877,8 +877,8 @@ hodir   IV      roar;shout;rage
 ;; hadar-u_1
 hadar   PV_intr be in vain
 hodur   IV_intr be in vain
-;; >ahodar_1
->ahodar PV      abandon;consider invalid
+;; Oahodar_1
+Oahodar PV      abandon;consider invalid
 hodir   IV_yu   abandon;consider invalid
 hodar   IV_Pass_yu      be abandoned;be considered invalid
 ;; hador_1
@@ -893,8 +893,8 @@ had~Ar  N-ap    torrential;swirling     [[had~Ar/ADJ]]
 had~Ar  Nap     waterfall
 ;; hadiyr_1
 hadiyr  N       roaring;raging
-;; <ihodAr_1
-<ihodAr N/At    abandoning;relinquishing
+;; IihodAr_1
+IihodAr N/At    abandoning;relinquishing
 ;; hAdir_1
 hAdir   Nall    raging;roaring     [[hAdir/ADJ]]
 ;; mahoduwr_1
@@ -914,8 +914,8 @@ hadoraj Nap     hydrogenation
 hadaf   PV      aim;intend
 hodif   IV      aim;intend
 hodaf   IV_Pass_yu      be intended;be aimed at
-;; >ahodaf_1
->ahodaf PV      verge on;approach
+;; Oahodaf_1
+Oahodaf PV      verge on;approach
 hodif   IV_yu   verge on;approach
 hodaf   IV_Pass_yu      be verged on;be approached
 ;; Aisotahodaf_1
@@ -924,10 +924,10 @@ sotahodif       IV      target;aim at
 sotahodaf       IV_Pass_yu      be targeted;be aimed at
 ;; hadaf_1
 hadaf   Ndu     goal;objective;intention
->ahodAf N       goals;objectives;intentions
+OahodAf N       goals;objectives;intentions
 ;; hadaf_2
 hadaf   Ndu     target
->ahodAf N       targets
+OahodAf N       targets
 ;; had~Af_1
 had~Af  Nall    sharpshooter
 ;; tahodiyf_1
@@ -954,10 +954,10 @@ tahad~al        IV      hang loosely;dangle
 ;; Ainohadal_1
 Ainohadal       PV      hang loosely;dangle
 nohadil IV      hang loosely;dangle
-;; >ahodal_1
->ahodal Nel     hanging loosely
+;; Oahodal_1
+Oahodal Nel     hanging loosely
 hadolA' N0_Nh   hanging loosely
-hadolA& Nh      hanging loosely
+hadolAW Nh      hanging loosely
 hadolA} Nhy     hanging loosely
 hudol   N       hanging loosely
 ;; muhad~al_1
@@ -980,8 +980,8 @@ nohadim IV_intr be torn down;be demolished
 hadom   N       demolition;razing
 ;; hadomiy~_1
 hadomiy~        N-ap    destructive     [[hadomiy~/ADJ]]
-;; >ahodAm_1
->ahodAm N       old clothes
+;; OahodAm_1
+OahodAm N       old clothes
 ;; huduwm_1
 huduwm  N       clothes
 ;; had~Am_1
@@ -1050,11 +1050,11 @@ hAdiy   IV_0hAnn_yu     exchange presents with
 hAd     IV_0hwnyn_yu    exchange presents with
 hAdaY   IV_0_Pass_yu    be exchanged (as presents)
 hAday   IV_Ann_Pass_yu  be exchanged (as presents)
-;; >ahodaY_1
->ahodaY PV_0    convey;present;lead
->ahodA  PV_h    convey;present;lead
->ahoday PV_Atn  convey;present;lead
->ahod   PV_ttAw convey;present;lead
+;; OahodaY_1
+OahodaY PV_0    convey;present;lead
+OahodA  PV_h    convey;present;lead
+Oahoday PV_Atn  convey;present;lead
+Oahod   PV_ttAw convey;present;lead
 hodiy   IV_0hAnn_yu     convey;present;lead
 hod     IV_0hwnyn_yu    convey;present;lead
 hodaY   IV_0_Pass_yu    be conveyed;be presented
@@ -1106,17 +1106,17 @@ hadAyA  N0_Nhy  gifts;presents
 hidAy   NapAt   guidance
 ;; hidAyat_1
 hidAyat Nprop   Hedayet
-;; >ahodaY_2
->ahodaY N0      better/best guided;more/most correct
->ahodA  Nhy     best guided;most correct
->ahoday NAn_Nayn        best guided;most correct
-;; <ihodA'_1
-<ihodA' N0_Nh   presenting;leading
-<ihodA& Nh      presenting;leading
-<ihodA} Nhy     presenting;leading
-<ihodA' NAn_Nayn        presenting;leading
-<ihodA} Nayn    presenting;leading
-<ihodA' NAt     presenting;leading
+;; OahodaY_2
+OahodaY N0      better/best guided;more/most correct
+OahodA  Nhy     best guided;most correct
+Oahoday NAn_Nayn        best guided;most correct
+;; IihodA'_1
+IihodA' N0_Nh   presenting;leading
+IihodAW Nh      presenting;leading
+IihodA} Nhy     presenting;leading
+IihodA' NAn_Nayn        presenting;leading
+IihodA} Nayn    presenting;leading
+IihodA' NAt     presenting;leading
 ;; muhodiy_1
 muhodiy N0F_Nh  leading;guiding     [[muhodiy/ADJ]]
 muhod   NK      leading;guiding
@@ -1169,7 +1169,7 @@ h`*Ani  FW-Wa   these two          [[h`*Ani/DEM_PRON_MD]]
 h`*ayoni        FW-WaBi these two          [[h`*ayoni/DEM_PRON_MD]]
 hAtAni  FW-Wa   these two          [[hAtAni/DEM_PRON_FD]]
 hAtayoni        FW-WaBi these two          [[hAtayoni/DEM_PRON_FD]]
-h`&ulA'i        FW-WaBi these              [[h`&ulA'i/DEM_PRON_MP]]
+h`WulA'i        FW-WaBi these              [[h`WulA'i/DEM_PRON_MP]]
 ;
 ;--- h*b
 ;; ha*ab-i_1
@@ -1231,7 +1231,7 @@ ho*iy   IV_0hAnn        be delirious
 ho*     IV_0hwnyn       be delirious
 ;; hu*A'_1
 hu*A'   N0_Nh   delirium
-hu*A&   Nh      delirium
+hu*AW   Nh      delirium
 hu*A}   Nhy     delirium
 ;; ha*ayAn_1
 ha*ayAn N       delirium;insanity
@@ -1260,35 +1260,35 @@ hariyr  N       howling;growling;purring
 hurayor Napdu   kitten
 ;
 ;--- hrA
-;; hara>-a_1
-hara>   PV->    tear;wear out;harm
+;; haraO-a_1
+haraO   PV-O    tear;wear out;harm
 hara|   PV-|    tear;wear out;harm
-hara&   PV_w    tear;wear out;harm
-hora>   IV      tear;wear out;harm
+haraW   PV_w    tear;wear out;harm
+horaO   IV      tear;wear out;harm
 hora|   IV-|    tear;wear out;harm
-hora&   IV_wn   tear;wear out;harm
+horaW   IV_wn   tear;wear out;harm
 hora}   IV_yn   tear;wear out;harm
-;; har~a>_1
-har~a>  PV->    tear;wear out
+;; har~aO_1
+har~aO  PV-O    tear;wear out
 har~a|  PV-|    tear;wear out
-har~a&  PV_w    tear;wear out
+har~aW  PV_w    tear;wear out
 har~i}  IV_yu   tear;wear out
-;; tahar~a>_1
-tahar~a>        PV->_intr       be tattered;be worn out
+;; tahar~aO_1
+tahar~aO        PV-O_intr       be tattered;be worn out
 tahar~a|        PV-|_intr       be tattered;be worn out
-tahar~a&        PV_w_intr       be tattered;be worn out
-tahar~a>        IV      be tattered;be worn out
+tahar~aW        PV_w_intr       be tattered;be worn out
+tahar~aO        IV      be tattered;be worn out
 tahar~a|        IV-|    be tattered;be worn out
-tahar~a&        IV_wn   be tattered;be worn out
+tahar~aW        IV_wn   be tattered;be worn out
 tahar~a}        IV_yn   be tattered;be worn out
-;; Aihotara>_1
-Aihotara>       PV->_intr       be tattered;be worn out
+;; AihotaraO_1
+AihotaraO       PV-O_intr       be tattered;be worn out
 Aihotara|       PV-|_intr       be tattered;be worn out
-Aihotara&       PV_w_intr       be tattered;be worn out
+AihotaraW       PV_w_intr       be tattered;be worn out
 hotari} IV_intr be tattered;be worn out
 ;; hurA'_1
 hurA'   N0_Nh   prattle;idle talk
-hurA&   Nh      prattle;idle talk
+hurAW   Nh      prattle;idle talk
 hurA}   Nhy     prattle;idle talk
 ;; mutahar~i}_1
 mutahar~i}      N-ap    torn;tattered     [[mutahar~i}/ADJ]]
@@ -1306,8 +1306,8 @@ horub   IV      flee;escape;desert
 ;; har~ab_1
 har~ab  PV      smuggle
 har~ib  IV_yu   smuggle
-;; >ahorab_1
->ahorab PV      smuggle
+;; Oahorab_1
+Oahorab PV      smuggle
 horib   IV_yu   smuggle
 horab   IV_Pass_yu      be smuggled
 ;; tahar~ab_1
@@ -1433,8 +1433,8 @@ horaE   IV      hurry;rush
 ;; har~aE_1
 har~aE  PV_intr be hurried;be rushed
 har~iE  IV_intr_yu      be hurried;be rushed
-;; >ahoraE_1
->ahoraE PV_intr be hurried;be rushed
+;; OahoraE_1
+OahoraE PV_intr be hurried;be rushed
 horiE   IV_intr_yu      be hurried;be rushed
 ;; haraE_1
 haraE   N       hurry;haste
@@ -1452,8 +1452,8 @@ hariyfiy~       N0      Harifi
 ;; haraq-a_1
 haraq   PV      shed;spill
 horaq   IV      shed;spill
-;; >ahoraq_1
->ahoraq PV      shed;spill;sacrifice
+;; Oahoraq_1
+Oahoraq PV      shed;spill;sacrifice
 horiq   IV_yu   shed;spill;sacrifice
 horaq   IV_Pass_yu      be shed;be spilled;be sacrificed
 ;; muhorAq_1
@@ -1462,8 +1462,8 @@ muhorAq N-ap    spilled;poured out     [[muhorAq/ADJ]]
 mahoraqAn       N       shore;coast;ocean
 muhoraqAn       N       shore;coast;ocean
 muhoruqAn       N       shore;coast;ocean
-;; <ihorAq_1
-<ihorAq N/At    spilling;shedding
+;; IihorAq_1
+IihorAq N/At    spilling;shedding
 ;; muhoraq_1
 muhoraq N-ap    spilled;shed
 ;; mahoraq_1
@@ -1488,13 +1488,13 @@ haram   N       senility;old age
 harim   Nall    senile;decrepit     [[harim/ADJ]]
 ;; haram_2
 haram   Ndu     pyramid
->ahorAm N/At    pyramids
-;; >ahorAm_1
->ahorAm N0      Ahram
+OahorAm N/At    pyramids
+;; OahorAm_1
+OahorAm N0      Ahram
 ;; haramiy~_1
 haramiy~        Nall    pyramidal;pyramid     [[haramiy~/ADJ]]
-;; >ahorAmiy~_1
->ahorAmiy~      Nall    pyramidal;pyramid     [[>ahorAmiy~/ADJ]]
+;; OahorAmiy~_1
+OahorAmiy~      Nall    pyramidal;pyramid     [[OahorAmiy~/ADJ]]
 ;
 ;--- hrms
 ;; haromas_1
@@ -1537,9 +1537,9 @@ muharowil       Nall    hurrying;in a hurry     [[muharowil/ADJ]]
 ;--- hry
 ;; huroy_1
 huroy   Ndu     granary
->ahorA' N0_Nh   granaries
->ahorA& Nh      granaries
->ahorA} Nhy     granaries
+OahorA' N0_Nh   granaries
+OahorAW Nh      granaries
+OahorA} Nhy     granaries
 ;; hAriy_1
 hAriy   N0F     unsteady;tottering;reeling     [[hAriy/ADJ]]
 hAr     NK      unsteady;tottering;reeling
@@ -1594,54 +1594,54 @@ mahozuwz        N-ap    shaky;shaken     [[mahozuwz/ADJ]]
 muhotaz~        Nall    trembling;shaking;quivering     [[muhotaz~/ADJ]]
 ;
 ;--- hzA
-;; haza>-a_1
-haza>   PV->    scoff;mock
+;; hazaO-a_1
+hazaO   PV-O    scoff;mock
 haza|   PV-|    scoff;mock
-haza&   PV_w    scoff;mock
-hoza>   IV      scoff;mock
+hazaW   PV_w    scoff;mock
+hozaO   IV      scoff;mock
 hoza|   IV-|    scoff;mock
-hoza&   IV_wn   scoff;mock
+hozaW   IV_wn   scoff;mock
 hoza}   IV_yn   scoff;mock
 ;; hazi}-a_1
 hazi}   PV      scoff;mock
-hoza>   IV      scoff;mock
+hozaO   IV      scoff;mock
 hoza|   IV-|    scoff;mock
-hoza&   IV_wn   scoff;mock
+hozaW   IV_wn   scoff;mock
 hoza}   IV_yn   scoff;mock
-;; tahaz~a>_1
-tahaz~a>        PV->    deride;mock
+;; tahaz~aO_1
+tahaz~aO        PV-O    deride;mock
 tahaz~a|        PV-|    deride;mock
-tahaz~a&        PV_w    deride;mock
-tahaz~a>        IV      deride;mock
+tahaz~aW        PV_w    deride;mock
+tahaz~aO        IV      deride;mock
 tahaz~a|        IV-|    deride;mock
-tahaz~a&        IV_wn   deride;mock
+tahaz~aW        IV_wn   deride;mock
 tahaz~a}        IV_yn   deride;mock
-;; Aisotahoza>_1
-Aisotahoza>     PV->    deride;mock
+;; AisotahozaO_1
+AisotahozaO     PV-O    deride;mock
 Aisotahoza|     PV-|    deride;mock
-Aisotahoza&     PV_w    deride;mock
+AisotahozaW     PV_w    deride;mock
 sotahozi}       IV      deride;mock
 ;; hazo'_1
 hazo'   N0F     derision;contempt
-hazo>   Nh      derision;contempt
-hazo&   Nh      derision;contempt
+hazoO   Nh      derision;contempt
+hazoW   Nh      derision;contempt
 hazo}   Nhy     derision;contempt
 huzo'   N0F_Nh  derision;contempt
-huzo&   Nh      derision;contempt
+huzoW   Nh      derision;contempt
 huzo}   Nhy     derision;contempt
-;; huzu&_1
-huzu&   N       derision;contempt
+;; huzuW_1
+huzuW   N       derision;contempt
 ;; huzo}iy~_1
 huzo}iy~        Nall    derisive;mocking     [[huzo}iy~/ADJ]]
-;; huzo>ap_1
-huzo>   Napdu   object of ridicule;laughingstock
-;; huza>ap_1
-huza>   Nap     scoffer;scorner;mocker
-;; mahoza>ap_1
-mahoza> Nap     derision;mockery
+;; huzoOap_1
+huzoO   Napdu   object of ridicule;laughingstock
+;; huzaOap_1
+huzaO   Nap     scoffer;scorner;mocker
+;; mahozaOap_1
+mahozaO Nap     derision;mockery
 ;; AisotihozA'_1
 AisotihozA'     N0_Nh   ridicule;scorn
-AisotihozA&     Nh      ridicule;scorn
+AisotihozAW     Nh      ridicule;scorn
 AisotihozA}     Nhy     ridicule;scorn
 AisotihozA'     NAt     ridicule;scorn
 ;; hAzi}_1
@@ -1663,9 +1663,9 @@ hazij   PV      hum;sing
 hozaj   IV      hum;sing
 ;; hazaj_1
 hazaj   N       hazaj (poetic meter)
-;; >uhozuwjap_1
->uhozuwj        Napdu   song
->ahAziyj        Ndip    songs
+;; Ouhozuwjap_1
+Ouhozuwj        Napdu   song
+OahAziyj        Ndip    songs
 ;
 ;--- hzr
 ;; hazar-i_1
@@ -1710,8 +1710,8 @@ haz~il  IV_yu   emaciate;enervate
 ;; hAzal_1
 hAzal   PV      joke with;jest with
 hAzil   IV_yu   joke with;jest with
-;; >ahozal_1
->ahozal PV      emaciate;enervate
+;; Oahozal_1
+Oahozal PV      emaciate;enervate
 hozil   IV_yu   emaciate;enervate
 hozal   IV_Pass_yu      be emaciated;be enervated
 ;; Ainohazal_1
@@ -1931,8 +1931,8 @@ mahoDuwm        Nall    oppressed;outraged     [[mahoDuwm/ADJ]]
 mahoDuwm        Nall    digestible     [[mahoDuwm/ADJ]]
 ;
 ;--- hTE
-;; >ahoTaE_1
->ahoTaE PV      crane the neck
+;; OahoTaE_1
+OahoTaE PV      crane the neck
 hoTiE   IV_yu   crane the neck
 ;
 ;--- hTl
@@ -2039,8 +2039,8 @@ hokaE   IV      lie down;rest
 ;; tahak~am_1
 tahak~am        PV      mock;ridicule;be dilapidated
 tahak~am        IV      mock;ridicule;be dilapidated
-;; >uhokuwmap_1
->uhokuwm        Nap     derision;mockery
+;; Ouhokuwmap_1
+Ouhokuwm        Nap     derision;mockery
 ;; tahak~um_1
 tahak~um        N/At    scorn;sarcasm
 ;; tahak~umiy~_1
@@ -2063,9 +2063,9 @@ holil   IV_C    begin;appear
 ;; hal~al_1
 hal~al  PV      rejoice;applaud
 hal~il  IV_yu   rejoice;applaud
-;; >ahal~_1
->ahal~  PV_V    begin;appear
->aholal PV_C    begin;appear
+;; Oahal~_1
+Oahal~  PV_V    begin;appear
+Oaholal PV_C    begin;appear
 hil~    IV_V_yu begin;appear;offer;sacrifice
 holil   IV_C_yu begin;appear;offer;sacrifice
 hal~    IV_V_Pass_yu    be offered;be sacrificed
@@ -2088,8 +2088,8 @@ halal   N       fright;terror
 halal   NapAt   halala (1/100 of a Saudi riyal)
 ;; hilAl_1
 hilAl   N       crescent;new moon
->ahil~  Nap     crescents;new moons
->ahAliyl        Ndip    crescents;new moons
+Oahil~  Nap     crescents;new moons
+OahAliyl        Ndip    crescents;new moons
 ;; hilAl_2
 hilAl   N0      Crescent
 ;; hilAl_3
@@ -2127,11 +2127,11 @@ hulob   N       hair;bristles
 hulob   Napdu   hair;bristle
 ;; hilob_1
 hilob   Ndu     anchor;grapnel
->aholAb N       anchors;grapnels
-;; >aholab_1
->aholab Nel     hirsute;shaggy
+OaholAb N       anchors;grapnels
+;; Oaholab_1
+Oaholab Nel     hirsute;shaggy
 halobA' N0_Nh   hirsute;shaggy
-halobA& Nh      hirsute;shaggy
+halobAW Nh      hirsute;shaggy
 halobA} Nhy     hirsute;shaggy
 hulob   N       hirsute;shaggy
 ;; hulAbap_1
@@ -2144,14 +2144,14 @@ muhal~abiy~     Nap     mahallabiya (rice pudding topped with pistachios)     [[
 haliylaj        Ndu     ellipse
 ;; haliylajiy~_1
 haliylajiy~     N-ap    elliptical     [[haliylajiy~/ADJ]]
-;; <iholiylaj_1
-<iholiylaj      Ndu     ellipse
-;; <iholiylajiy~_1
-<iholiylajiy~   N-ap    elliptical     [[<iholiylajiy~/ADJ]]
-;; <iholayolaj_1
-<iholayolaj     Ndu     ellipse
-;; <iholayolajiy~_1
-<iholayolajiy~  N-ap    elliptical     [[<iholayolajiy~/ADJ]]
+;; Iiholiylaj_1
+Iiholiylaj      Ndu     ellipse
+;; Iiholiylajiy~_1
+Iiholiylajiy~   N-ap    elliptical     [[Iiholiylajiy~/ADJ]]
+;; Iiholayolaj_1
+Iiholayolaj     Ndu     ellipse
+;; Iiholayolajiy~_1
+Iiholayolajiy~  N-ap    elliptical     [[Iiholayolajiy~/ADJ]]
 ;
 ;--- hls
 ;; halas-i_1
@@ -2160,8 +2160,8 @@ holis   IV      emaciate;consume
 ;; hal~as_1
 hal~as  PV      waste away;become emaciated;hallucinate
 hal~is  IV_yu   waste away;become emaciated;hallucinate
-;; >aholas_1
->aholas PV      smile maliciously
+;; Oaholas_1
+Oaholas PV      smile maliciously
 holis   IV_yu   smile maliciously
 holas   IV_Pass_yu      be smiled at maliciously
 ;; halos_1
@@ -2208,8 +2208,8 @@ holik   IV      perish;be annihilated
 ;; hal~ak_1
 hal~ak  PV      destroy
 hal~ik  IV_yu   destroy
-;; >aholak_1
->aholak PV      destroy
+;; Oaholak_1
+Oaholak PV      destroy
 holik   IV_yu   destroy
 holak   IV_Pass_yu      be destroyed
 ;; tahAlak_1
@@ -2337,9 +2337,9 @@ ham~    PV_V    be ready;intend
 hamam   PV_C    be ready;intend
 hum~    IV_V    be ready;intend
 homum   IV_C    be ready;intend
-;; >aham~_1
->aham~  PV_V    concern;be important
->ahomam PV_C    concern;be important
+;; Oaham~_1
+Oaham~  PV_V    concern;be important
+Oahomam PV_C    concern;be important
 him~    IV_V_yu concern;be important
 homim   IV_C_yu concern;be important
 ham~    IV_V_Pass_yu    be of concern;be important
@@ -2361,10 +2361,10 @@ humAm   N-ap    magnanimous;heroic
 himAm   N       magnanimous;heroic
 ;; hamiym_1
 hamiym  N       zealous;eager     [[hamiym/ADJ]]
-;; >aham~_2
->aham~  Nel     more/most important
-;; >aham~iy~ap_1
->aham~iy~       Nap     importance;significance     [[>aham~iy~/NOUN]]
+;; Oaham~_2
+Oaham~  Nel     more/most important
+;; Oaham~iy~ap_1
+Oaham~iy~       Nap     importance;significance     [[Oaham~iy~/NOUN]]
 ;; maham~ap_1
 maham~  NapAt   task;assignment;mission
 mahAm~  Ndip    tasks;assignments;missions
@@ -2400,7 +2400,7 @@ hamaj   N       gnats;small flies
 hamaj   Napdu   gnat;small fly
 ;; hamaj_2
 hamaj   N       riffraff;barbarians
->ahomAj N       barbarians;savages
+OahomAj N       barbarians;savages
 ;; hamaj_3
 hamaj   N       hunger
 ;; hamajiy~_1
@@ -2417,8 +2417,8 @@ homud   IV      subside;fade;shrink
 ;; ham~ad_1
 ham~ad  PV      appease;mitigate;suppress
 ham~id  IV_yu   appease;mitigate;suppress
-;; >ahomad_1
->ahomad PV      appease;mitigate;suppress
+;; Oahomad_1
+Oahomad PV      appease;mitigate;suppress
 homid   IV_yu   appease;mitigate;suppress
 homad   IV_Pass_yu      be appeased;be mitigated;be suppressed
 ;; humuwd_1
@@ -2527,8 +2527,8 @@ munohamik       Nall    engrossed;dedicated;preoccupied     [[munohamik/ADJ]]
 hamal   PV      shed tears
 homul   IV      shed tears
 homil   IV      shed tears
-;; >ahomal_1
->ahomal PV      neglect;overlook;forget
+;; Oahomal_1
+Oahomal PV      neglect;overlook;forget
 homil   IV_yu   neglect;overlook;forget
 homal   IV_Pass_yu      be neglected;be overlooked;be forgetten
 ;; tahAmal_1
@@ -2539,8 +2539,8 @@ Ainohamal       PV      pour down;shed tears
 nohamil IV      pour down;shed tears
 ;; hamal_1
 hamal   N-ap    unattended;neglected
-;; <ihomAl_1
-<ihomAl N/At    neglect;oversight;carelessness
+;; IihomAl_1
+IihomAl N/At    neglect;oversight;carelessness
 ;; hAmil_1
 hAmil   N/ap    roving;roaming;vagabond
 hum~al  N       roving;roaming;vagabonds
@@ -2606,45 +2606,45 @@ hunAka  FW-Wa   there;there (is/are)    [[hunAka/ADV]]
 hunAlika        FW-Wa   there;there (is/are)    [[hunAlika/ADV]]
 ;
 ;--- hnA(2)
-;; hana>-uia_1
-hana>   PV->_intr       be beneficial;be wholesome
+;; hanaO-uia_1
+hanaO   PV-O_intr       be beneficial;be wholesome
 hana|   PV-|_intr       be beneficial;be wholesome
-hana&   PV_w_intr       be beneficial;be wholesome
-honu&   IV_intr be beneficial;be wholesome
+hanaW   PV_w_intr       be beneficial;be wholesome
+honuW   IV_intr be beneficial;be wholesome
 honi}   IV_intr be beneficial;be wholesome
-hona>   IV_intr be beneficial;be wholesome
+honaO   IV_intr be beneficial;be wholesome
 hona|   IV-|    be beneficial;be wholesome
-hona&   IV_wn   be beneficial;be wholesome
+honaW   IV_wn   be beneficial;be wholesome
 hona}   IV_yn   be beneficial;be wholesome
 ;; hani}-a_1
 hani}   PV_intr be delighted;enjoy
-hona>   IV_intr be delighted;enjoy
+honaO   IV_intr be delighted;enjoy
 hona|   IV-|    be delighted;enjoy
-hona&   IV_wn   be delighted;enjoy
+honaW   IV_wn   be delighted;enjoy
 hona}   IV_yn   be delighted;enjoy
-;; han~a>_1
-han~a>  PV->    congratulate
+;; han~aO_1
+han~aO  PV-O    congratulate
 han~a|  PV-|    congratulate
-han~a&  PV_w    congratulate
+han~aW  PV_w    congratulate
 han~i}  IV_yu   congratulate
-;; tahan~a>_1
-tahan~a>        PV->    enjoy;savor
+;; tahan~aO_1
+tahan~aO        PV-O    enjoy;savor
 tahan~a|        PV-|    enjoy;savor
-tahan~a&        PV_w    enjoy;savor
-tahan~a>        IV      enjoy;savor
+tahan~aW        PV_w    enjoy;savor
+tahan~aO        IV      enjoy;savor
 tahan~a|        IV-|    enjoy;savor
-tahan~a&        IV_wn   enjoy;savor
+tahan~aW        IV_wn   enjoy;savor
 tahan~a}        IV_yn   enjoy;savor
 ;; hanA'_1
 hanA'   N0_Nh   good health;happiness
-hanA&   Nh      good health;happiness
+hanAW   Nh      good health;happiness
 hanA}   Nhy     good health;happiness
 hanA'   Nap     good health;happiness
 ;; hanA'_2
 hanA'   Nprop   Hanaa
 ;; hinA'_1
 hinA'   N0_Nh   tar
-hinA&   Nh      tar
+hinAW   Nh      tar
 hinA}   Nhy     tar
 ;; haniy'_1
 haniy'  N0      healthful;beneficial;pleasant     [[haniy'/ADJ]]
@@ -2702,7 +2702,7 @@ hinodAwiy~      N0      Hindawi
 ;; hinodab_1
 hinodab N       endive;wild chicory
 hinodibA'       N0_Nh   endive;wild chicory
-hinodibA&       Nh      endive;wild chicory
+hinodibAW       Nh      endive;wild chicory
 hinodibA}       Nhy     endive;wild chicory
 ;
 ;--- hndr
@@ -2849,21 +2849,21 @@ huwtuwmuw       Nprop   Hutomo
 ;--- hwj
 ;; hawaj_1
 hawaj   N       folly;rashness
-;; >ahowaj_1
->ahowaj Nel     reckless;foolhardy
+;; Oahowaj_1
+Oahowaj Nel     reckless;foolhardy
 hawojA' N0_Nh   reckless;foolhardy
-hawojA& Nh      reckless;foolhardy
+hawojAW Nh      reckless;foolhardy
 hawojA} Nhy     reckless;foolhardy
 huwj    N       reckless;foolhardy
-;; >ahowaj_2
->ahowaj Nel     vehement;frantic
+;; Oahowaj_2
+Oahowaj Nel     vehement;frantic
 hawojA' N0_Nh   vehement;frantic
-hawojA& Nh      vehement;frantic
+hawojAW Nh      vehement;frantic
 hawojA} Nhy     vehement;frantic
 huwj    N       vehement;frantic
 ;; hawojA'_1
 hawojA' N0_Nh   hurricane;tornado
-hawojA& Nh      hurricane;tornado
+hawojAW Nh      hurricane;tornado
 hawojA} Nhy     hurricane;tornado
 huwj    N       hurricanes;tornadoes
 ;
@@ -2925,7 +2925,7 @@ nohAr   IV_V_intr       be demolished;collapse
 nohar   IV_C_intr       be demolished;collapse
 ;; hawor_1
 hawor   Ndu     lake
->ahowAr N       lakes
+OahowAr N       lakes
 ;; haworap_1
 hawor   NapAt   danger;peril
 ;; haw~Ariy~_1
@@ -2954,8 +2954,8 @@ huwromuwniy~    Nall    hormonal
 huromuwniy~     Nall    hormonal
 ;
 ;--- hwz
-;; >ahowAz_1
->ahowAz N0      Ahwaz
+;; OahowAz_1
+OahowAz N0      Ahwaz
 ;
 ;--- hws
 ;; hawis-a_1
@@ -2986,9 +2986,9 @@ hawiys  N       thought;idea;concept
 ;; hawiys_2
 hawiys  Ndu     canal lock
 hAwiys  Ndu     canal lock
->ahowis Nap     canal locks
-;; >ahowas_1
->ahowas Nel     foolish;crazy;dazzled
+Oahowis Nap     canal locks
+;; Oahowas_1
+Oahowas Nel     foolish;crazy;dazzled
 ;; mahowuws_1
 mahowuws        Nall    religious visionary
 ;; muhaw~as_1
@@ -3074,8 +3074,8 @@ hAl     N       mirage;fata morgana
 hAl     NapAt   halo;nimbus;aureole
 ;; hawol_1
 hawol   N       fright;shock
->ahowAl N       fright;shock
-hu&uwl  N       fright;shock
+OahowAl N       fright;shock
+huWuwl  N       fright;shock
 ;; hawolap_1
 hawol   Nap     terrifying thing;object of fear
 ;; tahowiyl_1
@@ -3135,9 +3135,9 @@ hun     IV_C_intr       be insignificant;be contemptible
 ;; haw~an_1
 haw~an  PV-n    facilitate;disparage
 haw~in  IV-n_yu facilitate;disparage
-;; >ahAn_1
->ahAn   PV_V    insult;disdain
->ahan   PV-n    insult;disdain
+;; OahAn_1
+OahAn   PV_V    insult;disdain
+Oahan   PV-n    insult;disdain
 hiyn    IV_V_yu insult;disdain
 hin     IV-n_yu insult;disdain
 hAn     IV_V_Pass_yu    be insulted;be disdained
@@ -3166,24 +3166,24 @@ hiyn    Nap     ease;comfort;leisure
 ;; hay~in_1
 hay~in  N-ap    light;easy;insignificant
 hayon   N-ap    light;easy;insignificant
->ahowinA'       N0_Nh   light;easy;insignificant
->ahowinA&       Nh      light;easy;insignificant
->ahowinA}       Nhy     light;easy;insignificant
+OahowinA'       N0_Nh   light;easy;insignificant
+OahowinAW       Nh      light;easy;insignificant
+OahowinA}       Nhy     light;easy;insignificant
 ;; huwayonA_1
 huwayonA        N0      gentleness;leisure
-;; >ahowan_1
->ahowan Nel     easy;comfortable;unimportant
+;; Oahowan_1
+Oahowan Nel     easy;comfortable;unimportant
 hawonA' N0_Nh   easy;comfortable;unimportant
-hawonA& Nh      easy;comfortable;unimportant
+hawonAW Nh      easy;comfortable;unimportant
 hawonA} Nhy     easy;comfortable;unimportant
-;; >ahoyan_1
->ahoyan Nel     smaller/smallest;lesser/least;contemptible
+;; Oahoyan_1
+Oahoyan Nel     smaller/smallest;lesser/least;contemptible
 ;; mahAnap_1
 mahAn   Nap     contempt;humiliation;disgrace
 ;; tahowiyn_1
 tahowiyn        N/At    disdain;disparagement
-;; <ihAnap_1
-<ihAn   NapAt   insult;contempt
+;; IihAnap_1
+IihAn   NapAt   insult;contempt
 ;; tahAwun_1
 tahAwun N/At    disdain;indifference
 ;; AisotihAnap_1
@@ -3251,11 +3251,11 @@ hAwiy   IV_0hAnn_yu     cajole;flatter
 hAw     IV_0hwnyn_yu    cajole;flatter
 hAwaY   IV_0_Pass_yu    be cajoled;be flattered
 hAway   IV_Ann_Pass_yu  be cajoled;be flattered
-;; >ahowaY_1
->ahowaY PV_0    aspire;have a penchant for;fall
->ahowA  PV_h    aspire;have a penchant for;fall
->ahoway PV_Atn  aspire;have a penchant for;fall
->ahow   PV_ttAw aspire;have a penchant for;fall
+;; OahowaY_1
+OahowaY PV_0    aspire;have a penchant for;fall
+OahowA  PV_h    aspire;have a penchant for;fall
+Oahoway PV_Atn  aspire;have a penchant for;fall
+Oahow   PV_ttAw aspire;have a penchant for;fall
 howiy   IV_0hAnn_yu     aspire;have a penchant for;fall
 how     IV_0hwnyn_yu    aspire;have a penchant for;fall
 howaY   IV_0_Pass_yu    be aspired
@@ -3299,38 +3299,38 @@ huwA    Nhy     abysses;chasms
 ;; hawaY_1
 hawaY   N0      affection;inclination;preference
 hawA    Nhy     affection;inclination;preference
->ahowA' N0_Nh   desires;wishes;inclinations
->ahowA& Nh      desires;wishes;inclinations
->ahowA} Nhy     desires;wishes;inclinations
+OahowA' N0_Nh   desires;wishes;inclinations
+OahowAW Nh      desires;wishes;inclinations
+OahowA} Nhy     desires;wishes;inclinations
 hawAyA  N0_Nhy  desires;wishes;inclinations
 ;; huwiy~_1
 huwiy~  N       fall;tumble
 ;; hawA'_1
 hawA'   N0_Nh   air;atmosphere;climate
-hawA&   Nh      air;atmosphere;climate
+hawAW   Nh      air;atmosphere;climate
 hawA}   Nhy     air;atmosphere;climate
->ahowiy Nap     air;atmosphere;climate
->ahowA' N0_Nh   air;atmosphere;climate
->ahowA& Nh      air;atmosphere;climate
->ahowA} Nhy     air;atmosphere;climate
+Oahowiy Nap     air;atmosphere;climate
+OahowA' N0_Nh   air;atmosphere;climate
+OahowAW Nh      air;atmosphere;climate
+OahowA} Nhy     air;atmosphere;climate
 ;; hawA}iy~_1
 hawA}iy~        NduAt   antenna     [[hawA}iy~/NOUN]]
 ;; hawA}iy~_2
 hawA}iy~        N-ap    air;aerial;atmospheric     [[hawA}iy~/ADJ]]
 ;; haw~A'_1
 haw~A'  N0_Nh   amateur;enthusiast
-haw~A&  Nh_Nuwn amateur;enthusiast
+haw~AW  Nh_Nuwn amateur;enthusiast
 haw~A}  Nh_Niyn amateur;enthusiast
 ;; hiwAyap_1
 hiwAy   NapAt   hobby;passion
 ;; haw~Ayap_1
 haw~Ay  NapAt   ventilator;fan
-;; >ahowaY_2
->ahowaY N0      more/most desirable;more/most preferable
->ahowA  Nhy     most desirable/preferable
->ahoway NAn_Nayn        most desirable/preferable
-;; >uhowiy~ap_1
->uhowiy~        Napdu   abyss;chasm     [[>uhowiy~/NOUN]]
+;; OahowaY_2
+OahowaY N0      more/most desirable;more/most preferable
+OahowA  Nhy     most desirable/preferable
+Oahoway NAn_Nayn        most desirable/preferable
+;; Ouhowiy~ap_1
+Ouhowiy~        Napdu   abyss;chasm     [[Ouhowiy~/NOUN]]
 ;; mahowaY_1
 mahowaY N0      crevasse;precipice
 mahowA  Nhy     crevasse;precipice
@@ -3344,7 +3344,7 @@ mihowA  Napdu   ventilator;fan
 tahowiy Nap     ventilation
 ;; AisotihowA'_1
 AisotihowA'     N0_Nh   fascination;enchantment;seduction
-AisotihowA&     Nh      fascination;enchantment;seduction
+AisotihowAW     Nh      fascination;enchantment;seduction
 AisotihowA}     Nhy     fascination;enchantment;seduction
 AisotihowA'     NAt     fascination;enchantment;seductions
 ;; hAwiy_1
@@ -3369,59 +3369,59 @@ hiya    FW-Wa   it/they/she          [[hiya/PRON_3FS]]
 hay~A   FW-Wa   let's go!     [[hay~A/INTERJ]]
 ;
 ;--- hyA(2)
-;; hay~a>_1
-hay~a>  PV      mobilize;prepare
+;; hay~aO_1
+hay~aO  PV      mobilize;prepare
 hay~a}  PV      mobilize;prepare
-hay~a&  PV_w    mobilize;prepare
+hay~aW  PV_w    mobilize;prepare
 hay~i'  IV_yu   mobilize;prepare
 hay~i}  IV_yu   mobilize;prepare
-hay~i&  IV_wn_yu        mobilize;prepare
-;; hAya>_1
-hAya>   PV      agree with
+hay~iW  IV_wn_yu        mobilize;prepare
+;; hAyaO_1
+hAyaO   PV      agree with
 hAya}   PV      agree with
-hAya&   PV_w    agree with
+hAyaW   PV_w    agree with
 hAyi'   IV_yu   agree with
 hAyi}   IV_yu   agree with
-hAyi&   IV_wn_yu        agree with
-;; tahay~a>_1
-tahay~a>        PV_intr be mobilized;be prepared
+hAyiW   IV_wn_yu        agree with
+;; tahay~aO_1
+tahay~aO        PV_intr be mobilized;be prepared
 tahay~a}        PV_intr be mobilized;be prepared
-tahay~a&        PV_w_intr       be mobilized;be prepared
-tahay~a>        IV_intr be mobilized;be prepared
+tahay~aW        PV_w_intr       be mobilized;be prepared
+tahay~aO        IV_intr be mobilized;be prepared
 tahay~a}        IV_intr be mobilized;be prepared
 tahay~a|        IV-|    be mobilized;be prepared
-tahay~a&        IV_wn   be mobilized;be prepared
-;; tahAya>_1
-tahAya> PV_C    adapt to each other;accommodate each other
+tahay~aW        IV_wn   be mobilized;be prepared
+;; tahAyaO_1
+tahAyaO PV_C    adapt to each other;accommodate each other
 tahAya} PV_C    adapt to each other;accommodate each other
 tahAya} PV_V    adapt to each other;accommodate each other
-tahAya& PV_w    adapt to each other;accommodate each other
-tahAya> IV      adapt to each other;accommodate each other
+tahAyaW PV_w    adapt to each other;accommodate each other
+tahAyaO IV      adapt to each other;accommodate each other
 tahAya} IV      adapt to each other;accommodate each other
-tahAya& IV_wn   adapt to each other;accommodate each other
+tahAyaW IV_wn   adapt to each other;accommodate each other
 ;; hayo}ap_1
 hayo}   Napdu   organization;agency
 hayo}   NAt     organizations;agencies
 hayo    N-|t    organizations;agencies
 ;; tahoyi}ap_1
 tahoyi} Nap     preparation;mobilization
-;; muhAya>ap_1
-muhAya> Napdu   profit sharing;joint usufruct
+;; muhAyaOap_1
+muhAyaO Napdu   profit sharing;joint usufruct
 muhAya  N-|t    profit sharing;joint usufruct
-;; tahay~u&_1
-tahay~u&        N/At    mobilization
+;; tahay~uW_1
+tahay~uW        N/At    mobilization
 tahay~u}        N/At    mobilization
-;; tahAyu&_1
-tahAyu& NduAt   mutual adaptation;mutual adjustment
+;; tahAyuW_1
+tahAyuW NduAt   mutual adaptation;mutual adjustment
 tahAyu} NduAt   mutual adaptation;mutual adjustment
 ;; muhay~i}_1
 muhay~i}        N-ap    preparatory
-;; muhay~a>_1
-muhay~a>        N0_Nh   prepared
+;; muhay~aO_1
+muhay~aO        N0_Nh   prepared
 muhay~a|        N-|     prepared
-muhay~a&        Nuwn_Niyn       prepared
+muhay~aW        Nuwn_Niyn       prepared
 muhay~a}        Nuwn_Niyn       prepared
-muhay~a>        Napdu   prepared
+muhay~aO        Napdu   prepared
 muhay~a}        Napdu   prepared
 muhay~a N-|t    prepared
 muhay~a}        NAt     prepared
@@ -3435,9 +3435,9 @@ hab     IV_C    fear;respect
 ;; hay~ab_1
 hay~ab  PV      intimidate
 hay~ib  IV_yu   intimidate
-;; >ahAb_1
->ahAb   PV_V    call on;appeal
->ahab   PV_C    call on;appeal
+;; OahAb_1
+OahAb   PV_V    call on;appeal
+Oahab   PV_C    call on;appeal
 hiyb    IV_V_yu call on;appeal
 hib     IV_C_yu call on;appeal
 hAb     IV_V_Pass_yu    be called on
@@ -3503,9 +3503,9 @@ hij     IV_C_intr       be stirred up;be agitated
 ;; hay~aj_1
 hay~aj  PV      agitate;stir up;provoke
 hay~ij  IV_yu   agitate;stir up;provoke
-;; >ahAj_1
->ahAj   PV_V    agitate;stir up;provoke
->ahaj   PV_C    agitate;stir up;provoke
+;; OahAj_1
+OahAj   PV_V    agitate;stir up;provoke
+Oahaj   PV_C    agitate;stir up;provoke
 hiyj    IV_V_yu agitate;stir up;provoke
 hij     IV_C_yu agitate;stir up;provoke
 hAj     IV_V_Pass_yu    be agitated;be stirred up;be provoked
@@ -3526,7 +3526,7 @@ hayajAn N       disturbance;agitation;commotion
 hiyAj   N       disturbance;agitation;commotion
 ;; hayojA'_1
 hayojA' N0_Nh   combat;battle
-hayojA& Nh      combat;battle
+hayojAW Nh      combat;battle
 hayojA} Nh      combat;battle
 ;; hayojA_1
 hayojA  N0      Haija
@@ -3674,10 +3674,10 @@ hayaf   N       slenderness
 hayuwf  N-ap    parched
 ;; hayofAn_1
 hayofAn Ndip    parched
-;; >ahoyaf_1
->ahoyaf Nel     slender;frail
+;; Oahoyaf_1
+Oahoyaf Nel     slender;frail
 hayofA' N0_Nh   slender;frail
-hayofA& Nh      slender;frail
+hayofAW Nh      slender;frail
 hayofA} Nhy     slender;frail
 hiyf    N       slender;frail
 ;
@@ -3706,9 +3706,9 @@ hil     IV_C    pour;strew
 ;; hay~al_1
 hay~al  PV      pour;pile up;strew
 hay~il  IV_yu   pour;pile up;strew
-;; >ahAl_1
->ahAl   PV_V    pour;pile up;strew
->ahal   PV_C    pour;pile up;strew
+;; OahAl_1
+OahAl   PV_V    pour;pile up;strew
+Oahal   PV_C    pour;pile up;strew
 hiyl    IV_V_yu pour;pile up;strew
 hil     IV_C_yu pour;pile up;strew
 hAl     IV_V_Pass_yu    be poured;be piled up;be strewn

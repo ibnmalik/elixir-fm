@@ -60,11 +60,7 @@ until (eof()) {
 
             closeEntry();
 
-            $root = $1;
-
-            $root =~ tr[>&<{][OWIA];
-
-            $root = encode "arabtex", decode "buckwalter", join ' ', split //, $root;
+            $root = encode "arabtex", decode "buckwalter", join ' ', split //, $1;
 
             $root =~ tr[A]['];
 
@@ -73,8 +69,6 @@ until (eof()) {
         elsif ($line =~ /^;;/) {
 
             my (undef, $orig, $index) = split /[\;\_\s\(]+/, $line;
-
-            $orig =~ tr[>&<{][OWIA];
 
             warn "\nIncosistent data \t$orig\t" unless $index;
 
@@ -85,8 +79,6 @@ until (eof()) {
             storeLine($line);
 
             my ($full, $type, $gloss) = split /\s+/, $line, 3;
-
-            $full =~ tr[>&<{][OWIA];
 
             $gloss =~ s/(?:\s+\[\[([^\]]+)\]\])?\s*$//;
 
@@ -687,7 +679,7 @@ sub storeType {
     }
     else {
 
-        $form =~ s/(?<![aiuIU])yA$/yY/;    ## Fischer (2001), par 10
+        $form =~ s/(?<![aiuIU])yA$/yY/;    ## Fischer (2002), par. 10
     }
 
     if ($form eq $Entry->{'form'}) {

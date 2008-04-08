@@ -38,7 +38,7 @@ taqab~ab        PV      bulge;swell
 taqab~ab        IV      bulge;swell
 ;; qab~_1
 qab~    Ndu     hub;lever;beam
->aqub~  N       hubs;levers;beams
+Oaqub~  N       hubs;levers;beams
 ;; qub~ap_1
 qub~    Napdu   dome;cupola
 qibAb   N       domes;cupolas
@@ -86,8 +86,8 @@ qabiyH  Napdu   villainous deed;dirty trick
 qabA}iH Ndip    villainous deeds;dirty tricks
 ;; qabAHap_1
 qabAH   Nap     ugliness;infamy
-;; >aqobaH_1
->aqobaH Nel     uglier/ugliest;fouler/foulest
+;; OaqobaH_1
+OaqobaH Nel     uglier/ugliest;fouler/foulest
 ;; maqobaHap_1
 maqobaH Napdu   shameful act
 maqAbiH Ndip    shameful acts;repulsive qualities
@@ -105,8 +105,8 @@ qabuwdAn        N       captain
 qabar   PV      bury
 qobur   IV      bury
 qobir   IV      bury
-;; >aqobar_1
->aqobar PV      bury
+;; Oaqobar_1
+Oaqobar PV      bury
 qobir   IV_yu   bury
 qobar   IV_Pass_yu      be buried
 ;; qabor_1
@@ -251,7 +251,7 @@ qab~iT  IV_yu   frown;have furrowed brows
 ;; qiboTiy~_1
 qiboTiy~        Nall    Coptic     [[qiboTiy~/NOUN]]
 qiboTiy~        Nall    Coptic     [[qiboTiy~/ADJ]]
->aqobAT N       Copts
+OaqobAT N       Copts
 qiboT   N       Copts
 ;
 ;; quboTAn_1
@@ -313,8 +313,8 @@ qab~il  IV_yu   kiss
 ;; qAbal_1
 qAbal   PV      meet;face
 qAbil   IV_yu   meet;face
-;; >aqobal_1
->aqobal PV      approach;engage in
+;; Oaqobal_1
+Oaqobal PV      approach;engage in
 qobil   IV_yu   approach;engage in
 qobal   IV_Pass_yu      be approached;be engaged in
 ;; taqab~al_1
@@ -370,10 +370,10 @@ qubAl   Nap     in front of;facing     [[qubAl/PREP]]
 qabAl   Nap     guarantee;liability
 ;; muqAbalap_1
 muqAbal NapAt   encounter;meeting;interview
-;; <iqobAl_1
-<iqobAl N/At    approach;concern for;interest in
-;; <iqobAl_2
-<iqobAl Nprop   Iqbal;Eqbal
+;; IiqobAl_1
+IiqobAl N/At    approach;concern for;interest in
+;; IiqobAl_2
+IiqobAl Nprop   Iqbal;Eqbal
 ;; taqab~ul_1
 taqab~ul        N/At    acceptance;tolerance
 ;; taqAbul_1
@@ -454,13 +454,13 @@ taqab~ay        IV_Ann  be arched;be vaulted
 taqab~  IV_0hwnyn       be arched;be vaulted
 ;; qabow_1
 qabow   N       underground shelter;vaulted ceiling;arch
->aqobiy Nap     underground shelters;vaulted ceilings;arches
+Oaqobiy Nap     underground shelters;vaulted ceilings;arches
 ;; qabowap_1
 qabow   Napdu   vault;cellar
 qabaw   NAt     vaults;cellars
 ;; qibA'_1
 qibA'   N0_Nh   interval;distance
-qibA&   Nh      interval;distance
+qibAW   Nh      interval;distance
 qibA}   Nhy     interval;distance
 ;; maqobuw~_1
 maqobuw~        N-ap    vaulted;arched     [[maqobuw~/ADJ]]
@@ -488,7 +488,7 @@ qat~At  Nall    slanderer;liar
 ;--- qtb
 ;; qatab_1
 qatab   Ndu     hump;hunch
->aqotAb N       humps;hunches
+OaqotAb N       humps;hunches
 ;; qutob_1
 qutob   N0      Qutb
 ;
@@ -503,8 +503,8 @@ qotur   IV_intr be stingy
 ;; qat~ar_1
 qat~ar  PV_intr be stingy;be parsimonious;exude aroma
 qat~ir  IV_intr_yu      be stingy;be parsimonious;exude aroma
-;; >aqotar_1
->aqotar PV      live in poverty
+;; Oaqotar_1
+Oaqotar PV      live in poverty
 qotir   IV_yu   live in poverty
 ;; qator_1
 qator   N       stinginess;parsimony
@@ -544,8 +544,8 @@ Aisotaqotal     PV      risk death
 sotaqotil       IV      risk death
 ;; qatol_1
 qatol   N       murder;killing
-;; >aqotAl_1
->aqotAl N       foes
+;; OaqotAl_1
+OaqotAl N       foes
 ;; qatiyl_1
 qatiyl  N/ap    killed;casualty     [[qatiyl/ADJ]]
 qatolaY N0      killed;dead;casualty
@@ -610,8 +610,8 @@ qatam   Nap     darkness;gloom
 qatAm   N       dark;blackish
 ;; qatAmap_1
 qatAm   Nap     darkness;gloom
-;; >aqotam_1
->aqotam Nel     dark;blackish
+;; Oaqotam_1
+Oaqotam Nel     dark;blackish
 ;; qAtim_1
 qAtim   N/ap    black;dark     [[qAtim/ADJ]]
 qawAtim Ndip    black;dark
@@ -629,12 +629,12 @@ qotav~  IV_V    uproot;extirpate
 qotaviv IV_C    uproot;extirpate
 ;; qiv~A'_1
 qiv~A'  N0_Nh   cucumber(s)
-qiv~A&  Nh      cucumber(s)
+qiv~AW  Nh      cucumber(s)
 qiv~A}  Nhy     cucumber(s)
 ;; qiv~A'ap_1
 qiv~A'  Napdu   cucumber
 quv~A'  N0_Nh   cucumber
-quv~A&  Nh      cucumber
+quv~AW  Nh      cucumber
 quv~A}  Nhy     cucumber
 quv~A'  NapAt   cucumber
 ;
@@ -655,7 +655,7 @@ quH~    IV_V    cough
 qoHuH   IV_C    cough
 ;; quH~_1
 quH~    N-ap    pure;genuine
->aqoHAH N       pure;genuine
+OaqoHAH N       pure;genuine
 quHAH   N       pure;genuine
 ;
 ;--- qHb
@@ -671,8 +671,8 @@ qoHaT   IV_intr be withheld;be rainless
 ;; qaH~aT_1
 qaH~aT  PV      pollinate
 qaH~iT  IV_yu   pollinate
-;; >aqoHaT_1
->aqoHaT PV_intr be rainless
+;; OaqoHaT_1
+OaqoHaT PV_intr be rainless
 qoHiT   IV_intr_yu      be rainless
 ;; qaHoT_1
 qaHoT   N       drought;famine;dearth
@@ -693,7 +693,7 @@ qotaHif IV      swallow;gulp
 ;; qiHof_1
 qiHof   N       skull;cranium
 quHuwf  N       skulls;crania
->aqoHAf N       skulls;crania
+OaqoHAf N       skulls;crania
 qiHaf   Nap     skulls;crania
 ;; quHAf_1
 quHAf   N-ap    torrential     [[quHAf/ADJ]]
@@ -714,7 +714,7 @@ quHuwl  N       dryness;aridity
 quHuwl  Nap     dryness;aridity
 ;; qaHolA'_1
 qaHolA' N0_Nh   arid;dry     [[qaHolA'/ADJ]]
-qaHolA& Nh      arid;dry
+qaHolAW Nh      arid;dry
 qaHolA} Nhy     arid;dry
 qAHil   N-ap    arid;dry
 ;
@@ -722,8 +722,8 @@ qAHil   N-ap    arid;dry
 ;; qaHam-u_1
 qaHam   PV      burst into;take by storm;undertake boldly
 qoHum   IV      burst into;take by storm;undertake boldly
-;; >aqoHam_1
->aqoHam PV      squeeze;cram
+;; OaqoHam_1
+OaqoHam PV      squeeze;cram
 qoHim   IV_yu   squeeze;cram
 qoHam   IV_Pass_yu      be squeezed;be crammed
 ;; AiqotaHam_1
@@ -735,18 +735,18 @@ quHam   N       dangers;hazardous enterprises
 ;; miqoHAm_1
 miqoHAm Ndu     daring;reckless
 maqAHiym        Ndip    daring;reckless
-;; <iqoHAm_1
-<iqoHAm N/At    involvement;implicating
+;; IiqoHAm_1
+IiqoHAm N/At    involvement;implicating
 ;; AiqotiHAm_1
 AiqotiHAm       NduAt   assault;storming;breach;incursion
 ;
 ;--- qHw
-;; >uqoHuwAn_1
->uqoHuwAn       N       chamomile;daisy
+;; OuqoHuwAn_1
+OuqoHuwAn       N       chamomile;daisy
 quHowAn N       chamomile;daisy
->aqAHiy N0_Nh   chamomile;daisies
->aqAH   NK      chamomile;daisies
->aqAHiy~        N0_Nh   chamomile;daisies
+OaqAHiy N0_Nh   chamomile;daisies
+OaqAH   NK      chamomile;daisies
+OaqAHiy~        N0_Nh   chamomile;daisies
 ;
 ;--- qd
 ; qad + perfect
@@ -777,7 +777,7 @@ qotad~  IV_V    cut lengthwise;cut into strips
 qotadid IV_C    cut lengthwise;cut into strips
 ;; qid~_1
 qid~    Ndu     strap;thong
->aqud~  N       straps;thongs
+Oaqud~  N       straps;thongs
 ;; qid~ap_1
 qid~    Napdu   rail;ruler
 qidad   N       rails;rulers
@@ -809,20 +809,20 @@ qadoH   N       slander;rebuke
 ;; qidoH_1
 qidoH   Ndu     arrow
 qidAH   N       arrows
->aqoduH N       arrows
->aqodAH N       arrows
->aqAdiyH        Ndip    arrows
+OaqoduH N       arrows
+OaqodAH N       arrows
+OaqAdiyH        Ndip    arrows
 ;; qidoH_2
 qidoH   N       preponderance;decisive influence
 ;; qadaH_1
 qadaH   Ndu     cup;goblet;tumbler
->aqodAH N       cups;goblets;tumblers
+OaqodAH N       cups;goblets;tumblers
 ;; qadaH_2
 qadaH   Ndu     qadah
 ; (2 liters)
->aqodAH N       qadahs
+OaqodAH N       qadahs
 ; (1 = 2 liters)
->aqodAH N       qadahs
+OaqodAH N       qadahs
 ; (1 = 2 liters)
 ;; qad~AH_1
 qad~AH  Ndu     flint;lighter
@@ -862,10 +862,10 @@ Aisotaqodar     PV      ask for strength
 sotaqodir       IV      ask for strength
 ;; qador_1
 qador   N       extent;degree;amount;value;level
->aqodAr N       amounts;degrees
+OaqodAr N       amounts;degrees
 ;; qadar_1
 qadar   N       fate;destiny
->aqodAr N       fate;destiny
+OaqodAr N       fate;destiny
 ;; qadariy~_1
 qadariy~        Nall    fatalistic;Qadarite     [[qadariy~/ADJ]]
 ;; qadariy~ap_1
@@ -884,8 +884,8 @@ qadiyr  N/ap    capable;efficient     [[qadiyr/ADJ]]
 qadiyr  N0      omnipotent (God)     [[qadiyr/ADJ]]
 ;; qadiyr_3
 qadiyr  N0      Qadir;Qadeer
-;; >aqodar_1
->aqodar Nel     more/most capable
+;; Oaqodar_1
+Oaqodar Nel     more/most capable
 ;; maqodir_1
 maqodir Nap     ability;potential;capacity
 maqodur Nap     ability;potential;capacity
@@ -953,8 +953,8 @@ qudosiy~        Nall    holy;saintly     [[qudosiy~/ADJ]]
 qudosiy~        Nap     sanctity;holiness     [[qudosiy~/NOUN]]
 ;; qudus_2
 qudus   N       holy
-;; >aqodAs_1
->aqodAs N       shrines;sanctuaries
+;; OaqodAs_1
+OaqodAs N       shrines;sanctuaries
 ;; qud~As_1
 qud~As  N/At    religious service;Mass
 qadAdiys        Ndip    religious services;Mass services
@@ -965,8 +965,8 @@ qad~uws N       most holy
 qud~uws N       most holy
 ;; qid~iys_1
 qid~iys Nall    saint;Saint
-;; >aqodas_1
->aqodas Nel     holier/holiest;more/most sacred
+;; Oaqodas_1
+Oaqodas Nel     holier/holiest;more/most sacred
 ;; maqodis_1
 maqodis N       Jerusalem
 ;; maqodisiy~_1
@@ -1004,8 +1004,8 @@ qad~am  PV      offer;present;introduce
 qad~im  IV_yu   offer;present;introduce
 qud~im  PV_Pass be offered;be presented;be introduced
 qad~am  IV_Pass_yu      be offered;be presented;be introduced
-;; >aqodam_1
->aqodam PV      undertake;tackle;approach
+;; Oaqodam_1
+Oaqodam PV      undertake;tackle;approach
 qodim   IV_yu   undertake;tackle;approach
 qodam   IV_Pass_yu      be undertaken;be tackled;be approached
 ;; taqad~am_1
@@ -1019,7 +1019,7 @@ Aisotaqodam     PV      invite;summon
 sotaqodim       IV      invite;summon
 ;; qadam_1
 qadam   Ndu     foot
->aqodAm N       feet
+OaqodAm N       feet
 ;; qadamiy~ap_1
 qadamiy~        Nap     harmonium     [[qadamiy~/NOUN]]
 ;; qudum_1
@@ -1027,7 +1027,7 @@ qudum   NF      forward     [[qudum/ADV]]
 ;; qadiym_1
 qadiym  N/ap    old;ancient     [[qadiym/ADJ]]
 qudamA' N0_Nh   old;ancients
-qudamA& Nh      old;ancients
+qudamAW Nh      old;ancients
 qudamA} Nhy     old;ancients
 ;; qudAmaY_1
 qudAmaY N0      old;ancients
@@ -1055,11 +1055,11 @@ qud~Ami FW-Wa-i in front of     [[qud~Ami/PREP]]
 qud~Am  FW-Wa-o in front of     [[qud~Am/PREP]]
 ;; qud~Am_1
 qud~Am  N       front
-;; >aqodam_2
->aqodam Nel     older/oldest
->aqodam Nuwn_Niyn       ancients
-;; >aqodamiy~ap_1
->aqodamiy~      Nap     seniority     [[>aqodamiy~/NOUN]]
+;; Oaqodam_2
+Oaqodam Nel     older/oldest
+Oaqodam Nuwn_Niyn       ancients
+;; Oaqodamiy~ap_1
+Oaqodamiy~      Nap     seniority     [[Oaqodamiy~/NOUN]]
 ;; maqodam_1
 maqodam N       arrival;advent
 ;; miqodAm_1
@@ -1075,8 +1075,8 @@ taqodim Napdu   offer;donation;dedication
 ;; taqodimap_2
 taqodim NapAt   gift
 taqAdim Ndip    gifts
-;; <iqodAm_1
-<iqodAm N/At    courage;audacity
+;; IiqodAm_1
+IiqodAm N/At    courage;audacity
 ;; taqad~um_1
 taqad~um        N/At    progress;coming forward
 ;; taqad~umiy~_1
@@ -1150,7 +1150,7 @@ qadA    Nhy     savoriness
 qadiy~  N-ap    savory;tasty     [[qadiy~/ADJ]]
 ;; AiqotidA'_1
 AiqotidA'       N0_Nh   imitation;emulation
-AiqotidA&       Nh      imitation;emulation
+AiqotidAW       Nh      imitation;emulation
 AiqotidA}       Nhy     imitation;emulation
 AiqotidA'       NAn_Nayn        imitations;emulations
 AiqotidA}       Nayn    imitations;emulations
@@ -1183,7 +1183,7 @@ Aisotaqo*ar     PV      find impure;find filthy
 sotaqo*ir       IV      find impure;find filthy
 ;; qa*ar_1
 qa*ar   N       impurity;filth
->aqo*Ar N       impurities;filth
+Oaqo*Ar N       impurities;filth
 ;; qa*ir_1
 qa*ir   N-ap    impure;dirty     [[qa*ir/ADJ]]
 ;; qa*uwr_1
@@ -1200,8 +1200,8 @@ maqA*ir Ndip    sewer;cesspools;filth
 ;; qa*aE-a_1
 qa*aE   PV      malign;vilify
 qo*aE   IV      malign;vilify
-;; >aqo*aE_1
->aqo*aE PV      malign;vilify
+;; Oaqo*aE_1
+Oaqo*aE PV      malign;vilify
 qo*iE   IV_yu   malign;vilify
 qo*aE   IV_Pass_yu      be maligned;be vilified
 ;; qa*oE_1
@@ -1268,16 +1268,16 @@ maqA*iyf        Ndip    missile;projectile
 ;; qa*Al_1
 qa*Al   N       nape;occiput
 qu*ul   N       napes;occiputs
->aqo*il Nap     napes;occiputs
+Oaqo*il Nap     napes;occiputs
 ;; qa*Aliy~_1
 qa*Aliy~        N-ap    occipital;nape     [[qa*Aliy~/ADJ]]
 ;
 ;--- q*y
-;; >aqo*aY_1
->aqo*aY PV_0    bother;harrass;annoy
->aqo*A  PV_h    bother;harrass;annoy
->aqo*ay PV_Atn  bother;harrass;annoy
->aqo*   PV_ttAw bother;harrass;annoy
+;; Oaqo*aY_1
+Oaqo*aY PV_0    bother;harrass;annoy
+Oaqo*A  PV_h    bother;harrass;annoy
+Oaqo*ay PV_Atn  bother;harrass;annoy
+Oaqo*   PV_ttAw bother;harrass;annoy
 qo*iy   IV_0hAnn_yu     bother;harrass;annoy
 qo*     IV_0hwnyn_yu    bother;harrass;annoy
 qo*aY   IV_0_Pass_yu    be bothered;be harrassed;be annoyed
@@ -1290,9 +1290,9 @@ qa*A    Nap     speck;mote
 ;; qi*aY_1
 qi*aY   N0      dust particle
 qi*A    Nhy     dust particle
->aqo*A' N0_Nh   dust particles
->aqo*A& Nh      dust particles
->aqo*A} Nhy     dust particles
+Oaqo*A' N0_Nh   dust particles
+Oaqo*AW Nh      dust particles
+Oaqo*A} Nhy     dust particles
 ;
 ;--- qr
 ;; qar~-ia_1
@@ -1306,9 +1306,9 @@ qorar   IV_C    settle down;remain
 ;; qar~ar_1
 qar~ar  PV      decide;resolve
 qar~ir  IV_yu   decide;resolve
-;; >aqar~_1
->aqar~  PV_V    ratify;accept
->aqorar PV_C    ratify;accept
+;; Oaqar~_1
+Oaqar~  PV_V    ratify;accept
+Oaqorar PV_C    ratify;accept
 qir~    IV_V_yu ratify;accept
 qorir   IV_C_yu ratify;accept
 qar~    IV_V_Pass_yu    be ratified;be accepted
@@ -1346,8 +1346,8 @@ taqoriyr        Ndu     report;account
 taqAriyr        Ndip    reports;accounts
 ;; taqoriyriy~_1
 taqoriyriy~     N-ap    reporting     [[taqoriyriy~/ADJ]]
-;; <iqorAr_1
-<iqorAr NduAt   ratification;confirmation
+;; IiqorAr_1
+IiqorAr NduAt   ratification;confirmation
 ;; AisotiqorAr_1
 AisotiqorAr     NduAt   stability
 ;; qAr~_1
@@ -1373,29 +1373,29 @@ musotaqar~      N       residence
 maqoruwr        N-ap    at ease     [[maqoruwr/ADJ]]
 ;
 ;--- qrA
-;; qara>-a_1
-qara>   PV->    read
+;; qaraO-a_1
+qaraO   PV-O    read
 qara|   PV-|    read
-qara&   PV_w    read
-qora>   IV      read
-qora>   IV_wn   read
+qaraW   PV_w    read
+qoraO   IV      read
+qoraO   IV_wn   read
 qora|   IV-|    read
-qora&   IV_wn   read
+qoraW   IV_wn   read
 qora}   IV_yn   read
-qora>   IV_Pass_yu      be read
-;; >aqora>_1
->aqora> PV->    make read
->aqora| PV-|    make read
->aqora& PV_w    make read
+qoraO   IV_Pass_yu      be read
+;; OaqoraO_1
+OaqoraO PV-O    make read
+Oaqora| PV-|    make read
+OaqoraW PV_w    make read
 qori}   IV_yu   make read
-;; Aisotaqora>_1
-Aisotaqora>     PV->    study;investigate
+;; AisotaqoraO_1
+AisotaqoraO     PV-O    study;investigate
 Aisotaqora|     PV-|    study;investigate
-Aisotaqora&     PV_w    study;investigate
+AisotaqoraW     PV_w    study;investigate
 sotaqori}       IV      study;investigate
 ;; quro'_1
 quro'   N0F_Nh  menstruation
-quro&   Nh      menstruation
+quroW   Nh      menstruation
 quro}   Nhy     menstruation
 ;; quruw'_1
 quruw'  N0_Nh   menstruation
@@ -1407,32 +1407,32 @@ quro|n  N       Quran
 ;; quro|niy~_1
 quro|niy~       N-ap    Quranic     [[quro|niy~/ADJ]]
 ; see also under --- qrw
-;; miqora>_1
-miqora> N0_Nh   lectern;rostrum
-miqora& Nh      lectern;rostrum
+;; miqoraO_1
+miqoraO N0_Nh   lectern;rostrum
+miqoraW Nh      lectern;rostrum
 miqora} Nhy     lectern;rostrum
 miqora| N-|     lecterns;rostrums
 miqora} Nayn    lecterns;rostrums
 maqAri} Ndip    lecterns;rostrums
-;; maqora>ap_1
-maqora> Napdu   reading head
-;; <iqorA'_1
-<iqorA' N0F_Nh  making read
-<iqorA& Nh      making read
-<iqorA} Nhy     making read
+;; maqoraOap_1
+maqoraO Napdu   reading head
+;; IiqorA'_1
+IiqorA' N0F_Nh  making read
+IiqorAW Nh      making read
+IiqorA} Nhy     making read
 ;; AisotiqorA'_1
 AisotiqorA'     N0_Nh   investigation;examination;exploration
-AisotiqorA&     Nh      investigation;examination;exploration
+AisotiqorAW     Nh      investigation;examination;exploration
 AisotiqorA}     Nhy     investigation;examination;exploration
 AisotiqorA'     NAt     investigations;examinations;exploration
 ;; qAri}_1
 qAri}   Nall    reader
 qur~A'  N0_Nh   readers
-qur~A&  Nh      readers
+qur~AW  Nh      readers
 qur~A}  Nhy     readers
 ;; maqoruw'_1
 maqoruw'        N-ap    readable;read     [[maqoruw'/ADJ]]
-maqoruw&        Nh      readable;read
+maqoruwW        Nh      readable;read
 maqoruw}        Nhy     readable;read
 ;; maqoruw}iy~ap_1
 maqoruw}iy~     Nap     legibility     [[maqoruw}iy~/NOUN]]
@@ -1498,21 +1498,21 @@ qariyb  NF      recently;soon     [[qariyb/ADV]]
 qariyb  NF      closely;near     [[qariyb/ADV]]
 ;; qariyb_3
 qariyb  N       relative
->aqoribA'       N0_Nh   relatives
->aqoribA&       Nh      relatives
->aqoribA}       Nhy     relatives
+OaqoribA'       N0_Nh   relatives
+OaqoribAW       Nh      relatives
+OaqoribA}       Nhy     relatives
 ;; qirAb_1
 qirAb   N       sheath;container
 qurub   N       sheaths;containers
->aqorib Nap     sheaths;containers
+Oaqorib Nap     sheaths;containers
 ;; qarAbap_1
 qarAb   Nap     affinity;kinship;relationship
 ;; qurAbap_1
 qurAb   Nap     almost;nearly
-;; >aqorab_1
->aqorab Nel     soonest;nearer/nearest;more/most likely
->aqorab Nuwn_Niyn       relatives
->aqArib Ndip    relatives;extended family
+;; Oaqorab_1
+Oaqorab Nel     soonest;nearer/nearest;more/most likely
+Oaqorab Nuwn_Niyn       relatives
+OaqArib Ndip    relatives;extended family
 ;; maqorabap_1
 maqorab Nap     close;near;vicinity;proximity
 ;; maqorab_1
@@ -1749,7 +1749,7 @@ qaroS   Napdu   pinch;bite;sting
 qaraS   NAt     pinches;bites;stings
 ;; quroS_1
 quroS   Ndu     disk;tablet
->aqorAS N       disks;tablets
+OaqorAS N       disks;tablets
 ;; quroSiy~_1
 quroSiy~        N-ap    disk-shaped     [[quroSiy~/ADJ]]
 ;; quroSap_1
@@ -1789,12 +1789,12 @@ qar~iD  IV_yu   corrode
 ;; qAraD_1
 qAraD   PV      lend
 qAriD   IV_yu   lend
-;; >aqoraD_1
->aqoraD PV      lend
+;; OaqoraD_1
+OaqoraD PV      lend
 qoriD   IV_yu   lend
 qoraD   IV_Pass_yu      be lent
-;; <iqorAD_1
-<iqorAD NduAt   lending;loan
+;; IiqorAD_1
+IiqorAD NduAt   lending;loan
 ;; taqAraD_1
 taqAraD PV      exchange
 taqAraD IV      exchange
@@ -1856,7 +1856,7 @@ qar~iT  IV_yu   mince;snuff out
 qaroT   N       mincing
 ;; quroT_1
 quroT   Ndu     earring
->aqorAT N       earrings
+OaqorAT N       earrings
 qirAT   N       earrings
 quruwT  N       earrings
 ;; qirAT_1
@@ -1979,10 +1979,10 @@ qariyE  N0      Qarie
 ;; qariyEap_1
 qariyE  Nap     elite;cream
 qarA}iE Ndip    elite;cream
-;; >aqoraE_1
->aqoraE Nel     bald;bare
+;; OaqoraE_1
+OaqoraE Nel     bald;bare
 qaroEA' N0_Nh   bald;bare
-qaroEA& Nh      bald;bare
+qaroEAW Nh      bald;bare
 qaroEA} Nhy     bald;bare
 ;; quroE_1
 quroE   N       bald
@@ -2052,8 +2052,8 @@ qariyf  Nap     ill humor
 qarofAn N       disgusted     [[qarofAn/ADJ]]
 ;; taqoriyf_1
 taqoriyf        N/At    disgusting;causing disgust
-;; <iqorAf_1
-<iqorAf N/At    disgusting
+;; IiqorAf_1
+IiqorAf N/At    disgusting
 ;; AiqotirAf_1
 AiqotirAf       N/At    perpetration
 ;; muqorif_1
@@ -2069,7 +2069,7 @@ qarofiS IV_yu   squat
 qarofaS Nap     squatting
 ;; qurofuSA'_1
 qurofuSA'       N0_Nh   squatting position
-qurofuSA&       Nh      squatting position
+qurofuSAW       Nh      squatting position
 qurofuSA}       Nhy     squatting position
 ;
 ;--- qrfl
@@ -2159,7 +2159,7 @@ qarom   Ndu     studhorse;lord
 quruwm  N       studhorses;lords
 ;; qirAm_1
 qirAm   N       blanket;curtain
->aqorim Nap     blankets;curtains
+Oaqorim Nap     blankets;curtains
 ;; miqoram_1
 miqoram Ndu     bedspread
 maqArim Ndip    bedspreads
@@ -2224,8 +2224,8 @@ qAran   PV-n    compare
 qArin   IV-n_yu compare
 quwrin  PV-n_Pass       be compared
 qAran   IV-n_Pass_yu    be compared
-;; >aqoran_1
->aqoran PV-n    combine
+;; Oaqoran_1
+Oaqoran PV-n    combine
 qorin   IV-n_yu combine
 qoran   IV-n_Pass_yu    be combined
 ;; taqAran_1
@@ -2253,9 +2253,9 @@ qaroniy~        Nap     cornea     [[qaroniy~/NOUN]]
 qaroniy~        NAt     legumes     [[qaroniy~/NOUN]]
 ;; qiron_1
 qiron   N       contemporary;peer
->aqorAn N       contemporaries;peers
-;; >aqorAniy~_1
->aqorAniy~      N-ap    similar;alike     [[>aqorAniy~/ADJ]]
+OaqorAn N       contemporaries;peers
+;; OaqorAniy~_1
+OaqorAniy~      N-ap    similar;alike     [[OaqorAniy~/ADJ]]
 ;; quronap_1
 quron   Napdu   corner
 quran   N       corners
@@ -2265,7 +2265,7 @@ quronap Nprop   Qornet;Qurnat
 ;; qariyn_1
 qariyn  Ndu     associate;comrade
 quranA' N0_Nh   associates;comrades
-quranA& Nh      associates;comrades
+quranAW Nh      associates;comrades
 quranA} Nhy     associates;comrades
 ;; qariyn_2
 qariyn  Ndu     spouse
@@ -2277,10 +2277,10 @@ qariyn  NapAt   wife
 ;; qariynap_2
 qariyn  Nap     linkage
 qarA}in Ndip    linkage;connections
-;; >aqoran_2
->aqoran Nel     horned
+;; Oaqoran_2
+Oaqoran Nel     horned
 qaronA' N0_Nh   horned
-qaronA& Nh      horned
+qaronAW Nh      horned
 qaronA} Nhy     horned
 ;; qirAn_1
 qirAn   N       marriage;connection
@@ -2360,7 +2360,7 @@ quruw~  N       watering troughs
 ; see also under --- qrA
 ;; AisotiqorA'_2
 AisotiqorA'     N0_Nh   investigation;induction
-AisotiqorA&     Nh      investigation;induction
+AisotiqorAW     Nh      investigation;induction
 AisotiqorA}     Nhy     investigation;induction
 AisotiqorA'     NAn_Nayn        investigations;induction
 AisotiqorA}     Nayn    investigations;induction
@@ -2407,7 +2407,7 @@ miqoraY N0      hospitable
 miqorA  Nhy     hospitable
 miqoray NAn_Nayn        hospitable
 miqorA' N0_Nh   hospitable
-miqorA& Nh      hospitable
+miqorAW Nh      hospitable
 miqorA} Nhy     hospitable
 miqorA' NAn_Nayn        hospitable
 miqorA} Nayn    hospitable
@@ -2514,7 +2514,7 @@ qazal   N       limping
 ;; qazam_1
 qazam   Ndu     dwarf;pygmy
 qazam   NapAt   dwarf;pygmy
->aqozAm N       dwarfs;pygmies
+OaqozAm N       dwarfs;pygmies
 ;; qazam_2
 qazam   N       dwarfism;nanism
 ;; qazamiy~_1
@@ -2560,9 +2560,9 @@ qas~As  Nall    slanderer
 ;; qis~iys_1
 qis~iys Nall    clergyman;reverend
 qus~An  N       clergymen
->aqis~  Nap     clergymen
+Oaqis~  Nap     clergymen
 qus~A'  N0_Nh   clergymen
-qus~A&  Nh      clergymen
+qus~AW  Nh      clergymen
 qus~A}  Nhy     clergymen
 qasAwis Nap     clergymen
 ;; qusuwsap_1
@@ -2604,8 +2604,8 @@ qosaT   IV_intr become stiff
 ;; qas~aT_1
 qas~aT  PV      distribute;pay in installments;ration
 qas~iT  IV_yu   distribute;pay in installments;ration
-;; >aqosaT_1
->aqosaT PV_intr be equitable;ration equitably
+;; OaqosaT_1
+OaqosaT PV_intr be equitable;ration equitably
 qosiT   IV_intr_yu      be equitable;ration equitably
 qosaT   IV_Pass_yu      be rationed equitably
 ;; qisoT_1
@@ -2614,11 +2614,11 @@ qisoT   N       fairness;equity
 qisoT   Nall    equitable;fair
 ;; qisoT_3
 qisoT   Ndu     allotment;installment
->aqosAT N       allotments;installments
+OaqosAT N       allotments;installments
 ;; qasaT_1
 qasaT   N       stiffness (joint)
-;; >aqosaT_2
->aqosaT Nel     equitable;fair
+;; OaqosaT_2
+OaqosaT Nel     equitable;fair
 ;; taqosiyT_1
 taqosiyT        N/At    payment in installments
 ;; taqosiyT_2
@@ -2675,8 +2675,8 @@ qas~im  IV_yu   divide;partition;distribute
 ;; qAsam_1
 qAsam   PV      share with
 qAsim   IV_yu   share with
-;; >aqosam_1
->aqosam PV      take an oath;swear
+;; Oaqosam_1
+Oaqosam PV      take an oath;swear
 qosim   IV_yu   take an oath;swear
 qosam   IV_Pass_yu      be sworn
 ;; taqas~am_1
@@ -2696,11 +2696,11 @@ Aisotaqosam     PV      conjure
 sotaqosim       IV      conjure
 ;; qisom_1
 qisom   Ndu     portion
->aqosAm N       portions
+OaqosAm N       portions
 qisam   N       portions
 ;; qisom_2
 qisom   Ndu     department;division;section
->aqosAm N       departments;divisions;sections
+OaqosAm N       departments;divisions;sections
 ;; qusayom_1
 qusayom NduAt   particle
 ;; qisomap_1
@@ -2720,11 +2720,11 @@ qasAm   Nap     beauty
 ;; qasiym_1
 qasiym  N/ap    partner;participant
 qusamA' N0_Nh   partners;participants
-qusamA& Nh      partners;participants
+qusamAW Nh      partners;participants
 qusamA} Nhy     partners;participants
->aqosimA'       N0_Nh   partners;participants
->aqosimA&       Nh      partners;participants
->aqosimA}       Nhy     partners;participants
+OaqosimA'       N0_Nh   partners;participants
+OaqosimAW       Nh      partners;participants
+OaqosimA}       Nhy     partners;participants
 ;; qasiym_2
 qasiym  N/ap    elegant     [[qasiym/ADJ]]
 ;; qasiym_3
@@ -2732,9 +2732,9 @@ qasiym  N0      Qaseem
 ;; qasiymap_1
 qasiym  Napdu   coupon;stub
 qasA}im Ndip    coupons;stubs
-;; >uqosuwmap_1
->uqosuwm        Napdu   lot;portion
->aqAsiym        Ndip    lots;portions
+;; Ouqosuwmap_1
+Ouqosuwm        Napdu   lot;portion
+OaqAsiym        Ndip    lots;portions
 ;; maqosam_1
 maqosam Ndu     compartment;distribution
 maqosim Ndu     compartment;distribution
@@ -2759,7 +2759,7 @@ AinoqisAmiy~    Nall    schismatic     [[AinoqisAmiy~/ADJ]]
 ;; AinoqisAmiy~ap_1
 AinoqisAmiy~    Nap     divisibility     [[AinoqisAmiy~/NOUN]]
 ;; lAAinoqisAmiy~ap_1
-lA<inoqisAmiy~  Nap_L   indivisibility     [[lA<inoqisAmiy~/NOUN]]
+lAIinoqisAmiy~  Nap_L   indivisibility     [[lAIinoqisAmiy~/NOUN]]
 lAAinoqisAmiy~  Nap_L   indivisibility     [[lAAinoqisAmiy~/NOUN]]
 ;; AiqotisAm_1
 AiqotisAm       N/At    dividing;distribution
@@ -2816,11 +2816,11 @@ qAsiy   IV_0hAnn_yu     suffer;endure
 qAs     IV_0hwnyn_yu    suffer;endure
 qAsaY   IV_0_Pass_yu    be suffered;be endured
 qAsay   IV_Ann_Pass_yu  be suffered;be endured
-;; >aqosaY_1
->aqosaY PV_0    harden;make stubborn;make hard-hearted
->aqosA  PV_h    harden;make stubborn;make hard-hearted
->aqosay PV_Atn  harden;make stubborn;make hard-hearted
->aqos   PV_ttAw harden;make stubborn;make hard-hearted
+;; OaqosaY_1
+OaqosaY PV_0    harden;make stubborn;make hard-hearted
+OaqosA  PV_h    harden;make stubborn;make hard-hearted
+Oaqosay PV_Atn  harden;make stubborn;make hard-hearted
+Oaqos   PV_ttAw harden;make stubborn;make hard-hearted
 qosiy   IV_0hAnn_yu     harden;make stubborn;make hard-hearted
 qos     IV_0hwnyn_yu    harden;make stubborn;make hard-hearted
 qosaY   IV_0_Pass_yu    be hardened;be made stubborn;be made hard-hearted
@@ -2833,10 +2833,10 @@ qasow   Nap     harshness;severity;brutality
 qasAw   Nap     harshness;severity;brutality
 ;; qasiy~_1
 qasiy~  N/ap    firm;solid     [[qasiy~/ADJ]]
-;; >aqosaY_2
->aqosaY N0      harshest;cruelest
->aqosA  Nhy     harshest;cruelest
->aqosay NAn_Nayn        harshest;cruelest
+;; OaqosaY_2
+OaqosaY N0      harshest;cruelest
+OaqosA  Nhy     harshest;cruelest
+Oaqosay NAn_Nayn        harshest;cruelest
 ;; muqAsAp_1
 muqAsA  Napdu   suffering;enduring
 muqAsay NAt     suffering;enduring
@@ -2885,7 +2885,7 @@ qa$ab   PV      poison
 qo$ub   IV      poison
 ;; qa$ab_1
 qa$ab   N       poison
->aqo$Ab N       poison
+Oaqo$Ab N       poison
 ;; qa$iyb_1
 qa$iyb  N/ap    polished;burnished;clean
 qu$ub   N       polished;burnished;clean
@@ -2987,8 +2987,8 @@ qo$aE   IV      disperse;scatter
 ;; qa$~aE_1
 qa$~aE  PV      spit;expectorate
 qa$~iE  IV_yu   spit;expectorate
-;; >aqo$aE_1
->aqo$aE PV      disperse;scatter
+;; Oaqo$aE_1
+Oaqo$aE PV      disperse;scatter
 qo$iE   IV_yu   disperse;scatter
 qo$aE   IV_Pass_yu      be dispersed;be scattered
 ;; taqa$~aE_1
@@ -3132,9 +3132,9 @@ quSAS   N       clippings
 quSAS   NapAt   clippings
 ;; qaS~AS_1
 qaS~AS  Nall    novelist;storyteller
-;; >uqoSuwSap_1
->uqoSuwS        Napdu   tale;novella
->aqASiyS        Ndip    tales;novellas
+;; OuqoSuwSap_1
+OuqoSuwS        Napdu   tale;novella
+OaqASiyS        Ndip    tales;novellas
 ;; miqaS~_1
 miqaS~  Ndu     scissors;shears
 ;; maqAS~_1
@@ -3195,8 +3195,8 @@ quSAj   NduAt   pliers;pincers
 qaSad   PV      intend;mean;pursue
 qoSid   IV      intend;mean;pursue
 qoSad   IV_Pass_yu      be intended;be meant;be pursued
-;; >aqoSad_1
->aqoSad PV      induce
+;; OaqoSad_1
+OaqoSad PV      induce
 qoSid   IV_yu   induce
 qoSad   IV_Pass_yu      be induced
 ;; taqaS~ad_1
@@ -3221,8 +3221,8 @@ qaSiyd  N       main point;essence;gist
 ;; qaSiydap_1
 qaSiyd  Napdu   poem
 qaSA}id Ndip    poems
-;; >aqoSad_2
->aqoSad Nel     more/most direct
+;; OaqoSad_2
+OaqoSad Nel     more/most direct
 ;; maqoSid_1
 maqoSid Ndu     purpose;intent
 maqASid Ndip    intentions;goals
@@ -3279,8 +3279,8 @@ qaS~ir  IV_yu   shorten;curtail
 ;; qaS~ar_2
 qaS~ar  PV      fall short;be inferior
 qaS~ir  IV_yu   fall short;be inferior
-;; >aqoSar_1
->aqoSar PV      shorten;curtail
+;; OaqoSar_1
+OaqoSar PV      shorten;curtail
 qoSir   IV_yu   shorten;curtail
 qoSar   IV_Pass_yu      be shortened;be curtailed
 ;; taqASar_1
@@ -3326,10 +3326,10 @@ qiSAr   Nap     bleacher's trade
 ;; quSAraY_1
 quSAraY N0      utmost;limit
 quSArA  Nhy     utmost;limit
-;; >aqoSar_2
->aqoSar Nel     shorter/shortest
-;; >uqoSur_1
->uqoSur N0      Luxor
+;; OaqoSar_2
+OaqoSar Nel     shorter/shortest
+;; OuqoSur_1
+OuqoSur N0      Luxor
 ;; taqoSiyr_1
 taqoSiyr        NduAt   deficiency;inadequacy
 ;; taqoSiyr_2
@@ -3456,11 +3456,11 @@ qaS     PV_w_intr       be distant
 qoSaY   IV_0    be distant
 qoSay   IV_Ann  be distant
 qoSa    IV_0hwnyn       be distant
-;; >aqoSaY_1
->aqoSaY PV_0    remove
->aqoSA  PV_h    remove
->aqoSay PV_Atn  remove
->aqoS   PV_ttAw remove
+;; OaqoSaY_1
+OaqoSaY PV_0    remove
+OaqoSA  PV_h    remove
+OaqoSay PV_Atn  remove
+OaqoS   PV_ttAw remove
 qoSiy   IV_0hAnn_yu     remove
 qoS     IV_0hwnyn_yu    remove
 qoSaY   IV_0_Pass_yu    be removed
@@ -3488,28 +3488,28 @@ qaSA    N0_Nhy  remoteness;distance
 qaSAF   FW-WaBi remoteness;distance     [[qaSAF/NOUN]]
 ;; qaSA'_1
 qaSA'   N0_Nh   remoteness;distance
-qaSA&   Nh      remoteness;distance
+qaSAW   Nh      remoteness;distance
 qaSA}   Nhy     remoteness;distance
 ;; qaSiy~_1
 qaSiy~  N/ap    distant;remote     [[qaSiy~/ADJ]]
->aqoSA' N0_Nh   distant;remote
->aqoSA& Nh      distant;remote
->aqoSA} Nhy     distant;remote
-;; >aqoSaY_2
->aqoSaY N0      Aqsa
-;; >aqoSaY_3
->aqoSaY N0      farthest;most remote
->aqoSA  Nhy     farthest;most remote
->aqoSay NAn_Nayn        farthest;most remote
->aqASiy N0_Nh   farthest;remotest
->aqAS   NK      farthest;remotest
+OaqoSA' N0_Nh   distant;remote
+OaqoSAW Nh      distant;remote
+OaqoSA} Nhy     distant;remote
+;; OaqoSaY_2
+OaqoSaY N0      Aqsa
+;; OaqoSaY_3
+OaqoSaY N0      farthest;most remote
+OaqoSA  Nhy     farthest;most remote
+OaqoSay NAn_Nayn        farthest;most remote
+OaqASiy N0_Nh   farthest;remotest
+OaqAS   NK      farthest;remotest
 quSowaY N0      farthest;remotest
 quSowA  Nhy     farthest;remotest
 quSoway NAn_Nayn        farthest;remotest
 quSoway NAt     farthest;remotest
-;; >aqoSaY_4
->aqoSaY N0      maximum
->aqoSA  Nhy     maximum
+;; OaqoSaY_4
+OaqoSaY N0      maximum
+OaqoSA  Nhy     maximum
 ;; taqaS~iy_1
 taqaS~iy        N0_Nh   investigation;examination
 taqaS~  NK      investigation;examination
@@ -3517,7 +3517,7 @@ taqaS~iy        NAn_Nayn        investigations;examinations
 taqaS~iy        NAt     investigations;examinations
 ;; AisotiqoSA'_1
 AisotiqoSA'     N0_Nh   investigation;examination
-AisotiqoSA&     Nh      investigation;examination
+AisotiqoSAW     Nh      investigation;examination
 AisotiqoSA}     Nhy     investigation;examination
 AisotiqoSA'     NAn_Nayn        investigations;examinations
 AisotiqoSA}     Nayn    investigations;examinations
@@ -3542,9 +3542,9 @@ qaD~    PV_V_intr       be rough;be crude
 qaDaD   PV_C_intr       be rough;be crude
 qaD~    IV_V_intr       be rough;be crude
 qoDaD   IV_C_intr       be rough;be crude
-;; >aqaD~_1
->aqaD~  PV_V_intr       be rough;be hard
->aqoDaD PV_C_intr       be rough;be hard
+;; OaqaD~_1
+OaqaD~  PV_V_intr       be rough;be hard
+OaqoDaD PV_C_intr       be rough;be hard
 qiD~    IV_V_intr_yu    be rough;be hard
 qoDiD   IV_C_intr_yu    be rough;be hard
 ;; AinoqaD~_1
@@ -3690,20 +3690,20 @@ sotaqoDaY       IV_0_Pass_yu    be demanded;be claimed
 ;; qaDaY_1
 qaDaY   N0      judgment;sentence
 qaDA    Nhy     judgment;sentence
->aqoDiy Nap     judgments;sentences
+OaqoDiy Nap     judgments;sentences
 ;; qaDA'_1
 qaDA'   N0_Nh   justice;judiciary
-qaDA&   Nh      justice;judiciary
+qaDAW   Nh      justice;judiciary
 qaDA}   Nhy     justice;judiciary
 ;; qaDA'_2
 qaDA'   N0_Nh   extermination;annihilation
-qaDA&   Nh      extermination;annihilation
+qaDAW   Nh      extermination;annihilation
 qaDA}   Nhy     extermination;annihilation
 ;; qaDA'_3
 qaDA'   N0_Nh   district;province
-qaDA&   Nh      district;province
+qaDAW   Nh      district;province
 qaDA}   Nhy     district;province
->aqoDiy Nap     districts;provinces
+OaqoDiy Nap     districts;provinces
 ;; qaDawiy~ap_1
 qaDawiy~        Nap     jurisdiction     [[qaDawiy~/NOUN]]
 ;; qaDA}iy~_1
@@ -3724,14 +3724,14 @@ taqADiy NAn_Nayn        litigation
 taqADiy NAt     litigation
 ;; AinoqiDA'_1
 AinoqiDA'       N0_Nh   termination;expiration
-AinoqiDA&       Nh      termination;expiration
+AinoqiDAW       Nh      termination;expiration
 AinoqiDA}       Nhy     termination;expiration
 AinoqiDA'       NAn_Nayn        termination;expiration
 AinoqiDA}       Nayn    termination;expiration
 AinoqiDA'       NAt     termination;expiration
 ;; AiqotiDA'_1
 AiqotiDA'       N0_Nh   requirement;exigency
-AiqotiDA&       Nh      requirement;exigency
+AiqotiDAW       Nh      requirement;exigency
 AiqotiDA}       Nhy     requirement;exigency
 AiqotiDA'       NAn_Nayn        requirements;exigencies
 AiqotiDA}       Nayn    requirements;exigencies
@@ -3816,7 +3816,7 @@ sotaqoTib       IV      unite;polarize
 quTob   Ndu     axis;pole
 ;; quTob_2
 quTob   Ndu     leader;top figure
->aqoTAb N       leaders;top figures
+OaqoTAb N       leaders;top figures
 ;; quTobiy~_1
 quTobiy~        N-ap    polar     [[quTobiy~/ADJ]]
 ;; quTobiy~ap_1
@@ -3871,7 +3871,7 @@ qiTAr   NduAt   train
 quTur   N/At    trains
 ;; quTor_1
 quTor   Ndu     region;district
->aqoTAr N       regions;countries
+OaqoTAr N       regions;countries
 ;; quToriy~_1
 quToriy~        N-ap    regional     [[quToriy~/ADJ]]
 ;; qaT~Arap_1
@@ -3925,8 +3925,8 @@ qaT~iE  IV_yu   cut apart
 qATaE   PV      boycott
 qATiE   IV_yu   boycott
 qATaE   IV_Pass_yu      be boycotted
-;; >aqoTaE_1
->aqoTaE PV      sever;interrupt
+;; OaqoTaE_1
+OaqoTaE PV      sever;interrupt
 qoTiE   IV_yu   sever;interrupt
 qoTaE   IV_Pass_yu      be severed;be interrupted
 ;; taqaT~aE_1
@@ -3978,7 +3978,7 @@ qaT~AEiy~       N       retail
 qaTiyE  Ndu     group;herd;flock
 qiTAE   N       groups;herds;flocks
 quToEAn N       groups;herds;flocks
->aqoTAE N       groups;herds;flocks
+OaqoTAE N       groups;herds;flocks
 ;; qaTiyEiy~_1
 qaTiyEiy~       Nall    group;herd     [[qaTiyEiy~/ADJ]]
 ;; qaTiyEap_1
@@ -3986,12 +3986,12 @@ qaTiyE  Nap     breaking;rupture;rift
 ;; qaTiyEap_2
 qaTiyE  Napdu   feudal estate;fief
 qaTA}iE Ndip    feudal estates;fiefs
-;; >aqoTaE_2
->aqoTaE Nel     more/most convincing/conclusive
-;; >aqoTaE_3
->aqoTaE Nel     amputee;mute
+;; OaqoTaE_2
+OaqoTaE Nel     more/most convincing/conclusive
+;; OaqoTaE_3
+OaqoTaE Nel     amputee;mute
 qaToEA' N0_Nh   amputee;mute
-qaToEA& Nh      amputee;mute
+qaToEAW Nh      amputee;mute
 qaToEA} Nhy     amputee;mute
 ;; maqoTaE_1
 maqoTaE Ndu     section;selection;excerpt
@@ -4008,16 +4008,16 @@ taqATiyE        Ndip    shapes;figures;features
 muqATaE NapAt   boycott
 ;; muqATaEap_2
 muqATaE NapAt   region;district;county
-;; <iqoTAE_1
-<iqoTAE NduAt   feudal estate
-;; <iqoTAEap_1
-<iqoTAE NapAt   feudal estate
-;; <iqoTAEiy~_1
-<iqoTAEiy~      N-ap    feudal     [[<iqoTAEiy~/ADJ]]
-;; <iqoTAEiy~_2
-<iqoTAEiy~      Nall    feudalist;feudal lord     [[<iqoTAEiy~/ADJ]]
-;; <iqoTAEiy~ap_1
-<iqoTAEiy~      Nap     feudalism;feudal system     [[<iqoTAEiy~/NOUN]]
+;; IiqoTAE_1
+IiqoTAE NduAt   feudal estate
+;; IiqoTAEap_1
+IiqoTAE NapAt   feudal estate
+;; IiqoTAEiy~_1
+IiqoTAEiy~      N-ap    feudal     [[IiqoTAEiy~/ADJ]]
+;; IiqoTAEiy~_2
+IiqoTAEiy~      Nall    feudalist;feudal lord     [[IiqoTAEiy~/ADJ]]
+;; IiqoTAEiy~ap_1
+IiqoTAEiy~      Nap     feudalism;feudal system     [[IiqoTAEiy~/NOUN]]
 ;; taqaT~uE_1
 taqaT~uE        NduAt   interruption;severance
 ;; taqATuE_1
@@ -4157,7 +4157,7 @@ quTuwn  N       residing;dwelling
 qaTan   N       small of the back
 ;; quTon_1
 quTon   N       cotton
->aqoTAn N       cotton
+OaqoTAn N       cotton
 ;; quToniy~_1
 quToniy~        N-ap    cotton     [[quToniy~/ADJ]]
 ;; quToniy~ap_1
@@ -4197,8 +4197,8 @@ qoEud   IV      sit down;be seated;remain
 ;; qaE~ad_1
 qaE~ad  PV      serve
 qaE~id  IV_yu   serve
-;; >aqoEad_1
->aqoEad PV      make sit;make stay
+;; OaqoEad_1
+OaqoEad PV      make sit;make stay
 qoEid   IV_yu   make sit;make stay
 qoEad   IV_Pass_yu      be sat down;be made stay
 ;; taqaE~ad_1
@@ -4222,7 +4222,7 @@ quEad   Nap     seated firmly;not budging
 quEodiy~        Nall    seated firmly;not budging     [[quEodiy~/ADJ]]
 ;; qaEuwd_1
 qaEuwd  N       young camel
->aqoEid Nap     young camels
+OaqoEid Nap     young camels
 quEud   N       young camels
 qiEodAn N       young camels
 qaEA}id Ndip    young camels
@@ -4240,8 +4240,8 @@ maqAEid Ndip    seats
 ;; maqoEad_2
 maqoEad Napdu   backside
 maqAEid Ndip    backsides
-;; <iqoEAd_1
-<iqoEAd N/At    disability
+;; IiqoEAd_1
+IiqoEAd N/At    disability
 ;; taqAEud_1
 taqAEud N/At    retirement
 ;; qAEid_1
@@ -4275,8 +4275,8 @@ qoEur   IV_intr be deep;be hollowed out
 ;; qaE~ar_1
 qaE~ar  PV      deepen;hollow out;excavate
 qaE~ir  IV_yu   deepen;hollow out;excavate
-;; >aqoEar_1
->aqoEar PV      make deep;excavate
+;; OaqoEar_1
+OaqoEar PV      make deep;excavate
 qoEir   IV_yu   make deep;excavate
 qoEar   IV_Pass_yu      be excavated
 ;; taqaE~ar_1
@@ -4305,8 +4305,8 @@ taqAEas IV_intr be negligent;refrain;disregard
 ;; AiqoEanosas_1
 AiqoEanosas     PV_intr be pigeon-breasted
 qoEanosis       IV_intr be pigeon-breasted
-;; >aqoEas_1
->aqoEas Nel     pigeon-breasted;firmly established
+;; OaqoEas_1
+OaqoEas Nel     pigeon-breasted;firmly established
 ;; taqAEus_1
 taqAEus N/At    negligence
 ;; mutaqAEis_1
@@ -4324,11 +4324,11 @@ qaEAqiE Ndip    high-sounding words
 qaEoqaE N       magpie
 ;
 ;--- qEy
-;; >aqoEaY_1
->aqoEaY PV_0    crouch;squat
->aqoEA  PV_h    crouch;squat
->aqoEay PV_Atn  crouch;squat
->aqoE   PV_ttAw crouch;squat
+;; OaqoEaY_1
+OaqoEaY PV_0    crouch;squat
+OaqoEA  PV_h    crouch;squat
+OaqoEay PV_Atn  crouch;squat
+OaqoE   PV_ttAw crouch;squat
 qoEiy   IV_0hAnn_yu     crouch;squat
 qoE     IV_0hwnyn_yu    crouch;squat
 ;
@@ -4353,8 +4353,8 @@ qaf~    Nap     feverish shiver
 ;; qafar-u_1
 qafar   PV      follow;track
 qofur   IV      follow;track
-;; >aqofar_1
->aqofar PV      abandon;devastate;leave barren
+;; Oaqofar_1
+Oaqofar PV      abandon;devastate;leave barren
 qofir   IV_yu   abandon;devastate;leave barren
 qofar   IV_Pass_yu      be abandoned;be devastated;be left barren
 ;; Aiqotafar_1
@@ -4373,10 +4373,10 @@ qafiyr  Ndu     beehive
 quforAn N       beehives
 ;; qaforA'_1
 qaforA' N0_Nh   arid
-qaforA& Nh      arid
+qaforAW Nh      arid
 qaforA} Nhy     arid
-;; <iqofAr_1
-<iqofAr N/At    desolateness;devastation;depopulation
+;; IiqofAr_1
+IiqofAr N/At    desolateness;devastation;depopulation
 ;; muqofir_1
 muqofir N-ap    desolate;depopulated     [[muqofir/ADJ]]
 ;
@@ -4401,9 +4401,9 @@ qafAfiyz        Ndip    gloves
 ;; qafiyz_1
 qafiyz  Ndu     qafiz
 ; (dry measure = 528 liters)
->aqofiz Nap     qafiz
+Oaqofiz Nap     qafiz
 ; (dry measure = 528 liters)
->aqofiz Nap     qafiz
+Oaqofiz Nap     qafiz
 ; (dry measure = 528 liters)
 ;; maqofiz_1
 maqofiz Ndu     springboard
@@ -4425,8 +4425,8 @@ qafa$   NAt     quips;witty answers
 ;--- qfS
 ;; qafaS_1
 qafaS   Ndu     cage;prisoner's dock
->aqofAS N       cages;prisoner's dock
->aqofiS Nap     cages;prisoner's dock
+OaqofAS N       cages;prisoner's dock
+OaqofiS Nap     cages;prisoner's dock
 ;; taqofiySap_1
 taqofiyS        Napdu   poultry coop
 ;
@@ -4470,20 +4470,20 @@ qofil   IV      lock
 ;; qaf~al_1
 qaf~al  PV      lock
 qaf~il  IV_yu   lock
-;; >aqofal_1
->aqofal PV      lock
+;; Oaqofal_1
+Oaqofal PV      lock
 qofil   IV_yu   lock
 qofal   IV_Pass_yu      be locked
 ;; qufol_1
 qufol   Ndu     lock;latch;bolt
->aqofAl N       locks;latches;bolts
+OaqofAl N       locks;latches;bolts
 qufuwl  N       locks;latches;bolts
 ;; qaf~Al_1
 qaf~Al  Nall    locksmith
 ;; qaf~Al_2
 qaf~Al  N0      Qaffal
-;; <iqofAl_1
-<iqofAl N/At    locking;closing;blocking
+;; IiqofAl_1
+IiqofAl N/At    locking;closing;blocking
 ;; qAfil_1
 qAfil   Ndu     coming home;returning
 qAfil   Nap     coming home;returning
@@ -4532,21 +4532,21 @@ qotafaY IV_0    follow;track;imitate
 ;; qafAF_1
 qafAF   FW-WaBi neck;nape;back;reverse     [[qafAF/NOUN]]
 qafA    N0_Nhy  neck;nape;back;reverse
->aqofiy Nap     necks;napes;backs
->aqofiy N0_Nh   necks;napes;backs
->aqof   NK      necks;napes;backs
->aqofA' N0_Nh   necks;napes;backs
->aqofA& Nh      necks;napes;backs
->aqofA} Nhy     necks;napes;backs
+Oaqofiy Nap     necks;napes;backs
+Oaqofiy N0_Nh   necks;napes;backs
+Oaqof   NK      necks;napes;backs
+OaqofA' N0_Nh   necks;napes;backs
+OaqofAW Nh      necks;napes;backs
+OaqofA} Nhy     necks;napes;backs
 qufiy~  N       necks;napes;backs
 qifiy~  N       necks;napes;backs
 ;; qafA'_1
 qafA'   N0_Nh   neck;nape
-qafA&   Nh      neck;nape
+qafAW   Nh      neck;nape
 qafA}   Nhy     neck;nape
 ;; AiqotifA'_1
 AiqotifA'       N0_Nh   following;tracking;imitating
-AiqotifA&       Nh      following;tracking;imitating
+AiqotifAW       Nh      following;tracking;imitating
 AiqotifA}       Nhy     following;tracking;imitating
 AiqotifA'       NAn_Nayn        following;tracking;imitating
 AiqotifA}       Nayn    following;tracking;imitating
@@ -4574,9 +4574,9 @@ qolil   IV_C_intr       be less;decrease;diminish
 ;; qal~al_1
 qal~al  PV      lessen;reduce;diminish
 qal~il  IV_yu   lessen;reduce;diminish
-;; >aqal~_1
->aqal~  PV_V    lessen;reduce;diminish
->aqolal PV_C    lessen;reduce;diminish
+;; Oaqal~_1
+Oaqal~  PV_V    lessen;reduce;diminish
+Oaqolal PV_C    lessen;reduce;diminish
 qil~    IV_V_yu lessen;reduce;diminish
 qolil   IV_C_yu lessen;reduce;diminish
 qal~    IV_V_Pass_yu    be lessened;be reduced;be diminished
@@ -4608,21 +4608,21 @@ qil~    Nap     scarcity;lack of;small number or amount of
 qil~iy~ Nap     entirety;complete     [[qil~iy~/NOUN]]
 ;; qaliyl_1
 qaliyl  N-ap    little;few     [[qaliyl/ADJ]]
->aqil~A'        N0_Nh   few;insufficient
->aqil~A&        Nh      few;insufficient
->aqil~A}        Nhy     few;insufficient
+Oaqil~A'        N0_Nh   few;insufficient
+Oaqil~AW        Nh      few;insufficient
+Oaqil~A}        Nhy     few;insufficient
 qalA}il Ndip    few;insufficient     [[qalA}il/ADJ]]
 qilAl   N       few;insufficient
 ;; qaliylAF_1
 qaliyl  NF      a little;somewhat     [[qaliyl/ADV]]
-;; >aqal~_2
->aqal~  Nel     less/least;smaller/smallest;minimum
-;; >aqal~iy~ap_1
->aqal~iy~       NapAt   minority     [[>aqal~iy~/NOUN]]
+;; Oaqal~_2
+Oaqal~  Nel     less/least;smaller/smallest;minimum
+;; Oaqal~iy~ap_1
+Oaqal~iy~       NapAt   minority     [[Oaqal~iy~/NOUN]]
 ;; taqoliyl_1
 taqoliyl        N/At    decrease;diminution;reduction
-;; <iqolAl_1
-<iqolAl N/At    decrease;diminution;reduction
+;; IiqolAl_1
+IiqolAl N/At    decrease;diminution;reduction
 ;; AisotiqolAl_1
 AisotiqolAl     N/At    independence;autonomy
 ;; AisotiqolAliy~_1
@@ -4739,9 +4739,9 @@ taqoliydiy~     Nap     traditionalism;conventionalism     [[taqoliydiy~/NOUN]]
 muqal~id        Nall    imitator
 ;; muqal~ad_1
 muqal~ad        Nall    imitated;fake     [[muqal~ad/ADJ]]
-;; <iqoliyd_1
-<iqoliyd        Ndu     key
->aqAliyd        Ndip    keys
+;; Iiqoliyd_1
+Iiqoliyd        Ndu     key
+OaqAliyd        Ndip    keys
 ;
 ;--- qls
 ;; qalas-i_1
@@ -4781,8 +4781,8 @@ taqal~aS        PV      shrink;diminish;decline
 taqal~aS        IV      shrink;diminish;decline
 ;; qalaS_1
 qalaS   N       small launch;barge
-;; >aqolaS_1
->aqolaS Nel     shorter
+;; OaqolaS_1
+OaqolaS Nel     shorter
 ;; taqoliyS_1
 taqoliyS        NduAt   reducing;shrinking
 taqoliyS        NAt     cutbacks;reductions
@@ -4809,8 +4809,8 @@ qolaE   IV      uproot;extirpate
 ;; qal~aE_1
 qal~aE  PV      pluck out;tear out
 qal~iE  IV_yu   pluck out;tear out
-;; >aqolaE_1
->aqolaE PV      take off
+;; OaqolaE_1
+OaqolaE PV      take off
 qoliE   IV_yu   take off
 ;; AiqotalaE_1
 AiqotalaE       PV      uproot;exterminate
@@ -4836,8 +4836,8 @@ maqAliyE        Ndip    catapults;slingshots
 ;; taqoliyEap_1
 taqoliyE        NapAt   eccentricity;innovation
 taqAliyE        Ndip    eccentricities;innovations;rarities
-;; <iqolAE_1
-<iqolAE N/At    departure;take-off
+;; IiqolAE_1
+IiqolAE N/At    departure;take-off
 ;; AiqotilAE_1
 AiqotilAE       N/At    uprooting;extermination
 ;
@@ -4867,8 +4867,8 @@ qulof   Nap     foreskin;prepuce
 qulaf   N       foreskins
 ;; qulAfap_1
 qulAf   Nap     rind;bark
-;; >aqolaf_1
->aqolaf Nel     uncircumcised
+;; Oaqolaf_1
+Oaqolaf Nel     uncircumcised
 ;; qilAfap_1
 qilAf   Nap     caulking
 ;; qalofap_1
@@ -4886,8 +4886,8 @@ qalofaT Nap     caulking;bungling
 ;; qaliq-a_1
 qaliq   PV_intr be worried;be agitated
 qolaq   IV_intr be worried;be agitated
-;; >aqolaq_1
->aqolaq PV      make restless;agitate
+;; Oaqolaq_1
+Oaqolaq PV      make restless;agitate
 qoliq   IV_yu   make restless;agitate
 qolaq   IV_Pass_yu      be agitated
 ;; qalaq_1
@@ -4896,8 +4896,8 @@ qalaq   N       unrest;concern;apprehension
 qaliq   Nall    worried;concerned;disturbed
 ;; qaluwq_1
 qaluwq  N-ap    restless
-;; <iqolAq_1
-<iqolAq N/At    perturbation;disturbance
+;; IiqolAq_1
+IiqolAq N/At    perturbation;disturbance
 ;; muqoliq_1
 muqoliq N-ap    disturbing;worrisome;troubling     [[muqoliq/ADJ]]
 ;; muqoliq_2
@@ -4941,7 +4941,7 @@ qal~am  PV      trim;clip
 qal~im  IV_yu   trim;clip
 ;; qalam_1
 qalam   Ndu     pencil;pen
->aqolAm N       pencils;pens
+OaqolAm N       pencils;pens
 ;; qalamiy~_1
 qalamiy~        N-ap    handwritten;by pen     [[qalamiy~/ADJ]]
 ;; qulAmap_1
@@ -5071,9 +5071,9 @@ miqam~  Nap     broom
 maqAm~  Ndip    brooms
 ;
 ;--- qmA
-;; qamu&-a_1
-qamu&   PV_intr be humble;be unattractive
-qomu&   IV_intr be humble;be unattractive
+;; qamuW-a_1
+qamuW   PV_intr be humble;be unattractive
+qomuW   IV_intr be humble;be unattractive
 qomu}   IV_yn   be humble;be unattractive
 ;; qamiy'_1
 qamiy'  N0      humble;unattractive     [[qamiy'/ADJ]]
@@ -5095,8 +5095,8 @@ qanAbiyz        Ndip    qumbazes (male robes)
 ;; qam~aH_1
 qam~aH  PV      pay in installments;apportion
 qam~iH  IV_yu   pay in installments;apportion
-;; >aqomaH_1
->aqomaH PV      ripen
+;; OaqomaH_1
+OaqomaH PV      ripen
 qomiH   IV_yu   ripen
 qomaH   IV_Pass_yu      be ripened
 ;; qamoH_1
@@ -5125,8 +5125,8 @@ qam~ir  IV_yu   toast
 ;; qAmar_1
 qAmar   PV      gamble with;speculate
 qAmir   IV_yu   gamble with;speculate
-;; >aqomar_1
->aqomar PV_intr be moonlit
+;; Oaqomar_1
+Oaqomar PV_intr be moonlit
 qomir   IV_intr_yu      be moonlit
 qomar   IV_Pass_yu      be moonlit
 ;; taqAmar_1
@@ -5136,7 +5136,7 @@ taqAmar IV      gamble
 qamar   N       moon
 ;; qamar_2
 qamar   Ndu     satellite
->aqomAr N       satellites
+OaqomAr N       satellites
 ;; qamarap_1
 qamar   NapAt   crescent;moonlight
 ;; qamariy~_1
@@ -5147,13 +5147,13 @@ qamariy~        N-ap    satellite     [[qamariy~/ADJ]]
 qamariy~        NapAt   skylight;small window     [[qamariy~/NOUN]]
 ;; qamorA'_1
 qamorA' N0_Nh   moonlight
-qamorA& Nh      moonlight
+qamorAW Nh      moonlight
 qamorA} Nhy     moonlight
 ;; qamiyr_1
 qamiyr  N/ap    gambling partner
->aqomAr N       gambling partners
-;; >aqomar_2
->aqomar Nel     moonlit
+OaqomAr N       gambling partners
+;; Oaqomar_2
+Oaqomar Nel     moonlit
 ;; maqomar_1
 maqomar Ndu     gambling house
 maqomar Napdu   gambling house
@@ -5217,7 +5217,7 @@ qam~a$  PV      collect;pick up
 qam~i$  IV_yu   collect;pick up
 ;; qumA$_1
 qumA$   N       fabric;cloth
->aqomi$ Nap     fabrics;cloth
+Oaqomi$ Nap     fabrics;cloth
 ;; qam~A$_1
 qam~A$  N       draper;cloth merchant
 ;; qamo$ap_1
@@ -5236,7 +5236,7 @@ taqam~aS        IV_intr be clothed with;put on
 ;; qamiyS_1
 qamiyS  Ndu     shirt
 qumuS   N       shirts
->aqomiS Nap     shirts
+OaqomiS Nap     shirts
 qumoSAn N       shirts
 ;; taqomiyS_1
 taqomiyS        N/At    clothing
@@ -5257,13 +5257,13 @@ qam~aT  PV      bandage;swaddle
 qam~iT  IV_yu   bandage;swaddle
 ;; qimoT_1
 qimoT   Ndu     rope;fetter
->aqomAT N       ropes;fetters
+OaqomAT N       ropes;fetters
 ;; qamoTap_1
 qamoT   Nap     kerchief
 ;; qimAT_1
 qimAT   NduAt   swaddle;diaper
 qumuT   N       swaddles;diapers
->aqomiT Nap     swaddles;diapers
+OaqomiT Nap     swaddles;diapers
 ;
 ;--- qmTr
 ;; qimaTor_1
@@ -5275,8 +5275,8 @@ qamATir Ndip    satchels
 ;; qamaE-a_1
 qamaE   PV      repress
 qomaE   IV      repress
-;; >aqomaE_1
->aqomaE PV      repress
+;; OaqomaE_1
+OaqomaE PV      repress
 qomiE   IV_yu   repress
 qomaE   IV_Pass_yu      be repressed
 ;; qamoE_1
@@ -5285,7 +5285,7 @@ qamoE   N       repression
 qamoEiy~        Nall    repressive     [[qamoEiy~/ADJ]]
 ;; qumoE_1
 qumoE   Ndu     funnel;cone
->aqomAE N       funnels;cones
+OaqomAE N       funnels;cones
 ;
 ;--- qmqm
 ;; qamoqam_1
@@ -5340,8 +5340,8 @@ qun~    N       chicken coop
 qinAn   N       chicken coops
 ;; qin~_1
 qin~    N       slave;serf
->aqonAn N       slaves;serfs
->aqin~  Nap     slaves;serfs
+OaqonAn N       slaves;serfs
+Oaqin~  Nap     slaves;serfs
 ;; qun~ap_1
 qun~    NapAt   summit;peak
 qunan   N       summits;peaks
@@ -5543,8 +5543,8 @@ qonuT   IV      despair;lose courage
 ;; qan~aT_1
 qan~aT  PV      discourage;drive to despair
 qan~iT  IV_yu   discourage;drive to despair
-;; >aqonaT_1
->aqonaT PV      discourage;drive to despair
+;; OaqonaT_1
+OaqonaT PV      discourage;drive to despair
 qoniT   IV_yu   discourage;drive to despair
 qonaT   IV_Pass_yu      be discouraged;be driven to despair
 ;; qanaT_1
@@ -5588,8 +5588,8 @@ qonaE   IV_intr be convinced;be satisfied
 ;; qan~aE_1
 qan~aE  PV      convince;persuade
 qan~iE  IV_yu   convince;persuade
-;; >aqonaE_1
->aqonaE PV      persuade;convince
+;; OaqonaE_1
+OaqonaE PV      persuade;convince
 qoniE   IV_yu   persuade;convince
 qonaE   IV_Pass_yu      be persuaded;be convinced
 ;; taqan~aE_1
@@ -5604,7 +5604,7 @@ qunoEAn N       satisfaction;contentment
 qunoEAn N       belief;conviction
 ;; qinoE_1
 qinoE   N       weapons;armor
->aqonAE N       weapons;armor
+OaqonAE N       weapons;armor
 ;; qanaE_1
 qanaE   N       contentment;temperance
 ;; qanAEap_1
@@ -5614,17 +5614,17 @@ qaniE   Nall    satisfied;moderate
 ;; qinAE_1
 qinAE   N       weapons;armor;mask
 qunuE   N       weapons;armor;masks
-;; >aqoniEap_1
->aqoniE Nap     veils;masks
+;; OaqoniEap_1
+OaqoniE Nap     veils;masks
 qinAE   NAt     veils;masks
 ;; qanuwE_1
 qanuwE  N-ap    satisfied;modest     [[qanuwE/ADJ]]
 ;; maqonaE_1
 maqonaE N       enough;sufficient
-;; <iqonAE_1
-<iqonAE N/At    persuasion;convincing
-;; <iqonAE_2
-<iqonAE N/At    belief;conviction
+;; IiqonAE_1
+IiqonAE N/At    persuasion;convincing
+;; IiqonAE_2
+IiqonAE N/At    belief;conviction
 ;; taqan~uE_1
 taqan~uE        N/At    masquerade
 ;; AiqotinAE_1
@@ -5660,9 +5660,9 @@ qonam   IV_intr become rancid
 qanam   N       rancid
 ;; qan~uwmap_1
 qan~uwm Nap     qannuma (sacred fish in ancient Egypt)
-;; >uqonuwm_1
->uqonuwm        Ndu     hypostasis (person of the Trinity);basic element
->aqAniym        Ndip    hypostases (persons of the Trinity);basic elements
+;; Ouqonuwm_1
+Ouqonuwm        Ndu     hypostasis (person of the Trinity);basic element
+OaqAniym        Ndip    hypostases (persons of the Trinity);basic elements
 ;
 ;--- qnw
 ;; qanA-u_1
@@ -5695,9 +5695,9 @@ qunowAn N       acquisitions;purchases;appropriations
 qunoyAn N       acquisitions;purchases;appropriations
 ;; qunow_2
 qunow   N       dates (food)
->aqonA' N0_Nh   dates (food)
->aqonA& Nh      dates (food)
->aqonA} Nhy     dates (food)
+OaqonA' N0_Nh   dates (food)
+OaqonAW Nh      dates (food)
+OaqonA} Nhy     dates (food)
 qunowAn N       dates (food)
 qunoyAn N       dates (food)
 ;; qunowap_1
@@ -5707,20 +5707,20 @@ qunoy   Nap     acquisition;possessions;property
 ;; qanAp_1
 qanA    Napdu   canal;channel
 qanaw   NAt     canals;channels
->aqoniy Nap     canals;channels
+Oaqoniy Nap     canals;channels
 ;; qanAp_2
 qanAp   Nprop   Qanat
 ;; qanAyap_1
 qanAy   NapAt   stream;rivulet
 ;; qunay~ap_1
 qunay~  Nap     cannula
-;; >aqonaY_1
->aqonaY N0      bent;crooked;hooked
->aqonA  Nhy     bent;crooked;hooked
->aqonay NAn_Nayn        bent;crooked;hooked
+;; OaqonaY_1
+OaqonaY N0      bent;crooked;hooked
+OaqonA  Nhy     bent;crooked;hooked
+Oaqonay NAn_Nayn        bent;crooked;hooked
 ;; AiqotinA'_1
 AiqotinA'       N0_Nh   purchase;acquisition
-AiqotinA&       Nh      purchase;acquisition
+AiqotinAW       Nh      purchase;acquisition
 AiqotinA}       Nhy     purchase;acquisition
 AiqotinA'       NAn_Nayn        purchases;acquisitions
 AiqotinA}       Nayn    purchases;acquisitions
@@ -5828,11 +5828,11 @@ qah     PV_w    have no appetite
 qohaY   IV_0    have no appetite
 qohay   IV_Ann  have no appetite
 qoha    IV_0hwnyn       have no appetite
-;; >aqohaY_1
->aqohaY PV_0    have no appetite
->aqohA  PV_h    have no appetite
->aqohay PV_Atn  have no appetite
->aqoh   PV_ttAw have no appetite
+;; OaqohaY_1
+OaqohaY PV_0    have no appetite
+OaqohA  PV_h    have no appetite
+Oaqohay PV_Atn  have no appetite
+Oaqoh   PV_ttAw have no appetite
 qohiy   IV_0hAnn_yu     have no appetite
 qoh     IV_0hwnyn_yu    have no appetite
 ;; qAhiy_1
@@ -5858,17 +5858,17 @@ taqaw~ab        IV      break open;burst open
 qAb     N       short distance;short span
 ;; quwb_1
 quwb    Ndu     young bird;chick
->aqowAb N       young birds;chicks
+OaqowAb N       young birds;chicks
 ;; quwabA'_1
 quwabA' N0_Nh   tetter;eczema
-quwabA& Nh      tetter;eczema
+quwabAW Nh      tetter;eczema
 quwabA} Nhy     tetter;eczema
 quwb    Nap     tetter;eczema
 quwab   Nap     tetter;eczema
 quwab   N       tetters;eczema
 ;; quwbA'_1
 quwbA'  N0_Nh   tetter;eczema;herpes
-quwbA&  Nh      tetter;eczema;herpes
+quwbAW  Nh      tetter;eczema;herpes
 quwbA}  Nhy     tetter;eczema;herpes
 ;
 ;--- qwt
@@ -5880,9 +5880,9 @@ qut     IV_C    support;nourish;sustain
 ;; qaw~at_1
 qaw~at  PV-t    support;nourish;sustain
 qaw~it  IV_yu   support;nourish;sustain
-;; >aqAt_1
->aqAt   PV_V    support;nourish;sustain
->aqat   PV-t    support;nourish;sustain
+;; OaqAt_1
+OaqAt   PV_V    support;nourish;sustain
+Oaqat   PV-t    support;nourish;sustain
 qiyt    IV_V_yu support;nourish;sustain
 qit     IV_C_yu support;nourish;sustain
 qAt     IV_V_Pass_yu    be supported;be nourished;be sustained
@@ -5903,7 +5903,7 @@ qAtiy~  N-ap    qat (stimulant)     [[qAtiy~/ADJ]]
 qAtiy~  NAt     qat (stimulant) derivatives     [[qAtiy~/NOUN]]
 ;; quwt_1
 quwt    N       nourishment;food
->aqowAt N       nourishment;food
+OaqowAt N       nourishment;food
 ;; taqowiytap_1
 taqowiyt        NapAt   snack;quick bite
 ;; taqaw~ut_1
@@ -5952,9 +5952,9 @@ qAd     PV_V    drive;pilot
 qud     PV_C    drive;pilot
 quwd    IV_V    drive;pilot
 qud     IV_C    drive;pilot
-;; >aqAd_1
->aqAd   PV_V    cause to retaliate
->aqad   PV_C    cause to retaliate
+;; OaqAd_1
+OaqAd   PV_V    cause to retaliate
+Oaqad   PV_C    cause to retaliate
 qiyd    IV_V_yu cause to retaliate
 qid     IV_C_yu cause to retaliate
 qAd     IV_V_Pass_yu    be made to retaliate
@@ -5978,8 +5978,8 @@ sotaqid IV_C    retaliate
 qawod   N       leadership
 ;; qawad_1
 qawad   N       retaliation
-;; >aqowad_1
->aqowad Nel     tractable;docile;amenable
+;; Oaqowad_1
+Oaqowad Nel     tractable;docile;amenable
 ;; qiyAd_1
 qiyAd   N       leadership;guidance
 ;; qiyAdap_1
@@ -6000,8 +6000,8 @@ qAd     Nap     leaders;commanders
 ;; qA}id_2
 qA}id   Nall    driver;chauffeur
 quw~Ad  N       drivers;chauffeurs
-;; qa&uwd_1
-qa&uwd  N-ap    tractable;docile;manageable
+;; qaWuwd_1
+qaWuwd  N-ap    tractable;docile;manageable
 qa}uwd  N-ap    tractable;docile;manageable
 qawuwd  N-ap    tractable;docile;manageable
 ;; qaw~Ad_1
@@ -6062,7 +6062,7 @@ taqaw~as        PV_intr be bent;be curved
 taqaw~as        IV_intr be bent;be curved
 ;; qawos_1
 qawos   N       bow;arch;vault
->aqowAs N       bows;arches;vaults
+OaqowAs N       bows;arches;vaults
 ;; qawos_2
 qawos   NAn_Nayn        parentheses
 ;; qawos_3
@@ -6079,7 +6079,7 @@ muqaw~as        N-ap    arched;bent;curved     [[muqaw~as/ADJ]]
 ;--- qw$
 ;; quw$_1
 quw$    Ndu     crupper;strap
->aqowA$ N       cruppers;straps
+OaqowA$ N       cruppers;straps
 ;; qAwuw$_1
 qAwuw$  Ndu     prison cell
 qawAwiy$        Ndip    prison cells
@@ -6110,7 +6110,7 @@ muqAwaD NapAt   barter;exchange
 ;--- qwT
 ;; qawoT_1
 qawoT   Ndu     flock of sheep
->aqowAT N       flocks of sheep
+OaqowAT N       flocks of sheep
 ;; quwT_1
 quwT    N       Goths
 ;; quwTiy~_1
@@ -6124,8 +6124,8 @@ quwT    Nap     tomatoes
 ;; qAE_1
 qAE     N       bottom;floor
 qiyEAn  N       bottom;floor;depths
->aqowuE N       bottom;floor;depths
->aqowAE N       bottom;floor;depths
+OaqowuE N       bottom;floor;depths
+OaqowAE N       bottom;floor;depths
 ;; qAEap_1
 qAE     Napdu   hall;corridor;large room
 qAE     NAt     halls;corridors;large rooms
@@ -6196,8 +6196,8 @@ qAwil   IV_yu   negotiate with;make a deal with
 qAl     Nap     speech;talk
 ;; qawol_1
 qawol   N       statement;remark
->aqowAl N       statements;reports
->aqAwiyl        Ndip    statements;remarks
+OaqowAl N       statements;reports
+OaqAwiyl        Ndip    statements;remarks
 ;; qawolAF_1
 qawol   NF      in word;verbally;by word     [[qawol/ADV]]
 ;; qawolap_1
@@ -6261,12 +6261,12 @@ qaw~im  IV_yu   straighten
 ;; qAwam_1
 qAwam   PV      resist;oppose
 qAwim   IV_yu   resist;oppose
-;; >aqAm_1
->aqAm   PV_V    install;establish;erect
->aqam   PV_C    install;establish;erect
+;; OaqAm_1
+OaqAm   PV_V    install;establish;erect
+Oaqam   PV_C    install;establish;erect
 qiym    IV_V_yu install;establish;erect
 qim     IV_C_yu install;establish;erect
->uqiym  PV_Pass-aAat    take place;be installed;be established
+Ouqiym  PV_Pass-aAat    take place;be installed;be established
 qAm     IV_V_Pass_yu    take place;be installed;be established
 qam     IV_C_Pass_yu    take place;be installed;be established
 ;; AisotaqAm_1
@@ -6276,7 +6276,7 @@ sotaqiym        IV_V_intr       be straight;be right
 sotaqim IV_C_intr       be straight;be right
 ;; qawom_1
 qawom   N       people;nation
->aqowAm N       peoples;nations
+OaqowAm N       peoples;nations
 ;; qawomap_1
 qawom   Nap     revolt
 ;; qawomiy~_1
@@ -6325,8 +6325,8 @@ maqAm   NduAt   place;location;situation
 ;; maqAmap_1
 maqAm   Napdu   maqama (novel in rhymed prose)
 maqAm   NAt     maqamat (novels in rhymed prose)
-;; >aqowam_1
->aqowam Nel     straighter;more correct;more appropriate
+;; Oaqowam_1
+Oaqowam Nel     straighter;more correct;more appropriate
 ;; miqowam_1
 miqowam Ndu     plow handle
 ;; taqowiym_1
@@ -6336,8 +6336,8 @@ taqAwiym        Ndip    ratings;valuations;calendars
 taqowiym        Ndu     calendar;chronology
 ;; muqAwamap_1
 muqAwam NapAt   resistance;opposition;struggle
-;; <iqAmap_1
-<iqAm   Nap     residency;setting up
+;; IiqAmap_1
+IiqAm   Nap     residency;setting up
 ;; AisotiqAmap_1
 AisotiqAm       Nap     correctness;integrity
 ;; qA}im_1
@@ -6428,11 +6428,11 @@ qAwiy   IV_0hAnn_yu     compete with
 qAw     IV_0hwnyn_yu    compete with
 qAwaY   IV_0_Pass_yu    be competed with
 qAway   IV_Ann_Pass_yu  be competed with
-;; >aqowaY_1
->aqowaY PV_0    be desolate
->aqowA  PV_h    be desolate
->aqoway PV_Atn  be desolate
->aqow   PV_ttAw_intr    be desolate
+;; OaqowaY_1
+OaqowaY PV_0    be desolate
+OaqowA  PV_h    be desolate
+Oaqoway PV_Atn  be desolate
+Oaqow   PV_ttAw_intr    be desolate
 qowiy   IV_0hAnn_yu     be desolate
 qow     IV_0hwnyn_yu    be desolate
 ;; taqaw~aY_1
@@ -6467,43 +6467,43 @@ quwaY   N0      armed forces;power
 quwA    Nhy     armed forces;power
 ;; qawA'_1
 qawA'   N0_Nh   desert
-qawA&   Nh      desert
+qawAW   Nh      desert
 qawA}   Nhy     desert
 ;; qiyA'_1
 qiyA'   N0_Nh   desert
-qiyA&   Nh      desert
+qiyAW   Nh      desert
 qiyA}   Nhy     desert
 qiy~    N       deserts
 ;; qawA'_2
 qawA'   N0_Nh   hunger
-qawA&   Nh      hunger
+qawAW   Nh      hunger
 qawA}   Nhy     hunger
 ;; qawaY_1
 qawaY   N0      hunger
 qawA    Nhy     hunger
 ;; qawiy~_1
 qawiy~  N/ap    strong;powerful     [[qawiy~/ADJ]]
->aqowiyA'       N0_Nh   strong;powerful
->aqowiyA&       Nh      strong;powerful
->aqowiyA}       Nhy     strong;powerful
-;; >aqowaY_2
->aqowaY N0      stronger/strongest;more/most powerful
->aqowA  Nhy     strongest;most powerful
->aqoway NAn_Nayn        strongest;most powerful
+OaqowiyA'       N0_Nh   strong;powerful
+OaqowiyAW       Nh      strong;powerful
+OaqowiyA}       Nhy     strong;powerful
+;; OaqowaY_2
+OaqowaY N0      stronger/strongest;more/most powerful
+OaqowA  Nhy     strongest;most powerful
+Oaqoway NAn_Nayn        strongest;most powerful
 ;; taqowiyap_1
 taqowiy Napdu   strengthening;consolidation;reinforcement
 taqAwiy N0_Nh   seed for sowing
 taqAw   NK      seed for sowing
-;; <iqowA'_1
-<iqowA' N0_Nh   depopulation
-<iqowA& Nh      depopulation
-<iqowA} Nhy     depopulation
-<iqowA' NAt     depopulation
-;; <isotiqowA'_1
-<isotiqowA'     N0_Nh   becoming strong;being strengthened
-<isotiqowA&     Nh      becoming strong;being strengthened
-<isotiqowA}     Nhy     becoming strong;being strengthened
-<isotiqowA'     NAt     becoming strong;being strengthened
+;; IiqowA'_1
+IiqowA' N0_Nh   depopulation
+IiqowAW Nh      depopulation
+IiqowA} Nhy     depopulation
+IiqowA' NAt     depopulation
+;; IisotiqowA'_1
+IisotiqowA'     N0_Nh   becoming strong;being strengthened
+IisotiqowAW     Nh      becoming strong;being strengthened
+IisotiqowA}     Nhy     becoming strong;being strengthened
+IisotiqowA'     NAt     becoming strong;being strengthened
 ;; muqaw~iy_1
 muqaw~iy        N0F_Nh  strengthening     [[muqaw~iy/ADJ]]
 muqaw~  NK      strengthening
@@ -6521,26 +6521,26 @@ muqaw~A Napdu   strengthened;reinforced
 ;--- qyA
 ;; qA'-i_1
 qA'     PV_V    vomit
-qA&     PV_w    vomit
+qAW     PV_w    vomit
 qi}     PV_C    vomit
 qiy'    IV_V    vomit
-qiy&    IV_wn   vomit
+qiyW    IV_wn   vomit
 qiy}    IV_yn   vomit
 qi}     IV_C    vomit
-;; qay~a>_1
-qay~a>  PV      make vomit
+;; qay~aO_1
+qay~aO  PV      make vomit
 qay~a}  PV      make vomit
-qay~a&  PV_w    make vomit
+qay~aW  PV_w    make vomit
 qay~i'  IV_yu   make vomit
 qay~i}  IV_yu   make vomit
-qay~i&  IV_wn_yu        make vomit
-;; taqay~a>_1
-taqay~a>        PV      vomit
-taqay~a&        PV_w    vomit
-taqay~a>        IV      vomit
+qay~iW  IV_wn_yu        make vomit
+;; taqay~aO_1
+taqay~aO        PV      vomit
+taqay~aW        PV_w    vomit
+taqay~aO        IV      vomit
 taqay~a}        IV      vomit
 taqay~a|        IV-|    vomit
-taqay~a&        IV_wn   vomit
+taqay~aW        IV_wn   vomit
 taqay~a}        IV_yn   vomit
 ;; qayo'_1
 qayo'   N0      vomiting
@@ -6549,11 +6549,11 @@ qayo}   NF_Nhy  vomiting
 qayo}   N0      vomiting
 ;; quyA'_1
 quyA'   N0_Nh   vomit
-quyA&   Nh      vomit
+quyAW   Nh      vomit
 quyA}   Nhy     vomit
 ;; taqay~u'_1
 taqay~u'        N/At    vomiting
-taqay~u&        N/At    vomiting
+taqay~uW        N/At    vomiting
 taqay~u}        N/At    vomiting
 ;; muqay~i}_1
 muqay~i}        NduAt   emetic;causing vomiting
@@ -6657,7 +6657,7 @@ qotas   IV_C    measure;imitate
 qayos   N0      Qais;Qays
 ;; qiyAs_1
 qiyAs   NduAt   analogy
->aqoyis Nap     analogies
+Oaqoyis Nap     analogies
 ;; qiyAsiy~_1
 qiyAsiy~        N-ap    record;analogous     [[qiyAsiy~/ADJ]]
 ;; qay~As_1
@@ -6763,9 +6763,9 @@ qayoqab N       maple
 ;; qay~al_1
 qay~al  PV      take a nap
 qay~il  IV_yu   take a nap
-;; >aqAl_1
->aqAl   PV_V    dismiss;discharge
->aqal   PV_C    dismiss;discharge
+;; OaqAl_1
+OaqAl   PV_V    dismiss;discharge
+Oaqal   PV_C    dismiss;discharge
 qiyl    IV_V_yu dismiss;discharge
 qil     IV_C_yu dismiss;discharge
 ; qAl   qAl     IV_V_Pass_yu    be dismissed;be discharged
@@ -6777,11 +6777,11 @@ sotaqiyl        IV_V    resign
 sotaqil IV_C    resign
 ;; qayol_1
 qayol   N       chief;chieftain
->aqoyAl N       chiefs;chieftains
+OaqoyAl N       chiefs;chieftains
 ;; maqiyl_1
 maqiyl  Ndu     resting place;halting place
-;; <iqAlap_1
-<iqAl   NapAt   dismissal;discharge
+;; IiqAlap_1
+IiqAl   NapAt   dismissal;discharge
 ;; AisotiqAlap_1
 AisotiqAl       NapAt   resignation;retirement
 ;; muqAl_1

@@ -133,7 +133,7 @@ gib~a   FW-Wa-a after     [[gib~a/PREP]]
 gib~    NF      intermittently;alternately     [[gib~/ADV]]
 ;; gabab_1
 gabab   N       dewlap;wattle
->agobAb N       dewlap;wattle
+OagobAb N       dewlap;wattle
 ;; magab~ap_1
 magab~  Napdu   consequence;result;outcome
 magab~  NAt     consequences;results;outcome
@@ -147,8 +147,8 @@ gobur   IV      elapse;pass
 ;; gab~ar_1
 gab~ar  PV      raise dust;cover with dust
 gab~ir  IV_yu   raise dust;cover with dust
-;; >agobar_1
->agobar PV      raise dust;cover with dust
+;; Oagobar_1
+Oagobar PV      raise dust;cover with dust
 gobir   IV_yu   raise dust;cover with dust
 gobar   IV_Pass_yu      be covered with dust
 ;; tagab~ar_1
@@ -167,17 +167,17 @@ gubor   Nap     dust color
 gabar   Nap     dust
 ;; gubAr_1
 gubAr   N       dust
->agobir Nap     dust
-;; >agobar_2
->agobar Nel     dust-colored
+Oagobir Nap     dust
+;; Oagobar_2
+Oagobar Nel     dust-colored
 gaborA' N0_Nh   dust-colored
-gaborA& Nh      dust-colored
+gaborAW Nh      dust-colored
 gaborA} Nhy     dust-colored
 gubor   N       dust-colored
-;; >agobar_3
->agobar N0      earth;Earth
+;; Oagobar_3
+Oagobar N0      earth;Earth
 gaborA' N0_Nh   earth;Earth
-gaborA& Nh      earth;Earth
+gaborAW Nh      earth;Earth
 gaborA} Nhy     earth;Earth
 ;; AigobirAr_1
 AigobirAr       N/At    resentment;grayness
@@ -190,25 +190,25 @@ mugab~ar        N-ap    dusty     [[mugab~ar/ADJ]]
 mugobar~        N-ap    dust-colored
 ;
 ;--- gbs
-;; >agobas_1
->agobas Nel     light-tan
+;; Oagobas_1
+Oagobas Nel     light-tan
 gabosA' N0_Nh   light-tan
-gabosA& Nh      light-tan
+gabosAW Nh      light-tan
 gabosA} Nhy     light-tan
 ;
 ;--- gb$
 ;; gaba$_1
 gaba$   N       darkness;twilight
->agobA$ N       darkness;twilight
+OagobA$ N       darkness;twilight
 ;; gabi$_1
 gabi$   N-ap    opaque;dark     [[gabi$/ADJ]]
 ;; gubo$ap_1
 gubo$   Nap     twilight
-;; >agoba$_1
->agoba$ Nel     dark;opaque     [[>agoba$/ADJ]]
->agoba$ Nel     dark;opaque
+;; Oagoba$_1
+Oagoba$ Nel     dark;opaque     [[Oagoba$/ADJ]]
+Oagoba$ Nel     dark;opaque
 gabo$A' N0_Nh   dark;opaque
-gabo$A& Nh      dark;opaque
+gabo$AW Nh      dark;opaque
 gabo$A} Nhy     dark;opaque
 gubo$   N       dark;opaque
 ;; gabA$ap_1
@@ -221,8 +221,8 @@ gobiT   IV      envy
 ;; gab~aT_1
 gab~aT  PV      make envious
 gab~iT  IV_yu   make envious
-;; >agobaT_1
->agobaT PV      enchant
+;; OagobaT_1
+OagobaT PV      enchant
 gobiT   IV_yu   enchant
 gobaT   IV_Pass_yu      be enchanted
 ;; AigotabaT_1
@@ -267,19 +267,19 @@ tagAb   IV_0hwnyn       feign ignorance
 gabow   Nap     riddle;enigma;puzzle
 ;; gabiy~_1
 gabiy~  N/ap    ignorant;stupid     [[gabiy~/ADJ]]
->agobiyA'       N0_Nh   ignorant;stupid
->agobiyA&       Nh      ignorant;stupid
->agobiyA}       Nhy     ignorant;stupid
+OagobiyA'       N0_Nh   ignorant;stupid
+OagobiyAW       Nh      ignorant;stupid
+OagobiyA}       Nhy     ignorant;stupid
 ;; gabA'_1
 gabA'   N0_Nh   ignorance;stupidity
-gabA&   Nh      ignorance;stupidity
+gabAW   Nh      ignorance;stupidity
 gabA}   Nhy     ignorance;stupidity
 ;; gabAwap_1
 gabAw   Nap     ignorance;stupidity
-;; >agobaY_1
->agobaY N0      stupid
->agobA  Nhy     stupid
->agobay NAn_Nayn        stupid
+;; OagobaY_1
+OagobaY N0      stupid
+OagobA  Nhy     stupid
+Oagobay NAn_Nayn        stupid
 ;; tagobiyap_1
 tagobiy Nap     stupefaction
 ;
@@ -315,11 +315,11 @@ gavay   PV_Atn  be nauseated;be disgusted
 gav     PV_ttAw_intr    be nauseated;be disgusted
 goviy   IV_0hAnn        be nauseated;be disgusted
 gov     IV_0hwnyn       be nauseated;be disgusted
-;; >agovaY_1
->agovaY PV_0    nauseate;disgust
->agovA  PV_h    nauseate;disgust
->agovay PV_Atn  nauseate;disgust
->agov   PV_ttAw nauseate;disgust
+;; OagovaY_1
+OagovaY PV_0    nauseate;disgust
+OagovA  PV_h    nauseate;disgust
+Oagovay PV_Atn  nauseate;disgust
+Oagov   PV_ttAw nauseate;disgust
 goviy   IV_0hAnn_yu     nauseate;disgust
 gov     IV_0hwnyn_yu    nauseate;disgust
 govaY   IV_0_Pass_yu    be nauseated;be disgusted
@@ -330,7 +330,7 @@ gavoy   N       nausea
 gavayAn N       disgust;nausea
 ;; guvA'_1
 guvA'   N0_Nh   scum
-guvA&   Nh      scum
+guvAW   Nh      scum
 guvA}   Nhy     scum
 ;; mugoviy_1
 mugoviy N0F_Nh  disgusting;nauseating     [[mugoviy/ADJ]]
@@ -404,8 +404,8 @@ gudAf   N       raven
 ;; gadiq-a_1
 gadiq   PV      pour down
 godaq   IV      pour down
-;; >agodaq_1
->agodaq PV      pour down;shower
+;; Oagodaq_1
+Oagodaq PV      pour down;shower
 godiq   IV_yu   pour down;shower
 godaq   IV_Pass_yu      be poured down;be showered
 ;; gadiq_1
@@ -461,9 +461,9 @@ tagad~ay        IV_Ann  have breakfast
 tagad~  IV_0hwnyn       have breakfast
 ;; gadA'_1
 gadA'   N0_Nh   breakfast;lunch
-gadA&   Nh      breakfast;lunch
+gadAW   Nh      breakfast;lunch
 gadA}   Nhy     breakfast;lunch
->agodiy Nap     breakfast;lunch
+Oagodiy Nap     breakfast;lunch
 ;; gadAF_1
 gadAF   FW-WaBi tomorrow     [[gadAF/ADV]]
 ;; gad_1
@@ -497,15 +497,15 @@ ga*~    PV_V    fester;suppurate
 ga*a*   PV_C    fester;suppurate
 gi*~    IV_V    fester;suppurate
 go*i*   IV_C    fester;suppurate
-;; >aga*~_1
->aga*~  PV_V    hurry;suppurate
->ago*a* PV_C    hurry;suppurate
+;; Oaga*~_1
+Oaga*~  PV_V    hurry;suppurate
+Oago*a* PV_C    hurry;suppurate
 gi*~    IV_V_yu hurry;suppurate
 go*i*   IV_C_yu hurry;suppurate
 ;; ga*~_1
 ga*~    N       festering;suppurating
-;; <igo*A*_1
-<igo*A* N/At    hurrying;festering
+;; Iigo*A*_1
+Iigo*A* N/At    hurrying;festering
 ;
 ;--- g*w
 ;; ga*A-u_1
@@ -548,9 +548,9 @@ gota*aY IV_0_Pass_yu    be fed;be nourished
 ga*ow   N       feeding;nourishment
 ;; gi*A'_1
 gi*A'   N0_Nh   food
-gi*A&   Nh      food
+gi*AW   Nh      food
 gi*A}   Nhy     food
->ago*iy Nap     food;provisions
+Oago*iy Nap     food;provisions
 ;; gi*A}iy~_1
 gi*A}iy~        Nall    food;alimentary;nutritional     [[gi*A}iy~/ADJ]]
 ;; tago*iyap_1
@@ -582,8 +582,8 @@ sotagir~        IV_V    surprise
 sotagorir       IV_C    surprise
 ;; gir~_1
 gir~    N       inexperience;greenhorn
-;; >agorAr_1
->agorAr N       inexperience
+;; OagorAr_1
+OagorAr N       inexperience
 ;; gur~ap_1
 gur~    Nap     beginning
 ;; gir~ap_1
@@ -592,10 +592,10 @@ gir~    Nap     inadvertency;inattention
 guruwr  N       deception;delusion
 ;; gariyr_1
 gariyr  N/ap    misled;deceived;naive     [[gariyr/ADJ]]
->agir~A'        N0_Nh   misled;deceived;naive
->agir~A&        Nh      misled;deceived;naive
->agir~A}        Nhy     misled;deceived;naive
->agir~  Nap     misled;deceived;naive
+Oagir~A'        N0_Nh   misled;deceived;naive
+Oagir~AW        Nh      misled;deceived;naive
+Oagir~A}        Nhy     misled;deceived;naive
+Oagir~  Nap     misled;deceived;naive
 ;; girAr_1
 girAr   N       manner;way;haste
 ;; girArAF_1
@@ -607,10 +607,10 @@ garAr   Nap     heedlessness;manner
 ;; girArap_1
 girAr   Napdu   sack;bag
 garA}ir Ndip    sacks;bags
-;; >agar~_1
->agar~  Nel     esteemed
+;; Oagar~_1
+Oagar~  Nel     esteemed
 gar~A'  N0_Nh   esteemed
-gar~A&  Nh      esteemed
+gar~AW  Nh      esteemed
 gar~A}  Nhy     esteemed
 gur~    N       esteemed
 ;; tagoriyriy~_1
@@ -634,8 +634,8 @@ gorub   IV      depart;leave
 ;; gar~ab_1
 gar~ab  PV      banish
 gar~ib  IV_yu   banish
-;; >agorab_1
->agorab PV      exaggerate
+;; Oagorab_1
+Oagorab PV      exaggerate
 gorib   IV_yu   exaggerate
 gorab   IV_Pass_yu      be exaggerated
 ;; tagar~ab_1
@@ -658,19 +658,19 @@ gurob   Nap     exile
 ;; gurAb_1
 gurAb   N       crow
 girobAn N       crows
->agorub N       crows
->agorib Nap     crows
+Oagorub N       crows
+Oagorib Nap     crows
 ;; gariyb_1
 gariyb  N-ap    strange     [[gariyb/ADJ]]
 gurabA' N0_Nh   strange
-gurabA& Nh      strange
+gurabAW Nh      strange
 gurabA} Nhy     strange
 ;; gariyb_2
 gariyb  Nall    stranger;foreigner
 gurabA' N0_Nh   strangers;foreigners
-gurabA& Nh      strangers;foreigners
+gurabAW Nh      strangers;foreigners
 gurabA} Nhy     strangers;foreigners
->agorAb N       strangers;foreigners;emigres
+OagorAb N       strangers;foreigners;emigres
 ;; gariybap_1
 gariyb  Napdu   oddity
 garA}ib Ndip    oddities
@@ -680,8 +680,8 @@ guruwb  N       setting
 guruwbiy~       N-ap    from sundown     [[guruwbiy~/ADJ]]
 ;; garAbap_1
 garAb   Nap     strangeness;oddness
-;; >agorab_2
->agorab Nel     stranger/strangest
+;; Oagorab_2
+Oagorab Nel     stranger/strangest
 ;; magorib_1
 magorib N       Morocco
 magorib N       Maghreb;Maghrib (northwest Africa)
@@ -756,10 +756,10 @@ gurod   N       dune
 guruwd  N       dunes
 ;; gir~iyd_1
 gir~iyd N-ap    twittering;warbling
-;; >ugoruwd_1
->ugoruwd        Ndu     twittering;warbling
->ugoruwd        Napdu   twittering;warbling
->agAriyd        Ndip    twittering;warbling
+;; Ougoruwd_1
+Ougoruwd        Ndu     twittering;warbling
+Ougoruwd        Napdu   twittering;warbling
+OagAriyd        Ndip    twittering;warbling
 ;; tagoriyd_1
 tagoriyd        N/At    twittering;warbling
 tagAriyd        Ndip    twittering;warbling
@@ -775,8 +775,8 @@ goriz   IV      prick;stab
 ;; gar~az_1
 gar~az  PV      thrust;stick
 gar~iz  IV_yu   thrust;stick
-;; >agoraz_1
->agoraz PV      thrust;stick
+;; Oagoraz_1
+Oagoraz PV      thrust;stick
 goriz   IV_yu   thrust;stick
 goraz   IV_Pass_yu      be thrusted;be stuck
 ;; tagar~az_1
@@ -811,8 +811,8 @@ AinogirAz       N/At    penetration;piercing
 ;; garas-i_1
 garas   PV      implant;plant
 goris   IV      implant;plant
-;; >agoras_1
->agoras PV      implant;plant
+;; Oagoras_1
+Oagoras PV      implant;plant
 goris   IV_yu   implant;plant
 goras   IV_Pass_yu      be implanted;be planted
 ;; Ainogaras_1
@@ -822,7 +822,7 @@ nogaris IV_intr be implanted;sink in
 garos   N       implant
 ;; garos_2
 garos   N       plant
->agorAs N       plants
+OagorAs N       plants
 girAs   N       plants
 ;; garosap_1
 garos   Napdu   plant
@@ -848,8 +848,8 @@ giro$   Ndu     piaster
 guruw$  N       piasters
 ;
 ;--- grD
-;; >agoraD_1
->agoraD PV      attain
+;; OagoraD_1
+OagoraD PV      attain
 goriD   IV_yu   attain
 goraD   IV_Pass_yu      be attaind
 ;; tagar~aD_1
@@ -857,14 +857,14 @@ tagar~aD        PV_intr be partial;have a bias
 tagar~aD        IV_intr be partial;have a bias
 ;; garaD_1
 garaD   Ndu     goal;purpose;objective
->agorAD N       goals;objectives
-;; >agorAD_1
->agorAD N       articles;items
+OagorAD N       goals;objectives
+;; OagorAD_1
+OagorAD N       articles;items
 ;; garaDiy~_1
 garaDiy~        N-ap    tendency;purposeful     [[garaDiy~/ADJ]]
 ;; gariyD_1
 gariyD  N-ap    fresh;tender     [[gariyD/ADJ]]
->agAriyD        Ndip    fresh;tender
+OagAriyD        Ndip    fresh;tender
 ;; tagar~uD_1
 tagar~uD        N/At    bias;prejudice
 ;; mugoriD_1
@@ -918,8 +918,8 @@ goraq   IV      sink;drown;be submerged
 ;; gar~aq_1
 gar~aq  PV      submerge;drown;inundate
 gar~iq  IV_yu   submerge;drown;inundate
-;; >agoraq_1
->agoraq PV      submerge;drown;inundate
+;; Oagoraq_1
+Oagoraq PV      submerge;drown;inundate
 goriq   IV_yu   submerge;drown;inundate
 goraq   IV_Pass_yu      be submerged;be drowned;be inundated
 ;; tagar~aq_1
@@ -941,12 +941,12 @@ garoqA  Nhy     drowned;immersed
 garoqAn N       drowned
 ;; tagoriyq_1
 tagoriyq        N/At    drowning;sinking;inundation
-;; <igorAq_1
-<igorAq N/At    drowning;sinking
-;; <igorAq_2
-<igorAq N/At    excess;over-
-;; <igorAqiy~_1
-<igorAqiy~      N-ap    exaggerated;excessive     [[<igorAqiy~/ADJ]]
+;; IigorAq_1
+IigorAq N/At    drowning;sinking
+;; IigorAq_2
+IigorAq N/At    excess;over-
+;; IigorAqiy~_1
+IigorAqiy~      N-ap    exaggerated;excessive     [[IigorAqiy~/ADJ]]
 ;; gAriq_1
 gAriq   Nall    drowned;immersed;engrossed     [[gAriq/ADJ]]
 ;; mugoriq_1
@@ -968,12 +968,12 @@ goram   IV_intr be obligated
 ;; gar~am_1
 gar~am  PV      impose a fine
 gar~im  IV_yu   impose a fine
-;; >agoram_1
->agoram PV      compel;force
+;; Oagoram_1
+Oagoram PV      compel;force
 gorim   IV_yu   compel;force
 goram   IV_Pass_yu      be compelled;be forced
-;; >ugorim_2
->ugorim PV_Pass fall in love;be infatuated
+;; Ougorim_2
+Ougorim PV_Pass fall in love;be infatuated
 ;; tagar~am_1
 tagar~am        PV_intr be fined
 tagar~am        IV_intr be fined
@@ -992,12 +992,12 @@ garAmiy~        NAt     romance;amorous adventures     [[garAmiy~/NOUN]]
 ;; gariym_1
 gariym  N/ap    debtor;creditor
 guramA' N0_Nh   debtors;creditors
-guramA& Nh      debtors;creditors
+guramAW Nh      debtors;creditors
 guramA} Nhy     debtors;creditors
 ;; gariym_2
 gariym  N/ap    adversary;opponent
 guramA' N0_Nh   adversaries;opponents
-guramA& Nh      adversaries;opponents
+guramAW Nh      adversaries;opponents
 guramA} Nhy     adversaries;opponents
 ;; magoram_1
 magoram Ndu     damages;liability;penalty
@@ -1049,17 +1049,17 @@ gar~iy  IV_0hAnn_yu     glue
 gar~    IV_0hwnyn_yu    glue
 gar~aY  IV_0_Pass_yu    be glued
 gar~ay  IV_Ann_Pass_yu  be glued
-;; >agoraY_1
->agoraY PV_0    incite;induce;provoke
->agorA  PV_h    incite;induce;provoke
->agoray PV_Atn  incite;induce;provoke
->agor   PV_ttAw incite;induce;provoke
+;; OagoraY_1
+OagoraY PV_0    incite;induce;provoke
+OagorA  PV_h    incite;induce;provoke
+Oagoray PV_Atn  incite;induce;provoke
+Oagor   PV_ttAw incite;induce;provoke
 goriy   IV_0hAnn_yu     incite;induce;provoke
 gor     IV_0hwnyn_yu    incite;induce;provoke
 goraY   IV_0_Pass_yu    be incited;be provoked
 goray   IV_Ann_Pass_yu  be incited;be provoked
-;; >ugoriy_2
->ugoriy PV_intr be seduced
+;; Ougoriy_2
+Ougoriy PV_intr be seduced
 goray   IV_Ann  be seduced
 gor     IV_0hwnyn       be seduced
 goraY   IV_0_Pass_yu    be seduced
@@ -1072,7 +1072,7 @@ garowA  Nhy     wonder
 gar~Ay  NapAt   glue pot
 ;; girA'_1
 girA'   N0_Nh   glue
-girA&   Nh      glue
+girAW   Nh      glue
 girA}   Nhy     glue
 ;; girA}iy~_1
 girA}iy~        N-ap    gluey;sticky     [[girA}iy~/ADJ]]
@@ -1088,11 +1088,11 @@ girawiy~        NAt     colloids     [[girawiy~/NOUN]]
 migorA  Nap     glue pot
 ;; tagoriyap_1
 tagoriy Nap     gluing;agglutination
-;; <igorA'_1
-<igorA' N0_Nh   incitement;instigation
-<igorA& Nh      incitement;instigation
-<igorA} Nhy     incitement;instigation
-<igorA' NAt     incitement;instigation
+;; IigorA'_1
+IigorA' N0_Nh   incitement;instigation
+IigorAW Nh      incitement;instigation
+IigorA} Nhy     incitement;instigation
+IigorA' NAt     incitement;instigation
 ;; mugoriy_1
 mugoriy N0F_Nh  inciting;instigating;alluring     [[mugoriy/ADJ]]
 mugor   NK      inciting;instigating;alluring
@@ -1124,9 +1124,9 @@ griyfiyv        Nprop   Griffith
 griyn   Nprop   Green
 ;
 ;--- gz
-;; >agaz~_1
->agaz~  PV_V_intr       be thorny
->agozaz PV_C_intr       be thorny
+;; Oagaz~_1
+Oagaz~  PV_V_intr       be thorny
+Oagozaz PV_C_intr       be thorny
 giz~    IV_V_intr_yu    be thorny
 goziz   IV_C_intr_yu    be thorny
 ;; gaz~iy~_1
@@ -1151,8 +1151,8 @@ gaziyr  N/ap    abundant;ample
 gizAr   N       abundant;ample
 ;; gazArap_1
 gazAr   Nap     abundance;lavish amount
-;; >agozar_1
->agozar Nel     more/most abundant
+;; Oagozar_1
+Oagozar Nel     more/most abundant
 ;; gazAriy~_1
 gazAriy~        N-ap    pigeon     [[gazAriy~/ADJ]]
 ;
@@ -1385,7 +1385,7 @@ ga$uwm  Ndu     oppressor;tyrant;capricious
 ;; ga$iym_1
 ga$iym  N/ap    inexperienced;unskilled;naive     [[ga$iym/ADJ]]
 gu$amA' N0_Nh   inexperienced;unskilled;clumsy
-gu$amA& Nh      inexperienced;unskilled;clumsy
+gu$amAW Nh      inexperienced;unskilled;clumsy
 gu$amA} Nhy     inexperienced;unskilled;clumsy
 ;; gu$uwmap_1
 gu$uwm  Nap     inexperience;foolishness
@@ -1419,11 +1419,11 @@ ga$~iy  IV_0hAnn_yu     cover;wrap
 ga$~    IV_0hwnyn_yu    cover;wrap
 ga$~aY  IV_0_Pass_yu    be covered;be wrapped
 ga$~ay  IV_Ann_Pass_yu  be covered;be wrapped
-;; >ago$aY_1
->ago$aY PV_0    cover;be dark
->ago$A  PV_h    cover;be dark
->ago$ay PV_Atn  cover;be dark
->ago$   PV_ttAw cover;be dark
+;; Oago$aY_1
+Oago$aY PV_0    cover;be dark
+Oago$A  PV_h    cover;be dark
+Oago$ay PV_Atn  cover;be dark
+Oago$   PV_ttAw cover;be dark
 go$iy   IV_0hAnn_yu     cover;be dark
 go$     IV_0hwnyn_yu    cover;be dark
 go$aY   IV_0_Pass_yu    be covered
@@ -1452,9 +1452,9 @@ ga$oy   N       fainting
 ga$oy   Nap     fainting
 ;; gi$A'_1
 gi$A'   N0_Nh   covering;coating;membrane
-gi$A&   Nh      covering;coating;membrane
+gi$AW   Nh      covering;coating;membrane
 gi$A}   Nhy     covering;coating;membrane
->ago$iy Nap     covering;coating;membranes
+Oago$iy Nap     covering;coating;membranes
 ;; gi$A}iy~_1
 gi$A}iy~        N-ap    membranous;tegumentary     [[gi$A}iy~/ADJ]]
 ;; ga$ayAn_1
@@ -1480,9 +1480,9 @@ gaS~    PV_V_intr       be congested;be crowded
 gaSiS   PV_C_intr       be congested;be crowded
 gaS~    IV_V_intr       be congested;be crowded
 goSaS   IV_C_intr       be congested;be crowded
-;; >agaS~_1
->agaS~  PV_V    suffocate;asphyxiate;drown
->agoSaS PV_C    suffocate;asphyxiate;drown
+;; OagaS~_1
+OagaS~  PV_V    suffocate;asphyxiate;drown
+OagoSaS PV_C    suffocate;asphyxiate;drown
 giS~    IV_V_yu suffocate;asphyxiate;drown
 goSiS   IV_C_yu suffocate;asphyxiate;drown
 gaS~    IV_V_Pass_yu    be suffocated;be asphyxiated;be drowned
@@ -1523,14 +1523,14 @@ mugotaSab       N-ap    usurped;raped     [[mugotaSab/ADJ]]
 ;; gaS~an_1
 gaS~an  PV-n    branch out
 gaS~in  IV-n_yu branch out
-;; >agoSan_1
->agoSan PV-n    branch out
+;; OagoSan_1
+OagoSan PV-n    branch out
 goSin   IV-n_yu branch out
 goSan   IV-n_Pass_yu    be branched out
 ;; guSon_1
 guSon   Ndu     branch;limb
 guSuwn  N       branches
->agoSAn N       branches
+OagoSAn N       branches
 ;; guSonap_1
 guSon   NapAt   twig;sprout
 ;; guSayon_1
@@ -1555,9 +1555,9 @@ guD~    Nap     fault;deficiency
 gaDiyD  N-ap    fresh;tender     [[gaDiyD/ADJ]]
 ;; gaDiyD_2
 gaDiyD  N-ap    diminished;shamed     [[gaDiyD/ADJ]]
->agiD~A'        N0_Nh   diminished;shamed
->agiD~A&        Nh      diminished;shamed
->agiD~A}        Nhy     diminished;shamed
+OagiD~A'        N0_Nh   diminished;shamed
+OagiD~AW        Nh      diminished;shamed
+OagiD~A}        Nhy     diminished;shamed
 ;; gaDADap_1
 gaDAD   Nap     freshness;tenderness
 ;; gaDADap_2
@@ -1572,8 +1572,8 @@ gAD~    Nall    lowering
 ;; gaDib-a_1
 gaDib   PV_intr become angry
 goDab   IV_intr become angry
-;; >agoDab_1
->agoDab PV      make angry;irritate
+;; OagoDab_1
+OagoDab PV      make angry;irritate
 goDib   IV_yu   make angry;irritate
 goDab   IV_Pass_yu      be angered;be irritated
 ;; tagaD~ab_1
@@ -1597,8 +1597,8 @@ gaDobA  Nhy     angry;infuriated
 giDAb   N       angry;infuriated
 gaDAbaY N0      angry;infuriated
 gaDAbA  Nhy     angry;infuriated
-;; <igoDAb_1
-<igoDAb N/At    irritation;angering
+;; IigoDAb_1
+IigoDAb N/At    irritation;angering
 ;; gADib_1
 gADib   Nall    angry;enraged     [[gADib/ADJ]]
 ;; magoDuwb_1
@@ -1619,7 +1619,7 @@ gaDiyr  N-ap    abundant;fresh;green     [[gaDiyr/ADJ]]
 gaDAr   Nap     affluence;prosperity
 ;; gaDorA'_1
 gaDorA' N0_Nh   abundance;prosperity
-gaDorA& Nh      abundance;prosperity
+gaDorAW Nh      abundance;prosperity
 gaDorA} Nhy     abundance;prosperity
 ;
 ;--- gDrf
@@ -1662,11 +1662,11 @@ gaDanofariy~    N0      Ghadanfari
 gaDanofariy~    Nall    lion-like;powerful     [[gaDanofariy~/ADJ]]
 ;
 ;--- gDw gDy
-;; >agoDaY_1
->agoDaY PV_0    disregard;ignore;overlook
->agoDA  PV_h    disregard;ignore;overlook
->agoDay PV_Atn  disregard;ignore;overlook
->agoD   PV_ttAw disregard;ignore;overlook
+;; OagoDaY_1
+OagoDaY PV_0    disregard;ignore;overlook
+OagoDA  PV_h    disregard;ignore;overlook
+OagoDay PV_Atn  disregard;ignore;overlook
+OagoD   PV_ttAw disregard;ignore;overlook
 goDiy   IV_0hAnn_yu     disregard;ignore;overlook
 goD     IV_0hwnyn_yu    disregard;ignore;overlook
 goDaY   IV_0_Pass_yu    be disregarded;be ignored;be overlooked
@@ -1685,11 +1685,11 @@ gaDaY   N0      hot spot;predicament;unbearable situation
 ;; gaDAF_1
 gaDAF   FW-WaBi hot spot;predicament;unbearable situation     [[gaDAF/NOUN]]
 gaDA    Nhy     hot spot;predicament;unbearable situation
-;; <igoDA'_1
-<igoDA' N0_Nh   disregarding;ignoring;overlooking
-<igoDA& Nh      disregarding;ignoring;overlooking
-<igoDA} Nhy     disregarding;ignoring;overlooking
-<igoDA' NAt     disregarding;ignoring;overlooking
+;; IigoDA'_1
+IigoDA' N0_Nh   disregarding;ignoring;overlooking
+IigoDAW Nh      disregarding;ignoring;overlooking
+IigoDA} Nhy     disregarding;ignoring;overlooking
+IigoDA' NAt     disregarding;ignoring;overlooking
 ;; tagADiy_1
 tagADiy N0_Nh   indifference;condoning
 tagAD   NK      indifference;condoning
@@ -1702,9 +1702,9 @@ gaT~    PV_V    immerse;dip;plunge
 gaTaT   PV_C    immerse;dip;plunge
 guT~    IV_V    immerse;dip;plunge
 goTuT   IV_C    immerse;dip;plunge
-;; >agaT~_1
->agaT~  PV_V    immerse;dip;plunge
->agoTaT PV_C    immerse;dip;plunge
+;; OagaT~_1
+OagaT~  PV_V    immerse;dip;plunge
+OagoTaT PV_C    immerse;dip;plunge
 giT~    IV_V_yu immerse;dip;plunge
 goTiT   IV_C_yu immerse;dip;plunge
 gaT~    IV_V_Pass_yu    immerse;dip;plunge
@@ -1790,7 +1790,7 @@ gaTa$   N       dim-sightedness
 gaTa$An N       slow
 ;; gaTo$A'_1
 gaTo$A' N0_Nh   pitch dark
-gaTo$A& Nh      pitch dark
+gaTo$AW Nh      pitch dark
 gaTo$A} Nhy     pitch dark
 ;
 ;--- gTm
@@ -1834,9 +1834,9 @@ gotaT   IV_0hwnyn       be covered
 gotaTaY IV_0_Pass_yu    be covered
 ;; giTA'_1
 giTA'   N0_Nh   cover;blanket
-giTA&   Nh      cover;blanket
+giTAW   Nh      cover;blanket
 giTA}   Nhy     cover;blanket
->agoTiy Nap     covers;blankets
+OagoTiy Nap     covers;blankets
 ;; giTA}iy~_1
 giTA}iy~        N-ap    covering;wrapping     [[giTA}iy~/ADJ]]
 ;; tagoTiyap_1
@@ -1890,7 +1890,7 @@ gafiyr  N-ap    numerous;abundant     [[gafiyr/ADJ]]
 ;; gufarA'_1
 gafiyr  N-ap    sentinel;guard
 gufarA' N0_Nh   sentinels;guards
-gufarA& Nh      sentinels;guards
+gufarAW Nh      sentinels;guards
 gufarA} Nhy     sentinels;guards
 ;; guforAn_1
 guforAn N       forgiveness;atonement
@@ -1921,8 +1921,8 @@ gaf~il  IV_yu   stultify;make negligent
 ;; gAfal_1
 gAfal   PV      exploit negligence
 gAfil   IV_yu   exploit negligence
-;; >agofal_1
->agofal PV      neglect;overlook;disregard
+;; Oagofal_1
+Oagofal PV      neglect;overlook;disregard
 gofil   IV_yu   neglect;overlook;disregard
 gofal   IV_Pass_yu      be neglected;be overlooked;be disregarded
 ;; tagAfal_1
@@ -1933,7 +1933,7 @@ Aisotagofal     PV      regard as negligent
 sotagofil       IV      regard as negligent
 ;; gufol_1
 gufol   N       anonymous;unmarked;devoid
->agofAl N       anonymous;unmarked;devoid
+OagofAl N       anonymous;unmarked;devoid
 ;; gufoliy~ap_1
 gufoliy~        Nap     anonymity     [[gufoliy~/NOUN]]
 ;; gafal_1
@@ -1944,8 +1944,8 @@ gafol   Nap     negligence;inattention
 gafolAn N       negligent     [[gafolAn/ADJ]]
 ;; tagofiyl_1
 tagofiyl        N/At    stultification
-;; <igofAl_1
-<igofAl N/At    disregard;omission;forgetting
+;; IigofAl_1
+IigofAl N/At    disregard;omission;forgetting
 ;; tagAful_1
 tagAful N/At    neglect
 ;; gAfil_1
@@ -1974,18 +1974,18 @@ gaf     PV_w    doze off
 gofaY   IV_0    doze off
 gofay   IV_Ann  doze off
 gofa    IV_0hwnyn       doze off
-;; >agofaY_1
->agofaY PV_0    doze off
->agofA  PV_h    doze off
->agofay PV_Atn  doze off
->agof   PV_ttAw doze off
+;; OagofaY_1
+OagofaY PV_0    doze off
+OagofA  PV_h    doze off
+Oagofay PV_Atn  doze off
+Oagof   PV_ttAw doze off
 gofiy   IV_0hAnn_yu     doze off
 gof     IV_0hwnyn_yu    doze off
 ;; gafowap_1
 gafow   Napdu   nap;siesta;sleepiness
 gafaw   NAt     naps;siestas
-;; <igofA'_1
-<igofA' NapAt   nap;siesta;sleepiness
+;; IigofA'_1
+IigofA' NapAt   nap;siesta;sleepiness
 ;; gAfiy_1
 gAfiy   N0F     drowsy;sleepy     [[gAfiy/ADJ]]
 gAf     NK      drowsy;sleepy
@@ -2016,9 +2016,9 @@ golil   IV_C    yield;produce
 ;; gal~al_1
 gal~al  PV      handcuff;shackle
 gal~il  IV_yu   handcuff;shackle
-;; >agal~_1
->agal~  PV_V    produce;yield
->agolal PV_C    produce;yield
+;; Oagal~_1
+Oagal~  PV_V    produce;yield
+Oagolal PV_C    produce;yield
 gil~    IV_V_yu produce;yield
 golil   IV_C_yu produce;yield
 gal~    IV_V_Pass_yu    be produced;be yielded
@@ -2037,7 +2037,7 @@ sotagil~        IV_V    exploit;take advantage of
 sotagolil       IV_C    exploit;take advantage of
 ;; gul~_1
 gul~    Ndu     handcuff;shackle
->agolAl N       handcuffs;shackles
+OagolAl N       handcuffs;shackles
 ;; gil~_1
 gil~    N       rancor
 ;; gul~_2
@@ -2092,12 +2092,12 @@ tagAlab IV      struggle
 galob   Nap     victory;idle talk
 ;; gal~Ab_1
 gal~Ab  Nall    victorious
-;; >agolab_1
->agolab Nel     most;majority
-;; >agolabiy~ap_1
->agolabiy~      Nap     majority     [[>agolabiy~/NOUN]]
-;; >agolabiy~_1
->agolabiy~      Nall    majority     [[>agolabiy~/ADJ]]
+;; Oagolab_1
+Oagolab Nel     most;majority
+;; Oagolabiy~ap_1
+Oagolabiy~      Nap     majority     [[Oagolabiy~/NOUN]]
+;; Oagolabiy~_1
+Oagolabiy~      Nall    majority     [[Oagolabiy~/ADJ]]
 ;; gilAb_1
 gilAb   N       fighting;combat
 ;; mugAlabap_1
@@ -2144,8 +2144,8 @@ golaT   IV      err;be mistaken
 ;; gAlaT_1
 gAlaT   PV      misrepresent;falsify;deceive
 gAliT   IV_yu   misrepresent;falsify;deceive
-;; >agolaT_1
->agolaT PV      cause to err
+;; OagolaT_1
+OagolaT PV      cause to err
 goliT   IV_yu   cause to err
 golaT   IV_Pass_yu      be forced to err
 ;; tagAlaT_1
@@ -2153,15 +2153,15 @@ tagAlaT PV      mislead each other
 tagAlaT IV      mislead each other
 ;; galaT_1
 galaT   Ndu     error;blunder
->agolAT N       mistakes;blunders
+OagolAT N       mistakes;blunders
 ;; galoTap_1
 galoT   Napdu   error;blunder
 galaT   NAt     errors;blunders
 ;; galoTAn_1
 galoTAn Ndip    wrong;erring     [[galoTAn/ADJ]]
-;; >ugoluwTap_1
->ugoluwT        NapAt   captious question
->agAliyT        Ndip    captious questions
+;; OugoluwTap_1
+OugoluwT        NapAt   captious question
+OagAliyT        Ndip    captious questions
 ;; magolaTap_1
 magolaT Nap     captious question
 magAliT Ndip    captious questions
@@ -2183,8 +2183,8 @@ goluZ   IV_intr become thick;become viscous
 ;; gal~aZ_1
 gal~aZ  PV      make thick;make coarse
 gal~iZ  IV_yu   make thick;make coarse
-;; >agolaZ_1
->agolaZ PV_intr be rough;be rude
+;; OagolaZ_1
+OagolaZ PV_intr be rough;be rude
 goliZ   IV_intr_yu      be rough;be rude
 ;; AisotagolaZ_1
 AisotagolaZ     PV_intr become thick;become rough
@@ -2198,8 +2198,8 @@ galiyZ  N/ap    thick;viscous;coarse     [[galiyZ/ADJ]]
 gilAZ   N       thick;viscous;coarse
 ;; gilAZap_1
 gilAZ   Nap     thickness;coarseness
-;; >agolaZ_2
->agolaZ Nel     thicker/thickest;coarser/coarsest;cruder/crudest
+;; OagolaZ_2
+OagolaZ Nel     thicker/thickest;coarser/coarsest;cruder/crudest
 ;; mugal~aZ_1
 mugal~aZ        N-ap    binding;sacred     [[mugal~aZ/ADJ]]
 ;; tagoliyZ_1
@@ -2226,14 +2226,14 @@ gulof   Nap     foreskin;prepuce
 ;; gilAf_1
 gilAf   NduAt   cover
 guluf   N       covers
->agolif Nap     covers
+Oagolif Nap     covers
 ;; gilAfiy~_1
 gilAfiy~        N-ap    covering     [[gilAfiy~/ADJ]]
-;; >agolaf_1
->agolaf Nel     rude;uncivilized     [[>agolaf/ADJ]]
->agolaf Nel     rude;uncivilized
+;; Oagolaf_1
+Oagolaf Nel     rude;uncivilized     [[Oagolaf/ADJ]]
+Oagolaf Nel     rude;uncivilized
 galofA' N0_Nh   rude;uncivilized
-galofA& Nh      rude;uncivilized
+galofAW Nh      rude;uncivilized
 galofA} Nhy     rude;uncivilized
 ;; tagoliyf_1
 tagoliyf        N/At    wrapping;covering
@@ -2266,8 +2266,8 @@ galofAnuwmiytr  N       galvanometer
 ;; galaq-i_1
 galaq   PV      lock or bolt shut
 goliq   IV      lock or bolt shut
-;; >agolaq_1
->agolaq PV      lock or bolt shut
+;; Oagolaq_1
+Oagolaq PV      lock or bolt shut
 goliq   IV_yu   lock or bolt shut
 golaq   IV_Pass_yu      be locked or bolted shut
 ;; Ainogalaq_1
@@ -2280,7 +2280,7 @@ sotagoliq       IV_intr be impenetrable;be inaccessible
 galoq   N       closing;locking
 ;; galaq_1
 galaq   N       padlock;bolt;lock
->agolAq N       padlocks;bolts;locks
+OagolAq N       padlocks;bolts;locks
 ;; galiq_1
 galiq   N-ap    obscure;recondite     [[galiq/ADJ]]
 ;; gilAqap_1
@@ -2290,8 +2290,8 @@ gal~Aq  Nap     latch;lock
 ;; migolAq_1
 migolAq Ndu     lock;clasp;latch
 magAliyq        Ndip    lock;clasp;latch
-;; <igolAq_1
-<igolAq N/At    locking;closing;barring
+;; IigolAq_1
+IigolAq N/At    locking;closing;barring
 ;; AinogilAq_1
 AinogilAq       N/At    impenetrability;closing
 ;; mugolaq_1
@@ -2343,11 +2343,11 @@ gAliy   IV_0hAnn_yu     exceed;overdo
 gAl     IV_0hwnyn_yu    exceed;overdo
 gAlaY   IV_0_Pass_yu    be exceeded;be overdone
 gAlay   IV_Ann_Pass_yu  be exceeded;be overdone
-;; >agolaY_1
->agolaY PV_0    raise (price);make expensive
->agolA  PV_h    raise (price);make expensive
->agolay PV_Atn  raise (price);make expensive
->agol   PV_ttAw raise (price);make expensive
+;; OagolaY_1
+OagolaY PV_0    raise (price);make expensive
+OagolA  PV_h    raise (price);make expensive
+Oagolay PV_Atn  raise (price);make expensive
+Oagol   PV_ttAw raise (price);make expensive
 goliy   IV_0hAnn_yu     raise (price);make expensive
 gol     IV_0hwnyn_yu    raise (price);make expensive
 golaY   IV_0_Pass_yu    be raised (price)
@@ -2373,24 +2373,24 @@ sotagolaY       IV_0_Pass_yu    be regarded as expensive
 guluw~  N       excess;exaggeration;extremism
 ;; galA'_1
 galA'   N0_Nh   high cost;rising cost
-galA&   Nh      high cost;rising cost
+galAW   Nh      high cost;rising cost
 galA}   Nhy     high cost;rising cost
 ;; gulowA'_1
 gulowA' N0_Nh   zeal;enthusiasm
-gulowA& Nh      zeal;enthusiasm
+gulowAW Nh      zeal;enthusiasm
 gulowA} Nhy     zeal;enthusiasm
-;; >agolaY_2
->agolaY N0      more/most expensive
->agolA  Nhy     most expensive
->agolay NAn_Nayn        most expensive
+;; OagolaY_2
+OagolaY N0      more/most expensive
+OagolA  Nhy     most expensive
+Oagolay NAn_Nayn        most expensive
 ;; mugAlAp_1
 mugAlA  Napdu   exaggeration;excess
 mugAlay NAt     exaggerations;excesses
-;; <igolA'_1
-<igolA' N0_Nh   praise;admiration
-<igolA& Nh      praise;admiration
-<igolA} Nhy     praise;admiration
-<igolA' NAt     praise;admiration
+;; IigolA'_1
+IigolA' N0_Nh   praise;admiration
+IigolAW Nh      praise;admiration
+IigolA} Nhy     praise;admiration
+IigolA' NAt     praise;admiration
 ;; gAliy_1
 gAliy   N0F     costly;beloved
 gAl     NK      costly;beloved
@@ -2431,11 +2431,11 @@ gal~iy  IV_0hAnn_yu     boil
 gal~    IV_0hwnyn_yu    boil
 gal~aY  IV_0_Pass_yu    be boiled
 gal~ay  IV_Ann_Pass_yu  be boiled
-;; >agolaY_3
->agolaY PV_0    boil;make boil
->agolA  PV_h    boil;make boil
->agolay PV_Atn  boil;make boil
->agol   PV_ttAw boil;make boil
+;; OagolaY_3
+OagolaY PV_0    boil;make boil
+OagolA  PV_h    boil;make boil
+Oagolay PV_Atn  boil;make boil
+Oagol   PV_ttAw boil;make boil
 goliy   IV_0hAnn_yu     boil;make boil
 gol     IV_0hwnyn_yu    boil;make boil
 golaY   IV_0_Pass_yu    be boiled
@@ -2479,9 +2479,9 @@ gomam   IV_C_Pass_yu    be obscure;be incomprehensible
 ;; gam~am_1
 gam~am  PV      conceal;hide
 gam~im  IV_yu   conceal;hide
-;; >agam~_1
->agam~  PV_V    afflict;distress;be overcast
->agomam PV_C    afflict;distress;be overcast
+;; Oagam~_1
+Oagam~  PV_V    afflict;distress;be overcast
+Oagomam PV_C    afflict;distress;be overcast
 gim~    IV_V_yu afflict;distress;be overcast
 gomim   IV_C_yu afflict;distress;be overcast
 gam~    IV_V_Pass_yu    be afflicted
@@ -2510,15 +2510,15 @@ gamAmiy~        N-ap    cloudy     [[gamAmiy~/ADJ]]
 gamAmiy~        Nap     nebulosity     [[gamAmiy~/NOUN]]
 ;; gimAmap_1
 gimAm   Nap     blinder;muzzle
-;; >agam~_2
->agam~  Nel     overcast
+;; Oagam~_2
+Oagam~  Nel     overcast
 gam~A'  N0_Nh   overcast
-gam~A&  Nh      overcast
+gam~AW  Nh      overcast
 gam~A}  Nhy     overcast
-;; >agam~_3
->agam~  Nel     hirsute
+;; Oagam~_3
+Oagam~  Nel     hirsute
 gam~A'  N0_Nh   hirsute
-gam~A&  Nh      hirsute
+gam~AW  Nh      hirsute
 gam~A}  Nhy     hirsute
 ;; gAm~_1
 gAm~    N-ap    overcast     [[gAm~/ADJ]]
@@ -2540,8 +2540,8 @@ gomid   IV      cover;sheathe
 ;; gam~ad_1
 gam~ad  PV      conceal
 gam~id  IV_yu   conceal
-;; >agomad_1
->agomad PV      sheathe
+;; Oagomad_1
+Oagomad PV      sheathe
 gomid   IV_yu   sheathe
 gomad   IV_Pass_yu      be sheathed
 ;; tagam~ad_1
@@ -2549,7 +2549,7 @@ tagam~ad        PV      cover;protect
 tagam~ad        IV      cover;protect
 ;; gimod_1
 gimod   N       sheath
->agomAd N       sheaths
+OagomAd N       sheaths
 gumuwd  N       sheaths
 ;; gAmidiy~_1
 gAmidiy~        N0      Ghamdi;Ghamidi
@@ -2581,8 +2581,8 @@ gumuwr  N       flooding
 ;; gamorap_1
 gamor   Napdu   inundation;flood
 gamar   NAt     inundations;floods
-;; >agomAr_1
->agomAr N       armsfull
+;; OagomAr_1
+OagomAr N       armsfull
 ;; mugAmarap_1
 mugAmar NapAt   adventure;risk
 ;; gAmir_1
@@ -2659,10 +2659,10 @@ gamaS   PV      disdain;despise
 gomiS   IV      disdain;despise
 ;; gamaS_1
 gamaS   N       eye mucus
-;; >agomaS_1
->agomaS Nel     sticky-eyed
+;; OagomaS_1
+OagomaS Nel     sticky-eyed
 gamoSA' N0_Nh   sticky-eyed
-gamoSA& Nh      sticky-eyed
+gamoSAW Nh      sticky-eyed
 gamoSA} Nhy     sticky-eyed
 ;
 ;--- gmD
@@ -2672,8 +2672,8 @@ gomuD   IV_intr be hidden;be obscure
 ;; gam~aD_1
 gam~aD  PV      make obscure;make abstruse
 gam~iD  IV_yu   make obscure;make abstruse
-;; >agomaD_1
->agomaD PV      blur;blind
+;; OagomaD_1
+OagomaD PV      blur;blind
 gomiD   IV_yu   blur;blind
 gomaD   IV_Pass_yu      be blurred;be blinded
 ;; AinogamaD_1
@@ -2690,8 +2690,8 @@ gimAD   N       twinkle;winking;instant
 ;; gumuwD_1
 gumuwD  N       vagueness;obscurity;lack of clarity
 gumuwD  Nap     vagueness;obscurity;lack of clarity
-;; >agomaD_2
->agomaD Nel     more/most obscure;more/most vague
+;; OagomaD_2
+OagomaD Nel     more/most obscure;more/most vague
 ;; gAmiD_1
 gAmiD   N-ap    obscure;ambiguous;vague     [[gAmiD/ADJ]]
 gawAmiD Ndip    obscure;ambiguous;vague
@@ -2753,20 +2753,20 @@ gam~aY  IV_0_Pass_yu    be blindfolded
 gam~ay  IV_Ann_Pass_yu  be blindfolded
 ; temp solution @@
 gam~    IV_0hwnyn_yu    be blindfolded
-;; >agomaY_1
->agomaY PV_0    faint;lose consciousness
->agomA  PV_h    faint;lose consciousness
->agomay PV_Atn  faint;lose consciousness
->agom   PV_ttAw faint;lose consciousness
->ugomiy PV_Pass-a       faint;lose consciousness
+;; OagomaY_1
+OagomaY PV_0    faint;lose consciousness
+OagomA  PV_h    faint;lose consciousness
+Oagomay PV_Atn  faint;lose consciousness
+Oagom   PV_ttAw faint;lose consciousness
+Ougomiy PV_Pass-a       faint;lose consciousness
 gomaY   IV_0_Pass_yu    faint;lose consciousness
 ;; gamoy_1
 gamoy   N       fainting
-<igomA' N0_Nh   fainting
-<igomA& Nh      fainting
-<igomA} Nhy     fainting
-;; <igomA'ap_1
-<igomA' NapAt   fainting spell
+IigomA' N0_Nh   fainting
+IigomAW Nh      fainting
+IigomA} Nhy     fainting
+;; IigomA'ap_1
+IigomA' NapAt   fainting spell
 ;; magomiy~_1
 magomiy~        N       fainted;unconscious     [[magomiy~/ADJ]]
 ;; mugomaY_1
@@ -2778,24 +2778,24 @@ gan~    PV_V    speak through the nose
 ganin   PV_Cn   speak through the nose
 gan~    IV_V    speak through the nose
 gonan   IV-n    speak through the nose
-;; >agan~_1
->agan~  PV_V    buzz;drone
->agonan PV_Cn   buzz;drone
+;; Oagan~_1
+Oagan~  PV_V    buzz;drone
+Oagonan PV_Cn   buzz;drone
 gin~    IV_V_yu buzz;drone
 gonin   IV_C_yu buzz;drone
 ;; gan~_1
 gan~    N       nasal twang
 ;; gun~ap_1
 gun~    NapAt   nasal twang
-;; >agan~_2
->agan~  Nel     melodious;sonorous
+;; Oagan~_2
+Oagan~  Nel     melodious;sonorous
 gan~A'  N0_Nh   melodious;sonorous
-gan~A&  Nh      melodious;sonorous
+gan~AW  Nh      melodious;sonorous
 gan~A}  Nhy     melodious;sonorous
-;; >agan~_3
->agan~  Nel     lush;green
+;; Oagan~_3
+Oagan~  Nel     lush;green
 gan~A'  N0_Nh   lush;green
-gan~A&  Nh      lush;green
+gan~AW  Nh      lush;green
 gan~A}  Nhy     lush;green
 ;; gunAn_1
 gunAn   N       buzzing;droning
@@ -2820,9 +2820,9 @@ ganij   Nap     coquette;flirtatious
 gan~uwj N       ghannouj (in baba ghannouj, eggplant dish)
 ;; migonAj_1
 migonAj N-ap    coquette;flirtatious     [[migonAj/ADJ]]
-;; >ugonuwjap_1
->ugonuwj        Napdu   flirting;coquettish behavior
->agAniyj        Ndip    flirting;coquettish behavior
+;; Ougonuwjap_1
+Ougonuwj        Napdu   flirting;coquettish behavior
+OagAniyj        Ndip    flirting;coquettish behavior
 ;; tagan~uj_1
 tagan~uj        N/At    flirting;coquettish behavior
 ;; mutagan~ij_1
@@ -2878,8 +2878,8 @@ gonam   IV      capture;plunder
 ;; gan~am_1
 gan~am  PV      bestow
 gan~im  IV_yu   bestow
-;; >agonam_1
->agonam PV      bestow
+;; Oagonam_1
+Oagonam PV      bestow
 gonim   IV_yu   bestow
 gonam   IV_Pass_yu      be bestown
 ;; Aigotanam_1
@@ -2894,7 +2894,7 @@ gunom   N       profit;gain
 gunom   N       spoils;booty
 ;; ganam_1
 ganam   N       sheep
->agonAm N       sheep
+OagonAm N       sheep
 ;; gunayom_1
 gunayom Nprop   Ghunaim
 ;; gan~Am_1
@@ -2939,11 +2939,11 @@ gan~iy  IV_0hAnn_yu     sing
 gan~    IV_0hwnyn_yu    sing
 gan~aY  IV_0_Pass_yu    be sung
 gan~ay  IV_Ann_Pass_yu  be sung
-;; >agonaY_1
->agonaY PV_0    enrich;satisfy
->agonA  PV_h    enrich;satisfy
->agonay PV_Atn  enrich;satisfy
->agon   PV_ttAw enrich;satisfy
+;; OagonaY_1
+OagonaY PV_0    enrich;satisfy
+OagonA  PV_h    enrich;satisfy
+Oagonay PV_Atn  enrich;satisfy
+Oagon   PV_ttAw enrich;satisfy
 goniy   IV_0hAnn_yu     enrich;satisfy
 gon     IV_0hwnyn_yu    enrich;satisfy
 gonaY   IV_0_Pass_yu    be enriched;be satisfied
@@ -2979,24 +2979,24 @@ ginA    Nhy     wealth
 gunoy   Nap     wealth
 ;; ganiy~_1
 ganiy~  N/ap    rich;wealthy     [[ganiy~/ADJ]]
->agoniyA'       N0_Nh   rich;wealthy
->agoniyA&       Nh      rich;wealthy
->agoniyA}       Nhy     rich;wealthy
+OagoniyA'       N0_Nh   rich;wealthy
+OagoniyAW       Nh      rich;wealthy
+OagoniyA}       Nhy     rich;wealthy
 ;; ganA'_1
 ganA'   N0_Nh   usefulness
-ganA&   Nh      usefulness
+ganAW   Nh      usefulness
 ganA}   Nhy     usefulness
 ;; ginA'_1
 ginA'   N0_Nh   singing
-ginA&   Nh      singing
+ginAW   Nh      singing
 ginA}   Nhy     singing
 ;; ginA}iy~_1
 ginA}iy~        Nall    singing;vocal;lyrical     [[ginA}iy~/ADJ]]
-;; >ugoniyap_1
->ugoniy NapAt   song;melody
->ugoniy~        NapAt   song;melody     [[>ugoniy~/NOUN]]
->agAniy N0_Nh   songs;melodies
->agAn   NK      songs;melodies
+;; Ougoniyap_1
+Ougoniy NapAt   song;melody
+Ougoniy~        NapAt   song;melody     [[Ougoniy~/NOUN]]
+OagAniy N0_Nh   songs;melodies
+OagAn   NK      songs;melodies
 ;; magonaY_1
 magonaY N0      villa;habitation
 magonA  Nhy     villa;habitation
@@ -3005,14 +3005,14 @@ magAniy N0_Nh   villas;places of habitation
 magAn   NK      villas;places of habitation
 ;; AigotinA'_1
 AigotinA'       N0_Nh   getting rich
-AigotinA&       Nh      getting rich
+AigotinAW       Nh      getting rich
 AigotinA}       Nhy     getting rich
 AigotinA'       NAn_Nayn        getting rich
 AigotinA}       Nayn    getting rich
 AigotinA'       NAt     getting rich
 ;; AisotigonA'_1
 AisotigonA'     N0_Nh   dispensing with;renunciation
-AisotigonA&     Nh      dispensing with;renunciation
+AisotigonAW     Nh      dispensing with;renunciation
 AisotigonA}     Nhy     dispensing with;renunciation
 AisotigonA'     NAt     dispensing with;renunciation
 ;; gAniyap_1
@@ -3061,9 +3061,9 @@ guwAtiymAliy~   Nall    Guatemalan     [[guwAtiymAliy~/ADJ]]
 ;; gaw~av_1
 gaw~av  PV      cry for help
 gaw~iv  IV_yu   cry for help
-;; >agAv_1
->agAv   PV_V    help;succor
->agav   PV_C    help;succor
+;; OagAv_1
+OagAv   PV_V    help;succor
+Oagav   PV_C    help;succor
 giyv    IV_V_yu help;succor
 giv     IV_C_yu help;succor
 gAv     IV_V_Pass_yu    be helped;be given help
@@ -3085,8 +3085,8 @@ giyAv   Nprop   Giyath
 ;; gawovAh_1
 gawovAh FW-Wa   help!     [[gawovAh/INTERJ]]
 wAgawovAh       FW-Wa   help!     [[wAgawovAh/INTERJ]]
-;; <igAvap_1
-<igAv   NapAt   aid;relief assistance
+;; IigAvap_1
+IigAv   NapAt   aid;relief assistance
 ;; AisotigAvap_1
 AisotigAv       NapAt   appeal for aid;call for help
 ;; mugiyv_1
@@ -3112,9 +3112,9 @@ gur     PV_C    penetrate
 guwr    IV_V    penetrate
 gur     IV_C    penetrate
 ; see also under --- gyr
-;; >agAr_1
->agAr   PV_V    attack;invade;raid
->agar   PV_C    attack;invade;raid
+;; OagAr_1
+OagAr   PV_V    attack;invade;raid
+Oagar   PV_C    attack;invade;raid
 giyr    IV_V_yu attack;invade;raid
 gir     IV_C_yu attack;invade;raid
 gAr     IV_V_Pass_yu    be attacked;be invaded;be raided
@@ -3133,7 +3133,7 @@ gAr     Napdu   raid;foray;attack
 gAr     NAt     raids;forays;attacks
 ;; gawor_1
 gawor   N       depression;declivity
->agowAr N       depressions;declivities;caves
+OagowAr N       depressions;declivities;caves
 ;; gawor_2
 gawor   N0      Ghor
 ;; magAr_1
@@ -3144,8 +3144,8 @@ magA}ir Ndip    caves;caverns
 ;; migowAr_1
 migowAr Ndu     commando;shock troop
 magAwiyr        Ndip    commandos;shock troops
-;; <igArap_1
-<igAr   NapAt   attack;raid
+;; IigArap_1
+IigAr   NapAt   attack;raid
 ;; gA}ir_1
 gA}ir   N-ap    cave;depression
 ;; mugiyr_1
@@ -3240,7 +3240,7 @@ tagaw~aT        IV      defecate
 ;; gawoT_1
 gawoT   N       hollow;depression
 guwT    N       hollows;depressions
->agowAT N       hollows;depressions
+OagowAT N       hollows;depressions
 giyAT   N       hollows;depressions
 giyTAn  N       hollows;depressions
 ;; guwTap_1
@@ -3263,7 +3263,7 @@ guwTiy~ N-ap    Gothic     [[guwTiy~/ADJ]]
 gAg     Nap     riffraff;rabble;tumult
 ;; gawogA'_1
 gawogA' N0_Nh   riffraff;rabble;tumult
-gawogA& Nh      riffraff;rabble;tumult
+gawogAW Nh      riffraff;rabble;tumult
 gawogA} Nhy     riffraff;rabble;tumult
 ;; gawogA}iy~_1
 gawogA}iy~      Nall    demagogue;demagogic     [[gawogA}iy~/ADJ]]
@@ -3285,7 +3285,7 @@ gotAl   IV_V_Pass_yu    be assassinated;be murdered
 gotal   IV_C    assassinate;murder
 ;; guwl_1
 guwl    N       ghoul;monster
->agowAl N       ghouls;monsters
+OagowAl N       ghouls;monsters
 giylAn  N       ghouls;monsters
 ;; guwl_2
 guwl    N0      Ghoul
@@ -3359,11 +3359,11 @@ gaw~iy  IV_0hAnn_yu     mislead;seduce
 gaw~    IV_0hwnyn_yu    mislead;seduce
 gaw~aY  IV_0_Pass_yu    be mislead;be seduced
 gaw~ay  IV_Ann_Pass_yu  be mislead;seduced
-;; >agowaY_1
->agowaY PV_0    mislead;seduce
->agowA  PV_h    mislead;seduce
->agoway PV_Atn  mislead;seduce
->agow   PV_ttAw mislead;seduce
+;; OagowaY_1
+OagowaY PV_0    mislead;seduce
+OagowA  PV_h    mislead;seduce
+Oagoway PV_Atn  mislead;seduce
+Oagow   PV_ttAw mislead;seduce
 gowiy   IV_0hAnn_yu     mislead;seduce
 gow     IV_0hwnyn_yu    mislead;seduce
 gowaY   IV_0_Pass_yu    be misled;be seduced
@@ -3382,14 +3382,14 @@ gay~    N       transgression;offense
 gay~    NapAt   error;sin
 ;; gawAyap_1
 gawAy   Nap     error;sin
-;; >ugowiy~ap_1
->ugowiy~        Napdu   pitfall;trap     [[>ugowiy~/NOUN]]
->agAwiy~        N0_Nh   pitfalls;traps
-;; <igowA'_1
-<igowA' N0_Nh   seduction;allurement
-<igowA& Nh      seduction;allurement
-<igowA} Nhy     seduction;allurement
-<igowA' NAt     seduction;allurement
+;; Ougowiy~ap_1
+Ougowiy~        Napdu   pitfall;trap     [[Ougowiy~/NOUN]]
+OagAwiy~        N0_Nh   pitfalls;traps
+;; IigowA'_1
+IigowA' N0_Nh   seduction;allurement
+IigowAW Nh      seduction;allurement
+IigowA} Nhy     seduction;allurement
+IigowA' NAt     seduction;allurement
 ;; gAwiy_1
 gAwiy   N0F_Nh  seducer;dilettante
 gAw     NK      seducer;dilettante
@@ -3529,18 +3529,18 @@ gayov   N0      Ghaith
 ;; gayov_2
 gayov   N       rain
 guyuwv  N       rain
->agoyAv N       rain
+OagoyAv N       rain
 ;
 ;--- gyd
 ;; gayad_1
 gayad   N       slenderness;delicateness
 ;; gayad_2
 gayad   N       flexibility;elasticity
-;; >agoyad_1
->agoyad Nel     flexible;delicate     [[>agoyad/ADJ]]
->agoyad Nel     flexible;delicate
+;; Oagoyad_1
+Oagoyad Nel     flexible;delicate     [[Oagoyad/ADJ]]
+Oagoyad Nel     flexible;delicate
 gayodA' N0_Nh   flexible;delicate
-gayodA& Nh      flexible;delicate
+gayodAW Nh      flexible;delicate
 gayodA} Nhy     flexible;delicate
 giyd    N       flexible;delicate
 ;; tagAyad_1
@@ -3567,9 +3567,9 @@ gay~ir  IV_yu   change;modify
 gAyar   PV_intr be at odds with;be in contrast with
 gAyir   IV_intr_yu      be at odds with;be in contrast with
 ; see also under --- gwr
-;; >agAr_2
->agAr   PV_V    make jealous
->agar   PV_C    make jealous
+;; OagAr_2
+OagAr   PV_V    make jealous
+Oagar   PV_C    make jealous
 giyr    IV_V_yu make jealous
 gir     IV_C_yu make jealous
 gAr     IV_V_Pass_yu    be made jealous
@@ -3624,7 +3624,7 @@ gayoD   N       small amount;unborn fetus
 ;; gayoDap_1
 gayoD   NapAt   thicket;jungle
 giyAD   N       thicket;jungle
->agoyAD N       thicket;jungle
+OagoyAD N       thicket;jungle
 ;
 ;--- gyT
 ;; gayoT_1
@@ -3650,9 +3650,9 @@ giZ     IV_C    enrage;irritate
 ;; gay~aZ_1
 gay~aZ  PV      enrage;irritate
 gay~iZ  IV_yu   enrage;irritate
-;; >agAZ_1
->agAZ   PV_V    enrage;irritate
->agaZ   PV_C    enrage;irritate
+;; OagAZ_1
+OagAZ   PV_V    enrage;irritate
+OagaZ   PV_C    enrage;irritate
 giyZ    IV_V_yu enrage;irritate
 giZ     IV_C_yu enrage;irritate
 gAZ     IV_V_Pass_yu    be enraged;be irritated
@@ -3680,13 +3680,13 @@ mugiyZ  Nall    irate;furious     [[mugiyZ/ADJ]]
 munogAZ Nall    irate;furious     [[munogAZ/ADJ]]
 ;; mugotAZ_1
 mugotAZ Nall    irate;furious     [[mugotAZ/ADJ]]
-;; <igAZap_1
-<igAZ   NapAt   exasperation;irritation
+;; IigAZap_1
+IigAZ   NapAt   exasperation;irritation
 ;
 ;--- gyl
 ;; giyl_1
 giyl    N       thicket
->agoyAl N       thicket;bushes
+OagoyAl N       thicket;bushes
 ;; gayol_1
 gayol   N       stream
 guyuwl  N       streams
@@ -3700,9 +3700,9 @@ gim     IV_C_intr       become overcast/blurred
 ;; gay~am_1
 gay~am  PV_intr be overcast/blurred
 gay~im  IV_intr_yu      be overcast/blurred
-;; >agAm_1
->agAm   PV_V_intr       become overcast/blurred
->agam   PV_C_intr       become overcast/blurred
+;; OagAm_1
+OagAm   PV_V_intr       become overcast/blurred
+Oagam   PV_C_intr       become overcast/blurred
 giym    IV_V_intr_yu    become overcast/blurred
 gim     IV_C_intr_yu    become overcast/blurred
 gAm     IV_V_Pass_yu    become overcast/blurred
@@ -3735,11 +3735,11 @@ gymlstwb        N0      Gimelstob
 gayon   NduAt   ghayn (Arabic letter)
 ;; gayonap_1
 gayon   NapAt   dimple
-;; >agoyan_1
->agoyan Nel     bushy;dense     [[>agoyan/ADJ]]
->agoyan Nel     bushy;dense
+;; Oagoyan_1
+Oagoyan Nel     bushy;dense     [[Oagoyan/ADJ]]
+Oagoyan Nel     bushy;dense
 gayonA' N0_Nh   bushy;dense
-gayonA& Nh      bushy;dense
+gayonAW Nh      bushy;dense
 gayonA} Nhy     bushy;dense
 ;
 ;--- gynA

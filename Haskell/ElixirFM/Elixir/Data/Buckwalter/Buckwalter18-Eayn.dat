@@ -13,32 +13,32 @@ yaEobuwb        Ndu     torrent
 yaEAbiyb        Ndip    torrents
 ;
 ;--- EbA
-;; Eaba>-a_1
-Eaba>   PV->    care about;be concerned about
+;; EabaO-a_1
+EabaO   PV-O    care about;be concerned about
 Eaba|   PV-|    care about;be concerned about
-Eaba&   PV_w    care about;be concerned about
-Eoba>   IV      care about;be concerned about
+EabaW   PV_w    care about;be concerned about
+EobaO   IV      care about;be concerned about
 Eoba|   IV-|    care about;be concerned about
-Eoba&   IV_wn   care about;be concerned about
+EobaW   IV_wn   care about;be concerned about
 Eoba}   IV_yn   care about;be concerned about
-;; Eab~a>_1
-Eab~a>  PV->    load;mobilize;put on alert
+;; Eab~aO_1
+Eab~aO  PV-O    load;mobilize;put on alert
 Eab~a|  PV-|    load;mobilize;put on alert
-Eab~a&  PV_w    load;mobilize;put on alert
+Eab~aW  PV_w    load;mobilize;put on alert
 Eab~i}  IV_yu   load;mobilize;put on alert
 ;; Eibo'_1
 Eibo'   Ndu     load;burden
-Eibo&   Nh      load;burden
+EiboW   Nh      load;burden
 Eibo}   Nhy     load;burden
 Eibo}   N0F     load;burden
->aEobA' N0_Nh   burdens;loads
->aEobA& Nh      burdens;loads
->aEobA} Nhy     burdens;loads
+OaEobA' N0_Nh   burdens;loads
+OaEobAW Nh      burdens;loads
+OaEobA} Nhy     burdens;loads
 ;; EabA'_1
 EabA'   N0_Nh   cloak
-EabA&   Nh      cloak
+EabAW   Nh      cloak
 EabA}   Nhy     cloak
->aEobi} Nap     cloaks
+OaEobi} Nap     cloaks
 ;; EabAyap_1
 EabAy   NapAt   cloak
 EabA'   NapAt   cloak
@@ -49,13 +49,13 @@ taEobAwiy~      Nall    tactical     [[taEobAwiy~/ADJ]]
 taEobawiy~      Nall    tactical     [[taEobawiy~/ADJ]]
 ;; EAbi}_1
 EAbi}   Nall    caring about;preoccupied with     [[EAbi}/ADJ]]
-;; muEab~a>_1
-muEab~a>        N0_Nh   packaged;packed in sacks     [[muEab~a>/ADJ]]
-muEab~a&        Nh      packaged;packed in sacks
+;; muEab~aO_1
+muEab~aO        N0_Nh   packaged;packed in sacks     [[muEab~aO/ADJ]]
+muEab~aW        Nh      packaged;packed in sacks
 muEab~a}        Nhy     packaged;packed in sacks
 muEab~a|        N-|     packaged;packed in sacks
 muEab~a N-|t    packaged;packed in sacks
-muEab~a>        Napdu   packaged;packed in sacks
+muEab~aO        Napdu   packaged;packed in sacks
 ;
 ;--- Ebv
 ;; Eabiv-a_1
@@ -96,12 +96,12 @@ Eabiyd  N       slaves;blacks
 EubodAn N       slaves
 ; ------------
 ; run-on names: Ebd +
-;; EabodAl>amiyr_1
-EabodAl>amiyr   Nprop   Abdel Amir
-EabodAl>amiyr   Nprop   Abdel Amir
-;; EabodAl<ilah_1
-EabodAl<ilah    Nprop   Abdel Ilah
-EabodAl<ilah    Nprop   Abdel Ilah
+;; EabodAlOamiyr_1
+EabodAlOamiyr   Nprop   Abdel Amir
+EabodAlOamiyr   Nprop   Abdel Amir
+;; EabodAlIilah_1
+EabodAlIilah    Nprop   Abdel Ilah
+EabodAlIilah    Nprop   Abdel Ilah
 ;; EabodAlbAriy_1
 EabodAlbAriy    Nprop   Abdel Bari
 ;; EabodAlbAsiT_1
@@ -158,8 +158,8 @@ EabodAldAr      Nprop   Abdel Dar
 EabodAldAfiE    Nprop   Abdel Dafi
 ;; EabodAldAyim_1
 EabodAldAyim    Nprop   Abdel Dayim
-;; EabodAlra&uwf_1
-EabodAlra&uwf   Nprop   Abdel Raouf
+;; EabodAlraWuwf_1
+EabodAlraWuwf   Nprop   Abdel Raouf
 ;; EabodAlrAziq_1
 EabodAlrAziq    Nprop   Abdel Raziq
 ;; EabodAlrADiy_1
@@ -278,10 +278,10 @@ EabodAllaTiyf   Nprop   Abdel Lateef
 EabodAllaTiyfiy~        Nprop   Abdel Lateefi
 ;; EabodAll~`h_1
 EabodAll~`h     N0      Abdallah
-;; EabodAlma>omuwn_1
-EabodAlma>omuwn Nprop   Abdel Ma'moun
-;; EabodAlmu&omin_1
-EabodAlmu&omin  Nprop   Abdel Mu'min
+;; EabodAlmaOomuwn_1
+EabodAlmaOomuwn Nprop   Abdel Ma'moun
+;; EabodAlmuWomin_1
+EabodAlmuWomin  Nprop   Abdel Mu'min
 ;; EabodAlmAjid_1
 EabodAlmAjid    Nprop   Abdel Majid
 ;; EabodAlmAlik_1
@@ -546,7 +546,7 @@ EaboT   Nap     premature death
 ;; EabiyT_1
 EabiyT  N/ap    fool     [[EabiyT/ADJ]]
 EubaTA' N0_Nh   fools
-EubaTA& Nh      fools
+EubaTAW Nh      fools
 EubaTA} Nhy     fools
 ;; EabiyT_2
 EabiyT  N/ap    prematurely dead;fresh     [[EabiyT/ADJ]]
@@ -590,8 +590,8 @@ Eaboqariy~      Nap     ingenuity;genius     [[Eaboqariy~/NOUN]]
 Eabak   N       camlet
 ;
 ;--- Ebl
-;; >aEobal-i_1
->aEobal PV      gain weigh;shed leaves
+;; OaEobal-i_1
+OaEobal PV      gain weigh;shed leaves
 Eobil   IV_yu   gain weigh;shed leaves
 ;; Eabol_1
 Eabol   Ndu     plump;chubby
@@ -600,10 +600,10 @@ EibAl   N       plump;chubby
 EabAl   N       eglantine
 ;; EabAlap_1
 EabAl   Napdu   eglantine
-;; >aEobal_1
->aEobal N       granite
-;; >aEobaliy~_1
->aEobaliy~      N-ap    granite     [[>aEobaliy~/ADJ]]
+;; OaEobal_1
+OaEobal N       granite
+;; OaEobaliy~_1
+OaEobaliy~      N-ap    granite     [[OaEobaliy~/ADJ]]
 ;; muEobil_1
 muEobil N-ap    deciduous     [[muEobil/ADJ]]
 ;
@@ -655,7 +655,7 @@ taEat~ab        IV      remain
 Eatob   N       reprimand;censure;criticism
 ;; Eatabap_1
 Eatab   NapAt   step;stair;threshold
->aEotAb N       threshold
+OaEotAb N       threshold
 ;; Eutayobiy~_1
 Eutayobiy~      N0      Otaibi
 ;; Eat~Abiy~_1
@@ -674,14 +674,14 @@ Eotud   IV_intr be prepared
 ;; Eat~ad_1
 Eat~ad  PV      prepare
 Eat~id  IV_yu   prepare
-;; >aEotad_1
->aEotad PV      prepare
+;; OaEotad_1
+OaEotad PV      prepare
 Eotid   IV_yu   prepare
 Eotad   IV_Pass_yu      be prepared
 ;; EatAd_1
 EatAd   N       war material;ammunition
->aEotud N       war material;ammunition
->aEotid Nap     war material;ammunition
+OaEotud N       war material;ammunition
+OaEotid Nap     war material;ammunition
 ;; Eatiyd_1
 Eatiyd  N/ap    prepared     [[Eatiyd/ADJ]]
 ;; taEotiyd_1
@@ -701,8 +701,8 @@ Eotuq   IV      grow old;mature
 ;; Eataq-i_1
 Eataq   PV_intr be emancipated
 Eotiq   IV_intr be emancipated
-;; >aEotaq_1
->aEotaq PV      emancipate
+;; OaEotaq_1
+OaEotaq PV      emancipate
 Eotiq   IV_yu   emancipate
 Eotaq   IV_Pass_yu      be emancipated
 ;; AinoEataq_1
@@ -716,8 +716,8 @@ Eatiyq  N-ap    old;aged     [[Eatiyq/ADJ]]
 Eatiyq  N-ap    emancipated     [[Eatiyq/ADJ]]
 ;; EatAqap_1
 EatAq   Nap     vintage;age
-;; <iEotAq_1
-<iEotAq N/At    liberation
+;; IiEotAq_1
+IiEotAq N/At    liberation
 ;; AinoEitAq_1
 AinoEitAq       N/At    self-liberation
 ;; EAtiq_1
@@ -764,8 +764,8 @@ Eotim   IV      hesitate;fall behind
 ;; Eat~am_1
 Eat~am  PV      darken;black out
 Eat~im  IV_yu   darken;black out
-;; >aEotam_1
->aEotam PV      darken;black out
+;; OaEotam_1
+OaEotam PV      darken;black out
 Eotim   IV_yu   darken;black out
 Eotam   IV_Pass_yu      be darkened;be blacken out
 ;; Eatom_1
@@ -778,8 +778,8 @@ EatAm   NapAt   darkness
 taEotiym        N/At    darkening;clouding
 ;; taEotiym_2
 taEotiym        N/At    camouflage;black-out
-;; <iEotAm_1
-<iEotAm N/At    darkening;clouding
+;; IiEotAm_1
+IiEotAm N/At    darkening;clouding
 ;; EAtim_1
 EAtim   N-ap    dark;indistinct     [[EAtim/ADJ]]
 ;; muEotim_1
@@ -826,9 +826,9 @@ EutA    Nap     arrogant;insolent
 Eutiy~  N       arrogance
 ;; Eatiy~_1
 Eatiy~  N-ap    arrogant;insolent     [[Eatiy~/ADJ]]
->aEotA' N0_Nh   arrogant;insolent
->aEotA& Nh      arrogant;insolent
->aEotA} Nhy     arrogant;insolent
+OaEotA' N0_Nh   arrogant;insolent
+OaEotAW Nh      arrogant;insolent
+OaEotA} Nhy     arrogant;insolent
 ;
 ;--- Ev
 ;; Euv~_1
@@ -846,8 +846,8 @@ Eovar   IV_Pass_yu      be discovered;be found
 ;; Eav~ar_1
 Eav~ar  PV      make stumble
 Eav~ir  IV_yu   make stumble
-;; >aEovar_1
->aEovar PV      make stumble
+;; OaEovar_1
+OaEovar PV      make stumble
 Eovir   IV_yu   make stumble
 Eovar   IV_Pass_yu      be make stumble
 ;; taEav~ar_1
@@ -913,9 +913,9 @@ Eojij   IV_C    shout;resound
 ;; Eaj~aj_1
 Eaj~aj  PV      swirl
 Eaj~ij  IV_yu   swirl
-;; >aEaj~_1
->aEaj~  PV_V    swirl
->aEojaj PV_C    swirl
+;; OaEaj~_1
+OaEaj~  PV_V    swirl
+OaEojaj PV_C    swirl
 Eij~    IV_V_yu swirl
 Eojij   IV_C_yu swirl
 Eaj~    IV_V_Pass_yu    be swirled
@@ -939,12 +939,12 @@ Eojab   IV_intr be amazed
 ;; Eaj~ab_1
 Eaj~ab  PV      arouse admiration
 Eaj~ib  IV_yu   arouse admiration
-;; >aEojab_1
->aEojab PV      delight;please
+;; OaEojab_1
+OaEojab PV      delight;please
 Eojib   IV_yu   delight;please
 Eojab   IV_Pass_yu      be delighted;be pleased
-;; >uEojib_2
->uEojib PV_Pass_yu      admire
+;; OuEojib_2
+OuEojib PV_Pass_yu      admire
 Eojab   IV_Pass_yu      admire
 ;; taEaj~ab_1
 taEaj~ab        PV_intr be amazed;be astonished
@@ -954,7 +954,7 @@ AisotaEojab     PV_intr be amazed
 sotaEojib       IV_intr be amazed
 ;; Eajab_1
 Eajab   N       admiration;amazement
->aEojAb N       admiration;amazement
+OaEojAb N       admiration;amazement
 ;; EujAb_1
 EujAb   N       wonderful;amazing     [[EujAb/ADJ]]
 ;; Eajiyb_1
@@ -964,19 +964,19 @@ Eajiyb  N0      Ajeeb
 ;; Eajiybap_1
 Eajiyb  Napdu   marvel;prodigy
 EajA}ib Ndip    wonders;prodigies;oddities
-;; >aEojab_3
->aEojab Nel     more/most wonderful
-;; >uEojuwbap_1
->uEojuwb        Napdu   miracle
-b>uEojuwbp      FW-Wa   miraculously     [[bi/PREP+>uEojuwbap/NOUN]]
-b>uEojuwbp      FW-Wa   miraculously     [[bi/PREP+>uEojuwbap/NOUN]]
-;; >uEojuwbap_2
->uEojuwb        Napdu   marvel;wonder
->aEAjiyb        Ndip    marvels;wonders
+;; OaEojab_3
+OaEojab Nel     more/most wonderful
+;; OuEojuwbap_1
+OuEojuwb        Napdu   miracle
+bOuEojuwbp      FW-Wa   miraculously     [[bi/PREP+OuEojuwbap/NOUN]]
+bOuEojuwbp      FW-Wa   miraculously     [[bi/PREP+OuEojuwbap/NOUN]]
+;; OuEojuwbap_2
+OuEojuwb        Napdu   marvel;wonder
+OaEAjiyb        Ndip    marvels;wonders
 ;; taEojiyb_1
 taEojiyb        N/At    arousing admiration
-;; <iEojAb_1
-<iEojAb N/At    admiration;wonder;surprise
+;; IiEojAb_1
+IiEojAb N/At    admiration;wonder;surprise
 ;; taEaj~ub_1
 taEaj~ub        N/At    astonishment;amazement
 ;; AisotiEojAb_1
@@ -1035,8 +1035,8 @@ Eojuz   IV      grow old
 ;; Eaj~az_1
 Eaj~az  PV      incapacitate;immobilize
 Eaj~iz  IV_yu   incapacitate;immobilize
-;; >aEojaz_1
->aEojaz PV      incapacitate;immobilize
+;; OaEojaz_1
+OaEojaz PV      incapacitate;immobilize
 Eojiz   IV_yu   incapacitate;immobilize
 Eojaz   IV_Pass_yu      be incapacitated;be immobilized
 ;; AisotaEojaz_1
@@ -1055,10 +1055,10 @@ EajA}iz Ndip    old people
 Eajuwz  Napdu   old woman
 ;; Eajiyzap_1
 Eajiyz  Nap     posterior;buttocks;backside
-;; <iEojAz_1
-<iEojAz N/At    inimitability
-;; <iEojAziy~_1
-<iEojAziy~      N-ap    inimitable     [[<iEojAziy~/ADJ]]
+;; IiEojAz_1
+IiEojAz N/At    inimitability
+;; IiEojAziy~_1
+IiEojAziy~      N-ap    inimitable     [[IiEojAziy~/ADJ]]
 ;; EAjiz_1
 EAjiz   Nall    incapable;incapacitated     [[EAjiz/ADJ]]
 EawAjiz Ndip    incapable;disabled
@@ -1083,11 +1083,11 @@ Eajaf   N       leanness
 Eajiyf  N/ap    thin;lean     [[Eajiyf/ADJ]]
 EajofY  N0      thin;lean
 EajofA  Nhy     thin;lean
-;; >aEojaf_1
->aEojaf Nel     thin;lean     [[>aEojaf/ADJ]]
->aEojaf Nel     thin;lean
+;; OaEojaf_1
+OaEojaf Nel     thin;lean     [[OaEojaf/ADJ]]
+OaEojaf Nel     thin;lean
 EajofA' N0_Nh   thin;lean
-EajofA& Nh      thin;lean
+EajofAW Nh      thin;lean
 EajofA} Nhy     thin;lean
 EijAf   N       thin;lean
 ;
@@ -1101,8 +1101,8 @@ Eaj~il  IV_yu   expedite
 ;; EAjal_1
 EAjal   PV      anticipate;forestall
 EAjil   IV_yu   anticipate;forestall
-;; >aEojal_1
->aEojal PV      expedite
+;; OaEojal_1
+OaEojal PV      expedite
 Eojil   IV_yu   expedite
 Eojal   IV_Pass_yu      be expedited
 ;; taEaj~al_1
@@ -1134,8 +1134,8 @@ EajolaY N0      swift;hurried
 EajolA  Nhy     swift;hurried
 EajAlaY N0      swift;hurried
 EajAlA  Nhy     swift;hurried
-;; >aEojal_2
->aEojal Nel     faster/fastest
+;; OaEojal_2
+OaEojal Nel     faster/fastest
 EujolaY N0      faster/fastest
 EujolA  Nhy     faster/fastest
 Eujolay NAn_Nayn        faster/fastest
@@ -1175,8 +1175,8 @@ Eajoluwniy~     Nall    from/of Ajloun
 ;; Eajam-u_1
 Eajam   PV      test;diacriticize (dot the i's)
 Eojum   IV      test;diacriticize (dot the i's)
-;; >aEojam_1
->aEojam PV      clarify;diacriticize (dot the i's)
+;; OaEojam_1
+OaEojam PV      clarify;diacriticize (dot the i's)
 Eojim   IV_yu   clarify;diacriticize (dot the i's)
 Eojam   IV_Pass_yu      be clarified;be diacriticized (have the i's dotted)
 ;; AinoEajam_1
@@ -1193,25 +1193,25 @@ Eajam   N       non-Arabs;Persians
 Eajamiy~        N0      Ajami
 ;; Eajamiy~_2
 Eajamiy~        Nall    non-Arab     [[Eajamiy~/ADJ]]
->aEojAm N       non-Arabs
+OaEojAm N       non-Arabs
 ;; Eajamiy~_3
 Eajamiy~        Nall    Persian     [[Eajamiy~/ADJ]]
->aEojAm N       Persians
+OaEojAm N       Persians
 ;; Eujomap_1
 Eujom   Nap     non-Arabic expression;barbarism
 ;; EajomAn_1
 EajomAn Ndip    Ajman
-;; >aEojam_2
->aEojam Nel     non-Arab;speechless
+;; OaEojam_2
+OaEojam Nel     non-Arab;speechless
 EajomA' N0_Nh   non-Arab;speechless
-EajomA& Nh      non-Arab;speechless
+EajomAW Nh      non-Arab;speechless
 EajomA} Nhy     non-Arab;speechless
->aEojam Nuwn_Niyn       non-Arab;speechless
->aEAjim Ndip    non-Arab;speechless
-;; >aEojamiy~_1
->aEojamiy~      Nall    non-Arab;foreigner     [[>aEojamiy~/ADJ]]
-;; >aEojamiy~_2
->aEojamiy~      Nall    Persian     [[>aEojamiy~/ADJ]]
+OaEojam Nuwn_Niyn       non-Arab;speechless
+OaEAjim Ndip    non-Arab;speechless
+;; OaEojamiy~_1
+OaEojamiy~      Nall    non-Arab;foreigner     [[OaEojamiy~/ADJ]]
+;; OaEojamiy~_2
+OaEojamiy~      Nall    Persian     [[OaEojamiy~/ADJ]]
 ;; muEojam_1
 muEojam NduAt   dictionary;lexicon
 maEAjim Ndip    dictionaries;lexicons
@@ -1264,9 +1264,9 @@ Ead~    IV_V_Pass_yu    be counted;be considered;be deemed
 ;; Ead~ad_1
 Ead~ad  PV      enumerate;count
 Ead~id  IV      enumerate;count
-;; >aEad~_1
->aEad~  PV_V    prepare;make ready
->aEodad PV_C    prepare;make ready
+;; OaEad~_1
+OaEad~  PV_V    prepare;make ready
+OaEodad PV_C    prepare;make ready
 Eid~    IV_V_yu prepare;make ready
 Eodid   IV_C_yu prepare;make ready
 Ead~    IV_V_Pass_yu    be prepared;be made ready
@@ -1291,7 +1291,7 @@ Ead~iy~ Nap     enumeration;recitation     [[Ead~iy~/NOUN]]
 Eid~    Nap     several;numerous;many     [[Eid~/ADJ]]
 ;; Eadad_1
 Eadad   Ndu     number;quantity;issue
->aEodAd N       numbers;issues
+OaEodAd N       numbers;issues
 ;; Eadadiy~_1
 Eadadiy~        N-ap    numerical     [[Eadadiy~/ADJ]]
 ;; Eud~ap_1
@@ -1309,10 +1309,10 @@ taEodAd N       counting;enumeration;calculation
 EidAd   N       number;quantity
 ;; taEodiyd_1
 taEodiyd        N/At    counting;enumerating
-;; <iEodAd_1
-<iEodAd N/At    preparation
-;; <iEodAdiy~_1
-<iEodAdiy~      Nall    preliminary;preparatory     [[<iEodAdiy~/ADJ]]
+;; IiEodAd_1
+IiEodAd N/At    preparation
+;; IiEodAdiy~_1
+IiEodAdiy~      Nall    preliminary;preparatory     [[IiEodAdiy~/ADJ]]
 ;; taEad~ud_1
 taEad~ud        N/At    multiplicity;plurality
 ;; taEad~udiy~ap_1
@@ -1384,8 +1384,8 @@ EadA}il Ndip    equal;equivalent
 Euduwl  N       abstention;renunciation
 ;; EadAlap_1
 EadAl   Nap     justice;fairness
-;; >aEodal_1
->aEodal Nel     more/most equitable;fairer/fairest
+;; OaEodal_1
+OaEodal Nel     more/most equitable;fairer/fairest
 ;; taEodiyl_1
 taEodiyl        NduAt   adjustment;change;modification;amendment
 ;; muEAdalap_1
@@ -1425,8 +1425,8 @@ muEotadil       Nall    moderate;liberal;balanced     [[muEotadil/ADJ]]
 ;; Eadim-a_1
 Eadim   PV      lack;be devoid of
 Eodam   IV      lack;be devoid of
-;; >aEodam_1
->aEodam PV      deprive;execute
+;; OaEodam_1
+OaEodam PV      deprive;execute
 Eodim   IV_yu   deprive;execute
 Eodam   IV_Pass_yu      be executed;be deprived
 ;; AinoEadam_1
@@ -1440,8 +1440,8 @@ Eadamiy~        Nall    nihilist     [[Eadamiy~/ADJ]]
 Eadamiy~        Nap     nihilism     [[Eadamiy~/NOUN]]
 ;; Eadiym_1
 Eadiym  Nall    without;devoid of     [[Eadiym/ADJ]]
-;; <iEodAm_1
-<iEodAm N/At    execution;capital punishment
+;; IiEodAm_1
+IiEodAm N/At    execution;capital punishment
 ;; AinoEidAm_1
 AinoEidAm       N/At    absence of;lack of
 ;; EAdim_1
@@ -1514,11 +1514,11 @@ EAdiy   IV_0hAnn_yu     be hostile towards
 EAd     IV_0hwnyn_yu    be hostile towards
 EAdaY   IV_0_Pass_yu    be treated with hostility
 EAday   IV_Ann_Pass_yu  be treated with hostility
-;; >aEodaY_1
->aEodaY PV_0    contaminate;infect
->aEodA  PV_h    contaminate;infect
->aEoday PV_Atn  contaminate;infect
->aEod   PV_ttAw contaminate;infect
+;; OaEodaY_1
+OaEodaY PV_0    contaminate;infect
+OaEodA  PV_h    contaminate;infect
+OaEoday PV_Atn  contaminate;infect
+OaEod   PV_ttAw contaminate;infect
 Eodiy   IV_0hAnn_yu     contaminate;infect
 Eod     IV_0hwnyn_yu    contaminate;infect
 EodaY   IV_0_Pass_yu    be contaminated;be infected
@@ -1569,12 +1569,12 @@ sotaEodaY       IV_0_Pass_yu    be appealed;be aroused
 Eadow   N       racing;running
 ;; Eaduw~_1
 Eaduw~  N-ap    enemy
->aEodA' N0_Nh   enemies
->aEodA& Nh      enemies
->aEodA} Nhy     enemies
+OaEodA' N0_Nh   enemies
+OaEodAW Nh      enemies
+OaEodA} Nhy     enemies
 EudA    Nap     enemies
->aEAdiy N0_Nh   enemies
->aEAd   NK      enemies
+OaEAdiy N0_Nh   enemies
+OaEAd   NK      enemies
 ;; Eudowap_1
 Eudow   NapAt   embankment;shore
 ;; EadowaY_1
@@ -1587,11 +1587,11 @@ EudowA  Nhy     hostile action
 Eadiy~  N-ap    hostile;aggressive     [[Eadiy~/ADJ]]
 ;; EadA'_1
 EadA'   N0_Nh   aggression;hostility;anti-
-EadA&   Nh      aggression;hostility;anti-
+EadAW   Nh      aggression;hostility;anti-
 EadA}   Nhy     aggression;hostility;anti-
 ;; Ead~A'_1
 Ead~A'  N0_Nh   runner
-Ead~A&  Nh_Nuwn runner
+Ead~AW  Nh_Nuwn runner
 Ead~A}  Nh_Niyn runner
 Ead~A'  NAn_Nayn        runners
 Ead~A}  Nayn    runners
@@ -1603,7 +1603,7 @@ EadAw   Nap     hostility;antagonism
 EadA}iy~        Nall    hostile;aggressive     [[EadA}iy~/ADJ]]
 ;; EudawA'_1
 EudawA' N0_Nh   handicap;impediment
-EudawA& Nh      handicap;impediment
+EudawAW Nh      handicap;impediment
 EudawA} Nhy     handicap;impediment
 ;; EudowAn_1
 EudowAn N       aggression;hostility;enmity
@@ -1613,10 +1613,10 @@ EudowAn N0      Udwan
 EudowAniy~      Nall    hostile;aggressive     [[EudowAniy~/ADJ]]
 ;; EudowAniy~ap_1
 EudowAniy~      Nap     aggression;belligerency     [[EudowAniy~/NOUN]]
-;; >aEodaY_2
->aEodaY N0      greater/greatest enemy
->aEodA  Nhy     greater/greatest enemy
->aEoday NAn_Nayn        greatest enemy
+;; OaEodaY_2
+OaEodaY N0      greater/greatest enemy
+OaEodA  Nhy     greater/greatest enemy
+OaEoday NAn_Nayn        greatest enemy
 ;; maEodaY_1
 maEodaY N0      avoidance;escape
 maEodA  Nhy     avoidance;escape
@@ -1642,7 +1642,7 @@ taEad~  NK      aggression;attack
 taEad~iy        NAt     acts of aggression;attacks
 ;; AiEotidA'_1
 AiEotidA'       N0_Nh   attack;aggression;assault
-AiEotidA&       Nh      attack;aggression;assault
+AiEotidAW       Nh      attack;aggression;assault
 AiEotidA}       Nhy     attack;aggression;assault
 AiEotidA'       NAn_Nayn        attacks;assaults;aggression
 AiEotidA}       Nayn    attacks;assaults;aggression
@@ -1704,8 +1704,8 @@ Eo*ib   IV      hinder
 ;; Ea*~ab_1
 Ea*~ab  PV      torture;torment
 Ea*~ib  IV_yu   torture;torment
-;; >aEo*ab_1
->aEo*ab PV      sweeten;distill;desalinate
+;; OaEo*ab_1
+OaEo*ab PV      sweeten;distill;desalinate
 Eo*ib   IV_yu   sweeten;distill;desalinate
 Eo*ab   IV_Pass_yu      be sweetened;be distilled;be desalinated
 ;; taEa*~ab_1
@@ -1718,11 +1718,11 @@ sotaEo*ib       IV      deem pleasant;find sweet
 Ea*ob   N-ap    sweet;pleasant     [[Ea*ob/ADJ]]
 ;; Ea*Ab_1
 Ea*Ab   N/At    pain;punishment
->aEo*ib Nap     pain;punishment
+OaEo*ib Nap     pain;punishment
 ;; Eu*uwbap_1
 Eu*uwb  Nap     sweetness;pleasantness
-;; >aEo*ab_2
->aEo*ab Nel     sweeter/sweetest;more/most pleasant
+;; OaEo*ab_2
+OaEo*ab Nel     sweeter/sweetest;more/most pleasant
 ;; taEo*iyb_1
 taEo*iyb        N/At    torture;punishment
 ;; muEa*~ab_1
@@ -1734,8 +1734,8 @@ muEa*~ib        Nall    torturer
 ;; Ea*ar-i_1
 Ea*ar   PV      excuse;forgive
 Eo*ir   IV      excuse;forgive
-;; >aEo*ar_1
->aEo*ar PV      excuse;forgive
+;; OaEo*ar_1
+OaEo*ar PV      excuse;forgive
 Eo*ir   IV_yu   excuse;forgive
 Eo*ar   IV_Pass_yu      be excused;be forgiven
 ;; taEa*~ar_1
@@ -1749,7 +1749,7 @@ AisotaEo*ar     PV      apologize
 sotaEo*ir       IV      apologize
 ;; Eu*or_1
 Eu*or   Ndu     excuse
->aEo*Ar N       excuses
+OaEo*Ar N       excuses
 ;; Eu*orap_1
 Eu*or   Nap     virginity
 ;; Eu*oriy~_1
@@ -1758,11 +1758,11 @@ Eu*oriy~        N-ap    platonic;chaste     [[Eu*oriy~/ADJ]]
 Ei*Ar   N       restraint;inhibition
 ;; Ea*orA'_1
 Ea*orA' N0_Nh   Virgo
-Ea*orA& Nh      Virgo
+Ea*orAW Nh      Virgo
 Ea*orA} Nhy     Virgo
 ;; Ea*orA'_2
 Ea*orA' N0_Nh   virgin
-Ea*orA& Nh      virgin
+Ea*orAW Nh      virgin
 Ea*orA} Nhy     virgin
 Ea*AraY N0      virgins
 Ea*ArA  Nhy     virgins
@@ -1772,8 +1772,8 @@ maEA*ir Ndip    excuses;pardons
 ;; miEo*Ar_1
 miEo*Ar Ndu     excuse;plea
 maEA*iyr        Ndip    excuses;pleas
-;; <iEo*Ar_1
-<iEo*Ar N/At    imposition;obligation
+;; IiEo*Ar_1
+IiEo*Ar N/At    imposition;obligation
 ;; taEa*~ur_1
 taEa*~ur        N/At    difficulty;unfeasibility
 ;; AiEoti*Ar_1
@@ -1784,7 +1784,7 @@ mutaEa*~ir      N-ap    difficult;unfeasible     [[mutaEa*~ir/ADJ]]
 ;--- E*q
 ;; Ei*oq_1
 Ei*oq   Ndu     cluster;bunch
->aEo*Aq N       clusters;bunches
+OaEo*Aq N       clusters;bunches
 Eu*uwq  N       clusters;bunches
 ;
 ;--- E*l
@@ -1845,8 +1845,8 @@ muEotar~        Nall    scabious;miserable;scoundrel     [[muEotar~/ADJ]]
 ;; Ear~ab_1
 Ear~ab  PV      Arabicize
 Ear~ib  IV_yu   Arabicize
-;; >aEorab_1
->aEorab PV      express;manifest;indicate
+;; OaEorab_1
+OaEorab PV      express;manifest;indicate
 Eorib   IV      express;manifest;indicate
 ;; taEar~ab_1
 taEar~ab        PV_intr be Arabicized;be translated
@@ -1856,7 +1856,7 @@ AisotaEorab     PV_intr be Arabicized
 sotaEorib       IV_intr be Arabicized
 ;; Earab_1
 Earab   N       Arabs     [[Earab/NOUN]]
->aEorAb N       bedouins
+OaEorAb N       bedouins
 ;; Earabiy~_1
 Earabiy~        N-ap    Arabic;Arab     [[Earabiy~/ADJ]]
 ;; Earabiy~_2
@@ -1866,16 +1866,16 @@ Earab   Napdu   vehicle;wagon
 Earab   NAt     vehicles;wagons
 ;; Ear~Ab_1
 Ear~Ab  Nall    sponsor;translator
-;; >aEorAbiy~_1
->aEorAbiy~      Nall    bedouin     [[>aEorAbiy~/ADJ]]
+;; OaEorAbiy~_1
+OaEorAbiy~      Nall    bedouin     [[OaEorAbiy~/ADJ]]
 ;; Euruwbap_1
 Euruwb  NapAt   Arabism     [[Euruwb/NOUN]]
 ;; Euruwbap_2
 Euruwb  Nap     Oruba;Uruba
 ;; taEoriyb_1
 taEoriyb        N/At    Arabization;translation
-;; <iEorAb_1
-<iEorAb N/At    declaration;expressing;voicing
+;; IiEorAb_1
+IiEorAb N/At    declaration;expressing;voicing
 ;; muEar~ib_1
 muEar~ib        Nall    declaring;expressing     [[muEar~ib/ADJ]]
 ;; muEar~ab_1
@@ -1945,8 +1945,8 @@ Eoraj   IV_intr be lame;limp
 ;; Ear~aj_1
 Ear~aj  PV      detour;swerve
 Ear~ij  IV_yu   detour;swerve
-;; >aEoraj_1
->aEoraj PV      cripple;paralyze
+;; OaEoraj_1
+OaEoraj PV      cripple;paralyze
 Eorij   IV_yu   cripple;paralyze
 Eoraj   IV_Pass_yu      be crippled;be paralyzed
 ;; taEar~aj_1
@@ -1962,14 +1962,14 @@ noEarij IV_intr be curved;zigzag
 Earaj   N       limping;lameness
 ;; Earajap_1
 Earaj   NapAt   limp
-;; >aEoraj_2
->aEoraj Nel     lame;limping
+;; OaEoraj_2
+OaEoraj Nel     lame;limping
 EarojA' N0_Nh   lame;limping
-EarojA& Nh      lame;limping
+EarojAW Nh      lame;limping
 EarojA} Nhy     lame;limping
 EurojAn N       lame;limping
-;; >aEoraj_3
->aEoraj N0      Araj
+;; OaEoraj_3
+OaEoraj N0      Araj
 ;; maEoraj_1
 maEoraj Ndu     place of ascent
 maEArij Ndip    places of ascent
@@ -2010,14 +2010,14 @@ EarAziyl        Ndip    shacks;huts
 ;; Ear~as_1
 Ear~as  PV      marry off
 Ear~is  IV_yu   marry off
-;; >aEoras_1
->aEoras PV      give a wedding feast
+;; OaEoras_1
+OaEoras PV      give a wedding feast
 Eoris   IV_yu   give a wedding feast
 Eoras   IV_Pass_yu      be given a wedding feast
 ;; Euros_1
 Euros   N       wedding
 Eurus   NAt     weddings
->aEorAs N       weddings
+OaEorAs N       weddings
 ;; Eurosiy~_1
 Eurosiy~        N-ap    nuptial;wedding     [[Eurosiy~/ADJ]]
 ;; Earuws_1
@@ -2032,8 +2032,8 @@ EurosAn N       bridegrooms;newlyweds
 Eir~iys N       lion's den
 ;; taEoriys_1
 taEoriys        N/At    wedding feast
-;; <iEorAs_1
-<iEorAs N/At    wedding feast
+;; IiEorAs_1
+IiEorAs N/At    wedding feast
 ;
 ;--- Er$
 ;; Eara$-ui_1
@@ -2052,7 +2052,7 @@ Eotari$ IV      climb;be attached
 ;; Earo$_1
 Earo$   Ndu     throne
 Euruw$  N       thrones
->aEorA$ N       thrones
+OaEorA$ N       thrones
 ;; Eariy$_1
 Eariy$  N       El Arish (Sinai)
 ;; Eariy$_2
@@ -2074,7 +2074,7 @@ EaraS   N       levity
 ;; EaroSap_1
 EaroS   Napdu   courtyard;vacant lot
 EaraS   NAt     courtyards;vacant lots
->aEorAS N       courtyards;vacant lots
+OaEorAS N       courtyards;vacant lots
 ;; muEar~aS_1
 muEar~aS        Nall    procurer;snitch;cuckold
 ;
@@ -2090,8 +2090,8 @@ Ear~iD  IV_yu   expose
 ;; EAraD_1
 EAraD   PV      oppose;resist
 EAriD   IV_yu   oppose;resist
-;; >aEoraD_1
->aEoraD PV      avoid
+;; OaEoraD_1
+OaEoraD PV      avoid
 EoriD   IV_yu   avoid
 EoraD   IV_Pass_yu      be avoided
 ;; taEar~aD_1
@@ -2119,7 +2119,7 @@ EaroD   Napdu   public showing
 EaroDiy~        N-ap    horizontal;latitudinal     [[EaroDiy~/ADJ]]
 ;; EiroD_1
 EiroD   N       honor
->aEorAD N       honor
+OaEorAD N       honor
 ;; EaroDAniy~_1
 EaroDAniy~      N-ap    transversal;latitudinal     [[EaroDAniy~/ADJ]]
 ;; EaraDAF_1
@@ -2131,7 +2131,7 @@ EaraDiy~        NAt     unessentials;accidentals     [[EaraDiy~/NOUN]]
 EuroD   Nap     target;object
 ;; EaruwD_1
 EaruwD  N       prosody
->aEAriyD        Ndip    prosody
+OaEAriyD        Ndip    prosody
 ;; EaruwDiy~_1
 EaruwDiy~       N-ap    prosodic     [[EaruwDiy~/ADJ]]
 ;; EariyD_1
@@ -2153,8 +2153,8 @@ taEoriyD        N/At    exposure
 taEoriyDiy~     N-ap    exposing     [[taEoriyDiy~/ADJ]]
 ;; muEAraDap_1
 muEAraD NapAt   opposition
-;; <iEorAD_1
-<iEorAD N/At    avoidance
+;; IiEorAD_1
+IiEorAD N/At    avoidance
 ;; taEar~uD_1
 taEar~uD        N/At    being exposed to;encountering
 ;; taEAruD_1
@@ -2229,7 +2229,7 @@ AisotaEoraf     PV      discern;recognize
 sotaEorif       IV      discern;recognize
 ;; Eurof_1
 Eurof   N       custom;habit;protocol
->aEorAf N       customs;habits
+OaEorAf N       customs;habits
 ;; Eurofiy~_1
 Eurofiy~        N-ap    conventional;traditional;secular;martial     [[Eurofiy~/ADJ]]
 ;; Earafap_1
@@ -2241,12 +2241,12 @@ EarafAwiy~      N0      Arfaoui;Arafawi
 ;; Eariyf_1
 Eariyf  N/ap    knowing;aware     [[Eariyf/ADJ]]
 EurafA' N0_Nh   knowing;aware
-EurafA& Nh      knowing;aware
+EurafAW Nh      knowing;aware
 EurafA} Nhy     knowing;aware
 ;; Eariyf_2
 Eariyf  Ndu     sergeant;corporal
 EurafA' N0_Nh   sergeants;corporals
-EurafA& Nh      sergeants;corporals
+EurafAW Nh      sergeants;corporals
 EurafA} Nhy     sergeants;corporals
 ;; Ear~Af_1
 Ear~Af  Nall    fortuneteller
@@ -2256,8 +2256,8 @@ EirAf   Nap     fortunetelling
 EirofAn N       knowledge;recognition
 ;; EirofAn_2
 EirofAn Nprop   Irfan
-;; >aEoraf_1
->aEoraf Nel     more/most aware;better/best acquainted
+;; OaEoraf_1
+OaEoraf Nel     more/most aware;better/best acquainted
 ;; maEorifap_1
 maEorif Nap     knowledge;information;acquaintance
 maEArif Ndip    culture;education
@@ -2298,8 +2298,8 @@ Eoraq   IV      perspire
 ;; Ear~aq_1
 Ear~aq  PV      take root
 Ear~iq  IV_yu   take root
-;; >aEoraq_1
->aEoraq PV      take root
+;; OaEoraq_1
+OaEoraq PV      take root
 Eoriq   IV_yu   take root
 Eoraq   IV_Pass_yu      be rooted
 ;; taEar~aq_1
@@ -2335,8 +2335,8 @@ EirAq   N       Iraq
 ;; EirAqiy~_1
 EirAqiy~        Nall    Iraqi     [[EirAqiy~/NOUN]]
 EirAqiy~        Nall    Iraqi     [[EirAqiy~/ADJ]]
-;; >aEoraq_2
->aEoraq Nel     more/most deep-rooted
+;; OaEoraq_2
+OaEoraq Nel     more/most deep-rooted
 ;; maEoruwq_1
 maEoruwq        N-ap    emaciated;gaunt     [[maEoruwq/ADJ]]
 ;; muEar~aq_1
@@ -2507,7 +2507,7 @@ Euroy   N       nakedness;bareness
 Euroy   Nap     nakedness;bareness
 ;; EarA'_1
 EarA'   N0_Nh   nakedness;bareness
-EarA&   Nh      nakedness;bareness
+EarAW   Nh      nakedness;bareness
 EarA}   Nhy     nakedness;bareness
 ;; EuroyAn_1
 EuroyAn N-ap    naked;bare
@@ -2521,7 +2521,7 @@ taEoriy Nap     uncovering;exposure;unveiling
 taEar~iy        N0_Nh   nudity
 ;; AisotiEorA'_1
 AisotiEorA'     N0_Nh   self-exposure;exhibitionism
-AisotiEorA&     Nh      self-exposure;exhibitionism
+AisotiEorAW     Nh      self-exposure;exhibitionism
 AisotiEorA}     Nhy     self-exposure;exhibitionism
 AisotiEorA'     NAt     self-exposure;exhibitionism
 ;; EAriy_1
@@ -2563,9 +2563,9 @@ Eoziz   IV_C_intr       be strong;be dear
 ;; Eaz~az_1
 Eaz~az  PV      strengthen;reinforce
 Eaz~iz  IV_yu   strengthen;reinforce
-;; >aEaz~_1
->aEaz~  PV_V    strengthen;reinforce
->aEozaz PV_C    strengthen;reinforce
+;; OaEaz~_1
+OaEaz~  PV_V    strengthen;reinforce
+OaEozaz PV_C    strengthen;reinforce
 Eiz~    IV_V_yu strengthen;reinforce
 Eoziz   IV_C_yu strengthen;reinforce
 Eaz~    IV_V_Pass_yu    be strengthened;be reinforced
@@ -2598,16 +2598,16 @@ Eiz~at  Nprop   Izzat;Ezzat
 Eaziyz  N0      Aziz
 ;; Eaziyz_2
 Eaziyz  N/ap    dear;precious     [[Eaziyz/ADJ]]
->aEiz~A'        N0_Nh   dear;precious     [[>aEiz~A'/ADJ]]
->aEiz~A&        Nh      dear;precious     [[>aEiz~A&/ADJ]]
->aEiz~A}        Nhy     dear;precious     [[>aEiz~A}/ADJ]]
->aEiz~  Nap     dear;precious     [[>aEiz~/ADJ]]
+OaEiz~A'        N0_Nh   dear;precious     [[OaEiz~A'/ADJ]]
+OaEiz~AW        Nh      dear;precious     [[OaEiz~AW/ADJ]]
+OaEiz~A}        Nhy     dear;precious     [[OaEiz~A}/ADJ]]
+OaEiz~  Nap     dear;precious     [[OaEiz~/ADJ]]
 ;; Eaziyziy~_1
 Eaziyziy~       N0      Azizi
 ;; Eaziyziy~_2
 Eaziyziy~       Nall    dear;precious     [[Eaziyziy~/ADJ]]
-;; >aEaz~_2
->aEaz~  Nel     stronger/strongest;dearer/dearest
+;; OaEaz~_2
+OaEaz~  Nel     stronger/strongest;dearer/dearest
 ;; Euz~aY_1
 Euz~aY  N0      Uzza (pagan goddess)
 ;; maEaz~ap_1
@@ -2623,8 +2623,8 @@ taEoziyz        N       reinforcement
 taEoziyz        NAt     reinforcements;supplies
 ;; taEoziyz_3
 taEoziyz        N/At    praise;pride
-;; <iEozAz_1
-<iEozAz N/At    strengthening;fortifications
+;; IiEozAz_1
+IiEozAz N/At    strengthening;fortifications
 ;; AiEotizAz_1
 AiEotizAz       N/At    pride
 ;; muEaz~iz_1
@@ -2652,7 +2652,7 @@ Euzuwb  N       being distant
 ;; Eazab_1
 Eazab   N       celibate;unmarried
 Euz~Ab  N       celibate;unmarried
->aEozAb N       celibate;unmarried
+OaEozAb N       celibate;unmarried
 ;; Eizobap_1
 Eizob   Napdu   farm;country estate
 Eizab   N       farms;country estates
@@ -2662,11 +2662,11 @@ Euzob   Nap     celibacy;bachelorhood
 Euzuwb  Nap     celibacy;bachelorhood
 ;; Euzuwbiy~ap_1
 Euzuwbiy~       Nap     celibacy;bachelorhood     [[Euzuwbiy~/NOUN]]
-;; >aEozab_1
->aEozab Nel     bachelor     [[>aEozab/ADJ]]
->aEozab Nel     bachelor
+;; OaEozab_1
+OaEozab Nel     bachelor     [[OaEozab/ADJ]]
+OaEozab Nel     bachelor
 EazobA' N0_Nh   unmarried
-EazobA& Nh      unmarried
+EazobAW Nh      unmarried
 EazobA} Nhy     unmarried
 Euzob   N       unmarried
 ;; EAzib_1
@@ -2723,8 +2723,8 @@ maEAziq Ndip    hoes;mattocks
 ;; Eazal-i_1
 Eazal   PV      depose;dismiss
 Eozil   IV      depose;dismiss
-;; >aEozal_1
->aEozal PV      resign;step down
+;; OaEozal_1
+OaEozal PV      resign;step down
 Eozil   IV_yu   resign;step down
 Eozal   IV_Pass_yu      be forced to resign;be forced to step down
 ;; AinoEazal_1
@@ -2741,11 +2741,11 @@ Eazoliy~        N-ap    movable     [[Eazoliy~/ADJ]]
 Euzol   Nap     isolation;separation;retirement
 ;; EizAl_1
 EizAl   N       household effects;luggage
-;; >aEozal_2
->aEozal Nel     unarmed;defenseless     [[>aEozal/ADJ]]
->aEozal Nel     unarmed;defenseless
+;; OaEozal_2
+OaEozal Nel     unarmed;defenseless     [[OaEozal/ADJ]]
+OaEozal Nel     unarmed;defenseless
 EazolA' N0_Nh   unarmed;defenseless
-EazolA& Nh      unarmed;defenseless
+EazolAW Nh      unarmed;defenseless
 EazolA} Nhy     unarmed;defenseless
 Euz~al  N       unarmed;defenseless
 ;; maEozil_1
@@ -2887,7 +2887,7 @@ Eazow   N       tracing back;attribution
 Eizow   Nap     ancestry
 ;; EazA'_1
 EazA'   N0_Nh   consolation;mourning
-EazA&   Nh      consolation;mourning
+EazAW   Nh      consolation;mourning
 EazA}   Nhy     consolation;mourning
 ;; taEoziyap_1
 taEoziy NapAt   condolence;mourning
@@ -2952,8 +2952,8 @@ Eas~ir  IV_yu   make difficult
 ;; EAsar_1
 EAsar   PV      treat harshly
 EAsir   IV_yu   treat harshly
-;; >aEosar_1
->aEosar PV_intr be in dire straits
+;; OaEosar_1
+OaEosar PV_intr be in dire straits
 Eosir   IV_intr_yu      be in dire straits
 ;; taEas~ar_1
 taEas~ar        PV_intr be difficult
@@ -2976,15 +2976,15 @@ Easiyr  N       Asir (Saudi Arabia)
 Easiyriy~       N0      Asiri
 ;; Easiyriy~_2
 Easiyriy~       Nall    of/from Asir (Saudi Arabia)
-;; >aEosar_2
->aEosar Nel     left-handed
+;; OaEosar_2
+OaEosar Nel     left-handed
 EasorA' N0_Nh   left-handed
-EasorA& Nh      left-handed
+EasorAW Nh      left-handed
 EasorA} Nhy     left-handed
-;; >aEosar_3
->aEosar Nel     harder/hardest
+;; OaEosar_3
+OaEosar Nel     harder/hardest
 EasorA' N0_Nh   hardest
-EasorA& Nh      hardest
+EasorAW Nh      hardest
 EasorA} Nhy     hardest
 ;; EasorAwiy~_1
 EasorAwiy~      Nall    left-handed     [[EasorAwiy~/ADJ]]
@@ -2992,8 +2992,8 @@ EasorAwiy~      Nall    left-handed     [[EasorAwiy~/ADJ]]
 Easorawiy~      Nall    left-handed     [[Easorawiy~/ADJ]]
 ;; maEosarap_1
 maEosar Nap     difficulty;dire straits
-;; <iEosAr_1
-<iEosAr N/At    poverty;insolvency;dire straits
+;; IiEosAr_1
+IiEosAr N/At    poverty;insolvency;dire straits
 ;; taEas~ur_1
 taEas~ur        N/At    difficulty
 ;; maEosuwr_1
@@ -3017,8 +3017,8 @@ Eosif   IV      treat unjustly;oppress
 ;; Eas~af_1
 Eas~af  PV      overburden
 Eas~if  IV_yu   overburden
-;; >aEosaf_1
->aEosaf PV      overburden
+;; OaEosaf_1
+OaEosaf PV      overburden
 Eosif   IV_yu   overburden
 Eosaf   IV_Pass_yu      be overburdened
 ;; taEas~af_1
@@ -3077,7 +3077,7 @@ Eas~al  PV      sweeten
 Eas~il  IV_yu   sweeten
 ;; Easal_1
 Easal   N       honey
->aEosAl N       honey
+OaEosAl N       honey
 Eusuwl  N       honey
 ;; Easaliy~_1
 Easaliy~        N-ap    honey-like     [[Easaliy~/ADJ]]
@@ -3145,7 +3145,7 @@ Eota$i$ IV_C    build a nest;take root
 ;; Eu$~_1
 Eu$~    Ndu     nest
 Ei$A$   N       nests
->aEo$A$ N       nests
+OaEo$A$ N       nests
 Ei$a$   Nap     nests
 ;; Eu$~ap_1
 Eu$~    Napdu   shack;coop;cage
@@ -3154,8 +3154,8 @@ Eu$a$   N       shacks;coops;cages
 taEo$iy$        N/At    nesting;rooting
 ;
 ;--- E$b
-;; >aEo$ab_1
->aEo$ab PV      grow vegetation
+;; OaEo$ab_1
+OaEo$ab PV      grow vegetation
 Eo$ib   IV_yu   grow vegetation
 Eo$ab   IV_Pass_yu      be verdant/green
 ;; taEa$~ab_1
@@ -3168,9 +3168,9 @@ Eo$awo$ib       IV_intr be covered with vegetation
 ;; Eu$ob_1
 Eu$ob   N       grass;vegetation
 Eu$ob   Nap     plant;herb
->aEo$Ab N       herbs;vegetation
-;; >aEo$Abiy~_1
->aEo$Abiy~      Nall    herbalist     [[>aEo$Abiy~/ADJ]]
+OaEo$Ab N       herbs;vegetation
+;; OaEo$Abiy~_1
+OaEo$Abiy~      Nall    herbalist     [[OaEo$Abiy~/ADJ]]
 ;; Eu$obiy~_1
 Eu$obiy~        Nall    vegetation;herbal     [[Eu$obiy~/ADJ]]
 ;; Ea$ib_1
@@ -3199,7 +3199,7 @@ taEA$ar PV      associate with each other;have contact with each other
 taEA$ar IV      associate with each other;have contact with each other
 ;; Eu$or_1
 Eu$or   Ndu     tenth;tenth part
->aEo$Ar N       tenths
+OaEo$Ar N       tenths
 Eu$uwr  N       tenths
 ;; Ea$oriy~_1
 Ea$oriy~        N-ap    decennial     [[Ea$oriy~/ADJ]]
@@ -3207,7 +3207,7 @@ Ea$oriy~        N-ap    decennial     [[Ea$oriy~/ADJ]]
 Ea$oriy~        N0      Ashri
 ;; Eu$oriy~_1
 Eu$oriy~        N-ap    decimal     [[Eu$oriy~/ADJ]]
->aEo$Ariy~      N-ap    decimal     [[>aEo$Ariy~/ADJ]]
+OaEo$Ariy~      N-ap    decimal     [[OaEo$Ariy~/ADJ]]
 ;; Ei$orap_1
 Ei$or   Nap     association;relationship
 ;; Ea$arap_1
@@ -3225,7 +3225,7 @@ Ea$orAwiy       Nprop   Ashrawi
 ;; Ea$iyr_1
 Ea$iyr  N/ap    companion;associate
 Eu$arA' N0_Nh   companions;associates
-Eu$arA& Nh      companions;associates
+Eu$arAW Nh      companions;associates
 Eu$arA} Nhy     companions;associates
 ;; Ea$iyrap_1
 Ea$iyr  Napdu   clan;tribe
@@ -3308,10 +3308,10 @@ Ea$im   PV_intr be dry;be parched
 Eo$am   IV_intr be dry;be parched
 ;; Ea$am_1
 Ea$am   N-ap    dry
-;; >aEo$am_1
->aEo$am Nel     dry;thin
+;; OaEo$am_1
+OaEo$am Nel     dry;thin
 Ea$omA' N0_Nh   dry;thin
-Ea$omA& Nh      dry;thin
+Ea$omAW Nh      dry;thin
 Ea$omA} Nhy     dry;thin
 ;
 ;--- E$w E$y
@@ -3336,11 +3336,11 @@ Ea$~iy  IV_0hAnn_yu     give dinner
 Ea$~    IV_0hwnyn_yu    give dinner
 Ea$~aY  IV_0_Pass_yu    be given dinner
 Ea$~ay  IV_Ann_Pass_yu  be given dinner
-;; >aEo$aY_1
->aEo$aY PV_0    make blind
->aEo$A  PV_h    make blind
->aEo$ay PV_Atn  make blind
->aEo$   PV_ttAw make blind
+;; OaEo$aY_1
+OaEo$aY PV_0    make blind
+OaEo$A  PV_h    make blind
+OaEo$ay PV_Atn  make blind
+OaEo$   PV_ttAw make blind
 Eo$iy   IV_0hAnn_yu     make blind
 Eo$     IV_0hwnyn_yu    make blind
 Eo$aY   IV_0_Pass_yu    be blinded
@@ -3361,26 +3361,26 @@ Ea$ow   Nap     darkness;blindness
 Ea$Aw   Nap     darkness;blindness
 ;; Ea$owA'_1
 Ea$owA' N0_Nh   darkness;blindness
-Ea$owA& Nh      darkness;blindness
+Ea$owAW Nh      darkness;blindness
 Ea$owA} Nhy     darkness;blindness
 ;; Ea$owA}iy~_1
 Ea$owA}iy~      Nall    random     [[Ea$owA}iy~/ADJ]]
 ;; Ea$A'_1
 Ea$A'   N0_Nh   dinner;supper
-Ea$A&   Nh      dinner;supper
+Ea$AW   Nh      dinner;supper
 Ea$A}   Nhy     dinner;supper
->aEo$iy Nap     dinners;suppers
+OaEo$iy Nap     dinners;suppers
 ;; Ei$A'_1
 Ei$A'   N0_Nh   evening
-Ei$A&   Nh      evening
+Ei$AW   Nh      evening
 Ei$A}   Nhy     evening
 ;; Ea$iy~ap_1
 Ea$iy~  NapAt   eve of;night before     [[Ea$iy~/NOUN]]
 Ea$AyA  N0_Nhy  evenings
-;; >aEo$aY_2
->aEo$aY N0      blind
->aEo$A  Nhy     blind
->aEo$ay NAn_Nayn        blind
+;; OaEo$aY_2
+OaEo$aY N0      blind
+OaEo$A  Nhy     blind
+OaEo$ay NAn_Nayn        blind
 ;
 ;--- ES
 ;; EaS~-a_1
@@ -3401,8 +3401,8 @@ EoSib   IV      bind;fold;wrap
 ;; EaS~ab_1
 EaS~ab  PV      wrap
 EaS~ib  IV_yu   wrap
-;; >aEoSab_1
->aEoSab PV      wrap
+;; OaEoSab_1
+OaEoSab PV      wrap
 EoSib   IV_yu   wrap
 EoSab   IV_Pass_yu      be wrapped
 ;; taEaS~ab_1
@@ -3413,7 +3413,7 @@ AiEotaSab       PV      conspire;gang up;go on strike
 EotaSib IV      conspire;gang up;go on strike
 ;; EaSab_1
 EaSab   N       nerve
->aEoSAb N       nerves
+OaEoSAb N       nerves
 ;; EaSabiy~_1
 EaSabiy~        Nall    nervous     [[EaSabiy~/ADJ]]
 ;; EaSabiy~ap_1
@@ -3484,9 +3484,9 @@ AiEotaSar       PV      squeeze;press;compress
 EotaSir IV      squeeze;press;compress
 ;; EaSor_1
 EaSor   Ndu     age;period;epoch
->aEoSur N       ages;periods;epochs
+OaEoSur N       ages;periods;epochs
 EuSuwr  N       ages;periods;epochs
->aEoSAr N       ages;periods;epochs
+OaEoSAr N       ages;periods;epochs
 ;; EaSor_2
 EaSor   N       compression;squeezing
 ;; EaSAriy_1
@@ -3504,9 +3504,9 @@ EuSAr   Nap     juice;sap
 EaS~Ar  NapAt   press;wringer
 ;; taEoSiyr_1
 taEoSiyr        N/At    modernization
-;; <iEoSAr_1
-<iEoSAr N/At    tornado;hurricane
->aEASiyr        Ndip    tornadoes;hurricanes
+;; IiEoSAr_1
+IiEoSAr N/At    tornado;hurricane
+OaEASiyr        Ndip    tornadoes;hurricanes
 ;; miEoSarap_1
 miEoSar Napdu   press;wringer
 maEASir Ndip    presses;wringers
@@ -3530,8 +3530,8 @@ EaSAEiS Ndip    tailbones
 ;; EaSaf-i_1
 EaSaf   PV_intr be stormy;be tempestuous
 EoSif   IV_intr be stormy;be tempestuous
-;; >aEoSaf_1
->aEoSaf PV_intr be stormy;be tempestuous
+;; OaEoSaf_1
+OaEoSaf PV_intr be stormy;be tempestuous
 EoSif   IV_intr_yu      be stormy;be tempestuous
 ;; EaSof_1
 EaSof   N       storming
@@ -3582,7 +3582,7 @@ sotaEoSim       IV      seek refuge;resort to
 EaSom   N       preservation
 ;; EuSomap_1
 EuSom   Nap     collar;necklace
->aEoSAm N       collars;necklaces
+OaEoSAm N       collars;necklaces
 ;; EiSomap_1
 EiSom   Nap     chastity;innocence
 ;; EiSAm_1
@@ -3607,10 +3607,10 @@ maEoSuwmiy~     Nap     chastity;innocence     [[maEoSuwmiy~/NOUN]]
 ;; miEoSam_1
 miEoSam Ndu     wrist
 maEASim Ndip    wrists
-;; >aEoSam_1
->aEoSam Nel     precious;valuable;white-footed
+;; OaEoSam_1
+OaEoSam Nel     precious;valuable;white-footed
 EaSomA' N0_Nh   precious;valuable;white-footed
-EaSomA& Nh      precious;valuable;white-footed
+EaSomAW Nh      precious;valuable;white-footed
 EaSomA} Nhy     precious;valuable;white-footed
 EuSom   N       precious;valuable;white-footed
 ;; muEotaSim_1
@@ -3696,9 +3696,9 @@ sotaEoS IV_0hwnyn       elude;fail
 sotaEoSaY       IV_0_Pass_yu    be eluded
 ;; EaSiy~_1
 EaSiy~  Nall    rebel;mutineer     [[EaSiy~/ADJ]]
->aEoSiyA'       N0_Nh   rebels;mutineers
->aEoSiyA&       Nh      rebels;mutineers
->aEoSiyA}       Nhy     rebels;mutineers
+OaEoSiyA'       N0_Nh   rebels;mutineers
+OaEoSiyAW       Nh      rebels;mutineers
+OaEoSiyA}       Nhy     rebels;mutineers
 ;; EiSoyAn_1
 EiSoyAn N       mutiny;insubordination
 ;; EiSoyAniy~_1
@@ -3711,12 +3711,12 @@ maEAS   NK      insubordination;rebellions
 maEoSiy Nap     disobedience;sin
 ;; AisotiEoSA'_1
 AisotiEoSA'     N0_Nh   obstinacy;difficulty
-AisotiEoSA&     Nh      obstinacy;difficulty
+AisotiEoSAW     Nh      obstinacy;difficulty
 AisotiEoSA}     Nhy     obstinacy;difficulty
 AisotiEoSA'     NAt     obstinacy;difficulty
 ;; AisotiEoSA'_2
 AisotiEoSA'     N0_Nh   failure;malfunction
-AisotiEoSA&     Nh      failure;malfunction
+AisotiEoSAW     Nh      failure;malfunction
 AisotiEoSA}     Nhy     failure;malfunction
 AisotiEoSA'     NAn_Nayn        failures;malfunctions
 AisotiEoSA}     Nayn    failures;malfunctions
@@ -3806,8 +3806,8 @@ muEaD~id        Nall    supporter;assistant
 ;; EaDal-u_1
 EaDal   PV      prevent
 EoDul   IV      prevent
-;; >aEoDal_1
->aEoDal PV_intr be difficult;pose a problem
+;; OaEoDal_1
+OaEoDal PV_intr be difficult;pose a problem
 EoDil   IV_intr_yu      be difficult;pose a problem
 ;; taEaD~al_1
 taEaD~al        PV_intr be difficult;pose a problem
@@ -3842,14 +3842,14 @@ EiDAh   N       thorny shrubs
 ;--- EDw
 ;; EuDow_1
 EuDow   N/ap    member
->aEoDA' N0_Nh   members
->aEoDA& Nh      members
->aEoDA} Nhy     members
+OaEoDA' N0_Nh   members
+OaEoDAW Nh      members
+OaEoDA} Nhy     members
 ;; EuDow_2
 EuDow   Ndu     organ
->aEoDA' N0_Nh   organs
->aEoDA& Nh      organs
->aEoDA} Nhy     organs
+OaEoDA' N0_Nh   organs
+OaEoDAW Nh      organs
+OaEoDA} Nhy     organs
 ;; EuDowiy~_1
 EuDowiy~        N-ap    organic     [[EuDowiy~/ADJ]]
 ;; EuDowiy~ap_1
@@ -3869,8 +3869,8 @@ EoTab   IV      perish;be destroyed
 ;; EaT~ab_1
 EaT~ab  PV      destroy;damage
 EaT~ib  IV_yu   destroy;damage
-;; >aEoTab_1
->aEoTab PV      destroy;damage
+;; OaEoTab_1
+OaEoTab PV      destroy;damage
 EoTib   IV_yu   destroy;damage
 EoTab   IV_Pass_yu      be destroyed;be damaged
 ;; taEaT~ab_1
@@ -3881,7 +3881,7 @@ AiEotaTab       PV      perish;be destroyed
 EotaTib IV      perish;be destroyed
 ;; EaTab_1
 EaTab   N       destruction;damage
->aEoTAb N       destruction;damages
+OaEoTAb N       destruction;damages
 ;; taEoTiyb_1
 taEoTiyb        N/At    destruction;damage
 ;; taEaT~ub_1
@@ -3963,8 +3963,8 @@ EoTa$   IV_intr be thirsty;long for
 ;; EaT~a$_1
 EaT~a$  PV      make thirsty
 EaT~i$  IV_yu   make thirsty
-;; >aEoTa$_1
->aEoTa$ PV      make thirsty
+;; OaEoTa$_1
+OaEoTa$ PV      make thirsty
 EoTi$   IV_yu   make thirsty
 EoTa$   IV_Pass_yu      be made thirsty
 ;; taEaT~a$_1
@@ -4025,7 +4025,7 @@ sotaEoTif       IV      propitiate
 EaTof   N       sympathy
 ;; EiTof_1
 EiTof   Ndu     side;flank
->aEoTAf N       sides;flanks
+OaEoTAf N       sides;flanks
 ;; EaTofap_1
 EaTof   Nap     turn;bend
 ;; EaTofap_2
@@ -4034,7 +4034,7 @@ EaTaf   NAt     lanes;alleys
 ;; EiTAf_1
 EiTAf   N       cloak
 EuTuf   N       cloaks
->aEoTif Nap     cloaks
+OaEoTif Nap     cloaks
 ;; EaTuwf_1
 EaTuwf  Nall    sympathetic;affectionate     [[EaTuwf/ADJ]]
 ;; EuTuwfap_1
@@ -4093,7 +4093,7 @@ taEaT~al        IV_intr be hindered;be interrupted;be obstructed
 EaTal   N       unemployment;idleness
 ;; EuTol_1
 EuTol   N       malfunction;breakdown;failure
->aEoTAl N       malfunctions;breakdown;failures
+OaEoTAl N       malfunctions;breakdown;failures
 ;; EuTolap_1
 EuTol   NapAt   holiday;vacation;recess
 ;; EaTAlap_1
@@ -4127,16 +4127,16 @@ EATiy   IV_0hAnn_yu     pursue;practice
 EAT     IV_0hwnyn_yu    pursue;practice
 EATaY   IV_0_Pass_yu    be pursued;be practiced
 EATay   IV_Ann_Pass_yu  be pursued;be practiced
-;; >aEoTaY_1
->aEoTaY PV_0    give;provide
->aEoTA  PV_h    give;provide
->aEoTay PV_Atn  give;provide
->aEoT   PV_ttAw give;provide
+;; OaEoTaY_1
+OaEoTaY PV_0    give;provide
+OaEoTA  PV_h    give;provide
+OaEoTay PV_Atn  give;provide
+OaEoT   PV_ttAw give;provide
 EoTiy   IV_0hAnn_yu     give;provide
 EoT     IV_0hwnyn_yu    give;provide
 EoTaY   IV_0_Pass_yu    be given;be provided
 EoTay   IV_Ann_Pass_yu  be given;be provided
->uEoTiy PV_Pass-aAat    be given;be provided
+OuEoTiy PV_Pass-aAat    be given;be provided
 ;; taEATaY_1
 taEATaY PV_0    be involved with;undertake
 taEATA  PV_h    be involved with;undertake
@@ -4169,16 +4169,16 @@ EaTaw   NAn_Nayn        presents;gifts
 EaTaw   NAt     presents;gifts
 ;; EaTA'_1
 EaTA'   N0_Nh   giving;offering
-EaTA&   Nh      giving;offering
+EaTAW   Nh      giving;offering
 EaTA}   Nhy     giving;offering
 ;; EaTA'_2
 EaTA'   N0_Nh   gift;offer
-EaTA&   Nh      gift;offer
+EaTAW   Nh      gift;offer
 EaTA}   Nhy     gift;offer
->aEoTiy Nap     gifts;offers
+OaEoTiy Nap     gifts;offers
 ;; EaTA'_3
 EaTA'   N0_Nh   offer;tender
-EaTA&   Nh      offer;tender
+EaTAW   Nh      offer;tender
 EaTA}   Nhy     offer;tender
 EaTA'   NAn_Nayn        offers;tenders
 EaTA}   Nayn    offers;tenders
@@ -4190,20 +4190,20 @@ EaTiy~  Napdu   gift;present     [[EaTiy~/NOUN]]
 EaTAyA  N0_Nhy  gifts;presents
 ;; miEoTA'_1
 miEoTA' N0_Nh   generous;productive
-miEoTA& Nh      generous;productive
+miEoTAW Nh      generous;productive
 miEoTA} Nhy     generous;productive
 miEoTA' NAn_Nayn        generous;productive
 miEoTA} Nayn    generous;productive
 ;; muEATAp_1
 muEATA  Napdu   pursuit;devotion
 muEATay NAt     pursuits;devotion
-;; <iEoTA'_1
-<iEoTA' N0_Nh   offer;donation;concession
-<iEoTA& Nh      offer;donation;concession
-<iEoTA} Nhy     offer;donation;concession
-<iEoTA' NAn_Nayn        offers;donations;concessions
-<iEoTA} Nayn    offers;donations;concessions
-<iEoTA' NAt     offers;donations;concessions
+;; IiEoTA'_1
+IiEoTA' N0_Nh   offer;donation;concession
+IiEoTAW Nh      offer;donation;concession
+IiEoTA} Nhy     offer;donation;concession
+IiEoTA' NAn_Nayn        offers;donations;concessions
+IiEoTA} Nayn    offers;donations;concessions
+IiEoTA' NAt     offers;donations;concessions
 ;; taEATiy_1
 taEATiy N0_Nh   pursuit;practice;addiction
 taEAT   NK      pursuit;practice;addiction
@@ -4211,7 +4211,7 @@ taEATiy NAn_Nayn        pursuit;practice;addiction
 taEATiy NAt     pursuit;practice;addiction
 ;; AisotiEoTA'_1
 AisotiEoTA'     N0_Nh   begging;mendacity
-AisotiEoTA&     Nh      begging;mendacity
+AisotiEoTAW     Nh      begging;mendacity
 AisotiEoTA}     Nhy     begging;mendacity
 AisotiEoTA'     NAt     begging;mendacity
 ;; muEoTiy_1
@@ -4257,8 +4257,8 @@ EaZ~im  IV_yu   glorify;venerate
 ;; EaZ~am_2
 EaZ~am  PV      ossify
 EaZ~im  IV_yu   ossify
-;; >aEoZam_1
->aEoZam PV      glorify;venerate
+;; OaEoZam_1
+OaEoZam PV      glorify;venerate
 EoZim   IV_yu   glorify;venerate
 EoZam   IV_Pass_yu      be glorified;be venerated
 ;; taEaZ~am_1
@@ -4295,7 +4295,7 @@ EaZamuwt        N       grandeur;power
 ;; EaZiym_1
 EaZiym  N/ap    great;powerful     [[EaZiym/ADJ]]
 EuZamA' N0_Nh   great;powerful
-EuZamA& Nh      great;powerful
+EuZamAW Nh      great;powerful
 EuZamA} Nhy     great;powerful
 EiZAm   N       great;powerful
 EaZA}im Ndip    great;powerful
@@ -4306,13 +4306,13 @@ EaZiym  Nap     misfortune
 EaZA}im Ndip    misfortunes
 ;; EiZAmiy~_2
 EiZAmiy~        Nall    noble;aristocratic     [[EiZAmiy~/ADJ]]
-;; >aEoZam_2
->aEoZam Nel     greater/greatest;major
+;; OaEoZam_2
+OaEoZam Nel     greater/greatest;major
 EuZomaY N0      greater/greatest;major;supreme
 EuZomA  Nhy     greater/greatest;major;supreme
 EuZomay NAn_Nayn        greater/greatest;major;supreme
 EuZomay NAt     greater/greatest;major;supreme
->aEAZim Ndip    greater/greatest;major;supreme
+OaEAZim Ndip    greater/greatest;major;supreme
 ;; taEoZiym_1
 taEoZiym        N/At    glorification;veneration
 ;; taEoZiym_2
@@ -4332,7 +4332,7 @@ mutaEAZim       Nall    arrogant;supercilious     [[mutaEAZim/ADJ]]
 ;; EiZA'ap_1
 EiZA'   Napdu   lizard
 EiZA'   N0_Nh   lizards
-EiZA&   Nh      lizards
+EiZAW   Nh      lizards
 EiZA}   Nhy     lizards
 ;; EiZAyap_1
 EiZAy   Napdu   lizard
@@ -4357,14 +4357,14 @@ EafAf   N0      Afaf
 Eaf~    N-ap    virtuous;honest     [[Eaf~/ADJ]]
 ;; Eafiyf_1
 Eafiyf  N/ap    virtuous;honest     [[Eafiyf/ADJ]]
->aEif~A'        N0_Nh   virtuous;honest
->aEif~A&        Nh      virtuous;honest
->aEif~A}        Nhy     virtuous;honest
->aEif~  Nap     virtuous;honest
+OaEif~A'        N0_Nh   virtuous;honest
+OaEif~AW        Nh      virtuous;honest
+OaEif~A}        Nhy     virtuous;honest
+OaEif~  Nap     virtuous;honest
 ;; Eafiyf_2
 Eafiyf  N0      Afeef;Afif
-;; >aEaf~_1
->aEaf~  Nel     more/most virtuous
+;; OaEaf~_1
+OaEaf~  Nel     more/most virtuous
 ;; taEaf~uf_1
 taEaf~uf        N/At    modesty;restraint
 ;; mutaEaf~if_1
@@ -4379,7 +4379,7 @@ Eaf~ar  PV      cover with dust;sprinkle with powder
 Eaf~ir  IV_yu   cover with dust;sprinkle with powder
 ;; Eafar_1
 Eafar   N       dust
->aEofAr N       dust
+OaEofAr N       dust
 ;; Eaf~Arap_1
 Eaf~Ar  NapAt   sprayer;atomizer
 ;; EufAr_1
@@ -4389,10 +4389,10 @@ Eufor   Nap     dust-color
 ; Ofra prison near Bitunia
 ;; Euwforap_1
 Euwforap        N0      Ofra
-;; >aEofar_1
->aEofar Nel     dust-colored
+;; OaEofar_1
+OaEofar Nel     dust-colored
 EaforA' N0_Nh   dust-colored
-EaforA& Nh      dust-colored
+EaforAW Nh      dust-colored
 EaforA} Nhy     dust-colored
 ;; taEofiyr_1
 taEofiyr        N/At    dusting;sprinkling
@@ -4501,11 +4501,11 @@ EAfiy   IV_0hAnn_yu     cure;heal
 EAf     IV_0hwnyn_yu    cure;heal
 EAfaY   IV_0_Pass_yu    be cured;be healed
 EAfay   IV_Ann_Pass_yu  be cured;be healed
-;; >aEofaY_1
->aEofaY PV_0    excuse;exempt;exonerate
->aEofA  PV_h    excuse;exempt;exonerate
->aEofay PV_Atn  excuse;exempt;exonerate
->aEof   PV_ttAw excuse;exempt;exonerate
+;; OaEofaY_1
+OaEofaY PV_0    excuse;exempt;exonerate
+OaEofA  PV_h    excuse;exempt;exonerate
+OaEofay PV_Atn  excuse;exempt;exonerate
+OaEof   PV_ttAw excuse;exempt;exonerate
 Eofiy   IV_0hAnn_yu     excuse;exempt;exonerate
 Eof     IV_0hwnyn_yu    excuse;exempt;exonerate
 EofaY   IV_0_Pass_yu    be excused;be exempted;be exonerated
@@ -4551,7 +4551,7 @@ Eafowiy~apF     FW-Wa   spontaneously    [[Eafowiy~apF/ADV]]
 Eafiy~  N/ap    vigorous;robust     [[Eafiy~/ADJ]]
 ;; EafA'_1
 EafA'   N0_Nh   extinction;disuse
-EafA&   Nh      extinction;disuse
+EafAW   Nh      extinction;disuse
 EafA}   Nhy     extinction;disuse
 ;; taEofiyap_1
 taEofiy NapAt   effacement;obliteration
@@ -4559,19 +4559,19 @@ taEofiy NapAt   effacement;obliteration
 muEAfA  Napdu   exemption;pardon
 muEAfay NAt     exemptions;pardons
 muEAfaw NAt     exemptions;pardons
-;; <iEofA'_1
-<iEofA' N0_Nh   exemption;discharge;exoneration
-<iEofA& Nh      exemption;discharge;exoneration
-<iEofA} Nhy     exemption;discharge;exoneration
-<iEofA' NAn_Nayn        exemption;discharge;exoneration
-<iEofA} Nayn    exemption;discharge;exoneration
-<iEofA' NAt     exemption;discharge;exoneration
-<iEofA' N0_Nh   exemption;discharge;exoneration
-<iEofA& Nh      exemption;discharge;exoneration
-<iEofA} Nhy     exemption;discharge;exoneration
-<iEofA' NAn_Nayn        exemption;discharge;exoneration
-<iEofA} Nayn    exemption;discharge;exoneration
-<iEofA' NAt     exemption;discharge;exoneration
+;; IiEofA'_1
+IiEofA' N0_Nh   exemption;discharge;exoneration
+IiEofAW Nh      exemption;discharge;exoneration
+IiEofA} Nhy     exemption;discharge;exoneration
+IiEofA' NAn_Nayn        exemption;discharge;exoneration
+IiEofA} Nayn    exemption;discharge;exoneration
+IiEofA' NAt     exemption;discharge;exoneration
+IiEofA' N0_Nh   exemption;discharge;exoneration
+IiEofAW Nh      exemption;discharge;exoneration
+IiEofA} Nhy     exemption;discharge;exoneration
+IiEofA' NAn_Nayn        exemption;discharge;exoneration
+IiEofA} Nayn    exemption;discharge;exoneration
+IiEofA' NAt     exemption;discharge;exoneration
 ;; taEAfiy_1
 taEAfiy N0_Nh   recovery;cure
 taEAf   NK      recovery;cure
@@ -4579,7 +4579,7 @@ taEAfiy NAn_Nayn        recovery;cure
 taEAfiy NAt     recovery;cure
 ;; AisotiEofA'_1
 AisotiEofA'     N0_Nh   apology;resignation
-AisotiEofA&     Nh      apology;resignation
+AisotiEofAW     Nh      apology;resignation
 AisotiEofA}     Nhy     apology;resignation
 AisotiEofA'     NAn_Nayn        apologies;resignations
 AisotiEofA}     Nayn    apologies;resignations
@@ -4622,7 +4622,7 @@ Eoquq   IV_C    disobey
 Eaq~    Nall    disobedient
 ;; Eaqiyq_1
 Eaqiyq  Ndu     canyon;ravine
->aEiq~  Nap     canyons;ravines
+OaEiq~  Nap     canyons;ravines
 ;; Eaqiyq_2
 Eaqiyq  N-ap    agate;carnelian
 EaqA}iq Ndip    agate;carnelian
@@ -4630,9 +4630,9 @@ EaqA}iq Ndip    agate;carnelian
 Eaqiyqiy~       N-ap    carnelian-red     [[Eaqiyqiy~/ADJ]]
 ;; Euquwq_1
 Euquwq  N       disobedience
-;; >aEaq~_1
->aEaq~  Nel     irreverent;disobedient     [[>aEaq~/ADJ]]
->aEaq~  Nel     irreverent;disobedient
+;; OaEaq~_1
+OaEaq~  Nel     irreverent;disobedient     [[OaEaq~/ADJ]]
+OaEaq~  Nel     irreverent;disobedient
 ;; EAq~_1
 EAq~    Nall    disobedient;irreverent     [[EAq~/ADJ]]
 ;
@@ -4648,8 +4648,8 @@ EAqab   PV      punish
 EAqib   IV_yu   punish
 Euwqib  PV_Pass be punished
 EAqab   IV_Pass_yu      be punished
-;; >aEoqab_1
->aEoqab PV      follow;pursue
+;; OaEoqab_1
+OaEoqab PV      follow;pursue
 Eoqib   IV_yu   follow;pursue
 Eoqab   IV_Pass_yu      be followed;be pursued
 ;; taEaq~ab_1
@@ -4663,7 +4663,7 @@ Eaqiba  FW-Wa   following;subsequent to     [[Eaqiba/PREP]]
 Eaqiba  FW-Wa-a following;subsequent to     [[Eaqiba/PREP]]
 ;; Euqob_1
 Euqob   N       consequence
->aEoqAb N       aftermath;heels
+OaEoqAb N       aftermath;heels
 ;; Eaqabap_1
 Eaqab   Napdu   obstacle
 Eaqab   NAt     obstacles
@@ -4675,7 +4675,7 @@ Eaqiyb  N-ap    subsequent;following
 EuqAb   N0      Uqab
 ;; EuqAb_2
 EuqAb   N       eagle
->aEoqub N       eagles
+OaEoqub N       eagles
 EiqobAn N       eagles
 ;; EuqAb_3
 EuqAb   N0      Uqab
@@ -4778,7 +4778,7 @@ EiqAd   Nap     braiding;trimmings
 ;; Eaqiyd_1
 Eaqiyd  Ndu     colonel
 EuqadA' N0_Nh   colonels
-EuqadA& Nh      colonels
+EuqadAW Nh      colonels
 EuqadA} Nhy     colonels
 ;; Eaqiydap_1
 Eaqiyd  Napdu   doctrine;creed;dogma
@@ -4791,11 +4791,11 @@ Eaqiydiy~       Nap     dogmatism     [[Eaqiydiy~/NOUN]]
 EaqA}idiy~      Nall    dogmatic;ideological     [[EaqA}idiy~/ADJ]]
 ;; EaqA}idiy~ap_1
 EaqA}idiy~      Nap     dogmatism     [[EaqA}idiy~/NOUN]]
-;; >aEoqad_1
->aEoqad Nel     complicated;difficult     [[>aEoqad/ADJ]]
->aEoqad Nel     complicated;difficult
+;; OaEoqad_1
+OaEoqad Nel     complicated;difficult     [[OaEoqad/ADJ]]
+OaEoqad Nel     complicated;difficult
 EaqodA' N0_Nh   complicated;difficult
-EaqodA& Nh      complicated;difficult
+EaqodAW Nh      complicated;difficult
 EaqodA} Nhy     complicated;difficult
 ;; maEoqid_1
 maEoqid Ndu     juncture;joint
@@ -4851,8 +4851,8 @@ Eaq~ir  IV_yu   sterilize
 ;; EAqar_1
 EAqar   PV_intr be addicted to
 EAqir   IV_intr_yu      be addicted to
-;; >aEoqar_1
->aEoqar PV      stun
+;; OaEoqar_1
+OaEoqar PV      stun
 Eoqir   IV_yu   stun
 Eoqar   IV_Pass_yu      be stunned
 ;; Euqor_1
@@ -4936,13 +4936,13 @@ Eaqof   N       bending;curving
 ;; Euqofap_1
 Euqof   Napdu   loop;ring;eyelet
 Euqof   NAt     loops;rings;eyelets
-;; >aEoqaf_1
->aEoqaf Nel     crooked;bent;hooked     [[>aEoqaf/ADJ]]
->aEoqaf Nel     crooked;bent;hooked
+;; OaEoqaf_1
+OaEoqaf Nel     crooked;bent;hooked     [[OaEoqaf/ADJ]]
+OaEoqaf Nel     crooked;bent;hooked
 EaqofA' N0_Nh   crooked;bent;hooked
 ;; EaqofA'_1
 EaqofA' N0_Nh   picklock
-EaqofA& Nh      picklock
+EaqofAW Nh      picklock
 EaqofA} Nhy     picklock
 ;; maEoqif_1
 maEoqif Ndu     square bracket
@@ -5001,8 +5001,8 @@ Eaqiyliy~       N0      Aqeeli
 Euqayol N0      Uqail
 ;; Euqayoliy~_1
 Euqayoliy~      N0      Uqaili
-;; >aEoqal_1
->aEoqal Nel     more reasonable
+;; OaEoqal_1
+OaEoqal Nel     more reasonable
 ;; maEoqil_1
 maEoqil Ndu     bunker;fortification;sanctuary
 maEAqil Ndip    bunkers;fortifications;sanctuaries
@@ -5017,7 +5017,7 @@ AiEotiqAliy~    N-ap    concentration camp     [[AiEotiqAliy~/ADJ]]
 ;; EAqil_1
 EAqil   Nall    rational;reasonable;judicious     [[EAqil/ADJ]]
 EuqalA' N0_Nh   rational;reasonable;judicious
-EuqalA& Nh      rational;reasonable;judicious
+EuqalAW Nh      rational;reasonable;judicious
 EuqalA} Nhy     rational;reasonable;judicious
 Euq~Al  N       rational;reasonable;judicious
 ;; EuqolA'_1
@@ -5277,9 +5277,9 @@ Eil~    NapAt   illness;deficiency;defect
 Eilal   N       illnesses;deficiencies;defects
 ;; Ealiyl_1
 Ealiyl  N/ap    sick;ailing     [[Ealiyl/ADJ]]
->aEil~A'        N0_Nh   sick;ailing
->aEil~A&        Nh      sick;ailing
->aEil~A}        Nhy     sick;ailing
+OaEil~A'        N0_Nh   sick;ailing
+OaEil~AW        Nh      sick;ailing
+OaEil~A}        Nhy     sick;ailing
 ;; Ealiyl_2
 Ealiyl  N-ap    fresh     [[Ealiyl/ADJ]]
 ;; Eil~iy~ap_1
@@ -5354,14 +5354,14 @@ Eulojuwm        Ndu     male frog
 EalAjiym        Ndip    male frogs
 ;
 ;--- Elf
-;; >aEolaf_1
->aEolaf PV      feed
+;; OaEolaf_1
+OaEolaf PV      feed
 Eolif   IV_yu   feed
 Eolaf   IV_Pass_yu      be fed
 ;; Ealaf_1
 Ealaf   N       fodder;forage
 EilAf   N       fodder;forage
->aEolAf N       fodder;forage
+OaEolAf N       fodder;forage
 ;; Ealuwfap_1
 Ealuwf  Napdu   fodder;forage
 ;; miEolaf_1
@@ -5460,8 +5460,8 @@ Eolam   IV_Pass_yu      be known;be found out
 ;; Eal~am_1
 Eal~am  PV      teach;instruct
 Eal~im  IV_yu   teach;instruct
-;; >aEolam_1
->aEolam PV      notify;inform
+;; OaEolam_1
+OaEolam PV      notify;inform
 Eolim   IV_yu   notify;inform
 Eolam   IV_Pass_yu      be notified;be informed
 ;; taEal~am_1
@@ -5480,11 +5480,11 @@ Euluwm  N       sciences
 Eilomiy~        N-ap    scientific;scholarly;academic     [[Eilomiy~/ADJ]]
 ;; Ealam_1
 Ealam   Ndu     flag;banner;badge
->aEolAm N       flags;banners
+OaEolAm N       flags;banners
 ;; Eulomap_1
 Eulom   Nap     harelip
-;; >aEolAm_2
->aEolAm N       celebrities;famous people;luminaries
+;; OaEolAm_2
+OaEolAm N       celebrities;famous people;luminaries
 ;; Ealiym_1
 Ealiym  N/ap    specialist;erudite
 ;; Eal~Am_1
@@ -5494,9 +5494,9 @@ Eal~Am  Nap     scholar
 ;; EalAmap_1
 EalAm   Napdu   mark;sign;point
 EalAm   NAt     marks;signs;points
-;; >uEoluwmap_1
->uEoluwm        Napdu   sign
->aEAliym        Ndip    sign
+;; OuEoluwmap_1
+OuEoluwm        Napdu   sign
+OaEAliym        Ndip    sign
 ;; EAlam_1
 EAlam   Ndu     world
 EAlam   Nuwn_Niyn       worlds
@@ -5517,10 +5517,10 @@ taEoliym        NAt     instructions
 taEAliym        Ndip    precepts
 ;; taEoliymiy~_1
 taEoliymiy~     N-ap    educational;pedagogical;instructional     [[taEoliymiy~/ADJ]]
-;; <iEolAm_1
-<iEolAm N/At    information;media
-;; <iEolAmiy~_1
-<iEolAmiy~      N-ap    information;media     [[<iEolAmiy~/ADJ]]
+;; IiEolAm_1
+IiEolAm N/At    information;media
+;; IiEolAmiy~_1
+IiEolAmiy~      N-ap    information;media     [[IiEolAmiy~/ADJ]]
 ;; taEal~um_1
 taEal~um        N/At    learning;study
 ;; AisotiEolAm_1
@@ -5530,12 +5530,12 @@ AisotiEolAmiy~  N-ap    fact-finding;information gathering     [[AisotiEolAmiy~/
 ;; EAlim_1
 EAlim   N-ap    scientist;scholar
 EulamA' N0_Nh   scholars;scientists
-EulamA& Nh      scholars;scientists
+EulamAW Nh      scholars;scientists
 EulamA} Nhy     scholars;scientists
 ;; EAlim_2
 EAlim   Nall    knowing     [[EAlim/ADJ]]
-;; >aEolam_2
->aEolam Nel     more/most knowledgeable
+;; OaEolam_2
+OaEolam Nel     more/most knowledgeable
 ;; maEoluwm_1
 maEoluwm        Nall    known     [[maEoluwm/ADJ]]
 maEoluwm        N       certainly!     [[maEoluwm/INTERJ]]
@@ -5566,8 +5566,8 @@ EAlamAniy~      Nall    secular     [[EAlamAniy~/ADJ]]
 EilomAniy~      Nap     secular nature     [[EilomAniy~/NOUN]]
 ;
 ;--- Eln
-;; >aEolan_1
->aEolan PV-n    announce;declare
+;; OaEolan_1
+OaEolan PV-n    announce;declare
 Eolin   IV-n_yu announce;declare
 Eolan   IV-n_Pass_yu    be announced;be declared
 Eolan   IV_Pass_yu      be announced;be declared
@@ -5586,12 +5586,12 @@ Ealin   N-ap    open;public     [[Ealin/ADJ]]
 ;; EalAniy~ap_1
 EalAniy~        Nap     openness;public     [[EalAniy~/NOUN]]
 EalAniy~apF     FW-Wa   openly;publicly    [[EalAniy~apF/ADV]]
-;; <iEolAn_1
-<iEolAn Ndu     declaration;statement;announcement
-<iEolAn NAt     declarations;statements;announcements
-<iEolAn NAt     advertisements;signs;billboards
-;; <iEolAniy~_1
-<iEolAniy~      N-ap    publicity     [[<iEolAniy~/ADJ]]
+;; IiEolAn_1
+IiEolAn Ndu     declaration;statement;announcement
+IiEolAn NAt     declarations;statements;announcements
+IiEolAn NAt     advertisements;signs;billboards
+;; IiEolAniy~_1
+IiEolAniy~      N-ap    publicity     [[IiEolAniy~/ADJ]]
 ;; muEolin_1
 muEolin Nall    announcer;advertiser
 ;; muEolan_1
@@ -5606,11 +5606,11 @@ Ealaw   PV_Atn  rise;loom;ascend;be elevated
 Eal     PV_ttAw rise;loom;ascend;be elevated
 Eoluw   IV_0hAnn        rise;loom;ascend;be elevated
 Eol     IV_0hwnyn       rise;loom;ascend;be elevated
-;; >aEolaY_1
->aEolaY PV_0    raise
->aEolA  PV_h    raise
->aEolay PV_Atn  raise
->aEol   PV_ttAw raise
+;; OaEolaY_1
+OaEolaY PV_0    raise
+OaEolA  PV_h    raise
+OaEolay PV_Atn  raise
+OaEol   PV_ttAw raise
 Eoliy   IV_0hAnn_yu     raise
 Eol     IV_0hwnyn_yu    raise
 EolaY   IV_0_Pass_yu    be raised
@@ -5649,7 +5649,7 @@ EalA'   Nprop   Alaa
 EalA'Ald~iyn    Nprop   Alaa Eddin;Alaa Al-Din;Aladdin
 ;; EalA'_2
 EalA'   N0_Nh   loftiness;height
-EalA&   Nh      loftiness;height
+EalAW   Nh      loftiness;height
 EalA}   Nhy     loftiness;height
 ;; EalAp_1
 EalA    Napdu   anvil
@@ -5689,16 +5689,16 @@ EalAliy N0_Nh   upper rooms
 EalAl   NK      upper rooms
 ;; Eil~iy~uwn_1
 Eil~iy~uwn      N       uppermost heaven;highest class
-;; >aEolaY_2
->aEolaY N0      higher/highest;supreme     [[>aEolaY/ADJ]]
->aEolA  Nhy     higher/highest;supreme     [[>aEolA/ADJ]]
->aEolay NAn_Nayn        higher/highest;supreme     [[>aEolay/ADJ]]
->aEAliy N0_Nh   highest;heights;peaks
->aEAl   NK      highest;heights;peaks
+;; OaEolaY_2
+OaEolaY N0      higher/highest;supreme     [[OaEolaY/ADJ]]
+OaEolA  Nhy     higher/highest;supreme     [[OaEolA/ADJ]]
+OaEolay NAn_Nayn        higher/highest;supreme     [[OaEolay/ADJ]]
+OaEAliy N0_Nh   highest;heights;peaks
+OaEAl   NK      highest;heights;peaks
 EuloyA  N0      supreme;high;highest     [[EuloyA/ADJ]]
 ;; EaloyA'_1
 EaloyA' N0_Nh   loftiness;upper class
-EaloyA& Nh      loftiness;upper class
+EaloyAW Nh      loftiness;upper class
 EaloyA} Nhy     loftiness;upper class
 ;; maEolAp_1
 maEolA  Nap     greatness;nobility
@@ -5708,21 +5708,21 @@ maEAliy N0_Nh   His Excellency
 maEAliy Nprop   Ma'ale
 ;; taEoliyap_1
 taEoliy Nap     raising;elevation
-;; <iEolA'_1
-<iEolA' N0_Nh   raising;lifting
-<iEolA& Nh      raising;lifting
-<iEolA} Nhy     raising;lifting
-<iEolA' NAt     raising;lifting
+;; IiEolA'_1
+IiEolA' N0_Nh   raising;lifting
+IiEolAW Nh      raising;lifting
+IiEolA} Nhy     raising;lifting
+IiEolA' NAt     raising;lifting
 ;; AiEotilA'_1
 AiEotilA'       N0_Nh   ascension;accession to office
-AiEotilA&       Nh      ascension;accession to office
+AiEotilAW       Nh      ascension;accession to office
 AiEotilA}       Nhy     ascension;accession to office
 AiEotilA'       NAn_Nayn        ascension;accession to office
 AiEotilA}       Nayn    ascension;accession to office
 AiEotilA'       NAt     ascension;accession to office
 ;; AisotiEolA'_1
 AisotiEolA'     N0_Nh   superiority
-AisotiEolA&     Nh      superiority
+AisotiEolAW     Nh      superiority
 AisotiEolA}     Nhy     superiority
 AisotiEolA'     NAt     superiority
 ;; EAliy_1
@@ -5866,16 +5866,16 @@ EimAd   Nap     office of dean
 ;; Eamiyd_1
 Eamiyd  Ndu     dean;chief
 EumadA' N0_Nh   deans;chiefs
-EumadA& Nh      deans;chiefs
+EumadAW Nh      deans;chiefs
 EumadA} Nhy     deans;chiefs
 ;; Eamiyd_2
 Eamiyd  Ndu     brigadier general
 EumadA' N0_Nh   brigadier generals
-EumadA& Nh      brigadier generals
+EumadAW Nh      brigadier generals
 EumadA} Nhy     brigadier generals
 ;; Eamuwd_1
 Eamuwd  Ndu     column;pillar
->aEomid Nap     columns;pillars
+OaEomid Nap     columns;pillars
 ;; EAmuwd_1
 EAmuwd  Ndu     column;pillar
 EawAmiyd        Ndip    columns;pillars
@@ -5940,8 +5940,8 @@ Eomur   IV      thrive
 ;; Eam~ar_1
 Eam~ar  PV      populate;renovate
 Eam~ir  IV_yu   populate;renovate
-;; >aEomar_1
->aEomar PV      populate;renovate
+;; OaEomar_1
+OaEomar PV      populate;renovate
 Eomir   IV_yu   populate;renovate
 Eomar   IV_Pass_yu      be populated;be renovated
 ;; AiEotamar_1
@@ -5952,7 +5952,7 @@ AisotaEomar     PV      colonize;settle
 sotaEomir       IV      colonize;settle
 ;; Eumor_1
 Eumor   N       age;life
->aEomAr N       age groups
+OaEomAr N       age groups
 ;; Eumoriy~_1
 Eumoriy~        N-ap    age-related;age-based ??     [[Eumoriy~/ADJ]]
 ;; Eumorap_1
@@ -5970,8 +5970,8 @@ EumorAniy~      Nall    architectural;construction     [[EumorAniy~/ADJ]]
 Eam~Ar  N0      Ammar
 ;; Eam~Ariy~ap_1
 Eam~Ariy~       Nap     wedding palanquin     [[Eam~Ariy~/NOUN]]
-;; >aEomar_2
->aEomar Nel     populated;flourishing
+;; OaEomar_2
+OaEomar Nel     populated;flourishing
 ;; miEomAr_1
 miEomAr Ndu     architect;mason
 ;; miEomAriy~_1
@@ -5980,10 +5980,10 @@ miEomAriy~      Nall    architectural     [[miEomAriy~/ADJ]]
 taEomiyr        N/At    renovation;reconstruction
 ;; taEomiyrap_1
 taEomiyr        Nap     filling;filling-up
-;; <iEomAr_1
-<iEomAr N       building;construction
-;; <iEomAr_2
-<iEomAr NduAt   populating;renovation
+;; IiEomAr_1
+IiEomAr N       building;construction
+;; IiEomAr_2
+IiEomAr NduAt   populating;renovation
 ;; AisotiEomAr_1
 AisotiEomAr     N/At    colonialism
 ;; AisotiEomAriy~_1
@@ -6014,8 +6014,8 @@ EamAyirah       N0      Amayreh
 EAmuws  N0      Amos (prophet)
 ;
 ;--- Em$
-;; >aEoma$_1
->aEoma$ Nel     sticky-eyed;having ophthalmia
+;; OaEoma$_1
+OaEoma$ Nel     sticky-eyed;having ophthalmia
 ;
 ;--- EmS
 ;; EumAS_1
@@ -6028,8 +6028,8 @@ Eomuq   IV_intr become deep
 ;; Eam~aq_1
 Eam~aq  PV      deepen
 Eam~iq  IV_yu   deepen
-;; >aEomaq_1
->aEomaq PV      deepen
+;; OaEomaq_1
+OaEomaq PV      deepen
 Eomiq   IV_yu   deepen
 Eomaq   IV_Pass_yu      be deepened
 ;; taEam~aq_1
@@ -6037,13 +6037,13 @@ taEam~aq        PV      delve into;be immersed;penetrate
 taEam~aq        IV      delve into;be immersed;penetrate
 ;; Eumoq_1
 Eumoq   N       depth;bottom
->aEomAq N       depths;bottom
+OaEomAq N       depths;bottom
 ;; Eamiyq_1
 Eamiyq  N-ap    deep;profound     [[Eamiyq/ADJ]]
 Eumuq   N       deep;profound
 EimAq   N       deep;profound
-;; >aEomaq_2
->aEomaq Nel     deepest;deeper
+;; OaEomaq_2
+OaEomaq Nel     deepest;deeper
 ;; taEomiyq_1
 taEomiyq        N/At    deepening
 ;; muEam~aq_1
@@ -6058,8 +6058,8 @@ Eomal   IV      work;function;act
 ;; EAmal_1
 EAmal   PV      treat;deal with
 EAmil   IV_yu   treat;deal with
-;; >aEomal_1
->aEomal PV      employ
+;; OaEomal_1
+OaEomal PV      employ
 Eomil   IV_yu   employ
 Eomal   IV_Pass_yu      be employed;be worked
 ;; taEAmal_1
@@ -6073,7 +6073,7 @@ AisotaEomal     PV      employ;use
 sotaEomil       IV      employ;use
 ;; Eamal_1
 Eamal   N       work;action
->aEomAl N       actions;activities;work
+OaEomAl N       actions;activities;work
 ;; Eamal_2
 Eamal   N0      Labor;Labour
 ;; Eamaliy~_1
@@ -6088,7 +6088,7 @@ Eumol   NAt     currencies
 ;; Eamiyl_1
 Eamiyl  N/ap    agent
 EumalA' N0_Nh   agents
-EumalA& Nh      agents
+EumalAW Nh      agents
 EumalA} Nhy     agents
 ;; Eumayolap_1
 Eumayol NapAt   erg
@@ -6183,11 +6183,11 @@ Eam~iy  IV_0hAnn_yu     make blind;camouflage
 Eam~    IV_0hwnyn_yu    make blind;camouflage
 Eam~aY  IV_0_Pass_yu    be blinded;be camouflaged
 Eam~ay  IV_Ann_Pass_yu  be blinded;be camouflaged
-;; >aEomaY_1
->aEomaY PV_0    make blind
->aEomA  PV_h    make blind
->aEomay PV_Atn  make blind
->aEom   PV_ttAw make blind
+;; OaEomaY_1
+OaEomaY PV_0    make blind
+OaEomA  PV_h    make blind
+OaEomay PV_Atn  make blind
+OaEom   PV_ttAw make blind
 Eomiy   IV_0hAnn_yu     make blind
 Eom     IV_0hwnyn_yu    make blind
 EomaY   IV_0_Pass_yu    be blinded
@@ -6215,7 +6215,7 @@ EamA    Nhy     blindness
 Eamiy~  Nap     ignorance;blindness     [[Eamiy~/NOUN]]
 ;; EamA'_1
 EamA'   N0_Nh   heavy clouds
-EamA&   Nh      heavy clouds
+EamAW   Nh      heavy clouds
 EamA}   Nhy     heavy clouds
 ;; EamAyap_1
 EamAy   Nap     ignorance;blindness;folly
@@ -6225,12 +6225,12 @@ EamA}iy~        Nall    chaotic     [[EamA}iy~/ADJ]]
 EamoyAn N       blind
 ;; EamoyAniy~_1
 EamoyAniy~      N       blind
-;; >aEomaY_2
->aEomaY N0      blind
->aEomA  Nhy     blind
->aEomay NAn_Nayn        blind
+;; OaEomaY_2
+OaEomaY N0      blind
+OaEomA  Nhy     blind
+OaEomay NAn_Nayn        blind
 EamoyA' N0_Nh   blind
-EamoyA& Nh      blind
+EamoyAW Nh      blind
 EamoyA} Nhy     blind
 EumoyAn N       blind
 ;; maEomAp_1
@@ -6284,7 +6284,7 @@ EanAn   Nap     impotence
 EanAn   N       heights;clouds
 ;; EinAn_1
 EinAn   N       reins;bridle
->aEin~  Nap     reins
+OaEin~  Nap     reins
 ;; Ein~iyn_1
 Ein~iyn Ndu     impotent
 ;
@@ -6292,7 +6292,7 @@ Ein~iyn Ndu     impotent
 ;; Einab_1
 Einab   N       grapes
 Einab   NapAt   grape
->aEonAb N       grapes
+OaEonAb N       grapes
 ;; Eun~Ab_1
 Eun~Ab  N       jujube
 Eun~Ab  Napdu   jujube
@@ -6322,8 +6322,8 @@ Eonat   IV      suffer adversity
 ;; Ean~at_1
 Ean~at  PV-t    cause adversity
 Ean~it  IV_yu   cause adversity
-;; >aEonat_1
->aEonat PV-t    afflict
+;; OaEonat_1
+OaEonat PV-t    afflict
 Eonit   IV_yu   afflict
 Eonat   IV_Pass_yu      be afflicted
 ;; taEan~at_1
@@ -6331,8 +6331,8 @@ taEan~at        PV-t_intr       be obstinate
 taEan~at        IV_intr be obstinate
 ;; Eanat_1
 Eanat   N       distress;hardship
-;; <iEonAt_1
-<iEonAt N/At    torment;harassment
+;; IiEonAt_1
+IiEonAt N/At    torment;harassment
 ;; taEan~ut_1
 taEan~ut        N/At    obstinacy;stubbornness
 ;; mutaEan~it_1
@@ -6432,7 +6432,7 @@ Eanodamiy~      N-ap    crimson;bright red     [[Eanodamiy~/ADJ]]
 ;--- Enz
 ;; Eanoz_1
 Eanoz   Ndu     goat
->aEonuz N       goats
+OaEonuz N       goats
 Eunuwz  N       goats
 EinAz   N       goats
 ;; Eanozap_1
@@ -6491,8 +6491,8 @@ muEanoEan       N-ap    handed down;transmitted     [[muEanoEan/ADJ]]
 ;; Ean~af_1
 Ean~af  PV      reprimand;admonish
 Ean~if  IV_yu   reprimand;admonish
-;; >aEonaf_1
->aEonaf PV      treat severely;deal with harshly
+;; OaEonaf_1
+OaEonaf PV      treat severely;deal with harshly
 Eonif   IV_yu   treat severely;deal with harshly
 Eonaf   IV_Pass_yu      be treated severely;be dealt with harshly
 ;; Eunof_1
@@ -6509,8 +6509,8 @@ lAEunofiy~      Nap_L   non-violence     [[lAEunofiy~/NOUN]]
 EunofuwAn       N       prime;vigor
 ;; Eaniyf_1
 Eaniyf  N/ap    violent;forceful     [[Eaniyf/ADJ]]
-;; >aEonaf_2
->aEonaf Nel     harsher/harshest;more/most violent
+;; OaEonaf_2
+OaEonaf Nel     harsher/harshest;more/most violent
 ;; taEoniyf_1
 taEoniyf        N/At    censure;reprimand
 ;; Eanafap_1
@@ -6544,16 +6544,16 @@ AiEotanaq       PV      embrace;adopt
 Eotaniq IV      embrace;adopt
 ;; Eunoq_1
 Eunoq   N       neck
->aEonAq N       necks
+OaEonAq N       necks
 ;; Eunoqiy~_1
 Eunoqiy~        N-ap    neck;cervical     [[Eunoqiy~/ADJ]]
 ;; EanAq_1
 EanAq   N       she-goat
->aEonuq N       she-goats
+OaEonuq N       she-goats
 Eunuwq  N       she-goats
 ;; EanoqA'_1
 EanoqA' N0_Nh   griffin;phoenix
-EanoqA& Nh      griffin;phoenix
+EanoqAW Nh      griffin;phoenix
 EanoqA} Nhy     griffin;phoenix
 ;; EinAq_1
 EinAq   N       embrace;accolade
@@ -6684,7 +6684,7 @@ Eotan   IV_0hwnyn       give attention to;show concern for
 EotanaY IV_0_Pass_yu    give attention to;show concern for
 ;; EanA'_1
 EanA'   N0_Nh   hardship;preoccupation
-EanA&   Nh      hardship;preoccupation
+EanAW   Nh      hardship;preoccupation
 EanA}   Nhy     hardship;preoccupation
 ;; EinAyap_1
 EinAy   Nap     care;attention;concern
@@ -6703,7 +6703,7 @@ taEan~  NK      effort;hardship
 taEan~iy        NAt     effort;hardship
 ;; AiEotinA'_1
 AiEotinA'       N0_Nh   attention;care;concern
-AiEotinA&       Nh      attention;care;concern
+AiEotinAW       Nh      attention;care;concern
 AiEotinA}       Nhy     attention;care;concern
 AiEotinA'       NAn_Nayn        attention;care;concern
 AiEotinA}       Nayn    attention;care;concern
@@ -6849,11 +6849,11 @@ EAjiy~  N-ap    ivory     [[EAjiy~/ADJ]]
 EAjiy~  N-ap    Ivorian (of/from the Ivory Coast)     [[EAjiy~/ADJ]]
 ;; Eawaj_1
 Eawaj   N       curvature;bending
-;; >aEowaj_1
->aEowaj Nel     crooked;bent;twisted     [[>aEowaj/ADJ]]
->aEowaj Nel     crooked;bent;twisted
+;; OaEowaj_1
+OaEowaj Nel     crooked;bent;twisted     [[OaEowaj/ADJ]]
+OaEowaj Nel     crooked;bent;twisted
 EawojA' N0_Nh   crooked;bent;twisted
-EawojA& Nh      crooked;bent;twisted
+EawojAW Nh      crooked;bent;twisted
 EawojA} Nhy     crooked;bent;twisted
 Euwj    N       crooked;bent;twisted
 ;; taEowiyj_1
@@ -6880,12 +6880,12 @@ Eaw~id  IV_yu   accustom;condition;habituate
 ;; EAwad_1
 EAwad   PV      reiterate;repeat
 EAwid   IV_yu   reiterate;repeat
-;; >aEAd_1
->aEAd   PV_V    (do) again;re-(do);return;give back
->aEad   PV_C    (do) again;re-(do);return;give back
+;; OaEAd_1
+OaEAd   PV_V    (do) again;re-(do);return;give back
+OaEad   PV_C    (do) again;re-(do);return;give back
 Eiyd    IV_V_yu (do) again;re-(do);return;give back
 Eid     IV_C_yu (do) again;re-(do);return;give back
->uEiyd  PV_V_Pass       be returned;be given back
+OuEiyd  PV_V_Pass       be returned;be given back
 EAd     IV_V_Pass_yu    (be done) again;be returned;be given back
 Ead     IV_C_Pass_yu    (be done) again;be returned;be given back
 ;; taEaw~ad_1
@@ -6906,7 +6906,7 @@ sotaEAd IV_V_Pass_yu    be recovered;be regained;be reclaimed
 sotaEad IV_C_Pass_yu    be recovered;be regained;be reclaimed
 ;; Euwd_1
 Euwd    N       lute;stick
->aEowAd N       lutes;sticks
+OaEowAd N       lutes;sticks
 EiydAn  N       lutes;sticks
 ;; Eawod_1
 Eawod   NF      returning;going back     [[Eawod/ADV]]
@@ -6936,8 +6936,8 @@ maEAd   N       return;destination
 taEowiyd        N/At    habituation;conditioning
 ;; muEAwadap_1
 muEAwad NapAt   reiteration;repetition
-;; <iEAdap_1
-<iEAd   NapAt   return;repetition;re-(doing)
+;; IiEAdap_1
+IiEAd   NapAt   return;repetition;re-(doing)
 ;; taEaw~ud_1
 taEaw~ud        N/At    habituation
 ;; AiEotiyAd_1
@@ -6982,9 +6982,9 @@ Eu*     IV_C    take refuge;seek protection
 ;; Eaw~a*_1
 Eaw~a*  PV      protect
 Eaw~i*  IV_yu   protect
-;; >aEA*_1
->aEA*   PV_V    protect
->aEa*   PV_C    protect
+;; OaEA*_1
+OaEA*   PV_V    protect
+OaEa*   PV_C    protect
 Eiy*    IV_V_yu protect
 Ei*     IV_C_yu protect
 EA*     IV_V_Pass_yu    be protected
@@ -7025,12 +7025,12 @@ Ear     IV_C    lose an eye;become one-eyed
 ;; Eaw~ar_1
 Eaw~ar  PV      make blind in one eye
 Eaw~ir  IV_yu   make blind in one eye
-;; >aEAr_1
->aEAr   PV_V    lend;loan;devote
->aEar   PV_C    lend;loan;devote
+;; OaEAr_1
+OaEAr   PV_V    lend;loan;devote
+OaEar   PV_C    lend;loan;devote
 Eiyr    IV_V_yu lend;loan;devote
 Eir     IV_C_yu lend;loan;devote
->uEiyr  PV_V_Pass       be lent;be loaned;be devoted
+OuEiyr  PV_V_Pass       be lent;be loaned;be devoted
 EAr     IV_V_Pass_yu    be lent;be loaned;be devoted
 Ear     IV_C_Pass_yu    be lent;be loaned;be devoted
 ;; taEAwar_1
@@ -7059,16 +7059,16 @@ EawAr   N       blemish;defect
 EuwayorAn       N0      Oweiran
 ;; Eiyrap_1
 Eiyr    Nap     artificial;false
-;; >aEowar_1
->aEowar Nel     one-eyed
+;; OaEowar_1
+OaEowar Nel     one-eyed
 EaworA' N0_Nh   one-eyed
-EaworA& Nh      one-eyed
+EaworAW Nh      one-eyed
 EaworA} Nhy     one-eyed
 Euwr    N       one-eyed
-;; <iEArap_1
-<iEAr   NapAt   lending
-;; <iEAriy~_1
-<iEAriy~        N-ap    lending     [[<iEAriy~/ADJ]]
+;; IiEArap_1
+IiEAr   NapAt   lending
+;; IiEAriy~_1
+IiEAriy~        N-ap    lending     [[IiEAriy~/ADJ]]
 ;; taEAwur_1
 taEAwur N/At    alternation;fluctuation
 ;; AisotiEArap_1
@@ -7094,8 +7094,8 @@ Euz     IV_C    want;need
 ;; Eawiz-a_1
 Eawiz   PV_intr be destitute
 Eowaz   IV_intr be destitute
-;; >aEowaz_1
->aEowaz PV_intr be destitute;be in need of;be short on
+;; OaEowaz_1
+OaEowaz PV_intr be destitute;be in need of;be short on
 Eowiz   IV_intr_yu      be destitute;be in need of;be short on
 ;; Eawaz_1
 Eawaz   N       poverty;need
@@ -7103,11 +7103,11 @@ Eawaz   N       poverty;need
 EAz     Nap     poverty;need
 ;; Eawiz_1
 Eawiz   N-ap    destitute;needy
-;; >aEowaz_2
->aEowaz Nel     poor;needy
->aEAwiyz        Ndip    poor;needy
-;; <iEowAz_1
-<iEowAz N/At    destitution;need
+;; OaEowaz_2
+OaEowaz Nel     poor;needy
+OaEAwiyz        Ndip    poor;needy
+;; IiEowAz_1
+IiEowAz N/At    destitution;need
 ;; EA}iz_1
 EA}iz   N-ap    destitute;needy
 ;; EAwiz_1
@@ -7138,8 +7138,8 @@ EotAS   IV_V_intr       be difficult;be intractable
 EotaS   IV_C_intr       be difficult;be intractable
 ;; EawiyS_1
 EawiyS  N-ap    difficult;recondite     [[EawiyS/ADJ]]
-;; >aEowaS_1
->aEowaS Nel     more/most difficult;more/most recondite
+;; OaEowaS_1
+OaEowaS Nel     more/most difficult;more/most recondite
 ;; AiEotiyAS_1
 AiEotiyAS       N/At    difficulty;intractability
 ;
@@ -7155,9 +7155,9 @@ Eaw~iD  IV_yu   replace;compensate
 ;; EAwaD_1
 EAwaD   PV      replace;compensate
 EAwiD   IV_yu   replace;compensate
-;; >aEAD_1
->aEAD   PV_V    replace;compensate
->aEaD   PV_C    replace;compensate
+;; OaEAD_1
+OaEAD   PV_V    replace;compensate
+OaEaD   PV_C    replace;compensate
 EiyD    IV_V_yu replace;compensate
 EiD     IV_C_yu replace;compensate
 EAD     IV_V_Pass_yu    be replaced;be compensated
@@ -7229,9 +7229,9 @@ Euq     IV_C    hinder;impede
 ;; Eaw~aq_1
 Eaw~aq  PV      hinder;impede;delay
 Eaw~iq  IV_yu   hinder;impede;delay
-;; >aEAq_1
->aEAq   PV_V    hinder;impede
->aEaq   PV_C    hinder;impede
+;; OaEAq_1
+OaEAq   PV_V    hinder;impede
+OaEaq   PV_C    hinder;impede
 Eiyq    IV_V_yu hinder;impede
 Eiq     IV_C_yu hinder;impede
 EAq     IV_V_Pass_yu    be hindered;be impeded
@@ -7250,8 +7250,8 @@ Eawoq   N       hindering;impeding
 Eaw~Aq  NapAt   brake
 ;; maEAqap_1
 maEAq   Nap     puzzle box;maze
-;; <iEAqap_1
-<iEAq   NapAt   hindering;impeding
+;; IiEAqap_1
+IiEAq   NapAt   hindering;impeding
 ;; taEowiyq_1
 taEowiyq        N       hindering;hampering
 ;; taEowiyqiy~_1
@@ -7276,15 +7276,15 @@ Eul     IV_C    deviate
 ;; Eaw~al_1
 Eaw~al  PV      cry out;authorize
 Eaw~il  IV_yu   cry out;authorize
-;; >aEAl_1
->aEAl   PV_V    support;provide for;sustain
->aEal   PV_C    support;provide for;sustain
+;; OaEAl_1
+OaEAl   PV_V    support;provide for;sustain
+OaEal   PV_C    support;provide for;sustain
 Eiyl    IV_V_yu support;provide for;sustain
 Eil     IV_C_yu support;provide for;sustain
 EAl     IV_V_Pass_yu    be supported;be provide for;be sustained
 Eal     IV_C_Pass_yu    be supported;be provide for;be sustained
-;; >aEowal_1
->aEowal PV      cry out;wail
+;; OaEowal_1
+OaEowal PV      cry out;wail
 Eowil   IV_yu   cry out;wail
 Eowal   IV_Pass_yu      be cried out;be wailed
 ;; Eawol_1
@@ -7295,8 +7295,8 @@ Eawol   N       wailing
 Eiwal   N       reliance;trust
 ;; Eawiyl_1
 Eawiyl  N       wailing;lament
-;; <iEAlap_1
-<iEAl   Nap     sustenance;support
+;; IiEAlap_1
+IiEAl   Nap     sustenance;support
 ;; EA}il_1
 EA}il   N       breadwinner;sustainer
 ;; EA}ilap_1
@@ -7315,8 +7315,8 @@ muEAl   N-ap    responsible     [[muEAl/ADJ]]
 ;; miEowal_1
 miEowal Ndu     pickax
 maEAwil Ndip    pickaxes
-;; <iEowAl_1
-<iEowAl N/At    wailing;lamentation
+;; IiEowAl_1
+IiEowAl N/At    wailing;lamentation
 ;
 ;--- Ewlm
 ;; Eawolam_1
@@ -7338,7 +7338,7 @@ Eaw~im  IV_yu   launch;flood
 Eawom   N       swimming;floating
 ;; EAm_1
 EAm     Ndu     year
->aEowAm N       years
+OaEowAm N       years
 ;; EAma}i*K_1
 EAma}i*K        FW-Wa   that year              [[EAma}i*K/ADV]]
 ;; EAma*Ak_1
@@ -7357,9 +7357,9 @@ EA}im   N-ap    floating     [[EA}im/ADJ]]
 ;; EAwan_1
 EAwan   PV-n    assist;support
 EAwin   IV-n_yu assist;support
-;; >aEAn_1
->aEAn   PV_V    assist;support
->aEan   PV-n    assist;support
+;; OaEAn_1
+OaEAn   PV_V    assist;support
+OaEan   PV-n    assist;support
 Eiyn    IV_V_yu assist;support
 Ein     IV-n_yu assist;support
 EAn     IV_V_Pass_yu    be assisted;be supported
@@ -7374,15 +7374,15 @@ sotaEiyn        IV_V    seek aid from;resort to;turn for help to
 sotaEin IV-n    seek aid from;resort to;turn for help to
 ;; Eawon_1
 Eawon   N       assistance;aid
->aEowAn N       assistants;aids
+OaEowAn N       assistants;aids
 ;; Eawon_2
 Eawon   Nprop   Aoun
 ;; EawAn_1
 EawAn   N-ap    intermittent;endless
 ;; maEuwnap_1
 maEuwn  NapAt   aid;assistance;support
-;; <iEAnap_1
-<iEAn   NapAt   support;aid;assistance
+;; IiEAnap_1
+IiEAn   NapAt   support;aid;assistance
 ;; taEAwun_1
 taEAwun N/At    cooperation
 ;; taEAwuniy~_1
@@ -7412,10 +7412,10 @@ Eaw~ih  IV      make sick
 ;; EAhap_1
 EAh     Napdu   disease;sickness
 EAh     NAt     diseases
-;; >aEowah_1
->aEowah Nel     decrepit;handicapped
+;; OaEowah_1
+OaEowah Nel     decrepit;handicapped
 EawohA' N0_Nh   decrepit;handicapped
-EawohA& Nh      decrepit;handicapped
+EawohAW Nh      decrepit;handicapped
 EawohA} Nhy     decrepit;handicapped
 ;; maEuwh_1
 maEuwh  N-ap    diseased;blighted;mildewed     [[maEuwh/ADJ]]
@@ -7449,7 +7449,7 @@ sotaEow IV_0hwnyn       make howl
 sotaEowaY       IV_0_Pass_yu    be made to howl
 ;; EuwA'_1
 EuwA'   N0_Nh   howling;howls
-EuwA&   Nh      howling;howls
+EuwAW   Nh      howling;howls
 EuwA}   Nhy     howling;howls
 ;; Eaw~A'_1
 Eaw~A'  N0_Nh   Bootes (contellation)
@@ -7470,11 +7470,11 @@ EoyaY   IV_0_Pass_yu    be incapable
 EoyA    IV_0    be incapable
 Eoyay   IV_Ann  be incapable
 Eoya    IV_0hwnyn       be incapable
-;; >aEoyaY_1
->aEoyaY PV_0    thwart
->aEoyA  PV_0h   thwart
->aEoyay PV_Atn  thwart
->aEoy   PV_ttAw thwart
+;; OaEoyaY_1
+OaEoyaY PV_0    thwart
+OaEoyA  PV_0h   thwart
+OaEoyay PV_Atn  thwart
+OaEoy   PV_ttAw thwart
 Eoyiy   IV_0hAnn_yu     thwart
 Eoy     IV_0hwnyn_yu    thwart
 EoyaY   IV_0_Pass_yu    be thwarted
@@ -7485,16 +7485,16 @@ Eay~    N-ap    incapable;powerless
 Eiy~    N       stammer
 ;; EayA'_1
 EayA'   N0_Nh   inability;disease
-EayA&   Nh      inability;disease
+EayAW   Nh      inability;disease
 EayA}   Nhy     inability;disease
 ;; Eayiy~_1
 Eayiy~  N-ap    stammering;incapable     [[Eayiy~/ADJ]]
 ;; Eay~An_1
 Eay~An  N-ap    sick;tired     [[Eay~An/ADJ]]
-;; <iEoyA'_1
-<iEoyA' N0_Nh   weariness;powerlessness
-<iEoyA& Nh      weariness;powerlessness
-<iEoyA} Nhy     weariness;powerlessness
+;; IiEoyA'_1
+IiEoyA' N0_Nh   weariness;powerlessness
+IiEoyAW Nh      weariness;powerlessness
+IiEoyA} Nhy     weariness;powerlessness
 ;; muEoyiy_1
 muEoyiy N0F_Nh  tired;exhausted     [[muEoyiy/ADJ]]
 muEoy   NK      tired;exhausted
@@ -7565,7 +7565,7 @@ EAyad   PV      celebrate
 EAyid   IV_yu   celebrate
 ;; Eiyd_1
 Eiyd    Ndu     feast;holiday;festival
->aEoyAd N       holidays;feasts
+OaEoyAd N       holidays;feasts
 ;; Eiydiy~ap_1
 Eiydiy~ NapAt   gift;present     [[Eiydiy~/NOUN]]
 ;; muEAyadap_1
@@ -7597,16 +7597,16 @@ taEAyar PV      revile each other
 taEAyar IV      revile each other
 ;; EAr_1
 EAr     N       shame;disgrace;infamy
->aEoyAr N       shame;disgrace;infamy
+OaEoyAr N       shame;disgrace;infamy
 ;; Eayor_1
 Eayor   N       onager;wild ass
 Euyuwr  N       onagers;wild asses
->aEoyAr N       onagers;wild asses
+OaEoyAr N       onagers;wild asses
 ;; EiyAr_1
 EiyAr   NduAt   gauge;caliber
 ;; EiyArAt_1
 EiyAr   NAt     shots;volleys
->aEoyir Nap     shots;volleys
+OaEoyir Nap     shots;volleys
 ;; Eay~Ar_1
 Eay~Ar  Nall    loafer;vagabond
 ;; Eay~Arap_1
@@ -7623,10 +7623,10 @@ maEAyir Ndip    faults;vices
 muEAyar NapAt   calibration;standardization
 ;
 ;--- Eys
-;; >aEoyas_1
->aEoyas Nel     beige
+;; OaEoyas_1
+OaEoyas Nel     beige
 EayosA' N0_Nh   beige
-EayosA& Nh      beige
+EayosAW Nh      beige
 EayosA} Nhy     beige
 Eiys    N       beige
 ;
@@ -7653,9 +7653,9 @@ Eay~i$  IV_yu   sustain
 ;; EAya$_1
 EAya$   PV      co-exist
 EAyi$   IV_yu   co-exist
-;; >aEA$_1
->aEA$   PV_V    sustain
->aEa$   PV_C    sustain
+;; OaEA$_1
+OaEA$   PV_V    sustain
+OaEa$   PV_C    sustain
 Eiy$    IV_V_yu sustain
 Ei$     IV_C_yu sustain
 EA$     IV_V_Pass_yu    be sustained
@@ -7687,8 +7687,8 @@ maEAyi$ Ndip    livelihood
 maEiy$iy~       N-ap    livelihood     [[maEiy$iy~/ADJ]]
 ;; muEAya$ap_1
 muEAya$ NapAt   coexistence
-;; <iEA$ap_1
-<iEA$   NapAt   feeding;subsistence;food ration
+;; IiEA$ap_1
+IiEA$   NapAt   feeding;subsistence;food ration
 ;; taEAyu$_1
 taEAyu$ N/At    coexistence;living together
 ;; EA}i$_1
@@ -7726,8 +7726,8 @@ Eil     IV_C_intr       be impoverished
 ;; Eay~al_1
 Eay~al  PV      have a large family
 Eay~il  IV_yu   have a large family
-;; >aEoyal_1
->aEoyal PV      have a large family
+;; OaEoyal_1
+OaEoyal PV      have a large family
 Eoyil   IV_yu   have a large family
 ;; Eay~il_1
 Eay~il  N       family;household
@@ -7756,7 +7756,7 @@ Eayon   N0      Ain;Ein
 ;; Eayon_2
 Eayon   Ndu     eye
 Euyuwn  N       eyes
->aEoyun N       eyes
+OaEoyun N       eyes
 ;; Eayon_3
 Eayon   N       water spring;water source
 Euyuwn  N       water springs;water sources
@@ -7764,8 +7764,8 @@ Euyuwn  N       water springs;water sources
 Eayon   NduAt   ain (Arabic letter)
 ;; EuwayonAt_1
 Euwayon NAt     glasses;spectacles
-;; >aEoyAn_1
->aEoyAn N       notables;VIP's
+;; OaEoyAn_1
+OaEoyAn N       notables;VIP's
 ;; Eayoniy~_1
 Eayoniy~        N-ap    ocular;eye;real     [[Eayoniy~/ADJ]]
 ;; EayonAwiy~_1

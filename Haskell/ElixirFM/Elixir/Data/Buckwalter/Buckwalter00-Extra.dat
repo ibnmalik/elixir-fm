@@ -1,8 +1,8 @@
 ;--- ___
-;; >a_1
->a      FW      A;1st     [[>a/ABBREV]]
-;; <i_1
-<i      FW      I     [[<i/ABBREV]]
+;; Oa_1
+Oa      FW      A;1st     [[Oa/ABBREV]]
+;; Ii_1
+Ii      FW      I     [[Ii/ABBREV]]
 ;; bi_1
 bi      FW      with;by     [[bi/PREP]]
 b       FW      B;2nd;P     [[b/ABBREV]]
@@ -64,33 +64,33 @@ D       FW      D;26th     [[D/ABBREV]]
 Z       FW      ZH;27th     [[Z/ABBREV]]
 ;; g_1
 g       FW      GH;28th;(Greenwich);(piaster);(gram)     [[g/ABBREV]]
-;; >af_1
->af     FW      A.F.     [[Af/ABBREV]]
-; "Al<f by >y"
-;; <if_1
-<if     N0      F.     [[<if/ABBREV]]
-;; >ar_1
->ar     FW      R.     [[>ar/ABBREV]]
-;; <il_2
-<il     FW      L.     [[<il/ABBREV]]
-;; <im_1
-<im     FW      M.     [[<im/ABBREV]]
-;; <in_2
-<in     FW      N.     [[<in/ABBREV]]
+;; Oaf_1
+Oaf     FW      A.F.     [[Af/ABBREV]]
+; "AlIf by Oy"
+;; Iif_1
+Iif     N0      F.     [[Iif/ABBREV]]
+;; Oar_1
+Oar     FW      R.     [[Oar/ABBREV]]
+;; Iil_2
+Iil     FW      L.     [[Iil/ABBREV]]
+;; Iim_1
+Iim     FW      M.     [[Iim/ABBREV]]
+;; Iin_2
+Iin     FW      N.     [[Iin/ABBREV]]
 ; sub-standard orthography
-<in     FW      N.     [[<in/ABBREV]]
-;; <is_1
-<is     FW      S.     [[<is/ABBREV]]
-<is     FW      S.     [[<is/ABBREV]]
-;; <iy_1
-<iy     FW      E.     [[<iy/ABBREV]]
-;; >uw_1
->uw     FW      O.     [[>uw/ABBREV]]
-;; >ay_1
->ay     FW      A.     [[>ay/ABBREV]]
->ay     FW      I.     [[>ay/ABBREV]]
-;; <iyh_1
-<iyh    FW      A.     [[>ay/ABBREV]]
+Iin     FW      N.     [[Iin/ABBREV]]
+;; Iis_1
+Iis     FW      S.     [[Iis/ABBREV]]
+Iis     FW      S.     [[Iis/ABBREV]]
+;; Iiy_1
+Iiy     FW      E.     [[Iiy/ABBREV]]
+;; Ouw_1
+Ouw     FW      O.     [[Ouw/ABBREV]]
+;; Oay_1
+Oay     FW      A.     [[Oay/ABBREV]]
+Oay     FW      I.     [[Oay/ABBREV]]
+;; Iiyh_1
+Iiyh    FW      A.     [[Oay/ABBREV]]
 ;; At$_1
 At$     FW      H.     [[At$/ABBREV]]
 At$     FW      H.     [[At$/ABBREV]]

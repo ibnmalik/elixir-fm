@@ -1,52 +1,52 @@
 ;--- v
 ;; vA'_1
 vA'     N0_Nh   va' (Arabic letter)
-vA&     Nh      va' (Arabic letter)
+vAW     Nh      va' (Arabic letter)
 vA}     Nhy     va' (Arabic letter)
 vA'     NAt     va's (Arabic letter)
 ;
 ;; va}ib-a_1
 va}ib   PV      yawn
-vo>ab   IV      yawn
+voOab   IV      yawn
 ;; tavA'ab_1
 tavA'ab PV      yawn
 tavA'ab IV      yawn
-;; vu&abA'_1
-vu&abA' N0_Nh   yawning;fatigue
-vu&abA& Nh      yawning;fatigue
-vu&abA} Nhy     yawning;fatigue
+;; vuWabA'_1
+vuWabA' N0_Nh   yawning;fatigue
+vuWabAW Nh      yawning;fatigue
+vuWabA} Nhy     yawning;fatigue
 ;
 ;--- vAr
-;; va>ar-a_1
-va>ar   PV      avenge;take revenge
-vo>ar   IV      avenge;take revenge
-;; >avo>ar_1
->avo>ar PV      take revenge;be avenged
+;; vaOar-a_1
+vaOar   PV      avenge;take revenge
+voOar   IV      avenge;take revenge
+;; OavoOar_1
+OavoOar PV      take revenge;be avenged
 vo}ir   IV_yu   take revenge;be avenged
-;; Aiv~a>ar_1
-Aiv~a>ar        PV      take revenge;be avenged
+;; Aiv~aOar_1
+Aiv~aOar        PV      take revenge;be avenged
 v~a}ir  IV      take revenge;be avenged
-;; Aisotavo>ar_1
-Aisotavo>ar     PV      call for vengeance
+;; AisotavoOar_1
+AisotavoOar     PV      call for vengeance
 sotavo}ir       IV      call for vengeance
-;; va>or_1
-va>or   N/At    revenge;retaliation
->avo|r  N       revenge;retaliations
+;; vaOor_1
+vaOor   N/At    revenge;retaliation
+Oavo|r  N       revenge;retaliations
 ; any corpus evidence?:
 ; |vAr  |vAr    N       revenge;retaliations;reprisals
 ;
 ;--- vAl
-;; tava>olal_1
-tava>olal       PV_intr be covered with warts
-tava>olal       IV_intr be covered with warts
-;; vu&oluwl_1
-vu&oluwl        N/ap    wart
+;; tavaOolal_1
+tavaOolal       PV_intr be covered with warts
+tavaOolal       IV_intr be covered with warts
+;; vuWoluwl_1
+vuWoluwl        N/ap    wart
 va|liyl Ndip    warts
 ;
 ;--- vAy
-;; va>aY_1
-va>aY   N0      scars
-va>A    Nh      scars
+;; vaOaY_1
+vaOaY   N0      scars
+vaOA    Nh      scars
 ;
 ;--- vbt
 ;; vabat-u_1
@@ -58,8 +58,8 @@ vobut   IV_intr be firm
 ;; vab~at_1
 vab~at  PV-t    confirm;reinforce
 vab~it  IV_yu   confirm;reinforce
-;; >avobat_1
->avobat PV-t    ascertain;establish
+;; Oavobat_1
+Oavobat PV-t    ascertain;establish
 vobit   IV_yu   ascertain;establish
 vobat   IV_Pass_yu      be ascertained;be established
 ;; tavab~at_1
@@ -78,14 +78,14 @@ vabAtiy~        Nap     stability     [[vabAtiy~/NOUN]]
 vubuwt  N       constancy;permanence
 ;; vubuwtiy~_1
 vubuwtiy~       Nall    evidential;supporting     [[vubuwtiy~/ADJ]]
-;; >avobat_2
->avobat Nel     more/most reliable;steadier
+;; Oavobat_2
+Oavobat Nel     more/most reliable;steadier
 ;; tavobiyt_1
 tavobiyt        NduAt   substantiation;stabilization
-;; <ivobAt_1
-<ivobAt NduAt   confirmation;verification
-;; <ivobAtiy~_1
-<ivobAtiy~      Nall    confirmatory     [[<ivobAtiy~/ADJ]]
+;; IivobAt_1
+IivobAt NduAt   confirmation;verification
+;; IivobAtiy~_1
+IivobAtiy~      Nall    confirmatory     [[IivobAtiy~/ADJ]]
 ;; tavab~ut_1
 tavab~ut        NduAt   ascertainment;verification
 ;; vAbit_1
@@ -155,8 +155,8 @@ voxun   IV-n_intr       be solid;be thick
 ;; vax~an_1
 vax~an  PV-n    solidify;thicken
 vax~in  IV-n_yu solidify;thicken
-;; >avoxan_1
->avoxan PV-n    massacre;wear out
+;; Oavoxan_1
+Oavoxan PV-n    massacre;wear out
 voxin   IV-n_yu massacre;wear out
 voxan   IV-n_Pass_yu    be massacred;be worn out
 ;; vixan_1
@@ -168,7 +168,7 @@ vuxuwn  Nap     thickness;density
 ;; vaxiyn_1
 vaxiyn  Nall    thick;dense
 vuxanA' N0_Nh   thick;dense
-vuxanA& Nh      thick;dense
+vuxanAW Nh      thick;dense
 vuxanA} Nhy     thick;dense
 ;
 ;; vadoy_1
@@ -176,12 +176,12 @@ vadoy   Ndu     breast
 vadaY   N0      breast
 vadA    Nhy     breast
 vaday   NAn_Nayn        breasts
->avodA' N0_Nh   breasts
->avodA& Nh      breasts
->avodA} Nhy     breasts
+OavodA' N0_Nh   breasts
+OavodAW Nh      breasts
+OavodA} Nhy     breasts
 ;; vadoyA'_1
 vadoyA' N0_Nh   buxom
-vadoyA& Nh      buxom
+vadoyAW Nh      buxom
 vadoyA} Nhy     buxom
 ;; vadoyiy~_1
 vadoyiy~        Nall    mammal     [[vadoyiy~/ADJ]]
@@ -240,7 +240,7 @@ varow   Napdu   wealth;abundance
 varaw   NAt     wealth;abundance;riches
 ;; varA'_1
 varA'   N0_Nh   wealth;abundance
-varA&   Nh      wealth;abundance
+varAW   Nh      wealth;abundance
 varA}   Nhy     wealth;abundance
 ;; variy-a_1
 variy   PV_no-w_intr    become wealthy
@@ -248,36 +248,36 @@ var     PV_w_intr       become wealthy
 voraY   IV_0    become wealthy
 voray   IV_Ann  become wealthy
 vora    IV_0hwnyn       become wealthy
-;; >avoraY_1
->avoraY PV_0    enrich;make rich
->avorA  PV_h    enrich;make rich
->avoray PV_Atn  enrich;make rich
->avor   PV_ttAw enrich;make rich
+;; OavoraY_1
+OavoraY PV_0    enrich;make rich
+OavorA  PV_h    enrich;make rich
+Oavoray PV_Atn  enrich;make rich
+Oavor   PV_ttAw enrich;make rich
 voriy   IV_0hAnn_yu     enrich;make rich
 vor     IV_0hwnyn_yu    enrich;make rich
 voraY   IV_0_Pass_yu    be enriched;be made rich
 voray   IV_Ann_Pass_yu  be enriched;be made rich
-;; <ivorA'_1
-<ivorA' N0_Nh   enrichment
-<ivorA& Nh      enrichment
-<ivorA} Nhy     enrichment
-<ivorA' NAn_Nayn        enrichment
-<ivorA} Nayn    enrichment
-<ivorA' NAt     enrichment
-<ivorA' N0_Nh   enrichment
-<ivorA& Nh      enrichment
-<ivorA} Nhy     enrichment
-<ivorA' NAn_Nayn        enrichment
-<ivorA} Nayn    enrichment
-<ivorA' NAt     enrichment
+;; IivorA'_1
+IivorA' N0_Nh   enrichment
+IivorAW Nh      enrichment
+IivorA} Nhy     enrichment
+IivorA' NAn_Nayn        enrichment
+IivorA} Nayn    enrichment
+IivorA' NAt     enrichment
+IivorA' N0_Nh   enrichment
+IivorAW Nh      enrichment
+IivorA} Nhy     enrichment
+IivorA' NAn_Nayn        enrichment
+IivorA} Nayn    enrichment
+IivorA' NAt     enrichment
 ;; varaY_1
 varaY   N0      soil
 varA    Nhy     soil
 ;; variy~_1
 variy~  N/ap    wealthy     [[variy~/ADJ]]
->avoriyA'       N0_Nh   wealthy
->avoriyA&       Nh      wealthy
->avoriyA}       Nhy     wealthy
+OavoriyA'       N0_Nh   wealthy
+OavoriyAW       Nh      wealthy
+OavoriyA}       Nhy     wealthy
 ;
 ;; vuray~ap_1
 vuray~  NapAt   chandelier
@@ -339,7 +339,7 @@ voguw   IV_0hAnn        bleat
 vog     IV_0hwnyn       bleat
 ;; vugA'_1
 vugA'   N0_Nh   bleating
-vugA&   Nh      bleating
+vugAW   Nh      bleating
 vugA}   Nhy     bleating
 ;; vAgiy_1
 vAgiy   N0F     bleating
@@ -351,10 +351,10 @@ vAgiy   NapAt   bleating
 ;--- vfr
 ;; vafar_1
 vafar   Ndu     crupper
->avofAr N       cruppers
+OavofAr N       cruppers
 ;
-;; >avofal_1
->avofal PV      form a sediment
+;; Oavofal_1
+Oavofal PV      form a sediment
 vofil   IV_yu   form a sediment
 ;; vufol_1
 vufol   N       sediment;dregs
@@ -376,8 +376,8 @@ vuqib   PV_Pass be punctured
 ;; vaq~ab_1
 vaq~ab  PV      perforate;light;kindle
 vaq~ib  IV_yu   perforate;light;kindle
-;; >avoqab_1
->avoqab PV      light;kindle
+;; Oavoqab_1
+Oavoqab PV      light;kindle
 voqib   IV_yu   light;kindle
 voqab   IV_Pass_yu      be lit;be kindled
 ;; tavaq~ab_1
@@ -391,7 +391,7 @@ vaqob   N       perforation;piercing;puncture
 ;; vuqob_1
 vuqob   Ndu     perforation;drill hole
 vuquwb  N       perforations;drill holes
->avoqAb N       perforations;drill holes
+OavoqAb N       perforations;drill holes
 ;; vuqobap_1
 vuqob   Napdu   hole;perforation
 vuqab   N       holes;perforations
@@ -399,8 +399,8 @@ vuqab   N       holes;perforations
 viqAb   N       match
 ;; vaq~Abap_1
 vaq~Ab  NapAt   drilling rig;drilling machine
-;; <ivoqAb_1
-<ivoqAb NduAt   lighting;kindling
+;; IivoqAb_1
+IivoqAb NduAt   lighting;kindling
 ;; vAqib_1
 vAqib   Nall    penetrating;piercing
 ;; viqAbAt_1
@@ -441,8 +441,8 @@ voqul   IV_intr be heavy;be burdensome
 ;; vaq~al_1
 vaq~al  PV      burden;pester
 vaq~il  IV_yu   burden;pester
-;; >avoqal_1
->avoqal PV      burden;oppress
+;; Oavoqal_1
+Oavoqal PV      burden;oppress
 voqil   IV_yu   burden;oppress
 voqal   IV_Pass_yu      be burdened;be oppressed
 ;; tavAqal_1
@@ -453,8 +453,8 @@ Aisotavoqal     PV      find heavy;find annoying
 sotavoqil       IV      find heavy;find annoying
 ;; viqol_1
 viqol   Ndu     weight;load
-;; >avoqAl_1
->avoqAl N       weights;loads
+;; OavoqAl_1
+OavoqAl N       weights;loads
 ;; vaqolap_1
 vaqol   Napdu   trouble;burden
 vaqal   NAt     troubles;burdens
@@ -463,11 +463,11 @@ vaqAl   Nap     heaviness;dullness
 ;; vaqiyl_1
 vaqiyl  N/ap    heavy;oppressive
 vuqalA' N0_Nh   heavy;oppressive
-vuqalA& Nh      heavy;oppressive
+vuqalAW Nh      heavy;oppressive
 vuqalA} Nhy     heavy;oppressive
 viqAl   N       heavy;oppressive
-;; >avoqal_2
->avoqal Nel     heavier;more oppressive
+;; Oavoqal_2
+Oavoqal Nel     heavier;more oppressive
 ;; mivoqAl_1
 mivoqAl Ndu     weight;miskal
 mavAqiyl        Ndip    weights;miskals
@@ -485,8 +485,8 @@ mutavAqil       Nall    sluggish;bored
 ;; vakil-a_1
 vakil   PV_intr be bereft;lose a loved one
 vokal   IV_intr be bereft;lose a loved one
-;; >avokal_1
->avokal PV      bereave
+;; Oavokal_1
+Oavokal PV      bereave
 vokil   IV_yu   bereave
 ;; vakal_1
 vakal   N       bereavement
@@ -541,7 +541,7 @@ val~av  PV      triple;treble
 val~iv  IV_yu   triple;treble
 ;; vulov_1
 vulov   Ndu     one third
->avolAv N       thirds
+OavolAv N       thirds
 ;; valAv_1
 valAv   N       three     [[valAv/ADJ]]
 valAv   Nap     three     [[valAv/ADJ]]
@@ -559,11 +559,11 @@ valAvmA}        Nap     three-hundred
 val`vmA}        Nap     three-hundred
 ;; vulAvA'_1
 vulAvA' N0_Nh   Tuesday
-vulAvA& Nh      Tuesday
+vulAvAW Nh      Tuesday
 vulAvA} Nhy     Tuesday
 ; frequent spelling in Al-Hayat:
 vulavA' N0_Nh   Tuesday
-vulavA& Nh      Tuesday
+vulavAW Nh      Tuesday
 vulavA} Nhy     Tuesday
 ;; vulAviy~_1
 vulAviy~        NduAt   trio     [[vulAviy~/NOUN]]
@@ -589,8 +589,8 @@ volaj   IV_intr be delighted;be gladdened
 ;; val~aj_1
 val~aj  PV      freeze
 val~ij  IV_yu   freeze
-;; >avolaj_1
->avolaj PV      snow;freeze
+;; Oavolaj_1
+Oavolaj PV      snow;freeze
 volij   IV_yu   snow;freeze
 ;; taval~aj_1
 taval~aj        PV      freeze
@@ -651,8 +651,8 @@ vumAm   Nap     blade of grass
 ;; vamar-u_1
 vamar   PV      bear fruit
 vomur   IV      bear fruit
-;; >avomar_1
->avomar PV      result
+;; Oavomar_1
+Oavomar PV      result
 vomir   IV_yu   result
 ;; Aisotavomar_1
 Aisotavomar     PV      invest
@@ -660,7 +660,7 @@ sotavomir       IV      invest
 ;; vamar_1
 vamar   Ndu     fruit;result
 vimAr   N       fruits;results
->avomAr N       fruits;results
+OavomAr N       fruits;results
 ;; vamor_1
 vamor   Napdu   fruit;result
 vamar   NAt     fruits;results
@@ -685,8 +685,8 @@ vAmir   Nprop   Thamir
 ;; vamil-a_1
 vamil   PV_intr become drunk
 vomal   IV_intr become drunk
-;; >avomal_1
->avomal PV      make drunk;intoxicate
+;; Oavomal_1
+Oavomal PV      make drunk;intoxicate
 vomil   IV_yu   make drunk;intoxicate
 vomal   IV_Pass_yu      be made drunk;be intoxicated
 ;; vamal_1
@@ -704,13 +704,13 @@ vam~an  PV-n    appraise;estimate
 vam~in  IV-n_yu appraise;estimate
 ;; vaman_1
 vaman   Ndu     value;price
->avomAn N       values;prices
->avomin Nap     values;prices
+OavomAn N       values;prices
+Oavomin Nap     values;prices
 ;; vamiyn_1
 vamiyn  Nall    costly;precious
 vimAn   N       costly;precious
-;; >avoman_1
->avoman Nel     costlier;more valuable
+;; Oavoman_1
+Oavoman Nel     costlier;more valuable
 ;; tavomiyn_1
 tavomiyn        NduAt   appraisal;rating
 ;; mavomuwn_1
@@ -726,7 +726,7 @@ muvoman Nall    valuable
 ;; vumon_1
 vumon   Ndu     one-eighth
 vumon   Ndu     eighth
->avomAn N       eighths
+OavomAn N       eighths
 ;; vumonap_1
 vumon   Napdu   thumna
 ; (Egy. = 0.285 l.; Pal. = 2.25 l.)
@@ -870,11 +870,11 @@ van~iy  IV_0hAnn_yu     fold;double
 van~    IV_0hwnyn_yu    fold;double
 van~aY  IV_0_Pass_yu    be folded;be doubled
 van~ay  IV_Ann_Pass_yu  be folded;be doubled
-;; >avonaY_1
->avonaY PV_0    praise;commend
->avonA  PV_h    praise;commend
->avonay PV_Atn  praise;commend
->avon   PV_ttAw praise;commend
+;; OavonaY_1
+OavonaY PV_0    praise;commend
+OavonA  PV_h    praise;commend
+Oavonay PV_Atn  praise;commend
+Oavon   PV_ttAw praise;commend
 voniy   IV_0hAnn_yu     praise;commend
 von     IV_0hwnyn_yu    praise;commend
 vonaY   IV_0_Pass_yu    be praised;be commended
@@ -908,17 +908,17 @@ sotavonaY       IV_0_Pass_yu    be excepted;be excluded
 vanoy   N       bending;folding
 ;; vinoy_1
 vinoy   Ndu     fold;bend
->avonA' N0_Nh   folds;bends
->avonA& Nh      folds;bends
->avonA} Nhy     folds;bends
-;; >avonA'a_1
->avonA'a        FW-Wa   during     [[>avonA'a/PREP]]
->avonA'i        FW-Wa   during     [[>avonA'i/PREP]]
->avonA'a        FW-Wa-a during     [[>avonA'a/PREP]]
->avonA}i        FW-Wa-i during     [[>avonA}i/PREP]]
->avonA} FW-Wa-o during     [[>avonA}a/PREP]]
-;; >avonA'_2
->avonA' N0      meanwhile;meantime
+OavonA' N0_Nh   folds;bends
+OavonAW Nh      folds;bends
+OavonA} Nhy     folds;bends
+;; OavonA'a_1
+OavonA'a        FW-Wa   during     [[OavonA'a/PREP]]
+OavonA'i        FW-Wa   during     [[OavonA'i/PREP]]
+OavonA'a        FW-Wa-a during     [[OavonA'a/PREP]]
+OavonA}i        FW-Wa-i during     [[OavonA}i/PREP]]
+OavonA} FW-Wa-o during     [[OavonA}a/PREP]]
+;; OavonA'_2
+OavonA' N0      meanwhile;meantime
 ;; vanoyap_1
 vanoy   Napdu   fold;crease
 vanay   NAt     folds;creases
@@ -931,7 +931,7 @@ vaniy~  Napdu   incisor;path     [[vaniy~/NOUN]]
 vanAyA  N0_Nhy  inside;among
 ;; vanA'_1
 vanA'   N0_Nh   appreciation;praise
-vanA&   Nh      appreciation;praise
+vanAW   Nh      appreciation;praise
 vanA}   Nhy     appreciation;praise
 ;; vanA}iy~_1
 vanA}iy~        Nall    laudatory;eulogistic     [[vanA}iy~/ADJ]]
@@ -957,7 +957,7 @@ vawAn   NK      seconds (time span)
 tavoniy NapAt   repetition;praise
 ;; AinovinA'_1
 AinovinA'       N0_Nh   folding;bending
-AinovinA&       Nh      folding;bending
+AinovinAW       Nh      folding;bending
 AinovinA}       Nhy     folding;bending
 AinovinA'       NAn_Nayn        folding;bending
 AinovinA}       Nayn    folding;bending
@@ -966,7 +966,7 @@ AinovinA'       NAt     folding;bending
 AinovinA'       NapAt   bend;curve
 ;; AisotivonA'_1
 AisotivonA'     N0_Nh   exception;exclusion
-AisotivonA&     Nh      exception;exclusion
+AisotivonAW     Nh      exception;exclusion
 AisotivonA}     Nhy     exception;exclusion
 AisotivonA'     NAn_Nayn        exceptions;exclusions
 AisotivonA}     Nayn    exceptions;exclusions
@@ -999,9 +999,9 @@ vub     IV_C    return;come back
 ;; vaw~ab_1
 vaw~ab  PV      reward
 vaw~ib  IV_yu   reward
-;; >avAb_1
->avAb   PV_V    return;compensate;reward
->avab   PV_C    return;compensate;reward
+;; OavAb_1
+OavAb   PV_V    return;compensate;reward
+Oavab   PV_C    return;compensate;reward
 viyb    IV_V_yu return;compensate;reward
 vib     IV_C_yu return;compensate;reward
 vAb     IV_V_Pass_yu    be returned;be compensated;be rewarded
@@ -1017,7 +1017,7 @@ sotavib IV_C    lay claim to;seek reward
 ;; vawob_1
 vawob   Ndu     garment;robe
 viyAb   N       garments;clothes
->avowAb N       garments;clothes
+OavowAb N       garments;clothes
 ;; vawAb_1
 vawAb   N       recompense;reward
 ;; vaw~Ab_1
@@ -1040,12 +1040,12 @@ vur     IV_C    revolt;arise
 ;; vaw~ar_1
 vaw~ar  PV      stir up;revolutionize
 vaw~ir  IV_yu   stir up;revolutionize
-;; >avAr_1
->avAr   PV_V    provoke;agitate
->avar   PV_C    provoke;agitate
+;; OavAr_1
+OavAr   PV_V    provoke;agitate
+Oavar   PV_C    provoke;agitate
 viyr    IV_V_yu provoke;agitate
 vir     IV_C_yu provoke;agitate
->uviyr  PV_V_Pass       be provoked;be agitated
+Ouviyr  PV_V_Pass       be provoked;be agitated
 vAr     IV_V_Pass_yu    be provoked;be agitated
 var     IV_C_Pass_yu    be provoked;be agitated
 ;; AisotavAr_1
@@ -1070,8 +1070,8 @@ vaworawiy~      Nall    revolutionary     [[vaworawiy~/ADJ]]
 vawarAn N       agitation;flare-up
 ;; mavAr_1
 mavAr   Ndu     incentive;motive
-;; <ivArap_1
-<ivAr   NapAt   provocation;agitation
+;; IivArap_1
+IivAr   NapAt   provocation;agitation
 ;; vA}ir_1
 vA}ir   Nall    agitated;exited
 ;; vA}ir_2
@@ -1134,11 +1134,11 @@ vaw~iy  IV_0hAnn_yu     give lodging;provide housing
 vaw~    IV_0hwnyn_yu    give lodging;provide housing
 vaw~aY  IV_0_Pass_yu    be given lodging;be housed
 vaw~ay  IV_Ann_Pass_yu  be given lodging;be housed
-;; >avowaY_1
->avowaY PV_0    reside;lodge
->avowA  PV_h    reside;lodge
->avoway PV_Atn  reside;lodge
->avow   PV_ttAw reside;lodge
+;; OavowaY_1
+OavowaY PV_0    reside;lodge
+OavowA  PV_h    reside;lodge
+Oavoway PV_Atn  reside;lodge
+Oavow   PV_ttAw reside;lodge
 vowiy   IV_0hAnn_yu     reside;lodge
 vow     IV_0hwnyn_yu    reside;lodge
 vowaY   IV_0_Pass_yu    be housed;be lodged

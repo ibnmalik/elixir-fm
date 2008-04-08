@@ -68,87 +68,87 @@ lAguws  Nprop   Lagos
 lAjuws  Nprop   Lagos
 ;
 ;--- lAk
-;; >alo>ak_1
->alo>ak PV       send as a messenger
+;; OaloOak_1
+OaloOak PV       send as a messenger
 lo}ik   IV_yu    send as a messenger
-;; malo>ak_1
-malo>ak Ndu     angel
+;; maloOak_1
+maloOak Ndu     angel
 malAk   Ndu     angel
 malA}ik Ndip    angels
 malA}ik Nap     angels
 ;
 ;--- lAlA
-;; la>ola>_1
-la>ola> PV->    shine;sparkle
-la>ola| PV-|    shine;sparkle
-la>ola& PV_w    shine;sparkle
-la>oli} IV_yu   shine;sparkle
-;; tala>ola>_1
-tala>ola>       PV->_intr       shine;sparkle
-tala>ola|       PV-|_intr       shine;sparkle
-tala>ola&       PV_w_intr       shine;sparkle
-tala>ola>       IV_intr shine;sparkle
-tala>ola|       IV-|    shine;sparkle
-tala>ola&       IV_hwn  shine;sparkle
-tala>ola}       IV_yn   shine;sparkle
-;; la>ola>ap_1
-la>ola> Nap_L   sparkling;glitter
-;; la>olA'_1
-la>olA' N0_Nh_L glitter;gaiety
-la>olA& Nh_L    glitter;gaiety
-la>olA} Nhy_L   glitter;gaiety
-;; lu&olu&_1
-lu&olu& N0_Nh_L pearl
-lu&olu} Nhy_L   pearl
-lu&olu& NAn_Nayn_L      pearls
-lu&olu} Nayn    pearls
-lu&olu& Napdu_L pearl
+;; laOolaO_1
+laOolaO PV-O    shine;sparkle
+laOola| PV-|    shine;sparkle
+laOolaW PV_w    shine;sparkle
+laOoli} IV_yu   shine;sparkle
+;; talaOolaO_1
+talaOolaO       PV-O_intr       shine;sparkle
+talaOola|       PV-|_intr       shine;sparkle
+talaOolaW       PV_w_intr       shine;sparkle
+talaOolaO       IV_intr shine;sparkle
+talaOola|       IV-|    shine;sparkle
+talaOolaW       IV_hwn  shine;sparkle
+talaOola}       IV_yn   shine;sparkle
+;; laOolaOap_1
+laOolaO Nap_L   sparkling;glitter
+;; laOolA'_1
+laOolA' N0_Nh_L glitter;gaiety
+laOolAW Nh_L    glitter;gaiety
+laOolA} Nhy_L   glitter;gaiety
+;; luWoluW_1
+luWoluW N0_Nh_L pearl
+luWolu} Nhy_L   pearl
+luWoluW NAn_Nayn_L      pearls
+luWolu} Nayn    pearls
+luWoluW Napdu_L pearl
 la|li}  Ndip_L  pearls
-;; lu&olu&iy~_1
-lu&olu&iy~      N-ap_L  pearly;pearl colored     [[lu&olu&iy~/ADJ]]
-lu&olu}iy~      N-ap_L  pearly;pearl colored     [[lu&olu}iy~/ADJ]]
-;; tala>olu&_1
-tala>olu&       N/At    shining;radiance
-tala>olu}       Nhy     shining;radiance
-;; mutala>oli}_1
-mutala>oli}     Nall    glittering;sparkling     [[mutala>oli}/ADJ]]
+;; luWoluWiy~_1
+luWoluWiy~      N-ap_L  pearly;pearl colored     [[luWoluWiy~/ADJ]]
+luWolu}iy~      N-ap_L  pearly;pearl colored     [[luWolu}iy~/ADJ]]
+;; talaOoluW_1
+talaOoluW       N/At    shining;radiance
+talaOolu}       Nhy     shining;radiance
+;; mutalaOoli}_1
+mutalaOoli}     Nall    glittering;sparkling     [[mutalaOoli}/ADJ]]
 ;
 ;--- lAm
 ;; lAm_1
 lAm     NduAt_L lam (Arabic letter)
 ;
-;; la>am-a_1
-la>am   PV      mend;repair;bandage
-lo>am   IV      mend;repair;bandage
-;; la&um-u_1
-la&um   PV_intr be ignoble
-lo&um   IV_intr be ignoble
+;; laOam-a_1
+laOam   PV      mend;repair;bandage
+loOam   IV      mend;repair;bandage
+;; laWum-u_1
+laWum   PV_intr be ignoble
+loWum   IV_intr be ignoble
 ;; lA'am_1
 lA'am   PV_intr be suitable;be appropriate;be adequate
 lA}im   IV_intr_yu      be suitable;be appropriate;be adequate
-;; >alo>am_1
->alo>am PV      act shamefully
+;; OaloOam_1
+OaloOam PV      act shamefully
 lo}im   IV_yu   act shamefully
 ;; talA'am_1
 talA'am PV_intr be in agreement with;be in harmony with;be consistent with
 talA'am IV_intr be in agreement with;be in harmony with;be consistent with
-;; Ailota>am_1
-Ailota>am       PV_intr be healed;be mended;be in harmony with
+;; AilotaOam_1
+AilotaOam       PV_intr be healed;be mended;be in harmony with
 lota}im IV_intr be healed;be mended;be in harmony with
-;; la>om_1
-la>om   N_L     bandage;dressing
-;; lu&om_1
-lu&om   N_L     vileness;iniquity
+;; laOom_1
+laOom   N_L     bandage;dressing
+;; luWom_1
+luWom   N_L     vileness;iniquity
 ;; li}om_1
 li}om   N_L     concord;harmony
-;; la>omap_1
-la>om   Nap_L   cuirass;breastplate;armor
+;; laOomap_1
+laOom   Nap_L   cuirass;breastplate;armor
 ;; la}iym_1
 la}iym  N/ap_L  depraved;wicked     [[la}iym/ADJ]]
 li}Am   N_L     depraved;wicked
-lu&amA' N0_Nh_L depraved;wicked
-lu&amA& Nh_L    depraved;wicked
-lu&amA} Nhy_L   depraved;wicked
+luWamA' N0_Nh_L depraved;wicked
+luWamAW Nh_L    depraved;wicked
+luWamA} Nhy_L   depraved;wicked
 ;; mulA'amap_1
 mulA'am Nap     agreement;harmony
 ;; mulA'amap_2
@@ -187,17 +187,17 @@ lAhuwtiy~       Nap_L   theology     [[lAhuwtiy~/NOUN]]
 lAhuwr  N0_L    Lahore
 ;
 ; ;--- lAw
-;; la>owA'_1
-la>owA' N0_Nh_L severe distress;hardship
-la>owA& Nh_L    severe distress;hardship
-la>owA} Nhy_L   severe distress;hardship
+;; laOowA'_1
+laOowA' N0_Nh_L severe distress;hardship
+laOowAW Nh_L    severe distress;hardship
+laOowA} Nhy_L   severe distress;hardship
 ;
 ;; lAwuws_1
 lAwuws  N0_L    Laos
 ;
 ; ;--- lAy
-;; la>oy_1
-la>oy   N0_L    slowness;tediousness
+;; laOoy_1
+laOoy   N0_L    slowness;tediousness
 ;
 ;; lAyok_1
 lAyok   Nprop   Lake
@@ -228,29 +228,29 @@ talab~ab        IV_intr be prepared;get ready
 ;; lub~_1
 lub~    N_L     core;essence;quintessence
 lubuwb  N_L     core;essence;quintessence
->alobAb N       core;essence;quintessence
->alobAb N       reason;intellect
+OalobAb N       core;essence;quintessence
+OalobAb N       reason;intellect
 ;; lab~ap_1
 lab~    NapAt_L throat
 ;; lib~ap_1
 lib~    Nap_L   golden necklace
 ;; labab_1
 labab   N_L     throat
->alobAb N       throats
+OalobAb N       throats
 ;; labiyb_1
 labiyb  N0_L    Labib;Labeeb
 ;; labiyb_2
 labiyb  N/ap_L  sensible;reasonable     [[labiyb/ADJ]]
->alib~A'        N0_Nh   sensible;reasonable
->alib~A&        Nh      sensible;reasonable
->alib~A}        Nhy     sensible;reasonable
+Oalib~A'        N0_Nh   sensible;reasonable
+Oalib~AW        Nh      sensible;reasonable
+Oalib~A}        Nhy     sensible;reasonable
 ;; talobiyb_1
 talobiyb        Ndu     collar
 talAbiyb        Ndip    collars
 ;
 ;--- lbA
-;; labu&ap_1
-labu&   NapAt_L lioness
+;; labuWap_1
+labuW   NapAt_L lioness
 ;
 ;--- lbt
 ;; labotap_1
@@ -293,7 +293,7 @@ talab~ad        IV      cling;adhere
 ;; libod_1
 libod   N_L     felt
 lubuwd  N_L     felt
->alobAd N       felt
+OalobAd N       felt
 ;; labad_1
 labad   N_L     wool
 ;; labid_1
@@ -329,8 +329,8 @@ lab~is  IV_yu   dress;make vague;deceive
 ;; lAbas_1
 lAbas   PV      associate with;accompany
 lAbis   IV_yu   associate with;accompany
-;; >alobas_1
->alobas PV      clothe;dress
+;; Oalobas_1
+Oalobas PV      clothe;dress
 lobis   IV_yu   clothe;dress
 lobas   IV_Pass_yu      be clothed;be dressed
 ;; talab~as_1
@@ -351,7 +351,7 @@ lubuws  N_L     clothes;attire
 libos   Nap_L   manner of dress
 ;; libAs_1
 libAs   N/At_L  clothing;attire;dress
->alobis Nap     clothing;attire;dress
+Oalobis Nap     clothing;attire;dress
 ;; labiys_1
 labiys  N-ap_L  worn;second-hand     [[labiys/ADJ]]
 ;; labuws_1
@@ -371,8 +371,8 @@ talobiys        Nap     suppository
 mulAbas NapAt   association with
 ;; mulAbasAt_1
 mulAbas NAt     circumstances;concomitant phenomena
-;; <ilobAs_1
-<ilobAs N/At    clothing;dressing
+;; IilobAs_1
+IilobAs N/At    clothing;dressing
 ;; talab~us_1
 talab~us        N/At    flagrante delicto
 ;; AilotibAs_1
@@ -467,7 +467,7 @@ labin   NapAt_L cheese
 libon   NAt_L   structural units
 ;; laban_1
 laban   N_L     milk;curdled milk;laban
->alobAn N       dairy products;milk products
+OalobAn N       dairy products;milk products
 libAn   N_L     dairy products;milk products
 ;; labaniy~_1
 labaniy~        N-ap_L  lactic;milk;milk-like     [[labaniy~/ADJ]]
@@ -572,10 +572,10 @@ lovag   IV      lisp;mispronounce
 lavag   N_L     lisp;mispronunciation
 ;; luvogap_1
 luvog   Nap_L   lisping
-;; >alovag_1
->alovag Nel     lisper
+;; Oalovag_1
+Oalovag Nel     lisper
 lavogA' N0_Nh_L lisper
-lavogA& Nh_L    lisper
+lavogAW Nh_L    lisper
 lavogA} Nhy_L   lisper
 luvog   N_L     lispers
 ;
@@ -645,30 +645,30 @@ lajuwj  N-ap_L  obstinate;troublesome     [[lajuwj/ADJ]]
 lAj~    Nall_L  obstinate;troublesome
 ;
 ;--- ljA
-;; laja>-a_1
-laja>   PV->    resort;have recourse;take refuge
+;; lajaO-a_1
+lajaO   PV-O    resort;have recourse;take refuge
 laja|   PV-|    resort;have recourse;take refuge
-laja&   PV_w    resort;have recourse;take refuge
-loja>   IV      resort;have recourse;take refuge
-loja>   IV_wn   resort;have recourse;take refuge
+lajaW   PV_w    resort;have recourse;take refuge
+lojaO   IV      resort;have recourse;take refuge
+lojaO   IV_wn   resort;have recourse;take refuge
 loja|   IV-|    resort;have recourse;take refuge
-loja&   IV_wn   resort;have recourse;take refuge
+lojaW   IV_wn   resort;have recourse;take refuge
 loja}   IV_yn   resort;have recourse;take refuge
-;; laj~a>_1
-laj~a>  PV->    coerce;compel
+;; laj~aO_1
+laj~aO  PV-O    coerce;compel
 laj~a|  PV-|    coerce;compel
-laj~a&  PV_w    coerce;compel
+laj~aW  PV_w    coerce;compel
 laj~i}  IV_yu   coerce;compel
-;; >aloja>_1
->aloja> PV->    shelter;protect
->aloja| PV-|    shelter;protect
->aloja& PV_w    shelter;protect
+;; OalojaO_1
+OalojaO PV-O    shelter;protect
+Oaloja| PV-|    shelter;protect
+OalojaW PV_w    shelter;protect
 loji}   IV_yu   shelter;protect
-loja>   IV_Pass_yu      be sheltered;be protect
-;; Ailotaja>_1
-Ailotaja>       PV->    resort;have recourse;take refuge
+lojaO   IV_Pass_yu      be sheltered;be protect
+;; AilotajaO_1
+AilotajaO       PV-O    resort;have recourse;take refuge
 Ailotaja|       PV-|    resort;have recourse;take refuge
-Ailotaja&       PV_w    resort;have recourse;take refuge
+AilotajaW       PV_w    resort;have recourse;take refuge
 lotaji} IV      resort;have recourse;take refuge
 ;; lujuw'_1
 lujuw'  N0_Nh_L resorting;taking refuge
@@ -676,9 +676,9 @@ lujuw}  Nhy_L   resorting;taking refuge
 ;; lujuw'_2
 lujuw'  N0_Nh_L asylum;refuge
 lujuw}  Nhy_L   asylum;refuge
-;; maloja>_1
-maloja> N0_Nh   shelter;refuge
-maloja& Nh      shelter;refuge
+;; malojaO_1
+malojaO N0_Nh   shelter;refuge
+malojaW Nh      shelter;refuge
 maloja} Nhy     shelter;refuge
 maloja} Nayn    shelters;refuges
 maloja| N-|     shelters;refuges
@@ -686,7 +686,7 @@ maloja  N-|t    shelters;refuges
 malAji} Ndip    shelters;refuges
 ;; AilotijA'_1
 AilotijA'       N0_Nh   resorting;having recourse;asylum
-AilotijA&       Nh      resorting;having recourse;asylum
+AilotijAW       Nh      resorting;having recourse;asylum
 AilotijA}       Nhy     resorting;having recourse;asylum
 AilotijA'       NAn_Nayn        resorting;having recourse;asylums
 AilotijA}       Nayn    resorting;having recourse;asylums
@@ -723,8 +723,8 @@ lojum   IV      sew
 ;; laj~am_1
 laj~am  PV      restrain;bridle
 laj~im  IV_yu   restrain;bridle
-;; >alojam_1
->alojam PV      restrain;bridle
+;; Oalojam_1
+Oalojam PV      restrain;bridle
 lojim   IV_yu   restrain;bridle
 lojam   IV_Pass_yu      be restrained;be bridled
 ;; Ailotajam_1
@@ -732,7 +732,7 @@ Ailotajam       PV_intr be bridled;be harnessed
 lotajim IV_intr be bridled;be harnessed
 ;; lijAm_1
 lijAm   Ndu_L   rein;bridle
->alojim Nap     reins;bridle
+Oalojim Nap     reins;bridle
 lujum   N_L     reins;bridle
 ;; malojuwm_1
 malojuwm        N-ap    bridled;harnessed     [[malojuwm/ADJ]]
@@ -760,9 +760,9 @@ laH~    PV_V_intr       be close
 laHaH   PV_C_intr       be close
 laH~    IV_V_intr       be close
 loHaH   IV_C_intr       be close
-;; >alaH~_1
->alaH~  PV_V    insist;harass;bother
->aloHaH PV_C    insist;harass;bother
+;; OalaH~_1
+OalaH~  PV_V    insist;harass;bother
+OaloHaH PV_C    insist;harass;bother
 liH~    IV_V_yu insist;harass;bother
 loHiH   IV_C_yu insist;harass;bother
 laH~    IV_V_Pass_yu    be insisted;harass;bother
@@ -774,8 +774,8 @@ lAH~    N-ap_L  close;narrow
 laHuwH  N-ap_L  obstinate;persistent     [[laHuwH/ADJ]]
 ;; miloHAH_1
 miloHAH N-ap    obstinate;persistent     [[miloHAH/ADJ]]
-;; <iloHAH_1
-<iloHAH N/At    insistence;importunateness;harassment;harangue
+;; IiloHAH_1
+IiloHAH N/At    insistence;importunateness;harassment;harangue
 ;; muliH~_1
 muliH~  N-ap    urgent;pressing;insistent     [[muliH~/ADJ]]
 ;
@@ -795,8 +795,8 @@ laHaj   N0_L    Lahej;Lahij
 ;; laHad-a_1
 laHad   PV      bury;apostatize
 loHad   IV      bury;apostatize
-;; >aloHad_1
->aloHad PV      apostatize;become an atheist
+;; OaloHad_1
+OaloHad PV      apostatize;become an atheist
 loHid   IV_yu   apostatize;become an atheist
 ;; AilotaHad_1
 AilotaHad       PV      deviate;apostatize
@@ -804,7 +804,7 @@ lotaHid IV      deviate;apostatize
 ;; laHod_1
 laHod   Ndu_L   tomb;grave
 luHuwd  N_L     tombs;graves
->aloHAd N       tombs;graves
+OaloHAd N       tombs;graves
 ;; laHad_1
 laHad   Nprop   Lahad
 ;; laHodiy~_1
@@ -814,10 +814,10 @@ laHodiy~        Nall_L  Lahdites;Lahad partisans     [[laHodiy~/ADJ]]
 laHuwd  Nprop   Lahoud
 ;; laH~Ad_1
 laH~Ad  N_L     gravedigger
-;; <iloHAd_1
-<iloHAd N       atheism;apostasy
-;; <iloHAdiy~_1
-<iloHAdiy~      Nall    atheist;godless     [[<iloHAdiy~/ADJ]]
+;; IiloHAd_1
+IiloHAd N       atheism;apostasy
+;; IiloHAdiy~_1
+IiloHAdiy~      Nall    atheist;godless     [[IiloHAdiy~/ADJ]]
 ;; muloHid_1
 muloHid Nall    atheist;heretic
 malAHid Nap     atheists;heretics
@@ -850,7 +850,7 @@ luwHiZ  PV_Pass be noticed;be observed
 lAHaZ   IV_Pass_yu      be noticed;be observed
 ;; laHoZ_1
 laHoZ   Ndu_L   look;glance
->aloHAZ N       glances;looks
+OaloHAZ N       glances;looks
 ;; laHoZap_1
 laHoZ   Napdu_L moment;instant
 laHaZ   NAt_L   moments;instants
@@ -878,8 +878,8 @@ mulAHaZ N       evident;obvious     [[mulAHaZ/ADJ]]
 ;; laHaf-a_1
 laHaf   PV      wrap;cover
 loHaf   IV      wrap;cover
-;; >aloHaf_1
->aloHaf PV      wrap;cover;importune
+;; OaloHaf_1
+OaloHaf PV      wrap;cover;importune
 loHif   IV_yu   wrap;cover;importune
 loHaf   IV_Pass_yu      be wrapped;be covered
 ;; talaH~af_1
@@ -893,13 +893,13 @@ liHof   N_L     foot of a mountain
 ;; liHAf_1
 liHAf   N_L     cover;blanket;wrap
 luHuf   N_L     covers;blankets;wraps
->aloHif Nap     covers;blankets;wraps
+OaloHif Nap     covers;blankets;wraps
 ;; miloHaf_1
 miloHaf Ndu     cover;blanket;wrap
 miloHaf Napdu   cover;blanket;wrap
 malAHif Ndip    covers;blankets;wraps
-;; <iloHAf_1
-<iloHAf N/At    importunity
+;; IiloHAf_1
+IiloHAf N/At    importunity
 ;; mulotaHif_1
 mulotaHif       Nall    wrapped;covered     [[mulotaHif/ADJ]]
 ;
@@ -910,8 +910,8 @@ loHaq   IV      follow;be attached
 ;; lAHaq_1
 lAHaq   PV      go after;join;persecute
 lAHiq   IV_yu   go after;join;persecute
-;; >aloHaq_1
->aloHaq PV      attach;append;enroll
+;; OaloHaq_1
+OaloHaq PV      attach;append;enroll
 loHiq   IV_yu   attach;append;enroll
 loHaq   IV_Pass_yu      be attached;be appended;be enrolled
 ;; talAHaq_1
@@ -925,19 +925,19 @@ AisotaloHaq     PV      annex
 sotaloHiq       IV      annex
 ;; laHaq_1
 laHaq   N_L     alluvial soil
->aloHAq N       alluvial soil
+OaloHAq N       alluvial soil
 ;; laHaqiy~_1
 laHaqiy~        N-ap_L  alluvial     [[laHaqiy~/ADJ]]
 ;; liHAq_1
 liHAq   N_L     membership;enrollment
 ;; mulAHaqap_1
 mulAHaq NapAt   persecution;pursuit
-;; <iloHAq_1
-<iloHAq N/At    joining;enrollment
-;; <iloHAq_2
-<iloHAq N/At    appending;annexation
-;; <iloHAq_3
-<iloHAq N       causing;inflicting
+;; IiloHAq_1
+IiloHAq N/At    joining;enrollment
+;; IiloHAq_2
+IiloHAq N/At    appending;annexation
+;; IiloHAq_3
+IiloHAq N       causing;inflicting
 ;; AilotiHAq_1
 AilotiHAq       N/At    entering;joining;affiliation
 ;; AisotiloHAq_1
@@ -1029,8 +1029,8 @@ loHan   IV-n    speak ungrammatically
 ;; laH~an_1
 laH~an  PV-n    make music;compose music
 laH~in  IV-n_yu make music;compose music
-;; >aloHan_1
->aloHan PV-n    speak ungrammatically;mispronounce
+;; OaloHan_1
+OaloHan PV-n    speak ungrammatically;mispronounce
 loHin   IV-n_yu speak ungrammatically;mispronounce
 loHan   IV-n_Pass_yu    be mispronounced;be uttered ungrammatically
 ;; laHon_1
@@ -1088,8 +1088,8 @@ laHow   N_L     insult;vilification
 laHoy   N_L     insult;vilification
 ;; laHoy_2
 laHoy   NAn_Nayn_L      jawbone
->aloHiy N0_Nh   jawbones
->aloH   NK      jawbones
+OaloHiy N0_Nh   jawbones
+OaloH   NK      jawbones
 luHiy~  N_L     jawbones
 ;; liHoyap_1
 liHoy   Napdu_L beard
@@ -1101,12 +1101,12 @@ liHA    Nhy_L   beard
 luHay~  Nap_L   Luhaiya
 ;; liHA'_1
 liHA'   N0_Nh_L inner bark
-liHA&   Nh_L    inner bark
+liHAW   Nh_L    inner bark
 liHA}   Nhy_L   inner bark
-;; >aloHaY_1
->aloHaY N0      long-bearded
->aloHA  Nhy     long-bearded
->aloHay NAn_Nayn        long-bearded
+;; OaloHaY_1
+OaloHaY N0      long-bearded
+OaloHA  Nhy     long-bearded
+OaloHay NAn_Nayn        long-bearded
 ;; mulotaHiy_1
 mulotaHiy       N0_Nh   bearded
 mulotaH NK      bearded
@@ -1156,16 +1156,16 @@ maloxuwm        Nall    awkward;clumsy     [[maloxuwm/ADJ]]
 ;--- lxn
 ;; laxan_1
 laxan   N_L     putrid stench
-;; >aloxan_1
->aloxan Nel     stinking
+;; Oaloxan_1
+Oaloxan Nel     stinking
 laxonA' N0_Nh_L stinking
-laxonA& Nh_L    stinking
+laxonAW Nh_L    stinking
 laxonA} Nhy_L   stinking
 luxon   N_L     stinking
-;; >aloxan_2
->aloxan Nel     uncircumcised
+;; Oaloxan_2
+Oaloxan Nel     uncircumcised
 laxonA' N0_Nh_L uncircumcised
-laxonA& Nh_L    uncircumcised
+laxonAW Nh_L    uncircumcised
 laxonA} Nhy_L   uncircumcised
 luxon   N_L     uncircumcised
 ;
@@ -1187,17 +1187,17 @@ lid~    N_L     Lydda
 ladad   N_L     quarrel;dispute
 ;; laduwd_1
 laduwd  Ndu_L   implacable;mortal
-;; >alad~_1
->alad~  Nel     implacable;mortal
+;; Oalad~_1
+Oalad~  Nel     implacable;mortal
 ;; lad~A'_1
 lad~A'  N0_Nh_L implacable;mortal
-lad~A&  Nh_L    implacable;mortal
+lad~AW  Nh_L    implacable;mortal
 lad~A}  Nhy_L   implacable;mortal
 lud~    N_L     implacable;mortal
 lidAd   N_L     implacable;mortal
->alid~A'        N0_Nh   implacable;mortal
->alid~A&        Nh      implacable;mortal
->alid~A}        Nhy     implacable;mortal
+Oalid~A'        N0_Nh   implacable;mortal
+Oalid~AW        Nh      implacable;mortal
+Oalid~A}        Nhy     implacable;mortal
 ;; mutalad~id_1
 mutalad~id      Nall    recalcitrant;rebellious     [[mutalad~id/ADJ]]
 ;
@@ -1210,7 +1210,7 @@ ladog   Nap_L   sting;bit
 ;; ladiyg_1
 ladiyg  N-ap_L  stung;bitten
 ludagA' N0_Nh_L stung;bitten
-ludagA& Nh_L    stung;bitten
+ludagAW Nh_L    stung;bitten
 ludagA} Nhy_L   stung;bitten
 ladogY  N0_L    stung;bitten
 ladogA  Nhy_L   stung;bitten
@@ -1264,9 +1264,9 @@ lo*a*   IV_C_intr       be delightful;be pleasing
 ;; la*~a*_1
 la*~a*  PV      gratify;please
 la*~i*  IV_yu   gratify;please
-;; >ala*~_1
->ala*~  PV_V    gratify;please
->alo*a* PV_C    gratify;please
+;; Oala*~_1
+Oala*~  PV_V    gratify;please
+Oalo*a* PV_C    gratify;please
 li*~    IV_V_yu gratify;please
 lo*i*   IV_C_yu gratify;please
 la*~    IV_V_Pass_yu    be gratified;be pleased
@@ -1400,8 +1400,8 @@ lozaq   IV      adhere;cling
 ;; laz~aq_1
 laz~aq  PV      paste on;stick on
 laz~iq  IV_yu   paste on;stick on
-;; >alozaq_1
->alozaq PV      paste on;stick on
+;; Oalozaq_1
+Oalozaq PV      paste on;stick on
 loziq   IV_yu   paste on;stick on
 lozaq   IV_Pass_yu      be pasted on;be stuck on
 ;; Ailotazaq_1
@@ -1427,10 +1427,10 @@ lozam   IV      be necessary;be required
 ;; lAzam_1
 lAzam   PV      accompany;persevere in
 lAzim   IV_yu   accompany;persevere in
-;; >alozam_1
->alozam PV      obligate;force
+;; Oalozam_1
+Oalozam PV      obligate;force
 lozim   IV_yu   obligate;force
->ulozim PV_Pass be required;be obligatory;be necessary
+Oulozim PV_Pass be required;be obligatory;be necessary
 lozam   IV_Pass_yu      be required;be obligatory;be necessary
 ;; talAzam_1
 talAzam PV_intr be inseparable;be attached to each other
@@ -1450,8 +1450,8 @@ lazam   NAt_L   official concessions
 luzuwm  N_L     requirement;necessity;exigency
 ;; lizAm_1
 lizAm   N_L     necessary;requisite
-;; >alozam_2
->alozam Nel     more/most necessary
+;; Oalozam_2
+Oalozam Nel     more/most necessary
 ;; malozamap_1
 malozam Napdu   section
 malAzim Ndip    sections
@@ -1462,12 +1462,12 @@ malAzim Ndip    vises;presses
 taloziym        N/At    award of open contract
 ;; mulAzamap_1
 mulAzam NapAt   pursuance;close attachment;adhesion
-;; <ilozAm_1
-<ilozAm N/At    coercion;compulsion
-;; <ilozAmiy~_1
-<ilozAmiy~      N-ap    compulsory;obligatory     [[<ilozAmiy~/ADJ]]
-;; <ilozAmiy~ap_1
-<ilozAmiy~      Nap     compulsoriness     [[<ilozAmiy~/NOUN]]
+;; IilozAm_1
+IilozAm N/At    coercion;compulsion
+;; IilozAmiy~_1
+IilozAmiy~      N-ap    compulsory;obligatory     [[IilozAmiy~/ADJ]]
+;; IilozAmiy~ap_1
+IilozAmiy~      Nap     compulsoriness     [[IilozAmiy~/NOUN]]
 ;; AilotizAm_1
 AilotizAm       N/At    commitment;obligation
 ;; AilotizAmiy~_1
@@ -1515,7 +1515,7 @@ lasiyE  N/ap_L  stung
 lasoEaY N0_L    stung
 lasoEA  Nhy_L   stung
 lusaEA' N0_Nh_L stung
-lusaEA& Nh_L    stung
+lusaEAW Nh_L    stung
 lusaEA} Nhy_L   stung
 ;; lAsiE_1
 lAsiE   N-ap_L  stinging;biting;sharp     [[lAsiE/ADJ]]
@@ -1536,19 +1536,19 @@ talAsan IV-n    altercate;exchange words;trade insults
 lasan   N_L     eloquence
 ;; lasin_1
 lasin   N-ap_L  eloquent     [[lasin/ADJ]]
->alosan Nel     eloquent
+Oalosan Nel     eloquent
 lasonA' N0_Nh_L eloquent
-lasonA& Nh_L    eloquent
+lasonAW Nh_L    eloquent
 lasonA} Nhy_L   eloquent
 luson   N_L     eloquent
 ;; lisAn_1
 lisAn   N_L     tongue
->alosin Nap     tongues
->alosun N       tongues
+Oalosin Nap     tongues
+Oalosun N       tongues
 ;; lisAn_2
 lisAn   N_L     language
->alosin Nap     languages
->alosun N       languages
+Oalosin Nap     languages
+Oalosun N       languages
 ;; lisAn_3
 lisAn   N_L     mouthpiece
 ;; lisAniy~_1
@@ -1610,7 +1610,7 @@ talaS~aS        IV_intr become a thief;spy
 ;; liS~_1
 liS~    N/ap_L  thief
 luSuwS  N_L     thieves
->aloSAS N       thieves
+OaloSAS N       thieves
 ;; luSuwSiy~ap_1
 luSuwSiy~       Nap_L   theft;robbery     [[luSuwSiy~/NOUN]]
 ;; mutalaS~iS_1
@@ -1626,8 +1626,8 @@ laS~iq  IV_yu   paste together;stick together
 ;; lASaq_1
 lASaq   PV_intr be next to;be in touch with
 lASiq   IV_intr_yu      be next to;be in touch with
-;; >aloSaq_1
->aloSaq PV      attach;append;join
+;; OaloSaq_1
+OaloSaq PV      attach;append;join
 loSiq   IV_yu   attach;append;join
 loSaq   IV_Pass_yu      be attached;be appended;be joined
 ;; talASaq_1
@@ -1648,8 +1648,8 @@ laSiyq  N-ap_L  clinging;contiguous;close-fitting     [[laSiyq/ADJ]]
 laSuwq  N_L     plaster;adhesive
 ;; mulASaqap_1
 mulASaq NapAt   connection;adhesion;union
-;; <iloSAq_1
-<iloSAq N/At    poster;placard
+;; IiloSAq_1
+IiloSAq N/At    poster;placard
 ;; talASuq_1
 talASuq N/At    cohesion;adhesion;contact
 ;; AilotiSAq_1
@@ -1755,7 +1755,7 @@ laTAf   Nap_L   kindness;politeness;refinement
 laTiyf  N/ap_L  delicate;gentle;polite     [[laTiyf/ADJ]]
 liTAf   N_L     delicate;gentle;polite
 luTafA' N0_Nh_L delicate;gentle;polite
-luTafA& Nh_L    delicate;gentle;polite
+luTafAW Nh_L    delicate;gentle;polite
 luTafA} Nhy_L   delicate;gentle;polite
 ;; laTiyf_2
 laTiyf  N0_L    Latif;Lateef
@@ -1764,8 +1764,8 @@ laTiyf  Napdu_L quip;joke;subtlety
 laTA}if Ndip_L  quips;jokes;subtleties
 ;; laTiyfap_2
 laTiyfap        N0_L    Latifa;Lateefa
-;; >aloTaf_1
->aloTaf Nel     finer/finest;nice/nicest
+;; OaloTaf_1
+OaloTaf Nel     finer/finest;nice/nicest
 ;; mulATafap_1
 mulATaf NapAt   courtesy;friendliness;kindness
 ;; mulATafAt_1
@@ -1835,7 +1835,7 @@ talAEab PV_intr be playful;mock;act fraudulently
 talAEab IV_intr be playful;mock;act fraudulently
 ;; laEob_1
 laEob   N_L     game;sport
->aloEAb N       games;sports
+OaloEAb N       games;sports
 ;; laEobap_1
 laEob   Napdu_L game;match;event
 laEab   NAt_L   games;matches;events
@@ -1853,9 +1853,9 @@ luEAbiy~        N-ap_L  salivary     [[luEAbiy~/ADJ]]
 luEayob NapAt_L little doll
 ;; laEuwb_1
 laEuwb  N-ap_L  coquettish;flirtatious
-;; >uloEuwbap_1
->uloEuwb        Napdu   plaything;prank;trick
->alAEiyb        Ndip    pranks;shadow boxing
+;; OuloEuwbap_1
+OuloEuwb        Napdu   plaything;prank;trick
+OalAEiyb        Ndip    pranks;shadow boxing
 ;; maloEab_1
 maloEab Ndu     playground;sports field;stadium
 malAEib Ndip    playgrounds;sports fields;stadiums
@@ -1899,10 +1899,10 @@ lawAEij Ndip_L  ardent;burning
 lawAEij Ndip_L  ardent love
 ;
 ;--- lEs
-;; >aloEas_1
->aloEas Nel     red-lipped
+;; OaloEas_1
+OaloEas Nel     red-lipped
 laEosA' N0_Nh_L red-lipped
-laEosA& Nh_L    red-lipped
+laEosAW Nh_L    red-lipped
 laEosA} Nhy_L   red-lipped
 ;
 ;--- lEq
@@ -1972,7 +1972,7 @@ lug~Ab  N_L     languid;weary
 ;--- lgd
 ;; lugod_1
 lugod   N_L     chin
->alogAd N       chins
+OalogAd N       chins
 luguwd  N_L     chins
 ;; lugud_1
 lugod   Nprop   Lughud
@@ -1987,13 +1987,13 @@ loguz   IV      equivocate;speak in riddles
 ;; lAgaz_1
 lAgaz   PV      equivocate;speak in riddles
 lAgiz   IV_yu   equivocate;speak in riddles
-;; >alogaz_1
->alogaz PV      equivocate;speak in riddles
+;; Oalogaz_1
+Oalogaz PV      equivocate;speak in riddles
 logiz   IV_yu   equivocate;speak in riddles
 logaz   IV_Pass_yu      be equivocated;be spoken in riddles
 ;; lugoz_1
 lugoz   N_L     mystery;enigma;riddle
->alogAz N       mysteries;enigmas;riddles
+OalogAz N       mysteries;enigmas;riddles
 ;; mulogaz_1
 mulogaz N-ap    mysterious;enigmatic;cryptic     [[mulogaz/ADJ]]
 ;
@@ -2004,13 +2004,13 @@ logaT   IV_intr be noisy;be clamorous
 ;; lag~aT_1
 lag~aT  PV_intr be noisy;be clamorous
 lag~iT  IV_intr_yu      be noisy;be clamorous
-;; >alogaT_1
->alogaT PV_intr be noisy;be clamorous
+;; OalogaT_1
+OalogaT PV_intr be noisy;be clamorous
 logiT   IV_intr_yu      be noisy;be clamorous
 ;; lagoT_1
 lagoT   N_L     noise;clamor
 lagaT   N_L     noise;clamor
->alogAT N       noise;clamor
+OalogAT N       noise;clamor
 ;
 ;--- lgm
 ;; lagam-au_1
@@ -2020,19 +2020,19 @@ logum   IV      plant mines;undermine
 ;; lag~am_1
 lag~am  PV      plant mines;undermine
 lag~im  IV_yu   plant mines;undermine
-;; >alogam_1
->alogam PV      amalgamate;alloy with mercury
+;; Oalogam_1
+Oalogam PV      amalgamate;alloy with mercury
 logim   IV_yu   amalgamate;alloy with mercury
 logam   IV_Pass_yu      be amalgamated;be alloyed with mercury
 ;; lagom_1
 lagom   N_L     mining
 lagam   N_L     mine
 lugom   N_L     mine
->alogAm N       mines
-;; <ilogAm_1
-<ilogAm N/At    mining;laying mines
-;; <ilogAm_2
-<ilogAm N       amalgamation
+OalogAm N       mines
+;; IilogAm_1
+IilogAm N/At    mining;laying mines
+;; IilogAm_2
+IilogAm N       amalgamation
 ;; maloguwm_1
 maloguwm        N-ap    mined     [[maloguwm/ADJ]]
 ;; mulag~am_1
@@ -2060,11 +2060,11 @@ lag     PV_w    speak nonsense
 logaY   IV_0    speak nonsense
 logay   IV_Ann  speak nonsense
 loga    IV_0hwnyn       speak nonsense
-;; >alogaY_1
->alogaY PV_0    cancel;abrogate;terminate
->alogA  PV_h    cancel;abrogate;terminate
->alogay PV_Atn  cancel;abrogate;terminate
->alog   PV_ttAw cancel;abrogate;terminate
+;; OalogaY_1
+OalogaY PV_0    cancel;abrogate;terminate
+OalogA  PV_h    cancel;abrogate;terminate
+Oalogay PV_Atn  cancel;abrogate;terminate
+Oalog   PV_ttAw cancel;abrogate;terminate
 logiy   IV_0hAnn_yu     cancel;abrogate;terminate
 log     IV_0hwnyn_yu    cancel;abrogate;terminate
 logaY   IV_0_Pass_yu    be cancelled;be abrogated;be terminated
@@ -2079,13 +2079,13 @@ lug     NapAt_L language
 lugawiy~        N-ap_L  language;linguistic     [[lugawiy~/ADJ]]
 ;; lugawiy~_2
 lugawiy~        Nall_L  linguist     [[lugawiy~/ADJ]]
-;; <ilogA'_1
-<ilogA' N0_Nh   cancellation;abrogation;repeal
-<ilogA& Nh      cancellation;abrogation;repeal
-<ilogA} Nhy     cancellation;abrogation;repeal
-<ilogA' NAn_Nayn        cancellation;abrogation;repeal
-<ilogA} Nayn    cancellation;abrogation;repeal
-<ilogA' NAt     cancellation;abrogation;repeal
+;; IilogA'_1
+IilogA' N0_Nh   cancellation;abrogation;repeal
+IilogAW Nh      cancellation;abrogation;repeal
+IilogA} Nhy     cancellation;abrogation;repeal
+IilogA' NAn_Nayn        cancellation;abrogation;repeal
+IilogA} Nayn    cancellation;abrogation;repeal
+IilogA' NAt     cancellation;abrogation;repeal
 ;; lAgiy_1
 lAgiy   N0F     abrogated;null;void     [[lAgiy/ADJ]]
 lAg     NK      abrogated;null;void
@@ -2119,10 +2119,10 @@ lotaf~  IV_V    turn;be wrapped
 lotafif IV_C    turn;be wrapped
 ;; laf~_1
 laf~    N_L     winding;wrapping;turning
->alofAf N       wraps
+OalofAf N       wraps
 ;; lif~_1
 lif~    N_L     thicket;undergrowth
->alofAf N       thicket;undergrowth
+OalofAf N       thicket;undergrowth
 ;; laf~ap_1
 laf~    NapAt_L circuit;turning;
 ;; laf~ap_2
@@ -2134,10 +2134,10 @@ lafA}if Ndip_L  wrappers;covers
 lafiyf  N_L     gathering;crowd
 ;; lafiyfap_1
 lafiyf  Napdu_L bundle;package
-;; >alaf~_1
->alaf~  Nel     stout;short
+;; Oalaf~_1
+Oalaf~  Nel     stout;short
 laf~A'  N0_Nh_L stout;short
-laf~A&  Nh_L    stout;short
+laf~AW  Nh_L    stout;short
 laf~A}  Nhy_L   stout;short
 ;; milaf~_1
 milaf~  Ndu     file;dossier
@@ -2168,8 +2168,8 @@ lofit   IV      turn;attract
 ;; laf~at_1
 laf~at  PV-t    turn;attract
 laf~it  IV_yu   turn;attract
-;; >alofat_1
->alofat PV-t    turn;attract
+;; Oalofat_1
+Oalofat PV-t    turn;attract
 lofit   IV_yu   turn;attract
 lofat   IV_Pass_yu      be turned;be attracted
 ;; talaf~at_1
@@ -2192,14 +2192,14 @@ lafat   NAt_L   turnarounds;about-faces
 lafAt   N-ap_L  sullen;ill-tempered     [[lafAt/ADJ]]
 ;; lafuwt_1
 lafuwt  N-ap_L  sullen;ill-tempered     [[lafuwt/ADJ]]
-;; >alofat_2
->alofat Nel     left-handed
+;; Oalofat_2
+Oalofat Nel     left-handed
 lafotA' N0_Nh_L left-handed
-lafotA& Nh_L    left-handed
+lafotAW Nh_L    left-handed
 lafotA} Nhy_L   left-handed
 lufot   N_L     left-handed
-;; <ilofAt_1
-<ilofAt N       directing
+;; IilofAt_1
+IilofAt N       directing
 ;; AilotifAt_1
 AilotifAt       N/At    turning;attention
 ;; AilotifAtap_1
@@ -2250,7 +2250,7 @@ talaf~aZ        PV      pronounce;express
 talaf~aZ        IV      pronounce;express
 ;; lafoZ_1
 lafoZ   Ndu_L   word;term;expression
->alofAZ N       words;terms;expressions
+OalofAZ N       words;terms;expressions
 ;; lafoZAF_1
 lafoZ   NF      verbatim;literally     [[lafoZ/ADV]]
 ;; lafoZiy~_1
@@ -2305,11 +2305,11 @@ talafolaf       IV_intr be enveloped;be wrapped
 lafolaf Nap_L   wrapping;enveloping
 ;
 ;--- lfy
-;; >alofaY_1
->alofaY PV_0    find
->alofA  PV_h    find
->alofay PV_Atn  find
->alof   PV_ttAw find
+;; OalofaY_1
+OalofaY PV_0    find
+OalofA  PV_h    find
+Oalofay PV_Atn  find
+Oalof   PV_ttAw find
 lofiy   IV_0hAnn_yu     find
 lof     IV_0hwnyn_yu    find
 lofaY   IV_0_Pass_yu    be found
@@ -2347,7 +2347,7 @@ talaq~ab        PV_intr be called;be addressed as
 talaq~ab        IV_intr be called;be addressed as
 ;; laqab_1
 laqab   Ndu_L   title;nickname
->aloqAb N       titles;nicknames
+OaloqAb N       titles;nicknames
 ;; mulaq~ab_1
 mulaq~ab        Nall    nicknamed;called     [[mulaq~ab/ADJ]]
 ;
@@ -2403,7 +2403,7 @@ luqAT   Nap_L   gleaned;leftover
 ;; laqiyT_1
 laqiyT  N-ap_L  picked up;found;foundling
 luqaTA' N0_Nh_L picked up;found;foundlings
-luqaTA& Nh_L    picked up;found;foundlings
+luqaTAW Nh_L    picked up;found;foundlings
 luqaTA} Nhy_L   picked up;found;foundlings
 ;; miloqaT_1
 miloqaT Ndu     tweezers;pliers;pincers
@@ -2460,8 +2460,8 @@ loqam   IV      eat;swallow
 ;; laq~am_1
 laq~am  PV      feed;supply;load;upload
 laq~im  IV_yu   feed;supply;load;upload
-;; >aloqam_1
->aloqam PV      make swallow;feed
+;; Oaloqam_1
+Oaloqam PV      make swallow;feed
 loqim   IV_yu   make swallow;feed
 loqam   IV_Pass_yu      be fed
 ;; Ailotaqam_1
@@ -2528,16 +2528,16 @@ lAqiy   IV_0hAnn_yu     meet;encounter
 lAq     IV_0hwnyn_yu    meet;encounter
 lAqaY   IV_0_Pass_yu    be met;be encountered
 lAqay   IV_Ann_Pass_yu  be met;be encountered
-;; >aloqaY_1
->aloqaY PV_0    deliver;throw;arrest
->aloqA  PV_h    deliver;throw;arrest
->aloqay PV_Atn  deliver;throw;arrest
->aloq   PV_ttAw deliver;throw;arrest
+;; OaloqaY_1
+OaloqaY PV_0    deliver;throw;arrest
+OaloqA  PV_h    deliver;throw;arrest
+Oaloqay PV_Atn  deliver;throw;arrest
+Oaloq   PV_ttAw deliver;throw;arrest
 loqiy   IV_0hAnn_yu     deliver;throw;arrest
 loq     IV_0hwnyn_yu    deliver;throw;arrest
 loqaY   IV_0_Pass_yu    be delivered;be thrown
 loqay   IV_Ann_Pass_yu  be delivered;be thrown
->uloqiy PV_Pass-a       be arrested
+Ouloqiy PV_Pass-a       be arrested
 ;; talaq~aY_1
 talaq~aY        PV_0    receive
 talaq~A PV_h    receive
@@ -2575,27 +2575,27 @@ sotaloqaY       IV_0_Pass_yu    lie down
 ;; laqaY_1
 laqaY   N0_L    offal
 laqA    Nhy_L   offal
->aloqA' N0_Nh   offal
->aloqA& Nh      offal
->aloqA} Nhy     offal
+OaloqA' N0_Nh   offal
+OaloqAW Nh      offal
+OaloqA} Nhy     offal
 ;; luqoyaY_1
 luqoyA  Ndip_L  encounter
 luqoy   Nap_L   encounter
 liqAy   Nap_L   encounter
 ;; liqA'_1
 liqA'   N0_Nh_L meeting;encounter;interview
-liqA&   Nh_L    meeting;encounter;interview
+liqAW   Nh_L    meeting;encounter;interview
 liqA}   Nhy_L   meeting;encounter;interview
 liqA'   NAn_Nayn_L      meetings;encounters;interviews
 liqA}   Nayn    meetings;encounters;interviews
 liqA'   NAt_L   meetings;encounters;interviews
 ;; liqA'a_1
 liqA'a  FW-Wa   in compensation or exchange for     [[liqA'a/PREP]]
-;; >uloqiy~ap_1
->uloqiy~        Napdu   riddle;conundrum     [[>uloqiy~/NOUN]]
+;; Ouloqiy~ap_1
+Ouloqiy~        Napdu   riddle;conundrum     [[Ouloqiy~/NOUN]]
 ;; tiloqA'_1
 tiloqA' N0_Nh   opposite;in front of
-tiloqA& Nh      opposite;in front of
+tiloqAW Nh      opposite;in front of
 tiloqA} Nhy     opposite;in front of
 ;; tiloqA}iy~_1
 tiloqA}iy~      N-ap    automatic;spontaneous     [[tiloqA}iy~/ADJ]]
@@ -2612,13 +2612,13 @@ malAq   NK      meeting places;junctures;intersections
 ;; mulAqAp_1
 mulAqA  Napdu   encounter;meeting;reception
 mulAqay NAt     encounters;meetings;receptions
-;; <iloqA'_1
-<iloqA' N0_Nh   delivering;throwing;arresting
-<iloqA& Nh      delivering;throwing;arresting
-<iloqA} Nhy     delivering;throwing;arresting
-<iloqA' NAn_Nayn        delivering;throwing;arresting
-<iloqA} Nayn    delivering;throwing;arresting
-<iloqA' NAt     delivering;throwing;arresting
+;; IiloqA'_1
+IiloqA' N0_Nh   delivering;throwing;arresting
+IiloqAW Nh      delivering;throwing;arresting
+IiloqA} Nhy     delivering;throwing;arresting
+IiloqA' NAn_Nayn        delivering;throwing;arresting
+IiloqA} Nayn    delivering;throwing;arresting
+IiloqA' NAt     delivering;throwing;arresting
 ;; talaq~iy_1
 talaq~iy        N0_Nh   receiving;receipt;acquisition
 talaq~  NK      receiving;receipt;acquisition
@@ -2631,7 +2631,7 @@ talAqiy NAn_Nayn        meeting;encounter
 talAqiy NAt     meeting;encounter
 ;; AilotiqA'_1
 AilotiqA'       N0_Nh   meeting;reunion
-AilotiqA&       Nh      meeting;reunion
+AilotiqAW       Nh      meeting;reunion
 AilotiqA}       Nhy     meeting;reunion
 AilotiqA'       NAn_Nayn        meetings;reunions
 AilotiqA}       Nayn    meetings;reunions
@@ -2672,7 +2672,7 @@ lotak~  IV_V_intr       be crowded
 lotakik IV_C_intr       be crowded
 ;; lak~_1
 lak~    Ndu_L   lac;one hundred thousand
->alokAk N       lac;one hundred thousand
+OalokAk N       lac;one hundred thousand
 lukuwk  N_L     lac;one hundred thousand
 ;; luk~_1
 luk~    N_L     lac;resin
@@ -2680,41 +2680,41 @@ luk~    N_L     lac;resin
 lak~    N_L     punching
 ;
 ;--- lkA
-;; laka>-a_1
-laka>   PV->    strike;hit
+;; lakaO-a_1
+lakaO   PV-O    strike;hit
 laka|   PV-|    strike;hit
-laka&   PV_w    strike;hit
-loka>   IV      strike;hit
+lakaW   PV_w    strike;hit
+lokaO   IV      strike;hit
 loka|   IV-|    strike;hit
-loka&   IV_wn   strike;hit
+lokaW   IV_wn   strike;hit
 loka}   IV_yn   strike;hit
 ;; laki}-a_1
 laki}   PV_intr remain
-loka>   IV      remain
+lokaO   IV      remain
 loka|   IV-|    remain
-loka&   IV_wn   remain
+lokaW   IV_wn   remain
 loka}   IV_yn   remain
-;; talak~a>_1
-talak~a>        PV->_intr       be slow;hesitate
+;; talak~aO_1
+talak~aO        PV-O_intr       be slow;hesitate
 talak~a|        PV-|_intr       be slow;hesitate
-talak~a&        PV_w_intr       be slow;hesitate
-talak~a>        IV_intr be slow;hesitate
+talak~aW        PV_w_intr       be slow;hesitate
+talak~aO        IV_intr be slow;hesitate
 talak~a|        IV-|    be slow;hesitate
-talak~a&        IV_wn   be slow;hesitate
+talak~aW        IV_wn   be slow;hesitate
 talak~a}        IV_yn   be slow;hesitate
 ;; lako'_1
 lako'   N0_L    striking
 lako}   NF_Nhy  striking
-;; laka>_1
-laka>   N0_Nh_L remaining
-laka&   Nh_L    remaining
+;; lakaO_1
+lakaO   N0_Nh_L remaining
+lakaW   Nh_L    remaining
 laka}   Nhy_L   remaining
-;; luka>ap_1
-luka>   Nap_L   hesitant;slow
-;; luka>ap_2
-luka>   Nap_L   defaulting;in arrears
-;; talak~u&_1
-talak~u&        N/At    loafing;loitering
+;; lukaOap_1
+lukaO   Nap_L   hesitant;slow
+;; lukaOap_2
+lukaO   Nap_L   defaulting;in arrears
+;; talak~uW_1
+talak~uW        N/At    loafing;loitering
 talak~u}        Nhy     loafing;loitering
 ;
 ;--- lkz
@@ -2737,7 +2737,7 @@ lukosumburg     N0_L    Luxembourg
 ;; lakiyE_1
 lakiyE  N/ap_L  wicked;depraved     [[lakiyE/ADJ]]
 lukaEA' N0_Nh_L wicked;depraved
-lukaEA& Nh_L    wicked;depraved
+lukaEAW Nh_L    wicked;depraved
 lukaEA} Nhy_L   wicked;depraved
 ;; lakAEap_1
 lakAE   Nap_L   wickedness;depravity
@@ -2781,14 +2781,14 @@ lukon   Nap_L   incorrect pronunciation
 lakAn   Nap_L   stammer;speech defect
 ;; lukuwnap_1
 lukuwn  Nap_L   stammer;speech defect
-;; >alokan_1
->alokan Nel     stammerer;stutterer
+;; Oalokan_1
+Oalokan Nel     stammerer;stutterer
 lakonA' N0_Nh_L stammerer;stutterer
-lakonA& Nh_L    stammerer;stutterer
+lakonAW Nh_L    stammerer;stutterer
 lakonA} Nhy_L   stammerer;stutterer
 ;; lakan_1
 ; lkn   lakan   Ndu_L   basin
->alokAn N       basins
+OalokAn N       basins
 ;
 ;--- lm(1)
 ;; lam_1
@@ -2804,9 +2804,9 @@ lam~    PV_V    collect;put in order
 lamam   PV_C    collect;put in order
 lum~    IV_V    collect;put in order
 lomum   IV_C    collect;put in order
-;; >alam~_1
->alam~  PV_V_intr       be acquainted with
->alomam PV_C_intr       be acquainted with
+;; Oalam~_1
+Oalam~  PV_V_intr       be acquainted with
+Oalomam PV_C_intr       be acquainted with
 lim~    IV_V_intr_yu    be acquainted with
 lomim   IV_C_intr_yu    be acquainted with
 ;; Ailotam~_1
@@ -2828,8 +2828,8 @@ lamam   N_L     touch of insanity
 limAm   NF      occasionally;rarely     [[limAm/ADV]]
 ;; lam~Am_1
 lam~Am  N_L     wild thyme
-;; <ilomAm_1
-<ilomAm N/At    knowledge;acquaintance
+;; IilomAm_1
+IilomAm N/At    knowledge;acquaintance
 ;; lAm~ap_1
 lAm~    Nap_L   evil eye
 ;; malomuwm_1
@@ -2874,8 +2874,8 @@ lam~iH  IV_yu   allude;refer
 ;; lAmaH_1
 lAmaH   PV      glance at
 lAmiH   IV_yu   glance at
-;; >alomaH_1
->alomaH PV      mention;refer
+;; OalomaH_1
+OalomaH PV      mention;refer
 lomiH   IV_yu   mention;refer
 lomaH   IV_Pass_yu      be mentioned;be referred
 ;; talAmaH_1
@@ -2982,8 +2982,8 @@ lomaE   IV      shine;glitter
 ;; lam~aE_1
 lam~aE  PV      polish;make shine
 lam~iE  IV_yu   polish;make shine
-;; >alomaE_1
->alomaE PV      wave;point out
+;; OalomaE_1
+OalomaE PV      wave;point out
 lomiE   IV_yu   wave;point out
 lomaE   IV_Pass_yu      be waved;be pointed out
 ;; AilotamaE_1
@@ -2999,16 +2999,16 @@ lumoE   Nap_L   shine;glitter
 limAE   N_L     shine;glitter
 ;; lam~AE_1
 lam~AE  N-ap_L  shining;glossy     [[lam~AE/ADJ]]
-;; >alomaE_2
->alomaE Nel     bright;shrewd
-;; >alomaEiy~_1
->alomaEiy~      Nall    bright;shrewd     [[>alomaEiy~/ADJ]]
-;; >alomaEiy~ap_1
->alomaEiy~      Nap     cleverness;shrewdness     [[>alomaEiy~/NOUN]]
+;; OalomaE_2
+OalomaE Nel     bright;shrewd
+;; OalomaEiy~_1
+OalomaEiy~      Nall    bright;shrewd     [[OalomaEiy~/ADJ]]
+;; OalomaEiy~ap_1
+OalomaEiy~      Nap     cleverness;shrewdness     [[OalomaEiy~/NOUN]]
 ;; talomiyE_1
 talomiyE        N/At    polishing
-;; <ilomAE_1
-<ilomAE N/At    allusion
+;; IilomAE_1
+IilomAE N/At    allusion
 ;; lAmiE_1
 lAmiE   N/ap_L  splendid;illustrious
 lawAmiE Ndip_L  splendid;illustrious
@@ -3057,8 +3057,8 @@ lohab   IV      burn;flame
 ;; lah~ab_1
 lah~ab  PV      kindle;provoke;inflame
 lah~ib  IV_yu   kindle;provoke;inflame
-;; >alohab_1
->alohab PV      kindle;provoke;inflame
+;; Oalohab_1
+Oalohab PV      kindle;provoke;inflame
 lohib   IV_yu   kindle;provoke;inflame
 lohab   IV_Pass_yu      be kindled;be provoked;be inflamed
 ;; talah~ab_1
@@ -3078,8 +3078,8 @@ lahobAn Ndip_L  thirsty     [[lahobAn/ADJ]]
 lahobaY N0_L    thirsty
 lahobA  Nhy_L   thirsty
 lihAb   N_L     thirsty
-;; <ilohAb_1
-<ilohAb N/At    kindling;provoking;inflaming
+;; IilohAb_1
+IilohAb N/At    kindling;provoking;inflaming
 ;; AilotihAb_1
 AilotihAb       N/At    inflammation
 ;; AilotihAbiy~_1
@@ -3106,8 +3106,8 @@ lAhiv   Nall_L  panting;out of breath     [[lAhiv/ADJ]]
 ;; lahij-a_1
 lahij   PV_intr be dedicated;be fond of
 lohaj   IV_intr be dedicated;be fond of
-;; >alohaj_1
->alohaj PV      praise
+;; Oalohaj_1
+Oalohaj PV      praise
 lohij   IV_yu   praise
 lohaj   IV_Pass_yu      be praised
 ;; AilohAj~_1
@@ -3179,8 +3179,8 @@ laholiq IV_intr_yu      be thirsty
 ;; lahim-a_1
 lahim   PV      consume;destroy;devour
 loham   IV      consume;destroy;devour
-;; >aloham_1
->aloham PV      inspire;make swallow
+;; Oaloham_1
+Oaloham PV      inspire;make swallow
 lohim   IV_yu   inspire;make swallow
 loham   IV_Pass_yu      be inspired;be made to swallow
 ;; talah~am_1
@@ -3198,10 +3198,10 @@ lahom   N_L     consuming;destroying;devouring
 lahim   N-ap_L  greedy
 ;; lahuwm_1
 lahuwm  N-ap_L  greedy
-;; <ilohAm_1
-<ilohAm N/At    inspiration
-;; <ilohAm_2
-<ilohAm Nprop   Ilham
+;; IilohAm_1
+IilohAm N/At    inspiration
+;; IilohAm_2
+IilohAm Nprop   Ilham
 ;; mulohim_1
 mulohim NapAt   inspiration
 ;; AilotihAm_1
@@ -3245,11 +3245,11 @@ lAhiy   IV_0hAnn_yu     approach
 lAh     IV_0hwnyn_yu    approach
 lAhaY   IV_0_Pass_yu    be approached
 lAhay   IV_Ann_Pass_yu  be approached
-;; >alohaY_1
->alohaY PV_0    entertain;delight;distract
->alohA  PV_h    entertain;delight;distract
->alohay PV_Atn  entertain;delight;distract
->aloh   PV_ttAw entertain;delight;distract
+;; OalohaY_1
+OalohaY PV_0    entertain;delight;distract
+OalohA  PV_h    entertain;delight;distract
+Oalohay PV_Atn  entertain;delight;distract
+Oaloh   PV_ttAw entertain;delight;distract
 lohiy   IV_0hAnn_yu     entertain;delight;distract
 loh     IV_0hwnyn_yu    entertain;delight;distract
 lohaY   IV_0_Pass_yu    be entertained;be delighted;be distracted
@@ -3286,7 +3286,7 @@ lahaw   NAt_L   uvulas
 lahay   NAt_L   uvulas
 luhiy~  N_L     uvula
 lihA'   N0_Nh_L uvula
-lihA&   Nh_L    uvula
+lihAW   Nh_L    uvula
 lihA}   Nhy_L   uvula
 ;; lahawiy~_1
 lahawiy~        N-ap_L  uvular     [[lahawiy~/ADJ]]
@@ -3350,7 +3350,7 @@ luwbiy  N0_L    lobby
 ;; luwbiyA_1
 luwbiyA N0_L    green beans;string beans
 luwbiyA'        N0_Nh_L green beans;string beans
-luwbiyA&        Nh_L    green beans;string beans
+luwbiyAW        Nh_L    green beans;string beans
 luwbiyA}        Nhy_L   green beans;string beans
 ;
 ;--- lwt
@@ -3386,7 +3386,7 @@ lotAv   IV_V_intr       be muddy;be murky
 lotav   IV_C_intr       be muddy;be murky
 ;; lawov_1
 lawov   N_L     dirt
->alowAv N       dirt
+OalowAv N       dirt
 ;; lawovap_1
 lawov   Nap_L   stain;spot
 ;; luwvap_1
@@ -3409,7 +3409,7 @@ mulotAv N-ap    disturbed;deranged     [[mulotAv/ADJ]]
 ;--- lwj
 ;; luwj_1
 luwj    N/At_L  lodge
->alowAj N       lodges
+OalowAj N       lodges
 ;
 ;--- lwjs
 ;; luwjisotiy~_1
@@ -3428,9 +3428,9 @@ luH     IV_C    appear;seem
 ;; law~aH_1
 law~aH  PV      wave;gesticulate;insinuate
 law~iH  IV_yu   wave;gesticulate;insinuate
-;; >alAH_1
->alAH   PV_V    appear
->alaH   PV_C    appear
+;; OalAH_1
+OalAH   PV_V    appear
+OalaH   PV_C    appear
 liyH    IV_V_yu appear
 liH     IV_C_yu appear
 lAH     IV_V_Pass_yu    be waved
@@ -3438,8 +3438,8 @@ laH     IV_C_Pass_yu    be waved
 ;; lawoH_1
 lawoH   Ndu_L   blackboard;slate
 lawoH   NapAt_L blackboard;slate
->alowAH N       blackboards;slates
->alAwiyH        Ndip    blackboards;slates
+OalowAH N       blackboards;slates
+OalAwiyH        Ndip    blackboards;slates
 ;; lawoHap_1
 lawoH   NapAt_L painting;picture
 ;; law~AH_1
@@ -3669,9 +3669,9 @@ lum     IV_C    blame;censure
 ;; law~am_1
 law~am  PV      reprimand
 law~im  IV_yu   reprimand
-;; >alAm_1
->alAm   PV_V    blame;censure
->alam   PV_C    blame;censure
+;; OalAm_1
+OalAm   PV_V    blame;censure
+Oalam   PV_C    blame;censure
 liym    IV_V_yu blame;censure
 lim     IV_C_yu blame;censure
 lAm     IV_V_Pass_yu    be blamed;be censured
@@ -3744,12 +3744,12 @@ talaw~an        PV-n_intr       be colored;be colorful
 talaw~an        IV-n_intr       be colored;be colorful
 ;; lawon_1
 lawon   Ndu_L   color;tint
->alowAn N       colors;tints
+OalowAn N       colors;tints
 ;; lawon_2
 lawon   Ndu_L   type;sort
->alowAn N       types;sorts
-;; >alowAn_1
->alowAn N0      Alwan
+OalowAn N       types;sorts
+;; OalowAn_1
+OalowAn N0      Alwan
 ;; lawoniy~_1
 lawoniy~        N-ap_L  colorful;colored     [[lawoniy~/ADJ]]
 ;; talowiyn_1
@@ -3820,11 +3820,11 @@ law~iy  IV_0hAnn_yu     bend;contort;distort
 law~    IV_0hwnyn_yu    bend;contort;distort
 law~aY  IV_0_Pass_yu    be bent;be contorted;be distorted
 law~ay  IV_Ann_Pass_yu  be bent;be contorted;be distorted
-;; >alowaY_1
->alowaY PV_0    twist;bend;curve
->alowA  PV_h    twist;bend;curve
->aloway PV_Atn  twist;bend;curve
->alow   PV_ttAw twist;bend;curve
+;; OalowaY_1
+OalowaY PV_0    twist;bend;curve
+OalowA  PV_h    twist;bend;curve
+Oaloway PV_Atn  twist;bend;curve
+Oalow   PV_ttAw twist;bend;curve
 lowiy   IV_0hAnn_yu     twist;bend;curve
 low     IV_0hwnyn_yu    twist;bend;curve
 lowaY   IV_0_Pass_yu    be twisted;be bent;be curved
@@ -3847,16 +3847,16 @@ lotawaY IV_0_Pass_yu    be bent;be twisted;be distorted
 ;; lawaY_1
 lawaY   N0_L    hardship;pain
 lawA    Nhy_L   hardship;pain
->alowA' N0_Nh   hardship;pain
->alowA& Nh      hardship;pain
->alowA} Nhy     hardship;pain
+OalowA' N0_Nh   hardship;pain
+OalowAW Nh      hardship;pain
+OalowA} Nhy     hardship;pain
 ;; liwaY_1
 liwaY   N0_L    curvature
 liwA    Nhy_L   curvature
->alowA' N0_Nh   curvatures
->alowA& Nh      curvatures
->alowA} Nhy     curvatures
->alowiy Nap     curvatures
+OalowA' N0_Nh   curvatures
+OalowAW Nh      curvatures
+OalowA} Nhy     curvatures
+Oalowiy Nap     curvatures
 ;; lay~_1
 lay~    N_L     bending;twisting
 ;; lay~_2
@@ -3869,17 +3869,17 @@ liwaY   N0_L    turns;curves
 liwA    Nhy_L   turns;curves
 ;; liwA'_1
 liwA'   N0_Nh_L banner;flag
-liwA&   Nh_L    banner;flag
+liwAW   Nh_L    banner;flag
 liwA}   Nhy_L   banner;flag
 ;; liwA'_2
 liwA'   N0_Nh_L major general;brigade
-liwA&   Nh_L    major general;brigade
+liwAW   Nh_L    major general;brigade
 liwA}   Nhy_L   major general;brigade
 ;; liwA'_3
 liwA'   N0_Nh_L district;province
-liwA&   Nh_L    district;province
+liwAW   Nh_L    district;province
 liwA}   Nhy_L   district;province
->alowiy Nap     districts;provinces
+Oalowiy Nap     districts;provinces
 ;; liwA'_4
 liwA'   N0_L    Liwa
 ;; milowaY_1
@@ -3890,7 +3890,7 @@ malAwiy N0_Nh   spanners;wrenches
 malAw   NK      spanners;wrenches
 ;; AilotiwA'_1
 AilotiwA'       N0_Nh   curvature;bend;unevenness
-AilotiwA&       Nh      curvature;bend;unevenness
+AilotiwAW       Nh      curvature;bend;unevenness
 AilotiwA}       Nhy     curvature;bend;unevenness
 AilotiwA'       NAn_Nayn        curvature;bend;unevenness
 AilotiwA}       Nayn    curvature;bend;unevenness
@@ -3939,7 +3939,7 @@ liyA    Nprop   Leah
 ;
 ;; liy~A'_1
 liy~A'  N0_Nh_L shark
-liy~A&  Nh_L    shark
+liy~AW  Nh_L    shark
 liy~A}  Nhy_L   shark
 ;
 ;--- lyAn
@@ -4041,52 +4041,52 @@ lasotun~a       FW-Wa   not + you [fem.pl.] (you are not)    [[laso/NEG_PART+tun
 lasotu  FW-Wa   not + I (I am not)                   [[laso/NEG_PART+tu/PVSUFF_SUBJ:1S]]
 lasonA  FW-Wa   not + we (we are not)                [[laso/NEG_PART+nA/PVSUFF_SUBJ:1P]]
 ;
-; >lys    >alayosa        FW-Wa   is + not + he/it              [[>a/INTERROG_PART+layos/NEG_PART+a/PVSUFF_SUBJ:3MS]]
-; >lysA   >alayosA        FW-Wa   are + not + they [masc.du.]   [[>a/INTERROG_PART+layos/NEG_PART+A/PVSUFF_SUBJ:3MD]]
-; >lyswA  >alayosuwA      FW-Wa   are + not + they              [[>a/INTERROG_PART+layos/NEG_PART+uwA/PVSUFF_SUBJ:3MP]]
+; Olys    Oalayosa        FW-Wa   is + not + he/it              [[Oa/INTERROG_PART+layos/NEG_PART+a/PVSUFF_SUBJ:3MS]]
+; OlysA   OalayosA        FW-Wa   are + not + they [masc.du.]   [[Oa/INTERROG_PART+layos/NEG_PART+A/PVSUFF_SUBJ:3MD]]
+; OlyswA  OalayosuwA      FW-Wa   are + not + they              [[Oa/INTERROG_PART+layos/NEG_PART+uwA/PVSUFF_SUBJ:3MP]]
 ; ;
-; >lyst   >alayosat       FW-Wa   is/are + not + it/she/they    [[>a/INTERROG_PART+layos/NEG_PART+at/PVSUFF_SUBJ:3FS]]
-; >lystA  >alayosatA      FW-Wa   are + not + they [fem.du.]    [[>a/INTERROG_PART+layos/NEG_PART+atA/PVSUFF_SUBJ:3FD]]
-; >lsn    >alasona        FW-Wa   are + not + they [fem.]       [[>a/INTERROG_PART+laso/NEG_PART+na/PVSUFF_SUBJ:3FP]]
+; Olyst   Oalayosat       FW-Wa   is/are + not + it/she/they    [[Oa/INTERROG_PART+layos/NEG_PART+at/PVSUFF_SUBJ:3FS]]
+; OlystA  OalayosatA      FW-Wa   are + not + they [fem.du.]    [[Oa/INTERROG_PART+layos/NEG_PART+atA/PVSUFF_SUBJ:3FD]]
+; Olsn    Oalasona        FW-Wa   are + not + they [fem.]       [[Oa/INTERROG_PART+laso/NEG_PART+na/PVSUFF_SUBJ:3FP]]
 ; ;
-; >lst    >alasota        FW-Wa   are + not + you [masc.sg.]    [[>a/INTERROG_PART+laso/NEG_PART+ta/PVSUFF_SUBJ:2MS]]
-; >lstmA  >alasotumA      FW-Wa   are + not + you [masc.du.]    [[>a/INTERROG_PART+laso/NEG_PART+tumA/PVSUFF_SUBJ:2MD]]
-; >lstm   >alasotum       FW-Wa   are + not + you [masc.pl.]    [[>a/INTERROG_PART+laso/NEG_PART+tum/PVSUFF_SUBJ:2MP]]
+; Olst    Oalasota        FW-Wa   are + not + you [masc.sg.]    [[Oa/INTERROG_PART+laso/NEG_PART+ta/PVSUFF_SUBJ:2MS]]
+; OlstmA  OalasotumA      FW-Wa   are + not + you [masc.du.]    [[Oa/INTERROG_PART+laso/NEG_PART+tumA/PVSUFF_SUBJ:2MD]]
+; Olstm   Oalasotum       FW-Wa   are + not + you [masc.pl.]    [[Oa/INTERROG_PART+laso/NEG_PART+tum/PVSUFF_SUBJ:2MP]]
 ; ;
-; >lst    >alasoti        FW-Wa   are + not + you [fem.sg.]     [[>a/INTERROG_PART+laso/NEG_PART+ti/PVSUFF_SUBJ:2FS]]
-; >lstmA  >alasotumA      FW-Wa   are + not + you [fem.du.]     [[>a/INTERROG_PART+laso/NEG_PART+tumA/PVSUFF_SUBJ:2FD]]
-; >lstn   >alasotun~a     FW-Wa   are + not + you [fem.pl.]     [[>a/INTERROG_PART+laso/NEG_PART+tun~a/PVSUFF_SUBJ:2FP]]
+; Olst    Oalasoti        FW-Wa   are + not + you [fem.sg.]     [[Oa/INTERROG_PART+laso/NEG_PART+ti/PVSUFF_SUBJ:2FS]]
+; OlstmA  OalasotumA      FW-Wa   are + not + you [fem.du.]     [[Oa/INTERROG_PART+laso/NEG_PART+tumA/PVSUFF_SUBJ:2FD]]
+; Olstn   Oalasotun~a     FW-Wa   are + not + you [fem.pl.]     [[Oa/INTERROG_PART+laso/NEG_PART+tun~a/PVSUFF_SUBJ:2FP]]
 ; ;
-; >lst    >alasotu        FW-Wa   am + not + I                  [[>a/INTERROG_PART+laso/NEG_PART+tu/PVSUFF_SUBJ:1S]]
-; >lsnA   >alasonA        FW-Wa   are + not + we                [[>a/INTERROG_PART+laso/NEG_PART+nA/PVSUFF_SUBJ:1P]]
+; Olst    Oalasotu        FW-Wa   am + not + I                  [[Oa/INTERROG_PART+laso/NEG_PART+tu/PVSUFF_SUBJ:1S]]
+; OlsnA   OalasonA        FW-Wa   are + not + we                [[Oa/INTERROG_PART+laso/NEG_PART+nA/PVSUFF_SUBJ:1P]]
 ; ;
-; Alys    >alayosa        FW-Wa   is + not + he/it              [[>a/INTERROG_PART+layos/NEG_PART+a/PVSUFF_SUBJ:3MS]]
-; AlysA   >alayosA        FW-Wa   are + not + they [masc.du.]   [[>a/INTERROG_PART+layos/NEG_PART+A/PVSUFF_SUBJ:3MD]]
-; AlyswA  >alayosuwA      FW-Wa   are + not + they              [[>a/INTERROG_PART+layos/NEG_PART+uwA/PVSUFF_SUBJ:3MP]]
+; Alys    Oalayosa        FW-Wa   is + not + he/it              [[Oa/INTERROG_PART+layos/NEG_PART+a/PVSUFF_SUBJ:3MS]]
+; AlysA   OalayosA        FW-Wa   are + not + they [masc.du.]   [[Oa/INTERROG_PART+layos/NEG_PART+A/PVSUFF_SUBJ:3MD]]
+; AlyswA  OalayosuwA      FW-Wa   are + not + they              [[Oa/INTERROG_PART+layos/NEG_PART+uwA/PVSUFF_SUBJ:3MP]]
 ; ;
-; Alyst   >alayosat       FW-Wa   is/are + not + it/she/they  	[[>a/INTERROG_PART+layos/NEG_PART+at/PVSUFF_SUBJ:3FS]]
-; AlystA  >alayosatA      FW-Wa   are + not + they [fem.du.]    [[>a/INTERROG_PART+layos/NEG_PART+atA/PVSUFF_SUBJ:3FD]]
-; Alsn    >alasona        FW-Wa   are + not + they [fem.]       [[>a/INTERROG_PART+laso/NEG_PART+na/PVSUFF_SUBJ:3FP]]
+; Alyst   Oalayosat       FW-Wa   is/are + not + it/she/they  	[[Oa/INTERROG_PART+layos/NEG_PART+at/PVSUFF_SUBJ:3FS]]
+; AlystA  OalayosatA      FW-Wa   are + not + they [fem.du.]    [[Oa/INTERROG_PART+layos/NEG_PART+atA/PVSUFF_SUBJ:3FD]]
+; Alsn    Oalasona        FW-Wa   are + not + they [fem.]       [[Oa/INTERROG_PART+laso/NEG_PART+na/PVSUFF_SUBJ:3FP]]
 ; ;
-; Alst    >alasota        FW-Wa   are + not + you [masc.sg.]    [[>a/INTERROG_PART+laso/NEG_PART+ta/PVSUFF_SUBJ:2MS]]
-; AlstmA  >alasotumA      FW-Wa   are + not + you [masc.du.]    [[>a/INTERROG_PART+laso/NEG_PART+tumA/PVSUFF_SUBJ:2MD]]
-; Alstm   >alasotum       FW-Wa   are + not + you [masc.pl.]    [[>a/INTERROG_PART+laso/NEG_PART+tum/PVSUFF_SUBJ:2MP]]
+; Alst    Oalasota        FW-Wa   are + not + you [masc.sg.]    [[Oa/INTERROG_PART+laso/NEG_PART+ta/PVSUFF_SUBJ:2MS]]
+; AlstmA  OalasotumA      FW-Wa   are + not + you [masc.du.]    [[Oa/INTERROG_PART+laso/NEG_PART+tumA/PVSUFF_SUBJ:2MD]]
+; Alstm   Oalasotum       FW-Wa   are + not + you [masc.pl.]    [[Oa/INTERROG_PART+laso/NEG_PART+tum/PVSUFF_SUBJ:2MP]]
 ; ;
-; Alst    >alasoti        FW-Wa   are + not + you [fem.sg.]     [[>a/INTERROG_PART+laso/NEG_PART+ti/PVSUFF_SUBJ:2FS]]
-; AlstmA  >alasotumA      FW-Wa   are + not + you [fem.du.]     [[>a/INTERROG_PART+laso/NEG_PART+tumA/PVSUFF_SUBJ:2FD]]
-; Alstn   >alasotun~a     FW-Wa   are + not + you [fem.pl.]     [[>a/INTERROG_PART+laso/NEG_PART+tun~a/PVSUFF_SUBJ:2FP]]
+; Alst    Oalasoti        FW-Wa   are + not + you [fem.sg.]     [[Oa/INTERROG_PART+laso/NEG_PART+ti/PVSUFF_SUBJ:2FS]]
+; AlstmA  OalasotumA      FW-Wa   are + not + you [fem.du.]     [[Oa/INTERROG_PART+laso/NEG_PART+tumA/PVSUFF_SUBJ:2FD]]
+; Alstn   Oalasotun~a     FW-Wa   are + not + you [fem.pl.]     [[Oa/INTERROG_PART+laso/NEG_PART+tun~a/PVSUFF_SUBJ:2FP]]
 ;
-; Alst    >alasotu        FW-Wa   am + not + I                  [[>a/INTERROG_PART+laso/NEG_PART+tu/PVSUFF_SUBJ:1S]]
-; AlsnA   >alasonA        FW-Wa   are + not + we                [[>a/INTERROG_PART+laso/NEG_PART+nA/PVSUFF_SUBJ:1P]]
+; Alst    Oalasotu        FW-Wa   am + not + I                  [[Oa/INTERROG_PART+laso/NEG_PART+tu/PVSUFF_SUBJ:1S]]
+; AlsnA   OalasonA        FW-Wa   are + not + we                [[Oa/INTERROG_PART+laso/NEG_PART+nA/PVSUFF_SUBJ:1P]]
 ;
 ;--- lys(2)
 ;; layis-a_1
 layis   PV_intr be valiant
 loyas   IV_intr be valiant
-;; >aloyas_1
->aloyas Nel     valiant
+;; Oaloyas_1
+Oaloyas Nel     valiant
 layosA' N0_Nh_L valiant
-layosA& Nh_L    valiant
+layosAW Nh_L    valiant
 layosA} Nhy_L   valiant
 liys    N_L     valiant
 ;
@@ -4108,7 +4108,7 @@ talay~af        PV_intr become fibrous;form fibers
 talay~af        IV_intr become fibrous;form fibers
 ;; liyf_1
 liyf    N_L     fibers;synthetic fibers
->aloyAf N       fibers;synthetic fibers
+OaloyAf N       fibers;synthetic fibers
 ;; liyfap_1
 liyf    Napdu_L fiber
 ;; liyfiy~_1
@@ -4145,8 +4145,8 @@ liyaq   N_L     putty;clay
 liyAq   Nap_L   capability;competence
 ;; liyAqap_2
 liyAq   Nap_L   good behavior
-;; >aloyaq_1
->aloyaq Nel     more/most suitable/proper;better/best adapted
+;; Oaloyaq_1
+Oaloyaq Nel     more/most suitable/proper;better/best adapted
 ;; lA}iq_1
 lA}iq   Nall_L  suitable;appropriate     [[lA}iq/ADJ]]
 ;
@@ -4206,9 +4206,9 @@ lay~in  IV-n_yu soften;placate;moderate
 ;; lAyan_1
 lAyan   PV-n_intr       be lenient with;be kind to
 lAyin   IV-n_yu be lenient with;be kind to
-;; >alAn_1
->alAn   PV_V    soften;placate;moderate
->alan   PV_Cn   soften;placate;moderate
+;; OalAn_1
+OalAn   PV_V    soften;placate;moderate
+Oalan   PV_Cn   soften;placate;moderate
 liyn    IV_V_yu soften;placate;moderate
 lin     IV-n_yu soften;placate;moderate
 lAn     IV_V_Pass_yu    be softened;be placated
@@ -4220,13 +4220,13 @@ talay~an        IV-n    become flexible;soften
 liyn    N_L     flexibility;tractability
 ;; lay~in_1
 lay~in  Nall_L  flexible;yielding     [[lay~in/ADJ]]
->aloyinA'       N0_Nh   flexible;yielding
->aloyinA&       Nh      flexible;yielding
->aloyinA}       Nhy     flexible;yielding
+OaloyinA'       N0_Nh   flexible;yielding
+OaloyinAW       Nh      flexible;yielding
+OaloyinA}       Nhy     flexible;yielding
 ;; luyuwnap_1
 luyuwn  Nap_L   flexibility;tractability;tenderness
-;; >aloyan_1
->aloyan Nel     softer/softest;more/most tender
+;; Oaloyan_1
+Oaloyan Nel     softer/softest;more/most tender
 ;; mulAyanap_1
 mulAyan NapAt   kindness;friendliness
 ;; talay~un_1

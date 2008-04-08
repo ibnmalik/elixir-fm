@@ -78,7 +78,7 @@ infixr 4 ->-
 infix  4 -<-
 
 
--- Fischer (2001), par. 42 ('i' > 'iy is reflected in patterns)
+-- Fischer (2002), par. 42 ('i' > 'iy is reflected in patterns)
 
 (->-) :: Prefix -> String -> String
 
@@ -245,7 +245,7 @@ class Eq a => Rules a where
     auxiesDouble  _ _ = []
 
 
-auxies  = ["-i", "-a"]          -- Fischer (2001), par. 53
+auxies  = ["-i", "-a"]          -- Fischer (2002), par. 53
 auxies' = ["-i", "-a", "-u"]
 
 

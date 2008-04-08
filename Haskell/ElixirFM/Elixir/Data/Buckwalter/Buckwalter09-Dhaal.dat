@@ -9,15 +9,15 @@ ka*A    FW-Wa   such;thus     [[ka*A/CONJ]]
 h`ka*A  FW-Wa   thus;as such     [[h`ka*A/CONJ]]
 ;
 ;--- *Ab
-;; Aisota*o>ab_1
-Aisota*o>ab     PV_intr be wolflike;be lupine
+;; Aisota*oOab_1
+Aisota*oOab     PV_intr be wolflike;be lupine
 sota*o}ib       IV_intr be wolflike;be lupine
 ;; *i}ob_1
 *i}ob   Ndu     wolf;jackal
 *i}Ab   N       wolves;jackals
-*u&obAn N       wolves;jackals
-;; *u&Abap_1
-*u&Ab   Napdu   lock;strand;tuft
+*uWobAn N       wolves;jackals
+;; *uWAbap_1
+*uWAb   Napdu   lock;strand;tuft
 ;
 ;--- *Ak
 ; (see also --- *lk)
@@ -41,7 +41,7 @@ tayonika        FW-WaBi that     [[tayonika/DEM_PRON_FS]]
 ;; *ubAb_1
 *ubAb   N       flies
 *ubAb   Napdu   fly
->a*ib~  Nap     flies
+Oa*ib~  Nap     flies
 *ib~An  N       flies
 ;; *ubAbap_1
 *ubAb   NapAt   fly;tip
@@ -119,7 +119,7 @@ muta*abo*ib     Nall    oscillating     [[muta*abo*ib/ADJ]]
 ;--- *Hl
 ;; *aHol_1
 *aHol   N       resentment;vindictiveness
->a*oHAl N       resentment;vindictiveness
+Oa*oHAl N       resentment;vindictiveness
 *uHuwl  N       resentment;vindictiveness
 ;
 ;--- *xr
@@ -131,7 +131,7 @@ Aid~axar        PV      store;hoard;save
 d~axir  IV      store;hoard;save
 ;; *uxor_1
 *uxor   N       stored;hoarded
->a*oxAr N       stored;hoarded
+Oa*oxAr N       stored;hoarded
 ;; *axiyrap_1
 *axiyr  Napdu   ammunition;treasure;provisions
 *axA}ir Ndip    ammunition;treasure;provisions
@@ -183,13 +183,13 @@ mud~axir        Nall    saver;savings account holder
 *arAriy~        N       descendants;offspring
 ;
 ;--- *rA
-;; *ara>-a_1
-*ara>   PV->    create;sow;seed
+;; *araO-a_1
+*araO   PV-O    create;sow;seed
 *ara|   PV-|    create;sow;seed
-*ara&   PV_w    create;sow;seed
-*ora>   IV      create;sow;seed
+*araW   PV_w    create;sow;seed
+*oraO   IV      create;sow;seed
 *ora|   IV-|    create;sow;seed
-*ora&   IV_wn   create;sow;seed
+*oraW   IV_wn   create;sow;seed
 *ora}   IV_yn   create;sow;seed
 ;
 ;--- *rb
@@ -221,11 +221,11 @@ no*ariE IV      advance;intervene
 *aroE   N       power;capability
 ;; *irAE_1
 *irAE   Ndu     arm
->a*oruE N       arms
+Oa*oruE N       arms
 *uroEAn N       arms
 ;; *irAE_2
 *irAE   Ndu     lever;crank
->a*oruE N       levers;cranks
+Oa*oruE N       levers;cranks
 *uroEAn N       levers;cranks
 ;; *ariyE_1
 *ariyE  N       rapid;sweeping     [[*ariyE/ADJ]]
@@ -257,8 +257,8 @@ sota*orif       IV      let flow;shed
 *araq   PV      drop excrement (bird)
 *oriq   IV      drop excrement (bird)
 *oruq   IV      drop excrement (bird)
-;; >a*oraq_1
->a*oraq PV      drop excrement (bird)
+;; Oa*oraq_1
+Oa*oraq PV      drop excrement (bird)
 *oriq   IV_yu   drop excrement (bird)
 ;; *aroq_1
 *aroq   N       bird droppings;bird excrement
@@ -309,11 +309,11 @@ ma*Ar   NK      winnows
 *ar~    IV_0hwnyn_yu    disperse;scatter;atomize
 *ar~aY  IV_0_Pass_yu    be dispersed;be scattered;be atomized
 *ar~ay  IV_Ann_Pass_yu  be dispersed;be scattered;be atomized
-;; >a*oraY_1
->a*oraY PV_0    disperse;scatter
->a*orA  PV_h    disperse;scatter
->a*oray PV_Atn  disperse;scatter
->a*or   PV_ttAw disperse;scatter
+;; Oa*oraY_1
+Oa*oraY PV_0    disperse;scatter
+Oa*orA  PV_h    disperse;scatter
+Oa*oray PV_Atn  disperse;scatter
+Oa*or   PV_ttAw disperse;scatter
 *oriy   IV_0hAnn_yu     disperse;scatter
 *or     IV_0hwnyn_yu    disperse;scatter
 *oraY   IV_0_Pass_yu    be dispersed;be scattered
@@ -350,8 +350,8 @@ ta*oriy Nap     atomization
 ;; *aEir-a_1
 *aEir   PV_intr be frightened
 *oEar   IV_intr be frightened
-;; >a*oEar_1
->a*oEar PV      frighten
+;; Oa*oEar_1
+Oa*oEar PV      frighten
 *oEir   IV_yu   frighten
 *oEar   IV_Pass_yu      be frightened
 ;; ta*aE~ar_1
@@ -379,14 +379,14 @@ no*aEir IV      panic
 ;; *aEin-a_1
 *aEin   PV-n    submit;yield;obey
 *oEan   IV-n    submit;yield;obey
-;; >a*oEan_1
->a*oEan PV-n    submit;yield;obey
+;; Oa*oEan_1
+Oa*oEan PV-n    submit;yield;obey
 *oEin   IV-n_yu submit;yield;obey
 *oEan   IV-n_Pass_yu    be submitted to;be yielded to;be obeyed
 ;; mu*AEanap_1
 mu*AEan NapAt   submissiveness;compliance;obedience
-;; <i*oEAn_1
-<i*oEAn NduAt   submissiveness;compliance;obedience
+;; Ii*oEAn_1
+Ii*oEAn NduAt   submissiveness;compliance;obedience
 ;; mu*oEin_1
 mu*oEin Nall    submissive;compliant;obedient     [[mu*oEin/ADJ]]
 ;; mi*oEAn_1
@@ -399,7 +399,7 @@ mi*oEAn N       tractable;compliant;obedient     [[mi*oEAn/ADJ]]
 ;--- *qn
 ;; *aqon_1
 *aqon   Ndu     chin;beard
->a*oqAn N       chins;beards
+Oa*oqAn N       chins;beards
 *uquwn  N       chins;beards
 ;
 ;--- *kr
@@ -413,8 +413,8 @@ mi*oEAn N       tractable;compliant;obedient     [[mi*oEAn/ADJ]]
 ;; *Akar_1
 *Akar   PV      negotiate
 *Akir   IV_yu   negotiate
-;; >a*okar_1
->a*okar PV      remind
+;; Oa*okar_1
+Oa*okar PV      remind
 *okir   IV_yu   remind
 *okar   IV_Pass_yu      be reminded
 ;; ta*ak~ar_1
@@ -431,8 +431,8 @@ Aisota*okar     PV      memorize;recall
 sota*okir       IV      memorize;recall
 ;; *ikor_1
 *ikor   N       mention;citation;memory
-;; >a*okAr_1
->a*okAr N       dhikr (Sufi ritual)
+;; Oa*okAr_1
+Oa*okAr N       dhikr (Sufi ritual)
 ;; *akar_1
 *akar   N       male
 *ukuwr  N       males
@@ -505,11 +505,11 @@ mu*ak~ir        NAt     memoirs;diary
 *ak~    IV_0hwnyn_yu    kindle;set ablaze
 *ak~aY  IV_0_Pass_yu    be kindled;be set ablaze
 *ak~ay  IV_Ann_Pass_yu  be kindled;be set ablaze
-;; >a*okaY_1
->a*okaY PV_0    kindle;make blaze
->a*okA  PV_h    kindle;make blaze
->a*okay PV_Atn  kindle;make blaze
->a*ok   PV_ttAw kindle;make blaze
+;; Oa*okaY_1
+Oa*okaY PV_0    kindle;make blaze
+Oa*okA  PV_h    kindle;make blaze
+Oa*okay PV_Atn  kindle;make blaze
+Oa*ok   PV_ttAw kindle;make blaze
 *okiy   IV_0hAnn_yu     kindle;make blaze
 *ok     IV_0hwnyn_yu    kindle;make blaze
 *okaY   IV_0_Pass_yu    be kindled;be set ablaze
@@ -526,27 +526,27 @@ sota*okaY       IV_0    flare up;blaze
 *akA    N0      flaring up;blazing
 ;; *akA'_1
 *akA'   N0_Nh   cleverness
-*akA&   Nh      cleverness
+*akAW   Nh      cleverness
 *akA}   Nhy     cleverness
 ;; *akiy~_1
 *akiy~  N/ap    clever     [[*akiy~/ADJ]]
->a*okiyA'       N0_Nh   clever
->a*okiyA&       Nh      clever
->a*okiyA}       Nhy     clever
+Oa*okiyA'       N0_Nh   clever
+Oa*okiyAW       Nh      clever
+Oa*okiyA}       Nhy     clever
 ;; *akiy~_2
 *akiy~  N-ap    delicious     [[*akiy~/ADJ]]
-;; >a*okaY_2
->a*okaY N0      smarter/smartest;more/most delicious
->a*okA  Nhy     smarter/smartest;more/most delicious
->a*okay NAn_Nayn        smartest;most delicious
+;; Oa*okaY_2
+Oa*okaY N0      smarter/smartest;more/most delicious
+Oa*okA  Nhy     smarter/smartest;more/most delicious
+Oa*okay NAn_Nayn        smartest;most delicious
 ;
 ;--- *l
 ;; *al~al_1
 *al~al  PV      degrade;subdue
 *al~il  IV_yu   degrade;subdue
-;; >a*al~_1
->a*al~  PV_V    degrade;subdue
->a*olal PV_C    degrade;subdue
+;; Oa*al~_1
+Oa*al~  PV_V    degrade;subdue
+Oa*olal PV_C    degrade;subdue
 *il~    IV_V_yu degrade;subdue
 *olil   IV_C_yu degrade;subdue
 *al~    IV_V_Pass_yu    be degraded;be subdued
@@ -564,10 +564,10 @@ sota*olil       IV_C    deride;disparage
 *il~    Nap     depravity;submissiveness
 ;; *aliyl_1
 *aliyl  N/ap    despised;submissive     [[*aliyl/ADJ]]
->a*il~A'        N0_Nh   despised;submissive
->a*il~A&        Nh      despised;submissive
->a*il~A}        Nhy     despised;submissive
->a*il~  Nap     despised;submissive
+Oa*il~A'        N0_Nh   despised;submissive
+Oa*il~AW        Nh      despised;submissive
+Oa*il~A}        Nhy     despised;submissive
+Oa*il~  Nap     despised;submissive
 ;; *aluwl_1
 *aluwl  N/ap    docile;tractable     [[*aluwl/ADJ]]
 *ulul   N       docile;tractable
@@ -575,8 +575,8 @@ sota*olil       IV_C    deride;disparage
 ma*al~  Nap     meekness;humiliation
 ;; ta*oliyl_1
 ta*oliyl        NduAt   degradation;surmounting
-;; <i*olAl_1
-<i*olAl NduAt   degradation;surmounting
+;; Ii*olAl_1
+Ii*olAl NduAt   degradation;surmounting
 ;; ta*al~ul_1
 ta*al~ul        NduAt   self-abasement
 ;; mu*il~_1
@@ -587,10 +587,10 @@ mu*il~  Nall    humiliating;disgraceful     [[mu*il~/ADJ]]
 *alA*il Ndip    riffraff
 ;
 ;--- *lf
-;; >a*olaf_1
->a*olaf Nel     small-nosed
+;; Oa*olaf_1
+Oa*olaf Nel     small-nosed
 *alofA' N0_Nh   small-nosed
-*alofA& Nh      small-nosed
+*alofAW Nh      small-nosed
 *alofA} Nhy     small-nosed
 *ulof   N       small-nosed
 ;
@@ -599,8 +599,8 @@ mu*il~  Nall    humiliating;disgraceful     [[mu*il~/ADJ]]
 *aliq   N/ap    eloquent;fluent
 ;; *aliyq_1
 *aliyq  N/ap    eloquent;fluent
-;; >a*olaq_1
->a*olaq Nel     eloquent;fluent
+;; Oa*olaq_1
+Oa*olaq Nel     eloquent;fluent
 ;; *alAqap_1
 *alAq   Nap     eloquence;fluency
 ;
@@ -611,7 +611,7 @@ mu*il~  Nall    humiliating;disgraceful     [[mu*il~/ADJ]]
 *`likum FW-WaBi that one       [[*`likum/DEM_PRON_MS]]
 tiloka  FW-WaBi that;those           [[tiloka/DEM_PRON_FS]]
 tilokum FW-WaBi that one       [[tilokum/DEM_PRON_FS]]
->uwlA}ikum      FW-WaBi those          [[>uwlA}ikum/DEM_PRON_MP]]
+OuwlA}ikum      FW-WaBi those          [[OuwlA}ikum/DEM_PRON_MP]]
 ;
 ;; li*`lika_1
 li*`lika        FW-Wa   therefore           [[li*`lika/ADV]]
@@ -636,7 +636,7 @@ ka*`lika        FW-Wa   likewise;also       [[ka*`lika/ADV]]
 *im~iy~ Nall    dhimmi (non-Muslim citizen)     [[*im~iy~/ADJ]]
 ;; *imAm_1
 *imAm   N       claim;custody;protection
->a*im~  Nap     claims;custody;protection
+Oa*im~  Nap     claims;custody;protection
 ;; *amiym_1
 *amiym  Nall    censured;reprehensible     [[*amiym/ADJ]]
 ;; *amiymap_1
@@ -667,12 +667,12 @@ ta*am~ur        NduAt   grumbling;grievance
 *oma    IV_0hwnyn       be near death
 ;; *amA'_1
 *amA'   N0_Nh   last remnant;last breath
-*amA&   Nh      last remnant;last breath
+*amAW   Nh      last remnant;last breath
 *amA}   Nhy     last remnant;last breath
 ;
 ;--- *nb
-;; >a*onab_1
->a*onab PV      do wrong;commit an offense;be guilty
+;; Oa*onab_1
+Oa*onab PV      do wrong;commit an offense;be guilty
 *onib   IV_yu   do wrong;commit an offense;be guilty
 *onab   IV_Pass_yu      be found guilty
 ;; Aisota*onab_1
@@ -683,7 +683,7 @@ sota*onib       IV      find/declare guilty;incriminate
 *unuwb  N       misdeeds;offenses;faults
 ;; *anab_1
 *anab   Ndu     tail;appendage;follower
->a*onAb N       tails;followers;dependents
+Oa*onAb N       tails;followers;dependents
 ;; *anabiy~_1
 *anabiy~        Nall    tail;appendaged;dependent     [[*anabiy~/ADJ]]
 ;; *unayob_1
@@ -704,8 +704,8 @@ mu*onib Nall    guilty;delinquent     [[mu*onib/ADJ]]
 ;; *ah~ab_1
 *ah~ab  PV      gild
 *ah~ib  IV_yu   gild
-;; >a*ohab_1
->a*ohab PV      remove;eliminate
+;; Oa*ohab_1
+Oa*ohab PV      remove;eliminate
 *ohib   IV_yu   remove;eliminate
 *ohab   IV_Pass_yu      be removed;be eliminated
 ;; *ahab_1
@@ -740,8 +740,8 @@ mu*ah~ab        N-ap    gilded;golden     [[mu*ah~ab/ADJ]]
 ;; *ahal-a_1
 *ahal   PV_intr be stunned;be dazed;overlook
 *ohal   IV_intr be stunned;be dazed;overlook
-;; >a*ohal_1
->a*ohal PV      baffle;distract
+;; Oa*ohal_1
+Oa*ohal PV      baffle;distract
 *ohil   IV_yu   baffle;distract
 *ohal   IV_Pass_yu      be baffled;be distracted
 ;; ta*Ahal_1
@@ -766,7 +766,7 @@ muno*ahil       Nall    alarmed;perplexed     [[muno*ahil/ADJ]]
 ;--- *hn
 ;; *ihon_1
 *ihon   N       mind;intellect
->a*ohAn N       minds;intellects
+Oa*ohAn N       minds;intellects
 ;; *ihoniy~_1
 *ihoniy~        Nall    mental;intellectual     [[*ihoniy~/ADJ]]
 ;; *ihoniy~ap_1
@@ -802,9 +802,9 @@ muno*ahil       Nall    alarmed;perplexed     [[muno*ahil/ADJ]]
 ;; *aw~ab_1
 *aw~ab  PV      dissolve;liquify;melt
 *aw~ib  IV_yu   dissolve;liquify;melt
-;; >a*Ab_1
->a*Ab   PV_V    dissolve;melt;exhaust;consume
->a*ab   PV_C    dissolve;melt;exhaust;consume
+;; Oa*Ab_1
+Oa*Ab   PV_V    dissolve;melt;exhaust;consume
+Oa*ab   PV_C    dissolve;melt;exhaust;consume
 *iyb    IV_V_yu dissolve;melt;exhaust;consume
 *ib     IV_C_yu dissolve;melt;exhaust;consume
 *Ab     IV_V_Pass_yu    be dissolved;be melted;be exhausted;be consumed
@@ -813,8 +813,8 @@ muno*ahil       Nall    alarmed;perplexed     [[muno*ahil/ADJ]]
 *awob   N       dissolution;liquefaction;solution
 ;; ta*owiyb_1
 ta*owiyb        NduAt   dissolution;liquefaction;melting
-;; <i*Abap_1
-<i*Ab   NapAt   dissolution;liquefaction;melting
+;; Ii*Abap_1
+Ii*Ab   NapAt   dissolution;liquefaction;melting
 ;; *A}ib_1
 *A}ib   Nall    dissolved;melted     [[*A}ib/ADJ]]
 ;; *A}ib_2
@@ -868,9 +868,9 @@ ma*Awid Ndip    mangers;cribs
 *uq     IV_C    taste;sample;experience
 *Aq     IV_V_Pass_yu    be tasted;be experienced
 *aq     IV_V_Pass_yu    be tasted;be experienced
-;; >a*Aq_1
->a*Aq   PV_V    make taste;make sample;make experience
->a*aq   PV_C    make taste;make sample;make experience
+;; Oa*Aq_1
+Oa*Aq   PV_V    make taste;make sample;make experience
+Oa*aq   PV_C    make taste;make sample;make experience
 *iyq    IV_V_yu make taste;make sample;make experience
 *iq     IV_C_yu make taste;make sample;make experience
 *Aq     IV_V_Pass_yu    be made to taste/sample;be made to make experience
@@ -880,7 +880,7 @@ ta*aw~aq        PV      perceive;taste
 ta*aw~aq        IV      perceive;taste
 ;; *awoq_1
 *awoq   N       taste;sense;sensitivity
->a*owAq N       tastes;sensitivities
+Oa*owAq N       tastes;sensitivities
 ;; *awoqiy~_1
 *awoqiy~        N-ap    taste;sense     [[*awoqiy~/ADJ]]
 ;; *awAq_1
@@ -912,11 +912,11 @@ muta*aw~iq      Nall    connoisseur;person of taste
 *aw     PV_w_intr       wither;fade
 *oway   IV_Ann  wither;fade
 *owa    IV_0hwnyn       wither;fade
-;; >a*owaY_1
->a*owaY PV_0    make wilt;make dry
->a*owA  PV_h    make wilt;make dry
->a*oway PV_Atn  make wilt;make dry
->a*ow   PV_ttAw make wilt;make dry
+;; Oa*owaY_1
+Oa*owaY PV_0    make wilt;make dry
+Oa*owA  PV_h    make wilt;make dry
+Oa*oway PV_Atn  make wilt;make dry
+Oa*ow   PV_ttAw make wilt;make dry
 *owiy   IV_0hAnn_yu     make wilt;make dry
 *ow     IV_0hwnyn_yu    make wilt;make dry
 *owaY   IV_0_Pass_yu    be wilted;be dried
@@ -934,12 +934,12 @@ muta*aw~iq      Nall    connoisseur;person of taste
 *iE     PV_C_intr       spread;circulate;become public
 *iyE    IV_V_intr       spread;circulate;become public
 *iE     IV_C_intr       spread;circulate;become public
-;; >a*AE_1
->a*AE   PV_V    broadcast;propagate
->a*aE   PV_C    broadcast;propagate
+;; Oa*AE_1
+Oa*AE   PV_V    broadcast;propagate
+Oa*aE   PV_C    broadcast;propagate
 *iyE    IV_V_yu broadcast;propagate
 *iE     IV_C_yu broadcast;propagate
->u*iyE  PV_V_Pass       be broadcast;be propagated
+Ou*iyE  PV_V_Pass       be broadcast;be propagated
 *AE     IV_V_Pass_yu    be broadcast;be propagated
 *aE     IV_C_Pass_yu    be broadcast;be propagated
 ;; *uyuwE_1
@@ -947,11 +947,11 @@ muta*aw~iq      Nall    connoisseur;person of taste
 ;; mi*oyAE_1
 mi*oyAE Ndu     transmitter;communicative
 ma*AyiyE        Ndip    transmitters
-;; <i*AEap_1
-<i*AE   Napdu   broadcast;transmission
-<i*AE   NAt     broadcasts;transmissions
-;; <i*AEiy~_1
-<i*AEiy~        Nall    radio;broadcast;transmission     [[<i*AEiy~/ADJ]]
+;; Ii*AEap_1
+Ii*AE   Napdu   broadcast;transmission
+Ii*AE   NAt     broadcasts;transmissions
+;; Ii*AEiy~_1
+Ii*AEiy~        Nall    radio;broadcast;transmission     [[Ii*AEiy~/ADJ]]
 ;; *A}iE_1
 *A}iE   Nall    widespread;widely known     [[*A}iE/ADJ]]
 ;; mu*iyE_1
@@ -961,9 +961,9 @@ mu*iyE  Nall    broadcaster;transmitter;announcer
 ;; *ay~al_1
 *ay~al  PV      supplement;append
 *ay~il  IV_yu   supplement;append
-;; >a*Al_1
->a*Al   PV_V    trample;degrade
->a*al   PV_C    trample;degrade
+;; Oa*Al_1
+Oa*Al   PV_V    trample;degrade
+Oa*al   PV_C    trample;degrade
 *iyl    IV_V_yu trample;degrade
 *il     IV_C_yu trample;degrade
 *Al     IV_V_Pass_yu    be trampled;be degraded
@@ -972,7 +972,7 @@ mu*iyE  Nall    broadcaster;transmitter;announcer
 *ayol   N       tail;end
 *ayol   N       supplement;addendum
 *uyuwl  N       tails;addenda;consequences
->a*oyAl N       tails;addenda;consequences
+Oa*oyAl N       tails;addenda;consequences
 ;; ta*oyiyl_1
 ta*oyiyl        NduAt   supplementing;appending
 ;; mu*ay~al_1

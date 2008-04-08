@@ -70,7 +70,7 @@ instance Template PatternT where
                                     _       -> x
 
 
--- Fischer (2001), par. 45, 46
+-- Fischer (2002), par. 45, 46
 
 assimVII, assimVIII :: String -> (String, String)
 
@@ -119,9 +119,9 @@ instance Rules PatternT where
                             XIV     ->  init [IFCanLaL .. IFCanLY]
                             XV      ->  [IFCanLY ..]
 
-   -- Fischer (2001), par. 239 (ra'Y, wa'Y), 258 (ya.hyY, ista.hY), 224 (participles)
-   -- Fischer (2001), par. 243 (uy > uu), 33 ff (combinatory phonology), 250 (types)
-   -- Fischer (2001), par. 208, 218, 220 (inflecting IX-3, XI-3, and IV-4 verbs)
+   -- Fischer (2002), par. 239 (ra'Y, wa'Y), 258 (ya.hyY, ista.hY), 224 (participles)
+   -- Fischer (2002), par. 243 (uy > uu), 33 ff (combinatory phonology), 250 (types)
+   -- Fischer (2002), par. 208, 218, 220 (inflecting IX-3, XI-3, and IV-4 verbs)
 
    
     prefixVerbI _ _ Passive                     = "u"
@@ -193,7 +193,7 @@ instance Rules PatternT where
                         else "i"
 -}
 
-    -- Fischer (2001), par. 153, 93 ff, 99, etc.
+    -- Fischer (2002), par. 153, 93 ff, 99, etc.
 
     isDiptote = flip elem [ HaFCaL, HACaL,
                             FaCLY,
@@ -555,9 +555,9 @@ data PatternT =
         |   FCawwiL
         |   FCawwaL
 
-        |   IFCiwwAL    -- Fischer (2001), par. 225 (!)
+        |   IFCiwwAL    -- Fischer (2002), par. 225 (!)
 
-        |   MuFCawwiL   -- Fischer (2001), par. 224 (?)
+        |   MuFCawwiL   -- Fischer (2002), par. 224 (?)
         |   MuFCawwaL
 
 --  Form XIV
@@ -570,7 +570,7 @@ data PatternT =
 
         |   IFCinLAL
 
-        |   MuFCanLiL   -- Fischer (2001), par. 224 (?)
+        |   MuFCanLiL   -- Fischer (2002), par. 224 (?)
         |   MuFCanLaL
 
 --  Form XV
@@ -583,7 +583,7 @@ data PatternT =
 
         |   IFCinLA'
 
-        |   MuFCanLI    -- Fischer (2001), par. 224 (?)
+        |   MuFCanLI    -- Fischer (2002), par. 224 (?)
         |   MuFCanLY
 
     deriving (Enum, Show, Eq)

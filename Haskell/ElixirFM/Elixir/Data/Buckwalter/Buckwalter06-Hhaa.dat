@@ -1,7 +1,7 @@
 ;--- H
 ;; HA'_1
 HA'     N0_Nh   Ha' (Arabic letter)
-HA&     Nh      Ha' (Arabic letter)
+HAW     Nh      Ha' (Arabic letter)
 HA}     Nhy     Ha' (Arabic letter)
 HA'     NAt     Ha's (Arabic letter)
 ;
@@ -34,9 +34,9 @@ Hobib   IV_C    love;like;want
 ;; Hab~ab_1
 Hab~ab  PV      endear;granulate
 Hab~ib  IV_yu   endear;granulate
-;; >aHab~_1
->aHab~  PV_V    love;like
->aHobab PV_C    love;like
+;; OaHab~_1
+OaHab~  PV_V    love;like
+OaHobab PV_C    love;like
 Hib~    IV_V_yu love;like
 Hobib   IV_C_yu love;like
 ;; taHab~ab_1
@@ -72,14 +72,14 @@ HabAb   N       goal;aim
 Habiyb  N0      Habib;Habeeb
 ;; Habiyb_2
 Habiyb  N/ap    dear;beloved     [[Habiyb/ADJ]]
->aHib~A'        N0_Nh   dear;beloved
->aHib~A&        Nh      dear;beloved
->aHib~A}        Nhy     dear;beloved
->aHib~  Nap     dear;beloved
->aHobAb N       dear;beloved
+OaHib~A'        N0_Nh   dear;beloved
+OaHib~AW        Nh      dear;beloved
+OaHib~A}        Nhy     dear;beloved
+OaHib~  Nap     dear;beloved
+OaHobAb N       dear;beloved
 HabA}ib Ndip    dear;beloved
-;; >aHab~_2
->aHab~  Nel     dearer;more/most desirable
+;; OaHab~_2
+OaHab~  Nel     dearer;more/most desirable
 ;; maHab~ap_1
 maHab~  Nap     love;affection
 ;; taHab~ub_1
@@ -157,7 +157,7 @@ Habos   N       confinement;custody
 Hubuws  N       prison
 ;; Hibos_1
 Hibos   Ndu     dam;barrage
->aHobAs N       dams;barrages
+OaHobAs N       dams;barrages
 ;; Hubosap_1
 Hubos   Nap     impediment;aphasia
 ;; Habuws_1
@@ -165,7 +165,7 @@ Habuws  N       habous (Maghrebi waqf);foundation
 ;; Habiys_1
 Habiys  N/ap    secluded;restrained     [[Habiys/ADJ]]
 HubasA' N0_Nh   hermits
-HubasA& Nh      hermits
+HubasAW Nh      hermits
 HubasA} Nhy     hermits
 ;; maHobas_1
 maHobas Ndu     prison;cell
@@ -193,23 +193,23 @@ Haba$iy~        N0      Habashi
 ;; Haba$iy~_2
 Haba$iy~        Nall    Ethiopian;Abyssinian     [[Haba$iy~/NOUN]]
 Haba$iy~        Nall    Ethiopian;Abyssinian     [[Haba$iy~/ADJ]]
->aHobA$ N       Ethiopians;Abyssinians
+OaHobA$ N       Ethiopians;Abyssinians
 ;
 ;--- HbT
 ;; HabaT-i_1
 HabaT   PV      fail;abort
 HobiT   IV      fail;abort
-;; >aHobaT_1
->aHobaT PV      foil;thwart
+;; OaHobaT_1
+OaHobaT PV      foil;thwart
 HobiT   IV_yu   foil;thwart
 HobaT   IV_Pass_yu      be foiled;be thwarted
 ;; HabaT_1
 HabaT   N       scar;welt
 ;; HubuwT_1
 HubuwT  N       failure;futility
-;; <iHobAT_1
-<iHobAT NduAt   thwarting;defeating
-<iHobAT NduAt   defeat;frustration
+;; IiHobAT_1
+IiHobAT NduAt   thwarting;defeating
+IiHobAT NduAt   defeat;frustration
 ;; muHobiT_1
 muHobiT Nall    fruitless;worthless     [[muHobiT/ADJ]]
 ;
@@ -266,8 +266,8 @@ Hobal   IV_Pass_yu      be conceived
 ;; Hab~al_1
 Hab~al  PV      make pregnant
 Hab~il  IV_yu   make pregnant
-;; >aHobal_1
->aHobal PV      make pregnant
+;; OaHobal_1
+OaHobal PV      make pregnant
 Hobil   IV_yu   make pregnant
 Hobal   IV_Pass_yu      be made pregnant
 ;; AiHotabal_1
@@ -277,8 +277,8 @@ Hotabil IV      ensnare;trap
 Habol   Ndu     cord;cable
 HibAl   N       cords;cables
 Hubuwl  N       cords;cables
->aHobul N       cords;cables
->aHobAl N       cords;cables
+OaHobul N       cords;cables
+OaHobAl N       cords;cables
 ;; Habal_1
 Habal   N       conception;pregnancy
 ;; HabolAn_1
@@ -292,9 +292,9 @@ Hubolay NAn_Nayn        pregnant
 Hubolay NAt     pregnant
 HabAlaY N0      pregnant
 HabAlA  Nhy     pregnant
-;; >uHobuwlap_1
->uHobuwl        Napdu   snare;trick
->aHAbiyl        Ndip    snares;tricks
+;; OuHobuwlap_1
+OuHobuwl        Napdu   snare;trick
+OaHAbiyl        Ndip    snares;tricks
 ;; HibAlap_1
 HibAl   Napdu   snare;net
 HabA}il Ndip    snares;nets
@@ -304,8 +304,8 @@ HAbil   Nall    trickster
 ;--- Hbn
 ;; Haban_1
 Haban   N       edema;dropsy
-;; >aHoban_1
->aHoban Nel     suffering from edema
+;; OaHoban_1
+OaHoban Nel     suffering from edema
 HabonA' N0      suffering from edema
 ;; HAbin_1
 HAbin   Nall    suffering from edema
@@ -351,7 +351,7 @@ Habow   Napdu   gift
 Habaw   NAt     gifts
 ;; HibA'_1
 HibA'   N0_Nh   gift
-HibA&   Nh      gift
+HibAW   Nh      gift
 HibA}   Nhy     gift
 ;; muHAbAp_1
 muHAbA  Nap     favoritism;partiality
@@ -571,7 +571,7 @@ Hajob   N       seclusion
 ;; HijAb_1
 HijAb   N       veil
 Hujub   N       veils
->aHojib Nap     veils
+OaHojib Nap     veils
 ;; AiHotijAb_1
 AiHotijAb       NduAt   concealment;veiling
 HAjib   N/ap    concealing;protecting
@@ -607,7 +607,7 @@ sotaHojir       IV      turn to stone;become petrified;fossilize
 Hajor   N       restriction;barring;detention
 ;; Hajar_1
 Hajar   Ndu     stone
->aHojAr N       stones
+OaHojAr N       stones
 ;; Hajariy~_1
 Hajariy~        N/ap    stony;stone     [[Hajariy~/ADJ]]
 ;; Haj~Ar_1
@@ -672,8 +672,8 @@ HAjif   IV      resist;fight
 ;; muHAjafap_1
 muHAjaf NapAt   fencing
 muHAjaf NapAt   resisting;fighting
-;; <iHojAf_1
-<iHojAf NduAt   injustice;bias
+;; IiHojAf_1
+IiHojAf NduAt   injustice;bias
 ;
 ;--- Hjl
 ;; Hajal-ui_1
@@ -687,7 +687,7 @@ HajalAn N       leaping;skipping
 ;; Hajol_2
 Hajol   Ndu     anklet
 Hujuwl  N       anklets
->aHojAl N       anklets
+OaHojAl N       anklets
 ;; Hajalap_1
 Hajal   Nap     canopy
 HijAl   N       canopies
@@ -702,13 +702,13 @@ muHaj~al        Nall    with anklets;bright
 ;; Hajam-u_1
 Hajam   PV      cup;muzzle
 Hojum   IV      cup;muzzle
-;; >aHojam_1
->aHojam PV      abstain;recoil;withdraw
+;; OaHojam_1
+OaHojam PV      abstain;recoil;withdraw
 Hojim   IV_yu   abstain;recoil;withdraw
 Hojam   IV_Pass_yu      be recoiled;be withdrawn
 ;; Hajom_1
 Hajom   N       volume;size
->aHojAm N       volumes;sizes
+OaHojAm N       volumes;sizes
 ;; Hajomiy~_1
 Hajomiy~        N-ap    volumetric
 ;; Haj~Am_1
@@ -721,8 +721,8 @@ miHojam Napdu   cupping glass
 maHAjim Ndip    cupping glass
 ;; taHojiym_1
 taHojiym        NduAt   controlling;curbing
-;; <iHojAm_1
-<iHojAm NduAt   abstention;reserve
+;; IiHojAm_1
+IiHojAm NduAt   abstention;reserve
 ;
 ;--- Hjn
 ;; Hajan-i_1
@@ -731,8 +731,8 @@ Hojin   IV-n    bend;curve
 ;; AiHotajan_1
 AiHotajan       PV-n    grab;seize
 Hotajin IV-n    grab;seize
-;; >aHojan_1
->aHojan Nel     curved;crooked
+;; OaHojan_1
+OaHojan Nel     curved;crooked
 ;; miHojan_1
 miHojan Ndu     hook;crosier
 ;
@@ -758,20 +758,20 @@ HAjay   IV_Ann_Pass_yu  be spoken to in riddles;be treated enigmatically
 HijaY   N0      intelligence;wit
 HijAF   FW-WaBi intelligence;wit     [[HijAF/NOUN]]
 HijA    N0_Nhy  intelligence;wit
->aHojA' N0_Nh   intelligence;wit
->aHojA& Nh      intelligence;wit
->aHojA} Nhy     intelligence;wit
+OaHojA' N0_Nh   intelligence;wit
+OaHojAW Nh      intelligence;wit
+OaHojA} Nhy     intelligence;wit
 ;; Hajiy~_1
 Hajiy~  N/ap    appropriate;suitable     [[Hajiy~/ADJ]]
-;; >aHojaY_1
->aHojaY N0      more/most appropriate/correct
->aHojA  Nhy     more/most appropriate/correct
->aHojay NAn_Nayn        more/most appropriate/correct
+;; OaHojaY_1
+OaHojaY N0      more/most appropriate/correct
+OaHojA  Nhy     more/most appropriate/correct
+OaHojay NAn_Nayn        more/most appropriate/correct
 ;; Huj~Ayap_1
 Huj~Ay  NapAt   riddle;puzzle
->uHojiy~        Nap     riddle;puzzle     [[>uHojiy~/NOUN]]
->aHAjiy N0_Nh   riddles;puzzles
->aHAj   NK      riddles;puzzles
+OuHojiy~        Nap     riddle;puzzle     [[OuHojiy~/NOUN]]
+OaHAjiy N0_Nh   riddles;puzzles
+OaHAj   NK      riddles;puzzles
 ;
 ;--- Hd
 ;; Had~-u_1
@@ -793,9 +793,9 @@ HAd~    PV_V    oppose;contravene
 HAdad   PV_C    oppose;contravene
 HAd~    IV_V_yu oppose;contravene
 HAdid   IV_C_yu oppose;contravene
-;; >aHad~_1
->aHad~  PV_V    sharpen;scrutinize
->aHodad PV_C    sharpen;scrutinize
+;; OaHad~_1
+OaHad~  PV_V    sharpen;scrutinize
+OaHodad PV_C    sharpen;scrutinize
 Hid~    IV_V_yu sharpen;scrutinize
 Hodid   IV_C_yu sharpen;scrutinize
 ;; taHad~ad_1
@@ -820,8 +820,8 @@ HidAd   N       mourning
 Hadiyd  N       iron
 ;; Hadiyd_2
 Hadiyd  N0      Hadeed;Hadid
-;; >aHad~_2
->aHad~  Nel     sharper
+;; OaHad~_2
+OaHad~  Nel     sharper
 ;; Hadiydap_1
 Hadiyd  Nap     iron
 ;; Hadiydiy~_1
@@ -852,10 +852,10 @@ muHad~ad        Nall    set;determined;defined     [[muHad~ad/ADJ]]
 muHotad~        Nall    angry;furious     [[muHotad~/ADJ]]
 ;
 ;--- HdA
-;; Hada>ap_1
-Hada>   Napdu   ax
+;; HadaOap_1
+HadaO   Napdu   ax
 HidA'   N0_Nh   axes
-HidA&   Nh      axes
+HidAW   Nh      axes
 HidA}   Nhy     axes
 ;
 ;--- Hdb
@@ -874,15 +874,15 @@ Hodawodib       IV_intr be vaulted;be embossed;be convex
 ;; Hadab_1
 Hadab   N       affection;kindness
 HidAb   N       affection;kindness
->aHodAb N       affection;kindness
+OaHodAb N       affection;kindness
 ;; Hadib_1
 Hadib   Nall    arched;hunchbacked;friendly     [[Hadib/ADJ]]
 ;; Hadabap_1
 Hadab   Nap     hump;vaulting
-;; >aHodab_1
->aHodab Nel     hunchbacked
+;; OaHodab_1
+OaHodab Nel     hunchbacked
 HadobA' N0_Nh   hunchbacked
-HadobA& Nh      hunchbacked
+HadobAW Nh      hunchbacked
 HadobA} Nhy     hunchbacked
 ;; AiHodiydAb_1
 AiHodiydAb      NduAt   humped;kyphosis
@@ -900,8 +900,8 @@ Hoduv   IV      happen;take place
 ;; HAdav_1
 HAdav   PV      discuss;negotiate
 HAdiv   IV_yu   discuss;negotiate
-;; >aHodav_1
->aHodav PV      cause;bring about
+;; OaHodav_1
+OaHodav PV      cause;bring about
 Hodiv   IV_yu   cause;bring about
 Hodav   IV_Pass_yu      be caused;be brought about
 ;; taHad~av_1
@@ -915,41 +915,41 @@ AisotaHodav     PV      renew
 sotaHodiv       IV      renew
 ;; Hadav_1
 Hadav   Ndu     incident;event
->aHodAv N       events
+OaHodAv N       events
 ;; Hadiyv_1
 Hadiyv  N/ap    new;recent;modern     [[Hadiyv/ADJ]]
 Hadiyv  NF      recently;lately     [[Hadiyv/ADV]]
 HidAv   N       new;modern
 HudavA' N0_Nh   new;modern
-HudavA& Nh      new;modern
+HudavAW Nh      new;modern
 HudavA} Nhy     new;modern
 ;; Hadiyv_2
 Hadiyv  Ndu     discussion;talk;interview
->aHAdiyv        Ndip    discussions;talks
+OaHAdiyv        Ndip    discussions;talks
 ;; Hadiyv_3
 Hadiyv  Ndu     Hadith (Islamic tradition)
->aHAdiyv        Ndip    Hadiths (Islamic traditions)
+OaHAdiyv        Ndip    Hadiths (Islamic traditions)
 ;; Hadiyviy~_1
 Hadiyviy~       N0      Hadithi
 ;; Huduwv_1
 Huduwv  N       occurrence;happening
 ;; HadAvap_1
 HadAv   Nap     modernity;newness
-;; >aHodav_2
->aHodav Nel     newer/newest;more/most recent
+;; OaHodav_2
+OaHodav Nel     newer/newest;more/most recent
 ;; HidovAn_1
 HidovAn N       misfortunes;adversities
-;; >uHoduwvap_1
->uHoduwv        Napdu   chat;chatter
+;; OuHoduwvap_1
+OuHoduwv        Napdu   chat;chatter
 ;; taHodiyv_1
 taHodiyv        NduAt   updating;renewing
 ;; muHAdavap_1
 muHAdav Napdu   discussion;talk;negotiation
 muHAdav NAt     discussions;talks;negotiations
-;; <iHodAv_1
-<iHodAv NduAt   effectuation;implementation
-;; <iHodAviy~_1
-<iHodAviy~      NAt     coordinates     [[<iHodAviy~/NOUN]]
+;; IiHodAv_1
+IiHodAv NduAt   effectuation;implementation
+;; IiHodAviy~_1
+IiHodAviy~      NAt     coordinates     [[IiHodAviy~/NOUN]]
 ;; taHad~uv_1
 taHad~uv        NduAt   discussion;speaking
 ;; AisotiHodAv_1
@@ -979,7 +979,7 @@ Had~ij  IV_yu   stare;look sharply
 ;; Hidoj_1
 Hidoj   N       load;burden
 Huduwj  N       loads;burdens
->aHodAj N       loads;burdens
+OaHodAj N       loads;burdens
 ;; HidAjap_1
 HidAj   Napdu   camel saddle
 HadA}ij Ndip    camel saddles
@@ -1041,8 +1041,8 @@ Hodiq   IV      encompass;look;stare
 ;; Had~aq_1
 Had~aq  PV      look;stare;make sour
 Had~iq  IV_yu   look;stare;make sour
-;; >aHodaq_1
->aHodaq PV      surround;encompass;enclose
+;; OaHodaq_1
+OaHodaq PV      surround;encompass;enclose
 Hodiq   IV_yu   surround;encompass;enclose
 Hodaq   IV_Pass_yu      be surrounded;be encompassed;be enclosed
 ;; Hadaqap_1
@@ -1050,8 +1050,8 @@ Hadaq   NapAt   glance;pupil
 ;; Hadiyqap_1
 Hadiyq  Napdu   garden
 HadA}iq Ndip    gardens
-;; <iHodAq_1
-<iHodAq NduAt   encirclement;surrounding
+;; IiHodAq_1
+IiHodAq NduAt   encirclement;surrounding
 ;; muHodiq_1
 muHodiq Nall    imminent     [[muHodiq/ADJ]]
 ;; HAdiq_1
@@ -1096,16 +1096,16 @@ taHad~  IV_0hwnyn       provoke;challenge;incite
 Hidow   NapAt   horseshoe
 ;; HudA'_1
 HudA'   N0_Nh   chanting
-HudA&   Nh      chanting
+HudAW   Nh      chanting
 HudA}   Nhy     chanting
 ;; Had~A'_1
 Had~A'  N0_Nh   camel driver
 Had~A'  NAn_Nayn        camel driver
-Had~A&  Nh      camel driver
+Had~AW  Nh      camel driver
 Had~A}  Nhy     camel driver
 Had~A}  NAn_Nayn        camel driver
-;; >uHoduw~ap_1
->uHoduw~        Napdu   singsong;chant
+;; OuHoduw~ap_1
+OuHoduw~        Napdu   singsong;chant
 ;; taHad~iy_1
 taHad~iy        N0_Nh   challenge
 taHad~  NK      challenge
@@ -1254,9 +1254,9 @@ Ha*owa  FW-Wa   opposite;in front of     [[Ha*owa/PREP]]
 Ha*owa  FW-Wa-a opposite;in front of     [[Ha*owa/PREP]]
 ;; Hi*A'_1
 Hi*A'   N0_Nh   (pair of) shoes
-Hi*A&   Nh      (pair of) shoes
+Hi*AW   Nh      (pair of) shoes
 Hi*A}   Nhy     (pair of) shoes
->aHo*iy Nap     shoes
+OaHo*iy Nap     shoes
 ;; Hi*A'a_1
 Hi*A'a  FW-Wa   opposite;face to face with     [[Hi*A'a/PREP]]
 Hi*A}i  FW-Wa   opposite;face to face with     [[Hi*A}i/PREP]]
@@ -1265,13 +1265,13 @@ Hi*A}i  FW-Wa-i opposite;face to face with     [[Hi*A}i/PREP]]
 biHi*A}i        FW-Wa-i opposite;face to face with     [[biHi*A}i/PREP]]
 ;; Ha*~A'_1
 Ha*~A'  N0_Nh   shoemaker
-Ha*~A&  Nh      shoemaker
+Ha*~AW  Nh      shoemaker
 Ha*~A}  Nhy     shoemaker
 ;; muHA*Ap_1
 muHA*A  Nap     alongside;parallel to
 ;; AiHoti*A'_1
 AiHoti*A'       N0_Nh   imitation;copying
-AiHoti*A&       Nh      imitation;copying
+AiHoti*AW       Nh      imitation;copying
 AiHoti*A}       Nhy     imitation;copying
 AiHoti*A'       NAn_Nayn        imitations;copies
 AiHoti*A}       Nayn    imitations;copies
@@ -1321,8 +1321,8 @@ sotaHorir       IV_C    flare up;be heated
 Har~    N       warmth;heat
 ;; Hur~_1
 Hur~    N-ap    free;independent     [[Hur~/ADJ]]
->aHorAr N       free;independent
->aHorAr N       liberals
+OaHorAr N       free;independent
+OaHorAr N       liberals
 ;; HarA}ir_1
 HarA}ir Ndip    free;noble;silk
 ;; Har~ap_1
@@ -1355,8 +1355,8 @@ Har~An  Ndip    thirsty;passionate
 Har~aY  N0      thirsty;passionate
 Har~A   Nhy     thirsty;passionate
 HirAr   N       thirsty;passionate
-;; >aHar~_1
->aHar~  Nel     hotter/hottest;warmer/warmest
+;; OaHar~_1
+OaHar~  Nel     hotter/hottest;warmer/warmest
 ;; miHar~_1
 miHar~  Ndu     heating system
 ;; taHoriyr_1
@@ -1401,7 +1401,7 @@ Harob   Napdu   lance;bayonet
 HirAb   N       lances;bayonets
 ;; HirobA'_1
 HirobA' N0_Nh   chameleon
-HirobA& Nh      chameleon
+HirobAW Nh      chameleon
 HirobA} Nhy     chameleon
 HarAbiy N0      chameleons
 ;; HarabAh_1
@@ -1451,8 +1451,8 @@ Horaj   IV_intr be oppressed;be tight;be forbidden
 ;; Har~aj_1
 Har~aj  PV      narrow;make difficult;forbid
 Har~ij  IV_yu   narrow;make difficult;forbid
-;; >aHoraj_1
->aHoraj PV      embarrass;confine;complicate
+;; OaHoraj_1
+OaHoraj PV      embarrass;confine;complicate
 Horij   IV_yu   embarrass;confine;complicate
 Horaj   IV_Pass_yu      be embarrassed;be confined;be complicated
 ;; taHar~aj_1
@@ -1463,19 +1463,19 @@ Haraj   N       impediment;difficulty
 ;; Haraj_2
 Haraj   N/ap    thicket;forest
 HirAj   N       thicket;forest
->aHorAj N       thicket;forest
+OaHorAj N       thicket;forest
 ;; Harij_1
 Harij   N/ap    delicate;sensitive;awkward;critical;narrow     [[Harij/ADJ]]
-;; >aHoraj_2
->aHoraj Nel     narrower/narrowest;more/most critical
+;; OaHoraj_2
+OaHoraj Nel     narrower/narrowest;more/most critical
 ;; HarAj_1
 HarAj   N       auction
 ;; HarAjap_1
 HarAj   Nap     gravity;difficulty
 ;; taHoriyj_1
 taHoriyj        NduAt   forestation
-;; <iHorAj_1
-<iHorAj NduAt   embarrassing;embarrassment
+;; IiHorAj_1
+IiHorAj NduAt   embarrassing;embarrassment
 ;; taHar~uj_1
 taHar~uj        NduAt   restraint;diffidence
 ;; muHorij_1
@@ -1516,8 +1516,8 @@ Horaz   IV_intr be strong;be fortified
 ;; Har~az_1
 Har~az  PV      shelter;offer asylum
 Har~iz  IV_yu   shelter;offer asylum
-;; >aHoraz_1
->aHoraz PV      gain;win;preserve
+;; OaHoraz_1
+OaHoraz PV      gain;win;preserve
 Horiz   IV_yu   gain;win;preserve
 Horaz   IV_Pass_yu      be gained;be won;be preserved
 ;; taHar~az_1
@@ -1528,13 +1528,13 @@ AiHotaraz       PV_intr be careful;be wary
 Hotariz IV_intr be careful;be wary
 ;; Hiroz_1
 Hiroz   Ndu     refuge;safe
->aHorAz N       refuge;safes
+OaHorAz N       refuge;safes
 ;; HarAziyn_1
 HarAziyn        N0      Harazeen
 ;; Hariyz_1
 Hariyz  N/ap    fortified;impenetrable     [[Hariyz/ADJ]]
-;; <iHorAz_1
-<iHorAz NduAt   acquisition;winning
+;; IiHorAz_1
+IiHorAz NduAt   acquisition;winning
 ;; AiHotirAz_1
 AiHotirAz       NduAt   caution;reserve
 ;; HArizap_1
@@ -1580,12 +1580,12 @@ taHar~a$        IV      provoke
 ;; Hiro$_1
 Hiro$   N       forest
 Huro$   N       forest
->aHorA$ N       forests
+OaHorA$ N       forests
 Huruw$  N       forests
 ;; Hari$_1
 Hari$   N/ap    rough
-;; >aHora$_1
->aHora$ Nel     rough
+;; OaHora$_1
+OaHora$ Nel     rough
 ;; Hara$_1
 Hara$   N       roughness
 ;; HarA$ap_1
@@ -1648,7 +1648,7 @@ Hotarif IV      do professionally
 ;; Harof_1
 Harof   Ndu     letter
 Huruwf  N       letters
->aHoruf N       letters
+OaHoruf N       letters
 ;; Harofiy~_1
 Harofiy~        N/ap    literal     [[Harofiy~/ADJ]]
 ;; Harofiy~ap_1
@@ -1663,7 +1663,7 @@ Hirafiy~        Nall    craftsman
 ;; Hariyf_1
 Hariyf  N/ap    customer
 HurafA' N0_Nh   customers
-HurafA& Nh      customers
+HurafAW Nh      customers
 HurafA} Nhy     customers
 ;; Hir~iyf_1
 Hir~iyf N/ap    spicy;pungent     [[Hir~iyf/ADJ]]
@@ -1697,8 +1697,8 @@ Horuq   IV      rub;grind
 ;; Har~aq_1
 Har~aq  PV      burn
 Har~iq  IV_yu   burn
-;; >aHoraq_1
->aHoraq PV      burn;kindle
+;; OaHoraq_1
+OaHoraq PV      burn;kindle
 Horiq   IV_yu   burn;kindle
 Horaq   IV_Pass_yu      be burned
 ;; taHar~aq_1
@@ -1731,8 +1731,8 @@ maHAriq Ndip    focus
 maHoraq NapAt   holocaust
 ;; taHAriyq_1
 taHAriyq        Ndip    hottest season
-;; <iHorAq_1
-<iHorAq NduAt   burning;combustion
+;; IiHorAq_1
+IiHorAq NduAt   burning;combustion
 ;; taHar~uq_1
 taHar~uq        NduAt   burning;combustion
 ;; AiHotirAq_1
@@ -1818,11 +1818,11 @@ AisotaHoram     PV      deem sacred;deem unlawful;be in heat
 sotaHorim       IV      deem sacred;deem unlawful;be in heat
 ;; Haram_1
 Haram   N       taboo;sacred     [[Haram/ADJ]]
->aHorAm N       taboos;sacred
+OaHorAm N       taboos;sacred
 ;; Haram_2
 Haram   Ndu     holy site;campus
 Haram   NAn_Nayn        Two Holy Sites (Mecca and Medina)
->aHorAm N       holy sites
+OaHorAm N       holy sites
 ;; Haramiy~_1
 Haramiy~        N0      Harami
 ;; Huromap_1
@@ -1855,8 +1855,8 @@ maHoram Nap     handkerchief
 maHArim Ndip    handkerchiefs
 ;; taHoriym_1
 taHoriym        NduAt   prohibition;ban
-;; <iHorAm_1
-<iHorAm NduAt   state of ritual consecration;pilgrimage garments
+;; IiHorAm_1
+IiHorAm NduAt   state of ritual consecration;pilgrimage garments
 ;; AiHotirAm_1
 AiHotirAm       NduAt   respect;honoring
 AiHotirAm       NF      out of respect for;in honor of     [[AiHotirAm/ADV]]
@@ -1900,11 +1900,11 @@ Har     PV_ttAw_intr    be able;be possible
 Horiy   IV_0hAnn        be able;be possible
 Hor     IV_0hwnyn       be able;be possible
 HoraY   IV_0_Pass_yu    be able;be possible
-;; >aHoraY_1
->aHoraY PV_0    make worthy
->aHorA  PV_h    make worthy
->aHoray PV_Atn  make worthy
->aHor   PV_ttAw make worthy
+;; OaHoraY_1
+OaHoraY PV_0    make worthy
+OaHorA  PV_h    make worthy
+OaHoray PV_Atn  make worthy
+OaHor   PV_ttAw make worthy
 Horiy   IV_0hAnn_yu     make worthy
 Hor     IV_0hwnyn_yu    make worthy
 HoraY   IV_0_Pass_yu    be made worthy
@@ -1920,15 +1920,15 @@ taHar~ay        IV_Ann  investigate;pursue
 taHar~  IV_0hwnyn       investigate;pursue
 ;; Hariy~_1
 Hariy~  N/ap    adequate;suitable     [[Hariy~/ADJ]]
->aHoriyA'       N0_Nh   adequate;suitable
->aHoriyA&       Nh      adequate;suitable
->aHoriyA}       Nhy     adequate;suitable
+OaHoriyA'       N0_Nh   adequate;suitable
+OaHoriyAW       Nh      adequate;suitable
+OaHoriyA}       Nhy     adequate;suitable
 ;; HirA'_1
 HirA'   N0      Hira
-;; >aHoraY_2
->aHoraY N0      more/most adequate;better/best
->aHorA  Nhy     more/most adequate;better/best
->aHoray NAn_Nayn        more/most adequate;better/best
+;; OaHoraY_2
+OaHoraY N0      more/most adequate;better/best
+OaHorA  Nhy     more/most adequate;better/best
+OaHoray NAn_Nayn        more/most adequate;better/best
 ;; taHar~iy_1
 taHar~iy        N0_Nh   investigation;inquiry
 taHar~  NK      investigation;inquiry
@@ -1977,7 +1977,7 @@ taHaz~ab        PV      take sides;join forces
 taHaz~ab        IV      take sides;join forces
 ;; Hizob_1
 Hizob   Ndu     party;band
->aHozAb N       parties;bands
+OaHozAb N       parties;bands
 ;; Hizob_2
 Hizob   N0      Hizb;Hezb
 ;; Hizobiy~_1
@@ -2043,10 +2043,10 @@ Huzom   Napdu   package;bundle
 Huzam   N       packages;bundles
 ;; HizAm_1
 HizAm   NduAt   belt
->aHozim Nap     belts
+OaHozim Nap     belts
 Huzum   N       belts
-;; >aHozam_1
->aHozam Nel     more/most determined
+;; OaHozam_1
+OaHozam Nel     more/most determined
 ;; taHoziym_1
 taHoziym        NduAt   wrapping;packing
 ;; HAzim_1
@@ -2056,7 +2056,7 @@ HAzim   N0      Hazim
 ;; Haziym_1
 Haziym  N/ap    resolute     [[Haziym/ADJ]]
 HuzamA' N0_Nh   resolute
-HuzamA& Nh      resolute
+HuzamAW Nh      resolute
 HuzamA} Nhy     resolute
 ;; HAzimiy~_1
 HAzimiy~        N0      Hazimi;Hazmi
@@ -2071,13 +2071,13 @@ Hozan   IV-n_intr       be sad;grieve
 ;; Haz~an_1
 Haz~an  PV-n    sadden;grieve
 Haz~in  IV-n_yu sadden;grieve
-;; >aHozan_1
->aHozan PV-n    make sad;sadden;grieve
+;; OaHozan_1
+OaHozan PV-n    make sad;sadden;grieve
 Hozin   IV-n_yu make sad;sadden;grieve
 Hozan   IV-n_Pass_yu    be saddened
 ;; Huzon_1
 Huzon   N       sadness
->aHozAn N       sadness
+OaHozAn N       sadness
 ;; Hazon_1
 Hazon   Ndu     rough
 ;; Huzuwn_1
@@ -2085,7 +2085,7 @@ Huzuwn  N       rough
 ;; Haziyn_1
 Haziyn  N/ap    sad
 HuzanA' N0_Nh   sad
-HuzanA& Nh      sad
+HuzanAW Nh      sad
 HuzanA} Nhy     sad
 ;; HizAn_1
 HizAn   N       mourning
@@ -2110,9 +2110,9 @@ Hosis   IV_C    feel
 Hasis   PV_C    feel
 Has~    IV_V    feel
 Hosas   IV_C    feel
-;; >aHas~_1
->aHas~  PV_V    feel;perceive
->aHosas PV_C    feel;perceive
+;; OaHas~_1
+OaHas~  PV_V    feel;perceive
+OaHosas PV_C    feel;perceive
 His~    IV_V_yu feel;perceive
 Hosis   IV_C_yu feel;perceive
 Has~    IV_V_Pass_yu    be felt;be perceived
@@ -2134,8 +2134,8 @@ Has~Asiy~       Nall    sensitive     [[Has~Asiy~/ADJ]]
 Has~Asiy~       NapAt   sensitivity     [[Has~Asiy~/NOUN]]
 ;; miHas~ap_1
 miHas~  Nap     currycomb
-;; <iHosAs_1
-<iHosAs NduAt   feeling;sensitivity
+;; IiHosAs_1
+IiHosAs NduAt   feeling;sensitivity
 ;; taHas~us_1
 taHas~us        NduAt   sensing
 ;; HAs~ap_1
@@ -2181,7 +2181,7 @@ Hasiyb  N0      Haseeb;Hasib
 ;; Hasiyb_2
 Hasiyb  N/ap    respected;noble
 HusabA' N0_Nh   respected;noble
-HusabA& Nh      respected;noble
+HusabAW Nh      respected;noble
 HusabA} Nhy     respected;noble
 ;; HusobAn_1
 HusobAn N       calculation;consideration
@@ -2315,8 +2315,8 @@ Has~in  IV-n_yu improve;decorate
 ;; HAsan_1
 HAsan   PV-n    treat with kindliness
 HAsin   IV-n_yu treat with kindliness
-;; >aHosan_1
->aHosan PV-n    master;do well;be proficient
+;; OaHosan_1
+OaHosan PV-n    master;do well;be proficient
 Hosin   IV-n_yu master;do well;be proficient
 Hosan   IV-n_Pass_yu    be mastered;be done well
 ;; taHas~an_1
@@ -2343,11 +2343,11 @@ Hasuwnap        N0      Hassuna;Hassuna
 Hasan   N-ap    good
 Hasan   NF      well     [[Hasan/ADV]]
 HisAn   N       good
-;; >aHosan_2
->aHosan Nel     better/best
->aHAsin Ndip    better/best
+;; OaHosan_2
+OaHosan Nel     better/best
+OaHAsin Ndip    better/best
 HasonA' N0_Nh   beauty;belle
-HasonA& Nh      beauty;belle
+HasonAW Nh      beauty;belle
 HasonA} Nhy     beauty;belle
 HusonaY N0      best;beauty
 HusonA  Nhy     best;beauty
@@ -2367,10 +2367,10 @@ taHosiyn        NAt     improvements;beautification
 taHAsiyn        Ndip    ornamentation
 ;; muHAsanap_1
 muHAsan NapAt   kindliness;friendliness
-;; <iHosAn_1
-<iHosAn N0      Ihsan
-;; <iHosAn_2
-<iHosAn NduAt   good deeds;charity
+;; IiHosAn_1
+IiHosAn N0      Ihsan
+;; IiHosAn_2
+IiHosAn NduAt   good deeds;charity
 ;; taHas~un_1
 taHas~un        NduAt   improvement
 ;; AisotiHosAn_1
@@ -2416,13 +2416,13 @@ Hasow   N       soup
 ;; Hasowap_1
 Hasow   Napdu   sip
 Hasaw   NAt     sipping
->aHosiy Nap     sips
+OaHosiy Nap     sips
 ;; HasA'_1
 HasA'   N0_Nh   soup
-HasA&   Nh      soup
+HasAW   Nh      soup
 HasA}   Nhy     soup
-;; >aHosA'_1
->aHosA' N0      Hasa (S.Ar.)
+;; OaHosA'_1
+OaHosA' N0      Hasa (S.Ar.)
 ;
 ;--- H$
 ;; Ha$~-u_1
@@ -2526,8 +2526,8 @@ Ho$im   IV      shame;put to shame
 ;; Ha$~am_1
 Ha$~am  PV      shame;put to shame
 Ha$~im  IV_yu   shame;put to shame
-;; >aHo$am_1
->aHo$am PV      shame;put to shame
+;; OaHo$am_1
+OaHo$am PV      shame;put to shame
 Ho$im   IV_yu   shame;put to shame
 Ho$am   IV_Pass_yu      be shamed;be put to shame
 ;; taHa$~am_1
@@ -2543,7 +2543,7 @@ Hi$om   Nap     shyness;timidity
 ;; Ha$iym_1
 Ha$iym  N/ap    bashful;shy     [[Ha$iym/ADJ]]
 Hu$amA' N0_Nh   bashful;shy
-Hu$amA& Nh      bashful;shy
+Hu$amAW Nh      bashful;shy
 Hu$amA} Nhy     bashful;shy
 ;; maHA$im_1
 maHA$im Ndip    pubes;genitals
@@ -2620,9 +2620,9 @@ Ha$aw   NAt     fillings;stuffings;loads
 Ha$aY   N0      intestines;bowels;interior
 Ha$AF   FW-WaBi intestines;bowels;interior     [[Ha$AF/NOUN]]
 Ha$A    N0_Nhy  intestines;bowels;interior
->aHo$A' N0_Nh   intestines;bowels;interior
->aHo$A& Nh      intestines;bowels;interior
->aHo$A} Nhy     intestines;bowels;interior
+OaHo$A' N0_Nh   intestines;bowels;interior
+OaHo$AW Nh      intestines;bowels;interior
+OaHo$A} Nhy     intestines;bowels;interior
 ;; taHo$iyap_1
 taHo$iy NapAt   insertion;interpolation
 ;; taHA$iy_1
@@ -2659,9 +2659,9 @@ HAS~    PV_V    share
 HASaS   PV_C    share
 HAS~    IV_V_yu share
 HASiS   IV_C_yu share
-;; >aHaS~_1
->aHaS~  PV_V    allot a share;allot a quota
->aHoSaS PV_C    allot a share;allot a quota
+;; OaHaS~_1
+OaHaS~  PV_V    allot a share;allot a quota
+OaHoSaS PV_C    allot a share;allot a quota
 HiS~    IV_V_yu allot a share;allot a quota
 HoSiS   IV_C_yu allot a share;allot a quota
 HaS~    IV_V_Pass_yu    be alloted
@@ -2691,7 +2691,7 @@ HaS~ib  IV_yu   pave;macadamize
 ;; HaSab_1
 HaSab   N       ballast
 HaSobA' N0_Nh   pebbles;gravel
-HaSobA& Nh      pebbles;gravel
+HaSobAW Nh      pebbles;gravel
 HaSobA} Nhy     pebbles;gravel
 ;; HaSobap_1
 HaSob   Nap     measles
@@ -2708,8 +2708,8 @@ HaSoHiS IV_intr_yu      become clear;be manifest;come to light
 HaSad   PV      harvest;mow
 HoSid   IV      harvest;mow
 HoSud   IV      harvest;mow
-;; >aHoSad_1
->aHoSad PV_intr be ripe
+;; OaHoSad_1
+OaHoSad PV_intr be ripe
 HoSid   IV_intr_yu      be ripe
 ;; AiHotaSad_1
 AiHotaSad       PV_intr be ripe
@@ -2800,7 +2800,7 @@ HaSif   N/ap    sensible;judicious;discriminating
 ;; HaSiyf_1
 HaSiyf  N/ap    sensible;judicious;discriminating
 HuSafA' N0_Nh   sensible;judicious;discriminating
-HuSafA& Nh      sensible;judicious;discriminating
+HuSafAW Nh      sensible;judicious;discriminating
 HuSafA} Nhy     sensible;judicious;discriminating
 ;; HaSAfap_1
 HaSAf   Nap     sensibility;judiciousness;sound judgment
@@ -2859,8 +2859,8 @@ HoSun   IV-n_intr       be inaccessible;be fortified
 ;; HaS~an_1
 HaS~an  PV-n    make inaccessible;fortify;immunize
 HaS~in  IV-n_yu make inaccessible;fortify;immunize
-;; >aHoSan_1
->aHoSan PV-n    make inaccessible;fortify
+;; OaHoSan_1
+OaHoSan PV-n    make inaccessible;fortify
 HoSin   IV-n_yu make inaccessible;fortify
 HoSan   IV-n_Pass_yu    be made inaccessible;be fortified
 ;; taHaS~an_1
@@ -2872,7 +2872,7 @@ HuSuwn  N       fortifications;protection
 ;; HiSAn_1
 HiSAn   Ndu     horse
 HuSun   N       horses
->aHoSin Nap     horses
+OaHoSin Nap     horses
 ;; HaSiyn_1
 HaSiyn  N/ap    inaccessible;fortified;immune     [[HaSiyn/ADJ]]
 ;; HuSayon_1
@@ -2882,8 +2882,8 @@ HaSAn   Nap     immunity;impregnability
 ;; taHoSiyn_1
 taHoSiyn        NduAt   fortification
 taHoSiyn        NduAt   immunization
-;; <iHoSAn_1
-<iHoSAn NduAt   integrity;chastity
+;; IiHoSAn_1
+IiHoSAn NduAt   integrity;chastity
 ;; taHaS~un_1
 taHaS~un        NduAt   protection;securing
 ;; muHaS~an_1
@@ -2900,11 +2900,11 @@ HaSow   Napdu   pebble
 HaSaw   NAt     pebbles
 ;; HaSawiy~_1
 HaSawiy~        N/ap    stony;gravelly     [[HaSawiy~/ADJ]]
-;; >aHoSaY_1
->aHoSaY PV_0    count;calculate
->aHoSA  PV_h    count;calculate
->aHoSay PV_Atn  count;calculate
->aHoS   PV_ttAw count;calculate
+;; OaHoSaY_1
+OaHoSaY PV_0    count;calculate
+OaHoSA  PV_h    count;calculate
+OaHoSay PV_Atn  count;calculate
+OaHoS   PV_ttAw count;calculate
 HoSiy   IV_0hAnn_yu     count;calculate
 HoS     IV_0hwnyn_yu    count;calculate
 HoSaY   IV_0_Pass_yu    be counted;be calculated
@@ -2918,17 +2918,17 @@ HaSA    Nhy     pebbles
 ;; HaSAp_1
 HaSA    Napdu   pebble
 HaSay   NAt     pebbles
-;; <iHoSA'_1
-<iHoSA' N0_Nh   calculation;statistics
-<iHoSA& Nh      calculation;statistics
-<iHoSA} Nhy     calculation;statistics
-<iHoSA' NAn_Nayn        calculations;statistics
-<iHoSA} Nayn    calculations;statistics
-<iHoSA' NAt     calculations;statistics
-;; <iHoSA}iy~_1
-<iHoSA}iy~      N-ap    statistical     [[<iHoSA}iy~/ADJ]]
-;; <iHoSA}iy~_2
-<iHoSA}iy~      Nall    statistician     [[<iHoSA}iy~/ADJ]]
+;; IiHoSA'_1
+IiHoSA' N0_Nh   calculation;statistics
+IiHoSAW Nh      calculation;statistics
+IiHoSA} Nhy     calculation;statistics
+IiHoSA' NAn_Nayn        calculations;statistics
+IiHoSA} Nayn    calculations;statistics
+IiHoSA' NAt     calculations;statistics
+;; IiHoSA}iy~_1
+IiHoSA}iy~      N-ap    statistical     [[IiHoSA}iy~/ADJ]]
+;; IiHoSA}iy~_2
+IiHoSA}iy~      Nall    statistician     [[IiHoSA}iy~/ADJ]]
 ;
 ;--- HD
 ;; HaD~-u_1
@@ -2955,8 +2955,8 @@ HaD~ir  IV_yu   prepare
 ;; HADar_1
 HADar   PV      lecture
 HADir   IV_yu   lecture
-;; >aHoDar_1
->aHoDar PV      bring;supply
+;; OaHoDar_1
+OaHoDar PV      bring;supply
 HoDir   IV_yu   bring;supply
 HoDar   IV_Pass_yu      be brought;be supplied
 ;; taHaD~ar_1
@@ -3000,8 +3000,8 @@ taHoDiyr        NduAt   preparation;production
 taHoDiyriy~     Nall    preparatory     [[taHoDiyriy~/ADJ]]
 ;; muHADarap_1
 muHADar NapAt   lecture
-;; <iHoDAr_1
-<iHoDAr NduAt   bringing;supplying
+;; IiHoDAr_1
+IiHoDAr NduAt   bringing;supplying
 ;; AiHotiDAr_1
 AiHotiDAr       NduAt   demise;death
 ;; AisotiHoDAr_1
@@ -3046,7 +3046,7 @@ AiHotaDan       PV-n    embrace;carry
 HotaDin IV-n    embrace;carry
 ;; HiDon_1
 HiDon   N       bosom;arms
->aHoDAn N       bosom;arms
+OaHoDAn N       bosom;arms
 ;; HiDAnap_1
 HiDAn   NapAt   nurturing;nursery;incubation
 HaDAn   NapAt   nurturing;nursery;incubation
@@ -3091,8 +3091,8 @@ HotaTiT IV_C    set down
 HaT~    N       putting down;reduction;decrease
 ;; HiT~ap_1
 HiT~    Nap     mitigation;degradation
-;; >aHaT~_1
->aHaT~  Nel     lower;baser
+;; OaHaT~_1
+OaHaT~  Nel     lower;baser
 ;; HaTiyTap_1
 HaTiyT  Nap     price reduction
 ;; maHaT~_1
@@ -3113,7 +3113,7 @@ AiHotaTab       PV      gather firewood
 HotaTib IV      gather firewood
 ;; HaTab_1
 HaTab   N       firewood
->aHoTAb N       firewood
+OaHoTAb N       firewood
 ;; HaT~Ab_1
 HaT~Ab  Nall    woodcutter;wood vendor
 ;; taHoTiyb_1
@@ -3164,9 +3164,9 @@ HaZ~    PV_V_intr       be fortunate
 HaZaZ   PV_C_intr       be fortunate
 HaZ~    IV_V_intr       be fortunate
 HoZaZ   IV_C_intr       be fortunate
-;; >aHaZ~_1
->aHaZ~  PV_V_intr       be fortunate
->aHoZaZ PV_C_intr       be fortunate
+;; OaHaZ~_1
+OaHaZ~  PV_V_intr       be fortunate
+OaHoZaZ PV_C_intr       be fortunate
 HiZ~    IV_V_intr_yu    be fortunate
 HoZiZ   IV_C_intr_yu    be fortunate
 ;; HaZ~_1
@@ -3237,7 +3237,7 @@ Hotaf~  IV_V    surround
 Hotafif IV_C    surround
 ;; HifAf_1
 HifAf   Ndu     side;edge
->aHif~  Nap     sides;edges
+OaHif~  Nap     sides;edges
 ;; Hafiyf_1
 Hafiyf  N       rustling;murmuring
 ;; miHaf~ap_1
@@ -3256,7 +3256,7 @@ maHofuwf        Nall    surrounded;lined     [[maHofuwf/ADJ]]
 ;; Hafiyd_1
 Hafiyd  Ndu     grandson;scion
 Hafiyd  NapAt   granddaughter
->aHofAd N       grandchildren;descendants
+OaHofAd N       grandchildren;descendants
 Hafad   Nap     descendants;grandchildren
 ;
 ;--- Hfr
@@ -3285,9 +3285,9 @@ Hafiyr  N/ap    excavated;dug
 ;; Hafiyrap_1
 Hafiyr  Napdu   excavation
 HafA}ir Ndip    excavations
-;; >uHofuwr_1
->uHofuwr        Ndu     fossil;excavation
->aHAfiyr        Ndip    fossils;excavations
+;; OuHofuwr_1
+OuHofuwr        Ndu     fossil;excavation
+OaHAfiyr        Ndip    fossils;excavations
 ;; miHofar_1
 miHofar Ndu     spade
 maHAfir Ndip    spades
@@ -3325,8 +3325,8 @@ HofaZ   IV      preserve;protect;maintain
 ;; HAfaZ_1
 HAfaZ   PV      preserve;protect
 HAfiZ   IV_yu   preserve;protect
-;; >aHofaZ_1
->aHofaZ PV      annoy
+;; OaHofaZ_1
+OaHofaZ PV      annoy
 HofiZ   IV_yu   annoy
 HofaZ   IV_Pass_yu      be annoyed
 ;; taHaf~aZ_1
@@ -3469,7 +3469,7 @@ HotafaY IV_0_Pass_yu    be affectionate;celebrate
 Hafiy~  Nall    welcoming;greeting     [[Hafiy~/ADJ]]
 ;; AiHotifA'_1
 AiHotifA'       N0_Nh   reception;celebration
-AiHotifA&       Nh      reception;celebration
+AiHotifAW       Nh      reception;celebration
 AiHotifA}       Nhy     reception;celebration
 AiHotifA'       NAn_Nayn        receptions;celebrations
 AiHotifA}       Nayn    receptions;celebrations
@@ -3500,14 +3500,14 @@ HAq~    PV_V    contest a right;litigate
 HAqaq   PV_C    contest a right;litigate
 HAq~    IV_V_yu contest a right;litigate
 HAqiq   IV_C_yu contest a right;litigate
-;; >aHaq~_1
->aHaq~  PV_V_intr       be right;be allowed
->aHoqaq PV_C_intr       be right;be allowed
+;; OaHaq~_1
+OaHaq~  PV_V_intr       be right;be allowed
+OaHoqaq PV_C_intr       be right;be allowed
 Hiq~    IV_V_intr_yu    be right;be allowed
 Hoqiq   IV_C_intr_yu    be right;be allowed
-;; >aHaq~_2
->aHaq~  PV_V    enforce;make right
->aHoqaq PV_C    enforce;make right
+;; OaHaq~_2
+OaHaq~  PV_V    enforce;make right
+OaHoqaq PV_C    enforce;make right
 Hiq~    IV_V_yu enforce;make right
 Hoqiq   IV_C_yu enforce;make right
 ;; taHaq~aq_1
@@ -3530,7 +3530,7 @@ Haq~    NF      really;truly     [[Haq~/ADV]]
 ;; Huq~ap_1
 Huq~    Napdu   small box;container
 HiqAq   N       small boxes;containers
->aHoqAq N       small boxes;containers
+OaHoqAq N       small boxes;containers
 ;; Haqiyq_1
 Haqiyq  N/ap    worthy;competent
 ;; Haqiyqap_1
@@ -3542,10 +3542,10 @@ Haqiyqiy~       Nall    true;real     [[Haqiyqiy~/ADJ]]
 Huquwqiy~       N-ap    juristical     [[Huquwqiy~/ADJ]]
 ;; Huquwqiy~_2
 Huquwqiy~       Nall    jurisprudent;jurist     [[Huquwqiy~/ADJ]]
-;; >aHaq~_3
->aHaq~  Nel     worthier/worthiest
-;; >aHaq~iy~ap_1
->aHaq~iy~       Nap     priority;preference     [[>aHaq~iy~/NOUN]]
+;; OaHaq~_3
+OaHaq~  Nel     worthier/worthiest
+;; OaHaq~iy~ap_1
+OaHaq~iy~       Nap     priority;preference     [[OaHaq~iy~/NOUN]]
 ;; Haq~Aniy~_1
 Haq~Aniy~       Nall    proper;legitimate     [[Haq~Aniy~/ADJ]]
 ;; Haq~Aniy~ap_1
@@ -3579,7 +3579,7 @@ AiHotaqab       PV      put in a bag
 Hotaqib IV      put in a bag
 ;; Huqob_1
 Huqob   N       long period
->aHoqAb N       long periods
+OaHoqAb N       long periods
 HiqAb   N       long periods
 Hiqob   NapAt   long period
 ;; Haqiybap_1
@@ -3593,8 +3593,8 @@ Hoqad   IV      hate
 ;; Haqad-i_1
 Haqad   PV      hate
 Hoqid   IV      hate
-;; >aHoqad_1
->aHoqad PV      embitter
+;; OaHoqad_1
+OaHoqad PV      embitter
 Hoqid   IV_yu   embitter
 Hoqad   IV_Pass_yu      be embittered
 ;; taHaq~ad_1
@@ -3605,7 +3605,7 @@ taHAqad PV      hate one another
 taHAqad IV      hate one another
 ;; Hiqod_1
 Hiqod   N       malice;resentment
->aHoqAd N       malice;resentment
+OaHoqAd N       malice;resentment
 Huquwd  N       malice;resentment
 ;; Haqiydap_1
 Haqiyd  Nap     hatred;hate
@@ -3635,10 +3635,10 @@ sotaHoqir       IV      despise
 ;; Haqiyr_1
 Haqiyr  N/ap    despicable;despised
 HuqarA' N0_Nh   despised;despicable
-HuqarA& Nh      despised;despicable
+HuqarAW Nh      despised;despicable
 HuqarA} Nhy     despised;despicable
-;; >aHoqar_1
->aHoqar Nel     more/most contemptible
+;; OaHoqar_1
+OaHoqar Nel     more/most contemptible
 ;; HaqArap_1
 HaqAr   Nap     vulgarity;ignominy
 ;; taHoqiyr_1
@@ -3682,11 +3682,11 @@ muHotaqan       Nall    congested;flushed     [[muHotaqan/ADJ]]
 ;; Haqow_1
 Haqow   Ndu     loin;groin
 HiqA'   N0_Nh   loins;groin
-HiqA&   Nh      loins;groin
+HiqAW   Nh      loins;groin
 HiqA}   Nhy     loins;groin
->aHoqA' N0_Nh   loins;groin
->aHoqA& Nh      loins;groin
->aHoqA} Nhy     loins;groin
+OaHoqA' N0_Nh   loins;groin
+OaHoqAW Nh      loins;groin
+OaHoqA} Nhy     loins;groin
 ;
 ;--- Hk
 ;; Hak~-u_1
@@ -3694,9 +3694,9 @@ Hak~    PV_V    scrape;chafe
 Hakak   PV_C    scrape;chafe
 Huk~    IV_V    scrape;chafe
 Hokuk   IV_C    scrape;chafe
-;; >aHak~_1
->aHak~  PV_V    itch
->aHokak PV_C    itch
+;; OaHak~_1
+OaHak~  PV_V    itch
+OaHokak PV_C    itch
 Hik~    IV_V_yu itch
 Hokik   IV_C_yu itch
 ;; taHak~ak_1
@@ -3766,8 +3766,8 @@ Hak~im  IV_yu   appoint;choose
 ;; HAkam_1
 HAkam   PV      prosecute;arraign
 HAkim   IV_yu   prosecute;arraign
-;; >aHokam_1
->aHokam PV      strengthen;master
+;; OaHokam_1
+OaHokam PV      strengthen;master
 Hokim   IV_yu   strengthen;master
 Hokam   IV_Pass_yu      be strengthened;be mastered
 ;; taHak~am_1
@@ -3784,7 +3784,7 @@ AisotaHokam     PV_intr be strong
 sotaHokim       IV_intr be strong
 ;; Hukom_1
 Hukom   N       judgment;decision
->aHokAm N       statutes
+OaHokAm N       statutes
 ;; Hukom_2
 Hukom   N       rule;government
 ;; Hukomiy~_1
@@ -3801,12 +3801,12 @@ Hakiym  N0      Hakeem;Hakim
 ;; Hakiym_2
 Hakiym  N/ap    wise;sage     [[Hakiym/ADJ]]
 HukamA' N0_Nh   wise;sage     [[HukamA'/ADJ]]
-HukamA& Nh      wise;sage     [[HukamA&/ADJ]]
+HukamAW Nh      wise;sage     [[HukamAW/ADJ]]
 HukamA} Nhy     wise;sage     [[HukamA}/ADJ]]
 ;; Hakiym_3
 Hakiym  N/ap    physician
 HukamA' N0_Nh   physicians
-HukamA& Nh      physicians
+HukamAW Nh      physicians
 HukamA} Nhy     physicians
 ;; HakiymobA$iy_1
 HakiymobA$iy    N0      senior physician;chief surgeon
@@ -3815,8 +3815,8 @@ Hukuwm  Napdu   government;administration
 Hukuwm  NAt     governments;administrations
 ;; Hukuwmiy~_1
 Hukuwmiy~       Nall    governmental;state;official     [[Hukuwmiy~/ADJ]]
-;; >aHokam_2
->aHokam Nel     wiser/wisest
+;; OaHokam_2
+OaHokam Nel     wiser/wisest
 ;; maHokamap_1
 maHokam Napdu   court;tribunal
 maHAkim Ndip    courts;tribunals
@@ -3826,8 +3826,8 @@ taHokiym        NduAt   arbitration
 taHokiymiy~     Nall    arbitration     [[taHokiymiy~/ADJ]]
 ;; muHAkamap_1
 muHAkam NapAt   judicial proceeding;legal prosecution
-;; <iHokAm_1
-<iHokAm NduAt   accuracy;precision
+;; IiHokAm_1
+IiHokAm NduAt   accuracy;precision
 ;; taHak~um_1
 taHak~um        NduAt   control;controlling
 ;; taHak~um_2
@@ -3892,7 +3892,7 @@ HAkay   IV_Ann_Pass_yu  be imitated
 HikAy   NapAt   story;account
 ;; Hak~A'_1
 Hak~A'  N0_Nh   narrator
-Hak~A&  Nh      narrator
+Hak~AW  Nh      narrator
 Hak~A}  Nhy     narrator
 ;; muHAkAp_1
 muHAkA  Napdu   imitation;resemblance
@@ -3922,9 +3922,9 @@ Holil   IV_C_intr       begin;arrive
 ;; Hal~al_1
 Hal~al  PV      analyze;dissolve;legalize
 Hal~il  IV_yu   analyze;dissolve;legalize
-;; >aHal~_1
->aHal~  PV_V    allow;replace
->aHolal PV_C    allow;replace
+;; OaHal~_1
+OaHal~  PV_V    allow;replace
+OaHolal PV_C    allow;replace
 Hil~    IV_V_yu allow;replace
 Holil   IV_C_yu allow;replace
 Hal~    IV_V_Pass_yu    be allowed
@@ -3963,14 +3963,14 @@ HalAl   N       permissible;legitimate
 Huluwl  N       advent;beginning;start;arrival
 ;; Haliyl_1
 Haliyl  Ndu     husband
->aHil~A'        N0_Nh   husbands
->aHil~A&        Nh      husbands
->aHil~A}        Nhy     husbands
+OaHil~A'        N0_Nh   husbands
+OaHil~AW        Nh      husbands
+OaHil~A}        Nhy     husbands
 ;; Haliylap_1
 Haliyl  Napdu   wife
 HalA}il Ndip    wives
-;; <iHoliyl_1
-<iHoliyl        N       urethra
+;; IiHoliyl_1
+IiHoliyl        N       urethra
 ;; maHal~_1
 maHal~  NduAt   place;location
 maHAl~  Ndip    places;locations
@@ -3986,8 +3986,8 @@ taHoliyl        NduAt   analysis;dissolution
 taHAliyl        Ndip    analyses
 ;; taHoliyliy~_1
 taHoliyliy~     Nall    analytical     [[taHoliyliy~/ADJ]]
-;; <iHolAl_1
-<iHolAl NduAt   achieving;bringing about;replacing
+;; IiHolAl_1
+IiHolAl NduAt   achieving;bringing about;replacing
 ;; taHal~ul_1
 taHal~ul        NduAt   dissolution;separation
 ;; AinoHilAl_1
@@ -4117,14 +4117,14 @@ Halis   PV      remain;stay
 Holas   IV      remain;stay
 ;; Hilos_1
 Hilos   Ndu     addicted to;given to
->aHolAs N       addicted to;given to
+OaHolAs N       addicted to;given to
 ;; Hilos_2
 Hilos   Ndu     saddle blanket
->aHolAs N       saddle blankets
-;; >aHolas_1
->aHolas Nel     bay;chestnut
+OaHolAs N       saddle blankets
+;; OaHolas_1
+OaHolas Nel     bay;chestnut
 HalosA' N0_Nh   bay;chestnut
-HalosA& Nh      bay;chestnut
+HalosAW Nh      bay;chestnut
 HalosA} Nhy     bay;chestnut
 ;
 ;--- Hlf
@@ -4147,11 +4147,11 @@ sotaHolif       IV      make swear
 Halof   N       oath
 ;; Hilof_1
 Hilof   Ndu     treaty;alliance;pact
->aHolAf N       treaties;alliances;pacts
+OaHolAf N       treaties;alliances;pacts
 ;; Haliyf_1
 Haliyf  N/ap    ally;allied;confederate
 HulafA' N0_Nh   allies
-HulafA& Nh      allies
+HulafAW Nh      allies
 HulafA} Nhy     allies
 ;; Hal~uwf_1
 Hal~uwf Ndu     wild boar;swine
@@ -4181,7 +4181,7 @@ taHal~aq        IV      form a circle;gather in a circle
 Haloq   N       shaving;shave
 ;; Huluwq_1
 Huluwq  N       throat;chasm
->aHolAq N       throat;chasm
+OaHolAq N       throat;chasm
 ;; Haloqiy~_1
 Haloqiy~        Nall    guttural     [[Haloqiy~/ADJ]]
 ;; Halaq_1
@@ -4241,7 +4241,7 @@ AiHotalam       PV      attain puberty
 Hotalim IV      attain puberty
 ;; Hulom_1
 Hulom   Ndu     dream
->aHolAm N       dreams
+OaHolAm N       dreams
 ;; Hulomiy~_1
 Hulomiy~        N-ap    dream;illusory     [[Hulomiy~/ADJ]]
 ;; Hulum_1
@@ -4249,7 +4249,7 @@ Hulum   N       puberty
 ;; Hilom_1
 Hilom   N       gentleness;intelligence
 Huluwm  N       gentleness;intelligence
->aHolAm N       intelligence
+OaHolAm N       intelligence
 ;; Halam_1
 Halam   N       ticks;mites;nipples
 Halam   Napdu   tick;mite;nipple
@@ -4260,7 +4260,7 @@ Haliym  N0      Haleem;Halim
 ;; Haliym_2
 Haliym  N/ap    gentle;patient
 HulamA' N0_Nh   gentle;patient
-HulamA& Nh      gentle;patient
+HulamAW Nh      gentle;patient
 HulamA} Nhy     gentle;patient
 ;; Haluwm_1
 Haluwm  N       (Egyptian) cheese
@@ -4302,7 +4302,7 @@ HalAwA  Nhy     pastries;desserts;sweets
 HalAwaY N0      Halawa
 ;; HalowA'_1
 HalowA' N0_Nh   candy
-HalowA& Nh      candy
+HalowAW Nh      candy
 HalowA} Nhy     candy
 ;; HalowA}iy~_1
 HalowA}iy~      Nall    confectioner;pastry cook     [[HalowA}iy~/ADJ]]
@@ -4316,12 +4316,12 @@ HulowAn Ndip    Helwan
 HulowAn N       gratuity;tip
 ;; HulowAniy~_1
 HulowAniy~      Nall    confectioner;pastry cook     [[HulowAniy~/ADJ]]
-;; >aHolaY_1
->aHolaY N0      sweeter;sweetest
->aHolA  Nhy     sweeter;sweetest
->aHolay NAn_Nayn        sweetest
-;; >uHayolaY_1
->uHayolaY       FW      how sweet!     [[>uHayolaY/INTERJ]]
+;; OaHolaY_1
+OaHolaY N0      sweeter;sweetest
+OaHolA  Nhy     sweeter;sweetest
+OaHolay NAn_Nayn        sweetest
+;; OuHayolaY_1
+OuHayolaY       FW      how sweet!     [[OuHayolaY/INTERJ]]
 ;
 ;--- Hly
 ;; Haliy-a_1
@@ -4401,9 +4401,9 @@ Homum   IV_C_intr       be feverish;have a fever
 ;; Ham~am_1
 Ham~am  PV      make hot;wash
 Ham~im  IV_yu   make hot;wash
-;; >aHam~_1
->aHam~  PV_V    make hot
->aHomam PV_C    make hot
+;; OaHam~_1
+OaHam~  PV_V    make hot
+OaHomam PV_C    make hot
 Him~    IV_V_yu make hot
 Homim   IV_C_yu make hot
 Ham~    IV_V_Pass_yu    be made hot
@@ -4433,13 +4433,13 @@ HamAm   N0      Hamam
 Ham~Am  N/At    bath
 ;; Hamiym_1
 Hamiym  N/ap    close friend;intimate
->aHim~A'        N0_Nh   close friends;intimates
->aHim~A&        Nh      close friends;intimates
->aHim~A}        Nhy     close friends;intimates
-;; >aHam~_2
->aHam~  Nel     black
+OaHim~A'        N0_Nh   close friends;intimates
+OaHim~AW        Nh      close friends;intimates
+OaHim~A}        Nhy     close friends;intimates
+;; OaHam~_2
+OaHam~  Nel     black
 Ham~A'  N0_Nh   black
-Ham~A&  Nh      black
+Ham~AW  Nh      black
 Ham~A}  Nhy     black
 ;; miHam~_1
 miHam~  Ndu     cauldron
@@ -4451,25 +4451,25 @@ AisotiHomAm     NapAt   bath
 maHomuwm        Nall    feverish;frantic
 ;
 ;--- HmA
-;; Hama>-a_1
-Hama>   PV->    clean out;dredge
+;; HamaO-a_1
+HamaO   PV-O    clean out;dredge
 Hama|   PV-|    clean out;dredge
-Hama&   PV_w    clean out;dredge
-Homa>   IV      clean out;dredge
+HamaW   PV_w    clean out;dredge
+HomaO   IV      clean out;dredge
 Homa|   IV-|    clean out;dredge
-Homa&   IV_wn   clean out;dredge
+HomaW   IV_wn   clean out;dredge
 Homa}   IV_yn   clean out;dredge
 ;; Hami}-a_1
 Hami}   PV_intr become angry
-Homa>   IV_intr become angry
+HomaO   IV_intr become angry
 Homa|   IV-|    become angry
-Homa&   IV_wn   become angry
+HomaW   IV_wn   become angry
 Homa}   IV_yn   become angry
-;; Hama>_1
-Hama>   N0_Nh   mud;sludge
-Hama&   Nh      mud;sludge
+;; HamaO_1
+HamaO   N0_Nh   mud;sludge
+HamaW   Nh      mud;sludge
 Hama}   Nhy     mud;sludge
-Hamo>   Napdu   mud;sludge
+HamoO   Napdu   mud;sludge
 Hama    N-|t    mud;sludge
 ;
 ;--- HmHm
@@ -4518,15 +4518,15 @@ Hamuwd  N/ap    praiseworthy
 Hamiyd  N0      Hameed;Hamid
 ;; Hamiydap_1
 Hamiydap        N0      Hameeda;Hamida
-;; >aHomad_1
->aHomad N0      Ahmad
-;; >aHomad_2
->aHomad Nel     more praiseworthy
-;; >aHomadiy~_1
->aHomadiy~      Nall    Ahmadi     [[>aHomadiy~/NOUN]]
->aHomadiy~      Nall    Ahmadi     [[>aHomadiy~/ADJ]]
->aHomadiy~      Nall    Ahmadi     [[>aHomadiy~/NOUN]]
->aHomadiy~      Nall    Ahmadi     [[>aHomadiy~/ADJ]]
+;; OaHomad_1
+OaHomad N0      Ahmad
+;; OaHomad_2
+OaHomad Nel     more praiseworthy
+;; OaHomadiy~_1
+OaHomadiy~      Nall    Ahmadi     [[OaHomadiy~/NOUN]]
+OaHomadiy~      Nall    Ahmadi     [[OaHomadiy~/ADJ]]
+OaHomadiy~      Nall    Ahmadi     [[OaHomadiy~/NOUN]]
+OaHomadiy~      Nall    Ahmadi     [[OaHomadiy~/ADJ]]
 ;; HAmid_1
 HAmid   N0      Hamid
 ;; HAmuwdap_1
@@ -4585,7 +4585,7 @@ Humor   Nap     redness;rouge
 HimAr   Ndu     donkey
 Hamiyr  N       donkeys
 Humur   N       donkeys
->aHomir Nap     donkeys
+OaHomir Nap     donkeys
 ;; HimArap_1
 HimAr   Napdu   she-ass
 HamA}ir Ndip    she-asses
@@ -4596,15 +4596,15 @@ Humayor Nap     redstart
 ;; Ham~Ar_1
 Ham~Ar  Ndu     donkey driver
 Ham~Ar  Nap     donkey drivers
-;; >aHomar_1
->aHomar Nel     red
+;; OaHomar_1
+OaHomar Nel     red
 HamorA' N0_Nh   red
-HamorA& Nh      red
+HamorAW Nh      red
 HamorA} Nhy     red
-;; >aHomar_2
->aHomar N0      Red
+;; OaHomar_2
+OaHomar N0      Red
 HamorA' N0_Nh   Alhambra
-HamorA& Nh      Alhambra
+HamorAW Nh      Alhambra
 HamorA} Nhy     Alhambra
 Humur   N       reds;redskins
 ;; AiHomirAr_1
@@ -4647,10 +4647,10 @@ HamAs   N       fortitude;enthusiasm
 HamAs   Nap     bravery;fervor
 ;; HamAsiy~_1
 HamAsiy~        Nall    zealous;fervent     [[HamAsiy~/ADJ]]
-;; >aHomas_1
->aHomas Nel     valiant;zealous
+;; OaHomas_1
+OaHomas Nel     valiant;zealous
 HamosA' N0_Nh   valiant;zealous
-HamosA& Nh      valiant;zealous
+HamosAW Nh      valiant;zealous
 HamosA} Nhy     valiant;zealous
 Humos   N       valiant;zealous
 ;; taHam~us_1
@@ -4691,7 +4691,7 @@ Ham~aD  PV      make sour;oxidize
 Ham~iD  IV_yu   make sour;oxidize
 ;; HamoD_1
 HamoD   N       acid
->aHomAD N       acids
+OaHomAD N       acids
 ;; HamoDiy~_1
 HamoDiy~        N/ap    citrus;citric     [[HamoDiy~/ADJ]]
 ;; HamoDiy~ap_1
@@ -4702,8 +4702,8 @@ HumuwD  Nap     sourness;acidity
 Hum~AD  N       sorrel (salad plant)
 ;; taHomiyD_1
 taHomiyD        NduAt   souring;acidification
-;; <iHomAD_1
-<iHomAD NduAt   jocular;joking
+;; IiHomAD_1
+IiHomAD NduAt   jocular;joking
 ;; HAmiD_1
 HAmiD   N/ap    acid
 ;; HAmiD_2
@@ -4725,8 +4725,8 @@ Homuq   IV_intr be stupid
 ;; Ham~aq_1
 Ham~aq  PV      regard as stupid
 Ham~iq  IV_yu   regard as stupid
-;; >aHomaq_1
->aHomaq PV      regard as stupid
+;; OaHomaq_1
+OaHomaq PV      regard as stupid
 Homiq   IV_yu   regard as stupid
 Homaq   IV_Pass_yu      be regarded as stupid
 ;; taHAmaq_1
@@ -4744,10 +4744,10 @@ Humoq   N       stupidity
 HamAq   NapAt   stupidity
 ;; HumAq_1
 HumAq   N       smallpox;variola
-;; >aHomaq_2
->aHomaq Nel     stupid
+;; OaHomaq_2
+OaHomaq Nel     stupid
 HamoqA' N0_Nh   stupid
-HamoqA& Nh      stupid
+HamoqAW Nh      stupid
 HamoqA} Nhy     stupid
 Humuq   N       stupid
 HamoqAn N       stupid
@@ -4774,7 +4774,7 @@ Hamol   N       carrying
 Hamol   N       urging;compelling;forcing
 ;; Himol_1
 Himol   N       burden
->aHomAl N       loads;cargo
+OaHomAl N       loads;cargo
 ;; Hamal_1
 Hamal   N       Aries
 ;; Hamolap_1
@@ -4790,8 +4790,8 @@ Ham~Al  Nall    porter;carrier
 Ham~Al  Nap     beam;girder
 ;; Humuwlap_1
 Humuwl  NapAt   tonnage;load capacity
-;; >aHomal_1
->aHomal Nel     more/most tolerant
+;; OaHomal_1
+OaHomal Nel     more/most tolerant
 ;; maHomal_1
 maHomal Ndu     bearing
 ;; taHomiyl_1
@@ -4848,9 +4848,9 @@ Hamiy   FW-WaBi father-in-law + my      [[Ham/NOUN+iy/POSS_PRON_1S]]
 Hamuw   N0_Nh   father-in-law of
 HamA    N0_Nh   father-in-law of
 Hamiy   N0_Nh   father-in-law of
->aHomA' N0_Nh   fathers-in-law
->aHomA& Nh      fathers-in-law
->aHomA} Nhy     fathers-in-law
+OaHomA' N0_Nh   fathers-in-law
+OaHomAW Nh      fathers-in-law
+OaHomA} Nhy     fathers-in-law
 ;; HamAp_1
 HamA    Napdu   mother-in-law
 Hamaw   NAt     mothers-in-law
@@ -4901,11 +4901,11 @@ HAmiy   IV_0hAnn_yu     defend;advocate
 HAm     IV_0hwnyn_yu    defend;advocate
 HAmaY   IV_0_Pass_yu    be defended;be advocated
 HAmay   IV_Ann_Pass_yu  be defended;be advocated
-;; >aHomaY_1
->aHomaY PV_0    make hot;kindle
->aHomA  PV_h    make hot;kindle
->aHomay PV_Atn  make hot;kindle
->aHom   PV_ttAw make hot;kindle
+;; OaHomaY_1
+OaHomaY PV_0    make hot;kindle
+OaHomA  PV_h    make hot;kindle
+OaHomay PV_Atn  make hot;kindle
+OaHom   PV_ttAw make hot;kindle
 Homiy   IV_0hAnn_yu     make hot;kindle
 Hom     IV_0hwnyn_yu    make hot;kindle
 HomaY   IV_0_Pass_yu    be made hot;be kindled
@@ -4947,7 +4947,7 @@ muHAmA  Napdu   defense;advocating
 muHAmay NAt     defenses;advocating
 ;; AiHotimA'_1
 AiHotimA'       N0_Nh   seeking cover;shelter
-AiHotimA&       Nh      seeking cover;shelter
+AiHotimAW       Nh      seeking cover;shelter
 AiHotimA}       Nhy     seeking cover;shelter
 AiHotimA'       NAn_Nayn        seeking cover;shelters
 AiHotimA}       Nayn    seeking cover;shelters
@@ -5013,14 +5013,14 @@ taHonAn N       compassion;affection
 taHan~un        NduAt   affection;sympathy
 ;
 ;--- HnA
-;; Han~a>_1
-Han~a>  PV->    dye red
+;; Han~aO_1
+Han~aO  PV-O    dye red
 Han~a|  PV-|    dye red
-Han~a&  PV_w    dye red
+Han~aW  PV_w    dye red
 Han~i}  IV_yu   dye red
 ;; Hin~A'_1
 Hin~A'  N0_Nh   henna
-Hin~A&  Nh      henna
+Hin~AW  Nh      henna
 Hin~A}  Nhy     henna
 ;
 ;--- Hnb
@@ -5054,7 +5054,7 @@ taHan~av        PV_intr be pious
 taHan~av        IV_intr be pious
 ;; Hinov_1
 Hinov   N       perjury;sin
->aHonAv N       perjury;sin
+OaHonAv N       perjury;sin
 ;
 ;--- Hnjr
 ;; Hanojar_1
@@ -5086,7 +5086,7 @@ Hanodaquwq      N       melilot;sweet clover
 ;--- Hn$
 ;; Hana$_1
 Hana$   N       snake
->aHonA$ N       snakes
+OaHonA$ N       snakes
 ;; Haniy$_1
 Haniy$  Nprop   Hanish
 ;; HanA$At_1
@@ -5127,7 +5127,7 @@ Haniyf  N0      Hanif;Haneef
 ;; Haniyf_2
 Haniyf  N/ap    orthodox
 HunafA' N0_Nh   orthodox
-HunafA& Nh      orthodox
+HunafAW Nh      orthodox
 HunafA} Nhy     orthodox
 ;; Haniyfap_1
 Haniyfap        Nprop   Hanifa
@@ -5139,15 +5139,15 @@ Hanafiy~        Nall    Hanafi     [[Hanafiy~/ADJ]]
 ;; Hanafiy~ap_1
 Hanafiy~        NapAt   faucet;tap     [[Hanafiy~/NOUN]]
 Hanafiy~        Nap     Hanafism     [[Hanafiy~/ADJ]]
-;; >aHonaf_1
->aHonaf Nel     clubfoot
+;; OaHonaf_1
+OaHonaf Nel     clubfoot
 ;
 ;--- Hnq
 ;; Haniq-a_1
 Haniq   PV_intr be furious;be annoyed
 Honaq   IV_intr be furious;be annoyed
-;; >aHonaq_1
->aHonaq PV      infuriate;irritate
+;; OaHonaq_1
+OaHonaq PV      infuriate;irritate
 Honiq   IV_yu   infuriate;irritate
 Honaq   IV_Pass_yu      be infuriated;be irritated
 ;; Hanaq_1
@@ -5169,12 +5169,12 @@ Honuk   IV      sophisticate;make experienced;make world-wise
 ;; Han~ak_1
 Han~ak  PV      sophisticate;make experienced;make world-wise
 Han~ik  IV_yu   sophisticate;make experienced;make world-wise
-;; >aHonak_1
->aHonak PV      sophisticate;make experienced;make world-wise
+;; OaHonak_1
+OaHonak PV      sophisticate;make experienced;make world-wise
 Honik   IV_yu   sophisticate;make experienced;make world-wise
 ;; Hanak_1
 Hanak   N       palate
->aHonAk N       palates
+OaHonAk N       palates
 ;; Hanakiy~_1
 Hanakiy~        Nall    palatal     [[Hanakiy~/ADJ]]
 ;; Hunok_1
@@ -5189,9 +5189,9 @@ muHan~ak        Nall    experienced;shrewd
 Hanow   N       bending;turning
 ;; Hinow_1
 Hinow   N       bend;turn
->aHonA' N0_Nh   bends;twists;ribs
->aHonA& Nh      bends;twists;ribs
->aHonA} Nhy     bends;twists;ribs
+OaHonA' N0_Nh   bends;twists;ribs
+OaHonAW Nh      bends;twists;ribs
+OaHonA} Nhy     bends;twists;ribs
 ;; Hunuw~_1
 Hunuw~  N       sympathy;affection
 ;
@@ -5219,7 +5219,7 @@ maHAniy N0_Nh   curvatures;bending
 maHAn   NK      curvatures;bending
 ;; AinoHinA'_1
 AinoHinA'       N0_Nh   bend;curvature;bow
-AinoHinA&       Nh      bend;curvature;bow
+AinoHinAW       Nh      bend;curvature;bow
 AinoHinA}       Nhy     bend;curvature;bow
 AinoHinA'       NAn_Nayn        bend;curvature;bow
 AinoHinA}       Nayn    bend;curvature;bow
@@ -5246,7 +5246,7 @@ munoHanay       NAt     curvatures;bends;slopes
 ;--- Hwy
 ;; Haw~A'_1
 Haw~A'  N0_Nh   Eve
-Haw~A&  Nh      Eve
+Haw~AW  Nh      Eve
 Haw~A}  Nhy     Eve
 ;
 ;--- Hwb
@@ -5257,14 +5257,14 @@ taHaw~ab        IV      abstain;be pious
 Hawob   Nap     sin;misdeed
 ;; HawobA'_1
 HawobA' N0_Nh   soul
-HawobA& Nh      soul
+HawobAW Nh      soul
 HawobA} Nhy     soul
 ;
 ;--- Hwt
 ;; Huwt_1
 Huwt    Ndu     whale;fish
 HiytAn  N       whales;fish
->aHowAt N       whales;fish
+OaHowAt N       whales;fish
 ;; Huwt_2
 Huwt    N0      Hout
 ;; Huwt_3
@@ -5273,9 +5273,9 @@ Huwt    N0      Hout (12th month of solar year, in S.Ar.)
 Huwt    N0      Pisces
 ;
 ;--- Hwv
-;; >aHAv_1
->aHAv   PV_V    excavate
->aHav   PV_C    excavate
+;; OaHAv_1
+OaHAv   PV_V    excavate
+OaHav   PV_C    excavate
 Hiyv    IV_V_yu excavate
 Hiv     IV_C_yu excavate
 HAv     IV_V_Pass_yu    be excavated
@@ -5291,8 +5291,8 @@ sotaHav IV_C_Pass_yu    be excavated
 musotaHAv       NduAt   fossil;excavation
 ;
 ;--- Hwj
-;; >aHowaj_1
->aHowaj PV      need;require
+;; OaHowaj_1
+OaHowaj PV      need;require
 Howij   IV_yu   need;require
 Howaj   IV_Pass_yu      be need;be required
 ;; AiHotAj_1
@@ -5310,8 +5310,8 @@ HAjiy~  NAt     needs;necessities     [[HAjiy~/NOUN]]
 AiHotiyAj       NduAt   need;requirement
 ;; muHotAj_1
 muHotAj Nall    in need;wanting;requiring
-;; >aHowaj_2
->aHowaj Nel     in greater need;more necessary
+;; OaHowaj_2
+OaHowaj Nel     in greater need;more necessary
 ;; maHAwiyj_1
 maHAwiyj        Ndip    poor;destitute
 ;
@@ -5338,8 +5338,8 @@ HA*     PV_V    urge on;spur on
 Hu*     PV_C    urge on;spur on
 Huw*    IV_V    urge on;spur on
 Hu*     IV_C    urge on;spur on
-;; >aHowa*_1
->aHowa* PV      urge on;spur on
+;; OaHowa*_1
+OaHowa* PV      urge on;spur on
 Howi*   IV_yu   urge on;spur on
 Howa*   IV_Pass_yu      be urged on;be spurred on
 ;; AisotaHowa*_1
@@ -5364,9 +5364,9 @@ Haw~ir  IV_yu   modify;transform;whiten
 ;; HAwar_1
 HAwar   PV      converse with;discuss with
 HAwir   IV_yu   converse with;discuss with
-;; >aHAr_1
->aHAr   PV_V    answer;reply
->aHar   PV_C    answer;reply
+;; OaHAr_1
+OaHAr   PV_V    answer;reply
+OaHar   PV_C    answer;reply
 Hiyr    IV_V_yu answer;reply
 Hir     IV_C_yu answer;reply
 HAr     IV_V_Pass_yu    be answered;be replied
@@ -5382,10 +5382,10 @@ Hawar   N       white poplar
 ;; HiwAr_1
 HiwAr   Ndu     conversation;dialogue;discussion
 HiwAr   NAt     dialogue;discussions;talks
-;; >aHowar_1
->aHowar Nel     white and black
+;; OaHowar_1
+OaHowar Nel     white and black
 HaworA' N0_Nh   white and black
-HaworA& Nh      white and black
+HaworAW Nh      white and black
 HaworA} Nhy     white and black
 Huwr    N       white and black
 ;; Haw~Arap_1
@@ -5456,8 +5456,8 @@ Hotaz   IV_C    possess;take possession of
 Hawoz   N       possession;attainment;occupancy
 ;; Hawoz_2
 Hawoz   N       boundary;enclosure
->aHowAz N       boundary;enclosure
->aHowAz N       surrounding area;suburbs
+OaHowAz N       boundary;enclosure
+OaHowAz N       surrounding area;suburbs
 ;; Hawoziy~_1
 Hawoziy~        Nall    possessory;tenurial     [[Hawoziy~/ADJ]]
 ;; Hawozap_1
@@ -5465,7 +5465,7 @@ Hawoz   NapAt   possession;territory
 ;; Hay~iz_1
 Hay~iz  Ndu     scope;domain;sphere
 Hayoz   Ndu     scope;domain;sphere
->aHoyAz N       scopes;domains;spheres
+OaHoyAz N       scopes;domains;spheres
 ;; HiyAzap_1
 HiyAz   Nap     possession;attainment
 ;; taHay~uz_1
@@ -5498,7 +5498,7 @@ Haw~i$  IV_yu   amass;save;hoard
 ;; Hawo$_1
 Hawo$   N       enclosure;courtyard
 Hiy$An  N       enclosures;courtyards
->aHowA$ N       enclosures;courtyards
+OaHowA$ N       enclosures;courtyards
 ;; Hawa$_1
 Hawa$   N       mob;riffraff
 ;; Huw$iy~_1
@@ -5507,9 +5507,9 @@ Huw$iy~ N/ap    wild;strange     [[Huw$iy~/ADJ]]
 ;--- HwS
 ;; HawaS_1
 HawaS   N       squinting
->aHowaS Nel     squinting
+OaHowaS Nel     squinting
 HawoSA' N0_Nh   squinting
-HawoSA& Nh      squinting
+HawoSAW Nh      squinting
 HawoSA} Nhy     squinting
 HuwS    N       squinting
 ;; HiyASap_1
@@ -5525,7 +5525,7 @@ HawoSal NapAt   summary;resume
 ;--- HwD
 ;; HawoD_1
 HawoD   Ndu     basin;reservoir
->aHowAD N       basins;reservoir
+OaHowAD N       basins;reservoir
 HiyAD   N       basins;reservoirs
 HiyAD   N       safe havens
 HiyDAn  N       basins;reservoirs
@@ -5544,9 +5544,9 @@ Haw~iT  IV_yu   encircle;surround
 ;; HAwaT_1
 HAwaT   PV      try to outwit;mislead
 HAwiT   IV_yu   try to outwit;mislead
-;; >aHAT_1
->aHAT   PV_V    surround;encircle
->aHaT   PV_C    surround;encircle
+;; OaHAT_1
+OaHAT   PV_V    surround;encircle
+OaHaT   PV_C    surround;encircle
 HiyT    IV_V_yu surround;encircle
 HiT     IV_C_yu surround;encircle
 HAT     IV_V_Pass_yu    be surrounded;be encircled
@@ -5567,8 +5567,8 @@ HawoT   Nap     caution;care
 HiyAT   Nap     guarding;custody
 ;; taHowiyT_1
 taHowiyT        NduAt   encirclement
-;; <iHATap_1
-<iHAT   Nap     surrounding;encompassing
+;; IiHATap_1
+IiHAT   Nap     surrounding;encompassing
 ;; taHaw~uT_1
 taHaw~uT        NduAt   precaution;attention
 ;; AiHotiyAT_1
@@ -5663,9 +5663,9 @@ Haw~il  IV_yu   change;convert;switch
 ;; HAwal_1
 HAwal   PV      attempt
 HAwil   IV_yu   attempt
-;; >aHAl_1
->aHAl   PV_V    refer;assign
->aHal   PV_C    refer;assign
+;; OaHAl_1
+OaHAl   PV_V    refer;assign
+OaHal   PV_C    refer;assign
 Hiyl    IV_V_yu refer;assign
 Hil     IV_C_yu refer;assign
 HAl     IV_V_Pass_yu    appear (in court);be referred;be assigned
@@ -5693,7 +5693,7 @@ sotaHiyl        IV_V_intr       be impossible;be transformed
 sotaHil IV_C_intr       be impossible;be transformed
 ;; HAl_1
 HAl     N       situation;condition;case
->aHowAl N       situations;conditions;cases
+OaHowAl N       situations;conditions;cases
 ;; HAlamA_1
 HAlamA  FW-Wa   as soon as    [[HAlamA/CONJ]]
 ;; HAlap_1
@@ -5705,8 +5705,8 @@ HAliy~  NF      presently;currently     [[HAliy~/ADV]]
 HawAlaY FW-WaBi approximately;around     [[HawAlaY/PREP]]
 HawAlay FW-WaBi approximately;around     [[HawAlay/PREP]]
 HawAlay FW-Wa-y approximately;around     [[HawAlay/PREP]]
-;; Hu&uwl_1
-Hu&uwl  N       change;transformation
+;; HuWuwl_1
+HuWuwl  N       change;transformation
 ;; HiyAla_1
 HiyAla  FW-Wa   concerning;with regard to     [[HiyAla/PREP]]
 HiyAli  FW-Wa   concerning;with regard to     [[HiyAli/PREP]]
@@ -5723,8 +5723,8 @@ taHowiyl        NapAt   sidetrack;branch
 taHAwiyl        Ndip    sidetracks;branches
 ;; muHAwalap_1
 muHAwal NapAt   attempt;effort
-;; <iHAlap_1
-<iHAl   NapAt   transfer;remittance
+;; IiHAlap_1
+IiHAl   NapAt   transfer;remittance
 ;; taHaw~ul_1
 taHaw~ul        NduAt   change;transformation
 ;; AiHotiyAl_1
@@ -5762,10 +5762,10 @@ Hawol   N       power
 Hawoliy~        N/ap    periodic     [[Hawoliy~/ADJ]]
 ;; Hawoliy~ap_1
 Hawoliy~        NapAt   annals;journal     [[Hawoliy~/NOUN]]
-;; >aHowal_1
->aHowal Nel     squinting;cross-eyed
+;; OaHowal_1
+OaHowal Nel     squinting;cross-eyed
 HawolA' N0_Nh   squinting;cross-eyed
-HawolA& Nh      squinting;cross-eyed
+HawolAW Nh      squinting;cross-eyed
 HawolA} Nhy     squinting;cross-eyed
 ;; HiwAl_1
 HiwAl   N       obstacle;partition
@@ -5781,11 +5781,11 @@ Hayol   N       strength;force
 ;; Hiylap_1
 Hiyl    Napdu   stratagem;ruse
 Hiyal   N       stratagems;ruses
->aHAyiyl        Ndip    stratagems;ruses
+OaHAyiyl        Ndip    stratagems;ruses
 ;; Hiyaliy~_1
 Hiyaliy~        Nall    cunning     [[Hiyaliy~/ADJ]]
-;; >aHoyal_1
->aHoyal Nel     craftier;more cunning
+;; OaHoyal_1
+OaHoyal Nel     craftier;more cunning
 ;; taHay~ul_1
 taHay~ul        NduAt   trickery
 ;; taHAyul_1
@@ -5849,7 +5849,7 @@ HAwiy   NapAt   magician;juggler
 HuwA    Nap     magicians;jugglers
 ;; AiHotiwA'_1
 AiHotiwA'       N0_Nh   inclusion;content
-AiHotiwA&       Nh      inclusion;content
+AiHotiwAW       Nh      inclusion;content
 AiHotiwA}       Nhy     inclusion;content
 AiHotiwA'       NAn_Nayn        inclusion;content
 AiHotiwA}       Nayn    inclusion;content
@@ -5889,11 +5889,11 @@ Hay~iy  IV_0hAnn_yu     grant a long life
 Hay~    IV_0hwnyn_yu    grant a long life
 Hay~aY  IV_0_Pass_yu    be granted a long life
 Hay~ay  IV_Ann_Pass_yu  be granted a long life
-;; >aHoyaY_1
->aHoyaY PV_0    enliven;celebrate
->aHoyA  PV_h    enliven;celebrate
->aHoyay PV_Atn  enliven;celebrate
->aHoy   PV_ttAw enliven;celebrate
+;; OaHoyaY_1
+OaHoyaY PV_0    enliven;celebrate
+OaHoyA  PV_h    enliven;celebrate
+OaHoyay PV_Atn  enliven;celebrate
+OaHoy   PV_ttAw enliven;celebrate
 Hoyiy   IV_0hAnn_yu     enliven;celebrate
 Hoy     IV_0hwnyn_yu    enliven;celebrate
 HoyaY   IV_0_Pass_yu    be enlivened;be celebrated
@@ -5924,9 +5924,9 @@ sotaH 	IV_0hwnyn       be embarrassed;be shy
 Hay~    N0      Hayy
 ;; Hay~_2
 Hay~    N-ap    alive;living;live;lively     [[Hay~/ADJ]]
->aHoyA' N0_Nh   alive;living;live;lively     [[>aHoyA'/ADJ]]
->aHoyA& Nh      alive;living;live;lively     [[>aHoyA&/ADJ]]
->aHoyA} Nhy     alive;living;live;lively     [[>aHoyA}/ADJ]]
+OaHoyA' N0_Nh   alive;living;live;lively     [[OaHoyA'/ADJ]]
+OaHoyAW Nh      alive;living;live;lively     [[OaHoyAW/ADJ]]
+OaHoyA} Nhy     alive;living;live;lively     [[OaHoyA}/ADJ]]
 ;; taHiy~ap_1
 taHiy~  NapAt   greeting;salute     [[taHiy~/NOUN]]
 taHAyA  N0      greetings;salutations
@@ -5941,26 +5941,26 @@ muHiy   Nprop   Muhi
 ;--- Hyy(2)
 ;; Hay~_3
 Hay~    N       quarter;district
->aHoyA' N0_Nh   quarters;districts
->aHoyA& Nh      quarters;districts
->aHoyA} Nhy     quarters;districts
+OaHoyA' N0_Nh   quarters;districts
+OaHoyAW Nh      quarters;districts
+OaHoyA} Nhy     quarters;districts
 ;
 ;--- Hyy(3)
 ;; Hay~ap_1
 Hay~    NapAt   snake
 ;
 ;--- Hyy(4)
-;; >aHoyA}iy~_1
->aHoyA}iy~      Nall    biological;biologist     [[>aHoyA}iy~/ADJ]]
+;; OaHoyA}iy~_1
+OaHoyA}iy~      Nall    biological;biologist     [[OaHoyA}iy~/ADJ]]
 ;; Hayiy~_1
 Hayiy~  N/ap    bashful;modest     [[Hayiy~/ADJ]]
 ;; HayA'_1
 HayA'   N0_Nh   modesty;shame
-HayA&   Nh      modesty;shame
+HayAW   Nh      modesty;shame
 HayA}   Nhy     modesty;shame
 ;; AisotiHoyA'_1
 AisotiHoyA'     N0_Nh   shame;bashfulness
-AisotiHoyA&     Nh      shame;bashfulness
+AisotiHoyAW     Nh      shame;bashfulness
 AisotiHoyA}     Nhy     shame;bashfulness
 AisotiHoyA'     NAt     shame;bashfulness
 ;; HayAp_1
@@ -5982,18 +5982,18 @@ HayawAniy~      Nall    animal;zoological     [[HayawAniy~/ADJ]]
 HayawAniy~      Nap     bestiality;animal nature     [[HayawAniy~/NOUN]]
 ;; Huway~in_1
 Huway~in        N-ap    small animal
-;; >aHoyaY_2
->aHoyaY N0      livelier/liveliest;more/most vital
->aHoyA  Nhy     livelier/liveliest;more/most vital
->aHoyay NAn_Nayn        liveliest;most vital
->aHoyaw NAn_Nayn        liveliest;most vital
-;; <iHoyA'_1
-<iHoyA' N0_Nh   commemoration
-<iHoyA& Nh      commemoration
-<iHoyA} Nhy     commemoration
-<iHoyA' NAn_Nayn        commemorations
-<iHoyA} Nayn    commemorations
-<iHoyA' NAt     commemorations
+;; OaHoyaY_2
+OaHoyaY N0      livelier/liveliest;more/most vital
+OaHoyA  Nhy     livelier/liveliest;more/most vital
+OaHoyay NAn_Nayn        liveliest;most vital
+OaHoyaw NAn_Nayn        liveliest;most vital
+;; IiHoyA'_1
+IiHoyA' N0_Nh   commemoration
+IiHoyAW Nh      commemoration
+IiHoyA} Nhy     commemoration
+IiHoyA' NAn_Nayn        commemorations
+IiHoyA} Nayn    commemorations
+IiHoyA' NAt     commemorations
 ;
 ;; muHay~A_1
 muHay~A N0      Muhaya;Muhayya
@@ -6158,9 +6158,9 @@ HAq     PV_V    overtake;pierce;surround
 Hiq     PV_C    overtake;pierce;surround
 Hiyq    IV_V    overtake;pierce;surround
 Hiq     IV_C    overtake;pierce;surround
-;; >aHAq_1
->aHAq   PV_V    surround;bring down
->aHaq   PV_C    surround;bring down
+;; OaHAq_1
+OaHAq   PV_V    surround;bring down
+OaHaq   PV_C    surround;bring down
 Hiyq    IV_V_yu surround;bring down
 Hiq     IV_C_yu surround;bring down
 HAq     IV_V_Pass_yu    be surrounded;be brought down
@@ -6204,8 +6204,8 @@ sotaHoyin       IV-n    wait for the right time
 Hayon   N       death;destruction
 ;; Hiyn_1
 Hiyn    N       time;moment;opportunity
->aHoyAn N       times;opportunities
->aHoyAn NF      sometimes;occasionally     [[>aHoyAn/ADV]]
+OaHoyAn N       times;opportunities
+OaHoyAn NF      sometimes;occasionally     [[OaHoyAn/ADV]]
 ;
 ;; HAn_1
 HAn     N       bar;tavern

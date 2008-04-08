@@ -68,12 +68,12 @@ nAsywnAl        N0      National;Nacional
 nAgiyuwfA       Nprop   Nagyova
 ;
 ;--- nAm
-;; na>am-ia_1
-na>am   PV      resound;groan
+;; naOam-ia_1
+naOam   PV      resound;groan
 no}im   IV      resound;groan
-no>am   IV      resound;groan
-;; na>omap_1
-na>om   Nap     noise;sound
+noOam   IV      resound;groan
+;; naOomap_1
+naOom   Nap     noise;sound
 ;
 ;--- nAmb
 ;; nAmiybiyA_1
@@ -104,85 +104,85 @@ nAhiyk  FW-Wa   not to mention     [[nAhiyk/FUNC_WORD]]
 nAwohiyruw      Nprop   Naohiro
 ;
 ;--- nAy
-;; na>aY-a_1
-na>aY   PV_0    be distant;go away
-na>ay   PV_Atn  be distant;go away
-na>a    PV_ttAw_intr    be distant;go away
-no>aY   IV_0    be distant;go away
-no>ay   IV_Ann  be distant;go away
-no>a    IV_0hwnyn       be distant;go away
+;; naOaY-a_1
+naOaY   PV_0    be distant;go away
+naOay   PV_Atn  be distant;go away
+naOa    PV_ttAw_intr    be distant;go away
+noOaY   IV_0    be distant;go away
+noOay   IV_Ann  be distant;go away
+noOa    IV_0hwnyn       be distant;go away
 ;; nA'aY_1
 nA'aY   PV_0    keep far away
 nA'A    PV_h    keep far away
 nA}ay   PV_Atn  keep far away
 nA'     PV_ttAw keep far away
-nA&     PV_w    keep far away
+nAW     PV_w    keep far away
 nA}iy   IV_0hAnn_yu     keep far away
 nA'     IV_0hwnyn_yu    keep far away
-nA&     IV_wn_yu        keep far away
+nAW     IV_wn_yu        keep far away
 nA}     IV_yn_yu        keep far away
 nA'aY   IV_0_Pass_yu    be kept far away
 nA}ay   IV_Ann_Pass_yu  be kept far away
-;; >ano>aY_1
->ano>aY PV_0    remove;place at a distance
->ano|   PV_h    remove;place at a distance
->ano>ay PV_Atn  remove;place at a distance
->ano}ay PV_Atn  remove;place at a distance
->ano>   PV_ttAw remove;place at a distance
->ano&   PV_w    remove;place at a distance
+;; OanoOaY_1
+OanoOaY PV_0    remove;place at a distance
+Oano|   PV_h    remove;place at a distance
+OanoOay PV_Atn  remove;place at a distance
+Oano}ay PV_Atn  remove;place at a distance
+OanoO   PV_ttAw remove;place at a distance
+OanoW   PV_w    remove;place at a distance
 no}iy   IV_0hAnn_yu     remove;place at a distance
-no>     IV_0hwnyn_yu    remove;place at a distance
-no&     IV_wn_yu        remove;place at a distance
+noO     IV_0hwnyn_yu    remove;place at a distance
+noW     IV_wn_yu        remove;place at a distance
 no}     IV_yn_yu        remove;place at a distance
-no>aY   IV_0_Pass_yu    be removed;be placed at a distance
-no>ay   IV_Ann_Pass_yu  be removed;be placed at a distance
+noOaY   IV_0_Pass_yu    be removed;be placed at a distance
+noOay   IV_Ann_Pass_yu  be removed;be placed at a distance
 ;; tanA'aY_1
 tanA'aY PV_0    move apart;be separated;be distant
 tanA|   PV_h    move apart;be separated;be distant
 tanA}ay PV_Atn  move apart;be separated;be distant
 tanA'   PV_ttAw move apart;be separated;be distant
-tanA&   PV_w    move apart;be separated;be distant
+tanAW   PV_w    move apart;be separated;be distant
 tanA'aY IV_0    move apart;be separated;be distant
 tanA|   IV_h    move apart;be separated;be distant
 tanA}ay IV_Ann  move apart;be separated;be distant
 tanA'   IV_0hwnyn       move apart;be separated;be distant
-tanA&   IV_wn   move apart;be separated;be distant
+tanAW   IV_wn   move apart;be separated;be distant
 tanA}   IV_yn   move apart;be separated;be distant
-;; Ainota>aY_1
-Ainota>aY       PV_0    be distant;go away
+;; AinotaOaY_1
+AinotaOaY       PV_0    be distant;go away
 Ainota| PV_h    be distant;go away
-Ainota>ay       PV_Atn  be distant;go away
-Ainota> PV_ttAw_intr    be distant;go away
-Ainota& PV_w_intr       be distant;go away
-nota>iy IV_0hAnn        be distant;go away
+AinotaOay       PV_Atn  be distant;go away
+AinotaO PV_ttAw_intr    be distant;go away
+AinotaW PV_w_intr       be distant;go away
+notaOiy IV_0hAnn        be distant;go away
 nota}iy IV_0hAnn        be distant;go away
-nota>   IV_0hwnyn       be distant;go away
-nota&   IV_wn   be distant;go away
+notaO   IV_0hwnyn       be distant;go away
+notaW   IV_wn   be distant;go away
 nota}   IV_yn   be distant;go away
-nota>aY IV_0_Pass_yu    be distant;go away
-;; na>oy_1
-na>oy   N       remoteness
-;; na>oy_2
-na>oy   Ndu     ditch
-nu&aY   N0      ditch
-nu&A    Nhy     ditch
->ano|   N0_Nh   ditches
+notaOaY IV_0_Pass_yu    be distant;go away
+;; naOoy_1
+naOoy   N       remoteness
+;; naOoy_2
+naOoy   Ndu     ditch
+nuWaY   N0      ditch
+nuWA    Nhy     ditch
+Oano|   N0_Nh   ditches
 |nA'    N0_Nh   ditches
-|nA&    Nh      ditches
+|nAW    Nh      ditches
 |nA}    Nhy     ditches
 |nA'    N0_Nh   ditches
-|nA&    Nh      ditches
+|nAW    Nh      ditches
 |nA}    Nhy     ditches
-;; >ano>aY_2
->ano>aY N0      farther/farthest away;more/most distant
-;; >ano|_1
->ano|   Nhy     farthest away;most remote
->ano>ay NAn_Nayn        farthest away;most remote
-;; mano>aY_1
-mano>aY N0      distant place;aloofness
+;; OanoOaY_2
+OanoOaY N0      farther/farthest away;more/most distant
+;; Oano|_1
+Oano|   Nhy     farthest away;most remote
+OanoOay NAn_Nayn        farthest away;most remote
+;; manoOaY_1
+manoOaY N0      distant place;aloofness
 mano|   Nhy     distant place;aloofness
-mano>ay NAn_Nayn        distant place;aloofness
-mano>ay NAt     distant place;aloofness
+manoOay NAn_Nayn        distant place;aloofness
+manoOay NAt     distant place;aloofness
 ;; tanA}iy_1
 tanA}iy N0_Nh   remoteness;great distance
 tanA'   NK      remoteness;great distance
@@ -209,77 +209,77 @@ nAyoluwn        N       nylon
 nAyomikos       N0      NYMEX (New York Mercantile Exchange)
 ;
 ;--- nb
-;; >unobuwb_1
->unobuwb        Ndu     pipe;tube
->unobuwb        Napdu   pipe;tube
->anAbiyb        Ndip    pipes;tubes
-;; >unobuwb_2
->unobuwb        Ndu     cylinder;bottle
->unobuwb        Napdu   cylinder;bottle
->anAbiyb        Ndip    cylinders;bottles
-;; >unobuwbiy~_1
->unobuwbiy~     Nall    tube-shaped     [[>unobuwbiy~/ADJ]]
-;; >unobuwbiy~_2
->unobuwbiy~     Nall    cylindrical     [[>unobuwbiy~/ADJ]]
+;; Ounobuwb_1
+Ounobuwb        Ndu     pipe;tube
+Ounobuwb        Napdu   pipe;tube
+OanAbiyb        Ndip    pipes;tubes
+;; Ounobuwb_2
+Ounobuwb        Ndu     cylinder;bottle
+Ounobuwb        Napdu   cylinder;bottle
+OanAbiyb        Ndip    cylinders;bottles
+;; Ounobuwbiy~_1
+Ounobuwbiy~     Nall    tube-shaped     [[Ounobuwbiy~/ADJ]]
+;; Ounobuwbiy~_2
+Ounobuwbiy~     Nall    cylindrical     [[Ounobuwbiy~/ADJ]]
 ;
 ;--- nbA
-;; naba>-a_1
-naba>   PV->_intr       be elevated;overcome;withdraw
+;; nabaO-a_1
+nabaO   PV-O_intr       be elevated;overcome;withdraw
 naba|   PV-|_intr       be elevated;overcome;withdraw
-naba&   PV_w_intr       be elevated;overcome;withdraw
-noba>   IV_intr be elevated;overcome;withdraw
+nabaW   PV_w_intr       be elevated;overcome;withdraw
+nobaO   IV_intr be elevated;overcome;withdraw
 noba|   IV-|    be elevated;overcome;withdraw
-noba&   IV_wn   be elevated;overcome;withdraw
+nobaW   IV_wn   be elevated;overcome;withdraw
 noba}   IV_yn   be elevated;overcome;withdraw
-;; nab~a>_1
-nab~a>  PV->    inform;indicate
+;; nab~aO_1
+nab~aO  PV-O    inform;indicate
 nab~a|  PV-|    inform;indicate
-nab~a&  PV_w    inform;indicate
+nab~aW  PV_w    inform;indicate
 nab~i}  IV_yu   inform;indicate
-;; >anoba>_1
->anoba> PV->    inform;announce
->anoba| PV-|    inform;announce
->anoba& PV_w    inform;announce
+;; OanobaO_1
+OanobaO PV-O    inform;announce
+Oanoba| PV-|    inform;announce
+OanobaW PV_w    inform;announce
 nobi}   IV_yu   inform;announce
-noba>   IV_Pass_yu      be announced
-;; tanab~a>_1
-tanab~a>        PV->    predict;forecast
+nobaO   IV_Pass_yu      be announced
+;; tanab~aO_1
+tanab~aO        PV-O    predict;forecast
 tanab~a|        PV-|    predict;forecast
-tanab~a&        PV_w    predict;forecast
-tanab~a>        IV      predict;forecast
+tanab~aW        PV_w    predict;forecast
+tanab~aO        IV      predict;forecast
 tanab~a|        IV-|    predict;forecast
-tanab~a&        IV_wn   predict;forecast
+tanab~aW        IV_wn   predict;forecast
 tanab~a}        IV_yn   predict;forecast
-;; Aisotanoba>_1
-Aisotanoba>     PV->    ask for information;inquire
+;; AisotanobaO_1
+AisotanobaO     PV-O    ask for information;inquire
 Aisotanoba|     PV-|    ask for information;inquire
-Aisotanoba&     PV_w    ask for information;inquire
+AisotanobaW     PV_w    ask for information;inquire
 sotanobi}       IV      ask for information;inquire
-;; naba>_1
-naba>   N0_Nh   news item;report
-naba&   Nh      news item;report
+;; nabaO_1
+nabaO   N0_Nh   news item;report
+nabaW   Nh      news item;report
 naba}   Nhy     news item;report
 naba|   N-|     news items;reports
->anobA' N0_Nh   news items;reports
->anobA& Nh      news items;reports
->anobA} Nhy     news items;reports
-;; nabo>ap_1
-nabo>   Nap     faint noise;low sound
+OanobA' N0_Nh   news items;reports
+OanobAW Nh      news items;reports
+OanobA} Nhy     news items;reports
+;; naboOap_1
+naboO   Nap     faint noise;low sound
 ;; nubuw'ap_1
 nubuw'  NapAt   prophecy;prognosis
-;; <inobA'_1
-<inobA' N0_Nh   notification;communication
-<inobA& Nh      notification;communication
-<inobA} Nhy     notification;communication
-<inobA' NAn_Nayn        notifications;communications
-<inobA} Nayn    notifications;communications
-<inobA' NAt     notifications;communications
-;; tanab~u&_1
-tanab~u&        N/At    prediction;forecast;prognosis
+;; IinobA'_1
+IinobA' N0_Nh   notification;communication
+IinobAW Nh      notification;communication
+IinobA} Nhy     notification;communication
+IinobA' NAn_Nayn        notifications;communications
+IinobA} Nayn    notifications;communications
+IinobA' NAt     notifications;communications
+;; tanab~uW_1
+tanab~uW        N/At    prediction;forecast;prognosis
 tanab~u}        Nhy     prediction;forecast;prognosis
 ;; tanab~u}iy~_1
 tanab~u}iy~     N-ap    predictive;prognostic     [[tanab~u}iy~/ADJ]]
-tanab~u&iy~     N-ap    predictive;prognostic     [[tanab~u&iy~/ADJ]]
+tanab~uWiy~     N-ap    predictive;prognostic     [[tanab~uWiy~/ADJ]]
 ;; mutanab~i}_1
 mutanab~i}      Nall    predicting     [[mutanab~i}/ADJ]]
 ;
@@ -290,8 +290,8 @@ nobut   IV      grow;germinate;sprout;produce vegetation
 ;; nab~at_1
 nab~at  PV-t    plant;sow
 nab~it  IV_yu   plant;sow
-;; >anobat_1
->anobat PV-t    germinate;make grow;make sprout;cultivate
+;; Oanobat_1
+Oanobat PV-t    germinate;make grow;make sprout;cultivate
 nobit   IV_yu   germinate;make grow;make sprout;cultivate
 nobat   IV_Pass_yu      be germinated;be grown;be cultivated
 ;; Aisotanobat_1
@@ -369,8 +369,8 @@ nab~i*  IV_yu   make wine;discard;reject;withdraw
 ;; nAba*_1
 nAba*   PV      withdraw from;oppose
 nAbi*   IV_yu   withdraw from;oppose
-;; >anoba*_1
->anoba* PV      make wine;press
+;; Oanoba*_1
+Oanoba* PV      make wine;press
 nobi*   IV_yu   make wine;press
 noba*   IV_Pass_yu      be made into wine;be pressed
 ;; tanAba*_1
@@ -386,7 +386,7 @@ nubo*   Napdu   overview;summary;fragment;section;leaflet;brochure
 nuba*   N       overviews;summaries;fragments;sections;leaflets;brochures
 ;; nabiy*_1
 nabiy*  N       wine
->anobi* Nap     wines
+Oanobi* Nap     wines
 ;; nabiy*_2
 nabiy*  N-ap    discarded;rejected
 ;; nAbi*_1
@@ -407,9 +407,9 @@ notabir IV      swell;become swollen
 nabor   N       emphasis;accentuation
 ;; nibor_1
 nibor   Ndu     barn;granary;warehouse
->anobAr N       barns;granaries;warehouses
->anAbir Ndip    barns;granaries;warehouses
->anAbiyr        Ndip    barns;granaries;warehouses
+OanobAr N       barns;granaries;warehouses
+OanAbir Ndip    barns;granaries;warehouses
+OanAbiyr        Ndip    barns;granaries;warehouses
 ;; naborap_1
 nabor   Napdu   accentuation;intonation
 nabar   NAt     accentuations;intonations
@@ -437,7 +437,7 @@ nab~az  PV      deride;insult
 nab~iz  IV_yu   deride;insult
 ;; naboz_1
 naboz   Ndu     nickname;sobriquet
->anobAz N       nicknames;sobriquets
+OanobAz N       nicknames;sobriquets
 ;
 ;--- nbs
 ;; nabas-iu_1
@@ -465,9 +465,9 @@ nabo$   N       excavation;search;disclosure
 nab~A$  Nall    excavator;grave robber
 ;; nabiy$_1
 nabiy$  N-ap    excavated;dug up
->unobuw$        Ndu     excavation;excavated object
->unobuw$        Napdu   excavation;excavated object
->anAbiy$        Ndip    excavations;excavated objects
+Ounobuw$        Ndu     excavation;excavated object
+Ounobuw$        Napdu   excavation;excavated object
+OanAbiy$        Ndip    excavations;excavated objects
 ;
 ;--- nbD
 ;; nabaD-i_1
@@ -479,7 +479,7 @@ nobuD   IV_intr flow;drain
 ;; naboD_1
 naboD   N       beating;palpitation;throbbing
 nabaD   N       beating;palpitation;throbbing
->anobAD N       palpitations;pulsations
+OanobAD N       palpitations;pulsations
 ;; nabaDAn_1
 nabaDAn N       beating;palpitation;throbbing
 ;; naboDap_1
@@ -503,8 +503,8 @@ nobiT   IV      gush out
 ;; nab~aT_1
 nab~aT  PV      find fault;scoff at
 nab~iT  IV_yu   find fault;scoff at
-;; >anobaT_1
->anobaT PV      cause to gush out;discover
+;; OanobaT_1
+OanobaT PV      cause to gush out;discover
 nobiT   IV_yu   cause to gush out;discover
 nobaT   IV_Pass_yu      be made to gush out;be discovered
 ;; AisotanobaT_1
@@ -520,7 +520,7 @@ nabaT   N       depth;core
 nabaTiy~        Nall    Nabatean     [[nabaTiy~/ADJ]]
 ;; nabaTiy~_2
 nabaTiy~        Nall    Nabatean     [[nabaTiy~/NOUN]]
->anobAT N       Nabateans
+OanobAT N       Nabateans
 nabaT   N       Nabateans
 ;; AisotinobAT_1
 AisotinobAT     NduAt   discovery;deduction;invention
@@ -537,8 +537,8 @@ nabaE   PV      emerge;originate;emanate
 nobuE   IV      emerge;originate;emanate
 nobiE   IV      emerge;originate;emanate
 nobaE   IV      emerge;originate;emanate
-;; >anobaE_1
->anobaE PV      cause to gush forth
+;; OanobaE_1
+OanobaE PV      cause to gush forth
 nobiE   IV_yu   cause to gush forth
 nobaE   IV_Pass_yu      be made to gush forth
 ;; naboE_1
@@ -572,9 +572,9 @@ nobag   IV      appear;emerge;excel
 nabog   N       appearance;emergence;excelling
 ;; nubuwg_1
 nubuwg  N       emergence;eminence;exceptional faculties
-;; >anobag_1
->anobag Nel     pre-eminent;superior     [[>anobag/ADJ]]
->anobag Nel     pre-eminent;superior
+;; Oanobag_1
+Oanobag Nel     pre-eminent;superior     [[Oanobag/ADJ]]
+Oanobag Nel     pre-eminent;superior
 ;; nAbig_1
 nAbig   Nall    talented;brilliant;outstanding     [[nAbig/ADJ]]
 ;; nAbigap_1
@@ -607,7 +607,7 @@ nobul   IV_intr be noble;ba magnanimous
 nabol   N       arrow
 nabol   Napdu   arrow
 nibAl   N       arrows
->anobAl N       arrows
+OanobAl N       arrows
 ;; nubol_1
 nubol   N       nobility
 ;; nabAlap_1
@@ -622,7 +622,7 @@ nabiylap        Nprop   Nabila
 nabiyl  N/ap    noble     [[nabiyl/ADJ]]
 nibAl   N       noble
 nubalA' N0_Nh   noble
-nubalA& Nh      noble
+nubalAW Nh      noble
 nubalA} Nhy     noble
 ;; nab~Al_1
 nab~Al  Ndu     archer
@@ -630,8 +630,8 @@ nab~Al  Nap     archers
 ;; nAbil_1
 nAbil   Nall    archer
 nub~al  N       archers
-;; >anobal_1
->anobal Nel     nobler/noblest
+;; Oanobal_1
+Oanobal Nel     nobler/noblest
 ;
 ;--- nwbl
 ;; nuwbil_1
@@ -650,8 +650,8 @@ nobuh   IV_intr be well known
 ;; nab~ah_1
 nab~ah  PV      warn;caution;point out
 nab~ih  IV_yu   warn;caution;point out
-;; >anobah_1
->anobah PV      awaken;rouse
+;; Oanobah_1
+Oanobah PV      awaken;rouse
 nobih   IV_yu   awaken;rouse
 nobah   IV_Pass_yu      be awakened;be roused
 ;; tanab~ah_1
@@ -669,7 +669,7 @@ nabih   N-ap    eminent;noble     [[nabih/ADJ]]
 ;; nabiyh_1
 nabiyh  N/ap    eminent;noble     [[nabiyh/ADJ]]
 nubahA' N0_Nh   eminent;noble
-nubahA& Nh      eminent;noble
+nubahAW Nh      eminent;noble
 nubahA} Nhy     eminent;noble
 ;; nabiyh_2
 nabiyh  Nprop   Nabih;Nabeeh
@@ -711,9 +711,9 @@ nabow   N       being remote;bouncing off;disagreeing
 nubuw~  N       being remote;bouncing off;disagreeing
 ;; nabiy~_1
 nabiy~  Nall    prophet     [[nabiy~/ADJ]]
->anobiyA'       N0_Nh   prophets
->anobiyA&       Nh      prophets
->anobiyA}       Nhy     prophets
+OanobiyA'       N0_Nh   prophets
+OanobiyAW       Nh      prophets
+OanobiyA}       Nhy     prophets
 ;; nabawiy~_1
 nabawiy~        N-ap    prophetic;of the Prophet     [[nabawiy~/ADJ]]
 ;; nubuw~ap_1
@@ -730,19 +730,19 @@ mutanab~iy     N0      Mutanabbi
 mutanab~iy     Nall    would-be-prophet
 ;
 ;--- ntA
-;; nata>-a_1
-nata>   PV->    bulge;protrude
+;; nataO-a_1
+nataO   PV-O    bulge;protrude
 nata|   PV-|    bulge;protrude
-nata&   PV_w    bulge;protrude
-nota>   IV      bulge;protrude
+nataW   PV_w    bulge;protrude
+notaO   IV      bulge;protrude
 nota|   IV-|    bulge;protrude
-nota&   IV_wn   bulge;protrude
+notaW   IV_wn   bulge;protrude
 nota}   IV_yn   bulge;protrude
 ;; nato'_1
 nato'   N0      bulging;protruding
 nato}   NF_Nhy  bulging;protruding
-;; nato>ap_1
-nato>   Napdu   hill;hillock
+;; natoOap_1
+natoO   Napdu   hill;hillock
 ;; nutuw'_1
 nutuw'  N0_Nh   swelling;protrusion
 nutuw}  Nhy     swelling;protrusion
@@ -763,8 +763,8 @@ niytAnoyAhuw    Nprop   Netanyahu
 ;; nataj-i_1
 nataj   PV      bring forth;result in
 notij   IV      bring forth;result in
-;; >anotaj_1
->anotaj PV      produce;yield;cause
+;; Oanotaj_1
+Oanotaj PV      produce;yield;cause
 notij   IV_yu   produce;yield;cause
 notaj   IV_Pass_yu      be produced;be yielded;be caused
 ;; Aisotanotaj_1
@@ -775,12 +775,12 @@ nitAj   N       production;offspring
 ;; natiyjap_1
 natiyj  Napdu   result;consequence
 natA}ij Ndip    results;consequences
-;; <inotAj_1
-<inotAj N/At    production;output
-;; <inotAjiy~_1
-<inotAjiy~      N-ap    production;productive     [[<inotAjiy~/ADJ]]
-;; <inotAjiy~ap_1
-<inotAjiy~      Nap     productivity     [[<inotAjiy~/NOUN]]
+;; IinotAj_1
+IinotAj N/At    production;output
+;; IinotAjiy~_1
+IinotAjiy~      N-ap    production;productive     [[IinotAjiy~/ADJ]]
+;; IinotAjiy~ap_1
+IinotAjiy~      Nap     productivity     [[IinotAjiy~/NOUN]]
 ;; AisotinotAj_1
 AisotinotAj     NduAt   conclusion;deduction;inference
 ;; nAtij_1
@@ -879,8 +879,8 @@ notun   IV-n    stink;decompose
 ;; nat~an_1
 nat~an  PV-n    render putrid;cause to decay
 nat~in  IV-n_yu render putrid;cause to decay
-;; >anotan_1
->anotan PV-n    stink;decompose;become putrid
+;; Oanotan_1
+Oanotan PV-n    stink;decompose;become putrid
 notin   IV-n_yu stink;decompose;become putrid
 ;; naton_1
 naton   N       stench;rotting;decomposition
@@ -942,8 +942,8 @@ mutanAvir       Nall    scattered;dispersed     [[mutanAvir/ADJ]]
 ;; najub-u_1
 najub   PV_intr be of noble birth;be generous
 nojub   IV_intr be of noble birth;be generous
-;; >anojab_1
->anojab PV      give birth
+;; Oanojab_1
+Oanojab PV      give birth
 nojib   IV_yu   give birth
 nojab   IV_Pass_yu      be given birth
 ;; Ainotajab_1
@@ -966,10 +966,10 @@ naj~Ab  Nall    courier
 naj~Ab  Nall    camel rider
 ;; naj~Ab_2
 naj~Ab  N0      Najjab
-;; <inojAb_1
-<inojAb NduAt   giving birth
-;; <inojAbiy~_1
-<inojAbiy~      Nall    birthing;giving birth
+;; IinojAb_1
+IinojAb NduAt   giving birth
+;; IinojAbiy~_1
+IinojAbiy~      Nall    birthing;giving birth
 ;; AinotijAb_1
 AinotijAb       N/At    choice;selection
 ;
@@ -980,8 +980,8 @@ nojaH   IV      succeed
 ;; naj~aH_1
 naj~aH  PV      make successful
 naj~iH  IV_yu   make successful
-;; >anojaH_1
->anojaH PV      make successful
+;; OanojaH_1
+OanojaH PV      make successful
 nojiH   IV_yu   make successful
 nojaH   IV_Pass_yu      be made successful
 ;; nujoH_1
@@ -993,12 +993,12 @@ najAH   NAt     successes
 najAH   N0      Najah
 ;; najiyH_1
 najiyH  N-ap    good;sound     [[najiyH/ADJ]]
-;; <inojAH_1
-<inojAH N/At    success
+;; IinojAH_1
+IinojAH N/At    success
 ;; nAjiH_1
 nAjiH   Nall    successful
-;; >anojaH_2
->anojaH Nel     more/most successful
+;; OanojaH_2
+OanojaH Nel     more/most successful
 ;
 ;--- njd
 ;; najad-u_1
@@ -1013,8 +1013,8 @@ naj~id  IV_yu   furnish;upholster;comb
 ;; nAjad_1
 nAjad   PV      help;support
 nAjid   IV_yu   help;support
-;; >anojad_1
->anojad PV      help;support
+;; Oanojad_1
+Oanojad PV      help;support
 nojid   IV_yu   help;support
 nojad   IV_Pass_yu      be helped;be supported
 ;; Aisotanojad_1
@@ -1060,8 +1060,8 @@ naja*   PV      importune
 noji*   IV      importune
 ;; najo*_1
 najo*   N       importuning
-;; >anoju*An_1
->anoju*An       Ndip    asafetida (plant)
+;; Oanoju*An_1
+Oanoju*An       Ndip    asafetida (plant)
 ;; manAji*_1
 manAji* Ndip    moles (zool.)
 ;; nAji*_1
@@ -1109,10 +1109,10 @@ naj~iz  IV_yu   accomplish;carry out
 ;; nAjaz_1
 nAjaz   PV      fight against;contend with
 nAjiz   IV_yu   fight against;contend with
-;; >anojaz_1
->anojaz PV      implement;accomplish;perform
+;; Oanojaz_1
+Oanojaz PV      implement;accomplish;perform
 nojiz   IV_yu   implement;accomplish;perform
->unojiz PV_Pass be implemented;be accomplished;be performed
+Ounojiz PV_Pass be implemented;be accomplished;be performed
 nojaz   IV_Pass_yu      be implemented;be accomplished;be performed
 ;; Aisotanojaz_1
 Aisotanojaz     PV      ask for the fulfillment of
@@ -1123,11 +1123,11 @@ najoz   N       accomplishment;implementation;effectuation
 najAz   N       accomplishment;implementation;effectuation
 ;; tanojiyz_1
 tanojiyz        N/At    implementation;effectuation;accomplishment
-;; <inojAz_1
-<inojAz N       implementation;effectuation
-;; <inojAz_2
-<inojAz Ndu     accomplishment;achievement;success
-<inojAz NAt     accomplishments;achievements;successes
+;; IinojAz_1
+IinojAz N       implementation;effectuation
+;; IinojAz_2
+IinojAz Ndu     accomplishment;achievement;success
+IinojAz NAt     accomplishments;achievements;successes
 ;; munAjazap_1
 munAjaz NapAt   struggle;contention
 ;; tanAjuz_1
@@ -1148,8 +1148,8 @@ nojas   IV_intr be impure;be dirty
 ;; naj~as_1
 naj~as  PV      pollute;contaminate
 naj~is  IV_yu   pollute;contaminate
-;; >anojas_1
->anojas PV      pollute;contaminate
+;; Oanojas_1
+Oanojas PV      pollute;contaminate
 nojis   IV_yu   pollute;contaminate
 nojas   IV_Pass_yu      be polluted;be contaminated
 ;; tanaj~as_1
@@ -1159,7 +1159,7 @@ tanaj~as        IV_intr be impure;be contaminated
 najas   N       impurity;uncleanliness
 najAs   Nap     impurity;uncleanliness
 najis   N/ap    impure;polluted;contaminated
->anojAs N       impure;polluted;contaminated
+OanojAs N       impure;polluted;contaminated
 ;; najis_1
 najis   N-ap    incurable
 ;; najiys_1
@@ -1181,8 +1181,8 @@ nojaE   IV_intr be useful;be beneficial
 ;; naj~aE_1
 naj~aE  PV_intr be useful;be beneficial
 naj~iE  IV_intr_yu      be useful;be beneficial
-;; >anojaE_1
->anojaE PV_intr be useful;be beneficial
+;; OanojaE_1
+OanojaE PV_intr be useful;be beneficial
 nojiE   IV_intr_yu      be useful;be beneficial
 ;; AinotajaE_1
 AinotajaE       PV      take refuge with;have recourse to
@@ -1206,8 +1206,8 @@ najAE   Nap     usefulness;salutariness
 najiyE  N-ap    useful;beneficial;healthful     [[najiyE/ADJ]]
 ;; najiyE_2
 najiyE  N       blood
-;; >anojaE_2
->anojaE Nel     more/most useful/wholesome
+;; OanojaE_2
+OanojaE Nel     more/most useful/wholesome
 ;; nAjiE_1
 nAjiE   N-ap    useful;beneficial;healthful
 ;; munotajaE_1
@@ -1227,13 +1227,13 @@ najal   PV      beget;sire
 nojul   IV      beget;sire
 ;; najol_1
 najol   Ndu     son;scion
->anojAl N       sons;scions;progeny
+OanojAl N       sons;scions;progeny
 ;; najiyl_1
 najiyl  N       couch grass;quitch
-;; >anojal_1
->anojal Nel     wide-eyed;gaping
+;; Oanojal_1
+Oanojal Nel     wide-eyed;gaping
 najolA' N0_Nh   wide-eyed;gaping
-najolA& Nh      wide-eyed;gaping
+najolAW Nh      wide-eyed;gaping
 najolA} Nhy     wide-eyed;gaping
 ;; minojal_1
 minojal Ndu     scythe;sickle
@@ -1250,8 +1250,8 @@ nojum   IV      appear;originate
 ;; naj~am_1
 naj~am  PV      observe the stars;practice astrology;pay in installments
 naj~im  IV_yu   observe the stars;practice astrology;pay in installments
-;; >anojam_1
->anojam PV_intr be starry;appear in the heavens
+;; Oanojam_1
+Oanojam PV_intr be starry;appear in the heavens
 nojim   IV_intr_yu      be starry;appear in the heavens
 ;; tanaj~am_1
 tanaj~am        PV      observe the stars;practice astrology
@@ -1259,7 +1259,7 @@ tanaj~am        IV      observe the stars;practice astrology
 ;; najom_1
 najom   Ndu     star;constellation
 nujuwm  N       stars;constellations
->anojum N       stars;constellations
+Oanojum N       stars;constellations
 ;; najomap_1
 najom   Napdu   star;asterisk
 najam   NAt     stars;asterisks
@@ -1324,11 +1324,11 @@ nAjiy   IV_0hAnn_yu     whisper to;confide in
 nAj     IV_0hwnyn_yu    whisper to;confide in
 nAjaY   IV_0_Pass_yu    be whispered to;be confided in
 nAjay   IV_Ann_Pass_yu  be whispered to;be confided in
-;; >anojaY_1
->anojaY PV_0    rescue
->anojA  PV_h    rescue
->anojay PV_Atn  rescue
->anoj   PV_ttAw rescue
+;; OanojaY_1
+OanojaY PV_0    rescue
+OanojA  PV_h    rescue
+Oanojay PV_Atn  rescue
+Oanoj   PV_ttAw rescue
 nojiy   IV_0hAnn_yu     rescue
 noj     IV_0hwnyn_yu    rescue
 nojaY   IV_0_Pass_yu    be rescued
@@ -1376,12 +1376,12 @@ najAwaY N0      confidential talks;soliloquies
 najAwA  Nhy     confidential talks;soliloquies
 ;; najiy~_1
 najiy~  Ndu     secret
->anojiy Nap     secrets
+Oanojiy Nap     secrets
 ;; najiy~_2
 najiy~  N/ap    confidant;bosom friend     [[najiy~/NOUN]]
->anojiyA'       N0_Nh   confidants;bosom friends
->anojiyA&       Nh      confidants;bosom friends
->anojiyA}       Nhy     confidants;bosom friends
+OanojiyA'       N0_Nh   confidants;bosom friends
+OanojiyAW       Nh      confidants;bosom friends
+OanojiyA}       Nhy     confidants;bosom friends
 ;; manojaY_1
 manojaY N0      safety;security
 manojA  Nhy     safety;security
@@ -1527,8 +1527,8 @@ noHuf   IV_intr be thin;lose weight
 ;; naH~af_1
 naH~af  PV      emaciate;weaken
 naH~if  IV_yu   emaciate;weaken
-;; >anoHaf_1
->anoHaf PV      emaciate;weaken
+;; OanoHaf_1
+OanoHaf PV      emaciate;weaken
 noHif   IV_yu   emaciate;weaken
 ;; naHAfap_1
 naHAf   Nap     emaciation;leanness
@@ -1536,7 +1536,7 @@ naHAf   Nap     emaciation;leanness
 naHiyf  N/ap    weak;emaciated
 niHAf   N       weak;emaciated
 nuHafA' N0_Nh   weak;emaciated
-nuHafA& Nh      weak;emaciated
+nuHafAW Nh      weak;emaciated
 nuHafA} Nhy     weak;emaciated
 ;; manoHaf_1
 manoHaf N       dieting clinic;weight-reducing resort
@@ -1559,8 +1559,8 @@ noHal   IV_intr be emaciated;lose weight
 ;; naHal-a_1
 naHal   PV      make a donation to;attribute to
 noHal   IV      make a donation to;attribute to
-;; >anoHal_1
->anoHal PV      emaciate;weaken
+;; OanoHal_1
+OanoHal PV      emaciate;weaken
 noHil   IV_yu   emaciate;weaken
 noHal   IV_Pass_yu      be emaciated;be weakened
 ;; tanaH~al_1
@@ -1663,11 +1663,11 @@ naH~iy  IV_0hAnn_yu     put aside;eliminate
 naH~    IV_0hwnyn_yu    put aside;eliminate
 naH~aY  IV_0_Pass_yu    be put aside;be eliminated
 naH~ay  IV_Ann_Pass_yu  be put aside;be eliminated
-;; >anoHaY_1
->anoHaY PV_0    turn away;overcome
->anoHA  PV_h    turn away;overcome
->anoHay PV_Atn  turn away;overcome
->anoH   PV_ttAw turn away;overcome
+;; OanoHaY_1
+OanoHaY PV_0    turn away;overcome
+OanoHA  PV_h    turn away;overcome
+OanoHay PV_Atn  turn away;overcome
+OanoH   PV_ttAw turn away;overcome
 noHiy   IV_0hAnn_yu     turn away;overcome
 noH     IV_0hwnyn_yu    turn away;overcome
 noHaY   IV_0_Pass_yu    be turned away;be overcome
@@ -1692,9 +1692,9 @@ naHowa  FW-Wa   towards;approximately     [[naHowa/PREP]]
 naHowa  FW-Wa-a towards;approximately     [[naHowa/PREP]]
 ;; naHow_1
 naHow   N       manner;method
->anoHA' N0_Nh   areas
->anoHA& Nh      areas
->anoHA} Nhy     areas
+OanoHA' N0_Nh   areas
+OanoHAW Nh      areas
+OanoHA} Nhy     areas
 ;; naHow_2
 naHow   N       grammar
 ;; naHowiy~_1
@@ -1722,7 +1722,7 @@ nawAH   NK      sides;perspectives;areas;regions
 ;--- nx
 ;; nax~_1
 nax~    Ndu     mat;rug;carpet
->anoxAx N       mat;rug;carpet
+OanoxAx N       mat;rug;carpet
 ;
 ;--- nxb
 ;; naxab-u_1
@@ -1883,11 +1883,11 @@ nax~iy  IV_0hAnn_yu     incite;arouse
 nax~    IV_0hwnyn_yu    incite;arouse
 nax~aY  IV_0_Pass_yu    be incited;be aroused
 nax~ay  IV_Ann_Pass_yu  be incited;be aroused
-;; >anoxaY_1
->anoxaY PV_0    incite;arouse
->anoxA  PV_h    incite;arouse
->anoxay PV_Atn  incite;arouse
->anox   PV_ttAw incite;arouse
+;; OanoxaY_1
+OanoxaY PV_0    incite;arouse
+OanoxA  PV_h    incite;arouse
+Oanoxay PV_Atn  incite;arouse
+Oanox   PV_ttAw incite;arouse
 noxiy   IV_0hAnn_yu     incite;arouse
 nox     IV_0hwnyn_yu    incite;arouse
 noxaY   IV_0_Pass_yu    be incited;be aroused
@@ -1910,11 +1910,11 @@ nad~    N       high hill;incense
 nid~    N       incense
 ;; nid~_2
 nid~    Ndu     peer;colleague;counterpart
->anodAd N       peers;colleagues;counterparts
+OanodAd N       peers;colleagues;counterparts
 ;; nadiyd_1
 nadiyd  N/ap    peer;rival
 nudadA' N0_Nh   peers;rivals
-nudadA& Nh      peers;rivals
+nudadAW Nh      peers;rivals
 nudadA} Nhy     peers;rivals
 ;; tanodiyd_1
 tanodiyd        N/At    criticism;abuse;defamation
@@ -1928,8 +1928,8 @@ nodub   IV      lament;deputize;entrust
 ;; nadib-a_1
 nadib   PV      form a scar;cicatrize
 nodab   IV      form a scar;cicatrize
-;; >anodab_1
->anodab PV      form a scar;cicatrize
+;; Oanodab_1
+Oanodab PV      form a scar;cicatrize
 nodib   IV_yu   form a scar;cicatrize
 ;; Ainotadab_1
 Ainotadab       PV      appoint;commission;deputize;dedicate
@@ -1938,7 +1938,7 @@ notadib IV      appoint;commission;deputize;dedicate
 nadob   N       assignment;deputation;commission
 ;; nadab_1
 nadab   Ndu     scar
->anodAb N       scars
+OanodAb N       scars
 nuduwb  N       scars
 ;; nudobap_1
 nudob   Nap     dirge;funeral song
@@ -1996,11 +1996,11 @@ nador   N       rare;odd
 nador   Nap     rarity
 nudor   Nap     rarity
 nadorapF        FW-Wa   rarely;seldom    [[nadorapF/ADV]]
-;; >anodar_1
->anodar N       threshing floor
->anAdir Ndip    threshing floors
-;; >anodar_2
->anodar Nel     rarer/rarest
+;; Oanodar_1
+Oanodar N       threshing floor
+OanAdir Ndip    threshing floors
+;; Oanodar_2
+Oanodar Nel     rarer/rarest
 ;; manodarap_1
 manodar Nap     threshing floor
 manAdir Ndip    threshing floor
@@ -2079,7 +2079,7 @@ nadAm   Nap     remorse;regret
 ;; nadiym_1
 nadiym  N/ap    confidant;close friend
 nudamA' N0_Nh   confidants;close friends
-nudamA& Nh      confidants;close friends
+nudamAW Nh      confidants;close friends
 nudamA} Nhy     confidants;close friends
 nidAm   N       confidants;close friends
 ;; nadiym_2
@@ -2142,11 +2142,11 @@ nAdiy   IV_0hAnn_yu     announce;summon
 nAd     IV_0hwnyn_yu    announce;summon
 nAdaY   IV_0_Pass_yu    be announced;be summoned
 nAday   IV_Ann_Pass_yu  be announced;be summoned
-;; >anodaY_1
->anodaY PV_0    moisten;make damp
->anodA  PV_h    moisten;make damp
->anoday PV_Atn  moisten;make damp
->anod   PV_ttAw moisten;make damp
+;; OanodaY_1
+OanodaY PV_0    moisten;make damp
+OanodA  PV_h    moisten;make damp
+Oanoday PV_Atn  moisten;make damp
+Oanod   PV_ttAw moisten;make damp
 nodiy   IV_0hAnn_yu     moisten;make damp
 nod     IV_0hwnyn_yu    moisten;make damp
 nodaY   IV_0_Pass_yu    be moistened;be dampened
@@ -2184,16 +2184,16 @@ nadAw   Nap     moistness;dampness
 ;; nadaY_1
 nadaY   N0      dew;generosity
 nadA    Nhy     dew;generosity
->anodA' N0_Nh   dew;generosity
->anodA& Nh      dew;generosity
->anodA} Nhy     dew;generosity
+OanodA' N0_Nh   dew;generosity
+OanodAW Nh      dew;generosity
+OanodA} Nhy     dew;generosity
 ;; nadA_1
 nadA    N0      Nada
 ;; nadiy~_1
 nadiy~  N/ap    moist;damp;generous     [[nadiy~/ADJ]]
 ;; nidA'_1
 nidA'   N0_Nh   call;appeal;invitation;summons
-nidA&   Nh      call;appeal;invitation;summons
+nidAW   Nh      call;appeal;invitation;summons
 nidA}   Nhy     call;appeal;invitation;summons
 nidA'   NAn_Nayn        calls;appeals;invitations
 nidA}   Nayn    calls;appeals;invitations
@@ -2209,7 +2209,7 @@ munAday NAt     appeals;calls;shouts
 nAdiy   N0F_Nh  club;association
 nAd     NK      club;association
 nAdiy   NAn_Nayn        club;association
->anodiy Nap     clubs;associations
+Oanodiy Nap     clubs;associations
 nawAdiy N0_Nh   clubs;associations
 nawAd   NK      clubs;associations
 ;; munad~aY_1
@@ -2243,8 +2243,8 @@ no*ir   IV      dedicate;vow
 ;; na*ir-a_1
 na*ir   PV_intr be warned;be on guard
 no*ar   IV_intr be warned;be on guard
-;; >ano*ar_1
->ano*ar PV      warn;caution
+;; Oano*ar_1
+Oano*ar PV      warn;caution
 no*ir   IV_yu   warn;caution
 no*ar   IV_Pass_yu      be warned;be cautioned
 ;; na*or_1
@@ -2253,8 +2253,8 @@ nu*uwr  N/At    vows;pledges
 ;; na*iyr_1
 na*iyr  Ndu     warning;alarm
 nu*ur   N       warnings;alarm systems
-;; <ino*Ar_1
-<ino*Ar NduAt   warning;cautioning;alarm
+;; Iino*Ar_1
+Iino*Ar NduAt   warning;cautioning;alarm
 ;; tanA*ur_1
 tanA*ur N/At    syndrome
 ;; nA*ir_1
@@ -2276,12 +2276,12 @@ na*ul   PV_intr be depraved;be despicable
 no*ul   IV_intr be depraved;be despicable
 ;; na*ol_1
 na*ol   N/ap    despicable
->ano*Al N       despicable
+Oano*Al N       despicable
 nu*uwl  N       despicable
 ;; na*iyl_1
 na*iyl  N/ap    despicable
 nu*alA' N0_Nh   despicable
-nu*alA& Nh      despicable
+nu*alAW Nh      despicable
 nu*alA} Nhy     despicable
 ni*Al   N       despicable
 ;; na*Alap_1
@@ -2382,8 +2382,8 @@ naziyz  N-ap    unstable;sensuous     [[naziyz/ADJ]]
 nazaH   PV_intr be distant;migrate
 nozaH   IV_intr be distant;migrate
 noziH   IV_intr be distant;migrate
-;; >anozaH_1
->anozaH PV      scoop out;drain
+;; OanozaH_1
+OanozaH PV      scoop out;drain
 noziH   IV_yu   scoop out;drain
 nozaH   IV_Pass_yu      be scooped out;be drained
 ;; AinotazaH_1
@@ -2393,7 +2393,7 @@ notaziH IV      emigrate
 nazaH   N       drainage;draining
 ;; nazaH_2
 nazaH   N       muddy water
->anozAH N       muddy water
+OanozAH N       muddy water
 ;; nuzuwH_1
 nuzuwH  N       emigration;migration
 ;; nazuwH_1
@@ -2484,8 +2484,8 @@ nazag   NAt     incitements to evil
 ;; nazaf-i_1
 nazaf   PV      drain;bleed
 nozif   IV      drain;bleed
-;; >anozaf_1
->anozaf PV      drain;bleed
+;; Oanozaf_1
+Oanozaf PV      drain;bleed
 nozif   IV_yu   drain;bleed
 nozaf   IV_Pass_yu      be drained;be bled
 ;; Aisotanozaf_1
@@ -2541,10 +2541,10 @@ naz~il  IV_yu   lower;unload
 ;; nAzal_1
 nAzal   PV      clash with
 nAzil   IV_yu   clash with
-;; >anozal_1
->anozal PV      bring down;lower
+;; Oanozal_1
+Oanozal PV      bring down;lower
 nozil   IV_yu   bring down;lower
->unozil PV_Pass be revealed;be sent down
+Ounozil PV_Pass be revealed;be sent down
 nozal   IV_Pass_yu      be revealed;be sent down
 ;; tanaz~al_1
 tanaz~al        PV      condescend
@@ -2560,7 +2560,7 @@ nazol   N       lodging
 nuzuwl  N       lodgings
 ;; nuzol_1
 nuzol   N       food served to a guest
->anozAl N       food served to a guest
+OanozAl N       food served to a guest
 ;; nazolap_1
 nazol   Nap     stop;arrival
 ;; nazolap_2
@@ -2575,7 +2575,7 @@ nuzuwliy~       N-ap    declining;falling;recessive     [[nuzuwliy~/ADJ]]
 ;; naziyl_1
 naziyl  N/ap    inmate;tenant
 nuzalA' N0_Nh   inmates;tenants
-nuzalA& Nh      inmates;tenants
+nuzalAW Nh      inmates;tenants
 nuzalA} Nhy     inmates;tenants
 ;; manozil_1
 manozil Ndu     house;residence
@@ -2593,8 +2593,8 @@ tanoziyl        N       bring down;revelation
 nizAl   N       lining up for battle;hostile encounter
 ;; munAzalap_1
 munAzal NapAt   lining up for battle;hostile encounter
-;; <inozAl_1
-<inozAl N/At    lowering;disembarking;landing
+;; IinozAl_1
+IinozAl N/At    lowering;disembarking;landing
 ;; tanAzul_1
 tanAzul N/At    concession;waiver;yielding
 ;; tanAzuliy~_1
@@ -2646,7 +2646,7 @@ nazih   N-ap    blameless;righteous
 ;; naziyh_1
 naziyh  N/ap    blameless;righteous;fair;impartial     [[naziyh/ADJ]]
 nuzahA' N0_Nh   blameless;righteous;fair;impartial
-nuzahA& Nh      blameless;righteous;fair;impartial
+nuzahAW Nh      blameless;righteous;fair;impartial
 nuzahA} Nhy     blameless;righteous;fair;impartial
 nizAh   N       blameless;righteous;fair;impartial
 ;; naziyh_2
@@ -2704,31 +2704,31 @@ nazowiy~        Nall    capricious     [[nazowiy~/ADJ]]
 nazawAn N       outburst;eruption
 ;
 ;--- nsA
-;; nasa>-a_1
-nasa>   PV->    postpone;delay;defer
+;; nasaO-a_1
+nasaO   PV-O    postpone;delay;defer
 nasa|   PV-|    postpone;delay;defer
-nasa&   PV_w    postpone;delay;defer
-nosa>   IV      postpone;delay;defer
+nasaW   PV_w    postpone;delay;defer
+nosaO   IV      postpone;delay;defer
 nosa|   IV-|    postpone;delay;defer
-nosa&   IV_wn   postpone;delay;defer
+nosaW   IV_wn   postpone;delay;defer
 nosa}   IV_yn   postpone;delay;defer
-;; >anosa>_1
->anosa> PV->    postpone;delay;defer
->anosa| PV-|    postpone;delay;defer
->anosa& PV_w    postpone;delay;defer
+;; OanosaO_1
+OanosaO PV-O    postpone;delay;defer
+Oanosa| PV-|    postpone;delay;defer
+OanosaW PV_w    postpone;delay;defer
 nosi}   IV_yu   postpone;delay;defer
-nosa>   IV_Pass_yu      be postponed;be delayed;be deferred
+nosaO   IV_Pass_yu      be postponed;be delayed;be deferred
 ;; naso'_1
 naso'   N0      postponement;delay;deferral
 naso}   NF_Nhy  postponement;delay;deferral
 ;; nasA'_1
 nasA'   N0_Nh   longevity
-nasA&   Nh      longevity
+nasAW   Nh      longevity
 nasA}   Nhy     longevity
 ;; nasiy}ap_1
 nasiy}  Nap     deferred payment;credit
-;; minosa>ap_1
-minosa> Napdu   stick;staff
+;; minosaOap_1
+minosaO Napdu   stick;staff
 ;
 ;--- nsb
 ;; nasab-ui_1
@@ -2749,7 +2749,7 @@ Aisotanosab     PV      deem proper;sanction;condone
 sotanosib       IV      deem proper;sanction;condone
 ;; nasab_1
 nasab   N       lineage;kinship
->anosAb N       lineage;kinship;genealogy
+OanosAb N       lineage;kinship;genealogy
 ;; nisobap_1
 nisob   Nap     ratio;rate
 ;; nisobap_2
@@ -2766,15 +2766,15 @@ nas~Ab  Nall    genealogist
 nas~Ab  N0      Nassab
 ;; nasiyb_1
 nasiyb  N       relative;kinsman
->anosibA'       N0_Nh   relatives;kinsmen
->anosibA&       Nh      relatives;kinsmen
->anosibA}       Nhy     relatives;kinsmen
+OanosibA'       N0_Nh   relatives;kinsmen
+OanosibAW       Nh      relatives;kinsmen
+OanosibA}       Nhy     relatives;kinsmen
 ;; nasiyb_2
 nasiyb  Nprop   Naseeb;Nasib
 ;; nusayobap_1
 nusayobap       N0      Nuseiba
-;; >anosab_1
->anosab Nel     more/most adequate/suitable;better/best qualified
+;; Oanosab_1
+Oanosab Nel     more/most adequate/suitable;better/best qualified
 ;; munAsabap_1
 munAsab Napdu   occasion;opportunity
 munAsab NAt     occasions;opportunities
@@ -2824,8 +2824,8 @@ nisAj   Nap     weaver's trade;textile industry
 ;; nasiyj_1
 nasiyj  N       textile;fabric;tissue
 nusuj   N       textiles;fabrics;tissue
->anosij Nap     textiles;fabrics;tissue
->anosAj N       textiles;fabrics;tissue
+Oanosij Nap     textiles;fabrics;tissue
+OanosAj N       textiles;fabrics;tissue
 ;; manosaj_1
 manosaj Ndu     weaving mill
 manAsij Ndip    weaving mill
@@ -2932,8 +2932,8 @@ nusog   N       sap (plant)
 ;; nasaf-i_1
 nasaf   PV      pulverize;scatter;blow up
 nosif   IV      pulverize;scatter;blow up
-;; >anosaf_1
->anosaf PV      scatter
+;; Oanosaf_1
+Oanosaf PV      scatter
 nosif   IV_yu   scatter
 nosaf   IV_Pass_yu      be scattered
 ;; Ainotasaf_1
@@ -3033,8 +3033,8 @@ nosul   IV_intr fall out
 ;; nas~al_1
 nas~al  PV      shred;unravel
 nas~il  IV_yu   shred;unravel
-;; >anosal_1
->anosal PV      procreate
+;; Oanosal_1
+Oanosal PV      procreate
 nosil   IV_yu   procreate
 nosal   IV_Pass_yu      be procreated
 ;; tanAsal_1
@@ -3044,7 +3044,7 @@ tanAsal IV      reproduce;be descended
 nusuwl  N       falling out
 ;; nasol_1
 nasol   N       progeny;offspring
->anosAl N       progeny;descendants
+OanosAl N       progeny;descendants
 ;; nusAlap_1
 nusAl   Nap     fibrous waste;lint
 ;; nas~Alap_1
@@ -3053,8 +3053,8 @@ nas~Al  Nap     raveling machine;willow
 nasuwl  Nap     breed animal
 ;; nasiylap_1
 nasiyl  Nap     offprint;reprint
-;; <inosAl_1
-<inosAl N       procreation;generation
+;; IinosAl_1
+IinosAl N       procreation;generation
 ;; tanAsul_1
 tanAsul N/At    reproduction;procreation
 ;; tanAsuliy~_1
@@ -3074,7 +3074,7 @@ tanas~am        PV      sniff;breathe;be fragrant
 tanas~am        IV      sniff;breathe;be fragrant
 ;; nasam_1
 nasam   N       breath
->anosAm N       breath
+OanosAm N       breath
 ;; nasamap_1
 nasam   NapAt   persons;population
 ;; nasamap_2
@@ -3106,7 +3106,7 @@ nisowAn N       women
 nisowAniy~      Nall    feminist     [[nisowAniy~/ADJ]]
 ;; nisA'_1
 nisA'   N0_Nh   women
-nisA&   Nh      women
+nisAW   Nh      women
 nisA}   Nhy     women
 ;; nisowiy~_1
 nisowiy~        N-ap    women's;feminist;feminine     [[nisowiy~/ADJ]]
@@ -3127,11 +3127,11 @@ nosay   IV_Ann  forget
 nosa    IV_0hwnyn       forget
 nosaY   IV_0_Pass_yu    be forgotten
 nosay   IV_Ann_Pass_yu  be forgotten
-;; >anosaY_1
->anosaY PV_0    make forget
->anosA  PV_h    make forget
->anosay PV_Atn  make forget
->anos   PV_ttAw make forget
+;; OanosaY_1
+OanosaY PV_0    make forget
+OanosA  PV_h    make forget
+Oanosay PV_Atn  make forget
+Oanos   PV_ttAw make forget
 nosiy   IV_0hAnn_yu     make forget
 nos     IV_0hwnyn_yu    make forget
 nosaY   IV_0_Pass_yu    be made to forget
@@ -3174,56 +3174,56 @@ na$~A$  N       blotting
 mina$~  Nap     fly swatter
 ;
 ;--- n$A
-;; na$a>-a_1
-na$a>   PV->    rise;grow
+;; na$aO-a_1
+na$aO   PV-O    rise;grow
 na$a|   PV-|    rise;grow
-na$a&   PV_w    rise;grow
-no$a>   IV      rise;grow
+na$aW   PV_w    rise;grow
+no$aO   IV      rise;grow
 no$a|   IV-|    rise;grow
-no$a&   IV_wn   rise;grow
+no$aW   IV_wn   rise;grow
 no$a}   IV_yn   rise;grow
-;; na$u&-u_1
-na$u&   PV_intr rise;grow
-no$u&   IV_intr rise;grow
+;; na$uW-u_1
+na$uW   PV_intr rise;grow
+no$uW   IV_intr rise;grow
 no$u}   IV_yn   rise;grow
-;; na$~a>_1
-na$~a>  PV->    make grow;raise
+;; na$~aO_1
+na$~aO  PV-O    make grow;raise
 na$~a|  PV-|    make grow;raise
-na$~a&  PV_w    make grow;raise
+na$~aW  PV_w    make grow;raise
 na$~i}  IV_yu   make grow;raise
-;; >ano$a>_1
->ano$a> PV->    establish;found;install
->ano$a| PV-|    establish;found;install
->ano$a& PV_w    establish;found;install
+;; Oano$aO_1
+Oano$aO PV-O    establish;found;install
+Oano$a| PV-|    establish;found;install
+Oano$aW PV_w    establish;found;install
 no$i}   IV_yu   establish;found;install
-no$a>   IV_Pass_yu      be established;be founded;be installed
->uno$i} PV_Pass be established;be founded;be installed
-;; tana$~a>_1
-tana$~a>        PV->    grow;develop
+no$aO   IV_Pass_yu      be established;be founded;be installed
+Ouno$i} PV_Pass be established;be founded;be installed
+;; tana$~aO_1
+tana$~aO        PV-O    grow;develop
 tana$~a|        PV-|    grow;develop
-tana$~a&        PV_w    grow;develop
-tana$~a>        IV      grow;develop
+tana$~aW        PV_w    grow;develop
+tana$~aO        IV      grow;develop
 tana$~a|        IV-|    grow;develop
-tana$~a&        IV_wn   grow;develop
+tana$~aW        IV_wn   grow;develop
 tana$~a}        IV_yn   grow;develop
-;; Aisotano$a>_1
-Aisotano$a>     PV->    search for;ask for
+;; Aisotano$aO_1
+Aisotano$aO     PV-O    search for;ask for
 Aisotano$a|     PV-|    search for;ask for
-Aisotano$a&     PV_w    search for;ask for
+Aisotano$aW     PV_w    search for;ask for
 sotano$i}       IV      search for;ask for
 ;; na$o'_1
 na$o'   N0      youth;generation
 na$o}   NF_Nhy  youth;generation
-;; na$o>ap_1
-na$o>   Nap     growth;development;evolution
+;; na$oOap_1
+na$oO   Nap     growth;development;evolution
 ;; nu$uw'_1
 nu$uw'  N0_Nh   growth;development;evolution
 nu$uw}  Nhy     growth;development;evolution
 ;; nu$uw}iy~_1
 nu$uw}iy~       Nall    evolutionist     [[nu$uw}iy~/ADJ]]
-;; mano$a>_1
-mano$a> N0_Nh   source;origin;generation
-mano$a& Nh      source;origin;generation
+;; mano$aO_1
+mano$aO N0_Nh   source;origin;generation
+mano$aW Nh      source;origin;generation
 mano$a} Nhy     source;origin;generation
 mano$a} Nayn    sources;origins;generations
 mano$a| N-|     sources;origins;generations
@@ -3233,26 +3233,26 @@ tano$iy'        N0      upbringing;education
 tano$iy}        NF_Nhy  upbringing;education
 tano$iy}        NAt     upbringing;education
 tano$i} Nap     upbringing;education
-;; <ino$A'_1
-<ino$A' N0_Nh   establishing;setting up;founding
-<ino$A& Nh      establishing;setting up;founding
-<ino$A} Nhy     establishing;setting up;founding
-;; <ino$A'_2
-<ino$A' N0_Nh   construction;installation
-<ino$A& Nh      construction;installation
-<ino$A} Nhy     construction;installation
-<ino$A' NAn_Nayn        constructions;installations
-<ino$A} Nayn    constructions;installations
-<ino$A' NAt     constructions;installations
-;; <ino$A'_3
-<ino$A' N0_Nh   essay;composition
-<ino$A& Nh      essay;composition
-<ino$A} Nhy     essay;composition
-<ino$A' NAn_Nayn        essays;compositions
-<ino$A} Nayn    essays;compositions
-<ino$A' NAt     essays;compositions
-;; <ino$A}iy~_1
-<ino$A}iy~      N-ap    construction;composition     [[<ino$A}iy~/ADJ]]
+;; Iino$A'_1
+Iino$A' N0_Nh   establishing;setting up;founding
+Iino$AW Nh      establishing;setting up;founding
+Iino$A} Nhy     establishing;setting up;founding
+;; Iino$A'_2
+Iino$A' N0_Nh   construction;installation
+Iino$AW Nh      construction;installation
+Iino$A} Nhy     construction;installation
+Iino$A' NAn_Nayn        constructions;installations
+Iino$A} Nayn    constructions;installations
+Iino$A' NAt     constructions;installations
+;; Iino$A'_3
+Iino$A' N0_Nh   essay;composition
+Iino$AW Nh      essay;composition
+Iino$A} Nhy     essay;composition
+Iino$A' NAn_Nayn        essays;compositions
+Iino$A} Nayn    essays;compositions
+Iino$A' NAt     essays;compositions
+;; Iino$A}iy~_1
+Iino$A}iy~      N-ap    construction;composition     [[Iino$A}iy~/ADJ]]
 ;; nA$i}_1
 nA$i}   N-ap    growing;arising;resulting     [[nA$i}/ADJ]]
 ;; nA$i}_2
@@ -3262,8 +3262,8 @@ nA$i}   Nap     youth;rising generation
 muno$i} N-ap    creative     [[muno$i}/ADJ]]
 ;; muno$i}_2
 muno$i} Nall    originator;builder;founder
-;; muno$a>ap_1
-muno$a> Napdu   establishment;firm
+;; muno$aOap_1
+muno$aO Napdu   establishment;firm
 muno$a  N-|t    establishments;firms
 muno$a  N-|t    installations;facilities
 ;
@@ -3274,8 +3274,8 @@ no$ab   IV      break out;be attached to
 ;; na$~ab_1
 na$~ab  PV      stick on;dig in;attach
 na$~ib  IV_yu   stick on;dig in;attach
-;; >ano$ab_1
->ano$ab PV      stick on;dig in;attach
+;; Oano$ab_1
+Oano$ab PV      stick on;dig in;attach
 no$ib   IV_yu   stick on;dig in;attach
 no$ab   IV_Pass_yu      be attached
 ;; na$ab_1
@@ -3314,8 +3314,8 @@ no$ud   IV      seek;implore
 ;; nA$ad_1
 nA$ad   PV      urge;implore
 nA$id   IV_yu   urge;implore
-;; >ano$ad_1
->ano$ad PV      seek;sing;recite
+;; Oano$ad_1
+Oano$ad PV      seek;sing;recite
 no$id   IV_yu   seek;sing;recite
 no$ad   IV_Pass_yu      be sung;be recited
 ;; tanA$ad_1
@@ -3328,14 +3328,14 @@ sotano$id       IV      ask to recite verses
 na$iyd  Ndu     anthem;hymn;song
 na$iyd  Napdu   anthem;hymn;song
 na$A}id Ndip    anthems;hymns;songs
->ano$Ad N       anthems;hymns;songs
-;; >uno$uwdap_1
->uno$uwd        Napdu   anthem;hymn;song
->anA$iyd        Ndip    anthems;hymns;songs
+Oano$Ad N       anthems;hymns;songs
+;; Ouno$uwdap_1
+Ouno$uwd        Napdu   anthem;hymn;song
+OanA$iyd        Ndip    anthems;hymns;songs
 ;; munA$adap_1
 munA$ad NapAt   urgent request;earnest appeal
-;; <ino$Ad_1
-<ino$Ad N/At    recitation;declaration
+;; Iino$Ad_1
+Iino$Ad N/At    recitation;declaration
 ;; mano$uwd_1
 mano$uwd        N-ap    pursued;desired;desirable;wanted;sought     [[mano$uwd/ADJ]]
 ;; mano$uwd_2
@@ -3360,8 +3360,8 @@ no$ar   IV_Pass_yu      be published;be announced;be spread
 ;; na$~ar_1
 na$~ar  PV      spread
 na$~ir  IV_yu   spread
-;; >ano$ar_1
->ano$ar PV      resurrect
+;; Oano$ar_1
+Oano$ar PV      resurrect
 no$ir   IV_yu   resurrect
 no$ar   IV_Pass_yu      be resurrected
 ;; tana$~ar_1
@@ -3406,13 +3406,13 @@ munota$ir       Nall    spreading;scattered;prevalent     [[munota$ir/ADJ]]
 na$az   PV_intr rise;be recalcitrant
 no$uz   IV_intr rise;be recalcitrant
 no$iz   IV_intr rise;be recalcitrant
-;; >ano$az_1
->ano$az PV      revive;reanimate
+;; Oano$az_1
+Oano$az PV      revive;reanimate
 no$iz   IV_yu   revive;reanimate
 no$az   IV_Pass_yu      be revived;be reanimated
 ;; na$az_1
 na$az   N       high ground;elevated place
->ano$Az N       high ground;elevated places
+Oano$Az N       high ground;elevated places
 ;; na$Az_1
 na$Az   N       discordant melody;cacophony
 ;; nu$uwz_1
@@ -3436,8 +3436,8 @@ no$uT   IV_intr be active;be energetic
 ;; na$~aT_1
 na$~aT  PV      stimulate;encourage
 na$~iT  IV_yu   stimulate;encourage
-;; >ano$aT_1
->ano$aT PV      stimulate;invigorate;tie up
+;; Oano$aT_1
+Oano$aT PV      stimulate;invigorate;tie up
 no$iT   IV_yu   stimulate;invigorate;tie up
 no$aT   IV_Pass_yu      be stimulated;be invigorated;be tied up
 ;; tana$~aT_1
@@ -3450,19 +3450,19 @@ na$oT   Nap     energy;zeal
 ;; na$AT_1
 na$AT   N       activity;active
 na$AT   NAt     activities
->ano$iT Nap     activities
+Oano$iT Nap     activities
 ;; na$iyT_1
 na$iyT  N/ap    active;energetic     [[na$iyT/ADJ]]
 ni$AT   N       active;energetic
 nu$aTA' N0_Nh   active;energetic
-nu$aTA& Nh      active;energetic
+nu$aTAW Nh      active;energetic
 nu$aTA} Nhy     active;energetic
 nu$aTA' N0_Nh   activists
-nu$aTA& Nh      activists
+nu$aTAW Nh      activists
 nu$aTA} Nhy     activists
-;; >uno$uwTap_1
->uno$uwT        Napdu   knot;noose
->anA$iyT        Ndip    knots;nooses
+;; Ouno$uwTap_1
+Ouno$uwT        Napdu   knot;noose
+OanA$iyT        Ndip    knots;nooses
 ;; mano$aT_1
 mano$aT N       pleasant thing
 ;; tano$iyT_1
@@ -3529,8 +3529,8 @@ no$aq   IV      smell;inhale
 ;; na$~aq_1
 na$~aq  PV      give to smell;make inhale
 na$~iq  IV_yu   give to smell;make inhale
-;; >ano$aq_1
->ano$aq PV      give to smell;make inhale
+;; Oano$aq_1
+Oano$aq PV      give to smell;make inhale
 no$iq   IV_yu   give to smell;make inhale
 no$aq   IV_Pass_yu      be given to smell;be made to inhale
 ;; tana$~aq_1
@@ -3644,7 +3644,7 @@ na$ow   Nap     intoxication;rapture;elation
 na$owiy~        N-ap    intoxicating     [[na$owiy~/ADJ]]
 ;; na$A'_1
 na$A'   N0_Nh   starch;farina
-na$A&   Nh      starch;farina
+na$AW   Nh      starch;farina
 na$A}   Nhy     starch;farina
 ;; na$awiy~_1
 na$awiy~        N-ap    starchy     [[na$awiy~/ADJ]]
@@ -3658,7 +3658,7 @@ na$AwaY N0      intoxicated
 na$AwA  Nhy     intoxicated
 ;; Ainoti$A'_1
 Ainoti$A'       N0_Nh   intoxication
-Ainoti$A&       Nh      intoxication
+Ainoti$AW       Nh      intoxication
 Ainoti$A}       Nhy     intoxication
 Ainoti$A'       NAt     intoxication
 ;
@@ -3696,8 +3696,8 @@ naS~ib  IV_yu   install;raise;appoint
 ;; nASab_1
 nASab   PV_intr be hostile to;oppose
 nASib   IV_intr_yu      be hostile to;oppose
-;; >anoSab_1
->anoSab PV      exhaust;wear out
+;; OanoSab_1
+OanoSab PV      exhaust;wear out
 noSib   IV_yu   exhaust;wear out
 noSab   IV_Pass_yu      be exhausted;be worn out
 ;; AinotaSab_1
@@ -3707,16 +3707,16 @@ notaSib IV      rise;be upright;be appointed
 naSob   N       setting up;installing;appointing
 ;; naSob_2
 naSob   N-ap    erected;set up
->anoSAb N       erected;plants
+OanoSAb N       erected;plants
 ;; nuSob_1
 nuSob   N       monument;memorial
->anoSAb N       monuments;memorials
+OanoSAb N       monuments;memorials
 ;; nuSoba_1
 nuSoba  FW-Wa   in front of     [[nuSoba/PREP]]
 nuSoba  FW-Wa-a in front of     [[nuSoba/PREP]]
 ;; naSab_1
 naSab   N       exertion;hard work
->anoSAb N       planted flags
+OanoSAb N       planted flags
 ;; naSobap_1
 naSob   Napdu   plant
 naSab   NAt     plants
@@ -3730,11 +3730,11 @@ naS~Ab  Nall    swindler;impostor
 naS~Ab  Nall    deceitful;fraudulent     [[naS~Ab/ADJ]]
 ;; naSiyb_1
 naSiyb  Ndu     share;dividend
->anoSib Nap     shares;dividends
+OanoSib Nap     shares;dividends
 nuSuwb  N       shares;dividends
->anoSibA'       N0_Nh   shares;dividends
->anoSibA&       Nh      shares;dividends
->anoSibA}       Nhy     shares;dividends
+OanoSibA'       N0_Nh   shares;dividends
+OanoSibAW       Nh      shares;dividends
+OanoSibA}       Nhy     shares;dividends
 ;; nASiyb_1
 nASiyb  N       lottery
 ;; yAnaSiyb_1
@@ -3743,8 +3743,8 @@ yAnASiyb        N       lottery
 ;; yAnaSiybiy~_1
 yAnaSiybiy~     Nall    lottery     [[yAnaSiybiy~/ADJ]]
 yAnASiybiy~     Nall    lottery     [[yAnASiybiy~/ADJ]]
-;; >anoSab_2
->anoSab Nel     more/most strenuous
+;; OanoSab_2
+OanoSab Nel     more/most strenuous
 ;; manoSib_1
 manoSib Ndu     post;position;office
 manASib Ndip    posts;positions;offices
@@ -3775,8 +3775,8 @@ naSiybiyn       Ndip    Nisibin
 ;; naSat-i_1
 naSat   PV-t    listen
 noSit   IV      listen
-;; >anoSat_1
->anoSat PV-t    listen
+;; OanoSat_1
+OanoSat PV-t    listen
 noSit   IV_yu   listen
 noSat   IV_Pass_yu      be listened
 ;; tanaS~at_1
@@ -3868,7 +3868,7 @@ nuSayoriy~      Nap     Nusairis (Shiite sect)
 ;; naSiyr_1
 naSiyr  N/ap    partisan;supporter
 nuSarA' N0_Nh   partisan;supporter
-nuSarA& Nh      partisan;supporter
+nuSarAW Nh      partisan;supporter
 nuSarA} Nhy     partisan;supporter
 ;; nASuwr_1
 nASuwr  N       fistula
@@ -3884,14 +3884,14 @@ munASar NapAt   assistance;backing;patronage
 AinotiSAr       N/At    victory
 ;; AinotiSAr_2
 AinotiSAr       Nprop   Intisar
-;; >anoSAr_1
->anoSAr N       partisans;followers
-;; >anoSAr_2
->anoSAr N       Ansar
-;; >anoSAriy~_1
->anoSAriy~      N0      Ansari
-;; >anoSAriy~_2
->anoSAriy~      Nall    Ansari;Ansar-related     [[>anoSAriy~/ADJ]]
+;; OanoSAr_1
+OanoSAr N       partisans;followers
+;; OanoSAr_2
+OanoSAr N       Ansar
+;; OanoSAriy~_1
+OanoSAriy~      N0      Ansari
+;; OanoSAriy~_2
+OanoSAriy~      Nall    Ansari;Ansar-related     [[OanoSAriy~/ADJ]]
 ;; nASir_1
 nASir   N0      Nasser;Nasir
 ;; nASir_2
@@ -3934,8 +3934,8 @@ munotaSir       N0      Muntasir
 ;; naSaE-a_1
 naSaE   PV_intr be pure;be bright;be evident
 noSaE   IV_intr be pure;be bright;be evident
-;; >anoSaE_1
->anoSaE PV      recognize;acknowledge
+;; OanoSaE_1
+OanoSaE PV      recognize;acknowledge
 noSiE   IV_yu   recognize;acknowledge
 noSaE   IV_Pass_yu      be recognized;be acknowledged
 ;; nuSuwE_1
@@ -3954,8 +3954,8 @@ naS~if  IV_yu   divide in half;bisect
 ;; nASaf_1
 nASaf   PV      share equally
 nASif   IV_yu   share equally
-;; >anoSaf_1
->anoSaf PV_intr be just;be impartial
+;; OanoSaf_1
+OanoSaf PV_intr be just;be impartial
 noSif   IV_intr_yu      be just;be impartial
 ;; tanaS~af_1
 tanaS~af        PV      submit to
@@ -3968,7 +3968,7 @@ AisotanoSaf     PV      demand justice
 sotanoSif       IV      demand justice
 ;; niSof_1
 niSof   Ndu     half;middle;semi-
->anoSAf N       halves
+OanoSAf N       halves
 ;; niSofiy~_1
 niSofiy~        N-ap    semi-;half     [[niSofiy~/ADJ]]
 ;; naSaf_1
@@ -3983,8 +3983,8 @@ naSiyf  N0      Naseef
 tanoSiyf        N/At    bisecting;bisection;halving
 ;; munASafap_1
 munASaf NapAt   equal shares;fifty-fifty
-;; <inoSAf_1
-<inoSAf N/At    impartiality;fairness
+;; IinoSAf_1
+IinoSAf N/At    impartiality;fairness
 ;; nASif_1
 nASif   N/ap    servant
 nuS~Af  N       servants
@@ -4007,7 +4007,7 @@ tanaS~al        IV      renounce;withdraw;evade
 naSol   N       arrowhead;spearhead;blade
 naSol   Napdu   arrowhead;spearhead;blade
 niSAl   N       arrowheads;spearheads;blades
->anoSul N       arrowheads;spearheads;blades
+OanoSul N       arrowheads;spearheads;blades
 nuSuwl  N       arrowheads;spearheads;blades
 ;; nASil_1
 nASil   Nall    falling;dropping;faded     [[nASil/ADJ]]
@@ -4048,8 +4048,8 @@ naD~    NF      in cash     [[naD~/ADV]]
 ;; naDab-u_1
 naDab   PV      dwindle;decrease;decline
 noDub   IV      dwindle;decrease;decline
-;; >anoDab_1
->anoDab PV      deplete;drain;exhaust
+;; OanoDab_1
+OanoDab PV      deplete;drain;exhaust
 noDib   IV_yu   deplete;drain;exhaust
 noDab   IV_Pass_yu      be depleted;be drained;be exhausted
 ;; nuDuwb_1
@@ -4064,8 +4064,8 @@ munaD~ab        N-ap    depleted;drained;exhausted     [[munaD~ab/ADJ]]
 ;; naDij-a_1
 naDij   PV_intr be ripe;mature;be well cooked
 noDaj   IV_intr be ripe;mature;be well cooked
-;; >anoDaj_1
->anoDaj PV      ripen;bring to maturity;cook well
+;; OanoDaj_1
+OanoDaj PV      ripen;bring to maturity;cook well
 noDij   IV_yu   ripen;bring to maturity;cook well
 noDaj   IV_Pass_yu      be ripened;be brought to maturity;be cooked well
 ;; naDoj_1
@@ -4108,7 +4108,7 @@ naD~ad  PV      arrange
 naD~id  IV_yu   arrange
 ;; naDad_1
 naDad   N       stack;rows;tiers
->anoDAd N       stacks;rows;tiers
+OanoDAd N       stacks;rows;tiers
 ;; nuDud_1
 nuDud   N       tables
 ;; naDiyd_1
@@ -4208,11 +4208,11 @@ naD~iy  IV_0hAnn_yu     take off;strip
 naD~    IV_0hwnyn_yu    take off;strip
 naD~aY  IV_0_Pass_yu    be stripped
 naD~ay  IV_Ann_Pass_yu  be stripped
-;; >anoDaY_1
->anoDaY PV_0    exhaust;make lean;wear out
->anoDA  PV_h    exhaust;make lean;wear out
->anoDay PV_Atn  exhaust;make lean;wear out
->anoD   PV_ttAw exhaust;make lean;wear out
+;; OanoDaY_1
+OanoDaY PV_0    exhaust;make lean;wear out
+OanoDA  PV_h    exhaust;make lean;wear out
+OanoDay PV_Atn  exhaust;make lean;wear out
+OanoD   PV_ttAw exhaust;make lean;wear out
 noDiy   IV_0hAnn_yu     exhaust;make lean;wear out
 noD     IV_0hwnyn_yu    exhaust;make lean;wear out
 noDaY   IV_0_Pass_yu    be depleted;be worn out
@@ -4227,14 +4227,14 @@ notaD   IV_0hwnyn       unsheathe
 notaDaY IV_0    unsheathe
 ;; naDow_1
 naDow   Ndu     tattered garment
->anoDA' N0_Nh   tattered garment
->anoDA& Nh      tattered garment
->anoDA} Nhy     tattered garment
+OanoDA' N0_Nh   tattered garment
+OanoDAW Nh      tattered garment
+OanoDA} Nhy     tattered garment
 ;; niDow_1
 niDow   N-ap    lean
->anoDA' N0_Nh   lean
->anoDA& Nh      lean
->anoDA} Nhy     lean
+OanoDA' N0_Nh   lean
+OanoDAW Nh      lean
+OanoDA} Nhy     lean
 ;
 ;; naT~-u_1
 naT~    PV_V    jump;leap
@@ -4292,7 +4292,7 @@ nuT~Ar  Ndu     scarecrow
 nATir   Ndu     guard;lookout;warden
 nuT~Ar  N       guards;lookouts;wardens
 nuTarA' N0_Nh   guards;lookouts;wardens
-nuTarA& Nh      guards;lookouts;wardens
+nuTarAW Nh      guards;lookouts;wardens
 nuTarA} Nhy     guards;lookouts;wardens
 naTar   Nap     guards;lookouts;wardens
 nawATir Ndip    guards;lookouts;wardens
@@ -4327,7 +4327,7 @@ tanaT~aE        IV_intr be meticulous;be fastidious
 ;; naToE_1
 naToE   N       leather mat
 niToE   N       leather mat
->anoTAE N       leather mats
+OanoTAE N       leather mats
 nuTuwE  N       leather mats
 ;; niToE_1
 niToE   N       hard palate
@@ -4364,8 +4364,8 @@ noTaq   IV_Pass_yu      be spoken;be uttered;be pronounced
 ;; naT~aq_1
 naT~aq  PV      make speak
 naT~iq  IV_yu   make speak
-;; >anoTaq_1
->anoTaq PV      make speak
+;; OanoTaq_1
+OanoTaq PV      make speak
 noTiq   IV_yu   make speak
 noTaq   IV_Pass_yu      be made to speak
 ;; tanaT~aq_1
@@ -4429,8 +4429,8 @@ naToniT IV_yu   hop up and down;skip
 ;; naZar-u_1
 naZar   PV      look;observe;see
 noZur   IV      look;observe;see
-; >nZr    >unoZur CV      look!;see!
-; AnZr    >unoZur CV      look!;see!
+; OnZr    OunoZur CV      look!;see!
+; AnZr    OunoZur CV      look!;see!
 ;; nAZar_1
 nAZar   PV      equalize
 nAZir   IV_yu   equalize
@@ -4449,7 +4449,7 @@ AisotanoZar     PV      wait for;anticipate
 sotanoZir       IV      wait for;anticipate
 ;; naZar_1
 naZar   N       view;look;seeing
->anoZAr N       glances;looking
+OanoZAr N       glances;looking
 ;; naZorap_1
 naZor   Napdu   look;glance;view
 naZar   NAt     looks;glances;views
@@ -4462,7 +4462,7 @@ naZariy~        NapAt   theory     [[naZariy~/NOUN]]
 ;; naZiyr_1
 naZiyr  N/ap    counterpart;opposite number;colleague;peer
 nuZarA' N0_Nh   counterparts;colleagues;peers
-nuZarA& Nh      counterparts;colleagues;peers
+nuZarAW Nh      counterparts;colleagues;peers
 nuZarA} Nhy     counterparts;colleagues;peers
 naZA}ir Ndip    counterparts;colleagues;peers
 ;; naZiyrap_1
@@ -4531,11 +4531,11 @@ naZAf   Nap     cleanliness;cleaning
 ;; naZiyf_1
 naZiyf  N/ap    clean;tidy     [[naZiyf/ADJ]]
 nuZafA' N0_Nh   clean;tidy
-nuZafA& Nh      clean;tidy
+nuZafAW Nh      clean;tidy
 nuZafA} Nhy     clean;tidy
 niZAf   N       clean;tidy
-;; >anoZaf_1
->anoZaf Nel     cleaner;cleanest
+;; OanoZaf_1
+OanoZaf Nel     cleaner;cleanest
 ;; tanoZiyf_1
 tanoZiyf        N/At    cleaning
 ;; munaZ~if_1
@@ -4567,10 +4567,10 @@ notaZim IV_intr be organized;be regulated
 naZom   N       system;organization
 ;; niZAm_1
 niZAm   NduAt   regime;government
->anoZim Nap     regimes;governments;systems
+OanoZim Nap     regimes;governments;systems
 ;; niZAm_2
 niZAm   N       methodology;system;order
->anoZim Nap     methodologies;systems
+OanoZim Nap     methodologies;systems
 ;; lAniZAm_1
 lAniZAm N_L     chaos
 ;; niZAmiy~_1
@@ -4675,8 +4675,8 @@ noEas   IV_intr be sleepy;doze off;be dull
 ;; naE~as_1
 naE~as  PV      make sleepy;put to sleep
 naE~is  IV_yu   make sleepy;put to sleep
-;; >anoEas_1
->anoEas PV      make sleepy;put to sleep
+;; OanoEas_1
+OanoEas PV      make sleepy;put to sleep
 noEis   IV_yu   make sleepy;put to sleep
 noEas   IV_Pass_yu      be made sleepy;be put to sleep
 ;; tanAEas_1
@@ -4699,8 +4699,8 @@ noEa$   IV      raise;revive;stimulate
 ;; naE~a$_1
 naE~a$  PV      raise;revive;stimulate
 naE~i$  IV_yu   raise;revive;stimulate
-;; >anoEa$_1
->anoEa$ PV      raise;revive;stimulate
+;; OanoEa$_1
+OanoEa$ PV      raise;revive;stimulate
 noEi$   IV_yu   raise;revive;stimulate
 noEa$   IV_Pass_yu      be raised;be revived;be stimulated
 ;; AinotaEa$_1
@@ -4710,8 +4710,8 @@ notaEi$ IV      recover;recuperate;be invigorated
 naEo$   N       coffin;casket;bier
 ;; naEo$ap_1
 naEo$   Nap     euphoria;song
-;; <inoEA$_1
-<inoEA$ N/At    revival;resuscitation
+;; IinoEA$_1
+IinoEA$ N/At    revival;resuscitation
 ;; AinotiEA$_1
 AinotiEA$       N/At    resurgence;revival
 ;; munoEi$_1
@@ -4721,8 +4721,8 @@ munoEi$ Nall    animating;invigorating;restorative     [[munoEi$/ADJ]]
 ;; naEaZ-a_1
 naEaZ   PV_intr become erect;be sexually aroused
 noEaZ   IV_intr become erect;be sexually aroused
-;; >anoEaZ_1
->anoEaZ PV_intr become erect;be sexually aroused
+;; OanoEaZ_1
+OanoEaZ PV_intr become erect;be sexually aroused
 noEiZ   IV_intr_yu      become erect;be sexually aroused
 noEaZ   IV_Pass_yu      become erect;be sexually aroused
 ;; naEoZ_1
@@ -4731,8 +4731,8 @@ naEaZ   N       erection;sexual arousal
 nuEuwZ  N       erection;sexual arousal
 ;; nAEuwZ_1
 nAEuwZ  N       aphrodisiac
-;; <inoEAZ_1
-<inoEAZ NduAt   orgasm
+;; IinoEAZ_1
+IinoEAZ NduAt   orgasm
 ;
 ;--- nEq
 ;; naEaq-ia_1
@@ -4754,8 +4754,8 @@ noEal   IV_intr be shod
 ;; naE~al_1
 naE~al  PV      sole;shoe
 naE~il  IV_yu   sole;shoe
-;; >anoEal_1
->anoEal PV      sole;shoe
+;; OanoEal_1
+OanoEal PV      sole;shoe
 noEil   IV_yu   sole;shoe
 noEal   IV_Pass_yu      be soled;be shod
 ;; tanaE~al_1
@@ -4767,7 +4767,7 @@ notaEil IV      wear sandals;be shod
 ;; naEol_1
 naEol   Ndu     sole;sandals
 niEAl   N       soles;sandals
->anoEul N       soles;sandals
+OanoEul N       soles;sandals
 ;; nAEil_1
 nAEil   N-ap    shod;soled
 ;
@@ -4789,8 +4789,8 @@ noEum   IV_intr be soft;be smooth
 ;; naE~am_1
 naE~am  PV      soften;pulverize
 naE~im  IV_yu   soften;pulverize
-;; >anoEam_1
->anoEam PV      make pleasant;bestow favors
+;; OanoEam_1
+OanoEam PV      make pleasant;bestow favors
 noEim   IV_yu   make pleasant;bestow favors
 noEam   IV_Pass_yu      be made pleasant;be bestown favors
 ;; tanaE~am_1
@@ -4800,20 +4800,20 @@ tanaE~am        IV      live in luxury;enjoy
 niEom   N       wonderful
 ;; niEomat_1
 niEomat Nprop   Nimat
-;; >anoEAm_1
->anoEAm N       grazing livestock
+;; OanoEAm_1
+OanoEAm N       grazing livestock
 ;; naEomap_1
 naEom   Nap     comfort;pleasure
 ;; niEomap_1
 niEom   NapAt   blessing
 niEam   N       blessings
->anoEum N       blessings
+OanoEum N       blessings
 ;; nuEomaY_1
 nuEomaY N0      happiness
 nuEomA  Nhy     happiness
 ;; naEomA'_1
 naEomA' N0_Nh   favor;kindness;grace
-naEomA& Nh      favor;kindness;grace
+naEomAW Nh      favor;kindness;grace
 naEomA} Nhy     favor;kindness;grace
 ;; nuEomAn_1
 nuEomAn Nprop   Nu'man
@@ -4836,8 +4836,8 @@ nuEayomap       N0      Nuaima;Nu'aima
 nuEayomiy~      N0      Nuaimi;Nu'aimi
 ;; nuEuwmap_1
 nuEuwm  Nap     smoothness;delicacy
-;; >anoEam_2
->anoEam Nel     softer/softest
+;; OanoEam_2
+OanoEam Nel     softer/softest
 ;; minoEAm_1
 minoEAm Ndu     benefactor
 ;; manAEim_1
@@ -4938,8 +4938,8 @@ nagA$   Nap     banter;teasing;elegance
 ;; nag~aS_1
 nag~aS  PV      disturb;make loathsome
 nag~iS  IV_yu   disturb;make loathsome
-;; >anogaS_1
->anogaS PV      disturb;make loathsome
+;; OanogaS_1
+OanogaS PV      disturb;make loathsome
 nogiS   IV_yu   disturb;make loathsome
 nogaS   IV_Pass_yu      be disturbed;be made loathsome
 ;; tanag~aS_1
@@ -4975,7 +4975,7 @@ tanag~am        IV      hum softly
 ;; nagom_1
 nagom   N       tune;sound;voice
 nagam   N       tune;sound;voice
->anogAm N       tunes;sounds;voices
+OanogAm N       tunes;sounds;voices
 ;; nagomap_1
 nagom   Napdu   tune;song;sound
 nagam   NAt     tunes;songs;sounds
@@ -5129,8 +5129,8 @@ munotafix       N-ap    inflated;swollen;puffed up     [[munotafix/ADJ]]
 ;; nafid-a_1
 nafid   PV_intr be depleted;dwindle
 nofad   IV_intr be depleted;dwindle
-;; >anofad_1
->anofad PV      consume;deplete
+;; Oanofad_1
+Oanofad PV      consume;deplete
 nofid   IV_yu   consume;deplete
 nofad   IV_Pass_yu      be consumed;be depleted
 ;; Aisotanofad_1
@@ -5155,8 +5155,8 @@ nofu*   IV      penetrate;pass through;be operative
 ;; naf~a*_1
 naf~a*  PV      implement;carry out;accomplish
 naf~i*  IV_yu   implement;carry out;accomplish
-;; >anofa*_1
->anofa* PV      implement;carry out;accomplish
+;; Oanofa*_1
+Oanofa* PV      implement;carry out;accomplish
 nofi*   IV_yu   implement;carry out;accomplish
 nofa*   IV_Pass_yu      be implemented;be carried out;be accomplished
 ;; tanaf~a*_1
@@ -5167,7 +5167,7 @@ Aisotanofa*     PV_intr be implemented;be carried out
 sotanofi*       IV_intr be implemented;be carried out
 ;; nafa*_1
 nafa*   N       opening;outlet;exit
->anofA* N       openings;outlets;exits
+OanofA* N       openings;outlets;exits
 ;; nafA*_1
 nafA*   N       action;implementation;effectuation
 ;; nafA*_2
@@ -5186,8 +5186,8 @@ manAfi* Ndip    exits;openings
 tanofiy*        N/At    implementation;execution;carrying out
 ;; tanofiy*iy~_1
 tanofiy*iy~     N-ap    executive     [[tanofiy*iy~/ADJ]]
-;; <inofA*_1
-<inofA* N/At    performance;carrying out;implementation
+;; IinofA*_1
+IinofA* N/At    performance;carrying out;implementation
 ;; nAfi*_1
 nAfi*   N-ap    effective;operative;valid     [[nAfi*/ADJ]]
 ;; nAfi*ap_1
@@ -5217,7 +5217,7 @@ Aisotanofar     PV_intr be frightened away;call into battle
 sotanofir       IV_intr be frightened away;call into battle
 ;; nafar_1
 nafar   N       soldier;private
->anofAr N       soldiers;troops
+OanofAr N       soldiers;troops
 ;; naforap_1
 nafor   Nap     aversion;dislike
 nufuwr  N       aversion;alienation
@@ -5225,7 +5225,7 @@ nufuwr  N       aversion;alienation
 nafuwr  N-ap    easily frightened;shy
 ;; nafiyr_1
 nafiyr  N       call to arms;departure into battle
->anofir Nap     troops
+Oanofir Nap     troops
 ;; tanofiyr_1
 tanofiyr        N/At    alienation;repulsion
 ;; tanAfur_1
@@ -5247,7 +5247,7 @@ nawofar NapAt   fountain
 ;--- nfs
 ;; nafos_1
 nafos   N       same;self     [[nafos/NOUN]]
->anofus N       selves
+Oanofus N       selves
 ; noun + pronoun clitics
 ;nfs    nafosa  FW-Wa-a same;self     [[nafosa/NOUN]]
 ;nfs    nafosi  FW-Wa-i same;self     [[nafosi/NOUN]]
@@ -5274,17 +5274,17 @@ tanAfas IV      compete
 ;; nafos_2
 nafos   N       soul
 nufuws  N       souls
->anofus N       souls
+Oanofus N       souls
 ;; nafosiy~_1
 nafosiy~        N-ap    mental;spiritual;psychological     [[nafosiy~/ADJ]]
 ;; nafas_1
 nafas   N       breath;puff
->anofAs N       breaths;puffs
+OanofAs N       breaths;puffs
 ;; nufosap_1
 nufos   Nap     delay
 ;; nafosA'_1
 nafosA' N0_Nh   in childbed
-nafosA& Nh      in childbed
+nafosAW Nh      in childbed
 nafosA} Nhy     in childbed
 nawAfis Ndip    in childbed
 ;; nafosAniy~_1
@@ -5356,8 +5356,8 @@ nofuD   IV      shake;recover
 ;; naf~aD_1
 naf~aD  PV      shake
 naf~iD  IV_yu   shake
-;; >anofaD_1
->anofaD PV      deplete;be depleted;remove
+;; OanofaD_1
+OanofaD PV      deplete;be depleted;remove
 nofiD   IV_yu   deplete;be depleted;remove
 nofaD   IV_Pass_yu      be depleted;be removed
 ;; tanaf~aD_1
@@ -5461,8 +5461,8 @@ naf~iq  IV_yu   sell
 ;; nAfaq_1
 nAfaq   PV      dissimulate;act hypocritically
 nAfiq   IV_yu   dissimulate;act hypocritically
-;; >anofaq_1
->anofaq PV      spend;disburse
+;; Oanofaq_1
+Oanofaq PV      spend;disburse
 nofiq   IV_yu   spend;disburse
 nofaq   IV_Pass_yu      be spent;be disbursed
 ;; Aisotanofaq_1
@@ -5470,7 +5470,7 @@ Aisotanofaq     PV      spend;waste
 sotanofiq       IV      spend;waste
 ;; nafaq_1
 nafaq   N       tunnel;subway shaft
->anofAq N       subway;tunnels
+OanofAq N       subway;tunnels
 ;; nafaqap_1
 nafaq   Napdu   expenditure;disbursement
 nafaq   NAt     expenditures;disbursements
@@ -5482,8 +5482,8 @@ nafAq   N       brisk trade
 minofAq N       profligate;spendthrift
 ;; munAfaqap_1
 munAfaq NapAt   hypocrisy;dissimulation
-;; <inofAq_1
-<inofAq N/At    expenditure;disbursement;expenses
+;; IinofAq_1
+IinofAq N/At    expenditure;disbursement;expenses
 ;; nAfiq_1
 nAfiq   N-ap    selling well;in demand     [[nAfiq/ADJ]]
 ;; munAfiq_1
@@ -5500,7 +5500,7 @@ notafil IV      do more than required
 nafol   N       more than required
 ;; nafal_1
 nafal   N       booty;loot
->anofAl N       booty;loot
+OanofAl N       booty;loot
 nufuwl  N       booty;loot
 ;; nafal_2
 nafal   N       clover
@@ -5575,7 +5575,7 @@ nafoyiy~        N-ap    negative     [[nafoyiy~/ADJ]]
 nafiy~  N-ap    denied;rejected     [[nafiy~/ADJ]]
 ;; nafA'_1
 nafA'   N0_Nh   refuse;discarded item
-nafA&   Nh      refuse;discarded item
+nafAW   Nh      refuse;discarded item
 nafA}   Nhy     refuse;discarded item
 nafA    Nap     refuse;discarded item
 ;; nufAwap_1
@@ -5601,7 +5601,7 @@ tanAfiy NAn_Nayn        mutual incompatibilities
 tanAfiy NAt     mutual incompatibilities
 ;; AinotifA'_1
 AinotifA'       N0_Nh   absence;lack
-AinotifA&       Nh      absence;lack
+AinotifAW       Nh      absence;lack
 AinotifA}       Nhy     absence;lack
 AinotifA'       NAt     absence;lack
 ;; nAfiyAF_1
@@ -5653,7 +5653,7 @@ Ainotaqab       PV      put on a veil
 notaqib IV      put on a veil
 ;; naqob_1
 naqob   N       hole;excavation
->anoqAb N       holes;excavations
+OanoqAb N       holes;excavations
 ;; naqobap_1
 naqob   Napdu   hole
 ;; naqab_1
@@ -5663,7 +5663,7 @@ naq~Ab  N       punch
 ;; niqAb_1
 niqAb   N       veil
 nuqub   N       veils
->anoqib Nap     veils
+Oanoqib Nap     veils
 ;; niqAbap_1
 niqAb   Napdu   union;syndicate
 niqAb   NAt     unions;syndicates
@@ -5676,12 +5676,12 @@ niqAbiy~        Nap     syndicalism;trade-unionism     [[niqAbiy~/NOUN]]
 ;; naqiyb_1
 naqiyb  Ndu     captain;staff sergeant;first sergeant
 nuqabA' N0_Nh   captains;staff sergeants;first sergeants
-nuqabA& Nh      captains;staff sergeants;first sergeants
+nuqabAW Nh      captains;staff sergeants;first sergeants
 nuqabA} Nhy     captains;staff sergeants;first sergeants
 ;; naqiyb_2
 naqiyb  N       union leader
 nuqabA' N0_Nh   union leaders
-nuqabA& Nh      union leaders
+nuqabAW Nh      union leaders
 nuqabA} Nhy     union leaders
 ;; naqiybap_1
 naqiyb  Nap     temperament;character
@@ -5714,8 +5714,8 @@ naq~iH  IV_yu   trim;prune
 ;; naq~aH_2
 naq~aH  PV      review;proofread
 naq~iH  IV_yu   review;proofread
-;; >anoqaH_1
->anoqaH PV      review;proofread
+;; OanoqaH_1
+OanoqaH PV      review;proofread
 noqiH   IV_yu   review;proofread
 noqaH   IV_Pass_yu      be reviewed;be proofread
 ;; tanoqiyH_1
@@ -5728,8 +5728,8 @@ noqud   IV      criticize
 ;; nAqad_1
 nAqad   PV      call to account
 nAqid   IV_yu   call to account
-;; >anoqad_1
->anoqad PV      pay
+;; Oanoqad_1
+Oanoqad PV      pay
 noqid   IV_yu   pay
 noqad   IV_Pass_yu      be paid
 ;; Ainotaqad_1
@@ -5779,15 +5779,15 @@ noqu*   IV      save;rescue
 ;; naqi*-a_1
 naqi*   PV_intr be saved;be rescued;escape
 noqa*   IV_intr be saved;be rescued;escape
-;; >anoqa*_1
->anoqa* PV      save;rescue;salvage
+;; Oanoqa*_1
+Oanoqa* PV      save;rescue;salvage
 noqi*   IV_yu   save;rescue;salvage
 noqa*   IV_Pass_yu      be saved;be rescued;be salvaged
 ;; Aisotanoqa*_1
 Aisotanoqa*     PV      save;rescue;salvage
 sotanoqi*       IV      save;rescue;salvage
-;; <inoqA*_1
-<inoqA* N/At    rescue;salvation;relief
+;; IinoqA*_1
+IinoqA* N/At    rescue;salvation;relief
 ;; AisotinoqA*_1
 AisotinoqA*     N/At    rescue;salvation;relief
 ;; munoqi*_1
@@ -5917,8 +5917,8 @@ noquS   IV      decrease;lack
 ;; naq~aS_1
 naq~aS  PV      decrease;curtail
 naq~iS  IV_yu   decrease;curtail
-;; >anoqaS_1
->anoqaS PV      decrease;curtail
+;; OanoqaS_1
+OanoqaS PV      decrease;curtail
 noqiS   IV_yu   decrease;curtail
 noqaS   IV_Pass_yu      be decreased;be curtailed
 ;; nAqaS_1
@@ -5946,8 +5946,8 @@ naqA}iS Ndip    shortcomings;defects
 tanoqiyS        N/At    decrease
 ;; munAqaSap_1
 munAqaS NapAt   public bidding;adjudication
-;; <inoqAS_1
-<inoqAS N/At    reduction;lowering;curtailment
+;; IinoqAS_1
+IinoqAS N/At    reduction;lowering;curtailment
 ;; tanAquS_1
 tanAquS N/At    decrease;diminution
 ;; AinotiqAS_1
@@ -5969,8 +5969,8 @@ noquD   IV      destroy;violate;rescind
 ;; nAqaD_1
 nAqaD   PV      contradict;be incompatible with
 nAqiD   IV_yu   contradict;be incompatible with
-;; >anoqaD_1
->anoqaD PV      overload
+;; OanoqaD_1
+OanoqaD PV      overload
 noqiD   IV_yu   overload
 noqaD   IV_Pass_yu      be overloaded
 ;; tanaq~aD_1
@@ -5984,7 +5984,7 @@ AinotaqaD       PV_intr be destroyed;rebel;attack
 notaqiD IV_intr be destroyed;rebel;attack
 ;; naqoD_1
 naqoD   N       contradiction;destruction
->anoqAD N       ruins;debris
+OanoqAD N       ruins;debris
 ;; naqiyD_1
 naqiyD  N       opposite;contrary;contrast
 ;; naqiyDap_1
@@ -6032,8 +6032,8 @@ noqaE   IV      soak;brew
 ;; naqaE-a_2
 naqaE   PV_intr be stagnant
 noqaE   IV_intr be stagnant
-;; >anoqaE_1
->anoqaE PV      soak;quench
+;; OanoqaE_1
+OanoqaE PV      soak;quench
 noqiE   IV_yu   soak;quench
 noqaE   IV_Pass_yu      be soaked;be quenched
 ;; AisotanoqaE_1
@@ -6043,7 +6043,7 @@ sotanoqiE       IV_intr be stagnant;be swampy
 naqoE   N       soaking;steeping;infusion
 ;; naqoE_2
 naqoE   Ndu     stagnant water;quagmire
->anoquE N       stagnant water;quagmire
+OanoquE N       stagnant water;quagmire
 ;; niqAE_1
 niqAE   N       dust
 nuquwE  N       dust
@@ -6216,11 +6216,11 @@ naq~iy  IV_0hAnn_yu     purify;clarify
 naq~    IV_0hwnyn_yu    purify;clarify
 naq~aY  IV_0_Pass_yu    be purified;be clarified
 naq~ay  IV_Ann_Pass_yu  be purified;be clarified
-;; >anoqaY_1
->anoqaY PV_0    purify;cleanse
->anoqA  PV_h    purify;cleanse
->anoqay PV_Atn  purify;cleanse
->anoq   PV_ttAw purify;cleanse
+;; OanoqaY_1
+OanoqaY PV_0    purify;cleanse
+OanoqA  PV_h    purify;cleanse
+Oanoqay PV_Atn  purify;cleanse
+Oanoq   PV_ttAw purify;cleanse
 noqiy   IV_0hAnn_yu     purify;cleanse
 noq     IV_0hwnyn_yu    purify;cleanse
 noqaY   IV_0_Pass_yu    be purified;be cleansed
@@ -6235,7 +6235,7 @@ notaq   IV_0hwnyn       select
 notaqaY IV_0    select
 ;; naqA'_1
 naqA'   N0_Nh   purity
-naqA&   Nh      purity
+naqAW   Nh      purity
 naqA}   Nhy     purity
 ;; naqAwap_1
 naqAw   Nap     purity;cleanness
@@ -6247,22 +6247,22 @@ nuqAyA  N0_Nhy  selection;choice;select
 ;; naqiy~_1
 naqiy~  N-ap    pure;clean;undiluted     [[naqiy~/ADJ]]
 niqA'   N0_Nh   pure;clean;undiluted
-niqA&   Nh      pure;clean;undiluted
+niqAW   Nh      pure;clean;undiluted
 niqA}   Nhy     pure;clean;undiluted
->anoqiyA'       N0_Nh   pure;clean;undiluted
->anoqiyA&       Nh      pure;clean;undiluted
->anoqiyA}       Nhy     pure;clean;undiluted
-;; >anoqaY_2
->anoqaY N0      purer/purest;cleaner/cleanest
->anoqA  Nhy     purest;cleanest
->anoqay NAn_Nayn        purest;cleanest
+OanoqiyA'       N0_Nh   pure;clean;undiluted
+OanoqiyAW       Nh      pure;clean;undiluted
+OanoqiyA}       Nhy     pure;clean;undiluted
+;; OanoqaY_2
+OanoqaY N0      purer/purest;cleaner/cleanest
+OanoqA  Nhy     purest;cleanest
+Oanoqay NAn_Nayn        purest;cleanest
 ;; tanoqiyap_1
 tanoqiy Nap     purification;cleansing
 ;; tanoqiyap_2
 tanoqiy Nap     clearing;clarifying;dispelling
 ;; AinotiqA'_1
 AinotiqA'       N0_Nh   selection
-AinotiqA&       Nh      selection
+AinotiqAW       Nh      selection
 AinotiqA}       Nhy     selection
 AinotiqA'       NAn_Nayn        selections
 AinotiqA}       Nayn    selections
@@ -6276,13 +6276,13 @@ munotaqay       NAn_Nayn        selected;select;choicest
 munotaqA        Napdu   selected;select;choicest
 ;
 ;--- nkA
-;; naka>-a_1
-naka>   PV->    scrape off (scab)
+;; nakaO-a_1
+nakaO   PV-O    scrape off (scab)
 naka|   PV-|    scrape off (scab)
-naka&   PV_w    scrape off (scab)
-noka>   IV      scrape off (scab)
+nakaW   PV_w    scrape off (scab)
+nokaO   IV      scrape off (scab)
 noka|   IV-|    scrape off (scab)
-noka&   IV_wn   scrape off (scab)
+nokaW   IV_wn   scrape off (scab)
 noka}   IV_yn   scrape off (scab)
 ;; nako'_1
 nako'   N0      scraping off (scab)
@@ -6352,8 +6352,8 @@ nokaH   IV      marry;get married to
 ;; nAkaH_1
 nAkaH   PV_intr become related through marriage
 nAkiH   IV_intr_yu      become related through marriage
-;; >anokaH_1
->anokaH PV      give in marriage;marry off
+;; OanokaH_1
+OanokaH PV      give in marriage;marry off
 nokiH   IV_yu   give in marriage;marry off
 nokaH   IV_Pass_yu      be given in marriage;be married off
 ;; nikAH_1
@@ -6383,15 +6383,15 @@ tanak~ad        PV_intr be made miserable;be embittered
 tanak~ad        IV_intr be made miserable;be embittered
 ;; nakod_1
 nakod   N       hardship;trouble
->anokAd N       hardships;troubles
+OanokAd N       hardships;troubles
 ;; nakid_1
 nakid   N-ap    troublesome;laborious
 ;; nakid_2
 nakid   N/ap    irritable;bad-tempered
->anokAd N       irritable;bad-tempered
+OanokAd N       irritable;bad-tempered
 manAkiyd        Ndip    irritable;bad-tempered
-;; >anokad_1
->anokad Nel     troublesome;painful
+;; Oanokad_1
+Oanokad Nel     troublesome;painful
 ;; munAkadap_1
 munAkad NapAt   inconvenience;discomfort
 ;; manokuwd_1
@@ -6407,8 +6407,8 @@ nak~ir  IV_yu   disguise;mask
 ;; nAkar_1
 nAkar   PV      disapprove of;reject
 nAkir   IV_yu   disapprove of;reject
-;; >anokar_1
->anokar PV      deny;disavow;refuse
+;; Oanokar_1
+Oanokar PV      deny;disavow;refuse
 nokir   IV_yu   deny;disavow;refuse
 nokar   IV_Pass_yu      be denied;be disavowed;be refused
 ;; tanak~ar_1
@@ -6432,15 +6432,15 @@ nakir   NapAt   indefinite noun
 nukorAn N       disavowal;denial
 ;; nakiyr_1
 nakiyr  N       disavowal;reproach;blame
-;; >anokar_2
->anokar Nel     reprehensible;disapproving
+;; Oanokar_2
+Oanokar Nel     reprehensible;disapproving
 nakorA' N0_Nh   reprehensible;disapproving
-nakorA& Nh      reprehensible;disapproving
+nakorAW Nh      reprehensible;disapproving
 nakorA} Nhy     reprehensible;disapproving
-;; <inokAr_1
-<inokAr N/At    denial;disavowal;refusal
-;; <inokAriy~_1
-<inokAriy~      N-ap    denying;negative     [[<inokAriy~/ADJ]]
+;; IinokAr_1
+IinokAr N/At    denial;disavowal;refusal
+;; IinokAriy~_1
+IinokAriy~      N-ap    denying;negative     [[IinokAriy~/ADJ]]
 ;; tanak~ur_1
 tanak~ur        N/At    disguise;masquerade
 ;; tanak~uriy~_1
@@ -6561,15 +6561,15 @@ nokal   IV      recoil;shirk;violate
 ;; nak~al_1
 nak~al  PV      punish;maltreat;repel
 nak~il  IV_yu   punish;maltreat;repel
-;; >anokal_1
->anokal PV      repel;deter
+;; Oanokal_1
+Oanokal PV      repel;deter
 nokil   IV_yu   repel;deter
 nokal   IV_Pass_yu      be repelled;be deterred
 ;; nakol_1
 nakol   N       breach;violate
 ;; nikol_1
 nikol   N       shackle;chain
->anokAl N       shackles;chains
+OanokAl N       shackles;chains
 nukuwl  N       shackles;chains
 ;; nakAl_1
 nakAl   N       exemplary punishment;warning example
@@ -6604,10 +6604,10 @@ nok     IV_0hwnyn       harm;injure;offend
 nokaY   IV_0    harm;injure;offend
 ;; nikAyap_1
 nikAy   Nap     damage;prejudice;offense
-;; >anokaY_1
->anokaY N0      worse;worst;more/most harmful
->anokA  Nhy     worst;most harmful
->anokay NAn_Nayn        worst;most harmful
+;; OanokaY_1
+OanokaY N0      worse;worst;more/most harmful
+OanokA  Nhy     worst;most harmful
+Oanokay NAn_Nayn        worst;most harmful
 ;
 ;--- nm
 ;; nam~-ui_1
@@ -6621,9 +6621,9 @@ nomim   IV_C    slander;gossip about
 nam~    N       slander;gossip
 ;; nam~_2
 nam~    Nall    slanderer;scandalmonger
->anim~A'        N0_Nh   slanderers;scandalmongers
->anim~A&        Nh      slanderers;scandalmongers
->anim~A}        Nhy     slanderers;scandalmongers
+Oanim~A'        N0_Nh   slanderers;scandalmongers
+Oanim~AW        Nh      slanderers;scandalmongers
+Oanim~A}        Nhy     slanderers;scandalmongers
 ;; nim~ap_1
 nim~    Napdu   louse
 ;; nam~Am_1
@@ -6653,7 +6653,7 @@ tanam~ar        IV_intr be numbered;become angry
 namir   N       tiger;leopard;panther
 numur   N       tigers;leopards;panthers
 numuwr  N       tigers;leopards;panthers
->anomAr N       tigers;leopards;panthers
+OanomAr N       tigers;leopards;panthers
 ;; numuwr_1
 numuwr  N       Tigers
 ; (in "Tamil Tigers")
@@ -6661,10 +6661,10 @@ numuwr  N       Tigers
 namir   N-ap    clean;wholesome
 ;; numorap_1
 numor   Nap     speck
-;; >anomar_1
->anomar Nel     speckled
+;; Oanomar_1
+Oanomar Nel     speckled
 namorA' N0_Nh   speckled
-namorA& Nh      speckled
+namorAW Nh      speckled
 namorA} Nhy     speckled
 numor   N       speckled
 ;; munam~ar_1
@@ -6732,17 +6732,17 @@ nama$   N       freckles
 nama$   Napdu   freckle
 ;; nami$_1
 nami$   Nall    freckled     [[nami$/ADJ]]
-;; >anoma$_1
->anoma$ Nel     freckled
+;; Oanoma$_1
+Oanoma$ Nel     freckled
 namo$A' N0_Nh   freckled
-namo$A& Nh      freckled
+namo$AW Nh      freckled
 namo$A} Nhy     freckled
 numo$   N       freckled
 ;
 ;--- nmT
 ;; namaT_1
 namaT   Ndu     type;kind;manner;form
->anomAT N       types;kinds;manners;forms
+OanomAT N       types;kinds;manners;forms
 nimAT   N       types;kinds;manners;forms
 ;; namaTiy~_1
 namaTiy~        Nall    formal;rigid     [[namaTiy~/ADJ]]
@@ -6773,9 +6773,9 @@ namoliy~        Nap     meat safe;food safe     [[namoliy~/NOUN]]
 namal   N       itching;tingling
 ;; namil_1
 namil   N-ap    crawling;creeping;teeming with ants
-;; >unomuwlap_1
->unomuwl        Napdu   fingertip
->anAmil Ndip    fingertips
+;; Ounomuwlap_1
+Ounomuwl        Napdu   fingertip
+OanAmil Ndip    fingertips
 ;; tanomiyl_1
 tanomiyl        N/At    itching;tingling
 ;; manomuwl_1
@@ -6807,7 +6807,7 @@ numuw~  N       development;growth;progress
 ;--- nmw*j
 ;; namuw*aj_1
 namuw*aj        NduAt   sample;model
->unomuw*aj      Ndu     sample;model
+Ounomuw*aj      Ndu     sample;model
 namA*ij Ndip    samples;models
 ;; namuw*ajiy~_1
 namuw*ajiy~     Nall    exemplary;model     [[namuw*ajiy~/ADJ]]
@@ -6829,11 +6829,11 @@ nam~iy  IV_0hAnn_yu     make grow;advance
 nam~    IV_0hwnyn_yu    make grow;advance
 nam~aY  IV_0_Pass_yu    be grown;be developed;be advanced
 nam~ay  IV_Ann_Pass_yu  be grown;be developed;be advanced
-;; >anomaY_1
->anomaY PV_0    make grow;advance
->anomA  PV_h    make grow;advance
->anomay PV_Atn  make grow;advance
->anom   PV_ttAw make grow;advance
+;; OanomaY_1
+OanomaY PV_0    make grow;advance
+OanomA  PV_h    make grow;advance
+Oanomay PV_Atn  make grow;advance
+Oanom   PV_ttAw make grow;advance
 nomiy   IV_0hAnn_yu     make grow;advance
 nom     IV_0hwnyn_yu    make grow;advance
 nomaY   IV_0_Pass_yu    be grown;be advanced
@@ -6857,7 +6857,7 @@ notam   IV_0hwnyn       belong to;be affiliated with;be a member of
 notamaY IV_0_Pass_yu    belong to;be affiliated with;be a member of
 ;; namA'_1
 namA'   N0_Nh   growth;accretion
-namA&   Nh      growth;accretion
+namAW   Nh      growth;accretion
 namA}   Nhy     growth;accretion
 ;; namiy~_1
 namiy~  N       growth;accretion
@@ -6869,15 +6869,15 @@ namA    Nhy     lice
 tanomiy Nap     development;growth
 ;; tanomawiy~_1
 tanomawiy~      Nall    developmental;growth-related     [[tanomawiy~/ADJ]]
-;; <inomA'_1
-<inomA' N0_Nh   promotion;advancement
-<inomA& Nh      promotion;advancement
-<inomA} Nhy     promotion;advancement
-<inomA' NAn_Nayn        promotion;advancement
-<inomA} Nayn    promotion;advancement
-<inomA' NAt     promotion;advancement
-;; <inomA}iy~_1
-<inomA}iy~      N-ap    development     [[<inomA}iy~/ADJ]]
+;; IinomA'_1
+IinomA' N0_Nh   promotion;advancement
+IinomAW Nh      promotion;advancement
+IinomA} Nhy     promotion;advancement
+IinomA' NAn_Nayn        promotion;advancement
+IinomA} Nayn    promotion;advancement
+IinomA' NAt     promotion;advancement
+;; IinomA}iy~_1
+IinomA}iy~      N-ap    development     [[IinomA}iy~/ADJ]]
 ;; tanAmiy_1
 tanAmiy N0_Nh   gradual growth;continual increase
 tanAm   NK      gradual growth;continual increase
@@ -6885,13 +6885,13 @@ tanAmiy NAn_Nayn        gradual growth;continual increase
 tanAmiy NAt     gradual growth;continual increase
 ;; AinotimA'_1
 AinotimA'       N0_Nh   membership;affiliation;commitment
-AinotimA&       Nh      membership;affiliation;commitment
+AinotimAW       Nh      membership;affiliation;commitment
 AinotimA}       Nhy     membership;affiliation;commitment
 AinotimA'       NAn_Nayn        membership;affiliation;commitment
 AinotimA}       Nayn    membership;affiliation;commitment
 AinotimA'       NAt     membership;affiliation;commitment
 ;; lAAinotimA}iy~_1
-lAAinotimA}iy~  Nall_L  non-committed     [[lA<inotimA}iy~/ADJ]]
+lAAinotimA}iy~  Nall_L  non-committed     [[lAIinotimA}iy~/ADJ]]
 lAAinotimA}iy~  Nall_L  non-committed     [[lAAinotimA}iy~/ADJ]]
 ;; nAmiy_1
 nAmiy   N0F     developing     [[nAmiy/ADJ]]
@@ -6928,8 +6928,8 @@ nohab   IV      plunder;loot
 ;; nahib-a_1
 nahib   PV      plunder;loot
 nohab   IV      plunder;loot
-;; >anohab_1
->anohab PV      expose to looting;surrender as booty
+;; Oanohab_1
+Oanohab PV      expose to looting;surrender as booty
 nohib   IV_yu   expose to looting;surrender as booty
 nohab   IV_Pass_yu      be expose to looting;be surrendered as booty
 ;; tanAhab_1
@@ -6965,8 +6965,8 @@ nohaj   IV_intr be out of breath
 ;; nah~aj_1
 nah~aj  PV      make breathless
 nah~ij  IV_yu   make breathless
-;; >anohaj_1
->anohaj PV      clarify;explain
+;; Oanohaj_1
+Oanohaj PV      clarify;explain
 nohij   IV_yu   clarify;explain
 nohaj   IV_Pass_yu      be clarified;be explained
 ;; Ainotahaj_1
@@ -7036,15 +7036,15 @@ Ainotahar       PV      scold;rebuff
 notahir IV      scold;rebuff
 ;; nahor_1
 nahor   Ndu     river
->anohAr N       rivers
->anohur N       rivers
+OanohAr N       rivers
+Oanohur N       rivers
 nuhuwr  N       rivers
 ;; nahoriy~_1
 nahoriy~        Nall    river;fluvial     [[nahoriy~/ADJ]]
 ;; nahAr_1
 nahAr   Ndu     daytime;day
 nahAr   NF      by day     [[nahAr/ADV]]
->anohur N       daytime
+Oanohur N       daytime
 nuhur   N       daytime
 ;; nahAr_2
 nahAr   N0      Nahar
@@ -7096,8 +7096,8 @@ nohaD   IV      rise;awaken;rebel
 ;; nAhaD_1
 nAhaD   PV      oppose;resist
 nAhiD   IV_yu   oppose;resist
-;; >anohaD_1
->anohaD PV      raise;help up
+;; OanohaD_1
+OanohaD PV      raise;help up
 nohiD   IV_yu   raise;help up
 nohaD   IV_Pass_yu      be raised;be helped up
 ;; tanAhaD_1
@@ -7123,8 +7123,8 @@ nuhuwD  N       promotion;advancement
 nihAD   N0      Nehad
 ;; munAhaDap_1
 munAhaD NapAt   opposition;resistance
-;; <inohAD_1
-<inohAD N/At    promotion;advancement
+;; IinohAD_1
+IinohAD N/At    promotion;advancement
 ;; AisotinohAD_1
 AisotinohAD     N/At    promotion;advancement
 ;; nAhiD_1
@@ -7147,8 +7147,8 @@ nohak   IV      wear out;consume;crush
 ;; nahik-a_1
 nahik   PV      weaken;exhaust;enervate
 nohak   IV      weaken;exhaust;enervate
-;; >anohak_1
->anohak PV      exhaust;enervate
+;; Oanohak_1
+Oanohak PV      exhaust;enervate
 nohik   IV_yu   exhaust;enervate
 nohak   IV_Pass_yu      be exhausted;be enervated
 ;; Ainotahak_1
@@ -7158,8 +7158,8 @@ notahik IV      violate;exhaust
 nahok   N       violation;depletion
 ;; nahokap_1
 nahok   Nap     exhaustion;emaciation
-;; <inohAk_1
-<inohAk N/At    exhaustion
+;; IinohAk_1
+IinohAk N/At    exhaustion
 ;; AinotihAk_1
 AinotihAk       N       exhaustion
 ;; AinotihAk_2
@@ -7229,11 +7229,11 @@ noha    IV_0hwnyn       forbid;restrain
 nuhiy   PV_Pass-aAat    reach;be informed
 nohaY   IV_0_Pass_yu    reach;be informed
 nohay   IV_Ann_Pass_yu  reach;be informed
-;; >anohaY_1
->anohaY PV_0    complete;communicate
->anohA  PV_h    complete;communicate
->anohay PV_Atn  complete;communicate
->anoh   PV_ttAw complete;communicate
+;; OanohaY_1
+OanohaY PV_0    complete;communicate
+OanohA  PV_h    complete;communicate
+Oanohay PV_Atn  complete;communicate
+Oanoh   PV_ttAw complete;communicate
 nohiy   IV_0hAnn_yu     complete;communicate
 noh     IV_0hwnyn_yu    complete;communicate
 nohaY   IV_0_Pass_yu    be completed;be communicated
@@ -7270,7 +7270,7 @@ nuhA    Nhy     mind;intellect;reason
 nuhoy   Nap     mind;intellect
 ;; nihA'_1
 nihA'   N0_Nh   termination;conclusion
-nihA&   Nh      termination;conclusion
+nihAW   Nh      termination;conclusion
 nihA}   Nhy     termination;conclusion
 ;; nihAyap_1
 nihAy   NapAt   end;termination
@@ -7284,16 +7284,16 @@ nihA}iy~        NduAt   final (in sports)    [[nihA}iy~/NOUN]]
 lAnihA}iy~      Nall_L  infinite     [[lAnihA}iy~/ADJ]]
 ;; lAnihA}iy~ap_1
 lAnihA}iy~      Nap_L   infinity     [[lAnihA}iy~/NOUN]]
-;; <inohA'_1
-<inohA' N0_Nh   termination;completion
-<inohA& Nh      termination;completion
-<inohA} Nhy     termination;completion
-<inohA' NAt     termination;completion
+;; IinohA'_1
+IinohA' N0_Nh   termination;completion
+IinohAW Nh      termination;completion
+IinohA} Nhy     termination;completion
+IinohA' NAt     termination;completion
 ;; AinotihA'_1
 AinotihA'       N0_Nh   finishing;completion;conclusion
 AinotihA'       N0_Nh   finishing;completion;conclusion
-AinotihA&       Nh      finishing;completion;conclusion
-AinotihA&       Nh      finishing;completion;conclusion
+AinotihAW       Nh      finishing;completion;conclusion
+AinotihAW       Nh      finishing;completion;conclusion
 AinotihA}       Nhy     finishing;completion;conclusion
 AinotihA}       Nhy     finishing;completion;conclusion
 AinotihA'       NAt     finishing;completion;conclusion
@@ -7332,37 +7332,37 @@ munotahA        Napdu   utmost;extreme;terminated
 ;--- nwA
 ;; nA'-u_1
 nA'     PV_V    weigh heavily;bear with difficulty;be oppressed
-nA&     PV_w    weigh heavily;bear with difficulty;be oppressed
-nu&     PV_C    weigh heavily;bear with difficulty;be oppressed
+nAW     PV_w    weigh heavily;bear with difficulty;be oppressed
+nuW     PV_C    weigh heavily;bear with difficulty;be oppressed
 nuw'    IV_V    weigh heavily;bear with difficulty;be oppressed
-nuw&    IV_wn   weigh heavily;bear with difficulty;be oppressed
+nuwW    IV_wn   weigh heavily;bear with difficulty;be oppressed
 nuw}    IV_yn   weigh heavily;bear with difficulty;be oppressed
-nu&     IV_C    weigh heavily;bear with difficulty;be oppressed
-;; nAwa>_1
-nAwa>   PV      resist;oppose;compete with;contend with
-nAwa&   PV_w    resist;oppose;compete with;contend with
+nuW     IV_C    weigh heavily;bear with difficulty;be oppressed
+;; nAwaO_1
+nAwaO   PV      resist;oppose;compete with;contend with
+nAwaW   PV_w    resist;oppose;compete with;contend with
 nAwi'   IV_yu   resist;oppose;compete with;contend with
 nAwi}   IV_yu   resist;oppose;compete with;contend with
-nAwi&   IV_wn_yu        resist;oppose;compete with;contend with
-;; >anA'_1
->anA'   PV_V    weigh down;crush
->anA&   PV_w    weigh down;crush
->ana>   PV_C    weigh down;crush
+nAwiW   IV_wn_yu        resist;oppose;compete with;contend with
+;; OanA'_1
+OanA'   PV_V    weigh down;crush
+OanAW   PV_w    weigh down;crush
+OanaO   PV_C    weigh down;crush
 niy'    IV_V_yu weigh down;crush
 niy}    IV_V_yu weigh down;crush
-niy&    IV_wn_yu        weigh down;crush
+niyW    IV_wn_yu        weigh down;crush
 ni}     IV_C_yu weigh down;crush
 ;; nawo'_1
 nawo'   N0F     storm;hurricane
-nawo>   Nh      storm;hurricane
-nawo&   Nh      storm;hurricane
+nawoO   Nh      storm;hurricane
+nawoW   Nh      storm;hurricane
 nawo}   Nhy     storm;hurricane
->anowA' N0_Nh   storms;hurricanes
->anowA& Nh      storms;hurricanes
->anowA} Nhy     storms;hurricanes
+OanowA' N0_Nh   storms;hurricanes
+OanowAW Nh      storms;hurricanes
+OanowA} Nhy     storms;hurricanes
 nuw|n   N       storms;hurricanes
-;; munAwa>ap_1
-munAwa> Napdu   resistance;opposition;insubordination
+;; munAwaOap_1
+munAwaO Napdu   resistance;opposition;insubordination
 munAwa  N-|t    resistance;opposition;insubordination
 ;; munAwi}_1
 munAwi} Nall    opponent;antagonist     [[munAwi}/NOUN]]
@@ -7385,9 +7385,9 @@ naw~ib  IV_yu   appoint as deputy;deputize
 ;; nAwab_1
 nAwab   PV      alternate;take turns
 nAwib   IV_yu   alternate;take turns
-;; >anAb_1
->anAb   PV_V    deputize;authorize
->anab   PV_C    deputize;authorize
+;; OanAb_1
+OanAb   PV_V    deputize;authorize
+Oanab   PV_C    deputize;authorize
 niyb    IV_V_yu deputize;authorize
 nib     IV_C_yu deputize;authorize
 nAb     IV_V_Pass_yu    be deputized;be replaced
@@ -7418,8 +7418,8 @@ niyAbiy~        Nall    representative;delegated;deputed     [[niyAbiy~/ADJ]]
 manAb   N       replacement;deputyship
 ;; munAwabap_1
 munAwab NapAt   alternation;rotation
-;; <inAbap_1
-<inAb   NapAt   deputization;authorization
+;; IinAbap_1
+IinAb   NapAt   deputization;authorization
 ;; tanAwub_1
 tanAwub N/At    alternation;rotation
 ;; nA}ib_1
@@ -7507,9 +7507,9 @@ mutanay~aH      N       deceased;lamented     [[mutanay~aH/ADJ]]
 ;; naw~ax_1
 naw~ax  PV      halt for a rest;take up residence
 naw~ix  IV_yu   halt for a rest;take up residence
-;; >anAx_1
->anAx   PV_V    stay;remain;weigh heavily
->anax   PV_C    stay;remain;weigh heavily
+;; OanAx_1
+OanAx   PV_V    stay;remain;weigh heavily
+Oanax   PV_C    stay;remain;weigh heavily
 niyx    IV_V_yu stay;remain;weigh heavily
 nix     IV_C_yu stay;remain;weigh heavily
 nAx     IV_V_Pass_yu    stay;remain;weigh heavily
@@ -7551,15 +7551,15 @@ naw~ir  IV_yu   shed light;enlighten
 ;; nAwar_1
 nAwar   PV      maneuver
 nAwir   IV_yu   maneuver
-;; >anAr_1
->anAr   PV_V    light;fill with light;elucidate
->anar   PV_C    light;fill with light;elucidate
+;; OanAr_1
+OanAr   PV_V    light;fill with light;elucidate
+Oanar   PV_C    light;fill with light;elucidate
 niyr    IV_V_yu light;fill with light;elucidate
 nir     IV_C_yu light;fill with light;elucidate
 nAr     IV_V_Pass_yu    be lit;be made bright;be illuminated
 nar     IV_C_Pass_yu    be lit;be made bright;be illuminated
-;; >anowar_1
->anowar PV      come to light;be revealed
+;; Oanowar_1
+Oanowar PV      come to light;be revealed
 nowir   IV_yu   come to light;be revealed
 nowar   IV_Pass_yu      be brought to light;be revealed
 ;; tanaw~ar_1
@@ -7585,7 +7585,7 @@ nuwrA   Nprop   Noura
 nuwrAld~iyn     N0      Noureddin
 ;; nuwr_2
 nuwr    Ndu     light
->anowAr N       lights
+OanowAr N       lights
 ;; nuwriy~_1
 nuwriy~ N-ap    light;lighting;shining     [[nuwriy~/ADJ]]
 ;; nuwrAniy~_1
@@ -7599,8 +7599,8 @@ nuwr    Nap     lime
 ;; nay~ir_1
 nay~ir  N-ap    luminous;clear
 nay~ir  NAn_Nayn        sun and moon
-;; >anowar_2
->anowar Nprop   Anwar
+;; Oanowar_2
+Oanowar Nprop   Anwar
 ;; manowar_1
 manowar Ndu     skylight
 manAwir Ndip    skylight
@@ -7611,8 +7611,8 @@ manA}ir Ndip    lighthouses
 manAwir Ndip    lighthouses
 ;; tanowiyr_1
 tanowiyr        N/At    lighting;enlightenment;blossoming
-;; <inArap_1
-<inAr   NapAt   lighting;illumination;enlightenment
+;; IinArap_1
+IinAr   NapAt   lighting;illumination;enlightenment
 ;; AisotinArap_1
 AisotinAr       NapAt   illumination;enlightenment
 ;; nA}irap_1
@@ -7750,16 +7750,16 @@ nuT     IV_C    entrust;make dependent;make conditional
 ;; naw~aT_1
 naw~aT  PV      entrust;make dependent;make conditional
 naw~iT  IV_yu   entrust;make dependent;make conditional
-;; >anAT_1
->anAT   PV_V    entrust;make dependent;make conditional
->anaT   PV_C    entrust;make dependent;make conditional
+;; OanAT_1
+OanAT   PV_V    entrust;make dependent;make conditional
+OanaT   PV_C    entrust;make dependent;make conditional
 niyT    IV_V_yu entrust;make dependent;make conditional
 niT     IV_C_yu entrust;make dependent;make conditional
 nAT     IV_V_Pass_yu    be entrusted;be assigned
 naT     IV_C_Pass_yu    be entrusted;be assigned
 ;; nawoT_1
 nawoT   N       badge;medal;pendant
->anowAT N       badges;medals;pendants
+OanowAT N       badges;medals;pendants
 niyAT   N       badges;medals;pendants
 ;; manAT_1
 manAT   N       place of suspension;anchor;object
@@ -7782,7 +7782,7 @@ tanaw~aE        PV_intr be variegated;be diverse;be complex
 tanaw~aE        IV_intr be variegated;be diverse;be complex
 ;; nawoE_1
 nawoE   Ndu     type;kind;form
->anowAE N       types;kinds;forms
+OanowAE N       types;kinds;forms
 ;; nawoEiy~_1
 nawoEiy~        N-ap    type;characteristic;specific     [[nawoEiy~/ADJ]]
 ;; nawoEiy~ap_1
@@ -7811,9 +7811,9 @@ nuf     IV_C    exceed
 ;; nay~af_1
 nay~af  PV      exceed
 nay~if  IV_yu   exceed
-;; >anAf_1
->anAf   PV_V    exceed
->anaf   PV_C    exceed
+;; OanAf_1
+OanAf   PV_V    exceed
+Oanaf   PV_C    exceed
 niyf    IV_V_yu exceed
 nif     IV_C_yu exceed
 nAf     IV_V_Pass_yu    be exceeded
@@ -7822,7 +7822,7 @@ naf     IV_C_Pass_yu    be exceeded
 nAf     N       yoke
 ;; nawof_1
 nawof   Ndu     surplus;excess
->anowAf N       surplus;excess
+OanowAf N       surplus;excess
 ;; nay~if_1
 nay~if  N       some;excess;surplus
 ;; niyAfap_1
@@ -7869,8 +7869,8 @@ sotanowiq       IV      make a mistake
 nAq     NapAt   she-camel
 nuwq    N       she-camels
 niyAq   N       she-camels
-;; >anowaq_1
->anowaq Nel     foolish;stupid
+;; Oanowaq_1
+Oanowaq Nel     foolish;stupid
 ;; nay~iq_1
 nay~iq  Nall    squeamish;fastidious
 ;
@@ -7891,7 +7891,7 @@ tanAwal PV      deal with;eat
 tanAwal IV      deal with;eat
 ;; nawol_1
 nawol   N       gift;award
->anowAl N       gift;award
+OanowAl N       gift;award
 ;; nawAl_1
 nawAl   N0      Nawal
 ;; nawAl_2
@@ -7924,9 +7924,9 @@ nam     IV_C    sleep;lie down
 ;; naw~am_1
 naw~am  PV      lull to sleep;lay down;anesthetize
 naw~im  IV_yu   lull to sleep;lay down;anesthetize
-;; >anAm_1
->anAm   PV_V    make sleep;lay down;anesthetize
->anam   PV_C    make sleep;lay down;anesthetize
+;; OanAm_1
+OanAm   PV_V    make sleep;lay down;anesthetize
+Oanam   PV_C    make sleep;lay down;anesthetize
 niym    IV_V_yu make sleep;lay down;anesthetize
 nim     IV_C_yu make sleep;lay down;anesthetize
 nAm     IV_V_Pass_yu    be put to sleep;be anesthetized
@@ -7968,8 +7968,8 @@ nuw~am  N       sleeping;asleep
 nuy~am  N       sleeping;asleep
 nuw~Am  N       sleeping;asleep
 nuy~Am  N       sleeping;asleep
-;; na&uwm_1
-na&uwm  N       sleeper;later riser
+;; naWuwm_1
+naWuwm  N       sleeper;later riser
 ;; munaw~im_1
 munaw~im        N-ap    sleep-inducing
 ;; munaw~imap_1
@@ -7993,7 +7993,7 @@ nuwn    NduAt   nun (Arabic letter)
 ;; nuwn_2
 nuwn    Ndu     whale
 niynAn  N       whales
->anowAn N       whales
+OanowAn N       whales
 ;; nuwniy~_1
 nuwniy~ N-ap    crescent-shaped     [[nuwniy~/ADJ]]
 ;; nuwnap_1
@@ -8044,7 +8044,7 @@ nawA    Nhy     distance;destination
 ;; nawAp_1
 nawA    Napdu   nucleus;core
 naway   NAt     nuclei;cores
->anowiy Nap     nuclei;cores
+Oanowiy Nap     nuclei;cores
 ;; nawAp_2
 nawA    Napdu   fruit pit
 naway   NAt     fruit pits
@@ -8085,9 +8085,9 @@ nuyuw'  Nap     raw state;uncooked state
 ;--- nyb
 ;; nAb_1
 nAb     Ndu     canine tooth;fang;tusk
->anoyAb N       canine teeth;fangs;tusks
+OanoyAb N       canine teeth;fangs;tusks
 nuyuwb  N       canine teeth;fangs;tusks
->anAyiyb        Ndip    canine teeth;fangs;tusks
+OanAyiyb        Ndip    canine teeth;fangs;tusks
 ;; niyb_1
 niyb    N       old she-camel
 ;
@@ -8109,7 +8109,7 @@ nayojiyriy~     Nall    Nigerian     [[nayojiyriy~/ADJ]]
 ;--- nyr
 ;; niyr_1
 niyr    N       yoke
->anoyAr N       yokes
+OanoyAr N       yokes
 ;; niyrap_1
 niyr    Nap     gums of the teeth
 ;
@@ -8193,9 +8193,9 @@ nal     IV_C_Pass_yu    be attained;be achieved;be acquired
 ;; nay~al_1
 nay~al  PV      dye with indigo
 nay~il  IV_yu   dye with indigo
-;; >anAl_1
->anAl   PV_V    let/make obtain
->anal   PV_C    let/make obtain
+;; OanAl_1
+OanAl   PV_V    let/make obtain
+Oanal   PV_C    let/make obtain
 niyl    IV_V_yu let/make obtain
 nil     IV_C_yu let/make obtain
 ;; nayol_1

@@ -4,17 +4,17 @@ kAb     N0      Cape
 ;
 ;; ka}ib-a_1
 ka}ib   PV_intr be depressed
-ko>ab   IV_intr be depressed
-;; >ako>ab_1
->ako>ab PV      aggrieve;distress
+koOab   IV_intr be depressed
+;; OakoOab_1
+OakoOab PV      aggrieve;distress
 ko}ib   IV_yu   aggrieve;distress
-;; Aikota>ab_1
-Aikota>ab       PV_intr be depressed;be dejected
+;; AikotaOab_1
+AikotaOab       PV_intr be depressed;be dejected
 kota}ib IV_intr be depressed;be dejected
-;; ka>ob_1
-ka>ob   N       depression
-;; ka>obap_1
-ka>ob   Nap     depression
+;; kaOob_1
+kaOob   N       depression
+;; kaOobap_1
+kaOob   Nap     depression
 ;; ka|bap_1
 ka|b    Nap     depression
 ;; Aikoti}Ab_1
@@ -66,15 +66,15 @@ kAviriyn        N0      Catherine
 kAvuwd  N       cathode
 ;
 ;--- kAd
-;; ka>ad-a_1
-ka>ad   PV_intr be sad;be worried
-ko>ad   IV_intr be sad;be worried
-;; ka>odA'_1
-ka>odA' N0_Nh   sadness;distress
-ka>odA& Nh      sadness;distress
-ka>odA} Nhy     sadness;distress
-;; ka&uwd_1
-ka&uwd  N       insurmountable     [[ka&uwd/ADJ]]
+;; kaOad-a_1
+kaOad   PV_intr be sad;be worried
+koOad   IV_intr be sad;be worried
+;; kaOodA'_1
+kaOodA' N0_Nh   sadness;distress
+kaOodAW Nh      sadness;distress
+kaOodA} Nhy     sadness;distress
+;; kaWuwd_1
+kaWuwd  N       insurmountable     [[kaWuwd/ADJ]]
 ka}uwd  N       insurmountable
 ;
 ;; kAdomiyuwm_1
@@ -187,9 +187,9 @@ kAziynuw        NAt     casinos;nightclubs
 kAziynuwh       NAt     casinos;nightclubs
 ;
 ;--- kAs
-;; ka>os_1
-ka>os   NduAt   cup
-ku&uws  N       cups
+;; kaOos_1
+kaOos   NduAt   cup
+kuWuws  N       cups
 ki}As   N       cups
 ;
 ;--- kAst
@@ -222,17 +222,17 @@ kAfitiyriyA     N0      cafeteria
 kAfiyiyn        N       caffeine
 ;
 ;--- kAkA
-;; taka>oka>_1
-taka>oka>       PV->_intr       gather;assemble
-taka>oka|       PV-|_intr       gather;assemble
-taka>oka&       PV_w_intr       gather;assemble
-taka>oka>       IV_intr gather;assemble
-taka>oka|       IV-|    gather;assemble
-taka>oka&       IV_hwn  gather;assemble
-taka>oka}       IV_yn   gather;assemble
-;; taka>oku&_1
-taka>oku&       N/At    gathering;assembling
-taka>oku}       Nhy     gathering;assembling
+;; takaOokaO_1
+takaOokaO       PV-O_intr       gather;assemble
+takaOoka|       PV-|_intr       gather;assemble
+takaOokaW       PV_w_intr       gather;assemble
+takaOokaO       IV_intr gather;assemble
+takaOoka|       IV-|    gather;assemble
+takaOokaW       IV_hwn  gather;assemble
+takaOoka}       IV_yn   gather;assemble
+;; takaOokuW_1
+takaOokuW       N/At    gathering;assembling
+takaOoku}       Nhy     gathering;assembling
 ;
 ;--- kAkn
 ;; kAkinoj_1
@@ -376,9 +376,9 @@ kobub   IV_C    pour out;topple
 ;; kab~ab_1
 kab~ab  PV      roll
 kab~ib  IV_yu   roll
-;; >akab~_1
->akab~  PV_V    knock down;be devoted
->akobab PV_C    knock down;be devoted
+;; Oakab~_1
+Oakab~  PV_V    knock down;be devoted
+Oakobab PV_C    knock down;be devoted
 kib~    IV_V_yu knock down;be devoted
 kobib   IV_C_yu knock down;be devoted
 kab~    IV_V_Pass_yu    be knocked down;be devoted
@@ -403,8 +403,8 @@ mikab~  NduAt   ball of thread;reel;spool
 makAb~  Ndip    balls of thread;reels;spools
 ;; mikab~ap_1
 mikab~  NapAt   food lid
-;; <ikobAb_1
-<ikobAb N/At    devotion;dedication;occupation
+;; IikobAb_1
+IikobAb N/At    devotion;dedication;occupation
 ;; mukib~_1
 mukib~  Nall    devoted;dedicated     [[mukib~/ADJ]]
 ;; munokab~_1
@@ -455,7 +455,7 @@ takab~ad        PV      suffer;sustain;undergo
 takab~ad        IV      suffer;sustain;undergo
 ;; kabid_1
 kabid   N       liver
->akobAd N       livers
+OakobAd N       livers
 kubuwd  N       livers
 ;; kubAd_1
 kubAd   N       liver ailment
@@ -478,8 +478,8 @@ kab~ir  IV_yu   magnify;amplify
 ;; kAbar_1
 kAbar   PV      contend with
 kAbir   IV_yu   contend with
-;; >akobar_1
->akobar PV      magnify
+;; Oakobar_1
+Oakobar PV      magnify
 kobir   IV_yu   magnify
 kobar   IV_Pass_yu      be magnified
 ;; takab~ar_1
@@ -503,19 +503,19 @@ kabor   Nap     old age
 kabiyr  N-ap    large;great;important     [[kabiyr/ADJ]]
 kibAr   N       senior;adults
 kubarA' N0_Nh   senior;adults
-kubarA& Nh      senior;adults
+kubarAW Nh      senior;adults
 kubarA} Nhy     senior;adults
 ;; kabiyrap_1
 kabiyr  Napdu   grave offense
 kabiyr  NAt     grave offenses
 kabA}ir Ndip    capital crimes
-;; >akobar_2
->akobar Nel     larger/largest;greater/greatest     [[>akobar/ADJ]]
-;; >akobar_3
->akobar Nel     senior;important     [[>akobar/ADJ]]
->akAbir Ndip    seniors;leaders
-;; >akobar_4
->akobar N0      Akbar
+;; Oakobar_2
+Oakobar Nel     larger/largest;greater/greatest     [[Oakobar/ADJ]]
+;; Oakobar_3
+Oakobar Nel     senior;important     [[Oakobar/ADJ]]
+OakAbir Ndip    seniors;leaders
+;; Oakobar_4
+Oakobar N0      Akbar
 ;; kuboraY_1
 kuboraY N0      great;major;significant     [[kuborY/ADJ]]
 ;; kuboraY_2
@@ -525,13 +525,13 @@ kuboray NAn_Nayn        larger/largest;greater/greatest     [[kuboray/ADJ]]
 kuboray NAt     larger/largest;greater/greatest     [[kuboray/ADJ]]
 ;; kiboriyA'_1
 kiboriyA'       N0_Nh   arrogance
-kiboriyA&       Nh      arrogance
+kiboriyAW       Nh      arrogance
 kiboriyA}       Nhy     arrogance
 mukAbar NapAt   arrogance
 ;; takobiyr_1
 takobiyr        N/At    increase;amplification;enlargement
-;; <ikobAr_1
-<ikobAr N/At    deference;esteem
+;; IikobAr_1
+IikobAr N/At    deference;esteem
 ;; takab~ur_1
 takab~ur        N/At    arrogance
 ;; takAbur_1
@@ -628,7 +628,7 @@ kobu$   IV      clench
 kabo$   Ndu     goat;ram
 kabo$   Napdu   goat;ram
 kibA$   N       goats;rams
->akobA$ N       goats;rams
+OakobA$ N       goats;rams
 ;; kabo$_2
 kabo$   N       battering-ram;pile driver
 ;; kubuw$_1
@@ -699,11 +699,11 @@ kobuw   IV_0hAnn        pour out;empty
 kob     IV_0hwnyn       pour out;empty
 kobaY   IV_0_Pass_yu    be poured out;be emptied
 kobay   IV_Ann_Pass_yu  be poured out;be emptied
-;; >akobaY_1
->akobaY PV_0    misfire;fail to light
->akobA  PV_h    misfire;fail to light
->akobay PV_Atn  misfire;fail to light
->akob   PV_ttAw misfire;fail to light
+;; OakobaY_1
+OakobaY PV_0    misfire;fail to light
+OakobA  PV_h    misfire;fail to light
+Oakobay PV_Atn  misfire;fail to light
+Oakob   PV_ttAw misfire;fail to light
 kobiy   IV_0hAnn_yu     misfire;fail to light
 kob     IV_0hwnyn_yu    misfire;fail to light
 kobaY   IV_0_Pass_yu    be misfired
@@ -757,8 +757,8 @@ kotab   IV_Pass_yu      be written;be fated;be destined
 ;; kAtab_1
 kAtab   PV      correspond with
 kAtib   IV_yu   correspond with
-;; >akotab_1
->akotab PV      dictate;make write
+;; Oakotab_1
+Oakotab PV      dictate;make write
 kotib   IV_yu   dictate;make write
 kotab   IV_Pass_yu      be dictated
 ;; takAtab_1
@@ -845,8 +845,8 @@ mukotatib       Nall    subscriber
 kuto$iyn        Nap     card game
 ;
 ;--- ktE
-;; >akotaE_1
->akotaE Nel     one-armed;crippled
+;; OakotaE_1
+OakotaE Nel     one-armed;crippled
 kutoE   N       one-armed;crippled
 ;
 ;--- ktf
@@ -868,18 +868,18 @@ sotakotif       IV      cross arms;bind
 ;; katif_1
 katif   Ndu     shoulder
 kitof   Ndu     shoulder
->akotAf N       shoulders
+OakotAf N       shoulders
 kitaf   Nap     shoulders
 ;; kitof_1
 kitof   Ndu     buttress
->akotAf N       buttresses
+OakotAf N       buttresses
 ;; kitAf_1
 kitAf   Ndu     shackle;handcuff
 kutuf   N       shackles;handcuffs
-;; >akotaf_1
->akotaf Nel     broad-shouldered
+;; Oakotaf_1
+Oakotaf Nel     broad-shouldered
 katofA' N0_Nh   broad-shouldered
-katofA& Nh      broad-shouldered
+katofAW Nh      broad-shouldered
 katofA} Nhy     broad-shouldered
 kutof   N       broad-shouldered
 ;; takAtuf_1
@@ -1002,7 +1002,7 @@ kaviyv  N-ap    thick;dense     [[kaviyv/ADJ]]
 kavab   N       proximity;vicinity;nearness
 ;; kaviyb_1
 kaviyb  Ndu     sandhill;dune
->akovib Nap     sandhills;dunes
+Oakovib Nap     sandhills;dunes
 kuvub   N       sandhills;dunes
 kuvobAn N       sandhills;dunes
 ;
@@ -1017,10 +1017,10 @@ kav~ir  IV_yu   increase
 kAvar   PV      outnumber
 kAvir   IV_yu   outnumber
 ; moved up for freq
-;; >akovar_1
->akovar Nel     more;most     [[>akovar/ADJ]]
-;; >akovar_2
->akovar PV      increase;do frequently
+;; Oakovar_1
+Oakovar Nel     more;most     [[Oakovar/ADJ]]
+;; Oakovar_2
+Oakovar PV      increase;do frequently
 kovir   IV_yu   increase;do frequently
 kovar   IV_Pass_yu      be increased;be done frequently
 ;; takAvar_1
@@ -1040,14 +1040,14 @@ kaviyr  NF      much;a lot;very     [[kaviyr/ADV]]
 ;; kaviyrA'_1
 kaviyrA'        Ndip    tragacanth (gum substance)
 kaviyrA'        Ndip    tragacanth (gum plant)
-;; >akovariy~ap_1
->akovariy~      Nap     majority     [[>akovariy~/NOUN]]
+;; Oakovariy~ap_1
+Oakovariy~      Nap     majority     [[Oakovariy~/NOUN]]
 ;; mikovAr_1
 mikovAr Ndu     garrulous
 ;; takoviyr_1
 takoviyr        N/At    increase;accumulation
-;; <ikovAr_1
-<ikovAr N/At    increase;frequentness
+;; IikovAr_1
+IikovAr N/At    increase;frequentness
 ;; takAvur_1
 takAvur N/At    increase;growth;proliferation
 ;; mukovir_1
@@ -1072,8 +1072,8 @@ takAvaf PV      grow dense;be compressed;be intensive
 takAvaf IV      grow dense;be compressed;be intensive
 ;; kaviyf_1
 kaviyf  N-ap    intense;intensive;concentrated;thick;dense     [[kaviyf/ADJ]]
-;; >akovaf_1
->akovaf Nel     more/most intense/concentrated
+;; Oakovaf_1
+Oakovaf Nel     more/most intense/concentrated
 ;; kavAfap_1
 kavAf   Nap     density;compactness
 ;; takoviyf_1
@@ -1140,21 +1140,21 @@ AikotaHal       PV      put on kohl
 kotaHil IV      put on kohl
 ;; kuHol_1
 kuHol   N       kohl;antimony
->akoHAl N       kohl;antimony
+OakoHAl N       kohl;antimony
 ;; kaHil_1
 kaHil   N-ap    painted with kohl
 ;; kuHoliy~_1
 kuHoliy~        N-ap    aqua blue     [[kuHoliy~/ADJ]]
 ;; kuHolap_1
 kuHol   Nap     pointing;filling;grouting
-;; >akoHal_1
->akoHal Nel     black
+;; OakoHal_1
+OakoHal Nel     black
 kaHolA' N0_Nh   black
-kaHolA& Nh      black
+kaHolAW Nh      black
 kaHolA} Nhy     black
 ;; kaHolA'_1
 kaHolA' N0_Nh   blueweed
-kaHolA& Nh      blueweed
+kaHolAW Nh      blueweed
 kaHolA} Nhy     blueweed
 ;; kaHiyl_1
 kaHiyl  N-ap    blackened with kohl
@@ -1271,11 +1271,11 @@ kadir   N-ap    worried     [[kadir/ADJ]]
 kadiyr  N       muddy     [[kadiyr/ADJ]]
 ;; kadiyr_2
 kadiyr  N       worried     [[kadiyr/ADJ]]
-;; >akodar_1
->akodar Nel     dingy     [[>akodar/ADJ]]
->akodar Nel     dingy
+;; Oakodar_1
+Oakodar Nel     dingy     [[Oakodar/ADJ]]
+Oakodar Nel     dingy
 kadorA' N0_Nh   dingy
-kadorA& Nh      dingy
+kadorAW Nh      dingy
 kadorA} Nhy     dingy
 ;; takodiyr_1
 takodiyr        N/At    disturbing;troubling
@@ -1300,7 +1300,7 @@ takad~as        PV      pile up;accumulate
 takad~as        IV      pile up;accumulate
 ;; kudos_1
 kudos   Ndu     heap;pile;stack
->akodAs N       heaps;piles;stacks
+OakodAs N       heaps;piles;stacks
 ;; kud~As_1
 kud~As  Ndu     heap;pile;stack
 kadAdiys        Ndip    heaps;piles;stacks
@@ -1350,11 +1350,11 @@ kad~iy  IV_0hAnn_yu     beg
 kad~    IV_0hwnyn_yu    beg
 kad~aY  IV_0_Pass_yu    be begged
 kad~ay  IV_Ann_Pass_yu  be begged
-;; >akodaY_1
->akodaY PV_0    give little;skimp
->akodA  PV_h    give little;skimp
->akoday PV_Atn  give little;skimp
->akod   PV_ttAw give little;skimp
+;; OakodaY_1
+OakodaY PV_0    give little;skimp
+OakodA  PV_h    give little;skimp
+Oakoday PV_Atn  give little;skimp
+Oakod   PV_ttAw give little;skimp
 kodiy   IV_0hAnn_yu     give little;skimp
 kod     IV_0hwnyn_yu    give little;skimp
 kodaY   IV_0_Pass_yu    be given little;be skimped on
@@ -1371,8 +1371,8 @@ ko*ib   IV      lie;deceive
 ;; ka*~ab_1
 ka*~ab  PV      deny;refute;contradict;belie
 ka*~ib  IV_yu   deny;refute;contradict;belie
-;; >ako*ab_1
->ako*ab PV      refute;contradict;disbelieve
+;; Oako*ab_1
+Oako*ab PV      refute;contradict;disbelieve
 ko*ib   IV_yu   refute;contradict;disbelieve
 ko*ab   IV_Pass_yu      be refuted;be contradicted;be disbelieved
 ;; ki*ob_1
@@ -1383,11 +1383,11 @@ ki*ob   Nap     lie;untruth
 ka*uwb  N-ap    liar     [[ka*uwb/ADJ]]
 ;; ka*~Ab_1
 ka*~Ab  Nall    liar
-;; >uko*uwbap_1
->uko*uwb        Napdu   lie
->akA*iyb        Ndip    lies
-;; >ako*ab_2
->ako*ab Nel     bigger/biggest liar
+;; Ouko*uwbap_1
+Ouko*uwb        Napdu   lie
+OakA*iyb        Ndip    lies
+;; Oako*ab_2
+Oako*ab Nel     bigger/biggest liar
 ;; tako*iyb_1
 tako*iyb        N/At    denial;refutation
 ;; kA*ib_1
@@ -1480,8 +1480,8 @@ krAyiynA        Nprop   Krajina
 ;; karab-u_1
 karab   PV      oppress;worry
 korub   IV      oppress;worry
-;; >akorab_1
->akorab PV      hasten
+;; Oakorab_1
+Oakorab PV      hasten
 korib   IV_yu   hasten
 korab   IV_Pass_yu      be hastened
 ;; Ainokarab_1
@@ -1538,7 +1538,7 @@ karobal NapAt   sieve;mesh
 ;
 ;; karobalA'_1
 karobalA'       N0_Nh   Karbala
-karobalA&       Nh      Karbala
+karobalAW       Nh      Karbala
 karobalA}       Nhy     Karbala
 ;; karobalA}iy~_1
 karobalA}iy~    Nall    from/of Karbala
@@ -1577,8 +1577,8 @@ kArotuwn        NduAt   carton;cardboard box
 karav   PV      oppress;worry
 koruv   IV      oppress;worry
 koriv   IV      oppress;worry
-;; >akorav_1
->akorav PV      oppress;worry
+;; Oakorav_1
+Oakorav PV      oppress;worry
 koriv   IV_yu   oppress;worry
 korav   IV_Pass_yu      be oppressed;be worried
 ;; Aikotarav_1
@@ -1611,7 +1611,7 @@ karAj   N/At    garage
 ;--- krH
 ;; kiroH_1
 kiroH   Ndu     monk's cell
->akorAH N       monks' cells
+OakorAH N       monks' cells
 ;
 ;--- krx
 ;; karoxAnap_1
@@ -1626,7 +1626,7 @@ karoxAnojiy~    Nall    artisan;worker     [[karoxAnojiy~/ADJ]]
 ;--- krd
 ;; kurodiy~_1
 kurodiy~        N/ap    Kurdish     [[kurodiy~/ADJ]]
->akorAd N       Kurds
+OakorAd N       Kurds
 kurod   N       Kurds
 ;
 ;--- krdn
@@ -1743,15 +1743,15 @@ takar~a$        PV_intr be wrinkled;shrivel;be pot-bellied
 takar~a$        IV_intr be wrinkled;shrivel;be pot-bellied
 ;; kiro$_1
 kiro$   N       paunch;belly
->akorA$ N       paunches;bellies
+OakorA$ N       paunches;bellies
 kuruw$  N       paunches;bellies
 ;; kiro$ap_1
 kiro$   Nap     tripe (dish)
 kuruw$  N       tripe (dish)
 ;; kurayo$ap_1
 kurayo$ Nap     crepe (fabric)
-;; >akora$_1
->akora$ Nel     pot-bellied;paunchy
+;; Oakora$_1
+Oakora$ Nel     pot-bellied;paunchy
 ;; mukori$_1
 mukori$ Nall    pot-bellied;paunchy     [[mukori$/ADJ]]
 ;; mutakar~i$_1
@@ -1775,8 +1775,8 @@ kuruwE  N       sipping
 karoE   Napdu   sip;swallow
 ;; kurAE_1
 kurAE   Ndu     leg;trotter;extremity
->akoruE N       legs;trotters;extremities
->akAriE Ndip    legs;trotters;extremities
+OakoruE N       legs;trotters;extremities
+OakAriE Ndip    legs;trotters;extremities
 ;; takoriyEap_1
 takoriyE        Nap     belching;eructation
 ;; kAriE_1
@@ -1846,8 +1846,8 @@ kar~im  IV_yu   venerate
 ;; kAram_1
 kAram   PV      vie in generosity with
 kArim   IV_yu   vie in generosity with
-;; >akoram_1
->akoram PV      honor;bestow honor upon;confer
+;; Oakoram_1
+Oakoram PV      honor;bestow honor upon;confer
 korim   IV_yu   honor;bestow honor upon;confer
 koram   IV_Pass_yu      be honored;be conferred
 ;; takar~am_1
@@ -1882,7 +1882,7 @@ kariym  N0      Kareem;Karim
 ;; kariym_2
 kariym  N/ap    distinguished;generous;noble;precious     [[kariym/ADJ]]
 kuramA' N0_Nh   distinguished;generous;noble;precious
-kuramA& Nh      distinguished;generous;noble;precious
+kuramAW Nh      distinguished;generous;noble;precious
 kuramA} Nhy     distinguished;generous;noble;precious
 kirAm   N       distinguished;generous;noble;precious
 ;; kariymap_1
@@ -1895,11 +1895,11 @@ karA}im Ndip    daughters
 kariym  Nap     Karima;Kareema
 ;; kar~Am_1
 kar~Am  Nall    winegrower;vinedresser
-;; >akoram_2
->akoram N0      Akram
-;; >akoram_3
->akoram Nel     nobler/noblest;dearer/dearest;more/most precious
->akArim Ndip    nobler/noblest;dearer/dearest;more/most precious
+;; Oakoram_2
+Oakoram N0      Akram
+;; Oakoram_3
+Oakoram Nel     nobler/noblest;dearer/dearest;more/most precious
+OakArim Ndip    nobler/noblest;dearer/dearest;more/most precious
 ;; makoram_1
 makoram N0      Makram
 ;; makoram_2
@@ -1914,11 +1914,11 @@ takoriym        N/At    honoring;tribute
 takoriym        NF      in honor of     [[takoriym/ADV]]
 ;; takorimap_1
 takorim Nap     honoring;tribute
-;; <ikorAm_1
-<ikorAm N/At    honor;respect;hospitality
-<ikorAm NF      in honor of     [[<ikorAm/ADV]]
-;; <ikorAmiy~ap_1
-<ikorAmiy~      NapAt   honorarium;bonus     [[<ikorAmiy~/NOUN]]
+;; IikorAm_1
+IikorAm N/At    honor;respect;hospitality
+IikorAm NF      in honor of     [[IikorAm/ADV]]
+;; IikorAmiy~ap_1
+IikorAmiy~      NapAt   honorarium;bonus     [[IikorAmiy~/NOUN]]
 ;; mukar~am_1
 mukar~am        Nall    honored;revered     [[mukar~am/ADJ]]
 ;; mukar~am_2
@@ -1999,8 +1999,8 @@ koruh   IV_intr be loathsome
 ;; kar~ah_1
 kar~ah  PV      arouse aversion
 kar~ih  IV_yu   arouse aversion
-;; >akorah_1
->akorah PV      coerce;compel
+;; Oakorah_1
+Oakorah PV      coerce;compel
 korih   IV_yu   coerce;compel
 korah   IV_Pass_yu      be coerceed;be compelled
 ;; takar~ah_1
@@ -2031,10 +2031,10 @@ makArih Ndip    loathsome things;adversities
 makorah Nap     hatred;abhorrence
 ;; makoruhap_1
 makoruh Nap     hatred;abhorrence
-;; <ikorAh_1
-<ikorAh N/At    coercion;force
-;; <ikorAhiy~_1
-<ikorAhiy~      N-ap    compulsory;enforced;coercive     [[<ikorAhiy~/ADJ]]
+;; IikorAh_1
+IikorAh N/At    coercion;force
+;; IikorAhiy~_1
+IikorAhiy~      N-ap    compulsory;enforced;coercive     [[IikorAhiy~/ADJ]]
 ;; takar~uh_1
 takar~uh        N/At    aversion;loathing
 ;; kArih_1
@@ -2143,11 +2143,11 @@ kAriy   IV_0hAnn_yu     rent;lease
 kAr     IV_0hwnyn_yu    rent;lease
 kAraY   IV_0_Pass_yu    be rented;be leased
 kAray   IV_Ann_Pass_yu  be rented;be leased
-;; >akoraY_1
->akoraY PV_0    rent;lease
->akorA  PV_h    rent;lease
->akoray PV_Atn  rent;lease
->akor   PV_ttAw rent;lease
+;; OakoraY_1
+OakoraY PV_0    rent;lease
+OakorA  PV_h    rent;lease
+Oakoray PV_Atn  rent;lease
+Oakor   PV_ttAw rent;lease
 koriy   IV_0hAnn_yu     rent;lease
 kor     IV_0hwnyn_yu    rent;lease
 koraY   IV_0_Pass_yu    be rented;be leased
@@ -2180,19 +2180,19 @@ karaY   N0      sleep
 karA    Nhy     sleep
 ;; kirA'_1
 kirA'   N0_Nh   rent;renting
-kirA&   Nh      rent;renting
+kirAW   Nh      rent;renting
 kirA}   Nhy     rent;renting
->akoriy Nap     rent money
-;; <ikorA'_1
-<ikorA' N0_Nh   renting;leasing
-<ikorA& Nh      renting;leasing
-<ikorA} Nhy     renting;leasing
-<ikorA' NAn_Nayn        renting;leasing
-<ikorA} Nayn    renting;leasing
-<ikorA' NAt     renting;leasing
+Oakoriy Nap     rent money
+;; IikorA'_1
+IikorA' N0_Nh   renting;leasing
+IikorAW Nh      renting;leasing
+IikorA} Nhy     renting;leasing
+IikorA' NAn_Nayn        renting;leasing
+IikorA} Nayn    renting;leasing
+IikorA' NAt     renting;leasing
 ;; AikotirA'_1
 AikotirA'       N0_Nh   renting;leasing
-AikotirA&       Nh      renting;leasing
+AikotirAW       Nh      renting;leasing
 AikotirA}       Nhy     renting;leasing
 AikotirA'       NAn_Nayn        renting;leasing
 AikotirA}       Nayn    renting;leasing
@@ -2334,8 +2334,8 @@ kosib   IV      gain;acquire;obtain
 ;; kas~ab_1
 kas~ab  PV      make succeed
 kas~ib  IV_yu   make succeed
-;; >akosab_1
->akosab PV      impart to;allow to gain
+;; Oakosab_1
+Oakosab PV      impart to;allow to gain
 kosib   IV_yu   impart to;allow to gain
 ;; takas~ab_1
 takas~ab        PV      earn;acquire;obtain
@@ -2352,8 +2352,8 @@ makosab N       gain;profit
 makosib N       gain;profit
 makosib Nap     gain;profit
 makAsib Ndip    earnings;profit
-;; <ikosAb_1
-<ikosAb N/At    imparting to;allowing to gain
+;; IikosAb_1
+IikosAb N/At    imparting to;allowing to gain
 ;; takas~ub_1
 takas~ub        N/At    earning;gaining;profit
 ;; AikotisAb_1
@@ -2392,7 +2392,7 @@ kusotuliytah    N0      cutlet
 ;--- kstn
 ;; kasotanA'_1
 kasotanA'       N0_Nh   chestnut;chestnut tree
-kasotanA&       Nh      chestnut;chestnut tree
+kasotanAW       Nh      chestnut;chestnut tree
 kasotanA}       Nhy     chestnut;chestnut tree
 ;; kasotanA}iy~_1
 kasotanA}iy~    N-ap    chestnut-colored;maroon     [[kasotanA}iy~/ADJ]]
@@ -2418,7 +2418,7 @@ kusAH   N       rickets
 kusAH   Nap     rubbish;sweepings
 ;; kasiyH_1
 kasiyH  N/ap    lame;crippled
->akosaH Nel     lame;crippled
+OakosaH Nel     lame;crippled
 ;; mikosaHap_1
 mikosaH Napdu   broom;sweeper
 ;; AikotisAH_1
@@ -2437,8 +2437,8 @@ kasad   PV_intr be stagnant;sell poorly;have no market
 kasud   PV_intr be stagnant;sell poorly;have no market
 kosud   IV_intr be stagnant;sell poorly;have no market
 ; see also under --- Aksd
-;; >akosad_2
->akosad PV_intr be stagnant;be paralyzed
+;; Oakosad_2
+Oakosad PV_intr be stagnant;be paralyzed
 kosid   IV_intr_yu      be stagnant;be paralyzed
 ;; kasAd_1
 kasAd   N       economic depression;business slump
@@ -2520,8 +2520,8 @@ kasaruwn        Nap     casserole
 ;; kisoraY_1
 kisoraY N0      Khosrau;Persian royalty
 kisorA  Nhy     Khosrau;Persian royalty
->akAsir Nap     Khosrau;Persian royalty
->akAsir Ndip    Khosrau;Persian royalty
+OakAsir Nap     Khosrau;Persian royalty
+OakAsir Ndip    Khosrau;Persian royalty
 ;
 ;--- ksE
 ;; kasaE-a_1
@@ -2628,11 +2628,11 @@ kas     PV_w    get dressed
 kosaY   IV_0    get dressed
 kosay   IV_Ann  get dressed
 kosa    IV_0hwnyn       get dressed
-;; >akosaY_1
->akosaY PV_0    clothe;attire
->akosA  PV_h    clothe;attire
->akosay PV_Atn  clothe;attire
->akos   PV_ttAw clothe;attire
+;; OakosaY_1
+OakosaY PV_0    clothe;attire
+OakosA  PV_h    clothe;attire
+Oakosay PV_Atn  clothe;attire
+Oakos   PV_ttAw clothe;attire
 kosiy   IV_0hAnn_yu     clothe;attire
 kos     IV_0hwnyn_yu    clothe;attire
 kosaY   IV_0_Pass_yu    be clothed;be attired
@@ -2664,9 +2664,9 @@ kisaY   N0      clothing;attire
 kisA    Nhy     clothing;attire
 ;; kisA'_1
 kisA'   N0_Nh   clothes;garment
-kisA&   Nh      clothes;garment
+kisAW   Nh      clothes;garment
 kisA}   Nhy     clothes;garment
->akosiy Nap     clothes;garment
+Oakosiy Nap     clothes;garment
 ;; takosiy_1
 takosiy Nap     dressing;clothing
 ;
@@ -2803,7 +2803,7 @@ musotako$if     Nall    discoverer;explorer
 ;--- k$k
 ;; ku$ok_1
 ku$ok   N       kiosk;newsstand;cabin
->ako$Ak N       kiosks;newsstands;cabins
+Oako$Ak N       kiosks;newsstands;cabins
 ;; ki$ok_1
 ki$ok   N       kishk (cereal made with burghul and laban)
 ;; ki$ok_2
@@ -3004,7 +3004,7 @@ kaf~    N       refraining;discontinuation;stoppage
 ;; kaf~_2
 kaf~    Ndu     palm of the hand
 kufuwf  N       palms of the hands
->akuf~  N       palms of the hands
+Oakuf~  N       palms of the hands
 ;; kif~ap_1
 kif~    Napdu   palm of the hand
 kaf~    Napdu   palm of the hand
@@ -3013,7 +3013,7 @@ kifAf   N       palms of the hands
 ;; kaf~_3
 kaf~    Ndu     balance scale
 kufuwf  N       balance scales
->akuf~  N       balance scales
+Oakuf~  N       balance scales
 ;; kif~ap_2
 kif~    Napdu   balance scale
 kaf~    Napdu   balance scale
@@ -3039,69 +3039,69 @@ makofuwf        Nall    blind
 makAfiyf        Ndip    blind
 ;
 ;--- kfA
-;; kafa>-a_1
-kafa>   PV->    reverse;invert
+;; kafaO-a_1
+kafaO   PV-O    reverse;invert
 kafa|   PV-|    reverse;invert
-kafa&   PV_w    reverse;invert
-kofa>   IV      reverse;invert
+kafaW   PV_w    reverse;invert
+kofaO   IV      reverse;invert
 kofa|   IV-|    reverse;invert
-kofa&   IV_wn   reverse;invert
+kofaW   IV_wn   reverse;invert
 kofa}   IV_yn   reverse;invert
-;; kAfa>_1
-kAfa>   PV->    reward;repay;compensate
+;; kAfaO_1
+kAfaO   PV-O    reward;repay;compensate
 kAfa|   PV-|    reward;repay;compensate
-kAfa&   PV_w    reward;repay;compensate
+kAfaW   PV_w    reward;repay;compensate
 kAfi}   IV_yu   reward;repay;compensate
-;; >akofa>_1
->akofa> PV->    reverse;invert
->akofa| PV-|    reverse;invert
->akofa& PV_w    reverse;invert
+;; OakofaO_1
+OakofaO PV-O    reverse;invert
+Oakofa| PV-|    reverse;invert
+OakofaW PV_w    reverse;invert
 kofi}   IV_yu   reverse;invert
-kofa>   IV_Pass_yu      be reversed;be inverted
-;; takAfa>_1
-takAfa> PV->    counterbalance each other
+kofaO   IV_Pass_yu      be reversed;be inverted
+;; takAfaO_1
+takAfaO PV-O    counterbalance each other
 takAfa| PV-|    counterbalance each other
-takAfa& PV_w    counterbalance each other
-takAfa> IV      counterbalance each other
+takAfaW PV_w    counterbalance each other
+takAfaO IV      counterbalance each other
 takAfa| IV-|    counterbalance each other
-takAfa& IV_wn   counterbalance each other
+takAfaW IV_wn   counterbalance each other
 takAfa} IV_yn   counterbalance each other
-;; Ainokafa>_1
-Ainokafa>       PV->    fall back;recede;withdraw
+;; AinokafaO_1
+AinokafaO       PV-O    fall back;recede;withdraw
 Ainokafa|       PV-|    fall back;recede;withdraw
-Ainokafa&       PV_w    fall back;recede;withdraw
+AinokafaW       PV_w    fall back;recede;withdraw
 nokafi} IV      fall back;recede;withdraw
 ;; kafo'_1
 kafo'   N0      adequate;qualified
 kafo}   NF_Nhy  adequate;qualified
->akofA' N0_Nh   adequate;qualified
->akofA& Nh      adequate;qualified
->akofA} Nhy     adequate;qualified
+OakofA' N0_Nh   adequate;qualified
+OakofAW Nh      adequate;qualified
+OakofA} Nhy     adequate;qualified
 ;; kufuw'_1
 kufuw'  N0_Nh   competent
 kufuw}  Nhy     competent
-kufu&   N       competent
+kufuW   N       competent
 ;; kifA'_1
 kifA'   N0_Nh   equivalent
-kifA&   Nh      equivalent
+kifAW   Nh      equivalent
 kifA}   Nhy     equivalent
 ;; kafA'_1
 kafA'   N0_Nh   equality;adequacy
-kafA&   Nh      equality;adequacy
+kafAW   Nh      equality;adequacy
 kafA}   Nhy     equality;adequacy
 ;; kafA'ap_1
 kafA'   Nap     competence;suitability;proficiency
 ;; kafA'At_1
 kafA'   NAt     qualifications;capabilities
-;; mukAfa>ap_1
-mukAfa> Napdu   compensation;reward;remuneration
+;; mukAfaOap_1
+mukAfaO Napdu   compensation;reward;remuneration
 mukAfa  N-|t    compensation;rewards;remuneration
-;; takAfu&_1
-takAfu& N/At    equality;equal
+;; takAfuW_1
+takAfuW N/At    equality;equal
 takAfu} Nhy     equality;equal
 ;; AinokifA'_1
 AinokifA'       N0_Nh   retreat;withdrawal
-AinokifA&       Nh      retreat;withdrawal
+AinokifAW       Nh      retreat;withdrawal
 AinokifA}       Nhy     retreat;withdrawal
 AinokifA'       NAn_Nayn        retreats;withdrawals
 AinokifA}       Nayn    retreats;withdrawals
@@ -3155,8 +3155,8 @@ kofir   IV      blaspheme;renege Islam
 ;; kaf~ar_1
 kaf~ar  PV      atone;do penance
 kaf~ir  IV_yu   atone;do penance
-;; >akofar_1
->akofar PV      accuse of infidelity
+;; Oakofar_1
+Oakofar PV      accuse of infidelity
 kofir   IV_yu   accuse of infidelity
 kofar   IV_Pass_yu      be accused of infidelity
 ;; kafor_1
@@ -3193,10 +3193,10 @@ kofas   IV_intr be bandy-legged
 ;; Ainokafas_1
 Ainokafas       PV_intr be bandy-legged
 nokafis IV_intr be bandy-legged
-;; >akofas_1
->akofas Nel     bandy-legged
+;; Oakofas_1
+Oakofas Nel     bandy-legged
 kafosA' N0_Nh   bandy-legged
-kafosA& Nh      bandy-legged
+kafosAW Nh      bandy-legged
 kafosA} Nhy     bandy-legged
 kufos   N       bandy-legged
 ;
@@ -3220,8 +3220,8 @@ kaf~il  IV_yu   provide for;support
 ;; kAfal_1
 kAfal   PV      conclude an agreement with;make a contract with
 kAfil   IV_yu   conclude an agreement with;make a contract with
-;; >akofal_1
->akofal PV      appoint as security
+;; Oakofal_1
+Oakofal PV      appoint as security
 kofil   IV_yu   appoint as security
 kofal   IV_Pass_yu      be appointed as security
 ;; takaf~al_1
@@ -3258,7 +3258,7 @@ kaf~in  IV-n_yu wrap;cover
 kafon   N       saltless
 ;; kafan_1
 kafan   N       shroud
->akofAn N       shrouds
+OakofAn N       shrouds
 ;
 ;--- kfhr
 ; form QIV
@@ -3314,7 +3314,7 @@ mukAfA  Napdu   reward;gratification
 mukAfay NAt     rewards
 ;; AikotifA'_1
 AikotifA'       N0_Nh   sufficiency;contentment
-AikotifA&       Nh      sufficiency;contentment
+AikotifAW       Nh      sufficiency;contentment
 AikotifA}       Nhy     sufficiency;contentment
 AikotifA'       NAn_Nayn        sufficiency;contentment
 AikotifA}       Nayn    sufficiency;contentment
@@ -3336,9 +3336,9 @@ mukotafiy       NapAt   contented;satisfied
 ;; kal~al_1
 kal~al  PV_intr become dull;become blunt
 kal~il  IV_intr_yu      become dull;become blunt
-;; >akal~_1
->akal~  PV_V    make tired;wear out
->akolal PV_C    make tired;wear out
+;; Oakal~_1
+Oakal~  PV_V    make tired;wear out
+Oakolal PV_C    make tired;wear out
 kil~    IV_V_yu make tired;wear out
 kolil   IV_C_yu make tired;wear out
 kal~    IV_V_Pass_yu    be made tired;be worn out
@@ -3370,16 +3370,16 @@ kalAl   N       fatigue
 kalAl   Nap     fatigue
 ;; kaliyl_1
 kaliyl  N       exhausted;weak     [[kaliyl/ADJ]]
-;; <ikoliyl_1
-<ikoliyl        Ndu     halo;corona
->akAliyl        Ndip    halos;coronas
->akil~  Nap     halos;coronas
-;; <ikoliyl_2
-<ikoliyl        Ndu     wedding ceremony
->akAliyl        Ndip    wedding ceremonies
->akil~  Nap     wedding ceremonies
-;; <ikoliyliy~_1
-<ikoliyliy~     N-ap    coronal     [[<ikoliyliy~/ADJ]]
+;; Iikoliyl_1
+Iikoliyl        Ndu     halo;corona
+OakAliyl        Ndip    halos;coronas
+Oakil~  Nap     halos;coronas
+;; Iikoliyl_2
+Iikoliyl        Ndu     wedding ceremony
+OakAliyl        Ndip    wedding ceremonies
+Oakil~  Nap     wedding ceremonies
+;; Iikoliyliy~_1
+Iikoliyliy~     N-ap    coronal     [[Iikoliyliy~/ADJ]]
 ;; takoliyl_1
 takoliyl        N/At    coronation
 ;; kAl~_1
@@ -3403,26 +3403,26 @@ kilotayohimA    FW-WaBi both of them     [[kilotay/FUNC_WORD+himA/PRON_3D]]
 kal~A   FW-Wa   not at all;definitely not     [[kal~A/INTERJ]]
 ;
 ;--- klA(3)
-;; kala>-a_1
-kala>   PV->    guard;preserve;watch
+;; kalaO-a_1
+kalaO   PV-O    guard;preserve;watch
 kala|   PV-|    guard;preserve;watch
-kala&   PV_w    guard;preserve;watch
-kola>   IV      guard;preserve;watch
+kalaW   PV_w    guard;preserve;watch
+kolaO   IV      guard;preserve;watch
 kola|   IV-|    guard;preserve;watch
-kola&   IV_wn   guard;preserve;watch
+kolaW   IV_wn   guard;preserve;watch
 kola}   IV_yn   guard;preserve;watch
-;; Aikotala>_1
-Aikotala>       PV->_intr       be sleepless
+;; AikotalaO_1
+AikotalaO       PV-O_intr       be sleepless
 Aikotala|       PV-|_intr       be sleepless
-Aikotala&       PV_w_intr       be sleepless
+AikotalaW       PV_w_intr       be sleepless
 kotali} IV_intr be sleepless
-;; kala>_1
-kala>   N0_Nh   pasture;herbage
-kala&   Nh      pasture;herbage
+;; kalaO_1
+kalaO   N0_Nh   pasture;herbage
+kalaW   Nh      pasture;herbage
 kala}   Nhy     pasture;herbage
->akolA' N0_Nh   pastures;herbage
->akolA& Nh      pastures;herbage
->akolA} Nhy     pastures;herbage
+OakolA' N0_Nh   pastures;herbage
+OakolAW Nh      pastures;herbage
+OakolA} Nhy     pastures;herbage
 ;; kaluw'_1
 kaluw'  N-ap    sleepless     [[kaluw'/ADJ]]
 ;
@@ -3525,8 +3525,8 @@ kulovuwm        Nprop   Kulthoum
 ;; kalaH-a_1
 kalaH   PV      frown;scowl;look gloomy
 kolaH   IV      frown;scowl;look gloomy
-;; >akolaH_1
->akolaH PV      frown;scowl;look gloomy
+;; OakolaH_1
+OakolaH PV      frown;scowl;look gloomy
 koliH   IV_yu   frown;scowl;look gloomy
 kolaH   IV_Pass_yu      be frowned;be scowled
 ;; takal~aH_1
@@ -3620,11 +3620,11 @@ kulaf   N       formalities;expenditures
 kal~Af  N       hostler;groom
 ;; kal~Afiy~_1
 kal~Afiy~       N-ap    donkey hirer     [[kal~Afiy~/ADJ]]
-;; >akolaf_1
->akolaf Nel     freckled;ginger     [[>akolaf/ADJ]]
->akolaf Nel     freckled;ginger
+;; Oakolaf_1
+Oakolaf Nel     freckled;ginger     [[Oakolaf/ADJ]]
+Oakolaf Nel     freckled;ginger
 kalofA' N0_Nh   freckled;ginger
-kalofA& Nh      freckled;ginger
+kalofAW Nh      freckled;ginger
 kalofA} Nhy     freckled;ginger
 kulof   N       freckled;ginger
 ;; takoliyf_1
@@ -3703,7 +3703,7 @@ tikil~Am        N       eloquent;garrulous     [[tikil~Am/ADJ]]
 ;; kaliym_1
 kaliym  N       spokesman
 kulamA' N0_Nh   spokesmen
-kulamA& Nh      spokesmen
+kulamAW Nh      spokesmen
 kulamA} Nhy     spokesmen
 ;; kaliym_2
 kaliym  N       wounded
@@ -3782,7 +3782,7 @@ kliy$iyh        NduAt   cliche
 ;--- klym
 ;; kiliym_1
 kiliym  N0      carpet;rug
->aklim  Nap     carpets;rugs
+Oaklim  Nap     carpets;rugs
 ;
 ; US swimmer Kevin Clements
 ;; kliyminots_1
@@ -3836,9 +3836,9 @@ kamA    FW-Wa   and;as;also  [[kamA/CONJ]]
 ;; kamo'_1
 kamo'   N0      truffle;mushroom
 kamo}   NF_Nhy  truffle;mushroom
-kamo>   Napdu   truffle;mushroom
->akomu& N0_Nh   truffles;mushrooms
->akomu} Nhy     truffles;mushrooms
+kamoO   Napdu   truffle;mushroom
+OakomuW N0_Nh   truffles;mushrooms
+Oakomu} Nhy     truffles;mushrooms
 ;
 ;--- kmbA
 ;; kumobArs_1
@@ -3890,8 +3890,8 @@ kum~avr Napdu   pear
 ;; kamaH-a_1
 kamaH   PV      pull up;rein in
 komaH   IV      pull up;rein in
-;; >akomaH_1
->akomaH PV      pull up;rein in
+;; OakomaH_1
+OakomaH PV      pull up;rein in
 komiH   IV_yu   pull up;rein in
 komaH   IV_Pass_yu      be pulled up;be reined in
 ;; kamoH_1
@@ -3901,8 +3901,8 @@ kamoH   N       pulling up;reining in
 ;; kamax-a_1
 kamax   PV_intr be haughty;turn up the nose
 komax   IV_intr be haughty;turn up the nose
-;; >akomax_1
->akomax PV_intr be haughty;turn up the nose
+;; Oakomax_1
+Oakomax PV_intr be haughty;turn up the nose
 komix   IV_intr_yu      be haughty;turn up the nose
 ;; kumAx_1
 kumAx   N       haughtiness;pride
@@ -3920,8 +3920,8 @@ komad   IV_intr be sad;be discolored
 ;; kam~ad_1
 kam~ad  PV      apply a hot compress
 kam~id  IV_yu   apply a hot compress
-;; >akomad_1
->akomad PV      sadden;grieve
+;; Oakomad_1
+Oakomad PV      sadden;grieve
 komid   IV_yu   sadden;grieve
 komad   IV_Pass_yu      be saddened;be aggrieved
 ;; Aikomad~_1
@@ -3941,8 +3941,8 @@ kamiyd  N-ap    sad;grieved     [[kamiyd/ADJ]]
 ;; kimAd_1
 kimAd   N       hot compress;warm bandage
 kimAd   Nap     hot compress;warm bandage
-;; >akomad_2
->akomad Nel     dark-colored;swarthy
+;; Oakomad_2
+Oakomad Nel     dark-colored;swarthy
 ;; takomiyd_1
 takomiyd        N/At    application of hot compresses;fomentation
 ;; kAmid_1
@@ -3955,7 +3955,7 @@ mukam~ad        NapAt   hot compress;warm bandage
 ;--- kmr
 ;; kamar_1
 kamar   N       belt
->akomAr N       bets
+OakomAr N       bets
 ;; kamarap_1
 kamar   NapAt   beam;girder
 ;; makomuwr_1
@@ -4025,8 +4025,8 @@ komal   IV_intr become complete;become perfect;be concluded
 ;; kam~al_1
 kam~al  PV      complete;finish
 kam~il  IV_yu   complete;finish
-;; >akomal_1
->akomal PV      complete;finish
+;; Oakomal_1
+Oakomal PV      complete;finish
 komil   IV_yu   complete;finish
 komal   IV_Pass_yu      be completed;be finished
 ;; takAmal_1
@@ -4047,16 +4047,16 @@ kamAliy~        N-ap    luxurious;de luxe     [[kamAliy~/ADJ]]
 kamAliy~        NAt     luxuries;amenities     [[kamAliy~/NOUN]]
 ;; kamAlap_1
 kamAl   Nap     supplement;addition
-;; >akomal_2
->akomal Nel     more/most complete/perfect
+;; Oakomal_2
+Oakomal Nel     more/most complete/perfect
 ;; takomiyl_1
 takomiyl        N/At    completion;conclusion
 ;; takomiyliy~_1
 takomiyliy~     N-ap    completing;supplementary     [[takomiyliy~/ADJ]]
 ;; takomilap_1
 takomil Nap     supplement
-;; <ikomAl_1
-<ikomAl N/At    completion;conclusion;perfection
+;; IikomAl_1
+IikomAl N/At    completion;conclusion;perfection
 ;; takAmul_1
 takAmul N/At    integration;merger
 ;; takAmuliy~_1
@@ -4097,7 +4097,7 @@ kumuwn  N       latent;latency
 ;; kamiyn_1
 kamiyn  N/ap    hidden;ambush
 kumanA' N0_Nh   hidden;ambush
-kumanA& Nh      hidden;ambush
+kumanAW Nh      hidden;ambush
 kumanA} Nhy     hidden;ambush
 ;; makoman_1
 makoman Ndu     ambush
@@ -4123,10 +4123,10 @@ kamanoj NapAt   kamanja (three stringed fiddle)
 ;--- kmh
 ;; kamah_1
 kamah   N       blindness from birth
-;; >akomah_1
->akomah Nel     born blind
+;; Oakomah_1
+Oakomah Nel     born blind
 kamohA' N0_Nh   born blind
-kamohA& Nh      born blind
+kamohAW Nh      born blind
 kamohA} Nhy     born blind
 kumoh   N       born blind
 ;
@@ -4134,9 +4134,9 @@ kumoh   N       born blind
 ;; kamiy~_1
 kamiy~  N/ap    armed;brave     [[kamiy~/ADJ]]
 kumA    Nap     armed;brave
->akomA' N0_Nh   armed;brave
->akomA& Nh      armed;brave
->akomA} Nhy     armed;brave
+OakomA' N0_Nh   armed;brave
+OakomAW Nh      armed;brave
+OakomA} Nhy     armed;brave
 ;
 ;; kamoyuwn_1
 kamoyuwn        NduAt   truck
@@ -4147,9 +4147,9 @@ kan~    PV_V    conceal;hide
 kanan   PV_Cn   conceal;hide
 kin~    IV_V    conceal;hide
 konin   IV-n    conceal;hide
-;; >akan~_1
->akan~  PV_V    conceal;hide
->akonan PV_Cn   conceal;hide
+;; Oakan~_1
+Oakan~  PV_V    conceal;hide
+Oakonan PV_Cn   conceal;hide
 kin~    IV_V_yu conceal;hide
 konin   IV_C_yu conceal;hide
 kan~    IV_V_Pass_yu    be concealed;be hidden
@@ -4165,8 +4165,8 @@ sotakin~        IV_V_intr       be concealed;be hidden
 sotakonin       IV_Cn_intr      be concealed;be hidden
 ;; kan~_1
 kan~    N       shelter;refuge
->akonAn N       shelters;refuge
->akin~  Nap     shelters;refuge
+OakonAn N       shelters;refuge
+Oakin~  Nap     shelters;refuge
 ;; kan~ap_1
 kan~    Napdu   daughter-in-law;sister-in-law
 kanA}in Ndip    daughters-in-law;sisters-in-law
@@ -4343,8 +4343,8 @@ konuf   IV      protect;enclose
 ;; kAnaf_1
 kAnaf   PV      shelter;protect
 kAnif   IV_yu   shelter;protect
-;; >akonaf_1
->akonaf PV      shelter;protect
+;; Oakonaf_1
+Oakonaf PV      shelter;protect
 konif   IV_yu   shelter;protect
 konaf   IV_Pass_yu      be sheltered;be protected
 ;; Aikotanaf_1
@@ -4352,7 +4352,7 @@ Aikotanaf       PV      surround;encircle;enclose;encompass
 kotanif IV      surround;encircle;enclose;encompass
 ;; kanaf_1
 kanaf   Ndu     wing;protection
->akonAf N       wings;protection;sponsorship
+OakonAf N       wings;protection;sponsorship
 ;; kunAfap_1
 kunAf   NapAt   kunafa (pastry)
 ;; kaniyf_1
@@ -4474,7 +4474,7 @@ kahorab Ndu     electron
 kahArib Ndip    electrons
 ;; kahorabA'_1
 kahorabA'       N0_Nh   electricity
-kahorabA&       Nh      electricity
+kahorabAW       Nh      electricity
 kahorabA}       Nhy     electricity
 kahorabA}iy~    N-ap    electrical     [[kahorabA}iy~/ADJ]]
 ;; kahorabA}iy~_1
@@ -4618,7 +4618,7 @@ kwAn    Nprop   Kwan
 ;--- kwb
 ;; kuwb_1
 kuwb    Ndu     cup;glass
->akowAb N       cups;glasses
+OakowAb N       cups;glasses
 ;; kuwbap_1
 kuwb    Napdu   cup;glass
 ;
@@ -4717,7 +4717,7 @@ kawoval N       ship stern
 ;--- kwx
 ;; kuwx_1
 kuwx    Ndu     hut;shack
->akowAx N       huts;shacks
+OakowAx N       huts;shacks
 ;
 ;--- kwd
 ; see also under --- kyd
@@ -4734,7 +4734,7 @@ AlokAd  FW-Wa   almost     [[Al/DET+kAd/NOUN]]
 biAlokAd        FW-Wa   almost     [[bi/PREP+Al/DET+kAd/NOUN]]
 ;; kawodap_1
 kawod   Napdu   pile;heap
->akowAd N       piles;heaps
+OakowAd N       piles;heaps
 ;; kuwdiy~_1
 kuwdiy~ N-ap    enciphered;encoded     [[kuwdiy~/ADJ]]
 ;
@@ -4752,8 +4752,8 @@ takaw~ar        PV_intr be rolled up;be spherical
 takaw~ar        IV_intr be rolled up;be spherical
 ;; kuwr_1
 kuwr    N       furnace;bellows
->akowAr N       furnace;bellows
->akowur N       furnace;bellows
+OakowAr N       furnace;bellows
+Oakowur N       furnace;bellows
 ;; kuwrap_1
 kuwr    Nap     small village
 kuwar   N       small village
@@ -4837,18 +4837,18 @@ kuwriyl N0      Kurile
 ;--- kwz
 ;; kuwz_1
 kuwz    N       jug;mug
->akowAz N       jugs;mugs
+OakowAz N       jugs;mugs
 kiyzAn  N       jugs;mugs
 ;
 ;--- kws
 ;; kuws_1
 kuws    N       small drum
-; may have different lexical features than ka>os:
+; may have different lexical features than kaOos:
 ;; kAs_1
 kAs     N       cup
->akowAs N       cups
-;; >akowas_1
->akowas Nel     prettier/prettiest
+OakowAs N       cups
+;; Oakowas_1
+Oakowas Nel     prettier/prettiest
 ;; kuway~is_1
 kuway~is        N       good;nice
 ;
@@ -4896,7 +4896,7 @@ kuwa$   N       kilns
 ;--- kwE
 ;; kuwE_1
 kuwE    Ndu     elbow
->akowAE N       elbows
+OakowAE N       elbows
 kiyEAn  N       elbows
 ;; kAE_1
 kAE     N       carpal end of radius
@@ -5019,7 +5019,7 @@ takaw~am        PV      accumulate;be piled up;be stacked up
 takaw~am        IV      accumulate;be piled up;be stacked up
 ;; kawom_1
 kawom   Ndu     pile;stack
->akowAm N       piles;stacks
+OakowAm N       piles;stacks
 ;; kiymAn_1
 kiymAn  N       piles of trash;rubbish
 ;; kawomap_1
@@ -5076,7 +5076,7 @@ kuwmiydoyiyn    N0      comedian
 kAn     PV_V    was;were
 kun     PV_Cn   was;were
 ; ; interrogative + 3rd person
-; >kAn    >akAn   PV_V    whether...was/were     [[>a/INTERROG_PART+kAn/VERB_PERFECT+a/PVSUFF_SUBJ:3MS]]
+; OkAn    OakAn   PV_V    whether...was/were     [[Oa/INTERROG_PART+kAn/VERB_PERFECT+a/PVSUFF_SUBJ:3MS]]
 kuwn    IV_V    is;are
 kun     IV-n    is;are
 ; kn      kun     CV_C    be
@@ -5090,7 +5090,7 @@ takaw~an        IV-n_intr       be composed of;consist of
 ; AstkAn: see under --- kyn
 ;; kawon_1
 kawon   N       being
->akowAn N       events
+OakowAn N       events
 ;; kawon_2
 kawon   N       universe;existence
 ;; kawoniy~_1
@@ -5099,8 +5099,8 @@ kawoniy~        Nall    cosmic     [[kawoniy~/ADJ]]
 kiyAn   NduAt   entity
 ;; makAn_1
 makAn   Ndu     place;location;position
->amokin Nap     places;locations;positions
->amAkin Ndip    places;locations;positions
+Oamokin Nap     places;locations;positions
+OamAkin Ndip    places;locations;positions
 ;; makAnap_1
 makAn   NapAt   position;standing
 ;; makAniy~_1
@@ -5224,11 +5224,11 @@ kuw~    NapAt   aperture;skylight
 kuwaY   N0      apertures;skylights
 kuwA    Nhy     apertures;skylights
 kiwA'   N0_Nh   apertures;skylights
-kiwA&   Nh      apertures;skylights
+kiwAW   Nh      apertures;skylights
 kiwA}   Nhy     apertures;skylights
 ;; kaw~A'_1
 kaw~A'  N0_Nh   ironing man;presser
-kaw~A&  Nh      ironing man;presser
+kaw~AW  Nh      ironing man;presser
 kaw~A}  Nhy     ironing man;presser
 kaw~Ay  NapAt   ironing lady
 ;; kay~_1
@@ -5241,7 +5241,7 @@ kay~    Nap     burn;brand
 kawiy~  Nap     crease     [[kawiy~/NOUN]]
 ;; kaw~A'_2
 kaw~A'  N0_Nh   slanderer
-kaw~A&  Nh_Nuwn slanderer
+kaw~AW  Nh_Nuwn slanderer
 kaw~A}  Nh_Niyn slanderer
 ;; mikowAp_1
 mikowA  Napdu   ironing iron
@@ -5340,7 +5340,7 @@ makAyid Ndip    stratagems;ruses;schemes
 ;--- kyr
 ;; kiyr_1
 kiyr    N       bellows
->akoyAr N       bellows
+OakoyAr N       bellows
 kiyrAn  N       bellows
 ;
 ;; kiyriyyinokuw_1
@@ -5365,19 +5365,19 @@ kay~is  IV_yu   pack in sacks
 kayos   N       cleverness;elegance
 ;; kiys_1
 kiys    Ndu     sack
->akoyAs N       sacks
->akoyis Nap     sacks
+OakoyAs N       sacks
+Oakoyis Nap     sacks
 ;; kay~is_1
 kay~is  N-ap    astute;elegant     [[kay~is/ADJ]]
->akoyAs N       astute;elegant
+OakoyAs N       astute;elegant
 kayosaY N0      astute;elegant
 kayosA  Nhy     astute;elegant
 kiyAs   N       astute;elegant
 ;; kiyAsap_1
 kiyAs   Nap     adroitness;elegance
-;; >akoyas_1
->akoyas Nel     smart;sly     [[>akoyas/ADJ]]
->akoyas Nel     smart;sly
+;; Oakoyas_1
+Oakoyas Nel     smart;sly     [[Oakoyas/ADJ]]
+Oakoyas Nel     smart;sly
 kiysaY  N0      smart;sly
 kiysA   Nhy     smart;sly
 kiysay  NAt     smart;sly
@@ -5462,7 +5462,7 @@ kAyil   IV_yu   repay in kind
 makAl   N       measuring
 ;; kayol_1
 kayol   N       dry measure;measure of capacity
->akoyAl N       dry measures;measures of capacity
+OakoyAl N       dry measures;measures of capacity
 ;; kayolap_1
 kayol   NapAt   keila (dry measure)
 ;; kayoliy~_1
@@ -5516,7 +5516,7 @@ kayomuws        N0      gastric juice
 ;--- kymy
 ;; kiymiyA'_1
 kiymiyA'        N0_Nh   chemistry
-kiymiyA&        Nh      chemistry
+kiymiyAW        Nh      chemistry
 kiymiyA}        Nhy     chemistry
 ;; kiymiyA}iy~_1
 kiymiyA}iy~     N-ap    chemical     [[kiymiyA}iy~/ADJ]]
