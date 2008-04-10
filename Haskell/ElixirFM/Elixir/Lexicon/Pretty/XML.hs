@@ -4,18 +4,18 @@
 
 -- |
 --
--- Module      :  Elixir.Lexicon.Pretty.Perl
--- Copyright   :  Otakar Smrz 2005-2006
+-- Module      :  Elixir.Lexicon.Pretty.XML
+-- Copyright   :  Otakar Smrz 2005-2008
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Elixir", "Elixir.Lexicon", "Text.PrettyPrint"
+-- "Elixir" "Elixir.Lexicon" "Text.PrettyPrint"
 
 
-module Elixir.Lexicon.Pretty.Perl (
+module Elixir.Lexicon.Pretty.XML (
 
         -- * Classes
 
@@ -94,10 +94,23 @@ prettyNest' r l t = pretty [ ("root", text (show r)),
                              ("list", pretty l) ]
 
 
+-- adapted from Text.XHtml.Internals.stringToHtmlString
+
+escape :: String -> String
+escape = concatMap fixChar
+    where fixChar '<' = "&lt;"
+          fixChar '>' = "&gt;"
+          fixChar '&' = "&amp;"
+       -- fixChar '"' = "&quot;"
+          fixChar c = [c]
+       -- fixChar c | ord c < 0xff = [c]
+       -- fixChar c = "&#" ++ show (ord c) ++ ";"
+
+
 instance Show a => Pretty (Entry a) where
 
     pretty (Entry e m l) = pretty [ ("entity", text (show (show e))),
-                                    ("morphs", text (show (show m))),
+                                    ("morphs", text (stringToHtmlString (show m))),
                                     ("reflex", pretty l ) ]
 
 

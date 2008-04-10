@@ -9,8 +9,8 @@ maintainer:         otakar.smrz mff.cuni.cz
 homepage:           http://ufal.mff.cuni.cz/~smrz/
 package-url:        http://ufal.mff.cuni.cz/~smrz/ElixirFM/ElixirFM-1.1.zip
 category:           Various
-build-depends:      Cabal, base
-hs-source-dirs:     ., ../Encode
+build-depends:      Encode, Cabal, base, containers, pretty
+-- hs-source-dirs:     ., ../Encode
 synopsis:           Functional Arabic Morphology
 description:        The "Elixir" and "FM" libraries implement /Functional Arabic
                     Morphology/. They have been designed by Otakar Smr&#382; and
@@ -134,7 +134,7 @@ exposed-modules:    ElixirFM,
                             FM.Arabic.Commands,
                             FM.Arabic.Composite,
                             FM.Arabic.Dictionary,
-                            FM.Arabic.Main,
+                            -- FM.Arabic.Main,
                             FM.Arabic.Rules,
                             FM.Arabic.Types,
                             FM.Arabic.Lexicon,
@@ -142,5 +142,10 @@ exposed-modules:    ElixirFM,
 extensions:         MultiParamTypeClasses,
                     FunctionalDependencies,
                     ExistentialQuantification,
+                    -- PolymorphicComponents,
+                    RankNTypes,
                     OverlappingInstances,
-                    UndecidableInstances
+                    UndecidableInstances,
+                    TypeSynonymInstances,
+                    FlexibleInstances,
+                    FlexibleContexts

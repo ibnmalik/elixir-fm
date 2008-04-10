@@ -5,16 +5,16 @@
 -- |
 --
 -- Module      :  Elixir.Lexicon.Pretty.Haskell
--- Copyright   :  Otakar Smrz 2005-2006
+-- Copyright   :  Otakar Smrz 2005-2008
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Elixir", "Elixir.Lexicon", "Text.PrettyPrint"
+-- "Elixir" "Elixir.Lexicon" "Text.PrettyPrint"
 --
--- "Language.Haskell.Parser", "Language.Haskell.Pretty"
+-- "Language.Haskell.Parser" "Language.Haskell.Pretty"
 
 
 module Elixir.Lexicon.Pretty.Haskell (

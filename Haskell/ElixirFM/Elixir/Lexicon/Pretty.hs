@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Lexicon.Pretty
--- Copyright   :  Otakar Smrz 2005-2006
+-- Copyright   :  Otakar Smrz 2005-2008
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -24,7 +24,7 @@ module Elixir.Lexicon.Pretty (
     ) where
 
 
-import Elixir.Lexicon.Pretty.Perl
+import Elixir.Lexicon.Pretty.XML
 
 import Version
 
