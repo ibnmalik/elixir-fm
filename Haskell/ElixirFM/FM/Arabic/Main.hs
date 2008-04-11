@@ -1,57 +1,39 @@
--- --------------------------------------------------------------------------
---  $Revision$ $Date$
--- --------------------------------------------------------------------------
+{-
+    Functional Morphology: Latin composite definition
+    Copyright (C) 2004  Author: Markus Forsberg
 
--- |
---
--- Module      :  FM.Arabic.Main
--- Copyright   :  Otakar Smrz 2005-2008
--- License     :  GPL
---
--- Maintainer  :  otakar.smrz mff.cuni.cz
--- Stability   :  provisional
--- Portability :  portable
---
--- "Elixir" "FM"
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
 
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
 
--- module FM.Arabic.Main where
-module Main where
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+-}
 
+module FM.Arabic.Main where
 
 import FM.Generic.CommonMain
 import FM.Arabic.Commands
 import FM.Arabic.Composite
-import FM.Arabic.Dictionary
+import FM.Arabic.Dict
 import FM.Generic.Frontend
-import FM.Generic.GeneralIO
-
+import FM.Arabic.Guessing
 
 main :: IO ()
--- main = commonMain Arabic
+main = commonMain Arabic
 
-main = interact (unlines . map (show . length . resolve) . words)
-
-
-data Arabic = Arabic deriving Show
-
+data Arabic = Arabic
+ deriving Show
 
 instance Language Arabic where
-    internDict   _ = arabicDict
-    composition  _ = arabicDecompose
-    paradigms    _ = foldr insertCommand emptyC commands
-
-    welcome l = unlines
-
-            ["----------------------------------------------",
-             " ElixirFM 1.1    Functional Arabic Morphology "
-            ,"----------------------------------------------",
-             " Published under GNU General Public License 3 "
-             "                 http://www.gnu.org/licenses/ "
-            ," http://sourceforge.net/projects/elixir-fm/   ",
-             "   (c) Otakar Smrz 2005-2008                  "
-            ," Functional Morphology 2.0                    ",
-             "   (c) Markus Forsberg, Aarne Ranta 2004-2007 "
-            ," Buckwalter Arabic Morphological Analyzer 1.0 ",
-             "   (c) Tim Buckwalter 2002                    "
-            ,"----------------------------------------------"]
+ internDict   _ = arabicDict
+ composition  _ = arabicDecompose
+ paradigms    _ = foldr insertCommand emptyC commands
+ wordGuesser  _ = silly_guesser

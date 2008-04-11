@@ -1,94 +1,122 @@
 module FM.Generic.Frontend where
 
-import FM.Generic.Map as Map
+import qualified Data.Map as Map
 import FM.Generic.Dictionary
 import FM.Generic.ErrM
-import FM.Generic.General
-import Data.Maybe (isJust)
 import Data.Char
+import FM.Generic.General as General
+import Data.Maybe (isJust)
+import System.IO
+import FM.Generic.Tokenize
+import FM.Generic.UTF8
+import FM.Generic.CTrie as CTrie
 
--- A class defined to be able to construct a language independent frontend
 
--- Note that all Functions have default definitions, but
+-- Note that all Functions have default definitions, but 
 -- in the common case, you give, at least, definitions for "paradigms"
--- "interDict" and "composition"
+-- "internDict" and "composition"
 
-class Show a => Language a where
-  name        :: a -> String                -- The name of the language
-  dbaseName   :: a -> String                -- The name of dictionary Database
-  composition :: a -> ([Attr] -> Bool)      -- Definition of legal compositions
-  env         :: a -> String                -- Environment variable
+--class Show a => Language a b | a -> b where
+-- | A class defined to be able to construct a language independent frontend
+class Show a => Language a  where
+  name        :: a -> String  
+  dbaseName   :: a -> String  
+  composition :: a -> ([General.Attr] -> Bool) 
+  env         :: a -> String 
   paradigms   :: a -> Commands
-  internDict  :: a -> Dictionary            -- The internal dictionary
-  welcome     :: a -> String
-
+  internDict  :: a -> Dictionary 
+  tokenizer   :: a -> String -> [General.Tok]
+  wordGuesser :: a -> String -> [String]
   name        l = map toLower (show l)
   dbaseName   l = name l ++ ".lexicon"
   composition _ = noComp
     where noComp [_] = True
-          noComp   _ = False
+	  noComp   _ = False
   env         l = "FM_" ++ map toUpper (show l)
-  paradigms   _ = empty
-  internDict  _ = emptyDict
+  paradigms   _ = emptyC
+  internDict  _ = emptyDict  
+  tokenizer   _ = tokens
+  wordGuesser _ = const []
 
-  welcome l = unlines
-            [
-             "********************************************",
-             "* " ++ show l ++ " Morphology" ++ padding (show l) 30 ++ "*",
-             "********************************************",
-             "* Functional Morphology v1.10              *",
-             "* (c) Markus Forsberg & Aarne Ranta 2004   *",
-             "* under GNU General Public License.        *",
-             "********************************************",
-             ""
-            ]
-      where padding s n = replicate (max (n - length s) 0) ' '
+-- | type for Command Map  
+type Commands = Map.Map String ([String], [String] -> Entry) 
 
-
-type Commands = Map String ([String], [String] -> Entry) -- a map of paradigms
-
+-- | empty Command Map
 emptyC :: Commands
 emptyC = Map.empty
 
+-- | add a command
 insertCommand :: (String,[String],[String] -> Entry) -> Commands -> Commands
-insertCommand (n,args,f) cs = (n,(args,f)) |-> cs
+insertCommand (n,args,f) cs = Map.insert n (args,f) cs
 
+-- | Construct a Command Map
+mkCommands :: [(String,[String],[String] -> Entry)] -> Commands
+mkCommands = foldr insertCommand Map.empty
+
+-- | Create a dictionary from the list of paradigms.
+command_paradigms :: Language a => a -> Dictionary
+command_paradigms l = dictionary [f xs | (_,(xs,f)) <- Map.toList (paradigms l)]
+
+-- | Parse commands.
 parseCommand :: Language a => a -> String -> Err Entry
-parseCommand l s =
-   case words s of
-    (x:xs) -> case paradigms l ! x of
-               Nothing -> Bad $ "Error: Command not found [" ++ s ++ "]"
+parseCommand l s = 
+   case words (remove_comment s) of
+    (x:xs) -> case Map.lookup x (paradigms l) of
+               Nothing -> Bad $ "Undefined paradigm identifier '" ++ x ++ "'."
                Just (ys,f) -> if (length xs == length ys) then
-                             Ok $ f xs
-                               else
-                                 Bad $ "Error: wrong number of arguments [" ++ s ++ "]"
-    _ -> Bad $ "Error: Invalid command [" ++ s ++ "]"
+	                         Ok $ f xs
+                               else				 
+                                 Bad $ "Paradigm '" ++ s ++ "' requires " ++ (show (length ys)) ++ " arguments." 
+    [] -> Bad $ "No command."
 
+-- | List paradigm names
 paradigmNames :: Language a => a -> [String]
-paradigmNames l = [ c ++ " " ++ unwords args | (c,(args,_)) <- flatten (paradigms l)]
+paradigmNames l = [ c ++ " " ++ unwords args | (c,(args,_)) <- Map.toList (paradigms l)]
 
-parseDict :: Language a => a -> FilePath -> IO Dictionary
-parseDict l f =
-    do s <- catch (readFile f) (\_ -> do writeFile f [] ; putStrLn ("Created new external dictionary: \"" ++ f ++ "\".\n"); return [])
-       es <- collect $ lines s
-       return $ dictionary es
+-- | Number of paradigms.
+paradigmCount :: Language a => a -> Int
+paradigmCount l = length $ Map.toList (paradigms l)
+
+-- | Reading external lexicon. Create empty lexicon if the file does not exist.
+parseDict :: Language a => a -> FilePath -> IO (Dictionary,Int)
+parseDict l f = 
+    do (es,n) <- catch (readdict l f) (\_ -> do writeFile f [] ; prErr ("Created new external dictionary: \"" ++ f ++ "\".\n"); return ([],0))
+       return $ (dictionary es,n)       
+
+-- | Is input string a paradigm identifier?
+isParadigm :: Language a => a -> String -> Bool
+isParadigm l s = isJust $ Map.lookup s (paradigms l)
+
+-- | Read external lexicon.
+readdict :: Language a => a -> FilePath -> IO ([Entry],Int)
+readdict l f = do h <- openFile f ReadMode
+		  process l h ([],0)
  where
-  collect [] = return []
-  collect ([]:xs) = collect xs
-  collect (x:xs)
-   | isComment x = collect xs
-   | otherwise   = case parseCommand l x of
-                    Ok e -> do ys <- collect xs
-                               return $ e : ys
-                    Bad s -> do putStrLn s
-                                collect xs
+  process :: Language a => a -> Handle -> ([Entry],Int) -> IO ([Entry],Int)
+  process l h xs =
+    hIsEOF h >>= \b ->
+        if b then return xs
+           else
+            do s <- hGetLine h
+	       res <- collect (decodeUTF8 s) xs
+               process l h res
+  collect []     res = return res
+  collect xs@(c:s) (pre,n)
+   | isComment xs = return (pre,n)
+   | otherwise   = case parseCommand l (remove_comment xs) of
+                    Ok e  -> return (e:pre,n+1)
+		    Bad s -> do prErr s
+                                return (pre,n)
   isComment           [] = False
   isComment     (' ':xs) = isComment xs
   isComment ('-':'-':xs) = True
-  isComment            _ = False
+  isComment            _ = False       
 
-isParadigm :: Language a => a -> String -> Bool
-isParadigm l s = isJust $ paradigms l ! s
+-- | Remove comments in String.  
+remove_comment :: String -> String
+remove_comment [] = []
+remove_comment ('-':'-':_) = []
+remove_comment (x:xs)      = x:remove_comment xs
 
 -- Application of lists to functions
 
@@ -120,3 +148,6 @@ app7 :: (String -> String -> String -> String -> String -> String -> String -> E
 app7 f [x,y,z,w,a,b,c] = f x y z w a b c
 app7 _ _ = error $ "app7: wrong number of arguments"
 
+-- | Print to stderr.
+prErr :: String -> IO()
+prErr s =  hPutStr stderr (s ++ "\n")

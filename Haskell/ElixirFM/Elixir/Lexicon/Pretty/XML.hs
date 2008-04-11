@@ -94,8 +94,6 @@ prettyNest' r l t = pretty [ ("root", text (show r)),
                              ("list", pretty l) ]
 
 
--- adapted from Text.XHtml.Internals.stringToHtmlString
-
 escape :: String -> String
 escape = concatMap fixChar
     where fixChar '<' = "&lt;"
@@ -106,11 +104,13 @@ escape = concatMap fixChar
        -- fixChar c | ord c < 0xff = [c]
        -- fixChar c = "&#" ++ show (ord c) ++ ";"
 
+-- original is Text.XHtml.Internals.stringToHtmlString
+
 
 instance Show a => Pretty (Entry a) where
 
     pretty (Entry e m l) = pretty [ ("entity", text (show (show e))),
-                                    ("morphs", text (stringToHtmlString (show m))),
+                                    ("morphs", text (escape (show m))),
                                     ("reflex", pretty l ) ]
 
 

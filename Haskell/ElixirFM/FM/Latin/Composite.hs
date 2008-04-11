@@ -1,5 +1,5 @@
 {-
-    Functional Morphology: Latin command definitions
+    Functional Morphology: Latin composite definition
     Copyright (C) 2004  Author: Markus Forsberg
 
     This program is free software; you can redistribute it and/or modify
@@ -17,24 +17,13 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 -}
 
-module FM.Arabic.Commands where
+module FM.Latin.Composite where
 
-import FM.Arabic.Build
-import FM.Generic.Frontend
+import FM.Generic.General
+import FM.Latin.Build
+import FM.Latin.Attr
 
-commands = []
-{-
- [
-  ("d1rosa", ["rosa"], app1 d1rosa),
-  ("d1poeta", ["poeta"], app1 d1poeta),
-  ("d2servus",["servus"], app1 d2servus),
-  ("d2pinus", ["pinus"], app1 d2pinus),
-  ("d2virus",["virus"], app1 d2virus),
-  ("d2bellum",["bellum"], app1 d2bellum),
-  ("d2puer",["puer"], app1 d2puer),
-  ("d2liber",["liber"], app1 d2liber),
-  ("prep",   ["ad"], app1 prep),
-  ("v1amare", ["amare"], app1 v1amare),
-  ("v2habere", ["habere"], app1 v2habere)
-  ]
--}
+latin_compound :: [Attr] -> Bool
+latin_compound   [x,y] = (x /= y) && atS == y
+latin_compound     [x] = x /= atS
+latin_compound      _  = False

@@ -1,103 +1,119 @@
--- --------------------------------------------------------------------------
---  $Revision$ $Date$
--- --------------------------------------------------------------------------
-
--- |
---
--- Module      :  FM.Generic.General
--- Copyright   :  Otakar Smrz 2005-2007, Markus Forsberg 2004
--- License     :  GPL
---
--- Maintainer  :  otakar.smrz mff.cuni.cz
--- Stability   :  provisional
--- Portability :  portable
---
--- "FM", "Elixir"
-
-
 module FM.Generic.General where
 
-import Data.List (isPrefixOf)
+import Data.List (isPrefixOf,union)
+import FM.Generic.SharedString
 
-infixr 5 +/
+-- infixr 5 +/
 
+-- | List of word forms
+newtype NewStr = Str [String]   
+   deriving (Show, Eq, Ord)
 
--- language-independent morphology datatypes and operations
+-- | List of word forms
+type Str = [String]
 
-type Str      = [String]   -- list of strings in free variation
-type Table  a = [(a,Str)]  -- one-argument inflection table
-type Finite a = a -> Str   -- finite inflection function
+-- | Inflection table
+type Table  a = [(a,Str)]  
 
--- parameter types: hereditarily finite
+-- | Finite inflection function
+type Finite a = a -> Str   
 
-class Eq a => Param a where
+-- | The finite parameter class  
+class (Eq a, Show a) => Param a where
   values  :: [a]
   value   :: Int -> a
   value0  :: a
+  prValue :: a -> String
   value n = values !! n
   value0  = value 0
+  prValue = show
 
+-- | Token type
+data Tok = W String | P String | D String
+  deriving (Eq, Show)
 
-prValue :: (Show a, Param a) => a -> String
-prValue = show
-
--- composite forms
-
+-- | Compound forms
 type Attr = Int
 
-noComp :: Attr
+-- | default compound value
+noComp :: Attr 
 noComp = 0
 
--- to be able to program mostly with strings
-
+-- | Promote String to Str
 mkStr :: String -> Str
+-- mkStr     [] = Str []
+-- mkStr (x:xs) = Str [(x:xs)]
 mkStr = (:[])
 
+-- | Sharing of Str
+shareStr :: Str -> Str
+--shareStr (Str xs) = Str $ map shareString xs
+shareStr = map shareString
+
+-- | Translate Str to [String]
+-- unStr :: Str -> [String]
+-- unStr (Str xs) = xs
+unStr = id
+
+-- | Translate a [String] to Str
 strings :: [String] -> Str
+-- strings = Str 
 strings = id
 
+-- | Apply function to 'a' and promote the resulting String to Str.
 mkStr1 :: (a -> String) -> a -> Str
 mkStr1 =  (mkStr .)
 
-(+*) :: String -> Str -> Str
-s +* ss = map (s ++) ss
+-- | Apply function to all variants.
+mapStr :: (String -> String) -> Str -> Str
+--mapStr f (Str xs) = Str (map f xs)
+mapStr = map
 
--- could be used for morpheme boundary
+-- | Union of two Str
+unionStr :: Str -> Str -> Str
+unionStr s t = strings (unStr s `union` unStr t)
+
+-- | Prepend a string to all variants.
+(+*) :: String -> Str -> Str
+s +* ss = mapStr (s++) ss
+
+-- | Mark morpheme boundary
 (+/) :: String -> String -> String
 s +/ t = s ++ t -- s ++ "/" ++ t
 
--- to enable encoding of variants in the type String by separating spaces
--- works under the invariant that spaces never occur in words themselves
+-- | Variants listed in a string 
 mkStrWords :: String -> Str
-mkStrWords = words
+mkStrWords = strings . words
 
--- string operations for morphology
-
--- drop final letters; max 0 to avoid negative take
+-- | take all but n characters in the end of String 
 tk :: Int -> String -> String
 tk i s = take (max 0 (length s - i)) s
 
--- return final letters; max 0 to avoid negative drop
+-- | drop all but n character in the end of String
 dp :: Int -> String -> String
 dp i s = drop (max 0 (length s - i)) s
 
--- prevent the duplication of the first letter of ending: "mus" +? "s" = "mus"
+-- | Get the n:th char from the end of String 
+ch :: Int -> String -> String
+ch n s = dp 1 (tk n s)
+
+-- | Prevent the duplication: "mus" +? "s" = "mus"
 (+?) :: String -> String -> String
 s +? e = case (s,e) of
-  (_:_, c:cs) | last s == c -> s ++ cs
+  (_:_, c:cs) | last s == c -> s ++ cs 
   _ -> s ++ e
 
--- choose suffix depending on last letter of stem
+-- | Choose suffix depending on last letter of stem
 ifEndThen :: (Char -> Bool) -> String -> String -> String -> String
 ifEndThen cond s a b = case s of
   _:_ | cond (last s) -> a
   _ -> b
 
--- conditionally drop last letter
+-- | Conditionally drop last letter
 dropEndIf :: (Char -> Bool) -> String -> String
 dropEndIf cond s = ifEndThen cond s (init s) s
 
--- search-replace operation
+-- | Apply substitution table to string. 
 changes :: [(String,String)] -> String -> String
 changes cs s = case lookupMark s cs of
   Just (b,e) -> e ++ changes cs (drop (length b) s)
@@ -106,84 +122,100 @@ changes cs s = case lookupMark s cs of
     [] -> []
  where
    lookupMark _ [] = Nothing
-   lookupMark st ((b,e):ms) =
+   lookupMark st ((b,e):ms) = 
      if isPrefixOf b st then Just (b,e) else lookupMark st ms
 
--- change in the beginning of a morpheme only
+-- | Like changes, but only apply on prefix. 
 changePref ::  [(String,String)] -> String -> String
 changePref cs t = case cs of
-  (s,r) : rs | isPrefixOf s t -> r ++ drop (length s) t
+  (s,r) : rs | isPrefixOf s t -> r ++ drop (length s) t 
              | otherwise -> changePref rs t
   _ -> t
 
--- single exceptions
-
+-- | Single word form exception
 except :: Param a => Finite a -> [(a,String)] -> Finite a
-except f es p = maybe (f p) return $ lookup p es   -- possible in GF? Yes!
+except f es p = case (lookup p [(a,mkStr s) | (a,s) <- es]) of
+		 Nothing -> f p
+		 Just s  -> s
 
--- exception with multiple variants
+-- | Multiple word form exception
 excepts :: Param a => Finite a -> [(a,Str)] -> Finite a
 excepts f es p = maybe (f p) id $ lookup p es
 
--- missing forms
+-- | Merge two paradigm functions.
+combine :: Param a => Finite a -> Finite a -> Finite a
+combine f g = \a -> unionStr (f a) (g a)
+
+-- | Missing forms exception.
 missing :: Param a => Finite a -> [a] -> Finite a
 missing f as = excepts f [(a,nonExist) | a <- as]
 
--- the only forms
+-- | Only exception (highly degenerate).
 only :: Param a => Finite a -> [a] -> Finite a
 only f as = missing f [a | a <- values, notElem a as]
 
--- added variants
-variants :: Param a => Finite a -> [(a,String)] -> Finite a
-variants f es p = maybe (f p) (reverse . (: f p)) $ lookup p es
+-- | single word form variant exception
+variant :: Param a => Finite a -> [(a,String)] -> Finite a
+variant f es p = case lookup p [(a,s) | (a,s) <- es] of
+		  Nothing -> f p
+		  Just s -> strings (s:(unStr (f p)))
 
--- a form that is missing
-nonExist :: [a]
+-- | Multiple word form variants exception.
+variants :: Param a => Finite a -> [(a,Str)] -> Finite a
+variants f es p = case lookup p es of
+		   Nothing -> f p
+		   Just ss -> unionStr ss (f p)
+
+-- | Missing word form 
+nonExist :: Str
+-- nonExist = Str []
 nonExist = []
 
--- show existing forms only
+-- | Filter missing forms from inflection table. 
 existingForms :: Table a -> Table a
-existingForms = filter (not . null . snd)
+existingForms = filter (not . null . unStr . snd)
 
--- class operations for parameters
-
--- THE ESSENTIAL OPERATION: form a table from a function
-table :: (Param a) => (a -> Str) -> [(a,Str)]
+-- | Translate a finite function to a table. 
+table :: (Param a) => (a -> Str) -> Table a
 table f = [(v, f v) | v <- values]
 
--- to define instance Param for enumerated types
+-- | Used to define Param instances. 
+{- O.S.
+enum :: (Enum a, Bounded a) => [a]
+enum = [minBound .. maxBound]
+-}
 enum :: Enum a => [a]
 enum = [toEnum 0 ..]
 
--- corresponds to fromEnum
+-- | fromEnum for Param
 indexVal :: (Eq a, Param a) => a -> Int
 indexVal a = maybe undefined id $ lookup a $ zip values [0..]
 
--- apply a table to an argument
+-- | Inflection table lookup
 appTable :: (Param a) => Table a -> a -> Str
-appTable t a = maybe undefined id $ lookup a t
+appTable t a = maybe undefined id $ lookup a t 
 
--- get the dictionary form
+-- | Pick the first word form
 firstForm :: Param a => Table a -> Str
 firstForm t = appTable t value0
 
---- a short way to define a function; perhaps too sensitive to derived order
+--- | Create function from list of values (sensitive to order).
 giveValues :: (Eq a, Param a) => [b] -> (a -> b)
 giveValues bs a = bs !! indexVal a
 
--- the longest common prefix of a set of a list of strings
-
+-- | Longest common prefix for [String].
 longestPrefix :: [String] -> String
-longestPrefix ((c:w):ws) =
-  let (cs,rs) = unzip (map (splitAt 1) ws)
+longestPrefix ((c:w):ws) = 
+  let (cs,rs) = unzip (map (splitAt 1) ws) 
   in
   if all (==[c]) cs then c:longestPrefix (w:rs) else ""
 longestPrefix _ = ""
 
--- give all words that appear as values in a table
+-- | Collect all word forms into a Str.
+formsInTable :: Table a -> Str
+formsInTable tab = strings $ concat [unStr ss | (_,ss) <- tab]
 
-formsInTable :: Table a -> [String]
-formsInTable = concatMap snd
-
+-- | Apply function to all word forms in table.
 mapInTable :: (String -> String) -> Table a -> Table a
-mapInTable f t = [(a,map f ss) | (a,ss) <- t]
+mapInTable f t = [(a, mapStr f ss) | (a,ss) <- t]
+

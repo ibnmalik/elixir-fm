@@ -17,13 +17,12 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 -}
 
-module FM.Arabic.Commands where
+module FM.Latin.Commands where
 
-import FM.Arabic.Build
+import FM.Latin.Build
 import FM.Generic.Frontend
 
-commands = []
-{-
+commands = 
  [
   ("d1rosa", ["rosa"], app1 d1rosa),
   ("d1poeta", ["poeta"], app1 d1poeta),
@@ -37,4 +36,3 @@ commands = []
   ("v1amare", ["amare"], app1 v1amare),
   ("v2habere", ["habere"], app1 v2habere)
   ]
--}

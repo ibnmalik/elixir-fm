@@ -16,23 +16,17 @@
     along with this program; if not, write to the Free Software
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 -}
-module FM.Arabic.Build where
+module FM.Latin.Build where
 
-import Elixir.System
-
-import FM.Arabic.Rules
-import FM.Arabic.Attr
-import FM.Arabic.Types
+import FM.Latin.Rules
+import FM.Latin.Attr
+import FM.Latin.Types
 import FM.Generic.Dictionary
 import FM.Generic.General
-
--- type DictForm = String
--- type Stem     = String
 
 -----------------------------------------------
 -- Interface functions for Nouns.
 ----------------------------------------------
-{-
 
 d1rosa :: DictForm -> Entry
 d1rosa w = feminine (decl1 w) "n1"
@@ -61,9 +55,7 @@ d2puer w = masculine (decl2puer w) "n2"
 d2liber :: DictForm -> Entry
 d2liber w = masculine (decl2liber w) "n2"
 
--}
 -----------------------------------------------
-{-
 
 prep :: DictForm -> Entry
 prep s = entryP (makePrep s) "inv"
@@ -101,9 +93,7 @@ v1amare s = entryP (vAmare s) "v1"
 v2habere :: DictForm -> Entry
 v2habere s = entryP (vHabere s) "v2"
 
--}
 ------------------------------------------------
-{-
 
 noun :: Noun -> Gender -> Paradigm -> Entry
 noun n g p = entryIP n [prValue g] p
@@ -117,10 +107,8 @@ masculine n = noun n Masculine
 neuter :: Noun -> Paradigm -> Entry
 neuter n = noun n Neuter
 
--}
 -- Dictionary instances
 
-{-
 instance Dict NounForm      where category _ = "Noun"
 instance Dict VerbForm      where category _ = "Verb"
 				  dictword f = 
@@ -132,24 +120,3 @@ instance Dict PrepForm      where category _ = "Preposition"
 instance Dict ParticleForm  
     where category    _ = "Particle"
 	  defaultAttr _ = atS
--}
-
--- Version 1.0
-
-instance Dict ParaNoun where
-
-    category = const "Noun"
-    dictword f = concat $ take 1 $ unStr $ f value0
-
-
-instance Dict ParaVerb where
-
-    category = const "Verb"
-
-{-
-instance Dict ParaAdverb    where category _ = "Adverb"
-instance Dict ParaAdjective where category _ = "Adjective"
-instance Dict ParaPrep      where category _ = "Preposition"
-instance Dict ParaParticle  where category _ = "Particle"
-                                  defaultAttr _ = atS
--}
