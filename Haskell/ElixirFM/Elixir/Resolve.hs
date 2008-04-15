@@ -20,13 +20,13 @@ module Elixir.Resolve where
 
 -- import FM.Arabic.Build
 import FM.Arabic.Composite
-import FM.Generic.Dictionary
+
+import FM.Generic.Dictionary hiding (Entry)
+import FM.Generic.Dictionary as FM (Entry)
+
 import FM.Generic.CommonMain
 import FM.Generic.General
 import FM.Generic.GeneralIO
-
--- import FM.Generic.Trie
--- import FM.Generic.Map
 
 import Data.Map (Map)
 import qualified Data.Map as Map
@@ -46,11 +46,6 @@ import Encode
 import Encode.Arabic
 
 import Data.List
-
-
--- import FM.Generic.CommonMain (analyze) as FM
-
--- import FM.Generic.CommonMain
 
 
 -- let y = "'a_hran.timu" in [ root x  | x <- lexicon, isSubsumed (root x) y, let s = case x of NestT r l -> [ inflect (RE r z) "----------" | z <- l ] ;NestQ r l -> [ inflect (RE r z) "----------" | z <- l ];NestL r l -> [ inflect (RE r z) "----------"| z <- l ], h <- s, i <- h, j<- i, j == y]
@@ -169,19 +164,13 @@ omitting _ []    [] = True
 
 -- resolveTrie l y = FM.analyze (analysis t (composition l))
 
+{-
 resolveTrie l y  = analyze (analysis (trieDict (arabicDict')) arabicDecompose) [y]
 
     where arabicDict' = (dictionary . -- (++) extradict .
                                 concat . map lex2dict)
 
                     [ x | (r, [x]) <- l, isSubsumed r y ]
-
-{-
-                              let s = case x of
-                                        NestT r l -> [ inflect (RE r z) "----------" | z <- l ]
-                                        NestQ r l -> [ inflect (RE r z) "----------" | z <- l ]
-                                        NestL r l -> [ inflect (RE r z) "----------" | z <- l ],
-                              h <- s, i <- h, j <- i, j == y]
 -}
 
 
@@ -270,32 +259,6 @@ searchTrie t@(Trie (m, r)) i cs = concat
                                                 ["\'", "w", "y"] = searchTrie k [c] cs
                                         | otherwise              = searchTrie t []  (short cs)]
 
-{-
-        generalize tcompile ...
-
-        [ r | (k, r) <- flatten tab, k == c || k `elem` ["\'", "w", "y"] ]
-
-        --- etc, use isPrefixOf on c:cs, then remove length of the prefix, as below ...
--}
-
-{-
-tcompile' :: [([b], [a])] -> Trie' b a
-tcompile' = foldl (flip insert') emptyTrie
-
-insert' :: ([b],[a]) -> Trie' b a -> Trie' b a
-insert' ([],ys)     t = addVal t ys
-insert' ((c:cs),ys) t =
-  case mTable t ! c of
-   Just t' -> trie' ((c, insert' (cs,ys) t') |-> mTable t) (val t)
-   Nothing -> trie' ((c, insert' (cs,ys) emptyTrie) |-> mTable t) (val t)
--}
-
-{-
-trieLookup t [] = val t
-trieLookup trie (c:cs) = case mTable trie ! c of
-  Just trie -> trieLookup trie cs
-  Nothing   -> []
--}
 
 isSubsumed :: String -> String -> Bool
 
@@ -333,12 +296,11 @@ short (d:zs) = zs
 short []     = []
 
 
-
 -- recode = map (encode UTF . decode TeX . (++) "\\nodiacritics ") . concat
 
 recode = concat
 
-
+{-
 arabicDict :: Dictionary
 
 arabicDict = (dictionary . (++) extradict .
@@ -346,6 +308,7 @@ arabicDict = (dictionary . (++) extradict .
                            map lex2dict)  $ take 5 -- 0
                                                                     $ drop 1000
                                                                     lexicon
+-}
 
 extradict = [ ("wa-", "Conj", ["Ups"], [ ("\nC---------", (1 :: Attr, ["wa-"])) ]) ]
 
@@ -353,15 +316,15 @@ lex2dict (WrapT (Nest x ys)) = [ case entity y of
 
     Noun _ _ _      -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaNoun -> [String]),
                         "Noun", [],
-                        [ (show v, (0, recode ((map (map (uncurry merge) . snd) . inflect (RE x y)) v))) | v :: ParaNoun <- values ])
+                        [ (show v, (0, recode ((map (map (uncurry merge) . snd) . inflect (RE x y)) v))) | v <- values :: [ParaNoun] ])
 
     Adj _ _         -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaNoun -> [String]),
                         "Adj", [],
-                        [ (show v, (0, recode ((map (map (uncurry merge) . snd) . inflect (RE x y)) v))) | v :: ParaAdj <- values ])
+                        [ (show v, (0, recode ((map (map (uncurry merge) . snd) . inflect (RE x y)) v))) | v <- values :: [ParaAdj] ])
 
     Verb _ _ _ _ _ _ -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaVerb -> [String]),
                         "Verb", [],
-                        [ (show v, (0, recode ((map (map (uncurry merge) . snd) . inflect (RE x y)) v))) | v :: ParaVerb <- values ])
+                        [ (show v, (0, recode ((map (map (uncurry merge) . snd) . inflect (RE x y)) v))) | v <- values :: [ParaVerb] ])
 
     _               -> ("Dictword",
                         "Category", ["Inherent"], [ ("Untyped", (0, ["String"])) ]) | y <- ys ]
@@ -380,6 +343,6 @@ lex2dict _            = [ ("Others", "Category", ["Other"], [ ("Untyped", (0, ["
             lex2dict _            = [ ("","Category",["Inherent"],[("Untyped",(0,["String"]))]) ]
 -}
 
-instance Show Dictionary where
+instance Show [FM.Entry] => Show Dictionary where
 
-    showsPrec _ (Dict x) = shows x
+    showsPrec _ = shows . unDict

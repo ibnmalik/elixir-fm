@@ -37,7 +37,19 @@ module Elixir where
 
 
 import Elixir.Data.Lexicons
+
 import Elixir.Lexicon
+import Elixir.Template
+import Elixir.Pretty
+
+import Elixir.System
+
+import Elixir.Derive
+import Elixir.Inflect
+import Elixir.Resolve
+
+import Encode
+import Encode.Arabic
 
 import Version
 

@@ -409,8 +409,8 @@ instance Param Number   where values = enum
 
 
 data ParaNoun   = NounS              Number Case State
-             -- | NounP Voice Gender Number Case State
-             -- | NounA       Gender Number Case State
+            --- | NounP Voice Gender Number Case State
+            --- | NounA       Gender Number Case State
     deriving Eq
 
 

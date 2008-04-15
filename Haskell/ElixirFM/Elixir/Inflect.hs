@@ -72,6 +72,11 @@ prettyInflect x y = (putStr . unlines . map show) (inflect x y)
 -}
 
 
+inflectDerive :: (Morphing a a, Forming a, Rules a, Derive b c, Inflect b c) => b a -> c -> [[(String, [(Root, Morphs a)])]]
+
+inflectDerive x y = [ inflect z y | z <- derive x y ]
+
+
 -- inflectLookup (lookupEntry "ra'y" lexicon) "--------4I"
 -- inflectLookup (lookupEntry "^gadId" lexicon) "--------4I"
 
