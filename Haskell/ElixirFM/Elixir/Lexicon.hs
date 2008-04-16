@@ -51,7 +51,7 @@ module Elixir.Lexicon (
 
         -- (>:),
 
-        (|>), (<|), (|>||<|),
+        (|>), (<|), (|>||<|), (>-<), (<->),
 
         (>|), (|<), (>>|), (|<<),
 
@@ -145,6 +145,16 @@ ents :: Nest a -> [Entry a]
 ents (Nest _ e) = e
 
 
+infix 2 >-<, <->
+
+(>-<) :: Root -> Entry a -> Lexeme a
+
+(>-<) x y = RE x y
+
+
+(<->) = (>-<)
+
+
 newtype Id a = Id a         deriving Show
 
 -- type Id a = a
@@ -156,6 +166,13 @@ data Wrap a = WrapS (a String)
             | WrapL (a PatternL)
 
     -- deriving Show
+
+instance (Show (a String), Show (a PatternT), Show (a PatternQ), Show (a PatternL)) => Show (Wrap a) where
+
+    showsPrec _ (WrapS x) = ("WrapS (" ++) . shows x . (")" ++)
+    showsPrec _ (WrapT x) = ("WrapT (" ++) . shows x . (")" ++) 
+    showsPrec _ (WrapQ x) = ("WrapQ (" ++) . shows x . (")" ++)
+    showsPrec _ (WrapL x) = ("WrapL (" ++) . shows x . (")" ++)
 
 
 class Wrapping a where
