@@ -35,12 +35,12 @@ class Derive m p where
 instance Derive Lexeme String where
 
     derive x@(RE r e) y | "V" `isPrefixOf` y = m 'V' (verb . unmorph)
-			| "A" `isPrefixOf` y = case take 1 (drop 3 y) of
-                       	      "A"       ->     m 'A' adj
-			      "P"       ->     m 'P' adj
-  	 	      	      _         ->     m 'A' adj ++ m 'P' adj
-			| "N" `isPrefixOf` y = m 'N' noun
-			| otherwise             = []
+                        | "A" `isPrefixOf` y = case take 1 (drop 3 y) of
+                              "A"       ->     m 'A' adj
+                              "P"       ->     m 'P' adj
+                              _         ->     m 'A' adj ++ m 'P' adj
+                        | "N" `isPrefixOf` y = m 'N' noun
+                        | otherwise          = []
 
         where l c = concat [ lookNoun (morphs e) c (nounStems f r) | f <- [I ..] ] 
               m c f = map (\ m -> RE r (m `f` [])) (l c)

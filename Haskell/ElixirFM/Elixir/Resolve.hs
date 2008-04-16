@@ -125,7 +125,6 @@ resolveList l uc eq y = [ [s] | (r, [x]) <- l, isSubsumed (uc r) y,
                              i <- h, (uc . uncurry merge) i `eq` y ]
 
 
-
 resolveMore q y = resolveListMore indexList id q y  -- (encode UCS . decode TeX)
                                                     --    q (map (encode UCS) y)
 
