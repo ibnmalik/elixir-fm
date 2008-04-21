@@ -18,6 +18,7 @@
 module Elixir.Resolve where
 
 
+{-
 -- import FM.Arabic.Build
 import FM.Arabic.Composite
 
@@ -27,6 +28,8 @@ import FM.Generic.Dictionary as FM (Entry)
 import FM.Generic.CommonMain
 import FM.Generic.General
 import FM.Generic.GeneralIO
+
+-}
 
 import Data.Map (Map)
 import qualified Data.Map as Map
@@ -194,6 +197,7 @@ splits [x] = [[[x]]]
 splits (c:s) = concat [ [((c:x):xs), [c]:y] | y@(x:xs) <- splits s ]
                    -- [ [[c]:y, ((c:x):xs)] | y@(x:xs) <- splits s ]
 
+{--
 
 newtype Trie a b = Trie (Map a (Trie a b), [b]) deriving Show
 
@@ -225,6 +229,8 @@ indexTrie = (foldl (flip (insertTrieWith (++))) emptyTrie)
                                                                WrapL n -> root n
                                                                WrapS n -> root n ]
 
+--}
+
 indexList = [ (q, [x]) | x <- lexicon,       let q = case x of WrapQ n -> root n
                                                                WrapT n -> root n
                                                                WrapL n -> root n
@@ -248,6 +254,9 @@ lookupList x = lookup x indexList
 --
 -- ehm ... map ( nub . map root . concat . searchTrie indexTrie  . intersperse ' ') testtext
 
+
+{--
+
 searchTrie :: Trie String a -> [String] -> String -> [[a]]
 
 searchTrie (Trie (m, r))   _ [] = [r]
@@ -257,6 +266,8 @@ searchTrie t@(Trie (m, r)) i cs = concat
                                         | c `elem` i ++
                                                 ["\'", "w", "y"] = searchTrie k [c] cs
                                         | otherwise              = searchTrie t []  (short cs)]
+
+--}
 
 
 isSubsumed :: String -> String -> Bool
@@ -309,6 +320,8 @@ arabicDict = (dictionary . (++) extradict .
                                                                     lexicon
 -}
 
+{--
+
 extradict = [ ("wa-", "Conj", ["Ups"], [ ("\nC---------", (1 :: Attr, ["wa-"])) ]) ]
 
 lex2dict (WrapT (Nest x ys)) = [ case entity y of
@@ -345,3 +358,5 @@ lex2dict _            = [ ("Others", "Category", ["Other"], [ ("Untyped", (0, ["
 instance Show [FM.Entry] => Show Dictionary where
 
     showsPrec _ = shows . unDict
+
+--}
