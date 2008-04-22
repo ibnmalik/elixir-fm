@@ -30,6 +30,8 @@ import Elixir.Pretty
 
 import Text.PrettyPrint
 
+import Data.List (intersperse)
+
 import Version
 
 version = revised "$Revision$"
@@ -37,43 +39,28 @@ version = revised "$Revision$"
 
 instance Pretty Lexicon where
 
-    pretty xs = text "package Lexicons::Lexicon;" $$
-                text "" $$
-                text "$lexicon = " <>
-                text "[" $$ nest 4 (prettyList xs $$ text "];") $$
-                text "" $$
-                text "1;" $$ text ""
+    pretty xs = text "<?xml encoding=\"utf-8\"?>" $$ 
+    	        "ElixirFM" </>
+                element "Lexicon" [("a", "something"), ("b", "else\"\"")] (vcat (map pretty xs))
+
+
+infixr 6 </>
+
+x </> c = text ("<" ++ x ++ ">") $$
+          c
+          <> text ("</" ++ x ++ ">")
+
+
+element x y c = text ("<" ++ x) <+>
+          hsep (map (\ (a, v) -> text a <> equals <> text ("\"" ++ escaqe v ++ "\"")) y) <>
+	  text ">" $$
+          c
+          <> text ("</" ++ x ++ ">")
 
 
 instance Pretty a => Pretty [a] where
 
-    pretty [] = text "[]"
-    pretty xs = text "[" <+> prettyList xs <+> text "]"
-
-
-prettyList xs = vcat ((map ((<> text ",") . pretty) . init) xs
-                        ++ [(pretty . last) xs])
-
-{-
-                vcat (zipWith (<>) ((map pretty . init) xs)
-                                    (repeat (text ","))
-                                    ++ [(pretty . last) xs])
-
-                vcat ([(pretty . head) xs] ++
-                     (map ((text "," $$) . pretty) . tail) xs)
--}
-
-
-instance Pretty [(String, Doc)] where
-
-    pretty [] = text "{}"
-    pretty xs = text "{" <+> prettyList xs <+> text "}"
-
-
-instance Pretty (String, Doc) where
-
-    pretty (x, y) = char '\'' <> text x <> char '\''
-                    <+> text "=>" <+> y
+    pretty xs = nest 2 (vcat (map pretty xs))
 
 
 instance Pretty (Wrap Nest) where
@@ -82,16 +69,8 @@ instance Pretty (Wrap Nest) where
     pretty (WrapT (Nest r l)) = prettyNest' r l "NestT"
     pretty (WrapQ (Nest r l)) = prettyNest' r l "NestQ"
     pretty (WrapS (Nest r l)) = prettyNest' r l "NestS"
-{-
-    pretty (NestL r l) = prettyNest' r l "NestL"
-    pretty (NestT r l) = prettyNest' r l "NestT"
-    pretty (NestQ r l) = prettyNest' r l "NestQ"
-    pretty (NestS r l) = prettyNest' r l "NestS"
--}
 
-prettyNest' r l t = pretty [ ("root", text (show r)),
-                             ("type", text (show t)),
-                             ("list", pretty l) ]
+prettyNest' r l t = element t [("root", r)] (pretty l)
 
 
 escape :: String -> String
@@ -104,19 +83,27 @@ escape = concatMap fixChar
        -- fixChar c | ord c < 0xff = [c]
        -- fixChar c = "&#" ++ show (ord c) ++ ";"
 
+escaqe :: String -> String
+escaqe = concatMap fixChar
+    where fixChar '<' = "&lt;"
+          fixChar '>' = "&gt;"
+          fixChar '&' = "&amp;"
+          fixChar '"' = "&quot;"
+          fixChar c = [c]
+
 -- original is Text.XHtml.Internals.stringToHtmlString
 
 
 instance Show a => Pretty (Entry a) where
 
-    pretty (Entry e m l) = pretty [ ("entity", text (show (show e))),
-                                    ("morphs", text (escape (show m))),
-                                    ("reflex", pretty l ) ]
+    pretty (Entry e m l) =  vcat [ "entity" </> pretty (show e),
+                                   "morphs" </> pretty (show m),
+                                   "reflex" </> fcat (intersperse (text ", ") (map (pretty . show) l)) ]
 
 
 instance Pretty String where
 
-    pretty = text . show
+    pretty = text . escape
 
 
 -- instance (forall b . Pretty (a b)) => Pretty (Wrap a) where
