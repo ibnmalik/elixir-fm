@@ -41,8 +41,6 @@ import Data.Char
 import Data.List
 import Data.Version (showVersion)
 
-import Text.PrettyPrint
-
 import Version
 
 version = revised "$Revision$"

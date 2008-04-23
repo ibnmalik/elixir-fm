@@ -12,7 +12,7 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Elixir" "Elixir.Lexicon" "Text.PrettyPrint"
+-- "Elixir" "Elixir.Lexicon" "Elixir.Pretty"
 
 
 module Elixir.Lexicon.Pretty.XML (
@@ -28,10 +28,6 @@ import Elixir.Lexicon
 
 import Elixir.Pretty
 
-import Text.PrettyPrint
-
-import Data.List (intersperse)
-
 import Version
 
 version = revised "$Revision$"
@@ -39,30 +35,17 @@ version = revised "$Revision$"
 
 instance Pretty Lexicon where
 
-    pretty xs = text "<?xml encoding=\"utf-8\"?>" $$ 
-    	        "ElixirFM" </>
-                element "Lexicon" [("a", "something"), ("b", "else\"\"")] (vcat (map pretty xs))
+    pretty xs = text "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" <$$> 
+    	        (element "ElixirFM" [] . element "Lexicon" [("a", "something"), ("b", "else\"\"")]) (cat (map pretty xs))
 
 
-infixr 6 </>
+element x y c = text ("<" ++ x) <> attrs <> text ">"
+                <//> c <//>
+                text ("</" ++ x ++ ">")
 
-x </> c = text ("<" ++ x ++ ">") $$
-          c
-          <> text ("</" ++ x ++ ">")
+    where attrs = foldl (</>) empty [ text a <> equals <> dquotes (text (escaqe v)) | (a, v) <- y ]
 
-
-element x y c = text ("<" ++ x) <+>
-          hsep (map (\ (a, v) -> text a <> equals <> text ("\"" ++ escaqe v ++ "\"")) y) <>
-	  text ">" $$
-          c
-          <> text ("</" ++ x ++ ">")
-
-
-instance Pretty a => Pretty [a] where
-
-    pretty xs = nest 2 (vcat (map pretty xs))
-
-
+    
 instance Pretty (Wrap Nest) where
 
     pretty (WrapL (Nest r l)) = prettyNest' r l "NestL"
@@ -96,9 +79,9 @@ escaqe = concatMap fixChar
 
 instance Show a => Pretty (Entry a) where
 
-    pretty (Entry e m l) =  vcat [ "entity" </> pretty (show e),
-                                   "morphs" </> pretty (show m),
-                                   "reflex" </> fcat (intersperse (text ", ") (map (pretty . show) l)) ]
+    pretty (Entry e m l) =  vcat [ element "entity" [] $ (pretty . show) e,
+                                   element "morphs" [] $ (pretty . show) m,
+                                   element "reflex" [] $ (sep . punctuate comma . map (pretty . show)) l ]
 
 
 instance Pretty String where
@@ -120,4 +103,4 @@ instance (Pretty (Lexeme PatternT), Pretty (Lexeme PatternQ),
 
 instance Pretty (Entry a) => Pretty (Lexeme a) where
 
-    pretty (RE r e) = char '"' <> text r <> char '"' <+> pretty e
+    pretty (RE r e) = (squotes . text) r <+> pretty e

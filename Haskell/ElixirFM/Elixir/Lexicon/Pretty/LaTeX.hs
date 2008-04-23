@@ -12,7 +12,7 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Elixir" "Elixir.Lexicon" "Text.PrettyPrint"
+-- "Elixir" "Elixir.Lexicon" "Elixir.Pretty"
 
 
 module Elixir.Lexicon.Pretty.LaTeX (
@@ -28,8 +28,6 @@ import Elixir.Lexicon
 
 import Elixir.Pretty
 
-import Text.PrettyPrint
-
 import Version
 
 version = revised "$Revision$"
@@ -37,43 +35,23 @@ version = revised "$Revision$"
 
 instance Pretty Lexicon where
 
-    pretty xs = text "package Lexicons::Lexicon;" $$
-                text "" $$
-                text "$lexicon = " <>
-                text "[" $$ nest 4 (prettyList xs $$ text "];") $$
-                text "" $$
-                text "1;" $$ text ""
-
-
-instance Pretty a => Pretty [a] where
-
-    pretty [] = text "[]"
-    pretty xs = text "[" <+> prettyList xs <+> text "]"
-
-
-prettyList xs = vcat ((map ((<> text ",") . pretty) . init) xs
-                        ++ [(pretty . last) xs])
-
-{-
-                vcat (zipWith (<>) ((map pretty . init) xs)
-                                    (repeat (text ","))
-                                    ++ [(pretty . last) xs])
-
-                vcat ([(pretty . head) xs] ++
-                     (map ((text "," $$) . pretty) . tail) xs)
--}
+    pretty xs = text "package ElixirFM::Data::Lexicon;" <$$>
+                empty <$$>
+                text "$lexicon" </> equals </>
+                (nest 4 . prettyList) xs <> semi <$$>
+                empty <$$>
+                text "1" <> semi <$$> empty
 
 
 instance Pretty [(String, Doc)] where
 
     pretty [] = text "{}"
-    pretty xs = text "{" <+> prettyList xs <+> text "}"
+    pretty xs = text "{" </> (align . sep . punctuate comma . map pretty) xs </> text "}"
 
 
 instance Pretty (String, Doc) where
 
-    pretty (x, y) = char '\'' <> text x <> char '\''
-                    <+> text "=>" <+> y
+    pretty (x, y) = (squotes . text) x </> text "=>" </> y
 
 
 instance Pretty (Wrap Nest) where
@@ -83,19 +61,36 @@ instance Pretty (Wrap Nest) where
     pretty (WrapQ (Nest r l)) = prettyNest' r l "NestQ"
     pretty (WrapS (Nest r l)) = prettyNest' r l "NestS"
 
-
-prettyNest' r l t = pretty [ ("root", text (show r)),
-                             ("type", text (show t)),
+    
+prettyNest' r l t = pretty [ ("root", (text . show) r),
+                             ("type", (text . show) t),
                              ("list", pretty l) ]
 
 
 instance Show a => Pretty (Entry a) where
 
-    pretty (Entry e m l) = pretty [ ("entity", text (show (show e))),
-                                    ("morphs", text (show (show m))),
-                                    ("reflex", pretty l ) ]
+    pretty (Entry e m l) = pretty [ ("entity", (text . show . show) e),
+                                    ("morphs", (text . show . show) m),
+                                    ("reflex", pretty l) ]
 
 
 instance Pretty String where
 
     pretty = text . show
+
+
+-- instance (forall b . Pretty (a b)) => Pretty (Wrap a) where
+
+instance (Pretty (Lexeme PatternT), Pretty (Lexeme PatternQ),
+          Pretty (Lexeme String),   Pretty (Lexeme PatternL)) =>
+          Pretty (Wrap Lexeme) where
+
+    pretty (WrapT y) = text "WrapT" <+> pretty y
+    pretty (WrapQ y) = text "WrapQ" <+> pretty y
+    pretty (WrapS y) = text "WrapS" <+> pretty y
+    pretty (WrapL y) = text "WrapL" <+> pretty y
+
+
+instance Pretty (Entry a) => Pretty (Lexeme a) where
+
+    pretty (RE r e) = (dquotes . text) r <+> pretty e

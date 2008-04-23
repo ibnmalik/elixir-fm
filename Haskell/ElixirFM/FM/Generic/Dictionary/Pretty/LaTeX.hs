@@ -15,8 +15,6 @@ import Data.List (intersperse)
 
 import Elixir.Pretty
 
-import Text.PrettyPrint
-
 
 prettyLaTeX :: Dictionary -> Doc
 

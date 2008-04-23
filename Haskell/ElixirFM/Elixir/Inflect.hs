@@ -45,8 +45,6 @@ import Data.List (nub, isPrefixOf)
 
 import Elixir.Pretty
 
-import Text.PrettyPrint
-
 
 instance Show a => Pretty [(String, [(Root, Morphs a)])] where
 

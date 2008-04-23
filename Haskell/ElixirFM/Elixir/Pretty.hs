@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Pretty
--- Copyright   :  Otakar Smrz 2005-2006
+-- Copyright   :  Otakar Smrz 2005-2008
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -17,9 +17,9 @@
 
 module Elixir.Pretty (
 
-        -- * Classes
+        -- * Modules
 
-        Pretty (..),
+        module Text.PrettyPrint.Leijen,
 
         -- * Functions
 
@@ -28,16 +28,11 @@ module Elixir.Pretty (
     ) where
 
 
-import Text.PrettyPrint
+import Text.PrettyPrint.Leijen
 
 import Version
 
 version = revised "$Revision$"
-
-
-class Pretty a where
-
-    pretty :: a -> Doc
 
 
 printPretty :: Pretty a => a -> IO ()

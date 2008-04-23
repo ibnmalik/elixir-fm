@@ -39,8 +39,6 @@ import Elixir.Lexicon
 import Elixir.Template
 import Elixir.Pretty
 
-import Text.PrettyPrint
-
 import Encode
 import Encode.Arabic
 

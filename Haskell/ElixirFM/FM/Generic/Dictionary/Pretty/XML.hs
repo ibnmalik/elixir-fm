@@ -11,7 +11,7 @@ import FM.Generic.Dictionary
 
 import FM.Generic.General
 
-import Text.PrettyPrint
+import Elixir.Pretty
 
 
 prettyXML :: Pretty a => a -> Doc

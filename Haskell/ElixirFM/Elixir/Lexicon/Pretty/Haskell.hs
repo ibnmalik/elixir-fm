@@ -12,7 +12,7 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Elixir" "Elixir.Lexicon" "Text.PrettyPrint"
+-- "Elixir" "Elixir.Lexicon" "Elixir.Pretty"
 --
 -- "Language.Haskell.Parser" "Language.Haskell.Pretty"
 
@@ -36,11 +36,11 @@ module Elixir.Lexicon.Pretty.Haskell (
 
 import Elixir.Lexicon
 
+import Elixir.Pretty
+
 import Language.Haskell.Parser
 
 import Language.Haskell.Pretty
-
-import Text.PrettyPrint
 
 import Version
 

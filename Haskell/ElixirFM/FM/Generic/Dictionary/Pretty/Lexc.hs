@@ -7,15 +7,13 @@ module FM.Generic.Dictionary.Pretty.Lexc (
     ) where
 
 
-import FM.Generic.General
-
 import FM.Generic.Dictionary
 
-import Data.List (intersperse)
+import FM.Generic.General
 
 import Elixir.Pretty
 
-import Text.PrettyPrint
+import Data.List (intersperse)
 
 
 prettyLexc :: Dictionary -> Doc

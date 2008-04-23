@@ -41,9 +41,7 @@ import Elixir.Data.Lexicons
 
 import Elixir.Lexicon
 import Elixir.Template
-import Elixir.Pretty
-
-import Text.PrettyPrint
+import Elixir.Pretty hiding (group)
 
 import Encode
 import Encode.Arabic
