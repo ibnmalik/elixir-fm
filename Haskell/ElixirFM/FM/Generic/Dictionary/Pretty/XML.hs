@@ -11,7 +11,7 @@ import FM.Generic.Dictionary
 
 import FM.Generic.General
 
-import Elixir.Pretty
+import Elixir.Pretty hiding (enclose)
 
 
 prettyXML :: Pretty a => a -> Doc
@@ -24,14 +24,9 @@ prXML :: Pretty a => a -> String
 prXML = show . prettyXML
 
 
-class Pretty a where
-
-    pretty :: a -> Doc
-
-
 instance Pretty Dictionary where
 
-    pretty x = text "<?xml version=\"1.0\"?>" $$
+    pretty x = text "<?xml version=\"1.0\" encoding=\"utf-8\"?>" <$$>
                enclose "lexicon" [] (vcat (map prettyItems (classifyDict x)))
 
 
@@ -40,8 +35,8 @@ prettyItems (c, es) = enclose "class" [("category", c)] $
 
 
 prettyEntry (s, _, is, tb) = enclose "lexicon_entry" [] $
-                                 encvoid "dictionary_form" [("value", s)] $$
-                                 prettyInh is $$
+                                 encvoid "dictionary_form" [("value", s)] <$$>
+                                 prettyInh is <$$>
                                  prettyTbl tb
 
 
@@ -57,9 +52,9 @@ prettyTbl tb = enclose "inflection_table" [] $
 
 enclose :: String -> [(String, String)] -> Doc -> Doc
 
-enclose t as c = text ("<" ++ element t as ++ ">") $$
+enclose t as c = text ("<" ++ element t as ++ ">") <$$>
                  nest 4 c
-                 $$ text ("</" ++ t ++ ">")
+                 <$$> text ("</" ++ t ++ ">")
 
 
 encvoid :: String -> [(String, String)] -> Doc

@@ -28,6 +28,9 @@ import Elixir.Lexicon
 
 import Elixir.Pretty
 
+import Encode
+import Encode.Arabic
+
 import Version
 
 version = revised "$Revision$"
@@ -53,7 +56,9 @@ instance Pretty (Wrap Nest) where
     pretty (WrapQ (Nest r l)) = prettyNest' r l "NestQ"
     pretty (WrapS (Nest r l)) = prettyNest' r l "NestS"
 
-prettyNest' r l t = element t [("root", r)] (pretty l)
+prettyNest' r l t = element t [("root", r)] (element "root" [] (element "tex" [] (text r) <$$>
+                                                                element "ucs" [] ((text . encode UCS . decode TeX) r))
+                                             <//> pretty l)
 
 
 escape :: String -> String
@@ -79,9 +84,12 @@ escaqe = concatMap fixChar
 
 instance Show a => Pretty (Entry a) where
 
-    pretty (Entry e m l) =  vcat [ element "entity" [] $ (pretty . show) e,
+    pretty (Entry e m l) = element "entry" [] 
+                           (vcat [ element "entity" [] $ (pretty . show) e,
                                    element "morphs" [] $ (pretty . show) m,
-                                   element "reflex" [] $ (sep . punctuate comma . map (pretty . show)) l ]
+                                   element "reflex" [] $ (sep . punctuate comma . map (pretty . show)) l ])
+
+    prettyList = cat . map pretty
 
 
 instance Pretty String where

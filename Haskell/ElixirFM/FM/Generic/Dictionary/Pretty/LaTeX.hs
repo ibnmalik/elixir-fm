@@ -13,7 +13,7 @@ import FM.Generic.General
 
 import Data.List (intersperse)
 
-import Elixir.Pretty
+import Elixir.Pretty hiding (enclose)
 
 
 prettyLaTeX :: Dictionary -> Doc
@@ -37,7 +37,7 @@ instance Pretty Dictionary where
     pretty = prettyLaTeX
 -}
 
-prettyEntry (i, c, is, tb) = text (unwords ((i ++ ",") : c : is)) $$
+prettyEntry (i, c, is, tb) = text (unwords ((i ++ ",") : c : is)) <$$>
                              prettyTbl tb
 
 
@@ -55,7 +55,7 @@ prettyTbl tb = enclose ["\\begin{center}",
                         ""]
 
 
-enclose hs c ts = vcat (map text hs) $$ c $$ vcat (map text ts)
+enclose hs c ts = vcat (map text hs) <$$> c <$$> cat (map text ts)
 
 
 prTag = id
