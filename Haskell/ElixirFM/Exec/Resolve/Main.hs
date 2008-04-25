@@ -5,17 +5,18 @@
 -- |
 --
 -- Module      :  Exec.Resolve.Main
--- Copyright   :  Otakar Smrz 2005-2007
+-- Copyright   :  Otakar Smrz 2005-2008
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "FM"
+-- "Elixir" "FM"
 
 
 module Main where
+
 
 import Elixir.Data.Lexicons
 
@@ -30,7 +31,6 @@ import FM.Arabic.Dictionary
 
 import FM.Generic.General
 
-import Encode
 import Encode.Arabic
 
 import System.Environment

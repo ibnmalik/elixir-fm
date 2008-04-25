@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Exec.ElixirFM.Main
--- Copyright   :  Otakar Smrz 2005-2007
+-- Copyright   :  Otakar Smrz 2005-2008
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -31,7 +31,6 @@ import FM.Arabic.Dictionary
 
 import FM.Generic.General
 
-import Encode
 import Encode.Arabic
 
 import Data.List

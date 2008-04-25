@@ -12,19 +12,21 @@ category:           Various
 build-depends:      Encode, Cabal, base, containers, wl-pprint
 -- hs-source-dirs:     ., ../Encode
 synopsis:           Functional Arabic Morphology
-description:        The "Elixir" and "FM" libraries implement /Functional Arabic
-                    Morphology/. They have been designed by Otakar Smr&#382; and
-                    are part of his PhD thesis /Functional Arabic Morphology.
-                    Formal System and Implementation/, Charles University in
-                    Prague, July 2007,
+description:        The "Elixir" and "FM" libraries of "ElixirFM" implement
+                    /Functional Arabic Morphology/. They have been designed by
+                    Otakar Smr&#382; and are part of his PhD thesis
+                    /Functional Arabic Morphology. Formal System and Implementation/,
+                    Charles University in Prague, July 2007,
+                    <http://ufal.mff.cuni.cz/~smrz/elixir-thesis.pdf>. The complete
+                    project is hosted on <http://sourceforge.net/projects/elixir-fm/>
+                    and the libraries are documented on
                     <http://ufal.mff.cuni.cz/~smrz/ElixirFM/>.
                     .
-                    /ElixirFM/ is an extension to the /Functional Morphology/
-                    library developed by Markus Forsberg in his licenciate
-                    thesis /Applications of Functional Programming in Processing
-                    Formal and Natural Languages/, G&#246;teborg University and
-                    Chalmers University of Technology, December 2004,
-                    <http://www.cs.chalmers.se/~markus/FM/>.
+                    /ElixirFM/ is inspired by and extends the /Functional Morphology/
+                    library developed by Markus Forsberg in his licenciate thesis
+                    /Applications of Functional Programming in Processing Formal and Natural Languages/,
+                    G&#246;teborg University and Chalmers University of Technology,
+                    December 2004, <http://www.cs.chalmers.se/~markus/FM/>.
                     .
                     The "Version" library is just a simple support for
                     working with the CVS\/SVN revision keyword.

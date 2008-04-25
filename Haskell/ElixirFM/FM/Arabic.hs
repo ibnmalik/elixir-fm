@@ -26,16 +26,14 @@ import Elixir.Lexicon
 import Elixir.Template
 import Elixir.Data.Patterns
 
-import Encode
-
 import Encode.Arabic
 
-import Encode.Unicode
-
 import FM.Generic.CommonMain
+
 --import FM.Arabic.Commands
 --import FM.Arabic.Composite
-import FM.Arabic.Dictionary
+
+import FM.Arabic.Dict
 import FM.Generic.Frontend
 
 

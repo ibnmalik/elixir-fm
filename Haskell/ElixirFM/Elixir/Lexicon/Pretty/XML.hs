@@ -28,7 +28,6 @@ import Elixir.Lexicon
 
 import Elixir.Pretty
 
-import Encode
 import Encode.Arabic
 
 import Version

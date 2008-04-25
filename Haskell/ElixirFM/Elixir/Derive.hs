@@ -73,7 +73,7 @@ findVerb (   _   ,    _   ) True (Just (_, _, _, d), _, _, _, _) = d
 findVerb (   _   ,    _   ) _    ( _               , _, _, _, d) = d
 
 
--- lookNoun :: (Morphing a a, Eq a) => a -> Char -> [NounStems a] -> [Morphs a]
+lookNoun :: (Morphing a a, Eq (Morphs a)) => Morphs a -> Char -> [NounStems a] -> [Morphs a]
 
 lookNoun x y is = [ findNoun y i | i@(a, b, c, d) <- is, x == morph a ||
                                                          x == morph b ||
@@ -88,7 +88,7 @@ lookNoun x y is = [ findNoun y i | i@(_, _, _, d) <- is, x == d ]
 -}
 
 
--- findNoun :: Morphing a a => Char -> NounStems a -> Morphs a
+findNoun :: Morphing a a => Char -> NounStems a -> Morphs a
 
 findNoun 'V' (a, _, _, _) = morph a
 findNoun 'A' (_, b, _, _) = morph b
