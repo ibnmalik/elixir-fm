@@ -1,14 +1,14 @@
-name:               ElixirFM-Exec-ElixirFM
-version:            0.9
+name:               ElixirFM-Exec-Resolve
+version:            1.1
 license:            GPL
 license-file:       ../LICENSE
-copyright:          2007
+copyright:          2008
 author:             Otakar Smrz
 maintainer:         otakar.smrz mff.cuni.cz
 homepage:           http://ufal.mff.cuni.cz/~smrz/
 package-url:        http://sourceforge.net/projects/elixir-fm/
 category:           Various
-build-depends:      Cabal, base, mtl
+build-depends:      Encode, Cabal, base, containers, wl-pprint
 synopsis:           ElixirFM from UTF8
 description:        The "ElixirFM" library provides a unified interface for
                     converting strings from different encodings into a common
@@ -49,4 +49,13 @@ hs-source-dirs:     ., .., ../..
 exposed-modules:    Main
 extensions:         MultiParamTypeClasses,
                     FunctionalDependencies,
-                    ExistentialQuantification
+                    ExistentialQuantification,
+                    -- PolymorphicComponents,
+                    RankNTypes,
+                    ForeignFunctionInterface,
+                    OverlappingInstances,
+                    -- IncoherentInstances,
+                    UndecidableInstances,
+                    TypeSynonymInstances,
+                    FlexibleInstances,
+                    FlexibleContexts

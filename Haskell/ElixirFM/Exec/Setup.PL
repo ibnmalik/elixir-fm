@@ -89,7 +89,7 @@ sub path ($) {
     chdir "..";
 
 
-    system "runhaskell Setup.hs configure";
+    system "runhaskell Setup.hs configure @ARGV";
     system "runhaskell Setup.hs build";
 
    #chdir "./Inflect";
@@ -107,7 +107,7 @@ sub path ($) {
    #chdir "..";
 
     system $^O eq 'MSWin32' ? "runhugs -98 Setup.hs configure"
-                            : "runhaskell Setup.hs configure";
+                            : "runhaskell Setup.hs configure @ARGV";
 
     system $^O eq 'MSWin32' ? "runhugs -98 Setup.hs sdist"
                             : "runhaskell Setup.hs sdist";
@@ -121,8 +121,11 @@ sub path ($) {
 
     print $path;
 
-    @execs = $^O eq 'MSWin32' ? (path "build elixir-inflect elixir-inflect.exe", path "build elixir-resolve elixir-resolve.exe")
-                              : (path "build elixir-inflect elixir-inflect",     path "build elixir-resolve elixir-resolve");
+   #@execs = $^O eq 'MSWin32' ? (path "build elixir-inflect elixir-inflect.exe", path "build elixir-resolve elixir-resolve.exe")
+   #                          : (path "build elixir-inflect elixir-inflect",     path "build elixir-resolve elixir-resolve");
+
+    @execs = $^O eq 'MSWin32' ? (path "build elixir-resolve elixir-resolve.exe")
+                              : (path "build elixir-resolve elixir-resolve");
 
     foreach $file (@execs) {
 
@@ -132,16 +135,16 @@ sub path ($) {
     }
 
 
-    $path = path "ElixirFM-Exec doc elixir-inflect";
+   #$path = path "ElixirFM-Exec doc elixir-inflect";
 
-    print $path;
+   #print $path;
 
-    foreach $file (glob path ".. Inflect dist doc html *") {
+   #foreach $file (glob path ".. Inflect dist doc html *") {
 
-        print '  <- ' . $file;
+   #    print '  <- ' . $file;
 
-        move $file, $path;
-    }
+   #    move $file, $path;
+   #}
 
 
     $path = path "ElixirFM-Exec doc elixir-resolve";
@@ -156,10 +159,10 @@ sub path ($) {
     }
 
 
-    rmdir path ".. Inflect dist doc html";
-    rmdir path ".. Inflect dist doc";
-    rmdir path ".. Inflect dist build";
-    rmdir path ".. Inflect dist";
+   #rmdir path ".. Inflect dist doc html";
+   #rmdir path ".. Inflect dist doc";
+   #rmdir path ".. Inflect dist build";
+   #rmdir path ".. Inflect dist";
 
     rmdir path ".. Resolve dist doc html";
     rmdir path ".. Resolve dist doc";

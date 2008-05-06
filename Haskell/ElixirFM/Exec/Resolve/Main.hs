@@ -24,10 +24,12 @@ import Elixir.Lexicon
 import Elixir.Template
 import Elixir.Pretty
 
-import FM.Arabic.Rules
-import FM.Arabic.Types
+import Elixir.System
 
-import FM.Arabic.Dictionary
+-- import Elixir.Inflect
+-- import Elixir.Derive
+
+import Elixir.Resolve
 
 import FM.Generic.General
 
