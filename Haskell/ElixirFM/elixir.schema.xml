@@ -36,29 +36,106 @@
   
     <type name="Entry.type">
         <structure role="#NODE">
-            <member name="entity" type="Entity.type"/>
+            <member name="entity" type="Entity.type" role="#CHILDNODES"/>
             <member name="morphs" type="Morphs.type"/>
             <member name="reflex" type="Reflex.type"/>
         </structure>
     </type>
     
     <type name="Root.type">
-        <structure>
+        <cdata format="any"/>
+        <!--<structure>
             <member name="tex" required="1"><cdata format="any"/></member>
             <member name="ucs"><cdata format="any"/></member>
             <member name="tim"><cdata format="any"/></member>
-        </structure>
+        </structure>-->
     </type>
 
     <type name="Entity.type">
         <sequence content_pattern="(Verb|Noun|Adj|Prep|Conj|Part|Intj)">
-            <element name="Verb"><cdata format="any"/></element>
-            <element name="Noun"><cdata format="any"/></element>
-            <element name="Adj" ><cdata format="any"/></element>
-            <element name="Prep"><cdata format="any"/></element>
-            <element name="Conj"><cdata format="any"/></element>
-            <element name="Part"><cdata format="any"/></element>
-            <element name="Intj"><cdata format="any"/></element>
+            <element name="Verb">
+	        <structure role="#NODE">
+		    <member name="form">
+		        <list type="Form.type" ordered="1"/>
+		    </member>	
+		    <member name="pfirst">
+		        <list type="Morphs.type" ordered="1"/>
+		    </member>
+		    <member name="imperf">
+		        <list type="Morphs.type" ordered="1"/>
+		    </member>
+		    <member name="second">
+		        <list type="Morphs.type" ordered="1"/>
+		    </member>
+		    <member name="tense"><cdata format="any"/></member>
+		    <member name="voice"><cdata format="any"/></member>
+	        </structure>
+	    </element>
+            <element name="Noun">
+	        <structure role="#NODE">
+		    <member name="plural" type="Plural.type"/>
+		    <member name="gender"><cdata format="any"/></member>
+		    <member name="number"><cdata format="any"/></member>
+	        </structure>
+	    </element>
+            <element name="Adj" >
+	        <structure role="#NODE">
+		    <member name="plural" type="Plural.type"/>
+		    <member name="number"><cdata format="any"/></member>
+	        </structure>
+	    </element>
+            <element name="Prep">
+	        <structure role="#NODE">
+		    <member name="nothing"><cdata format="any"/></member>
+		</structure>
+	    </element>
+            <element name="Conj">
+	        <structure role="#NODE">
+		    <member name="nothing"><cdata format="any"/></member>
+		</structure>
+	    </element>
+            <element name="Part">
+	        <structure role="#NODE">
+		    <member name="nothing"><cdata format="any"/></member>
+		</structure>
+	    </element>
+            <element name="Intj">
+	        <structure role="#NODE">
+		    <member name="nothing"><cdata format="any"/></member>
+		</structure>
+	    </element>
+        </sequence>
+    </type>
+
+    <type name="Form.type">
+        <choice>
+	    <value>I</value>
+	    <value>II</value>
+	    <value>III</value>
+	    <value>IV</value>
+	    <value>V</value>
+	    <value>VI</value>
+	    <value>VII</value>
+	    <value>VIII</value>
+	    <value>IX</value>
+	    <value>X</value>
+	    <value>XI</value>
+	    <value>XII</value>
+	    <value>XIII</value>
+	    <value>XIV</value>
+	    <value>XV</value>
+	</choice>
+    </type>
+
+    <type name="Plural.type">
+        <sequence>
+	    <element name="Right" type="Morphs.type"/>
+	    <element name="Left">
+	        <structure>
+		    <member name="fst" type="Root.type"/>
+		    <member name="snd" type="Morphs.type"/>
+		</structure>
+	    </element>
         </sequence>
     </type>
 
@@ -69,5 +146,5 @@
     <type name="Reflex.type">
         <list ordered="1"><cdata format="any"/></list>
     </type>
-    
+   
 </pml_schema>

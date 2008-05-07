@@ -28,6 +28,10 @@ import Elixir.Lexicon
 
 import Elixir.Pretty
 
+import Elixir.System
+
+import Elixir.Template
+
 import Encode.Arabic
 
 import Version
@@ -35,31 +39,48 @@ import Version
 version = revised "$Revision$"
 
 
-instance Pretty Lexicon where
+instance Pretty (Wrap Nest) => Pretty Lexicon where
 
-    pretty xs = text "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" <$$> 
+    pretty xs = text "<?xml version=\"1.0\" encoding=\"utf-8\"?>"
+                <$$> empty <$$>
     	        (element "ElixirFM" [("xmlns", "http://ufal.mff.cuni.cz/pdt/pml/")] .
-                    ((element "head" [] . element "schema" [("href", "elixir.schema.xml")]) empty <$$>) .
-                      element "data" []) (empty <$$> cat (map pretty xs) <$$> empty)
+                    (element "head" [] (elempty "schema" [("href", "elixir.schema.xml")]) <$$>) .
+		     element "data" []) (vcat (map pretty xs))
+                <$$> empty
 
 
-element x y c = text ("<" ++ x) <> attrs <> text ">"
-                <//> align c <//>
+element x y c = text ("<" ++ x) <> attrs y <> text ">"
+                <> nested c <>
                 text ("</" ++ x ++ ">")
 
-    where attrs = foldl (</>) empty [ text a <> equals <> dquotes (text (escaqe v)) | (a, v) <- y ]
+elemtxt x y c = text ("<" ++ x) <> attrs y <> text ">"
+                <> c <>
+                text ("</" ++ x ++ ">")
+   
+elempty x y   = text ("<" ++ x) <> attrs y <> text " />"
 
-    
-instance Pretty (Wrap Nest) where
+
+attrs y = foldl (</>) empty [ text a <> equals <> dquotes (text (escaqe v)) | (a, v) <- y ]
+
+
+nested c = nest 1 (linebreak <> c) <> linebreak
+
+
+
+instance (Pretty (Entry PatternT), Pretty (Entry PatternQ),
+          Pretty (Entry String),   Pretty (Entry PatternL)) =>
+          Pretty (Wrap Nest) where
 
     pretty (WrapL (Nest r l)) = prettyNest' r l "NestL"
     pretty (WrapT (Nest r l)) = prettyNest' r l "NestT"
     pretty (WrapQ (Nest r l)) = prettyNest' r l "NestQ"
     pretty (WrapS (Nest r l)) = prettyNest' r l "NestS"
 
-prettyNest' r l t = element t [] (element "root" [] (element "tex" [] (text r) <$$>
-                                                     element "ucs" [] ((text . encode UTF . decode TeX) r))
-                                  <//>
+prettyNest' r l t = element t [] (elemtxt "root" [] (text r)
+                                            -- (element "tex" [] (text r) <$$>
+                                            --  element "ucs" [] ((text . encode UTF
+                                            --                          . decode TeX) r))
+                                  <$$>
                                   element "ents" [] (pretty l))
 
 
@@ -84,25 +105,83 @@ escaqe = concatMap fixChar
 -- original is Text.XHtml.Internals.stringToHtmlString
 
 
-instance Show a => Pretty (Entry a) where
+instance (Show a, Pretty (Entity a)) => Pretty (Entry a) where
 
     pretty (Entry e m l) = element "Entry" [] 
                            (vcat [ element "entity" [] $ pretty e,
-                                   element "morphs" [] $ (pretty . show) m,
-                                   element "reflex" [] $ pretty l ])
+                                   elemtxt "morphs" [] $ pretty m,
+                                   elemtxt "reflex" [] $ pretty l ])
 
     prettyList = cat . map pretty
 
     
 instance Show a => Pretty (Entity a) where
 
-    pretty x = case x of    Verb _ _ _ _ _ _    ->  (element "Verb" [] . pretty . show) x
-                            Noun _ _ _          ->  (element "Noun" [] . pretty . show) x
-                            Adj  _ _            ->  (element "Adj"  [] . pretty . show) x
-                            Prep                ->  (element "Prep" [] . pretty . show) x
-                            Conj                ->  (element "Conj" [] . pretty . show) x
-                            Part                ->  (element "Part" [] . pretty . show) x
-                            Intj                ->  (element "Intj" [] . pretty . show) x
+    pretty x = case x of    Verb f p i c t v    ->  (element "Verb" [] . vcat) $
+    	       	      	    	       	   
+					[ elemtxt "form" [] $ (pretty . map show) f,
+					  elemtxt "pfirst" [] $ (pretty . map show) p,
+					  elemtxt "imperf" [] $ (pretty . map show) i,
+					  elemtxt "second" [] $ (pretty . map show) c ]
+					++
+					eraseNothing t [ elemtxt "tense" [] $ pretty t ]
+					++
+					eraseNothing v [ elemtxt "voice" [] $ pretty v ]
+
+                            Noun l g n          ->  (element "Noun" [] . vcat) $
+
+			    	     	[ elemtxt "plural" [] $ pretty l ]
+					++
+					eraseNothing g [ elemtxt "gender" [] $ pretty g ]
+					++
+					eraseNothing n [ elemtxt "number" [] $ pretty n ]
+
+                            Adj  l n            ->  (element "Adj"  [] . vcat) $
+
+			    	     	[ elemtxt "plural" [] $ pretty l ]
+					++
+					eraseNothing n [ elemtxt "number" [] $ pretty n ]
+
+                            Prep                ->  elempty "Prep" []
+                            Conj                ->  elempty "Conj" []
+                            Part                ->  elempty "Part" []
+                            Intj                ->  elempty "Intj" []
+
+        where eraseNothing x y = case x of Nothing -> []
+                                           _       -> y
+
+
+instance Show a => Pretty (Either (Root, Morphs a) (Morphs a)) where
+
+    pretty (Right x)     = elemtxt "Right" [] (pretty x)
+    pretty (Left (r, x)) = element "Left" [] (elemtxt "fst" [] (pretty r)
+    	   	     	   	   	      <$$>
+					      elemtxt "snd" [] (pretty x))
+
+    prettyList [] = empty
+    prettyList xs = (nested . vcat . map pretty) xs
+
+
+instance Show a => Pretty (Morphs a) where
+
+    pretty = text . escape . show
+
+
+instance Pretty Gender where
+
+    pretty = text . show
+
+instance Pretty Number where
+
+    pretty = text . show
+
+instance Pretty Tense where
+
+    pretty = text . show
+
+instance Pretty Voice where
+
+    pretty = text . show
 
 
 instance Pretty String where
@@ -110,7 +189,7 @@ instance Pretty String where
     pretty = text . escape
 
     prettyList [x] = pretty x
-    prettyList xyz = (cat . map (element "LM" [] . pretty)) xyz
+    prettyList xyz = (nested . vcat . map (elemtxt "LM" [] . pretty)) xyz 
 
 
 -- instance (forall b . Pretty (a b)) => Pretty (Wrap a) where

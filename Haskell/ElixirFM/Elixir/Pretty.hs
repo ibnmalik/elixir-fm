@@ -23,7 +23,7 @@ module Elixir.Pretty (
 
         -- * Functions
 
-        printPretty
+        printPretty, exportPretty
 
     ) where
 
@@ -38,3 +38,8 @@ version = revised "$Revision$"
 printPretty :: Pretty a => a -> IO ()
 
 printPretty = print . pretty
+
+
+exportPretty :: Pretty a => a -> String
+
+exportPretty = flip displayS "" . renderPretty 0.4 200 . pretty
