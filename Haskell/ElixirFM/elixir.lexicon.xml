@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ElixirFM xmlns="http://ufal.mff.cuni.cz/pdt/pml/">
+    <head>
+        <schema href="elixir.schema.xml"/>
+    </head>
+    <data>
+        <!--<LM><form>Hello</form></LM>
+        <LM type="WrapT"><form>People</form></LM>-->
+        <NestT><root><tex>d r s</tex></root>
+               <ents><Entry><entity><Verb></Verb></entity>
+                            <morphs>FaCaL</morphs>
+                            <reflex>to study</reflex>
+                     </Entry>
+                     <Entry><entity><Verb></Verb></entity>
+                            <morphs>FaCCaL</morphs>
+                            <reflex>to teach</reflex>
+                     </Entry>
+                     <Entry><entity><Noun></Noun></entity>
+                            <morphs>FaCL</morphs>
+                            <reflex>lesson</reflex>
+                     </Entry>
+                     <Entry><entity><Noun>madArisu :)</Noun></entity>
+                            <morphs>MaFCaL |&lt; aT</morphs>
+                            <reflex>school</reflex>
+                     </Entry>
+               </ents></NestT>
+        
+        <NestT><root><tex>` l m</tex></root>
+               <ents><Entry><entity><Verb></Verb><Noun></Noun></entity>
+                            <morphs>FaCaL</morphs>
+                            <reflex>to study</reflex>
+                     </Entry>
+                     <Entry><entity><Verb></Verb></entity>
+                            <morphs>FaCCaL</morphs>
+                            <reflex>to teach</reflex>
+                     </Entry>
+                     <Entry><entity><Noun></Noun></entity>
+                            <morphs>FaCL</morphs>
+                            <reflex><LM>lesson</LM><LM>learning</LM></reflex>
+                     </Entry>
+                     <Entry><entity><Noun>madArisu :)</Noun></entity>
+                            <morphs>MaFCaL |&lt; aT</morphs>
+                            <reflex>school</reflex>
+                     </Entry>
+               </ents></NestT>
+    </data>
+</ElixirFM>

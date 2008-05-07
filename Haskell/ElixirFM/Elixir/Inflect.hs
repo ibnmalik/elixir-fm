@@ -109,29 +109,29 @@ head [ l | NestT r l <- lexicon, r == "k t b" ]  !! 3
 
 instance Inflect Lexeme a => Inflect Entry a where
 
-    inflect x = inflect (RE "f ` l" x)
+    inflect x = inflect (Lexeme "f ` l" x)
 
 
 -- instance Inflect Lexeme a => Inflect ((,) String . Entry) a where
 --
---     inflect (r, x) = inflect (RE r x)
+--     inflect (r, x) = inflect (Lexeme r x)
 
-inflect' (r, x) = inflect (RE r (x `adj` []))
+inflect' (r, x) = inflect (Lexeme r (x `adj` []))
 
 
 instance Inflect Entry ParaVerb where
 
-    inflect x = inflect (RE "d r s" x)
+    inflect x = inflect (Lexeme "d r s" x)
 
 
 instance Inflect Entry ParaNoun where
 
-    inflect x = inflect (RE "k t b" x)
+    inflect x = inflect (Lexeme "k t b" x)
 
 
 instance Inflect Lexeme Tag where
 
-    inflect x@(RE r e) y = case y of
+    inflect x@(Lexeme r e) y = case y of
 
         TagVerbP   v p g n      ->  inflect x [ VerbP v' p' g' n' |
                                                     v' <- vals v,
@@ -178,14 +178,14 @@ instance Inflect Lexeme Tag where
 
 instance Inflect Lexeme String where
 
-    inflect x@(RE r e) | isVerb et = inflectOnly isTagParaVerb x
-                       | isNoun et = inflectOnly isTagParaNoun x
-                       | isAdj  et = inflectOnly isTagParaAdj  x
-                       | isPrep et = inflectOnly isTagParaPrep x
-                       | isConj et = inflectOnly isTagParaConj x
-                       | isPart et = inflectOnly isTagParaPart x
-                       | isIntj et = inflectOnly isTagParaIntj x
-                       | otherwise = const []
+    inflect x@(Lexeme r e) | isVerb et = inflectOnly isTagParaVerb x
+                           | isNoun et = inflectOnly isTagParaNoun x
+                           | isAdj  et = inflectOnly isTagParaAdj  x
+                           | isPrep et = inflectOnly isTagParaPrep x
+                           | isConj et = inflectOnly isTagParaConj x
+                           | isPart et = inflectOnly isTagParaPart x
+                           | isIntj et = inflectOnly isTagParaIntj x
+                           | otherwise = const []
 
         where inflectOnly x y = inflect y . filter x . -- more efficient --
                                             unTags . read
@@ -193,8 +193,8 @@ instance Inflect Lexeme String where
 
     {-
 
-    inflect x@(RE r e) y | "VP" `isPrefixOf` y && length y == 10 &&
-                           isVerb (entity e) = inflect x z
+    inflect x@(Lexeme r e) y | "VP" `isPrefixOf` y && length y == 10 &&
+                               isVerb (entity e) = inflect x z
 
         where z = VerbP v p g n
               [_, _, _, vc, _, pc, gc, nc, _, _] = y
@@ -205,20 +205,20 @@ instance Inflect Lexeme String where
               n = if nc == 'P' then Plural else
                   if nc == 'D' then Dual else Singular
 
-    inflect x@(RE r e) y | "VI" `isPrefixOf` y && length y == 10 &&
-                           isVerb (entity e) = inflect x z
+    inflect x@(Lexeme r e) y | "VI" `isPrefixOf` y && length y == 10 &&
+                               isVerb (entity e) = inflect x z
 
         where z = VerbI Indicative Active Third Masculine Singular
 
 
-    inflect x@(RE r e) y | "VC" `isPrefixOf` y && length y == 10 &&
-                           isVerb (entity e) = inflect x z
+    inflect x@(Lexeme r e) y | "VC" `isPrefixOf` y && length y == 10 &&
+                               isVerb (entity e) = inflect x z
 
         where z = VerbC Masculine Singular
 
 
-    inflect x@(RE r e) y | "NS" `isPrefixOf` y && length y == 10 &&
-                           isNoun (entity e) = inflect x z
+    inflect x@(Lexeme r e) y | "NS" `isPrefixOf` y && length y == 10 &&
+                               isNoun (entity e) = inflect x z
 
         where z = NounS Singular Genitive (Nothing :-: False)
 
@@ -237,16 +237,16 @@ instance Inflect Lexeme a => Inflect Lexeme [a] where
 
 instance Inflect Lexeme ParaVerb where
 
-    inflect (RE r e) x  | (not . isVerb) (entity e) = []
+    inflect (Lexeme r e) x | (not . isVerb) (entity e) = []
 
-    inflect (RE r e) x@(VerbP   v p g n) = [(show x, inflectVerbP (RE r e) x)]
-    inflect (RE r e) x@(VerbI m v p g n) = [(show x, inflectVerbI (RE r e) x)]
-    inflect (RE r e) x@(VerbC       g n) = [(show x, inflectVerbC (RE r e) x)]
+    inflect (Lexeme r e) x@(VerbP   v p g n) = [(show x, inflectVerbP (Lexeme r e) x)]
+    inflect (Lexeme r e) x@(VerbI m v p g n) = [(show x, inflectVerbI (Lexeme r e) x)]
+    inflect (Lexeme r e) x@(VerbC       g n) = [(show x, inflectVerbC (Lexeme r e) x)]
 
 
 inflectVerbP :: (Morphing a b, Forming a, Eq a) => Lexeme a -> ParaVerb -> [(Root, Morphs b)]
 
-inflectVerbP (RE r e) x@(VerbP   v p g n) = paradigm (paraVerbP v p g n)
+inflectVerbP (Lexeme r e) x@(VerbP   v p g n) = paradigm (paraVerbP v p g n)
 
     where paradigm p = map ((,) r . p) inEntry
 
@@ -278,7 +278,7 @@ inflectVerbP (RE r e) x@(VerbP   v p g n) = paradigm (paraVerbP v p g n)
 
 inflectVerbI :: (Morphing a b, Forming a, Rules a) => Lexeme a -> ParaVerb -> [(Root, Morphs b)]
 
-inflectVerbI (RE r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
+inflectVerbI (Lexeme r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
 
     where paradigm p = map ((,) r . reduce p) inEntry
 
@@ -334,7 +334,7 @@ inflectVerbI (RE r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
 
 inflectVerbC :: (Morphing a b, Forming a, Rules a) => Lexeme a -> ParaVerb -> [(Root, Morphs b)]
 
-inflectVerbC (RE r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
+inflectVerbC (Lexeme r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
 
     where paradigm p = map ((,) r . reduce p) inEntry
 
@@ -588,15 +588,15 @@ paraVerbC g n i = case n of
 
 instance Inflect Lexeme ParaAdj where
 
-    inflect (RE r e) x  | (not . isAdj) (entity e) = []
+    inflect (Lexeme r e) x | (not . isAdj) (entity e) = []
 
-    inflect x@(RE r e) y@(AdjA g n c s) = [(show y, inflectAdjA x y)]
+    inflect x@(Lexeme r e) y@(AdjA g n c s) = [(show y, inflectAdjA x y)]
 
-    inflect _          _               = error "Unexpected case ..."
+    inflect _              _               = error "Unexpected case ..."
 
 
 
-inflectAdjA (RE r e) (AdjA g n c s) = (map (inRules r c s) . inEntry' g n) e
+inflectAdjA (Lexeme r e) (AdjA g n c s) = (map (inRules r c s) . inEntry' g n) e
 
 
 inEntry' Masculine Plural e = case entity e of Adj  l   _  | null l -> [Right (morphs e |< Un)]
@@ -616,15 +616,15 @@ inEntry' Feminine  _ e = [Right (morphs e |< aT)]
 
 instance Inflect Lexeme ParaNoun where
 
-    inflect (RE r e) x  | (not . isNoun) (entity e) = []
+    inflect (Lexeme r e) x | (not . isNoun) (entity e) = []
 
-    inflect x@(RE r e) y@(NounS n c s) = [(show y, inflectNounS x y)]
+    inflect x@(Lexeme r e) y@(NounS n c s) = [(show y, inflectNounS x y)]
 
-    inflect _          _               = error "Unexpected case ..."
+    inflect _              _               = error "Unexpected case ..."
 
 
 
-inflectNounS (RE r e) (NounS n c s) = (map (inRules r c s) . inEntry n) e
+inflectNounS (Lexeme r e) (NounS n c s) = (map (inRules r c s) . inEntry n) e
 
 
 inEntry Plural e = case entity e of Noun l _ _  -> l
@@ -878,13 +878,13 @@ paraPronD   g n c _ = case n of
 
 instance Inflect Lexeme ParaPrep where
 
-    inflect x@(RE r e) y  | (not . isPrep) (entity e) = []
+    inflect x@(Lexeme r e) y | (not . isPrep) (entity e) = []
 
-    inflect (RE r e) x@(PrepP  ) = if null s then [(show x, [(r, m)])] else []
+    inflect (Lexeme r e) x@(PrepP  ) = if null s then [(show x, [(r, m)])] else []
     
         where m@(Morphs t p s) = morphs e
 
-    inflect (RE r e) x@(PrepI c) = if null s then [] 
+    inflect (Lexeme r e) x@(PrepI c) = if null s then [] 
                                              else [(show x, [(r, paraPrepI c m)])]
 
         where Morphs t p s = morphs e
@@ -899,17 +899,17 @@ paraPrepI c = case c of
 
 instance Inflect Lexeme ParaConj where
 
-    inflect x@(RE r e) y  | (not . isConj) (entity e) = []
-                          | otherwise = [(show y, [(r, morphs e)])]
+    inflect x@(Lexeme r e) y | (not . isConj) (entity e) = []
+                             | otherwise = [(show y, [(r, morphs e)])]
 
 
 instance Inflect Lexeme ParaPart where
 
-    inflect x@(RE r e) y  | (not . isPart) (entity e) = []
-                          | otherwise = [(show y, [(r, morphs e)])]
+    inflect x@(Lexeme r e) y | (not . isPart) (entity e) = []
+                             | otherwise = [(show y, [(r, morphs e)])]
 
 
 instance Inflect Lexeme ParaIntj where
 
-    inflect x@(RE r e) y  | (not . isIntj) (entity e) = []
-                          | otherwise = [(show y, [(r, morphs e)])]
+    inflect x@(Lexeme r e) y | (not . isIntj) (entity e) = []
+                             | otherwise = [(show y, [(r, morphs e)])]

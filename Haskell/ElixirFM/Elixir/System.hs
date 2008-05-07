@@ -226,7 +226,7 @@ expandTags = map expandTag . unTags
 expandReadTags :: String -> [[String]]
 expandReadTags = map expandTag . readTags
 
--- let t = "V--A-3----" in putStr $ unlines . map show $ zip (concat $ expandReadTags t) (inflect (RE "q w l" $ FAL `verb` []) t)
+-- let t = "V--A-3----" in putStr $ unlines . map show $ zip (concat $ expandReadTags t) (inflect (Lexeme "q w l" $ FAL `verb` []) t)
 
 
 instance Read Tags where

@@ -131,9 +131,9 @@ data Nest =     NestL Root [Entry PatternL]
           |     NestQ Root [Entry PatternQ]
 -}
 
-data Nest   a   =   Nest Root [Entry a]     deriving Show
+data Nest   a   =   Nest   Root [Entry a]   deriving Show
 
-data Lexeme a   =   RE   Root (Entry a)     deriving Show
+data Lexeme a   =   Lexeme Root (Entry a)   deriving Show
 
 
 root :: Nest a -> Root
@@ -149,7 +149,7 @@ infix 2 >-<, <->
 
 (>-<) :: Root -> Entry a -> Lexeme a
 
-(>-<) x y = RE x y
+(>-<) x y = Lexeme x y
 
 
 (<->) = (>-<)
@@ -449,8 +449,8 @@ lookupEntry w l = lookupEntryBy (w ==) l
 
 lookupEntryBy f l = concat [ wraps (lookupEntry' f) n | n <- l ]
 
-lookupEntry' f (Nest r l) = [ RE r e | e <- l, let m = morphs e
-                                                   h = merge r m, f h ]
+lookupEntry' f (Nest r l) = [ Lexeme r e | e <- l, let m = morphs e
+                                                       h = merge r m, f h ]
 
 {-
 lookupEntry w l = [ s | n <- l, s <- case n of
@@ -460,8 +460,8 @@ lookupEntry w l = [ s | n <- l, s <- case n of
                                 WrapQ (Nest r e) -> lookupEntry' WrapQ w r e
                                 WrapS (Nest r e) -> lookupEntry' WrapS w r e ]
 
-lookupEntry' z w r es = [ wrap (RE r (const e z)) | e <- es, let m = morphs e
-                                                                 h = merge r m, w == h ]
+lookupEntry' z w r es = [ wrap (Lexeme r (const e z)) | e <- es, let m = morphs e
+                                                                     h = merge r m, w == h ]
 -}
 
 
@@ -469,11 +469,11 @@ lookupReflex :: String -> Lexicon -> [Wrap Lexeme]
 
 lookupReflex w l = concat [ wraps (lookupReflex' w) n | n <- l ]
 
-lookupReflex' w (Nest r l) = [ RE r e | e <- l, any (elem w . words)
-                                                    (reflex e) ]
+lookupReflex' w (Nest r l) = [ Lexeme r e | e <- l, any (elem w . words)
+                                                        (reflex e) ]
 
--- lookupReflex' w (Nest r l) = [ RE r e | e <- l, let x = reflex e, s <- x,
---                                         any (w ==) (words s) ]
+-- lookupReflex' w (Nest r l) = [ Lexeme r e | e <- l, let x = reflex e, s <- x,
+--                                             any (w ==) (words s) ]
 
 {- Rules.hs
 

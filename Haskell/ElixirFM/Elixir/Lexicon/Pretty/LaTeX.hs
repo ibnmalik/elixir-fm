@@ -93,4 +93,4 @@ instance (Pretty (Lexeme PatternT), Pretty (Lexeme PatternQ),
 
 instance Pretty (Entry a) => Pretty (Lexeme a) where
 
-    pretty (RE r e) = (dquotes . text) r <+> pretty e
+    pretty (Lexeme r e) = (dquotes . text) r <+> pretty e

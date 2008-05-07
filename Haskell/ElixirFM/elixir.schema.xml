@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pml_schema version="1.1" xmlns="http://ufal.mff.cuni.cz/pdt/pml/schema/">
+    <revision>0.1.0</revision>
+    <description>ElixirFM Lexicon</description>
+  
+    <root name="ElixirFM" type="Lexicon.type" />
+
+    <type name="Lexicon.type">
+        <structure>
+            <member name="data" role="#TREES" required="1">
+                <sequence>
+                    <element name="NestS" type="Nest.type"/>
+                    <element name="NestT" type="Nest.type"/>
+                    <element name="NestQ" type="Nest.type"/>
+                    <element name="NestL" type="Nest.type"/>
+                    <!--<element name="WrapS" type="Nest.type"/>
+                    <element name="WrapT" type="Nest.type"/>
+                    <element name="WrapQ" type="Nest.type"/>
+                    <element name="WrapL" type="Nest.type"/>-->
+                </sequence>
+                <!--<list type="Nest.type"/>-->
+            </member>
+        </structure>
+    </type>
+  
+    <type name="Nest.type">
+        <structure role="#NODE">
+            <member name="root" type="Root.type"/>
+            <member name="ents" role="#CHILDNODES">
+                <sequence>
+                    <element name="Entry" type="Entry.type"/>
+                </sequence>
+            </member>
+        </structure>
+    </type>
+  
+    <type name="Entry.type">
+        <structure role="#NODE">
+            <member name="entity" type="Entity.type"/>
+            <member name="morphs" type="Morphs.type"/>
+            <member name="reflex" type="Reflex.type"/>
+        </structure>
+    </type>
+    
+    <type name="Root.type">
+        <structure>
+            <member name="tex" required="1"><cdata format="any"/></member>
+            <member name="ucs"><cdata format="any"/></member>
+            <member name="tim"><cdata format="any"/></member>
+        </structure>
+    </type>
+
+    <type name="Entity.type">
+        <sequence content_pattern="(Verb|Noun|Adj|Prep|Conj|Part|Intj)">
+            <element name="Verb"><cdata format="any"/></element>
+            <element name="Noun"><cdata format="any"/></element>
+            <element name="Adj" ><cdata format="any"/></element>
+            <element name="Prep"><cdata format="any"/></element>
+            <element name="Conj"><cdata format="any"/></element>
+            <element name="Part"><cdata format="any"/></element>
+            <element name="Intj"><cdata format="any"/></element>
+        </sequence>
+    </type>
+
+    <type name="Morphs.type">
+        <cdata format="any"/>
+    </type>
+
+    <type name="Reflex.type">
+        <list ordered="1"><cdata format="any"/></list>
+    </type>
+    
+</pml_schema>

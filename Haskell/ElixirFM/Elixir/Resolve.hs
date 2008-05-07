@@ -49,7 +49,7 @@ import Encode.Arabic
 import Data.List
 
 
--- let y = "'a_hran.timu" in [ root x  | x <- lexicon, isSubsumed (root x) y, let s = case x of NestT r l -> [ inflect (RE r z) "----------" | z <- l ] ;NestQ r l -> [ inflect (RE r z) "----------" | z <- l ];NestL r l -> [ inflect (RE r z) "----------"| z <- l ], h <- s, i <- h, j<- i, j == y]
+-- let y = "'a_hran.timu" in [ root x  | x <- lexicon, isSubsumed (root x) y, let s = case x of NestT r l -> [ inflect (Lexeme r z) "----------" | z <- l ] ;NestQ r l -> [ inflect (Lexeme r z) "----------" | z <- l ];NestL r l -> [ inflect (Lexeme r z) "----------"| z <- l ], h <- s, i <- h, j<- i, j == y]
 
 
 data Token a = Token { lexeme :: Lexeme a, struct :: (Root, Morphs a),
@@ -68,9 +68,9 @@ instance Pretty [[Wrap Token]] where
 prettyResolve = (putStr . unlines . map head . unwrapResolve pretty')
 
 pretty' t = unwords $ map ($ t) [tag, uncurry merge . struct,
-                                 (\(RE r _) -> show r)          . lexeme,
-                                 (\(RE _ l) -> show (morphs l)) . lexeme,
-                                 (\(RE _ l) -> show (reflex l)) . lexeme]
+                                 (\(Lexeme r _) -> show r)          . lexeme,
+                                 (\(Lexeme _ l) -> show (morphs l)) . lexeme,
+                                 (\(Lexeme _ l) -> show (reflex l)) . lexeme]
 
 
 unwrapResolve :: (forall c . (Template c, Show c) => a c -> b) -> [[Wrap a]] -> [[b]]
@@ -119,9 +119,9 @@ resolveList l uc eq y = [ [s] | (r, [x]) <- l, isSubsumed (uc r) y,
 
                           s <- wraps (inflects y) x ]
 
-    where inflects y (Nest r z) = [ Token (RE r e) i t | e <- z,
+    where inflects y (Nest r z) = [ Token (Lexeme r e) i t | e <- z,
 
-                             let s = inflect (RE r e) "----------", (t, h) <- s,
+                             let s = inflect (Lexeme r e) "----------", (t, h) <- s,
 
                              i <- h, (uc . uncurry merge) i `eq` y ]
 
@@ -136,9 +136,9 @@ resolveListMore l uc eq y = [ [s] | (r, [x]) <- l, let y' = filter (isSubsumed (
 
                           s <- wraps (inflects y') x ]
 
-    where inflects y (Nest r z) = [ Token (RE r e) i t | e <- z,
+    where inflects y (Nest r z) = [ Token (Lexeme r e) i t | e <- z,
 
-                             let s = inflect (RE r e) "----------", (t, h) <- s,
+                             let s = inflect (Lexeme r e) "----------", (t, h) <- s,
 
                              i <- h, let m = (uc . uncurry merge) i, q <- y, m `eq` q ]
 
@@ -326,15 +326,15 @@ lex2dict (WrapT (Nest x ys)) = [ case entity y of
 
     Noun _ _ _      -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaNoun -> [String]),
                         "Noun", [],
-                        [ (show v, (0, recode ((map (map (uncurry merge) . snd) . inflect (RE x y)) v))) | v <- values :: [ParaNoun] ])
+                        [ (show v, (0, recode ((map (map (uncurry merge) . snd) . inflect (Lexeme x y)) v))) | v <- values :: [ParaNoun] ])
 
     Adj _ _         -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaNoun -> [String]),
                         "Adj", [],
-                        [ (show v, (0, recode ((map (map (uncurry merge) . snd) . inflect (RE x y)) v))) | v <- values :: [ParaAdj] ])
+                        [ (show v, (0, recode ((map (map (uncurry merge) . snd) . inflect (Lexeme x y)) v))) | v <- values :: [ParaAdj] ])
 
     Verb _ _ _ _ _ _ -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaVerb -> [String]),
                         "Verb", [],
-                        [ (show v, (0, recode ((map (map (uncurry merge) . snd) . inflect (RE x y)) v))) | v <- values :: [ParaVerb] ])
+                        [ (show v, (0, recode ((map (map (uncurry merge) . snd) . inflect (Lexeme x y)) v))) | v <- values :: [ParaVerb] ])
 
     _               -> ("Dictword",
                         "Category", ["Inherent"], [ ("Untyped", (0, ["String"])) ]) | y <- ys ]
@@ -345,7 +345,7 @@ lex2dict _            = [ ("Others", "Category", ["Other"], [ ("Untyped", (0, ["
 
 {-
     where   lex2dict (NestT x ys) = [ (dictword $ inflect y,
-                                       category $ inflect y, -- (RE x y),
+                                       category $ inflect y, -- (Lexeme x y),
                                        ["Inherent properties"],
                                        [("Untyped",(0,["String"]))]) | y <- ys ]
                 where root = words x

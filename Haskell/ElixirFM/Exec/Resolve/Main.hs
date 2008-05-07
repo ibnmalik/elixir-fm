@@ -108,9 +108,9 @@ prettier = sep . map (text . head) . unwrapResolve prettiest
 
 prettiest t = (concat . intersperse "\t") $
                 map ($ t) [tag, uncurry merge . struct,
-                                (\(r, _) -> show r)               . struct,
-                                (\(_, l) -> show l)               . struct,
-                                (\(RE r l) -> merge r (morphs l)) . lexeme,
-                                (\(RE r _) -> show r)             . lexeme,
-                                (\(RE _ l) -> show (morphs l))    . lexeme,
-                                (\(RE _ l) -> show (reflex l))    . lexeme]
+                                (\(r, _)       -> show r)             . struct,
+                                (\(_, l)       -> show l)             . struct,
+                                (\(Lexeme r l) -> merge r (morphs l)) . lexeme,
+                                (\(Lexeme r _) -> show r)             . lexeme,
+                                (\(Lexeme _ l) -> show (morphs l))    . lexeme,
+                                (\(Lexeme _ l) -> show (reflex l))    . lexeme]
