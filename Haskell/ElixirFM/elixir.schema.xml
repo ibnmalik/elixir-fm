@@ -7,22 +7,31 @@
 
     <type name="Lexicon.type">
         <structure>
-            <member name="data" role="#TREES" required="1">
-                <sequence>
-                    <element name="NestS" type="Nest.type"/>
-                    <element name="NestT" type="Nest.type"/>
-                    <element name="NestQ" type="Nest.type"/>
-                    <element name="NestL" type="Nest.type"/>
-                    <!--<element name="WrapS" type="Nest.type"/>
-                    <element name="WrapT" type="Nest.type"/>
-                    <element name="WrapQ" type="Nest.type"/>
-                    <element name="WrapL" type="Nest.type"/>-->
+            <!--<member name="data" role="#TREES" required="1" type="Wrap.type"/>-->
+            <member name="data" required="1">
+                <sequence role="#TREES">
+                    <element name="Wrap" type="Wrap.type"/>
                 </sequence>
-                <!--<list type="Nest.type"/>-->
             </member>
         </structure>
     </type>
-  
+
+    <type name="Wrap.type">
+        <container role="#NODE">
+            <sequence role="#CHILDNODES">
+                <element name="NestS" type="Nest.type"/>
+                <element name="NestT" type="Nest.type"/>
+                <element name="NestQ" type="Nest.type"/>
+                <element name="NestL" type="Nest.type"/>
+                <!--<element name="WrapS" type="Nest.type"/>
+                <element name="WrapT" type="Nest.type"/>
+                <element name="WrapQ" type="Nest.type"/>
+                <element name="WrapL" type="Nest.type"/>-->
+            </sequence>
+            <!--<list type="Nest.type"/>-->
+        </container>
+    </type>
+
     <type name="Nest.type">
         <structure role="#NODE">
             <member name="root" type="Root.type"/>
@@ -128,9 +137,9 @@
     </type>
 
     <type name="Plural.type">
-        <sequence>
-	    <element name="Right" type="Morphs.type"/>
-	    <element name="Left">
+        <sequence role="#CHILDNODES">
+	    <element name="Right" type="Morphs.type" role="#NODE"/>
+	    <element name="Left" role="#NODE">
 	        <structure>
 		    <member name="fst" type="Root.type"/>
 		    <member name="snd" type="Morphs.type"/>
@@ -140,7 +149,9 @@
     </type>
 
     <type name="Morphs.type">
-        <cdata format="any"/>
+        <container>
+            <cdata format="any"/>
+        </container>
     </type>
 
     <type name="Reflex.type">

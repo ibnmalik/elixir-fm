@@ -66,7 +66,6 @@ attrs y = foldl (</>) empty [ text a <> equals <> dquotes (text (escaqe v)) | (a
 nested c = nest 1 (linebreak <> c) <> linebreak
 
 
-
 instance (Pretty (Entry PatternT), Pretty (Entry PatternQ),
           Pretty (Entry String),   Pretty (Entry PatternL)) =>
           Pretty (Wrap Nest) where
@@ -76,7 +75,8 @@ instance (Pretty (Entry PatternT), Pretty (Entry PatternQ),
     pretty (WrapQ (Nest r l)) = prettyNest' r l "NestQ"
     pretty (WrapS (Nest r l)) = prettyNest' r l "NestS"
 
-prettyNest' r l t = element t [] (elemtxt "root" [] (text r)
+prettyNest' r l t = (element "Wrap" [] . element t [])
+                    (elemtxt "root" [] (text r)
                                             -- (element "tex" [] (text r) <$$>
                                             --  element "ucs" [] ((text . encode UTF
                                             --                          . decode TeX) r))
@@ -115,11 +115,11 @@ instance (Show a, Pretty (Entity a)) => Pretty (Entry a) where
     prettyList = cat . map pretty
 
     
-instance Show a => Pretty (Entity a) where
+instance (Show a, Pretty [a]) => Pretty (Entity a) where
 
     pretty x = case x of    Verb f p i c t v    ->  (element "Verb" [] . vcat) $
     	       	      	    	       	   
-					[ elemtxt "form" [] $ (pretty . map show) f,
+					[ elemtxt "form"   [] $ (pretty . map show) f,
 					  elemtxt "pfirst" [] $ (pretty . map show) p,
 					  elemtxt "imperf" [] $ (pretty . map show) i,
 					  elemtxt "second" [] $ (pretty . map show) c ]
@@ -162,32 +162,16 @@ instance Show a => Pretty (Either (Root, Morphs a) (Morphs a)) where
     prettyList xs = (nested . vcat . map pretty) xs
 
 
-instance Show a => Pretty (Morphs a) where
+instance Show a => Pretty a where
 
     pretty = text . escape . show
-
-
-instance Pretty Gender where
-
-    pretty = text . show
-
-instance Pretty Number where
-
-    pretty = text . show
-
-instance Pretty Tense where
-
-    pretty = text . show
-
-instance Pretty Voice where
-
-    pretty = text . show
 
 
 instance Pretty String where
 
     pretty = text . escape
 
+    prettyList []  = empty
     prettyList [x] = pretty x
     prettyList xyz = (nested . vcat . map (elemtxt "LM" [] . pretty)) xyz 
 
