@@ -138,7 +138,9 @@
 
     <type name="Plural.type">
         <sequence>
-    	    <element name="Right" type="Morphs.type"/>
+    	    <element name="Right">
+                <container type="Morphs.type" role="#NODE"/>
+            </element>
     	    <element name="Left">
     	        <structure role="#NODE">
         		    <member name="fst" type="Root.type"/>
@@ -149,9 +151,7 @@
     </type>
 
     <type name="Morphs.type">
-        <container role="#NODE">
-            <cdata format="any"/>
-        </container>
+        <cdata format="any"/>
     </type>
 
     <type name="Pattern.type">

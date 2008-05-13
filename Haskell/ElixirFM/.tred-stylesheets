@@ -1,0 +1,88 @@
+##################################################
+stylesheet: ElixirFM
+context: ElixirFM
+rootstyle:<? '#{vertical}#{Node-textalign:left}#{Node-shape:rectangle}' . 
+             '#{skipHiddenLevels:1}' ?>
+style:<? '#{Line-coords:n,n,p,n,p,p}' .
+         ( $this->level() =~ /^0|3$/ ? '#{Node-hide:1}' :
+           $this->level() =~ /^4$/ ? '#{Node-level:0.5}' : '' ) ?>
+node:<? $this->level() == 2 
+        ? ($this->children())[0]->{'#name'} . '   #{custom6}${=' . 
+          ( join '}  #{custom3}${=',
+            map { ref $_ ? @{$_} : () } 
+            map { $_->{form}, $_->{imperf}, $_->{second}, $_->{pfirst} }
+            $this->children() ) . '}'
+        : ( $this->{'#name'} eq 'Right' ? '...' : $this->{'#name'} ). ' #{custom6}' .
+          ElixirFM::orph(ElixirFM::cling($this->{'root'})) . ' #{custom2}${root}'
+    ?>
+node:<? $this->level() == 2 ? '#{custom2}${morphs=' . $this->{morphs} . '}' :
+                              '#{custom6}${=' . ( $this->{'#content'} ) . '}'?>
+node:<? $this->level() == 2 ? '' : '#{darkgrey}' ?><? ElixirFM::phon(ElixirFM::merge($this->level() == 2 ? ($this->parent()->{'root'}, $this->{morphs}{'#content'}) : ($this->parent()->parent()->parent()->{'root'}, $this->{'#content'}))) ?>
+node:<? $this->level() == 2 ? '' : '#{darkgrey}' ?><? ElixirFM::orth(ElixirFM::merge($this->level() == 2 ? ($this->parent()->{'root'}, $this->{morphs}{'#content'}) : ($this->parent()->parent()->parent()->{'root'}, $this->{'#content'}))) ?>
+node:#{custom3}<?'${reflex=' . (join ", ", @{$this->{reflex}}) . '}'?>
+
+
+
+##################################################
+stylesheet: MorphoTrees++
+context:     MorphoTrees
+style:<? $this->{apply_m} > 0 ? '#{Line-fill:red}' :
+                                               $this->{apply_t} > 0 ? '#{Line-fill:orange}' :
+                                                                      defined $this->{apply_m} ? '#{Line-fill:black}' : ''
+                    ?>
+node: <? '#{magenta}${comment} << ' if $this->{type} !~ /^(?:token_node|paragraph)$/ and $this->{comment} ne '' ?><?
+                        $this->{type} =~ /^(?:token_node|token_form|partition)$/
+                            ? ( '${form}' )
+                            : (
+                            $this->{type} eq 'lemma_id'
+                                ? ( '#{purple}${gloss} #{gray}${id} #{darkmagenta}${form}' )
+                                : (
+                                $this->{type} =~ /^(?:entity|paragraph)$/
+                                    ? ( $this->{apply_m} > 0
+                                        ? '#{black}${id} #{gray}${lookup} #{red}${input}'
+                                        : '#{black}${id} #{gray}${lookup} #{black}${input}'
+                                    )
+                                    : ( $this->{apply_m} > 0
+                                        ? '  #{red}${input}'
+                                        : '  #{black}${input}'
+                                    )
+                                )
+                            )
+                    ?>
+node: <? '#{goldenrod}${comment} << ' if $this->{type} eq 'token_node' and $this->{comment} ne '' ?>#{darkred}${tag}<?
+                        $this->{inherit} eq '' ? '#{red}' : '#{orange}'
+                    ?>${restrict}
+hint:<? '${gloss}' if $this->{type} eq 'token_node' ?>
+
+
+##################################################
+stylesheet: PADT Analytic
+style: <? $this->{arabclause} =~ /^./ && $this->{arabclause} !~ /^no-/ ||
+$this->{tag} =~ /^V/ || $this->{afun} =~ /^P/ ? '#{Line-fill:gold}' : ()
+?>
+node: <? $this->{form} =~ /^./ ? '${form}' : '#{custom6}${origf}' ?>
+node: <?
+join '#{custom1}_', ( $this->{afun} eq '???' && $this->{afunaux} ne '' ?
+'#{custom3}${afunaux}' : '#{custom1}${afun}' ), ( ( join '_', map { '${' . $_ . '}' } grep { $this->{$_} =~ /^./ && $this->{$_} !~ /^no-/ }
+qw 'parallel paren arabfa arabspec arabclause' ) || () )
+?>
+tag:   ${tag}
+lemma: ${lemma}
+morph: ${x_morph}
+gloss: ${x_gloss}
+comment: ${x_comment}
+
+
+##################################################
+stylesheet: PADT MorphoTrees
+style: <? $this->{apply_m} > 0 ? '#{Line-fill:red}' : defined $this->{apply_m} ? '#{Line-fill:black}' : ()
+?>
+node: <? $this->{type} eq 'token_node' ? ( '${form}' ) : ( $this->{type} eq 'lemma_id' ? ( '#{purple}${gloss} #{gray}${id} #{darkmagenta}${form}' )
+: ( $this->{type} =~ /^entity|word_node|paragraph$/
+? (
+$this->{apply_m} > 0 ? '#{black}${id} #{gray}${lookup} #{red}${input}' : '#{black}${id} #{gray}${lookup} #{black}${input}' )
+: ( '${form}' ) ) ) ?>
+node: #{darkred}${tag}<? $this->{inherit} eq '' ? '#{red}' : '#{orange}' ?>${restrict}
+hint: <? '${gloss}' if $this->{type} eq 'token_node' ?>
+
+
