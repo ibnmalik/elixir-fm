@@ -56,8 +56,11 @@ element x y c = text ("<" ++ x) <> attrs y <> text ">"
 elemtxt x y c = text ("<" ++ x) <> attrs y <> text ">"
                 <> c <>
                 text ("</" ++ x ++ ">")
-   
+
 elempty x y   = text ("<" ++ x) <> attrs y <> text " />"
+
+elemesp x []  = elemtxt x [] empty
+elemesp x y   = element x [] (vcat y) 
 
 
 attrs y = foldl (</>) empty [ text a <> equals <> dquotes (text (escaqe v)) | (a, v) <- y ]
@@ -107,48 +110,54 @@ escaqe = concatMap fixChar
 
 instance (Show a, Pretty (Entity a)) => Pretty (Entry a) where
 
-    pretty (Entry e m l) = element "Entry" [] 
+    pretty (Entry e m l) = element "Entry" []
                            (vcat [ element "entity" [] $ pretty e,
                                    elemtxt "morphs" [] $ pretty m,
                                    elemtxt "reflex" [] $ pretty l ])
 
     prettyList = cat . map pretty
 
-    
+
 instance (Show a, Pretty [a]) => Pretty (Entity a) where
 
-    pretty x = case x of    Verb f p i c t v    ->  (element "Verb" [] . vcat) $
-    	       	      	    	       	   
-					[ elemtxt "form"   [] $ (pretty . map show) f,
-					  elemtxt "pfirst" [] $ (pretty . map show) p,
-					  elemtxt "imperf" [] $ (pretty . map show) i,
-					  elemtxt "second" [] $ (pretty . map show) c ]
-					++
-					eraseNothing t [ elemtxt "tense" [] $ pretty t ]
-					++
-					eraseNothing v [ elemtxt "voice" [] $ pretty v ]
+    pretty x = case x of    Verb f p i c t v    ->  elemesp "Verb" $
+    	       	      	    	       	
+            					eraseEmpty f [ elemtxt "form"   [] $ (pretty . map show) f ]
+                                ++
+                                eraseEmpty p [ elemtxt "pfirst" [] $ (pretty . map show) p ]
+                                ++				
+                                eraseEmpty i [ elemtxt "imperf" [] $ (pretty . map show) i ]
+                                ++				
+            					eraseEmpty c [ elemtxt "second" [] $ (pretty . map show) c ]
+            					++
+            					eraseNothing t [ elemtxt "tense" [] $ pretty t ]
+            					++
+            					eraseNothing v [ elemtxt "voice" [] $ pretty v ]
 
-                            Noun l g n          ->  (element "Noun" [] . vcat) $
+                            Noun l g n          ->  elemesp "Noun" $
 
-			    	     	[ elemtxt "plural" [] $ pretty l ]
-					++
-					eraseNothing g [ elemtxt "gender" [] $ pretty g ]
-					++
-					eraseNothing n [ elemtxt "number" [] $ pretty n ]
+                                eraseEmpty   l [ elemtxt "plural" [] $ pretty l ]
+                                ++
+                                eraseNothing g [ elemtxt "gender" [] $ pretty g ]
+                                ++
+                                eraseNothing n [ elemtxt "number" [] $ pretty n ]
 
-                            Adj  l n            ->  (element "Adj"  [] . vcat) $
+                            Adj  l n            ->  elemesp "Adj" $
 
-			    	     	[ elemtxt "plural" [] $ pretty l ]
-					++
-					eraseNothing n [ elemtxt "number" [] $ pretty n ]
+            			    	eraseEmpty   l [ elemtxt "plural" [] $ pretty l ]
+            					++
+            					eraseNothing n [ elemtxt "number" [] $ pretty n ]
 
-                            Prep                ->  elempty "Prep" []
-                            Conj                ->  elempty "Conj" []
-                            Part                ->  elempty "Part" []
-                            Intj                ->  elempty "Intj" []
+                            Prep                ->  elemesp "Prep" []
+                            Conj                ->  elemesp "Conj" []
+                            Part                ->  elemesp "Part" []
+                            Intj                ->  elemesp "Intj" []
 
         where eraseNothing x y = case x of Nothing -> []
                                            _       -> y
+
+              eraseEmpty x y = case x of [] -> []
+                                         _  -> y
 
 
 instance Show a => Pretty (Either (Root, Morphs a) (Morphs a)) where
@@ -173,7 +182,7 @@ instance Pretty String where
 
     prettyList []  = empty
     prettyList [x] = pretty x
-    prettyList xyz = (nested . vcat . map (elemtxt "LM" [] . pretty)) xyz 
+    prettyList xyz = (nested . vcat . map (elemtxt "LM" [] . pretty)) xyz
 
 
 -- instance (forall b . Pretty (a b)) => Pretty (Wrap a) where
