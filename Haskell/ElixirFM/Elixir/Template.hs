@@ -43,9 +43,9 @@ merge r y = -- show (Morphs (interlock (words r) t) p s)
 
     where Morphs t p s = morph y
 
-          prefixes l = foldr (\ x s -> x ->- s) l p
+          prefixes x = foldr (->-) x p
 
-          suffixes l = foldr shows [] l
+          suffixes x = foldr shows [] x
 
           shown = interlock (words r) t
 
