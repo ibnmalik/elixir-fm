@@ -63,90 +63,90 @@
     <type name="Entity.type">
         <sequence content_pattern="(Verb|Noun|Adj|Prep|Conj|Part|Intj)">
             <element name="Verb">
-    	        <structure role="#NODE">
-        		    <member name="form">
-        		        <list type="Form.type" ordered="1"/>
-        		    </member>	
-        		    <member name="pfirst">
-        		        <list type="Pattern.type" ordered="1"/>
-        		    </member>
-        		    <member name="imperf">
-        		        <list type="Pattern.type" ordered="1"/>
-        		    </member>
-        		    <member name="second">
-        		        <list type="Pattern.type" ordered="1"/>
-        		    </member>
-        		    <member name="tense"><cdata format="any"/></member>
-        		    <member name="voice"><cdata format="any"/></member>
-    	        </structure>
-    	    </element>
+                <structure role="#NODE">
+                    <member name="form">
+                        <list type="Form.type" ordered="1"/>
+                    </member>    
+                    <member name="pfirst">
+                        <list type="Pattern.type" ordered="1"/>
+                    </member>
+                    <member name="imperf">
+                        <list type="Pattern.type" ordered="1"/>
+                    </member>
+                    <member name="second">
+                        <list type="Pattern.type" ordered="1"/>
+                    </member>
+                    <member name="tense"><cdata format="any"/></member>
+                    <member name="voice"><cdata format="any"/></member>
+                </structure>
+            </element>
             <element name="Noun">
-    	        <structure role="#NODE">
-        		    <member name="plural" type="Plural.type" role="#CHILDNODES"/>
-        		    <member name="gender"><cdata format="any"/></member>
-        		    <member name="number"><cdata format="any"/></member>
-    	        </structure>
-    	    </element>
+                <structure role="#NODE">
+                    <member name="plural" type="Plural.type" role="#CHILDNODES"/>
+                    <member name="gender"><cdata format="any"/></member>
+                    <member name="number"><cdata format="any"/></member>
+                </structure>
+            </element>
             <element name="Adj" >
-    	        <structure role="#NODE">
+                <structure role="#NODE">
                     <member name="plural" type="Plural.type" role="#CHILDNODES"/>
                     <member name="number"><cdata format="any"/></member>
-    	        </structure>
+                </structure>
             </element>
             <element name="Prep">
                 <structure role="#NODE">
-        		    <member name="nothing"><cdata format="any"/></member>
-        		</structure>
-    	    </element>
+                    <member name="nothing"><cdata format="any"/></member>
+                </structure>
+            </element>
             <element name="Conj">
-    	        <structure role="#NODE">
-        		    <member name="nothing"><cdata format="any"/></member>
-        		</structure>
-    	    </element>
+                <structure role="#NODE">
+                    <member name="nothing"><cdata format="any"/></member>
+                </structure>
+            </element>
             <element name="Part">
-    	        <structure role="#NODE">
-        		    <member name="nothing"><cdata format="any"/></member>
-        		</structure>
-    	    </element>
+                <structure role="#NODE">
+                    <member name="nothing"><cdata format="any"/></member>
+                </structure>
+            </element>
             <element name="Intj">
-    	        <structure role="#NODE">
-        		    <member name="nothing"><cdata format="any"/></member>
-        		</structure>
-    	    </element>
+                <structure role="#NODE">
+                    <member name="nothing"><cdata format="any"/></member>
+                </structure>
+            </element>
         </sequence>
     </type>
 
     <type name="Form.type">
         <choice>
-    	    <value>I</value>
-    	    <value>II</value>
-    	    <value>III</value>
-    	    <value>IV</value>
-    	    <value>V</value>
-    	    <value>VI</value>
-    	    <value>VII</value>
-    	    <value>VIII</value>
-    	    <value>IX</value>
-    	    <value>X</value>
-    	    <value>XI</value>
-    	    <value>XII</value>
-    	    <value>XIII</value>
-    	    <value>XIV</value>
-    	    <value>XV</value>
+            <value>I</value>
+            <value>II</value>
+            <value>III</value>
+            <value>IV</value>
+            <value>V</value>
+            <value>VI</value>
+            <value>VII</value>
+            <value>VIII</value>
+            <value>IX</value>
+            <value>X</value>
+            <value>XI</value>
+            <value>XII</value>
+            <value>XIII</value>
+            <value>XIV</value>
+            <value>XV</value>
         </choice>
     </type>
 
     <type name="Plural.type">
         <sequence>
-    	    <element name="Right">
+            <element name="Right">
                 <container type="Morphs.type" role="#NODE"/>
             </element>
-    	    <element name="Left">
-    	        <structure role="#NODE">
-        		    <member name="fst" type="Root.type"/>
-        		    <member name="snd" type="Morphs.type"/>
-        		</structure>
-    	    </element>
+            <element name="Left">
+                <structure role="#NODE">
+                    <member name="fst" type="Root.type"/>
+                    <member name="snd" type="Morphs.type"/>
+                </structure>
+            </element>
         </sequence>
     </type>
 
