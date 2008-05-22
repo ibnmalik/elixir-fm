@@ -8,6 +8,16 @@
     <type name="Lexicon.type">
         <structure>
             <!--<member name="data" role="#TREES" required="1" type="Wrap.type"/>-->
+            <member name="meta">
+                <structure>
+                    <member name="revision">
+                        <cdata format="any"/>
+                    </member>
+                    <member name="date">
+                        <cdata format="any"/>
+                    </member>
+                </structure>
+            </member>
             <member name="data" required="1">
                 <sequence role="#TREES">
                     <element name="Wrap" type="Wrap.type"/>

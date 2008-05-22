@@ -9,12 +9,11 @@
 our $VERSION = do { q $Revision$ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
 
 
-use lib '/home/smrz/lib/perl5/site_perl/5.8.5', '/home/smrz/lib/perl5/5.8.5',
-        '/home/smrz/lib/perl5/site_perl/5.8.5/i386-linux-thread-multi',
-        '/home/smrz/lib/perl5/site_perl/5.8.5/i386-linux-thread-multi/auto';
+use lib '/home/smrz/lib/perl5/site_perl/5.10.0', '/home/smrz/lib/perl5/5.10.0',
+        '/home/smrz/lib/perl5/site_perl/5.10.0/i386-linux-thread-multi',
+        '/home/smrz/lib/perl5/site_perl/5.10.0/i386-linux-thread-multi/auto';
 
 use CGI::Fast ':standard';
-
 use Benchmark;
 
 BEGIN { @tick = (new Benchmark) }
@@ -45,8 +44,8 @@ sub report ($) {
 
     $data[7] =~ s/\",\"/\", \"/g;
 
-    @orth = map { encode "utf8", decode "arabtex", $_ } @data[1, 4];
-    @phon = map { encode "utf8", decode "zdmg", $_ } @data[1, 4];
+    @orth = map { decode "arabtex", $_ } @data[1, 4];
+    @phon = map { decode "zdmg", $_ } @data[1, 4];
 
     return join $", $q->td({-class => "xtag",
                             -title => "morphological tag"},         $data[0]),
@@ -80,20 +79,17 @@ sub report ($) {
 
 
 @examples = (   [ 'ArabTeX',    "ad-dars al-'awwal" ],
-                [ 'ArabTeX',    ".hawl na.hwi" ],
                 [ 'ArabTeX',    "y`tbru m.d'N" ],
                 [ 'ArabTeX',    "narY mqhN" ],
                 [ 'ArabTeX',    ".hayATN ^gyydTN" ],
                 [ 'Buckwalter', "Aldrs AlOwl" ],
-                [ 'Buckwalter', "Hawl naHw" ],
                 [ 'Buckwalter', "yEtbr mDy}A" ],
                 [ 'Buckwalter', "narY mqhY" ],
                 [ 'Buckwalter', "HyApN jydpN" ],
-                [ 'Unicode',    (encode "utf8", decode "buckwalter", "Aldrs AlOwl") ],
-                [ 'Unicode',    (encode "utf8", decode "buckwalter", "Hawl naHw") ],
-                [ 'Unicode',    (encode "utf8", decode "buckwalter", "yEtbr mDy}A") ],
-                [ 'Unicode',    (encode "utf8", decode "buckwalter", "narY mqhY") ],
-                [ 'Unicode',    (encode "utf8", decode "buckwalter", "HyApN jydpN") ]  );
+                [ 'Unicode',    (decode "buckwalter", "Aldrs AlOwl") ],
+                [ 'Unicode',    (decode "buckwalter", "yEtbr mDy}A") ],
+                [ 'Unicode',    (decode "buckwalter", "narY mqhY") ],
+                [ 'Unicode',    (decode "buckwalter", "HyApN jydpN") ]  );
 
 
 # open2(\*IMP, \*EXP, './elixirfm');
@@ -122,7 +118,13 @@ while ($q = new CGI::Fast) {
     print $start_form;
 
 
-    unless (defined $q->param('submit') and $q->param('submit') eq 'Resolve') {
+    $q->param('data', '') unless defined $q->param('data');
+
+    if (defined $q->param('submit') and $q->param('submit') eq 'Resolve') {
+
+	$q->param('text', decode "utf8", $q->param('text'));
+    }
+    else {
 
         $idx = rand @examples;
 
@@ -130,8 +132,6 @@ while ($q = new CGI::Fast) {
 
         $q->param('code', $examples[$idx][0]);
     }
-
-    $q->param('data', '') unless defined $q->param('data');
 
 
     print $q->h1($q->a({'href'=>'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM 1.0"), 'Resolve Online');
