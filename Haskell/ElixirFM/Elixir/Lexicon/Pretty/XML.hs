@@ -45,9 +45,9 @@ instance Pretty (Wrap Nest) => Pretty Lexicon where
                 <$$> empty <$$>
     	        (element "ElixirFM" [("xmlns", "http://ufal.mff.cuni.cz/pdt/pml/")] .
                     (element "head" [] (elempty "schema" [("href", "elixir.schema.xml")]) <$$>) .
-                    (element "meta" [] (elemtxt "revision" [] (text "$Revision$") <$$>
-                                        elemtxt "date" [] (text "$Date$")) <$$>) .
-		     element "data" []) (vcat (map pretty xs))
+                    (element "meta" [] (elemtxt "revision" [] (text ("$" ++ "Revision: " ++ "$")) <$$>
+                                        elemtxt "date" [] (text ("$" ++ "Date: " ++ "$"))) <$$>) .
+		             element "data" []) (vcat (map pretty xs))
                 <$$> empty
 
 
