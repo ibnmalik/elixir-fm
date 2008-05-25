@@ -55,9 +55,11 @@
   
     <type name="Entry.type">
         <structure role="#NODE">
-            <member name="entity" type="Entity.type" role="#CHILDNODES"/>
+            <!--<member name="entity" type="Entity.type" role="#CHILDNODES"/>-->
+            <member name="entity" type="Entity.type"/>
             <member name="morphs" type="Morphs.type"/>
             <member name="reflex" type="Reflex.type"/>
+            <member name="vallex" type="Vallex.type" role="#CHILDNODES"/>
         </structure>
     </type>
     
@@ -73,7 +75,8 @@
     <type name="Entity.type">
         <sequence content_pattern="(Verb|Noun|Adj|Prep|Conj|Part|Intj)">
             <element name="Verb">
-                <structure role="#NODE">
+                <!--<structure role="#NODE">-->
+                <structure>
                     <member name="form">
                         <list type="Form.type" ordered="1"/>
                     </member>    
@@ -91,35 +94,43 @@
                 </structure>
             </element>
             <element name="Noun">
-                <structure role="#NODE">
-                    <member name="plural" type="Plural.type" role="#CHILDNODES"/>
+                <!--<structure role="#NODE">-->
+                <structure>
+                    <!--<member name="plural" type="Plural.type" role="#CHILDNODES"/>-->
+                    <member name="plural" type="Plural.type"/>
                     <member name="gender"><cdata format="any"/></member>
                     <member name="number"><cdata format="any"/></member>
                 </structure>
             </element>
             <element name="Adj" >
-                <structure role="#NODE">
-                    <member name="plural" type="Plural.type" role="#CHILDNODES"/>
+                <!--<structure role="#NODE">-->
+                <structure>
+                    <!--<member name="plural" type="Plural.type" role="#CHILDNODES"/>-->
+                    <member name="plural" type="Plural.type"/>
                     <member name="number"><cdata format="any"/></member>
                 </structure>
             </element>
             <element name="Prep">
-                <structure role="#NODE">
+                <!--<structure role="#NODE">-->
+                <structure>
                     <member name="nothing"><cdata format="any"/></member>
                 </structure>
             </element>
             <element name="Conj">
-                <structure role="#NODE">
+                <!--<structure role="#NODE">-->
+                <structure>
                     <member name="nothing"><cdata format="any"/></member>
                 </structure>
             </element>
             <element name="Part">
-                <structure role="#NODE">
+                <!--<structure role="#NODE">-->
+                <structure>
                     <member name="nothing"><cdata format="any"/></member>
                 </structure>
             </element>
             <element name="Intj">
-                <structure role="#NODE">
+                <!--<structure role="#NODE">-->
+                <structure>
                     <member name="nothing"><cdata format="any"/></member>
                 </structure>
             </element>
@@ -148,11 +159,13 @@
 
     <type name="Plural.type">
         <sequence>
-            <element name="Right">
+            <!--<element name="Right">
                 <container type="Morphs.type" role="#NODE"/>
-            </element>
+            </element>-->
+            <element name="Right" type="Morphs.type"/>
             <element name="Left">
-                <structure role="#NODE">
+                <!--<structure role="#NODE">-->
+                <structure>
                     <member name="fst" type="Root.type"/>
                     <member name="snd" type="Morphs.type"/>
                 </structure>
@@ -172,4 +185,135 @@
         <list ordered="1"><cdata format="any"/></list>
     </type>
    
+    <type name="Vallex.type">
+        <sequence>
+            <element name="Frame">
+                <structure role="#NODE">
+                    <member name="reflex" type="Reflex.type"/>
+                    <member name="slots" role="#CHILDNODES">
+                        <sequence>
+                            <element name="Slot" type="Slot.type"/>
+                        </sequence>
+                    </member>
+                    <member name="links">
+                        <list ordered="1"><cdata format="any"/></list>
+                    </member>
+                </structure>
+            </element>
+        </sequence>
+    </type>
+
+    <type name="Slot.type">
+        <structure role="#NODE">
+            <member name="name" type="Functor.type"/>
+            <member name="type" type="Type.type"/>
+            <member name="data" role="#CHILDNODES">
+                <sequence>
+                    <element name="Node" type="Node.type"/>
+                </sequence>
+            </member>
+        </structure>
+    </type>
+    
+    <type name="Node.type">
+        <structure role="#NODE">
+            <member name="form">
+                <cdata format="any"/>
+            </member>
+            <member name="tag">
+                <cdata format="any"/>
+            </member>
+            <member name="with" role="#CHILDNODES">
+                <sequence>
+                    <element name="Node" type="Node.type"/>
+                </sequence>
+            </member>
+        </structure>
+    </type>
+    
+    <type name="Functor.type">
+        <!--<cdata format="any"/>-->
+        <choice>
+            <value>ACT</value>
+            <value>PAT</value>
+            <value>ADDR</value>
+            <value>EFF</value>
+            <value>ORIG</value>
+            <value>ACMP</value>
+            <value>ADVS</value>
+            <value>AIM</value>
+            <value>APP</value>
+            <value>APPS</value>
+            <value>ATT</value>
+            <value>BEN</value>
+            <value>CAUS</value>
+            <value>CNCS</value>
+            <value>COMPL</value>
+            <value>COND</value>
+            <value>CONJ</value>
+            <value>CONFR</value>
+            <value>CPR</value>
+            <value>CRIT</value>
+            <value>CSQ</value>
+            <value>CTERF</value>
+            <value>DENOM</value>
+            <value>DES</value>
+            <value>DIFF</value>
+            <value>DIR1</value>
+            <value>DIR2</value>
+            <value>DIR3</value>
+            <value>DISJ</value>
+            <value>DPHR</value>
+            <value>ETHD</value>
+            <value>EXT</value>
+            <value>EV</value>
+            <value>FPHR</value>
+            <value>GRAD</value>
+            <value>HER</value>
+            <value>ID</value>
+            <value>INTF</value>
+            <value>INTT</value>
+            <value>LOC</value>
+            <value>MANN</value>
+            <value>MAT</value>
+            <value>MEANS</value>
+            <value>MOD</value>
+            <value>NA</value>
+            <value>NORM</value>
+            <value>OPER</value>
+            <value>PAR</value>
+            <value>PARTL</value>
+            <value>PN</value>
+            <value>PREC</value>
+            <value>PRED</value>
+            <value>REAS</value>
+            <value>REG</value>
+            <value>RESL</value>
+            <value>RESTR</value>
+            <value>RHEM</value>
+            <value>RSTR</value>
+            <value>SUBS</value>
+            <value>TFHL</value>
+            <value>TFRWH</value>
+            <value>THL</value>
+            <value>THO</value>
+            <value>TOWH</value>
+            <value>TPAR</value>
+            <value>TSIN</value>
+            <value>TTILL</value>
+            <value>TWHEN</value>
+            <value>VOC</value>
+            <value>VOCAT</value>
+            <value>SENT</value>
+        </choice>
+    </type>
+    
+    <type name="Type.type">
+        <choice>
+            <value>OBL</value>
+            <value>OPT</value>
+            <value>TYP</value>
+        </choice>
+    </type>
+
 </pml_schema>
