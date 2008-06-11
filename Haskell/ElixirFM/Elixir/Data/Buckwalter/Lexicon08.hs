@@ -3628,35 +3628,35 @@ cluster_67  = listing "Lexicon's properties"
 
  |> "dA" <| [
 
-    Identity                  `noun`    {- dA -}               [ "" {- "Da" -} ] ]
+    Identity                  `noun`    {- dA -}               [ "Da" ] ]
 
  |> "dAfId" <| [
 
-    Identity                  `noun`    {- dAfiyd -}           [ "" {- "David" -} ] ]
+    Identity                  `noun`    {- dAfiyd -}           [ "David" ] ]
 
  |> "dAfIdI" <| [
 
-    Identity                  `noun`    {- dAfiydiy -}         [ "" {- "Davide" -} ] ]
+    Identity                  `noun`    {- dAfiydiy -}         [ "Davide" ] ]
 
  |> "dAfIn^sI" <| [
 
-    Identity                  `noun`    {- dAfiyno$iy -}       [ unwords [ "" {- "Da" -}, "" {- "Vinci" -} ] ] ]
+    Identity                  `noun`    {- dAfiyno$iy -}       [ unwords [ "Da", "Vinci" ] ] ]
 
  |> "dAhUmI" <| [
 
-    Identity                  `noun`    {- dAhuwmiy -}         [ "" {- "Dahomey" -} ] ]
+    Identity                  `noun`    {- dAhuwmiy -}         [ "Dahomey" ] ]
 
  |> "dAkAr" <| [
 
-    Identity                  `noun`    {- dAkAr -}            [ "" {- "Dakar" -} ] ]
+    Identity                  `noun`    {- dAkAr -}            [ "Dakar" ] ]
 
  |> "dAkkA" <| [
 
-    Identity                  `noun`    {- dAk~A -}            [ "" {- "Dhaka" -} ] ]
+    Identity                  `noun`    {- dAk~A -}            [ "Dhaka" ] ]
 
  |> "dAltUn" <| [
 
-    Identity                  `noun`    {- dAlotuwn -}         [ "" {- "Dalton" -} ] ]
+    Identity                  `noun`    {- dAlotuwn -}         [ "Dalton" ] ]
 
  |> "dAmA" <| [
 
@@ -3664,37 +3664,37 @@ cluster_67  = listing "Lexicon's properties"
 
  |> "dAmiyAnU" <| [
 
-    Identity                  `noun`    {- dAmiyAnuw -}        [ "" {- "Damiano" -} ] ]
+    Identity                  `noun`    {- dAmiyAnuw -}        [ "Damiano" ] ]
 
  |> "dAmrUn.g" <| [
 
-    Identity                  `noun`    {- dAmoruwng -}        [ "" {- "Damrong" -} ] ]
+    Identity                  `noun`    {- dAmoruwng -}        [ "Damrong" ] ]
 
  |> "dAnIlInkU" <| [
 
-    Identity                  `noun`    {- dAniyliynokuw -}    [ "" {- "Danilenko" -} ] ]
+    Identity                  `noun`    {- dAniyliynokuw -}    [ "Danilenko" ] ]
 
  |> "dAnIlUfIt^s" <| [
 
-    Identity                  `noun`    {- dAniyluwfiyt$ -}    [ "" {- "Danilovic" -}, "" {- "Danjlovic" -} ] ]
+    Identity                  `noun`    {- dAniyluwfiyt$ -}    [ "Danilovic", "Danjlovic" ] ]
 
  |> "dAnfUr_t" <| [
 
-    Identity                  `noun`    {- dAnofuwrv -}        [ "" {- "Danforth" -} ] ]
+    Identity                  `noun`    {- dAnofuwrv -}        [ "Danforth" ] ]
 
  |> "dAnimArk" <| [
 
-    Identity                  `noun`    {- dAnimArok -}        [ "" {- "Denmark" -} ],
+    Identity                  `noun`    {- dAnimArok -}        [ "Denmark" ],
 
-    Identity |< Iy            `adj`     {- dAnimArokiy~ -}     [ "" {- "Danish" -}, "" {- "Dane" -} ] ]
+    Identity |< Iy            `adj`     {- dAnimArokiy~ -}     [ "Danish", "Dane" ] ]
 
  |> "dAniyAl" <| [
 
-    Identity                  `noun`    {- dAniyAl -}          [ "" {- "Daniel" -} ] ]
+    Identity                  `noun`    {- dAniyAl -}          [ "Daniel" ] ]
 
  |> "dAniyIl" <| [
 
-    Identity                  `noun`    {- dAniyiyl -}         [ "" {- "Daniel" -} ] ]
+    Identity                  `noun`    {- dAniyiyl -}         [ "Daniel" ] ]
 
  |> "dAntIl" <| [
 
@@ -3710,43 +3710,43 @@ cluster_68  = listing "Lexicon's properties"
 
  |> "dArA" <| [
 
-    Identity                  `noun`    {- dArA -}             [ "" {- "Dara" -} ] ]
+    Identity                  `noun`    {- dArA -}             [ "Dara" ] ]
 
  |> "dArfUr" <| [
 
-    Identity                  `noun`    {- dArofuwr -}         [ "" {- "Darfour" -}, "" {- "Darfur" -} ] ]
+    Identity                  `noun`    {- dArofuwr -}         [ "Darfour", "Darfur" ] ]
 
  |> "dArkU" <| [
 
-    Identity                  `noun`    {- dArokuw -}          [ "" {- "Darko" -} ] ]
+    Identity                  `noun`    {- dArokuw -}          [ "Darko" ] ]
 
  |> "dAwud" <| [
 
-    Identity                  `noun`    {- dAwud -}            [ "" {- "David" -}, "" {- "Daud" -}, "" {- "Daoud" -} ] ]
+    Identity                  `noun`    {- dAwud -}            [ "David", "Daud", "Daoud" ] ]
 
  |> "dAytUn" <| [
 
-    Identity                  `noun`    {- dAyotuwn -}         [ "" {- "Dayton" -} ] ]
+    Identity                  `noun`    {- dAyotuwn -}         [ "Dayton" ] ]
 
  |> "dI^gAnIrU" <| [
 
-    Identity                  `noun`    {- diyjAniyruw -}      [ unwords [ "" {- "De" -}, "" {- "Janiero" -} ] ] ]
+    Identity                  `noun`    {- diyjAniyruw -}      [ unwords [ "De", "Janiero" ] ] ]
 
  |> "dI^gItAl" <| [
 
-    Identity                  `noun`    {- diyjiytAl -}        [ "" {- "Digital" -} ] ]
+    Identity                  `noun`    {- diyjiytAl -}        [ "Digital" ] ]
 
  |> "dIbUrtIfU" <| [
 
-    Identity                  `noun`    {- diybuwrotiyfuw -}   [ "" {- "Deportivo" -} ] ]
+    Identity                  `noun`    {- diybuwrotiyfuw -}   [ "Deportivo" ] ]
 
  |> "dIdIyih" <| [
 
-    Identity                  `noun`    {- diydiyyih -}        [ "" {- "Didier" -} ] ]
+    Identity                  `noun`    {- diydiyyih -}        [ "Didier" ] ]
 
  |> "dIfAt^s" <| [
 
-    Identity                  `noun`    {- diyfAt$ -}          [ "" {- "Divac" -} ] ]
+    Identity                  `noun`    {- diyfAt$ -}          [ "Divac" ] ]
 
  |> "dIfilIh" <| [
 
@@ -3762,7 +3762,7 @@ cluster_68  = listing "Lexicon's properties"
 
  |> "dIkU^gI" <| [
 
-    Identity                  `noun`    {- diykuwjiy -}        [ "" {- "Decugis" -} ] ]
+    Identity                  `noun`    {- diykuwjiy -}        [ "Decugis" ] ]
 
  |> "dIkUltIh" <| [
 
@@ -3770,7 +3770,7 @@ cluster_68  = listing "Lexicon's properties"
 
  |> "dIkmAn" <| [
 
-    Identity                  `noun`    {- diykomAn -}         [ "" {- "Dickman" -} ] ]
+    Identity                  `noun`    {- diykomAn -}         [ "Dickman" ] ]
 
  |> "dIktAtUr" <| [
 
@@ -3792,15 +3792,15 @@ cluster_69  = listing "Lexicon's properties"
 
  |> "dImArIh" <| [
 
-    Identity                  `noun`    {- diymAriyh -}        [ "" {- "Demaret" -} ] ]
+    Identity                  `noun`    {- diymAriyh -}        [ "Demaret" ] ]
 
  |> "dImIrIl" <| [
 
-    Identity                  `noun`    {- diymiyriyl -}       [ "" {- "Demirel" -} ] ]
+    Identity                  `noun`    {- diymiyriyl -}       [ "Demirel" ] ]
 
  |> "dImItrI" <| [
 
-    Identity                  `noun`    {- diymiytriy -}       [ "" {- "Dimitri" -} ] ]
+    Identity                  `noun`    {- diymiytriy -}       [ "Dimitri" ] ]
 
  |> "dImU.grAf" <| [
 
@@ -3824,7 +3824,7 @@ cluster_69  = listing "Lexicon's properties"
 
  |> "dInA" <| [
 
-    Identity                  `noun`    {- diynA -}            [ "" {- "Dina" -} ] ]
+    Identity                  `noun`    {- diynA -}            [ "Dina" ] ]
 
  |> "dInAmIk" <| [
 
@@ -3832,7 +3832,7 @@ cluster_69  = listing "Lexicon's properties"
 
  |> "dInAmIks" <| [
 
-    Identity                  `noun`    {- diynAmiyks -}       [ "" {- "Dynamics" -} ] ]
+    Identity                  `noun`    {- diynAmiyks -}       [ "Dynamics" ] ]
 
  |> "dInAmIt" <| [
 
@@ -3844,19 +3844,19 @@ cluster_69  = listing "Lexicon's properties"
 
  |> "dIrnir" <| [
 
-    Identity                  `noun`    {- diyrnir -}          [ "" {- "Derner" -} ] ]
+    Identity                  `noun`    {- diyrnir -}          [ "Derner" ] ]
 
  |> "dIsambir" <| [
 
-    Identity                  `noun`    {- diysamobir -}       [ "" {- "December" -} ] ]
+    Identity                  `noun`    {- diysamobir -}       [ "December" ] ]
 
  |> "dItrUyt" <| [
 
-    Identity                  `noun`    {- diytruwyt -}        [ "" {- "Detroit" -} ] ]
+    Identity                  `noun`    {- diytruwyt -}        [ "Detroit" ] ]
 
  |> "dIzIrIh" <| [
 
-    Identity                  `noun`    {- diyziyriyh -}       [ "" {- "Desire" -}, "" {- "Desiree" -} ] ]
+    Identity                  `noun`    {- diyziyriyh -}       [ "Desire", "Desiree" ] ]
 
 
 cluster_70  = listing "Lexicon's properties"
@@ -3864,15 +3864,15 @@ cluster_70  = listing "Lexicon's properties"
 
  |> "dIznI" <| [
 
-    Identity                  `noun`    {- diyzoniy -}         [ "" {- "Disney" -} ] ]
+    Identity                  `noun`    {- diyzoniy -}         [ "Disney" ] ]
 
  |> "dU.glAs" <| [
 
-    Identity                  `noun`    {- duwgolAs -}         [ "" {- "Douglas" -} ] ]
+    Identity                  `noun`    {- duwgolAs -}         [ "Douglas" ] ]
 
  |> "dU^sIfAr" <| [
 
-    Identity                  `noun`    {- duw$iyfAr -}        [ unwords [ "" {- "Doshifar" -}, "?", "?" ] ] ]
+    Identity                  `noun`    {- duw$iyfAr -}        [ unwords [ "Doshifar", "?", "?" ] ] ]
 
  |> "dUblA^g" <| [
 
@@ -3884,19 +3884,19 @@ cluster_70  = listing "Lexicon's properties"
 
  |> "dUfdIfAn" <| [
 
-    Identity                  `noun`    {- duwfodiyfAn -}      [ unwords [ "" {- "Dov" -}, "" {- "Devan" -} ] ] ]
+    Identity                  `noun`    {- duwfodiyfAn -}      [ unwords [ "Dov", "Devan" ] ] ]
 
  |> "dUhAldI" <| [
 
-    Identity                  `noun`    {- duwhAlodiy -}       [ "" {- "Duhalde" -} ] ]
+    Identity                  `noun`    {- duwhAlodiy -}       [ "Duhalde" ] ]
 
  |> "dUkUmU" <| [
 
-    Identity                  `noun`    {- duwkuwmuw -}        [ "" {- "DOCOMO" -} ] ]
+    Identity                  `noun`    {- duwkuwmuw -}        [ "DOCOMO" ] ]
 
  |> "dUmA" <| [
 
-    Identity                  `noun`    {- duwmA -}            [ "" {- "Duma" -} ] ]
+    Identity                  `noun`    {- duwmA -}            [ "Duma" ] ]
 
  |> "dUmAn^g" <| [
 
@@ -3904,9 +3904,9 @@ cluster_70  = listing "Lexicon's properties"
 
  |> "dUmInIk" <| [
 
-    Identity                  `noun`    {- duwmiyniyk -}       [ "" {- "Dominik" -} ],
+    Identity                  `noun`    {- duwmiyniyk -}       [ "Dominik" ],
 
-    Identity                  `noun`    {- duwmiyniyk -}       [ "" {- "Dominique" -} ] ]
+    Identity                  `noun`    {- duwmiyniyk -}       [ "Dominique" ] ]
 
  |> "dUmarI" <| [
 
@@ -3914,11 +3914,11 @@ cluster_70  = listing "Lexicon's properties"
 
  |> "dUnAld" <| [
 
-    Identity                  `noun`    {- duwnAld -}          [ "" {- "Donald" -} ] ]
+    Identity                  `noun`    {- duwnAld -}          [ "Donald" ] ]
 
  |> "dUrtmUnd" <| [
 
-    Identity                  `noun`    {- duwrotmuwnod -}     [ "" {- "Dortmund" -} ] ]
+    Identity                  `noun`    {- duwrotmuwnod -}     [ "Dortmund" ] ]
 
  |> "dUsin.tAriyA" <| [
 
@@ -3930,11 +3930,11 @@ cluster_70  = listing "Lexicon's properties"
 
  |> "dUstum" <| [
 
-    Identity                  `noun`    {- duwsotum -}         [ "" {- "Dustum" -} ] ]
+    Identity                  `noun`    {- duwsotum -}         [ "Dustum" ] ]
 
  |> "d^gUrkAyif" <| [
 
-    Identity                  `noun`    {- djuwrokAyif -}      [ "" {- "Djorkaeff" -} ] ]
+    Identity                  `noun`    {- djuwrokAyif -}      [ "Djorkaeff" ] ]
 
  |> "daftar_hAn" <| [
 
@@ -3946,9 +3946,9 @@ cluster_71  = listing "Lexicon's properties"
 
  |> "damanhUr" <| [
 
-    Identity                  `noun`    {- damanohuwr -}       [ "" {- "Damanhour" -} ],
+    Identity                  `noun`    {- damanohuwr -}       [ "Damanhour" ],
 
-    Identity |< Iy            `adj`     {- damanohuwriy~ -}    [ unwords [ "from", "/", "of", "" {- "Damanhour" -} ] ] ]
+    Identity |< Iy            `adj`     {- damanohuwriy~ -}    [ unwords [ "from", "/", "of", "Damanhour" ] ] ]
 
  |> "damaqra.t" <| [
 
@@ -3960,15 +3960,15 @@ cluster_71  = listing "Lexicon's properties"
 
  |> "danimArk" <| [
 
-    Identity                  `noun`    {- danimArok -}        [ "" {- "Denmark" -} ],
+    Identity                  `noun`    {- danimArok -}        [ "Denmark" ],
 
-    Identity |< Iy            `adj`     {- danimArokiy~ -}     [ "" {- "Danish" -}, "" {- "Dane" -} ] ]
+    Identity |< Iy            `adj`     {- danimArokiy~ -}     [ "Danish", "Dane" ] ]
 
  |> "danimark" <| [
 
-    Identity                  `noun`    {- danimarok -}        [ "" {- "Denmark" -} ],
+    Identity                  `noun`    {- danimarok -}        [ "Denmark" ],
 
-    Identity |< Iy            `adj`     {- danimarokiy~ -}     [ "" {- "Danish" -}, "" {- "Dane" -} ] ]
+    Identity |< Iy            `adj`     {- danimarokiy~ -}     [ "Danish", "Dane" ] ]
 
  |> "dantillA" <| [
 
@@ -3996,7 +3996,7 @@ cluster_71  = listing "Lexicon's properties"
 
  |> "dayfinbUrt" <| [
 
-    Identity                  `noun`    {- dayofinbuwrt -}     [ "" {- "Davenport" -} ] ]
+    Identity                  `noun`    {- dayofinbuwrt -}     [ "Davenport" ] ]
 
  |> "dazzIn" <| [
 
@@ -4004,7 +4004,7 @@ cluster_71  = listing "Lexicon's properties"
 
  |> "ddIn" <| [
 
-    al >| Identity            `noun`    {- Ald~iyn -}          [ unwords [ "" {- "Al" -}, "-", "" {- "Din" -} ], unwords [ "" {- "El" -}, "-", "" {- "Din" -} ], "" {- "Eddin" -} ] ]
+    al >| Identity            `noun`    {- Ald~iyn -}          [ unwords [ "Al", "-", "Din" ], unwords [ "El", "-", "Din" ], "Eddin" ] ]
 
  |> "diblUmAs" <| [
 
@@ -4024,7 +4024,7 @@ cluster_72  = listing "Lexicon's properties"
 
  |> "didI" <| [
 
-    Identity                  `noun`    {- didiy -}            [ "" {- "Didi" -} ] ]
+    Identity                  `noun`    {- didiy -}            [ "Didi" ] ]
 
  |> "diftiriyA" <| [
 
@@ -4036,7 +4036,7 @@ cluster_72  = listing "Lexicon's properties"
 
  |> "dil.gAdU" <| [
 
-    Identity                  `noun`    {- dilogAduw -}        [ "" {- "Delgado" -} ] ]
+    Identity                  `noun`    {- dilogAduw -}        [ "Delgado" ] ]
 
  |> "diltA" <| [
 
@@ -4044,9 +4044,9 @@ cluster_72  = listing "Lexicon's properties"
 
  |> "dima^sq" <| [
 
-    Identity                  `noun`    {- dima$oq -}          [ "" {- "Damascus" -} ],
+    Identity                  `noun`    {- dima$oq -}          [ "Damascus" ],
 
-    Identity |< Iy            `adj`     {- dima$oqiy~ -}       [ unwords [ "from", "/", "of", "" {- "Damascus" -} ], "" {- "Damascene" -} ] ]
+    Identity |< Iy            `adj`     {- dima$oqiy~ -}       [ unwords [ "from", "/", "of", "Damascus" ], "Damascene" ] ]
 
  |> "dimaqs" <| [
 
@@ -4064,7 +4064,7 @@ cluster_72  = listing "Lexicon's properties"
 
  |> "dink.tA^s" <| [
 
-    Identity                  `noun`    {- dinokoTA$ -}        [ "" {- "Denktash" -} ] ]
+    Identity                  `noun`    {- dinokoTA$ -}        [ "Denktash" ] ]
 
  |> "dirAmA" <| [
 
@@ -4088,7 +4088,7 @@ cluster_72  = listing "Lexicon's properties"
 
  |> "distAynd" <| [
 
-    Identity                  `noun`    {- disotAynd -}        [ "" {- "Destined" -} ] ]
+    Identity                  `noun`    {- disotAynd -}        [ "Destined" ] ]
 
 
 cluster_73  = listing "Lexicon's properties"
@@ -4096,7 +4096,7 @@ cluster_73  = listing "Lexicon's properties"
 
  |> "diyA^giyU" <| [
 
-    Identity                  `noun`    {- diyAjiyuw -}        [ "" {- "Diageo" -} ] ]
+    Identity                  `noun`    {- diyAjiyuw -}        [ "Diageo" ] ]
 
  |> "diyAlU^g" <| [
 
@@ -4110,39 +4110,39 @@ cluster_73  = listing "Lexicon's properties"
 
  |> "diyAnA" <| [
 
-    Identity                  `noun`    {- diyAnA -}           [ "" {- "Diana" -} ] ]
+    Identity                  `noun`    {- diyAnA -}           [ "Diana" ] ]
 
  |> "diyUf" <| [
 
-    Identity                  `noun`    {- diyuwf -}           [ "" {- "Diouf" -} ] ]
+    Identity                  `noun`    {- diyuwf -}           [ "Diouf" ] ]
 
  |> "diyUkAnUfIt^s" <| [
 
-    Identity                  `noun`    {- diyuwkAnuwfiyt$ -}  [ "" {- "Djukanovic" -} ] ]
+    Identity                  `noun`    {- diyuwkAnuwfiyt$ -}  [ "Djukanovic" ] ]
 
  |> "diyUrdIyifIt^s" <| [
 
-    Identity                  `noun`    {- diyuwrodiyyifiyt$ -} [ "" {- "Djordjevic" -} ] ]
+    Identity                  `noun`    {- diyuwrodiyyifiyt$ -} [ "Djordjevic" ] ]
 
  |> "drIks" <| [
 
-    Identity                  `noun`    {- driykos -}          [ "" {- "Drixie" -} ] ]
+    Identity                  `noun`    {- driykos -}          [ "Drixie" ] ]
 
  |> "drIm" <| [
 
-    Identity                  `noun`    {- driym -}            [ "" {- "Dream" -} ] ]
+    Identity                  `noun`    {- driym -}            [ "Dream" ] ]
 
  |> "drUrI" <| [
 
-    Identity                  `noun`    {- druwriy -}          [ "" {- "Drury" -} ] ]
+    Identity                  `noun`    {- druwriy -}          [ "Drury" ] ]
 
  |> "drisdin" <| [
 
-    Identity                  `noun`    {- drisodin -}         [ "" {- "Dresden" -} ] ]
+    Identity                  `noun`    {- drisodin -}         [ "Dresden" ] ]
 
  |> "du^ganbir" <| [
 
-    Identity                  `noun`    {- dujanobir -}        [ "" {- "December" -} ] ]
+    Identity                  `noun`    {- dujanobir -}        [ "December" ] ]
 
  |> "du^gunn" <| [
 
@@ -4162,7 +4162,7 @@ cluster_73  = listing "Lexicon's properties"
 
  |> "dunqulah" <| [
 
-    Identity                  `noun`    {- dunoqulah -}        [ "" {- "Dongola" -} ] ]
+    Identity                  `noun`    {- dunoqulah -}        [ "Dongola" ] ]
 
  |> "durayhim" <| [
 
@@ -4170,7 +4170,7 @@ cluster_73  = listing "Lexicon's properties"
 
  |> "dusildUrf" <| [
 
-    Identity                  `noun`    {- dusiloduwrf -}      [ "" {- "Dusseldorf" -} ] ]
+    Identity                  `noun`    {- dusiloduwrf -}      [ "Dusseldorf" ] ]
 
 
 cluster_74  = listing "Lexicon's properties"
@@ -4186,7 +4186,7 @@ cluster_74  = listing "Lexicon's properties"
 
  |> "dwdAyf" <| [
 
-    Identity                  `noun`    {- dwdAyf -}           [ "" {- "Dudayev" -} ] ]
+    Identity                  `noun`    {- dwdAyf -}           [ "Dudayev" ] ]
 
  |> "midfa`^g" <| [
 

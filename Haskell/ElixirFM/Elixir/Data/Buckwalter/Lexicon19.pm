@@ -848,11 +848,11 @@ $Lexicon = {
       'entry' => '\'a.gwY',
       'form' => '\'a.gwY',
       'lines' => [
-        ';; >agowaY_1',
-        '>agowaY PV_0    mislead;seduce',
-        '>agowA  PV_h    mislead;seduce',
-        '>agoway PV_Atn  mislead;seduce',
-        '>agow   PV_ttAw mislead;seduce',
+        ';; OagowaY_1',
+        'OagowaY PV_0    mislead;seduce',
+        'OagowA  PV_h    mislead;seduce',
+        'Oagoway PV_Atn  mislead;seduce',
+        'Oagow   PV_ttAw mislead;seduce',
         'gowiy   IV_0hAnn_yu     mislead;seduce',
         'gow     IV_0hwnyn_yu    mislead;seduce',
         'gowaY   IV_0_Pass_yu    be misled;be seduced',
@@ -1005,9 +1005,9 @@ $Lexicon = {
       'entry' => '\'u.gwiyy',
       'form' => '\'u.gwiyyaT',
       'lines' => [
-        ';; >ugowiy~ap_1',
-        '>ugowiy~        Napdu   pitfall;trap     [[>ugowiy~/NOUN]]',
-        '>agAwiy~        N0_Nh   pitfalls;traps'
+        ';; Ougowiy~ap_1',
+        'Ougowiy~        Napdu   pitfall;trap     [[Ougowiy~/NOUN]]',
+        'OagAwiy~        N0_Nh   pitfalls;traps'
       ],
       'patterns' => {
         '\'a.gAwiyy' => [
@@ -1036,11 +1036,11 @@ $Lexicon = {
       'entry' => '\'i.gwA\'',
       'form' => '\'i.gwA\'',
       'lines' => [
-        ';; <igowA\'_1',
-        '<igowA\' N0_Nh   seduction;allurement',
-        '<igowA& Nh      seduction;allurement',
-        '<igowA} Nhy     seduction;allurement',
-        '<igowA\' NAt     seduction;allurement'
+        ';; IigowA\'_1',
+        'IigowA\' N0_Nh   seduction;allurement',
+        'IigowAW Nh      seduction;allurement',
+        'IigowA} Nhy     seduction;allurement',
+        'IigowA\' NAt     seduction;allurement'
       ],
       'patterns' => {
         '\'i.gwA\'' => [
@@ -1301,8 +1301,8 @@ $Lexicon = {
       'entry' => '\'a.gma.d',
       'form' => '\'a.gma.d',
       'lines' => [
-        ';; >agomaD_1',
-        '>agomaD PV      blur;blind',
+        ';; OagomaD_1',
+        'OagomaD PV      blur;blind',
         'gomiD   IV_yu   blur;blind',
         'gomaD   IV_Pass_yu      be blurred;be blinded'
       ],
@@ -1459,8 +1459,8 @@ $Lexicon = {
       'entry' => '\'a.gma.d',
       'form' => '\'a.gma.d',
       'lines' => [
-        ';; >agomaD_2',
-        '>agomaD Nel     more/most obscure;more/most vague'
+        ';; OagomaD_2',
+        'OagomaD Nel     more/most obscure;more/most vague'
       ],
       'patterns' => {},
       'index' => '2',
@@ -1657,8 +1657,8 @@ $Lexicon = {
       'entry' => '\'a.gfal',
       'form' => '\'a.gfal',
       'lines' => [
-        ';; >agofal_1',
-        '>agofal PV      neglect;overlook;disregard',
+        ';; Oagofal_1',
+        'Oagofal PV      neglect;overlook;disregard',
         'gofil   IV_yu   neglect;overlook;disregard',
         'gofal   IV_Pass_yu      be neglected;be overlooked;be disregarded'
       ],
@@ -1742,7 +1742,7 @@ $Lexicon = {
       'lines' => [
         ';; gufol_1',
         'gufol   N       anonymous;unmarked;devoid',
-        '>agofAl N       anonymous;unmarked;devoid'
+        'OagofAl N       anonymous;unmarked;devoid'
       ],
       'patterns' => {
         '\'a.gfAl' => [
@@ -1874,8 +1874,8 @@ $Lexicon = {
       'entry' => '\'i.gfAl',
       'form' => '\'i.gfAl',
       'lines' => [
-        ';; <igofAl_1',
-        '<igofAl N/At    disregard;omission;forgetting'
+        ';; IigofAl_1',
+        'IigofAl N/At    disregard;omission;forgetting'
       ],
       'patterns' => {
         '\'i.gfAl' => [
@@ -2365,11 +2365,11 @@ $Lexicon = {
       'entry' => '\'a.g_tY',
       'form' => '\'a.g_tY',
       'lines' => [
-        ';; >agovaY_1',
-        '>agovaY PV_0    nauseate;disgust',
-        '>agovA  PV_h    nauseate;disgust',
-        '>agovay PV_Atn  nauseate;disgust',
-        '>agov   PV_ttAw nauseate;disgust',
+        ';; OagovaY_1',
+        'OagovaY PV_0    nauseate;disgust',
+        'OagovA  PV_h    nauseate;disgust',
+        'Oagovay PV_Atn  nauseate;disgust',
+        'Oagov   PV_ttAw nauseate;disgust',
         'goviy   IV_0hAnn_yu     nauseate;disgust',
         'gov     IV_0hwnyn_yu    nauseate;disgust',
         'govaY   IV_0_Pass_yu    be nauseated;be disgusted',
@@ -2448,7 +2448,7 @@ $Lexicon = {
       'lines' => [
         ';; guvA\'_1',
         'guvA\'   N0_Nh   scum',
-        'guvA&   Nh      scum',
+        'guvAW   Nh      scum',
         'guvA}   Nhy     scum'
       ],
       'patterns' => {},
@@ -2725,9 +2725,9 @@ $Lexicon = {
       'lines' => [
         ';; giTA\'_1',
         'giTA\'   N0_Nh   cover;blanket',
-        'giTA&   Nh      cover;blanket',
+        'giTAW   Nh      cover;blanket',
         'giTA}   Nhy     cover;blanket',
-        '>agoTiy Nap     covers;blankets'
+        'OagoTiy Nap     covers;blankets'
       ],
       'patterns' => {
         '\'a.g.tiy' => [
@@ -2877,8 +2877,8 @@ $Lexicon = {
       'entry' => '\'u.griy',
       'form' => '\'u.griy',
       'lines' => [
-        ';; >ugoriy_2',
-        '>ugoriy PV_intr be seduced',
+        ';; Ougoriy_2',
+        'Ougoriy PV_intr be seduced',
         'goray   IV_Ann  be seduced',
         'gor     IV_0hwnyn       be seduced',
         'goraY   IV_0_Pass_yu    be seduced'
@@ -3150,8 +3150,8 @@ $Lexicon = {
       'entry' => '\'a.gnam',
       'form' => '\'a.gnam',
       'lines' => [
-        ';; >agonam_1',
-        '>agonam PV      bestow',
+        ';; Oagonam_1',
+        'Oagonam PV      bestow',
         'gonim   IV_yu   bestow',
         'gonam   IV_Pass_yu      be bestown'
       ],
@@ -3279,7 +3279,7 @@ $Lexicon = {
       'lines' => [
         ';; ganam_1',
         'ganam   N       sheep',
-        '>agonAm N       sheep'
+        'OagonAm N       sheep'
       ],
       'patterns' => {
         '\'a.gnAm' => [
@@ -3634,8 +3634,8 @@ $Lexicon = {
       'entry' => '\'a.gzar',
       'form' => '\'a.gzar',
       'lines' => [
-        ';; >agozar_1',
-        '>agozar Nel     more/most abundant'
+        ';; Oagozar_1',
+        'Oagozar Nel     more/most abundant'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3742,8 +3742,8 @@ $Lexicon = {
       'entry' => '\'a.gbar',
       'form' => '\'a.gbar',
       'lines' => [
-        ';; >agobar_1',
-        '>agobar PV      raise dust;cover with dust',
+        ';; Oagobar_1',
+        'Oagobar PV      raise dust;cover with dust',
         'gobir   IV_yu   raise dust;cover with dust',
         'gobar   IV_Pass_yu      be covered with dust'
       ],
@@ -3897,7 +3897,7 @@ $Lexicon = {
       'lines' => [
         ';; gubAr_1',
         'gubAr   N       dust',
-        '>agobir Nap     dust'
+        'Oagobir Nap     dust'
       ],
       'patterns' => {
         '\'a.gbir' => [
@@ -3928,10 +3928,10 @@ $Lexicon = {
       'entry' => '\'a.gbar',
       'form' => '\'a.gbar',
       'lines' => [
-        ';; >agobar_2',
-        '>agobar Nel     dust-colored',
+        ';; Oagobar_2',
+        'Oagobar Nel     dust-colored',
         'gaborA\' N0_Nh   dust-colored',
-        'gaborA& Nh      dust-colored',
+        'gaborAW Nh      dust-colored',
         'gaborA} Nhy     dust-colored',
         'gubor   N       dust-colored'
       ],
@@ -3964,10 +3964,10 @@ $Lexicon = {
       'entry' => '\'a.gbar',
       'form' => '\'a.gbar',
       'lines' => [
-        ';; >agobar_3',
-        '>agobar N0      earth;Earth',
+        ';; Oagobar_3',
+        'Oagobar N0      earth;Earth',
         'gaborA\' N0_Nh   earth;Earth',
-        'gaborA& Nh      earth;Earth',
+        'gaborAW Nh      earth;Earth',
         'gaborA} Nhy     earth;Earth'
       ],
       'patterns' => {
@@ -4144,9 +4144,9 @@ $Lexicon = {
       'entry' => '\'a.ga_d_d',
       'form' => '\'a.ga_d_d',
       'lines' => [
-        ';; >aga*~_1',
-        '>aga*~  PV_V    hurry;suppurate',
-        '>ago*a* PV_C    hurry;suppurate',
+        ';; Oaga*~_1',
+        'Oaga*~  PV_V    hurry;suppurate',
+        'Oago*a* PV_C    hurry;suppurate',
         'gi*~    IV_V_yu hurry;suppurate',
         'go*i*   IV_C_yu hurry;suppurate'
       ],
@@ -4201,8 +4201,8 @@ $Lexicon = {
       'entry' => '\'i.g_dA_d',
       'form' => '\'i.g_dA_d',
       'lines' => [
-        ';; <igo*A*_1',
-        '<igo*A* N/At    hurrying;festering'
+        ';; Iigo*A*_1',
+        'Iigo*A* N/At    hurrying;festering'
       ],
       'patterns' => {
         '\'i.g_dA_d' => [
@@ -4485,7 +4485,7 @@ $Lexicon = {
         ';; gayoDap_1',
         'gayoD   NapAt   thicket;jungle',
         'giyAD   N       thicket;jungle',
-        '>agoyAD N       thicket;jungle'
+        'OagoyAD N       thicket;jungle'
       ],
       'patterns' => {
         '.giyA.d' => [
@@ -4853,8 +4853,8 @@ $Lexicon = {
       'entry' => '\'a.gba.t',
       'form' => '\'a.gba.t',
       'lines' => [
-        ';; >agobaT_1',
-        '>agobaT PV      enchant',
+        ';; OagobaT_1',
+        'OagobaT PV      enchant',
         'gobiT   IV_yu   enchant',
         'gobaT   IV_Pass_yu      be enchanted'
       ],
@@ -5115,9 +5115,9 @@ $Lexicon = {
       'entry' => '\'a.gAr',
       'form' => '\'a.gAr',
       'lines' => [
-        ';; >agAr_2',
-        '>agAr   PV_V    make jealous',
-        '>agar   PV_C    make jealous',
+        ';; OagAr_2',
+        'OagAr   PV_V    make jealous',
+        'Oagar   PV_C    make jealous',
         'giyr    IV_V_yu make jealous',
         'gir     IV_C_yu make jealous',
         'gAr     IV_V_Pass_yu    be made jealous',
@@ -6383,7 +6383,7 @@ $Lexicon = {
       'lines' => [
         ';; girA\'_1',
         'girA\'   N0_Nh   glue',
-        'girA&   Nh      glue',
+        'girAW   Nh      glue',
         'girA}   Nhy     glue'
       ],
       'patterns' => {},
@@ -6446,11 +6446,11 @@ $Lexicon = {
       'entry' => '\'i.grA\'',
       'form' => '\'i.grA\'',
       'lines' => [
-        ';; <igorA\'_1',
-        '<igorA\' N0_Nh   incitement;instigation',
-        '<igorA& Nh      incitement;instigation',
-        '<igorA} Nhy     incitement;instigation',
-        '<igorA\' NAt     incitement;instigation'
+        ';; IigorA\'_1',
+        'IigorA\' N0_Nh   incitement;instigation',
+        'IigorAW Nh      incitement;instigation',
+        'IigorA} Nhy     incitement;instigation',
+        'IigorA\' NAt     incitement;instigation'
       ],
       'patterns' => {
         '\'i.grA\'' => [
@@ -6545,11 +6545,11 @@ $Lexicon = {
       'entry' => '\'a.gyan',
       'form' => '\'a.gyan',
       'lines' => [
-        ';; >agoyan_1',
-        '>agoyan Nel     bushy;dense     [[>agoyan/ADJ]]',
-        '>agoyan Nel     bushy;dense',
+        ';; Oagoyan_1',
+        'Oagoyan Nel     bushy;dense     [[Oagoyan/ADJ]]',
+        'Oagoyan Nel     bushy;dense',
         'gayonA\' N0_Nh   bushy;dense',
-        'gayonA& Nh      bushy;dense',
+        'gayonAW Nh      bushy;dense',
         'gayonA} Nhy     bushy;dense'
       ],
       'patterns' => {
@@ -6779,7 +6779,7 @@ $Lexicon = {
       'lines' => [
         ';; giyl_1',
         'giyl    N       thicket',
-        '>agoyAl N       thicket;bushes'
+        'OagoyAl N       thicket;bushes'
       ],
       'patterns' => {
         '\'a.gyAl' => [
@@ -6891,9 +6891,9 @@ $Lexicon = {
       'lines' => [
         ';; gi$A\'_1',
         'gi$A\'   N0_Nh   covering;coating;membrane',
-        'gi$A&   Nh      covering;coating;membrane',
+        'gi$AW   Nh      covering;coating;membrane',
         'gi$A}   Nhy     covering;coating;membrane',
-        '>ago$iy Nap     covering;coating;membranes'
+        'Oago$iy Nap     covering;coating;membranes'
       ],
       'patterns' => {
         '\'a.g^siy' => [
@@ -7237,11 +7237,11 @@ $Lexicon = {
       'entry' => '\'a.glY',
       'form' => '\'a.glY',
       'lines' => [
-        ';; >agolaY_1',
-        '>agolaY PV_0    raise (price);make expensive',
-        '>agolA  PV_h    raise (price);make expensive',
-        '>agolay PV_Atn  raise (price);make expensive',
-        '>agol   PV_ttAw raise (price);make expensive',
+        ';; OagolaY_1',
+        'OagolaY PV_0    raise (price);make expensive',
+        'OagolA  PV_h    raise (price);make expensive',
+        'Oagolay PV_Atn  raise (price);make expensive',
+        'Oagol   PV_ttAw raise (price);make expensive',
         'goliy   IV_0hAnn_yu     raise (price);make expensive',
         'gol     IV_0hwnyn_yu    raise (price);make expensive',
         'golaY   IV_0_Pass_yu    be raised (price)',
@@ -7380,7 +7380,7 @@ $Lexicon = {
       'lines' => [
         ';; galA\'_1',
         'galA\'   N0_Nh   high cost;rising cost',
-        'galA&   Nh      high cost;rising cost',
+        'galAW   Nh      high cost;rising cost',
         'galA}   Nhy     high cost;rising cost'
       ],
       'patterns' => {},
@@ -7402,7 +7402,7 @@ $Lexicon = {
       'lines' => [
         ';; gulowA\'_1',
         'gulowA\' N0_Nh   zeal;enthusiasm',
-        'gulowA& Nh      zeal;enthusiasm',
+        'gulowAW Nh      zeal;enthusiasm',
         'gulowA} Nhy     zeal;enthusiasm'
       ],
       'patterns' => {},
@@ -7426,10 +7426,10 @@ $Lexicon = {
       'entry' => '\'a.glY',
       'form' => '\'a.glY',
       'lines' => [
-        ';; >agolaY_2',
-        '>agolaY N0      more/most expensive',
-        '>agolA  Nhy     most expensive',
-        '>agolay NAn_Nayn        most expensive'
+        ';; OagolaY_2',
+        'OagolaY N0      more/most expensive',
+        'OagolA  Nhy     most expensive',
+        'Oagolay NAn_Nayn        most expensive'
       ],
       'patterns' => {
         '\'a.glA' => []
@@ -7485,11 +7485,11 @@ $Lexicon = {
       'entry' => '\'i.glA\'',
       'form' => '\'i.glA\'',
       'lines' => [
-        ';; <igolA\'_1',
-        '<igolA\' N0_Nh   praise;admiration',
-        '<igolA& Nh      praise;admiration',
-        '<igolA} Nhy     praise;admiration',
-        '<igolA\' NAt     praise;admiration'
+        ';; IigolA\'_1',
+        'IigolA\' N0_Nh   praise;admiration',
+        'IigolAW Nh      praise;admiration',
+        'IigolA} Nhy     praise;admiration',
+        'IigolA\' NAt     praise;admiration'
       ],
       'patterns' => {
         '\'i.glA\'' => [
@@ -7675,8 +7675,8 @@ $Lexicon = {
       'entry' => '\'a.gdaq',
       'form' => '\'a.gdaq',
       'lines' => [
-        ';; >agodaq_1',
-        '>agodaq PV      pour down;shower',
+        ';; Oagodaq_1',
+        'Oagodaq PV      pour down;shower',
         'godiq   IV_yu   pour down;shower',
         'godaq   IV_Pass_yu      be poured down;be showered'
       ],
@@ -7834,9 +7834,9 @@ $Lexicon = {
       'entry' => '\'a.gA.z',
       'form' => '\'a.gA.z',
       'lines' => [
-        ';; >agAZ_1',
-        '>agAZ   PV_V    enrage;irritate',
-        '>agaZ   PV_C    enrage;irritate',
+        ';; OagAZ_1',
+        'OagAZ   PV_V    enrage;irritate',
+        'OagaZ   PV_C    enrage;irritate',
         'giyZ    IV_V_yu enrage;irritate',
         'giZ     IV_C_yu enrage;irritate',
         'gAZ     IV_V_Pass_yu    be enraged;be irritated',
@@ -8092,8 +8092,8 @@ $Lexicon = {
       'entry' => '\'i.gA.z',
       'form' => '\'i.gA.zaT',
       'lines' => [
-        ';; <igAZap_1',
-        '<igAZ   NapAt   exasperation;irritation'
+        ';; IigAZap_1',
+        'IigAZ   NapAt   exasperation;irritation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8251,8 +8251,8 @@ $Lexicon = {
       'entry' => '\'a.g.dab',
       'form' => '\'a.g.dab',
       'lines' => [
-        ';; >agoDab_1',
-        '>agoDab PV      make angry;irritate',
+        ';; OagoDab_1',
+        'OagoDab PV      make angry;irritate',
         'goDib   IV_yu   make angry;irritate',
         'goDab   IV_Pass_yu      be angered;be irritated'
       ],
@@ -8462,8 +8462,8 @@ $Lexicon = {
       'entry' => '\'i.g.dAb',
       'form' => '\'i.g.dAb',
       'lines' => [
-        ';; <igoDAb_1',
-        '<igoDAb N/At    irritation;angering'
+        ';; IigoDAb_1',
+        'IigoDAb N/At    irritation;angering'
       ],
       'patterns' => {
         '\'i.g.dAb' => [
@@ -8809,7 +8809,7 @@ $Lexicon = {
       'lines' => [
         ';; guwl_1',
         'guwl    N       ghoul;monster',
-        '>agowAl N       ghouls;monsters',
+        'OagowAl N       ghouls;monsters',
         'giylAn  N       ghouls;monsters'
       ],
       'patterns' => {
@@ -9467,9 +9467,9 @@ $Lexicon = {
       'lines' => [
         ';; gadA\'_1',
         'gadA\'   N0_Nh   breakfast;lunch',
-        'gadA&   Nh      breakfast;lunch',
+        'gadAW   Nh      breakfast;lunch',
         'gadA}   Nhy     breakfast;lunch',
-        '>agodiy Nap     breakfast;lunch'
+        'Oagodiy Nap     breakfast;lunch'
       ],
       'patterns' => {
         '\'a.gdiy' => [
@@ -9797,7 +9797,7 @@ $Lexicon = {
       'lines' => [
         ';; gaTo$A\'_1',
         'gaTo$A\' N0_Nh   pitch dark',
-        'gaTo$A& Nh      pitch dark',
+        'gaTo$AW Nh      pitch dark',
         'gaTo$A} Nhy     pitch dark'
       ],
       'patterns' => {},
@@ -9857,8 +9857,8 @@ $Lexicon = {
       'entry' => '\'a.gras',
       'form' => '\'a.gras',
       'lines' => [
-        ';; >agoras_1',
-        '>agoras PV      implant;plant',
+        ';; Oagoras_1',
+        'Oagoras PV      implant;plant',
         'goris   IV_yu   implant;plant',
         'goras   IV_Pass_yu      be implanted;be planted'
       ],
@@ -9945,7 +9945,7 @@ $Lexicon = {
       'lines' => [
         ';; garos_2',
         'garos   N       plant',
-        '>agorAs N       plants',
+        'OagorAs N       plants',
         'girAs   N       plants'
       ],
       'patterns' => {
@@ -10496,11 +10496,11 @@ $Lexicon = {
       'entry' => '\'a.grY',
       'form' => '\'a.grY',
       'lines' => [
-        ';; >agoraY_1',
-        '>agoraY PV_0    incite;induce;provoke',
-        '>agorA  PV_h    incite;induce;provoke',
-        '>agoray PV_Atn  incite;induce;provoke',
-        '>agor   PV_ttAw incite;induce;provoke',
+        ';; OagoraY_1',
+        'OagoraY PV_0    incite;induce;provoke',
+        'OagorA  PV_h    incite;induce;provoke',
+        'Oagoray PV_Atn  incite;induce;provoke',
+        'Oagor   PV_ttAw incite;induce;provoke',
         'goriy   IV_0hAnn_yu     incite;induce;provoke',
         'gor     IV_0hwnyn_yu    incite;induce;provoke',
         'goraY   IV_0_Pass_yu    be incited;be provoked',
@@ -11233,11 +11233,11 @@ $Lexicon = {
       'entry' => '\'a.gfY',
       'form' => '\'a.gfY',
       'lines' => [
-        ';; >agofaY_1',
-        '>agofaY PV_0    doze off',
-        '>agofA  PV_h    doze off',
-        '>agofay PV_Atn  doze off',
-        '>agof   PV_ttAw doze off',
+        ';; OagofaY_1',
+        'OagofaY PV_0    doze off',
+        'OagofA  PV_h    doze off',
+        'Oagofay PV_Atn  doze off',
+        'Oagof   PV_ttAw doze off',
         'gofiy   IV_0hAnn_yu     doze off',
         'gof     IV_0hwnyn_yu    doze off'
       ],
@@ -11297,8 +11297,8 @@ $Lexicon = {
       'entry' => '\'i.gfA\'',
       'form' => '\'i.gfA\'',
       'lines' => [
-        ';; <igofA\'_1',
-        '<igofA\' NapAt   nap;siesta;sleepiness'
+        ';; IigofA\'_1',
+        'IigofA\' NapAt   nap;siesta;sleepiness'
       ],
       'patterns' => {
         '\'i.gfA\'' => [
@@ -11619,9 +11619,9 @@ $Lexicon = {
       'lines' => [
         ';; gi*A\'_1',
         'gi*A\'   N0_Nh   food',
-        'gi*A&   Nh      food',
+        'gi*AW   Nh      food',
         'gi*A}   Nhy     food',
-        '>ago*iy Nap     food;provisions'
+        'Oago*iy Nap     food;provisions'
       ],
       'patterns' => {
         '\'a.g_diy' => [
@@ -12131,11 +12131,11 @@ $Lexicon = {
       'entry' => '\'a.g^sY',
       'form' => '\'a.g^sY',
       'lines' => [
-        ';; >ago$aY_1',
-        '>ago$aY PV_0    cover;be dark',
-        '>ago$A  PV_h    cover;be dark',
-        '>ago$ay PV_Atn  cover;be dark',
-        '>ago$   PV_ttAw cover;be dark',
+        ';; Oago$aY_1',
+        'Oago$aY PV_0    cover;be dark',
+        'Oago$A  PV_h    cover;be dark',
+        'Oago$ay PV_Atn  cover;be dark',
+        'Oago$   PV_ttAw cover;be dark',
         'go$iy   IV_0hAnn_yu     cover;be dark',
         'go$     IV_0hwnyn_yu    cover;be dark',
         'go$aY   IV_0_Pass_yu    be covered',
@@ -12427,10 +12427,10 @@ $Lexicon = {
       'entry' => '\'a.gbas',
       'form' => '\'a.gbas',
       'lines' => [
-        ';; >agobas_1',
-        '>agobas Nel     light-tan',
+        ';; Oagobas_1',
+        'Oagobas Nel     light-tan',
         'gabosA\' N0_Nh   light-tan',
-        'gabosA& Nh      light-tan',
+        'gabosAW Nh      light-tan',
         'gabosA} Nhy     light-tan'
       ],
       'patterns' => {
@@ -12610,9 +12610,9 @@ $Lexicon = {
       'entry' => '\'a.gall',
       'form' => '\'a.gall',
       'lines' => [
-        ';; >agal~_1',
-        '>agal~  PV_V    produce;yield',
-        '>agolal PV_C    produce;yield',
+        ';; Oagal~_1',
+        'Oagal~  PV_V    produce;yield',
+        'Oagolal PV_C    produce;yield',
         'gil~    IV_V_yu produce;yield',
         'golil   IV_C_yu produce;yield',
         'gal~    IV_V_Pass_yu    be produced;be yielded'
@@ -12754,7 +12754,7 @@ $Lexicon = {
       'lines' => [
         ';; gul~_1',
         'gul~    Ndu     handcuff;shackle',
-        '>agolAl N       handcuffs;shackles'
+        'OagolAl N       handcuffs;shackles'
       ],
       'patterns' => {
         '\'a.glAl' => [
@@ -13038,7 +13038,7 @@ $Lexicon = {
       'lines' => [
         ';; gabA\'_1',
         'gabA\'   N0_Nh   ignorance;stupidity',
-        'gabA&   Nh      ignorance;stupidity',
+        'gabAW   Nh      ignorance;stupidity',
         'gabA}   Nhy     ignorance;stupidity'
       ],
       'patterns' => {},
@@ -13147,9 +13147,9 @@ $Lexicon = {
       'entry' => '\'a.gAr',
       'form' => '\'a.gAr',
       'lines' => [
-        ';; >agAr_1',
-        '>agAr   PV_V    attack;invade;raid',
-        '>agar   PV_C    attack;invade;raid',
+        ';; OagAr_1',
+        'OagAr   PV_V    attack;invade;raid',
+        'Oagar   PV_C    attack;invade;raid',
         'giyr    IV_V_yu attack;invade;raid',
         'gir     IV_C_yu attack;invade;raid',
         'gAr     IV_V_Pass_yu    be attacked;be invaded;be raided',
@@ -13304,7 +13304,7 @@ $Lexicon = {
       'lines' => [
         ';; gawor_1',
         'gawor   N       depression;declivity',
-        '>agowAr N       depressions;declivities;caves'
+        'OagowAr N       depressions;declivities;caves'
       ],
       'patterns' => {
         '\'a.gwAr' => [
@@ -13425,8 +13425,8 @@ $Lexicon = {
       'entry' => '\'i.gAr',
       'form' => '\'i.gAraT',
       'lines' => [
-        ';; <igArap_1',
-        '<igAr   NapAt   attack;raid'
+        ';; IigArap_1',
+        'IigAr   NapAt   attack;raid'
       ],
       'patterns' => {},
       'index' => '1',
@@ -13892,8 +13892,8 @@ $Lexicon = {
       'entry' => '\'a.gmAr',
       'form' => '\'a.gmAr',
       'lines' => [
-        ';; >agomAr_1',
-        '>agomAr N       armsfull'
+        ';; OagomAr_1',
+        'OagomAr N       armsfull'
       ],
       'patterns' => {},
       'index' => '1',
@@ -14080,8 +14080,8 @@ $Lexicon = {
       'entry' => '\'a.glaq',
       'form' => '\'a.glaq',
       'lines' => [
-        ';; >agolaq_1',
-        '>agolaq PV      lock or bolt shut',
+        ';; Oagolaq_1',
+        'Oagolaq PV      lock or bolt shut',
         'goliq   IV_yu   lock or bolt shut',
         'golaq   IV_Pass_yu      be locked or bolted shut'
       ],
@@ -14188,7 +14188,7 @@ $Lexicon = {
       'lines' => [
         ';; galaq_1',
         'galaq   N       padlock;bolt;lock',
-        '>agolAq N       padlocks;bolts;locks'
+        'OagolAq N       padlocks;bolts;locks'
       ],
       'patterns' => {
         '\'a.glAq' => [
@@ -14308,8 +14308,8 @@ $Lexicon = {
       'entry' => '\'i.glAq',
       'form' => '\'i.glAq',
       'lines' => [
-        ';; <igolAq_1',
-        '<igolAq N/At    locking;closing;barring'
+        ';; IigolAq_1',
+        'IigolAq N/At    locking;closing;barring'
       ],
       'patterns' => {
         '\'i.glAq' => [
@@ -14633,11 +14633,11 @@ $Lexicon = {
       'entry' => '\'a.gnY',
       'form' => '\'a.gnY',
       'lines' => [
-        ';; >agonaY_1',
-        '>agonaY PV_0    enrich;satisfy',
-        '>agonA  PV_h    enrich;satisfy',
-        '>agonay PV_Atn  enrich;satisfy',
-        '>agon   PV_ttAw enrich;satisfy',
+        ';; OagonaY_1',
+        'OagonaY PV_0    enrich;satisfy',
+        'OagonA  PV_h    enrich;satisfy',
+        'Oagonay PV_Atn  enrich;satisfy',
+        'Oagon   PV_ttAw enrich;satisfy',
         'goniy   IV_0hAnn_yu     enrich;satisfy',
         'gon     IV_0hwnyn_yu    enrich;satisfy',
         'gonaY   IV_0_Pass_yu    be enriched;be satisfied',
@@ -14864,9 +14864,9 @@ $Lexicon = {
       'lines' => [
         ';; ganiy~_1',
         'ganiy~  N/ap    rich;wealthy     [[ganiy~/ADJ]]',
-        '>agoniyA\'       N0_Nh   rich;wealthy',
-        '>agoniyA&       Nh      rich;wealthy',
-        '>agoniyA}       Nhy     rich;wealthy'
+        'OagoniyA\'       N0_Nh   rich;wealthy',
+        'OagoniyAW       Nh      rich;wealthy',
+        'OagoniyA}       Nhy     rich;wealthy'
       ],
       'patterns' => {
         '\'a.gniyA\'' => [
@@ -14891,7 +14891,7 @@ $Lexicon = {
       'lines' => [
         ';; ganA\'_1',
         'ganA\'   N0_Nh   usefulness',
-        'ganA&   Nh      usefulness',
+        'ganAW   Nh      usefulness',
         'ganA}   Nhy     usefulness'
       ],
       'patterns' => {},
@@ -14912,7 +14912,7 @@ $Lexicon = {
       'lines' => [
         ';; ginA\'_1',
         'ginA\'   N0_Nh   singing',
-        'ginA&   Nh      singing',
+        'ginAW   Nh      singing',
         'ginA}   Nhy     singing'
       ],
       'patterns' => {},
@@ -14959,11 +14959,11 @@ $Lexicon = {
       'entry' => '\'u.gniy',
       'form' => '\'u.gniyaT',
       'lines' => [
-        ';; >ugoniyap_1',
-        '>ugoniy NapAt   song;melody',
-        '>ugoniy~        NapAt   song;melody     [[>ugoniy~/NOUN]]',
-        '>agAniy N0_Nh   songs;melodies',
-        '>agAn   NK      songs;melodies'
+        ';; Ougoniyap_1',
+        'Ougoniy NapAt   song;melody',
+        'Ougoniy~        NapAt   song;melody     [[Ougoniy~/NOUN]]',
+        'OagAniy N0_Nh   songs;melodies',
+        'OagAn   NK      songs;melodies'
       ],
       'patterns' => {
         '\'u.gniyy' => [
@@ -15036,7 +15036,7 @@ $Lexicon = {
       'lines' => [
         ';; AigotinA\'_1',
         'AigotinA\'       N0_Nh   getting rich',
-        'AigotinA&       Nh      getting rich',
+        'AigotinAW       Nh      getting rich',
         'AigotinA}       Nhy     getting rich',
         'AigotinA\'       NAn_Nayn        getting rich',
         'AigotinA}       Nayn    getting rich',
@@ -15068,7 +15068,7 @@ $Lexicon = {
       'lines' => [
         ';; AisotigonA\'_1',
         'AisotigonA\'     N0_Nh   dispensing with;renunciation',
-        'AisotigonA&     Nh      dispensing with;renunciation',
+        'AisotigonAW     Nh      dispensing with;renunciation',
         'AisotigonA}     Nhy     dispensing with;renunciation',
         'AisotigonA\'     NAt     dispensing with;renunciation'
       ],
@@ -15394,7 +15394,7 @@ $Lexicon = {
         ';; gayov_2',
         'gayov   N       rain',
         'guyuwv  N       rain',
-        '>agoyAv N       rain'
+        'OagoyAv N       rain'
       ],
       'patterns' => {
         '\'a.gyA_t' => [
@@ -15926,8 +15926,8 @@ $Lexicon = {
       'entry' => '\'a.gla.t',
       'form' => '\'a.gla.t',
       'lines' => [
-        ';; >agolaT_1',
-        '>agolaT PV      cause to err',
+        ';; OagolaT_1',
+        'OagolaT PV      cause to err',
         'goliT   IV_yu   cause to err',
         'golaT   IV_Pass_yu      be forced to err'
       ],
@@ -15981,7 +15981,7 @@ $Lexicon = {
       'lines' => [
         ';; galaT_1',
         'galaT   Ndu     error;blunder',
-        '>agolAT N       mistakes;blunders'
+        'OagolAT N       mistakes;blunders'
       ],
       'patterns' => {
         '\'a.glA.t' => [
@@ -16061,9 +16061,9 @@ $Lexicon = {
       'entry' => '\'u.gluw.t',
       'form' => '\'u.gluw.taT',
       'lines' => [
-        ';; >ugoluwTap_1',
-        '>ugoluwT        NapAt   captious question',
-        '>agAliyT        Ndip    captious questions'
+        ';; OugoluwTap_1',
+        'OugoluwT        NapAt   captious question',
+        'OagAliyT        Ndip    captious questions'
       ],
       'patterns' => {
         '\'a.gAliy.t' => [
@@ -16260,7 +16260,7 @@ $Lexicon = {
         ';; gilAf_1',
         'gilAf   NduAt   cover',
         'guluf   N       covers',
-        '>agolif Nap     covers'
+        'Oagolif Nap     covers'
       ],
       'patterns' => {
         '.gilAf' => [
@@ -16314,11 +16314,11 @@ $Lexicon = {
       'entry' => '\'a.glaf',
       'form' => '\'a.glaf',
       'lines' => [
-        ';; >agolaf_1',
-        '>agolaf Nel     rude;uncivilized     [[>agolaf/ADJ]]',
-        '>agolaf Nel     rude;uncivilized',
+        ';; Oagolaf_1',
+        'Oagolaf Nel     rude;uncivilized     [[Oagolaf/ADJ]]',
+        'Oagolaf Nel     rude;uncivilized',
         'galofA\' N0_Nh   rude;uncivilized',
-        'galofA& Nh      rude;uncivilized',
+        'galofAW Nh      rude;uncivilized',
         'galofA} Nhy     rude;uncivilized'
       ],
       'patterns' => {
@@ -16592,7 +16592,7 @@ $Lexicon = {
       'lines' => [
         ';; gawogA\'_1',
         'gawogA\' N0_Nh   riffraff;rabble;tumult',
-        'gawogA& Nh      riffraff;rabble;tumult',
+        'gawogAW Nh      riffraff;rabble;tumult',
         'gawogA} Nhy     riffraff;rabble;tumult'
       ],
       'patterns' => {},
@@ -17054,7 +17054,7 @@ $Lexicon = {
       'lines' => [
         ';; gaDorA\'_1',
         'gaDorA\' N0_Nh   abundance;prosperity',
-        'gaDorA& Nh      abundance;prosperity',
+        'gaDorAW Nh      abundance;prosperity',
         'gaDorA} Nhy     abundance;prosperity'
       ],
       'patterns' => {},
@@ -17295,9 +17295,9 @@ $Lexicon = {
       'lines' => [
         ';; gaDiyD_2',
         'gaDiyD  N-ap    diminished;shamed     [[gaDiyD/ADJ]]',
-        '>agiD~A\'        N0_Nh   diminished;shamed',
-        '>agiD~A&        Nh      diminished;shamed',
-        '>agiD~A}        Nhy     diminished;shamed'
+        'OagiD~A\'        N0_Nh   diminished;shamed',
+        'OagiD~AW        Nh      diminished;shamed',
+        'OagiD~A}        Nhy     diminished;shamed'
       ],
       'patterns' => {
         '\'a.gi.d.dA\'' => [
@@ -17649,8 +17649,8 @@ $Lexicon = {
       'entry' => '\'a.gmad',
       'form' => '\'a.gmad',
       'lines' => [
-        ';; >agomad_1',
-        '>agomad PV      sheathe',
+        ';; Oagomad_1',
+        'Oagomad PV      sheathe',
         'gomid   IV_yu   sheathe',
         'gomad   IV_Pass_yu      be sheathed'
       ],
@@ -17708,7 +17708,7 @@ $Lexicon = {
       'lines' => [
         ';; gimod_1',
         'gimod   N       sheath',
-        '>agomAd N       sheaths',
+        'OagomAd N       sheaths',
         'gumuwd  N       sheaths'
       ],
       'patterns' => {
@@ -18465,8 +18465,8 @@ $Lexicon = {
       'entry' => '\'a.g.san',
       'form' => '\'a.g.san',
       'lines' => [
-        ';; >agoSan_1',
-        '>agoSan PV-n    branch out',
+        ';; OagoSan_1',
+        'OagoSan PV-n    branch out',
         'goSin   IV-n_yu branch out',
         'goSan   IV-n_Pass_yu    be branched out'
       ],
@@ -18504,7 +18504,7 @@ $Lexicon = {
         ';; guSon_1',
         'guSon   Ndu     branch;limb',
         'guSuwn  N       branches',
-        '>agoSAn N       branches'
+        'OagoSAn N       branches'
       ],
       'patterns' => {
         '\'a.g.sAn' => [
@@ -18683,11 +18683,11 @@ $Lexicon = {
       'entry' => '\'i.g.dA\'',
       'form' => '\'i.g.dA\'',
       'lines' => [
-        ';; <igoDA\'_1',
-        '<igoDA\' N0_Nh   disregarding;ignoring;overlooking',
-        '<igoDA& Nh      disregarding;ignoring;overlooking',
-        '<igoDA} Nhy     disregarding;ignoring;overlooking',
-        '<igoDA\' NAt     disregarding;ignoring;overlooking'
+        ';; IigoDA\'_1',
+        'IigoDA\' N0_Nh   disregarding;ignoring;overlooking',
+        'IigoDAW Nh      disregarding;ignoring;overlooking',
+        'IigoDA} Nhy     disregarding;ignoring;overlooking',
+        'IigoDA\' NAt     disregarding;ignoring;overlooking'
       ],
       'patterns' => {
         '\'i.g.dA\'' => [
@@ -19177,9 +19177,9 @@ $Lexicon = {
       'lines' => [
         ';; gabiy~_1',
         'gabiy~  N/ap    ignorant;stupid     [[gabiy~/ADJ]]',
-        '>agobiyA\'       N0_Nh   ignorant;stupid',
-        '>agobiyA&       Nh      ignorant;stupid',
-        '>agobiyA}       Nhy     ignorant;stupid'
+        'OagobiyA\'       N0_Nh   ignorant;stupid',
+        'OagobiyAW       Nh      ignorant;stupid',
+        'OagobiyA}       Nhy     ignorant;stupid'
       ],
       'patterns' => {
         '\'a.gbiyA\'' => [
@@ -19220,10 +19220,10 @@ $Lexicon = {
       'entry' => '\'a.gbY',
       'form' => '\'a.gbY',
       'lines' => [
-        ';; >agobaY_1',
-        '>agobaY N0      stupid',
-        '>agobA  Nhy     stupid',
-        '>agobay NAn_Nayn        stupid'
+        ';; OagobaY_1',
+        'OagobaY N0      stupid',
+        'OagobA  Nhy     stupid',
+        'Oagobay NAn_Nayn        stupid'
       ],
       'patterns' => {
         '\'a.gbA' => []
@@ -19345,9 +19345,9 @@ $Lexicon = {
       'entry' => '\'a.ga.s.s',
       'form' => '\'a.ga.s.s',
       'lines' => [
-        ';; >agaS~_1',
-        '>agaS~  PV_V    suffocate;asphyxiate;drown',
-        '>agoSaS PV_C    suffocate;asphyxiate;drown',
+        ';; OagaS~_1',
+        'OagaS~  PV_V    suffocate;asphyxiate;drown',
+        'OagoSaS PV_C    suffocate;asphyxiate;drown',
         'giS~    IV_V_yu suffocate;asphyxiate;drown',
         'goSiS   IV_C_yu suffocate;asphyxiate;drown',
         'gaS~    IV_V_Pass_yu    be suffocated;be asphyxiated;be drowned'
@@ -19736,10 +19736,10 @@ $Lexicon = {
       'entry' => '\'a.gma.s',
       'form' => '\'a.gma.s',
       'lines' => [
-        ';; >agomaS_1',
-        '>agomaS Nel     sticky-eyed',
+        ';; OagomaS_1',
+        'OagomaS Nel     sticky-eyed',
         'gamoSA\' N0_Nh   sticky-eyed',
-        'gamoSA& Nh      sticky-eyed',
+        'gamoSAW Nh      sticky-eyed',
         'gamoSA} Nhy     sticky-eyed'
       ],
       'patterns' => {
@@ -19954,9 +19954,9 @@ $Lexicon = {
       'entry' => '\'a.gamm',
       'form' => '\'a.gamm',
       'lines' => [
-        ';; >agam~_1',
-        '>agam~  PV_V    afflict;distress;be overcast',
-        '>agomam PV_C    afflict;distress;be overcast',
+        ';; Oagam~_1',
+        'Oagam~  PV_V    afflict;distress;be overcast',
+        'Oagomam PV_C    afflict;distress;be overcast',
         'gim~    IV_V_yu afflict;distress;be overcast',
         'gomim   IV_C_yu afflict;distress;be overcast',
         'gam~    IV_V_Pass_yu    be afflicted'
@@ -20228,10 +20228,10 @@ $Lexicon = {
       'entry' => '\'a.gamm',
       'form' => '\'a.gamm',
       'lines' => [
-        ';; >agam~_2',
-        '>agam~  Nel     overcast',
+        ';; Oagam~_2',
+        'Oagam~  Nel     overcast',
         'gam~A\'  N0_Nh   overcast',
-        'gam~A&  Nh      overcast',
+        'gam~AW  Nh      overcast',
         'gam~A}  Nhy     overcast'
       ],
       'patterns' => {
@@ -20260,10 +20260,10 @@ $Lexicon = {
       'entry' => '\'a.gamm',
       'form' => '\'a.gamm',
       'lines' => [
-        ';; >agam~_3',
-        '>agam~  Nel     hirsute',
+        ';; Oagam~_3',
+        'Oagam~  Nel     hirsute',
         'gam~A\'  N0_Nh   hirsute',
-        'gam~A&  Nh      hirsute',
+        'gam~AW  Nh      hirsute',
         'gam~A}  Nhy     hirsute'
       ],
       'patterns' => {
@@ -20584,9 +20584,9 @@ $Lexicon = {
       'entry' => '\'a.gAm',
       'form' => '\'a.gAm',
       'lines' => [
-        ';; >agAm_1',
-        '>agAm   PV_V_intr       become overcast/blurred',
-        '>agam   PV_C_intr       become overcast/blurred',
+        ';; OagAm_1',
+        'OagAm   PV_V_intr       become overcast/blurred',
+        'Oagam   PV_C_intr       become overcast/blurred',
         'giym    IV_V_intr_yu    become overcast/blurred',
         'gim     IV_C_intr_yu    become overcast/blurred',
         'gAm     IV_V_Pass_yu    become overcast/blurred',
@@ -20994,7 +20994,7 @@ $Lexicon = {
         ';; gawoT_1',
         'gawoT   N       hollow;depression',
         'guwT    N       hollows;depressions',
-        '>agowAT N       hollows;depressions',
+        'OagowAT N       hollows;depressions',
         'giyAT   N       hollows;depressions',
         'giyTAn  N       hollows;depressions'
       ],
@@ -21231,9 +21231,9 @@ $Lexicon = {
       'entry' => '\'a.ga.t.t',
       'form' => '\'a.ga.t.t',
       'lines' => [
-        ';; >agaT~_1',
-        '>agaT~  PV_V    immerse;dip;plunge',
-        '>agoTaT PV_C    immerse;dip;plunge',
+        ';; OagaT~_1',
+        'OagaT~  PV_V    immerse;dip;plunge',
+        'OagoTaT PV_C    immerse;dip;plunge',
         'giT~    IV_V_yu immerse;dip;plunge',
         'goTiT   IV_C_yu immerse;dip;plunge',
         'gaT~    IV_V_Pass_yu    immerse;dip;plunge'
@@ -21656,10 +21656,10 @@ $Lexicon = {
       'entry' => '\'u.gruwd',
       'form' => '\'u.gruwd',
       'lines' => [
-        ';; >ugoruwd_1',
-        '>ugoruwd        Ndu     twittering;warbling',
-        '>ugoruwd        Napdu   twittering;warbling',
-        '>agAriyd        Ndip    twittering;warbling'
+        ';; Ougoruwd_1',
+        'Ougoruwd        Ndu     twittering;warbling',
+        'Ougoruwd        Napdu   twittering;warbling',
+        'OagAriyd        Ndip    twittering;warbling'
       ],
       'patterns' => {
         '\'a.gAriyd' => [
@@ -21824,8 +21824,8 @@ $Lexicon = {
       'entry' => '\'a.gla.z',
       'form' => '\'a.gla.z',
       'lines' => [
-        ';; >agolaZ_1',
-        '>agolaZ PV_intr be rough;be rude',
+        ';; OagolaZ_1',
+        'OagolaZ PV_intr be rough;be rude',
         'goliZ   IV_intr_yu      be rough;be rude'
       ],
       'patterns' => {
@@ -21964,8 +21964,8 @@ $Lexicon = {
       'entry' => '\'a.gla.z',
       'form' => '\'a.gla.z',
       'lines' => [
-        ';; >agolaZ_2',
-        '>agolaZ Nel     thicker/thickest;coarser/coarsest;cruder/crudest'
+        ';; OagolaZ_2',
+        'OagolaZ Nel     thicker/thickest;coarser/coarsest;cruder/crudest'
       ],
       'patterns' => {},
       'index' => '2',
@@ -22208,8 +22208,8 @@ $Lexicon = {
       'entry' => '\'a.grAr',
       'form' => '\'a.grAr',
       'lines' => [
-        ';; >agorAr_1',
-        '>agorAr N       inexperience'
+        ';; OagorAr_1',
+        'OagorAr N       inexperience'
       ],
       'patterns' => {},
       'index' => '1',
@@ -22297,10 +22297,10 @@ $Lexicon = {
       'lines' => [
         ';; gariyr_1',
         'gariyr  N/ap    misled;deceived;naive     [[gariyr/ADJ]]',
-        '>agir~A\'        N0_Nh   misled;deceived;naive',
-        '>agir~A&        Nh      misled;deceived;naive',
-        '>agir~A}        Nhy     misled;deceived;naive',
-        '>agir~  Nap     misled;deceived;naive'
+        'Oagir~A\'        N0_Nh   misled;deceived;naive',
+        'Oagir~AW        Nh      misled;deceived;naive',
+        'Oagir~A}        Nhy     misled;deceived;naive',
+        'Oagir~  Nap     misled;deceived;naive'
       ],
       'patterns' => {
         '\'a.girrA\'' => [
@@ -22454,10 +22454,10 @@ $Lexicon = {
       'entry' => '\'a.garr',
       'form' => '\'a.garr',
       'lines' => [
-        ';; >agar~_1',
-        '>agar~  Nel     esteemed',
+        ';; Oagar~_1',
+        'Oagar~  Nel     esteemed',
         'gar~A\'  N0_Nh   esteemed',
-        'gar~A&  Nh      esteemed',
+        'gar~AW  Nh      esteemed',
         'gar~A}  Nhy     esteemed',
         'gur~    N       esteemed'
       ],
@@ -23331,7 +23331,7 @@ $Lexicon = {
       'lines' => [
         ';; gaba$_1',
         'gaba$   N       darkness;twilight',
-        '>agobA$ N       darkness;twilight'
+        'OagobA$ N       darkness;twilight'
       ],
       'patterns' => {
         '\'a.gbA^s' => [
@@ -23402,11 +23402,11 @@ $Lexicon = {
       'entry' => '\'a.gba^s',
       'form' => '\'a.gba^s',
       'lines' => [
-        ';; >agoba$_1',
-        '>agoba$ Nel     dark;opaque     [[>agoba$/ADJ]]',
-        '>agoba$ Nel     dark;opaque',
+        ';; Oagoba$_1',
+        'Oagoba$ Nel     dark;opaque     [[Oagoba$/ADJ]]',
+        'Oagoba$ Nel     dark;opaque',
         'gabo$A\' N0_Nh   dark;opaque',
-        'gabo$A& Nh      dark;opaque',
+        'gabo$AW Nh      dark;opaque',
         'gabo$A} Nhy     dark;opaque',
         'gubo$   N       dark;opaque'
       ],
@@ -24048,11 +24048,11 @@ $Lexicon = {
       'entry' => '\'a.g.dY',
       'form' => '\'a.g.dY',
       'lines' => [
-        ';; >agoDaY_1',
-        '>agoDaY PV_0    disregard;ignore;overlook',
-        '>agoDA  PV_h    disregard;ignore;overlook',
-        '>agoDay PV_Atn  disregard;ignore;overlook',
-        '>agoD   PV_ttAw disregard;ignore;overlook',
+        ';; OagoDaY_1',
+        'OagoDaY PV_0    disregard;ignore;overlook',
+        'OagoDA  PV_h    disregard;ignore;overlook',
+        'OagoDay PV_Atn  disregard;ignore;overlook',
+        'OagoD   PV_ttAw disregard;ignore;overlook',
         'goDiy   IV_0hAnn_yu     disregard;ignore;overlook',
         'goD     IV_0hwnyn_yu    disregard;ignore;overlook',
         'goDaY   IV_0_Pass_yu    be disregarded;be ignored;be overlooked',
@@ -24923,12 +24923,12 @@ $Lexicon = {
       'entry' => '\'a.gmY',
       'form' => '\'a.gmY',
       'lines' => [
-        ';; >agomaY_1',
-        '>agomaY PV_0    faint;lose consciousness',
-        '>agomA  PV_h    faint;lose consciousness',
-        '>agomay PV_Atn  faint;lose consciousness',
-        '>agom   PV_ttAw faint;lose consciousness',
-        '>ugomiy PV_Pass-a       faint;lose consciousness',
+        ';; OagomaY_1',
+        'OagomaY PV_0    faint;lose consciousness',
+        'OagomA  PV_h    faint;lose consciousness',
+        'Oagomay PV_Atn  faint;lose consciousness',
+        'Oagom   PV_ttAw faint;lose consciousness',
+        'Ougomiy PV_Pass-a       faint;lose consciousness',
         'gomaY   IV_0_Pass_yu    faint;lose consciousness'
       ],
       'patterns' => {
@@ -24966,9 +24966,9 @@ $Lexicon = {
       'lines' => [
         ';; gamoy_1',
         'gamoy   N       fainting',
-        '<igomA\' N0_Nh   fainting',
-        '<igomA& Nh      fainting',
-        '<igomA} Nhy     fainting'
+        'IigomA\' N0_Nh   fainting',
+        'IigomAW Nh      fainting',
+        'IigomA} Nhy     fainting'
       ],
       'patterns' => {
         '\'i.gmA\'' => [
@@ -24990,8 +24990,8 @@ $Lexicon = {
       'entry' => '\'i.gmA\'',
       'form' => '\'i.gmA\'aT',
       'lines' => [
-        ';; <igomA\'ap_1',
-        '<igomA\' NapAt   fainting spell'
+        ';; IigomA\'ap_1',
+        'IigomA\' NapAt   fainting spell'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25226,9 +25226,9 @@ $Lexicon = {
       'entry' => '\'a.gann',
       'form' => '\'a.gann',
       'lines' => [
-        ';; >agan~_1',
-        '>agan~  PV_V    buzz;drone',
-        '>agonan PV_Cn   buzz;drone',
+        ';; Oagan~_1',
+        'Oagan~  PV_V    buzz;drone',
+        'Oagonan PV_Cn   buzz;drone',
         'gin~    IV_V_yu buzz;drone',
         'gonin   IV_C_yu buzz;drone'
       ],
@@ -25303,10 +25303,10 @@ $Lexicon = {
       'entry' => '\'a.gann',
       'form' => '\'a.gann',
       'lines' => [
-        ';; >agan~_2',
-        '>agan~  Nel     melodious;sonorous',
+        ';; Oagan~_2',
+        'Oagan~  Nel     melodious;sonorous',
         'gan~A\'  N0_Nh   melodious;sonorous',
-        'gan~A&  Nh      melodious;sonorous',
+        'gan~AW  Nh      melodious;sonorous',
         'gan~A}  Nhy     melodious;sonorous'
       ],
       'patterns' => {
@@ -25336,10 +25336,10 @@ $Lexicon = {
       'entry' => '\'a.gann',
       'form' => '\'a.gann',
       'lines' => [
-        ';; >agan~_3',
-        '>agan~  Nel     lush;green',
+        ';; Oagan~_3',
+        'Oagan~  Nel     lush;green',
         'gan~A\'  N0_Nh   lush;green',
-        'gan~A&  Nh      lush;green',
+        'gan~AW  Nh      lush;green',
         'gan~A}  Nhy     lush;green'
       ],
       'patterns' => {
@@ -25472,8 +25472,8 @@ $Lexicon = {
       'entry' => '\'a.grab',
       'form' => '\'a.grab',
       'lines' => [
-        ';; >agorab_1',
-        '>agorab PV      exaggerate',
+        ';; Oagorab_1',
+        'Oagorab PV      exaggerate',
         'gorib   IV_yu   exaggerate',
         'gorab   IV_Pass_yu      be exaggerated'
       ],
@@ -25678,8 +25678,8 @@ $Lexicon = {
         ';; gurAb_1',
         'gurAb   N       crow',
         'girobAn N       crows',
-        '>agorub N       crows',
-        '>agorib Nap     crows'
+        'Oagorub N       crows',
+        'Oagorib Nap     crows'
       ],
       'patterns' => {
         '\'a.grib' => [
@@ -25717,7 +25717,7 @@ $Lexicon = {
         ';; gariyb_1',
         'gariyb  N-ap    strange     [[gariyb/ADJ]]',
         'gurabA\' N0_Nh   strange',
-        'gurabA& Nh      strange',
+        'gurabAW Nh      strange',
         'gurabA} Nhy     strange'
       ],
       'patterns' => {
@@ -25752,9 +25752,9 @@ $Lexicon = {
         ';; gariyb_2',
         'gariyb  Nall    stranger;foreigner',
         'gurabA\' N0_Nh   strangers;foreigners',
-        'gurabA& Nh      strangers;foreigners',
+        'gurabAW Nh      strangers;foreigners',
         'gurabA} Nhy     strangers;foreigners',
-        '>agorAb N       strangers;foreigners;emigres'
+        'OagorAb N       strangers;foreigners;emigres'
       ],
       'patterns' => {
         '.gurabA\'' => [
@@ -25870,8 +25870,8 @@ $Lexicon = {
       'entry' => '\'a.grab',
       'form' => '\'a.grab',
       'lines' => [
-        ';; >agorab_2',
-        '>agorab Nel     stranger/strangest'
+        ';; Oagorab_2',
+        'Oagorab Nel     stranger/strangest'
       ],
       'patterns' => {},
       'index' => '2',
@@ -26472,9 +26472,9 @@ $Lexicon = {
       'entry' => '\'u.gnuw^g',
       'form' => '\'u.gnuw^gaT',
       'lines' => [
-        ';; >ugonuwjap_1',
-        '>ugonuwj        Napdu   flirting;coquettish behavior',
-        '>agAniyj        Ndip    flirting;coquettish behavior'
+        ';; Ougonuwjap_1',
+        'Ougonuwj        Napdu   flirting;coquettish behavior',
+        'OagAniyj        Ndip    flirting;coquettish behavior'
       ],
       'patterns' => {
         '\'a.gAniy^g' => [
@@ -26595,11 +26595,11 @@ $Lexicon = {
       'entry' => '\'a.gyad',
       'form' => '\'a.gyad',
       'lines' => [
-        ';; >agoyad_1',
-        '>agoyad Nel     flexible;delicate     [[>agoyad/ADJ]]',
-        '>agoyad Nel     flexible;delicate',
+        ';; Oagoyad_1',
+        'Oagoyad Nel     flexible;delicate     [[Oagoyad/ADJ]]',
+        'Oagoyad Nel     flexible;delicate',
         'gayodA\' N0_Nh   flexible;delicate',
-        'gayodA& Nh      flexible;delicate',
+        'gayodAW Nh      flexible;delicate',
         'gayodA} Nhy     flexible;delicate',
         'giyd    N       flexible;delicate'
       ],
@@ -26704,8 +26704,8 @@ $Lexicon = {
       'entry' => '\'a.gra.d',
       'form' => '\'a.gra.d',
       'lines' => [
-        ';; >agoraD_1',
-        '>agoraD PV      attain',
+        ';; OagoraD_1',
+        'OagoraD PV      attain',
         'goriD   IV_yu   attain',
         'goraD   IV_Pass_yu      be attaind'
       ],
@@ -26760,7 +26760,7 @@ $Lexicon = {
       'lines' => [
         ';; garaD_1',
         'garaD   Ndu     goal;purpose;objective',
-        '>agorAD N       goals;objectives'
+        'OagorAD N       goals;objectives'
       ],
       'patterns' => {
         '\'a.grA.d' => [
@@ -26786,8 +26786,8 @@ $Lexicon = {
       'entry' => '\'a.grA.d',
       'form' => '\'a.grA.d',
       'lines' => [
-        ';; >agorAD_1',
-        '>agorAD N       articles;items'
+        ';; OagorAD_1',
+        'OagorAD N       articles;items'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26832,7 +26832,7 @@ $Lexicon = {
       'lines' => [
         ';; gariyD_1',
         'gariyD  N-ap    fresh;tender     [[gariyD/ADJ]]',
-        '>agAriyD        Ndip    fresh;tender'
+        'OagAriyD        Ndip    fresh;tender'
       ],
       'patterns' => {
         '\'a.gAriy.d' => [
@@ -27097,11 +27097,11 @@ $Lexicon = {
       'entry' => '\'a.glY',
       'form' => '\'a.glY',
       'lines' => [
-        ';; >agolaY_3',
-        '>agolaY PV_0    boil;make boil',
-        '>agolA  PV_h    boil;make boil',
-        '>agolay PV_Atn  boil;make boil',
-        '>agol   PV_ttAw boil;make boil',
+        ';; OagolaY_3',
+        'OagolaY PV_0    boil;make boil',
+        'OagolA  PV_h    boil;make boil',
+        'Oagolay PV_Atn  boil;make boil',
+        'Oagol   PV_ttAw boil;make boil',
         'goliy   IV_0hAnn_yu     boil;make boil',
         'gol     IV_0hwnyn_yu    boil;make boil',
         'golaY   IV_0_Pass_yu    be boiled',
@@ -27544,7 +27544,7 @@ $Lexicon = {
         ';; gufarA\'_1',
         'gafiyr  N-ap    sentinel;guard',
         'gufarA\' N0_Nh   sentinels;guards',
-        'gufarA& Nh      sentinels;guards',
+        'gufarAW Nh      sentinels;guards',
         'gufarA} Nhy     sentinels;guards'
       ],
       'patterns' => {
@@ -27892,8 +27892,8 @@ $Lexicon = {
       'entry' => '\'a.gram',
       'form' => '\'a.gram',
       'lines' => [
-        ';; >agoram_1',
-        '>agoram PV      compel;force',
+        ';; Oagoram_1',
+        'Oagoram PV      compel;force',
         'gorim   IV_yu   compel;force',
         'goram   IV_Pass_yu      be compelled;be forced'
       ],
@@ -27923,8 +27923,8 @@ $Lexicon = {
       'entry' => '\'u.grim',
       'form' => '\'u.grim',
       'lines' => [
-        ';; >ugorim_2',
-        '>ugorim PV_Pass fall in love;be infatuated'
+        ';; Ougorim_2',
+        'Ougorim PV_Pass fall in love;be infatuated'
       ],
       'patterns' => {},
       'index' => '2',
@@ -28096,7 +28096,7 @@ $Lexicon = {
         ';; gariym_1',
         'gariym  N/ap    debtor;creditor',
         'guramA\' N0_Nh   debtors;creditors',
-        'guramA& Nh      debtors;creditors',
+        'guramAW Nh      debtors;creditors',
         'guramA} Nhy     debtors;creditors'
       ],
       'patterns' => {
@@ -28131,7 +28131,7 @@ $Lexicon = {
         ';; gariym_2',
         'gariym  N/ap    adversary;opponent',
         'guramA\' N0_Nh   adversaries;opponents',
-        'guramA& Nh      adversaries;opponents',
+        'guramAW Nh      adversaries;opponents',
         'guramA} Nhy     adversaries;opponents'
       ],
       'patterns' => {
@@ -28273,9 +28273,9 @@ $Lexicon = {
       'entry' => '\'a.gA_t',
       'form' => '\'a.gA_t',
       'lines' => [
-        ';; >agAv_1',
-        '>agAv   PV_V    help;succor',
-        '>agav   PV_C    help;succor',
+        ';; OagAv_1',
+        'OagAv   PV_V    help;succor',
+        'Oagav   PV_C    help;succor',
         'giyv    IV_V_yu help;succor',
         'giv     IV_C_yu help;succor',
         'gAv     IV_V_Pass_yu    be helped;be given help',
@@ -28417,8 +28417,8 @@ $Lexicon = {
       'entry' => '\'i.gA_t',
       'form' => '\'i.gA_taT',
       'lines' => [
-        ';; <igAvap_1',
-        '<igAv   NapAt   aid;relief assistance'
+        ';; IigAvap_1',
+        'IigAv   NapAt   aid;relief assistance'
       ],
       'patterns' => {},
       'index' => '1',
@@ -28664,7 +28664,7 @@ $Lexicon = {
       'lines' => [
         ';; gabab_1',
         'gabab   N       dewlap;wattle',
-        '>agobAb N       dewlap;wattle'
+        'OagobAb N       dewlap;wattle'
       ],
       'patterns' => {
         '\'a.gbAb' => [
@@ -28852,8 +28852,8 @@ $Lexicon = {
       'entry' => '\'a.graq',
       'form' => '\'a.graq',
       'lines' => [
-        ';; >agoraq_1',
-        '>agoraq PV      submerge;drown;inundate',
+        ';; Oagoraq_1',
+        'Oagoraq PV      submerge;drown;inundate',
         'goriq   IV_yu   submerge;drown;inundate',
         'goraq   IV_Pass_yu      be submerged;be drowned;be inundated'
       ],
@@ -29065,8 +29065,8 @@ $Lexicon = {
       'entry' => '\'i.grAq',
       'form' => '\'i.grAq',
       'lines' => [
-        ';; <igorAq_1',
-        '<igorAq N/At    drowning;sinking'
+        ';; IigorAq_1',
+        'IigorAq N/At    drowning;sinking'
       ],
       'patterns' => {
         '\'i.grAq' => [
@@ -29093,8 +29093,8 @@ $Lexicon = {
       'entry' => '\'i.grAq',
       'form' => '\'i.grAq',
       'lines' => [
-        ';; <igorAq_2',
-        '<igorAq N/At    excess;over-'
+        ';; IigorAq_2',
+        'IigorAq N/At    excess;over-'
       ],
       'patterns' => {
         '\'i.grAq' => [
@@ -29117,8 +29117,8 @@ $Lexicon = {
       'entry' => '\'i.grAq',
       'form' => '\'i.grAqiyy',
       'lines' => [
-        ';; <igorAqiy~_1',
-        '<igorAqiy~      N-ap    exaggerated;excessive     [[<igorAqiy~/ADJ]]'
+        ';; IigorAqiy~_1',
+        'IigorAqiy~      N-ap    exaggerated;excessive     [[IigorAqiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29360,8 +29360,8 @@ $Lexicon = {
       'entry' => '\'a.glab',
       'form' => '\'a.glab',
       'lines' => [
-        ';; >agolab_1',
-        '>agolab Nel     most;majority'
+        ';; Oagolab_1',
+        'Oagolab Nel     most;majority'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29380,8 +29380,8 @@ $Lexicon = {
       'entry' => '\'a.glab',
       'form' => '\'a.glabiyyaT',
       'lines' => [
-        ';; >agolabiy~ap_1',
-        '>agolabiy~      Nap     majority     [[>agolabiy~/NOUN]]'
+        ';; Oagolabiy~ap_1',
+        'Oagolabiy~      Nap     majority     [[Oagolabiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29399,8 +29399,8 @@ $Lexicon = {
       'entry' => '\'a.glab',
       'form' => '\'a.glabiyy',
       'lines' => [
-        ';; >agolabiy~_1',
-        '>agolabiy~      Nall    majority     [[>agolabiy~/ADJ]]'
+        ';; Oagolabiy~_1',
+        'Oagolabiy~      Nall    majority     [[Oagolabiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -29685,9 +29685,9 @@ $Lexicon = {
       'entry' => '\'a.gazz',
       'form' => '\'a.gazz',
       'lines' => [
-        ';; >agaz~_1',
-        '>agaz~  PV_V_intr       be thorny',
-        '>agozaz PV_C_intr       be thorny',
+        ';; Oagaz~_1',
+        'Oagaz~  PV_V_intr       be thorny',
+        'Oagozaz PV_C_intr       be thorny',
         'giz~    IV_V_intr_yu    be thorny',
         'goziz   IV_C_intr_yu    be thorny'
       ],
@@ -29883,8 +29883,8 @@ $Lexicon = {
       'entry' => '\'a.graz',
       'form' => '\'a.graz',
       'lines' => [
-        ';; >agoraz_1',
-        '>agoraz PV      thrust;stick',
+        ';; Oagoraz_1',
+        'Oagoraz PV      thrust;stick',
         'goriz   IV_yu   thrust;stick',
         'goraz   IV_Pass_yu      be thrusted;be stuck'
       ],
@@ -31052,7 +31052,7 @@ $Lexicon = {
         ';; ga$iym_1',
         'ga$iym  N/ap    inexperienced;unskilled;naive     [[ga$iym/ADJ]]',
         'gu$amA\' N0_Nh   inexperienced;unskilled;clumsy',
-        'gu$amA& Nh      inexperienced;unskilled;clumsy',
+        'gu$amAW Nh      inexperienced;unskilled;clumsy',
         'gu$amA} Nhy     inexperienced;unskilled;clumsy'
       ],
       'patterns' => {

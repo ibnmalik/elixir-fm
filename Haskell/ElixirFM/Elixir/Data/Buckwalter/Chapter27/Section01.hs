@@ -26,7 +26,7 @@ cluster_1   = listing "Lexicon's properties"
 
  |> "matAwil" <| [
 
-    Identity |< aT            `noun`    {- matAwilap -}        [ unwords [ "" {- "Metuali" -}, "(", "" {- "Shiite" -}, "sect", ")" ] ] ]
+    Identity |< aT            `noun`    {- matAwilap -}        [ unwords [ "Metuali", "(", "Shiite", "sect", ")" ] ] ]
 
  |> "muttifaq" <| [
 

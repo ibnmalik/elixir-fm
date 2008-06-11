@@ -834,7 +834,7 @@ cluster_97  = listing "Lexicon's properties"
 
  |> "fA^gbAyI" <| [
 
-    Identity                  `noun`    {- fAjobAyiy -}        [ "" {- "Vajpayee" -} ] ]
+    Identity                  `noun`    {- fAjobAyiy -}        [ "Vajpayee" ] ]
 
  |> "fA^sist" <| [
 
@@ -850,7 +850,7 @@ cluster_97  = listing "Lexicon's properties"
 
  |> "fAhAnIn" <| [
 
-    Identity                  `noun`    {- fAhAniyn -}         [ "" {- "Vahanen" -} ] ]
+    Identity                  `noun`    {- fAhAniyn -}         [ "Vahanen" ] ]
 
  |> "fAkihAn" <| [
 
@@ -862,7 +862,7 @@ cluster_97  = listing "Lexicon's properties"
 
  |> "fAlIrI" <| [
 
-    Identity                  `noun`    {- fAliyriy -}         [ "" {- "Valerie" -}, "" {- "Valery" -} ] ]
+    Identity                  `noun`    {- fAliyriy -}         [ "Valerie", "Valery" ] ]
 
  |> "fAlU_da^g" <| [
 
@@ -870,7 +870,7 @@ cluster_97  = listing "Lexicon's properties"
 
  |> "fAl^gAn" <| [
 
-    Identity                  `noun`    {- fAljAn -}           [ "" {- "Valjean" -} ] ]
+    Identity                  `noun`    {- fAljAn -}           [ "Valjean" ] ]
 
 
 cluster_98  = listing "Lexicon's properties"
@@ -878,15 +878,15 @@ cluster_98  = listing "Lexicon's properties"
 
  |> "fAlinsiyA" <| [
 
-    Identity                  `noun`    {- fAlinosiyA -}       [ "" {- "Valencia" -} ] ]
+    Identity                  `noun`    {- fAlinosiyA -}       [ "Valencia" ] ]
 
  |> "fAltz" <| [
 
-    Identity                  `noun`    {- fAltz -}            [ "" {- "Waltz" -} ] ]
+    Identity                  `noun`    {- fAltz -}            [ "Waltz" ] ]
 
  |> "fAnIsA" <| [
 
-    Identity                  `noun`    {- fAniysA -}          [ "" {- "Vanessa" -}, "" {- "Vanek" -} ] ]
+    Identity                  `noun`    {- fAniysA -}          [ "Vanessa", "Vanek" ] ]
 
  |> "fAnill" <| [
 
@@ -894,11 +894,11 @@ cluster_98  = listing "Lexicon's properties"
 
  |> "fAr.gAs" <| [
 
-    Identity                  `noun`    {- fArogAs -}          [ "" {- "Vargas" -} ] ]
+    Identity                  `noun`    {- fArogAs -}          [ "Vargas" ] ]
 
  |> "fArsUfiyA" <| [
 
-    Identity                  `noun`    {- fArsuwfiyA -}       [ "" {- "Warsaw" -} ] ]
+    Identity                  `noun`    {- fArsuwfiyA -}       [ "Warsaw" ] ]
 
  |> "fAsiyA'" <| [
 
@@ -906,15 +906,15 @@ cluster_98  = listing "Lexicon's properties"
 
  |> "fAskIz" <| [
 
-    Identity                  `noun`    {- fAsokiyz -}         [ "" {- "Vasquez" -} ] ]
+    Identity                  `noun`    {- fAsokiyz -}         [ "Vasquez" ] ]
 
  |> "fAskU" <| [
 
-    Identity                  `noun`    {- fAsokuw -}          [ "" {- "Vasco" -} ] ]
+    Identity                  `noun`    {- fAsokuw -}          [ "Vasco" ] ]
 
  |> "fAtIkAn" <| [
 
-    Identity                  `noun`    {- fAtiykAn -}         [ "" {- "Vatican" -} ] ]
+    Identity                  `noun`    {- fAtiykAn -}         [ "Vatican" ] ]
 
  |> "fAtrIn" <| [
 
@@ -922,11 +922,11 @@ cluster_98  = listing "Lexicon's properties"
 
  |> "fAwstInU" <| [
 
-    Identity                  `noun`    {- fAwsotiynuw -}      [ "" {- "Faustino" -} ] ]
+    Identity                  `noun`    {- fAwsotiynuw -}      [ "Faustino" ] ]
 
  |> "fAwstU" <| [
 
-    Identity                  `noun`    {- fAwstuw -}          [ "" {- "Fausto" -} ] ]
+    Identity                  `noun`    {- fAwstuw -}          [ "Fausto" ] ]
 
  |> "fAyi.z^g" <| [
 
@@ -934,15 +934,15 @@ cluster_98  = listing "Lexicon's properties"
 
  |> "fAymar" <| [
 
-    Identity                  `noun`    {- fAyomar -}          [ "" {- "Weimar" -} ] ]
+    Identity                  `noun`    {- fAyomar -}          [ "Weimar" ] ]
 
  |> "fAynAn^sAl" <| [
 
-    Identity                  `noun`    {- fAynAn$Al -}        [ "" {- "Financial" -} ] ]
+    Identity                  `noun`    {- fAynAn$Al -}        [ "Financial" ] ]
 
  |> "fAys.gls" <| [
 
-    Identity                  `noun`    {- fAysgls -}          [ "" {- "Weisglas" -}, "" {- "Weissglas" -} ] ]
+    Identity                  `noun`    {- fAysgls -}          [ "Weisglas", "Weissglas" ] ]
 
  |> "fAzlIn" <| [
 
@@ -950,11 +950,11 @@ cluster_98  = listing "Lexicon's properties"
 
  |> "fI.gU" <| [
 
-    Identity                  `noun`    {- fiyguw -}           [ "" {- "Figo" -} ] ]
+    Identity                  `noun`    {- fiyguw -}           [ "Figo" ] ]
 
  |> "fI^gIstI" <| [
 
-    Identity                  `noun`    {- fiyjiysotiy -}      [ "" {- "Vijesti" -} ] ]
+    Identity                  `noun`    {- fiyjiysotiy -}      [ "Vijesti" ] ]
 
 
 cluster_99  = listing "Lexicon's properties"
@@ -962,27 +962,27 @@ cluster_99  = listing "Lexicon's properties"
 
  |> "fI_tA.gUras" <| [
 
-    Identity                  `noun`    {- fiyvAguwras -}      [ "" {- "Pythagoras" -} ] ]
+    Identity                  `noun`    {- fiyvAguwras -}      [ "Pythagoras" ] ]
 
  |> "fIdAkUfIt^s" <| [
 
-    Identity                  `noun`    {- fiydAkuwfiyt$ -}    [ "" {- "Vedakovic" -} ] ]
+    Identity                  `noun`    {- fiydAkuwfiyt$ -}    [ "Vedakovic" ] ]
 
  |> "fId^g" <| [
 
-    Identity |< Iy            `adj`     {- fiydojiy~ -}        [ "" {- "Fijian" -} ] ]
+    Identity |< Iy            `adj`     {- fiydojiy~ -}        [ "Fijian" ] ]
 
  |> "fId^gI" <| [
 
-    Identity                  `noun`    {- fiydojiy -}         [ "" {- "Fiji" -} ] ]
+    Identity                  `noun`    {- fiydojiy -}         [ "Fiji" ] ]
 
  |> "fIdirAl" <| [
 
-    Identity |< Iy            `adj`     {- fiydirAliy~ -}      [ "" {- "Federal" -} ] ]
+    Identity |< Iy            `adj`     {- fiydirAliy~ -}      [ "Federal" ] ]
 
  |> "fIdrIn" <| [
 
-    Identity                  `noun`    {- fiydoriyn -}        [ "" {- "Vedrine" -} ] ]
+    Identity                  `noun`    {- fiydoriyn -}        [ "Vedrine" ] ]
 
  |> "fIdyU" <| [
 
@@ -990,51 +990,51 @@ cluster_99  = listing "Lexicon's properties"
 
  |> "fIfA" <| [
 
-    Identity                  `noun`    {- fiyfA -}            [ unwords [ "" {- "FIFA" -}, "(", "" {- "Federation" -}, "" {- "Internationale" -}, "de", "" {- "Football" -}, "" {- "Association" -}, ")" ] ] ]
+    Identity                  `noun`    {- fiyfA -}            [ unwords [ "FIFA", "(", "Federation", "Internationale", "de", "Football", "Association", ")" ] ] ]
 
  |> "fIfrI" <| [
 
-    Identity                  `noun`    {- fiyfriy -}          [ "" {- "February" -} ] ]
+    Identity                  `noun`    {- fiyfriy -}          [ "February" ] ]
 
  |> "fIkUfIt^s" <| [
 
-    Identity                  `noun`    {- fiykuwfiyt$ -}      [ "" {- "Vickovic" -} ] ]
+    Identity                  `noun`    {- fiykuwfiyt$ -}      [ "Vickovic" ] ]
 
  |> "fIktUr" <| [
 
-    Identity                  `noun`    {- fiykotuwr -}        [ "" {- "Victor" -}, "" {- "Viktor" -} ],
+    Identity                  `noun`    {- fiykotuwr -}        [ "Victor", "Viktor" ],
 
-    Identity |< Iy            `adj`     {- fiykotuwriy~ -}     [ "" {- "Victorian" -} ] ]
+    Identity |< Iy            `adj`     {- fiykotuwriy~ -}     [ "Victorian" ] ]
 
  |> "fIlAdilfiyA" <| [
 
-    Identity                  `noun`    {- fiylAdilofiyA -}    [ "" {- "Philadelphia" -} ] ]
+    Identity                  `noun`    {- fiylAdilofiyA -}    [ "Philadelphia" ] ]
 
  |> "fIlAnuwIfA" <| [
 
-    Identity                  `noun`    {- fiylAnuwiyfA -}     [ "" {- "Villanueva" -} ] ]
+    Identity                  `noun`    {- fiylAnuwiyfA -}     [ "Villanueva" ] ]
 
  |> "fIlIbU" <| [
 
-    Identity                  `noun`    {- fiyliybuw -}        [ "" {- "Filippo" -} ] ]
+    Identity                  `noun`    {- fiyliybuw -}        [ "Filippo" ] ]
 
  |> "fIlIbUsIs" <| [
 
-    Identity                  `noun`    {- fiyliybuwsiys -}    [ "" {- "Philippoussis" -} ] ]
+    Identity                  `noun`    {- fiyliybuwsiys -}    [ "Philippoussis" ] ]
 
  |> "fIlIbbIn" <| [
 
-    Identity                  `noun`    {- fiyliyb~iyn -}      [ "" {- "Philippines" -} ],
+    Identity                  `noun`    {- fiyliyb~iyn -}      [ "Philippines" ],
 
-    Identity |< Iy            `adj`     {- fiyliyb~iyniy~ -}   [ "" {- "Philippine" -}, "" {- "Filipino" -} ] ]
+    Identity |< Iy            `adj`     {- fiyliyb~iyniy~ -}   [ "Philippine", "Filipino" ] ]
 
  |> "fIlIbs" <| [
 
-    Identity                  `noun`    {- fiyliybs -}         [ "" {- "Phillips" -}, "" {- "Philips" -} ] ]
+    Identity                  `noun`    {- fiyliybs -}         [ "Phillips", "Philips" ] ]
 
  |> "fIlhilm" <| [
 
-    Identity                  `noun`    {- fiylohilom -}       [ "" {- "Wilhelm" -} ] ]
+    Identity                  `noun`    {- fiylohilom -}       [ "Wilhelm" ] ]
 
 
 cluster_100 = listing "Lexicon's properties"
@@ -1042,7 +1042,7 @@ cluster_100 = listing "Lexicon's properties"
 
  |> "fIllA" <| [
 
-    Identity                  `noun`    {- fiyl~A -}           [ "villa", "" {- "Villa" -} ] ]
+    Identity                  `noun`    {- fiyl~A -}           [ "villa", "Villa" ] ]
 
  |> "fIlm" <| [
 
@@ -1056,19 +1056,19 @@ cluster_100 = listing "Lexicon's properties"
 
     Identity                  `conj`    {- fiymA -}            [ "while", unwords [ "during", "which" ] ],
 
-    Identity                  `noun`    {- fiymA -}            [ unwords [ "" {- "FEMA" -}, "(", "" {- "Federal" -}, "" {- "Emergency" -}, "" {- "Management" -}, "" {- "Agency" -}, ")" ] ] ]
+    Identity                  `noun`    {- fiymA -}            [ unwords [ "FEMA", "(", "Federal", "Emergency", "Management", "Agency", ")" ] ] ]
 
  |> "fInIks" <| [
 
-    Identity                  `noun`    {- fiyniyks -}         [ "" {- "Phoenix" -} ] ]
+    Identity                  `noun`    {- fiyniyks -}         [ "Phoenix" ] ]
 
  |> "fInIqiyA" <| [
 
-    Identity                  `noun`    {- fiyniyqiyA -}       [ "" {- "Phoenicia" -} ] ]
+    Identity                  `noun`    {- fiyniyqiyA -}       [ "Phoenicia" ] ]
 
  |> "fIrIrU" <| [
 
-    Identity                  `noun`    {- fiyriyruw -}        [ "" {- "Ferrero" -} ] ]
+    Identity                  `noun`    {- fiyriyruw -}        [ "Ferrero" ] ]
 
  |> "fIrUza^g" <| [
 
@@ -1076,23 +1076,23 @@ cluster_100 = listing "Lexicon's properties"
 
  |> "fIr^gIniyA" <| [
 
-    Identity                  `noun`    {- fiyrojiyniyA -}     [ "" {- "Virginia" -} ] ]
+    Identity                  `noun`    {- fiyrojiyniyA -}     [ "Virginia" ] ]
 
  |> "fIrdir" <| [
 
-    Identity                  `noun`    {- fiyrodir -}         [ "" {- "Pferder" -} ] ]
+    Identity                  `noun`    {- fiyrodir -}         [ "Pferder" ] ]
 
  |> "fIrink" <| [
 
-    Identity                  `noun`    {- fiyrinok -}         [ "" {- "Ferenc" -} ] ]
+    Identity                  `noun`    {- fiyrinok -}         [ "Ferenc" ] ]
 
  |> "fIrnir" <| [
 
-    Identity                  `noun`    {- fiyronir -}         [ "" {- "Werner" -} ] ]
+    Identity                  `noun`    {- fiyronir -}         [ "Werner" ] ]
 
  |> "fItAlI" <| [
 
-    Identity                  `noun`    {- fiytAliy -}         [ "" {- "Vitale" -} ] ]
+    Identity                  `noun`    {- fiytAliy -}         [ "Vitale" ] ]
 
  |> "fItAmIn" <| [
 
@@ -1104,7 +1104,7 @@ cluster_100 = listing "Lexicon's properties"
 
  |> "fIt^sanzA" <| [
 
-    Identity                  `noun`    {- fiyt$anozA -}       [ "" {- "Vicenza" -} ] ]
+    Identity                  `noun`    {- fiyt$anozA -}       [ "Vicenza" ] ]
 
  |> "fIzA" <| [
 

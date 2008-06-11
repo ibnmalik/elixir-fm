@@ -97,15 +97,15 @@ cluster_82  = listing "Lexicon's properties"
 
  |> "_hAfiyIr" <| [
 
-    Identity                  `noun`    {- xAfiyiyr -}         [ "" {- "Javier" -} ] ]
+    Identity                  `noun`    {- xAfiyiyr -}         [ "Javier" ] ]
 
  |> "_hAmani'" <| [
 
-    Identity |< Iy            `adj`     {- xAmani}iy~ -}       [ "" {- "Khamene'i" -} ] ]
+    Identity |< Iy            `adj`     {- xAmani}iy~ -}       [ "Khamene'i" ] ]
 
  |> "_hAnyUnis" <| [
 
-    Identity                  `noun`    {- xAnoyuwnis -}       [ "" {- "Khanyounis" -}, "" {- "Khanyunis" -} ] ]
+    Identity                  `noun`    {- xAnoyuwnis -}       [ "Khanyounis", "Khanyunis" ] ]
 
  |> "_hAqAn" <| [
 
@@ -123,7 +123,7 @@ cluster_83  = listing "Lexicon's properties"
 
  |> "_hAsAnsk" <| [
 
-    Identity                  `noun`    {- xAsAnosk -}         [ "" {- "Khasansk" -} ] ]
+    Identity                  `noun`    {- xAsAnosk -}         [ "Khasansk" ] ]
 
  |> "_hAtAm" <| [
 
@@ -131,27 +131,27 @@ cluster_83  = listing "Lexicon's properties"
 
  |> "_hAymI" <| [
 
-    Identity                  `noun`    {- xAyomiy -}          [ "" {- "Jaime" -} ] ]
+    Identity                  `noun`    {- xAyomiy -}          [ "Jaime" ] ]
 
  |> "_hUdAdAd" <| [
 
-    Identity                  `noun`    {- xuwdAdAd -}         [ "" {- "Khodadad" -} ] ]
+    Identity                  `noun`    {- xuwdAdAd -}         [ "Khodadad" ] ]
 
  |> "_hUr_hI" <| [
 
-    Identity                  `noun`    {- xuwroxiy -}         [ "" {- "Jorge" -} ] ]
+    Identity                  `noun`    {- xuwroxiy -}         [ "Jorge" ] ]
 
  |> "_hUst" <| [
 
-    Identity                  `noun`    {- xuwst -}            [ "" {- "Khost" -} ] ]
+    Identity                  `noun`    {- xuwst -}            [ "Khost" ] ]
 
  |> "_hUzistAn" <| [
 
-    Identity                  `noun`    {- xuwzisotAn -}       [ "" {- "Khuzistan" -} ],
+    Identity                  `noun`    {- xuwzisotAn -}       [ "Khuzistan" ],
 
-    Identity |< Iy            `adj`     {- xuwzisotAniy~ -}    [ unwords [ "from", "/", "of", "" {- "Khuzistan" -} ] ],
+    Identity |< Iy            `adj`     {- xuwzisotAniy~ -}    [ unwords [ "from", "/", "of", "Khuzistan" ] ],
 
-    Identity |< Iy            `adj`     {- xuwzisotAniy~ -}    [ "" {- "Khuzistani" -} ] ]
+    Identity |< Iy            `adj`     {- xuwzisotAniy~ -}    [ "Khuzistani" ] ]
 
  |> "_ha.t.tIf" <| [
 
@@ -171,7 +171,7 @@ cluster_83  = listing "Lexicon's properties"
 
  |> "_hannU^sI" <| [
 
-    Identity                  `noun`    {- xan~uw$iy -}        [ "" {- "Khannouchi" -} ] ]
+    Identity                  `noun`    {- xan~uw$iy -}        [ "Khannouchi" ] ]
 
  |> "_harman^g" <| [
 
@@ -183,7 +183,7 @@ cluster_83  = listing "Lexicon's properties"
 
  |> "_hayrAllh" <| [
 
-    Identity                  `noun`    {- xayorAllh -}        [ "" {- "Khairallah" -}, "" {- "Kheirallah" -}, "" {- "Khairullah" -} ] ]
+    Identity                  `noun`    {- xayorAllh -}        [ "Khairallah", "Kheirallah", "Khairullah" ] ]
 
  |> "_hayzUrAn" <| [
 
@@ -195,11 +195,11 @@ cluster_84  = listing "Lexicon's properties"
 
  |> "_hazandAr" <| [
 
-    Identity                  `noun`    {- xazanodAr -}        [ "" {- "Khazandar" -} ],
+    Identity                  `noun`    {- xazanodAr -}        [ "Khazandar" ],
 
     Identity                  `noun`    {- xazanodAr -}        [ "treasurer" ],
 
-    Identity |< Iy            `adj`     {- xazanodAriy~ -}     [ "" {- "Khazandari" -} ],
+    Identity |< Iy            `adj`     {- xazanodAriy~ -}     [ "Khazandari" ],
 
     Identity |< Iy            `adj`     {- xazanodAriy~ -}     [ "treasurer" ] ]
 
@@ -221,7 +221,7 @@ cluster_84  = listing "Lexicon's properties"
 
  |> "_hu.dayrA'" <| [
 
-    Identity                  `noun`    {- xuDayorA' -}        [ "" {- "Paradise" -} ] ]
+    Identity                  `noun`    {- xuDayorA' -}        [ "Paradise" ] ]
 
  |> "_hulun^gAn" <| [
 
@@ -229,7 +229,7 @@ cluster_84  = listing "Lexicon's properties"
 
  |> "_humaynI" <| [
 
-    Identity                  `noun`    {- xumayoniy -}        [ "" {- "Khomeini" -} ] ]
+    Identity                  `noun`    {- xumayoniy -}        [ "Khomeini" ] ]
 
  |> "_hunzuwAn" <| [
 
@@ -237,11 +237,11 @@ cluster_84  = listing "Lexicon's properties"
 
  |> "_hurAsAn" <| [
 
-    Identity                  `noun`    {- xurAsAn -}          [ "" {- "Khurasan" -} ],
+    Identity                  `noun`    {- xurAsAn -}          [ "Khurasan" ],
 
-    Identity |< Iy            `adj`     {- xurAsAniy~ -}       [ unwords [ "from", "/", "of", "" {- "Khurasan" -} ] ],
+    Identity |< Iy            `adj`     {- xurAsAniy~ -}       [ unwords [ "from", "/", "of", "Khurasan" ] ],
 
-    Identity |< Iy            `adj`     {- xurAsAniy~ -}       [ "" {- "Khurasani" -} ] ]
+    Identity |< Iy            `adj`     {- xurAsAniy~ -}       [ "Khurasani" ] ]
 
  |> "_huza`bal" <| [
 
@@ -249,7 +249,7 @@ cluster_84  = listing "Lexicon's properties"
 
  |> "_hwAn" <| [
 
-    Identity                  `noun`    {- xwAn -}             [ "" {- "Juan" -} ] ]
+    Identity                  `noun`    {- xwAn -}             [ "Juan" ] ]
 
  |> "kUrfisqufUs" <| [
 

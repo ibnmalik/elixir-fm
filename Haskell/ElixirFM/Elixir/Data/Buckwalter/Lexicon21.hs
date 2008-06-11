@@ -26,17 +26,17 @@ cluster_1   = listing "Lexicon's properties"
 
  |> "'uq.sur" <| [
 
-    Identity                  `noun`    {- OuqoSur -}          [ "" {- "Luxor" -} ] ]
+    Identity                  `noun`    {- OuqoSur -}          [ "Luxor" ] ]
 
  |> "maqbur" <| [
 
     Identity |< Iy            `adj`     {- maqoburiy~ -}       [ "gravedigger" ],
 
-    Identity |< Iy            `adj`     {- maqoburiy~ -}       [ "" {- "Maqburi" -} ] ]
+    Identity |< Iy            `adj`     {- maqoburiy~ -}       [ "Maqburi" ] ]
 
  |> "muqAwilUn" <| [
 
-    Identity                  `noun`    {- muqAwiluwn -}       [ "" {- "Muqawiloun" -} ] ]
+    Identity                  `noun`    {- muqAwiluwn -}       [ "Muqawiloun" ] ]
 
  |> "q" <| [
 
@@ -6306,7 +6306,7 @@ cluster_112 = listing "Lexicon's properties"
 
  |> "qA.zimbUr" <| [
 
-    Identity                  `noun`    {- qAZimbuwr -}        [ "" {- "Kazempour" -} ] ]
+    Identity                  `noun`    {- qAZimbuwr -}        [ "Kazempour" ] ]
 
 
 cluster_113 = listing "Lexicon's properties"
@@ -6318,15 +6318,15 @@ cluster_113 = listing "Lexicon's properties"
 
  |> "qAbIl" <| [
 
-    Identity                  `noun`    {- qAbiyl -}           [ "" {- "Qabil" -}, "" {- "Cain" -} ] ]
+    Identity                  `noun`    {- qAbiyl -}           [ "Qabil", "Cain" ] ]
 
  |> "qAdrUf" <| [
 
-    Identity                  `noun`    {- qAdruwf -}          [ "" {- "Kadyrov" -} ] ]
+    Identity                  `noun`    {- qAdruwf -}          [ "Kadyrov" ] ]
 
  |> "qAnA" <| [
 
-    Identity                  `noun`    {- qAnA -}             [ "" {- "Qana" -} ] ]
+    Identity                  `noun`    {- qAnA -}             [ "Qana" ] ]
 
  |> "qAqull" <| [
 
@@ -6354,7 +6354,7 @@ cluster_113 = listing "Lexicon's properties"
 
  |> "qImar" <| [
 
-    Identity |< Iy            `adj`     {- qiymariy~ -}        [ "" {- "Qimari" -} ] ]
+    Identity |< Iy            `adj`     {- qiymariy~ -}        [ "Qimari" ] ]
 
  |> "qUmandAn" <| [
 
@@ -6366,11 +6366,11 @@ cluster_113 = listing "Lexicon's properties"
 
  |> "qUquryAl" <| [
 
-    Identity                  `noun`    {- quwquroyAl -}       [ unwords [ "" {- "Gogorial" -}, "(", "" {- "Gorgorial" -}, "?", "?", ")" ] ] ]
+    Identity                  `noun`    {- quwquroyAl -}       [ unwords [ "Gogorial", "(", "Gorgorial", "?", "?", ")" ] ] ]
 
  |> "qUrInA'" <| [
 
-    Identity |< Iy            `adj`     {- quwriynA}iy~ -}     [ "" {- "Cyrenaic" -} ] ]
+    Identity |< Iy            `adj`     {- quwriynA}iy~ -}     [ "Cyrenaic" ] ]
 
  |> "qa.tar^g" <| [
 
@@ -6402,7 +6402,7 @@ cluster_114 = listing "Lexicon's properties"
 
  |> "qaddUmI" <| [
 
-    Identity                  `noun`    {- qad~uwmiy -}        [ "" {- "Qaddumi" -}, "" {- "Qaddoumi" -}, "" {- "Kaddumi" -}, "" {- "Kaddoumi" -} ] ]
+    Identity                  `noun`    {- qad~uwmiy -}        [ "Qaddumi", "Qaddoumi", "Kaddumi", "Kaddoumi" ] ]
 
  |> "qahqarY" <| [
 
@@ -6426,7 +6426,7 @@ cluster_114 = listing "Lexicon's properties"
 
  |> "qalAyIdih" <| [
 
-    Identity                  `noun`    {- qalAyiydih -}       [ "" {- "Galaydeh" -} ] ]
+    Identity                  `noun`    {- qalAyiydih -}       [ "Galaydeh" ] ]
 
  |> "qalandAr" <| [
 
@@ -6436,7 +6436,7 @@ cluster_114 = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- qalanosuwap -}      [ "hood", "cap" ],
 
-    Identity |< aT            `noun`    {- qalanosuwap -}      [ "" {- "Qalansua" -} ] ]
+    Identity |< aT            `noun`    {- qalanosuwap -}      [ "Qalansua" ] ]
 
  |> "qallamA" <| [
 
@@ -6444,7 +6444,7 @@ cluster_114 = listing "Lexicon's properties"
 
  |> "qalqIlI" <| [
 
-    Identity |< aT            `noun`    {- qaloqiyliyap -}     [ "" {- "Qalqilya" -} ] ]
+    Identity |< aT            `noun`    {- qaloqiyliyap -}     [ "Qalqilya" ] ]
 
  |> "qan.tarm" <| [
 
@@ -6452,13 +6452,13 @@ cluster_114 = listing "Lexicon's properties"
 
  |> "qandahAr" <| [
 
-    Identity                  `noun`    {- qanodahAr -}        [ "" {- "Kandahar" -}, "" {- "Qandahar" -} ],
+    Identity                  `noun`    {- qanodahAr -}        [ "Kandahar", "Qandahar" ],
 
-    Identity |< Iy            `adj`     {- qanodahAriy~ -}     [ unwords [ "from", "/", "of", "" {- "Kandahar" -} ] ] ]
+    Identity |< Iy            `adj`     {- qanodahAriy~ -}     [ unwords [ "from", "/", "of", "Kandahar" ] ] ]
 
  |> "qandalaft" <| [
 
-    Identity                  `noun`    {- qanodalafot -}      [ "" {- "Qandalaft" -} ],
+    Identity                  `noun`    {- qanodalafot -}      [ "Qandalaft" ],
 
     Identity                  `noun`    {- qanodalafot -}      [ "sexton", "sacristan" ],
 
@@ -6470,7 +6470,7 @@ cluster_115 = listing "Lexicon's properties"
 
  |> "qar.tA^gann" <| [
 
-    Identity |< aT            `noun`    {- qaroTAjan~ap -}     [ "" {- "Cartagena" -}, "" {- "Carthage" -} ] ]
+    Identity |< aT            `noun`    {- qaroTAjan~ap -}     [ "Cartagena", "Carthage" ] ]
 
  |> "qarAniyA" <| [
 
@@ -6482,7 +6482,7 @@ cluster_115 = listing "Lexicon's properties"
 
  |> "qara.dA'" <| [
 
-    Identity |< Iy            `adj`     {- qaraDAwiy~ -}       [ "" {- "Qaradawi" -} ] ]
+    Identity |< Iy            `adj`     {- qaraDAwiy~ -}       [ "Qaradawi" ] ]
 
  |> "qarabIn" <| [
 
@@ -6502,7 +6502,7 @@ cluster_115 = listing "Lexicon's properties"
 
  |> "qaranq" <| [
 
-    Identity                  `noun`    {- qaranoq -}          [ "" {- "Garang" -} ] ]
+    Identity                  `noun`    {- qaranoq -}          [ "Garang" ] ]
 
  |> "qaraqUl" <| [
 
@@ -6522,11 +6522,11 @@ cluster_115 = listing "Lexicon's properties"
 
  |> "qaruwA.t" <| [
 
-    Identity |< Iy            `adj`     {- qaruwATiy~ -}       [ "" {- "Croatian" -} ] ]
+    Identity |< Iy            `adj`     {- qaruwATiy~ -}       [ "Croatian" ] ]
 
  |> "qaruwA.tiyA" <| [
 
-    Identity                  `noun`    {- qaruwATiyA -}       [ "" {- "Croatia" -} ] ]
+    Identity                  `noun`    {- qaruwATiyA -}       [ "Croatia" ] ]
 
  |> "qawlan^g" <| [
 
@@ -6538,13 +6538,13 @@ cluster_115 = listing "Lexicon's properties"
 
  |> "qayrawAn" <| [
 
-    Identity                  `noun`    {- qayorawAn -}        [ "" {- "Kairouan" -} ],
+    Identity                  `noun`    {- qayorawAn -}        [ "Kairouan" ],
 
     Identity                  `noun`    {- qayorawAn -}        [ "caravan" ] ]
 
  |> "qaywayn" <| [
 
-    Identity                  `noun`    {- qayowayon -}        [ "" {- "Qaiwain" -} ] ]
+    Identity                  `noun`    {- qayowayon -}        [ "Qaiwain" ] ]
 
 
 cluster_116 = listing "Lexicon's properties"
@@ -6562,13 +6562,13 @@ cluster_116 = listing "Lexicon's properties"
 
  |> "qir.gIzstAn" <| [
 
-    Identity                  `noun`    {- qirogiyzostAn -}    [ "" {- "Kyrgyzstan" -} ],
+    Identity                  `noun`    {- qirogiyzostAn -}    [ "Kyrgyzstan" ],
 
-    Identity |< Iy            `adj`     {- qirogiyzostAniy~ -} [ "" {- "Kyrgyzstani" -} ] ]
+    Identity |< Iy            `adj`     {- qirogiyzostAniy~ -} [ "Kyrgyzstani" ] ]
 
  |> "qirIm" <| [
 
-    Identity                  `noun`    {- qiriym -}           [ "" {- "Crimea" -} ] ]
+    Identity                  `noun`    {- qiriym -}           [ "Crimea" ] ]
 
  |> "qirillY" <| [
 
@@ -6576,7 +6576,7 @@ cluster_116 = listing "Lexicon's properties"
 
  |> "qrU^g" <| [
 
-    Identity                  `noun`    {- qruwj -}            [ "" {- "Geurrouj" -} ] ]
+    Identity                  `noun`    {- qruwj -}            [ "Geurrouj" ] ]
 
  |> "qu.surmill" <| [
 
@@ -6628,25 +6628,25 @@ cluster_117 = listing "Lexicon's properties"
 
  |> "qus.tan.tIn" <| [
 
-    Identity                  `noun`    {- qusoTanoTiyn -}     [ "" {- "Constantine" -} ],
+    Identity                  `noun`    {- qusoTanoTiyn -}     [ "Constantine" ],
 
-    Identity |< Iy |< aT      `noun`    {- qusoTanoTiyniy~ap -} [ "" {- "Constantinople" -} ] ]
+    Identity |< Iy |< aT      `noun`    {- qusoTanoTiyniy~ap -} [ "Constantinople" ] ]
 
  |> "qusan.tIn" <| [
 
-    Identity |< aT            `noun`    {- qusanoTiynap -}     [ "" {- "Constantine" -} ] ]
+    Identity |< aT            `noun`    {- qusanoTiynap -}     [ "Constantine" ] ]
 
  |> "qusan.tin" <| [
 
-    Identity |< Iy            `adj`     {- qusanoTiniy~ -}     [ unwords [ "from", "/", "of", "" {- "Constantine" -} ] ] ]
+    Identity |< Iy            `adj`     {- qusanoTiniy~ -}     [ unwords [ "from", "/", "of", "Constantine" ] ] ]
 
  |> "quwatl" <| [
 
-    Identity |< Iy            `adj`     {- quwatoliy~ -}       [ "" {- "Quwatli" -} ] ]
+    Identity |< Iy            `adj`     {- quwatoliy~ -}       [ "Quwatli" ] ]
 
  |> "quwaysim" <| [
 
-    Identity |< aT            `noun`    {- quwayosimap -}      [ "" {- "Quweisma" -} ] ]
+    Identity |< aT            `noun`    {- quwayosimap -}      [ "Quweisma" ] ]
 
  |> "quzmU.grAf" <| [
 

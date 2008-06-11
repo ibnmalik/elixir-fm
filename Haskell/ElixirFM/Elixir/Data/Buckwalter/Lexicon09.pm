@@ -284,8 +284,8 @@ $Lexicon = {
       'entry' => '\'a_dhab',
       'form' => '\'a_dhab',
       'lines' => [
-        ';; >a*ohab_1',
-        '>a*ohab PV      remove;eliminate',
+        ';; Oa*ohab_1',
+        'Oa*ohab PV      remove;eliminate',
         '*ohib   IV_yu   remove;eliminate',
         '*ohab   IV_Pass_yu      be removed;be eliminated'
       ],
@@ -733,7 +733,7 @@ $Lexicon = {
       'lines' => [
         ';; *imAm_1',
         '*imAm   N       claim;custody;protection',
-        '>a*im~  Nap     claims;custody;protection'
+        'Oa*im~  Nap     claims;custody;protection'
       ],
       'patterns' => {
         '\'a_dimm' => [
@@ -873,8 +873,8 @@ $Lexicon = {
       'entry' => 'ista_d\'ab',
       'form' => 'ista_d\'ab',
       'lines' => [
-        ';; Aisota*o>ab_1',
-        'Aisota*o>ab     PV_intr be wolflike;be lupine',
+        ';; Aisota*oOab_1',
+        'Aisota*oOab     PV_intr be wolflike;be lupine',
         'sota*o}ib       IV_intr be wolflike;be lupine'
       ],
       'patterns' => {},
@@ -904,7 +904,7 @@ $Lexicon = {
         ';; *i}ob_1',
         '*i}ob   Ndu     wolf;jackal',
         '*i}Ab   N       wolves;jackals',
-        '*u&obAn N       wolves;jackals'
+        '*uWobAn N       wolves;jackals'
       ],
       'patterns' => {
         '_di\'Ab' => [
@@ -932,8 +932,8 @@ $Lexicon = {
       'entry' => '_du\'Ab',
       'form' => '_du\'AbaT',
       'lines' => [
-        ';; *u&Abap_1',
-        '*u&Ab   Napdu   lock;strand;tuft'
+        ';; *uWAbap_1',
+        '*uWAb   Napdu   lock;strand;tuft'
       ],
       'patterns' => {},
       'index' => '1',
@@ -996,7 +996,7 @@ $Lexicon = {
       'lines' => [
         ';; *akA\'_1',
         '*akA\'   N0_Nh   cleverness',
-        '*akA&   Nh      cleverness',
+        '*akAW   Nh      cleverness',
         '*akA}   Nhy     cleverness'
       ],
       'patterns' => {},
@@ -1295,7 +1295,7 @@ $Lexicon = {
       'lines' => [
         ';; *aqon_1',
         '*aqon   Ndu     chin;beard',
-        '>a*oqAn N       chins;beards',
+        'Oa*oqAn N       chins;beards',
         '*uquwn  N       chins;beards'
       ],
       'patterns' => {
@@ -1335,7 +1335,7 @@ $Lexicon = {
       'lines' => [
         ';; *aHol_1',
         '*aHol   N       resentment;vindictiveness',
-        '>a*oHAl N       resentment;vindictiveness',
+        'Oa*oHAl N       resentment;vindictiveness',
         '*uHuwl  N       resentment;vindictiveness'
       ],
       'patterns' => {
@@ -1420,7 +1420,7 @@ $Lexicon = {
         ';; *ubAb_1',
         '*ubAb   N       flies',
         '*ubAb   Napdu   fly',
-        '>a*ib~  Nap     flies',
+        'Oa*ib~  Nap     flies',
         '*ib~An  N       flies'
       ],
       'patterns' => {
@@ -1745,9 +1745,9 @@ $Lexicon = {
       'lines' => [
         ';; *akiy~_1',
         '*akiy~  N/ap    clever     [[*akiy~/ADJ]]',
-        '>a*okiyA\'       N0_Nh   clever',
-        '>a*okiyA&       Nh      clever',
-        '>a*okiyA}       Nhy     clever'
+        'Oa*okiyA\'       N0_Nh   clever',
+        'Oa*okiyAW       Nh      clever',
+        'Oa*okiyA}       Nhy     clever'
       ],
       'patterns' => {
         '\'a_dkiyA\'' => [
@@ -1792,7 +1792,7 @@ $Lexicon = {
       'lines' => [
         ';; *amA\'_1',
         '*amA\'   N0_Nh   last remnant;last breath',
-        '*amA&   Nh      last remnant;last breath',
+        '*amAW   Nh      last remnant;last breath',
         '*amA}   Nhy     last remnant;last breath'
       ],
       'patterns' => {},
@@ -1940,8 +1940,8 @@ $Lexicon = {
       'entry' => '\'a_dkar',
       'form' => '\'a_dkar',
       'lines' => [
-        ';; >a*okar_1',
-        '>a*okar PV      remind',
+        ';; Oa*okar_1',
+        'Oa*okar PV      remind',
         '*okir   IV_yu   remind',
         '*okar   IV_Pass_yu      be reminded'
       ],
@@ -2084,8 +2084,8 @@ $Lexicon = {
       'entry' => '\'a_dkAr',
       'form' => '\'a_dkAr',
       'lines' => [
-        ';; >a*okAr_1',
-        '>a*okAr N       dhikr (Sufi ritual)'
+        ';; Oa*okAr_1',
+        'Oa*okAr N       dhikr (Sufi ritual)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -2966,8 +2966,8 @@ $Lexicon = {
       'entry' => '\'a_d`an',
       'form' => '\'a_d`an',
       'lines' => [
-        ';; >a*oEan_1',
-        '>a*oEan PV-n    submit;yield;obey',
+        ';; Oa*oEan_1',
+        'Oa*oEan PV-n    submit;yield;obey',
         '*oEin   IV-n_yu submit;yield;obey',
         '*oEan   IV-n_Pass_yu    be submitted to;be yielded to;be obeyed'
       ],
@@ -3024,8 +3024,8 @@ $Lexicon = {
       'entry' => '\'i_d`An',
       'form' => '\'i_d`An',
       'lines' => [
-        ';; <i*oEAn_1',
-        '<i*oEAn NduAt   submissiveness;compliance;obedience'
+        ';; Ii*oEAn_1',
+        'Ii*oEAn NduAt   submissiveness;compliance;obedience'
       ],
       'patterns' => {
         '\'i_d`An' => [
@@ -3100,8 +3100,8 @@ $Lexicon = {
       'entry' => '\'a_dnab',
       'form' => '\'a_dnab',
       'lines' => [
-        ';; >a*onab_1',
-        '>a*onab PV      do wrong;commit an offense;be guilty',
+        ';; Oa*onab_1',
+        'Oa*onab PV      do wrong;commit an offense;be guilty',
         '*onib   IV_yu   do wrong;commit an offense;be guilty',
         '*onab   IV_Pass_yu      be found guilty'
       ],
@@ -3195,7 +3195,7 @@ $Lexicon = {
       'lines' => [
         ';; *anab_1',
         '*anab   Ndu     tail;appendage;follower',
-        '>a*onAb N       tails;followers;dependents'
+        'Oa*onAb N       tails;followers;dependents'
       ],
       'patterns' => {
         '\'a_dnAb' => [
@@ -3402,9 +3402,9 @@ $Lexicon = {
       'entry' => '\'a_dAb',
       'form' => '\'a_dAb',
       'lines' => [
-        ';; >a*Ab_1',
-        '>a*Ab   PV_V    dissolve;melt;exhaust;consume',
-        '>a*ab   PV_C    dissolve;melt;exhaust;consume',
+        ';; Oa*Ab_1',
+        'Oa*Ab   PV_V    dissolve;melt;exhaust;consume',
+        'Oa*ab   PV_C    dissolve;melt;exhaust;consume',
         '*iyb    IV_V_yu dissolve;melt;exhaust;consume',
         '*ib     IV_C_yu dissolve;melt;exhaust;consume',
         '*Ab     IV_V_Pass_yu    be dissolved;be melted;be exhausted;be consumed',
@@ -3499,8 +3499,8 @@ $Lexicon = {
       'entry' => '\'i_dAb',
       'form' => '\'i_dAbaT',
       'lines' => [
-        ';; <i*Abap_1',
-        '<i*Ab   NapAt   dissolution;liquefaction;melting'
+        ';; Ii*Abap_1',
+        'Ii*Ab   NapAt   dissolution;liquefaction;melting'
       ],
       'patterns' => {},
       'index' => '1',
@@ -3890,11 +3890,11 @@ $Lexicon = {
       'entry' => '\'a_dkY',
       'form' => '\'a_dkY',
       'lines' => [
-        ';; >a*okaY_1',
-        '>a*okaY PV_0    kindle;make blaze',
-        '>a*okA  PV_h    kindle;make blaze',
-        '>a*okay PV_Atn  kindle;make blaze',
-        '>a*ok   PV_ttAw kindle;make blaze',
+        ';; Oa*okaY_1',
+        'Oa*okaY PV_0    kindle;make blaze',
+        'Oa*okA  PV_h    kindle;make blaze',
+        'Oa*okay PV_Atn  kindle;make blaze',
+        'Oa*ok   PV_ttAw kindle;make blaze',
         '*okiy   IV_0hAnn_yu     kindle;make blaze',
         '*ok     IV_0hwnyn_yu    kindle;make blaze',
         '*okaY   IV_0_Pass_yu    be kindled;be set ablaze',
@@ -4009,10 +4009,10 @@ $Lexicon = {
       'entry' => '\'a_dkY',
       'form' => '\'a_dkY',
       'lines' => [
-        ';; >a*okaY_2',
-        '>a*okaY N0      smarter/smartest;more/most delicious',
-        '>a*okA  Nhy     smarter/smartest;more/most delicious',
-        '>a*okay NAn_Nayn        smartest;most delicious'
+        ';; Oa*okaY_2',
+        'Oa*okaY N0      smarter/smartest;more/most delicious',
+        'Oa*okA  Nhy     smarter/smartest;more/most delicious',
+        'Oa*okay NAn_Nayn        smartest;most delicious'
       ],
       'patterns' => {
         '\'a_dkA' => []
@@ -4077,8 +4077,8 @@ $Lexicon = {
       'entry' => '\'a_dhal',
       'form' => '\'a_dhal',
       'lines' => [
-        ';; >a*ohal_1',
-        '>a*ohal PV      baffle;distract',
+        ';; Oa*ohal_1',
+        'Oa*ohal PV      baffle;distract',
         '*ohil   IV_yu   baffle;distract',
         '*ohal   IV_Pass_yu      be baffled;be distracted'
       ],
@@ -4403,11 +4403,11 @@ $Lexicon = {
       'entry' => '\'a_drY',
       'form' => '\'a_drY',
       'lines' => [
-        ';; >a*oraY_1',
-        '>a*oraY PV_0    disperse;scatter',
-        '>a*orA  PV_h    disperse;scatter',
-        '>a*oray PV_Atn  disperse;scatter',
-        '>a*or   PV_ttAw disperse;scatter',
+        ';; Oa*oraY_1',
+        'Oa*oraY PV_0    disperse;scatter',
+        'Oa*orA  PV_h    disperse;scatter',
+        'Oa*oray PV_Atn  disperse;scatter',
+        'Oa*or   PV_ttAw disperse;scatter',
         '*oriy   IV_0hAnn_yu     disperse;scatter',
         '*or     IV_0hwnyn_yu    disperse;scatter',
         '*oraY   IV_0_Pass_yu    be dispersed;be scattered',
@@ -5126,11 +5126,11 @@ $Lexicon = {
       'entry' => '\'a_dwY',
       'form' => '\'a_dwY',
       'lines' => [
-        ';; >a*owaY_1',
-        '>a*owaY PV_0    make wilt;make dry',
-        '>a*owA  PV_h    make wilt;make dry',
-        '>a*oway PV_Atn  make wilt;make dry',
-        '>a*ow   PV_ttAw make wilt;make dry',
+        ';; Oa*owaY_1',
+        'Oa*owaY PV_0    make wilt;make dry',
+        'Oa*owA  PV_h    make wilt;make dry',
+        'Oa*oway PV_Atn  make wilt;make dry',
+        'Oa*ow   PV_ttAw make wilt;make dry',
         '*owiy   IV_0hAnn_yu     make wilt;make dry',
         '*ow     IV_0hwnyn_yu    make wilt;make dry',
         '*owaY   IV_0_Pass_yu    be wilted;be dried',
@@ -5215,10 +5215,10 @@ $Lexicon = {
       'entry' => '\'a_dlaf',
       'form' => '\'a_dlaf',
       'lines' => [
-        ';; >a*olaf_1',
-        '>a*olaf Nel     small-nosed',
+        ';; Oa*olaf_1',
+        'Oa*olaf Nel     small-nosed',
         '*alofA\' N0_Nh   small-nosed',
-        '*alofA& Nh      small-nosed',
+        '*alofAW Nh      small-nosed',
         '*alofA} Nhy     small-nosed',
         '*ulof   N       small-nosed'
       ],
@@ -5540,7 +5540,7 @@ $Lexicon = {
       'lines' => [
         ';; *irAE_1',
         '*irAE   Ndu     arm',
-        '>a*oruE N       arms',
+        'Oa*oruE N       arms',
         '*uroEAn N       arms'
       ],
       'patterns' => {
@@ -5576,7 +5576,7 @@ $Lexicon = {
       'lines' => [
         ';; *irAE_2',
         '*irAE   Ndu     lever;crank',
-        '>a*oruE N       levers;cranks',
+        'Oa*oruE N       levers;cranks',
         '*uroEAn N       levers;cranks'
       ],
       'patterns' => {
@@ -5700,8 +5700,8 @@ $Lexicon = {
       'entry' => '\'a_dlaq',
       'form' => '\'a_dlaq',
       'lines' => [
-        ';; >a*olaq_1',
-        '>a*olaq Nel     eloquent;fluent'
+        ';; Oa*olaq_1',
+        'Oa*olaq Nel     eloquent;fluent'
       ],
       'patterns' => {},
       'index' => '1',
@@ -5864,7 +5864,7 @@ $Lexicon = {
       'lines' => [
         ';; *uxor_1',
         '*uxor   N       stored;hoarded',
-        '>a*oxAr N       stored;hoarded'
+        'Oa*oxAr N       stored;hoarded'
       ],
       'patterns' => {
         '\'a_d_hAr' => [
@@ -6097,7 +6097,7 @@ $Lexicon = {
         '*`likum FW-WaBi that one       [[*`likum/DEM_PRON_MS]]',
         'tiloka  FW-WaBi that;those           [[tiloka/DEM_PRON_FS]]',
         'tilokum FW-WaBi that one       [[tilokum/DEM_PRON_FS]]',
-        '>uwlA}ikum      FW-WaBi those          [[>uwlA}ikum/DEM_PRON_MP]]'
+        'OuwlA}ikum      FW-WaBi those          [[OuwlA}ikum/DEM_PRON_MP]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6244,12 +6244,12 @@ $Lexicon = {
       'entry' => '\'a_dA`',
       'form' => '\'a_dA`',
       'lines' => [
-        ';; >a*AE_1',
-        '>a*AE   PV_V    broadcast;propagate',
-        '>a*aE   PV_C    broadcast;propagate',
+        ';; Oa*AE_1',
+        'Oa*AE   PV_V    broadcast;propagate',
+        'Oa*aE   PV_C    broadcast;propagate',
         '*iyE    IV_V_yu broadcast;propagate',
         '*iE     IV_C_yu broadcast;propagate',
-        '>u*iyE  PV_V_Pass       be broadcast;be propagated',
+        'Ou*iyE  PV_V_Pass       be broadcast;be propagated',
         '*AE     IV_V_Pass_yu    be broadcast;be propagated',
         '*aE     IV_C_Pass_yu    be broadcast;be propagated'
       ],
@@ -6295,9 +6295,9 @@ $Lexicon = {
       'entry' => '\'i_dA`',
       'form' => '\'i_dA`aT',
       'lines' => [
-        ';; <i*AEap_1',
-        '<i*AE   Napdu   broadcast;transmission',
-        '<i*AE   NAt     broadcasts;transmissions'
+        ';; Ii*AEap_1',
+        'Ii*AE   Napdu   broadcast;transmission',
+        'Ii*AE   NAt     broadcasts;transmissions'
       ],
       'patterns' => {
         '\'i_dA`' => [
@@ -6322,8 +6322,8 @@ $Lexicon = {
       'entry' => '\'i_dA`',
       'form' => '\'i_dA`iyy',
       'lines' => [
-        ';; <i*AEiy~_1',
-        '<i*AEiy~        Nall    radio;broadcast;transmission     [[<i*AEiy~/ADJ]]'
+        ';; Ii*AEiy~_1',
+        'Ii*AEiy~        Nall    radio;broadcast;transmission     [[Ii*AEiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -6428,9 +6428,9 @@ $Lexicon = {
       'entry' => '\'a_dall',
       'form' => '\'a_dall',
       'lines' => [
-        ';; >a*al~_1',
-        '>a*al~  PV_V    degrade;subdue',
-        '>a*olal PV_C    degrade;subdue',
+        ';; Oa*al~_1',
+        'Oa*al~  PV_V    degrade;subdue',
+        'Oa*olal PV_C    degrade;subdue',
         '*il~    IV_V_yu degrade;subdue',
         '*olil   IV_C_yu degrade;subdue',
         '*al~    IV_V_Pass_yu    be degraded;be subdued'
@@ -6576,10 +6576,10 @@ $Lexicon = {
       'lines' => [
         ';; *aliyl_1',
         '*aliyl  N/ap    despised;submissive     [[*aliyl/ADJ]]',
-        '>a*il~A\'        N0_Nh   despised;submissive',
-        '>a*il~A&        Nh      despised;submissive',
-        '>a*il~A}        Nhy     despised;submissive',
-        '>a*il~  Nap     despised;submissive'
+        'Oa*il~A\'        N0_Nh   despised;submissive',
+        'Oa*il~AW        Nh      despised;submissive',
+        'Oa*il~A}        Nhy     despised;submissive',
+        'Oa*il~  Nap     despised;submissive'
       ],
       'patterns' => {
         '\'a_dillA\'' => [
@@ -6686,8 +6686,8 @@ $Lexicon = {
       'entry' => '\'i_dlAl',
       'form' => '\'i_dlAl',
       'lines' => [
-        ';; <i*olAl_1',
-        '<i*olAl NduAt   degradation;surmounting'
+        ';; Ii*olAl_1',
+        'Ii*olAl NduAt   degradation;surmounting'
       ],
       'patterns' => {
         '\'i_dlAl' => [
@@ -6821,7 +6821,7 @@ $Lexicon = {
       'lines' => [
         ';; *ihon_1',
         '*ihon   N       mind;intellect',
-        '>a*ohAn N       minds;intellects'
+        'Oa*ohAn N       minds;intellects'
       ],
       'patterns' => {
         '\'a_dhAn' => [
@@ -7047,8 +7047,8 @@ $Lexicon = {
       'entry' => '\'a_d`ar',
       'form' => '\'a_d`ar',
       'lines' => [
-        ';; >a*oEar_1',
-        '>a*oEar PV      frighten',
+        ';; Oa*oEar_1',
+        'Oa*oEar PV      frighten',
         '*oEir   IV_yu   frighten',
         '*oEar   IV_Pass_yu      be frightened'
       ],
@@ -7228,8 +7228,8 @@ $Lexicon = {
       'entry' => '\'a_draq',
       'form' => '\'a_draq',
       'lines' => [
-        ';; >a*oraq_1',
-        '>a*oraq PV      drop excrement (bird)',
+        ';; Oa*oraq_1',
+        'Oa*oraq PV      drop excrement (bird)',
         '*oriq   IV_yu   drop excrement (bird)'
       ],
       'patterns' => {
@@ -7418,13 +7418,13 @@ $Lexicon = {
       'entry' => '_dara\'',
       'form' => '_dara\'',
       'lines' => [
-        ';; *ara>-a_1',
-        '*ara>   PV->    create;sow;seed',
+        ';; *araO-a_1',
+        '*araO   PV-O    create;sow;seed',
         '*ara|   PV-|    create;sow;seed',
-        '*ara&   PV_w    create;sow;seed',
-        '*ora>   IV      create;sow;seed',
+        '*araW   PV_w    create;sow;seed',
+        '*oraO   IV      create;sow;seed',
         '*ora|   IV-|    create;sow;seed',
-        '*ora&   IV_wn   create;sow;seed',
+        '*oraW   IV_wn   create;sow;seed',
         '*ora}   IV_yn   create;sow;seed'
       ],
       'patterns' => {
@@ -7845,9 +7845,9 @@ $Lexicon = {
       'entry' => '\'a_dAq',
       'form' => '\'a_dAq',
       'lines' => [
-        ';; >a*Aq_1',
-        '>a*Aq   PV_V    make taste;make sample;make experience',
-        '>a*aq   PV_C    make taste;make sample;make experience',
+        ';; Oa*Aq_1',
+        'Oa*Aq   PV_V    make taste;make sample;make experience',
+        'Oa*aq   PV_C    make taste;make sample;make experience',
         '*iyq    IV_V_yu make taste;make sample;make experience',
         '*iq     IV_C_yu make taste;make sample;make experience',
         '*Aq     IV_V_Pass_yu    be made to taste/sample;be made to make experience',
@@ -7916,7 +7916,7 @@ $Lexicon = {
       'lines' => [
         ';; *awoq_1',
         '*awoq   N       taste;sense;sensitivity',
-        '>a*owAq N       tastes;sensitivities'
+        'Oa*owAq N       tastes;sensitivities'
       ],
       'patterns' => {
         '\'a_dwAq' => [
@@ -8129,9 +8129,9 @@ $Lexicon = {
       'entry' => '\'a_dAl',
       'form' => '\'a_dAl',
       'lines' => [
-        ';; >a*Al_1',
-        '>a*Al   PV_V    trample;degrade',
-        '>a*al   PV_C    trample;degrade',
+        ';; Oa*Al_1',
+        'Oa*Al   PV_V    trample;degrade',
+        'Oa*al   PV_C    trample;degrade',
         '*iyl    IV_V_yu trample;degrade',
         '*il     IV_C_yu trample;degrade',
         '*Al     IV_V_Pass_yu    be trampled;be degraded',
@@ -8183,7 +8183,7 @@ $Lexicon = {
         '*ayol   N       tail;end',
         '*ayol   N       supplement;addendum',
         '*uyuwl  N       tails;addenda;consequences',
-        '>a*oyAl N       tails;addenda;consequences'
+        'Oa*oyAl N       tails;addenda;consequences'
       ],
       'patterns' => {
         '_duyuwl' => [

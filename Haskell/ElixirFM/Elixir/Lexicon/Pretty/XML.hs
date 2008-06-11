@@ -61,7 +61,7 @@ elemtxt x y c = text ("<" ++ x) <> attrs y <> text ">"
 
 elempty x y   = text ("<" ++ x) <> attrs y <> text " />"
 
-elemesp x []  = elemtxt x [] empty
+elemesp x []  = elempty x [] 
 elemesp x y   = element x [] (vcat y) 
 
 
@@ -82,11 +82,11 @@ instance (Pretty (Entry PatternT), Pretty (Entry PatternQ),
 
 prettyNest' r l t = (element "Wrap" [] . element t [])
                     (elemtxt "root" [] (text r)
-                                            -- (element "tex" [] (text r) <$$>
-                                            --  element "ucs" [] ((text . encode UTF
-                                            --                          . decode TeX) r))
-                                  <$$>
-                                  element "ents" [] (pretty l))
+                                    -- (element "tex" [] (text r) <$$>
+                                    --  element "ucs" [] ((text . encode UTF
+                                    --                          . decode TeX) r))
+                     <$$>
+                     element "ents" [] (pretty l))
 
 
 escape :: String -> String
@@ -117,7 +117,7 @@ instance (Show a, Pretty (Entity a)) => Pretty (Entry a) where
                                    elemtxt "morphs" [] $ pretty m,
                                    elemtxt "reflex" [] $ pretty l ])
 
-    prettyList = cat . map pretty
+    prettyList = vcat . map pretty
 
 
 instance (Show a, Pretty [a]) => Pretty (Entity a) where
@@ -166,8 +166,8 @@ instance Show a => Pretty (Either (Root, Morphs a) (Morphs a)) where
 
     pretty (Right x)     = elemtxt "Right" [] (pretty x)
     pretty (Left (r, x)) = element "Left" [] (elemtxt "fst" [] (pretty r)
-    	   	     	   	   	      <$$>
-					      elemtxt "snd" [] (pretty x))
+                                              <$$>
+                                              elemtxt "snd" [] (pretty x))
 
     prettyList [] = empty
     prettyList xs = (nested . vcat . map pretty) xs
@@ -183,7 +183,7 @@ instance Pretty String where
     pretty = text . escape
 
     prettyList []  = empty
-    prettyList [x] = pretty x
+    prettyList [x] | not (null x) = pretty x
     prettyList xyz = (nested . vcat . map (elemtxt "LM" [] . pretty)) xyz
 
 

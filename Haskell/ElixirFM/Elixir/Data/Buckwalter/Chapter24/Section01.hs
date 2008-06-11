@@ -20,7 +20,7 @@ cluster_1   = listing "Lexicon's properties"
 
     Identity                  `noun`    {- AimoruW -}          [ "man" ],
 
-    Identity                  `noun`    {- AimoruW -}          [ "" {- "Imru'" -}, "" {- "Imra'" -}, "" {- "Imri'" -} ] ]
+    Identity                  `noun`    {- AimoruW -}          [ "Imru'", "Imra'", "Imri'" ] ]
 
  |> "limA_dA" <| [
 

@@ -20,13 +20,13 @@ cluster_121 = listing "Lexicon's properties"
 
  |> "sini.gAl" <| [
 
-    Identity                  `noun`    {- sinigAl -}          [ "" {- "Senegal" -} ],
+    Identity                  `noun`    {- sinigAl -}          [ "Senegal" ],
 
-    Identity |< Iy            `adj`     {- sinigAliy~ -}       [ "" {- "Senegalese" -} ] ]
+    Identity |< Iy            `adj`     {- sinigAliy~ -}       [ "Senegalese" ] ]
 
  |> "sinimmAr" <| [
 
-    Identity                  `noun`    {- sinim~Ar -}         [ unwords [ "" {- "Sinimmar" -}, "(", "legendary", "architect", ")" ] ] ]
+    Identity                  `noun`    {- sinim~Ar -}         [ unwords [ "Sinimmar", "(", "legendary", "architect", ")" ] ] ]
 
  |> "sinnawr" <| [
 
@@ -34,7 +34,7 @@ cluster_121 = listing "Lexicon's properties"
 
  |> "sirfAntis" <| [
 
-    Identity                  `noun`    {- sirofAnotis -}      [ "" {- "Cervantes" -} ] ]
+    Identity                  `noun`    {- sirofAnotis -}      [ "Cervantes" ] ]
 
  |> "sittUn" <| [
 
@@ -46,11 +46,11 @@ cluster_121 = listing "Lexicon's properties"
 
  |> "siyAtil" <| [
 
-    Identity                  `noun`    {- siyAtil -}          [ "" {- "Seattle" -} ] ]
+    Identity                  `noun`    {- siyAtil -}          [ "Seattle" ] ]
 
  |> "siyUl" <| [
 
-    Identity                  `noun`    {- siyuwl -}           [ "" {- "Seoul" -} ] ]
+    Identity                  `noun`    {- siyuwl -}           [ "Seoul" ] ]
 
  |> "sizmU.grAf" <| [
 
@@ -60,11 +60,11 @@ cluster_121 = listing "Lexicon's properties"
 
  |> "skArbUrUh" <| [
 
-    Identity                  `noun`    {- skArobuwruwh -}     [ "" {- "Scarborough" -} ] ]
+    Identity                  `noun`    {- skArobuwruwh -}     [ "Scarborough" ] ]
 
  |> "skIlArI" <| [
 
-    Identity                  `noun`    {- skiylAriy -}        [ "" {- "Squillari" -} ] ]
+    Identity                  `noun`    {- skiylAriy -}        [ "Squillari" ] ]
 
  |> "skIt" <| [
 
@@ -80,11 +80,11 @@ cluster_121 = listing "Lexicon's properties"
 
  |> "skUblAr" <| [
 
-    Identity                  `noun`    {- skuwbolAr -}        [ "" {- "Skoblar" -} ] ]
+    Identity                  `noun`    {- skuwbolAr -}        [ "Skoblar" ] ]
 
  |> "skUd" <| [
 
-    Identity                  `noun`    {- skuwd -}            [ "" {- "Scud" -} ] ]
+    Identity                  `noun`    {- skuwd -}            [ "Scud" ] ]
 
 
 cluster_122 = listing "Lexicon's properties"
@@ -92,63 +92,63 @@ cluster_122 = listing "Lexicon's properties"
 
  |> "skUt" <| [
 
-    Identity                  `noun`    {- skuwt -}            [ "" {- "Scott" -} ] ]
+    Identity                  `noun`    {- skuwt -}            [ "Scott" ] ]
 
  |> "skUtIniyUtIs" <| [
 
-    Identity                  `noun`    {- skuwtiyniyuwtiys -} [ "" {- "Skotiniotis" -} ] ]
+    Identity                  `noun`    {- skuwtiyniyuwtiys -} [ "Skotiniotis" ] ]
 
  |> "skutlAnd" <| [
 
-    Identity                  `noun`    {- skutolAnod -}       [ "" {- "Scotland" -} ],
+    Identity                  `noun`    {- skutolAnod -}       [ "Scotland" ],
 
-    Identity |< Iy            `adj`     {- skutolAnodiy~ -}    [ "" {- "Scottish" -} ] ]
+    Identity |< Iy            `adj`     {- skutolAnodiy~ -}    [ "Scottish" ] ]
 
  |> "skutland" <| [
 
-    Identity                  `noun`    {- skutolanod -}       [ "" {- "Scotland" -} ],
+    Identity                  `noun`    {- skutolanod -}       [ "Scotland" ],
 
-    Identity |< Iy            `adj`     {- skutolanodiy~ -}    [ "" {- "Scottish" -} ] ]
+    Identity |< Iy            `adj`     {- skutolanodiy~ -}    [ "Scottish" ] ]
 
  |> "slAf" <| [
 
-    Identity |< Iy            `adj`     {- slAfiy~ -}          [ "" {- "Slavic" -} ] ]
+    Identity |< Iy            `adj`     {- slAfiy~ -}          [ "Slavic" ] ]
 
  |> "slAfiyAnkA" <| [
 
-    Identity                  `noun`    {- slAfiyAnokA -}      [ "" {- "Slavianka" -} ] ]
+    Identity                  `noun`    {- slAfiyAnokA -}      [ "Slavianka" ] ]
 
  |> "slUbUdAn" <| [
 
-    Identity                  `noun`    {- sluwbuwdAn -}       [ "" {- "Slobodan" -} ] ]
+    Identity                  `noun`    {- sluwbuwdAn -}       [ "Slobodan" ] ]
 
  |> "slUfAk" <| [
 
-    Identity |< Iy            `adj`     {- sluwfAkiy~ -}       [ "" {- "Slovak" -} ] ]
+    Identity |< Iy            `adj`     {- sluwfAkiy~ -}       [ "Slovak" ] ]
 
  |> "slUfAkiyA" <| [
 
-    Identity                  `noun`    {- sluwfAkiyA -}       [ "" {- "Slovakia" -} ] ]
+    Identity                  `noun`    {- sluwfAkiyA -}       [ "Slovakia" ] ]
 
  |> "slUfIn" <| [
 
-    Identity |< Iy            `adj`     {- sluwfiyniy~ -}      [ "" {- "Slovenian" -} ] ]
+    Identity |< Iy            `adj`     {- sluwfiyniy~ -}      [ "Slovenian" ] ]
 
  |> "slUfIniyA" <| [
 
-    Identity                  `noun`    {- sluwfiyniyA -}      [ "" {- "Slovenia" -} ] ]
+    Identity                  `noun`    {- sluwfiyniyA -}      [ "Slovenia" ] ]
 
  |> "smI_t" <| [
 
-    Identity                  `noun`    {- smiyv -}            [ "" {- "Smith" -} ] ]
+    Identity                  `noun`    {- smiyv -}            [ "Smith" ] ]
 
  |> "smI_tsUniyAn" <| [
 
-    Identity                  `noun`    {- smiyvosuwniyAn -}   [ "" {- "Smithsonian" -} ] ]
+    Identity                  `noun`    {- smiyvosuwniyAn -}   [ "Smithsonian" ] ]
 
  |> "snIh" <| [
 
-    Identity                  `noun`    {- sniyh -}            [ "" {- "Sneh" -} ] ]
+    Identity                  `noun`    {- sniyh -}            [ "Sneh" ] ]
 
  |> "snUkir" <| [
 
@@ -156,15 +156,15 @@ cluster_122 = listing "Lexicon's properties"
 
  |> "srIbAn" <| [
 
-    Identity                  `noun`    {- sriybAn -}          [ "" {- "Sripan" -} ] ]
+    Identity                  `noun`    {- sriybAn -}          [ "Sripan" ] ]
 
  |> "srIlAnkA" <| [
 
-    Identity                  `noun`    {- sriylAnokA -}       [ unwords [ "" {- "Sri" -}, "" {- "Lanka" -} ] ] ]
+    Identity                  `noun`    {- sriylAnokA -}       [ unwords [ "Sri", "Lanka" ] ] ]
 
  |> "srIn.gAr" <| [
 
-    Identity                  `noun`    {- sriynogAr -}        [ "" {- "Sringhar" -} ] ]
+    Identity                  `noun`    {- sriynogAr -}        [ "Sringhar" ] ]
 
 
 cluster_123 = listing "Lexicon's properties"
@@ -172,29 +172,29 @@ cluster_123 = listing "Lexicon's properties"
 
  |> "stArz" <| [
 
-    Identity                  `noun`    {- stArz -}            [ "" {- "Stars" -}, "" {- "Starie" -} ] ]
+    Identity                  `noun`    {- stArz -}            [ "Stars", "Starie" ] ]
 
  |> "stAybilz" <| [
 
-    Identity                  `noun`    {- stAyobilz -}        [ "" {- "Staples" -} ] ]
+    Identity                  `noun`    {- stAyobilz -}        [ "Staples" ] ]
 
  |> "stIf" <| [
 
-    Identity                  `noun`    {- stiyf -}            [ "" {- "Steve" -} ] ]
+    Identity                  `noun`    {- stiyf -}            [ "Steve" ] ]
 
  |> "stIfAn" <| [
 
-    Identity                  `noun`    {- stiyfAn -}          [ "" {- "Stephan" -} ] ]
+    Identity                  `noun`    {- stiyfAn -}          [ "Stephan" ] ]
 
  |> "stIfin" <| [
 
-    Identity                  `noun`    {- stiyfin -}          [ "" {- "Stephen" -}, "" {- "Stefan" -} ] ]
+    Identity                  `noun`    {- stiyfin -}          [ "Stephen", "Stefan" ] ]
 
  |> "stUbwUt^s" <| [
 
     Identity                  `noun`    {- stuwbwuwto$ -}      [ "stopwatch" ],
 
-    Identity                  `noun`    {- stuwbwuwto$ -}      [ "" {- "Stopwatch" -} ] ]
+    Identity                  `noun`    {- stuwbwuwto$ -}      [ "Stopwatch" ] ]
 
  |> "stUdiyU" <| [
 
@@ -202,27 +202,27 @@ cluster_123 = listing "Lexicon's properties"
 
  |> "stUlyArUf" <| [
 
-    Identity                  `noun`    {- stuwloyAruwf -}     [ "" {- "Stolyarov" -} ] ]
+    Identity                  `noun`    {- stuwloyAruwf -}     [ "Stolyarov" ] ]
 
  |> "strAsbUr.g" <| [
 
-    Identity                  `noun`    {- strAsobuwrg -}      [ "" {- "Strasbourg" -} ] ]
+    Identity                  `noun`    {- strAsobuwrg -}      [ "Strasbourg" ] ]
 
  |> "strAws" <| [
 
-    Identity                  `noun`    {- strAws -}           [ "" {- "Strauss" -} ] ]
+    Identity                  `noun`    {- strAws -}           [ "Strauss" ] ]
 
  |> "strIt" <| [
 
-    Identity                  `noun`    {- striyt -}           [ "" {- "Street" -} ] ]
+    Identity                  `noun`    {- striyt -}           [ "Street" ] ]
 
  |> "strUb" <| [
 
-    Identity                  `noun`    {- struwb -}           [ "" {- "Strobe" -} ] ]
+    Identity                  `noun`    {- struwb -}           [ "Strobe" ] ]
 
  |> "su.haybAn" <| [
 
-    Identity |< Iy            `adj`     {- suHayobAniy~ -}     [ "" {- "Suhaibani" -} ] ]
+    Identity |< Iy            `adj`     {- suHayobAniy~ -}     [ "Suhaibani" ] ]
 
  |> "su_htiyAn" <| [
 
@@ -260,7 +260,7 @@ cluster_124 = listing "Lexicon's properties"
 
  |> "sulaymAn" <| [
 
-    Identity                  `noun`    {- sulayomAn -}        [ "" {- "Sulayman" -}, "" {- "Solomon" -} ],
+    Identity                  `noun`    {- sulayomAn -}        [ "Sulayman", "Solomon" ],
 
     Identity |< Iy            `adj`     {- sulayomAniy~ -}     [ unwords [ "corrosive", "sublimate" ], unwords [ "mercury", "chloride" ] ] ]
 
@@ -270,7 +270,7 @@ cluster_124 = listing "Lexicon's properties"
 
  |> "sunUnU" <| [
 
-    Identity                  `noun`    {- sunuwnuw -}         [ "" {- "Sununu" -} ],
+    Identity                  `noun`    {- sunuwnuw -}         [ "Sununu" ],
 
     Identity                  `noun`    {- sunuwnuw -}         [ "sununu", unwords [ "swallow", "(", "bird", ")" ] ] ]
 
@@ -284,7 +284,7 @@ cluster_124 = listing "Lexicon's properties"
 
  |> "suqu.trA'" <| [
 
-    Identity                  `noun`    {- suquTorA' -}        [ "" {- "Socotra" -} ] ]
+    Identity                  `noun`    {- suquTorA' -}        [ "Socotra" ] ]
 
  |> "surAdiq" <| [
 
@@ -296,17 +296,17 @@ cluster_124 = listing "Lexicon's properties"
 
  |> "suwAzIlAnd" <| [
 
-    Identity                  `noun`    {- suwAziylAnod -}     [ "" {- "Swaziland" -} ],
+    Identity                  `noun`    {- suwAziylAnod -}     [ "Swaziland" ],
 
-    Identity |< Iy            `adj`     {- suwAziylAnodiy~ -}  [ "" {- "Swaziland" -} ] ]
+    Identity |< Iy            `adj`     {- suwAziylAnodiy~ -}  [ "Swaziland" ] ]
 
  |> "suwIsr" <| [
 
-    Identity |< Iy            `adj`     {- suwiysriy~ -}       [ "" {- "Swiss" -} ] ]
+    Identity |< Iy            `adj`     {- suwiysriy~ -}       [ "Swiss" ] ]
 
  |> "suwIsrA" <| [
 
-    Identity                  `noun`    {- suwiysrA -}         [ "" {- "Switzerland" -} ] ]
+    Identity                  `noun`    {- suwiysrA -}         [ "Switzerland" ] ]
 
  |> "suwIt^s" <| [
 
@@ -318,7 +318,7 @@ cluster_124 = listing "Lexicon's properties"
 
  |> "suwaylim" <| [
 
-    Identity                  `noun`    {- suwayolim -}        [ "" {- "Suweilem" -}, "" {- "Suwailim" -} ] ]
+    Identity                  `noun`    {- suwayolim -}        [ "Suweilem", "Suwailim" ] ]
 
 
 cluster_125 = listing "Lexicon's properties"
@@ -326,7 +326,7 @@ cluster_125 = listing "Lexicon's properties"
 
  |> "swIrIs" <| [
 
-    Identity                  `noun`    {- swiyriys -}         [ "" {- "Sweeris" -} ] ]
+    Identity                  `noun`    {- swiyriys -}         [ "Sweeris" ] ]
 
  |> "tasyAr" <| [
 

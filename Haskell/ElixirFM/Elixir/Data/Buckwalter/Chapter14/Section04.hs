@@ -409,7 +409,7 @@ cluster_68  = listing "Lexicon's properties"
 
  |> ".sUfiyA" <| [
 
-    Identity                  `noun`    {- SuwfiyA -}          [ "" {- "Sofia" -} ] ]
+    Identity                  `noun`    {- SuwfiyA -}          [ "Sofia" ] ]
 
  |> ".sUyA" <| [
 
@@ -417,11 +417,11 @@ cluster_68  = listing "Lexicon's properties"
 
  |> ".sabrA" <| [
 
-    Identity                  `noun`    {- SaborA -}           [ "" {- "Sabra" -} ] ]
+    Identity                  `noun`    {- SaborA -}           [ "Sabra" ] ]
 
  |> ".samU'Il" <| [
 
-    Identity                  `noun`    {- Samuw}iyl -}        [ "" {- "Samuel" -}, "" {- "Samu'il" -} ] ]
+    Identity                  `noun`    {- Samuw}iyl -}        [ "Samuel", "Samu'il" ] ]
 
  |> ".sanawbar" <| [
 
@@ -439,7 +439,7 @@ cluster_69  = listing "Lexicon's properties"
 
  |> ".sardA" <| [
 
-    Identity                  `noun`    {- SarodA -}           [ "" {- "Sarda" -} ] ]
+    Identity                  `noun`    {- SarodA -}           [ "Sarda" ] ]
 
  |> ".sawla^gAn" <| [
 
@@ -447,7 +447,7 @@ cluster_69  = listing "Lexicon's properties"
 
  |> ".saydA" <| [
 
-    Identity                  `noun`    {- SayodA -}           [ "" {- "Sidon" -} ] ]
+    Identity                  `noun`    {- SayodA -}           [ "Sidon" ] ]
 
  |> ".saydalAn" <| [
 
@@ -455,19 +455,19 @@ cluster_69  = listing "Lexicon's properties"
 
  |> ".siddIqI" <| [
 
-    Identity                  `noun`    {- Sid~iyqiy -}        [ "" {- "Siddiqi" -} ] ]
+    Identity                  `noun`    {- Sid~iyqiy -}        [ "Siddiqi" ] ]
 
  |> ".siqill" <| [
 
-    Identity |< Iy            `adj`     {- Siqil~iy~ -}        [ "" {- "Sicilian" -}, "" {- "Sicily" -} ] ]
+    Identity |< Iy            `adj`     {- Siqil~iy~ -}        [ "Sicilian", "Sicily" ] ]
 
  |> ".sl`m" <| [
 
-    Identity                  `noun`    {- SlEm -}             [ unwords [ "" {- "Peace" -}, "" {- "Be" -}, "" {- "Upon" -}, "" {- "Him" -} ] ] ]
+    Identity                  `noun`    {- SlEm -}             [ unwords [ "Peace", "Be", "Upon", "Him" ] ] ]
 
  |> ".subbayr" <| [
 
-    Identity                  `noun`    {- Sub~ayor -}         [ unwords [ "" {- "Indian" -}, "fig" ] ] ]
+    Identity                  `noun`    {- Sub~ayor -}         [ unwords [ "Indian", "fig" ] ] ]
 
  |> ".suway.hib" <| [
 

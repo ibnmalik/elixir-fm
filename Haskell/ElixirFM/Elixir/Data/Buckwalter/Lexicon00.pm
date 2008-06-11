@@ -12,8 +12,8 @@ $Lexicon = {
       'entry' => '\'iyh',
       'form' => '\'iyh',
       'lines' => [
-        ';; <iyh_1',
-        '<iyh    FW      A.     [[>ay/ABBREV]]'
+        ';; Iiyh_1',
+        'Iiyh    FW      A.     [[Oay/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -104,8 +104,8 @@ $Lexicon = {
       'entry' => '\'uw',
       'form' => '\'uw',
       'lines' => [
-        ';; >uw_1',
-        '>uw     FW      O.     [[>uw/ABBREV]]'
+        ';; Ouw_1',
+        'Ouw     FW      O.     [[Ouw/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -297,9 +297,9 @@ $Lexicon = {
       'entry' => '\'in',
       'form' => '\'in',
       'lines' => [
-        ';; <in_2',
-        '<in     FW      N.     [[<in/ABBREV]]',
-        '<in     FW      N.     [[<in/ABBREV]]'
+        ';; Iin_2',
+        'Iin     FW      N.     [[Iin/ABBREV]]',
+        'Iin     FW      N.     [[Iin/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -691,9 +691,9 @@ $Lexicon = {
       'entry' => '\'is',
       'form' => '\'is',
       'lines' => [
-        ';; <is_1',
-        '<is     FW      S.     [[<is/ABBREV]]',
-        '<is     FW      S.     [[<is/ABBREV]]'
+        ';; Iis_1',
+        'Iis     FW      S.     [[Iis/ABBREV]]',
+        'Iis     FW      S.     [[Iis/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -739,8 +739,8 @@ $Lexicon = {
       'entry' => '\'im',
       'form' => '\'im',
       'lines' => [
-        ';; <im_1',
-        '<im     FW      M.     [[<im/ABBREV]]'
+        ';; Iim_1',
+        'Iim     FW      M.     [[Iim/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -782,8 +782,8 @@ $Lexicon = {
       'entry' => '\'ar',
       'form' => '\'ar',
       'lines' => [
-        ';; >ar_1',
-        '>ar     FW      R.     [[>ar/ABBREV]]'
+        ';; Oar_1',
+        'Oar     FW      R.     [[Oar/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -803,8 +803,8 @@ $Lexicon = {
       'entry' => '\'af',
       'form' => '\'af',
       'lines' => [
-        ';; >af_1',
-        '>af     FW      A.F.     [[Af/ABBREV]]'
+        ';; Oaf_1',
+        'Oaf     FW      A.F.     [[Af/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -822,8 +822,8 @@ $Lexicon = {
       'entry' => '\'if',
       'form' => '\'if',
       'lines' => [
-        ';; <if_1',
-        '<if     N0      F.     [[<if/ABBREV]]'
+        ';; Iif_1',
+        'Iif     N0      F.     [[Iif/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -866,8 +866,8 @@ $Lexicon = {
       'entry' => '\'iy',
       'form' => '\'iy',
       'lines' => [
-        ';; <iy_1',
-        '<iy     FW      E.     [[<iy/ABBREV]]'
+        ';; Iiy_1',
+        'Iiy     FW      E.     [[Iiy/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -899,9 +899,9 @@ $Lexicon = {
       'entry' => '\'ay',
       'form' => '\'ay',
       'lines' => [
-        ';; >ay_1',
-        '>ay     FW      A.     [[>ay/ABBREV]]',
-        '>ay     FW      I.     [[>ay/ABBREV]]'
+        ';; Oay_1',
+        'Oay     FW      A.     [[Oay/ABBREV]]',
+        'Oay     FW      I.     [[Oay/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1071,8 +1071,8 @@ $Lexicon = {
       'entry' => '\'il',
       'form' => '\'il',
       'lines' => [
-        ';; <il_2',
-        '<il     FW      L.     [[<il/ABBREV]]'
+        ';; Iil_2',
+        'Iil     FW      L.     [[Iil/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -1136,8 +1136,8 @@ $Lexicon = {
       'entry' => '\'',
       'form' => '\'a',
       'lines' => [
-        ';; >a_1',
-        '>a      FW      A;1st     [[>a/ABBREV]]'
+        ';; Oa_1',
+        'Oa      FW      A;1st     [[Oa/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -1156,8 +1156,8 @@ $Lexicon = {
       'entry' => '\'',
       'form' => '\'i',
       'lines' => [
-        ';; <i_1',
-        '<i      FW      I     [[<i/ABBREV]]'
+        ';; Ii_1',
+        'Ii      FW      I     [[Ii/ABBREV]]'
       ],
       'patterns' => {},
       'index' => '1',

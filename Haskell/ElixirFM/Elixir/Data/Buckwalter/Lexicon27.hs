@@ -26,7 +26,7 @@ cluster_1   = listing "Lexicon's properties"
 
  |> "matAwil" <| [
 
-    Identity |< aT            `noun`    {- matAwilap -}        [ unwords [ "" {- "Metuali" -}, "(", "" {- "Shiite" -}, "sect", ")" ] ] ]
+    Identity |< aT            `noun`    {- matAwilap -}        [ unwords [ "Metuali", "(", "Shiite", "sect", ")" ] ] ]
 
  |> "muttifaq" <| [
 
@@ -4552,63 +4552,63 @@ cluster_89  = listing "Lexicon's properties"
 
  |> "wA^sin.tUn" <| [
 
-    Identity                  `noun`    {- wA$inoTuwn -}       [ "" {- "Washington" -} ] ]
+    Identity                  `noun`    {- wA$inoTuwn -}       [ "Washington" ] ]
 
  |> "wAlAs" <| [
 
-    Identity                  `noun`    {- wAlAs -}            [ "" {- "Wallace" -} ] ]
+    Identity                  `noun`    {- wAlAs -}            [ "Wallace" ] ]
 
  |> "wAltirz" <| [
 
-    Identity                  `noun`    {- wAlotiroz -}        [ "" {- "Walters" -} ] ]
+    Identity                  `noun`    {- wAlotiroz -}        [ "Walters" ] ]
 
  |> "wAndirlI" <| [
 
-    Identity                  `noun`    {- wAnodiroliy -}      [ "" {- "Wanderley" -} ] ]
+    Identity                  `noun`    {- wAnodiroliy -}      [ "Wanderley" ] ]
 
  |> "wAnt^sUb" <| [
 
-    Identity                  `noun`    {- wAnt$uwb -}         [ "" {- "Wanchope" -} ] ]
+    Identity                  `noun`    {- wAnt$uwb -}         [ "Wanchope" ] ]
 
  |> "wAr.tAn" <| [
 
-    Identity                  `noun`    {- wAroTAn -}          [ "" {- "Wartan" -} ] ]
+    Identity                  `noun`    {- wAroTAn -}          [ "Wartan" ] ]
 
  |> "wArsU" <| [
 
-    Identity                  `noun`    {- wArosuw -}          [ "" {- "Warsaw" -} ] ]
+    Identity                  `noun`    {- wArosuw -}          [ "Warsaw" ] ]
 
  |> "wAtirfUrd" <| [
 
-    Identity                  `noun`    {- wAtirofuwrd -}      [ "" {- "Waterford" -} ] ]
+    Identity                  `noun`    {- wAtirofuwrd -}      [ "Waterford" ] ]
 
  |> "wAtsU^sI" <| [
 
-    Identity                  `noun`    {- wAtosuw$iy -}       [ "" {- "Watsushi" -} ] ]
+    Identity                  `noun`    {- wAtosuw$iy -}       [ "Watsushi" ] ]
 
  |> "wAyzmAn" <| [
 
-    Identity                  `noun`    {- wAyzomAn -}         [ "" {- "Weizman" -} ] ]
+    Identity                  `noun`    {- wAyzomAn -}         [ "Weizman" ] ]
 
  |> "wIlkinz" <| [
 
-    Identity                  `noun`    {- wiylokinoz -}       [ "" {- "Wilkins" -} ] ]
+    Identity                  `noun`    {- wiylokinoz -}       [ "Wilkins" ] ]
 
  |> "wIltUrd" <| [
 
-    Identity                  `noun`    {- wiylotuwrod -}      [ "" {- "Wiltord" -} ] ]
+    Identity                  `noun`    {- wiylotuwrod -}      [ "Wiltord" ] ]
 
  |> "wIlyAm" <| [
 
-    Identity                  `noun`    {- wiyloyAm -}         [ "" {- "William" -} ] ]
+    Identity                  `noun`    {- wiyloyAm -}         [ "William" ] ]
 
  |> "wIlyAms" <| [
 
-    Identity                  `noun`    {- wiyloyAms -}        [ "" {- "Williams" -} ] ]
+    Identity                  `noun`    {- wiyloyAms -}        [ "Williams" ] ]
 
  |> "wImbldUn" <| [
 
-    Identity                  `noun`    {- wiymblduwn -}       [ "" {- "Wimbledon" -} ] ]
+    Identity                  `noun`    {- wiymblduwn -}       [ "Wimbledon" ] ]
 
  |> "wIrkU" <| [
 
@@ -4620,23 +4620,23 @@ cluster_90  = listing "Lexicon's properties"
 
  |> "wUdrUf" <| [
 
-    Identity                  `noun`    {- wuwdoruwf -}        [ "" {- "Woodruff" -} ] ]
+    Identity                  `noun`    {- wuwdoruwf -}        [ "Woodruff" ] ]
 
  |> "wUkir" <| [
 
-    Identity                  `noun`    {- wuwkir -}           [ "" {- "Walker" -} ] ]
+    Identity                  `noun`    {- wuwkir -}           [ "Walker" ] ]
 
  |> "wUrldkUm" <| [
 
-    Identity                  `noun`    {- wuwrldkuwm -}       [ "" {- "WorldCom" -} ] ]
+    Identity                  `noun`    {- wuwrldkuwm -}       [ "WorldCom" ] ]
 
  |> "wUrnar" <| [
 
-    Identity                  `noun`    {- wuwrnar -}          [ "" {- "Warner" -} ] ]
+    Identity                  `noun`    {- wuwrnar -}          [ "Warner" ] ]
 
  |> "wUtir^gIt" <| [
 
-    Identity                  `noun`    {- wuwtirojiyt -}      [ "" {- "Wategate" -} ] ]
+    Identity                  `noun`    {- wuwtirojiyt -}      [ "Wategate" ] ]
 
  |> "wiqIy" <| [
 
@@ -4644,11 +4644,11 @@ cluster_90  = listing "Lexicon's properties"
 
  |> "wulfirhAmbtUn" <| [
 
-    Identity                  `noun`    {- wulofirohAmbotuwn -} [ "" {- "Wolverhampton" -} ] ]
+    Identity                  `noun`    {- wulofirohAmbotuwn -} [ "Wolverhampton" ] ]
 
  |> "wwl" <| [
 
-    Identity                  `noun`    {- wwl -}              [ "" {- "Wall" -} ] ]
+    Identity                  `noun`    {- wwl -}              [ "Wall" ] ]
 
 
 section = [ cluster_1,

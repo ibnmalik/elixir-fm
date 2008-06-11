@@ -699,21 +699,21 @@ cluster_94  = listing "Lexicon's properties"
 
  |> "^sAfIz" <| [
 
-    Identity                  `noun`    {- \$Afiyz -}          [ "" {- "Chavez" -} ] ]
+    Identity                  `noun`    {- \$Afiyz -}          [ "Chavez" ] ]
 
  |> "^sAhAn" <| [
 
-    Identity |< Iy            `adj`     {- \$AhAniy~ -}        [ unwords [ "" {- "Shah" -}, "-", "related" ], "imperial" ] ]
+    Identity |< Iy            `adj`     {- \$AhAniy~ -}        [ unwords [ "Shah", "-", "related" ], "imperial" ] ]
 
  |> "^sAhIn" <| [
 
-    Identity                  `noun`    {- \$Ahiyn -}          [ "" {- "Shaheen" -}, "" {- "Chahine" -} ],
+    Identity                  `noun`    {- \$Ahiyn -}          [ "Shaheen", "Chahine" ],
 
-    Identity                  `noun`    {- \$Ahiyn -}          [ unwords [ "shahin", "(", "" {- "Indian" -}, "falcon", ")" ], unwords [ "shahins", "(", "" {- "Indian" -}, "falcons", ")" ] ] ]
+    Identity                  `noun`    {- \$Ahiyn -}          [ unwords [ "shahin", "(", "Indian", "falcon", ")" ], unwords [ "shahins", "(", "Indian", "falcons", ")" ] ] ]
 
  |> "^sAkIl" <| [
 
-    Identity                  `noun`    {- \$Akiyl -}          [ "" {- "Shaquille" -} ] ]
+    Identity                  `noun`    {- \$Akiyl -}          [ "Shaquille" ] ]
 
  |> "^sAlIh" <| [
 
@@ -721,19 +721,19 @@ cluster_94  = listing "Lexicon's properties"
 
  |> "^sAlkih" <| [
 
-    Identity                  `noun`    {- \$Alokih -}         [ "" {- "Schalke" -} ] ]
+    Identity                  `noun`    {- \$Alokih -}         [ "Schalke" ] ]
 
  |> "^sAmIr" <| [
 
-    Identity                  `noun`    {- \$Amiyr -}          [ "" {- "Shamir" -} ] ]
+    Identity                  `noun`    {- \$Amiyr -}          [ "Shamir" ] ]
 
  |> "^sAm_hAnI" <| [
 
-    Identity                  `noun`    {- \$AmoxAniy -}       [ "" {- "Shamkhani" -} ] ]
+    Identity                  `noun`    {- \$AmoxAniy -}       [ "Shamkhani" ] ]
 
  |> "^sAn.ghAy" <| [
 
-    Identity                  `noun`    {- \$AngohAy -}        [ "" {- "Shanghai" -} ] ]
+    Identity                  `noun`    {- \$AngohAy -}        [ "Shanghai" ] ]
 
  |> "^sAntA^g" <| [
 
@@ -741,11 +741,11 @@ cluster_94  = listing "Lexicon's properties"
 
  |> "^sArbIn.g" <| [
 
-    Identity                  `noun`    {- \$Arobiynog -}      [ "" {- "Scharping" -} ] ]
+    Identity                  `noun`    {- \$Arobiynog -}      [ "Scharping" ] ]
 
  |> "^sAtIlA" <| [
 
-    Identity                  `noun`    {- \$AtiylA -}         [ "" {- "Shatila" -}, "" {- "Shatilla" -} ] ]
+    Identity                  `noun`    {- \$AtiylA -}         [ "Shatila", "Shatilla" ] ]
 
 
 cluster_95  = listing "Lexicon's properties"
@@ -753,7 +753,7 @@ cluster_95  = listing "Lexicon's properties"
 
  |> "^sAtIs.gAr" <| [
 
-    Identity                  `noun`    {- \$AtiysgAr -}       [ "" {- "Chattisgarh" -} ] ]
+    Identity                  `noun`    {- \$AtiysgAr -}       [ "Chattisgarh" ] ]
 
  |> "^sAwI^s" <| [
 
@@ -767,23 +767,23 @@ cluster_95  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- \$Awu$ -}           [ "sergeant" ],
 
-    Identity                  `noun`    {- \$Awu$ -}           [ "" {- "Shawsh" -}, "" {- "Chaouch" -} ] ]
+    Identity                  `noun`    {- \$Awu$ -}           [ "Shawsh", "Chaouch" ] ]
 
  |> "^sAyniyU" <| [
 
-    Identity                  `noun`    {- \$Ayoniyuw -}       [ "" {- "Shineo" -} ] ]
+    Identity                  `noun`    {- \$Ayoniyuw -}       [ "Shineo" ] ]
 
  |> "^sIfrUn" <| [
 
-    Identity                  `noun`    {- \$iyforuwn -}       [ "" {- "Chevron" -} ] ]
+    Identity                  `noun`    {- \$iyforuwn -}       [ "Chevron" ] ]
 
  |> "^sIkA.gU" <| [
 
-    Identity                  `noun`    {- \$iykAguw -}        [ "" {- "Chicago" -} ] ]
+    Identity                  `noun`    {- \$iykAguw -}        [ "Chicago" ] ]
 
  |> "^sIlA" <| [
 
-    Identity                  `noun`    {- \$iylA -}           [ "" {- "Chela" -}, "" {- "Sheila" -}, "" {- "Chile" -} ] ]
+    Identity                  `noun`    {- \$iylA -}           [ "Chela", "Sheila", "Chile" ] ]
 
  |> "^sIlmAn" <| [
 
@@ -795,11 +795,11 @@ cluster_95  = listing "Lexicon's properties"
 
  |> "^sInAmAsA" <| [
 
-    Identity                  `noun`    {- \$iynAmAsA -}       [ "" {- "Chinamasa" -} ] ]
+    Identity                  `noun`    {- \$iynAmAsA -}       [ "Chinamasa" ] ]
 
  |> "^sIrAtUn" <| [
 
-    Identity                  `noun`    {- \$iyrAtuwn -}       [ "" {- "Sheraton" -} ] ]
+    Identity                  `noun`    {- \$iyrAtuwn -}       [ "Sheraton" ] ]
 
  |> "^sIra^g" <| [
 
@@ -815,11 +815,11 @@ cluster_95  = listing "Lexicon's properties"
 
  |> "^sUbayr" <| [
 
-    Identity                  `noun`    {- \$uwbayr -}         [ "" {- "Shubair" -} ] ]
+    Identity                  `noun`    {- \$uwbayr -}         [ "Shubair" ] ]
 
  |> "^sUdrI" <| [
 
-    Identity                  `noun`    {- \$uwdoriy -}        [ "" {- "Chaudhry" -} ] ]
+    Identity                  `noun`    {- \$uwdoriy -}        [ "Chaudhry" ] ]
 
  |> "^sUfInIy" <| [
 
@@ -833,11 +833,11 @@ cluster_96  = listing "Lexicon's properties"
 
  |> "^sUstIkUf" <| [
 
-    Identity                  `noun`    {- \$uwsotiykuwf -}    [ "" {- "Shustikov" -} ] ]
+    Identity                  `noun`    {- \$uwsotiykuwf -}    [ "Shustikov" ] ]
 
  |> "^sUstir" <| [
 
-    Identity                  `noun`    {- \$uwsotir -}        [ "" {- "Schuster" -} ] ]
+    Identity                  `noun`    {- \$uwsotir -}        [ "Schuster" ] ]
 
  |> "^sa.g.gIl" <| [
 
@@ -861,11 +861,11 @@ cluster_96  = listing "Lexicon's properties"
 
  |> "^saba`A" <| [
 
-    Identity                  `noun`    {- \$abaEA -}          [ "" {- "Shabaa" -} ] ]
+    Identity                  `noun`    {- \$abaEA -}          [ "Shabaa" ] ]
 
  |> "^sabak^sI" <| [
 
-    Identity                  `noun`    {- \$abako$iy -}       [ "" {- "Shabakshi" -} ] ]
+    Identity                  `noun`    {- \$abako$iy -}       [ "Shabakshi" ] ]
 
  |> "^sam`adAn" <| [
 
@@ -889,15 +889,15 @@ cluster_96  = listing "Lexicon's properties"
 
  |> "^san.ghAy" <| [
 
-    Identity                  `noun`    {- \$angohAy -}        [ "" {- "Shanghai" -} ] ]
+    Identity                  `noun`    {- \$angohAy -}        [ "Shanghai" ] ]
 
  |> "^sarI`AtI" <| [
 
-    Identity                  `noun`    {- \$ariyEAtiy -}      [ "" {- "Shariati" -} ] ]
+    Identity                  `noun`    {- \$ariyEAtiy -}      [ "Shariati" ] ]
 
  |> "^sarIfbUr" <| [
 
-    Identity                  `noun`    {- \$ariyfobuwr -}     [ "" {- "Sharifpour" -} ] ]
+    Identity                  `noun`    {- \$ariyfobuwr -}     [ "Sharifpour" ] ]
 
  |> "^sawandar" <| [
 
@@ -913,15 +913,15 @@ cluster_97  = listing "Lexicon's properties"
 
  |> "^sawwA" <| [
 
-    Identity                  `noun`    {- \$aw~A -}           [ "" {- "Shawwa" -} ] ]
+    Identity                  `noun`    {- \$aw~A -}           [ "Shawwa" ] ]
 
  |> "^sbI.gil" <| [
 
-    Identity                  `noun`    {- \$biygil -}         [ "" {- "Spiegel" -} ] ]
+    Identity                  `noun`    {- \$biygil -}         [ "Spiegel" ] ]
 
  |> "^shAtIs.gAr" <| [
 
-    Identity                  `noun`    {- \$hAtiysgAr -}      [ "" {- "Chattisgarh" -} ] ]
+    Identity                  `noun`    {- \$hAtiysgAr -}      [ "Chattisgarh" ] ]
 
  |> "^si^sm" <| [
 
@@ -941,7 +941,7 @@ cluster_97  = listing "Lexicon's properties"
 
  |> "^sift^sinkU" <| [
 
-    Identity                  `noun`    {- \$ifto$inokuw -}    [ "" {- "Shevchenko" -} ] ]
+    Identity                  `noun`    {- \$ifto$inokuw -}    [ "Shevchenko" ] ]
 
  |> "^sifti^sI" <| [
 
@@ -949,7 +949,7 @@ cluster_97  = listing "Lexicon's properties"
 
  |> "^siksbIr" <| [
 
-    Identity                  `noun`    {- \$ikosbiyr -}       [ "" {- "Shakespeare" -} ] ]
+    Identity                  `noun`    {- \$ikosbiyr -}       [ "Shakespeare" ] ]
 
  |> "^silin" <| [
 
@@ -957,39 +957,39 @@ cluster_97  = listing "Lexicon's properties"
 
  |> "^sinUd" <| [
 
-    Identity |< aT            `noun`    {- \$inuwdap -}        [ "" {- "Shenouda" -} ] ]
+    Identity |< aT            `noun`    {- \$inuwdap -}        [ "Shenouda" ] ]
 
  |> "^slAdkUfA" <| [
 
-    Identity                  `noun`    {- \$lAdokuwfA -}      [ "" {- "Chladkova" -} ] ]
+    Identity                  `noun`    {- \$lAdokuwfA -}      [ "Chladkova" ] ]
 
  |> "^slUmU" <| [
 
-    Identity                  `noun`    {- \$luwmuw -}         [ "" {- "Shlomo" -} ] ]
+    Identity                  `noun`    {- \$luwmuw -}         [ "Shlomo" ] ]
 
  |> "^snAydar" <| [
 
-    Identity                  `noun`    {- \$nAyodar -}        [ "" {- "Schneider" -} ] ]
+    Identity                  `noun`    {- \$nAyodar -}        [ "Schneider" ] ]
 
  |> "^srIti.h" <| [
 
-    Identity                  `noun`    {- \$riytiH -}         [ "" {- "Shriteh" -} ] ]
+    Identity                  `noun`    {- \$riytiH -}         [ "Shriteh" ] ]
 
  |> "^srUdir" <| [
 
-    Identity                  `noun`    {- \$ruwdir -}         [ "" {- "Schroder" -} ] ]
+    Identity                  `noun`    {- \$ruwdir -}         [ "Schroder" ] ]
 
  |> "^stAyn" <| [
 
-    Identity                  `noun`    {- \$tAyn -}           [ "" {- "Stein" -} ] ]
+    Identity                  `noun`    {- \$tAyn -}           [ "Stein" ] ]
 
  |> "^stIrn" <| [
 
-    Identity                  `noun`    {- \$tiyron -}         [ "" {- "Stern" -} ] ]
+    Identity                  `noun`    {- \$tiyron -}         [ "Stern" ] ]
 
  |> "^stUt.gArt" <| [
 
-    Identity                  `noun`    {- \$tuwtogArot -}     [ "" {- "Stuttgart" -} ] ]
+    Identity                  `noun`    {- \$tuwtogArot -}     [ "Stuttgart" ] ]
 
 
 cluster_98  = listing "Lexicon's properties"
@@ -1001,11 +1001,11 @@ cluster_98  = listing "Lexicon's properties"
 
  |> "^sutanbir" <| [
 
-    Identity                  `noun`    {- \$utanobir -}       [ unwords [ "" {- "September" -}, "(", "" {- "Maghrebi" -}, "spelling", ")" ] ] ]
+    Identity                  `noun`    {- \$utanobir -}       [ unwords [ "September", "(", "Maghrebi", "spelling", ")" ] ] ]
 
  |> "^suwitlar" <| [
 
-    Identity                  `noun`    {- \$uwitolar -}       [ "" {- "Schuettler" -} ] ]
+    Identity                  `noun`    {- \$uwitolar -}       [ "Schuettler" ] ]
 
  |> "^suyayy'" <| [
 
@@ -1013,7 +1013,7 @@ cluster_98  = listing "Lexicon's properties"
 
  |> "^swArtz" <| [
 
-    Identity                  `noun`    {- \$wArtz -}          [ "" {- "Schwartz" -}, "" {- "Schwarz" -} ] ]
+    Identity                  `noun`    {- \$wArtz -}          [ "Schwartz", "Schwarz" ] ]
 
  |> "mu^sa^s_han" <| [
 

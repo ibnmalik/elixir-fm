@@ -26,17 +26,17 @@ cluster_1   = listing "Lexicon's properties"
 
  |> "'uq.sur" <| [
 
-    Identity                  `noun`    {- OuqoSur -}          [ "" {- "Luxor" -} ] ]
+    Identity                  `noun`    {- OuqoSur -}          [ "Luxor" ] ]
 
  |> "maqbur" <| [
 
     Identity |< Iy            `adj`     {- maqoburiy~ -}       [ "gravedigger" ],
 
-    Identity |< Iy            `adj`     {- maqoburiy~ -}       [ "" {- "Maqburi" -} ] ]
+    Identity |< Iy            `adj`     {- maqoburiy~ -}       [ "Maqburi" ] ]
 
  |> "muqAwilUn" <| [
 
-    Identity                  `noun`    {- muqAwiluwn -}       [ "" {- "Muqawiloun" -} ] ]
+    Identity                  `noun`    {- muqAwiluwn -}       [ "Muqawiloun" ] ]
 
  |> "q" <| [
 

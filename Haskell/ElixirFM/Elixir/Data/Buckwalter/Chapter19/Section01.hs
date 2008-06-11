@@ -14,7 +14,7 @@ cluster_1   = listing "Lexicon's properties"
 
  |> ".g" <| [
 
-    Identity |< At            `noun`    {- gAt -}              [ "" {- "GATT" -} ] ]
+    Identity |< At            `noun`    {- gAt -}              [ "GATT" ] ]
 
  |> ".g ' .s" <| [
 

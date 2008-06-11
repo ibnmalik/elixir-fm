@@ -5785,7 +5785,7 @@ cluster_115 = listing "Lexicon's properties"
 
  |> ".hAyIm" <| [
 
-    Identity                  `noun`    {- HAyiym -}           [ "" {- "Haim" -}, "" {- "Chaim" -} ] ]
+    Identity                  `noun`    {- HAyiym -}           [ "Haim", "Chaim" ] ]
 
  |> ".hIna'i_diN" <| [
 
@@ -5801,7 +5801,7 @@ cluster_115 = listing "Lexicon's properties"
 
  |> ".ha.dramawt" <| [
 
-    Identity                  `noun`    {- HaDoramawot -}      [ "" {- "Hadramaut" -} ] ]
+    Identity                  `noun`    {- HaDoramawot -}      [ "Hadramaut" ] ]
 
 
 cluster_116 = listing "Lexicon's properties"
@@ -5813,7 +5813,7 @@ cluster_116 = listing "Lexicon's properties"
 
  |> ".habaqUq" <| [
 
-    Identity                  `noun`    {- Habaquwq -}         [ "" {- "Habbakuk" -} ] ]
+    Identity                  `noun`    {- Habaquwq -}         [ "Habbakuk" ] ]
 
  |> ".habba_dA" <| [
 
@@ -5829,7 +5829,7 @@ cluster_116 = listing "Lexicon's properties"
 
  |> ".halab^g" <| [
 
-    Identity |< aT            `noun`    {- Halabojap -}        [ "" {- "Halabja" -} ] ]
+    Identity |< aT            `noun`    {- Halabojap -}        [ "Halabja" ] ]
 
  |> ".halan^g" <| [
 
@@ -5843,19 +5843,19 @@ cluster_116 = listing "Lexicon's properties"
 
  |> ".hamIdI" <| [
 
-    Identity                  `noun`    {- Hamiydiy -}         [ "" {- "Hameedi" -}, "" {- "Hamidi" -} ] ]
+    Identity                  `noun`    {- Hamiydiy -}         [ "Hameedi", "Hamidi" ] ]
 
  |> ".hamdayn" <| [
 
-    Identity                  `noun`    {- Hamodayon -}        [ "" {- "Hamdein" -}, "" {- "Hamdeen" -}, "" {- "Hamdain" -} ] ]
+    Identity                  `noun`    {- Hamodayon -}        [ "Hamdein", "Hamdeen", "Hamdain" ] ]
 
  |> ".hammAdI" <| [
 
-    Identity                  `noun`    {- Ham~Adiy -}         [ "" {- "Hammadi" -} ] ]
+    Identity                  `noun`    {- Ham~Adiy -}         [ "Hammadi" ] ]
 
  |> ".hammAdT" <| [
 
-    Identity                  `noun`    {- Ham~Adp -}          [ "" {- "Hammada" -} ] ]
+    Identity                  `noun`    {- Ham~Adp -}          [ "Hammada" ] ]
 
  |> ".hanAnay-" <| [
 
@@ -5875,7 +5875,7 @@ cluster_116 = listing "Lexicon's properties"
 
  |> ".hasanayn" <| [
 
-    Identity                  `noun`    {- Hasanayon -}        [ "" {- "Hassanein" -} ] ]
+    Identity                  `noun`    {- Hasanayon -}        [ "Hassanein" ] ]
 
  |> ".hattamA" <| [
 
@@ -5891,15 +5891,15 @@ cluster_117 = listing "Lexicon's properties"
 
  |> ".haydar'AbAd" <| [
 
-    Identity                  `noun`    {- Hayodar|bAd -}      [ "" {- "Hyderabad" -} ] ]
+    Identity                  `noun`    {- Hayodar|bAd -}      [ "Hyderabad" ] ]
 
  |> ".hayfA" <| [
 
-    Identity                  `noun`    {- HayofA -}           [ "" {- "Haifa" -} ] ]
+    Identity                  `noun`    {- HayofA -}           [ "Haifa" ] ]
 
  |> ".hazIrAn" <| [
 
-    Identity                  `noun`    {- HaziyrAn -}         [ "" {- "June" -} ] ]
+    Identity                  `noun`    {- HaziyrAn -}         [ "June" ] ]
 
  |> ".hikimdAr" <| [
 
@@ -5911,15 +5911,15 @@ cluster_117 = listing "Lexicon's properties"
 
  |> ".hikmat" <| [
 
-    Identity                  `noun`    {- Hikomat -}          [ "" {- "Hikmat" -} ] ]
+    Identity                  `noun`    {- Hikomat -}          [ "Hikmat" ] ]
 
  |> ".hikmatyAr" <| [
 
-    Identity                  `noun`    {- HikomatoyAr -}      [ "" {- "Hikmatyar" -} ] ]
+    Identity                  `noun`    {- HikomatoyAr -}      [ "Hikmatyar" ] ]
 
  |> ".himalAyA" <| [
 
-    Identity                  `noun`    {- HimalAyA -}         [ "" {- "Himalayas" -}, "" {- "Himalayan" -} ] ]
+    Identity                  `noun`    {- HimalAyA -}         [ "Himalayas", "Himalayan" ] ]
 
  |> ".hir_dawn" <| [
 
@@ -5927,7 +5927,7 @@ cluster_117 = listing "Lexicon's properties"
 
  |> ".hu^gaylAn" <| [
 
-    Identity                  `noun`    {- HujayolAn -}        [ "" {- "Hejailan" -}, "" {- "Hujailan" -} ] ]
+    Identity                  `noun`    {- HujayolAn -}        [ "Hejailan", "Hujailan" ] ]
 
  |> ".hubA.hib" <| [
 
@@ -5935,13 +5935,13 @@ cluster_117 = listing "Lexicon's properties"
 
  |> ".humaydI" <| [
 
-    Identity                  `noun`    {- Humayodiy -}        [ "" {- "Humaidi" -} ] ]
+    Identity                  `noun`    {- Humayodiy -}        [ "Humaidi" ] ]
 
  |> ".hummu.s" <| [
 
     Identity                  `noun`    {- Hum~uS -}           [ "hummus" ],
 
-    Identity                  `noun`    {- Hum~uS -}           [ "" {- "Hummus" -}, "" {- "Homos" -} ] ]
+    Identity                  `noun`    {- Hum~uS -}           [ "Hummus", "Homos" ] ]
 
  |> ".huway.sil" <| [
 
@@ -5961,7 +5961,7 @@ cluster_117 = listing "Lexicon's properties"
 
  |> "mu.hayyA" <| [
 
-    Identity                  `noun`    {- muHay~A -}          [ "" {- "Muhaya" -}, "" {- "Muhayya" -} ] ]
+    Identity                  `noun`    {- muHay~A -}          [ "Muhaya", "Muhayya" ] ]
 
  |> "ta.hnAn" <| [
 

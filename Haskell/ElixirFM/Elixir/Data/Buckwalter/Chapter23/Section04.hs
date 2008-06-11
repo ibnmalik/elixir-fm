@@ -699,11 +699,11 @@ cluster_72  = listing "Lexicon's properties"
 
  |> "lA^sIn" <| [
 
-    Identity                  `noun`    {- lA$iyn -}           [ "" {- "Lasheen" -}, "" {- "Lachine" -} ] ]
+    Identity                  `noun`    {- lA$iyn -}           [ "Lasheen", "Lachine" ] ]
 
  |> "lA^sUtIn" <| [
 
-    Identity                  `noun`    {- lA$uwtiyn -}        [ "" {- "Lashutin" -} ] ]
+    Identity                  `noun`    {- lA$uwtiyn -}        [ "Lashutin" ] ]
 
 
 cluster_73  = listing "Lexicon's properties"
@@ -711,39 +711,39 @@ cluster_73  = listing "Lexicon's properties"
 
  |> "lAhAy" <| [
 
-    Identity                  `noun`    {- lAhAy -}            [ unwords [ "" {- "The" -}, "" {- "Hague" -} ] ] ]
+    Identity                  `noun`    {- lAhAy -}            [ unwords [ "The", "Hague" ] ] ]
 
  |> "lAndrI" <| [
 
-    Identity                  `noun`    {- lAnodriy -}         [ "" {- "Landry" -} ] ]
+    Identity                  `noun`    {- lAnodriy -}         [ "Landry" ] ]
 
  |> "lAndrU" <| [
 
-    Identity                  `noun`    {- lAnodruw -}         [ "" {- "Landru" -} ] ]
+    Identity                  `noun`    {- lAnodruw -}         [ "Landru" ] ]
 
  |> "lAndrUfir" <| [
 
-    Identity                  `noun`    {- lAnodruwfir -}      [ unwords [ "" {- "Land" -}, "" {- "Rover" -} ] ] ]
+    Identity                  `noun`    {- lAnodruwfir -}      [ unwords [ "Land", "Rover" ] ] ]
 
  |> "lAriyUndA" <| [
 
-    Identity                  `noun`    {- lAriyuwnodA -}      [ "" {- "Larrionda" -} ] ]
+    Identity                  `noun`    {- lAriyuwnodA -}      [ "Larrionda" ] ]
 
  |> "lAslAnd" <| [
 
-    Identity                  `noun`    {- lAsolAnod -}        [ "" {- "Lasland" -} ] ]
+    Identity                  `noun`    {- lAsolAnod -}        [ "Lasland" ] ]
 
  |> "lAtIn" <| [
 
-    Identity |< Iy            `adj`     {- lAtiyniy~ -}        [ "" {- "Latin" -} ] ]
+    Identity |< Iy            `adj`     {- lAtiyniy~ -}        [ "Latin" ] ]
 
  |> "lAtInU" <| [
 
-    Identity                  `noun`    {- lAtiynuw -}         [ "" {- "Latino" -} ] ]
+    Identity                  `noun`    {- lAtiynuw -}         [ "Latino" ] ]
 
  |> "lAtsiyU" <| [
 
-    Identity                  `noun`    {- lAtosiyuw -}        [ "" {- "Lazio" -} ] ]
+    Identity                  `noun`    {- lAtosiyuw -}        [ "Lazio" ] ]
 
  |> "lAwin^g" <| [
 
@@ -759,11 +759,11 @@ cluster_73  = listing "Lexicon's properties"
 
  |> "lI.gfInskI" <| [
 
-    Identity                  `noun`    {- liygofiynoskiy -}   [ "" {- "Legwinski" -} ] ]
+    Identity                  `noun`    {- liygofiynoskiy -}   [ "Legwinski" ] ]
 
  |> "lIbIriyA" <| [
 
-    Identity                  `noun`    {- liybiyriyA -}       [ "" {- "Liberia" -} ] ]
+    Identity                  `noun`    {- liybiyriyA -}       [ "Liberia" ] ]
 
  |> "lIbirAl" <| [
 
@@ -771,17 +771,17 @@ cluster_73  = listing "Lexicon's properties"
 
  |> "lIbirmAn" <| [
 
-    Identity                  `noun`    {- liybiromAn -}       [ "" {- "Lieberman" -} ],
+    Identity                  `noun`    {- liybiromAn -}       [ "Lieberman" ],
 
-    Identity                  `noun`    {- liybiromAn -}       [ "" {- "Liberman" -} ] ]
+    Identity                  `noun`    {- liybiromAn -}       [ "Liberman" ] ]
 
  |> "lIbiyA" <| [
 
-    Identity                  `noun`    {- liybiyA -}          [ "" {- "Libya" -} ] ]
+    Identity                  `noun`    {- liybiyA -}          [ "Libya" ] ]
 
  |> "lIbrAnd" <| [
 
-    Identity                  `noun`    {- liybrAnd -}         [ "" {- "Lybrand" -} ] ]
+    Identity                  `noun`    {- liybrAnd -}         [ "Lybrand" ] ]
 
 
 cluster_74  = listing "Lexicon's properties"
@@ -789,23 +789,23 @@ cluster_74  = listing "Lexicon's properties"
 
  |> "lIbrfIl" <| [
 
-    Identity                  `noun`    {- liybrfiyl -}        [ "" {- "Libreville" -} ] ]
+    Identity                  `noun`    {- liybrfiyl -}        [ "Libreville" ] ]
 
  |> "lIdz" <| [
 
-    Identity                  `noun`    {- liydz -}            [ "" {- "Leeds" -} ] ]
+    Identity                  `noun`    {- liydz -}            [ "Leeds" ] ]
 
  |> "lIfirbUl" <| [
 
-    Identity                  `noun`    {- liyfirbuwl -}       [ "" {- "Liverpool" -} ] ]
+    Identity                  `noun`    {- liyfirbuwl -}       [ "Liverpool" ] ]
 
  |> "lIfirkUzin" <| [
 
-    Identity                  `noun`    {- liyfirokuwzin -}    [ "" {- "Leverkusen" -} ] ]
+    Identity                  `noun`    {- liyfirokuwzin -}    [ "Leverkusen" ] ]
 
  |> "lImAsUl" <| [
 
-    Identity                  `noun`    {- liymAsuwl -}        [ "" {- "Limassol" -} ] ]
+    Identity                  `noun`    {- liymAsuwl -}        [ "Limassol" ] ]
 
  |> "lImUnAd" <| [
 
@@ -817,11 +817,11 @@ cluster_74  = listing "Lexicon's properties"
 
  |> "lInA" <| [
 
-    Identity                  `noun`    {- liynA -}            [ "" {- "Lina" -} ] ]
+    Identity                  `noun`    {- liynA -}            [ "Lina" ] ]
 
  |> "lIndsAy" <| [
 
-    Identity                  `noun`    {- liyndosAy -}        [ "" {- "Lindsay" -} ] ]
+    Identity                  `noun`    {- liyndosAy -}        [ "Lindsay" ] ]
 
  |> "lIsAns" <| [
 
@@ -829,7 +829,7 @@ cluster_74  = listing "Lexicon's properties"
 
  |> "lIt^sI" <| [
 
-    Identity                  `noun`    {- liyto$iy -}         [ "" {- "Licchi" -} ] ]
+    Identity                  `noun`    {- liyto$iy -}         [ "Licchi" ] ]
 
  |> "lItr" <| [
 
@@ -841,7 +841,7 @@ cluster_74  = listing "Lexicon's properties"
 
  |> "lU.gAnU" <| [
 
-    Identity                  `noun`    {- luwgAnuw -}         [ "" {- "Lugano" -} ] ]
+    Identity                  `noun`    {- luwgAnuw -}         [ "Lugano" ] ]
 
  |> "lU.gArItm" <| [
 
@@ -861,7 +861,7 @@ cluster_74  = listing "Lexicon's properties"
 
  |> "lUfr" <| [
 
-    Identity                  `noun`    {- luwfr -}            [ "" {- "Louvre" -} ] ]
+    Identity                  `noun`    {- luwfr -}            [ "Louvre" ] ]
 
 
 cluster_75  = listing "Lexicon's properties"
@@ -869,7 +869,7 @@ cluster_75  = listing "Lexicon's properties"
 
  |> "lUkA^sinkU" <| [
 
-    Identity                  `noun`    {- luwkA$inokuw -}     [ "" {- "Lukashenko" -} ] ]
+    Identity                  `noun`    {- luwkA$inokuw -}     [ "Lukashenko" ] ]
 
  |> "lUkAndah" <| [
 
@@ -877,27 +877,27 @@ cluster_75  = listing "Lexicon's properties"
 
  |> "lUkArnU" <| [
 
-    Identity                  `noun`    {- luwkAronuw -}       [ "" {- "Locarno" -} ] ]
+    Identity                  `noun`    {- luwkAronuw -}       [ "Locarno" ] ]
 
  |> "lUkAyU" <| [
 
-    Identity                  `noun`    {- luwkAyuw -}         [ "" {- "Lukajo" -} ] ]
+    Identity                  `noun`    {- luwkAyuw -}         [ "Lukajo" ] ]
 
  |> "lUkhArt" <| [
 
-    Identity                  `noun`    {- luwkohArot -}       [ "" {- "Lockhart" -} ] ]
+    Identity                  `noun`    {- luwkohArot -}       [ "Lockhart" ] ]
 
  |> "lUkirbI" <| [
 
-    Identity                  `noun`    {- luwkirobiy -}       [ "" {- "Lockerbie" -} ] ]
+    Identity                  `noun`    {- luwkirobiy -}       [ "Lockerbie" ] ]
 
  |> "lUksambUr.g" <| [
 
-    Identity                  `noun`    {- luwkosamobuwrg -}   [ "" {- "Luxembourg" -} ] ]
+    Identity                  `noun`    {- luwkosamobuwrg -}   [ "Luxembourg" ] ]
 
  |> "lUksambUr.gU" <| [
 
-    Identity                  `noun`    {- luwkosamobuwroguw -} [ "" {- "Luxemburgo" -} ] ]
+    Identity                  `noun`    {- luwkosamobuwroguw -} [ "Luxemburgo" ] ]
 
  |> "lUmAn^g" <| [
 
@@ -905,47 +905,47 @@ cluster_75  = listing "Lexicon's properties"
 
  |> "lUmUnd" <| [
 
-    Identity                  `noun`    {- luwmuwnd -}         [ unwords [ "" {- "Le" -}, "" {- "Monde" -} ] ] ]
+    Identity                  `noun`    {- luwmuwnd -}         [ unwords [ "Le", "Monde" ] ] ]
 
  |> "lUn.g" <| [
 
-    Identity                  `noun`    {- luwnog -}           [ "" {- "Long" -} ] ]
+    Identity                  `noun`    {- luwnog -}           [ "Long" ] ]
 
  |> "lUn.glI" <| [
 
-    Identity                  `noun`    {- luwngoliy -}        [ "" {- "Longley" -} ] ]
+    Identity                  `noun`    {- luwngoliy -}        [ "Longley" ] ]
 
  |> "lUn^g" <| [
 
-    Identity                  `noun`    {- luwnoj -}           [ "" {- "Long" -} ] ]
+    Identity                  `noun`    {- luwnoj -}           [ "Long" ] ]
 
  |> "lUqA" <| [
 
-    Identity                  `noun`    {- luwqA -}            [ "" {- "Louqa" -}, "" {- "Luke" -} ] ]
+    Identity                  `noun`    {- luwqA -}            [ "Louqa", "Luke" ] ]
 
  |> "lUrA" <| [
 
-    Identity                  `noun`    {- luwrA -}            [ "" {- "Lora" -} ] ]
+    Identity                  `noun`    {- luwrA -}            [ "Lora" ] ]
 
  |> "lUrAns" <| [
 
-    Identity                  `noun`    {- luwrAns -}          [ "" {- "Laurence" -} ] ]
+    Identity                  `noun`    {- luwrAns -}          [ "Laurence" ] ]
 
  |> "lUrd" <| [
 
-    Identity                  `noun`    {- luwrod -}           [ "lord", "" {- "Lord" -} ] ]
+    Identity                  `noun`    {- luwrod -}           [ "lord", "Lord" ] ]
 
  |> "lUsAkA" <| [
 
-    Identity                  `noun`    {- luwsAkA -}          [ "" {- "Lusaka" -} ] ]
+    Identity                  `noun`    {- luwsAkA -}          [ "Lusaka" ] ]
 
  |> "lUsIrn" <| [
 
-    Identity                  `noun`    {- luwsiyrn -}         [ "" {- "Lucerne" -} ] ]
+    Identity                  `noun`    {- luwsiyrn -}         [ "Lucerne" ] ]
 
  |> "lUt^sA" <| [
 
-    Identity                  `noun`    {- luwto$A -}          [ "" {- "Luca" -} ] ]
+    Identity                  `noun`    {- luwto$A -}          [ "Luca" ] ]
 
 
 cluster_76  = listing "Lexicon's properties"
@@ -953,7 +953,7 @@ cluster_76  = listing "Lexicon's properties"
 
  |> "lUyA" <| [
 
-    Identity                  `noun`    {- luwyA -}            [ "" {- "Loya" -} ] ]
+    Identity                  `noun`    {- luwyA -}            [ "Loya" ] ]
 
  |> "l_akin" <| [
 
@@ -973,7 +973,7 @@ cluster_76  = listing "Lexicon's properties"
 
  |> "labbayk" <| [
 
-    Identity |<< "a"          `noun`    {- lab~ayoka -}        [ unwords [ "" {- "I" -}, "have", "answered", "" {- "Your" -}, "call", "!" ] ] ]
+    Identity |<< "a"          `noun`    {- lab~ayoka -}        [ unwords [ "I", "have", "answered", "Your", "call", "!" ] ] ]
 
  |> "lambA^gU" <| [
 
@@ -999,7 +999,7 @@ cluster_76  = listing "Lexicon's properties"
 
  |> "laykirz" <| [
 
-    Identity                  `noun`    {- layokirz -}         [ "" {- "Lakers" -} ] ]
+    Identity                  `noun`    {- layokirz -}         [ "Lakers" ] ]
 
  |> "laylata'i_diN" <| [
 
@@ -1007,7 +1007,7 @@ cluster_76  = listing "Lexicon's properties"
 
  |> "li-" <| [
 
-    Identity                  `prep`    {- li- -}              [ unwords [ "to", "/", "for", "+", "it", "/", "him", "(", "it", "/", "he", "has", ")" ], unwords [ "to", "/", "for", "+", "them", "both", "(", "they", "both", "have", ")" ], unwords [ "to", "/", "for", "+", "it", "/", "them", "/", "her", "(", "it", "/", "she", "has,", "they", "have", ")" ], unwords [ "to", "/", "for", "+", "them", "(", "they", "have", ")" ], unwords [ "to", "/", "for", "+", "you", "(", "you", "have", ")" ], unwords [ "to", "/", "for", "+", "you", "both", "(", "you", "both", "have", ")" ], unwords [ "to", "/", "for", "+", "me", "(", "" {- "I" -}, "have", ")" ], unwords [ "to", "/", "for", "+", "us", "(", "we", "have", ")" ] ] ]
+    Identity                  `prep`    {- li- -}              [ unwords [ "to", "/", "for", "+", "it", "/", "him", "(", "it", "/", "he", "has", ")" ], unwords [ "to", "/", "for", "+", "them", "both", "(", "they", "both", "have", ")" ], unwords [ "to", "/", "for", "+", "it", "/", "them", "/", "her", "(", "it", "/", "she", "has,", "they", "have", ")" ], unwords [ "to", "/", "for", "+", "them", "(", "they", "have", ")" ], unwords [ "to", "/", "for", "+", "you", "(", "you", "have", ")" ], unwords [ "to", "/", "for", "+", "you", "both", "(", "you", "both", "have", ")" ], unwords [ "to", "/", "for", "+", "me", "(", "I", "have", ")" ], unwords [ "to", "/", "for", "+", "us", "(", "we", "have", ")" ] ] ]
 
  |> "lifI_tAn" <| [
 
@@ -1017,7 +1017,7 @@ cluster_76  = listing "Lexicon's properties"
 
  |> "liftInAnt" <| [
 
-    Identity                  `noun`    {- lifotiynAnot -}     [ "" {- "Lieutenant" -} ] ]
+    Identity                  `noun`    {- lifotiynAnot -}     [ "Lieutenant" ] ]
 
  |> "limA" <| [
 
@@ -1025,7 +1025,7 @@ cluster_76  = listing "Lexicon's properties"
 
  |> "linIn" <| [
 
-    Identity                  `noun`    {- liniyn -}           [ "" {- "Lenin" -} ] ]
+    Identity                  `noun`    {- liniyn -}           [ "Lenin" ] ]
 
 
 cluster_77  = listing "Lexicon's properties"
@@ -1033,49 +1033,49 @@ cluster_77  = listing "Lexicon's properties"
 
  |> "linIn^grAd" <| [
 
-    Identity                  `noun`    {- liniynojrAd -}      [ "" {- "Leningrad" -} ] ]
+    Identity                  `noun`    {- liniynojrAd -}      [ "Leningrad" ] ]
 
  |> "litwAniyA" <| [
 
-    Identity                  `noun`    {- litwAniyA -}        [ "" {- "Lithuania" -} ] ]
+    Identity                  `noun`    {- litwAniyA -}        [ "Lithuania" ] ]
 
  |> "liwInskI" <| [
 
-    Identity                  `noun`    {- liwiynosokiy -}     [ "" {- "Lewinsky" -} ] ]
+    Identity                  `noun`    {- liwiynosokiy -}     [ "Lewinsky" ] ]
 
  |> "liyA" <| [
 
-    Identity                  `noun`    {- liyA -}             [ "" {- "Leah" -} ] ]
+    Identity                  `noun`    {- liyA -}             [ "Leah" ] ]
 
  |> "liyAndrU" <| [
 
-    Identity                  `noun`    {- liyAnodruw -}       [ "" {- "Leandro" -} ] ]
+    Identity                  `noun`    {- liyAnodruw -}       [ "Leandro" ] ]
 
  |> "liyUbArd" <| [
 
-    Identity                  `noun`    {- liyuwbArod -}       [ "" {- "Leopard" -} ] ]
+    Identity                  `noun`    {- liyuwbArod -}       [ "Leopard" ] ]
 
  |> "liyUbUf" <| [
 
-    Identity                  `noun`    {- liyuwbuwf -}        [ "" {- "Leopov" -} ] ]
+    Identity                  `noun`    {- liyuwbuwf -}        [ "Leopov" ] ]
 
  |> "liyUbliyAn" <| [
 
-    Identity |< Iy            `adj`     {- liyuwboliyAniy~ -}  [ unwords [ "from", "/", "of", "" {- "Ljubljana" -} ] ] ]
+    Identity |< Iy            `adj`     {- liyuwboliyAniy~ -}  [ unwords [ "from", "/", "of", "Ljubljana" ] ] ]
 
  |> "liyUbliyAnA" <| [
 
-    Identity                  `noun`    {- liyuwboliyAnA -}    [ "" {- "Ljubljana" -} ] ]
+    Identity                  `noun`    {- liyuwboliyAnA -}    [ "Ljubljana" ] ]
 
  |> "liyUn" <| [
 
-    Identity                  `noun`    {- liyuwn -}           [ "" {- "Leon" -} ],
+    Identity                  `noun`    {- liyuwn -}           [ "Leon" ],
 
-    Identity                  `noun`    {- liyuwn -}           [ "" {- "Lyon" -} ] ]
+    Identity                  `noun`    {- liyuwn -}           [ "Lyon" ] ]
 
  |> "liyUr" <| [
 
-    Identity                  `noun`    {- liyuwr -}           [ "" {- "Lior" -} ] ]
+    Identity                  `noun`    {- liyuwr -}           [ "Lior" ] ]
 
  |> "liyUtinAn" <| [
 
@@ -1083,15 +1083,15 @@ cluster_77  = listing "Lexicon's properties"
 
  |> "luksumbur^g" <| [
 
-    Identity                  `noun`    {- lukosumburj -}      [ "" {- "Luxembourg" -} ] ]
+    Identity                  `noun`    {- lukosumburj -}      [ "Luxembourg" ] ]
 
  |> "luwAndA" <| [
 
-    Identity                  `noun`    {- luwAnodA -}         [ "" {- "Luanda" -} ] ]
+    Identity                  `noun`    {- luwAnodA -}         [ "Luanda" ] ]
 
  |> "luwUn.g" <| [
 
-    Identity                  `noun`    {- luwuwnog -}         [ "" {- "Luong" -} ] ]
+    Identity                  `noun`    {- luwuwnog -}         [ "Luong" ] ]
 
  |> "mAlam" <| [
 
@@ -1099,7 +1099,7 @@ cluster_77  = listing "Lexicon's properties"
 
  |> "mil.him" <| [
 
-    Identity                  `noun`    {- miloHim -}          [ "" {- "Milhem" -} ] ]
+    Identity                  `noun`    {- miloHim -}          [ "Milhem" ] ]
 
 
 section = [ cluster_61,

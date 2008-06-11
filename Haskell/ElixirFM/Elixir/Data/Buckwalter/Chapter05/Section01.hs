@@ -1076,7 +1076,7 @@ cluster_20  = listing "Lexicon's properties"
 
     MuFaCCaL                  `noun`    {- mujad~ar -}         [ unwords [ "having", "smallpox" ], unwords [ "pock", "-", "marked" ] ],
 
-    MuFaCCaL |< aT            `noun`    {- mujad~arap -}       [ unwords [ "mujaddara", "(", "cracked", "wheat", "cooked", "with", "lentils", "&", "browned", "candied", "onions", ")" ] ] ]
+    MuFaCCaL |< aT            `noun`    {- mujad~arap -}       [ unwords [ "mujaddara", "(", "cracked", "wheat", "cooked", "with", "lentils", "and", "browned", "candied", "onions", ")" ] ] ]
 
  |> "^g d w l" <| [
 

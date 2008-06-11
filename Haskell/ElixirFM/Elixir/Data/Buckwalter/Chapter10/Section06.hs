@@ -522,39 +522,39 @@ cluster_111 = listing "Lexicon's properties"
 
  |> "rA.hIl" <| [
 
-    Identity                  `noun`    {- rAHiyl -}           [ "" {- "Rachel" -} ] ]
+    Identity                  `noun`    {- rAHiyl -}           [ "Rachel" ] ]
 
  |> "rA^gA" <| [
 
-    Identity                  `noun`    {- rAjA -}             [ "" {- "Rajah" -} ] ]
+    Identity                  `noun`    {- rAjA -}             [ "Rajah" ] ]
 
  |> "rA^gkUmAr" <| [
 
-    Identity                  `noun`    {- rAjokuwmAr -}       [ "" {- "Rajkumar" -} ] ]
+    Identity                  `noun`    {- rAjokuwmAr -}       [ "Rajkumar" ] ]
 
  |> "rA^sIfskI" <| [
 
-    Identity                  `noun`    {- rA$iyfskiy -}       [ "" {- "Rashevsky" -} ] ]
+    Identity                  `noun`    {- rA$iyfskiy -}       [ "Rashevsky" ] ]
 
  |> "rAbAyIt^s" <| [
 
-    Identity                  `noun`    {- rAbAyiyt$ -}        [ "" {- "Rapaic" -} ] ]
+    Identity                  `noun`    {- rAbAyiyt$ -}        [ "Rapaic" ] ]
 
  |> "rAbId" <| [
 
-    Identity                  `noun`    {- rAbiyd -}           [ "" {- "Rapid" -} ] ]
+    Identity                  `noun`    {- rAbiyd -}           [ "Rapid" ] ]
 
  |> "rAbIn" <| [
 
-    Identity                  `noun`    {- rAbiyn -}           [ "" {- "Rabin" -} ] ]
+    Identity                  `noun`    {- rAbiyn -}           [ "Rabin" ] ]
 
  |> "rAbInUfIt^s" <| [
 
-    Identity                  `noun`    {- rAbiynuwfiyt$ -}    [ "" {- "Rabinovich" -}, "" {- "Rabinovitch" -} ] ]
+    Identity                  `noun`    {- rAbiynuwfiyt$ -}    [ "Rabinovich", "Rabinovitch" ] ]
 
  |> "rAbtUrz" <| [
 
-    Identity                  `noun`    {- rAbtuwrz -}         [ "" {- "Raptors" -} ] ]
+    Identity                  `noun`    {- rAbtuwrz -}         [ "Raptors" ] ]
 
  |> "rAdAr" <| [
 
@@ -574,7 +574,7 @@ cluster_112 = listing "Lexicon's properties"
 
  |> "rAdUfAn" <| [
 
-    Identity                  `noun`    {- rAduwfAn -}         [ "" {- "Radovan" -} ] ]
+    Identity                  `noun`    {- rAduwfAn -}         [ "Radovan" ] ]
 
  |> "rAdiyU" <| [
 
@@ -596,11 +596,11 @@ cluster_112 = listing "Lexicon's properties"
 
  |> "rAfAyIl" <| [
 
-    Identity                  `noun`    {- rAfAyiyl -}         [ "" {- "Rafael" -}, "" {- "Raphael" -} ] ]
+    Identity                  `noun`    {- rAfAyiyl -}         [ "Rafael", "Raphael" ] ]
 
  |> "rAfidAn" <| [
 
-    Identity                  `noun`    {- rAfidAn -}          [ "" {- "Mesopotamia" -}, "" {- "Iraq" -} ] ]
+    Identity                  `noun`    {- rAfidAn -}          [ "Mesopotamia", "Iraq" ] ]
 
  |> "rAfiyA" <| [
 
@@ -608,39 +608,39 @@ cluster_112 = listing "Lexicon's properties"
 
  |> "rAftir" <| [
 
-    Identity                  `noun`    {- rAfotir -}          [ "" {- "Rafter" -} ] ]
+    Identity                  `noun`    {- rAfotir -}          [ "Rafter" ] ]
 
  |> "rAmAkAntA" <| [
 
-    Identity                  `noun`    {- rAmAkAnotA -}       [ "" {- "Ramakanta" -} ] ]
+    Identity                  `noun`    {- rAmAkAnotA -}       [ "Ramakanta" ] ]
 
  |> "rAmAkrI^snA" <| [
 
-    Identity                  `noun`    {- rAmAkriy$onA -}     [ "" {- "Ramakrishna" -} ] ]
+    Identity                  `noun`    {- rAmAkriy$onA -}     [ "Ramakrishna" ] ]
 
  |> "rAmIn" <| [
 
-    Identity                  `noun`    {- rAmiyn -}           [ "" {- "Ramin" -} ] ]
+    Identity                  `noun`    {- rAmiyn -}           [ "Ramin" ] ]
 
  |> "rAm^stAyin" <| [
 
-    Identity                  `noun`    {- rAmo$tAyin -}       [ "" {- "Ramstein" -} ] ]
+    Identity                  `noun`    {- rAmo$tAyin -}       [ "Ramstein" ] ]
 
  |> "rAmsfild" <| [
 
-    Identity                  `noun`    {- rAmsofild -}        [ "" {- "Rumsfeld" -} ] ]
+    Identity                  `noun`    {- rAmsofild -}        [ "Rumsfeld" ] ]
 
  |> "rAnA" <| [
 
-    Identity                  `noun`    {- rAnA -}             [ "" {- "Rana" -} ] ]
+    Identity                  `noun`    {- rAnA -}             [ "Rana" ] ]
 
  |> "rAniyA" <| [
 
-    Identity                  `noun`    {- rAniyA -}           [ "" {- "Rania" -} ] ]
+    Identity                  `noun`    {- rAniyA -}           [ "Rania" ] ]
 
  |> "rAnyIrI" <| [
 
-    Identity                  `noun`    {- rAnoyiyriy -}       [ "" {- "Ranieri" -} ] ]
+    Identity                  `noun`    {- rAnoyiyriy -}       [ "Ranieri" ] ]
 
 
 cluster_113 = listing "Lexicon's properties"
@@ -648,7 +648,7 @@ cluster_113 = listing "Lexicon's properties"
 
  |> "rAsIn.g" <| [
 
-    Identity                  `noun`    {- rAsiyng -}          [ "" {- "Racing" -} ] ]
+    Identity                  `noun`    {- rAsiyng -}          [ "Racing" ] ]
 
  |> "rAtIn" <| [
 
@@ -660,7 +660,7 @@ cluster_113 = listing "Lexicon's properties"
 
  |> "rAtU" <| [
 
-    Identity                  `noun`    {- rAtuw -}            [ "" {- "Ratu" -} ] ]
+    Identity                  `noun`    {- rAtuw -}            [ "Ratu" ] ]
 
  |> "rAwand" <| [
 
@@ -668,15 +668,15 @@ cluster_113 = listing "Lexicon's properties"
 
  |> "rAynir" <| [
 
-    Identity                  `noun`    {- rAyonir -}          [ "" {- "Reiner" -} ] ]
+    Identity                  `noun`    {- rAyonir -}          [ "Reiner" ] ]
 
  |> "rI^gInA" <| [
 
-    Identity                  `noun`    {- riyjiynA -}         [ "" {- "Regina" -} ] ]
+    Identity                  `noun`    {- riyjiynA -}         [ "Regina" ] ]
 
  |> "rI^stir" <| [
 
-    Identity                  `noun`    {- riy$otir -}         [ "" {- "Richter" -} ] ]
+    Identity                  `noun`    {- riy$otir -}         [ "Richter" ] ]
 
  |> "rIbUrtA^g" <| [
 
@@ -684,17 +684,17 @@ cluster_113 = listing "Lexicon's properties"
 
  |> "rIbrAt^sA" <| [
 
-    Identity                  `noun`    {- riybrAt$A -}        [ "" {- "Rebraca" -} ] ]
+    Identity                  `noun`    {- riybrAt$A -}        [ "Rebraca" ] ]
 
  |> "rIfkind" <| [
 
-    Identity                  `noun`    {- riyfokinod -}       [ "" {- "Rivkind" -}, "" {- "Rifkind" -} ] ]
+    Identity                  `noun`    {- riyfokinod -}       [ "Rivkind", "Rifkind" ] ]
 
  |> "rIfyIrA" <| [
 
     Identity                  `noun`    {- riyfoyiyrA -}       [ "riviera" ],
 
-    Identity                  `noun`    {- riyfoyiyrA -}       [ "" {- "Riviera" -} ] ]
+    Identity                  `noun`    {- riyfoyiyrA -}       [ "Riviera" ] ]
 
  |> "rIkUrdar" <| [
 
@@ -702,23 +702,23 @@ cluster_113 = listing "Lexicon's properties"
 
  |> "rImUnd" <| [
 
-    Identity                  `noun`    {- riymuwnd -}         [ "" {- "Raymond" -} ],
+    Identity                  `noun`    {- riymuwnd -}         [ "Raymond" ],
 
-    Identity |< aT            `noun`    {- riymuwndap -}       [ "" {- "Raimonda" -} ] ]
+    Identity |< aT            `noun`    {- riymuwndap -}       [ "Raimonda" ] ]
 
  |> "rInU" <| [
 
-    Identity                  `noun`    {- riynuw -}           [ "" {- "Renault" -} ],
+    Identity                  `noun`    {- riynuw -}           [ "Renault" ],
 
-    Identity                  `noun`    {- riynuw -}           [ "" {- "Reno" -} ] ]
+    Identity                  `noun`    {- riynuw -}           [ "Reno" ] ]
 
  |> "rIntIrA" <| [
 
-    Identity                  `noun`    {- riynotiyrA -}       [ "" {- "Renteria" -} ] ]
+    Identity                  `noun`    {- riynotiyrA -}       [ "Renteria" ] ]
 
  |> "rIstU" <| [
 
-    Identity                  `noun`    {- riysotuw -}         [ "" {- "Risto" -} ] ]
+    Identity                  `noun`    {- riysotuw -}         [ "Risto" ] ]
 
 
 cluster_114 = listing "Lexicon's properties"
@@ -726,23 +726,23 @@ cluster_114 = listing "Lexicon's properties"
 
  |> "rIt^sArd" <| [
 
-    Identity                  `noun`    {- riyto$Arod -}       [ "" {- "Richard" -} ] ]
+    Identity                  `noun`    {- riyto$Arod -}       [ "Richard" ] ]
 
  |> "rIt^sArdsUn" <| [
 
-    Identity                  `noun`    {- riyto$Ardosuwn -}   [ "" {- "Richardson" -} ] ]
+    Identity                  `noun`    {- riyto$Ardosuwn -}   [ "Richardson" ] ]
 
  |> "rU.gUzIn" <| [
 
-    Identity                  `noun`    {- ruwguwziyn -}       [ "" {- "Rogozin" -} ] ]
+    Identity                  `noun`    {- ruwguwziyn -}       [ "Rogozin" ] ]
 
  |> "rU^gIriyU" <| [
 
-    Identity                  `noun`    {- ruwjiyriyuw -}      [ "" {- "Rogerio" -} ] ]
+    Identity                  `noun`    {- ruwjiyriyuw -}      [ "Rogerio" ] ]
 
  |> "rU^giyih" <| [
 
-    Identity                  `noun`    {- ruwjiyih -}         [ "" {- "Rogier" -} ] ]
+    Identity                  `noun`    {- ruwjiyih -}         [ "Rogier" ] ]
 
  |> "rU^sitt" <| [
 
@@ -750,45 +750,45 @@ cluster_114 = listing "Lexicon's properties"
 
  |> "rUbinsUn" <| [
 
-    Identity                  `noun`    {- ruwbinosuwn -}      [ "" {- "Robinson" -} ] ]
+    Identity                  `noun`    {- ruwbinosuwn -}      [ "Robinson" ] ]
 
  |> "rUbirt" <| [
 
-    Identity                  `noun`    {- ruwbirot -}         [ "" {- "Robert" -} ],
+    Identity                  `noun`    {- ruwbirot -}         [ "Robert" ],
 
-    Identity                  `noun`    {- ruwbirot -}         [ "" {- "Rupert" -} ] ]
+    Identity                  `noun`    {- ruwbirot -}         [ "Rupert" ] ]
 
  |> "rUbirtU" <| [
 
-    Identity                  `noun`    {- ruwbirotuw -}       [ "" {- "Roberto" -} ] ]
+    Identity                  `noun`    {- ruwbirotuw -}       [ "Roberto" ] ]
 
  |> "rUdIsiyA" <| [
 
-    Identity                  `noun`    {- ruwdiysiyA -}       [ "" {- "Rhodesia" -} ] ]
+    Identity                  `noun`    {- ruwdiysiyA -}       [ "Rhodesia" ] ]
 
  |> "rUdUlf" <| [
 
-    Identity                  `noun`    {- ruwduwlof -}        [ "" {- "Rudolf" -} ] ]
+    Identity                  `noun`    {- ruwduwlof -}        [ "Rudolf" ] ]
 
  |> "rUdrI^gIz" <| [
 
-    Identity                  `noun`    {- ruwdoriyjiyz -}     [ "" {- "Rodriguez" -} ] ]
+    Identity                  `noun`    {- ruwdoriyjiyz -}     [ "Rodriguez" ] ]
 
  |> "rUfA'Il" <| [
 
-    Identity                  `noun`    {- ruwfA}iyl -}        [ "" {- "Rufa'il" -}, "" {- "Raphael" -} ] ]
+    Identity                  `noun`    {- ruwfA}iyl -}        [ "Rufa'il", "Raphael" ] ]
 
  |> "rUkits" <| [
 
-    Identity                  `noun`    {- ruwkits -}          [ "" {- "Rockets" -} ] ]
+    Identity                  `noun`    {- ruwkits -}          [ "Rockets" ] ]
 
  |> "rUlA" <| [
 
-    Identity                  `noun`    {- ruwlA -}            [ "" {- "Rola" -}, "" {- "Rula" -}, "" {- "Roula" -} ] ]
+    Identity                  `noun`    {- ruwlA -}            [ "Rola", "Rula", "Roula" ] ]
 
  |> "rUmA" <| [
 
-    Identity                  `noun`    {- ruwmA -}            [ "" {- "Rome" -} ] ]
+    Identity                  `noun`    {- ruwmA -}            [ "Rome" ] ]
 
  |> "rUmAn.tIq" <| [
 
@@ -796,11 +796,11 @@ cluster_114 = listing "Lexicon's properties"
 
  |> "rUmAnUs" <| [
 
-    Identity                  `noun`    {- ruwmAnuws -}        [ "" {- "Romanos" -} ] ]
+    Identity                  `noun`    {- ruwmAnuws -}        [ "Romanos" ] ]
 
  |> "rUmAniyA" <| [
 
-    Identity                  `noun`    {- ruwmAniyA -}        [ "" {- "Romania" -} ] ]
+    Identity                  `noun`    {- ruwmAniyA -}        [ "Romania" ] ]
 
 
 cluster_115 = listing "Lexicon's properties"
@@ -818,7 +818,7 @@ cluster_115 = listing "Lexicon's properties"
 
  |> "rUmIdAl" <| [
 
-    Identity                  `noun`    {- ruwmiydAl -}        [ "" {- "Romedal" -} ] ]
+    Identity                  `noun`    {- ruwmiydAl -}        [ "Romedal" ] ]
 
  |> "rUman.tIq" <| [
 
@@ -834,43 +834,43 @@ cluster_115 = listing "Lexicon's properties"
 
  |> "rUnAldU" <| [
 
-    Identity                  `noun`    {- ruwnAloduw -}       [ "" {- "Ronaldo" -} ] ]
+    Identity                  `noun`    {- ruwnAloduw -}       [ "Ronaldo" ] ]
 
  |> "rUsiyA" <| [
 
-    Identity                  `noun`    {- ruwsiyA -}          [ "" {- "Russia" -} ] ]
+    Identity                  `noun`    {- ruwsiyA -}          [ "Russia" ] ]
 
  |> "rUskI_h" <| [
 
-    Identity                  `noun`    {- ruwsokiyx -}        [ "" {- "Russkikh" -} ] ]
+    Identity                  `noun`    {- ruwsokiyx -}        [ "Russkikh" ] ]
 
  |> "rUstUk" <| [
 
-    Identity                  `noun`    {- ruwsotuwk -}        [ "" {- "Rostock" -} ] ]
+    Identity                  `noun`    {- ruwsotuwk -}        [ "Rostock" ] ]
 
  |> "rUytir" <| [
 
-    Identity                  `noun`    {- ruwyotir -}         [ "" {- "Reuters" -} ] ]
+    Identity                  `noun`    {- ruwyotir -}         [ "Reuters" ] ]
 
  |> "rUytirs" <| [
 
-    Identity                  `noun`    {- ruwyotirs -}        [ "" {- "Reuters" -} ] ]
+    Identity                  `noun`    {- ruwyotirs -}        [ "Reuters" ] ]
 
  |> "rUytirz" <| [
 
-    Identity                  `noun`    {- ruwyotirz -}        [ "" {- "Reuters" -} ] ]
+    Identity                  `noun`    {- ruwyotirz -}        [ "Reuters" ] ]
 
  |> "rUzIt^s" <| [
 
-    Identity                  `noun`    {- ruwziyt$ -}         [ "" {- "Rosic" -} ] ]
+    Identity                  `noun`    {- ruwziyt$ -}         [ "Rosic" ] ]
 
  |> "rUzUfIt^s" <| [
 
-    Identity                  `noun`    {- ruwzuwfiyt$ -}      [ "" {- "Rusovick" -} ] ]
+    Identity                  `noun`    {- ruwzuwfiyt$ -}      [ "Rusovick" ] ]
 
  |> "rUzfilt" <| [
 
-    Identity                  `noun`    {- ruwzofilot -}       [ "" {- "Roosevelt" -} ] ]
+    Identity                  `noun`    {- ruwzofilot -}       [ "Roosevelt" ] ]
 
  |> "rUznAm" <| [
 
@@ -890,11 +890,11 @@ cluster_116 = listing "Lexicon's properties"
 
  |> "ra.hbArIfArd" <| [
 
-    Identity                  `noun`    {- raHobAriyfArod -}   [ "" {- "Rahbarifard" -} ] ]
+    Identity                  `noun`    {- raHobAriyfArod -}   [ "Rahbarifard" ] ]
 
  |> "ra.hm_an" <| [
 
-    Identity                  `noun`    {- raHom`n -}          [ "" {- "Rahman" -} ],
+    Identity                  `noun`    {- raHom`n -}          [ "Rahman" ],
 
     Identity                  `adj`     {- raHom`n -}          [ "merciful" ] ]
 
@@ -908,15 +908,15 @@ cluster_116 = listing "Lexicon's properties"
 
  |> "rafsan^gAn" <| [
 
-    Identity |< Iy            `adj`     {- rafosanojAniy~ -}   [ "" {- "Rafsanjani" -} ] ]
+    Identity |< Iy            `adj`     {- rafosanojAniy~ -}   [ "Rafsanjani" ] ]
 
  |> "ram_tA" <| [
 
-    Identity                  `noun`    {- ramovA -}           [ "" {- "Ramtha" -} ] ]
+    Identity                  `noun`    {- ramovA -}           [ "Ramtha" ] ]
 
  |> "ramsfild" <| [
 
-    Identity                  `noun`    {- ramsofild -}        [ "" {- "Rumsfeld" -} ] ]
+    Identity                  `noun`    {- ramsofild -}        [ "Rumsfeld" ] ]
 
  |> "ratIna^g" <| [
 
@@ -924,7 +924,7 @@ cluster_116 = listing "Lexicon's properties"
 
  |> "rawAlbindI" <| [
 
-    Identity                  `noun`    {- rawAlobinodiy -}    [ "" {- "Rawalpindi" -} ] ]
+    Identity                  `noun`    {- rawAlobinodiy -}    [ "Rawalpindi" ] ]
 
  |> "ray_tamA" <| [
 
@@ -932,7 +932,7 @@ cluster_116 = listing "Lexicon's properties"
 
  |> "ri.dA" <| [
 
-    Identity                  `noun`    {- riDA -}             [ "" {- "Rida" -}, "" {- "Reza" -} ] ]
+    Identity                  `noun`    {- riDA -}             [ "Rida", "Reza" ] ]
 
  |> "ri^gIm" <| [
 
@@ -952,7 +952,7 @@ cluster_116 = listing "Lexicon's properties"
 
  |> "ridmUnd" <| [
 
-    Identity                  `noun`    {- ridomuwnod -}       [ "" {- "Redmond" -} ] ]
+    Identity                  `noun`    {- ridomuwnod -}       [ "Redmond" ] ]
 
 
 cluster_117 = listing "Lexicon's properties"
@@ -960,7 +960,7 @@ cluster_117 = listing "Lexicon's properties"
 
  |> "rif`at" <| [
 
-    Identity                  `noun`    {- rifoEat -}          [ "" {- "Rifa'at" -}, "" {- "Rif'at" -} ] ]
+    Identity                  `noun`    {- rifoEat -}          [ "Rifa'at", "Rif'at" ] ]
 
  |> "ritU^s" <| [
 
@@ -972,15 +972,15 @@ cluster_117 = listing "Lexicon's properties"
 
  |> "riyInA" <| [
 
-    Identity                  `noun`    {- riyiynA -}          [ "" {- "Reina" -} ] ]
+    Identity                  `noun`    {- riyiynA -}          [ "Reina" ] ]
 
  |> "riyU" <| [
 
-    Identity                  `noun`    {- riyuw -}            [ "" {- "Rio" -} ] ]
+    Identity                  `noun`    {- riyuw -}            [ "Rio" ] ]
 
  |> "riyUzU" <| [
 
-    Identity                  `noun`    {- riyuwzuw -}         [ "" {- "Ryuzo" -} ] ]
+    Identity                  `noun`    {- riyuwzuw -}         [ "Ryuzo" ] ]
 
  |> "ru.taynY" <| [
 
@@ -1000,23 +1000,23 @@ cluster_117 = listing "Lexicon's properties"
 
  |> "ruwAnU" <| [
 
-    Identity                  `noun`    {- ruwAnuw -}          [ "" {- "Ruano" -} ] ]
+    Identity                  `noun`    {- ruwAnuw -}          [ "Ruano" ] ]
 
  |> "ruwAndA" <| [
 
-    Identity                  `noun`    {- ruwAnodA -}         [ "" {- "Rwanda" -} ] ]
+    Identity                  `noun`    {- ruwAnodA -}         [ "Rwanda" ] ]
 
  |> "ruway^sid" <| [
 
-    Identity                  `noun`    {- ruwayo$id -}        [ "" {- "Ruwaishid" -} ] ]
+    Identity                  `noun`    {- ruwayo$id -}        [ "Ruwaishid" ] ]
 
  |> "rwn" <| [
 
-    Identity                  `noun`    {- rwn -}              [ "" {- "Ron" -} ] ]
+    Identity                  `noun`    {- rwn -}              [ "Ron" ] ]
 
  |> "rwnAld" <| [
 
-    Identity                  `noun`    {- rwnAld -}           [ "" {- "Ronald" -} ] ]
+    Identity                  `noun`    {- rwnAld -}           [ "Ronald" ] ]
 
  |> "tArI`" <| [
 

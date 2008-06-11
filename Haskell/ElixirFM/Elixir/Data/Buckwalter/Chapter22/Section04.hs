@@ -1121,15 +1121,15 @@ cluster_80  = listing "Lexicon's properties"
 
  |> "kA_tUlIk" <| [
 
-    Identity |< Iy            `adj`     {- kAvuwliykiy~ -}     [ "" {- "Catholic" -} ] ]
+    Identity |< Iy            `adj`     {- kAvuwliykiy~ -}     [ "Catholic" ] ]
 
  |> "kA_tirIn" <| [
 
-    Identity                  `noun`    {- kAviriyn -}         [ "" {- "Catherine" -} ] ]
+    Identity                  `noun`    {- kAviriyn -}         [ "Catherine" ] ]
 
  |> "kAbIlA" <| [
 
-    Identity                  `noun`    {- kAbiylA -}          [ "" {- "Kabila" -} ] ]
+    Identity                  `noun`    {- kAbiylA -}          [ "Kabila" ] ]
 
  |> "kAbIn" <| [
 

@@ -3147,15 +3147,15 @@ cluster_64  = listing "Lexicon's properties"
 
  |> "hA.gAnA" <| [
 
-    Identity                  `noun`    {- hAgAnA -}           [ "" {- "Hagana" -} ] ]
+    Identity                  `noun`    {- hAgAnA -}           [ "Hagana" ] ]
 
  |> "hA^sImUtU" <| [
 
-    Identity                  `noun`    {- hA$iymuwtuw -}      [ "" {- "Hashimoto" -} ] ]
+    Identity                  `noun`    {- hA$iymuwtuw -}      [ "Hashimoto" ] ]
 
  |> "hAbIl" <| [
 
-    Identity                  `noun`    {- hAbiyl -}           [ "" {- "Habil" -}, "" {- "Abel" -} ] ]
+    Identity                  `noun`    {- hAbiyl -}           [ "Habil", "Abel" ] ]
 
 
 cluster_65  = listing "Lexicon's properties"
@@ -3163,79 +3163,79 @@ cluster_65  = listing "Lexicon's properties"
 
  |> "hAfAnA" <| [
 
-    Identity                  `noun`    {- hAfAnA -}           [ "" {- "Havana" -} ] ]
+    Identity                  `noun`    {- hAfAnA -}           [ "Havana" ] ]
 
  |> "hAfIlAn^g" <| [
 
-    Identity                  `noun`    {- hAfiylAnj -}        [ "" {- "Havilang" -} ] ]
+    Identity                  `noun`    {- hAfiylAnj -}        [ "Havilang" ] ]
 
  |> "hAfIlAnd" <| [
 
-    Identity                  `noun`    {- hAfiylAnd -}        [ "" {- "Haviland" -} ] ]
+    Identity                  `noun`    {- hAfiylAnd -}        [ "Haviland" ] ]
 
  |> "hAkAn" <| [
 
-    Identity                  `noun`    {- hAkAn -}            [ "" {- "Hakan" -} ] ]
+    Identity                  `noun`    {- hAkAn -}            [ "Hakan" ] ]
 
  |> "hAlAr" <| [
 
-    Identity                  `noun`    {- hAlAr -}            [ "" {- "Halard" -} ] ]
+    Identity                  `noun`    {- hAlAr -}            [ "Halard" ] ]
 
  |> "hAlIfI" <| [
 
-    Identity                  `noun`    {- hAliyfiy -}         [ "" {- "Halevi" -}, "" {- "Halevy" -} ] ]
+    Identity                  `noun`    {- hAliyfiy -}         [ "Halevi", "Halevy" ] ]
 
  |> "hAmbUr.g" <| [
 
-    Identity                  `noun`    {- hAmobuwrog -}       [ "" {- "Hamburg" -} ] ]
+    Identity                  `noun`    {- hAmobuwrog -}       [ "Hamburg" ] ]
 
  |> "hAnUfir" <| [
 
-    Identity                  `noun`    {- hAnuwfir -}         [ "" {- "Hannover" -} ] ]
+    Identity                  `noun`    {- hAnuwfir -}         [ "Hannover" ] ]
 
  |> "hAnt^sk" <| [
 
-    Identity                  `noun`    {- hAnot$k -}          [ "" {- "Hantschk" -} ] ]
+    Identity                  `noun`    {- hAnot$k -}          [ "Hantschk" ] ]
 
  |> "hAnzA" <| [
 
-    Identity                  `noun`    {- hAnozA -}           [ "" {- "Hansa" -} ] ]
+    Identity                  `noun`    {- hAnozA -}           [ "Hansa" ] ]
 
  |> "hArIl" <| [
 
-    Identity                  `noun`    {- hAriyl -}           [ "" {- "Harel" -} ] ]
+    Identity                  `noun`    {- hAriyl -}           [ "Harel" ] ]
 
  |> "hArIs" <| [
 
-    Identity                  `noun`    {- hAriys -}           [ "" {- "Harris" -} ] ]
+    Identity                  `noun`    {- hAriys -}           [ "Harris" ] ]
 
  |> "hArdAwAy" <| [
 
-    Identity                  `noun`    {- hArodAwAy -}        [ "" {- "Hardaway" -} ] ]
+    Identity                  `noun`    {- hArodAwAy -}        [ "Hardaway" ] ]
 
  |> "hArfI" <| [
 
-    Identity                  `noun`    {- hArofiy -}          [ "" {- "Harvey" -} ] ]
+    Identity                  `noun`    {- hArofiy -}          [ "Harvey" ] ]
 
  |> "hArfard" <| [
 
-    Identity                  `noun`    {- hArofarod -}        [ "" {- "Harvard" -} ] ]
+    Identity                  `noun`    {- hArofarod -}        [ "Harvard" ] ]
 
  |> "hArts" <| [
 
-    Identity                  `noun`    {- hArots -}           [ "" {- "Hearts" -} ] ]
+    Identity                  `noun`    {- hArots -}           [ "Hearts" ] ]
 
  |> "hAt^sInsUn" <| [
 
-    Identity                  `noun`    {- hAto$iynosuwn -}    [ "" {- "Hutchinson" -} ] ]
+    Identity                  `noun`    {- hAto$iynosuwn -}    [ "Hutchinson" ] ]
 
  |> "hAwA'I" <| [
 
-    Identity                  `noun`    {- hAwA}iy -}          [ "" {- "Hawaii" -} ] ]
+    Identity                  `noun`    {- hAwA}iy -}          [ "Hawaii" ] ]
 
  |> "hAward" <| [
 
-    Identity                  `noun`    {- hAward -}           [ "" {- "Howard" -} ] ]
+    Identity                  `noun`    {- hAward -}           [ "Howard" ] ]
 
  |> "hAwun" <| [
 
@@ -3247,11 +3247,11 @@ cluster_66  = listing "Lexicon's properties"
 
  |> "hAytI" <| [
 
-    Identity                  `noun`    {- hAytiy -}           [ "" {- "Haiti" -} ] ]
+    Identity                  `noun`    {- hAytiy -}           [ "Haiti" ] ]
 
  |> "hIdrA" <| [
 
-    Identity                  `noun`    {- hiydrA -}           [ "" {- "Hydra" -} ] ]
+    Identity                  `noun`    {- hiydrA -}           [ "Hydra" ] ]
 
  |> "hIdrU" <| [
 
@@ -3269,11 +3269,11 @@ cluster_66  = listing "Lexicon's properties"
 
  |> "hIktUr" <| [
 
-    Identity                  `noun`    {- hiykotuwr -}        [ "" {- "Hector" -} ] ]
+    Identity                  `noun`    {- hiykotuwr -}        [ "Hector" ] ]
 
  |> "hIlArI" <| [
 
-    Identity                  `noun`    {- hiylAriy -}         [ "" {- "Hillary" -} ] ]
+    Identity                  `noun`    {- hiylAriy -}         [ "Hillary" ] ]
 
  |> "hIlIkUbtar" <| [
 
@@ -3285,7 +3285,7 @@ cluster_66  = listing "Lexicon's properties"
 
  |> "hIn.gIs" <| [
 
-    Identity                  `noun`    {- hiynogiys -}        [ "" {- "Hingis" -} ] ]
+    Identity                  `noun`    {- hiynogiys -}        [ "Hingis" ] ]
 
  |> "hIrA.tIq" <| [
 
@@ -3297,15 +3297,15 @@ cluster_66  = listing "Lexicon's properties"
 
  |> "hIrU^sImA" <| [
 
-    Identity                  `noun`    {- hiyruw$iymA -}      [ "" {- "Hiroshima" -} ] ]
+    Identity                  `noun`    {- hiyruw$iymA -}      [ "Hiroshima" ] ]
 
  |> "hIrUt^sI" <| [
 
-    Identity                  `noun`    {- hiyruwt$iy -}       [ "" {- "Hiroshi" -} ] ]
+    Identity                  `noun`    {- hiyruwt$iy -}       [ "Hiroshi" ] ]
 
  |> "hIrtz" <| [
 
-    Identity                  `noun`    {- hiyrotz -}          [ "hertz", "" {- "Hz" -} ] ]
+    Identity                  `noun`    {- hiyrotz -}          [ "hertz", "Hz" ] ]
 
  |> "hIruwIn" <| [
 
@@ -3313,15 +3313,15 @@ cluster_66  = listing "Lexicon's properties"
 
  |> "hIsb" <| [
 
-    Identity                  `noun`    {- hiysb -}            [ "" {- "Hesp" -} ] ]
+    Identity                  `noun`    {- hiysb -}            [ "Hesp" ] ]
 
  |> "hIskI" <| [
 
-    Identity                  `noun`    {- hiysokiy -}         [ "" {- "Heskey" -} ] ]
+    Identity                  `noun`    {- hiysokiy -}         [ "Heskey" ] ]
 
  |> "hUbsUn" <| [
 
-    Identity                  `noun`    {- huwbsuwn -}         [ "" {- "Hobson" -} ] ]
+    Identity                  `noun`    {- huwbsuwn -}         [ "Hobson" ] ]
 
 
 cluster_67  = listing "Lexicon's properties"
@@ -3329,43 +3329,43 @@ cluster_67  = listing "Lexicon's properties"
 
  |> "hUlAnd" <| [
 
-    Identity |< Iy            `adj`     {- huwlAnodiy~ -}      [ "" {- "Dutch" -}, unwords [ "of", "/", "from", "" {- "Holland" -} ] ] ]
+    Identity |< Iy            `adj`     {- huwlAnodiy~ -}      [ "Dutch", unwords [ "of", "/", "from", "Holland" ] ] ]
 
  |> "hUlAndA" <| [
 
-    Identity                  `noun`    {- huwlAnodA -}        [ "" {- "Holland" -} ] ]
+    Identity                  `noun`    {- huwlAnodA -}        [ "Holland" ] ]
 
  |> "hUlIwUd" <| [
 
-    Identity                  `noun`    {- huwliywuwd -}       [ "" {- "Hollywood" -} ] ]
+    Identity                  `noun`    {- huwliywuwd -}       [ "Hollywood" ] ]
 
  |> "hUlbrUk" <| [
 
-    Identity                  `noun`    {- huwlobruwk -}       [ "" {- "Holbrooke" -} ] ]
+    Identity                  `noun`    {- huwlobruwk -}       [ "Holbrooke" ] ]
 
  |> "hUlmAn" <| [
 
-    Identity                  `noun`    {- huwlomAn -}         [ "" {- "Holeman" -}, "" {- "Hallman" -} ] ]
+    Identity                  `noun`    {- huwlomAn -}         [ "Holeman", "Hallman" ] ]
 
  |> "hUnUlUlU" <| [
 
-    Identity                  `noun`    {- huwnuwluwluw -}     [ "" {- "Honolulu" -} ] ]
+    Identity                  `noun`    {- huwnuwluwluw -}     [ "Honolulu" ] ]
 
  |> "hUn^g" <| [
 
-    Identity                  `noun`    {- huwnoj -}           [ "" {- "Hong" -} ] ]
+    Identity                  `noun`    {- huwnoj -}           [ "Hong" ] ]
 
  |> "hUndA" <| [
 
-    Identity                  `noun`    {- huwnodA -}          [ "" {- "Honda" -} ] ]
+    Identity                  `noun`    {- huwnodA -}          [ "Honda" ] ]
 
  |> "hUndUr" <| [
 
-    Identity |< Iy            `adj`     {- huwnoduwriy~ -}     [ "" {- "Honduran" -} ] ]
+    Identity |< Iy            `adj`     {- huwnoduwriy~ -}     [ "Honduran" ] ]
 
  |> "hUndUrAs" <| [
 
-    Identity                  `noun`    {- huwnoduwrAs -}      [ "" {- "Honduras" -} ] ]
+    Identity                  `noun`    {- huwnoduwrAs -}      [ "Honduras" ] ]
 
  |> "hUrmUn" <| [
 
@@ -3375,15 +3375,15 @@ cluster_67  = listing "Lexicon's properties"
 
  |> "hUrst" <| [
 
-    Identity                  `noun`    {- huwrosot -}         [ "" {- "Horst" -} ] ]
+    Identity                  `noun`    {- huwrosot -}         [ "Horst" ] ]
 
  |> "hUtUmU" <| [
 
-    Identity                  `noun`    {- huwtuwmuw -}        [ "" {- "Hutomo" -} ] ]
+    Identity                  `noun`    {- huwtuwmuw -}        [ "Hutomo" ] ]
 
  |> "hUyAmA" <| [
 
-    Identity                  `noun`    {- huwyAmA -}          [ "" {- "Hoyama" -} ] ]
+    Identity                  `noun`    {- huwyAmA -}          [ "Hoyama" ] ]
 
  |> "h_a_dA" <| [
 
@@ -3391,7 +3391,7 @@ cluster_67  = listing "Lexicon's properties"
 
  |> "ha'Arits" <| [
 
-    Identity                  `noun`    {- ha|rits -}          [ "" {- "Haaretz" -} ] ]
+    Identity                  `noun`    {- ha|rits -}          [ "Haaretz" ] ]
 
  |> "hadAdayk" <| [
 
@@ -3429,7 +3429,7 @@ cluster_68  = listing "Lexicon's properties"
 
  |> "hay^gA" <| [
 
-    Identity                  `noun`    {- hayojA -}           [ "" {- "Haija" -} ] ]
+    Identity                  `noun`    {- hayojA -}           [ "Haija" ] ]
 
  |> "haydrUkarbUn" <| [
 
@@ -3463,11 +3463,11 @@ cluster_68  = listing "Lexicon's properties"
 
  |> "hidAyat" <| [
 
-    Identity                  `noun`    {- hidAyat -}          [ "" {- "Hedayet" -} ] ]
+    Identity                  `noun`    {- hidAyat -}          [ "Hedayet" ] ]
 
  |> "hilInist" <| [
 
-    Identity |< Iy            `adj`     {- hiliynisotiy~ -}    [ "" {- "Hellenistic" -} ] ]
+    Identity |< Iy            `adj`     {- hiliynisotiy~ -}    [ "Hellenistic" ] ]
 
  |> "hilikUbtar" <| [
 
@@ -3483,7 +3483,7 @@ cluster_68  = listing "Lexicon's properties"
 
  |> "hilsinkI" <| [
 
-    Identity                  `noun`    {- hilosinkiy -}       [ "" {- "Helsinki" -} ] ]
+    Identity                  `noun`    {- hilosinkiy -}       [ "Helsinki" ] ]
 
 
 cluster_69  = listing "Lexicon's properties"
@@ -3495,7 +3495,7 @@ cluster_69  = listing "Lexicon's properties"
 
  |> "himalAyA" <| [
 
-    Identity                  `noun`    {- himalAyA -}         [ "" {- "Himalayas" -}, "" {- "Himalayan" -} ] ]
+    Identity                  `noun`    {- himalAyA -}         [ "Himalayas", "Himalayan" ] ]
 
  |> "hindab" <| [
 
@@ -3503,15 +3503,15 @@ cluster_69  = listing "Lexicon's properties"
 
  |> "hindrIks" <| [
 
-    Identity                  `noun`    {- hinodriyks -}       [ "" {- "Hendricks" -} ] ]
+    Identity                  `noun`    {- hinodriyks -}       [ "Hendricks" ] ]
 
  |> "hinriyItA" <| [
 
-    Identity                  `noun`    {- hinoriyiytA -}      [ "" {- "Henrieta" -}, "" {- "Henrietta" -} ] ]
+    Identity                  `noun`    {- hinoriyiytA -}      [ "Henrieta", "Henrietta" ] ]
 
  |> "hiraql" <| [
 
-    Identity                  `noun`    {- hiraqol -}          [ "" {- "Hercules" -}, "" {- "Heraclius" -} ] ]
+    Identity                  `noun`    {- hiraqol -}          [ "Hercules", "Heraclius" ] ]
 
  |> "histIriyA" <| [
 
@@ -3523,41 +3523,41 @@ cluster_69  = listing "Lexicon's properties"
 
  |> "hitlar" <| [
 
-    Identity                  `noun`    {- hitolar -}          [ "" {- "Hitler" -} ] ]
+    Identity                  `noun`    {- hitolar -}          [ "Hitler" ] ]
 
  |> "hiyU" <| [
 
-    Identity                  `noun`    {- hiyuw -}            [ "" {- "Hugh" -} ] ]
+    Identity                  `noun`    {- hiyuw -}            [ "Hugh" ] ]
 
  |> "hiyUn" <| [
 
-    Identity                  `noun`    {- hiyuwn -}           [ "" {- "Hyun" -} ] ]
+    Identity                  `noun`    {- hiyuwn -}           [ "Hyun" ] ]
 
  |> "hiyUrAkAn" <| [
 
-    Identity                  `noun`    {- hiyuwrAkAn -}       [ "" {- "Huracan" -} ] ]
+    Identity                  `noun`    {- hiyuwrAkAn -}       [ "Huracan" ] ]
 
  |> "hiyUstun" <| [
 
-    Identity                  `noun`    {- hiyuwsotun -}       [ "" {- "Houston" -} ] ]
+    Identity                  `noun`    {- hiyuwsotun -}       [ "Houston" ] ]
 
  |> "hiyUz" <| [
 
-    Identity                  `noun`    {- hiyuwz -}           [ "" {- "Hughes" -} ] ]
+    Identity                  `noun`    {- hiyuwz -}           [ "Hughes" ] ]
 
  |> "hizabr" <| [
 
     Identity                  `noun`    {- hizabor -}          [ "lion" ],
 
-    Identity                  `noun`    {- hizabor -}          [ "" {- "Hizabr" -} ] ]
+    Identity                  `noun`    {- hizabor -}          [ "Hizabr" ] ]
 
  |> "hrIstU" <| [
 
-    Identity                  `noun`    {- hriystuw -}         [ "" {- "Hristo" -} ] ]
+    Identity                  `noun`    {- hriystuw -}         [ "Hristo" ] ]
 
  |> "hrbAtI" <| [
 
-    Identity                  `noun`    {- hrbAtiy -}          [ "" {- "Hrbaty" -} ] ]
+    Identity                  `noun`    {- hrbAtiy -}          [ "Hrbaty" ] ]
 
  |> "humA" <| [
 
@@ -3573,7 +3573,7 @@ cluster_70  = listing "Lexicon's properties"
 
  |> "hun.gAriyA" <| [
 
-    Identity                  `noun`    {- hunogAriyA -}       [ "" {- "Hungary" -} ] ]
+    Identity                  `noun`    {- hunogAriyA -}       [ "Hungary" ] ]
 
  |> "hunA" <| [
 
@@ -3593,7 +3593,7 @@ cluster_70  = listing "Lexicon's properties"
 
  |> "mahdAwI" <| [
 
-    Identity                  `noun`    {- mahodAwiy -}        [ "" {- "Mahdawi" -}, "" {- "Mehdawi" -}, "" {- "Mahdavi" -}, "" {- "Mehdavi" -} ] ]
+    Identity                  `noun`    {- mahodAwiy -}        [ "Mahdawi", "Mehdawi", "Mahdavi", "Mehdavi" ] ]
 
  |> "mahraqAn" <| [
 
@@ -3601,7 +3601,7 @@ cluster_70  = listing "Lexicon's properties"
 
  |> "muhannA" <| [
 
-    Identity                  `noun`    {- muhan~A -}          [ "" {- "Muhanna" -} ] ]
+    Identity                  `noun`    {- muhan~A -}          [ "Muhanna" ] ]
 
  |> "muhrAq" <| [
 

@@ -1076,7 +1076,7 @@ cluster_20  = listing "Lexicon's properties"
 
     MuFaCCaL                  `noun`    {- mujad~ar -}         [ unwords [ "having", "smallpox" ], unwords [ "pock", "-", "marked" ] ],
 
-    MuFaCCaL |< aT            `noun`    {- mujad~arap -}       [ unwords [ "mujaddara", "(", "cracked", "wheat", "cooked", "with", "lentils", "&", "browned", "candied", "onions", ")" ] ] ]
+    MuFaCCaL |< aT            `noun`    {- mujad~arap -}       [ unwords [ "mujaddara", "(", "cracked", "wheat", "cooked", "with", "lentils", "and", "browned", "candied", "onions", ")" ] ] ]
 
  |> "^g d w l" <| [
 
@@ -4268,27 +4268,27 @@ cluster_82  = listing "Lexicon's properties"
 
  |> "^gA.guwAr" <| [
 
-    Identity                  `noun`    {- jAguwAr -}          [ "" {- "Jaguar" -} ] ]
+    Identity                  `noun`    {- jAguwAr -}          [ "Jaguar" ] ]
 
  |> "^gAdAllh" <| [
 
-    Identity                  `noun`    {- jAdAllh -}          [ "" {- "Jadallah" -}, "" {- "Gadallah" -} ] ]
+    Identity                  `noun`    {- jAdAllh -}          [ "Jadallah", "Gadallah" ] ]
 
  |> "^gAdIr" <| [
 
-    Identity                  `noun`    {- jAdiyr -}           [ "" {- "Jadir" -} ] ]
+    Identity                  `noun`    {- jAdiyr -}           [ "Jadir" ] ]
 
  |> "^gAkArtA" <| [
 
-    Identity                  `noun`    {- jAkArotA -}         [ "" {- "Jakarta" -} ] ]
+    Identity                  `noun`    {- jAkArotA -}         [ "Jakarta" ] ]
 
  |> "^gAksUn" <| [
 
-    Identity                  `noun`    {- jAkosuwn -}         [ "" {- "Jackson" -} ] ]
+    Identity                  `noun`    {- jAkosuwn -}         [ "Jackson" ] ]
 
  |> "^gAlA" <| [
 
-    Identity                  `noun`    {- jAlA -}             [ "" {- "Jala" -} ] ]
+    Identity                  `noun`    {- jAlA -}             [ "Jala" ] ]
 
  |> "^gAmA" <| [
 
@@ -4296,47 +4296,47 @@ cluster_82  = listing "Lexicon's properties"
 
  |> "^gAmU" <| [
 
-    Identity                  `noun`    {- jAmuw -}            [ "" {- "Jammu" -} ] ]
+    Identity                  `noun`    {- jAmuw -}            [ "Jammu" ] ]
 
  |> "^gAnIrU" <| [
 
-    Identity                  `noun`    {- jAniyruw -}         [ "" {- "Janeiro" -} ] ]
+    Identity                  `noun`    {- jAniyruw -}         [ "Janeiro" ] ]
 
  |> "^gAnfI" <| [
 
-    Identity                  `noun`    {- jAnfiy -}           [ "" {- "January" -} ] ]
+    Identity                  `noun`    {- jAnfiy -}           [ "January" ] ]
 
  |> "^gAnfrAnkU" <| [
 
-    Identity                  `noun`    {- jAnofrAnokuw -}     [ "" {- "Gianfranco" -} ] ]
+    Identity                  `noun`    {- jAnofrAnokuw -}     [ "Gianfranco" ] ]
 
  |> "^gAnlUkA" <| [
 
-    Identity                  `noun`    {- jAnoluwkA -}        [ "" {- "Gianluca" -} ] ]
+    Identity                  `noun`    {- jAnoluwkA -}        [ "Gianluca" ] ]
 
  |> "^gAnluwI^gI" <| [
 
-    Identity                  `noun`    {- jAnoluwiyjiy -}     [ "" {- "Gianluigi" -} ] ]
+    Identity                  `noun`    {- jAnoluwiyjiy -}     [ "Gianluigi" ] ]
 
  |> "^gArAlll_ah" <| [
 
-    Identity                  `noun`    {- jArAll~`h -}        [ "" {- "Jarallah" -} ] ]
+    Identity                  `noun`    {- jArAll~`h -}        [ "Jarallah" ] ]
 
  |> "^gArAn^g" <| [
 
-    Identity                  `noun`    {- jArAnoj -}          [ "" {- "Garang" -} ] ]
+    Identity                  `noun`    {- jArAnoj -}          [ "Garang" ] ]
 
  |> "^gArdiyAn" <| [
 
-    Identity                  `noun`    {- jArodiyAn -}        [ "" {- "Guardian" -} ] ]
+    Identity                  `noun`    {- jArodiyAn -}        [ "Guardian" ] ]
 
  |> "^gAstIn" <| [
 
-    Identity                  `noun`    {- jAsotiyn -}         [ "" {- "Justin" -} ] ]
+    Identity                  `noun`    {- jAsotiyn -}         [ "Justin" ] ]
 
  |> "^gAtUrAbAtArAbUn.g" <| [
 
-    Identity                  `noun`    {- jAtuwrAbAtArAbuwng -} [ "" {- "Jatupatarapong" -} ] ]
+    Identity                  `noun`    {- jAtuwrAbAtArAbuwng -} [ "Jatupatarapong" ] ]
 
  |> "^gAwI^s" <| [
 
@@ -4344,7 +4344,7 @@ cluster_82  = listing "Lexicon's properties"
 
  |> "^gAymI" <| [
 
-    Identity                  `noun`    {- jAyomiy -}          [ "" {- "Jamie" -} ] ]
+    Identity                  `noun`    {- jAyomiy -}          [ "Jamie" ] ]
 
 
 cluster_83  = listing "Lexicon's properties"
@@ -4352,23 +4352,23 @@ cluster_83  = listing "Lexicon's properties"
 
  |> "^gAzAn" <| [
 
-    Identity                  `noun`    {- jAzAn -}            [ "" {- "Jazan" -} ] ]
+    Identity                  `noun`    {- jAzAn -}            [ "Jazan" ] ]
 
  |> "^gIbUtI" <| [
 
-    Identity                  `noun`    {- jiybuwtiy -}        [ "" {- "Djibouti" -} ] ]
+    Identity                  `noun`    {- jiybuwtiy -}        [ "Djibouti" ] ]
 
  |> "^gIfsUn" <| [
 
-    Identity                  `noun`    {- jiyfsuwn -}         [ "" {- "Jephson" -} ] ]
+    Identity                  `noun`    {- jiyfsuwn -}         [ "Jephson" ] ]
 
  |> "^gIl.gAl" <| [
 
-    Identity                  `noun`    {- jiylogAl -}         [ "" {- "Gilgal" -} ] ]
+    Identity                  `noun`    {- jiylogAl -}         [ "Gilgal" ] ]
 
  |> "^gIlArdInU" <| [
 
-    Identity                  `noun`    {- jiylArodiynuw -}    [ "" {- "Gilardino" -} ] ]
+    Identity                  `noun`    {- jiylArodiynuw -}    [ "Gilardino" ] ]
 
  |> "^gIlAtI" <| [
 
@@ -4380,27 +4380,27 @@ cluster_83  = listing "Lexicon's properties"
 
  |> "^gIlU" <| [
 
-    Identity                  `noun`    {- jiyluw -}           [ "" {- "Gilo" -} ] ]
+    Identity                  `noun`    {- jiyluw -}           [ "Gilo" ] ]
 
  |> "^gIlbirt" <| [
 
-    Identity                  `noun`    {- jiylobirot -}       [ "" {- "Gilbert" -} ] ]
+    Identity                  `noun`    {- jiylobirot -}       [ "Gilbert" ] ]
 
  |> "^gIlbirtU" <| [
 
-    Identity                  `noun`    {- jiylobirotuw -}     [ "" {- "Gilberto" -} ] ]
+    Identity                  `noun`    {- jiylobirotuw -}     [ "Gilberto" ] ]
 
  |> "^gIlz" <| [
 
-    Identity                  `noun`    {- jiylz -}            [ "" {- "Giles" -} ] ]
+    Identity                  `noun`    {- jiylz -}            [ "Giles" ] ]
 
  |> "^gIn.g" <| [
 
-    Identity                  `noun`    {- jiyng -}            [ "" {- "Jing" -} ] ]
+    Identity                  `noun`    {- jiyng -}            [ "Jing" ] ]
 
  |> "^gInArU" <| [
 
-    Identity                  `noun`    {- jiynAruw -}         [ "" {- "Genaro" -} ] ]
+    Identity                  `noun`    {- jiynAruw -}         [ "Genaro" ] ]
 
  |> "^gIrU" <| [
 
@@ -4408,27 +4408,27 @@ cluster_83  = listing "Lexicon's properties"
 
  |> "^gIrUzAlIm" <| [
 
-    Identity                  `noun`    {- jiyruwzAliym -}     [ "" {- "Jerusalem" -} ] ]
+    Identity                  `noun`    {- jiyruwzAliym -}     [ "Jerusalem" ] ]
 
  |> "^gIr^gA" <| [
 
-    Identity                  `noun`    {- jiyrojA -}          [ "" {- "Jirga" -} ] ]
+    Identity                  `noun`    {- jiyrojA -}          [ "Jirga" ] ]
 
  |> "^gItiks" <| [
 
-    Identity                  `noun`    {- jiytikos -}         [ "" {- "Gitex" -} ] ]
+    Identity                  `noun`    {- jiytikos -}         [ "Gitex" ] ]
 
  |> "^gIzhU" <| [
 
-    Identity                  `noun`    {- jiyzhuw -}          [ "" {- "Jizhu" -} ] ]
+    Identity                  `noun`    {- jiyzhuw -}          [ "Jizhu" ] ]
 
  |> "^gUbA" <| [
 
-    Identity                  `noun`    {- juwbA -}            [ "" {- "Juba" -} ] ]
+    Identity                  `noun`    {- juwbA -}            [ "Juba" ] ]
 
  |> "^gUfAnI" <| [
 
-    Identity                  `noun`    {- juwfAniy -}         [ "" {- "Giovanni" -} ] ]
+    Identity                  `noun`    {- juwfAniy -}         [ "Giovanni" ] ]
 
 
 cluster_84  = listing "Lexicon's properties"
@@ -4436,77 +4436,77 @@ cluster_84  = listing "Lexicon's properties"
 
  |> "^gUhAnisbUr^g" <| [
 
-    Identity                  `noun`    {- juwhAnisobuwrj -}   [ "" {- "Johannesburg" -} ] ]
+    Identity                  `noun`    {- juwhAnisobuwrj -}   [ "Johannesburg" ] ]
 
  |> "^gUlf" <| [
 
     Identity                  `noun`    {- juwlof -}           [ "golf" ],
 
-    Identity                  `noun`    {- juwlof -}           [ "" {- "Gulf" -} ] ]
+    Identity                  `noun`    {- juwlof -}           [ "Gulf" ] ]
 
  |> "^gUliyA" <| [
 
-    Identity                  `noun`    {- juwliyA -}          [ "" {- "Julia" -} ] ]
+    Identity                  `noun`    {- juwliyA -}          [ "Julia" ] ]
 
  |> "^gUliyAn" <| [
 
-    Identity                  `noun`    {- juwliyAn -}         [ "" {- "Julian" -}, "" {- "Julien" -} ] ]
+    Identity                  `noun`    {- juwliyAn -}         [ "Julian", "Julien" ] ]
 
  |> "^gUliyIt" <| [
 
-    Identity                  `noun`    {- juwliyiyt -}        [ "" {- "Juliette" -} ] ]
+    Identity                  `noun`    {- juwliyiyt -}        [ "Juliette" ] ]
 
  |> "^gUliyU" <| [
 
-    Identity                  `noun`    {- juwliyuw -}         [ "" {- "Giulio" -}, "" {- "Julio" -} ] ]
+    Identity                  `noun`    {- juwliyuw -}         [ "Giulio", "Julio" ] ]
 
  |> "^gUn.g" <| [
 
-    Identity                  `noun`    {- juwnog -}           [ "" {- "Jong" -} ] ]
+    Identity                  `noun`    {- juwnog -}           [ "Jong" ] ]
 
  |> "^gUnA_tAn" <| [
 
-    Identity                  `noun`    {- juwnAvAn -}         [ "" {- "Jonathan" -} ] ]
+    Identity                  `noun`    {- juwnAvAn -}         [ "Jonathan" ] ]
 
  |> "^gUnInyU" <| [
 
-    Identity                  `noun`    {- juwniynoyuw -}      [ "" {- "Juninio" -} ] ]
+    Identity                  `noun`    {- juwniynoyuw -}      [ "Juninio" ] ]
 
  |> "^gUniyUr" <| [
 
-    Identity                  `noun`    {- juwniyuwr -}        [ "" {- "Junior" -} ] ]
+    Identity                  `noun`    {- juwniyuwr -}        [ "Junior" ] ]
 
  |> "^gUnsUn" <| [
 
-    Identity                  `noun`    {- juwnosuwn -}        [ "" {- "Johnson" -} ] ]
+    Identity                  `noun`    {- juwnosuwn -}        [ "Johnson" ] ]
 
  |> "^gUnz" <| [
 
-    Identity                  `noun`    {- juwnoz -}           [ "" {- "Jones" -} ] ]
+    Identity                  `noun`    {- juwnoz -}           [ "Jones" ] ]
 
  |> "^gUr^g" <| [
 
-    Identity                  `noun`    {- juwroj -}           [ "" {- "George" -} ] ]
+    Identity                  `noun`    {- juwroj -}           [ "George" ] ]
 
  |> "^gUr^gI" <| [
 
-    Identity                  `noun`    {- juwrojiy -}         [ "" {- "Georgi" -}, "" {- "Gheorghe" -} ] ]
+    Identity                  `noun`    {- juwrojiy -}         [ "Georgi", "Gheorghe" ] ]
 
  |> "^gUr^gIt" <| [
 
-    Identity                  `noun`    {- juwrojiyt -}        [ "" {- "Georgette" -} ] ]
+    Identity                  `noun`    {- juwrojiyt -}        [ "Georgette" ] ]
 
  |> "^gUr^giyA" <| [
 
-    Identity                  `noun`    {- juwrojiyA -}        [ "" {- "Georgia" -} ] ]
+    Identity                  `noun`    {- juwrojiyA -}        [ "Georgia" ] ]
 
  |> "^gUrnAl" <| [
 
-    Identity                  `noun`    {- juwronAl -}         [ "" {- "Journal" -} ] ]
+    Identity                  `noun`    {- juwronAl -}         [ "Journal" ] ]
 
  |> "^gUsbAn" <| [
 
-    Identity                  `noun`    {- juwsobAn -}         [ "" {- "Jospin" -} ] ]
+    Identity                  `noun`    {- juwsobAn -}         [ "Jospin" ] ]
 
  |> "^gUwA" <| [
 
@@ -4518,13 +4518,13 @@ cluster_85  = listing "Lexicon's properties"
 
  |> "^gUzIfA" <| [
 
-    Identity                  `noun`    {- juwziyfA -}         [ "" {- "Josefa" -} ] ]
+    Identity                  `noun`    {- juwziyfA -}         [ "Josefa" ] ]
 
  |> "^gabalA'" <| [
 
     Identity |< Iy            `adj`     {- jabalAwiy~ -}       [ "mountaineer" ],
 
-    Identity |< Iy            `adj`     {- jabalAwiy~ -}       [ "" {- "Gabalawi" -} ] ]
+    Identity |< Iy            `adj`     {- jabalAwiy~ -}       [ "Gabalawi" ] ]
 
  |> "^gabalAy" <| [
 
@@ -4536,11 +4536,11 @@ cluster_85  = listing "Lexicon's properties"
 
  |> "^gabra'Il" <| [
 
-    Identity                  `noun`    {- jabora}iyl -}       [ "" {- "Jibril" -}, "" {- "Gabriel" -} ] ]
+    Identity                  `noun`    {- jabora}iyl -}       [ "Jibril", "Gabriel" ] ]
 
  |> "^gahann" <| [
 
-    Identity |< Iy            `adj`     {- jahan~iy~ -}        [ "" {- "Jahanni" -} ] ]
+    Identity |< Iy            `adj`     {- jahan~iy~ -}        [ "Jahanni" ] ]
 
  |> "^gahannam" <| [
 
@@ -4554,11 +4554,11 @@ cluster_85  = listing "Lexicon's properties"
 
  |> "^gamAyk" <| [
 
-    Identity |< Iy            `adj`     {- jamAyokiy~ -}       [ "" {- "Jamaican" -} ] ]
+    Identity |< Iy            `adj`     {- jamAyokiy~ -}       [ "Jamaican" ] ]
 
  |> "^gamAykA" <| [
 
-    Identity                  `noun`    {- jamAyokA -}         [ "" {- "Jamaica" -} ] ]
+    Identity                  `noun`    {- jamAyokA -}         [ "Jamaica" ] ]
 
  |> "^gama^st" <| [
 
@@ -4580,7 +4580,7 @@ cluster_85  = listing "Lexicon's properties"
 
  |> "^ganuwA" <| [
 
-    Identity                  `noun`    {- januwA -}           [ "" {- "Genoa" -} ] ]
+    Identity                  `noun`    {- januwA -}           [ "Genoa" ] ]
 
  |> "^ganzabIl" <| [
 
@@ -4598,7 +4598,7 @@ cluster_86  = listing "Lexicon's properties"
 
  |> "^ghArqand" <| [
 
-    Identity                  `noun`    {- jhAroqanod -}       [ "" {- "Jharkhand" -} ] ]
+    Identity                  `noun`    {- jhAroqanod -}       [ "Jharkhand" ] ]
 
  |> "^gibill" <| [
 
@@ -4622,7 +4622,7 @@ cluster_86  = listing "Lexicon's properties"
 
  |> "^gilliq" <| [
 
-    Identity                  `noun`    {- jil~iq -}           [ unwords [ "" {- "Damascus" -}, "(", "old", "name", ")" ] ] ]
+    Identity                  `noun`    {- jil~iq -}           [ unwords [ "Damascus", "(", "old", "name", ")" ] ] ]
 
  |> "^gilyUtIn" <| [
 
@@ -4630,7 +4630,7 @@ cluster_86  = listing "Lexicon's properties"
 
  |> "^ginIf" <| [
 
-    Identity                  `noun`    {- jiniyf -}           [ "" {- "Geneva" -} ] ]
+    Identity                  `noun`    {- jiniyf -}           [ "Geneva" ] ]
 
  |> "^ginIh" <| [
 
@@ -4638,25 +4638,25 @@ cluster_86  = listing "Lexicon's properties"
 
  |> "^ginIn" <| [
 
-    Identity                  `noun`    {- jiniyn -}           [ "" {- "Jenin" -} ] ]
+    Identity                  `noun`    {- jiniyn -}           [ "Jenin" ] ]
 
  |> "^ginIrAl" <| [
 
-    Identity                  `noun`    {- jiniyrAl -}         [ "" {- "General" -} ] ]
+    Identity                  `noun`    {- jiniyrAl -}         [ "General" ] ]
 
  |> "^ginirAl" <| [
 
-    Identity                  `noun`    {- jinirAl -}          [ "" {- "General" -} ],
+    Identity                  `noun`    {- jinirAl -}          [ "General" ],
 
     Identity                  `noun`    {- jinirAl -}          [ "general" ] ]
 
  |> "^giryas" <| [
 
-    Identity                  `noun`    {- jiroyas -}          [ "" {- "Jirias" -}, "" {- "Gerias" -} ] ]
+    Identity                  `noun`    {- jiroyas -}          [ "Jirias", "Gerias" ] ]
 
  |> "^giyAn.g" <| [
 
-    Identity                  `noun`    {- jiyAnog -}          [ "" {- "Jiyang" -} ] ]
+    Identity                  `noun`    {- jiyAnog -}          [ "Jiyang" ] ]
 
  |> "^giyU.grAf" <| [
 
@@ -4668,7 +4668,7 @@ cluster_86  = listing "Lexicon's properties"
 
  |> "^giyUfAnI" <| [
 
-    Identity                  `noun`    {- jiyuwfAniy -}       [ "" {- "Giovanni" -} ] ]
+    Identity                  `noun`    {- jiyuwfAniy -}       [ "Giovanni" ] ]
 
 
 cluster_87  = listing "Lexicon's properties"
@@ -4718,7 +4718,7 @@ cluster_87  = listing "Lexicon's properties"
 
  |> "^grInit^s" <| [
 
-    Identity                  `noun`    {- jriynito$ -}        [ "" {- "Greenwich" -} ] ]
+    Identity                  `noun`    {- jriynito$ -}        [ "Greenwich" ] ]
 
  |> "^grUs" <| [
 
@@ -4730,7 +4730,7 @@ cluster_87  = listing "Lexicon's properties"
 
  |> "^gu.hA" <| [
 
-    Identity                  `noun`    {- juHA -}             [ "" {- "Juha" -} ] ]
+    Identity                  `noun`    {- juHA -}             [ "Juha" ] ]
 
  |> "^gul^gulAn" <| [
 
@@ -4746,9 +4746,9 @@ cluster_87  = listing "Lexicon's properties"
 
  |> "^gunblA.t" <| [
 
-    Identity                  `noun`    {- junoblAT -}         [ "" {- "Jumblatt" -} ],
+    Identity                  `noun`    {- junoblAT -}         [ "Jumblatt" ],
 
-    Identity |< Iy            `adj`     {- junoblATiy~ -}      [ "" {- "Jumblattist" -} ] ]
+    Identity |< Iy            `adj`     {- junoblATiy~ -}      [ "Jumblattist" ] ]
 
 
 cluster_88  = listing "Lexicon's properties"
@@ -4760,37 +4760,37 @@ cluster_88  = listing "Lexicon's properties"
 
  |> "^guwAtImAl" <| [
 
-    Identity |< Iy            `adj`     {- juwAtiymAliy~ -}    [ "" {- "Guatemalan" -} ] ]
+    Identity |< Iy            `adj`     {- juwAtiymAliy~ -}    [ "Guatemalan" ] ]
 
  |> "^guwAtImAlA" <| [
 
-    Identity                  `noun`    {- juwAtiymAlA -}      [ "" {- "Guatemala" -} ] ]
+    Identity                  `noun`    {- juwAtiymAlA -}      [ "Guatemala" ] ]
 
  |> "^guwIlI" <| [
 
-    Identity                  `noun`    {- juwiyliy -}         [ "" {- "July" -} ] ]
+    Identity                  `noun`    {- juwiyliy -}         [ "July" ] ]
 
  |> "^gwAntanAmU" <| [
 
-    Identity                  `noun`    {- jwAnotanAmuw -}     [ "" {- "Guantanamo" -} ] ]
+    Identity                  `noun`    {- jwAnotanAmuw -}     [ "Guantanamo" ] ]
 
  |> "^gwrdAn" <| [
 
-    Identity                  `noun`    {- jwrdAn -}           [ "" {- "Jordan" -} ] ]
+    Identity                  `noun`    {- jwrdAn -}           [ "Jordan" ] ]
 
  |> "^gyms" <| [
 
-    Identity                  `noun`    {- jyms -}             [ "" {- "James" -} ] ]
+    Identity                  `noun`    {- jyms -}             [ "James" ] ]
 
  |> "^gymz" <| [
 
-    Identity                  `noun`    {- jymz -}             [ "" {- "James" -} ] ]
+    Identity                  `noun`    {- jymz -}             [ "James" ] ]
 
  |> "^gyt" <| [
 
-    Identity                  `noun`    {- jyt -}              [ "" {- "Gate" -} ],
+    Identity                  `noun`    {- jyt -}              [ "Gate" ],
 
-    Identity                  `noun`    {- jyt -}              [ "" {- "Jet" -} ] ]
+    Identity                  `noun`    {- jyt -}              [ "Jet" ] ]
 
  |> "mA^garY" <| [
 
@@ -4798,7 +4798,7 @@ cluster_88  = listing "Lexicon's properties"
 
  |> "mu^gaddidI" <| [
 
-    Identity                  `noun`    {- mujad~idiy -}       [ "" {- "Mojaddedi" -}, "" {- "Mujaddedi" -} ] ]
+    Identity                  `noun`    {- mujad~idiy -}       [ "Mojaddedi", "Mujaddedi" ] ]
 
  |> "ta^gill" <| [
 

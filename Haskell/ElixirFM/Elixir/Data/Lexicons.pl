@@ -655,7 +655,7 @@ sub showWords ($$) {
     $data =~ s/^\"//;
     $data =~ s/\"$//;
 
-    my $null = $morphs =~ /Identity/ && not defined $include;
+    my $null = 0;   # $morphs =~ /Identity/ && not defined $include
 
     my @data = split ' ', $data;
 

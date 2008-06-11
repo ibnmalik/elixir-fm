@@ -14,7 +14,7 @@ cluster_1   = listing "Lexicon's properties"
 
  |> "'asmarAn" <| [
 
-    Identity |< Iy            `adj`     {- OasomarAniy~ -}     [ "" {- "Asmarani" -} ] ]
+    Identity |< Iy            `adj`     {- OasomarAniy~ -}     [ "Asmarani" ] ]
 
  |> "'isk" <| [
 
@@ -36,7 +36,7 @@ cluster_1   = listing "Lexicon's properties"
 
  |> "s" <| [
 
-    Identity |< At            `noun`    {- sAt -}              [ unwords [ "" {- "Sat" -}, "(", "" {- "Satellite" -}, ")" ] ] ]
+    Identity |< At            `noun`    {- sAt -}              [ unwords [ "Sat", "(", "Satellite", ")" ] ] ]
 
  |> "s ' .g" <| [
 

@@ -18,11 +18,11 @@ cluster_1   = listing "Lexicon's properties"
 
  |> "'ifran^g" <| [
 
-    Identity                  `noun`    {- Iiforanoj -}        [ "westerners", "" {- "Europeans" -} ],
+    Identity                  `noun`    {- Iiforanoj -}        [ "westerners", "Europeans" ],
 
-    Identity |< Iy            `noun`    {- Iiforanojiy~ -}     [ "westerner", "" {- "European" -} ],
+    Identity |< Iy            `noun`    {- Iiforanojiy~ -}     [ "westerner", "European" ],
 
-    Identity |< Iy            `adj`     {- Iiforanojiy~ -}     [ "westerner", "" {- "European" -} ] ]
+    Identity |< Iy            `adj`     {- Iiforanojiy~ -}     [ "westerner", "European" ] ]
 
  |> "'uf`uwAn" <| [
 

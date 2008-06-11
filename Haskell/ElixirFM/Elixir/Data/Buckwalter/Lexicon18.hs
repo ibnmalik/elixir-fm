@@ -7059,7 +7059,7 @@ cluster_141 = listing "Lexicon's properties"
 
  |> "`A^g^gUr" <| [
 
-    Identity |< Iy            `adj`     {- EAj~uwriy~ -}       [ "" {- "Ajjouri" -} ] ]
+    Identity |< Iy            `adj`     {- EAj~uwriy~ -}       [ "Ajjouri" ] ]
 
  |> "`AlamAn" <| [
 
@@ -7079,15 +7079,15 @@ cluster_141 = listing "Lexicon's properties"
 
  |> "`IdarUs" <| [
 
-    Identity                  `noun`    {- Eiydaruws -}        [ "" {- "Eidarous" -} ] ]
+    Identity                  `noun`    {- Eiydaruws -}        [ "Eidarous" ] ]
 
  |> "`Ufr" <| [
 
-    Identity |< aT            `noun`    {- Euwforap -}         [ "" {- "Ofra" -} ] ]
+    Identity |< aT            `noun`    {- Euwforap -}         [ "Ofra" ] ]
 
  |> "`a.tAAlll_ah" <| [
 
-    Identity                  `noun`    {- EaTAAll~`h -}       [ "" {- "Attallah" -} ] ]
+    Identity                  `noun`    {- EaTAAll~`h -}       [ "Attallah" ] ]
 
  |> "`a.ta^s^g" <| [
 
@@ -7099,43 +7099,43 @@ cluster_141 = listing "Lexicon's properties"
 
  |> "`a^srAwI" <| [
 
-    Identity                  `noun`    {- Ea$orAwiy -}        [ "" {- "Ashrawi" -} ] ]
+    Identity                  `noun`    {- Ea$orAwiy -}        [ "Ashrawi" ] ]
 
  |> "`abAdAn" <| [
 
-    Identity                  `noun`    {- EabAdAn -}          [ "" {- "Abadan" -} ] ]
+    Identity                  `noun`    {- EabAdAn -}          [ "Abadan" ] ]
 
  |> "`abdAl'amIr" <| [
 
-    Identity                  `noun`    {- EabodAlOamiyr -}    [ unwords [ "" {- "Abdel" -}, "" {- "Amir" -} ] ] ]
+    Identity                  `noun`    {- EabodAlOamiyr -}    [ unwords [ "Abdel", "Amir" ] ] ]
 
  |> "`abdAl'ilah" <| [
 
-    Identity                  `noun`    {- EabodAlIilah -}     [ unwords [ "" {- "Abdel" -}, "" {- "Ilah" -} ] ] ]
+    Identity                  `noun`    {- EabodAlIilah -}     [ unwords [ "Abdel", "Ilah" ] ] ]
 
  |> "`abdAl.gafUr" <| [
 
-    Identity                  `noun`    {- EabodAlgafuwr -}    [ unwords [ "" {- "Abdel" -}, "" {- "Ghafour" -} ] ] ]
+    Identity                  `noun`    {- EabodAlgafuwr -}    [ unwords [ "Abdel", "Ghafour" ] ] ]
 
  |> "`abdAl.gaffAr" <| [
 
-    Identity                  `noun`    {- EabodAlgaf~Ar -}    [ unwords [ "" {- "Abdel" -}, "" {- "Ghaffar" -} ] ] ]
+    Identity                  `noun`    {- EabodAlgaf~Ar -}    [ unwords [ "Abdel", "Ghaffar" ] ] ]
 
  |> "`abdAl.gan" <| [
 
-    Identity |< Iy            `adj`     {- EabodAlganiy~ -}    [ unwords [ "" {- "Abdel" -}, "" {- "Ghani" -} ] ] ]
+    Identity |< Iy            `adj`     {- EabodAlganiy~ -}    [ unwords [ "Abdel", "Ghani" ] ] ]
 
  |> "`abdAl.hAfi.z" <| [
 
-    Identity                  `noun`    {- EabodAlHAfiZ -}     [ unwords [ "" {- "Abdel" -}, "" {- "Hafiz" -} ] ] ]
+    Identity                  `noun`    {- EabodAlHAfiZ -}     [ unwords [ "Abdel", "Hafiz" ] ] ]
 
  |> "`abdAl.hAkim" <| [
 
-    Identity                  `noun`    {- EabodAlHAkim -}     [ unwords [ "" {- "Abdel" -}, "" {- "Hakim" -} ] ] ]
+    Identity                  `noun`    {- EabodAlHAkim -}     [ unwords [ "Abdel", "Hakim" ] ] ]
 
  |> "`abdAl.hAri_t" <| [
 
-    Identity                  `noun`    {- EabodAlHAriv -}     [ unwords [ "" {- "Abdel" -}, "" {- "Harith" -} ] ] ]
+    Identity                  `noun`    {- EabodAlHAriv -}     [ unwords [ "Abdel", "Harith" ] ] ]
 
 
 cluster_142 = listing "Lexicon's properties"
@@ -7143,83 +7143,83 @@ cluster_142 = listing "Lexicon's properties"
 
  |> "`abdAl.habIb" <| [
 
-    Identity                  `noun`    {- EabodAlHabiyb -}    [ unwords [ "" {- "Abdel" -}, "" {- "Habib" -} ] ] ]
+    Identity                  `noun`    {- EabodAlHabiyb -}    [ unwords [ "Abdel", "Habib" ] ] ]
 
  |> "`abdAl.hafI.z" <| [
 
-    Identity                  `noun`    {- EabodAlHafiyZ -}    [ unwords [ "" {- "Abdel" -}, "" {- "Hafeez" -} ] ] ]
+    Identity                  `noun`    {- EabodAlHafiyZ -}    [ unwords [ "Abdel", "Hafeez" ] ] ]
 
  |> "`abdAl.hakIm" <| [
 
-    Identity                  `noun`    {- EabodAlHakiym -}    [ unwords [ "" {- "Abdel" -}, "" {- "Hakeem" -} ] ] ]
+    Identity                  `noun`    {- EabodAlHakiym -}    [ unwords [ "Abdel", "Hakeem" ] ] ]
 
  |> "`abdAl.hakam" <| [
 
-    Identity                  `noun`    {- EabodAlHakam -}     [ unwords [ "" {- "Abdel" -}, "" {- "Hakam" -} ] ] ]
+    Identity                  `noun`    {- EabodAlHakam -}     [ unwords [ "Abdel", "Hakam" ] ] ]
 
  |> "`abdAl.halIm" <| [
 
-    Identity                  `noun`    {- EabodAlHaliym -}    [ unwords [ "" {- "Abdel" -}, "" {- "Haleem" -} ] ] ]
+    Identity                  `noun`    {- EabodAlHaliym -}    [ unwords [ "Abdel", "Haleem" ] ] ]
 
  |> "`abdAl.hamId" <| [
 
-    Identity                  `noun`    {- EabodAlHamiyd -}    [ unwords [ "" {- "Abdel" -}, "" {- "Hameed" -} ] ] ]
+    Identity                  `noun`    {- EabodAlHamiyd -}    [ unwords [ "Abdel", "Hameed" ] ] ]
 
  |> "`abdAl.haqq" <| [
 
-    Identity                  `noun`    {- EabodAlHaq~ -}      [ unwords [ "" {- "Abdel" -}, "" {- "Haqq" -} ] ] ]
+    Identity                  `noun`    {- EabodAlHaq~ -}      [ unwords [ "Abdel", "Haqq" ] ] ]
 
  |> "`abdAl.hasIb" <| [
 
-    Identity                  `noun`    {- EabodAlHasiyb -}    [ unwords [ "" {- "Abdel" -}, "" {- "Haseeb" -} ] ] ]
+    Identity                  `noun`    {- EabodAlHasiyb -}    [ unwords [ "Abdel", "Haseeb" ] ] ]
 
  |> "`abdAl.hasan" <| [
 
-    Identity                  `noun`    {- EabodAlHasan -}     [ unwords [ "" {- "Abdel" -}, "" {- "Hassan" -} ] ] ]
+    Identity                  `noun`    {- EabodAlHasan -}     [ unwords [ "Abdel", "Hassan" ] ] ]
 
  |> "`abdAl.hayy" <| [
 
-    Identity                  `noun`    {- EabodAlHay~ -}      [ unwords [ "" {- "Abdel" -}, "" {- "Hay" -} ] ] ]
+    Identity                  `noun`    {- EabodAlHay~ -}      [ unwords [ "Abdel", "Hay" ] ] ]
 
  |> "`abdAl.husayn" <| [
 
-    Identity                  `noun`    {- EabodAlHusayon -}   [ unwords [ "" {- "Abdel" -}, "" {- "Hussein" -} ] ] ]
+    Identity                  `noun`    {- EabodAlHusayon -}   [ unwords [ "Abdel", "Hussein" ] ] ]
 
  |> "`abdAl.sA.hib" <| [
 
-    Identity                  `noun`    {- EabodAlSAHib -}     [ unwords [ "" {- "Abdel" -}, "" {- "Sahib" -} ] ] ]
+    Identity                  `noun`    {- EabodAlSAHib -}     [ unwords [ "Abdel", "Sahib" ] ] ]
 
  |> "`abdAl.sAdiq" <| [
 
-    Identity                  `noun`    {- EabodAlSAdiq -}     [ unwords [ "" {- "Abdel" -}, "" {- "Sadiq" -} ] ] ]
+    Identity                  `noun`    {- EabodAlSAdiq -}     [ unwords [ "Abdel", "Sadiq" ] ] ]
 
  |> "`abdAl.sabUr" <| [
 
-    Identity                  `noun`    {- EabodAlSabuwr -}    [ unwords [ "" {- "Abdel" -}, "" {- "Sabour" -} ] ] ]
+    Identity                  `noun`    {- EabodAlSabuwr -}    [ unwords [ "Abdel", "Sabour" ] ] ]
 
  |> "`abdAl.samad" <| [
 
-    Identity                  `noun`    {- EabodAlSamad -}     [ unwords [ "" {- "Abdel" -}, "" {- "Samad" -} ] ] ]
+    Identity                  `noun`    {- EabodAlSamad -}     [ unwords [ "Abdel", "Samad" ] ] ]
 
  |> "`abdAl.zAhir" <| [
 
-    Identity                  `noun`    {- EabodAlZAhir -}     [ unwords [ "" {- "Abdel" -}, "" {- "Zahir" -} ] ] ]
+    Identity                  `noun`    {- EabodAlZAhir -}     [ unwords [ "Abdel", "Zahir" ] ] ]
 
  |> "`abdAl^gAbir" <| [
 
-    Identity                  `noun`    {- EabodAljAbir -}     [ unwords [ "" {- "Abdel" -}, "" {- "Jabir" -} ] ] ]
+    Identity                  `noun`    {- EabodAljAbir -}     [ unwords [ "Abdel", "Jabir" ] ] ]
 
  |> "`abdAl^gabbAr" <| [
 
-    Identity                  `noun`    {- EabodAljab~Ar -}    [ unwords [ "" {- "Abdel" -}, "" {- "Jabbar" -} ] ] ]
+    Identity                  `noun`    {- EabodAljab~Ar -}    [ unwords [ "Abdel", "Jabbar" ] ] ]
 
  |> "`abdAl^galIl" <| [
 
-    Identity                  `noun`    {- EabodAljaliyl -}    [ unwords [ "" {- "Abdel" -}, "" {- "Jalil" -} ] ] ]
+    Identity                  `noun`    {- EabodAljaliyl -}    [ unwords [ "Abdel", "Jalil" ] ] ]
 
  |> "`abdAl^gawAd" <| [
 
-    Identity                  `noun`    {- EabodAljawAd -}     [ unwords [ "" {- "Abdel" -}, "" {- "Jawad" -} ] ] ]
+    Identity                  `noun`    {- EabodAljawAd -}     [ unwords [ "Abdel", "Jawad" ] ] ]
 
 
 cluster_143 = listing "Lexicon's properties"
@@ -7227,83 +7227,83 @@ cluster_143 = listing "Lexicon's properties"
 
  |> "`abdAl^sAfI" <| [
 
-    Identity                  `noun`    {- EabodAl$Afiy -}     [ unwords [ "" {- "Abdel" -}, "" {- "Shafi" -} ] ] ]
+    Identity                  `noun`    {- EabodAl$Afiy -}     [ unwords [ "Abdel", "Shafi" ] ] ]
 
  |> "`abdAl^safI`" <| [
 
-    Identity                  `noun`    {- EabodAl$afiyE -}    [ unwords [ "" {- "Abdel" -}, "" {- "Shafee" -} ] ] ]
+    Identity                  `noun`    {- EabodAl$afiyE -}    [ unwords [ "Abdel", "Shafee" ] ] ]
 
  |> "`abdAl^sakUr" <| [
 
-    Identity                  `noun`    {- EabodAl$akuwr -}    [ unwords [ "" {- "Abdel" -}, "" {- "Shakour" -} ] ] ]
+    Identity                  `noun`    {- EabodAl$akuwr -}    [ unwords [ "Abdel", "Shakour" ] ] ]
 
  |> "`abdAl_hAliq" <| [
 
-    Identity                  `noun`    {- EabodAlxAliq -}     [ unwords [ "" {- "Abdel" -}, "" {- "Khaliq" -} ] ] ]
+    Identity                  `noun`    {- EabodAlxAliq -}     [ unwords [ "Abdel", "Khaliq" ] ] ]
 
  |> "`abdAl`.zIm" <| [
 
-    Identity                  `noun`    {- EabodAlEZiym -}     [ unwords [ "" {- "Abdel" -}, "" {- "Azeem" -} ] ] ]
+    Identity                  `noun`    {- EabodAlEZiym -}     [ unwords [ "Abdel", "Azeem" ] ] ]
 
  |> "`abdAl`A.tI" <| [
 
-    Identity                  `noun`    {- EabodAlEATiy -}     [ unwords [ "" {- "Abdel" -}, "" {- "Aati" -} ] ] ]
+    Identity                  `noun`    {- EabodAlEATiy -}     [ unwords [ "Abdel", "Aati" ] ] ]
 
  |> "`abdAl`Al" <| [
 
-    Identity                  `noun`    {- EabodAlEAl -}       [ unwords [ "" {- "Abdel" -}, "" {- "Aal" -} ] ] ]
+    Identity                  `noun`    {- EabodAlEAl -}       [ unwords [ "Abdel", "Aal" ] ] ]
 
  |> "`abdAl`Alim" <| [
 
-    Identity                  `noun`    {- EabodAlEAlim -}     [ unwords [ "" {- "Abdel" -}, "" {- "Alim" -} ] ] ]
+    Identity                  `noun`    {- EabodAlEAlim -}     [ unwords [ "Abdel", "Alim" ] ] ]
 
  |> "`abdAl`abbAs" <| [
 
-    Identity                  `noun`    {- EabodAlEab~As -}    [ unwords [ "" {- "Abdel" -}, "" {- "Abbas" -} ] ] ]
+    Identity                  `noun`    {- EabodAlEab~As -}    [ unwords [ "Abdel", "Abbas" ] ] ]
 
  |> "`abdAl`azIz" <| [
 
-    Identity                  `noun`    {- EabodAlEaziyz -}    [ unwords [ "" {- "Abdel" -}, "" {- "Aziz" -} ] ] ]
+    Identity                  `noun`    {- EabodAlEaziyz -}    [ unwords [ "Abdel", "Aziz" ] ] ]
 
  |> "`abdAl`izz" <| [
 
-    Identity                  `noun`    {- EabodAlEiz~ -}      [ unwords [ "" {- "Abdel" -}, "" {- "Izz" -} ] ] ]
+    Identity                  `noun`    {- EabodAlEiz~ -}      [ unwords [ "Abdel", "Izz" ] ] ]
 
  |> "`abdAl`l" <| [
 
-    Identity |< Iy            `adj`     {- EabodAlEliy~ -}     [ unwords [ "" {- "Abdel" -}, "" {- "Ali" -} ] ] ]
+    Identity |< Iy            `adj`     {- EabodAlEliy~ -}     [ unwords [ "Abdel", "Ali" ] ] ]
 
  |> "`abdAl`lIm" <| [
 
-    Identity                  `noun`    {- EabodAlEliym -}     [ unwords [ "" {- "Abdel" -}, "" {- "Aleem" -} ] ] ]
+    Identity                  `noun`    {- EabodAlEliym -}     [ unwords [ "Abdel", "Aleem" ] ] ]
 
  |> "`abdAlbAqI" <| [
 
-    Identity                  `noun`    {- EabodAlbAqiy -}     [ unwords [ "" {- "Abdel" -}, "" {- "Baqi" -} ] ] ]
+    Identity                  `noun`    {- EabodAlbAqiy -}     [ unwords [ "Abdel", "Baqi" ] ] ]
 
  |> "`abdAlbArI" <| [
 
-    Identity                  `noun`    {- EabodAlbAriy -}     [ unwords [ "" {- "Abdel" -}, "" {- "Bari" -} ] ] ]
+    Identity                  `noun`    {- EabodAlbAriy -}     [ unwords [ "Abdel", "Bari" ] ] ]
 
  |> "`abdAlbAsi.t" <| [
 
-    Identity                  `noun`    {- EabodAlbAsiT -}     [ unwords [ "" {- "Abdel" -}, "" {- "Basit" -} ] ] ]
+    Identity                  `noun`    {- EabodAlbAsiT -}     [ unwords [ "Abdel", "Basit" ] ] ]
 
  |> "`abdAlbadI`" <| [
 
-    Identity                  `noun`    {- EabodAlbadiyE -}    [ unwords [ "" {- "Abdel" -}, "" {- "Badii" -} ] ] ]
+    Identity                  `noun`    {- EabodAlbadiyE -}    [ unwords [ "Abdel", "Badii" ] ] ]
 
  |> "`abdAldA'im" <| [
 
-    Identity                  `noun`    {- EabodAldA}im -}     [ unwords [ "" {- "Abdel" -}, "" {- "Daim" -} ] ] ]
+    Identity                  `noun`    {- EabodAldA}im -}     [ unwords [ "Abdel", "Daim" ] ] ]
 
  |> "`abdAldAfi`" <| [
 
-    Identity                  `noun`    {- EabodAldAfiE -}     [ unwords [ "" {- "Abdel" -}, "" {- "Dafi" -} ] ] ]
+    Identity                  `noun`    {- EabodAldAfiE -}     [ unwords [ "Abdel", "Dafi" ] ] ]
 
  |> "`abdAldAr" <| [
 
-    Identity                  `noun`    {- EabodAldAr -}       [ unwords [ "" {- "Abdel" -}, "" {- "Dar" -} ] ] ]
+    Identity                  `noun`    {- EabodAldAr -}       [ unwords [ "Abdel", "Dar" ] ] ]
 
 
 cluster_144 = listing "Lexicon's properties"
@@ -7311,81 +7311,81 @@ cluster_144 = listing "Lexicon's properties"
 
  |> "`abdAldAyim" <| [
 
-    Identity                  `noun`    {- EabodAldAyim -}     [ unwords [ "" {- "Abdel" -}, "" {- "Dayim" -} ] ] ]
+    Identity                  `noun`    {- EabodAldAyim -}     [ unwords [ "Abdel", "Dayim" ] ] ]
 
  |> "`abdAlfA.dil" <| [
 
-    Identity                  `noun`    {- EabodAlfADil -}     [ unwords [ "" {- "Abdel" -}, "" {- "Fadil" -} ] ] ]
+    Identity                  `noun`    {- EabodAlfADil -}     [ unwords [ "Abdel", "Fadil" ] ] ]
 
  |> "`abdAlfa.dIl" <| [
 
-    Identity                  `noun`    {- EabodAlfaDiyl -}    [ unwords [ "" {- "Abdel" -}, "" {- "Fadeel" -} ] ] ]
+    Identity                  `noun`    {- EabodAlfaDiyl -}    [ unwords [ "Abdel", "Fadeel" ] ] ]
 
  |> "`abdAlfahIm" <| [
 
-    Identity                  `noun`    {- EabodAlfahiym -}    [ unwords [ "" {- "Abdel" -}, "" {- "Faheem" -} ] ] ]
+    Identity                  `noun`    {- EabodAlfahiym -}    [ unwords [ "Abdel", "Faheem" ] ] ]
 
  |> "`abdAlfattA.h" <| [
 
-    Identity                  `noun`    {- EabodAlfat~AH -}    [ unwords [ "" {- "Abdel" -}, "" {- "Fattah" -} ] ] ]
+    Identity                  `noun`    {- EabodAlfat~AH -}    [ unwords [ "Abdel", "Fattah" ] ] ]
 
  |> "`abdAlhA^sim" <| [
 
-    Identity                  `noun`    {- EabodAlhA$im -}     [ unwords [ "" {- "Abdel" -}, "" {- "Hashim" -} ] ] ]
+    Identity                  `noun`    {- EabodAlhA$im -}     [ unwords [ "Abdel", "Hashim" ] ] ]
 
  |> "`abdAlhAdI" <| [
 
-    Identity                  `noun`    {- EabodAlhAdiy -}     [ unwords [ "" {- "Abdel" -}, "" {- "Hadi" -} ] ] ]
+    Identity                  `noun`    {- EabodAlhAdiy -}     [ unwords [ "Abdel", "Hadi" ] ] ]
 
  |> "`abdAlkAfI" <| [
 
-    Identity                  `noun`    {- EabodAlkAfiy -}     [ unwords [ "" {- "Abdel" -}, "" {- "Kafi" -} ] ] ]
+    Identity                  `noun`    {- EabodAlkAfiy -}     [ unwords [ "Abdel", "Kafi" ] ] ]
 
  |> "`abdAlkabIr" <| [
 
-    Identity                  `noun`    {- EabodAlkabiyr -}    [ unwords [ "" {- "Abdel" -}, "" {- "Kabeer" -} ] ] ]
+    Identity                  `noun`    {- EabodAlkabiyr -}    [ unwords [ "Abdel", "Kabeer" ] ] ]
 
  |> "`abdAlkarIm" <| [
 
-    Identity                  `noun`    {- EabodAlkariym -}    [ unwords [ "" {- "Abdel" -}, "" {- "Kareem" -} ] ] ]
+    Identity                  `noun`    {- EabodAlkariym -}    [ unwords [ "Abdel", "Kareem" ] ] ]
 
  |> "`abdAllAwI" <| [
 
-    Identity                  `noun`    {- EabodAllAwiy -}     [ "" {- "Abdallawi" -} ] ]
+    Identity                  `noun`    {- EabodAllAwiy -}     [ "Abdallawi" ] ]
 
  |> "`abdAlla.tIf" <| [
 
-    Identity                  `noun`    {- EabodAllaTiyf -}    [ unwords [ "" {- "Abdel" -}, "" {- "Lateef" -} ] ],
+    Identity                  `noun`    {- EabodAllaTiyf -}    [ unwords [ "Abdel", "Lateef" ] ],
 
-    Identity |< Iy            `adj`     {- EabodAllaTiyfiy~ -} [ unwords [ "" {- "Abdel" -}, "" {- "Lateefi" -} ] ] ]
+    Identity |< Iy            `adj`     {- EabodAllaTiyfiy~ -} [ unwords [ "Abdel", "Lateefi" ] ] ]
 
  |> "`abdAlll_ah" <| [
 
-    Identity                  `noun`    {- EabodAll~`h -}      [ "" {- "Abdallah" -} ] ]
+    Identity                  `noun`    {- EabodAll~`h -}      [ "Abdallah" ] ]
 
  |> "`abdAlmA^gid" <| [
 
-    Identity                  `noun`    {- EabodAlmAjid -}     [ unwords [ "" {- "Abdel" -}, "" {- "Majid" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmAjid -}     [ unwords [ "Abdel", "Majid" ] ] ]
 
  |> "`abdAlmAlik" <| [
 
-    Identity                  `noun`    {- EabodAlmAlik -}     [ unwords [ "" {- "Abdel" -}, "" {- "Malik" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmAlik -}     [ unwords [ "Abdel", "Malik" ] ] ]
 
  |> "`abdAlma'mUn" <| [
 
-    Identity                  `noun`    {- EabodAlmaOomuwn -}  [ unwords [ "" {- "Abdel" -}, "" {- "Ma'moun" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmaOomuwn -}  [ unwords [ "Abdel", "Ma'moun" ] ] ]
 
  |> "`abdAlma.hmUd" <| [
 
-    Identity                  `noun`    {- EabodAlmaHomuwd -}  [ unwords [ "" {- "Abdel" -}, "" {- "Mahmoud" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmaHomuwd -}  [ unwords [ "Abdel", "Mahmoud" ] ] ]
 
  |> "`abdAlma^gId" <| [
 
-    Identity                  `noun`    {- EabodAlmajiyd -}    [ unwords [ "" {- "Abdel" -}, "" {- "Majeed" -} ], unwords [ "" {- "Abdel" -}, "" {- "Meguid" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmajiyd -}    [ unwords [ "Abdel", "Majeed" ], unwords [ "Abdel", "Meguid" ] ] ]
 
  |> "`abdAlmahdI" <| [
 
-    Identity                  `noun`    {- EabodAlmahodiy -}   [ unwords [ "" {- "Abdel" -}, "" {- "Mahdi" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmahodiy -}   [ unwords [ "Abdel", "Mahdi" ] ] ]
 
 
 cluster_145 = listing "Lexicon's properties"
@@ -7393,83 +7393,83 @@ cluster_145 = listing "Lexicon's properties"
 
  |> "`abdAlmalAk" <| [
 
-    Identity                  `noun`    {- EabodAlmalAk -}     [ unwords [ "" {- "Abdel" -}, "" {- "Malak" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmalAk -}     [ unwords [ "Abdel", "Malak" ] ] ]
 
  |> "`abdAlmalik" <| [
 
-    Identity                  `noun`    {- EabodAlmalik -}     [ unwords [ "" {- "Abdel" -}, "" {- "Malik" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmalik -}     [ unwords [ "Abdel", "Malik" ] ] ]
 
  |> "`abdAlmanIn" <| [
 
-    Identity                  `noun`    {- EabodAlmaniyn -}    [ unwords [ "" {- "Abdel" -}, "" {- "Maneen" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmaniyn -}    [ unwords [ "Abdel", "Maneen" ] ] ]
 
  |> "`abdAlmannAn" <| [
 
-    Identity                  `noun`    {- EabodAlman~An -}    [ unwords [ "" {- "Abdel" -}, "" {- "Mannan" -} ] ] ]
+    Identity                  `noun`    {- EabodAlman~An -}    [ unwords [ "Abdel", "Mannan" ] ] ]
 
  |> "`abdAlmaq.sUd" <| [
 
-    Identity                  `noun`    {- EabodAlmaqoSuwd -}  [ unwords [ "" {- "Abdel" -}, "" {- "Maqsoud" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmaqoSuwd -}  [ unwords [ "Abdel", "Maqsoud" ] ] ]
 
  |> "`abdAlmasI.h" <| [
 
-    Identity                  `noun`    {- EabodAlmasiyH -}    [ unwords [ "" {- "Abdel" -}, "" {- "Maseeh" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmasiyH -}    [ unwords [ "Abdel", "Maseeh" ] ] ]
 
  |> "`abdAlmaw^gUd" <| [
 
-    Identity                  `noun`    {- EabodAlmawojuwd -}  [ unwords [ "" {- "Abdel" -}, "" {- "Mawjoud" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmawojuwd -}  [ unwords [ "Abdel", "Mawjoud" ] ] ]
 
  |> "`abdAlmawlY" <| [
 
-    Identity                  `noun`    {- EabodAlmawolaY -}   [ unwords [ "" {- "Abdel" -}, "" {- "Mawla" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmawolaY -}   [ unwords [ "Abdel", "Mawla" ] ] ]
 
  |> "`abdAlmu'min" <| [
 
-    Identity                  `noun`    {- EabodAlmuWomin -}   [ unwords [ "" {- "Abdel" -}, "" {- "Mu'min" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmuWomin -}   [ unwords [ "Abdel", "Mu'min" ] ] ]
 
  |> "`abdAlmu.gI_t" <| [
 
-    Identity                  `noun`    {- EabodAlmugiyv -}    [ unwords [ "" {- "Abdel" -}, "" {- "Mugheeth" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmugiyv -}    [ unwords [ "Abdel", "Mugheeth" ] ] ]
 
  |> "`abdAlmu.hsin" <| [
 
-    Identity                  `noun`    {- EabodAlmuHosin -}   [ unwords [ "" {- "Abdel" -}, "" {- "Muhsin" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmuHosin -}   [ unwords [ "Abdel", "Muhsin" ] ] ]
 
  |> "`abdAlmu.t.talib" <| [
 
-    Identity                  `noun`    {- EabodAlmuT~alib -}  [ unwords [ "" {- "Abdel" -}, "" {- "Muttalib" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmuT~alib -}  [ unwords [ "Abdel", "Muttalib" ] ] ]
 
  |> "`abdAlmu`.tI" <| [
 
-    Identity                  `noun`    {- EabodAlmuEoTiy -}   [ unwords [ "" {- "Abdel" -}, "" {- "Mu'ti" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmuEoTiy -}   [ unwords [ "Abdel", "Mu'ti" ] ] ]
 
  |> "`abdAlmu`In" <| [
 
-    Identity                  `noun`    {- EabodAlmuEiyn -}    [ unwords [ "" {- "Abdel" -}, "" {- "Mueen" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmuEiyn -}    [ unwords [ "Abdel", "Mueen" ] ] ]
 
  |> "`abdAlmuhaymin" <| [
 
-    Identity                  `noun`    {- EabodAlmuhayomin -} [ unwords [ "" {- "Abdel" -}, "" {- "Muhaymin" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmuhayomin -} [ unwords [ "Abdel", "Muhaymin" ] ] ]
 
  |> "`abdAlmun.sif" <| [
 
-    Identity                  `noun`    {- EabodAlmunoSif -}   [ unwords [ "" {- "Abdel" -}, "" {- "Munsif" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmunoSif -}   [ unwords [ "Abdel", "Munsif" ] ] ]
 
  |> "`abdAlmun`im" <| [
 
-    Identity                  `noun`    {- EabodAlmunoEim -}   [ unwords [ "" {- "Abdel" -}, "" {- "Munim" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmunoEim -}   [ unwords [ "Abdel", "Munim" ] ] ]
 
  |> "`abdAlmuta`AlI" <| [
 
-    Identity                  `noun`    {- EabodAlmutaEAliy -} [ unwords [ "" {- "Abdel" -}, "" {- "Mutaali" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmutaEAliy -} [ unwords [ "Abdel", "Mutaali" ] ] ]
 
  |> "`abdAlmuwallI" <| [
 
-    Identity                  `noun`    {- EabodAlmuwal~iy -}  [ unwords [ "" {- "Abdel" -}, "" {- "Muwalli" -} ] ] ]
+    Identity                  `noun`    {- EabodAlmuwal~iy -}  [ unwords [ "Abdel", "Muwalli" ] ] ]
 
  |> "`abdAlnA.sir" <| [
 
-    Identity                  `noun`    {- EabodAlnASir -}     [ unwords [ "" {- "Abdel" -}, "" {- "Nasser" -} ] ] ]
+    Identity                  `noun`    {- EabodAlnASir -}     [ unwords [ "Abdel", "Nasser" ] ] ]
 
 
 cluster_146 = listing "Lexicon's properties"
@@ -7477,83 +7477,83 @@ cluster_146 = listing "Lexicon's properties"
 
  |> "`abdAlnAfi`" <| [
 
-    Identity                  `noun`    {- EabodAlnAfiE -}     [ unwords [ "" {- "Abdel" -}, "" {- "Nafee" -} ] ] ]
+    Identity                  `noun`    {- EabodAlnAfiE -}     [ unwords [ "Abdel", "Nafee" ] ] ]
 
  |> "`abdAlnUr" <| [
 
-    Identity                  `noun`    {- EabodAlnuwr -}      [ unwords [ "" {- "Abdel" -}, "" {- "Nour" -} ] ] ]
+    Identity                  `noun`    {- EabodAlnuwr -}      [ unwords [ "Abdel", "Nour" ] ] ]
 
  |> "`abdAlna`Im" <| [
 
-    Identity                  `noun`    {- EabodAlnaEiym -}    [ unwords [ "" {- "Abdel" -}, "" {- "Naeem" -} ] ] ]
+    Identity                  `noun`    {- EabodAlnaEiym -}    [ unwords [ "Abdel", "Naeem" ] ] ]
 
  |> "`abdAlnab" <| [
 
-    Identity |< Iy            `adj`     {- EabodAlnabiy~ -}    [ unwords [ "" {- "Abdel" -}, "" {- "Nabi" -} ] ] ]
+    Identity |< Iy            `adj`     {- EabodAlnabiy~ -}    [ unwords [ "Abdel", "Nabi" ] ] ]
 
  |> "`abdAlqAdir" <| [
 
-    Identity                  `noun`    {- EabodAlqAdir -}     [ unwords [ "" {- "Abdel" -}, "" {- "Qadir" -} ] ] ]
+    Identity                  `noun`    {- EabodAlqAdir -}     [ unwords [ "Abdel", "Qadir" ] ] ]
 
  |> "`abdAlqAhir" <| [
 
-    Identity                  `noun`    {- EabodAlqAhir -}     [ unwords [ "" {- "Abdel" -}, "" {- "Qahir" -} ] ] ]
+    Identity                  `noun`    {- EabodAlqAhir -}     [ unwords [ "Abdel", "Qahir" ] ] ]
 
  |> "`abdAlqAsim" <| [
 
-    Identity                  `noun`    {- EabodAlqAsim -}     [ unwords [ "" {- "Abdel" -}, "" {- "Qasim" -} ] ] ]
+    Identity                  `noun`    {- EabodAlqAsim -}     [ unwords [ "Abdel", "Qasim" ] ] ]
 
  |> "`abdAlqY" <| [
 
-    Identity |< Iy            `adj`     {- EabodAlqawiy~ -}    [ unwords [ "" {- "Abdel" -}, "" {- "Qawi" -} ] ] ]
+    Identity |< Iy            `adj`     {- EabodAlqawiy~ -}    [ unwords [ "Abdel", "Qawi" ] ] ]
 
  |> "`abdAlqadIr" <| [
 
-    Identity                  `noun`    {- EabodAlqadiyr -}    [ unwords [ "" {- "Abdel" -}, "" {- "Qadeer" -} ] ] ]
+    Identity                  `noun`    {- EabodAlqadiyr -}    [ unwords [ "Abdel", "Qadeer" ] ] ]
 
  |> "`abdAlqays" <| [
 
-    Identity                  `noun`    {- EabodAlqayos -}     [ unwords [ "" {- "Abdel" -}, "" {- "Qays" -} ] ] ]
+    Identity                  `noun`    {- EabodAlqayos -}     [ unwords [ "Abdel", "Qays" ] ] ]
 
  |> "`abdAlqayyUm" <| [
 
-    Identity                  `noun`    {- EabodAlqay~uwm -}   [ unwords [ "" {- "Abdel" -}, "" {- "Qayyoum" -} ] ] ]
+    Identity                  `noun`    {- EabodAlqay~uwm -}   [ unwords [ "Abdel", "Qayyoum" ] ] ]
 
  |> "`abdAlquddUs" <| [
 
-    Identity                  `noun`    {- EabodAlqud~uws -}   [ unwords [ "" {- "Abdel" -}, "" {- "Quddous" -} ] ] ]
+    Identity                  `noun`    {- EabodAlqud~uws -}   [ unwords [ "Abdel", "Quddous" ] ] ]
 
  |> "`abdAlrA.dI" <| [
 
-    Identity                  `noun`    {- EabodAlrADiy -}     [ unwords [ "" {- "Abdel" -}, "" {- "Radi" -} ] ] ]
+    Identity                  `noun`    {- EabodAlrADiy -}     [ unwords [ "Abdel", "Radi" ] ] ]
 
  |> "`abdAlrAfi`" <| [
 
-    Identity                  `noun`    {- EabodAlrAfiE -}     [ unwords [ "" {- "Abdel" -}, "" {- "Rafi" -} ] ] ]
+    Identity                  `noun`    {- EabodAlrAfiE -}     [ unwords [ "Abdel", "Rafi" ] ] ]
 
  |> "`abdAlrAziq" <| [
 
-    Identity                  `noun`    {- EabodAlrAziq -}     [ unwords [ "" {- "Abdel" -}, "" {- "Raziq" -} ] ] ]
+    Identity                  `noun`    {- EabodAlrAziq -}     [ unwords [ "Abdel", "Raziq" ] ] ]
 
  |> "`abdAlra'Uf" <| [
 
-    Identity                  `noun`    {- EabodAlraWuwf -}    [ unwords [ "" {- "Abdel" -}, "" {- "Raouf" -} ] ] ]
+    Identity                  `noun`    {- EabodAlraWuwf -}    [ unwords [ "Abdel", "Raouf" ] ] ]
 
  |> "`abdAlra.hIm" <| [
 
-    Identity                  `noun`    {- EabodAlraHiym -}    [ unwords [ "" {- "Abdel" -}, "" {- "Raheem" -} ] ] ]
+    Identity                  `noun`    {- EabodAlraHiym -}    [ unwords [ "Abdel", "Raheem" ] ] ]
 
  |> "`abdAlra.hmAn" <| [
 
-    Identity                  `noun`    {- EabodAlraHomAn -}   [ unwords [ "" {- "Abdel" -}, "" {- "Rahman" -} ] ] ]
+    Identity                  `noun`    {- EabodAlraHomAn -}   [ unwords [ "Abdel", "Rahman" ] ] ]
 
  |> "`abdAlra.hmAnI" <| [
 
-    Identity                  `noun`    {- EabodAlraHomAniy -} [ unwords [ "" {- "Abdel" -}, "" {- "Rahmani" -} ] ] ]
+    Identity                  `noun`    {- EabodAlraHomAniy -} [ unwords [ "Abdel", "Rahmani" ] ] ]
 
  |> "`abdAlra.hman" <| [
 
-    Identity                  `noun`    {- EabodAlraHoman -}   [ unwords [ "" {- "Abdel" -}, "" {- "Rahman" -} ] ] ]
+    Identity                  `noun`    {- EabodAlraHoman -}   [ unwords [ "Abdel", "Rahman" ] ] ]
 
 
 cluster_147 = listing "Lexicon's properties"
@@ -7561,83 +7561,83 @@ cluster_147 = listing "Lexicon's properties"
 
  |> "`abdAlra^sId" <| [
 
-    Identity                  `noun`    {- EabodAlra$iyd -}    [ unwords [ "" {- "Abdel" -}, "" {- "Rasheed" -} ] ] ]
+    Identity                  `noun`    {- EabodAlra$iyd -}    [ unwords [ "Abdel", "Rasheed" ] ] ]
 
  |> "`abdAlrabb" <| [
 
-    Identity                  `noun`    {- EabodAlrab~ -}      [ unwords [ "" {- "Abdel" -}, "" {- "Rabb" -} ] ] ]
+    Identity                  `noun`    {- EabodAlrab~ -}      [ unwords [ "Abdel", "Rabb" ] ] ]
 
  |> "`abdAlraqIb" <| [
 
-    Identity                  `noun`    {- EabodAlraqiyb -}    [ unwords [ "" {- "Abdel" -}, "" {- "Raqeeb" -} ] ] ]
+    Identity                  `noun`    {- EabodAlraqiyb -}    [ unwords [ "Abdel", "Raqeeb" ] ] ]
 
  |> "`abdAlrasUl" <| [
 
-    Identity                  `noun`    {- EabodAlrasuwl -}    [ unwords [ "" {- "Abdel" -}, "" {- "Rasoul" -} ] ] ]
+    Identity                  `noun`    {- EabodAlrasuwl -}    [ unwords [ "Abdel", "Rasoul" ] ] ]
 
  |> "`abdAlrazzAq" <| [
 
-    Identity                  `noun`    {- EabodAlraz~Aq -}    [ unwords [ "" {- "Abdel" -}, "" {- "Razzaq" -} ] ] ]
+    Identity                  `noun`    {- EabodAlraz~Aq -}    [ unwords [ "Abdel", "Razzaq" ] ] ]
 
  |> "`abdAlri.dA" <| [
 
-    Identity                  `noun`    {- EabodAlriDA -}      [ unwords [ "" {- "Abdel" -}, "" {- "Rida" -} ] ] ]
+    Identity                  `noun`    {- EabodAlriDA -}      [ unwords [ "Abdel", "Rida" ] ] ]
 
  |> "`abdAlri.dY" <| [
 
-    Identity                  `noun`    {- EabodAlriDaY -}     [ unwords [ "" {- "Abdel" -}, "" {- "Rida" -} ] ] ]
+    Identity                  `noun`    {- EabodAlriDaY -}     [ unwords [ "Abdel", "Rida" ] ] ]
 
  |> "`abdAlsAtir" <| [
 
-    Identity                  `noun`    {- EabodAlsAtir -}     [ unwords [ "" {- "Abdel" -}, "" {- "Satir" -} ] ] ]
+    Identity                  `noun`    {- EabodAlsAtir -}     [ unwords [ "Abdel", "Satir" ] ] ]
 
  |> "`abdAlsalAm" <| [
 
-    Identity                  `noun`    {- EabodAlsalAm -}     [ unwords [ "" {- "Abdel" -}, "" {- "Salam" -} ] ] ]
+    Identity                  `noun`    {- EabodAlsalAm -}     [ unwords [ "Abdel", "Salam" ] ] ]
 
  |> "`abdAlsamI`" <| [
 
-    Identity                  `noun`    {- EabodAlsamiyE -}    [ unwords [ "" {- "Abdel" -}, "" {- "Samee" -} ] ] ]
+    Identity                  `noun`    {- EabodAlsamiyE -}    [ unwords [ "Abdel", "Samee" ] ] ]
 
  |> "`abdAlsattAr" <| [
 
-    Identity                  `noun`    {- EabodAlsat~Ar -}    [ unwords [ "" {- "Abdel" -}, "" {- "Sattar" -} ] ] ]
+    Identity                  `noun`    {- EabodAlsat~Ar -}    [ unwords [ "Abdel", "Sattar" ] ] ]
 
  |> "`abdAlsayyid" <| [
 
-    Identity                  `noun`    {- EabodAlsay~id -}    [ unwords [ "" {- "Abdel" -}, "" {- "Sayyid" -} ] ] ]
+    Identity                  `noun`    {- EabodAlsay~id -}    [ unwords [ "Abdel", "Sayyid" ] ] ]
 
  |> "`abdAltawwAb" <| [
 
-    Identity                  `noun`    {- EabodAltaw~Ab -}    [ unwords [ "" {- "Abdel" -}, "" {- "Tawwab" -} ] ] ]
+    Identity                  `noun`    {- EabodAltaw~Ab -}    [ unwords [ "Abdel", "Tawwab" ] ] ]
 
  |> "`abdAlwA.hid" <| [
 
-    Identity                  `noun`    {- EabodAlwAHid -}     [ unwords [ "" {- "Abdel" -}, "" {- "Wahid" -} ] ] ]
+    Identity                  `noun`    {- EabodAlwAHid -}     [ unwords [ "Abdel", "Wahid" ] ] ]
 
  |> "`abdAlwAlI" <| [
 
-    Identity                  `noun`    {- EabodAlwAliy -}     [ unwords [ "" {- "Abdel" -}, "" {- "Wali" -} ] ] ]
+    Identity                  `noun`    {- EabodAlwAliy -}     [ unwords [ "Abdel", "Wali" ] ] ]
 
  |> "`abdAlwAri_t" <| [
 
-    Identity                  `noun`    {- EabodAlwAriv -}     [ unwords [ "" {- "Abdel" -}, "" {- "Warith" -} ] ] ]
+    Identity                  `noun`    {- EabodAlwAriv -}     [ unwords [ "Abdel", "Warith" ] ] ]
 
  |> "`abdAlwAsi`" <| [
 
-    Identity                  `noun`    {- EabodAlwAsiE -}     [ unwords [ "" {- "Abdel" -}, "" {- "Wasee" -} ] ] ]
+    Identity                  `noun`    {- EabodAlwAsiE -}     [ unwords [ "Abdel", "Wasee" ] ] ]
 
  |> "`abdAlwa.hId" <| [
 
-    Identity                  `noun`    {- EabodAlwaHiyd -}    [ unwords [ "" {- "Abdel" -}, "" {- "Waheed" -} ] ] ]
+    Identity                  `noun`    {- EabodAlwaHiyd -}    [ unwords [ "Abdel", "Waheed" ] ] ]
 
  |> "`abdAlwadUd" <| [
 
-    Identity                  `noun`    {- EabodAlwaduwd -}    [ unwords [ "" {- "Abdel" -}, "" {- "Wadoud" -} ] ] ]
+    Identity                  `noun`    {- EabodAlwaduwd -}    [ unwords [ "Abdel", "Wadoud" ] ] ]
 
  |> "`abdAlwahhAb" <| [
 
-    Identity                  `noun`    {- EabodAlwah~Ab -}    [ unwords [ "" {- "Abdel" -}, "" {- "Wahhab" -} ] ] ]
+    Identity                  `noun`    {- EabodAlwah~Ab -}    [ unwords [ "Abdel", "Wahhab" ] ] ]
 
 
 cluster_148 = listing "Lexicon's properties"
@@ -7645,43 +7645,43 @@ cluster_148 = listing "Lexicon's properties"
 
  |> "`abdAlwakIl" <| [
 
-    Identity                  `noun`    {- EabodAlwakiyl -}    [ unwords [ "" {- "Abdel" -}, "" {- "Wakeel" -} ] ] ]
+    Identity                  `noun`    {- EabodAlwakiyl -}    [ unwords [ "Abdel", "Wakeel" ] ] ]
 
  |> "`abdAlwal" <| [
 
-    Identity |< Iy            `adj`     {- EabodAlwaliy~ -}    [ unwords [ "" {- "Abdel" -}, "" {- "Wali" -} ] ] ]
+    Identity |< Iy            `adj`     {- EabodAlwaliy~ -}    [ unwords [ "Abdel", "Wali" ] ] ]
 
  |> "`abdAlwalId" <| [
 
-    Identity                  `noun`    {- EabodAlwaliyd -}    [ unwords [ "" {- "Abdel" -}, "" {- "Waleed" -} ] ] ]
+    Identity                  `noun`    {- EabodAlwaliyd -}    [ unwords [ "Abdel", "Waleed" ] ] ]
 
  |> "`abdAlzahr" <| [
 
-    Identity |< aT            `noun`    {- EabodAlzahorap -}   [ unwords [ "" {- "Abdel" -}, "" {- "Zahra" -} ] ] ]
+    Identity |< aT            `noun`    {- EabodAlzahorap -}   [ unwords [ "Abdel", "Zahra" ] ] ]
 
  |> "`abdalAwI" <| [
 
-    Identity                  `noun`    {- EabodalAwiy -}      [ "" {- "Abdallawi" -} ] ]
+    Identity                  `noun`    {- EabodalAwiy -}      [ "Abdallawi" ] ]
 
  |> "`abdalI" <| [
 
-    Identity                  `noun`    {- Eabodaliy -}        [ "" {- "Abdali" -} ] ]
+    Identity                  `noun`    {- Eabodaliy -}        [ "Abdali" ] ]
 
  |> "`abduh" <| [
 
-    Identity                  `noun`    {- Eaboduh -}          [ "" {- "Abdo" -}, "" {- "Abduh" -} ] ]
+    Identity                  `noun`    {- Eaboduh -}          [ "Abdo", "Abduh" ] ]
 
  |> "`abidrabbuh" <| [
 
-    Identity                  `noun`    {- Eabidorab~uh -}     [ "" {- "Abedrabboh" -}, "" {- "Abidrabbuh" -} ] ]
+    Identity                  `noun`    {- Eabidorab~uh -}     [ "Abedrabboh", "Abidrabbuh" ] ]
 
  |> "`alA'AlddIn" <| [
 
-    Identity                  `noun`    {- EalA'Ald~iyn -}     [ unwords [ "" {- "Alaa" -}, "" {- "Eddin" -} ], unwords [ "" {- "Alaa" -}, "" {- "Al" -}, "-", "" {- "Din" -} ], "" {- "Aladdin" -} ] ]
+    Identity                  `noun`    {- EalA'Ald~iyn -}     [ unwords [ "Alaa", "Eddin" ], unwords [ "Alaa", "Al", "-", "Din" ], "Aladdin" ] ]
 
  |> "`amIrAm" <| [
 
-    Identity                  `noun`    {- EamiyrAm -}         [ "" {- "Amiram" -} ] ]
+    Identity                  `noun`    {- EamiyrAm -}         [ "Amiram" ] ]
 
  |> "`ammA" <| [
 
@@ -7689,13 +7689,13 @@ cluster_148 = listing "Lexicon's properties"
 
  |> "`amrw" <| [
 
-    Identity                  `noun`    {- Eamorw -}           [ "" {- "Amr" -} ] ]
+    Identity                  `noun`    {- Eamorw -}           [ "Amr" ] ]
 
  |> "`andalIb" <| [
 
     Identity                  `noun`    {- Eanodaliyb -}       [ "nightingale" ],
 
-    Identity                  `noun`    {- Eanodaliyb -}       [ "" {- "Andalib" -} ] ]
+    Identity                  `noun`    {- Eanodaliyb -}       [ "Andalib" ] ]
 
  |> "`ankabUt" <| [
 
@@ -7707,11 +7707,11 @@ cluster_148 = listing "Lexicon's properties"
 
  |> "`arabs" <| [
 
-    Identity |< At            `noun`    {- EarabosAt -}        [ "" {- "Arabsat" -} ] ]
+    Identity |< At            `noun`    {- EarabosAt -}        [ "Arabsat" ] ]
 
  |> "`arafA'" <| [
 
-    Identity |< Iy            `adj`     {- EarafAwiy~ -}       [ "" {- "Arfaoui" -}, "" {- "Arafawi" -} ] ]
+    Identity |< Iy            `adj`     {- EarafAwiy~ -}       [ "Arfaoui", "Arafawi" ] ]
 
  |> "`arba_hAn" <| [
 
@@ -7723,11 +7723,11 @@ cluster_149 = listing "Lexicon's properties"
 
  |> "`artA" <| [
 
-    Identity                  `noun`    {- EarotA -}           [ "" {- "Arta" -} ] ]
+    Identity                  `noun`    {- EarotA -}           [ "Arta" ] ]
 
  |> "`asqalAn" <| [
 
-    Identity                  `noun`    {- EasoqalAn -}        [ "" {- "Ashkelon" -} ] ]
+    Identity                  `noun`    {- EasoqalAn -}        [ "Ashkelon" ] ]
 
  |> "`aysalAn" <| [
 
@@ -7743,7 +7743,7 @@ cluster_149 = listing "Lexicon's properties"
 
  |> "`immAnU'Il" <| [
 
-    Identity                  `noun`    {- Eim~Anuw}iyl -}     [ "" {- "Emmanuel" -} ] ]
+    Identity                  `noun`    {- Eim~Anuw}iyl -}     [ "Emmanuel" ] ]
 
  |> "`inda'i_diN" <| [
 
@@ -7763,37 +7763,37 @@ cluster_149 = listing "Lexicon's properties"
 
  |> "`izrA'Il" <| [
 
-    Identity                  `noun`    {- EizorA}iyl -}       [ "" {- "Azrael" -} ] ]
+    Identity                  `noun`    {- EizorA}iyl -}       [ "Azrael" ] ]
 
  |> "`izzAlddIn" <| [
 
-    Identity                  `noun`    {- Eiz~Ald~iyn -}      [ "" {- "Ezzedin" -}, unwords [ "" {- "Izz" -}, "" {- "Al" -}, "-", "" {- "Din" -} ] ] ]
+    Identity                  `noun`    {- Eiz~Ald~iyn -}      [ "Ezzedin", unwords [ "Izz", "Al", "-", "Din" ] ] ]
 
  |> "`izzat" <| [
 
-    Identity                  `noun`    {- Eiz~at -}           [ "" {- "Izzat" -}, "" {- "Ezzat" -} ] ]
+    Identity                  `noun`    {- Eiz~at -}           [ "Izzat", "Ezzat" ] ]
 
  |> "`u.smAnl" <| [
 
-    Identity |< Iy            `adj`     {- EuSomAnoliy~ -}     [ "" {- "Ottoman" -}, unwords [ "old", "-", "fashioned" ] ] ]
+    Identity |< Iy            `adj`     {- EuSomAnoliy~ -}     [ "Ottoman", unwords [ "old", "-", "fashioned" ] ] ]
 
  |> "`u.tArid" <| [
 
-    Identity                  `noun`    {- EuTArid -}          [ "" {- "Mercury" -} ],
+    Identity                  `noun`    {- EuTArid -}          [ "Mercury" ],
 
-    Identity |< Iy            `adj`     {- EuTAridiy~ -}       [ "" {- "Mercury" -}, "" {- "Mercurial" -} ] ]
+    Identity |< Iy            `adj`     {- EuTAridiy~ -}       [ "Mercury", "Mercurial" ] ]
 
  |> "`u_taymIn" <| [
 
-    Identity                  `noun`    {- Euvayomiyn -}       [ "" {- "Uthaimeen" -} ] ]
+    Identity                  `noun`    {- Euvayomiyn -}       [ "Uthaimeen" ] ]
 
  |> "`ubaydAllh" <| [
 
-    Identity                  `noun`    {- EubayodAllh -}      [ "" {- "Obeidullah" -}, "" {- "Obaidullah" -}, "" {- "Ubeidullah" -}, "" {- "Ubaidullah" -} ] ]
+    Identity                  `noun`    {- EubayodAllh -}      [ "Obeidullah", "Obaidullah", "Ubeidullah", "Ubaidullah" ] ]
 
  |> "`ubaydl" <| [
 
-    Identity |< Iy            `adj`     {- Eubayodoliy~ -}     [ "" {- "Ubaidli" -} ] ]
+    Identity |< Iy            `adj`     {- Eubayodoliy~ -}     [ "Ubaidli" ] ]
 
 
 cluster_150 = listing "Lexicon's properties"
@@ -7821,7 +7821,7 @@ cluster_150 = listing "Lexicon's properties"
 
  |> "`uwayrAn" <| [
 
-    Identity                  `noun`    {- EuwayorAn -}        [ "" {- "Oweiran" -} ] ]
+    Identity                  `noun`    {- EuwayorAn -}        [ "Oweiran" ] ]
 
  |> "la`all" <| [
 
@@ -7829,17 +7829,17 @@ cluster_150 = listing "Lexicon's properties"
 
  |> "ma`madAn" <| [
 
-    Identity                  `noun`    {- maEomadAn -}        [ "" {- "Baptist" -} ],
+    Identity                  `noun`    {- maEomadAn -}        [ "Baptist" ],
 
-    Identity |< Iy            `adj`     {- maEomadAniy~ -}     [ "" {- "Baptist" -} ] ]
+    Identity |< Iy            `adj`     {- maEomadAniy~ -}     [ "Baptist" ] ]
 
  |> "mawA`izIz" <| [
 
-    Identity                  `noun`    {- mawAEiziyz -}       [ "" {- "Moaziz" -} ] ]
+    Identity                  `noun`    {- mawAEiziyz -}       [ "Moaziz" ] ]
 
  |> "mu`allA" <| [
 
-    Identity                  `noun`    {- muEal~A -}          [ "" {- "Mualla" -} ] ]
+    Identity                  `noun`    {- muEal~A -}          [ "Mualla" ] ]
 
  |> "ta`bA'" <| [
 
@@ -7855,7 +7855,7 @@ cluster_150 = listing "Lexicon's properties"
 
  |> "ta`izz" <| [
 
-    Identity                  `noun`    {- taEiz~ -}           [ "" {- "Taizz" -} ] ]
+    Identity                  `noun`    {- taEiz~ -}           [ "Taizz" ] ]
 
  |> "ya`bUb" <| [
 
@@ -7863,7 +7863,7 @@ cluster_150 = listing "Lexicon's properties"
 
  |> "ya`bud" <| [
 
-    Identity                  `noun`    {- yaEobud -}          [ "" {- "Yabud" -} ] ]
+    Identity                  `noun`    {- yaEobud -}          [ "Yabud" ] ]
 
  |> "ya`fUr" <| [
 
@@ -7871,7 +7871,7 @@ cluster_150 = listing "Lexicon's properties"
 
  |> "ya`qUb" <| [
 
-    Identity                  `noun`    {- yaEoquwb -}         [ "" {- "Yaqoub" -}, "" {- "Jacob" -} ] ]
+    Identity                  `noun`    {- yaEoquwb -}         [ "Yaqoub", "Jacob" ] ]
 
 
 section = [ cluster_1,

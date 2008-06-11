@@ -14,11 +14,11 @@ cluster_1   = listing "Lexicon's properties"
 
  |> "mAyazAl" <| [
 
-    Identity                  `part`    {- mAyazAl -}          [ unwords [ "not", "+", "stop", "/", "cease", "+", "he", "/", "it", "(", "he", "/", "it", "continues", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "it", "/", "she", "/", "they", "(", "it", "/", "she", "/", "they", "continue", "(", "s", ")", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "" {- "I" -}, "(", "" {- "I" -}, "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "we", "(", "we", "continue", ")" ] ] ]
+    Identity                  `part`    {- mAyazAl -}          [ unwords [ "not", "+", "stop", "/", "cease", "+", "he", "/", "it", "(", "he", "/", "it", "continues", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "it", "/", "she", "/", "they", "(", "it", "/", "she", "/", "they", "continue", "(", "s", ")", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "I", "(", "I", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "we", "(", "we", "continue", ")" ] ] ]
 
  |> "mAzAl" <| [
 
-    Identity |<< "a"          `part`    {- mAzAla -}           [ unwords [ "not", "+", "stop", "/", "cease", "+", "he", "/", "it", "(", "he", "/", "it", "continues", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "it", "/", "she", "/", "they", "(", "it", "/", "she", "/", "they", "continue", "(", "s", ")", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "" {- "I" -}, "(", "" {- "I" -}, "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "we", "(", "we", "continue", ")" ] ] ]
+    Identity |<< "a"          `part`    {- mAzAla -}           [ unwords [ "not", "+", "stop", "/", "cease", "+", "he", "/", "it", "(", "he", "/", "it", "continues", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "it", "/", "she", "/", "they", "(", "it", "/", "she", "/", "they", "continue", "(", "s", ")", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "I", "(", "I", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "we", "(", "we", "continue", ")" ] ] ]
 
  |> "mazra`An" <| [
 
@@ -26,7 +26,7 @@ cluster_1   = listing "Lexicon's properties"
 
  |> "yazAl" <| [
 
-    lA >| Identity            `part`    {- lAyazAl -}          [ unwords [ "not", "+", "stop", "/", "cease", "+", "he", "/", "it", "(", "he", "/", "it", "continues", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "it", "/", "she", "/", "they", "(", "it", "/", "she", "/", "they", "continue", "(", "s", ")", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "" {- "I" -}, "(", "" {- "I" -}, "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "we", "(", "we", "continue", ")" ] ] ]
+    lA >| Identity            `part`    {- lAyazAl -}          [ unwords [ "not", "+", "stop", "/", "cease", "+", "he", "/", "it", "(", "he", "/", "it", "continues", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "they", "(", "they", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "it", "/", "she", "/", "they", "(", "it", "/", "she", "/", "they", "continue", "(", "s", ")", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "you", "(", "you", "both", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "I", "(", "I", "continue", ")" ], unwords [ "not", "+", "stop", "/", "cease", "+", "we", "(", "we", "continue", ")" ] ] ]
 
  |> "z  '" <| [
 
@@ -2462,51 +2462,51 @@ cluster_49  = listing "Lexicon's properties"
 
  |> "zA'Ir" <| [
 
-    Identity                  `noun`    {- zA}iyr -}           [ "" {- "Zaire" -} ] ]
+    Identity                  `noun`    {- zA}iyr -}           [ "Zaire" ] ]
 
  |> "zA^gUrA" <| [
 
-    Identity                  `noun`    {- zAjuwrA -}          [ "" {- "Zagora" -} ] ]
+    Identity                  `noun`    {- zAjuwrA -}          [ "Zagora" ] ]
 
  |> "zAbAlItA" <| [
 
-    Identity                  `noun`    {- zAbAliytA -}        [ "" {- "Zabaleta" -} ] ]
+    Identity                  `noun`    {- zAbAliytA -}        [ "Zabaleta" ] ]
 
  |> "zAmbiyA" <| [
 
-    Identity                  `noun`    {- zAmobiyA -}         [ "" {- "Zambia" -} ] ]
+    Identity                  `noun`    {- zAmobiyA -}         [ "Zambia" ] ]
 
  |> "zAmbuwAn.gA" <| [
 
-    Identity                  `noun`    {- zAmobuwAnogA -}     [ "" {- "Zamboanga" -} ] ]
+    Identity                  `noun`    {- zAmobuwAnogA -}     [ "Zamboanga" ] ]
 
  |> "zAyst" <| [
 
-    Identity                  `noun`    {- zAyst -}            [ "" {- "Zeist" -} ] ]
+    Identity                  `noun`    {- zAyst -}            [ "Zeist" ] ]
 
  |> "zIfAdInUfIt^s" <| [
 
-    Identity                  `noun`    {- ziyfAdiynuwfiyt$ -} [ "" {- "Zivadinovic" -} ] ]
+    Identity                  `noun`    {- ziyfAdiynuwfiyt$ -} [ "Zivadinovic" ] ]
 
  |> "zIlAnd" <| [
 
-    Identity |< Iy            `adj`     {- ziylAnodiy~ -}      [ "" {- "Zealander" -} ] ]
+    Identity |< Iy            `adj`     {- ziylAnodiy~ -}      [ "Zealander" ] ]
 
  |> "zIlAndA" <| [
 
-    Identity                  `noun`    {- ziylAnodA -}        [ "" {- "Zealand" -} ] ]
+    Identity                  `noun`    {- ziylAnodA -}        [ "Zealand" ] ]
 
  |> "zIlIkU" <| [
 
-    Identity                  `noun`    {- ziyliykuw -}        [ "" {- "Zeljko" -} ] ]
+    Identity                  `noun`    {- ziyliykuw -}        [ "Zeljko" ] ]
 
  |> "zImbAbw" <| [
 
-    Identity |< Iy            `adj`     {- ziymobAbowiy~ -}    [ "" {- "Zimbabwean" -} ] ]
+    Identity |< Iy            `adj`     {- ziymobAbowiy~ -}    [ "Zimbabwean" ] ]
 
  |> "zImbAbwI" <| [
 
-    Identity                  `noun`    {- ziymobAbowiy -}     [ "" {- "Zimbabwe" -} ] ]
+    Identity                  `noun`    {- ziymobAbowiy -}     [ "Zimbabwe" ] ]
 
  |> "zInkU" <| [
 
@@ -2534,11 +2534,11 @@ cluster_50  = listing "Lexicon's properties"
 
  |> "zakarIyA" <| [
 
-    Identity                  `noun`    {- zakariy~A -}        [ "" {- "Zakariya" -}, "" {- "Zecharia" -} ] ]
+    Identity                  `noun`    {- zakariy~A -}        [ "Zakariya", "Zecharia" ] ]
 
  |> "zakariyA'" <| [
 
-    Identity                  `noun`    {- zakariyA' -}        [ "" {- "Zacharias" -}, "" {- "Zechariah" -} ] ]
+    Identity                  `noun`    {- zakariyA' -}        [ "Zacharias", "Zechariah" ] ]
 
  |> "zamharIr" <| [
 
@@ -2546,11 +2546,11 @@ cluster_50  = listing "Lexicon's properties"
 
  |> "zan.gAnih" <| [
 
-    Identity                  `noun`    {- zanogAnih -}        [ "" {- "Zanganeh" -} ] ]
+    Identity                  `noun`    {- zanogAnih -}        [ "Zanganeh" ] ]
 
  |> "zan^gabAr" <| [
 
-    Identity                  `noun`    {- zanojabAr -}        [ "" {- "Zanzibar" -} ] ]
+    Identity                  `noun`    {- zanojabAr -}        [ "Zanzibar" ] ]
 
  |> "zan^gabIl" <| [
 
@@ -2566,13 +2566,13 @@ cluster_50  = listing "Lexicon's properties"
 
  |> "zanzala_ht" <| [
 
-    Identity                  `noun`    {- zanozalaxot -}      [ unwords [ "" {- "China" -}, "tree" ] ] ]
+    Identity                  `noun`    {- zanozalaxot -}      [ unwords [ "China", "tree" ] ] ]
 
  |> "zarAdu^st" <| [
 
-    Identity                  `noun`    {- zarAdu$ot -}        [ "" {- "Zoroaster" -} ],
+    Identity                  `noun`    {- zarAdu$ot -}        [ "Zoroaster" ],
 
-    Identity |< Iy            `adj`     {- zarAdu$otiy~ -}     [ "" {- "Zoroastrian" -}, "" {- "Zoroastrianism" -} ] ]
+    Identity |< Iy            `adj`     {- zarAdu$otiy~ -}     [ "Zoroastrian", "Zoroastrianism" ] ]
 
  |> "zayzafUn" <| [
 
@@ -2580,7 +2580,7 @@ cluster_50  = listing "Lexicon's properties"
 
  |> "zhAn^giyAn.g" <| [
 
-    Identity                  `noun`    {- zhAnjiyAng -}       [ unwords [ "" {- "Zhan" -}, "-", "" {- "Jiang" -} ] ] ]
+    Identity                  `noun`    {- zhAnjiyAng -}       [ unwords [ "Zhan", "-", "Jiang" ] ] ]
 
  |> "zi'baq" <| [
 
@@ -2614,7 +2614,7 @@ cluster_51  = listing "Lexicon's properties"
 
  |> "zuwAn.g" <| [
 
-    Identity                  `noun`    {- zuwAng -}           [ "" {- "Zhuang" -} ] ]
+    Identity                  `noun`    {- zuwAng -}           [ "Zhuang" ] ]
 
 
 section = [ cluster_1,

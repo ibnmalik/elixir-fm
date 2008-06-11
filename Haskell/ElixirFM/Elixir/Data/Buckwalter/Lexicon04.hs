@@ -1079,7 +1079,7 @@ cluster_21  = listing "Lexicon's properties"
 
  |> "_tUrb" <| [
 
-    Identity                  `noun`    {- vuwrb -}            [ "" {- "Thorpe" -} ] ]
+    Identity                  `noun`    {- vuwrb -}            [ "Thorpe" ] ]
 
  |> "_tUriyUm" <| [
 
@@ -1087,11 +1087,11 @@ cluster_21  = listing "Lexicon's properties"
 
  |> "_tUrmUnt" <| [
 
-    Identity                  `noun`    {- vuwromuwnot -}      [ "" {- "Thurmont" -} ] ]
+    Identity                  `noun`    {- vuwromuwnot -}      [ "Thurmont" ] ]
 
  |> "_ta`Alab" <| [
 
-    Identity |< Iy            `adj`     {- vaEAlabiy~ -}       [ "" {- "Tha'alabi" -} ] ]
+    Identity |< Iy            `adj`     {- vaEAlabiy~ -}       [ "Tha'alabi" ] ]
 
  |> "_talA_tmA'" <| [
 
@@ -1111,17 +1111,17 @@ cluster_22  = listing "Lexicon's properties"
 
  |> "_tiyU" <| [
 
-    Identity                  `noun`    {- viyuw -}            [ "" {- "Theo" -} ] ]
+    Identity                  `noun`    {- viyuw -}            [ "Theo" ] ]
 
  |> "_tulA_tA'" <| [
 
-    Identity                  `noun`    {- vulAvA' -}          [ "" {- "Tuesday" -} ] ]
+    Identity                  `noun`    {- vulAvA' -}          [ "Tuesday" ] ]
 
  |> "_turayyA" <| [
 
-    Identity                  `noun`    {- vuray~A -}          [ "" {- "Thuraya" -}, "" {- "Suraya" -}, "" {- "Surayya" -}, "" {- "Thurayya" -} ],
+    Identity                  `noun`    {- vuray~A -}          [ "Thuraya", "Suraya", "Surayya", "Thurayya" ],
 
-    Identity                  `noun`    {- vuray~A -}          [ "" {- "Pleiades" -} ] ]
+    Identity                  `noun`    {- vuray~A -}          [ "Pleiades" ] ]
 
  |> "biAlAi_tnatay" <| [
 
@@ -1157,7 +1157,7 @@ cluster_22  = listing "Lexicon's properties"
 
  |> "i_tnayn" <| [
 
-    Identity |<< "i"          `noun`    {- Aivonayoni -}       [ "" {- "Monday" -} ] ]
+    Identity |<< "i"          `noun`    {- Aivonayoni -}       [ "Monday" ] ]
 
  |> "kaAlAi_tnatay" <| [
 

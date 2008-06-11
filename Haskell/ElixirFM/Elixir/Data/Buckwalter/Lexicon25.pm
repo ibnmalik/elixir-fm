@@ -160,7 +160,7 @@ $Lexicon = {
       'lines' => [
         ';; nakod_1',
         'nakod   N       hardship;trouble',
-        '>anokAd N       hardships;troubles'
+        'OanokAd N       hardships;troubles'
       ],
       'patterns' => {
         '\'ankAd' => [
@@ -214,7 +214,7 @@ $Lexicon = {
       'lines' => [
         ';; nakid_2',
         'nakid   N/ap    irritable;bad-tempered',
-        '>anokAd N       irritable;bad-tempered',
+        'OanokAd N       irritable;bad-tempered',
         'manAkiyd        Ndip    irritable;bad-tempered'
       ],
       'patterns' => {
@@ -241,8 +241,8 @@ $Lexicon = {
       'entry' => '\'ankad',
       'form' => '\'ankad',
       'lines' => [
-        ';; >anokad_1',
-        '>anokad Nel     troublesome;painful'
+        ';; Oanokad_1',
+        'Oanokad Nel     troublesome;painful'
       ],
       'patterns' => {},
       'index' => '1',
@@ -393,8 +393,8 @@ $Lexicon = {
       'entry' => '\'anqa.s',
       'form' => '\'anqa.s',
       'lines' => [
-        ';; >anoqaS_1',
-        '>anoqaS PV      decrease;curtail',
+        ';; OanoqaS_1',
+        'OanoqaS PV      decrease;curtail',
         'noqiS   IV_yu   decrease;curtail',
         'noqaS   IV_Pass_yu      be decreased;be curtailed'
       ],
@@ -670,8 +670,8 @@ $Lexicon = {
       'entry' => '\'inqA.s',
       'form' => '\'inqA.s',
       'lines' => [
-        ';; <inoqAS_1',
-        '<inoqAS N/At    reduction;lowering;curtailment'
+        ';; IinoqAS_1',
+        'IinoqAS N/At    reduction;lowering;curtailment'
       ],
       'patterns' => {
         '\'inqA.s' => [
@@ -1635,7 +1635,7 @@ $Lexicon = {
         'naSol   N       arrowhead;spearhead;blade',
         'naSol   Napdu   arrowhead;spearhead;blade',
         'niSAl   N       arrowheads;spearheads;blades',
-        '>anoSul N       arrowheads;spearheads;blades',
+        'OanoSul N       arrowheads;spearheads;blades',
         'nuSuwl  N       arrowheads;spearheads;blades'
       ],
       'patterns' => {
@@ -2077,9 +2077,9 @@ $Lexicon = {
       'entry' => '\'unmuwl',
       'form' => '\'unmuwlaT',
       'lines' => [
-        ';; >unomuwlap_1',
-        '>unomuwl        Napdu   fingertip',
-        '>anAmil Ndip    fingertips'
+        ';; Ounomuwlap_1',
+        'Ounomuwl        Napdu   fingertip',
+        'OanAmil Ndip    fingertips'
       ],
       'patterns' => {
         '\'anAmil' => [
@@ -2327,10 +2327,10 @@ $Lexicon = {
       'entry' => '\'ankY',
       'form' => '\'ankY',
       'lines' => [
-        ';; >anokaY_1',
-        '>anokaY N0      worse;worst;more/most harmful',
-        '>anokA  Nhy     worst;most harmful',
-        '>anokay NAn_Nayn        worst;most harmful'
+        ';; OanokaY_1',
+        'OanokaY N0      worse;worst;more/most harmful',
+        'OanokA  Nhy     worst;most harmful',
+        'Oanokay NAn_Nayn        worst;most harmful'
       ],
       'patterns' => {
         '\'ankA' => []
@@ -2546,7 +2546,7 @@ $Lexicon = {
       'lines' => [
         ';; nasam_1',
         'nasam   N       breath',
-        '>anosAm N       breath'
+        'OanosAm N       breath'
       ],
       'patterns' => {
         '\'ansAm' => [
@@ -2756,7 +2756,7 @@ $Lexicon = {
       'lines' => [
         ';; namaT_1',
         'namaT   Ndu     type;kind;manner;form',
-        '>anomAT N       types;kinds;manners;forms',
+        'OanomAT N       types;kinds;manners;forms',
         'nimAT   N       types;kinds;manners;forms'
       ],
       'patterns' => {
@@ -2954,8 +2954,8 @@ $Lexicon = {
       'entry' => '\'an.hal',
       'form' => '\'an.hal',
       'lines' => [
-        ';; >anoHal_1',
-        '>anoHal PV      emaciate;weaken',
+        ';; OanoHal_1',
+        'OanoHal PV      emaciate;weaken',
         'noHil   IV_yu   emaciate;weaken',
         'noHal   IV_Pass_yu      be emaciated;be weakened'
       ],
@@ -3563,8 +3563,8 @@ $Lexicon = {
       'entry' => '\'an^gad',
       'form' => '\'an^gad',
       'lines' => [
-        ';; >anojad_1',
-        '>anojad PV      help;support',
+        ';; Oanojad_1',
+        'Oanojad PV      help;support',
         'nojid   IV_yu   help;support',
         'nojad   IV_Pass_yu      be helped;be supported'
       ],
@@ -3989,8 +3989,8 @@ $Lexicon = {
       'entry' => '\'an.haf',
       'form' => '\'an.haf',
       'lines' => [
-        ';; >anoHaf_1',
-        '>anoHaf PV      emaciate;weaken',
+        ';; OanoHaf_1',
+        'OanoHaf PV      emaciate;weaken',
         'noHif   IV_yu   emaciate;weaken'
       ],
       'patterns' => {
@@ -4047,7 +4047,7 @@ $Lexicon = {
         'naHiyf  N/ap    weak;emaciated',
         'niHAf   N       weak;emaciated',
         'nuHafA\' N0_Nh   weak;emaciated',
-        'nuHafA& Nh      weak;emaciated',
+        'nuHafAW Nh      weak;emaciated',
         'nuHafA} Nhy     weak;emaciated'
       ],
       'patterns' => {
@@ -4395,7 +4395,7 @@ $Lexicon = {
         'nATir   Ndu     guard;lookout;warden',
         'nuT~Ar  N       guards;lookouts;wardens',
         'nuTarA\' N0_Nh   guards;lookouts;wardens',
-        'nuTarA& Nh      guards;lookouts;wardens',
+        'nuTarAW Nh      guards;lookouts;wardens',
         'nuTarA} Nhy     guards;lookouts;wardens',
         'naTar   Nap     guards;lookouts;wardens',
         'nawATir Ndip    guards;lookouts;wardens'
@@ -4803,10 +4803,10 @@ $Lexicon = {
       'entry' => 'na\'am',
       'form' => 'na\'am',
       'lines' => [
-        ';; na>am-ia_1',
-        'na>am   PV      resound;groan',
+        ';; naOam-ia_1',
+        'naOam   PV      resound;groan',
         'no}im   IV      resound;groan',
-        'no>am   IV      resound;groan'
+        'noOam   IV      resound;groan'
       ],
       'patterns' => {
         'n\'am' => [
@@ -4836,8 +4836,8 @@ $Lexicon = {
       'entry' => 'na\'m',
       'form' => 'na\'maT',
       'lines' => [
-        ';; na>omap_1',
-        'na>om   Nap     noise;sound'
+        ';; naOomap_1',
+        'naOom   Nap     noise;sound'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4909,8 +4909,8 @@ $Lexicon = {
       'entry' => 'na\'uwm',
       'form' => 'na\'uwm',
       'lines' => [
-        ';; na&uwm_1',
-        'na&uwm  N       sleeper;later riser'
+        ';; naWuwm_1',
+        'naWuwm  N       sleeper;later riser'
       ],
       'patterns' => {},
       'index' => '1',
@@ -4964,7 +4964,7 @@ $Lexicon = {
       'lines' => [
         ';; namuw*aj_1',
         'namuw*aj        NduAt   sample;model',
-        '>unomuw*aj      Ndu     sample;model',
+        'Ounomuw*aj      Ndu     sample;model',
         'namA*ij Ndip    samples;models'
       ],
       'patterns' => {},
@@ -5143,8 +5143,8 @@ $Lexicon = {
       'entry' => '\'anqa.d',
       'form' => '\'anqa.d',
       'lines' => [
-        ';; >anoqaD_1',
-        '>anoqaD PV      overload',
+        ';; OanoqaD_1',
+        'OanoqaD PV      overload',
         'noqiD   IV_yu   overload',
         'noqaD   IV_Pass_yu      be overloaded'
       ],
@@ -5250,7 +5250,7 @@ $Lexicon = {
       'lines' => [
         ';; naqoD_1',
         'naqoD   N       contradiction;destruction',
-        '>anoqAD N       ruins;debris'
+        'OanoqAD N       ruins;debris'
       ],
       'patterns' => {
         '\'anqA.d' => [
@@ -5812,8 +5812,8 @@ $Lexicon = {
       'entry' => '\'anha^g',
       'form' => '\'anha^g',
       'lines' => [
-        ';; >anohaj_1',
-        '>anohaj PV      clarify;explain',
+        ';; Oanohaj_1',
+        'Oanohaj PV      clarify;explain',
         'nohij   IV_yu   clarify;explain',
         'nohaj   IV_Pass_yu      be clarified;be explained'
       ],
@@ -6500,10 +6500,10 @@ $Lexicon = {
       'entry' => '\'anma^s',
       'form' => '\'anma^s',
       'lines' => [
-        ';; >anoma$_1',
-        '>anoma$ Nel     freckled',
+        ';; Oanoma$_1',
+        'Oanoma$ Nel     freckled',
         'namo$A\' N0_Nh   freckled',
-        'namo$A& Nh      freckled',
+        'namo$AW Nh      freckled',
         'namo$A} Nhy     freckled',
         'numo$   N       freckled'
       ],
@@ -6830,7 +6830,7 @@ $Lexicon = {
       'lines' => [
         ';; na$A\'_1',
         'na$A\'   N0_Nh   starch;farina',
-        'na$A&   Nh      starch;farina',
+        'na$AW   Nh      starch;farina',
         'na$A}   Nhy     starch;farina'
       ],
       'patterns' => {},
@@ -6901,7 +6901,7 @@ $Lexicon = {
       'lines' => [
         ';; Ainoti$A\'_1',
         'Ainoti$A\'       N0_Nh   intoxication',
-        'Ainoti$A&       Nh      intoxication',
+        'Ainoti$AW       Nh      intoxication',
         'Ainoti$A}       Nhy     intoxication',
         'Ainoti$A\'       NAt     intoxication'
       ],
@@ -7110,8 +7110,8 @@ $Lexicon = {
       'entry' => '\'anfa.d',
       'form' => '\'anfa.d',
       'lines' => [
-        ';; >anofaD_1',
-        '>anofaD PV      deplete;be depleted;remove',
+        ';; OanofaD_1',
+        'OanofaD PV      deplete;be depleted;remove',
         'nofiD   IV_yu   deplete;be depleted;remove',
         'nofaD   IV_Pass_yu      be depleted;be removed'
       ],
@@ -7635,8 +7635,8 @@ $Lexicon = {
       'entry' => '\'anza.h',
       'form' => '\'anza.h',
       'lines' => [
-        ';; >anozaH_1',
-        '>anozaH PV      scoop out;drain',
+        ';; OanozaH_1',
+        'OanozaH PV      scoop out;drain',
         'noziH   IV_yu   scoop out;drain',
         'nozaH   IV_Pass_yu      be scooped out;be drained'
       ],
@@ -7720,7 +7720,7 @@ $Lexicon = {
       'lines' => [
         ';; nazaH_2',
         'nazaH   N       muddy water',
-        '>anozAH N       muddy water'
+        'OanozAH N       muddy water'
       ],
       'patterns' => {
         '\'anzA.h' => [
@@ -8149,8 +8149,8 @@ $Lexicon = {
       'entry' => '\'anfa_d',
       'form' => '\'anfa_d',
       'lines' => [
-        ';; >anofa*_1',
-        '>anofa* PV      implement;carry out;accomplish',
+        ';; Oanofa*_1',
+        'Oanofa* PV      implement;carry out;accomplish',
         'nofi*   IV_yu   implement;carry out;accomplish',
         'nofa*   IV_Pass_yu      be implemented;be carried out;be accomplished'
       ],
@@ -8234,7 +8234,7 @@ $Lexicon = {
       'lines' => [
         ';; nafa*_1',
         'nafa*   N       opening;outlet;exit',
-        '>anofA* N       openings;outlets;exits'
+        'OanofA* N       openings;outlets;exits'
       ],
       'patterns' => {
         '\'anfA_d' => [
@@ -8452,8 +8452,8 @@ $Lexicon = {
       'entry' => '\'infA_d',
       'form' => '\'infA_d',
       'lines' => [
-        ';; <inofA*_1',
-        '<inofA* N/At    performance;carrying out;implementation'
+        ';; IinofA*_1',
+        'IinofA* N/At    performance;carrying out;implementation'
       ],
       'patterns' => {
         '\'infA_d' => [
@@ -8729,9 +8729,9 @@ $Lexicon = {
       'entry' => '\'an\'A',
       'form' => '\'an\'A',
       'lines' => [
-        ';; >ano|_1',
-        '>ano|   Nhy     farthest away;most remote',
-        '>ano>ay NAn_Nayn        farthest away;most remote'
+        ';; Oano|_1',
+        'Oano|   Nhy     farthest away;most remote',
+        'OanoOay NAn_Nayn        farthest away;most remote'
       ],
       'patterns' => {},
       'index' => '1',
@@ -8861,7 +8861,7 @@ $Lexicon = {
       'lines' => [
         ';; nafos_1',
         'nafos   N       same;self     [[nafos/NOUN]]',
-        '>anofus N       selves'
+        'Oanofus N       selves'
       ],
       'patterns' => {
         '\'anfus' => [
@@ -9056,7 +9056,7 @@ $Lexicon = {
         ';; nafos_2',
         'nafos   N       soul',
         'nufuws  N       souls',
-        '>anofus N       souls'
+        'Oanofus N       souls'
       ],
       'patterns' => {
         'nufuws' => [
@@ -9109,7 +9109,7 @@ $Lexicon = {
       'lines' => [
         ';; nafas_1',
         'nafas   N       breath;puff',
-        '>anofAs N       breaths;puffs'
+        'OanofAs N       breaths;puffs'
       ],
       'patterns' => {
         '\'anfAs' => [
@@ -9159,7 +9159,7 @@ $Lexicon = {
       'lines' => [
         ';; nafosA\'_1',
         'nafosA\' N0_Nh   in childbed',
-        'nafosA& Nh      in childbed',
+        'nafosAW Nh      in childbed',
         'nafosA} Nhy     in childbed',
         'nawAfis Ndip    in childbed'
       ],
@@ -9656,8 +9656,8 @@ $Lexicon = {
       'entry' => '\'anfad',
       'form' => '\'anfad',
       'lines' => [
-        ';; >anofad_1',
-        '>anofad PV      consume;deplete',
+        ';; Oanofad_1',
+        'Oanofad PV      consume;deplete',
         'nofid   IV_yu   consume;deplete',
         'nofad   IV_Pass_yu      be consumed;be depleted'
       ],
@@ -10012,11 +10012,11 @@ $Lexicon = {
       'entry' => '\'an^gY',
       'form' => '\'an^gY',
       'lines' => [
-        ';; >anojaY_1',
-        '>anojaY PV_0    rescue',
-        '>anojA  PV_h    rescue',
-        '>anojay PV_Atn  rescue',
-        '>anoj   PV_ttAw rescue',
+        ';; OanojaY_1',
+        'OanojaY PV_0    rescue',
+        'OanojA  PV_h    rescue',
+        'Oanojay PV_Atn  rescue',
+        'Oanoj   PV_ttAw rescue',
         'nojiy   IV_0hAnn_yu     rescue',
         'noj     IV_0hwnyn_yu    rescue',
         'nojaY   IV_0_Pass_yu    be rescued',
@@ -10822,8 +10822,8 @@ $Lexicon = {
       'entry' => '\'anqa.h',
       'form' => '\'anqa.h',
       'lines' => [
-        ';; >anoqaH_1',
-        '>anoqaH PV      review;proofread',
+        ';; OanoqaH_1',
+        'OanoqaH PV      review;proofread',
         'noqiH   IV_yu   review;proofread',
         'noqaH   IV_Pass_yu      be reviewed;be proofread'
       ],
@@ -10981,7 +10981,7 @@ $Lexicon = {
       'lines' => [
         ';; nax~_1',
         'nax~    Ndu     mat;rug;carpet',
-        '>anoxAx N       mat;rug;carpet'
+        'OanoxAx N       mat;rug;carpet'
       ],
       'patterns' => {
         '\'an_hA_h' => [
@@ -11135,7 +11135,7 @@ $Lexicon = {
       'lines' => [
         ';; nafal_1',
         'nafal   N       booty;loot',
-        '>anofAl N       booty;loot',
+        'OanofAl N       booty;loot',
         'nufuwl  N       booty;loot'
       ],
       'patterns' => {
@@ -11279,8 +11279,8 @@ $Lexicon = {
       'entry' => '\'an^saq',
       'form' => '\'an^saq',
       'lines' => [
-        ';; >ano$aq_1',
-        '>ano$aq PV      give to smell;make inhale',
+        ';; Oano$aq_1',
+        'Oano$aq PV      give to smell;make inhale',
         'no$iq   IV_yu   give to smell;make inhale',
         'no$aq   IV_Pass_yu      be given to smell;be made to inhale'
       ],
@@ -11641,10 +11641,10 @@ $Lexicon = {
       'entry' => '\'anzal',
       'form' => '\'anzal',
       'lines' => [
-        ';; >anozal_1',
-        '>anozal PV      bring down;lower',
+        ';; Oanozal_1',
+        'Oanozal PV      bring down;lower',
         'nozil   IV_yu   bring down;lower',
-        '>unozil PV_Pass be revealed;be sent down',
+        'Ounozil PV_Pass be revealed;be sent down',
         'nozal   IV_Pass_yu      be revealed;be sent down'
       ],
       'patterns' => {
@@ -11778,7 +11778,7 @@ $Lexicon = {
       'lines' => [
         ';; nuzol_1',
         'nuzol   N       food served to a guest',
-        '>anozAl N       food served to a guest'
+        'OanozAl N       food served to a guest'
       ],
       'patterns' => {
         '\'anzAl' => [
@@ -11920,7 +11920,7 @@ $Lexicon = {
         ';; naziyl_1',
         'naziyl  N/ap    inmate;tenant',
         'nuzalA\' N0_Nh   inmates;tenants',
-        'nuzalA& Nh      inmates;tenants',
+        'nuzalAW Nh      inmates;tenants',
         'nuzalA} Nhy     inmates;tenants'
       ],
       'patterns' => {
@@ -12122,8 +12122,8 @@ $Lexicon = {
       'entry' => '\'inzAl',
       'form' => '\'inzAl',
       'lines' => [
-        ';; <inozAl_1',
-        '<inozAl N/At    lowering;disembarking;landing'
+        ';; IinozAl_1',
+        'IinozAl N/At    lowering;disembarking;landing'
       ],
       'patterns' => {
         '\'inzAl' => [
@@ -12459,9 +12459,9 @@ $Lexicon = {
       'entry' => '\'anA_h',
       'form' => '\'anA_h',
       'lines' => [
-        ';; >anAx_1',
-        '>anAx   PV_V    stay;remain;weigh heavily',
-        '>anax   PV_C    stay;remain;weigh heavily',
+        ';; OanAx_1',
+        'OanAx   PV_V    stay;remain;weigh heavily',
+        'Oanax   PV_C    stay;remain;weigh heavily',
         'niyx    IV_V_yu stay;remain;weigh heavily',
         'nix     IV_C_yu stay;remain;weigh heavily',
         'nAx     IV_V_Pass_yu    stay;remain;weigh heavily',
@@ -13004,9 +13004,9 @@ $Lexicon = {
       'entry' => '\'anAl',
       'form' => '\'anAl',
       'lines' => [
-        ';; >anAl_1',
-        '>anAl   PV_V    let/make obtain',
-        '>anal   PV_C    let/make obtain',
+        ';; OanAl_1',
+        'OanAl   PV_V    let/make obtain',
+        'Oanal   PV_C    let/make obtain',
         'niyl    IV_V_yu let/make obtain',
         'nil     IV_C_yu let/make obtain'
       ],
@@ -14121,11 +14121,11 @@ $Lexicon = {
       'entry' => '\'anqY',
       'form' => '\'anqY',
       'lines' => [
-        ';; >anoqaY_1',
-        '>anoqaY PV_0    purify;cleanse',
-        '>anoqA  PV_h    purify;cleanse',
-        '>anoqay PV_Atn  purify;cleanse',
-        '>anoq   PV_ttAw purify;cleanse',
+        ';; OanoqaY_1',
+        'OanoqaY PV_0    purify;cleanse',
+        'OanoqA  PV_h    purify;cleanse',
+        'Oanoqay PV_Atn  purify;cleanse',
+        'Oanoq   PV_ttAw purify;cleanse',
         'noqiy   IV_0hAnn_yu     purify;cleanse',
         'noq     IV_0hwnyn_yu    purify;cleanse',
         'noqaY   IV_0_Pass_yu    be purified;be cleansed',
@@ -14210,7 +14210,7 @@ $Lexicon = {
       'lines' => [
         ';; naqA\'_1',
         'naqA\'   N0_Nh   purity',
-        'naqA&   Nh      purity',
+        'naqAW   Nh      purity',
         'naqA}   Nhy     purity'
       ],
       'patterns' => {},
@@ -14274,10 +14274,10 @@ $Lexicon = {
       'entry' => '\'anqY',
       'form' => '\'anqY',
       'lines' => [
-        ';; >anoqaY_2',
-        '>anoqaY N0      purer/purest;cleaner/cleanest',
-        '>anoqA  Nhy     purest;cleanest',
-        '>anoqay NAn_Nayn        purest;cleanest'
+        ';; OanoqaY_2',
+        'OanoqaY N0      purer/purest;cleaner/cleanest',
+        'OanoqA  Nhy     purest;cleanest',
+        'Oanoqay NAn_Nayn        purest;cleanest'
       ],
       'patterns' => {
         '\'anqA' => []
@@ -14347,7 +14347,7 @@ $Lexicon = {
       'lines' => [
         ';; AinotiqA\'_1',
         'AinotiqA\'       N0_Nh   selection',
-        'AinotiqA&       Nh      selection',
+        'AinotiqAW       Nh      selection',
         'AinotiqA}       Nhy     selection',
         'AinotiqA\'       NAn_Nayn        selections',
         'AinotiqA}       Nayn    selections',
@@ -15044,10 +15044,10 @@ $Lexicon = {
       'entry' => '\'an^gaz',
       'form' => '\'an^gaz',
       'lines' => [
-        ';; >anojaz_1',
-        '>anojaz PV      implement;accomplish;perform',
+        ';; Oanojaz_1',
+        'Oanojaz PV      implement;accomplish;perform',
         'nojiz   IV_yu   implement;accomplish;perform',
-        '>unojiz PV_Pass be implemented;be accomplished;be performed',
+        'Ounojiz PV_Pass be implemented;be accomplished;be performed',
         'nojaz   IV_Pass_yu      be implemented;be accomplished;be performed'
       ],
       'patterns' => {
@@ -15176,8 +15176,8 @@ $Lexicon = {
       'entry' => '\'in^gAz',
       'form' => '\'in^gAz',
       'lines' => [
-        ';; <inojAz_1',
-        '<inojAz N       implementation;effectuation'
+        ';; IinojAz_1',
+        'IinojAz N       implementation;effectuation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -15200,9 +15200,9 @@ $Lexicon = {
       'entry' => '\'in^gAz',
       'form' => '\'in^gAz',
       'lines' => [
-        ';; <inojAz_2',
-        '<inojAz Ndu     accomplishment;achievement;success',
-        '<inojAz NAt     accomplishments;achievements;successes'
+        ';; IinojAz_2',
+        'IinojAz Ndu     accomplishment;achievement;success',
+        'IinojAz NAt     accomplishments;achievements;successes'
       ],
       'patterns' => {
         '\'in^gAz' => [
@@ -15514,7 +15514,7 @@ $Lexicon = {
         ';; nagom_1',
         'nagom   N       tune;sound;voice',
         'nagam   N       tune;sound;voice',
-        '>anogAm N       tunes;sounds;voices'
+        'OanogAm N       tunes;sounds;voices'
       ],
       'patterns' => {
         '\'an.gAm' => [
@@ -15746,8 +15746,8 @@ $Lexicon = {
       'entry' => '\'an^gas',
       'form' => '\'an^gas',
       'lines' => [
-        ';; >anojas_1',
-        '>anojas PV      pollute;contaminate',
+        ';; Oanojas_1',
+        'Oanojas PV      pollute;contaminate',
         'nojis   IV_yu   pollute;contaminate',
         'nojas   IV_Pass_yu      be polluted;be contaminated'
       ],
@@ -15812,7 +15812,7 @@ $Lexicon = {
         'najas   N       impurity;uncleanliness',
         'najAs   Nap     impurity;uncleanliness',
         'najis   N/ap    impure;polluted;contaminated',
-        '>anojAs N       impure;polluted;contaminated'
+        'OanojAs N       impure;polluted;contaminated'
       ],
       'patterns' => {
         '\'an^gAs' => [
@@ -15998,8 +15998,8 @@ $Lexicon = {
       'entry' => '\'an^sar',
       'form' => '\'an^sar',
       'lines' => [
-        ';; >ano$ar_1',
-        '>ano$ar PV      resurrect',
+        ';; Oano$ar_1',
+        'Oano$ar PV      resurrect',
         'no$ir   IV_yu   resurrect',
         'no$ar   IV_Pass_yu      be resurrected'
       ],
@@ -16476,8 +16476,8 @@ $Lexicon = {
       'entry' => '\'andab',
       'form' => '\'andab',
       'lines' => [
-        ';; >anodab_1',
-        '>anodab PV      form a scar;cicatrize',
+        ';; Oanodab_1',
+        'Oanodab PV      form a scar;cicatrize',
         'nodib   IV_yu   form a scar;cicatrize'
       ],
       'patterns' => {
@@ -16562,7 +16562,7 @@ $Lexicon = {
       'lines' => [
         ';; nadab_1',
         'nadab   Ndu     scar',
-        '>anodAb N       scars',
+        'OanodAb N       scars',
         'nuduwb  N       scars'
       ],
       'patterns' => {
@@ -17127,11 +17127,11 @@ $Lexicon = {
       'entry' => '\'ansY',
       'form' => '\'ansY',
       'lines' => [
-        ';; >anosaY_1',
-        '>anosaY PV_0    make forget',
-        '>anosA  PV_h    make forget',
-        '>anosay PV_Atn  make forget',
-        '>anos   PV_ttAw make forget',
+        ';; OanosaY_1',
+        'OanosaY PV_0    make forget',
+        'OanosA  PV_h    make forget',
+        'Oanosay PV_Atn  make forget',
+        'Oanos   PV_ttAw make forget',
         'nosiy   IV_0hAnn_yu     make forget',
         'nos     IV_0hwnyn_yu    make forget',
         'nosaY   IV_0_Pass_yu    be made to forget',
@@ -17346,7 +17346,7 @@ $Lexicon = {
       'lines' => [
         ';; nidA\'_1',
         'nidA\'   N0_Nh   call;appeal;invitation;summons',
-        'nidA&   Nh      call;appeal;invitation;summons',
+        'nidAW   Nh      call;appeal;invitation;summons',
         'nidA}   Nhy     call;appeal;invitation;summons',
         'nidA\'   NAn_Nayn        calls;appeals;invitations',
         'nidA}   Nayn    calls;appeals;invitations',
@@ -17967,8 +17967,8 @@ $Lexicon = {
       'entry' => '\'anba`',
       'form' => '\'anba`',
       'lines' => [
-        ';; >anobaE_1',
-        '>anobaE PV      cause to gush forth',
+        ';; OanobaE_1',
+        'OanobaE PV      cause to gush forth',
         'nobiE   IV_yu   cause to gush forth',
         'nobaE   IV_Pass_yu      be made to gush forth'
       ],
@@ -18129,7 +18129,7 @@ $Lexicon = {
       'lines' => [
         ';; nihA\'_1',
         'nihA\'   N0_Nh   termination;conclusion',
-        'nihA&   Nh      termination;conclusion',
+        'nihAW   Nh      termination;conclusion',
         'nihA}   Nhy     termination;conclusion'
       ],
       'patterns' => {},
@@ -18240,11 +18240,11 @@ $Lexicon = {
       'entry' => '\'inhA\'',
       'form' => '\'inhA\'',
       'lines' => [
-        ';; <inohA\'_1',
-        '<inohA\' N0_Nh   termination;completion',
-        '<inohA& Nh      termination;completion',
-        '<inohA} Nhy     termination;completion',
-        '<inohA\' NAt     termination;completion'
+        ';; IinohA\'_1',
+        'IinohA\' N0_Nh   termination;completion',
+        'IinohAW Nh      termination;completion',
+        'IinohA} Nhy     termination;completion',
+        'IinohA\' NAt     termination;completion'
       ],
       'patterns' => {
         '\'inhA\'' => [
@@ -18274,8 +18274,8 @@ $Lexicon = {
         ';; AinotihA\'_1',
         'AinotihA\'       N0_Nh   finishing;completion;conclusion',
         'AinotihA\'       N0_Nh   finishing;completion;conclusion',
-        'AinotihA&       Nh      finishing;completion;conclusion',
-        'AinotihA&       Nh      finishing;completion;conclusion',
+        'AinotihAW       Nh      finishing;completion;conclusion',
+        'AinotihAW       Nh      finishing;completion;conclusion',
         'AinotihA}       Nhy     finishing;completion;conclusion',
         'AinotihA}       Nhy     finishing;completion;conclusion',
         'AinotihA\'       NAt     finishing;completion;conclusion',
@@ -18537,7 +18537,7 @@ $Lexicon = {
         ';; nawAp_1',
         'nawA    Napdu   nucleus;core',
         'naway   NAt     nuclei;cores',
-        '>anowiy Nap     nuclei;cores'
+        'Oanowiy Nap     nuclei;cores'
       ],
       'patterns' => {
         'nawY' => [
@@ -19214,11 +19214,11 @@ $Lexicon = {
       'entry' => '\'an.dY',
       'form' => '\'an.dY',
       'lines' => [
-        ';; >anoDaY_1',
-        '>anoDaY PV_0    exhaust;make lean;wear out',
-        '>anoDA  PV_h    exhaust;make lean;wear out',
-        '>anoDay PV_Atn  exhaust;make lean;wear out',
-        '>anoD   PV_ttAw exhaust;make lean;wear out',
+        ';; OanoDaY_1',
+        'OanoDaY PV_0    exhaust;make lean;wear out',
+        'OanoDA  PV_h    exhaust;make lean;wear out',
+        'OanoDay PV_Atn  exhaust;make lean;wear out',
+        'OanoD   PV_ttAw exhaust;make lean;wear out',
         'noDiy   IV_0hAnn_yu     exhaust;make lean;wear out',
         'noD     IV_0hwnyn_yu    exhaust;make lean;wear out',
         'noDaY   IV_0_Pass_yu    be depleted;be worn out',
@@ -19310,9 +19310,9 @@ $Lexicon = {
       'lines' => [
         ';; naDow_1',
         'naDow   Ndu     tattered garment',
-        '>anoDA\' N0_Nh   tattered garment',
-        '>anoDA& Nh      tattered garment',
-        '>anoDA} Nhy     tattered garment'
+        'OanoDA\' N0_Nh   tattered garment',
+        'OanoDAW Nh      tattered garment',
+        'OanoDA} Nhy     tattered garment'
       ],
       'patterns' => {
         '\'an.dA\'' => [
@@ -19342,9 +19342,9 @@ $Lexicon = {
       'lines' => [
         ';; niDow_1',
         'niDow   N-ap    lean',
-        '>anoDA\' N0_Nh   lean',
-        '>anoDA& Nh      lean',
-        '>anoDA} Nhy     lean'
+        'OanoDA\' N0_Nh   lean',
+        'OanoDAW Nh      lean',
+        'OanoDA} Nhy     lean'
       ],
       'patterns' => {
         '\'an.dA\'' => [
@@ -20029,8 +20029,8 @@ $Lexicon = {
       'entry' => '\'anqa`',
       'form' => '\'anqa`',
       'lines' => [
-        ';; >anoqaE_1',
-        '>anoqaE PV      soak;quench',
+        ';; OanoqaE_1',
+        'OanoqaE PV      soak;quench',
         'noqiE   IV_yu   soak;quench',
         'noqaE   IV_Pass_yu      be soaked;be quenched'
       ],
@@ -20112,7 +20112,7 @@ $Lexicon = {
       'lines' => [
         ';; naqoE_2',
         'naqoE   Ndu     stagnant water;quagmire',
-        '>anoquE N       stagnant water;quagmire'
+        'OanoquE N       stagnant water;quagmire'
       ],
       'patterns' => {
         '\'anqu`' => [
@@ -20396,7 +20396,7 @@ $Lexicon = {
         ';; naToE_1',
         'naToE   N       leather mat',
         'niToE   N       leather mat',
-        '>anoTAE N       leather mats',
+        'OanoTAE N       leather mats',
         'nuTuwE  N       leather mats'
       ],
       'patterns' => {
@@ -21051,8 +21051,8 @@ $Lexicon = {
       'entry' => '\'an^ga`',
       'form' => '\'an^ga`',
       'lines' => [
-        ';; >anojaE_1',
-        '>anojaE PV_intr be useful;be beneficial',
+        ';; OanojaE_1',
+        'OanojaE PV_intr be useful;be beneficial',
         'nojiE   IV_intr_yu      be useful;be beneficial'
       ],
       'patterns' => {
@@ -21287,8 +21287,8 @@ $Lexicon = {
       'entry' => '\'an^ga`',
       'form' => '\'an^ga`',
       'lines' => [
-        ';; >anojaE_2',
-        '>anojaE Nel     more/most useful/wholesome'
+        ';; OanojaE_2',
+        'OanojaE Nel     more/most useful/wholesome'
       ],
       'patterns' => {},
       'index' => '2',
@@ -21532,7 +21532,7 @@ $Lexicon = {
       'lines' => [
         ';; naqob_1',
         'naqob   N       hole;excavation',
-        '>anoqAb N       holes;excavations'
+        'OanoqAb N       holes;excavations'
       ],
       'patterns' => {
         '\'anqAb' => [
@@ -21624,7 +21624,7 @@ $Lexicon = {
         ';; niqAb_1',
         'niqAb   N       veil',
         'nuqub   N       veils',
-        '>anoqib Nap     veils'
+        'Oanoqib Nap     veils'
       ],
       'patterns' => {
         'nuqub' => [
@@ -21750,7 +21750,7 @@ $Lexicon = {
         ';; naqiyb_1',
         'naqiyb  Ndu     captain;staff sergeant;first sergeant',
         'nuqabA\' N0_Nh   captains;staff sergeants;first sergeants',
-        'nuqabA& Nh      captains;staff sergeants;first sergeants',
+        'nuqabAW Nh      captains;staff sergeants;first sergeants',
         'nuqabA} Nhy     captains;staff sergeants;first sergeants'
       ],
       'patterns' => {
@@ -21787,7 +21787,7 @@ $Lexicon = {
         ';; naqiyb_2',
         'naqiyb  N       union leader',
         'nuqabA\' N0_Nh   union leaders',
-        'nuqabA& Nh      union leaders',
+        'nuqabAW Nh      union leaders',
         'nuqabA} Nhy     union leaders'
       ],
       'patterns' => {
@@ -22138,7 +22138,7 @@ $Lexicon = {
         'nAdiy   N0F_Nh  club;association',
         'nAd     NK      club;association',
         'nAdiy   NAn_Nayn        club;association',
-        '>anodiy Nap     clubs;associations',
+        'Oanodiy Nap     clubs;associations',
         'nawAdiy N0_Nh   clubs;associations',
         'nawAd   NK      clubs;associations'
       ],
@@ -22989,7 +22989,7 @@ $Lexicon = {
       'lines' => [
         ';; nafA\'_1',
         'nafA\'   N0_Nh   refuse;discarded item',
-        'nafA&   Nh      refuse;discarded item',
+        'nafAW   Nh      refuse;discarded item',
         'nafA}   Nhy     refuse;discarded item',
         'nafA    Nap     refuse;discarded item'
       ],
@@ -23165,7 +23165,7 @@ $Lexicon = {
       'lines' => [
         ';; AinotifA\'_1',
         'AinotifA\'       N0_Nh   absence;lack',
-        'AinotifA&       Nh      absence;lack',
+        'AinotifAW       Nh      absence;lack',
         'AinotifA}       Nhy     absence;lack',
         'AinotifA\'       NAt     absence;lack'
       ],
@@ -23643,7 +23643,7 @@ $Lexicon = {
       'lines' => [
         ';; niyr_1',
         'niyr    N       yoke',
-        '>anoyAr N       yokes'
+        'OanoyAr N       yokes'
       ],
       'patterns' => {
         '\'anyAr' => [
@@ -23828,8 +23828,8 @@ $Lexicon = {
       'entry' => '\'ansal',
       'form' => '\'ansal',
       'lines' => [
-        ';; >anosal_1',
-        '>anosal PV      procreate',
+        ';; Oanosal_1',
+        'Oanosal PV      procreate',
         'nosil   IV_yu   procreate',
         'nosal   IV_Pass_yu      be procreated'
       ],
@@ -23903,7 +23903,7 @@ $Lexicon = {
       'lines' => [
         ';; nasol_1',
         'nasol   N       progeny;offspring',
-        '>anosAl N       progeny;descendants'
+        'OanosAl N       progeny;descendants'
       ],
       'patterns' => {
         '\'ansAl' => [
@@ -24006,8 +24006,8 @@ $Lexicon = {
       'entry' => '\'insAl',
       'form' => '\'insAl',
       'lines' => [
-        ';; <inosAl_1',
-        '<inosAl N       procreation;generation'
+        ';; IinosAl_1',
+        'IinosAl N       procreation;generation'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24113,13 +24113,13 @@ $Lexicon = {
       'entry' => 'nata\'',
       'form' => 'nata\'',
       'lines' => [
-        ';; nata>-a_1',
-        'nata>   PV->    bulge;protrude',
+        ';; nataO-a_1',
+        'nataO   PV-O    bulge;protrude',
         'nata|   PV-|    bulge;protrude',
-        'nata&   PV_w    bulge;protrude',
-        'nota>   IV      bulge;protrude',
+        'nataW   PV_w    bulge;protrude',
+        'notaO   IV      bulge;protrude',
         'nota|   IV-|    bulge;protrude',
-        'nota&   IV_wn   bulge;protrude',
+        'notaW   IV_wn   bulge;protrude',
         'nota}   IV_yn   bulge;protrude'
       ],
       'patterns' => {
@@ -24168,8 +24168,8 @@ $Lexicon = {
       'entry' => 'nat\'',
       'form' => 'nat\'aT',
       'lines' => [
-        ';; nato>ap_1',
-        'nato>   Napdu   hill;hillock'
+        ';; natoOap_1',
+        'natoO   Napdu   hill;hillock'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24563,13 +24563,13 @@ $Lexicon = {
       'entry' => 'na^sa\'',
       'form' => 'na^sa\'',
       'lines' => [
-        ';; na$a>-a_1',
-        'na$a>   PV->    rise;grow',
+        ';; na$aO-a_1',
+        'na$aO   PV-O    rise;grow',
         'na$a|   PV-|    rise;grow',
-        'na$a&   PV_w    rise;grow',
-        'no$a>   IV      rise;grow',
+        'na$aW   PV_w    rise;grow',
+        'no$aO   IV      rise;grow',
         'no$a|   IV-|    rise;grow',
-        'no$a&   IV_wn   rise;grow',
+        'no$aW   IV_wn   rise;grow',
         'no$a}   IV_yn   rise;grow'
       ],
       'patterns' => {
@@ -24601,9 +24601,9 @@ $Lexicon = {
       'entry' => 'na^su\'',
       'form' => 'na^su\'',
       'lines' => [
-        ';; na$u&-u_1',
-        'na$u&   PV_intr rise;grow',
-        'no$u&   IV_intr rise;grow',
+        ';; na$uW-u_1',
+        'na$uW   PV_intr rise;grow',
+        'no$uW   IV_intr rise;grow',
         'no$u}   IV_yn   rise;grow'
       ],
       'patterns' => {
@@ -24637,10 +24637,10 @@ $Lexicon = {
       'entry' => 'na^s^sa\'',
       'form' => 'na^s^sa\'',
       'lines' => [
-        ';; na$~a>_1',
-        'na$~a>  PV->    make grow;raise',
+        ';; na$~aO_1',
+        'na$~aO  PV-O    make grow;raise',
         'na$~a|  PV-|    make grow;raise',
-        'na$~a&  PV_w    make grow;raise',
+        'na$~aW  PV_w    make grow;raise',
         'na$~i}  IV_yu   make grow;raise'
       ],
       'patterns' => {
@@ -24677,13 +24677,13 @@ $Lexicon = {
       'entry' => '\'an^sa\'',
       'form' => '\'an^sa\'',
       'lines' => [
-        ';; >ano$a>_1',
-        '>ano$a> PV->    establish;found;install',
-        '>ano$a| PV-|    establish;found;install',
-        '>ano$a& PV_w    establish;found;install',
+        ';; Oano$aO_1',
+        'Oano$aO PV-O    establish;found;install',
+        'Oano$a| PV-|    establish;found;install',
+        'Oano$aW PV_w    establish;found;install',
         'no$i}   IV_yu   establish;found;install',
-        'no$a>   IV_Pass_yu      be established;be founded;be installed',
-        '>uno$i} PV_Pass be established;be founded;be installed'
+        'no$aO   IV_Pass_yu      be established;be founded;be installed',
+        'Ouno$i} PV_Pass be established;be founded;be installed'
       ],
       'patterns' => {
         'n^si\'' => [
@@ -24721,13 +24721,13 @@ $Lexicon = {
       'entry' => 'tana^s^sa\'',
       'form' => 'tana^s^sa\'',
       'lines' => [
-        ';; tana$~a>_1',
-        'tana$~a>        PV->    grow;develop',
+        ';; tana$~aO_1',
+        'tana$~aO        PV-O    grow;develop',
         'tana$~a|        PV-|    grow;develop',
-        'tana$~a&        PV_w    grow;develop',
-        'tana$~a>        IV      grow;develop',
+        'tana$~aW        PV_w    grow;develop',
+        'tana$~aO        IV      grow;develop',
         'tana$~a|        IV-|    grow;develop',
-        'tana$~a&        IV_wn   grow;develop',
+        'tana$~aW        IV_wn   grow;develop',
         'tana$~a}        IV_yn   grow;develop'
       ],
       'patterns' => {},
@@ -24754,10 +24754,10 @@ $Lexicon = {
       'entry' => 'istan^sa\'',
       'form' => 'istan^sa\'',
       'lines' => [
-        ';; Aisotano$a>_1',
-        'Aisotano$a>     PV->    search for;ask for',
+        ';; Aisotano$aO_1',
+        'Aisotano$aO     PV-O    search for;ask for',
         'Aisotano$a|     PV-|    search for;ask for',
-        'Aisotano$a&     PV_w    search for;ask for',
+        'Aisotano$aW     PV_w    search for;ask for',
         'sotano$i}       IV      search for;ask for'
       ],
       'patterns' => {},
@@ -24798,8 +24798,8 @@ $Lexicon = {
       'entry' => 'na^s\'',
       'form' => 'na^s\'aT',
       'lines' => [
-        ';; na$o>ap_1',
-        'na$o>   Nap     growth;development;evolution'
+        ';; na$oOap_1',
+        'na$oO   Nap     growth;development;evolution'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24864,9 +24864,9 @@ $Lexicon = {
       'entry' => 'man^sa\'',
       'form' => 'man^sa\'',
       'lines' => [
-        ';; mano$a>_1',
-        'mano$a> N0_Nh   source;origin;generation',
-        'mano$a& Nh      source;origin;generation',
+        ';; mano$aO_1',
+        'mano$aO N0_Nh   source;origin;generation',
+        'mano$aW Nh      source;origin;generation',
         'mano$a} Nhy     source;origin;generation',
         'mano$a} Nayn    sources;origins;generations',
         'mano$a| N-|     sources;origins;generations',
@@ -24934,10 +24934,10 @@ $Lexicon = {
       'entry' => '\'in^sA\'',
       'form' => '\'in^sA\'',
       'lines' => [
-        ';; <ino$A\'_1',
-        '<ino$A\' N0_Nh   establishing;setting up;founding',
-        '<ino$A& Nh      establishing;setting up;founding',
-        '<ino$A} Nhy     establishing;setting up;founding'
+        ';; Iino$A\'_1',
+        'Iino$A\' N0_Nh   establishing;setting up;founding',
+        'Iino$AW Nh      establishing;setting up;founding',
+        'Iino$A} Nhy     establishing;setting up;founding'
       ],
       'patterns' => {},
       'index' => '1',
@@ -24961,13 +24961,13 @@ $Lexicon = {
       'entry' => '\'in^sA\'',
       'form' => '\'in^sA\'',
       'lines' => [
-        ';; <ino$A\'_2',
-        '<ino$A\' N0_Nh   construction;installation',
-        '<ino$A& Nh      construction;installation',
-        '<ino$A} Nhy     construction;installation',
-        '<ino$A\' NAn_Nayn        constructions;installations',
-        '<ino$A} Nayn    constructions;installations',
-        '<ino$A\' NAt     constructions;installations'
+        ';; Iino$A\'_2',
+        'Iino$A\' N0_Nh   construction;installation',
+        'Iino$AW Nh      construction;installation',
+        'Iino$A} Nhy     construction;installation',
+        'Iino$A\' NAn_Nayn        constructions;installations',
+        'Iino$A} Nayn    constructions;installations',
+        'Iino$A\' NAt     constructions;installations'
       ],
       'patterns' => {
         '\'in^sA\'' => [
@@ -24996,13 +24996,13 @@ $Lexicon = {
       'entry' => '\'in^sA\'',
       'form' => '\'in^sA\'',
       'lines' => [
-        ';; <ino$A\'_3',
-        '<ino$A\' N0_Nh   essay;composition',
-        '<ino$A& Nh      essay;composition',
-        '<ino$A} Nhy     essay;composition',
-        '<ino$A\' NAn_Nayn        essays;compositions',
-        '<ino$A} Nayn    essays;compositions',
-        '<ino$A\' NAt     essays;compositions'
+        ';; Iino$A\'_3',
+        'Iino$A\' N0_Nh   essay;composition',
+        'Iino$AW Nh      essay;composition',
+        'Iino$A} Nhy     essay;composition',
+        'Iino$A\' NAn_Nayn        essays;compositions',
+        'Iino$A} Nayn    essays;compositions',
+        'Iino$A\' NAt     essays;compositions'
       ],
       'patterns' => {
         '\'in^sA\'' => [
@@ -25027,8 +25027,8 @@ $Lexicon = {
       'entry' => '\'in^sA\'',
       'form' => '\'in^sA\'iyy',
       'lines' => [
-        ';; <ino$A}iy~_1',
-        '<ino$A}iy~      N-ap    construction;composition     [[<ino$A}iy~/ADJ]]'
+        ';; Iino$A}iy~_1',
+        'Iino$A}iy~      N-ap    construction;composition     [[Iino$A}iy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -25133,8 +25133,8 @@ $Lexicon = {
       'entry' => 'mun^sa\'',
       'form' => 'mun^sa\'aT',
       'lines' => [
-        ';; muno$a>ap_1',
-        'muno$a> Napdu   establishment;firm',
+        ';; muno$aOap_1',
+        'muno$aO Napdu   establishment;firm',
         'muno$a  N-|t    establishments;firms',
         'muno$a  N-|t    installations;facilities'
       ],
@@ -25397,11 +25397,11 @@ $Lexicon = {
       'entry' => '\'an.hY',
       'form' => '\'an.hY',
       'lines' => [
-        ';; >anoHaY_1',
-        '>anoHaY PV_0    turn away;overcome',
-        '>anoHA  PV_h    turn away;overcome',
-        '>anoHay PV_Atn  turn away;overcome',
-        '>anoH   PV_ttAw turn away;overcome',
+        ';; OanoHaY_1',
+        'OanoHaY PV_0    turn away;overcome',
+        'OanoHA  PV_h    turn away;overcome',
+        'OanoHay PV_Atn  turn away;overcome',
+        'OanoH   PV_ttAw turn away;overcome',
         'noHiy   IV_0hAnn_yu     turn away;overcome',
         'noH     IV_0hwnyn_yu    turn away;overcome',
         'noHaY   IV_0_Pass_yu    be turned away;be overcome',
@@ -25550,9 +25550,9 @@ $Lexicon = {
       'lines' => [
         ';; naHow_1',
         'naHow   N       manner;method',
-        '>anoHA\' N0_Nh   areas',
-        '>anoHA& Nh      areas',
-        '>anoHA} Nhy     areas'
+        'OanoHA\' N0_Nh   areas',
+        'OanoHAW Nh      areas',
+        'OanoHA} Nhy     areas'
       ],
       'patterns' => {
         '\'an.hA\'' => [
@@ -25940,8 +25940,8 @@ $Lexicon = {
       'entry' => '\'anta^g',
       'form' => '\'anta^g',
       'lines' => [
-        ';; >anotaj_1',
-        '>anotaj PV      produce;yield;cause',
+        ';; Oanotaj_1',
+        'Oanotaj PV      produce;yield;cause',
         'notij   IV_yu   produce;yield;cause',
         'notaj   IV_Pass_yu      be produced;be yielded;be caused'
       ],
@@ -26055,8 +26055,8 @@ $Lexicon = {
       'entry' => '\'intA^g',
       'form' => '\'intA^g',
       'lines' => [
-        ';; <inotAj_1',
-        '<inotAj N/At    production;output'
+        ';; IinotAj_1',
+        'IinotAj N/At    production;output'
       ],
       'patterns' => {
         '\'intA^g' => [
@@ -26079,8 +26079,8 @@ $Lexicon = {
       'entry' => '\'intA^g',
       'form' => '\'intA^giyy',
       'lines' => [
-        ';; <inotAjiy~_1',
-        '<inotAjiy~      N-ap    production;productive     [[<inotAjiy~/ADJ]]'
+        ';; IinotAjiy~_1',
+        'IinotAjiy~      N-ap    production;productive     [[IinotAjiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26099,8 +26099,8 @@ $Lexicon = {
       'entry' => '\'intA^g',
       'form' => '\'intA^giyyaT',
       'lines' => [
-        ';; <inotAjiy~ap_1',
-        '<inotAjiy~      Nap     productivity     [[<inotAjiy~/NOUN]]'
+        ';; IinotAjiy~ap_1',
+        'IinotAjiy~      Nap     productivity     [[IinotAjiy~/NOUN]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -26385,8 +26385,8 @@ $Lexicon = {
       'entry' => '\'anbat',
       'form' => '\'anbat',
       'lines' => [
-        ';; >anobat_1',
-        '>anobat PV-t    germinate;make grow;make sprout;cultivate',
+        ';; Oanobat_1',
+        'Oanobat PV-t    germinate;make grow;make sprout;cultivate',
         'nobit   IV_yu   germinate;make grow;make sprout;cultivate',
         'nobat   IV_Pass_yu      be germinated;be grown;be cultivated'
       ],
@@ -26859,8 +26859,8 @@ $Lexicon = {
       'entry' => '\'an.sab',
       'form' => '\'an.sab',
       'lines' => [
-        ';; >anoSab_1',
-        '>anoSab PV      exhaust;wear out',
+        ';; OanoSab_1',
+        'OanoSab PV      exhaust;wear out',
         'noSib   IV_yu   exhaust;wear out',
         'noSab   IV_Pass_yu      be exhausted;be worn out'
       ],
@@ -26947,7 +26947,7 @@ $Lexicon = {
       'lines' => [
         ';; naSob_2',
         'naSob   N-ap    erected;set up',
-        '>anoSAb N       erected;plants'
+        'OanoSAb N       erected;plants'
       ],
       'patterns' => {
         '\'an.sAb' => [
@@ -26977,7 +26977,7 @@ $Lexicon = {
       'lines' => [
         ';; nuSob_1',
         'nuSob   N       monument;memorial',
-        '>anoSAb N       monuments;memorials'
+        'OanoSAb N       monuments;memorials'
       ],
       'patterns' => {
         '\'an.sAb' => [
@@ -27028,7 +27028,7 @@ $Lexicon = {
       'lines' => [
         ';; naSab_1',
         'naSab   N       exertion;hard work',
-        '>anoSAb N       planted flags'
+        'OanoSAb N       planted flags'
       ],
       'patterns' => {
         '\'an.sAb' => [
@@ -27176,11 +27176,11 @@ $Lexicon = {
       'lines' => [
         ';; naSiyb_1',
         'naSiyb  Ndu     share;dividend',
-        '>anoSib Nap     shares;dividends',
+        'OanoSib Nap     shares;dividends',
         'nuSuwb  N       shares;dividends',
-        '>anoSibA\'       N0_Nh   shares;dividends',
-        '>anoSibA&       Nh      shares;dividends',
-        '>anoSibA}       Nhy     shares;dividends'
+        'OanoSibA\'       N0_Nh   shares;dividends',
+        'OanoSibAW       Nh      shares;dividends',
+        'OanoSibA}       Nhy     shares;dividends'
       ],
       'patterns' => {
         'nu.suwb' => [
@@ -27211,8 +27211,8 @@ $Lexicon = {
       'entry' => '\'an.sab',
       'form' => '\'an.sab',
       'lines' => [
-        ';; >anoSab_2',
-        '>anoSab Nel     more/most strenuous'
+        ';; OanoSab_2',
+        'OanoSab Nel     more/most strenuous'
       ],
       'patterns' => {},
       'index' => '2',
@@ -28469,9 +28469,9 @@ $Lexicon = {
       'lines' => [
         ';; nabiy$_1',
         'nabiy$  N-ap    excavated;dug up',
-        '>unobuw$        Ndu     excavation;excavated object',
-        '>unobuw$        Napdu   excavation;excavated object',
-        '>anAbiy$        Ndip    excavations;excavated objects'
+        'Ounobuw$        Ndu     excavation;excavated object',
+        'Ounobuw$        Napdu   excavation;excavated object',
+        'OanAbiy$        Ndip    excavations;excavated objects'
       ],
       'patterns' => {
         '\'unbuw^s' => [
@@ -28716,8 +28716,8 @@ $Lexicon = {
       'entry' => '\'an^ga.h',
       'form' => '\'an^ga.h',
       'lines' => [
-        ';; >anojaH_1',
-        '>anojaH PV      make successful',
+        ';; OanojaH_1',
+        'OanojaH PV      make successful',
         'nojiH   IV_yu   make successful',
         'nojaH   IV_Pass_yu      be made successful'
       ],
@@ -28837,8 +28837,8 @@ $Lexicon = {
       'entry' => '\'in^gA.h',
       'form' => '\'in^gA.h',
       'lines' => [
-        ';; <inojAH_1',
-        '<inojAH N/At    success'
+        ';; IinojAH_1',
+        'IinojAH N/At    success'
       ],
       'patterns' => {
         '\'in^gA.h' => [
@@ -28879,8 +28879,8 @@ $Lexicon = {
       'entry' => '\'an^ga.h',
       'form' => '\'an^ga.h',
       'lines' => [
-        ';; >anojaH_2',
-        '>anojaH Nel     more/most successful'
+        ';; OanojaH_2',
+        'OanojaH Nel     more/most successful'
       ],
       'patterns' => {},
       'index' => '2',
@@ -29545,8 +29545,8 @@ $Lexicon = {
       'entry' => '\'anhak',
       'form' => '\'anhak',
       'lines' => [
-        ';; >anohak_1',
-        '>anohak PV      exhaust;enervate',
+        ';; Oanohak_1',
+        'Oanohak PV      exhaust;enervate',
         'nohik   IV_yu   exhaust;enervate',
         'nohak   IV_Pass_yu      be exhausted;be enervated'
       ],
@@ -29649,8 +29649,8 @@ $Lexicon = {
       'entry' => '\'inhAk',
       'form' => '\'inhAk',
       'lines' => [
-        ';; <inohAk_1',
-        '<inohAk N/At    exhaustion'
+        ';; IinohAk_1',
+        'IinohAk N/At    exhaustion'
       ],
       'patterns' => {
         '\'inhAk' => [
@@ -29897,8 +29897,8 @@ $Lexicon = {
       'entry' => '\'anbah',
       'form' => '\'anbah',
       'lines' => [
-        ';; >anobah_1',
-        '>anobah PV      awaken;rouse',
+        ';; Oanobah_1',
+        'Oanobah PV      awaken;rouse',
         'nobih   IV_yu   awaken;rouse',
         'nobah   IV_Pass_yu      be awakened;be roused'
       ],
@@ -30048,7 +30048,7 @@ $Lexicon = {
         ';; nabiyh_1',
         'nabiyh  N/ap    eminent;noble     [[nabiyh/ADJ]]',
         'nubahA\' N0_Nh   eminent;noble',
-        'nubahA& Nh      eminent;noble',
+        'nubahAW Nh      eminent;noble',
         'nubahA} Nhy     eminent;noble'
       ],
       'patterns' => {
@@ -30491,9 +30491,9 @@ $Lexicon = {
       'entry' => '\'anAb',
       'form' => '\'anAb',
       'lines' => [
-        ';; >anAb_1',
-        '>anAb   PV_V    deputize;authorize',
-        '>anab   PV_C    deputize;authorize',
+        ';; OanAb_1',
+        'OanAb   PV_V    deputize;authorize',
+        'Oanab   PV_C    deputize;authorize',
         'niyb    IV_V_yu deputize;authorize',
         'nib     IV_C_yu deputize;authorize',
         'nAb     IV_V_Pass_yu    be deputized;be replaced',
@@ -30780,8 +30780,8 @@ $Lexicon = {
       'entry' => '\'inAb',
       'form' => '\'inAbaT',
       'lines' => [
-        ';; <inAbap_1',
-        '<inAb   NapAt   deputization;authorization'
+        ';; IinAbap_1',
+        'IinAb   NapAt   deputization;authorization'
       ],
       'patterns' => {},
       'index' => '1',
@@ -31301,8 +31301,8 @@ $Lexicon = {
       'entry' => '\'ansaf',
       'form' => '\'ansaf',
       'lines' => [
-        ';; >anosaf_1',
-        '>anosaf PV      scatter',
+        ';; Oanosaf_1',
+        'Oanosaf PV      scatter',
         'nosif   IV_yu   scatter',
         'nosaf   IV_Pass_yu      be scattered'
       ],
@@ -31580,7 +31580,7 @@ $Lexicon = {
       'lines' => [
         ';; na*ol_1',
         'na*ol   N/ap    despicable',
-        '>ano*Al N       despicable',
+        'Oano*Al N       despicable',
         'nu*uwl  N       despicable'
       ],
       'patterns' => {
@@ -31618,7 +31618,7 @@ $Lexicon = {
         ';; na*iyl_1',
         'na*iyl  N/ap    despicable',
         'nu*alA\' N0_Nh   despicable',
-        'nu*alA& Nh      despicable',
+        'nu*alAW Nh      despicable',
         'nu*alA} Nhy     despicable',
         'ni*Al   N       despicable'
       ],
@@ -31847,8 +31847,8 @@ $Lexicon = {
       'entry' => '\'an`al',
       'form' => '\'an`al',
       'lines' => [
-        ';; >anoEal_1',
-        '>anoEal PV      sole;shoe',
+        ';; OanoEal_1',
+        'OanoEal PV      sole;shoe',
         'noEil   IV_yu   sole;shoe',
         'noEal   IV_Pass_yu      be soled;be shod'
       ],
@@ -31937,7 +31937,7 @@ $Lexicon = {
         ';; naEol_1',
         'naEol   Ndu     sole;sandals',
         'niEAl   N       soles;sandals',
-        '>anoEul N       soles;sandals'
+        'OanoEul N       soles;sandals'
       ],
       'patterns' => {
         '\'an`ul' => [
@@ -32024,8 +32024,8 @@ $Lexicon = {
       'entry' => '\'an.sat',
       'form' => '\'an.sat',
       'lines' => [
-        ';; >anoSat_1',
-        '>anoSat PV-t    listen',
+        ';; OanoSat_1',
+        'OanoSat PV-t    listen',
         'noSit   IV_yu   listen',
         'noSat   IV_Pass_yu      be listened'
       ],
@@ -33497,8 +33497,8 @@ $Lexicon = {
       'entry' => '\'an^sab',
       'form' => '\'an^sab',
       'lines' => [
-        ';; >ano$ab_1',
-        '>ano$ab PV      stick on;dig in;attach',
+        ';; Oano$ab_1',
+        'Oano$ab PV      stick on;dig in;attach',
         'no$ib   IV_yu   stick on;dig in;attach',
         'no$ab   IV_Pass_yu      be attached'
       ],
@@ -33756,8 +33756,8 @@ $Lexicon = {
       'entry' => '\'an`a.z',
       'form' => '\'an`a.z',
       'lines' => [
-        ';; >anoEaZ_1',
-        '>anoEaZ PV_intr become erect;be sexually aroused',
+        ';; OanoEaZ_1',
+        'OanoEaZ PV_intr become erect;be sexually aroused',
         'noEiZ   IV_intr_yu      become erect;be sexually aroused',
         'noEaZ   IV_Pass_yu      become erect;be sexually aroused'
       ],
@@ -33844,8 +33844,8 @@ $Lexicon = {
       'entry' => '\'in`A.z',
       'form' => '\'in`A.z',
       'lines' => [
-        ';; <inoEAZ_1',
-        '<inoEAZ NduAt   orgasm'
+        ';; IinoEAZ_1',
+        'IinoEAZ NduAt   orgasm'
       ],
       'patterns' => {
         '\'in`A.z' => [
@@ -34002,7 +34002,7 @@ $Lexicon = {
         ';; nuwn_2',
         'nuwn    Ndu     whale',
         'niynAn  N       whales',
-        '>anowAn N       whales'
+        'OanowAn N       whales'
       ],
       'patterns' => {
         'niynAn' => [
@@ -34591,7 +34591,7 @@ $Lexicon = {
       'lines' => [
         ';; nawoE_1',
         'nawoE   Ndu     type;kind;form',
-        '>anowAE N       types;kinds;forms'
+        'OanowAE N       types;kinds;forms'
       ],
       'patterns' => {
         '\'anwA`' => [
@@ -34945,9 +34945,9 @@ $Lexicon = {
       'entry' => '\'anba.g',
       'form' => '\'anba.g',
       'lines' => [
-        ';; >anobag_1',
-        '>anobag Nel     pre-eminent;superior     [[>anobag/ADJ]]',
-        '>anobag Nel     pre-eminent;superior'
+        ';; Oanobag_1',
+        'Oanobag Nel     pre-eminent;superior     [[Oanobag/ADJ]]',
+        'Oanobag Nel     pre-eminent;superior'
       ],
       'patterns' => {},
       'index' => '1',
@@ -35133,9 +35133,9 @@ $Lexicon = {
       'entry' => '\'anAr',
       'form' => '\'anAr',
       'lines' => [
-        ';; >anAr_1',
-        '>anAr   PV_V    light;fill with light;elucidate',
-        '>anar   PV_C    light;fill with light;elucidate',
+        ';; OanAr_1',
+        'OanAr   PV_V    light;fill with light;elucidate',
+        'Oanar   PV_C    light;fill with light;elucidate',
         'niyr    IV_V_yu light;fill with light;elucidate',
         'nir     IV_C_yu light;fill with light;elucidate',
         'nAr     IV_V_Pass_yu    be lit;be made bright;be illuminated',
@@ -35185,8 +35185,8 @@ $Lexicon = {
       'entry' => '\'anwar',
       'form' => '\'anwar',
       'lines' => [
-        ';; >anowar_1',
-        '>anowar PV      come to light;be revealed',
+        ';; Oanowar_1',
+        'Oanowar PV      come to light;be revealed',
         'nowir   IV_yu   come to light;be revealed',
         'nowar   IV_Pass_yu      be brought to light;be revealed'
       ],
@@ -35347,7 +35347,7 @@ $Lexicon = {
       'lines' => [
         ';; nuwr_2',
         'nuwr    Ndu     light',
-        '>anowAr N       lights'
+        'OanowAr N       lights'
       ],
       'patterns' => {
         '\'anwAr' => [
@@ -35482,8 +35482,8 @@ $Lexicon = {
       'entry' => '\'anwar',
       'form' => '\'anwar',
       'lines' => [
-        ';; >anowar_2',
-        '>anowar Nprop   Anwar'
+        ';; Oanowar_2',
+        'Oanowar Nprop   Anwar'
       ],
       'patterns' => {},
       'index' => '2',
@@ -35595,8 +35595,8 @@ $Lexicon = {
       'entry' => '\'inAr',
       'form' => '\'inAraT',
       'lines' => [
-        ';; <inArap_1',
-        '<inAr   NapAt   lighting;illumination;enlightenment'
+        ';; IinArap_1',
+        'IinAr   NapAt   lighting;illumination;enlightenment'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36077,8 +36077,8 @@ $Lexicon = {
       'entry' => '\'anzaf',
       'form' => '\'anzaf',
       'lines' => [
-        ';; >anozaf_1',
-        '>anozaf PV      drain;bleed',
+        ';; Oanozaf_1',
+        'Oanozaf PV      drain;bleed',
         'nozif   IV_yu   drain;bleed',
         'nozaf   IV_Pass_yu      be drained;be bled'
       ],
@@ -36425,8 +36425,8 @@ $Lexicon = {
       'entry' => '\'an`am',
       'form' => '\'an`am',
       'lines' => [
-        ';; >anoEam_1',
-        '>anoEam PV      make pleasant;bestow favors',
+        ';; OanoEam_1',
+        'OanoEam PV      make pleasant;bestow favors',
         'noEim   IV_yu   make pleasant;bestow favors',
         'noEam   IV_Pass_yu      be made pleasant;be bestown favors'
       ],
@@ -36496,8 +36496,8 @@ $Lexicon = {
       'entry' => '\'an`Am',
       'form' => '\'an`Am',
       'lines' => [
-        ';; >anoEAm_1',
-        '>anoEAm N       grazing livestock'
+        ';; OanoEAm_1',
+        'OanoEAm N       grazing livestock'
       ],
       'patterns' => {},
       'index' => '1',
@@ -36545,7 +36545,7 @@ $Lexicon = {
         ';; niEomap_1',
         'niEom   NapAt   blessing',
         'niEam   N       blessings',
-        '>anoEum N       blessings'
+        'OanoEum N       blessings'
       ],
       'patterns' => {
         '\'an`um' => [
@@ -36599,7 +36599,7 @@ $Lexicon = {
       'lines' => [
         ';; naEomA\'_1',
         'naEomA\' N0_Nh   favor;kindness;grace',
-        'naEomA& Nh      favor;kindness;grace',
+        'naEomAW Nh      favor;kindness;grace',
         'naEomA} Nhy     favor;kindness;grace'
       ],
       'patterns' => {},
@@ -36818,8 +36818,8 @@ $Lexicon = {
       'entry' => '\'an`am',
       'form' => '\'an`am',
       'lines' => [
-        ';; >anoEam_2',
-        '>anoEam Nel     softer/softest'
+        ';; OanoEam_2',
+        'OanoEam Nel     softer/softest'
       ],
       'patterns' => {},
       'index' => '2',
@@ -37166,7 +37166,7 @@ $Lexicon = {
       'lines' => [
         ';; naboz_1',
         'naboz   Ndu     nickname;sobriquet',
-        '>anobAz N       nicknames;sobriquets'
+        'OanobAz N       nicknames;sobriquets'
       ],
       'patterns' => {
         '\'anbAz' => [
@@ -38241,13 +38241,13 @@ $Lexicon = {
       'entry' => 'naba\'',
       'form' => 'naba\'',
       'lines' => [
-        ';; naba>-a_1',
-        'naba>   PV->_intr       be elevated;overcome;withdraw',
+        ';; nabaO-a_1',
+        'nabaO   PV-O_intr       be elevated;overcome;withdraw',
         'naba|   PV-|_intr       be elevated;overcome;withdraw',
-        'naba&   PV_w_intr       be elevated;overcome;withdraw',
-        'noba>   IV_intr be elevated;overcome;withdraw',
+        'nabaW   PV_w_intr       be elevated;overcome;withdraw',
+        'nobaO   IV_intr be elevated;overcome;withdraw',
         'noba|   IV-|    be elevated;overcome;withdraw',
-        'noba&   IV_wn   be elevated;overcome;withdraw',
+        'nobaW   IV_wn   be elevated;overcome;withdraw',
         'noba}   IV_yn   be elevated;overcome;withdraw'
       ],
       'patterns' => {
@@ -38282,10 +38282,10 @@ $Lexicon = {
       'entry' => 'nabba\'',
       'form' => 'nabba\'',
       'lines' => [
-        ';; nab~a>_1',
-        'nab~a>  PV->    inform;indicate',
+        ';; nab~aO_1',
+        'nab~aO  PV-O    inform;indicate',
         'nab~a|  PV-|    inform;indicate',
-        'nab~a&  PV_w    inform;indicate',
+        'nab~aW  PV_w    inform;indicate',
         'nab~i}  IV_yu   inform;indicate'
       ],
       'patterns' => {
@@ -38319,12 +38319,12 @@ $Lexicon = {
       'entry' => '\'anba\'',
       'form' => '\'anba\'',
       'lines' => [
-        ';; >anoba>_1',
-        '>anoba> PV->    inform;announce',
-        '>anoba| PV-|    inform;announce',
-        '>anoba& PV_w    inform;announce',
+        ';; OanobaO_1',
+        'OanobaO PV-O    inform;announce',
+        'Oanoba| PV-|    inform;announce',
+        'OanobaW PV_w    inform;announce',
         'nobi}   IV_yu   inform;announce',
-        'noba>   IV_Pass_yu      be announced'
+        'nobaO   IV_Pass_yu      be announced'
       ],
       'patterns' => {
         'nbi\'' => [
@@ -38356,13 +38356,13 @@ $Lexicon = {
       'entry' => 'tanabba\'',
       'form' => 'tanabba\'',
       'lines' => [
-        ';; tanab~a>_1',
-        'tanab~a>        PV->    predict;forecast',
+        ';; tanab~aO_1',
+        'tanab~aO        PV-O    predict;forecast',
         'tanab~a|        PV-|    predict;forecast',
-        'tanab~a&        PV_w    predict;forecast',
-        'tanab~a>        IV      predict;forecast',
+        'tanab~aW        PV_w    predict;forecast',
+        'tanab~aO        IV      predict;forecast',
         'tanab~a|        IV-|    predict;forecast',
-        'tanab~a&        IV_wn   predict;forecast',
+        'tanab~aW        IV_wn   predict;forecast',
         'tanab~a}        IV_yn   predict;forecast'
       ],
       'patterns' => {},
@@ -38389,10 +38389,10 @@ $Lexicon = {
       'entry' => 'istanba\'',
       'form' => 'istanba\'',
       'lines' => [
-        ';; Aisotanoba>_1',
-        'Aisotanoba>     PV->    ask for information;inquire',
+        ';; AisotanobaO_1',
+        'AisotanobaO     PV-O    ask for information;inquire',
         'Aisotanoba|     PV-|    ask for information;inquire',
-        'Aisotanoba&     PV_w    ask for information;inquire',
+        'AisotanobaW     PV_w    ask for information;inquire',
         'sotanobi}       IV      ask for information;inquire'
       ],
       'patterns' => {},
@@ -38418,14 +38418,14 @@ $Lexicon = {
       'entry' => 'naba\'',
       'form' => 'naba\'',
       'lines' => [
-        ';; naba>_1',
-        'naba>   N0_Nh   news item;report',
-        'naba&   Nh      news item;report',
+        ';; nabaO_1',
+        'nabaO   N0_Nh   news item;report',
+        'nabaW   Nh      news item;report',
         'naba}   Nhy     news item;report',
         'naba|   N-|     news items;reports',
-        '>anobA\' N0_Nh   news items;reports',
-        '>anobA& Nh      news items;reports',
-        '>anobA} Nhy     news items;reports'
+        'OanobA\' N0_Nh   news items;reports',
+        'OanobAW Nh      news items;reports',
+        'OanobA} Nhy     news items;reports'
       ],
       'patterns' => {
         '\'anbA\'' => [
@@ -38450,8 +38450,8 @@ $Lexicon = {
       'entry' => 'nab\'',
       'form' => 'nab\'aT',
       'lines' => [
-        ';; nabo>ap_1',
-        'nabo>   Nap     faint noise;low sound'
+        ';; naboOap_1',
+        'naboO   Nap     faint noise;low sound'
       ],
       'patterns' => {},
       'index' => '1',
@@ -38494,13 +38494,13 @@ $Lexicon = {
       'entry' => '\'inbA\'',
       'form' => '\'inbA\'',
       'lines' => [
-        ';; <inobA\'_1',
-        '<inobA\' N0_Nh   notification;communication',
-        '<inobA& Nh      notification;communication',
-        '<inobA} Nhy     notification;communication',
-        '<inobA\' NAn_Nayn        notifications;communications',
-        '<inobA} Nayn    notifications;communications',
-        '<inobA\' NAt     notifications;communications'
+        ';; IinobA\'_1',
+        'IinobA\' N0_Nh   notification;communication',
+        'IinobAW Nh      notification;communication',
+        'IinobA} Nhy     notification;communication',
+        'IinobA\' NAn_Nayn        notifications;communications',
+        'IinobA} Nayn    notifications;communications',
+        'IinobA\' NAt     notifications;communications'
       ],
       'patterns' => {
         '\'inbA\'' => [
@@ -38529,8 +38529,8 @@ $Lexicon = {
       'entry' => 'tanabbu\'',
       'form' => 'tanabbu\'',
       'lines' => [
-        ';; tanab~u&_1',
-        'tanab~u&        N/At    prediction;forecast;prognosis',
+        ';; tanab~uW_1',
+        'tanab~uW        N/At    prediction;forecast;prognosis',
         'tanab~u}        Nhy     prediction;forecast;prognosis'
       ],
       'patterns' => {
@@ -38557,7 +38557,7 @@ $Lexicon = {
       'lines' => [
         ';; tanab~u}iy~_1',
         'tanab~u}iy~     N-ap    predictive;prognostic     [[tanab~u}iy~/ADJ]]',
-        'tanab~u&iy~     N-ap    predictive;prognostic     [[tanab~u&iy~/ADJ]]'
+        'tanab~uWiy~     N-ap    predictive;prognostic     [[tanab~uWiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39032,7 +39032,7 @@ $Lexicon = {
       'lines' => [
         ';; nasab_1',
         'nasab   N       lineage;kinship',
-        '>anosAb N       lineage;kinship;genealogy'
+        'OanosAb N       lineage;kinship;genealogy'
       ],
       'patterns' => {
         '\'ansAb' => [
@@ -39194,9 +39194,9 @@ $Lexicon = {
       'lines' => [
         ';; nasiyb_1',
         'nasiyb  N       relative;kinsman',
-        '>anosibA\'       N0_Nh   relatives;kinsmen',
-        '>anosibA&       Nh      relatives;kinsmen',
-        '>anosibA}       Nhy     relatives;kinsmen'
+        'OanosibA\'       N0_Nh   relatives;kinsmen',
+        'OanosibAW       Nh      relatives;kinsmen',
+        'OanosibA}       Nhy     relatives;kinsmen'
       ],
       'patterns' => {
         '\'ansibA\'' => [
@@ -39260,8 +39260,8 @@ $Lexicon = {
       'entry' => '\'ansab',
       'form' => '\'ansab',
       'lines' => [
-        ';; >anosab_1',
-        '>anosab Nel     more/most adequate/suitable;better/best qualified'
+        ';; Oanosab_1',
+        'Oanosab Nel     more/most adequate/suitable;better/best qualified'
       ],
       'patterns' => {},
       'index' => '1',
@@ -39694,8 +39694,8 @@ $Lexicon = {
       'entry' => '\'anba_d',
       'form' => '\'anba_d',
       'lines' => [
-        ';; >anoba*_1',
-        '>anoba* PV      make wine;press',
+        ';; Oanoba*_1',
+        'Oanoba* PV      make wine;press',
         'nobi*   IV_yu   make wine;press',
         'noba*   IV_Pass_yu      be made into wine;be pressed'
       ],
@@ -39840,7 +39840,7 @@ $Lexicon = {
       'lines' => [
         ';; nabiy*_1',
         'nabiy*  N       wine',
-        '>anobi* Nap     wines'
+        'Oanobi* Nap     wines'
       ],
       'patterns' => {
         '\'anbi_d' => [
@@ -40134,7 +40134,7 @@ $Lexicon = {
       'lines' => [
         ';; najiy~_1',
         'najiy~  Ndu     secret',
-        '>anojiy Nap     secrets'
+        'Oanojiy Nap     secrets'
       ],
       'patterns' => {
         '\'an^giy' => [
@@ -40165,9 +40165,9 @@ $Lexicon = {
       'lines' => [
         ';; najiy~_2',
         'najiy~  N/ap    confidant;bosom friend     [[najiy~/NOUN]]',
-        '>anojiyA\'       N0_Nh   confidants;bosom friends',
-        '>anojiyA&       Nh      confidants;bosom friends',
-        '>anojiyA}       Nhy     confidants;bosom friends'
+        'OanojiyA\'       N0_Nh   confidants;bosom friends',
+        'OanojiyAW       Nh      confidants;bosom friends',
+        'OanojiyA}       Nhy     confidants;bosom friends'
       ],
       'patterns' => {
         '\'an^giyA\'' => [
@@ -40399,8 +40399,8 @@ $Lexicon = {
       'entry' => '\'an.ga.s',
       'form' => '\'an.ga.s',
       'lines' => [
-        ';; >anogaS_1',
-        '>anogaS PV      disturb;make loathsome',
+        ';; OanogaS_1',
+        'OanogaS PV      disturb;make loathsome',
         'nogiS   IV_yu   disturb;make loathsome',
         'nogaS   IV_Pass_yu      be disturbed;be made loathsome'
       ],
@@ -40569,8 +40569,8 @@ $Lexicon = {
       'entry' => '\'an^saz',
       'form' => '\'an^saz',
       'lines' => [
-        ';; >ano$az_1',
-        '>ano$az PV      revive;reanimate',
+        ';; Oano$az_1',
+        'Oano$az PV      revive;reanimate',
         'no$iz   IV_yu   revive;reanimate',
         'no$az   IV_Pass_yu      be revived;be reanimated'
       ],
@@ -40606,7 +40606,7 @@ $Lexicon = {
       'lines' => [
         ';; na$az_1',
         'na$az   N       high ground;elevated place',
-        '>ano$Az N       high ground;elevated places'
+        'Oano$Az N       high ground;elevated places'
       ],
       'patterns' => {
         '\'an^sAz' => [
@@ -41433,7 +41433,7 @@ $Lexicon = {
         'namir   N       tiger;leopard;panther',
         'numur   N       tigers;leopards;panthers',
         'numuwr  N       tigers;leopards;panthers',
-        '>anomAr N       tigers;leopards;panthers'
+        'OanomAr N       tigers;leopards;panthers'
       ],
       'patterns' => {
         'numur' => [
@@ -41533,10 +41533,10 @@ $Lexicon = {
       'entry' => '\'anmar',
       'form' => '\'anmar',
       'lines' => [
-        ';; >anomar_1',
-        '>anomar Nel     speckled',
+        ';; Oanomar_1',
+        'Oanomar Nel     speckled',
         'namorA\' N0_Nh   speckled',
-        'namorA& Nh      speckled',
+        'namorAW Nh      speckled',
         'namorA} Nhy     speckled',
         'numor   N       speckled'
       ],
@@ -41800,8 +41800,8 @@ $Lexicon = {
       'entry' => '\'an^sa.t',
       'form' => '\'an^sa.t',
       'lines' => [
-        ';; >ano$aT_1',
-        '>ano$aT PV      stimulate;invigorate;tie up',
+        ';; Oano$aT_1',
+        'Oano$aT PV      stimulate;invigorate;tie up',
         'no$iT   IV_yu   stimulate;invigorate;tie up',
         'no$aT   IV_Pass_yu      be stimulated;be invigorated;be tied up'
       ],
@@ -41904,7 +41904,7 @@ $Lexicon = {
         ';; na$AT_1',
         'na$AT   N       activity;active',
         'na$AT   NAt     activities',
-        '>ano$iT Nap     activities'
+        'Oano$iT Nap     activities'
       ],
       'patterns' => {
         'na^sA.t' => [
@@ -41944,10 +41944,10 @@ $Lexicon = {
         'na$iyT  N/ap    active;energetic     [[na$iyT/ADJ]]',
         'ni$AT   N       active;energetic',
         'nu$aTA\' N0_Nh   active;energetic',
-        'nu$aTA& Nh      active;energetic',
+        'nu$aTAW Nh      active;energetic',
         'nu$aTA} Nhy     active;energetic',
         'nu$aTA\' N0_Nh   activists',
-        'nu$aTA& Nh      activists',
+        'nu$aTAW Nh      activists',
         'nu$aTA} Nhy     activists'
       ],
       'patterns' => {
@@ -41979,9 +41979,9 @@ $Lexicon = {
       'entry' => '\'un^suw.t',
       'form' => '\'un^suw.taT',
       'lines' => [
-        ';; >uno$uwTap_1',
-        '>uno$uwT        Napdu   knot;noose',
-        '>anA$iyT        Ndip    knots;nooses'
+        ';; Ouno$uwTap_1',
+        'Ouno$uwT        Napdu   knot;noose',
+        'OanA$iyT        Ndip    knots;nooses'
       ],
       'patterns' => {
         '\'anA^siy.t' => [
@@ -42525,11 +42525,11 @@ $Lexicon = {
       'entry' => '\'andY',
       'form' => '\'andY',
       'lines' => [
-        ';; >anodaY_1',
-        '>anodaY PV_0    moisten;make damp',
-        '>anodA  PV_h    moisten;make damp',
-        '>anoday PV_Atn  moisten;make damp',
-        '>anod   PV_ttAw moisten;make damp',
+        ';; OanodaY_1',
+        'OanodaY PV_0    moisten;make damp',
+        'OanodA  PV_h    moisten;make damp',
+        'Oanoday PV_Atn  moisten;make damp',
+        'Oanod   PV_ttAw moisten;make damp',
         'nodiy   IV_0hAnn_yu     moisten;make damp',
         'nod     IV_0hwnyn_yu    moisten;make damp',
         'nodaY   IV_0_Pass_yu    be moistened;be dampened',
@@ -42761,9 +42761,9 @@ $Lexicon = {
         ';; nadaY_1',
         'nadaY   N0      dew;generosity',
         'nadA    Nhy     dew;generosity',
-        '>anodA\' N0_Nh   dew;generosity',
-        '>anodA& Nh      dew;generosity',
-        '>anodA} Nhy     dew;generosity'
+        'OanodA\' N0_Nh   dew;generosity',
+        'OanodAW Nh      dew;generosity',
+        'OanodA} Nhy     dew;generosity'
       ],
       'patterns' => {
         '\'andA\'' => [
@@ -43566,7 +43566,7 @@ $Lexicon = {
         ';; nadiym_1',
         'nadiym  N/ap    confidant;close friend',
         'nudamA\' N0_Nh   confidants;close friends',
-        'nudamA& Nh      confidants;close friends',
+        'nudamAW Nh      confidants;close friends',
         'nudamA} Nhy     confidants;close friends',
         'nidAm   N       confidants;close friends'
       ],
@@ -43861,7 +43861,7 @@ $Lexicon = {
         'nabol   N       arrow',
         'nabol   Napdu   arrow',
         'nibAl   N       arrows',
-        '>anobAl N       arrows'
+        'OanobAl N       arrows'
       ],
       'patterns' => {
         '\'anbAl' => [
@@ -43995,7 +43995,7 @@ $Lexicon = {
         'nabiyl  N/ap    noble     [[nabiyl/ADJ]]',
         'nibAl   N       noble',
         'nubalA\' N0_Nh   noble',
-        'nubalA& Nh      noble',
+        'nubalAW Nh      noble',
         'nubalA} Nhy     noble'
       ],
       'patterns' => {
@@ -44071,8 +44071,8 @@ $Lexicon = {
       'entry' => '\'anbal',
       'form' => '\'anbal',
       'lines' => [
-        ';; >anobal_1',
-        '>anobal Nel     nobler/noblest'
+        ';; Oanobal_1',
+        'Oanobal Nel     nobler/noblest'
       ],
       'patterns' => {},
       'index' => '1',
@@ -44622,8 +44622,8 @@ $Lexicon = {
       'entry' => '\'an.taq',
       'form' => '\'an.taq',
       'lines' => [
-        ';; >anoTaq_1',
-        '>anoTaq PV      make speak',
+        ';; OanoTaq_1',
+        'OanoTaq PV      make speak',
         'noTiq   IV_yu   make speak',
         'noTaq   IV_Pass_yu      be made to speak'
       ],
@@ -45629,9 +45629,9 @@ $Lexicon = {
       'lines' => [
         ';; nibor_1',
         'nibor   Ndu     barn;granary;warehouse',
-        '>anobAr N       barns;granaries;warehouses',
-        '>anAbir Ndip    barns;granaries;warehouses',
-        '>anAbiyr        Ndip    barns;granaries;warehouses'
+        'OanobAr N       barns;granaries;warehouses',
+        'OanAbir Ndip    barns;granaries;warehouses',
+        'OanAbiyr        Ndip    barns;granaries;warehouses'
       ],
       'patterns' => {
         '\'anAbiyr' => [
@@ -45777,13 +45777,13 @@ $Lexicon = {
       'entry' => 'na\'Y',
       'form' => 'na\'Y',
       'lines' => [
-        ';; na>aY-a_1',
-        'na>aY   PV_0    be distant;go away',
-        'na>ay   PV_Atn  be distant;go away',
-        'na>a    PV_ttAw_intr    be distant;go away',
-        'no>aY   IV_0    be distant;go away',
-        'no>ay   IV_Ann  be distant;go away',
-        'no>a    IV_0hwnyn       be distant;go away'
+        ';; naOaY-a_1',
+        'naOaY   PV_0    be distant;go away',
+        'naOay   PV_Atn  be distant;go away',
+        'naOa    PV_ttAw_intr    be distant;go away',
+        'noOaY   IV_0    be distant;go away',
+        'noOay   IV_Ann  be distant;go away',
+        'noOa    IV_0hwnyn       be distant;go away'
       ],
       'patterns' => {
         'n\'Y' => [
@@ -45838,10 +45838,10 @@ $Lexicon = {
         'nA\'A    PV_h    keep far away',
         'nA}ay   PV_Atn  keep far away',
         'nA\'     PV_ttAw keep far away',
-        'nA&     PV_w    keep far away',
+        'nAW     PV_w    keep far away',
         'nA}iy   IV_0hAnn_yu     keep far away',
         'nA\'     IV_0hwnyn_yu    keep far away',
-        'nA&     IV_wn_yu        keep far away',
+        'nAW     IV_wn_yu        keep far away',
         'nA}     IV_yn_yu        keep far away',
         'nA\'aY   IV_0_Pass_yu    be kept far away',
         'nA}ay   IV_Ann_Pass_yu  be kept far away'
@@ -45895,19 +45895,19 @@ $Lexicon = {
       'entry' => '\'an\'Y',
       'form' => '\'an\'Y',
       'lines' => [
-        ';; >ano>aY_1',
-        '>ano>aY PV_0    remove;place at a distance',
-        '>ano|   PV_h    remove;place at a distance',
-        '>ano>ay PV_Atn  remove;place at a distance',
-        '>ano}ay PV_Atn  remove;place at a distance',
-        '>ano>   PV_ttAw remove;place at a distance',
-        '>ano&   PV_w    remove;place at a distance',
+        ';; OanoOaY_1',
+        'OanoOaY PV_0    remove;place at a distance',
+        'Oano|   PV_h    remove;place at a distance',
+        'OanoOay PV_Atn  remove;place at a distance',
+        'Oano}ay PV_Atn  remove;place at a distance',
+        'OanoO   PV_ttAw remove;place at a distance',
+        'OanoW   PV_w    remove;place at a distance',
         'no}iy   IV_0hAnn_yu     remove;place at a distance',
-        'no>     IV_0hwnyn_yu    remove;place at a distance',
-        'no&     IV_wn_yu        remove;place at a distance',
+        'noO     IV_0hwnyn_yu    remove;place at a distance',
+        'noW     IV_wn_yu        remove;place at a distance',
         'no}     IV_yn_yu        remove;place at a distance',
-        'no>aY   IV_0_Pass_yu    be removed;be placed at a distance',
-        'no>ay   IV_Ann_Pass_yu  be removed;be placed at a distance'
+        'noOaY   IV_0_Pass_yu    be removed;be placed at a distance',
+        'noOay   IV_Ann_Pass_yu  be removed;be placed at a distance'
       ],
       'patterns' => {
         'n\'iy' => [
@@ -45962,12 +45962,12 @@ $Lexicon = {
         'tanA|   PV_h    move apart;be separated;be distant',
         'tanA}ay PV_Atn  move apart;be separated;be distant',
         'tanA\'   PV_ttAw move apart;be separated;be distant',
-        'tanA&   PV_w    move apart;be separated;be distant',
+        'tanAW   PV_w    move apart;be separated;be distant',
         'tanA\'aY IV_0    move apart;be separated;be distant',
         'tanA|   IV_h    move apart;be separated;be distant',
         'tanA}ay IV_Ann  move apart;be separated;be distant',
         'tanA\'   IV_0hwnyn       move apart;be separated;be distant',
-        'tanA&   IV_wn   move apart;be separated;be distant',
+        'tanAW   IV_wn   move apart;be separated;be distant',
         'tanA}   IV_yn   move apart;be separated;be distant'
       ],
       'patterns' => {
@@ -46014,18 +46014,18 @@ $Lexicon = {
       'entry' => 'inta\'Y',
       'form' => 'inta\'Y',
       'lines' => [
-        ';; Ainota>aY_1',
-        'Ainota>aY       PV_0    be distant;go away',
+        ';; AinotaOaY_1',
+        'AinotaOaY       PV_0    be distant;go away',
         'Ainota| PV_h    be distant;go away',
-        'Ainota>ay       PV_Atn  be distant;go away',
-        'Ainota> PV_ttAw_intr    be distant;go away',
-        'Ainota& PV_w_intr       be distant;go away',
-        'nota>iy IV_0hAnn        be distant;go away',
+        'AinotaOay       PV_Atn  be distant;go away',
+        'AinotaO PV_ttAw_intr    be distant;go away',
+        'AinotaW PV_w_intr       be distant;go away',
+        'notaOiy IV_0hAnn        be distant;go away',
         'nota}iy IV_0hAnn        be distant;go away',
-        'nota>   IV_0hwnyn       be distant;go away',
-        'nota&   IV_wn   be distant;go away',
+        'notaO   IV_0hwnyn       be distant;go away',
+        'notaW   IV_wn   be distant;go away',
         'nota}   IV_yn   be distant;go away',
-        'nota>aY IV_0_Pass_yu    be distant;go away'
+        'notaOaY IV_0_Pass_yu    be distant;go away'
       ],
       'patterns' => {
         'inta\'ay' => [
@@ -46054,8 +46054,8 @@ $Lexicon = {
       'entry' => 'na\'y',
       'form' => 'na\'y',
       'lines' => [
-        ';; na>oy_1',
-        'na>oy   N       remoteness'
+        ';; naOoy_1',
+        'naOoy   N       remoteness'
       ],
       'patterns' => {},
       'index' => '1',
@@ -46088,16 +46088,16 @@ $Lexicon = {
       'entry' => 'na\'y',
       'form' => 'na\'y',
       'lines' => [
-        ';; na>oy_2',
-        'na>oy   Ndu     ditch',
-        'nu&aY   N0      ditch',
-        'nu&A    Nhy     ditch',
-        '>ano|   N0_Nh   ditches',
+        ';; naOoy_2',
+        'naOoy   Ndu     ditch',
+        'nuWaY   N0      ditch',
+        'nuWA    Nhy     ditch',
+        'Oano|   N0_Nh   ditches',
         '|nA\'    N0_Nh   ditches',
-        '|nA&    Nh      ditches',
+        '|nAW    Nh      ditches',
         '|nA}    Nhy     ditches',
         '|nA\'    N0_Nh   ditches',
-        '|nA&    Nh      ditches',
+        '|nAW    Nh      ditches',
         '|nA}    Nhy     ditches'
       ],
       'patterns' => {
@@ -46126,8 +46126,8 @@ $Lexicon = {
       'entry' => '\'an\'Y',
       'form' => '\'an\'Y',
       'lines' => [
-        ';; >ano>aY_2',
-        '>ano>aY N0      farther/farthest away;more/most distant'
+        ';; OanoOaY_2',
+        'OanoOaY N0      farther/farthest away;more/most distant'
       ],
       'patterns' => {},
       'index' => '2',
@@ -46153,11 +46153,11 @@ $Lexicon = {
       'entry' => 'man\'Y',
       'form' => 'man\'Y',
       'lines' => [
-        ';; mano>aY_1',
-        'mano>aY N0      distant place;aloofness',
+        ';; manoOaY_1',
+        'manoOaY N0      distant place;aloofness',
         'mano|   Nhy     distant place;aloofness',
-        'mano>ay NAn_Nayn        distant place;aloofness',
-        'mano>ay NAt     distant place;aloofness'
+        'manoOay NAn_Nayn        distant place;aloofness',
+        'manoOay NAt     distant place;aloofness'
       ],
       'patterns' => {
         'man\'A' => [],
@@ -46486,8 +46486,8 @@ $Lexicon = {
       'entry' => '\'an^gam',
       'form' => '\'an^gam',
       'lines' => [
-        ';; >anojam_1',
-        '>anojam PV_intr be starry;appear in the heavens',
+        ';; Oanojam_1',
+        'Oanojam PV_intr be starry;appear in the heavens',
         'nojim   IV_intr_yu      be starry;appear in the heavens'
       ],
       'patterns' => {
@@ -46542,7 +46542,7 @@ $Lexicon = {
         ';; najom_1',
         'najom   Ndu     star;constellation',
         'nujuwm  N       stars;constellations',
-        '>anojum N       stars;constellations'
+        'Oanojum N       stars;constellations'
       ],
       'patterns' => {
         'nu^guwm' => [
@@ -47041,9 +47041,9 @@ $Lexicon = {
       'entry' => '\'anA.t',
       'form' => '\'anA.t',
       'lines' => [
-        ';; >anAT_1',
-        '>anAT   PV_V    entrust;make dependent;make conditional',
-        '>anaT   PV_C    entrust;make dependent;make conditional',
+        ';; OanAT_1',
+        'OanAT   PV_V    entrust;make dependent;make conditional',
+        'OanaT   PV_C    entrust;make dependent;make conditional',
         'niyT    IV_V_yu entrust;make dependent;make conditional',
         'niT     IV_C_yu entrust;make dependent;make conditional',
         'nAT     IV_V_Pass_yu    be entrusted;be assigned',
@@ -47094,7 +47094,7 @@ $Lexicon = {
       'lines' => [
         ';; nawoT_1',
         'nawoT   N       badge;medal;pendant',
-        '>anowAT N       badges;medals;pendants',
+        'OanowAT N       badges;medals;pendants',
         'niyAT   N       badges;medals;pendants'
       ],
       'patterns' => {
@@ -47274,8 +47274,8 @@ $Lexicon = {
       'entry' => '\'an.dab',
       'form' => '\'an.dab',
       'lines' => [
-        ';; >anoDab_1',
-        '>anoDab PV      deplete;drain;exhaust',
+        ';; OanoDab_1',
+        'OanoDab PV      deplete;drain;exhaust',
         'noDib   IV_yu   deplete;drain;exhaust',
         'noDab   IV_Pass_yu      be depleted;be drained;be exhausted'
       ],
@@ -47563,8 +47563,8 @@ $Lexicon = {
       'entry' => '\'anfaq',
       'form' => '\'anfaq',
       'lines' => [
-        ';; >anofaq_1',
-        '>anofaq PV      spend;disburse',
+        ';; Oanofaq_1',
+        'Oanofaq PV      spend;disburse',
         'nofiq   IV_yu   spend;disburse',
         'nofaq   IV_Pass_yu      be spent;be disbursed'
       ],
@@ -47625,7 +47625,7 @@ $Lexicon = {
       'lines' => [
         ';; nafaq_1',
         'nafaq   N       tunnel;subway shaft',
-        '>anofAq N       subway;tunnels'
+        'OanofAq N       subway;tunnels'
       ],
       'patterns' => {
         '\'anfAq' => [
@@ -47764,8 +47764,8 @@ $Lexicon = {
       'entry' => '\'infAq',
       'form' => '\'infAq',
       'lines' => [
-        ';; <inofAq_1',
-        '<inofAq N/At    expenditure;disbursement;expenses'
+        ';; IinofAq_1',
+        'IinofAq N/At    expenditure;disbursement;expenses'
       ],
       'patterns' => {
         '\'infAq' => [
@@ -48422,8 +48422,8 @@ $Lexicon = {
       'entry' => '\'an.saf',
       'form' => '\'an.saf',
       'lines' => [
-        ';; >anoSaf_1',
-        '>anoSaf PV_intr be just;be impartial',
+        ';; OanoSaf_1',
+        'OanoSaf PV_intr be just;be impartial',
         'noSif   IV_intr_yu      be just;be impartial'
       ],
       'patterns' => {
@@ -48526,7 +48526,7 @@ $Lexicon = {
       'lines' => [
         ';; niSof_1',
         'niSof   Ndu     half;middle;semi-',
-        '>anoSAf N       halves'
+        'OanoSAf N       halves'
       ],
       'patterns' => {
         '\'an.sAf' => [
@@ -48700,8 +48700,8 @@ $Lexicon = {
       'entry' => '\'in.sAf',
       'form' => '\'in.sAf',
       'lines' => [
-        ';; <inoSAf_1',
-        '<inoSAf N/At    impartiality;fairness'
+        ';; IinoSAf_1',
+        'IinoSAf N/At    impartiality;fairness'
       ],
       'patterns' => {
         '\'in.sAf' => [
@@ -49055,9 +49055,9 @@ $Lexicon = {
       'entry' => '\'anAf',
       'form' => '\'anAf',
       'lines' => [
-        ';; >anAf_1',
-        '>anAf   PV_V    exceed',
-        '>anaf   PV_C    exceed',
+        ';; OanAf_1',
+        'OanAf   PV_V    exceed',
+        'Oanaf   PV_C    exceed',
         'niyf    IV_V_yu exceed',
         'nif     IV_C_yu exceed',
         'nAf     IV_V_Pass_yu    be exceeded',
@@ -49121,7 +49121,7 @@ $Lexicon = {
       'lines' => [
         ';; nawof_1',
         'nawof   Ndu     surplus;excess',
-        '>anowAf N       surplus;excess'
+        'OanowAf N       surplus;excess'
       ],
       'patterns' => {
         '\'anwAf' => [
@@ -50504,8 +50504,8 @@ $Lexicon = {
       'lines' => [
         ';; nahor_1',
         'nahor   Ndu     river',
-        '>anohAr N       rivers',
-        '>anohur N       rivers',
+        'OanohAr N       rivers',
+        'Oanohur N       rivers',
         'nuhuwr  N       rivers'
       ],
       'patterns' => {
@@ -50565,7 +50565,7 @@ $Lexicon = {
         ';; nahAr_1',
         'nahAr   Ndu     daytime;day',
         'nahAr   NF      by day     [[nahAr/ADV]]',
-        '>anohur N       daytime',
+        'Oanohur N       daytime',
         'nuhur   N       daytime'
       ],
       'patterns' => {
@@ -50852,11 +50852,11 @@ $Lexicon = {
       'entry' => '\'anmY',
       'form' => '\'anmY',
       'lines' => [
-        ';; >anomaY_1',
-        '>anomaY PV_0    make grow;advance',
-        '>anomA  PV_h    make grow;advance',
-        '>anomay PV_Atn  make grow;advance',
-        '>anom   PV_ttAw make grow;advance',
+        ';; OanomaY_1',
+        'OanomaY PV_0    make grow;advance',
+        'OanomA  PV_h    make grow;advance',
+        'Oanomay PV_Atn  make grow;advance',
+        'Oanom   PV_ttAw make grow;advance',
         'nomiy   IV_0hAnn_yu     make grow;advance',
         'nom     IV_0hwnyn_yu    make grow;advance',
         'nomaY   IV_0_Pass_yu    be grown;be advanced',
@@ -50996,7 +50996,7 @@ $Lexicon = {
       'lines' => [
         ';; namA\'_1',
         'namA\'   N0_Nh   growth;accretion',
-        'namA&   Nh      growth;accretion',
+        'namAW   Nh      growth;accretion',
         'namA}   Nhy     growth;accretion'
       ],
       'patterns' => {},
@@ -51096,13 +51096,13 @@ $Lexicon = {
       'entry' => '\'inmA\'',
       'form' => '\'inmA\'',
       'lines' => [
-        ';; <inomA\'_1',
-        '<inomA\' N0_Nh   promotion;advancement',
-        '<inomA& Nh      promotion;advancement',
-        '<inomA} Nhy     promotion;advancement',
-        '<inomA\' NAn_Nayn        promotion;advancement',
-        '<inomA} Nayn    promotion;advancement',
-        '<inomA\' NAt     promotion;advancement'
+        ';; IinomA\'_1',
+        'IinomA\' N0_Nh   promotion;advancement',
+        'IinomAW Nh      promotion;advancement',
+        'IinomA} Nhy     promotion;advancement',
+        'IinomA\' NAn_Nayn        promotion;advancement',
+        'IinomA} Nayn    promotion;advancement',
+        'IinomA\' NAt     promotion;advancement'
       ],
       'patterns' => {
         '\'inmA\'' => [
@@ -51125,8 +51125,8 @@ $Lexicon = {
       'entry' => '\'inmA\'',
       'form' => '\'inmA\'iyy',
       'lines' => [
-        ';; <inomA}iy~_1',
-        '<inomA}iy~      N-ap    development     [[<inomA}iy~/ADJ]]'
+        ';; IinomA}iy~_1',
+        'IinomA}iy~      N-ap    development     [[IinomA}iy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -51181,7 +51181,7 @@ $Lexicon = {
       'lines' => [
         ';; AinotimA\'_1',
         'AinotimA\'       N0_Nh   membership;affiliation;commitment',
-        'AinotimA&       Nh      membership;affiliation;commitment',
+        'AinotimAW       Nh      membership;affiliation;commitment',
         'AinotimA}       Nhy     membership;affiliation;commitment',
         'AinotimA\'       NAn_Nayn        membership;affiliation;commitment',
         'AinotimA}       Nayn    membership;affiliation;commitment',
@@ -51210,7 +51210,7 @@ $Lexicon = {
       'form' => 'lAintimA\'iyy',
       'lines' => [
         ';; lAAinotimA}iy~_1',
-        'lAAinotimA}iy~  Nall_L  non-committed     [[lA<inotimA}iy~/ADJ]]',
+        'lAAinotimA}iy~  Nall_L  non-committed     [[lAIinotimA}iy~/ADJ]]',
         'lAAinotimA}iy~  Nall_L  non-committed     [[lAAinotimA}iy~/ADJ]]'
       ],
       'patterns' => {},
@@ -51607,8 +51607,8 @@ $Lexicon = {
       'entry' => '\'an`as',
       'form' => '\'an`as',
       'lines' => [
-        ';; >anoEas_1',
-        '>anoEas PV      make sleepy;put to sleep',
+        ';; OanoEas_1',
+        'OanoEas PV      make sleepy;put to sleep',
         'noEis   IV_yu   make sleepy;put to sleep',
         'noEas   IV_Pass_yu      be made sleepy;be put to sleep'
       ],
@@ -52145,8 +52145,8 @@ $Lexicon = {
       'entry' => '\'antan',
       'form' => '\'antan',
       'lines' => [
-        ';; >anotan_1',
-        '>anotan PV-n    stink;decompose;become putrid',
+        ';; Oanotan_1',
+        'Oanotan PV-n    stink;decompose;become putrid',
         'notin   IV-n_yu stink;decompose;become putrid'
       ],
       'patterns' => {
@@ -52358,7 +52358,7 @@ $Lexicon = {
       'lines' => [
         ';; nisA\'_1',
         'nisA\'   N0_Nh   women',
-        'nisA&   Nh      women',
+        'nisAW   Nh      women',
         'nisA}   Nhy     women'
       ],
       'patterns' => {},
@@ -52524,8 +52524,8 @@ $Lexicon = {
       'entry' => '\'an_dar',
       'form' => '\'an_dar',
       'lines' => [
-        ';; >ano*ar_1',
-        '>ano*ar PV      warn;caution',
+        ';; Oano*ar_1',
+        'Oano*ar PV      warn;caution',
         'no*ir   IV_yu   warn;caution',
         'no*ar   IV_Pass_yu      be warned;be cautioned'
       ],
@@ -52621,8 +52621,8 @@ $Lexicon = {
       'entry' => '\'in_dAr',
       'form' => '\'in_dAr',
       'lines' => [
-        ';; <ino*Ar_1',
-        '<ino*Ar NduAt   warning;cautioning;alarm'
+        ';; Iino*Ar_1',
+        'Iino*Ar NduAt   warning;cautioning;alarm'
       ],
       'patterns' => {
         '\'in_dAr' => [
@@ -52867,8 +52867,8 @@ $Lexicon = {
       'entry' => '\'anqa_d',
       'form' => '\'anqa_d',
       'lines' => [
-        ';; >anoqa*_1',
-        '>anoqa* PV      save;rescue;salvage',
+        ';; Oanoqa*_1',
+        'Oanoqa* PV      save;rescue;salvage',
         'noqi*   IV_yu   save;rescue;salvage',
         'noqa*   IV_Pass_yu      be saved;be rescued;be salvaged'
       ],
@@ -52930,8 +52930,8 @@ $Lexicon = {
       'entry' => '\'inqA_d',
       'form' => '\'inqA_d',
       'lines' => [
-        ';; <inoqA*_1',
-        '<inoqA* N/At    rescue;salvation;relief'
+        ';; IinoqA*_1',
+        'IinoqA* N/At    rescue;salvation;relief'
       ],
       'patterns' => {
         '\'inqA_d' => [
@@ -53147,7 +53147,7 @@ $Lexicon = {
       'lines' => [
         ';; nid~_2',
         'nid~    Ndu     peer;colleague;counterpart',
-        '>anodAd N       peers;colleagues;counterparts'
+        'OanodAd N       peers;colleagues;counterparts'
       ],
       'patterns' => {
         '\'andAd' => [
@@ -53183,7 +53183,7 @@ $Lexicon = {
         ';; nadiyd_1',
         'nadiyd  N/ap    peer;rival',
         'nudadA\' N0_Nh   peers;rivals',
-        'nudadA& Nh      peers;rivals',
+        'nudadAW Nh      peers;rivals',
         'nudadA} Nhy     peers;rivals'
       ],
       'patterns' => {
@@ -53321,8 +53321,8 @@ $Lexicon = {
       'entry' => '\'an.da^g',
       'form' => '\'an.da^g',
       'lines' => [
-        ';; >anoDaj_1',
-        '>anoDaj PV      ripen;bring to maturity;cook well',
+        ';; OanoDaj_1',
+        'OanoDaj PV      ripen;bring to maturity;cook well',
         'noDij   IV_yu   ripen;bring to maturity;cook well',
         'noDaj   IV_Pass_yu      be ripened;be brought to maturity;be cooked well'
       ],
@@ -53505,7 +53505,7 @@ $Lexicon = {
       'lines' => [
         ';; naDad_1',
         'naDad   N       stack;rows;tiers',
-        '>anoDAd N       stacks;rows;tiers'
+        'OanoDAd N       stacks;rows;tiers'
       ],
       'patterns' => {
         '\'an.dAd' => [
@@ -55732,9 +55732,9 @@ $Lexicon = {
       'lines' => [
         ';; nam~_2',
         'nam~    Nall    slanderer;scandalmonger',
-        '>anim~A\'        N0_Nh   slanderers;scandalmongers',
-        '>anim~A&        Nh      slanderers;scandalmongers',
-        '>anim~A}        Nhy     slanderers;scandalmongers'
+        'Oanim~A\'        N0_Nh   slanderers;scandalmongers',
+        'Oanim~AW        Nh      slanderers;scandalmongers',
+        'Oanim~A}        Nhy     slanderers;scandalmongers'
       ],
       'patterns' => {
         '\'animmA\'' => [
@@ -56214,9 +56214,9 @@ $Lexicon = {
       'lines' => [
         ';; nabiy~_1',
         'nabiy~  Nall    prophet     [[nabiy~/ADJ]]',
-        '>anobiyA\'       N0_Nh   prophets',
-        '>anobiyA&       Nh      prophets',
-        '>anobiyA}       Nhy     prophets'
+        'OanobiyA\'       N0_Nh   prophets',
+        'OanobiyAW       Nh      prophets',
+        'OanobiyA}       Nhy     prophets'
       ],
       'patterns' => {
         '\'anbiyA\'' => [
@@ -56300,13 +56300,13 @@ $Lexicon = {
       'entry' => 'nasa\'',
       'form' => 'nasa\'',
       'lines' => [
-        ';; nasa>-a_1',
-        'nasa>   PV->    postpone;delay;defer',
+        ';; nasaO-a_1',
+        'nasaO   PV-O    postpone;delay;defer',
         'nasa|   PV-|    postpone;delay;defer',
-        'nasa&   PV_w    postpone;delay;defer',
-        'nosa>   IV      postpone;delay;defer',
+        'nasaW   PV_w    postpone;delay;defer',
+        'nosaO   IV      postpone;delay;defer',
         'nosa|   IV-|    postpone;delay;defer',
-        'nosa&   IV_wn   postpone;delay;defer',
+        'nosaW   IV_wn   postpone;delay;defer',
         'nosa}   IV_yn   postpone;delay;defer'
       ],
       'patterns' => {
@@ -56344,12 +56344,12 @@ $Lexicon = {
       'entry' => '\'ansa\'',
       'form' => '\'ansa\'',
       'lines' => [
-        ';; >anosa>_1',
-        '>anosa> PV->    postpone;delay;defer',
-        '>anosa| PV-|    postpone;delay;defer',
-        '>anosa& PV_w    postpone;delay;defer',
+        ';; OanosaO_1',
+        'OanosaO PV-O    postpone;delay;defer',
+        'Oanosa| PV-|    postpone;delay;defer',
+        'OanosaW PV_w    postpone;delay;defer',
         'nosi}   IV_yu   postpone;delay;defer',
-        'nosa>   IV_Pass_yu      be postponed;be delayed;be deferred'
+        'nosaO   IV_Pass_yu      be postponed;be delayed;be deferred'
       ],
       'patterns' => {
         'nsi\'' => [
@@ -56403,7 +56403,7 @@ $Lexicon = {
       'lines' => [
         ';; nasA\'_1',
         'nasA\'   N0_Nh   longevity',
-        'nasA&   Nh      longevity',
+        'nasAW   Nh      longevity',
         'nasA}   Nhy     longevity'
       ],
       'patterns' => {},
@@ -56442,8 +56442,8 @@ $Lexicon = {
       'entry' => 'minsa\'',
       'form' => 'minsa\'aT',
       'lines' => [
-        ';; minosa>ap_1',
-        'minosa> Napdu   stick;staff'
+        ';; minosaOap_1',
+        'minosaO Napdu   stick;staff'
       ],
       'patterns' => {},
       'index' => '1',
@@ -56685,8 +56685,8 @@ $Lexicon = {
       'entry' => '\'ankal',
       'form' => '\'ankal',
       'lines' => [
-        ';; >anokal_1',
-        '>anokal PV      repel;deter',
+        ';; Oanokal_1',
+        'Oanokal PV      repel;deter',
         'nokil   IV_yu   repel;deter',
         'nokal   IV_Pass_yu      be repelled;be deterred'
       ],
@@ -56745,7 +56745,7 @@ $Lexicon = {
       'lines' => [
         ';; nikol_1',
         'nikol   N       shackle;chain',
-        '>anokAl N       shackles;chains',
+        'OanokAl N       shackles;chains',
         'nukuwl  N       shackles;chains'
       ],
       'patterns' => {
@@ -57030,8 +57030,8 @@ $Lexicon = {
         ';; nasiyj_1',
         'nasiyj  N       textile;fabric;tissue',
         'nusuj   N       textiles;fabrics;tissue',
-        '>anosij Nap     textiles;fabrics;tissue',
-        '>anosAj N       textiles;fabrics;tissue'
+        'Oanosij Nap     textiles;fabrics;tissue',
+        'OanosAj N       textiles;fabrics;tissue'
       ],
       'patterns' => {
         '\'ansi^g' => [
@@ -57155,13 +57155,13 @@ $Lexicon = {
       'entry' => 'naka\'',
       'form' => 'naka\'',
       'lines' => [
-        ';; naka>-a_1',
-        'naka>   PV->    scrape off (scab)',
+        ';; nakaO-a_1',
+        'nakaO   PV-O    scrape off (scab)',
         'naka|   PV-|    scrape off (scab)',
-        'naka&   PV_w    scrape off (scab)',
-        'noka>   IV      scrape off (scab)',
+        'nakaW   PV_w    scrape off (scab)',
+        'nokaO   IV      scrape off (scab)',
         'noka|   IV-|    scrape off (scab)',
-        'noka&   IV_wn   scrape off (scab)',
+        'nokaW   IV_wn   scrape off (scab)',
         'noka}   IV_yn   scrape off (scab)'
       ],
       'patterns' => {
@@ -57655,8 +57655,8 @@ $Lexicon = {
       'entry' => '\'anhab',
       'form' => '\'anhab',
       'lines' => [
-        ';; >anohab_1',
-        '>anohab PV      expose to looting;surrender as booty',
+        ';; Oanohab_1',
+        'Oanohab PV      expose to looting;surrender as booty',
         'nohib   IV_yu   expose to looting;surrender as booty',
         'nohab   IV_Pass_yu      be expose to looting;be surrendered as booty'
       ],
@@ -57921,8 +57921,8 @@ $Lexicon = {
       'entry' => '\'an^sad',
       'form' => '\'an^sad',
       'lines' => [
-        ';; >ano$ad_1',
-        '>ano$ad PV      seek;sing;recite',
+        ';; Oano$ad_1',
+        'Oano$ad PV      seek;sing;recite',
         'no$id   IV_yu   seek;sing;recite',
         'no$ad   IV_Pass_yu      be sung;be recited'
       ],
@@ -58008,7 +58008,7 @@ $Lexicon = {
         'na$iyd  Ndu     anthem;hymn;song',
         'na$iyd  Napdu   anthem;hymn;song',
         'na$A}id Ndip    anthems;hymns;songs',
-        '>ano$Ad N       anthems;hymns;songs'
+        'Oano$Ad N       anthems;hymns;songs'
       ],
       'patterns' => {
         'na^sA\'id' => [
@@ -58042,9 +58042,9 @@ $Lexicon = {
       'entry' => '\'un^suwd',
       'form' => '\'un^suwdaT',
       'lines' => [
-        ';; >uno$uwdap_1',
-        '>uno$uwd        Napdu   anthem;hymn;song',
-        '>anA$iyd        Ndip    anthems;hymns;songs'
+        ';; Ouno$uwdap_1',
+        'Ouno$uwd        Napdu   anthem;hymn;song',
+        'OanA$iyd        Ndip    anthems;hymns;songs'
       ],
       'patterns' => {
         '\'anA^siyd' => [
@@ -58095,8 +58095,8 @@ $Lexicon = {
       'entry' => '\'in^sAd',
       'form' => '\'in^sAd',
       'lines' => [
-        ';; <ino$Ad_1',
-        '<ino$Ad N/At    recitation;declaration'
+        ';; Iino$Ad_1',
+        'Iino$Ad N/At    recitation;declaration'
       ],
       'patterns' => {
         '\'in^sAd' => [
@@ -58369,7 +58369,7 @@ $Lexicon = {
       'lines' => [
         ';; niZAm_1',
         'niZAm   NduAt   regime;government',
-        '>anoZim Nap     regimes;governments;systems'
+        'OanoZim Nap     regimes;governments;systems'
       ],
       'patterns' => {
         'ni.zAm' => [
@@ -58404,7 +58404,7 @@ $Lexicon = {
       'lines' => [
         ';; niZAm_2',
         'niZAm   N       methodology;system;order',
-        '>anoZim Nap     methodologies;systems'
+        'OanoZim Nap     methodologies;systems'
       ],
       'patterns' => {
         '\'an.zim' => [
@@ -59643,8 +59643,8 @@ $Lexicon = {
       'entry' => '\'an^gu_dAn',
       'form' => '\'an^gu_dAn',
       'lines' => [
-        ';; >anoju*An_1',
-        '>anoju*An       Ndip    asafetida (plant)'
+        ';; Oanoju*An_1',
+        'Oanoju*An       Ndip    asafetida (plant)'
       ],
       'patterns' => {},
       'index' => '1',
@@ -59750,9 +59750,9 @@ $Lexicon = {
       'entry' => '\'anAm',
       'form' => '\'anAm',
       'lines' => [
-        ';; >anAm_1',
-        '>anAm   PV_V    make sleep;lay down;anesthetize',
-        '>anam   PV_C    make sleep;lay down;anesthetize',
+        ';; OanAm_1',
+        'OanAm   PV_V    make sleep;lay down;anesthetize',
+        'Oanam   PV_C    make sleep;lay down;anesthetize',
         'niym    IV_V_yu make sleep;lay down;anesthetize',
         'nim     IV_C_yu make sleep;lay down;anesthetize',
         'nAm     IV_V_Pass_yu    be put to sleep;be anesthetized',
@@ -60285,9 +60285,9 @@ $Lexicon = {
       'lines' => [
         ';; nAb_1',
         'nAb     Ndu     canine tooth;fang;tusk',
-        '>anoyAb N       canine teeth;fangs;tusks',
+        'OanoyAb N       canine teeth;fangs;tusks',
         'nuyuwb  N       canine teeth;fangs;tusks',
-        '>anAyiyb        Ndip    canine teeth;fangs;tusks'
+        'OanAyiyb        Ndip    canine teeth;fangs;tusks'
       ],
       'patterns' => {
         'nuyuwb' => [
@@ -60407,12 +60407,12 @@ $Lexicon = {
       'lines' => [
         ';; nA\'-u_1',
         'nA\'     PV_V    weigh heavily;bear with difficulty;be oppressed',
-        'nA&     PV_w    weigh heavily;bear with difficulty;be oppressed',
-        'nu&     PV_C    weigh heavily;bear with difficulty;be oppressed',
+        'nAW     PV_w    weigh heavily;bear with difficulty;be oppressed',
+        'nuW     PV_C    weigh heavily;bear with difficulty;be oppressed',
         'nuw\'    IV_V    weigh heavily;bear with difficulty;be oppressed',
-        'nuw&    IV_wn   weigh heavily;bear with difficulty;be oppressed',
+        'nuwW    IV_wn   weigh heavily;bear with difficulty;be oppressed',
         'nuw}    IV_yn   weigh heavily;bear with difficulty;be oppressed',
-        'nu&     IV_C    weigh heavily;bear with difficulty;be oppressed'
+        'nuW     IV_C    weigh heavily;bear with difficulty;be oppressed'
       ],
       'patterns' => {
         'nu\'' => [
@@ -60447,12 +60447,12 @@ $Lexicon = {
       'entry' => 'nAwa\'',
       'form' => 'nAwa\'',
       'lines' => [
-        ';; nAwa>_1',
-        'nAwa>   PV      resist;oppose;compete with;contend with',
-        'nAwa&   PV_w    resist;oppose;compete with;contend with',
+        ';; nAwaO_1',
+        'nAwaO   PV      resist;oppose;compete with;contend with',
+        'nAwaW   PV_w    resist;oppose;compete with;contend with',
         'nAwi\'   IV_yu   resist;oppose;compete with;contend with',
         'nAwi}   IV_yu   resist;oppose;compete with;contend with',
-        'nAwi&   IV_wn_yu        resist;oppose;compete with;contend with'
+        'nAwiW   IV_wn_yu        resist;oppose;compete with;contend with'
       ],
       'patterns' => {
         'nAwi\'' => [
@@ -60488,13 +60488,13 @@ $Lexicon = {
       'entry' => '\'anA\'',
       'form' => '\'anA\'',
       'lines' => [
-        ';; >anA\'_1',
-        '>anA\'   PV_V    weigh down;crush',
-        '>anA&   PV_w    weigh down;crush',
-        '>ana>   PV_C    weigh down;crush',
+        ';; OanA\'_1',
+        'OanA\'   PV_V    weigh down;crush',
+        'OanAW   PV_w    weigh down;crush',
+        'OanaO   PV_C    weigh down;crush',
         'niy\'    IV_V_yu weigh down;crush',
         'niy}    IV_V_yu weigh down;crush',
-        'niy&    IV_wn_yu        weigh down;crush',
+        'niyW    IV_wn_yu        weigh down;crush',
         'ni}     IV_C_yu weigh down;crush'
       ],
       'patterns' => {
@@ -60535,12 +60535,12 @@ $Lexicon = {
       'lines' => [
         ';; nawo\'_1',
         'nawo\'   N0F     storm;hurricane',
-        'nawo>   Nh      storm;hurricane',
-        'nawo&   Nh      storm;hurricane',
+        'nawoO   Nh      storm;hurricane',
+        'nawoW   Nh      storm;hurricane',
         'nawo}   Nhy     storm;hurricane',
-        '>anowA\' N0_Nh   storms;hurricanes',
-        '>anowA& Nh      storms;hurricanes',
-        '>anowA} Nhy     storms;hurricanes',
+        'OanowA\' N0_Nh   storms;hurricanes',
+        'OanowAW Nh      storms;hurricanes',
+        'OanowA} Nhy     storms;hurricanes',
         'nuw|n   N       storms;hurricanes'
       ],
       'patterns' => {
@@ -60573,8 +60573,8 @@ $Lexicon = {
       'entry' => 'munAwa\'',
       'form' => 'munAwa\'aT',
       'lines' => [
-        ';; munAwa>ap_1',
-        'munAwa> Napdu   resistance;opposition;insubordination',
+        ';; munAwaOap_1',
+        'munAwaO Napdu   resistance;opposition;insubordination',
         'munAwa  N-|t    resistance;opposition;insubordination'
       ],
       'patterns' => {
@@ -60923,7 +60923,7 @@ $Lexicon = {
       'lines' => [
         ';; naZar_1',
         'naZar   N       view;look;seeing',
-        '>anoZAr N       glances;looking'
+        'OanoZAr N       glances;looking'
       ],
       'patterns' => {
         '\'an.zAr' => [
@@ -61052,7 +61052,7 @@ $Lexicon = {
         ';; naZiyr_1',
         'naZiyr  N/ap    counterpart;opposite number;colleague;peer',
         'nuZarA\' N0_Nh   counterparts;colleagues;peers',
-        'nuZarA& Nh      counterparts;colleagues;peers',
+        'nuZarAW Nh      counterparts;colleagues;peers',
         'nuZarA} Nhy     counterparts;colleagues;peers',
         'naZA}ir Ndip    counterparts;colleagues;peers'
       ],
@@ -61674,8 +61674,8 @@ $Lexicon = {
       'entry' => '\'anqad',
       'form' => '\'anqad',
       'lines' => [
-        ';; >anoqad_1',
-        '>anoqad PV      pay',
+        ';; Oanoqad_1',
+        'Oanoqad PV      pay',
         'noqid   IV_yu   pay',
         'noqad   IV_Pass_yu      be paid'
       ],
@@ -62119,8 +62119,8 @@ $Lexicon = {
       'entry' => '\'an^gab',
       'form' => '\'an^gab',
       'lines' => [
-        ';; >anojab_1',
-        '>anojab PV      give birth',
+        ';; Oanojab_1',
+        'Oanojab PV      give birth',
         'nojib   IV_yu   give birth',
         'nojab   IV_Pass_yu      be given birth'
       ],
@@ -62337,8 +62337,8 @@ $Lexicon = {
       'entry' => '\'in^gAb',
       'form' => '\'in^gAb',
       'lines' => [
-        ';; <inojAb_1',
-        '<inojAb NduAt   giving birth'
+        ';; IinojAb_1',
+        'IinojAb NduAt   giving birth'
       ],
       'patterns' => {
         '\'in^gAb' => [
@@ -62360,8 +62360,8 @@ $Lexicon = {
       'entry' => '\'in^gAb',
       'form' => '\'in^gAbiyy',
       'lines' => [
-        ';; <inojAbiy~_1',
-        '<inojAbiy~      Nall    birthing;giving birth'
+        ';; IinojAbiy~_1',
+        'IinojAbiy~      Nall    birthing;giving birth'
       ],
       'patterns' => {},
       'index' => '1',
@@ -62508,8 +62508,8 @@ $Lexicon = {
       'entry' => '\'ankar',
       'form' => '\'ankar',
       'lines' => [
-        ';; >anokar_1',
-        '>anokar PV      deny;disavow;refuse',
+        ';; Oanokar_1',
+        'Oanokar PV      deny;disavow;refuse',
         'nokir   IV_yu   deny;disavow;refuse',
         'nokar   IV_Pass_yu      be denied;be disavowed;be refused'
       ],
@@ -62733,10 +62733,10 @@ $Lexicon = {
       'entry' => '\'ankar',
       'form' => '\'ankar',
       'lines' => [
-        ';; >anokar_2',
-        '>anokar Nel     reprehensible;disapproving',
+        ';; Oanokar_2',
+        'Oanokar Nel     reprehensible;disapproving',
         'nakorA\' N0_Nh   reprehensible;disapproving',
-        'nakorA& Nh      reprehensible;disapproving',
+        'nakorAW Nh      reprehensible;disapproving',
         'nakorA} Nhy     reprehensible;disapproving'
       ],
       'patterns' => {
@@ -62764,8 +62764,8 @@ $Lexicon = {
       'entry' => '\'inkAr',
       'form' => '\'inkAr',
       'lines' => [
-        ';; <inokAr_1',
-        '<inokAr N/At    denial;disavowal;refusal'
+        ';; IinokAr_1',
+        'IinokAr N/At    denial;disavowal;refusal'
       ],
       'patterns' => {
         '\'inkAr' => [
@@ -62789,8 +62789,8 @@ $Lexicon = {
       'entry' => '\'inkAr',
       'form' => '\'inkAriyy',
       'lines' => [
-        ';; <inokAriy~_1',
-        '<inokAriy~      N-ap    denying;negative     [[<inokAriy~/ADJ]]'
+        ';; IinokAriy~_1',
+        'IinokAriy~      N-ap    denying;negative     [[IinokAriy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -63314,7 +63314,7 @@ $Lexicon = {
         ';; naziyh_1',
         'naziyh  N/ap    blameless;righteous;fair;impartial     [[naziyh/ADJ]]',
         'nuzahA\' N0_Nh   blameless;righteous;fair;impartial',
-        'nuzahA& Nh      blameless;righteous;fair;impartial',
+        'nuzahAW Nh      blameless;righteous;fair;impartial',
         'nuzahA} Nhy     blameless;righteous;fair;impartial',
         'nizAh   N       blameless;righteous;fair;impartial'
       ],
@@ -63959,8 +63959,8 @@ $Lexicon = {
       'entry' => '\'anka.h',
       'form' => '\'anka.h',
       'lines' => [
-        ';; >anokaH_1',
-        '>anokaH PV      give in marriage;marry off',
+        ';; OanokaH_1',
+        'OanokaH PV      give in marriage;marry off',
         'nokiH   IV_yu   give in marriage;marry off',
         'nokaH   IV_Pass_yu      be given in marriage;be married off'
       ],
@@ -64139,11 +64139,11 @@ $Lexicon = {
         ';; naqiy~_1',
         'naqiy~  N-ap    pure;clean;undiluted     [[naqiy~/ADJ]]',
         'niqA\'   N0_Nh   pure;clean;undiluted',
-        'niqA&   Nh      pure;clean;undiluted',
+        'niqAW   Nh      pure;clean;undiluted',
         'niqA}   Nhy     pure;clean;undiluted',
-        '>anoqiyA\'       N0_Nh   pure;clean;undiluted',
-        '>anoqiyA&       Nh      pure;clean;undiluted',
-        '>anoqiyA}       Nhy     pure;clean;undiluted'
+        'OanoqiyA\'       N0_Nh   pure;clean;undiluted',
+        'OanoqiyAW       Nh      pure;clean;undiluted',
+        'OanoqiyA}       Nhy     pure;clean;undiluted'
       ],
       'patterns' => {
         '\'anqiyA\'' => [
@@ -64297,7 +64297,7 @@ $Lexicon = {
         ';; naboD_1',
         'naboD   N       beating;palpitation;throbbing',
         'nabaD   N       beating;palpitation;throbbing',
-        '>anobAD N       palpitations;pulsations'
+        'OanobAD N       palpitations;pulsations'
       ],
       'patterns' => {
         'naba.d' => [
@@ -64813,7 +64813,7 @@ $Lexicon = {
         ';; naSiyr_1',
         'naSiyr  N/ap    partisan;supporter',
         'nuSarA\' N0_Nh   partisan;supporter',
-        'nuSarA& Nh      partisan;supporter',
+        'nuSarAW Nh      partisan;supporter',
         'nuSarA} Nhy     partisan;supporter'
       ],
       'patterns' => {
@@ -64989,8 +64989,8 @@ $Lexicon = {
       'entry' => '\'an.sAr',
       'form' => '\'an.sAr',
       'lines' => [
-        ';; >anoSAr_1',
-        '>anoSAr N       partisans;followers'
+        ';; OanoSAr_1',
+        'OanoSAr N       partisans;followers'
       ],
       'patterns' => {},
       'index' => '1',
@@ -65009,8 +65009,8 @@ $Lexicon = {
       'entry' => '\'an.sAr',
       'form' => '\'an.sAr',
       'lines' => [
-        ';; >anoSAr_2',
-        '>anoSAr N       Ansar'
+        ';; OanoSAr_2',
+        'OanoSAr N       Ansar'
       ],
       'patterns' => {},
       'index' => '2',
@@ -65028,8 +65028,8 @@ $Lexicon = {
       'entry' => '\'an.sAr',
       'form' => '\'an.sAriyy',
       'lines' => [
-        ';; >anoSAriy~_1',
-        '>anoSAriy~      N0      Ansari'
+        ';; OanoSAriy~_1',
+        'OanoSAriy~      N0      Ansari'
       ],
       'patterns' => {},
       'index' => '1',
@@ -65047,8 +65047,8 @@ $Lexicon = {
       'entry' => '\'an.sAr',
       'form' => '\'an.sAriyy',
       'lines' => [
-        ';; >anoSAriy~_2',
-        '>anoSAriy~      Nall    Ansari;Ansar-related     [[>anoSAriy~/ADJ]]'
+        ';; OanoSAriy~_2',
+        'OanoSAriy~      Nall    Ansari;Ansar-related     [[OanoSAriy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -65576,11 +65576,11 @@ $Lexicon = {
       'entry' => '\'an_hY',
       'form' => '\'an_hY',
       'lines' => [
-        ';; >anoxaY_1',
-        '>anoxaY PV_0    incite;arouse',
-        '>anoxA  PV_h    incite;arouse',
-        '>anoxay PV_Atn  incite;arouse',
-        '>anox   PV_ttAw incite;arouse',
+        ';; OanoxaY_1',
+        'OanoxaY PV_0    incite;arouse',
+        'OanoxA  PV_h    incite;arouse',
+        'Oanoxay PV_Atn  incite;arouse',
+        'Oanox   PV_ttAw incite;arouse',
         'noxiy   IV_0hAnn_yu     incite;arouse',
         'nox     IV_0hwnyn_yu    incite;arouse',
         'noxaY   IV_0_Pass_yu    be incited;be aroused',
@@ -66099,7 +66099,7 @@ $Lexicon = {
         ';; naZiyf_1',
         'naZiyf  N/ap    clean;tidy     [[naZiyf/ADJ]]',
         'nuZafA\' N0_Nh   clean;tidy',
-        'nuZafA& Nh      clean;tidy',
+        'nuZafAW Nh      clean;tidy',
         'nuZafA} Nhy     clean;tidy',
         'niZAf   N       clean;tidy'
       ],
@@ -66127,8 +66127,8 @@ $Lexicon = {
       'entry' => '\'an.zaf',
       'form' => '\'an.zaf',
       'lines' => [
-        ';; >anoZaf_1',
-        '>anoZaf Nel     cleaner;cleanest'
+        ';; OanoZaf_1',
+        'OanoZaf Nel     cleaner;cleanest'
       ],
       'patterns' => {},
       'index' => '1',
@@ -66370,9 +66370,9 @@ $Lexicon = {
       'entry' => '\'andar',
       'form' => '\'andar',
       'lines' => [
-        ';; >anodar_1',
-        '>anodar N       threshing floor',
-        '>anAdir Ndip    threshing floors'
+        ';; Oanodar_1',
+        'Oanodar N       threshing floor',
+        'OanAdir Ndip    threshing floors'
       ],
       'patterns' => {
         '\'anAdir' => [
@@ -66395,8 +66395,8 @@ $Lexicon = {
       'entry' => '\'andar',
       'form' => '\'andar',
       'lines' => [
-        ';; >anodar_2',
-        '>anodar Nel     rarer/rarest'
+        ';; Oanodar_2',
+        'Oanodar Nel     rarer/rarest'
       ],
       'patterns' => {},
       'index' => '2',
@@ -66649,7 +66649,7 @@ $Lexicon = {
       'lines' => [
         ';; najol_1',
         'najol   Ndu     son;scion',
-        '>anojAl N       sons;scions;progeny'
+        'OanojAl N       sons;scions;progeny'
       ],
       'patterns' => {
         '\'an^gAl' => [
@@ -66701,10 +66701,10 @@ $Lexicon = {
       'entry' => '\'an^gal',
       'form' => '\'an^gal',
       'lines' => [
-        ';; >anojal_1',
-        '>anojal Nel     wide-eyed;gaping',
+        ';; Oanojal_1',
+        'Oanojal Nel     wide-eyed;gaping',
         'najolA\' N0_Nh   wide-eyed;gaping',
-        'najolA& Nh      wide-eyed;gaping',
+        'najolAW Nh      wide-eyed;gaping',
         'najolA} Nhy     wide-eyed;gaping'
       ],
       'patterns' => {
@@ -67121,7 +67121,7 @@ $Lexicon = {
       'lines' => [
         ';; nawol_1',
         'nawol   N       gift;award',
-        '>anowAl N       gift;award'
+        'OanowAl N       gift;award'
       ],
       'patterns' => {
         '\'anwAl' => [
@@ -67660,10 +67660,10 @@ $Lexicon = {
       'entry' => '\'unbuwb',
       'form' => '\'unbuwb',
       'lines' => [
-        ';; >unobuwb_1',
-        '>unobuwb        Ndu     pipe;tube',
-        '>unobuwb        Napdu   pipe;tube',
-        '>anAbiyb        Ndip    pipes;tubes'
+        ';; Ounobuwb_1',
+        'Ounobuwb        Ndu     pipe;tube',
+        'Ounobuwb        Napdu   pipe;tube',
+        'OanAbiyb        Ndip    pipes;tubes'
       ],
       'patterns' => {
         '\'anAbiyb' => [
@@ -67692,10 +67692,10 @@ $Lexicon = {
       'entry' => '\'unbuwb',
       'form' => '\'unbuwb',
       'lines' => [
-        ';; >unobuwb_2',
-        '>unobuwb        Ndu     cylinder;bottle',
-        '>unobuwb        Napdu   cylinder;bottle',
-        '>anAbiyb        Ndip    cylinders;bottles'
+        ';; Ounobuwb_2',
+        'Ounobuwb        Ndu     cylinder;bottle',
+        'Ounobuwb        Napdu   cylinder;bottle',
+        'OanAbiyb        Ndip    cylinders;bottles'
       ],
       'patterns' => {
         '\'anAbiyb' => [
@@ -67720,8 +67720,8 @@ $Lexicon = {
       'entry' => '\'unbuwb',
       'form' => '\'unbuwbiyy',
       'lines' => [
-        ';; >unobuwbiy~_1',
-        '>unobuwbiy~     Nall    tube-shaped     [[>unobuwbiy~/ADJ]]'
+        ';; Ounobuwbiy~_1',
+        'Ounobuwbiy~     Nall    tube-shaped     [[Ounobuwbiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
@@ -67739,8 +67739,8 @@ $Lexicon = {
       'entry' => '\'unbuwb',
       'form' => '\'unbuwbiyy',
       'lines' => [
-        ';; >unobuwbiy~_2',
-        '>unobuwbiy~     Nall    cylindrical     [[>unobuwbiy~/ADJ]]'
+        ';; Ounobuwbiy~_2',
+        'Ounobuwbiy~     Nall    cylindrical     [[Ounobuwbiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '2',
@@ -68055,7 +68055,7 @@ $Lexicon = {
       'lines' => [
         ';; nafar_1',
         'nafar   N       soldier;private',
-        '>anofAr N       soldiers;troops'
+        'OanofAr N       soldiers;troops'
       ],
       'patterns' => {
         '\'anfAr' => [
@@ -68136,7 +68136,7 @@ $Lexicon = {
       'lines' => [
         ';; nafiyr_1',
         'nafiyr  N       call to arms;departure into battle',
-        '>anofir Nap     troops'
+        'Oanofir Nap     troops'
       ],
       'patterns' => {
         '\'anfir' => [
@@ -68533,8 +68533,8 @@ $Lexicon = {
       'entry' => '\'anwaq',
       'form' => '\'anwaq',
       'lines' => [
-        ';; >anowaq_1',
-        '>anowaq Nel     foolish;stupid'
+        ';; Oanowaq_1',
+        'Oanowaq Nel     foolish;stupid'
       ],
       'patterns' => {},
       'index' => '1',
@@ -68639,8 +68639,8 @@ $Lexicon = {
       'entry' => '\'an`a^s',
       'form' => '\'an`a^s',
       'lines' => [
-        ';; >anoEa$_1',
-        '>anoEa$ PV      raise;revive;stimulate',
+        ';; OanoEa$_1',
+        'OanoEa$ PV      raise;revive;stimulate',
         'noEi$   IV_yu   raise;revive;stimulate',
         'noEa$   IV_Pass_yu      be raised;be revived;be stimulated'
       ],
@@ -68747,8 +68747,8 @@ $Lexicon = {
       'entry' => '\'in`A^s',
       'form' => '\'in`A^s',
       'lines' => [
-        ';; <inoEA$_1',
-        '<inoEA$ N/At    revival;resuscitation'
+        ';; IinoEA$_1',
+        'IinoEA$ N/At    revival;resuscitation'
       ],
       'patterns' => {
         '\'in`A^s' => [
@@ -68996,8 +68996,8 @@ $Lexicon = {
       'entry' => '\'anba.t',
       'form' => '\'anba.t',
       'lines' => [
-        ';; >anobaT_1',
-        '>anobaT PV      cause to gush out;discover',
+        ';; OanobaT_1',
+        'OanobaT PV      cause to gush out;discover',
         'nobiT   IV_yu   cause to gush out;discover',
         'nobaT   IV_Pass_yu      be made to gush out;be discovered'
       ],
@@ -69139,7 +69139,7 @@ $Lexicon = {
       'lines' => [
         ';; nabaTiy~_2',
         'nabaTiy~        Nall    Nabatean     [[nabaTiy~/NOUN]]',
-        '>anobAT N       Nabateans',
+        'OanobAT N       Nabateans',
         'nabaT   N       Nabateans'
       ],
       'patterns' => {
@@ -69356,8 +69356,8 @@ $Lexicon = {
       'entry' => '\'anha.d',
       'form' => '\'anha.d',
       'lines' => [
-        ';; >anohaD_1',
-        '>anohaD PV      raise;help up',
+        ';; OanohaD_1',
+        'OanohaD PV      raise;help up',
         'nohiD   IV_yu   raise;help up',
         'nohaD   IV_Pass_yu      be raised;be helped up'
       ],
@@ -69598,8 +69598,8 @@ $Lexicon = {
       'entry' => '\'inhA.d',
       'form' => '\'inhA.d',
       'lines' => [
-        ';; <inohAD_1',
-        '<inohAD N/At    promotion;advancement'
+        ';; IinohAD_1',
+        'IinohAD N/At    promotion;advancement'
       ],
       'patterns' => {
         '\'inhA.d' => [
@@ -70497,11 +70497,11 @@ $Lexicon = {
       'entry' => '\'anhY',
       'form' => '\'anhY',
       'lines' => [
-        ';; >anohaY_1',
-        '>anohaY PV_0    complete;communicate',
-        '>anohA  PV_h    complete;communicate',
-        '>anohay PV_Atn  complete;communicate',
-        '>anoh   PV_ttAw complete;communicate',
+        ';; OanohaY_1',
+        'OanohaY PV_0    complete;communicate',
+        'OanohA  PV_h    complete;communicate',
+        'Oanohay PV_Atn  complete;communicate',
+        'Oanoh   PV_ttAw complete;communicate',
         'nohiy   IV_0hAnn_yu     complete;communicate',
         'noh     IV_0hwnyn_yu    complete;communicate',
         'nohaY   IV_0_Pass_yu    be completed;be communicated',
@@ -71347,8 +71347,8 @@ $Lexicon = {
       'entry' => '\'an.sa`',
       'form' => '\'an.sa`',
       'lines' => [
-        ';; >anoSaE_1',
-        '>anoSaE PV      recognize;acknowledge',
+        ';; OanoSaE_1',
+        'OanoSaE PV      recognize;acknowledge',
         'noSiE   IV_yu   recognize;acknowledge',
         'noSaE   IV_Pass_yu      be recognized;be acknowledged'
       ],
