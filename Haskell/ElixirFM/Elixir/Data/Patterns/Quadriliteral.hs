@@ -227,6 +227,15 @@ data PatternQ =
 
     deriving (Enum, Show, Eq)
 
+-- CaRQaL
+-- DaHRaJ
+-- BaLWaR
+-- QaZDaR
+-- QaSDaR
+-- BaRMaJ
+-- DaHWaR
+-- ZaXRaF
+-- ZaHLaQ
 
 {-
 
