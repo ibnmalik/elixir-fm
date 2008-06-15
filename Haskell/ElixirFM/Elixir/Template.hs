@@ -34,10 +34,23 @@ class Template a where
 
 merge :: (Morphing a b, Template b) => String -> a -> String
 
-merge r y = -- show (Morphs (interlock (words r) t) p s)
+merge r y = (prefixes . suffixes) [interlock (words r) t]
 
+    where Morphs t p s = morph y
+
+          prefixes x = foldr (->-) x p
+
+          suffixes x = folds (-<-) x s
+
+          folds f z = foldl (flip (++)) [] .
+                      foldr (\ x (y:s) -> let (e, i) = split y in
+                                          f i x : e : s) z
+
+          split [x]    = ([], x)
+          split (x:xs) = (x:ys, y) where (ys, y) = split xs
+          
+{-
             if null s then prefixes shown
-
                       else prefixes (init shown ++ modified ++
                                      suffixes (tail reversed))
 
@@ -52,9 +65,7 @@ merge r y = -- show (Morphs (interlock (words r) t) p s)
           reversed = reverse s
 
           modified = last shown -<- head reversed
-
-       -- modified = case suffixes of ix : _ -> last shown -<- ix
-       --                             []     -> error "Never ..."
+-}
 
 
 mergeWith :: (Morphing a b, Template b) => a -> String -> String
