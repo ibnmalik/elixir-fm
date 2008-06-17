@@ -12,6 +12,49 @@ lexicon = include section
 cluster_61  = listing "Lexicon's properties"
 
 
+ |> "b l h" <| [
+
+    FaCiL                     `verb`    {- balih-a -}          [ unwords [ "be", "stupid" ] ]
+                              `imperf`     FCaL,
+
+    TaFACaL                   `verb`    {- tabAlah -}          [ unwords [ "feign", "stupidity" ], unwords [ "play", "the", "fool" ] ],
+
+    IstaFCaL                  `verb`    {- Aisotabolah -}      [ unwords [ "deem", "stupid" ] ],
+
+    FaCaL                     `noun`    {- balah -}            [ "stupidity" ]
+                              `plural`     FaCAL |< aT,
+
+    FaCL |<< "a"              `adv`     {- baloha -}           [ unwords [ "not", "to", "mention" ] ],
+
+    HaFCaL                    `noun`    {- Oabolah -}          [ "doltish", "dumb" ]
+                              `plural`     FaCLA'
+                              `plural`     FuCL ]
+
+ |> "b l h n" <| [
+
+    KuRDUS                    `noun`    {- bulohuwn -}         [ "sphinx" ]
+                              `plural`     KaRADIS ]
+
+ |> "b l k" <| [
+
+    FCaL                      `noun`    {- blak -}             [ unwords [ "spark", "plug" ] ]
+                              `plural`     FCaL |< At,
+
+    FuCUL                     `noun`    {- buluwk -}           [ "block" ]
+                              `plural`     FuCUL |< At,
+
+    FuCuL                     `noun`    {- buluk -}            [ unwords [ "company", "(", "mil.", ")" ] ]
+                              `plural`     FuCUL ]
+
+ |> "b l k n" <| [
+
+    KaRDUS                    `noun`    {- balokuwn -}         [ "balcony" ]
+                              `plural`     KaRDUS |< At ]
+
+
+cluster_62  = listing "Lexicon's properties"
+
+
  |> "b l l" <| [
 
     FaCL                      `verb`    {- bal~-u -}           [ "soak", "wet" ]
@@ -60,7 +103,7 @@ cluster_61  = listing "Lexicon's properties"
     lA >| MuFAL |< Iy         `adj`     {- lAmubAliy~ -}       [ "indifferent", "apathetic", "indifference", "apathy" ] ]
 
 
-cluster_62  = listing "Lexicon's properties"
+cluster_63  = listing "Lexicon's properties"
 
 
  |> "b l m" <| [
@@ -88,7 +131,10 @@ cluster_62  = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- bal~An -}           [ unwords [ "bath", "-", "maid" ] ],
 
-    FaCCUL                    `noun`    {- bal~uwn -}          [ "balloon" ] ]
+    FaCCUL                    `noun`    {- bal~uwn -}          [ "balloon" ],
+
+    FICIL                     `noun`    {- biyliyn -}          [ "Bilin", "Billin" ]
+                           {- `others`  [ "bylyn Nprop" ] -} ]
 
  |> "b l q" <| [
 
@@ -121,13 +167,13 @@ cluster_62  = listing "Lexicon's properties"
     FaCCUL                    `adj`     {- bal~uwr -}          [ "crystal" ]
                               `plural`     FaCCUL |< At ]
 
+
+cluster_64  = listing "Lexicon's properties"
+
+
  |> "b l s" <| [
 
     FaCaLAn                   `noun`    {- balasAn -}          [ unwords [ "garden", "balm" ], unwords [ "balm", "-", "tree" ] ] ]
-
-
-cluster_63  = listing "Lexicon's properties"
-
 
  |> "b l s m" <| [
 
@@ -179,7 +225,7 @@ cluster_63  = listing "Lexicon's properties"
                               `plural`     MuFtaCY |< At ]
 
 
-cluster_64  = listing "Lexicon's properties"
+cluster_65  = listing "Lexicon's properties"
 
 
  |> "b l w r" <| [
@@ -245,7 +291,7 @@ cluster_64  = listing "Lexicon's properties"
     KuRDAS                    `noun`    {- bumobAy -}          [ "Bombay" ] ]
 
 
-cluster_65  = listing "Lexicon's properties"
+cluster_66  = listing "Lexicon's properties"
 
 
  |> "b n '" <| [
@@ -308,7 +354,7 @@ cluster_65  = listing "Lexicon's properties"
     FaCL                      `noun`    {- banoj -}            [ unwords [ "henbane", "(", "poisonous", "plant", ")" ], "anesthetic", "narcotic", "bong" ] ]
 
 
-cluster_66  = listing "Lexicon's properties"
+cluster_67  = listing "Lexicon's properties"
 
 
  |> "b n ^g b" <| [
@@ -378,7 +424,7 @@ cluster_66  = listing "Lexicon's properties"
                            {- `others`  [ "banaf^s N" ] -} ]
 
 
-cluster_67  = listing "Lexicon's properties"
+cluster_68  = listing "Lexicon's properties"
 
 
  |> "b n h" <| [
@@ -443,7 +489,7 @@ cluster_67  = listing "Lexicon's properties"
                               `plural`     FaC |< At ]
 
 
-cluster_68  = listing "Lexicon's properties"
+cluster_69  = listing "Lexicon's properties"
 
 
  |> "b n w" <| [
@@ -457,7 +503,7 @@ cluster_68  = listing "Lexicon's properties"
     KaRDAS                    `noun`    {- banowAr -}          [ "baignoire" ] ]
 
 
-cluster_69  = listing "Lexicon's properties"
+cluster_70  = listing "Lexicon's properties"
 
 
  |> "b n y" <| [
@@ -523,7 +569,7 @@ cluster_69  = listing "Lexicon's properties"
     FUCI                      `noun`    {- buwniy -}           [ "Boni" ] ]
 
 
-cluster_70  = listing "Lexicon's properties"
+cluster_71  = listing "Lexicon's properties"
 
 
  |> "b n y n" <| [
@@ -588,7 +634,7 @@ cluster_70  = listing "Lexicon's properties"
                               `plural`     FawACiL ]
 
 
-cluster_71  = listing "Lexicon's properties"
+cluster_72  = listing "Lexicon's properties"
 
 
  |> "b q b q" <| [
@@ -646,7 +692,7 @@ cluster_71  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- baq~Aq -}           [ "loquacious" ] ]
 
 
-cluster_72  = listing "Lexicon's properties"
+cluster_73  = listing "Lexicon's properties"
 
 
  |> "b q r" <| [
@@ -691,7 +737,7 @@ cluster_72  = listing "Lexicon's properties"
                               `plural`     KuRDuS |< At ]
 
 
-cluster_73  = listing "Lexicon's properties"
+cluster_74  = listing "Lexicon's properties"
 
 
  |> "b q y" <| [
@@ -729,7 +775,7 @@ cluster_73  = listing "Lexicon's properties"
                               `plural`     MutaFaCCI |< At ]
 
 
-cluster_74  = listing "Lexicon's properties"
+cluster_75  = listing "Lexicon's properties"
 
 
  |> "b r '" <| [
@@ -789,7 +835,7 @@ cluster_74  = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- baroga$ -}          [ "gnat", "midge" ] ]
 
 
-cluster_75  = listing "Lexicon's properties"
+cluster_76  = listing "Lexicon's properties"
 
 
  |> "b r .g _t" <| [
@@ -841,7 +887,7 @@ cluster_75  = listing "Lexicon's properties"
     MuFaCCaL                  `noun`    {- mubar~aH -}         [ "afflicted", "tormented" ] ]
 
 
-cluster_76  = listing "Lexicon's properties"
+cluster_77  = listing "Lexicon's properties"
 
 
  |> "b r .s" <| [
@@ -911,7 +957,7 @@ cluster_76  = listing "Lexicon's properties"
                               `plural`     KaRADiS ]
 
 
-cluster_77  = listing "Lexicon's properties"
+cluster_78  = listing "Lexicon's properties"
 
 
  |> "b r ^g s" <| [
@@ -965,7 +1011,7 @@ cluster_77  = listing "Lexicon's properties"
                               `plural`     KaRADiS ]
 
 
-cluster_78  = listing "Lexicon's properties"
+cluster_79  = listing "Lexicon's properties"
 
 
  |> "b r `" <| [
@@ -1030,7 +1076,7 @@ cluster_78  = listing "Lexicon's properties"
                               `plural`     KaRADiS ]
 
 
-cluster_79  = listing "Lexicon's properties"
+cluster_80  = listing "Lexicon's properties"
 
 
  |> "b r b r" <| [
@@ -1050,85 +1096,6 @@ cluster_79  = listing "Lexicon's properties"
  |> "b r b s" <| [
 
     KaRDIS                    `noun`    {- barobiys -}         [ "barbel" ] ]
-
-
-cluster_80  = listing "Lexicon's properties"
-
-
- |> "b r d" <| [
-
-    FaCaL                     `verb`    {- barad-u -}          [ "calm", "cool" ]
-                              `imperf`     FCuL,
-
-    FaCuL                     `verb`    {- barud-u -}          [ unwords [ "become", "cold" ] ]
-                              `imperf`     FCuL,
-
-    FaCCaL                    `verb`    {- bar~ad -}           [ "refrigerate", unwords [ "make", "cold" ], unwords [ "be", "cooled" ] ],
-
-    HaFCaL                    `verb`    {- Oaborad -}          [ "mail" ],
-
-    TaFaCCaL                  `verb`    {- tabar~ad -}         [ unwords [ "be", "cold" ] ],
-
-    IFtaCaL                   `verb`    {- Aibotarad -}        [ unwords [ "cool", "off" ] ],
-
-    FaCL                      `noun`    {- barod -}            [ "cold", "cooling" ],
-
-    FaCaL                     `noun`    {- barad -}            [ "hail", "hailstone" ],
-
-    FaCaL |< aT               `noun`    {- baradap -}          [ "hailstone" ],
-
-    FuCL                      `noun`    {- burod -}            [ "garment" ]
-                              `plural`     HaFCAL,
-
-    FaCUL                     `noun`    {- baruwd -}           [ unwords [ "collyrium", "(", "medicated", "solution", "for", "the", "eyes", ")" ] ],
-
-    FuCUL                     `noun`    {- buruwd -}           [ "coldness" ],
-
-    FaCL |< Iy |< aT          `noun`    {- barodiy~ap -}       [ "ague", unwords [ "fever", "attack" ] ]
-                              `plural`     FuCaLA',
-
-    FaCCAL                    `noun`    {- bar~Ad -}           [ "refrigerator" ],
-
-    FaCCAL                    `noun`    {- bar~Ad -}           [ "teapot" ],
-
-    FaCCAL |< aT              `noun`    {- bar~Adap -}         [ "refrigerator" ],
-
-    FaCCAL                    `noun`    {- bar~Ad -}           [ unwords [ "tool", "cutter" ] ],
-
-    FiCAL |< aT               `noun`    {- birAdap -}          [ unwords [ "tool", "cutting" ] ],
-
-    FuCAL |< aT               `noun`    {- burAdap -}          [ unwords [ "iron", "filings" ] ],
-
-    MiFCaL                    `noun`    {- miborad -}          [ "file", unwords [ "tool", "cutter" ] ],
-
-    TaFCIL                    `noun`    {- taboriyd -}         [ "refrigeration", "cooling" ]
-                              `plural`     TaFCIL |< At,
-
-    FACiL                     `noun`    {- bArid -}            [ "cold", "frigid" ],
-
-    MuFaCCiL                  `noun`    {- mubar~id -}         [ "cooler", "refreshing" ],
-
-    MuFaCCaL                  `noun`    {- mubar~ad -}         [ "cooled", "chilled" ],
-
-    FaCIL                     `noun`    {- bariyd -}           [ "mail", unwords [ "post", "office" ] ],
-
-    FaCIL |< Iy               `adj`     {- bariydiy~ -}        [ "postal" ],
-
-    FACUL                     `noun`    {- bAruwd -}           [ "gunpowder" ],
-
-    FACUL |< Iy               `adj`     {- bAruwdiy~ -}        [ "Baroudi" ],
-
-    FACUL |< aT               `noun`    {- bAruwdap -}         [ "rifle", "carbine" ]
-                              `plural`     FawACIL,
-
-    FaCL |< Iy                `adj`     {- barodiy~ -}         [ "papyrus" ]
-                           {- `others`  [ "burdiyy Nall" ] -},
-
-    FaCL |< Iy |< aT          `noun`    {- barodiy~ap -}       [ "papyrology" ],
-
-    FaCaLY                    `noun`    {- baradaY -}          [ "Barada" ],
-
-    FuCayL |< aT              `noun`    {- burayodap -}        [ "Bureida" ] ]
 
 
 section = [ cluster_61,

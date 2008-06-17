@@ -1527,7 +1527,9 @@ cluster_30  = listing "Lexicon's properties"
     MiFCaL                    `noun`    {- misobar -}          [ "probe", unwords [ "echo", "sounder" ] ]
                               `plural`     MaFACiL,
 
-    FACiL |< aT               `noun`    {- sAbirap -}          [ unwords [ "sound", "probe" ] ] ]
+    FACiL |< aT               `noun`    {- sAbirap -}          [ unwords [ "sound", "probe" ] ],
+
+    FICIL |< Iy               `adj`     {- siybiyriy~ -}       [ "Siberian" ] ]
 
  |> "s b s" <| [
 
@@ -2621,6 +2623,11 @@ cluster_52  = listing "Lexicon's properties"
 
     KaRDUS |< Iy              `adj`     {- salojuwqiy~ -}      [ "Seljuk" ]
                               `plural`     KaRADiS |< aT ]
+
+ |> "s l ^s" <| [
+
+    FICIL                     `noun`    {- siyliy$ -}          [ "Celes" ]
+                           {- `others`  [ "syly^s Nprop" ] -} ]
 
  |> "s l _h" <| [
 

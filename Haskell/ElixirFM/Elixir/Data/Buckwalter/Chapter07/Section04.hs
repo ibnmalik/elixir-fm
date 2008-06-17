@@ -12,6 +12,54 @@ lexicon = include section
 cluster_61  = listing "Lexicon's properties"
 
 
+ |> "_h r b" <| [
+
+    FaCaL                     `verb`    {- xarab-i -}          [ "destroy", "demolish" ]
+                              `imperf`     FCiL,
+
+    FaCiL                     `verb`    {- xarib-a -}          [ unwords [ "be", "destroyed" ], "disintegrate" ]
+                              `imperf`     FCaL,
+
+    FaCCaL                    `verb`    {- xar~ab -}           [ "destroy" ],
+
+    HaFCaL                    `verb`    {- Oaxorab -}          [ "destroy" ],
+
+    TaFaCCaL                  `verb`    {- taxar~ab -}         [ unwords [ "be", "destroyed" ] ],
+
+    FaCiL                     `noun`    {- xarib -}            [ "broken", unwords [ "out", "of", "order" ] ],
+
+    FuCL |< aT                `noun`    {- xurobap -}          [ unwords [ "eye", "of", "a", "needle" ], "hole" ],
+
+    FaCAL                     `noun`    {- xarAb -}            [ "ruins", "destroyed" ],
+
+    FaCAL |< aT               `noun`    {- xarAbap -}          [ "ruins" ]
+                              `plural`     FaCA'iL,
+
+    FaCLAn                    `noun`    {- xarobAn -}          [ unwords [ "out", "of", "order" ], "broken" ],
+
+    TaFCIL                    `noun`    {- taxoriyb -}         [ "destruction", "sabotage", "terrorism" ]
+                              `plural`     TaFCIL |< At,
+
+    TaFCIL |< Iy              `adj`     {- taxoriybiy~ -}      [ "sabotage", "terrorism" ],
+
+    FACiL                     `noun`    {- xArib -}            [ "destroyer", "annihilator" ],
+
+    MuFaCCiL                  `noun`    {- muxar~ib -}         [ "saboteur", "terrorist" ],
+
+    MuFCiL                    `noun`    {- muxorib -}          [ "annihilator", "destroyer" ],
+
+    FaCCUL                    `noun`    {- xar~uwb -}          [ "carob", "locust" ],
+
+    FaCCUL |< aT              `noun`    {- xar~uwbap -}        [ unwords [ "carob", "bean" ], unwords [ "locust", "pod" ] ],
+
+    FaCCUL |< aT              `noun`    {- xar~uwbap -}        [ "kharouba" ],
+
+    FaCCUL |< aT              `noun`    {- xar~uwbap -}        [ "Kharroubeh" ] ]
+
+
+cluster_62  = listing "Lexicon's properties"
+
+
  |> "_h r b .t" <| [
 
     KaRDaS                    `verb`    {- xarobaT -}          [ "disarrange", "confuse" ],
@@ -56,7 +104,7 @@ cluster_61  = listing "Lexicon's properties"
     KuRDaS                    `noun`    {- xurodaq -}          [ "buckshot" ] ]
 
 
-cluster_62  = listing "Lexicon's properties"
+cluster_63  = listing "Lexicon's properties"
 
 
  |> "_h r f" <| [
@@ -100,7 +148,7 @@ cluster_62  = listing "Lexicon's properties"
                               `plural`     KaRADIS ]
 
 
-cluster_63  = listing "Lexicon's properties"
+cluster_64  = listing "Lexicon's properties"
 
 
  |> "_h r m" <| [
@@ -146,7 +194,7 @@ cluster_63  = listing "Lexicon's properties"
                               `plural`     KaRADiS ]
 
 
-cluster_64  = listing "Lexicon's properties"
+cluster_65  = listing "Lexicon's properties"
 
 
  |> "_h r q" <| [
@@ -204,7 +252,7 @@ cluster_64  = listing "Lexicon's properties"
     FuCUL                     `noun`    {- xuruwr -}           [ unwords [ "falling", "down" ], "collapse" ] ]
 
 
-cluster_65  = listing "Lexicon's properties"
+cluster_66  = listing "Lexicon's properties"
 
 
  |> "_h r s" <| [
@@ -267,7 +315,7 @@ cluster_65  = listing "Lexicon's properties"
     FaCLAn |< aT              `noun`    {- xarozAnap -}        [ "switch", "rod" ] ]
 
 
-cluster_66  = listing "Lexicon's properties"
+cluster_67  = listing "Lexicon's properties"
 
 
  |> "_h s '" <| [
@@ -321,7 +369,7 @@ cluster_66  = listing "Lexicon's properties"
     MuFaCCiL                  `adj`     {- muxas~ir -}         [ "harmful", "injurious" ] ]
 
 
-cluster_67  = listing "Lexicon's properties"
+cluster_68  = listing "Lexicon's properties"
 
 
  |> "_h s s" <| [
@@ -373,7 +421,7 @@ cluster_67  = listing "Lexicon's properties"
     MuFACiL                   `noun`    {- muxAtil -}          [ "deceitful" ] ]
 
 
-cluster_68  = listing "Lexicon's properties"
+cluster_69  = listing "Lexicon's properties"
 
 
  |> "_h t m" <| [
@@ -424,7 +472,7 @@ cluster_68  = listing "Lexicon's properties"
                               `plural`     FawACIL ]
 
 
-cluster_69  = listing "Lexicon's properties"
+cluster_70  = listing "Lexicon's properties"
 
 
  |> "_h t r" <| [
@@ -488,7 +536,7 @@ cluster_69  = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- xawo$aq -}          [ "wrapping" ] ]
 
 
-cluster_70  = listing "Lexicon's properties"
+cluster_71  = listing "Lexicon's properties"
 
 
  |> "_h w _d" <| [
@@ -523,6 +571,8 @@ cluster_70  = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- xaw~Af -}           [ "fearful", "coward" ],
 
+    FaCCIL                    `noun`    {- xaw~iyf -}          [ "fearful", "coward" ],
+
     MaFAL |< aT               `noun`    {- maxAfap -}          [ "fear", "apprehension", "fearing", unwords [ "out", "of", "fear" ] ]
                               `plural`     MaFACiL,
 
@@ -544,14 +594,14 @@ cluster_70  = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oaxowaf -}          [ unwords [ "more", "/", "most", "fearful" ] ] ]
 
+
+cluster_72  = listing "Lexicon's properties"
+
+
  |> "_h w f w" <| [
 
     KuRDU                     `noun`    {- xuwfuw -}           [ "Cheops" ]
                            {- `others`  [ "_huwfw N0" ] -} ]
-
-
-cluster_71  = listing "Lexicon's properties"
-
 
  |> "_h w f y" <| [
 
@@ -611,7 +661,7 @@ cluster_71  = listing "Lexicon's properties"
     KuRDU                     `noun`    {- xuwluw -}           [ "Jolo" ] ]
 
 
-cluster_72  = listing "Lexicon's properties"
+cluster_73  = listing "Lexicon's properties"
 
 
  |> "_h w n" <| [
@@ -669,7 +719,7 @@ cluster_72  = listing "Lexicon's properties"
     KuRDuS                    `noun`    {- xuwrus -}           [ "choir" ] ]
 
 
-cluster_73  = listing "Lexicon's properties"
+cluster_74  = listing "Lexicon's properties"
 
 
  |> "_h w r y" <| [
@@ -717,7 +767,7 @@ cluster_73  = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- xawozaqap -}        [ "impaling", "cornering" ] ]
 
 
-cluster_74  = listing "Lexicon's properties"
+cluster_75  = listing "Lexicon's properties"
 
 
  |> "_h y .t" <| [
@@ -780,7 +830,7 @@ cluster_74  = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- xayodaE -}          [ "mirage" ] ]
 
 
-cluster_75  = listing "Lexicon's properties"
+cluster_76  = listing "Lexicon's properties"
 
 
  |> "_h y f" <| [
@@ -790,7 +840,7 @@ cluster_75  = listing "Lexicon's properties"
     MuFIL                     `adj`     {- muxiyf -}           [ "frightful", "horrible" ] ]
 
 
-cluster_76  = listing "Lexicon's properties"
+cluster_77  = listing "Lexicon's properties"
 
 
  |> "_h y l" <| [
@@ -850,7 +900,7 @@ cluster_76  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- xay~Al -}           [ "horseman", "rider", "horsemen", "cavalry" ] ]
 
 
-cluster_77  = listing "Lexicon's properties"
+cluster_78  = listing "Lexicon's properties"
 
 
  |> "_h y l l" <| [
@@ -879,7 +929,7 @@ cluster_77  = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- xiyAnap -}          [ "treason", "betrayal" ] ]
 
 
-cluster_78  = listing "Lexicon's properties"
+cluster_79  = listing "Lexicon's properties"
 
 
  |> "_h y r" <| [
@@ -954,7 +1004,7 @@ cluster_78  = listing "Lexicon's properties"
                               `plural`     FiCAL |< At ]
 
 
-cluster_79  = listing "Lexicon's properties"
+cluster_80  = listing "Lexicon's properties"
 
 
  |> "_h y s" <| [
@@ -1011,51 +1061,6 @@ cluster_79  = listing "Lexicon's properties"
                               `plural`     FaCA'iL,
 
     FuCAL |< aT               `noun`    {- xuzAmap -}          [ "lavender" ] ]
-
-
-cluster_80  = listing "Lexicon's properties"
-
-
- |> "_h z n" <| [
-
-    FaCaL                     `verb`    {- xazan-u -}          [ "store", "amass" ]
-                              `imperf`     FCuL,
-
-    FaCCaL                    `verb`    {- xaz~an -}           [ "store", "hoard" ],
-
-    IFtaCaL                   `verb`    {- Aixotazan -}        [ "store", "hoard" ],
-
-    FaCL                      `noun`    {- xazon -}            [ "storage", "accumulation" ],
-
-    FaCL |< aT                `noun`    {- xazonap -}          [ "safe", "vault" ],
-
-    FiCAL |< aT               `noun`    {- xizAnap -}          [ "treasury", "vault", "coffer", "lockers" ]
-                              `plural`     FaCA'iL,
-
-    FaCIL |< aT               `noun`    {- xaziynap -}         [ "treasury", "coffer", "vault" ],
-
-    FaCCAL                    `noun`    {- xaz~An -}           [ "tank", "reservoir" ]
-                              `plural`     FaCACIL,
-
-    MaFCaL                    `noun`    {- maxozan -}          [ "storehouse", "depot", "shop" ]
-                              `plural`     MaFACiL,
-
-    MaFCaL |< Iy              `adj`     {- maxozaniy~ -}       [ "governmental", "administrative" ],
-
-    MaFACiL |< Iy             `adj`     {- maxAziniy~ -}       [ "gendarme" ],
-
-    TaFCIL                    `noun`    {- taxoziyn -}         [ "storage", "safekeeping", "accumulation" ]
-                              `plural`     TaFCIL |< At,
-
-    TaFCIL |< Iy              `adj`     {- taxoziyniy~ -}      [ "storage" ],
-
-    FACiL                     `noun`    {- xAzin -}            [ "treasurer" ]
-                              `plural`     FuCCAL,
-
-    MaFCUL                    `adj`     {- maxozuwn -}         [ "stored", unwords [ "in", "stock" ] ],
-
-    MaFCUL                    `noun`    {- maxozuwn -}         [ "deposits", "reserves" ]
-                              `plural`     MaFCUL |< At ]
 
 
 section = [ cluster_61,

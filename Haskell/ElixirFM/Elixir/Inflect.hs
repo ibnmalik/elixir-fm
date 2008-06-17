@@ -246,7 +246,7 @@ instance Inflect Lexeme ParaVerb where
 
 inflectVerbP :: (Morphing a b, Forming a, Eq a) => Lexeme a -> ParaVerb -> [(Root, Morphs b)]
 
-inflectVerbP (Lexeme r e) x@(VerbP   v p g n) = paradigm (paraVerbP v p g n)
+inflectVerbP (Lexeme r e) x@(VerbP   v p g n) = paradigm (paraVerbP p g n)
 
     where paradigm p = map ((,) r . p) inEntry
 
@@ -278,7 +278,7 @@ inflectVerbP (Lexeme r e) x@(VerbP   v p g n) = paradigm (paraVerbP v p g n)
 
 inflectVerbI :: (Morphing a b, Forming a, Rules a) => Lexeme a -> ParaVerb -> [(Root, Morphs b)]
 
-inflectVerbI (Lexeme r e) x@(VerbI m v p g n) = paradigm (paraVerbI m v p g n)
+inflectVerbI (Lexeme r e) x@(VerbI m v p g n) = paradigm (paraVerbI m p g n)
 
     where paradigm p = map ((,) r . reduce p) inEntry
 
@@ -456,7 +456,7 @@ isEndless (VerbC             g n) = case (g, n) of
 isEndless _                 = False
 
 
-paraVerbP v p g n = case n of
+paraVerbP p g n = case n of
 
             Singular    ->  case (p, g) of
 
@@ -482,16 +482,29 @@ paraVerbP v p g n = case n of
                 (First,      _    ) ->  suffix "nA"
 
 
-prefixImperfect p g n i = prefix (c : i)
+paraVerbI m p g n i = prefixesVerbI p g n i . suffixesVerbI m p g n
 
-    where c = case (p, g, n) of     (First,     _    , Singular)  ->  '\''
-                                    (First,     _    ,    _    )  ->  'n'
-                                    (Third, Masculine,    _    )  ->  'y'
-                                    (Third, Feminine,  Plural)    ->  'y'
-                                    (  _  ,     _   ,     _    )  ->  't'
+prefixesVerbI p g n i = prefix (c : i) 
 
+    where c = case (p, g, n) of
 
-paraVerbI m v p g n i = prefixImperfect p g n i . case m of
+                (Third, Masculine,    _    )  ->  'y'
+                (Third, Feminine,  Plural)    ->  'y'
+                (First,     _    , Singular)  ->  '\''
+                (First,     _    ,    _    )  ->  'n'
+                (  _  ,     _    ,    _    )  ->  't'
+
+{-
+prefixesVerbI p g n i = case (p, g, n) of
+
+    (Third, Masculine,    _    )  ->  prefix ("y" ++ i)
+    (Third, Feminine,  Plural)    ->  prefix ("y" ++ i)
+    (First,     _    , Singular)  ->  prefix ("'" ++ i)
+    (First,     _    ,    _    )  ->  prefix ("n" ++ i)
+    (  _  ,     _    ,    _    )  ->  prefix ("t" ++ i)
+-}
+ 
+suffixesVerbI m p g n = case m of
 
     Indicative  ->  case n of
 
@@ -584,6 +597,26 @@ paraVerbC g n i = case n of
 
                 Masculine ->  prefix i . suffix "UW"
                 Feminine  ->  prefix i . suffix "na"
+
+{-
+paraVerbC g n i = prefix i . suffix c
+
+    where c = case n of
+
+                Singular    -> case g of
+
+                    Masculine ->  ""
+                    Feminine  ->  "I"
+
+                Dual        -> case g of
+
+                    _         ->  "A"
+
+                Plural      -> case g of
+
+                    Masculine ->  "UW"
+                    Feminine  ->  "na"
+-}
 
 
 instance Inflect Lexeme ParaAdj where

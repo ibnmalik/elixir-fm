@@ -12,6 +12,10 @@ lexicon = include section
 cluster_21  = listing "Lexicon's properties"
 
 
+ |> "d f d" <| [
+
+    FICIL                     `noun`    {- diyfiyd -}          [ "David" ] ]
+
  |> "d f f" <| [
 
     FaCL                      `verb`    {- daf~-i -}           [ "flap", "hurry" ]
@@ -104,7 +108,9 @@ cluster_22  = listing "Lexicon's properties"
  |> "d f s" <| [
 
     FaCaL                     `verb`    {- dafas-a -}          [ "hide", "push" ]
-                              `imperf`     FCaL ]
+                              `imperf`     FCaL,
+
+    FICIL                     `noun`    {- diyfiys -}          [ "Davies" ] ]
 
  |> "d f t r" <| [
 
@@ -1025,7 +1031,10 @@ cluster_39  = listing "Lexicon's properties"
                               `plural`     FuCaLA',
 
     TaFCIL                    `noun`    {- tadoniys -}         [ "pollution", "contamination", "disgracing" ]
-                              `plural`     TaFCIL |< At ]
+                              `plural`     TaFCIL |< At,
+
+    FICIL                     `noun`    {- diyniys -}          [ "Dennis" ]
+                           {- `others`  [ "diniys Nprop" ] -} ]
 
 
 cluster_40  = listing "Lexicon's properties"

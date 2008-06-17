@@ -971,15 +971,25 @@ cluster_18  = listing "Lexicon's properties"
     FACiL                     `noun`    {- mA$ik -}            [ unwords [ "fire", "tongs" ] ]
                               `plural`     FawACiL ]
 
+ |> "m ^s l" <| [
+
+    FICIL                     `noun`    {- miy$iyl -}          [ "Michael", "Michel" ]
+                              `plural`     FICAL
+                              `plural`     MICAL,
+
+    FICIL                     `noun`    {- miy$iyl -}          [ "Michelle" ]
+                              `plural`     FICAL
+                              `plural`     MICAL ]
+
+
+cluster_19  = listing "Lexicon's properties"
+
+
  |> "m ^s m ^s" <| [
 
     KiRDiS                    `noun`    {- mi$omi$ -}          [ "apricot" ],
 
     KiRDiS |< Iy              `adj`     {- mi$omi$iy~ -}       [ unwords [ "apricot", "-", "colored" ] ] ]
-
-
-cluster_19  = listing "Lexicon's properties"
-
 
  |> "m ^s q" <| [
 

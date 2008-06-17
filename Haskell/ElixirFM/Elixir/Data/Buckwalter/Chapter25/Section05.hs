@@ -1013,6 +1013,10 @@ cluster_99  = listing "Lexicon's properties"
                               `plural`     FuCL
                               `plural`     FaCLA' ]
 
+ |> "n m _t" <| [
+
+    FICIL                     `noun`    {- niymiyv -}          [ "Nemeth" ] ]
+
  |> "n m d r" <| [
 
     KaRDAS                    `noun`    {- namodAr -}          [ "Namdar" ] ]

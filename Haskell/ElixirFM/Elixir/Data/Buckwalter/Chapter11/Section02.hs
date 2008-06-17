@@ -374,7 +374,9 @@ cluster_28  = listing "Lexicon's properties"
 
     MutaFACiL                 `adj`     {- mutazAmin -}        [ "simultaneous", "coincidental" ],
 
-    lA >| MutaFACiL           `noun`    {- lAmutazAmin -}      [ unwords [ "non", "-", "simultaneous" ] ] ]
+    lA >| MutaFACiL           `noun`    {- lAmutazAmin -}      [ unwords [ "non", "-", "simultaneous" ] ],
+
+    FICIL                     `noun`    {- ziymiyn -}          [ "Zemin" ] ]
 
 
 cluster_29  = listing "Lexicon's properties"

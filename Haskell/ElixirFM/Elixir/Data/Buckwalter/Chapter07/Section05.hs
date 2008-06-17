@@ -12,6 +12,51 @@ lexicon = include section
 cluster_81  = listing "Lexicon's properties"
 
 
+ |> "_h z n" <| [
+
+    FaCaL                     `verb`    {- xazan-u -}          [ "store", "amass" ]
+                              `imperf`     FCuL,
+
+    FaCCaL                    `verb`    {- xaz~an -}           [ "store", "hoard" ],
+
+    IFtaCaL                   `verb`    {- Aixotazan -}        [ "store", "hoard" ],
+
+    FaCL                      `noun`    {- xazon -}            [ "storage", "accumulation" ],
+
+    FaCL |< aT                `noun`    {- xazonap -}          [ "safe", "vault" ],
+
+    FiCAL |< aT               `noun`    {- xizAnap -}          [ "treasury", "vault", "coffer", "lockers" ]
+                              `plural`     FaCA'iL,
+
+    FaCIL |< aT               `noun`    {- xaziynap -}         [ "treasury", "coffer", "vault" ],
+
+    FaCCAL                    `noun`    {- xaz~An -}           [ "tank", "reservoir" ]
+                              `plural`     FaCACIL,
+
+    MaFCaL                    `noun`    {- maxozan -}          [ "storehouse", "depot", "shop" ]
+                              `plural`     MaFACiL,
+
+    MaFCaL |< Iy              `adj`     {- maxozaniy~ -}       [ "governmental", "administrative" ],
+
+    MaFACiL |< Iy             `adj`     {- maxAziniy~ -}       [ "gendarme" ],
+
+    TaFCIL                    `noun`    {- taxoziyn -}         [ "storage", "safekeeping", "accumulation" ]
+                              `plural`     TaFCIL |< At,
+
+    TaFCIL |< Iy              `adj`     {- taxoziyniy~ -}      [ "storage" ],
+
+    FACiL                     `noun`    {- xAzin -}            [ "treasurer" ]
+                              `plural`     FuCCAL,
+
+    MaFCUL                    `adj`     {- maxozuwn -}         [ "stored", unwords [ "in", "stock" ] ],
+
+    MaFCUL                    `noun`    {- maxozuwn -}         [ "deposits", "reserves" ]
+                              `plural`     MaFCUL |< At ]
+
+
+cluster_82  = listing "Lexicon's properties"
+
+
  |> "_h z q" <| [
 
     FaCaL                     `verb`    {- xazaq-i -}          [ "pierce", "ram", "tear" ]
@@ -44,7 +89,7 @@ cluster_81  = listing "Lexicon's properties"
     KaRDaS |< Iy              `adj`     {- xazorajiy~ -}       [ "Khazraji" ] ]
 
 
-cluster_82  = listing "Lexicon's properties"
+cluster_83  = listing "Lexicon's properties"
 
 
  |> "_h z y" <| [
@@ -112,7 +157,7 @@ cluster_82  = listing "Lexicon's properties"
     Identity                  `noun`    {- xAqAn -}            [ "overlord", "monarch" ] ]
 
 
-cluster_83  = listing "Lexicon's properties"
+cluster_84  = listing "Lexicon's properties"
 
 
  |> "_hAra.sIn" <| [
@@ -153,17 +198,9 @@ cluster_83  = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- xuwzisotAniy~ -}    [ "Khuzistani" ] ]
 
- |> "_ha.t.tIf" <| [
-
-    Identity                  `noun`    {- xaT~iyf -}          [ "hook" ] ]
-
  |> "_halan^g" <| [
 
     Identity                  `noun`    {- xalanoj -}          [ "heath" ] ]
-
- |> "_hallIk" <| [
-
-    Identity                  `noun`    {- xal~iyk -}          [ "acetic" ] ]
 
  |> "_hamsmA'" <| [
 
@@ -177,10 +214,6 @@ cluster_83  = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- xaromanojiy~ -}     [ unwords [ "tobacco", "tester" ] ] ]
 
- |> "_hawwIf" <| [
-
-    Identity                  `noun`    {- xaw~iyf -}          [ "fearful", "coward" ] ]
-
  |> "_hayrAllh" <| [
 
     Identity                  `noun`    {- xayorAllh -}        [ "Khairallah", "Kheirallah", "Khairullah" ] ]
@@ -190,7 +223,7 @@ cluster_83  = listing "Lexicon's properties"
     Identity                  `noun`    {- xayozuwrAn -}       [ "bamboo", "reed" ] ]
 
 
-cluster_84  = listing "Lexicon's properties"
+cluster_85  = listing "Lexicon's properties"
 
 
  |> "_hazandAr" <| [
@@ -267,5 +300,6 @@ cluster_84  = listing "Lexicon's properties"
 section = [ cluster_81,
             cluster_82,
             cluster_83,
-            cluster_84 ]
+            cluster_84,
+            cluster_85 ]
 

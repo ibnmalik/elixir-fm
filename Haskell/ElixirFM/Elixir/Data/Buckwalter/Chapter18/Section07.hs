@@ -518,6 +518,9 @@ cluster_132 = listing "Lexicon's properties"
     FaCL                      `noun`    {- Eayon -}            [ unwords [ "ain", "(", "Arabic", "letter", ")" ] ]
                               `plural`     FaCL |< At,
 
+    FuwayL |< At              `noun`    {- EuwayonAt -}        [ "glasses", "spectacles" ]
+                              `plural`     FuwayL |< At,
+
     HaFCAL                    `noun`    {- OaEoyAn -}          [ "notables", "VIP's" ],
 
     FaCL |< Iy                `adj`     {- Eayoniy~ -}         [ "ocular", "eye", "real" ],

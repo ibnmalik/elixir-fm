@@ -65,7 +65,9 @@ cluster_141 = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     FUL |< Iy                 `noun`    {- nuwtiy~ -}          [ "sailor", "skipper", "crew" ]
-                           {- `others`  [ "nawAtiyy N" ] -} ]
+                           {- `others`  [ "nawAtiyy N" ] -},
+
+    FICIL                     `noun`    {- niywiyt -}          [ "Niweat" ] ]
 
  |> "n w w" <| [
 

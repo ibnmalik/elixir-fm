@@ -270,6 +270,10 @@ cluster_5   = listing "Lexicon's properties"
                               `plural`     FaCACIL
                               `plural`     FaCALIn ]
 
+ |> "t n t" <| [
+
+    FICIL                     `noun`    {- tiyniyt -}          [ "Tenet" ] ]
+
  |> "t n y" <| [
 
     FUCI                      `noun`    {- tuwniy -}           [ "Toni" ],
@@ -280,13 +284,13 @@ cluster_5   = listing "Lexicon's properties"
 
     FaCLAn |< Iy              `adj`     {- tanzAniy~ -}        [ "Tanzanian" ] ]
 
- |> "t n z n" <| [
-
-    KaRDAS |< Iy              `adj`     {- tanzAniy~ -}        [ "Tanzanian" ] ]
-
 
 cluster_6   = listing "Lexicon's properties"
 
+
+ |> "t n z n" <| [
+
+    KaRDAS |< Iy              `adj`     {- tanzAniy~ -}        [ "Tanzanian" ] ]
 
  |> "t q n" <| [
 

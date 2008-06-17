@@ -387,6 +387,10 @@ cluster_7   = listing "Lexicon's properties"
 cluster_8   = listing "Lexicon's properties"
 
 
+ |> "d f d" <| [
+
+    FICIL                     `noun`    {- diyfiyd -}          [ "David" ] ]
+
  |> "d f f" <| [
 
     FaCL |< aT                `noun`    {- daf~ap -}           [ "side", "leaf" ],
@@ -417,6 +421,10 @@ cluster_8   = listing "Lexicon's properties"
     TaFaCCuL                  `noun`    {- tadaf~uq -}         [ "outpour", "effusion", "outburst" ]
                               `plural`     TaFaCCuL |< At ]
 
+ |> "d f s" <| [
+
+    FICIL                     `noun`    {- diyfiys -}          [ "Davies" ] ]
+
  |> "d f t r" <| [
 
     KaRDaS                    `noun`    {- dafotar -}          [ "notebook", "ledger", "register" ]
@@ -435,6 +443,10 @@ cluster_8   = listing "Lexicon's properties"
 
     MuFCiL                    `adj`     {- mudohi$ -}          [ "surprising", "alarming" ] ]
 
+
+cluster_9   = listing "Lexicon's properties"
+
+
  |> "d h m" <| [
 
     FaCaL                     `verb`    {- daham-a -}          [ "surprise", "raid" ]
@@ -444,10 +456,6 @@ cluster_8   = listing "Lexicon's properties"
     FACaL                     `verb`    {- dAham -}            [ "raid", "attack", "storm", "surprise" ],
 
     MuFACaL |< aT             `noun`    {- mudAhamap -}        [ "raid", "storming", "search" ] ]
-
-
-cluster_9   = listing "Lexicon's properties"
-
 
  |> "d h n" <| [
 
@@ -662,6 +670,11 @@ cluster_12  = listing "Lexicon's properties"
 
     FICAL                     `noun`    {- diynAr -}           [ "dinar" ]
                               `plural`     FaCACIL ]
+
+ |> "d n s" <| [
+
+    FICIL                     `noun`    {- diyniys -}          [ "Dennis" ]
+                           {- `others`  [ "diniys Nprop" ] -} ]
 
  |> "d n w" <| [
 

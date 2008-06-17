@@ -186,6 +186,13 @@ cluster_43  = listing "Lexicon's properties"
 
     FuCLY                     `noun`    {- mul~aY -}           [ "bread" ] ]
 
+ |> "m l m" <| [
+
+    FaCCIL                    `noun`    {- mal~iym -}          [ "millieme" ]
+                              `plural`     FaCACIL
+                              `plural`     FaCCIL |< At
+                              `plural`     FaCIL |< At ]
+
 
 cluster_44  = listing "Lexicon's properties"
 

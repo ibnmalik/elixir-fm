@@ -16424,6 +16424,33 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  's l ^s' => [
+    {
+      'types' => {
+        'syly^s' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'siyliy^s',
+      'form' => 'siyliy^s',
+      'lines' => [
+        ';; siyliy$_1',
+        'syly$   Nprop   Celes'
+      ],
+      'patterns' => {
+        'syly^s' => []
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FICIL',
+      'suffix' => '',
+      'glosses' => [
+        'Celes'
+      ],
+      'orig' => 'siyliy$',
+      'prefix' => ''
+    }
+  ],
   's n t' => [
     {
       'types' => {},
@@ -31318,17 +31345,10 @@ $Lexicon = {
   ],
   's y l ^s' => [
     {
-      'types' => {
-        'syly^s' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'siyliy^s',
       'form' => 'siyliy^s',
-      'lines' => [
-        ';; siyliy$_1',
-        'syly$   Nprop   Celes'
-      ],
+      'lines' => [],
       'patterns' => {
         'syly^s' => []
       },
@@ -31336,9 +31356,7 @@ $Lexicon = {
       'entity' => 'noun',
       'morphs' => 'KiRDIS',
       'suffix' => '',
-      'glosses' => [
-        'Celes'
-      ],
+      'glosses' => [],
       'orig' => 'siyliy$',
       'prefix' => ''
     }
@@ -43594,6 +43612,26 @@ $Lexicon = {
       ],
       'orig' => 'sAbirap',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'siybiyr',
+      'form' => 'siybiyriyy',
+      'lines' => [
+        ';; siybiyriy~_1',
+        'siybiyriy~      Nall    Siberian     [[siybiyriy~/NOUN]]',
+        'siybiyriy~      Nall    Siberian     [[siybiyriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FICIL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Siberian'
+      ],
+      'orig' => 'siybiyriy~',
+      'prefix' => ''
     }
   ],
   'sUrfI' => [
@@ -44331,19 +44369,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'siybiyr',
       'form' => 'siybiyriyy',
-      'lines' => [
-        ';; siybiyriy~_1',
-        'siybiyriy~      Nall    Siberian     [[siybiyriy~/NOUN]]',
-        'siybiyriy~      Nall    Siberian     [[siybiyriy~/ADJ]]'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'KiRDIS |< Iy',
       'suffix' => ' |< Iy',
-      'glosses' => [
-        'Siberian'
-      ],
+      'glosses' => [],
       'orig' => 'siybiyriy~',
       'prefix' => ''
     }
@@ -55691,6 +55723,9 @@ $Lexicon->{'s k k'}[5]{'glosses'} = $Lexicon->{'s k n'}[0]{'glosses'};
 $Lexicon->{'s y f'}[6]{'types'} = $Lexicon->{'s f n'}[5]{'types'};
 $Lexicon->{'s y f'}[6]{'lines'} = $Lexicon->{'s f n'}[5]{'lines'};
 $Lexicon->{'s y f'}[6]{'glosses'} = $Lexicon->{'s f n'}[5]{'glosses'};
+$Lexicon->{'s y l ^s'}[0]{'types'} = $Lexicon->{'s l ^s'}[0]{'types'};
+$Lexicon->{'s y l ^s'}[0]{'lines'} = $Lexicon->{'s l ^s'}[0]{'lines'};
+$Lexicon->{'s y l ^s'}[0]{'glosses'} = $Lexicon->{'s l ^s'}[0]{'glosses'};
 $Lexicon->{'s w h ^g'}[0]{'types'} = $Lexicon->{'s h ^g'}[0]{'types'};
 $Lexicon->{'s w h ^g'}[0]{'lines'} = $Lexicon->{'s h ^g'}[0]{'lines'};
 $Lexicon->{'s w h ^g'}[0]{'glosses'} = $Lexicon->{'s h ^g'}[0]{'glosses'};
@@ -55760,6 +55795,9 @@ $Lexicon->{'s w \''}[15]{'glosses'} = $Lexicon->{'s y \''}[2]{'glosses'};
 $Lexicon->{'s w \''}[16]{'types'} = $Lexicon->{'s y \''}[3]{'types'};
 $Lexicon->{'s w \''}[16]{'lines'} = $Lexicon->{'s y \''}[3]{'lines'};
 $Lexicon->{'s w \''}[16]{'glosses'} = $Lexicon->{'s y \''}[3]{'glosses'};
+$Lexicon->{'s y b r'}[0]{'types'} = $Lexicon->{'s b r'}[6]{'types'};
+$Lexicon->{'s y b r'}[0]{'lines'} = $Lexicon->{'s b r'}[6]{'lines'};
+$Lexicon->{'s y b r'}[0]{'glosses'} = $Lexicon->{'s b r'}[6]{'glosses'};
 $Lexicon->{'s y r'}[19]{'types'} = $Lexicon->{'s \' r'}[3]{'types'};
 $Lexicon->{'s y r'}[19]{'lines'} = $Lexicon->{'s \' r'}[3]{'lines'};
 $Lexicon->{'s y r'}[19]{'glosses'} = $Lexicon->{'s \' r'}[3]{'glosses'};

@@ -559,6 +559,10 @@ cluster_31  = listing "Lexicon's properties"
 cluster_32  = listing "Lexicon's properties"
 
 
+ |> "' f t" <| [
+
+    FICIL                     `noun`    {- Iiyfiyt -}          [ "Ivette" ] ]
+
  |> "' f y" <| [
 
     FaCI                      `noun`    {- Oafiy -}            [ "Avi" ] ]

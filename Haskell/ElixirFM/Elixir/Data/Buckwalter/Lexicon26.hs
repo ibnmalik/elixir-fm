@@ -687,6 +687,11 @@ cluster_15  = listing "Lexicon's properties"
     FaCA'                     `noun`    {- habA' -}            [ unwords [ "dust", "particle" ] ]
                               `plural`     HaFCA' ]
 
+ |> "h b z" <| [
+
+    FICIL                     `noun`    {- hiybiyz -}          [ "hippies" ]
+                              `plural`     FiCCIL ]
+
  |> "h d '" <| [
 
     FaCaL                     `verb`    {- hadaO-a -}          [ unwords [ "calm", "down" ], "subside" ]
@@ -1328,7 +1333,9 @@ cluster_28  = listing "Lexicon's properties"
     FaCCaL                    `verb`    {- hal~an -}           [ "Hellenize" ],
 
     TaFCIL                    `noun`    {- taholiyn -}         [ "Hellenization" ]
-                              `plural`     TaFCIL |< At ]
+                              `plural`     TaFCIL |< At,
+
+    FICIL |< Iy |< aT         `noun`    {- hiyliyniy~ap -}     [ "Hellenism" ] ]
 
  |> "h l q m" <| [
 

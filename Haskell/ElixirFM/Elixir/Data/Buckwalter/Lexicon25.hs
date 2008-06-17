@@ -4977,6 +4977,10 @@ cluster_99  = listing "Lexicon's properties"
                               `plural`     FuCL
                               `plural`     FaCLA' ]
 
+ |> "n m _t" <| [
+
+    FICIL                     `noun`    {- niymiyv -}          [ "Nemeth" ] ]
+
  |> "n m d r" <| [
 
     KaRDAS                    `noun`    {- namodAr -}          [ "Namdar" ] ]
@@ -7097,7 +7101,9 @@ cluster_141 = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     FUL |< Iy                 `noun`    {- nuwtiy~ -}          [ "sailor", "skipper", "crew" ]
-                           {- `others`  [ "nawAtiyy N" ] -} ]
+                           {- `others`  [ "nawAtiyy N" ] -},
+
+    FICIL                     `noun`    {- niywiyt -}          [ "Niweat" ] ]
 
  |> "n w w" <| [
 

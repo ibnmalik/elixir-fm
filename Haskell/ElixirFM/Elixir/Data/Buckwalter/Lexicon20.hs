@@ -2001,6 +2001,10 @@ cluster_39  = listing "Lexicon's properties"
     InFiCAL                   `noun`    {- AinofilAE -}        [ "chapping" ]
                               `plural`     InFiCAL |< At ]
 
+ |> "f l b" <| [
+
+    FICIL                     `noun`    {- fiyliyb -}          [ "Philip", "Philippe", "Phillippe" ] ]
+
  |> "f l f l" <| [
 
     KaRDaS                    `verb`    {- falofal -}          [ "pepper" ],
@@ -2403,7 +2407,9 @@ cluster_47  = listing "Lexicon's properties"
 
  |> "f n q" <| [
 
-    TaFaCCaL                  `verb`    {- tafan~aq -}         [ unwords [ "live", "in", "comfort" ] ] ]
+    TaFaCCaL                  `verb`    {- tafan~aq -}         [ unwords [ "live", "in", "comfort" ] ],
+
+    FICIL |< Iy               `adj`     {- fiyniyqiy~ -}       [ "Phoenician" ] ]
 
  |> "f n r" <| [
 
@@ -4198,6 +4204,10 @@ cluster_82  = listing "Lexicon's properties"
  |> "f t r n" <| [
 
     KaRDIS |< aT              `noun`    {- fatoriynap -}       [ unwords [ "display", "window" ] ] ]
+
+ |> "f t s" <| [
+
+    FICIL                     `noun`    {- fiytiys -}          [ "Vitesse" ] ]
 
  |> "f t t" <| [
 

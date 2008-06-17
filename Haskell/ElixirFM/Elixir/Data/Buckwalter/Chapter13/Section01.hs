@@ -197,6 +197,8 @@ cluster_4   = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- \$ag~Al -}          [ unwords [ "in", "operation" ], "running", "functioning" ],
 
+    FaCCIL                    `adj`     {- \$ag~iyl -}         [ unwords [ "hard", "-", "working" ], "laboring" ],
+
     FACUL                     `noun`    {- \$Aguwl -}          [ "mainsheet" ],
 
     MaFCaL                    `noun`    {- ma$ogal -}          [ "workshop", "workhouse" ]

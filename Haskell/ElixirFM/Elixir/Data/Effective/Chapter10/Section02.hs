@@ -384,6 +384,10 @@ cluster_27  = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- ranodap -}          [ "Randa" ]
                            {- `others`  [ "randah Nprop" ] -} ]
 
+ |> "r n h" <| [
+
+    FICIL                     `noun`    {- riyniyh -}          [ "Rene" ] ]
+
  |> "r n n" <| [
 
     FaCCAL                    `adj`     {- ran~An -}           [ "resounding", "resonating", "ringing", "reverberating" ],

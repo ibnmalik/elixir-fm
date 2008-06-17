@@ -557,6 +557,11 @@ cluster_52  = listing "Lexicon's properties"
     KaRDUS |< Iy              `adj`     {- salojuwqiy~ -}      [ "Seljuk" ]
                               `plural`     KaRADiS |< aT ]
 
+ |> "s l ^s" <| [
+
+    FICIL                     `noun`    {- siyliy$ -}          [ "Celes" ]
+                           {- `others`  [ "syly^s Nprop" ] -} ]
+
  |> "s l _h" <| [
 
     FaCaL                     `verb`    {- salax-au -}         [ unwords [ "strip", "off" ], "terminate", "spend" ]

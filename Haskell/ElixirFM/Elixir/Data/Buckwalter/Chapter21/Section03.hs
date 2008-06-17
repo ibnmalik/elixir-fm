@@ -655,7 +655,9 @@ cluster_51  = listing "Lexicon's properties"
 
     FiCCIL                    `noun`    {- qil~iyT -}          [ unwords [ "scrotal", "hernia" ] ],
 
-    FaCIL                     `noun`    {- qaliyT -}           [ unwords [ "suffering", "from", "scrotal", "hernia" ] ] ]
+    FaCIL                     `noun`    {- qaliyT -}           [ unwords [ "suffering", "from", "scrotal", "hernia" ] ],
+
+    FICIL                     `noun`    {- qiyliyT -}          [ unwords [ "suffering", "from", "scrotal", "hernia" ] ] ]
 
  |> "q l ^s" <| [
 
@@ -667,14 +669,14 @@ cluster_51  = listing "Lexicon's properties"
     FACUL                     `noun`    {- qAluw$ -}           [ "galoshes" ]
                               `plural`     FACUL |< At ]
 
+
+cluster_52  = listing "Lexicon's properties"
+
+
  |> "q l ^s n" <| [
 
     KaRDIS                    `noun`    {- qalo$iyn -}         [ "puttee", "legging", "gaiter" ]
                               `plural`     KaRADIS ]
-
-
-cluster_52  = listing "Lexicon's properties"
-
 
  |> "q l `" <| [
 

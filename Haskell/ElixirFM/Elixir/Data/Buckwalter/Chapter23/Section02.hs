@@ -514,6 +514,11 @@ cluster_30  = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- labiyq -}           [ "adroit", "suave" ] ]
 
+ |> "l b r" <| [
+
+    FICIL |< Iy               `adj`     {- liybiyriy~ -}       [ "Liberian" ]
+                           {- `others`  [ "libiyriyy Nall_L", "laybiyriyy Nall_L" ] -} ]
+
 
 cluster_31  = listing "Lexicon's properties"
 
@@ -550,6 +555,8 @@ cluster_31  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- labiys -}           [ "worn", unwords [ "second", "-", "hand" ] ],
 
     FaCUL                     `noun`    {- labuws -}           [ "clothing", "attire" ],
+
+    FaCCIL |< aT              `noun`    {- lab~iysap -}        [ "shoehorn" ],
 
     MaFCaL                    `noun`    {- malobas -}          [ "clothes", "dress", "attire" ]
                               `plural`     MaFACiL,

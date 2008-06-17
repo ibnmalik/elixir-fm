@@ -14190,6 +14190,25 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => '^suwayy',
+      'form' => '^suwayyaT',
+      'lines' => [
+        ';; $uway~ap_1',
+        '$uway~  Nap     a little bit'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuwayL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'a little bit'
+      ],
+      'orig' => '$uway~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => '^sayy',
       'form' => '^sayyAt',
       'lines' => [
@@ -17515,18 +17534,13 @@ $Lexicon = {
       'types' => {},
       'entry' => '^suwayy',
       'form' => '^suwayyaT',
-      'lines' => [
-        ';; $uway~ap_1',
-        '$uway~  Nap     a little bit'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCayL |< aT',
       'suffix' => ' |< aT',
-      'glosses' => [
-        'a little bit'
-      ],
+      'glosses' => [],
       'orig' => '$uway~ap',
       'prefix' => ''
     }
@@ -25126,6 +25140,26 @@ $Lexicon = {
         'functioning'
       ],
       'orig' => '$ag~Al',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '^sa.g.giyl',
+      'form' => '^sa.g.giyl',
+      'lines' => [
+        ';; $ag~iyl_1',
+        '$ag~iyl N-ap    hard-working;laboring     [[$ag~iyl/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCCIL',
+      'suffix' => '',
+      'glosses' => [
+        'hard-working',
+        'laboring'
+      ],
+      'orig' => '$ag~iyl',
       'prefix' => ''
     },
     {
@@ -35065,28 +35099,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '^sa.g.gIl' => [
-    {
-      'types' => {},
-      'entry' => '^sa.g.giyl',
-      'form' => '^sa.g.giyl',
-      'lines' => [
-        ';; $ag~iyl_1',
-        '$ag~iyl N-ap    hard-working;laboring     [[$ag~iyl/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'hard-working',
-        'laboring'
-      ],
-      'orig' => '$ag~iyl',
-      'prefix' => ''
-    }
-  ],
   '^s r _d m' => [
     {
       'types' => {},
@@ -44304,6 +44316,9 @@ $Lexicon->{'^s ^g w'}[9]{'glosses'} = $Lexicon->{'^s ^g y'}[3]{'glosses'};
 $Lexicon->{'^s w y'}[2]{'types'} = $Lexicon->{'^s y y'}[0]{'types'};
 $Lexicon->{'^s w y'}[2]{'lines'} = $Lexicon->{'^s y y'}[0]{'lines'};
 $Lexicon->{'^s w y'}[2]{'glosses'} = $Lexicon->{'^s y y'}[0]{'glosses'};
+$Lexicon->{'^s w y'}[9]{'types'} = $Lexicon->{'^s y y'}[1]{'types'};
+$Lexicon->{'^s w y'}[9]{'lines'} = $Lexicon->{'^s y y'}[1]{'lines'};
+$Lexicon->{'^s w y'}[9]{'glosses'} = $Lexicon->{'^s y y'}[1]{'glosses'};
 $Lexicon->{'^s y b'}[4]{'types'} = $Lexicon->{'^s \' b'}[1]{'types'};
 $Lexicon->{'^s y b'}[4]{'lines'} = $Lexicon->{'^s \' b'}[1]{'lines'};
 $Lexicon->{'^s y b'}[4]{'glosses'} = $Lexicon->{'^s \' b'}[1]{'glosses'};

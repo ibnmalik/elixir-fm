@@ -936,6 +936,10 @@ cluster_39  = listing "Lexicon's properties"
     InFiCAL                   `noun`    {- AinofilAE -}        [ "chapping" ]
                               `plural`     InFiCAL |< At ]
 
+ |> "f l b" <| [
+
+    FICIL                     `noun`    {- fiyliyb -}          [ "Philip", "Philippe", "Phillippe" ] ]
+
  |> "f l f l" <| [
 
     KaRDaS                    `verb`    {- falofal -}          [ "pepper" ],

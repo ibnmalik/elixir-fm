@@ -1599,6 +1599,10 @@ cluster_31  = listing "Lexicon's properties"
 cluster_32  = listing "Lexicon's properties"
 
 
+ |> "' f t" <| [
+
+    FICIL                     `noun`    {- Iiyfiyt -}          [ "Ivette" ] ]
+
  |> "' f y" <| [
 
     FaCI                      `noun`    {- Oafiy -}            [ "Avi" ] ]
@@ -2175,14 +2179,18 @@ cluster_42  = listing "Lexicon's properties"
 
     MuFaCCiL                  `noun`    {- muWal~is -}         [ "belittling", "disparaging" ] ]
 
- |> "' l t y" <| [
+ |> "' l t" <| [
 
-    KaRDAS                    `noun`    {- OalotAy -}          [ "Altai", "Altaisk" ]
-                           {- `others`  [ "'altAysk Nprop" ] -} ]
+    FICIL                     `noun`    {- Iiyliyt -}          [ "Elit" ] ]
 
 
 cluster_43  = listing "Lexicon's properties"
 
+
+ |> "' l t y" <| [
+
+    KaRDAS                    `noun`    {- OalotAy -}          [ "Altai", "Altaisk" ]
+                           {- `others`  [ "'altAysk Nprop" ] -} ]
 
  |> "' l w" <| [
 
@@ -2245,15 +2253,15 @@ cluster_43  = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- Oamiybap -}         [ "amoeba" ]
                            {- `others`  [ "'amiybA N0" ] -} ]
 
+
+cluster_44  = listing "Lexicon's properties"
+
+
  |> "' m b r" <| [
 
     KaRDIS                    `noun`    {- Oamobiyr -}         [ "ampere" ]
                               `plural`     KaRADIS
                               `plural`     KaRDIS |< At ]
-
-
-cluster_44  = listing "Lexicon's properties"
-
 
  |> "' m d" <| [
 
@@ -4793,6 +4801,10 @@ cluster_87  = listing "Lexicon's properties"
     MutaFACiL                 `noun`    {- muta|zir -}         [ "cooperating", "coordinating" ],
 
     MuFtaCiL                  `noun`    {- muWotazir -}        [ "supporter" ] ]
+
+ |> "' z s" <| [
+
+    FICIL                     `noun`    {- Iiyziys -}          [ "Isis" ] ]
 
  |> "' z t" <| [
 

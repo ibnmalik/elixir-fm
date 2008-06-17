@@ -1196,10 +1196,6 @@ cluster_97  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- malanoxuwliyA -}    [ "melancholia" ] ]
 
- |> "mallIm" <| [
-
-    Identity                  `noun`    {- mal~iym -}          [ "millieme" ] ]
-
  |> "mamAdU" <| [
 
     Identity                  `noun`    {- mamAduw -}          [ "Mamadou" ] ]
@@ -1232,13 +1228,13 @@ cluster_97  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- maqadiy$uw -}       [ "Mogadishu" ] ]
 
-
-cluster_98  = listing "Lexicon's properties"
-
-
  |> "maqdUnis" <| [
 
     Identity                  `noun`    {- maqoduwnis -}       [ "parsley" ] ]
+
+
+cluster_98  = listing "Lexicon's properties"
+
 
  |> "maqdUniyA" <| [
 
@@ -1310,13 +1306,13 @@ cluster_98  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- miliyjrAm -}        [ "milligram" ] ]
 
-
-cluster_99  = listing "Lexicon's properties"
-
-
  |> "milImitr" <| [
 
     Identity                  `noun`    {- miliymitr -}        [ "millimeter" ] ]
+
+
+cluster_99  = listing "Lexicon's properties"
+
 
  |> "milIyit" <| [
 
@@ -1390,13 +1386,13 @@ cluster_99  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- muxA -}             [ "Mocha" ] ]
 
-
-cluster_100 = listing "Lexicon's properties"
-
-
  |> "mu_h_hay.t" <| [
 
     Identity                  `noun`    {- mux~ayoT -}         [ unwords [ "sebesten", "(", "bot.", ")" ] ] ]
+
+
+cluster_100 = listing "Lexicon's properties"
+
 
  |> "muhradAr" <| [
 

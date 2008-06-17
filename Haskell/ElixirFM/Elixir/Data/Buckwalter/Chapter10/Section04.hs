@@ -836,6 +836,10 @@ cluster_76  = listing "Lexicon's properties"
 
     KaRDaS |< aT              `noun`    {- ranodaHap -}        [ unwords [ "scanning", "(", "verse", ")" ] ] ]
 
+ |> "r n h" <| [
+
+    FICIL                     `noun`    {- riyniyh -}          [ "Rene" ] ]
+
  |> "r n m" <| [
 
     FaCCaL                    `verb`    {- ran~am -}           [ "chant", "intone", "sing" ],

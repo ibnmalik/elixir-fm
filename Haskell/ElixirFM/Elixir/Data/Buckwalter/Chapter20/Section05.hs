@@ -69,6 +69,10 @@ cluster_82  = listing "Lexicon's properties"
 
     KaRDIS |< aT              `noun`    {- fatoriynap -}       [ unwords [ "display", "window" ] ] ]
 
+ |> "f t s" <| [
+
+    FICIL                     `noun`    {- fiytiys -}          [ "Vitesse" ] ]
+
  |> "f t t" <| [
 
     FaCL                      `verb`    {- fat~-u -}           [ "weaken", "enervate" ]

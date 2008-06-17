@@ -197,6 +197,8 @@ cluster_4   = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- \$ag~Al -}          [ unwords [ "in", "operation" ], "running", "functioning" ],
 
+    FaCCIL                    `adj`     {- \$ag~iyl -}         [ unwords [ "hard", "-", "working" ], "laboring" ],
+
     FACUL                     `noun`    {- \$Aguwl -}          [ "mainsheet" ],
 
     MaFCaL                    `noun`    {- ma$ogal -}          [ "workshop", "workhouse" ]
@@ -4882,6 +4884,8 @@ cluster_94  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- \$ay~ -}            [ "roasting", "grilling" ],
 
+    FuwayL |< aT              `noun`    {- \$uway~ap -}        [ unwords [ "a", "little", "bit" ] ],
+
     FaCL |< At                `noun`    {- \$ay~At -}          [ unwords [ "shoe", "-", "shine" ] ] ]
 
  |> "^s z r" <| [
@@ -4944,13 +4948,13 @@ cluster_94  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- \$Arobiynog -}      [ "Scharping" ] ]
 
- |> "^sAtIlA" <| [
-
-    Identity                  `noun`    {- \$AtiylA -}         [ "Shatila", "Shatilla" ] ]
-
 
 cluster_95  = listing "Lexicon's properties"
 
+
+ |> "^sAtIlA" <| [
+
+    Identity                  `noun`    {- \$AtiylA -}         [ "Shatila", "Shatilla" ] ]
 
  |> "^sAtIs.gAr" <| [
 
@@ -5022,15 +5026,15 @@ cluster_95  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- \$uwdoriy -}        [ "Chaudhry" ] ]
 
+
+cluster_96  = listing "Lexicon's properties"
+
+
  |> "^sUfInIy" <| [
 
     Identity                  `adj`     {- \$uwfiyniy~ -}      [ "chauvinist" ],
 
     Identity |< aT            `noun`    {- \$uwfiyniy~ap -}    [ "chauvinism" ] ]
-
-
-cluster_96  = listing "Lexicon's properties"
-
 
  |> "^sUstIkUf" <| [
 
@@ -5039,10 +5043,6 @@ cluster_96  = listing "Lexicon's properties"
  |> "^sUstir" <| [
 
     Identity                  `noun`    {- \$uwsotir -}        [ "Schuster" ] ]
-
- |> "^sa.g.gIl" <| [
-
-    Identity                  `adj`     {- \$ag~iyl -}         [ unwords [ "hard", "-", "working" ], "laboring" ] ]
 
  |> "^sa.tran^g" <| [
 
@@ -5104,13 +5104,13 @@ cluster_96  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- \$awanodar -}       [ "beet", "chard" ] ]
 
- |> "^sawkarAn" <| [
-
-    Identity                  `noun`    {- \$awokarAn -}       [ "hemlock" ] ]
-
 
 cluster_97  = listing "Lexicon's properties"
 
+
+ |> "^sawkarAn" <| [
+
+    Identity                  `noun`    {- \$awokarAn -}       [ "hemlock" ] ]
 
  |> "^sawwA" <| [
 
@@ -5188,13 +5188,13 @@ cluster_97  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- \$tiyron -}         [ "Stern" ] ]
 
- |> "^stUt.gArt" <| [
-
-    Identity                  `noun`    {- \$tuwtogArot -}     [ "Stuttgart" ] ]
-
 
 cluster_98  = listing "Lexicon's properties"
 
+
+ |> "^stUt.gArt" <| [
+
+    Identity                  `noun`    {- \$tuwtogArot -}     [ "Stuttgart" ] ]
 
  |> "^sukUlAt" <| [
 

@@ -618,10 +618,6 @@ cluster_29  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tadoruj -}          [ "pheasant" ] ]
 
- |> "tallIs" <| [
-
-    Identity                  `noun`    {- tal~iys -}          [ "sack" ] ]
-
  |> "tamArA" <| [
 
     Identity                  `noun`    {- tamArA -}           [ "Tamara" ] ]
@@ -634,17 +630,13 @@ cluster_29  = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- tanakojiy~ -}       [ "tinsmith" ] ]
 
-
-cluster_30  = listing "Lexicon's properties"
-
-
- |> "tannIn" <| [
-
-    Identity                  `noun`    {- tan~iyn -}          [ "tannin" ] ]
-
  |> "tanzAniyA" <| [
 
     Identity                  `noun`    {- tanozAniyA -}       [ "Tanzania" ] ]
+
+
+cluster_30  = listing "Lexicon's properties"
+
 
  |> "tar.gA" <| [
 
@@ -708,15 +700,15 @@ cluster_30  = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- tikonuwqrATiy~ -}   [ "technocrat", "technocratic" ] ]
 
-
-cluster_31  = listing "Lexicon's properties"
-
-
  |> "tilfizyUn" <| [
 
     Identity                  `noun`    {- tilfizyuwn -}       [ "television" ],
 
     Identity |< Iy            `adj`     {- tilfizyuwniy~ -}    [ "television" ] ]
+
+
+cluster_31  = listing "Lexicon's properties"
+
 
  |> "tili.grAf" <| [
 
@@ -778,10 +770,6 @@ cluster_31  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tirowAdah -}        [ "Troy" ] ]
 
-
-cluster_32  = listing "Lexicon's properties"
-
-
  |> "tis`mA'" <| [
 
     Identity |< aT            `noun`    {- tisoEmA}ap -}       [ unwords [ "nine", "-", "hundred" ] ] ]
@@ -789,6 +777,10 @@ cluster_32  = listing "Lexicon's properties"
  |> "titanUs" <| [
 
     Identity                  `noun`    {- titanuws -}         [ "tetanus" ] ]
+
+
+cluster_32  = listing "Lexicon's properties"
+
 
  |> "titik" <| [
 
@@ -860,10 +852,6 @@ cluster_32  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tuhAmiy -}          [ "Tuhami" ] ]
 
-
-cluster_33  = listing "Lexicon's properties"
-
-
  |> "tun^gstIn" <| [
 
     Identity                  `noun`    {- tunojostiyn -}      [ "tungsten" ] ]
@@ -871,6 +859,10 @@ cluster_33  = listing "Lexicon's properties"
  |> "tur^gumAn" <| [
 
     Identity                  `noun`    {- turojumAn -}        [ "dragoman", "translator" ] ]
+
+
+cluster_33  = listing "Lexicon's properties"
+
 
  |> "turkistAn" <| [
 

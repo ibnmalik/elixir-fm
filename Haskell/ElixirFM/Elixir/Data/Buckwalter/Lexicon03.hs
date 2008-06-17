@@ -653,13 +653,18 @@ cluster_11  = listing "Lexicon's properties"
 
     KaRDUS                    `noun`    {- talomuwd -}         [ "Talmud" ] ]
 
- |> "t l t l" <| [
+ |> "t l s" <| [
 
-    KaRADIS                   `noun`    {- talAtiyl -}         [ "hardships", "adversities" ] ]
+    FaCCIL                    `noun`    {- tal~iys -}          [ "sack" ]
+                              `plural`     FaCACIL ]
 
 
 cluster_12  = listing "Lexicon's properties"
 
+
+ |> "t l t l" <| [
+
+    KaRADIS                   `noun`    {- talAtiyl -}         [ "hardships", "adversities" ] ]
 
  |> "t l w" <| [
 
@@ -819,7 +824,9 @@ cluster_14  = listing "Lexicon's properties"
 
     FiCCIL                    `noun`    {- tin~iyn -}          [ "dragon" ]
                               `plural`     FaCACIL
-                              `plural`     FaCALIn ]
+                              `plural`     FaCALIn,
+
+    FaCCIL                    `noun`    {- tan~iyn -}          [ "tannin" ] ]
 
  |> "t n r" <| [
 
@@ -828,19 +835,23 @@ cluster_14  = listing "Lexicon's properties"
 
     FaCCUL |< aT              `noun`    {- tan~uwrap -}        [ "skirt" ] ]
 
+ |> "t n t" <| [
+
+    FICIL                     `noun`    {- tiyniyt -}          [ "Tenet" ] ]
+
  |> "t n w" <| [
 
     FaCL |< aT                `noun`    {- tanowap -}          [ unwords [ "coffee", "dregs" ] ] ]
+
+
+cluster_15  = listing "Lexicon's properties"
+
 
  |> "t n y" <| [
 
     FUCI                      `noun`    {- tuwniy -}           [ "Toni" ],
 
     FUCI                      `noun`    {- tuwniy -}           [ "Toni" ] ]
-
-
-cluster_15  = listing "Lexicon's properties"
-
 
  |> "t n z" <| [
 
@@ -879,6 +890,10 @@ cluster_15  = listing "Lexicon's properties"
 
     KaRDY                     `noun`    {- taqowaY -}          [ "piety" ] ]
 
+
+cluster_16  = listing "Lexicon's properties"
+
+
  |> "t q y" <| [
 
     FaCY                      `verb`    {- taqaY-i -}          [ unwords [ "be", "devout" ], unwords [ "be", "pious" ] ]
@@ -901,10 +916,6 @@ cluster_15  = listing "Lexicon's properties"
  |> "t r .g l" <| [
 
     KuRDuS                    `noun`    {- turogul -}          [ "turtledove" ] ]
-
-
-cluster_16  = listing "Lexicon's properties"
-
 
  |> "t r .h" <| [
 
@@ -943,6 +954,10 @@ cluster_16  = listing "Lexicon's properties"
 
     FuCAL |< Iy               `adj`     {- turAviy~ -}         [ "historical", unwords [ "heritage", "-", "based" ], "inherited" ] ]
 
+
+cluster_17  = listing "Lexicon's properties"
+
+
  |> "t r `" <| [
 
     FaCiL                     `verb`    {- tariE-a -}          [ unwords [ "be", "full" ] ]
@@ -954,10 +969,6 @@ cluster_16  = listing "Lexicon's properties"
                               `plural`     FuCaL,
 
     MuFCaL                    `noun`    {- mutoraE -}          [ "filled" ] ]
-
-
-cluster_17  = listing "Lexicon's properties"
-
 
  |> "t r b" <| [
 
@@ -1000,6 +1011,10 @@ cluster_17  = listing "Lexicon's properties"
 
     MuFCiL                    `noun`    {- mutorib -}          [ "dusty" ] ]
 
+
+cluster_18  = listing "Lexicon's properties"
+
+
  |> "t r b n" <| [
 
     KuRDIS                    `noun`    {- turobiyn -}         [ "turbine" ]
@@ -1016,10 +1031,6 @@ cluster_17  = listing "Lexicon's properties"
  |> "t r b z" <| [
 
     KaRADIS |< aT             `noun`    {- tarAbiyzap -}       [ "table" ] ]
-
-
-cluster_18  = listing "Lexicon's properties"
-
 
  |> "t r f" <| [
 
@@ -1775,10 +1786,6 @@ cluster_29  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tadoruj -}          [ "pheasant" ] ]
 
- |> "tallIs" <| [
-
-    Identity                  `noun`    {- tal~iys -}          [ "sack" ] ]
-
  |> "tamArA" <| [
 
     Identity                  `noun`    {- tamArA -}           [ "Tamara" ] ]
@@ -1791,17 +1798,13 @@ cluster_29  = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- tanakojiy~ -}       [ "tinsmith" ] ]
 
-
-cluster_30  = listing "Lexicon's properties"
-
-
- |> "tannIn" <| [
-
-    Identity                  `noun`    {- tan~iyn -}          [ "tannin" ] ]
-
  |> "tanzAniyA" <| [
 
     Identity                  `noun`    {- tanozAniyA -}       [ "Tanzania" ] ]
+
+
+cluster_30  = listing "Lexicon's properties"
+
 
  |> "tar.gA" <| [
 
@@ -1865,15 +1868,15 @@ cluster_30  = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- tikonuwqrATiy~ -}   [ "technocrat", "technocratic" ] ]
 
-
-cluster_31  = listing "Lexicon's properties"
-
-
  |> "tilfizyUn" <| [
 
     Identity                  `noun`    {- tilfizyuwn -}       [ "television" ],
 
     Identity |< Iy            `adj`     {- tilfizyuwniy~ -}    [ "television" ] ]
+
+
+cluster_31  = listing "Lexicon's properties"
+
 
  |> "tili.grAf" <| [
 
@@ -1935,10 +1938,6 @@ cluster_31  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tirowAdah -}        [ "Troy" ] ]
 
-
-cluster_32  = listing "Lexicon's properties"
-
-
  |> "tis`mA'" <| [
 
     Identity |< aT            `noun`    {- tisoEmA}ap -}       [ unwords [ "nine", "-", "hundred" ] ] ]
@@ -1946,6 +1945,10 @@ cluster_32  = listing "Lexicon's properties"
  |> "titanUs" <| [
 
     Identity                  `noun`    {- titanuws -}         [ "tetanus" ] ]
+
+
+cluster_32  = listing "Lexicon's properties"
+
 
  |> "titik" <| [
 
@@ -2017,10 +2020,6 @@ cluster_32  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tuhAmiy -}          [ "Tuhami" ] ]
 
-
-cluster_33  = listing "Lexicon's properties"
-
-
  |> "tun^gstIn" <| [
 
     Identity                  `noun`    {- tunojostiyn -}      [ "tungsten" ] ]
@@ -2028,6 +2027,10 @@ cluster_33  = listing "Lexicon's properties"
  |> "tur^gumAn" <| [
 
     Identity                  `noun`    {- turojumAn -}        [ "dragoman", "translator" ] ]
+
+
+cluster_33  = listing "Lexicon's properties"
+
 
  |> "turkistAn" <| [
 

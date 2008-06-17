@@ -39,6 +39,9 @@ cluster_1   = listing "Lexicon's properties"
                               `plural`     HAFAL
                               `plural`     FiCAL,
 
+    FuwayL |< aT              `noun`    {- buwayorap -}        [ "Bouaira" ]
+                           {- `others`  [ "bu'ayraT N0" ] -},
+
     FuCL |< aT                `noun`    {- buWorap -}          [ "center", "focus" ]
                               `plural`     FuCaL ]
 
@@ -1506,7 +1509,9 @@ cluster_28  = listing "Lexicon's properties"
     FACiL                     `adj`     {- bAriz -}            [ "prominent", "distinct" ],
 
     FaCaLAn |< Iy             `adj`     {- barazAniy~ -}       [ "Barazani" ]
-                           {- `others`  [ "bArazAniyy N0" ] -} ]
+                           {- `others`  [ "bArazAniyy N0" ] -},
+
+    FICIL                     `noun`    {- biyriyz -}          [ "Peres" ] ]
 
  |> "b r z l" <| [
 

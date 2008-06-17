@@ -9422,25 +9422,6 @@ $Lexicon = {
   'q y l .t' => [
     {
       'types' => {},
-      'entry' => 'qiyliy.t',
-      'form' => 'qiyliy.t',
-      'lines' => [
-        ';; qiyliyT_1',
-        'qiyliyT N       suffering from scrotal hernia'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KiRDIS',
-      'suffix' => '',
-      'glosses' => [
-        'suffering from scrotal hernia'
-      ],
-      'orig' => 'qiyliyT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
       'entry' => 'muqayla.t',
       'form' => 'muqayla.t',
       'lines' => [
@@ -17325,6 +17306,25 @@ $Lexicon = {
         'suffering from scrotal hernia'
       ],
       'orig' => 'qaliyT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'qiyliy.t',
+      'form' => 'qiyliy.t',
+      'lines' => [
+        ';; qiyliyT_1',
+        'qiyliyT N       suffering from scrotal hernia'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FICIL',
+      'suffix' => '',
+      'glosses' => [
+        'suffering from scrotal hernia'
+      ],
+      'orig' => 'qiyliyT',
       'prefix' => ''
     }
   ],

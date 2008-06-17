@@ -3398,27 +3398,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'labbIs' => [
-    {
-      'types' => {},
-      'entry' => 'labbiys',
-      'form' => 'labbiysaT',
-      'lines' => [
-        ';; lab~iysap_1',
-        'lab~iys NapAt_L shoehorn'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'shoehorn'
-      ],
-      'orig' => 'lab~iysap',
-      'prefix' => ''
-    }
-  ],
   'l h b' => [
     {
       'types' => {
@@ -9782,6 +9761,42 @@ $Lexicon = {
         'Lusaka'
       ],
       'orig' => 'luwsAkA',
+      'prefix' => ''
+    }
+  ],
+  'l b r' => [
+    {
+      'types' => {
+        'libiyriyy' => {
+          'Nall_L' => 2
+        },
+        'laybiyriyy' => {
+          'Nall_L' => 2
+        }
+      },
+      'entry' => 'liybiyr',
+      'form' => 'liybiyriyy',
+      'lines' => [
+        ';; liybiyriy~_1',
+        'liybiyriy~      Nall_L  Liberian     [[liybiyriy~/NOUN]]',
+        'liybiyriy~      Nall_L  Liberian     [[liybiyriy~/ADJ]]',
+        'layobiyriy~     Nall_L  Liberian     [[layobiyriy~/NOUN]]',
+        'layobiyriy~     Nall_L  Liberian     [[layobiyriy~/ADJ]]',
+        'libiyriy~       Nall_L  Liberian     [[libiyriy~/NOUN]]',
+        'libiyriy~       Nall_L  Liberian     [[libiyriy~/ADJ]]'
+      ],
+      'patterns' => {
+        'libiyriyy' => [],
+        'laybiyriyy' => []
+      },
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FICIL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Liberian'
+      ],
+      'orig' => 'liybiyriy~',
       'prefix' => ''
     }
   ],
@@ -17176,6 +17191,25 @@ $Lexicon = {
         'attire'
       ],
       'orig' => 'labuws',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'labbiys',
+      'form' => 'labbiysaT',
+      'lines' => [
+        ';; lab~iysap_1',
+        'lab~iys NapAt_L shoehorn'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCIL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'shoehorn'
+      ],
+      'orig' => 'lab~iysap',
       'prefix' => ''
     },
     {
@@ -28606,25 +28640,10 @@ $Lexicon = {
   ],
   'l y b r' => [
     {
-      'types' => {
-        'libiyriyy' => {
-          'Nall_L' => 2
-        },
-        'laybiyriyy' => {
-          'Nall_L' => 2
-        }
-      },
+      'types' => {},
       'entry' => 'liybiyr',
       'form' => 'liybiyriyy',
-      'lines' => [
-        ';; liybiyriy~_1',
-        'liybiyriy~      Nall_L  Liberian     [[liybiyriy~/NOUN]]',
-        'liybiyriy~      Nall_L  Liberian     [[liybiyriy~/ADJ]]',
-        'layobiyriy~     Nall_L  Liberian     [[layobiyriy~/NOUN]]',
-        'layobiyriy~     Nall_L  Liberian     [[layobiyriy~/ADJ]]',
-        'libiyriy~       Nall_L  Liberian     [[libiyriy~/NOUN]]',
-        'libiyriy~       Nall_L  Liberian     [[libiyriy~/ADJ]]'
-      ],
+      'lines' => [],
       'patterns' => {
         'libiyriyy' => [],
         'laybiyriyy' => []
@@ -28633,9 +28652,7 @@ $Lexicon = {
       'entity' => 'adj',
       'morphs' => 'KiRDIS |< Iy',
       'suffix' => ' |< Iy',
-      'glosses' => [
-        'Liberian'
-      ],
+      'glosses' => [],
       'orig' => 'liybiyriy~',
       'prefix' => ''
     }
@@ -34918,6 +34935,9 @@ $Lexicon->{'l .h w'}[5]{'glosses'} = $Lexicon->{'l .h \''}[0]{'glosses'};
 $Lexicon->{'l .h w'}[7]{'types'} = $Lexicon->{'l .h y'}[4]{'types'};
 $Lexicon->{'l .h w'}[7]{'lines'} = $Lexicon->{'l .h y'}[4]{'lines'};
 $Lexicon->{'l .h w'}[7]{'glosses'} = $Lexicon->{'l .h y'}[4]{'glosses'};
+$Lexicon->{'l y b r'}[0]{'types'} = $Lexicon->{'l b r'}[0]{'types'};
+$Lexicon->{'l y b r'}[0]{'lines'} = $Lexicon->{'l b r'}[0]{'lines'};
+$Lexicon->{'l y b r'}[0]{'glosses'} = $Lexicon->{'l b r'}[0]{'glosses'};
 $Lexicon->{'l w \''}[0]{'types'} = $Lexicon->{'l w y'}[12]{'types'};
 $Lexicon->{'l w \''}[0]{'lines'} = $Lexicon->{'l w y'}[12]{'lines'};
 $Lexicon->{'l w \''}[0]{'glosses'} = $Lexicon->{'l w y'}[12]{'glosses'};

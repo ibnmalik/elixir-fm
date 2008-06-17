@@ -45633,6 +45633,22 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'r n h' => [
+    {
+      'types' => {},
+      'entry' => 'riyniyh',
+      'form' => 'riyniyh',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FICIL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'riyniyh',
+      'prefix' => ''
+    }
+  ],
   'r \' f' => [
     {
       'types' => {
@@ -53538,6 +53554,9 @@ $Lexicon->{'r ^s \''}[0]{'glosses'} = $Lexicon->{'r ^s w'}[4]{'glosses'};
 $Lexicon->{'r ^s \''}[1]{'types'} = $Lexicon->{'r ^s w'}[5]{'types'};
 $Lexicon->{'r ^s \''}[1]{'lines'} = $Lexicon->{'r ^s w'}[5]{'lines'};
 $Lexicon->{'r ^s \''}[1]{'glosses'} = $Lexicon->{'r ^s w'}[5]{'glosses'};
+$Lexicon->{'r n h'}[0]{'types'} = $Lexicon->{'r y n h'}[0]{'types'};
+$Lexicon->{'r n h'}[0]{'lines'} = $Lexicon->{'r y n h'}[0]{'lines'};
+$Lexicon->{'r n h'}[0]{'glosses'} = $Lexicon->{'r y n h'}[0]{'glosses'};
 $Lexicon->{'r \' b'}[4]{'types'} = $Lexicon->{'r w b'}[5]{'types'};
 $Lexicon->{'r \' b'}[4]{'lines'} = $Lexicon->{'r w b'}[5]{'lines'};
 $Lexicon->{'r \' b'}[4]{'glosses'} = $Lexicon->{'r w b'}[5]{'glosses'};

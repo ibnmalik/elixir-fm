@@ -12,6 +12,74 @@ lexicon = include section
 cluster_21  = listing "Lexicon's properties"
 
 
+ |> "b .t q" <| [
+
+    FiCAL |< aT               `noun`    {- biTAqap -}          [ "card", "tag", "ballot" ]
+                              `plural`     FaCA'iL
+                              `plural`     FiCAL |< At ]
+
+ |> "b .t r" <| [
+
+    FaCCAL |< Iy |< aT        `noun`    {- baT~Ariy~ap -}      [ "battery" ],
+
+    FaCiL                     `verb`    {- baTir-a -}          [ unwords [ "be", "wild" ], unwords [ "be", "vain" ] ]
+                              `imperf`     FCaL,
+
+    FaCiL                     `verb`    {- baTir-a -}          [ "disregard", "disdain" ]
+                              `imperf`     FCaL,
+
+    HaFCaL                    `verb`    {- OaboTar -}          [ unwords [ "make", "vain" ], unwords [ "make", "proud" ] ],
+
+    FaCaL                     `noun`    {- baTar -}            [ "wantonness", "arrogance" ],
+
+    HaFACiL |< aT             `noun`    {- OabATirap -}        [ "emperors" ],
+
+    FaCiL                     `noun`    {- baTir -}            [ "arrogant", "insolent" ]
+                              `plural`     MuFCiL,
+
+    FaCLA'                    `noun`    {- baTorA' -}          [ "Petra" ] ]
+
+ |> "b .t r '" <| [
+
+    KaRDAS                    `noun`    {- baTorA' -}          [ "Petra" ] ]
+
+ |> "b .t r _h" <| [
+
+    KaRDaS                    `noun`    {- baTorax -}          [ "roe", "caviar" ]
+                              `plural`     KaRADiS ]
+
+ |> "b .t r k" <| [
+
+    KaRDaS                    `noun`    {- baTorak -}          [ "Patriarch" ]
+                              `plural`     KaRADiS |< aT
+                              `plural`     KaRDIS,
+
+    KaRDaS |< Iy |< aT        `noun`    {- baTorakiy~ap -}     [ "patriarchate" ],
+
+    KaRDaS |< aT              `noun`    {- baTorakap -}        [ "patriarchate" ] ]
+
+ |> "b .t r q" <| [
+
+    KiRDIS                    `noun`    {- biToriyq -}         [ "patrician", "penguin" ]
+                              `plural`     KaRADiS |< aT
+                              `plural`     KaRADIS ]
+
+ |> "b .t r s" <| [
+
+    KuRDuS                    `noun`    {- buTorus -}          [ "Boutros" ],
+
+    KuRDuS                    `noun`    {- buTorus -}          [ "Peter" ],
+
+    KuRDuS |< Iy              `adj`     {- buTorusiy~ -}       [ unwords [ "St.", "Peter" ] ] ]
+
+ |> "b .t s" <| [
+
+    FaCACiL                   `noun`    {- baTATis -}          [ "potatoes" ] ]
+
+
+cluster_22  = listing "Lexicon's properties"
+
+
  |> "b .t y" <| [
 
     HiFCA'                    `noun`    {- IiboTA' -}          [ "delay", unwords [ "slowing", "down" ] ]
@@ -74,7 +142,7 @@ cluster_21  = listing "Lexicon's properties"
     MuFaCCaL                  `noun`    {- mubaj~al -}         [ "revered", "venerable" ] ]
 
 
-cluster_22  = listing "Lexicon's properties"
+cluster_23  = listing "Lexicon's properties"
 
 
  |> "b ^g m" <| [
@@ -125,7 +193,7 @@ cluster_22  = listing "Lexicon's properties"
     FACL                      `noun`    {- bA$~ -}             [ "smiling", "happy" ] ]
 
 
-cluster_23  = listing "Lexicon's properties"
+cluster_24  = listing "Lexicon's properties"
 
 
  |> "b ^s `" <| [
@@ -187,7 +255,7 @@ cluster_23  = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- ba$omaq -}          [ "slipper" ] ]
 
 
-cluster_24  = listing "Lexicon's properties"
+cluster_25  = listing "Lexicon's properties"
 
 
  |> "b ^s m r" <| [
@@ -211,7 +279,7 @@ cluster_24  = listing "Lexicon's properties"
                               `plural`     KaRADiS ]
 
 
-cluster_25  = listing "Lexicon's properties"
+cluster_26  = listing "Lexicon's properties"
 
 
  |> "b ^s r" <| [
@@ -292,7 +360,7 @@ cluster_25  = listing "Lexicon's properties"
     MuFACiL                   `noun`    {- mubA$ir -}          [ "direct", "immediate" ] ]
 
 
-cluster_26  = listing "Lexicon's properties"
+cluster_27  = listing "Lexicon's properties"
 
 
  |> "b ^s t" <| [
@@ -347,7 +415,7 @@ cluster_26  = listing "Lexicon's properties"
                               `plural`     FawACiL ]
 
 
-cluster_27  = listing "Lexicon's properties"
+cluster_28  = listing "Lexicon's properties"
 
 
  |> "b _d l" <| [
@@ -404,7 +472,7 @@ cluster_27  = listing "Lexicon's properties"
     MuFaCCiL                  `noun`    {- muba*~ir -}         [ "squanderer" ] ]
 
 
-cluster_28  = listing "Lexicon's properties"
+cluster_29  = listing "Lexicon's properties"
 
 
  |> "b _d y" <| [
@@ -462,7 +530,7 @@ cluster_28  = listing "Lexicon's properties"
                               `plural`     FaCLA' ]
 
 
-cluster_29  = listing "Lexicon's properties"
+cluster_30  = listing "Lexicon's properties"
 
 
  |> "b _h r" <| [
@@ -519,7 +587,7 @@ cluster_29  = listing "Lexicon's properties"
     MaFCUL                    `noun`    {- maboxuwt -}         [ "lucky", "fortunate" ] ]
 
 
-cluster_30  = listing "Lexicon's properties"
+cluster_31  = listing "Lexicon's properties"
 
 
  |> "b _h t r" <| [
@@ -573,7 +641,7 @@ cluster_30  = listing "Lexicon's properties"
                               `plural`     MunFaCaL |< At ]
 
 
-cluster_31  = listing "Lexicon's properties"
+cluster_32  = listing "Lexicon's properties"
 
 
  |> "b _t r" <| [
@@ -631,7 +699,7 @@ cluster_31  = listing "Lexicon's properties"
     MaFCUL                    `noun`    {- maboEuwj -}         [ "disemboweled" ] ]
 
 
-cluster_32  = listing "Lexicon's properties"
+cluster_33  = listing "Lexicon's properties"
 
 
  |> "b ` _t" <| [
@@ -683,7 +751,7 @@ cluster_32  = listing "Lexicon's properties"
     MunFaCiL                  `noun`    {- munobaEiv -}        [ "resurgent" ] ]
 
 
-cluster_33  = listing "Lexicon's properties"
+cluster_34  = listing "Lexicon's properties"
 
 
  |> "b ` _t r" <| [
@@ -703,7 +771,7 @@ cluster_33  = listing "Lexicon's properties"
                               `plural`     KaRADiS ]
 
 
-cluster_34  = listing "Lexicon's properties"
+cluster_35  = listing "Lexicon's properties"
 
 
  |> "b ` d" <| [
@@ -773,7 +841,7 @@ cluster_34  = listing "Lexicon's properties"
     MaFCaL |< aT              `noun`    {- maboEadap -}        [ "distance", "remoteness" ] ]
 
 
-cluster_35  = listing "Lexicon's properties"
+cluster_36  = listing "Lexicon's properties"
 
 
  |> "b ` k k" <| [
@@ -820,7 +888,7 @@ cluster_35  = listing "Lexicon's properties"
     MuKaRDiS                  `noun`    {- mubaEoziq -}        [ "squanderer", "spendthrift" ] ]
 
 
-cluster_36  = listing "Lexicon's properties"
+cluster_37  = listing "Lexicon's properties"
 
 
  |> "b d '" <| [
@@ -876,7 +944,7 @@ cluster_36  = listing "Lexicon's properties"
                               `plural`     HiFCAL |< At ]
 
 
-cluster_37  = listing "Lexicon's properties"
+cluster_38  = listing "Lexicon's properties"
 
 
  |> "b d ' h" <| [
@@ -884,7 +952,7 @@ cluster_37  = listing "Lexicon's properties"
     KaRADiS                   `noun`    {- badA}ih -}          [ unwords [ "self", "-", "evident", "truths" ] ] ]
 
 
-cluster_38  = listing "Lexicon's properties"
+cluster_39  = listing "Lexicon's properties"
 
 
  |> "b d `" <| [
@@ -935,7 +1003,7 @@ cluster_38  = listing "Lexicon's properties"
     MuFtaCiL                  `noun`    {- mubotadiE -}        [ "innovator", "creative" ] ]
 
 
-cluster_39  = listing "Lexicon's properties"
+cluster_40  = listing "Lexicon's properties"
 
 
  |> "b d d" <| [
@@ -973,31 +1041,6 @@ cluster_39  = listing "Lexicon's properties"
                            {- `others`  [ "badw N" ] -},
 
     FawALI                    `noun`    {- bawAdiy -}          [ "nomads", "Bedouins" ] ]
-
-
-cluster_40  = listing "Lexicon's properties"
-
-
- |> "b d h" <| [
-
-    FaCaL                     `verb`    {- badah-a -}          [ "surprise", unwords [ "do", "spontaneously" ] ]
-                              `imperf`     FCaL,
-
-    FACaL                     `verb`    {- bAdah -}            [ unwords [ "arrive", "unexpectedly" ], "surprise" ],
-
-    IFtaCaL                   `verb`    {- Aibotadah -}        [ "improvise", "extemporize" ],
-
-    FaCAL |< aT               `noun`    {- badAhap -}          [ "spontaneity" ],
-
-    FaCAL |< aT |< aN         `adv`     {- badAhapF -}         [ "spontaneously" ],
-
-    FaCIL |< aT               `noun`    {- badiyhap -}         [ unwords [ "intuitive", "grasp" ] ],
-
-    FaCIL |< Iy               `adj`     {- badiyhiy~ -}        [ "obvious", "intuitive", unwords [ "self", "-", "evident" ] ],
-
-    FaCIL |< Iy |< aT         `noun`    {- badiyhiy~ap -}      [ "platitude", "axiom" ],
-
-    FaCA'iL                   `noun`    {- badA}ih -}          [ unwords [ "self", "-", "evident", "truths" ] ] ]
 
 
 section = [ cluster_21,

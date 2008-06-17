@@ -727,7 +727,10 @@ cluster_13  = listing "Lexicon's properties"
 
  |> "k n t" <| [
 
-    FiCL                      `noun`    {- kinot -}            [ "Kent" ] ]
+    FiCL                      `noun`    {- kinot -}            [ "Kent" ],
+
+    FICIL                     `noun`    {- kiyniyt -}          [ "Kenneth" ]
+                           {- `others`  [ "kiyniy_t Nprop" ] -} ]
 
  |> "k n w" <| [
 
@@ -769,15 +772,15 @@ cluster_13  = listing "Lexicon's properties"
                               `plural`     HaFCAL
                               `plural`     FuCL ]
 
+
+cluster_14  = listing "Lexicon's properties"
+
+
  |> "k r h" <| [
 
     FuCL                      `noun`    {- kuroh -}            [ "hatred", "loathing" ],
 
     FaCAL |< Iy |< aT         `noun`    {- karAhiy~ap -}       [ "antipathy", "dislike" ] ]
-
-
-cluster_14  = listing "Lexicon's properties"
-
 
  |> "k r k" <| [
 
@@ -829,15 +832,15 @@ cluster_14  = listing "Lexicon's properties"
 
     MuFaCCaL                  `noun`    {- mukar~am -}         [ "Mukarram" ] ]
 
+
+cluster_15  = listing "Lexicon's properties"
+
+
  |> "k r m l" <| [
 
     KaRDaS                    `noun`    {- karomal -}          [ unwords [ "Mt.", "Carmel", "(", "Palestine", ")" ] ],
 
     KaRDaS                    `noun`    {- karomal -}          [ "Karmal" ] ]
-
-
-cluster_15  = listing "Lexicon's properties"
-
 
  |> "k r r" <| [
 
@@ -886,6 +889,10 @@ cluster_15  = listing "Lexicon's properties"
                               `plural`     KaRADI
                               `plural`     KaRADIS ]
 
+
+cluster_16  = listing "Lexicon's properties"
+
+
  |> "k r t n" <| [
 
     KaRDUS                    `noun`    {- karotuwn -}         [ "cardboard", "carton" ]
@@ -894,10 +901,6 @@ cluster_15  = listing "Lexicon's properties"
 
     KaRDUS                    `noun`    {- karotuwn -}         [ "carton", unwords [ "cardboard", "box" ] ]
                               `plural`     KaRDUS |< At ]
-
-
-cluster_16  = listing "Lexicon's properties"
-
 
  |> "k r w" <| [
 
@@ -953,6 +956,10 @@ cluster_16  = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- kasAd -}            [ unwords [ "economic", "depression" ], unwords [ "business", "slump" ] ] ]
 
+
+cluster_17  = listing "Lexicon's properties"
+
+
  |> "k s r" <| [
 
     FaCaL                     `verb`    {- kasar-i -}          [ "break", "defeat" ]
@@ -960,10 +967,6 @@ cluster_16  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- kasor -}            [ "fracture", "crack" ]
                               `plural`     FuCUL ]
-
-
-cluster_17  = listing "Lexicon's properties"
-
 
  |> "k s w" <| [
 

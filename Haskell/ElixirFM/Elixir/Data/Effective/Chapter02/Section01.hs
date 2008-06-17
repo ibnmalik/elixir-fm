@@ -39,6 +39,9 @@ cluster_1   = listing "Lexicon's properties"
                               `plural`     HAFAL
                               `plural`     FiCAL,
 
+    FuwayL |< aT              `noun`    {- buwayorap -}        [ "Bouaira" ]
+                           {- `others`  [ "bu'ayraT N0" ] -},
+
     FuCL |< aT                `noun`    {- buWorap -}          [ "center", "focus" ]
                               `plural`     FuCaL ]
 

@@ -409,8 +409,6 @@ cluster_108 = listing "Lexicon's properties"
 
  |> "q y l .t" <| [
 
-    KiRDIS                    `noun`    {- qiyliyT -}          [ unwords [ "suffering", "from", "scrotal", "hernia" ] ],
-
     MuKaRDaS                  `adj`     {- muqayolaT -}        [ unwords [ "suffering", "from", "scrotal", "hernia" ] ] ]
 
  |> "q y l l" <| [

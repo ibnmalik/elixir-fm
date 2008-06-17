@@ -9911,6 +9911,20 @@ $Lexicon = {
       ],
       'orig' => 'lAmutazAmin',
       'prefix' => 'lA >| '
+    },
+    {
+      'types' => {},
+      'entry' => 'ziymiyn',
+      'form' => 'ziymiyn',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FICIL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'ziymiyn',
+      'prefix' => ''
     }
   ],
   'z y \'' => [
@@ -22119,6 +22133,9 @@ $Lexicon->{'z y d'}[23]{'glosses'} = $Lexicon->{'z \' d'}[1]{'glosses'};
 $Lexicon->{'z y d'}[24]{'types'} = $Lexicon->{'z \' d'}[2]{'types'};
 $Lexicon->{'z y d'}[24]{'lines'} = $Lexicon->{'z \' d'}[2]{'lines'};
 $Lexicon->{'z y d'}[24]{'glosses'} = $Lexicon->{'z \' d'}[2]{'glosses'};
+$Lexicon->{'z m n'}[17]{'types'} = $Lexicon->{'z y m n'}[0]{'types'};
+$Lexicon->{'z m n'}[17]{'lines'} = $Lexicon->{'z y m n'}[0]{'lines'};
+$Lexicon->{'z m n'}[17]{'glosses'} = $Lexicon->{'z y m n'}[0]{'glosses'};
 $Lexicon->{'z y ^g'}[0]{'types'} = $Lexicon->{'z w ^g'}[9]{'types'};
 $Lexicon->{'z y ^g'}[0]{'lines'} = $Lexicon->{'z w ^g'}[9]{'lines'};
 $Lexicon->{'z y ^g'}[0]{'glosses'} = $Lexicon->{'z w ^g'}[9]{'glosses'};

@@ -704,6 +704,10 @@ cluster_13  = listing "Lexicon's properties"
     HaFCaL                    `noun`    {- OafolaH -}          [ unwords [ "with", "cracked", "lower", "lip" ] ]
                               `plural`     FaCLA' ]
 
+ |> "f l b" <| [
+
+    FICIL                     `noun`    {- fiyliyb -}          [ "Philip", "Philippe", "Phillippe" ] ]
+
  |> "f l k" <| [
 
     FaCaL |< Iy               `adj`     {- falakiy~ -}         [ "astronomic", "sidereal" ],
@@ -743,15 +747,15 @@ cluster_13  = listing "Lexicon's properties"
 
     KaRDaS |< Iy              `adj`     {- falosafiy~ -}       [ "philosophical" ] ]
 
+
+cluster_14  = listing "Lexicon's properties"
+
+
  |> "f l t" <| [
 
     HaFCaL                    `verb`    {- Oafolat -}          [ "escape", "release" ],
 
     InFaCaL                   `verb`    {- Ainofalat -}        [ "escape", "evade" ] ]
-
-
-cluster_14  = listing "Lexicon's properties"
-
 
  |> "f n '" <| [
 

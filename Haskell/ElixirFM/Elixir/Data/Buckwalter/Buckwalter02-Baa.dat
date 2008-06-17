@@ -7101,8 +7101,9 @@ bayoDAwiy~      Nall    oval     [[bayoDAwiy~/ADJ]]
 bayoDAwiy~      Nall    Casablancan     [[bayoDAwiy~/ADJ]]
 ;; buwayoD_1
 buwayoD Ndu     ovule;ovum;small egg
-buyayoD Ndu     ovule;ovum;small egg
 buwayoD NapAt   ovule;ovum;small egg
+;; buyayoD_1
+buyayoD Ndu     ovule;ovum;small egg
 buyayoD NapAt   ovule;ovum;small egg
 ;; bayDuwn_1
 byDwn   Nprop   Baidun;Baidoun

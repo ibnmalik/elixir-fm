@@ -243,7 +243,9 @@ cluster_44  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- kaniyn -}           [ "concealed", unwords [ "well", "-", "kept" ] ],
 
     MaFCUL                    `adj`     {- makonuwn -}         [ "concealed", unwords [ "well", "-", "kept" ], unwords [ "hidden", "things" ] ]
-                              `plural`     MaFCUL |< At ]
+                              `plural`     MaFCUL |< At,
+
+    FICIL                     `noun`    {- kiyniyn -}          [ "quinine" ] ]
 
  |> "k n r" <| [
 
@@ -291,7 +293,10 @@ cluster_45  = listing "Lexicon's properties"
 
  |> "k n t" <| [
 
-    FiCL                      `noun`    {- kinot -}            [ "Kent" ] ]
+    FiCL                      `noun`    {- kinot -}            [ "Kent" ],
+
+    FICIL                     `noun`    {- kiyniyt -}          [ "Kenneth" ]
+                           {- `others`  [ "kiyniy_t Nprop" ] -} ]
 
  |> "k n t r" <| [
 
@@ -375,6 +380,9 @@ cluster_47  = listing "Lexicon's properties"
                               `plural`     HaFCAL ]
 
  |> "k r .t" <| [
+
+    FaCCIL |< aT              `noun`    {- kar~iyTap -}        [ "cart", "wagon" ]
+                              `plural`     FaCACiL,
 
     FaCACiL |< Iy             `adj`     {- karAriTiy~ -}       [ "carrier", "drayman" ] ]
 

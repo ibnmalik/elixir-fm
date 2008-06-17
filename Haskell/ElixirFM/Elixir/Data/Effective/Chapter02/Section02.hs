@@ -406,7 +406,9 @@ cluster_28  = listing "Lexicon's properties"
     FACiL                     `adj`     {- bAriz -}            [ "prominent", "distinct" ],
 
     FaCaLAn |< Iy             `adj`     {- barazAniy~ -}       [ "Barazani" ]
-                           {- `others`  [ "bArazAniyy N0" ] -} ]
+                           {- `others`  [ "bArazAniyy N0" ] -},
+
+    FICIL                     `noun`    {- biyriyz -}          [ "Peres" ] ]
 
  |> "b r z l" <| [
 

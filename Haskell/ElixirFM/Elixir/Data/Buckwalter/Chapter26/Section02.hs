@@ -405,7 +405,9 @@ cluster_28  = listing "Lexicon's properties"
     FaCCaL                    `verb`    {- hal~an -}           [ "Hellenize" ],
 
     TaFCIL                    `noun`    {- taholiyn -}         [ "Hellenization" ]
-                              `plural`     TaFCIL |< At ]
+                              `plural`     TaFCIL |< At,
+
+    FICIL |< Iy |< aT         `noun`    {- hiyliyniy~ap -}     [ "Hellenism" ] ]
 
  |> "h l q m" <| [
 

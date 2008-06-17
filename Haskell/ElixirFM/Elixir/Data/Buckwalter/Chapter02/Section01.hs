@@ -99,6 +99,9 @@ cluster_2   = listing "Lexicon's properties"
                               `plural`     HAFAL
                               `plural`     FiCAL,
 
+    FuwayL |< aT              `noun`    {- buwayorap -}        [ "Bouaira" ]
+                           {- `others`  [ "bu'ayraT N0" ] -},
+
     FuCL |< aT                `noun`    {- buWorap -}          [ "center", "focus" ]
                               `plural`     FuCaL,
 
@@ -820,11 +823,20 @@ cluster_16  = listing "Lexicon's properties"
 cluster_17  = listing "Lexicon's properties"
 
 
+ |> "b .t _h" <| [
+
+    FaCCIL                    `noun`    {- baT~iyx -}          [ "watermelon" ]
+                              `plural`     FaCCAL |< At ]
+
  |> "b .t b .t" <| [
 
     KaRDaS                    `verb`    {- baTobaT -}          [ "quack" ],
 
     KaRDaS |< aT              `noun`    {- baTobaTap -}        [ "quacking" ] ]
+
+
+cluster_18  = listing "Lexicon's properties"
+
 
  |> "b .t l" <| [
 
@@ -870,10 +882,6 @@ cluster_17  = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- baTAl -}            [ "heroism" ] ]
 
-
-cluster_18  = listing "Lexicon's properties"
-
-
  |> "b .t l n" <| [
 
     KuRDAS                    `noun`    {- buTolAn -}          [ "nullity", "falsity" ] ]
@@ -882,6 +890,10 @@ cluster_18  = listing "Lexicon's properties"
 
     KaRADiS |< aT             `noun`    {- baTAlisap -}        [ "Ptolemies" ] ]
 
+
+cluster_19  = listing "Lexicon's properties"
+
+
  |> "b .t m" <| [
 
     FuCL                      `noun`    {- buTom -}            [ "terebinth" ],
@@ -889,7 +901,7 @@ cluster_18  = listing "Lexicon's properties"
     FuCL |< Iy                `noun`    {- buTomiy~ -}         [ "terebinths" ] ]
 
 
-cluster_19  = listing "Lexicon's properties"
+cluster_20  = listing "Lexicon's properties"
 
 
  |> "b .t n" <| [
@@ -947,74 +959,6 @@ cluster_19  = listing "Lexicon's properties"
     IstiFCAL |< Iy            `adj`     {- AisotiboTAniy~ -}   [ "introspective" ],
 
     FACUL                     `noun`    {- bATuwn -}           [ "concrete" ] ]
-
-
-cluster_20  = listing "Lexicon's properties"
-
-
- |> "b .t q" <| [
-
-    FiCAL |< aT               `noun`    {- biTAqap -}          [ "card", "tag", "ballot" ]
-                              `plural`     FaCA'iL
-                              `plural`     FiCAL |< At ]
-
- |> "b .t r" <| [
-
-    FaCCAL |< Iy |< aT        `noun`    {- baT~Ariy~ap -}      [ "battery" ],
-
-    FaCiL                     `verb`    {- baTir-a -}          [ unwords [ "be", "wild" ], unwords [ "be", "vain" ] ]
-                              `imperf`     FCaL,
-
-    FaCiL                     `verb`    {- baTir-a -}          [ "disregard", "disdain" ]
-                              `imperf`     FCaL,
-
-    HaFCaL                    `verb`    {- OaboTar -}          [ unwords [ "make", "vain" ], unwords [ "make", "proud" ] ],
-
-    FaCaL                     `noun`    {- baTar -}            [ "wantonness", "arrogance" ],
-
-    HaFACiL |< aT             `noun`    {- OabATirap -}        [ "emperors" ],
-
-    FaCiL                     `noun`    {- baTir -}            [ "arrogant", "insolent" ]
-                              `plural`     MuFCiL,
-
-    FaCLA'                    `noun`    {- baTorA' -}          [ "Petra" ] ]
-
- |> "b .t r '" <| [
-
-    KaRDAS                    `noun`    {- baTorA' -}          [ "Petra" ] ]
-
- |> "b .t r _h" <| [
-
-    KaRDaS                    `noun`    {- baTorax -}          [ "roe", "caviar" ]
-                              `plural`     KaRADiS ]
-
- |> "b .t r k" <| [
-
-    KaRDaS                    `noun`    {- baTorak -}          [ "Patriarch" ]
-                              `plural`     KaRADiS |< aT
-                              `plural`     KaRDIS,
-
-    KaRDaS |< Iy |< aT        `noun`    {- baTorakiy~ap -}     [ "patriarchate" ],
-
-    KaRDaS |< aT              `noun`    {- baTorakap -}        [ "patriarchate" ] ]
-
- |> "b .t r q" <| [
-
-    KiRDIS                    `noun`    {- biToriyq -}         [ "patrician", "penguin" ]
-                              `plural`     KaRADiS |< aT
-                              `plural`     KaRADIS ]
-
- |> "b .t r s" <| [
-
-    KuRDuS                    `noun`    {- buTorus -}          [ "Boutros" ],
-
-    KuRDuS                    `noun`    {- buTorus -}          [ "Peter" ],
-
-    KuRDuS |< Iy              `adj`     {- buTorusiy~ -}       [ unwords [ "St.", "Peter" ] ] ]
-
- |> "b .t s" <| [
-
-    FaCACiL                   `noun`    {- baTATis -}          [ "potatoes" ] ]
 
 
 section = [ cluster_1,

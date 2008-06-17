@@ -744,7 +744,8 @@ data PatternT =
 
                                         |   FuyyaL
 
-        |   FiCCIL
+        |   FiCCIL                      |   FICIL
+        |   FaCCIL
         |   FaCCUL
 
         |   FaCACiL                                     |   FaCACI
@@ -798,7 +799,7 @@ data PatternT =
 
         |   FaCALIn
 
-        |   FuCayL
+        |   FuCayL                      |   FuwayL
 
         |   FaCLY
         |   FiCLY                       |   FILY
@@ -966,10 +967,10 @@ data PatternT =
         |   FCawCiL                                     |   FCawCI
         |   FCawCaL                                     |   FCawCY
 
-        |   IFCICAL					|   IFCICA'
+        |   IFCICAL					                    |   IFCICA'
 
         |   MuFCawCiL   {- Fischer, par. 224 (?) -} 	|   MuFCawCI	{- (?) -}
-        |   MuFCawCaL	   	   	   	    	|   MuFCawCY	{- (?) -}
+        |   MuFCawCaL	   	   	   	    	            |   MuFCawCY	{- (?) -}
 
 --  Form XIII
 
@@ -1011,70 +1012,3 @@ data PatternT =
         |   MuFCanLY
 
     deriving (Enum, Show, Eq)
-
-
-maFCUL      =   MaFCUL
-
-maFCaL      =   MaFCaL
-miFCAL      =   MiFCAL
-miFCaL      =   MiFCaL
-
-taFCIL      =   TaFCIL
-taFCiL      =   TaFCiL
-
-tiFCAL      =   TiFCAL
-
-muFaCCiL    =   MuFaCCiL
-muFaCCaL    =   MuFaCCaL
-
-muFACiL     =   MuFACiL
-muFACaL     =   MuFACaL
-
-haFCaL      =   HaFCaL
-
-hiFCAL      =   HiFCAL
-hiFCaL      =   HiFCaL
-
-muFCiC      =   MuFCiL
-muFCaC      =   MuFCaL
-
-taFaCCaL    =   TaFaCCaL
-
-taFaCCuL    =   TaFaCCuL
-
-mutaCaCCiL  =   MutaFaCCiL
-mutaCaCCaL  =   MutaFaCCaL
-
-
-taFACaL     =   TaFACaL
-taFACuL     =   TaFACuL
-
-mutaCACiL   =   MutaFACiL
-mutaCACaL   =   MutaFACaL
-
-inFaCaL     =   InFaCaL
-
-inFiCAL     =   InFiCAL
-
-munFaCiL    =   MunFaCiL
-munFaCaL    =   MunFaCaL
-
-iFtaCaL     =   IFtaCaL
-
-iFtiCAL     =   IFtiCAL
-
-muFtaCiL    =   MuFtaCiL
-muFtaCaL    =   MuFtaCaL
-
-iFCaLL      =   IFCaLL
-
-iFCiLAL     =   IFCiLAL
-
-muFCaLL     =   MuFCaLL
-
-istaFCaL    =   IstaFCaL
-
-istiFCAL    =   IstiFCAL
-
-mustaFCiL   =   MustaFCiL
-mustaFCaL   =   MustaFCaL

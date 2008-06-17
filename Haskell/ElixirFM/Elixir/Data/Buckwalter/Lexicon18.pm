@@ -56664,6 +56664,24 @@ $Lexicon = {
     },
     {
       'types' => {},
+      'entry' => '`uwayn',
+      'form' => '`uwaynAt',
+      'lines' => [],
+      'patterns' => {
+        '`uwayn' => [
+          'FuwayL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuwayL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [],
+      'orig' => 'EuwayonAt',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => '\'a`yAn',
       'form' => '\'a`yAn',
       'lines' => [
@@ -68473,6 +68491,9 @@ $Lexicon->{'` y n'}[1]{'glosses'} = $Lexicon->{'` w n'}[15]{'glosses'};
 $Lexicon->{'` y n'}[2]{'types'} = $Lexicon->{'` y y'}[7]{'types'};
 $Lexicon->{'` y n'}[2]{'lines'} = $Lexicon->{'` y y'}[7]{'lines'};
 $Lexicon->{'` y n'}[2]{'glosses'} = $Lexicon->{'` y y'}[7]{'glosses'};
+$Lexicon->{'` y n'}[10]{'types'} = $Lexicon->{'` w n'}[19]{'types'};
+$Lexicon->{'` y n'}[10]{'lines'} = $Lexicon->{'` w n'}[19]{'lines'};
+$Lexicon->{'` y n'}[10]{'glosses'} = $Lexicon->{'` w n'}[19]{'glosses'};
 $Lexicon->{'` y ^s'}[16]{'types'} = $Lexicon->{'` \' ^s'}[0]{'types'};
 $Lexicon->{'` y ^s'}[16]{'lines'} = $Lexicon->{'` \' ^s'}[0]{'lines'};
 $Lexicon->{'` y ^s'}[16]{'glosses'} = $Lexicon->{'` \' ^s'}[0]{'glosses'};

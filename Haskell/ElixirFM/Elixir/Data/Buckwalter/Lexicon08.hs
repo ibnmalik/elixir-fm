@@ -1089,6 +1089,10 @@ cluster_20  = listing "Lexicon's properties"
 cluster_21  = listing "Lexicon's properties"
 
 
+ |> "d f d" <| [
+
+    FICIL                     `noun`    {- diyfiyd -}          [ "David" ] ]
+
  |> "d f f" <| [
 
     FaCL                      `verb`    {- daf~-i -}           [ "flap", "hurry" ]
@@ -1181,7 +1185,9 @@ cluster_22  = listing "Lexicon's properties"
  |> "d f s" <| [
 
     FaCaL                     `verb`    {- dafas-a -}          [ "hide", "push" ]
-                              `imperf`     FCaL ]
+                              `imperf`     FCaL,
+
+    FICIL                     `noun`    {- diyfiys -}          [ "Davies" ] ]
 
  |> "d f t r" <| [
 
@@ -2102,7 +2108,10 @@ cluster_39  = listing "Lexicon's properties"
                               `plural`     FuCaLA',
 
     TaFCIL                    `noun`    {- tadoniys -}         [ "pollution", "contamination", "disgracing" ]
-                              `plural`     TaFCIL |< At ]
+                              `plural`     TaFCIL |< At,
+
+    FICIL                     `noun`    {- diyniys -}          [ "Dennis" ]
+                           {- `others`  [ "diniys Nprop" ] -} ]
 
 
 cluster_40  = listing "Lexicon's properties"
@@ -3626,6 +3635,10 @@ cluster_66  = listing "Lexicon's properties"
 cluster_67  = listing "Lexicon's properties"
 
 
+ |> "d z n" <| [
+
+    FaCCIL |< aT              `noun`    {- daz~iynap -}        [ "dozen" ] ]
+
  |> "dA" <| [
 
     Identity                  `noun`    {- dA -}               [ "Da" ] ]
@@ -3700,13 +3713,13 @@ cluster_67  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dAnotiyl -}         [ "lacework" ] ]
 
- |> "dAntIllA" <| [
-
-    Identity                  `noun`    {- dAnotiyl~A -}       [ "lacework" ] ]
-
 
 cluster_68  = listing "Lexicon's properties"
 
+
+ |> "dAntIllA" <| [
+
+    Identity                  `noun`    {- dAnotiyl~A -}       [ "lacework" ] ]
 
  |> "dArA" <| [
 
@@ -3998,10 +4011,6 @@ cluster_71  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dayofinbuwrt -}     [ "Davenport" ] ]
 
- |> "dazzIn" <| [
-
-    Identity |< aT            `noun`    {- daz~iynap -}        [ "dozen" ] ]
-
  |> "ddIn" <| [
 
     al >| Identity            `noun`    {- Ald~iyn -}          [ unwords [ "Al", "-", "Din" ], unwords [ "El", "-", "Din" ], "Eddin" ] ]
@@ -4014,13 +4023,13 @@ cluster_71  = listing "Lexicon's properties"
 
     Identity |< Iy |< aT      `noun`    {- dibluwmAsiy~ap -}   [ "diplomacy" ] ]
 
-
-cluster_72  = listing "Lexicon's properties"
-
-
  |> "dibriyA^g" <| [
 
     Identity                  `noun`    {- dibriyAj -}         [ "clutch" ] ]
+
+
+cluster_72  = listing "Lexicon's properties"
+
 
  |> "didI" <| [
 
@@ -4090,13 +4099,13 @@ cluster_72  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- disotAynd -}        [ "Destined" ] ]
 
-
-cluster_73  = listing "Lexicon's properties"
-
-
  |> "diyA^giyU" <| [
 
     Identity                  `noun`    {- diyAjiyuw -}        [ "Diageo" ] ]
+
+
+cluster_73  = listing "Lexicon's properties"
+
 
  |> "diyAlU^g" <| [
 
@@ -4172,13 +4181,13 @@ cluster_73  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- dusiloduwrf -}      [ "Dusseldorf" ] ]
 
-
-cluster_74  = listing "Lexicon's properties"
-
-
  |> "duwItU" <| [
 
     Identity                  `noun`    {- duwiytuw -}         [ "duet", "duetto" ] ]
+
+
+cluster_74  = listing "Lexicon's properties"
+
 
  |> "duwaybib" <| [
 

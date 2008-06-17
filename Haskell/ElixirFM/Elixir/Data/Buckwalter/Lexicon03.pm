@@ -1208,27 +1208,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tannIn' => [
-    {
-      'types' => {},
-      'entry' => 'tanniyn',
-      'form' => 'tanniyn',
-      'lines' => [
-        ';; tan~iyn_1',
-        'tan~iyn N       tannin'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'tannin'
-      ],
-      'orig' => 'tan~iyn',
-      'prefix' => ''
-    }
-  ],
   'triyAtlUn' => [
     {
       'types' => {},
@@ -1859,6 +1838,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  't n t' => [
+    {
+      'types' => {},
+      'entry' => 'tiyniyt',
+      'form' => 'tiyniyt',
+      'lines' => [
+        ';; tiyniyt_1',
+        'tiyniyt Nprop   Tenet'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FICIL',
+      'suffix' => '',
+      'glosses' => [
+        'Tenet'
+      ],
+      'orig' => 'tiyniyt',
+      'prefix' => ''
+    }
+  ],
   't n n' => [
     {
       'types' => {},
@@ -1926,6 +1926,25 @@ $Lexicon = {
         'dragons'
       ],
       'orig' => 'tin~iyn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tanniyn',
+      'form' => 'tanniyn',
+      'lines' => [
+        ';; tan~iyn_1',
+        'tan~iyn N       tannin'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCIL',
+      'suffix' => '',
+      'glosses' => [
+        'tannin'
+      ],
+      'orig' => 'tan~iyn',
       'prefix' => ''
     }
   ],
@@ -4206,18 +4225,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'tiyniyt',
       'form' => 'tiyniyt',
-      'lines' => [
-        ';; tiyniyt_1',
-        'tiyniyt Nprop   Tenet'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KiRDIS',
       'suffix' => '',
-      'glosses' => [
-        'Tenet'
-      ],
+      'glosses' => [],
       'orig' => 'tiyniyt',
       'prefix' => ''
     }
@@ -12806,33 +12820,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tallIs' => [
-    {
-      'types' => {
-        'talAliys' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'talliys',
-      'form' => 'talliys',
-      'lines' => [
-        ';; tal~iys_1',
-        'tal~iys Ndu     sack',
-        'talAliys        Ndip    sacks'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'sack',
-        'sacks'
-      ],
-      'orig' => 'tal~iys',
-      'prefix' => ''
-    }
-  ],
   't l m' => [
     {
       'types' => {
@@ -13179,6 +13166,37 @@ $Lexicon = {
         'Tipasa'
       ],
       'orig' => 'tiybAzah',
+      'prefix' => ''
+    }
+  ],
+  't l s' => [
+    {
+      'types' => {
+        'talAliys' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'talliys',
+      'form' => 'talliys',
+      'lines' => [
+        ';; tal~iys_1',
+        'tal~iys Ndu     sack',
+        'talAliys        Ndip    sacks'
+      ],
+      'patterns' => {
+        'talAliys' => [
+          'FaCACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCIL',
+      'suffix' => '',
+      'glosses' => [
+        'sack',
+        'sacks'
+      ],
+      'orig' => 'tal~iys',
       'prefix' => ''
     }
   ],
@@ -14994,6 +15012,9 @@ $Lexicon->{'t ^g n'}[0]{'glosses'} = $Lexicon->{'t w ^g'}[4]{'glosses'};
 $Lexicon->{'t ^g n'}[1]{'types'} = $Lexicon->{'t w ^g'}[4]{'types'};
 $Lexicon->{'t ^g n'}[1]{'lines'} = $Lexicon->{'t w ^g'}[4]{'lines'};
 $Lexicon->{'t ^g n'}[1]{'glosses'} = $Lexicon->{'t w ^g'}[4]{'glosses'};
+$Lexicon->{'t y n t'}[0]{'types'} = $Lexicon->{'t n t'}[0]{'types'};
+$Lexicon->{'t y n t'}[0]{'lines'} = $Lexicon->{'t n t'}[0]{'lines'};
+$Lexicon->{'t y n t'}[0]{'glosses'} = $Lexicon->{'t n t'}[0]{'glosses'};
 $Lexicon->{'t w q'}[4]{'types'} = $Lexicon->{'t \' q'}[1]{'types'};
 $Lexicon->{'t w q'}[4]{'lines'} = $Lexicon->{'t \' q'}[1]{'lines'};
 $Lexicon->{'t w q'}[4]{'glosses'} = $Lexicon->{'t \' q'}[1]{'glosses'};

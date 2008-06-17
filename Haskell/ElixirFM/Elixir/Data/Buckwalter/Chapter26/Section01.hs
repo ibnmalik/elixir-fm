@@ -687,6 +687,11 @@ cluster_15  = listing "Lexicon's properties"
     FaCA'                     `noun`    {- habA' -}            [ unwords [ "dust", "particle" ] ]
                               `plural`     HaFCA' ]
 
+ |> "h b z" <| [
+
+    FICIL                     `noun`    {- hiybiyz -}          [ "hippies" ]
+                              `plural`     FiCCIL ]
+
  |> "h d '" <| [
 
     FaCaL                     `verb`    {- hadaO-a -}          [ unwords [ "calm", "down" ], "subside" ]

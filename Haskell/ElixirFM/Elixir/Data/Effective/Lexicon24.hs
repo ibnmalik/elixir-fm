@@ -281,13 +281,23 @@ cluster_4   = listing "Lexicon's properties"
 
     FACiL |< aT               `noun`    {- mA$iTap -}          [ unwords [ "lady's", "maid" ], "coiffeuse" ] ]
 
- |> "m ^s w r" <| [
-
-    KiRDAS                    `noun`    {- mi$owAr -}          [ "walk", "promenade" ] ]
-
 
 cluster_5   = listing "Lexicon's properties"
 
+
+ |> "m ^s l" <| [
+
+    FICIL                     `noun`    {- miy$iyl -}          [ "Michael", "Michel" ]
+                              `plural`     FICAL
+                              `plural`     MICAL,
+
+    FICIL                     `noun`    {- miy$iyl -}          [ "Michelle" ]
+                              `plural`     FICAL
+                              `plural`     MICAL ]
+
+ |> "m ^s w r" <| [
+
+    KiRDAS                    `noun`    {- mi$owAr -}          [ "walk", "promenade" ] ]
 
  |> "m ^s y" <| [
 

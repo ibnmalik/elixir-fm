@@ -6,6 +6,770 @@ package Elixir::Data::Buckwalter::Lexicon07;
 
 
 $Lexicon = {
+  '_h z ` l' => [
+    {
+      'types' => {},
+      'entry' => '_haz`al',
+      'form' => '_haz`al',
+      'lines' => [
+        ';; xazoEal_1',
+        'xazoEal N0      Khaz\'al'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'Khaz\'al'
+      ],
+      'orig' => 'xazoEal',
+      'prefix' => ''
+    }
+  ],
+  '_h l _h l' => [
+    {
+      'types' => {
+        '_hal_hil' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_hal_hal',
+      'form' => '_hal_hal',
+      'lines' => [
+        ';; xaloxal_1',
+        'xaloxal PV      shake;rock;rarefy',
+        'xaloxil IV_yu   shake;rock;rarefy'
+      ],
+      'patterns' => {
+        '_hal_hil' => [
+          'KaRDiS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'KaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'shake',
+        'rock',
+        'rarefy'
+      ],
+      'orig' => 'xaloxal',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_hal_hal',
+      'form' => 'ta_hal_hal',
+      'lines' => [
+        ';; taxaloxal_1',
+        'taxaloxal       PV_intr be shaken;be disjointed;become rarefied',
+        'taxaloxal       IV_intr be shaken;be disjointed;become rarefied'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaKaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'be shaken',
+        'be disjointed',
+        'become rarefied'
+      ],
+      'orig' => 'taxaloxal',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_halA_hil' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hal_hal',
+      'form' => '_hal_hal',
+      'lines' => [
+        ';; xaloxal_2',
+        'xaloxal Ndu     anklet',
+        'xalAxil Ndip    anklets'
+      ],
+      'patterns' => {
+        '_halA_hil' => [
+          'KaRADiS'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'KaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'anklet',
+        'anklets'
+      ],
+      'orig' => 'xaloxal',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_halA_hiyl' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hal_hAl',
+      'form' => '_hal_hAl',
+      'lines' => [
+        ';; xaloxAl_1',
+        'xaloxAl Ndu     anklet',
+        'xalAxiyl        Ndip    anklets'
+      ],
+      'patterns' => {
+        '_halA_hiyl' => [
+          'KaRADIS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDAS',
+      'suffix' => '',
+      'glosses' => [
+        'anklet',
+        'anklets'
+      ],
+      'orig' => 'xaloxAl',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta_hal_hul' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'ta_hal_hul',
+      'form' => 'ta_hal_hul',
+      'lines' => [
+        ';; taxaloxul_1',
+        'taxaloxul       NduAt   rarefaction'
+      ],
+      'patterns' => {
+        'ta_hal_hul' => [
+          'TaKaRDuS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaKaRDuS',
+      'suffix' => '',
+      'glosses' => [
+        'rarefaction'
+      ],
+      'orig' => 'taxaloxul',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_hal_hal',
+      'form' => 'mu_hal_hal',
+      'lines' => [
+        ';; muxaloxal_1',
+        'muxaloxal       Nall    rarefied'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuKaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'rarefied'
+      ],
+      'orig' => 'muxaloxal',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muta_hal_hil',
+      'form' => 'muta_hal_hil',
+      'lines' => [
+        ';; mutaxaloxil_1',
+        'mutaxaloxil     Nall    rarefied'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MutaKaRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'rarefied'
+      ],
+      'orig' => 'mutaxaloxil',
+      'prefix' => ''
+    }
+  ],
+  '_h n s' => [
+    {
+      'types' => {},
+      'entry' => '_hannAs',
+      'form' => '_hannAs',
+      'lines' => [
+        ';; xan~As_1',
+        'xan~As  N       Devil'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL',
+      'suffix' => '',
+      'glosses' => [
+        'Devil'
+      ],
+      'orig' => 'xan~As',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hansA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        },
+        '_hunus' => {
+          'N' => 1
+        }
+      },
+      'entry' => '\'a_hnas',
+      'form' => '\'a_hnas',
+      'lines' => [
+        ';; Oaxonas_1',
+        'Oaxonas Nel     pug-nosed',
+        'xanosA\' N0_Nh   pug-nosed',
+        'xanosAW Nh      pug-nosed',
+        'xanosA} Nhy     pug-nosed',
+        'xunus   N       pug-nosed'
+      ],
+      'patterns' => {
+        '_hansA\'' => [
+          'FaCLA\''
+        ],
+        '_hunus' => [
+          'FuCuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'pug-nosed'
+      ],
+      'orig' => 'Oaxonas',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hansA\'',
+      'form' => '_hansA\'',
+      'lines' => [
+        ';; xanosA\'_1',
+        'xanosA\' N0      Khansa'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLA\'',
+      'suffix' => '',
+      'glosses' => [
+        'Khansa'
+      ],
+      'orig' => 'xanosA\'',
+      'prefix' => ''
+    }
+  ],
+  '_hAymI' => [
+    {
+      'types' => {},
+      'entry' => '_hAymiy',
+      'form' => '_hAymiy',
+      'lines' => [
+        ';; xAyomiy_1',
+        'xAyomiy Nprop   Jaime'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Jaime'
+      ],
+      'orig' => 'xAyomiy',
+      'prefix' => ''
+    }
+  ],
+  '_hUr_hI' => [
+    {
+      'types' => {},
+      'entry' => '_huwr_hiy',
+      'form' => '_huwr_hiy',
+      'lines' => [
+        ';; xuwroxiy_1',
+        'xuwroxiy        Nprop   Jorge'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Jorge'
+      ],
+      'orig' => 'xuwroxiy',
+      'prefix' => ''
+    }
+  ],
+  '_h .d .d' => [
+    {
+      'types' => {
+        '_ha.da.d' => {
+          'PV_C' => 1
+        },
+        '_h.da.d' => {
+          'IV_C' => 1
+        }
+      },
+      'entry' => '_ha.d.d',
+      'form' => '_ha.d.d',
+      'lines' => [
+        ';; xaD~-a_1',
+        'xaD~    PV_V    shock;frighten',
+        'xaDaD   PV_C    shock;frighten',
+        'xaD~    IV_V    shock;frighten',
+        'xoDaD   IV_C    shock;frighten'
+      ],
+      'patterns' => {
+        '_ha.da.d' => [
+          'FaCaL'
+        ],
+        '_h.da.d' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCL',
+      'glosses' => [
+        'shock',
+        'frighten'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'xaD~-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha.d.d',
+      'form' => '_ha.d.d',
+      'lines' => [
+        ';; xaD~_1',
+        'xaD~    N       jolt;scare'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'jolt',
+        'scare'
+      ],
+      'orig' => 'xaD~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha.d.d',
+      'form' => '_ha.d.daT',
+      'lines' => [
+        ';; xaD~ap_1',
+        'xaD~    Nap     shock;jolt'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'shock',
+        'jolt'
+      ],
+      'orig' => 'xaD~ap',
+      'prefix' => ''
+    }
+  ],
+  '_h r .t' => [
+    {
+      'types' => {
+        '_hru.t' => {
+          'IV' => 1
+        },
+        '_hri.t' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_hara.t',
+      'form' => '_hara.t',
+      'lines' => [
+        ';; xaraT-ui_1',
+        'xaraT   PV      strip;lathe',
+        'xoruT   IV      strip;lathe',
+        'xoriT   IV      strip;lathe'
+      ],
+      'patterns' => {
+        '_hru.t' => [
+          'FCuL'
+        ],
+        '_hri.t' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'strip',
+        'lathe'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL',
+        'FCiL'
+      ],
+      'orig' => 'xaraT-ui',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_harri.t' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_harra.t',
+      'form' => '_harra.t',
+      'lines' => [
+        ';; xar~aT_1',
+        'xar~aT  PV      mince;chop',
+        'xar~iT  IV_yu   mince;chop'
+      ],
+      'patterns' => {
+        '_harri.t' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'mince',
+        'chop'
+      ],
+      'orig' => 'xar~aT',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'n_hari.t' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'in_hara.t',
+      'form' => 'in_hara.t',
+      'lines' => [
+        ';; AinoxaraT_1',
+        'AinoxaraT       PV      join;penetrate',
+        'noxariT IV      join;penetrate'
+      ],
+      'patterns' => {
+        'n_hari.t' => [
+          'NFaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'InFaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'join',
+        'penetrate'
+      ],
+      'orig' => 'AinoxaraT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harrA.t',
+      'form' => '_harrA.t',
+      'lines' => [
+        ';; xar~AT_1',
+        'xar~AT  N0      Kharrat'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL',
+      'suffix' => '',
+      'glosses' => [
+        'Kharrat'
+      ],
+      'orig' => 'xar~AT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harrA.t',
+      'form' => '_harrA.t',
+      'lines' => [
+        ';; xar~AT_2',
+        'xar~AT  Nall    storyteller;braggart'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL',
+      'suffix' => '',
+      'glosses' => [
+        'storyteller',
+        'braggart'
+      ],
+      'orig' => 'xar~AT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harrA.t',
+      'form' => '_harrA.t',
+      'lines' => [
+        ';; xar~AT_3',
+        'xar~AT  Nall    machinist;turner'
+      ],
+      'patterns' => {},
+      'index' => '3',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL',
+      'suffix' => '',
+      'glosses' => [
+        'machinist',
+        'turner'
+      ],
+      'orig' => 'xar~AT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hirA.t',
+      'form' => '_hirA.taT',
+      'lines' => [
+        ';; xirATap_1',
+        'xirAT   Nap     turner\'s trade'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'turner\'s trade'
+      ],
+      'orig' => 'xirATap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hurA.t',
+      'form' => '_hurA.taT',
+      'lines' => [
+        ';; xurATap_1',
+        'xurAT   Nap     shavings'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'shavings'
+      ],
+      'orig' => 'xurATap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_harA\'i.t' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hariy.t',
+      'form' => '_hariy.taT',
+      'lines' => [
+        ';; xariyTap_1',
+        'xariyT  Napdu   map;chart',
+        'xarA}iT Ndip    maps;charts'
+      ],
+      'patterns' => {
+        '_harA\'i.t' => [
+          'FaCA\'iL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'map',
+        'chart',
+        'maps',
+        'charts'
+      ],
+      'orig' => 'xariyTap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harA\'i.t',
+      'form' => '_harA\'i.tiyy',
+      'lines' => [
+        ';; xarA}iTiy~_1',
+        'xarA}iTiy~      Nall    cartographic     [[xarA}iTiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCA\'iL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'cartographic'
+      ],
+      'orig' => 'xarA}iTiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ma_hAri.t' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'mi_hra.t',
+      'form' => 'mi_hra.taT',
+      'lines' => [
+        ';; mixoraTap_1',
+        'mixoraT Napdu   lathe',
+        'maxAriT Ndip    lathes'
+      ],
+      'patterns' => {
+        'ma_hAri.t' => [
+          'MaFACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MiFCaL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'lathe',
+        'lathes'
+      ],
+      'orig' => 'mixoraTap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'in_hirA.t' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'in_hirA.t',
+      'form' => 'in_hirA.t',
+      'lines' => [
+        ';; AinoxirAT_1',
+        'AinoxirAT       NduAt   joining;entry'
+      ],
+      'patterns' => {
+        'in_hirA.t' => [
+          'InFiCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'InFiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'joining',
+        'entry'
+      ],
+      'orig' => 'AinoxirAT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hAri.t',
+      'form' => '_hAri.taT',
+      'lines' => [
+        ';; xAriTap_1',
+        'xAriT   NapAt   map;chart'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'map',
+        'chart'
+      ],
+      'orig' => 'xAriTap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ma_hruw.t',
+      'form' => 'ma_hruw.t',
+      'lines' => [
+        ';; maxoruwT_1',
+        'maxoruwT        N/ap    cone;conic'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCUL',
+      'suffix' => '',
+      'glosses' => [
+        'cone',
+        'conic'
+      ],
+      'orig' => 'maxoruwT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ma_hruw.t',
+      'form' => 'ma_hruw.tiyy',
+      'lines' => [
+        ';; maxoruwTiy~_1',
+        'maxoruwTiy~     Nall    conical     [[maxoruwTiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MaFCUL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'conical'
+      ],
+      'orig' => 'maxoruwTiy~',
+      'prefix' => ''
+    }
+  ],
   '_h r r' => [
     {
       'types' => {
@@ -129,6 +893,207 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_hayrAllh' => [
+    {
+      'types' => {
+        '_hayrAlll_ah' => {
+          'N0' => 1
+        }
+      },
+      'entry' => '_hayrAllh',
+      'form' => '_hayrAllh',
+      'lines' => [
+        ';; xayorAllh_1',
+        'xayorAll~`h     N0      Khairallah;Kheirallah;Khairullah'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Khairallah',
+        'Kheirallah',
+        'Khairullah'
+      ],
+      'orig' => 'xayorAllh',
+      'prefix' => ''
+    }
+  ],
+  '_h m d' => [
+    {
+      'types' => {
+        '_hmud' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_hamad',
+      'form' => '_hamad',
+      'lines' => [
+        ';; xamad-u_1',
+        'xamad   PV      go out;calm down;die down',
+        'xomud   IV      go out;calm down;die down'
+      ],
+      'patterns' => {
+        '_hmud' => [
+          'FCuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'go out',
+        'calm down',
+        'die down'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'xamad-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hmad' => {
+          'IV_Pass_yu' => 1
+        },
+        '_hmid' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '\'a_hmad',
+      'form' => '\'a_hmad',
+      'lines' => [
+        ';; Oaxomad_1',
+        'Oaxomad PV      extinguish;calm;subdue',
+        'xomid   IV_yu   extinguish;calm;subdue',
+        'xomad   IV_Pass_yu      be extinguished;be calmed;be subdued'
+      ],
+      'patterns' => {
+        '_hmad' => [
+          'FCaL'
+        ],
+        '_hmid' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'extinguish',
+        'calm',
+        'subdue',
+        'be extinguished',
+        'be calmed',
+        'be subdued'
+      ],
+      'orig' => 'Oaxomad',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_humuwd',
+      'form' => '_humuwd',
+      'lines' => [
+        ';; xumuwd_1',
+        'xumuwd  N       extinguishing',
+        'xumuwd  N       deterioration',
+        'xumuwd  N       tranquillity'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCUL',
+      'suffix' => '',
+      'glosses' => [
+        'extinguishing',
+        'deterioration',
+        'tranquillity'
+      ],
+      'orig' => 'xumuwd',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'i_hmAd' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => '\'i_hmAd',
+      'form' => '\'i_hmAd',
+      'lines' => [
+        ';; IixomAd_1',
+        'IixomAd NduAt   extinguishing'
+      ],
+      'patterns' => {
+        '\'i_hmAd' => [
+          'HiFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        'extinguishing'
+      ],
+      'orig' => 'IixomAd',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'i_hmAd' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => '\'i_hmAd',
+      'form' => '\'i_hmAd',
+      'lines' => [
+        ';; IixomAd_2',
+        'IixomAd NduAt   quelling;subduing'
+      ],
+      'patterns' => {
+        '\'i_hmAd' => [
+          'HiFCAL'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        'quelling',
+        'subduing'
+      ],
+      'orig' => 'IixomAd',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hAmid',
+      'form' => '_hAmid',
+      'lines' => [
+        ';; xAmid_1',
+        'xAmid   Nall    dying;subsiding;tranquil     [[xAmid/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        'dying',
+        'subsiding',
+        'tranquil'
+      ],
+      'orig' => 'xAmid',
+      'prefix' => ''
+    }
+  ],
   '_hi.damm' => [
     {
       'types' => {},
@@ -150,6 +1115,230 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h r n q' => [
+    {
+      'types' => {
+        '_harAniq' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hirniq',
+      'form' => '_hirniq',
+      'lines' => [
+        ';; xironiq_1',
+        'xironiq N       hare;leveret',
+        'xarAniq Ndip    hares;leverets'
+      ],
+      'patterns' => {
+        '_harAniq' => [
+          'KaRADiS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KiRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'hare',
+        'leveret',
+        'hares',
+        'leverets'
+      ],
+      'orig' => 'xironiq',
+      'prefix' => ''
+    }
+  ],
+  '_h l y' => [
+    {
+      'types' => {
+        '\'a_hliyA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '_haliyy',
+      'form' => '_haliyy',
+      'lines' => [
+        ';; xaliy~_1',
+        'xaliy~  N/ap    free;devoid     [[xaliy~/ADJ]]',
+        'OaxoliyA\'       N0_Nh   free;devoid',
+        'OaxoliyAW       Nh      free;devoid',
+        'OaxoliyA}       Nhy     free;devoid'
+      ],
+      'patterns' => {
+        '\'a_hliyA\'' => [
+          'HaFCiLA\''
+        ]
+      },
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        'free',
+        'devoid'
+      ],
+      'orig' => 'xaliy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_halAyY' => {
+          'N0_Nhy' => 1
+        }
+      },
+      'entry' => '_haliyy',
+      'form' => '_haliyyaT',
+      'lines' => [
+        ';; xaliy~ap_1',
+        'xaliy~  Napdu   cell',
+        'xalAyA  N0_Nhy  cells'
+      ],
+      'patterns' => {
+        '_halAyY' => [
+          'FaCALY'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'cell',
+        'cells'
+      ],
+      'orig' => 'xaliy~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_halAyY' => {
+          'N0_Nhy' => 1
+        }
+      },
+      'entry' => '_haliyy',
+      'form' => '_haliyyaT',
+      'lines' => [
+        ';; xaliy~ap_2',
+        'xaliy~  Napdu   beehive',
+        'xalAyA  N0_Nhy  beehives'
+      ],
+      'patterns' => {
+        '_halAyY' => [
+          'FaCALY'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'beehive',
+        'beehives'
+      ],
+      'orig' => 'xaliy~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_hliy',
+      'form' => 'ta_hliyaT',
+      'lines' => [
+        ';; taxoliyap_1',
+        'taxoliy Nap     vacating;evacuation'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFCI |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'vacating',
+        'evacuation'
+      ],
+      'orig' => 'taxoliyap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hAliy' => {
+          'NapAt' => 1
+        },
+        '_hAl' => {
+          'Nuwn_Niyn' => 1
+        }
+      },
+      'entry' => '_hAliy',
+      'form' => '_hAliy',
+      'lines' => [
+        ';; xAliy_1',
+        'xAliy   N0F     empty;devoid;free     [[xAliy/ADJ]]',
+        'xAl     NK      empty;devoid;free',
+        'xAliy   NAn_Nayn        empty;devoid;free',
+        'xAl     Nuwn_Niyn       empty;devoid;free',
+        'xAliy   NapAt   empty;devoid;free'
+      ],
+      'patterns' => {
+        '_hAliy' => [
+          'FACI'
+        ],
+        '_hAl' => []
+      },
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACI',
+      'suffix' => '',
+      'glosses' => [
+        'empty',
+        'devoid',
+        'free'
+      ],
+      'orig' => 'xAliy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hawAliy',
+      'form' => '_hawAliy',
+      'lines' => [
+        ';; xawAliy_1',
+        'xawAliy N0_Nh   elapsed',
+        'xawAl   NK      elapsed'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FawACI',
+      'suffix' => '',
+      'glosses' => [
+        'elapsed'
+      ],
+      'orig' => 'xawAliy',
+      'prefix' => ''
+    }
+  ],
+  'ya_h.dUr' => [
+    {
+      'types' => {},
+      'entry' => 'ya_h.duwr',
+      'form' => 'ya_h.duwr',
+      'lines' => [
+        ';; yaxoDuwr_1',
+        'yaxoDuwr        N       chlorophyll'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'chlorophyll'
+      ],
+      'orig' => 'yaxoDuwr',
+      'prefix' => ''
+    }
+  ],
   '_h y y' => [
     {
       'types' => {},
@@ -168,6 +1357,57 @@ $Lexicon = {
         'noose'
       ],
       'orig' => 'xay~ap',
+      'prefix' => ''
+    }
+  ],
+  '_h r b .t' => [
+    {
+      'types' => {
+        '_harbi.t' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_harba.t',
+      'form' => '_harba.t',
+      'lines' => [
+        ';; xarobaT_1',
+        'xarobaT PV      disarrange;confuse',
+        'xarobiT IV_yu   disarrange;confuse'
+      ],
+      'patterns' => {
+        '_harbi.t' => [
+          'KaRDiS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'KaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'disarrange',
+        'confuse'
+      ],
+      'orig' => 'xarobaT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harba.t',
+      'form' => '_harba.taT',
+      'lines' => [
+        ';; xarobaTap_1',
+        'xarobaT Nap     disorder;confusion'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDaS |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'disorder',
+        'confusion'
+      ],
+      'orig' => 'xarobaTap',
       'prefix' => ''
     }
   ],
@@ -251,6 +1491,27 @@ $Lexicon = {
         'bats'
       ],
       'orig' => 'xuf~A$',
+      'prefix' => ''
+    }
+  ],
+  '_h r .t .t' => [
+    {
+      'types' => {},
+      'entry' => '_har.tiy.t',
+      'form' => '_har.tiy.t',
+      'lines' => [
+        ';; xaroTiyT_1',
+        'xaroTiyT        Ndu     rhinoceros'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDIS',
+      'suffix' => '',
+      'glosses' => [
+        'rhinoceros'
+      ],
+      'orig' => 'xaroTiyT',
       'prefix' => ''
     }
   ],
@@ -509,6 +1770,41 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h .d d' => [
+    {
+      'types' => {
+        '_h.did' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_ha.dad',
+      'form' => '_ha.dad',
+      'lines' => [
+        ';; xaDad-i_1',
+        'xaDad   PV      cut off;restrain;tame',
+        'xoDid   IV      cut off;restrain;tame'
+      ],
+      'patterns' => {
+        '_h.did' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'cut off',
+        'restrain',
+        'tame'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xaDad-i',
+      'prefix' => ''
+    }
+  ],
   '_h w f' => [
     {
       'types' => {
@@ -720,6 +2016,26 @@ $Lexicon = {
       'prefix' => ''
     },
     {
+      'types' => {},
+      'entry' => '_hawwiyf',
+      'form' => '_hawwiyf',
+      'lines' => [
+        ';; xaw~iyf_1',
+        'xaw~iyf N       fearful;coward'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCIL',
+      'suffix' => '',
+      'glosses' => [
+        'fearful',
+        'coward'
+      ],
+      'orig' => 'xaw~iyf',
+      'prefix' => ''
+    },
+    {
       'types' => {
         'ma_hAwif' => {
           'Ndip' => 1
@@ -921,6 +2237,61 @@ $Lexicon = {
         'more/most fearful'
       ],
       'orig' => 'Oaxowaf',
+      'prefix' => ''
+    }
+  ],
+  '_h b y' => [
+    {
+      'types' => {
+        '_hbY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        '_hbuw' => {
+          'IV_0hAnn' => 1
+        },
+        '_hb' => {
+          'IV_0hwnyn' => 1
+        },
+        '_hab' => {
+          'PV_ttAw' => 1
+        },
+        '_habaw' => {
+          'PV_Atn' => 1
+        }
+      },
+      'entry' => '_habA',
+      'form' => '_habA',
+      'lines' => [
+        ';; xabA-u_1',
+        'xabA    PV_0    die out',
+        'xabaw   PV_Atn  die out',
+        'xab     PV_ttAw die out',
+        'xobuw   IV_0hAnn        die out',
+        'xob     IV_0hwnyn       die out',
+        'xobaY   IV_0_Pass_yu    die out'
+      ],
+      'patterns' => {
+        '_hbY' => [
+          'FCY'
+        ],
+        '_hbuw' => [
+          'FCU'
+        ],
+        '_hab' => [
+          'FaC'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCA',
+      'glosses' => [
+        'die out'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'xabA-u',
       'prefix' => ''
     }
   ],
@@ -1382,6 +2753,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h l k' => [
+    {
+      'types' => {},
+      'entry' => '_halliyk',
+      'form' => '_halliyk',
+      'lines' => [
+        ';; xal~iyk_1',
+        'xal~iyk N       acetic'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCIL',
+      'suffix' => '',
+      'glosses' => [
+        'acetic'
+      ],
+      'orig' => 'xal~iyk',
+      'prefix' => ''
+    }
+  ],
   '_h w l `' => [
     {
       'types' => {},
@@ -1490,6 +2882,675 @@ $Lexicon = {
         'superior'
       ],
       'orig' => 'xuwraY',
+      'prefix' => ''
+    }
+  ],
+  '_harman^g' => [
+    {
+      'types' => {},
+      'entry' => '_harman^g',
+      'form' => '_harman^giyy',
+      'lines' => [
+        ';; xaromanojiy~_1',
+        'xaromanojiy~    Nall    tobacco tester     [[xaromanojiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'tobacco tester'
+      ],
+      'orig' => 'xaromanojiy~',
+      'prefix' => ''
+    }
+  ],
+  '_h r t t' => [
+    {
+      'types' => {},
+      'entry' => '_hartiyt',
+      'form' => '_hartiyt',
+      'lines' => [
+        ';; xartiyt_1',
+        'xartiyt N       rhinoceros'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDIS',
+      'suffix' => '',
+      'glosses' => [
+        'rhinoceros'
+      ],
+      'orig' => 'xartiyt',
+      'prefix' => ''
+    }
+  ],
+  '_h w z q' => [
+    {
+      'types' => {
+        '_hawziq' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_hawzaq',
+      'form' => '_hawzaq',
+      'lines' => [
+        ';; xawozaq_1',
+        'xawozaq PV      impale;corner',
+        'xawoziq IV_yu   impale;corner'
+      ],
+      'patterns' => {
+        '_hawziq' => [
+          'KaRDiS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'KaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'impale',
+        'corner'
+      ],
+      'orig' => 'xawozaq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hawzaq',
+      'form' => '_hawzaqaT',
+      'lines' => [
+        ';; xawozaqap_1',
+        'xawozaq NapAt   impaling;cornering'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDaS |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'impaling',
+        'cornering'
+      ],
+      'orig' => 'xawozaqap',
+      'prefix' => ''
+    }
+  ],
+  '_h l .s' => [
+    {
+      'types' => {
+        '_hlu.s' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => '_hala.s',
+      'form' => '_hala.s',
+      'lines' => [
+        ';; xalaS-u_1',
+        'xalaS   PV_intr conclude',
+        'xoluS   IV_intr conclude'
+      ],
+      'patterns' => {
+        '_hlu.s' => [
+          'FCuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'conclude'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'xalaS-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_halli.s' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_halla.s',
+      'form' => '_halla.s',
+      'lines' => [
+        ';; xal~aS_1',
+        'xal~aS  PV      purify;refine;clarify',
+        'xal~iS  IV_yu   purify;refine;clarify'
+      ],
+      'patterns' => {
+        '_halli.s' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'purify',
+        'refine',
+        'clarify'
+      ],
+      'orig' => 'xal~aS',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hAli.s' => {
+          'IV_intr_yu' => 1
+        }
+      },
+      'entry' => '_hAla.s',
+      'form' => '_hAla.s',
+      'lines' => [
+        ';; xAlaS_1',
+        'xAlaS   PV_intr be sincere;treat fairly',
+        'xAliS   IV_intr_yu      be sincere;treat fairly'
+      ],
+      'patterns' => {
+        '_hAli.s' => [
+          'FACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FACaL',
+      'suffix' => '',
+      'glosses' => [
+        'be sincere',
+        'treat fairly'
+      ],
+      'orig' => 'xAlaS',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hli.s' => {
+          'IV_intr_yu' => 1
+        }
+      },
+      'entry' => '\'a_hla.s',
+      'form' => '\'a_hla.s',
+      'lines' => [
+        ';; OaxolaS_1',
+        'OaxolaS PV_intr be devoted;dedicate',
+        'xoliS   IV_intr_yu      be devoted;dedicate'
+      ],
+      'patterns' => {
+        '_hli.s' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be devoted',
+        'dedicate'
+      ],
+      'orig' => 'OaxolaS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_halla.s',
+      'form' => 'ta_halla.s',
+      'lines' => [
+        ';; taxal~aS_1',
+        'taxal~aS        PV      get rid of',
+        'taxal~aS        IV      get rid of'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'get rid of'
+      ],
+      'orig' => 'taxal~aS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_hAla.s',
+      'form' => 'ta_hAla.s',
+      'lines' => [
+        ';; taxAlaS_1',
+        'taxAlaS PV      act with integrity',
+        'taxAlaS IV      act with integrity'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFACaL',
+      'suffix' => '',
+      'glosses' => [
+        'act with integrity'
+      ],
+      'orig' => 'taxAlaS',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'sta_hli.s' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'ista_hla.s',
+      'form' => 'ista_hla.s',
+      'lines' => [
+        ';; AisotaxolaS_1',
+        'AisotaxolaS     PV      extract;derive',
+        'sotaxoliS       IV      extract;derive'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IstaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'extract',
+        'derive'
+      ],
+      'orig' => 'AisotaxolaS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_halA.s',
+      'form' => '_halA.s',
+      'lines' => [
+        ';; xalAS_1',
+        'xalAS   N       deliverance;settlement'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL',
+      'suffix' => '',
+      'glosses' => [
+        'deliverance',
+        'settlement'
+      ],
+      'orig' => 'xalAS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hulA.s',
+      'form' => '_hulA.saT',
+      'lines' => [
+        ';; xulASap_1',
+        'xulAS   Nap     gist;synopsis;summary'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'gist',
+        'synopsis',
+        'summary'
+      ],
+      'orig' => 'xulASap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_haliy.s',
+      'form' => '_haliy.s',
+      'lines' => [
+        ';; xaliyS_1',
+        'xaliyS  Nall    pure;loyal;sincere     [[xaliyS/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        'pure',
+        'loyal',
+        'sincere'
+      ],
+      'orig' => 'xaliyS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_huluw.s',
+      'form' => '_huluw.s',
+      'lines' => [
+        ';; xuluwS_1',
+        'xuluwS  N       clearness;candor'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCUL',
+      'suffix' => '',
+      'glosses' => [
+        'clearness',
+        'candor'
+      ],
+      'orig' => 'xuluwS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ma_hla.s',
+      'form' => 'ma_hla.s',
+      'lines' => [
+        ';; maxolaS_1',
+        'maxolaS Ndu     refuge;deliverance'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'refuge',
+        'deliverance'
+      ],
+      'orig' => 'maxolaS',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta_hliy.s' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'ta_hliy.s',
+      'form' => 'ta_hliy.s',
+      'lines' => [
+        ';; taxoliyS_1',
+        'taxoliyS        NduAt   refining;clearing'
+      ],
+      'patterns' => {
+        'ta_hliy.s' => [
+          'TaFCIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFCIL',
+      'suffix' => '',
+      'glosses' => [
+        'refining',
+        'clearing'
+      ],
+      'orig' => 'taxoliyS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_hAla.s',
+      'form' => 'mu_hAla.saT',
+      'lines' => [
+        ';; muxAlaSap_1',
+        'muxAlaS NapAt   receipt'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFACaL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'receipt'
+      ],
+      'orig' => 'muxAlaSap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'i_hlA.s' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => '\'i_hlA.s',
+      'form' => '\'i_hlA.s',
+      'lines' => [
+        ';; IixolAS_1',
+        'IixolAS NduAt   fidelity;sincerity'
+      ],
+      'patterns' => {
+        '\'i_hlA.s' => [
+          'HiFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        'fidelity',
+        'sincerity'
+      ],
+      'orig' => 'IixolAS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'i_hlA.s',
+      'form' => '\'i_hlA.s',
+      'lines' => [
+        ';; IixolAS_2',
+        'IixolAS Nprop   Ikhlas'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        'Ikhlas'
+      ],
+      'orig' => 'IixolAS',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta_hallu.s' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'ta_hallu.s',
+      'form' => 'ta_hallu.s',
+      'lines' => [
+        ';; taxal~uS_1',
+        'taxal~uS        NduAt   freedom;riddance;escape'
+      ],
+      'patterns' => {
+        'ta_hallu.s' => [
+          'TaFaCCuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFaCCuL',
+      'suffix' => '',
+      'glosses' => [
+        'freedom',
+        'riddance',
+        'escape'
+      ],
+      'orig' => 'taxal~uS',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'isti_hlA.s' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'isti_hlA.s',
+      'form' => 'isti_hlA.s',
+      'lines' => [
+        ';; AisotixolAS_1',
+        'AisotixolAS     NduAt   extraction;summing-up;derivation'
+      ],
+      'patterns' => {
+        'isti_hlA.s' => [
+          'IstiFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IstiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        'extraction',
+        'summing-up',
+        'derivation'
+      ],
+      'orig' => 'AisotixolAS',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hulla.s' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_hAli.s',
+      'form' => '_hAli.s',
+      'lines' => [
+        ';; xAliS_1',
+        'xAliS   N-ap    pure;clear     [[xAliS/ADJ]]',
+        'xul~aS  N       pure;clear'
+      ],
+      'patterns' => {
+        '_hulla.s' => [
+          'FuCCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        'pure',
+        'clear'
+      ],
+      'orig' => 'xAliS',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hulla.s' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_hAli.s',
+      'form' => '_hAli.s',
+      'lines' => [
+        ';; xAliS_2',
+        'xAliS   N-ap    sincere     [[xAliS/ADJ]]',
+        'xul~aS  N       sincere'
+      ],
+      'patterns' => {
+        '_hulla.s' => [
+          'FuCCaL'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        'sincere'
+      ],
+      'orig' => 'xAliS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_halli.s',
+      'form' => 'mu_halli.s',
+      'lines' => [
+        ';; muxal~iS_1',
+        'muxal~iS        Nall    liberator;savior'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFaCCiL',
+      'suffix' => '',
+      'glosses' => [
+        'liberator',
+        'savior'
+      ],
+      'orig' => 'muxal~iS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_halla.s',
+      'form' => 'mu_halla.s',
+      'lines' => [
+        ';; muxal~aS_1',
+        'muxal~aS        N       cleared     [[muxal~aS/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'cleared'
+      ],
+      'orig' => 'muxal~aS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_hli.s',
+      'form' => 'mu_hli.s',
+      'lines' => [
+        ';; muxoliS_1',
+        'muxoliS Nall    sincere;loyal     [[muxoliS/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFCiL',
+      'suffix' => '',
+      'glosses' => [
+        'sincere',
+        'loyal'
+      ],
+      'orig' => 'muxoliS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'musta_hla.s',
+      'form' => 'musta_hla.s',
+      'lines' => [
+        ';; musotaxolaS_1',
+        'musotaxolaS     Nall    extract;excerpt'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MustaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'extract',
+        'excerpt'
+      ],
+      'orig' => 'musotaxolaS',
       'prefix' => ''
     }
   ],
@@ -1667,6 +3728,48 @@ $Lexicon = {
         'concrete'
       ],
       'orig' => 'xarasAn',
+      'prefix' => ''
+    }
+  ],
+  '_hwAn' => [
+    {
+      'types' => {},
+      'entry' => '_hwAn',
+      'form' => '_hwAn',
+      'lines' => [
+        ';; xwAn_1',
+        'xwAn    Nprop   Juan'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Juan'
+      ],
+      'orig' => 'xwAn',
+      'prefix' => ''
+    }
+  ],
+  '_h \' k' => [
+    {
+      'types' => {},
+      'entry' => '_hAk',
+      'form' => '_hAkiyy',
+      'lines' => [
+        ';; xAkiy~_1',
+        'xAkiy~  Nall    khaki     [[xAkiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'khaki'
+      ],
+      'orig' => 'xAkiy~',
       'prefix' => ''
     }
   ],
@@ -1882,6 +3985,133 @@ $Lexicon = {
         'firm'
       ],
       'orig' => 'mutaxa$~ib',
+      'prefix' => ''
+    }
+  ],
+  '_h b .s' => [
+    {
+      'types' => {
+        '_hbi.s' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_haba.s',
+      'form' => '_haba.s',
+      'lines' => [
+        ';; xabaS-i_1',
+        'xabaS   PV      mix;mingle',
+        'xobiS   IV      mix;mingle'
+      ],
+      'patterns' => {
+        '_hbi.s' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'mix',
+        'mingle'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xabaS-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_habbi.s' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_habba.s',
+      'form' => '_habba.s',
+      'lines' => [
+        ';; xab~aS_1',
+        'xab~aS  PV      mix;muddle',
+        'xab~iS  IV_yu   mix;muddle'
+      ],
+      'patterns' => {
+        '_habbi.s' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'mix',
+        'muddle'
+      ],
+      'orig' => 'xab~aS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_habiy.s',
+      'form' => '_habiy.s',
+      'lines' => [
+        ';; xabiyS_1',
+        'xabiyS  N       medley;mishmash',
+        'xabiyS  Nap     medley;mishmash',
+        'xabiyS  Nap     khabisah (food)'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        'medley',
+        'mishmash',
+        'khabisah (food)'
+      ],
+      'orig' => 'xabiyS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_habbA.s',
+      'form' => '_habbA.s',
+      'lines' => [
+        ';; xab~AS_1',
+        'xab~AS  Nall    reckless;bungler'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL',
+      'suffix' => '',
+      'glosses' => [
+        'reckless',
+        'bungler'
+      ],
+      'orig' => 'xab~AS',
+      'prefix' => ''
+    }
+  ],
+  '_halan^g' => [
+    {
+      'types' => {},
+      'entry' => '_halan^g',
+      'form' => '_halan^g',
+      'lines' => [
+        ';; xalanoj_1',
+        'xalanoj N       heath'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'heath'
+      ],
+      'orig' => 'xalanoj',
       'prefix' => ''
     }
   ],
@@ -2326,6 +4556,124 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h _d y' => [
+    {
+      'types' => {
+        'sta_h_dY' => {
+          'IV_0' => 1
+        },
+        'ista_h_day' => {
+          'PV_Atn' => 1
+        },
+        'ista_h_d' => {
+          'PV_ttAw' => 1
+        },
+        'sta_h_diy' => {
+          'IV_0hAnn' => 1
+        },
+        'ista_h_dA' => {
+          'PV_h' => 1
+        },
+        'sta_h_d' => {
+          'IV_0hwnyn' => 1
+        }
+      },
+      'entry' => 'ista_h_dY',
+      'form' => 'ista_h_dY',
+      'lines' => [
+        ';; Aisotaxo*aY_1',
+        'Aisotaxo*aY     PV_0    submit;be servile',
+        'Aisotaxo*A      PV_h    submit;be servile',
+        'Aisotaxo*ay     PV_Atn  submit;be servile',
+        'Aisotaxo*       PV_ttAw submit;be servile',
+        'sotaxo*iy       IV_0hAnn        submit;be servile',
+        'sotaxo* IV_0hwnyn       submit;be servile',
+        'sotaxo*aY       IV_0    submit;be servile'
+      ],
+      'patterns' => {
+        'ista_h_day' => [
+          'IstaFCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IstaFCY',
+      'suffix' => '',
+      'glosses' => [
+        'submit',
+        'be servile'
+      ],
+      'orig' => 'Aisotaxo*aY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'isti_h_dA\'' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'isti_h_dA\'',
+      'form' => 'isti_h_dA\'',
+      'lines' => [
+        ';; Aisotixo*A\'_1',
+        'Aisotixo*A\'     N0_Nh   subservience;servility',
+        'Aisotixo*AW     Nh      subservience;servility',
+        'Aisotixo*A}     Nhy     subservience;servility',
+        'Aisotixo*A\'     NAt     subservience;servility'
+      ],
+      'patterns' => {
+        'isti_h_dA\'' => [
+          'IstiFCA\''
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IstiFCA\'',
+      'suffix' => '',
+      'glosses' => [
+        'subservience',
+        'servility'
+      ],
+      'orig' => 'Aisotixo*A\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'musta_h_d' => {
+          'Nuwn_Niyn' => 1
+        },
+        'musta_h_diy' => {
+          'NapAt' => 1
+        }
+      },
+      'entry' => 'musta_h_diy',
+      'form' => 'musta_h_diy',
+      'lines' => [
+        ';; musotaxo*iy_1',
+        'musotaxo*iy     N0F_Nh  submissive;obedient',
+        'musotaxo*       NK      submissive;obedient',
+        'musotaxo*iy     NAn_Nayn        submissive;obedient',
+        'musotaxo*       Nuwn_Niyn       submissive;obedient',
+        'musotaxo*iy     NapAt   submissive;obedient'
+      ],
+      'patterns' => {
+        'musta_h_d' => [],
+        'musta_h_diy' => [
+          'MustaFCI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MustaFCI',
+      'suffix' => '',
+      'glosses' => [
+        'submissive',
+        'obedient'
+      ],
+      'orig' => 'musotaxo*iy',
+      'prefix' => ''
+    }
+  ],
   '_h w _d' => [
     {
       'types' => {
@@ -2354,6 +4702,27 @@ $Lexicon = {
         'helmets'
       ],
       'orig' => 'xuw*ap',
+      'prefix' => ''
+    }
+  ],
+  '_hidIw' => [
+    {
+      'types' => {},
+      'entry' => '_hidiyw',
+      'form' => '_hidiyw',
+      'lines' => [
+        ';; xidiyw_1',
+        'xidiyw  N       khedive'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'khedive'
+      ],
+      'orig' => 'xidiyw',
       'prefix' => ''
     }
   ],
@@ -3245,6 +5614,118 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h .s l' => [
+    {
+      'types' => {
+        '_hu.sal' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_hu.sl',
+      'form' => '_hu.slaT',
+      'lines' => [
+        ';; xuSolap_1',
+        'xuSol   NapAt   bunch;cluster',
+        'xuSal   N       bunches;tufts;wisps'
+      ],
+      'patterns' => {
+        '_hu.sal' => [
+          'FuCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'bunch',
+        'cluster',
+        'bunches',
+        'tufts',
+        'wisps'
+      ],
+      'orig' => 'xuSolap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha.sl',
+      'form' => '_ha.slaT',
+      'lines' => [
+        ';; xaSolap_1',
+        'xaSol   Nap     characteristic'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'characteristic'
+      ],
+      'orig' => 'xaSolap',
+      'prefix' => ''
+    }
+  ],
+  '_hurAsAn' => [
+    {
+      'types' => {},
+      'entry' => '_hurAsAn',
+      'form' => '_hurAsAn',
+      'lines' => [
+        ';; xurAsAn_1',
+        'xurAsAn Ndip    Khurasan'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Khurasan'
+      ],
+      'orig' => 'xurAsAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hurAsAn',
+      'form' => '_hurAsAniyy',
+      'lines' => [
+        ';; xurAsAniy~_1',
+        'xurAsAniy~      Nall    from/of Khurasan     [[xurAsAniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'from/of Khurasan'
+      ],
+      'orig' => 'xurAsAniy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hurAsAn',
+      'form' => '_hurAsAniyy',
+      'lines' => [
+        ';; xurAsAniy~_2',
+        'xurAsAniy~      N0      Khurasani'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Khurasani'
+      ],
+      'orig' => 'xurAsAniy~',
+      'prefix' => ''
+    }
+  ],
   '_h b .t' => [
     {
       'types' => {
@@ -3581,6 +6062,646 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h w _h' => [
+    {
+      'types' => {
+        '_haw_h' => {
+          'NapAt' => 2
+        }
+      },
+      'entry' => '_haw_h',
+      'form' => '_haw_h',
+      'lines' => [
+        ';; xawox_1',
+        'xawox   N       peach',
+        'xawox   N       plum',
+        'xawox   NapAt   peach',
+        'xawox   NapAt   plum'
+      ],
+      'patterns' => {
+        '_haw_h' => [
+          'FaCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'peach',
+        'plum'
+      ],
+      'orig' => 'xawox',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hawwi_h' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_hawwa_h',
+      'form' => '_hawwa_h',
+      'lines' => [
+        ';; xaw~ax_1',
+        'xaw~ax  PV      rot;decay;spoil',
+        'xaw~ix  IV_yu   rot;decay;spoil'
+      ],
+      'patterns' => {
+        '_hawwi_h' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'rot',
+        'decay',
+        'spoil'
+      ],
+      'orig' => 'xaw~ax',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_huwa_h' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_haw_h',
+      'form' => '_haw_haT',
+      'lines' => [
+        ';; xawoxap_1',
+        'xawox   Napdu   alley;passage;wicket',
+        'xuwax   N       alleys;passages;wickets'
+      ],
+      'patterns' => {
+        '_huwa_h' => [
+          'FuCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'alley',
+        'passage',
+        'wicket',
+        'alleys',
+        'passages',
+        'wickets'
+      ],
+      'orig' => 'xawoxap',
+      'prefix' => ''
+    }
+  ],
+  '_h b b' => [
+    {
+      'types' => {
+        '_hubb' => {
+          'IV_V' => 1
+        },
+        '_hbub' => {
+          'IV_C' => 1
+        },
+        '_habab' => {
+          'PV_C' => 1
+        }
+      },
+      'entry' => '_habb',
+      'form' => '_habb',
+      'lines' => [
+        ';; xab~-u_1',
+        'xab~    PV_V    trot;jog;surge',
+        'xabab   PV_C    trot;jog;surge',
+        'xub~    IV_V    trot;jog;surge',
+        'xobub   IV_C    trot;jog;surge'
+      ],
+      'patterns' => {
+        '_hubb' => [
+          'FuCL'
+        ],
+        '_hbub' => [
+          'FCuL'
+        ],
+        '_habab' => [
+          'FaCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCL',
+      'glosses' => [
+        'trot',
+        'jog',
+        'surge'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'xab~-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_habab' => {
+          'PV_C' => 1
+        },
+        '_hbab' => {
+          'IV_C' => 1
+        }
+      },
+      'entry' => '_habb',
+      'form' => '_habb',
+      'lines' => [
+        ';; xab~-a_1',
+        'xab~    PV_V    circumvent;trick',
+        'xabab   PV_C    circumvent;trick',
+        'xab~    IV_V    circumvent;trick',
+        'xobab   IV_C    circumvent;trick'
+      ],
+      'patterns' => {
+        '_habab' => [
+          'FaCaL'
+        ],
+        '_hbab' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCL',
+      'glosses' => [
+        'circumvent',
+        'trick'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'xab~-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_habbab',
+      'form' => 'ta_habbab',
+      'lines' => [
+        ';; taxab~ab_1',
+        'taxab~ab        PV      amble;trot',
+        'taxab~ab        IV      amble;trot'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'amble',
+        'trot'
+      ],
+      'orig' => 'taxab~ab',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_htabb' => {
+          'IV_V' => 1
+        },
+        'i_htabab' => {
+          'PV_C' => 1
+        },
+        '_htabib' => {
+          'IV_C' => 1
+        }
+      },
+      'entry' => 'i_htabb',
+      'form' => 'i_htabb',
+      'lines' => [
+        ';; Aixotab~_1',
+        'Aixotab~        PV_V    amble;trot',
+        'Aixotabab       PV_C    amble;trot',
+        'xotab~  IV_V    amble;trot',
+        'xotabib IV_C    amble;trot'
+      ],
+      'patterns' => {
+        '_htabb' => [
+          'FtaCL'
+        ],
+        'i_htabab' => [
+          'IFtaCaL'
+        ],
+        '_htabib' => [
+          'FtaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFtaCL',
+      'suffix' => '',
+      'glosses' => [
+        'amble',
+        'trot'
+      ],
+      'orig' => 'Aixotab~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_habab',
+      'form' => '_habab',
+      'lines' => [
+        ';; xabab_1',
+        'xabab   N       amble;trot'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'amble',
+        'trot'
+      ],
+      'orig' => 'xabab',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_habb',
+      'form' => '_habb',
+      'lines' => [
+        ';; xab~_1',
+        'xab~    N       surging;heaving'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'surging',
+        'heaving'
+      ],
+      'orig' => 'xab~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_habiyb',
+      'form' => '_habiyb',
+      'lines' => [
+        ';; xabiyb_1',
+        'xabiyb  N       ambling;trotting'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        'ambling',
+        'trotting'
+      ],
+      'orig' => 'xabiyb',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_habb',
+      'form' => '_habb',
+      'lines' => [
+        ';; xab~_2',
+        'xab~    N/ap    impostor;swindler'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'impostor',
+        'swindler'
+      ],
+      'orig' => 'xab~',
+      'prefix' => ''
+    }
+  ],
+  '_hUzistAn' => [
+    {
+      'types' => {},
+      'entry' => '_huwzistAn',
+      'form' => '_huwzistAn',
+      'lines' => [
+        ';; xuwzisotAn_1',
+        'xuwzisotAn      Nprop   Khuzistan'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Khuzistan'
+      ],
+      'orig' => 'xuwzisotAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_huwzistAn',
+      'form' => '_huwzistAniyy',
+      'lines' => [
+        ';; xuwzisotAniy~_1',
+        'xuwzisotAniy~   Nall    from/of Khuzistan'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'from/of Khuzistan'
+      ],
+      'orig' => 'xuwzisotAniy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_huwzistAn',
+      'form' => '_huwzistAniyy',
+      'lines' => [
+        ';; xuwzisotAniy~_2',
+        'xuwzisotAniy~   N0      Khuzistani'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Khuzistani'
+      ],
+      'orig' => 'xuwzisotAniy~',
+      'prefix' => ''
+    }
+  ],
+  '_h .d b' => [
+    {
+      'types' => {
+        '_h.dib' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_ha.dab',
+      'form' => '_ha.dab',
+      'lines' => [
+        ';; xaDab-i_1',
+        'xaDab   PV      dye;colorize',
+        'xoDib   IV      dye;colorize'
+      ],
+      'patterns' => {
+        '_h.dib' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'dye',
+        'colorize'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xaDab-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_h.dib' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => '_ha.dab',
+      'form' => '_ha.dab',
+      'lines' => [
+        ';; xaDab-i_2',
+        'xaDab   PV_intr become green',
+        'xoDib   IV_intr become green'
+      ],
+      'patterns' => {
+        '_h.dib' => [
+          'FCiL'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'become green'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xaDab-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_h.dab' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => '_ha.dib',
+      'form' => '_ha.dib',
+      'lines' => [
+        ';; xaDib-a_1',
+        'xaDib   PV_intr become green',
+        'xoDab   IV_intr become green'
+      ],
+      'patterns' => {
+        '_h.dab' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        'become green'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'xaDib-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_ha.d.dib' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_ha.d.dab',
+      'form' => '_ha.d.dab',
+      'lines' => [
+        ';; xaD~ab_1',
+        'xaD~ab  PV      color;dye;stain',
+        'xaD~ib  IV_yu   color;dye;stain'
+      ],
+      'patterns' => {
+        '_ha.d.dib' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'color',
+        'dye',
+        'stain'
+      ],
+      'orig' => 'xaD~ab',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_h.daw.dib' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'i_h.daw.dab',
+      'form' => 'i_h.daw.dab',
+      'lines' => [
+        ';; AixoDawoDab_1',
+        'AixoDawoDab     PV_intr become green',
+        'xoDawoDib       IV_intr become green'
+      ],
+      'patterns' => {
+        '_h.daw.dib' => [
+          'FCawCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFCawCaL',
+      'suffix' => '',
+      'glosses' => [
+        'become green'
+      ],
+      'orig' => 'AixoDawoDab',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha.db',
+      'form' => '_ha.db',
+      'lines' => [
+        ';; xaDob_1',
+        'xaDob   N       chlorophyll'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'chlorophyll'
+      ],
+      'orig' => 'xaDob',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hi.dAb',
+      'form' => '_hi.dAb',
+      'lines' => [
+        ';; xiDAb_1',
+        'xiDAb   N       dye;dyestuff'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'dye',
+        'dyestuff'
+      ],
+      'orig' => 'xiDAb',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hu.duwb',
+      'form' => '_hu.duwb',
+      'lines' => [
+        ';; xuDuwb_1',
+        'xuDuwb  N       green;verdant'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCUL',
+      'suffix' => '',
+      'glosses' => [
+        'green',
+        'verdant'
+      ],
+      'orig' => 'xuDuwb',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha.diyb',
+      'form' => '_ha.diyb',
+      'lines' => [
+        ';; xaDiyb_1',
+        'xaDiyb  N/ap    dyed'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        'dyed'
+      ],
+      'orig' => 'xaDiyb',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_ha.d.dab',
+      'form' => 'mu_ha.d.dab',
+      'lines' => [
+        ';; muxaD~ab_1',
+        'muxaD~ab        Nall    stained;dyed     [[muxaD~ab/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'stained',
+        'dyed'
+      ],
+      'orig' => 'muxaD~ab',
+      'prefix' => ''
+    }
+  ],
   '_h r \'' => [
     {
       'types' => {
@@ -3661,6 +6782,27 @@ $Lexicon = {
         'feces'
       ],
       'orig' => 'xarA\'',
+      'prefix' => ''
+    }
+  ],
+  '_hUdAdAd' => [
+    {
+      'types' => {},
+      'entry' => '_huwdAdAd',
+      'form' => '_huwdAdAd',
+      'lines' => [
+        ';; xuwdAdAd_1',
+        'xuwdAdAd        Nprop   Khodadad'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Khodadad'
+      ],
+      'orig' => 'xuwdAdAd',
       'prefix' => ''
     }
   ],
@@ -4185,6 +7327,70 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h .s f' => [
+    {
+      'types' => {
+        '_h.sif' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_ha.saf',
+      'form' => '_ha.saf',
+      'lines' => [
+        ';; xaSaf-i_1',
+        'xaSaf   PV      mend;repair;sew',
+        'xoSif   IV      mend;repair;sew'
+      ],
+      'patterns' => {
+        '_h.sif' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'mend',
+        'repair',
+        'sew'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xaSaf-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hi.sAf' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_ha.sf',
+      'form' => '_ha.sfaT',
+      'lines' => [
+        ';; xaSofap_1',
+        'xaSof   Napdu   basket',
+        'xiSAf   N       baskets'
+      ],
+      'patterns' => {
+        '_hi.sAf' => [
+          'FiCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'basket',
+        'baskets'
+      ],
+      'orig' => 'xaSofap',
+      'prefix' => ''
+    }
+  ],
   '_h w ^g' => [
     {
       'types' => {
@@ -4299,6 +7505,52 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '\'i_hb' => [
+    {
+      'types' => {
+        '\'i_hbAt' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => '\'i_hb',
+      'form' => '\'i_hbAt',
+      'lines' => [
+        ';; IixobAt_1',
+        'IixobAt NduAt   being humble'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'being humble'
+      ],
+      'orig' => 'IixobAt',
+      'prefix' => ''
+    }
+  ],
+  '_h r .t l' => [
+    {
+      'types' => {},
+      'entry' => '_har.tAl',
+      'form' => '_har.tAl',
+      'lines' => [
+        ';; xaroTAl_1',
+        'xaroTAl N       oats'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDAS',
+      'suffix' => '',
+      'glosses' => [
+        'oats'
+      ],
+      'orig' => 'xaroTAl',
+      'prefix' => ''
+    }
+  ],
   '_h b `' => [
     {
       'types' => {
@@ -4327,6 +7579,28 @@ $Lexicon = {
         'conceal'
       ],
       'orig' => 'xab~aE',
+      'prefix' => ''
+    }
+  ],
+  '_h n z b' => [
+    {
+      'types' => {},
+      'entry' => '_hanzab',
+      'form' => '_hanzab',
+      'lines' => [
+        ';; xanozab_1',
+        'xanozab Ndip    Devil;Satan'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'Devil',
+        'Satan'
+      ],
+      'orig' => 'xanozab',
       'prefix' => ''
     }
   ],
@@ -5300,6 +8574,64 @@ $Lexicon = {
         'snorting'
       ],
       'orig' => 'xanofarap',
+      'prefix' => ''
+    }
+  ],
+  '_hannU^sI' => [
+    {
+      'types' => {
+        '_hannuw^sy' => {
+          'N0' => 1
+        }
+      },
+      'entry' => '_hannuw^siy',
+      'form' => '_hannuw^siy',
+      'lines' => [
+        ';; xan~uw$iy_1',
+        'xan~uw$y        N0      Khannouchi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Khannouchi'
+      ],
+      'orig' => 'xan~uw$iy',
+      'prefix' => ''
+    }
+  ],
+  '_h l q n' => [
+    {
+      'types' => {
+        '_halAqiyn' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_halqiyn',
+      'form' => '_halqiyn',
+      'lines' => [
+        ';; xaloqiyn_1',
+        'xaloqiyn        Ndu     caldron;boiler',
+        'xalAqiyn        Ndip    caldrons;boilers'
+      ],
+      'patterns' => {
+        '_halAqiyn' => [
+          'KaRADIS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDIS',
+      'suffix' => '',
+      'glosses' => [
+        'caldron',
+        'boiler',
+        'caldrons',
+        'boilers'
+      ],
+      'orig' => 'xaloqiyn',
       'prefix' => ''
     }
   ],
@@ -7019,6 +10351,89 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h z m' => [
+    {
+      'types' => {
+        '_hzim' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_hazam',
+      'form' => '_hazam',
+      'lines' => [
+        ';; xazam-i_1',
+        'xazam   PV      string;thread',
+        'xozim   IV      string;thread'
+      ],
+      'patterns' => {
+        '_hzim' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'string',
+        'thread'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xazam-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hazA\'im' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hizAm',
+      'form' => '_hizAm',
+      'lines' => [
+        ';; xizAm_1',
+        'xizAm   N       nose ring',
+        'xizAm   Napdu   nose ring',
+        'xazA}im Ndip    nose rings'
+      ],
+      'patterns' => {
+        '_hazA\'im' => [
+          'FaCA\'iL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'nose ring',
+        'nose rings'
+      ],
+      'orig' => 'xizAm',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_huzAm',
+      'form' => '_huzAmaT',
+      'lines' => [
+        ';; xuzAmap_1',
+        'xuzAm   Nap     lavender'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'lavender'
+      ],
+      'orig' => 'xuzAmap',
+      'prefix' => ''
+    }
+  ],
   '_h ^s ^s' => [
     {
       'types' => {
@@ -7083,6 +10498,27 @@ $Lexicon = {
         'insects'
       ],
       'orig' => 'xi$A$',
+      'prefix' => ''
+    }
+  ],
+  '_h r d ^g' => [
+    {
+      'types' => {},
+      'entry' => '_hurda^g',
+      'form' => '_hurda^giyy',
+      'lines' => [
+        ';; xurodajiy~_1',
+        'xurodajiy~      Nall    smallwares dealer     [[xurodajiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KuRDaS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'smallwares dealer'
+      ],
+      'orig' => 'xurodajiy~',
       'prefix' => ''
     }
   ],
@@ -7598,6 +11034,77 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h ^s m' => [
+    {
+      'types' => {
+        '_ha^s^sim' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_ha^s^sam',
+      'form' => '_ha^s^sam',
+      'lines' => [
+        ';; xa$~am_1',
+        'xa$~am  PV      intoxicate;make drunk',
+        'xa$~im  IV_yu   intoxicate;make drunk'
+      ],
+      'patterns' => {
+        '_ha^s^sim' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'intoxicate',
+        'make drunk'
+      ],
+      'orig' => 'xa$~am',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha^sm',
+      'form' => '_ha^sm',
+      'lines' => [
+        ';; xa$om_1',
+        'xa$om   N       nose;mouth'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'nose',
+        'mouth'
+      ],
+      'orig' => 'xa$om',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha^sm',
+      'form' => '_ha^sm',
+      'lines' => [
+        ';; xa$om_2',
+        'xa$om   N       outlet;vent'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'outlet',
+        'vent'
+      ],
+      'orig' => 'xa$om',
+      'prefix' => ''
+    }
+  ],
   '_h y n' => [
     {
       'types' => {},
@@ -8062,19 +11569,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'ta_hliy',
       'form' => 'ta_hliyaT',
-      'lines' => [
-        ';; taxoliyap_1',
-        'taxoliy Nap     vacating;evacuation'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'TaFCI |< aT',
       'suffix' => ' |< aT',
-      'glosses' => [
-        'vacating',
-        'evacuation'
-      ],
+      'glosses' => [],
       'orig' => 'taxoliyap',
       'prefix' => ''
     },
@@ -8209,24 +11710,10 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {
-        '_hAliy' => {
-          'NapAt' => 1
-        },
-        '_hAl' => {
-          'Nuwn_Niyn' => 1
-        }
-      },
+      'types' => {},
       'entry' => '_hAliy',
       'form' => '_hAliy',
-      'lines' => [
-        ';; xAliy_1',
-        'xAliy   N0F     empty;devoid;free     [[xAliy/ADJ]]',
-        'xAl     NK      empty;devoid;free',
-        'xAliy   NAn_Nayn        empty;devoid;free',
-        'xAl     Nuwn_Niyn       empty;devoid;free',
-        'xAliy   NapAt   empty;devoid;free'
-      ],
+      'lines' => [],
       'patterns' => {
         '_hAliy' => [
           'FACI'
@@ -8237,11 +11724,7 @@ $Lexicon = {
       'entity' => 'adj',
       'morphs' => 'FACI',
       'suffix' => '',
-      'glosses' => [
-        'empty',
-        'devoid',
-        'free'
-      ],
+      'glosses' => [],
       'orig' => 'xAliy',
       'prefix' => ''
     },
@@ -8249,19 +11732,13 @@ $Lexicon = {
       'types' => {},
       'entry' => '_hawAliy',
       'form' => '_hawAliy',
-      'lines' => [
-        ';; xawAliy_1',
-        'xawAliy N0_Nh   elapsed',
-        'xawAl   NK      elapsed'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FawACI',
       'suffix' => '',
-      'glosses' => [
-        'elapsed'
-      ],
+      'glosses' => [],
       'orig' => 'xawAliy',
       'prefix' => ''
     },
@@ -8282,6 +11759,28 @@ $Lexicon = {
         'Khulaiwi'
       ],
       'orig' => 'xulayowiy~',
+      'prefix' => ''
+    }
+  ],
+  '_h n ^s' => [
+    {
+      'types' => {},
+      'entry' => '_hannuw^s',
+      'form' => '_hannuw^s',
+      'lines' => [
+        ';; xan~uw$_1',
+        'xan~uw$ N0      Khannouche;Khanouche'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCUL',
+      'suffix' => '',
+      'glosses' => [
+        'Khannouche',
+        'Khanouche'
+      ],
+      'orig' => 'xan~uw$',
       'prefix' => ''
     }
   ],
@@ -8759,6 +12258,386 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h b l' => [
+    {
+      'types' => {
+        '_hbul' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_habal',
+      'form' => '_habal',
+      'lines' => [
+        ';; xabal-u_1',
+        'xabal   PV      confuse;impede',
+        'xobul   IV      confuse;impede'
+      ],
+      'patterns' => {
+        '_hbul' => [
+          'FCuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'confuse',
+        'impede'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'xabal-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hbal' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => '_habil',
+      'form' => '_habil',
+      'lines' => [
+        ';; xabil-a_1',
+        'xabil   PV_intr be confused;be insane',
+        'xobal   IV_intr be confused;be insane'
+      ],
+      'patterns' => {
+        '_hbal' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        'be confused',
+        'be insane'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'xabil-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_habbil' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_habbal',
+      'form' => '_habbal',
+      'lines' => [
+        ';; xab~al_1',
+        'xab~al  PV      confound;complicate;muddle',
+        'xab~il  IV_yu   confound;complicate;muddle'
+      ],
+      'patterns' => {
+        '_habbil' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'confound',
+        'complicate',
+        'muddle'
+      ],
+      'orig' => 'xab~al',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_habbal',
+      'form' => 'ta_habbal',
+      'lines' => [
+        ';; taxab~al_1',
+        'taxab~al        PV_intr be confounded;be confused',
+        'taxab~al        IV_intr be confounded;be confused'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be confounded',
+        'be confused'
+      ],
+      'orig' => 'taxab~al',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_htabil' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'i_htabal',
+      'form' => 'i_htabal',
+      'lines' => [
+        ';; Aixotabal_1',
+        'Aixotabal       PV_intr be muddled',
+        'xotabil IV_intr be muddled'
+      ],
+      'patterns' => {
+        '_htabil' => [
+          'FtaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFtaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be muddled'
+      ],
+      'orig' => 'Aixotabal',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_habl',
+      'form' => '_habl',
+      'lines' => [
+        ';; xabol_1',
+        'xabol   N       confusion;insanity'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'confusion',
+        'insanity'
+      ],
+      'orig' => 'xabol',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'a_hbal',
+      'form' => '\'a_hbal',
+      'lines' => [
+        ';; Oaxobal_1',
+        'Oaxobal Nel     insane'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'insane'
+      ],
+      'orig' => 'Oaxobal',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'i_htibAl' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'i_htibAl',
+      'form' => 'i_htibAl',
+      'lines' => [
+        ';; AixotibAl_1',
+        'AixotibAl       NduAt   insanity'
+      ],
+      'patterns' => {
+        'i_htibAl' => [
+          'IFtiCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IFtiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'insanity'
+      ],
+      'orig' => 'AixotibAl',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ma_hbuwl',
+      'form' => 'ma_hbuwl',
+      'lines' => [
+        ';; maxobuwl_1',
+        'maxobuwl        Nall    insane     [[maxobuwl/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MaFCUL',
+      'suffix' => '',
+      'glosses' => [
+        'insane'
+      ],
+      'orig' => 'maxobuwl',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_habbal',
+      'form' => 'mu_habbal',
+      'lines' => [
+        ';; muxab~al_1',
+        'muxab~al        Nall    confused     [[muxab~al/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'confused'
+      ],
+      'orig' => 'muxab~al',
+      'prefix' => ''
+    }
+  ],
+  '_h s \'' => [
+    {
+      'types' => {
+        '_hsa\'A' => {
+          'IV-|' => 1
+        },
+        '_hasa\'A' => {
+          'PV-|' => 1
+        },
+        '_hsa\'' => {
+          'IV' => 1,
+          'IV_wn' => 1,
+          'IV_yn' => 1
+        }
+      },
+      'entry' => '_hasa\'',
+      'form' => '_hasa\'',
+      'lines' => [
+        ';; xasaO-a_1',
+        'xasaO   PV-O    chase away',
+        'xasa|   PV-|    chase away',
+        'xasaW   PV_w    chase away',
+        'xosaO   IV      chase away',
+        'xosa|   IV-|    chase away',
+        'xosaW   IV_wn   chase away',
+        'xosa}   IV_yn   chase away'
+      ],
+      'patterns' => {
+        '_hsa\'' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'chase away'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'xasaO-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hsa\'A' => {
+          'IV-|' => 1
+        },
+        '_hsa\'' => {
+          'IV' => 1,
+          'IV_wn' => 1,
+          'IV_yn' => 1
+        }
+      },
+      'entry' => '_hasi\'',
+      'form' => '_hasi\'',
+      'lines' => [
+        ';; xasi}-a_1',
+        'xasi}   PV_intr be driven away;make off',
+        'xosaO   IV      be driven away;make off',
+        'xosa|   IV-|    be driven away;make off',
+        'xosaW   IV_wn   be driven away;make off',
+        'xosa}   IV_yn   be driven away;make off'
+      ],
+      'patterns' => {
+        '_hsa\'' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        'be driven away',
+        'make off'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'xasi}-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'a_hsa\'',
+      'form' => '\'a_hsa\'',
+      'lines' => [
+        ';; OaxosaO_1',
+        'OaxosaO N0_Nh   more/most despicable;meaner/meanest',
+        'Oaxosa| N-|     most despicable;meanest',
+        'Oaxosa} Nayn    most despicable;meanest'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'more/most despicable',
+        'meaner/meanest',
+        'most despicable',
+        'meanest'
+      ],
+      'orig' => 'OaxosaO',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hAsi\'',
+      'form' => '_hAsi\'',
+      'lines' => [
+        ';; xAsi}_1',
+        'xAsi}   Nall    rejected;disgraceful;feeble     [[xAsi}/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        'rejected',
+        'disgraceful',
+        'feeble'
+      ],
+      'orig' => 'xAsi}',
+      'prefix' => ''
+    }
+  ],
   '_h d n' => [
     {
       'types' => {
@@ -8990,6 +12869,256 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h z q' => [
+    {
+      'types' => {
+        '_hziq' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_hazaq',
+      'form' => '_hazaq',
+      'lines' => [
+        ';; xazaq-i_1',
+        'xazaq   PV      pierce;ram;tear',
+        'xoziq   IV      pierce;ram;tear'
+      ],
+      'patterns' => {
+        '_hziq' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'pierce',
+        'ram',
+        'tear'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xazaq-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hazziq' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_hazzaq',
+      'form' => '_hazzaq',
+      'lines' => [
+        ';; xaz~aq_1',
+        'xaz~aq  PV      tear;rip apart',
+        'xaz~iq  IV_yu   tear;rip apart'
+      ],
+      'patterns' => {
+        '_hazziq' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'tear',
+        'rip apart'
+      ],
+      'orig' => 'xaz~aq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_hazzaq',
+      'form' => 'ta_hazzaq',
+      'lines' => [
+        ';; taxaz~aq_1',
+        'taxaz~aq        PV_intr be pierced;be torn',
+        'taxaz~aq        IV_intr be pierced;be torn'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be pierced',
+        'be torn'
+      ],
+      'orig' => 'taxaz~aq',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'n_haziq' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'in_hazaq',
+      'form' => 'in_hazaq',
+      'lines' => [
+        ';; Ainoxazaq_1',
+        'Ainoxazaq       PV_intr be pierced;be torn',
+        'noxaziq IV_intr be pierced;be torn'
+      ],
+      'patterns' => {
+        'n_haziq' => [
+          'NFaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'InFaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be pierced',
+        'be torn'
+      ],
+      'orig' => 'Ainoxazaq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hazq',
+      'form' => '_hazq',
+      'lines' => [
+        ';; xazoq_1',
+        'xazoq   N       rip;hole'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'rip',
+        'hole'
+      ],
+      'orig' => 'xazoq',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hawAziyq' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hAzuwq',
+      'form' => '_hAzuwq',
+      'lines' => [
+        ';; xAzuwq_1',
+        'xAzuwq  Ndu     post;stake;trick',
+        'xawAziyq        Ndip    posts;stakes;tricks'
+      ],
+      'patterns' => {
+        '_hawAziyq' => [
+          'FawACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACUL',
+      'suffix' => '',
+      'glosses' => [
+        'post',
+        'stake',
+        'trick',
+        'posts',
+        'stakes',
+        'tricks'
+      ],
+      'orig' => 'xAzuwq',
+      'prefix' => ''
+    }
+  ],
+  '_h r .t m' => [
+    {
+      'types' => {},
+      'entry' => '_har.tuwm',
+      'form' => '_har.tuwm',
+      'lines' => [
+        ';; xaroTuwm_1',
+        'xaroTuwm        N0      Khartoum'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDUS',
+      'suffix' => '',
+      'glosses' => [
+        'Khartoum'
+      ],
+      'orig' => 'xaroTuwm',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_harA.tiym' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hur.tuwm',
+      'form' => '_hur.tuwm',
+      'lines' => [
+        ';; xuroTuwm_1',
+        'xuroTuwm        Ndu     trunk;proboscis',
+        'xarATiym        Ndip    trunks;proboscises'
+      ],
+      'patterns' => {
+        '_harA.tiym' => [
+          'KaRADIS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDUS',
+      'suffix' => '',
+      'glosses' => [
+        'trunk',
+        'proboscis',
+        'trunks',
+        'proboscises'
+      ],
+      'orig' => 'xuroTuwm',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_harA.tiym' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hur.tuwm',
+      'form' => '_hur.tuwm',
+      'lines' => [
+        ';; xuroTuwm_2',
+        'xuroTuwm        Ndu     hose;tube',
+        'xarATiym        Ndip    hoses;tubes'
+      ],
+      'patterns' => {
+        '_harA.tiym' => [
+          'KaRADIS'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'KuRDUS',
+      'suffix' => '',
+      'glosses' => [
+        'hose',
+        'tube',
+        'hoses',
+        'tubes'
+      ],
+      'orig' => 'xuroTuwm',
+      'prefix' => ''
+    }
+  ],
   '_h n y' => [
     {
       'types' => {
@@ -9031,6 +13160,29 @@ $Lexicon = {
         'FCaL'
       ],
       'orig' => 'xaniy-a',
+      'prefix' => ''
+    }
+  ],
+  '_hu.dayrA\'' => [
+    {
+      'types' => {},
+      'entry' => '_hu.dayrA\'',
+      'form' => '_hu.dayrA\'',
+      'lines' => [
+        ';; xuDayorA\'_1',
+        'xuDayorA\'       N0_Nh   Paradise',
+        'xuDayorAW       Nh      Paradise',
+        'xuDayorA}       Nhy     Paradise'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Paradise'
+      ],
+      'orig' => 'xuDayorA\'',
       'prefix' => ''
     }
   ],
@@ -9328,24 +13480,19 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_hallIk' => [
+  '_h w w' => [
     {
       'types' => {},
-      'entry' => '_halliyk',
-      'form' => '_halliyk',
-      'lines' => [
-        ';; xal~iyk_1',
-        'xal~iyk N       acetic'
-      ],
+      'entry' => '_huww',
+      'form' => '_huwwaT',
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'acetic'
-      ],
-      'orig' => 'xal~iyk',
+      'morphs' => 'FUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
+      'orig' => 'xuw~ap',
       'prefix' => ''
     }
   ],
@@ -9660,6 +13807,77 @@ $Lexicon = {
         'depression'
       ],
       'orig' => 'munoxafaD',
+      'prefix' => ''
+    }
+  ],
+  '_h _d \'' => [
+    {
+      'types' => {
+        'ista_h_da\'A' => {
+          'PV-|' => 1
+        },
+        'sta_h_di\'' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'ista_h_da\'',
+      'form' => 'ista_h_da\'',
+      'lines' => [
+        ';; Aisotaxo*aO_1',
+        'Aisotaxo*aO     PV-O    submit;be servile',
+        'Aisotaxo*a|     PV-|    submit;be servile',
+        'Aisotaxo*aW     PV_w    submit;be servile',
+        'sotaxo*i}       IV      submit;be servile'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IstaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'submit',
+        'be servile'
+      ],
+      'orig' => 'Aisotaxo*aO',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'musta_h_di\'',
+      'form' => 'musta_h_di\'',
+      'lines' => [
+        ';; musotaxo*i}_1',
+        'musotaxo*i}     Nall    submissive;servile;submitting     [[musotaxo*i}/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MustaFCiL',
+      'suffix' => '',
+      'glosses' => [
+        'submissive',
+        'servile',
+        'submitting'
+      ],
+      'orig' => 'musotaxo*i}',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'isti_h_dA\'',
+      'form' => 'isti_h_dA\'',
+      'lines' => [],
+      'patterns' => {
+        'isti_h_dA\'' => [
+          'IstiFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IstiFCAL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'Aisotixo*A\'',
       'prefix' => ''
     }
   ],
@@ -10391,6 +14609,552 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h .t .t' => [
+    {
+      'types' => {
+        '_h.tu.t' => {
+          'IV_C' => 1
+        },
+        '_ha.ta.t' => {
+          'PV_C' => 1
+        },
+        '_hu.t.t' => {
+          'IV_V' => 1
+        }
+      },
+      'entry' => '_ha.t.t',
+      'form' => '_ha.t.t',
+      'lines' => [
+        ';; xaT~-u_1',
+        'xaT~    PV_V    draw;inscribe;outline',
+        'xaTaT   PV_C    draw;inscribe;outline',
+        'xuT~    IV_V    draw;inscribe;outline',
+        'xoTuT   IV_C    draw;inscribe;outline'
+      ],
+      'patterns' => {
+        '_h.tu.t' => [
+          'FCuL'
+        ],
+        '_ha.ta.t' => [
+          'FaCaL'
+        ],
+        '_hu.t.t' => [
+          'FuCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCL',
+      'glosses' => [
+        'draw',
+        'inscribe',
+        'outline'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'xaT~-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_ha.t.ti.t' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_ha.t.ta.t',
+      'form' => '_ha.t.ta.t',
+      'lines' => [
+        ';; xaT~aT_1',
+        'xaT~aT  PV      draw lines;demarcate',
+        'xaT~iT  IV_yu   draw lines;demarcate'
+      ],
+      'patterns' => {
+        '_ha.t.ti.t' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'draw lines',
+        'demarcate'
+      ],
+      'orig' => 'xaT~aT',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'i_hta.ta.t' => {
+          'PV_C' => 1
+        },
+        '_hta.ti.t' => {
+          'IV_C' => 1
+        },
+        '_hta.t.t' => {
+          'IV_V' => 1
+        }
+      },
+      'entry' => 'i_hta.t.t',
+      'form' => 'i_hta.t.t',
+      'lines' => [
+        ';; AixotaT~_1',
+        'AixotaT~        PV_V    trace;mark',
+        'AixotaTaT       PV_C    trace;mark',
+        'xotaT~  IV_V    trace;mark',
+        'xotaTiT IV_C    trace;mark'
+      ],
+      'patterns' => {
+        'i_hta.ta.t' => [
+          'IFtaCaL'
+        ],
+        '_hta.ti.t' => [
+          'FtaCiL'
+        ],
+        '_hta.t.t' => [
+          'FtaCL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFtaCL',
+      'suffix' => '',
+      'glosses' => [
+        'trace',
+        'mark'
+      ],
+      'orig' => 'AixotaT~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'i_hta.ta.t' => {
+          'PV_C' => 1
+        },
+        '_hta.ti.t' => {
+          'IV_C' => 1
+        },
+        '_hta.t.t' => {
+          'IV_V' => 1
+        }
+      },
+      'entry' => 'i_hta.t.t',
+      'form' => 'i_hta.t.t',
+      'lines' => [
+        ';; AixotaT~_2',
+        'AixotaT~        PV_V    plan;devise',
+        'AixotaTaT       PV_C    plan;devise',
+        'xotaT~  IV_V    plan;devise',
+        'xotaTiT IV_C    plan;devise'
+      ],
+      'patterns' => {
+        'i_hta.ta.t' => [
+          'IFtaCaL'
+        ],
+        '_hta.ti.t' => [
+          'FtaCiL'
+        ],
+        '_hta.t.t' => [
+          'FtaCL'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'verb',
+      'morphs' => 'IFtaCL',
+      'suffix' => '',
+      'glosses' => [
+        'plan',
+        'devise'
+      ],
+      'orig' => 'AixotaT~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha.t.t',
+      'form' => '_ha.t.t',
+      'lines' => [
+        ';; xaT~_1',
+        'xaT~    Ndu     handwriting;script'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'handwriting',
+        'script'
+      ],
+      'orig' => 'xaT~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hu.tuw.t' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_ha.t.t',
+      'form' => '_ha.t.t',
+      'lines' => [
+        ';; xaT~_2',
+        'xaT~    Ndu     line',
+        'xuTuwT  N       lines'
+      ],
+      'patterns' => {
+        '_hu.tuw.t' => [
+          'FuCUL'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'line',
+        'lines'
+      ],
+      'orig' => 'xaT~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'a_h.tA.t',
+      'form' => '\'a_h.tA.t',
+      'lines' => [
+        ';; OaxoTAT_1',
+        'OaxoTAT N       sections;districts'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFCAL',
+      'suffix' => '',
+      'glosses' => [
+        'sections',
+        'districts'
+      ],
+      'orig' => 'OaxoTAT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha.t.t',
+      'form' => '_ha.t.tiyy',
+      'lines' => [
+        ';; xaT~iy~_1',
+        'xaT~iy~ N/ap    handwritten;linear     [[xaT~iy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'handwritten',
+        'linear'
+      ],
+      'orig' => 'xaT~iy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hu.ta.t' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_hu.t.t',
+      'form' => '_hu.t.taT',
+      'lines' => [
+        ';; xuT~ap_1',
+        'xuT~    Napdu   plan;project',
+        'xuTaT   N       plans;projects'
+      ],
+      'patterns' => {
+        '_hu.ta.t' => [
+          'FuCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'plan',
+        'project',
+        'plans',
+        'projects'
+      ],
+      'orig' => 'xuT~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha.t.tA.t',
+      'form' => '_ha.t.tA.t',
+      'lines' => [
+        ';; xaT~AT_1',
+        'xaT~AT  Nall    calligrapher;tracer'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL',
+      'suffix' => '',
+      'glosses' => [
+        'calligrapher',
+        'tracer'
+      ],
+      'orig' => 'xaT~AT',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta_h.tiy.t' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'ta_h.tiy.t',
+      'form' => 'ta_h.tiy.t',
+      'lines' => [
+        ';; taxoTiyT_1',
+        'taxoTiyT        NduAt   planning;projecting'
+      ],
+      'patterns' => {
+        'ta_h.tiy.t' => [
+          'TaFCIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFCIL',
+      'suffix' => '',
+      'glosses' => [
+        'planning',
+        'projecting'
+      ],
+      'orig' => 'taxoTiyT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_h.tiy.t',
+      'form' => 'ta_h.tiy.tiyy',
+      'lines' => [
+        ';; taxoTiyTiy~_1',
+        'taxoTiyTiy~     Nall    planning;design     [[taxoTiyTiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'TaFCIL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'planning',
+        'design'
+      ],
+      'orig' => 'taxoTiyTiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ma_h.tuw.t' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'ma_h.tuw.t',
+      'form' => 'ma_h.tuw.t',
+      'lines' => [
+        ';; maxoTuwT_1',
+        'maxoTuwT        Ndu     manuscript',
+        'maxoTuwT        Napdu   manuscript',
+        'maxoTuwT        NAt     manuscripts'
+      ],
+      'patterns' => {
+        'ma_h.tuw.t' => [
+          'MaFCUL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCUL',
+      'suffix' => '',
+      'glosses' => [
+        'manuscript',
+        'manuscripts'
+      ],
+      'orig' => 'maxoTuwT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_ha.t.ti.t',
+      'form' => 'mu_ha.t.ti.t',
+      'lines' => [
+        ';; muxaT~iT_1',
+        'muxaT~iT        Nall    planners;sketchers'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFaCCiL',
+      'suffix' => '',
+      'glosses' => [
+        'planners',
+        'sketchers'
+      ],
+      'orig' => 'muxaT~iT',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'mu_ha.t.ta.t' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'mu_ha.t.ta.t',
+      'form' => 'mu_ha.t.ta.t',
+      'lines' => [
+        ';; muxaT~aT_1',
+        'muxaT~aT        Ndu     plan;sketch',
+        'muxaT~aT        NAt     plans;sketches'
+      ],
+      'patterns' => {
+        'mu_ha.t.ta.t' => [
+          'MuFaCCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'plan',
+        'sketch',
+        'plans',
+        'sketches'
+      ],
+      'orig' => 'muxaT~aT',
+      'prefix' => ''
+    }
+  ],
+  '_hunzuwAn' => [
+    {
+      'types' => {},
+      'entry' => '_hunzuwAn',
+      'form' => '_hunzuwAniyy',
+      'lines' => [
+        ';; xunozuwAniy~_1',
+        'xunozuwAniy~    Nall    megalomaniac     [[xunozuwAniy~/ADJ]]',
+        'xunozuwAniy~    Nap     megalomania     [[xunozuwAniy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'megalomaniac',
+        'megalomania'
+      ],
+      'orig' => 'xunozuwAniy~',
+      'prefix' => ''
+    }
+  ],
+  '_h f \'' => [
+    {
+      'types' => {},
+      'entry' => '_hafA\'',
+      'form' => '_hafA\'',
+      'lines' => [
+        ';; xafA\'_1',
+        'xafA\'   N0_Nh   secrecy;secret',
+        'xafAW   Nh      secrecy;secret',
+        'xafA}   Nhy     secrecy;secret'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL',
+      'suffix' => '',
+      'glosses' => [
+        'secrecy',
+        'secret'
+      ],
+      'orig' => 'xafA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'i_hfA\'' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => '\'i_hfA\'',
+      'form' => '\'i_hfA\'',
+      'lines' => [
+        ';; IixofA\'_1',
+        'IixofA\' N0_Nh   hiding;concealment',
+        'IixofAW Nh      hiding;concealment',
+        'IixofA} Nhy     hiding;concealment',
+        'IixofA\' NAn_Nayn        hiding;concealment',
+        'IixofA} Nayn    hiding;concealment',
+        'IixofA\' NAt     hiding;concealment'
+      ],
+      'patterns' => {
+        '\'i_hfA\'' => [
+          'HiFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        'hiding',
+        'concealment'
+      ],
+      'orig' => 'IixofA\'',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'i_htifA\'' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'i_htifA\'',
+      'form' => 'i_htifA\'',
+      'lines' => [
+        ';; AixotifA\'_1',
+        'AixotifA\'       N0_Nh   disappearance',
+        'AixotifAW       Nh      disappearance',
+        'AixotifA}       Nhy     disappearance',
+        'AixotifA\'       NAn_Nayn        disappearances',
+        'AixotifA}       Nayn    disappearances',
+        'AixotifA\'       NAt     disappearances'
+      ],
+      'patterns' => {
+        'i_htifA\'' => [
+          'IFtiCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IFtiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'disappearance',
+        'disappearances'
+      ],
+      'orig' => 'AixotifA\'',
+      'prefix' => ''
+    }
+  ],
   '_h d r' => [
     {
       'types' => {
@@ -10770,6 +15534,221 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h y b' => [
+    {
+      'types' => {
+        '_hiyb' => {
+          'IV_V' => 1
+        },
+        '_hib' => {
+          'PV_C' => 1,
+          'IV_C' => 1
+        }
+      },
+      'entry' => '_hAb',
+      'form' => '_hAb',
+      'lines' => [
+        ';; xAb-i_1',
+        'xAb     PV_V    fail;be frustrated;go wrong',
+        'xib     PV_C    fail;be frustrated;go wrong',
+        'xiyb    IV_V    fail;be frustrated;go wrong',
+        'xib     IV_C    fail;be frustrated;go wrong'
+      ],
+      'patterns' => {
+        '_hiyb' => [
+          'FIL'
+        ],
+        '_hib' => [
+          'FiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FAL',
+      'glosses' => [
+        'fail',
+        'be frustrated',
+        'go wrong'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xAb-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hayyib' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_hayyab',
+      'form' => '_hayyab',
+      'lines' => [
+        ';; xay~ab_1',
+        'xay~ab  PV      thwart;disappoint',
+        'xay~ib  IV_yu   thwart;disappoint'
+      ],
+      'patterns' => {
+        '_hayyib' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'thwart',
+        'disappoint'
+      ],
+      'orig' => 'xay~ab',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hab' => {
+          'IV_C_Pass_yu' => 1
+        },
+        '_hiyb' => {
+          'IV_V_yu' => 1
+        },
+        '_hAb' => {
+          'IV_V_Pass_yu' => 1
+        },
+        '_hib' => {
+          'IV_C_yu' => 1
+        },
+        '\'a_hab' => {
+          'PV_C' => 1
+        }
+      },
+      'entry' => '\'a_hAb',
+      'form' => '\'a_hAb',
+      'lines' => [
+        ';; OaxAb_1',
+        'OaxAb   PV_V    thwart;disappoint',
+        'Oaxab   PV_C    thwart;disappoint',
+        'xiyb    IV_V_yu thwart;disappoint',
+        'xib     IV_C_yu thwart;disappoint',
+        'xAb     IV_V_Pass_yu    be thwarted;be disappointed',
+        'xab     IV_C_Pass_yu    be thwarted;be disappointed'
+      ],
+      'patterns' => {
+        '_hab' => [
+          'FaL'
+        ],
+        '_hiyb' => [
+          'FIL'
+        ],
+        '\'a_hab' => [
+          'HaFaL'
+        ],
+        '_hib' => [
+          'FiL'
+        ],
+        '_hAb' => [
+          'FAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFAL',
+      'suffix' => '',
+      'glosses' => [
+        'thwart',
+        'disappoint',
+        'be thwarted',
+        'be disappointed'
+      ],
+      'orig' => 'OaxAb',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_hayyab',
+      'form' => 'ta_hayyab',
+      'lines' => [
+        ';; taxay~ab_1',
+        'taxay~ab        PV      fail;be frustrated;go wrong',
+        'taxay~ab        IV      fail;be frustrated;go wrong'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'fail',
+        'be frustrated',
+        'go wrong'
+      ],
+      'orig' => 'taxay~ab',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hayb',
+      'form' => '_haybaT',
+      'lines' => [
+        ';; xayobap_1',
+        'xayob   Nap     disappointment;failure'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'disappointment',
+        'failure'
+      ],
+      'orig' => 'xayobap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hA\'ib',
+      'form' => '_hA\'ib',
+      'lines' => [
+        ';; xA}ib_1',
+        'xA}ib   Nall    disappointed;failing     [[xA}ib/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FA\'iL',
+      'suffix' => '',
+      'glosses' => [
+        'disappointed',
+        'failing'
+      ],
+      'orig' => 'xA}ib',
+      'prefix' => ''
+    }
+  ],
+  '_hirwa`' => [
+    {
+      'types' => {},
+      'entry' => '_hirwa`',
+      'form' => '_hirwa`',
+      'lines' => [
+        ';; xirwaE_1',
+        'xirwaE  N       castor-oil plant'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'castor-oil plant'
+      ],
+      'orig' => 'xirwaE',
+      'prefix' => ''
+    }
+  ],
   '_hAfiyIr' => [
     {
       'types' => {},
@@ -11054,6 +16033,477 @@ $Lexicon = {
         'tailor'
       ],
       'orig' => 'xA}iT',
+      'prefix' => ''
+    }
+  ],
+  '_h t m' => [
+    {
+      'types' => {
+        '_htim' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_hatam',
+      'form' => '_hatam',
+      'lines' => [
+        ';; xatam-i_1',
+        'xatam   PV      complete;seal;conclude',
+        'xotim   IV      complete;seal;conclude'
+      ],
+      'patterns' => {
+        '_htim' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'complete',
+        'seal',
+        'conclude'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xatam-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'u_htutim' => {
+          'PV_Pass' => 1
+        },
+        '_htatim' => {
+          'IV' => 1
+        },
+        '_htatam' => {
+          'IV_Pass_yu' => 1
+        }
+      },
+      'entry' => 'i_htatam',
+      'form' => 'i_htatam',
+      'lines' => [
+        ';; Aixotatam_1',
+        'Aixotatam       PV      conclude;terminate',
+        'xotatim IV      conclude;terminate',
+        'Auxotutim       PV_Pass be concluded;be terminated',
+        'xotatam IV_Pass_yu      be concluded;be terminated'
+      ],
+      'patterns' => {
+        'u_htutim' => [
+          'UFtuCiL'
+        ],
+        '_htatim' => [
+          'FtaCiL'
+        ],
+        '_htatam' => [
+          'FtaCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFtaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'conclude',
+        'terminate',
+        'be concluded',
+        'be terminated'
+      ],
+      'orig' => 'Aixotatam',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'a_htAm' => {
+          'N' => 1
+        },
+        '_hutuwm' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_hatm',
+      'form' => '_hatm',
+      'lines' => [
+        ';; xatom_1',
+        'xatom   N       seal;stamp',
+        'OaxotAm N       seals;stamps',
+        'xutuwm  N       seals;stamps'
+      ],
+      'patterns' => {
+        '\'a_htAm' => [
+          'HaFCAL'
+        ],
+        '_hutuwm' => [
+          'FuCUL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'seal',
+        'stamp',
+        'seals',
+        'stamps'
+      ],
+      'orig' => 'xatom',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hawAtim' => {
+          'Ndip' => 1
+        },
+        '_hAtim' => {
+          'Ndu' => 1
+        }
+      },
+      'entry' => '_hAtam',
+      'form' => '_hAtam',
+      'lines' => [
+        ';; xAtam_1',
+        'xAtam   Ndu     ring;seal',
+        'xAtim   Ndu     ring;seal',
+        'xawAtim Ndip    rings;seals'
+      ],
+      'patterns' => {
+        '_hawAtim' => [
+          'FawACiL'
+        ],
+        '_hAtim' => [
+          'FACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACaL',
+      'suffix' => '',
+      'glosses' => [
+        'ring',
+        'seal',
+        'rings',
+        'seals'
+      ],
+      'orig' => 'xAtam',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hAtim',
+      'form' => '_hAtimiyy',
+      'lines' => [
+        ';; xAtimiy~_1',
+        'xAtimiy~        N0      Khatimi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACiL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Khatimi'
+      ],
+      'orig' => 'xAtimiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hitAm',
+      'form' => '_hitAm',
+      'lines' => [
+        ';; xitAm_1',
+        'xitAm   N       conclusion'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'conclusion'
+      ],
+      'orig' => 'xitAm',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hitAm',
+      'form' => '_hitAmiyy',
+      'lines' => [
+        ';; xitAmiy~_1',
+        'xitAmiy~        Nall    concluding;final     [[xitAmiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FiCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'concluding',
+        'final'
+      ],
+      'orig' => 'xitAmiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'i_htitAm' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'i_htitAm',
+      'form' => 'i_htitAm',
+      'lines' => [
+        ';; AixotitAm_1',
+        'AixotitAm       NduAt   close;conclusion;end'
+      ],
+      'patterns' => {
+        'i_htitAm' => [
+          'IFtiCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IFtiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'close',
+        'conclusion',
+        'end'
+      ],
+      'orig' => 'AixotitAm',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hAtim',
+      'form' => '_hAtimaT',
+      'lines' => [
+        ';; xAtimap_1',
+        'xAtim   Napdu   conclusion;epilogue'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'conclusion',
+        'epilogue'
+      ],
+      'orig' => 'xAtimap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_hattam',
+      'form' => 'mu_hattam',
+      'lines' => [
+        ';; muxat~am_1',
+        'muxat~am        Nall    ringed     [[muxat~am/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'ringed'
+      ],
+      'orig' => 'muxat~am',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_htatam',
+      'form' => 'mu_htatam',
+      'lines' => [
+        ';; muxotatam_1',
+        'muxotatam       Nall    conclusion;end'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFtaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'conclusion',
+        'end'
+      ],
+      'orig' => 'muxotatam',
+      'prefix' => ''
+    }
+  ],
+  '_h r _h r' => [
+    {
+      'types' => {
+        '_har_hir' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_har_har',
+      'form' => '_har_har',
+      'lines' => [
+        ';; xaroxar_1',
+        'xaroxar PV      snore',
+        'xaroxir IV_yu   snore'
+      ],
+      'patterns' => {
+        '_har_hir' => [
+          'KaRDiS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'KaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'snore'
+      ],
+      'orig' => 'xaroxar',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_har_har',
+      'form' => '_har_haraT',
+      'lines' => [
+        ';; xaroxarap_1',
+        'xaroxar NapAt   snoring'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDaS |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'snoring'
+      ],
+      'orig' => 'xaroxarap',
+      'prefix' => ''
+    }
+  ],
+  '_h m ^s' => [
+    {
+      'types' => {
+        '_hmu^s' => {
+          'IV' => 1
+        },
+        '_hmi^s' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_hama^s',
+      'form' => '_hama^s',
+      'lines' => [
+        ';; xama$-iu_1',
+        'xama$   PV      scratch',
+        'xomi$   IV      scratch',
+        'xomu$   IV      scratch'
+      ],
+      'patterns' => {
+        '_hmu^s' => [
+          'FCuL'
+        ],
+        '_hmi^s' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'scratch'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL',
+        'FCuL'
+      ],
+      'orig' => 'xama$-iu',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hammi^s' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_hamma^s',
+      'form' => '_hamma^s',
+      'lines' => [
+        ';; xam~a$_1',
+        'xam~a$  PV      scratch',
+        'xam~i$  IV_yu   scratch'
+      ],
+      'patterns' => {
+        '_hammi^s' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'scratch'
+      ],
+      'orig' => 'xam~a$',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_humuw^s' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_ham^s',
+      'form' => '_ham^s',
+      'lines' => [
+        ';; xamo$_1',
+        'xamo$   N       scratch;scar',
+        'xumuw$  N       scratches;scars'
+      ],
+      'patterns' => {
+        '_humuw^s' => [
+          'FuCUL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'scratch',
+        'scar',
+        'scratches',
+        'scars'
+      ],
+      'orig' => 'xamo$',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_humA^s',
+      'form' => '_humA^saT',
+      'lines' => [
+        ';; xumA$ap_1',
+        'xumA$   NapAt   scratch;scar'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'scratch',
+        'scar'
+      ],
+      'orig' => 'xumA$ap',
       'prefix' => ''
     }
   ],
@@ -11752,6 +17202,48 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h n f s' => [
+    {
+      'types' => {
+        '_hanAfis' => {
+          'Ndip' => 1
+        },
+        '_hunfusA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '_hunfus',
+      'form' => '_hunfus',
+      'lines' => [
+        ';; xunofus_1',
+        'xunofus N       dung beetle;scarab',
+        'xunofusA\'       N0_Nh   dung beetles;scarabs',
+        'xunofusAW       Nh      dung beetles;scarabs',
+        'xunofusA}       Nhy     dung beetles;scarabs',
+        'xanAfis Ndip    dung beetles;scarabs'
+      ],
+      'patterns' => {
+        '_hanAfis' => [
+          'KaRADiS'
+        ],
+        '_hunfusA\'' => []
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDuS',
+      'suffix' => '',
+      'glosses' => [
+        'dung beetle',
+        'scarab',
+        'dung beetles',
+        'scarabs'
+      ],
+      'orig' => 'xunofus',
+      'prefix' => ''
+    }
+  ],
   '_h l ^g' => [
     {
       'types' => {
@@ -12077,6 +17569,1025 @@ $Lexicon = {
         'scruples'
       ],
       'orig' => 'xAlijap',
+      'prefix' => ''
+    }
+  ],
+  '_h r b' => [
+    {
+      'types' => {
+        '_hrib' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_harab',
+      'form' => '_harab',
+      'lines' => [
+        ';; xarab-i_1',
+        'xarab   PV      destroy;demolish',
+        'xorib   IV      destroy;demolish'
+      ],
+      'patterns' => {
+        '_hrib' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'destroy',
+        'demolish'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xarab-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hrab' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => '_harib',
+      'form' => '_harib',
+      'lines' => [
+        ';; xarib-a_1',
+        'xarib   PV_intr be destroyed;disintegrate',
+        'xorab   IV_intr be destroyed;disintegrate'
+      ],
+      'patterns' => {
+        '_hrab' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        'be destroyed',
+        'disintegrate'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'xarib-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_harrib' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_harrab',
+      'form' => '_harrab',
+      'lines' => [
+        ';; xar~ab_1',
+        'xar~ab  PV      destroy',
+        'xar~ib  IV_yu   destroy'
+      ],
+      'patterns' => {
+        '_harrib' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'destroy'
+      ],
+      'orig' => 'xar~ab',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hrab' => {
+          'IV_Pass_yu' => 1
+        },
+        '_hrib' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '\'a_hrab',
+      'form' => '\'a_hrab',
+      'lines' => [
+        ';; Oaxorab_1',
+        'Oaxorab PV      destroy',
+        'xorib   IV_yu   destroy',
+        'xorab   IV_Pass_yu      be destroyed'
+      ],
+      'patterns' => {
+        '_hrab' => [
+          'FCaL'
+        ],
+        '_hrib' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'destroy',
+        'be destroyed'
+      ],
+      'orig' => 'Oaxorab',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_harrab',
+      'form' => 'ta_harrab',
+      'lines' => [
+        ';; taxar~ab_1',
+        'taxar~ab        PV_intr be destroyed',
+        'taxar~ab        IV_intr be destroyed'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be destroyed'
+      ],
+      'orig' => 'taxar~ab',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harib',
+      'form' => '_harib',
+      'lines' => [
+        ';; xarib_1',
+        'xarib   N/ap    broken;out of order'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCiL',
+      'suffix' => '',
+      'glosses' => [
+        'broken',
+        'out of order'
+      ],
+      'orig' => 'xarib',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hurb',
+      'form' => '_hurbaT',
+      'lines' => [
+        ';; xurobap_1',
+        'xurob   Nap     eye of a needle;hole'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'eye of a needle',
+        'hole'
+      ],
+      'orig' => 'xurobap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harAb',
+      'form' => '_harAb',
+      'lines' => [
+        ';; xarAb_1',
+        'xarAb   N       ruins;destroyed'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL',
+      'suffix' => '',
+      'glosses' => [
+        'ruins',
+        'destroyed'
+      ],
+      'orig' => 'xarAb',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_harA\'ib' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_harAb',
+      'form' => '_harAbaT',
+      'lines' => [
+        ';; xarAbap_1',
+        'xarAb   NapAt   ruins',
+        'xarA}ib Ndip    ruins'
+      ],
+      'patterns' => {
+        '_harA\'ib' => [
+          'FaCA\'iL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'ruins'
+      ],
+      'orig' => 'xarAbap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harbAn',
+      'form' => '_harbAn',
+      'lines' => [
+        ';; xarobAn_1',
+        'xarobAn N/ap    out of order;broken'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLAn',
+      'suffix' => '',
+      'glosses' => [
+        'out of order',
+        'broken'
+      ],
+      'orig' => 'xarobAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta_hriyb' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'ta_hriyb',
+      'form' => 'ta_hriyb',
+      'lines' => [
+        ';; taxoriyb_1',
+        'taxoriyb        NduAt   destruction;sabotage;terrorism'
+      ],
+      'patterns' => {
+        'ta_hriyb' => [
+          'TaFCIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFCIL',
+      'suffix' => '',
+      'glosses' => [
+        'destruction',
+        'sabotage',
+        'terrorism'
+      ],
+      'orig' => 'taxoriyb',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_hriyb',
+      'form' => 'ta_hriybiyy',
+      'lines' => [
+        ';; taxoriybiy~_1',
+        'taxoriybiy~     Nall    sabotage;terrorism     [[taxoriybiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'TaFCIL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'sabotage',
+        'terrorism'
+      ],
+      'orig' => 'taxoriybiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hArib',
+      'form' => '_hArib',
+      'lines' => [
+        ';; xArib_1',
+        'xArib   Nall    destroyer;annihilator'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        'destroyer',
+        'annihilator'
+      ],
+      'orig' => 'xArib',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_harrib',
+      'form' => 'mu_harrib',
+      'lines' => [
+        ';; muxar~ib_1',
+        'muxar~ib        Nall    saboteur;terrorist'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFaCCiL',
+      'suffix' => '',
+      'glosses' => [
+        'saboteur',
+        'terrorist'
+      ],
+      'orig' => 'muxar~ib',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_hrib',
+      'form' => 'mu_hrib',
+      'lines' => [
+        ';; muxorib_1',
+        'muxorib Nall    annihilator;destroyer'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFCiL',
+      'suffix' => '',
+      'glosses' => [
+        'annihilator',
+        'destroyer'
+      ],
+      'orig' => 'muxorib',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harruwb',
+      'form' => '_harruwb',
+      'lines' => [
+        ';; xar~uwb_1',
+        'xar~uwb N       carob;locust'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCUL',
+      'suffix' => '',
+      'glosses' => [
+        'carob',
+        'locust'
+      ],
+      'orig' => 'xar~uwb',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harruwb',
+      'form' => '_harruwbaT',
+      'lines' => [
+        ';; xar~uwbap_1',
+        'xar~uwb Nap     carob bean;locust pod'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'carob bean',
+        'locust pod'
+      ],
+      'orig' => 'xar~uwbap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harruwb',
+      'form' => '_harruwbaT',
+      'lines' => [
+        ';; xar~uwbap_2',
+        'xar~uwb NapAt   kharouba'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'kharouba'
+      ],
+      'orig' => 'xar~uwbap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harruwb',
+      'form' => '_harruwbaT',
+      'lines' => [
+        ';; xar~uwbap_3',
+        'xar~uwbap       N0      Kharroubeh'
+      ],
+      'patterns' => {},
+      'index' => '3',
+      'entity' => 'noun',
+      'morphs' => 'FaCCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'Kharroubeh'
+      ],
+      'orig' => 'xar~uwbap',
+      'prefix' => ''
+    }
+  ],
+  '_h .t \'' => [
+    {
+      'types' => {
+        '_h.ta\'A' => {
+          'IV-|' => 1
+        },
+        '_h.ta\'' => {
+          'IV_wn' => 1,
+          'IV_intr' => 1,
+          'IV_yn' => 1
+        }
+      },
+      'entry' => '_ha.ti\'',
+      'form' => '_ha.ti\'',
+      'lines' => [
+        ';; xaTi}-a_1',
+        'xaTi}   PV_intr be mistaken;sin',
+        'xoTaO   IV_intr be mistaken;sin',
+        'xoTa|   IV-|    be mistaken;sin',
+        'xoTaW   IV_wn   be mistaken;sin',
+        'xoTa}   IV_yn   be mistaken;sin'
+      ],
+      'patterns' => {
+        '_h.ta\'' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        'be mistaken',
+        'sin'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'xaTi}-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_ha.t.ti\'' => {
+          'IV_yu' => 1
+        },
+        '_ha.t.ta\'A' => {
+          'PV-|' => 1
+        }
+      },
+      'entry' => '_ha.t.ta\'',
+      'form' => '_ha.t.ta\'',
+      'lines' => [
+        ';; xaT~aO_1',
+        'xaT~aO  PV-O    incriminate',
+        'xaT~a|  PV-|    incriminate',
+        'xaT~aW  PV_w    incriminate',
+        'xaT~i}  IV_yu   incriminate'
+      ],
+      'patterns' => {
+        '_ha.t.ti\'' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'incriminate'
+      ],
+      'orig' => 'xaT~aO',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_h.ti\'' => {
+          'IV_yu' => 1
+        },
+        '_h.ta\'' => {
+          'IV_Pass_yu' => 1
+        },
+        '\'a_h.ta\'A' => {
+          'PV-|' => 1
+        }
+      },
+      'entry' => '\'a_h.ta\'',
+      'form' => '\'a_h.ta\'',
+      'lines' => [
+        ';; OaxoTaO_1',
+        'OaxoTaO PV-O    be wrong;do incorrectly',
+        'OaxoTa| PV-|    be wrong;do incorrectly',
+        'OaxoTaW PV_w    be wrong;do incorrectly',
+        'xoTi}   IV_yu   be wrong;do incorrectly',
+        'xoTaO   IV_Pass_yu      be done incorrectly'
+      ],
+      'patterns' => {
+        '_h.ti\'' => [
+          'FCiL'
+        ],
+        '_h.ta\'' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be wrong',
+        'do incorrectly',
+        'be done incorrectly'
+      ],
+      'orig' => 'OaxoTaO',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_ha.tA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        },
+        '\'a_h.tA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '_ha.ta\'',
+      'form' => '_ha.ta\'',
+      'lines' => [
+        ';; xaTaO_1',
+        'xaTaO   N0_Nh   mistake;error;fault',
+        'xaTaW   Nh      mistake;error;fault',
+        'xaTa}   Nhy     mistake;error;fault',
+        'xaTa|   N-|     mistakes;errors;faults',
+        'xaTa}   Nayn    mistakes;errors;faults',
+        'OaxoTA\' N0_Nh   mistakes;errors;faults',
+        'OaxoTAW Nh      mistakes;errors;faults',
+        'OaxoTA} Nhy     mistakes;errors;faults',
+        'xaTA\'   N0_Nh   mistakes;errors;faults',
+        'xaTAW   Nh      mistakes;errors;faults',
+        'xaTA}   Nhy     mistakes;errors;faults'
+      ],
+      'patterns' => {
+        '_ha.tA\'' => [
+          'FaCAL'
+        ],
+        '\'a_h.tA\'' => [
+          'HaFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'mistake',
+        'error',
+        'fault',
+        'mistakes',
+        'errors',
+        'faults'
+      ],
+      'orig' => 'xaTaO',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_ha.tiyy' => {
+          'NapAt' => 1
+        },
+        '_ha.tAyY' => {
+          'N0_Nhy' => 1
+        }
+      },
+      'entry' => '_ha.tiy\'',
+      'form' => '_ha.tiy\'aT',
+      'lines' => [
+        ';; xaTiy}ap_1',
+        'xaTiy}  NapAt   mistake;error;fault',
+        'xaTiy~  NapAt   mistake;error;fault',
+        'xaTAyA  N0_Nhy  mistakes;errors;faults'
+      ],
+      'patterns' => {
+        '_ha.tiyy' => [],
+        '_ha.tAyY' => []
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'mistake',
+        'error',
+        'fault',
+        'mistakes',
+        'errors',
+        'faults'
+      ],
+      'orig' => 'xaTiy}ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hu.tY' => {
+          'Nap' => 1
+        },
+        '_hawA.ti\'' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hA.ti\'',
+      'form' => '_hA.ti\'',
+      'lines' => [
+        ';; xATi}_1',
+        'xATi}   Nall    mistaken;at fault     [[xATi}/ADJ]]',
+        'xawATi} Ndip    mistaken;at fault',
+        'xuTA    Nap     mistaken;at fault'
+      ],
+      'patterns' => {
+        '_hu.tY' => [
+          'FuCY'
+        ],
+        '_hawA.ti\'' => [
+          'FawACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        'mistaken',
+        'at fault'
+      ],
+      'orig' => 'xATi}',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_h.ti\'',
+      'form' => 'mu_h.ti\'',
+      'lines' => [
+        ';; muxoTi}_1',
+        'muxoTi} Nall    mistaken;at fault     [[muxoTi}/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFCiL',
+      'suffix' => '',
+      'glosses' => [
+        'mistaken',
+        'at fault'
+      ],
+      'orig' => 'muxoTi}',
+      'prefix' => ''
+    }
+  ],
+  '_h w l' => [
+    {
+      'types' => {},
+      'entry' => '_hawAliy',
+      'form' => '_hawAliy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCALI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'xawAliy',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hawwil' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_hawwal',
+      'form' => '_hawwal',
+      'lines' => [
+        ';; xaw~al_1',
+        'xaw~al  PV      grant;bestow;endow',
+        'xaw~il  IV_yu   grant;bestow;endow'
+      ],
+      'patterns' => {
+        '_hawwil' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'grant',
+        'bestow',
+        'endow'
+      ],
+      'orig' => 'xaw~al',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_huwuwl' => {
+          'Nap' => 1,
+          'N' => 1
+        },
+        '_hu\'uwl' => {
+          'Nap' => 1,
+          'N' => 1
+        },
+        '_hiylAn' => {
+          'N' => 1
+        },
+        '\'a_hwAl' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_hAl',
+      'form' => '_hAl',
+      'lines' => [
+        ';; xAl_1',
+        'xAl     Ndu     maternal uncle',
+        'OaxowAl N       maternal uncles',
+        'xiylAn  N       maternal uncles',
+        'xuwuwl  N       maternal uncles',
+        'xuWuwl  N       maternal uncles',
+        'xuwuwl  Nap     maternal uncles',
+        'xuWuwl  Nap     maternal uncles'
+      ],
+      'patterns' => {
+        '_huwuwl' => [
+          'FuCUL'
+        ],
+        '_hiylAn' => [
+          'FILAn'
+        ],
+        '_hu\'uwl' => [
+          'Fu\'UL'
+        ],
+        '\'a_hwAl' => [
+          'HaFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FAL',
+      'suffix' => '',
+      'glosses' => [
+        'maternal uncle',
+        'maternal uncles'
+      ],
+      'orig' => 'xAl',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hiylAn' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_hAl',
+      'form' => '_hAl',
+      'lines' => [
+        ';; xAl_2',
+        'xAl     Ndu     mole',
+        'xiylAn  N       moles'
+      ],
+      'patterns' => {
+        '_hiylAn' => [
+          'FILAn'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FAL',
+      'suffix' => '',
+      'glosses' => [
+        'mole',
+        'moles'
+      ],
+      'orig' => 'xAl',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hAl' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => '_hAl',
+      'form' => '_hAlaT',
+      'lines' => [
+        ';; xAlap_1',
+        'xAl     Napdu   maternal aunt',
+        'xAl     NAt     maternal aunts'
+      ],
+      'patterns' => {
+        '_hAl' => [
+          'FAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'maternal aunt',
+        'maternal aunts'
+      ],
+      'orig' => 'xAlap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hawl',
+      'form' => '_hawlaT',
+      'lines' => [
+        ';; xawolap_1',
+        'xawolap Nprop   Khawla'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'Khawla'
+      ],
+      'orig' => 'xawolap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hawl',
+      'form' => '_hawliyy',
+      'lines' => [
+        ';; xawoliy~_1',
+        'xawoliy~        Nall    supervisor;gardener'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'supervisor',
+        'gardener'
+      ],
+      'orig' => 'xawoliy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_huwl',
+      'form' => '_huwliyy',
+      'lines' => [
+        ';; xuwliy~_1',
+        'xuwliy~ Nall    supervisor;gardener'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FUL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'supervisor',
+        'gardener'
+      ],
+      'orig' => 'xuwliy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_huwl',
+      'form' => '_huwliyy',
+      'lines' => [
+        ';; xuwliy~_2',
+        'xuwliy~ N0      Khouli'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'FUL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Khouli'
+      ],
+      'orig' => 'xuwliy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_hawwal',
+      'form' => 'mu_hawwal',
+      'lines' => [
+        ';; muxaw~al_1',
+        'muxaw~al        N-ap    authorized'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'authorized'
+      ],
+      'orig' => 'muxaw~al',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_huwuwl',
+      'form' => '_huwuwlaT',
+      'lines' => [
+        ';; xuwuwlap_1',
+        'xuwuwl  Nap     maternal uncle relationship'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'maternal uncle relationship'
+      ],
+      'orig' => 'xuwuwlap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hu\'uwl',
+      'form' => '_hu\'uwlaT',
+      'lines' => [
+        ';; xuWuwlap_1',
+        'xuWuwl  Nap     maternal uncle relationship'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Fu\'UL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'maternal uncle relationship'
+      ],
+      'orig' => 'xuWuwlap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hawal',
+      'form' => '_hawal',
+      'lines' => [
+        ';; xawal_1',
+        'xawal   N       sissy;chattel'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'sissy',
+        'chattel'
+      ],
+      'orig' => 'xawal',
       'prefix' => ''
     }
   ],
@@ -12564,6 +19075,493 @@ $Lexicon = {
         'bisexual'
       ],
       'orig' => 'muxan~av',
+      'prefix' => ''
+    }
+  ],
+  '_h _d r f' => [
+    {
+      'types' => {
+        '_ha_dAriyf' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hu_druwf',
+      'form' => '_hu_druwf',
+      'lines' => [
+        ';; xu*oruwf_1',
+        'xu*oruwf        Ndu     spinning top',
+        'xa*Ariyf        Ndip    spinning tops'
+      ],
+      'patterns' => {
+        '_ha_dAriyf' => [
+          'KaRADIS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDUS',
+      'suffix' => '',
+      'glosses' => [
+        'spinning top',
+        'spinning tops'
+      ],
+      'orig' => 'xu*oruwf',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hu_druwf',
+      'form' => '_hu_druwfiyy',
+      'lines' => [
+        ';; xu*oruwfiy~_1',
+        'xu*oruwfiy~     Nall    turbinate;top-like     [[xu*oruwfiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KuRDUS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'turbinate',
+        'top-like'
+      ],
+      'orig' => 'xu*oruwfiy~',
+      'prefix' => ''
+    }
+  ],
+  '_h .s _h .s' => [
+    {
+      'types' => {},
+      'entry' => '_ha.s_ha.s',
+      'form' => '_ha.s_ha.saT',
+      'lines' => [
+        ';; xaSoxaSap_1',
+        'xaSoxaS NapAt   privatization'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDaS |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'privatization'
+      ],
+      'orig' => 'xaSoxaSap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_ha.s_ha.s',
+      'form' => 'mu_ha.s_ha.s',
+      'lines' => [
+        ';; muxaSoxaS_1',
+        'muxaSoxaS       N-ap    privatized     [[muxaSoxaS/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuKaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'privatized'
+      ],
+      'orig' => 'muxaSoxaS',
+      'prefix' => ''
+    }
+  ],
+  '_h f f' => [
+    {
+      'types' => {
+        '_hfif' => {
+          'IV_C_intr' => 1
+        },
+        '_hiff' => {
+          'IV_V_intr' => 1
+        },
+        '_hafaf' => {
+          'PV_C_intr' => 1
+        }
+      },
+      'entry' => '_haff',
+      'form' => '_haff',
+      'lines' => [
+        ';; xaf~-i_1',
+        'xaf~    PV_V_intr       be light;decrease;reduce',
+        'xafaf   PV_C_intr       be light;decrease;reduce',
+        'xif~    IV_V_intr       be light;decrease;reduce',
+        'xofif   IV_C_intr       be light;decrease;reduce'
+      ],
+      'patterns' => {
+        '_hfif' => [
+          'FCiL'
+        ],
+        '_hiff' => [
+          'FiCL'
+        ],
+        '_hafaf' => [
+          'FaCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCL',
+      'glosses' => [
+        'be light',
+        'decrease',
+        'reduce'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xaf~-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_haffif' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_haffaf',
+      'form' => '_haffaf',
+      'lines' => [
+        ';; xaf~af_1',
+        'xaf~af  PV      decrease;mitigate',
+        'xaf~if  IV_yu   decrease;mitigate'
+      ],
+      'patterns' => {
+        '_haffif' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'decrease',
+        'mitigate'
+      ],
+      'orig' => 'xaf~af',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_haffaf',
+      'form' => 'ta_haffaf',
+      'lines' => [
+        ';; taxaf~af_1',
+        'taxaf~af        PV_intr be decreased;be mitigated',
+        'taxaf~af        IV_intr be decreased;be mitigated'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be decreased',
+        'be mitigated'
+      ],
+      'orig' => 'taxaf~af',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ista_hfaf' => {
+          'PV_C' => 1
+        },
+        'sta_hfif' => {
+          'IV_C' => 1
+        },
+        'sta_hiff' => {
+          'IV_V' => 1
+        }
+      },
+      'entry' => 'ista_haff',
+      'form' => 'ista_haff',
+      'lines' => [
+        ';; Aisotaxaf~_1',
+        'Aisotaxaf~      PV_V    lighten;disdain',
+        'Aisotaxofaf     PV_C    lighten;disdain',
+        'sotaxif~        IV_V    lighten;disdain',
+        'sotaxofif       IV_C    lighten;disdain'
+      ],
+      'patterns' => {
+        'ista_hfaf' => [
+          'IstaFCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IstaFaCL',
+      'suffix' => '',
+      'glosses' => [
+        'lighten',
+        'disdain'
+      ],
+      'orig' => 'Aisotaxaf~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hifAf' => {
+          'N' => 1
+        },
+        '\'a_hfAf' => {
+          'N' => 2
+        }
+      },
+      'entry' => '_huff',
+      'form' => '_huff',
+      'lines' => [
+        ';; xuf~_1',
+        'xuf~    Ndu     slippers',
+        'xifAf   N       slippers',
+        'OaxofAf N       slippers',
+        'OaxofAf N       camel hoof;sole'
+      ],
+      'patterns' => {
+        '_hifAf' => [
+          'FiCAL'
+        ],
+        '\'a_hfAf' => [
+          'HaFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCL',
+      'suffix' => '',
+      'glosses' => [
+        'slippers',
+        'camel hoof',
+        'sole'
+      ],
+      'orig' => 'xuf~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hiff',
+      'form' => '_hiffaT',
+      'lines' => [
+        ';; xif~ap_1',
+        'xif~    Nap     lightness;disdain'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'lightness',
+        'disdain'
+      ],
+      'orig' => 'xif~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'a_haff',
+      'form' => '\'a_haff',
+      'lines' => [
+        ';; Oaxaf~_1',
+        'Oaxaf~  Nel     lighter/lightest;lesser/least'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFaCL',
+      'suffix' => '',
+      'glosses' => [
+        'lighter/lightest',
+        'lesser/least'
+      ],
+      'orig' => 'Oaxaf~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hafAf',
+      'form' => '_hafAf',
+      'lines' => [
+        ';; xafAf_1',
+        'xafAf   N       pumice'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL',
+      'suffix' => '',
+      'glosses' => [
+        'pumice'
+      ],
+      'orig' => 'xafAf',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_huffAn',
+      'form' => '_huffAn',
+      'lines' => [
+        ';; xuf~An_1',
+        'xuf~An  N       pumice stone'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCLAn',
+      'suffix' => '',
+      'glosses' => [
+        'pumice stone'
+      ],
+      'orig' => 'xuf~An',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hifAf' => {
+          'N' => 1
+        },
+        '\'a_hfAf' => {
+          'N' => 1
+        },
+        '\'a_hiffA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '_hafiyf',
+      'form' => '_hafiyf',
+      'lines' => [
+        ';; xafiyf_1',
+        'xafiyf  N/ap    light;slight;sparse     [[xafiyf/ADJ]]',
+        'xifAf   N       light;slight;sparse',
+        'OaxofAf N       light;slight;sparse',
+        'Oaxif~A\'        N0_Nh   light;slight;sparse',
+        'Oaxif~AW        Nh      light;slight;sparse',
+        'Oaxif~A}        Nhy     light;slight;sparse'
+      ],
+      'patterns' => {
+        '_hifAf' => [
+          'FiCAL'
+        ],
+        '\'a_hfAf' => [
+          'HaFCAL'
+        ],
+        '\'a_hiffA\'' => [
+          'HaFiCLA\''
+        ]
+      },
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        'light',
+        'slight',
+        'sparse'
+      ],
+      'orig' => 'xafiyf',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta_hfiyf' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'ta_hfiyf',
+      'form' => 'ta_hfiyf',
+      'lines' => [
+        ';; taxofiyf_1',
+        'taxofiyf        NduAt   decrease;reduction;dilution'
+      ],
+      'patterns' => {
+        'ta_hfiyf' => [
+          'TaFCIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFCIL',
+      'suffix' => '',
+      'glosses' => [
+        'decrease',
+        'reduction',
+        'dilution'
+      ],
+      'orig' => 'taxofiyf',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'isti_hfAf' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'isti_hfAf',
+      'form' => 'isti_hfAf',
+      'lines' => [
+        ';; AisotixofAf_1',
+        'AisotixofAf     N/At    facilitation;disdain'
+      ],
+      'patterns' => {
+        'isti_hfAf' => [
+          'IstiFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IstiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        'facilitation',
+        'disdain'
+      ],
+      'orig' => 'AisotixofAf',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_haffif',
+      'form' => 'mu_haffif',
+      'lines' => [
+        ';; muxaf~if_1',
+        'muxaf~if        N-ap    extenuating     [[muxaf~if/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFaCCiL',
+      'suffix' => '',
+      'glosses' => [
+        'extenuating'
+      ],
+      'orig' => 'muxaf~if',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_haffaf',
+      'form' => 'mu_haffaf',
+      'lines' => [
+        ';; muxaf~af_1',
+        'muxaf~af        N-ap    diluted;lightened     [[muxaf~af/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'diluted',
+        'lightened'
+      ],
+      'orig' => 'muxaf~af',
       'prefix' => ''
     }
   ],
@@ -13157,6 +20155,625 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_hinnaw.s' => [
+    {
+      'types' => {
+        '_hanAniy.s' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hinnaw.s',
+      'form' => '_hinnaw.s',
+      'lines' => [
+        ';; xin~awoS_1',
+        'xin~awoS        Ndu     piglet',
+        'xanAniyS        Ndip    piglets'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'piglet',
+        'piglets'
+      ],
+      'orig' => 'xin~awoS',
+      'prefix' => ''
+    }
+  ],
+  '_h n d q' => [
+    {
+      'types' => {
+        '_handiq' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_handaq',
+      'form' => '_handaq',
+      'lines' => [
+        ';; xanodaq_1',
+        'xanodaq PV      dig a trench',
+        'xanodiq IV_yu   dig a trench'
+      ],
+      'patterns' => {
+        '_handiq' => [
+          'KaRDiS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'KaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'dig a trench'
+      ],
+      'orig' => 'xanodaq',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hanAdiq' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_handaq',
+      'form' => '_handaq',
+      'lines' => [
+        ';; xanodaq_2',
+        'xanodaq Ndu     trench;ditch',
+        'xanAdiq Ndip    trenches;ditches'
+      ],
+      'patterns' => {
+        '_hanAdiq' => [
+          'KaRADiS'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'KaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'trench',
+        'ditch',
+        'trenches',
+        'ditches'
+      ],
+      'orig' => 'xanodaq',
+      'prefix' => ''
+    }
+  ],
+  '_h l .t' => [
+    {
+      'types' => {
+        '_hli.t' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_hala.t',
+      'form' => '_hala.t',
+      'lines' => [
+        ';; xalaT-i_1',
+        'xalaT   PV      mix;blend;confuse',
+        'xoliT   IV      mix;blend;confuse'
+      ],
+      'patterns' => {
+        '_hli.t' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'mix',
+        'blend',
+        'confuse'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xalaT-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_halli.t' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_halla.t',
+      'form' => '_halla.t',
+      'lines' => [
+        ';; xal~aT_1',
+        'xal~aT  PV      mix;blend;confuse',
+        'xal~iT  IV_yu   mix;blend;confuse'
+      ],
+      'patterns' => {
+        '_halli.t' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'mix',
+        'blend',
+        'confuse'
+      ],
+      'orig' => 'xal~aT',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hAli.t' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_hAla.t',
+      'form' => '_hAla.t',
+      'lines' => [
+        ';; xAlaT_1',
+        'xAlaT   PV      mix;mingle',
+        'xAliT   IV_yu   mix;mingle'
+      ],
+      'patterns' => {
+        '_hAli.t' => [
+          'FACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FACaL',
+      'suffix' => '',
+      'glosses' => [
+        'mix',
+        'mingle'
+      ],
+      'orig' => 'xAlaT',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_htali.t' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'i_htala.t',
+      'form' => 'i_htala.t',
+      'lines' => [
+        ';; AixotalaT_1',
+        'AixotalaT       PV      mix;associate',
+        'xotaliT IV      mix;associate'
+      ],
+      'patterns' => {
+        '_htali.t' => [
+          'FtaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFtaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'mix',
+        'associate'
+      ],
+      'orig' => 'AixotalaT',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'a_hlA.t' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_hal.t',
+      'form' => '_hal.t',
+      'lines' => [
+        ';; xaloT_1',
+        'xaloT   N       mixture;blending',
+        'OaxolAT N       mixture;blend'
+      ],
+      'patterns' => {
+        '\'a_hlA.t' => [
+          'HaFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'mixture',
+        'blending',
+        'blend'
+      ],
+      'orig' => 'xaloT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hal.t',
+      'form' => '_hal.t',
+      'lines' => [
+        ';; xaloT_2',
+        'xaloT   N       confusion'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'confusion'
+      ],
+      'orig' => 'xaloT',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hala.t' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => '_hal.t',
+      'form' => '_hal.taT',
+      'lines' => [
+        ';; xaloTap_1',
+        'xaloT   Napdu   mixture;blend',
+        'xalaT   NAt     mixtures;blends'
+      ],
+      'patterns' => {
+        '_hala.t' => [
+          'FaCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'mixture',
+        'blend',
+        'mixtures',
+        'blends'
+      ],
+      'orig' => 'xaloTap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hil.t',
+      'form' => '_hil.t',
+      'lines' => [
+        ';; xiloT_1',
+        'xiloT   N       ingredient'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCL',
+      'suffix' => '',
+      'glosses' => [
+        'ingredient'
+      ],
+      'orig' => 'xiloT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hallA.t',
+      'form' => '_hallA.t',
+      'lines' => [
+        ';; xal~AT_1',
+        'xal~AT  Ndu     mortar box;mixer'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL',
+      'suffix' => '',
+      'glosses' => [
+        'mortar box',
+        'mixer'
+      ],
+      'orig' => 'xal~AT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hallA.t',
+      'form' => '_hallA.taT',
+      'lines' => [
+        ';; xal~ATap_1',
+        'xal~AT  NapAt   mortar box;mixer'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'mortar box',
+        'mixer'
+      ],
+      'orig' => 'xal~ATap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_haliy.t',
+      'form' => '_haliy.t',
+      'lines' => [
+        ';; xaliyT_1',
+        'xaliyT  N/ap    mixture;blend'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        'mixture',
+        'blend'
+      ],
+      'orig' => 'xaliyT',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hula.tA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '_haliy.t',
+      'form' => '_haliy.t',
+      'lines' => [
+        ';; xaliyT_2',
+        'xaliyT  N/ap    associate;companion',
+        'xulaTA\' N0_Nh   associates;companions',
+        'xulaTAW Nh      associates;companions',
+        'xulaTA} Nhy     associates;companions'
+      ],
+      'patterns' => {
+        '_hula.tA\'' => [
+          'FuCaLA\''
+        ]
+      },
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        'associate',
+        'companion',
+        'associates',
+        'companions'
+      ],
+      'orig' => 'xaliyT',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta_hliy.t' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'ta_hliy.t',
+      'form' => 'ta_hliy.t',
+      'lines' => [
+        ';; taxoliyT_1',
+        'taxoliyT        NduAt   insanity;delirium'
+      ],
+      'patterns' => {
+        'ta_hliy.t' => [
+          'TaFCIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFCIL',
+      'suffix' => '',
+      'glosses' => [
+        'insanity',
+        'delirium'
+      ],
+      'orig' => 'taxoliyT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_hAla.t',
+      'form' => 'mu_hAla.taT',
+      'lines' => [
+        ';; muxAlaTap_1',
+        'muxAlaT NapAt   mixing;association'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFACaL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'mixing',
+        'association'
+      ],
+      'orig' => 'muxAlaTap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'i_htilA.t' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'i_htilA.t',
+      'form' => 'i_htilA.t',
+      'lines' => [
+        ';; AixotilAT_1',
+        'AixotilAT       NduAt   mixing;association'
+      ],
+      'patterns' => {
+        'i_htilA.t' => [
+          'IFtiCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IFtiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'mixing',
+        'association'
+      ],
+      'orig' => 'AixotilAT',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ma_hAliy.t' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'ma_hluw.t',
+      'form' => 'ma_hluw.t',
+      'lines' => [
+        ';; maxoluwT_1',
+        'maxoluwT        Nall    mixture;alloy;blend',
+        'maxAliyT        Ndip    mixture;alloy;blend'
+      ],
+      'patterns' => {
+        'ma_hAliy.t' => [
+          'MaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCUL',
+      'suffix' => '',
+      'glosses' => [
+        'mixture',
+        'alloy',
+        'blend'
+      ],
+      'orig' => 'maxoluwT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ma_hluw.t',
+      'form' => 'ma_hluw.t',
+      'lines' => [
+        ';; maxoluwT_2',
+        'maxoluwT        Nall    mixted;blended     [[maxoluwT/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'MaFCUL',
+      'suffix' => '',
+      'glosses' => [
+        'mixted',
+        'blended'
+      ],
+      'orig' => 'maxoluwT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_halla.t',
+      'form' => 'mu_halla.t',
+      'lines' => [
+        ';; muxal~aT_1',
+        'muxal~aT        Nall    confused;disordered     [[muxal~aT/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'confused',
+        'disordered'
+      ],
+      'orig' => 'muxal~aT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_hAla.t',
+      'form' => 'mu_hAla.t',
+      'lines' => [
+        ';; muxAlaT_1',
+        'muxAlaT Nall    stricken;afflicted     [[muxAlaT/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFACaL',
+      'suffix' => '',
+      'glosses' => [
+        'stricken',
+        'afflicted'
+      ],
+      'orig' => 'muxAlaT',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_htali.t',
+      'form' => 'mu_htali.t',
+      'lines' => [
+        ';; muxotaliT_1',
+        'muxotaliT       Nall    mixed     [[muxotaliT/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFtaCiL',
+      'suffix' => '',
+      'glosses' => [
+        'mixed'
+      ],
+      'orig' => 'muxotaliT',
+      'prefix' => ''
+    }
+  ],
+  '_hAqAn' => [
+    {
+      'types' => {
+        '_hawAqiyn' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hAqAn',
+      'form' => '_hAqAn',
+      'lines' => [
+        ';; xAqAn_1',
+        'xAqAn   Ndu     overlord;monarch',
+        'xawAqiyn        Ndip    overlords;monarchs'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'overlord',
+        'monarch',
+        'overlords',
+        'monarchs'
+      ],
+      'orig' => 'xAqAn',
+      'prefix' => ''
+    }
+  ],
   '_h y l l' => [
     {
       'types' => {},
@@ -13571,6 +21188,211 @@ $Lexicon = {
         'concealed'
       ],
       'orig' => 'muxotabi}',
+      'prefix' => ''
+    }
+  ],
+  '_h b z' => [
+    {
+      'types' => {
+        '_hbiz' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_habaz',
+      'form' => '_habaz',
+      'lines' => [
+        ';; xabaz-i_1',
+        'xabaz   PV      bake',
+        'xobiz   IV      bake'
+      ],
+      'patterns' => {
+        '_hbiz' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'bake'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xabaz-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_htabiz' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'i_htabaz',
+      'form' => 'i_htabaz',
+      'lines' => [
+        ';; Aixotabaz_1',
+        'Aixotabaz       PV      bake;be baked',
+        'xotabiz IV      bake;be baked'
+      ],
+      'patterns' => {
+        '_htabiz' => [
+          'FtaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFtaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'bake',
+        'be baked'
+      ],
+      'orig' => 'Aixotabaz',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'a_hbAz' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_hubz',
+      'form' => '_hubz',
+      'lines' => [
+        ';; xuboz_1',
+        'xuboz   N       bread',
+        'OaxobAz N       bread',
+        'xuboz   Nap     loaf of bread'
+      ],
+      'patterns' => {
+        '\'a_hbAz' => [
+          'HaFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCL',
+      'suffix' => '',
+      'glosses' => [
+        'bread',
+        'loaf of bread'
+      ],
+      'orig' => 'xuboz',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_habbAz',
+      'form' => '_habbAz',
+      'lines' => [
+        ';; xab~Az_1',
+        'xab~Az  Nall    baker'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL',
+      'suffix' => '',
+      'glosses' => [
+        'baker'
+      ],
+      'orig' => 'xab~Az',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hibAz',
+      'form' => '_hibAzaT',
+      'lines' => [
+        ';; xibAzap_1',
+        'xibAz   Nap     baking'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'baking'
+      ],
+      'orig' => 'xibAzap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ma_hAbiz' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'ma_hbaz',
+      'form' => 'ma_hbaz',
+      'lines' => [
+        ';; maxobaz_1',
+        'maxobaz Ndu     bakery',
+        'maxobaz Napdu   bakery',
+        'maxAbiz Ndip    bakeries'
+      ],
+      'patterns' => {
+        'ma_hAbiz' => [
+          'MaFACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'bakery',
+        'bakeries'
+      ],
+      'orig' => 'maxobaz',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ma_hbuwz' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'ma_hbuwz',
+      'form' => 'ma_hbuwzAt',
+      'lines' => [
+        ';; maxobuwzAt_1',
+        'maxobuwz        NAt     bakery goods'
+      ],
+      'patterns' => {
+        'ma_hbuwz' => [
+          'MaFCUL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCUL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'bakery goods'
+      ],
+      'orig' => 'maxobuwzAt',
+      'prefix' => ''
+    }
+  ],
+  '_h \' f' => [
+    {
+      'types' => {},
+      'entry' => '_hA\'if',
+      'form' => '_hA\'if',
+      'lines' => [],
+      'patterns' => {
+        '_huwwaf' => []
+      },
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'xA}if',
       'prefix' => ''
     }
   ],
@@ -14296,6 +22118,40 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h z `' => [
+    {
+      'types' => {
+        '_hza`' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_haza`',
+      'form' => '_haza`',
+      'lines' => [
+        ';; xazaE-a_1',
+        'xazaE   PV      cut;sever',
+        'xozaE   IV      cut;sever'
+      ],
+      'patterns' => {
+        '_hza`' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'cut',
+        'sever'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'xazaE-a',
+      'prefix' => ''
+    }
+  ],
   '_h  \'' => [
     {
       'types' => {
@@ -14327,6 +22183,56 @@ $Lexicon = {
         'xa\'s (Arabic letter)'
       ],
       'orig' => 'xA\'',
+      'prefix' => ''
+    }
+  ],
+  '_h r b q' => [
+    {
+      'types' => {
+        '_harbiq' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_harbaq',
+      'form' => '_harbaq',
+      'lines' => [
+        ';; xarobaq_1',
+        'xarobaq PV      perforate;spoil',
+        'xarobiq IV_yu   perforate;spoil'
+      ],
+      'patterns' => {
+        '_harbiq' => [
+          'KaRDiS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'KaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'perforate',
+        'spoil'
+      ],
+      'orig' => 'xarobaq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harbaq',
+      'form' => '_harbaq',
+      'lines' => [
+        ';; xarobaq_2',
+        'xarobaq N       hellebore (early-flowering plant)'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'KaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'hellebore (early-flowering plant)'
+      ],
+      'orig' => 'xarobaq',
       'prefix' => ''
     }
   ],
@@ -14421,6 +22327,121 @@ $Lexicon = {
         'disloyal'
       ],
       'orig' => 'xAtir',
+      'prefix' => ''
+    }
+  ],
+  '_h \' n' => [
+    {
+      'types' => {},
+      'entry' => '_hAn',
+      'form' => '_hAn',
+      'lines' => [
+        ';; xAn_1',
+        'xAn     Nprop   Khan'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FAL',
+      'suffix' => '',
+      'glosses' => [
+        'Khan'
+      ],
+      'orig' => 'xAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hAn',
+      'form' => '_hAn',
+      'lines' => [
+        ';; xAn_2',
+        'xAn     N       khan;hostel'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FAL',
+      'suffix' => '',
+      'glosses' => [
+        'khan',
+        'hostel'
+      ],
+      'orig' => 'xAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hAn',
+      'form' => '_hAnaT',
+      'lines' => [
+        ';; xAnap_1',
+        'xAn     NapAt   compartment;partition'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'compartment',
+        'partition'
+      ],
+      'orig' => 'xAnap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha\'uwn',
+      'form' => '_ha\'uwn',
+      'lines' => [
+        ';; xaWuwn_1',
+        'xaWuwn  N/ap    faithless;disloyal'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCUL',
+      'suffix' => '',
+      'glosses' => [
+        'faithless',
+        'disloyal'
+      ],
+      'orig' => 'xaWuwn',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hawn' => {
+          'Nap' => 1
+        },
+        '_huwwAn' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_hA\'in',
+      'form' => '_hA\'in',
+      'lines' => [
+        ';; xA}in_1',
+        'xA}in   N/ap    traitor;treacherous',
+        'xuw~An  N       traitors;disloyal',
+        'xawon   Nap     traitors;disloyal'
+      ],
+      'patterns' => {
+        '_hawn' => [],
+        '_huwwAn' => []
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        'traitor',
+        'treacherous',
+        'traitors',
+        'disloyal'
+      ],
+      'orig' => 'xA}in',
       'prefix' => ''
     }
   ],
@@ -14787,6 +22808,31 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h r .t ^s' => [
+    {
+      'types' => {},
+      'entry' => '_har.tuw^s',
+      'form' => '_har.tuw^s',
+      'lines' => [
+        ';; xaroTuw$_1',
+        'xaroTuw$        N       bullets;cartridges',
+        'xaroTuw$        Napdu   bullet;cartridge'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDUS',
+      'suffix' => '',
+      'glosses' => [
+        'bullets',
+        'cartridges',
+        'bullet',
+        'cartridge'
+      ],
+      'orig' => 'xaroTuw$',
+      'prefix' => ''
+    }
+  ],
   '_h n ^g r' => [
     {
       'types' => {
@@ -14815,6 +22861,140 @@ $Lexicon = {
         'daggers'
       ],
       'orig' => 'xanojar',
+      'prefix' => ''
+    }
+  ],
+  '_h ^s `' => [
+    {
+      'types' => {
+        '_h^sa`' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => '_ha^sa`',
+      'form' => '_ha^sa`',
+      'lines' => [
+        ';; xa$aE-a_1',
+        'xa$aE   PV_intr be submissive;be humble',
+        'xo$aE   IV_intr be submissive;be humble'
+      ],
+      'patterns' => {
+        '_h^sa`' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'be submissive',
+        'be humble'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'xa$aE-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_ha^s^si`' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_ha^s^sa`',
+      'form' => '_ha^s^sa`',
+      'lines' => [
+        ';; xa$~aE_1',
+        'xa$~aE  PV      humble;reduce to submission',
+        'xa$~iE  IV_yu   humble;reduce to submission'
+      ],
+      'patterns' => {
+        '_ha^s^si`' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'humble',
+        'reduce to submission'
+      ],
+      'orig' => 'xa$~aE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_ha^s^sa`',
+      'form' => 'ta_ha^s^sa`',
+      'lines' => [
+        ';; taxa$~aE_1',
+        'taxa$~aE        PV      display humility;be humble;be touched',
+        'taxa$~aE        IV      display humility;be humble;be touched'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'display humility',
+        'be humble',
+        'be touched'
+      ],
+      'orig' => 'taxa$~aE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hu^suw`',
+      'form' => '_hu^suw`',
+      'lines' => [
+        ';; xu$uwE_1',
+        'xu$uwE  N       submissiveness;humility'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCUL',
+      'suffix' => '',
+      'glosses' => [
+        'submissiveness',
+        'humility'
+      ],
+      'orig' => 'xu$uwE',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_ha^sa`' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => '_hA^si`',
+      'form' => '_hA^si`',
+      'lines' => [
+        ';; xA$iE_1',
+        'xA$iE   N/ap    submissive;humble     [[xA$iE/ADJ]]',
+        'xa$aE   Nap     submissive;humble'
+      ],
+      'patterns' => {
+        '_ha^sa`' => [
+          'FaCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        'submissive',
+        'humble'
+      ],
+      'orig' => 'xA$iE',
       'prefix' => ''
     }
   ],
@@ -14971,6 +23151,90 @@ $Lexicon = {
         'deceitful'
       ],
       'orig' => 'muxAtil',
+      'prefix' => ''
+    }
+  ],
+  '_h r t' => [
+    {
+      'types' => {
+        '_hrut' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_harat',
+      'form' => '_harat',
+      'lines' => [
+        ';; xarat-u_1',
+        'xarat   PV-t    perforate',
+        'xorut   IV      perforate'
+      ],
+      'patterns' => {
+        '_hrut' => [
+          'FCuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'perforate'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'xarat-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'a_hrAt' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_hurt',
+      'form' => '_hurt',
+      'lines' => [
+        ';; xurot_1',
+        'xurot   N       hole;bore',
+        'OaxorAt N       holes;eyelets'
+      ],
+      'patterns' => {
+        '\'a_hrAt' => [
+          'HaFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCL',
+      'suffix' => '',
+      'glosses' => [
+        'hole',
+        'bore',
+        'holes',
+        'eyelets'
+      ],
+      'orig' => 'xurot',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hirriyt',
+      'form' => '_hirriyt',
+      'lines' => [
+        ';; xir~iyt_1',
+        'xir~iyt N/ap    experienced;skilled'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCCIL',
+      'suffix' => '',
+      'glosses' => [
+        'experienced',
+        'skilled'
+      ],
+      'orig' => 'xir~iyt',
       'prefix' => ''
     }
   ],
@@ -15596,15141 +23860,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_h n w' => [
-    {
-      'types' => {
-        '_hanaw' => {
-          'PV_Atn' => 1
-        },
-        '_hn' => {
-          'IV_0hwnyn' => 1
-        },
-        '_han' => {
-          'PV_ttAw_intr' => 1
-        },
-        '_hnY' => {
-          'IV_0_Pass_yu' => 1
-        },
-        '_hnuw' => {
-          'IV_0hAnn' => 1
-        }
-      },
-      'entry' => '_hanA',
-      'form' => '_hanA',
-      'lines' => [
-        ';; xanA-u_1',
-        'xanA    PV_0    be obscene',
-        'xanaw   PV_Atn  be obscene',
-        'xan     PV_ttAw_intr    be obscene',
-        'xonuw   IV_0hAnn        be obscene',
-        'xon     IV_0hwnyn       be obscene',
-        'xonaY   IV_0_Pass_yu    be obscene'
-      ],
-      'patterns' => {
-        '_hanaw' => [
-          'FaCaL'
-        ],
-        '_han' => [
-          'FaC'
-        ],
-        '_hnY' => [
-          'FCY'
-        ],
-        '_hnuw' => [
-          'FCU'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCA',
-      'glosses' => [
-        'be obscene'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'xanA-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_haniy',
-      'form' => '_haniy',
-      'lines' => [],
-      'patterns' => {
-        '_han' => [
-          'FaC'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCI',
-      'glosses' => [],
-      'suffix' => '',
-      'imperf' => [],
-      'orig' => 'xaniy-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hniy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '_hn' => {
-          'IV_0hwnyn_yu' => 1
-        },
-        '\'a_hnay' => {
-          'PV_Atn' => 1
-        },
-        '_hnY' => {
-          'IV_0_Pass_yu' => 1
-        },
-        '\'a_hnA' => {
-          'PV_h' => 1
-        },
-        '\'a_hn' => {
-          'PV_ttAw' => 1
-        },
-        '_hnay' => {
-          'IV_Ann_Pass_yu' => 1
-        }
-      },
-      'entry' => '\'a_hnY',
-      'form' => '\'a_hnY',
-      'lines' => [
-        ';; OaxonaY_1',
-        'OaxonaY PV_0    afflict;wear down;ruin',
-        'OaxonA  PV_h    afflict;wear down;ruin',
-        'Oaxonay PV_Atn  afflict;wear down;ruin',
-        'Oaxon   PV_ttAw afflict;wear down;ruin',
-        'xoniy   IV_0hAnn_yu     afflict;wear down;ruin',
-        'xon     IV_0hwnyn_yu    afflict;wear down;ruin',
-        'xonaY   IV_0_Pass_yu    be afflicted;be worn down;be ruined',
-        'xonay   IV_Ann_Pass_yu  be afflicted;be worn down;be ruined'
-      ],
-      'patterns' => {
-        '_hniy' => [
-          'FCI'
-        ],
-        '_hnY' => [
-          'FCY'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCY',
-      'suffix' => '',
-      'glosses' => [
-        'afflict',
-        'wear down',
-        'ruin',
-        'be afflicted',
-        'be worn down',
-        'be ruined'
-      ],
-      'orig' => 'OaxonaY',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hanA' => {
-          'Nhy' => 1
-        }
-      },
-      'entry' => '_hanY',
-      'form' => '_hanY',
-      'lines' => [
-        ';; xanaY_1',
-        'xanaY   N0      obscenity;fornication',
-        'xanA    Nhy     obscenity;fornication'
-      ],
-      'patterns' => {
-        '_hanA' => [
-          'FaCA'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCY',
-      'suffix' => '',
-      'glosses' => [
-        'obscenity',
-        'fornication'
-      ],
-      'orig' => 'xanaY',
-      'prefix' => ''
-    }
-  ],
-  '_h .d l' => [
-    {
-      'types' => {
-        '_h.dal' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => '_ha.dil',
-      'form' => '_ha.dil',
-      'lines' => [
-        ';; xaDil-a_1',
-        'xaDil   PV_intr be moist',
-        'xoDal   IV_intr be moist'
-      ],
-      'patterns' => {
-        '_h.dal' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCiL',
-      'glosses' => [
-        'be moist'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'xaDil-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_ha.d.dil' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_ha.d.dal',
-      'form' => '_ha.d.dal',
-      'lines' => [
-        ';; xaD~al_1',
-        'xaD~al  PV      moisten;wet',
-        'xaD~il  IV_yu   moisten;wet'
-      ],
-      'patterns' => {
-        '_ha.d.dil' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'moisten',
-        'wet'
-      ],
-      'orig' => 'xaD~al',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_h.dal' => {
-          'IV_Pass_yu' => 1
-        },
-        '_h.dil' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '\'a_h.dal',
-      'form' => '\'a_h.dal',
-      'lines' => [
-        ';; OaxoDal_1',
-        'OaxoDal PV      moisten;wet',
-        'xoDil   IV_yu   moisten;wet',
-        'xoDal   IV_Pass_yu      be moistened;be made wet'
-      ],
-      'patterns' => {
-        '_h.dal' => [
-          'FCaL'
-        ],
-        '_h.dil' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'moisten',
-        'wet',
-        'be moistened',
-        'be made wet'
-      ],
-      'orig' => 'OaxoDal',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_h.dall' => {
-          'IV_V_intr' => 1
-        },
-        '_h.dalil' => {
-          'IV_C_intr' => 1
-        },
-        'i_h.dalal' => {
-          'PV_C_intr' => 1
-        }
-      },
-      'entry' => 'i_h.dall',
-      'form' => 'i_h.dall',
-      'lines' => [
-        ';; AixoDal~_1',
-        'AixoDal~        PV_V_intr       be moist',
-        'AixoDalal       PV_C_intr       be moist',
-        'xoDal~  IV_V_intr       be moist',
-        'xoDalil IV_C_intr       be moist'
-      ],
-      'patterns' => {
-        '_h.dall' => [
-          'FCaLL'
-        ],
-        'i_h.dalal' => [
-          'IFCaLaL'
-        ],
-        '_h.dalil' => [
-          'FCaLiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'be moist'
-      ],
-      'orig' => 'AixoDal~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha.dil',
-      'form' => '_ha.dil',
-      'lines' => [
-        ';; xaDil_1',
-        'xaDil   N/ap    moist'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCiL',
-      'suffix' => '',
-      'glosses' => [
-        'moist'
-      ],
-      'orig' => 'xaDil',
-      'prefix' => ''
-    }
-  ],
-  '_h .s m' => [
-    {
-      'types' => {
-        '_h.sim' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_ha.sam',
-      'form' => '_ha.sam',
-      'lines' => [
-        ';; xaSam-i_1',
-        'xaSam   PV      defeat;deduct;discount',
-        'xoSim   IV      defeat;deduct;discount'
-      ],
-      'patterns' => {
-        '_h.sim' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'defeat',
-        'deduct',
-        'discount'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xaSam-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hA.sim' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_hA.sam',
-      'form' => '_hA.sam',
-      'lines' => [
-        ';; xASam_1',
-        'xASam   PV      argue;litigate',
-        'xASim   IV_yu   argue;litigate'
-      ],
-      'patterns' => {
-        '_hA.sim' => [
-          'FACiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FACaL',
-      'suffix' => '',
-      'glosses' => [
-        'argue',
-        'litigate'
-      ],
-      'orig' => 'xASam',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_hA.sam',
-      'form' => 'ta_hA.sam',
-      'lines' => [
-        ';; taxASam_1',
-        'taxASam PV      quarrel;litigate',
-        'taxASam IV      quarrel;litigate'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFACaL',
-      'suffix' => '',
-      'glosses' => [
-        'quarrel',
-        'litigate'
-      ],
-      'orig' => 'taxASam',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'n_ha.sim' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'in_ha.sam',
-      'form' => 'in_ha.sam',
-      'lines' => [
-        ';; AinoxaSam_1',
-        'AinoxaSam       PV_intr be deducted;be subtracted',
-        'noxaSim IV_intr be deducted;be subtracted'
-      ],
-      'patterns' => {
-        'n_ha.sim' => [
-          'NFaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'InFaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'be deducted',
-        'be subtracted'
-      ],
-      'orig' => 'AinoxaSam',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hta.sim' => {
-          'IV' => 1
-        }
-      },
-      'entry' => 'i_hta.sam',
-      'form' => 'i_hta.sam',
-      'lines' => [
-        ';; AixotaSam_1',
-        'AixotaSam       PV      quarrel;conflict',
-        'xotaSim IV      quarrel;conflict'
-      ],
-      'patterns' => {
-        '_hta.sim' => [
-          'FtaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFtaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'quarrel',
-        'conflict'
-      ],
-      'orig' => 'AixotaSam',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hu.suwm' => {
-          'N' => 1
-        },
-        '\'a_h.sAm' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_ha.sm',
-      'form' => '_ha.sm',
-      'lines' => [
-        ';; xaSom_1',
-        'xaSom   Ndu     adversary',
-        'xuSuwm  N       adversaries',
-        'OaxoSAm N       adversaries'
-      ],
-      'patterns' => {
-        '_hu.suwm' => [
-          'FuCUL'
-        ],
-        '\'a_h.sAm' => [
-          'HaFCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'adversary',
-        'adversaries'
-      ],
-      'orig' => 'xaSom',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hu.suwm' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_ha.sm',
-      'form' => '_ha.sm',
-      'lines' => [
-        ';; xaSom_2',
-        'xaSom   N       deduction;subtraction',
-        'xuSuwm  N       liabilities'
-      ],
-      'patterns' => {
-        '_hu.suwm' => [
-          'FuCUL'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'deduction',
-        'subtraction',
-        'liabilities'
-      ],
-      'orig' => 'xaSom',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hu.smAn' => {
-          'N' => 1
-        },
-        '_hu.samA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => '_ha.siym',
-      'form' => '_ha.siym',
-      'lines' => [
-        ';; xaSiym_1',
-        'xaSiym  Ndu     adversary',
-        'xuSamA\' N0_Nh   adversaries',
-        'xuSamAW Nh      adversaries',
-        'xuSamA} Nhy     adversaries',
-        'xuSomAn N       adversaries'
-      ],
-      'patterns' => {
-        '_hu.smAn' => [
-          'FuCLAn'
-        ],
-        '_hu.samA\'' => [
-          'FuCaLA\''
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL',
-      'suffix' => '',
-      'glosses' => [
-        'adversary',
-        'adversaries'
-      ],
-      'orig' => 'xaSiym',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hu.suwm',
-      'form' => '_hu.suwmaT',
-      'lines' => [
-        ';; xuSuwmap_1',
-        'xuSuwm  Nap     quarrel;lawsuit'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCUL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'quarrel',
-        'lawsuit'
-      ],
-      'orig' => 'xuSuwmap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_hA.sam',
-      'form' => 'mu_hA.samaT',
-      'lines' => [
-        ';; muxASamap_1',
-        'muxASam NapAt   dispute;lawsuit'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFACaL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'dispute',
-        'lawsuit'
-      ],
-      'orig' => 'muxASamap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'i_hti.sAm' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'i_hti.sAm',
-      'form' => 'i_hti.sAm',
-      'lines' => [
-        ';; AixotiSAm_1',
-        'AixotiSAm       NduAt   conflict;contradiction'
-      ],
-      'patterns' => {
-        'i_hti.sAm' => [
-          'IFtiCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFtiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'conflict',
-        'contradiction'
-      ],
-      'orig' => 'AixotiSAm',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_hA.sim',
-      'form' => 'mu_hA.sim',
-      'lines' => [
-        ';; muxASim_1',
-        'muxASim Nall    litigant;adversary'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFACiL',
-      'suffix' => '',
-      'glosses' => [
-        'litigant',
-        'adversary'
-      ],
-      'orig' => 'muxASim',
-      'prefix' => ''
-    }
-  ],
-  '_h .s .s' => [
-    {
-      'types' => {
-        '_ha.sa.s' => {
-          'PV_C' => 1
-        },
-        '_h.su.s' => {
-          'IV_C' => 1
-        },
-        '_hu.s.s' => {
-          'IV_V' => 1
-        }
-      },
-      'entry' => '_ha.s.s',
-      'form' => '_ha.s.s',
-      'lines' => [
-        ';; xaS~-u_1',
-        'xaS~    PV_V    concern;stipulate;confer',
-        'xaSaS   PV_C    concern;stipulate;confer',
-        'xuS~    IV_V    concern;stipulate;confer',
-        'xoSuS   IV_C    concern;stipulate;confer'
-      ],
-      'patterns' => {
-        '_ha.sa.s' => [
-          'FaCaL'
-        ],
-        '_hu.s.s' => [
-          'FuCL'
-        ],
-        '_h.su.s' => [
-          'FCuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCL',
-      'glosses' => [
-        'concern',
-        'stipulate',
-        'confer'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'xaS~-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_ha.s.si.s' => {
-          'IV_yu' => 1
-        },
-        '_hu.s.si.s' => {
-          'PV_Pass' => 1
-        }
-      },
-      'entry' => '_ha.s.sa.s',
-      'form' => '_ha.s.sa.s',
-      'lines' => [
-        ';; xaS~aS_1',
-        'xaS~aS  PV      specify;designate;allocate',
-        'xaS~iS  IV_yu   specify;designate;allocate',
-        'xuS~iS  PV_Pass be specified;be designated;be allocated',
-        'xaS~aS  IV_Pass_yu      be specified;be designated;be allocated'
-      ],
-      'patterns' => {
-        '_ha.s.si.s' => [
-          'FaCCiL'
-        ],
-        '_hu.s.si.s' => [
-          'FuCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'specify',
-        'designate',
-        'allocate',
-        'be specified',
-        'be designated',
-        'be allocated'
-      ],
-      'orig' => 'xaS~aS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_ha.s.sa.s',
-      'form' => 'ta_ha.s.sa.s',
-      'lines' => [
-        ';; taxaS~aS_1',
-        'taxaS~aS        PV      specialize;be designated;be allocated',
-        'taxaS~aS        IV      specialize;be designated;be allocated'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'specialize',
-        'be designated',
-        'be allocated'
-      ],
-      'orig' => 'taxaS~aS',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hta.s.s' => {
-          'IV_V' => 1
-        },
-        'i_hta.sa.s' => {
-          'PV_C' => 1
-        },
-        '_hta.si.s' => {
-          'IV_C' => 1
-        }
-      },
-      'entry' => 'i_hta.s.s',
-      'form' => 'i_hta.s.s',
-      'lines' => [
-        ';; AixotaS~_1',
-        'AixotaS~        PV_V    dedicate;be distinguished',
-        'AixotaSaS       PV_C    dedicate;be distinguished',
-        'xotaS~  IV_V    dedicate;be distinguished',
-        'xotaSiS IV_C    dedicate;be distinguished'
-      ],
-      'patterns' => {
-        'i_hta.sa.s' => [
-          'IFtaCaL'
-        ],
-        '_hta.s.s' => [
-          'FtaCL'
-        ],
-        '_hta.si.s' => [
-          'FtaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFtaCL',
-      'suffix' => '',
-      'glosses' => [
-        'dedicate',
-        'be distinguished'
-      ],
-      'orig' => 'AixotaS~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha.s.s',
-      'form' => '_ha.s.s',
-      'lines' => [
-        ';; xaS~_1',
-        'xaS~    N       lettuce'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'lettuce'
-      ],
-      'orig' => 'xaS~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'a_h.sA.s' => {
-          'N' => 1
-        },
-        '_hi.sA.s' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_hu.s.s',
-      'form' => '_hu.s.s',
-      'lines' => [
-        ';; xuS~_1',
-        'xuS~    Ndu     shack;shanty',
-        'xiSAS   N       shacks;shanties',
-        'OaxoSAS N       shacks;shanties'
-      ],
-      'patterns' => {
-        '\'a_h.sA.s' => [
-          'HaFCAL'
-        ],
-        '_hi.sA.s' => [
-          'FiCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL',
-      'suffix' => '',
-      'glosses' => [
-        'shack',
-        'shanty',
-        'shacks',
-        'shanties'
-      ],
-      'orig' => 'xuS~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha.sA.s',
-      'form' => '_ha.sA.s',
-      'lines' => [
-        ';; xaSAS_1',
-        'xaSAS   Ndu     crevice;gap',
-        'xaSAS   Nap     crevice;gap'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCAL',
-      'suffix' => '',
-      'glosses' => [
-        'crevice',
-        'gap'
-      ],
-      'orig' => 'xaSAS',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'a_hi.s.sA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => '_ha.siy.s',
-      'form' => '_ha.siy.s',
-      'lines' => [
-        ';; xaSiyS_1',
-        'xaSiyS  N       friend;confidant',
-        'OaxiS~A\'        N0_Nh   friends;confidants',
-        'OaxiS~AW        Nh      friends;confidants',
-        'OaxiS~A}        Nhy     friends;confidants'
-      ],
-      'patterns' => {
-        '\'a_hi.s.sA\'' => [
-          'HaFiCLA\''
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL',
-      'suffix' => '',
-      'glosses' => [
-        'friend',
-        'confidant',
-        'friends',
-        'confidants'
-      ],
-      'orig' => 'xaSiyS',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_ha.sA\'i.s' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_ha.siy.s',
-      'form' => '_ha.siy.saT',
-      'lines' => [
-        ';; xaSiySap_1',
-        'xaSiyS  Napdu   peculiarity;feature',
-        'xaSA}iS Ndip    attributes;features'
-      ],
-      'patterns' => {
-        '_ha.sA\'i.s' => [
-          'FaCA\'iL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'peculiarity',
-        'feature',
-        'attributes',
-        'features'
-      ],
-      'orig' => 'xaSiySap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hi.s.siy.s',
-      'form' => '_hi.s.siy.s',
-      'lines' => [
-        ';; xiS~iyS_1',
-        'xiS~iyS NF      especially;specifically     [[xiS~iyS/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adv',
-      'morphs' => 'FiCCIL',
-      'suffix' => '',
-      'glosses' => [
-        'especially',
-        'specifically'
-      ],
-      'orig' => 'xiS~iyS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hu.suw.s',
-      'form' => '_hu.suw.s',
-      'lines' => [
-        ';; xuSuwS_1',
-        'xuSuwS  N       matter;issue;regard;respect',
-        'xuSuwS  NF      especially;in particular     [[xuSuwS/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adv',
-      'morphs' => 'FuCUL',
-      'suffix' => '',
-      'glosses' => [
-        'matter',
-        'issue',
-        'regard',
-        'respect',
-        'especially',
-        'in particular'
-      ],
-      'orig' => 'xuSuwS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hu.suw.s',
-      'form' => '_hu.suw.siyy',
-      'lines' => [
-        ';; xuSuwSiy~_1',
-        'xuSuwSiy~       Nall    private;personal;special     [[xuSuwSiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FuCUL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'private',
-        'personal',
-        'special'
-      ],
-      'orig' => 'xuSuwSiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha.sA.s',
-      'form' => '_ha.sA.saT',
-      'lines' => [
-        ';; xaSASap_1',
-        'xaSAS   Nap     poverty;destitution'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'poverty',
-        'destitution'
-      ],
-      'orig' => 'xaSASap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'a_ha.s.s',
-      'form' => '\'a_ha.s.s',
-      'lines' => [
-        ';; OaxaS~_1',
-        'OaxaS~  Nel     more specific'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HaFaCL',
-      'suffix' => '',
-      'glosses' => [
-        'more specific'
-      ],
-      'orig' => 'OaxaS~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta_h.siy.s' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'ta_h.siy.s',
-      'form' => 'ta_h.siy.s',
-      'lines' => [
-        ';; taxoSiyS_1',
-        'taxoSiyS        NduAt   designation;allocation;apportionment'
-      ],
-      'patterns' => {
-        'ta_h.siy.s' => [
-          'TaFCIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaFCIL',
-      'suffix' => '',
-      'glosses' => [
-        'designation',
-        'allocation',
-        'apportionment'
-      ],
-      'orig' => 'taxoSiyS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'a_hi.s.sA\'',
-      'form' => '\'a_hi.s.sA\'iyy',
-      'lines' => [
-        ';; OaxiS~A}iy~_1',
-        'OaxiS~A}iy~     Nall    specialist;expert     [[OaxiS~A}iy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'HaFiCLA\' |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'specialist',
-        'expert'
-      ],
-      'orig' => 'OaxiS~A}iy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta_ha.s.su.s' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'ta_ha.s.su.s',
-      'form' => 'ta_ha.s.su.s',
-      'lines' => [
-        ';; taxaS~uS_1',
-        'taxaS~uS        NduAt   specialization;major field'
-      ],
-      'patterns' => {
-        'ta_ha.s.su.s' => [
-          'TaFaCCuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaFaCCuL',
-      'suffix' => '',
-      'glosses' => [
-        'specialization',
-        'major field'
-      ],
-      'orig' => 'taxaS~uS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_ha.s.su.s',
-      'form' => 'ta_ha.s.su.siyy',
-      'lines' => [
-        ';; taxaS~uSiy~_1',
-        'taxaS~uSiy~     Nall    specialized     [[taxaS~uSiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'TaFaCCuL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'specialized'
-      ],
-      'orig' => 'taxaS~uSiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'i_hti.sA.s' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'i_hti.sA.s',
-      'form' => 'i_hti.sA.s',
-      'lines' => [
-        ';; AixotiSAS_1',
-        'AixotiSAS       NduAt   jurisdiction;bailiwick'
-      ],
-      'patterns' => {
-        'i_hti.sA.s' => [
-          'IFtiCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFtiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'jurisdiction',
-        'bailiwick'
-      ],
-      'orig' => 'AixotiSAS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'i_hti.sA.s',
-      'form' => 'i_hti.sA.siyy',
-      'lines' => [
-        ';; AixotiSASiy~_1',
-        'AixotiSASiy~    Nall    specialist     [[AixotiSASiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'IFtiCAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'specialist'
-      ],
-      'orig' => 'AixotiSASiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hA.s.s',
-      'form' => '_hA.s.s',
-      'lines' => [
-        ';; xAS~_1',
-        'xAS~    Nall    special;specific     [[xAS~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACL',
-      'suffix' => '',
-      'glosses' => [
-        'special',
-        'specific'
-      ],
-      'orig' => 'xAS~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hA.s.s',
-      'form' => '_hA.s.s',
-      'lines' => [
-        ';; xAS~_2',
-        'xAS~    Nall    private;exclusive     [[xAS~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'FACL',
-      'suffix' => '',
-      'glosses' => [
-        'private',
-        'exclusive'
-      ],
-      'orig' => 'xAS~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hA.s',
-      'form' => '_hA.saTaN',
-      'lines' => [
-        ';; xASapF_1',
-        'xASapF  FW-Wa   especially;particularly    [[xASapF/ADV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adv',
-      'morphs' => 'FAL |< aT |< aN',
-      'suffix' => ' |< aT |< aN',
-      'glosses' => [
-        'especially',
-        'particularly'
-      ],
-      'orig' => 'xASapF',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'bi_hA.s.saT' => {
-          'FW-Wa' => 1
-        }
-      },
-      'entry' => '_hA.s.s',
-      'form' => '_hA.s.saT',
-      'lines' => [
-        ';; xAS~ap_1',
-        'xAS~    Nap     elite',
-        'bixAS~ap        FW-Wa   especially     [[bixAS~ap/ADV]]'
-      ],
-      'patterns' => {
-        'bi_hA.s.saT' => []
-      },
-      'index' => '1',
-      'entity' => 'adv',
-      'morphs' => 'FACL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'elite',
-        'especially'
-      ],
-      'orig' => 'xAS~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hA.s.s',
-      'form' => '_hA.s.siyyaT',
-      'lines' => [
-        ';; xAS~iy~ap_1',
-        'xAS~iy~ NapAt   specialty;peculiarity     [[xAS~iy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACL |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'specialty',
-        'peculiarity'
-      ],
-      'orig' => 'xAS~iy~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ma_h.suw.s',
-      'form' => 'ma_h.suw.s',
-      'lines' => [
-        ';; maxoSuwS_1',
-        'maxoSuwS        Nall    special;secret'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MaFCUL',
-      'suffix' => '',
-      'glosses' => [
-        'special',
-        'secret'
-      ],
-      'orig' => 'maxoSuwS',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'mu_ha.s.sa.s' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'mu_ha.s.sa.s',
-      'form' => 'mu_ha.s.sa.s',
-      'lines' => [
-        ';; muxaS~aS_1',
-        'muxaS~aS        Nall    designated;allocated     [[muxaS~aS/ADJ]]',
-        'muxaS~aS        NAt     allocations;credits;coupons'
-      ],
-      'patterns' => {
-        'mu_ha.s.sa.s' => [
-          'MuFaCCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'designated',
-        'allocated',
-        'allocations',
-        'credits',
-        'coupons'
-      ],
-      'orig' => 'muxaS~aS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'muta_ha.s.si.s',
-      'form' => 'muta_ha.s.si.s',
-      'lines' => [
-        ';; mutaxaS~iS_1',
-        'mutaxaS~iS      Nall    specialized;specialist     [[mutaxaS~iS/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MutaFaCCiL',
-      'suffix' => '',
-      'glosses' => [
-        'specialized',
-        'specialist'
-      ],
-      'orig' => 'mutaxaS~iS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_hta.s.s',
-      'form' => 'mu_hta.s.s',
-      'lines' => [
-        ';; muxotaS~_1',
-        'muxotaS~        Nall    responsible;competent'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFtaCL',
-      'suffix' => '',
-      'glosses' => [
-        'responsible',
-        'competent'
-      ],
-      'orig' => 'muxotaS~',
-      'prefix' => ''
-    }
-  ],
-  '_h \' l' => [
-    {
-      'types' => {},
-      'entry' => '_hu\'uwl',
-      'form' => '_hu\'uwlaT',
-      'lines' => [
-        ';; xuWuwlap_1',
-        'xuWuwl  Nap     maternal uncle relationship'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCUL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'maternal uncle relationship'
-      ],
-      'orig' => 'xuWuwlap',
-      'prefix' => ''
-    }
-  ],
-  '_h d d' => [
-    {
-      'types' => {
-        '_hudd' => {
-          'IV_V' => 1
-        },
-        '_hdud' => {
-          'IV_C' => 1
-        },
-        '_hadad' => {
-          'PV_C' => 1
-        }
-      },
-      'entry' => '_hadd',
-      'form' => '_hadd',
-      'lines' => [
-        ';; xad~-u_1',
-        'xad~    PV_V    furrow;plow',
-        'xadad   PV_C    furrow;plow',
-        'xud~    IV_V    furrow;plow',
-        'xodud   IV_C    furrow;plow'
-      ],
-      'patterns' => {
-        '_hudd' => [
-          'FuCL'
-        ],
-        '_hadad' => [
-          'FaCaL'
-        ],
-        '_hdud' => [
-          'FCuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCL',
-      'glosses' => [
-        'furrow',
-        'plow'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'xad~-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_haddad',
-      'form' => 'ta_haddad',
-      'lines' => [
-        ';; taxad~ad_1',
-        'taxad~ad        PV_intr be furrowed;become wrinkled',
-        'taxad~ad        IV_intr be furrowed;become wrinkled'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'be furrowed',
-        'become wrinkled'
-      ],
-      'orig' => 'taxad~ad',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_huduwd' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_hadd',
-      'form' => '_hadd',
-      'lines' => [
-        ';; xad~_1',
-        'xad~    Ndu     cheek;side;furrow',
-        'xuduwd  N       cheeks;side'
-      ],
-      'patterns' => {
-        '_huduwd' => [
-          'FuCUL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'cheek',
-        'side',
-        'furrow',
-        'cheeks'
-      ],
-      'orig' => 'xad~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hudd',
-      'form' => '_huddaT',
-      'lines' => [
-        ';; xud~ap_1',
-        'xud~    Napdu   furrow;groove'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'furrow',
-        'groove'
-      ],
-      'orig' => 'xud~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'a_hAdiyd' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '\'u_hduwd',
-      'form' => '\'u_hduwd',
-      'lines' => [
-        ';; Ouxoduwd_1',
-        'Ouxoduwd        Ndu     slot;groove;furrow',
-        'OaxAdiyd        Ndip    slots;grooves;furrows'
-      ],
-      'patterns' => {
-        '\'a_hAdiyd' => [
-          'HaFACIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HuFCUL',
-      'suffix' => '',
-      'glosses' => [
-        'slot',
-        'groove',
-        'furrow',
-        'slots',
-        'grooves',
-        'furrows'
-      ],
-      'orig' => 'Ouxoduwd',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mi_hadd',
-      'form' => 'mi_haddaT',
-      'lines' => [
-        ';; mixad~ap_1',
-        'mixad~  Napdu   cushion;pillow'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MiFaCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'cushion',
-        'pillow'
-      ],
-      'orig' => 'mixad~ap',
-      'prefix' => ''
-    }
-  ],
-  '_h y d `' => [
-    {
-      'types' => {},
-      'entry' => '_hayda`',
-      'form' => '_hayda`',
-      'lines' => [
-        ';; xayodaE_1',
-        'xayodaE Ndu     mirage'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'mirage'
-      ],
-      'orig' => 'xayodaE',
-      'prefix' => ''
-    }
-  ],
-  '_h r d l' => [
-    {
-      'types' => {},
-      'entry' => '_hardal',
-      'form' => '_hardal',
-      'lines' => [
-        ';; xarodal_1',
-        'xarodal N       mustard'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'mustard'
-      ],
-      'orig' => 'xarodal',
-      'prefix' => ''
-    }
-  ],
-  '_hawwIf' => [
-    {
-      'types' => {},
-      'entry' => '_hawwiyf',
-      'form' => '_hawwiyf',
-      'lines' => [
-        ';; xaw~iyf_1',
-        'xaw~iyf N       fearful;coward'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'fearful',
-        'coward'
-      ],
-      'orig' => 'xaw~iyf',
-      'prefix' => ''
-    }
-  ],
-  '_h ^s t' => [
-    {
-      'types' => {
-        '_hu^suwt' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_hu^st',
-      'form' => '_hu^st',
-      'lines' => [
-        ';; xu$ot_1',
-        'xu$ot   Ndu     javelin',
-        'xu$uwt  N       javelins'
-      ],
-      'patterns' => {
-        '_hu^suwt' => [
-          'FuCUL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL',
-      'suffix' => '',
-      'glosses' => [
-        'javelin',
-        'javelins'
-      ],
-      'orig' => 'xu$ot',
-      'prefix' => ''
-    }
-  ],
-  '_h r .t n' => [
-    {
-      'types' => {},
-      'entry' => '_harA.tiyn',
-      'form' => '_harA.tiyn',
-      'lines' => [
-        ';; xarATiyn_1',
-        'xarATiyn        Ndip    earthworms'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRADIS',
-      'suffix' => '',
-      'glosses' => [
-        'earthworms'
-      ],
-      'orig' => 'xarATiyn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_harA.tiyn',
-      'form' => '_harA.tiyniyy',
-      'lines' => [
-        ';; xarATiyniy~_1',
-        'xarATiyniy~     Nall    wormlike;vermiform     [[xarATiyniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KaRADIS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'wormlike',
-        'vermiform'
-      ],
-      'orig' => 'xarATiyniy~',
-      'prefix' => ''
-    }
-  ],
-  '_h w l t' => [
-    {
-      'types' => {},
-      'entry' => '_huwliyt',
-      'form' => '_huwliyt',
-      'lines' => [
-        ';; xuwliyt_1',
-        'xuwliyt Nprop   Hoeliet'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDIS',
-      'suffix' => '',
-      'glosses' => [
-        'Hoeliet'
-      ],
-      'orig' => 'xuwliyt',
-      'prefix' => ''
-    }
-  ],
-  '_h d ^s' => [
-    {
-      'types' => {
-        '_hdi^s' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_hada^s',
-      'form' => '_hada^s',
-      'lines' => [
-        ';; xada$-i_1',
-        'xada$   PV      scratch;offend;ruin',
-        'xodi$   IV      scratch;offend;ruin'
-      ],
-      'patterns' => {
-        '_hdi^s' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'scratch',
-        'offend',
-        'ruin'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xada$-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_haddi^s' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_hadda^s',
-      'form' => '_hadda^s',
-      'lines' => [
-        ';; xad~a$_1',
-        'xad~a$  PV      scratch;offend;ruin',
-        'xad~i$  IV_yu   scratch;offend;ruin'
-      ],
-      'patterns' => {
-        '_haddi^s' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'scratch',
-        'offend',
-        'ruin'
-      ],
-      'orig' => 'xad~a$',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_hadda^s',
-      'form' => 'ta_hadda^s',
-      'lines' => [
-        ';; taxad~a$_1',
-        'taxad~a$        PV_intr be scratched;be offended;be ruined',
-        'taxad~a$        IV_intr be scratched;be offended;be ruined'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'be scratched',
-        'be offended',
-        'be ruined'
-      ],
-      'orig' => 'taxad~a$',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'n_hadi^s' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'in_hada^s',
-      'form' => 'in_hada^s',
-      'lines' => [
-        ';; Ainoxada$_1',
-        'Ainoxada$       PV_intr be scratched;be offended;be ruined',
-        'noxadi$ IV_intr be scratched;be offended;be ruined'
-      ],
-      'patterns' => {
-        'n_hadi^s' => [
-          'NFaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'InFaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'be scratched',
-        'be offended',
-        'be ruined'
-      ],
-      'orig' => 'Ainoxada$',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_huduw^s' => {
-          'N' => 1
-        },
-        '\'a_hdA^s' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_had^s',
-      'form' => '_had^s',
-      'lines' => [
-        ';; xado$_1',
-        'xado$   N       scratch;abrasion',
-        'xuduw$  N       scratch;abrasion',
-        'OaxodA$ N       scratches;abrasions'
-      ],
-      'patterns' => {
-        '_huduw^s' => [
-          'FuCUL'
-        ],
-        '\'a_hdA^s' => [
-          'HaFCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'scratch',
-        'abrasion',
-        'scratches',
-        'abrasions'
-      ],
-      'orig' => 'xado$',
-      'prefix' => ''
-    }
-  ],
-  '_h r f' => [
-    {
-      'types' => {
-        '_hraf' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => '_harif',
-      'form' => '_harif',
-      'lines' => [
-        ';; xarif-a_1',
-        'xarif   PV_intr be senile;drivel',
-        'xoraf   IV_intr be senile;drivel'
-      ],
-      'patterns' => {
-        '_hraf' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCiL',
-      'glosses' => [
-        'be senile',
-        'drivel'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'xarif-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_harrif' => {
-          'IV_intr_yu' => 1
-        }
-      },
-      'entry' => '_harraf',
-      'form' => '_harraf',
-      'lines' => [
-        ';; xar~af_1',
-        'xar~af  PV_intr be senile;drivel',
-        'xar~if  IV_intr_yu      be senile;drivel'
-      ],
-      'patterns' => {
-        '_harrif' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'be senile',
-        'drivel'
-      ],
-      'orig' => 'xar~af',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_haraf',
-      'form' => '_haraf',
-      'lines' => [
-        ';; xaraf_1',
-        'xaraf   N       senility'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'senility'
-      ],
-      'orig' => 'xaraf',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_harfAn',
-      'form' => '_harfAn',
-      'lines' => [
-        ';; xarofAn_1',
-        'xarofAn N       senile'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCLAn',
-      'suffix' => '',
-      'glosses' => [
-        'senile'
-      ],
-      'orig' => 'xarofAn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hariyf',
-      'form' => '_hariyf',
-      'lines' => [
-        ';; xariyf_1',
-        'xariyf  N       autumn;fall'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL',
-      'suffix' => '',
-      'glosses' => [
-        'autumn',
-        'fall'
-      ],
-      'orig' => 'xariyf',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hariyf',
-      'form' => '_hariyfiyy',
-      'lines' => [
-        ';; xariyfiy~_1',
-        'xariyfiy~       N-ap    autumnal;fall     [[xariyfiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCIL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'autumnal',
-        'fall'
-      ],
-      'orig' => 'xariyfiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'a_hrif' => {
-          'Nap' => 1
-        },
-        '_hirAf' => {
-          'N' => 1
-        },
-        '_hirfAn' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_haruwf',
-      'form' => '_haruwf',
-      'lines' => [
-        ';; xaruwf_1',
-        'xaruwf  Ndu     sheep;lamb',
-        'xirAf   N       sheep',
-        'Oaxorif Nap     sheep',
-        'xirofAn N       sheep'
-      ],
-      'patterns' => {
-        '_hirAf' => [
-          'FiCAL'
-        ],
-        '\'a_hrif' => [
-          'HaFCiL'
-        ],
-        '_hirfAn' => [
-          'FiCLAn'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCUL',
-      'suffix' => '',
-      'glosses' => [
-        'sheep',
-        'lamb'
-      ],
-      'orig' => 'xaruwf',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hurAf',
-      'form' => '_hurAfaT',
-      'lines' => [
-        ';; xurAfap_1',
-        'xurAf   NapAt   superstition;fairy tale'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'superstition',
-        'fairy tale'
-      ],
-      'orig' => 'xurAfap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hurAf',
-      'form' => '_hurAfiyy',
-      'lines' => [
-        ';; xurAfiy~_1',
-        'xurAfiy~        Nall    fictitious;legendary     [[xurAfiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FuCAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'fictitious',
-        'legendary'
-      ],
-      'orig' => 'xurAfiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ma_hraf',
-      'form' => 'ma_hrafaT',
-      'lines' => [
-        ';; maxorafap_1',
-        'maxoraf NapAt   prattle;drivel'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MaFCaL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'prattle',
-        'drivel'
-      ],
-      'orig' => 'maxorafap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta_hriyf' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'ta_hriyf',
-      'form' => 'ta_hriyf',
-      'lines' => [
-        ';; taxoriyf_1',
-        'taxoriyf        NduAt   delusion;drivel'
-      ],
-      'patterns' => {
-        'ta_hriyf' => [
-          'TaFCIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaFCIL',
-      'suffix' => '',
-      'glosses' => [
-        'delusion',
-        'drivel'
-      ],
-      'orig' => 'taxoriyf',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_harrif',
-      'form' => 'mu_harrif',
-      'lines' => [
-        ';; muxar~if_1',
-        'muxar~if        Nall    senile;charlatan'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFaCCiL',
-      'suffix' => '',
-      'glosses' => [
-        'senile',
-        'charlatan'
-      ],
-      'orig' => 'muxar~if',
-      'prefix' => ''
-    }
-  ],
-  '_h f q' => [
-    {
-      'types' => {
-        '_hfuq' => {
-          'IV' => 1
-        },
-        '_hfiq' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_hafaq',
-      'form' => '_hafaq',
-      'lines' => [
-        ';; xafaq-iu_1',
-        'xafaq   PV      tremble;beat',
-        'xofiq   IV      tremble;beat',
-        'xofuq   IV      tremble;beat'
-      ],
-      'patterns' => {
-        '_hfuq' => [
-          'FCuL'
-        ],
-        '_hfiq' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'tremble',
-        'beat'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL',
-        'FCuL'
-      ],
-      'orig' => 'xafaq-iu',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_haffiq' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_haffaq',
-      'form' => '_haffaq',
-      'lines' => [
-        ';; xaf~aq_1',
-        'xaf~aq  PV      plaster;roughcast',
-        'xaf~iq  IV_yu   plaster;roughcast'
-      ],
-      'patterns' => {
-        '_haffiq' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'plaster',
-        'roughcast'
-      ],
-      'orig' => 'xaf~aq',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hfiq' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '\'a_hfaq',
-      'form' => '\'a_hfaq',
-      'lines' => [
-        ';; Oaxofaq_1',
-        'Oaxofaq PV      fail;go down',
-        'xofiq   IV_yu   fail;go down'
-      ],
-      'patterns' => {
-        '_hfiq' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'fail',
-        'go down'
-      ],
-      'orig' => 'Oaxofaq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hafq',
-      'form' => '_hafq',
-      'lines' => [
-        ';; xafoq_1',
-        'xafoq   N       palpitation;beating'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'palpitation',
-        'beating'
-      ],
-      'orig' => 'xafoq',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hafaq' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => '_hafq',
-      'form' => '_hafqaT',
-      'lines' => [
-        ';; xafoqap_1',
-        'xafoq   Napdu   beat;tick',
-        'xafaq   NAt     beats;ticks;beating;ticking'
-      ],
-      'patterns' => {
-        '_hafaq' => [
-          'FaCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'beat',
-        'tick',
-        'beats',
-        'ticks',
-        'beating',
-        'ticking'
-      ],
-      'orig' => 'xafoqap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hafaqAn',
-      'form' => '_hafaqAn',
-      'lines' => [
-        ';; xafaqAn_1',
-        'xafaqAn N       palpitation;flutter'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCaLAn',
-      'suffix' => '',
-      'glosses' => [
-        'palpitation',
-        'flutter'
-      ],
-      'orig' => 'xafaqAn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_haffAq',
-      'form' => '_haffAq',
-      'lines' => [
-        ';; xaf~Aq_1',
-        'xaf~Aq  N/ap    throbbing;fluttering     [[xaf~Aq/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCCAL',
-      'suffix' => '',
-      'glosses' => [
-        'throbbing',
-        'fluttering'
-      ],
-      'orig' => 'xaf~Aq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mi_hfaq',
-      'form' => 'mi_hfaqaT',
-      'lines' => [
-        ';; mixofaqap_1',
-        'mixofaq NapAt   eggbeater;whisk'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MiFCaL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'eggbeater',
-        'whisk'
-      ],
-      'orig' => 'mixofaqap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'i_hfAq' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => '\'i_hfAq',
-      'form' => '\'i_hfAq',
-      'lines' => [
-        ';; IixofAq_1',
-        'IixofAq NduAt   failure;fiasco'
-      ],
-      'patterns' => {
-        '\'i_hfAq' => [
-          'HiFCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HiFCAL',
-      'suffix' => '',
-      'glosses' => [
-        'failure',
-        'fiasco'
-      ],
-      'orig' => 'IixofAq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hAfiq',
-      'form' => '_hAfiq',
-      'lines' => [
-        ';; xAfiq_1',
-        'xAfiq   Nall    fluttering'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [
-        'fluttering'
-      ],
-      'orig' => 'xAfiq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hawAfiq',
-      'form' => '_hawAfiq',
-      'lines' => [
-        ';; xawAfiq_1',
-        'xawAfiq Ndip    cardinal points'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FawACiL',
-      'suffix' => '',
-      'glosses' => [
-        'cardinal points'
-      ],
-      'orig' => 'xawAfiq',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hAfiq' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => '_hAfiq',
-      'form' => '_hAfiqAt',
-      'lines' => [
-        ';; xAfiqAt_1',
-        'xAfiq   NAt     banners;flags'
-      ],
-      'patterns' => {
-        '_hAfiq' => [
-          'FACiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACiL |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'banners',
-        'flags'
-      ],
-      'orig' => 'xAfiqAt',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hAfiq',
-      'form' => '_hAfiqiyy',
-      'lines' => [
-        ';; xAfiqiy~_1',
-        'xAfiqiy~        N-ap    stucco;roughcast     [[xAfiqiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACiL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'stucco',
-        'roughcast'
-      ],
-      'orig' => 'xAfiqiy~',
-      'prefix' => ''
-    }
-  ],
-  '_h r b ^s' => [
-    {
-      'types' => {
-        '_harbi^s' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_harba^s',
-      'form' => '_harba^s',
-      'lines' => [
-        ';; xaroba$_1',
-        'xaroba$ PV      scratch;scribble',
-        'xarobi$ IV_yu   scratch;scribble'
-      ],
-      'patterns' => {
-        '_harbi^s' => [
-          'KaRDiS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'KaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'scratch',
-        'scribble'
-      ],
-      'orig' => 'xaroba$',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_harAbiy^s' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_harbuw^s',
-      'form' => '_harbuw^s',
-      'lines' => [
-        ';; xarobuw$_1',
-        'xarobuw$        Ndu     tent',
-        'xarAbiy$        Ndip    tents'
-      ],
-      'patterns' => {
-        '_harAbiy^s' => [
-          'KaRADIS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDUS',
-      'suffix' => '',
-      'glosses' => [
-        'tent',
-        'tents'
-      ],
-      'orig' => 'xarobuw$',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_harba^s',
-      'form' => 'mu_harba^s',
-      'lines' => [
-        ';; muxaroba$_1',
-        'muxaroba$       N/ap    scribbled;graffiti'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuKaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'scribbled',
-        'graffiti'
-      ],
-      'orig' => 'muxaroba$',
-      'prefix' => ''
-    }
-  ],
-  '_h d `' => [
-    {
-      'types' => {
-        '_hda`' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_hada`',
-      'form' => '_hada`',
-      'lines' => [
-        ';; xadaE-a_1',
-        'xadaE   PV      deceive',
-        'xodaE   IV      deceive'
-      ],
-      'patterns' => {
-        '_hda`' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'deceive'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'xadaE-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hAdi`' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_hAda`',
-      'form' => '_hAda`',
-      'lines' => [
-        ';; xAdaE_1',
-        'xAdaE   PV      deceive',
-        'xAdiE   IV_yu   deceive'
-      ],
-      'patterns' => {
-        '_hAdi`' => [
-          'FACiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FACaL',
-      'suffix' => '',
-      'glosses' => [
-        'deceive'
-      ],
-      'orig' => 'xAdaE',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'n_hadi`' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'in_hada`',
-      'form' => 'in_hada`',
-      'lines' => [
-        ';; AinoxadaE_1',
-        'AinoxadaE       PV_intr be deceived',
-        'noxadiE IV_intr be deceived'
-      ],
-      'patterns' => {
-        'n_hadi`' => [
-          'NFaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'InFaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'be deceived'
-      ],
-      'orig' => 'AinoxadaE',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_had`',
-      'form' => '_had`',
-      'lines' => [
-        ';; xadoE_1',
-        'xadoE   N       deception'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'deception'
-      ],
-      'orig' => 'xadoE',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hud`',
-      'form' => '_hud`aT',
-      'lines' => [
-        ';; xudoEap_1',
-        'xudoE   NapAt   deception'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'deception'
-      ],
-      'orig' => 'xudoEap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hadA\'i`' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hadiy`',
-      'form' => '_hadiy`',
-      'lines' => [
-        ';; xadiyE_1',
-        'xadiyE  Nap     deception;lie',
-        'xadA}iE Ndip    deceptions'
-      ],
-      'patterns' => {
-        '_hadA\'i`' => [
-          'FaCA\'iL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL',
-      'suffix' => '',
-      'glosses' => [
-        'deception',
-        'lie',
-        'deceptions'
-      ],
-      'orig' => 'xadiyE',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_haddA`',
-      'form' => '_haddA`',
-      'lines' => [
-        ';; xad~AE_1',
-        'xad~AE  Nall    impostor;crook'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL',
-      'suffix' => '',
-      'glosses' => [
-        'impostor',
-        'crook'
-      ],
-      'orig' => 'xad~AE',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'a_hAdiy`' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '\'i_hdA`',
-      'form' => '\'i_hdA`',
-      'lines' => [
-        ';; IixodAE_1',
-        'IixodAE N       swindling;deception',
-        'OaxAdiyE        Ndip    swindles;deceptions'
-      ],
-      'patterns' => {
-        '\'a_hAdiy`' => [
-          'HaFACIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HiFCAL',
-      'suffix' => '',
-      'glosses' => [
-        'swindling',
-        'deception',
-        'swindles',
-        'deceptions'
-      ],
-      'orig' => 'IixodAE',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ma_hAdi`' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'mi_hda`',
-      'form' => 'mi_hda`',
-      'lines' => [
-        ';; mixodaE_1',
-        'mixodaE N       chamber',
-        'maxAdiE Ndip    chambers'
-      ],
-      'patterns' => {
-        'ma_hAdi`' => [
-          'MaFACiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MiFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'chamber',
-        'chambers'
-      ],
-      'orig' => 'mixodaE',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hidA`',
-      'form' => '_hidA`',
-      'lines' => [
-        ';; xidAE_1',
-        'xidAE   N       deception'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'deception'
-      ],
-      'orig' => 'xidAE',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hidA`',
-      'form' => '_hidA`iyy',
-      'lines' => [
-        ';; xidAEiy~_1',
-        'xidAEiy~        Nall    deceitful;deceptive     [[xidAEiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FiCAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'deceitful',
-        'deceptive'
-      ],
-      'orig' => 'xidAEiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hAdi`',
-      'form' => '_hAdi`',
-      'lines' => [
-        ';; xAdiE_1',
-        'xAdiE   Nall    deceitful;deceptive     [[xAdiE/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [
-        'deceitful',
-        'deceptive'
-      ],
-      'orig' => 'xAdiE',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_hAdi`',
-      'form' => 'mu_hAdi`',
-      'lines' => [
-        ';; muxAdiE_1',
-        'muxAdiE Nall    swindler;crook'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFACiL',
-      'suffix' => '',
-      'glosses' => [
-        'swindler',
-        'crook'
-      ],
-      'orig' => 'muxAdiE',
-      'prefix' => ''
-    }
-  ],
-  '_h .s \'' => [
-    {
-      'types' => {},
-      'entry' => '\'i_h.sA\'',
-      'form' => '\'i_h.sA\'iyy',
-      'lines' => [
-        ';; IixoSA}iy~_1',
-        'IixoSA}iy~      Nall    specialist;expert     [[IixoSA}iy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'HiFCAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'specialist',
-        'expert'
-      ],
-      'orig' => 'IixoSA}iy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hi.sA\'',
-      'form' => '_hi.sA\'',
-      'lines' => [
-        ';; xiSA\'_1',
-        'xiSA\'   N0_Nh   castration',
-        'xiSAW   Nh      castration',
-        'xiSA}   Nhy     castration'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'castration'
-      ],
-      'orig' => 'xiSA\'',
-      'prefix' => ''
-    }
-  ],
-  '_h w n' => [
-    {
-      'types' => {
-        '_huwn' => {
-          'IV_V' => 1
-        },
-        '_hun' => {
-          'PV_Cn' => 1,
-          'IV-n' => 1
-        }
-      },
-      'entry' => '_hAn',
-      'form' => '_hAn',
-      'lines' => [
-        ';; xAn-u_1',
-        'xAn     PV_V    betray;deceive;fail',
-        'xun     PV_Cn   betray;deceive;fail',
-        'xuwn    IV_V    betray;deceive;fail',
-        'xun     IV-n    betray;deceive;fail'
-      ],
-      'patterns' => {
-        '_huwn' => [
-          'FUL'
-        ],
-        '_hun' => [
-          'FuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FAL',
-      'glosses' => [
-        'betray',
-        'deceive',
-        'fail'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'xAn-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hawwin' => {
-          'IV-n_yu' => 1
-        }
-      },
-      'entry' => '_hawwan',
-      'form' => '_hawwan',
-      'lines' => [
-        ';; xaw~an_1',
-        'xaw~an  PV-n    consider faithless;distrust;regard as unreliable',
-        'xaw~in  IV-n_yu consider faithless;distrust;regard as unreliable'
-      ],
-      'patterns' => {
-        '_hawwin' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'consider faithless',
-        'distrust',
-        'regard as unreliable'
-      ],
-      'orig' => 'xaw~an',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_hawwan',
-      'form' => 'ta_hawwan',
-      'lines' => [
-        ';; taxaw~an_1',
-        'taxaw~an        PV-n    impair;hurt;prejudice',
-        'taxaw~an        IV-n    impair;hurt;prejudice'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'impair',
-        'hurt',
-        'prejudice'
-      ],
-      'orig' => 'taxaw~an',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_htAn' => {
-          'IV_V' => 1
-        },
-        'i_htan' => {
-          'PV_Cn' => 1
-        },
-        '_htan' => {
-          'IV-n' => 1
-        }
-      },
-      'entry' => 'i_htAn',
-      'form' => 'i_htAn',
-      'lines' => [
-        ';; AixotAn_1',
-        'AixotAn PV_V    cheat;betray',
-        'Aixotan PV_Cn   cheat;betray',
-        'xotAn   IV_V    cheat;betray',
-        'xotan   IV-n    cheat;betray'
-      ],
-      'patterns' => {
-        'i_htan' => [
-          'IFtaL'
-        ],
-        '_htAn' => [
-          'FtAL'
-        ],
-        '_htan' => [
-          'FtaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFtAL',
-      'suffix' => '',
-      'glosses' => [
-        'cheat',
-        'betray'
-      ],
-      'orig' => 'AixotAn',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'sta_hwin' => {
-          'IV-n' => 1
-        }
-      },
-      'entry' => 'ista_hwan',
-      'form' => 'ista_hwan',
-      'lines' => [
-        ';; Aisotaxowan_1',
-        'Aisotaxowan     PV-n    distrust',
-        'sotaxowin       IV-n    distrust'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IstaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'distrust'
-      ],
-      'orig' => 'Aisotaxowan',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hiyAn',
-      'form' => '_hiyAnaT',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiyAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [],
-      'orig' => 'xiyAnap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hawuwn',
-      'form' => '_hawuwn',
-      'lines' => [
-        ';; xawuwn_1',
-        'xawuwn  N/ap    faithless;disloyal'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCUL',
-      'suffix' => '',
-      'glosses' => [
-        'faithless',
-        'disloyal'
-      ],
-      'orig' => 'xawuwn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hawwAn',
-      'form' => '_hawwAn',
-      'lines' => [
-        ';; xaw~An_1',
-        'xaw~An  N/ap    traitor;treacherous'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL',
-      'suffix' => '',
-      'glosses' => [
-        'traitor',
-        'treacherous'
-      ],
-      'orig' => 'xaw~An',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hawn' => {
-          'Nap' => 1
-        },
-        '_huwwAn' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_hA\'in',
-      'form' => '_hA\'in',
-      'lines' => [
-        ';; xA}in_1',
-        'xA}in   N/ap    traitor;treacherous',
-        'xuw~An  N       traitors;disloyal',
-        'xawon   Nap     traitors;disloyal'
-      ],
-      'patterns' => {
-        '_hawn' => [
-          'FaCL'
-        ],
-        '_huwwAn' => [
-          'FUCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FA\'iL',
-      'suffix' => '',
-      'glosses' => [
-        'traitor',
-        'treacherous',
-        'traitors',
-        'disloyal'
-      ],
-      'orig' => 'xA}in',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'a_hwin' => {
-          'Nap' => 1
-        },
-        '_hiwAn' => {
-          'Ndu' => 1
-        },
-        '\'a_hAwiyn' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_huwAn',
-      'form' => '_huwAn',
-      'lines' => [
-        ';; xuwAn_1',
-        'xuwAn   Ndu     table',
-        'xiwAn   Ndu     table',
-        'Oaxowin Nap     tables',
-        'OaxAwiyn        Ndip    tables'
-      ],
-      'patterns' => {
-        '\'a_hwin' => [
-          'HaFCiL'
-        ],
-        '_hiwAn' => [
-          'FiCAL'
-        ],
-        '\'a_hAwiyn' => [
-          'HaFACIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCAL',
-      'suffix' => '',
-      'glosses' => [
-        'table',
-        'tables'
-      ],
-      'orig' => 'xuwAn',
-      'prefix' => ''
-    }
-  ],
-  '_h r m ^s' => [
-    {
-      'types' => {},
-      'entry' => '_hurmA^s',
-      'form' => '_hurmA^saT',
-      'lines' => [
-        ';; xuromA$ap_1',
-        'xuromA$ NapAt   harrow'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDAS |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'harrow'
-      ],
-      'orig' => 'xuromA$ap',
-      'prefix' => ''
-    }
-  ],
-  '_h l b .s' => [
-    {
-      'types' => {},
-      'entry' => 'ta_halba.s',
-      'form' => 'ta_halba.s',
-      'lines' => [
-        ';; taxalobaS_1',
-        'taxalobaS       PV      clown',
-        'taxalobaS       IV      clown'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaKaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'clown'
-      ],
-      'orig' => 'taxalobaS',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta_halbu.s' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'ta_halbu.s',
-      'form' => 'ta_halbu.s',
-      'lines' => [
-        ';; taxalobuS_1',
-        'taxalobuS       NduAt   clowning'
-      ],
-      'patterns' => {
-        'ta_halbu.s' => [
-          'TaKaRDuS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaKaRDuS',
-      'suffix' => '',
-      'glosses' => [
-        'clowning'
-      ],
-      'orig' => 'taxalobuS',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_halAbi.s' => {
-          'Nap' => 1
-        },
-        '_halAbiy.s' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_halbuw.s',
-      'form' => '_halbuw.s',
-      'lines' => [
-        ';; xalobuwS_1',
-        'xalobuwS        Ndu     buffoon',
-        'xalAbiyS        Ndip    buffoons',
-        'xalAbiS Nap     buffoons'
-      ],
-      'patterns' => {
-        '_halAbi.s' => [
-          'KaRADiS'
-        ],
-        '_halAbiy.s' => [
-          'KaRADIS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDUS',
-      'suffix' => '',
-      'glosses' => [
-        'buffoon',
-        'buffoons'
-      ],
-      'orig' => 'xalobuwS',
-      'prefix' => ''
-    }
-  ],
-  '_h m r' => [
-    {
-      'types' => {
-        '_hmur' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_hamar',
-      'form' => '_hamar',
-      'lines' => [
-        ';; xamar-u_1',
-        'xamar   PV      cover;conceal;ferment',
-        'xomur   IV      cover;conceal;ferment'
-      ],
-      'patterns' => {
-        '_hmur' => [
-          'FCuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'cover',
-        'conceal',
-        'ferment'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'xamar-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hammir' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_hammar',
-      'form' => '_hammar',
-      'lines' => [
-        ';; xam~ar_1',
-        'xam~ar  PV      cover;conceal;ferment',
-        'xam~ir  IV_yu   cover;conceal;ferment'
-      ],
-      'patterns' => {
-        '_hammir' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'cover',
-        'conceal',
-        'ferment'
-      ],
-      'orig' => 'xam~ar',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hAmir' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_hAmar',
-      'form' => '_hAmar',
-      'lines' => [
-        ';; xAmar_1',
-        'xAmar   PV      permeate;mix',
-        'xAmir   IV_yu   permeate;mix'
-      ],
-      'patterns' => {
-        '_hAmir' => [
-          'FACiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FACaL',
-      'suffix' => '',
-      'glosses' => [
-        'permeate',
-        'mix'
-      ],
-      'orig' => 'xAmar',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hmar' => {
-          'IV_Pass_yu' => 1
-        },
-        '_hmir' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '\'a_hmar',
-      'form' => '\'a_hmar',
-      'lines' => [
-        ';; Oaxomar_1',
-        'Oaxomar PV      leaven;ferment;harbor',
-        'xomir   IV_yu   leaven;ferment;harbor',
-        'xomar   IV_Pass_yu      be fermented;be harbored'
-      ],
-      'patterns' => {
-        '_hmar' => [
-          'FCaL'
-        ],
-        '_hmir' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'leaven',
-        'ferment',
-        'harbor',
-        'be fermented',
-        'be harbored'
-      ],
-      'orig' => 'Oaxomar',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_hammar',
-      'form' => 'ta_hammar',
-      'lines' => [
-        ';; taxam~ar_1',
-        'taxam~ar        PV      ferment;veil',
-        'taxam~ar        IV      ferment;veil'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'ferment',
-        'veil'
-      ],
-      'orig' => 'taxam~ar',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_hAmar',
-      'form' => 'ta_hAmar',
-      'lines' => [
-        ';; taxAmar_1',
-        'taxAmar PV      collude;conspire',
-        'taxAmar IV      collude;conspire'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFACaL',
-      'suffix' => '',
-      'glosses' => [
-        'collude',
-        'conspire'
-      ],
-      'orig' => 'taxAmar',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_htamir' => {
-          'IV' => 1
-        }
-      },
-      'entry' => 'i_htamar',
-      'form' => 'i_htamar',
-      'lines' => [
-        ';; Aixotamar_1',
-        'Aixotamar       PV      ferment;ripen',
-        'xotamir IV      ferment;ripen'
-      ],
-      'patterns' => {
-        '_htamir' => [
-          'FtaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFtaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'ferment',
-        'ripen'
-      ],
-      'orig' => 'Aixotamar',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_humuwr' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_hamr',
-      'form' => '_hamr',
-      'lines' => [
-        ';; xamor_1',
-        'xamor   N       liquor;alcohol',
-        'xumuwr  N       liquor;alcohol'
-      ],
-      'patterns' => {
-        '_humuwr' => [
-          'FuCUL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'liquor',
-        'alcohol'
-      ],
-      'orig' => 'xamor',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hamr',
-      'form' => '_hamraT',
-      'lines' => [
-        ';; xamorap_1',
-        'xamor   Nap     wine'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'wine'
-      ],
-      'orig' => 'xamorap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hamr',
-      'form' => '_hamriyy',
-      'lines' => [
-        ';; xamoriy~_1',
-        'xamoriy~        N-ap    wine-colored     [[xamoriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'wine-colored'
-      ],
-      'orig' => 'xamoriy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hamr',
-      'form' => '_hamriyyaT',
-      'lines' => [
-        ';; xamoriy~ap_1',
-        'xamoriy~        NapAt   wine poem;bacchanalian verse     [[xamoriy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |< Iy |< aT',
-      'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'wine poem',
-        'bacchanalian verse'
-      ],
-      'orig' => 'xamoriy~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_humur' => {
-          'N' => 1
-        },
-        '\'a_hmir' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => '_himAr',
-      'form' => '_himAr',
-      'lines' => [
-        ';; ximAr_1',
-        'ximAr   Ndu     veil',
-        'Oaxomir Nap     veils',
-        'xumur   N       veils'
-      ],
-      'patterns' => {
-        '_humur' => [
-          'FuCuL'
-        ],
-        '\'a_hmir' => [
-          'HaFCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'veil',
-        'veils'
-      ],
-      'orig' => 'ximAr',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_humAr',
-      'form' => '_humAr',
-      'lines' => [
-        ';; xumAr_1',
-        'xumAr   N       hangover'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCAL',
-      'suffix' => '',
-      'glosses' => [
-        'hangover'
-      ],
-      'orig' => 'xumAr',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hamiyr',
-      'form' => '_hamiyr',
-      'lines' => [
-        ';; xamiyr_1',
-        'xamiyr  N       leavened;ripe'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL',
-      'suffix' => '',
-      'glosses' => [
-        'leavened',
-        'ripe'
-      ],
-      'orig' => 'xamiyr',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hamA\'ir' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hamiyr',
-      'form' => '_hamiyr',
-      'lines' => [
-        ';; xamiyr_2',
-        'xamiyr  Nap     enzyme;yeast',
-        'xamA}ir Ndip    enzymes;yeasts'
-      ],
-      'patterns' => {
-        '_hamA\'ir' => [
-          'FaCA\'iL'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL',
-      'suffix' => '',
-      'glosses' => [
-        'enzyme',
-        'yeast',
-        'enzymes',
-        'yeasts'
-      ],
-      'orig' => 'xamiyr',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hammAr',
-      'form' => '_hammAr',
-      'lines' => [
-        ';; xam~Ar_1',
-        'xam~Ar  Nall    wine merchant'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL',
-      'suffix' => '',
-      'glosses' => [
-        'wine merchant'
-      ],
-      'orig' => 'xam~Ar',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hammAr',
-      'form' => '_hammAraT',
-      'lines' => [
-        ';; xam~Arap_1',
-        'xam~Ar  Napdu   tavern'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'tavern'
-      ],
-      'orig' => 'xam~Arap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_himmiyr',
-      'form' => '_himmiyr',
-      'lines' => [
-        ';; xim~iyr_1',
-        'xim~iyr N/ap    drunkard;drinker'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCCIL',
-      'suffix' => '',
-      'glosses' => [
-        'drunkard',
-        'drinker'
-      ],
-      'orig' => 'xim~iyr',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta_hmiyr' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'ta_hmiyr',
-      'form' => 'ta_hmiyr',
-      'lines' => [
-        ';; taxomiyr_1',
-        'taxomiyr        NduAt   leavening;fermentation'
-      ],
-      'patterns' => {
-        'ta_hmiyr' => [
-          'TaFCIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaFCIL',
-      'suffix' => '',
-      'glosses' => [
-        'leavening',
-        'fermentation'
-      ],
-      'orig' => 'taxomiyr',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'i_htimAr' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'i_htimAr',
-      'form' => 'i_htimAr',
-      'lines' => [
-        ';; AixotimAr_1',
-        'AixotimAr       NduAt   fermentation'
-      ],
-      'patterns' => {
-        'i_htimAr' => [
-          'IFtiCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFtiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'fermentation'
-      ],
-      'orig' => 'AixotimAr',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ma_hmuwr',
-      'form' => 'ma_hmuwr',
-      'lines' => [
-        ';; maxomuwr_1',
-        'maxomuwr        Nall    drunk;intoxicated     [[maxomuwr/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MaFCUL',
-      'suffix' => '',
-      'glosses' => [
-        'drunk',
-        'intoxicated'
-      ],
-      'orig' => 'maxomuwr',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_htamir',
-      'form' => 'mu_htamir',
-      'lines' => [
-        ';; muxotamir_1',
-        'muxotamir       Nall    fermenting',
-        'muxotamir       Nall    fermented;alcoholic'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFtaCiL',
-      'suffix' => '',
-      'glosses' => [
-        'fermenting',
-        'fermented',
-        'alcoholic'
-      ],
-      'orig' => 'muxotamir',
-      'prefix' => ''
-    }
-  ],
-  '_h d m' => [
-    {
-      'types' => {
-        '_hdum' => {
-          'IV' => 1
-        },
-        '_hdim' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_hadam',
-      'form' => '_hadam',
-      'lines' => [
-        ';; xadam-iu_1',
-        'xadam   PV      serve;assist',
-        'xodim   IV      serve;assist',
-        'xodum   IV      serve;assist'
-      ],
-      'patterns' => {
-        '_hdum' => [
-          'FCuL'
-        ],
-        '_hdim' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'serve',
-        'assist'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL',
-        'FCuL'
-      ],
-      'orig' => 'xadam-iu',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_haddim' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_haddam',
-      'form' => '_haddam',
-      'lines' => [
-        ';; xad~am_1',
-        'xad~am  PV      employ;hire',
-        'xad~im  IV_yu   employ;hire'
-      ],
-      'patterns' => {
-        '_haddim' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'employ',
-        'hire'
-      ],
-      'orig' => 'xad~am',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'sta_hdam' => {
-          'IV_Pass_yu' => 1
-        },
-        'sta_hdim' => {
-          'IV' => 1
-        },
-        'ustu_hdim' => {
-          'PV_Pass' => 1
-        }
-      },
-      'entry' => 'ista_hdam',
-      'form' => 'ista_hdam',
-      'lines' => [
-        ';; Aisotaxodam_1',
-        'Aisotaxodam     PV      utilize;employ;operate',
-        'Ausotuxodim     PV_Pass be used;be utilized;be employed',
-        'sotaxodim       IV      utilize;employ;operate',
-        'sotaxodam       IV_Pass_yu      be used;be utilized;be employed'
-      ],
-      'patterns' => {
-        'ustu_hdim' => [
-          'UstuFCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IstaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'utilize',
-        'employ',
-        'operate',
-        'be used',
-        'be utilized',
-        'be employed'
-      ],
-      'orig' => 'Aisotaxodam',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hadam',
-      'form' => '_hadam',
-      'lines' => [
-        ';; xadam_1',
-        'xadam   N       servants;attendants'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'servants',
-        'attendants'
-      ],
-      'orig' => 'xadam',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hadam',
-      'form' => '_hadamiyy',
-      'lines' => [
-        ';; xadamiy~_1',
-        'xadamiy~        N-ap    service;assistance     [[xadamiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCaL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'service',
-        'assistance'
-      ],
-      'orig' => 'xadamiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hadam' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => '_hidm',
-      'form' => '_hidmaT',
-      'lines' => [
-        ';; xidomap_1',
-        'xidom   Napdu   service;assistance',
-        'xadam   NAt     services;assistance'
-      ],
-      'patterns' => {
-        '_hadam' => [
-          'FaCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'service',
-        'assistance',
-        'services'
-      ],
-      'orig' => 'xidomap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_haddAm',
-      'form' => '_haddAm',
-      'lines' => [
-        ';; xad~Am_1',
-        'xad~Am  N/ap    servant;attendant'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL',
-      'suffix' => '',
-      'glosses' => [
-        'servant',
-        'attendant'
-      ],
-      'orig' => 'xad~Am',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hadAm',
-      'form' => '_hadAmaT',
-      'lines' => [
-        ';; xadAmap_1',
-        'xadAm   Nap     service'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'service'
-      ],
-      'orig' => 'xadAmap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta_hdiym' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'ta_hdiym',
-      'form' => 'ta_hdiym',
-      'lines' => [
-        ';; taxodiym_1',
-        'taxodiym        NduAt   employment;occupation'
-      ],
-      'patterns' => {
-        'ta_hdiym' => [
-          'TaFCIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaFCIL',
-      'suffix' => '',
-      'glosses' => [
-        'employment',
-        'occupation'
-      ],
-      'orig' => 'taxodiym',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'isti_hdAm' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'isti_hdAm',
-      'form' => 'isti_hdAm',
-      'lines' => [
-        ';; AisotixodAm_1',
-        'AisotixodAm     NduAt   usage;using;utilization'
-      ],
-      'patterns' => {
-        'isti_hdAm' => [
-          'IstiFCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IstiFCAL',
-      'suffix' => '',
-      'glosses' => [
-        'usage',
-        'using',
-        'utilization'
-      ],
-      'orig' => 'AisotixodAm',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_huddAm' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_hAdim',
-      'form' => '_hAdim',
-      'lines' => [
-        ';; xAdim_1',
-        'xAdim   Nall    servant;attendant',
-        'xud~Am  N       servants;attendants'
-      ],
-      'patterns' => {
-        '_huddAm' => [
-          'FuCCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [
-        'servant',
-        'attendant',
-        'servants',
-        'attendants'
-      ],
-      'orig' => 'xAdim',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ma_hAdiym' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'ma_hduwm',
-      'form' => 'ma_hduwm',
-      'lines' => [
-        ';; maxoduwm_1',
-        'maxoduwm        Nall    employer;master',
-        'maxAdiym        Ndip    employers;masters'
-      ],
-      'patterns' => {
-        'ma_hAdiym' => [
-          'MaFACIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MaFCUL',
-      'suffix' => '',
-      'glosses' => [
-        'employer',
-        'master',
-        'employers',
-        'masters'
-      ],
-      'orig' => 'maxoduwm',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_haddim',
-      'form' => 'mu_haddim',
-      'lines' => [
-        ';; muxad~im_1',
-        'muxad~im        Nall    employment agent'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFaCCiL',
-      'suffix' => '',
-      'glosses' => [
-        'employment agent'
-      ],
-      'orig' => 'muxad~im',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'musta_hdim',
-      'form' => 'musta_hdim',
-      'lines' => [
-        ';; musotaxodim_1',
-        'musotaxodim     Nall    employer'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MustaFCiL',
-      'suffix' => '',
-      'glosses' => [
-        'employer'
-      ],
-      'orig' => 'musotaxodim',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'musta_hdam',
-      'form' => 'musta_hdam',
-      'lines' => [
-        ';; musotaxodam_1',
-        'musotaxodam     Nall    used     [[musotaxodam/ADJ]]',
-        'musotaxodam     Nall    employee'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MustaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'used',
-        'employee'
-      ],
-      'orig' => 'musotaxodam',
-      'prefix' => ''
-    }
-  ],
-  '_h z l' => [
-    {
-      'types' => {
-        '_hzil' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_hazal',
-      'form' => '_hazal',
-      'lines' => [
-        ';; xazal-i_1',
-        'xazal   PV      cut off;hinder;restrain',
-        'xozil   IV      cut off;hinder;restrain'
-      ],
-      'patterns' => {
-        '_hzil' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'cut off',
-        'hinder',
-        'restrain'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xazal-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_htazil' => {
-          'IV' => 1
-        }
-      },
-      'entry' => 'i_htazal',
-      'form' => 'i_htazal',
-      'lines' => [
-        ';; Aixotazal_1',
-        'Aixotazal       PV      cut off;shorten',
-        'xotazil IV      cut off;shorten'
-      ],
-      'patterns' => {
-        '_htazil' => [
-          'FtaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFtaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'cut off',
-        'shorten'
-      ],
-      'orig' => 'Aixotazal',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'i_htizAl' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'i_htizAl',
-      'form' => 'i_htizAl',
-      'lines' => [
-        ';; AixotizAl_1',
-        'AixotizAl       NduAt   abridgment;abbreviation'
-      ],
-      'patterns' => {
-        'i_htizAl' => [
-          'IFtiCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFtiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'abridgment',
-        'abbreviation'
-      ],
-      'orig' => 'AixotizAl',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_htazil',
-      'form' => 'mu_htazil',
-      'lines' => [
-        ';; muxotazil_1',
-        'muxotazil       Nall    stenographer'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFtaCiL',
-      'suffix' => '',
-      'glosses' => [
-        'stenographer'
-      ],
-      'orig' => 'muxotazil',
-      'prefix' => ''
-    }
-  ],
-  '_h m m' => [
-    {
-      'types' => {
-        '_hmum' => {
-          'IV_C' => 1
-        },
-        '_humm' => {
-          'IV_V' => 1
-        },
-        '_hamam' => {
-          'PV_C' => 1
-        }
-      },
-      'entry' => '_hamm',
-      'form' => '_hamm',
-      'lines' => [
-        ';; xam~-u_1',
-        'xam~    PV_V    sweep',
-        'xamam   PV_C    sweep',
-        'xum~    IV_V    sweep',
-        'xomum   IV_C    sweep'
-      ],
-      'patterns' => {
-        '_hmum' => [
-          'FCuL'
-        ],
-        '_humm' => [
-          'FuCL'
-        ],
-        '_hamam' => [
-          'FaCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCL',
-      'glosses' => [
-        'sweep'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'xam~-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hmum' => {
-          'IV_C' => 1
-        },
-        '_humm' => {
-          'IV_V' => 1
-        },
-        '_himm' => {
-          'IV_V' => 1
-        },
-        '_hmim' => {
-          'IV_C' => 1
-        },
-        '_hamam' => {
-          'PV_C' => 1
-        }
-      },
-      'entry' => '_hamm',
-      'form' => '_hamm',
-      'lines' => [
-        ';; xam~-ui_1',
-        'xam~    PV_V    stink;rot;decay',
-        'xamam   PV_C    stink;rot;decay',
-        'xum~    IV_V    stink;rot;decay',
-        'xomum   IV_C    stink;rot;decay',
-        'xim~    IV_V    stink;rot;decay',
-        'xomim   IV_C    stink;rot;decay'
-      ],
-      'patterns' => {
-        '_hmum' => [
-          'FCuL'
-        ],
-        '_humm' => [
-          'FuCL'
-        ],
-        '_himm' => [
-          'FiCL'
-        ],
-        '_hamam' => [
-          'FaCaL'
-        ],
-        '_hmim' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCL',
-      'glosses' => [
-        'stink',
-        'rot',
-        'decay'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL',
-        'FCiL'
-      ],
-      'orig' => 'xam~-ui',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'a_hmAm' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_humm',
-      'form' => '_humm',
-      'lines' => [
-        ';; xum~_1',
-        'xum~    N       chicken coop;brooder',
-        'OaxomAm N       chicken coops;brooders'
-      ],
-      'patterns' => {
-        '\'a_hmAm' => [
-          'HaFCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL',
-      'suffix' => '',
-      'glosses' => [
-        'chicken coop',
-        'brooder',
-        'chicken coops',
-        'brooders'
-      ],
-      'orig' => 'xum~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hamm',
-      'form' => '_hammaT',
-      'lines' => [
-        ';; xam~ap_1',
-        'xam~    Nap     stench'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'stench'
-      ],
-      'orig' => 'xam~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hAmm',
-      'form' => '_hAmm',
-      'lines' => [
-        ';; xAm~_1',
-        'xAm~    Nall    stinking;rotten     [[xAm~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACL',
-      'suffix' => '',
-      'glosses' => [
-        'stinking',
-        'rotten'
-      ],
-      'orig' => 'xAm~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_himm',
-      'form' => 'mu_himm',
-      'lines' => [
-        ';; muxim~_1',
-        'muxim~  Nall    stinking;rotten     [[muxim~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFiCL',
-      'suffix' => '',
-      'glosses' => [
-        'stinking',
-        'rotten'
-      ],
-      'orig' => 'muxim~',
-      'prefix' => ''
-    }
-  ],
-  '_h m ^g' => [
-    {
-      'types' => {
-        '_hma^g' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_hami^g',
-      'form' => '_hami^g',
-      'lines' => [
-        ';; xamij-a_1',
-        'xamij   PV      spoil;rot;decay',
-        'xomaj   IV      spoil;rot;decay'
-      ],
-      'patterns' => {
-        '_hma^g' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCiL',
-      'glosses' => [
-        'spoil',
-        'rot',
-        'decay'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'xamij-a',
-      'prefix' => ''
-    }
-  ],
-  '_h \' m' => [
-    {
-      'types' => {},
-      'entry' => '_hAm',
-      'form' => '_hAm',
-      'lines' => [
-        ';; xAm_1',
-        'xAm     N       raw;unprocessed     [[xAm/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FAL',
-      'suffix' => '',
-      'glosses' => [
-        'raw',
-        'unprocessed'
-      ],
-      'orig' => 'xAm',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hAm' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => '_hAm',
-      'form' => '_hAmAt',
-      'lines' => [
-        ';; xAmAt_1',
-        'xAm     NAt     raw materials'
-      ],
-      'patterns' => {
-        '_hAm' => [
-          'FAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FAL |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'raw materials'
-      ],
-      'orig' => 'xAmAt',
-      'prefix' => ''
-    }
-  ],
-  '_h .d m' => [
-    {
-      'types' => {
-        '_h.dim' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_ha.dam',
-      'form' => '_ha.dam',
-      'lines' => [
-        ';; xaDam-i_1',
-        'xaDam   PV      munch;bite',
-        'xoDim   IV      munch;bite'
-      ],
-      'patterns' => {
-        '_h.dim' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'munch',
-        'bite'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xaDam-i',
-      'prefix' => ''
-    }
-  ],
-  'kUrfisqufUs' => [
-    {
-      'types' => {},
-      'entry' => 'kuwrfisqufuws',
-      'form' => 'kuwrfisqufuws',
-      'lines' => [
-        ';; kuwrofisoqufuws_1',
-        'kuwrofisoqufuws N       bishop\'s representative'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bishop\'s representative'
-      ],
-      'orig' => 'kuwrofisoqufuws',
-      'prefix' => ''
-    }
-  ],
-  '_h f t' => [
-    {
-      'types' => {
-        '_hfut' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => '_hafat',
-      'form' => '_hafat',
-      'lines' => [
-        ';; xafat-u_1',
-        'xafat   PV-t_intr       be inaudible;be silent;become dim',
-        'xofut   IV_intr be inaudible;be silent;become dim'
-      ],
-      'patterns' => {
-        '_hfut' => [
-          'FCuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'be inaudible',
-        'be silent',
-        'become dim'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'xafat-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hAfit' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_hAfat',
-      'form' => '_hAfat',
-      'lines' => [
-        ';; xAfat_1',
-        'xAfat   PV-t    lower;reduce',
-        'xAfit   IV_yu   lower;reduce'
-      ],
-      'patterns' => {
-        '_hAfit' => [
-          'FACiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FACaL',
-      'suffix' => '',
-      'glosses' => [
-        'lower',
-        'reduce'
-      ],
-      'orig' => 'xAfat',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hfat' => {
-          'IV_Pass_yu' => 1
-        },
-        '_hfit' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '\'a_hfat',
-      'form' => '\'a_hfat',
-      'lines' => [
-        ';; Oaxofat_1',
-        'Oaxofat PV-t    silence;make silent',
-        'xofit   IV_yu   silence;make silent',
-        'xofat   IV_Pass_yu      be silenced;be made silent'
-      ],
-      'patterns' => {
-        '_hfat' => [
-          'FCaL'
-        ],
-        '_hfit' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'silence',
-        'make silent',
-        'be silenced',
-        'be made silent'
-      ],
-      'orig' => 'Oaxofat',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_htafit' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'i_htafat',
-      'form' => 'i_htafat',
-      'lines' => [
-        ';; Aixotafat_1',
-        'Aixotafat       PV-t_intr       be inaudible;be silent;become dim',
-        'xotafit IV_intr be inaudible;be silent;become dim'
-      ],
-      'patterns' => {
-        '_htafit' => [
-          'FtaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFtaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'be inaudible',
-        'be silent',
-        'become dim'
-      ],
-      'orig' => 'Aixotafat',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hufuwt',
-      'form' => '_hufuwt',
-      'lines' => [
-        ';; xufuwt_1',
-        'xufuwt  N       fading'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCUL',
-      'suffix' => '',
-      'glosses' => [
-        'fading'
-      ],
-      'orig' => 'xufuwt',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hAfit',
-      'form' => '_hAfit',
-      'lines' => [
-        ';; xAfit_1',
-        'xAfit   N-ap    fading;dim     [[xAfit/ADJ]]',
-        'xAfit   N-ap    soft;inaudible     [[xAfit/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [
-        'fading',
-        'dim',
-        'soft',
-        'inaudible'
-      ],
-      'orig' => 'xAfit',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_htafit',
-      'form' => 'mu_htafit',
-      'lines' => [
-        ';; muxotafit_1',
-        'muxotafit       Nall    soft;low;subdued     [[muxotafit/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFtaCiL',
-      'suffix' => '',
-      'glosses' => [
-        'soft',
-        'low',
-        'subdued'
-      ],
-      'orig' => 'muxotafit',
-      'prefix' => ''
-    }
-  ],
-  '_hayzUrAn' => [
-    {
-      'types' => {
-        '_hayAzir' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hayzuwrAn',
-      'form' => '_hayzuwrAn',
-      'lines' => [
-        ';; xayozuwrAn_1',
-        'xayozuwrAn      N       bamboo;reed',
-        'xayAzir Ndip    bamboo;reed'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'bamboo',
-        'reed'
-      ],
-      'orig' => 'xayozuwrAn',
-      'prefix' => ''
-    }
-  ],
-  '_h m n' => [
-    {
-      'types' => {
-        '_hammin' => {
-          'IV-n_yu' => 1
-        }
-      },
-      'entry' => '_hamman',
-      'form' => '_hamman',
-      'lines' => [
-        ';; xam~an_1',
-        'xam~an  PV-n    guess;assess;estimate;conjecture',
-        'xam~in  IV-n_yu guess;assess;estimate;conjecture'
-      ],
-      'patterns' => {
-        '_hammin' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'guess',
-        'assess',
-        'estimate',
-        'conjecture'
-      ],
-      'orig' => 'xam~an',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta_hmiyn' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'ta_hmiyn',
-      'form' => 'ta_hmiyn',
-      'lines' => [
-        ';; taxomiyn_1',
-        'taxomiyn        Ndu     appraisal;estimation;estimate',
-        'taxomiyn        NAt     appraisals;estimates'
-      ],
-      'patterns' => {
-        'ta_hmiyn' => [
-          'TaFCIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaFCIL',
-      'suffix' => '',
-      'glosses' => [
-        'appraisal',
-        'estimation',
-        'estimate',
-        'appraisals',
-        'estimates'
-      ],
-      'orig' => 'taxomiyn',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta_hmiyn' => {
-          'NF' => 1
-        }
-      },
-      'entry' => 'ta_hmiyn',
-      'form' => 'ta_hmiynaN',
-      'lines' => [
-        ';; taxomiynAF_1',
-        'taxomiyn        NF      approximately;roughly     [[taxomiyn/ADV]]'
-      ],
-      'patterns' => {
-        'ta_hmiyn' => [
-          'TaFCIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'adv',
-      'morphs' => 'TaFCIL |< aN',
-      'suffix' => ' |< aN',
-      'glosses' => [
-        'approximately',
-        'roughly'
-      ],
-      'orig' => 'taxomiynAF',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_hammin',
-      'form' => 'mu_hammin',
-      'lines' => [
-        ';; muxam~in_1',
-        'muxam~in        Nall    appraiser;assessor'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFaCCiL',
-      'suffix' => '',
-      'glosses' => [
-        'appraiser',
-        'assessor'
-      ],
-      'orig' => 'muxam~in',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_humayn',
-      'form' => '_humayniyy',
-      'lines' => [
-        ';; xumayoniy~_1',
-        'xumayoniy~      Nall    Khomeini partisan     [[xumayoniy~/NOUN]]',
-        'xumayoniy~      Nall    Khomeini partisan     [[xumayoniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FuCayL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Khomeini partisan'
-      ],
-      'orig' => 'xumayoniy~',
-      'prefix' => ''
-    }
-  ],
-  '_h d w' => [
-    {
-      'types' => {
-        '_hidiywiyy' => {
-          'Nall' => 1
-        }
-      },
-      'entry' => '_hudayw',
-      'form' => '_hudaywiyy',
-      'lines' => [
-        ';; xudayowiy~_1',
-        'xudayowiy~      Nall    khedive     [[xudayowiy~/ADJ]]',
-        'xidiywiy~       Nall    khedivial     [[xidiywiy~/ADJ]]'
-      ],
-      'patterns' => {
-        '_hidiywiyy' => []
-      },
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FuCayL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'khedive',
-        'khedivial'
-      ],
-      'orig' => 'xudayowiy~',
-      'prefix' => ''
-    }
-  ],
-  '_h \' b' => [
-    {
-      'types' => {},
-      'entry' => '_hA\'ib',
-      'form' => '_hA\'ib',
-      'lines' => [
-        ';; xA}ib_1',
-        'xA}ib   Nall    disappointed;failing     [[xA}ib/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [
-        'disappointed',
-        'failing'
-      ],
-      'orig' => 'xA}ib',
-      'prefix' => ''
-    }
-  ],
-  '_hAmani\'' => [
-    {
-      'types' => {},
-      'entry' => '_hAmani\'',
-      'form' => '_hAmani\'iyy',
-      'lines' => [
-        ';; xAmani}iy~_1',
-        'xAmani}iy~      Nprop   Khamene\'i'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Khamene\'i'
-      ],
-      'orig' => 'xAmani}iy~',
-      'prefix' => ''
-    }
-  ],
-  '_h \' .t' => [
-    {
-      'types' => {},
-      'entry' => '_hA\'i.t',
-      'form' => '_hA\'i.t',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'xA}iT',
-      'prefix' => ''
-    }
-  ],
-  '_hAra.sIn' => [
-    {
-      'types' => {},
-      'entry' => '_hAra.siyn',
-      'form' => '_hAra.siyn',
-      'lines' => [
-        ';; xAraSiyn_1',
-        'xAraSiyn        N       zinc'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'zinc'
-      ],
-      'orig' => 'xAraSiyn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hAra.siyn',
-      'form' => '_hAra.siyniyy',
-      'lines' => [
-        ';; xAraSiyniy~_1',
-        'xAraSiyniy~     Nall    zinc     [[xAraSiyniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'zinc'
-      ],
-      'orig' => 'xAraSiyniy~',
-      'prefix' => ''
-    }
-  ],
-  '_h l d n' => [
-    {
-      'types' => {},
-      'entry' => '_halduwn',
-      'form' => '_halduwn',
-      'lines' => [
-        ';; xaloduwn_1',
-        'xaloduwn        N0      Khaldoun'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDUS',
-      'suffix' => '',
-      'glosses' => [
-        'Khaldoun'
-      ],
-      'orig' => 'xaloduwn',
-      'prefix' => ''
-    }
-  ],
-  '_h y ^s m' => [
-    {
-      'types' => {
-        '_hayA^siym' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hay^suwm',
-      'form' => '_hay^suwm',
-      'lines' => [
-        ';; xayo$uwm_1',
-        'xayo$uwm        N       nose;nostril',
-        'xayA$iym        Ndip    nose;nostrils'
-      ],
-      'patterns' => {
-        '_hayA^siym' => [
-          'KaRADIS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDUS',
-      'suffix' => '',
-      'glosses' => [
-        'nose',
-        'nostril',
-        'nostrils'
-      ],
-      'orig' => 'xayo$uwm',
-      'prefix' => ''
-    }
-  ],
-  '_humaynI' => [
-    {
-      'types' => {},
-      'entry' => '_humayniy',
-      'form' => '_humayniy',
-      'lines' => [
-        ';; xumayoniy_1',
-        'xumayoniy       N0      Khomeini'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Khomeini'
-      ],
-      'orig' => 'xumayoniy',
-      'prefix' => ''
-    }
-  ],
-  '_hazandAr' => [
-    {
-      'types' => {},
-      'entry' => '_hazandAr',
-      'form' => '_hazandAr',
-      'lines' => [
-        ';; xazanodAr_1',
-        'xazanodAr       N0      Khazandar'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Khazandar'
-      ],
-      'orig' => 'xazanodAr',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_haznadAr' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_hazandAr',
-      'form' => '_hazandAr',
-      'lines' => [
-        ';; xazanodAr_2',
-        'xazanodAr       N       treasurer',
-        'xazonadAr       N       treasurer'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'treasurer'
-      ],
-      'orig' => 'xazanodAr',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hazandAr',
-      'form' => '_hazandAriyy',
-      'lines' => [
-        ';; xazanodAriy~_1',
-        'xazanodAriy~    N0      Khazandari'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Khazandari'
-      ],
-      'orig' => 'xazanodAriy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hazandAr',
-      'form' => '_hazandAriyy',
-      'lines' => [
-        ';; xazanodAriy~_2',
-        'xazanodAriy~    Nall    treasurer     [[xazanodAriy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'treasurer'
-      ],
-      'orig' => 'xazanodAriy~',
-      'prefix' => ''
-    }
-  ],
-  '_h ^s y' => [
-    {
-      'types' => {
-        '_h^sa' => {
-          'IV_0hwnyn' => 1
-        },
-        '_h^say' => {
-          'IV_Ann' => 1
-        },
-        '_h^sA' => {
-          'IV_h' => 1
-        },
-        '_h^sY' => {
-          'IV_0' => 1
-        },
-        '_ha^s' => {
-          'PV_w' => 1
-        }
-      },
-      'entry' => '_ha^siy',
-      'form' => '_ha^siy',
-      'lines' => [
-        ';; xa$iy-a_1',
-        'xa$iy   PV_no-w fear;be afraid',
-        'xa$     PV_w    fear;be afraid',
-        'xo$aY   IV_0    fear;be afraid',
-        'xo$A    IV_h    fear;be afraid',
-        'xo$ay   IV_Ann  fear;be afraid',
-        'xo$a    IV_0hwnyn       fear;be afraid'
-      ],
-      'patterns' => {
-        '_h^say' => [
-          'FCaL'
-        ],
-        '_h^sY' => [
-          'FCY'
-        ],
-        '_ha^s' => [
-          'FaC'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCI',
-      'glosses' => [
-        'fear',
-        'be afraid'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'xa$iy-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_ha^s^siy' => {
-          'IV_0hAnn_yu' => 1
-        },
-        '_ha^s^s' => {
-          'IV_0hwnyn_yu' => 1,
-          'PV_ttAw' => 1
-        },
-        '_ha^s^say' => {
-          'PV_Atn' => 1,
-          'IV_Ann_Pass_yu' => 1
-        },
-        '_ha^s^sA' => {
-          'PV_h' => 1
-        }
-      },
-      'entry' => '_ha^s^sY',
-      'form' => '_ha^s^sY',
-      'lines' => [
-        ';; xa$~aY_1',
-        'xa$~aY  PV_0    frighten;alarm',
-        'xa$~A   PV_h    frighten;alarm',
-        'xa$~ay  PV_Atn  frighten;alarm',
-        'xa$~    PV_ttAw frighten;alarm',
-        'xa$~iy  IV_0hAnn_yu     frighten;alarm',
-        'xa$~    IV_0hwnyn_yu    frighten;alarm',
-        'xa$~aY  IV_0_Pass_yu    be frighten;be alarmed',
-        'xa$~ay  IV_Ann_Pass_yu  be frighten;be alarmed'
-      ],
-      'patterns' => {
-        '_ha^s^say' => [
-          'FaCCaL'
-        ],
-        '_ha^s^siy' => [
-          'FaCCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCY',
-      'suffix' => '',
-      'glosses' => [
-        'frighten',
-        'alarm',
-        'be frighten',
-        'be alarmed'
-      ],
-      'orig' => 'xa$~aY',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta_ha^s^sA' => {
-          'PV_h' => 1,
-          'IV_h' => 1
-        },
-        'ta_ha^s^s' => {
-          'IV_0hwnyn' => 1,
-          'PV_ttAw' => 1
-        },
-        'ta_ha^s^say' => {
-          'PV_Atn' => 1,
-          'IV_Ann' => 1
-        }
-      },
-      'entry' => 'ta_ha^s^sY',
-      'form' => 'ta_ha^s^sY',
-      'lines' => [
-        ';; taxa$~aY_1',
-        'taxa$~aY        PV_0    fear;be afraid',
-        'taxa$~A PV_h    fear;be afraid',
-        'taxa$~ay        PV_Atn  fear;be afraid',
-        'taxa$~  PV_ttAw fear;be afraid',
-        'taxa$~aY        IV_0    fear;be afraid',
-        'taxa$~A IV_h    fear;be afraid',
-        'taxa$~ay        IV_Ann  fear;be afraid',
-        'taxa$~  IV_0hwnyn       fear;be afraid'
-      ],
-      'patterns' => {
-        'ta_ha^s^say' => [
-          'TaFaCCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCY',
-      'suffix' => '',
-      'glosses' => [
-        'fear',
-        'be afraid'
-      ],
-      'orig' => 'taxa$~aY',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hta^sY' => {
-          'IV_0_Pass_yu' => 1
-        },
-        '_hta^s' => {
-          'IV_0hwnyn' => 1
-        },
-        'i_hta^say' => {
-          'PV_Atn' => 1
-        },
-        'i_hta^sA' => {
-          'PV_h' => 1
-        },
-        '_hta^siy' => {
-          'IV_0hAnn' => 1
-        },
-        'i_hta^s' => {
-          'PV_ttAw_intr' => 1
-        }
-      },
-      'entry' => 'i_hta^sY',
-      'form' => 'i_hta^sY',
-      'lines' => [
-        ';; Aixota$aY_1',
-        'Aixota$aY       PV_0    be embarrassed;be ashamed',
-        'Aixota$A        PV_h    be embarrassed;be ashamed',
-        'Aixota$ay       PV_Atn  be embarrassed;be ashamed',
-        'Aixota$ PV_ttAw_intr    be embarrassed;be ashamed',
-        'xota$iy IV_0hAnn        be embarrassed;be ashamed',
-        'xota$   IV_0hwnyn       be embarrassed;be ashamed',
-        'xota$aY IV_0_Pass_yu    be embarrassed;be ashamed'
-      ],
-      'patterns' => {
-        '_hta^sY' => [
-          'FtaCY'
-        ],
-        'i_hta^say' => [
-          'IFtaCaL'
-        ],
-        '_hta^siy' => [
-          'FtaCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFtaCY',
-      'suffix' => '',
-      'glosses' => [
-        'be embarrassed',
-        'be ashamed'
-      ],
-      'orig' => 'Aixota$aY',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha^sy',
-      'form' => '_ha^syaT',
-      'lines' => [
-        ';; xa$oyap_1',
-        'xa$oy   Nap     fear;apprehension'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'fear',
-        'apprehension'
-      ],
-      'orig' => 'xa$oyap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha^sy',
-      'form' => '_ha^syaT',
-      'lines' => [
-        ';; xa$oyap_2',
-        'xa$oy   Nap     out of fear;fearing'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'out of fear',
-        'fearing'
-      ],
-      'orig' => 'xa$oyap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ma_h^sY',
-      'form' => 'ma_h^sAT',
-      'lines' => [
-        ';; maxo$Ap_1',
-        'maxo$A  Nap     fear;apprehension'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MaFCY |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'fear',
-        'apprehension'
-      ],
-      'orig' => 'maxo$Ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_ha^sAyY' => {
-          'N0_Nhy' => 1
-        },
-        '_ha^syY' => {
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => '_ha^syAn',
-      'form' => '_ha^syAn',
-      'lines' => [
-        ';; xa$oyAn_1',
-        'xa$oyAn Ndip    timid;anxious',
-        'xa$oyA  N0_Nh   timid;anxious',
-        'xa$AyA  N0_Nhy  timid;anxious'
-      ],
-      'patterns' => {
-        '_ha^sAyY' => [
-          'FaCALY'
-        ],
-        '_ha^syY' => [
-          'FaCLY'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCLAn',
-      'suffix' => '',
-      'glosses' => [
-        'timid',
-        'anxious'
-      ],
-      'orig' => 'xa$oyAn',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hA^s' => {
-          'Nuwn_Niyn' => 1
-        },
-        '_hA^siy' => {
-          'NapAt' => 1
-        }
-      },
-      'entry' => '_hA^siy',
-      'form' => '_hA^siy',
-      'lines' => [
-        ';; xA$iy_1',
-        'xA$iy   N0F     timid;anxious',
-        'xA$     NK      timid;anxious',
-        'xA$iy   NAn_Nayn        timid;anxious',
-        'xA$     Nuwn_Niyn       timid;anxious',
-        'xA$iy   NapAt   timid;anxious'
-      ],
-      'patterns' => {
-        '_hA^s' => [],
-        '_hA^siy' => [
-          'FACI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACI',
-      'suffix' => '',
-      'glosses' => [
-        'timid',
-        'anxious'
-      ],
-      'orig' => 'xA$iy',
-      'prefix' => ''
-    }
-  ],
-  '_h w l y' => [
-    {
-      'types' => {},
-      'entry' => '_hawAliy',
-      'form' => '_hawAliy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRADI',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'xawAliy',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_huwluw',
-      'form' => '_huwluw',
-      'lines' => [
-        ';; xuwluw_1',
-        'xuwluw  Nprop   Jolo'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDU',
-      'suffix' => '',
-      'glosses' => [
-        'Jolo'
-      ],
-      'orig' => 'xuwluw',
-      'prefix' => ''
-    }
-  ],
-  '_h r n b' => [
-    {
-      'types' => {},
-      'entry' => '_hurnuwb',
-      'form' => '_hurnuwb',
-      'lines' => [
-        ';; xurnuwb_1',
-        'xurnuwb N       carob;locust'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDUS',
-      'suffix' => '',
-      'glosses' => [
-        'carob',
-        'locust'
-      ],
-      'orig' => 'xurnuwb',
-      'prefix' => ''
-    }
-  ],
-  '_h n q' => [
-    {
-      'types' => {
-        '_hnuq' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_hanaq',
-      'form' => '_hanaq',
-      'lines' => [
-        ';; xanaq-u_1',
-        'xanaq   PV      choke;suppress;throttle down',
-        'xonuq   IV      choke;suppress;throttle down'
-      ],
-      'patterns' => {
-        '_hnuq' => [
-          'FCuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'choke',
-        'suppress',
-        'throttle down'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'xanaq-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hAniq' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_hAnaq',
-      'form' => '_hAnaq',
-      'lines' => [
-        ';; xAnaq_1',
-        'xAnaq   PV      quarrel',
-        'xAniq   IV_yu   quarrel'
-      ],
-      'patterns' => {
-        '_hAniq' => [
-          'FACiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FACaL',
-      'suffix' => '',
-      'glosses' => [
-        'quarrel'
-      ],
-      'orig' => 'xAnaq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_hAnaq',
-      'form' => 'ta_hAnaq',
-      'lines' => [
-        ';; taxAnaq_1',
-        'taxAnaq PV      quarrel',
-        'taxAnaq IV      quarrel'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFACaL',
-      'suffix' => '',
-      'glosses' => [
-        'quarrel'
-      ],
-      'orig' => 'taxAnaq',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'n_haniq' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'in_hanaq',
-      'form' => 'in_hanaq',
-      'lines' => [
-        ';; Ainoxanaq_1',
-        'Ainoxanaq       PV_intr be choked;be throttled',
-        'noxaniq IV_intr be choked;be throttled'
-      ],
-      'patterns' => {
-        'n_haniq' => [
-          'NFaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'InFaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'be choked',
-        'be throttled'
-      ],
-      'orig' => 'Ainoxanaq',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_htaniq' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'i_htanaq',
-      'form' => 'i_htanaq',
-      'lines' => [
-        ';; Aixotanaq_1',
-        'Aixotanaq       PV_intr be throttled;be constricted;be choked',
-        'xotaniq IV_intr be throttled;be constricted;be choked'
-      ],
-      'patterns' => {
-        '_htaniq' => [
-          'FtaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFtaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'be throttled',
-        'be constricted',
-        'be choked'
-      ],
-      'orig' => 'Aixotanaq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hanq',
-      'form' => '_hanq',
-      'lines' => [
-        ';; xanoq_1',
-        'xanoq   N       choking;suppression'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'choking',
-        'suppression'
-      ],
-      'orig' => 'xanoq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hanq',
-      'form' => '_hanqaT',
-      'lines' => [
-        ';; xanoqap_1',
-        'xanoq   Napdu   wrist'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'wrist'
-      ],
-      'orig' => 'xanoqap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hawAniyq' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '_hAnuwq',
-      'form' => '_hAnuwq',
-      'lines' => [
-        ';; xAnuwq_1',
-        'xAnuwq  N       angina;diphtheria',
-        'xawAniyq        Ndip    angina;diphtheria',
-        'xawAniyq        Ndip    suffocation'
-      ],
-      'patterns' => {
-        '_hawAniyq' => [
-          'FawACIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACUL',
-      'suffix' => '',
-      'glosses' => [
-        'angina',
-        'diphtheria',
-        'suffocation'
-      ],
-      'orig' => 'xAnuwq',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hawAniq' => {
-          'Ndip' => 2
-        }
-      },
-      'entry' => '_hunAq',
-      'form' => '_hunAq',
-      'lines' => [
-        ';; xunAq_1',
-        'xunAq   N       angina;diphtheria',
-        'xawAniq Ndip    angina;diphtheria',
-        'xawAniq Ndip    suffocation'
-      ],
-      'patterns' => {
-        '_hawAniq' => [
-          'FawACiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCAL',
-      'suffix' => '',
-      'glosses' => [
-        'angina',
-        'diphtheria',
-        'suffocation'
-      ],
-      'orig' => 'xunAq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hannAq',
-      'form' => '_hannAq',
-      'lines' => [
-        ';; xan~Aq_1',
-        'xan~Aq  N/ap    choking;strangling'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL',
-      'suffix' => '',
-      'glosses' => [
-        'choking',
-        'strangling'
-      ],
-      'orig' => 'xan~Aq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ma_hnaq',
-      'form' => 'ma_hnaq',
-      'lines' => [
-        ';; maxonaq_1',
-        'maxonaq Ndu     neck;throat'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'neck',
-        'throat'
-      ],
-      'orig' => 'maxonaq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hinAq',
-      'form' => '_hinAq',
-      'lines' => [
-        ';; xinAq_1',
-        'xinAq   N       neck;throat'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'neck',
-        'throat'
-      ],
-      'orig' => 'xinAq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hinAq',
-      'form' => '_hinAq',
-      'lines' => [
-        ';; xinAq_2',
-        'xinAq   N       quarrel'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'quarrel'
-      ],
-      'orig' => 'xinAq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hinAq',
-      'form' => '_hinAqaT',
-      'lines' => [
-        ';; xinAqap_1',
-        'xinAq   Napdu   quarrel'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'quarrel'
-      ],
-      'orig' => 'xinAqap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'i_htinAq' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'i_htinAq',
-      'form' => 'i_htinAq',
-      'lines' => [
-        ';; AixotinAq_1',
-        'AixotinAq       NduAt   constriction;bottleneck;asphyxia'
-      ],
-      'patterns' => {
-        'i_htinAq' => [
-          'IFtiCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFtiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'constriction',
-        'bottleneck',
-        'asphyxia'
-      ],
-      'orig' => 'AixotinAq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hAniq',
-      'form' => '_hAniq',
-      'lines' => [
-        ';; xAniq_1',
-        'xAniq   Nall    choking;throttling;strangling'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [
-        'choking',
-        'throttling',
-        'strangling'
-      ],
-      'orig' => 'xAniq',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hawAniq' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hAniq',
-      'form' => '_hAniq',
-      'lines' => [
-        ';; xAniq_2',
-        'xAniq   N       throttle;choke',
-        'xawAniq Ndip    throttles'
-      ],
-      'patterns' => {
-        '_hawAniq' => [
-          'FawACiL'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [
-        'throttle',
-        'choke',
-        'throttles'
-      ],
-      'orig' => 'xAniq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ma_hnuwq',
-      'form' => 'ma_hnuwq',
-      'lines' => [
-        ';; maxonuwq_1',
-        'maxonuwq        Nall    constricted;choking;throttled     [[maxonuwq/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MaFCUL',
-      'suffix' => '',
-      'glosses' => [
-        'constricted',
-        'choking',
-        'throttled'
-      ],
-      'orig' => 'maxonuwq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_htaniq',
-      'form' => 'mu_htaniq',
-      'lines' => [
-        ';; muxotaniq_1',
-        'muxotaniq       Nall    constricted;crowded;jammed     [[muxotaniq/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFtaCiL',
-      'suffix' => '',
-      'glosses' => [
-        'constricted',
-        'crowded',
-        'jammed'
-      ],
-      'orig' => 'muxotaniq',
-      'prefix' => ''
-    }
-  ],
-  '_h w .d' => [
-    {
-      'types' => {
-        '_huw.d' => {
-          'IV_V' => 1
-        },
-        '_hu.d' => {
-          'PV_C' => 1,
-          'IV_C' => 1
-        }
-      },
-      'entry' => '_hA.d',
-      'form' => '_hA.d',
-      'lines' => [
-        ';; xAD-u_1',
-        'xAD     PV_V    wage;embark;carry out',
-        'xuD     PV_C    wage;embark;carry out',
-        'xuwD    IV_V    wage;embark;carry out',
-        'xuD     IV_C    wage;embark;carry out'
-      ],
-      'patterns' => {
-        '_hu.d' => [
-          'FuL'
-        ],
-        '_huw.d' => [
-          'FUL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FAL',
-      'glosses' => [
-        'wage',
-        'embark',
-        'carry out'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'xAD-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hawwi.d' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_hawwa.d',
-      'form' => '_hawwa.d',
-      'lines' => [
-        ';; xaw~aD_1',
-        'xaw~aD  PV      wade into',
-        'xaw~iD  IV_yu   wade into'
-      ],
-      'patterns' => {
-        '_hawwi.d' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'wade into'
-      ],
-      'orig' => 'xaw~aD',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_haw.d',
-      'form' => '_haw.d',
-      'lines' => [
-        ';; xawoD_1',
-        'xawoD   N       waging;embarking;carrying out'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'waging',
-        'embarking',
-        'carrying out'
-      ],
-      'orig' => 'xawoD',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_haw.d',
-      'form' => '_haw.daT',
-      'lines' => [
-        ';; xawoDap_1',
-        'xawoD   NapAt   ford'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'ford'
-      ],
-      'orig' => 'xawoDap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ma_hA.d' => {
-          'NAt' => 1
-        },
-        'ma_hAwi.d' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'ma_hA.d',
-      'form' => 'ma_hA.daT',
-      'lines' => [
-        ';; maxADap_1',
-        'maxAD   Napdu   ford',
-        'maxAD   NAt     fords',
-        'maxAwiD Ndip    fords'
-      ],
-      'patterns' => {
-        'ma_hA.d' => [
-          'MaFAL'
-        ],
-        'ma_hAwi.d' => [
-          'MaFACiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MaFAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'ford',
-        'fords'
-      ],
-      'orig' => 'maxADap',
-      'prefix' => ''
-    }
-  ],
-  '_h .d r' => [
-    {
-      'types' => {
-        '_h.dar' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => '_ha.dir',
-      'form' => '_ha.dir',
-      'lines' => [
-        ';; xaDir-a_1',
-        'xaDir   PV_intr be green',
-        'xoDar   IV_intr be green'
-      ],
-      'patterns' => {
-        '_h.dar' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCiL',
-      'glosses' => [
-        'be green'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'xaDir-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_ha.d.dir' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_ha.d.dar',
-      'form' => '_ha.d.dar',
-      'lines' => [
-        ';; xaD~ar_1',
-        'xaD~ar  PV      make green;dye green',
-        'xaD~ir  IV_yu   make green;dye green'
-      ],
-      'patterns' => {
-        '_ha.d.dir' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'make green',
-        'dye green'
-      ],
-      'orig' => 'xaD~ar',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_h.darir' => {
-          'IV_C_intr' => 1
-        },
-        '_h.darr' => {
-          'IV_V_intr' => 1
-        },
-        'i_h.darar' => {
-          'PV_C_intr' => 1
-        }
-      },
-      'entry' => 'i_h.darr',
-      'form' => 'i_h.darr',
-      'lines' => [
-        ';; AixoDar~_1',
-        'AixoDar~        PV_V_intr       become green',
-        'AixoDarar       PV_C_intr       become green',
-        'xoDar~  IV_V_intr       become green',
-        'xoDarir IV_C_intr       become green'
-      ],
-      'patterns' => {
-        '_h.darir' => [
-          'FCaLiL'
-        ],
-        '_h.darr' => [
-          'FCaLL'
-        ],
-        'i_h.darar' => [
-          'IFCaLaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCaLL',
-      'suffix' => '',
-      'glosses' => [
-        'become green'
-      ],
-      'orig' => 'AixoDar~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_h.daw.dir' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'i_h.daw.dar',
-      'form' => 'i_h.daw.dar',
-      'lines' => [
-        ';; AixoDawoDar_1',
-        'AixoDawoDar     PV_intr become green',
-        'xoDawoDir       IV_intr become green'
-      ],
-      'patterns' => {
-        '_h.daw.dir' => [
-          'FCawCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCawCaL',
-      'suffix' => '',
-      'glosses' => [
-        'become green'
-      ],
-      'orig' => 'AixoDawoDar',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha.dir',
-      'form' => '_ha.dir',
-      'lines' => [
-        ';; xaDir_1',
-        'xaDir   N       green;verdant'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCiL',
-      'suffix' => '',
-      'glosses' => [
-        'green',
-        'verdant'
-      ],
-      'orig' => 'xaDir',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hu.dar' => {
-          'N' => 1
-        },
-        '_ha.draw' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => '_hu.dr',
-      'form' => '_hu.draT',
-      'lines' => [
-        ';; xuDorap_1',
-        'xuDor   Nap     vegetable;greenery',
-        'xaDoraw NAt     vegetables;greens',
-        'xuDar   N       vegetables;greenery'
-      ],
-      'patterns' => {
-        '_hu.dar' => [
-          'FuCaL'
-        ],
-        '_ha.draw' => []
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'vegetable',
-        'greenery',
-        'vegetables',
-        'greens'
-      ],
-      'orig' => 'xuDorap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hu.dar',
-      'form' => '_hu.dariyy',
-      'lines' => [
-        ';; xuDariy~_1',
-        'xuDariy~        Nall    greengrocer'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FuCaL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'greengrocer'
-      ],
-      'orig' => 'xuDariy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha.dAr',
-      'form' => '_ha.dAr',
-      'lines' => [
-        ';; xaDAr_1',
-        'xaDAr   N       greenery'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCAL',
-      'suffix' => '',
-      'glosses' => [
-        'greenery'
-      ],
-      'orig' => 'xaDAr',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha.diyr',
-      'form' => '_ha.diyr',
-      'lines' => [
-        ';; xaDiyr_1',
-        'xaDiyr  N/ap    green'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL',
-      'suffix' => '',
-      'glosses' => [
-        'green'
-      ],
-      'orig' => 'xaDiyr',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha.diyr',
-      'form' => '_ha.diyraT',
-      'lines' => [
-        ';; xaDiyrap_1',
-        'xaDiyr  Nap     Hadera'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'Hadera'
-      ],
-      'orig' => 'xaDiyrap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hu.dAr',
-      'form' => '_hu.dAraT',
-      'lines' => [
-        ';; xuDArap_1',
-        'xuDAr   Nap     greens;herbs'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'greens',
-        'herbs'
-      ],
-      'orig' => 'xuDArap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha.d.dAr',
-      'form' => '_ha.d.dAr',
-      'lines' => [
-        ';; xaD~Ar_1',
-        'xaD~Ar  N/ap    greengrocer'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL',
-      'suffix' => '',
-      'glosses' => [
-        'greengrocer'
-      ],
-      'orig' => 'xaD~Ar',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_ha.drA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => '\'a_h.dar',
-      'form' => '\'a_h.dar',
-      'lines' => [
-        ';; OaxoDar_1',
-        'OaxoDar Nel     green',
-        'xaDorA\' N0_Nh   green',
-        'xaDorAW Nh      green',
-        'xaDorA} Nhy     green'
-      ],
-      'patterns' => {
-        '_ha.drA\'' => [
-          'FaCLA\''
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'green'
-      ],
-      'orig' => 'OaxoDar',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'a_h.dar',
-      'form' => '\'a_h.dar',
-      'lines' => [
-        ';; OaxoDar_2',
-        'OaxoDar N0      Akhdar'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'HaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'Akhdar'
-      ],
-      'orig' => 'OaxoDar',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hu.dr',
-      'form' => '_hu.dr',
-      'lines' => [
-        ';; xuDor_1',
-        'xuDor   N0      Greens (ecologists)'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL',
-      'suffix' => '',
-      'glosses' => [
-        'Greens (ecologists)'
-      ],
-      'orig' => 'xuDor',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ma_h.dar',
-      'form' => 'ma_h.daraT',
-      'lines' => [
-        ';; maxoDarap_1',
-        'maxoDar Nap     meadow'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MaFCaL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'meadow'
-      ],
-      'orig' => 'maxoDarap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'mu_ha.d.dar' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'mu_ha.d.dar',
-      'form' => 'mu_ha.d.darAt',
-      'lines' => [
-        ';; muxaD~arAt_1',
-        'muxaD~ar        NAt     vegetables'
-      ],
-      'patterns' => {
-        'mu_ha.d.dar' => [
-          'MuFaCCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFaCCaL |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'vegetables'
-      ],
-      'orig' => 'muxaD~arAt',
-      'prefix' => ''
-    }
-  ],
-  '_h b t' => [
-    {
-      'types' => {
-        '_hbit' => {
-          'IV_intr_yu' => 1
-        }
-      },
-      'entry' => '\'a_hbat',
-      'form' => '\'a_hbat',
-      'lines' => [
-        ';; Oaxobat_1',
-        'Oaxobat PV-t_intr       be humble',
-        'xobit   IV_intr_yu      be humble'
-      ],
-      'patterns' => {
-        '_hbit' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'be humble'
-      ],
-      'orig' => 'Oaxobat',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_hbit',
-      'form' => 'mu_hbit',
-      'lines' => [
-        ';; muxobit_1',
-        'muxobit Nall    being humble'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFCiL',
-      'suffix' => '',
-      'glosses' => [
-        'being humble'
-      ],
-      'orig' => 'muxobit',
-      'prefix' => ''
-    }
-  ],
-  '_h z ` l' => [
-    {
-      'types' => {},
-      'entry' => '_haz`al',
-      'form' => '_haz`al',
-      'lines' => [
-        ';; xazoEal_1',
-        'xazoEal N0      Khaz\'al'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'Khaz\'al'
-      ],
-      'orig' => 'xazoEal',
-      'prefix' => ''
-    }
-  ],
-  '_h l _h l' => [
-    {
-      'types' => {
-        '_hal_hil' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_hal_hal',
-      'form' => '_hal_hal',
-      'lines' => [
-        ';; xaloxal_1',
-        'xaloxal PV      shake;rock;rarefy',
-        'xaloxil IV_yu   shake;rock;rarefy'
-      ],
-      'patterns' => {
-        '_hal_hil' => [
-          'KaRDiS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'KaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'shake',
-        'rock',
-        'rarefy'
-      ],
-      'orig' => 'xaloxal',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_hal_hal',
-      'form' => 'ta_hal_hal',
-      'lines' => [
-        ';; taxaloxal_1',
-        'taxaloxal       PV_intr be shaken;be disjointed;become rarefied',
-        'taxaloxal       IV_intr be shaken;be disjointed;become rarefied'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaKaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'be shaken',
-        'be disjointed',
-        'become rarefied'
-      ],
-      'orig' => 'taxaloxal',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_halA_hil' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hal_hal',
-      'form' => '_hal_hal',
-      'lines' => [
-        ';; xaloxal_2',
-        'xaloxal Ndu     anklet',
-        'xalAxil Ndip    anklets'
-      ],
-      'patterns' => {
-        '_halA_hil' => [
-          'KaRADiS'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'KaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'anklet',
-        'anklets'
-      ],
-      'orig' => 'xaloxal',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_halA_hiyl' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hal_hAl',
-      'form' => '_hal_hAl',
-      'lines' => [
-        ';; xaloxAl_1',
-        'xaloxAl Ndu     anklet',
-        'xalAxiyl        Ndip    anklets'
-      ],
-      'patterns' => {
-        '_halA_hiyl' => [
-          'KaRADIS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'anklet',
-        'anklets'
-      ],
-      'orig' => 'xaloxAl',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta_hal_hul' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'ta_hal_hul',
-      'form' => 'ta_hal_hul',
-      'lines' => [
-        ';; taxaloxul_1',
-        'taxaloxul       NduAt   rarefaction'
-      ],
-      'patterns' => {
-        'ta_hal_hul' => [
-          'TaKaRDuS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaKaRDuS',
-      'suffix' => '',
-      'glosses' => [
-        'rarefaction'
-      ],
-      'orig' => 'taxaloxul',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_hal_hal',
-      'form' => 'mu_hal_hal',
-      'lines' => [
-        ';; muxaloxal_1',
-        'muxaloxal       Nall    rarefied'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuKaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'rarefied'
-      ],
-      'orig' => 'muxaloxal',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'muta_hal_hil',
-      'form' => 'muta_hal_hil',
-      'lines' => [
-        ';; mutaxaloxil_1',
-        'mutaxaloxil     Nall    rarefied'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MutaKaRDiS',
-      'suffix' => '',
-      'glosses' => [
-        'rarefied'
-      ],
-      'orig' => 'mutaxaloxil',
-      'prefix' => ''
-    }
-  ],
-  '_hAymI' => [
-    {
-      'types' => {},
-      'entry' => '_hAymiy',
-      'form' => '_hAymiy',
-      'lines' => [
-        ';; xAyomiy_1',
-        'xAyomiy Nprop   Jaime'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Jaime'
-      ],
-      'orig' => 'xAyomiy',
-      'prefix' => ''
-    }
-  ],
-  '_h n s' => [
-    {
-      'types' => {},
-      'entry' => '_hannAs',
-      'form' => '_hannAs',
-      'lines' => [
-        ';; xan~As_1',
-        'xan~As  N       Devil'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL',
-      'suffix' => '',
-      'glosses' => [
-        'Devil'
-      ],
-      'orig' => 'xan~As',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hansA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        },
-        '_hunus' => {
-          'N' => 1
-        }
-      },
-      'entry' => '\'a_hnas',
-      'form' => '\'a_hnas',
-      'lines' => [
-        ';; Oaxonas_1',
-        'Oaxonas Nel     pug-nosed',
-        'xanosA\' N0_Nh   pug-nosed',
-        'xanosAW Nh      pug-nosed',
-        'xanosA} Nhy     pug-nosed',
-        'xunus   N       pug-nosed'
-      ],
-      'patterns' => {
-        '_hansA\'' => [
-          'FaCLA\''
-        ],
-        '_hunus' => [
-          'FuCuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'pug-nosed'
-      ],
-      'orig' => 'Oaxonas',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hansA\'',
-      'form' => '_hansA\'',
-      'lines' => [
-        ';; xanosA\'_1',
-        'xanosA\' N0      Khansa'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCLA\'',
-      'suffix' => '',
-      'glosses' => [
-        'Khansa'
-      ],
-      'orig' => 'xanosA\'',
-      'prefix' => ''
-    }
-  ],
-  '_hUr_hI' => [
-    {
-      'types' => {},
-      'entry' => '_huwr_hiy',
-      'form' => '_huwr_hiy',
-      'lines' => [
-        ';; xuwroxiy_1',
-        'xuwroxiy        Nprop   Jorge'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Jorge'
-      ],
-      'orig' => 'xuwroxiy',
-      'prefix' => ''
-    }
-  ],
-  '_h r .t' => [
-    {
-      'types' => {
-        '_hru.t' => {
-          'IV' => 1
-        },
-        '_hri.t' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_hara.t',
-      'form' => '_hara.t',
-      'lines' => [
-        ';; xaraT-ui_1',
-        'xaraT   PV      strip;lathe',
-        'xoruT   IV      strip;lathe',
-        'xoriT   IV      strip;lathe'
-      ],
-      'patterns' => {
-        '_hru.t' => [
-          'FCuL'
-        ],
-        '_hri.t' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'strip',
-        'lathe'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL',
-        'FCiL'
-      ],
-      'orig' => 'xaraT-ui',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_harri.t' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_harra.t',
-      'form' => '_harra.t',
-      'lines' => [
-        ';; xar~aT_1',
-        'xar~aT  PV      mince;chop',
-        'xar~iT  IV_yu   mince;chop'
-      ],
-      'patterns' => {
-        '_harri.t' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'mince',
-        'chop'
-      ],
-      'orig' => 'xar~aT',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'n_hari.t' => {
-          'IV' => 1
-        }
-      },
-      'entry' => 'in_hara.t',
-      'form' => 'in_hara.t',
-      'lines' => [
-        ';; AinoxaraT_1',
-        'AinoxaraT       PV      join;penetrate',
-        'noxariT IV      join;penetrate'
-      ],
-      'patterns' => {
-        'n_hari.t' => [
-          'NFaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'InFaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'join',
-        'penetrate'
-      ],
-      'orig' => 'AinoxaraT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_harrA.t',
-      'form' => '_harrA.t',
-      'lines' => [
-        ';; xar~AT_1',
-        'xar~AT  N0      Kharrat'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL',
-      'suffix' => '',
-      'glosses' => [
-        'Kharrat'
-      ],
-      'orig' => 'xar~AT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_harrA.t',
-      'form' => '_harrA.t',
-      'lines' => [
-        ';; xar~AT_2',
-        'xar~AT  Nall    storyteller;braggart'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL',
-      'suffix' => '',
-      'glosses' => [
-        'storyteller',
-        'braggart'
-      ],
-      'orig' => 'xar~AT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_harrA.t',
-      'form' => '_harrA.t',
-      'lines' => [
-        ';; xar~AT_3',
-        'xar~AT  Nall    machinist;turner'
-      ],
-      'patterns' => {},
-      'index' => '3',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL',
-      'suffix' => '',
-      'glosses' => [
-        'machinist',
-        'turner'
-      ],
-      'orig' => 'xar~AT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hirA.t',
-      'form' => '_hirA.taT',
-      'lines' => [
-        ';; xirATap_1',
-        'xirAT   Nap     turner\'s trade'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'turner\'s trade'
-      ],
-      'orig' => 'xirATap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hurA.t',
-      'form' => '_hurA.taT',
-      'lines' => [
-        ';; xurATap_1',
-        'xurAT   Nap     shavings'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'shavings'
-      ],
-      'orig' => 'xurATap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_harA\'i.t' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hariy.t',
-      'form' => '_hariy.taT',
-      'lines' => [
-        ';; xariyTap_1',
-        'xariyT  Napdu   map;chart',
-        'xarA}iT Ndip    maps;charts'
-      ],
-      'patterns' => {
-        '_harA\'i.t' => [
-          'FaCA\'iL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'map',
-        'chart',
-        'maps',
-        'charts'
-      ],
-      'orig' => 'xariyTap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_harA\'i.t',
-      'form' => '_harA\'i.tiyy',
-      'lines' => [
-        ';; xarA}iTiy~_1',
-        'xarA}iTiy~      Nall    cartographic     [[xarA}iTiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCA\'iL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'cartographic'
-      ],
-      'orig' => 'xarA}iTiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ma_hAri.t' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'mi_hra.t',
-      'form' => 'mi_hra.taT',
-      'lines' => [
-        ';; mixoraTap_1',
-        'mixoraT Napdu   lathe',
-        'maxAriT Ndip    lathes'
-      ],
-      'patterns' => {
-        'ma_hAri.t' => [
-          'MaFACiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MiFCaL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'lathe',
-        'lathes'
-      ],
-      'orig' => 'mixoraTap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'in_hirA.t' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'in_hirA.t',
-      'form' => 'in_hirA.t',
-      'lines' => [
-        ';; AinoxirAT_1',
-        'AinoxirAT       NduAt   joining;entry'
-      ],
-      'patterns' => {
-        'in_hirA.t' => [
-          'InFiCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'InFiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'joining',
-        'entry'
-      ],
-      'orig' => 'AinoxirAT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hAri.t',
-      'form' => '_hAri.taT',
-      'lines' => [
-        ';; xAriTap_1',
-        'xAriT   NapAt   map;chart'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACiL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'map',
-        'chart'
-      ],
-      'orig' => 'xAriTap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ma_hruw.t',
-      'form' => 'ma_hruw.t',
-      'lines' => [
-        ';; maxoruwT_1',
-        'maxoruwT        N/ap    cone;conic'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MaFCUL',
-      'suffix' => '',
-      'glosses' => [
-        'cone',
-        'conic'
-      ],
-      'orig' => 'maxoruwT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ma_hruw.t',
-      'form' => 'ma_hruw.tiyy',
-      'lines' => [
-        ';; maxoruwTiy~_1',
-        'maxoruwTiy~     Nall    conical     [[maxoruwTiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MaFCUL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'conical'
-      ],
-      'orig' => 'maxoruwTiy~',
-      'prefix' => ''
-    }
-  ],
-  '_h .d .d' => [
-    {
-      'types' => {
-        '_ha.da.d' => {
-          'PV_C' => 1
-        },
-        '_h.da.d' => {
-          'IV_C' => 1
-        }
-      },
-      'entry' => '_ha.d.d',
-      'form' => '_ha.d.d',
-      'lines' => [
-        ';; xaD~-a_1',
-        'xaD~    PV_V    shock;frighten',
-        'xaDaD   PV_C    shock;frighten',
-        'xaD~    IV_V    shock;frighten',
-        'xoDaD   IV_C    shock;frighten'
-      ],
-      'patterns' => {
-        '_ha.da.d' => [
-          'FaCaL'
-        ],
-        '_h.da.d' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCL',
-      'glosses' => [
-        'shock',
-        'frighten'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'xaD~-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha.d.d',
-      'form' => '_ha.d.d',
-      'lines' => [
-        ';; xaD~_1',
-        'xaD~    N       jolt;scare'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'jolt',
-        'scare'
-      ],
-      'orig' => 'xaD~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha.d.d',
-      'form' => '_ha.d.daT',
-      'lines' => [
-        ';; xaD~ap_1',
-        'xaD~    Nap     shock;jolt'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'shock',
-        'jolt'
-      ],
-      'orig' => 'xaD~ap',
-      'prefix' => ''
-    }
-  ],
-  '_hayrAllh' => [
-    {
-      'types' => {
-        '_hayrAlll_ah' => {
-          'N0' => 1
-        }
-      },
-      'entry' => '_hayrAllh',
-      'form' => '_hayrAllh',
-      'lines' => [
-        ';; xayorAllh_1',
-        'xayorAll~`h     N0      Khairallah;Kheirallah;Khairullah'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Khairallah',
-        'Kheirallah',
-        'Khairullah'
-      ],
-      'orig' => 'xayorAllh',
-      'prefix' => ''
-    }
-  ],
-  '_h m d' => [
-    {
-      'types' => {
-        '_hmud' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_hamad',
-      'form' => '_hamad',
-      'lines' => [
-        ';; xamad-u_1',
-        'xamad   PV      go out;calm down;die down',
-        'xomud   IV      go out;calm down;die down'
-      ],
-      'patterns' => {
-        '_hmud' => [
-          'FCuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'go out',
-        'calm down',
-        'die down'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'xamad-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hmad' => {
-          'IV_Pass_yu' => 1
-        },
-        '_hmid' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '\'a_hmad',
-      'form' => '\'a_hmad',
-      'lines' => [
-        ';; Oaxomad_1',
-        'Oaxomad PV      extinguish;calm;subdue',
-        'xomid   IV_yu   extinguish;calm;subdue',
-        'xomad   IV_Pass_yu      be extinguished;be calmed;be subdued'
-      ],
-      'patterns' => {
-        '_hmad' => [
-          'FCaL'
-        ],
-        '_hmid' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'extinguish',
-        'calm',
-        'subdue',
-        'be extinguished',
-        'be calmed',
-        'be subdued'
-      ],
-      'orig' => 'Oaxomad',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_humuwd',
-      'form' => '_humuwd',
-      'lines' => [
-        ';; xumuwd_1',
-        'xumuwd  N       extinguishing',
-        'xumuwd  N       deterioration',
-        'xumuwd  N       tranquillity'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCUL',
-      'suffix' => '',
-      'glosses' => [
-        'extinguishing',
-        'deterioration',
-        'tranquillity'
-      ],
-      'orig' => 'xumuwd',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'i_hmAd' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => '\'i_hmAd',
-      'form' => '\'i_hmAd',
-      'lines' => [
-        ';; IixomAd_1',
-        'IixomAd NduAt   extinguishing'
-      ],
-      'patterns' => {
-        '\'i_hmAd' => [
-          'HiFCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HiFCAL',
-      'suffix' => '',
-      'glosses' => [
-        'extinguishing'
-      ],
-      'orig' => 'IixomAd',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'i_hmAd' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => '\'i_hmAd',
-      'form' => '\'i_hmAd',
-      'lines' => [
-        ';; IixomAd_2',
-        'IixomAd NduAt   quelling;subduing'
-      ],
-      'patterns' => {
-        '\'i_hmAd' => [
-          'HiFCAL'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'HiFCAL',
-      'suffix' => '',
-      'glosses' => [
-        'quelling',
-        'subduing'
-      ],
-      'orig' => 'IixomAd',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hAmid',
-      'form' => '_hAmid',
-      'lines' => [
-        ';; xAmid_1',
-        'xAmid   Nall    dying;subsiding;tranquil     [[xAmid/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [
-        'dying',
-        'subsiding',
-        'tranquil'
-      ],
-      'orig' => 'xAmid',
-      'prefix' => ''
-    }
-  ],
-  '_h r n q' => [
-    {
-      'types' => {
-        '_harAniq' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hirniq',
-      'form' => '_hirniq',
-      'lines' => [
-        ';; xironiq_1',
-        'xironiq N       hare;leveret',
-        'xarAniq Ndip    hares;leverets'
-      ],
-      'patterns' => {
-        '_harAniq' => [
-          'KaRADiS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KiRDiS',
-      'suffix' => '',
-      'glosses' => [
-        'hare',
-        'leveret',
-        'hares',
-        'leverets'
-      ],
-      'orig' => 'xironiq',
-      'prefix' => ''
-    }
-  ],
-  '_h l y' => [
-    {
-      'types' => {
-        '\'a_hliyA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => '_haliyy',
-      'form' => '_haliyy',
-      'lines' => [
-        ';; xaliy~_1',
-        'xaliy~  N/ap    free;devoid     [[xaliy~/ADJ]]',
-        'OaxoliyA\'       N0_Nh   free;devoid',
-        'OaxoliyAW       Nh      free;devoid',
-        'OaxoliyA}       Nhy     free;devoid'
-      ],
-      'patterns' => {
-        '\'a_hliyA\'' => [
-          'HaFCiLA\''
-        ]
-      },
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCIL',
-      'suffix' => '',
-      'glosses' => [
-        'free',
-        'devoid'
-      ],
-      'orig' => 'xaliy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_halAyY' => {
-          'N0_Nhy' => 1
-        }
-      },
-      'entry' => '_haliyy',
-      'form' => '_haliyyaT',
-      'lines' => [
-        ';; xaliy~ap_1',
-        'xaliy~  Napdu   cell',
-        'xalAyA  N0_Nhy  cells'
-      ],
-      'patterns' => {
-        '_halAyY' => [
-          'FaCALY'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'cell',
-        'cells'
-      ],
-      'orig' => 'xaliy~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_halAyY' => {
-          'N0_Nhy' => 1
-        }
-      },
-      'entry' => '_haliyy',
-      'form' => '_haliyyaT',
-      'lines' => [
-        ';; xaliy~ap_2',
-        'xaliy~  Napdu   beehive',
-        'xalAyA  N0_Nhy  beehives'
-      ],
-      'patterns' => {
-        '_halAyY' => [
-          'FaCALY'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'beehive',
-        'beehives'
-      ],
-      'orig' => 'xaliy~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_hliy',
-      'form' => 'ta_hliyaT',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaFCI |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [],
-      'orig' => 'taxoliyap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hAliy',
-      'form' => '_hAliy',
-      'lines' => [],
-      'patterns' => {
-        '_hAliy' => [
-          'FACI'
-        ],
-        '_hAl' => []
-      },
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACI',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'xAliy',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hawAliy',
-      'form' => '_hawAliy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FawACI',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'xawAliy',
-      'prefix' => ''
-    }
-  ],
-  'ya_h.dUr' => [
-    {
-      'types' => {},
-      'entry' => 'ya_h.duwr',
-      'form' => 'ya_h.duwr',
-      'lines' => [
-        ';; yaxoDuwr_1',
-        'yaxoDuwr        N       chlorophyll'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'chlorophyll'
-      ],
-      'orig' => 'yaxoDuwr',
-      'prefix' => ''
-    }
-  ],
-  '_h r b .t' => [
-    {
-      'types' => {
-        '_harbi.t' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_harba.t',
-      'form' => '_harba.t',
-      'lines' => [
-        ';; xarobaT_1',
-        'xarobaT PV      disarrange;confuse',
-        'xarobiT IV_yu   disarrange;confuse'
-      ],
-      'patterns' => {
-        '_harbi.t' => [
-          'KaRDiS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'KaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'disarrange',
-        'confuse'
-      ],
-      'orig' => 'xarobaT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_harba.t',
-      'form' => '_harba.taT',
-      'lines' => [
-        ';; xarobaTap_1',
-        'xarobaT Nap     disorder;confusion'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDaS |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'disorder',
-        'confusion'
-      ],
-      'orig' => 'xarobaTap',
-      'prefix' => ''
-    }
-  ],
-  '_h r .t .t' => [
-    {
-      'types' => {},
-      'entry' => '_har.tiy.t',
-      'form' => '_har.tiy.t',
-      'lines' => [
-        ';; xaroTiyT_1',
-        'xaroTiyT        Ndu     rhinoceros'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDIS',
-      'suffix' => '',
-      'glosses' => [
-        'rhinoceros'
-      ],
-      'orig' => 'xaroTiyT',
-      'prefix' => ''
-    }
-  ],
-  '_h .d d' => [
-    {
-      'types' => {
-        '_h.did' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_ha.dad',
-      'form' => '_ha.dad',
-      'lines' => [
-        ';; xaDad-i_1',
-        'xaDad   PV      cut off;restrain;tame',
-        'xoDid   IV      cut off;restrain;tame'
-      ],
-      'patterns' => {
-        '_h.did' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'cut off',
-        'restrain',
-        'tame'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xaDad-i',
-      'prefix' => ''
-    }
-  ],
-  '_h b y' => [
-    {
-      'types' => {
-        '_hbY' => {
-          'IV_0_Pass_yu' => 1
-        },
-        '_hbuw' => {
-          'IV_0hAnn' => 1
-        },
-        '_hb' => {
-          'IV_0hwnyn' => 1
-        },
-        '_hab' => {
-          'PV_ttAw' => 1
-        },
-        '_habaw' => {
-          'PV_Atn' => 1
-        }
-      },
-      'entry' => '_habA',
-      'form' => '_habA',
-      'lines' => [
-        ';; xabA-u_1',
-        'xabA    PV_0    die out',
-        'xabaw   PV_Atn  die out',
-        'xab     PV_ttAw die out',
-        'xobuw   IV_0hAnn        die out',
-        'xob     IV_0hwnyn       die out',
-        'xobaY   IV_0_Pass_yu    die out'
-      ],
-      'patterns' => {
-        '_hbY' => [
-          'FCY'
-        ],
-        '_hbuw' => [
-          'FCU'
-        ],
-        '_hab' => [
-          'FaC'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCA',
-      'glosses' => [
-        'die out'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'xabA-u',
-      'prefix' => ''
-    }
-  ],
-  '_harman^g' => [
-    {
-      'types' => {},
-      'entry' => '_harman^g',
-      'form' => '_harman^giyy',
-      'lines' => [
-        ';; xaromanojiy~_1',
-        'xaromanojiy~    Nall    tobacco tester     [[xaromanojiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'tobacco tester'
-      ],
-      'orig' => 'xaromanojiy~',
-      'prefix' => ''
-    }
-  ],
-  '_h r t t' => [
-    {
-      'types' => {},
-      'entry' => '_hartiyt',
-      'form' => '_hartiyt',
-      'lines' => [
-        ';; xartiyt_1',
-        'xartiyt N       rhinoceros'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDIS',
-      'suffix' => '',
-      'glosses' => [
-        'rhinoceros'
-      ],
-      'orig' => 'xartiyt',
-      'prefix' => ''
-    }
-  ],
-  '_h w z q' => [
-    {
-      'types' => {
-        '_hawziq' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_hawzaq',
-      'form' => '_hawzaq',
-      'lines' => [
-        ';; xawozaq_1',
-        'xawozaq PV      impale;corner',
-        'xawoziq IV_yu   impale;corner'
-      ],
-      'patterns' => {
-        '_hawziq' => [
-          'KaRDiS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'KaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'impale',
-        'corner'
-      ],
-      'orig' => 'xawozaq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hawzaq',
-      'form' => '_hawzaqaT',
-      'lines' => [
-        ';; xawozaqap_1',
-        'xawozaq NapAt   impaling;cornering'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDaS |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'impaling',
-        'cornering'
-      ],
-      'orig' => 'xawozaqap',
-      'prefix' => ''
-    }
-  ],
-  '_h l .s' => [
-    {
-      'types' => {
-        '_hlu.s' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => '_hala.s',
-      'form' => '_hala.s',
-      'lines' => [
-        ';; xalaS-u_1',
-        'xalaS   PV_intr conclude',
-        'xoluS   IV_intr conclude'
-      ],
-      'patterns' => {
-        '_hlu.s' => [
-          'FCuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'conclude'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'xalaS-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_halli.s' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_halla.s',
-      'form' => '_halla.s',
-      'lines' => [
-        ';; xal~aS_1',
-        'xal~aS  PV      purify;refine;clarify',
-        'xal~iS  IV_yu   purify;refine;clarify'
-      ],
-      'patterns' => {
-        '_halli.s' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'purify',
-        'refine',
-        'clarify'
-      ],
-      'orig' => 'xal~aS',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hAli.s' => {
-          'IV_intr_yu' => 1
-        }
-      },
-      'entry' => '_hAla.s',
-      'form' => '_hAla.s',
-      'lines' => [
-        ';; xAlaS_1',
-        'xAlaS   PV_intr be sincere;treat fairly',
-        'xAliS   IV_intr_yu      be sincere;treat fairly'
-      ],
-      'patterns' => {
-        '_hAli.s' => [
-          'FACiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FACaL',
-      'suffix' => '',
-      'glosses' => [
-        'be sincere',
-        'treat fairly'
-      ],
-      'orig' => 'xAlaS',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hli.s' => {
-          'IV_intr_yu' => 1
-        }
-      },
-      'entry' => '\'a_hla.s',
-      'form' => '\'a_hla.s',
-      'lines' => [
-        ';; OaxolaS_1',
-        'OaxolaS PV_intr be devoted;dedicate',
-        'xoliS   IV_intr_yu      be devoted;dedicate'
-      ],
-      'patterns' => {
-        '_hli.s' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'be devoted',
-        'dedicate'
-      ],
-      'orig' => 'OaxolaS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_halla.s',
-      'form' => 'ta_halla.s',
-      'lines' => [
-        ';; taxal~aS_1',
-        'taxal~aS        PV      get rid of',
-        'taxal~aS        IV      get rid of'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'get rid of'
-      ],
-      'orig' => 'taxal~aS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_hAla.s',
-      'form' => 'ta_hAla.s',
-      'lines' => [
-        ';; taxAlaS_1',
-        'taxAlaS PV      act with integrity',
-        'taxAlaS IV      act with integrity'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFACaL',
-      'suffix' => '',
-      'glosses' => [
-        'act with integrity'
-      ],
-      'orig' => 'taxAlaS',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'sta_hli.s' => {
-          'IV' => 1
-        }
-      },
-      'entry' => 'ista_hla.s',
-      'form' => 'ista_hla.s',
-      'lines' => [
-        ';; AisotaxolaS_1',
-        'AisotaxolaS     PV      extract;derive',
-        'sotaxoliS       IV      extract;derive'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IstaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'extract',
-        'derive'
-      ],
-      'orig' => 'AisotaxolaS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_halA.s',
-      'form' => '_halA.s',
-      'lines' => [
-        ';; xalAS_1',
-        'xalAS   N       deliverance;settlement'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCAL',
-      'suffix' => '',
-      'glosses' => [
-        'deliverance',
-        'settlement'
-      ],
-      'orig' => 'xalAS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hulA.s',
-      'form' => '_hulA.saT',
-      'lines' => [
-        ';; xulASap_1',
-        'xulAS   Nap     gist;synopsis;summary'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'gist',
-        'synopsis',
-        'summary'
-      ],
-      'orig' => 'xulASap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_haliy.s',
-      'form' => '_haliy.s',
-      'lines' => [
-        ';; xaliyS_1',
-        'xaliyS  Nall    pure;loyal;sincere     [[xaliyS/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCIL',
-      'suffix' => '',
-      'glosses' => [
-        'pure',
-        'loyal',
-        'sincere'
-      ],
-      'orig' => 'xaliyS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_huluw.s',
-      'form' => '_huluw.s',
-      'lines' => [
-        ';; xuluwS_1',
-        'xuluwS  N       clearness;candor'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCUL',
-      'suffix' => '',
-      'glosses' => [
-        'clearness',
-        'candor'
-      ],
-      'orig' => 'xuluwS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ma_hla.s',
-      'form' => 'ma_hla.s',
-      'lines' => [
-        ';; maxolaS_1',
-        'maxolaS Ndu     refuge;deliverance'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'refuge',
-        'deliverance'
-      ],
-      'orig' => 'maxolaS',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta_hliy.s' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'ta_hliy.s',
-      'form' => 'ta_hliy.s',
-      'lines' => [
-        ';; taxoliyS_1',
-        'taxoliyS        NduAt   refining;clearing'
-      ],
-      'patterns' => {
-        'ta_hliy.s' => [
-          'TaFCIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaFCIL',
-      'suffix' => '',
-      'glosses' => [
-        'refining',
-        'clearing'
-      ],
-      'orig' => 'taxoliyS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_hAla.s',
-      'form' => 'mu_hAla.saT',
-      'lines' => [
-        ';; muxAlaSap_1',
-        'muxAlaS NapAt   receipt'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFACaL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'receipt'
-      ],
-      'orig' => 'muxAlaSap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'i_hlA.s' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => '\'i_hlA.s',
-      'form' => '\'i_hlA.s',
-      'lines' => [
-        ';; IixolAS_1',
-        'IixolAS NduAt   fidelity;sincerity'
-      ],
-      'patterns' => {
-        '\'i_hlA.s' => [
-          'HiFCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HiFCAL',
-      'suffix' => '',
-      'glosses' => [
-        'fidelity',
-        'sincerity'
-      ],
-      'orig' => 'IixolAS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'i_hlA.s',
-      'form' => '\'i_hlA.s',
-      'lines' => [
-        ';; IixolAS_2',
-        'IixolAS Nprop   Ikhlas'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'HiFCAL',
-      'suffix' => '',
-      'glosses' => [
-        'Ikhlas'
-      ],
-      'orig' => 'IixolAS',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta_hallu.s' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'ta_hallu.s',
-      'form' => 'ta_hallu.s',
-      'lines' => [
-        ';; taxal~uS_1',
-        'taxal~uS        NduAt   freedom;riddance;escape'
-      ],
-      'patterns' => {
-        'ta_hallu.s' => [
-          'TaFaCCuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaFaCCuL',
-      'suffix' => '',
-      'glosses' => [
-        'freedom',
-        'riddance',
-        'escape'
-      ],
-      'orig' => 'taxal~uS',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'isti_hlA.s' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'isti_hlA.s',
-      'form' => 'isti_hlA.s',
-      'lines' => [
-        ';; AisotixolAS_1',
-        'AisotixolAS     NduAt   extraction;summing-up;derivation'
-      ],
-      'patterns' => {
-        'isti_hlA.s' => [
-          'IstiFCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IstiFCAL',
-      'suffix' => '',
-      'glosses' => [
-        'extraction',
-        'summing-up',
-        'derivation'
-      ],
-      'orig' => 'AisotixolAS',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hulla.s' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_hAli.s',
-      'form' => '_hAli.s',
-      'lines' => [
-        ';; xAliS_1',
-        'xAliS   N-ap    pure;clear     [[xAliS/ADJ]]',
-        'xul~aS  N       pure;clear'
-      ],
-      'patterns' => {
-        '_hulla.s' => [
-          'FuCCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [
-        'pure',
-        'clear'
-      ],
-      'orig' => 'xAliS',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hulla.s' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_hAli.s',
-      'form' => '_hAli.s',
-      'lines' => [
-        ';; xAliS_2',
-        'xAliS   N-ap    sincere     [[xAliS/ADJ]]',
-        'xul~aS  N       sincere'
-      ],
-      'patterns' => {
-        '_hulla.s' => [
-          'FuCCaL'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [
-        'sincere'
-      ],
-      'orig' => 'xAliS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_halli.s',
-      'form' => 'mu_halli.s',
-      'lines' => [
-        ';; muxal~iS_1',
-        'muxal~iS        Nall    liberator;savior'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFaCCiL',
-      'suffix' => '',
-      'glosses' => [
-        'liberator',
-        'savior'
-      ],
-      'orig' => 'muxal~iS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_halla.s',
-      'form' => 'mu_halla.s',
-      'lines' => [
-        ';; muxal~aS_1',
-        'muxal~aS        N       cleared     [[muxal~aS/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'cleared'
-      ],
-      'orig' => 'muxal~aS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_hli.s',
-      'form' => 'mu_hli.s',
-      'lines' => [
-        ';; muxoliS_1',
-        'muxoliS Nall    sincere;loyal     [[muxoliS/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFCiL',
-      'suffix' => '',
-      'glosses' => [
-        'sincere',
-        'loyal'
-      ],
-      'orig' => 'muxoliS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'musta_hla.s',
-      'form' => 'musta_hla.s',
-      'lines' => [
-        ';; musotaxolaS_1',
-        'musotaxolaS     Nall    extract;excerpt'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MustaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'extract',
-        'excerpt'
-      ],
-      'orig' => 'musotaxolaS',
-      'prefix' => ''
-    }
-  ],
-  '_hwAn' => [
-    {
-      'types' => {},
-      'entry' => '_hwAn',
-      'form' => '_hwAn',
-      'lines' => [
-        ';; xwAn_1',
-        'xwAn    Nprop   Juan'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Juan'
-      ],
-      'orig' => 'xwAn',
-      'prefix' => ''
-    }
-  ],
-  '_h \' k' => [
-    {
-      'types' => {},
-      'entry' => '_hAk',
-      'form' => '_hAkiyy',
-      'lines' => [
-        ';; xAkiy~_1',
-        'xAkiy~  Nall    khaki     [[xAkiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'khaki'
-      ],
-      'orig' => 'xAkiy~',
-      'prefix' => ''
-    }
-  ],
-  '_h b .s' => [
-    {
-      'types' => {
-        '_hbi.s' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_haba.s',
-      'form' => '_haba.s',
-      'lines' => [
-        ';; xabaS-i_1',
-        'xabaS   PV      mix;mingle',
-        'xobiS   IV      mix;mingle'
-      ],
-      'patterns' => {
-        '_hbi.s' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'mix',
-        'mingle'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xabaS-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_habbi.s' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_habba.s',
-      'form' => '_habba.s',
-      'lines' => [
-        ';; xab~aS_1',
-        'xab~aS  PV      mix;muddle',
-        'xab~iS  IV_yu   mix;muddle'
-      ],
-      'patterns' => {
-        '_habbi.s' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'mix',
-        'muddle'
-      ],
-      'orig' => 'xab~aS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_habiy.s',
-      'form' => '_habiy.s',
-      'lines' => [
-        ';; xabiyS_1',
-        'xabiyS  N       medley;mishmash',
-        'xabiyS  Nap     medley;mishmash',
-        'xabiyS  Nap     khabisah (food)'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL',
-      'suffix' => '',
-      'glosses' => [
-        'medley',
-        'mishmash',
-        'khabisah (food)'
-      ],
-      'orig' => 'xabiyS',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_habbA.s',
-      'form' => '_habbA.s',
-      'lines' => [
-        ';; xab~AS_1',
-        'xab~AS  Nall    reckless;bungler'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL',
-      'suffix' => '',
-      'glosses' => [
-        'reckless',
-        'bungler'
-      ],
-      'orig' => 'xab~AS',
-      'prefix' => ''
-    }
-  ],
-  '_halan^g' => [
-    {
-      'types' => {},
-      'entry' => '_halan^g',
-      'form' => '_halan^g',
-      'lines' => [
-        ';; xalanoj_1',
-        'xalanoj N       heath'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'heath'
-      ],
-      'orig' => 'xalanoj',
-      'prefix' => ''
-    }
-  ],
-  '_h _d y' => [
-    {
-      'types' => {
-        'sta_h_dY' => {
-          'IV_0' => 1
-        },
-        'ista_h_day' => {
-          'PV_Atn' => 1
-        },
-        'ista_h_d' => {
-          'PV_ttAw' => 1
-        },
-        'sta_h_diy' => {
-          'IV_0hAnn' => 1
-        },
-        'ista_h_dA' => {
-          'PV_h' => 1
-        },
-        'sta_h_d' => {
-          'IV_0hwnyn' => 1
-        }
-      },
-      'entry' => 'ista_h_dY',
-      'form' => 'ista_h_dY',
-      'lines' => [
-        ';; Aisotaxo*aY_1',
-        'Aisotaxo*aY     PV_0    submit;be servile',
-        'Aisotaxo*A      PV_h    submit;be servile',
-        'Aisotaxo*ay     PV_Atn  submit;be servile',
-        'Aisotaxo*       PV_ttAw submit;be servile',
-        'sotaxo*iy       IV_0hAnn        submit;be servile',
-        'sotaxo* IV_0hwnyn       submit;be servile',
-        'sotaxo*aY       IV_0    submit;be servile'
-      ],
-      'patterns' => {
-        'ista_h_day' => [
-          'IstaFCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IstaFCY',
-      'suffix' => '',
-      'glosses' => [
-        'submit',
-        'be servile'
-      ],
-      'orig' => 'Aisotaxo*aY',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'isti_h_dA\'' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'isti_h_dA\'',
-      'form' => 'isti_h_dA\'',
-      'lines' => [
-        ';; Aisotixo*A\'_1',
-        'Aisotixo*A\'     N0_Nh   subservience;servility',
-        'Aisotixo*AW     Nh      subservience;servility',
-        'Aisotixo*A}     Nhy     subservience;servility',
-        'Aisotixo*A\'     NAt     subservience;servility'
-      ],
-      'patterns' => {
-        'isti_h_dA\'' => [
-          'IstiFCA\''
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IstiFCA\'',
-      'suffix' => '',
-      'glosses' => [
-        'subservience',
-        'servility'
-      ],
-      'orig' => 'Aisotixo*A\'',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'musta_h_d' => {
-          'Nuwn_Niyn' => 1
-        },
-        'musta_h_diy' => {
-          'NapAt' => 1
-        }
-      },
-      'entry' => 'musta_h_diy',
-      'form' => 'musta_h_diy',
-      'lines' => [
-        ';; musotaxo*iy_1',
-        'musotaxo*iy     N0F_Nh  submissive;obedient',
-        'musotaxo*       NK      submissive;obedient',
-        'musotaxo*iy     NAn_Nayn        submissive;obedient',
-        'musotaxo*       Nuwn_Niyn       submissive;obedient',
-        'musotaxo*iy     NapAt   submissive;obedient'
-      ],
-      'patterns' => {
-        'musta_h_d' => [],
-        'musta_h_diy' => [
-          'MustaFCI'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MustaFCI',
-      'suffix' => '',
-      'glosses' => [
-        'submissive',
-        'obedient'
-      ],
-      'orig' => 'musotaxo*iy',
-      'prefix' => ''
-    }
-  ],
-  '_hidIw' => [
-    {
-      'types' => {},
-      'entry' => '_hidiyw',
-      'form' => '_hidiyw',
-      'lines' => [
-        ';; xidiyw_1',
-        'xidiyw  N       khedive'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'khedive'
-      ],
-      'orig' => 'xidiyw',
-      'prefix' => ''
-    }
-  ],
-  '_h .s l' => [
-    {
-      'types' => {
-        '_hu.sal' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_hu.sl',
-      'form' => '_hu.slaT',
-      'lines' => [
-        ';; xuSolap_1',
-        'xuSol   NapAt   bunch;cluster',
-        'xuSal   N       bunches;tufts;wisps'
-      ],
-      'patterns' => {
-        '_hu.sal' => [
-          'FuCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'bunch',
-        'cluster',
-        'bunches',
-        'tufts',
-        'wisps'
-      ],
-      'orig' => 'xuSolap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha.sl',
-      'form' => '_ha.slaT',
-      'lines' => [
-        ';; xaSolap_1',
-        'xaSol   Nap     characteristic'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'characteristic'
-      ],
-      'orig' => 'xaSolap',
-      'prefix' => ''
-    }
-  ],
-  '_hurAsAn' => [
-    {
-      'types' => {},
-      'entry' => '_hurAsAn',
-      'form' => '_hurAsAn',
-      'lines' => [
-        ';; xurAsAn_1',
-        'xurAsAn Ndip    Khurasan'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Khurasan'
-      ],
-      'orig' => 'xurAsAn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hurAsAn',
-      'form' => '_hurAsAniyy',
-      'lines' => [
-        ';; xurAsAniy~_1',
-        'xurAsAniy~      Nall    from/of Khurasan     [[xurAsAniy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'from/of Khurasan'
-      ],
-      'orig' => 'xurAsAniy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hurAsAn',
-      'form' => '_hurAsAniyy',
-      'lines' => [
-        ';; xurAsAniy~_2',
-        'xurAsAniy~      N0      Khurasani'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Khurasani'
-      ],
-      'orig' => 'xurAsAniy~',
-      'prefix' => ''
-    }
-  ],
-  '_h b b' => [
-    {
-      'types' => {
-        '_hubb' => {
-          'IV_V' => 1
-        },
-        '_hbub' => {
-          'IV_C' => 1
-        },
-        '_habab' => {
-          'PV_C' => 1
-        }
-      },
-      'entry' => '_habb',
-      'form' => '_habb',
-      'lines' => [
-        ';; xab~-u_1',
-        'xab~    PV_V    trot;jog;surge',
-        'xabab   PV_C    trot;jog;surge',
-        'xub~    IV_V    trot;jog;surge',
-        'xobub   IV_C    trot;jog;surge'
-      ],
-      'patterns' => {
-        '_hubb' => [
-          'FuCL'
-        ],
-        '_hbub' => [
-          'FCuL'
-        ],
-        '_habab' => [
-          'FaCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCL',
-      'glosses' => [
-        'trot',
-        'jog',
-        'surge'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'xab~-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_habab' => {
-          'PV_C' => 1
-        },
-        '_hbab' => {
-          'IV_C' => 1
-        }
-      },
-      'entry' => '_habb',
-      'form' => '_habb',
-      'lines' => [
-        ';; xab~-a_1',
-        'xab~    PV_V    circumvent;trick',
-        'xabab   PV_C    circumvent;trick',
-        'xab~    IV_V    circumvent;trick',
-        'xobab   IV_C    circumvent;trick'
-      ],
-      'patterns' => {
-        '_habab' => [
-          'FaCaL'
-        ],
-        '_hbab' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCL',
-      'glosses' => [
-        'circumvent',
-        'trick'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'xab~-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_habbab',
-      'form' => 'ta_habbab',
-      'lines' => [
-        ';; taxab~ab_1',
-        'taxab~ab        PV      amble;trot',
-        'taxab~ab        IV      amble;trot'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'amble',
-        'trot'
-      ],
-      'orig' => 'taxab~ab',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_htabb' => {
-          'IV_V' => 1
-        },
-        'i_htabab' => {
-          'PV_C' => 1
-        },
-        '_htabib' => {
-          'IV_C' => 1
-        }
-      },
-      'entry' => 'i_htabb',
-      'form' => 'i_htabb',
-      'lines' => [
-        ';; Aixotab~_1',
-        'Aixotab~        PV_V    amble;trot',
-        'Aixotabab       PV_C    amble;trot',
-        'xotab~  IV_V    amble;trot',
-        'xotabib IV_C    amble;trot'
-      ],
-      'patterns' => {
-        '_htabb' => [
-          'FtaCL'
-        ],
-        'i_htabab' => [
-          'IFtaCaL'
-        ],
-        '_htabib' => [
-          'FtaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFtaCL',
-      'suffix' => '',
-      'glosses' => [
-        'amble',
-        'trot'
-      ],
-      'orig' => 'Aixotab~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_habab',
-      'form' => '_habab',
-      'lines' => [
-        ';; xabab_1',
-        'xabab   N       amble;trot'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'amble',
-        'trot'
-      ],
-      'orig' => 'xabab',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_habb',
-      'form' => '_habb',
-      'lines' => [
-        ';; xab~_1',
-        'xab~    N       surging;heaving'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'surging',
-        'heaving'
-      ],
-      'orig' => 'xab~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_habiyb',
-      'form' => '_habiyb',
-      'lines' => [
-        ';; xabiyb_1',
-        'xabiyb  N       ambling;trotting'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL',
-      'suffix' => '',
-      'glosses' => [
-        'ambling',
-        'trotting'
-      ],
-      'orig' => 'xabiyb',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_habb',
-      'form' => '_habb',
-      'lines' => [
-        ';; xab~_2',
-        'xab~    N/ap    impostor;swindler'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'impostor',
-        'swindler'
-      ],
-      'orig' => 'xab~',
-      'prefix' => ''
-    }
-  ],
-  '_h w _h' => [
-    {
-      'types' => {
-        '_haw_h' => {
-          'NapAt' => 2
-        }
-      },
-      'entry' => '_haw_h',
-      'form' => '_haw_h',
-      'lines' => [
-        ';; xawox_1',
-        'xawox   N       peach',
-        'xawox   N       plum',
-        'xawox   NapAt   peach',
-        'xawox   NapAt   plum'
-      ],
-      'patterns' => {
-        '_haw_h' => [
-          'FaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'peach',
-        'plum'
-      ],
-      'orig' => 'xawox',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hawwi_h' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_hawwa_h',
-      'form' => '_hawwa_h',
-      'lines' => [
-        ';; xaw~ax_1',
-        'xaw~ax  PV      rot;decay;spoil',
-        'xaw~ix  IV_yu   rot;decay;spoil'
-      ],
-      'patterns' => {
-        '_hawwi_h' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'rot',
-        'decay',
-        'spoil'
-      ],
-      'orig' => 'xaw~ax',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_huwa_h' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_haw_h',
-      'form' => '_haw_haT',
-      'lines' => [
-        ';; xawoxap_1',
-        'xawox   Napdu   alley;passage;wicket',
-        'xuwax   N       alleys;passages;wickets'
-      ],
-      'patterns' => {
-        '_huwa_h' => [
-          'FuCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'alley',
-        'passage',
-        'wicket',
-        'alleys',
-        'passages',
-        'wickets'
-      ],
-      'orig' => 'xawoxap',
-      'prefix' => ''
-    }
-  ],
-  '_h .d b' => [
-    {
-      'types' => {
-        '_h.dib' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_ha.dab',
-      'form' => '_ha.dab',
-      'lines' => [
-        ';; xaDab-i_1',
-        'xaDab   PV      dye;colorize',
-        'xoDib   IV      dye;colorize'
-      ],
-      'patterns' => {
-        '_h.dib' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'dye',
-        'colorize'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xaDab-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_h.dib' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => '_ha.dab',
-      'form' => '_ha.dab',
-      'lines' => [
-        ';; xaDab-i_2',
-        'xaDab   PV_intr become green',
-        'xoDib   IV_intr become green'
-      ],
-      'patterns' => {
-        '_h.dib' => [
-          'FCiL'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'become green'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xaDab-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_h.dab' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => '_ha.dib',
-      'form' => '_ha.dib',
-      'lines' => [
-        ';; xaDib-a_1',
-        'xaDib   PV_intr become green',
-        'xoDab   IV_intr become green'
-      ],
-      'patterns' => {
-        '_h.dab' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCiL',
-      'glosses' => [
-        'become green'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'xaDib-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_ha.d.dib' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_ha.d.dab',
-      'form' => '_ha.d.dab',
-      'lines' => [
-        ';; xaD~ab_1',
-        'xaD~ab  PV      color;dye;stain',
-        'xaD~ib  IV_yu   color;dye;stain'
-      ],
-      'patterns' => {
-        '_ha.d.dib' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'color',
-        'dye',
-        'stain'
-      ],
-      'orig' => 'xaD~ab',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_h.daw.dib' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'i_h.daw.dab',
-      'form' => 'i_h.daw.dab',
-      'lines' => [
-        ';; AixoDawoDab_1',
-        'AixoDawoDab     PV_intr become green',
-        'xoDawoDib       IV_intr become green'
-      ],
-      'patterns' => {
-        '_h.daw.dib' => [
-          'FCawCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFCawCaL',
-      'suffix' => '',
-      'glosses' => [
-        'become green'
-      ],
-      'orig' => 'AixoDawoDab',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha.db',
-      'form' => '_ha.db',
-      'lines' => [
-        ';; xaDob_1',
-        'xaDob   N       chlorophyll'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'chlorophyll'
-      ],
-      'orig' => 'xaDob',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hi.dAb',
-      'form' => '_hi.dAb',
-      'lines' => [
-        ';; xiDAb_1',
-        'xiDAb   N       dye;dyestuff'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'dye',
-        'dyestuff'
-      ],
-      'orig' => 'xiDAb',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hu.duwb',
-      'form' => '_hu.duwb',
-      'lines' => [
-        ';; xuDuwb_1',
-        'xuDuwb  N       green;verdant'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCUL',
-      'suffix' => '',
-      'glosses' => [
-        'green',
-        'verdant'
-      ],
-      'orig' => 'xuDuwb',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha.diyb',
-      'form' => '_ha.diyb',
-      'lines' => [
-        ';; xaDiyb_1',
-        'xaDiyb  N/ap    dyed'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL',
-      'suffix' => '',
-      'glosses' => [
-        'dyed'
-      ],
-      'orig' => 'xaDiyb',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_ha.d.dab',
-      'form' => 'mu_ha.d.dab',
-      'lines' => [
-        ';; muxaD~ab_1',
-        'muxaD~ab        Nall    stained;dyed     [[muxaD~ab/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'stained',
-        'dyed'
-      ],
-      'orig' => 'muxaD~ab',
-      'prefix' => ''
-    }
-  ],
-  '_hUzistAn' => [
-    {
-      'types' => {},
-      'entry' => '_huwzistAn',
-      'form' => '_huwzistAn',
-      'lines' => [
-        ';; xuwzisotAn_1',
-        'xuwzisotAn      Nprop   Khuzistan'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Khuzistan'
-      ],
-      'orig' => 'xuwzisotAn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_huwzistAn',
-      'form' => '_huwzistAniyy',
-      'lines' => [
-        ';; xuwzisotAniy~_1',
-        'xuwzisotAniy~   Nall    from/of Khuzistan'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'from/of Khuzistan'
-      ],
-      'orig' => 'xuwzisotAniy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_huwzistAn',
-      'form' => '_huwzistAniyy',
-      'lines' => [
-        ';; xuwzisotAniy~_2',
-        'xuwzisotAniy~   N0      Khuzistani'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Khuzistani'
-      ],
-      'orig' => 'xuwzisotAniy~',
-      'prefix' => ''
-    }
-  ],
-  '_hUdAdAd' => [
-    {
-      'types' => {},
-      'entry' => '_huwdAdAd',
-      'form' => '_huwdAdAd',
-      'lines' => [
-        ';; xuwdAdAd_1',
-        'xuwdAdAd        Nprop   Khodadad'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Khodadad'
-      ],
-      'orig' => 'xuwdAdAd',
-      'prefix' => ''
-    }
-  ],
-  '_h .s f' => [
-    {
-      'types' => {
-        '_h.sif' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_ha.saf',
-      'form' => '_ha.saf',
-      'lines' => [
-        ';; xaSaf-i_1',
-        'xaSaf   PV      mend;repair;sew',
-        'xoSif   IV      mend;repair;sew'
-      ],
-      'patterns' => {
-        '_h.sif' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'mend',
-        'repair',
-        'sew'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xaSaf-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hi.sAf' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_ha.sf',
-      'form' => '_ha.sfaT',
-      'lines' => [
-        ';; xaSofap_1',
-        'xaSof   Napdu   basket',
-        'xiSAf   N       baskets'
-      ],
-      'patterns' => {
-        '_hi.sAf' => [
-          'FiCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'basket',
-        'baskets'
-      ],
-      'orig' => 'xaSofap',
-      'prefix' => ''
-    }
-  ],
-  '\'i_hb' => [
-    {
-      'types' => {
-        '\'i_hbAt' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => '\'i_hb',
-      'form' => '\'i_hbAt',
-      'lines' => [
-        ';; IixobAt_1',
-        'IixobAt NduAt   being humble'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'being humble'
-      ],
-      'orig' => 'IixobAt',
-      'prefix' => ''
-    }
-  ],
-  '_h r .t l' => [
-    {
-      'types' => {},
-      'entry' => '_har.tAl',
-      'form' => '_har.tAl',
-      'lines' => [
-        ';; xaroTAl_1',
-        'xaroTAl N       oats'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDAS',
-      'suffix' => '',
-      'glosses' => [
-        'oats'
-      ],
-      'orig' => 'xaroTAl',
-      'prefix' => ''
-    }
-  ],
-  '_h n z b' => [
-    {
-      'types' => {},
-      'entry' => '_hanzab',
-      'form' => '_hanzab',
-      'lines' => [
-        ';; xanozab_1',
-        'xanozab Ndip    Devil;Satan'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'Devil',
-        'Satan'
-      ],
-      'orig' => 'xanozab',
-      'prefix' => ''
-    }
-  ],
-  '_h l q n' => [
-    {
-      'types' => {
-        '_halAqiyn' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_halqiyn',
-      'form' => '_halqiyn',
-      'lines' => [
-        ';; xaloqiyn_1',
-        'xaloqiyn        Ndu     caldron;boiler',
-        'xalAqiyn        Ndip    caldrons;boilers'
-      ],
-      'patterns' => {
-        '_halAqiyn' => [
-          'KaRADIS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDIS',
-      'suffix' => '',
-      'glosses' => [
-        'caldron',
-        'boiler',
-        'caldrons',
-        'boilers'
-      ],
-      'orig' => 'xaloqiyn',
-      'prefix' => ''
-    }
-  ],
-  '_hannU^sI' => [
-    {
-      'types' => {
-        '_hannuw^sy' => {
-          'N0' => 1
-        }
-      },
-      'entry' => '_hannuw^siy',
-      'form' => '_hannuw^siy',
-      'lines' => [
-        ';; xan~uw$iy_1',
-        'xan~uw$y        N0      Khannouchi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Khannouchi'
-      ],
-      'orig' => 'xan~uw$iy',
-      'prefix' => ''
-    }
-  ],
-  '_h z m' => [
-    {
-      'types' => {
-        '_hzim' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_hazam',
-      'form' => '_hazam',
-      'lines' => [
-        ';; xazam-i_1',
-        'xazam   PV      string;thread',
-        'xozim   IV      string;thread'
-      ],
-      'patterns' => {
-        '_hzim' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'string',
-        'thread'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xazam-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hazA\'im' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hizAm',
-      'form' => '_hizAm',
-      'lines' => [
-        ';; xizAm_1',
-        'xizAm   N       nose ring',
-        'xizAm   Napdu   nose ring',
-        'xazA}im Ndip    nose rings'
-      ],
-      'patterns' => {
-        '_hazA\'im' => [
-          'FaCA\'iL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'nose ring',
-        'nose rings'
-      ],
-      'orig' => 'xizAm',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_huzAm',
-      'form' => '_huzAmaT',
-      'lines' => [
-        ';; xuzAmap_1',
-        'xuzAm   Nap     lavender'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'lavender'
-      ],
-      'orig' => 'xuzAmap',
-      'prefix' => ''
-    }
-  ],
-  '_h r d ^g' => [
-    {
-      'types' => {},
-      'entry' => '_hurda^g',
-      'form' => '_hurda^giyy',
-      'lines' => [
-        ';; xurodajiy~_1',
-        'xurodajiy~      Nall    smallwares dealer     [[xurodajiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KuRDaS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'smallwares dealer'
-      ],
-      'orig' => 'xurodajiy~',
-      'prefix' => ''
-    }
-  ],
-  '_h ^s m' => [
-    {
-      'types' => {
-        '_ha^s^sim' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_ha^s^sam',
-      'form' => '_ha^s^sam',
-      'lines' => [
-        ';; xa$~am_1',
-        'xa$~am  PV      intoxicate;make drunk',
-        'xa$~im  IV_yu   intoxicate;make drunk'
-      ],
-      'patterns' => {
-        '_ha^s^sim' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'intoxicate',
-        'make drunk'
-      ],
-      'orig' => 'xa$~am',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha^sm',
-      'form' => '_ha^sm',
-      'lines' => [
-        ';; xa$om_1',
-        'xa$om   N       nose;mouth'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'nose',
-        'mouth'
-      ],
-      'orig' => 'xa$om',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha^sm',
-      'form' => '_ha^sm',
-      'lines' => [
-        ';; xa$om_2',
-        'xa$om   N       outlet;vent'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'outlet',
-        'vent'
-      ],
-      'orig' => 'xa$om',
-      'prefix' => ''
-    }
-  ],
-  '_h n ^s' => [
-    {
-      'types' => {},
-      'entry' => '_hannuw^s',
-      'form' => '_hannuw^s',
-      'lines' => [
-        ';; xan~uw$_1',
-        'xan~uw$ N0      Khannouche;Khanouche'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCUL',
-      'suffix' => '',
-      'glosses' => [
-        'Khannouche',
-        'Khanouche'
-      ],
-      'orig' => 'xan~uw$',
-      'prefix' => ''
-    }
-  ],
-  '_h b l' => [
-    {
-      'types' => {
-        '_hbul' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_habal',
-      'form' => '_habal',
-      'lines' => [
-        ';; xabal-u_1',
-        'xabal   PV      confuse;impede',
-        'xobul   IV      confuse;impede'
-      ],
-      'patterns' => {
-        '_hbul' => [
-          'FCuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'confuse',
-        'impede'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'xabal-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hbal' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => '_habil',
-      'form' => '_habil',
-      'lines' => [
-        ';; xabil-a_1',
-        'xabil   PV_intr be confused;be insane',
-        'xobal   IV_intr be confused;be insane'
-      ],
-      'patterns' => {
-        '_hbal' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCiL',
-      'glosses' => [
-        'be confused',
-        'be insane'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'xabil-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_habbil' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_habbal',
-      'form' => '_habbal',
-      'lines' => [
-        ';; xab~al_1',
-        'xab~al  PV      confound;complicate;muddle',
-        'xab~il  IV_yu   confound;complicate;muddle'
-      ],
-      'patterns' => {
-        '_habbil' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'confound',
-        'complicate',
-        'muddle'
-      ],
-      'orig' => 'xab~al',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_habbal',
-      'form' => 'ta_habbal',
-      'lines' => [
-        ';; taxab~al_1',
-        'taxab~al        PV_intr be confounded;be confused',
-        'taxab~al        IV_intr be confounded;be confused'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'be confounded',
-        'be confused'
-      ],
-      'orig' => 'taxab~al',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_htabil' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'i_htabal',
-      'form' => 'i_htabal',
-      'lines' => [
-        ';; Aixotabal_1',
-        'Aixotabal       PV_intr be muddled',
-        'xotabil IV_intr be muddled'
-      ],
-      'patterns' => {
-        '_htabil' => [
-          'FtaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFtaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'be muddled'
-      ],
-      'orig' => 'Aixotabal',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_habl',
-      'form' => '_habl',
-      'lines' => [
-        ';; xabol_1',
-        'xabol   N       confusion;insanity'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'confusion',
-        'insanity'
-      ],
-      'orig' => 'xabol',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'a_hbal',
-      'form' => '\'a_hbal',
-      'lines' => [
-        ';; Oaxobal_1',
-        'Oaxobal Nel     insane'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'insane'
-      ],
-      'orig' => 'Oaxobal',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'i_htibAl' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'i_htibAl',
-      'form' => 'i_htibAl',
-      'lines' => [
-        ';; AixotibAl_1',
-        'AixotibAl       NduAt   insanity'
-      ],
-      'patterns' => {
-        'i_htibAl' => [
-          'IFtiCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFtiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'insanity'
-      ],
-      'orig' => 'AixotibAl',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ma_hbuwl',
-      'form' => 'ma_hbuwl',
-      'lines' => [
-        ';; maxobuwl_1',
-        'maxobuwl        Nall    insane     [[maxobuwl/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MaFCUL',
-      'suffix' => '',
-      'glosses' => [
-        'insane'
-      ],
-      'orig' => 'maxobuwl',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_habbal',
-      'form' => 'mu_habbal',
-      'lines' => [
-        ';; muxab~al_1',
-        'muxab~al        Nall    confused     [[muxab~al/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'confused'
-      ],
-      'orig' => 'muxab~al',
-      'prefix' => ''
-    }
-  ],
-  '_h s \'' => [
-    {
-      'types' => {
-        '_hsa\'A' => {
-          'IV-|' => 1
-        },
-        '_hasa\'A' => {
-          'PV-|' => 1
-        },
-        '_hsa\'' => {
-          'IV' => 1,
-          'IV_wn' => 1,
-          'IV_yn' => 1
-        }
-      },
-      'entry' => '_hasa\'',
-      'form' => '_hasa\'',
-      'lines' => [
-        ';; xasaO-a_1',
-        'xasaO   PV-O    chase away',
-        'xasa|   PV-|    chase away',
-        'xasaW   PV_w    chase away',
-        'xosaO   IV      chase away',
-        'xosa|   IV-|    chase away',
-        'xosaW   IV_wn   chase away',
-        'xosa}   IV_yn   chase away'
-      ],
-      'patterns' => {
-        '_hsa\'' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'chase away'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'xasaO-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hsa\'A' => {
-          'IV-|' => 1
-        },
-        '_hsa\'' => {
-          'IV' => 1,
-          'IV_wn' => 1,
-          'IV_yn' => 1
-        }
-      },
-      'entry' => '_hasi\'',
-      'form' => '_hasi\'',
-      'lines' => [
-        ';; xasi}-a_1',
-        'xasi}   PV_intr be driven away;make off',
-        'xosaO   IV      be driven away;make off',
-        'xosa|   IV-|    be driven away;make off',
-        'xosaW   IV_wn   be driven away;make off',
-        'xosa}   IV_yn   be driven away;make off'
-      ],
-      'patterns' => {
-        '_hsa\'' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCiL',
-      'glosses' => [
-        'be driven away',
-        'make off'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'xasi}-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'a_hsa\'',
-      'form' => '\'a_hsa\'',
-      'lines' => [
-        ';; OaxosaO_1',
-        'OaxosaO N0_Nh   more/most despicable;meaner/meanest',
-        'Oaxosa| N-|     most despicable;meanest',
-        'Oaxosa} Nayn    most despicable;meanest'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'more/most despicable',
-        'meaner/meanest',
-        'most despicable',
-        'meanest'
-      ],
-      'orig' => 'OaxosaO',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hAsi\'',
-      'form' => '_hAsi\'',
-      'lines' => [
-        ';; xAsi}_1',
-        'xAsi}   Nall    rejected;disgraceful;feeble     [[xAsi}/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [
-        'rejected',
-        'disgraceful',
-        'feeble'
-      ],
-      'orig' => 'xAsi}',
-      'prefix' => ''
-    }
-  ],
-  '_h z q' => [
-    {
-      'types' => {
-        '_hziq' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_hazaq',
-      'form' => '_hazaq',
-      'lines' => [
-        ';; xazaq-i_1',
-        'xazaq   PV      pierce;ram;tear',
-        'xoziq   IV      pierce;ram;tear'
-      ],
-      'patterns' => {
-        '_hziq' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'pierce',
-        'ram',
-        'tear'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xazaq-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hazziq' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_hazzaq',
-      'form' => '_hazzaq',
-      'lines' => [
-        ';; xaz~aq_1',
-        'xaz~aq  PV      tear;rip apart',
-        'xaz~iq  IV_yu   tear;rip apart'
-      ],
-      'patterns' => {
-        '_hazziq' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'tear',
-        'rip apart'
-      ],
-      'orig' => 'xaz~aq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_hazzaq',
-      'form' => 'ta_hazzaq',
-      'lines' => [
-        ';; taxaz~aq_1',
-        'taxaz~aq        PV_intr be pierced;be torn',
-        'taxaz~aq        IV_intr be pierced;be torn'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'be pierced',
-        'be torn'
-      ],
-      'orig' => 'taxaz~aq',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'n_haziq' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => 'in_hazaq',
-      'form' => 'in_hazaq',
-      'lines' => [
-        ';; Ainoxazaq_1',
-        'Ainoxazaq       PV_intr be pierced;be torn',
-        'noxaziq IV_intr be pierced;be torn'
-      ],
-      'patterns' => {
-        'n_haziq' => [
-          'NFaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'InFaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'be pierced',
-        'be torn'
-      ],
-      'orig' => 'Ainoxazaq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hazq',
-      'form' => '_hazq',
-      'lines' => [
-        ';; xazoq_1',
-        'xazoq   N       rip;hole'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'rip',
-        'hole'
-      ],
-      'orig' => 'xazoq',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hawAziyq' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hAzuwq',
-      'form' => '_hAzuwq',
-      'lines' => [
-        ';; xAzuwq_1',
-        'xAzuwq  Ndu     post;stake;trick',
-        'xawAziyq        Ndip    posts;stakes;tricks'
-      ],
-      'patterns' => {
-        '_hawAziyq' => [
-          'FawACIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACUL',
-      'suffix' => '',
-      'glosses' => [
-        'post',
-        'stake',
-        'trick',
-        'posts',
-        'stakes',
-        'tricks'
-      ],
-      'orig' => 'xAzuwq',
-      'prefix' => ''
-    }
-  ],
-  '_h r .t m' => [
-    {
-      'types' => {},
-      'entry' => '_har.tuwm',
-      'form' => '_har.tuwm',
-      'lines' => [
-        ';; xaroTuwm_1',
-        'xaroTuwm        N0      Khartoum'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDUS',
-      'suffix' => '',
-      'glosses' => [
-        'Khartoum'
-      ],
-      'orig' => 'xaroTuwm',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_harA.tiym' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hur.tuwm',
-      'form' => '_hur.tuwm',
-      'lines' => [
-        ';; xuroTuwm_1',
-        'xuroTuwm        Ndu     trunk;proboscis',
-        'xarATiym        Ndip    trunks;proboscises'
-      ],
-      'patterns' => {
-        '_harA.tiym' => [
-          'KaRADIS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDUS',
-      'suffix' => '',
-      'glosses' => [
-        'trunk',
-        'proboscis',
-        'trunks',
-        'proboscises'
-      ],
-      'orig' => 'xuroTuwm',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_harA.tiym' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hur.tuwm',
-      'form' => '_hur.tuwm',
-      'lines' => [
-        ';; xuroTuwm_2',
-        'xuroTuwm        Ndu     hose;tube',
-        'xarATiym        Ndip    hoses;tubes'
-      ],
-      'patterns' => {
-        '_harA.tiym' => [
-          'KaRADIS'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'KuRDUS',
-      'suffix' => '',
-      'glosses' => [
-        'hose',
-        'tube',
-        'hoses',
-        'tubes'
-      ],
-      'orig' => 'xuroTuwm',
-      'prefix' => ''
-    }
-  ],
-  '_hu.dayrA\'' => [
-    {
-      'types' => {},
-      'entry' => '_hu.dayrA\'',
-      'form' => '_hu.dayrA\'',
-      'lines' => [
-        ';; xuDayorA\'_1',
-        'xuDayorA\'       N0_Nh   Paradise',
-        'xuDayorAW       Nh      Paradise',
-        'xuDayorA}       Nhy     Paradise'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Paradise'
-      ],
-      'orig' => 'xuDayorA\'',
-      'prefix' => ''
-    }
-  ],
-  '_h w w' => [
-    {
-      'types' => {},
-      'entry' => '_huww',
-      'form' => '_huwwaT',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FUL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [],
-      'orig' => 'xuw~ap',
-      'prefix' => ''
-    }
-  ],
-  '_h _d \'' => [
-    {
-      'types' => {
-        'ista_h_da\'A' => {
-          'PV-|' => 1
-        },
-        'sta_h_di\'' => {
-          'IV' => 1
-        }
-      },
-      'entry' => 'ista_h_da\'',
-      'form' => 'ista_h_da\'',
-      'lines' => [
-        ';; Aisotaxo*aO_1',
-        'Aisotaxo*aO     PV-O    submit;be servile',
-        'Aisotaxo*a|     PV-|    submit;be servile',
-        'Aisotaxo*aW     PV_w    submit;be servile',
-        'sotaxo*i}       IV      submit;be servile'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IstaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'submit',
-        'be servile'
-      ],
-      'orig' => 'Aisotaxo*aO',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'musta_h_di\'',
-      'form' => 'musta_h_di\'',
-      'lines' => [
-        ';; musotaxo*i}_1',
-        'musotaxo*i}     Nall    submissive;servile;submitting     [[musotaxo*i}/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MustaFCiL',
-      'suffix' => '',
-      'glosses' => [
-        'submissive',
-        'servile',
-        'submitting'
-      ],
-      'orig' => 'musotaxo*i}',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'isti_h_dA\'',
-      'form' => 'isti_h_dA\'',
-      'lines' => [],
-      'patterns' => {
-        'isti_h_dA\'' => [
-          'IstiFCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IstiFCAL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'Aisotixo*A\'',
-      'prefix' => ''
-    }
-  ],
-  '_h .t .t' => [
-    {
-      'types' => {
-        '_h.tu.t' => {
-          'IV_C' => 1
-        },
-        '_ha.ta.t' => {
-          'PV_C' => 1
-        },
-        '_hu.t.t' => {
-          'IV_V' => 1
-        }
-      },
-      'entry' => '_ha.t.t',
-      'form' => '_ha.t.t',
-      'lines' => [
-        ';; xaT~-u_1',
-        'xaT~    PV_V    draw;inscribe;outline',
-        'xaTaT   PV_C    draw;inscribe;outline',
-        'xuT~    IV_V    draw;inscribe;outline',
-        'xoTuT   IV_C    draw;inscribe;outline'
-      ],
-      'patterns' => {
-        '_h.tu.t' => [
-          'FCuL'
-        ],
-        '_ha.ta.t' => [
-          'FaCaL'
-        ],
-        '_hu.t.t' => [
-          'FuCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCL',
-      'glosses' => [
-        'draw',
-        'inscribe',
-        'outline'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'xaT~-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_ha.t.ti.t' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_ha.t.ta.t',
-      'form' => '_ha.t.ta.t',
-      'lines' => [
-        ';; xaT~aT_1',
-        'xaT~aT  PV      draw lines;demarcate',
-        'xaT~iT  IV_yu   draw lines;demarcate'
-      ],
-      'patterns' => {
-        '_ha.t.ti.t' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'draw lines',
-        'demarcate'
-      ],
-      'orig' => 'xaT~aT',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'i_hta.ta.t' => {
-          'PV_C' => 1
-        },
-        '_hta.ti.t' => {
-          'IV_C' => 1
-        },
-        '_hta.t.t' => {
-          'IV_V' => 1
-        }
-      },
-      'entry' => 'i_hta.t.t',
-      'form' => 'i_hta.t.t',
-      'lines' => [
-        ';; AixotaT~_1',
-        'AixotaT~        PV_V    trace;mark',
-        'AixotaTaT       PV_C    trace;mark',
-        'xotaT~  IV_V    trace;mark',
-        'xotaTiT IV_C    trace;mark'
-      ],
-      'patterns' => {
-        'i_hta.ta.t' => [
-          'IFtaCaL'
-        ],
-        '_hta.ti.t' => [
-          'FtaCiL'
-        ],
-        '_hta.t.t' => [
-          'FtaCL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFtaCL',
-      'suffix' => '',
-      'glosses' => [
-        'trace',
-        'mark'
-      ],
-      'orig' => 'AixotaT~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'i_hta.ta.t' => {
-          'PV_C' => 1
-        },
-        '_hta.ti.t' => {
-          'IV_C' => 1
-        },
-        '_hta.t.t' => {
-          'IV_V' => 1
-        }
-      },
-      'entry' => 'i_hta.t.t',
-      'form' => 'i_hta.t.t',
-      'lines' => [
-        ';; AixotaT~_2',
-        'AixotaT~        PV_V    plan;devise',
-        'AixotaTaT       PV_C    plan;devise',
-        'xotaT~  IV_V    plan;devise',
-        'xotaTiT IV_C    plan;devise'
-      ],
-      'patterns' => {
-        'i_hta.ta.t' => [
-          'IFtaCaL'
-        ],
-        '_hta.ti.t' => [
-          'FtaCiL'
-        ],
-        '_hta.t.t' => [
-          'FtaCL'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'verb',
-      'morphs' => 'IFtaCL',
-      'suffix' => '',
-      'glosses' => [
-        'plan',
-        'devise'
-      ],
-      'orig' => 'AixotaT~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha.t.t',
-      'form' => '_ha.t.t',
-      'lines' => [
-        ';; xaT~_1',
-        'xaT~    Ndu     handwriting;script'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'handwriting',
-        'script'
-      ],
-      'orig' => 'xaT~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hu.tuw.t' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_ha.t.t',
-      'form' => '_ha.t.t',
-      'lines' => [
-        ';; xaT~_2',
-        'xaT~    Ndu     line',
-        'xuTuwT  N       lines'
-      ],
-      'patterns' => {
-        '_hu.tuw.t' => [
-          'FuCUL'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'line',
-        'lines'
-      ],
-      'orig' => 'xaT~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'a_h.tA.t',
-      'form' => '\'a_h.tA.t',
-      'lines' => [
-        ';; OaxoTAT_1',
-        'OaxoTAT N       sections;districts'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HaFCAL',
-      'suffix' => '',
-      'glosses' => [
-        'sections',
-        'districts'
-      ],
-      'orig' => 'OaxoTAT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha.t.t',
-      'form' => '_ha.t.tiyy',
-      'lines' => [
-        ';; xaT~iy~_1',
-        'xaT~iy~ N/ap    handwritten;linear     [[xaT~iy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'handwritten',
-        'linear'
-      ],
-      'orig' => 'xaT~iy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hu.ta.t' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_hu.t.t',
-      'form' => '_hu.t.taT',
-      'lines' => [
-        ';; xuT~ap_1',
-        'xuT~    Napdu   plan;project',
-        'xuTaT   N       plans;projects'
-      ],
-      'patterns' => {
-        '_hu.ta.t' => [
-          'FuCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'plan',
-        'project',
-        'plans',
-        'projects'
-      ],
-      'orig' => 'xuT~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha.t.tA.t',
-      'form' => '_ha.t.tA.t',
-      'lines' => [
-        ';; xaT~AT_1',
-        'xaT~AT  Nall    calligrapher;tracer'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL',
-      'suffix' => '',
-      'glosses' => [
-        'calligrapher',
-        'tracer'
-      ],
-      'orig' => 'xaT~AT',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta_h.tiy.t' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'ta_h.tiy.t',
-      'form' => 'ta_h.tiy.t',
-      'lines' => [
-        ';; taxoTiyT_1',
-        'taxoTiyT        NduAt   planning;projecting'
-      ],
-      'patterns' => {
-        'ta_h.tiy.t' => [
-          'TaFCIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaFCIL',
-      'suffix' => '',
-      'glosses' => [
-        'planning',
-        'projecting'
-      ],
-      'orig' => 'taxoTiyT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_h.tiy.t',
-      'form' => 'ta_h.tiy.tiyy',
-      'lines' => [
-        ';; taxoTiyTiy~_1',
-        'taxoTiyTiy~     Nall    planning;design     [[taxoTiyTiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'TaFCIL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'planning',
-        'design'
-      ],
-      'orig' => 'taxoTiyTiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ma_h.tuw.t' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'ma_h.tuw.t',
-      'form' => 'ma_h.tuw.t',
-      'lines' => [
-        ';; maxoTuwT_1',
-        'maxoTuwT        Ndu     manuscript',
-        'maxoTuwT        Napdu   manuscript',
-        'maxoTuwT        NAt     manuscripts'
-      ],
-      'patterns' => {
-        'ma_h.tuw.t' => [
-          'MaFCUL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MaFCUL',
-      'suffix' => '',
-      'glosses' => [
-        'manuscript',
-        'manuscripts'
-      ],
-      'orig' => 'maxoTuwT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_ha.t.ti.t',
-      'form' => 'mu_ha.t.ti.t',
-      'lines' => [
-        ';; muxaT~iT_1',
-        'muxaT~iT        Nall    planners;sketchers'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFaCCiL',
-      'suffix' => '',
-      'glosses' => [
-        'planners',
-        'sketchers'
-      ],
-      'orig' => 'muxaT~iT',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'mu_ha.t.ta.t' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'mu_ha.t.ta.t',
-      'form' => 'mu_ha.t.ta.t',
-      'lines' => [
-        ';; muxaT~aT_1',
-        'muxaT~aT        Ndu     plan;sketch',
-        'muxaT~aT        NAt     plans;sketches'
-      ],
-      'patterns' => {
-        'mu_ha.t.ta.t' => [
-          'MuFaCCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'plan',
-        'sketch',
-        'plans',
-        'sketches'
-      ],
-      'orig' => 'muxaT~aT',
-      'prefix' => ''
-    }
-  ],
-  '_h f \'' => [
-    {
-      'types' => {},
-      'entry' => '_hafA\'',
-      'form' => '_hafA\'',
-      'lines' => [
-        ';; xafA\'_1',
-        'xafA\'   N0_Nh   secrecy;secret',
-        'xafAW   Nh      secrecy;secret',
-        'xafA}   Nhy     secrecy;secret'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCAL',
-      'suffix' => '',
-      'glosses' => [
-        'secrecy',
-        'secret'
-      ],
-      'orig' => 'xafA\'',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'i_hfA\'' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => '\'i_hfA\'',
-      'form' => '\'i_hfA\'',
-      'lines' => [
-        ';; IixofA\'_1',
-        'IixofA\' N0_Nh   hiding;concealment',
-        'IixofAW Nh      hiding;concealment',
-        'IixofA} Nhy     hiding;concealment',
-        'IixofA\' NAn_Nayn        hiding;concealment',
-        'IixofA} Nayn    hiding;concealment',
-        'IixofA\' NAt     hiding;concealment'
-      ],
-      'patterns' => {
-        '\'i_hfA\'' => [
-          'HiFCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HiFCAL',
-      'suffix' => '',
-      'glosses' => [
-        'hiding',
-        'concealment'
-      ],
-      'orig' => 'IixofA\'',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'i_htifA\'' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'i_htifA\'',
-      'form' => 'i_htifA\'',
-      'lines' => [
-        ';; AixotifA\'_1',
-        'AixotifA\'       N0_Nh   disappearance',
-        'AixotifAW       Nh      disappearance',
-        'AixotifA}       Nhy     disappearance',
-        'AixotifA\'       NAn_Nayn        disappearances',
-        'AixotifA}       Nayn    disappearances',
-        'AixotifA\'       NAt     disappearances'
-      ],
-      'patterns' => {
-        'i_htifA\'' => [
-          'IFtiCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFtiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'disappearance',
-        'disappearances'
-      ],
-      'orig' => 'AixotifA\'',
-      'prefix' => ''
-    }
-  ],
-  '_hunzuwAn' => [
-    {
-      'types' => {},
-      'entry' => '_hunzuwAn',
-      'form' => '_hunzuwAniyy',
-      'lines' => [
-        ';; xunozuwAniy~_1',
-        'xunozuwAniy~    Nall    megalomaniac     [[xunozuwAniy~/ADJ]]',
-        'xunozuwAniy~    Nap     megalomania     [[xunozuwAniy~/NOUN]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'megalomaniac',
-        'megalomania'
-      ],
-      'orig' => 'xunozuwAniy~',
-      'prefix' => ''
-    }
-  ],
-  '_hirwa`' => [
-    {
-      'types' => {},
-      'entry' => '_hirwa`',
-      'form' => '_hirwa`',
-      'lines' => [
-        ';; xirwaE_1',
-        'xirwaE  N       castor-oil plant'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'castor-oil plant'
-      ],
-      'orig' => 'xirwaE',
-      'prefix' => ''
-    }
-  ],
-  '_h y b' => [
-    {
-      'types' => {
-        '_hiyb' => {
-          'IV_V' => 1
-        },
-        '_hib' => {
-          'PV_C' => 1,
-          'IV_C' => 1
-        }
-      },
-      'entry' => '_hAb',
-      'form' => '_hAb',
-      'lines' => [
-        ';; xAb-i_1',
-        'xAb     PV_V    fail;be frustrated;go wrong',
-        'xib     PV_C    fail;be frustrated;go wrong',
-        'xiyb    IV_V    fail;be frustrated;go wrong',
-        'xib     IV_C    fail;be frustrated;go wrong'
-      ],
-      'patterns' => {
-        '_hiyb' => [
-          'FIL'
-        ],
-        '_hib' => [
-          'FiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FAL',
-      'glosses' => [
-        'fail',
-        'be frustrated',
-        'go wrong'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xAb-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hayyib' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_hayyab',
-      'form' => '_hayyab',
-      'lines' => [
-        ';; xay~ab_1',
-        'xay~ab  PV      thwart;disappoint',
-        'xay~ib  IV_yu   thwart;disappoint'
-      ],
-      'patterns' => {
-        '_hayyib' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'thwart',
-        'disappoint'
-      ],
-      'orig' => 'xay~ab',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hab' => {
-          'IV_C_Pass_yu' => 1
-        },
-        '_hiyb' => {
-          'IV_V_yu' => 1
-        },
-        '_hAb' => {
-          'IV_V_Pass_yu' => 1
-        },
-        '_hib' => {
-          'IV_C_yu' => 1
-        },
-        '\'a_hab' => {
-          'PV_C' => 1
-        }
-      },
-      'entry' => '\'a_hAb',
-      'form' => '\'a_hAb',
-      'lines' => [
-        ';; OaxAb_1',
-        'OaxAb   PV_V    thwart;disappoint',
-        'Oaxab   PV_C    thwart;disappoint',
-        'xiyb    IV_V_yu thwart;disappoint',
-        'xib     IV_C_yu thwart;disappoint',
-        'xAb     IV_V_Pass_yu    be thwarted;be disappointed',
-        'xab     IV_C_Pass_yu    be thwarted;be disappointed'
-      ],
-      'patterns' => {
-        '_hab' => [
-          'FaL'
-        ],
-        '_hiyb' => [
-          'FIL'
-        ],
-        '\'a_hab' => [
-          'HaFaL'
-        ],
-        '_hib' => [
-          'FiL'
-        ],
-        '_hAb' => [
-          'FAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFAL',
-      'suffix' => '',
-      'glosses' => [
-        'thwart',
-        'disappoint',
-        'be thwarted',
-        'be disappointed'
-      ],
-      'orig' => 'OaxAb',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_hayyab',
-      'form' => 'ta_hayyab',
-      'lines' => [
-        ';; taxay~ab_1',
-        'taxay~ab        PV      fail;be frustrated;go wrong',
-        'taxay~ab        IV      fail;be frustrated;go wrong'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'fail',
-        'be frustrated',
-        'go wrong'
-      ],
-      'orig' => 'taxay~ab',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hayb',
-      'form' => '_haybaT',
-      'lines' => [
-        ';; xayobap_1',
-        'xayob   Nap     disappointment;failure'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'disappointment',
-        'failure'
-      ],
-      'orig' => 'xayobap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hA\'ib',
-      'form' => '_hA\'ib',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FA\'iL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'xA}ib',
-      'prefix' => ''
-    }
-  ],
-  '_h r _h r' => [
-    {
-      'types' => {
-        '_har_hir' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_har_har',
-      'form' => '_har_har',
-      'lines' => [
-        ';; xaroxar_1',
-        'xaroxar PV      snore',
-        'xaroxir IV_yu   snore'
-      ],
-      'patterns' => {
-        '_har_hir' => [
-          'KaRDiS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'KaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'snore'
-      ],
-      'orig' => 'xaroxar',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_har_har',
-      'form' => '_har_haraT',
-      'lines' => [
-        ';; xaroxarap_1',
-        'xaroxar NapAt   snoring'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDaS |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'snoring'
-      ],
-      'orig' => 'xaroxarap',
-      'prefix' => ''
-    }
-  ],
-  '_h t m' => [
-    {
-      'types' => {
-        '_htim' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_hatam',
-      'form' => '_hatam',
-      'lines' => [
-        ';; xatam-i_1',
-        'xatam   PV      complete;seal;conclude',
-        'xotim   IV      complete;seal;conclude'
-      ],
-      'patterns' => {
-        '_htim' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'complete',
-        'seal',
-        'conclude'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xatam-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'u_htutim' => {
-          'PV_Pass' => 1
-        },
-        '_htatim' => {
-          'IV' => 1
-        },
-        '_htatam' => {
-          'IV_Pass_yu' => 1
-        }
-      },
-      'entry' => 'i_htatam',
-      'form' => 'i_htatam',
-      'lines' => [
-        ';; Aixotatam_1',
-        'Aixotatam       PV      conclude;terminate',
-        'xotatim IV      conclude;terminate',
-        'Auxotutim       PV_Pass be concluded;be terminated',
-        'xotatam IV_Pass_yu      be concluded;be terminated'
-      ],
-      'patterns' => {
-        'u_htutim' => [
-          'UFtuCiL'
-        ],
-        '_htatim' => [
-          'FtaCiL'
-        ],
-        '_htatam' => [
-          'FtaCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFtaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'conclude',
-        'terminate',
-        'be concluded',
-        'be terminated'
-      ],
-      'orig' => 'Aixotatam',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'a_htAm' => {
-          'N' => 1
-        },
-        '_hutuwm' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_hatm',
-      'form' => '_hatm',
-      'lines' => [
-        ';; xatom_1',
-        'xatom   N       seal;stamp',
-        'OaxotAm N       seals;stamps',
-        'xutuwm  N       seals;stamps'
-      ],
-      'patterns' => {
-        '\'a_htAm' => [
-          'HaFCAL'
-        ],
-        '_hutuwm' => [
-          'FuCUL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'seal',
-        'stamp',
-        'seals',
-        'stamps'
-      ],
-      'orig' => 'xatom',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hawAtim' => {
-          'Ndip' => 1
-        },
-        '_hAtim' => {
-          'Ndu' => 1
-        }
-      },
-      'entry' => '_hAtam',
-      'form' => '_hAtam',
-      'lines' => [
-        ';; xAtam_1',
-        'xAtam   Ndu     ring;seal',
-        'xAtim   Ndu     ring;seal',
-        'xawAtim Ndip    rings;seals'
-      ],
-      'patterns' => {
-        '_hawAtim' => [
-          'FawACiL'
-        ],
-        '_hAtim' => [
-          'FACiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACaL',
-      'suffix' => '',
-      'glosses' => [
-        'ring',
-        'seal',
-        'rings',
-        'seals'
-      ],
-      'orig' => 'xAtam',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hAtim',
-      'form' => '_hAtimiyy',
-      'lines' => [
-        ';; xAtimiy~_1',
-        'xAtimiy~        N0      Khatimi'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACiL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Khatimi'
-      ],
-      'orig' => 'xAtimiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hitAm',
-      'form' => '_hitAm',
-      'lines' => [
-        ';; xitAm_1',
-        'xitAm   N       conclusion'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'conclusion'
-      ],
-      'orig' => 'xitAm',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hitAm',
-      'form' => '_hitAmiyy',
-      'lines' => [
-        ';; xitAmiy~_1',
-        'xitAmiy~        Nall    concluding;final     [[xitAmiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FiCAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'concluding',
-        'final'
-      ],
-      'orig' => 'xitAmiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'i_htitAm' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'i_htitAm',
-      'form' => 'i_htitAm',
-      'lines' => [
-        ';; AixotitAm_1',
-        'AixotitAm       NduAt   close;conclusion;end'
-      ],
-      'patterns' => {
-        'i_htitAm' => [
-          'IFtiCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFtiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'close',
-        'conclusion',
-        'end'
-      ],
-      'orig' => 'AixotitAm',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hAtim',
-      'form' => '_hAtimaT',
-      'lines' => [
-        ';; xAtimap_1',
-        'xAtim   Napdu   conclusion;epilogue'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACiL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'conclusion',
-        'epilogue'
-      ],
-      'orig' => 'xAtimap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_hattam',
-      'form' => 'mu_hattam',
-      'lines' => [
-        ';; muxat~am_1',
-        'muxat~am        Nall    ringed     [[muxat~am/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'ringed'
-      ],
-      'orig' => 'muxat~am',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_htatam',
-      'form' => 'mu_htatam',
-      'lines' => [
-        ';; muxotatam_1',
-        'muxotatam       Nall    conclusion;end'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFtaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'conclusion',
-        'end'
-      ],
-      'orig' => 'muxotatam',
-      'prefix' => ''
-    }
-  ],
-  '_h m ^s' => [
-    {
-      'types' => {
-        '_hmu^s' => {
-          'IV' => 1
-        },
-        '_hmi^s' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_hama^s',
-      'form' => '_hama^s',
-      'lines' => [
-        ';; xama$-iu_1',
-        'xama$   PV      scratch',
-        'xomi$   IV      scratch',
-        'xomu$   IV      scratch'
-      ],
-      'patterns' => {
-        '_hmu^s' => [
-          'FCuL'
-        ],
-        '_hmi^s' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'scratch'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL',
-        'FCuL'
-      ],
-      'orig' => 'xama$-iu',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hammi^s' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_hamma^s',
-      'form' => '_hamma^s',
-      'lines' => [
-        ';; xam~a$_1',
-        'xam~a$  PV      scratch',
-        'xam~i$  IV_yu   scratch'
-      ],
-      'patterns' => {
-        '_hammi^s' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'scratch'
-      ],
-      'orig' => 'xam~a$',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_humuw^s' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_ham^s',
-      'form' => '_ham^s',
-      'lines' => [
-        ';; xamo$_1',
-        'xamo$   N       scratch;scar',
-        'xumuw$  N       scratches;scars'
-      ],
-      'patterns' => {
-        '_humuw^s' => [
-          'FuCUL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'scratch',
-        'scar',
-        'scratches',
-        'scars'
-      ],
-      'orig' => 'xamo$',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_humA^s',
-      'form' => '_humA^saT',
-      'lines' => [
-        ';; xumA$ap_1',
-        'xumA$   NapAt   scratch;scar'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'scratch',
-        'scar'
-      ],
-      'orig' => 'xumA$ap',
-      'prefix' => ''
-    }
-  ],
-  '_ha.t.tIf' => [
-    {
-      'types' => {
-        '_ha.tA.tiyf' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_ha.t.tiyf',
-      'form' => '_ha.t.tiyf',
-      'lines' => [
-        ';; xaT~iyf_1',
-        'xaT~iyf Ndu     hook',
-        'xaTATiyf        Ndip    hooks'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'hook',
-        'hooks'
-      ],
-      'orig' => 'xaT~iyf',
-      'prefix' => ''
-    }
-  ],
-  '_h r b' => [
-    {
-      'types' => {
-        '_hrib' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_harab',
-      'form' => '_harab',
-      'lines' => [
-        ';; xarab-i_1',
-        'xarab   PV      destroy;demolish',
-        'xorib   IV      destroy;demolish'
-      ],
-      'patterns' => {
-        '_hrib' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'destroy',
-        'demolish'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xarab-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hrab' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => '_harib',
-      'form' => '_harib',
-      'lines' => [
-        ';; xarib-a_1',
-        'xarib   PV_intr be destroyed;disintegrate',
-        'xorab   IV_intr be destroyed;disintegrate'
-      ],
-      'patterns' => {
-        '_hrab' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCiL',
-      'glosses' => [
-        'be destroyed',
-        'disintegrate'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'xarib-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_harrib' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_harrab',
-      'form' => '_harrab',
-      'lines' => [
-        ';; xar~ab_1',
-        'xar~ab  PV      destroy',
-        'xar~ib  IV_yu   destroy'
-      ],
-      'patterns' => {
-        '_harrib' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'destroy'
-      ],
-      'orig' => 'xar~ab',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hrab' => {
-          'IV_Pass_yu' => 1
-        },
-        '_hrib' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '\'a_hrab',
-      'form' => '\'a_hrab',
-      'lines' => [
-        ';; Oaxorab_1',
-        'Oaxorab PV      destroy',
-        'xorib   IV_yu   destroy',
-        'xorab   IV_Pass_yu      be destroyed'
-      ],
-      'patterns' => {
-        '_hrab' => [
-          'FCaL'
-        ],
-        '_hrib' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'destroy',
-        'be destroyed'
-      ],
-      'orig' => 'Oaxorab',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_harrab',
-      'form' => 'ta_harrab',
-      'lines' => [
-        ';; taxar~ab_1',
-        'taxar~ab        PV_intr be destroyed',
-        'taxar~ab        IV_intr be destroyed'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'be destroyed'
-      ],
-      'orig' => 'taxar~ab',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_harib',
-      'form' => '_harib',
-      'lines' => [
-        ';; xarib_1',
-        'xarib   N/ap    broken;out of order'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCiL',
-      'suffix' => '',
-      'glosses' => [
-        'broken',
-        'out of order'
-      ],
-      'orig' => 'xarib',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hurb',
-      'form' => '_hurbaT',
-      'lines' => [
-        ';; xurobap_1',
-        'xurob   Nap     eye of a needle;hole'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'eye of a needle',
-        'hole'
-      ],
-      'orig' => 'xurobap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_harAb',
-      'form' => '_harAb',
-      'lines' => [
-        ';; xarAb_1',
-        'xarAb   N       ruins;destroyed'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCAL',
-      'suffix' => '',
-      'glosses' => [
-        'ruins',
-        'destroyed'
-      ],
-      'orig' => 'xarAb',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_harA\'ib' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_harAb',
-      'form' => '_harAbaT',
-      'lines' => [
-        ';; xarAbap_1',
-        'xarAb   NapAt   ruins',
-        'xarA}ib Ndip    ruins'
-      ],
-      'patterns' => {
-        '_harA\'ib' => [
-          'FaCA\'iL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'ruins'
-      ],
-      'orig' => 'xarAbap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_harbAn',
-      'form' => '_harbAn',
-      'lines' => [
-        ';; xarobAn_1',
-        'xarobAn N/ap    out of order;broken'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCLAn',
-      'suffix' => '',
-      'glosses' => [
-        'out of order',
-        'broken'
-      ],
-      'orig' => 'xarobAn',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta_hriyb' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'ta_hriyb',
-      'form' => 'ta_hriyb',
-      'lines' => [
-        ';; taxoriyb_1',
-        'taxoriyb        NduAt   destruction;sabotage;terrorism'
-      ],
-      'patterns' => {
-        'ta_hriyb' => [
-          'TaFCIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaFCIL',
-      'suffix' => '',
-      'glosses' => [
-        'destruction',
-        'sabotage',
-        'terrorism'
-      ],
-      'orig' => 'taxoriyb',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_hriyb',
-      'form' => 'ta_hriybiyy',
-      'lines' => [
-        ';; taxoriybiy~_1',
-        'taxoriybiy~     Nall    sabotage;terrorism     [[taxoriybiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'TaFCIL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'sabotage',
-        'terrorism'
-      ],
-      'orig' => 'taxoriybiy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hArib',
-      'form' => '_hArib',
-      'lines' => [
-        ';; xArib_1',
-        'xArib   Nall    destroyer;annihilator'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [
-        'destroyer',
-        'annihilator'
-      ],
-      'orig' => 'xArib',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_harrib',
-      'form' => 'mu_harrib',
-      'lines' => [
-        ';; muxar~ib_1',
-        'muxar~ib        Nall    saboteur;terrorist'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFaCCiL',
-      'suffix' => '',
-      'glosses' => [
-        'saboteur',
-        'terrorist'
-      ],
-      'orig' => 'muxar~ib',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_hrib',
-      'form' => 'mu_hrib',
-      'lines' => [
-        ';; muxorib_1',
-        'muxorib Nall    annihilator;destroyer'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFCiL',
-      'suffix' => '',
-      'glosses' => [
-        'annihilator',
-        'destroyer'
-      ],
-      'orig' => 'muxorib',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_harruwb',
-      'form' => '_harruwb',
-      'lines' => [
-        ';; xar~uwb_1',
-        'xar~uwb N       carob;locust'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCUL',
-      'suffix' => '',
-      'glosses' => [
-        'carob',
-        'locust'
-      ],
-      'orig' => 'xar~uwb',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_harruwb',
-      'form' => '_harruwbaT',
-      'lines' => [
-        ';; xar~uwbap_1',
-        'xar~uwb Nap     carob bean;locust pod'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCUL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'carob bean',
-        'locust pod'
-      ],
-      'orig' => 'xar~uwbap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_harruwb',
-      'form' => '_harruwbaT',
-      'lines' => [
-        ';; xar~uwbap_2',
-        'xar~uwb NapAt   kharouba'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FaCCUL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'kharouba'
-      ],
-      'orig' => 'xar~uwbap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_harruwb',
-      'form' => '_harruwbaT',
-      'lines' => [
-        ';; xar~uwbap_3',
-        'xar~uwbap       N0      Kharroubeh'
-      ],
-      'patterns' => {},
-      'index' => '3',
-      'entity' => 'noun',
-      'morphs' => 'FaCCUL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'Kharroubeh'
-      ],
-      'orig' => 'xar~uwbap',
-      'prefix' => ''
-    }
-  ],
-  '_h n f s' => [
-    {
-      'types' => {
-        '_hanAfis' => {
-          'Ndip' => 1
-        },
-        '_hunfusA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => '_hunfus',
-      'form' => '_hunfus',
-      'lines' => [
-        ';; xunofus_1',
-        'xunofus N       dung beetle;scarab',
-        'xunofusA\'       N0_Nh   dung beetles;scarabs',
-        'xunofusAW       Nh      dung beetles;scarabs',
-        'xunofusA}       Nhy     dung beetles;scarabs',
-        'xanAfis Ndip    dung beetles;scarabs'
-      ],
-      'patterns' => {
-        '_hanAfis' => [
-          'KaRADiS'
-        ],
-        '_hunfusA\'' => []
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDuS',
-      'suffix' => '',
-      'glosses' => [
-        'dung beetle',
-        'scarab',
-        'dung beetles',
-        'scarabs'
-      ],
-      'orig' => 'xunofus',
-      'prefix' => ''
-    }
-  ],
-  '_h .t \'' => [
-    {
-      'types' => {
-        '_h.ta\'A' => {
-          'IV-|' => 1
-        },
-        '_h.ta\'' => {
-          'IV_wn' => 1,
-          'IV_intr' => 1,
-          'IV_yn' => 1
-        }
-      },
-      'entry' => '_ha.ti\'',
-      'form' => '_ha.ti\'',
-      'lines' => [
-        ';; xaTi}-a_1',
-        'xaTi}   PV_intr be mistaken;sin',
-        'xoTaO   IV_intr be mistaken;sin',
-        'xoTa|   IV-|    be mistaken;sin',
-        'xoTaW   IV_wn   be mistaken;sin',
-        'xoTa}   IV_yn   be mistaken;sin'
-      ],
-      'patterns' => {
-        '_h.ta\'' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCiL',
-      'glosses' => [
-        'be mistaken',
-        'sin'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'xaTi}-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_ha.t.ti\'' => {
-          'IV_yu' => 1
-        },
-        '_ha.t.ta\'A' => {
-          'PV-|' => 1
-        }
-      },
-      'entry' => '_ha.t.ta\'',
-      'form' => '_ha.t.ta\'',
-      'lines' => [
-        ';; xaT~aO_1',
-        'xaT~aO  PV-O    incriminate',
-        'xaT~a|  PV-|    incriminate',
-        'xaT~aW  PV_w    incriminate',
-        'xaT~i}  IV_yu   incriminate'
-      ],
-      'patterns' => {
-        '_ha.t.ti\'' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'incriminate'
-      ],
-      'orig' => 'xaT~aO',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_h.ti\'' => {
-          'IV_yu' => 1
-        },
-        '_h.ta\'' => {
-          'IV_Pass_yu' => 1
-        },
-        '\'a_h.ta\'A' => {
-          'PV-|' => 1
-        }
-      },
-      'entry' => '\'a_h.ta\'',
-      'form' => '\'a_h.ta\'',
-      'lines' => [
-        ';; OaxoTaO_1',
-        'OaxoTaO PV-O    be wrong;do incorrectly',
-        'OaxoTa| PV-|    be wrong;do incorrectly',
-        'OaxoTaW PV_w    be wrong;do incorrectly',
-        'xoTi}   IV_yu   be wrong;do incorrectly',
-        'xoTaO   IV_Pass_yu      be done incorrectly'
-      ],
-      'patterns' => {
-        '_h.ti\'' => [
-          'FCiL'
-        ],
-        '_h.ta\'' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'HaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'be wrong',
-        'do incorrectly',
-        'be done incorrectly'
-      ],
-      'orig' => 'OaxoTaO',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_ha.tA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        },
-        '\'a_h.tA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => '_ha.ta\'',
-      'form' => '_ha.ta\'',
-      'lines' => [
-        ';; xaTaO_1',
-        'xaTaO   N0_Nh   mistake;error;fault',
-        'xaTaW   Nh      mistake;error;fault',
-        'xaTa}   Nhy     mistake;error;fault',
-        'xaTa|   N-|     mistakes;errors;faults',
-        'xaTa}   Nayn    mistakes;errors;faults',
-        'OaxoTA\' N0_Nh   mistakes;errors;faults',
-        'OaxoTAW Nh      mistakes;errors;faults',
-        'OaxoTA} Nhy     mistakes;errors;faults',
-        'xaTA\'   N0_Nh   mistakes;errors;faults',
-        'xaTAW   Nh      mistakes;errors;faults',
-        'xaTA}   Nhy     mistakes;errors;faults'
-      ],
-      'patterns' => {
-        '_ha.tA\'' => [
-          'FaCAL'
-        ],
-        '\'a_h.tA\'' => [
-          'HaFCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'mistake',
-        'error',
-        'fault',
-        'mistakes',
-        'errors',
-        'faults'
-      ],
-      'orig' => 'xaTaO',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_ha.tiyy' => {
-          'NapAt' => 1
-        },
-        '_ha.tAyY' => {
-          'N0_Nhy' => 1
-        }
-      },
-      'entry' => '_ha.tiy\'',
-      'form' => '_ha.tiy\'aT',
-      'lines' => [
-        ';; xaTiy}ap_1',
-        'xaTiy}  NapAt   mistake;error;fault',
-        'xaTiy~  NapAt   mistake;error;fault',
-        'xaTAyA  N0_Nhy  mistakes;errors;faults'
-      ],
-      'patterns' => {
-        '_ha.tiyy' => [],
-        '_ha.tAyY' => []
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'mistake',
-        'error',
-        'fault',
-        'mistakes',
-        'errors',
-        'faults'
-      ],
-      'orig' => 'xaTiy}ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hu.tY' => {
-          'Nap' => 1
-        },
-        '_hawA.ti\'' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hA.ti\'',
-      'form' => '_hA.ti\'',
-      'lines' => [
-        ';; xATi}_1',
-        'xATi}   Nall    mistaken;at fault     [[xATi}/ADJ]]',
-        'xawATi} Ndip    mistaken;at fault',
-        'xuTA    Nap     mistaken;at fault'
-      ],
-      'patterns' => {
-        '_hu.tY' => [
-          'FuCY'
-        ],
-        '_hawA.ti\'' => [
-          'FawACiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [
-        'mistaken',
-        'at fault'
-      ],
-      'orig' => 'xATi}',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_h.ti\'',
-      'form' => 'mu_h.ti\'',
-      'lines' => [
-        ';; muxoTi}_1',
-        'muxoTi} Nall    mistaken;at fault     [[muxoTi}/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFCiL',
-      'suffix' => '',
-      'glosses' => [
-        'mistaken',
-        'at fault'
-      ],
-      'orig' => 'muxoTi}',
-      'prefix' => ''
-    }
-  ],
-  '_h w l' => [
-    {
-      'types' => {},
-      'entry' => '_hawAliy',
-      'form' => '_hawAliy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCALI',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'xawAliy',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hawwil' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_hawwal',
-      'form' => '_hawwal',
-      'lines' => [
-        ';; xaw~al_1',
-        'xaw~al  PV      grant;bestow;endow',
-        'xaw~il  IV_yu   grant;bestow;endow'
-      ],
-      'patterns' => {
-        '_hawwil' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'grant',
-        'bestow',
-        'endow'
-      ],
-      'orig' => 'xaw~al',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_huwuwl' => {
-          'Nap' => 1,
-          'N' => 1
-        },
-        '_hu\'uwl' => {
-          'Nap' => 1,
-          'N' => 1
-        },
-        '_hiylAn' => {
-          'N' => 1
-        },
-        '\'a_hwAl' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_hAl',
-      'form' => '_hAl',
-      'lines' => [
-        ';; xAl_1',
-        'xAl     Ndu     maternal uncle',
-        'OaxowAl N       maternal uncles',
-        'xiylAn  N       maternal uncles',
-        'xuwuwl  N       maternal uncles',
-        'xuWuwl  N       maternal uncles',
-        'xuwuwl  Nap     maternal uncles',
-        'xuWuwl  Nap     maternal uncles'
-      ],
-      'patterns' => {
-        '_huwuwl' => [
-          'FuCUL'
-        ],
-        '_hiylAn' => [
-          'FILAn'
-        ],
-        '_hu\'uwl' => [
-          'Fu\'UL'
-        ],
-        '\'a_hwAl' => [
-          'HaFCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FAL',
-      'suffix' => '',
-      'glosses' => [
-        'maternal uncle',
-        'maternal uncles'
-      ],
-      'orig' => 'xAl',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hiylAn' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_hAl',
-      'form' => '_hAl',
-      'lines' => [
-        ';; xAl_2',
-        'xAl     Ndu     mole',
-        'xiylAn  N       moles'
-      ],
-      'patterns' => {
-        '_hiylAn' => [
-          'FILAn'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FAL',
-      'suffix' => '',
-      'glosses' => [
-        'mole',
-        'moles'
-      ],
-      'orig' => 'xAl',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hAl' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => '_hAl',
-      'form' => '_hAlaT',
-      'lines' => [
-        ';; xAlap_1',
-        'xAl     Napdu   maternal aunt',
-        'xAl     NAt     maternal aunts'
-      ],
-      'patterns' => {
-        '_hAl' => [
-          'FAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'maternal aunt',
-        'maternal aunts'
-      ],
-      'orig' => 'xAlap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hawl',
-      'form' => '_hawlaT',
-      'lines' => [
-        ';; xawolap_1',
-        'xawolap Nprop   Khawla'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'Khawla'
-      ],
-      'orig' => 'xawolap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hawl',
-      'form' => '_hawliyy',
-      'lines' => [
-        ';; xawoliy~_1',
-        'xawoliy~        Nall    supervisor;gardener'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'supervisor',
-        'gardener'
-      ],
-      'orig' => 'xawoliy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_huwl',
-      'form' => '_huwliyy',
-      'lines' => [
-        ';; xuwliy~_1',
-        'xuwliy~ Nall    supervisor;gardener'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FUL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'supervisor',
-        'gardener'
-      ],
-      'orig' => 'xuwliy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_huwl',
-      'form' => '_huwliyy',
-      'lines' => [
-        ';; xuwliy~_2',
-        'xuwliy~ N0      Khouli'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'FUL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Khouli'
-      ],
-      'orig' => 'xuwliy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_hawwal',
-      'form' => 'mu_hawwal',
-      'lines' => [
-        ';; muxaw~al_1',
-        'muxaw~al        N-ap    authorized'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'authorized'
-      ],
-      'orig' => 'muxaw~al',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_huwuwl',
-      'form' => '_huwuwlaT',
-      'lines' => [
-        ';; xuwuwlap_1',
-        'xuwuwl  Nap     maternal uncle relationship'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCUL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'maternal uncle relationship'
-      ],
-      'orig' => 'xuwuwlap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hu\'uwl',
-      'form' => '_hu\'uwlaT',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Fu\'UL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [],
-      'orig' => 'xuWuwlap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hawal',
-      'form' => '_hawal',
-      'lines' => [
-        ';; xawal_1',
-        'xawal   N       sissy;chattel'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'sissy',
-        'chattel'
-      ],
-      'orig' => 'xawal',
-      'prefix' => ''
-    }
-  ],
-  '_h _d r f' => [
-    {
-      'types' => {
-        '_ha_dAriyf' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hu_druwf',
-      'form' => '_hu_druwf',
-      'lines' => [
-        ';; xu*oruwf_1',
-        'xu*oruwf        Ndu     spinning top',
-        'xa*Ariyf        Ndip    spinning tops'
-      ],
-      'patterns' => {
-        '_ha_dAriyf' => [
-          'KaRADIS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KuRDUS',
-      'suffix' => '',
-      'glosses' => [
-        'spinning top',
-        'spinning tops'
-      ],
-      'orig' => 'xu*oruwf',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hu_druwf',
-      'form' => '_hu_druwfiyy',
-      'lines' => [
-        ';; xu*oruwfiy~_1',
-        'xu*oruwfiy~     Nall    turbinate;top-like     [[xu*oruwfiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'KuRDUS |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'turbinate',
-        'top-like'
-      ],
-      'orig' => 'xu*oruwfiy~',
-      'prefix' => ''
-    }
-  ],
-  '_h .s _h .s' => [
-    {
-      'types' => {},
-      'entry' => '_ha.s_ha.s',
-      'form' => '_ha.s_ha.saT',
-      'lines' => [
-        ';; xaSoxaSap_1',
-        'xaSoxaS NapAt   privatization'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDaS |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'privatization'
-      ],
-      'orig' => 'xaSoxaSap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_ha.s_ha.s',
-      'form' => 'mu_ha.s_ha.s',
-      'lines' => [
-        ';; muxaSoxaS_1',
-        'muxaSoxaS       N-ap    privatized     [[muxaSoxaS/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuKaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'privatized'
-      ],
-      'orig' => 'muxaSoxaS',
-      'prefix' => ''
-    }
-  ],
-  '_h f f' => [
-    {
-      'types' => {
-        '_hfif' => {
-          'IV_C_intr' => 1
-        },
-        '_hiff' => {
-          'IV_V_intr' => 1
-        },
-        '_hafaf' => {
-          'PV_C_intr' => 1
-        }
-      },
-      'entry' => '_haff',
-      'form' => '_haff',
-      'lines' => [
-        ';; xaf~-i_1',
-        'xaf~    PV_V_intr       be light;decrease;reduce',
-        'xafaf   PV_C_intr       be light;decrease;reduce',
-        'xif~    IV_V_intr       be light;decrease;reduce',
-        'xofif   IV_C_intr       be light;decrease;reduce'
-      ],
-      'patterns' => {
-        '_hfif' => [
-          'FCiL'
-        ],
-        '_hiff' => [
-          'FiCL'
-        ],
-        '_hafaf' => [
-          'FaCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCL',
-      'glosses' => [
-        'be light',
-        'decrease',
-        'reduce'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xaf~-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_haffif' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_haffaf',
-      'form' => '_haffaf',
-      'lines' => [
-        ';; xaf~af_1',
-        'xaf~af  PV      decrease;mitigate',
-        'xaf~if  IV_yu   decrease;mitigate'
-      ],
-      'patterns' => {
-        '_haffif' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'decrease',
-        'mitigate'
-      ],
-      'orig' => 'xaf~af',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_haffaf',
-      'form' => 'ta_haffaf',
-      'lines' => [
-        ';; taxaf~af_1',
-        'taxaf~af        PV_intr be decreased;be mitigated',
-        'taxaf~af        IV_intr be decreased;be mitigated'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'be decreased',
-        'be mitigated'
-      ],
-      'orig' => 'taxaf~af',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ista_hfaf' => {
-          'PV_C' => 1
-        },
-        'sta_hfif' => {
-          'IV_C' => 1
-        },
-        'sta_hiff' => {
-          'IV_V' => 1
-        }
-      },
-      'entry' => 'ista_haff',
-      'form' => 'ista_haff',
-      'lines' => [
-        ';; Aisotaxaf~_1',
-        'Aisotaxaf~      PV_V    lighten;disdain',
-        'Aisotaxofaf     PV_C    lighten;disdain',
-        'sotaxif~        IV_V    lighten;disdain',
-        'sotaxofif       IV_C    lighten;disdain'
-      ],
-      'patterns' => {
-        'ista_hfaf' => [
-          'IstaFCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IstaFaCL',
-      'suffix' => '',
-      'glosses' => [
-        'lighten',
-        'disdain'
-      ],
-      'orig' => 'Aisotaxaf~',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hifAf' => {
-          'N' => 1
-        },
-        '\'a_hfAf' => {
-          'N' => 2
-        }
-      },
-      'entry' => '_huff',
-      'form' => '_huff',
-      'lines' => [
-        ';; xuf~_1',
-        'xuf~    Ndu     slippers',
-        'xifAf   N       slippers',
-        'OaxofAf N       slippers',
-        'OaxofAf N       camel hoof;sole'
-      ],
-      'patterns' => {
-        '_hifAf' => [
-          'FiCAL'
-        ],
-        '\'a_hfAf' => [
-          'HaFCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL',
-      'suffix' => '',
-      'glosses' => [
-        'slippers',
-        'camel hoof',
-        'sole'
-      ],
-      'orig' => 'xuf~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hiff',
-      'form' => '_hiffaT',
-      'lines' => [
-        ';; xif~ap_1',
-        'xif~    Nap     lightness;disdain'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'lightness',
-        'disdain'
-      ],
-      'orig' => 'xif~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '\'a_haff',
-      'form' => '\'a_haff',
-      'lines' => [
-        ';; Oaxaf~_1',
-        'Oaxaf~  Nel     lighter/lightest;lesser/least'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HaFaCL',
-      'suffix' => '',
-      'glosses' => [
-        'lighter/lightest',
-        'lesser/least'
-      ],
-      'orig' => 'Oaxaf~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hafAf',
-      'form' => '_hafAf',
-      'lines' => [
-        ';; xafAf_1',
-        'xafAf   N       pumice'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCAL',
-      'suffix' => '',
-      'glosses' => [
-        'pumice'
-      ],
-      'orig' => 'xafAf',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_huffAn',
-      'form' => '_huffAn',
-      'lines' => [
-        ';; xuf~An_1',
-        'xuf~An  N       pumice stone'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCLAn',
-      'suffix' => '',
-      'glosses' => [
-        'pumice stone'
-      ],
-      'orig' => 'xuf~An',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hifAf' => {
-          'N' => 1
-        },
-        '\'a_hfAf' => {
-          'N' => 1
-        },
-        '\'a_hiffA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => '_hafiyf',
-      'form' => '_hafiyf',
-      'lines' => [
-        ';; xafiyf_1',
-        'xafiyf  N/ap    light;slight;sparse     [[xafiyf/ADJ]]',
-        'xifAf   N       light;slight;sparse',
-        'OaxofAf N       light;slight;sparse',
-        'Oaxif~A\'        N0_Nh   light;slight;sparse',
-        'Oaxif~AW        Nh      light;slight;sparse',
-        'Oaxif~A}        Nhy     light;slight;sparse'
-      ],
-      'patterns' => {
-        '_hifAf' => [
-          'FiCAL'
-        ],
-        '\'a_hfAf' => [
-          'HaFCAL'
-        ],
-        '\'a_hiffA\'' => [
-          'HaFiCLA\''
-        ]
-      },
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCIL',
-      'suffix' => '',
-      'glosses' => [
-        'light',
-        'slight',
-        'sparse'
-      ],
-      'orig' => 'xafiyf',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta_hfiyf' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'ta_hfiyf',
-      'form' => 'ta_hfiyf',
-      'lines' => [
-        ';; taxofiyf_1',
-        'taxofiyf        NduAt   decrease;reduction;dilution'
-      ],
-      'patterns' => {
-        'ta_hfiyf' => [
-          'TaFCIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaFCIL',
-      'suffix' => '',
-      'glosses' => [
-        'decrease',
-        'reduction',
-        'dilution'
-      ],
-      'orig' => 'taxofiyf',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'isti_hfAf' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'isti_hfAf',
-      'form' => 'isti_hfAf',
-      'lines' => [
-        ';; AisotixofAf_1',
-        'AisotixofAf     N/At    facilitation;disdain'
-      ],
-      'patterns' => {
-        'isti_hfAf' => [
-          'IstiFCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IstiFCAL',
-      'suffix' => '',
-      'glosses' => [
-        'facilitation',
-        'disdain'
-      ],
-      'orig' => 'AisotixofAf',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_haffif',
-      'form' => 'mu_haffif',
-      'lines' => [
-        ';; muxaf~if_1',
-        'muxaf~if        N-ap    extenuating     [[muxaf~if/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFaCCiL',
-      'suffix' => '',
-      'glosses' => [
-        'extenuating'
-      ],
-      'orig' => 'muxaf~if',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_haffaf',
-      'form' => 'mu_haffaf',
-      'lines' => [
-        ';; muxaf~af_1',
-        'muxaf~af        N-ap    diluted;lightened     [[muxaf~af/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'diluted',
-        'lightened'
-      ],
-      'orig' => 'muxaf~af',
-      'prefix' => ''
-    }
-  ],
-  '_h n d q' => [
-    {
-      'types' => {
-        '_handiq' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_handaq',
-      'form' => '_handaq',
-      'lines' => [
-        ';; xanodaq_1',
-        'xanodaq PV      dig a trench',
-        'xanodiq IV_yu   dig a trench'
-      ],
-      'patterns' => {
-        '_handiq' => [
-          'KaRDiS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'KaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'dig a trench'
-      ],
-      'orig' => 'xanodaq',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hanAdiq' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_handaq',
-      'form' => '_handaq',
-      'lines' => [
-        ';; xanodaq_2',
-        'xanodaq Ndu     trench;ditch',
-        'xanAdiq Ndip    trenches;ditches'
-      ],
-      'patterns' => {
-        '_hanAdiq' => [
-          'KaRADiS'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'KaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'trench',
-        'ditch',
-        'trenches',
-        'ditches'
-      ],
-      'orig' => 'xanodaq',
-      'prefix' => ''
-    }
-  ],
-  '_hinnaw.s' => [
-    {
-      'types' => {
-        '_hanAniy.s' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hinnaw.s',
-      'form' => '_hinnaw.s',
-      'lines' => [
-        ';; xin~awoS_1',
-        'xin~awoS        Ndu     piglet',
-        'xanAniyS        Ndip    piglets'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'piglet',
-        'piglets'
-      ],
-      'orig' => 'xin~awoS',
-      'prefix' => ''
-    }
-  ],
-  '_h l .t' => [
-    {
-      'types' => {
-        '_hli.t' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_hala.t',
-      'form' => '_hala.t',
-      'lines' => [
-        ';; xalaT-i_1',
-        'xalaT   PV      mix;blend;confuse',
-        'xoliT   IV      mix;blend;confuse'
-      ],
-      'patterns' => {
-        '_hli.t' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'mix',
-        'blend',
-        'confuse'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xalaT-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_halli.t' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_halla.t',
-      'form' => '_halla.t',
-      'lines' => [
-        ';; xal~aT_1',
-        'xal~aT  PV      mix;blend;confuse',
-        'xal~iT  IV_yu   mix;blend;confuse'
-      ],
-      'patterns' => {
-        '_halli.t' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'mix',
-        'blend',
-        'confuse'
-      ],
-      'orig' => 'xal~aT',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hAli.t' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_hAla.t',
-      'form' => '_hAla.t',
-      'lines' => [
-        ';; xAlaT_1',
-        'xAlaT   PV      mix;mingle',
-        'xAliT   IV_yu   mix;mingle'
-      ],
-      'patterns' => {
-        '_hAli.t' => [
-          'FACiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FACaL',
-      'suffix' => '',
-      'glosses' => [
-        'mix',
-        'mingle'
-      ],
-      'orig' => 'xAlaT',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_htali.t' => {
-          'IV' => 1
-        }
-      },
-      'entry' => 'i_htala.t',
-      'form' => 'i_htala.t',
-      'lines' => [
-        ';; AixotalaT_1',
-        'AixotalaT       PV      mix;associate',
-        'xotaliT IV      mix;associate'
-      ],
-      'patterns' => {
-        '_htali.t' => [
-          'FtaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFtaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'mix',
-        'associate'
-      ],
-      'orig' => 'AixotalaT',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'a_hlA.t' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_hal.t',
-      'form' => '_hal.t',
-      'lines' => [
-        ';; xaloT_1',
-        'xaloT   N       mixture;blending',
-        'OaxolAT N       mixture;blend'
-      ],
-      'patterns' => {
-        '\'a_hlA.t' => [
-          'HaFCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'mixture',
-        'blending',
-        'blend'
-      ],
-      'orig' => 'xaloT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hal.t',
-      'form' => '_hal.t',
-      'lines' => [
-        ';; xaloT_2',
-        'xaloT   N       confusion'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'confusion'
-      ],
-      'orig' => 'xaloT',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hala.t' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => '_hal.t',
-      'form' => '_hal.taT',
-      'lines' => [
-        ';; xaloTap_1',
-        'xaloT   Napdu   mixture;blend',
-        'xalaT   NAt     mixtures;blends'
-      ],
-      'patterns' => {
-        '_hala.t' => [
-          'FaCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'mixture',
-        'blend',
-        'mixtures',
-        'blends'
-      ],
-      'orig' => 'xaloTap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hil.t',
-      'form' => '_hil.t',
-      'lines' => [
-        ';; xiloT_1',
-        'xiloT   N       ingredient'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCL',
-      'suffix' => '',
-      'glosses' => [
-        'ingredient'
-      ],
-      'orig' => 'xiloT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hallA.t',
-      'form' => '_hallA.t',
-      'lines' => [
-        ';; xal~AT_1',
-        'xal~AT  Ndu     mortar box;mixer'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL',
-      'suffix' => '',
-      'glosses' => [
-        'mortar box',
-        'mixer'
-      ],
-      'orig' => 'xal~AT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hallA.t',
-      'form' => '_hallA.taT',
-      'lines' => [
-        ';; xal~ATap_1',
-        'xal~AT  NapAt   mortar box;mixer'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'mortar box',
-        'mixer'
-      ],
-      'orig' => 'xal~ATap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_haliy.t',
-      'form' => '_haliy.t',
-      'lines' => [
-        ';; xaliyT_1',
-        'xaliyT  N/ap    mixture;blend'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL',
-      'suffix' => '',
-      'glosses' => [
-        'mixture',
-        'blend'
-      ],
-      'orig' => 'xaliyT',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hula.tA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => '_haliy.t',
-      'form' => '_haliy.t',
-      'lines' => [
-        ';; xaliyT_2',
-        'xaliyT  N/ap    associate;companion',
-        'xulaTA\' N0_Nh   associates;companions',
-        'xulaTAW Nh      associates;companions',
-        'xulaTA} Nhy     associates;companions'
-      ],
-      'patterns' => {
-        '_hula.tA\'' => [
-          'FuCaLA\''
-        ]
-      },
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL',
-      'suffix' => '',
-      'glosses' => [
-        'associate',
-        'companion',
-        'associates',
-        'companions'
-      ],
-      'orig' => 'xaliyT',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ta_hliy.t' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'ta_hliy.t',
-      'form' => 'ta_hliy.t',
-      'lines' => [
-        ';; taxoliyT_1',
-        'taxoliyT        NduAt   insanity;delirium'
-      ],
-      'patterns' => {
-        'ta_hliy.t' => [
-          'TaFCIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'TaFCIL',
-      'suffix' => '',
-      'glosses' => [
-        'insanity',
-        'delirium'
-      ],
-      'orig' => 'taxoliyT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_hAla.t',
-      'form' => 'mu_hAla.taT',
-      'lines' => [
-        ';; muxAlaTap_1',
-        'muxAlaT NapAt   mixing;association'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MuFACaL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'mixing',
-        'association'
-      ],
-      'orig' => 'muxAlaTap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'i_htilA.t' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'i_htilA.t',
-      'form' => 'i_htilA.t',
-      'lines' => [
-        ';; AixotilAT_1',
-        'AixotilAT       NduAt   mixing;association'
-      ],
-      'patterns' => {
-        'i_htilA.t' => [
-          'IFtiCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'IFtiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'mixing',
-        'association'
-      ],
-      'orig' => 'AixotilAT',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ma_hAliy.t' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'ma_hluw.t',
-      'form' => 'ma_hluw.t',
-      'lines' => [
-        ';; maxoluwT_1',
-        'maxoluwT        Nall    mixture;alloy;blend',
-        'maxAliyT        Ndip    mixture;alloy;blend'
-      ],
-      'patterns' => {
-        'ma_hAliy.t' => [
-          'MaFACIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MaFCUL',
-      'suffix' => '',
-      'glosses' => [
-        'mixture',
-        'alloy',
-        'blend'
-      ],
-      'orig' => 'maxoluwT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ma_hluw.t',
-      'form' => 'ma_hluw.t',
-      'lines' => [
-        ';; maxoluwT_2',
-        'maxoluwT        Nall    mixted;blended     [[maxoluwT/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'MaFCUL',
-      'suffix' => '',
-      'glosses' => [
-        'mixted',
-        'blended'
-      ],
-      'orig' => 'maxoluwT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_halla.t',
-      'form' => 'mu_halla.t',
-      'lines' => [
-        ';; muxal~aT_1',
-        'muxal~aT        Nall    confused;disordered     [[muxal~aT/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'confused',
-        'disordered'
-      ],
-      'orig' => 'muxal~aT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_hAla.t',
-      'form' => 'mu_hAla.t',
-      'lines' => [
-        ';; muxAlaT_1',
-        'muxAlaT Nall    stricken;afflicted     [[muxAlaT/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFACaL',
-      'suffix' => '',
-      'glosses' => [
-        'stricken',
-        'afflicted'
-      ],
-      'orig' => 'muxAlaT',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'mu_htali.t',
-      'form' => 'mu_htali.t',
-      'lines' => [
-        ';; muxotaliT_1',
-        'muxotaliT       Nall    mixed     [[muxotaliT/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'MuFtaCiL',
-      'suffix' => '',
-      'glosses' => [
-        'mixed'
-      ],
-      'orig' => 'muxotaliT',
-      'prefix' => ''
-    }
-  ],
-  '_hAqAn' => [
-    {
-      'types' => {
-        '_hawAqiyn' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => '_hAqAn',
-      'form' => '_hAqAn',
-      'lines' => [
-        ';; xAqAn_1',
-        'xAqAn   Ndu     overlord;monarch',
-        'xawAqiyn        Ndip    overlords;monarchs'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'overlord',
-        'monarch',
-        'overlords',
-        'monarchs'
-      ],
-      'orig' => 'xAqAn',
-      'prefix' => ''
-    }
-  ],
-  '_h b z' => [
-    {
-      'types' => {
-        '_hbiz' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_habaz',
-      'form' => '_habaz',
-      'lines' => [
-        ';; xabaz-i_1',
-        'xabaz   PV      bake',
-        'xobiz   IV      bake'
-      ],
-      'patterns' => {
-        '_hbiz' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'bake'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xabaz-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_htabiz' => {
-          'IV' => 1
-        }
-      },
-      'entry' => 'i_htabaz',
-      'form' => 'i_htabaz',
-      'lines' => [
-        ';; Aixotabaz_1',
-        'Aixotabaz       PV      bake;be baked',
-        'xotabiz IV      bake;be baked'
-      ],
-      'patterns' => {
-        '_htabiz' => [
-          'FtaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'IFtaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'bake',
-        'be baked'
-      ],
-      'orig' => 'Aixotabaz',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'a_hbAz' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_hubz',
-      'form' => '_hubz',
-      'lines' => [
-        ';; xuboz_1',
-        'xuboz   N       bread',
-        'OaxobAz N       bread',
-        'xuboz   Nap     loaf of bread'
-      ],
-      'patterns' => {
-        '\'a_hbAz' => [
-          'HaFCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL',
-      'suffix' => '',
-      'glosses' => [
-        'bread',
-        'loaf of bread'
-      ],
-      'orig' => 'xuboz',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_habbAz',
-      'form' => '_habbAz',
-      'lines' => [
-        ';; xab~Az_1',
-        'xab~Az  Nall    baker'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCCAL',
-      'suffix' => '',
-      'glosses' => [
-        'baker'
-      ],
-      'orig' => 'xab~Az',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hibAz',
-      'form' => '_hibAzaT',
-      'lines' => [
-        ';; xibAzap_1',
-        'xibAz   Nap     baking'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'baking'
-      ],
-      'orig' => 'xibAzap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ma_hAbiz' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'ma_hbaz',
-      'form' => 'ma_hbaz',
-      'lines' => [
-        ';; maxobaz_1',
-        'maxobaz Ndu     bakery',
-        'maxobaz Napdu   bakery',
-        'maxAbiz Ndip    bakeries'
-      ],
-      'patterns' => {
-        'ma_hAbiz' => [
-          'MaFACiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MaFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'bakery',
-        'bakeries'
-      ],
-      'orig' => 'maxobaz',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ma_hbuwz' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'ma_hbuwz',
-      'form' => 'ma_hbuwzAt',
-      'lines' => [
-        ';; maxobuwzAt_1',
-        'maxobuwz        NAt     bakery goods'
-      ],
-      'patterns' => {
-        'ma_hbuwz' => [
-          'MaFCUL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MaFCUL |< At',
-      'suffix' => ' |< At',
-      'glosses' => [
-        'bakery goods'
-      ],
-      'orig' => 'maxobuwzAt',
-      'prefix' => ''
-    }
-  ],
-  '_h \' f' => [
-    {
-      'types' => {},
-      'entry' => '_hA\'if',
-      'form' => '_hA\'if',
-      'lines' => [],
-      'patterns' => {
-        '_huwwaf' => []
-      },
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'xA}if',
-      'prefix' => ''
-    }
-  ],
-  '_h z `' => [
-    {
-      'types' => {
-        '_hza`' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_haza`',
-      'form' => '_haza`',
-      'lines' => [
-        ';; xazaE-a_1',
-        'xazaE   PV      cut;sever',
-        'xozaE   IV      cut;sever'
-      ],
-      'patterns' => {
-        '_hza`' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'cut',
-        'sever'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'xazaE-a',
-      'prefix' => ''
-    }
-  ],
-  '_h r b q' => [
-    {
-      'types' => {
-        '_harbiq' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_harbaq',
-      'form' => '_harbaq',
-      'lines' => [
-        ';; xarobaq_1',
-        'xarobaq PV      perforate;spoil',
-        'xarobiq IV_yu   perforate;spoil'
-      ],
-      'patterns' => {
-        '_harbiq' => [
-          'KaRDiS'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'KaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'perforate',
-        'spoil'
-      ],
-      'orig' => 'xarobaq',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_harbaq',
-      'form' => '_harbaq',
-      'lines' => [
-        ';; xarobaq_2',
-        'xarobaq N       hellebore (early-flowering plant)'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'KaRDaS',
-      'suffix' => '',
-      'glosses' => [
-        'hellebore (early-flowering plant)'
-      ],
-      'orig' => 'xarobaq',
-      'prefix' => ''
-    }
-  ],
-  '_h \' n' => [
-    {
-      'types' => {},
-      'entry' => '_hAn',
-      'form' => '_hAn',
-      'lines' => [
-        ';; xAn_1',
-        'xAn     Nprop   Khan'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FAL',
-      'suffix' => '',
-      'glosses' => [
-        'Khan'
-      ],
-      'orig' => 'xAn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hAn',
-      'form' => '_hAn',
-      'lines' => [
-        ';; xAn_2',
-        'xAn     N       khan;hostel'
-      ],
-      'patterns' => {},
-      'index' => '2',
-      'entity' => 'noun',
-      'morphs' => 'FAL',
-      'suffix' => '',
-      'glosses' => [
-        'khan',
-        'hostel'
-      ],
-      'orig' => 'xAn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hAn',
-      'form' => '_hAnaT',
-      'lines' => [
-        ';; xAnap_1',
-        'xAn     NapAt   compartment;partition'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FAL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'compartment',
-        'partition'
-      ],
-      'orig' => 'xAnap',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_ha\'uwn',
-      'form' => '_ha\'uwn',
-      'lines' => [
-        ';; xaWuwn_1',
-        'xaWuwn  N/ap    faithless;disloyal'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCUL',
-      'suffix' => '',
-      'glosses' => [
-        'faithless',
-        'disloyal'
-      ],
-      'orig' => 'xaWuwn',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hA\'in',
-      'form' => '_hA\'in',
-      'lines' => [],
-      'patterns' => {
-        '_hawn' => [],
-        '_huwwAn' => []
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [],
-      'orig' => 'xA}in',
-      'prefix' => ''
-    }
-  ],
-  '_h r .t ^s' => [
-    {
-      'types' => {},
-      'entry' => '_har.tuw^s',
-      'form' => '_har.tuw^s',
-      'lines' => [
-        ';; xaroTuw$_1',
-        'xaroTuw$        N       bullets;cartridges',
-        'xaroTuw$        Napdu   bullet;cartridge'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KaRDUS',
-      'suffix' => '',
-      'glosses' => [
-        'bullets',
-        'cartridges',
-        'bullet',
-        'cartridge'
-      ],
-      'orig' => 'xaroTuw$',
-      'prefix' => ''
-    }
-  ],
-  '_h ^s `' => [
-    {
-      'types' => {
-        '_h^sa`' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => '_ha^sa`',
-      'form' => '_ha^sa`',
-      'lines' => [
-        ';; xa$aE-a_1',
-        'xa$aE   PV_intr be submissive;be humble',
-        'xo$aE   IV_intr be submissive;be humble'
-      ],
-      'patterns' => {
-        '_h^sa`' => [
-          'FCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'be submissive',
-        'be humble'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCaL'
-      ],
-      'orig' => 'xa$aE-a',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_ha^s^si`' => {
-          'IV_yu' => 1
-        }
-      },
-      'entry' => '_ha^s^sa`',
-      'form' => '_ha^s^sa`',
-      'lines' => [
-        ';; xa$~aE_1',
-        'xa$~aE  PV      humble;reduce to submission',
-        'xa$~iE  IV_yu   humble;reduce to submission'
-      ],
-      'patterns' => {
-        '_ha^s^si`' => [
-          'FaCCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'humble',
-        'reduce to submission'
-      ],
-      'orig' => 'xa$~aE',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ta_ha^s^sa`',
-      'form' => 'ta_ha^s^sa`',
-      'lines' => [
-        ';; taxa$~aE_1',
-        'taxa$~aE        PV      display humility;be humble;be touched',
-        'taxa$~aE        IV      display humility;be humble;be touched'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'TaFaCCaL',
-      'suffix' => '',
-      'glosses' => [
-        'display humility',
-        'be humble',
-        'be touched'
-      ],
-      'orig' => 'taxa$~aE',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hu^suw`',
-      'form' => '_hu^suw`',
-      'lines' => [
-        ';; xu$uwE_1',
-        'xu$uwE  N       submissiveness;humility'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCUL',
-      'suffix' => '',
-      'glosses' => [
-        'submissiveness',
-        'humility'
-      ],
-      'orig' => 'xu$uwE',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_ha^sa`' => {
-          'Nap' => 1
-        }
-      },
-      'entry' => '_hA^si`',
-      'form' => '_hA^si`',
-      'lines' => [
-        ';; xA$iE_1',
-        'xA$iE   N/ap    submissive;humble     [[xA$iE/ADJ]]',
-        'xa$aE   Nap     submissive;humble'
-      ],
-      'patterns' => {
-        '_ha^sa`' => [
-          'FaCaL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FACiL',
-      'suffix' => '',
-      'glosses' => [
-        'submissive',
-        'humble'
-      ],
-      'orig' => 'xA$iE',
-      'prefix' => ''
-    }
-  ],
-  '_h r t' => [
-    {
-      'types' => {
-        '_hrut' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_harat',
-      'form' => '_harat',
-      'lines' => [
-        ';; xarat-u_1',
-        'xarat   PV-t    perforate',
-        'xorut   IV      perforate'
-      ],
-      'patterns' => {
-        '_hrut' => [
-          'FCuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'perforate'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'xarat-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'a_hrAt' => {
-          'N' => 1
-        }
-      },
-      'entry' => '_hurt',
-      'form' => '_hurt',
-      'lines' => [
-        ';; xurot_1',
-        'xurot   N       hole;bore',
-        'OaxorAt N       holes;eyelets'
-      ],
-      'patterns' => {
-        '\'a_hrAt' => [
-          'HaFCAL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCL',
-      'suffix' => '',
-      'glosses' => [
-        'hole',
-        'bore',
-        'holes',
-        'eyelets'
-      ],
-      'orig' => 'xurot',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hirriyt',
-      'form' => '_hirriyt',
-      'lines' => [
-        ';; xir~iyt_1',
-        'xir~iyt N/ap    experienced;skilled'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCCIL',
-      'suffix' => '',
-      'glosses' => [
-        'experienced',
-        'skilled'
-      ],
-      'orig' => 'xir~iyt',
-      'prefix' => ''
-    }
-  ],
   '_h ^g l' => [
     {
       'types' => {
@@ -31277,6 +24406,35 @@ $Lexicon = {
     },
     {
       'types' => {
+        '_ha.tA.tiyf' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_ha.t.tiyf',
+      'form' => '_ha.t.tiyf',
+      'lines' => [
+        ';; xaT~iyf_1',
+        'xaT~iyf Ndu     hook',
+        'xaTATiyf        Ndip    hooks'
+      ],
+      'patterns' => {
+        '_ha.tA.tiyf' => [
+          'FaCACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCIL',
+      'suffix' => '',
+      'glosses' => [
+        'hook',
+        'hooks'
+      ],
+      'orig' => 'xaT~iyf',
+      'prefix' => ''
+    },
+    {
+      'types' => {
         'i_hti.tAf' => {
           'NduAt' => 1
         }
@@ -31436,6 +24594,172 @@ $Lexicon = {
         'kidnapper'
       ],
       'orig' => 'muxotaTif',
+      'prefix' => ''
+    }
+  ],
+  '_h n w' => [
+    {
+      'types' => {
+        '_hanaw' => {
+          'PV_Atn' => 1
+        },
+        '_hn' => {
+          'IV_0hwnyn' => 1
+        },
+        '_han' => {
+          'PV_ttAw_intr' => 1
+        },
+        '_hnY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        '_hnuw' => {
+          'IV_0hAnn' => 1
+        }
+      },
+      'entry' => '_hanA',
+      'form' => '_hanA',
+      'lines' => [
+        ';; xanA-u_1',
+        'xanA    PV_0    be obscene',
+        'xanaw   PV_Atn  be obscene',
+        'xan     PV_ttAw_intr    be obscene',
+        'xonuw   IV_0hAnn        be obscene',
+        'xon     IV_0hwnyn       be obscene',
+        'xonaY   IV_0_Pass_yu    be obscene'
+      ],
+      'patterns' => {
+        '_hanaw' => [
+          'FaCaL'
+        ],
+        '_han' => [
+          'FaC'
+        ],
+        '_hnY' => [
+          'FCY'
+        ],
+        '_hnuw' => [
+          'FCU'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCA',
+      'glosses' => [
+        'be obscene'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'xanA-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_haniy',
+      'form' => '_haniy',
+      'lines' => [],
+      'patterns' => {
+        '_han' => [
+          'FaC'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCI',
+      'glosses' => [],
+      'suffix' => '',
+      'imperf' => [],
+      'orig' => 'xaniy-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hniy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '_hn' => {
+          'IV_0hwnyn_yu' => 1
+        },
+        '\'a_hnay' => {
+          'PV_Atn' => 1
+        },
+        '_hnY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        '\'a_hnA' => {
+          'PV_h' => 1
+        },
+        '\'a_hn' => {
+          'PV_ttAw' => 1
+        },
+        '_hnay' => {
+          'IV_Ann_Pass_yu' => 1
+        }
+      },
+      'entry' => '\'a_hnY',
+      'form' => '\'a_hnY',
+      'lines' => [
+        ';; OaxonaY_1',
+        'OaxonaY PV_0    afflict;wear down;ruin',
+        'OaxonA  PV_h    afflict;wear down;ruin',
+        'Oaxonay PV_Atn  afflict;wear down;ruin',
+        'Oaxon   PV_ttAw afflict;wear down;ruin',
+        'xoniy   IV_0hAnn_yu     afflict;wear down;ruin',
+        'xon     IV_0hwnyn_yu    afflict;wear down;ruin',
+        'xonaY   IV_0_Pass_yu    be afflicted;be worn down;be ruined',
+        'xonay   IV_Ann_Pass_yu  be afflicted;be worn down;be ruined'
+      ],
+      'patterns' => {
+        '_hniy' => [
+          'FCI'
+        ],
+        '_hnY' => [
+          'FCY'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCY',
+      'suffix' => '',
+      'glosses' => [
+        'afflict',
+        'wear down',
+        'ruin',
+        'be afflicted',
+        'be worn down',
+        'be ruined'
+      ],
+      'orig' => 'OaxonaY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hanA' => {
+          'Nhy' => 1
+        }
+      },
+      'entry' => '_hanY',
+      'form' => '_hanY',
+      'lines' => [
+        ';; xanaY_1',
+        'xanaY   N0      obscenity;fornication',
+        'xanA    Nhy     obscenity;fornication'
+      ],
+      'patterns' => {
+        '_hanA' => [
+          'FaCA'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCY',
+      'suffix' => '',
+      'glosses' => [
+        'obscenity',
+        'fornication'
+      ],
+      'orig' => 'xanaY',
       'prefix' => ''
     }
   ],
@@ -32338,24 +25662,164 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_h r d q' => [
+  '_h .d l' => [
+    {
+      'types' => {
+        '_h.dal' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => '_ha.dil',
+      'form' => '_ha.dil',
+      'lines' => [
+        ';; xaDil-a_1',
+        'xaDil   PV_intr be moist',
+        'xoDal   IV_intr be moist'
+      ],
+      'patterns' => {
+        '_h.dal' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        'be moist'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'xaDil-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_ha.d.dil' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_ha.d.dal',
+      'form' => '_ha.d.dal',
+      'lines' => [
+        ';; xaD~al_1',
+        'xaD~al  PV      moisten;wet',
+        'xaD~il  IV_yu   moisten;wet'
+      ],
+      'patterns' => {
+        '_ha.d.dil' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'moisten',
+        'wet'
+      ],
+      'orig' => 'xaD~al',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_h.dal' => {
+          'IV_Pass_yu' => 1
+        },
+        '_h.dil' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '\'a_h.dal',
+      'form' => '\'a_h.dal',
+      'lines' => [
+        ';; OaxoDal_1',
+        'OaxoDal PV      moisten;wet',
+        'xoDil   IV_yu   moisten;wet',
+        'xoDal   IV_Pass_yu      be moistened;be made wet'
+      ],
+      'patterns' => {
+        '_h.dal' => [
+          'FCaL'
+        ],
+        '_h.dil' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'moisten',
+        'wet',
+        'be moistened',
+        'be made wet'
+      ],
+      'orig' => 'OaxoDal',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_h.dall' => {
+          'IV_V_intr' => 1
+        },
+        '_h.dalil' => {
+          'IV_C_intr' => 1
+        },
+        'i_h.dalal' => {
+          'PV_C_intr' => 1
+        }
+      },
+      'entry' => 'i_h.dall',
+      'form' => 'i_h.dall',
+      'lines' => [
+        ';; AixoDal~_1',
+        'AixoDal~        PV_V_intr       be moist',
+        'AixoDalal       PV_C_intr       be moist',
+        'xoDal~  IV_V_intr       be moist',
+        'xoDalil IV_C_intr       be moist'
+      ],
+      'patterns' => {
+        '_h.dall' => [
+          'FCaLL'
+        ],
+        'i_h.dalal' => [
+          'IFCaLaL'
+        ],
+        '_h.dalil' => [
+          'FCaLiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFCaLL',
+      'suffix' => '',
+      'glosses' => [
+        'be moist'
+      ],
+      'orig' => 'AixoDal~',
+      'prefix' => ''
+    },
     {
       'types' => {},
-      'entry' => '_hurdaq',
-      'form' => '_hurdaq',
+      'entry' => '_ha.dil',
+      'form' => '_ha.dil',
       'lines' => [
-        ';; xurodaq_1',
-        'xurodaq Ndu     buckshot'
+        ';; xaDil_1',
+        'xaDil   N/ap    moist'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'KuRDaS',
+      'morphs' => 'FaCiL',
       'suffix' => '',
       'glosses' => [
-        'buckshot'
+        'moist'
       ],
-      'orig' => 'xurodaq',
+      'orig' => 'xaDil',
       'prefix' => ''
     }
   ],
@@ -32418,6 +25882,27 @@ $Lexicon = {
         'scrofulous'
       ],
       'orig' => 'xanAziyriy~',
+      'prefix' => ''
+    }
+  ],
+  '_h r d q' => [
+    {
+      'types' => {},
+      'entry' => '_hurdaq',
+      'form' => '_hurdaq',
+      'lines' => [
+        ';; xurodaq_1',
+        'xurodaq Ndu     buckshot'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'buckshot'
+      ],
+      'orig' => 'xurodaq',
       'prefix' => ''
     }
   ],
@@ -33844,6 +27329,343 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h .s m' => [
+    {
+      'types' => {
+        '_h.sim' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_ha.sam',
+      'form' => '_ha.sam',
+      'lines' => [
+        ';; xaSam-i_1',
+        'xaSam   PV      defeat;deduct;discount',
+        'xoSim   IV      defeat;deduct;discount'
+      ],
+      'patterns' => {
+        '_h.sim' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'defeat',
+        'deduct',
+        'discount'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xaSam-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hA.sim' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_hA.sam',
+      'form' => '_hA.sam',
+      'lines' => [
+        ';; xASam_1',
+        'xASam   PV      argue;litigate',
+        'xASim   IV_yu   argue;litigate'
+      ],
+      'patterns' => {
+        '_hA.sim' => [
+          'FACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FACaL',
+      'suffix' => '',
+      'glosses' => [
+        'argue',
+        'litigate'
+      ],
+      'orig' => 'xASam',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_hA.sam',
+      'form' => 'ta_hA.sam',
+      'lines' => [
+        ';; taxASam_1',
+        'taxASam PV      quarrel;litigate',
+        'taxASam IV      quarrel;litigate'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFACaL',
+      'suffix' => '',
+      'glosses' => [
+        'quarrel',
+        'litigate'
+      ],
+      'orig' => 'taxASam',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'n_ha.sim' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'in_ha.sam',
+      'form' => 'in_ha.sam',
+      'lines' => [
+        ';; AinoxaSam_1',
+        'AinoxaSam       PV_intr be deducted;be subtracted',
+        'noxaSim IV_intr be deducted;be subtracted'
+      ],
+      'patterns' => {
+        'n_ha.sim' => [
+          'NFaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'InFaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be deducted',
+        'be subtracted'
+      ],
+      'orig' => 'AinoxaSam',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hta.sim' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'i_hta.sam',
+      'form' => 'i_hta.sam',
+      'lines' => [
+        ';; AixotaSam_1',
+        'AixotaSam       PV      quarrel;conflict',
+        'xotaSim IV      quarrel;conflict'
+      ],
+      'patterns' => {
+        '_hta.sim' => [
+          'FtaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFtaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'quarrel',
+        'conflict'
+      ],
+      'orig' => 'AixotaSam',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hu.suwm' => {
+          'N' => 1
+        },
+        '\'a_h.sAm' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_ha.sm',
+      'form' => '_ha.sm',
+      'lines' => [
+        ';; xaSom_1',
+        'xaSom   Ndu     adversary',
+        'xuSuwm  N       adversaries',
+        'OaxoSAm N       adversaries'
+      ],
+      'patterns' => {
+        '_hu.suwm' => [
+          'FuCUL'
+        ],
+        '\'a_h.sAm' => [
+          'HaFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'adversary',
+        'adversaries'
+      ],
+      'orig' => 'xaSom',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hu.suwm' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_ha.sm',
+      'form' => '_ha.sm',
+      'lines' => [
+        ';; xaSom_2',
+        'xaSom   N       deduction;subtraction',
+        'xuSuwm  N       liabilities'
+      ],
+      'patterns' => {
+        '_hu.suwm' => [
+          'FuCUL'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'deduction',
+        'subtraction',
+        'liabilities'
+      ],
+      'orig' => 'xaSom',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hu.smAn' => {
+          'N' => 1
+        },
+        '_hu.samA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '_ha.siym',
+      'form' => '_ha.siym',
+      'lines' => [
+        ';; xaSiym_1',
+        'xaSiym  Ndu     adversary',
+        'xuSamA\' N0_Nh   adversaries',
+        'xuSamAW Nh      adversaries',
+        'xuSamA} Nhy     adversaries',
+        'xuSomAn N       adversaries'
+      ],
+      'patterns' => {
+        '_hu.smAn' => [
+          'FuCLAn'
+        ],
+        '_hu.samA\'' => [
+          'FuCaLA\''
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        'adversary',
+        'adversaries'
+      ],
+      'orig' => 'xaSiym',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hu.suwm',
+      'form' => '_hu.suwmaT',
+      'lines' => [
+        ';; xuSuwmap_1',
+        'xuSuwm  Nap     quarrel;lawsuit'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'quarrel',
+        'lawsuit'
+      ],
+      'orig' => 'xuSuwmap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_hA.sam',
+      'form' => 'mu_hA.samaT',
+      'lines' => [
+        ';; muxASamap_1',
+        'muxASam NapAt   dispute;lawsuit'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFACaL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'dispute',
+        'lawsuit'
+      ],
+      'orig' => 'muxASamap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'i_hti.sAm' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'i_hti.sAm',
+      'form' => 'i_hti.sAm',
+      'lines' => [
+        ';; AixotiSAm_1',
+        'AixotiSAm       NduAt   conflict;contradiction'
+      ],
+      'patterns' => {
+        'i_hti.sAm' => [
+          'IFtiCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IFtiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'conflict',
+        'contradiction'
+      ],
+      'orig' => 'AixotiSAm',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_hA.sim',
+      'form' => 'mu_hA.sim',
+      'lines' => [
+        ';; muxASim_1',
+        'muxASim Nall    litigant;adversary'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFACiL',
+      'suffix' => '',
+      'glosses' => [
+        'litigant',
+        'adversary'
+      ],
+      'orig' => 'muxASim',
+      'prefix' => ''
+    }
+  ],
   '_hUst' => [
     {
       'types' => {},
@@ -33898,25 +27720,952 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_h ^s r' => [
+  '_h .s .s' => [
+    {
+      'types' => {
+        '_ha.sa.s' => {
+          'PV_C' => 1
+        },
+        '_h.su.s' => {
+          'IV_C' => 1
+        },
+        '_hu.s.s' => {
+          'IV_V' => 1
+        }
+      },
+      'entry' => '_ha.s.s',
+      'form' => '_ha.s.s',
+      'lines' => [
+        ';; xaS~-u_1',
+        'xaS~    PV_V    concern;stipulate;confer',
+        'xaSaS   PV_C    concern;stipulate;confer',
+        'xuS~    IV_V    concern;stipulate;confer',
+        'xoSuS   IV_C    concern;stipulate;confer'
+      ],
+      'patterns' => {
+        '_ha.sa.s' => [
+          'FaCaL'
+        ],
+        '_hu.s.s' => [
+          'FuCL'
+        ],
+        '_h.su.s' => [
+          'FCuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCL',
+      'glosses' => [
+        'concern',
+        'stipulate',
+        'confer'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'xaS~-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_ha.s.si.s' => {
+          'IV_yu' => 1
+        },
+        '_hu.s.si.s' => {
+          'PV_Pass' => 1
+        }
+      },
+      'entry' => '_ha.s.sa.s',
+      'form' => '_ha.s.sa.s',
+      'lines' => [
+        ';; xaS~aS_1',
+        'xaS~aS  PV      specify;designate;allocate',
+        'xaS~iS  IV_yu   specify;designate;allocate',
+        'xuS~iS  PV_Pass be specified;be designated;be allocated',
+        'xaS~aS  IV_Pass_yu      be specified;be designated;be allocated'
+      ],
+      'patterns' => {
+        '_ha.s.si.s' => [
+          'FaCCiL'
+        ],
+        '_hu.s.si.s' => [
+          'FuCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'specify',
+        'designate',
+        'allocate',
+        'be specified',
+        'be designated',
+        'be allocated'
+      ],
+      'orig' => 'xaS~aS',
+      'prefix' => ''
+    },
     {
       'types' => {},
-      'entry' => '_hu^sAr',
-      'form' => '_hu^sAraT',
+      'entry' => 'ta_ha.s.sa.s',
+      'form' => 'ta_ha.s.sa.s',
       'lines' => [
-        ';; xu$Arap_1',
-        'xu$Ar   Nap     leftovers;discards'
+        ';; taxaS~aS_1',
+        'taxaS~aS        PV      specialize;be designated;be allocated',
+        'taxaS~aS        IV      specialize;be designated;be allocated'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'specialize',
+        'be designated',
+        'be allocated'
+      ],
+      'orig' => 'taxaS~aS',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hta.s.s' => {
+          'IV_V' => 1
+        },
+        'i_hta.sa.s' => {
+          'PV_C' => 1
+        },
+        '_hta.si.s' => {
+          'IV_C' => 1
+        }
+      },
+      'entry' => 'i_hta.s.s',
+      'form' => 'i_hta.s.s',
+      'lines' => [
+        ';; AixotaS~_1',
+        'AixotaS~        PV_V    dedicate;be distinguished',
+        'AixotaSaS       PV_C    dedicate;be distinguished',
+        'xotaS~  IV_V    dedicate;be distinguished',
+        'xotaSiS IV_C    dedicate;be distinguished'
+      ],
+      'patterns' => {
+        'i_hta.sa.s' => [
+          'IFtaCaL'
+        ],
+        '_hta.s.s' => [
+          'FtaCL'
+        ],
+        '_hta.si.s' => [
+          'FtaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFtaCL',
+      'suffix' => '',
+      'glosses' => [
+        'dedicate',
+        'be distinguished'
+      ],
+      'orig' => 'AixotaS~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha.s.s',
+      'form' => '_ha.s.s',
+      'lines' => [
+        ';; xaS~_1',
+        'xaS~    N       lettuce'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCAL |< aT',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'lettuce'
+      ],
+      'orig' => 'xaS~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'a_h.sA.s' => {
+          'N' => 1
+        },
+        '_hi.sA.s' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_hu.s.s',
+      'form' => '_hu.s.s',
+      'lines' => [
+        ';; xuS~_1',
+        'xuS~    Ndu     shack;shanty',
+        'xiSAS   N       shacks;shanties',
+        'OaxoSAS N       shacks;shanties'
+      ],
+      'patterns' => {
+        '\'a_h.sA.s' => [
+          'HaFCAL'
+        ],
+        '_hi.sA.s' => [
+          'FiCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCL',
+      'suffix' => '',
+      'glosses' => [
+        'shack',
+        'shanty',
+        'shacks',
+        'shanties'
+      ],
+      'orig' => 'xuS~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha.sA.s',
+      'form' => '_ha.sA.s',
+      'lines' => [
+        ';; xaSAS_1',
+        'xaSAS   Ndu     crevice;gap',
+        'xaSAS   Nap     crevice;gap'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL',
+      'suffix' => '',
+      'glosses' => [
+        'crevice',
+        'gap'
+      ],
+      'orig' => 'xaSAS',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'a_hi.s.sA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '_ha.siy.s',
+      'form' => '_ha.siy.s',
+      'lines' => [
+        ';; xaSiyS_1',
+        'xaSiyS  N       friend;confidant',
+        'OaxiS~A\'        N0_Nh   friends;confidants',
+        'OaxiS~AW        Nh      friends;confidants',
+        'OaxiS~A}        Nhy     friends;confidants'
+      ],
+      'patterns' => {
+        '\'a_hi.s.sA\'' => [
+          'HaFiCLA\''
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        'friend',
+        'confidant',
+        'friends',
+        'confidants'
+      ],
+      'orig' => 'xaSiyS',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_ha.sA\'i.s' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_ha.siy.s',
+      'form' => '_ha.siy.saT',
+      'lines' => [
+        ';; xaSiySap_1',
+        'xaSiyS  Napdu   peculiarity;feature',
+        'xaSA}iS Ndip    attributes;features'
+      ],
+      'patterns' => {
+        '_ha.sA\'i.s' => [
+          'FaCA\'iL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'leftovers',
-        'discards'
+        'peculiarity',
+        'feature',
+        'attributes',
+        'features'
       ],
-      'orig' => 'xu$Arap',
+      'orig' => 'xaSiySap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hi.s.siy.s',
+      'form' => '_hi.s.siy.s',
+      'lines' => [
+        ';; xiS~iyS_1',
+        'xiS~iyS NF      especially;specifically     [[xiS~iyS/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'FiCCIL',
+      'suffix' => '',
+      'glosses' => [
+        'especially',
+        'specifically'
+      ],
+      'orig' => 'xiS~iyS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hu.suw.s',
+      'form' => '_hu.suw.s',
+      'lines' => [
+        ';; xuSuwS_1',
+        'xuSuwS  N       matter;issue;regard;respect',
+        'xuSuwS  NF      especially;in particular     [[xuSuwS/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'FuCUL',
+      'suffix' => '',
+      'glosses' => [
+        'matter',
+        'issue',
+        'regard',
+        'respect',
+        'especially',
+        'in particular'
+      ],
+      'orig' => 'xuSuwS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hu.suw.s',
+      'form' => '_hu.suw.siyy',
+      'lines' => [
+        ';; xuSuwSiy~_1',
+        'xuSuwSiy~       Nall    private;personal;special     [[xuSuwSiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuCUL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'private',
+        'personal',
+        'special'
+      ],
+      'orig' => 'xuSuwSiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha.sA.s',
+      'form' => '_ha.sA.saT',
+      'lines' => [
+        ';; xaSASap_1',
+        'xaSAS   Nap     poverty;destitution'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'poverty',
+        'destitution'
+      ],
+      'orig' => 'xaSASap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'a_ha.s.s',
+      'form' => '\'a_ha.s.s',
+      'lines' => [
+        ';; OaxaS~_1',
+        'OaxaS~  Nel     more specific'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFaCL',
+      'suffix' => '',
+      'glosses' => [
+        'more specific'
+      ],
+      'orig' => 'OaxaS~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta_h.siy.s' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'ta_h.siy.s',
+      'form' => 'ta_h.siy.s',
+      'lines' => [
+        ';; taxoSiyS_1',
+        'taxoSiyS        NduAt   designation;allocation;apportionment'
+      ],
+      'patterns' => {
+        'ta_h.siy.s' => [
+          'TaFCIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFCIL',
+      'suffix' => '',
+      'glosses' => [
+        'designation',
+        'allocation',
+        'apportionment'
+      ],
+      'orig' => 'taxoSiyS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'a_hi.s.sA\'',
+      'form' => '\'a_hi.s.sA\'iyy',
+      'lines' => [
+        ';; OaxiS~A}iy~_1',
+        'OaxiS~A}iy~     Nall    specialist;expert     [[OaxiS~A}iy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'HaFiCLA\' |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'specialist',
+        'expert'
+      ],
+      'orig' => 'OaxiS~A}iy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta_ha.s.su.s' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'ta_ha.s.su.s',
+      'form' => 'ta_ha.s.su.s',
+      'lines' => [
+        ';; taxaS~uS_1',
+        'taxaS~uS        NduAt   specialization;major field'
+      ],
+      'patterns' => {
+        'ta_ha.s.su.s' => [
+          'TaFaCCuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFaCCuL',
+      'suffix' => '',
+      'glosses' => [
+        'specialization',
+        'major field'
+      ],
+      'orig' => 'taxaS~uS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_ha.s.su.s',
+      'form' => 'ta_ha.s.su.siyy',
+      'lines' => [
+        ';; taxaS~uSiy~_1',
+        'taxaS~uSiy~     Nall    specialized     [[taxaS~uSiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'TaFaCCuL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'specialized'
+      ],
+      'orig' => 'taxaS~uSiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'i_hti.sA.s' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'i_hti.sA.s',
+      'form' => 'i_hti.sA.s',
+      'lines' => [
+        ';; AixotiSAS_1',
+        'AixotiSAS       NduAt   jurisdiction;bailiwick'
+      ],
+      'patterns' => {
+        'i_hti.sA.s' => [
+          'IFtiCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IFtiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'jurisdiction',
+        'bailiwick'
+      ],
+      'orig' => 'AixotiSAS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'i_hti.sA.s',
+      'form' => 'i_hti.sA.siyy',
+      'lines' => [
+        ';; AixotiSASiy~_1',
+        'AixotiSASiy~    Nall    specialist     [[AixotiSASiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'IFtiCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'specialist'
+      ],
+      'orig' => 'AixotiSASiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hA.s.s',
+      'form' => '_hA.s.s',
+      'lines' => [
+        ';; xAS~_1',
+        'xAS~    Nall    special;specific     [[xAS~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACL',
+      'suffix' => '',
+      'glosses' => [
+        'special',
+        'specific'
+      ],
+      'orig' => 'xAS~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hA.s.s',
+      'form' => '_hA.s.s',
+      'lines' => [
+        ';; xAS~_2',
+        'xAS~    Nall    private;exclusive     [[xAS~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'FACL',
+      'suffix' => '',
+      'glosses' => [
+        'private',
+        'exclusive'
+      ],
+      'orig' => 'xAS~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hA.s',
+      'form' => '_hA.saTaN',
+      'lines' => [
+        ';; xASapF_1',
+        'xASapF  FW-Wa   especially;particularly    [[xASapF/ADV]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'FAL |< aT |< aN',
+      'suffix' => ' |< aT |< aN',
+      'glosses' => [
+        'especially',
+        'particularly'
+      ],
+      'orig' => 'xASapF',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'bi_hA.s.saT' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => '_hA.s.s',
+      'form' => '_hA.s.saT',
+      'lines' => [
+        ';; xAS~ap_1',
+        'xAS~    Nap     elite',
+        'bixAS~ap        FW-Wa   especially     [[bixAS~ap/ADV]]'
+      ],
+      'patterns' => {
+        'bi_hA.s.saT' => []
+      },
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'FACL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'elite',
+        'especially'
+      ],
+      'orig' => 'xAS~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hA.s.s',
+      'form' => '_hA.s.siyyaT',
+      'lines' => [
+        ';; xAS~iy~ap_1',
+        'xAS~iy~ NapAt   specialty;peculiarity     [[xAS~iy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACL |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'specialty',
+        'peculiarity'
+      ],
+      'orig' => 'xAS~iy~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ma_h.suw.s',
+      'form' => 'ma_h.suw.s',
+      'lines' => [
+        ';; maxoSuwS_1',
+        'maxoSuwS        Nall    special;secret'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCUL',
+      'suffix' => '',
+      'glosses' => [
+        'special',
+        'secret'
+      ],
+      'orig' => 'maxoSuwS',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'mu_ha.s.sa.s' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'mu_ha.s.sa.s',
+      'form' => 'mu_ha.s.sa.s',
+      'lines' => [
+        ';; muxaS~aS_1',
+        'muxaS~aS        Nall    designated;allocated     [[muxaS~aS/ADJ]]',
+        'muxaS~aS        NAt     allocations;credits;coupons'
+      ],
+      'patterns' => {
+        'mu_ha.s.sa.s' => [
+          'MuFaCCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'designated',
+        'allocated',
+        'allocations',
+        'credits',
+        'coupons'
+      ],
+      'orig' => 'muxaS~aS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'muta_ha.s.si.s',
+      'form' => 'muta_ha.s.si.s',
+      'lines' => [
+        ';; mutaxaS~iS_1',
+        'mutaxaS~iS      Nall    specialized;specialist     [[mutaxaS~iS/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MutaFaCCiL',
+      'suffix' => '',
+      'glosses' => [
+        'specialized',
+        'specialist'
+      ],
+      'orig' => 'mutaxaS~iS',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_hta.s.s',
+      'form' => 'mu_hta.s.s',
+      'lines' => [
+        ';; muxotaS~_1',
+        'muxotaS~        Nall    responsible;competent'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFtaCL',
+      'suffix' => '',
+      'glosses' => [
+        'responsible',
+        'competent'
+      ],
+      'orig' => 'muxotaS~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_huway.s',
+      'form' => '_huway.saT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuwayL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
+      'orig' => 'xuwayoSap',
+      'prefix' => ''
+    }
+  ],
+  '_h \' l' => [
+    {
+      'types' => {},
+      'entry' => '_hu\'uwl',
+      'form' => '_hu\'uwlaT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCUL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
+      'orig' => 'xuWuwlap',
+      'prefix' => ''
+    }
+  ],
+  '_h d d' => [
+    {
+      'types' => {
+        '_hudd' => {
+          'IV_V' => 1
+        },
+        '_hdud' => {
+          'IV_C' => 1
+        },
+        '_hadad' => {
+          'PV_C' => 1
+        }
+      },
+      'entry' => '_hadd',
+      'form' => '_hadd',
+      'lines' => [
+        ';; xad~-u_1',
+        'xad~    PV_V    furrow;plow',
+        'xadad   PV_C    furrow;plow',
+        'xud~    IV_V    furrow;plow',
+        'xodud   IV_C    furrow;plow'
+      ],
+      'patterns' => {
+        '_hudd' => [
+          'FuCL'
+        ],
+        '_hadad' => [
+          'FaCaL'
+        ],
+        '_hdud' => [
+          'FCuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCL',
+      'glosses' => [
+        'furrow',
+        'plow'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'xad~-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_haddad',
+      'form' => 'ta_haddad',
+      'lines' => [
+        ';; taxad~ad_1',
+        'taxad~ad        PV_intr be furrowed;become wrinkled',
+        'taxad~ad        IV_intr be furrowed;become wrinkled'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be furrowed',
+        'become wrinkled'
+      ],
+      'orig' => 'taxad~ad',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_huduwd' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_hadd',
+      'form' => '_hadd',
+      'lines' => [
+        ';; xad~_1',
+        'xad~    Ndu     cheek;side;furrow',
+        'xuduwd  N       cheeks;side'
+      ],
+      'patterns' => {
+        '_huduwd' => [
+          'FuCUL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'cheek',
+        'side',
+        'furrow',
+        'cheeks'
+      ],
+      'orig' => 'xad~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hudd',
+      'form' => '_huddaT',
+      'lines' => [
+        ';; xud~ap_1',
+        'xud~    Napdu   furrow;groove'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'furrow',
+        'groove'
+      ],
+      'orig' => 'xud~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'a_hAdiyd' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '\'u_hduwd',
+      'form' => '\'u_hduwd',
+      'lines' => [
+        ';; Ouxoduwd_1',
+        'Ouxoduwd        Ndu     slot;groove;furrow',
+        'OaxAdiyd        Ndip    slots;grooves;furrows'
+      ],
+      'patterns' => {
+        '\'a_hAdiyd' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HuFCUL',
+      'suffix' => '',
+      'glosses' => [
+        'slot',
+        'groove',
+        'furrow',
+        'slots',
+        'grooves',
+        'furrows'
+      ],
+      'orig' => 'Ouxoduwd',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mi_hadd',
+      'form' => 'mi_haddaT',
+      'lines' => [
+        ';; mixad~ap_1',
+        'mixad~  Napdu   cushion;pillow'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MiFaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'cushion',
+        'pillow'
+      ],
+      'orig' => 'mixad~ap',
       'prefix' => ''
     }
   ],
@@ -33954,6 +28703,142 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h ^s r' => [
+    {
+      'types' => {},
+      'entry' => '_hu^sAr',
+      'form' => '_hu^sAraT',
+      'lines' => [
+        ';; xu$Arap_1',
+        'xu$Ar   Nap     leftovers;discards'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'leftovers',
+        'discards'
+      ],
+      'orig' => 'xu$Arap',
+      'prefix' => ''
+    }
+  ],
+  '_h y d `' => [
+    {
+      'types' => {},
+      'entry' => '_hayda`',
+      'form' => '_hayda`',
+      'lines' => [
+        ';; xayodaE_1',
+        'xayodaE Ndu     mirage'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'mirage'
+      ],
+      'orig' => 'xayodaE',
+      'prefix' => ''
+    }
+  ],
+  '_h r d l' => [
+    {
+      'types' => {},
+      'entry' => '_hardal',
+      'form' => '_hardal',
+      'lines' => [
+        ';; xarodal_1',
+        'xarodal N       mustard'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'mustard'
+      ],
+      'orig' => 'xarodal',
+      'prefix' => ''
+    }
+  ],
+  '_h ^s t' => [
+    {
+      'types' => {
+        '_hu^suwt' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_hu^st',
+      'form' => '_hu^st',
+      'lines' => [
+        ';; xu$ot_1',
+        'xu$ot   Ndu     javelin',
+        'xu$uwt  N       javelins'
+      ],
+      'patterns' => {
+        '_hu^suwt' => [
+          'FuCUL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCL',
+      'suffix' => '',
+      'glosses' => [
+        'javelin',
+        'javelins'
+      ],
+      'orig' => 'xu$ot',
+      'prefix' => ''
+    }
+  ],
+  '_h r .t n' => [
+    {
+      'types' => {},
+      'entry' => '_harA.tiyn',
+      'form' => '_harA.tiyn',
+      'lines' => [
+        ';; xarATiyn_1',
+        'xarATiyn        Ndip    earthworms'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRADIS',
+      'suffix' => '',
+      'glosses' => [
+        'earthworms'
+      ],
+      'orig' => 'xarATiyn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harA.tiyn',
+      'form' => '_harA.tiyniyy',
+      'lines' => [
+        ';; xarATiyniy~_1',
+        'xarATiyniy~     Nall    wormlike;vermiform     [[xarATiyniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KaRADIS |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'wormlike',
+        'vermiform'
+      ],
+      'orig' => 'xarATiyniy~',
+      'prefix' => ''
+    }
+  ],
   '_h r ^s' => [
     {
       'types' => {},
@@ -33975,54 +28860,471 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_h .d r m' => [
+  '_h w l t' => [
+    {
+      'types' => {},
+      'entry' => '_huwliyt',
+      'form' => '_huwliyt',
+      'lines' => [
+        ';; xuwliyt_1',
+        'xuwliyt Nprop   Hoeliet'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDIS',
+      'suffix' => '',
+      'glosses' => [
+        'Hoeliet'
+      ],
+      'orig' => 'xuwliyt',
+      'prefix' => ''
+    }
+  ],
+  '_h d ^s' => [
     {
       'types' => {
-        '_ha.dArim' => {
-          'Ndip' => 1
+        '_hdi^s' => {
+          'IV' => 1
         }
       },
-      'entry' => '_hi.drim',
-      'form' => '_hi.drim',
+      'entry' => '_hada^s',
+      'form' => '_hada^s',
       'lines' => [
-        ';; xiDorim_1',
-        'xiDorim Ndu     abundant;generous',
-        'xaDArim Ndip    abundant;generous'
+        ';; xada$-i_1',
+        'xada$   PV      scratch;offend;ruin',
+        'xodi$   IV      scratch;offend;ruin'
       ],
       'patterns' => {
-        '_ha.dArim' => [
-          'KaRADiS'
+        '_hdi^s' => [
+          'FCiL'
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'KiRDiS',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'scratch',
+        'offend',
+        'ruin'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xada$-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_haddi^s' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_hadda^s',
+      'form' => '_hadda^s',
+      'lines' => [
+        ';; xad~a$_1',
+        'xad~a$  PV      scratch;offend;ruin',
+        'xad~i$  IV_yu   scratch;offend;ruin'
+      ],
+      'patterns' => {
+        '_haddi^s' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
       'suffix' => '',
       'glosses' => [
-        'abundant',
-        'generous'
+        'scratch',
+        'offend',
+        'ruin'
       ],
-      'orig' => 'xiDorim',
+      'orig' => 'xad~a$',
       'prefix' => ''
     },
     {
       'types' => {},
-      'entry' => 'mu_ha.dram',
-      'form' => 'mu_ha.dram',
+      'entry' => 'ta_hadda^s',
+      'form' => 'ta_hadda^s',
       'lines' => [
-        ';; muxaDoram_1',
-        'muxaDoram       Nall    senior;middle-aged     [[muxaDoram/ADJ]]'
+        ';; taxad~a$_1',
+        'taxad~a$        PV_intr be scratched;be offended;be ruined',
+        'taxad~a$        IV_intr be scratched;be offended;be ruined'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be scratched',
+        'be offended',
+        'be ruined'
+      ],
+      'orig' => 'taxad~a$',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'n_hadi^s' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'in_hada^s',
+      'form' => 'in_hada^s',
+      'lines' => [
+        ';; Ainoxada$_1',
+        'Ainoxada$       PV_intr be scratched;be offended;be ruined',
+        'noxadi$ IV_intr be scratched;be offended;be ruined'
+      ],
+      'patterns' => {
+        'n_hadi^s' => [
+          'NFaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'InFaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be scratched',
+        'be offended',
+        'be ruined'
+      ],
+      'orig' => 'Ainoxada$',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_huduw^s' => {
+          'N' => 1
+        },
+        '\'a_hdA^s' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_had^s',
+      'form' => '_had^s',
+      'lines' => [
+        ';; xado$_1',
+        'xado$   N       scratch;abrasion',
+        'xuduw$  N       scratch;abrasion',
+        'OaxodA$ N       scratches;abrasions'
+      ],
+      'patterns' => {
+        '_huduw^s' => [
+          'FuCUL'
+        ],
+        '\'a_hdA^s' => [
+          'HaFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'scratch',
+        'abrasion',
+        'scratches',
+        'abrasions'
+      ],
+      'orig' => 'xado$',
+      'prefix' => ''
+    }
+  ],
+  '_h r f' => [
+    {
+      'types' => {
+        '_hraf' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => '_harif',
+      'form' => '_harif',
+      'lines' => [
+        ';; xarif-a_1',
+        'xarif   PV_intr be senile;drivel',
+        'xoraf   IV_intr be senile;drivel'
+      ],
+      'patterns' => {
+        '_hraf' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        'be senile',
+        'drivel'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'xarif-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_harrif' => {
+          'IV_intr_yu' => 1
+        }
+      },
+      'entry' => '_harraf',
+      'form' => '_harraf',
+      'lines' => [
+        ';; xar~af_1',
+        'xar~af  PV_intr be senile;drivel',
+        'xar~if  IV_intr_yu      be senile;drivel'
+      ],
+      'patterns' => {
+        '_harrif' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be senile',
+        'drivel'
+      ],
+      'orig' => 'xar~af',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_haraf',
+      'form' => '_haraf',
+      'lines' => [
+        ';; xaraf_1',
+        'xaraf   N       senility'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'senility'
+      ],
+      'orig' => 'xaraf',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harfAn',
+      'form' => '_harfAn',
+      'lines' => [
+        ';; xarofAn_1',
+        'xarofAn N       senile'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLAn',
+      'suffix' => '',
+      'glosses' => [
+        'senile'
+      ],
+      'orig' => 'xarofAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hariyf',
+      'form' => '_hariyf',
+      'lines' => [
+        ';; xariyf_1',
+        'xariyf  N       autumn;fall'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        'autumn',
+        'fall'
+      ],
+      'orig' => 'xariyf',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hariyf',
+      'form' => '_hariyfiyy',
+      'lines' => [
+        ';; xariyfiy~_1',
+        'xariyfiy~       N-ap    autumnal;fall     [[xariyfiy~/ADJ]]'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'MuKaRDaS',
+      'morphs' => 'FaCIL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'autumnal',
+        'fall'
+      ],
+      'orig' => 'xariyfiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'a_hrif' => {
+          'Nap' => 1
+        },
+        '_hirAf' => {
+          'N' => 1
+        },
+        '_hirfAn' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_haruwf',
+      'form' => '_haruwf',
+      'lines' => [
+        ';; xaruwf_1',
+        'xaruwf  Ndu     sheep;lamb',
+        'xirAf   N       sheep',
+        'Oaxorif Nap     sheep',
+        'xirofAn N       sheep'
+      ],
+      'patterns' => {
+        '_hirAf' => [
+          'FiCAL'
+        ],
+        '\'a_hrif' => [
+          'HaFCiL'
+        ],
+        '_hirfAn' => [
+          'FiCLAn'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCUL',
       'suffix' => '',
       'glosses' => [
-        'senior',
-        'middle-aged'
+        'sheep',
+        'lamb'
       ],
-      'orig' => 'muxaDoram',
+      'orig' => 'xaruwf',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hurAf',
+      'form' => '_hurAfaT',
+      'lines' => [
+        ';; xurAfap_1',
+        'xurAf   NapAt   superstition;fairy tale'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'superstition',
+        'fairy tale'
+      ],
+      'orig' => 'xurAfap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hurAf',
+      'form' => '_hurAfiyy',
+      'lines' => [
+        ';; xurAfiy~_1',
+        'xurAfiy~        Nall    fictitious;legendary     [[xurAfiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'fictitious',
+        'legendary'
+      ],
+      'orig' => 'xurAfiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ma_hraf',
+      'form' => 'ma_hrafaT',
+      'lines' => [
+        ';; maxorafap_1',
+        'maxoraf NapAt   prattle;drivel'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCaL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'prattle',
+        'drivel'
+      ],
+      'orig' => 'maxorafap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta_hriyf' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'ta_hriyf',
+      'form' => 'ta_hriyf',
+      'lines' => [
+        ';; taxoriyf_1',
+        'taxoriyf        NduAt   delusion;drivel'
+      ],
+      'patterns' => {
+        'ta_hriyf' => [
+          'TaFCIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFCIL',
+      'suffix' => '',
+      'glosses' => [
+        'delusion',
+        'drivel'
+      ],
+      'orig' => 'taxoriyf',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_harrif',
+      'form' => 'mu_harrif',
+      'lines' => [
+        ';; muxar~if_1',
+        'muxar~if        Nall    senile;charlatan'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFaCCiL',
+      'suffix' => '',
+      'glosses' => [
+        'senile',
+        'charlatan'
+      ],
+      'orig' => 'muxar~if',
       'prefix' => ''
     }
   ],
@@ -34293,6 +29595,780 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h .d r m' => [
+    {
+      'types' => {
+        '_ha.dArim' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hi.drim',
+      'form' => '_hi.drim',
+      'lines' => [
+        ';; xiDorim_1',
+        'xiDorim Ndu     abundant;generous',
+        'xaDArim Ndip    abundant;generous'
+      ],
+      'patterns' => {
+        '_ha.dArim' => [
+          'KaRADiS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KiRDiS',
+      'suffix' => '',
+      'glosses' => [
+        'abundant',
+        'generous'
+      ],
+      'orig' => 'xiDorim',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_ha.dram',
+      'form' => 'mu_ha.dram',
+      'lines' => [
+        ';; muxaDoram_1',
+        'muxaDoram       Nall    senior;middle-aged     [[muxaDoram/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuKaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'senior',
+        'middle-aged'
+      ],
+      'orig' => 'muxaDoram',
+      'prefix' => ''
+    }
+  ],
+  '_h f q' => [
+    {
+      'types' => {
+        '_hfuq' => {
+          'IV' => 1
+        },
+        '_hfiq' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_hafaq',
+      'form' => '_hafaq',
+      'lines' => [
+        ';; xafaq-iu_1',
+        'xafaq   PV      tremble;beat',
+        'xofiq   IV      tremble;beat',
+        'xofuq   IV      tremble;beat'
+      ],
+      'patterns' => {
+        '_hfuq' => [
+          'FCuL'
+        ],
+        '_hfiq' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'tremble',
+        'beat'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL',
+        'FCuL'
+      ],
+      'orig' => 'xafaq-iu',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_haffiq' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_haffaq',
+      'form' => '_haffaq',
+      'lines' => [
+        ';; xaf~aq_1',
+        'xaf~aq  PV      plaster;roughcast',
+        'xaf~iq  IV_yu   plaster;roughcast'
+      ],
+      'patterns' => {
+        '_haffiq' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'plaster',
+        'roughcast'
+      ],
+      'orig' => 'xaf~aq',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hfiq' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '\'a_hfaq',
+      'form' => '\'a_hfaq',
+      'lines' => [
+        ';; Oaxofaq_1',
+        'Oaxofaq PV      fail;go down',
+        'xofiq   IV_yu   fail;go down'
+      ],
+      'patterns' => {
+        '_hfiq' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'fail',
+        'go down'
+      ],
+      'orig' => 'Oaxofaq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hafq',
+      'form' => '_hafq',
+      'lines' => [
+        ';; xafoq_1',
+        'xafoq   N       palpitation;beating'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'palpitation',
+        'beating'
+      ],
+      'orig' => 'xafoq',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hafaq' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => '_hafq',
+      'form' => '_hafqaT',
+      'lines' => [
+        ';; xafoqap_1',
+        'xafoq   Napdu   beat;tick',
+        'xafaq   NAt     beats;ticks;beating;ticking'
+      ],
+      'patterns' => {
+        '_hafaq' => [
+          'FaCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'beat',
+        'tick',
+        'beats',
+        'ticks',
+        'beating',
+        'ticking'
+      ],
+      'orig' => 'xafoqap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hafaqAn',
+      'form' => '_hafaqAn',
+      'lines' => [
+        ';; xafaqAn_1',
+        'xafaqAn N       palpitation;flutter'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCaLAn',
+      'suffix' => '',
+      'glosses' => [
+        'palpitation',
+        'flutter'
+      ],
+      'orig' => 'xafaqAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_haffAq',
+      'form' => '_haffAq',
+      'lines' => [
+        ';; xaf~Aq_1',
+        'xaf~Aq  N/ap    throbbing;fluttering     [[xaf~Aq/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCCAL',
+      'suffix' => '',
+      'glosses' => [
+        'throbbing',
+        'fluttering'
+      ],
+      'orig' => 'xaf~Aq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mi_hfaq',
+      'form' => 'mi_hfaqaT',
+      'lines' => [
+        ';; mixofaqap_1',
+        'mixofaq NapAt   eggbeater;whisk'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MiFCaL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'eggbeater',
+        'whisk'
+      ],
+      'orig' => 'mixofaqap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'i_hfAq' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => '\'i_hfAq',
+      'form' => '\'i_hfAq',
+      'lines' => [
+        ';; IixofAq_1',
+        'IixofAq NduAt   failure;fiasco'
+      ],
+      'patterns' => {
+        '\'i_hfAq' => [
+          'HiFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        'failure',
+        'fiasco'
+      ],
+      'orig' => 'IixofAq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hAfiq',
+      'form' => '_hAfiq',
+      'lines' => [
+        ';; xAfiq_1',
+        'xAfiq   Nall    fluttering'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        'fluttering'
+      ],
+      'orig' => 'xAfiq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hawAfiq',
+      'form' => '_hawAfiq',
+      'lines' => [
+        ';; xawAfiq_1',
+        'xawAfiq Ndip    cardinal points'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FawACiL',
+      'suffix' => '',
+      'glosses' => [
+        'cardinal points'
+      ],
+      'orig' => 'xawAfiq',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hAfiq' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => '_hAfiq',
+      'form' => '_hAfiqAt',
+      'lines' => [
+        ';; xAfiqAt_1',
+        'xAfiq   NAt     banners;flags'
+      ],
+      'patterns' => {
+        '_hAfiq' => [
+          'FACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'banners',
+        'flags'
+      ],
+      'orig' => 'xAfiqAt',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hAfiq',
+      'form' => '_hAfiqiyy',
+      'lines' => [
+        ';; xAfiqiy~_1',
+        'xAfiqiy~        N-ap    stucco;roughcast     [[xAfiqiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACiL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'stucco',
+        'roughcast'
+      ],
+      'orig' => 'xAfiqiy~',
+      'prefix' => ''
+    }
+  ],
+  '_h r b ^s' => [
+    {
+      'types' => {
+        '_harbi^s' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_harba^s',
+      'form' => '_harba^s',
+      'lines' => [
+        ';; xaroba$_1',
+        'xaroba$ PV      scratch;scribble',
+        'xarobi$ IV_yu   scratch;scribble'
+      ],
+      'patterns' => {
+        '_harbi^s' => [
+          'KaRDiS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'KaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'scratch',
+        'scribble'
+      ],
+      'orig' => 'xaroba$',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_harAbiy^s' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_harbuw^s',
+      'form' => '_harbuw^s',
+      'lines' => [
+        ';; xarobuw$_1',
+        'xarobuw$        Ndu     tent',
+        'xarAbiy$        Ndip    tents'
+      ],
+      'patterns' => {
+        '_harAbiy^s' => [
+          'KaRADIS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDUS',
+      'suffix' => '',
+      'glosses' => [
+        'tent',
+        'tents'
+      ],
+      'orig' => 'xarobuw$',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_harba^s',
+      'form' => 'mu_harba^s',
+      'lines' => [
+        ';; muxaroba$_1',
+        'muxaroba$       N/ap    scribbled;graffiti'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuKaRDaS',
+      'suffix' => '',
+      'glosses' => [
+        'scribbled',
+        'graffiti'
+      ],
+      'orig' => 'muxaroba$',
+      'prefix' => ''
+    }
+  ],
+  '_h d `' => [
+    {
+      'types' => {
+        '_hda`' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_hada`',
+      'form' => '_hada`',
+      'lines' => [
+        ';; xadaE-a_1',
+        'xadaE   PV      deceive',
+        'xodaE   IV      deceive'
+      ],
+      'patterns' => {
+        '_hda`' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'deceive'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'xadaE-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hAdi`' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_hAda`',
+      'form' => '_hAda`',
+      'lines' => [
+        ';; xAdaE_1',
+        'xAdaE   PV      deceive',
+        'xAdiE   IV_yu   deceive'
+      ],
+      'patterns' => {
+        '_hAdi`' => [
+          'FACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FACaL',
+      'suffix' => '',
+      'glosses' => [
+        'deceive'
+      ],
+      'orig' => 'xAdaE',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'n_hadi`' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'in_hada`',
+      'form' => 'in_hada`',
+      'lines' => [
+        ';; AinoxadaE_1',
+        'AinoxadaE       PV_intr be deceived',
+        'noxadiE IV_intr be deceived'
+      ],
+      'patterns' => {
+        'n_hadi`' => [
+          'NFaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'InFaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be deceived'
+      ],
+      'orig' => 'AinoxadaE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_had`',
+      'form' => '_had`',
+      'lines' => [
+        ';; xadoE_1',
+        'xadoE   N       deception'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'deception'
+      ],
+      'orig' => 'xadoE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hud`',
+      'form' => '_hud`aT',
+      'lines' => [
+        ';; xudoEap_1',
+        'xudoE   NapAt   deception'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'deception'
+      ],
+      'orig' => 'xudoEap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hadA\'i`' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hadiy`',
+      'form' => '_hadiy`',
+      'lines' => [
+        ';; xadiyE_1',
+        'xadiyE  Nap     deception;lie',
+        'xadA}iE Ndip    deceptions'
+      ],
+      'patterns' => {
+        '_hadA\'i`' => [
+          'FaCA\'iL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        'deception',
+        'lie',
+        'deceptions'
+      ],
+      'orig' => 'xadiyE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_haddA`',
+      'form' => '_haddA`',
+      'lines' => [
+        ';; xad~AE_1',
+        'xad~AE  Nall    impostor;crook'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL',
+      'suffix' => '',
+      'glosses' => [
+        'impostor',
+        'crook'
+      ],
+      'orig' => 'xad~AE',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'a_hAdiy`' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '\'i_hdA`',
+      'form' => '\'i_hdA`',
+      'lines' => [
+        ';; IixodAE_1',
+        'IixodAE N       swindling;deception',
+        'OaxAdiyE        Ndip    swindles;deceptions'
+      ],
+      'patterns' => {
+        '\'a_hAdiy`' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        'swindling',
+        'deception',
+        'swindles',
+        'deceptions'
+      ],
+      'orig' => 'IixodAE',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ma_hAdi`' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'mi_hda`',
+      'form' => 'mi_hda`',
+      'lines' => [
+        ';; mixodaE_1',
+        'mixodaE N       chamber',
+        'maxAdiE Ndip    chambers'
+      ],
+      'patterns' => {
+        'ma_hAdi`' => [
+          'MaFACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MiFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'chamber',
+        'chambers'
+      ],
+      'orig' => 'mixodaE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hidA`',
+      'form' => '_hidA`',
+      'lines' => [
+        ';; xidAE_1',
+        'xidAE   N       deception'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'deception'
+      ],
+      'orig' => 'xidAE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hidA`',
+      'form' => '_hidA`iyy',
+      'lines' => [
+        ';; xidAEiy~_1',
+        'xidAEiy~        Nall    deceitful;deceptive     [[xidAEiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FiCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'deceitful',
+        'deceptive'
+      ],
+      'orig' => 'xidAEiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hAdi`',
+      'form' => '_hAdi`',
+      'lines' => [
+        ';; xAdiE_1',
+        'xAdiE   Nall    deceitful;deceptive     [[xAdiE/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        'deceitful',
+        'deceptive'
+      ],
+      'orig' => 'xAdiE',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_hAdi`',
+      'form' => 'mu_hAdi`',
+      'lines' => [
+        ';; muxAdiE_1',
+        'muxAdiE Nall    swindler;crook'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFACiL',
+      'suffix' => '',
+      'glosses' => [
+        'swindler',
+        'crook'
+      ],
+      'orig' => 'muxAdiE',
+      'prefix' => ''
+    }
+  ],
   '_h s t k' => [
     {
       'types' => {},
@@ -34330,6 +30406,351 @@ $Lexicon = {
         'indisposed'
       ],
       'orig' => 'muxasotak',
+      'prefix' => ''
+    }
+  ],
+  '_h .s \'' => [
+    {
+      'types' => {},
+      'entry' => '\'i_h.sA\'',
+      'form' => '\'i_h.sA\'iyy',
+      'lines' => [
+        ';; IixoSA}iy~_1',
+        'IixoSA}iy~      Nall    specialist;expert     [[IixoSA}iy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'HiFCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'specialist',
+        'expert'
+      ],
+      'orig' => 'IixoSA}iy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hi.sA\'',
+      'form' => '_hi.sA\'',
+      'lines' => [
+        ';; xiSA\'_1',
+        'xiSA\'   N0_Nh   castration',
+        'xiSAW   Nh      castration',
+        'xiSA}   Nhy     castration'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'castration'
+      ],
+      'orig' => 'xiSA\'',
+      'prefix' => ''
+    }
+  ],
+  '_h w n' => [
+    {
+      'types' => {
+        '_huwn' => {
+          'IV_V' => 1
+        },
+        '_hun' => {
+          'PV_Cn' => 1,
+          'IV-n' => 1
+        }
+      },
+      'entry' => '_hAn',
+      'form' => '_hAn',
+      'lines' => [
+        ';; xAn-u_1',
+        'xAn     PV_V    betray;deceive;fail',
+        'xun     PV_Cn   betray;deceive;fail',
+        'xuwn    IV_V    betray;deceive;fail',
+        'xun     IV-n    betray;deceive;fail'
+      ],
+      'patterns' => {
+        '_huwn' => [
+          'FUL'
+        ],
+        '_hun' => [
+          'FuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FAL',
+      'glosses' => [
+        'betray',
+        'deceive',
+        'fail'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'xAn-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hawwin' => {
+          'IV-n_yu' => 1
+        }
+      },
+      'entry' => '_hawwan',
+      'form' => '_hawwan',
+      'lines' => [
+        ';; xaw~an_1',
+        'xaw~an  PV-n    consider faithless;distrust;regard as unreliable',
+        'xaw~in  IV-n_yu consider faithless;distrust;regard as unreliable'
+      ],
+      'patterns' => {
+        '_hawwin' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'consider faithless',
+        'distrust',
+        'regard as unreliable'
+      ],
+      'orig' => 'xaw~an',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_hawwan',
+      'form' => 'ta_hawwan',
+      'lines' => [
+        ';; taxaw~an_1',
+        'taxaw~an        PV-n    impair;hurt;prejudice',
+        'taxaw~an        IV-n    impair;hurt;prejudice'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'impair',
+        'hurt',
+        'prejudice'
+      ],
+      'orig' => 'taxaw~an',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_htAn' => {
+          'IV_V' => 1
+        },
+        'i_htan' => {
+          'PV_Cn' => 1
+        },
+        '_htan' => {
+          'IV-n' => 1
+        }
+      },
+      'entry' => 'i_htAn',
+      'form' => 'i_htAn',
+      'lines' => [
+        ';; AixotAn_1',
+        'AixotAn PV_V    cheat;betray',
+        'Aixotan PV_Cn   cheat;betray',
+        'xotAn   IV_V    cheat;betray',
+        'xotan   IV-n    cheat;betray'
+      ],
+      'patterns' => {
+        'i_htan' => [
+          'IFtaL'
+        ],
+        '_htAn' => [
+          'FtAL'
+        ],
+        '_htan' => [
+          'FtaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFtAL',
+      'suffix' => '',
+      'glosses' => [
+        'cheat',
+        'betray'
+      ],
+      'orig' => 'AixotAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'sta_hwin' => {
+          'IV-n' => 1
+        }
+      },
+      'entry' => 'ista_hwan',
+      'form' => 'ista_hwan',
+      'lines' => [
+        ';; Aisotaxowan_1',
+        'Aisotaxowan     PV-n    distrust',
+        'sotaxowin       IV-n    distrust'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IstaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'distrust'
+      ],
+      'orig' => 'Aisotaxowan',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hiyAn',
+      'form' => '_hiyAnaT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiyAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
+      'orig' => 'xiyAnap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hawuwn',
+      'form' => '_hawuwn',
+      'lines' => [
+        ';; xawuwn_1',
+        'xawuwn  N/ap    faithless;disloyal'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCUL',
+      'suffix' => '',
+      'glosses' => [
+        'faithless',
+        'disloyal'
+      ],
+      'orig' => 'xawuwn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hawwAn',
+      'form' => '_hawwAn',
+      'lines' => [
+        ';; xaw~An_1',
+        'xaw~An  N/ap    traitor;treacherous'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL',
+      'suffix' => '',
+      'glosses' => [
+        'traitor',
+        'treacherous'
+      ],
+      'orig' => 'xaw~An',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hA\'in',
+      'form' => '_hA\'in',
+      'lines' => [],
+      'patterns' => {
+        '_hawn' => [
+          'FaCL'
+        ],
+        '_huwwAn' => [
+          'FUCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FA\'iL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'xA}in',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'a_hwin' => {
+          'Nap' => 1
+        },
+        '_hiwAn' => {
+          'Ndu' => 1
+        },
+        '\'a_hAwiyn' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_huwAn',
+      'form' => '_huwAn',
+      'lines' => [
+        ';; xuwAn_1',
+        'xuwAn   Ndu     table',
+        'xiwAn   Ndu     table',
+        'Oaxowin Nap     tables',
+        'OaxAwiyn        Ndip    tables'
+      ],
+      'patterns' => {
+        '\'a_hwin' => [
+          'HaFCiL'
+        ],
+        '_hiwAn' => [
+          'FiCAL'
+        ],
+        '\'a_hAwiyn' => [
+          'HaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCAL',
+      'suffix' => '',
+      'glosses' => [
+        'table',
+        'tables'
+      ],
+      'orig' => 'xuwAn',
+      'prefix' => ''
+    }
+  ],
+  '_h r m ^s' => [
+    {
+      'types' => {},
+      'entry' => '_hurmA^s',
+      'form' => '_hurmA^saT',
+      'lines' => [
+        ';; xuromA$ap_1',
+        'xuromA$ NapAt   harrow'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDAS |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'harrow'
+      ],
+      'orig' => 'xuromA$ap',
       'prefix' => ''
     }
   ],
@@ -34492,55 +30913,88 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_hA_hAm' => [
+  '_h l b .s' => [
     {
-      'types' => {
-        '_ha_hAm' => {
-          'NAt' => 1,
-          'Ndu' => 1
-        },
-        '_hA_hAm' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => '_hA_hAm',
-      'form' => '_hA_hAm',
+      'types' => {},
+      'entry' => 'ta_halba.s',
+      'form' => 'ta_halba.s',
       'lines' => [
-        ';; xAxAm_1',
-        'xAxAm   Ndu     rabbi',
-        'xAxAm   NAt     rabbis',
-        'xaxAm   Ndu     rabbi',
-        'xaxAm   NAt     rabbis'
+        ';; taxalobaS_1',
+        'taxalobaS       PV      clown',
+        'taxalobaS       IV      clown'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
+      'entity' => 'verb',
+      'morphs' => 'TaKaRDaS',
       'suffix' => '',
       'glosses' => [
-        'rabbi',
-        'rabbis'
+        'clown'
       ],
-      'orig' => 'xAxAm',
+      'orig' => 'taxalobaS',
       'prefix' => ''
     },
     {
-      'types' => {},
-      'entry' => '_hA_hAm',
-      'form' => '_hA_hAmiyy',
+      'types' => {
+        'ta_halbu.s' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'ta_halbu.s',
+      'form' => 'ta_halbu.s',
       'lines' => [
-        ';; xAxAmiy~_1',
-        'xAxAmiy~        Nall    rabbinical'
+        ';; taxalobuS_1',
+        'taxalobuS       NduAt   clowning'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta_halbu.s' => [
+          'TaKaRDuS'
+        ]
+      },
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
+      'entity' => 'noun',
+      'morphs' => 'TaKaRDuS',
+      'suffix' => '',
       'glosses' => [
-        'rabbinical'
+        'clowning'
       ],
-      'orig' => 'xAxAmiy~',
+      'orig' => 'taxalobuS',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_halAbi.s' => {
+          'Nap' => 1
+        },
+        '_halAbiy.s' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_halbuw.s',
+      'form' => '_halbuw.s',
+      'lines' => [
+        ';; xalobuwS_1',
+        'xalobuwS        Ndu     buffoon',
+        'xalAbiyS        Ndip    buffoons',
+        'xalAbiS Nap     buffoons'
+      ],
+      'patterns' => {
+        '_halAbi.s' => [
+          'KaRADiS'
+        ],
+        '_halAbiy.s' => [
+          'KaRADIS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDUS',
+      'suffix' => '',
+      'glosses' => [
+        'buffoon',
+        'buffoons'
+      ],
+      'orig' => 'xalobuwS',
       'prefix' => ''
     }
   ],
@@ -34597,6 +31051,610 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_hA_hAm' => [
+    {
+      'types' => {
+        '_ha_hAm' => {
+          'NAt' => 1,
+          'Ndu' => 1
+        },
+        '_hA_hAm' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => '_hA_hAm',
+      'form' => '_hA_hAm',
+      'lines' => [
+        ';; xAxAm_1',
+        'xAxAm   Ndu     rabbi',
+        'xAxAm   NAt     rabbis',
+        'xaxAm   Ndu     rabbi',
+        'xaxAm   NAt     rabbis'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'rabbi',
+        'rabbis'
+      ],
+      'orig' => 'xAxAm',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hA_hAm',
+      'form' => '_hA_hAmiyy',
+      'lines' => [
+        ';; xAxAmiy~_1',
+        'xAxAmiy~        Nall    rabbinical'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'rabbinical'
+      ],
+      'orig' => 'xAxAmiy~',
+      'prefix' => ''
+    }
+  ],
+  '_h m r' => [
+    {
+      'types' => {
+        '_hmur' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_hamar',
+      'form' => '_hamar',
+      'lines' => [
+        ';; xamar-u_1',
+        'xamar   PV      cover;conceal;ferment',
+        'xomur   IV      cover;conceal;ferment'
+      ],
+      'patterns' => {
+        '_hmur' => [
+          'FCuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'cover',
+        'conceal',
+        'ferment'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'xamar-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hammir' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_hammar',
+      'form' => '_hammar',
+      'lines' => [
+        ';; xam~ar_1',
+        'xam~ar  PV      cover;conceal;ferment',
+        'xam~ir  IV_yu   cover;conceal;ferment'
+      ],
+      'patterns' => {
+        '_hammir' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'cover',
+        'conceal',
+        'ferment'
+      ],
+      'orig' => 'xam~ar',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hAmir' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_hAmar',
+      'form' => '_hAmar',
+      'lines' => [
+        ';; xAmar_1',
+        'xAmar   PV      permeate;mix',
+        'xAmir   IV_yu   permeate;mix'
+      ],
+      'patterns' => {
+        '_hAmir' => [
+          'FACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FACaL',
+      'suffix' => '',
+      'glosses' => [
+        'permeate',
+        'mix'
+      ],
+      'orig' => 'xAmar',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hmar' => {
+          'IV_Pass_yu' => 1
+        },
+        '_hmir' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '\'a_hmar',
+      'form' => '\'a_hmar',
+      'lines' => [
+        ';; Oaxomar_1',
+        'Oaxomar PV      leaven;ferment;harbor',
+        'xomir   IV_yu   leaven;ferment;harbor',
+        'xomar   IV_Pass_yu      be fermented;be harbored'
+      ],
+      'patterns' => {
+        '_hmar' => [
+          'FCaL'
+        ],
+        '_hmir' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'leaven',
+        'ferment',
+        'harbor',
+        'be fermented',
+        'be harbored'
+      ],
+      'orig' => 'Oaxomar',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_hammar',
+      'form' => 'ta_hammar',
+      'lines' => [
+        ';; taxam~ar_1',
+        'taxam~ar        PV      ferment;veil',
+        'taxam~ar        IV      ferment;veil'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'ferment',
+        'veil'
+      ],
+      'orig' => 'taxam~ar',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_hAmar',
+      'form' => 'ta_hAmar',
+      'lines' => [
+        ';; taxAmar_1',
+        'taxAmar PV      collude;conspire',
+        'taxAmar IV      collude;conspire'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFACaL',
+      'suffix' => '',
+      'glosses' => [
+        'collude',
+        'conspire'
+      ],
+      'orig' => 'taxAmar',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_htamir' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'i_htamar',
+      'form' => 'i_htamar',
+      'lines' => [
+        ';; Aixotamar_1',
+        'Aixotamar       PV      ferment;ripen',
+        'xotamir IV      ferment;ripen'
+      ],
+      'patterns' => {
+        '_htamir' => [
+          'FtaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFtaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'ferment',
+        'ripen'
+      ],
+      'orig' => 'Aixotamar',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_humuwr' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_hamr',
+      'form' => '_hamr',
+      'lines' => [
+        ';; xamor_1',
+        'xamor   N       liquor;alcohol',
+        'xumuwr  N       liquor;alcohol'
+      ],
+      'patterns' => {
+        '_humuwr' => [
+          'FuCUL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'liquor',
+        'alcohol'
+      ],
+      'orig' => 'xamor',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hamr',
+      'form' => '_hamraT',
+      'lines' => [
+        ';; xamorap_1',
+        'xamor   Nap     wine'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'wine'
+      ],
+      'orig' => 'xamorap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hamr',
+      'form' => '_hamriyy',
+      'lines' => [
+        ';; xamoriy~_1',
+        'xamoriy~        N-ap    wine-colored     [[xamoriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'wine-colored'
+      ],
+      'orig' => 'xamoriy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hamr',
+      'form' => '_hamriyyaT',
+      'lines' => [
+        ';; xamoriy~ap_1',
+        'xamoriy~        NapAt   wine poem;bacchanalian verse     [[xamoriy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'wine poem',
+        'bacchanalian verse'
+      ],
+      'orig' => 'xamoriy~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_humur' => {
+          'N' => 1
+        },
+        '\'a_hmir' => {
+          'Nap' => 1
+        }
+      },
+      'entry' => '_himAr',
+      'form' => '_himAr',
+      'lines' => [
+        ';; ximAr_1',
+        'ximAr   Ndu     veil',
+        'Oaxomir Nap     veils',
+        'xumur   N       veils'
+      ],
+      'patterns' => {
+        '_humur' => [
+          'FuCuL'
+        ],
+        '\'a_hmir' => [
+          'HaFCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'veil',
+        'veils'
+      ],
+      'orig' => 'ximAr',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_humAr',
+      'form' => '_humAr',
+      'lines' => [
+        ';; xumAr_1',
+        'xumAr   N       hangover'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCAL',
+      'suffix' => '',
+      'glosses' => [
+        'hangover'
+      ],
+      'orig' => 'xumAr',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hamiyr',
+      'form' => '_hamiyr',
+      'lines' => [
+        ';; xamiyr_1',
+        'xamiyr  N       leavened;ripe'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        'leavened',
+        'ripe'
+      ],
+      'orig' => 'xamiyr',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hamA\'ir' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hamiyr',
+      'form' => '_hamiyr',
+      'lines' => [
+        ';; xamiyr_2',
+        'xamiyr  Nap     enzyme;yeast',
+        'xamA}ir Ndip    enzymes;yeasts'
+      ],
+      'patterns' => {
+        '_hamA\'ir' => [
+          'FaCA\'iL'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        'enzyme',
+        'yeast',
+        'enzymes',
+        'yeasts'
+      ],
+      'orig' => 'xamiyr',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hammAr',
+      'form' => '_hammAr',
+      'lines' => [
+        ';; xam~Ar_1',
+        'xam~Ar  Nall    wine merchant'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL',
+      'suffix' => '',
+      'glosses' => [
+        'wine merchant'
+      ],
+      'orig' => 'xam~Ar',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hammAr',
+      'form' => '_hammAraT',
+      'lines' => [
+        ';; xam~Arap_1',
+        'xam~Ar  Napdu   tavern'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'tavern'
+      ],
+      'orig' => 'xam~Arap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_himmiyr',
+      'form' => '_himmiyr',
+      'lines' => [
+        ';; xim~iyr_1',
+        'xim~iyr N/ap    drunkard;drinker'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCCIL',
+      'suffix' => '',
+      'glosses' => [
+        'drunkard',
+        'drinker'
+      ],
+      'orig' => 'xim~iyr',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta_hmiyr' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'ta_hmiyr',
+      'form' => 'ta_hmiyr',
+      'lines' => [
+        ';; taxomiyr_1',
+        'taxomiyr        NduAt   leavening;fermentation'
+      ],
+      'patterns' => {
+        'ta_hmiyr' => [
+          'TaFCIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFCIL',
+      'suffix' => '',
+      'glosses' => [
+        'leavening',
+        'fermentation'
+      ],
+      'orig' => 'taxomiyr',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'i_htimAr' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'i_htimAr',
+      'form' => 'i_htimAr',
+      'lines' => [
+        ';; AixotimAr_1',
+        'AixotimAr       NduAt   fermentation'
+      ],
+      'patterns' => {
+        'i_htimAr' => [
+          'IFtiCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IFtiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'fermentation'
+      ],
+      'orig' => 'AixotimAr',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ma_hmuwr',
+      'form' => 'ma_hmuwr',
+      'lines' => [
+        ';; maxomuwr_1',
+        'maxomuwr        Nall    drunk;intoxicated     [[maxomuwr/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MaFCUL',
+      'suffix' => '',
+      'glosses' => [
+        'drunk',
+        'intoxicated'
+      ],
+      'orig' => 'maxomuwr',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_htamir',
+      'form' => 'mu_htamir',
+      'lines' => [
+        ';; muxotamir_1',
+        'muxotamir       Nall    fermenting',
+        'muxotamir       Nall    fermented;alcoholic'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFtaCiL',
+      'suffix' => '',
+      'glosses' => [
+        'fermenting',
+        'fermented',
+        'alcoholic'
+      ],
+      'orig' => 'muxotamir',
+      'prefix' => ''
+    }
+  ],
   '_h .t r f' => [
     {
       'types' => {
@@ -34643,6 +31701,750 @@ $Lexicon = {
         'delirium'
       ],
       'orig' => 'xaTorafap',
+      'prefix' => ''
+    }
+  ],
+  '_h d m' => [
+    {
+      'types' => {
+        '_hdum' => {
+          'IV' => 1
+        },
+        '_hdim' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_hadam',
+      'form' => '_hadam',
+      'lines' => [
+        ';; xadam-iu_1',
+        'xadam   PV      serve;assist',
+        'xodim   IV      serve;assist',
+        'xodum   IV      serve;assist'
+      ],
+      'patterns' => {
+        '_hdum' => [
+          'FCuL'
+        ],
+        '_hdim' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'serve',
+        'assist'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL',
+        'FCuL'
+      ],
+      'orig' => 'xadam-iu',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_haddim' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_haddam',
+      'form' => '_haddam',
+      'lines' => [
+        ';; xad~am_1',
+        'xad~am  PV      employ;hire',
+        'xad~im  IV_yu   employ;hire'
+      ],
+      'patterns' => {
+        '_haddim' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'employ',
+        'hire'
+      ],
+      'orig' => 'xad~am',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'sta_hdam' => {
+          'IV_Pass_yu' => 1
+        },
+        'sta_hdim' => {
+          'IV' => 1
+        },
+        'ustu_hdim' => {
+          'PV_Pass' => 1
+        }
+      },
+      'entry' => 'ista_hdam',
+      'form' => 'ista_hdam',
+      'lines' => [
+        ';; Aisotaxodam_1',
+        'Aisotaxodam     PV      utilize;employ;operate',
+        'Ausotuxodim     PV_Pass be used;be utilized;be employed',
+        'sotaxodim       IV      utilize;employ;operate',
+        'sotaxodam       IV_Pass_yu      be used;be utilized;be employed'
+      ],
+      'patterns' => {
+        'ustu_hdim' => [
+          'UstuFCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IstaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'utilize',
+        'employ',
+        'operate',
+        'be used',
+        'be utilized',
+        'be employed'
+      ],
+      'orig' => 'Aisotaxodam',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hadam',
+      'form' => '_hadam',
+      'lines' => [
+        ';; xadam_1',
+        'xadam   N       servants;attendants'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'servants',
+        'attendants'
+      ],
+      'orig' => 'xadam',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hadam',
+      'form' => '_hadamiyy',
+      'lines' => [
+        ';; xadamiy~_1',
+        'xadamiy~        N-ap    service;assistance     [[xadamiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCaL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'service',
+        'assistance'
+      ],
+      'orig' => 'xadamiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hadam' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => '_hidm',
+      'form' => '_hidmaT',
+      'lines' => [
+        ';; xidomap_1',
+        'xidom   Napdu   service;assistance',
+        'xadam   NAt     services;assistance'
+      ],
+      'patterns' => {
+        '_hadam' => [
+          'FaCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'service',
+        'assistance',
+        'services'
+      ],
+      'orig' => 'xidomap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_haddAm',
+      'form' => '_haddAm',
+      'lines' => [
+        ';; xad~Am_1',
+        'xad~Am  N/ap    servant;attendant'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL',
+      'suffix' => '',
+      'glosses' => [
+        'servant',
+        'attendant'
+      ],
+      'orig' => 'xad~Am',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hadAm',
+      'form' => '_hadAmaT',
+      'lines' => [
+        ';; xadAmap_1',
+        'xadAm   Nap     service'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'service'
+      ],
+      'orig' => 'xadAmap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta_hdiym' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'ta_hdiym',
+      'form' => 'ta_hdiym',
+      'lines' => [
+        ';; taxodiym_1',
+        'taxodiym        NduAt   employment;occupation'
+      ],
+      'patterns' => {
+        'ta_hdiym' => [
+          'TaFCIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFCIL',
+      'suffix' => '',
+      'glosses' => [
+        'employment',
+        'occupation'
+      ],
+      'orig' => 'taxodiym',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'isti_hdAm' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'isti_hdAm',
+      'form' => 'isti_hdAm',
+      'lines' => [
+        ';; AisotixodAm_1',
+        'AisotixodAm     NduAt   usage;using;utilization'
+      ],
+      'patterns' => {
+        'isti_hdAm' => [
+          'IstiFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IstiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        'usage',
+        'using',
+        'utilization'
+      ],
+      'orig' => 'AisotixodAm',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_huddAm' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_hAdim',
+      'form' => '_hAdim',
+      'lines' => [
+        ';; xAdim_1',
+        'xAdim   Nall    servant;attendant',
+        'xud~Am  N       servants;attendants'
+      ],
+      'patterns' => {
+        '_huddAm' => [
+          'FuCCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        'servant',
+        'attendant',
+        'servants',
+        'attendants'
+      ],
+      'orig' => 'xAdim',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ma_hAdiym' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'ma_hduwm',
+      'form' => 'ma_hduwm',
+      'lines' => [
+        ';; maxoduwm_1',
+        'maxoduwm        Nall    employer;master',
+        'maxAdiym        Ndip    employers;masters'
+      ],
+      'patterns' => {
+        'ma_hAdiym' => [
+          'MaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCUL',
+      'suffix' => '',
+      'glosses' => [
+        'employer',
+        'master',
+        'employers',
+        'masters'
+      ],
+      'orig' => 'maxoduwm',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_haddim',
+      'form' => 'mu_haddim',
+      'lines' => [
+        ';; muxad~im_1',
+        'muxad~im        Nall    employment agent'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFaCCiL',
+      'suffix' => '',
+      'glosses' => [
+        'employment agent'
+      ],
+      'orig' => 'muxad~im',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'musta_hdim',
+      'form' => 'musta_hdim',
+      'lines' => [
+        ';; musotaxodim_1',
+        'musotaxodim     Nall    employer'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MustaFCiL',
+      'suffix' => '',
+      'glosses' => [
+        'employer'
+      ],
+      'orig' => 'musotaxodim',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'musta_hdam',
+      'form' => 'musta_hdam',
+      'lines' => [
+        ';; musotaxodam_1',
+        'musotaxodam     Nall    used     [[musotaxodam/ADJ]]',
+        'musotaxodam     Nall    employee'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MustaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'used',
+        'employee'
+      ],
+      'orig' => 'musotaxodam',
+      'prefix' => ''
+    }
+  ],
+  '_h z l' => [
+    {
+      'types' => {
+        '_hzil' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_hazal',
+      'form' => '_hazal',
+      'lines' => [
+        ';; xazal-i_1',
+        'xazal   PV      cut off;hinder;restrain',
+        'xozil   IV      cut off;hinder;restrain'
+      ],
+      'patterns' => {
+        '_hzil' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'cut off',
+        'hinder',
+        'restrain'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xazal-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_htazil' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'i_htazal',
+      'form' => 'i_htazal',
+      'lines' => [
+        ';; Aixotazal_1',
+        'Aixotazal       PV      cut off;shorten',
+        'xotazil IV      cut off;shorten'
+      ],
+      'patterns' => {
+        '_htazil' => [
+          'FtaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFtaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'cut off',
+        'shorten'
+      ],
+      'orig' => 'Aixotazal',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'i_htizAl' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'i_htizAl',
+      'form' => 'i_htizAl',
+      'lines' => [
+        ';; AixotizAl_1',
+        'AixotizAl       NduAt   abridgment;abbreviation'
+      ],
+      'patterns' => {
+        'i_htizAl' => [
+          'IFtiCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IFtiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'abridgment',
+        'abbreviation'
+      ],
+      'orig' => 'AixotizAl',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_htazil',
+      'form' => 'mu_htazil',
+      'lines' => [
+        ';; muxotazil_1',
+        'muxotazil       Nall    stenographer'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFtaCiL',
+      'suffix' => '',
+      'glosses' => [
+        'stenographer'
+      ],
+      'orig' => 'muxotazil',
+      'prefix' => ''
+    }
+  ],
+  '_h m m' => [
+    {
+      'types' => {
+        '_hmum' => {
+          'IV_C' => 1
+        },
+        '_humm' => {
+          'IV_V' => 1
+        },
+        '_hamam' => {
+          'PV_C' => 1
+        }
+      },
+      'entry' => '_hamm',
+      'form' => '_hamm',
+      'lines' => [
+        ';; xam~-u_1',
+        'xam~    PV_V    sweep',
+        'xamam   PV_C    sweep',
+        'xum~    IV_V    sweep',
+        'xomum   IV_C    sweep'
+      ],
+      'patterns' => {
+        '_hmum' => [
+          'FCuL'
+        ],
+        '_humm' => [
+          'FuCL'
+        ],
+        '_hamam' => [
+          'FaCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCL',
+      'glosses' => [
+        'sweep'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'xam~-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hmum' => {
+          'IV_C' => 1
+        },
+        '_humm' => {
+          'IV_V' => 1
+        },
+        '_himm' => {
+          'IV_V' => 1
+        },
+        '_hmim' => {
+          'IV_C' => 1
+        },
+        '_hamam' => {
+          'PV_C' => 1
+        }
+      },
+      'entry' => '_hamm',
+      'form' => '_hamm',
+      'lines' => [
+        ';; xam~-ui_1',
+        'xam~    PV_V    stink;rot;decay',
+        'xamam   PV_C    stink;rot;decay',
+        'xum~    IV_V    stink;rot;decay',
+        'xomum   IV_C    stink;rot;decay',
+        'xim~    IV_V    stink;rot;decay',
+        'xomim   IV_C    stink;rot;decay'
+      ],
+      'patterns' => {
+        '_hmum' => [
+          'FCuL'
+        ],
+        '_humm' => [
+          'FuCL'
+        ],
+        '_himm' => [
+          'FiCL'
+        ],
+        '_hamam' => [
+          'FaCaL'
+        ],
+        '_hmim' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCL',
+      'glosses' => [
+        'stink',
+        'rot',
+        'decay'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL',
+        'FCiL'
+      ],
+      'orig' => 'xam~-ui',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'a_hmAm' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_humm',
+      'form' => '_humm',
+      'lines' => [
+        ';; xum~_1',
+        'xum~    N       chicken coop;brooder',
+        'OaxomAm N       chicken coops;brooders'
+      ],
+      'patterns' => {
+        '\'a_hmAm' => [
+          'HaFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCL',
+      'suffix' => '',
+      'glosses' => [
+        'chicken coop',
+        'brooder',
+        'chicken coops',
+        'brooders'
+      ],
+      'orig' => 'xum~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hamm',
+      'form' => '_hammaT',
+      'lines' => [
+        ';; xam~ap_1',
+        'xam~    Nap     stench'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'stench'
+      ],
+      'orig' => 'xam~ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hAmm',
+      'form' => '_hAmm',
+      'lines' => [
+        ';; xAm~_1',
+        'xAm~    Nall    stinking;rotten     [[xAm~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACL',
+      'suffix' => '',
+      'glosses' => [
+        'stinking',
+        'rotten'
+      ],
+      'orig' => 'xAm~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_himm',
+      'form' => 'mu_himm',
+      'lines' => [
+        ';; muxim~_1',
+        'muxim~  Nall    stinking;rotten     [[muxim~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFiCL',
+      'suffix' => '',
+      'glosses' => [
+        'stinking',
+        'rotten'
+      ],
+      'orig' => 'muxim~',
+      'prefix' => ''
+    }
+  ],
+  '_h m ^g' => [
+    {
+      'types' => {
+        '_hma^g' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_hami^g',
+      'form' => '_hami^g',
+      'lines' => [
+        ';; xamij-a_1',
+        'xamij   PV      spoil;rot;decay',
+        'xomaj   IV      spoil;rot;decay'
+      ],
+      'patterns' => {
+        '_hma^g' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        'spoil',
+        'rot',
+        'decay'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'xamij-a',
       'prefix' => ''
     }
   ],
@@ -35198,6 +33000,55 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h \' m' => [
+    {
+      'types' => {},
+      'entry' => '_hAm',
+      'form' => '_hAm',
+      'lines' => [
+        ';; xAm_1',
+        'xAm     N       raw;unprocessed     [[xAm/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FAL',
+      'suffix' => '',
+      'glosses' => [
+        'raw',
+        'unprocessed'
+      ],
+      'orig' => 'xAm',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hAm' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => '_hAm',
+      'form' => '_hAmAt',
+      'lines' => [
+        ';; xAmAt_1',
+        'xAm     NAt     raw materials'
+      ],
+      'patterns' => {
+        '_hAm' => [
+          'FAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FAL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'raw materials'
+      ],
+      'orig' => 'xAmAt',
+      'prefix' => ''
+    }
+  ],
   '_h w s h' => [
     {
       'types' => {},
@@ -35216,6 +33067,56 @@ $Lexicon = {
         'Jose'
       ],
       'orig' => 'xuwsiyh',
+      'prefix' => ''
+    }
+  ],
+  '_h f n' => [
+    {
+      'types' => {},
+      'entry' => '_huffAn',
+      'form' => '_huffAn',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCCAL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'xuf~An',
+      'prefix' => ''
+    }
+  ],
+  '_h .d m' => [
+    {
+      'types' => {
+        '_h.dim' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_ha.dam',
+      'form' => '_ha.dam',
+      'lines' => [
+        ';; xaDam-i_1',
+        'xaDam   PV      munch;bite',
+        'xoDim   IV      munch;bite'
+      ],
+      'patterns' => {
+        '_h.dim' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'munch',
+        'bite'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xaDam-i',
       'prefix' => ''
     }
   ],
@@ -35311,19 +33212,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_h f n' => [
+  'kUrfisqufUs' => [
     {
       'types' => {},
-      'entry' => '_huffAn',
-      'form' => '_huffAn',
-      'lines' => [],
+      'entry' => 'kuwrfisqufuws',
+      'form' => 'kuwrfisqufuws',
+      'lines' => [
+        ';; kuwrofisoqufuws_1',
+        'kuwrofisoqufuws N       bishop\'s representative'
+      ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FuCCAL',
+      'morphs' => 'Identity',
       'suffix' => '',
-      'glosses' => [],
-      'orig' => 'xuf~An',
+      'glosses' => [
+        'bishop\'s representative'
+      ],
+      'orig' => 'kuwrofisoqufuws',
       'prefix' => ''
     }
   ],
@@ -35394,47 +33300,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'AixotilA\'',
-      'prefix' => ''
-    }
-  ],
-  '_h .t m' => [
-    {
-      'types' => {},
-      'entry' => '_ha.tm',
-      'form' => '_ha.tm',
-      'lines' => [
-        ';; xaTom_1',
-        'xaTom   N       snout;muzzle'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCL',
-      'suffix' => '',
-      'glosses' => [
-        'snout',
-        'muzzle'
-      ],
-      'orig' => 'xaTom',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hi.tAm',
-      'form' => '_hi.tAm',
-      'lines' => [
-        ';; xiTAm_1',
-        'xiTAm   N       noseband'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FiCAL',
-      'suffix' => '',
-      'glosses' => [
-        'noseband'
-      ],
-      'orig' => 'xiTAm',
       'prefix' => ''
     }
   ],
@@ -35515,6 +33380,431 @@ $Lexicon = {
         'breaking'
       ],
       'orig' => 'xayasAn',
+      'prefix' => ''
+    }
+  ],
+  '_h f t' => [
+    {
+      'types' => {
+        '_hfut' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => '_hafat',
+      'form' => '_hafat',
+      'lines' => [
+        ';; xafat-u_1',
+        'xafat   PV-t_intr       be inaudible;be silent;become dim',
+        'xofut   IV_intr be inaudible;be silent;become dim'
+      ],
+      'patterns' => {
+        '_hfut' => [
+          'FCuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'be inaudible',
+        'be silent',
+        'become dim'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'xafat-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hAfit' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_hAfat',
+      'form' => '_hAfat',
+      'lines' => [
+        ';; xAfat_1',
+        'xAfat   PV-t    lower;reduce',
+        'xAfit   IV_yu   lower;reduce'
+      ],
+      'patterns' => {
+        '_hAfit' => [
+          'FACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FACaL',
+      'suffix' => '',
+      'glosses' => [
+        'lower',
+        'reduce'
+      ],
+      'orig' => 'xAfat',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hfat' => {
+          'IV_Pass_yu' => 1
+        },
+        '_hfit' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '\'a_hfat',
+      'form' => '\'a_hfat',
+      'lines' => [
+        ';; Oaxofat_1',
+        'Oaxofat PV-t    silence;make silent',
+        'xofit   IV_yu   silence;make silent',
+        'xofat   IV_Pass_yu      be silenced;be made silent'
+      ],
+      'patterns' => {
+        '_hfat' => [
+          'FCaL'
+        ],
+        '_hfit' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'silence',
+        'make silent',
+        'be silenced',
+        'be made silent'
+      ],
+      'orig' => 'Oaxofat',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_htafit' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'i_htafat',
+      'form' => 'i_htafat',
+      'lines' => [
+        ';; Aixotafat_1',
+        'Aixotafat       PV-t_intr       be inaudible;be silent;become dim',
+        'xotafit IV_intr be inaudible;be silent;become dim'
+      ],
+      'patterns' => {
+        '_htafit' => [
+          'FtaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFtaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be inaudible',
+        'be silent',
+        'become dim'
+      ],
+      'orig' => 'Aixotafat',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hufuwt',
+      'form' => '_hufuwt',
+      'lines' => [
+        ';; xufuwt_1',
+        'xufuwt  N       fading'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCUL',
+      'suffix' => '',
+      'glosses' => [
+        'fading'
+      ],
+      'orig' => 'xufuwt',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hAfit',
+      'form' => '_hAfit',
+      'lines' => [
+        ';; xAfit_1',
+        'xAfit   N-ap    fading;dim     [[xAfit/ADJ]]',
+        'xAfit   N-ap    soft;inaudible     [[xAfit/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        'fading',
+        'dim',
+        'soft',
+        'inaudible'
+      ],
+      'orig' => 'xAfit',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_htafit',
+      'form' => 'mu_htafit',
+      'lines' => [
+        ';; muxotafit_1',
+        'muxotafit       Nall    soft;low;subdued     [[muxotafit/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFtaCiL',
+      'suffix' => '',
+      'glosses' => [
+        'soft',
+        'low',
+        'subdued'
+      ],
+      'orig' => 'muxotafit',
+      'prefix' => ''
+    }
+  ],
+  '_h .t m' => [
+    {
+      'types' => {},
+      'entry' => '_ha.tm',
+      'form' => '_ha.tm',
+      'lines' => [
+        ';; xaTom_1',
+        'xaTom   N       snout;muzzle'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'snout',
+        'muzzle'
+      ],
+      'orig' => 'xaTom',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hi.tAm',
+      'form' => '_hi.tAm',
+      'lines' => [
+        ';; xiTAm_1',
+        'xiTAm   N       noseband'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'noseband'
+      ],
+      'orig' => 'xiTAm',
+      'prefix' => ''
+    }
+  ],
+  '_hayzUrAn' => [
+    {
+      'types' => {
+        '_hayAzir' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hayzuwrAn',
+      'form' => '_hayzuwrAn',
+      'lines' => [
+        ';; xayozuwrAn_1',
+        'xayozuwrAn      N       bamboo;reed',
+        'xayAzir Ndip    bamboo;reed'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'bamboo',
+        'reed'
+      ],
+      'orig' => 'xayozuwrAn',
+      'prefix' => ''
+    }
+  ],
+  '_h m n' => [
+    {
+      'types' => {
+        '_hammin' => {
+          'IV-n_yu' => 1
+        }
+      },
+      'entry' => '_hamman',
+      'form' => '_hamman',
+      'lines' => [
+        ';; xam~an_1',
+        'xam~an  PV-n    guess;assess;estimate;conjecture',
+        'xam~in  IV-n_yu guess;assess;estimate;conjecture'
+      ],
+      'patterns' => {
+        '_hammin' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'guess',
+        'assess',
+        'estimate',
+        'conjecture'
+      ],
+      'orig' => 'xam~an',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta_hmiyn' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'ta_hmiyn',
+      'form' => 'ta_hmiyn',
+      'lines' => [
+        ';; taxomiyn_1',
+        'taxomiyn        Ndu     appraisal;estimation;estimate',
+        'taxomiyn        NAt     appraisals;estimates'
+      ],
+      'patterns' => {
+        'ta_hmiyn' => [
+          'TaFCIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TaFCIL',
+      'suffix' => '',
+      'glosses' => [
+        'appraisal',
+        'estimation',
+        'estimate',
+        'appraisals',
+        'estimates'
+      ],
+      'orig' => 'taxomiyn',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta_hmiyn' => {
+          'NF' => 1
+        }
+      },
+      'entry' => 'ta_hmiyn',
+      'form' => 'ta_hmiynaN',
+      'lines' => [
+        ';; taxomiynAF_1',
+        'taxomiyn        NF      approximately;roughly     [[taxomiyn/ADV]]'
+      ],
+      'patterns' => {
+        'ta_hmiyn' => [
+          'TaFCIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'adv',
+      'morphs' => 'TaFCIL |< aN',
+      'suffix' => ' |< aN',
+      'glosses' => [
+        'approximately',
+        'roughly'
+      ],
+      'orig' => 'taxomiynAF',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_hammin',
+      'form' => 'mu_hammin',
+      'lines' => [
+        ';; muxam~in_1',
+        'muxam~in        Nall    appraiser;assessor'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFaCCiL',
+      'suffix' => '',
+      'glosses' => [
+        'appraiser',
+        'assessor'
+      ],
+      'orig' => 'muxam~in',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_humayn',
+      'form' => '_humayniyy',
+      'lines' => [
+        ';; xumayoniy~_1',
+        'xumayoniy~      Nall    Khomeini partisan     [[xumayoniy~/NOUN]]',
+        'xumayoniy~      Nall    Khomeini partisan     [[xumayoniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuCayL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Khomeini partisan'
+      ],
+      'orig' => 'xumayoniy~',
+      'prefix' => ''
+    }
+  ],
+  '_h d w' => [
+    {
+      'types' => {
+        '_hidiywiyy' => {
+          'Nall' => 1
+        }
+      },
+      'entry' => '_hudayw',
+      'form' => '_hudaywiyy',
+      'lines' => [
+        ';; xudayowiy~_1',
+        'xudayowiy~      Nall    khedive     [[xudayowiy~/ADJ]]',
+        'xidiywiy~       Nall    khedivial     [[xidiywiy~/ADJ]]'
+      ],
+      'patterns' => {
+        '_hidiywiyy' => []
+      },
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuCayL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'khedive',
+        'khedivial'
+      ],
+      'orig' => 'xudayowiy~',
       'prefix' => ''
     }
   ],
@@ -35701,6 +33991,22 @@ $Lexicon = {
         'emasculated'
       ],
       'orig' => 'maxoSiy~',
+      'prefix' => ''
+    }
+  ],
+  '_h \' b' => [
+    {
+      'types' => {},
+      'entry' => '_hA\'ib',
+      'form' => '_hA\'ib',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'xA}ib',
       'prefix' => ''
     }
   ],
@@ -36500,6 +34806,83 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_hAmani\'' => [
+    {
+      'types' => {},
+      'entry' => '_hAmani\'',
+      'form' => '_hAmani\'iyy',
+      'lines' => [
+        ';; xAmani}iy~_1',
+        'xAmani}iy~      Nprop   Khamene\'i'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Khamene\'i'
+      ],
+      'orig' => 'xAmani}iy~',
+      'prefix' => ''
+    }
+  ],
+  '_h \' .t' => [
+    {
+      'types' => {},
+      'entry' => '_hA\'i.t',
+      'form' => '_hA\'i.t',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'xA}iT',
+      'prefix' => ''
+    }
+  ],
+  '_hAra.sIn' => [
+    {
+      'types' => {},
+      'entry' => '_hAra.siyn',
+      'form' => '_hAra.siyn',
+      'lines' => [
+        ';; xAraSiyn_1',
+        'xAraSiyn        N       zinc'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'zinc'
+      ],
+      'orig' => 'xAraSiyn',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hAra.siyn',
+      'form' => '_hAra.siyniyy',
+      'lines' => [
+        ';; xAraSiyniy~_1',
+        'xAraSiyniy~     Nall    zinc     [[xAraSiyniy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'zinc'
+      ],
+      'orig' => 'xAraSiyniy~',
+      'prefix' => ''
+    }
+  ],
   '_huza`bal' => [
     {
       'types' => {
@@ -36526,137 +34909,24 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_h s f' => [
-    {
-      'types' => {
-        '_hsif' => {
-          'IV_intr' => 1
-        }
-      },
-      'entry' => '_hasaf',
-      'form' => '_hasaf',
-      'lines' => [
-        ';; xasaf-i_1',
-        'xasaf   PV_intr sink;disappear;be eclipsed',
-        'xosif   IV_intr sink;disappear;be eclipsed'
-      ],
-      'patterns' => {
-        '_hsif' => [
-          'FCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'sink',
-        'disappear',
-        'be eclipsed'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xasaf-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '_hsif' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_hasaf',
-      'form' => '_hasaf',
-      'lines' => [
-        ';; xasaf-i_2',
-        'xasaf   PV      make sink',
-        'xosif   IV      make sink'
-      ],
-      'patterns' => {
-        '_hsif' => [
-          'FCiL'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'make sink'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCiL'
-      ],
-      'orig' => 'xasaf-i',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'n_hasif' => {
-          'IV' => 1
-        }
-      },
-      'entry' => 'in_hasaf',
-      'form' => 'in_hasaf',
-      'lines' => [
-        ';; Ainoxasaf_1',
-        'Ainoxasaf       PV      sink',
-        'noxasif IV      sink'
-      ],
-      'patterns' => {
-        'n_hasif' => [
-          'NFaCiL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'InFaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'sink'
-      ],
-      'orig' => 'Ainoxasaf',
-      'prefix' => ''
-    },
+  '_h l d n' => [
     {
       'types' => {},
-      'entry' => '_hasf',
-      'form' => '_hasf',
+      'entry' => '_halduwn',
+      'form' => '_halduwn',
       'lines' => [
-        ';; xasof_1',
-        'xasof   N       shame;inferiority'
+        ';; xaloduwn_1',
+        'xaloduwn        N0      Khaldoun'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCL',
+      'morphs' => 'KaRDUS',
       'suffix' => '',
       'glosses' => [
-        'shame',
-        'inferiority'
+        'Khaldoun'
       ],
-      'orig' => 'xasof',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_husuwf',
-      'form' => '_husuwf',
-      'lines' => [
-        ';; xusuwf_1',
-        'xusuwf  N       eclipse;occultation'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FuCUL',
-      'suffix' => '',
-      'glosses' => [
-        'eclipse',
-        'occultation'
-      ],
-      'orig' => 'xusuwf',
+      'orig' => 'xaloduwn',
       'prefix' => ''
     }
   ],
@@ -36820,6 +35090,140 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h s f' => [
+    {
+      'types' => {
+        '_hsif' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => '_hasaf',
+      'form' => '_hasaf',
+      'lines' => [
+        ';; xasaf-i_1',
+        'xasaf   PV_intr sink;disappear;be eclipsed',
+        'xosif   IV_intr sink;disappear;be eclipsed'
+      ],
+      'patterns' => {
+        '_hsif' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'sink',
+        'disappear',
+        'be eclipsed'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xasaf-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hsif' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_hasaf',
+      'form' => '_hasaf',
+      'lines' => [
+        ';; xasaf-i_2',
+        'xasaf   PV      make sink',
+        'xosif   IV      make sink'
+      ],
+      'patterns' => {
+        '_hsif' => [
+          'FCiL'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'make sink'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL'
+      ],
+      'orig' => 'xasaf-i',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'n_hasif' => {
+          'IV' => 1
+        }
+      },
+      'entry' => 'in_hasaf',
+      'form' => 'in_hasaf',
+      'lines' => [
+        ';; Ainoxasaf_1',
+        'Ainoxasaf       PV      sink',
+        'noxasif IV      sink'
+      ],
+      'patterns' => {
+        'n_hasif' => [
+          'NFaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'InFaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'sink'
+      ],
+      'orig' => 'Ainoxasaf',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hasf',
+      'form' => '_hasf',
+      'lines' => [
+        ';; xasof_1',
+        'xasof   N       shame;inferiority'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'shame',
+        'inferiority'
+      ],
+      'orig' => 'xasof',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_husuwf',
+      'form' => '_husuwf',
+      'lines' => [
+        ';; xusuwf_1',
+        'xusuwf  N       eclipse;occultation'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCUL',
+      'suffix' => '',
+      'glosses' => [
+        'eclipse',
+        'occultation'
+      ],
+      'orig' => 'xusuwf',
+      'prefix' => ''
+    }
+  ],
   '_h m .s' => [
     {
       'types' => {
@@ -36972,6 +35376,38 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_h y ^s m' => [
+    {
+      'types' => {
+        '_hayA^siym' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hay^suwm',
+      'form' => '_hay^suwm',
+      'lines' => [
+        ';; xayo$uwm_1',
+        'xayo$uwm        N       nose;nostril',
+        'xayA$iym        Ndip    nose;nostrils'
+      ],
+      'patterns' => {
+        '_hayA^siym' => [
+          'KaRADIS'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRDUS',
+      'suffix' => '',
+      'glosses' => [
+        'nose',
+        'nostril',
+        'nostrils'
+      ],
+      'orig' => 'xayo$uwm',
+      'prefix' => ''
+    }
+  ],
   '_h m s n' => [
     {
       'types' => {
@@ -37059,6 +35495,505 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '_humaynI' => [
+    {
+      'types' => {},
+      'entry' => '_humayniy',
+      'form' => '_humayniy',
+      'lines' => [
+        ';; xumayoniy_1',
+        'xumayoniy       N0      Khomeini'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Khomeini'
+      ],
+      'orig' => 'xumayoniy',
+      'prefix' => ''
+    }
+  ],
+  '_hazandAr' => [
+    {
+      'types' => {},
+      'entry' => '_hazandAr',
+      'form' => '_hazandAr',
+      'lines' => [
+        ';; xazanodAr_1',
+        'xazanodAr       N0      Khazandar'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Khazandar'
+      ],
+      'orig' => 'xazanodAr',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_haznadAr' => {
+          'N' => 1
+        }
+      },
+      'entry' => '_hazandAr',
+      'form' => '_hazandAr',
+      'lines' => [
+        ';; xazanodAr_2',
+        'xazanodAr       N       treasurer',
+        'xazonadAr       N       treasurer'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'Identity',
+      'suffix' => '',
+      'glosses' => [
+        'treasurer'
+      ],
+      'orig' => 'xazanodAr',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hazandAr',
+      'form' => '_hazandAriyy',
+      'lines' => [
+        ';; xazanodAriy~_1',
+        'xazanodAriy~    N0      Khazandari'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Khazandari'
+      ],
+      'orig' => 'xazanodAriy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hazandAr',
+      'form' => '_hazandAriyy',
+      'lines' => [
+        ';; xazanodAriy~_2',
+        'xazanodAriy~    Nall    treasurer     [[xazanodAriy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'adj',
+      'morphs' => 'Identity |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'treasurer'
+      ],
+      'orig' => 'xazanodAriy~',
+      'prefix' => ''
+    }
+  ],
+  '_h ^s y' => [
+    {
+      'types' => {
+        '_h^sa' => {
+          'IV_0hwnyn' => 1
+        },
+        '_h^say' => {
+          'IV_Ann' => 1
+        },
+        '_h^sA' => {
+          'IV_h' => 1
+        },
+        '_h^sY' => {
+          'IV_0' => 1
+        },
+        '_ha^s' => {
+          'PV_w' => 1
+        }
+      },
+      'entry' => '_ha^siy',
+      'form' => '_ha^siy',
+      'lines' => [
+        ';; xa$iy-a_1',
+        'xa$iy   PV_no-w fear;be afraid',
+        'xa$     PV_w    fear;be afraid',
+        'xo$aY   IV_0    fear;be afraid',
+        'xo$A    IV_h    fear;be afraid',
+        'xo$ay   IV_Ann  fear;be afraid',
+        'xo$a    IV_0hwnyn       fear;be afraid'
+      ],
+      'patterns' => {
+        '_h^say' => [
+          'FCaL'
+        ],
+        '_h^sY' => [
+          'FCY'
+        ],
+        '_ha^s' => [
+          'FaC'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCI',
+      'glosses' => [
+        'fear',
+        'be afraid'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'xa$iy-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_ha^s^siy' => {
+          'IV_0hAnn_yu' => 1
+        },
+        '_ha^s^s' => {
+          'IV_0hwnyn_yu' => 1,
+          'PV_ttAw' => 1
+        },
+        '_ha^s^say' => {
+          'PV_Atn' => 1,
+          'IV_Ann_Pass_yu' => 1
+        },
+        '_ha^s^sA' => {
+          'PV_h' => 1
+        }
+      },
+      'entry' => '_ha^s^sY',
+      'form' => '_ha^s^sY',
+      'lines' => [
+        ';; xa$~aY_1',
+        'xa$~aY  PV_0    frighten;alarm',
+        'xa$~A   PV_h    frighten;alarm',
+        'xa$~ay  PV_Atn  frighten;alarm',
+        'xa$~    PV_ttAw frighten;alarm',
+        'xa$~iy  IV_0hAnn_yu     frighten;alarm',
+        'xa$~    IV_0hwnyn_yu    frighten;alarm',
+        'xa$~aY  IV_0_Pass_yu    be frighten;be alarmed',
+        'xa$~ay  IV_Ann_Pass_yu  be frighten;be alarmed'
+      ],
+      'patterns' => {
+        '_ha^s^say' => [
+          'FaCCaL'
+        ],
+        '_ha^s^siy' => [
+          'FaCCI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCY',
+      'suffix' => '',
+      'glosses' => [
+        'frighten',
+        'alarm',
+        'be frighten',
+        'be alarmed'
+      ],
+      'orig' => 'xa$~aY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ta_ha^s^sA' => {
+          'PV_h' => 1,
+          'IV_h' => 1
+        },
+        'ta_ha^s^s' => {
+          'IV_0hwnyn' => 1,
+          'PV_ttAw' => 1
+        },
+        'ta_ha^s^say' => {
+          'PV_Atn' => 1,
+          'IV_Ann' => 1
+        }
+      },
+      'entry' => 'ta_ha^s^sY',
+      'form' => 'ta_ha^s^sY',
+      'lines' => [
+        ';; taxa$~aY_1',
+        'taxa$~aY        PV_0    fear;be afraid',
+        'taxa$~A PV_h    fear;be afraid',
+        'taxa$~ay        PV_Atn  fear;be afraid',
+        'taxa$~  PV_ttAw fear;be afraid',
+        'taxa$~aY        IV_0    fear;be afraid',
+        'taxa$~A IV_h    fear;be afraid',
+        'taxa$~ay        IV_Ann  fear;be afraid',
+        'taxa$~  IV_0hwnyn       fear;be afraid'
+      ],
+      'patterns' => {
+        'ta_ha^s^say' => [
+          'TaFaCCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFaCCY',
+      'suffix' => '',
+      'glosses' => [
+        'fear',
+        'be afraid'
+      ],
+      'orig' => 'taxa$~aY',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hta^sY' => {
+          'IV_0_Pass_yu' => 1
+        },
+        '_hta^s' => {
+          'IV_0hwnyn' => 1
+        },
+        'i_hta^say' => {
+          'PV_Atn' => 1
+        },
+        'i_hta^sA' => {
+          'PV_h' => 1
+        },
+        '_hta^siy' => {
+          'IV_0hAnn' => 1
+        },
+        'i_hta^s' => {
+          'PV_ttAw_intr' => 1
+        }
+      },
+      'entry' => 'i_hta^sY',
+      'form' => 'i_hta^sY',
+      'lines' => [
+        ';; Aixota$aY_1',
+        'Aixota$aY       PV_0    be embarrassed;be ashamed',
+        'Aixota$A        PV_h    be embarrassed;be ashamed',
+        'Aixota$ay       PV_Atn  be embarrassed;be ashamed',
+        'Aixota$ PV_ttAw_intr    be embarrassed;be ashamed',
+        'xota$iy IV_0hAnn        be embarrassed;be ashamed',
+        'xota$   IV_0hwnyn       be embarrassed;be ashamed',
+        'xota$aY IV_0_Pass_yu    be embarrassed;be ashamed'
+      ],
+      'patterns' => {
+        '_hta^sY' => [
+          'FtaCY'
+        ],
+        'i_hta^say' => [
+          'IFtaCaL'
+        ],
+        '_hta^siy' => [
+          'FtaCI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFtaCY',
+      'suffix' => '',
+      'glosses' => [
+        'be embarrassed',
+        'be ashamed'
+      ],
+      'orig' => 'Aixota$aY',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha^sy',
+      'form' => '_ha^syaT',
+      'lines' => [
+        ';; xa$oyap_1',
+        'xa$oy   Nap     fear;apprehension'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'fear',
+        'apprehension'
+      ],
+      'orig' => 'xa$oyap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha^sy',
+      'form' => '_ha^syaT',
+      'lines' => [
+        ';; xa$oyap_2',
+        'xa$oy   Nap     out of fear;fearing'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'out of fear',
+        'fearing'
+      ],
+      'orig' => 'xa$oyap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ma_h^sY',
+      'form' => 'ma_h^sAT',
+      'lines' => [
+        ';; maxo$Ap_1',
+        'maxo$A  Nap     fear;apprehension'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCY |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'fear',
+        'apprehension'
+      ],
+      'orig' => 'maxo$Ap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_ha^sAyY' => {
+          'N0_Nhy' => 1
+        },
+        '_ha^syY' => {
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '_ha^syAn',
+      'form' => '_ha^syAn',
+      'lines' => [
+        ';; xa$oyAn_1',
+        'xa$oyAn Ndip    timid;anxious',
+        'xa$oyA  N0_Nh   timid;anxious',
+        'xa$AyA  N0_Nhy  timid;anxious'
+      ],
+      'patterns' => {
+        '_ha^sAyY' => [
+          'FaCALY'
+        ],
+        '_ha^syY' => [
+          'FaCLY'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLAn',
+      'suffix' => '',
+      'glosses' => [
+        'timid',
+        'anxious'
+      ],
+      'orig' => 'xa$oyAn',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hA^s' => {
+          'Nuwn_Niyn' => 1
+        },
+        '_hA^siy' => {
+          'NapAt' => 1
+        }
+      },
+      'entry' => '_hA^siy',
+      'form' => '_hA^siy',
+      'lines' => [
+        ';; xA$iy_1',
+        'xA$iy   N0F     timid;anxious',
+        'xA$     NK      timid;anxious',
+        'xA$iy   NAn_Nayn        timid;anxious',
+        'xA$     Nuwn_Niyn       timid;anxious',
+        'xA$iy   NapAt   timid;anxious'
+      ],
+      'patterns' => {
+        '_hA^s' => [],
+        '_hA^siy' => [
+          'FACI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACI',
+      'suffix' => '',
+      'glosses' => [
+        'timid',
+        'anxious'
+      ],
+      'orig' => 'xA$iy',
+      'prefix' => ''
+    }
+  ],
+  '_h w l y' => [
+    {
+      'types' => {},
+      'entry' => '_hawAliy',
+      'form' => '_hawAliy',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KaRADI',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'xawAliy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_huwluw',
+      'form' => '_huwluw',
+      'lines' => [
+        ';; xuwluw_1',
+        'xuwluw  Nprop   Jolo'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDU',
+      'suffix' => '',
+      'glosses' => [
+        'Jolo'
+      ],
+      'orig' => 'xuwluw',
+      'prefix' => ''
+    }
+  ],
+  '_h r n b' => [
+    {
+      'types' => {},
+      'entry' => '_hurnuwb',
+      'form' => '_hurnuwb',
+      'lines' => [
+        ';; xurnuwb_1',
+        'xurnuwb N       carob;locust'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDUS',
+      'suffix' => '',
+      'glosses' => [
+        'carob',
+        'locust'
+      ],
+      'orig' => 'xurnuwb',
+      'prefix' => ''
+    }
+  ],
   'mA_halA' => [
     {
       'types' => {},
@@ -37078,6 +36013,659 @@ $Lexicon = {
         'except for'
       ],
       'orig' => 'mAxalA',
+      'prefix' => ''
+    }
+  ],
+  '_h n q' => [
+    {
+      'types' => {
+        '_hnuq' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_hanaq',
+      'form' => '_hanaq',
+      'lines' => [
+        ';; xanaq-u_1',
+        'xanaq   PV      choke;suppress;throttle down',
+        'xonuq   IV      choke;suppress;throttle down'
+      ],
+      'patterns' => {
+        '_hnuq' => [
+          'FCuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'choke',
+        'suppress',
+        'throttle down'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'xanaq-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hAniq' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_hAnaq',
+      'form' => '_hAnaq',
+      'lines' => [
+        ';; xAnaq_1',
+        'xAnaq   PV      quarrel',
+        'xAniq   IV_yu   quarrel'
+      ],
+      'patterns' => {
+        '_hAniq' => [
+          'FACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FACaL',
+      'suffix' => '',
+      'glosses' => [
+        'quarrel'
+      ],
+      'orig' => 'xAnaq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ta_hAnaq',
+      'form' => 'ta_hAnaq',
+      'lines' => [
+        ';; taxAnaq_1',
+        'taxAnaq PV      quarrel',
+        'taxAnaq IV      quarrel'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'TaFACaL',
+      'suffix' => '',
+      'glosses' => [
+        'quarrel'
+      ],
+      'orig' => 'taxAnaq',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'n_haniq' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'in_hanaq',
+      'form' => 'in_hanaq',
+      'lines' => [
+        ';; Ainoxanaq_1',
+        'Ainoxanaq       PV_intr be choked;be throttled',
+        'noxaniq IV_intr be choked;be throttled'
+      ],
+      'patterns' => {
+        'n_haniq' => [
+          'NFaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'InFaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be choked',
+        'be throttled'
+      ],
+      'orig' => 'Ainoxanaq',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_htaniq' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'i_htanaq',
+      'form' => 'i_htanaq',
+      'lines' => [
+        ';; Aixotanaq_1',
+        'Aixotanaq       PV_intr be throttled;be constricted;be choked',
+        'xotaniq IV_intr be throttled;be constricted;be choked'
+      ],
+      'patterns' => {
+        '_htaniq' => [
+          'FtaCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFtaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be throttled',
+        'be constricted',
+        'be choked'
+      ],
+      'orig' => 'Aixotanaq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hanq',
+      'form' => '_hanq',
+      'lines' => [
+        ';; xanoq_1',
+        'xanoq   N       choking;suppression'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL',
+      'suffix' => '',
+      'glosses' => [
+        'choking',
+        'suppression'
+      ],
+      'orig' => 'xanoq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hanq',
+      'form' => '_hanqaT',
+      'lines' => [
+        ';; xanoqap_1',
+        'xanoq   Napdu   wrist'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'wrist'
+      ],
+      'orig' => 'xanoqap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hawAniyq' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '_hAnuwq',
+      'form' => '_hAnuwq',
+      'lines' => [
+        ';; xAnuwq_1',
+        'xAnuwq  N       angina;diphtheria',
+        'xawAniyq        Ndip    angina;diphtheria',
+        'xawAniyq        Ndip    suffocation'
+      ],
+      'patterns' => {
+        '_hawAniyq' => [
+          'FawACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACUL',
+      'suffix' => '',
+      'glosses' => [
+        'angina',
+        'diphtheria',
+        'suffocation'
+      ],
+      'orig' => 'xAnuwq',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hawAniq' => {
+          'Ndip' => 2
+        }
+      },
+      'entry' => '_hunAq',
+      'form' => '_hunAq',
+      'lines' => [
+        ';; xunAq_1',
+        'xunAq   N       angina;diphtheria',
+        'xawAniq Ndip    angina;diphtheria',
+        'xawAniq Ndip    suffocation'
+      ],
+      'patterns' => {
+        '_hawAniq' => [
+          'FawACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCAL',
+      'suffix' => '',
+      'glosses' => [
+        'angina',
+        'diphtheria',
+        'suffocation'
+      ],
+      'orig' => 'xunAq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hannAq',
+      'form' => '_hannAq',
+      'lines' => [
+        ';; xan~Aq_1',
+        'xan~Aq  N/ap    choking;strangling'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL',
+      'suffix' => '',
+      'glosses' => [
+        'choking',
+        'strangling'
+      ],
+      'orig' => 'xan~Aq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ma_hnaq',
+      'form' => 'ma_hnaq',
+      'lines' => [
+        ';; maxonaq_1',
+        'maxonaq Ndu     neck;throat'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'neck',
+        'throat'
+      ],
+      'orig' => 'maxonaq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hinAq',
+      'form' => '_hinAq',
+      'lines' => [
+        ';; xinAq_1',
+        'xinAq   N       neck;throat'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'neck',
+        'throat'
+      ],
+      'orig' => 'xinAq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hinAq',
+      'form' => '_hinAq',
+      'lines' => [
+        ';; xinAq_2',
+        'xinAq   N       quarrel'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'quarrel'
+      ],
+      'orig' => 'xinAq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hinAq',
+      'form' => '_hinAqaT',
+      'lines' => [
+        ';; xinAqap_1',
+        'xinAq   Napdu   quarrel'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FiCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'quarrel'
+      ],
+      'orig' => 'xinAqap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'i_htinAq' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'i_htinAq',
+      'form' => 'i_htinAq',
+      'lines' => [
+        ';; AixotinAq_1',
+        'AixotinAq       NduAt   constriction;bottleneck;asphyxia'
+      ],
+      'patterns' => {
+        'i_htinAq' => [
+          'IFtiCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IFtiCAL',
+      'suffix' => '',
+      'glosses' => [
+        'constriction',
+        'bottleneck',
+        'asphyxia'
+      ],
+      'orig' => 'AixotinAq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hAniq',
+      'form' => '_hAniq',
+      'lines' => [
+        ';; xAniq_1',
+        'xAniq   Nall    choking;throttling;strangling'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        'choking',
+        'throttling',
+        'strangling'
+      ],
+      'orig' => 'xAniq',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hawAniq' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => '_hAniq',
+      'form' => '_hAniq',
+      'lines' => [
+        ';; xAniq_2',
+        'xAniq   N       throttle;choke',
+        'xawAniq Ndip    throttles'
+      ],
+      'patterns' => {
+        '_hawAniq' => [
+          'FawACiL'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FACiL',
+      'suffix' => '',
+      'glosses' => [
+        'throttle',
+        'choke',
+        'throttles'
+      ],
+      'orig' => 'xAniq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ma_hnuwq',
+      'form' => 'ma_hnuwq',
+      'lines' => [
+        ';; maxonuwq_1',
+        'maxonuwq        Nall    constricted;choking;throttled     [[maxonuwq/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MaFCUL',
+      'suffix' => '',
+      'glosses' => [
+        'constricted',
+        'choking',
+        'throttled'
+      ],
+      'orig' => 'maxonuwq',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_htaniq',
+      'form' => 'mu_htaniq',
+      'lines' => [
+        ';; muxotaniq_1',
+        'muxotaniq       Nall    constricted;crowded;jammed     [[muxotaniq/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'MuFtaCiL',
+      'suffix' => '',
+      'glosses' => [
+        'constricted',
+        'crowded',
+        'jammed'
+      ],
+      'orig' => 'muxotaniq',
+      'prefix' => ''
+    }
+  ],
+  '_h r z' => [
+    {
+      'types' => {
+        '_hruz' => {
+          'IV' => 1
+        },
+        '_hriz' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_haraz',
+      'form' => '_haraz',
+      'lines' => [
+        ';; xaraz-iu_1',
+        'xaraz   PV      pierce;bore',
+        'xoriz   IV      pierce;bore',
+        'xoruz   IV      pierce;bore'
+      ],
+      'patterns' => {
+        '_hruz' => [
+          'FCuL'
+        ],
+        '_hriz' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'pierce',
+        'bore'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCiL',
+        'FCuL'
+      ],
+      'orig' => 'xaraz-iu',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_haraz' => {
+          'NapAt' => 1
+        }
+      },
+      'entry' => '_haraz',
+      'form' => '_haraz',
+      'lines' => [
+        ';; xaraz_1',
+        'xaraz   N       beads',
+        'xaraz   NapAt   beads'
+      ],
+      'patterns' => {
+        '_haraz' => [
+          'FaCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'beads'
+      ],
+      'orig' => 'xaraz',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harrAz',
+      'form' => '_harrAz',
+      'lines' => [
+        ';; xar~Az_1',
+        'xar~Az  Nall    cobbler'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL',
+      'suffix' => '',
+      'glosses' => [
+        'cobbler'
+      ],
+      'orig' => 'xar~Az',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harrAz',
+      'form' => '_harrAziyy',
+      'lines' => [
+        ';; xar~Aziy~_1',
+        'xar~Aziy~       N0      Kharrazi'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCCAL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Kharrazi'
+      ],
+      'orig' => 'xar~Aziy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ma_hAriz' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'mi_hraz',
+      'form' => 'mi_hraz',
+      'lines' => [
+        ';; mixoraz_1',
+        'mixoraz Ndu     awl;punch',
+        'maxAriz Ndip    awls;punches'
+      ],
+      'patterns' => {
+        'ma_hAriz' => [
+          'MaFACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MiFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'awl',
+        'punch',
+        'awls',
+        'punches'
+      ],
+      'orig' => 'mixoraz',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'ma_hAriyz' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'mi_hrAz',
+      'form' => 'mi_hrAz',
+      'lines' => [
+        ';; mixorAz_1',
+        'mixorAz Ndu     awl;punch',
+        'maxAriyz        Ndip    awls;punches'
+      ],
+      'patterns' => {
+        'ma_hAriyz' => [
+          'MaFACIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MiFCAL',
+      'suffix' => '',
+      'glosses' => [
+        'awl',
+        'punch',
+        'awls',
+        'punches'
+      ],
+      'orig' => 'mixorAz',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_harzAn',
+      'form' => '_harzAnaT',
+      'lines' => [
+        ';; xarozAnap_1',
+        'xarozAn Nap     switch;rod'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCLAn |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'switch',
+        'rod'
+      ],
+      'orig' => 'xarozAnap',
       'prefix' => ''
     }
   ],
@@ -37336,246 +36924,151 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '_h r z' => [
+  '_h w .d' => [
     {
       'types' => {
-        '_hruz' => {
-          'IV' => 1
+        '_huw.d' => {
+          'IV_V' => 1
         },
-        '_hriz' => {
-          'IV' => 1
+        '_hu.d' => {
+          'PV_C' => 1,
+          'IV_C' => 1
         }
       },
-      'entry' => '_haraz',
-      'form' => '_haraz',
+      'entry' => '_hA.d',
+      'form' => '_hA.d',
       'lines' => [
-        ';; xaraz-iu_1',
-        'xaraz   PV      pierce;bore',
-        'xoriz   IV      pierce;bore',
-        'xoruz   IV      pierce;bore'
+        ';; xAD-u_1',
+        'xAD     PV_V    wage;embark;carry out',
+        'xuD     PV_C    wage;embark;carry out',
+        'xuwD    IV_V    wage;embark;carry out',
+        'xuD     IV_C    wage;embark;carry out'
       ],
       'patterns' => {
-        '_hruz' => [
-          'FCuL'
+        '_hu.d' => [
+          'FuL'
         ],
-        '_hriz' => [
-          'FCiL'
+        '_huw.d' => [
+          'FUL'
         ]
       },
       'index' => '1',
       'entity' => 'verb',
-      'morphs' => 'FaCaL',
+      'morphs' => 'FAL',
       'glosses' => [
-        'pierce',
-        'bore'
+        'wage',
+        'embark',
+        'carry out'
       ],
       'suffix' => '',
       'imperf' => [
-        'FCiL',
         'FCuL'
       ],
-      'orig' => 'xaraz-iu',
+      'orig' => 'xAD-u',
       'prefix' => ''
     },
     {
       'types' => {
-        '_haraz' => {
-          'NapAt' => 1
+        '_hawwi.d' => {
+          'IV_yu' => 1
         }
       },
-      'entry' => '_haraz',
-      'form' => '_haraz',
+      'entry' => '_hawwa.d',
+      'form' => '_hawwa.d',
       'lines' => [
-        ';; xaraz_1',
-        'xaraz   N       beads',
-        'xaraz   NapAt   beads'
+        ';; xaw~aD_1',
+        'xaw~aD  PV      wade into',
+        'xaw~iD  IV_yu   wade into'
       ],
       'patterns' => {
-        '_haraz' => [
-          'FaCaL'
+        '_hawwi.d' => [
+          'FaCCiL'
         ]
       },
       'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCaL',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
       'suffix' => '',
       'glosses' => [
-        'beads'
+        'wade into'
       ],
-      'orig' => 'xaraz',
+      'orig' => 'xaw~aD',
       'prefix' => ''
     },
     {
       'types' => {},
-      'entry' => '_harrAz',
-      'form' => '_harrAz',
+      'entry' => '_haw.d',
+      'form' => '_haw.d',
       'lines' => [
-        ';; xar~Az_1',
-        'xar~Az  Nall    cobbler'
+        ';; xawoD_1',
+        'xawoD   N       waging;embarking;carrying out'
       ],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'FaCCAL',
+      'morphs' => 'FaCL',
       'suffix' => '',
       'glosses' => [
-        'cobbler'
+        'waging',
+        'embarking',
+        'carrying out'
       ],
-      'orig' => 'xar~Az',
+      'orig' => 'xawoD',
       'prefix' => ''
     },
     {
       'types' => {},
-      'entry' => '_harrAz',
-      'form' => '_harrAziyy',
+      'entry' => '_haw.d',
+      'form' => '_haw.daT',
       'lines' => [
-        ';; xar~Aziy~_1',
-        'xar~Aziy~       N0      Kharrazi'
+        ';; xawoDap_1',
+        'xawoD   NapAt   ford'
       ],
       'patterns' => {},
       'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FaCCAL |< Iy',
-      'suffix' => ' |< Iy',
+      'entity' => 'noun',
+      'morphs' => 'FaCL |< aT',
+      'suffix' => ' |< aT',
       'glosses' => [
-        'Kharrazi'
+        'ford'
       ],
-      'orig' => 'xar~Aziy~',
+      'orig' => 'xawoDap',
       'prefix' => ''
     },
     {
       'types' => {
-        'ma_hAriz' => {
+        'ma_hA.d' => {
+          'NAt' => 1
+        },
+        'ma_hAwi.d' => {
           'Ndip' => 1
         }
       },
-      'entry' => 'mi_hraz',
-      'form' => 'mi_hraz',
+      'entry' => 'ma_hA.d',
+      'form' => 'ma_hA.daT',
       'lines' => [
-        ';; mixoraz_1',
-        'mixoraz Ndu     awl;punch',
-        'maxAriz Ndip    awls;punches'
+        ';; maxADap_1',
+        'maxAD   Napdu   ford',
+        'maxAD   NAt     fords',
+        'maxAwiD Ndip    fords'
       ],
       'patterns' => {
-        'ma_hAriz' => [
+        'ma_hA.d' => [
+          'MaFAL'
+        ],
+        'ma_hAwi.d' => [
           'MaFACiL'
         ]
       },
       'index' => '1',
       'entity' => 'noun',
-      'morphs' => 'MiFCaL',
-      'suffix' => '',
-      'glosses' => [
-        'awl',
-        'punch',
-        'awls',
-        'punches'
-      ],
-      'orig' => 'mixoraz',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'ma_hAriyz' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'mi_hrAz',
-      'form' => 'mi_hrAz',
-      'lines' => [
-        ';; mixorAz_1',
-        'mixorAz Ndu     awl;punch',
-        'maxAriyz        Ndip    awls;punches'
-      ],
-      'patterns' => {
-        'ma_hAriyz' => [
-          'MaFACIL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'MiFCAL',
-      'suffix' => '',
-      'glosses' => [
-        'awl',
-        'punch',
-        'awls',
-        'punches'
-      ],
-      'orig' => 'mixorAz',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_harzAn',
-      'form' => '_harzAnaT',
-      'lines' => [
-        ';; xarozAnap_1',
-        'xarozAn Nap     switch;rod'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCLAn |< aT',
+      'morphs' => 'MaFAL |< aT',
       'suffix' => ' |< aT',
       'glosses' => [
-        'switch',
-        'rod'
+        'ford',
+        'fords'
       ],
-      'orig' => 'xarozAnap',
-      'prefix' => ''
-    }
-  ],
-  '_h z r' => [
-    {
-      'types' => {
-        '_hzur' => {
-          'IV' => 1
-        }
-      },
-      'entry' => '_hazar',
-      'form' => '_hazar',
-      'lines' => [
-        ';; xazar-u_1',
-        'xazar   PV      look askance;glance sidelong',
-        'xozur   IV      look askance;glance sidelong'
-      ],
-      'patterns' => {
-        '_hzur' => [
-          'FCuL'
-        ]
-      },
-      'index' => '1',
-      'entity' => 'verb',
-      'morphs' => 'FaCaL',
-      'glosses' => [
-        'look askance',
-        'glance sidelong'
-      ],
-      'suffix' => '',
-      'imperf' => [
-        'FCuL'
-      ],
-      'orig' => 'xazar-u',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => '_hazar',
-      'form' => '_hazar',
-      'lines' => [
-        ';; xazar_1',
-        'xazar   N       Caspian'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCaL',
-      'suffix' => '',
-      'glosses' => [
-        'Caspian'
-      ],
-      'orig' => 'xazar',
+      'orig' => 'maxADap',
       'prefix' => ''
     }
   ],
@@ -37648,6 +37141,59 @@ $Lexicon = {
         'Khadija'
       ],
       'orig' => 'xadiyjap',
+      'prefix' => ''
+    }
+  ],
+  '_h z r' => [
+    {
+      'types' => {
+        '_hzur' => {
+          'IV' => 1
+        }
+      },
+      'entry' => '_hazar',
+      'form' => '_hazar',
+      'lines' => [
+        ';; xazar-u_1',
+        'xazar   PV      look askance;glance sidelong',
+        'xozur   IV      look askance;glance sidelong'
+      ],
+      'patterns' => {
+        '_hzur' => [
+          'FCuL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCaL',
+      'glosses' => [
+        'look askance',
+        'glance sidelong'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCuL'
+      ],
+      'orig' => 'xazar-u',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hazar',
+      'form' => '_hazar',
+      'lines' => [
+        ';; xazar_1',
+        'xazar   N       Caspian'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCaL',
+      'suffix' => '',
+      'glosses' => [
+        'Caspian'
+      ],
+      'orig' => 'xazar',
       'prefix' => ''
     }
   ],
@@ -37963,6 +37509,474 @@ $Lexicon = {
       'orig' => 'xAlib',
       'prefix' => ''
     }
+  ],
+  '_h .d r' => [
+    {
+      'types' => {
+        '_h.dar' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => '_ha.dir',
+      'form' => '_ha.dir',
+      'lines' => [
+        ';; xaDir-a_1',
+        'xaDir   PV_intr be green',
+        'xoDar   IV_intr be green'
+      ],
+      'patterns' => {
+        '_h.dar' => [
+          'FCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCiL',
+      'glosses' => [
+        'be green'
+      ],
+      'suffix' => '',
+      'imperf' => [
+        'FCaL'
+      ],
+      'orig' => 'xaDir-a',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_ha.d.dir' => {
+          'IV_yu' => 1
+        }
+      },
+      'entry' => '_ha.d.dar',
+      'form' => '_ha.d.dar',
+      'lines' => [
+        ';; xaD~ar_1',
+        'xaD~ar  PV      make green;dye green',
+        'xaD~ir  IV_yu   make green;dye green'
+      ],
+      'patterns' => {
+        '_ha.d.dir' => [
+          'FaCCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'FaCCaL',
+      'suffix' => '',
+      'glosses' => [
+        'make green',
+        'dye green'
+      ],
+      'orig' => 'xaD~ar',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_h.darir' => {
+          'IV_C_intr' => 1
+        },
+        '_h.darr' => {
+          'IV_V_intr' => 1
+        },
+        'i_h.darar' => {
+          'PV_C_intr' => 1
+        }
+      },
+      'entry' => 'i_h.darr',
+      'form' => 'i_h.darr',
+      'lines' => [
+        ';; AixoDar~_1',
+        'AixoDar~        PV_V_intr       become green',
+        'AixoDarar       PV_C_intr       become green',
+        'xoDar~  IV_V_intr       become green',
+        'xoDarir IV_C_intr       become green'
+      ],
+      'patterns' => {
+        '_h.darir' => [
+          'FCaLiL'
+        ],
+        '_h.darr' => [
+          'FCaLL'
+        ],
+        'i_h.darar' => [
+          'IFCaLaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFCaLL',
+      'suffix' => '',
+      'glosses' => [
+        'become green'
+      ],
+      'orig' => 'AixoDar~',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_h.daw.dir' => {
+          'IV_intr' => 1
+        }
+      },
+      'entry' => 'i_h.daw.dar',
+      'form' => 'i_h.daw.dar',
+      'lines' => [
+        ';; AixoDawoDar_1',
+        'AixoDawoDar     PV_intr become green',
+        'xoDawoDir       IV_intr become green'
+      ],
+      'patterns' => {
+        '_h.daw.dir' => [
+          'FCawCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'IFCawCaL',
+      'suffix' => '',
+      'glosses' => [
+        'become green'
+      ],
+      'orig' => 'AixoDawoDar',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha.dir',
+      'form' => '_ha.dir',
+      'lines' => [
+        ';; xaDir_1',
+        'xaDir   N       green;verdant'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCiL',
+      'suffix' => '',
+      'glosses' => [
+        'green',
+        'verdant'
+      ],
+      'orig' => 'xaDir',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_hu.dar' => {
+          'N' => 1
+        },
+        '_ha.draw' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => '_hu.dr',
+      'form' => '_hu.draT',
+      'lines' => [
+        ';; xuDorap_1',
+        'xuDor   Nap     vegetable;greenery',
+        'xaDoraw NAt     vegetables;greens',
+        'xuDar   N       vegetables;greenery'
+      ],
+      'patterns' => {
+        '_hu.dar' => [
+          'FuCaL'
+        ],
+        '_ha.draw' => []
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'vegetable',
+        'greenery',
+        'vegetables',
+        'greens'
+      ],
+      'orig' => 'xuDorap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hu.dar',
+      'form' => '_hu.dariyy',
+      'lines' => [
+        ';; xuDariy~_1',
+        'xuDariy~        Nall    greengrocer'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuCaL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'greengrocer'
+      ],
+      'orig' => 'xuDariy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha.dAr',
+      'form' => '_ha.dAr',
+      'lines' => [
+        ';; xaDAr_1',
+        'xaDAr   N       greenery'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCAL',
+      'suffix' => '',
+      'glosses' => [
+        'greenery'
+      ],
+      'orig' => 'xaDAr',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha.diyr',
+      'form' => '_ha.diyr',
+      'lines' => [
+        ';; xaDiyr_1',
+        'xaDiyr  N/ap    green'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL',
+      'suffix' => '',
+      'glosses' => [
+        'green'
+      ],
+      'orig' => 'xaDiyr',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha.diyr',
+      'form' => '_ha.diyraT',
+      'lines' => [
+        ';; xaDiyrap_1',
+        'xaDiyr  Nap     Hadera'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'Hadera'
+      ],
+      'orig' => 'xaDiyrap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hu.dAr',
+      'form' => '_hu.dAraT',
+      'lines' => [
+        ';; xuDArap_1',
+        'xuDAr   Nap     greens;herbs'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCAL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'greens',
+        'herbs'
+      ],
+      'orig' => 'xuDArap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_ha.d.dAr',
+      'form' => '_ha.d.dAr',
+      'lines' => [
+        ';; xaD~Ar_1',
+        'xaD~Ar  N/ap    greengrocer'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCAL',
+      'suffix' => '',
+      'glosses' => [
+        'greengrocer'
+      ],
+      'orig' => 'xaD~Ar',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '_ha.drA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => '\'a_h.dar',
+      'form' => '\'a_h.dar',
+      'lines' => [
+        ';; OaxoDar_1',
+        'OaxoDar Nel     green',
+        'xaDorA\' N0_Nh   green',
+        'xaDorAW Nh      green',
+        'xaDorA} Nhy     green'
+      ],
+      'patterns' => {
+        '_ha.drA\'' => [
+          'FaCLA\''
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'green'
+      ],
+      'orig' => 'OaxoDar',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'a_h.dar',
+      'form' => '\'a_h.dar',
+      'lines' => [
+        ';; OaxoDar_2',
+        'OaxoDar N0      Akhdar'
+      ],
+      'patterns' => {},
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'Akhdar'
+      ],
+      'orig' => 'OaxoDar',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '_hu.dr',
+      'form' => '_hu.dr',
+      'lines' => [
+        ';; xuDor_1',
+        'xuDor   N0      Greens (ecologists)'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCL',
+      'suffix' => '',
+      'glosses' => [
+        'Greens (ecologists)'
+      ],
+      'orig' => 'xuDor',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ma_h.dar',
+      'form' => 'ma_h.daraT',
+      'lines' => [
+        ';; maxoDarap_1',
+        'maxoDar Nap     meadow'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MaFCaL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'meadow'
+      ],
+      'orig' => 'maxoDarap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'mu_ha.d.dar' => {
+          'NAt' => 1
+        }
+      },
+      'entry' => 'mu_ha.d.dar',
+      'form' => 'mu_ha.d.darAt',
+      'lines' => [
+        ';; muxaD~arAt_1',
+        'muxaD~ar        NAt     vegetables'
+      ],
+      'patterns' => {
+        'mu_ha.d.dar' => [
+          'MuFaCCaL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFaCCaL |< At',
+      'suffix' => ' |< At',
+      'glosses' => [
+        'vegetables'
+      ],
+      'orig' => 'muxaD~arAt',
+      'prefix' => ''
+    }
+  ],
+  '_h b t' => [
+    {
+      'types' => {
+        '_hbit' => {
+          'IV_intr_yu' => 1
+        }
+      },
+      'entry' => '\'a_hbat',
+      'form' => '\'a_hbat',
+      'lines' => [
+        ';; Oaxobat_1',
+        'Oaxobat PV-t_intr       be humble',
+        'xobit   IV_intr_yu      be humble'
+      ],
+      'patterns' => {
+        '_hbit' => [
+          'FCiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'verb',
+      'morphs' => 'HaFCaL',
+      'suffix' => '',
+      'glosses' => [
+        'be humble'
+      ],
+      'orig' => 'Oaxobat',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'mu_hbit',
+      'form' => 'mu_hbit',
+      'lines' => [
+        ';; muxobit_1',
+        'muxobit Nall    being humble'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'MuFCiL',
+      'suffix' => '',
+      'glosses' => [
+        'being humble'
+      ],
+      'orig' => 'muxobit',
+      'prefix' => ''
+    }
   ]
 };
 $Lexicon->{'_h w r'}[6]{'types'} = $Lexicon->{'_h w r y'}[2]{'types'};
@@ -37971,21 +37985,42 @@ $Lexicon->{'_h w r'}[6]{'glosses'} = $Lexicon->{'_h w r y'}[2]{'glosses'};
 $Lexicon->{'_h y r'}[7]{'types'} = $Lexicon->{'_h w r y'}[2]{'types'};
 $Lexicon->{'_h y r'}[7]{'lines'} = $Lexicon->{'_h w r y'}[2]{'lines'};
 $Lexicon->{'_h y r'}[7]{'glosses'} = $Lexicon->{'_h w r y'}[2]{'glosses'};
+$Lexicon->{'_h l w'}[13]{'types'} = $Lexicon->{'_h l y'}[3]{'types'};
+$Lexicon->{'_h l w'}[13]{'lines'} = $Lexicon->{'_h l y'}[3]{'lines'};
+$Lexicon->{'_h l w'}[13]{'glosses'} = $Lexicon->{'_h l y'}[3]{'glosses'};
+$Lexicon->{'_h l w'}[18]{'types'} = $Lexicon->{'_h l y'}[4]{'types'};
+$Lexicon->{'_h l w'}[18]{'lines'} = $Lexicon->{'_h l y'}[4]{'lines'};
+$Lexicon->{'_h l w'}[18]{'glosses'} = $Lexicon->{'_h l y'}[4]{'glosses'};
+$Lexicon->{'_h l w'}[19]{'types'} = $Lexicon->{'_h l y'}[5]{'types'};
+$Lexicon->{'_h l w'}[19]{'lines'} = $Lexicon->{'_h l y'}[5]{'lines'};
+$Lexicon->{'_h l w'}[19]{'glosses'} = $Lexicon->{'_h l y'}[5]{'glosses'};
 $Lexicon->{'_h r y'}[0]{'types'} = $Lexicon->{'_h w r y'}[0]{'types'};
 $Lexicon->{'_h r y'}[0]{'lines'} = $Lexicon->{'_h w r y'}[0]{'lines'};
 $Lexicon->{'_h r y'}[0]{'glosses'} = $Lexicon->{'_h w r y'}[0]{'glosses'};
 $Lexicon->{'_h r y'}[1]{'types'} = $Lexicon->{'_h w r y'}[1]{'types'};
 $Lexicon->{'_h r y'}[1]{'lines'} = $Lexicon->{'_h w r y'}[1]{'lines'};
 $Lexicon->{'_h r y'}[1]{'glosses'} = $Lexicon->{'_h w r y'}[1]{'glosses'};
+$Lexicon->{'_h w w'}[0]{'types'} = $Lexicon->{'_h w y'}[6]{'types'};
+$Lexicon->{'_h w w'}[0]{'lines'} = $Lexicon->{'_h w y'}[6]{'lines'};
+$Lexicon->{'_h w w'}[0]{'glosses'} = $Lexicon->{'_h w y'}[6]{'glosses'};
+$Lexicon->{'_h _d \''}[2]{'types'} = $Lexicon->{'_h _d y'}[1]{'types'};
+$Lexicon->{'_h _d \''}[2]{'lines'} = $Lexicon->{'_h _d y'}[1]{'lines'};
+$Lexicon->{'_h _d \''}[2]{'glosses'} = $Lexicon->{'_h _d y'}[1]{'glosses'};
+$Lexicon->{'_h w l'}[0]{'types'} = $Lexicon->{'_h l y'}[5]{'types'};
+$Lexicon->{'_h w l'}[0]{'lines'} = $Lexicon->{'_h l y'}[5]{'lines'};
+$Lexicon->{'_h w l'}[0]{'glosses'} = $Lexicon->{'_h l y'}[5]{'glosses'};
+$Lexicon->{'_h \' f'}[0]{'types'} = $Lexicon->{'_h w f'}[12]{'types'};
+$Lexicon->{'_h \' f'}[0]{'lines'} = $Lexicon->{'_h w f'}[12]{'lines'};
+$Lexicon->{'_h \' f'}[0]{'glosses'} = $Lexicon->{'_h w f'}[12]{'glosses'};
 $Lexicon->{'_h l l'}[19]{'types'} = $Lexicon->{'_h l w'}[10]{'types'};
 $Lexicon->{'_h l l'}[19]{'lines'} = $Lexicon->{'_h l w'}[10]{'lines'};
 $Lexicon->{'_h l l'}[19]{'glosses'} = $Lexicon->{'_h l w'}[10]{'glosses'};
 $Lexicon->{'_h l l'}[20]{'types'} = $Lexicon->{'_h l w'}[11]{'types'};
 $Lexicon->{'_h l l'}[20]{'lines'} = $Lexicon->{'_h l w'}[11]{'lines'};
 $Lexicon->{'_h l l'}[20]{'glosses'} = $Lexicon->{'_h l w'}[11]{'glosses'};
-$Lexicon->{'_h l l'}[21]{'types'} = $Lexicon->{'_h l w'}[19]{'types'};
-$Lexicon->{'_h l l'}[21]{'lines'} = $Lexicon->{'_h l w'}[19]{'lines'};
-$Lexicon->{'_h l l'}[21]{'glosses'} = $Lexicon->{'_h l w'}[19]{'glosses'};
+$Lexicon->{'_h l l'}[21]{'types'} = $Lexicon->{'_h l y'}[5]{'types'};
+$Lexicon->{'_h l l'}[21]{'lines'} = $Lexicon->{'_h l y'}[5]{'lines'};
+$Lexicon->{'_h l l'}[21]{'glosses'} = $Lexicon->{'_h l y'}[5]{'glosses'};
 $Lexicon->{'_h w \''}[0]{'types'} = $Lexicon->{'_h w y'}[3]{'types'};
 $Lexicon->{'_h w \''}[0]{'lines'} = $Lexicon->{'_h w y'}[3]{'lines'};
 $Lexicon->{'_h w \''}[0]{'glosses'} = $Lexicon->{'_h w y'}[3]{'glosses'};
@@ -37993,45 +38028,6 @@ $Lexicon->{'_h n w'}[1]{'types'} = $Lexicon->{'_h n y'}[0]{'types'};
 $Lexicon->{'_h n w'}[1]{'lines'} = $Lexicon->{'_h n y'}[0]{'lines'};
 $Lexicon->{'_h n w'}[1]{'glosses'} = $Lexicon->{'_h n y'}[0]{'glosses'};
 $Lexicon->{'_h n w'}[1]{'imperf'} = $Lexicon->{'_h n y'}[0]{'imperf'};
-$Lexicon->{'_h w n'}[5]{'types'} = $Lexicon->{'_h y n'}[0]{'types'};
-$Lexicon->{'_h w n'}[5]{'lines'} = $Lexicon->{'_h y n'}[0]{'lines'};
-$Lexicon->{'_h w n'}[5]{'glosses'} = $Lexicon->{'_h y n'}[0]{'glosses'};
-$Lexicon->{'_h \' .t'}[0]{'types'} = $Lexicon->{'_h y .t'}[9]{'types'};
-$Lexicon->{'_h \' .t'}[0]{'lines'} = $Lexicon->{'_h y .t'}[9]{'lines'};
-$Lexicon->{'_h \' .t'}[0]{'glosses'} = $Lexicon->{'_h y .t'}[9]{'glosses'};
-$Lexicon->{'_h w l y'}[0]{'types'} = $Lexicon->{'_h l w'}[19]{'types'};
-$Lexicon->{'_h w l y'}[0]{'lines'} = $Lexicon->{'_h l w'}[19]{'lines'};
-$Lexicon->{'_h w l y'}[0]{'glosses'} = $Lexicon->{'_h l w'}[19]{'glosses'};
-$Lexicon->{'_h l y'}[3]{'types'} = $Lexicon->{'_h l w'}[13]{'types'};
-$Lexicon->{'_h l y'}[3]{'lines'} = $Lexicon->{'_h l w'}[13]{'lines'};
-$Lexicon->{'_h l y'}[3]{'glosses'} = $Lexicon->{'_h l w'}[13]{'glosses'};
-$Lexicon->{'_h l y'}[4]{'types'} = $Lexicon->{'_h l w'}[18]{'types'};
-$Lexicon->{'_h l y'}[4]{'lines'} = $Lexicon->{'_h l w'}[18]{'lines'};
-$Lexicon->{'_h l y'}[4]{'glosses'} = $Lexicon->{'_h l w'}[18]{'glosses'};
-$Lexicon->{'_h l y'}[5]{'types'} = $Lexicon->{'_h l w'}[19]{'types'};
-$Lexicon->{'_h l y'}[5]{'lines'} = $Lexicon->{'_h l w'}[19]{'lines'};
-$Lexicon->{'_h l y'}[5]{'glosses'} = $Lexicon->{'_h l w'}[19]{'glosses'};
-$Lexicon->{'_h w w'}[0]{'types'} = $Lexicon->{'_h w y'}[6]{'types'};
-$Lexicon->{'_h w w'}[0]{'lines'} = $Lexicon->{'_h w y'}[6]{'lines'};
-$Lexicon->{'_h w w'}[0]{'glosses'} = $Lexicon->{'_h w y'}[6]{'glosses'};
-$Lexicon->{'_h _d \''}[2]{'types'} = $Lexicon->{'_h _d y'}[1]{'types'};
-$Lexicon->{'_h _d \''}[2]{'lines'} = $Lexicon->{'_h _d y'}[1]{'lines'};
-$Lexicon->{'_h _d \''}[2]{'glosses'} = $Lexicon->{'_h _d y'}[1]{'glosses'};
-$Lexicon->{'_h y b'}[5]{'types'} = $Lexicon->{'_h \' b'}[0]{'types'};
-$Lexicon->{'_h y b'}[5]{'lines'} = $Lexicon->{'_h \' b'}[0]{'lines'};
-$Lexicon->{'_h y b'}[5]{'glosses'} = $Lexicon->{'_h \' b'}[0]{'glosses'};
-$Lexicon->{'_h w l'}[0]{'types'} = $Lexicon->{'_h l w'}[19]{'types'};
-$Lexicon->{'_h w l'}[0]{'lines'} = $Lexicon->{'_h l w'}[19]{'lines'};
-$Lexicon->{'_h w l'}[0]{'glosses'} = $Lexicon->{'_h l w'}[19]{'glosses'};
-$Lexicon->{'_h w l'}[11]{'types'} = $Lexicon->{'_h \' l'}[0]{'types'};
-$Lexicon->{'_h w l'}[11]{'lines'} = $Lexicon->{'_h \' l'}[0]{'lines'};
-$Lexicon->{'_h w l'}[11]{'glosses'} = $Lexicon->{'_h \' l'}[0]{'glosses'};
-$Lexicon->{'_h \' f'}[0]{'types'} = $Lexicon->{'_h w f'}[11]{'types'};
-$Lexicon->{'_h \' f'}[0]{'lines'} = $Lexicon->{'_h w f'}[11]{'lines'};
-$Lexicon->{'_h \' f'}[0]{'glosses'} = $Lexicon->{'_h w f'}[11]{'glosses'};
-$Lexicon->{'_h \' n'}[4]{'types'} = $Lexicon->{'_h w n'}[8]{'types'};
-$Lexicon->{'_h \' n'}[4]{'lines'} = $Lexicon->{'_h w n'}[8]{'lines'};
-$Lexicon->{'_h \' n'}[4]{'glosses'} = $Lexicon->{'_h w n'}[8]{'glosses'};
 $Lexicon->{'_h f y'}[9]{'types'} = $Lexicon->{'_h f \''}[0]{'types'};
 $Lexicon->{'_h f y'}[9]{'lines'} = $Lexicon->{'_h f \''}[0]{'lines'};
 $Lexicon->{'_h f y'}[9]{'glosses'} = $Lexicon->{'_h f \''}[0]{'glosses'};
@@ -38044,9 +38040,21 @@ $Lexicon->{'_h f y'}[12]{'glosses'} = $Lexicon->{'_h f \''}[2]{'glosses'};
 $Lexicon->{'_h y f'}[0]{'types'} = $Lexicon->{'_h w f'}[5]{'types'};
 $Lexicon->{'_h y f'}[0]{'lines'} = $Lexicon->{'_h w f'}[5]{'lines'};
 $Lexicon->{'_h y f'}[0]{'glosses'} = $Lexicon->{'_h w f'}[5]{'glosses'};
-$Lexicon->{'_h y f'}[1]{'types'} = $Lexicon->{'_h w f'}[13]{'types'};
-$Lexicon->{'_h y f'}[1]{'lines'} = $Lexicon->{'_h w f'}[13]{'lines'};
-$Lexicon->{'_h y f'}[1]{'glosses'} = $Lexicon->{'_h w f'}[13]{'glosses'};
+$Lexicon->{'_h y f'}[1]{'types'} = $Lexicon->{'_h w f'}[14]{'types'};
+$Lexicon->{'_h y f'}[1]{'lines'} = $Lexicon->{'_h w f'}[14]{'lines'};
+$Lexicon->{'_h y f'}[1]{'glosses'} = $Lexicon->{'_h w f'}[14]{'glosses'};
+$Lexicon->{'_h .s .s'}[29]{'types'} = $Lexicon->{'_h w .s'}[0]{'types'};
+$Lexicon->{'_h .s .s'}[29]{'lines'} = $Lexicon->{'_h w .s'}[0]{'lines'};
+$Lexicon->{'_h .s .s'}[29]{'glosses'} = $Lexicon->{'_h w .s'}[0]{'glosses'};
+$Lexicon->{'_h \' l'}[0]{'types'} = $Lexicon->{'_h w l'}[11]{'types'};
+$Lexicon->{'_h \' l'}[0]{'lines'} = $Lexicon->{'_h w l'}[11]{'lines'};
+$Lexicon->{'_h \' l'}[0]{'glosses'} = $Lexicon->{'_h w l'}[11]{'glosses'};
+$Lexicon->{'_h w n'}[5]{'types'} = $Lexicon->{'_h y n'}[0]{'types'};
+$Lexicon->{'_h w n'}[5]{'lines'} = $Lexicon->{'_h y n'}[0]{'lines'};
+$Lexicon->{'_h w n'}[5]{'glosses'} = $Lexicon->{'_h y n'}[0]{'glosses'};
+$Lexicon->{'_h w n'}[8]{'types'} = $Lexicon->{'_h \' n'}[4]{'types'};
+$Lexicon->{'_h w n'}[8]{'lines'} = $Lexicon->{'_h \' n'}[4]{'lines'};
+$Lexicon->{'_h w n'}[8]{'glosses'} = $Lexicon->{'_h \' n'}[4]{'glosses'};
 $Lexicon->{'_h f n'}[0]{'types'} = $Lexicon->{'_h f f'}[8]{'types'};
 $Lexicon->{'_h f n'}[0]{'lines'} = $Lexicon->{'_h f f'}[8]{'lines'};
 $Lexicon->{'_h f n'}[0]{'glosses'} = $Lexicon->{'_h f f'}[8]{'glosses'};
@@ -38068,6 +38076,15 @@ $Lexicon->{'_h .s y'}[0]{'glosses'} = $Lexicon->{'_h .s \''}[0]{'glosses'};
 $Lexicon->{'_h .s y'}[4]{'types'} = $Lexicon->{'_h .s \''}[1]{'types'};
 $Lexicon->{'_h .s y'}[4]{'lines'} = $Lexicon->{'_h .s \''}[1]{'lines'};
 $Lexicon->{'_h .s y'}[4]{'glosses'} = $Lexicon->{'_h .s \''}[1]{'glosses'};
+$Lexicon->{'_h \' b'}[0]{'types'} = $Lexicon->{'_h y b'}[5]{'types'};
+$Lexicon->{'_h \' b'}[0]{'lines'} = $Lexicon->{'_h y b'}[5]{'lines'};
+$Lexicon->{'_h \' b'}[0]{'glosses'} = $Lexicon->{'_h y b'}[5]{'glosses'};
+$Lexicon->{'_h \' .t'}[0]{'types'} = $Lexicon->{'_h y .t'}[9]{'types'};
+$Lexicon->{'_h \' .t'}[0]{'lines'} = $Lexicon->{'_h y .t'}[9]{'lines'};
+$Lexicon->{'_h \' .t'}[0]{'glosses'} = $Lexicon->{'_h y .t'}[9]{'glosses'};
+$Lexicon->{'_h w l y'}[0]{'types'} = $Lexicon->{'_h l y'}[5]{'types'};
+$Lexicon->{'_h w l y'}[0]{'lines'} = $Lexicon->{'_h l y'}[5]{'lines'};
+$Lexicon->{'_h w l y'}[0]{'glosses'} = $Lexicon->{'_h l y'}[5]{'glosses'};
 $Lexicon->{'_h w f w'}[0]{'types'} = $Lexicon->{'_h w f y'}[0]{'types'};
 $Lexicon->{'_h w f w'}[0]{'lines'} = $Lexicon->{'_h w f y'}[0]{'lines'};
 $Lexicon->{'_h w f w'}[0]{'glosses'} = $Lexicon->{'_h w f y'}[0]{'glosses'};

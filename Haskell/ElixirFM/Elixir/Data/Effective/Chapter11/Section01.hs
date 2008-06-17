@@ -307,7 +307,9 @@ cluster_5   = listing "Lexicon's properties"
 
     MuFCiL                    `adj`     {- muzomin -}          [ "enduring", "chronic" ],
 
-    MutaFACiL                 `adj`     {- mutazAmin -}        [ "simultaneous", "coincidental" ] ]
+    MutaFACiL                 `adj`     {- mutazAmin -}        [ "simultaneous", "coincidental" ],
+
+    FICIL                     `noun`    {- ziymiyn -}          [ "Zemin" ] ]
 
  |> "z m r" <| [
 

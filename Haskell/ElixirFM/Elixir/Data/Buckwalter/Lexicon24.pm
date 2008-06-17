@@ -18955,40 +18955,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'mallIm' => [
-    {
-      'types' => {
-        'malAliym' => {
-          'Ndip' => 1
-        },
-        'malliym' => {
-          'NduAt' => 1
-        },
-        'maliym' => {
-          'NduAt' => 1
-        }
-      },
-      'entry' => 'malliym',
-      'form' => 'malliym',
-      'lines' => [
-        ';; mal~iym_1',
-        'mal~iym NduAt   millieme',
-        'maliym  NduAt   millieme',
-        'malAliym        Ndip    milliemes'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'millieme',
-        'milliemes'
-      ],
-      'orig' => 'mal~iym',
-      'prefix' => ''
-    }
-  ],
   'mitsnA`' => [
     {
       'types' => {},
@@ -21931,6 +21897,50 @@ $Lexicon = {
         'textiles'
       ],
       'orig' => 'mAniyfAtuwrap',
+      'prefix' => ''
+    }
+  ],
+  'm l m' => [
+    {
+      'types' => {
+        'malAliym' => {
+          'Ndip' => 1
+        },
+        'malliym' => {
+          'NduAt' => 1
+        },
+        'maliym' => {
+          'NduAt' => 1
+        }
+      },
+      'entry' => 'malliym',
+      'form' => 'malliym',
+      'lines' => [
+        ';; mal~iym_1',
+        'mal~iym NduAt   millieme',
+        'maliym  NduAt   millieme',
+        'malAliym        Ndip    milliemes'
+      ],
+      'patterns' => {
+        'malliym' => [
+          'FaCCIL'
+        ],
+        'malAliym' => [
+          'FaCACIL'
+        ],
+        'maliym' => [
+          'FaCIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCIL',
+      'suffix' => '',
+      'glosses' => [
+        'millieme',
+        'milliemes'
+      ],
+      'orig' => 'mal~iym',
       'prefix' => ''
     }
   ],
@@ -28951,6 +28961,46 @@ $Lexicon = {
         'Mexican'
       ],
       'orig' => 'makosiykiy~',
+      'prefix' => ''
+    }
+  ],
+  'm ^s l' => [
+    {
+      'types' => {},
+      'entry' => 'miy^siyl',
+      'form' => 'miy^siyl',
+      'lines' => [],
+      'patterns' => {
+        'miy^sAl' => [
+          'FICAL',
+          'MICAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FICIL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'miy$iyl',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'miy^siyl',
+      'form' => 'miy^siyl',
+      'lines' => [],
+      'patterns' => {
+        'miy^sAl' => [
+          'FICAL',
+          'MICAL'
+        ]
+      },
+      'index' => '2',
+      'entity' => 'noun',
+      'morphs' => 'FICIL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'miy$iyl',
       'prefix' => ''
     }
   ],
@@ -45920,6 +45970,12 @@ $Lexicon->{'m y .g n'}[0]{'glosses'} = $Lexicon->{'m .g n'}[1]{'glosses'};
 $Lexicon->{'m ` w'}[1]{'types'} = $Lexicon->{'m ` \''}[0]{'types'};
 $Lexicon->{'m ` w'}[1]{'lines'} = $Lexicon->{'m ` \''}[0]{'lines'};
 $Lexicon->{'m ` w'}[1]{'glosses'} = $Lexicon->{'m ` \''}[0]{'glosses'};
+$Lexicon->{'m ^s l'}[0]{'types'} = $Lexicon->{'m y ^s l'}[0]{'types'};
+$Lexicon->{'m ^s l'}[0]{'lines'} = $Lexicon->{'m y ^s l'}[0]{'lines'};
+$Lexicon->{'m ^s l'}[0]{'glosses'} = $Lexicon->{'m y ^s l'}[0]{'glosses'};
+$Lexicon->{'m ^s l'}[1]{'types'} = $Lexicon->{'m y ^s l'}[1]{'types'};
+$Lexicon->{'m ^s l'}[1]{'lines'} = $Lexicon->{'m y ^s l'}[1]{'lines'};
+$Lexicon->{'m ^s l'}[1]{'glosses'} = $Lexicon->{'m y ^s l'}[1]{'glosses'};
 $Lexicon->{'m s y'}[3]{'types'} = $Lexicon->{'m w s'}[0]{'types'};
 $Lexicon->{'m s y'}[3]{'lines'} = $Lexicon->{'m w s'}[0]{'lines'};
 $Lexicon->{'m s y'}[3]{'glosses'} = $Lexicon->{'m w s'}[0]{'glosses'};

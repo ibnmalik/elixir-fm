@@ -967,10 +967,6 @@ cluster_76  = listing "Lexicon's properties"
 
     Identity                  `adv`     {- laHoZata}i*K -}     [ unwords [ "at", "that", "moment" ] ] ]
 
- |> "labbIs" <| [
-
-    Identity |< aT            `noun`    {- lab~iysap -}        [ "shoehorn" ] ]
-
  |> "labbayk" <| [
 
     Identity |<< "a"          `noun`    {- lab~ayoka -}        [ unwords [ "I", "have", "answered", "Your", "call", "!" ] ] ]
@@ -1027,13 +1023,13 @@ cluster_76  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- liniyn -}           [ "Lenin" ] ]
 
-
-cluster_77  = listing "Lexicon's properties"
-
-
  |> "linIn^grAd" <| [
 
     Identity                  `noun`    {- liniynojrAd -}      [ "Leningrad" ] ]
+
+
+cluster_77  = listing "Lexicon's properties"
+
 
  |> "litwAniyA" <| [
 

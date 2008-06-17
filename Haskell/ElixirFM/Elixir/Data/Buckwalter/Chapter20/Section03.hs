@@ -355,7 +355,9 @@ cluster_47  = listing "Lexicon's properties"
 
  |> "f n q" <| [
 
-    TaFaCCaL                  `verb`    {- tafan~aq -}         [ unwords [ "live", "in", "comfort" ] ] ]
+    TaFaCCaL                  `verb`    {- tafan~aq -}         [ unwords [ "live", "in", "comfort" ] ],
+
+    FICIL |< Iy               `adj`     {- fiyniyqiy~ -}       [ "Phoenician" ] ]
 
  |> "f n r" <| [
 

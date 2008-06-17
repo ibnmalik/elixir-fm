@@ -4759,6 +4759,37 @@ $Lexicon = {
   ],
   'k r .t' => [
     {
+      'types' => {
+        'karAri.t' => {
+          'Ndip' => 1
+        }
+      },
+      'entry' => 'karriy.t',
+      'form' => 'karriy.taT',
+      'lines' => [
+        ';; kar~iyTap_1',
+        'kar~iyT Napdu   cart;wagon',
+        'karAriT Ndip    carts;wagons'
+      ],
+      'patterns' => {
+        'karAri.t' => [
+          'FaCACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCCIL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'cart',
+        'wagon',
+        'carts',
+        'wagons'
+      ],
+      'orig' => 'kar~iyTap',
+      'prefix' => ''
+    },
+    {
       'types' => {},
       'entry' => 'karAri.t',
       'form' => 'karAri.tiyy',
@@ -13735,6 +13766,32 @@ $Lexicon = {
         'Kent'
       ],
       'orig' => 'kinot',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        'kiyniy_t' => {
+          'Nprop' => 1
+        }
+      },
+      'entry' => 'kiyniyt',
+      'form' => 'kiyniyt',
+      'lines' => [
+        ';; kiyniyt_1',
+        'kiyniyt Nprop   Kenneth',
+        'kiyniyv Nprop   Kenneth'
+      ],
+      'patterns' => {
+        'kiyniy_t' => []
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FICIL',
+      'suffix' => '',
+      'glosses' => [
+        'Kenneth'
+      ],
+      'orig' => 'kiyniyt',
       'prefix' => ''
     }
   ],
@@ -30474,6 +30531,20 @@ $Lexicon = {
       ],
       'orig' => 'makonuwn',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'kiyniyn',
+      'form' => 'kiyniyn',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FICIL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'kiyniyn',
+      'prefix' => ''
     }
   ],
   'kUnkAn' => [
@@ -36103,18 +36174,10 @@ $Lexicon = {
   ],
   'k y n t' => [
     {
-      'types' => {
-        'kiyniy_t' => {
-          'Nprop' => 1
-        }
-      },
+      'types' => {},
       'entry' => 'kiyniyt',
       'form' => 'kiyniyt',
-      'lines' => [
-        ';; kiyniyt_1',
-        'kiyniyt Nprop   Kenneth',
-        'kiyniyv Nprop   Kenneth'
-      ],
+      'lines' => [],
       'patterns' => {
         'kiyniy_t' => []
       },
@@ -36122,9 +36185,7 @@ $Lexicon = {
       'entity' => 'noun',
       'morphs' => 'KiRDIS',
       'suffix' => '',
-      'glosses' => [
-        'Kenneth'
-      ],
+      'glosses' => [],
       'orig' => 'kiyniyt',
       'prefix' => ''
     }
@@ -36789,35 +36850,6 @@ $Lexicon = {
         'curcumin'
       ],
       'orig' => 'kurokum',
-      'prefix' => ''
-    }
-  ],
-  'karrI.t' => [
-    {
-      'types' => {
-        'karAri.t' => {
-          'Ndip' => 1
-        }
-      },
-      'entry' => 'karriy.t',
-      'form' => 'karriy.taT',
-      'lines' => [
-        ';; kar~iyTap_1',
-        'kar~iyT Napdu   cart;wagon',
-        'karAriT Ndip    carts;wagons'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'cart',
-        'wagon',
-        'carts',
-        'wagons'
-      ],
-      'orig' => 'kar~iyTap',
       'prefix' => ''
     }
   ],
@@ -44060,6 +44092,9 @@ $Lexicon->{'k r r'}[19]{'glosses'} = $Lexicon->{'k r w'}[5]{'glosses'};
 $Lexicon->{'k r r'}[20]{'types'} = $Lexicon->{'k r w'}[6]{'types'};
 $Lexicon->{'k r r'}[20]{'lines'} = $Lexicon->{'k r w'}[6]{'lines'};
 $Lexicon->{'k r r'}[20]{'glosses'} = $Lexicon->{'k r w'}[6]{'glosses'};
+$Lexicon->{'k n n'}[12]{'types'} = $Lexicon->{'k y n n'}[0]{'types'};
+$Lexicon->{'k n n'}[12]{'lines'} = $Lexicon->{'k y n n'}[0]{'lines'};
+$Lexicon->{'k n n'}[12]{'glosses'} = $Lexicon->{'k y n n'}[0]{'glosses'};
 $Lexicon->{'k m n'}[12]{'types'} = $Lexicon->{'k w m'}[3]{'types'};
 $Lexicon->{'k m n'}[12]{'lines'} = $Lexicon->{'k w m'}[3]{'lines'};
 $Lexicon->{'k m n'}[12]{'glosses'} = $Lexicon->{'k w m'}[3]{'glosses'};
@@ -44075,6 +44110,9 @@ $Lexicon->{'k w w'}[1]{'glosses'} = $Lexicon->{'k w \''}[0]{'glosses'};
 $Lexicon->{'k w w'}[2]{'types'} = $Lexicon->{'k w \''}[1]{'types'};
 $Lexicon->{'k w w'}[2]{'lines'} = $Lexicon->{'k w \''}[1]{'lines'};
 $Lexicon->{'k w w'}[2]{'glosses'} = $Lexicon->{'k w \''}[1]{'glosses'};
+$Lexicon->{'k y n t'}[0]{'types'} = $Lexicon->{'k n t'}[1]{'types'};
+$Lexicon->{'k y n t'}[0]{'lines'} = $Lexicon->{'k n t'}[1]{'lines'};
+$Lexicon->{'k y n t'}[0]{'glosses'} = $Lexicon->{'k n t'}[1]{'glosses'};
 $Lexicon->{'k w m r'}[0]{'types'} = $Lexicon->{'k m r'}[3]{'types'};
 $Lexicon->{'k w m r'}[0]{'lines'} = $Lexicon->{'k m r'}[3]{'lines'};
 $Lexicon->{'k w m r'}[0]{'glosses'} = $Lexicon->{'k m r'}[3]{'glosses'};

@@ -2279,7 +2279,9 @@ cluster_44  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- kaniyn -}           [ "concealed", unwords [ "well", "-", "kept" ] ],
 
     MaFCUL                    `adj`     {- makonuwn -}         [ "concealed", unwords [ "well", "-", "kept" ], unwords [ "hidden", "things" ] ]
-                              `plural`     MaFCUL |< At ]
+                              `plural`     MaFCUL |< At,
+
+    FICIL                     `noun`    {- kiyniyn -}          [ "quinine" ] ]
 
  |> "k n r" <| [
 
@@ -2327,7 +2329,10 @@ cluster_45  = listing "Lexicon's properties"
 
  |> "k n t" <| [
 
-    FiCL                      `noun`    {- kinot -}            [ "Kent" ] ]
+    FiCL                      `noun`    {- kinot -}            [ "Kent" ],
+
+    FICIL                     `noun`    {- kiyniyt -}          [ "Kenneth" ]
+                           {- `others`  [ "kiyniy_t Nprop" ] -} ]
 
  |> "k n t r" <| [
 
@@ -2411,6 +2416,9 @@ cluster_47  = listing "Lexicon's properties"
                               `plural`     HaFCAL ]
 
  |> "k r .t" <| [
+
+    FaCCIL |< aT              `noun`    {- kar~iyTap -}        [ "cart", "wagon" ]
+                              `plural`     FaCACiL,
 
     FaCACiL |< Iy             `adj`     {- karAriTiy~ -}       [ "carrier", "drayman" ] ]
 
@@ -5097,10 +5105,6 @@ cluster_91  = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- karonAfAliy~ -}     [ unwords [ "carnival", "-", "related" ], unwords [ "carnival", "-", "like" ] ] ]
 
- |> "karrI.t" <| [
-
-    Identity |< aT            `noun`    {- kar~iyTap -}        [ "cart", "wagon" ] ]
-
  |> "kasarUn" <| [
 
     Identity |< aT            `noun`    {- kasaruwnap -}       [ "casserole" ] ]
@@ -5139,13 +5143,13 @@ cluster_91  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kibriytiyd -}       [ "sulfide" ] ]
 
-
-cluster_92  = listing "Lexicon's properties"
-
-
  |> "kibrItIk" <| [
 
     Identity                  `noun`    {- kibriytiyk -}       [ "sulfuric" ] ]
+
+
+cluster_92  = listing "Lexicon's properties"
+
 
  |> "kilA" <| [
 
@@ -5223,13 +5227,13 @@ cluster_92  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- klAws -}            [ "Klaus", "Claus" ] ]
 
-
-cluster_93  = listing "Lexicon's properties"
-
-
  |> "klAy" <| [
 
     Identity                  `noun`    {- klAy -}             [ "Clay" ] ]
+
+
+cluster_93  = listing "Lexicon's properties"
+
 
  |> "klAytUn" <| [
 
@@ -5305,13 +5309,13 @@ cluster_93  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kriyg -}            [ "Craig" ] ]
 
-
-cluster_94  = listing "Lexicon's properties"
-
-
  |> "krIkAr" <| [
 
     Identity                  `noun`    {- kriykAr -}          [ "Krekar" ] ]
+
+
+cluster_94  = listing "Lexicon's properties"
+
 
  |> "krIm" <| [
 
@@ -5389,13 +5393,13 @@ cluster_94  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- ku$otubAn -}        [ "thimble" ] ]
 
-
-cluster_95  = listing "Lexicon's properties"
-
-
  |> "kufartah" <| [
 
     Identity                  `noun`    {- kufarotah -}        [ "coverlet" ] ]
+
+
+cluster_95  = listing "Lexicon's properties"
+
 
  |> "kuhayrib" <| [
 
@@ -5465,13 +5469,13 @@ cluster_95  = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- kuwAfiyrap -}       [ unwords [ "lady", "hairdresser" ] ] ]
 
-
-cluster_96  = listing "Lexicon's properties"
-
-
  |> "kuwAlA" <| [
 
     Identity                  `noun`    {- kuwAlA -}           [ "Kuala" ] ]
+
+
+cluster_96  = listing "Lexicon's properties"
+
 
  |> "kuwAlAlambUr" <| [
 

@@ -1512,6 +1512,11 @@ cluster_30  = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- labiyq -}           [ "adroit", "suave" ] ]
 
+ |> "l b r" <| [
+
+    FICIL |< Iy               `adj`     {- liybiyriy~ -}       [ "Liberian" ]
+                           {- `others`  [ "libiyriyy Nall_L", "laybiyriyy Nall_L" ] -} ]
+
 
 cluster_31  = listing "Lexicon's properties"
 
@@ -1548,6 +1553,8 @@ cluster_31  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- labiys -}           [ "worn", unwords [ "second", "-", "hand" ] ],
 
     FaCUL                     `noun`    {- labuws -}           [ "clothing", "attire" ],
+
+    FaCCIL |< aT              `noun`    {- lab~iysap -}        [ "shoehorn" ],
 
     MaFCaL                    `noun`    {- malobas -}          [ "clothes", "dress", "attire" ]
                               `plural`     MaFACiL,
@@ -3948,10 +3955,6 @@ cluster_76  = listing "Lexicon's properties"
 
     Identity                  `adv`     {- laHoZata}i*K -}     [ unwords [ "at", "that", "moment" ] ] ]
 
- |> "labbIs" <| [
-
-    Identity |< aT            `noun`    {- lab~iysap -}        [ "shoehorn" ] ]
-
  |> "labbayk" <| [
 
     Identity |<< "a"          `noun`    {- lab~ayoka -}        [ unwords [ "I", "have", "answered", "Your", "call", "!" ] ] ]
@@ -4008,13 +4011,13 @@ cluster_76  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- liniyn -}           [ "Lenin" ] ]
 
-
-cluster_77  = listing "Lexicon's properties"
-
-
  |> "linIn^grAd" <| [
 
     Identity                  `noun`    {- liniynojrAd -}      [ "Leningrad" ] ]
+
+
+cluster_77  = listing "Lexicon's properties"
+
 
  |> "litwAniyA" <| [
 

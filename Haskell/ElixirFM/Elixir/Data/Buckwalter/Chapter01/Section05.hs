@@ -401,6 +401,10 @@ cluster_87  = listing "Lexicon's properties"
 
     MuFtaCiL                  `noun`    {- muWotazir -}        [ "supporter" ] ]
 
+ |> "' z s" <| [
+
+    FICIL                     `noun`    {- Iiyziys -}          [ "Isis" ] ]
+
  |> "' z t" <| [
 
     FACUL                     `noun`    {- \|zuwt -}           [ "nitrogen", "azote" ]

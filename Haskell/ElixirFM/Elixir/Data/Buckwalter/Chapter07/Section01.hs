@@ -291,7 +291,9 @@ cluster_6   = listing "Lexicon's properties"
 
     MutaFaCCiL                `adj`     {- mutaxaS~iS -}       [ "specialized", "specialist" ],
 
-    MuFtaCL                   `noun`    {- muxotaS~ -}         [ "responsible", "competent" ] ]
+    MuFtaCL                   `noun`    {- muxotaS~ -}         [ "responsible", "competent" ],
+
+    FuwayL |< aT              `noun`    {- xuwayoSap -}        [ unwords [ "private", "affairs" ], unwords [ "private", "business" ] ] ]
 
 
 cluster_7   = listing "Lexicon's properties"
@@ -595,6 +597,9 @@ cluster_13  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- xaT~Af -}           [ "rapacious", "robber" ],
 
     FuCCAL                    `noun`    {- xuT~Af -}           [ "hook" ],
+
+    FaCCIL                    `noun`    {- xaT~iyf -}          [ "hook" ]
+                              `plural`     FaCACIL,
 
     IFtiCAL                   `noun`    {- AixotiTAf -}        [ "hijacking" ]
                               `plural`     IFtiCAL |< At,

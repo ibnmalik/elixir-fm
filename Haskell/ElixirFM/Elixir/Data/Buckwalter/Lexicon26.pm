@@ -151,6 +151,25 @@ $Lexicon = {
       ],
       'orig' => 'taholiyn',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'hiyliyn',
+      'form' => 'hiyliyniyyaT',
+      'lines' => [
+        ';; hiyliyniy~ap_1',
+        'hiyliyniy~      Nap     Hellenism     [[hiyliyniy~/NOUN]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FICIL |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [
+        'Hellenism'
+      ],
+      'orig' => 'hiyliyniy~ap',
+      'prefix' => ''
     }
   ],
   'h r m' => [
@@ -13880,6 +13899,26 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'h b z' => [
+    {
+      'types' => {},
+      'entry' => 'hiybiyz',
+      'form' => 'hiybiyz',
+      'lines' => [],
+      'patterns' => {
+        'hibbiyz' => [
+          'FiCCIL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FICIL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'hiybiyz',
+      'prefix' => ''
+    }
+  ],
   'h y \'' => [
     {
       'types' => {
@@ -20323,18 +20362,13 @@ $Lexicon = {
       'types' => {},
       'entry' => 'hiyliyn',
       'form' => 'hiyliyniyyaT',
-      'lines' => [
-        ';; hiyliyniy~ap_1',
-        'hiyliyniy~      Nap     Hellenism     [[hiyliyniy~/NOUN]]'
-      ],
+      'lines' => [],
       'patterns' => {},
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KiRDIS |< Iy |< aT',
       'suffix' => ' |< Iy |< aT',
-      'glosses' => [
-        'Hellenism'
-      ],
+      'glosses' => [],
       'orig' => 'hiyliyniy~ap',
       'prefix' => ''
     }
@@ -30578,6 +30612,9 @@ $Lexicon->{'h y ^g'}[11]{'glosses'} = $Lexicon->{'h \' ^g'}[0]{'glosses'};
 $Lexicon->{'h w k y'}[0]{'types'} = $Lexicon->{'h k y'}[0]{'types'};
 $Lexicon->{'h w k y'}[0]{'lines'} = $Lexicon->{'h k y'}[0]{'lines'};
 $Lexicon->{'h w k y'}[0]{'glosses'} = $Lexicon->{'h k y'}[0]{'glosses'};
+$Lexicon->{'h b z'}[0]{'types'} = $Lexicon->{'h y b z'}[0]{'types'};
+$Lexicon->{'h b z'}[0]{'lines'} = $Lexicon->{'h y b z'}[0]{'lines'};
+$Lexicon->{'h b z'}[0]{'glosses'} = $Lexicon->{'h y b z'}[0]{'glosses'};
 $Lexicon->{'h ^g y'}[1]{'types'} = $Lexicon->{'h ^g w'}[11]{'types'};
 $Lexicon->{'h ^g y'}[1]{'lines'} = $Lexicon->{'h ^g w'}[11]{'lines'};
 $Lexicon->{'h ^g y'}[1]{'glosses'} = $Lexicon->{'h ^g w'}[11]{'glosses'};
@@ -30626,6 +30663,9 @@ $Lexicon->{'h w n'}[17]{'glosses'} = $Lexicon->{'h y n'}[3]{'glosses'};
 $Lexicon->{'h w n'}[19]{'types'} = $Lexicon->{'h y n'}[4]{'types'};
 $Lexicon->{'h w n'}[19]{'lines'} = $Lexicon->{'h y n'}[4]{'lines'};
 $Lexicon->{'h w n'}[19]{'glosses'} = $Lexicon->{'h y n'}[4]{'glosses'};
+$Lexicon->{'h y l n'}[0]{'types'} = $Lexicon->{'h l n'}[2]{'types'};
+$Lexicon->{'h y l n'}[0]{'lines'} = $Lexicon->{'h l n'}[2]{'lines'};
+$Lexicon->{'h y l n'}[0]{'glosses'} = $Lexicon->{'h l n'}[2]{'glosses'};
 $Lexicon->{'h n y'}[1]{'types'} = $Lexicon->{'h n \''}[11]{'types'};
 $Lexicon->{'h n y'}[1]{'lines'} = $Lexicon->{'h n \''}[11]{'lines'};
 $Lexicon->{'h n y'}[1]{'glosses'} = $Lexicon->{'h n \''}[11]{'glosses'};
