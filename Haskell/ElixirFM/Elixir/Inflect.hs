@@ -202,12 +202,10 @@ instance Inflect Lexeme TagsVerb where
 
                         where w = maybe Active id jv
 
-              _     ->  (error . unwords) ["Incompatible VerbP", show r]
-
           inRules fs pp ts =  [ morph l | f <- fs, t <- ts,
 
-                                let ls = lookVerb t pp (Perfect, v') theVariant
-                                                       (verbStems f r),
+                                let ls = map (findVerb (Perfect, v') theVariant)
+                                             (siftVerb t pp (verbStems f r)),
                                 l <- nub ls ],
           
             let y = show (VerbP v' p' g' n'),
@@ -241,17 +239,15 @@ instance Inflect Lexeme TagsVerb where
 
                         where w = maybe Active id jv
 
-              _     ->  (error . unwords) ["Incompatible VerbI", show r]
-
           inRules fs pp ts
 
             | isEndless x' =  [ k | f <- fs, t <- ts,
 
-                                let ls = lookVerb t pp (Imperfect, v') True
-                                                       (verbStems f r)
+                                let ls = map (findVerb (Imperfect, v') True)
+                                             (siftVerb t pp (verbStems f r))
 
-                                    hs = lookVerb t pp (Imperfect, v') False
-                                                       (verbStems f r),
+                                    hs = map (findVerb (Imperfect, v') False)
+                                             (siftVerb t pp (verbStems f r)),
 
                                 k <- [ (prefixVerbI f l v', morph l) | l <- nub ls ]
 
@@ -265,8 +261,8 @@ instance Inflect Lexeme TagsVerb where
 
             | otherwise    =  [ (prefixVerbI f l v', morph l) | f <- fs, t <- ts,
 
-                                let ls = lookVerb t pp (Imperfect, v') theVariant
-                                                       (verbStems f r),
+                                let ls = map (findVerb (Imperfect, v') theVariant)
+                                             (siftVerb t pp (verbStems f r)),
                                 l <- nub ls ],
          
             let y = show x',
@@ -305,17 +301,15 @@ instance Inflect Lexeme TagsVerb where
 
                 | otherwise            -> [ (prefixVerbC f i, morph i) | f <- fs, i <- is ]
 
-              _     ->  (error . unwords) ["Incompatible VerbC", show r]
-
           inRules fs pp ts
 
             | isEndless x'  =  [ k | f <- fs, t <- ts,
 
-                                let ls = lookVerb t pp (Imperfect, Active) True
-                                                       (verbStems f r)
+                                let ls = map (findVerb (Imperfect, Active) True) 
+                                             (siftVerb t pp (verbStems f r))
 
-                                    hs = lookVerb t pp (Imperfect, Active) False
-                                                       (verbStems f r),
+                                    hs = map (findVerb (Imperfect, Active) False)
+                                             (siftVerb t pp (verbStems f r)),
 
                                     k <- [ (prefixVerbC f l, morph l) | l <- nub ls ]
 
@@ -328,8 +322,8 @@ instance Inflect Lexeme TagsVerb where
 
             | otherwise    =  [ (prefixVerbC f l, morph l) | f <- fs, t <- ts,
 
-                                let ls = lookVerb t pp (Imperfect, Active) theVariant
-                                                       (verbStems f r),
+                                let ls = map (findVerb (Imperfect, Active) theVariant)
+                                             (siftVerb t pp (verbStems f r)),
                                 l <- nub ls ],
 
             let y = show x',

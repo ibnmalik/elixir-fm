@@ -52,10 +52,15 @@ instance Derive Lexeme String where
 
 lookVerb :: Eq a => a -> (Tense, Voice) -> (Tense, Voice) -> Bool -> [VerbStems a] -> [a]
 
-lookVerb x (Perfect, Active)  y z is = [ findVerb y z i | i@(_, a, _, _, _) <- is, x == a ]
-lookVerb x (Perfect, Passive) y z is = [ findVerb y z i | i@(_, _, b, _, _) <- is, x == b ]
-lookVerb x (   _   , Active)  y z is = [ findVerb y z i | i@(_, _, _, c, _) <- is, x == c ]
-lookVerb x (   _   ,    _   ) y z is = [ findVerb y z i | i@(_, _, _, _, d) <- is, x == d ]
+lookVerb x y z v = map (findVerb z v) . siftVerb x y
+
+
+siftVerb :: Eq a => a -> (Tense, Voice) -> [VerbStems a] -> [VerbStems a]
+
+siftVerb x (Perfect, Active)  is = [ i | i@(_, a, _, _, _) <- is, x == a ]
+siftVerb x (Perfect, Passive) is = [ i | i@(_, _, b, _, _) <- is, x == b ]
+siftVerb x (   _   , Active)  is = [ i | i@(_, _, _, c, _) <- is, x == c ]
+siftVerb x (   _   ,    _   ) is = [ i | i@(_, _, _, _, d) <- is, x == d ]
 
 
 findVerb :: (Tense, Voice) -> Bool -> VerbStems a -> a
