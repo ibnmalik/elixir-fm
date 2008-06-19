@@ -792,7 +792,7 @@ data PatternT =
         |   FuCuL                                       |   FuCU
 
         |   FaCLAn
-        |   FaCaLAn
+        |   FaCaLAn                                     |   FaCawAn
 
         |   FiCLAn                      |   FILAn
         |   FuCLAn                      |   FULAn
