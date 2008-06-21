@@ -80,10 +80,7 @@ findVerb (   _   ,    _   ) _    ( _               , _, _, _, d) = d
 
 lookNoun :: (Morphing a a, Eq (Morphs a)) => Morphs a -> Char -> [NounStems a] -> [Morphs a]
 
-lookNoun x y is = [ findNoun y i | i@(a, b, c, d) <- is, x == morph a ||
-                                                         x == morph b ||
-                                                         x == morph c ||
-                                                         x == d ]
+lookNoun x y = map (findNoun y) . siftNoun x
 
 {-
 lookNoun x y is = [ findNoun y i | i@(a, _, _, _) <- is, x == morph a ]
@@ -91,6 +88,14 @@ lookNoun x y is = [ findNoun y i | i@(_, b, _, _) <- is, x == morph b ]
 lookNoun x y is = [ findNoun y i | i@(_, _, c, _) <- is, x == morph c ]
 lookNoun x y is = [ findNoun y i | i@(_, _, _, d) <- is, x == d ]
 -}
+
+
+siftNoun :: (Morphing a a, Eq (Morphs a)) => Morphs a -> [NounStems a] -> [NounStems a]
+
+siftNoun x is = [ i | i@(a, b, c, d) <- is, x == morph a ||
+                                            x == morph b ||
+                                            x == morph c ||
+                                            x == d ]
 
 
 findNoun :: Morphing a a => Char -> NounStems a -> Morphs a
