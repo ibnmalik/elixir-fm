@@ -154,27 +154,6 @@ vals vs = vs
 
 instance Inflect Lexeme TagsVerb where
 
-{-
-    inflect x@(Lexeme r e) y = case y of
-
-        TagsVerbP   v p g n      ->  inflect x [ VerbP v' p' g' n' |
-                                                    v' <- vals v,
-                                                    p' <- vals p,
-                                                    g' <- vals g,
-                                                    n' <- vals n ]
-
-        TagsVerbI m v p g n      ->  inflect x [ VerbI m' v' p' g' n' |
-                                                    m' <- vals m,
-                                                    v' <- vals v,
-                                                    p' <- vals p,
-                                                    g' <- vals g,
-                                                    n' <- vals n ]
-
-        TagsVerbC       g n      ->  inflect x [ VerbC g' n' |
-                                                    g' <- vals g,
-                                                    n' <- vals n ]
--}
-
     inflect (Lexeme r e) x | (not . isVerb) (entity e) = []
 
  -- inflect l x = [(show x, inflectVerb l x)]
@@ -184,7 +163,7 @@ instance Inflect Lexeme TagsVerb where
             v' <- vals v,
 
             let
-            
+
           inEntry = case entity e of
 
               Verb fs is _ _ jt jv
@@ -205,28 +184,7 @@ instance Inflect Lexeme TagsVerb where
             let theVariant = isVariant (VerbP v' p' g' n'),
 
             let
-{-
-          inEntry = case entity e of
 
-              Verb fs is _ _ jt jv
-
-                | maybe False (/= v') jv || maybe False (/= Perfect) jt -> Left []
-
-                | null is || v' == Passive
-                       || not theVariant  -> Right [ (f, siftVerb t (Perfect,   w) z) | f <- fs, let z = verbStems f r, t <- [pattern] ]
-
-                | otherwise            -> Left [ morph i | f <- fs, i <- is ]
-
-                        where w = maybe Active id jv
-
-          paradigm p = map ((,) r . p) (either id inRules inEntry)
-
-          inRules es =  [ morph l | (f, e) <- es,
-
-                                let ls = map (findVerb (Perfect, v') theVariant) e,
-
-                                l <- nub ls ],
--}
           paradigm p = map ((,) r . p) (inRules inEntry)
 
           inRules es =  [ morph l | (f, e) <- es,
@@ -367,18 +325,8 @@ instance Inflect Lexeme TagsVerb where
               Morphs pattern _ _ = morphs e
 
 
-
-
 instance Inflect Lexeme TagsNoun where
 
-{-
-    inflect x@(Lexeme r e) y = case y of
-
-        TagsNounS h v   g n c s  ->  inflect x [ NounS n' c' s' |
-                                                    n' <- vals n,
-                                                    c' <- vals c,
-                                                    s' <- vals s ]
--}
     inflect (Lexeme r e) x | (not . isNoun) (entity e) = []
 
     inflect (Lexeme r e) x@(TagsNounS _ _ _ n c s) = [ (y, z) |
@@ -393,31 +341,8 @@ instance Inflect Lexeme TagsNoun where
 
             let z = map (inRules r c' s') i ]
 
-{-
-inflectNoun (Lexeme r e) (NounS n c s) = (map (inRules r c s) . inEntry n) e
--}
-{-
-instance Inflect Lexeme ParaNoun where
-
-    inflect (Lexeme r e) x | (not . isNoun) (entity e) = []
-
-    inflect l x@(NounS n c s) = [(show x, inflectNoun l x)]
-
-    inflect _ _               = error "Unexpected case ..."
--}
-
 
 instance Inflect Lexeme TagsAdj where
-
-{-
-    inflect x@(Lexeme r e) y = case y of
-
-        TagsAdjA  h v   g n c s  ->  inflect x [ AdjA g' n' c' s' |
-                                                    g' <- vals g,
-                                                    n' <- vals n,
-                                                    c' <- vals c,
-                                                    s' <- vals s ]
--}
 
     inflect (Lexeme r e) x | (not . isAdj) (entity e) = []
 
@@ -433,31 +358,8 @@ instance Inflect Lexeme TagsAdj where
 
             let z = map (inRules r c' s') i ]
 
-{-
-inflectAdj (Lexeme r e) (AdjA g n c s) = (map (inRules r c s) . inEntry' g n) e
--}
-
-{-
-instance Inflect Lexeme ParaAdj where
-
-    inflect (Lexeme r e) x | (not . isAdj) (entity e) = []
-
-    inflect l x@(AdjA g n c s) = [(show x, inflectAdj l x )]
-
-    inflect _ _                = error "Unexpected case ..."
--}
-
 
 instance Inflect Lexeme TagsPrep where
-
-{-
-    inflect x@(Lexeme r e) y = case y of
-
-        TagsPrepP                ->  inflect x [ PrepP ]
-
-        TagsPrepI           c    ->  inflect x [ PrepI c' |
-                                                    c' <- vals c ]
--}
 
     inflect x@(Lexeme r e) y | (not . isPrep) (entity e) = []
 
@@ -470,22 +372,6 @@ instance Inflect Lexeme TagsPrep where
 
         where Morphs t p s = morphs e
               m = Morphs t p (tail s)
-
-{-
-instance Inflect Lexeme ParaPrep where
-
-    inflect x@(Lexeme r e) y | (not . isPrep) (entity e) = []
-
-    inflect (Lexeme r e) x@(PrepP  ) = if null s then [(show x, [(r, m)])] else []
-
-        where m@(Morphs t p s) = morphs e
-
-    inflect (Lexeme r e) x@(PrepI c) = if null s then []
-                                             else [(show x, [(r, paraPrepI c m)])]
-
-        where Morphs t p s = morphs e
-              m = Morphs t p (tail s)
--}
 
 
 instance Inflect Lexeme TagsConj where
@@ -778,30 +664,6 @@ inflectVerb (Lexeme r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
                                                        (verbStems f r),
                                 l <- nub ls ]
 
-    {-
-          inRules fs pp ts = [ k | f <- fs, t <- ts,
-
-                               let ls = lookVerb t pp (Imperfect, Active) variant
-                                                      (verbStems f r),
-
-                               let hs = lookVerb t pp (Imperfect, Active) False
-                                                      (verbStems f r),
-
-                               let is = if endless then
-                                            [ (prefixh, suffix a morphsh) | h <- hs,
-                                                let prefixh = prefixVerbC f h,
-                                                let morphsh = morph h,
-                                                a <- auxiesDouble f h ] else [],
-
-                               k <- [ (prefixVerbC f l, morph l) | l <- ls ] ++ is ]
-
-          inRules fs pp ts = [ (prefixVerbC f l, morph l) | f <- fs, t <- ts,
-
-                               let ls = lookVerb t pp (Imperfect, Active) variant
-                                                      (verbStems f r),
-                               l <- nub ls ]
-    -}
-
 
 isVariant :: ParaVerb -> Bool
 
@@ -1020,7 +882,6 @@ instance Inflect Lexeme ParaAdj where
     inflect _ _                = error "Unexpected case ..."
 
 
-
 inflectAdj (Lexeme r e) (AdjA g n c s) = (map (inRules r c s) . inEntry' g n) e
 
 
@@ -1046,7 +907,6 @@ instance Inflect Lexeme ParaNoun where
     inflect l x@(NounS n c s) = [(show x, inflectNoun l x)]
 
     inflect _ _               = error "Unexpected case ..."
-
 
 
 inflectNoun (Lexeme r e) (NounS n c s) = (map (inRules r c s) . inEntry n) e
@@ -1314,6 +1174,7 @@ instance Inflect Lexeme ParaPrep where
 
         where Morphs t p s = morphs e
               m = Morphs t p (tail s)
+
 
 paraPrepI c = case c of
 

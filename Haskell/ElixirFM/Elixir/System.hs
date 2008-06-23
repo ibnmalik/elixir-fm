@@ -25,16 +25,16 @@ import Data.Char (readLitChar)
 import Data.List (intersect)
 
 
-data TagSet = TagsVerb [TagsVerb]
-            | TagsNoun [TagsNoun]
-            | TagsAdj  [TagsAdj]
-            | TagsPron [TagsPron]
-            | TagsNum  [TagsNum]
-            | TagsAdv  [TagsAdv]
-            | TagsPrep [TagsPrep]
-            | TagsConj [TagsConj]
-            | TagsPart [TagsPart]
-            | TagsIntj [TagsIntj]
+data TagSet = TagsVerb  [TagsVerb]
+            | TagsNoun  [TagsNoun]
+            | TagsAdj   [TagsAdj]
+            | TagsPron  [TagsPron]
+            | TagsNum   [TagsNum]
+            | TagsAdv   [TagsAdv]
+            | TagsPrep  [TagsPrep]
+            | TagsConj  [TagsConj]
+            | TagsPart  [TagsPart]
+            | TagsIntj  [TagsIntj]
             | TagsError [Char]
 
     deriving (Eq, Show)
@@ -76,7 +76,7 @@ data TagsAdv  = TagsAdvD
 
 data TagsPrep = TagsPrepP
               | TagsPrepI                                                [Case]
-                
+
     deriving Eq
 
 
@@ -86,13 +86,134 @@ data TagsConj = TagsConjC
 
 
 data TagsPart = TagsPartF
-              
+
     deriving Eq
 
 
 data TagsIntj = TagsIntjI
 
     deriving Eq
+
+
+class Restrict a where
+
+    restrict :: a -> [a] -> [a]
+
+
+instance Restrict TagSet where
+
+    restrict (TagsVerb  xs) ys = [ TagsVerb (restrict x y) | TagsVerb y <- ys, x <- xs ]
+    restrict (TagsNoun  xs) ys = [ TagsNoun (restrict x y) | TagsNoun y <- ys, x <- xs ]
+    restrict (TagsAdj   xs) ys = [ TagsAdj  (restrict x y) | TagsAdj  y <- ys, x <- xs ]
+    restrict (TagsPron  xs) ys = [ TagsPron (restrict x y) | TagsPron y <- ys, x <- xs ]
+    restrict (TagsNum   xs) ys = [ TagsNum  (restrict x y) | TagsNum  y <- ys, x <- xs ]
+    restrict (TagsAdv   xs) ys = [ TagsAdv  (restrict x y) | TagsAdv  y <- ys, x <- xs ]
+    restrict (TagsPrep  xs) ys = [ TagsPrep (restrict x y) | TagsPrep y <- ys, x <- xs ]
+    restrict (TagsConj  xs) ys = [ TagsConj (restrict x y) | TagsConj y <- ys, x <- xs ]
+    restrict (TagsPart  xs) ys = [ TagsPart (restrict x y) | TagsPart y <- ys, x <- xs ]
+    restrict (TagsIntj  xs) ys = [ TagsIntj (restrict x y) | TagsIntj y <- ys, x <- xs ]
+    restrict (TagsError xs) ys = []
+
+
+vals :: Param a => [a] -> [a] -> [a]
+
+vals [] [] = values
+vals xs [] = xs
+vals [] ys = ys
+vals xs ys = intersect xs ys
+
+
+instance Restrict TagsVerb where
+
+    restrict (TagsVerbP   v p g n) y = [ z | TagsVerbP    v' p' g' n' <- y,
+                                             let z = TagsVerbP (vals v v')
+                                                               (vals p p')
+                                                               (vals g g')
+                                                               (vals n n') ]
+
+    restrict (TagsVerbI m v p g n) y = [ z | TagsVerbI m' v' p' g' n' <- y,
+                                             let z = TagsVerbI (vals m m')
+                                                               (vals v v')
+                                                               (vals p p')
+                                                               (vals g g')
+                                                               (vals n n') ]
+
+    restrict (TagsVerbC       g n) y = [ z | TagsVerbC          g' n' <- y,
+                                             let z = TagsVerbC (vals g g')
+                                                               (vals n n') ]
+
+
+instance Restrict TagsNoun where
+
+    restrict (TagsNounS h v   g n c s) y = [ z | TagsNounS h' v'    g' n' c' s' <- y,
+                                                 let z = TagsNounS (vals h h')
+                                                                   (vals v v')
+                                                                   (vals g g')
+                                                                   (vals n n')
+                                                                   (vals c c')
+                                                                   (vals s s') ]
+
+
+instance Restrict TagsAdj where
+
+    restrict (TagsAdjA  h v   g n c s) y = [ z | TagsAdjA  h' v'    g' n' c' s' <- y,
+                                                 let z = TagsAdjA  (vals h h')
+                                                                   (vals v v')
+                                                                   (vals g g')
+                                                                   (vals n n')
+                                                                   (vals c c')
+                                                                   (vals s s') ]
+
+
+instance Restrict TagsPron where
+
+    restrict (TagsPronP     p g n c) y = [ z | TagsPronP       p' g' n' c' <- y,
+                                               let z = TagsPronP (vals p p')
+                                                                 (vals g g')
+                                                                 (vals n n')
+                                                                 (vals c c') ]
+
+    restrict (TagsPronD       g n c) y = [ z | TagsPronD          g' n' c' <- y,
+                                               let z = TagsPronD (vals g g')
+                                                                 (vals n n')
+                                                                 (vals c c') ]
+
+    restrict (TagsPronR       g n c) y = [ z | TagsPronR          g' n' c' <- y,
+                                               let z = TagsPronR (vals g g')
+                                                                 (vals n n')
+                                                                 (vals c c') ]
+
+
+instance Restrict TagsNum where
+
+    restrict TagsNumQ y = [ z | TagsNumQ <- y, let z = TagsNumQ ]
+
+
+instance Restrict TagsAdv where
+
+    restrict TagsAdvD y = [ z | TagsAdvD <- y, let z = TagsAdvD ]
+
+
+instance Restrict TagsPrep where
+
+    restrict TagsPrepP     y = [ z | TagsPrepP    <- y, let z = TagsPrepP ]
+
+    restrict (TagsPrepI c) y = [ z | TagsPrepI c' <- y, let z = TagsPrepI (vals c c') ]
+
+
+instance Restrict TagsConj where
+
+    restrict TagsConjC y = [ z | TagsConjC <- y, let z = TagsConjC ]
+
+
+instance Restrict TagsPart where
+
+    restrict TagsPartF y = [ z | TagsPartF <- y, let z = TagsPartF ]
+
+
+instance Restrict TagsIntj where
+
+    restrict TagsIntjI y = [ z | TagsIntjI <- y, let z = TagsIntjI ]
 
 
 instance Show TagsVerb where
@@ -200,7 +321,7 @@ instance Read TagSets where
 
 
 instance Read TagsVerb where
-                       
+
     readsPrec _ x1 = [ (r, "") |
                                                 (y1, x2) <- readSlot x1,
                        (y2, x3) <- readSlot x2, (y3, x4) <- readSlot x3,
@@ -210,7 +331,7 @@ instance Read TagsVerb where
 
                        v1 <- if y1 == "-" then "PIC" else y1,
 
-                       let r = case v1 of 
+                       let r = case v1 of
 
                                 'P' -> TagsVerbP (readData y3)
                                                  (readData y5)
@@ -228,7 +349,7 @@ instance Read TagsVerb where
 
 
 instance Read TagsNoun where
-                       
+
     readsPrec _ x1 = [ (r, "") |
                                                 (y1, x2) <- readSlot x1,
                        (y2, x3) <- readSlot x2, (y3, x4) <- readSlot x3,
@@ -272,12 +393,12 @@ instance Read TagsPron where
 
                        v1 <- if y1 == "-" then "PDR" else y1,
 
-                       let r = case v1 of 
+                       let r = case v1 of
 
                                 'P' -> TagsPronP (readData y6)
                                                  (readData y7)
                                                  (readData y8)
-                                                 (readData y9) 
+                                                 (readData y9)
 
                                 'D' -> TagsPronD (readData y7)
                                                  (readData y8)
@@ -323,7 +444,7 @@ instance Read TagsPrep where
 
                        v1 <- if y1 == "-" then "-I" else y1,
 
-                       let r = case v1 of 
+                       let r = case v1 of
 
                                 '-' -> TagsPrepP
                                 _   -> TagsPrepI (readData y8) ]
@@ -339,7 +460,7 @@ instance Read TagsConj where
                        (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
 
                        let r =         TagsConjC ]
-                                       
+
 
 instance Read TagsPart where
 
@@ -581,65 +702,65 @@ expandReadTags = map expandTag . readTags
 -- [Just VP---[123][MF][SDP]--,Nothing,Nothing,Nothing,Just VI[ISJE]--[123][MF][SDP]--,Nothing,Nothing,Nothing,Just VC----[MF][SDP]--]
 
 
-restrict :: Tag -> Tag -> Maybe Tag
+restricts :: Tag -> Tag -> Maybe Tag
 
-restrict x y = case (x, y) of
+restricts x y = case (x, y) of
 
     (TagVerbP   v p g n    , TagVerbP    v' p' g' n'      ) -> Just (TagVerbP (vals v v')
                                                                               (vals p p')
                                                                               (vals g g')
                                                                               (vals n n'))
-                                                          
+
     (TagVerbI m v p g n    , TagVerbI m' v' p' g' n'      ) -> Just (TagVerbI (vals m m')
                                                                               (vals v v')
                                                                               (vals p p')
                                                                               (vals g g')
                                                                               (vals n n'))
-                                                          
+
     (TagVerbC       g n    , TagVerbC          g' n'      ) -> Just (TagVerbC (vals g g')
                                                                               (vals n n'))
-                                                          
+
     (TagNounS h v   g n c s, TagNounS h' v'    g' n' c' s') -> Just (TagNounS (vals h h')
                                                                               (vals v v')
                                                                               (vals g g')
                                                                               (vals n n')
                                                                               (vals c c')
                                                                               (vals s s'))
-                                                          
+
     (TagAdjA  h v   g n c s, TagAdjA  h' v'    g' n' c' s') -> Just (TagAdjA  (vals h h')
                                                                               (vals v v')
                                                                               (vals g g')
                                                                               (vals n n')
                                                                               (vals c c')
                                                                               (vals s s'))
-                                                          
+
     (TagPronP     p g n c  , TagPronP       p' g' n' c'   ) -> Just (TagPronP (vals p p')
                                                                               (vals g g')
                                                                               (vals n n')
                                                                               (vals c c'))
-                                                          
+
     (TagPronD       g n c  , TagPronD          g' n' c'   ) -> Just (TagPronD (vals g g')
                                                                               (vals n n')
                                                                               (vals c c'))
-                                                          
+
     (TagPronR       g n c  , TagPronR          g' n' c'   ) -> Just (TagPronR (vals g g')
                                                                               (vals n n')
                                                                               (vals c c'))
-                                                          
+
     (TagNum                , TagNum                       ) -> Just (TagNum              )
-                                                          
+
     (TagAdv                , TagAdv                       ) -> Just (TagAdv              )
-                                                          
+
     (TagPrepP              , TagPrepP                     ) -> Just (TagPrepP            )
-                                                          
+
     (TagPrepI           c  , TagPrepI                c'   ) -> Just (TagPrepI (vals c c'))
-                                                          
+
     (TagConj               , TagConj                      ) -> Just (TagConj             )
-                                                          
+
     (TagPart               , TagPart                      ) -> Just (TagPart             )
-                                                          
+
     (TagIntj               , TagIntj                      ) -> Just (TagIntj             )
-                                                          
+
     (_                     , _                            ) -> Nothing
 
     where vals [] [] = values
@@ -720,7 +841,7 @@ instance Read Tags where
                                     "Q-" -> TagNum
                                     "D-" -> TagAdv
 
-                                    "P-" -> TagPrepP    
+                                    "P-" -> TagPrepP
                                     "PI" -> TagPrepI (readData y8)
 
                                     "C-" -> TagConj
@@ -728,12 +849,12 @@ instance Read Tags where
                                     "I-" -> TagIntj
 
 {-
-                                    _    -> TagError "", r /= TagError "" ] 
+                                    _    -> TagError "", r /= TagError "" ]
 -}
 
                                     _    -> TagError "", r /= TagError "" ] ]
 
-                                    
+
 
 readData :: (Param a, Show a) => String -> [a]
 
@@ -1083,9 +1204,9 @@ instance Show ParaAdv where
     show ParaAdv = "D---------"
 
 
-data ParaPrep = PrepP 
-              | PrepI   Case  
-              
+data ParaPrep = PrepP
+              | PrepI   Case
+
     deriving Eq
 
 instance Param ParaPrep where
@@ -1097,7 +1218,7 @@ instance Show ParaPrep where
     show PrepP     = "P---------"
 
     show (PrepI c) = "PI------" ++ [show' c] ++ "-"
-    
+
 
 data ParaConj = ParaConj  deriving (Eq, Enum)
 
