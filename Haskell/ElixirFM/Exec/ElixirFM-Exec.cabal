@@ -31,15 +31,15 @@ description:        The "Elixir" and "FM" libraries implement /Functional Arabic
 
 -- executable:         elixirfm
 -- main-is:            Exec/ElixirFM/Main.hs
--- hs-source-dirs:     ., .., ../../Encode
+-- hs-source-dirs:     ., ..
 -- ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
 
 executable:         elixir-resolve
 main-is:            Exec/Resolve/Main.hs
-hs-source-dirs:     ., .., ../../Encode
-ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
+hs-source-dirs:     ., ..
+ghc-options:        -O -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
 
 -- executable:         elixir-inflect
 -- main-is:            Exec/Inflect/Main.hs
--- hs-source-dirs:     ., .., ../../Encode
+-- hs-source-dirs:     ., ..
 -- ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances

@@ -148,10 +148,6 @@ instance Inflect Lexeme TagSet where
         _          ->  []
 
 
-vals [] = values
-vals vs = vs
-
-
 instance Inflect Lexeme TagsVerb where
 
     inflect (Lexeme r e) x | (not . isVerb) (entity e) = []
@@ -442,9 +438,6 @@ instance Inflect Lexeme Tag where
         TagIntj                 ->  inflect x ParaIntj
 
         _                       ->  []
-
-        where vals [] = values
-              vals vs = vs
 
 
 instance Inflect Lexeme String where
@@ -879,7 +872,7 @@ instance Inflect Lexeme ParaAdj where
 
     inflect l x@(AdjA g n c s) = [(show x, inflectAdj l x )]
 
-    inflect _ _                = error "Unexpected case ..."
+ -- inflect _ _                = error "Unexpected case ..."
 
 
 inflectAdj (Lexeme r e) (AdjA g n c s) = (map (inRules r c s) . inEntry' g n) e
@@ -906,7 +899,7 @@ instance Inflect Lexeme ParaNoun where
 
     inflect l x@(NounS n c s) = [(show x, inflectNoun l x)]
 
-    inflect _ _               = error "Unexpected case ..."
+ -- inflect _ _               = error "Unexpected case ..."
 
 
 inflectNoun (Lexeme r e) (NounS n c s) = (map (inRules r c s) . inEntry n) e

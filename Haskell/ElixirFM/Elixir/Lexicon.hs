@@ -59,7 +59,7 @@ module Elixir.Lexicon (
 
         wraps, unwraps,
 
-        listing, revised, include,
+        listing, include,
 
         isVerb, isNoun, isAdj, isPrep, isConj, isPart, isIntj,
 

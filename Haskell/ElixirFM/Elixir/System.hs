@@ -95,6 +95,20 @@ data TagsIntj = TagsIntjI
     deriving Eq
 
 
+vals :: Param a => [a] -> [a]
+
+vals [] = values
+vals vs = vs
+
+
+lets :: Param a => [a] -> [a] -> [a]
+
+lets [] [] = values
+lets xs [] = xs
+lets [] ys = ys
+lets xs ys = intersect xs ys
+
+
 class Restrict a where
 
     restrict :: a -> [a] -> [a]
@@ -115,73 +129,65 @@ instance Restrict TagSet where
     restrict (TagsError xs) ys = []
 
 
-vals :: Param a => [a] -> [a] -> [a]
-
-vals [] [] = values
-vals xs [] = xs
-vals [] ys = ys
-vals xs ys = intersect xs ys
-
-
 instance Restrict TagsVerb where
 
     restrict (TagsVerbP   v p g n) y = [ z | TagsVerbP    v' p' g' n' <- y,
-                                             let z = TagsVerbP (vals v v')
-                                                               (vals p p')
-                                                               (vals g g')
-                                                               (vals n n') ]
+                                             let z = TagsVerbP (lets v v')
+                                                               (lets p p')
+                                                               (lets g g')
+                                                               (lets n n') ]
 
     restrict (TagsVerbI m v p g n) y = [ z | TagsVerbI m' v' p' g' n' <- y,
-                                             let z = TagsVerbI (vals m m')
-                                                               (vals v v')
-                                                               (vals p p')
-                                                               (vals g g')
-                                                               (vals n n') ]
+                                             let z = TagsVerbI (lets m m')
+                                                               (lets v v')
+                                                               (lets p p')
+                                                               (lets g g')
+                                                               (lets n n') ]
 
     restrict (TagsVerbC       g n) y = [ z | TagsVerbC          g' n' <- y,
-                                             let z = TagsVerbC (vals g g')
-                                                               (vals n n') ]
+                                             let z = TagsVerbC (lets g g')
+                                                               (lets n n') ]
 
 
 instance Restrict TagsNoun where
 
     restrict (TagsNounS h v   g n c s) y = [ z | TagsNounS h' v'    g' n' c' s' <- y,
-                                                 let z = TagsNounS (vals h h')
-                                                                   (vals v v')
-                                                                   (vals g g')
-                                                                   (vals n n')
-                                                                   (vals c c')
-                                                                   (vals s s') ]
+                                                 let z = TagsNounS (lets h h')
+                                                                   (lets v v')
+                                                                   (lets g g')
+                                                                   (lets n n')
+                                                                   (lets c c')
+                                                                   (lets s s') ]
 
 
 instance Restrict TagsAdj where
 
     restrict (TagsAdjA  h v   g n c s) y = [ z | TagsAdjA  h' v'    g' n' c' s' <- y,
-                                                 let z = TagsAdjA  (vals h h')
-                                                                   (vals v v')
-                                                                   (vals g g')
-                                                                   (vals n n')
-                                                                   (vals c c')
-                                                                   (vals s s') ]
+                                                 let z = TagsAdjA  (lets h h')
+                                                                   (lets v v')
+                                                                   (lets g g')
+                                                                   (lets n n')
+                                                                   (lets c c')
+                                                                   (lets s s') ]
 
 
 instance Restrict TagsPron where
 
     restrict (TagsPronP     p g n c) y = [ z | TagsPronP       p' g' n' c' <- y,
-                                               let z = TagsPronP (vals p p')
-                                                                 (vals g g')
-                                                                 (vals n n')
-                                                                 (vals c c') ]
+                                               let z = TagsPronP (lets p p')
+                                                                 (lets g g')
+                                                                 (lets n n')
+                                                                 (lets c c') ]
 
     restrict (TagsPronD       g n c) y = [ z | TagsPronD          g' n' c' <- y,
-                                               let z = TagsPronD (vals g g')
-                                                                 (vals n n')
-                                                                 (vals c c') ]
+                                               let z = TagsPronD (lets g g')
+                                                                 (lets n n')
+                                                                 (lets c c') ]
 
     restrict (TagsPronR       g n c) y = [ z | TagsPronR          g' n' c' <- y,
-                                               let z = TagsPronR (vals g g')
-                                                                 (vals n n')
-                                                                 (vals c c') ]
+                                               let z = TagsPronR (lets g g')
+                                                                 (lets n n')
+                                                                 (lets c c') ]
 
 
 instance Restrict TagsNum where
@@ -198,7 +204,7 @@ instance Restrict TagsPrep where
 
     restrict TagsPrepP     y = [ z | TagsPrepP    <- y, let z = TagsPrepP ]
 
-    restrict (TagsPrepI c) y = [ z | TagsPrepI c' <- y, let z = TagsPrepI (vals c c') ]
+    restrict (TagsPrepI c) y = [ z | TagsPrepI c' <- y, let z = TagsPrepI (lets c c') ]
 
 
 instance Restrict TagsConj where
@@ -669,9 +675,6 @@ expandTag y = case y of
                                                 c' <- vals c ]
 
     _                       ->  [show y]
-
-    where vals [] = values
-          vals vs = vs
 
 
 newtype Tags = Tags [Tag]               deriving Show
