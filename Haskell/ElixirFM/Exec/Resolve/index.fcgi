@@ -28,7 +28,7 @@ use Encode::Arabic::Buckwalter ':xml';
 
 sub tick () { push @tick, new Benchmark }
 
-sub mytimestr ($) { my $x = timestr shift; $x =~ /= *([^ ][^C]+)CPU\)/; $1 }
+sub mytimestr ($) { my $x = timestr shift; $x =~ /= *([^ ][^C ]+) *CPU\)/; $1 }
 
 sub escape ($) { my $x = shift; for ($x) { s/\&/\&amp;/g; s/\</\&lt;/g; s/\>/\&gt;/g; s/\"/\&quot;/g } $x }
 
@@ -199,12 +199,6 @@ while ($q = new CGI::Fast) {
 
     $code = $enc_hash{$q->param('code')};
 
-    open L, '>>', "index.log";
-
-    print L encode "utf8", $code . "\t" . ($q->param('data') ? 'Y' : 'N') . "\t" . $q->param('text') . "\n";
-
-    close L;
-
     $elixir = $q->param('data') ? './elixir-resolve-full' : './elixir-resolve';
 
     $reply = `$elixir $code < index.tmp`;
@@ -217,7 +211,16 @@ while ($q = new CGI::Fast) {
 
     tick();
 
-    print $q->p("Processing time", (mytimestr(timediff $tick[-1], $tick[-2])) . " seconds.");
+    $time = mytimestr(timediff $tick[-1], $tick[-2]);
+
+    open L, '>>', "index.log";
+
+    print L join "\t", gmtime() . "", "CPU " . $time, $code, ($q->param('data') ? 'Y' : 'N'),
+            encode "utf8", $q->param('text') . "\n";
+
+    close L;
+
+    print $q->p("Processing time", $time, "seconds.");
 
     print $q->p("This project is", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "open-source") . ".",
                 "You can contribute to its development with your suggestions!");

@@ -89,7 +89,20 @@ class Eq a => Resolve a where
 
 instance Resolve String where
 
-    resolveBy = resolveList indexList id
+    resolveBy q y = -- resolveList indexList id -- (decode TeX r) y
+
+                    [ [s] | (r, [x]) <- indexList, isSubsumed r y,
+
+                            s <- wraps (inflects y) x ]
+
+        where inflects y (Nest r z) = [ Token l i t | e <- z,
+
+                            let s = inflect l complete
+                                l = Lexeme r e,
+
+                            (t, h) <- s, i <- h, uncurry merge i `q` y ]
+
+              complete = unTagSets (read "----------")
 
 
 instance Resolve [UPoint] where
@@ -119,11 +132,30 @@ resolveList l uc eq y = [ [s] | (r, [x]) <- l, isSubsumed (uc r) y,
 
                           s <- wraps (inflects y) x ]
 
+    where inflects y (Nest r z) = (concat . map (\ x -> let (f, t) = head x in
+                                                 if uc f `eq` y then map snd x
+                                                                else []) .
+
+                           groupBy (\ x y -> (fst x) == (fst y)) .
+                                   
+                           sortBy (\ x y -> compare (fst x) (fst y)))
+
+                           [ (uncurry merge i, Token l i t) | e <- z,
+
+                             let s = inflect l complete
+                                 l = Lexeme r e,
+
+                             (t, h) <- s, i <- h ]
+
+          complete = unTagSets (read "----------")
+
+{-
     where inflects y (Nest r z) = [ Token (Lexeme r e) i t | e <- z,
 
                              let s = inflect (Lexeme r e) "----------", (t, h) <- s,
 
                              i <- h, (uc . uncurry merge) i `eq` y ]
+-}
 
 
 resolveMore q y = resolveListMore indexList id q y  -- (encode UCS . decode TeX)
