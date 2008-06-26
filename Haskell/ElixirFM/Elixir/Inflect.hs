@@ -880,7 +880,8 @@ inflectAdj (Lexeme r e) (AdjA g n c s) = (map (inRules r c s) . inEntry' g n) e
 
 inEntry' Masculine Plural e = case entity e of Adj  l   _  | null l -> [Right (morphs e |< Un)]
                                                            | otherwise -> l
-                                               _           -> error "Incompatible Adj"
+
+                                            -- _           -> error "Incompatible Adj"
 
 inEntry' Feminine  Plural e = [Right (morphs e |< At)]
 
@@ -905,9 +906,13 @@ instance Inflect Lexeme ParaNoun where
 inflectNoun (Lexeme r e) (NounS n c s) = (map (inRules r c s) . inEntry n) e
 
 
-inEntry Plural e = case entity e of Noun l _ _  -> l
-                                    Adj  l   _  -> l
-                                    _           -> error "Incompatible Noun"
+inEntry Plural e = case entity e of Noun l _ _  | null l -> let Morphs t p s = morphs e in 
+                                                            case s of At : _ -> [Right (morphs e |< AT)]
+                                                                      _      -> [Right (morphs e |< Un)]
+                                                | otherwise -> l
+                                                
+                                 -- Adj  l   _  -> l
+                                 -- _           -> error "Incompatible Noun"
 
 inEntry Dual e = [Right (morphs e |< An)]
 
