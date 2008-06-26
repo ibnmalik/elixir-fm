@@ -811,6 +811,8 @@ data PatternT =
         |   FaCALY
         |   FuCALY
 
+        |   FaCLUL                      |   FayLUL
+
 --  Form II
 
         |   FaCCaL                                      |   FaCCY

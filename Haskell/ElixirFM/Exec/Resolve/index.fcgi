@@ -216,19 +216,20 @@ while ($q = new CGI::Fast) {
     open L, '>>', "index.log";
 
     print L join "\t", gmtime() . "", "CPU " . $time, $code, ($q->param('data') ? 'Y' : 'N'),
-            encode "utf8", $q->param('text') . "\n";
+            ($reply =~ /^\s*$/ ? '--' : '++'), encode "utf8", $q->param('text') . "\n";
 
     close L;
 
     print $q->p("Processing time", $time, "seconds.");
 
-    print $q->p("This project is", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "open-source") . ".",
+    print $q->p("(C) Otakar Smrz 2007-2008, GNU General Public License", $q->a({-href => 'http://www.gnu.org/licenses/'}, "GNU GPL") . ".");
+
+    print $q->p("ElixirFM is an", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "open-source online"), "project.",
                 "You can contribute to its development with your suggestions!");
 
-    print $q->p("(C) Otakar Smrz 2007-2008, GNU General Public License.");
-
-    print $q->p($q->a({-href => 'http://ufal.mff.cuni.cz/'}, "Institute of Formal and Applied Linguistics") . ",",
-                "Charles University in Prague.");
+    print $q->p("Feel free to write to", $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/'}, "otakar.smrz"), "at",
+                $q->a({-href => 'http://ufal.mff.cuni.cz/'}, "mff.cuni.cz") . ",",
+	        "Institute of Formal and Applied Linguistics, Charles University in Prague.");
 
     print $q->end_html();
 
