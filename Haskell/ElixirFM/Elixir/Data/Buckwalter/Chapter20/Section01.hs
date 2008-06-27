@@ -146,7 +146,11 @@ cluster_2   = listing "Lexicon's properties"
 
     FAL |< aT                 `noun`    {- fAzap -}            [ "vase" ],
 
-    FACiL                     `noun`    {- fA}iz -}            [ "winner", "victorious" ],
+    FACiL                     `noun`    {- fA}iz -}            [ "winner", "victorious" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "winner", "victorious" ]
+                              `plural`     FACiL |< At,
 
     FACiL                     `noun`    {- fA}iz -}            [ "Fayez", "Fayiz", "Fa'iz" ] ]
 
@@ -314,6 +318,7 @@ cluster_5   = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- fADil -}            [ "honorable", "eminent" ]
                               `plural`     HaFACiL
+                              `plural`     FACiL |< Un
                               `plural`     FuCaLA',
 
     FACiL                     `noun`    {- fADil -}            [ "Fadil" ],
@@ -862,7 +867,8 @@ cluster_16  = listing "Lexicon's properties"
     FuCL                      `noun`    {- fuTor -}            [ "mushroom", "fungus" ]
                               `plural`     FuCUL,
 
-    FuCL |< Iy                `adj`     {- fuToriy~ -}         [ "fungal", "mushroom", "fungi", unwords [ "fungal", "cultures" ] ],
+    FuCL |< Iy                `adj`     {- fuToriy~ -}         [ "fungal", "mushroom", "fungi", unwords [ "fungal", "cultures" ] ]
+                              `plural`     FuCL |< Iy |< At,
 
     FiCL |< aT                `adv`     {- fiTorap -}          [ unwords [ "innate", "character" ], unwords [ "by", "nature" ], "innately", unwords [ "innate", "characteristics" ] ]
                               `plural`     FiCaL
@@ -883,8 +889,7 @@ cluster_16  = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- faTiyrap -}         [ "pastry" ]
                               `plural`     FaCA'iL,
 
-    FaCA'iL |< Iy             `adj`     {- faTA}iriy~ -}       [ unwords [ "pastry", "baker" ] ]
-                           {- `others`  [ "fa.tAyiriyy Nall" ] -},
+    FaCA'iL |< Iy             `adj`     {- faTA}iriy~ -}       [ unwords [ "pastry", "baker" ] ],
 
     FaCACiL |< Iy             `adj`     {- faTATiriy~ -}       [ unwords [ "pastry", "baker" ] ],
 

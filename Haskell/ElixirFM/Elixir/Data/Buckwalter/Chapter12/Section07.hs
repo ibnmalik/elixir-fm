@@ -316,17 +316,13 @@ cluster_124 = listing "Lexicon's properties"
 
     Identity                  `noun`    {- suwayodA' -}        [ "melancholy" ] ]
 
- |> "suwaylim" <| [
+ |> "swIrIs" <| [
 
-    Identity                  `noun`    {- suwayolim -}        [ "Suweilem", "Suwailim" ] ]
+    Identity                  `noun`    {- swiyriys -}         [ "Sweeris" ] ]
 
 
 cluster_125 = listing "Lexicon's properties"
 
-
- |> "swIrIs" <| [
-
-    Identity                  `noun`    {- swiyriys -}         [ "Sweeris" ] ]
 
  |> "tasyAr" <| [
 

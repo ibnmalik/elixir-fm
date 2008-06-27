@@ -215,14 +215,26 @@ cluster_24  = listing "Lexicon's properties"
     TaFACuL                   `noun`    {- talAEub -}          [ "game", unwords [ "free", "play" ], "venality" ]
                               `plural`     TaFACuL |< At,
 
-    FACiL                     `noun`    {- lAEib -}            [ "player", "athlete" ],
+    FACiL                     `noun`    {- lAEib -}            [ "player", "athlete" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "player", "athlete" ]
+                              `plural`     FACiL |< At,
 
     MaFCUL                    `noun`    {- maloEuwb -}         [ "slobbering", "prank" ]
                               `plural`     MaFACIL,
 
-    MuFACiL                   `noun`    {- mulAEib -}          [ "player", "fraudulent" ],
+    MuFACiL                   `noun`    {- mulAEib -}          [ "player", "fraudulent" ]
+                              `plural`     MuFACiL |< Un,
 
-    MutaFACiL                 `noun`    {- mutalAEib -}        [ "bribable", "venal" ] ]
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "player", "fraudulent" ]
+                              `plural`     MuFACiL |< At,
+
+    MutaFACiL                 `noun`    {- mutalAEib -}        [ "bribable", "venal" ]
+                              `plural`     MutaFACiL |< Un,
+
+    MutaFACiL |< aT           `noun`    {- DERIVED -}          [ "bribable", "venal" ]
+                              `plural`     MutaFACiL |< At ]
 
 
 cluster_25  = listing "Lexicon's properties"
@@ -263,7 +275,8 @@ cluster_25  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- laEiyn -}           [ "cursed", "damned", "detested" ],
 
     MaFCUL                    `adj`     {- maloEuwn -}         [ "cursed", "damned" ]
-                              `plural`     MaFACIL,
+                              `plural`     MaFACIL
+                              `plural`     MaFCUL |< Un,
 
     MutaFACiL                 `adj`     {- mutalAEin -}        [ unwords [ "cursing", "each", "other" ], "hostile" ] ]
 
@@ -516,8 +529,7 @@ cluster_30  = listing "Lexicon's properties"
 
  |> "l b r" <| [
 
-    FICIL |< Iy               `adj`     {- liybiyriy~ -}       [ "Liberian" ]
-                           {- `others`  [ "libiyriyy Nall_L", "laybiyriyy Nall_L" ] -} ]
+    FICIL |< Iy               `adj`     {- liybiyriy~ -}       [ "Liberian" ] ]
 
 
 cluster_31  = listing "Lexicon's properties"
@@ -593,7 +605,11 @@ cluster_31  = listing "Lexicon's properties"
     MuFaCCaL |< At            `noun`    {- mulab~asAt -}       [ "candy" ]
                               `plural`     MuFaCCaL |< At,
 
-    MutaFaCCiL                `noun`    {- mutalab~is -}       [ unwords [ "in", "flagrante", "delicto" ] ],
+    MutaFaCCiL                `noun`    {- mutalab~is -}       [ unwords [ "in", "flagrante", "delicto" ] ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ unwords [ "in", "flagrante", "delicto" ] ]
+                              `plural`     MutaFaCCiL |< At,
 
     MuFtaCiL                  `adj`     {- mulotabis -}        [ "intricate", "ambiguous", "unclear" ] ]
 
@@ -827,7 +843,11 @@ cluster_36  = listing "Lexicon's properties"
 
     MuFtaCL                   `adj`     {- mulotaf~ -}         [ "winding", unwords [ "rolled", "up" ], "coiled" ],
 
-    MuFtaCL                   `noun`    {- mulotaf~ -}         [ "gathering", "assembling", "crowding" ],
+    MuFtaCL                   `noun`    {- mulotaf~ -}         [ "gathering", "assembling", "crowding" ]
+                              `plural`     MuFtaCL |< Un,
+
+    MuFtaCL |< aT             `noun`    {- DERIVED -}          [ "gathering", "assembling", "crowding" ]
+                              `plural`     MuFtaCL |< At,
 
     FaL |< At                 `adj`     {- lafAt -}            [ "sullen", unwords [ "ill", "-", "tempered" ] ] ]
 

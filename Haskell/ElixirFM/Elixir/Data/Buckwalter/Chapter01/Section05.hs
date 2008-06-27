@@ -54,7 +54,11 @@ cluster_81  = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- IiyAlap -}          [ "district" ],
 
-    FA'iL                     `noun`    {- \|}il -}            [ "reversible", "ready" ],
+    FA'iL                     `noun`    {- \|}il -}            [ "reversible", "ready" ]
+                              `plural`     FA'iL |< Un,
+
+    FA'iL |< aT               `noun`    {- DERIVED -}          [ "reversible", "ready" ]
+                              `plural`     FA'iL |< At,
 
     FaCCiL                    `noun`    {- Oay~il -}           [ "stag", "buck", "doe", "deer" ]
                               `plural`     FaCCiL |< At
@@ -64,29 +68,30 @@ cluster_81  = listing "Lexicon's properties"
 
     FIL                       `noun`    {- Iiyl -}             [ unwords [ "El", "(", "in", "\"Beit", "El\"", ")" ] ],
 
-    FIL                       `noun`    {- Iiyl -}             [ unwords [ "Il", "(", "in", "\"Kim", "Jong", "-", "il\"", "and", "\"Kim", "Il", "-", "sung\"", ")" ] ] ]
+    FIL                       `noun`    {- Iiyl -}             [ unwords [ "Il", "(", "in", "\"Kim", "Jong", "-", "il\"", "and", "\"Kim", "Il", "-", "sung\"", ")" ] ],
+
+    FaCLUL                    `noun`    {- Oayoluwl -}         [ "September" ],
+
+    FaCLUL |< aT              `noun`    {- Oayoluwlap -}       [ "reversal", "devolution" ] ]
 
  |> "' y l '" <| [
 
-    KiRDAS                    `noun`    {- IiylA' -}           [ "oath" ] ]
-
- |> "' y l f" <| [
-
-    KiRDAS                    `noun`    {- IiylAf -}           [ "solidarity", "pact" ] ]
+    KiRDAS                    `noun`    {- IiylA' -}           [ "oath" ]
+                              `plural`     KiRDAS |< At ]
 
 
 cluster_82  = listing "Lexicon's properties"
 
 
- |> "' y l l" <| [
+ |> "' y l f" <| [
 
-    KaRDUS                    `noun`    {- Oayoluwl -}         [ "September" ],
-
-    KaRDUS |< aT              `noun`    {- Oayoluwlap -}       [ "reversal", "devolution" ] ]
+    KiRDAS                    `noun`    {- IiylAf -}           [ "solidarity", "pact" ]
+                              `plural`     KiRDAS |< At ]
 
  |> "' y l m" <| [
 
-    KiRDAS                    `noun`    {- IiylAm -}           [ "wound", "pain" ] ]
+    KiRDAS                    `noun`    {- IiylAm -}           [ "wound", "pain" ]
+                              `plural`     KiRDAS |< At ]
 
  |> "' y l t" <| [
 
@@ -122,7 +127,8 @@ cluster_82  = listing "Lexicon's properties"
 
  |> "' y m n" <| [
 
-    KiRDAS                    `noun`    {- IiymAn -}           [ "belief", "faith" ],
+    KiRDAS                    `noun`    {- IiymAn -}           [ "belief", "faith" ]
+                              `plural`     KiRDAS |< At,
 
     KiRDAS                    `noun`    {- IiymAn -}           [ "Iman" ] ]
 
@@ -162,7 +168,8 @@ cluster_83  = listing "Lexicon's properties"
 
  |> "' y n s" <| [
 
-    KiRDAS                    `noun`    {- IiynAs -}           [ "courtesy", "friendliness" ] ]
+    KiRDAS                    `noun`    {- IiynAs -}           [ "courtesy", "friendliness" ]
+                              `plural`     KiRDAS |< At ]
 
  |> "' y q n" <| [
 
@@ -210,7 +217,8 @@ cluster_84  = listing "Lexicon's properties"
 
  |> "' y w '" <| [
 
-    KiRDAS                    `noun`    {- IiywA' -}           [ "accommodation", "housing" ] ]
+    KiRDAS                    `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
+                              `plural`     KiRDAS |< At ]
 
  |> "' y w n" <| [
 
@@ -252,7 +260,11 @@ cluster_84  = listing "Lexicon's properties"
 
     FuCUL                     `noun`    {- OuzuwH -}           [ "contraction", "retraction" ],
 
-    FaCUL                     `noun`    {- OazuwH -}           [ "lethargic", "indolent" ] ]
+    FaCUL                     `noun`    {- OazuwH -}           [ "lethargic", "indolent" ]
+                              `plural`     FaCUL |< Un,
+
+    FaCUL |< aT               `noun`    {- DERIVED -}          [ "lethargic", "indolent" ]
+                              `plural`     FaCUL |< At ]
 
 
 cluster_85  = listing "Lexicon's properties"
@@ -282,8 +294,7 @@ cluster_85  = listing "Lexicon's properties"
     KuRDaS                    `noun`    {- Ouzobak -}          [ "Uzbeks" ]
                            {- `others`  [ "'uwzbak N" ] -},
 
-    KuRDaS |< Iy              `adj`     {- Ouzobakiy~ -}       [ "Uzbek" ]
-                           {- `others`  [ "'uwzbakiyy Nall" ] -} ]
+    KuRDaS |< Iy              `adj`     {- Ouzobakiy~ -}       [ "Uzbek" ] ]
 
  |> "' z f" <| [
 
@@ -326,11 +337,25 @@ cluster_86  = listing "Lexicon's properties"
                               `plural`     FaCaL |< At
                               `plural`     FiCaL,
 
-    FACiL                     `noun`    {- \|zim -}            [ "critical", "decisive" ],
+    FACiL                     `noun`    {- \|zim -}            [ "critical", "decisive" ]
+                              `plural`     HACiL |< Un
+                              `plural`     FACiL |< Un,
 
-    HACiL                     `noun`    {- \|zim -}            [ "critical", "decisive" ],
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "critical", "decisive" ]
+                              `plural`     FACiL |< At,
 
-    MaFCUL                    `noun`    {- maOozuwm -}         [ unwords [ "crisis", "victim" ], "chagrined" ],
+    HACiL                     `noun`    {- \|zim -}            [ "critical", "decisive" ]
+                              `plural`     HACiL |< Un
+                              `plural`     FACiL |< Un,
+
+    HACiL |< aT               `noun`    {- DERIVED -}          [ "critical", "decisive" ]
+                              `plural`     HACiL |< At,
+
+    MaFCUL                    `noun`    {- maOozuwm -}         [ unwords [ "crisis", "victim" ], "chagrined" ]
+                              `plural`     MaFCUL |< Un,
+
+    MaFCUL |< aT              `noun`    {- DERIVED -}          [ unwords [ "crisis", "victim" ], "chagrined" ]
+                              `plural`     MaFCUL |< At,
 
     TaFCIL                    `noun`    {- taOoziym -}         [ "aggravation", unwords [ "making", "critical" ] ]
                               `plural`     TaFCIL |< At,
@@ -338,7 +363,11 @@ cluster_86  = listing "Lexicon's properties"
     TaFaCCuL                  `noun`    {- taOaz~um -}         [ "aggravation", unwords [ "raising", "of", "tension" ] ]
                               `plural`     TaFaCCuL |< At,
 
-    MutaFaCCiL                `noun`    {- mutaOaz~im -}       [ "tense", "critical" ] ]
+    MutaFaCCiL                `noun`    {- mutaOaz~im -}       [ "tense", "critical" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "tense", "critical" ]
+                              `plural`     MutaFaCCiL |< At ]
 
  |> "' z m l" <| [
 
@@ -397,9 +426,17 @@ cluster_87  = listing "Lexicon's properties"
     TaFACuL                   `noun`    {- ta|zur -}           [ "collaboration", "coordination" ]
                               `plural`     TaFACuL |< At,
 
-    MutaFACiL                 `noun`    {- muta|zir -}         [ "cooperating", "coordinating" ],
+    MutaFACiL                 `noun`    {- muta|zir -}         [ "cooperating", "coordinating" ]
+                              `plural`     MutaFACiL |< Un,
 
-    MuFtaCiL                  `noun`    {- muWotazir -}        [ "supporter" ] ]
+    MutaFACiL |< aT           `noun`    {- DERIVED -}          [ "cooperating", "coordinating" ]
+                              `plural`     MutaFACiL |< At,
+
+    MuFtaCiL                  `noun`    {- muWotazir -}        [ "supporter" ]
+                              `plural`     MuFtaCiL |< Un,
+
+    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "supporter" ]
+                              `plural`     MuFtaCiL |< At ]
 
  |> "' z s" <| [
 
@@ -410,8 +447,7 @@ cluster_87  = listing "Lexicon's properties"
     FACUL                     `noun`    {- \|zuwt -}           [ "nitrogen", "azote" ]
                               `plural`     FaCUL,
 
-    FACUL |< Iy               `adj`     {- \|zuwtiy~ -}        [ "nitrogenous" ]
-                           {- `others`  [ "'azuwtiyy Nall" ] -} ]
+    FACUL |< Iy               `adj`     {- \|zuwtiy~ -}        [ "nitrogenous" ] ]
 
  |> "' z t k" <| [
 

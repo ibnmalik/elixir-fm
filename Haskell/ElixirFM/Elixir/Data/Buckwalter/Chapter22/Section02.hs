@@ -172,7 +172,11 @@ cluster_24  = listing "Lexicon's properties"
     FACL |< aT                `noun`    {- kAf~ap -}           [ "all" ],
 
     MaFCUL                    `noun`    {- makofuwf -}         [ "blind" ]
-                              `plural`     MaFACIL ]
+                              `plural`     MaFCUL |< Un
+                              `plural`     MaFACIL,
+
+    MaFCUL |< aT              `noun`    {- DERIVED -}          [ "blind" ]
+                              `plural`     MaFCUL |< At ]
 
 
 cluster_25  = listing "Lexicon's properties"
@@ -270,9 +274,13 @@ cluster_26  = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     FACiL                     `noun`    {- kAfir -}            [ "infidel" ]
+                              `plural`     FACiL |< Un
                               `plural`     FiCAL
                               `plural`     FaCaL |< aT
                               `plural`     FuCCAL,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "infidel" ]
+                              `plural`     FACiL |< At,
 
     FACUL                     `noun`    {- kAfuwr -}           [ "camphor" ] ]
 
@@ -399,7 +407,11 @@ cluster_28  = listing "Lexicon's properties"
                               `plural`     FaCaL |< aT
                               `plural`     FuCCAL,
 
-    MutaFaCCiL                `noun`    {- mutakah~in -}       [ "prognosticator", "fortuneteller", "predicting" ] ]
+    MutaFaCCiL                `noun`    {- mutakah~in -}       [ "prognosticator", "fortuneteller", "predicting" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "prognosticator", "fortuneteller", "predicting" ]
+                              `plural`     MutaFaCCiL |< At ]
 
  |> "k h n ^g" <| [
 
@@ -541,7 +553,11 @@ cluster_31  = listing "Lexicon's properties"
 
     FaCLAn |< Iy              `adj`     {- kalodAniy~ -}       [ "Chaldean" ],
 
-    FaCLAn |< Iy              `noun`    {- kalodAniy~ -}       [ "astrologer" ] ]
+    FaCLAn |< Iy              `noun`    {- kalodAniy~ -}       [ "astrologer" ]
+                              `plural`     FaCLAn |< Iy |< Un,
+
+    FaCLAn |< Iy |< aT        `noun`    {- DERIVED -}          [ "astrologer" ]
+                              `plural`     FaCLAn |< Iy |< At ]
 
 
 cluster_32  = listing "Lexicon's properties"
@@ -737,7 +753,11 @@ cluster_36  = listing "Lexicon's properties"
     TaFaCCuL                  `noun`    {- takal~us -}         [ "calcification", unwords [ "calcareous", "degeneration" ] ]
                               `plural`     TaFaCCuL |< At,
 
-    MuFaCCaL                  `noun`    {- mukal~as -}         [ "calcified" ],
+    MuFaCCaL                  `noun`    {- mukal~as -}         [ "calcified" ]
+                              `plural`     MuFaCCaL |< Un,
+
+    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "calcified" ]
+                              `plural`     MuFaCCaL |< At,
 
     FaCL |< aT                `noun`    {- kalosap -}          [ "stockings" ]
                               `plural`     FaCL |< At ]
@@ -915,7 +935,8 @@ cluster_39  = listing "Lexicon's properties"
     FaCAL                     `noun`    {- kamAl -}            [ "perfection", "completeness", "conclusion" ]
                               `plural`     FaCAL |< At,
 
-    FaCAL |< Iy               `adj`     {- kamAliy~ -}         [ "luxurious", unwords [ "de", "luxe" ], "luxuries", "amenities" ],
+    FaCAL |< Iy               `adj`     {- kamAliy~ -}         [ "luxurious", unwords [ "de", "luxe" ], "luxuries", "amenities" ]
+                              `plural`     FaCAL |< Iy |< At,
 
     FaCAL |< aT               `noun`    {- kamAlap -}          [ "supplement", "addition" ],
 

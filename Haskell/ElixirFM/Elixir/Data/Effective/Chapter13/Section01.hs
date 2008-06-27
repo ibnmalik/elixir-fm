@@ -14,8 +14,7 @@ cluster_1   = listing "Lexicon's properties"
 
  |> "^s ' `" <| [
 
-    FACiL                     `adj`     {- \$A}iE -}           [ "widespread", unwords [ "well", "-", "known" ] ]
-                           {- `others`  [ "^sAyi` Nall" ] -} ]
+    FACiL                     `adj`     {- \$A}iE -}           [ "widespread", unwords [ "well", "-", "known" ] ] ]
 
  |> "^s ' b" <| [
 
@@ -45,7 +44,7 @@ cluster_1   = listing "Lexicon's properties"
                               `plural`     FaCL,
 
     FAL |< Iy                 `adj`     {- \$Amiy~ -}          [ "Syrian" ]
-                           {- `others`  [ "^sa'Amiyy Nall", "^suwAm N" ] -} ]
+                           {- `others`  [ "^suwAm N" ] -} ]
 
  |> "^s ' n" <| [
 
@@ -70,7 +69,11 @@ cluster_1   = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- \$agab -}           [ "unrest", "disturbance" ],
 
-    FaCiL                     `noun`    {- \$agib -}           [ "troublemaker", "agitator" ] ]
+    FaCiL                     `noun`    {- \$agib -}           [ "troublemaker", "agitator" ]
+                              `plural`     FaCiL |< Un,
+
+    FaCiL |< aT               `noun`    {- DERIVED -}          [ "troublemaker", "agitator" ]
+                              `plural`     FaCiL |< At ]
 
  |> "^s .g f" <| [
 
@@ -110,7 +113,11 @@ cluster_2   = listing "Lexicon's properties"
 
     MaFCUL                    `adj`     {- ma$oguwl -}         [ "busy", "occupied" ],
 
-    MuFaCCaL                  `noun`    {- mu$ag~al -}         [ "employee" ],
+    MuFaCCaL                  `noun`    {- mu$ag~al -}         [ "employee" ]
+                              `plural`     MuFaCCaL |< Un,
+
+    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "employee" ]
+                              `plural`     MuFaCCaL |< At,
 
     MuFaCCiL                  `noun`    {- mu$ag~il -}         [ "starter" ],
 
@@ -129,7 +136,11 @@ cluster_2   = listing "Lexicon's properties"
                               `plural`     HaFiCL |< aT
                               `plural`     FaCA'iL,
 
-    FaCL |< At                `noun`    {- \$aH~At -}          [ "beggar" ] ]
+    FaCL |< At                `noun`    {- \$aH~At -}          [ "beggar" ]
+                              `plural`     FaCL |< At |< Un,
+
+    FaCL |< At |< aT          `noun`    {- DERIVED -}          [ "beggar" ]
+                              `plural`     FaCL |< At |< At ]
 
  |> "^s .h _d" <| [
 
@@ -617,7 +628,11 @@ cluster_11  = listing "Lexicon's properties"
 
     MuFaCCaL                  `adj`     {- mu$ad~ad -}         [ "intense" ],
 
-    MutaFaCCiL                `noun`    {- muta$ad~id -}       [ "extremist", "fanatic", "strict", "zealot" ] ]
+    MutaFaCCiL                `noun`    {- muta$ad~id -}       [ "extremist", "fanatic", "strict", "zealot" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "extremist", "fanatic", "strict", "zealot" ]
+                              `plural`     MutaFaCCiL |< At ]
 
 
 cluster_12  = listing "Lexicon's properties"
@@ -798,7 +813,11 @@ cluster_15  = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- mu$Ahadap -}        [ "observation", "viewing", "inspection" ],
 
-    MuFACiL                   `noun`    {- mu$Ahid -}          [ "viewer", "spectator", "witness" ],
+    MuFACiL                   `noun`    {- mu$Ahid -}          [ "viewer", "spectator", "witness" ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "viewer", "spectator", "witness" ]
+                              `plural`     MuFACiL |< At,
 
     IstiFCAL                  `noun`    {- Aisoti$ohAd -}      [ "martyrdom" ]
                               `plural`     IstiFCAL |< At,
@@ -840,6 +859,7 @@ cluster_16  = listing "Lexicon's properties"
     HaFCaL                    `adj`     {- Oa$ohar -}          [ unwords [ "more", "/", "most", "famous" ], unwords [ "more", "/", "most", "well", "-", "known" ] ],
 
     MaFCUL                    `adj`     {- ma$ohuwr -}         [ "famous", unwords [ "well", "-", "known" ], "celebrities", "luminaries" ]
+                              `plural`     MaFCUL |< Un
                               `plural`     MaFACIL,
 
     HiFCAL                    `noun`    {- Ii$ohAr -}          [ "declaration", "proclamation" ]

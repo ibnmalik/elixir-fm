@@ -1560,10 +1560,6 @@ cluster_140 = listing "Lexicon's properties"
 
     Identity                  `noun`    {- buwiynus -}         [ "Buenos" ] ]
 
- |> "buway_hir" <| [
-
-    Identity |< aT            `noun`    {- buwayoxirap -}      [ unwords [ "small", "steamship" ] ] ]
-
  |> "byrU^giyA" <| [
 
     Identity                  `noun`    {- byruwjiyA -}        [ "Peruggia" ] ]

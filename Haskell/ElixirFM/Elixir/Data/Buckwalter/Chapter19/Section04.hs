@@ -101,6 +101,10 @@ cluster_62  = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- gayAbap -}          [ "bottom", "depth" ],
 
+    FaCLUL |< aT              `noun`    {- gayobuwbap -}       [ "unconsciousness", "trance", "coma" ],
+
+    FaCLUL |< Iy              `adj`     {- gayobuwbiy~ -}      [ "comatose", "lethargic", "hypnotic" ],
+
     MaFIL                     `noun`    {- magiyb -}           [ "absence", "setting" ],
 
     TaFCIL                    `noun`    {- tagoyiyb -}         [ "removal", "absence" ]
@@ -116,6 +120,7 @@ cluster_62  = listing "Lexicon's properties"
 
     FA'iL                     `adj`     {- gA}ib -}            [ "absent" ]
                               `plural`     FuCCaL
+                              `plural`     FA'iL |< Un
                               `plural`     FuCCAL,
 
     MuFaCCiL                  `noun`    {- mugay~ib -}         [ "anesthetics", "stupefacients", "narcotics" ]
@@ -126,19 +131,21 @@ cluster_62  = listing "Lexicon's properties"
 
     MuFIL                     `noun`    {- mugiyb -}           [ unwords [ "grass", "widow" ] ],
 
-    MutaFaCCiL                `noun`    {- mutagay~ib -}       [ "absent" ],
+    MutaFaCCiL                `noun`    {- mutagay~ib -}       [ "absent" ]
+                              `plural`     MutaFaCCiL |< Un,
 
-    MuFtAL                    `noun`    {- mugotAb -}          [ "slandered", unwords [ "gossip", "monger" ] ] ]
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "absent" ]
+                              `plural`     MutaFaCCiL |< At,
+
+    MuFtAL                    `noun`    {- mugotAb -}          [ "slandered", unwords [ "gossip", "monger" ] ]
+                              `plural`     MuFtAL |< Un,
+
+    MuFtAL |< aT              `noun`    {- DERIVED -}          [ "slandered", unwords [ "gossip", "monger" ] ]
+                              `plural`     MuFtAL |< At ]
 
 
 cluster_63  = listing "Lexicon's properties"
 
-
- |> ".g y b b" <| [
-
-    KaRDUS |< aT              `noun`    {- gayobuwbap -}       [ "unconsciousness", "trance", "coma" ],
-
-    KaRDUS |< Iy              `adj`     {- gayobuwbiy~ -}      [ "comatose", "lethargic", "hypnotic" ] ]
 
  |> ".g y d" <| [
 
@@ -212,8 +219,7 @@ cluster_64  = listing "Lexicon's properties"
 
  |> ".g y n" <| [
 
-    FUCAL |< Iy               `adj`     {- guwyAniy~ -}        [ "Guyanese" ]
-                           {- `others`  [ "^guwyAniyy Nall", ".guwAyAniyy Nall", "^guwAyAniyy Nall" ] -},
+    FUCAL |< Iy               `adj`     {- guwyAniy~ -}        [ "Guyanese" ],
 
     FaCL                      `noun`    {- gayon -}            [ unwords [ "ghayn", "(", "Arabic", "letter", ")" ] ]
                               `plural`     FaCL |< At,
@@ -233,7 +239,11 @@ cluster_65  = listing "Lexicon's properties"
 
  |> ".g y r" <| [
 
-    MuFIL                     `noun`    {- mugiyr -}           [ "raider", "assailant" ],
+    MuFIL                     `noun`    {- mugiyr -}           [ "raider", "assailant" ]
+                              `plural`     MuFIL |< Un,
+
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "raider", "assailant" ]
+                              `plural`     MuFIL |< At,
 
     FaCL                      `part`    {- gayor -}            [ "not", "other" ],
 
@@ -276,7 +286,11 @@ cluster_65  = listing "Lexicon's properties"
 
     MuFACiL                   `adj`     {- mugAyir -}          [ unwords [ "different", "from" ], unwords [ "competing", "with" ], unwords [ "at", "odds", "with" ] ],
 
-    MutaFaCCiL                `noun`    {- mutagay~ir -}       [ "changing", "alternating" ],
+    MutaFaCCiL                `noun`    {- mutagay~ir -}       [ "changing", "alternating" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "changing", "alternating" ]
+                              `plural`     MutaFaCCiL |< At,
 
     MutaFACiL                 `adj`     {- mutagAyir -}        [ "differing", "heterogeneous" ] ]
 
@@ -346,7 +360,11 @@ cluster_67  = listing "Lexicon's properties"
 
     FaCAL |< Iy               `adj`     {- gazAliy~ -}         [ "Ghazali" ],
 
-    FaCCAL                    `noun`    {- gaz~Al -}           [ unwords [ "spinner", "of", "yarn" ] ],
+    FaCCAL                    `noun`    {- gaz~Al -}           [ unwords [ "spinner", "of", "yarn" ] ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "spinner", "of", "yarn" ] ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL |< aT              `noun`    {- gaz~Alap -}         [ "spider" ],
 
@@ -360,7 +378,11 @@ cluster_67  = listing "Lexicon's properties"
     TaFaCCuL                  `noun`    {- tagaz~ul -}         [ "flirtation", "dalliance" ]
                               `plural`     TaFaCCuL |< At,
 
-    MuFACiL                   `noun`    {- mugAzil -}          [ "flirting", "dallying" ] ]
+    MuFACiL                   `noun`    {- mugAzil -}          [ "flirting", "dallying" ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "flirting", "dallying" ]
+                              `plural`     MuFACiL |< At ]
 
 
 cluster_68  = listing "Lexicon's properties"

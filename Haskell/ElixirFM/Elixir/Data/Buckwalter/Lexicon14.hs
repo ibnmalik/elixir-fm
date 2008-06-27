@@ -64,13 +64,18 @@ cluster_1   = listing "Lexicon's properties"
  |> ".s ' m" <| [
 
     FACiL                     `adj`     {- SA}im -}            [ "fasting", "abstinent" ]
+                              `plural`     FACiL |< Un
                               `plural`     FiyAL
                               `plural`     FuyyaL
                            {- `others`  [ ".suwwam N" ] -} ]
 
  |> ".s ' n" <| [
 
-    FACiL                     `noun`    {- SA}in -}            [ "preserver", "protector", "maintainer" ] ]
+    FACiL                     `noun`    {- SA}in -}            [ "preserver", "protector", "maintainer" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "preserver", "protector", "maintainer" ]
+                              `plural`     FACiL |< At ]
 
  |> ".s ' t" <| [
 
@@ -249,7 +254,13 @@ cluster_5   = listing "Lexicon's properties"
                               `plural`     FuCLAn
                               `plural`     HaFCAL,
 
-    MaFCUL                    `adj`     {- maSoHuwb -}         [ "accompanied" ] ]
+    MaFCUL                    `adj`     {- maSoHuwb -}         [ "accompanied" ],
+
+    FuwayCiL                  `noun`    {- SuwayoHib -}        [ unwords [ "little", "friend" ] ]
+                              `plural`     FuwayCiL |< Un,
+
+    FuwayCiL |< aT            `noun`    {- DERIVED -}          [ unwords [ "little", "friend" ] ]
+                              `plural`     FuwayCiL |< At ]
 
 
 cluster_6   = listing "Lexicon's properties"
@@ -271,13 +282,21 @@ cluster_6   = listing "Lexicon's properties"
 
     FuCuL |< Iy               `adj`     {- SuHufiy~ -}         [ "journalistic", "press", "newspaper" ],
 
-    FuCuL |< Iy               `noun`    {- SuHufiy~ -}         [ "journalist", "reporter" ],
+    FuCuL |< Iy               `noun`    {- SuHufiy~ -}         [ "journalist", "reporter" ]
+                              `plural`     FuCuL |< Iy |< Un,
+
+    FuCuL |< Iy |< aT         `noun`    {- DERIVED -}          [ "journalist", "reporter" ]
+                              `plural`     FuCuL |< Iy |< At,
 
     FaCAL |< aT               `noun`    {- SaHAfap -}          [ "journalism", "press" ],
 
     FaCAL |< Iy               `adj`     {- SaHAfiy~ -}         [ "journalistic", "press" ],
 
-    FaCAL |< Iy               `noun`    {- SaHAfiy~ -}         [ "journalist", "reporter" ],
+    FaCAL |< Iy               `noun`    {- SaHAfiy~ -}         [ "journalist", "reporter" ]
+                              `plural`     FaCAL |< Iy |< Un,
+
+    FaCAL |< Iy |< aT         `noun`    {- DERIVED -}          [ "journalist", "reporter" ]
+                              `plural`     FaCAL |< Iy |< At,
 
     FaCCAL                    `noun`    {- SaH~Af -}           [ "Sahhaf" ],
 
@@ -332,8 +351,7 @@ cluster_7   = listing "Lexicon's properties"
 
     FaCALI                    `noun`    {- SaHAriy -}          [ "deserts" ],
 
-    FaCLA' |< Iy              `adj`     {- SaHorAwiy~ -}       [ "desert", "Saharan" ]
-                           {- `others`  [ ".sa.hrA'iyy Nall" ] -} ]
+    FaCLA' |< Iy              `adj`     {- SaHorAwiy~ -}       [ "desert", "Saharan" ] ]
 
  |> ".s .h w" <| [
 
@@ -607,7 +625,11 @@ cluster_12  = listing "Lexicon's properties"
     FiCAL                     `noun`    {- SibAg -}            [ "color", "dye", "condiment" ]
                               `plural`     HaFCiL |< aT,
 
-    FaCCAL                    `noun`    {- Sab~Ag -}           [ "dyer" ],
+    FaCCAL                    `noun`    {- Sab~Ag -}           [ "dyer" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "dyer" ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL                    `noun`    {- Sab~Ag -}           [ "Sabbagh" ],
 
@@ -942,7 +964,11 @@ cluster_20  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- SAdiH -}            [ "semitone" ],
 
-    FACiL                     `noun`    {- SAdiH -}            [ "singer", "tenor" ] ]
+    FACiL                     `noun`    {- SAdiH -}            [ "singer", "tenor" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "singer", "tenor" ]
+                              `plural`     FACiL |< At ]
 
  |> ".s d `" <| [
 
@@ -1305,7 +1331,11 @@ cluster_28  = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- taSofiyH -}         [ "plating" ]
                               `plural`     TaFCIL |< At,
 
-    FaCCAL                    `noun`    {- Saf~AH -}           [ "tinsmith" ],
+    FaCCAL                    `noun`    {- Saf~AH -}           [ "tinsmith" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "tinsmith" ]
+                              `plural`     FaCCAL |< At,
 
     TaFaCCuL                  `noun`    {- taSaf~uH -}         [ "examination", "perusal" ]
                               `plural`     TaFaCCuL |< At,
@@ -1342,7 +1372,11 @@ cluster_29  = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- SafoEap -}          [ "slap", "blow" ]
                               `plural`     FaCaL |< At,
 
-    FaCCAL                    `noun`    {- Saf~AE -}           [ "buffoon" ] ]
+    FaCCAL                    `noun`    {- Saf~AE -}           [ "buffoon" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "buffoon" ]
+                              `plural`     FaCCAL |< At ]
 
  |> ".s f d" <| [
 
@@ -1487,7 +1521,11 @@ cluster_32  = listing "Lexicon's properties"
 
     FACiL |< aT               `noun`    {- SAfirap -}          [ "whistle" ],
 
-    MuFaCCiL                  `noun`    {- muSaf~ir -}         [ "whistling", "whistler" ],
+    MuFaCCiL                  `noun`    {- muSaf~ir -}         [ "whistling", "whistler" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "whistling", "whistler" ]
+                              `plural`     MuFaCCiL |< At,
 
     FaCaL                     `noun`    {- Safar -}            [ "jaundice" ],
 
@@ -1517,7 +1555,11 @@ cluster_32  = listing "Lexicon's properties"
 
     FiCL |< Iy                `adj`     {- Siforiy~ -}         [ "null", "negative" ],
 
-    MuFCiL                    `noun`    {- muSofir -}          [ unwords [ "empty", "-", "handed" ] ] ]
+    MuFCiL                    `noun`    {- muSofir -}          [ unwords [ "empty", "-", "handed" ] ]
+                              `plural`     MuFCiL |< Un,
+
+    MuFCiL |< aT              `noun`    {- DERIVED -}          [ unwords [ "empty", "-", "handed" ] ]
+                              `plural`     MuFCiL |< At ]
 
 
 cluster_33  = listing "Lexicon's properties"
@@ -1734,7 +1776,8 @@ cluster_36  = listing "Lexicon's properties"
     KaRDUS                    `noun`    {- Sahoyuwn -}         [ "Sahyoun" ],
 
     KaRDUS |< Iy              `adj`     {- Sahoyuwniy~ -}      [ "Zionist" ]
-                              `plural`     KaRADiS |< aT,
+                              `plural`     KaRADiS |< aT
+                              `plural`     KaRDUS |< Iy |< Un,
 
     KaRDUS |< Iy |< aT        `noun`    {- Sahoyuwniy~ap -}    [ "Zionism" ] ]
 
@@ -1842,16 +1885,25 @@ cluster_37  = listing "Lexicon's properties"
     FawACiL |< aT             `noun`    {- SawAliHap -}        [ "Sawalheh" ],
 
     FACiL                     `adj`     {- SAliH -}            [ "pious", "upright" ]
+                              `plural`     FACiL |< Un
                               `plural`     FuCaLA'
                               `plural`     FuCCAL,
 
     FACiL |< At               `noun`    {- SAliHAt -}          [ unwords [ "good", "deeds" ] ]
                               `plural`     FACiL |< At,
 
-    MuFaCCiL                  `noun`    {- muSal~iH -}         [ "repairman" ],
+    MuFaCCiL                  `noun`    {- muSal~iH -}         [ "repairman" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "repairman" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFACiL                   `noun`    {- muSAliH -}          [ "peacemaker", "conciliator" ]
-                              `plural`     MuFCiL,
+                              `plural`     MuFACiL |< Un
+                              `plural`     MuFCiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "peacemaker", "conciliator" ]
+                              `plural`     MuFACiL |< At,
 
     MutaFACiL                 `adj`     {- mutaSAliH -}        [ unwords [ "at", "peace" ], "reconciled" ],
 
@@ -2203,7 +2255,11 @@ cluster_44  = listing "Lexicon's properties"
 
     MuFaCCiL                  `adj`     {- muSam~im -}         [ "determined", "resolute" ],
 
-    MuFaCCiL                  `noun`    {- muSam~im -}         [ "designer", "stylist" ],
+    MuFaCCiL                  `noun`    {- muSam~im -}         [ "designer", "stylist" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "designer", "stylist" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCaL                  `adj`     {- muSam~am -}         [ "designed", "resolved" ],
 
@@ -2321,7 +2377,11 @@ cluster_46  = listing "Lexicon's properties"
     IFtiCAL |< Iy             `adj`     {- AiSoTinAEiy~ -}     [ "artificial", "synthetic" ],
 
     FACiL                     `noun`    {- SAniE -}            [ "manufacturer", "producer", "artisan" ]
+                              `plural`     FACiL |< Un
                               `plural`     FuCCAL,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "manufacturer", "producer", "artisan" ]
+                              `plural`     FACiL |< At,
 
     FACiL                     `adj`     {- SAniE -}            [ "manufacturing", "producing" ],
 
@@ -2330,7 +2390,11 @@ cluster_46  = listing "Lexicon's properties"
     MaFCUL                    `noun`    {- maSonuwE -}         [ unwords [ "manufactured", "goods" ] ]
                               `plural`     MaFCUL |< At,
 
-    MuFaCCiL                  `noun`    {- muSan~iE -}         [ "manufacturer", "designer" ],
+    MuFaCCiL                  `noun`    {- muSan~iE -}         [ "manufacturer", "designer" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "manufacturer", "designer" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCaL                  `adj`     {- muSan~aE -}         [ "processed", "manufactured", "designed" ],
 
@@ -2387,7 +2451,11 @@ cluster_47  = listing "Lexicon's properties"
 
     TaFCIL |< Iy              `adj`     {- taSoniyfiy~ -}      [ "typological" ],
 
-    MuFaCCiL                  `noun`    {- muSan~if -}         [ "compiler", "classifier" ],
+    MuFaCCiL                  `noun`    {- muSan~if -}         [ "compiler", "classifier" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "compiler", "classifier" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCiL |< At            `noun`    {- muSan~ifAt -}       [ unwords [ "file", "holder" ], "binder" ]
                               `plural`     MuFaCCiL |< At,
@@ -2540,7 +2608,11 @@ cluster_50  = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- Saqoriy~ -}         [ unwords [ "falcon", "-", "like" ], unwords [ "hawk", "-", "like" ] ],
 
-    FaCCAL                    `noun`    {- Saq~Ar -}           [ "falconer" ],
+    FaCCAL                    `noun`    {- Saq~Ar -}           [ "falconer" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "falconer" ]
+                              `plural`     FaCCAL |< At,
 
     FACUL                     `noun`    {- SAquwr -}           [ unwords [ "stone", "ax" ] ],
 
@@ -2689,13 +2761,18 @@ cluster_53  = listing "Lexicon's properties"
 
     MaFCUL                    `adj`     {- maSoruwE -}         [ "epileptic", "demented" ],
 
-    MuFACiL                   `noun`    {- muSAriE -}          [ "fighter", "combatant", "wrestler" ] ]
+    MuFACiL                   `noun`    {- muSAriE -}          [ "fighter", "combatant", "wrestler" ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "fighter", "combatant", "wrestler" ]
+                              `plural`     MuFACiL |< At ]
 
  |> ".s r b" <| [
 
     FiCL                      `noun`    {- Sirob -}            [ "Serbia" ],
 
     FiCL |< Iy                `adj`     {- Sirobiy~ -}         [ "Serbian" ]
+                              `plural`     FiCL |< Iy |< Un
                               `plural`     FiCL ]
 
 
@@ -2737,7 +2814,11 @@ cluster_55  = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- Sariyf -}           [ "squeaking", "squealing" ],
 
-    FaCCAL                    `noun`    {- Sar~Af -}           [ unwords [ "money", "changer" ], "cashier" ],
+    FaCCAL                    `noun`    {- Sar~Af -}           [ unwords [ "money", "changer" ], "cashier" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "money", "changer" ], "cashier" ]
+                              `plural`     FaCCAL |< At,
 
     FaCIL |< aT               `noun`    {- Sariyfap -}         [ unwords [ "reed", "-", "mat", "hut" ] ]
                               `plural`     FaCA'iL,
@@ -2766,7 +2847,8 @@ cluster_55  = listing "Lexicon's properties"
 
     MutaFaCCiL                `noun`    {- mutaSar~if -}       [ unwords [ "provincial", "governor" ] ],
 
-    MutaFaCCiL |< Iy          `noun`    {- mutaSar~ifiy~ -}    [ "province", "jurisdiction" ],
+    MutaFaCCiL |< Iy          `noun`    {- mutaSar~ifiy~ -}    [ "province", "jurisdiction" ]
+                              `plural`     MutaFaCCiL |< Iy |< At,
 
     MunFaCiL                  `adj`     {- munoSarif -}        [ "departing", "leaving" ],
 
@@ -3017,7 +3099,11 @@ cluster_60  = listing "Lexicon's properties"
     TaFaCCuL                  `noun`    {- taSaw~uf -}         [ "Sufism", unwords [ "Islamic", "mysticism" ] ]
                               `plural`     TaFaCCuL |< At,
 
-    MutaFaCCiL                `noun`    {- mutaSaw~if -}       [ "Sufi", unwords [ "Muslim", "mystic" ] ] ]
+    MutaFaCCiL                `noun`    {- mutaSaw~if -}       [ "Sufi", unwords [ "Muslim", "mystic" ] ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "Sufi", unwords [ "Muslim", "mystic" ] ]
+                              `plural`     MutaFaCCiL |< At ]
 
 
 cluster_61  = listing "Lexicon's properties"
@@ -3060,6 +3146,7 @@ cluster_61  = listing "Lexicon's properties"
     FiyAL |< Iy               `adj`     {- SiyAmiy~ -}         [ "fasting" ],
 
     FA'iL                     `adj`     {- SA}im -}            [ "fasting", "abstinent" ]
+                              `plural`     FA'iL |< Un
                               `plural`     FiyAL
                               `plural`     FuyyaL
                               `plural`     FUCaL ]
@@ -3076,7 +3163,8 @@ cluster_61  = listing "Lexicon's properties"
     KuRDAS                    `noun`    {- SuwmAl -}           [ "Somalia" ],
 
     KuRDAS |< Iy              `adj`     {- SuwmAliy~ -}        [ "Somali" ]
-                              `plural`     KaRADiS |< aT ]
+                              `plural`     KaRADiS |< aT
+                              `plural`     KuRDAS |< Iy |< Un ]
 
 
 cluster_62  = listing "Lexicon's properties"
@@ -3101,7 +3189,11 @@ cluster_62  = listing "Lexicon's properties"
 
     FiyAL |< aT               `noun`    {- SiyAnap -}          [ "maintenance", "preservation" ],
 
-    FA'iL                     `noun`    {- SA}in -}            [ "preserver", "protector", "maintainer" ],
+    FA'iL                     `noun`    {- SA}in -}            [ "preserver", "protector", "maintainer" ]
+                              `plural`     FA'iL |< Un,
+
+    FA'iL |< aT               `noun`    {- DERIVED -}          [ "preserver", "protector", "maintainer" ]
+                              `plural`     FA'iL |< At,
 
     MaFUL                     `adj`     {- maSuwn -}           [ "preserved", "protected", "maintained" ] ]
 
@@ -3138,7 +3230,11 @@ cluster_63  = listing "Lexicon's properties"
 
     TaFCIL |< Iy              `adj`     {- taSowiyriy~ -}      [ "photographic", "pictorial" ],
 
-    MuFaCCiL                  `noun`    {- muSaw~ir -}         [ "photographer" ],
+    MuFaCCiL                  `noun`    {- muSaw~ir -}         [ "photographer" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "photographer" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCiL                  `noun`    {- muSaw~ir -}         [ "Musawwir" ],
 
@@ -3186,7 +3282,11 @@ cluster_64  = listing "Lexicon's properties"
 
     FA'iL                     `adj`     {- SA}it -}            [ "voiced", "sounded" ],
 
-    MuFaCCiL                  `noun`    {- muSaw~it -}         [ "voter" ],
+    MuFaCCiL                  `noun`    {- muSaw~it -}         [ "voter" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "voter" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCiL                  `adj`     {- muSaw~it -}         [ "loud" ] ]
 
@@ -3195,7 +3295,8 @@ cluster_64  = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- Sawotam -}          [ "phoneme" ]
                               `plural`     KaRADiS,
 
-    KaRDaS |< Iy              `adj`     {- Sawotamiy~ -}       [ "phonemic" ] ]
+    KaRDaS |< Iy              `adj`     {- Sawotamiy~ -}       [ "phonemic" ]
+                              `plural`     KaRDaS |< Iy |< At ]
 
  |> ".s w w" <| [
 
@@ -3279,7 +3380,11 @@ cluster_66  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Sayod -}            [ "hunting", "fishing", "trapping" ],
 
-    FaCCAL                    `noun`    {- Say~Ad -}           [ "hunter", "fisherman" ],
+    FaCCAL                    `noun`    {- Say~Ad -}           [ "hunter", "fisherman" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "hunter", "fisherman" ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL                    `noun`    {- Say~Ad -}           [ "Sayyad" ],
 
@@ -3298,7 +3403,8 @@ cluster_66  = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- Sayodalap -}        [ "pharmacology", "pharmaceutics" ],
 
     KaRDaS |< Iy              `adj`     {- Sayodaliy~ -}       [ "pharmacist" ]
-                              `plural`     KaRADiS |< aT,
+                              `plural`     KaRADiS |< aT
+                              `plural`     KaRDaS |< Iy |< Un,
 
     KaRDaS |< Iy              `adj`     {- Sayodaliy~ -}       [ "pharmaceutical" ],
 
@@ -3328,11 +3434,20 @@ cluster_67  = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- taSoyiyf -}         [ "summering", unwords [ "summer", "vacationing" ] ]
                               `plural`     TaFCIL |< At,
 
-    MuFaCCiL                  `noun`    {- muSay~if -}         [ unwords [ "summer", "vacationer" ] ],
+    MuFaCCiL                  `noun`    {- muSay~if -}         [ unwords [ "summer", "vacationer" ] ]
+                              `plural`     MuFaCCiL |< Un,
 
-    IFtiCAL                   `noun`    {- AiSotiyAf -}        [ "summering", unwords [ "summer", "vacationing" ] ],
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ unwords [ "summer", "vacationer" ] ]
+                              `plural`     MuFaCCiL |< At,
 
-    MuFtAL                    `noun`    {- muSoTAf -}          [ "summering", "vacationer" ],
+    IFtiCAL                   `noun`    {- AiSotiyAf -}        [ "summering", unwords [ "summer", "vacationing" ] ]
+                              `plural`     IFtiCAL |< At,
+
+    MuFtAL                    `noun`    {- muSoTAf -}          [ "summering", "vacationer" ]
+                              `plural`     MuFtAL |< Un,
+
+    MuFtAL |< aT              `noun`    {- DERIVED -}          [ "summering", "vacationer" ]
+                              `plural`     MuFtAL |< At,
 
     MuFtAL                    `noun`    {- muSoTAf -}          [ unwords [ "summer", "resort" ] ],
 
@@ -3377,6 +3492,8 @@ cluster_68  = listing "Lexicon's properties"
 
     FaCCaL                    `verb`    {- Say~ar -}           [ "induce", unwords [ "cause", "to", "do" ] ],
 
+    FaCLUL |< aT              `noun`    {- Sayoruwrap -}       [ "becoming", "outcome", "result" ],
+
     MaFIL                     `noun`    {- maSiyr -}           [ "path", "destiny", "fate" ]
                               `plural`     MaFACiL
                               `plural`     MaFA'iL,
@@ -3393,10 +3510,6 @@ cluster_68  = listing "Lexicon's properties"
 
     KaRDaS |< Iy              `noun`    {- Sayorafiy~ -}       [ unwords [ "money", "changer" ], "cashier" ]
                               `plural`     KaRADiS |< aT ]
-
- |> ".s y r r" <| [
-
-    KaRDUS |< aT              `noun`    {- Sayoruwrap -}       [ "becoming", "outcome", "result" ] ]
 
  |> ".s y t" <| [
 
@@ -3479,10 +3592,6 @@ cluster_69  = listing "Lexicon's properties"
  |> ".subbayr" <| [
 
     Identity                  `noun`    {- Sub~ayor -}         [ unwords [ "Indian", "fig" ] ] ]
-
- |> ".suway.hib" <| [
-
-    Identity                  `noun`    {- SuwayoHib -}        [ unwords [ "little", "friend" ] ] ]
 
  |> "ta.sfY" <| [
 

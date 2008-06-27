@@ -86,7 +86,11 @@ cluster_2   = listing "Lexicon's properties"
 
  |> "f ' z" <| [
 
-    FACiL                     `noun`    {- fA}iz -}            [ "winner", "victorious" ],
+    FACiL                     `noun`    {- fA}iz -}            [ "winner", "victorious" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "winner", "victorious" ]
+                              `plural`     FACiL |< At,
 
     FACiL                     `noun`    {- fA}iz -}            [ "Fayez", "Fayiz", "Fa'iz" ] ]
 
@@ -167,6 +171,7 @@ cluster_3   = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- fADil -}            [ "honorable", "eminent" ]
                               `plural`     HaFACiL
+                              `plural`     FACiL |< Un
                               `plural`     FuCaLA',
 
     FACiL                     `noun`    {- fADil -}            [ "Fadil" ],
@@ -470,13 +475,21 @@ cluster_8   = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- faxoriy~ -}         [ "honorary" ],
 
-    FaCUL                     `noun`    {- faxuwr -}           [ "proud" ],
+    FaCUL                     `noun`    {- faxuwr -}           [ "proud" ]
+                              `plural`     FaCUL |< Un,
+
+    FaCUL |< aT               `noun`    {- DERIVED -}          [ "proud" ]
+                              `plural`     FaCUL |< At,
 
     FACUL |< Iy               `adj`     {- fAxuwriy~ -}        [ "potter", "ceramist" ],
 
     FACUL |< Iy               `adj`     {- fAxuwriy~ -}        [ "Fakhouri" ],
 
-    FACiL                     `noun`    {- fAxir -}            [ "proud", "vainglorious" ],
+    FACiL                     `noun`    {- fAxir -}            [ "proud", "vainglorious" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "proud", "vainglorious" ]
+                              `plural`     FACiL |< At,
 
     FACiL                     `adj`     {- fAxir -}            [ "fine", unwords [ "de", "luxe" ], "magnificent" ] ]
 
@@ -527,7 +540,11 @@ cluster_9   = listing "Lexicon's properties"
     IFtiCAL                   `noun`    {- AifotiEAl -}        [ "provoking", "inciting", "concocting" ]
                               `plural`     IFtiCAL |< At,
 
-    FACiL                     `noun`    {- fAEil -}            [ "doer", "agent" ],
+    FACiL                     `noun`    {- fAEil -}            [ "doer", "agent" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "doer", "agent" ]
+                              `plural`     FACiL |< At,
 
     FACiL                     `adj`     {- fAEil -}            [ "effective", "active" ],
 
@@ -679,7 +696,11 @@ cluster_12  = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- tafokiyr -}         [ "thinking", "meditation", "reflection" ]
                               `plural`     TaFCIL |< At,
 
-    MuFaCCiL                  `noun`    {- mufak~ir -}         [ "intellectual" ] ]
+    MuFaCCiL                  `noun`    {- mufak~ir -}         [ "intellectual" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "intellectual" ]
+                              `plural`     MuFaCCiL |< At ]
 
  |> "f k s" <| [
 
@@ -697,7 +718,11 @@ cluster_13  = listing "Lexicon's properties"
 
     FiCAL |< Iy               `adj`     {- filAHiy~ -}         [ "agricultural" ],
 
-    FaCCAL                    `noun`    {- fal~AH -}           [ "peasant", "farmer" ],
+    FaCCAL                    `noun`    {- fal~AH -}           [ "peasant", "farmer" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "peasant", "farmer" ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL |< Iy              `adj`     {- fal~AHiy~ -}        [ "peasant" ],
 
@@ -738,7 +763,11 @@ cluster_13  = listing "Lexicon's properties"
                               `plural`     HiFCAL |< At,
 
     MuFCiL                    `noun`    {- mufolis -}          [ "bankrupt", "insolvent" ]
-                              `plural`     MaFACIL ]
+                              `plural`     MuFCiL |< Un
+                              `plural`     MaFACIL,
+
+    MuFCiL |< aT              `noun`    {- DERIVED -}          [ "bankrupt", "insolvent" ]
+                              `plural`     MuFCiL |< At ]
 
  |> "f l s f" <| [
 
@@ -783,11 +812,25 @@ cluster_14  = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- fan~iy~ -}          [ "technical", "artistic" ],
 
-    FaCL |< Iy                `noun`    {- fan~iy~ -}          [ "technician" ],
+    FaCL |< Iy                `noun`    {- fan~iy~ -}          [ "technician" ]
+                              `plural`     FaCL |< Iy |< Un,
 
-    FaCCAL                    `noun`    {- fan~An -}           [ "artist" ],
+    FaCL |< Iy |< aT          `noun`    {- DERIVED -}          [ "technician" ]
+                              `plural`     FaCL |< Iy |< At,
 
-    FaCLAn                    `noun`    {- fan~An -}           [ "artist" ] ]
+    FaCCAL                    `noun`    {- fan~An -}           [ "artist" ]
+                              `plural`     FaCCAL |< Un
+                              `plural`     FaCLAn |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "artist" ]
+                              `plural`     FaCCAL |< At,
+
+    FaCLAn                    `noun`    {- fan~An -}           [ "artist" ]
+                              `plural`     FaCCAL |< Un
+                              `plural`     FaCLAn |< Un,
+
+    FaCLAn |< aT              `noun`    {- DERIVED -}          [ "artist" ]
+                              `plural`     FaCLAn |< At ]
 
  |> "f n s" <| [
 
@@ -848,7 +891,11 @@ cluster_15  = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- fAqid -}            [ unwords [ "deprived", "of" ], unwords [ "bereft", "of" ] ],
 
-    MaFCUL                    `noun`    {- mafoquwd -}         [ "lost", "missing", "absent" ] ]
+    MaFCUL                    `noun`    {- mafoquwd -}         [ "lost", "missing", "absent" ]
+                              `plural`     MaFCUL |< Un,
+
+    MaFCUL |< aT              `noun`    {- DERIVED -}          [ "lost", "missing", "absent" ]
+                              `plural`     MaFCUL |< At ]
 
  |> "f q h" <| [
 
@@ -1013,7 +1060,11 @@ cluster_18  = listing "Lexicon's properties"
     InFiCAL                   `noun`    {- AinofirAj -}        [ "relaxation", "divergence" ]
                               `plural`     InFiCAL |< At,
 
-    MutaFaCCiL                `noun`    {- mutafar~ij -}       [ "spectator", "onlooker" ],
+    MutaFaCCiL                `noun`    {- mutafar~ij -}       [ "spectator", "onlooker" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "spectator", "onlooker" ]
+                              `plural`     MutaFaCCiL |< At,
 
     MuFCaL                    `adj`     {- muforaj -}          [ "released", "relaxed" ] ]
 

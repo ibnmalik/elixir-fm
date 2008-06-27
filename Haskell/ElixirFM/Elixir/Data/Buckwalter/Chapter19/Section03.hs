@@ -174,7 +174,11 @@ cluster_44  = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- gariyb -}           [ "stranger", "foreigner", "emigres" ]
                               `plural`     FuCaLA'
-                              `plural`     HaFCAL,
+                              `plural`     HaFCAL
+                              `plural`     FaCIL |< Un,
+
+    FaCIL |< aT               `noun`    {- DERIVED -}          [ "stranger", "foreigner", "emigres" ]
+                              `plural`     FaCIL |< At,
 
     FaCIL |< aT               `noun`    {- gariybap -}         [ "oddity" ]
                               `plural`     FaCA'iL,
@@ -192,10 +196,12 @@ cluster_44  = listing "Lexicon's properties"
     MaFACiL                   `noun`    {- magArib -}          [ unwords [ "western", "areas" ] ],
 
     MaFCiL |< Iy              `adj`     {- magoribiy~ -}       [ "Moroccan" ]
-                              `plural`     MaFACiL |< aT,
+                              `plural`     MaFACiL |< aT
+                              `plural`     MaFCiL |< Iy |< Un,
 
     MaFCiL |< Iy              `adj`     {- magoribiy~ -}       [ unwords [ "of", "/", "from", "the", "Maghrib", "(", "northwest", "Africa", ")" ] ]
-                              `plural`     MaFACiL |< aT,
+                              `plural`     MaFACiL |< aT
+                              `plural`     MaFCiL |< Iy |< Un,
 
     TaFCIL                    `noun`    {- tagoriyb -}         [ "banishment", "expatriation" ]
                               `plural`     TaFCIL |< At,
@@ -220,7 +226,11 @@ cluster_44  = listing "Lexicon's properties"
 
     MuFACaL |< Iy             `adj`     {- mugArabiy~ -}       [ "Mugharabi" ],
 
-    MustaFCiL                 `noun`    {- musotagorib -}      [ unwords [ "finding", "strange" ], "westernized" ],
+    MustaFCiL                 `noun`    {- musotagorib -}      [ unwords [ "finding", "strange" ], "westernized" ]
+                              `plural`     MustaFCiL |< Un,
+
+    MustaFCiL |< aT           `noun`    {- DERIVED -}          [ unwords [ "finding", "strange" ], "westernized" ]
+                              `plural`     MustaFCiL |< At,
 
     MustaFCaL                 `adj`     {- musotagorab -}      [ "strange", "odd" ] ]
 
@@ -363,7 +373,8 @@ cluster_48  = listing "Lexicon's properties"
 
     KuRDUS |< Iy              `adj`     {- guronuwqiy~ -}      [ "geranium" ],
 
-    KuRDUS |< Iy              `noun`    {- guronuwqiy~ -}      [ "geraniums" ] ]
+    KuRDUS |< Iy              `noun`    {- guronuwqiy~ -}      [ "geraniums" ]
+                              `plural`     KuRDUS |< Iy |< At ]
 
 
 cluster_49  = listing "Lexicon's properties"
@@ -653,11 +664,19 @@ cluster_54  = listing "Lexicon's properties"
     IFtiCAL                   `noun`    {- AigotisAl -}        [ "washing", "bath", "ablution" ]
                               `plural`     IFtiCAL |< At,
 
-    MuFtaCiL                  `noun`    {- mugotasil -}        [ "bather" ],
+    MuFtaCiL                  `noun`    {- mugotasil -}        [ "bather" ]
+                              `plural`     MuFtaCiL |< Un,
+
+    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "bather" ]
+                              `plural`     MuFtaCiL |< At,
 
     MuFtaCaL                  `noun`    {- mugotasal -}        [ "washroom" ],
 
-    FACiL                     `noun`    {- gAsil -}            [ "washer" ],
+    FACiL                     `noun`    {- gAsil -}            [ "washer" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "washer" ]
+                              `plural`     FACiL |< At,
 
     MaFCUL                    `adj`     {- magosuwl -}         [ "washed" ] ]
 
@@ -722,7 +741,11 @@ cluster_56  = listing "Lexicon's properties"
                               `plural`     FaCIL |< aT
                               `plural`     FiyAL |< aT,
 
-    FaCCAL                    `noun`    {- gaw~AS -}           [ "diver" ],
+    FaCCAL                    `noun`    {- gaw~AS -}           [ "diver" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "diver" ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL |< aT              `noun`    {- gaw~ASap -}         [ "submarine" ],
 
@@ -791,7 +814,11 @@ cluster_57  = listing "Lexicon's properties"
 
     MuFIL                     `noun`    {- mugiyv -}           [ "Mughith", "Mugeeth" ],
 
-    MustaFAL                  `noun`    {- musotagAv -}        [ unwords [ "requesting", "aid" ] ] ]
+    MustaFAL                  `noun`    {- musotagAv -}        [ unwords [ "requesting", "aid" ] ]
+                              `plural`     MustaFAL |< Un,
+
+    MustaFAL |< aT            `noun`    {- DERIVED -}          [ unwords [ "requesting", "aid" ] ]
+                              `plural`     MustaFAL |< At ]
 
  |> ".g w _t h" <| [
 
@@ -869,9 +896,17 @@ cluster_58  = listing "Lexicon's properties"
 
     FA'iL                     `noun`    {- gA}ir -}            [ "cave", "depression" ],
 
-    MuFIL                     `noun`    {- mugiyr -}           [ "raider", "assailant" ],
+    MuFIL                     `noun`    {- mugiyr -}           [ "raider", "assailant" ]
+                              `plural`     MuFIL |< Un,
 
-    MustaFCiL                 `noun`    {- musotagowir -}      [ "speleologist" ],
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "raider", "assailant" ]
+                              `plural`     MuFIL |< At,
+
+    MustaFCiL                 `noun`    {- musotagowir -}      [ "speleologist" ]
+                              `plural`     MustaFCiL |< Un,
+
+    MustaFCiL |< aT           `noun`    {- DERIVED -}          [ "speleologist" ]
+                              `plural`     MustaFCiL |< At,
 
     FUL                       `noun`    {- guwr -}             [ "Gore" ],
 
@@ -923,13 +958,11 @@ cluster_59  = listing "Lexicon's properties"
     MuFCI                     `noun`    {- mugowiy -}          [ "seducer", "tempting" ]
                               `plural`     MuFCI |< At,
 
-    FULAn |< Iy               `adj`     {- guwyAniy~ -}        [ "Guyanese" ]
-                           {- `others`  [ "^guwyAniyy Nall", ".guwAyAniyy Nall", "^guwAyAniyy Nall" ] -} ]
+    FULAn |< Iy               `adj`     {- guwyAniy~ -}        [ "Guyanese" ] ]
 
  |> ".g w y n" <| [
 
-    KuRDAS |< Iy              `adj`     {- guwyAniy~ -}        [ "Guyanese" ]
-                           {- `others`  [ "^guwyAniyy Nall", ".guwAyAniyy Nall", "^guwAyAniyy Nall" ] -} ]
+    KuRDAS |< Iy              `adj`     {- guwyAniy~ -}        [ "Guyanese" ] ]
 
  |> ".g w z" <| [
 

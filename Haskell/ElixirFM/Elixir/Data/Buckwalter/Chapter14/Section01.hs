@@ -64,13 +64,18 @@ cluster_1   = listing "Lexicon's properties"
  |> ".s ' m" <| [
 
     FACiL                     `adj`     {- SA}im -}            [ "fasting", "abstinent" ]
+                              `plural`     FACiL |< Un
                               `plural`     FiyAL
                               `plural`     FuyyaL
                            {- `others`  [ ".suwwam N" ] -} ]
 
  |> ".s ' n" <| [
 
-    FACiL                     `noun`    {- SA}in -}            [ "preserver", "protector", "maintainer" ] ]
+    FACiL                     `noun`    {- SA}in -}            [ "preserver", "protector", "maintainer" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "preserver", "protector", "maintainer" ]
+                              `plural`     FACiL |< At ]
 
  |> ".s ' t" <| [
 
@@ -249,7 +254,13 @@ cluster_5   = listing "Lexicon's properties"
                               `plural`     FuCLAn
                               `plural`     HaFCAL,
 
-    MaFCUL                    `adj`     {- maSoHuwb -}         [ "accompanied" ] ]
+    MaFCUL                    `adj`     {- maSoHuwb -}         [ "accompanied" ],
+
+    FuwayCiL                  `noun`    {- SuwayoHib -}        [ unwords [ "little", "friend" ] ]
+                              `plural`     FuwayCiL |< Un,
+
+    FuwayCiL |< aT            `noun`    {- DERIVED -}          [ unwords [ "little", "friend" ] ]
+                              `plural`     FuwayCiL |< At ]
 
 
 cluster_6   = listing "Lexicon's properties"
@@ -271,13 +282,21 @@ cluster_6   = listing "Lexicon's properties"
 
     FuCuL |< Iy               `adj`     {- SuHufiy~ -}         [ "journalistic", "press", "newspaper" ],
 
-    FuCuL |< Iy               `noun`    {- SuHufiy~ -}         [ "journalist", "reporter" ],
+    FuCuL |< Iy               `noun`    {- SuHufiy~ -}         [ "journalist", "reporter" ]
+                              `plural`     FuCuL |< Iy |< Un,
+
+    FuCuL |< Iy |< aT         `noun`    {- DERIVED -}          [ "journalist", "reporter" ]
+                              `plural`     FuCuL |< Iy |< At,
 
     FaCAL |< aT               `noun`    {- SaHAfap -}          [ "journalism", "press" ],
 
     FaCAL |< Iy               `adj`     {- SaHAfiy~ -}         [ "journalistic", "press" ],
 
-    FaCAL |< Iy               `noun`    {- SaHAfiy~ -}         [ "journalist", "reporter" ],
+    FaCAL |< Iy               `noun`    {- SaHAfiy~ -}         [ "journalist", "reporter" ]
+                              `plural`     FaCAL |< Iy |< Un,
+
+    FaCAL |< Iy |< aT         `noun`    {- DERIVED -}          [ "journalist", "reporter" ]
+                              `plural`     FaCAL |< Iy |< At,
 
     FaCCAL                    `noun`    {- SaH~Af -}           [ "Sahhaf" ],
 
@@ -332,8 +351,7 @@ cluster_7   = listing "Lexicon's properties"
 
     FaCALI                    `noun`    {- SaHAriy -}          [ "deserts" ],
 
-    FaCLA' |< Iy              `adj`     {- SaHorAwiy~ -}       [ "desert", "Saharan" ]
-                           {- `others`  [ ".sa.hrA'iyy Nall" ] -} ]
+    FaCLA' |< Iy              `adj`     {- SaHorAwiy~ -}       [ "desert", "Saharan" ] ]
 
  |> ".s .h w" <| [
 
@@ -607,7 +625,11 @@ cluster_12  = listing "Lexicon's properties"
     FiCAL                     `noun`    {- SibAg -}            [ "color", "dye", "condiment" ]
                               `plural`     HaFCiL |< aT,
 
-    FaCCAL                    `noun`    {- Sab~Ag -}           [ "dyer" ],
+    FaCCAL                    `noun`    {- Sab~Ag -}           [ "dyer" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "dyer" ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL                    `noun`    {- Sab~Ag -}           [ "Sabbagh" ],
 
@@ -942,7 +964,11 @@ cluster_20  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- SAdiH -}            [ "semitone" ],
 
-    FACiL                     `noun`    {- SAdiH -}            [ "singer", "tenor" ] ]
+    FACiL                     `noun`    {- SAdiH -}            [ "singer", "tenor" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "singer", "tenor" ]
+                              `plural`     FACiL |< At ]
 
  |> ".s d `" <| [
 

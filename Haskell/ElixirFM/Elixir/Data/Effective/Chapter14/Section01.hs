@@ -42,6 +42,7 @@ cluster_1   = listing "Lexicon's properties"
  |> ".s ' m" <| [
 
     FACiL                     `adj`     {- SA}im -}            [ "fasting", "abstinent" ]
+                              `plural`     FACiL |< Un
                               `plural`     FiyAL
                               `plural`     FuyyaL
                            {- `others`  [ ".suwwam N" ] -} ]
@@ -140,13 +141,21 @@ cluster_3   = listing "Lexicon's properties"
 
     FuCuL |< Iy               `adj`     {- SuHufiy~ -}         [ "journalistic", "press", "newspaper" ],
 
-    FuCuL |< Iy               `noun`    {- SuHufiy~ -}         [ "journalist", "reporter" ],
+    FuCuL |< Iy               `noun`    {- SuHufiy~ -}         [ "journalist", "reporter" ]
+                              `plural`     FuCuL |< Iy |< Un,
+
+    FuCuL |< Iy |< aT         `noun`    {- DERIVED -}          [ "journalist", "reporter" ]
+                              `plural`     FuCuL |< Iy |< At,
 
     FaCAL |< aT               `noun`    {- SaHAfap -}          [ "journalism", "press" ],
 
     FaCAL |< Iy               `adj`     {- SaHAfiy~ -}         [ "journalistic", "press" ],
 
-    FaCAL |< Iy               `noun`    {- SaHAfiy~ -}         [ "journalist", "reporter" ],
+    FaCAL |< Iy               `noun`    {- SaHAfiy~ -}         [ "journalist", "reporter" ]
+                              `plural`     FaCAL |< Iy |< Un,
+
+    FaCAL |< Iy |< aT         `noun`    {- DERIVED -}          [ "journalist", "reporter" ]
+                              `plural`     FaCAL |< Iy |< At,
 
     FaCCAL                    `noun`    {- SaH~Af -}           [ "Sahhaf" ],
 
@@ -167,8 +176,7 @@ cluster_3   = listing "Lexicon's properties"
     TaFaCCuL                  `noun`    {- taSaH~ur -}         [ "desertification" ]
                               `plural`     TaFaCCuL |< At,
 
-    FaCLA' |< Iy              `adj`     {- SaHorAwiy~ -}       [ "desert", "Saharan" ]
-                           {- `others`  [ ".sa.hrA'iyy Nall" ] -} ]
+    FaCLA' |< Iy              `adj`     {- SaHorAwiy~ -}       [ "desert", "Saharan" ] ]
 
  |> ".s .h w" <| [
 
@@ -665,7 +673,8 @@ cluster_13  = listing "Lexicon's properties"
     KaRDUS                    `noun`    {- Sahoyuwn -}         [ "Sahyoun" ],
 
     KaRDUS |< Iy              `adj`     {- Sahoyuwniy~ -}      [ "Zionist" ]
-                              `plural`     KaRADiS |< aT,
+                              `plural`     KaRADiS |< aT
+                              `plural`     KaRDUS |< Iy |< Un,
 
     KaRDUS |< Iy |< aT        `noun`    {- Sahoyuwniy~ap -}    [ "Zionism" ] ]
 
@@ -729,6 +738,7 @@ cluster_14  = listing "Lexicon's properties"
                               `plural`     FawACiL,
 
     FACiL                     `adj`     {- SAliH -}            [ "pious", "upright" ]
+                              `plural`     FACiL |< Un
                               `plural`     FuCaLA'
                               `plural`     FuCCAL,
 
@@ -822,7 +832,11 @@ cluster_16  = listing "Lexicon's properties"
 
     MuFaCCiL                  `adj`     {- muSam~im -}         [ "determined", "resolute" ],
 
-    MuFaCCiL                  `noun`    {- muSam~im -}         [ "designer", "stylist" ],
+    MuFaCCiL                  `noun`    {- muSam~im -}         [ "designer", "stylist" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "designer", "stylist" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCaL                  `adj`     {- muSam~am -}         [ "designed", "resolved" ] ]
 
@@ -867,7 +881,11 @@ cluster_17  = listing "Lexicon's properties"
     IFtiCAL |< Iy             `adj`     {- AiSoTinAEiy~ -}     [ "artificial", "synthetic" ],
 
     FACiL                     `noun`    {- SAniE -}            [ "manufacturer", "producer", "artisan" ]
+                              `plural`     FACiL |< Un
                               `plural`     FuCCAL,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "manufacturer", "producer", "artisan" ]
+                              `plural`     FACiL |< At,
 
     FACiL                     `adj`     {- SAniE -}            [ "manufacturing", "producing" ],
 
@@ -876,7 +894,11 @@ cluster_17  = listing "Lexicon's properties"
     MaFCUL                    `noun`    {- maSonuwE -}         [ unwords [ "manufactured", "goods" ] ]
                               `plural`     MaFCUL |< At,
 
-    MuFaCCiL                  `noun`    {- muSan~iE -}         [ "manufacturer", "designer" ],
+    MuFaCCiL                  `noun`    {- muSan~iE -}         [ "manufacturer", "designer" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "manufacturer", "designer" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCaL                  `adj`     {- muSan~aE -}         [ "processed", "manufactured", "designed" ],
 
@@ -995,6 +1017,7 @@ cluster_19  = listing "Lexicon's properties"
  |> ".s r b" <| [
 
     FiCL |< Iy                `adj`     {- Sirobiy~ -}         [ "Serbian" ]
+                              `plural`     FiCL |< Iy |< Un
                               `plural`     FiCL ]
 
 
@@ -1014,7 +1037,11 @@ cluster_20  = listing "Lexicon's properties"
 
     FiCL                      `noun`    {- Sirof -}            [ "mere", "pure" ],
 
-    FaCCAL                    `noun`    {- Sar~Af -}           [ unwords [ "money", "changer" ], "cashier" ],
+    FaCCAL                    `noun`    {- Sar~Af -}           [ unwords [ "money", "changer" ], "cashier" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "money", "changer" ], "cashier" ]
+                              `plural`     FaCCAL |< At,
 
     MaFCiL                    `noun`    {- maSorif -}          [ "bank" ]
                               `plural`     MaFACiL,

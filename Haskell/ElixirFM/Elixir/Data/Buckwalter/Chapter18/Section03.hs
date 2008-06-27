@@ -304,7 +304,11 @@ cluster_46  = listing "Lexicon's properties"
 
     TaFCIL |< Iy              `adj`     {- taEodiyniy~ -}      [ "mining", "metallurgy" ],
 
-    MuFaCCiL                  `noun`    {- muEad~in -}         [ "miner" ] ]
+    MuFaCCiL                  `noun`    {- muEad~in -}         [ "miner" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "miner" ]
+                              `plural`     MuFaCCiL |< At ]
 
  |> "` d s" <| [
 
@@ -726,9 +730,17 @@ cluster_54  = listing "Lexicon's properties"
 
     MaFCUL                    `adj`     {- maEohuwd -}         [ "contractual", unwords [ "well", "-", "known" ], "stipulated" ],
 
-    MutaFaCCiL                `noun`    {- mutaEah~id -}       [ "contractor", "entrepreneur" ],
+    MutaFaCCiL                `noun`    {- mutaEah~id -}       [ "contractor", "entrepreneur" ]
+                              `plural`     MutaFaCCiL |< Un,
 
-    MutaFACiL                 `noun`    {- mutaEAhid -}        [ unwords [ "contracting", "parties" ] ] ]
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "contractor", "entrepreneur" ]
+                              `plural`     MutaFaCCiL |< At,
+
+    MutaFACiL                 `noun`    {- mutaEAhid -}        [ unwords [ "contracting", "parties" ] ]
+                              `plural`     MutaFACiL |< Un,
+
+    MutaFACiL |< aT           `noun`    {- DERIVED -}          [ unwords [ "contracting", "parties" ] ]
+                              `plural`     MutaFACiL |< At ]
 
  |> "` h l" <| [
 
@@ -884,7 +896,11 @@ cluster_57  = listing "Lexicon's properties"
 
     MuFaCCaL                  `adj`     {- muEak~ar -}         [ "disturbed", "perturbed", "turbid" ],
 
-    MuFaCCiL                  `noun`    {- muEak~ir -}         [ "spoilsport", "troublemaker" ],
+    MuFaCCiL                  `noun`    {- muEak~ir -}         [ "spoilsport", "troublemaker" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "spoilsport", "troublemaker" ]
+                              `plural`     MuFaCCiL |< At,
 
     MutaFaCCiL                `adj`     {- mutaEak~ir -}       [ "disturbed", "perturbed" ] ]
 

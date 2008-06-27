@@ -54,7 +54,11 @@ cluster_101 = listing "Lexicon's properties"
 
     FiyAL |< aT               `noun`    {- siyAqap -}          [ "driving", "steering" ],
 
-    FaCCAL                    `noun`    {- saw~Aq -}           [ "chauffeur", "driver" ],
+    FaCCAL                    `noun`    {- saw~Aq -}           [ "chauffeur", "driver" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "chauffeur", "driver" ]
+                              `plural`     FaCCAL |< At,
 
     MaFAL                     `noun`    {- masAq -}            [ unwords [ "study", "course" ], "progress", "upshot" ],
 
@@ -74,7 +78,11 @@ cluster_101 = listing "Lexicon's properties"
     InFiyAL                   `noun`    {- AinosiyAq -}        [ "thoughtlessness", unwords [ "being", "carried", "away" ] ]
                               `plural`     InFiyAL |< At,
 
-    FA'iL                     `noun`    {- sA}iq -}            [ "chauffeur", "driver" ] ]
+    FA'iL                     `noun`    {- sA}iq -}            [ "chauffeur", "driver" ]
+                              `plural`     FA'iL |< Un,
+
+    FA'iL |< aT               `noun`    {- DERIVED -}          [ "chauffeur", "driver" ]
+                              `plural`     FA'iL |< At ]
 
 
 cluster_102 = listing "Lexicon's properties"
@@ -149,7 +157,11 @@ cluster_103 = listing "Lexicon's properties"
     FiyAL |< Iy               `adj`     {- siyAsiy~ -}         [ "political" ],
 
     FiyAL |< Iy               `noun`    {- siyAsiy~ -}         [ "politician", "statesman", "statesmen" ]
-                              `plural`     FAL |< aT,
+                              `plural`     FAL |< aT
+                              `plural`     FiyAL |< Iy |< Un,
+
+    FiyAL |< Iy |< aT         `noun`    {- DERIVED -}          [ "politician", "statesman", "statesmen" ]
+                              `plural`     FiyAL |< Iy |< At,
 
     lA >| FiyAL |< Iy         `adj`     {- lAsiyAsiy~ -}       [ unwords [ "non", "-", "political" ] ],
 
@@ -260,8 +272,7 @@ cluster_106 = listing "Lexicon's properties"
     IFtiCAL                   `noun`    {- AisotiyA' -}        [ "dissatisfaction", "displeasure" ]
                               `plural`     IFtiCAL |< At,
 
-    MuFIL                     `adj`     {- musiy' -}           [ "insulting", "harming", "pernicious" ]
-                              `plural`     MuFIL |< Un,
+    MuFIL                     `adj`     {- musiy' -}           [ "insulting", "harming", "pernicious" ],
 
     FaCCiL                    `noun`    {- say~i' -}           [ "bad" ]
                               `plural`     FaCCiL |< Un,
@@ -285,10 +296,18 @@ cluster_106 = listing "Lexicon's properties"
 
     FiCAL |< Iy               `adj`     {- siyAHiy~ -}         [ "tourist", "tourism" ],
 
-    FaCCAL                    `noun`    {- say~AH -}           [ "traveler" ],
+    FaCCAL                    `noun`    {- say~AH -}           [ "traveler" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "traveler" ]
+                              `plural`     FaCCAL |< At,
 
     FA'iL                     `noun`    {- sA}iH -}            [ "tourist" ]
+                              `plural`     FA'iL |< Un
                               `plural`     FuCCAL,
+
+    FA'iL |< aT               `noun`    {- DERIVED -}          [ "tourist" ]
+                              `plural`     FA'iL |< At,
 
     MuFaCCaL                  `adj`     {- musay~aH -}         [ "liquid", "striped" ] ]
 
@@ -394,7 +413,11 @@ cluster_108 = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- say~Af -}           [ "Sayyaf" ],
 
-    FaCCAL                    `noun`    {- say~Af -}           [ "executioner" ],
+    FaCCAL                    `noun`    {- say~Af -}           [ "executioner" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "executioner" ]
+                              `plural`     FaCCAL |< At,
 
     MuFACaL |< aT             `noun`    {- musAyafap -}        [ "fencing" ],
 
@@ -411,8 +434,7 @@ cluster_108 = listing "Lexicon's properties"
     KaRDUS |< At              `noun`    {- sayokuwbAt -}       [ "psychopath" ]
                            {- `others`  [ "saykuwbA_t N0" ] -},
 
-    KaRDUS |< At |< Iy        `adj`     {- sayokuwbAtiy~ -}    [ "psychopathic" ]
-                           {- `others`  [ "saykuwbA_tiyy Nall" ] -} ]
+    KaRDUS |< At |< Iy        `adj`     {- sayokuwbAtiy~ -}    [ "psychopathic" ] ]
 
 
 cluster_109 = listing "Lexicon's properties"
@@ -542,7 +564,11 @@ cluster_111 = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- sAyir -}            [ "Sayir" ],
 
-    MuFaCCiL                  `noun`    {- musay~ir -}         [ "director", "leader" ],
+    MuFaCCiL                  `noun`    {- musay~ir -}         [ "director", "leader" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "director", "leader" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCaL                  `adj`     {- musay~ar -}         [ "guided", unwords [ "remote", "-", "controlled" ] ] ]
 
@@ -564,7 +590,11 @@ cluster_112 = listing "Lexicon's properties"
     FiCAL |< Iy               `adj`     {- siyAsiy~ -}         [ "political" ],
 
     FiCAL |< Iy               `noun`    {- siyAsiy~ -}         [ "politician", "statesman", "statesmen" ]
-                              `plural`     FAL |< aT,
+                              `plural`     FAL |< aT
+                              `plural`     FiCAL |< Iy |< Un,
+
+    FiCAL |< Iy |< aT         `noun`    {- DERIVED -}          [ "politician", "statesman", "statesmen" ]
+                              `plural`     FiCAL |< Iy |< At,
 
     lA >| FiCAL |< Iy         `adj`     {- lAsiyAsiy~ -}       [ unwords [ "non", "-", "political" ] ],
 

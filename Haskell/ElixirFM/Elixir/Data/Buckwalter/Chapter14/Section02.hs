@@ -338,7 +338,11 @@ cluster_28  = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- taSofiyH -}         [ "plating" ]
                               `plural`     TaFCIL |< At,
 
-    FaCCAL                    `noun`    {- Saf~AH -}           [ "tinsmith" ],
+    FaCCAL                    `noun`    {- Saf~AH -}           [ "tinsmith" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "tinsmith" ]
+                              `plural`     FaCCAL |< At,
 
     TaFaCCuL                  `noun`    {- taSaf~uH -}         [ "examination", "perusal" ]
                               `plural`     TaFaCCuL |< At,
@@ -375,7 +379,11 @@ cluster_29  = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- SafoEap -}          [ "slap", "blow" ]
                               `plural`     FaCaL |< At,
 
-    FaCCAL                    `noun`    {- Saf~AE -}           [ "buffoon" ] ]
+    FaCCAL                    `noun`    {- Saf~AE -}           [ "buffoon" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "buffoon" ]
+                              `plural`     FaCCAL |< At ]
 
  |> ".s f d" <| [
 
@@ -520,7 +528,11 @@ cluster_32  = listing "Lexicon's properties"
 
     FACiL |< aT               `noun`    {- SAfirap -}          [ "whistle" ],
 
-    MuFaCCiL                  `noun`    {- muSaf~ir -}         [ "whistling", "whistler" ],
+    MuFaCCiL                  `noun`    {- muSaf~ir -}         [ "whistling", "whistler" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "whistling", "whistler" ]
+                              `plural`     MuFaCCiL |< At,
 
     FaCaL                     `noun`    {- Safar -}            [ "jaundice" ],
 
@@ -550,7 +562,11 @@ cluster_32  = listing "Lexicon's properties"
 
     FiCL |< Iy                `adj`     {- Siforiy~ -}         [ "null", "negative" ],
 
-    MuFCiL                    `noun`    {- muSofir -}          [ unwords [ "empty", "-", "handed" ] ] ]
+    MuFCiL                    `noun`    {- muSofir -}          [ unwords [ "empty", "-", "handed" ] ]
+                              `plural`     MuFCiL |< Un,
+
+    MuFCiL |< aT              `noun`    {- DERIVED -}          [ unwords [ "empty", "-", "handed" ] ]
+                              `plural`     MuFCiL |< At ]
 
 
 cluster_33  = listing "Lexicon's properties"
@@ -767,7 +783,8 @@ cluster_36  = listing "Lexicon's properties"
     KaRDUS                    `noun`    {- Sahoyuwn -}         [ "Sahyoun" ],
 
     KaRDUS |< Iy              `adj`     {- Sahoyuwniy~ -}      [ "Zionist" ]
-                              `plural`     KaRADiS |< aT,
+                              `plural`     KaRADiS |< aT
+                              `plural`     KaRDUS |< Iy |< Un,
 
     KaRDUS |< Iy |< aT        `noun`    {- Sahoyuwniy~ap -}    [ "Zionism" ] ]
 
@@ -875,16 +892,25 @@ cluster_37  = listing "Lexicon's properties"
     FawACiL |< aT             `noun`    {- SawAliHap -}        [ "Sawalheh" ],
 
     FACiL                     `adj`     {- SAliH -}            [ "pious", "upright" ]
+                              `plural`     FACiL |< Un
                               `plural`     FuCaLA'
                               `plural`     FuCCAL,
 
     FACiL |< At               `noun`    {- SAliHAt -}          [ unwords [ "good", "deeds" ] ]
                               `plural`     FACiL |< At,
 
-    MuFaCCiL                  `noun`    {- muSal~iH -}         [ "repairman" ],
+    MuFaCCiL                  `noun`    {- muSal~iH -}         [ "repairman" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "repairman" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFACiL                   `noun`    {- muSAliH -}          [ "peacemaker", "conciliator" ]
-                              `plural`     MuFCiL,
+                              `plural`     MuFACiL |< Un
+                              `plural`     MuFCiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "peacemaker", "conciliator" ]
+                              `plural`     MuFACiL |< At,
 
     MutaFACiL                 `adj`     {- mutaSAliH -}        [ unwords [ "at", "peace" ], "reconciled" ],
 

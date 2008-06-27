@@ -108,8 +108,7 @@ cluster_103 = listing "Lexicon's properties"
 
  |> "n m s '" <| [
 
-    KaRDAS |< Iy              `adj`     {- namosAwiy~ -}       [ "Austrian" ]
-                           {- `others`  [ "namsawiyy Nall" ] -} ]
+    KaRDAS |< Iy              `adj`     {- namosAwiy~ -}       [ "Austrian" ] ]
 
  |> "n m w" <| [
 
@@ -293,7 +292,11 @@ cluster_107 = listing "Lexicon's properties"
 
     MaFCUL                    `adj`     {- manoquwS -}         [ "reduced", "deficient", "insufficient" ],
 
-    MuFACiL                   `noun`    {- munAqiS -}          [ "bidder" ] ]
+    MuFACiL                   `noun`    {- munAqiS -}          [ "bidder" ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "bidder" ]
+                              `plural`     MuFACiL |< At ]
 
 
 cluster_108 = listing "Lexicon's properties"
@@ -360,7 +363,11 @@ cluster_109 = listing "Lexicon's properties"
 
     MaFCUL                    `noun`    {- manoquw$ -}         [ "colored", "engraved", "sculptured" ],
 
-    MuFACiL                   `noun`    {- munAqi$ -}          [ "debater", "arguing" ] ]
+    MuFACiL                   `noun`    {- munAqi$ -}          [ "debater", "arguing" ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "debater", "arguing" ]
+                              `plural`     MuFACiL |< At ]
 
 
 cluster_110 = listing "Lexicon's properties"
@@ -384,7 +391,11 @@ cluster_110 = listing "Lexicon's properties"
     IstiFCAL                  `noun`    {- AisotinoqA* -}      [ "rescue", "salvation", "relief" ]
                               `plural`     IstiFCAL |< At,
 
-    MuFCiL                    `noun`    {- munoqi* -}          [ "rescuer", "deliverer" ] ]
+    MuFCiL                    `noun`    {- munoqi* -}          [ "rescuer", "deliverer" ]
+                              `plural`     MuFCiL |< Un,
+
+    MuFCiL |< aT              `noun`    {- DERIVED -}          [ "rescuer", "deliverer" ]
+                              `plural`     MuFCiL |< At ]
 
 
 cluster_111 = listing "Lexicon's properties"
@@ -412,7 +423,8 @@ cluster_111 = listing "Lexicon's properties"
 
     FuCAL |< aT               `noun`    {- nuqAEap -}          [ "infusion" ],
 
-    FuCAL |< Iy               `adj`     {- nuqAEiy~ -}         [ "microscopic", unwords [ "infusoria", "(", "microscopic", "sea", "creatures", ")" ] ],
+    FuCAL |< Iy               `adj`     {- nuqAEiy~ -}         [ "microscopic", unwords [ "infusoria", "(", "microscopic", "sea", "creatures", ")" ] ]
+                              `plural`     FuCAL |< Iy |< At,
 
     FaCIL                     `noun`    {- naqiyE -}           [ "infusion", "juice" ],
 
@@ -492,7 +504,11 @@ cluster_112 = listing "Lexicon's properties"
 
     TaFCIL |< Iy              `adj`     {- tanoqiybiy~ -}      [ "exploratory" ],
 
-    MuFaCCiL                  `noun`    {- munaq~ib -}         [ "driller", "excavator", "prospector" ] ]
+    MuFaCCiL                  `noun`    {- munaq~ib -}         [ "driller", "excavator", "prospector" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "driller", "excavator", "prospector" ]
+                              `plural`     MuFaCCiL |< At ]
 
 
 cluster_113 = listing "Lexicon's properties"
@@ -521,7 +537,11 @@ cluster_113 = listing "Lexicon's properties"
 
     FaCL |< Iy |< aT          `noun`    {- naqodiy~ap -}       [ unwords [ "ready", "money" ], "cash" ],
 
-    FaCCAL                    `noun`    {- naq~Ad -}           [ "critic", "reviewer" ],
+    FaCCAL                    `noun`    {- naq~Ad -}           [ "critic", "reviewer" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "critic", "reviewer" ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL |< aT              `noun`    {- naq~Adap -}         [ "carper", unwords [ "captious", "critic" ] ],
 
@@ -537,11 +557,23 @@ cluster_113 = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- nAqid -}            [ "critic", "critical" ]
                               `plural`     FaCaL |< aT
-                              `plural`     FuCCAL,
+                              `plural`     FuCCAL
+                              `plural`     FACiL |< Un,
 
-    MuFtaCiL                  `noun`    {- munotaqid -}        [ "critic" ],
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "critic", "critical" ]
+                              `plural`     FACiL |< At,
 
-    MuFtaCaL                  `noun`    {- munotaqad -}        [ "reprehensible", "objectionable" ] ]
+    MuFtaCiL                  `noun`    {- munotaqid -}        [ "critic" ]
+                              `plural`     MuFtaCiL |< Un,
+
+    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "critic" ]
+                              `plural`     MuFtaCiL |< At,
+
+    MuFtaCaL                  `noun`    {- munotaqad -}        [ "reprehensible", "objectionable" ]
+                              `plural`     MuFtaCaL |< Un,
+
+    MuFtaCaL |< aT            `noun`    {- DERIVED -}          [ "reprehensible", "objectionable" ]
+                              `plural`     MuFtaCaL |< At ]
 
 
 cluster_114 = listing "Lexicon's properties"
@@ -601,7 +633,8 @@ cluster_115 = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- naqol -}            [ "transmission", "relaying" ],
 
-    FaCL |< Iy                `adj`     {- naqoliy~ -}         [ "transportation", unwords [ "transport", "services" ] ],
+    FaCL |< Iy                `adj`     {- naqoliy~ -}         [ "transportation", unwords [ "transport", "services" ] ]
+                              `plural`     FaCL |< Iy |< At,
 
     FuCUL                     `noun`    {- nuquwl -}           [ unwords [ "salted", "nuts" ] ],
 
@@ -636,7 +669,11 @@ cluster_115 = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- nAqil -}            [ "transmitting", "carrying", "conveying", "carriers" ]
                               `plural`     FuCCAL
+                              `plural`     FACiL |< Un
                               `plural`     FaCaL |< aT,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "transmitting", "carrying", "conveying", "carriers" ]
+                              `plural`     FACiL |< At,
 
     FACiL |< aT               `noun`    {- nAqilap -}          [ "transport", "tanker", "carrier" ]
                               `plural`     FACiL |< At,
@@ -691,7 +728,11 @@ cluster_116 = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- naq~ -}             [ "cackle", "croaking" ],
 
-    FaCCAL                    `noun`    {- naq~Aq -}           [ "grumbler", "complainer" ],
+    FaCCAL                    `noun`    {- naq~Aq -}           [ "grumbler", "complainer" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "grumbler", "complainer" ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL |< aT              `noun`    {- naq~Aqap -}         [ "frog" ],
 
@@ -728,7 +769,11 @@ cluster_117 = listing "Lexicon's properties"
 
     FiCL |< aT                `noun`    {- niqorap -}          [ "bickering", "argument" ],
 
-    FaCCAL                    `noun`    {- naq~Ar -}           [ "engraver", "carver" ],
+    FaCCAL                    `noun`    {- naq~Ar -}           [ "engraver", "carver" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "engraver", "carver" ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL                    `noun`    {- naq~Ar -}           [ "Naqqar" ],
 

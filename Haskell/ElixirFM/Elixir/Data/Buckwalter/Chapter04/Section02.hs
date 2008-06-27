@@ -46,9 +46,17 @@ cluster_21  = listing "Lexicon's properties"
 
  |> "_t y r" <| [
 
-    MuFIL                     `noun`    {- muviyr -}           [ "influential", "provocative" ],
+    MuFIL                     `noun`    {- muviyr -}           [ "influential", "provocative" ]
+                              `plural`     MuFIL |< Un,
 
-    MuFIL                     `noun`    {- muviyr -}           [ "provoking", "agitating", unwords [ "stirring", "up" ] ],
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "influential", "provocative" ]
+                              `plural`     MuFIL |< At,
+
+    MuFIL                     `noun`    {- muviyr -}           [ "provoking", "agitating", unwords [ "stirring", "up" ] ]
+                              `plural`     MuFIL |< Un,
+
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "provoking", "agitating", unwords [ "stirring", "up" ] ]
+                              `plural`     MuFIL |< At,
 
     MuFIL |< At               `noun`    {- muviyrAt -}         [ "stimulants" ]
                               `plural`     MuFIL |< At ]

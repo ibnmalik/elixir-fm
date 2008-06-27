@@ -18,7 +18,11 @@ cluster_21  = listing "Lexicon's properties"
 
     KaRDaS |< aT              `noun`    {- \$aEoba*ap -}       [ unwords [ "sleight", "of", "hand" ], "jugglery" ],
 
-    MuKaRDiS                  `noun`    {- mu$aEobi* -}        [ "trickster", "quack" ] ]
+    MuKaRDiS                  `noun`    {- mu$aEobi* -}        [ "trickster", "quack" ]
+                              `plural`     MuKaRDiS |< Un,
+
+    MuKaRDiS |< aT            `noun`    {- DERIVED -}          [ "trickster", "quack" ]
+                              `plural`     MuKaRDiS |< At ]
 
  |> "^s ` f" <| [
 
@@ -173,7 +177,11 @@ cluster_24  = listing "Lexicon's properties"
 
     KaRDaS |< aT              `noun`    {- \$aEowa*ap -}       [ unwords [ "sleight", "of", "hand" ], "jugglery" ],
 
-    MuKaRDiS                  `noun`    {- mu$aEowi* -}        [ "trickster", "quack" ] ]
+    MuKaRDiS                  `noun`    {- mu$aEowi* -}        [ "trickster", "quack" ]
+                              `plural`     MuKaRDiS |< Un,
+
+    MuKaRDiS |< aT            `noun`    {- DERIVED -}          [ "trickster", "quack" ]
+                              `plural`     MuKaRDiS |< At ]
 
  |> "^s b .h" <| [
 
@@ -547,7 +555,11 @@ cluster_31  = listing "Lexicon's properties"
 
     MuFaCCaL                  `adj`     {- mu$ad~ad -}         [ "intense" ],
 
-    MutaFaCCiL                `noun`    {- muta$ad~id -}       [ "extremist", "fanatic", "strict", "zealot" ] ]
+    MutaFaCCiL                `noun`    {- muta$ad~id -}       [ "extremist", "fanatic", "strict", "zealot" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "extremist", "fanatic", "strict", "zealot" ]
+                              `plural`     MutaFaCCiL |< At ]
 
 
 cluster_32  = listing "Lexicon's properties"
@@ -583,7 +595,11 @@ cluster_32  = listing "Lexicon's properties"
     HaFCaL                    `adj`     {- Oa$odaq -}          [ unwords [ "loud", "-", "mouthed" ] ]
                               `plural`     FaCLA',
 
-    MutaFaCCiL                `noun`    {- muta$ad~iq -}       [ "braggart" ] ]
+    MutaFaCCiL                `noun`    {- muta$ad~iq -}       [ "braggart" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "braggart" ]
+                              `plural`     MutaFaCCiL |< At ]
 
  |> "^s d r" <| [
 
@@ -772,7 +788,11 @@ cluster_35  = listing "Lexicon's properties"
 
  |> "^s f n" <| [
 
-    FACiL                     `noun`    {- \$Afin -}           [ "proud" ] ]
+    FACiL                     `noun`    {- \$Afin -}           [ "proud" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "proud" ]
+                              `plural`     FACiL |< At ]
 
 
 cluster_36  = listing "Lexicon's properties"
@@ -964,7 +984,11 @@ cluster_39  = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- mu$Ahadap -}        [ "observation", "viewing", "inspection" ],
 
-    MuFACiL                   `noun`    {- mu$Ahid -}          [ "viewer", "spectator", "witness" ],
+    MuFACiL                   `noun`    {- mu$Ahid -}          [ "viewer", "spectator", "witness" ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "viewer", "spectator", "witness" ]
+                              `plural`     MuFACiL |< At,
 
     MuFACaL                   `adj`     {- mu$Ahad -}          [ "visible", "perceptible" ],
 

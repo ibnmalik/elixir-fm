@@ -236,7 +236,11 @@ cluster_105 = listing "Lexicon's properties"
 
     KaRDaS |< Iy              `adj`     {- Easojadiy~ -}       [ "golden" ],
 
-    MuKaRDaS                  `noun`    {- muEasojad -}        [ "gilded" ] ]
+    MuKaRDaS                  `noun`    {- muEasojad -}        [ "gilded" ]
+                              `plural`     MuKaRDaS |< Un,
+
+    MuKaRDaS |< aT            `noun`    {- DERIVED -}          [ "gilded" ]
+                              `plural`     MuKaRDaS |< At ]
 
 
 cluster_106 = listing "Lexicon's properties"
@@ -277,7 +281,11 @@ cluster_106 = listing "Lexicon's properties"
 
     FaCUL                     `noun`    {- Easuwf -}           [ "despot", "tyrant" ],
 
-    FaCCAL                    `noun`    {- Eas~Af -}           [ "despot", "tyrant" ],
+    FaCCAL                    `noun`    {- Eas~Af -}           [ "despot", "tyrant" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "despot", "tyrant" ]
+                              `plural`     FaCCAL |< At,
 
     TaFaCCuL                  `noun`    {- taEas~uf -}         [ "tyranny", "despotism", "arbitrariness" ]
                               `plural`     TaFaCCuL |< At,
@@ -290,7 +298,11 @@ cluster_106 = listing "Lexicon's properties"
     IFtiCAL                   `noun`    {- AiEotisAf -}        [ "deviation", "coercion" ]
                               `plural`     IFtiCAL |< At,
 
-    MutaFaCCiL                `noun`    {- mutaEas~if -}       [ "tyrant", "despot" ] ]
+    MutaFaCCiL                `noun`    {- mutaEas~if -}       [ "tyrant", "despot" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "tyrant", "despot" ]
+                              `plural`     MutaFaCCiL |< At ]
 
 
 cluster_107 = listing "Lexicon's properties"
@@ -320,9 +332,14 @@ cluster_107 = listing "Lexicon's properties"
                               `plural`     HaFCAL
                               `plural`     FuCUL,
 
-    FaCaL |< Iy               `adj`     {- Easaliy~ -}         [ unwords [ "honey", "-", "like" ], "melliferous" ],
+    FaCaL |< Iy               `adj`     {- Easaliy~ -}         [ unwords [ "honey", "-", "like" ], "melliferous" ]
+                              `plural`     FaCaL |< Iy |< At,
 
-    FaCCAL                    `noun`    {- Eas~Al -}           [ "beekeeper" ],
+    FaCCAL                    `noun`    {- Eas~Al -}           [ "beekeeper" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "beekeeper" ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL                    `noun`    {- Eas~Al -}           [ "Assal" ],
 
@@ -433,7 +450,11 @@ cluster_109 = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- Eas~ap -}           [ "guards", "bodyguards" ],
 
-    FaCCAL                    `noun`    {- Eas~As -}           [ unwords [ "night", "patrol" ], unwords [ "night", "guard" ] ] ]
+    FaCCAL                    `noun`    {- Eas~As -}           [ unwords [ "night", "patrol" ], unwords [ "night", "guard" ] ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "night", "patrol" ], unwords [ "night", "guard" ] ]
+                              `plural`     FaCCAL |< At ]
 
  |> "` s w" <| [
 
@@ -517,7 +538,8 @@ cluster_111 = listing "Lexicon's properties"
     FaCAL |< aT               `noun`    {- EatAhap -}          [ "insanity" ],
 
     MaFCUL                    `adj`     {- maEotuwh -}         [ "insane" ]
-                              `plural`     MaFACIL ]
+                              `plural`     MaFACIL
+                              `plural`     MaFCUL |< Un ]
 
  |> "` t k" <| [
 
@@ -614,7 +636,11 @@ cluster_113 = listing "Lexicon's properties"
 
     MuFaCCaL                  `adj`     {- muEat~aq -}         [ "matured", "mellowed", "aged" ],
 
-    MuFCiL                    `noun`    {- muEotiq -}          [ "emancipator" ] ]
+    MuFCiL                    `noun`    {- muEotiq -}          [ "emancipator" ]
+                              `plural`     MuFCiL |< Un,
+
+    MuFCiL |< aT              `noun`    {- DERIVED -}          [ "emancipator" ]
+                              `plural`     MuFCiL |< At ]
 
  |> "` t r" <| [
 
@@ -704,11 +730,19 @@ cluster_115 = listing "Lexicon's properties"
 
     IstiFAL |< aT             `noun`    {- AisotiEADap -}      [ "replacement", "substitution", "exchange" ],
 
-    FA'iL                     `noun`    {- EA}iD -}            [ "compensating", "replacing" ],
+    FA'iL                     `noun`    {- EA}iD -}            [ "compensating", "replacing" ]
+                              `plural`     FA'iL |< Un,
+
+    FA'iL |< aT               `noun`    {- DERIVED -}          [ "compensating", "replacing" ]
+                              `plural`     FA'iL |< At,
 
     MuFaCCaL                  `noun`    {- muEaw~aD -}         [ "Moawad", "Muawwad" ],
 
-    MutaFACiL                 `noun`    {- mutaEAwiD -}        [ "interchangeable" ] ]
+    MutaFACiL                 `noun`    {- mutaEAwiD -}        [ "interchangeable" ]
+                              `plural`     MutaFACiL |< Un,
+
+    MutaFACiL |< aT           `noun`    {- DERIVED -}          [ "interchangeable" ]
+                              `plural`     MutaFACiL |< At ]
 
 
 cluster_116 = listing "Lexicon's properties"
@@ -895,7 +929,11 @@ cluster_119 = listing "Lexicon's properties"
 
     MuFACiL                   `noun`    {- muEAwid -}          [ "recurrent" ],
 
-    MuFIL                     `noun`    {- muEiyd -}           [ "tutor", "lecturer" ],
+    MuFIL                     `noun`    {- muEiyd -}           [ "tutor", "lecturer" ]
+                              `plural`     MuFIL |< Un,
+
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "tutor", "lecturer" ]
+                              `plural`     MuFIL |< At,
 
     MuFAL                     `adj`     {- muEAd -}            [ "repeated", "reiterated", "return" ],
 

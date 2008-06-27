@@ -64,7 +64,11 @@ cluster_1   = listing "Lexicon's properties"
 
  |> "d ' n" <| [
 
-    FACiL                     `noun`    {- dA}in -}            [ "creditor", "lender" ] ]
+    FACiL                     `noun`    {- dA}in -}            [ "creditor", "lender" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "creditor", "lender" ]
+                              `plural`     FACiL |< At ]
 
 
 cluster_2   = listing "Lexicon's properties"
@@ -281,7 +285,11 @@ cluster_5   = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- dajol -}            [ "deceit", "trickery" ],
 
-    FaCCAL                    `noun`    {- daj~Al -}           [ "false", "deceitful", "swindler" ],
+    FaCCAL                    `noun`    {- daj~Al -}           [ "false", "deceitful", "swindler" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "false", "deceitful", "swindler" ]
+                              `plural`     FaCCAL |< At,
 
     TaFCIL                    `noun`    {- tadojiyl -}         [ "falsehood", "quackery" ]
                               `plural`     TaFCIL |< At,
@@ -408,7 +416,11 @@ cluster_8   = listing "Lexicon's properties"
     FuCCaL |< aT              `noun`    {- dux~alap -}         [ "warbler" ],
 
     FaCIL                     `noun`    {- daxiyl -}           [ "foreign", "intruder", "foreigners" ]
-                              `plural`     FuCaLA',
+                              `plural`     FuCaLA'
+                              `plural`     FaCIL |< Un,
+
+    FaCIL |< aT               `noun`    {- DERIVED -}          [ "foreign", "intruder", "foreigners" ]
+                              `plural`     FaCIL |< At,
 
     FaCIL                     `adj`     {- daxiyl -}           [ "internal", "inner" ],
 
@@ -443,11 +455,19 @@ cluster_8   = listing "Lexicon's properties"
     FACiL |< Iy               `adj`     {- dAxiliy~ -}         [ "internal", "domestic", "interior", unwords [ "of", "state" ] ],
 
     MaFCUL                    `noun`    {- madoxuwl -}         [ "revenue", "income" ]
-                              `plural`     MaFACiL,
+                              `plural`     MaFACiL
+                              `plural`     MaFCUL |< Un,
+
+    MaFCUL |< aT              `noun`    {- DERIVED -}          [ "revenue", "income" ]
+                              `plural`     MaFCUL |< At,
 
     MuFCaL                    `noun`    {- mudoxal -}          [ "introduction" ],
 
-    MutaFaCCiL                `noun`    {- mutadax~il -}       [ "intervening", "interfering" ] ]
+    MutaFaCCiL                `noun`    {- mutadax~il -}       [ "intervening", "interfering" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "intervening", "interfering" ]
+                              `plural`     MutaFaCCiL |< At ]
 
 
 cluster_9   = listing "Lexicon's properties"
@@ -494,7 +514,11 @@ cluster_9   = listing "Lexicon's properties"
     FACiL |< aT               `noun`    {- dAxinap -}          [ "chimney", "smokestack" ]
                               `plural`     FawACiL,
 
-    MuFaCCiL                  `noun`    {- mudax~in -}         [ "smoker", "smoking" ],
+    MuFaCCiL                  `noun`    {- mudax~in -}         [ "smoker", "smoking" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "smoker", "smoking" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCaL                  `adj`     {- mudax~an -}         [ "smoked" ] ]
 
@@ -580,11 +604,9 @@ cluster_11  = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- dAEib -}            [ "joking", "jolly" ],
 
+    FaCLUL                    `noun`    {- daEobuwb -}         [ "Daboub", "Dabob" ],
+
     MuFACiL                   `adj`     {- mudAEib -}          [ "joking", "jesting" ] ]
-
- |> "d ` b b" <| [
-
-    KaRDUS                    `noun`    {- daEobuwb -}         [ "Daboub", "Dabob" ] ]
 
  |> "d ` b l" <| [
 
@@ -778,7 +800,11 @@ cluster_14  = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- dibAgap -}          [ "tanning", "dye" ],
 
-    FaCCAL                    `noun`    {- dab~Ag -}           [ "tanner" ],
+    FaCCAL                    `noun`    {- dab~Ag -}           [ "tanner" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "tanner" ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL                    `noun`    {- dab~Ag -}           [ "Dabbagh" ],
 
@@ -814,6 +840,10 @@ cluster_15  = listing "Lexicon's properties"
     FaCaL                     `noun`    {- daba$ -}            [ "furniture" ]
                               `plural`     HaFCAL ]
 
+
+cluster_16  = listing "Lexicon's properties"
+
+
  |> "d b b" <| [
 
     FaCL                      `verb`    {- dab~-i -}           [ "crawl", "advance", "spread" ]
@@ -844,11 +874,9 @@ cluster_15  = listing "Lexicon's properties"
     FACL |< aT                `noun`    {- dAb~ap -}           [ unwords [ "riding", "animal" ] ]
                               `plural`     FawACL,
 
-    MuFaCCaL                  `adj`     {- mudab~ab -}         [ "pointed", "tapered" ] ]
+    MuFaCCaL                  `adj`     {- mudab~ab -}         [ "pointed", "tapered" ],
 
-
-cluster_16  = listing "Lexicon's properties"
-
+    FuwayCiL |< aT            `noun`    {- duwayobibap -}      [ unwords [ "small", "animal" ], "insect" ] ]
 
  |> "d b d b" <| [
 
@@ -873,6 +901,10 @@ cluster_16  = listing "Lexicon's properties"
     FiCL |< aT                `noun`    {- dibolap -}          [ "ring" ]
                               `plural`     FiCaL ]
 
+
+cluster_17  = listing "Lexicon's properties"
+
+
  |> "d b l m" <| [
 
     KiRDUS                    `noun`    {- diboluwm -}         [ "diploma", "certificate" ]
@@ -894,7 +926,7 @@ cluster_16  = listing "Lexicon's properties"
     FaCiL                     `adj`     {- dabiq -}            [ "sticky", "gluey", "limy" ] ]
 
 
-cluster_17  = listing "Lexicon's properties"
+cluster_18  = listing "Lexicon's properties"
 
 
  |> "d b r" <| [
@@ -937,9 +969,17 @@ cluster_17  = listing "Lexicon's properties"
     TaFACuL                   `noun`    {- tadAbur -}          [ "disparity", "contrast" ]
                               `plural`     TaFACuL |< At,
 
-    FACiL                     `noun`    {- dAbir -}            [ "bygone", "utmost", "root" ],
+    FACiL                     `noun`    {- dAbir -}            [ "bygone", "utmost", "root" ]
+                              `plural`     FACiL |< Un,
 
-    MuFaCCiL                  `noun`    {- mudab~ir -}         [ "manager", "organizer" ],
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "bygone", "utmost", "root" ]
+                              `plural`     FACiL |< At,
+
+    MuFaCCiL                  `noun`    {- mudab~ir -}         [ "manager", "organizer" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "manager", "organizer" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFCiL                    `adv`     {- mudobir -}          [ unwords [ "from", "the", "rear" ] ],
 
@@ -948,7 +988,7 @@ cluster_17  = listing "Lexicon's properties"
     FUCAL |< aT               `noun`    {- duwbArap -}         [ "twine", "thread" ] ]
 
 
-cluster_18  = listing "Lexicon's properties"
+cluster_19  = listing "Lexicon's properties"
 
 
  |> "d b s" <| [
@@ -972,7 +1012,7 @@ cluster_18  = listing "Lexicon's properties"
                               `plural`     KuRDY ]
 
 
-cluster_19  = listing "Lexicon's properties"
+cluster_20  = listing "Lexicon's properties"
 
 
  |> "d f '" <| [
@@ -997,8 +1037,7 @@ cluster_19  = listing "Lexicon's properties"
 
     FaCiL                     `noun`    {- dafi} -}            [ "warm" ],
 
-    FaCIL                     `adj`     {- dafiy' -}           [ "warm" ]
-                              `plural`     FaCIL |< Un,
+    FaCIL                     `adj`     {- dafiy' -}           [ "warm" ],
 
     FaCLAn                    `noun`    {- dafo|n -}           [ "warm" ]
                               `plural`     FaCLY,
@@ -1013,77 +1052,6 @@ cluster_19  = listing "Lexicon's properties"
     TaFCiL |< aT              `noun`    {- tadofi}ap -}        [ "heating" ],
 
     FACiL                     `adj`     {- dAfi} -}            [ "warm" ] ]
-
-
-cluster_20  = listing "Lexicon's properties"
-
-
- |> "d f `" <| [
-
-    FaCaL                     `verb`    {- dafaE-a -}          [ "push", "motivate", "pay" ]
-                              `imperf`     FCaL,
-
-    FACaL                     `verb`    {- dAfaE -}            [ "defend" ],
-
-    TaFaCCaL                  `verb`    {- tadaf~aE -}         [ "gush", unwords [ "spring", "up" ] ],
-
-    TaFACaL                   `verb`    {- tadAfaE -}          [ "shove", unwords [ "be", "propelled" ] ],
-
-    InFaCaL                   `verb`    {- AinodafaE -}        [ unwords [ "be", "pushed" ], unwords [ "be", "propelled" ] ],
-
-    IstaFCaL                  `verb`    {- AisotadofaE -}      [ unwords [ "try", "to", "ward", "off" ] ],
-
-    FaCL                      `noun`    {- dafoE -}            [ "pushing", "propelling", "payment" ],
-
-    FaCL |< aT                `noun`    {- dafoEap -}          [ "push", "impulse" ]
-                              `plural`     FaCaL |< At,
-
-    FaCL |< aT                `noun`    {- dafoEap -}          [ "payment" ]
-                              `plural`     FaCaL |< At,
-
-    FuCL |< aT                `noun`    {- dufoEap -}          [ "time", "instance" ],
-
-    FuCL |< aT                `noun`    {- dufoEap -}          [ "batch", "spurt" ],
-
-    FuCL |< aT                `noun`    {- dufoEap -}          [ unwords [ "class", "(", "alumni", ")" ], unwords [ "group", "(", "graduates", ")" ] ],
-
-    FaCCAL                    `noun`    {- daf~AE -}           [ "propelling", "piston" ],
-
-    MiFCaL                    `noun`    {- midofaE -}          [ "cannon", "gun" ]
-                              `plural`     MaFACiL,
-
-    MiFCaL |< Iy              `adj`     {- midofaEiy~ -}       [ "artillery", "cannon" ],
-
-    MiFCaL |< Iy              `adj`     {- midofaEiy~ -}       [ "gunner", "artilleryman" ],
-
-    MiFCaL |< Iy |< aT        `noun`    {- midofaEiy~ap -}     [ "artillery" ],
-
-    FiCAL                     `noun`    {- difAE -}            [ "defense" ],
-
-    FiCAL |< Iy               `adj`     {- difAEiy~ -}         [ "defensive", "protective" ],
-
-    MuFACaL |< aT             `noun`    {- mudAfaEap -}        [ "defense" ],
-
-    InFiCAL                   `noun`    {- AinodifAE -}        [ "rushing", unwords [ "breaking", "forth" ], "eruption" ]
-                              `plural`     InFiCAL |< At,
-
-    InFiCAL |< aT             `noun`    {- AinodifAEap -}      [ "outbreak", "outburst" ],
-
-    FACiL                     `noun`    {- dAfiE -}            [ "incentive", "motive" ]
-                              `plural`     FawACiL,
-
-    FACiL                     `adj`     {- dAfiE -}            [ "pushing", "propelling" ],
-
-    FACiL                     `noun`    {- dAfiE -}            [ "Dafie" ],
-
-    FACiL                     `noun`    {- dAfiE -}            [ "payer", "paying" ],
-
-    MaFCUL                    `noun`    {- madofuwE -}         [ "payment" ]
-                              `plural`     MaFCUL |< At,
-
-    MaFCUL                    `adj`     {- madofuwE -}         [ "paid" ],
-
-    MuFACiL                   `noun`    {- mudAfiE -}          [ "defender", "advocate" ] ]
 
 
 section = [ cluster_1,

@@ -90,7 +90,11 @@ cluster_22  = listing "Lexicon's properties"
 
     FACL                      `adj`     {- fAr~ -}             [ "fleeing" ],
 
-    FACL                      `noun`    {- fAr~ -}             [ "fugitive" ] ]
+    FACL                      `noun`    {- fAr~ -}             [ "fugitive" ]
+                              `plural`     FACL |< Un,
+
+    FACL |< aT                `noun`    {- DERIVED -}          [ "fugitive" ]
+                              `plural`     FACL |< At ]
 
  |> "f r s" <| [
 
@@ -105,6 +109,7 @@ cluster_22  = listing "Lexicon's properties"
     FACiL                     `noun`    {- fAris -}            [ "Persia" ],
 
     FACiL |< Iy               `adj`     {- fArisiy~ -}         [ "Persian" ]
+                              `plural`     FACiL |< Iy |< Un
                               `plural`     FuCL ]
 
  |> "f r w" <| [
@@ -179,7 +184,8 @@ cluster_23  = listing "Lexicon's properties"
                               `plural`     HiFCAL |< At,
 
     FACiL                     `adj`     {- fAsid -}            [ "corrupt", "immoral" ]
-                              `plural`     FaCLY,
+                              `plural`     FaCLY
+                              `plural`     FACiL |< Un,
 
     MuFCiL                    `adj`     {- mufosid -}          [ "corrupt", "corrupting" ] ]
 
@@ -283,7 +289,11 @@ cluster_26  = listing "Lexicon's properties"
                               `plural`     TaFACIL
                               `plural`     TaFCIL |< At,
 
-    MuFaCCiL                  `noun`    {- mufat~i$ -}         [ "inspector", "supervisor" ] ]
+    MuFaCCiL                  `noun`    {- mufat~i$ -}         [ "inspector", "supervisor" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "inspector", "supervisor" ]
+                              `plural`     MuFaCCiL |< At ]
 
  |> "f t l" <| [
 
@@ -376,13 +386,25 @@ cluster_27  = listing "Lexicon's properties"
 
     TaFACuL |< Iy             `adj`     {- tafAwuDiy~ -}       [ unwords [ "negotiation", "-", "related" ], unwords [ "consultation", "-", "related" ] ],
 
-    MuFaCCaL                  `noun`    {- mufaw~aD -}         [ "delegate", unwords [ "authorized", "agent" ] ],
+    MuFaCCaL                  `noun`    {- mufaw~aD -}         [ "delegate", unwords [ "authorized", "agent" ] ]
+                              `plural`     MuFaCCaL |< Un,
+
+    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "delegate", unwords [ "authorized", "agent" ] ]
+                              `plural`     MuFaCCaL |< At,
 
     MuFaCCaL |< Iy |< aT      `noun`    {- mufaw~aDiy~ap -}    [ "legation", "delegation" ],
 
-    MuFACiL                   `noun`    {- mufAwiD -}          [ "negotiator" ],
+    MuFACiL                   `noun`    {- mufAwiD -}          [ "negotiator" ]
+                              `plural`     MuFACiL |< Un,
 
-    MutaFACiL                 `noun`    {- mutafAwiD -}        [ "negotiator" ] ]
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "negotiator" ]
+                              `plural`     MuFACiL |< At,
+
+    MutaFACiL                 `noun`    {- mutafAwiD -}        [ "negotiator" ]
+                              `plural`     MutaFACiL |< Un,
+
+    MutaFACiL |< aT           `noun`    {- DERIVED -}          [ "negotiator" ]
+                              `plural`     MutaFACiL |< At ]
 
  |> "f w .h" <| [
 
@@ -449,7 +471,11 @@ cluster_28  = listing "Lexicon's properties"
 
     FA'iL                     `adj`     {- fA}iq -}            [ "outstanding", "excellent" ],
 
-    MutaFaCCiL                `noun`    {- mutafaw~iq -}       [ "superior", "outstanding" ] ]
+    MutaFaCCiL                `noun`    {- mutafaw~iq -}       [ "superior", "outstanding" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "superior", "outstanding" ]
+                              `plural`     MutaFaCCiL |< At ]
 
  |> "f w r" <| [
 
@@ -505,7 +531,11 @@ cluster_29  = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- fawoziy~ -}         [ "Fawzi" ],
 
-    FA'iL                     `noun`    {- fA}iz -}            [ "winner", "victorious" ],
+    FA'iL                     `noun`    {- fA}iz -}            [ "winner", "victorious" ]
+                              `plural`     FA'iL |< Un,
+
+    FA'iL |< aT               `noun`    {- DERIVED -}          [ "winner", "victorious" ]
+                              `plural`     FA'iL |< At,
 
     FA'iL                     `noun`    {- fA}iz -}            [ "Fayez", "Fayiz", "Fa'iz" ] ]
 
@@ -577,7 +607,11 @@ cluster_31  = listing "Lexicon's properties"
 
     MuFAL                     `noun`    {- mufAd -}            [ "meaning", "content" ],
 
-    MustaFIL                  `noun`    {- musotafiyd -}       [ "benefiting", "beneficiary", "profiting" ] ]
+    MustaFIL                  `noun`    {- musotafiyd -}       [ "benefiting", "beneficiary", "profiting" ]
+                              `plural`     MustaFIL |< Un,
+
+    MustaFIL |< aT            `noun`    {- DERIVED -}          [ "benefiting", "beneficiary", "profiting" ]
+                              `plural`     MustaFIL |< At ]
 
  |> "f y l" <| [
 

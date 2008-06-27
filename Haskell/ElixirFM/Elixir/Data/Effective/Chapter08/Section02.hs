@@ -73,7 +73,8 @@ cluster_21  = listing "Lexicon's properties"
 
  |> "d y k r" <| [
 
-    KiRDUS                    `noun`    {- diykuwr -}          [ "decor", unwords [ "interior", "decoration" ] ] ]
+    KiRDUS                    `noun`    {- diykuwr -}          [ "decor", unwords [ "interior", "decoration" ] ]
+                              `plural`     KiRDUS |< At ]
 
  |> "d y l" <| [
 
@@ -91,7 +92,13 @@ cluster_22  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- dAyim -}            [ "Dayim" ],
 
-    MustaFIL                  `noun`    {- musotadiym -}       [ "continuous", "standing" ] ]
+    MustaFIL                  `noun`    {- musotadiym -}       [ "continuous", "standing" ]
+                              `plural`     MustaFIL |< Un,
+
+    MustaFIL |< aT            `noun`    {- DERIVED -}          [ "continuous", "standing" ]
+                              `plural`     MustaFIL |< At,
+
+    FaCLUL |< aT              `noun`    {- dayomuwmap -}       [ "duration" ] ]
 
  |> "d y m m" <| [
 
@@ -116,7 +123,11 @@ cluster_22  = listing "Lexicon's properties"
 
     IstiFAL |< aT             `noun`    {- AisotidAnap -}      [ unwords [ "incurrence", "of", "debts" ] ],
 
-    FA'iL                     `noun`    {- dA}in -}            [ "creditor", "lender" ],
+    FA'iL                     `noun`    {- dA}in -}            [ "creditor", "lender" ]
+                              `plural`     FA'iL |< Un,
+
+    FA'iL |< aT               `noun`    {- DERIVED -}          [ "creditor", "lender" ]
+                              `plural`     FA'iL |< At,
 
     MaFIL                     `adj`     {- madiyn -}           [ "owing", "obligated", "debtor" ],
 
@@ -138,14 +149,14 @@ cluster_22  = listing "Lexicon's properties"
     KiRDAS                    `noun`    {- diynAr -}           [ "dinar" ]
                            {- `others`  [ "danAniyr Ndip" ] -} ]
 
+
+cluster_23  = listing "Lexicon's properties"
+
+
  |> "d y n s" <| [
 
     KiRDIS                    `noun`    {- diyniys -}          [ "Dennis" ]
                            {- `others`  [ "diniys Nprop" ] -} ]
-
-
-cluster_23  = listing "Lexicon's properties"
-
 
  |> "d y r" <| [
 
@@ -158,13 +169,21 @@ cluster_23  = listing "Lexicon's properties"
     FaCL |< Iy                `adj`     {- dayoriy~ -}         [ "monastic" ],
 
     MuFIL                     `noun`    {- mudiyr -}           [ "director", "manager", "chief" ]
+                              `plural`     MuFIL |< Un
                            {- `others`  [ "mudarA' Nh N0_Nh Nhy" ] -},
+
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "director", "manager", "chief" ]
+                              `plural`     MuFIL |< At,
 
     MuFIL |< Iy |< aT         `noun`    {- mudiyriy~ap -}      [ "administration", "management" ],
 
     MuFIL |< Iy |< aT         `noun`    {- mudiyriy~ap -}      [ "district", "province" ],
 
-    MustaFIL                  `noun`    {- musotadiyr -}       [ "round", "circular" ] ]
+    MustaFIL                  `noun`    {- musotadiyr -}       [ "round", "circular" ]
+                              `plural`     MustaFIL |< Un,
+
+    MustaFIL |< aT            `noun`    {- DERIVED -}          [ "round", "circular" ]
+                              `plural`     MustaFIL |< At ]
 
  |> "d y s" <| [
 

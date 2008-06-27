@@ -45,7 +45,11 @@ cluster_1   = listing "Lexicon's properties"
 
     MaFCUL                    `adj`     {- mayoWuws -}         [ "hopeless", "desperate" ],
 
-    MustaFCiL                 `noun`    {- musotayo}is -}      [ "hopeless", "desperate" ] ]
+    MustaFCiL                 `noun`    {- musotayo}is -}      [ "hopeless", "desperate" ]
+                              `plural`     MustaFCiL |< Un,
+
+    MustaFCiL |< aT           `noun`    {- DERIVED -}          [ "hopeless", "desperate" ]
+                              `plural`     MustaFCiL |< At ]
 
  |> "y ' y" <| [
 
@@ -187,7 +191,11 @@ cluster_3   = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- yAfiE -}            [ "Yafie" ],
 
-    FACiL                     `noun`    {- yAfiE -}            [ "adolescent", "teenager" ] ]
+    FACiL                     `noun`    {- yAfiE -}            [ "adolescent", "teenager" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "adolescent", "teenager" ]
+                              `plural`     FACiL |< At ]
 
  |> "y h d" <| [
 
@@ -289,7 +297,11 @@ cluster_4   = listing "Lexicon's properties"
 
     MuFaCCaL                  `adj`     {- muyam~an -}         [ "lucky", "auspicious" ],
 
-    MuFACiL                   `noun`    {- muyAmin -}          [ "rightist", unwords [ "standing", "on", "the", "right", "side" ] ],
+    MuFACiL                   `noun`    {- muyAmin -}          [ "rightist", unwords [ "standing", "on", "the", "right", "side" ] ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "rightist", unwords [ "standing", "on", "the", "right", "side" ] ]
+                              `plural`     MuFACiL |< At,
 
     FACUL                     `noun`    {- yAmuwn -}           [ "Yamoun" ] ]
 
@@ -406,15 +418,24 @@ cluster_7   = listing "Lexicon's properties"
     FaCL                      `noun`    {- yaqon -}            [ "certainty" ],
 
     FaCiL                     `noun`    {- yaqin -}            [ "credulous", "ingenuous" ]
+                              `plural`     FaCiL |< Un
                               `plural`     FaCaL |< aT,
+
+    FaCiL |< aT               `noun`    {- DERIVED -}          [ "credulous", "ingenuous" ]
+                              `plural`     FaCiL |< At,
 
     FaCIL                     `noun`    {- yaqiyn -}           [ "certainty", "certitude", "conviction" ],
 
     FaCIL                     `adj`     {- yaqiyn -}           [ "convinced" ],
 
-    FaCIL |< Iy               `adj`     {- yaqiyniy~ -}        [ "indisputable", "certain", unwords [ "indisputable", "facts" ], unwords [ "established", "truths" ] ],
+    FaCIL |< Iy               `adj`     {- yaqiyniy~ -}        [ "indisputable", "certain", unwords [ "indisputable", "facts" ], unwords [ "established", "truths" ] ]
+                              `plural`     FaCIL |< Iy |< At,
 
-    MICAL                     `noun`    {- miyqAn -}           [ "credulous" ],
+    MICAL                     `noun`    {- miyqAn -}           [ "credulous" ]
+                              `plural`     MICAL |< Un,
+
+    MICAL |< aT               `noun`    {- DERIVED -}          [ "credulous" ]
+                              `plural`     MICAL |< At,
 
     MutaFaCCiL                `adj`     {- mutayaq~in -}       [ "convinced", "certain" ],
 
@@ -547,11 +568,19 @@ cluster_9   = listing "Lexicon's properties"
 
     MuFaCCaL                  `adj`     {- muyas~ar -}         [ unwords [ "made", "easy" ], "facilitated", unwords [ "well", "-", "to", "-", "do" ] ],
 
-    MUCiL                     `noun`    {- muwsir -}           [ unwords [ "well", "-", "to", "-", "do" ] ],
+    MUCiL                     `noun`    {- muwsir -}           [ unwords [ "well", "-", "to", "-", "do" ] ]
+                              `plural`     MUCiL |< Un,
+
+    MUCiL |< aT               `noun`    {- DERIVED -}          [ unwords [ "well", "-", "to", "-", "do" ] ]
+                              `plural`     MUCiL |< At,
 
     MutaFaCCiL                `adj`     {- mutayas~ir -}       [ unwords [ "made", "easy" ], "facilitated" ],
 
-    MutaFaCCiL                `noun`    {- mutayas~ir -}       [ unwords [ "well", "-", "to", "-", "do" ] ] ]
+    MutaFaCCiL                `noun`    {- mutayas~ir -}       [ unwords [ "well", "-", "to", "-", "do" ] ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ unwords [ "well", "-", "to", "-", "do" ] ]
+                              `plural`     MutaFaCCiL |< At ]
 
 
 cluster_10  = listing "Lexicon's properties"
@@ -589,7 +618,11 @@ cluster_10  = listing "Lexicon's properties"
     MaFCaL                    `noun`    {- mayotam -}          [ "orphanage" ]
                               `plural`     MaFACiL,
 
-    MuFaCCaL                  `noun`    {- muyat~am -}         [ "orphaned", "parentless", "orphan" ] ]
+    MuFaCCaL                  `noun`    {- muyat~am -}         [ "orphaned", "parentless", "orphan" ]
+                              `plural`     MuFaCCaL |< Un,
+
+    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "orphaned", "parentless", "orphan" ]
+                              `plural`     MuFaCCaL |< At ]
 
  |> "y w ^g n" <| [
 
@@ -630,7 +663,11 @@ cluster_11  = listing "Lexicon's properties"
 
     MuFACaL |< aT |< aN       `adv`     {- muyAwamapF -}       [ "daily", unwords [ "per", "diem" ] ],
 
-    MuFACaL                   `noun`    {- muyAwam -}          [ unwords [ "day", "laborer" ] ] ]
+    MuFACaL                   `noun`    {- muyAwam -}          [ unwords [ "day", "laborer" ] ]
+                              `plural`     MuFACaL |< Un,
+
+    MuFACaL |< aT             `noun`    {- DERIVED -}          [ unwords [ "day", "laborer" ] ]
+                              `plural`     MuFACaL |< At ]
 
  |> "y w n" <| [
 

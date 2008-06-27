@@ -15,7 +15,10 @@ cluster_1   = listing "Lexicon's properties"
  |> "` ' ^s" <| [
 
     FACiL                     `noun`    {- EA}i$ -}            [ "living", "alive" ]
-                           {- `others`  [ "`Ayi^s Nall" ] -} ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "living", "alive" ]
+                              `plural`     FACiL |< At ]
 
  |> "` ' d" <| [
 
@@ -182,7 +185,8 @@ cluster_3   = listing "Lexicon's properties"
  |> "` .s y" <| [
 
     FaCIL                     `adj`     {- EaSiy~ -}           [ "rebel", "mutineer" ]
-                              `plural`     HaFCiLA',
+                              `plural`     HaFCiLA'
+                              `plural`     FaCIL |< Un,
 
     FiCLAn                    `noun`    {- EiSoyAn -}          [ "mutiny", "insubordination" ],
 
@@ -221,7 +225,11 @@ cluster_4   = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- EaTa$ -}            [ "thirst", unwords [ "longing", "for" ] ],
 
-    FaCiL                     `noun`    {- EaTi$ -}            [ "thirsty", "parched" ],
+    FaCiL                     `noun`    {- EaTi$ -}            [ "thirsty", "parched" ]
+                              `plural`     FaCiL |< Un,
+
+    FaCiL |< aT               `noun`    {- DERIVED -}          [ "thirsty", "parched" ]
+                              `plural`     FaCiL |< At,
 
     TaFaCCuL                  `noun`    {- taEaT~u$ -}         [ unwords [ "insatiable", "desire", "for" ], unwords [ "passion", "for" ] ]
                               `plural`     TaFaCCuL |< At ]
@@ -287,7 +295,11 @@ cluster_5   = listing "Lexicon's properties"
 
     FiCL |< Iy                `adj`     {- EiToriy~ -}         [ "fragrant", "aromatic" ],
 
-    FaCCAL                    `noun`    {- EaT~Ar -}           [ unwords [ "perfume", "vendor" ], "pharmacist" ],
+    FaCCAL                    `noun`    {- EaT~Ar -}           [ unwords [ "perfume", "vendor" ], "pharmacist" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "perfume", "vendor" ], "pharmacist" ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL                    `noun`    {- EaT~Ar -}           [ "Attar" ],
 
@@ -436,7 +448,11 @@ cluster_8   = listing "Lexicon's properties"
     IstiFCAL                  `noun`    {- AisotiEojAl -}      [ "haste", "urgency" ]
                               `plural`     IstiFCAL |< At,
 
-    FACiL                     `noun`    {- EAjil -}            [ "urgent", "speedy" ],
+    FACiL                     `noun`    {- EAjil -}            [ "urgent", "speedy" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "urgent", "speedy" ]
+                              `plural`     FACiL |< At,
 
     MustaFCaL                 `adj`     {- musotaEojal -}      [ "expeditious", "urgent" ] ]
 
@@ -480,7 +496,8 @@ cluster_9   = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- EAjiz -}            [ "incapable", "incapacitated", "disabled" ]
                               `plural`     FawACiL
-                              `plural`     FaCaL |< aT,
+                              `plural`     FaCaL |< aT
+                              `plural`     FACiL |< Un,
 
     MuFCiL |< aT              `noun`    {- muEojizap -}        [ "miracle" ]
                               `plural`     MuFCiL |< At ]
@@ -505,7 +522,11 @@ cluster_9   = listing "Lexicon's properties"
     FiCL                      `noun`    {- Ei$oq -}            [ "love", "fondness" ],
 
     FACiL                     `noun`    {- EA$iq -}            [ "lover", unwords [ "fond", "of" ] ]
-                              `plural`     FuCCAL,
+                              `plural`     FuCCAL
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "lover", unwords [ "fond", "of" ] ]
+                              `plural`     FACiL |< At,
 
     MaFCUL |< aT              `noun`    {- maEo$uwqap -}       [ "beloved", "sweetheart" ] ]
 
@@ -674,7 +695,11 @@ cluster_12  = listing "Lexicon's properties"
     MaFACiL                   `noun`    {- maEAbid -}          [ unwords [ "houses", "of", "worship" ] ],
 
     FACiL                     `noun`    {- EAbid -}            [ "worshipping", unwords [ "God", "-", "fearing" ] ]
+                              `plural`     FACiL |< Un
                               `plural`     FuCCAL,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "worshipping", unwords [ "God", "-", "fearing" ] ]
+                              `plural`     FACiL |< At,
 
     FACiL                     `noun`    {- EAbid -}            [ "Abid" ] ]
 

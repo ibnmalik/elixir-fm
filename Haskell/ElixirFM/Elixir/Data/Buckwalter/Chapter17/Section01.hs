@@ -177,9 +177,17 @@ cluster_3   = listing "Lexicon's properties"
 
     FACiL |< At |< Iy         `adj`     {- ZAhirAtiy~ -}       [ "phenomenological" ],
 
-    MuFaCCiL                  `noun`    {- muZah~ir -}         [ "endorser" ],
+    MuFaCCiL                  `noun`    {- muZah~ir -}         [ "endorser" ]
+                              `plural`     MuFaCCiL |< Un,
 
-    MutaFACiL                 `noun`    {- mutaZAhir -}        [ "demonstrator" ] ]
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "endorser" ]
+                              `plural`     MuFaCCiL |< At,
+
+    MutaFACiL                 `noun`    {- mutaZAhir -}        [ "demonstrator" ]
+                              `plural`     MutaFACiL |< Un,
+
+    MutaFACiL |< aT           `noun`    {- DERIVED -}          [ "demonstrator" ]
+                              `plural`     MutaFACiL |< At ]
 
 
 cluster_4   = listing "Lexicon's properties"
@@ -192,7 +200,11 @@ cluster_4   = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- ZaloE -}            [ "limping" ],
 
-    FACiL                     `noun`    {- ZAliE -}            [ "lame", "limping" ],
+    FACiL                     `noun`    {- ZAliE -}            [ "lame", "limping" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "lame", "limping" ]
+                              `plural`     FACiL |< At,
 
     FuCAL                     `noun`    {- ZulAE -}            [ "rheumatism" ] ]
 
@@ -285,7 +297,11 @@ cluster_5   = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- ZAlim -}            [ "oppressor", "tyrant" ]
                               `plural`     FuCCAL
+                              `plural`     FACiL |< Un
                               `plural`     FaCaL |< aT,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "oppressor", "tyrant" ]
+                              `plural`     FACiL |< At,
 
     MaFCUL                    `adj`     {- maZoluwm -}         [ "oppressed", unwords [ "treated", "unjustly" ] ],
 

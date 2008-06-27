@@ -129,7 +129,11 @@ cluster_23  = listing "Lexicon's properties"
     TaFaCCuL                  `noun`    {- tazal~uj -}         [ "skiing" ]
                               `plural`     TaFaCCuL |< At,
 
-    MutaFaCCiL                `noun`    {- mutazal~ij -}       [ "skier" ],
+    MutaFaCCiL                `noun`    {- mutazal~ij -}       [ "skier" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "skier" ]
+                              `plural`     MutaFaCCiL |< At,
 
     FuCayL                    `noun`    {- zulayoj -}          [ unwords [ "ornamental", "tile" ] ],
 
@@ -174,7 +178,11 @@ cluster_24  = listing "Lexicon's properties"
 
     FuCLY                     `noun`    {- zulofY -}           [ "flattery", "sycophancy" ],
 
-    MutaFaCCiL                `noun`    {- mutazal~if -}       [ "sycophant", "bootlicker" ] ]
+    MutaFaCCiL                `noun`    {- mutazal~if -}       [ "sycophant", "bootlicker" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "sycophant", "bootlicker" ]
+                              `plural`     MutaFaCCiL |< At ]
 
  |> "z l l" <| [
 
@@ -194,7 +202,8 @@ cluster_24  = listing "Lexicon's properties"
 
     FuCAL                     `noun`    {- zulAl -}            [ unwords [ "fresh", "water" ], "albumen" ],
 
-    FuCAL |< Iy               `adj`     {- zulAliy~ -}         [ "albuminous", "protein" ] ]
+    FuCAL |< Iy               `adj`     {- zulAliy~ -}         [ "albuminous", "protein" ]
+                              `plural`     FuCAL |< Iy |< At ]
 
  |> "z l m" <| [
 
@@ -374,7 +383,11 @@ cluster_28  = listing "Lexicon's properties"
 
     MutaFACiL                 `adj`     {- mutazAmin -}        [ "simultaneous", "coincidental" ],
 
-    lA >| MutaFACiL           `noun`    {- lAmutazAmin -}      [ unwords [ "non", "-", "simultaneous" ] ],
+    lA >| MutaFACiL           `noun`    {- lAmutazAmin -}      [ unwords [ "non", "-", "simultaneous" ] ]
+                              `plural`     lA >| MutaFACiL |< Un,
+
+    lA >| MutaFACiL |< aT     `noun`    {- DERIVED -}          [ unwords [ "non", "-", "simultaneous" ] ]
+                              `plural`     lA >| MutaFACiL |< At,
 
     FICIL                     `noun`    {- ziymiyn -}          [ "Zemin" ] ]
 
@@ -400,7 +413,11 @@ cluster_29  = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- zumorap -}          [ "group", "troop" ]
                               `plural`     FuCaL,
 
-    FaCCAL                    `noun`    {- zam~Ar -}           [ "piper", "klaxonist" ],
+    FaCCAL                    `noun`    {- zam~Ar -}           [ "piper", "klaxonist" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "piper", "klaxonist" ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL |< aT              `noun`    {- zam~Arap -}         [ "clarinet", "siren" ]
                               `plural`     FaCACIL,
@@ -592,7 +609,8 @@ cluster_32  = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- zaqolap -}          [ "truncheon" ]
                               `plural`     FaCaL |< At,
 
-    FuCL |< Iy                `noun`    {- zuqoliy~ -}         [ "truncheon" ],
+    FuCL |< Iy                `noun`    {- zuqoliy~ -}         [ "truncheon" ]
+                              `plural`     FuCL |< Iy |< At,
 
     FaCIL |< aT               `noun`    {- zaqiylap -}         [ "path", "trail" ]
                               `plural`     FaCA'iL ]
@@ -672,7 +690,11 @@ cluster_33  = listing "Lexicon's properties"
 
     FaCIL |< aT               `noun`    {- zariyEap -}         [ "crop", "planted" ],
 
-    FaCCAL                    `noun`    {- zar~AE -}           [ "peasant", "farmer" ],
+    FaCCAL                    `noun`    {- zar~AE -}           [ "peasant", "farmer" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "peasant", "farmer" ]
+                              `plural`     FaCCAL |< At,
 
     MaFCaL                    `noun`    {- mazoraE -}          [ "farm", unwords [ "arable", "land" ], "plantation" ]
                               `plural`     MaFACiL,
@@ -693,7 +715,11 @@ cluster_33  = listing "Lexicon's properties"
 
     MaFCUL |< Iy              `adj`     {- mazoruwEiy~ -}      [ "Mazroui" ],
 
-    MuFACiL                   `noun`    {- muzAriE -}          [ "farmer" ],
+    MuFACiL                   `noun`    {- muzAriE -}          [ "farmer" ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "farmer" ]
+                              `plural`     MuFACiL |< At,
 
     MunFaCiL                  `noun`    {- munozariE -}        [ "farmland", unwords [ "planted", "land" ] ] ]
 
@@ -772,7 +798,11 @@ cluster_35  = listing "Lexicon's properties"
 
     KaRDaS                    `noun`    {- zaroka$ -}          [ "brocade" ],
 
-    MuKaRDaS                  `noun`    {- muzaroka$ -}        [ "brocaded", "embellished" ] ]
+    MuKaRDaS                  `noun`    {- muzaroka$ -}        [ "brocaded", "embellished" ]
+                              `plural`     MuKaRDaS |< Un,
+
+    MuKaRDaS |< aT            `noun`    {- DERIVED -}          [ "brocaded", "embellished" ]
+                              `plural`     MuKaRDaS |< At ]
 
  |> "z r n _h" <| [
 
@@ -987,7 +1017,11 @@ cluster_39  = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- tazowiyd -}         [ "supplying", "providing" ]
                               `plural`     TaFCIL |< At,
 
-    MuFaCCiL                  `noun`    {- muzaw~id -}         [ "supplier" ],
+    MuFaCCiL                  `noun`    {- muzaw~id -}         [ "supplier" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "supplier" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCaL                  `adj`     {- muzaw~ad -}         [ "supplied", "equipped", "armed" ],
 

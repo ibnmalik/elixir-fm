@@ -29,7 +29,11 @@ cluster_1   = listing "Lexicon's properties"
                               `plural`     HaFCAL
                               `plural`     FaCL |< At,
 
-    FACiL                     `noun`    {- vA}ir -}            [ "agitated", "exited" ],
+    FACiL                     `noun`    {- vA}ir -}            [ "agitated", "exited" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "agitated", "exited" ]
+                              `plural`     FACiL |< At,
 
     FACiL                     `noun`    {- vA}ir -}            [ "insurgent", "revolutionaries" ]
                            {- `others`  [ "_tuwwAr N" ] -} ]
@@ -84,7 +88,11 @@ cluster_2   = listing "Lexicon's properties"
     FACiL |< aT               `noun`    {- vAbitap -}          [ unwords [ "fixed", "star" ] ]
                               `plural`     FawACiL,
 
-    MuFaCCiL                  `noun`    {- muvab~it -}         [ "fixative", unwords [ "fixing", "fluid" ] ] ]
+    MuFaCCiL                  `noun`    {- muvab~it -}         [ "fixative", unwords [ "fixing", "fluid" ] ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "fixative", unwords [ "fixing", "fluid" ] ]
+                              `plural`     MuFaCCiL |< At ]
 
  |> "_t b y" <| [
 
@@ -117,7 +125,11 @@ cluster_2   = listing "Lexicon's properties"
 
     FaCCAL |< aT              `noun`    {- val~Ajap -}         [ "refrigerator", "icebox" ],
 
-    MuFaCCaL                  `noun`    {- muval~aj -}         [ "frozen" ] ]
+    MuFaCCaL                  `noun`    {- muval~aj -}         [ "frozen" ]
+                              `plural`     MuFaCCaL |< Un,
+
+    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "frozen" ]
+                              `plural`     MuFaCCaL |< At ]
 
 
 cluster_3   = listing "Lexicon's properties"
@@ -134,11 +146,16 @@ cluster_3   = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- vAliv -}            [ "Third" ],
 
-    FuCAL |< Iy               `noun`    {- vulAviy~ -}         [ "trio" ],
+    FuCAL |< Iy               `noun`    {- vulAviy~ -}         [ "trio" ]
+                              `plural`     FuCAL |< Iy |< At,
 
     FuCAL |< Iy               `adj`     {- vulAviy~ -}         [ unwords [ "three", "-", "part" ], "trio", unwords [ "corner", "(", "shot", ")" ] ],
 
-    MuFaCCaL                  `noun`    {- muval~av -}         [ "triangle", "triple" ] ]
+    MuFaCCaL                  `noun`    {- muval~av -}         [ "triangle", "triple" ]
+                              `plural`     MuFaCCaL |< Un,
+
+    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "triangle", "triple" ]
+                              `plural`     MuFaCCaL |< At ]
 
  |> "_t l l" <| [
 
@@ -170,14 +187,22 @@ cluster_4   = listing "Lexicon's properties"
                               `plural`     HaFCAL,
 
     FaCIL                     `noun`    {- vamiyn -}           [ "costly", "precious" ]
+                              `plural`     FaCIL |< Un
                               `plural`     FiCAL,
+
+    FaCIL |< aT               `noun`    {- DERIVED -}          [ "costly", "precious" ]
+                              `plural`     FaCIL |< At,
 
     HaFCaL                    `noun`    {- Oavoman -}          [ "costlier", unwords [ "more", "valuable" ] ],
 
     TaFCIL                    `noun`    {- tavomiyn -}         [ "appraisal", "rating" ]
                               `plural`     TaFCIL |< At,
 
-    MuFCaL                    `noun`    {- muvoman -}          [ "valuable" ],
+    MuFCaL                    `noun`    {- muvoman -}          [ "valuable" ]
+                              `plural`     MuFCaL |< Un,
+
+    MuFCaL |< aT              `noun`    {- DERIVED -}          [ "valuable" ]
+                              `plural`     MuFCaL |< At,
 
     FuCL                      `noun`    {- vumon -}            [ unwords [ "one", "-", "eighth" ], "eighth" ]
                               `plural`     HaFCAL,
@@ -220,11 +245,23 @@ cluster_5   = listing "Lexicon's properties"
 
     IstiFCAL |< Iy            `adj`     {- AisotivomAriy~ -}   [ "investment" ],
 
-    MuFCiL                    `noun`    {- muvomir -}          [ "profitable" ],
+    MuFCiL                    `noun`    {- muvomir -}          [ "profitable" ]
+                              `plural`     MuFCiL |< Un,
 
-    MustaFCiL                 `noun`    {- musotavomir -}      [ "investor" ],
+    MuFCiL |< aT              `noun`    {- DERIVED -}          [ "profitable" ]
+                              `plural`     MuFCiL |< At,
 
-    MustaFCaL                 `noun`    {- musotavomar -}      [ "exploited", "invested" ] ]
+    MustaFCiL                 `noun`    {- musotavomir -}      [ "investor" ]
+                              `plural`     MustaFCiL |< Un,
+
+    MustaFCiL |< aT           `noun`    {- DERIVED -}          [ "investor" ]
+                              `plural`     MustaFCiL |< At,
+
+    MustaFCaL                 `noun`    {- musotavomar -}      [ "exploited", "invested" ]
+                              `plural`     MustaFCaL |< Un,
+
+    MustaFCaL |< aT           `noun`    {- DERIVED -}          [ "exploited", "invested" ]
+                              `plural`     MustaFCaL |< At ]
 
  |> "_t n '" <| [
 
@@ -296,7 +333,11 @@ cluster_6   = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- tavoqiyf -}         [ "education", "cultivation" ]
                               `plural`     TaFCIL |< At,
 
-    MuFaCCaL                  `noun`    {- muvaq~af -}         [ "intellectual", "cultivated", "cultured", "educated" ] ]
+    MuFaCCaL                  `noun`    {- muvaq~af -}         [ "intellectual", "cultivated", "cultured", "educated" ]
+                              `plural`     MuFaCCaL |< Un,
+
+    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "intellectual", "cultivated", "cultured", "educated" ]
+                              `plural`     MuFaCCaL |< At ]
 
 
 cluster_7   = listing "Lexicon's properties"
@@ -311,7 +352,11 @@ cluster_7   = listing "Lexicon's properties"
     MiFCAL                    `noun`    {- mivoqAl -}          [ "weight", "miskal" ]
                               `plural`     MaFACIL,
 
-    MuFaCCaL                  `noun`    {- muvaq~al -}         [ "burdened", "weighted" ] ]
+    MuFaCCaL                  `noun`    {- muvaq~al -}         [ "burdened", "weighted" ]
+                              `plural`     MuFaCCaL |< Un,
+
+    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "burdened", "weighted" ]
+                              `plural`     MuFaCCaL |< At ]
 
  |> "_t r '" <| [
 
@@ -324,7 +369,11 @@ cluster_7   = listing "Lexicon's properties"
 
     KaRDaS |< aT              `noun`    {- varovarap -}        [ "chatter", "prattle" ],
 
-    KaRDAS                    `noun`    {- varovAr -}          [ "chatterbox", "garrulous" ] ]
+    KaRDAS                    `noun`    {- varovAr -}          [ "chatterbox", "garrulous" ]
+                              `plural`     KaRDAS |< Un,
+
+    KaRDAS |< aT              `noun`    {- DERIVED -}          [ "chatterbox", "garrulous" ]
+                              `plural`     KaRDAS |< At ]
 
  |> "_t r w" <| [
 
@@ -387,20 +436,40 @@ cluster_8   = listing "Lexicon's properties"
 
     HiFAL |< aT               `noun`    {- IivArap -}          [ "provocation", "agitation" ],
 
-    FA'iL                     `noun`    {- vA}ir -}            [ "agitated", "exited" ],
+    FA'iL                     `noun`    {- vA}ir -}            [ "agitated", "exited" ]
+                              `plural`     FA'iL |< Un,
+
+    FA'iL |< aT               `noun`    {- DERIVED -}          [ "agitated", "exited" ]
+                              `plural`     FA'iL |< At,
 
     FA'iL                     `noun`    {- vA}ir -}            [ "insurgent", "revolutionaries" ]
                               `plural`     FUCAL,
 
-    MuFIL                     `noun`    {- muviyr -}           [ "influential", "provocative" ],
+    MuFIL                     `noun`    {- muviyr -}           [ "influential", "provocative" ]
+                              `plural`     MuFIL |< Un,
 
-    MuFIL                     `noun`    {- muviyr -}           [ "provoking", "agitating", unwords [ "stirring", "up" ] ] ]
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "influential", "provocative" ]
+                              `plural`     MuFIL |< At,
+
+    MuFIL                     `noun`    {- muviyr -}           [ "provoking", "agitating", unwords [ "stirring", "up" ] ]
+                              `plural`     MuFIL |< Un,
+
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "provoking", "agitating", unwords [ "stirring", "up" ] ]
+                              `plural`     MuFIL |< At ]
 
  |> "_t y r" <| [
 
-    MuFIL                     `noun`    {- muviyr -}           [ "influential", "provocative" ],
+    MuFIL                     `noun`    {- muviyr -}           [ "influential", "provocative" ]
+                              `plural`     MuFIL |< Un,
 
-    MuFIL                     `noun`    {- muviyr -}           [ "provoking", "agitating", unwords [ "stirring", "up" ] ] ]
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "influential", "provocative" ]
+                              `plural`     MuFIL |< At,
+
+    MuFIL                     `noun`    {- muviyr -}           [ "provoking", "agitating", unwords [ "stirring", "up" ] ]
+                              `plural`     MuFIL |< Un,
+
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "provoking", "agitating", unwords [ "stirring", "up" ] ]
+                              `plural`     MuFIL |< At ]
 
  |> "_tUrmUnt" <| [
 

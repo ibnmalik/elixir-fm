@@ -290,7 +290,11 @@ cluster_5   = listing "Lexicon's properties"
 
     FACL |< aT                `noun`    {- DAl~ap -}           [ "ambition", "objective" ],
 
-    MuFaCCiL                  `noun`    {- muDal~il -}         [ "misleading", "deceptive" ] ]
+    MuFaCCiL                  `noun`    {- muDal~il -}         [ "misleading", "deceptive" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "misleading", "deceptive" ]
+                              `plural`     MuFaCCiL |< At ]
 
  |> ".d m .h l" <| [
 
@@ -437,7 +441,11 @@ cluster_8   = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- muDArabap -}        [ "competition" ],
 
-    MuFACiL                   `noun`    {- muDArib -}          [ "speculators" ],
+    MuFACiL                   `noun`    {- muDArib -}          [ "speculators" ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "speculators" ]
+                              `plural`     MuFACiL |< At,
 
     HiFCAL                    `noun`    {- IiDorAb -}          [ "strike", "stoppage" ]
                               `plural`     HiFCAL |< At,
@@ -445,12 +453,20 @@ cluster_8   = listing "Lexicon's properties"
     TaFACuL                   `noun`    {- taDArub -}          [ "conflict", "clash" ]
                               `plural`     TaFACuL |< At,
 
-    MutaFACiL                 `noun`    {- mutaDArib -}        [ "conflicting", "contradictory" ],
+    MutaFACiL                 `noun`    {- mutaDArib -}        [ "conflicting", "contradictory" ]
+                              `plural`     MutaFACiL |< Un,
+
+    MutaFACiL |< aT           `noun`    {- DERIVED -}          [ "conflicting", "contradictory" ]
+                              `plural`     MutaFACiL |< At,
 
     IFtiCAL                   `noun`    {- AiDoTirAb -}        [ "disturbance", "agitation", "disorder" ]
                               `plural`     IFtiCAL |< At,
 
-    MuFtaCiL                  `noun`    {- muDoTarib -}        [ "disturbed", "agitated", "disrupted" ] ]
+    MuFtaCiL                  `noun`    {- muDoTarib -}        [ "disturbed", "agitated", "disrupted" ]
+                              `plural`     MuFtaCiL |< Un,
+
+    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "disturbed", "agitated", "disrupted" ]
+                              `plural`     MuFtaCiL |< At ]
 
 
 cluster_9   = listing "Lexicon's properties"
@@ -482,7 +498,8 @@ cluster_9   = listing "Lexicon's properties"
 
     FaCUL |< aT               `noun`    {- Daruwrap -}         [ "necessity", "need", "imperative" ],
 
-    FaCUL |< Iy               `adj`     {- Daruwriy~ -}        [ "necessary", "requisite", "necessities" ],
+    FaCUL |< Iy               `adj`     {- Daruwriy~ -}        [ "necessary", "requisite", "necessities" ]
+                              `plural`     FaCUL |< Iy |< At,
 
     FACL                      `adj`     {- DAr~ -}             [ "harmful", "injurious", "noxious" ],
 
@@ -606,7 +623,11 @@ cluster_11  = listing "Lexicon's properties"
 
     HiFAL |< Iy               `adj`     {- IiDAfiy~ -}         [ "additional", "supplementary" ],
 
-    MuFIL                     `noun`    {- muDiyf -}           [ "host", "steward" ],
+    MuFIL                     `noun`    {- muDiyf -}           [ "host", "steward" ]
+                              `plural`     MuFIL |< Un,
+
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "host", "steward" ]
+                              `plural`     MuFIL |< At,
 
     MuFAL                     `adj`     {- muDAf -}            [ "added" ],
 

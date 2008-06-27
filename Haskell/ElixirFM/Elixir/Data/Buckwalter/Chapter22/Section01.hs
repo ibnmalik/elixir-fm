@@ -168,7 +168,8 @@ cluster_3   = listing "Lexicon's properties"
 
     FuCUL                     `noun`    {- kuHuwl -}           [ "alcohol" ],
 
-    FuCUL |< Iy               `adj`     {- kuHuwliy~ -}        [ "alcoholic", unwords [ "alcoholic", "beverages" ] ],
+    FuCUL |< Iy               `adj`     {- kuHuwliy~ -}        [ "alcoholic", unwords [ "alcoholic", "beverages" ] ]
+                              `plural`     FuCUL |< Iy |< At,
 
     FuCayL |< Iy              `adj`     {- kuHayoliy~ -}       [ unwords [ "thoroughbred", "horse" ] ],
 
@@ -255,7 +256,11 @@ cluster_5   = listing "Lexicon's properties"
 
     FuCAL |< aT               `noun`    {- ku$AHap -}          [ unwords [ "secret", "enmity" ], "grudge" ],
 
-    FACiL                     `noun`    {- kA$iH -}            [ unwords [ "secret", "enemy" ] ],
+    FACiL                     `noun`    {- kA$iH -}            [ unwords [ "secret", "enemy" ] ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ unwords [ "secret", "enemy" ] ]
+                              `plural`     FACiL |< At,
 
     FACiL                     `adj`     {- kA$iH -}            [ unwords [ "harboring", "a", "grudge" ] ] ]
 
@@ -333,12 +338,20 @@ cluster_6   = listing "Lexicon's properties"
 
     MaFCUL                    `adj`     {- mako$uwf -}         [ unwords [ "open", "-", "air" ], "exposed" ],
 
-    MuFtaCiL                  `noun`    {- mukota$if -}        [ "discoverer", "explorer" ],
+    MuFtaCiL                  `noun`    {- mukota$if -}        [ "discoverer", "explorer" ]
+                              `plural`     MuFtaCiL |< Un,
+
+    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "discoverer", "explorer" ]
+                              `plural`     MuFtaCiL |< At,
 
     MuFtaCaL                  `noun`    {- mukota$af -}        [ "discovery" ]
                               `plural`     MuFtaCaL |< At,
 
-    MustaFCiL                 `noun`    {- musotako$if -}      [ "discoverer", "explorer" ] ]
+    MustaFCiL                 `noun`    {- musotako$if -}      [ "discoverer", "explorer" ]
+                              `plural`     MustaFCiL |< Un,
+
+    MustaFCiL |< aT           `noun`    {- DERIVED -}          [ "discoverer", "explorer" ]
+                              `plural`     MustaFCiL |< At ]
 
 
 cluster_7   = listing "Lexicon's properties"
@@ -378,14 +391,11 @@ cluster_7   = listing "Lexicon's properties"
     KaRDIS                    `noun`    {- ka$omiyr -}         [ "cashmere" ]
                            {- `others`  [ "kA^smiyr Ndip" ] -},
 
-    KaRDIS |< Iy              `adj`     {- ka$omiyriy~ -}      [ unwords [ "from", "/", "of", "Kashmir" ] ]
-                           {- `others`  [ "kA^smiyriyy Nall" ] -},
+    KaRDIS |< Iy              `adj`     {- ka$omiyriy~ -}      [ unwords [ "from", "/", "of", "Kashmir" ] ],
 
-    KaRDIS |< Iy              `adj`     {- ka$omiyriy~ -}      [ "cashmere" ]
-                           {- `others`  [ "kA^smiyriyy Nall" ] -},
+    KaRDIS |< Iy              `adj`     {- ka$omiyriy~ -}      [ "cashmere" ],
 
-    KaRDIS |< Iy              `adj`     {- ka$omiyriy~ -}      [ "Kashmiri" ]
-                           {- `others`  [ "kA^smiyriyy Nall" ] -} ]
+    KaRDIS |< Iy              `adj`     {- ka$omiyriy~ -}      [ "Kashmiri" ] ]
 
  |> "k ^s n" <| [
 
@@ -423,7 +433,11 @@ cluster_8   = listing "Lexicon's properties"
 
     FaCUL                     `adj`     {- ka*uwb -}           [ "liar" ],
 
-    FaCCAL                    `noun`    {- ka*~Ab -}           [ "liar" ],
+    FaCCAL                    `noun`    {- ka*~Ab -}           [ "liar" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "liar" ]
+                              `plural`     FaCCAL |< At,
 
     HuFCUL |< aT              `noun`    {- Ouko*uwbap -}       [ "lie" ]
                               `plural`     HaFACIL,
@@ -433,7 +447,11 @@ cluster_8   = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- tako*iyb -}         [ "denial", "refutation" ]
                               `plural`     TaFCIL |< At,
 
-    FACiL                     `noun`    {- kA*ib -}            [ "liar", "lying" ],
+    FACiL                     `noun`    {- kA*ib -}            [ "liar", "lying" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "liar", "lying" ]
+                              `plural`     FACiL |< At,
 
     FACiL                     `adj`     {- kA*ib -}            [ "false", "untrue" ],
 
@@ -540,7 +558,11 @@ cluster_10  = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- kavorap -}          [ "abundance", "frequency" ],
 
     FaCIL                     `adv`     {- kaviyr -}           [ "many", "much", "numerous", unwords [ "a", "lot" ], "very" ]
+                              `plural`     FaCIL |< Un
                               `plural`     FiCAL,
+
+    FaCIL |< aT               `adv`     {- DERIVED -}          [ "many", "much", "numerous", unwords [ "a", "lot" ], "very" ]
+                              `plural`     FaCIL |< At,
 
     HaFCaL |< Iy |< aT        `noun`    {- Oakovariy~ap -}     [ "majority" ],
 
@@ -555,7 +577,11 @@ cluster_10  = listing "Lexicon's properties"
     TaFACuL                   `noun`    {- takAvur -}          [ "increase", "growth", "proliferation" ]
                               `plural`     TaFACuL |< At,
 
-    MuFCiL                    `noun`    {- mukovir -}          [ "wealthy" ],
+    MuFCiL                    `noun`    {- mukovir -}          [ "wealthy" ]
+                              `plural`     MuFCiL |< Un,
+
+    MuFCiL |< aT              `noun`    {- DERIVED -}          [ "wealthy" ]
+                              `plural`     MuFCiL |< At,
 
     MutaFaCCiL                `adj`     {- mutakav~ir -}       [ "pluralistic" ],
 

@@ -235,14 +235,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'ti^gAriyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'ti^gAr',
       'form' => 'ti^gAriyy',
       'lines' => [
         ';; tijAriy~_1',
         'tijAriy~        Nall    commercial;business     [[tijAriy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ti^gAriyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FiCAL |< Iy',
@@ -286,14 +292,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mat^gariyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mat^gar',
       'form' => 'mat^gariyy',
       'lines' => [
         ';; matojariy~_1',
         'matojariy~      Nall    commercial;business     [[matojariy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mat^gariyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MaFCaL |< Iy',
@@ -357,6 +369,9 @@ $Lexicon = {
       'types' => {
         'tu^g^gAr' => {
           'N' => 1
+        },
+        'tA^gir' => {
+          'Nall' => 1
         }
       },
       'entry' => 'tA^gir',
@@ -369,6 +384,9 @@ $Lexicon = {
       'patterns' => {
         'tu^g^gAr' => [
           'FuCCAL'
+        ],
+        'tA^gir' => [
+          'FACiL'
         ]
       },
       'index' => '1',
@@ -696,14 +714,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'matruwk' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'matruwk',
       'form' => 'matruwk',
       'lines' => [
         ';; matoruwk_1',
         'matoruwk        Nall    legacy'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'matruwk' => [
+          'MaFCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MaFCUL',
@@ -795,7 +821,11 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'turkiyy' => {
+          'Nall' => 2
+        }
+      },
       'entry' => 'turk',
       'form' => 'turkiyy',
       'lines' => [
@@ -803,7 +833,9 @@ $Lexicon = {
         'turokiy~        Nall    Turkish     [[turokiy~/NOUN]]',
         'turokiy~        Nall    Turkish     [[turokiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'turkiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FuCL |< Iy',
@@ -871,14 +903,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tA\'iq' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tA\'iq',
       'form' => 'tA\'iq',
       'lines' => [
         ';; tA}iq_1',
         'tA}iq   Nall    longing;eager'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tA\'iq' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -1082,7 +1122,11 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tibitiyy' => {
+          'Nall' => 2
+        }
+      },
       'entry' => 'tibit',
       'form' => 'tibitiyy',
       'lines' => [
@@ -1438,7 +1482,11 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tabriyziyy' => {
+          'Nall' => 2
+        }
+      },
       'entry' => 'tabriyz',
       'form' => 'tabriyziyy',
       'lines' => [
@@ -1446,7 +1494,9 @@ $Lexicon = {
         'taboriyziy~     Nall    Tabrizi;of/from Tabriz     [[taboriyziy~/NOUN]]',
         'taboriyziy~     Nall    Tabrizi;of/from Tabriz     [[taboriyziy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tabriyziyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'KaRDIS |< Iy',
@@ -1576,14 +1626,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tA^giyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tA^g',
       'form' => 'tA^giyy',
       'lines' => [
         ';; tAjiy~_1',
         'tAjiy~  Nall    coronal     [[tAjiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tA^giyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FAL |< Iy',
@@ -1652,14 +1708,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mutawwa^g' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mutawwa^g',
       'form' => 'mutawwa^g',
       'lines' => [
         ';; mutaw~aj_1',
         'mutaw~aj        Nall    crowned'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutawwa^g' => [
+          'MuFaCCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFaCCaL',
@@ -1977,6 +2041,9 @@ $Lexicon = {
       'types' => {
         '.taywAniyy' => {
           'Nall' => 1
+        },
+        'tAywAniyy' => {
+          'Nall' => 1
         }
       },
       'entry' => 'tAywAn',
@@ -2029,6 +2096,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'tAylandiyy' => {
+          'Nall' => 2
+        },
         'taylAndiyy' => {
           'Nall' => 2
         },
@@ -2157,7 +2227,11 @@ $Lexicon = {
   ],
   't^sIk' => [
     {
-      'types' => {},
+      'types' => {
+        't^siykiyy' => {
+          'Nall' => 2
+        }
+      },
       'entry' => 't^siyk',
       'form' => 't^siykiyy',
       'lines' => [
@@ -2288,7 +2362,11 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'triyniydAdiyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'triyniydAd',
       'form' => 'triyniydAdiyy',
       'lines' => [
@@ -2369,14 +2447,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'taliy`' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'taliy`',
       'form' => 'taliy`',
       'lines' => [
         ';; taliyE_1',
         'taliyE  Nall    long;extended'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'taliy`' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -2452,14 +2538,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'takniykiyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'takniyk',
       'form' => 'takniykiyy',
       'lines' => [
         ';; takoniykiy~_1',
         'takoniykiy~     Nall    technical     [[takoniykiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'takniykiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'KaRDIS |< Iy',
@@ -2770,14 +2862,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'taqniyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'taqn',
       'form' => 'taqniyy',
       'lines' => [
         ';; taqoniy~_2',
         'taqoniy~        Nall    technician     [[taqoniy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'taqniyy' => []
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCL |< Iy',
@@ -2876,14 +2974,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mutqan' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mutqan',
       'form' => 'mutqan',
       'lines' => [
         ';; mutoqan_1',
         'mutoqan Nall    exact;perfect'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutqan' => [
+          'MuFCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFCaL',
@@ -3139,6 +3245,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'tAbil' => {
+          'Nall' => 1
+        },
         'tawAbil' => {
           'Ndip' => 1
         }
@@ -3151,6 +3260,9 @@ $Lexicon = {
         'tawAbil Ndip    spices;condiments'
       ],
       'patterns' => {
+        'tAbil' => [
+          'FACiL'
+        ],
         'tawAbil' => [
           'FawACiL'
         ]
@@ -3189,14 +3301,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'matbuwl' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'matbuwl',
       'form' => 'matbuwl',
       'lines' => [
         ';; matobuwl_1',
         'matobuwl        Nall    love-sick;ravaged'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'matbuwl' => [
+          'MaFCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MaFCUL',
@@ -3209,14 +3329,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mutabbal' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mutabbal',
       'form' => 'mutabbal',
       'lines' => [
         ';; mutab~al_1',
         'mutab~al        Nall    spiced;stuffed'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutabbal' => [
+          'MuFaCCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFaCCaL',
@@ -3252,7 +3380,11 @@ $Lexicon = {
   ],
   'tra^gId' => [
     {
-      'types' => {},
+      'types' => {
+        'tra^giydiyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tra^giyd',
       'form' => 'tra^giydiyy',
       'lines' => [
@@ -3274,14 +3406,20 @@ $Lexicon = {
   ],
   't .h t n' => [
     {
-      'types' => {},
+      'types' => {
+        'ta.htAniyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'ta.htAn',
       'form' => 'ta.htAniyy',
       'lines' => [
         ';; taHotAniy~_1',
         'taHotAniy~      Nall    lower;under;base     [[taHotAniy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta.htAniyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'KaRDAS |< Iy',
@@ -3340,14 +3478,20 @@ $Lexicon = {
   ],
   't r ^g d' => [
     {
-      'types' => {},
+      'types' => {
+        'tarA^giydiyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tarA^giyd',
       'form' => 'tarA^giydiyy',
       'lines' => [
         ';; tarAjiydiy~_1',
         'tarAjiydiy~     Nall    tragedy;tragic     [[tarAjiydiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tarA^giydiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'KaRADIS |< Iy',
@@ -3514,6 +3658,9 @@ $Lexicon = {
       'types' => {
         'matA`iys' => {
           'Ndip' => 1
+        },
+        'mat`uws' => {
+          'Nall' => 1
         }
       },
       'entry' => 'mat`uws',
@@ -3524,6 +3671,9 @@ $Lexicon = {
         'matAEiys        Ndip    wretched;miserable'
       ],
       'patterns' => {
+        'mat`uws' => [
+          'MaFCUL'
+        ],
         'matA`iys' => [
           'MaFACIL'
         ]
@@ -3775,7 +3925,11 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tadmuriyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tadmur',
       'form' => 'tadmuriyy',
       'lines' => [
@@ -3960,6 +4114,9 @@ $Lexicon = {
         },
         'talAmi_d' => {
           'Nap' => 1
+        },
+        'tilmiy_d' => {
+          'Nall' => 1
         }
       },
       'entry' => 'tilmiy_d',
@@ -3976,6 +4133,9 @@ $Lexicon = {
         ],
         'talAmi_d' => [
           'KaRADiS'
+        ],
+        'tilmiy_d' => [
+          'KiRDIS'
         ]
       },
       'index' => '1',
@@ -4097,7 +4257,11 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'turkistAniyy' => {
+          'Nall' => 2
+        }
+      },
       'entry' => 'turkistAn',
       'form' => 'turkistAniyy',
       'lines' => [
@@ -4180,14 +4344,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tiyfuwdiyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tiyfuwd',
       'form' => 'tiyfuwdiyy',
       'lines' => [
         ';; tiyfuwdiy~_1',
         'tiyfuwdiy~      Nall    typhoid     [[tiyfuwdiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tiyfuwdiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'KiRDUS |< Iy',
@@ -4434,14 +4604,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mutA.h' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mutA.h',
       'form' => 'mutA.h',
       'lines' => [
         ';; mutAH_1',
         'mutAH   Nall    provided;available;granted'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutA.h' => [
+          'MuFAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFAL',
@@ -4820,14 +4998,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'turA_tiyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'turA_t',
       'form' => 'turA_tiyy',
       'lines' => [
         ';; turAviy~_1',
         'turAviy~        Nall    historical;heritage-based;inherited     [[turAviy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'turA_tiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FuCAL |< Iy',
@@ -4988,14 +5172,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tAfih' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tAfih',
       'form' => 'tAfih',
       'lines' => [
         ';; tAfih_1',
         'tAfih   Nall    trivial;commonplace'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tAfih' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -5184,14 +5376,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tawwAq' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tawwAq',
       'form' => 'tawwAq',
       'lines' => [
         ';; taw~Aq_1',
         'taw~Aq  Nall    longing;yearning'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tawwAq' => [
+          'FaCCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCCAL',
@@ -5208,7 +5408,11 @@ $Lexicon = {
       'entry' => 'tA\'iq',
       'form' => 'tA\'iq',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'tA\'iq' => [
+          'FA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FA\'iL',
@@ -5267,7 +5471,11 @@ $Lexicon = {
   ],
   'tamar^g' => [
     {
-      'types' => {},
+      'types' => {
+        'tamar^giyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tamar^g',
       'form' => 'tamar^giyy',
       'lines' => [
@@ -5372,14 +5580,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'talfiytiyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'talfiyt',
       'form' => 'talfiytiyy',
       'lines' => [
         ';; talofiytiy~_1',
         'talofiytiy~     Nall    from/of Talfit'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'talfiytiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'KaRDIS |< Iy',
@@ -5877,14 +6091,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mut`ib' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mut`ib',
       'form' => 'mut`ib',
       'lines' => [
         ';; mutoEib_1',
         'mutoEib Nall    troublesome;tiresome'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mut`ib' => [
+          'MuFCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFCiL',
@@ -5897,14 +6119,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mut`ab' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mut`ab',
       'form' => 'mut`ab',
       'lines' => [
         ';; mutoEab_1',
         'mutoEab Nall    tired;weary'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mut`ab' => [
+          'MuFCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFCaL',
@@ -6164,14 +6394,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tawwAb' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tawwAb',
       'form' => 'tawwAb',
       'lines' => [
         ';; taw~Ab_2',
         'taw~Ab  Nall    repentant;merciful'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tawwAb' => [
+          'FaCCAL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCCAL',
@@ -6184,14 +6422,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tA\'ib' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tA\'ib',
       'form' => 'tA\'ib',
       'lines' => [
         ';; tA}ib_1',
         'tA}ib   Nall    repentant;contrite'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tA\'ib' => [
+          'FA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FA\'iL',
@@ -6206,7 +6452,11 @@ $Lexicon = {
   ],
   'tiknUlU^g' => [
     {
-      'types' => {},
+      'types' => {
+        'tiknuwluw^giyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tiknuwluw^g',
       'form' => 'tiknuwluw^giyy',
       'lines' => [
@@ -6325,14 +6575,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mutra`' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mutra`',
       'form' => 'mutra`',
       'lines' => [
         ';; mutoraE_1',
         'mutoraE Nall    filled'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutra`' => [
+          'MuFCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFCaL',
@@ -6419,14 +6677,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tAlih' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tAlih',
       'form' => 'tAlih',
       'lines' => [
         ';; tAlih_1',
         'tAlih   Nall    bewildered;distracted'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tAlih' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -6439,14 +6705,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mutatallah' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mutatallah',
       'form' => 'mutatallah',
       'lines' => [
         ';; mutatal~ah_1',
         'mutatal~ah      Nall    bewildered;distracted'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutatallah' => [
+          'MutaFaCCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MutaFaCCaL',
@@ -6482,7 +6756,11 @@ $Lexicon = {
   ],
   'trIliyUnIr' => [
     {
-      'types' => {},
+      'types' => {
+        'triyliyuwniyr' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'triyliyuwniyr',
       'form' => 'triyliyuwniyr',
       'lines' => [
@@ -6623,6 +6901,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'tuwnisiyy' => {
+          'Nall' => 2
+        },
         'tawAnis' => {
           'Nap' => 1
         }
@@ -6636,6 +6917,7 @@ $Lexicon = {
         'tawAnis Nap     Tunisians'
       ],
       'patterns' => {
+        'tuwnisiyy' => [],
         'tawAnis' => [
           'KaRADiS'
         ]
@@ -7085,14 +7367,20 @@ $Lexicon = {
   ],
   't r z' => [
     {
-      'types' => {},
+      'types' => {
+        'tarziyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tarz',
       'form' => 'tarziyy',
       'lines' => [
         ';; taroziy~_1',
         'taroziy~        Nall    tailor     [[taroziy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tarziyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCL |< Iy',
@@ -7391,14 +7679,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'taba`iyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'taba`',
       'form' => 'taba`iyy',
       'lines' => [
         ';; tabaEiy~_1',
         'tabaEiy~        Nall    incidental     [[tabaEiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'taba`iyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCaL |< Iy',
@@ -7430,14 +7724,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tabiy`' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tabiy`',
       'form' => 'tabiy`',
       'lines' => [
         ';; tabiyE_1',
         'tabiyE  Nall    adjunct;partisan'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tabiy`' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -7667,14 +7969,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tAbi`' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tAbi`',
       'form' => 'tAbi`',
       'lines' => [
         ';; tAbiE_1',
         'tAbiE   Nall    subordinate;adherent     [[tAbiE/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tAbi`' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FACiL',
@@ -7747,14 +8057,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'matbuw`' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'matbuw`',
       'form' => 'matbuw`',
       'lines' => [
         ';; matobuwE_1',
         'matobuwE        Nall    followed;leader'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'matbuw`' => [
+          'MaFCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MaFCUL',
@@ -7787,14 +8105,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mutAbi`' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mutAbi`',
       'form' => 'mutAbi`',
       'lines' => [
         ';; mutAbiE_1',
         'mutAbiE Nall    following;continuing'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutAbi`' => [
+          'MuFACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFACiL',
@@ -7807,14 +8133,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mutatabbi`' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mutatabbi`',
       'form' => 'mutatabbi`',
       'lines' => [
         ';; mutatab~iE_1',
         'mutatab~iE      Nall    pursuing;keeping up with;informed about'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutatabbi`' => [
+          'MutaFaCCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MutaFaCCiL',
@@ -7828,14 +8162,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mutatAbi`' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mutatAbi`',
       'form' => 'mutatAbi`',
       'lines' => [
         ';; mutatAbiE_1',
         'mutatAbiE       Nall    consecutive;successive'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutatAbi`' => [
+          'MutaFACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MutaFACiL',
@@ -7848,14 +8190,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'muttaba`' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'muttaba`',
       'form' => 'muttaba`',
       'lines' => [
         ';; mut~abaE_1',
         'mut~abaE        Nall    followed;observed;adhered'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'muttaba`' => [
+          'MuFtaCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFtaCaL',
@@ -8165,14 +8515,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mitlAf' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mitlAf',
       'form' => 'mitlAf',
       'lines' => [
         ';; mitolAf_1',
         'mitolAf Nall    wastrel;harmful'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mitlAf' => [
+          'MiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MiFCAL',
@@ -8213,14 +8571,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tAlif' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tAlif',
       'form' => 'tAlif',
       'lines' => [
         ';; tAlif_1',
         'tAlif   Nall    ruined;broken'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tAlif' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -8233,14 +8599,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'matluwf' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'matluwf',
       'form' => 'matluwf',
       'lines' => [
         ';; matoluwf_1',
         'matoluwf        Nall    ruined;broken'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'matluwf' => [
+          'MaFCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MaFCUL',
@@ -8253,14 +8627,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mutlif' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mutlif',
       'form' => 'mutlif',
       'lines' => [
         ';; mutolif_1',
         'mutolif Nall    damaging;harmful'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutlif' => [
+          'MuFCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFCiL',
@@ -8467,6 +8849,9 @@ $Lexicon = {
       'types' => {
         'tuwbuw^grAfiyy' => {
           'Nall' => 1
+        },
+        'tuwbuw.grAfiyy' => {
+          'Nall' => 1
         }
       },
       'entry' => 'tuwbuw.grAf',
@@ -8639,14 +9024,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tayyAh' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tayyAh',
       'form' => 'tayyAh',
       'lines' => [
         ';; tay~Ah_1',
         'tay~Ah  Nall    straying;wandering'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tayyAh' => [
+          'FaCCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCCAL',
@@ -8659,14 +9052,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tayyAh' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tayyAh',
       'form' => 'tayyAh',
       'lines' => [
         ';; tay~Ah_2',
         'tay~Ah  Nall    haughty'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tayyAh' => [
+          'FaCCAL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCCAL',
@@ -8798,14 +9199,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tA\'ih' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tA\'ih',
       'form' => 'tA\'ih',
       'lines' => [
         ';; tA}ih_1',
         'tA}ih   Nall    straying;lost'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tA\'ih' => [
+          'FA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FA\'iL',
@@ -9010,14 +9419,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tarif' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tarif',
       'form' => 'tarif',
       'lines' => [
         ';; tarif_1',
         'tarif   Nall    opulent;luxurious'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tarif' => [
+          'FaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCiL',
@@ -9030,14 +9447,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mutraf' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mutraf',
       'form' => 'mutraf',
       'lines' => [
         ';; mutoraf_1',
         'mutoraf Nall    wealthy;luxurious'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutraf' => [
+          'MuFCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFCaL',
@@ -9242,14 +9667,20 @@ $Lexicon = {
   ],
   't r w d' => [
     {
-      'types' => {},
+      'types' => {
+        'tirwAdiyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tirwAd',
       'form' => 'tirwAdiyy',
       'lines' => [
         ';; tirowAdiy~_1',
         'tirowAdiy~      Nall    Trojan'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tirwAdiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'KiRDAS |< Iy',
@@ -9263,7 +9694,11 @@ $Lexicon = {
   ],
   't^sIkUslUfAk' => [
     {
-      'types' => {},
+      'types' => {
+        't^siykuwsluwfAkiyy' => {
+          'Nall' => 2
+        }
+      },
       'entry' => 't^siykuwsluwfAk',
       'form' => 't^siykuwsluwfAkiyy',
       'lines' => [
@@ -9285,7 +9720,11 @@ $Lexicon = {
   ],
   't^sIl' => [
     {
-      'types' => {},
+      'types' => {
+        't^siyliyy' => {
+          'Nall' => 2
+        }
+      },
       'entry' => 't^siyl',
       'form' => 't^siyliyy',
       'lines' => [
@@ -9347,7 +9786,11 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        't^sAdiyy' => {
+          'Nall' => 2
+        }
+      },
       'entry' => 't^sAd',
       'form' => 't^sAdiyy',
       'lines' => [
@@ -9432,7 +9875,11 @@ $Lexicon = {
   ],
   'tilibA_t' => [
     {
-      'types' => {},
+      'types' => {
+        'tilibA_tiyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tilibA_t',
       'form' => 'tilibA_tiyy',
       'lines' => [
@@ -9615,14 +10062,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'taktiykiyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'taktiyk',
       'form' => 'taktiykiyy',
       'lines' => [
         ';; takotiykiy~_1',
         'takotiykiy~     Nall    tactical;tactic     [[takotiykiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'taktiykiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'KaRDIS |< Iy',
@@ -9708,6 +10161,9 @@ $Lexicon = {
     {
       'types' => {
         'tiliyfizyuwniyy' => {
+          'Nall' => 1
+        },
+        'tilfizyuwniyy' => {
           'Nall' => 1
         }
       },
@@ -9983,7 +10439,11 @@ $Lexicon = {
   ],
   'tanak^g' => [
     {
-      'types' => {},
+      'types' => {
+        'tanak^giyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tanak^g',
       'form' => 'tanak^giyy',
       'lines' => [
@@ -10268,14 +10728,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mutar^gim' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mutar^gim',
       'form' => 'mutar^gim',
       'lines' => [
         ';; mutarojim_1',
         'mutarojim       Nall    translator;interpreter'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutar^gim' => [
+          'MuKaRDiS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuKaRDiS',
@@ -10288,14 +10756,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mutar^gam' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mutar^gam',
       'form' => 'mutar^gam',
       'lines' => [
         ';; mutarojam_1',
         'mutarojam       Nall    translated'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutar^gam' => [
+          'MuKaRDaS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuKaRDaS',
@@ -10339,7 +10815,11 @@ $Lexicon = {
       'entry' => 'tA\'ib',
       'form' => 'tA\'ib',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'tA\'ib' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -10794,14 +11274,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mat_huwm' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mat_huwm',
       'form' => 'mat_huwm',
       'lines' => [
         ';; matoxuwm_1',
         'matoxuwm        Nall    dyspeptic;having indigestion'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mat_huwm' => [
+          'MaFCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MaFCUL',
@@ -10814,14 +11302,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mut_ham' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mut_ham',
       'form' => 'mut_ham',
       'lines' => [
         ';; mutoxam_1',
         'mutoxam Nall    bulging;overstuffed     [[mutoxam/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mut_ham' => [
+          'MuFCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFCaL',
@@ -10834,14 +11330,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mutA_him' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mutA_him',
       'form' => 'mutA_him',
       'lines' => [
         ';; mutAxim_1',
         'mutAxim Nall    neighboring;adjacent'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutA_him' => [
+          'MuFACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFACiL',
@@ -10928,7 +11432,11 @@ $Lexicon = {
       'entry' => 'tA\'ih',
       'form' => 'tA\'ih',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'tA\'ih' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -11033,7 +11541,11 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mutaw\'am' => {
+          'Nall' => 2
+        }
+      },
       'entry' => 'mutaw\'am',
       'form' => 'mutaw\'am',
       'lines' => [
@@ -11041,7 +11553,11 @@ $Lexicon = {
         'mutawoOam       Nall    twinned',
         'mutawo\'am       Nall    twinned'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutaw\'am' => [
+          'MuKaRDaS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuKaRDaS',
@@ -11095,7 +11611,11 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tiknuwqrA.tiyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tiknuwqrA.t',
       'form' => 'tiknuwqrA.tiyy',
       'lines' => [
@@ -11484,14 +12004,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tis`iyniyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tis`iyn',
       'form' => 'tis`iyniyy',
       'lines' => [
         ';; tisoEiyniy~_1',
         'tisoEiyniy~     Nall    nineties     [[tisoEiyniy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tis`iyniyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KiRDIS |< Iy',
@@ -11643,14 +12169,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tabbAn' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tabbAn',
       'form' => 'tabbAn',
       'lines' => [
         ';; tab~An_1',
         'tab~An  Nall    straw vendor'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tabbAn' => [
+          'FaCLAn'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCLAn',
@@ -11775,14 +12309,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mutanbar' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mutanbar',
       'form' => 'mutanbar',
       'lines' => [
         ';; mutanobar_1',
         'mutanobar       Nall    stampe'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutanbar' => [
+          'MuKaRDaS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuKaRDaS',
@@ -11822,6 +12364,9 @@ $Lexicon = {
     {
       'types' => {
         'tatAriyy' => {
+          'Nall' => 2
+        },
+        'tatariyy' => {
           'Nall' => 2
         }
       },
@@ -11889,14 +12434,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tibniyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tibn',
       'form' => 'tibniyy',
       'lines' => [
         ';; tiboniy~_1',
         'tiboniy~        Nall    flaxen     [[tiboniy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tibniyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FiCL |< Iy',
@@ -11912,7 +12463,11 @@ $Lexicon = {
       'entry' => 'tabbAn',
       'form' => 'tabbAn',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'tabbAn' => [
+          'FaCCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCCAL',
@@ -12411,7 +12966,11 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tili.grAfiyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'tili.grAf',
       'form' => 'tili.grAfiyy',
       'lines' => [
@@ -13114,14 +13673,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'ta.htiyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'ta.ht',
       'form' => 'ta.htiyy',
       'lines' => [
         ';; taHotiy~_1',
         'taHotiy~        Nall    under;infra-     [[taHotiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta.htiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCL |< Iy',
@@ -13138,7 +13703,9 @@ $Lexicon = {
       'entry' => 'ta.htAn',
       'form' => 'ta.htAniyy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'ta.htAniyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCLAn |< Iy',
@@ -13260,6 +13827,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'tilifuwniyy' => {
+          'Nall' => 1
+        },
         'tiliyfuwniyy' => {
           'Nall' => 1
         }
@@ -13778,7 +14348,11 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tamiymiyy' => {
+          'Nall' => 2
+        }
+      },
       'entry' => 'tamiym',
       'form' => 'tamiymiyy',
       'lines' => [
@@ -13786,7 +14360,9 @@ $Lexicon = {
         'tamiymiy~       Nall    Tamimi     [[tamiymiy~/NOUN]]',
         'tamiymiy~       Nall    Tamimi     [[tamiymiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tamiymiyy' => []
+      },
       'index' => '2',
       'entity' => 'adj',
       'morphs' => 'FaCIL |< Iy',
@@ -14228,7 +14804,11 @@ $Lexicon = {
   ],
   't n z' => [
     {
-      'types' => {},
+      'types' => {
+        'tanzAniyy' => {
+          'Nall' => 2
+        }
+      },
       'entry' => 'tanzAn',
       'form' => 'tanzAniyy',
       'lines' => [
@@ -14236,7 +14816,9 @@ $Lexicon = {
         'tanozAniy~      Nall    Tanzanian     [[tanzAniy~/NOUN]]',
         'tanozAniy~      Nall    Tanzanian     [[tanzAniy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tanzAniyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCLAn |< Iy',
@@ -14417,7 +14999,9 @@ $Lexicon = {
       'entry' => 'tanzAn',
       'form' => 'tanzAniyy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'tanzAniyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'KaRDAS |< Iy',
@@ -14650,14 +15234,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'turabiyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'turab',
       'form' => 'turabiyy',
       'lines' => [
         ';; turabiy~_1',
         'turabiy~        Nall    gravedigger     [[turabiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'turabiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FuCaL |< Iy',
@@ -14724,14 +15314,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'turAbiyy' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'turAb',
       'form' => 'turAbiyy',
       'lines' => [
         ';; turAbiy~_2',
         'turAbiy~        Nall    dusty;earthy     [[turAbiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'turAbiyy' => []
+      },
       'index' => '2',
       'entity' => 'adj',
       'morphs' => 'FuCAL |< Iy',
@@ -14823,14 +15419,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mutrib' => {
+          'Nall' => 1
+        }
+      },
       'entry' => 'mutrib',
       'form' => 'mutrib',
       'lines' => [
         ';; mutorib_1',
         'mutorib Nall    dusty'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutrib' => [
+          'MuFCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFCiL',
@@ -14907,7 +15511,11 @@ $Lexicon = {
   ],
   'tAnzAn' => [
     {
-      'types' => {},
+      'types' => {
+        'tAnzAniyy' => {
+          'Nall' => 2
+        }
+      },
       'entry' => 'tAnzAn',
       'form' => 'tAnzAniyy',
       'lines' => [

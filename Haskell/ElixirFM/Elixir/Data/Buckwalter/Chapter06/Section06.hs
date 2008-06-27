@@ -26,6 +26,10 @@ cluster_101 = listing "Lexicon's properties"
 
     FaCCAL |< aT              `noun`    {- Haw~Amap -}         [ "hovercraft" ] ]
 
+ |> ".h w n" <| [
+
+    FuCayyiL                  `noun`    {- Huway~in -}         [ unwords [ "small", "animal" ] ] ]
+
  |> ".h w q" <| [
 
     FAL                       `verb`    {- HAq-u -}            [ "surround", "enclose", "embrace" ]
@@ -105,7 +109,11 @@ cluster_102 = listing "Lexicon's properties"
     TaFACuL                   `noun`    {- taHAwur -}          [ "discussion" ]
                               `plural`     TaFACuL |< At,
 
-    MuFACiL                   `noun`    {- muHAwir -}          [ "interlocutor", "discussant" ],
+    MuFACiL                   `noun`    {- muHAwir -}          [ "interlocutor", "discussant" ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "interlocutor", "discussant" ]
+                              `plural`     MuFACiL |< At,
 
     MuFaCCaL                  `noun`    {- muHaw~ar -}         [ "customized", "altered" ] ]
 
@@ -197,9 +205,17 @@ cluster_104 = listing "Lexicon's properties"
     InFiyAL                   `noun`    {- AinoHiyAz -}        [ "alignment", "bias", unwords [ "prejudice", "(", "political", ")" ] ]
                               `plural`     InFiyAL |< At,
 
-    FA'iL                     `noun`    {- HA}iz -}            [ "holder", "possessor" ],
+    FA'iL                     `noun`    {- HA}iz -}            [ "holder", "possessor" ]
+                              `plural`     FA'iL |< Un,
 
-    MunFAL                    `noun`    {- munoHAz -}          [ "aligned", "biased" ] ]
+    FA'iL |< aT               `noun`    {- DERIVED -}          [ "holder", "possessor" ]
+                              `plural`     FA'iL |< At,
+
+    MunFAL                    `noun`    {- munoHAz -}          [ "aligned", "biased" ]
+                              `plural`     MunFAL |< Un,
+
+    MunFAL |< aT              `noun`    {- DERIVED -}          [ "aligned", "biased" ]
+                              `plural`     MunFAL |< At ]
 
  |> ".h y '" <| [
 
@@ -267,7 +283,8 @@ cluster_106 = listing "Lexicon's properties"
 
     IFtiCAL |< Iy             `adj`     {- AiHotiyATiy~ -}     [ "precautionary", "contingency", "reserve" ],
 
-    IFtiCAL |< Iy             `noun`    {- AiHotiyATiy~ -}     [ unwords [ "reserves", "(", "econ.,", "geol.,", "milit.,", "spo.", ")" ] ],
+    IFtiCAL |< Iy             `noun`    {- AiHotiyATiy~ -}     [ unwords [ "reserves", "(", "econ.,", "geol.,", "milit.,", "spo.", ")" ] ]
+                              `plural`     IFtiCAL |< Iy |< At,
 
     MuFIL                     `noun`    {- muHiyT -}           [ "Ocean" ],
 
@@ -356,6 +373,8 @@ cluster_108 = listing "Lexicon's properties"
 
  |> ".h y l" <| [
 
+    FaCLUL |< aT              `noun`    {- Hayoluwlap -}       [ "prevention" ],
+
     FiCAL |<< "a"             `prep`    {- HiyAla -}           [ "concerning", unwords [ "with", "regard", "to" ] ]
                            {- `others`  [ ".hiyAli FW-Wa FW-Wa-i" ] -},
 
@@ -364,7 +383,11 @@ cluster_108 = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- HAyil -}            [ "Hayil", "Ha'il" ],
 
-    MuFIL                     `noun`    {- muHiyl -}           [ "transferor", "assignor" ],
+    MuFIL                     `noun`    {- muHiyl -}           [ "transferor", "assignor" ]
+                              `plural`     MuFIL |< Un,
+
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "transferor", "assignor" ]
+                              `plural`     MuFIL |< At,
 
     MustaFIL                  `adj`     {- musotaHiyl -}       [ "impossible" ],
 
@@ -397,6 +420,8 @@ cluster_109 = listing "Lexicon's properties"
 
 
  |> ".h y n" <| [
+
+    FuwayCiL                  `noun`    {- Huway~in -}         [ unwords [ "small", "animal" ] ],
 
     FIL |<< "a"               `prep`    {- Hiyna -}            [ "when" ]
                            {- `others`  [ ".hiyni FW-Wa FW-Wa-i" ] -},
@@ -534,6 +559,12 @@ cluster_111 = listing "Lexicon's properties"
 
     FaC |<< "awIy" |< aT      `noun`    {- Hayawiy~ap -}       [ "vigor", "liveliness" ],
 
+    FaCawAn                   `noun`    {- HayawAn -}          [ "animal", "creature" ],
+
+    FaCawAn |< Iy             `adj`     {- HayawAniy~ -}       [ "animal", "zoological" ],
+
+    FaCawAn |< Iy |< aT       `noun`    {- HayawAniy~ap -}     [ "bestiality", unwords [ "animal", "nature" ] ],
+
     HaFCY                     `noun`    {- OaHoyaY -}          [ unwords [ "livelier", "/", "liveliest" ], unwords [ "more", "/", "most", "vital" ], "liveliest", unwords [ "most", "vital" ] ]
                            {- `others`  [ "'a.hyaw NAn_Nayn" ] -},
 
@@ -562,7 +593,11 @@ cluster_112 = listing "Lexicon's properties"
     InFiCAL                   `noun`    {- AinoHiyAz -}        [ "alignment", "bias", unwords [ "prejudice", "(", "political", ")" ] ]
                               `plural`     InFiCAL |< At,
 
-    MutaFaCCiL                `noun`    {- mutaHay~iz -}       [ "biased", "prejudiced" ] ]
+    MutaFaCCiL                `noun`    {- mutaHay~iz -}       [ "biased", "prejudiced" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "biased", "prejudiced" ]
+                              `plural`     MutaFaCCiL |< At ]
 
  |> ".h z b" <| [
 
@@ -589,7 +624,11 @@ cluster_112 = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- HAzib -}            [ "mishap" ],
 
-    MutaFaCCiL                `noun`    {- mutaHaz~ib -}       [ "partisan" ] ]
+    MutaFaCCiL                `noun`    {- mutaHaz~ib -}       [ "partisan" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "partisan" ]
+                              `plural`     MutaFaCCiL |< At ]
 
 
 cluster_113 = listing "Lexicon's properties"
@@ -890,14 +929,6 @@ cluster_117 = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Hum~uS -}           [ "Hummus", "Homos" ] ]
 
- |> ".huway.sil" <| [
-
-    Identity                  `noun`    {- HuwayoSil -}        [ "blister", "vesicle" ] ]
-
- |> ".huwayyin" <| [
-
-    Identity                  `noun`    {- Huway~in -}         [ unwords [ "small", "animal" ] ] ]
-
  |> ".huzuqqAn" <| [
 
     Identity |< Iy            `adj`     {- Huzuq~Aniy~ -}      [ "choleric" ] ]
@@ -913,10 +944,6 @@ cluster_117 = listing "Lexicon's properties"
  |> "ta.hnAn" <| [
 
     Identity                  `noun`    {- taHonAn -}          [ "compassion", "affection" ] ]
-
-
-cluster_118 = listing "Lexicon's properties"
-
 
  |> "ya.hmUr" <| [
 
@@ -939,6 +966,5 @@ section = [ cluster_101,
             cluster_114,
             cluster_115,
             cluster_116,
-            cluster_117,
-            cluster_118 ]
+            cluster_117 ]
 

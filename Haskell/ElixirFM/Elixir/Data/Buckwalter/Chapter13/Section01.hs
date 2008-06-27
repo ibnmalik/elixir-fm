@@ -32,8 +32,7 @@ cluster_1   = listing "Lexicon's properties"
 
  |> "^s ' `" <| [
 
-    FACiL                     `adj`     {- \$A}iE -}           [ "widespread", unwords [ "well", "-", "known" ] ]
-                           {- `others`  [ "^sAyi` Nall" ] -} ]
+    FACiL                     `adj`     {- \$A}iE -}           [ "widespread", unwords [ "well", "-", "known" ] ] ]
 
  |> "^s ' b" <| [
 
@@ -95,7 +94,7 @@ cluster_2   = listing "Lexicon's properties"
                               `plural`     FaCL,
 
     FAL |< Iy                 `adj`     {- \$Amiy~ -}          [ "Syrian" ]
-                           {- `others`  [ "^sa'Amiyy Nall", "^suwAm N" ] -} ]
+                           {- `others`  [ "^suwAm N" ] -} ]
 
  |> "^s ' n" <| [
 
@@ -137,16 +136,28 @@ cluster_3   = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- \$agab -}           [ "unrest", "disturbance" ],
 
-    FaCiL                     `noun`    {- \$agib -}           [ "troublemaker", "agitator" ],
+    FaCiL                     `noun`    {- \$agib -}           [ "troublemaker", "agitator" ]
+                              `plural`     FaCiL |< Un,
 
-    FaCCAL                    `noun`    {- \$ag~Ab -}          [ "troublemaker", "agitator" ],
+    FaCiL |< aT               `noun`    {- DERIVED -}          [ "troublemaker", "agitator" ]
+                              `plural`     FaCiL |< At,
+
+    FaCCAL                    `noun`    {- \$ag~Ab -}          [ "troublemaker", "agitator" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "troublemaker", "agitator" ]
+                              `plural`     FaCCAL |< At,
 
     FaCUL                     `noun`    {- \$aguwb -}          [ "troublemaker", "agitator" ],
 
     MuFACaL |< aT             `noun`    {- mu$Agabap -}        [ "disturbance", "disorder", "agitation" ]
                               `plural`     MaFACiL,
 
-    MuFACiL                   `noun`    {- mu$Agib -}          [ "agitator", "subverter", "rioter" ] ]
+    MuFACiL                   `noun`    {- mu$Agib -}          [ "agitator", "subverter", "rioter" ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "agitator", "subverter", "rioter" ]
+                              `plural`     MuFACiL |< At ]
 
  |> "^s .g f" <| [
 
@@ -191,7 +202,11 @@ cluster_4   = listing "Lexicon's properties"
     FuCL                      `noun`    {- \$ugol -}           [ "work", "activity", "occupation", "labor", "business" ]
                               `plural`     HaFCAL,
 
-    FaCCAL                    `noun`    {- \$ag~Al -}          [ "laborer", "worker" ],
+    FaCCAL                    `noun`    {- \$ag~Al -}          [ "laborer", "worker" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "laborer", "worker" ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL                    `adj`     {- \$ag~Al -}          [ "busy", "occupied" ],
 
@@ -225,7 +240,11 @@ cluster_4   = listing "Lexicon's properties"
 
     MaFCUL |< Iy |< aT        `noun`    {- ma$oguwliy~ap -}    [ "anxiety", "apprehension" ],
 
-    MuFaCCaL                  `noun`    {- mu$ag~al -}         [ "employee" ],
+    MuFaCCaL                  `noun`    {- mu$ag~al -}         [ "employee" ]
+                              `plural`     MuFaCCaL |< Un,
+
+    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "employee" ]
+                              `plural`     MuFaCCaL |< At,
 
     MuFaCCiL                  `noun`    {- mu$ag~il -}         [ "starter" ],
 
@@ -266,7 +285,11 @@ cluster_5   = listing "Lexicon's properties"
 
     MuFACL |< aT              `adj`     {- mu$AH~ap -}         [ "contestable", "disputable" ],
 
-    FaCL |< At                `noun`    {- \$aH~At -}          [ "beggar" ] ]
+    FaCL |< At                `noun`    {- \$aH~At -}          [ "beggar" ]
+                              `plural`     FaCL |< At |< Un,
+
+    FaCL |< At |< aT          `noun`    {- DERIVED -}          [ "beggar" ]
+                              `plural`     FaCL |< At |< At ]
 
  |> "^s .h .t" <| [
 
@@ -288,7 +311,11 @@ cluster_5   = listing "Lexicon's properties"
                               `imperf`     FCaL,
 
     FaCCAL                    `noun`    {- \$aH~A* -}          [ "beggar", "begging" ]
-                              `plural`     FiCAL |< aT,
+                              `plural`     FiCAL |< aT
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "beggar", "begging" ]
+                              `plural`     FaCCAL |< At,
 
     MiFCaL                    `noun`    {- mi$oHa* -}          [ "whetstone", "hone" ] ]
 
@@ -391,11 +418,11 @@ cluster_7   = listing "Lexicon's properties"
 
     MaFCaL |< Iy |< aT        `noun`    {- ma$oHariy~ap -}     [ unwords [ "charcoal", "burner" ] ],
 
+    FaCLUL                    `noun`    {- \$aHoruwr -}        [ "Shahrur" ],
+
     MuFaCCaL                  `adj`     {- mu$aH~ar -}         [ "sooty" ] ]
 
  |> "^s .h r r" <| [
-
-    KaRDUS                    `noun`    {- \$aHoruwr -}        [ "Shahrur" ],
 
     KuRDUS                    `noun`    {- \$uHoruwr -}        [ "thrush", "blackbird" ]
                               `plural`     KaRADIS ]
@@ -835,6 +862,9 @@ cluster_16  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- \$axiyS -}          [ "important", "voluminous", "dominant" ],
 
     MuFaCCiL                  `noun`    {- mu$ax~iS -}         [ "actor", "impersonator", "diagnostician", "characteristics" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "actor", "impersonator", "diagnostician", "characteristics" ]
                               `plural`     MuFaCCiL |< At ]
 
  |> "^s _h .t" <| [

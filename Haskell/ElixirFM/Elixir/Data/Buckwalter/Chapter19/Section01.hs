@@ -31,6 +31,7 @@ cluster_1   = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- gA}ib -}            [ "absent" ]
                               `plural`     FuyyaL
+                              `plural`     FACiL |< Un
                               `plural`     FuyyAL ]
 
  |> ".g ' l" <| [
@@ -106,7 +107,11 @@ cluster_2   = listing "Lexicon's properties"
 
     FuCUL |< aT               `noun`    {- guDuwDap -}         [ "freshness", "succulence" ],
 
-    FACL                      `noun`    {- gAD~ -}             [ "lowering" ],
+    FACL                      `noun`    {- gAD~ -}             [ "lowering" ]
+                              `plural`     FACL |< Un,
+
+    FACL |< aT                `noun`    {- DERIVED -}          [ "lowering" ]
+                              `plural`     FACL |< At,
 
     FaL |< aN                 `noun`    {- gaDAF -}            [ unwords [ "hot", "spot" ], "predicament", unwords [ "unbearable", "situation" ] ]
                               `plural`     FaCA ]
@@ -246,11 +251,19 @@ cluster_5   = listing "Lexicon's properties"
                               `plural`     IFtiCAL |< At,
 
     FACiL                     `noun`    {- gASib -}            [ "usurper", "plunderer" ]
-                              `plural`     FuCCAL,
+                              `plural`     FuCCAL
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "usurper", "plunderer" ]
+                              `plural`     FACiL |< At,
 
     MaFCUL                    `adj`     {- magoSuwb -}         [ "extorted", "usurped", "coerced" ],
 
-    MuFtaCiL                  `noun`    {- mugotaSib -}        [ "usurper", "rapist" ],
+    MuFtaCiL                  `noun`    {- mugotaSib -}        [ "usurper", "rapist" ]
+                              `plural`     MuFtaCiL |< Un,
+
+    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "usurper", "rapist" ]
+                              `plural`     MuFtaCiL |< At,
 
     MuFtaCaL                  `adj`     {- mugotaSab -}        [ "usurped", "raped" ] ]
 
@@ -811,7 +824,11 @@ cluster_16  = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- gidAn -}            [ unwords [ "clothes", "peg" ] ],
 
-    MuFCawCiL                 `noun`    {- mugodawodin -}      [ "lush", "luxuriant" ] ]
+    MuFCawCiL                 `noun`    {- mugodawodin -}      [ "lush", "luxuriant" ]
+                              `plural`     MuFCawCiL |< Un,
+
+    MuFCawCiL |< aT           `noun`    {- DERIVED -}          [ "lush", "luxuriant" ]
+                              `plural`     MuFCawCiL |< At ]
 
 
 cluster_17  = listing "Lexicon's properties"

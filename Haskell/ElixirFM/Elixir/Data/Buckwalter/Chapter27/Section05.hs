@@ -93,7 +93,11 @@ cluster_82  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- wasan -}            [ "sleep" ],
 
-    FaCiL                     `noun`    {- wasin -}            [ "sleepy", "drowsy" ],
+    FaCiL                     `noun`    {- wasin -}            [ "sleepy", "drowsy" ]
+                              `plural`     FaCiL |< Un,
+
+    FaCiL |< aT               `noun`    {- DERIVED -}          [ "sleepy", "drowsy" ]
+                              `plural`     FaCiL |< At,
 
     FaCLAn                    `noun`    {- wasonAn -}          [ "sleepy", "drowsy" ]
                               `plural`     FaCLY ]
@@ -287,7 +291,11 @@ cluster_86  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- wAziE -}            [ "impediment", "restraint", "inhibition" ],
 
-    MuFaCCiL                  `noun`    {- muwaz~iE -}         [ "distributor", "distributing" ],
+    MuFaCCiL                  `noun`    {- muwaz~iE -}         [ "distributor", "distributing" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "distributor", "distributing" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCaL                  `adj`     {- muwaz~aE -}         [ "distributed", "scattered" ],
 
@@ -351,15 +359,27 @@ cluster_87  = listing "Lexicon's properties"
     IFtiCAL                   `noun`    {- Ait~izAn -}         [ "balance", "equilibrium" ]
                               `plural`     IFtiCAL |< At,
 
-    FACiL                     `noun`    {- wAzin -}            [ "weighing" ],
+    FACiL                     `noun`    {- wAzin -}            [ "weighing" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "weighing" ]
+                              `plural`     FACiL |< At,
 
     MaFCUL                    `adj`     {- mawozuwn -}         [ "weighed", "balanced", "judicious" ],
 
-    MuFACiL                   `noun`    {- muwAzin -}          [ "weighing", "balancing" ],
+    MuFACiL                   `noun`    {- muwAzin -}          [ "weighing", "balancing" ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "weighing", "balancing" ]
+                              `plural`     MuFACiL |< At,
 
     MutaFACiL                 `adj`     {- mutawAzin -}        [ "balanced" ],
 
-    lA >| MutaFACiL           `noun`    {- lAmutawAzin -}      [ "imbalanced" ],
+    lA >| MutaFACiL           `noun`    {- lAmutawAzin -}      [ "imbalanced" ]
+                              `plural`     lA >| MutaFACiL |< Un,
+
+    lA >| MutaFACiL |< aT     `noun`    {- DERIVED -}          [ "imbalanced" ]
+                              `plural`     lA >| MutaFACiL |< At,
 
     MuFtaCiL                  `adj`     {- mut~azin -}         [ "balanced", "harmonious" ] ]
 

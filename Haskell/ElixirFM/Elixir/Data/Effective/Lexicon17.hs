@@ -72,7 +72,11 @@ cluster_2   = listing "Lexicon's properties"
     FACiL |< aT               `noun`    {- ZAhirap -}          [ "phenomenon", "phenomena" ]
                               `plural`     FawACiL,
 
-    MutaFACiL                 `noun`    {- mutaZAhir -}        [ "demonstrator" ] ]
+    MutaFACiL                 `noun`    {- mutaZAhir -}        [ "demonstrator" ]
+                              `plural`     MutaFACiL |< Un,
+
+    MutaFACiL |< aT           `noun`    {- DERIVED -}          [ "demonstrator" ]
+                              `plural`     MutaFACiL |< At ]
 
 
 cluster_3   = listing "Lexicon's properties"
@@ -109,7 +113,11 @@ cluster_3   = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- ZAlim -}            [ "oppressor", "tyrant" ]
                               `plural`     FuCCAL
+                              `plural`     FACiL |< Un
                               `plural`     FaCaL |< aT,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "oppressor", "tyrant" ]
+                              `plural`     FACiL |< At,
 
     MaFCUL                    `adj`     {- maZoluwm -}         [ "oppressed", unwords [ "treated", "unjustly" ] ],
 

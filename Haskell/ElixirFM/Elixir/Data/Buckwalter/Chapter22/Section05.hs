@@ -1216,10 +1216,6 @@ cluster_95  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kusotuliytah -}     [ "cutlet" ] ]
 
- |> "kutayyib" <| [
-
-    Identity                  `noun`    {- kutay~ib -}         [ "booklet" ] ]
-
  |> "kuwAfIr" <| [
 
     Identity                  `noun`    {- kuwAfiyr -}         [ "hairdresser" ],
@@ -1230,13 +1226,13 @@ cluster_95  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- kuwAlA -}           [ "Kuala" ] ]
 
-
-cluster_96  = listing "Lexicon's properties"
-
-
  |> "kuwAlAlambUr" <| [
 
     Identity                  `noun`    {- kuwAlAlamobuwr -}   [ unwords [ "Kuala", "Lumpur" ] ] ]
+
+
+cluster_96  = listing "Lexicon's properties"
+
 
  |> "kuwIrtin" <| [
 
@@ -1249,10 +1245,6 @@ cluster_96  = listing "Lexicon's properties"
  |> "kuwaykib" <| [
 
     Identity                  `noun`    {- kuwayokib -}        [ "asteroid", unwords [ "small", "planet" ] ] ]
-
- |> "kuwayyis" <| [
-
-    Identity                  `noun`    {- kuway~is -}         [ "good", "nice" ] ]
 
  |> "kwAn" <| [
 

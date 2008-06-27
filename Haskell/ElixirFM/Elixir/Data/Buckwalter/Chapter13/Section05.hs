@@ -230,7 +230,11 @@ cluster_85  = listing "Lexicon's properties"
 
     MaFUL |< aT               `noun`    {- ma$uwrap -}         [ "consultation", "deliberation", "advice" ],
 
-    MuFACaL                   `noun`    {- mu$Awar -}          [ "adviser", "consultant" ],
+    MuFACaL                   `noun`    {- mu$Awar -}          [ "adviser", "consultant" ]
+                              `plural`     MuFACaL |< Un,
+
+    MuFACaL |< aT             `noun`    {- DERIVED -}          [ "adviser", "consultant" ]
+                              `plural`     MuFACaL |< At,
 
     MuFIL                     `adj`     {- mu$iyr -}           [ "indicative", "indicating" ],
 
@@ -238,7 +242,11 @@ cluster_85  = listing "Lexicon's properties"
 
     MuFAL                     `adj`     {- mu$Ar -}            [ "aforementioned" ],
 
-    MustaFAL                  `noun`    {- musota$Ar -}        [ "counselor", "adviser" ],
+    MustaFAL                  `noun`    {- musota$Ar -}        [ "counselor", "adviser" ]
+                              `plural`     MustaFAL |< Un,
+
+    MustaFAL |< aT            `noun`    {- DERIVED -}          [ "counselor", "adviser" ]
+                              `plural`     MustaFAL |< At,
 
     MustaFAL |< Iy |< aT      `noun`    {- musota$Ariy~ap -}   [ "chancellery" ],
 
@@ -408,18 +416,16 @@ cluster_89  = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- \$iyAxap -}         [ unwords [ "position", "of", "Sheikh" ] ],
 
+    FaCLUL |< aT              `noun`    {- \$ayoxuwxap -}      [ unwords [ "old", "age" ], "seniority" ],
+
+    FaCLUL |< Iy              `adj`     {- \$ayoxuwxiy~ -}     [ unwords [ "old", "age" ], "senior" ],
+
     MaFCaL |< aT              `noun`    {- ma$oyaxap -}        [ "sheikhdom" ]
                               `plural`     MaFACiL,
 
     MaFCaL |< Iy              `adj`     {- ma$oyaxiy~ -}       [ "senatorial" ],
 
     MaFCaL |< Iy              `adj`     {- ma$oyaxiy~ -}       [ "Presbyterian" ] ]
-
- |> "^s y _h _h" <| [
-
-    KaRDUS |< aT              `noun`    {- \$ayoxuwxap -}      [ unwords [ "old", "age" ], "seniority" ],
-
-    KaRDUS |< Iy              `adj`     {- \$ayoxuwxiy~ -}     [ unwords [ "old", "age" ], "senior" ] ]
 
 
 cluster_90  = listing "Lexicon's properties"
@@ -467,20 +473,33 @@ cluster_90  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     FA'iL                     `adj`     {- \$A}iE -}           [ "widespread", unwords [ "well", "-", "known" ] ]
-                              `plural`     FACiL,
+                              `plural`     FACiL |< Un
+                              `plural`     FA'iL |< Un,
 
     FACiL |< aT               `noun`    {- \$AyiEap -}         [ "rumor" ]
                               `plural`     FACiL |< At,
 
-    MuFaCCiL                  `noun`    {- mu$ay~iE -}         [ unwords [ "funeral", "escort" ], "mourner" ],
+    MuFaCCiL                  `noun`    {- mu$ay~iE -}         [ unwords [ "funeral", "escort" ], "mourner" ]
+                              `plural`     MuFaCCiL |< Un,
 
-    MuFACiL                   `noun`    {- mu$AyiE -}          [ "partisan", "biased" ],
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ unwords [ "funeral", "escort" ], "mourner" ]
+                              `plural`     MuFaCCiL |< At,
+
+    MuFACiL                   `noun`    {- mu$AyiE -}          [ "partisan", "biased" ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "partisan", "biased" ]
+                              `plural`     MuFACiL |< At,
 
     MuFAL                     `adj`     {- mu$AE -}            [ "widespread", unwords [ "well", "-", "known" ] ],
 
     MutaFaCCiL                `adj`     {- muta$ay~iE -}       [ "partisan", "biased" ],
 
-    MuFtAL                    `noun`    {- mu$otAE -}          [ "partner", unwords [ "co", "-", "owner" ] ] ]
+    MuFtAL                    `noun`    {- mu$otAE -}          [ "partner", unwords [ "co", "-", "owner" ] ]
+                              `plural`     MuFtAL |< Un,
+
+    MuFtAL |< aT              `noun`    {- DERIVED -}          [ "partner", unwords [ "co", "-", "owner" ] ]
+                              `plural`     MuFtAL |< At ]
 
 
 cluster_91  = listing "Lexicon's properties"
@@ -535,7 +554,11 @@ cluster_91  = listing "Lexicon's properties"
 
     MuFaCCaL                  `adj`     {- mu$ay~ad -}         [ "lofty" ],
 
-    MuFaCCiL                  `noun`    {- mu$ay~id -}         [ "builder", "constructor" ] ]
+    MuFaCCiL                  `noun`    {- mu$ay~id -}         [ "builder", "constructor" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "builder", "constructor" ]
+                              `plural`     MuFaCCiL |< At ]
 
 
 cluster_92  = listing "Lexicon's properties"
@@ -575,7 +598,11 @@ cluster_92  = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- \$iyAlap -}         [ "transportation", "porterage" ],
 
-    FaCCAL                    `noun`    {- \$ay~Al -}          [ "porter", "carrier" ],
+    FaCCAL                    `noun`    {- \$ay~Al -}          [ "porter", "carrier" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "porter", "carrier" ]
+                              `plural`     FaCCAL |< At,
 
     FIL |< Iy                 `adj`     {- \$iyliy~ -}         [ "Chilean" ] ]
 
@@ -642,7 +669,8 @@ cluster_93  = listing "Lexicon's properties"
 
  |> "^s y q l" <| [
 
-    KiRDiS                    `noun`    {- \$iyqil -}          [ "shekel" ] ]
+    KiRDiS                    `noun`    {- \$iyqil -}          [ "shekel" ]
+                              `plural`     KiRDiS |< At ]
 
  |> "^s y r" <| [
 

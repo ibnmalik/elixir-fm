@@ -112,7 +112,11 @@ cluster_102 = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- qawos -}            [ "Sagittarius" ],
 
-    FaCCAL                    `noun`    {- qaw~As -}           [ "archer", "bowman" ],
+    FaCCAL                    `noun`    {- qaw~As -}           [ "archer", "bowman" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "archer", "bowman" ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL                    `noun`    {- qaw~As -}           [ "Qawwas" ],
 
@@ -341,7 +345,11 @@ cluster_107 = listing "Lexicon's properties"
 
     FiCAL |< Iy               `adj`     {- qiyAdiy~ -}         [ "leading", "guiding", "commanding" ],
 
-    FiCAL |< Iy               `noun`    {- qiyAdiy~ -}         [ "leader", "commander" ],
+    FiCAL |< Iy               `noun`    {- qiyAdiy~ -}         [ "leader", "commander" ]
+                              `plural`     FiCAL |< Iy |< Un,
+
+    FiCAL |< Iy |< aT         `noun`    {- DERIVED -}          [ "leader", "commander" ]
+                              `plural`     FiCAL |< Iy |< At,
 
     InFiCAL                   `noun`    {- AinoqiyAd -}        [ "compliance", "submission" ]
                               `plural`     InFiCAL |< At,
@@ -405,15 +413,13 @@ cluster_108 = listing "Lexicon's properties"
 
     MuFAL                     `adj`     {- muqAl -}            [ "fired", "dismissed", "discharged" ],
 
-    MustaFIL                  `noun`    {- musotaqiyl -}       [ "discharged", "retired" ] ]
+    MustaFIL                  `noun`    {- musotaqiyl -}       [ "discharged", "retired" ]
+                              `plural`     MustaFIL |< Un,
 
- |> "q y l .t" <| [
+    MustaFIL |< aT            `noun`    {- DERIVED -}          [ "discharged", "retired" ]
+                              `plural`     MustaFIL |< At,
 
-    MuKaRDaS                  `adj`     {- muqayolaT -}        [ unwords [ "suffering", "from", "scrotal", "hernia" ] ] ]
-
- |> "q y l l" <| [
-
-    KaRDUS |< aT              `noun`    {- qayoluwlap -}       [ unwords [ "midday", "nap" ], "siesta" ] ]
+    FaCLUL |< aT              `noun`    {- qayoluwlap -}       [ unwords [ "midday", "nap" ], "siesta" ] ]
 
 
 cluster_109 = listing "Lexicon's properties"
@@ -439,7 +445,11 @@ cluster_109 = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- qiyAmap -}          [ "resurrection" ],
 
-    MuFIL                     `noun`    {- muqiym -}           [ "residing", "resident" ],
+    MuFIL                     `noun`    {- muqiym -}           [ "residing", "resident" ]
+                              `plural`     MuFIL |< Un,
+
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "residing", "resident" ]
+                              `plural`     MuFIL |< At,
 
     MuFIL |< Iy               `adj`     {- muqiymiy~ -}        [ "residential" ],
 
@@ -505,7 +515,11 @@ cluster_110 = listing "Lexicon's properties"
 
     FiCAL |< Iy               `adj`     {- qiyAsiy~ -}         [ "record", "analogous" ],
 
-    FaCCAL                    `noun`    {- qay~As -}           [ unwords [ "land", "surveyor" ], "geodesist" ],
+    FaCCAL                    `noun`    {- qay~As -}           [ unwords [ "land", "surveyor" ], "geodesist" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "land", "surveyor" ], "geodesist" ]
+                              `plural`     FaCCAL |< At,
 
     MaFAL                     `noun`    {- maqAs -}            [ "measuring", "gauging", "dimensions" ]
                               `plural`     MaFAL |< At,
@@ -567,7 +581,11 @@ cluster_111 = listing "Lexicon's properties"
 
     KaRDIS                    `noun`    {- qazodiyr -}         [ unwords [ "tin", "plating" ] ],
 
-    MuKaRDiS                  `noun`    {- muqazodir -}        [ "tinsmith" ],
+    MuKaRDiS                  `noun`    {- muqazodir -}        [ "tinsmith" ]
+                              `plural`     MuKaRDiS |< Un,
+
+    MuKaRDiS |< aT            `noun`    {- DERIVED -}          [ "tinsmith" ]
+                              `plural`     MuKaRDiS |< At,
 
     MuKaRDaS                  `adj`     {- muqazodar -}        [ unwords [ "tin", "plated" ] ] ]
 
@@ -629,7 +647,11 @@ cluster_112 = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- qizAz -}            [ "glass" ],
 
-    FaCCAL                    `noun`    {- qaz~Az -}           [ unwords [ "silk", "merchant" ] ],
+    FaCCAL                    `noun`    {- qaz~Az -}           [ unwords [ "silk", "merchant" ] ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "silk", "merchant" ] ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL                    `noun`    {- qaz~Az -}           [ "Qazzaz" ],
 
@@ -986,10 +1008,6 @@ cluster_117 = listing "Lexicon's properties"
  |> "quwatl" <| [
 
     Identity |< Iy            `adj`     {- quwatoliy~ -}       [ "Quwatli" ] ]
-
- |> "quwaysim" <| [
-
-    Identity |< aT            `noun`    {- quwayosimap -}      [ "Quweisma" ] ]
 
  |> "quzmU.grAf" <| [
 

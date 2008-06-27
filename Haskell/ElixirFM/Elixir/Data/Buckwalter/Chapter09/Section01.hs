@@ -85,14 +85,22 @@ cluster_2   = listing "Lexicon's properties"
 
     IFtiCAL |< Iy             `adj`     {- Aid~ixAriy~ -}      [ "savings", "storage" ],
 
-    MuFaCCiL                  `noun`    {- mu*ax~ir -}         [ unwords [ "assistant", "gunner" ], unwords [ "ammunition", "passer" ] ],
+    MuFaCCiL                  `noun`    {- mu*ax~ir -}         [ unwords [ "assistant", "gunner" ], unwords [ "ammunition", "passer" ] ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ unwords [ "assistant", "gunner" ], unwords [ "ammunition", "passer" ] ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCiL |< aT            `noun`    {- mu*ax~irap -}       [ unwords [ "storage", "battery" ], "battery" ],
 
     MuFaCCaL                  `noun`    {- mu*ax~ar -}         [ "saved", "hoarded", "savings", "supplies" ]
                               `plural`     MuFaCCaL |< At,
 
-    MuFtaCiL                  `noun`    {- mud~axir -}         [ "saver", unwords [ "savings", "account", "holder" ] ] ]
+    MuFtaCiL                  `noun`    {- mud~axir -}         [ "saver", unwords [ "savings", "account", "holder" ] ]
+                              `plural`     MuFtaCiL |< Un,
+
+    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "saver", unwords [ "savings", "account", "holder" ] ]
+                              `plural`     MuFtaCiL |< At ]
 
  |> "_d ` f" <| [
 
@@ -153,7 +161,11 @@ cluster_3   = listing "Lexicon's properties"
 
     FiCL |< aT                `noun`    {- \*iboHap -}         [ "angina", "diphtheria" ],
 
-    FaCCAL                    `noun`    {- \*ab~AH -}          [ "butcher", "slaughterer" ],
+    FaCCAL                    `noun`    {- \*ab~AH -}          [ "butcher", "slaughterer" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "butcher", "slaughterer" ]
+                              `plural`     FaCCAL |< At,
 
     FaCIL                     `adj`     {- \*abiyH -}          [ "slaughtered" ],
 
@@ -728,7 +740,11 @@ cluster_14  = listing "Lexicon's properties"
 
     FA'iL                     `adj`     {- \*A}iE -}           [ "widespread", unwords [ "widely", "known" ] ],
 
-    MuFIL                     `noun`    {- mu*iyE -}           [ "broadcaster", "transmitter", "announcer" ] ]
+    MuFIL                     `noun`    {- mu*iyE -}           [ "broadcaster", "transmitter", "announcer" ]
+                              `plural`     MuFIL |< Un,
+
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "broadcaster", "transmitter", "announcer" ]
+                              `plural`     MuFIL |< At ]
 
 
 cluster_15  = listing "Lexicon's properties"
@@ -815,7 +831,11 @@ cluster_16  = listing "Lexicon's properties"
 
     FA'iL |< aT               `noun`    {- \*A}iqap -}         [ unwords [ "sense", "of", "taste" ] ],
 
-    MutaFaCCiL                `noun`    {- muta*aw~iq -}       [ "connoisseur", unwords [ "person", "of", "taste" ] ] ]
+    MutaFaCCiL                `noun`    {- muta*aw~iq -}       [ "connoisseur", unwords [ "person", "of", "taste" ] ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "connoisseur", unwords [ "person", "of", "taste" ] ]
+                              `plural`     MutaFaCCiL |< At ]
 
  |> "_d w w" <| [
 
@@ -861,7 +881,11 @@ cluster_17  = listing "Lexicon's properties"
     MiFCAL                    `noun`    {- mi*oyAE -}          [ "transmitter", "communicative" ]
                               `plural`     MaFACIL,
 
-    MuFIL                     `noun`    {- mu*iyE -}           [ "broadcaster", "transmitter", "announcer" ] ]
+    MuFIL                     `noun`    {- mu*iyE -}           [ "broadcaster", "transmitter", "announcer" ]
+                              `plural`     MuFIL |< Un,
+
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "broadcaster", "transmitter", "announcer" ]
+                              `plural`     MuFIL |< At ]
 
  |> "_d y b" <| [
 

@@ -60,7 +60,11 @@ cluster_61  = listing "Lexicon's properties"
 
     IstiFCAL |< aT            `noun`    {- AisotiHomAmap -}    [ "bath" ],
 
-    MaFCUL                    `noun`    {- maHomuwm -}         [ "feverish", "frantic" ],
+    MaFCUL                    `noun`    {- maHomuwm -}         [ "feverish", "frantic" ]
+                              `plural`     MaFCUL |< Un,
+
+    MaFCUL |< aT              `noun`    {- DERIVED -}          [ "feverish", "frantic" ]
+                              `plural`     MaFCUL |< At,
 
     FaL                       `pron`    {- Ham -}              [ unwords [ "father", "-", "in", "-", "law" ], unwords [ "father", "-", "in", "-", "law", "+", "my" ], unwords [ "father", "-", "in", "-", "law", "of" ], unwords [ "fathers", "-", "in", "-", "law" ] ]
                               `plural`     FaCA
@@ -182,7 +186,11 @@ cluster_64  = listing "Lexicon's properties"
     TaFaCCuL                  `noun`    {- taHam~us -}         [ "zeal" ]
                               `plural`     TaFaCCuL |< At,
 
-    MutaFaCCiL                `noun`    {- mutaHam~is -}       [ "zealous", "enthusiasts" ] ]
+    MutaFaCCiL                `noun`    {- mutaHam~is -}       [ "zealous", "enthusiasts" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "zealous", "enthusiasts" ]
+                              `plural`     MutaFaCCiL |< At ]
 
  |> ".h m w" <| [
 
@@ -362,7 +370,8 @@ cluster_67  = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- Hanobal -}          [ "Hanbal" ],
 
     KaRDaS |< Iy              `adj`     {- Hanobaliy~ -}       [ "Hanbalite" ]
-                              `plural`     KaRADiS |< aT ]
+                              `plural`     KaRADiS |< aT
+                              `plural`     KaRDaS |< Iy |< Un ]
 
  |> ".h n d s" <| [
 
@@ -412,7 +421,11 @@ cluster_68  = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- Hunokap -}          [ "experience", "prudence" ],
 
-    MuFaCCaL                  `noun`    {- muHan~ak -}         [ "experienced", "shrewd" ] ]
+    MuFaCCaL                  `noun`    {- muHan~ak -}         [ "experienced", "shrewd" ]
+                              `plural`     MuFaCCaL |< Un,
+
+    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "experienced", "shrewd" ]
+                              `plural`     MuFaCCaL |< At ]
 
  |> ".h n n" <| [
 
@@ -546,6 +559,7 @@ cluster_71  = listing "Lexicon's properties"
     FaCUL                     `adj`     {- Haquwd -}           [ "spiteful", "malicious" ],
 
     FACiL                     `adj`     {- HAqid -}            [ "spiteful", "malicious" ]
+                              `plural`     FACiL |< Un
                               `plural`     FaCaL |< aT ]
 
  |> ".h q l" <| [
@@ -650,9 +664,17 @@ cluster_73  = listing "Lexicon's properties"
     IstiFCAL                  `noun`    {- AisotiHoqAq -}      [ "worthiness", "claim" ]
                               `plural`     IstiFCAL |< At,
 
-    MaFCUL                    `noun`    {- maHoquwq -}         [ "worthy", "competent" ],
+    MaFCUL                    `noun`    {- maHoquwq -}         [ "worthy", "competent" ]
+                              `plural`     MaFCUL |< Un,
 
-    MuFaCCiL                  `noun`    {- muHaq~iq -}         [ "investigator", "editor" ],
+    MaFCUL |< aT              `noun`    {- DERIVED -}          [ "worthy", "competent" ]
+                              `plural`     MaFCUL |< At,
+
+    MuFaCCiL                  `noun`    {- muHaq~iq -}         [ "investigator", "editor" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "investigator", "editor" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCaL                  `adj`     {- muHaq~aq -}         [ "established", "accepted" ],
 
@@ -727,9 +749,17 @@ cluster_75  = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- HAriD -}            [ "evil", "wicked" ],
 
-    MuFaCCiL                  `noun`    {- muHar~iD -}         [ "agitator", "instigator", "inductor" ],
+    MuFaCCiL                  `noun`    {- muHar~iD -}         [ "agitator", "instigator", "inductor" ]
+                              `plural`     MuFaCCiL |< Un,
 
-    MutaFaCCiL                `noun`    {- mutaHar~iD -}       [ "induced" ] ]
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "agitator", "instigator", "inductor" ]
+                              `plural`     MuFaCCiL |< At,
+
+    MutaFaCCiL                `noun`    {- mutaHar~iD -}       [ "induced" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "induced" ]
+                              `plural`     MutaFaCCiL |< At ]
 
  |> ".h r .s" <| [
 
@@ -878,7 +908,11 @@ cluster_78  = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- muHArabap -}        [ unwords [ "struggle", "against" ], "combat" ],
 
-    MuFACiL                   `noun`    {- muHArib -}          [ "warrior", "combatant", "belligerent" ] ]
+    MuFACiL                   `noun`    {- muHArib -}          [ "warrior", "combatant", "belligerent" ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "warrior", "combatant", "belligerent" ]
+                              `plural`     MuFACiL |< At ]
 
  |> ".h r b ^s" <| [
 
@@ -954,7 +988,11 @@ cluster_79  = listing "Lexicon's properties"
 
     MunFaCiL                  `adj`     {- munoHarif -}        [ "perverted", "distorted", "deviant", "pervert" ],
 
-    MuFtaCiL                  `noun`    {- muHotarif -}        [ "professional", "expert" ] ]
+    MuFtaCiL                  `noun`    {- muHotarif -}        [ "professional", "expert" ]
+                              `plural`     MuFtaCiL |< Un,
+
+    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "professional", "expert" ]
+                              `plural`     MuFtaCiL |< At ]
 
 
 cluster_80  = listing "Lexicon's properties"

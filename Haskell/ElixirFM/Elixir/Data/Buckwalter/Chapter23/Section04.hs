@@ -42,7 +42,11 @@ cluster_61  = listing "Lexicon's properties"
 
     MuFaCCiL                  `adj`     {- mulaw~iv -}         [ "polluting", "contaminating" ],
 
-    MuFaCCiL                  `noun`    {- mulaw~iv -}         [ "pollutant", "contaminant" ],
+    MuFaCCiL                  `noun`    {- mulaw~iv -}         [ "pollutant", "contaminant" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "pollutant", "contaminant" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCaL                  `adj`     {- mulaw~av -}         [ "polluted", "contaminated" ],
 
@@ -158,10 +162,12 @@ cluster_63  = listing "Lexicon's properties"
                               `plural`     FawA'iL,
 
     MaFUL                     `adj`     {- maluwm -}           [ "blamed", "censured" ]
-                              `plural`     MuFAL,
+                              `plural`     MuFAL |< Un
+                              `plural`     MaFUL |< Un,
 
     MaFUL                     `adj`     {- maluwm -}           [ "blameworthy", "reprehensible" ]
-                              `plural`     MuFAL,
+                              `plural`     MuFAL |< Un
+                              `plural`     MaFUL |< Un,
 
     FULAn                     `noun`    {- luwmAn -}           [ "penitentiary", unwords [ "penal", "servitude" ] ]
                               `plural`     FULAn |< At,
@@ -371,8 +377,7 @@ cluster_67  = listing "Lexicon's properties"
 
  |> "l y b r" <| [
 
-    KiRDIS |< Iy              `adj`     {- liybiyriy~ -}       [ "Liberian" ]
-                           {- `others`  [ "libiyriyy Nall_L", "laybiyriyy Nall_L" ] -} ]
+    KiRDIS |< Iy              `adj`     {- liybiyriy~ -}       [ "Liberian" ] ]
 
  |> "l y f" <| [
 
@@ -433,9 +438,11 @@ cluster_68  = listing "Lexicon's properties"
 
  |> "l y m n" <| [
 
-    KiRDAS                    `noun`    {- liymAn -}           [ "port", "harbor" ],
+    KiRDAS                    `noun`    {- liymAn -}           [ "port", "harbor" ]
+                              `plural`     KiRDAS |< At,
 
-    KiRDAS                    `noun`    {- liymAn -}           [ "prison" ],
+    KiRDAS                    `noun`    {- liymAn -}           [ "prison" ]
+                              `plural`     KiRDAS |< At,
 
     KaRDUS                    `noun`    {- layomuwn -}         [ "lemon" ],
 
@@ -464,7 +471,8 @@ cluster_69  = listing "Lexicon's properties"
     FIL                       `noun`    {- liyn -}             [ "flexibility", "tractability" ],
 
     FaCCiL                    `adj`     {- lay~in -}           [ "flexible", "yielding" ]
-                              `plural`     HaFCiLA',
+                              `plural`     HaFCiLA'
+                              `plural`     FaCCiL |< Un,
 
     FuCUL |< aT               `noun`    {- luyuwnap -}         [ "flexibility", "tractability", "tenderness" ],
 
@@ -627,11 +635,19 @@ cluster_71  = listing "Lexicon's properties"
     FACiL |< aT               `noun`    {- lAzimap -}          [ unwords [ "inherent", "property" ], unwords [ "fixed", "attribute" ], "exigencies", "requisites" ]
                               `plural`     FawACiL,
 
-    MaFCUL                    `noun`    {- malozuwm -}         [ "obligated", "liable" ],
+    MaFCUL                    `noun`    {- malozuwm -}         [ "obligated", "liable" ]
+                              `plural`     MaFCUL |< Un,
+
+    MaFCUL |< aT              `noun`    {- DERIVED -}          [ "obligated", "liable" ]
+                              `plural`     MaFCUL |< At,
 
     MaFCUL |< Iy              `noun`    {- malozuwmiy~ -}      [ "obligation", "liability" ],
 
-    MuFACiL                   `noun`    {- mulAzim -}          [ "lieutenant" ],
+    MuFACiL                   `noun`    {- mulAzim -}          [ "lieutenant" ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "lieutenant" ]
+                              `plural`     MuFACiL |< At,
 
     MuFCiL                    `adj`     {- mulozim -}          [ "binding", "requisite" ],
 

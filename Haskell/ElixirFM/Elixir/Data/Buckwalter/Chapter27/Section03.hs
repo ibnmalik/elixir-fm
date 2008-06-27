@@ -110,9 +110,17 @@ cluster_42  = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- wAfid -}            [ "arriving", "coming" ],
 
-    FACiL                     `noun`    {- wAfid -}            [ "envoy", "delegate" ],
+    FACiL                     `noun`    {- wAfid -}            [ "envoy", "delegate" ]
+                              `plural`     FACiL |< Un,
 
-    MUCaL                     `noun`    {- muwfad -}           [ "envoy", "delegate", "appointee" ] ]
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "envoy", "delegate" ]
+                              `plural`     FACiL |< At,
+
+    MUCaL                     `noun`    {- muwfad -}           [ "envoy", "delegate", "appointee" ]
+                              `plural`     MUCaL |< Un,
+
+    MUCaL |< aT               `noun`    {- DERIVED -}          [ "envoy", "delegate", "appointee" ]
+                              `plural`     MUCaL |< At ]
 
 
 cluster_43  = listing "Lexicon's properties"
@@ -299,7 +307,11 @@ cluster_46  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- wahaj -}            [ "blaze", "fire" ],
 
-    FaCCAL                    `noun`    {- wah~Aj -}           [ "glowing", "burning" ],
+    FaCCAL                    `noun`    {- wah~Aj -}           [ "glowing", "burning" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "glowing", "burning" ]
+                              `plural`     FaCCAL |< At,
 
     FaCIL                     `noun`    {- wahiyj -}           [ "blaze", "fire", "glare" ],
 
@@ -339,7 +351,11 @@ cluster_47  = listing "Lexicon's properties"
 
     HICAL                     `noun`    {- IiyhAb -}           [ "Ihab", "Ehab" ],
 
-    FACiL                     `noun`    {- wAhib -}            [ "granting", "donor" ],
+    FACiL                     `noun`    {- wAhib -}            [ "granting", "donor" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "granting", "donor" ]
+                              `plural`     FACiL |< At,
 
     MaFCUL                    `adj`     {- mawohuwb -}         [ "given", "granted" ],
 
@@ -414,9 +430,17 @@ cluster_49  = listing "Lexicon's properties"
 
     MaFCUL                    `adj`     {- mawohuwm -}         [ "imagined", "imaginary" ],
 
-    MuFtaCiL                  `noun`    {- mut~ahim -}         [ "accusing" ],
+    MuFtaCiL                  `noun`    {- mut~ahim -}         [ "accusing" ]
+                              `plural`     MuFtaCiL |< Un,
 
-    MuFtaCaL                  `noun`    {- mut~aham -}         [ "accused", "indicted", "suspected" ] ]
+    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "accusing" ]
+                              `plural`     MuFtaCiL |< At,
+
+    MuFtaCaL                  `noun`    {- mut~aham -}         [ "accused", "indicted", "suspected" ]
+                              `plural`     MuFtaCaL |< Un,
+
+    MuFtaCaL |< aT            `noun`    {- DERIVED -}          [ "accused", "indicted", "suspected" ]
+                              `plural`     MuFtaCaL |< At ]
 
 
 cluster_50  = listing "Lexicon's properties"
@@ -495,7 +519,11 @@ cluster_51  = listing "Lexicon's properties"
     IFtiCAL                   `noun`    {- Ait~ikA' -}         [ "resting", "leaning", "reclining" ]
                               `plural`     IFtiCAL |< At,
 
-    MuFtaCiL                  `noun`    {- mut~aki} -}         [ "leaning", "resting" ],
+    MuFtaCiL                  `noun`    {- mut~aki} -}         [ "leaning", "resting" ]
+                              `plural`     MuFtaCiL |< Un,
+
+    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "leaning", "resting" ]
+                              `plural`     MuFtaCiL |< At,
 
     MuFtaCaL                  `noun`    {- mut~akaO -}         [ "support", "prop" ]
                               `plural`     MuFtaCaL |< At,
@@ -553,7 +581,11 @@ cluster_52  = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- wakiyd -}           [ "confirmed", "substantiated" ],
 
-    FaCIL                     `noun`    {- wakiyd -}           [ "certain", "positive" ],
+    FaCIL                     `noun`    {- wakiyd -}           [ "certain", "positive" ]
+                              `plural`     FaCIL |< Un,
+
+    FaCIL |< aT               `noun`    {- DERIVED -}          [ "certain", "positive" ]
+                              `plural`     FaCIL |< At,
 
     FACiL                     `noun`    {- wAkid -}            [ "Waked" ],
 
@@ -623,9 +655,17 @@ cluster_53  = listing "Lexicon's properties"
     IFtiCAL                   `noun`    {- Ait~ikAl -}         [ "trust", "confidence", "reliance" ]
                               `plural`     IFtiCAL |< At,
 
-    MuFaCCiL                  `noun`    {- muwak~il -}         [ "mandator", unwords [ "legal", "client" ] ],
+    MuFaCCiL                  `noun`    {- muwak~il -}         [ "mandator", unwords [ "legal", "client" ] ]
+                              `plural`     MuFaCCiL |< Un,
 
-    MuFaCCaL                  `noun`    {- muwak~al -}         [ "commissioned", "charged" ],
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "mandator", unwords [ "legal", "client" ] ]
+                              `plural`     MuFaCCiL |< At,
+
+    MuFaCCaL                  `noun`    {- muwak~al -}         [ "commissioned", "charged" ]
+                              `plural`     MuFaCCaL |< Un,
+
+    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "commissioned", "charged" ]
+                              `plural`     MuFaCCaL |< At,
 
     MutaFaCCiL                `noun`    {- mutawak~il -}       [ "Mutawakkil", "Muttawakil" ] ]
 
@@ -766,7 +806,11 @@ cluster_56  = listing "Lexicon's properties"
     TaFaCCuL                  `noun`    {- tawal~uE -}         [ "passion" ]
                               `plural`     TaFaCCuL |< At,
 
-    MUCaL                     `noun`    {- muwlaE -}           [ "enamored", "passionate" ] ]
+    MUCaL                     `noun`    {- muwlaE -}           [ "enamored", "passionate" ]
+                              `plural`     MUCaL |< Un,
+
+    MUCaL |< aT               `noun`    {- DERIVED -}          [ "enamored", "passionate" ]
+                              `plural`     MUCaL |< At ]
 
 
 cluster_57  = listing "Lexicon's properties"
@@ -844,10 +888,18 @@ cluster_57  = listing "Lexicon's properties"
     FACiL |< Iy               `adj`     {- wAlidiy~ -}         [ "parental" ],
 
     MaFCUL                    `noun`    {- mawoluwd -}         [ unwords [ "newborn", "infant" ] ]
+                              `plural`     MaFCUL |< Un
                               `plural`     MaFACIL,
 
+    MaFCUL |< aT              `noun`    {- DERIVED -}          [ unwords [ "newborn", "infant" ] ]
+                              `plural`     MaFCUL |< At,
+
     MaFCUL                    `noun`    {- mawoluwd -}         [ unwords [ "person", "born", "in", "/", "on" ], unwords [ "persons", "born", "in", "/", "on" ] ]
+                              `plural`     MaFCUL |< Un
                               `plural`     MaFACIL,
+
+    MaFCUL |< aT              `noun`    {- DERIVED -}          [ unwords [ "person", "born", "in", "/", "on" ], unwords [ "persons", "born", "in", "/", "on" ] ]
+                              `plural`     MaFCUL |< At,
 
     MuFaCCiL                  `noun`    {- muwal~id -}         [ "producing", "generating" ],
 
@@ -856,9 +908,17 @@ cluster_57  = listing "Lexicon's properties"
 
     MuFaCCiL |< aT            `noun`    {- muwal~idap -}       [ "midwife" ],
 
-    MuFaCCaL                  `noun`    {- muwal~ad -}         [ "born" ],
+    MuFaCCaL                  `noun`    {- muwal~ad -}         [ "born" ]
+                              `plural`     MuFaCCaL |< Un,
 
-    MuFaCCaL                  `noun`    {- muwal~ad -}         [ unwords [ "mixed", "-", "blood" ], unwords [ "non", "-", "native" ] ] ]
+    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "born" ]
+                              `plural`     MuFaCCaL |< At,
+
+    MuFaCCaL                  `noun`    {- muwal~ad -}         [ unwords [ "mixed", "-", "blood" ], unwords [ "non", "-", "native" ] ]
+                              `plural`     MuFaCCaL |< Un,
+
+    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ unwords [ "mixed", "-", "blood" ], unwords [ "non", "-", "native" ] ]
+                              `plural`     MuFaCCaL |< At ]
 
 
 cluster_58  = listing "Lexicon's properties"

@@ -51,11 +51,19 @@ cluster_62  = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- hazoliy~ -}         [ "comical", "amusing" ],
 
-    FaCiL                     `noun`    {- hazil -}            [ "joker", "jester" ],
+    FaCiL                     `noun`    {- hazil -}            [ "joker", "jester" ]
+                              `plural`     FaCiL |< Un,
+
+    FaCiL |< aT               `noun`    {- DERIVED -}          [ "joker", "jester" ]
+                              `plural`     FaCiL |< At,
 
     FuCAL                     `noun`    {- huzAl -}            [ "emaciation" ],
 
-    FaCCAL                    `noun`    {- haz~Al -}           [ "joker", "jester" ],
+    FaCCAL                    `noun`    {- haz~Al -}           [ "joker", "jester" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "joker", "jester" ]
+                              `plural`     FaCCAL |< At,
 
     FaCIL                     `adj`     {- haziyl -}           [ "emaciated", "gaunt" ]
                               `plural`     FaCLY,
@@ -63,7 +71,11 @@ cluster_62  = listing "Lexicon's properties"
     MaFCaL |< aT              `noun`    {- mahozalap -}        [ "comedy", "farce" ]
                               `plural`     MaFACiL,
 
-    FACiL                     `noun`    {- hAzil -}            [ "joking", "jesting" ],
+    FACiL                     `noun`    {- hAzil -}            [ "joking", "jesting" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "joking", "jesting" ]
+                              `plural`     FACiL |< At,
 
     FACiL                     `adj`     {- hAzil -}            [ "humorous", "comical" ],
 
@@ -84,7 +96,11 @@ cluster_63  = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- haziym -}           [ "thunder", "rumbling" ],
 
-    FaCIL                     `noun`    {- haziym -}           [ "fleeing", "fugitive" ],
+    FaCIL                     `noun`    {- haziym -}           [ "fleeing", "fugitive" ]
+                              `plural`     FaCIL |< Un,
+
+    FaCIL |< aT               `noun`    {- DERIVED -}          [ "fleeing", "fugitive" ]
+                              `plural`     FaCIL |< At,
 
     FaCIL |< aT               `noun`    {- haziymap -}         [ "defeat" ]
                               `plural`     FaCA'iL,
@@ -130,7 +146,11 @@ cluster_64  = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- haz~ap -}           [ "tremor", "shock", "vibration" ],
 
-    FaCCAL                    `noun`    {- haz~Az -}           [ "shaking", "rocking" ],
+    FaCCAL                    `noun`    {- haz~Az -}           [ "shaking", "rocking" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "shaking", "rocking" ]
+                              `plural`     FaCCAL |< At,
 
     FaCIL                     `noun`    {- haziyz -}           [ "rumbling", "reverberation" ],
 

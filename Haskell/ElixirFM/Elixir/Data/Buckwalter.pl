@@ -26,7 +26,7 @@ our (%patterns, @patterns, @pAttErns, $report);
 
 our ($F, $C, $L, $K, $R, $D, $S);
 
-our $X = "(\\'|b|t|\\_t|\\^g|\\.h|\\_h|d|\\_d|r|z|s|\\^s|\\.s|\\.d|\\.t|\\.z|\\`|\\.g|f|q|k|l|m|n|h|w|y)";
+our $X = "\\'|b|t|\\_t|\\^g|\\.h|\\_h|d|\\_d|r|z|s|\\^s|\\.s|\\.d|\\.t|\\.z|\\`|\\.g|f|q|k|l|m|n|h|w|y";
 our $T = "(?:[td]|\\_[td]|\\.[tz])";
 our $N = "(?:[nm])";
 
@@ -684,7 +684,7 @@ sub storeType {
 
     if ($form eq $Entry->{'form'}) {
 
-        return unless $type =~ /^[CIP]V/ or $type =~ /(?:At|iyn)(?:_|$)/;
+        return unless $type =~ /^[CIP]V/ or $type =~ /(?:At|iyn|all)(?:_|$)/;
 
         $type =~ s/^N\/At/NAt/;
     }
@@ -761,8 +761,7 @@ sub initializePatterns {
 
     printf STDERR "%4d patterns\n", scalar @pAttErns;
 
-    my %r = ( 'F' => 1, 'C' => 2, 'L' => 3,
-              'K' => 1, 'R' => 2, 'D' => 3, 'S' => 4 );
+    my @r = qw 'F C L K R D S';
 
     @patterns = map { do {  my $x = $_;
 
@@ -782,13 +781,13 @@ sub initializePatterns {
 
                             $x =~ s/n(?=F)/$N/;
 
-                            foreach my $c (keys %r) {
+                            foreach my $c (@r) {
 
-                                $x =~ s/$c/$X(?{\$$c = \$^N})/;
-                                $x =~ s/(?<!\$)$c/\\$r{$c}/g;
+                                $x =~ s/$c/(?<$c>$X)(?{\$$c = \$^N})/;
+                                $x =~ s/(?<![\$\<])$c/\\k<$c>/g;
                             }
 
-                            $x = '^' . $x . '$';
+                            $x = '^' . $x . '$';    
 
                             qr/$x/
 

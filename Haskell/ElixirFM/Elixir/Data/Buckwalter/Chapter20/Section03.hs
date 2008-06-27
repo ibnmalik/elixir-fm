@@ -77,7 +77,11 @@ cluster_42  = listing "Lexicon's properties"
 
     FaCaL |< aT               `noun`    {- falaqap -}          [ unwords [ "falaqa", "(", "beatings", "on", "the", "soles", "of", "the", "feet", ")" ], "bastinado" ],
 
-    FaCCAL                    `noun`    {- fal~Aq -}           [ "bandit" ],
+    FaCCAL                    `noun`    {- fal~Aq -}           [ "bandit" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "bandit" ]
+                              `plural`     FaCCAL |< At,
 
     TaFCIL                    `noun`    {- tafoliyq -}         [ "cleavage" ]
                               `plural`     TaFCIL |< At,
@@ -113,7 +117,11 @@ cluster_43  = listing "Lexicon's properties"
                               `plural`     HiFCAL |< At,
 
     MuFCiL                    `noun`    {- mufolis -}          [ "bankrupt", "insolvent" ]
+                              `plural`     MuFCiL |< Un
                               `plural`     MaFACIL,
+
+    MuFCiL |< aT              `noun`    {- DERIVED -}          [ "bankrupt", "insolvent" ]
+                              `plural`     MuFCiL |< At,
 
     TaFaCCuL                  `noun`    {- tafal~us -}         [ "exfoliation" ]
                               `plural`     TaFaCCuL |< At ]
@@ -129,9 +137,17 @@ cluster_43  = listing "Lexicon's properties"
 
     KaRDaS |< Iy              `adj`     {- falosafiy~ -}       [ "philosophical" ],
 
-    MuKaRDiS                  `noun`    {- mufalosif -}        [ "philosopher" ],
+    MuKaRDiS                  `noun`    {- mufalosif -}        [ "philosopher" ]
+                              `plural`     MuKaRDiS |< Un,
 
-    MutaKaRDiS                `noun`    {- mutafalosif -}      [ unwords [ "would", "-", "be", "philosopher" ] ] ]
+    MuKaRDiS |< aT            `noun`    {- DERIVED -}          [ "philosopher" ]
+                              `plural`     MuKaRDiS |< At,
+
+    MutaKaRDiS                `noun`    {- mutafalosif -}      [ unwords [ "would", "-", "be", "philosopher" ] ]
+                              `plural`     MutaKaRDiS |< Un,
+
+    MutaKaRDiS |< aT          `noun`    {- DERIVED -}          [ unwords [ "would", "-", "be", "philosopher" ] ]
+                              `plural`     MutaKaRDiS |< At ]
 
 
 cluster_44  = listing "Lexicon's properties"
@@ -329,16 +345,30 @@ cluster_47  = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- fan~iy~ -}          [ "technical", "artistic" ],
 
-    FaCL |< Iy                `noun`    {- fan~iy~ -}          [ "technician" ],
+    FaCL |< Iy                `noun`    {- fan~iy~ -}          [ "technician" ]
+                              `plural`     FaCL |< Iy |< Un,
+
+    FaCL |< Iy |< aT          `noun`    {- DERIVED -}          [ "technician" ]
+                              `plural`     FaCL |< Iy |< At,
 
     FaCL |< Iy |< At          `noun`    {- fan~iy~At -}        [ "techniques" ],
 
     FaCaL                     `noun`    {- fanan -}            [ "twig", "branch" ]
                               `plural`     HaFCAL,
 
-    FaCCAL                    `noun`    {- fan~An -}           [ "artist" ],
+    FaCCAL                    `noun`    {- fan~An -}           [ "artist" ]
+                              `plural`     FaCCAL |< Un
+                              `plural`     FaCLAn |< Un,
 
-    FaCLAn                    `noun`    {- fan~An -}           [ "artist" ],
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "artist" ]
+                              `plural`     FaCCAL |< At,
+
+    FaCLAn                    `noun`    {- fan~An -}           [ "artist" ]
+                              `plural`     FaCCAL |< Un
+                              `plural`     FaCLAn |< Un,
+
+    FaCLAn |< aT              `noun`    {- DERIVED -}          [ "artist" ]
+                              `plural`     FaCLAn |< At,
 
     HuFCUL                    `noun`    {- Oufonuwn -}         [ "category", "technique" ]
                               `plural`     HaFACIL,
@@ -351,7 +381,11 @@ cluster_47  = listing "Lexicon's properties"
 
     MutaFaCCiL                `adj`     {- mutafan~in -}       [ "versatile", "cultured", "refined" ],
 
-    MuFtaCL                   `noun`    {- mufotan~ -}         [ "expert", "masterful" ] ]
+    MuFtaCL                   `noun`    {- mufotan~ -}         [ "expert", "masterful" ]
+                              `plural`     MuFtaCL |< Un,
+
+    MuFtaCL |< aT             `noun`    {- DERIVED -}          [ "expert", "masterful" ]
+                              `plural`     MuFtaCL |< At ]
 
  |> "f n q" <| [
 
@@ -530,9 +564,17 @@ cluster_51  = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- fAqid -}            [ unwords [ "deprived", "of" ], unwords [ "bereft", "of" ] ],
 
-    MaFCUL                    `noun`    {- mafoquwd -}         [ "lost", "missing", "absent" ],
+    MaFCUL                    `noun`    {- mafoquwd -}         [ "lost", "missing", "absent" ]
+                              `plural`     MaFCUL |< Un,
 
-    MutaFaCCiL                `noun`    {- mutafaq~id -}       [ "controller", "inspector" ] ]
+    MaFCUL |< aT              `noun`    {- DERIVED -}          [ "lost", "missing", "absent" ]
+                              `plural`     MaFCUL |< At,
+
+    MutaFaCCiL                `noun`    {- mutafaq~id -}       [ "controller", "inspector" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "controller", "inspector" ]
+                              `plural`     MutaFaCCiL |< At ]
 
 
 cluster_52  = listing "Lexicon's properties"
@@ -938,7 +980,11 @@ cluster_59  = listing "Lexicon's properties"
     InFiCAL                   `noun`    {- AinofirAj -}        [ "relaxation", "divergence" ]
                               `plural`     InFiCAL |< At,
 
-    MutaFaCCiL                `noun`    {- mutafar~ij -}       [ "spectator", "onlooker" ],
+    MutaFaCCiL                `noun`    {- mutafar~ij -}       [ "spectator", "onlooker" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "spectator", "onlooker" ]
+                              `plural`     MutaFaCCiL |< At,
 
     MunFaCiL                  `adj`     {- munofarij -}        [ unwords [ "wide", "open" ], "relaxed" ],
 

@@ -150,7 +150,11 @@ cluster_63  = listing "Lexicon's properties"
 
     MaFCUL                    `adj`     {- masomuwE -}         [ "audible", "perceptible" ],
 
-    MuFtaCiL                  `noun`    {- musotamiE -}        [ "listener", "audience" ],
+    MuFtaCiL                  `noun`    {- musotamiE -}        [ "listener", "audience" ]
+                              `plural`     MuFtaCiL |< Un,
+
+    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "listener", "audience" ]
+                              `plural`     MuFtaCiL |< At,
 
     FuCUL                     `noun`    {- sumuwE -}           [ "Sumu" ],
 
@@ -190,8 +194,7 @@ cluster_64  = listing "Lexicon's properties"
 
  |> "s m f n" <| [
 
-    KiRDUS |< Iy              `adj`     {- simofuwniy~ -}      [ "symphonic" ]
-                           {- `others`  [ "siymfuwniyy Nall" ] -},
+    KiRDUS |< Iy              `adj`     {- simofuwniy~ -}      [ "symphonic" ],
 
     KiRDUS |< Iy |< aT        `noun`    {- simofuwniy~ap -}    [ "symphony" ] ]
 
@@ -218,7 +221,11 @@ cluster_65  = listing "Lexicon's properties"
     FiCAL                     `noun`    {- simAk -}            [ "fish" ]
                               `plural`     HaFCAL,
 
-    FaCCAL                    `noun`    {- sam~Ak -}           [ "fisherman" ],
+    FaCCAL                    `noun`    {- sam~Ak -}           [ "fisherman" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "fisherman" ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL                    `noun`    {- sam~Ak -}           [ "Sammak" ],
 
@@ -409,7 +416,11 @@ cluster_68  = listing "Lexicon's properties"
 
     MuFaCCaL                  `noun`    {- musam~ar -}         [ unwords [ "nailed", "down" ] ],
 
-    MuFACiL                   `noun`    {- musAmir -}          [ unwords [ "conversation", "partner" ] ],
+    MuFACiL                   `noun`    {- musAmir -}          [ unwords [ "conversation", "partner" ] ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ unwords [ "conversation", "partner" ] ]
+                              `plural`     MuFACiL |< At,
 
     FACiL |< aT               `noun`    {- sAmirap -}          [ "Samaria" ],
 
@@ -703,7 +714,8 @@ cluster_74  = listing "Lexicon's properties"
  |> "s n k r" <| [
 
     KaRDaS |< Iy              `adj`     {- sanokariy~ -}       [ "tinsmith" ]
-                              `plural`     KaRADiS |< aT ]
+                              `plural`     KaRADiS |< aT
+                              `plural`     KaRDaS |< Iy |< Un ]
 
  |> "s n m" <| [
 
@@ -755,9 +767,19 @@ cluster_75  = listing "Lexicon's properties"
 
     FiCAL                     `noun`    {- sinAn -}            [ "spearhead" ],
 
-    FaCCAL                    `noun`    {- san~An -}           [ "grinder", "sharpener" ],
+    FaCCAL                    `noun`    {- san~An -}           [ "grinder", "sharpener" ]
+                              `plural`     FaCCAL |< Un
+                              `plural`     FaCLAn |< Un,
 
-    FaCLAn                    `noun`    {- san~An -}           [ "grinder", "sharpener" ],
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "grinder", "sharpener" ]
+                              `plural`     FaCCAL |< At,
+
+    FaCLAn                    `noun`    {- san~An -}           [ "grinder", "sharpener" ]
+                              `plural`     FaCCAL |< Un
+                              `plural`     FaCLAn |< Un,
+
+    FaCLAn |< aT              `noun`    {- DERIVED -}          [ "grinder", "sharpener" ]
+                              `plural`     FaCLAn |< At,
 
     HaFaCL                    `noun`    {- Oasan~ -}           [ "older" ],
 
@@ -774,7 +796,11 @@ cluster_75  = listing "Lexicon's properties"
 
     MuFaCCaL |< aT            `noun`    {- musan~anap -}       [ "cogwheel" ],
 
-    MuFiCL                    `noun`    {- musin~ -}           [ unwords [ "old", "aged" ], "senior", "superadult" ],
+    MuFiCL                    `noun`    {- musin~ -}           [ unwords [ "old", "aged" ], "senior", "superadult" ]
+                              `plural`     MuFiCL |< Un,
+
+    MuFiCL |< aT              `noun`    {- DERIVED -}          [ unwords [ "old", "aged" ], "senior", "superadult" ]
+                              `plural`     MuFiCL |< At,
 
     FaL |< aT                 `noun`    {- sanap -}            [ "year" ]
                               `plural`     FiL |< Un
@@ -971,6 +997,7 @@ cluster_79  = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- saqolabap -}        [ unwords [ "throwing", "down" ] ],
 
     KaRDaS |< Iy              `adj`     {- saqolabiy~ -}       [ "Slavic", "Slavs" ]
+                              `plural`     KaRDaS |< Iy |< Un
                               `plural`     KaRADiS |< aT ]
 
  |> "s q m" <| [

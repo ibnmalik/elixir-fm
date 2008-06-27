@@ -770,10 +770,6 @@ cluster_150 = listing "Lexicon's properties"
 
     Identity                  `noun`    {- EunofuwAn -}        [ "prime", "vigor" ] ]
 
- |> "`uqayyib" <| [
-
-    Identity                  `noun`    {- Euqay~ib -}         [ unwords [ "small", "eagle" ] ] ]
-
  |> "`uwayrAn" <| [
 
     Identity                  `noun`    {- EuwayorAn -}        [ "Oweiran" ] ]

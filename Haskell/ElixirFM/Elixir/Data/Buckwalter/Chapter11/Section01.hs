@@ -36,7 +36,11 @@ cluster_1   = listing "Lexicon's properties"
 
  |> "z ' .g" <| [
 
-    FACiL                     `noun`    {- zA}ig -}            [ "deviating", "distorted", "wandering" ] ]
+    FACiL                     `noun`    {- zA}ig -}            [ "deviating", "distorted", "wandering" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "deviating", "distorted", "wandering" ]
+                              `plural`     FACiL |< At ]
 
  |> "z ' .t" <| [
 
@@ -51,7 +55,11 @@ cluster_1   = listing "Lexicon's properties"
 
  |> "z ' d" <| [
 
-    FACiL                     `noun`    {- zA}id -}            [ "additional", "exceeding", "excessive" ],
+    FACiL                     `noun`    {- zA}id -}            [ "additional", "exceeding", "excessive" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "additional", "exceeding", "excessive" ]
+                              `plural`     FACiL |< At,
 
     FACiL |< aT               `noun`    {- zA}idap -}          [ "appendage", "appendix" ],
 
@@ -97,7 +105,11 @@ cluster_2   = listing "Lexicon's properties"
     FaCIL                     `noun`    {- za}iyr -}           [ "roaring", "bellowing" ],
 
     FACiL                     `noun`    {- zA}ir -}            [ "visitor", "tourist" ]
+                              `plural`     FACiL |< Un
                            {- `others`  [ "zuwwAr N" ] -},
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "visitor", "tourist" ]
+                              `plural`     FACiL |< At,
 
     FACiL                     `adj`     {- zA}ir -}            [ "visiting" ] ]
 
@@ -110,7 +122,11 @@ cluster_2   = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- zagab -}            [ "fluff", "fuzz" ],
 
-    FaCiL                     `noun`    {- zagib -}            [ "fuzzy", "fluffy" ],
+    FaCiL                     `noun`    {- zagib -}            [ "fuzzy", "fluffy" ]
+                              `plural`     FaCiL |< Un,
+
+    FaCiL |< aT               `noun`    {- DERIVED -}          [ "fuzzy", "fluffy" ]
+                              `plural`     FaCiL |< At,
 
     HaFCaL                    `noun`    {- Oazogab -}          [ "fuzzy", "fluffy" ] ]
 
@@ -194,7 +210,11 @@ cluster_3   = listing "Lexicon's properties"
     FaCL                      `noun`    {- zaHof -}            [ "crawling", "advance", "march", unwords [ "marching", "column" ] ]
                               `plural`     FuCUL,
 
-    FaCCAL                    `noun`    {- zaH~Af -}           [ "creeping", "crawling" ],
+    FaCCAL                    `noun`    {- zaH~Af -}           [ "creeping", "crawling" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "creeping", "crawling" ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL |< aT              `noun`    {- zaH~Afap -}         [ "reptile", unwords [ "ground", "leveler" ], "ski" ],
 
@@ -219,8 +239,7 @@ cluster_4   = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- zaHolap -}          [ "Zahle" ],
 
-    FaCLY |< Iy               `adj`     {- zaHolawiy~ -}       [ unwords [ "of", "/", "from", "Zahle" ] ]
-                           {- `others`  [ "za.hlAwiyy Nall" ] -},
+    FaCLY |< Iy               `adj`     {- zaHolawiy~ -}       [ unwords [ "of", "/", "from", "Zahle" ] ],
 
     FaCLY |< Iy               `adj`     {- zaHolawiy~ -}       [ "Zahlaoui", "Zahlawi" ]
                            {- `others`  [ "za.hlAwiyy N0" ] -} ]
@@ -265,7 +284,11 @@ cluster_5   = listing "Lexicon's properties"
     IFtiCAL                   `noun`    {- AizodiHAm -}        [ "crowd", "jam" ]
                               `plural`     IFtiCAL |< At,
 
-    MuFACiL                   `noun`    {- muzAHim -}          [ "competitor", "rival" ],
+    MuFACiL                   `noun`    {- muzAHim -}          [ "competitor", "rival" ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "competitor", "rival" ]
+                              `plural`     MuFACiL |< At,
 
     MuFtaCiL                  `adj`     {- muzodaHim -}        [ "crowded", "jammed" ],
 
@@ -321,7 +344,11 @@ cluster_6   = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- zijAjap -}          [ "glaziery" ],
 
-    FaCCAL                    `noun`    {- zaj~Aj -}           [ "glazier" ],
+    FaCCAL                    `noun`    {- zaj~Aj -}           [ "glazier" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "glazier" ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL                    `noun`    {- zaj~Aj -}           [ "Zajjaj" ],
 
@@ -337,7 +364,11 @@ cluster_6   = listing "Lexicon's properties"
 
     FaCaL |< Iy               `adj`     {- zajaliy~ -}         [ unwords [ "zajal", "(", "poetry", ")" ] ],
 
-    FaCCAL                    `noun`    {- zaj~Al -}           [ unwords [ "reciter", "of", "zajal", "poems" ] ],
+    FaCCAL                    `noun`    {- zaj~Al -}           [ unwords [ "reciter", "of", "zajal", "poems" ] ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "reciter", "of", "zajal", "poems" ] ]
+                              `plural`     FaCCAL |< At,
 
     FACiL                     `adj`     {- zAjil -}            [ "carrier", "homing" ] ]
 
@@ -416,9 +447,17 @@ cluster_8   = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- tazax~ar -}         [ "abound", "overflow" ],
 
-    FACiL                     `noun`    {- zAxir -}            [ "overflowing", "profuse", "exuberant" ],
+    FACiL                     `noun`    {- zAxir -}            [ "overflowing", "profuse", "exuberant" ]
+                              `plural`     FACiL |< Un,
 
-    FaCCAL                    `noun`    {- zax~Ar -}           [ "overflowing", "profuse", "exuberant" ] ]
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "overflowing", "profuse", "exuberant" ]
+                              `plural`     FACiL |< At,
+
+    FaCCAL                    `noun`    {- zax~Ar -}           [ "overflowing", "profuse", "exuberant" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "overflowing", "profuse", "exuberant" ]
+                              `plural`     FaCCAL |< At ]
 
  |> "z _h r f" <| [
 
@@ -433,7 +472,11 @@ cluster_8   = listing "Lexicon's properties"
 
     KuRDuS |< Iy              `adj`     {- zuxorufiy~ -}       [ "ornamental", "decorative" ],
 
-    MuKaRDiS                  `noun`    {- muzaxorif -}        [ unwords [ "interior", "decorator" ] ],
+    MuKaRDiS                  `noun`    {- muzaxorif -}        [ unwords [ "interior", "decorator" ] ]
+                              `plural`     MuKaRDiS |< Un,
+
+    MuKaRDiS |< aT            `noun`    {- DERIVED -}          [ unwords [ "interior", "decorator" ] ]
+                              `plural`     MuKaRDiS |< At,
 
     MuKaRDaS                  `adj`     {- muzaxoraf -}        [ "ornamented" ] ]
 
@@ -510,7 +553,11 @@ cluster_10  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- zaEal -}            [ "anger", "displeasure" ],
 
-    FaCiL                     `noun`    {- zaEil -}            [ "annoyed", "angry" ],
+    FaCiL                     `noun`    {- zaEil -}            [ "annoyed", "angry" ]
+                              `plural`     FaCiL |< Un,
+
+    FaCiL |< aT               `noun`    {- DERIVED -}          [ "annoyed", "angry" ]
+                              `plural`     FaCiL |< At,
 
     FaCLAn                    `adj`     {- zaEolAn -}          [ "angry", "annoyed" ],
 
@@ -565,7 +612,11 @@ cluster_11  = listing "Lexicon's properties"
 
  |> "z ` r" <| [
 
-    FaCiL                     `noun`    {- zaEir -}            [ unwords [ "thin", "-", "haired" ] ],
+    FaCiL                     `noun`    {- zaEir -}            [ unwords [ "thin", "-", "haired" ] ]
+                              `plural`     FaCiL |< Un,
+
+    FaCiL |< aT               `noun`    {- DERIVED -}          [ unwords [ "thin", "-", "haired" ] ]
+                              `plural`     FaCiL |< At,
 
     HaFCaL                    `noun`    {- OazoEar -}          [ unwords [ "thin", "-", "haired" ] ]
                               `plural`     FaCLA',
@@ -675,7 +726,11 @@ cluster_13  = listing "Lexicon's properties"
     FiCL                      `noun`    {- zibol -}            [ "dung", "manure", "rubbish" ]
                               `plural`     HaFCAL,
 
-    FaCCAL                    `noun`    {- zab~Al -}           [ unwords [ "garbage", "collector" ], unwords [ "street", "sweep" ] ],
+    FaCCAL                    `noun`    {- zab~Al -}           [ unwords [ "garbage", "collector" ], unwords [ "street", "sweep" ] ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "garbage", "collector" ], unwords [ "street", "sweep" ] ]
+                              `plural`     FaCCAL |< At,
 
     FuCAL |< aT               `noun`    {- zubAlap -}          [ "rubbish", "garbage" ],
 
@@ -940,7 +995,11 @@ cluster_19  = listing "Lexicon's properties"
 
     FaCLA' |< Iy              `adj`     {- zahorAwiy~ -}       [ "Zahrawi", "Zahraoui" ],
 
-    FaCCAL                    `noun`    {- zah~Ar -}           [ "florist", "floriculturist" ],
+    FaCCAL                    `noun`    {- zah~Ar -}           [ "florist", "floriculturist" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "florist", "floriculturist" ]
+                              `plural`     FaCCAL |< At,
 
     HaFCaL                    `noun`    {- Oazohar -}          [ "Azhar" ],
 

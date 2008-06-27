@@ -90,11 +90,23 @@ cluster_62  = listing "Lexicon's properties"
     TaFaCCuL                  `noun`    {- tabal~ul -}         [ "moistness", "humidity" ]
                               `plural`     TaFaCCuL |< At,
 
-    MaFCUL                    `noun`    {- maboluwl -}         [ "wet", "drenched" ],
+    MaFCUL                    `noun`    {- maboluwl -}         [ "wet", "drenched" ]
+                              `plural`     MaFCUL |< Un,
 
-    MuFaCCaL                  `noun`    {- mubal~al -}         [ "wet", "drenched" ],
+    MaFCUL |< aT              `noun`    {- DERIVED -}          [ "wet", "drenched" ]
+                              `plural`     MaFCUL |< At,
 
-    MuFtaCL                   `noun`    {- mubotal~ -}         [ "wet", "drenched" ],
+    MuFaCCaL                  `noun`    {- mubal~al -}         [ "wet", "drenched" ]
+                              `plural`     MuFaCCaL |< Un,
+
+    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "wet", "drenched" ]
+                              `plural`     MuFaCCaL |< At,
+
+    MuFtaCL                   `noun`    {- mubotal~ -}         [ "wet", "drenched" ]
+                              `plural`     MuFtaCL |< Un,
+
+    MuFtaCL |< aT             `noun`    {- DERIVED -}          [ "wet", "drenched" ]
+                              `plural`     MuFtaCL |< At,
 
     FiCAL                     `noun`    {- bilAl -}            [ "Bilal" ],
 
@@ -237,9 +249,17 @@ cluster_65  = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- balowarap -}        [ "crystallization" ]
                               `plural`     TaKaRDuS |< At,
 
-    MuKaRDaS                  `noun`    {- mubalowar -}        [ "crystallized", "candied" ],
+    MuKaRDaS                  `noun`    {- mubalowar -}        [ "crystallized", "candied" ]
+                              `plural`     MuKaRDaS |< Un,
 
-    MutaKaRDiS                `noun`    {- mutabalowir -}      [ "crystalline" ] ]
+    MuKaRDaS |< aT            `noun`    {- DERIVED -}          [ "crystallized", "candied" ]
+                              `plural`     MuKaRDaS |< At,
+
+    MutaKaRDiS                `noun`    {- mutabalowir -}      [ "crystalline" ]
+                              `plural`     MutaKaRDiS |< Un,
+
+    MutaKaRDiS |< aT          `noun`    {- DERIVED -}          [ "crystalline" ]
+                              `plural`     MutaKaRDiS |< At ]
 
  |> "b l y" <| [
 
@@ -440,7 +460,11 @@ cluster_68  = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- banokiy~ -}         [ "bank", "banking" ],
 
-    MuFaCCaL                  `noun`    {- muban~ak -}         [ "stranded", "shrewd" ] ]
+    MuFaCCaL                  `noun`    {- muban~ak -}         [ "stranded", "shrewd" ]
+                              `plural`     MuFaCCaL |< Un,
+
+    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "stranded", "shrewd" ]
+                              `plural`     MuFaCCaL |< At ]
 
  |> "b n n" <| [
 
@@ -548,8 +572,7 @@ cluster_70  = listing "Lexicon's properties"
                               `plural`     FuCY
                               `plural`     FiCY,
 
-    FuCLY |< Iy               `adj`     {- bunoyawiy~ -}       [ "structural" ]
-                           {- `others`  [ "binyawiyy Nall" ] -},
+    FuCLY |< Iy               `adj`     {- bunoyawiy~ -}       [ "structural" ],
 
     FuCLY |< Iy |< aT         `noun`    {- bunoyawiy~ap -}     [ "structuralism" ],
 
@@ -578,8 +601,7 @@ cluster_71  = listing "Lexicon's properties"
 
  |> "b n y y" <| [
 
-    KuRDY |< Iy               `adj`     {- bunoyawiy~ -}       [ "structural" ]
-                           {- `others`  [ "binyawiyy Nall" ] -},
+    KuRDY |< Iy               `adj`     {- bunoyawiy~ -}       [ "structural" ],
 
     KuRDY |< Iy |< aT         `noun`    {- bunoyawiy~ap -}     [ "structuralism" ] ]
 
@@ -643,7 +665,11 @@ cluster_72  = listing "Lexicon's properties"
 
     KaRDaS |< aT              `noun`    {- baqobaqap -}        [ "gurgling", "prattle" ],
 
-    KaRDAS                    `noun`    {- baqobAq -}          [ "loquacious" ],
+    KaRDAS                    `noun`    {- baqobAq -}          [ "loquacious" ]
+                              `plural`     KaRDAS |< Un,
+
+    KaRDAS |< aT              `noun`    {- DERIVED -}          [ "loquacious" ]
+                              `plural`     KaRDAS |< At,
 
     KaRDUS |< aT              `noun`    {- baqobuwqap -}       [ "blister" ] ]
 
@@ -658,7 +684,11 @@ cluster_72  = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- baqoliy~ -}         [ "leguminous" ],
 
-    FaCCAL                    `noun`    {- baq~Al -}           [ unwords [ "green", "-", "grocer" ], "grocer" ],
+    FaCCAL                    `noun`    {- baq~Al -}           [ unwords [ "green", "-", "grocer" ], "grocer" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "green", "-", "grocer" ], "grocer" ]
+                              `plural`     FaCCAL |< At,
 
     FiCAL |< aT               `noun`    {- biqAlap -}          [ "grocery" ],
 
@@ -689,7 +719,11 @@ cluster_72  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- baq~ -}             [ "bounty" ],
 
-    FaCCAL                    `noun`    {- baq~Aq -}           [ "loquacious" ] ]
+    FaCCAL                    `noun`    {- baq~Aq -}           [ "loquacious" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "loquacious" ]
+                              `plural`     FaCCAL |< At ]
 
 
 cluster_73  = listing "Lexicon's properties"
@@ -710,7 +744,11 @@ cluster_73  = listing "Lexicon's properties"
 
     FaCaL |< Iy               `adj`     {- baqariy~ -}         [ "bovine", "cow" ],
 
-    FaCCAL                    `noun`    {- baq~Ar -}           [ "cowboy", "cowhand" ],
+    FaCCAL                    `noun`    {- baq~Ar -}           [ "cowboy", "cowhand" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "cowboy", "cowhand" ]
+                              `plural`     FaCCAL |< At,
 
     FACiL                     `noun`    {- bAqir -}            [ "Baqir" ],
 
@@ -798,7 +836,11 @@ cluster_75  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- bAri} -}            [ "Creator" ],
 
-    FACiL                     `noun`    {- bAri} -}            [ "creating" ],
+    FACiL                     `noun`    {- bAri} -}            [ "creating" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "creating" ]
+                              `plural`     FACiL |< At,
 
     FuCL                      `noun`    {- buro' -}            [ "recovery", "convalescence" ]
                               `plural`     FuCUL,
@@ -878,11 +920,19 @@ cluster_76  = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- mubAraHap -}        [ "departure" ],
 
-    FACiL                     `noun`    {- bAriH -}            [ "ominous" ],
+    FACiL                     `noun`    {- bAriH -}            [ "ominous" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "ominous" ]
+                              `plural`     FACiL |< At,
 
     FACiL |< aT               `noun`    {- bAriHap -}          [ "yesterday", "yesteryear" ],
 
-    MuFaCCiL                  `noun`    {- mubar~iH -}         [ "agonizing", "violent" ],
+    MuFaCCiL                  `noun`    {- mubar~iH -}         [ "agonizing", "violent" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "agonizing", "violent" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCaL                  `noun`    {- mubar~aH -}         [ "afflicted", "tormented" ] ]
 
@@ -973,7 +1023,11 @@ cluster_78  = listing "Lexicon's properties"
     TaKaRDuS                  `noun`    {- tabarojuz -}        [ unwords [ "becoming", "bourgeois" ] ]
                               `plural`     TaKaRDuS |< At,
 
-    MutaKaRDiS                `noun`    {- mutabarojiz -}      [ "bourgeois" ] ]
+    MutaKaRDiS                `noun`    {- mutabarojiz -}      [ "bourgeois" ]
+                              `plural`     MutaKaRDiS |< Un,
+
+    MutaKaRDiS |< aT          `noun`    {- DERIVED -}          [ "bourgeois" ]
+                              `plural`     MutaKaRDiS |< At ]
 
  |> "b r ^s" <| [
 
@@ -1037,7 +1091,11 @@ cluster_79  = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- bAriE -}            [ "skilled", "proficient" ],
 
-    MutaFaCCiL                `noun`    {- mutabar~iE -}       [ "donor", "contributor" ] ]
+    MutaFaCCiL                `noun`    {- mutabar~iE -}       [ "donor", "contributor" ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "donor", "contributor" ]
+                              `plural`     MutaFaCCiL |< At ]
 
  |> "b r ` m" <| [
 
@@ -1084,6 +1142,7 @@ cluster_80  = listing "Lexicon's properties"
     KaRDaS                    `verb`    {- barobar -}          [ "babble", "jabber" ],
 
     KaRDaS |< Iy              `adj`     {- barobariy~ -}       [ "Berber" ]
+                              `plural`     KaRDaS |< Iy |< Un
                               `plural`     KaRADiS |< aT
                               `plural`     KaRDaS,
 
@@ -1091,7 +1150,11 @@ cluster_80  = listing "Lexicon's properties"
 
     KaRDaS |< Iy |< aT        `noun`    {- barobariy~ap -}     [ "barbarism", "savagery" ],
 
-    MutaKaRDiS                `noun`    {- mutabarobir -}      [ "barbaric" ] ]
+    MutaKaRDiS                `noun`    {- mutabarobir -}      [ "barbaric" ]
+                              `plural`     MutaKaRDiS |< Un,
+
+    MutaKaRDiS |< aT          `noun`    {- DERIVED -}          [ "barbaric" ]
+                              `plural`     MutaKaRDiS |< At ]
 
  |> "b r b s" <| [
 

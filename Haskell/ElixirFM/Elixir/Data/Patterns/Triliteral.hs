@@ -801,6 +801,12 @@ data PatternT =
 
         |   FuCayL                      |   FuwayL
 
+        |   FuwayCiL
+        |   FuCayyiL
+
+        |   FuwayCaL    {-- (?) --}
+        |   MuFayCaL
+
         |   FaCLY
         |   FiCLY                       |   FILY
         |   FuCLY                       |   FULY        |   FuCyY

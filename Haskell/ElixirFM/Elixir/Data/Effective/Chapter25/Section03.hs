@@ -30,10 +30,15 @@ cluster_41  = listing "Lexicon's properties"
     FA'iL                     `noun`    {- nA}ib -}            [ "deputy", "delegate", unwords [ "vice", "-" ] ]
                               `plural`     FUCAL,
 
-    MuFACiL                   `noun`    {- munAwib -}          [ unwords [ "on", "duty" ], unwords [ "on", "call" ] ],
+    MuFACiL                   `noun`    {- munAwib -}          [ unwords [ "on", "duty" ], unwords [ "on", "call" ] ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ unwords [ "on", "duty" ], unwords [ "on", "call" ] ]
+                              `plural`     MuFACiL |< At,
 
     FUL |< Iy                 `adj`     {- nuwbiy~ -}          [ "Nubian" ]
-                              `plural`     FUL |< aT ]
+                              `plural`     FUL |< aT
+                              `plural`     FUL |< Iy |< Un ]
 
  |> "n w b l" <| [
 
@@ -293,7 +298,11 @@ cluster_46  = listing "Lexicon's properties"
 
     FACiL                     `adj`     {- nAziH -}            [ "distant", "remote" ],
 
-    FACiL                     `noun`    {- nAziH -}            [ "emigrant" ] ]
+    FACiL                     `noun`    {- nAziH -}            [ "emigrant" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "emigrant" ]
+                              `plural`     FACiL |< At ]
 
  |> "n z `" <| [
 
@@ -317,7 +326,11 @@ cluster_46  = listing "Lexicon's properties"
 
     MaFCUL                    `adj`     {- manozuwE -}         [ "removed", unwords [ "taken", "away" ] ],
 
-    MuFACiL                   `noun`    {- munAziE -}          [ "struggling", "contending" ],
+    MuFACiL                   `noun`    {- munAziE -}          [ "struggling", "contending" ]
+                              `plural`     MuFACiL |< Un,
+
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "struggling", "contending" ]
+                              `plural`     MuFACiL |< At,
 
     MutaFACaL                 `adj`     {- mutanAzaE -}        [ "contested", "disputed" ],
 
@@ -393,7 +406,11 @@ cluster_48  = listing "Lexicon's properties"
     TaFACuL                   `noun`    {- tanAzul -}          [ "concession", "waiver", "yielding" ]
                               `plural`     TaFACuL |< At,
 
-    FACiL                     `noun`    {- nAzil -}            [ "staying", "lodged" ] ]
+    FACiL                     `noun`    {- nAzil -}            [ "staying", "lodged" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "staying", "lodged" ]
+                              `plural`     FACiL |< At ]
 
  |> "n z r" <| [
 

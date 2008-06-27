@@ -86,8 +86,7 @@ cluster_22  = listing "Lexicon's properties"
 
     FILiyA' |< Iy             `adj`     {- kiymiyA}iy~ -}      [ "chemical" ],
 
-    FILiyA' |< Iy             `adj`     {- kiymiyA}iy~ -}      [ "chemist" ]
-                           {- `others`  [ "kiymA'iyy Nall", "kiymAwiyy Nall", "kiymiyy Nall", "kiymiyAwiyy Nall" ] -} ]
+    FILiyA' |< Iy             `adj`     {- kiymiyA}iy~ -}      [ "chemist" ] ]
 
  |> "k y n" <| [
 

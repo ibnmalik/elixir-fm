@@ -29,7 +29,11 @@ cluster_21  = listing "Lexicon's properties"
 
     FuCUL                     `noun`    {- xuruwj -}           [ "exit", unwords [ "getting", "out" ], "departure", "deviation" ],
 
-    FiCCIL                    `noun`    {- xir~iyj -}          [ "graduate" ],
+    FiCCIL                    `noun`    {- xir~iyj -}          [ "graduate" ]
+                              `plural`     FiCCIL |< Un,
+
+    FiCCIL |< aT              `noun`    {- DERIVED -}          [ "graduate" ]
+                              `plural`     FiCCIL |< At,
 
     MaFCaL                    `noun`    {- maxoraj -}          [ "exit", "outlet", "escape" ]
                               `plural`     MaFACiL,
@@ -57,9 +61,17 @@ cluster_21  = listing "Lexicon's properties"
 
     FACiL |< Iy |< aT         `noun`    {- xArijiy~ap -}       [ unwords [ "foreign", "ministry" ], unwords [ "foreign", "office" ] ],
 
-    MuFCiL                    `noun`    {- muxorij -}          [ unwords [ "screen", "/", "stage", "director" ] ],
+    MuFCiL                    `noun`    {- muxorij -}          [ unwords [ "screen", "/", "stage", "director" ] ]
+                              `plural`     MuFCiL |< Un,
 
-    MustaFCaL                 `noun`    {- musotaxoraj -}      [ "extract", "excerpt" ] ]
+    MuFCiL |< aT              `noun`    {- DERIVED -}          [ unwords [ "screen", "/", "stage", "director" ] ]
+                              `plural`     MuFCiL |< At,
+
+    MustaFCaL                 `noun`    {- musotaxoraj -}      [ "extract", "excerpt" ]
+                              `plural`     MustaFCaL |< Un,
+
+    MustaFCaL |< aT           `noun`    {- DERIVED -}          [ "extract", "excerpt" ]
+                              `plural`     MustaFCaL |< At ]
 
 
 cluster_22  = listing "Lexicon's properties"
@@ -83,9 +95,17 @@ cluster_22  = listing "Lexicon's properties"
 
     TaFCIL |< Iy              `adj`     {- taxoriybiy~ -}      [ "sabotage", "terrorism" ],
 
-    MuFaCCiL                  `noun`    {- muxar~ib -}         [ "saboteur", "terrorist" ],
+    MuFaCCiL                  `noun`    {- muxar~ib -}         [ "saboteur", "terrorist" ]
+                              `plural`     MuFaCCiL |< Un,
 
-    MuFCiL                    `noun`    {- muxorib -}          [ "annihilator", "destroyer" ] ]
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "saboteur", "terrorist" ]
+                              `plural`     MuFaCCiL |< At,
+
+    MuFCiL                    `noun`    {- muxorib -}          [ "annihilator", "destroyer" ]
+                              `plural`     MuFCiL |< Un,
+
+    MuFCiL |< aT              `noun`    {- DERIVED -}          [ "annihilator", "destroyer" ]
+                              `plural`     MuFCiL |< At ]
 
  |> "_h r d" <| [
 
@@ -148,7 +168,11 @@ cluster_23  = listing "Lexicon's properties"
     FaCAL |< aT               `noun`    {- xasArap -}          [ "loss", "damage", "casualties" ]
                               `plural`     FaCA'iL,
 
-    FACiL                     `noun`    {- xAsir -}            [ "loser", "losing" ] ]
+    FACiL                     `noun`    {- xAsir -}            [ "loser", "losing" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "loser", "losing" ]
+                              `plural`     FACiL |< At ]
 
  |> "_h s s" <| [
 
@@ -227,6 +251,7 @@ cluster_24  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     FA'iL                     `adj`     {- xA}if -}            [ "afraid", "fearful" ]
+                              `plural`     FA'iL |< Un
                               `plural`     FUCaL,
 
     MuFIL                     `adj`     {- muxiyf -}           [ "frightful", "horrible" ] ]
@@ -329,7 +354,11 @@ cluster_25  = listing "Lexicon's properties"
     MaFIL |< aT               `noun`    {- maxiylap -}         [ "conceit", "arrogance", "symptoms", "visions" ]
                               `plural`     MaFACiL,
 
-    MuFIL                     `noun`    {- muxiyl -}           [ "dubious", "vague", "confusing" ],
+    MuFIL                     `noun`    {- muxiyl -}           [ "dubious", "vague", "confusing" ]
+                              `plural`     MuFIL |< Un,
+
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "dubious", "vague", "confusing" ]
+                              `plural`     MuFIL |< At,
 
     FaCL                      `noun`    {- xayol -}            [ "horse" ]
                               `plural`     FuCUL,
@@ -382,15 +411,22 @@ cluster_26  = listing "Lexicon's properties"
 
     IFtiCAL                   `noun`    {- AixotiyAr -}        [ "elder", "senior" ],
 
-    MuFtAL                    `adj`     {- muxotAr -}          [ "chosen", "selected", "selections", "anthology" ]
-                              `plural`     MuFtAL |< At,
+    MuFtAL                    `adj`     {- muxotAr -}          [ "chosen", "selected", "selections", "anthology" ],
 
-    MuFtAL                    `noun`    {- muxotAr -}          [ "choice", "volunteering" ],
+    MuFtAL                    `noun`    {- muxotAr -}          [ "choice", "volunteering" ]
+                              `plural`     MuFtAL |< Un,
+
+    MuFtAL |< aT              `noun`    {- DERIVED -}          [ "choice", "volunteering" ]
+                              `plural`     MuFtAL |< At,
 
     MuFtAL                    `noun`    {- muxotAr -}          [ "Mukhtar" ],
 
     MuFtAL                    `noun`    {- muxotAr -}          [ unwords [ "mukhtar", "(", "village", "chief", ")" ], unwords [ "mukhtars", "(", "village", "chiefs", ")" ] ]
+                              `plural`     MuFtAL |< Un
                            {- `others`  [ "ma_hAtyr Ndip" ] -},
+
+    MuFtAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "mukhtar", "(", "village", "chief", ")" ], unwords [ "mukhtars", "(", "village", "chiefs", ")" ] ]
+                              `plural`     MuFtAL |< At,
 
     FiCAL                     `noun`    {- xiyAr -}            [ "cucumber" ]
                               `plural`     FiCAL |< At ]

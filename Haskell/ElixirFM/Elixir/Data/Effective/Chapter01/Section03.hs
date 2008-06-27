@@ -12,14 +12,6 @@ lexicon = include section
 cluster_41  = listing "Lexicon's properties"
 
 
- |> "'i.sfahAn" <| [
-
-    Identity                  `noun`    {- IiSofahAn -}        [ "Isfahan" ] ]
-
- |> "'i_dA" <| [
-
-    Identity                  `conj`    {- Ii*A -}             [ unwords [ "if", "/", "whether" ] ] ]
-
  |> "'ibrAhIm" <| [
 
     Identity                  `noun`    {- IiborAhiym -}       [ "Ibrahim" ],
@@ -88,10 +80,6 @@ cluster_41  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Iiloyuw$in -}       [ "Ilyushin" ] ]
 
-
-cluster_42  = listing "Lexicon's properties"
-
-
  |> "'imIl" <| [
 
     Identity                  `noun`    {- Iimiyl -}           [ "Emile", "Emil" ] ]
@@ -99,6 +87,10 @@ cluster_42  = listing "Lexicon's properties"
  |> "'imbirA.tUr" <| [
 
     Identity |< Iy |< aT      `noun`    {- IimobirATuwriy~ap -} [ "empire" ] ]
+
+
+cluster_42  = listing "Lexicon's properties"
+
 
  |> "'imbiriyAl" <| [
 
@@ -168,10 +160,6 @@ cluster_42  = listing "Lexicon's properties"
 
     Identity                  `conj`    {- Iin~amA -}          [ unwords [ "but", "rather" ], unwords [ "on", "the", "contrary" ] ] ]
 
-
-cluster_43  = listing "Lexicon's properties"
-
-
  |> "'inqlIz" <| [
 
     Identity |< Iy            `adj`     {- Iinoqliyziy~ -}     [ "English" ] ]
@@ -179,6 +167,10 @@ cluster_43  = listing "Lexicon's properties"
  |> "'intarnA^syUnAl" <| [
 
     Identity                  `noun`    {- IinotarnA$oyuwnAl -} [ "International" ] ]
+
+
+cluster_43  = listing "Lexicon's properties"
+
 
  |> "'intirnit" <| [
 
@@ -242,15 +234,15 @@ cluster_43  = listing "Lexicon's properties"
 
     Identity |< Iy |< aT      `noun`    {- IisomAEiyliy~ap -}  [ "Ismailia" ] ]
 
-
-cluster_44  = listing "Lexicon's properties"
-
-
  |> "'isrA'Il" <| [
 
     Identity                  `noun`    {- IisorA}iyl -}       [ "Israel" ],
 
     Identity |< Iy            `adj`     {- IisorA}iyliy~ -}    [ "Israeli" ] ]
+
+
+cluster_44  = listing "Lexicon's properties"
+
 
  |> "'istUkhUlm" <| [
 
@@ -320,13 +312,13 @@ cluster_44  = listing "Lexicon's properties"
 
     Identity |<< "i"          `adv`     {- biOasori -}         [ "completely", unwords [ "all", "of" ] ] ]
 
-
-cluster_45  = listing "Lexicon's properties"
-
-
  |> "biAlta'kId" <| [
 
     Identity                  `adv`     {- biAltaOokiyd -}     [ "certainly", "undoubtedly" ] ]
+
+
+cluster_45  = listing "Lexicon's properties"
+
 
  |> "ibn" <| [
 

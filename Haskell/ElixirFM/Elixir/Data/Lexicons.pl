@@ -438,7 +438,13 @@ sub showEntry ($) {
 
     my $entry = $_[0];
 
+    my $clone;
+    
     my ($others, $plural, $imperf, $pfirst, $second, $glosses) = ([], [], [], [], [], []);
+
+    $entry->{'glosses'} = reduceGlosses($entry->{'glosses'}) unless $indexed;
+
+    $glosses = $entry->{'glosses'};
 
     if ($entry->{'entity'} eq 'verb') {
 
@@ -501,13 +507,23 @@ sub showEntry ($) {
     }
     else {
 
+        my @plural = ();
+    
         foreach my $form (keys %{$entry->{'patterns'}}) {
 
             my @types = keys %{$entry->{'types'}->{$form}};
 
+            if ($entry->{'entity'} ne 'adj' and grep { /all(?:_|$)/ } @types) {
+        
+                $clone->{'morphs'} = $entry->{'morphs'} . ' |< aT';
+                $clone->{'plural'} = $entry->{'morphs'} . ' |< At';
+
+                $clone->{$_} = $entry->{$_} foreach 'entity', 'glosses';                
+            }
+        
             my $suffix = '';
 
-            if (grep { /iyn(?:_|$)/ } @types) {
+            if (grep { /iyn(?:_|$)/ || /all(?:_|$)/ } @types) {
 
                 $suffix .= ' |< Un';
             }
@@ -519,10 +535,11 @@ sub showEntry ($) {
 
             my $grep = grep { /^N\/At(?:_|$)/ } @types;
 
-            push @{$plural}, map { $_ . $suffix, $grep && $_ ne $entry->{'morphs'}
-                                    ? $_ : () } @{$entry->{'patterns'}->{$form}};
+            push @plural, map { $_ . $suffix, $grep && $_ ne $entry->{'morphs'} ? $_ : () } 
+                              @{$entry->{'patterns'}->{$form}} == 0 && $form eq $entry->{'form'} 
+                              ? ($entry->{'morphs'}) : @{$entry->{'patterns'}->{$form}};
 
-            @types = grep { not /At(?:_|$)/ || /ap(?:_|$)/ || /iyn(?:_|$)/ } @types;
+            @types = grep { not /At(?:_|$)/ || /ap(?:_|$)/ || /iyn(?:_|$)/ || /all(?:_|$)/ } @types;
 
             my $morf = $form;
 
@@ -532,13 +549,22 @@ sub showEntry ($) {
                                                or $morf ne $form and exists $entry->{'patterns'}->{$morf}
                                                or $morf eq $entry->{'form'};
         }
+        
+        if ($entry->{'entity'} eq 'adj' and @plural == 1 and
+           ($plural[0] =~ / \|\< Un$/ and $entry->{'morphs'} !~ / \|\< aT$/ or
+            $plural[0] =~ / \|\< At$/ and $entry->{'morphs'} =~ / \|\< aT$/)) {
+        
+            $plural = [];
+        }
+        else {
+        
+            $plural = [ @plural ];
+        }
     }
 
-    $entry->{'glosses'} = reduceGlosses($entry->{'glosses'}) unless $indexed;
-
-    $glosses = $entry->{'glosses'};
-
-    return sprintf "%s    %-25s %-9s %-22s %s",
+    my @return = ();
+    
+    push @return, sprintf "%s    %-25s %-9s %-22s %s",
 
                    (! exists $options->{'y'} ? '' :
 
@@ -563,6 +589,23 @@ sub showEntry ($) {
 
                    (@{$others} > 0 ? '{- `others`  [ ' .
                             (join ", ", map { '"' . $_ . '"' } @{$others}) . ' ] -}' : ()));
+
+    push @return, sprintf "%s    %-25s %-9s %-22s %s", '',
+
+                   $clone->{'morphs'}, '`' . $clone->{'entity'} . '`',
+
+                   '{- ' . escape('DERIVED') . ' -}',
+
+                   (join "\n" . ' ' x 27,
+
+                   '[ ' . (exists $options->{'e'} ? '' :
+                            join ", ", map { showGloss($_, $clone->{'morphs'}) } @{$clone->{'glosses'}}) . ' ]',
+
+                   '   `plural`     ' . $clone->{'plural'})
+
+                   if defined $clone;
+
+    return @return;
 }
 
 

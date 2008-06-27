@@ -53,7 +53,11 @@ cluster_1   = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- yAfiE -}            [ "Yafie" ],
 
-    FACiL                     `noun`    {- yAfiE -}            [ "adolescent", "teenager" ] ]
+    FACiL                     `noun`    {- yAfiE -}            [ "adolescent", "teenager" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "adolescent", "teenager" ]
+                              `plural`     FACiL |< At ]
 
  |> "y h d" <| [
 
@@ -146,7 +150,11 @@ cluster_3   = listing "Lexicon's properties"
     HaFCaL                    `verb`    {- Oayoqan -}          [ "ascertain", unwords [ "be", "convinced" ] ],
 
     FaCiL                     `noun`    {- yaqin -}            [ "credulous", "ingenuous" ]
+                              `plural`     FaCiL |< Un
                               `plural`     FaCaL |< aT,
+
+    FaCiL |< aT               `noun`    {- DERIVED -}          [ "credulous", "ingenuous" ]
+                              `plural`     FaCiL |< At,
 
     FaCIL                     `noun`    {- yaqiyn -}           [ "certainty", "certitude", "conviction" ],
 

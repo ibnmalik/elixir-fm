@@ -44,7 +44,11 @@ cluster_81  = listing "Lexicon's properties"
                               `plural`     FuCUL
                               `plural`     FuCCaL,
 
-    MuFaCCiL                  `noun`    {- muraq~id -}         [ "somniferous", "soporific" ] ]
+    MuFaCCiL                  `noun`    {- muraq~id -}         [ "somniferous", "soporific" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "somniferous", "soporific" ]
+                              `plural`     MuFaCCiL |< At ]
 
 
 cluster_82  = listing "Lexicon's properties"
@@ -228,7 +232,11 @@ cluster_85  = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- tarosiyx -}         [ "rooting", "anchoring", "ingraining" ]
                               `plural`     TaFCIL |< At,
 
-    FACiL                     `noun`    {- rAsix -}            [ unwords [ "firmly", "established" ], unwords [ "deeply", "rooted" ], "ingrained" ] ]
+    FACiL                     `noun`    {- rAsix -}            [ unwords [ "firmly", "established" ], unwords [ "deeply", "rooted" ], "ingrained" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ unwords [ "firmly", "established" ], unwords [ "deeply", "rooted" ], "ingrained" ]
+                              `plural`     FACiL |< At ]
 
  |> "r s b" <| [
 
@@ -327,9 +335,17 @@ cluster_87  = listing "Lexicon's properties"
     IstiFCAL                  `noun`    {- AisotirosAl -}      [ "naturalness", "elaboration" ]
                               `plural`     IstiFCAL |< At,
 
-    MuFACiL                   `noun`    {- murAsil -}          [ "correspondent" ],
+    MuFACiL                   `noun`    {- murAsil -}          [ "correspondent" ]
+                              `plural`     MuFACiL |< Un,
 
-    MuFCiL                    `noun`    {- murosil -}          [ "transmitter", unwords [ "radio", "installation" ] ],
+    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "correspondent" ]
+                              `plural`     MuFACiL |< At,
+
+    MuFCiL                    `noun`    {- murosil -}          [ "transmitter", unwords [ "radio", "installation" ] ]
+                              `plural`     MuFCiL |< Un,
+
+    MuFCiL |< aT              `noun`    {- DERIVED -}          [ "transmitter", unwords [ "radio", "installation" ] ]
+                              `plural`     MuFCiL |< At,
 
     MuFCaL                    `adj`     {- murosal -}          [ "sent", "transmitted" ],
 
@@ -368,7 +384,11 @@ cluster_88  = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- ras~Am -}           [ "Ressam", "Rassam" ],
 
-    FaCCAL                    `noun`    {- ras~Am -}           [ "artist", "painter" ],
+    FaCCAL                    `noun`    {- ras~Am -}           [ "artist", "painter" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "artist", "painter" ]
+                              `plural`     FaCCAL |< At,
 
     FiCAL |< aT               `noun`    {- risAmap -}          [ "ordination", "consecration" ],
 
@@ -546,7 +566,11 @@ cluster_91  = listing "Lexicon's properties"
     TaFCIL |< aT              `noun`    {- tarotiylap -}       [ "hymn" ]
                               `plural`     TaFACIL,
 
-    MuFaCCiL                  `noun`    {- murat~il -}         [ "singer", "chanter" ],
+    MuFaCCiL                  `noun`    {- murat~il -}         [ "singer", "chanter" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "singer", "chanter" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCaL                  `noun`    {- murat~al -}         [ "chanted", "sung" ] ]
 
@@ -768,7 +792,10 @@ cluster_94  = listing "Lexicon's properties"
                               `plural`     IstiFCAL |< At,
 
     FA'iL                     `noun`    {- rA}iH -}            [ "going" ]
-                           {- `others`  [ "rAyi.h Nall" ] -},
+                              `plural`     FA'iL |< Un,
+
+    FA'iL |< aT               `noun`    {- DERIVED -}          [ "going" ]
+                              `plural`     FA'iL |< At,
 
     FA'iL |< aT               `noun`    {- rA}iHap -}          [ "odor", "perfume" ]
                               `plural`     FawA'iL,
@@ -805,7 +832,11 @@ cluster_95  = listing "Lexicon's properties"
 
     FA'iL                     `adj`     {- rA}ij -}            [ "circulating", "widespread" ],
 
-    MuFaCCiL                  `noun`    {- muraw~ij -}         [ "promoter" ],
+    MuFaCCiL                  `noun`    {- muraw~ij -}         [ "promoter" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "promoter" ]
+                              `plural`     MuFaCCiL |< At,
 
     FUL                       `noun`    {- ruwj -}             [ "rouge" ] ]
 
@@ -914,7 +945,8 @@ cluster_97  = listing "Lexicon's properties"
 
  |> "r w b .t" <| [
 
-    KuRDUS                    `noun`    {- ruwbuwT -}          [ "robot" ] ]
+    KuRDUS                    `noun`    {- ruwbuwT -}          [ "robot" ]
+                              `plural`     KuRDUS |< At ]
 
  |> "r w b l" <| [
 
@@ -934,7 +966,8 @@ cluster_97  = listing "Lexicon's properties"
 
  |> "r w b t" <| [
 
-    KuRDUS                    `noun`    {- ruwbuwt -}          [ "robot" ] ]
+    KuRDUS                    `noun`    {- ruwbuwt -}          [ "robot" ]
+                              `plural`     KuRDUS |< At ]
 
 
 cluster_98  = listing "Lexicon's properties"
@@ -977,7 +1010,11 @@ cluster_98  = listing "Lexicon's properties"
 
     FA'iL |< aT               `noun`    {- rA}idap -}          [ "Ra'ids" ],
 
-    MuFIL                     `noun`    {- muriyd -}           [ "desiring", "follower", "aspirant" ],
+    MuFIL                     `noun`    {- muriyd -}           [ "desiring", "follower", "aspirant" ]
+                              `plural`     MuFIL |< Un,
+
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "desiring", "follower", "aspirant" ]
+                              `plural`     MuFIL |< At,
 
     MuFAL                     `noun`    {- murAd -}            [ "desired", "intended", "intention" ],
 

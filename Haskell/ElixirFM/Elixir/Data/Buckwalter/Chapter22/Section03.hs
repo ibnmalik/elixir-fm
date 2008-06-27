@@ -242,8 +242,7 @@ cluster_44  = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- kaniyn -}           [ "concealed", unwords [ "well", "-", "kept" ] ],
 
-    MaFCUL                    `adj`     {- makonuwn -}         [ "concealed", unwords [ "well", "-", "kept" ], unwords [ "hidden", "things" ] ]
-                              `plural`     MaFCUL |< At,
+    MaFCUL                    `adj`     {- makonuwn -}         [ "concealed", unwords [ "well", "-", "kept" ], unwords [ "hidden", "things" ] ],
 
     FICIL                     `noun`    {- kiyniyn -}          [ "quinine" ] ]
 
@@ -266,7 +265,11 @@ cluster_45  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- kanos -}            [ "sweeping" ],
 
-    FaCCAL                    `noun`    {- kan~As -}           [ unwords [ "street", "sweep" ], "sweeper" ],
+    FaCCAL                    `noun`    {- kan~As -}           [ unwords [ "street", "sweep" ], "sweeper" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "street", "sweep" ], "sweeper" ]
+                              `plural`     FaCCAL |< At,
 
     FuCAL |< aT               `noun`    {- kunAsap -}          [ "sweepings", "rubbish" ],
 
@@ -353,7 +356,11 @@ cluster_46  = listing "Lexicon's properties"
 
     MuFtaCiL                  `adj`     {- mukotaniz -}        [ "firm", "sturdy" ],
 
-    MuFtaCiL                  `noun`    {- mukotaniz -}        [ "gathering", "amassing" ],
+    MuFtaCiL                  `noun`    {- mukotaniz -}        [ "gathering", "amassing" ]
+                              `plural`     MuFtaCiL |< Un,
+
+    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "gathering", "amassing" ]
+                              `plural`     MuFtaCiL |< At,
 
     MuFtaCaL                  `adj`     {- mukotanaz -}        [ "accumulated", "amassed" ] ]
 
@@ -364,6 +371,9 @@ cluster_47  = listing "Lexicon's properties"
  |> "k r '" <| [
 
     FuCU |< At |< Iy          `adj`     {- kuruwAtiy~ -}       [ "Croatian", "Croat" ],
+
+    FaCawAn                   `noun`    {- karawAn -}          [ "plover" ]
+                           {- `others`  [ "kayrawAn N0" ] -},
 
     FiCAL                     `noun`    {- kirA' -}            [ "rent", "renting", unwords [ "rent", "money" ] ]
                               `plural`     HaFCI |< aT,
@@ -419,13 +429,13 @@ cluster_47  = listing "Lexicon's properties"
 
     MutaFaCCiL                `adj`     {- mutakar~i$ -}       [ unwords [ "pot", "-", "bellied" ], "paunchy" ] ]
 
- |> "k r ^s n" <| [
-
-    KaRDUS |< Iy              `adj`     {- karo$uwniy~ -}      [ unwords [ "Karshouni", "(", "Arabic", "in", "Syriac", "script", ")" ] ] ]
-
 
 cluster_48  = listing "Lexicon's properties"
 
+
+ |> "k r ^s n" <| [
+
+    KaRDUS |< Iy              `adj`     {- karo$uwniy~ -}      [ unwords [ "Karshouni", "(", "Arabic", "in", "Syriac", "script", ")" ] ] ]
 
  |> "k r _h" <| [
 
@@ -641,6 +651,8 @@ cluster_52  = listing "Lexicon's properties"
 
     FaCCAL |< aT              `noun`    {- kar~Akap -}         [ unwords [ "dredging", "machine" ], "penitentiary" ],
 
+    FaCLUL                    `noun`    {- karokuwk -}         [ "Kirkuk" ],
+
     FuCIL                     `noun`    {- kuriyk -}           [ "shovel" ]
                               `plural`     FuCIL |< At ]
 
@@ -649,10 +661,6 @@ cluster_52  = listing "Lexicon's properties"
     KaRDaS                    `verb`    {- karokab -}          [ "confuse", "disturb" ],
 
     KaRDaS |< aT              `noun`    {- karokabap -}        [ "disorder", "confusion" ] ]
-
- |> "k r k k" <| [
-
-    KaRDUS                    `noun`    {- karokuwk -}         [ "Kirkuk" ] ]
 
  |> "k r k m" <| [
 
@@ -725,7 +733,11 @@ cluster_53  = listing "Lexicon's properties"
 
     FaCIL |< aT               `noun`    {- kariymap -}         [ "Karima", "Kareema" ],
 
-    FaCCAL                    `noun`    {- kar~Am -}           [ "winegrower", "vinedresser" ],
+    FaCCAL                    `noun`    {- kar~Am -}           [ "winegrower", "vinedresser" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "winegrower", "vinedresser" ]
+                              `plural`     FaCCAL |< At,
 
     HaFCaL                    `noun`    {- Oakoram -}          [ "Akram" ],
 
@@ -1077,7 +1089,11 @@ cluster_60  = listing "Lexicon's properties"
     FACiL |< aT               `noun`    {- kAsiHap -}          [ "sweeper" ]
                               `plural`     FACiL |< At,
 
-    MuFaCCaL                  `noun`    {- mukas~aH -}         [ "crippled", "lame" ] ]
+    MuFaCCaL                  `noun`    {- mukas~aH -}         [ "crippled", "lame" ]
+                              `plural`     MuFaCCaL |< Un,
+
+    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "crippled", "lame" ]
+                              `plural`     MuFaCCaL |< At ]
 
  |> "k s `" <| [
 

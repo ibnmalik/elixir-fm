@@ -284,7 +284,11 @@ cluster_5   = listing "Lexicon's properties"
 
     FA'iL                     `adj`     {- \*A}iE -}           [ "widespread", unwords [ "widely", "known" ] ],
 
-    MuFIL                     `noun`    {- mu*iyE -}           [ "broadcaster", "transmitter", "announcer" ] ]
+    MuFIL                     `noun`    {- mu*iyE -}           [ "broadcaster", "transmitter", "announcer" ]
+                              `plural`     MuFIL |< Un,
+
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "broadcaster", "transmitter", "announcer" ]
+                              `plural`     MuFIL |< At ]
 
  |> "_d w b" <| [
 
@@ -319,7 +323,11 @@ cluster_5   = listing "Lexicon's properties"
 
  |> "_d y `" <| [
 
-    MuFIL                     `noun`    {- mu*iyE -}           [ "broadcaster", "transmitter", "announcer" ] ]
+    MuFIL                     `noun`    {- mu*iyE -}           [ "broadcaster", "transmitter", "announcer" ]
+                              `plural`     MuFIL |< Un,
+
+    MuFIL |< aT               `noun`    {- DERIVED -}          [ "broadcaster", "transmitter", "announcer" ]
+                              `plural`     MuFIL |< At ]
 
  |> "_d y l" <| [
 

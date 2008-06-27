@@ -38,7 +38,11 @@ cluster_21  = listing "Lexicon's properties"
 
     MutaFaCCiL                `adj`     {- mutamas~ik -}       [ "adhering", "tenacious", "firm" ],
 
-    MutaFACiL                 `noun`    {- mutamAsik -}        [ unwords [ "holding", "together" ], "cohesive", unwords [ "calm", "and", "collected" ] ] ]
+    MutaFACiL                 `noun`    {- mutamAsik -}        [ unwords [ "holding", "together" ], "cohesive", unwords [ "calm", "and", "collected" ] ]
+                              `plural`     MutaFACiL |< Un,
+
+    MutaFACiL |< aT           `noun`    {- DERIVED -}          [ unwords [ "holding", "together" ], "cohesive", unwords [ "calm", "and", "collected" ] ]
+                              `plural`     MutaFACiL |< At ]
 
  |> "m s r" <| [
 
@@ -220,11 +224,19 @@ cluster_24  = listing "Lexicon's properties"
 
     TaFCIL |< Iy              `adj`     {- tamowiyliy~ -}      [ "financing", "funding", "backing" ],
 
-    MuFaCCiL                  `noun`    {- mumaw~il -}         [ "financier", unwords [ "financial", "backer" ] ],
+    MuFaCCiL                  `noun`    {- mumaw~il -}         [ "financier", unwords [ "financial", "backer" ] ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "financier", unwords [ "financial", "backer" ] ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCaL                  `adj`     {- mumaw~al -}         [ "financed", "funded" ],
 
-    MutaFaCCiL                `noun`    {- mutamaw~il -}       [ "financier", "underwriter", unwords [ "funding", "source" ] ] ]
+    MutaFaCCiL                `noun`    {- mutamaw~il -}       [ "financier", "underwriter", unwords [ "funding", "source" ] ]
+                              `plural`     MutaFaCCiL |< Un,
+
+    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "financier", "underwriter", unwords [ "funding", "source" ] ]
+                              `plural`     MutaFaCCiL |< At ]
 
 
 cluster_25  = listing "Lexicon's properties"
@@ -371,7 +383,11 @@ cluster_27  = listing "Lexicon's properties"
                               `plural`     HaFCAL
                               `plural`     FuCUL,
 
-    FaCCAL                    `noun`    {- may~Al -}           [ "leaning", unwords [ "in", "favor" ], "biased" ],
+    FaCCAL                    `noun`    {- may~Al -}           [ "leaning", unwords [ "in", "favor" ], "biased" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "leaning", unwords [ "in", "favor" ], "biased" ]
+                              `plural`     FaCCAL |< At,
 
     HaFCaL                    `noun`    {- Oamoyal -}          [ unwords [ "more", "/", "most", "inclined" ], unwords [ "more", "/", "most", "in", "favor" ] ],
 
@@ -460,7 +476,11 @@ cluster_28  = listing "Lexicon's properties"
     IFtiCAL                   `noun`    {- AimotiyAz -}        [ "concession", "favor" ]
                               `plural`     IFtiCAL |< At,
 
-    MuFaCCiL                  `noun`    {- mumay~iz -}         [ "discriminating", "discerning" ],
+    MuFaCCiL                  `noun`    {- mumay~iz -}         [ "discriminating", "discerning" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "discriminating", "discerning" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCiL |< aT            `noun`    {- mumay~izap -}       [ unwords [ "distinguishing", "feature" ], "characteristic", "advantage" ],
 
@@ -474,7 +494,11 @@ cluster_28  = listing "Lexicon's properties"
 
  |> "m z .h" <| [
 
-    FACiL                     `noun`    {- mAziH -}            [ "joker", "jester" ] ]
+    FACiL                     `noun`    {- mAziH -}            [ "joker", "jester" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "joker", "jester" ]
+                              `plural`     FACiL |< At ]
 
 
 cluster_29  = listing "Lexicon's properties"

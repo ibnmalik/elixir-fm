@@ -18,7 +18,11 @@ cluster_81  = listing "Lexicon's properties"
                               `plural`     FuCUL,
 
     FaCCAL                    `noun`    {- may~An -}           [ "liar" ]
-                              `plural`     FA'iL,
+                              `plural`     FaCCAL |< Un
+                              `plural`     FA'iL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "liar" ]
+                              `plural`     FaCCAL |< At,
 
     FILA'                     `noun`    {- miynA' -}           [ "port", "harbor" ]
                               `plural`     FawALI
@@ -42,7 +46,11 @@ cluster_81  = listing "Lexicon's properties"
     FIL |< aT                 `noun`    {- miyrap -}           [ "provisions", "supplies" ]
                               `plural`     FiCaL,
 
-    FaCCAL                    `noun`    {- may~Ar -}           [ "purveyor", "supplier", "caterer" ],
+    FaCCAL                    `noun`    {- may~Ar -}           [ "purveyor", "supplier", "caterer" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "purveyor", "supplier", "caterer" ]
+                              `plural`     FaCCAL |< At,
 
     FIL                       `noun`    {- miyr -}             [ "mayor" ]
                               `plural`     HaFCAL ]
@@ -68,7 +76,11 @@ cluster_81  = listing "Lexicon's properties"
     FIL                       `noun`    {- miys -}             [ "target" ]
                               `plural`     HaFCAL,
 
-    FaCCAL                    `noun`    {- may~As -}           [ "swaggering" ],
+    FaCCAL                    `noun`    {- may~As -}           [ "swaggering" ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "swaggering" ]
+                              `plural`     FaCCAL |< At,
 
     FIL                       `noun`    {- miys -}             [ unwords [ "MEES", "(", "Middle", "East", "Economic", "Survey", ")" ] ],
 
@@ -138,7 +150,11 @@ cluster_83  = listing "Lexicon's properties"
     IFtiCAL                   `noun`    {- AimotiyAz -}        [ "concession", "favor" ]
                               `plural`     IFtiCAL |< At,
 
-    MuFaCCiL                  `noun`    {- mumay~iz -}         [ "discriminating", "discerning" ],
+    MuFaCCiL                  `noun`    {- mumay~iz -}         [ "discriminating", "discerning" ]
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "discriminating", "discerning" ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCiL |< aT            `noun`    {- mumay~izap -}       [ unwords [ "distinguishing", "feature" ], "characteristic", "advantage" ],
 
@@ -169,9 +185,17 @@ cluster_84  = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- mazoHap -}          [ "joke", "prank" ],
 
-    FaCCAL                    `noun`    {- maz~AH -}           [ "joker", "jester" ],
+    FaCCAL                    `noun`    {- maz~AH -}           [ "joker", "jester" ]
+                              `plural`     FaCCAL |< Un,
 
-    FACiL                     `noun`    {- mAziH -}            [ "joker", "jester" ] ]
+    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "joker", "jester" ]
+                              `plural`     FaCCAL |< At,
+
+    FACiL                     `noun`    {- mAziH -}            [ "joker", "jester" ]
+                              `plural`     FACiL |< Un,
+
+    FACiL |< aT               `noun`    {- DERIVED -}          [ "joker", "jester" ]
+                              `plural`     FACiL |< At ]
 
  |> "m z ^g" <| [
 
