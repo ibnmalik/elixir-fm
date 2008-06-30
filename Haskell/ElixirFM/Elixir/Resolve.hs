@@ -132,15 +132,24 @@ resolveList l uc eq y = [ [s] | (r, [x]) <- l, isSubsumed (uc r) y,
 
                           s <- wraps (inflects y) x ]
 
+{-
     where inflects y (Nest r z) = (concat . map (\ x -> let (f, t) = head x in
                                                  if uc f `eq` y then map snd x
                                                                 else []) .
 
-                           groupBy (\ x y -> (fst x) == (fst y)) .
+                           groupBy (\ (x, _) (y, _) -> x == y) .
                                    
-                           sortBy (\ x y -> compare (fst x) (fst y)))
+                           sortBy (\ (x, _) (y, _) -> compare x y))
 
                            [ (uncurry merge i, Token l i t) | e <- z,
+-}
+
+    where inflects y (Nest r z) = (concat . map (\ (f, t) -> if uc f `eq` y
+                                                             then t else []) .
+
+                           Map.toList . Map.fromListWith (++))
+
+                           [ (uncurry merge i, [Token l i t]) | e <- z,
 
                              let s = inflect l complete
                                  l = Lexeme r e,
