@@ -97,12 +97,16 @@ instance Resolve String where
 
         where inflects y (Nest r z) = [ Token l i t | e <- z,
 
-                            let s = inflect l complete
-                                l = Lexeme r e,
+                            s <- derives e, let l = Lexeme r s, 
 
-                            (t, h) <- s, i <- h, uncurry merge i `q` y ]
+                            (t, h) <- inflect l complete, i <- h,
+
+                            uncurry merge i `q` y ]
 
               complete = unTagSets (read "----------")
+
+              derives e = if isNoun (entity e) then [ e, e { morphs = (morphs e) |< aT} ]
+                                               else [ e ]
 
 
 instance Resolve [UPoint] where
@@ -132,18 +136,6 @@ resolveList l uc eq y = [ [s] | (r, [x]) <- l, isSubsumed (uc r) y,
 
                           s <- wraps (inflects y) x ]
 
-{-
-    where inflects y (Nest r z) = (concat . map (\ x -> let (f, t) = head x in
-                                                 if uc f `eq` y then map snd x
-                                                                else []) .
-
-                           groupBy (\ (x, _) (y, _) -> x == y) .
-                                   
-                           sortBy (\ (x, _) (y, _) -> compare x y))
-
-                           [ (uncurry merge i, Token l i t) | e <- z,
--}
-
     where inflects y (Nest r z) = (concat . map (\ (f, t) -> if uc f `eq` y
                                                              then t else []) .
 
@@ -151,20 +143,14 @@ resolveList l uc eq y = [ [s] | (r, [x]) <- l, isSubsumed (uc r) y,
 
                            [ (uncurry merge i, [Token l i t]) | e <- z,
 
-                             let s = inflect l complete
-                                 l = Lexeme r e,
+                             s <- derives e, let l = Lexeme r s,
 
-                             (t, h) <- s, i <- h ]
+                             (t, h) <- inflect l complete, i <- h ]
 
           complete = unTagSets (read "----------")
 
-{-
-    where inflects y (Nest r z) = [ Token (Lexeme r e) i t | e <- z,
-
-                             let s = inflect (Lexeme r e) "----------", (t, h) <- s,
-
-                             i <- h, (uc . uncurry merge) i `eq` y ]
--}
+          derives e = if isNoun (entity e) then [ e, e { morphs = (morphs e) |< aT} ]
+                                           else [ e ]
 
 
 resolveMore q y = resolveListMore indexList id q y  -- (encode UCS . decode TeX)
