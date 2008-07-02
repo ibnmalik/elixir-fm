@@ -113,10 +113,8 @@ cluster_102 = listing "Lexicon's properties"
     FaCL                      `noun`    {- qawos -}            [ "Sagittarius" ],
 
     FaCCAL                    `noun`    {- qaw~As -}           [ "archer", "bowman" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "archer", "bowman" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- qaw~As -}           [ "Qawwas" ],
 
@@ -346,10 +344,8 @@ cluster_107 = listing "Lexicon's properties"
     FiCAL |< Iy               `adj`     {- qiyAdiy~ -}         [ "leading", "guiding", "commanding" ],
 
     FiCAL |< Iy               `noun`    {- qiyAdiy~ -}         [ "leader", "commander" ]
-                              `plural`     FiCAL |< Iy |< Un,
-
-    FiCAL |< Iy |< aT         `noun`    {- DERIVED -}          [ "leader", "commander" ]
-                              `plural`     FiCAL |< Iy |< At,
+                              `plural`     FiCAL |< Iy |< Un
+    `derives` "------F---",
 
     InFiCAL                   `noun`    {- AinoqiyAd -}        [ "compliance", "submission" ]
                               `plural`     InFiCAL |< At,
@@ -414,10 +410,8 @@ cluster_108 = listing "Lexicon's properties"
     MuFAL                     `adj`     {- muqAl -}            [ "fired", "dismissed", "discharged" ],
 
     MustaFIL                  `noun`    {- musotaqiyl -}       [ "discharged", "retired" ]
-                              `plural`     MustaFIL |< Un,
-
-    MustaFIL |< aT            `noun`    {- DERIVED -}          [ "discharged", "retired" ]
-                              `plural`     MustaFIL |< At,
+                              `plural`     MustaFIL |< Un
+    `derives` "------F---",
 
     FaCLUL |< aT              `noun`    {- qayoluwlap -}       [ unwords [ "midday", "nap" ], "siesta" ] ]
 
@@ -446,10 +440,8 @@ cluster_109 = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- qiyAmap -}          [ "resurrection" ],
 
     MuFIL                     `noun`    {- muqiym -}           [ "residing", "resident" ]
-                              `plural`     MuFIL |< Un,
-
-    MuFIL |< aT               `noun`    {- DERIVED -}          [ "residing", "resident" ]
-                              `plural`     MuFIL |< At,
+                              `plural`     MuFIL |< Un
+    `derives` "------F---",
 
     MuFIL |< Iy               `adj`     {- muqiymiy~ -}        [ "residential" ],
 
@@ -516,10 +508,8 @@ cluster_110 = listing "Lexicon's properties"
     FiCAL |< Iy               `adj`     {- qiyAsiy~ -}         [ "record", "analogous" ],
 
     FaCCAL                    `noun`    {- qay~As -}           [ unwords [ "land", "surveyor" ], "geodesist" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "land", "surveyor" ], "geodesist" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     MaFAL                     `noun`    {- maqAs -}            [ "measuring", "gauging", "dimensions" ]
                               `plural`     MaFAL |< At,
@@ -582,10 +572,8 @@ cluster_111 = listing "Lexicon's properties"
     KaRDIS                    `noun`    {- qazodiyr -}         [ unwords [ "tin", "plating" ] ],
 
     MuKaRDiS                  `noun`    {- muqazodir -}        [ "tinsmith" ]
-                              `plural`     MuKaRDiS |< Un,
-
-    MuKaRDiS |< aT            `noun`    {- DERIVED -}          [ "tinsmith" ]
-                              `plural`     MuKaRDiS |< At,
+                              `plural`     MuKaRDiS |< Un
+    `derives` "------F---",
 
     MuKaRDaS                  `adj`     {- muqazodar -}        [ unwords [ "tin", "plated" ] ] ]
 
@@ -648,10 +636,8 @@ cluster_112 = listing "Lexicon's properties"
     FiCAL                     `noun`    {- qizAz -}            [ "glass" ],
 
     FaCCAL                    `noun`    {- qaz~Az -}           [ unwords [ "silk", "merchant" ] ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "silk", "merchant" ] ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- qaz~Az -}           [ "Qazzaz" ],
 

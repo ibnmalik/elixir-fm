@@ -43,10 +43,8 @@ cluster_61  = listing "Lexicon's properties"
     MuFaCCiL                  `adj`     {- mulaw~iv -}         [ "polluting", "contaminating" ],
 
     MuFaCCiL                  `noun`    {- mulaw~iv -}         [ "pollutant", "contaminant" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "pollutant", "contaminant" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCaL                  `adj`     {- mulaw~av -}         [ "polluted", "contaminated" ],
 
@@ -156,7 +154,8 @@ cluster_63  = listing "Lexicon's properties"
 
     FA'iL                     `noun`    {- lA}im -}            [ "critic", "censurer" ]
                               `plural`     FUCaL
-                              `plural`     FUCAL,
+                              `plural`     FUCAL
+    `derives` "------F---",
 
     FA'iL |< aT               `noun`    {- lA}imap -}          [ "blame", "censure" ]
                               `plural`     FawA'iL,
@@ -636,18 +635,14 @@ cluster_71  = listing "Lexicon's properties"
                               `plural`     FawACiL,
 
     MaFCUL                    `noun`    {- malozuwm -}         [ "obligated", "liable" ]
-                              `plural`     MaFCUL |< Un,
-
-    MaFCUL |< aT              `noun`    {- DERIVED -}          [ "obligated", "liable" ]
-                              `plural`     MaFCUL |< At,
+                              `plural`     MaFCUL |< Un
+    `derives` "------F---",
 
     MaFCUL |< Iy              `noun`    {- malozuwmiy~ -}      [ "obligation", "liability" ],
 
     MuFACiL                   `noun`    {- mulAzim -}          [ "lieutenant" ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "lieutenant" ]
-                              `plural`     MuFACiL |< At,
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---",
 
     MuFCiL                    `adj`     {- mulozim -}          [ "binding", "requisite" ],
 

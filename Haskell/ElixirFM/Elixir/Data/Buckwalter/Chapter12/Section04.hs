@@ -151,10 +151,8 @@ cluster_63  = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- masomuwE -}         [ "audible", "perceptible" ],
 
     MuFtaCiL                  `noun`    {- musotamiE -}        [ "listener", "audience" ]
-                              `plural`     MuFtaCiL |< Un,
-
-    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "listener", "audience" ]
-                              `plural`     MuFtaCiL |< At,
+                              `plural`     MuFtaCiL |< Un
+    `derives` "------F---",
 
     FuCUL                     `noun`    {- sumuwE -}           [ "Sumu" ],
 
@@ -222,10 +220,8 @@ cluster_65  = listing "Lexicon's properties"
                               `plural`     HaFCAL,
 
     FaCCAL                    `noun`    {- sam~Ak -}           [ "fisherman" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "fisherman" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- sam~Ak -}           [ "Sammak" ],
 
@@ -346,7 +342,8 @@ cluster_67  = listing "Lexicon's properties"
 
     FaCUL                     `noun`    {- samuwq -}           [ "towering", "tall" ],
 
-    FACiL                     `noun`    {- sAmiq -}            [ "towering", "tall" ],
+    FACiL                     `noun`    {- sAmiq -}            [ "towering", "tall" ]
+    `derives` "------F---",
 
     FuCCAL                    `noun`    {- sum~Aq -}           [ "sumac" ],
 
@@ -389,7 +386,8 @@ cluster_68  = listing "Lexicon's properties"
 
     FaCIL |< aT               `noun`    {- samiyrap -}         [ "Samira", "Sameera" ],
 
-    FaCIL                     `noun`    {- samiyr -}           [ unwords [ "conversation", "partner" ] ],
+    FaCIL                     `noun`    {- samiyr -}           [ unwords [ "conversation", "partner" ] ]
+    `derives` "------F---",
 
     HaFCaL                    `noun`    {- Oasomar -}          [ "brown", "tawny", "tanned", unwords [ "brown", "-", "skinned" ], unwords [ "dark", "-", "complectioned" ] ]
                               `plural`     FaCLY |< At
@@ -410,17 +408,16 @@ cluster_68  = listing "Lexicon's properties"
     FACiL                     `noun`    {- sAmir -}            [ "Samer", "Samir" ],
 
     FACiL                     `noun`    {- sAmir -}            [ "conversationalist", "entertainer" ]
-                              `plural`     FuCCAL,
+                              `plural`     FuCCAL
+    `derives` "------F---",
 
     FawACiL                   `noun`    {- sawAmir -}          [ unwords [ "evening", "entertainment" ] ],
 
     MuFaCCaL                  `noun`    {- musam~ar -}         [ unwords [ "nailed", "down" ] ],
 
     MuFACiL                   `noun`    {- musAmir -}          [ unwords [ "conversation", "partner" ] ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ unwords [ "conversation", "partner" ] ]
-                              `plural`     MuFACiL |< At,
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---",
 
     FACiL |< aT               `noun`    {- sAmirap -}          [ "Samaria" ],
 
@@ -769,17 +766,13 @@ cluster_75  = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- san~An -}           [ "grinder", "sharpener" ]
                               `plural`     FaCCAL |< Un
-                              `plural`     FaCLAn |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "grinder", "sharpener" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCLAn |< Un
+    `derives` "------F---",
 
     FaCLAn                    `noun`    {- san~An -}           [ "grinder", "sharpener" ]
                               `plural`     FaCCAL |< Un
-                              `plural`     FaCLAn |< Un,
-
-    FaCLAn |< aT              `noun`    {- DERIVED -}          [ "grinder", "sharpener" ]
-                              `plural`     FaCLAn |< At,
+                              `plural`     FaCLAn |< Un
+    `derives` "------F---",
 
     HaFaCL                    `noun`    {- Oasan~ -}           [ "older" ],
 
@@ -797,10 +790,8 @@ cluster_75  = listing "Lexicon's properties"
     MuFaCCaL |< aT            `noun`    {- musan~anap -}       [ "cogwheel" ],
 
     MuFiCL                    `noun`    {- musin~ -}           [ unwords [ "old", "aged" ], "senior", "superadult" ]
-                              `plural`     MuFiCL |< Un,
-
-    MuFiCL |< aT              `noun`    {- DERIVED -}          [ unwords [ "old", "aged" ], "senior", "superadult" ]
-                              `plural`     MuFiCL |< At,
+                              `plural`     MuFiCL |< Un
+    `derives` "------F---",
 
     FaL |< aT                 `noun`    {- sanap -}            [ "year" ]
                               `plural`     FiL |< Un

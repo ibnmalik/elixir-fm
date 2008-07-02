@@ -1256,6 +1256,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'labiyb' => {
+          'N/ap_L' => 1
         }
       },
       'entry' => 'labiyb',
@@ -1270,6 +1273,9 @@ $Lexicon = {
       'patterns' => {
         '\'alibbA\'' => [
           'HaFiCLA\''
+        ],
+        'labiyb' => [
+          'FaCIL'
         ]
       },
       'index' => '2',
@@ -1603,6 +1609,9 @@ $Lexicon = {
           'N0_Nh_L' => 1,
           'Nhy_L' => 1
         },
+        'la\'iym' => {
+          'N/ap_L' => 1
+        },
         'li\'Am' => {
           'N_L' => 1
         }
@@ -1620,6 +1629,9 @@ $Lexicon = {
       'patterns' => {
         'lu\'amA\'' => [
           'FuCaLA\''
+        ],
+        'la\'iym' => [
+          'FaCIL'
         ],
         'li\'Am' => [
           'FiCAL'
@@ -1706,6 +1718,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'lA\'im' => {
+          'N/ap_L' => 1
+        },
         'luwwam' => {
           'N_L' => 1
         },
@@ -1722,6 +1737,9 @@ $Lexicon = {
         'luw~Am  N_L     critics;censurers'
       ],
       'patterns' => {
+        'lA\'im' => [
+          'FACiL'
+        ],
         'luwwam' => [],
         'luwwAm' => []
       },
@@ -3383,6 +3401,9 @@ $Lexicon = {
         'las`A' => {
           'Nhy_L' => 1
         },
+        'lasiy`' => {
+          'N/ap_L' => 1
+        },
         'lusa`A\'' => {
           'Nh_L' => 1,
           'N0_Nh_L' => 1,
@@ -3405,6 +3426,9 @@ $Lexicon = {
       ],
       'patterns' => {
         'las`A' => [],
+        'lasiy`' => [
+          'FaCIL'
+        ],
         'las`Y' => [
           'FaCLY'
         ],
@@ -4341,6 +4365,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'la_diy_d' => {
+          'N/ap_L' => 1
+        },
         'li_dA_d' => {
           'N_L' => 1
         },
@@ -4357,6 +4384,9 @@ $Lexicon = {
         'li*A*   N_L     pleasant;delightful'
       ],
       'patterns' => {
+        'la_diy_d' => [
+          'FaCIL'
+        ],
         'li_dA_d' => [
           'FiCAL'
         ],
@@ -6408,6 +6438,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'mal`uwb' => {
+          'N/ap' => 1
+        },
         'malA`iyb' => {
           'Ndip' => 1
         }
@@ -6420,6 +6453,9 @@ $Lexicon = {
         'malAEiyb        Ndip    slobbering;prank'
       ],
       'patterns' => {
+        'mal`uwb' => [
+          'MaFCUL'
+        ],
         'malA`iyb' => [
           'MaFACIL'
         ]
@@ -8613,6 +8649,9 @@ $Lexicon = {
         'li.tAf' => {
           'N_L' => 1
         },
+        'la.tiyf' => {
+          'N/ap_L' => 1
+        },
         'lu.tafA\'' => {
           'Nh_L' => 1,
           'N0_Nh_L' => 1,
@@ -8632,6 +8671,9 @@ $Lexicon = {
       'patterns' => {
         'li.tAf' => [
           'FiCAL'
+        ],
+        'la.tiyf' => [
+          'FaCIL'
         ],
         'lu.tafA\'' => [
           'FuCaLA\''
@@ -12283,6 +12325,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'lAmi`' => {
+          'N/ap_L' => 1
+        },
         'lawAmi`' => {
           'Ndip_L' => 1
         }
@@ -12295,6 +12340,9 @@ $Lexicon = {
         'lawAmiE Ndip_L  splendid;illustrious'
       ],
       'patterns' => {
+        'lAmi`' => [
+          'FACiL'
+        ],
         'lawAmi`' => [
           'FawACiL'
         ]
@@ -12878,6 +12926,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'lahiyf' => {
+          'N/ap_L' => 1
+        },
         'lihAf' => {
           'N_L' => 1
         }
@@ -12890,6 +12941,9 @@ $Lexicon = {
         'lihAf   N_L     eager;desirous;worried'
       ],
       'patterns' => {
+        'lahiyf' => [
+          'FaCIL'
+        ],
         'lihAf' => [
           'FiCAL'
         ]
@@ -17973,14 +18027,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'labiy_h' => {
+          'N/ap_L' => 1
+        }
+      },
       'entry' => 'labiy_h',
       'form' => 'labiy_h',
       'lines' => [
         ';; labiyx_1',
         'labiyx  N/ap_L  fleshy;corpulent     [[labiyx/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'labiy_h' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -18816,6 +18878,9 @@ $Lexicon = {
       'form' => 'lA\'im',
       'lines' => [],
       'patterns' => {
+        'lA\'im' => [
+          'FA\'iL'
+        ],
         'luwwam' => [
           'FUCaL'
         ],
@@ -24609,6 +24674,9 @@ $Lexicon = {
           'Nh_L' => 1,
           'N0_Nh_L' => 1,
           'Nhy_L' => 1
+        },
+        'lakiy`' => {
+          'N/ap_L' => 1
         }
       },
       'entry' => 'lakiy`',
@@ -24623,6 +24691,9 @@ $Lexicon = {
       'patterns' => {
         'luka`A\'' => [
           'FuCaLA\''
+        ],
+        'lakiy`' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -27213,6 +27284,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'lA.gib' => {
+          'N/ap_L' => 1
+        },
         'lu.g.gAb' => {
           'N_L' => 1
         }
@@ -27225,6 +27299,9 @@ $Lexicon = {
         'lug~Ab  N_L     languid;weary'
       ],
       'patterns' => {
+        'lA.gib' => [
+          'FACiL'
+        ],
         'lu.g.gAb' => [
           'FuCCAL'
         ]
@@ -31710,6 +31787,9 @@ $Lexicon = {
         'lu.suw.s' => {
           'N_L' => 1
         },
+        'li.s.s' => {
+          'N/ap_L' => 1
+        },
         '\'al.sA.s' => {
           'N' => 1
         }
@@ -31725,6 +31805,9 @@ $Lexicon = {
       'patterns' => {
         'lu.suw.s' => [
           'FuCUL'
+        ],
+        'li.s.s' => [
+          'FiCL'
         ],
         '\'al.sA.s' => [
           'HaFCAL'

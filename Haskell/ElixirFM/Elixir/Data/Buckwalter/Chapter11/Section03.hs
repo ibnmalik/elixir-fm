@@ -19,10 +19,8 @@ cluster_41  = listing "Lexicon's properties"
     FaCAL                     `noun`    {- zawAq -}            [ "embellishment", "decoration", "cosmetics" ],
 
     MuFaCCaL                  `noun`    {- muzaw~aq -}         [ "embellished", "flowery", "decorated" ]
-                              `plural`     MuFaCCaL |< Un,
-
-    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "embellished", "flowery", "decorated" ]
-                              `plural`     MuFaCCaL |< At ]
+                              `plural`     MuFaCCaL |< Un
+    `derives` "------F---" ]
 
 
 cluster_42  = listing "Lexicon's properties"
@@ -72,20 +70,16 @@ cluster_42  = listing "Lexicon's properties"
 
     FA'iL                     `noun`    {- zA}ir -}            [ "visitor", "tourist" ]
                               `plural`     FUCAL
-                              `plural`     FA'iL |< Un,
-
-    FA'iL |< aT               `noun`    {- DERIVED -}          [ "visitor", "tourist" ]
-                              `plural`     FA'iL |< At,
+                              `plural`     FA'iL |< Un
+    `derives` "------F---",
 
     FA'iL                     `adj`     {- zA}ir -}            [ "visiting" ],
 
     MaFUL                     `adj`     {- mazuwr -}           [ "visited" ],
 
     MuFaCCiL                  `noun`    {- muzaw~ir -}         [ "forger", "falsifying" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "forger", "falsifying" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCaL                  `adj`     {- muzaw~ar -}         [ "falsified", "forged" ] ]
 
@@ -137,10 +131,8 @@ cluster_43  = listing "Lexicon's properties"
     FaCaLAn                   `noun`    {- zayagAn -}          [ unwords [ "turning", "aside" ], "deviation" ],
 
     FA'iL                     `noun`    {- zA}ig -}            [ "deviating", "distorted", "wandering" ]
-                              `plural`     FA'iL |< Un,
-
-    FA'iL |< aT               `noun`    {- DERIVED -}          [ "deviating", "distorted", "wandering" ]
-                              `plural`     FA'iL |< At ]
+                              `plural`     FA'iL |< Un
+    `derives` "------F---" ]
 
 
 cluster_44  = listing "Lexicon's properties"
@@ -234,28 +226,22 @@ cluster_45  = listing "Lexicon's properties"
     FACiL                     `noun`    {- zAyid -}            [ "Zayid", "Zayed" ],
 
     FA'iL                     `noun`    {- zA}id -}            [ "additional", "exceeding", "excessive" ]
-                              `plural`     FA'iL |< Un,
-
-    FA'iL |< aT               `noun`    {- DERIVED -}          [ "additional", "exceeding", "excessive" ]
-                              `plural`     FA'iL |< At,
+                              `plural`     FA'iL |< Un
+    `derives` "------F---",
 
     FA'iL |< aT               `noun`    {- zA}idap -}          [ "appendage", "appendix" ],
 
     FA'iL |< Iy               `adj`     {- zA}idiy~ -}         [ "hyperbolic" ],
 
     MuFACiL                   `noun`    {- muzAyid -}          [ "bidder", "outbidder" ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "bidder", "outbidder" ]
-                              `plural`     MuFACiL |< At,
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---",
 
     MutaFACiL                 `adj`     {- mutazAyid -}        [ "increasing", "growing" ],
 
     MuFtAL                    `noun`    {- muzodAd -}          [ "born" ]
-                              `plural`     MuFtAL |< Un,
-
-    MuFtAL |< aT              `noun`    {- DERIVED -}          [ "born" ]
-                              `plural`     MuFtAL |< At ]
+                              `plural`     MuFtAL |< Un
+    `derives` "------F---" ]
 
 
 cluster_46  = listing "Lexicon's properties"
@@ -281,10 +267,8 @@ cluster_46  = listing "Lexicon's properties"
     FA'iL                     `adj`     {- zA}if -}            [ "forged", "spurious", "fake" ],
 
     MuFaCCiL                  `noun`    {- muzay~if -}         [ "forger", "counterfeiter" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "forger", "counterfeiter" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCaL                  `adj`     {- muzay~af -}         [ "forged", "counterfeit", "pseudo" ] ]
 
@@ -294,7 +278,8 @@ cluster_46  = listing "Lexicon's properties"
 
     TaFACaL                   `verb`    {- tazAyal -}          [ unwords [ "be", "disjointed" ], "cease" ],
 
-    MuFIL                     `noun`    {- muziyl -}           [ unwords [ "cleansing", "medium" ], "cleaner" ],
+    MuFIL                     `noun`    {- muziyl -}           [ unwords [ "cleansing", "medium" ], "cleaner" ]
+    `derives` "------F---",
 
     FiCAL                     `noun`    {- ziyAl -}            [ "Ziyal" ] ]
 
@@ -414,10 +399,8 @@ cluster_49  = listing "Lexicon's properties"
     FaCL |< At                `noun`    {- zay~At -}           [ "Zayyat" ],
 
     FaCL |< At                `noun`    {- zay~At -}           [ unwords [ "oil", "dealer" ], "oilman" ]
-                              `plural`     FaCL |< At |< Un,
-
-    FaCL |< At |< aT          `noun`    {- DERIVED -}          [ unwords [ "oil", "dealer" ], "oilman" ]
-                              `plural`     FaCL |< At |< At ]
+                              `plural`     FaCL |< At |< Un
+    `derives` "------F---" ]
 
  |> "z y z" <| [
 

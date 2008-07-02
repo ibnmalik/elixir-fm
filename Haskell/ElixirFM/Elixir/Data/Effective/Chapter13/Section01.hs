@@ -70,10 +70,8 @@ cluster_1   = listing "Lexicon's properties"
     FaCaL                     `noun`    {- \$agab -}           [ "unrest", "disturbance" ],
 
     FaCiL                     `noun`    {- \$agib -}           [ "troublemaker", "agitator" ]
-                              `plural`     FaCiL |< Un,
-
-    FaCiL |< aT               `noun`    {- DERIVED -}          [ "troublemaker", "agitator" ]
-                              `plural`     FaCiL |< At ]
+                              `plural`     FaCiL |< Un
+    `derives` "------F---" ]
 
  |> "^s .g f" <| [
 
@@ -114,10 +112,8 @@ cluster_2   = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- ma$oguwl -}         [ "busy", "occupied" ],
 
     MuFaCCaL                  `noun`    {- mu$ag~al -}         [ "employee" ]
-                              `plural`     MuFaCCaL |< Un,
-
-    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "employee" ]
-                              `plural`     MuFaCCaL |< At,
+                              `plural`     MuFaCCaL |< Un
+    `derives` "------F---",
 
     MuFaCCiL                  `noun`    {- mu$ag~il -}         [ "starter" ],
 
@@ -137,10 +133,8 @@ cluster_2   = listing "Lexicon's properties"
                               `plural`     FaCA'iL,
 
     FaCL |< At                `noun`    {- \$aH~At -}          [ "beggar" ]
-                              `plural`     FaCL |< At |< Un,
-
-    FaCL |< At |< aT          `noun`    {- DERIVED -}          [ "beggar" ]
-                              `plural`     FaCL |< At |< At ]
+                              `plural`     FaCL |< At |< Un
+    `derives` "------F---" ]
 
  |> "^s .h _d" <| [
 
@@ -332,7 +326,8 @@ cluster_5   = listing "Lexicon's properties"
                               `pfirst`     FaCaL,
 
     FuCAL                     `noun`    {- \$uEAE -}           [ "rays" ]
-                              `plural`     HaFiCL |< aT,
+                              `plural`     HaFiCL |< aT
+    `derives` "------F---",
 
     FuCAL |< Iy               `adj`     {- \$uEAEiy~ -}        [ "radiation" ],
 
@@ -419,7 +414,8 @@ cluster_7   = listing "Lexicon's properties"
                               `plural`     FiCAL |< At,
 
     FACiL                     `noun`    {- \$AEir -}           [ "poet" ]
-                              `plural`     FuCaLA',
+                              `plural`     FuCaLA'
+    `derives` "------F---",
 
     MaFCaL                    `noun`    {- ma$oEar -}          [ "feeling", "sense", "emotions" ]
                               `plural`     MaFACiL,
@@ -629,10 +625,8 @@ cluster_11  = listing "Lexicon's properties"
     MuFaCCaL                  `adj`     {- mu$ad~ad -}         [ "intense" ],
 
     MutaFaCCiL                `noun`    {- muta$ad~id -}       [ "extremist", "fanatic", "strict", "zealot" ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "extremist", "fanatic", "strict", "zealot" ]
-                              `plural`     MutaFaCCiL |< At ]
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---" ]
 
 
 cluster_12  = listing "Lexicon's properties"
@@ -799,7 +793,8 @@ cluster_15  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- \$Ahid -}           [ "witness", "spectator" ]
                               `plural`     FuCUL
-                              `plural`     HaFCAL,
+                              `plural`     HaFCAL
+    `derives` "------F---",
 
     FACiL |< aT               `noun`    {- \$Ahidap -}         [ "proof", "example", "citations" ]
                               `plural`     FawACiL,
@@ -814,10 +809,8 @@ cluster_15  = listing "Lexicon's properties"
     MuFACaL |< aT             `noun`    {- mu$Ahadap -}        [ "observation", "viewing", "inspection" ],
 
     MuFACiL                   `noun`    {- mu$Ahid -}          [ "viewer", "spectator", "witness" ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "viewer", "spectator", "witness" ]
-                              `plural`     MuFACiL |< At,
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---",
 
     IstiFCAL                  `noun`    {- Aisoti$ohAd -}      [ "martyrdom" ]
                               `plural`     IstiFCAL |< At,

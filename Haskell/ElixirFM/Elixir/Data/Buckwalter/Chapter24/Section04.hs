@@ -42,10 +42,8 @@ cluster_61  = listing "Lexicon's properties"
     FaCIL |< Iy               `adj`     {- mariysiy~ -}        [ unwords [ "hot", "south", "wind" ] ],
 
     MuFACiL                   `noun`    {- mumAris -}          [ "practicing", "pursuing", "implementing", "exercising" ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "practicing", "pursuing", "implementing", "exercising" ]
-                              `plural`     MuFACiL |< At,
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---",
 
     MuFACaL |< aT             `noun`    {- mumArasap -}        [ "practice", "pursuit", "exercise", "activities", "actions" ]
                               `plural`     MuFACaL |< At,
@@ -54,10 +52,8 @@ cluster_61  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     MutaFaCCiL                `noun`    {- mutamar~is -}       [ "practicing", "experienced", "veteran" ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "practicing", "experienced", "veteran" ]
-                              `plural`     MutaFaCCiL |< At ]
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---" ]
 
  |> "m r s n" <| [
 
@@ -161,10 +157,8 @@ cluster_63  = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- masoHap -}          [ "trace", "touch" ],
 
     FaCCAL                    `noun`    {- mas~AH -}           [ unwords [ "land", "surveyor" ] ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "land", "surveyor" ] ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL |< aT              `noun`    {- mas~AHap -}         [ unwords [ "windshield", "wiper" ] ],
 
@@ -187,16 +181,12 @@ cluster_63  = listing "Lexicon's properties"
                               `plural`     MaFACiL,
 
     FACiL                     `noun`    {- mAsiH -}            [ "shoeshine" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "shoeshine" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
 
     FACiL                     `noun`    {- mAsiH -}            [ "wiper" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "wiper" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
 
     MaFCUL                    `adj`     {- mamosuwH -}         [ unwords [ "wiped", "off" ], "cleaned", "smoothed" ] ]
 
@@ -310,18 +300,14 @@ cluster_65  = listing "Lexicon's properties"
     MuFaCCaL                  `noun`    {- mumas~ak -}         [ unwords [ "musk", "-", "scented" ], "perfumed" ],
 
     MuFCiL                    `noun`    {- mumosik -}          [ "holding", "withholding" ]
-                              `plural`     MuFCiL |< Un,
-
-    MuFCiL |< aT              `noun`    {- DERIVED -}          [ "holding", "withholding" ]
-                              `plural`     MuFCiL |< At,
+                              `plural`     MuFCiL |< Un
+    `derives` "------F---",
 
     MutaFaCCiL                `adj`     {- mutamas~ik -}       [ "adhering", "tenacious", "firm" ],
 
     MutaFACiL                 `noun`    {- mutamAsik -}        [ unwords [ "holding", "together" ], "cohesive", unwords [ "calm", "and", "collected" ] ]
-                              `plural`     MutaFACiL |< Un,
-
-    MutaFACiL |< aT           `noun`    {- DERIVED -}          [ unwords [ "holding", "together" ], "cohesive", unwords [ "calm", "and", "collected" ] ]
-                              `plural`     MutaFACiL |< At,
+                              `plural`     MutaFACiL |< Un
+    `derives` "------F---",
 
     MustaFCiL                 `adj`     {- musotamosik -}      [ "composed", unwords [ "calm", "and", "collected" ] ] ]
 
@@ -341,10 +327,8 @@ cluster_66  = listing "Lexicon's properties"
 
     KiRDIS                    `noun`    {- misokiyn -}         [ "poor", "humble", "miserable" ]
                               `plural`     KaRADIS
-                              `plural`     KiRDIS |< Un,
-
-    KiRDIS |< aT              `noun`    {- DERIVED -}          [ "poor", "humble", "miserable" ]
-                              `plural`     KiRDIS |< At ]
+                              `plural`     KiRDIS |< Un
+    `derives` "------F---" ]
 
  |> "m s k w" <| [
 
@@ -692,10 +676,8 @@ cluster_73  = listing "Lexicon's properties"
     FAL |< Iy |< aT           `noun`    {- mAliy~ap -}         [ "finance" ],
 
     FaCCAL                    `noun`    {- maw~Al -}           [ "financier" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "financier" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     TaFCIL                    `noun`    {- tamowiyl -}         [ "financing", "funding", "backing" ]
                               `plural`     TaFCIL |< At,
@@ -703,18 +685,14 @@ cluster_73  = listing "Lexicon's properties"
     TaFCIL |< Iy              `adj`     {- tamowiyliy~ -}      [ "financing", "funding", "backing" ],
 
     MuFaCCiL                  `noun`    {- mumaw~il -}         [ "financier", unwords [ "financial", "backer" ] ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "financier", unwords [ "financial", "backer" ] ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCaL                  `adj`     {- mumaw~al -}         [ "financed", "funded" ],
 
     MutaFaCCiL                `noun`    {- mutamaw~il -}       [ "financier", "underwriter", unwords [ "funding", "source" ] ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "financier", "underwriter", unwords [ "funding", "source" ] ]
-                              `plural`     MutaFaCCiL |< At,
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- maw~Al -}           [ unwords [ "love", "song" ] ]
                               `plural`     FaCACIL ]
@@ -1071,10 +1049,8 @@ cluster_80  = listing "Lexicon's properties"
                               `plural`     FuCUL,
 
     FaCCAL                    `noun`    {- may~Al -}           [ "leaning", unwords [ "in", "favor" ], "biased" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "leaning", unwords [ "in", "favor" ], "biased" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     HaFCaL                    `noun`    {- Oamoyal -}          [ unwords [ "more", "/", "most", "inclined" ], unwords [ "more", "/", "most", "in", "favor" ] ],
 

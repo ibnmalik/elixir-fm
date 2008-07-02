@@ -7541,6 +7541,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        '.daniyn' => {
+          'N/ap' => 1
+        },
         '\'a.dinn' => {
           'Nap' => 1
         }
@@ -7553,6 +7556,9 @@ $Lexicon = {
         'OaDin~  Nap     stingy;economical'
       ],
       'patterns' => {
+        '.daniyn' => [
+          'FaCIL'
+        ],
         '\'a.dinn' => [
           'HaFiCL'
         ]

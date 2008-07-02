@@ -173,10 +173,8 @@ cluster_24  = listing "Lexicon's properties"
 
     MaFCUL                    `noun`    {- makofuwf -}         [ "blind" ]
                               `plural`     MaFCUL |< Un
-                              `plural`     MaFACIL,
-
-    MaFCUL |< aT              `noun`    {- DERIVED -}          [ "blind" ]
-                              `plural`     MaFCUL |< At ]
+                              `plural`     MaFACIL
+    `derives` "------F---" ]
 
 
 cluster_25  = listing "Lexicon's properties"
@@ -219,14 +217,16 @@ cluster_25  = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- kafAlap -}          [ "bail", "deposit", "collateral" ],
 
-    FaCIL                     `noun`    {- kafiyl -}           [ "responsible", "sponsor", "guarantor" ],
+    FaCIL                     `noun`    {- kafiyl -}           [ "responsible", "sponsor", "guarantor" ]
+    `derives` "------F---",
 
     FaCIL                     `adj`     {- kafiyl -}           [ "guaranteeing" ],
 
     TaFACuL                   `noun`    {- takAful -}          [ unwords [ "joint", "responsibility" ], unwords [ "mutual", "agreement" ] ]
                               `plural`     TaFACuL |< At,
 
-    FACiL                     `noun`    {- kAfil -}            [ "provider", "supporter", "protector", "bailsman", "bond" ],
+    FACiL                     `noun`    {- kAfil -}            [ "provider", "supporter", "protector", "bailsman", "bond" ]
+    `derives` "------F---",
 
     MaFCUL                    `adj`     {- makofuwl -}         [ "guaranteed" ],
 
@@ -277,10 +277,8 @@ cluster_26  = listing "Lexicon's properties"
                               `plural`     FACiL |< Un
                               `plural`     FiCAL
                               `plural`     FaCaL |< aT
-                              `plural`     FuCCAL,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "infidel" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FuCCAL
+    `derives` "------F---",
 
     FACUL                     `noun`    {- kAfuwr -}           [ "camphor" ] ]
 
@@ -401,17 +399,17 @@ cluster_28  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- kAhin -}            [ "prognosticator", "fortuneteller" ]
                               `plural`     FaCaL |< aT
-                              `plural`     FuCCAL,
+                              `plural`     FuCCAL
+    `derives` "------F---",
 
     FACiL                     `noun`    {- kAhin -}            [ "priest" ]
                               `plural`     FaCaL |< aT
-                              `plural`     FuCCAL,
+                              `plural`     FuCCAL
+    `derives` "------F---",
 
     MutaFaCCiL                `noun`    {- mutakah~in -}       [ "prognosticator", "fortuneteller", "predicting" ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "prognosticator", "fortuneteller", "predicting" ]
-                              `plural`     MutaFaCCiL |< At ]
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---" ]
 
  |> "k h n ^g" <| [
 
@@ -554,10 +552,8 @@ cluster_31  = listing "Lexicon's properties"
     FaCLAn |< Iy              `adj`     {- kalodAniy~ -}       [ "Chaldean" ],
 
     FaCLAn |< Iy              `noun`    {- kalodAniy~ -}       [ "astrologer" ]
-                              `plural`     FaCLAn |< Iy |< Un,
-
-    FaCLAn |< Iy |< aT        `noun`    {- DERIVED -}          [ "astrologer" ]
-                              `plural`     FaCLAn |< Iy |< At ]
+                              `plural`     FaCLAn |< Iy |< Un
+    `derives` "------F---" ]
 
 
 cluster_32  = listing "Lexicon's properties"
@@ -754,10 +750,8 @@ cluster_36  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     MuFaCCaL                  `noun`    {- mukal~as -}         [ "calcified" ]
-                              `plural`     MuFaCCaL |< Un,
-
-    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "calcified" ]
-                              `plural`     MuFaCCaL |< At,
+                              `plural`     MuFaCCaL |< Un
+    `derives` "------F---",
 
     FaCL |< aT                `noun`    {- kalosap -}          [ "stockings" ]
                               `plural`     FaCL |< At ]

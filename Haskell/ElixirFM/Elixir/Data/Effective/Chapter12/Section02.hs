@@ -79,10 +79,8 @@ cluster_22  = listing "Lexicon's properties"
     FACiL                     `adj`     {- sAmiE -}            [ "hearer", "listener", "listening", unwords [ "able", "to", "hear" ] ],
 
     MuFtaCiL                  `noun`    {- musotamiE -}        [ "listener", "audience" ]
-                              `plural`     MuFtaCiL |< Un,
-
-    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "listener", "audience" ]
-                              `plural`     MuFtaCiL |< At,
+                              `plural`     MuFtaCiL |< Un
+    `derives` "------F---",
 
     FiCLAn                    `noun`    {- simoEAn -}          [ "Simon" ] ]
 
@@ -138,7 +136,8 @@ cluster_23  = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- samiyr -}           [ "Samir", "Sameer" ],
 
-    FaCIL                     `noun`    {- samiyr -}           [ unwords [ "conversation", "partner" ] ],
+    FaCIL                     `noun`    {- samiyr -}           [ unwords [ "conversation", "partner" ] ]
+    `derives` "------F---",
 
     HaFCaL                    `noun`    {- Oasomar -}          [ "brown", "tawny", "tanned", unwords [ "brown", "-", "skinned" ], unwords [ "dark", "-", "complectioned" ] ]
                               `plural`     FaCLY |< At
@@ -281,10 +280,8 @@ cluster_26  = listing "Lexicon's properties"
     FiCAL                     `noun`    {- sinAn -}            [ "spearhead" ],
 
     MuFiCL                    `noun`    {- musin~ -}           [ unwords [ "old", "aged" ], "senior", "superadult" ]
-                              `plural`     MuFiCL |< Un,
-
-    MuFiCL |< aT              `noun`    {- DERIVED -}          [ unwords [ "old", "aged" ], "senior", "superadult" ]
-                              `plural`     MuFiCL |< At,
+                              `plural`     MuFiCL |< Un
+    `derives` "------F---",
 
     FaL |< aT                 `noun`    {- sanap -}            [ "year" ]
                               `plural`     FiL |< Un
@@ -483,10 +480,8 @@ cluster_29  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- sAriq -}            [ "thief" ]
                               `plural`     FACiL |< Un
-                              `plural`     FaCaL |< aT,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "thief" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FaCaL |< aT
+    `derives` "------F---",
 
     MaFCUL                    `adj`     {- masoruwq -}         [ "stolen", unwords [ "stolen", "goods" ] ] ]
 
@@ -808,10 +803,8 @@ cluster_36  = listing "Lexicon's properties"
     TaFCIL |< Iy              `adj`     {- tasowiyqiy~ -}      [ "marketing" ],
 
     FA'iL                     `noun`    {- sA}iq -}            [ "chauffeur", "driver" ]
-                              `plural`     FA'iL |< Un,
-
-    FA'iL |< aT               `noun`    {- DERIVED -}          [ "chauffeur", "driver" ]
-                              `plural`     FA'iL |< At ]
+                              `plural`     FA'iL |< Un
+    `derives` "------F---" ]
 
  |> "s w r" <| [
 
@@ -848,10 +841,8 @@ cluster_37  = listing "Lexicon's properties"
 
     FiyAL |< Iy               `noun`    {- siyAsiy~ -}         [ "politician", "statesman", "statesmen" ]
                               `plural`     FAL |< aT
-                              `plural`     FiyAL |< Iy |< Un,
-
-    FiyAL |< Iy |< aT         `noun`    {- DERIVED -}          [ "politician", "statesman", "statesmen" ]
-                              `plural`     FiyAL |< Iy |< At ]
+                              `plural`     FiyAL |< Iy |< Un
+    `derives` "------F---" ]
 
  |> "s w w" <| [
 
@@ -927,17 +918,13 @@ cluster_39  = listing "Lexicon's properties"
     FiCAL |< Iy               `adj`     {- siyAHiy~ -}         [ "tourist", "tourism" ],
 
     FaCCAL                    `noun`    {- say~AH -}           [ "traveler" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "traveler" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FA'iL                     `noun`    {- sA}iH -}            [ "tourist" ]
                               `plural`     FA'iL |< Un
-                              `plural`     FuCCAL,
-
-    FA'iL |< aT               `noun`    {- DERIVED -}          [ "tourist" ]
-                              `plural`     FA'iL |< At ]
+                              `plural`     FuCCAL
+    `derives` "------F---" ]
 
  |> "s y .t r" <| [
 
@@ -975,10 +962,8 @@ cluster_39  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- say~Af -}           [ "Sayyaf" ],
 
     FaCCAL                    `noun`    {- say~Af -}           [ "executioner" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "executioner" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FILAn                     `noun`    {- siyfAn -}           [ "Sevan" ] ]
 
@@ -1047,10 +1032,8 @@ cluster_40  = listing "Lexicon's properties"
     FA'iL                     `adj`     {- sA}ir -}            [ "current", "available", "widespread", unwords [ "in", "circulation" ] ],
 
     MuFaCCiL                  `noun`    {- musay~ir -}         [ "director", "leader" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "director", "leader" ]
-                              `plural`     MuFaCCiL |< At ]
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---" ]
 
 
 section = [ cluster_21,

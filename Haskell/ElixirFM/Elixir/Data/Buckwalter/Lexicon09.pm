@@ -1199,6 +1199,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        '_dA\'id' => {
+          'N/ap' => 1
+        },
         '_dAd' => {
           'Nap' => 1
         }
@@ -1211,6 +1214,9 @@ $Lexicon = {
         '*Ad     Nap     protector;defender'
       ],
       'patterns' => {
+        '_dA\'id' => [
+          'FA\'iL'
+        ],
         '_dAd' => [
           'FAL'
         ]
@@ -1668,6 +1674,9 @@ $Lexicon = {
       'types' => {
         '_dubul' => {
           'N' => 1
+        },
+        '_dAbil' => {
+          'N/ap' => 1
         }
       },
       'entry' => '_dAbil',
@@ -1680,6 +1689,9 @@ $Lexicon = {
       'patterns' => {
         '_dubul' => [
           'FuCuL'
+        ],
+        '_dAbil' => [
+          'FACiL'
         ]
       },
       'index' => '1',
@@ -1824,6 +1836,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        '_dakiyy' => {
+          'N/ap' => 1
         }
       },
       'entry' => '_dakiyy',
@@ -1836,6 +1851,9 @@ $Lexicon = {
         'Oa*okiyA}       Nhy     clever'
       ],
       'patterns' => {
+        '_dakiyy' => [
+          'FaCIL'
+        ],
         '\'a_dkiyA\'' => [
           'HaFCiLA\''
         ]
@@ -2734,14 +2752,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '_dabiy.h' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => '_dabiy.h',
       'form' => '_dabiy.h',
       'lines' => [
         ';; *abiyH_1',
         '*abiyH  N/ap    slaughtered     [[*abiyH/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_dabiy.h' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -5828,14 +5854,22 @@ $Lexicon = {
   ],
   '_d l q' => [
     {
-      'types' => {},
+      'types' => {
+        '_daliq' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => '_daliq',
       'form' => '_daliq',
       'lines' => [
         ';; *aliq_1',
         '*aliq   N/ap    eloquent;fluent'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_daliq' => [
+          'FaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCiL',
@@ -5848,14 +5882,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '_daliyq' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => '_daliyq',
       'form' => '_daliyq',
       'lines' => [
         ';; *aliyq_1',
         '*aliyq  N/ap    eloquent;fluent'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_daliyq' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -6336,6 +6378,9 @@ $Lexicon = {
       'form' => '_dA\'id',
       'lines' => [],
       'patterns' => {
+        '_dA\'id' => [
+          'FACiL'
+        ],
         '_dAd' => [
           'FAL'
         ]
@@ -6783,6 +6828,9 @@ $Lexicon = {
           'Nhy' => 1,
           'N0_Nh' => 1
         },
+        '_daliyl' => {
+          'N/ap' => 1
+        },
         '\'a_dill' => {
           'Nap' => 1
         }
@@ -6798,6 +6846,9 @@ $Lexicon = {
         'Oa*il~  Nap     despised;submissive'
       ],
       'patterns' => {
+        '_daliyl' => [
+          'FaCIL'
+        ],
         '\'a_dillA\'' => [
           'HaFiCLA\''
         ],
@@ -6820,6 +6871,9 @@ $Lexicon = {
       'types' => {
         '_dulul' => {
           'N' => 1
+        },
+        '_daluwl' => {
+          'N/ap' => 1
         }
       },
       'entry' => '_daluwl',
@@ -6832,6 +6886,9 @@ $Lexicon = {
       'patterns' => {
         '_dulul' => [
           'FuCuL'
+        ],
+        '_daluwl' => [
+          'FaCUL'
         ]
       },
       'index' => '1',
@@ -8231,14 +8288,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '_dawwAq' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => '_dawwAq',
       'form' => '_dawwAq',
       'lines' => [
         ';; *aw~Aq_1',
         '*aw~Aq  N/ap    epicure;connoisseur'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '_dawwAq' => [
+          'FaCCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCCAL',

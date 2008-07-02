@@ -132,16 +132,12 @@ cluster_62  = listing "Lexicon's properties"
     MuFIL                     `noun`    {- mugiyb -}           [ unwords [ "grass", "widow" ] ],
 
     MutaFaCCiL                `noun`    {- mutagay~ib -}       [ "absent" ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "absent" ]
-                              `plural`     MutaFaCCiL |< At,
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---",
 
     MuFtAL                    `noun`    {- mugotAb -}          [ "slandered", unwords [ "gossip", "monger" ] ]
-                              `plural`     MuFtAL |< Un,
-
-    MuFtAL |< aT              `noun`    {- DERIVED -}          [ "slandered", unwords [ "gossip", "monger" ] ]
-                              `plural`     MuFtAL |< At ]
+                              `plural`     MuFtAL |< Un
+    `derives` "------F---" ]
 
 
 cluster_63  = listing "Lexicon's properties"
@@ -240,10 +236,8 @@ cluster_65  = listing "Lexicon's properties"
  |> ".g y r" <| [
 
     MuFIL                     `noun`    {- mugiyr -}           [ "raider", "assailant" ]
-                              `plural`     MuFIL |< Un,
-
-    MuFIL |< aT               `noun`    {- DERIVED -}          [ "raider", "assailant" ]
-                              `plural`     MuFIL |< At,
+                              `plural`     MuFIL |< Un
+    `derives` "------F---",
 
     FaCL                      `part`    {- gayor -}            [ "not", "other" ],
 
@@ -287,10 +281,8 @@ cluster_65  = listing "Lexicon's properties"
     MuFACiL                   `adj`     {- mugAyir -}          [ unwords [ "different", "from" ], unwords [ "competing", "with" ], unwords [ "at", "odds", "with" ] ],
 
     MutaFaCCiL                `noun`    {- mutagay~ir -}       [ "changing", "alternating" ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "changing", "alternating" ]
-                              `plural`     MutaFaCCiL |< At,
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---",
 
     MutaFACiL                 `adj`     {- mutagAyir -}        [ "differing", "heterogeneous" ] ]
 
@@ -361,10 +353,8 @@ cluster_67  = listing "Lexicon's properties"
     FaCAL |< Iy               `adj`     {- gazAliy~ -}         [ "Ghazali" ],
 
     FaCCAL                    `noun`    {- gaz~Al -}           [ unwords [ "spinner", "of", "yarn" ] ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "spinner", "of", "yarn" ] ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL |< aT              `noun`    {- gaz~Alap -}         [ "spider" ],
 
@@ -379,10 +369,8 @@ cluster_67  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     MuFACiL                   `noun`    {- mugAzil -}          [ "flirting", "dallying" ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "flirting", "dallying" ]
-                              `plural`     MuFACiL |< At ]
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---" ]
 
 
 cluster_68  = listing "Lexicon's properties"
@@ -396,7 +384,8 @@ cluster_68  = listing "Lexicon's properties"
     FaCL                      `noun`    {- gazor -}            [ "abundance", unwords [ "lavish", "amount" ] ],
 
     FaCIL                     `noun`    {- gaziyr -}           [ "abundant", "ample" ]
-                              `plural`     FiCAL,
+                              `plural`     FiCAL
+    `derives` "------F---",
 
     FaCAL |< aT               `noun`    {- gazArap -}          [ "abundance", unwords [ "lavish", "amount" ] ],
 

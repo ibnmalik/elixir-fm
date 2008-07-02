@@ -257,10 +257,8 @@ cluster_5   = listing "Lexicon's properties"
     FuCAL |< aT               `noun`    {- ku$AHap -}          [ unwords [ "secret", "enmity" ], "grudge" ],
 
     FACiL                     `noun`    {- kA$iH -}            [ unwords [ "secret", "enemy" ] ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ unwords [ "secret", "enemy" ] ]
-                              `plural`     FACiL |< At,
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
 
     FACiL                     `adj`     {- kA$iH -}            [ unwords [ "harboring", "a", "grudge" ] ] ]
 
@@ -332,26 +330,23 @@ cluster_6   = listing "Lexicon's properties"
     IstiFCAL |< Iy            `adj`     {- Aisotiko$Afiy~ -}   [ "reconnaissance" ],
 
     FACiL                     `noun`    {- kA$if -}            [ "examiner", "inspector" ]
-                              `plural`     FaCaL |< aT,
+                              `plural`     FaCaL |< aT
+    `derives` "------F---",
 
     FACiL                     `noun`    {- kA$if -}            [ "detector" ],
 
     MaFCUL                    `adj`     {- mako$uwf -}         [ unwords [ "open", "-", "air" ], "exposed" ],
 
     MuFtaCiL                  `noun`    {- mukota$if -}        [ "discoverer", "explorer" ]
-                              `plural`     MuFtaCiL |< Un,
-
-    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "discoverer", "explorer" ]
-                              `plural`     MuFtaCiL |< At,
+                              `plural`     MuFtaCiL |< Un
+    `derives` "------F---",
 
     MuFtaCaL                  `noun`    {- mukota$af -}        [ "discovery" ]
                               `plural`     MuFtaCaL |< At,
 
     MustaFCiL                 `noun`    {- musotako$if -}      [ "discoverer", "explorer" ]
-                              `plural`     MustaFCiL |< Un,
-
-    MustaFCiL |< aT           `noun`    {- DERIVED -}          [ "discoverer", "explorer" ]
-                              `plural`     MustaFCiL |< At ]
+                              `plural`     MustaFCiL |< Un
+    `derives` "------F---" ]
 
 
 cluster_7   = listing "Lexicon's properties"
@@ -434,10 +429,8 @@ cluster_8   = listing "Lexicon's properties"
     FaCUL                     `adj`     {- ka*uwb -}           [ "liar" ],
 
     FaCCAL                    `noun`    {- ka*~Ab -}           [ "liar" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "liar" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     HuFCUL |< aT              `noun`    {- Ouko*uwbap -}       [ "lie" ]
                               `plural`     HaFACIL,
@@ -448,10 +441,8 @@ cluster_8   = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     FACiL                     `noun`    {- kA*ib -}            [ "liar", "lying" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "liar", "lying" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
 
     FACiL                     `adj`     {- kA*ib -}            [ "false", "untrue" ],
 
@@ -559,10 +550,8 @@ cluster_10  = listing "Lexicon's properties"
 
     FaCIL                     `adv`     {- kaviyr -}           [ "many", "much", "numerous", unwords [ "a", "lot" ], "very" ]
                               `plural`     FaCIL |< Un
-                              `plural`     FiCAL,
-
-    FaCIL |< aT               `adv`     {- DERIVED -}          [ "many", "much", "numerous", unwords [ "a", "lot" ], "very" ]
-                              `plural`     FaCIL |< At,
+                              `plural`     FiCAL
+    `derives` "------F---",
 
     HaFCaL |< Iy |< aT        `noun`    {- Oakovariy~ap -}     [ "majority" ],
 
@@ -578,10 +567,8 @@ cluster_10  = listing "Lexicon's properties"
                               `plural`     TaFACuL |< At,
 
     MuFCiL                    `noun`    {- mukovir -}          [ "wealthy" ]
-                              `plural`     MuFCiL |< Un,
-
-    MuFCiL |< aT              `noun`    {- DERIVED -}          [ "wealthy" ]
-                              `plural`     MuFCiL |< At,
+                              `plural`     MuFCiL |< Un
+    `derives` "------F---",
 
     MutaFaCCiL                `adj`     {- mutakav~ir -}       [ "pluralistic" ],
 

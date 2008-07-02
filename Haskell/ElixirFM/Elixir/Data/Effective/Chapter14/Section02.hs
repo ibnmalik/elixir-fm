@@ -30,7 +30,8 @@ cluster_21  = listing "Lexicon's properties"
     FA'iL                     `noun`    {- SA}ig -}            [ "jeweler" ]
                               `plural`     FuyyAL
                               `plural`     FUCAL
-                              `plural`     FAL |< aT,
+                              `plural`     FAL |< aT
+    `derives` "------F---",
 
     MaFUL |< aT               `noun`    {- maSuwgap -}         [ "jewel", "jewelry" ]
                               `plural`     MaFUL |< At ]
@@ -76,10 +77,8 @@ cluster_22  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     MutaFaCCiL                `noun`    {- mutaSaw~if -}       [ "Sufi", unwords [ "Muslim", "mystic" ] ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "Sufi", unwords [ "Muslim", "mystic" ] ]
-                              `plural`     MutaFaCCiL |< At ]
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---" ]
 
  |> ".s w m" <| [
 
@@ -150,10 +149,8 @@ cluster_23  = listing "Lexicon's properties"
                               `plural`     TaFACIL,
 
     MuFaCCiL                  `noun`    {- muSaw~ir -}         [ "photographer" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "photographer" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCiL                  `noun`    {- muSaw~ir -}         [ "Musawwir" ],
 
@@ -260,7 +257,8 @@ cluster_25  = listing "Lexicon's properties"
  |> ".s y r f" <| [
 
     KaRDaS |< Iy              `noun`    {- Sayorafiy~ -}       [ unwords [ "money", "changer" ], "cashier" ]
-                              `plural`     KaRADiS |< aT ]
+                              `plural`     KaRADiS |< aT
+    `derives` "------F---" ]
 
  |> ".sUdA" <| [
 

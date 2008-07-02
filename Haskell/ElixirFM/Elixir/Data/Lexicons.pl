@@ -513,7 +513,7 @@ sub showEntry ($) {
 
             my @types = keys %{$entry->{'types'}->{$form}};
 
-            if ($entry->{'entity'} ne 'adj' and grep { /all(?:_|$)/ } @types) {
+            if ($entry->{'entity'} ne 'adj' and grep { /all(?:_|$)/ || /\/ap(?:_|$)/ } @types) {
         
                 $clone->{'morphs'} = $entry->{'morphs'} . ' |< aT';
                 $clone->{'plural'} = $entry->{'morphs'} . ' |< At';
@@ -521,16 +521,23 @@ sub showEntry ($) {
                 $clone->{$_} = $entry->{$_} foreach 'entity', 'glosses';                
             }
         
+            @types = grep { not /\/ap(?:_|$)/ } @types;
+            
+            next unless @types;
+        
             my $suffix = '';
 
             if (grep { /iyn(?:_|$)/ || /all(?:_|$)/ } @types) {
 
                 $suffix .= ' |< Un';
             }
-            else {
+            elsif (grep { /At(?:_|$)/ } @types) {
 
-                $suffix .= ' |< At' if grep { /At(?:_|$)/ } @types;
-                $suffix .= ' |< aT' if grep { /ap(?:_|$)/ } @types;
+                $suffix .= ' |< At';
+            }
+            elsif (grep { /ap(?:_|$)/ } @types) {   # N/ap excluded #
+            
+                $suffix .= ' |< aT';
             }
 
             my $grep = grep { /^N\/At(?:_|$)/ } @types;
@@ -562,9 +569,7 @@ sub showEntry ($) {
         }
     }
 
-    my @return = ();
-    
-    push @return, sprintf "%s    %-25s %-9s %-22s %s",
+    return sprintf "%s    %-25s %-9s %-22s %s%s",
 
                    (! exists $options->{'y'} ? '' :
 
@@ -588,24 +593,9 @@ sub showEntry ($) {
                    (@{$plural} > 0 ? map { '   `plural`     ' . $_ } @{$plural} : ()),
 
                    (@{$others} > 0 ? '{- `others`  [ ' .
-                            (join ", ", map { '"' . $_ . '"' } @{$others}) . ' ] -}' : ()));
-
-    push @return, sprintf "%s    %-25s %-9s %-22s %s", '',
-
-                   $clone->{'morphs'}, '`' . $clone->{'entity'} . '`',
-
-                   '{- ' . escape('DERIVED') . ' -}',
-
-                   (join "\n" . ' ' x 27,
-
-                   '[ ' . (exists $options->{'e'} ? '' :
-                            join ", ", map { showGloss($_, $clone->{'morphs'}) } @{$clone->{'glosses'}}) . ' ]',
-
-                   '   `plural`     ' . $clone->{'plural'})
-
-                   if defined $clone;
-
-    return @return;
+                            (join ", ", map { '"' . $_ . '"' } @{$others}) . ' ] -}' : ())),
+                            
+                   (defined $clone ? "\n" . '    `derives` "------F---"': '');
 }
 
 

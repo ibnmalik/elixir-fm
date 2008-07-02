@@ -19,7 +19,8 @@ cluster_1   = listing "Lexicon's properties"
     FACiL                     `noun`    {- SA}ig -}            [ "jeweler" ]
                               `plural`     FuyyAL
                               `plural`     FAL |< aT
-                           {- `others`  [ ".suwwA.g N" ] -} ]
+                           {- `others`  [ ".suwwA.g N" ] -}
+    `derives` "------F---" ]
 
  |> ".s ' .h" <| [
 
@@ -61,7 +62,8 @@ cluster_1   = listing "Lexicon's properties"
     FiCaL                     `noun`    {- Sigar -}            [ "youth", "infancy" ],
 
     FaCIL                     `noun`    {- Sagiyr -}           [ "small", "young" ]
-                              `plural`     FiCAL,
+                              `plural`     FiCAL
+    `derives` "------F---",
 
     HaFCaL                    `adj`     {- OaSogar -}          [ unwords [ "smaller", "/", "smallest" ], unwords [ "younger", "/", "youngest" ], "minor" ]
                               `plural`     FuCLY |< At,
@@ -122,11 +124,13 @@ cluster_2   = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- SAHib -}            [ "owner", "originator" ]
                               `plural`     FuCLAn
-                              `plural`     HaFCAL,
+                              `plural`     HaFCAL
+    `derives` "------F---",
 
     FACiL                     `noun`    {- SAHib -}            [ "friend", "companion" ]
                               `plural`     FuCLAn
-                              `plural`     HaFCAL,
+                              `plural`     HaFCAL
+    `derives` "------F---",
 
     MaFCUL                    `adj`     {- maSoHuwb -}         [ "accompanied" ] ]
 
@@ -142,20 +146,16 @@ cluster_3   = listing "Lexicon's properties"
     FuCuL |< Iy               `adj`     {- SuHufiy~ -}         [ "journalistic", "press", "newspaper" ],
 
     FuCuL |< Iy               `noun`    {- SuHufiy~ -}         [ "journalist", "reporter" ]
-                              `plural`     FuCuL |< Iy |< Un,
-
-    FuCuL |< Iy |< aT         `noun`    {- DERIVED -}          [ "journalist", "reporter" ]
-                              `plural`     FuCuL |< Iy |< At,
+                              `plural`     FuCuL |< Iy |< Un
+    `derives` "------F---",
 
     FaCAL |< aT               `noun`    {- SaHAfap -}          [ "journalism", "press" ],
 
     FaCAL |< Iy               `adj`     {- SaHAfiy~ -}         [ "journalistic", "press" ],
 
     FaCAL |< Iy               `noun`    {- SaHAfiy~ -}         [ "journalist", "reporter" ]
-                              `plural`     FaCAL |< Iy |< Un,
-
-    FaCAL |< Iy |< aT         `noun`    {- DERIVED -}          [ "journalist", "reporter" ]
-                              `plural`     FaCAL |< Iy |< At,
+                              `plural`     FaCAL |< Iy |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- SaH~Af -}           [ "Sahhaf" ],
 
@@ -426,7 +426,8 @@ cluster_8   = listing "Lexicon's properties"
     FaCIL                     `noun`    {- Sadiyq -}           [ "friend" ]
                               `plural`     FuCaLA'
                               `plural`     FuCLAn
-                              `plural`     HaFCiLA',
+                              `plural`     HaFCiLA'
+    `derives` "------F---",
 
     FiCCIL                    `noun`    {- Sid~iyq -}          [ "Siddiq" ],
 
@@ -833,10 +834,8 @@ cluster_16  = listing "Lexicon's properties"
     MuFaCCiL                  `adj`     {- muSam~im -}         [ "determined", "resolute" ],
 
     MuFaCCiL                  `noun`    {- muSam~im -}         [ "designer", "stylist" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "designer", "stylist" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCaL                  `adj`     {- muSam~am -}         [ "designed", "resolved" ] ]
 
@@ -882,10 +881,8 @@ cluster_17  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- SAniE -}            [ "manufacturer", "producer", "artisan" ]
                               `plural`     FACiL |< Un
-                              `plural`     FuCCAL,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "manufacturer", "producer", "artisan" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FuCCAL
+    `derives` "------F---",
 
     FACiL                     `adj`     {- SAniE -}            [ "manufacturing", "producing" ],
 
@@ -895,10 +892,8 @@ cluster_17  = listing "Lexicon's properties"
                               `plural`     MaFCUL |< At,
 
     MuFaCCiL                  `noun`    {- muSan~iE -}         [ "manufacturer", "designer" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "manufacturer", "designer" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCaL                  `adj`     {- muSan~aE -}         [ "processed", "manufactured", "designed" ],
 
@@ -1038,10 +1033,8 @@ cluster_20  = listing "Lexicon's properties"
     FiCL                      `noun`    {- Sirof -}            [ "mere", "pure" ],
 
     FaCCAL                    `noun`    {- Sar~Af -}           [ unwords [ "money", "changer" ], "cashier" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "money", "changer" ], "cashier" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     MaFCiL                    `noun`    {- maSorif -}          [ "bank" ]
                               `plural`     MaFACiL,
@@ -1058,7 +1051,8 @@ cluster_20  = listing "Lexicon's properties"
                               `plural`     InFiCAL |< At,
 
     MaFCUL                    `noun`    {- maSoruwf -}         [ "expenditure", "expense" ]
-                              `plural`     MaFACIL ]
+                              `plural`     MaFACIL
+    `derives` "------F---" ]
 
  |> ".s r m" <| [
 

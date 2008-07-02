@@ -291,10 +291,8 @@ cluster_5   = listing "Lexicon's properties"
     FACL |< aT                `noun`    {- DAl~ap -}           [ "ambition", "objective" ],
 
     MuFaCCiL                  `noun`    {- muDal~il -}         [ "misleading", "deceptive" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "misleading", "deceptive" ]
-                              `plural`     MuFaCCiL |< At ]
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---" ]
 
  |> ".d m .h l" <| [
 
@@ -442,10 +440,8 @@ cluster_8   = listing "Lexicon's properties"
     MuFACaL |< aT             `noun`    {- muDArabap -}        [ "competition" ],
 
     MuFACiL                   `noun`    {- muDArib -}          [ "speculators" ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "speculators" ]
-                              `plural`     MuFACiL |< At,
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---",
 
     HiFCAL                    `noun`    {- IiDorAb -}          [ "strike", "stoppage" ]
                               `plural`     HiFCAL |< At,
@@ -454,19 +450,15 @@ cluster_8   = listing "Lexicon's properties"
                               `plural`     TaFACuL |< At,
 
     MutaFACiL                 `noun`    {- mutaDArib -}        [ "conflicting", "contradictory" ]
-                              `plural`     MutaFACiL |< Un,
-
-    MutaFACiL |< aT           `noun`    {- DERIVED -}          [ "conflicting", "contradictory" ]
-                              `plural`     MutaFACiL |< At,
+                              `plural`     MutaFACiL |< Un
+    `derives` "------F---",
 
     IFtiCAL                   `noun`    {- AiDoTirAb -}        [ "disturbance", "agitation", "disorder" ]
                               `plural`     IFtiCAL |< At,
 
     MuFtaCiL                  `noun`    {- muDoTarib -}        [ "disturbed", "agitated", "disrupted" ]
-                              `plural`     MuFtaCiL |< Un,
-
-    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "disturbed", "agitated", "disrupted" ]
-                              `plural`     MuFtaCiL |< At ]
+                              `plural`     MuFtaCiL |< Un
+    `derives` "------F---" ]
 
 
 cluster_9   = listing "Lexicon's properties"
@@ -624,10 +616,8 @@ cluster_11  = listing "Lexicon's properties"
     HiFAL |< Iy               `adj`     {- IiDAfiy~ -}         [ "additional", "supplementary" ],
 
     MuFIL                     `noun`    {- muDiyf -}           [ "host", "steward" ]
-                              `plural`     MuFIL |< Un,
-
-    MuFIL |< aT               `noun`    {- DERIVED -}          [ "host", "steward" ]
-                              `plural`     MuFIL |< At,
+                              `plural`     MuFIL |< Un
+    `derives` "------F---",
 
     MuFAL                     `adj`     {- muDAf -}            [ "added" ],
 

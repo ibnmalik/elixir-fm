@@ -29,7 +29,8 @@ cluster_41  = listing "Lexicon's properties"
     FuCUL                     `noun`    {- kumuwn -}           [ "latent", "latency" ],
 
     FaCIL                     `noun`    {- kamiyn -}           [ "hidden", "ambush" ]
-                              `plural`     FuCaLA',
+                              `plural`     FuCaLA'
+    `derives` "------F---",
 
     MaFCaL                    `noun`    {- makoman -}          [ "ambush" ]
                               `plural`     MaFACiL,
@@ -266,10 +267,8 @@ cluster_45  = listing "Lexicon's properties"
     FaCL                      `noun`    {- kanos -}            [ "sweeping" ],
 
     FaCCAL                    `noun`    {- kan~As -}           [ unwords [ "street", "sweep" ], "sweeper" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "street", "sweep" ], "sweeper" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FuCAL |< aT               `noun`    {- kunAsap -}          [ "sweepings", "rubbish" ],
 
@@ -357,10 +356,8 @@ cluster_46  = listing "Lexicon's properties"
     MuFtaCiL                  `adj`     {- mukotaniz -}        [ "firm", "sturdy" ],
 
     MuFtaCiL                  `noun`    {- mukotaniz -}        [ "gathering", "amassing" ]
-                              `plural`     MuFtaCiL |< Un,
-
-    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "gathering", "amassing" ]
-                              `plural`     MuFtaCiL |< At,
+                              `plural`     MuFtaCiL |< Un
+    `derives` "------F---",
 
     MuFtaCaL                  `adj`     {- mukotanaz -}        [ "accumulated", "amassed" ] ]
 
@@ -734,10 +731,8 @@ cluster_53  = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- kariymap -}         [ "Karima", "Kareema" ],
 
     FaCCAL                    `noun`    {- kar~Am -}           [ "winegrower", "vinedresser" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "winegrower", "vinedresser" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     HaFCaL                    `noun`    {- Oakoram -}          [ "Akram" ],
 
@@ -1037,7 +1032,8 @@ cluster_59  = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- takoriyz -}         [ "consecration", "benediction" ]
                               `plural`     TaFACIL,
 
-    FACiL                     `noun`    {- kAriz -}            [ "preacher" ],
+    FACiL                     `noun`    {- kAriz -}            [ "preacher" ]
+    `derives` "------F---",
 
     FaCaL                     `noun`    {- karaz -}            [ "cherry" ]
                               `plural`     FaCaL |< At,
@@ -1077,7 +1073,8 @@ cluster_60  = listing "Lexicon's properties"
     FuCAL |< aT               `noun`    {- kusAHap -}          [ "rubbish", "sweepings" ],
 
     FaCIL                     `noun`    {- kasiyH -}           [ "lame", "crippled" ]
-                              `plural`     HaFCaL,
+                              `plural`     HaFCaL
+    `derives` "------F---",
 
     MiFCaL |< aT              `noun`    {- mikosaHap -}        [ "broom", "sweeper" ],
 
@@ -1090,10 +1087,8 @@ cluster_60  = listing "Lexicon's properties"
                               `plural`     FACiL |< At,
 
     MuFaCCaL                  `noun`    {- mukas~aH -}         [ "crippled", "lame" ]
-                              `plural`     MuFaCCaL |< Un,
-
-    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "crippled", "lame" ]
-                              `plural`     MuFaCCaL |< At ]
+                              `plural`     MuFaCCaL |< Un
+    `derives` "------F---" ]
 
  |> "k s `" <| [
 

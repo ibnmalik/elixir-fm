@@ -7813,6 +7813,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        '.taliyq' => {
+          'N/ap' => 1
         }
       },
       'entry' => '.taliyq',
@@ -7827,6 +7830,9 @@ $Lexicon = {
       'patterns' => {
         '.tulaqA\'' => [
           'FuCaLA\''
+        ],
+        '.taliyq' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -10082,6 +10088,9 @@ $Lexicon = {
       'types' => {
         '\'a.thAr' => {
           'N' => 1
+        },
+        '.tAhir' => {
+          'N/ap' => 1
         }
       },
       'entry' => '.tAhir',
@@ -10094,6 +10103,9 @@ $Lexicon = {
       'patterns' => {
         '\'a.thAr' => [
           'HaFCAL'
+        ],
+        '.tAhir' => [
+          'FACiL'
         ]
       },
       'index' => '2',
@@ -10481,6 +10493,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        '.tabiyb' => {
+          'N/ap' => 1
+        },
         '\'a.tibb' => {
           'Nap' => 1
         },
@@ -10501,6 +10516,9 @@ $Lexicon = {
         'OaTib~  Nap     physicians;doctors'
       ],
       'patterns' => {
+        '.tabiyb' => [
+          'FaCIL'
+        ],
         '\'a.tibb' => [
           'HaFiCL'
         ],
@@ -12361,6 +12379,9 @@ $Lexicon = {
         },
         '.talab' => {
           'Nap' => 1
+        },
+        '.tAlib' => {
+          'N/ap' => 1
         }
       },
       'entry' => '.tAlib',
@@ -12377,6 +12398,9 @@ $Lexicon = {
         ],
         '.talab' => [
           'FaCaL'
+        ],
+        '.tAlib' => [
+          'FACiL'
         ]
       },
       'index' => '1',
@@ -13245,14 +13269,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '.tA\'i`' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => '.tA\'i`',
       'form' => '.tA\'i`',
       'lines' => [
         ';; TA}iE_1',
         'TA}iE   N/ap    compliant     [[TA}iE/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.tA\'i`' => [
+          'FA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FA\'iL',
@@ -14679,6 +14711,9 @@ $Lexicon = {
       'types' => {
         '.tiwAl' => {
           'N' => 1
+        },
+        '.tawiyl' => {
+          'N/ap' => 1
         }
       },
       'entry' => '.tawiyl',
@@ -14691,6 +14726,9 @@ $Lexicon = {
       'patterns' => {
         '.tiwAl' => [
           'FiCAL'
+        ],
+        '.tawiyl' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -18124,7 +18162,11 @@ $Lexicon = {
       'entry' => '.tA\'i`',
       'form' => '.tA\'i`',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '.tA\'i`' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FACiL',
@@ -19468,7 +19510,11 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '.tariyd' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => '.tariyd',
       'form' => '.tariyd',
       'lines' => [
@@ -19476,7 +19522,11 @@ $Lexicon = {
         'Tariyd  N/ap    exiled;evicted;pariah     [[Tariyd/ADJ]]',
         'Tariyd  NAn_Nayn        night and day'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.tariyd' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -20169,6 +20219,9 @@ $Lexicon = {
         },
         '.tar.hA' => {
           'Nhy' => 1
+        },
+        '.tariy.h' => {
+          'N/ap' => 1
         }
       },
       'entry' => '.tariy.h',
@@ -20183,7 +20236,10 @@ $Lexicon = {
         '.tar.hY' => [
           'FaCLY'
         ],
-        '.tar.hA' => []
+        '.tar.hA' => [],
+        '.tariy.h' => [
+          'FaCIL'
+        ]
       },
       'index' => '1',
       'entity' => 'adj',
@@ -20202,6 +20258,9 @@ $Lexicon = {
         },
         '.tar.hA' => {
           'Nhy' => 1
+        },
+        '.tariy.h' => {
+          'N/ap' => 1
         }
       },
       'entry' => '.tariy.h',
@@ -20216,7 +20275,10 @@ $Lexicon = {
         '.tar.hY' => [
           'FaCLY'
         ],
-        '.tar.hA' => []
+        '.tar.hA' => [],
+        '.tariy.h' => [
+          'FaCIL'
+        ]
       },
       'index' => '2',
       'entity' => 'adj',
@@ -21608,6 +21670,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        '.tAli`' => {
+          'N/ap' => 1
+        },
         '.tawAli`' => {
           'Ndip' => 1
         }
@@ -21620,6 +21685,9 @@ $Lexicon = {
         'TawAliE Ndip    rising;ascending'
       ],
       'patterns' => {
+        '.tAli`' => [
+          'FACiL'
+        ],
         '.tawAli`' => [
           'FawACiL'
         ]

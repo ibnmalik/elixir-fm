@@ -121,7 +121,8 @@ cluster_3   = listing "Lexicon's properties"
 
     FuCL |< Iy                `adj`     {- Zuhoriy~ -}         [ "afternoon", "meridian" ],
 
-    FaCIL                     `noun`    {- Zahiyr -}           [ "assistant", "partisan" ],
+    FaCIL                     `noun`    {- Zahiyr -}           [ "assistant", "partisan" ]
+    `derives` "------F---",
 
     FaCIL |< aT               `noun`    {- Zahiyrap -}         [ "noon", "midday" ],
 
@@ -160,7 +161,8 @@ cluster_3   = listing "Lexicon's properties"
 
     TaFACuL |< Iy             `adj`     {- taZAhuriy~ -}       [ "simulated" ],
 
-    FACiL                     `noun`    {- ZAhir -}            [ "evident", "apparent", "manifest", "visible" ],
+    FACiL                     `noun`    {- ZAhir -}            [ "evident", "apparent", "manifest", "visible" ]
+    `derives` "------F---",
 
     FACiL                     `noun`    {- ZAhir -}            [ "Zahir" ],
 
@@ -178,16 +180,12 @@ cluster_3   = listing "Lexicon's properties"
     FACiL |< At |< Iy         `adj`     {- ZAhirAtiy~ -}       [ "phenomenological" ],
 
     MuFaCCiL                  `noun`    {- muZah~ir -}         [ "endorser" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "endorser" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MutaFACiL                 `noun`    {- mutaZAhir -}        [ "demonstrator" ]
-                              `plural`     MutaFACiL |< Un,
-
-    MutaFACiL |< aT           `noun`    {- DERIVED -}          [ "demonstrator" ]
-                              `plural`     MutaFACiL |< At ]
+                              `plural`     MutaFACiL |< Un
+    `derives` "------F---" ]
 
 
 cluster_4   = listing "Lexicon's properties"
@@ -201,10 +199,8 @@ cluster_4   = listing "Lexicon's properties"
     FaCL                      `noun`    {- ZaloE -}            [ "limping" ],
 
     FACiL                     `noun`    {- ZAliE -}            [ "lame", "limping" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "lame", "limping" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
 
     FuCAL                     `noun`    {- ZulAE -}            [ "rheumatism" ] ]
 
@@ -298,10 +294,8 @@ cluster_5   = listing "Lexicon's properties"
     FACiL                     `noun`    {- ZAlim -}            [ "oppressor", "tyrant" ]
                               `plural`     FuCCAL
                               `plural`     FACiL |< Un
-                              `plural`     FaCaL |< aT,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "oppressor", "tyrant" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FaCaL |< aT
+    `derives` "------F---",
 
     MaFCUL                    `adj`     {- maZoluwm -}         [ "oppressed", unwords [ "treated", "unjustly" ] ],
 
@@ -393,7 +387,8 @@ cluster_7   = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- Zariyf -}           [ "adroit", "elegant", "courteous" ]
                               `plural`     FuCaLA'
-                              `plural`     FaCA'iL,
+                              `plural`     FaCA'iL
+    `derives` "------F---",
 
     FaCIL                     `noun`    {- Zariyf -}           [ "Zarif" ],
 

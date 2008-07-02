@@ -30,10 +30,8 @@ cluster_1   = listing "Lexicon's properties"
  |> "d ' n" <| [
 
     FACiL                     `noun`    {- dA}in -}            [ "creditor", "lender" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "creditor", "lender" ]
-                              `plural`     FACiL |< At ]
+                              `plural`     FACiL |< Un
+    `derives` "------F---" ]
 
  |> "d ' r" <| [
 
@@ -113,10 +111,8 @@ cluster_3   = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- daxiyl -}           [ "foreign", "intruder", "foreigners" ]
                               `plural`     FuCaLA'
-                              `plural`     FaCIL |< Un,
-
-    FaCIL |< aT               `noun`    {- DERIVED -}          [ "foreign", "intruder", "foreigners" ]
-                              `plural`     FaCIL |< At,
+                              `plural`     FaCIL |< Un
+    `derives` "------F---",
 
     FaCIL                     `adj`     {- daxiyl -}           [ "internal", "inner" ],
 
@@ -145,18 +141,14 @@ cluster_3   = listing "Lexicon's properties"
 
     MaFCUL                    `noun`    {- madoxuwl -}         [ "revenue", "income" ]
                               `plural`     MaFACiL
-                              `plural`     MaFCUL |< Un,
-
-    MaFCUL |< aT              `noun`    {- DERIVED -}          [ "revenue", "income" ]
-                              `plural`     MaFCUL |< At,
+                              `plural`     MaFCUL |< Un
+    `derives` "------F---",
 
     MuFCaL                    `noun`    {- mudoxal -}          [ "introduction" ],
 
     MutaFaCCiL                `noun`    {- mutadax~il -}       [ "intervening", "interfering" ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "intervening", "interfering" ]
-                              `plural`     MutaFaCCiL |< At ]
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---" ]
 
 
 cluster_4   = listing "Lexicon's properties"
@@ -172,10 +164,8 @@ cluster_4   = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     MuFaCCiL                  `noun`    {- mudax~in -}         [ "smoker", "smoking" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "smoker", "smoking" ]
-                              `plural`     MuFaCCiL |< At ]
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---" ]
 
  |> "d _t r" <| [
 
@@ -334,10 +324,8 @@ cluster_6   = listing "Lexicon's properties"
                               `plural`     TaFACIL,
 
     MuFaCCiL                  `noun`    {- mudab~ir -}         [ "manager", "organizer" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "manager", "organizer" ]
-                              `plural`     MuFaCCiL |< At ]
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---" ]
 
  |> "d b y" <| [
 
@@ -376,7 +364,8 @@ cluster_7   = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- dufoEap -}          [ unwords [ "class", "(", "alumni", ")" ], unwords [ "group", "(", "graduates", ")" ] ],
 
-    FaCCAL                    `noun`    {- daf~AE -}           [ "propelling", "piston" ],
+    FaCCAL                    `noun`    {- daf~AE -}           [ "propelling", "piston" ]
+    `derives` "------F---",
 
     MiFCaL                    `noun`    {- midofaE -}          [ "cannon", "gun" ]
                               `plural`     MaFACiL,
@@ -399,10 +388,8 @@ cluster_7   = listing "Lexicon's properties"
     FACiL                     `noun`    {- dAfiE -}            [ "Dafie" ],
 
     FACiL                     `noun`    {- dAfiE -}            [ "payer", "paying" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "payer", "paying" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
 
     MaFCUL                    `noun`    {- madofuwE -}         [ "payment" ]
                               `plural`     MaFCUL |< At,
@@ -410,10 +397,8 @@ cluster_7   = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- madofuwE -}         [ "paid" ],
 
     MuFACiL                   `noun`    {- mudAfiE -}          [ "defender", "advocate" ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "defender", "advocate" ]
-                              `plural`     MuFACiL |< At ]
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---" ]
 
 
 cluster_8   = listing "Lexicon's properties"
@@ -469,7 +454,8 @@ cluster_8   = listing "Lexicon's properties"
 
     HaFCaL                    `verb`    {- Oadoha$ -}          [ "amaze", "surprise" ],
 
-    FaCiL                     `noun`    {- dahi$ -}            [ "surprised", "alarmed" ],
+    FaCiL                     `noun`    {- dahi$ -}            [ "surprised", "alarmed" ]
+    `derives` "------F---",
 
     FaCL |< aT                `noun`    {- daho$ap -}          [ "surprise", "alarm" ],
 
@@ -519,10 +505,8 @@ cluster_9   = listing "Lexicon's properties"
                               `plural`     TaKaRDuS |< At,
 
     MutaKaRDiS                `noun`    {- mutadahowir -}      [ "deteriorating", "declining" ]
-                              `plural`     MutaKaRDiS |< Un,
-
-    MutaKaRDiS |< aT          `noun`    {- DERIVED -}          [ "deteriorating", "declining" ]
-                              `plural`     MutaKaRDiS |< At ]
+                              `plural`     MutaKaRDiS |< Un
+    `derives` "------F---" ]
 
  |> "d k n" <| [
 
@@ -532,7 +516,8 @@ cluster_9   = listing "Lexicon's properties"
  |> "d k t r" <| [
 
     KuRDUS                    `noun`    {- dukotuwr -}         [ "doctor" ]
-                              `plural`     KaRADiS |< aT ]
+                              `plural`     KaRADiS |< aT
+    `derives` "------F---" ]
 
  |> "d l '" <| [
 
@@ -585,7 +570,8 @@ cluster_10  = listing "Lexicon's properties"
                               `plural`     HaFiCL |< aT,
 
     FaCIL                     `noun`    {- daliyl -}           [ "indicator", "guide" ]
-                              `plural`     FaCA'iL,
+                              `plural`     FaCA'iL
+    `derives` "------F---",
 
     FaCAL |< aT               `noun`    {- dalAlap -}          [ "meaning", "indication" ],
 
@@ -829,7 +815,8 @@ cluster_14  = listing "Lexicon's properties"
 
     MuFaCCaL                  `adj`     {- mudar~aj -}         [ "graded", "terraced" ],
 
-    MuFaCCaL                  `noun`    {- mudar~aj -}         [ "amphitheater", "bleachers" ],
+    MuFaCCaL                  `noun`    {- mudar~aj -}         [ "amphitheater", "bleachers" ]
+    `derives` "------F---",
 
     MuFCaL                    `adj`     {- mudoraj -}          [ "inserted", "included" ] ]
 
@@ -863,19 +850,15 @@ cluster_15  = listing "Lexicon's properties"
     TaFCIL |< Iy              `adj`     {- tadoriybiy~ -}      [ "training", "coaching", "practice" ],
 
     MuFaCCiL                  `noun`    {- mudar~ib -}         [ "trainer", "coach", "instructor" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "trainer", "coach", "instructor" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     TaFaCCuL                  `noun`    {- tadar~ub -}         [ unwords [ "receive", "training" ], unwords [ "be", "trained" ], "practice" ]
                               `plural`     TaFaCCuL |< At,
 
     MutaFaCCiL                `noun`    {- mutadar~ib -}       [ "trainee" ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "trainee" ]
-                              `plural`     MutaFaCCiL |< At ]
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---" ]
 
  |> "d r d ^s" <| [
 
@@ -895,10 +878,8 @@ cluster_15  = listing "Lexicon's properties"
                               `plural`     HiFCAL |< At,
 
     MuFCiL                    `noun`    {- mudorik -}          [ "mature", "rational" ]
-                              `plural`     MuFCiL |< Un,
-
-    MuFCiL |< aT              `noun`    {- DERIVED -}          [ "mature", "rational" ]
-                              `plural`     MuFCiL |< At,
+                              `plural`     MuFCiL |< Un
+    `derives` "------F---",
 
     FaCiL                     `noun`    {- darik -}            [ "derrick", unwords [ "derrick", "crane" ] ] ]
 
@@ -947,18 +928,14 @@ cluster_16  = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     FACiL                     `noun`    {- dAris -}            [ "student", "studying", "researcher" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "student", "studying", "researcher" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
 
     MaFCUL                    `adj`     {- madoruws -}         [ "studied", "investigated" ],
 
     MuFaCCiL                  `noun`    {- mudar~is -}         [ "instructor", "teacher" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "instructor", "teacher" ]
-                              `plural`     MuFaCCiL |< At ]
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---" ]
 
  |> "d r w ^s" <| [
 
@@ -1056,10 +1033,8 @@ cluster_18  = listing "Lexicon's properties"
     TaFACuL |< Iy             `adj`     {- tadAwuliy~ -}       [ "circulation" ],
 
     MutaFACaL                 `noun`    {- mutadAwal -}        [ "circulating", "common", "prevailing" ]
-                              `plural`     MutaFACaL |< Un,
-
-    MutaFACaL |< aT           `noun`    {- DERIVED -}          [ "circulating", "common", "prevailing" ]
-                              `plural`     MutaFACaL |< At,
+                              `plural`     MutaFACaL |< Un
+    `derives` "------F---",
 
     FULAn                     `noun`    {- duwlAn -}           [ "Dolan" ] ]
 
@@ -1107,16 +1082,12 @@ cluster_19  = listing "Lexicon's properties"
     FA'iL                     `noun`    {- dA}im -}            [ "Da'im" ],
 
     MustaFIL                  `noun`    {- musotadiym -}       [ "continuous", "standing" ]
-                              `plural`     MustaFIL |< Un,
-
-    MustaFIL |< aT            `noun`    {- DERIVED -}          [ "continuous", "standing" ]
-                              `plural`     MustaFIL |< At,
+                              `plural`     MustaFIL |< Un
+    `derives` "------F---",
 
     MustaFAL                  `noun`    {- musotadAm -}        [ "sustained", "lasting", "uniterrupted", "permanent", "secure" ]
-                              `plural`     MustaFAL |< Un,
-
-    MustaFAL |< aT            `noun`    {- DERIVED -}          [ "sustained", "lasting", "uniterrupted", "permanent", "secure" ]
-                              `plural`     MustaFAL |< At,
+                              `plural`     MustaFAL |< Un
+    `derives` "------F---",
 
     FayLUL |< aT              `noun`    {- dayomuwmap -}       [ "duration" ] ]
 
@@ -1134,10 +1105,8 @@ cluster_19  = listing "Lexicon's properties"
     FICAL |< Iy               `adj`     {- diywAniy~ -}        [ "administrative", "official" ],
 
     MuFaCCaL                  `noun`    {- mudaw~an -}         [ "record", "entry", "document" ]
-                              `plural`     MuFaCCaL |< Un,
-
-    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "record", "entry", "document" ]
-                              `plural`     MuFaCCaL |< At,
+                              `plural`     MuFaCCaL |< Un
+    `derives` "------F---",
 
     FUL                       `noun`    {- duwn -}             [ "inferior", "poor" ] ]
 
@@ -1211,20 +1180,16 @@ cluster_20  = listing "Lexicon's properties"
 
     MuFIL                     `noun`    {- mudiyr -}           [ "director", "manager", "chief" ]
                               `plural`     MuFIL |< Un
-                           {- `others`  [ "mudarA' Nh N0_Nh Nhy" ] -},
-
-    MuFIL |< aT               `noun`    {- DERIVED -}          [ "director", "manager", "chief" ]
-                              `plural`     MuFIL |< At,
+                           {- `others`  [ "mudarA' Nh N0_Nh Nhy" ] -}
+    `derives` "------F---",
 
     MuFIL |< Iy |< aT         `noun`    {- mudiyriy~ap -}      [ "administration", "management" ],
 
     MuFIL |< Iy |< aT         `noun`    {- mudiyriy~ap -}      [ "district", "province" ],
 
     MustaFIL                  `noun`    {- musotadiyr -}       [ "round", "circular" ]
-                              `plural`     MustaFIL |< Un,
-
-    MustaFIL |< aT            `noun`    {- DERIVED -}          [ "round", "circular" ]
-                              `plural`     MustaFIL |< At ]
+                              `plural`     MustaFIL |< Un
+    `derives` "------F---" ]
 
 
 cluster_21  = listing "Lexicon's properties"
@@ -1311,10 +1276,8 @@ cluster_22  = listing "Lexicon's properties"
     FACiL                     `noun`    {- dAyim -}            [ "Dayim" ],
 
     MustaFIL                  `noun`    {- musotadiym -}       [ "continuous", "standing" ]
-                              `plural`     MustaFIL |< Un,
-
-    MustaFIL |< aT            `noun`    {- DERIVED -}          [ "continuous", "standing" ]
-                              `plural`     MustaFIL |< At,
+                              `plural`     MustaFIL |< Un
+    `derives` "------F---",
 
     FaCLUL |< aT              `noun`    {- dayomuwmap -}       [ "duration" ] ]
 
@@ -1342,10 +1305,8 @@ cluster_22  = listing "Lexicon's properties"
     IstiFAL |< aT             `noun`    {- AisotidAnap -}      [ unwords [ "incurrence", "of", "debts" ] ],
 
     FA'iL                     `noun`    {- dA}in -}            [ "creditor", "lender" ]
-                              `plural`     FA'iL |< Un,
-
-    FA'iL |< aT               `noun`    {- DERIVED -}          [ "creditor", "lender" ]
-                              `plural`     FA'iL |< At,
+                              `plural`     FA'iL |< Un
+    `derives` "------F---",
 
     MaFIL                     `adj`     {- madiyn -}           [ "owing", "obligated", "debtor" ],
 
@@ -1388,20 +1349,16 @@ cluster_23  = listing "Lexicon's properties"
 
     MuFIL                     `noun`    {- mudiyr -}           [ "director", "manager", "chief" ]
                               `plural`     MuFIL |< Un
-                           {- `others`  [ "mudarA' Nh N0_Nh Nhy" ] -},
-
-    MuFIL |< aT               `noun`    {- DERIVED -}          [ "director", "manager", "chief" ]
-                              `plural`     MuFIL |< At,
+                           {- `others`  [ "mudarA' Nh N0_Nh Nhy" ] -}
+    `derives` "------F---",
 
     MuFIL |< Iy |< aT         `noun`    {- mudiyriy~ap -}      [ "administration", "management" ],
 
     MuFIL |< Iy |< aT         `noun`    {- mudiyriy~ap -}      [ "district", "province" ],
 
     MustaFIL                  `noun`    {- musotadiyr -}       [ "round", "circular" ]
-                              `plural`     MustaFIL |< Un,
-
-    MustaFIL |< aT            `noun`    {- DERIVED -}          [ "round", "circular" ]
-                              `plural`     MustaFIL |< At ]
+                              `plural`     MustaFIL |< Un
+    `derives` "------F---" ]
 
  |> "d y s" <| [
 

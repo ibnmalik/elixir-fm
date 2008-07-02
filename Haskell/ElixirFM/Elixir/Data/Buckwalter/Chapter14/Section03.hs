@@ -187,10 +187,8 @@ cluster_44  = listing "Lexicon's properties"
     MuFaCCiL                  `adj`     {- muSam~im -}         [ "determined", "resolute" ],
 
     MuFaCCiL                  `noun`    {- muSam~im -}         [ "designer", "stylist" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "designer", "stylist" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCaL                  `adj`     {- muSam~am -}         [ "designed", "resolved" ],
 
@@ -309,10 +307,8 @@ cluster_46  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- SAniE -}            [ "manufacturer", "producer", "artisan" ]
                               `plural`     FACiL |< Un
-                              `plural`     FuCCAL,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "manufacturer", "producer", "artisan" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FuCCAL
+    `derives` "------F---",
 
     FACiL                     `adj`     {- SAniE -}            [ "manufacturing", "producing" ],
 
@@ -322,10 +318,8 @@ cluster_46  = listing "Lexicon's properties"
                               `plural`     MaFCUL |< At,
 
     MuFaCCiL                  `noun`    {- muSan~iE -}         [ "manufacturer", "designer" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "manufacturer", "designer" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCaL                  `adj`     {- muSan~aE -}         [ "processed", "manufactured", "designed" ],
 
@@ -383,10 +377,8 @@ cluster_47  = listing "Lexicon's properties"
     TaFCIL |< Iy              `adj`     {- taSoniyfiy~ -}      [ "typological" ],
 
     MuFaCCiL                  `noun`    {- muSan~if -}         [ "compiler", "classifier" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "compiler", "classifier" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCiL |< At            `noun`    {- muSan~ifAt -}       [ unwords [ "file", "holder" ], "binder" ]
                               `plural`     MuFaCCiL |< At,
@@ -540,10 +532,8 @@ cluster_50  = listing "Lexicon's properties"
     FaCL |< Iy                `adj`     {- Saqoriy~ -}         [ unwords [ "falcon", "-", "like" ], unwords [ "hawk", "-", "like" ] ],
 
     FaCCAL                    `noun`    {- Saq~Ar -}           [ "falconer" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "falconer" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FACUL                     `noun`    {- SAquwr -}           [ unwords [ "stone", "ax" ] ],
 
@@ -693,10 +683,8 @@ cluster_53  = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- maSoruwE -}         [ "epileptic", "demented" ],
 
     MuFACiL                   `noun`    {- muSAriE -}          [ "fighter", "combatant", "wrestler" ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "fighter", "combatant", "wrestler" ]
-                              `plural`     MuFACiL |< At ]
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---" ]
 
  |> ".s r b" <| [
 
@@ -746,10 +734,8 @@ cluster_55  = listing "Lexicon's properties"
     FaCIL                     `noun`    {- Sariyf -}           [ "squeaking", "squealing" ],
 
     FaCCAL                    `noun`    {- Sar~Af -}           [ unwords [ "money", "changer" ], "cashier" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "money", "changer" ], "cashier" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCIL |< aT               `noun`    {- Sariyfap -}         [ unwords [ "reed", "-", "mat", "hut" ] ]
                               `plural`     FaCA'iL,
@@ -774,7 +760,8 @@ cluster_55  = listing "Lexicon's properties"
                               `plural`     InFiCAL |< At,
 
     MaFCUL                    `noun`    {- maSoruwf -}         [ "expenditure", "expense" ]
-                              `plural`     MaFACIL,
+                              `plural`     MaFACIL
+    `derives` "------F---",
 
     MutaFaCCiL                `noun`    {- mutaSar~if -}       [ unwords [ "provincial", "governor" ] ],
 
@@ -882,7 +869,8 @@ cluster_57  = listing "Lexicon's properties"
     FA'iL                     `noun`    {- SA}ig -}            [ "jeweler" ]
                               `plural`     FuyyAL
                               `plural`     FUCAL
-                              `plural`     FAL |< aT,
+                              `plural`     FAL |< aT
+    `derives` "------F---",
 
     MaFUL                     `adj`     {- maSuwg -}           [ "fine", "crafted" ],
 
@@ -1031,10 +1019,8 @@ cluster_60  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     MutaFaCCiL                `noun`    {- mutaSaw~if -}       [ "Sufi", unwords [ "Muslim", "mystic" ] ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "Sufi", unwords [ "Muslim", "mystic" ] ]
-                              `plural`     MutaFaCCiL |< At ]
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---" ]
 
 
 section = [ cluster_41,

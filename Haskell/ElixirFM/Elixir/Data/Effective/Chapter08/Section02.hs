@@ -93,10 +93,8 @@ cluster_22  = listing "Lexicon's properties"
     FACiL                     `noun`    {- dAyim -}            [ "Dayim" ],
 
     MustaFIL                  `noun`    {- musotadiym -}       [ "continuous", "standing" ]
-                              `plural`     MustaFIL |< Un,
-
-    MustaFIL |< aT            `noun`    {- DERIVED -}          [ "continuous", "standing" ]
-                              `plural`     MustaFIL |< At,
+                              `plural`     MustaFIL |< Un
+    `derives` "------F---",
 
     FaCLUL |< aT              `noun`    {- dayomuwmap -}       [ "duration" ] ]
 
@@ -124,10 +122,8 @@ cluster_22  = listing "Lexicon's properties"
     IstiFAL |< aT             `noun`    {- AisotidAnap -}      [ unwords [ "incurrence", "of", "debts" ] ],
 
     FA'iL                     `noun`    {- dA}in -}            [ "creditor", "lender" ]
-                              `plural`     FA'iL |< Un,
-
-    FA'iL |< aT               `noun`    {- DERIVED -}          [ "creditor", "lender" ]
-                              `plural`     FA'iL |< At,
+                              `plural`     FA'iL |< Un
+    `derives` "------F---",
 
     MaFIL                     `adj`     {- madiyn -}           [ "owing", "obligated", "debtor" ],
 
@@ -170,20 +166,16 @@ cluster_23  = listing "Lexicon's properties"
 
     MuFIL                     `noun`    {- mudiyr -}           [ "director", "manager", "chief" ]
                               `plural`     MuFIL |< Un
-                           {- `others`  [ "mudarA' Nh N0_Nh Nhy" ] -},
-
-    MuFIL |< aT               `noun`    {- DERIVED -}          [ "director", "manager", "chief" ]
-                              `plural`     MuFIL |< At,
+                           {- `others`  [ "mudarA' Nh N0_Nh Nhy" ] -}
+    `derives` "------F---",
 
     MuFIL |< Iy |< aT         `noun`    {- mudiyriy~ap -}      [ "administration", "management" ],
 
     MuFIL |< Iy |< aT         `noun`    {- mudiyriy~ap -}      [ "district", "province" ],
 
     MustaFIL                  `noun`    {- musotadiyr -}       [ "round", "circular" ]
-                              `plural`     MustaFIL |< Un,
-
-    MustaFIL |< aT            `noun`    {- DERIVED -}          [ "round", "circular" ]
-                              `plural`     MustaFIL |< At ]
+                              `plural`     MustaFIL |< Un
+    `derives` "------F---" ]
 
  |> "d y s" <| [
 

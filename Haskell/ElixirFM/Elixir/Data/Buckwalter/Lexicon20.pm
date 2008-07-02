@@ -1401,6 +1401,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'fa.tiyn' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'fa.tiyn',
@@ -1413,6 +1416,9 @@ $Lexicon = {
         'fuTanA} Nhy     clever'
       ],
       'patterns' => {
+        'fa.tiyn' => [
+          'FaCIL'
+        ],
         'fu.tanA\'' => [
           'FuCaLA\''
         ]
@@ -27161,14 +27167,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'fAtin' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'fAtin',
       'form' => 'fAtin',
       'lines' => [
         ';; fAtin_1',
         'fAtin   N/ap    Fatin'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'fAtin' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -27183,6 +27197,9 @@ $Lexicon = {
       'types' => {
         'fawAtin' => {
           'Ndip' => 1
+        },
+        'fAtin' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'fAtin',
@@ -27195,6 +27212,9 @@ $Lexicon = {
       'patterns' => {
         'fawAtin' => [
           'FawACiL'
+        ],
+        'fAtin' => [
+          'FACiL'
         ]
       },
       'index' => '2',
@@ -31583,6 +31603,9 @@ $Lexicon = {
         },
         'fu^g^gAr' => {
           'N' => 1
+        },
+        'fA^gir' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'fA^gir',
@@ -31599,6 +31622,9 @@ $Lexicon = {
         ],
         'fu^g^gAr' => [
           'FuCCAL'
+        ],
+        'fA^gir' => [
+          'FACiL'
         ]
       },
       'index' => '1',
@@ -38234,6 +38260,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'fahiym' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'fahiym',
@@ -38248,6 +38277,9 @@ $Lexicon = {
       'patterns' => {
         'fuhamA\'' => [
           'FuCaLA\''
+        ],
+        'fahiym' => [
+          'FaCIL'
         ]
       },
       'index' => '2',
@@ -46629,14 +46661,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'faltAn' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'faltAn',
       'form' => 'faltAn',
       'lines' => [
         ';; falotAn_2',
         'falotAn N/ap    wild;outlaw;out of control     [[falotAn/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'faltAn' => [
+          'FaCLAn'
+        ]
+      },
       'index' => '2',
       'entity' => 'adj',
       'morphs' => 'FaCLAn',
@@ -46651,6 +46691,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'fAlit' => {
+          'N/ap' => 1
+        },
         'fulatA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -46667,6 +46710,9 @@ $Lexicon = {
         'fulatA} Nhy     escaped;at large;debauched'
       ],
       'patterns' => {
+        'fAlit' => [
+          'FACiL'
+        ],
         'fulatA\'' => [
           'FuCaLA\''
         ]
@@ -47385,6 +47431,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'faqiyr' => {
+          'N/ap' => 1
+        },
         'fuqarA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -47401,6 +47450,9 @@ $Lexicon = {
         'fuqarA} Nhy     poor;destitute'
       ],
       'patterns' => {
+        'faqiyr' => [
+          'FaCIL'
+        ],
         'fuqarA\'' => [
           'FuCaLA\''
         ]
@@ -47868,6 +47920,9 @@ $Lexicon = {
       'types' => {
         'futtAk' => {
           'N' => 1
+        },
+        'fAtik' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'fAtik',
@@ -47880,6 +47935,9 @@ $Lexicon = {
       'patterns' => {
         'futtAk' => [
           'FuCCAL'
+        ],
+        'fAtik' => [
+          'FACiL'
         ]
       },
       'index' => '1',

@@ -253,6 +253,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'wariy_t' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'wariy_t',
@@ -267,6 +270,9 @@ $Lexicon = {
       'patterns' => {
         'wura_tA\'' => [
           'FuCaLA\''
+        ],
+        'wariy_t' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -1406,6 +1412,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'wakiyl' => {
+          'N/ap' => 1
+        },
         'wukalA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -1422,6 +1431,9 @@ $Lexicon = {
         'wukalA} Nhy     representatives;agents'
       ],
       'patterns' => {
+        'wakiyl' => [
+          'FaCIL'
+        ],
         'wukalA\'' => [
           'FuCaLA\''
         ]
@@ -1978,14 +1990,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'wadiy`' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'wadiy`',
       'form' => 'wadiy`',
       'lines' => [
         ';; wadiyE_1',
         'wadiyE  N/ap    calm;mild-tempered'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'wadiy`' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -4108,6 +4128,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'wafiyy' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'wafiyy',
@@ -4122,6 +4145,9 @@ $Lexicon = {
       'patterns' => {
         '\'awfiyA\'' => [
           'HaFCiLA\''
+        ],
+        'wafiyy' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -12565,6 +12591,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'wA`i.z' => {
+          'N/ap' => 1
+        },
         'wu``A.z' => {
           'N' => 1
         }
@@ -12577,6 +12606,9 @@ $Lexicon = {
         'wuE~AZ  N       preachers'
       ],
       'patterns' => {
+        'wA`i.z' => [
+          'FACiL'
+        ],
         'wu``A.z' => [
           'FuCCAL'
         ]
@@ -17412,6 +17444,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'wa.diy`' => {
+          'N/ap' => 1
+        },
         'wu.da`A\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -17428,6 +17463,9 @@ $Lexicon = {
         'wuDaEA} Nhy     lowly;inferior;humble'
       ],
       'patterns' => {
+        'wa.diy`' => [
+          'FaCIL'
+        ],
         'wu.da`A\'' => [
           'FuCaLA\''
         ]
@@ -18266,14 +18304,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'wa.siyl' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'wa.siyl',
       'form' => 'wa.siyl',
       'lines' => [
         ';; waSiyl_1',
         'waSiyl  N/ap    close friend'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'wa.siyl' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -22822,6 +22868,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'wasiym' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'wasiym',
@@ -22836,6 +22885,9 @@ $Lexicon = {
       'patterns' => {
         'wusamA\'' => [
           'FuCaLA\''
+        ],
+        'wasiym' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -24498,6 +24550,9 @@ $Lexicon = {
       'types' => {
         'wi_tAq' => {
           'N' => 1
+        },
+        'wa_tiyq' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'wa_tiyq',
@@ -24508,6 +24563,9 @@ $Lexicon = {
         'wivAq   N       secure;reliable'
       ],
       'patterns' => {
+        'wa_tiyq' => [
+          'FaCIL'
+        ],
         'wi_tAq' => [
           'FiCAL'
         ]
@@ -26934,6 +26992,9 @@ $Lexicon = {
       'types' => {
         'wuhun' => {
           'N' => 1
+        },
+        'wAhin' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'wAhin',
@@ -26946,6 +27007,9 @@ $Lexicon = {
       'patterns' => {
         'wuhun' => [
           'FuCuL'
+        ],
+        'wAhin' => [
+          'FACiL'
         ]
       },
       'index' => '1',
@@ -31418,6 +31482,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'waziyr' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'waziyr',
@@ -31432,6 +31499,9 @@ $Lexicon = {
       'patterns' => {
         'wuzarA\'' => [
           'FuCaLA\''
+        ],
+        'waziyr' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -37917,6 +37987,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'wa^giyh' => {
+          'N/ap' => 1
+        },
         'wu^gahA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -37933,6 +38006,9 @@ $Lexicon = {
         'wujahA} Nhy     prominent;distinguished;socialites'
       ],
       'patterns' => {
+        'wa^giyh' => [
+          'FaCIL'
+        ],
         'wu^gahA\'' => [
           'FuCaLA\''
         ]
@@ -40666,6 +40742,9 @@ $Lexicon = {
         '\'aw.gAd' => {
           'N' => 1
         },
+        'wa.gd' => {
+          'N/ap' => 1
+        },
         'wu.gdAn' => {
           'N' => 1
         }
@@ -40681,6 +40760,9 @@ $Lexicon = {
       'patterns' => {
         '\'aw.gAd' => [
           'HaFCAL'
+        ],
+        'wa.gd' => [
+          'FaCL'
         ],
         'wu.gdAn' => [
           'FuCLAn'

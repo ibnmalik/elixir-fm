@@ -245,6 +245,9 @@ $Lexicon = {
       'types' => {
         'makar' => {
           'Nap' => 1
+        },
+        'mAkir' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'mAkir',
@@ -257,6 +260,9 @@ $Lexicon = {
       'patterns' => {
         'makar' => [
           'FaCaL'
+        ],
+        'mAkir' => [
+          'FACiL'
         ]
       },
       'index' => '1',
@@ -5281,14 +5287,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mahiyn' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'mahiyn',
       'form' => 'mahiyn',
       'lines' => [
         ';; mahiyn_1',
         'mahiyn  N/ap    despised;contemptible     [[mahiyn/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mahiyn' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -5332,6 +5346,9 @@ $Lexicon = {
       'types' => {
         'muhhAn' => {
           'N' => 1
+        },
+        'mAhin' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'mAhin',
@@ -5344,6 +5361,9 @@ $Lexicon = {
       'patterns' => {
         'muhhAn' => [
           'FuCCAL'
+        ],
+        'mAhin' => [
+          'FACiL'
         ]
       },
       'index' => '1',
@@ -8145,14 +8165,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'maliy.t' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'maliy.t',
       'form' => 'maliy.t',
       'lines' => [
         ';; maliyT_1',
         'maliyT  N/ap    hairless'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'maliy.t' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -11172,6 +11200,9 @@ $Lexicon = {
         },
         'marA.dA' => {
           'Nhy' => 1
+        },
+        'mariy.d' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'mariy.d',
@@ -11191,6 +11222,9 @@ $Lexicon = {
         'mar.dA' => [],
         'mar.dY' => [
           'FaCLY'
+        ],
+        'mariy.d' => [
+          'FaCIL'
         ],
         'marA.dA' => []
       },
@@ -12039,14 +12073,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'ma_tiyl' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'ma_tiyl',
       'form' => 'ma_tiyl',
       'lines' => [
         ';; maviyl_1',
         'maviyl  N/ap    equal;match;peer'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ma_tiyl' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -20527,6 +20569,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'mAruwniyy' => {
+          'N/ap' => 2
+        },
         'mawArin' => {
           'Nap' => 1
         }
@@ -20540,6 +20585,7 @@ $Lexicon = {
         'mawArin Nap     Maronites'
       ],
       'patterns' => {
+        'mAruwniyy' => [],
         'mawArin' => [
           'FawACiL'
         ]
@@ -20818,6 +20864,9 @@ $Lexicon = {
         'maraq' => {
           'Nap' => 1
         },
+        'mAriq' => {
+          'N/ap' => 1
+        },
         'murrAq' => {
           'N' => 1
         }
@@ -20833,6 +20882,9 @@ $Lexicon = {
       'patterns' => {
         'maraq' => [
           'FaCaL'
+        ],
+        'mAriq' => [
+          'FACiL'
         ],
         'murrAq' => [
           'FuCCAL'
@@ -20856,6 +20908,9 @@ $Lexicon = {
         'maraq' => {
           'Nap' => 1
         },
+        'mAriq' => {
+          'N/ap' => 1
+        },
         'murrAq' => {
           'N' => 1
         }
@@ -20871,6 +20926,9 @@ $Lexicon = {
       'patterns' => {
         'maraq' => [
           'FaCaL'
+        ],
+        'mAriq' => [
+          'FACiL'
         ],
         'murrAq' => [
           'FuCCAL'
@@ -21324,6 +21382,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'masiy.h' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'masiy.h',
@@ -21338,6 +21399,9 @@ $Lexicon = {
       'patterns' => {
         'musa.hA\'' => [
           'FuCaLA\''
+        ],
+        'masiy.h' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -23042,6 +23106,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'mAhir' => {
+          'N/ap' => 1
+        },
         'mahar' => {
           'Nap' => 1
         }
@@ -23054,6 +23121,9 @@ $Lexicon = {
         'mahar   Nap     skilful;proficient'
       ],
       'patterns' => {
+        'mAhir' => [
+          'FACiL'
+        ],
         'mahar' => [
           'FaCaL'
         ]
@@ -23342,6 +23412,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'maniy`' => {
+          'N/ap' => 1
+        },
         'muna`A\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -23358,6 +23431,9 @@ $Lexicon = {
         'munaEA} Nhy     impenetrable;well-fortified;invincible'
       ],
       'patterns' => {
+        'maniy`' => [
+          'FaCIL'
+        ],
         'muna`A\'' => [
           'FuCaLA\''
         ]
@@ -24553,6 +24629,9 @@ $Lexicon = {
         },
         'marA.hY' => {
           'N0' => 1
+        },
+        'mari.h' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'mari.h',
@@ -24571,6 +24650,9 @@ $Lexicon = {
           'FaCLY'
         ],
         'marA.hA' => [],
+        'mari.h' => [
+          'FaCiL'
+        ],
         'marA.hY' => [
           'FaCALY'
         ]
@@ -28016,6 +28098,9 @@ $Lexicon = {
         },
         '\'amlA.h' => {
           'N' => 1
+        },
+        'maliy.h' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'maliy.h',
@@ -28029,6 +28114,9 @@ $Lexicon = {
       'patterns' => {
         'milA.h' => [
           'FiCAL'
+        ],
+        'maliy.h' => [
+          'FaCIL'
         ],
         '\'amlA.h' => [
           'HaFCAL'
@@ -30719,6 +30807,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'makiyn' => {
+          'N/ap' => 1
+        },
         'mukanA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -30735,6 +30826,9 @@ $Lexicon = {
         'mukanA} Nhy     strong;influential'
       ],
       'patterns' => {
+        'makiyn' => [
+          'FaCIL'
+        ],
         'mukanA\'' => [
           'FuCaLA\''
         ]
@@ -43151,6 +43245,9 @@ $Lexicon = {
       'types' => {
         'mu^g^gAn' => {
           'N' => 1
+        },
+        'mA^gin' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'mA^gin',
@@ -43163,6 +43260,9 @@ $Lexicon = {
       'patterns' => {
         'mu^g^gAn' => [
           'FuCCAL'
+        ],
+        'mA^gin' => [
+          'FACiL'
         ]
       },
       'index' => '1',

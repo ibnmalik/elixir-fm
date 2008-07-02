@@ -102,10 +102,8 @@ cluster_2   = listing "Lexicon's properties"
                               `plural`     IFtiCAL |< At,
 
     MuFtaCiL                  `noun`    {- mugotaSib -}        [ "usurper", "rapist" ]
-                              `plural`     MuFtaCiL |< Un,
-
-    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "usurper", "rapist" ]
-                              `plural`     MuFtaCiL |< At,
+                              `plural`     MuFtaCiL |< Un
+    `derives` "------F---",
 
     MuFtaCaL                  `adj`     {- mugotaSab -}        [ "usurped", "raped" ] ]
 
@@ -362,10 +360,8 @@ cluster_6   = listing "Lexicon's properties"
                               `plural`     IstiFCAL |< At,
 
     MustaFiCL                 `noun`    {- musotagil~ -}       [ "exploiting" ]
-                              `plural`     MustaFiCL |< Un,
-
-    MustaFiCL |< aT           `noun`    {- DERIVED -}          [ "exploiting" ]
-                              `plural`     MustaFiCL |< At,
+                              `plural`     MustaFiCL |< Un
+    `derives` "------F---",
 
     MustaFaCL                 `adj`     {- musotagal~ -}       [ "exploited", "cultivated" ] ]
 
@@ -545,10 +541,8 @@ cluster_9   = listing "Lexicon's properties"
     FaCIL                     `noun`    {- gariyb -}           [ "stranger", "foreigner", "emigres" ]
                               `plural`     FuCaLA'
                               `plural`     HaFCAL
-                              `plural`     FaCIL |< Un,
-
-    FaCIL |< aT               `noun`    {- DERIVED -}          [ "stranger", "foreigner", "emigres" ]
-                              `plural`     FaCIL |< At,
+                              `plural`     FaCIL |< Un
+    `derives` "------F---",
 
     FuCUL                     `noun`    {- guruwb -}           [ "setting" ],
 
@@ -699,10 +693,8 @@ cluster_11  = listing "Lexicon's properties"
                               `plural`     FiyAL |< aT,
 
     FaCCAL                    `noun`    {- gaw~AS -}           [ "diver" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "diver" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL |< aT              `noun`    {- gaw~ASap -}         [ "submarine" ] ]
 
@@ -832,10 +824,8 @@ cluster_13  = listing "Lexicon's properties"
     MuFACiL                   `adj`     {- mugAyir -}          [ unwords [ "different", "from" ], unwords [ "competing", "with" ], unwords [ "at", "odds", "with" ] ],
 
     MutaFaCCiL                `noun`    {- mutagay~ir -}       [ "changing", "alternating" ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "changing", "alternating" ]
-                              `plural`     MutaFaCCiL |< At ]
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---" ]
 
  |> ".g y y" <| [
 
@@ -871,7 +861,8 @@ cluster_14  = listing "Lexicon's properties"
  |> ".g z r" <| [
 
     FaCIL                     `noun`    {- gaziyr -}           [ "abundant", "ample" ]
-                              `plural`     FiCAL,
+                              `plural`     FiCAL
+    `derives` "------F---",
 
     HaFCaL                    `noun`    {- Oagozar -}          [ unwords [ "more", "/", "most", "abundant" ] ] ]
 

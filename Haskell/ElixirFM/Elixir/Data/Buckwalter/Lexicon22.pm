@@ -2403,14 +2403,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'kAsir' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'kAsir',
       'form' => 'kAsir',
       'lines' => [
         ';; kAsir_1',
         'kAsir   N/ap    breaking'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'kAsir' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -2425,6 +2433,9 @@ $Lexicon = {
       'types' => {
         'kawAsir' => {
           'Ndip' => 1
+        },
+        'kAsir' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'kAsir',
@@ -2437,6 +2448,9 @@ $Lexicon = {
       'patterns' => {
         'kawAsir' => [
           'FawACiL'
+        ],
+        'kAsir' => [
+          'FACiL'
         ]
       },
       'index' => '2',
@@ -9888,14 +9902,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'kariyh' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'kariyh',
       'form' => 'kariyh',
       'lines' => [
         ';; kariyh_1',
         'kariyh  N/ap    unpleasant;repulsive     [[kariyh/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'kariyh' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -15599,6 +15621,9 @@ $Lexicon = {
         '\'akrAd' => {
           'N' => 1
         },
+        'kurdiyy' => {
+          'N/ap' => 1
+        },
         'kurd' => {
           'N' => 1
         }
@@ -15615,6 +15640,7 @@ $Lexicon = {
         '\'akrAd' => [
           'HaFCAL'
         ],
+        'kurdiyy' => [],
         'kurd' => [
           'FuCL'
         ]
@@ -18450,21 +18476,20 @@ $Lexicon = {
     {
       'types' => {
         'katA\'ibiyy' => {
-          'Nall' => 2
+          'Nall' => 1
         }
       },
       'entry' => 'katA\'ib',
       'form' => 'katA\'ibiyy',
       'lines' => [
         ';; katA}ibiy~_1',
-        'katA}ibiy~      Nall    brigade;corps     [[katA}ibiy~/NOUN]]',
-        'katA}ibiy~      Nall    brigade;corps     [[katA}ibiy~/ADJ]]'
+        'katA}ibiy~      Nall    brigade;corps     [[katA}ibiy~/NOUN]]'
       ],
       'patterns' => {
         'katA\'ibiyy' => []
       },
       'index' => '1',
-      'entity' => 'adj',
+      'entity' => 'noun',
       'morphs' => 'FaCA\'iL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -18477,21 +18502,20 @@ $Lexicon = {
     {
       'types' => {
         'katA\'ibiyy' => {
-          'Nall' => 2
+          'Nall' => 1
         }
       },
       'entry' => 'katA\'ib',
       'form' => 'katA\'ibiyy',
       'lines' => [
         ';; katA}ibiy~_2',
-        'katA}ibiy~      Nall    Phalangist     [[katA}ibiy~/NOUN]]',
-        'katA}ibiy~      Nall    Phalangist     [[katA}ibiy~/ADJ]]'
+        'katA}ibiy~      Nall    Phalangist     [[katA}ibiy~/NOUN]]'
       ],
       'patterns' => {
         'katA\'ibiyy' => []
       },
       'index' => '2',
-      'entity' => 'adj',
+      'entity' => 'noun',
       'morphs' => 'FaCA\'iL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [
@@ -18688,6 +18712,9 @@ $Lexicon = {
         },
         'kuttAb' => {
           'N' => 1
+        },
+        'kAtib' => {
+          'N/ap' => 2
         }
       },
       'entry' => 'kAtib',
@@ -18702,6 +18729,9 @@ $Lexicon = {
       'patterns' => {
         'katab' => [
           'FaCaL'
+        ],
+        'kAtib' => [
+          'FACiL'
         ],
         'kuttAb' => [
           'FuCCAL'
@@ -19147,14 +19177,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'kilwiyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'kilw',
       'form' => 'kilwiyy',
       'lines' => [
         ';; kilowiy~_1',
         'kilowiy~        N/ap    renal;kidney     [[kilowiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'kilwiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FiCL |< Iy',
@@ -19440,14 +19476,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'kA`ib' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'kA`ib',
       'form' => 'kA`ib',
       'lines' => [
         ';; kAEib_1',
         'kAEib   N/ap    full and round     [[kAEib/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'kA`ib' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FACiL',
@@ -19460,6 +19504,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'kA`ib' => {
+          'N/ap' => 1
+        },
         'kawA`ib' => {
           'Ndip' => 1
         }
@@ -19472,6 +19519,9 @@ $Lexicon = {
         'kawAEib Ndip    buxom'
       ],
       'patterns' => {
+        'kA`ib' => [
+          'FACiL'
+        ],
         'kawA`ib' => [
           'FawACiL'
         ]
@@ -22542,6 +22592,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'kA^sif' => {
+          'N/ap' => 1
+        },
         'ka^saf' => {
           'Nap' => 1
         }
@@ -22554,6 +22607,9 @@ $Lexicon = {
         'ka$af   Nap     examiners;inspectors'
       ],
       'patterns' => {
+        'kA^sif' => [
+          'FACiL'
+        ],
         'ka^saf' => [
           'FaCaL'
         ]
@@ -24276,14 +24332,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'kafiyl' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'kafiyl',
       'form' => 'kafiyl',
       'lines' => [
         ';; kafiyl_1',
         'kafiyl  N/ap    responsible;sponsor;guarantor'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'kafiyl' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -24344,14 +24408,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'kAfil' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'kAfil',
       'form' => 'kAfil',
       'lines' => [
         ';; kAfil_1',
         'kAfil   N/ap    provider;supporter;protector;bailsman;bond'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'kAfil' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -29106,6 +29178,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'kAmil' => {
+          'N/ap' => 1
+        },
         'kamal' => {
           'Nap' => 1
         }
@@ -29118,6 +29193,9 @@ $Lexicon = {
         'kamal   Nap     complete;full;integral'
       ],
       'patterns' => {
+        'kAmil' => [
+          'FACiL'
+        ],
         'kamal' => [
           'FaCaL'
         ]
@@ -31050,14 +31128,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'kaniyn' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'kaniyn',
       'form' => 'kaniyn',
       'lines' => [
         ';; kaniyn_1',
         'kaniyn  N/ap    concealed;well-kept     [[kaniyn/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'kaniyn' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -31764,6 +31850,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'kamiyn' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'kamiyn',
@@ -31778,6 +31867,9 @@ $Lexicon = {
       'patterns' => {
         'kumanA\'' => [
           'FuCaLA\''
+        ],
+        'kamiyn' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -31855,6 +31947,9 @@ $Lexicon = {
       'types' => {
         'kawAmin' => {
           'Ndip' => 1
+        },
+        'kAmin' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'kAmin',
@@ -31867,6 +31962,9 @@ $Lexicon = {
       'patterns' => {
         'kawAmin' => [
           'FawACiL'
+        ],
+        'kAmin' => [
+          'FACiL'
         ]
       },
       'index' => '1',
@@ -32371,14 +32469,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'kAll' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'kAll',
       'form' => 'kAll',
       'lines' => [
         ';; kAl~_1',
         'kAl~    N/ap    tired;languid     [[kAl~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'kAll' => [
+          'FACL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FACL',
@@ -32965,14 +33071,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'kaduwd' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'kaduwd',
       'form' => 'kaduwd',
       'lines' => [
         ';; kaduwd_1',
         'kaduwd  N/ap    hard-working;industrious;diligent     [[kaduwd/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'kaduwd' => [
+          'FaCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCUL',
@@ -33461,14 +33575,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'kafiyf' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'kafiyf',
       'form' => 'kafiyf',
       'lines' => [
         ';; kafiyf_1',
         'kafiyf  N/ap    blind     [[kafiyf/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'kafiyf' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -36414,6 +36536,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'kariym' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'kariym',
@@ -36429,6 +36554,9 @@ $Lexicon = {
       'patterns' => {
         'kirAm' => [
           'FiCAL'
+        ],
+        'kariym' => [
+          'FaCIL'
         ],
         'kuramA\'' => [
           'FuCaLA\''
@@ -38662,6 +38790,9 @@ $Lexicon = {
         },
         'kuhhAn' => {
           'N' => 1
+        },
+        'kAhin' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'kAhin',
@@ -38678,6 +38809,9 @@ $Lexicon = {
         ],
         'kuhhAn' => [
           'FuCCAL'
+        ],
+        'kAhin' => [
+          'FACiL'
         ]
       },
       'index' => '1',
@@ -38700,6 +38834,9 @@ $Lexicon = {
         },
         'kuhhAn' => {
           'N' => 1
+        },
+        'kAhin' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'kAhin',
@@ -38716,6 +38853,9 @@ $Lexicon = {
         ],
         'kuhhAn' => [
           'FuCCAL'
+        ],
+        'kAhin' => [
+          'FACiL'
         ]
       },
       'index' => '2',
@@ -39234,14 +39374,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'kAriz' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'kAriz',
       'form' => 'kAriz',
       'lines' => [
         ';; kAriz_1',
         'kAriz   N/ap    preacher'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'kAriz' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -41571,6 +41719,9 @@ $Lexicon = {
       'types' => {
         '\'aksa.h' => {
           'Nel' => 1
+        },
+        'kasiy.h' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'kasiy.h',
@@ -41583,6 +41734,9 @@ $Lexicon = {
       'patterns' => {
         '\'aksa.h' => [
           'HaFCaL'
+        ],
+        'kasiy.h' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -42869,14 +43023,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'kasiyf' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'kasiyf',
       'form' => 'kasiyf',
       'lines' => [
         ';; kasiyf_1',
         'kasiyf  N/ap    dejected;gloomy     [[kasiyf/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'kasiyf' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -42927,6 +43089,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'kamiyy' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'kamiyy',
@@ -42942,6 +43107,9 @@ $Lexicon = {
       'patterns' => {
         'kumY' => [
           'FuCY'
+        ],
+        'kamiyy' => [
+          'FaCIL'
         ],
         '\'akmA\'' => [
           'HaFCA\''

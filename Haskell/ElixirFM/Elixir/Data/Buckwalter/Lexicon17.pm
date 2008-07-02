@@ -829,14 +829,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '.zahiyr' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => '.zahiyr',
       'form' => '.zahiyr',
       'lines' => [
         ';; Zahiyr_1',
         'Zahiyr  N/ap    assistant;partisan'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.zahiyr' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -1215,14 +1223,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '.zAhir' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => '.zAhir',
       'form' => '.zAhir',
       'lines' => [
         ';; ZAhir_1',
         'ZAhir   N/ap    evident;apparent;manifest;visible'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '.zAhir' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -2151,6 +2167,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        '.zariyf' => {
+          'N/ap' => 1
+        },
         '.zurafA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -2171,6 +2190,9 @@ $Lexicon = {
         'ZarA}if Ndip    adroit;elegant;courteous'
       ],
       'patterns' => {
+        '.zariyf' => [
+          'FaCIL'
+        ],
         '.zurafA\'' => [
           'FuCaLA\''
         ],

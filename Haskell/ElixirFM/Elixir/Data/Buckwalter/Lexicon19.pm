@@ -3652,6 +3652,9 @@ $Lexicon = {
       'types' => {
         '.gizAr' => {
           'N' => 1
+        },
+        '.gaziyr' => {
+          'N/ap' => 1
         }
       },
       'entry' => '.gaziyr',
@@ -3664,6 +3667,9 @@ $Lexicon = {
       'patterns' => {
         '.gizAr' => [
           'FiCAL'
+        ],
+        '.gaziyr' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -15157,6 +15163,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        '.ganiyy' => {
+          'N/ap' => 1
+        },
         '\'a.gniyA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -15173,6 +15182,9 @@ $Lexicon = {
         'OagoniyA}       Nhy     rich;wealthy'
       ],
       'patterns' => {
+        '.ganiyy' => [
+          'FaCIL'
+        ],
         '\'a.gniyA\'' => [
           'HaFCiLA\''
         ]
@@ -19608,6 +19620,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        '.gabiyy' => {
+          'N/ap' => 1
         }
       },
       'entry' => '.gabiyy',
@@ -19620,6 +19635,9 @@ $Lexicon = {
         'OagobiyA}       Nhy     ignorant;stupid'
       ],
       'patterns' => {
+        '.gabiyy' => [
+          'FaCIL'
+        ],
         '\'a.gbiyA\'' => [
           'HaFCiLA\''
         ]
@@ -22379,6 +22397,9 @@ $Lexicon = {
       'types' => {
         '.gilA.z' => {
           'N' => 1
+        },
+        '.galiy.z' => {
+          'N/ap' => 1
         }
       },
       'entry' => '.galiy.z',
@@ -22391,6 +22412,9 @@ $Lexicon = {
       'patterns' => {
         '.gilA.z' => [
           'FiCAL'
+        ],
+        '.galiy.z' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -22756,6 +22780,9 @@ $Lexicon = {
         },
         '\'a.girr' => {
           'Nap' => 1
+        },
+        '.gariyr' => {
+          'N/ap' => 1
         }
       },
       'entry' => '.gariyr',
@@ -22774,6 +22801,9 @@ $Lexicon = {
         ],
         '\'a.girr' => [
           'HaFiCL'
+        ],
+        '.gariyr' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -28726,6 +28756,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        '.gariym' => {
+          'N/ap' => 1
+        },
         '.guramA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -28742,6 +28775,9 @@ $Lexicon = {
         'guramA} Nhy     debtors;creditors'
       ],
       'patterns' => {
+        '.gariym' => [
+          'FaCIL'
+        ],
         '.guramA\'' => [
           'FuCaLA\''
         ]
@@ -28761,6 +28797,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        '.gariym' => {
+          'N/ap' => 1
+        },
         '.guramA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -28777,6 +28816,9 @@ $Lexicon = {
         'guramA} Nhy     adversaries;opponents'
       ],
       'patterns' => {
+        '.gariym' => [
+          'FaCIL'
+        ],
         '.guramA\'' => [
           'FuCaLA\''
         ]
@@ -29642,6 +29684,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        '.gariyq' => {
+          'N/ap' => 1
+        },
         '.garqY' => {
           'N0' => 1
         },
@@ -29658,6 +29703,9 @@ $Lexicon = {
         'garoqA  Nhy     drowned;immersed'
       ],
       'patterns' => {
+        '.gariyq' => [
+          'FaCIL'
+        ],
         '.garqY' => [
           'FaCLY'
         ],
@@ -31803,6 +31851,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        '.ga^siym' => {
+          'N/ap' => 1
         }
       },
       'entry' => '.ga^siym',
@@ -31817,6 +31868,9 @@ $Lexicon = {
       'patterns' => {
         '.gu^samA\'' => [
           'FuCaLA\''
+        ],
+        '.ga^siym' => [
+          'FaCIL'
         ]
       },
       'index' => '1',

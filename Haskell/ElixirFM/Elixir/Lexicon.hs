@@ -75,6 +75,8 @@ module Elixir.Lexicon (
 
         gerund, plural, others, withRoot,
 
+        derives,
+
         countNest, countEntry, countEach
 
         -- fromLexicon, joinLexicon,
@@ -267,7 +269,7 @@ type Plural a = Either (Root, Morphs a) (Morphs a)
 
 data Entity a = Verb { form :: [Form], perfect', imperfect, imperative :: [a],
                        justTense :: Maybe Tense, justVoice :: Maybe Voice }
-              | Noun [Plural a] (Maybe Gender) (Maybe Number)
+              | Noun [Plural a] (Maybe Gender) (Maybe Number) (Maybe String)
               | Adj  [Plural a]                (Maybe Number)
               | Prep
               | Conj
@@ -282,8 +284,8 @@ isVerb, isNoun, isAdj, isPrep, isConj, isPart, isIntj :: Entity a -> Bool
 isVerb (Verb _ _ _ _ _ _) = True
 isVerb _                  = False
 
-isNoun (Noun _ _ _) = True
-isNoun _            = False
+isNoun (Noun _ _ _ _) = True
+isNoun _              = False
 
 isAdj (Adj _ _) = True
 isAdj _         = False
@@ -328,7 +330,7 @@ verb m l = Entry (Verb forms [] [] [] justT justV) (morph m) l
 
 noun, adj, pron, num, adv, prep, conj, part, intj :: Morphing a b => a -> Reflex -> Entry b
 
-noun m l = Entry (Noun [] Nothing Nothing) (morph m) l
+noun m l = Entry (Noun [] Nothing Nothing Nothing) (morph m) l
 
 adj  m l = Entry (Adj [] Nothing) (morph m) l
 
@@ -383,34 +385,42 @@ second x y = x { entity = e { imperative = y : i } }
 gerund = const
 
 
+derives :: Entry a -> String -> Entry a
+
+derives x y = case entity x of
+
+                Noun z g n _ -> x { entity = Noun z g n (Just y) }
+                _            -> x
+
+
 plural :: Morphing a b => Entry b -> a -> Entry b
 
 plural x y = case entity x of
 
-                Noun z g n  -> x { entity = Noun (Right (morph y) : z) g n }
-                Adj  z   n  -> x { entity = Adj  (Right (morph y) : z)   n }
-                _           -> x
+                Noun z g n d -> x { entity = Noun (Right (morph y) : z) g n d }
+                Adj  z   n   -> x { entity = Adj  (Right (morph y) : z)   n }
+                _            -> x
 
 
 withRoot x y = case entity x of
 
-                Noun []    _ _  -> x
-                Noun (z:s) g n  -> x { entity = Noun (Left (y, w) : s) g n }
+                Noun []    _ _ _ -> x
+                Noun (z:s) g n d -> x { entity = Noun (Left (y, w) : s) g n d }
 
                     where w = either snd id z
 
-                Adj  []      _  -> x
-                Adj  (z:s)   n  -> x { entity = Adj  (Left (y, w) : s)   n }
+                Adj  []      _   -> x
+                Adj  (z:s)   n   -> x { entity = Adj  (Left (y, w) : s)   n }
 
                     where w = either snd id z
 
 
 infixl 3 `imperf`, `pfirst`, `ithird`, `second`
 
-infixl 3 `gerund`, `plural`, `withRoot`
+infixl 3 `gerund`, `plural`, `others`, `withRoot`
 
+infixl 3 `derives`
 
-infixl 3 `others`
 
 others = const
 

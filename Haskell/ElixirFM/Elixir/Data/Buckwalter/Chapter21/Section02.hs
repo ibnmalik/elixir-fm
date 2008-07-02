@@ -212,7 +212,8 @@ cluster_24  = listing "Lexicon's properties"
                               `plural`     HaFCAL,
 
     FaCIL                     `noun`    {- qa$iyb -}           [ "polished", "burnished", "clean" ]
-                              `plural`     FuCuL,
+                              `plural`     FuCuL
+    `derives` "------F---",
 
     FaCAL |< aT               `noun`    {- qa$Abap -}          [ "tunic", "blouse" ]
                               `plural`     FaCACiL ]
@@ -257,10 +258,8 @@ cluster_25  = listing "Lexicon's properties"
     TaFaCCuL |< Iy            `adj`     {- taqa$~ufiy~ -}      [ "austere", "austerity" ],
 
     MutaFaCCiL                `noun`    {- mutaqa$~if -}       [ "austere", "ascetic" ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "austere", "ascetic" ]
-                              `plural`     MutaFaCCiL |< At,
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---",
 
     MutaFaCCiL                `noun`    {- mutaqa$~if -}       [ "chapped" ] ]
 
@@ -550,10 +549,8 @@ cluster_31  = listing "Lexicon's properties"
     FACiL                     `noun`    {- qAEid -}            [ "sitting", "seated" ]
                               `plural`     FACiL |< Un
                               `plural`     FuCCAL
-                              `plural`     FuCUL,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "sitting", "seated" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FuCUL
+    `derives` "------F---",
 
     FACiL                     `noun`    {- qAEid -}            [ "lazy", "inactive", unwords [ "evaders", "(", "draft", "dodgers", ")" ] ]
                               `plural`     FACiL |< Un,
@@ -573,10 +570,8 @@ cluster_31  = listing "Lexicon's properties"
     MuFCaL                    `adj`     {- muqoEad -}          [ "stopped", "interrupted" ],
 
     MutaFACiL                 `noun`    {- mutaqAEid -}        [ "retired", "pensioner" ]
-                              `plural`     MutaFACiL |< Un,
-
-    MutaFACiL |< aT           `noun`    {- DERIVED -}          [ "retired", "pensioner" ]
-                              `plural`     MutaFACiL |< At ]
+                              `plural`     MutaFACiL |< Un
+    `derives` "------F---" ]
 
 
 cluster_32  = listing "Lexicon's properties"
@@ -924,10 +919,8 @@ cluster_36  = listing "Lexicon's properties"
     MuFtaCaL                  `noun`    {- muqotabal -}        [ "prime", "beginning" ],
 
     MustaFCiL                 `noun`    {- musotaqobil -}      [ "receiving", "receiver" ]
-                              `plural`     MustaFCiL |< Un,
-
-    MustaFCiL |< aT           `noun`    {- DERIVED -}          [ "receiving", "receiver" ]
-                              `plural`     MustaFCiL |< At,
+                              `plural`     MustaFCiL |< Un
+    `derives` "------F---",
 
     MustaFCaL                 `noun`    {- musotaqobal -}      [ "future" ],
 
@@ -987,10 +980,8 @@ cluster_37  = listing "Lexicon's properties"
 
     KuRDuS |< Iy              `noun`    {- quboruSiy~ -}       [ "Cypriot" ]
                               `plural`     KuRDuS |< Iy |< Un
-                              `plural`     KaRADiS |< aT,
-
-    KuRDuS |< Iy |< aT        `noun`    {- DERIVED -}          [ "Cypriot" ]
-                              `plural`     KuRDuS |< Iy |< At,
+                              `plural`     KaRADiS |< aT
+    `derives` "------F---",
 
     KuRDuS |< Iy              `adj`     {- quboruSiy~ -}       [ "Cypriot" ] ]
 

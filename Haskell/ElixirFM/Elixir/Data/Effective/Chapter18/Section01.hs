@@ -15,10 +15,8 @@ cluster_1   = listing "Lexicon's properties"
  |> "` ' ^s" <| [
 
     FACiL                     `noun`    {- EA}i$ -}            [ "living", "alive" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "living", "alive" ]
-                              `plural`     FACiL |< At ]
+                              `plural`     FACiL |< Un
+    `derives` "------F---" ]
 
  |> "` ' d" <| [
 
@@ -71,7 +69,8 @@ cluster_1   = listing "Lexicon's properties"
  |> "` .d w" <| [
 
     FuCL                      `noun`    {- EuDow -}            [ "member" ]
-                              `plural`     HaFCA',
+                              `plural`     HaFCA'
+    `derives` "------F---",
 
     FuCL                      `noun`    {- EuDow -}            [ "organ" ]
                               `plural`     HaFCA' ]
@@ -226,10 +225,8 @@ cluster_4   = listing "Lexicon's properties"
     FaCaL                     `noun`    {- EaTa$ -}            [ "thirst", unwords [ "longing", "for" ] ],
 
     FaCiL                     `noun`    {- EaTi$ -}            [ "thirsty", "parched" ]
-                              `plural`     FaCiL |< Un,
-
-    FaCiL |< aT               `noun`    {- DERIVED -}          [ "thirsty", "parched" ]
-                              `plural`     FaCiL |< At,
+                              `plural`     FaCiL |< Un
+    `derives` "------F---",
 
     TaFaCCuL                  `noun`    {- taEaT~u$ -}         [ unwords [ "insatiable", "desire", "for" ], unwords [ "passion", "for" ] ]
                               `plural`     TaFaCCuL |< At ]
@@ -296,10 +293,8 @@ cluster_5   = listing "Lexicon's properties"
     FiCL |< Iy                `adj`     {- EiToriy~ -}         [ "fragrant", "aromatic" ],
 
     FaCCAL                    `noun`    {- EaT~Ar -}           [ unwords [ "perfume", "vendor" ], "pharmacist" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "perfume", "vendor" ], "pharmacist" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- EaT~Ar -}           [ "Attar" ],
 
@@ -449,10 +444,8 @@ cluster_8   = listing "Lexicon's properties"
                               `plural`     IstiFCAL |< At,
 
     FACiL                     `noun`    {- EAjil -}            [ "urgent", "speedy" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "urgent", "speedy" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
 
     MustaFCaL                 `adj`     {- musotaEojal -}      [ "expeditious", "urgent" ] ]
 
@@ -523,10 +516,8 @@ cluster_9   = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- EA$iq -}            [ "lover", unwords [ "fond", "of" ] ]
                               `plural`     FuCCAL
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "lover", unwords [ "fond", "of" ] ]
-                              `plural`     FACiL |< At,
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
 
     MaFCUL |< aT              `noun`    {- maEo$uwqap -}       [ "beloved", "sweetheart" ] ]
 
@@ -696,10 +687,8 @@ cluster_12  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- EAbid -}            [ "worshipping", unwords [ "God", "-", "fearing" ] ]
                               `plural`     FACiL |< Un
-                              `plural`     FuCCAL,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "worshipping", unwords [ "God", "-", "fearing" ] ]
-                              `plural`     FACiL |< At,
+                              `plural`     FuCCAL
+    `derives` "------F---",
 
     FACiL                     `noun`    {- EAbid -}            [ "Abid" ] ]
 

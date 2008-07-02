@@ -277,10 +277,8 @@ cluster_106 = listing "Lexicon's properties"
                               `plural`     IFtiCAL |< At,
 
     MuFIL                     `noun`    {- muriyd -}           [ "desiring", "follower", "aspirant" ]
-                              `plural`     MuFIL |< Un,
-
-    MuFIL |< aT               `noun`    {- DERIVED -}          [ "desiring", "follower", "aspirant" ]
-                              `plural`     MuFIL |< At ]
+                              `plural`     MuFIL |< Un
+    `derives` "------F---" ]
 
  |> "r y f" <| [
 
@@ -411,10 +409,8 @@ cluster_108 = listing "Lexicon's properties"
  |> "r z .g" <| [
 
     MuFCiL                    `noun`    {- murozig -}          [ "muddy", "boggy" ]
-                              `plural`     MuFCiL |< Un,
-
-    MuFCiL |< aT              `noun`    {- DERIVED -}          [ "muddy", "boggy" ]
-                              `plural`     MuFCiL |< At ]
+                              `plural`     MuFCiL |< Un
+    `derives` "------F---" ]
 
  |> "r z .h" <| [
 
@@ -426,10 +422,8 @@ cluster_108 = listing "Lexicon's properties"
     FuCUL                     `noun`    {- ruzuwH -}           [ "fatigue" ],
 
     FACiL                     `noun`    {- rAziH -}            [ "tired" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "tired" ]
-                              `plural`     FACiL |< At ]
+                              `plural`     FACiL |< Un
+    `derives` "------F---" ]
 
 
 cluster_109 = listing "Lexicon's properties"
@@ -500,18 +494,14 @@ cluster_110 = listing "Lexicon's properties"
     MaFCUL                    `noun`    {- marozuwq -}         [ "Marzouq", "Marzouk" ],
 
     MaFCUL                    `noun`    {- marozuwq -}         [ "blessed", "successful" ]
-                              `plural`     MaFCUL |< Un,
-
-    MaFCUL |< aT              `noun`    {- DERIVED -}          [ "blessed", "successful" ]
-                              `plural`     MaFCUL |< At,
+                              `plural`     MaFCUL |< Un
+    `derives` "------F---",
 
     MaFCUL |< Iy              `adj`     {- marozuwqiy~ -}      [ "Marzouqi", "Marzouki" ],
 
     MuFtaCiL                  `noun`    {- murotaziq -}        [ "mercenary" ]
-                              `plural`     MuFtaCiL |< Un,
-
-    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "mercenary" ]
-                              `plural`     MuFtaCiL |< At,
+                              `plural`     MuFtaCiL |< Un
+    `derives` "------F---",
 
     MuFtaCaL                  `noun`    {- murotazaq -}        [ unwords [ "means", "of", "subsistence" ], "livelihood" ] ]
 
@@ -537,10 +527,8 @@ cluster_111 = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- raz~Az -}           [ "Razzaz" ],
 
     FaCCAL                    `noun`    {- raz~Az -}           [ unwords [ "rice", "merchant" ] ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "rice", "merchant" ] ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     MaFaCL                    `noun`    {- maraz~ -}           [ unwords [ "rice", "field" ] ]
                               `plural`     MaFaCL |< At ]

@@ -130,10 +130,8 @@ cluster_23  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     MutaFaCCiL                `noun`    {- mutazal~ij -}       [ "skier" ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "skier" ]
-                              `plural`     MutaFaCCiL |< At,
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---",
 
     FuCayL                    `noun`    {- zulayoj -}          [ unwords [ "ornamental", "tile" ] ],
 
@@ -179,10 +177,8 @@ cluster_24  = listing "Lexicon's properties"
     FuCLY                     `noun`    {- zulofY -}           [ "flattery", "sycophancy" ],
 
     MutaFaCCiL                `noun`    {- mutazal~if -}       [ "sycophant", "bootlicker" ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "sycophant", "bootlicker" ]
-                              `plural`     MutaFaCCiL |< At ]
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---" ]
 
  |> "z l l" <| [
 
@@ -316,7 +312,8 @@ cluster_27  = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- zumolap -}          [ unwords [ "company", "of", "people" ], unwords [ "party", "of", "people" ] ],
 
     FaCIL                     `noun`    {- zamiyl -}           [ "colleague", "associate", "companion" ]
-                              `plural`     FuCaLA',
+                              `plural`     FuCaLA'
+    `derives` "------F---",
 
     FaCIL |< aT               `noun`    {- zamiylap -}         [ "sister" ],
 
@@ -361,10 +358,12 @@ cluster_28  = listing "Lexicon's properties"
 
     FaCaL |< aT               `noun`    {- zamanap -}          [ unwords [ "period", "of", "time" ] ],
 
-    FaCiL                     `noun`    {- zamin -}            [ unwords [ "chronically", "ill" ] ],
+    FaCiL                     `noun`    {- zamin -}            [ unwords [ "chronically", "ill" ] ]
+    `derives` "------F---",
 
     FaCIL                     `noun`    {- zamiyn -}           [ unwords [ "chronically", "ill" ] ]
-                              `plural`     FaCLY,
+                              `plural`     FaCLY
+    `derives` "------F---",
 
     FaCAL                     `noun`    {- zamAn -}            [ "time", "duration" ],
 
@@ -384,10 +383,8 @@ cluster_28  = listing "Lexicon's properties"
     MutaFACiL                 `adj`     {- mutazAmin -}        [ "simultaneous", "coincidental" ],
 
     lA >| MutaFACiL           `noun`    {- lAmutazAmin -}      [ unwords [ "non", "-", "simultaneous" ] ]
-                              `plural`     lA >| MutaFACiL |< Un,
-
-    lA >| MutaFACiL |< aT     `noun`    {- DERIVED -}          [ unwords [ "non", "-", "simultaneous" ] ]
-                              `plural`     lA >| MutaFACiL |< At,
+                              `plural`     lA >| MutaFACiL |< Un
+    `derives` "------F---",
 
     FICIL                     `noun`    {- ziymiyn -}          [ "Zemin" ] ]
 
@@ -414,10 +411,8 @@ cluster_29  = listing "Lexicon's properties"
                               `plural`     FuCaL,
 
     FaCCAL                    `noun`    {- zam~Ar -}           [ "piper", "klaxonist" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "piper", "klaxonist" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL |< aT              `noun`    {- zam~Arap -}         [ "clarinet", "siren" ]
                               `plural`     FaCACIL,
@@ -533,7 +528,8 @@ cluster_31  = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- zanodaqap -}        [ "atheism" ],
 
     KiRDIS                    `noun`    {- zinodiyq -}         [ "freethinker", "atheist" ]
-                              `plural`     KaRADiS |< aT ]
+                              `plural`     KaRADiS |< aT
+    `derives` "------F---" ]
 
  |> "z n k" <| [
 
@@ -691,10 +687,8 @@ cluster_33  = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- zariyEap -}         [ "crop", "planted" ],
 
     FaCCAL                    `noun`    {- zar~AE -}           [ "peasant", "farmer" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "peasant", "farmer" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     MaFCaL                    `noun`    {- mazoraE -}          [ "farm", unwords [ "arable", "land" ], "plantation" ]
                               `plural`     MaFACiL,
@@ -707,7 +701,8 @@ cluster_33  = listing "Lexicon's properties"
     MuFACaL |< aT             `noun`    {- muzAraEap -}        [ unwords [ "temporary", "sharecropping" ] ],
 
     FACiL                     `noun`    {- zAriE -}            [ "seedsman", "farmer", "seedsmen" ]
-                              `plural`     FuCCAL,
+                              `plural`     FuCCAL
+    `derives` "------F---",
 
     MaFCUL                    `adj`     {- mazoruwE -}         [ "cultivated", "planted", "transplanted" ],
 
@@ -716,10 +711,8 @@ cluster_33  = listing "Lexicon's properties"
     MaFCUL |< Iy              `adj`     {- mazoruwEiy~ -}      [ "Mazroui" ],
 
     MuFACiL                   `noun`    {- muzAriE -}          [ "farmer" ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "farmer" ]
-                              `plural`     MuFACiL |< At,
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---",
 
     MunFaCiL                  `noun`    {- munozariE -}        [ "farmland", unwords [ "planted", "land" ] ] ]
 
@@ -799,10 +792,8 @@ cluster_35  = listing "Lexicon's properties"
     KaRDaS                    `noun`    {- zaroka$ -}          [ "brocade" ],
 
     MuKaRDaS                  `noun`    {- muzaroka$ -}        [ "brocaded", "embellished" ]
-                              `plural`     MuKaRDaS |< Un,
-
-    MuKaRDaS |< aT            `noun`    {- DERIVED -}          [ "brocaded", "embellished" ]
-                              `plural`     MuKaRDaS |< At ]
+                              `plural`     MuKaRDaS |< Un
+    `derives` "------F---" ]
 
  |> "z r n _h" <| [
 
@@ -963,7 +954,8 @@ cluster_38  = listing "Lexicon's properties"
 
     FIL                       `noun`    {- ziyj -}             [ unwords [ "(", "mason's", ")", "leveling", "line" ], "ephemeris" ],
 
-    MiFCAL                    `noun`    {- mizowAj -}          [ unwords [ "frequently", "marrying" ] ],
+    MiFCAL                    `noun`    {- mizowAj -}          [ unwords [ "frequently", "marrying" ] ]
+    `derives` "------F---",
 
     TaFCIL                    `noun`    {- tazowiyj -}         [ unwords [ "marrying", "off" ] ]
                               `plural`     TaFCIL |< At,
@@ -1018,10 +1010,8 @@ cluster_39  = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     MuFaCCiL                  `noun`    {- muzaw~id -}         [ "supplier" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "supplier" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCaL                  `adj`     {- muzaw~ad -}         [ "supplied", "equipped", "armed" ],
 
@@ -1080,7 +1070,8 @@ cluster_40  = listing "Lexicon's properties"
 
     FA'iL                     `adj`     {- zA}il -}            [ "transitory", "ephemeral" ],
 
-    MuFIL                     `noun`    {- muziyl -}           [ unwords [ "cleansing", "medium" ], "cleaner" ] ]
+    MuFIL                     `noun`    {- muziyl -}           [ unwords [ "cleansing", "medium" ], "cleaner" ]
+    `derives` "------F---" ]
 
  |> "z w m" <| [
 

@@ -305,10 +305,8 @@ cluster_46  = listing "Lexicon's properties"
     TaFCIL |< Iy              `adj`     {- taEodiyniy~ -}      [ "mining", "metallurgy" ],
 
     MuFaCCiL                  `noun`    {- muEad~in -}         [ "miner" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "miner" ]
-                              `plural`     MuFaCCiL |< At ]
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---" ]
 
  |> "` d s" <| [
 
@@ -731,16 +729,12 @@ cluster_54  = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- maEohuwd -}         [ "contractual", unwords [ "well", "-", "known" ], "stipulated" ],
 
     MutaFaCCiL                `noun`    {- mutaEah~id -}       [ "contractor", "entrepreneur" ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "contractor", "entrepreneur" ]
-                              `plural`     MutaFaCCiL |< At,
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---",
 
     MutaFACiL                 `noun`    {- mutaEAhid -}        [ unwords [ "contracting", "parties" ] ]
-                              `plural`     MutaFACiL |< Un,
-
-    MutaFACiL |< aT           `noun`    {- DERIVED -}          [ unwords [ "contracting", "parties" ] ]
-                              `plural`     MutaFACiL |< At ]
+                              `plural`     MutaFACiL |< Un
+    `derives` "------F---" ]
 
  |> "` h l" <| [
 
@@ -897,10 +891,8 @@ cluster_57  = listing "Lexicon's properties"
     MuFaCCaL                  `adj`     {- muEak~ar -}         [ "disturbed", "perturbed", "turbid" ],
 
     MuFaCCiL                  `noun`    {- muEak~ir -}         [ "spoilsport", "troublemaker" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "spoilsport", "troublemaker" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MutaFaCCiL                `adj`     {- mutaEak~ir -}       [ "disturbed", "perturbed" ] ]
 

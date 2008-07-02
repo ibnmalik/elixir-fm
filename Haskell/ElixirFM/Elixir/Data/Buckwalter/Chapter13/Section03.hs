@@ -293,10 +293,8 @@ cluster_45  = listing "Lexicon's properties"
     FuCLAn                    `noun`    {- \$ukorAn -}         [ "gratitude", "thanks" ],
 
     FaCUL                     `noun`    {- \$akuwr -}          [ "grateful", "thankful" ]
-                              `plural`     FaCUL |< Un,
-
-    FaCUL |< aT               `noun`    {- DERIVED -}          [ "grateful", "thankful" ]
-                              `plural`     FaCUL |< At,
+                              `plural`     FaCUL |< Un
+    `derives` "------F---",
 
     FaCUL                     `noun`    {- \$akuwr -}          [ "Shakour" ],
 
@@ -326,7 +324,8 @@ cluster_46  = listing "Lexicon's properties"
     TaFACaL                   `verb`    {- ta$Akas -}          [ unwords [ "be", "on", "bad", "terms" ], "quarrel" ],
 
     FaCiL                     `noun`    {- \$akis -}           [ "malicious", "quarrelsome" ]
-                              `plural`     FuCL,
+                              `plural`     FuCL
+    `derives` "------F---",
 
     FaCAL |< aT               `noun`    {- \$akAsap -}         [ "malice", "unfriendliness" ],
 
@@ -427,10 +426,8 @@ cluster_48  = listing "Lexicon's properties"
     MuFaCCaL                  `noun`    {- mu$al~aH -}         [ unwords [ "dressing", "room" ] ],
 
     MuFaCCiL                  `noun`    {- mu$al~iH -}         [ "brigand" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "brigand" ]
-                              `plural`     MuFaCCiL |< At ]
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---" ]
 
  |> "^s l ^s l" <| [
 
@@ -529,10 +526,8 @@ cluster_50  = listing "Lexicon's properties"
                               `plural`     IKRiDSAS |< At,
 
     MuKRaDiSS                 `noun`    {- mu$oma}iz~ -}       [ "disgusted", "nauseated" ]
-                              `plural`     MuKRaDiSS |< Un,
-
-    MuKRaDiSS |< aT           `noun`    {- DERIVED -}          [ "disgusted", "nauseated" ]
-                              `plural`     MuKRaDiSS |< At ]
+                              `plural`     MuKRaDiSS |< Un
+    `derives` "------F---" ]
 
  |> "^s m .t" <| [
 
@@ -1008,10 +1003,8 @@ cluster_59  = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- \$aqolabap -}       [ "somersault" ],
 
     MutaKaRDiS                `noun`    {- muta$aqolib -}      [ "acrobat", "stuntman" ]
-                              `plural`     MutaKaRDiS |< Un,
-
-    MutaKaRDiS |< aT          `noun`    {- DERIVED -}          [ "acrobat", "stuntman" ]
-                              `plural`     MutaKaRDiS |< At,
+                              `plural`     MutaKaRDiS |< Un
+    `derives` "------F---",
 
     KaRDUS                    `noun`    {- \$aqoluwb -}        [ unwords [ "inside", "-", "out" ] ] ]
 
@@ -1084,16 +1077,12 @@ cluster_60  = listing "Lexicon's properties"
     MuFaCCaL                  `noun`    {- mu$aq~aq -}         [ "cracked" ],
 
     MunFaCL                   `noun`    {- muno$aq~ -}         [ "dissident", "renegade" ]
-                              `plural`     MunFaCL |< Un,
-
-    MunFaCL |< aT             `noun`    {- DERIVED -}          [ "dissident", "renegade" ]
-                              `plural`     MunFaCL |< At,
+                              `plural`     MunFaCL |< Un
+    `derives` "------F---",
 
     MuFtaCL                   `noun`    {- mu$otaq~ -}         [ "derivative" ]
-                              `plural`     MuFtaCL |< Un,
-
-    MuFtaCL |< aT             `noun`    {- DERIVED -}          [ "derivative" ]
-                              `plural`     MuFtaCL |< At,
+                              `plural`     MuFtaCL |< Un
+    `derives` "------F---",
 
     FaL |< aN                 `noun`    {- \$aqAF -}           [ "hardship", "distress", "suffering", "misery" ]
                               `plural`     FaCA ]

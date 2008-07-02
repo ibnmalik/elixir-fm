@@ -23,7 +23,8 @@ cluster_1   = listing "Lexicon's properties"
     FACiL                     `noun`    {- SA}ig -}            [ "jeweler" ]
                               `plural`     FuyyAL
                               `plural`     FAL |< aT
-                           {- `others`  [ ".suwwA.g N" ] -} ]
+                           {- `others`  [ ".suwwA.g N" ] -}
+    `derives` "------F---" ]
 
  |> ".s ' .h" <| [
 
@@ -72,10 +73,8 @@ cluster_1   = listing "Lexicon's properties"
  |> ".s ' n" <| [
 
     FACiL                     `noun`    {- SA}in -}            [ "preserver", "protector", "maintainer" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "preserver", "protector", "maintainer" ]
-                              `plural`     FACiL |< At ]
+                              `plural`     FACiL |< Un
+    `derives` "------F---" ]
 
  |> ".s ' t" <| [
 
@@ -122,7 +121,8 @@ cluster_2   = listing "Lexicon's properties"
     FaCAL                     `noun`    {- SagAr -}            [ "smallness", "humility" ],
 
     FaCIL                     `noun`    {- Sagiyr -}           [ "small", "young" ]
-                              `plural`     FiCAL,
+                              `plural`     FiCAL
+    `derives` "------F---",
 
     FaCIL |< aT               `noun`    {- Sagiyrap -}         [ unwords [ "venial", "sin" ] ]
                               `plural`     FaCA'iL,
@@ -248,19 +248,19 @@ cluster_5   = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- SAHib -}            [ "owner", "originator" ]
                               `plural`     FuCLAn
-                              `plural`     HaFCAL,
+                              `plural`     HaFCAL
+    `derives` "------F---",
 
     FACiL                     `noun`    {- SAHib -}            [ "friend", "companion" ]
                               `plural`     FuCLAn
-                              `plural`     HaFCAL,
+                              `plural`     HaFCAL
+    `derives` "------F---",
 
     MaFCUL                    `adj`     {- maSoHuwb -}         [ "accompanied" ],
 
     FuwayCiL                  `noun`    {- SuwayoHib -}        [ unwords [ "little", "friend" ] ]
-                              `plural`     FuwayCiL |< Un,
-
-    FuwayCiL |< aT            `noun`    {- DERIVED -}          [ unwords [ "little", "friend" ] ]
-                              `plural`     FuwayCiL |< At ]
+                              `plural`     FuwayCiL |< Un
+    `derives` "------F---" ]
 
 
 cluster_6   = listing "Lexicon's properties"
@@ -283,20 +283,16 @@ cluster_6   = listing "Lexicon's properties"
     FuCuL |< Iy               `adj`     {- SuHufiy~ -}         [ "journalistic", "press", "newspaper" ],
 
     FuCuL |< Iy               `noun`    {- SuHufiy~ -}         [ "journalist", "reporter" ]
-                              `plural`     FuCuL |< Iy |< Un,
-
-    FuCuL |< Iy |< aT         `noun`    {- DERIVED -}          [ "journalist", "reporter" ]
-                              `plural`     FuCuL |< Iy |< At,
+                              `plural`     FuCuL |< Iy |< Un
+    `derives` "------F---",
 
     FaCAL |< aT               `noun`    {- SaHAfap -}          [ "journalism", "press" ],
 
     FaCAL |< Iy               `adj`     {- SaHAfiy~ -}         [ "journalistic", "press" ],
 
     FaCAL |< Iy               `noun`    {- SaHAfiy~ -}         [ "journalist", "reporter" ]
-                              `plural`     FaCAL |< Iy |< Un,
-
-    FaCAL |< Iy |< aT         `noun`    {- DERIVED -}          [ "journalist", "reporter" ]
-                              `plural`     FaCAL |< Iy |< At,
+                              `plural`     FaCAL |< Iy |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- SaH~Af -}           [ "Sahhaf" ],
 
@@ -543,7 +539,8 @@ cluster_11  = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- SaEolakap -}        [ "vagrancy", "misery" ],
 
     KuRDUS                    `noun`    {- SuEoluwk -}         [ "vagrant", "vagabond" ]
-                              `plural`     KaRADIS ]
+                              `plural`     KaRADIS
+    `derives` "------F---" ]
 
  |> ".s ` q" <| [
 
@@ -626,10 +623,8 @@ cluster_12  = listing "Lexicon's properties"
                               `plural`     HaFCiL |< aT,
 
     FaCCAL                    `noun`    {- Sab~Ag -}           [ "dyer" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "dyer" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- Sab~Ag -}           [ "Sabbagh" ],
 
@@ -965,10 +960,8 @@ cluster_20  = listing "Lexicon's properties"
     FACiL                     `noun`    {- SAdiH -}            [ "semitone" ],
 
     FACiL                     `noun`    {- SAdiH -}            [ "singer", "tenor" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "singer", "tenor" ]
-                              `plural`     FACiL |< At ]
+                              `plural`     FACiL |< Un
+    `derives` "------F---" ]
 
  |> ".s d `" <| [
 

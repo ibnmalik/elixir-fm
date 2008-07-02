@@ -296,10 +296,8 @@ cluster_66  = listing "Lexicon's properties"
     FuCL |< Iy |< At          `noun`    {- furoniy~At -}       [ unwords [ "small", "ovens" ] ],
 
     FaCCAL                    `noun`    {- far~An -}           [ "baker" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "baker" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- far~An -}           [ "Farran" ] ]
 
@@ -315,10 +313,8 @@ cluster_66  = listing "Lexicon's properties"
                               `plural`     TaKaRDuS |< At,
 
     MutaKaRDiS                `noun`    {- mutafaronij -}      [ "westernized", "Europeanized" ]
-                              `plural`     MutaKaRDiS |< Un,
-
-    MutaKaRDiS |< aT          `noun`    {- DERIVED -}          [ "westernized", "Europeanized" ]
-                              `plural`     MutaKaRDiS |< At ]
+                              `plural`     MutaKaRDiS |< Un
+    `derives` "------F---" ]
 
  |> "f r n h" <| [
 
@@ -424,10 +420,8 @@ cluster_67  = listing "Lexicon's properties"
     FACiL                     `adj`     {- fAriq -}            [ "distinctive", "differentiating", "discriminating" ],
 
     MuFaCCiL                  `noun`    {- mufar~iq -}         [ "distributor", "retailer" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "distributor", "retailer" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCaL                  `noun`    {- mufar~aq -}         [ "retail" ],
 
@@ -442,10 +436,8 @@ cluster_67  = listing "Lexicon's properties"
                               `plural`     MuFtaCaL |< At,
 
     MustaFCiL                 `noun`    {- musotaforiq -}      [ "Africanist" ]
-                              `plural`     MustaFCiL |< Un,
-
-    MustaFCiL |< aT           `noun`    {- DERIVED -}          [ "Africanist" ]
-                              `plural`     MustaFCiL |< At ]
+                              `plural`     MustaFCiL |< Un
+    `derives` "------F---" ]
 
 
 cluster_68  = listing "Lexicon's properties"
@@ -482,10 +474,8 @@ cluster_68  = listing "Lexicon's properties"
     FiCAL                     `noun`    {- firAr -}            [ "escape", "evasion", "desertion", "defection" ],
 
     FaCCAL                    `noun`    {- far~Ar -}           [ "fugitive", "deserter", "defector" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "fugitive", "deserter", "defector" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- far~Ar -}           [ "mercury", "quicksilver" ],
 
@@ -494,10 +484,8 @@ cluster_68  = listing "Lexicon's properties"
     FACL                      `adj`     {- fAr~ -}             [ "fleeing" ],
 
     FACL                      `noun`    {- fAr~ -}             [ "fugitive" ]
-                              `plural`     FACL |< Un,
-
-    FACL |< aT                `noun`    {- DERIVED -}          [ "fugitive" ]
-                              `plural`     FACL |< At,
+                              `plural`     FACL |< Un
+    `derives` "------F---",
 
     MuFtaCL                   `adj`     {- mufotar~ -}         [ "radiant", "gleaming", "smiling" ],
 
@@ -657,10 +645,8 @@ cluster_71  = listing "Lexicon's properties"
     MuFCaL                    `noun`    {- muforaz -}          [ "partitioned", unwords [ "in", "lots" ] ],
 
     FaCCAL                    `noun`    {- far~Az -}           [ unwords [ "milling", "cutter" ] ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "milling", "cutter" ] ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- far~Az -}           [ "Farraz" ],
 
@@ -855,10 +841,8 @@ cluster_75  = listing "Lexicon's properties"
     FACiL                     `noun`    {- fAsiq -}            [ "adulterer" ]
                               `plural`     FuCCAL
                               `plural`     FaCaL |< aT
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "adulterer" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
 
     FACiL                     `adj`     {- fAsiq -}            [ "immoral" ]
                               `plural`     FuCCAL
@@ -888,10 +872,8 @@ cluster_75  = listing "Lexicon's properties"
                               `plural`     IstiFCAL |< At,
 
     MuFaCCiL                  `noun`    {- mufas~ir -}         [ "commentator" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "commentator" ]
-                              `plural`     MuFaCCiL |< At ]
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---" ]
 
 
 cluster_76  = listing "Lexicon's properties"
@@ -1014,10 +996,8 @@ cluster_78  = listing "Lexicon's properties"
     FaCCaL                    `verb`    {- fat~a$ -}           [ "search", "inspect" ],
 
     FaCCAL                    `noun`    {- fat~A$ -}           [ "investigator" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "investigator" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- fat~A$ -}           [ "Fattash" ],
 
@@ -1028,10 +1008,8 @@ cluster_78  = listing "Lexicon's properties"
     TaFCIL |< Iy              `adj`     {- tafotiy$iy~ -}      [ "search", "inspection", "patrol" ],
 
     MuFaCCiL                  `noun`    {- mufat~i$ -}         [ "inspector", "supervisor" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "inspector", "supervisor" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCiL |< Iy |< aT      `noun`    {- mufat~i$iy~ap -}    [ "inspectorate" ] ]
 
@@ -1058,15 +1036,14 @@ cluster_78  = listing "Lexicon's properties"
                               `plural`     FaCaL |< At,
 
     FaCCAL                    `noun`    {- fat~Ak -}           [ "deadly", "destructive", "lethal" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "deadly", "destructive", "lethal" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     HaFCaL                    `noun`    {- Oafotak -}          [ unwords [ "more", "/", "most", "destructive" ] ],
 
     FACiL                     `noun`    {- fAtik -}            [ "killer", "murderer", "exterminator" ]
-                              `plural`     FuCCAL ]
+                              `plural`     FuCCAL
+    `derives` "------F---" ]
 
 
 cluster_79  = listing "Lexicon's properties"
@@ -1099,10 +1076,8 @@ cluster_79  = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- fatiylap -}         [ "cord", "wick" ],
 
     FaCCAL                    `noun`    {- fat~Al -}           [ unwords [ "rope", "-", "maker" ] ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "rope", "-", "maker" ] ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- fat~Al -}           [ "Fattal" ],
 
@@ -1127,16 +1102,12 @@ cluster_80  = listing "Lexicon's properties"
                               `plural`     FiCaL,
 
     FaCCAL                    `noun`    {- fat~An -}           [ "enchanting", "tempting" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "enchanting", "tempting" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- fat~An -}           [ "agitator" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "agitator" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- fat~An -}           [ "Fattan" ],
 
@@ -1144,10 +1115,12 @@ cluster_80  = listing "Lexicon's properties"
 
     MaFACiL                   `noun`    {- mafAtin -}          [ "charms", "seductions" ],
 
-    FACiL                     `noun`    {- fAtin -}            [ "Fatin" ],
+    FACiL                     `noun`    {- fAtin -}            [ "Fatin" ]
+    `derives` "------F---",
 
     FACiL                     `noun`    {- fAtin -}            [ "tempting", "charming" ]
-                              `plural`     FawACiL,
+                              `plural`     FawACiL
+    `derives` "------F---",
 
     FACiL |< aT               `noun`    {- fAtinap -}          [ unwords [ "charming", "woman" ] ],
 
@@ -1156,10 +1129,8 @@ cluster_80  = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- mafotuwn -}         [ "fascinated", "charmed", "possessed" ],
 
     MuFCiL                    `noun`    {- mufotin -}          [ "rioter" ]
-                              `plural`     MuFCiL |< Un,
-
-    MuFCiL |< aT              `noun`    {- DERIVED -}          [ "rioter" ]
-                              `plural`     MuFCiL |< At ]
+                              `plural`     MuFCiL |< Un
+    `derives` "------F---" ]
 
 
 section = [ cluster_61,

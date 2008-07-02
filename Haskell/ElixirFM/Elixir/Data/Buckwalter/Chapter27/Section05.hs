@@ -94,10 +94,8 @@ cluster_82  = listing "Lexicon's properties"
     FaCaL                     `noun`    {- wasan -}            [ "sleep" ],
 
     FaCiL                     `noun`    {- wasin -}            [ "sleepy", "drowsy" ]
-                              `plural`     FaCiL |< Un,
-
-    FaCiL |< aT               `noun`    {- DERIVED -}          [ "sleepy", "drowsy" ]
-                              `plural`     FaCiL |< At,
+                              `plural`     FaCiL |< Un
+    `derives` "------F---",
 
     FaCLAn                    `noun`    {- wasonAn -}          [ "sleepy", "drowsy" ]
                               `plural`     FaCLY ]
@@ -292,10 +290,8 @@ cluster_86  = listing "Lexicon's properties"
     FACiL                     `noun`    {- wAziE -}            [ "impediment", "restraint", "inhibition" ],
 
     MuFaCCiL                  `noun`    {- muwaz~iE -}         [ "distributor", "distributing" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "distributor", "distributing" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCaL                  `adj`     {- muwaz~aE -}         [ "distributed", "scattered" ],
 
@@ -360,26 +356,20 @@ cluster_87  = listing "Lexicon's properties"
                               `plural`     IFtiCAL |< At,
 
     FACiL                     `noun`    {- wAzin -}            [ "weighing" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "weighing" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
 
     MaFCUL                    `adj`     {- mawozuwn -}         [ "weighed", "balanced", "judicious" ],
 
     MuFACiL                   `noun`    {- muwAzin -}          [ "weighing", "balancing" ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "weighing", "balancing" ]
-                              `plural`     MuFACiL |< At,
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---",
 
     MutaFACiL                 `adj`     {- mutawAzin -}        [ "balanced" ],
 
     lA >| MutaFACiL           `noun`    {- lAmutawAzin -}      [ "imbalanced" ]
-                              `plural`     lA >| MutaFACiL |< Un,
-
-    lA >| MutaFACiL |< aT     `noun`    {- DERIVED -}          [ "imbalanced" ]
-                              `plural`     lA >| MutaFACiL |< At,
+                              `plural`     lA >| MutaFACiL |< Un
+    `derives` "------F---",
 
     MuFtaCiL                  `adj`     {- mut~azin -}         [ "balanced", "harmonious" ] ]
 
@@ -409,7 +399,8 @@ cluster_88  = listing "Lexicon's properties"
                               `plural`     HaFCAL,
 
     FaCIL                     `noun`    {- waziyr -}           [ "minister" ]
-                              `plural`     FuCaLA',
+                              `plural`     FuCaLA'
+    `derives` "------F---",
 
     FaCIL                     `noun`    {- waziyr -}           [ "Wazir" ],
 

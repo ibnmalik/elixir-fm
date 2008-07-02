@@ -231,10 +231,8 @@ cluster_85  = listing "Lexicon's properties"
     MaFUL |< aT               `noun`    {- ma$uwrap -}         [ "consultation", "deliberation", "advice" ],
 
     MuFACaL                   `noun`    {- mu$Awar -}          [ "adviser", "consultant" ]
-                              `plural`     MuFACaL |< Un,
-
-    MuFACaL |< aT             `noun`    {- DERIVED -}          [ "adviser", "consultant" ]
-                              `plural`     MuFACaL |< At,
+                              `plural`     MuFACaL |< Un
+    `derives` "------F---",
 
     MuFIL                     `adj`     {- mu$iyr -}           [ "indicative", "indicating" ],
 
@@ -243,10 +241,8 @@ cluster_85  = listing "Lexicon's properties"
     MuFAL                     `adj`     {- mu$Ar -}            [ "aforementioned" ],
 
     MustaFAL                  `noun`    {- musota$Ar -}        [ "counselor", "adviser" ]
-                              `plural`     MustaFAL |< Un,
-
-    MustaFAL |< aT            `noun`    {- DERIVED -}          [ "counselor", "adviser" ]
-                              `plural`     MustaFAL |< At,
+                              `plural`     MustaFAL |< Un
+    `derives` "------F---",
 
     MustaFAL |< Iy |< aT      `noun`    {- musota$Ariy~ap -}   [ "chancellery" ],
 
@@ -480,26 +476,20 @@ cluster_90  = listing "Lexicon's properties"
                               `plural`     FACiL |< At,
 
     MuFaCCiL                  `noun`    {- mu$ay~iE -}         [ unwords [ "funeral", "escort" ], "mourner" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ unwords [ "funeral", "escort" ], "mourner" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFACiL                   `noun`    {- mu$AyiE -}          [ "partisan", "biased" ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "partisan", "biased" ]
-                              `plural`     MuFACiL |< At,
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---",
 
     MuFAL                     `adj`     {- mu$AE -}            [ "widespread", unwords [ "well", "-", "known" ] ],
 
     MutaFaCCiL                `adj`     {- muta$ay~iE -}       [ "partisan", "biased" ],
 
     MuFtAL                    `noun`    {- mu$otAE -}          [ "partner", unwords [ "co", "-", "owner" ] ]
-                              `plural`     MuFtAL |< Un,
-
-    MuFtAL |< aT              `noun`    {- DERIVED -}          [ "partner", unwords [ "co", "-", "owner" ] ]
-                              `plural`     MuFtAL |< At ]
+                              `plural`     MuFtAL |< Un
+    `derives` "------F---" ]
 
 
 cluster_91  = listing "Lexicon's properties"
@@ -555,10 +545,8 @@ cluster_91  = listing "Lexicon's properties"
     MuFaCCaL                  `adj`     {- mu$ay~ad -}         [ "lofty" ],
 
     MuFaCCiL                  `noun`    {- mu$ay~id -}         [ "builder", "constructor" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "builder", "constructor" ]
-                              `plural`     MuFaCCiL |< At ]
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---" ]
 
 
 cluster_92  = listing "Lexicon's properties"
@@ -599,10 +587,8 @@ cluster_92  = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- \$iyAlap -}         [ "transportation", "porterage" ],
 
     FaCCAL                    `noun`    {- \$ay~Al -}          [ "porter", "carrier" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "porter", "carrier" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FIL |< Iy                 `adj`     {- \$iyliy~ -}         [ "Chilean" ] ]
 

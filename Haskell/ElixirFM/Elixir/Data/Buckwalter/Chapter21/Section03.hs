@@ -45,7 +45,8 @@ cluster_41  = listing "Lexicon's properties"
     FuCUL                     `noun`    {- quduwm -}           [ "arrival", "coming" ],
 
     FaCUL                     `noun`    {- qaduwm -}           [ "valiant", "audacious" ]
-                              `plural`     FuCuL,
+                              `plural`     FuCuL
+    `derives` "------F---",
 
     FaCUL                     `noun`    {- qaduwm -}           [ "adz" ],
 
@@ -97,10 +98,8 @@ cluster_41  = listing "Lexicon's properties"
     FACiL                     `noun`    {- qAdim -}            [ "arriving", "coming", "proceeding" ]
                               `plural`     FuCUL
                               `plural`     FACiL |< Un
-                              `plural`     FuCCAL,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "arriving", "coming", "proceeding" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FuCCAL
+    `derives` "------F---",
 
     FACiL                     `adj`     {- qAdim -}            [ "next", "following", "future" ],
 
@@ -108,10 +107,8 @@ cluster_41  = listing "Lexicon's properties"
                               `plural`     FawACiL,
 
     MuFaCCiL                  `noun`    {- muqad~im -}         [ "offering", "presenting", "submitting" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "offering", "presenting", "submitting" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCiL |< aT            `noun`    {- muqad~imap -}       [ "preface", "introduction", unwords [ "front", "part" ] ],
 
@@ -123,10 +120,8 @@ cluster_41  = listing "Lexicon's properties"
     MuFaCCaL                  `adj`     {- muqad~am -}         [ "offered", "submitted" ],
 
     MuFaCCaL                  `noun`    {- muqad~am -}         [ unwords [ "lieutenant", "colonel" ] ]
-                              `plural`     MuFaCCaL |< Un,
-
-    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ unwords [ "lieutenant", "colonel" ] ]
-                              `plural`     MuFaCCaL |< At,
+                              `plural`     MuFaCCaL |< Un
+    `derives` "------F---",
 
     MuFaCCaL |< aT            `noun`    {- muqad~amap -}       [ "preface", "introduction", unwords [ "front", "part" ] ],
 
@@ -226,10 +221,8 @@ cluster_43  = listing "Lexicon's properties"
                               `plural`     MaFACIL,
 
     MuFaCCiL                  `noun`    {- muqad~ir -}         [ "appraiser", "assessor" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "appraiser", "assessor" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCaL                  `adj`     {- muqad~ar -}         [ "estimated", "calculated", "estimates" ]
                               `plural`     MuFaCCaL |< At,
@@ -257,10 +250,8 @@ cluster_44  = listing "Lexicon's properties"
     FuCL                      `noun`    {- qudos -}            [ "Jerusalem" ],
 
     FuCL |< Iy                `noun`    {- qudosiy~ -}         [ "Jerusalemite" ]
-                              `plural`     FuCL |< Iy |< Un,
-
-    FuCL |< Iy |< aT          `noun`    {- DERIVED -}          [ "Jerusalemite" ]
-                              `plural`     FuCL |< Iy |< At,
+                              `plural`     FuCL |< Iy |< Un
+    `derives` "------F---",
 
     FuCL |< Iy                `adj`     {- qudosiy~ -}         [ "Qudsi" ],
 
@@ -282,10 +273,8 @@ cluster_44  = listing "Lexicon's properties"
                            {- `others`  [ "qudduws N" ] -},
 
     FiCCIL                    `noun`    {- qid~iys -}          [ "saint", "Saint" ]
-                              `plural`     FiCCIL |< Un,
-
-    FiCCIL |< aT              `noun`    {- DERIVED -}          [ "saint", "Saint" ]
-                              `plural`     FiCCIL |< At,
+                              `plural`     FiCCIL |< Un
+    `derives` "------F---",
 
     HaFCaL                    `noun`    {- Oaqodas -}          [ unwords [ "holier", "/", "holiest" ], unwords [ "more", "/", "most", "sacred" ] ],
 
@@ -306,10 +295,8 @@ cluster_44  = listing "Lexicon's properties"
     FACiL |< Iy |< aT         `noun`    {- qAdisiy~ap -}       [ "Qadisiya" ],
 
     MuFaCCiL                  `noun`    {- muqad~is -}         [ "reverent" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "reverent" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCaL                  `adj`     {- muqad~as -}         [ "holy", "sacred" ],
 
@@ -451,10 +438,8 @@ cluster_47  = listing "Lexicon's properties"
                               `plural`     FuCUL,
 
     FaCCAL                    `noun`    {- qaf~Al -}           [ "locksmith" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "locksmith" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- qaf~Al -}           [ "Qaffal" ],
 
@@ -577,10 +562,8 @@ cluster_49  = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- qahoqahap -}        [ "laughter" ],
 
     MuKaRDiS                  `noun`    {- muqahoqih -}        [ "laughing" ]
-                              `plural`     MuKaRDiS |< Un,
-
-    MuKaRDiS |< aT            `noun`    {- DERIVED -}          [ "laughing" ]
-                              `plural`     MuKaRDiS |< At,
+                              `plural`     MuKaRDiS |< Un
+    `derives` "------F---",
 
     MuKaRDiS                  `adj`     {- muqahoqih -}        [ "hilarious" ] ]
 
@@ -862,10 +845,8 @@ cluster_54  = listing "Lexicon's properties"
     TaFCIL |< Iy |< aT        `noun`    {- taqoliydiy~ap -}    [ "traditionalism", "conventionalism" ],
 
     MuFaCCiL                  `noun`    {- muqal~id -}         [ "imitator" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "imitator" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCaL                  `adj`     {- muqal~ad -}         [ "imitated", "fake" ] ]
 
@@ -959,10 +940,8 @@ cluster_56  = listing "Lexicon's properties"
     IstiFCAL |< Iy            `adj`     {- AisotiqolAliy~ -}   [ "independent", "autonomous" ],
 
     MuFiCL                    `noun`    {- muqil~ -}           [ "destitute", "poor" ]
-                              `plural`     MuFiCL |< Un,
-
-    MuFiCL |< aT              `noun`    {- DERIVED -}          [ "destitute", "poor" ]
-                              `plural`     MuFiCL |< At,
+                              `plural`     MuFiCL |< Un
+    `derives` "------F---",
 
     MustaFiCL                 `adj`     {- musotaqil~ -}       [ "independent", "autonomous" ] ]
 
@@ -1005,10 +984,8 @@ cluster_57  = listing "Lexicon's properties"
     FaCaL                     `noun`    {- qalaq -}            [ "unrest", "concern", "apprehension" ],
 
     FaCiL                     `noun`    {- qaliq -}            [ "worried", "concerned", "disturbed" ]
-                              `plural`     FaCiL |< Un,
-
-    FaCiL |< aT               `noun`    {- DERIVED -}          [ "worried", "concerned", "disturbed" ]
-                              `plural`     FaCiL |< At,
+                              `plural`     FaCiL |< Un
+    `derives` "------F---",
 
     FaCUL                     `noun`    {- qaluwq -}           [ "restless" ],
 
@@ -1018,10 +995,8 @@ cluster_57  = listing "Lexicon's properties"
     MuFCiL                    `adj`     {- muqoliq -}          [ "disturbing", "worrisome", "troubling" ],
 
     MuFCiL                    `noun`    {- muqoliq -}          [ "troublemaker", "agitator" ]
-                              `plural`     MuFCiL |< Un,
-
-    MuFCiL |< aT              `noun`    {- DERIVED -}          [ "troublemaker", "agitator" ]
-                              `plural`     MuFCiL |< At ]
+                              `plural`     MuFCiL |< Un
+    `derives` "------F---" ]
 
  |> "q l q b" <| [
 
@@ -1149,10 +1124,8 @@ cluster_59  = listing "Lexicon's properties"
     FuCAL                     `noun`    {- qumAH -}            [ unwords [ "coldest", "winter", "months" ] ],
 
     FaCCAL                    `noun`    {- qam~AH -}           [ unwords [ "grain", "merchant" ] ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "grain", "merchant" ] ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- qam~AH -}           [ "Qammah" ] ]
 

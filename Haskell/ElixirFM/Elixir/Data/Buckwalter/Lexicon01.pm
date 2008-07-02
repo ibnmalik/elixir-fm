@@ -50,7 +50,11 @@ $Lexicon = {
   ],
   '\'abA^gUr' => [
     {
-      'types' => {},
+      'types' => {
+        '\'abA^guwr' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => '\'abA^guwr',
       'form' => '\'abA^guwr',
       'lines' => [
@@ -1997,6 +2001,9 @@ $Lexicon = {
         },
         '\'asAtiy_d' => {
           'Ndip' => 1
+        },
+        '\'ustA_d' => {
+          'N/ap' => 1
         }
       },
       'entry' => '\'ustA_d',
@@ -2010,6 +2017,9 @@ $Lexicon = {
       'patterns' => {
         '\'asAti_d' => [
           'KaRADiS'
+        ],
+        '\'ustA_d' => [
+          'KuRDAS'
         ],
         '\'asAtiy_d' => [
           'KaRADIS'
@@ -7661,6 +7671,9 @@ $Lexicon = {
       'types' => {
         '\'unAs' => {
           'N' => 1
+        },
+        '\'insAn' => {
+          'N/ap' => 1
         }
       },
       'entry' => '\'insAn',
@@ -7673,6 +7686,9 @@ $Lexicon = {
       'patterns' => {
         '\'unAs' => [
           'FuCAL'
+        ],
+        '\'insAn' => [
+          'FiCLAn'
         ]
       },
       'index' => '1',
@@ -10382,6 +10398,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        '\'asiyf' => {
+          'N/ap' => 1
         }
       },
       'entry' => '\'asiyf',
@@ -10396,6 +10415,9 @@ $Lexicon = {
       'patterns' => {
         '\'usafA\'' => [
           'FuCaLA\''
+        ],
+        '\'asiyf' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -11626,6 +11648,9 @@ $Lexicon = {
         '\'asrY' => {
           'N0' => 1
         },
+        '\'asiyr' => {
+          'N/ap' => 1
+        },
         '\'asArA' => {
           'Nhy' => 1
         }
@@ -11647,6 +11672,9 @@ $Lexicon = {
         '\'asrA' => [],
         '\'asArY' => [
           'FaCALY'
+        ],
+        '\'asiyr' => [
+          'FaCIL'
         ],
         '\'asrY' => [
           'FaCLY'
@@ -13165,14 +13193,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '\'akiyd' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => '\'akiyd',
       'form' => '\'akiyd',
       'lines' => [
         ';; Oakiyd_1',
         'Oakiyd  N/ap    certain;definite'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'akiyd' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -14091,6 +14127,9 @@ $Lexicon = {
     {
       'types' => {
         '\'uwayyil' => {
+          'N/ap' => 1
+        },
+        '\'uwwayl' => {
           'N/ap' => 1
         }
       },
@@ -16214,6 +16253,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        '\'a.siyl' => {
+          'N/ap' => 1
         }
       },
       'entry' => '\'a.siyl',
@@ -16232,6 +16274,9 @@ $Lexicon = {
         ],
         '\'u.salA\'' => [
           'FuCaLA\''
+        ],
+        '\'a.siyl' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -19068,14 +19113,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'ma\'kuwl' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'ma\'kuwl',
       'form' => 'ma\'kuwl',
       'lines' => [
         ';; maOokuwl_1',
         'maOokuwl        N/ap    edible;foodstuff'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ma\'kuwl' => [
+          'MaFCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MaFCUL',
@@ -22226,14 +22279,22 @@ $Lexicon = {
   ],
   '\' s y n' => [
     {
-      'types' => {},
+      'types' => {
+        '\'asyAn' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => '\'asyAn',
       'form' => '\'asyAn',
       'lines' => [
         ';; OasoyAn_1',
         'OasoyAn N/ap    afflicted;desolate;sad'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'asyAn' => [
+          'KaRDAS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRDAS',
@@ -24592,6 +24653,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        '\'amiyr' => {
+          'N/ap' => 1
         }
       },
       'entry' => '\'amiyr',
@@ -24606,6 +24670,9 @@ $Lexicon = {
       'patterns' => {
         '\'umarA\'' => [
           'FuCaLA\''
+        ],
+        '\'amiyr' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -24625,6 +24692,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        '\'amiyr' => {
+          'N/ap' => 1
         }
       },
       'entry' => '\'amiyr',
@@ -24639,6 +24709,9 @@ $Lexicon = {
       'patterns' => {
         '\'umarA\'' => [
           'FuCaLA\''
+        ],
+        '\'amiyr' => [
+          'FaCIL'
         ]
       },
       'index' => '2',
@@ -27205,7 +27278,11 @@ $Lexicon = {
       'entry' => '\'asyAn',
       'form' => '\'asyAn',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'asyAn' => [
+          'FaCLAn'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCLAn',
@@ -30029,14 +30106,22 @@ $Lexicon = {
   ],
   '\' n ^g .s' => [
     {
-      'types' => {},
+      'types' => {
+        '\'in^gA.s' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => '\'in^gA.s',
       'form' => '\'in^gA.s',
       'lines' => [
         ';; IinojAS_1',
         'IinojAS N/ap    pear'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'in^gA.s' => [
+          'KiRDAS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KiRDAS',
@@ -37321,7 +37406,10 @@ $Lexicon = {
       'form' => '\'insAn',
       'lines' => [],
       'patterns' => {
-        '\'unAs' => []
+        '\'unAs' => [],
+        '\'insAn' => [
+          'KiRDAS'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -38271,7 +38359,11 @@ $Lexicon = {
   ],
   '\'Ibar^s' => [
     {
-      'types' => {},
+      'types' => {
+        '\'iybar^siyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => '\'iybar^s',
       'form' => '\'iybar^siyy',
       'lines' => [
@@ -38697,6 +38789,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        '\'amiyn' => {
+          'N/ap' => 1
         }
       },
       'entry' => '\'amiyn',
@@ -38711,6 +38806,9 @@ $Lexicon = {
       'patterns' => {
         '\'umanA\'' => [
           'FuCaLA\''
+        ],
+        '\'amiyn' => [
+          'FaCIL'
         ]
       },
       'index' => '2',
@@ -38730,6 +38828,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        '\'amiyn' => {
+          'N/ap' => 1
         }
       },
       'entry' => '\'amiyn',
@@ -38744,6 +38845,9 @@ $Lexicon = {
       'patterns' => {
         '\'umanA\'' => [
           'FuCaLA\''
+        ],
+        '\'amiyn' => [
+          'FaCIL'
         ]
       },
       'index' => '3',
@@ -39198,14 +39302,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '\'amiyniyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => '\'amiyn',
       'form' => '\'amiyniyy',
       'lines' => [
         ';; Oamiyniy~_1',
         'Oamiyniy~       N/ap    amino     [[Oamiyniy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'amiyniyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL |< Iy',
@@ -40926,6 +41036,9 @@ $Lexicon = {
   '\' b r ^s' => [
     {
       'types' => {
+        '\'abra^siyy' => {
+          'N/ap' => 1
+        },
         '\'abar^siyy' => {
           'N/ap' => 1
         }
@@ -40938,6 +41051,7 @@ $Lexicon = {
         'Oabaro$iy~      N/ap    diocese;bishopric     [[Oabaro$iy~/NOUN]]'
       ],
       'patterns' => {
+        '\'abra^siyy' => [],
         '\'abar^siyy' => []
       },
       'index' => '1',
@@ -41961,6 +42075,9 @@ $Lexicon = {
   '\'arA^gUz' => [
     {
       'types' => {
+        '\'arA^guwz' => {
+          'N/ap' => 1
+        },
         '\'arAziy' => {
           'Nprop' => 1
         }
@@ -42710,14 +42827,23 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        '\'Anif' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => '\'Anif',
       'form' => '\'Anif',
       'lines' => [
         ';; |nif_1',
         '|nif    N/ap    previous;beforehand'
       ],
-      'patterns' => {},
+      'patterns' => {
+        '\'Anif' => [
+          'HACiL',
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -42734,7 +42860,12 @@ $Lexicon = {
       'entry' => '\'Anif',
       'form' => '\'Anif',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        '\'Anif' => [
+          'HACiL',
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'HACiL',
@@ -50925,6 +51056,9 @@ $Lexicon = {
       'types' => {
         '\'alA\'if' => {
           'Ndip' => 1
+        },
+        '\'aliyf' => {
+          'N/ap' => 1
         }
       },
       'entry' => '\'aliyf',
@@ -50937,6 +51071,9 @@ $Lexicon = {
       'patterns' => {
         '\'alA\'if' => [
           'FaCA\'iL'
+        ],
+        '\'aliyf' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -51259,6 +51396,7 @@ $Lexicon = {
     {
       'types' => {
         'mu\'allaf' => {
+          'N/ap' => 1,
           'NduAt' => 1
         }
       },

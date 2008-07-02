@@ -625,14 +625,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'muza^g^ga^g' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'muza^g^ga^g',
       'form' => 'muza^g^ga^g',
       'lines' => [
         ';; muzaj~aj_1',
         'muzaj~aj        N/ap    glazed;enameled     [[muzaj~aj/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'muza^g^ga^g' => [
+          'MuFaCCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFaCCaL',
@@ -4791,14 +4799,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'zAhid' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'zAhid',
       'form' => 'zAhid',
       'lines' => [
         ';; zAhid_1',
         'zAhid   N/ap    ascetic;abstinent'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'zAhid' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',
@@ -6153,14 +6169,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'zu`Af' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'zu`Af',
       'form' => 'zu`Af',
       'lines' => [
         ';; zuEAf_1',
         'zuEAf   N/ap    lethal;killing instantly'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'zu`Af' => [
+          'FuCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FuCAL',
@@ -8255,6 +8279,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'zAri`' => {
+          'N/ap' => 1
+        },
         'zurrA`' => {
           'N' => 1
         }
@@ -8267,6 +8294,9 @@ $Lexicon = {
         'zur~AE  N       seedsmen;farmers'
       ],
       'patterns' => {
+        'zAri`' => [
+          'FACiL'
+        ],
         'zurrA`' => [
           'FuCCAL'
         ]
@@ -8702,14 +8732,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mizwA^g' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'mizwA^g',
       'form' => 'mizwA^g',
       'lines' => [
         ';; mizowAj_1',
         'mizowAj N/ap    frequently marrying'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mizwA^g' => [
+          'MiFCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MiFCAL',
@@ -9104,14 +9142,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'muziyl' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'muziyl',
       'form' => 'muziyl',
       'lines' => [
         ';; muziyl_1',
         'muziyl  N/ap    cleansing medium;cleaner'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'muziyl' => [
+          'MuFIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFIL',
@@ -9513,6 +9559,9 @@ $Lexicon = {
       'types' => {
         'za.gAliyl' => {
           'Ndip' => 1
+        },
+        'zu.gluwl' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'zu.gluwl',
@@ -9525,6 +9574,9 @@ $Lexicon = {
       'patterns' => {
         'za.gAliyl' => [
           'KaRADIS'
+        ],
+        'zu.gluwl' => [
+          'KuRDUS'
         ]
       },
       'index' => '1',
@@ -10006,14 +10058,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'zamin' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'zamin',
       'form' => 'zamin',
       'lines' => [
         ';; zamin_1',
         'zamin   N/ap    chronically ill'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'zamin' => [
+          'FaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCiL',
@@ -10026,6 +10086,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'zamiyn' => {
+          'N/ap' => 1
+        },
         'zamnA' => {
           'Nhy' => 1
         },
@@ -10042,6 +10105,9 @@ $Lexicon = {
         'zamonA  Nhy     chronically ill'
       ],
       'patterns' => {
+        'zamiyn' => [
+          'FaCIL'
+        ],
         'zamnA' => [],
         'zamnY' => [
           'FaCLY'
@@ -10414,7 +10480,11 @@ $Lexicon = {
   ],
   'za`za`An' => [
     {
-      'types' => {},
+      'types' => {
+        'za`za`An' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'za`za`An',
       'form' => 'za`za`An',
       'lines' => [
@@ -12390,6 +12460,9 @@ $Lexicon = {
   'z ` r r' => [
     {
       'types' => {
+        'zu`ruwr' => {
+          'N/ap' => 1
+        },
         'za`Ariyr' => {
           'Ndip' => 1
         }
@@ -12402,6 +12475,9 @@ $Lexicon = {
         'zaEAriyr        Ndip    ill-tempered;irascible'
       ],
       'patterns' => {
+        'zu`ruwr' => [
+          'KuRDUS'
+        ],
         'za`Ariyr' => [
           'KaRADIS'
         ]
@@ -13887,6 +13963,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'zindiyq' => {
+          'N/ap' => 1
+        },
         'zanAdiq' => {
           'Nap' => 1
         }
@@ -13899,6 +13978,9 @@ $Lexicon = {
         'zanAdiq Nap     freethinkers;atheists'
       ],
       'patterns' => {
+        'zindiyq' => [
+          'KiRDIS'
+        ],
         'zanAdiq' => [
           'KaRADiS'
         ]
@@ -14906,14 +14988,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'za`za`' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'za`za`',
       'form' => 'za`za`',
       'lines' => [
         ';; zaEozaE_2',
         'zaEozaE N/ap    convulsing;shaking     [[zaEozaE/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'za`za`' => [
+          'KaRDaS'
+        ]
+      },
       'index' => '2',
       'entity' => 'adj',
       'morphs' => 'KaRDaS',
@@ -14959,14 +15049,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'za`zuw`' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'za`zuw`',
       'form' => 'za`zuw`',
       'lines' => [
         ';; zaEozuwE_1',
         'zaEozuwE        N/ap    skinny;lanky'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'za`zuw`' => [
+          'KaRDUS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRDUS',
@@ -15150,6 +15248,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'zamiyl' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'zamiyl',
@@ -15164,6 +15265,9 @@ $Lexicon = {
       'patterns' => {
         'zumalA\'' => [
           'FuCaLA\''
+        ],
+        'zamiyl' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -15242,7 +15346,11 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'zumurrudiyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'zumurrud',
       'form' => 'zumurrudiyy',
       'lines' => [
@@ -15703,14 +15811,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'zaytiyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'zayt',
       'form' => 'zaytiyy',
       'lines' => [
         ';; zayotiy~_1',
         'zayotiy~        N/ap    oily;oil-bearing     [[zayotiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'zaytiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCL |< Iy',
@@ -15879,6 +15993,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'za`iym' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'za`iym',
@@ -15893,6 +16010,9 @@ $Lexicon = {
       'patterns' => {
         'zu`amA\'' => [
           'FuCaLA\''
+        ],
+        'za`iym' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -17434,14 +17554,22 @@ $Lexicon = {
   ],
   'z b n' => [
     {
-      'types' => {},
+      'types' => {
+        'zabuwn' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'zabuwn',
       'form' => 'zabuwn',
       'lines' => [
         ';; zabuwn_1',
         'zabuwn  N/ap    fierce;foolish     [[zabuwn/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'zabuwn' => [
+          'FaCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCUL',
@@ -17605,6 +17733,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'zakiyy' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'zakiyy',
@@ -17619,6 +17750,9 @@ $Lexicon = {
       'patterns' => {
         '\'azkiyA\'' => [
           'HaFCiLA\''
+        ],
+        'zakiyy' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -20173,7 +20307,11 @@ $Lexicon = {
       'entry' => 'muziyl',
       'form' => 'muziyl',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'muziyl' => [
+          'MuFIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFIL',

@@ -23,10 +23,8 @@ cluster_41  = listing "Lexicon's properties"
 
     FiCAL |< Iy               `noun`    {- siyAsiy~ -}         [ "politician", "statesman", "statesmen" ]
                               `plural`     FAL |< aT
-                              `plural`     FiCAL |< Iy |< Un,
-
-    FiCAL |< Iy |< aT         `noun`    {- DERIVED -}          [ "politician", "statesman", "statesmen" ]
-                              `plural`     FiCAL |< Iy |< At ]
+                              `plural`     FiCAL |< Iy |< Un
+    `derives` "------F---" ]
 
  |> "s y s l" <| [
 

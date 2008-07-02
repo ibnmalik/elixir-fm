@@ -11142,6 +11142,9 @@ $Lexicon = {
       'types' => {
         'qu.s.sA.s' => {
           'N' => 1
+        },
+        'qA.s.s' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'qA.s.s',
@@ -11154,6 +11157,9 @@ $Lexicon = {
       'patterns' => {
         'qu.s.sA.s' => [
           'FuCCAL'
+        ],
+        'qA.s.s' => [
+          'FACL'
         ]
       },
       'index' => '2',
@@ -12448,14 +12454,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'qA\'im' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'qA\'im',
       'form' => 'qA\'im',
       'lines' => [
         ';; qA}im_2',
         'qA}im   N/ap    remaining;existing     [[qA}im/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'qA\'im' => [
+          'FACiL'
+        ]
+      },
       'index' => '2',
       'entity' => 'adj',
       'morphs' => 'FACiL',
@@ -12469,6 +12483,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'qA\'im' => {
+          'N/ap' => 1
+        },
         'quwwAm' => {
           'N' => 1
         }
@@ -12481,6 +12498,9 @@ $Lexicon = {
         'quw~Am  N       standing;upright'
       ],
       'patterns' => {
+        'qA\'im' => [
+          'FACiL'
+        ],
         'quwwAm' => []
       },
       'index' => '3',
@@ -13096,14 +13116,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'muqtara.h' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'muqtara.h',
       'form' => 'muqtara.h',
       'lines' => [
         ';; muqotaraH_2',
         'muqotaraH       N/ap    proposed;suggested     [[muqotaraH/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'muqtara.h' => [
+          'MuFtaCaL'
+        ]
+      },
       'index' => '2',
       'entity' => 'adj',
       'morphs' => 'MuFtaCaL',
@@ -17113,6 +17141,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'qA.ti`' => {
+          'N/ap' => 1
+        },
         'qu.t.tA`' => {
           'N' => 1
         }
@@ -17125,6 +17156,9 @@ $Lexicon = {
         'quT~AE  N       cutters'
       ],
       'patterns' => {
+        'qA.ti`' => [
+          'FACiL'
+        ],
         'qu.t.tA`' => [
           'FuCCAL'
         ]
@@ -19876,14 +19910,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'qaluwb' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'qaluwb',
       'form' => 'qaluwb',
       'lines' => [
         ';; qaluwb_1',
         'qaluwb  N/ap    resourceful;versatile     [[qaluwb/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'qaluwb' => [
+          'FaCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCUL',
@@ -21182,14 +21224,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'qa.siym' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'qa.siym',
       'form' => 'qa.siym',
       'lines' => [
         ';; qaSiym_1',
         'qaSiym  N/ap    fragile     [[qaSiym/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'qa.siym' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -21202,6 +21252,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'qA.sim' => {
+          'N/ap' => 1
+        },
         'qawA.sim' => {
           'Ndip' => 1
         }
@@ -21214,6 +21267,9 @@ $Lexicon = {
         'qawASim Ndip    breaking;crushing'
       ],
       'patterns' => {
+        'qA.sim' => [
+          'FACiL'
+        ],
         'qawA.sim' => [
           'FawACiL'
         ]
@@ -21667,6 +21723,9 @@ $Lexicon = {
   'qahramAn' => [
     {
       'types' => {
+        'qahramAn' => {
+          'N/ap' => 1
+        },
         'qahArim' => {
           'Nap' => 1
         }
@@ -24967,14 +25026,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'qawiym' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'qawiym',
       'form' => 'qawiym',
       'lines' => [
         ';; qawiym_1',
         'qawiym  N/ap    upright;proper;authentic     [[qawiym/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'qawiym' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -25260,7 +25327,11 @@ $Lexicon = {
       'entry' => 'qA\'im',
       'form' => 'qA\'im',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'qA\'im' => [
+          'FA\'iL'
+        ]
+      },
       'index' => '2',
       'entity' => 'adj',
       'morphs' => 'FA\'iL',
@@ -25275,6 +25346,9 @@ $Lexicon = {
       'form' => 'qA\'im',
       'lines' => [],
       'patterns' => {
+        'qA\'im' => [
+          'FA\'iL'
+        ],
         'quwwAm' => [
           'FUCAL'
         ]
@@ -25980,6 +26054,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'qa.siyy' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'qa.siyy',
@@ -25994,6 +26071,9 @@ $Lexicon = {
       'patterns' => {
         '\'aq.sA\'' => [
           'HaFCA\''
+        ],
+        'qa.siyy' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -26305,6 +26385,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'qadiym' => {
+          'N/ap' => 1
+        },
         'qudamA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -26321,6 +26404,9 @@ $Lexicon = {
         'qudamA} Nhy     old;ancients'
       ],
       'patterns' => {
+        'qadiym' => [
+          'FaCIL'
+        ],
         'qudamA\'' => [
           'FuCaLA\''
         ]
@@ -26413,6 +26499,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'qaduwm' => {
+          'N/ap' => 1
+        },
         'qudum' => {
           'N' => 1
         }
@@ -26425,6 +26514,9 @@ $Lexicon = {
         'qudum   N       valiant;audacious'
       ],
       'patterns' => {
+        'qaduwm' => [
+          'FaCUL'
+        ],
         'qudum' => [
           'FuCuL'
         ]
@@ -28497,14 +28589,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'qariy`' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'qariy`',
       'form' => 'qariy`',
       'lines' => [
         ';; qariyE_1',
         'qariyE  N/ap    choicest;hero'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'qariy`' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -29554,14 +29654,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'qa.siyf' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'qa.siyf',
       'form' => 'qa.siyf',
       'lines' => [
         ';; qaSiyf_1',
         'qaSiyf  N/ap    frail;fragile     [[qaSiyf/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'qa.siyf' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -30093,6 +30201,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'qawiyy' => {
+          'N/ap' => 1
+        },
         '\'aqwiyA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -30109,6 +30220,9 @@ $Lexicon = {
         'OaqowiyA}       Nhy     strong;powerful'
       ],
       'patterns' => {
+        'qawiyy' => [
+          'FaCIL'
+        ],
         '\'aqwiyA\'' => [
           'HaFCiLA\''
         ]
@@ -36793,6 +36907,9 @@ $Lexicon = {
         },
         'qabA.hA' => {
           'Nhy' => 1
+        },
+        'qabiy.h' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'qabiy.h',
@@ -36814,6 +36931,9 @@ $Lexicon = {
           'FaCALY'
         ],
         'qab.hA' => [],
+        'qabiy.h' => [
+          'FaCIL'
+        ],
         'qabA.hA' => [],
         'qab.hY' => [
           'FaCLY'
@@ -38065,6 +38185,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'qasiym' => {
+          'N/ap' => 1
+        },
         '\'aqsimA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -38089,6 +38212,9 @@ $Lexicon = {
         'OaqosimA}       Nhy     partners;participants'
       ],
       'patterns' => {
+        'qasiym' => [
+          'FaCIL'
+        ],
         'qusamA\'' => [
           'FuCaLA\''
         ],
@@ -38110,14 +38236,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'qasiym' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'qasiym',
       'form' => 'qasiym',
       'lines' => [
         ';; qasiym_2',
         'qasiym  N/ap    elegant     [[qasiym/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'qasiym' => [
+          'FaCIL'
+        ]
+      },
       'index' => '2',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -40528,6 +40662,9 @@ $Lexicon = {
       'types' => {
         'qunnA.s' => {
           'N' => 1
+        },
+        'qAni.s' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'qAni.s',
@@ -40538,6 +40675,9 @@ $Lexicon = {
         'qun~AS  N       hunters'
       ],
       'patterns' => {
+        'qAni.s' => [
+          'FACiL'
+        ],
         'qunnA.s' => [
           'FuCCAL'
         ]
@@ -42370,6 +42510,9 @@ $Lexicon = {
       'types' => {
         'qi.sAr' => {
           'N' => 1
+        },
+        'qa.siyr' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'qa.siyr',
@@ -42380,6 +42523,9 @@ $Lexicon = {
         'qiSAr   N       short;small'
       ],
       'patterns' => {
+        'qa.siyr' => [
+          'FaCIL'
+        ],
         'qi.sAr' => [
           'FiCAL'
         ]
@@ -43466,6 +43612,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'qamiyr' => {
+          'N/ap' => 1
+        },
         '\'aqmAr' => {
           'N' => 1
         }
@@ -43478,6 +43627,9 @@ $Lexicon = {
         'OaqomAr N       gambling partners'
       ],
       'patterns' => {
+        'qamiyr' => [
+          'FaCIL'
+        ],
         '\'aqmAr' => [
           'HaFCAL'
         ]
@@ -47727,6 +47879,9 @@ $Lexicon = {
       'types' => {
         'qawAtim' => {
           'Ndip' => 1
+        },
+        'qAtim' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'qAtim',
@@ -47737,6 +47892,9 @@ $Lexicon = {
         'qawAtim Ndip    black;dark'
       ],
       'patterns' => {
+        'qAtim' => [
+          'FACiL'
+        ],
         'qawAtim' => [
           'FawACiL'
         ]
@@ -49261,6 +49419,9 @@ $Lexicon = {
       'types' => {
         'qu^sub' => {
           'N' => 1
+        },
+        'qa^siyb' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'qa^siyb',
@@ -49273,6 +49434,9 @@ $Lexicon = {
       'patterns' => {
         'qu^sub' => [
           'FuCuL'
+        ],
+        'qa^siyb' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -49579,6 +49743,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'qA.tin' => {
+          'N/ap' => 1
+        },
         'qu.t.tAn' => {
           'N' => 1
         }
@@ -49591,6 +49758,9 @@ $Lexicon = {
         'quT~An  N       residents;residing;domiciled'
       ],
       'patterns' => {
+        'qA.tin' => [
+          'FACiL'
+        ],
         'qu.t.tAn' => [
           'FuCCAL'
         ]
@@ -51072,6 +51242,9 @@ $Lexicon = {
       'types' => {
         'qu.s.sAd' => {
           'N' => 1
+        },
+        'qA.sid' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'qA.sid',
@@ -51084,6 +51257,9 @@ $Lexicon = {
       'patterns' => {
         'qu.s.sAd' => [
           'FuCCAL'
+        ],
+        'qA.sid' => [
+          'FACiL'
         ]
       },
       'index' => '2',
@@ -51394,14 +51570,22 @@ $Lexicon = {
   ],
   'q s y' => [
     {
-      'types' => {},
+      'types' => {
+        'qasiyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'qasiyy',
       'form' => 'qasiyy',
       'lines' => [
         ';; qasiy~_1',
         'qasiy~  N/ap    firm;solid     [[qasiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'qasiyy' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -52515,6 +52699,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'qa.tuwf' => {
+          'N/ap' => 1
+        },
         'qu.tuf' => {
           'N' => 1
         }
@@ -52527,6 +52714,9 @@ $Lexicon = {
         'quTuf   N       slow'
       ],
       'patterns' => {
+        'qa.tuwf' => [
+          'FaCUL'
+        ],
         'qu.tuf' => [
           'FuCuL'
         ]
@@ -53198,6 +53388,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'qatiyl' => {
+          'N/ap' => 1
+        },
         'qatlA' => {
           'Nhy' => 1
         },
@@ -53214,6 +53407,9 @@ $Lexicon = {
         'qatolA  Nhy     killed;dead;casualty'
       ],
       'patterns' => {
+        'qatiyl' => [
+          'FaCIL'
+        ],
         'qatlA' => [],
         'qatlY' => [
           'FaCLY'
@@ -57261,14 +57457,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'qadiyr' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'qadiyr',
       'form' => 'qadiyr',
       'lines' => [
         ';; qadiyr_1',
         'qadiyr  N/ap    capable;efficient     [[qadiyr/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'qadiyr' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',

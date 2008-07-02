@@ -31,7 +31,8 @@ cluster_81  = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- xaziynap -}         [ "treasury", "coffer", "vault" ],
 
     FaCCAL                    `noun`    {- xaz~An -}           [ "tank", "reservoir" ]
-                              `plural`     FaCACIL,
+                              `plural`     FaCACIL
+    `derives` "------F---",
 
     MaFCaL                    `noun`    {- maxozan -}          [ "storehouse", "depot", "shop" ]
                               `plural`     MaFACiL,
@@ -46,7 +47,8 @@ cluster_81  = listing "Lexicon's properties"
     TaFCIL |< Iy              `adj`     {- taxoziyniy~ -}      [ "storage" ],
 
     FACiL                     `noun`    {- xAzin -}            [ "treasurer" ]
-                              `plural`     FuCCAL,
+                              `plural`     FuCCAL
+    `derives` "------F---",
 
     MaFCUL                    `adj`     {- maxozuwn -}         [ "stored", unwords [ "in", "stock" ] ],
 

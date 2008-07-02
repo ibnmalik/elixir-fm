@@ -91,10 +91,8 @@ cluster_22  = listing "Lexicon's properties"
     FACL                      `adj`     {- fAr~ -}             [ "fleeing" ],
 
     FACL                      `noun`    {- fAr~ -}             [ "fugitive" ]
-                              `plural`     FACL |< Un,
-
-    FACL |< aT                `noun`    {- DERIVED -}          [ "fugitive" ]
-                              `plural`     FACL |< At ]
+                              `plural`     FACL |< Un
+    `derives` "------F---" ]
 
  |> "f r s" <| [
 
@@ -290,10 +288,8 @@ cluster_26  = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     MuFaCCiL                  `noun`    {- mufat~i$ -}         [ "inspector", "supervisor" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "inspector", "supervisor" ]
-                              `plural`     MuFaCCiL |< At ]
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---" ]
 
  |> "f t l" <| [
 
@@ -387,24 +383,18 @@ cluster_27  = listing "Lexicon's properties"
     TaFACuL |< Iy             `adj`     {- tafAwuDiy~ -}       [ unwords [ "negotiation", "-", "related" ], unwords [ "consultation", "-", "related" ] ],
 
     MuFaCCaL                  `noun`    {- mufaw~aD -}         [ "delegate", unwords [ "authorized", "agent" ] ]
-                              `plural`     MuFaCCaL |< Un,
-
-    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "delegate", unwords [ "authorized", "agent" ] ]
-                              `plural`     MuFaCCaL |< At,
+                              `plural`     MuFaCCaL |< Un
+    `derives` "------F---",
 
     MuFaCCaL |< Iy |< aT      `noun`    {- mufaw~aDiy~ap -}    [ "legation", "delegation" ],
 
     MuFACiL                   `noun`    {- mufAwiD -}          [ "negotiator" ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "negotiator" ]
-                              `plural`     MuFACiL |< At,
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---",
 
     MutaFACiL                 `noun`    {- mutafAwiD -}        [ "negotiator" ]
-                              `plural`     MutaFACiL |< Un,
-
-    MutaFACiL |< aT           `noun`    {- DERIVED -}          [ "negotiator" ]
-                              `plural`     MutaFACiL |< At ]
+                              `plural`     MutaFACiL |< Un
+    `derives` "------F---" ]
 
  |> "f w .h" <| [
 
@@ -472,10 +462,8 @@ cluster_28  = listing "Lexicon's properties"
     FA'iL                     `adj`     {- fA}iq -}            [ "outstanding", "excellent" ],
 
     MutaFaCCiL                `noun`    {- mutafaw~iq -}       [ "superior", "outstanding" ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "superior", "outstanding" ]
-                              `plural`     MutaFaCCiL |< At ]
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---" ]
 
  |> "f w r" <| [
 
@@ -532,10 +520,8 @@ cluster_29  = listing "Lexicon's properties"
     FaCL |< Iy                `adj`     {- fawoziy~ -}         [ "Fawzi" ],
 
     FA'iL                     `noun`    {- fA}iz -}            [ "winner", "victorious" ]
-                              `plural`     FA'iL |< Un,
-
-    FA'iL |< aT               `noun`    {- DERIVED -}          [ "winner", "victorious" ]
-                              `plural`     FA'iL |< At,
+                              `plural`     FA'iL |< Un
+    `derives` "------F---",
 
     FA'iL                     `noun`    {- fA}iz -}            [ "Fayez", "Fayiz", "Fa'iz" ] ]
 
@@ -608,10 +594,8 @@ cluster_31  = listing "Lexicon's properties"
     MuFAL                     `noun`    {- mufAd -}            [ "meaning", "content" ],
 
     MustaFIL                  `noun`    {- musotafiyd -}       [ "benefiting", "beneficiary", "profiting" ]
-                              `plural`     MustaFIL |< Un,
-
-    MustaFIL |< aT            `noun`    {- DERIVED -}          [ "benefiting", "beneficiary", "profiting" ]
-                              `plural`     MustaFIL |< At ]
+                              `plural`     MustaFIL |< Un
+    `derives` "------F---" ]
 
  |> "f y l" <| [
 

@@ -21,9 +21,11 @@ cluster_21  = listing "Lexicon's properties"
 
     FaCaL |< aT               `noun`    {- Oanafap -}          [ "pride", "disdain" ],
 
-    FACiL                     `noun`    {- \|nif -}            [ "previous", "beforehand" ],
+    FACiL                     `noun`    {- \|nif -}            [ "previous", "beforehand" ]
+    `derives` "------F---",
 
-    HACiL                     `noun`    {- \|nif -}            [ "previous", "beforehand" ],
+    HACiL                     `noun`    {- \|nif -}            [ "previous", "beforehand" ]
+    `derives` "------F---",
 
     IstiFCAL                  `noun`    {- Aisoti}onAf -}      [ "resumption", "appeal" ]
                               `plural`     IstiFCAL |< At,
@@ -74,13 +76,12 @@ cluster_22  = listing "Lexicon's properties"
                               `plural`     FaCaL,
 
     FaCIL                     `noun`    {- Oaniys -}           [ "affable", "sociable" ]
-                              `plural`     FaCIL |< Un,
-
-    FaCIL |< aT               `noun`    {- DERIVED -}          [ "affable", "sociable" ]
-                              `plural`     FaCIL |< At,
+                              `plural`     FaCIL |< Un
+    `derives` "------F---",
 
     FiCLAn                    `noun`    {- IinosAn -}          [ unwords [ "human", "being" ] ]
-                              `plural`     FuCAL,
+                              `plural`     FuCAL
+    `derives` "------F---",
 
     FiCLAn |< Iy              `adj`     {- IinosAniy~ -}       [ "human", "humane" ],
 
@@ -93,7 +94,8 @@ cluster_22  = listing "Lexicon's properties"
  |> "' n s n" <| [
 
     KiRDAS                    `noun`    {- IinosAn -}          [ unwords [ "human", "being" ] ]
-                           {- `others`  [ "'unAs N" ] -},
+                           {- `others`  [ "'unAs N" ] -}
+    `derives` "------F---",
 
     KiRDAS |< Iy              `adj`     {- IinosAniy~ -}       [ "human", "humane" ],
 
@@ -139,10 +141,8 @@ cluster_23  = listing "Lexicon's properties"
  |> "' q t" <| [
 
     MuFaCCaL                  `noun`    {- muWaq~at -}         [ "temporary", "provisional" ]
-                              `plural`     MuFaCCaL |< Un,
-
-    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "temporary", "provisional" ]
-                              `plural`     MuFaCCaL |< At ]
+                              `plural`     MuFaCCaL |< Un
+    `derives` "------F---" ]
 
  |> "' r .d" <| [
 
@@ -169,10 +169,8 @@ cluster_23  = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- taOoriyx -}         [ "historiography", "dating" ],
 
     MuFaCCiL                  `noun`    {- muWar~ix -}         [ "historian", "chronicler" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "historian", "chronicler" ]
-                              `plural`     MuFaCCiL |< At ]
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---" ]
 
  |> "' r _t" <| [
 
@@ -277,23 +275,17 @@ cluster_24  = listing "Lexicon's properties"
 
     HACiL                     `noun`    {- \|sif -}            [ "sorry", "regretful" ]
                               `plural`     HACiL |< Un
-                              `plural`     FACiL |< Un,
-
-    HACiL |< aT               `noun`    {- DERIVED -}          [ "sorry", "regretful" ]
-                              `plural`     HACiL |< At,
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
 
     FACiL                     `noun`    {- \|sif -}            [ "sorry", "regretful" ]
                               `plural`     HACiL |< Un
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "sorry", "regretful" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
 
     MuFCiL                    `noun`    {- muWosif -}          [ "regrettable", "unfortunate" ]
-                              `plural`     MuFCiL |< Un,
-
-    MuFCiL |< aT              `noun`    {- DERIVED -}          [ "regrettable", "unfortunate" ]
-                              `plural`     MuFCiL |< At ]
+                              `plural`     MuFCiL |< Un
+    `derives` "------F---" ]
 
 
 cluster_25  = listing "Lexicon's properties"
@@ -324,7 +316,8 @@ cluster_25  = listing "Lexicon's properties"
     FaCIL                     `noun`    {- Oasiyr -}           [ "prisoner", "captive" ]
                               `plural`     FaCALY
                               `plural`     FuCaLA'
-                              `plural`     FaCLY ]
+                              `plural`     FaCLY
+    `derives` "------F---" ]
 
  |> "' s s" <| [
 
@@ -370,7 +363,8 @@ cluster_26  = listing "Lexicon's properties"
 
     KuRDAS                    `noun`    {- OusotA* -}          [ "professor" ]
                               `plural`     KaRADiS |< aT
-                              `plural`     KaRADIS ]
+                              `plural`     KaRADIS
+    `derives` "------F---" ]
 
  |> "' s t d" <| [
 
@@ -404,7 +398,8 @@ cluster_26  = listing "Lexicon's properties"
 
  |> "' s y" <| [
 
-    FaCLAn                    `noun`    {- OasoyAn -}          [ "afflicted", "desolate", "sad" ] ]
+    FaCLAn                    `noun`    {- OasoyAn -}          [ "afflicted", "desolate", "sad" ]
+    `derives` "------F---" ]
 
  |> "' s y .t" <| [
 
@@ -412,7 +407,8 @@ cluster_26  = listing "Lexicon's properties"
 
  |> "' s y n" <| [
 
-    KaRDAS                    `noun`    {- OasoyAn -}          [ "afflicted", "desolate", "sad" ] ]
+    KaRDAS                    `noun`    {- OasoyAn -}          [ "afflicted", "desolate", "sad" ]
+    `derives` "------F---" ]
 
  |> "' t .g" <| [
 
@@ -675,10 +671,8 @@ cluster_30  = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     MuFaCCiL                  `noun`    {- muWay~id -}         [ "supporter", "partisan", "supporting" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "supporter", "partisan", "supporting" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     FiCAL                     `noun`    {- IiyAd -}            [ "Iyad", "Eyad" ] ]
 

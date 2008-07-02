@@ -100,10 +100,8 @@ cluster_82  = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     FACiL                     `noun`    {- sAriH -}            [ unwords [ "roaming", "freely" ], "distracted" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ unwords [ "roaming", "freely" ], "distracted" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
 
     MunFaCiL                  `adj`     {- munosariH -}        [ "distracted" ] ]
 
@@ -167,10 +165,8 @@ cluster_84  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- sar~Aj -}           [ "Sarraj" ],
 
     FaCCAL                    `noun`    {- sar~Aj -}           [ "saddler" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "saddler" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FuCUL |< Iy               `adj`     {- suruwjiy~ -}        [ "saddler" ],
 
@@ -400,17 +396,13 @@ cluster_88  = listing "Lexicon's properties"
     FaCiL |< aT               `noun`    {- sariqap -}          [ "stealing", "theft", "heist" ],
 
     FaCCAL                    `noun`    {- sar~Aq -}           [ "thief" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "thief" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FACiL                     `noun`    {- sAriq -}            [ "thief" ]
                               `plural`     FACiL |< Un
-                              `plural`     FaCaL |< aT,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "thief" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FaCaL |< aT
+    `derives` "------F---",
 
     MaFCUL                    `adj`     {- masoruwq -}         [ "stolen", unwords [ "stolen", "goods" ] ],
 
@@ -818,10 +810,8 @@ cluster_96  = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- saw~AH -}           [ "tourist" ]
                               `plural`     FaCCAL |< Un
-                              `plural`     FUCAL,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "tourist" ]
-                              `plural`     FaCCAL |< At ]
+                              `plural`     FUCAL
+    `derives` "------F---" ]
 
  |> "s w .t" <| [
 
@@ -999,10 +989,8 @@ cluster_100 = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     MutaFaCCiL                `noun`    {- mutasaw~il -}       [ "beggar" ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "beggar" ]
-                              `plural`     MutaFaCCiL |< At ]
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---" ]
 
  |> "s w l r" <| [
 

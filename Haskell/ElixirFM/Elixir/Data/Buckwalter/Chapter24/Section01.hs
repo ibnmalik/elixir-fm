@@ -430,16 +430,12 @@ cluster_7   = listing "Lexicon's properties"
     MuFACaL |< aT             `noun`    {- mumAHakap -}        [ "wrangle", "dispute", "bickering" ],
 
     FACiL                     `noun`    {- mAHik -}            [ "quarrelsome", "contentious", "bickering" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "quarrelsome", "contentious", "bickering" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
 
     MuFACiL                   `noun`    {- mumAHik -}          [ "quarrelsome", "contentious", "bickering" ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "quarrelsome", "contentious", "bickering" ]
-                              `plural`     MuFACiL |< At ]
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---" ]
 
 
 cluster_8   = listing "Lexicon's properties"
@@ -482,10 +478,8 @@ cluster_8   = listing "Lexicon's properties"
     IFtiCAL |< Iy             `adj`     {- AimotiHAniy~ -}     [ "test", "trial", "examination" ],
 
     MuFtaCiL                  `noun`    {- mumotaHin -}        [ "examiner", "tester" ]
-                              `plural`     MuFtaCiL |< Un,
-
-    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "examiner", "tester" ]
-                              `plural`     MuFtaCiL |< At,
+                              `plural`     MuFtaCiL |< Un
+    `derives` "------F---",
 
     MuFtaCaL                  `adj`     {- mumotaHan -}        [ "examined", "tested", unwords [ "test", "taker" ] ],
 
@@ -587,10 +581,8 @@ cluster_11  = listing "Lexicon's properties"
     FaCL                      `noun`    {- maS~ -}             [ "suction", "absorption", "sip", "sucking" ],
 
     FaCCAL                    `noun`    {- maS~AS -}           [ "bloodsucker", "extortionist" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "bloodsucker", "extortionist" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FuCAL |< aT               `noun`    {- muSASap -}          [ "sucker" ],
 
@@ -695,10 +687,8 @@ cluster_13  = listing "Lexicon's properties"
     FACaL                     `verb`    {- mATal -}            [ "delay", "tarry", "temporize" ],
 
     FaCUL                     `noun`    {- maTuwl -}           [ "delaying", "procrastinating", "slow" ]
-                              `plural`     FaCUL |< Un,
-
-    FaCUL |< aT               `noun`    {- DERIVED -}          [ "delaying", "procrastinating", "slow" ]
-                              `plural`     FaCUL |< At,
+                              `plural`     FaCUL |< Un
+    `derives` "------F---",
 
     FaCIL |< aT               `noun`    {- maTiylap -}         [ unwords [ "wrought", "iron" ] ]
                               `plural`     FaCA'iL,
@@ -874,10 +864,8 @@ cluster_16  = listing "Lexicon's properties"
     FaCAL |< aT               `noun`    {- majAnap -}          [ "prank", "antic" ],
 
     FaCCAL                    `adv`     {- maj~An -}           [ "free", "gratis" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `adv`     {- DERIVED -}          [ "free", "gratis" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL |< Iy              `adj`     {- maj~Aniy~ -}        [ "free", "gratis" ],
 
@@ -888,7 +876,8 @@ cluster_16  = listing "Lexicon's properties"
     FuCUL |< Iy               `adj`     {- mujuwniy~ -}        [ "sarcastic", "cynic" ],
 
     FACiL                     `noun`    {- mAjin -}            [ "impudent", "joker" ]
-                              `plural`     FuCCAL,
+                              `plural`     FuCCAL
+    `derives` "------F---",
 
     FACiL                     `noun`    {- mAjin -}            [ "cistern" ]
                               `plural`     FawACiL ]

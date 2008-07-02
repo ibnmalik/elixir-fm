@@ -15,15 +15,14 @@ cluster_21  = listing "Lexicon's properties"
  |> "t w ' m" <| [
 
     KaRDaS                    `noun`    {- tawoOam -}          [ "twin" ]
-                              `plural`     KaRADiS,
+                              `plural`     KaRADiS
+    `derives` "------F---",
 
     KaRDaS |< aT              `noun`    {- tawoOamap -}        [ "partnership", "twinning" ],
 
     MuKaRDaS                  `noun`    {- mutawoOam -}        [ "twinned" ]
-                              `plural`     MuKaRDaS |< Un,
-
-    MuKaRDaS |< aT            `noun`    {- DERIVED -}          [ "twinned" ]
-                              `plural`     MuKaRDaS |< At ]
+                              `plural`     MuKaRDaS |< Un
+    `derives` "------F---" ]
 
  |> "t w ^g" <| [
 
@@ -47,10 +46,8 @@ cluster_21  = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     MuFaCCaL                  `noun`    {- mutaw~aj -}         [ "crowned" ]
-                              `plural`     MuFaCCaL |< Un,
-
-    MuFaCCaL |< aT            `noun`    {- DERIVED -}          [ "crowned" ]
-                              `plural`     MuFaCCaL |< At ]
+                              `plural`     MuFaCCaL |< Un
+    `derives` "------F---" ]
 
  |> "t w ^g w" <| [
 
@@ -81,16 +78,12 @@ cluster_22  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- taw~Ab -}           [ "Tawwab" ],
 
     FaCCAL                    `noun`    {- taw~Ab -}           [ "repentant", "merciful" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "repentant", "merciful" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FA'iL                     `noun`    {- tA}ib -}            [ "repentant", "contrite" ]
-                              `plural`     FA'iL |< Un,
-
-    FA'iL |< aT               `noun`    {- DERIVED -}          [ "repentant", "contrite" ]
-                              `plural`     FA'iL |< At ]
+                              `plural`     FA'iL |< Un
+    `derives` "------F---" ]
 
  |> "t w b l" <| [
 
@@ -167,16 +160,12 @@ cluster_23  = listing "Lexicon's properties"
     FaCaLAn                   `noun`    {- tawaqAn -}          [ "desire", "longing", "yearning" ],
 
     FaCCAL                    `noun`    {- taw~Aq -}           [ "longing", "yearning" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "longing", "yearning" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FA'iL                     `noun`    {- tA}iq -}            [ "longing", "eager" ]
-                              `plural`     FA'iL |< Un,
-
-    FA'iL |< aT               `noun`    {- DERIVED -}          [ "longing", "eager" ]
-                              `plural`     FA'iL |< At ]
+                              `plural`     FA'iL |< Un
+    `derives` "------F---" ]
 
  |> "t w r" <| [
 
@@ -214,10 +203,8 @@ cluster_24  = listing "Lexicon's properties"
     HiFAL |< aT               `noun`    {- IitAHap -}          [ "granting", "providing" ],
 
     MuFAL                     `noun`    {- mutAH -}            [ "provided", "available", "granted" ]
-                              `plural`     MuFAL |< Un,
-
-    MuFAL |< aT               `noun`    {- DERIVED -}          [ "provided", "available", "granted" ]
-                              `plural`     MuFAL |< At ]
+                              `plural`     MuFAL |< Un
+    `derives` "------F---" ]
 
  |> "t y ^g" <| [
 
@@ -250,20 +237,18 @@ cluster_24  = listing "Lexicon's properties"
     FIL                       `noun`    {- tiyh -}             [ "desert", "labyrinth" ],
 
     FaCCAL                    `noun`    {- tay~Ah -}           [ "straying", "wandering" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "straying", "wandering" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- tay~Ah -}           [ "haughty" ]
-                              `plural`     FaCCAL |< Un,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "haughty" ]
-                              `plural`     FaCCAL |< At,
+    FaCLAn                    `noun`    {- tayohAn -}          [ "straying", "perplexed" ]
+    `derives` "------F---",
 
-    FaCLAn                    `noun`    {- tayohAn -}          [ "straying", "perplexed" ],
-
-    FaCLAn                    `noun`    {- tayohAn -}          [ "haughty" ],
+    FaCLAn                    `noun`    {- tayohAn -}          [ "haughty" ]
+    `derives` "------F---",
 
     FaCLA'                    `noun`    {- tayohA' -}          [ "desolate", "wilderness" ],
 
@@ -274,10 +259,8 @@ cluster_24  = listing "Lexicon's properties"
                               `plural`     FaCaL |< At,
 
     FA'iL                     `noun`    {- tA}ih -}            [ "straying", "lost" ]
-                              `plural`     FA'iL |< Un,
-
-    FA'iL |< aT               `noun`    {- DERIVED -}          [ "straying", "lost" ]
-                              `plural`     FA'iL |< At ]
+                              `plural`     FA'iL |< Un
+    `derives` "------F---" ]
 
 
 cluster_25  = listing "Lexicon's properties"

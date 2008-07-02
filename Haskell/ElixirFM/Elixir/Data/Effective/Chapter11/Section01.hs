@@ -23,19 +23,15 @@ cluster_1   = listing "Lexicon's properties"
  |> "z ' d" <| [
 
     FACiL                     `noun`    {- zA}id -}            [ "additional", "exceeding", "excessive" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "additional", "exceeding", "excessive" ]
-                              `plural`     FACiL |< At ]
+                              `plural`     FACiL |< Un
+    `derives` "------F---" ]
 
  |> "z ' r" <| [
 
     FACiL                     `noun`    {- zA}ir -}            [ "visitor", "tourist" ]
                               `plural`     FACiL |< Un
-                           {- `others`  [ "zuwwAr N" ] -},
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "visitor", "tourist" ]
-                              `plural`     FACiL |< At,
+                           {- `others`  [ "zuwwAr N" ] -}
+    `derives` "------F---",
 
     FACiL                     `adj`     {- zA}ir -}            [ "visiting" ] ]
 
@@ -98,10 +94,8 @@ cluster_2   = listing "Lexicon's properties"
                               `imperf`     FCaL,
 
     FACiL                     `noun`    {- zAxir -}            [ "overflowing", "profuse", "exuberant" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "overflowing", "profuse", "exuberant" ]
-                              `plural`     FACiL |< At ]
+                              `plural`     FACiL |< Un
+    `derives` "------F---" ]
 
  |> "z _h r f" <| [
 
@@ -135,7 +129,8 @@ cluster_2   = listing "Lexicon's properties"
     FaCL                      `noun`    {- zaEom -}            [ "allegation", "claim" ],
 
     FaCIL                     `noun`    {- zaEiym -}           [ "leader", unwords [ "head", "of", "state" ], unwords [ "heads", "of", "state" ] ]
-                              `plural`     FuCaLA',
+                              `plural`     FuCaLA'
+    `derives` "------F---",
 
     FaCAL |< aT               `noun`    {- zaEAmap -}          [ "leadership", "leaders" ]
                               `plural`     FaCAL |< At,
@@ -293,7 +288,8 @@ cluster_5   = listing "Lexicon's properties"
  |> "z m l" <| [
 
     FaCIL                     `noun`    {- zamiyl -}           [ "colleague", "associate", "companion" ]
-                              `plural`     FuCaLA' ]
+                              `plural`     FuCaLA'
+    `derives` "------F---" ]
 
  |> "z m l k" <| [
 
@@ -328,10 +324,8 @@ cluster_5   = listing "Lexicon's properties"
     FuCUL |< Iy               `adj`     {- zumuwriy~ -}        [ "Zemmouri" ],
 
     FaCCAL                    `noun`    {- zam~Ar -}           [ "piper", "klaxonist" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "piper", "klaxonist" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     MiFCAL                    `noun`    {- mizomAr -}          [ "oboe" ]
                               `plural`     MaFACIL ]
@@ -373,10 +367,8 @@ cluster_6   = listing "Lexicon's properties"
     FiCAL |< Iy               `adj`     {- zirAEiy~ -}         [ "agricultural", "farming" ],
 
     FaCCAL                    `noun`    {- zar~AE -}           [ "peasant", "farmer" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "peasant", "farmer" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     MaFCaL                    `noun`    {- mazoraE -}          [ "farm", unwords [ "arable", "land" ], "plantation" ]
                               `plural`     MaFACiL,
@@ -386,10 +378,8 @@ cluster_6   = listing "Lexicon's properties"
     MaFCUL |< aT              `noun`    {- mazoruwEap -}       [ "farm", unwords [ "planted", "field" ] ],
 
     MuFACiL                   `noun`    {- muzAriE -}          [ "farmer" ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "farmer" ]
-                              `plural`     MuFACiL |< At,
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---",
 
     MunFaCiL                  `noun`    {- munozariE -}        [ "farmland", unwords [ "planted", "land" ] ] ]
 
@@ -481,10 +471,8 @@ cluster_8   = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     MuFaCCiL                  `noun`    {- muzaw~id -}         [ "supplier" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "supplier" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCaL                  `adj`     {- muzaw~ad -}         [ "supplied", "equipped", "armed" ] ]
 
@@ -534,10 +522,8 @@ cluster_9   = listing "Lexicon's properties"
 
     FA'iL                     `noun`    {- zA}ir -}            [ "visitor", "tourist" ]
                               `plural`     FUCAL
-                              `plural`     FA'iL |< Un,
-
-    FA'iL |< aT               `noun`    {- DERIVED -}          [ "visitor", "tourist" ]
-                              `plural`     FA'iL |< At,
+                              `plural`     FA'iL |< Un
+    `derives` "------F---",
 
     FA'iL                     `adj`     {- zA}ir -}            [ "visiting" ],
 
@@ -613,10 +599,8 @@ cluster_10  = listing "Lexicon's properties"
     FACiL                     `noun`    {- zAyid -}            [ "Zayid", "Zayed" ],
 
     FA'iL                     `noun`    {- zA}id -}            [ "additional", "exceeding", "excessive" ]
-                              `plural`     FA'iL |< Un,
-
-    FA'iL |< aT               `noun`    {- DERIVED -}          [ "additional", "exceeding", "excessive" ]
-                              `plural`     FA'iL |< At,
+                              `plural`     FA'iL |< Un
+    `derives` "------F---",
 
     MutaFACiL                 `adj`     {- mutazAyid -}        [ "increasing", "growing" ] ]
 
@@ -678,10 +662,8 @@ cluster_11  = listing "Lexicon's properties"
     FaCL |< At                `noun`    {- zay~At -}           [ "Zayyat" ],
 
     FaCL |< At                `noun`    {- zay~At -}           [ unwords [ "oil", "dealer" ], "oilman" ]
-                              `plural`     FaCL |< At |< Un,
-
-    FaCL |< At |< aT          `noun`    {- DERIVED -}          [ unwords [ "oil", "dealer" ], "oilman" ]
-                              `plural`     FaCL |< At |< At ]
+                              `plural`     FaCL |< At |< Un
+    `derives` "------F---" ]
 
  |> "zAbAlItA" <| [
 

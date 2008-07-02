@@ -2670,6 +2670,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'maymuwn' => {
+          'N/ap' => 1
+        },
         'mayAmiyn' => {
           'Ndip' => 1
         }
@@ -2682,6 +2685,9 @@ $Lexicon = {
         'mayAmiyn        Ndip    lucky;fortunate'
       ],
       'patterns' => {
+        'maymuwn' => [
+          'MaFCUL'
+        ],
         'mayAmiyn' => [
           'MaFACIL'
         ]
@@ -4390,6 +4396,9 @@ $Lexicon = {
         '\'aytAm' => {
           'N' => 1
         },
+        'yatiym' => {
+          'N/ap' => 1
+        },
         'yatAmA' => {
           'Nhy' => 1
         }
@@ -4406,6 +4415,9 @@ $Lexicon = {
       'patterns' => {
         'yatAmY' => [
           'FaCALY'
+        ],
+        'yatiym' => [
+          'FaCIL'
         ],
         '\'aytAm' => [
           'HaFCAL'
@@ -4582,7 +4594,11 @@ $Lexicon = {
   ],
   'yAzir^g' => [
     {
-      'types' => {},
+      'types' => {
+        'yAzir^giyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'yAzir^g',
       'form' => 'yAzir^giyy',
       'lines' => [
@@ -4897,6 +4913,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'yAni`' => {
+          'N/ap' => 1
+        },
         'yan`' => {
           'N-ap' => 1
         }
@@ -4909,6 +4928,9 @@ $Lexicon = {
         'yanoE   N-ap    ripe;mellow'
       ],
       'patterns' => {
+        'yAni`' => [
+          'FACiL'
+        ],
         'yan`' => [
           'FaCL'
         ]
@@ -5730,7 +5752,11 @@ $Lexicon = {
   ],
   'yUzbA^s' => [
     {
-      'types' => {},
+      'types' => {
+        'yuwzbA^siyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'yuwzbA^s',
       'form' => 'yuwzbA^siyy',
       'lines' => [
@@ -6633,14 +6659,20 @@ $Lexicon = {
   ],
   'y h d' => [
     {
-      'types' => {},
+      'types' => {
+        'yahuwdiyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'yahuwd',
       'form' => 'yahuwdiyy',
       'lines' => [
         ';; yahuwdiy~_1',
         'yahuwdiy~       N/ap    Jewish     [[yahuwdiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'yahuwdiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCUL |< Iy',
@@ -6655,6 +6687,9 @@ $Lexicon = {
       'types' => {
         'yahuwd' => {
           'N' => 1
+        },
+        'yahuwdiyy' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'yahuwd',
@@ -6667,7 +6702,8 @@ $Lexicon = {
       'patterns' => {
         'yahuwd' => [
           'FaCUL'
-        ]
+        ],
+        'yahuwdiyy' => []
       },
       'index' => '2',
       'entity' => 'adj',

@@ -132,10 +132,8 @@ cluster_2   = listing "Lexicon's properties"
     FaCiL                     `noun`    {- Dagin -}            [ "spiteful", "resentful" ],
 
     FACiL                     `noun`    {- DAgin -}            [ "spiteful", "resentful" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "spiteful", "resentful" ]
-                              `plural`     FACiL |< At ]
+                              `plural`     FACiL |< Un
+    `derives` "------F---" ]
 
 
 cluster_3   = listing "Lexicon's properties"
@@ -298,10 +296,8 @@ cluster_5   = listing "Lexicon's properties"
     MuFACaL |< aT             `noun`    {- muDAjaEap -}        [ unwords [ "sexual", "intercourse" ] ],
 
     MuFACiL                   `noun`    {- muDAjiE -}          [ "bedfellow" ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "bedfellow" ]
-                              `plural`     MuFACiL |< At,
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---",
 
     MuFtaCaL                  `noun`    {- muDoTajaE -}        [ "couch" ] ]
 
@@ -375,10 +371,8 @@ cluster_7   = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- DaEoDaEap -}        [ "destruction", "debilitation" ],
 
     MutaKaRDiS                `noun`    {- mutaDaEoDiE -}      [ "debilitated" ]
-                              `plural`     MutaKaRDiS |< Un,
-
-    MutaKaRDiS |< aT          `noun`    {- DERIVED -}          [ "debilitated" ]
-                              `plural`     MutaKaRDiS |< At,
+                              `plural`     MutaKaRDiS |< Un
+    `derives` "------F---",
 
     TaKaRDuS                  `noun`    {- taDaEoDuE -}        [ "debacle" ]
                               `plural`     TaKaRDuS |< At ]
@@ -411,10 +405,8 @@ cluster_8   = listing "Lexicon's properties"
     MuFCiL                    `noun`    {- muDoEif -}          [ "debilitating" ],
 
     MustaFCaL                 `noun`    {- musotaDoEaf -}      [ "despised", "oppressed" ]
-                              `plural`     MustaFCaL |< Un,
-
-    MustaFCaL |< aT           `noun`    {- DERIVED -}          [ "despised", "oppressed" ]
-                              `plural`     MustaFCaL |< At,
+                              `plural`     MustaFCaL |< Un
+    `derives` "------F---",
 
     FaCCaL                    `verb`    {- DaE~af -}           [ "double", "compound" ],
 
@@ -628,10 +620,8 @@ cluster_12  = listing "Lexicon's properties"
                               `plural`     TaFACuL |< At,
 
     MutaFACiL                 `noun`    {- mutaDAfir -}        [ "convergent", unwords [ "in", "coalition" ] ]
-                              `plural`     MutaFACiL |< Un,
-
-    MutaFACiL |< aT           `noun`    {- DERIVED -}          [ "convergent", unwords [ "in", "coalition" ] ]
-                              `plural`     MutaFACiL |< At ]
+                              `plural`     MutaFACiL |< Un
+    `derives` "------F---" ]
 
  |> ".d f w" <| [
 
@@ -734,16 +724,12 @@ cluster_14  = listing "Lexicon's properties"
                               `plural`     MuFaCCaL |< At,
 
     MutaFaCCiL                `noun`    {- mutaDal~iE -}       [ "knowledgeable", "expert" ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "knowledgeable", "expert" ]
-                              `plural`     MutaFaCCiL |< At,
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---",
 
     MuFtaCiL                  `noun`    {- muDoTaliE -}        [ "knowledgeable", "expert" ]
-                              `plural`     MuFtaCiL |< Un,
-
-    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "knowledgeable", "expert" ]
-                              `plural`     MuFtaCiL |< At ]
+                              `plural`     MuFtaCiL |< Un
+    `derives` "------F---" ]
 
 
 cluster_15  = listing "Lexicon's properties"
@@ -777,16 +763,12 @@ cluster_15  = listing "Lexicon's properties"
     FACL |< aT                `noun`    {- DAl~ap -}           [ "ambition", "objective" ],
 
     MuFaCCiL                  `noun`    {- muDal~il -}         [ "misleading", "deceptive" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "misleading", "deceptive" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFiCL                    `noun`    {- muDil~ -}           [ "misleading", "deceptive" ]
-                              `plural`     MuFiCL |< Un,
-
-    MuFiCL |< aT              `noun`    {- DERIVED -}          [ "misleading", "deceptive" ]
-                              `plural`     MuFiCL |< At ]
+                              `plural`     MuFiCL |< Un
+    `derives` "------F---" ]
 
  |> ".d m .h l" <| [
 

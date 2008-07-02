@@ -684,7 +684,7 @@ sub storeType {
 
     if ($form eq $Entry->{'form'}) {
 
-        return unless $type =~ /^[CIP]V/ or $type =~ /(?:At|iyn|all)(?:_|$)/;
+        return unless $type =~ /^[CIP]V/ or $type =~ /(?:At|iyn|all|\/ap)(?:_|$)/;
 
         $type =~ s/^N\/At/NAt/;
     }

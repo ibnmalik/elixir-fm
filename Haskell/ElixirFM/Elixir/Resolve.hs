@@ -105,8 +105,12 @@ instance Resolve String where
 
               complete = unTagSets (read "----------")
 
-              derives e = if isNoun (entity e) then [ e, e { morphs = (morphs e) |< aT} ]
-                                               else [ e ]
+              derives e = case entity e of
+                                        
+                          Noun _ _ _ (Just _) -> [e, e { morphs = morphs e |< aT,
+                                                         entity = Noun [] Nothing
+                                                                  Nothing Nothing }]
+                          _                   -> [e]
 
 
 instance Resolve [UPoint] where
@@ -149,8 +153,12 @@ resolveList l uc eq y = [ [s] | (r, [x]) <- l, isSubsumed (uc r) y,
 
           complete = unTagSets (read "----------")
 
-          derives e = if isNoun (entity e) then [ e, e { morphs = (morphs e) |< aT} ]
-                                           else [ e ]
+          derives e = case entity e of
+                                        
+                      Noun _ _ _ (Just _) -> [e, e { morphs = morphs e |< aT,
+                                                     entity = Noun [] Nothing
+                                                              Nothing Nothing }]
+                      _                   -> [e]
 
 
 resolveMore q y = resolveListMore indexList id q y  -- (encode UCS . decode TeX)

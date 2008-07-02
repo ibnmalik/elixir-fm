@@ -93,10 +93,8 @@ cluster_62  = listing "Lexicon's properties"
     FiyAL |< aT               `noun`    {- SiyAnap -}          [ "maintenance", "preservation" ],
 
     FA'iL                     `noun`    {- SA}in -}            [ "preserver", "protector", "maintainer" ]
-                              `plural`     FA'iL |< Un,
-
-    FA'iL |< aT               `noun`    {- DERIVED -}          [ "preserver", "protector", "maintainer" ]
-                              `plural`     FA'iL |< At,
+                              `plural`     FA'iL |< Un
+    `derives` "------F---",
 
     MaFUL                     `adj`     {- maSuwn -}           [ "preserved", "protected", "maintained" ] ]
 
@@ -134,10 +132,8 @@ cluster_63  = listing "Lexicon's properties"
     TaFCIL |< Iy              `adj`     {- taSowiyriy~ -}      [ "photographic", "pictorial" ],
 
     MuFaCCiL                  `noun`    {- muSaw~ir -}         [ "photographer" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "photographer" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCiL                  `noun`    {- muSaw~ir -}         [ "Musawwir" ],
 
@@ -186,10 +182,8 @@ cluster_64  = listing "Lexicon's properties"
     FA'iL                     `adj`     {- SA}it -}            [ "voiced", "sounded" ],
 
     MuFaCCiL                  `noun`    {- muSaw~it -}         [ "voter" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "voter" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFaCCiL                  `adj`     {- muSaw~it -}         [ "loud" ] ]
 
@@ -260,7 +254,8 @@ cluster_65  = listing "Lexicon's properties"
     InFiCAL                   `noun`    {- AinoSiyAE -}        [ "obeisance", "submission" ]
                               `plural`     InFiCAL |< At,
 
-    FACiL                     `noun`    {- SAyiE -}            [ "vagabond", "tramp" ] ]
+    FACiL                     `noun`    {- SAyiE -}            [ "vagabond", "tramp" ]
+    `derives` "------F---" ]
 
  |> ".s y b" <| [
 
@@ -284,10 +279,8 @@ cluster_66  = listing "Lexicon's properties"
     FaCL                      `noun`    {- Sayod -}            [ "hunting", "fishing", "trapping" ],
 
     FaCCAL                    `noun`    {- Say~Ad -}           [ "hunter", "fisherman" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "hunter", "fisherman" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- Say~Ad -}           [ "Sayyad" ],
 
@@ -338,19 +331,15 @@ cluster_67  = listing "Lexicon's properties"
                               `plural`     TaFCIL |< At,
 
     MuFaCCiL                  `noun`    {- muSay~if -}         [ unwords [ "summer", "vacationer" ] ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ unwords [ "summer", "vacationer" ] ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     IFtiCAL                   `noun`    {- AiSotiyAf -}        [ "summering", unwords [ "summer", "vacationing" ] ]
                               `plural`     IFtiCAL |< At,
 
     MuFtAL                    `noun`    {- muSoTAf -}          [ "summering", "vacationer" ]
-                              `plural`     MuFtAL |< Un,
-
-    MuFtAL |< aT              `noun`    {- DERIVED -}          [ "summering", "vacationer" ]
-                              `plural`     MuFtAL |< At,
+                              `plural`     MuFtAL |< Un
+    `derives` "------F---",
 
     MuFtAL                    `noun`    {- muSoTAf -}          [ unwords [ "summer", "resort" ] ],
 
@@ -412,7 +401,8 @@ cluster_68  = listing "Lexicon's properties"
                               `plural`     KaRADiS,
 
     KaRDaS |< Iy              `noun`    {- Sayorafiy~ -}       [ unwords [ "money", "changer" ], "cashier" ]
-                              `plural`     KaRADiS |< aT ]
+                              `plural`     KaRADiS |< aT
+    `derives` "------F---" ]
 
  |> ".s y t" <| [
 

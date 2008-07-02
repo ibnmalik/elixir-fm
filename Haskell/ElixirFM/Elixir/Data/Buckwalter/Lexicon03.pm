@@ -972,14 +972,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tAsi`' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'tAsi`',
       'form' => 'tAsi`',
       'lines' => [
         ';; tAsiE_1',
         'tAsiE   N/ap    ninth     [[tAsiE/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tAsi`' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FACiL',
@@ -2519,14 +2527,22 @@ $Lexicon = {
   ],
   't k n k' => [
     {
-      'types' => {},
+      'types' => {
+        'takniyk' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'takniyk',
       'form' => 'takniyk',
       'lines' => [
         ';; takoniyk_1',
         'takoniyk        N/ap    technique'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'takniyk' => [
+          'KaRDIS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRDIS',
@@ -3623,6 +3639,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'ta`iys' => {
+          'N/ap' => 1
+        },
         'tu`asA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -3639,6 +3658,9 @@ $Lexicon = {
         'tuEasA} Nhy     wretched;miserable'
       ],
       'patterns' => {
+        'ta`iys' => [
+          'FaCIL'
+        ],
         'tu`asA\'' => [
           'FuCaLA\''
         ]
@@ -3840,14 +3862,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tafil' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'tafil',
       'form' => 'tafil',
       'lines' => [
         ';; tafil_1',
         'tafil   N/ap    malodorous'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tafil' => [
+          'FaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCiL',
@@ -4371,7 +4401,11 @@ $Lexicon = {
   ],
   'turumbI.t' => [
     {
-      'types' => {},
+      'types' => {
+        'turumbiy.t' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'turumbiy.t',
       'form' => 'turumbiy.t',
       'lines' => [
@@ -6052,14 +6086,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'ta`bAn' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'ta`bAn',
       'form' => 'ta`bAn',
       'lines' => [
         ';; taEobAn_1',
         'taEobAn N/ap    tired'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'ta`bAn' => [
+          'FaCLAn'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCLAn',
@@ -8085,14 +8127,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mutAba`' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'mutAba`',
       'form' => 'mutAba`',
       'lines' => [
         ';; mutAbaE_1',
         'mutAbaE N/ap    followed;agreed'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mutAba`' => [
+          'MuFACaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFACaL',
@@ -8447,14 +8497,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'talfAn' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'talfAn',
       'form' => 'talfAn',
       'lines' => [
         ';; talofAn_1',
         'talofAn N/ap    spoiled;useless'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'talfAn' => [
+          'FaCLAn'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCLAn',
@@ -8825,14 +8883,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tuwtiyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'tuwt',
       'form' => 'tuwtiyy',
       'lines' => [
         ';; tuwtiy~_1',
         'tuwtiy~ N/ap    zinc     [[tuwtiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tuwtiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FUL |< Iy',
@@ -9079,14 +9143,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tayhAn' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'tayhAn',
       'form' => 'tayhAn',
       'lines' => [
         ';; tayohAn_1',
         'tayohAn N/ap    straying;perplexed'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tayhAn' => [
+          'FaCLAn'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCLAn',
@@ -9099,14 +9171,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'tayhAn' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'tayhAn',
       'form' => 'tayhAn',
       'lines' => [
         ';; tayohAn_2',
         'tayohAn N/ap    haughty'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tayhAn' => [
+          'FaCLAn'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCLAn',
@@ -11491,6 +11571,9 @@ $Lexicon = {
   't w \' m' => [
     {
       'types' => {
+        'taw\'am' => {
+          'N/ap' => 2
+        },
         'tawA\'im' => {
           'Ndip' => 1
         }
@@ -11504,6 +11587,9 @@ $Lexicon = {
         'tawA}im Ndip    twins'
       ],
       'patterns' => {
+        'taw\'am' => [
+          'KaRDaS'
+        ],
         'tawA\'im' => [
           'KaRADiS'
         ]
@@ -12610,7 +12696,11 @@ $Lexicon = {
       'entry' => 'talfAn',
       'form' => 'talfAn',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'talfAn' => [
+          'KaRDAS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRDAS',
@@ -12733,6 +12823,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'taqiyy' => {
+          'N/ap' => 1
+        },
         '\'atqiyA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -12749,6 +12842,9 @@ $Lexicon = {
         'OatoqiyA}       Nhy     pious;devout'
       ],
       'patterns' => {
+        'taqiyy' => [
+          'FaCIL'
+        ],
         '\'atqiyA\'' => [
           'HaFCiLA\''
         ]
@@ -13041,14 +13137,22 @@ $Lexicon = {
   ],
   't m r' => [
     {
-      'types' => {},
+      'types' => {
+        'tamr' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'tamr',
       'form' => 'tamr',
       'lines' => [
         ';; tamor_1',
         'tamor   N/ap    date (fruit)'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'tamr' => [
+          'FaCL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCL',
@@ -14065,7 +14169,11 @@ $Lexicon = {
       'entry' => 'ta`bAn',
       'form' => 'ta`bAn',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'ta`bAn' => [
+          'KaRDAS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'KaRDAS',

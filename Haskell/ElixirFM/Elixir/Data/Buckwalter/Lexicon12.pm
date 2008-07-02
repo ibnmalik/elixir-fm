@@ -579,7 +579,11 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sanawiyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'san',
       'form' => 'sanawiyy',
       'lines' => [
@@ -587,7 +591,9 @@ $Lexicon = {
         'sanawiy~        N/ap    yearly;annual     [[sanawiy~/ADJ]]',
         'sanawiy~        NF      annually;yearly;per annum     [[sanawiy~/ADV]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'sanawiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaL |<< "awIy"',
@@ -808,6 +814,9 @@ $Lexicon = {
       'types' => {
         'salA^giq' => {
           'Nap' => 1
+        },
+        'sal^guwqiyy' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'sal^guwq',
@@ -818,6 +827,7 @@ $Lexicon = {
         'salAjiq Nap     Seljuks'
       ],
       'patterns' => {
+        'sal^guwqiyy' => [],
         'salA^giq' => [
           'KaRADiS'
         ]
@@ -3351,14 +3361,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'su_hriyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'su_hr',
       'form' => 'su_hriyy',
       'lines' => [
         ';; suxoriy~_1',
         'suxoriy~        N/ap    sarcastic;derisive;forced labor     [[suxoriy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'su_hriyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FuCL |< Iy',
@@ -3734,6 +3750,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'samiy.h' => {
+          'N/ap' => 1
+        },
         'sam.hA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -3750,6 +3769,9 @@ $Lexicon = {
         'samoHA} Nhy     tolerant;generous;magnanimous'
       ],
       'patterns' => {
+        'samiy.h' => [
+          'FaCIL'
+        ],
         'sam.hA\'' => [
           'FaCLA\''
         ]
@@ -4636,6 +4658,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'sariy`' => {
+          'N/ap' => 1
+        },
         'sur`An' => {
           'N' => 1
         },
@@ -4652,6 +4677,9 @@ $Lexicon = {
         'sirAE   N       quick;prompt'
       ],
       'patterns' => {
+        'sariy`' => [
+          'FaCIL'
+        ],
         'sur`An' => [
           'FuCLAn'
         ],
@@ -6344,14 +6372,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'musa^g^gal' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'musa^g^gal',
       'form' => 'musa^g^gal',
       'lines' => [
         ';; musaj~al_1',
         'musaj~al        N/ap    registered;recorded     [[musaj~al/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'musa^g^gal' => [
+          'MuFaCCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuFaCCaL',
@@ -9411,6 +9447,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'sAqi.t' => {
+          'N/ap' => 1
+        },
         'suqqA.t' => {
           'N' => 1
         }
@@ -9423,6 +9462,9 @@ $Lexicon = {
         'suq~AT  N       failing;disreputable;omitted'
       ],
       'patterns' => {
+        'sAqi.t' => [
+          'FACiL'
+        ],
         'suqqA.t' => [
           'FuCCAL'
         ]
@@ -10849,14 +10891,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mas^guw`' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'mas^guw`',
       'form' => 'mas^guw`',
       'lines' => [
         ';; masojuwE_1',
         'masojuwE        N/ap    composed in rhymed prose     [[masojuwE/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mas^guw`' => [
+          'MaFCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MaFCUL',
@@ -12879,14 +12929,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sam`iyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'sam`',
       'form' => 'sam`iyy',
       'lines' => [
         ';; samoEiy~_1',
         'samoEiy~        N/ap    audio;auditory;acoustic     [[samoEiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'sam`iyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCL |< Iy',
@@ -12941,14 +12997,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'samA`iyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'samA`',
       'form' => 'samA`iyy',
       'lines' => [
         ';; samAEiy~_1',
         'samAEiy~        N/ap    acoustic;unwritten law     [[samAEiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'samA`iyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCAL |< Iy',
@@ -13184,14 +13246,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'masmuw`' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'masmuw`',
       'form' => 'masmuw`',
       'lines' => [
         ';; masomuwE_1',
         'masomuwE        N/ap    audible;perceptible     [[masomuwE/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'masmuw`' => [
+          'MaFCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MaFCUL',
@@ -13486,14 +13556,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'musawkar' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'musawkar',
       'form' => 'musawkar',
       'lines' => [
         ';; musawokar_1',
         'musawokar       N/ap    insured;registered     [[musawokar/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'musawkar' => [
+          'MuKaRDaS'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuKaRDaS',
@@ -14340,6 +14418,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'sa_hiyy' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'sa_hiyy',
@@ -14354,6 +14435,9 @@ $Lexicon = {
       'patterns' => {
         '\'as_hiyA\'' => [
           'HaFCiLA\''
+        ],
+        'sa_hiyy' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -14732,14 +14816,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sAhim' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'sAhim',
       'form' => 'sAhim',
       'lines' => [
         ';; sAhim_1',
         'sAhim   N/ap    serious;grave     [[sAhim/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'sAhim' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FACiL',
@@ -15266,6 +15358,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'sa`iyd' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'sa`iyd',
@@ -15280,6 +15375,9 @@ $Lexicon = {
       'patterns' => {
         'su`adA\'' => [
           'FuCaLA\''
+        ],
+        'sa`iyd' => [
+          'FaCIL'
         ]
       },
       'index' => '2',
@@ -16112,6 +16210,9 @@ $Lexicon = {
       'types' => {
         'sikritiyriyy' => {
           'NapAt' => 1
+        },
+        'sikritiyr' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'sikritiyr',
@@ -16623,14 +16724,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mas.huwq' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'mas.huwq',
       'form' => 'mas.huwq',
       'lines' => [
         ';; masoHuwq_1',
         'masoHuwq        N/ap    ground;grated     [[masoHuwq/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mas.huwq' => [
+          'MaFCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MaFCUL',
@@ -16646,6 +16755,9 @@ $Lexicon = {
       'types' => {
         'masA.hiyq' => {
           'Ndip' => 1
+        },
+        'mas.huwq' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'mas.huwq',
@@ -16658,6 +16770,9 @@ $Lexicon = {
       'patterns' => {
         'masA.hiyq' => [
           'MaFACIL'
+        ],
+        'mas.huwq' => [
+          'MaFCUL'
         ]
       },
       'index' => '2',
@@ -19303,6 +19418,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'sa_hiyf' => {
+          'N/ap' => 1
+        },
         'su_hafA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -19323,6 +19441,9 @@ $Lexicon = {
         'suxafA} Nhy     stupid;silly'
       ],
       'patterns' => {
+        'sa_hiyf' => [
+          'FaCIL'
+        ],
         'su_hafA\'' => [
           'FuCaLA\''
         ],
@@ -19714,14 +19835,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sA\'i.g' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'sA\'i.g',
       'form' => 'sA\'i.g',
       'lines' => [
         ';; sA}ig_1',
         'sA}ig   N/ap    palatable;permissible     [[sA}ig/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'sA\'i.g' => [
+          'FA\'iL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FA\'iL',
@@ -20579,6 +20708,9 @@ $Lexicon = {
         },
         'sa^gnA' => {
           'Nhy' => 1
+        },
+        'sa^giyn' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'sa^giyn',
@@ -20599,7 +20731,10 @@ $Lexicon = {
         'su^ganA\'' => [
           'FuCaLA\''
         ],
-        'sa^gnA' => []
+        'sa^gnA' => [],
+        'sa^giyn' => [
+          'FaCIL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -20641,6 +20776,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'mas^guwn' => {
+          'N/ap' => 1
+        },
         'masA^giyn' => {
           'Ndip' => 1
         }
@@ -20653,6 +20791,9 @@ $Lexicon = {
         'masAjiyn        Ndip    prisoners'
       ],
       'patterns' => {
+        'mas^guwn' => [
+          'MaFCUL'
+        ],
         'masA^giyn' => [
           'MaFACIL'
         ]
@@ -21186,14 +21327,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'safsAf' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'safsAf',
       'form' => 'safsAf',
       'lines' => [
         ';; safosAf_1',
         'safosAf N/ap    silly;inferior     [[safosAf/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'safsAf' => [
+          'KaRDAS'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'KaRDAS',
@@ -22675,6 +22824,9 @@ $Lexicon = {
       'types' => {
         'masA.tiyl' => {
           'Ndip' => 1
+        },
+        'mas.tuwl' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'mas.tuwl',
@@ -22687,6 +22839,9 @@ $Lexicon = {
       'patterns' => {
         'masA.tiyl' => [
           'MaFACIL'
+        ],
+        'mas.tuwl' => [
+          'MaFCUL'
         ]
       },
       'index' => '1',
@@ -23520,6 +23675,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'saliyf' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'saliyf',
@@ -23534,6 +23692,9 @@ $Lexicon = {
       'patterns' => {
         'sulafA\'' => [
           'FuCaLA\''
+        ],
+        'saliyf' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -23624,6 +23785,9 @@ $Lexicon = {
         'salaf' => {
           'N' => 1
         },
+        'sAlif' => {
+          'N/ap' => 1
+        },
         'sullAf' => {
           'N' => 1
         }
@@ -23638,6 +23802,9 @@ $Lexicon = {
         'sawAlif Ndip    preceding;former;sideburns'
       ],
       'patterns' => {
+        'sAlif' => [
+          'FACiL'
+        ],
         'salaf' => [
           'FaCaL'
         ],
@@ -24668,6 +24835,9 @@ $Lexicon = {
       'types' => {
         'sawAbi.g' => {
           'Ndip' => 1
+        },
+        'sAbi.g' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'sAbi.g',
@@ -24680,6 +24850,9 @@ $Lexicon = {
       'patterns' => {
         'sawAbi.g' => [
           'FawACiL'
+        ],
+        'sAbi.g' => [
+          'FACiL'
         ]
       },
       'index' => '1',
@@ -24803,6 +24976,9 @@ $Lexicon = {
         },
         'simA^g' => {
           'N' => 1
+        },
+        'sami^g' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'sami^g',
@@ -24827,6 +25003,9 @@ $Lexicon = {
         ],
         'suma^gA\'' => [
           'FuCaLA\''
+        ],
+        'sami^g' => [
+          'FaCiL'
         ]
       },
       'index' => '1',
@@ -25047,14 +25226,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sadiymiyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'sadiym',
       'form' => 'sadiymiyy',
       'lines' => [
         ';; sadiymiy~_1',
         'sadiymiy~       N/ap    nebular;nebulous     [[sadiymiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'sadiymiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL |< Iy',
@@ -25739,14 +25924,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'musawqar' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'musawqar',
       'form' => 'musawqar',
       'lines' => [
         ';; musawoqar_1',
         'musawoqar       N/ap    insured;registered     [[musawoqar/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'musawqar' => [
+          'MuKaRDaS'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MuKaRDaS',
@@ -26814,14 +27007,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'samakiyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'samak',
       'form' => 'samakiyy',
       'lines' => [
         ';; samakiy~_1',
         'samakiy~        N/ap    fish-like;fish     [[samakiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'samakiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCaL |< Iy',
@@ -27241,6 +27440,9 @@ $Lexicon = {
       'types' => {
         'sabAyY' => {
           'N0_Nhy' => 1
+        },
+        'sabiyy' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'sabiyy',
@@ -27251,6 +27453,9 @@ $Lexicon = {
         'sabAyA  N0_Nhy  captives;prisoners'
       ],
       'patterns' => {
+        'sabiyy' => [
+          'FaCIL'
+        ],
         'sabAyY' => [
           'FaCALY'
         ]
@@ -29257,6 +29462,9 @@ $Lexicon = {
         },
         'sifAh' => {
           'N' => 1
+        },
+        'safiyh' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'safiyh',
@@ -29275,6 +29483,9 @@ $Lexicon = {
         ],
         'sifAh' => [
           'FiCAL'
+        ],
+        'safiyh' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -30402,6 +30613,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'sAlib' => {
+          'N/ap' => 2
+        },
         'sawAlib' => {
           'Ndip' => 1
         }
@@ -30415,6 +30629,9 @@ $Lexicon = {
         'sawAlib Ndip    negatives'
       ],
       'patterns' => {
+        'sAlib' => [
+          'FACiL'
+        ],
         'sawAlib' => [
           'FawACiL'
         ]
@@ -31134,6 +31351,9 @@ $Lexicon = {
         },
         'su^guwd' => {
           'N' => 1
+        },
+        'sA^gid' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'sA^gid',
@@ -31147,6 +31367,9 @@ $Lexicon = {
       'patterns' => {
         'su^g^gad' => [
           'FuCCaL'
+        ],
+        'sA^gid' => [
+          'FACiL'
         ],
         'su^guwd' => [
           'FuCUL'
@@ -31170,6 +31393,9 @@ $Lexicon = {
         },
         'su^guwd' => {
           'N' => 1
+        },
+        'sA^gid' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'sA^gid',
@@ -31183,6 +31409,9 @@ $Lexicon = {
       'patterns' => {
         'su^g^gad' => [
           'FuCCaL'
+        ],
+        'sA^gid' => [
+          'FACiL'
         ],
         'su^guwd' => [
           'FuCUL'
@@ -33642,14 +33871,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sakuwt' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'sakuwt',
       'form' => 'sakuwt',
       'lines' => [
         ';; sakuwt_1',
         'sakuwt  N/ap    taciturn     [[sakuwt/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'sakuwt' => [
+          'FaCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCUL',
@@ -34183,14 +34420,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'suwqiyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'suwq',
       'form' => 'suwqiyy',
       'lines' => [
         ';; suwqiy~_1',
         'suwqiy~ N/ap    market;vulgar     [[suwqiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'suwqiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FUL |< Iy',
@@ -34929,6 +35172,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'safiyr' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'safiyr',
@@ -34943,6 +35189,9 @@ $Lexicon = {
       'patterns' => {
         'sufarA\'' => [
           'FuCaLA\''
+        ],
+        'safiyr' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -35174,6 +35423,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'sAni.h' => {
+          'N/ap' => 1
+        },
         'sawAni.h' => {
           'Ndip' => 1
         }
@@ -35186,6 +35438,9 @@ $Lexicon = {
         'sawAniH Ndip    auspicious;favorable'
       ],
       'patterns' => {
+        'sAni.h' => [
+          'FACiL'
+        ],
         'sawAni.h' => [
           'FawACiL'
         ]
@@ -35960,14 +36215,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'masduwd' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'masduwd',
       'form' => 'masduwd',
       'lines' => [
         ';; masoduwd_1',
         'masoduwd        N/ap    blocked;closed     [[masoduwd/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'masduwd' => [
+          'MaFCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MaFCUL',
@@ -36075,14 +36338,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sa`af' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'sa`af',
       'form' => 'sa`af',
       'lines' => [
         ';; saEaf_1',
         'saEaf   N/ap    palm leaf'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'sa`af' => [
+          'FaCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCaL',
@@ -36374,14 +36645,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sa_h_hAn' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'sa_h_hAn',
       'form' => 'sa_h_hAn',
       'lines' => [
         ';; sax~An_1',
         'sax~An  N/ap    heater;boiler'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'sa_h_hAn' => [
+          'FaCCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCCAL',
@@ -36394,14 +36673,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sA_hin' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'sA_hin',
       'form' => 'sA_hin',
       'lines' => [
         ';; sAxin_1',
         'sAxin   N/ap    hot;warm     [[sAxin/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'sA_hin' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FACiL',
@@ -38362,6 +38649,9 @@ $Lexicon = {
   's \' s' => [
     {
       'types' => {
+        'sA\'is' => {
+          'N/ap' => 1
+        },
         'suwwAs' => {
           'N' => 1
         }
@@ -38374,6 +38664,9 @@ $Lexicon = {
         'suw~As  N       jockeys;drivers'
       ],
       'patterns' => {
+        'sA\'is' => [
+          'FACiL'
+        ],
         'suwwAs' => []
       },
       'index' => '1',
@@ -39467,7 +39760,9 @@ $Lexicon = {
       'entry' => 'san',
       'form' => 'sanawiyy',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'sanawiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaC |<< "awIy"',
@@ -40161,14 +40456,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sirriyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'sirr',
       'form' => 'sirriyy',
       'lines' => [
         ';; sir~iy~_1',
         'sir~iy~ N/ap    secret;private     [[sir~iy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'sirriyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FiCL |< Iy',
@@ -42685,14 +42986,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'musalsal' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'musalsal',
       'form' => 'musalsal',
       'lines' => [
         ';; musalosal_1',
         'musalosal       N/ap    serial;sequence'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'musalsal' => [
+          'MuKaRDaS'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuKaRDaS',
@@ -42977,6 +43286,9 @@ $Lexicon = {
       'types' => {
         'samA\'iyy' => {
           'N/ap' => 1
+        },
+        'samAwiyy' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'samAwiyy',
@@ -42987,6 +43299,9 @@ $Lexicon = {
         'samA}iy~        N/ap    heavenly;celestial     [[samA}iy~/ADJ]]'
       ],
       'patterns' => {
+        'samAwiyy' => [
+          'KaRADIS'
+        ],
         'samA\'iyy' => []
       },
       'index' => '1',
@@ -44272,14 +44587,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sakiyb' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'sakiyb',
       'form' => 'sakiyb',
       'lines' => [
         ';; sakiyb_1',
         'sakiyb  N/ap    shed;spilled     [[sakiyb/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'sakiyb' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -45889,14 +46212,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'samiyr' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'samiyr',
       'form' => 'samiyr',
       'lines' => [
         ';; samiyr_2',
         'samiyr  N/ap    conversation partner'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'samiyr' => [
+          'FaCIL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -46091,6 +46422,9 @@ $Lexicon = {
       'types' => {
         'summAr' => {
           'N' => 1
+        },
+        'sAmir' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'sAmir',
@@ -46101,6 +46435,9 @@ $Lexicon = {
         'sum~Ar  N       conversationalists;entertainers'
       ],
       'patterns' => {
+        'sAmir' => [
+          'FACiL'
+        ],
         'summAr' => [
           'FuCCAL'
         ]
@@ -46622,14 +46959,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sayyAr' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'sayyAr',
       'form' => 'sayyAr',
       'lines' => [
         ';; say~Ar_1',
         'say~Ar  N/ap    roaming     [[say~Ar/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'sayyAr' => [
+          'FaCCAL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCCAL',
@@ -47573,14 +47918,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sababiyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'sabab',
       'form' => 'sababiyy',
       'lines' => [
         ';; sababiy~_1',
         'sababiy~        N/ap    causal;provoking     [[sababiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'sababiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCaL |< Iy',
@@ -47784,14 +48135,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'musabbab' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'musabbab',
       'form' => 'musabbab',
       'lines' => [
         ';; musab~ab_1',
         'musab~ab        N/ap    effect;caused'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'musabbab' => [
+          'MuFaCCaL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MuFaCCaL',
@@ -47991,6 +48350,9 @@ $Lexicon = {
       'types' => {
         'sawA.ti`' => {
           'Ndip' => 1
+        },
+        'sA.ti`' => {
+          'N/ap' => 2
         }
       },
       'entry' => 'sA.ti`',
@@ -48004,6 +48366,9 @@ $Lexicon = {
       'patterns' => {
         'sawA.ti`' => [
           'FawACiL'
+        ],
+        'sA.ti`' => [
+          'FACiL'
         ]
       },
       'index' => '1',
@@ -49870,6 +50235,9 @@ $Lexicon = {
       'form' => 'sA\'is',
       'lines' => [],
       'patterns' => {
+        'sA\'is' => [
+          'FA\'iL'
+        ],
         'suwwAs' => [
           'FUCAL'
         ]
@@ -50237,7 +50605,11 @@ $Lexicon = {
       'entry' => 'sA\'i.g',
       'form' => 'sA\'i.g',
       'lines' => [],
-      'patterns' => {},
+      'patterns' => {
+        'sA\'i.g' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FACiL',
@@ -50431,6 +50803,9 @@ $Lexicon = {
         'siqAm' => {
           'N' => 1
         },
+        'saqiym' => {
+          'N/ap' => 1
+        },
         'suqamA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -50448,6 +50823,9 @@ $Lexicon = {
         'suqamA} Nhy     ill;emaciated'
       ],
       'patterns' => {
+        'saqiym' => [
+          'FaCIL'
+        ],
         'siqAm' => [
           'FiCAL'
         ],
@@ -50469,6 +50847,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'misqAm' => {
+          'N/ap' => 1
+        },
         'masAqiym' => {
           'Ndip' => 1
         }
@@ -50481,6 +50862,9 @@ $Lexicon = {
         'masAqiym        Ndip    sickly;chronically ill'
       ],
       'patterns' => {
+        'misqAm' => [
+          'MiFCAL'
+        ],
         'masAqiym' => [
           'MaFACIL'
         ]
@@ -50547,6 +50931,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'sariyy' => {
+          'N/ap' => 1
+        },
         'surawA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -50571,6 +50958,9 @@ $Lexicon = {
         'surawA} Nhy     noble;high-ranking'
       ],
       'patterns' => {
+        'sariyy' => [
+          'FaCIL'
+        ],
         'surawA\'' => [],
         '\'asriyA\'' => [
           'HaFCiLA\''
@@ -51958,14 +52348,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sabuw.h' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'sabuw.h',
       'form' => 'sabuw.h',
       'lines' => [
         ';; sabuwH_1',
         'sabuwH  N/ap    swift     [[sabuwH/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'sabuw.h' => [
+          'FaCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCUL',
@@ -53105,14 +53503,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'saliym' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'saliym',
       'form' => 'saliym',
       'lines' => [
         ';; saliym_2',
         'saliym  N/ap    safe'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'saliym' => [
+          'FaCIL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -53125,6 +53531,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'saliym' => {
+          'N/ap' => 1
+        },
         'sulamA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -53141,6 +53550,9 @@ $Lexicon = {
         'sulamA} Nhy     flawless;correct;sound'
       ],
       'patterns' => {
+        'saliym' => [
+          'FaCIL'
+        ],
         'sulamA\'' => [
           'FuCaLA\''
         ]
@@ -53653,6 +54065,9 @@ $Lexicon = {
       'types' => {
         'su_d_da^g' => {
           'N' => 1
+        },
+        'sA_di^g' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'sA_di^g',
@@ -53665,6 +54080,9 @@ $Lexicon = {
       'patterns' => {
         'su_d_da^g' => [
           'FuCCaL'
+        ],
+        'sA_di^g' => [
+          'FACiL'
         ]
       },
       'index' => '1',
@@ -54019,14 +54437,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mas_huw.t' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'mas_huw.t',
       'form' => 'mas_huw.t',
       'lines' => [
         ';; masoxuwT_1',
         'masoxuwT        N/ap    loathsome;odious     [[masoxuwT/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mas_huw.t' => [
+          'MaFCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MaFCUL',
@@ -54040,6 +54466,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'mas_huw.t' => {
+          'N/ap' => 1
+        },
         'masA_hiy.t' => {
           'Ndip' => 1
         }
@@ -54052,6 +54481,9 @@ $Lexicon = {
         'masAxiyT        Ndip    idols'
       ],
       'patterns' => {
+        'mas_huw.t' => [
+          'MaFCUL'
+        ],
         'masA_hiy.t' => [
           'MaFACIL'
         ]
@@ -55101,6 +55533,9 @@ $Lexicon = {
       'types' => {
         'suyyAs' => {
           'N' => 1
+        },
+        'sAyis' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'sAyis',
@@ -55111,6 +55546,9 @@ $Lexicon = {
         'suy~As  N       jockeys;drivers'
       ],
       'patterns' => {
+        'sAyis' => [
+          'FACiL'
+        ],
         'suyyAs' => [
           'FuCCAL'
         ]
@@ -55453,14 +55891,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'masluwq' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'masluwq',
       'form' => 'masluwq',
       'lines' => [
         ';; masoluwq_1',
         'masoluwq        N/ap    cooked;boiled     [[masoluwq/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'masluwq' => [
+          'MaFCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MaFCUL',
@@ -55550,14 +55996,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sin^gAbiyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'sin^gAb',
       'form' => 'sin^gAbiyy',
       'lines' => [
         ';; sinojAbiy~_1',
         'sinojAbiy~      N/ap    gray;ashen     [[sinojAbiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'sin^gAbiyy' => []
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'KiRDAS |< Iy',
@@ -55968,6 +56420,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'sawiyy' => {
+          'N/ap' => 1
+        },
         '\'aswiyA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -55984,6 +56439,9 @@ $Lexicon = {
         'OasowiyA}       Nhy     straight;correct'
       ],
       'patterns' => {
+        'sawiyy' => [
+          'FaCIL'
+        ],
         '\'aswiyA\'' => [
           'HaFCiLA\''
         ]
@@ -56371,14 +56829,22 @@ $Lexicon = {
   ],
   's n y' => [
     {
-      'types' => {},
+      'types' => {
+        'saniyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'saniyy',
       'form' => 'saniyy',
       'lines' => [
         ';; saniy~_1',
         'saniy~  N/ap    splendid;sublime     [[saniy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'saniyy' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -56790,14 +57256,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'sAmiq' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'sAmiq',
       'form' => 'sAmiq',
       'lines' => [
         ';; sAmiq_1',
         'sAmiq   N/ap    towering;tall'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'sAmiq' => [
+          'FACiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FACiL',

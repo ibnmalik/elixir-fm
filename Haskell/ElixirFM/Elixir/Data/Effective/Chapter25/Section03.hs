@@ -28,13 +28,12 @@ cluster_41  = listing "Lexicon's properties"
                               `plural`     TaFACuL |< At,
 
     FA'iL                     `noun`    {- nA}ib -}            [ "deputy", "delegate", unwords [ "vice", "-" ] ]
-                              `plural`     FUCAL,
+                              `plural`     FUCAL
+    `derives` "------F---",
 
     MuFACiL                   `noun`    {- munAwib -}          [ unwords [ "on", "duty" ], unwords [ "on", "call" ] ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ unwords [ "on", "duty" ], unwords [ "on", "call" ] ]
-                              `plural`     MuFACiL |< At,
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---",
 
     FUL |< Iy                 `adj`     {- nuwbiy~ -}          [ "Nubian" ]
                               `plural`     FUL |< aT
@@ -299,10 +298,8 @@ cluster_46  = listing "Lexicon's properties"
     FACiL                     `adj`     {- nAziH -}            [ "distant", "remote" ],
 
     FACiL                     `noun`    {- nAziH -}            [ "emigrant" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "emigrant" ]
-                              `plural`     FACiL |< At ]
+                              `plural`     FACiL |< Un
+    `derives` "------F---" ]
 
  |> "n z `" <| [
 
@@ -327,10 +324,8 @@ cluster_46  = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- manozuwE -}         [ "removed", unwords [ "taken", "away" ] ],
 
     MuFACiL                   `noun`    {- munAziE -}          [ "struggling", "contending" ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "struggling", "contending" ]
-                              `plural`     MuFACiL |< At,
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---",
 
     MutaFACaL                 `adj`     {- mutanAzaE -}        [ "contested", "disputed" ],
 
@@ -393,7 +388,8 @@ cluster_48  = listing "Lexicon's properties"
     FuCUL                     `noun`    {- nuzuwl -}           [ "descent", "resignation" ],
 
     FaCIL                     `noun`    {- naziyl -}           [ "inmate", "tenant" ]
-                              `plural`     FuCaLA',
+                              `plural`     FuCaLA'
+    `derives` "------F---",
 
     MaFCiL                    `noun`    {- manozil -}          [ "house", "residence" ]
                               `plural`     MaFACiL,
@@ -407,10 +403,8 @@ cluster_48  = listing "Lexicon's properties"
                               `plural`     TaFACuL |< At,
 
     FACiL                     `noun`    {- nAzil -}            [ "staying", "lodged" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "staying", "lodged" ]
-                              `plural`     FACiL |< At ]
+                              `plural`     FACiL |< Un
+    `derives` "------F---" ]
 
  |> "n z r" <| [
 

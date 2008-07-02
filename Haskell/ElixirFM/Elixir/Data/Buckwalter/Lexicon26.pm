@@ -4483,6 +4483,9 @@ $Lexicon = {
         'hazlY' => {
           'N0' => 1
         },
+        'haziyl' => {
+          'N/ap' => 1
+        },
         'hazlA' => {
           'Nhy' => 1
         }
@@ -4498,6 +4501,9 @@ $Lexicon = {
       'patterns' => {
         'hazlY' => [
           'FaCLY'
+        ],
+        'haziyl' => [
+          'FaCIL'
         ],
         'hazlA' => []
       },
@@ -4600,14 +4606,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mahzuwl' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'mahzuwl',
       'form' => 'mahzuwl',
       'lines' => [
         ';; mahozuwl_1',
         'mahozuwl        N/ap    emaciated;gaunt;weak     [[mahozuwl/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mahzuwl' => [
+          'MaFCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'MaFCUL',
@@ -9518,6 +9532,9 @@ $Lexicon = {
       'types' => {
         'harA.tiq' => {
           'Nap' => 1
+        },
+        'har.tuwqiyy' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'har.tuwq',
@@ -9530,7 +9547,8 @@ $Lexicon = {
       'patterns' => {
         'harA.tiq' => [
           'KaRADiS'
-        ]
+        ],
+        'har.tuwqiyy' => []
       },
       'index' => '1',
       'entity' => 'noun',
@@ -10512,14 +10530,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'muhaymin' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'muhaymin',
       'form' => 'muhaymin',
       'lines' => [
         ';; muhayomin_2',
         'muhayomin       N/ap    guardian;protector'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'muhaymin' => [
+          'MuKaRDiS'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'MuKaRDiS',
@@ -17631,6 +17657,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'ha^giyn' => {
+          'N/ap' => 1
+        },
         'hu^ganA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -17647,6 +17676,9 @@ $Lexicon = {
         'hujanA} Nhy     half-breeds;mulattos'
       ],
       'patterns' => {
+        'ha^giyn' => [
+          'FaCIL'
+        ],
         'hu^ganA\'' => [
           'FuCaLA\''
         ]
@@ -18256,6 +18288,9 @@ $Lexicon = {
         'halkY' => {
           'N0' => 1
         },
+        'hAlik' => {
+          'N/ap' => 1
+        },
         'hullak' => {
           'N' => 1
         }
@@ -18277,6 +18312,9 @@ $Lexicon = {
         ],
         'halkY' => [
           'FaCLY'
+        ],
+        'hAlik' => [
+          'FACiL'
         ],
         'hullak' => [
           'FuCCaL'
@@ -26841,14 +26879,20 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'hawwAriyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'hawwAr',
       'form' => 'hawwAriyy',
       'lines' => [
         ';; haw~Ariy~_1',
         'haw~Ariy~       N/ap    volunteer;irregular soldier     [[haw~Ariy~/NOUN]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'hawwAriyy' => []
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCCAL |< Iy',
@@ -29557,6 +29601,9 @@ $Lexicon = {
       'types' => {
         'hummal' => {
           'N' => 1
+        },
+        'hAmil' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'hAmil',
@@ -29569,6 +29616,9 @@ $Lexicon = {
       'patterns' => {
         'hummal' => [
           'FuCCaL'
+        ],
+        'hAmil' => [
+          'FACiL'
         ]
       },
       'index' => '1',
@@ -29965,14 +30015,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'hadib' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'hadib',
       'form' => 'hadib',
       'lines' => [
         ';; hadib_1',
         'hadib   N/ap    having long lashes'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'hadib' => [
+          'FaCiL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCiL',
@@ -30402,6 +30460,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'hindiyy' => {
+          'N/ap' => 1
+        },
         'hunuwd' => {
           'N' => 1
         }
@@ -30414,6 +30475,7 @@ $Lexicon = {
         'hunuwd  N       Indians'
       ],
       'patterns' => {
+        'hindiyy' => [],
         'hunuwd' => [
           'FuCUL'
         ]

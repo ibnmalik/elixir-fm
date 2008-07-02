@@ -54,10 +54,8 @@ cluster_1   = listing "Lexicon's properties"
     FACiL                     `noun`    {- yAfiE -}            [ "Yafie" ],
 
     FACiL                     `noun`    {- yAfiE -}            [ "adolescent", "teenager" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "adolescent", "teenager" ]
-                              `plural`     FACiL |< At ]
+                              `plural`     FACiL |< Un
+    `derives` "------F---" ]
 
  |> "y h d" <| [
 
@@ -151,10 +149,8 @@ cluster_3   = listing "Lexicon's properties"
 
     FaCiL                     `noun`    {- yaqin -}            [ "credulous", "ingenuous" ]
                               `plural`     FaCiL |< Un
-                              `plural`     FaCaL |< aT,
-
-    FaCiL |< aT               `noun`    {- DERIVED -}          [ "credulous", "ingenuous" ]
-                              `plural`     FaCiL |< At,
+                              `plural`     FaCaL |< aT
+    `derives` "------F---",
 
     FaCIL                     `noun`    {- yaqiyn -}           [ "certainty", "certitude", "conviction" ],
 
@@ -214,7 +210,8 @@ cluster_4   = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- yatiym -}           [ "orphan", "unique" ]
                               `plural`     FaCALY
-                              `plural`     HaFCAL ]
+                              `plural`     HaFCAL
+    `derives` "------F---" ]
 
  |> "y w b l" <| [
 

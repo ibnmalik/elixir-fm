@@ -205,6 +205,9 @@ $Lexicon = {
         'manAkiyd' => {
           'Ndip' => 1
         },
+        'nakid' => {
+          'N/ap' => 1
+        },
         '\'ankAd' => {
           'N' => 1
         }
@@ -218,6 +221,9 @@ $Lexicon = {
         'manAkiyd        Ndip    irritable;bad-tempered'
       ],
       'patterns' => {
+        'nakid' => [
+          'FaCiL'
+        ],
         'manAkiyd' => [
           'MaFACIL'
         ],
@@ -758,6 +764,9 @@ $Lexicon = {
       'types' => {
         'nuqqa.s' => {
           'N' => 1
+        },
+        'nAqi.s' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'nAqi.s',
@@ -770,6 +779,9 @@ $Lexicon = {
       'patterns' => {
         'nuqqa.s' => [
           'FuCCaL'
+        ],
+        'nAqi.s' => [
+          'FACiL'
         ]
       },
       'index' => '1',
@@ -3292,6 +3304,9 @@ $Lexicon = {
         },
         'nu.h.hal' => {
           'N' => 1
+        },
+        'na.hiyl' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'na.hiyl',
@@ -3308,6 +3323,9 @@ $Lexicon = {
         ],
         'nu.h.hal' => [
           'FuCCaL'
+        ],
+        'na.hiyl' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -4150,6 +4168,9 @@ $Lexicon = {
           'Nhy' => 1,
           'N0_Nh' => 1
         },
+        'na.hiyf' => {
+          'N/ap' => 1
+        },
         'ni.hAf' => {
           'N' => 1
         }
@@ -4167,6 +4188,9 @@ $Lexicon = {
       'patterns' => {
         'nu.hafA\'' => [
           'FuCaLA\''
+        ],
+        'na.hiyf' => [
+          'FaCIL'
         ],
         'ni.hAf' => [
           'FiCAL'
@@ -5186,6 +5210,9 @@ $Lexicon = {
   'n m r s' => [
     {
       'types' => {
+        'numrusiyy' => {
+          'N/ap' => 1
+        },
         'namAris' => {
           'Nap' => 1
         }
@@ -5198,6 +5225,7 @@ $Lexicon = {
         'namAris Nap     chinaware dealers'
       ],
       'patterns' => {
+        'numrusiyy' => [],
         'namAris' => [
           'KaRADiS'
         ]
@@ -12204,6 +12232,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'naziyl' => {
+          'N/ap' => 1
+        },
         'nuzalA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -12220,6 +12251,9 @@ $Lexicon = {
         'nuzalA} Nhy     inmates;tenants'
       ],
       'patterns' => {
+        'naziyl' => [
+          'FaCIL'
+        ],
         'nuzalA\'' => [
           'FuCaLA\''
         ]
@@ -17848,6 +17882,9 @@ $Lexicon = {
       'types' => {
         'nuwwAb' => {
           'N' => 1
+        },
+        'nA\'ib' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'nA\'ib',
@@ -17858,7 +17895,10 @@ $Lexicon = {
         'nuw~Ab  N       deputies;delegates'
       ],
       'patterns' => {
-        'nuwwAb' => []
+        'nuwwAb' => [],
+        'nA\'ib' => [
+          'FACiL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -18281,6 +18321,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'nuwtiyy' => {
+          'N/ap' => 1
+        },
         'nawAtiyy' => {
           'N' => 1
         }
@@ -18294,6 +18337,7 @@ $Lexicon = {
         'nuwtiy~ Nap     crew;sailors     [[nuwtiy~/NOUN]]'
       ],
       'patterns' => {
+        'nuwtiyy' => [],
         'nawAtiyy' => []
       },
       'index' => '1',
@@ -19518,6 +19562,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'nA.si.h' => {
+          'N/ap' => 1
+        },
         'nu.s.sA.h' => {
           'N' => 1
         },
@@ -19534,6 +19581,9 @@ $Lexicon = {
         'nuSaH   N       advisors;counselors'
       ],
       'patterns' => {
+        'nA.si.h' => [
+          'FACiL'
+        ],
         'nu.s.sA.h' => [
           'FuCCAL'
         ],
@@ -20168,14 +20218,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'nahiym' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'nahiym',
       'form' => 'nahiym',
       'lines' => [
         ';; nahiym_1',
         'nahiym  N/ap    greedy;voracious     [[nahiym/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'nahiym' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -22645,14 +22703,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'nadiyy' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'nadiyy',
       'form' => 'nadiyy',
       'lines' => [
         ';; nadiy~_1',
         'nadiy~  N/ap    moist;damp;generous     [[nadiy~/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'nadiyy' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FaCIL',
@@ -28089,6 +28155,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'nA.sib' => {
+          'N/ap' => 1
+        },
         'nawA.sib' => {
           'Ndip' => 1
         }
@@ -28101,6 +28170,9 @@ $Lexicon = {
         'nawASib Ndip    words (eg. prepositions) governing the subjunctive'
       ],
       'patterns' => {
+        'nA.sib' => [
+          'FACiL'
+        ],
         'nawA.sib' => [
           'FawACiL'
         ]
@@ -28612,6 +28684,9 @@ $Lexicon = {
       'types' => {
         'nuzzA`' => {
           'N' => 1
+        },
+        'naziy`' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'naziy`',
@@ -28624,6 +28699,9 @@ $Lexicon = {
       'patterns' => {
         'nuzzA`' => [
           'FuCCAL'
+        ],
+        'naziy`' => [
+          'FaCIL'
         ]
       },
       'index' => '1',
@@ -30836,6 +30914,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'nabiyh' => {
+          'N/ap' => 1
+        },
         'nubahA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -30852,6 +30933,9 @@ $Lexicon = {
         'nubahA} Nhy     eminent;noble'
       ],
       'patterns' => {
+        'nabiyh' => [
+          'FaCIL'
+        ],
         'nubahA\'' => [
           'FuCaLA\''
         ]
@@ -31661,6 +31745,9 @@ $Lexicon = {
       'patterns' => {
         'nuwwAb' => [
           'FUCAL'
+        ],
+        'nA\'ib' => [
+          'FA\'iL'
         ]
       },
       'index' => '1',
@@ -32442,6 +32529,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'na_dl' => {
+          'N/ap' => 1
+        },
         'nu_duwl' => {
           'N' => 1
         },
@@ -32458,6 +32548,9 @@ $Lexicon = {
         'nu*uwl  N       despicable'
       ],
       'patterns' => {
+        'na_dl' => [
+          'FaCL'
+        ],
         'nu_duwl' => [
           'FuCUL'
         ],
@@ -32480,6 +32573,9 @@ $Lexicon = {
         'ni_dAl' => {
           'N' => 1
         },
+        'na_diyl' => {
+          'N/ap' => 1
+        },
         'nu_dalA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -32497,6 +32593,9 @@ $Lexicon = {
         'ni*Al   N       despicable'
       ],
       'patterns' => {
+        'na_diyl' => [
+          'FaCIL'
+        ],
         'ni_dAl' => [
           'FiCAL'
         ],
@@ -35445,6 +35544,9 @@ $Lexicon = {
   'n .h r r' => [
     {
       'types' => {
+        'ni.hriyr' => {
+          'N/ap' => 1
+        },
         'na.hAriyr' => {
           'Ndip' => 1
         }
@@ -35457,6 +35559,9 @@ $Lexicon = {
         'naHAriyr        Ndip    skilled;experience'
       ],
       'patterns' => {
+        'ni.hriyr' => [
+          'KiRDIS'
+        ],
         'na.hAriyr' => [
           'KaRADIS'
         ]
@@ -37703,6 +37808,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'na`iym' => {
+          'N/ap' => 1
+        },
         'na`A\'im' => {
           'Ndip' => 1
         }
@@ -37715,6 +37823,9 @@ $Lexicon = {
         'naEA}im Ndip    stars in Sagitta'
       ],
       'patterns' => {
+        'na`iym' => [
+          'FaCIL'
+        ],
         'na`A\'im' => [
           'FaCA\'iL'
         ]
@@ -39213,6 +39324,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'nAdil' => {
+          'N/ap' => 1
+        },
         'nudul' => {
           'N' => 1
         }
@@ -39225,6 +39339,9 @@ $Lexicon = {
         'nudul   N       waiters;servants'
       ],
       'patterns' => {
+        'nAdil' => [
+          'FACiL'
+        ],
         'nudul' => [
           'FuCuL'
         ]
@@ -41104,14 +41221,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'na.giyl' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'na.giyl',
       'form' => 'na.giyl',
       'lines' => [
         ';; nagiyl_1',
         'nagiyl  N/ap    illegitimate child;bastard'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'na.giyl' => [
+          'FaCIL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -41240,6 +41365,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'na^giyy' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'na^giyy',
@@ -41254,6 +41382,9 @@ $Lexicon = {
       'patterns' => {
         '\'an^giyA\'' => [
           'HaFCiLA\''
+        ],
+        'na^giyy' => [
+          'FaCIL'
         ]
       },
       'index' => '2',
@@ -43037,6 +43168,9 @@ $Lexicon = {
         'ni^sA.t' => {
           'N' => 1
         },
+        'na^siy.t' => {
+          'N/ap' => 1
+        },
         'nu^sa.tA\'' => {
           'Nh' => 2,
           'Nhy' => 2,
@@ -43059,6 +43193,9 @@ $Lexicon = {
       'patterns' => {
         'ni^sA.t' => [
           'FiCAL'
+        ],
+        'na^siy.t' => [
+          'FaCIL'
         ],
         'nu^sa.tA\'' => [
           'FuCaLA\''
@@ -44667,6 +44804,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'nadiym' => {
+          'N/ap' => 1
+        },
         'nidAm' => {
           'N' => 1
         },
@@ -44687,6 +44827,9 @@ $Lexicon = {
         'nidAm   N       confidants;close friends'
       ],
       'patterns' => {
+        'nadiym' => [
+          'FaCIL'
+        ],
         'nudamA\'' => [
           'FuCaLA\''
         ],
@@ -44829,6 +44972,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'nAdim' => {
+          'N/ap' => 1
+        },
         'nuddAm' => {
           'N' => 1
         }
@@ -44841,6 +44987,9 @@ $Lexicon = {
         'nud~Am  N       remorseful;repenting'
       ],
       'patterns' => {
+        'nAdim' => [
+          'FACiL'
+        ],
         'nuddAm' => [
           'FuCCAL'
         ]
@@ -45118,6 +45267,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'nabiyl' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'nabiyl',
@@ -45136,6 +45288,9 @@ $Lexicon = {
         ],
         'nubalA\'' => [
           'FuCaLA\''
+        ],
+        'nabiyl' => [
+          'FaCIL'
         ]
       },
       'index' => '2',
@@ -48563,6 +48718,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'nA.dib' => {
+          'N/ap' => 1
+        },
         'nu.d.dab' => {
           'N' => 1
         }
@@ -48575,6 +48733,9 @@ $Lexicon = {
         'nuD~ab  N       barren;sterile;arid'
       ],
       'patterns' => {
+        'nA.dib' => [
+          'FACiL'
+        ],
         'nu.d.dab' => [
           'FuCCaL'
         ]
@@ -49955,6 +50116,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'nA.sif' => {
+          'N/ap' => 1
+        },
         'nu.s.sAf' => {
           'N' => 1
         }
@@ -49967,6 +50131,9 @@ $Lexicon = {
         'nuS~Af  N       servants'
       ],
       'patterns' => {
+        'nA.sif' => [
+          'FACiL'
+        ],
         'nu.s.sAf' => [
           'FuCCAL'
         ]
@@ -53026,6 +53193,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'nA`is' => {
+          'N/ap' => 1
+        },
         'nu`s' => {
           'N' => 1
         }
@@ -53038,6 +53208,9 @@ $Lexicon = {
         'nuEos   N       sleepy;drowsy;asleep'
       ],
       'patterns' => {
+        'nA`is' => [
+          'FACiL'
+        ],
         'nu`s' => [
           'FuCL'
         ]
@@ -54510,6 +54683,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'nadiyd' => {
+          'N/ap' => 1
+        },
         'nudadA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -54526,6 +54702,9 @@ $Lexicon = {
         'nudadA} Nhy     peers;rivals'
       ],
       'patterns' => {
+        'nadiyd' => [
+          'FaCIL'
+        ],
         'nudadA\'' => [
           'FuCaLA\''
         ]
@@ -62626,6 +62805,9 @@ $Lexicon = {
         'na.zA\'ir' => {
           'Ndip' => 1
         },
+        'na.ziyr' => {
+          'N/ap' => 1
+        },
         'nu.zarA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -62645,6 +62827,9 @@ $Lexicon = {
       'patterns' => {
         'na.zA\'ir' => [
           'FaCA\'iL'
+        ],
+        'na.ziyr' => [
+          'FaCIL'
         ],
         'nu.zarA\'' => [
           'FuCaLA\''
@@ -62717,6 +62902,9 @@ $Lexicon = {
       'types' => {
         'na.zAr' => {
           'Nap' => 1
+        },
+        'na.z.zAr' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'na.z.zAr',
@@ -62727,6 +62915,9 @@ $Lexicon = {
         'naZAr   Nap     spectators'
       ],
       'patterns' => {
+        'na.z.zAr' => [
+          'FaCCAL'
+        ],
         'na.zAr' => [
           'FaCAL'
         ]
@@ -63927,14 +64118,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'na^giyb' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'na^giyb',
       'form' => 'na^giyb',
       'lines' => [
         ';; najiyb_2',
         'najiyb  N/ap    noble;excellent'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'na^giyb' => [
+          'FaCIL'
+        ]
+      },
       'index' => '2',
       'entity' => 'noun',
       'morphs' => 'FaCIL',
@@ -65011,6 +65210,9 @@ $Lexicon = {
     },
     {
       'types' => {
+        'naziyh' => {
+          'N/ap' => 1
+        },
         'nuzahA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -65031,6 +65233,9 @@ $Lexicon = {
         'nizAh   N       blameless;righteous;fair;impartial'
       ],
       'patterns' => {
+        'naziyh' => [
+          'FaCIL'
+        ],
         'nuzahA\'' => [
           'FuCaLA\''
         ],
@@ -65777,14 +65982,22 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'mankuw.h' => {
+          'N/ap' => 1
+        }
+      },
       'entry' => 'mankuw.h',
       'form' => 'mankuw.h',
       'lines' => [
         ';; manokuwH_1',
         'manokuwH        N/ap    married woman'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'mankuw.h' => [
+          'MaFCUL'
+        ]
+      },
       'index' => '1',
       'entity' => 'noun',
       'morphs' => 'MaFCUL',
@@ -66447,6 +66660,9 @@ $Lexicon = {
         },
         'na.sArA' => {
           'Nhy' => 1
+        },
+        'na.srAniyy' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'na.srAn',
@@ -66461,7 +66677,8 @@ $Lexicon = {
         'na.sArY' => [
           'FaCALY'
         ],
-        'na.sArA' => []
+        'na.sArA' => [],
+        'na.srAniyy' => []
       },
       'index' => '1',
       'entity' => 'adj',
@@ -66537,6 +66754,9 @@ $Lexicon = {
           'Nh' => 1,
           'Nhy' => 1,
           'N0_Nh' => 1
+        },
+        'na.siyr' => {
+          'N/ap' => 1
         }
       },
       'entry' => 'na.siyr',
@@ -66549,6 +66769,9 @@ $Lexicon = {
         'nuSarA} Nhy     partisan;supporter'
       ],
       'patterns' => {
+        'na.siyr' => [
+          'FaCIL'
+        ],
         'nu.sarA\'' => [
           'FuCaLA\''
         ]
@@ -67917,6 +68140,9 @@ $Lexicon = {
         'ni.zAf' => {
           'N' => 1
         },
+        'na.ziyf' => {
+          'N/ap' => 1
+        },
         'nu.zafA\'' => {
           'Nh' => 1,
           'Nhy' => 1,
@@ -67934,6 +68160,9 @@ $Lexicon = {
         'niZAf   N       clean;tidy'
       ],
       'patterns' => {
+        'na.ziyf' => [
+          'FaCIL'
+        ],
         'ni.zAf' => [
           'FiCAL'
         ],
@@ -70163,6 +70392,9 @@ $Lexicon = {
         'nuffar' => {
           'N' => 1
         },
+        'nAfir' => {
+          'N/ap' => 1
+        },
         'nafr' => {
           'N' => 1
         }
@@ -70178,6 +70410,9 @@ $Lexicon = {
       'patterns' => {
         'nuffar' => [
           'FuCCaL'
+        ],
+        'nAfir' => [
+          'FACiL'
         ],
         'nafr' => [
           'FaCL'

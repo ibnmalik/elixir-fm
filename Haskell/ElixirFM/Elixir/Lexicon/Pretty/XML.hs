@@ -136,13 +136,15 @@ instance (Show a, Pretty [a]) => Pretty (Entity a) where
             					++
             					eraseNothing v [ elemtxt "voice" [] $ pretty v ]
 
-                            Noun l g n          ->  elemesp "Noun" $
+                            Noun l g n d        ->  elemesp "Noun" $
 
                                 eraseEmpty   l [ elemtxt "plural" [] $ pretty l ]
                                 ++
                                 eraseNothing g [ elemtxt "gender" [] $ pretty g ]
                                 ++
                                 eraseNothing n [ elemtxt "number" [] $ pretty n ]
+                                ++
+                                eraseNothing d [ elemtxt "derive" [] $ pretty d ]
 
                             Adj  l n            ->  elemesp "Adj" $
 

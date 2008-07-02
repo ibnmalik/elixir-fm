@@ -61,10 +61,8 @@ cluster_81  = listing "Lexicon's properties"
     FuCAL |< aT               `noun`    {- juzAzap -}          [ "tag", "label" ],
 
     FaCCAL                    `noun`    {- jaz~Az -}           [ unwords [ "wool", "shearer" ] ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "wool", "shearer" ] ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     MiFaCL                    `noun`    {- mijaz~ -}           [ unwords [ "wool", "shears" ] ] ]
 

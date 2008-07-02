@@ -104,16 +104,12 @@ cluster_42  = listing "Lexicon's properties"
     MuFIL                     `adj`     {- muTiyE -}           [ "obedient", "disciplined" ],
 
     MutaFaCCiL                `noun`    {- mutaTaw~iE -}       [ "volunteer", unwords [ "unsalaried", "trainee" ] ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "volunteer", unwords [ "unsalaried", "trainee" ] ]
-                              `plural`     MutaFaCCiL |< At,
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---",
 
     MuFtAL                    `noun`    {- muT~AE -}           [ "volunteer", unwords [ "unsalaried", "trainee" ] ]
-                              `plural`     MuFtAL |< Un,
-
-    MuFtAL |< aT              `noun`    {- DERIVED -}          [ "volunteer", unwords [ "unsalaried", "trainee" ] ]
-                              `plural`     MuFtAL |< At,
+                              `plural`     MuFtAL |< Un
+    `derives` "------F---",
 
     MustaFAL                  `noun`    {- musotaTAE -}        [ "possible", "feasible" ] ]
 
@@ -133,10 +129,8 @@ cluster_43  = listing "Lexicon's properties"
     FUL |< aT                 `noun`    {- Tuwbap -}           [ "Tuba" ],
 
     FaCCAL                    `noun`    {- Taw~Ab -}           [ unwords [ "brick", "-", "maker" ] ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "brick", "-", "maker" ] ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- Taw~Ab -}           [ "Tawwab" ],
 
@@ -458,10 +452,8 @@ cluster_49  = listing "Lexicon's properties"
                               `pfirst`     FiL,
 
     FA'iL                     `noun`    {- TA}i$ -}            [ "reckless", unwords [ "out", "of", "control" ] ]
-                              `plural`     FA'iL |< Un,
-
-    FA'iL |< aT               `noun`    {- DERIVED -}          [ "reckless", unwords [ "out", "of", "control" ] ]
-                              `plural`     FA'iL |< At,
+                              `plural`     FA'iL |< Un
+    `derives` "------F---",
 
     FaCL                      `noun`    {- Tayo$ -}            [ "inconstancy", "recklessness" ],
 
@@ -517,10 +509,8 @@ cluster_50  = listing "Lexicon's properties"
     FIL |< aT                 `noun`    {- Tiybap -}           [ unwords [ "good", "nature" ], "goodness" ],
 
     FaCCAL                    `noun`    {- Tay~Ab -}           [ "masseur" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "masseur" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCCAL                    `noun`    {- Tay~Ab -}           [ "Tayyab" ],
 
@@ -610,10 +600,8 @@ cluster_52  = listing "Lexicon's properties"
     FIL |< aT                 `noun`    {- Tiyrap -}           [ unwords [ "evil", "omen" ] ],
 
     FaCCAL                    `noun`    {- Tay~Ar -}           [ "aviator", "pilot", "flyer" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL |< aT              `noun`    {- DERIVED -}          [ "aviator", "pilot", "flyer" ]
-                              `plural`     FaCCAL |< At,
+                              `plural`     FaCCAL |< Un
+    `derives` "------F---",
 
     FaCaLAn                   `noun`    {- TayarAn -}          [ "airline", "aviation" ],
 

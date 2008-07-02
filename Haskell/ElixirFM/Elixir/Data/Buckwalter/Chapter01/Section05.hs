@@ -55,10 +55,8 @@ cluster_81  = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- IiyAlap -}          [ "district" ],
 
     FA'iL                     `noun`    {- \|}il -}            [ "reversible", "ready" ]
-                              `plural`     FA'iL |< Un,
-
-    FA'iL |< aT               `noun`    {- DERIVED -}          [ "reversible", "ready" ]
-                              `plural`     FA'iL |< At,
+                              `plural`     FA'iL |< Un
+    `derives` "------F---",
 
     FaCCiL                    `noun`    {- Oay~il -}           [ "stag", "buck", "doe", "deer" ]
                               `plural`     FaCCiL |< At
@@ -261,10 +259,8 @@ cluster_84  = listing "Lexicon's properties"
     FuCUL                     `noun`    {- OuzuwH -}           [ "contraction", "retraction" ],
 
     FaCUL                     `noun`    {- OazuwH -}           [ "lethargic", "indolent" ]
-                              `plural`     FaCUL |< Un,
-
-    FaCUL |< aT               `noun`    {- DERIVED -}          [ "lethargic", "indolent" ]
-                              `plural`     FaCUL |< At ]
+                              `plural`     FaCUL |< Un
+    `derives` "------F---" ]
 
 
 cluster_85  = listing "Lexicon's properties"
@@ -339,23 +335,17 @@ cluster_86  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- \|zim -}            [ "critical", "decisive" ]
                               `plural`     HACiL |< Un
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "critical", "decisive" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
 
     HACiL                     `noun`    {- \|zim -}            [ "critical", "decisive" ]
                               `plural`     HACiL |< Un
-                              `plural`     FACiL |< Un,
-
-    HACiL |< aT               `noun`    {- DERIVED -}          [ "critical", "decisive" ]
-                              `plural`     HACiL |< At,
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
 
     MaFCUL                    `noun`    {- maOozuwm -}         [ unwords [ "crisis", "victim" ], "chagrined" ]
-                              `plural`     MaFCUL |< Un,
-
-    MaFCUL |< aT              `noun`    {- DERIVED -}          [ unwords [ "crisis", "victim" ], "chagrined" ]
-                              `plural`     MaFCUL |< At,
+                              `plural`     MaFCUL |< Un
+    `derives` "------F---",
 
     TaFCIL                    `noun`    {- taOoziym -}         [ "aggravation", unwords [ "making", "critical" ] ]
                               `plural`     TaFCIL |< At,
@@ -364,10 +354,8 @@ cluster_86  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At,
 
     MutaFaCCiL                `noun`    {- mutaOaz~im -}       [ "tense", "critical" ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "tense", "critical" ]
-                              `plural`     MutaFaCCiL |< At ]
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---" ]
 
  |> "' z m l" <| [
 
@@ -427,16 +415,12 @@ cluster_87  = listing "Lexicon's properties"
                               `plural`     TaFACuL |< At,
 
     MutaFACiL                 `noun`    {- muta|zir -}         [ "cooperating", "coordinating" ]
-                              `plural`     MutaFACiL |< Un,
-
-    MutaFACiL |< aT           `noun`    {- DERIVED -}          [ "cooperating", "coordinating" ]
-                              `plural`     MutaFACiL |< At,
+                              `plural`     MutaFACiL |< Un
+    `derives` "------F---",
 
     MuFtaCiL                  `noun`    {- muWotazir -}        [ "supporter" ]
-                              `plural`     MuFtaCiL |< Un,
-
-    MuFtaCiL |< aT            `noun`    {- DERIVED -}          [ "supporter" ]
-                              `plural`     MuFtaCiL |< At ]
+                              `plural`     MuFtaCiL |< Un
+    `derives` "------F---" ]
 
  |> "' z s" <| [
 

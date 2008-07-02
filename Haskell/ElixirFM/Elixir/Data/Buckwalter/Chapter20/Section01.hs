@@ -147,10 +147,8 @@ cluster_2   = listing "Lexicon's properties"
     FAL |< aT                 `noun`    {- fAzap -}            [ "vase" ],
 
     FACiL                     `noun`    {- fA}iz -}            [ "winner", "victorious" ]
-                              `plural`     FACiL |< Un,
-
-    FACiL |< aT               `noun`    {- DERIVED -}          [ "winner", "victorious" ]
-                              `plural`     FACiL |< At,
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
 
     FACiL                     `noun`    {- fA}iz -}            [ "Fayez", "Fayiz", "Fa'iz" ] ]
 

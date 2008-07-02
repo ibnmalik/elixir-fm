@@ -88,10 +88,8 @@ cluster_42  = listing "Lexicon's properties"
                               `plural`     IFtiyAL |< At,
 
     MuFtAL                    `noun`    {- muHotAj -}          [ unwords [ "in", "need" ], "wanting", "requiring" ]
-                              `plural`     MuFtAL |< Un,
-
-    MuFtAL |< aT              `noun`    {- DERIVED -}          [ unwords [ "in", "need" ], "wanting", "requiring" ]
-                              `plural`     MuFtAL |< At ]
+                              `plural`     MuFtAL |< Un
+    `derives` "------F---" ]
 
  |> ".h w _d" <| [
 
@@ -175,18 +173,14 @@ cluster_43  = listing "Lexicon's properties"
     IstiFAL |< aT             `noun`    {- AisotiHAlap -}      [ "change", "transformation" ],
 
     MuFaCCiL                  `noun`    {- muHaw~il -}         [ "converter", "transformer" ]
-                              `plural`     MuFaCCiL |< Un,
-
-    MuFaCCiL |< aT            `noun`    {- DERIVED -}          [ "converter", "transformer" ]
-                              `plural`     MuFaCCiL |< At,
+                              `plural`     MuFaCCiL |< Un
+    `derives` "------F---",
 
     MuFAL                     `adj`     {- muHAl -}            [ "absurd", "impossible" ],
 
     MuFACiL                   `noun`    {- muHAwil -}          [ "attempting" ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "attempting" ]
-                              `plural`     MuFACiL |< At,
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---",
 
     MutaFaCCiL                `adj`     {- mutaHaw~il -}       [ "changing", "variable" ],
 
@@ -230,10 +224,8 @@ cluster_44  = listing "Lexicon's properties"
                               `plural`     TaFACuL |< At,
 
     MuFACiL                   `noun`    {- muHAwir -}          [ "interlocutor", "discussant" ]
-                              `plural`     MuFACiL |< Un,
-
-    MuFACiL |< aT             `noun`    {- DERIVED -}          [ "interlocutor", "discussant" ]
-                              `plural`     MuFACiL |< At ]
+                              `plural`     MuFACiL |< Un
+    `derives` "------F---" ]
 
  |> ".h w t" <| [
 
@@ -297,16 +289,12 @@ cluster_45  = listing "Lexicon's properties"
                               `plural`     InFiyAL |< At,
 
     FA'iL                     `noun`    {- HA}iz -}            [ "holder", "possessor" ]
-                              `plural`     FA'iL |< Un,
-
-    FA'iL |< aT               `noun`    {- DERIVED -}          [ "holder", "possessor" ]
-                              `plural`     FA'iL |< At,
+                              `plural`     FA'iL |< Un
+    `derives` "------F---",
 
     MunFAL                    `noun`    {- munoHAz -}          [ "aligned", "biased" ]
-                              `plural`     MunFAL |< Un,
-
-    MunFAL |< aT              `noun`    {- DERIVED -}          [ "aligned", "biased" ]
-                              `plural`     MunFAL |< At ]
+                              `plural`     MunFAL |< Un
+    `derives` "------F---" ]
 
  |> ".h y '" <| [
 
@@ -410,7 +398,8 @@ cluster_47  = listing "Lexicon's properties"
 
  |> ".h y w" <| [
 
-    FaCaLAn                   `noun`    {- HayawAn -}          [ "animal", "creature" ],
+    FaCaLAn                   `noun`    {- HayawAn -}          [ "animal", "creature" ]
+    `derives` "------F---",
 
     FaCaLAn |< Iy             `adj`     {- HayawAniy~ -}       [ "animal", "zoological" ] ]
 
@@ -448,7 +437,8 @@ cluster_47  = listing "Lexicon's properties"
 
     FaC |<< "awIy" |< aT      `noun`    {- Hayawiy~ap -}       [ "vigor", "liveliness" ],
 
-    FaCawAn                   `noun`    {- HayawAn -}          [ "animal", "creature" ],
+    FaCawAn                   `noun`    {- HayawAn -}          [ "animal", "creature" ]
+    `derives` "------F---",
 
     FaCawAn |< Iy             `adj`     {- HayawAniy~ -}       [ "animal", "zoological" ],
 
@@ -474,10 +464,8 @@ cluster_48  = listing "Lexicon's properties"
                               `plural`     InFiCAL |< At,
 
     MutaFaCCiL                `noun`    {- mutaHay~iz -}       [ "biased", "prejudiced" ]
-                              `plural`     MutaFaCCiL |< Un,
-
-    MutaFaCCiL |< aT          `noun`    {- DERIVED -}          [ "biased", "prejudiced" ]
-                              `plural`     MutaFaCCiL |< At ]
+                              `plural`     MutaFaCCiL |< Un
+    `derives` "------F---" ]
 
  |> ".h z b" <| [
 
