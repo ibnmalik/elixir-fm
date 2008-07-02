@@ -141,7 +141,7 @@ resolveList l uc eq y = [ [s] | (r, [x]) <- l, isSubsumed (uc r) y,
                           s <- wraps (inflects y) x ]
 
     where inflects y (Nest r z) = (concat . map (\ (f, t) -> if uc f `eq` y
-                                                             then t else []) .
+                                                             then reverse t else []) .
 
                            Map.toList . Map.fromListWith (++))
 
