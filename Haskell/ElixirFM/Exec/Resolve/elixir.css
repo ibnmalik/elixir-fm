@@ -1,15 +1,13 @@
 .phon {
-    font-family: Arial Unicode MS, Tahoma, Verdana, Arial, Helvetica, sans-serif;
     font-style: italic;
 }
 
 .orth {
-    font-family: Arial Unicode MS, Simplified Arabic, Arabic Transparent, Tahoma;
     font-size: medium;
+    /* display: none; */
 }
 
 td.orth {
-    font-family: Arial Unicode MS, Simplified Arabic, Arabic Transparent, Tahoma;
     font-size: medium;
 }
 
@@ -26,8 +24,12 @@ td.orth {
     color: goldenrod;
 }
 
+.word {
+    font-size:large;
+}
+
 body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: DejaVu Sans Condensed, DejaVu Sans, Arial Unicode MS, Tahoma, Verdana, Arial, Helvetica, sans-serif;
     font-weight: normal;
     font-size: medium;
     color: black;
@@ -35,8 +37,8 @@ body {
 }   
 
 table {
-    border-spacing: 10pt 0pt;
-    margin-bottom: 10pt;
+    border-spacing: 10px 0px;
+    margin-bottom: 10px;
 }
 
 td {
@@ -46,28 +48,25 @@ td {
 }
 
 input {
-    font-family: Arial Unicode MS, Tahoma, Verdana, Arial, Helvetica, sans-serif;    
     font-size: medium;
 }
 
 h1 {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: x-large;
     font-weight: bold;
     color: palegoldenrod;
     background-color: indigo;
-    padding: 3pt 6pt;
+    padding: 3px 6px;
 } 
     
 h2 { 
-    font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: large;
     font-weight: bold;
     color: indigo;
-    border: 1pt;
+    border: 1px;
     border-style: solid;
     border-color: goldenrod;
-    padding: 2pt 5pt; 
+    padding: 2px 5px; 
 }
 
 a:link { 
@@ -108,4 +107,9 @@ a:active {
 code {
     font-family: Courier New;
     font-size: medium;
+}
+
+div {
+    display: inline;
+    margin-right: 1em;
 }
