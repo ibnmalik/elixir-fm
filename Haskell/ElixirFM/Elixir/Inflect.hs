@@ -906,15 +906,17 @@ instance Inflect Lexeme ParaNoun where
 inflectNoun (Lexeme r e) (NounS n c s) = (map (inRules r c s) . inEntry n) e
 
 
+inEntry Plural e = case entity e of Noun l _ _ _ -> l
+
+{-
 inEntry Plural e = case entity e of Noun l _ _ _ | null l -> let Morphs t p s = morphs e in 
                                                              case s of AT : r -> [Right (Morphs t p r |< At)]
                                                                        _      -> [Right (morphs e |< Un)]
                                                  | otherwise -> l
-                                                
-                                 -- Adj  l   _  -> l
-                                 -- _           -> error "Incompatible Noun"
+-}                                                
 
-inEntry Dual e = [Right (morphs e |< An)]
+inEntry Dual e = case entity e of Noun l _ _ _ | null l    -> []
+                                               | otherwise -> [Right (morphs e |< An)]
 
 inEntry _ e = [Right (morphs e)]
 

@@ -108,8 +108,10 @@ instance Resolve String where
               derives e = case entity e of
                                         
                           Noun _ _ _ (Just _) -> [e, e { morphs = morphs e |< aT,
-                                                         entity = Noun [] Nothing
-                                                                  Nothing Nothing }]
+                                                         entity = Noun [Right (morphs e |< At)]
+                                                                  Nothing Nothing Nothing }]
+                                                      -- entity = Noun [] Nothing
+                                                      --          Nothing Nothing 
                           _                   -> [e]
 
 
@@ -156,8 +158,8 @@ resolveList l uc eq y = [ [s] | (r, [x]) <- l, isSubsumed (uc r) y,
           derives e = case entity e of
                                         
                       Noun _ _ _ (Just _) -> [e, e { morphs = morphs e |< aT,
-                                                     entity = Noun [] Nothing
-                                                              Nothing Nothing }]
+                                                     entity = Noun [Right (morphs e |< At)]
+                                                              Nothing Nothing Nothing }]
                       _                   -> [e]
 
 
@@ -183,14 +185,23 @@ resolveSub r = resolveBy (\ x y -> any (isPrefixOf x) (tails y)) r
 
 -- unwrapResolve (uncurry merge . struct) $ resolveBy (omitting "aiuAUI") "ktbuN"
 
-omitting :: [Char] -> String -> String -> Bool
+omitting' :: String -> String -> String -> Bool
+
+omitting' c x y = omitting s (letters x) (letters y)
+
+    where w = words c
+          s = case w of [z] -> letters z
+                        _   -> w
+
+
+omitting :: Eq a => [a] -> [a] -> [a] -> Bool
 
 omitting c (k:l) s@(q:r) | k == q     = omitting c l r
-                         | k `elem` c = omitting c l s
-                         | otherwise  = False
+                          | k `elem` c = omitting c l s
+                          | otherwise  = False
 
 omitting c (k:l) []      | k `elem` c = omitting c l []
-                         | otherwise  = False
+                          | otherwise  = False
 
 omitting _ [] (q:r) = False
 
@@ -309,7 +320,9 @@ isSubsumed [] _ = True
 isSubsumed cs w = let xs = {- (foldr (\ c d -> if null d then [c]
                                                       else if c == head d then d
                                                                           else (c:d)) [] . words) -}
-                           (map head . group . words) cs in
+                           (map head . group . (\ x -> case x of [y] -> [ z | z <- letters y,
+                                                                              z `notElem` skips ]
+                                                                 _   -> x) . words) cs in
 
                   match xs w
 
@@ -328,9 +341,14 @@ omits :: [String]
 omits = ["'", "w", "y"] ++ map (:[]) ((encode UCS . decode Tim) "OWI}'wy")
 
 
+skips :: [String]
+         
+skips = ["A", "I", "U", "a", "i", "u", "_a", "_I", "_U"] ++ map (:[]) ((encode UCS . decode Tim) "aiuo~`")
+
+
 short :: String -> String
 
-short (d:z:s) | d == '_' && z `elem` "tdh"     = s
+short (d:z:s) | d == '_' && z `elem` "tdhaIU"  = s
               | d == '^' && z `elem` "gscznl"  = s
               | d == '.' && z `elem` "hsdtzgr" = s
               | d == ',' && z `elem` "c"       = s
@@ -338,6 +356,22 @@ short (d:z:s) | d == '_' && z `elem` "tdh"     = s
 short (d:zs) = zs
 short []     = []
 
+
+next :: String -> Maybe (String, String)
+
+next (d:z:s) | d == '_' && z `elem` "tdhaIU"  = Just ([d, z], s)
+             | d == '^' && z `elem` "gscznl"  = Just ([d, z], s)
+             | d == '.' && z `elem` "hsdtzgr" = Just ([d, z], s)
+             | d == ',' && z `elem` "c"       = Just ([d, z], s)
+
+next (d:zs) = Just ([d], zs)
+next []     = Nothing
+
+
+letters :: String -> [String]
+
+letters = unfoldr next
+    
 
 -- recode = map (encode UTF . decode TeX . (++) "\\nodiacritics ") . concat
 

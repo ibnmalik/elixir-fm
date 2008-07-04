@@ -100,6 +100,7 @@
                     <member name="plural" type="Plural.type"/>
                     <member name="gender"><cdata format="any"/></member>
                     <member name="number"><cdata format="any"/></member>
+                    <member name="derive"><cdata format="any"/></member>
                 </structure>
             </element>
             <element name="Adj" >

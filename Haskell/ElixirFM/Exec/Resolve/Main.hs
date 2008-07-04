@@ -95,7 +95,7 @@ execute _ nons = interact (unlines . intersperse "" .
                         "tim"   ->  resolveBy (omitting s) . decode Tim
                         "utf"   ->  resolveBy (omitting s) . decode UTF
 
-                        _       ->  resolveBy (omitting "aiuAIUY-NW")
+                        _       ->  resolveBy (omitting' "a i u A I U Y - N W _a _I _U")
 
           e = case nons of  [] -> ""
                             _  -> head nons
