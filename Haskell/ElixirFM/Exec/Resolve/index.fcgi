@@ -358,6 +358,7 @@ while ($q = new CGI::Fast) {
 
 
     $q->param('data', '') unless defined $q->param('data');
+    $q->param('view', '') unless defined $q->param('view');
 
     if (defined $q->param('submit') and $q->param('submit') eq 'Resolve') {
 
@@ -371,7 +372,7 @@ while ($q = new CGI::Fast) {
 
         $q->param('code', $examples[$idx][0]);
 
-	$q->param('view', 'MorphoTrees') unless rand 1 < 0.5;
+	$q->param('view', rand 1 < 0.5 ? 'MorphoTrees' : '');
     }
 
 
@@ -459,17 +460,25 @@ while ($q = new CGI::Fast) {
 
     $elixir = $q->param('data') ? './elixir-resolve' : './elixir-resolve-quick';
 
+    tick();
+
     $reply = `$elixir $code < index.tmp`;
 
-    print pretty $reply;
-
     tick();
+
+    print pretty $reply;
 
 #     print $q->ul({'-class' => 'listexpander'}, 
 # 		 $q->li([ 'Q', map { $_ . $q->ul($q->li([ '0', map { $_ . $q->ul($q->li(['a', 'b', 'c'])) } '1', '2', '3' ])) }
 #  			  'A', 'B', 'C' ]));
 
-    $time = mytimestr(timediff $tick[-1], $tick[-2]);
+    tick();
+
+    @time = map { timediff $tick[$_->[0]], $tick[$_->[1]] } [3, 0], [2, 1];
+
+    $time[0] = timediff $time[0], $time[1];
+
+    $time = join "+", map { mytimestr($_) } reverse @time;
 
     open L, '>>', "index.log";
 
