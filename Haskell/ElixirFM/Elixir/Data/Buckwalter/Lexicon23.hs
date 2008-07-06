@@ -619,7 +619,7 @@ cluster_12  = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- liHA' -}            [ unwords [ "inner", "bark" ] ],
 
-    HaFCY                     `noun`    {- OaloHaY -}          [ unwords [ "long", "-", "bearded" ] ],
+    HaFCY                     `adj`     {- OaloHaY -}          [ unwords [ "long", "-", "bearded" ] ],
 
     MuFtaCI                   `noun`    {- mulotaHiy -}        [ "bearded" ]
                               `plural`     MuFtaCI |< At ]
@@ -1110,13 +1110,13 @@ cluster_22  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- laxan -}            [ unwords [ "putrid", "stench" ] ],
 
-    HaFCaL                    `noun`    {- Oaloxan -}          [ "stinking" ]
+    HaFCaL                    `adj`     {- Oaloxan -}          [ "stinking" ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
-    HaFCaL                    `noun`    {- Oaloxan -}          [ "uncircumcised" ]
+    HaFCaL                    `adj`     {- Oaloxan -}          [ "uncircumcised" ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "l _h s" <| [
 
@@ -1131,9 +1131,9 @@ cluster_22  = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- luvogap -}          [ "lisping" ],
 
-    HaFCaL                    `noun`    {- Oalovag -}          [ "lisper" ]
+    HaFCaL                    `adj`     {- Oalovag -}          [ "lisper" ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "l _t _t" <| [
 
@@ -1313,8 +1313,8 @@ cluster_25  = listing "Lexicon's properties"
 
  |> "l ` s" <| [
 
-    HaFCaL                    `noun`    {- OaloEas -}          [ unwords [ "red", "-", "lipped" ] ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- OaloEas -}          [ unwords [ "red", "-", "lipped" ] ]
+                              `femini`     FaCLA' ]
 
  |> "l b '" <| [
 
@@ -1837,8 +1837,8 @@ cluster_36  = listing "Lexicon's properties"
 
     FaCIL |< aT               `noun`    {- lafiyfap -}         [ "bundle", "package" ],
 
-    HaFaCL                    `noun`    {- Oalaf~ -}           [ "stout", "short" ]
-                              `plural`     FaCLA',
+    HaFaCL                    `adj`     {- Oalaf~ -}           [ "stout", "short" ]
+                              `femini`     FaCLA',
 
     MiFaCL                    `noun`    {- milaf~ -}           [ "file", "dossier" ],
 
@@ -1916,9 +1916,9 @@ cluster_38  = listing "Lexicon's properties"
 
     FaCUL                     `adj`     {- lafuwt -}           [ "sullen", unwords [ "ill", "-", "tempered" ] ],
 
-    HaFCaL                    `noun`    {- Oalofat -}          [ unwords [ "left", "-", "handed" ] ]
+    HaFCaL                    `adj`     {- Oalofat -}          [ unwords [ "left", "-", "handed" ] ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     IFtiCAL |< aT             `noun`    {- AilotifAtap -}      [ "turn", "glance" ],
 
@@ -2278,8 +2278,8 @@ cluster_45  = listing "Lexicon's properties"
 
     FuCUL |< aT               `noun`    {- lukuwnap -}         [ "stammer", unwords [ "speech", "defect" ] ],
 
-    HaFCaL                    `noun`    {- Oalokan -}          [ "stammerer", "stutterer" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oalokan -}          [ "stammerer", "stutterer" ]
+                              `femini`     FaCLA',
 
     FaCaL                     `noun`    {- lakan -}            [ "basins" ]
                               `plural`     HaFCAL ]
@@ -3565,9 +3565,9 @@ cluster_70  = listing "Lexicon's properties"
     FaCiL                     `verb`    {- layis-a -}          [ unwords [ "be", "valiant" ] ]
                               `imperf`     FCaL,
 
-    HaFCaL                    `noun`    {- Oaloyas -}          [ "valiant" ]
-                              `plural`     FaCLA'
-                              `plural`     FIL ]
+    HaFCaL                    `adj`     {- Oaloyas -}          [ "valiant" ]
+                              `plural`     FIL
+                              `femini`     FaCLA' ]
 
  |> "l y t" <| [
 

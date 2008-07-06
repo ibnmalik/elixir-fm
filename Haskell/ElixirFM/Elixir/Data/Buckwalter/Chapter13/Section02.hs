@@ -152,7 +152,7 @@ cluster_23  = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- ma$oEuwr -}         [ "split", "cracked" ],
 
     HaFCaL                    `adj`     {- Oa$oEar -}          [ "hirsute" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FaCLAn |< Iy              `adj`     {- \$aEorAniy~ -}      [ "hirsute" ],
 
@@ -588,7 +588,7 @@ cluster_32  = listing "Lexicon's properties"
                               `plural`     HaFCAL,
 
     HaFCaL                    `adj`     {- Oa$odaq -}          [ unwords [ "loud", "-", "mouthed" ] ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     MutaFaCCiL                `noun`    {- muta$ad~iq -}       [ "braggart" ]
                               `plural`     MutaFaCCiL |< Un
@@ -929,7 +929,7 @@ cluster_38  = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- Oa$ohab -}          [ "gray" ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FaCLA'                    `noun`    {- \$ahobA' -}         [ "Aleppo" ] ]
 
@@ -1009,7 +1009,7 @@ cluster_40  = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- \$uholap -}         [ unwords [ "deep", "-", "blue" ], unwords [ "navy", "blue" ] ],
 
     HaFCaL                    `adj`     {- Oa$ohal -}          [ unwords [ "deep", "-", "blue" ], unwords [ "navy", "blue" ] ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- ta$ohiyl -}         [ "acceleration", "expediting" ]
                               `plural`     TaFCIL |< At ]

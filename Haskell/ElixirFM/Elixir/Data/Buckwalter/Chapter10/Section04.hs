@@ -637,8 +637,8 @@ cluster_72  = listing "Lexicon's properties"
 
  |> "r m k" <| [
 
-    HaFCaL                    `noun`    {- Oaromak -}          [ "gray", "ashen" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oaromak -}          [ "gray", "ashen" ]
+                              `femini`     FaCLA',
 
     FaCaL |< aT               `noun`    {- ramakap -}          [ "mare" ]
                               `plural`     FiCAL
@@ -667,7 +667,7 @@ cluster_73  = listing "Lexicon's properties"
                               `plural`     FaCCAL |< Un
     `derives` "------F---",
 
-    HaFCaL                    `noun`    {- Oaromal -}          [ "widower" ]
+    HaFCaL                    `adj`     {- Oaromal -}          [ "widower" ]
                               `plural`     HaFACiL,
 
     HaFCaL |< aT              `noun`    {- Oaromalap -}        [ "widow" ]

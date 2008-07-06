@@ -774,7 +774,7 @@ cluster_14  = listing "Lexicon's properties"
     FaCL                      `noun`    {- faToH -}            [ "flatness" ],
 
     HaFCaL                    `adj`     {- OafoTaH -}          [ unwords [ "broad", "-", "nosed" ] ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     MuFaCCaL                  `adj`     {- mufaT~aH -}         [ unwords [ "broad", "-", "nosed" ], "flattened" ] ]
 
@@ -926,7 +926,7 @@ cluster_17  = listing "Lexicon's properties"
                               `plural`     FaCA'iL,
 
     HaFCaL                    `adj`     {- OafoTas -}          [ unwords [ "snub", "-", "nosed" ] ]
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "f .t y r" <| [
 
@@ -1509,7 +1509,7 @@ cluster_28  = listing "Lexicon's properties"
 
  |> "f ` w" <| [
 
-    HaFCY                     `noun`    {- OafoEaY -}          [ "viper" ]
+    HaFCY                     `adj`     {- OafoEaY -}          [ "viper" ]
                               `plural`     HaFACI,
 
     MaFCY |< aT               `noun`    {- mafoEAp -}          [ unwords [ "den", "of", "vipers" ], unwords [ "viper", "dens" ] ]
@@ -1928,8 +1928,8 @@ cluster_37  = listing "Lexicon's properties"
 
     FaCCAL |< Iy              `adj`     {- fal~AHiy~ -}        [ "peasant" ],
 
-    HaFCaL                    `noun`    {- OafolaH -}          [ unwords [ "with", "cracked", "lower", "lip" ] ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OafolaH -}          [ unwords [ "with", "cracked", "lower", "lip" ] ]
+                              `femini`     FaCLA',
 
     FACiL                     `adj`     {- fAliH -}            [ "fortunate", "successful" ],
 
@@ -3172,8 +3172,8 @@ cluster_62  = listing "Lexicon's properties"
     FaCL |< Iy                `adj`     {- faroEiy~ -}         [ unwords [ "sub", "-", "branch" ], "subdivisional", unwords [ "sub", "-", "sectional" ] ],
 
     HaFCaL                    `adj`     {- OaforaE -}          [ "tall", "slender" ]
-                              `plural`     FaCLA'
-                              `plural`     FACiL |< aT,
+                              `plural`     FACiL |< aT
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- taforiyE -}         [ "derivation", "ramification", "shunting" ]
                               `plural`     TaFCIL |< At,
@@ -4764,8 +4764,8 @@ cluster_91  = listing "Lexicon's properties"
 
  |> "f y .h" <| [
 
-    HaFCaL                    `noun`    {- OafoyaH -}          [ "aromatic", "spacious" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OafoyaH -}          [ "aromatic", "spacious" ]
+                              `femini`     FaCLA',
 
     FaCLA'                    `noun`    {- fayoHA' -}          [ "Damascus" ],
 

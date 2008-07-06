@@ -373,9 +373,9 @@ cluster_6   = listing "Lexicon's properties"
     HuFCUL |< aT              `noun`    {- Oumovuwlap -}       [ "example", "lesson", "warning" ]
                               `plural`     HaFACIL,
 
-    HaFCaL                    `noun`    {- Oamoval -}          [ "exemplary", "ideal" ]
-                              `plural`     FuCLY |< At
-                              `plural`     HaFACiL,
+    HaFCaL                    `adj`     {- Oamoval -}          [ "exemplary", "ideal" ]
+                              `plural`     HaFACiL
+                              `femini`     FuCLY,
 
     TiFCAL                    `noun`    {- timovAl -}          [ "statue" ]
                               `plural`     TaFACIL,

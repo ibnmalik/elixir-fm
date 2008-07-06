@@ -765,12 +765,18 @@ cluster_14  = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- taOax~ar -}         [ unwords [ "be", "delayed" ], unwords [ "be", "postponed" ] ],
 
+    HACaL                     `adj`     {- \|xar -}            [ "other", "another", "latest" ]
+                              `plural`     HACaL |< Un
+                              `femini`     FuCLY,
+
+{-                                           
     FACaL                     `adj`     {- \|xar -}            [ "other", "another", "latest" ]
                               `plural`     FACaL |< Un
                               `plural`     HACaL |< Un,
 
     FuCLY                     `adj`     {- OuxoraY -}          [ "other", "another" ]
                               `plural`     FuCLY |< At,
+-}
 
     FuCLY |< Iy               `adj`     {- Ouxorawiy~ -}       [ "eschatological" ],
 
@@ -4445,14 +4451,22 @@ cluster_76  = listing "Lexicon's properties"
 
     FaCA'iL                   `noun`    {- OawA}il -}          [ "ancients" ],
 
+{-
     FaCCaL                    `adj`     {- Oaw~al -}           [ "first", "foremost" ],
+-}
+
+    FaCCaL                    `adj`     {- Oaw~al -}           [ "first", "foremost" ]
+                              `plural`     FuCaL
+                              `femini`     FULY,
 
     FaCCaL |< Iy |< aT        `noun`    {- Oaw~aliy~ap -}      [ "priority", "precedence", "primacy" ],
 
+{-
     FULY                      `adj`     {- OuwlaY -}           [ "first" ]
                               `plural`     FuCaL
                               `plural`     FULY |< At,
-
+-}
+ 
     FAL                       `noun`    {- \|l -}              [ "family", "clan" ],
 
     FAL |< aT                 `noun`    {- \|lap -}            [ "instrument", "apparatus", "appliance", "machine" ],

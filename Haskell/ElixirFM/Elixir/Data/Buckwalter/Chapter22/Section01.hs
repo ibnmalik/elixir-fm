@@ -154,8 +154,8 @@ cluster_3   = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- kuHolap -}          [ "pointing", "filling", "grouting" ],
 
-    HaFCaL                    `noun`    {- OakoHal -}          [ "black" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OakoHal -}          [ "black" ]
+                              `femini`     FaCLA',
 
     FaCLA'                    `noun`    {- kaHolA' -}          [ "blueweed" ],
 
@@ -1063,7 +1063,7 @@ cluster_20  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- kadiyr -}           [ "worried" ],
 
     HaFCaL                    `adj`     {- Oakodar -}          [ "dingy" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- takodiyr -}         [ "disturbing", "troubling" ]
                               `plural`     TaFCIL |< At,

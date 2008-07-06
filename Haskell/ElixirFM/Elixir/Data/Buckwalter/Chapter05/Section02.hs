@@ -24,7 +24,7 @@ cluster_21  = listing "Lexicon's properties"
     FaCA'                     `noun`    {- jadA' -}            [ "advantage", "gain", "benefit" ]
                            {- `others`  [ "^gadwY N0" ] -},
 
-    HaFCY                     `noun`    {- OajodaY -}          [ unwords [ "more", "/", "most", "useful" ] ],
+    HaFCY                     `adj`     {- OajodaY -}          [ unwords [ "more", "/", "most", "useful" ] ],
 
     IstiFCA'                  `noun`    {- AisotijodA' -}      [ "plea", "supplication" ]
                               `plural`     IstiFCA' |< At,
@@ -142,7 +142,7 @@ cluster_23  = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- jafA' -}            [ "harshness" ],
 
-    HaFCY                     `noun`    {- OajofaY -}          [ unwords [ "more", "/", "most", "averse" ] ],
+    HaFCY                     `adj`     {- OajofaY -}          [ unwords [ "more", "/", "most", "averse" ] ],
 
     FACI                      `noun`    {- jAfiy -}            [ "rough", "rude" ]
                               `plural`     FuCY |< aT
@@ -367,7 +367,7 @@ cluster_27  = listing "Lexicon's properties"
     FaCI                      `verb`    {- jahiy-a -}          [ "collapse", "fall" ]
                               `imperf`     FCY,
 
-    HaFCY                     `noun`    {- OajohaY -}          [ "roofless", "bald" ]
+    HaFCY                     `adj`     {- OajohaY -}          [ "roofless", "bald" ]
                            {- `others`  [ "^gahwA' N0" ] -} ]
 
 
@@ -440,9 +440,9 @@ cluster_29  = listing "Lexicon's properties"
     FaCiL                     `verb`    {- jaliH-a -}          [ unwords [ "become", "bald" ], unwords [ "lose", "hair" ] ]
                               `imperf`     FCaL,
 
-    HaFCaL                    `noun`    {- OajolaH -}          [ "bald" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL ]
+    HaFCaL                    `adj`     {- OajolaH -}          [ "bald" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA' ]
 
  |> "^g l .s" <| [
 
@@ -835,7 +835,7 @@ cluster_36  = listing "Lexicon's properties"
 
     IstaFCY                   `verb`    {- AisotajolaY -}      [ unwords [ "seek", "to", "clarify" ], "discover", "clarify" ],
 
-    HaFCY                     `noun`    {- OajolaY -}          [ "clearer", "clearest" ],
+    HaFCY                     `adj`     {- OajolaY -}          [ "clearer", "clearest" ],
 
     FaCA'                     `noun`    {- jalA' -}            [ "clarification", "withdrawal" ],
 
@@ -980,8 +980,8 @@ cluster_39  = listing "Lexicon's properties"
 
     FaCIL                     `adv`     {- jamiyE -}           [ unwords [ "all", "of" ], unwords [ "every", "one", "of" ], "everyone", "all", "entirely", "together" ],
 
-    HaFCaL                    `noun`    {- OajomaE -}          [ "entire", "whole" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OajomaE -}          [ "entire", "whole" ]
+                              `femini`     FaCLA',
 
     FaCAL |< aT               `noun`    {- jamAEap -}          [ "party", "group", "squad" ],
 

@@ -319,12 +319,12 @@ cluster_26  = listing "Lexicon's properties"
 
  |> ".h m r" <| [
 
-    HaFCaL                    `noun`    {- OaHomar -}          [ "red" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaHomar -}          [ "red" ]
+                              `femini`     FaCLA',
 
-    HaFCaL                    `noun`    {- OaHomar -}          [ "Red", "Alhambra", "reds", "redskins" ]
+    HaFCaL                    `adj`     {- OaHomar -}          [ "Red", "Alhambra", "reds", "redskins" ]
                               `plural`     FuCuL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> ".h m s" <| [
 
@@ -860,7 +860,7 @@ cluster_36  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- Hariy~ -}           [ "adequate", "suitable" ]
                               `plural`     HaFCiLA',
 
-    HaFCY                     `noun`    {- OaHoraY -}          [ unwords [ "more", "/", "most", "adequate" ], unwords [ "better", "/", "best" ] ],
+    HaFCY                     `adj`     {- OaHoraY -}          [ unwords [ "more", "/", "most", "adequate" ], unwords [ "better", "/", "best" ] ],
 
     TaFaCCI                   `noun`    {- taHar~iy -}         [ "investigation", "inquiry" ]
                               `plural`     TaFaCCI |< At ]
@@ -986,10 +986,10 @@ cluster_39  = listing "Lexicon's properties"
     FaCaL                     `adv`     {- Hasan -}            [ "good", "well" ]
                               `plural`     FiCAL,
 
-    HaFCaL                    `noun`    {- OaHosan -}          [ unwords [ "better", "/", "best" ], "beauty", "belle", "best" ]
-                              `plural`     FaCLA'
+    HaFCaL                    `adj`     {- OaHosan -}          [ unwords [ "better", "/", "best" ], "beauty", "belle", "best" ]
                               `plural`     HaFACiL
-                              `plural`     FuCLY |< At,
+                              `femini`     FaCLA'
+                              `femini`     FuCLY,
 
     MaFACiL                   `noun`    {- maHAsin -}          [ "merits", unwords [ "good", "qualities" ] ],
 

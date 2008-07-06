@@ -289,9 +289,9 @@ cluster_26  = listing "Lexicon's properties"
 
     InFaCaL                   `verb`    {- Ainokafas -}        [ unwords [ "be", "bandy", "-", "legged" ] ],
 
-    HaFCaL                    `noun`    {- Oakofas -}          [ unwords [ "bandy", "-", "legged" ] ]
+    HaFCaL                    `adj`     {- Oakofas -}          [ unwords [ "bandy", "-", "legged" ] ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
 
 cluster_27  = listing "Lexicon's properties"
@@ -582,8 +582,8 @@ cluster_32  = listing "Lexicon's properties"
     FaCCAL |< Iy              `adj`     {- kal~Afiy~ -}        [ unwords [ "donkey", "hirer" ] ],
 
     HaFCaL                    `adj`     {- Oakolaf -}          [ "freckled", "ginger" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- takoliyf -}         [ "charging", "commissioning" ]
                               `plural`     TaFCIL |< At,
@@ -897,9 +897,9 @@ cluster_38  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- kamah -}            [ unwords [ "blindness", "from", "birth" ] ],
 
-    HaFCaL                    `noun`    {- Oakomah -}          [ unwords [ "born", "blind" ] ]
+    HaFCaL                    `adj`     {- Oakomah -}          [ unwords [ "born", "blind" ] ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
 
 cluster_39  = listing "Lexicon's properties"

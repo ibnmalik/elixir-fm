@@ -387,7 +387,7 @@ cluster_6   = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- galA' -}            [ unwords [ "high", "cost" ], unwords [ "rising", "cost" ] ],
 
-    HaFCY                     `noun`    {- OagolaY -}          [ unwords [ "more", "/", "most", "expensive" ], unwords [ "most", "expensive" ] ],
+    HaFCY                     `adj`     {- OagolaY -}          [ unwords [ "more", "/", "most", "expensive" ], unwords [ "most", "expensive" ] ],
 
     MuFACY |< aT              `noun`    {- mugAlAp -}          [ "exaggeration", "excess" ]
                               `plural`     MuFACY |< At,

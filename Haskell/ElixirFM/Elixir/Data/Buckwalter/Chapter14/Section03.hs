@@ -176,7 +176,7 @@ cluster_44  = listing "Lexicon's properties"
     HaFaCL                    `adj`     {- OaSam~ -}           [ "deaf", "plugged" ]
                               `plural`     FuCLAn
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- taSomiym -}         [ "determination", "perseverance" ]
                               `plural`     TaFCIL |< At,
@@ -1007,7 +1007,7 @@ cluster_60  = listing "Lexicon's properties"
     FUL |< Iy |< aT           `noun`    {- Suwfiy~ap -}        [ "Sufism", unwords [ "Islamic", "mysticism" ] ],
 
     HaFCaL                    `adj`     {- OaSowaf -}          [ "woolen" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FULAn                     `noun`    {- SuwfAn -}           [ "touchwood", "tinder" ],
 

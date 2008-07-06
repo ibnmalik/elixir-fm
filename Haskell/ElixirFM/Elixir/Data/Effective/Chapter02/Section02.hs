@@ -153,7 +153,7 @@ cluster_23  = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- baqA' -}            [ "survival", "remaining" ],
 
-    HaFCY                     `noun`    {- OaboqaY -}          [ unwords [ "more", "lasting" ], unwords [ "more", "durable" ] ],
+    HaFCY                     `adj`     {- OaboqaY -}          [ unwords [ "more", "lasting" ], unwords [ "more", "durable" ] ],
 
     HiFCA'                    `noun`    {- IiboqA' -}          [ "continuation", "preservation" ]
                               `plural`     HiFCA' |< At,
@@ -683,8 +683,8 @@ cluster_32  = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- bayAD -}            [ "whiteness" ],
 
-    HaFCaL                    `noun`    {- OaboyaD -}          [ "white" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaboyaD -}          [ "white" ]
+                              `femini`     FaCLA',
 
     FIL                       `noun`    {- biyD -}             [ "white", "Caucasian" ],
 

@@ -736,7 +736,7 @@ cluster_53  = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oakoram -}          [ "Akram" ],
 
-    HaFCaL                    `noun`    {- Oakoram -}          [ unwords [ "nobler", "/", "noblest" ], unwords [ "dearer", "/", "dearest" ], unwords [ "more", "/", "most", "precious" ] ]
+    HaFCaL                    `adj`     {- Oakoram -}          [ unwords [ "nobler", "/", "noblest" ], unwords [ "dearer", "/", "dearest" ], unwords [ "more", "/", "most", "precious" ] ]
                               `plural`     HaFACiL,
 
     MaFCaL                    `noun`    {- makoram -}          [ "Makram" ],

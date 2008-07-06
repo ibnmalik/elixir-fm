@@ -1765,9 +1765,9 @@ cluster_33  = listing "Lexicon's properties"
 
     FuCL |< Iy                `adj`     {- Turo$iy~ -}         [ "pickled" ],
 
-    HaFCaL                    `noun`    {- OaTora$ -}          [ "deaf" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFCaL                    `adj`     {- OaTora$ -}          [ "deaf" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     HaFCaL                    `noun`    {- OaTora$ -}          [ "Atrash" ],
 
@@ -2391,8 +2391,8 @@ cluster_45  = listing "Lexicon's properties"
 
     FuCAL |< aT               `noun`    {- TuwAlap -}          [ "stable" ],
 
-    HaFCaL                    `noun`    {- OaTowal -}          [ unwords [ "taller", "/", "tallest" ], unwords [ "longer", "/", "longest" ] ]
-                              `plural`     FULY |< At,
+    HaFCaL                    `adj`     {- OaTowal -}          [ unwords [ "taller", "/", "tallest" ], unwords [ "longer", "/", "longest" ] ]
+                              `femini`     FULY,
 
     TaFCIL                    `noun`    {- taTowiyl -}         [ "lengthening", "prolongation" ]
                               `plural`     TaFCIL |< At,
@@ -2651,7 +2651,7 @@ cluster_50  = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- Tay~Ab -}           [ "Tayyab" ],
 
-    HaFCaL                    `noun`    {- OaToyab -}          [ unwords [ "better", "/", "best" ], "pleasures", "amenities" ]
+    HaFCaL                    `adj`     {- OaToyab -}          [ unwords [ "better", "/", "best" ], "pleasures", "amenities" ]
                               `plural`     HaFACiL,
 
     MaFACiL                   `noun`    {- maTAyib -}          [ "comforts", "amenities" ],

@@ -365,9 +365,9 @@ cluster_7   = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- EaZiym -}           [ "Azim", "Azeem" ],
 
-    HaFCaL                    `noun`    {- OaEoZam -}          [ unwords [ "greater", "/", "greatest" ], "major", "supreme" ]
-                              `plural`     FuCLY |< At
-                              `plural`     HaFACiL,
+    HaFCaL                    `adj`     {- OaEoZam -}          [ unwords [ "greater", "/", "greatest" ], "major", "supreme" ]
+                              `plural`     HaFACiL
+                              `femini`     FuCLY,
 
     TaFCIL                    `noun`    {- taEoZiym -}         [ "glorification", "veneration" ]
                               `plural`     TaFCIL |< At,

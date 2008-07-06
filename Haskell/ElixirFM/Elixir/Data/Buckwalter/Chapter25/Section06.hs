@@ -54,9 +54,9 @@ cluster_102 = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- numorap -}          [ "speck" ],
 
-    HaFCaL                    `noun`    {- Oanomar -}          [ "speckled" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFCaL                    `adj`     {- Oanomar -}          [ "speckled" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     MuFaCCaL                  `noun`    {- munam~ar -}         [ "spotted", "striped" ],
 
@@ -810,7 +810,7 @@ cluster_118 = listing "Lexicon's properties"
 
     FuCAL |< aT               `noun`    {- nuqAwap -}          [ "selection", "choice", "select" ],
 
-    HaFCY                     `noun`    {- OanoqaY -}          [ unwords [ "purer", "/", "purest" ], unwords [ "cleaner", "/", "cleanest" ], "purest", "cleanest" ],
+    HaFCY                     `adj`     {- OanoqaY -}          [ unwords [ "purer", "/", "purest" ], unwords [ "cleaner", "/", "cleanest" ], "purest", "cleanest" ],
 
     TaFCI |< aT               `noun`    {- tanoqiyap -}        [ "purification", "cleansing" ],
 

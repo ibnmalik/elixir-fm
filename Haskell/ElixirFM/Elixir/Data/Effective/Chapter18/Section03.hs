@@ -684,8 +684,8 @@ cluster_53  = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- Euzolap -}          [ "isolation", "separation", "retirement" ],
 
     HaFCaL                    `adj`     {- OaEozal -}          [ "unarmed", "defenseless" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCCaL,
+                              `plural`     FuCCaL
+                              `femini`     FaCLA',
 
     MaFCiL                    `noun`    {- maEozil -}          [ "retreat", unwords [ "isolation", "ward" ], "segregation" ]
                               `plural`     MaFACiL,

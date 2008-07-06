@@ -70,7 +70,7 @@ until (eof()) {
 
             my (undef, $orig, $index) = split /[\;\_\s\(]+/, $line;
 
-            warn "\nIncosistent data \t$orig\t" unless $index;
+            warn "\nInconsistent data \t$orig\t" unless $index;
 
             beginEntry($orig, $index);
         }
@@ -274,7 +274,7 @@ sub closeEntry {
 
     @types = keys %{$Entry->{'types'}->{$Entry->{'form'}}};
 
-    warn "\nIncosistent data \t" . $Entry->{'form'} . "\t@types\t" if @types > 0 and $Entry->{'entity'} eq 'verb';
+    warn "\nInconsistent data \t" . $Entry->{'form'} . "\t@types\t" if @types > 0 and $Entry->{'entity'} eq 'verb';
 
 
     my @root = split / /, $root;

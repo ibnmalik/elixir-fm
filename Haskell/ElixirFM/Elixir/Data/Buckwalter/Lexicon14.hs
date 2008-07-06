@@ -128,7 +128,7 @@ cluster_2   = listing "Lexicon's properties"
                               `plural`     FaCA'iL,
 
     HaFCaL                    `adj`     {- OaSogar -}          [ unwords [ "smaller", "/", "smallest" ], unwords [ "younger", "/", "youngest" ], "minor" ]
-                              `plural`     FuCLY |< At,
+                              `femini`     FuCLY,
 
     TaFCIL                    `noun`    {- taSogiyr -}         [ "diminution", "reduction" ]
                               `plural`     TaFCIL |< At,
@@ -310,8 +310,8 @@ cluster_6   = listing "Lexicon's properties"
 
     FaCaL                     `adj`     {- SaHal -}            [ "raucous", "hoarse" ],
 
-    HaFCaL                    `noun`    {- OaSoHal -}          [ "raucous", "hoarse" ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- OaSoHal -}          [ "raucous", "hoarse" ]
+                              `femini`     FaCLA' ]
 
  |> ".s .h n" <| [
 
@@ -1523,9 +1523,9 @@ cluster_32  = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- SafAr -}            [ "yellowness", "pallor" ],
 
-    HaFCaL                    `noun`    {- OaSofar -}          [ "yellow" ]
+    HaFCaL                    `adj`     {- OaSofar -}          [ "yellow" ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     HaFCaL                    `noun`    {- OaSofar -}          [ "empty" ],
 
@@ -1669,9 +1669,9 @@ cluster_34  = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- Suhobap -}          [ "redness", "gingery" ],
 
-    HaFCaL                    `noun`    {- OaSohab -}          [ "reddish", "ginger" ]
+    HaFCaL                    `adj`     {- OaSohab -}          [ "reddish", "ginger" ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> ".s h d" <| [
 
@@ -1924,7 +1924,7 @@ cluster_38  = listing "Lexicon's properties"
  |> ".s l _h" <| [
 
     HaFCaL                    `adj`     {- OaSolax -}          [ "deaf" ]
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> ".s l `" <| [
 
@@ -1935,10 +1935,10 @@ cluster_38  = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- SaloEap -}          [ unwords [ "bald", "spot" ], unwords [ "bald", "head" ] ],
 
-    HaFCaL                    `noun`    {- OaSolaE -}          [ "bald" ]
+    HaFCaL                    `adj`     {- OaSolaE -}          [ "bald" ]
                               `plural`     FuCLAn
-                              `plural`     FaCLA'
-                              `plural`     FuCL ]
+                              `plural`     FuCL
+                              `femini`     FaCLA' ]
 
 
 cluster_39  = listing "Lexicon's properties"
@@ -2227,7 +2227,7 @@ cluster_44  = listing "Lexicon's properties"
     HaFaCL                    `adj`     {- OaSam~ -}           [ "deaf", "plugged" ]
                               `plural`     FuCLAn
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- taSomiym -}         [ "determination", "perseverance" ]
                               `plural`     TaFCIL |< At,
@@ -3058,7 +3058,7 @@ cluster_60  = listing "Lexicon's properties"
     FUL |< Iy |< aT           `noun`    {- Suwfiy~ap -}        [ "Sufism", unwords [ "Islamic", "mysticism" ] ],
 
     HaFCaL                    `adj`     {- OaSowaf -}          [ "woolen" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FULAn                     `noun`    {- SuwfAn -}           [ "touchwood", "tinder" ],
 

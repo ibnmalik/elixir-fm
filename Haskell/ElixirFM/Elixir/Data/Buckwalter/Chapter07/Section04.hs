@@ -232,9 +232,9 @@ cluster_65  = listing "Lexicon's properties"
     FiCL |< aT                `noun`    {- xiroqap -}          [ "shred", "rag" ]
                               `plural`     FiCaL,
 
-    HaFCaL                    `noun`    {- Oaxoraq -}          [ "clumsy", "foolish" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFCaL                    `adj`     {- Oaxoraq -}          [ "clumsy", "foolish" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     MaFCaL |< aT              `noun`    {- maxoraqap -}        [ "trickery", "swindle" ],
 
@@ -279,10 +279,10 @@ cluster_66  = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oaxoras -}          [ "Akhras" ],
 
-    HaFCaL                    `noun`    {- Oaxoras -}          [ "mute", "dumb" ]
+    HaFCaL                    `adj`     {- Oaxoras -}          [ "mute", "dumb" ]
                               `plural`     FuCL
                               `plural`     FuCLAn
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FaCaLAn                   `noun`    {- xarasAn -}          [ "concrete" ] ]
 
@@ -900,7 +900,7 @@ cluster_77  = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oaxoyal -}          [ unwords [ "prouder", "/", "proudest" ] ],
 
-    HaFCaL                    `noun`    {- Oaxoyal -}          [ unwords [ "green", "woodpecker" ], "conceit", "arrogance" ]
+    HaFCaL                    `adj`     {- Oaxoyal -}          [ unwords [ "green", "woodpecker" ], "conceit", "arrogance" ]
                               `plural`     FuCaLA'
                               `plural`     HaFACiL
                               `plural`     FIL,
@@ -1001,7 +1001,7 @@ cluster_79  = listing "Lexicon's properties"
 
     FIL |< aT                 `noun`    {- xiyrap -}           [ "choice", "pick", "elite" ],
 
-    HaFCaL                    `noun`    {- Oaxoyar -}          [ "better", "superior" ]
+    HaFCaL                    `adj`     {- Oaxoyar -}          [ "better", "superior" ]
                               `plural`     HaFACiL
                               `plural`     FILY,
 

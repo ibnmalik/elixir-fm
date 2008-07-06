@@ -909,7 +909,7 @@ cluster_17  = listing "Lexicon's properties"
                               `plural`     HaFCA'
                            {- `others`  [ ".hi^gaN FW-WaBi" ] -},
 
-    HaFCY                     `noun`    {- OaHojaY -}          [ unwords [ "more", "/", "most", "appropriate", "/", "correct" ] ] ]
+    HaFCY                     `adj`     {- OaHojaY -}          [ unwords [ "more", "/", "most", "appropriate", "/", "correct" ] ] ]
 
  |> ".h ^g y" <| [
 

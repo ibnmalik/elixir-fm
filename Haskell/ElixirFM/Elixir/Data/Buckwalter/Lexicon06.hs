@@ -909,7 +909,7 @@ cluster_17  = listing "Lexicon's properties"
                               `plural`     HaFCA'
                            {- `others`  [ ".hi^gaN FW-WaBi" ] -},
 
-    HaFCY                     `noun`    {- OaHojaY -}          [ unwords [ "more", "/", "most", "appropriate", "/", "correct" ] ] ]
+    HaFCY                     `adj`     {- OaHojaY -}          [ unwords [ "more", "/", "most", "appropriate", "/", "correct" ] ] ]
 
  |> ".h ^g y" <| [
 
@@ -1512,8 +1512,8 @@ cluster_28  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- Haban -}            [ "edema", "dropsy" ],
 
-    HaFCaL                    `noun`    {- OaHoban -}          [ unwords [ "suffering", "from", "edema" ] ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaHoban -}          [ unwords [ "suffering", "from", "edema" ] ]
+                              `femini`     FaCLA',
 
     FACiL                     `noun`    {- HAbin -}            [ unwords [ "suffering", "from", "edema" ] ]
                               `plural`     FACiL |< Un
@@ -1757,8 +1757,8 @@ cluster_33  = listing "Lexicon's properties"
 
     FaCaL |< aT               `noun`    {- Hadabap -}          [ "hump", "vaulting" ],
 
-    HaFCaL                    `noun`    {- OaHodab -}          [ "hunchbacked" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaHodab -}          [ "hunchbacked" ]
+                              `femini`     FaCLA',
 
     IFCICAL                   `noun`    {- AiHodiydAb -}       [ "humped", "kyphosis" ]
                               `plural`     IFCICAL |< At,
@@ -2824,8 +2824,8 @@ cluster_52  = listing "Lexicon's properties"
     FiCL                      `noun`    {- Hilos -}            [ unwords [ "saddle", "blanket" ] ]
                               `plural`     HaFCAL,
 
-    HaFCaL                    `noun`    {- OaHolas -}          [ "bay", "chestnut" ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- OaHolas -}          [ "bay", "chestnut" ]
+                              `femini`     FaCLA' ]
 
 
 cluster_53  = listing "Lexicon's properties"
@@ -2870,7 +2870,7 @@ cluster_53  = listing "Lexicon's properties"
 
     FuCLAn |< Iy              `adj`     {- HulowAniy~ -}       [ "confectioner", unwords [ "pastry", "cook" ] ],
 
-    HaFCY                     `noun`    {- OaHolaY -}          [ "sweeter", "sweetest" ] ]
+    HaFCY                     `adj`     {- OaHolaY -}          [ "sweeter", "sweetest" ] ]
 
 
 cluster_54  = listing "Lexicon's properties"
@@ -3229,8 +3229,8 @@ cluster_61  = listing "Lexicon's properties"
                               `plural`     HaFiCLA'
     `derives` "------F---",
 
-    HaFaCL                    `noun`    {- OaHam~ -}           [ "black" ]
-                              `plural`     FaCLA',
+    HaFaCL                    `adj`     {- OaHam~ -}           [ "black" ]
+                              `femini`     FaCLA',
 
     MiFaCL                    `noun`    {- miHam~ -}           [ "cauldron" ],
 
@@ -3282,10 +3282,10 @@ cluster_62  = listing "Lexicon's properties"
 
     FuCAL                     `noun`    {- HumAq -}            [ "smallpox", "variola" ],
 
-    HaFCaL                    `noun`    {- OaHomaq -}          [ "stupid" ]
+    HaFCaL                    `adj`     {- OaHomaq -}          [ "stupid" ]
                               `plural`     FuCuL
-                              `plural`     FaCLA'
-                              `plural`     FaCLAn ]
+                              `plural`     FaCLAn
+                              `femini`     FaCLA' ]
 
 
 cluster_63  = listing "Lexicon's properties"
@@ -3317,12 +3317,12 @@ cluster_63  = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- Ham~Ar -}           [ unwords [ "donkey", "driver" ] ],
 
-    HaFCaL                    `noun`    {- OaHomar -}          [ "red" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaHomar -}          [ "red" ]
+                              `femini`     FaCLA',
 
-    HaFCaL                    `noun`    {- OaHomar -}          [ "Red", "Alhambra", "reds", "redskins" ]
+    HaFCaL                    `adj`     {- OaHomar -}          [ "Red", "Alhambra", "reds", "redskins" ]
                               `plural`     FuCuL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     IFCiLAL                   `noun`    {- AiHomirAr -}        [ "reddening", "blushing" ]
                               `plural`     IFCiLAL |< At,
@@ -3357,9 +3357,9 @@ cluster_64  = listing "Lexicon's properties"
 
     FaCAL |< Iy               `adj`     {- HamAsiy~ -}         [ "zealous", "fervent" ],
 
-    HaFCaL                    `noun`    {- OaHomas -}          [ "valiant", "zealous" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFCaL                    `adj`     {- OaHomas -}          [ "valiant", "zealous" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     TaFaCCuL                  `noun`    {- taHam~us -}         [ "zeal" ]
                               `plural`     TaFaCCuL |< At,
@@ -4527,7 +4527,7 @@ cluster_86  = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- HirA' -}            [ "Hira" ],
 
-    HaFCY                     `noun`    {- OaHoraY -}          [ unwords [ "more", "/", "most", "adequate" ], unwords [ "better", "/", "best" ] ],
+    HaFCY                     `adj`     {- OaHoraY -}          [ unwords [ "more", "/", "most", "adequate" ], unwords [ "better", "/", "best" ] ],
 
     TaFaCCI                   `noun`    {- taHar~iy -}         [ "investigation", "inquiry" ]
                               `plural`     TaFaCCI |< At ]
@@ -4740,10 +4740,10 @@ cluster_90  = listing "Lexicon's properties"
     FaCaL                     `adv`     {- Hasan -}            [ "good", "well" ]
                               `plural`     FiCAL,
 
-    HaFCaL                    `noun`    {- OaHosan -}          [ unwords [ "better", "/", "best" ], "beauty", "belle", "best" ]
-                              `plural`     FaCLA'
+    HaFCaL                    `adj`     {- OaHosan -}          [ unwords [ "better", "/", "best" ], "beauty", "belle", "best" ]
                               `plural`     HaFACiL
-                              `plural`     FuCLY |< At,
+                              `femini`     FaCLA'
+                              `femini`     FuCLY,
 
     FaCaL |< aT               `noun`    {- Hasanap -}          [ unwords [ "good", "deed" ], "merit" ],
 
@@ -5315,8 +5315,8 @@ cluster_100 = listing "Lexicon's properties"
 
     FaCL |< Iy |< aT          `noun`    {- Hawoliy~ap -}       [ "annals", "journal" ],
 
-    HaFCaL                    `noun`    {- OaHowal -}          [ "squinting", unwords [ "cross", "-", "eyed" ] ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaHowal -}          [ "squinting", unwords [ "cross", "-", "eyed" ] ]
+                              `femini`     FaCLA',
 
     FiCAL                     `noun`    {- HiwAl -}            [ "obstacle", "partition" ],
 
@@ -5395,9 +5395,9 @@ cluster_102 = listing "Lexicon's properties"
     FiCAL                     `noun`    {- HiwAr -}            [ "conversation", "dialogue", "discussion", "talks" ]
                               `plural`     FiCAL |< At,
 
-    HaFCaL                    `noun`    {- OaHowar -}          [ unwords [ "white", "and", "black" ] ]
+    HaFCaL                    `adj`     {- OaHowar -}          [ unwords [ "white", "and", "black" ] ]
                               `plural`     FUL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FaCCAL |< aT              `noun`    {- Haw~Arap -}         [ unwords [ "cretaceous", "rock" ], "chalk" ],
 
@@ -5879,7 +5879,7 @@ cluster_111 = listing "Lexicon's properties"
 
     FaCawAn |< Iy |< aT       `noun`    {- HayawAniy~ap -}     [ "bestiality", unwords [ "animal", "nature" ] ],
 
-    HaFCY                     `noun`    {- OaHoyaY -}          [ unwords [ "livelier", "/", "liveliest" ], unwords [ "more", "/", "most", "vital" ], "liveliest", unwords [ "most", "vital" ] ]
+    HaFCY                     `adj`     {- OaHoyaY -}          [ unwords [ "livelier", "/", "liveliest" ], unwords [ "more", "/", "most", "vital" ], "liveliest", unwords [ "most", "vital" ] ]
                            {- `others`  [ "'a.hyaw NAn_Nayn" ] -},
 
     HiFCA'                    `noun`    {- IiHoyA' -}          [ "commemoration" ]

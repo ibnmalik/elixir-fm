@@ -946,8 +946,8 @@ cluster_38  = listing "Lexicon's properties"
 
     FaCiL                     `noun`    {- wabir -}            [ "hairy", "fluffy" ],
 
-    HaFCaL                    `noun`    {- Oawobar -}          [ "hairy", "fluffy" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oawobar -}          [ "hairy", "fluffy" ]
+                              `femini`     FaCLA',
 
     MuFaCCaL                  `adj`     {- muwab~ar -}         [ "woolly" ] ]
 

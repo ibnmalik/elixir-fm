@@ -697,8 +697,8 @@ cluster_13  = listing "Lexicon's properties"
 
     FaCIL                     `adv`     {- jamiyE -}           [ unwords [ "all", "of" ], unwords [ "every", "one", "of" ], "everyone", "all", "entirely", "together" ],
 
-    HaFCaL                    `noun`    {- OajomaE -}          [ "entire", "whole" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OajomaE -}          [ "entire", "whole" ]
+                              `femini`     FaCLA',
 
     FaCAL |< aT               `noun`    {- jamAEap -}          [ "party", "group", "squad" ],
 
@@ -1133,8 +1133,8 @@ cluster_20  = listing "Lexicon's properties"
     FaCiL                     `noun`    {- jarid -}            [ "barren" ]
                               `plural`     FuCL,
 
-    HaFCaL                    `noun`    {- Oajorad -}          [ "barren" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oajorad -}          [ "barren" ]
+                              `femini`     FaCLA',
 
     FaCIL |< aT               `noun`    {- jariydap -}         [ "newspaper" ]
                               `plural`     FaCA'iL,
@@ -1385,9 +1385,9 @@ cluster_24  = listing "Lexicon's properties"
                               `plural`     FaCAL |< At
                               `plural`     HaFyAL,
 
-    HaFCaL                    `noun`    {- Oajowad -}          [ unwords [ "better", "/", "best" ], unwords [ "more", "/", "most", "generous" ] ]
+    HaFCaL                    `adj`     {- Oajowad -}          [ unwords [ "better", "/", "best" ], unwords [ "more", "/", "most", "generous" ] ]
                               `plural`     HaFACIL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "^g w f" <| [
 

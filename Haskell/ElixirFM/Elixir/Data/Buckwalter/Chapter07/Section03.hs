@@ -418,7 +418,7 @@ cluster_48  = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- xamiyS -}           [ "empty", "hungry" ],
 
-    HaFCaL                    `noun`    {- OaxomaS -}          [ "sole", "toe" ]
+    HaFCaL                    `adj`     {- OaxomaS -}          [ "sole", "toe" ]
                               `plural`     HaFACiL ]
 
  |> "_h m ^g" <| [
@@ -728,8 +728,8 @@ cluster_54  = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- xun~ap -}           [ unwords [ "nasal", "twang" ] ]
                               `plural`     FaCIL,
 
-    HaFaCL                    `noun`    {- Oaxan~ -}           [ "twanging" ]
-                              `plural`     FaCLA',
+    HaFaCL                    `adj`     {- Oaxan~ -}           [ "twanging" ]
+                              `femini`     FaCLA',
 
     FuCL                      `noun`    {- xun~ -}             [ unwords [ "chicken", "coop" ], "brooder" ]
                               `plural`     HaFCAL ]
@@ -794,9 +794,9 @@ cluster_56  = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- xan~As -}           [ "Devil" ],
 
-    HaFCaL                    `noun`    {- Oaxonas -}          [ unwords [ "pug", "-", "nosed" ] ]
-                              `plural`     FaCLA'
-                              `plural`     FuCuL,
+    HaFCaL                    `adj`     {- Oaxonas -}          [ unwords [ "pug", "-", "nosed" ] ]
+                              `plural`     FuCuL
+                              `femini`     FaCLA',
 
     FaCLA'                    `noun`    {- xanosA' -}          [ "Khansa" ] ]
 

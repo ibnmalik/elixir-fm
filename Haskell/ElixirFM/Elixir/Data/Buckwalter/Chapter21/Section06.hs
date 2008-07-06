@@ -200,7 +200,7 @@ cluster_104 = listing "Lexicon's properties"
     FaCIL                     `adj`     {- qawiy~ -}           [ "strong", "powerful" ]
                               `plural`     HaFCiLA',
 
-    HaFCY                     `noun`    {- OaqowaY -}          [ unwords [ "stronger", "/", "strongest" ], unwords [ "more", "/", "most", "powerful" ], "strongest", unwords [ "most", "powerful" ] ],
+    HaFCY                     `adj`     {- OaqowaY -}          [ unwords [ "stronger", "/", "strongest" ], unwords [ "more", "/", "most", "powerful" ], "strongest", unwords [ "most", "powerful" ] ],
 
     TaFCI |< aT               `noun`    {- taqowiyap -}        [ "strengthening", "consolidation", "reinforcement", unwords [ "seed", "for", "sowing" ] ]
                               `plural`     TaFACI,

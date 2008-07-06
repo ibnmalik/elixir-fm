@@ -569,8 +569,8 @@ cluster_29  = listing "Lexicon's properties"
 
  |> "b _h q" <| [
 
-    HaFCaL                    `noun`    {- Oaboxaq -}          [ unwords [ "one", "-", "eyed" ] ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- Oaboxaq -}          [ unwords [ "one", "-", "eyed" ] ]
+                              `femini`     FaCLA' ]
 
 
 cluster_30  = listing "Lexicon's properties"

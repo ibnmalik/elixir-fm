@@ -251,7 +251,7 @@ cluster_45  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- wafiy~ -}           [ "faithful", "complete" ]
                               `plural`     HaFCiLA',
 
-    HaFCY                     `noun`    {- OawofaY -}          [ unwords [ "more", "/", "most", "faithful" ], unwords [ "more", "/", "most", "complete" ], unwords [ "most", "faithful" ], unwords [ "most", "complete" ] ],
+    HaFCY                     `adj`     {- OawofaY -}          [ unwords [ "more", "/", "most", "faithful" ], unwords [ "more", "/", "most", "complete" ], unwords [ "most", "faithful" ], unwords [ "most", "complete" ] ],
 
     TaFCI |< aT               `noun`    {- tawofiyap -}        [ "satisfaction", "fulfillment" ],
 
@@ -998,7 +998,7 @@ cluster_60  = listing "Lexicon's properties"
     FiCAL |< At               `noun`    {- wilAyAt -}          [ "States" ]
                               `plural`     FiCAL |< At,
 
-    HaFCY                     `noun`    {- OawolaY -}          [ unwords [ "more", "/", "most", "appropriate", "/", "suitable", "/", "deserving" ], unwords [ "most", "appropriate", "/", "suitable", "/", "deserving" ] ],
+    HaFCY                     `adj`     {- OawolaY -}          [ unwords [ "more", "/", "most", "appropriate", "/", "suitable", "/", "deserving" ], unwords [ "most", "appropriate", "/", "suitable", "/", "deserving" ] ],
 
     MaFCY                     `noun`    {- mawolaY -}          [ "master", "lord" ]
                               `plural`     MaFACI,

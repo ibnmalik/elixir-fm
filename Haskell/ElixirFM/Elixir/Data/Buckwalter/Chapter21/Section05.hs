@@ -195,8 +195,8 @@ cluster_84  = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- qariynap -}         [ "linkage", "connections" ]
                               `plural`     FaCA'iL,
 
-    HaFCaL                    `noun`    {- Oaqoran -}          [ "horned" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oaqoran -}          [ "horned" ]
+                              `femini`     FaCLA',
 
     FiCAL                     `noun`    {- qirAn -}            [ "marriage", "connection" ],
 
@@ -702,7 +702,7 @@ cluster_92  = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- qasAwap -}          [ "harshness", "severity", "brutality" ],
 
-    HaFCY                     `noun`    {- OaqosaY -}          [ "harshest", "cruelest" ],
+    HaFCY                     `adj`     {- OaqosaY -}          [ "harshest", "cruelest" ],
 
     MuFACY |< aT              `noun`    {- muqAsAp -}          [ "suffering", "enduring" ]
                               `plural`     MuFACaL |< At

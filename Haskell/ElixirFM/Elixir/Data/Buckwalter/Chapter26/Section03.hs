@@ -203,9 +203,9 @@ cluster_44  = listing "Lexicon's properties"
 
     FuCAL |< aT               `noun`    {- hutAmap -}          [ "fragment" ],
 
-    HaFCaL                    `noun`    {- Oahotam -}          [ "toothless", unwords [ "without", "front", "teeth" ] ]
+    HaFCaL                    `adj`     {- Oahotam -}          [ "toothless", unwords [ "without", "front", "teeth" ] ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FiCL |< Iy                `adj`     {- hitomiy~ -}         [ "Hitmi" ] ]
 
@@ -295,13 +295,13 @@ cluster_46  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- hawaj -}            [ "folly", "rashness" ],
 
-    HaFCaL                    `noun`    {- Oahowaj -}          [ "reckless", "foolhardy" ]
-                              `plural`     FaCLA'
-                              `plural`     FUL,
+    HaFCaL                    `adj`     {- Oahowaj -}          [ "reckless", "foolhardy" ]
+                              `plural`     FUL
+                              `femini`     FaCLA',
 
-    HaFCaL                    `noun`    {- Oahowaj -}          [ "vehement", "frantic" ]
-                              `plural`     FaCLA'
-                              `plural`     FUL,
+    HaFCaL                    `adj`     {- Oahowaj -}          [ "vehement", "frantic" ]
+                              `plural`     FUL
+                              `femini`     FaCLA',
 
     FaCLA'                    `noun`    {- hawojA' -}          [ "hurricane", "tornado" ]
                               `plural`     FUL ]
@@ -484,8 +484,8 @@ cluster_49  = listing "Lexicon's properties"
                               `plural`     HaFCiLA'
                               `plural`     FayL |< aT,
 
-    HaFCaL                    `noun`    {- Oahowan -}          [ "easy", "comfortable", "unimportant" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oahowan -}          [ "easy", "comfortable", "unimportant" ]
+                              `femini`     FaCLA',
 
     MaFAL |< aT               `noun`    {- mahAnap -}          [ "contempt", "humiliation", "disgrace" ],
 
@@ -659,7 +659,7 @@ cluster_52  = listing "Lexicon's properties"
 
     FaCCAL |< aT              `noun`    {- haw~Ayap -}         [ "ventilator", "fan" ],
 
-    HaFCY                     `noun`    {- OahowaY -}          [ unwords [ "more", "/", "most", "desirable" ], unwords [ "more", "/", "most", "preferable" ], unwords [ "most", "desirable", "/", "preferable" ] ],
+    HaFCY                     `adj`     {- OahowaY -}          [ unwords [ "more", "/", "most", "desirable" ], unwords [ "more", "/", "most", "preferable" ], unwords [ "most", "desirable", "/", "preferable" ] ],
 
     HuFCIL |< aT              `noun`    {- Ouhowiy~ap -}       [ "abyss", "chasm" ],
 
@@ -879,9 +879,9 @@ cluster_56  = listing "Lexicon's properties"
 
     FaCLAn                    `noun`    {- hayofAn -}          [ "parched" ],
 
-    HaFCaL                    `noun`    {- Oahoyaf -}          [ "slender", "frail" ]
+    HaFCaL                    `adj`     {- Oahoyaf -}          [ "slender", "frail" ]
                               `plural`     FIL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "h y f y" <| [
 

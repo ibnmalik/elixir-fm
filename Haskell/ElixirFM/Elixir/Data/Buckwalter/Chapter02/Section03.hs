@@ -429,8 +429,8 @@ cluster_48  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- bahaq -}            [ "herpes" ],
 
-    HaFCaL                    `noun`    {- Oabohaq -}          [ "herpetic" ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- Oabohaq -}          [ "herpetic" ]
+                              `femini`     FaCLA' ]
 
 
 cluster_49  = listing "Lexicon's properties"
@@ -567,7 +567,7 @@ cluster_51  = listing "Lexicon's properties"
 
     FaCA' |< Iy               `adj`     {- bahA}iy~ -}         [ "Baha'i" ],
 
-    HaFCY                     `noun`    {- OabohaY -}          [ unwords [ "more", "/", "most", "splendid" ] ],
+    HaFCY                     `adj`     {- OabohaY -}          [ unwords [ "more", "/", "most", "splendid" ] ],
 
     MuFACY |< aT              `noun`    {- mubAhAp -}          [ "pride", "boastfulness" ],
 
@@ -665,9 +665,9 @@ cluster_53  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- bakam -}            [ "muteness", "silence" ],
 
-    HaFCaL                    `noun`    {- Oabokam -}          [ "silent", "mute" ]
+    HaFCaL                    `adj`     {- Oabokam -}          [ "silent", "mute" ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "b k n" <| [
 

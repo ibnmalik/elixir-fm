@@ -330,7 +330,7 @@ cluster_86  = listing "Lexicon's properties"
     FaCA'iL |< Iy |< aT       `noun`    {- EaqA}idiy~ap -}     [ "dogmatism" ],
 
     HaFCaL                    `adj`     {- OaEoqad -}          [ "complicated", "difficult" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     MaFCiL                    `noun`    {- maEoqid -}          [ "juncture", "joint" ]
                               `plural`     MaFACiL,
@@ -404,7 +404,7 @@ cluster_87  = listing "Lexicon's properties"
                               `plural`     FuCL |< At,
 
     HaFCaL                    `adj`     {- OaEoqaf -}          [ "crooked", "bent", "hooked" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FaCLA'                    `noun`    {- EaqofA' -}          [ "picklock" ],
 
@@ -817,9 +817,9 @@ cluster_95  = listing "Lexicon's properties"
 
     FaCaL |< aT               `noun`    {- Earajap -}          [ "limp" ],
 
-    HaFCaL                    `noun`    {- OaEoraj -}          [ "lame", "limping" ]
+    HaFCaL                    `adj`     {- OaEoraj -}          [ "lame", "limping" ]
                               `plural`     FuCLAn
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     HaFCaL                    `noun`    {- OaEoraj -}          [ "Araj" ],
 

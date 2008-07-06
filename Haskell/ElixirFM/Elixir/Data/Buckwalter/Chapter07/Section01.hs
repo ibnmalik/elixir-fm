@@ -198,8 +198,8 @@ cluster_4   = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- xaD~Ar -}           [ "greengrocer" ]
     `derives` "------F---",
 
-    HaFCaL                    `noun`    {- OaxoDar -}          [ "green" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaxoDar -}          [ "green" ]
+                              `femini`     FaCLA',
 
     HaFCaL                    `noun`    {- OaxoDar -}          [ "Akhdar" ],
 
@@ -888,9 +888,9 @@ cluster_18  = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- xa$Anap -}          [ "roughness" ],
 
-    HaFCaL                    `noun`    {- Oaxo$an -}          [ "rough", "rude" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCuL,
+    HaFCaL                    `adj`     {- Oaxo$an -}          [ "rough", "rude" ]
+                              `plural`     FuCuL
+                              `femini`     FaCLA',
 
     FuCUL |< aT               `noun`    {- xu$uwnap -}         [ "roughness", "rudeness" ] ]
 

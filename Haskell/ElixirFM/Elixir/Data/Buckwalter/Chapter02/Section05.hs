@@ -1013,9 +1013,9 @@ cluster_99  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- bator -}            [ "amputation", "severance" ],
 
-    HaFCaL                    `noun`    {- Oabotar -}          [ "amputee", "defective" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFCaL                    `adj`     {- Oabotar -}          [ "amputee", "defective" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     FaCCAL                    `noun`    {- bat~Ar -}           [ "sharp", "cutting" ]
                               `plural`     FaCCAL |< Un

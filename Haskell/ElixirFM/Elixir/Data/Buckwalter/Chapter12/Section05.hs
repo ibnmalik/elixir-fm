@@ -878,9 +878,9 @@ cluster_98  = listing "Lexicon's properties"
     FaCAL                     `noun`    {- sawAd -}            [ "blackness" ]
                               `plural`     HaFCiL |< aT,
 
-    HaFCaL                    `noun`    {- Oasowad -}          [ "black" ]
+    HaFCaL                    `adj`     {- Oasowad -}          [ "black" ]
                               `plural`     FUL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FuCayL |< Iy              `adj`     {- suwayodiy~ -}       [ "Suweidi", "Suwaidi", "Souaidi" ],
 

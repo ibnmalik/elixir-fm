@@ -704,14 +704,14 @@ cluster_12  = listing "Lexicon's properties"
 
     TaFaCCY                   `verb`    {- tadan~aY -}         [ unwords [ "approach", "gradually" ], unwords [ "be", "debased" ] ],
 
-    HaFCY                     `noun`    {- OadonaY -}          [ unwords [ "lower", "/", "lowest" ], "inferior", "lowest", unwords [ "most", "inferior" ] ],
+    HaFCY                     `adj`     {- OadonaY -}          [ unwords [ "lower", "/", "lowest" ], "inferior", "lowest", unwords [ "most", "inferior" ] ],
 
-    HaFCY                     `noun`    {- OadonaY -}          [ "near", "nearer", "nearest", "inferior", "lowest", unwords [ "near", "/", "nearer", "/", "nearest" ], unwords [ "lower", "/", "lowest" ] ]
+    HaFCY                     `adj`     {- OadonaY -}          [ "near", "nearer", "nearest", "inferior", "lowest", unwords [ "near", "/", "nearer", "/", "nearest" ], unwords [ "lower", "/", "lowest" ] ]
                               `plural`     FuCY
                               `plural`     HaFACI
                            {- `others`  [ "'adnawna N" ] -},
 
-    HaFCY                     `noun`    {- OadonaY -}          [ "minimum" ],
+    HaFCY                     `adj`     {- OadonaY -}          [ "minimum" ],
 
     TaFaCCI                   `noun`    {- tadan~iy -}         [ "decline", "sinking", "low", "near", "close" ]
                               `plural`     FACI |< At
@@ -953,7 +953,7 @@ cluster_16  = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- dirAyap -}          [ "knowledge", "knowing" ],
 
-    HaFCY                     `noun`    {- OadoraY -}          [ unwords [ "more", "/", "most", "knowledgeable" ], unwords [ "more", "/", "most", "informed" ] ] ]
+    HaFCY                     `adj`     {- OadoraY -}          [ unwords [ "more", "/", "most", "knowledgeable" ], unwords [ "more", "/", "most", "informed" ] ] ]
 
 
 cluster_17  = listing "Lexicon's properties"

@@ -398,7 +398,7 @@ cluster_7   = listing "Lexicon's properties"
 
     FuCAL |< aT               `noun`    {- ju*Amap -}          [ "stubble" ],
 
-    HaFCaL                    `noun`    {- Oajo*am -}          [ "mutilated", "leprous" ]
+    HaFCaL                    `adj`     {- Oajo*am -}          [ "mutilated", "leprous" ]
                               `plural`     FaCLY,
 
     MaFCUL                    `noun`    {- majo*uwm -}         [ "leprous" ]
@@ -954,8 +954,8 @@ cluster_16  = listing "Lexicon's properties"
                               `plural`     FaCIL |< Un
     `derives` "------F---",
 
-    HaFCaL                    `noun`    {- Oajodab -}          [ "barren", "sterile" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oajodab -}          [ "barren", "sterile" ]
+                              `femini`     FaCLA',
 
     MuFCiL                    `noun`    {- mujodib -}          [ "barren", "sterile", "unproductive" ]
                               `plural`     MuFCiL |< Un

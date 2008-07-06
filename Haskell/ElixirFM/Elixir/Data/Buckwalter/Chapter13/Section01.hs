@@ -79,7 +79,7 @@ cluster_2   = listing "Lexicon's properties"
     FuCL                      `noun`    {- \$uWom -}           [ "calamity", unwords [ "evil", "omen" ] ],
 
     HaFCaL                    `adj`     {- Oa$oOam -}          [ "sinister", "calamitous" ]
-                              `plural`     FuCLY |< At,
+                              `femini`     FuCLY,
 
     TaFACuL                   `noun`    {- ta$AWum -}          [ "pessimism" ]
                               `plural`     TaFACuL |< At,
@@ -620,7 +620,7 @@ cluster_11  = listing "Lexicon's properties"
     FaCAL |< aT               `noun`    {- \$ajAEap -}         [ "courage" ],
 
     HaFCaL                    `adj`     {- Oa$ojaE -}          [ "courageous" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- ta$ojiyE -}         [ "encouragement", "promotion", "support" ]
                               `plural`     TaFCIL |< At,
@@ -701,7 +701,7 @@ cluster_13  = listing "Lexicon's properties"
     FiCAL                     `noun`    {- \$ijAr -}           [ unwords [ "wooden", "bar", "or", "bolt" ] ],
 
     HaFCaL                    `adj`     {- Oa$ojar -}          [ "wooded" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- ta$ojiyr -}         [ "afforestation" ]
                               `plural`     TaFCIL |< At,
@@ -902,8 +902,8 @@ cluster_17  = listing "Lexicon's properties"
 
  |> "^s _h m" <| [
 
-    HaFCaL                    `noun`    {- Oa$oxam -}          [ "gray" ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- Oa$oxam -}          [ "gray" ]
+                              `femini`     FaCLA' ]
 
  |> "^s _h r" <| [
 
@@ -950,7 +950,7 @@ cluster_18  = listing "Lexicon's properties"
     FaCiL                     `adj`     {- \$aEiv -}           [ "unkempt" ],
 
     HaFCaL                    `adj`     {- Oa$oEav -}          [ "unkempt" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     MuFaCCaL                  `adj`     {- mu$aE~av -}         [ "unkempt" ] ]
 

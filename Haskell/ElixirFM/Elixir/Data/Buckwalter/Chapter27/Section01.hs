@@ -912,8 +912,8 @@ cluster_16  = listing "Lexicon's properties"
     FaCiL                     `verb`    {- waTif-a -}          [ unwords [ "have", "bushy", "eyebrows" ] ]
                               `imperf`     FCaL,
 
-    HaFCaL                    `noun`    {- OawoTaf -}          [ unwords [ "bushy", "-", "browed" ] ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OawoTaf -}          [ unwords [ "bushy", "-", "browed" ] ]
+                              `femini`     FaCLA',
 
     FaCLA'                    `noun`    {- waTofA' -}          [ unwords [ "heavy", "clouds" ] ] ]
 

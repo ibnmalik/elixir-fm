@@ -440,7 +440,7 @@ sub showEntry ($) {
 
     my $clone;
     
-    my ($others, $plural, $imperf, $pfirst, $second, $glosses) = ([], [], [], [], [], []);
+    my ($others, $plural, $femini, $imperf, $pfirst, $second, $glosses) = ([], [], [], [], [], [], []);
 
     $entry->{'glosses'} = reduceGlosses($entry->{'glosses'}) unless $indexed;
 
@@ -508,7 +508,9 @@ sub showEntry ($) {
     else {
 
         my @plural = ();
-    
+
+        my @femini = ();
+        
         foreach my $form (keys %{$entry->{'patterns'}}) {
 
             my @types = keys %{$entry->{'types'}->{$form}};
@@ -546,6 +548,15 @@ sub showEntry ($) {
                               @{$entry->{'patterns'}->{$form}} == 0 && $form eq $entry->{'form'} 
                               ? ($entry->{'morphs'}) : @{$entry->{'patterns'}->{$form}};
 
+            if ($entry->{'morphs'} =~ /^(?:HaFCaL|HACaL|HaFCY|HaFaCL|HACY)$/) {
+
+                $entry->{'entity'} = 'adj' if $entry->{'entity'} eq 'noun';
+                                                                               
+                push @femini, map { /^(FaCLA\'|FuC[Ly]Y|FULY)(?: \|\< At)?$/ ? $1 : () } @plural;
+
+                @plural = grep { not /^(?:FaCLA\'|FuC[Ly]Y|FULY)(?: \|\< At)?$/ } @plural;
+            }
+        
             @types = grep { not /At(?:_|$)/ || /ap(?:_|$)/ || /iyn(?:_|$)/ || /all(?:_|$)/ } @types;
 
             my $morf = $form;
@@ -564,9 +575,11 @@ sub showEntry ($) {
             $plural = [];
         }
         else {
-        
+            
             $plural = [ @plural ];
         }
+
+        $femini = [ @femini ];
     }
 
     return sprintf "%s    %-25s %-9s %-22s %s%s",
@@ -591,6 +604,7 @@ sub showEntry ($) {
     # derived #    (@{$ithird} > 0 ? map { '   `ithird`     ' . $_ } @{$ithird} : ()),
                    (@{$second} > 0 ? map { '   `second`     ' . $_ } @{$second} : ()),
                    (@{$plural} > 0 ? map { '   `plural`     ' . $_ } @{$plural} : ()),
+                   (@{$femini} > 0 ? map { '   `femini`     ' . $_ } @{$femini} : ()),
 
                    (@{$others} > 0 ? '{- `others`  [ ' .
                             (join ", ", map { '"' . $_ . '"' } @{$others}) . ' ] -}' : ())),

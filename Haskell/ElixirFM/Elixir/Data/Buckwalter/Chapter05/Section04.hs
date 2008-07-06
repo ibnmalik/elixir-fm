@@ -355,9 +355,9 @@ cluster_67  = listing "Lexicon's properties"
                               `plural`     MuFIL |< Un
     `derives` "------F---",
 
-    HaFCaL                    `noun`    {- Oajowad -}          [ unwords [ "better", "/", "best" ], unwords [ "more", "/", "most", "generous" ] ]
+    HaFCaL                    `adj`     {- Oajowad -}          [ unwords [ "better", "/", "best" ], unwords [ "more", "/", "most", "generous" ] ]
                               `plural`     HaFACIL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "^g w d w" <| [
 
@@ -382,9 +382,9 @@ cluster_68  = listing "Lexicon's properties"
 
     FaCL |< Iy                `adj`     {- jawofiy~ -}         [ "interior", "subterranean" ],
 
-    HaFCaL                    `noun`    {- Oajowaf -}          [ "hollow", "empty" ]
-                              `plural`     FaCLA'
-                              `plural`     FUL,
+    HaFCaL                    `adj`     {- Oajowaf -}          [ "hollow", "empty" ]
+                              `plural`     FUL
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- tajowiyf -}         [ "cavity" ]
                               `plural`     TaFACIL

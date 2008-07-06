@@ -832,7 +832,7 @@ cluster_14  = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oakoram -}          [ "Akram" ],
 
-    HaFCaL                    `noun`    {- Oakoram -}          [ unwords [ "nobler", "/", "noblest" ], unwords [ "dearer", "/", "dearest" ], unwords [ "more", "/", "most", "precious" ] ]
+    HaFCaL                    `adj`     {- Oakoram -}          [ unwords [ "nobler", "/", "noblest" ], unwords [ "dearer", "/", "dearest" ], unwords [ "more", "/", "most", "precious" ] ]
                               `plural`     HaFACiL,
 
     TaFCIL                    `adv`     {- takoriym -}         [ "honoring", "tribute", unwords [ "in", "honor", "of" ] ]

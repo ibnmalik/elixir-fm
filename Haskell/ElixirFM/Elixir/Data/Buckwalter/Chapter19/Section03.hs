@@ -462,9 +462,9 @@ cluster_50  = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- girArap -}          [ "sack", "bag" ]
                               `plural`     FaCA'iL,
 
-    HaFaCL                    `noun`    {- Oagar~ -}           [ "esteemed" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFaCL                    `adj`     {- Oagar~ -}           [ "esteemed" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     TaFCIL |< Iy              `adj`     {- tagoriyriy~ -}      [ "insidious", "deceptive" ],
 

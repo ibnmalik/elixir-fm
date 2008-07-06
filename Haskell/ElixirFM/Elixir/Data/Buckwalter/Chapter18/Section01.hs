@@ -390,9 +390,9 @@ cluster_8   = listing "Lexicon's properties"
     MiFCaL                    `noun`    {- miEoSam -}          [ "wrist" ]
                               `plural`     MaFACiL,
 
-    HaFCaL                    `noun`    {- OaEoSam -}          [ "precious", "valuable", unwords [ "white", "-", "footed" ] ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFCaL                    `adj`     {- OaEoSam -}          [ "precious", "valuable", unwords [ "white", "-", "footed" ] ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     MuFtaCiL                  `noun`    {- muEotaSim -}        [ "Mu'tasim", "Motacem" ],
 
@@ -959,9 +959,9 @@ cluster_20  = listing "Lexicon's properties"
 
     FiCAL |< Iy               `adj`     {- EiZAmiy~ -}         [ "noble", "aristocratic" ],
 
-    HaFCaL                    `noun`    {- OaEoZam -}          [ unwords [ "greater", "/", "greatest" ], "major", "supreme" ]
-                              `plural`     FuCLY |< At
-                              `plural`     HaFACiL,
+    HaFCaL                    `adj`     {- OaEoZam -}          [ unwords [ "greater", "/", "greatest" ], "major", "supreme" ]
+                              `plural`     HaFACiL
+                              `femini`     FuCLY,
 
     TaFCIL                    `noun`    {- taEoZiym -}         [ "glorification", "veneration" ]
                               `plural`     TaFCIL |< At,

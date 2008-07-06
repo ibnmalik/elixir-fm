@@ -79,7 +79,7 @@ cluster_2   = listing "Lexicon's properties"
     FuCL                      `noun`    {- \$uWom -}           [ "calamity", unwords [ "evil", "omen" ] ],
 
     HaFCaL                    `adj`     {- Oa$oOam -}          [ "sinister", "calamitous" ]
-                              `plural`     FuCLY |< At,
+                              `femini`     FuCLY,
 
     TaFACuL                   `noun`    {- ta$AWum -}          [ "pessimism" ]
                               `plural`     TaFACuL |< At,
@@ -620,7 +620,7 @@ cluster_11  = listing "Lexicon's properties"
     FaCAL |< aT               `noun`    {- \$ajAEap -}         [ "courage" ],
 
     HaFCaL                    `adj`     {- Oa$ojaE -}          [ "courageous" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- ta$ojiyE -}         [ "encouragement", "promotion", "support" ]
                               `plural`     TaFCIL |< At,
@@ -701,7 +701,7 @@ cluster_13  = listing "Lexicon's properties"
     FiCAL                     `noun`    {- \$ijAr -}           [ unwords [ "wooden", "bar", "or", "bolt" ] ],
 
     HaFCaL                    `adj`     {- Oa$ojar -}          [ "wooded" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- ta$ojiyr -}         [ "afforestation" ]
                               `plural`     TaFCIL |< At,
@@ -902,8 +902,8 @@ cluster_17  = listing "Lexicon's properties"
 
  |> "^s _h m" <| [
 
-    HaFCaL                    `noun`    {- Oa$oxam -}          [ "gray" ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- Oa$oxam -}          [ "gray" ]
+                              `femini`     FaCLA' ]
 
  |> "^s _h r" <| [
 
@@ -950,7 +950,7 @@ cluster_18  = listing "Lexicon's properties"
     FaCiL                     `adj`     {- \$aEiv -}           [ "unkempt" ],
 
     HaFCaL                    `adj`     {- Oa$oEav -}          [ "unkempt" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     MuFaCCaL                  `adj`     {- mu$aE~av -}         [ "unkempt" ] ]
 
@@ -1198,7 +1198,7 @@ cluster_23  = listing "Lexicon's properties"
     MaFCUL                    `adj`     {- ma$oEuwr -}         [ "split", "cracked" ],
 
     HaFCaL                    `adj`     {- Oa$oEar -}          [ "hirsute" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FaCLAn |< Iy              `adj`     {- \$aEorAniy~ -}      [ "hirsute" ],
 
@@ -1634,7 +1634,7 @@ cluster_32  = listing "Lexicon's properties"
                               `plural`     HaFCAL,
 
     HaFCaL                    `adj`     {- Oa$odaq -}          [ unwords [ "loud", "-", "mouthed" ] ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     MutaFaCCiL                `noun`    {- muta$ad~iq -}       [ "braggart" ]
                               `plural`     MutaFaCCiL |< Un
@@ -1975,7 +1975,7 @@ cluster_38  = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- Oa$ohab -}          [ "gray" ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FaCLA'                    `noun`    {- \$ahobA' -}         [ "Aleppo" ] ]
 
@@ -2055,7 +2055,7 @@ cluster_40  = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- \$uholap -}         [ unwords [ "deep", "-", "blue" ], unwords [ "navy", "blue" ] ],
 
     HaFCaL                    `adj`     {- Oa$ohal -}          [ unwords [ "deep", "-", "blue" ], unwords [ "navy", "blue" ] ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- ta$ohiyl -}         [ "acceleration", "expediting" ]
                               `plural`     TaFCIL |< At ]
@@ -2549,9 +2549,9 @@ cluster_49  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- \$alal -}           [ "paralysis", "impotence", "inertia" ],
 
-    HaFaCL                    `noun`    {- Oa$al~ -}           [ "paralyzed", "impotent", "inert" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFaCL                    `adj`     {- Oa$al~ -}           [ "paralyzed", "impotent", "inert" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     MaFCUL                    `adj`     {- ma$oluwl -}         [ "paralyzed", "impotent", "inert" ],
 
@@ -2614,8 +2614,8 @@ cluster_50  = listing "Lexicon's properties"
     FaCaL                     `adj`     {- \$amaT -}           [ unwords [ "turning", "gray" ] ],
 
     HaFCaL                    `adj`     {- Oa$omaT -}          [ unwords [ "gray", "-", "haired" ] ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     IFCiLAL                   `noun`    {- Ai$omiTAT -}        [ "graying" ]
                               `plural`     IFCiLAL |< At ]
@@ -2759,7 +2759,7 @@ cluster_53  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- \$am~Am -}          [ "muskmelon", "cantaloupe" ],
 
     HaFaCL                    `adj`     {- Oa$am~ -}           [ "proud" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     MaFCUL                    `adj`     {- ma$omuwm -}         [ "smelly", "odorous" ],
 
@@ -2947,7 +2947,7 @@ cluster_57  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- \$aniyE -}          [ "hideous", "repulsive" ],
 
     HaFCaL                    `adj`     {- Oa$onaE -}          [ "hideous", "repulsive" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- ta$oniyE -}         [ "defamation", "slander" ]
                               `plural`     TaFCIL |< At ]
@@ -3177,9 +3177,9 @@ cluster_61  = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- \$uqorap -}         [ "blond", unwords [ "fair", "-", "skinned" ] ],
 
-    HaFCaL                    `noun`    {- Oa$oqar -}          [ "blond", unwords [ "fair", "-", "skinned" ] ]
-                              `plural`     FaCLA'
-                              `plural`     FuCuL,
+    HaFCaL                    `adj`     {- Oa$oqar -}          [ "blond", unwords [ "fair", "-", "skinned" ] ]
+                              `plural`     FuCuL
+                              `femini`     FaCLA',
 
     FuCayL                    `noun`    {- \$uqayor -}         [ "Shuqair" ],
 
@@ -3816,8 +3816,8 @@ cluster_72  = listing "Lexicon's properties"
     FaCL                      `noun`    {- \$arom -}           [ "crack", "bay" ]
                               `plural`     FuCUL,
 
-    HaFCaL                    `noun`    {- Oa$oram -}          [ "harelipped" ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- Oa$oram -}          [ "harelipped" ]
+                              `femini`     FaCLA' ]
 
  |> "^s r m .t" <| [
 
@@ -4229,9 +4229,9 @@ cluster_80  = listing "Lexicon's properties"
  |> "^s w ^s" <| [
 
     HaFCaL                    `adj`     {- Oa$owa$ -}          [ "brave", "hero", "proud", "audacious" ]
-                              `plural`     FaCLA'
                               `plural`     HaFACiL
-                              `plural`     FUL,
+                              `plural`     FUL
+                              `femini`     FaCLA',
 
     FaCCaL                    `verb`    {- \$aw~a$ -}          [ "confuse", "disturb" ],
 
@@ -4327,7 +4327,7 @@ cluster_81  = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- Oa$owah -}          [ "distorted", "deformed" ]
                               `plural`     FUL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- ta$owiyh -}         [ "distortion" ]
                               `plural`     TaFCIL |< At,
@@ -4791,8 +4791,8 @@ cluster_91  = listing "Lexicon's properties"
     MaFIL                     `noun`    {- ma$iyb -}           [ unwords [ "old", "age" ], unwords [ "gray", "or", "white", "hair" ] ],
 
     HaFCaL                    `adj`     {- Oa$oyab -}          [ unwords [ "gray", "-", "haired" ], "old" ]
-                              `plural`     FaCLA'
-                              `plural`     FIL,
+                              `plural`     FIL
+                              `femini`     FaCLA',
 
     FIL |< aT                 `noun`    {- \$iybap -}          [ "Shibh", "Shibah" ],
 
@@ -4986,7 +4986,7 @@ cluster_94  = listing "Lexicon's properties"
     TaFACaL                   `verb`    {- ta$Azar -}          [ unwords [ "look", "askance", "at", "each", "other" ] ],
 
     HaFCaL                    `adj`     {- Oa$ozar -}          [ unwords [ "askance", "looking" ], "distrustful" ]
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "^sA_darwAn" <| [
 

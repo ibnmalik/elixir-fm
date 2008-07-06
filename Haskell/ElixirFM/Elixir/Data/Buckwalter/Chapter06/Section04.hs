@@ -51,8 +51,8 @@ cluster_61  = listing "Lexicon's properties"
                               `plural`     HaFiCLA'
     `derives` "------F---",
 
-    HaFaCL                    `noun`    {- OaHam~ -}           [ "black" ]
-                              `plural`     FaCLA',
+    HaFaCL                    `adj`     {- OaHam~ -}           [ "black" ]
+                              `femini`     FaCLA',
 
     MiFaCL                    `noun`    {- miHam~ -}           [ "cauldron" ],
 
@@ -104,10 +104,10 @@ cluster_62  = listing "Lexicon's properties"
 
     FuCAL                     `noun`    {- HumAq -}            [ "smallpox", "variola" ],
 
-    HaFCaL                    `noun`    {- OaHomaq -}          [ "stupid" ]
+    HaFCaL                    `adj`     {- OaHomaq -}          [ "stupid" ]
                               `plural`     FuCuL
-                              `plural`     FaCLA'
-                              `plural`     FaCLAn ]
+                              `plural`     FaCLAn
+                              `femini`     FaCLA' ]
 
 
 cluster_63  = listing "Lexicon's properties"
@@ -139,12 +139,12 @@ cluster_63  = listing "Lexicon's properties"
 
     FaCCAL                    `noun`    {- Ham~Ar -}           [ unwords [ "donkey", "driver" ] ],
 
-    HaFCaL                    `noun`    {- OaHomar -}          [ "red" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaHomar -}          [ "red" ]
+                              `femini`     FaCLA',
 
-    HaFCaL                    `noun`    {- OaHomar -}          [ "Red", "Alhambra", "reds", "redskins" ]
+    HaFCaL                    `adj`     {- OaHomar -}          [ "Red", "Alhambra", "reds", "redskins" ]
                               `plural`     FuCuL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     IFCiLAL                   `noun`    {- AiHomirAr -}        [ "reddening", "blushing" ]
                               `plural`     IFCiLAL |< At,
@@ -179,9 +179,9 @@ cluster_64  = listing "Lexicon's properties"
 
     FaCAL |< Iy               `adj`     {- HamAsiy~ -}         [ "zealous", "fervent" ],
 
-    HaFCaL                    `noun`    {- OaHomas -}          [ "valiant", "zealous" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFCaL                    `adj`     {- OaHomas -}          [ "valiant", "zealous" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     TaFaCCuL                  `noun`    {- taHam~us -}         [ "zeal" ]
                               `plural`     TaFaCCuL |< At,

@@ -254,8 +254,8 @@ cluster_45  = listing "Lexicon's properties"
 
     FuCUL |< aT               `noun`    {- lukuwnap -}         [ "stammer", unwords [ "speech", "defect" ] ],
 
-    HaFCaL                    `noun`    {- Oalokan -}          [ "stammerer", "stutterer" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oalokan -}          [ "stammerer", "stutterer" ]
+                              `femini`     FaCLA',
 
     FaCaL                     `noun`    {- lakan -}            [ "basins" ]
                               `plural`     HaFCAL ]

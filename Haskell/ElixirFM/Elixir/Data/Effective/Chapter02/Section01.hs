@@ -913,7 +913,7 @@ cluster_16  = listing "Lexicon's properties"
 
     FaCA' |< Iy               `adj`     {- bahA}iy~ -}         [ "Baha'i" ],
 
-    HaFCY                     `noun`    {- OabohaY -}          [ unwords [ "more", "/", "most", "splendid" ] ] ]
+    HaFCY                     `adj`     {- OabohaY -}          [ unwords [ "more", "/", "most", "splendid" ] ] ]
 
  |> "b k '" <| [
 

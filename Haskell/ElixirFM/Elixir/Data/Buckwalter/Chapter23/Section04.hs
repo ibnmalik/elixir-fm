@@ -525,9 +525,9 @@ cluster_70  = listing "Lexicon's properties"
     FaCiL                     `verb`    {- layis-a -}          [ unwords [ "be", "valiant" ] ]
                               `imperf`     FCaL,
 
-    HaFCaL                    `noun`    {- Oaloyas -}          [ "valiant" ]
-                              `plural`     FaCLA'
-                              `plural`     FIL ]
+    HaFCaL                    `adj`     {- Oaloyas -}          [ "valiant" ]
+                              `plural`     FIL
+                              `femini`     FaCLA' ]
 
  |> "l y t" <| [
 

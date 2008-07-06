@@ -168,7 +168,7 @@ cluster_84  = listing "Lexicon's properties"
     FuCY                      `noun`    {- ruqaY -}            [ "magic", "sorcery", "magician", "sorcerer" ]
                            {- `others`  [ "raqqA' Nh N0_Nh Nhy" ] -},
 
-    HaFCY                     `noun`    {- OaroqaY -}          [ "higher", "superior", unwords [ "more", "/", "most", "advanced" ] ],
+    HaFCY                     `adj`     {- OaroqaY -}          [ "higher", "superior", unwords [ "more", "/", "most", "advanced" ] ],
 
     MiFCY |< aT               `noun`    {- miroqAp -}          [ "stairs", "ladder", "elevator" ]
                               `plural`     MaFACI,
@@ -587,8 +587,8 @@ cluster_91  = listing "Lexicon's properties"
 
  |> "r t t" <| [
 
-    HaFaCL                    `noun`    {- Oarat~ -}           [ unwords [ "speech", "-", "defective" ] ]
-                              `plural`     FaCLA',
+    HaFaCL                    `adj`     {- Oarat~ -}           [ unwords [ "speech", "-", "defective" ] ]
+                              `femini`     FaCLA',
 
     FuCL                      `noun`    {- rut~ -}             [ unwords [ "having", "a", "speech", "defect" ] ] ]
 
@@ -742,8 +742,8 @@ cluster_94  = listing "Lexicon's properties"
 
     FILAn |< Iy               `adj`     {- riyoHAniy~ -}       [ "Rihani" ],
 
-    HaFCaL                    `noun`    {- OarowaH -}          [ unwords [ "more", "/", "most", "calming" ], unwords [ "more", "/", "most", "soothing" ] ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OarowaH -}          [ unwords [ "more", "/", "most", "calming" ], unwords [ "more", "/", "most", "soothing" ] ]
+                              `femini`     FaCLA',
 
     FaCLA'                    `noun`    {- rawoHA' -}          [ "Rawha" ],
 

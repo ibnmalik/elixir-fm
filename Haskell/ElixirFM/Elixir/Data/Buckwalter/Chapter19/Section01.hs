@@ -661,7 +661,7 @@ cluster_13  = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- Oagoba$ -}          [ "dark", "opaque" ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FaCAL |< aT               `noun`    {- gabA$ap -}          [ "asthenopia" ] ]
 
@@ -733,12 +733,12 @@ cluster_15  = listing "Lexicon's properties"
     FuCAL                     `noun`    {- gubAr -}            [ "dust" ]
                               `plural`     HaFCiL |< aT,
 
-    HaFCaL                    `noun`    {- Oagobar -}          [ unwords [ "dust", "-", "colored" ] ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFCaL                    `adj`     {- Oagobar -}          [ unwords [ "dust", "-", "colored" ] ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
-    HaFCaL                    `noun`    {- Oagobar -}          [ "earth", "Earth" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oagobar -}          [ "earth", "Earth" ]
+                              `femini`     FaCLA',
 
     IFCiLAL                   `noun`    {- AigobirAr -}        [ "resentment", "grayness" ]
                               `plural`     IFCiLAL |< At,
@@ -752,8 +752,8 @@ cluster_15  = listing "Lexicon's properties"
 
  |> ".g b s" <| [
 
-    HaFCaL                    `noun`    {- Oagobas -}          [ unwords [ "light", "-", "tan" ] ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- Oagobas -}          [ unwords [ "light", "-", "tan" ] ]
+                              `femini`     FaCLA' ]
 
  |> ".g b w" <| [
 
@@ -777,7 +777,7 @@ cluster_16  = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- gabA' -}            [ "ignorance", "stupidity" ],
 
-    HaFCY                     `noun`    {- OagobaY -}          [ "stupid" ],
+    HaFCY                     `adj`     {- OagobaY -}          [ "stupid" ],
 
     TaFCI |< aT               `noun`    {- tagobiyap -}        [ "stupefaction" ] ]
 

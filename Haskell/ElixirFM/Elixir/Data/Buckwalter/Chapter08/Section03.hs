@@ -38,14 +38,14 @@ cluster_41  = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- danAwap -}          [ "nearness", "lowliness", "baseness" ],
 
-    HaFCY                     `noun`    {- OadonaY -}          [ unwords [ "lower", "/", "lowest" ], "inferior", "lowest", unwords [ "most", "inferior" ] ],
+    HaFCY                     `adj`     {- OadonaY -}          [ unwords [ "lower", "/", "lowest" ], "inferior", "lowest", unwords [ "most", "inferior" ] ],
 
-    HaFCY                     `noun`    {- OadonaY -}          [ "near", "nearer", "nearest", "inferior", "lowest", unwords [ "near", "/", "nearer", "/", "nearest" ], unwords [ "lower", "/", "lowest" ] ]
+    HaFCY                     `adj`     {- OadonaY -}          [ "near", "nearer", "nearest", "inferior", "lowest", unwords [ "near", "/", "nearer", "/", "nearest" ], unwords [ "lower", "/", "lowest" ] ]
                               `plural`     FuCY
                               `plural`     HaFACI
                            {- `others`  [ "'adnawna N" ] -},
 
-    HaFCY                     `noun`    {- OadonaY -}          [ "minimum" ],
+    HaFCY                     `adj`     {- OadonaY -}          [ "minimum" ],
 
     FuCyY                     `noun`    {- dunoyaY -}          [ "world", "near", "low", "inferior" ]
                               `plural`     FuCyY |< At,
@@ -669,7 +669,7 @@ cluster_53  = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- dirAyap -}          [ "knowledge", "knowing" ],
 
-    HaFCY                     `noun`    {- OadoraY -}          [ unwords [ "more", "/", "most", "knowledgeable" ], unwords [ "more", "/", "most", "informed" ] ],
+    HaFCY                     `adj`     {- OadoraY -}          [ unwords [ "more", "/", "most", "knowledgeable" ], unwords [ "more", "/", "most", "informed" ] ],
 
     MuFACY |< aT              `noun`    {- mudArAp -}          [ "flattery", "affability" ]
                               `plural`     MuFACY |< At,
@@ -709,9 +709,9 @@ cluster_54  = listing "Lexicon's properties"
 
     FaCiL                     `adj`     {- dasim -}            [ "fat", "greasy", "meaty" ],
 
-    HaFCaL                    `noun`    {- Oadosam -}          [ "fatty", "greasy", "pithy" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFCaL                    `adj`     {- Oadosam -}          [ "fatty", "greasy", "pithy" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     FaCAL |< aT               `noun`    {- dasAmap -}          [ "fattiness", "greasiness" ],
 

@@ -68,8 +68,8 @@ cluster_1   = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- xuDorap -}          [ "vegetable", "greenery", "greens" ]
                               `plural`     FuCaL,
 
-    HaFCaL                    `noun`    {- OaxoDar -}          [ "green" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaxoDar -}          [ "green" ]
+                              `femini`     FaCLA',
 
     HaFCaL                    `noun`    {- OaxoDar -}          [ "Akhdar" ],
 

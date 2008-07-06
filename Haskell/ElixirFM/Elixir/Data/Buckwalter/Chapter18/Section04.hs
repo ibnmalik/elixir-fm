@@ -304,7 +304,7 @@ cluster_66  = listing "Lexicon's properties"
 
     HaFCY                     `adj`     {- OaEolaY -}          [ unwords [ "higher", "/", "highest" ], "supreme", "highest", "heights", "peaks", "high" ]
                               `plural`     HaFACI
-                              `plural`     FuCyY,
+                              `femini`     FuCyY,
 
     MaFCY |< aT               `noun`    {- maEolAp -}          [ "greatness", "nobility", unwords [ "His", "Excellency" ] ]
                               `plural`     MaFACI,
@@ -826,9 +826,9 @@ cluster_75  = listing "Lexicon's properties"
 
     FaCLAn |< Iy              `adj`     {- EamoyAniy~ -}       [ "blind" ],
 
-    HaFCY                     `noun`    {- OaEomaY -}          [ "blind" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCLAn,
+    HaFCY                     `adj`     {- OaEomaY -}          [ "blind" ]
+                              `plural`     FuCLAn
+                              `femini`     FaCLA',
 
     MaFCY |< aT               `noun`    {- maEomAp -}          [ unwords [ "roadless", "area" ] ],
 

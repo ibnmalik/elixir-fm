@@ -455,8 +455,8 @@ cluster_9   = listing "Lexicon's properties"
                               `plural`     FuCAL
                               `plural`     FaCAL |< aT,
 
-    HaFaCL                    `noun`    {- OabaH~ -}           [ "hoarse" ]
-                              `plural`     FaCLA',
+    HaFaCL                    `adj`     {- OabaH~ -}           [ "hoarse" ]
+                              `femini`     FaCLA',
 
     MaFCUL                    `noun`    {- maboHuwH -}         [ "hoarse" ]
                               `plural`     MaFCUL |< Un
@@ -1607,8 +1607,8 @@ cluster_29  = listing "Lexicon's properties"
 
  |> "b _h q" <| [
 
-    HaFCaL                    `noun`    {- Oaboxaq -}          [ unwords [ "one", "-", "eyed" ] ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- Oaboxaq -}          [ unwords [ "one", "-", "eyed" ] ]
+                              `femini`     FaCLA' ]
 
 
 cluster_30  = listing "Lexicon's properties"
@@ -2592,8 +2592,8 @@ cluster_48  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- bahaq -}            [ "herpes" ],
 
-    HaFCaL                    `noun`    {- Oabohaq -}          [ "herpetic" ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- Oabohaq -}          [ "herpetic" ]
+                              `femini`     FaCLA' ]
 
 
 cluster_49  = listing "Lexicon's properties"
@@ -2730,7 +2730,7 @@ cluster_51  = listing "Lexicon's properties"
 
     FaCA' |< Iy               `adj`     {- bahA}iy~ -}         [ "Baha'i" ],
 
-    HaFCY                     `noun`    {- OabohaY -}          [ unwords [ "more", "/", "most", "splendid" ] ],
+    HaFCY                     `adj`     {- OabohaY -}          [ unwords [ "more", "/", "most", "splendid" ] ],
 
     MuFACY |< aT              `noun`    {- mubAhAp -}          [ "pride", "boastfulness" ],
 
@@ -2828,9 +2828,9 @@ cluster_53  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- bakam -}            [ "muteness", "silence" ],
 
-    HaFCaL                    `noun`    {- Oabokam -}          [ "silent", "mute" ]
+    HaFCaL                    `adj`     {- Oabokam -}          [ "silent", "mute" ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "b k n" <| [
 
@@ -3299,9 +3299,9 @@ cluster_61  = listing "Lexicon's properties"
 
     FaCL |<< "a"              `adv`     {- baloha -}           [ unwords [ "not", "to", "mention" ] ],
 
-    HaFCaL                    `noun`    {- Oabolah -}          [ "doltish", "dumb" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL ]
+    HaFCaL                    `adj`     {- Oabolah -}          [ "doltish", "dumb" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA' ]
 
  |> "b l h n" <| [
 
@@ -3420,8 +3420,8 @@ cluster_63  = listing "Lexicon's properties"
 
  |> "b l q" <| [
 
-    HaFCaL                    `noun`    {- Oabolaq -}          [ unwords [ "black", "and", "white" ], "pinto", "piebald" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oabolaq -}          [ unwords [ "black", "and", "white" ], "pinto", "piebald" ]
+                              `femini`     FaCLA',
 
     FaCLAn                    `noun`    {- baloqAn -}          [ "Balkans" ],
 
@@ -4054,7 +4054,7 @@ cluster_74  = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- baqA' -}            [ "survival", "remaining" ],
 
-    HaFCY                     `noun`    {- OaboqaY -}          [ unwords [ "more", "lasting" ], unwords [ "more", "durable" ] ],
+    HaFCY                     `adj`     {- OaboqaY -}          [ unwords [ "more", "lasting" ], unwords [ "more", "durable" ] ],
 
     HiFCA'                    `noun`    {- IiboqA' -}          [ "continuation", "preservation" ]
                               `plural`     HiFCA' |< At,
@@ -5414,9 +5414,9 @@ cluster_99  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- bator -}            [ "amputation", "severance" ],
 
-    HaFCaL                    `noun`    {- Oabotar -}          [ "amputee", "defective" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFCaL                    `adj`     {- Oabotar -}          [ "amputee", "defective" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     FaCCAL                    `noun`    {- bat~Ar -}           [ "sharp", "cutting" ]
                               `plural`     FaCCAL |< Un
@@ -5989,8 +5989,8 @@ cluster_108 = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- bayAD -}            [ "whiteness" ],
 
-    HaFCaL                    `noun`    {- OaboyaD -}          [ "white" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaboyaD -}          [ "white" ]
+                              `femini`     FaCLA',
 
     FIL                       `noun`    {- biyD -}             [ "white", "Caucasian" ],
 

@@ -365,9 +365,9 @@ cluster_7   = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- EaZiym -}           [ "Azim", "Azeem" ],
 
-    HaFCaL                    `noun`    {- OaEoZam -}          [ unwords [ "greater", "/", "greatest" ], "major", "supreme" ]
-                              `plural`     FuCLY |< At
-                              `plural`     HaFACiL,
+    HaFCaL                    `adj`     {- OaEoZam -}          [ unwords [ "greater", "/", "greatest" ], "major", "supreme" ]
+                              `plural`     HaFACiL
+                              `femini`     FuCLY,
 
     TaFCIL                    `noun`    {- taEoZiym -}         [ "glorification", "veneration" ]
                               `plural`     TaFCIL |< At,
@@ -1403,7 +1403,7 @@ cluster_26  = listing "Lexicon's properties"
 
     HaFCY                     `adj`     {- OaEolaY -}          [ unwords [ "higher", "/", "highest" ], "supreme", "highest", "heights", "peaks", "high" ]
                               `plural`     HaFACI
-                              `plural`     FuCyY,
+                              `femini`     FuCyY,
 
     HiFCA'                    `noun`    {- IiEolA' -}          [ "raising", "lifting" ]
                               `plural`     HiFCA' |< At,
@@ -1720,9 +1720,9 @@ cluster_32  = listing "Lexicon's properties"
 
     FaCIL |< aT               `noun`    {- Eamiy~ap -}         [ "ignorance", "blindness" ],
 
-    HaFCY                     `noun`    {- OaEomaY -}          [ "blind" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCLAn,
+    HaFCY                     `adj`     {- OaEomaY -}          [ "blind" ]
+                              `plural`     FuCLAn
+                              `femini`     FaCLA',
 
     TaFCI |< aT               `noun`    {- taEomiyap -}        [ "camouflage" ] ]
 
@@ -2907,8 +2907,8 @@ cluster_53  = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- Euzolap -}          [ "isolation", "separation", "retirement" ],
 
     HaFCaL                    `adj`     {- OaEozal -}          [ "unarmed", "defenseless" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCCaL,
+                              `plural`     FuCCaL
+                              `femini`     FaCLA',
 
     MaFCiL                    `noun`    {- maEozil -}          [ "retreat", unwords [ "isolation", "ward" ], "segregation" ]
                               `plural`     MaFACiL,

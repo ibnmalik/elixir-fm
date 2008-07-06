@@ -27,7 +27,7 @@ cluster_21  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- \$aniyE -}          [ "hideous", "repulsive" ],
 
     HaFCaL                    `adj`     {- Oa$onaE -}          [ "hideous", "repulsive" ]
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "^s n n" <| [
 
@@ -95,9 +95,9 @@ cluster_22  = listing "Lexicon's properties"
 
  |> "^s q r" <| [
 
-    HaFCaL                    `noun`    {- Oa$oqar -}          [ "blond", unwords [ "fair", "-", "skinned" ] ]
-                              `plural`     FaCLA'
-                              `plural`     FuCuL,
+    HaFCaL                    `adj`     {- Oa$oqar -}          [ "blond", unwords [ "fair", "-", "skinned" ] ]
+                              `plural`     FuCuL
+                              `femini`     FaCLA',
 
     FuCayL                    `noun`    {- \$uqayor -}         [ "Shuqair" ] ]
 

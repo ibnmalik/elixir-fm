@@ -320,7 +320,7 @@ cluster_26  = listing "Lexicon's properties"
 
     HaFCY                     `adj`     {- OaEolaY -}          [ unwords [ "higher", "/", "highest" ], "supreme", "highest", "heights", "peaks", "high" ]
                               `plural`     HaFACI
-                              `plural`     FuCyY,
+                              `femini`     FuCyY,
 
     HiFCA'                    `noun`    {- IiEolA' -}          [ "raising", "lifting" ]
                               `plural`     HiFCA' |< At,
@@ -637,9 +637,9 @@ cluster_32  = listing "Lexicon's properties"
 
     FaCIL |< aT               `noun`    {- Eamiy~ap -}         [ "ignorance", "blindness" ],
 
-    HaFCY                     `noun`    {- OaEomaY -}          [ "blind" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCLAn,
+    HaFCY                     `adj`     {- OaEomaY -}          [ "blind" ]
+                              `plural`     FuCLAn
+                              `femini`     FaCLA',
 
     TaFCI |< aT               `noun`    {- taEomiyap -}        [ "camouflage" ] ]
 

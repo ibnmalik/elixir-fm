@@ -66,7 +66,7 @@ cluster_1   = listing "Lexicon's properties"
     `derives` "------F---",
 
     HaFCaL                    `adj`     {- OaSogar -}          [ unwords [ "smaller", "/", "smallest" ], unwords [ "younger", "/", "youngest" ], "minor" ]
-                              `plural`     FuCLY |< At,
+                              `femini`     FuCLY,
 
     MuFaCCaL                  `adj`     {- muSag~ar -}         [ "diminished", "reduced" ] ]
 
@@ -588,9 +588,9 @@ cluster_11  = listing "Lexicon's properties"
     FaCCAL |< aT              `noun`    {- Saf~Arap -}         [ "whistle", "siren" ]
                               `plural`     FaCACIL,
 
-    HaFCaL                    `noun`    {- OaSofar -}          [ "yellow" ]
+    HaFCaL                    `adj`     {- OaSofar -}          [ "yellow" ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     HaFCaL                    `noun`    {- OaSofar -}          [ "empty" ],
 

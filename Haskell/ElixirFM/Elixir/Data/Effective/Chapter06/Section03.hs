@@ -188,8 +188,8 @@ cluster_43  = listing "Lexicon's properties"
 
     FaCL                      `noun`    {- Hawol -}            [ "power" ],
 
-    HaFCaL                    `noun`    {- OaHowal -}          [ "squinting", unwords [ "cross", "-", "eyed" ] ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaHowal -}          [ "squinting", unwords [ "cross", "-", "eyed" ] ]
+                              `femini`     FaCLA',
 
     FiCAL                     `noun`    {- HiwAl -}            [ "obstacle", "partition" ] ]
 

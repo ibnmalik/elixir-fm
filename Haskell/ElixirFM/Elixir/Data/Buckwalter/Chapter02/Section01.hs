@@ -455,8 +455,8 @@ cluster_9   = listing "Lexicon's properties"
                               `plural`     FuCAL
                               `plural`     FaCAL |< aT,
 
-    HaFaCL                    `noun`    {- OabaH~ -}           [ "hoarse" ]
-                              `plural`     FaCLA',
+    HaFaCL                    `adj`     {- OabaH~ -}           [ "hoarse" ]
+                              `femini`     FaCLA',
 
     MaFCUL                    `noun`    {- maboHuwH -}         [ "hoarse" ]
                               `plural`     MaFCUL |< Un

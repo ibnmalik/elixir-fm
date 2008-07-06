@@ -23,9 +23,9 @@ cluster_61  = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- \$uqorap -}         [ "blond", unwords [ "fair", "-", "skinned" ] ],
 
-    HaFCaL                    `noun`    {- Oa$oqar -}          [ "blond", unwords [ "fair", "-", "skinned" ] ]
-                              `plural`     FaCLA'
-                              `plural`     FuCuL,
+    HaFCaL                    `adj`     {- Oa$oqar -}          [ "blond", unwords [ "fair", "-", "skinned" ] ]
+                              `plural`     FuCuL
+                              `femini`     FaCLA',
 
     FuCayL                    `noun`    {- \$uqayor -}         [ "Shuqair" ],
 
@@ -662,8 +662,8 @@ cluster_72  = listing "Lexicon's properties"
     FaCL                      `noun`    {- \$arom -}           [ "crack", "bay" ]
                               `plural`     FuCUL,
 
-    HaFCaL                    `noun`    {- Oa$oram -}          [ "harelipped" ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- Oa$oram -}          [ "harelipped" ]
+                              `femini`     FaCLA' ]
 
  |> "^s r m .t" <| [
 
@@ -1075,9 +1075,9 @@ cluster_80  = listing "Lexicon's properties"
  |> "^s w ^s" <| [
 
     HaFCaL                    `adj`     {- Oa$owa$ -}          [ "brave", "hero", "proud", "audacious" ]
-                              `plural`     FaCLA'
                               `plural`     HaFACiL
-                              `plural`     FUL,
+                              `plural`     FUL
+                              `femini`     FaCLA',
 
     FaCCaL                    `verb`    {- \$aw~a$ -}          [ "confuse", "disturb" ],
 

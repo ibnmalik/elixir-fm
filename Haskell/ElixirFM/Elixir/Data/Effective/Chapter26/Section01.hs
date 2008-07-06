@@ -275,7 +275,7 @@ cluster_5   = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- hadiy~ap -}         [ "gift", "present" ]
                               `plural`     FaCALY,
 
-    HaFCY                     `noun`    {- OahodaY -}          [ unwords [ "better", "/", "best", "guided" ], unwords [ "more", "/", "most", "correct" ], unwords [ "best", "guided" ], unwords [ "most", "correct" ] ],
+    HaFCY                     `adj`     {- OahodaY -}          [ unwords [ "better", "/", "best", "guided" ], unwords [ "more", "/", "most", "correct" ], unwords [ "best", "guided" ], unwords [ "most", "correct" ] ],
 
     HiFCA'                    `noun`    {- IihodA' -}          [ "presenting", "leading" ]
                               `plural`     HiFCA' |< At,

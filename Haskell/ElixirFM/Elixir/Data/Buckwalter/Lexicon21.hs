@@ -776,11 +776,11 @@ cluster_14  = listing "Lexicon's properties"
 
     HaFCY                     `noun`    {- OaqoSaY -}          [ "Aqsa" ],
 
-    HaFCY                     `noun`    {- OaqoSaY -}          [ "farthest", unwords [ "most", "remote" ], "remotest" ]
-                              `plural`     FuCLY |< At
-                              `plural`     HaFACI,
+    HaFCY                     `adj`     {- OaqoSaY -}          [ "farthest", unwords [ "most", "remote" ], "remotest" ]
+                              `plural`     HaFACI
+                              `femini`     FuCLY,
 
-    HaFCY                     `noun`    {- OaqoSaY -}          [ "maximum" ],
+    HaFCY                     `adj`     {- OaqoSaY -}          [ "maximum" ],
 
     TaFaCCI                   `noun`    {- taqaS~iy -}         [ "investigation", "examination" ]
                               `plural`     TaFaCCI |< At,
@@ -907,8 +907,8 @@ cluster_16  = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- OaqoTaE -}          [ unwords [ "more", "/", "most", "convincing", "/", "conclusive" ] ],
 
-    HaFCaL                    `noun`    {- OaqoTaE -}          [ "amputee", "mute" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaqoTaE -}          [ "amputee", "mute" ]
+                              `femini`     FaCLA',
 
     MaFCaL                    `noun`    {- maqoTaE -}          [ "section", "selection", "excerpt" ]
                               `plural`     MaFACiL,
@@ -2331,8 +2331,7 @@ cluster_41  = listing "Lexicon's properties"
 
     FuCCAL                    `noun`    {- qud~Am -}           [ "front" ],
 
-    HaFCaL                    `noun`    {- Oaqodam -}          [ unwords [ "older", "/", "oldest" ], "ancients" ]
-                              `plural`     HaFCaL |< Un,
+    HaFCaL                    `adj`     {- Oaqodam -}          [ unwords [ "older", "/", "oldest" ], "ancients" ],
 
     HaFCaL |< Iy |< aT        `noun`    {- Oaqodamiy~ap -}     [ "seniority" ],
 
@@ -3987,7 +3986,7 @@ cluster_71  = listing "Lexicon's properties"
 
     FaCY |< aT                `noun`    {- qanAp -}            [ "Qanat" ],
 
-    HaFCY                     `noun`    {- OaqonaY -}          [ "bent", "crooked", "hooked" ],
+    HaFCY                     `adj`     {- OaqonaY -}          [ "bent", "crooked", "hooked" ],
 
     IFtiCA'                   `noun`    {- AiqotinA' -}        [ "purchase", "acquisition" ]
                               `plural`     IFtiCA' |< At,
@@ -4402,8 +4401,8 @@ cluster_78  = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- qariyEap -}         [ "elite", "cream" ]
                               `plural`     FaCA'iL,
 
-    HaFCaL                    `noun`    {- OaqoraE -}          [ "bald", "bare" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaqoraE -}          [ "bald", "bare" ]
+                              `femini`     FaCLA',
 
     FuCL                      `noun`    {- quroE -}            [ "bald" ],
 
@@ -4498,7 +4497,7 @@ cluster_79  = listing "Lexicon's properties"
 
     FuCAL |< aT               `noun`    {- qurAbap -}          [ "almost", "nearly" ],
 
-    HaFCaL                    `noun`    {- Oaqorab -}          [ "soonest", unwords [ "nearer", "/", "nearest" ], unwords [ "more", "/", "most", "likely" ], "relatives", unwords [ "extended", "family" ] ]
+    HaFCaL                    `adj`     {- Oaqorab -}          [ "soonest", unwords [ "nearer", "/", "nearest" ], unwords [ "more", "/", "most", "likely" ], "relatives", unwords [ "extended", "family" ] ]
                               `plural`     HaFACiL
                               `plural`     HaFCaL |< Un,
 
@@ -4781,8 +4780,8 @@ cluster_84  = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- qariynap -}         [ "linkage", "connections" ]
                               `plural`     FaCA'iL,
 
-    HaFCaL                    `noun`    {- Oaqoran -}          [ "horned" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oaqoran -}          [ "horned" ]
+                              `femini`     FaCLA',
 
     FiCAL                     `noun`    {- qirAn -}            [ "marriage", "connection" ],
 
@@ -5288,7 +5287,7 @@ cluster_92  = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- qasAwap -}          [ "harshness", "severity", "brutality" ],
 
-    HaFCY                     `noun`    {- OaqosaY -}          [ "harshest", "cruelest" ],
+    HaFCY                     `adj`     {- OaqosaY -}          [ "harshest", "cruelest" ],
 
     MuFACY |< aT              `noun`    {- muqAsAp -}          [ "suffering", "enduring" ]
                               `plural`     MuFACaL |< At
@@ -6019,7 +6018,7 @@ cluster_104 = listing "Lexicon's properties"
     FaCIL                     `adj`     {- qawiy~ -}           [ "strong", "powerful" ]
                               `plural`     HaFCiLA',
 
-    HaFCY                     `noun`    {- OaqowaY -}          [ unwords [ "stronger", "/", "strongest" ], unwords [ "more", "/", "most", "powerful" ], "strongest", unwords [ "most", "powerful" ] ],
+    HaFCY                     `adj`     {- OaqowaY -}          [ unwords [ "stronger", "/", "strongest" ], unwords [ "more", "/", "most", "powerful" ], "strongest", unwords [ "most", "powerful" ] ],
 
     TaFCI |< aT               `noun`    {- taqowiyap -}        [ "strengthening", "consolidation", "reinforcement", unwords [ "seed", "for", "sowing" ] ]
                               `plural`     TaFACI,

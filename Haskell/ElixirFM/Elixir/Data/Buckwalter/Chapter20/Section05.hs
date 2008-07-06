@@ -544,8 +544,8 @@ cluster_91  = listing "Lexicon's properties"
 
  |> "f y .h" <| [
 
-    HaFCaL                    `noun`    {- OafoyaH -}          [ "aromatic", "spacious" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OafoyaH -}          [ "aromatic", "spacious" ]
+                              `femini`     FaCLA',
 
     FaCLA'                    `noun`    {- fayoHA' -}          [ "Damascus" ],
 

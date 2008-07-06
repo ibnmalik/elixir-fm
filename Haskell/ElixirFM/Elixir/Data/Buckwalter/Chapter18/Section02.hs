@@ -118,7 +118,7 @@ cluster_23  = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- OaEojaf -}          [ "thin", "lean" ]
                               `plural`     FiCAL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
 
 cluster_24  = listing "Lexicon's properties"
@@ -160,8 +160,8 @@ cluster_24  = listing "Lexicon's properties"
                               `plural`     FaCALY
                               `plural`     FaCLY,
 
-    HaFCaL                    `noun`    {- OaEojal -}          [ unwords [ "faster", "/", "fastest" ] ]
-                              `plural`     FuCLY |< At,
+    HaFCaL                    `adj`     {- OaEojal -}          [ unwords [ "faster", "/", "fastest" ] ]
+                              `femini`     FuCLY,
 
     TaFCIL                    `noun`    {- taEojiyl -}         [ "expediting" ]
                               `plural`     TaFCIL |< At,
@@ -232,10 +232,10 @@ cluster_25  = listing "Lexicon's properties"
 
     FaCLAn                    `noun`    {- EajomAn -}          [ "Ajman" ],
 
-    HaFCaL                    `noun`    {- OaEojam -}          [ unwords [ "non", "-", "Arab" ], "speechless" ]
+    HaFCaL                    `adj`     {- OaEojam -}          [ unwords [ "non", "-", "Arab" ], "speechless" ]
                               `plural`     HaFACiL
                               `plural`     HaFCaL |< Un
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     HaFCaL |< Iy              `adj`     {- OaEojamiy~ -}       [ unwords [ "non", "-", "Arab" ], "foreigner" ],
 
@@ -434,8 +434,8 @@ cluster_29  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- Ea$am -}            [ "dry" ],
 
-    HaFCaL                    `noun`    {- OaEo$am -}          [ "dry", "thin" ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- OaEo$am -}          [ "dry", "thin" ]
+                              `femini`     FaCLA' ]
 
 
 cluster_30  = listing "Lexicon's properties"
@@ -603,7 +603,7 @@ cluster_32  = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- Ei$A' -}            [ "evening" ],
 
-    HaFCY                     `noun`    {- OaEo$aY -}          [ "blind" ] ]
+    HaFCY                     `adj`     {- OaEo$aY -}          [ "blind" ] ]
 
  |> "` ^s y" <| [
 

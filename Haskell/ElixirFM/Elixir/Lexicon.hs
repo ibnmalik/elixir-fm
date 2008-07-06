@@ -73,9 +73,9 @@ module Elixir.Lexicon (
 
         imperf, pfirst, ithird, second,
 
-        gerund, plural, others, withRoot,
+        gerund, plural, femini, derives,
 
-        derives,
+        others, withRoot,
 
         countNest, countEntry, countEach
 
@@ -270,7 +270,7 @@ type Plural a = Either (Root, Morphs a) (Morphs a)
 data Entity a = Verb { form :: [Form], perfect', imperfect, imperative :: [a],
                        justTense :: Maybe Tense, justVoice :: Maybe Voice }
               | Noun [Plural a] (Maybe Gender) (Maybe Number) (Maybe String)
-              | Adj  [Plural a]                (Maybe Number)
+              | Adj  [Plural a] [Morphs a]     (Maybe Number)
               | Prep
               | Conj
               | Part
@@ -287,8 +287,8 @@ isVerb _                  = False
 isNoun (Noun _ _ _ _) = True
 isNoun _              = False
 
-isAdj (Adj _ _) = True
-isAdj _         = False
+isAdj (Adj _ _ _) = True
+isAdj _           = False
 
 isPrep Prep = True
 isPrep _    = False
@@ -332,7 +332,7 @@ noun, adj, pron, num, adv, prep, conj, part, intj :: Morphing a b => a -> Reflex
 
 noun m l = Entry (Noun [] Nothing Nothing Nothing) (morph m) l
 
-adj  m l = Entry (Adj [] Nothing) (morph m) l
+adj  m l = Entry (Adj [] [] Nothing) (morph m) l
 
 pron = noun
 num = noun
@@ -393,12 +393,20 @@ derives x y = case entity x of
                 _            -> x
 
 
+femini :: Morphing a b => Entry b -> a -> Entry b
+
+femini x y = case entity x of
+
+                Adj  z f n   -> x { entity = Adj z (morph y : f) n }
+                _            -> x
+
+
 plural :: Morphing a b => Entry b -> a -> Entry b
 
 plural x y = case entity x of
 
                 Noun z g n d -> x { entity = Noun (Right (morph y) : z) g n d }
-                Adj  z   n   -> x { entity = Adj  (Right (morph y) : z)   n }
+                Adj  z f n   -> x { entity = Adj  (Right (morph y) : z) f n }
                 _            -> x
 
 
@@ -409,15 +417,15 @@ withRoot x y = case entity x of
 
                     where w = either snd id z
 
-                Adj  []      _   -> x
-                Adj  (z:s)   n   -> x { entity = Adj  (Left (y, w) : s)   n }
+                Adj  []    _ _   -> x
+                Adj  (z:s) f n   -> x { entity = Adj  (Left (y, w) : s) f n }
 
                     where w = either snd id z
 
 
 infixl 3 `imperf`, `pfirst`, `ithird`, `second`
 
-infixl 3 `gerund`, `plural`, `others`, `withRoot`
+infixl 3 `gerund`, `plural`, `femini`, `others`, `withRoot`
 
 infixl 3 `derives`
 

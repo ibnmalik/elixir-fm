@@ -327,9 +327,9 @@ cluster_6   = listing "Lexicon's properties"
 
     FuCAL                     `noun`    {- suHAm -}            [ "blackness" ],
 
-    HaFCaL                    `noun`    {- OasoHam -}          [ "black" ]
+    HaFCaL                    `adj`     {- OasoHam -}          [ "black" ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FuCayL                    `noun`    {- suHayom -}          [ "Suhaim" ],
 
@@ -607,8 +607,8 @@ cluster_11  = listing "Lexicon's properties"
 
  |> "s ^g .h" <| [
 
-    HaFCaL                    `noun`    {- OasojaH -}          [ "shapely", "beautiful" ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- OasojaH -}          [ "shapely", "beautiful" ]
+                              `femini`     FaCLA' ]
 
  |> "s ^g `" <| [
 
@@ -1880,8 +1880,8 @@ cluster_35  = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- sufoEap -}          [ unwords [ "black", "stain" ] ]
                               `plural`     FuCaL,
 
-    HaFCaL                    `noun`    {- OasofaE -}          [ unwords [ "dark", "brown" ] ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- OasofaE -}          [ unwords [ "dark", "brown" ] ]
+                              `femini`     FaCLA' ]
 
  |> "s f d" <| [
 
@@ -1977,9 +1977,9 @@ cluster_37  = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- safAlap -}          [ "lowness", "baseness" ],
 
-    HaFCaL                    `noun`    {- Oasofal -}          [ unwords [ "lower", "/", "lowest" ], "underneath" ]
+    HaFCaL                    `adj`     {- Oasofal -}          [ unwords [ "lower", "/", "lowest" ], "underneath" ]
                               `plural`     HaFACiL
-                              `plural`     FuCLY |< At,
+                              `femini`     FuCLY,
 
     FACiL                     `adj`     {- sAfil -}            [ "lowly", "base" ]
                               `plural`     FACiL |< Un
@@ -2391,8 +2391,8 @@ cluster_46  = listing "Lexicon's properties"
                               `plural`     FuCLAn |< At,
 
     HaFaCL                    `adj`     {- Oasak~ -}           [ "deaf" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     MaFCUL |< aT              `noun`    {- masokuwkap -}       [ "coin", unwords [ "drain", "hole" ] ],
 
@@ -3606,10 +3606,10 @@ cluster_68  = listing "Lexicon's properties"
     FaCIL                     `noun`    {- samiyr -}           [ unwords [ "conversation", "partner" ] ]
     `derives` "------F---",
 
-    HaFCaL                    `noun`    {- Oasomar -}          [ "brown", "tawny", "tanned", unwords [ "brown", "-", "skinned" ], unwords [ "dark", "-", "complectioned" ] ]
+    HaFCaL                    `adj`     {- Oasomar -}          [ "brown", "tawny", "tanned", unwords [ "brown", "-", "skinned" ], unwords [ "dark", "-", "complectioned" ] ]
                               `plural`     FaCLY |< At
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     HaFCaL |< Iy              `adj`     {- Oasomariy~ -}       [ "Asmari" ],
 
@@ -3699,7 +3699,7 @@ cluster_70  = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- samAwap -}          [ "Samawa" ],
 
-    HaFCY                     `noun`    {- OasomaY -}          [ unwords [ "higher", "/", "highest" ], unwords [ "more", "/", "most", "eminent" ], "highest", unwords [ "most", "eminent" ] ],
+    HaFCY                     `adj`     {- OasomaY -}          [ unwords [ "higher", "/", "highest" ], unwords [ "more", "/", "most", "eminent" ], "highest", unwords [ "most", "eminent" ] ],
 
     HaFCA'                    `noun`    {- OasomA' -}          [ "Asmaa" ],
 
@@ -4061,7 +4061,7 @@ cluster_76  = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- sanA' -}            [ "Sana'", "Sanaa" ],
 
-    HaFCY                     `noun`    {- OasonaY -}          [ unwords [ "more", "/", "most", "radiant" ], unwords [ "most", "radiant" ] ],
+    HaFCY                     `adj`     {- OasonaY -}          [ unwords [ "more", "/", "most", "radiant" ], unwords [ "most", "radiant" ] ],
 
     FACI |< aT                `noun`    {- sAniyap -}          [ unwords [ "water", "scoop" ] ]
                               `plural`     FawACI,
@@ -5136,9 +5136,9 @@ cluster_98  = listing "Lexicon's properties"
     FaCAL                     `noun`    {- sawAd -}            [ "blackness" ]
                               `plural`     HaFCiL |< aT,
 
-    HaFCaL                    `noun`    {- Oasowad -}          [ "black" ]
+    HaFCaL                    `adj`     {- Oasowad -}          [ "black" ]
                               `plural`     FUL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FuCayL |< Iy              `adj`     {- suwayodiy~ -}       [ "Suweidi", "Suwaidi", "Souaidi" ],
 

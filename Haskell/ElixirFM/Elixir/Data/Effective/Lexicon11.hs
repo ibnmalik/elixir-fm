@@ -221,7 +221,7 @@ cluster_4   = listing "Lexicon's properties"
 
     FuCA' |<< "a"             `prep`    {- zuhA'a -}           [ "roughly", "approximately" ],
 
-    HaFCY                     `noun`    {- OazohaY -}          [ unwords [ "more", "/", "most", "splendid" ], unwords [ "more", "/", "most", "conceited" ], unwords [ "most", "splendid" ], unwords [ "most", "conceited" ] ],
+    HaFCY                     `adj`     {- OazohaY -}          [ unwords [ "more", "/", "most", "splendid" ], unwords [ "more", "/", "most", "conceited" ], unwords [ "most", "splendid" ], unwords [ "most", "conceited" ] ],
 
     FACI                      `adj`     {- zAhiy -}            [ "resplendent", "magnificent" ]
                               `plural`     FACI |< At ]
@@ -391,9 +391,9 @@ cluster_6   = listing "Lexicon's properties"
 
     FuCUL                     `noun`    {- zuruwq -}           [ "Zurouq" ],
 
-    HaFCaL                    `noun`    {- Oazoraq -}          [ "blue" ]
+    HaFCaL                    `adj`     {- Oazoraq -}          [ "blue" ]
                               `plural`     FuCuL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "z r r" <| [
 

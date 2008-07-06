@@ -1284,7 +1284,7 @@ cluster_26  = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- wilAyap -}          [ "state", "province" ],
 
-    HaFCY                     `noun`    {- OawolaY -}          [ unwords [ "more", "/", "most", "appropriate", "/", "suitable", "/", "deserving" ], unwords [ "most", "appropriate", "/", "suitable", "/", "deserving" ] ],
+    HaFCY                     `adj`     {- OawolaY -}          [ unwords [ "more", "/", "most", "appropriate", "/", "suitable", "/", "deserving" ], unwords [ "most", "appropriate", "/", "suitable", "/", "deserving" ] ],
 
     MaFCY                     `noun`    {- mawolaY -}          [ "master", "lord" ]
                               `plural`     MaFACI,
@@ -1684,7 +1684,7 @@ cluster_33  = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- OawosaT -}          [ "middle", "central" ]
                               `plural`     HaFACiL
-                              `plural`     FuCLY |< At,
+                              `femini`     FuCLY,
 
     HaFCaL |< Iy              `adj`     {- OawosaTiy~ -}       [ "Middle" ],
 

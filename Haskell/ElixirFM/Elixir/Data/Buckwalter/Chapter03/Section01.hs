@@ -976,7 +976,7 @@ cluster_16  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- taqiy~ -}           [ "pious", "devout" ]
                               `plural`     HaFCiLA',
 
-    HaFCY                     `noun`    {- OatoqaY -}          [ unwords [ "more", "/", "most", "pious" ] ],
+    HaFCY                     `adj`     {- OatoqaY -}          [ unwords [ "more", "/", "most", "pious" ] ],
 
     FuCY                      `noun`    {- tuqaY -}            [ "piety" ]
                               `plural`     FaCY

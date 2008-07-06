@@ -537,9 +537,9 @@ cluster_32  = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- SafAr -}            [ "yellowness", "pallor" ],
 
-    HaFCaL                    `noun`    {- OaSofar -}          [ "yellow" ]
+    HaFCaL                    `adj`     {- OaSofar -}          [ "yellow" ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     HaFCaL                    `noun`    {- OaSofar -}          [ "empty" ],
 
@@ -683,9 +683,9 @@ cluster_34  = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- Suhobap -}          [ "redness", "gingery" ],
 
-    HaFCaL                    `noun`    {- OaSohab -}          [ "reddish", "ginger" ]
+    HaFCaL                    `adj`     {- OaSohab -}          [ "reddish", "ginger" ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> ".s h d" <| [
 
@@ -938,7 +938,7 @@ cluster_38  = listing "Lexicon's properties"
  |> ".s l _h" <| [
 
     HaFCaL                    `adj`     {- OaSolax -}          [ "deaf" ]
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> ".s l `" <| [
 
@@ -949,10 +949,10 @@ cluster_38  = listing "Lexicon's properties"
 
     FaCL |< aT                `noun`    {- SaloEap -}          [ unwords [ "bald", "spot" ], unwords [ "bald", "head" ] ],
 
-    HaFCaL                    `noun`    {- OaSolaE -}          [ "bald" ]
+    HaFCaL                    `adj`     {- OaSolaE -}          [ "bald" ]
                               `plural`     FuCLAn
-                              `plural`     FaCLA'
-                              `plural`     FuCL ]
+                              `plural`     FuCL
+                              `femini`     FaCLA' ]
 
 
 cluster_39  = listing "Lexicon's properties"

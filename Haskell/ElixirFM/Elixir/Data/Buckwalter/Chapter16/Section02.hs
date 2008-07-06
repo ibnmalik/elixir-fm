@@ -682,9 +682,9 @@ cluster_33  = listing "Lexicon's properties"
 
     FuCL |< Iy                `adj`     {- Turo$iy~ -}         [ "pickled" ],
 
-    HaFCaL                    `noun`    {- OaTora$ -}          [ "deaf" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFCaL                    `adj`     {- OaTora$ -}          [ "deaf" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     HaFCaL                    `noun`    {- OaTora$ -}          [ "Atrash" ],
 

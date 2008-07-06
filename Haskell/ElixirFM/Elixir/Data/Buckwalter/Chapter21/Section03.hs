@@ -59,8 +59,7 @@ cluster_41  = listing "Lexicon's properties"
 
     FuCCAL                    `noun`    {- qud~Am -}           [ "front" ],
 
-    HaFCaL                    `noun`    {- Oaqodam -}          [ unwords [ "older", "/", "oldest" ], "ancients" ]
-                              `plural`     HaFCaL |< Un,
+    HaFCaL                    `adj`     {- Oaqodam -}          [ unwords [ "older", "/", "oldest" ], "ancients" ],
 
     HaFCaL |< Iy |< aT        `noun`    {- Oaqodamiy~ap -}     [ "seniority" ],
 

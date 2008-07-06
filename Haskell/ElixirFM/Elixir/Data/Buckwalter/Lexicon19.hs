@@ -661,7 +661,7 @@ cluster_13  = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- Oagoba$ -}          [ "dark", "opaque" ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FaCAL |< aT               `noun`    {- gabA$ap -}          [ "asthenopia" ] ]
 
@@ -733,12 +733,12 @@ cluster_15  = listing "Lexicon's properties"
     FuCAL                     `noun`    {- gubAr -}            [ "dust" ]
                               `plural`     HaFCiL |< aT,
 
-    HaFCaL                    `noun`    {- Oagobar -}          [ unwords [ "dust", "-", "colored" ] ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFCaL                    `adj`     {- Oagobar -}          [ unwords [ "dust", "-", "colored" ] ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
-    HaFCaL                    `noun`    {- Oagobar -}          [ "earth", "Earth" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oagobar -}          [ "earth", "Earth" ]
+                              `femini`     FaCLA',
 
     IFCiLAL                   `noun`    {- AigobirAr -}        [ "resentment", "grayness" ]
                               `plural`     IFCiLAL |< At,
@@ -752,8 +752,8 @@ cluster_15  = listing "Lexicon's properties"
 
  |> ".g b s" <| [
 
-    HaFCaL                    `noun`    {- Oagobas -}          [ unwords [ "light", "-", "tan" ] ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- Oagobas -}          [ unwords [ "light", "-", "tan" ] ]
+                              `femini`     FaCLA' ]
 
  |> ".g b w" <| [
 
@@ -777,7 +777,7 @@ cluster_16  = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- gabA' -}            [ "ignorance", "stupidity" ],
 
-    HaFCY                     `noun`    {- OagobaY -}          [ "stupid" ],
+    HaFCY                     `adj`     {- OagobaY -}          [ "stupid" ],
 
     TaFCI |< aT               `noun`    {- tagobiyap -}        [ "stupefaction" ] ]
 
@@ -1242,7 +1242,7 @@ cluster_26  = listing "Lexicon's properties"
     FiCAL |< Iy               `adj`     {- gilAfiy~ -}         [ "covering" ],
 
     HaFCaL                    `adj`     {- Oagolaf -}          [ "rude", "uncivilized" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- tagoliyf -}         [ "wrapping", "covering" ]
                               `plural`     TaFCIL |< At,
@@ -1417,7 +1417,7 @@ cluster_30  = listing "Lexicon's properties"
 
     FuCLA'                    `noun`    {- gulowA' -}          [ "zeal", "enthusiasm" ],
 
-    HaFCY                     `noun`    {- OagolaY -}          [ unwords [ "more", "/", "most", "expensive" ], unwords [ "most", "expensive" ] ],
+    HaFCY                     `adj`     {- OagolaY -}          [ unwords [ "more", "/", "most", "expensive" ], unwords [ "most", "expensive" ] ],
 
     MuFACY |< aT              `noun`    {- mugAlAp -}          [ "exaggeration", "excess" ]
                               `plural`     MuFACY |< At,
@@ -1528,8 +1528,8 @@ cluster_32  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- gamaS -}            [ unwords [ "eye", "mucus" ] ],
 
-    HaFCaL                    `noun`    {- OagomaS -}          [ unwords [ "sticky", "-", "eyed" ] ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- OagomaS -}          [ unwords [ "sticky", "-", "eyed" ] ]
+                              `femini`     FaCLA' ]
 
  |> ".g m .t" <| [
 
@@ -1611,11 +1611,11 @@ cluster_34  = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- gimAmap -}          [ "blinder", "muzzle" ],
 
-    HaFaCL                    `noun`    {- Oagam~ -}           [ "overcast" ]
-                              `plural`     FaCLA',
+    HaFaCL                    `adj`     {- Oagam~ -}           [ "overcast" ]
+                              `femini`     FaCLA',
 
-    HaFaCL                    `noun`    {- Oagam~ -}           [ "hirsute" ]
-                              `plural`     FaCLA',
+    HaFaCL                    `adj`     {- Oagam~ -}           [ "hirsute" ]
+                              `femini`     FaCLA',
 
     FACL                      `adj`     {- gAm~ -}             [ "overcast" ],
 
@@ -1887,11 +1887,11 @@ cluster_40  = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- gun~ap -}           [ unwords [ "nasal", "twang" ] ],
 
-    HaFaCL                    `noun`    {- Oagan~ -}           [ "melodious", "sonorous" ]
-                              `plural`     FaCLA',
+    HaFaCL                    `adj`     {- Oagan~ -}           [ "melodious", "sonorous" ]
+                              `femini`     FaCLA',
 
-    HaFaCL                    `noun`    {- Oagan~ -}           [ "lush", "green" ]
-                              `plural`     FaCLA',
+    HaFaCL                    `adj`     {- Oagan~ -}           [ "lush", "green" ]
+                              `femini`     FaCLA',
 
     FuCAL                     `noun`    {- gunAn -}            [ "buzzing", "droning" ],
 
@@ -2355,9 +2355,9 @@ cluster_50  = listing "Lexicon's properties"
     FiCAL |< aT               `noun`    {- girArap -}          [ "sack", "bag" ]
                               `plural`     FaCA'iL,
 
-    HaFaCL                    `noun`    {- Oagar~ -}           [ "esteemed" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFaCL                    `adj`     {- Oagar~ -}           [ "esteemed" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     TaFCIL |< Iy              `adj`     {- tagoriyriy~ -}      [ "insidious", "deceptive" ],
 
@@ -3040,8 +3040,8 @@ cluster_63  = listing "Lexicon's properties"
     FaCaL                     `noun`    {- gayad -}            [ "flexibility", "elasticity" ],
 
     HaFCaL                    `adj`     {- Oagoyad -}          [ "flexible", "delicate" ]
-                              `plural`     FaCLA'
-                              `plural`     FIL,
+                              `plural`     FIL
+                              `femini`     FaCLA',
 
     TaFACaL                   `verb`    {- tagAyad -}          [ unwords [ "walk", "gracefully" ] ],
 
@@ -3113,7 +3113,7 @@ cluster_64  = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- gayonap -}          [ "dimple" ],
 
     HaFCaL                    `adj`     {- Oagoyan -}          [ "bushy", "dense" ]
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> ".g y n y" <| [
 

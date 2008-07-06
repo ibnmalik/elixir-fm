@@ -785,8 +785,8 @@ cluster_14  = listing "Lexicon's properties"
     FaCIL |< aN               `adv`     {- TawiylAF -}         [ unwords [ "for", "a", "long", "time" ], unwords [ "at", "length" ], "extensively" ]
                               `plural`     FaCIL,
 
-    HaFCaL                    `noun`    {- OaTowal -}          [ unwords [ "taller", "/", "tallest" ], unwords [ "longer", "/", "longest" ] ]
-                              `plural`     FULY |< At,
+    HaFCaL                    `adj`     {- OaTowal -}          [ unwords [ "taller", "/", "tallest" ], unwords [ "longer", "/", "longest" ] ]
+                              `femini`     FULY,
 
     HiFAL |< aT               `noun`    {- IiTAlap -}          [ "lengthening", "prolongation" ],
 

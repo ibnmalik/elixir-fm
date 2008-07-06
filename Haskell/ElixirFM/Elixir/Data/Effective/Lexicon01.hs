@@ -327,12 +327,18 @@ cluster_6   = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- taOax~ar -}         [ unwords [ "be", "delayed" ], unwords [ "be", "postponed" ] ],
 
+    HACaL                     `adj`     {- \|xar -}            [ "other", "another", "latest" ]
+                              `plural`     HACaL |< Un
+                              `femini`     FuCLY,
+
+{-                                           
     FACaL                     `adj`     {- \|xar -}            [ "other", "another", "latest" ]
                               `plural`     FACaL |< Un
                               `plural`     HACaL |< Un,
 
     FuCLY                     `adj`     {- OuxoraY -}          [ "other", "another" ]
                               `plural`     FuCLY |< At,
+-}
 
     FACiL                     `noun`    {- \|xir -}            [ "last", "end" ]
                               `plural`     FawACiL
@@ -1793,9 +1799,21 @@ cluster_28  = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- taOowiyl -}         [ "explanation", "interpretation" ]
                               `plural`     TaFCIL |< At,
 
+{-
     FaCCaL                    `adj`     {- Oaw~al -}           [ "first", "foremost" ],
+-}
+
+    FaCCaL                    `adj`     {- Oaw~al -}           [ "first", "foremost" ]
+                              `plural`     FuCaL
+                              `femini`     FULY,
 
     FaCCaL |< Iy |< aT        `noun`    {- Oaw~aliy~ap -}      [ "priority", "precedence", "primacy" ],
+
+{-
+    FULY                      `adj`     {- OuwlaY -}           [ "first" ]
+                              `plural`     FuCaL
+                              `plural`     FULY |< At,
+-}
 
     FAL                       `noun`    {- \|l -}              [ "family", "clan" ],
 

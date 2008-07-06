@@ -437,8 +437,8 @@ cluster_28  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- Haban -}            [ "edema", "dropsy" ],
 
-    HaFCaL                    `noun`    {- OaHoban -}          [ unwords [ "suffering", "from", "edema" ] ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaHoban -}          [ unwords [ "suffering", "from", "edema" ] ]
+                              `femini`     FaCLA',
 
     FACiL                     `noun`    {- HAbin -}            [ unwords [ "suffering", "from", "edema" ] ]
                               `plural`     FACiL |< Un
@@ -682,8 +682,8 @@ cluster_33  = listing "Lexicon's properties"
 
     FaCaL |< aT               `noun`    {- Hadabap -}          [ "hump", "vaulting" ],
 
-    HaFCaL                    `noun`    {- OaHodab -}          [ "hunchbacked" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaHodab -}          [ "hunchbacked" ]
+                              `femini`     FaCLA',
 
     IFCICAL                   `noun`    {- AiHodiydAb -}       [ "humped", "kyphosis" ]
                               `plural`     IFCICAL |< At,

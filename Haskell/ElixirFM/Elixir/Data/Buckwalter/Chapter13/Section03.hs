@@ -474,9 +474,9 @@ cluster_49  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- \$alal -}           [ "paralysis", "impotence", "inertia" ],
 
-    HaFaCL                    `noun`    {- Oa$al~ -}           [ "paralyzed", "impotent", "inert" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFaCL                    `adj`     {- Oa$al~ -}           [ "paralyzed", "impotent", "inert" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     MaFCUL                    `adj`     {- ma$oluwl -}         [ "paralyzed", "impotent", "inert" ],
 
@@ -539,8 +539,8 @@ cluster_50  = listing "Lexicon's properties"
     FaCaL                     `adj`     {- \$amaT -}           [ unwords [ "turning", "gray" ] ],
 
     HaFCaL                    `adj`     {- Oa$omaT -}          [ unwords [ "gray", "-", "haired" ] ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     IFCiLAL                   `noun`    {- Ai$omiTAT -}        [ "graying" ]
                               `plural`     IFCiLAL |< At ]
@@ -684,7 +684,7 @@ cluster_53  = listing "Lexicon's properties"
     FaCCAL                    `noun`    {- \$am~Am -}          [ "muskmelon", "cantaloupe" ],
 
     HaFaCL                    `adj`     {- Oa$am~ -}           [ "proud" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     MaFCUL                    `adj`     {- ma$omuwm -}         [ "smelly", "odorous" ],
 
@@ -872,7 +872,7 @@ cluster_57  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- \$aniyE -}          [ "hideous", "repulsive" ],
 
     HaFCaL                    `adj`     {- Oa$onaE -}          [ "hideous", "repulsive" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- ta$oniyE -}         [ "defamation", "slander" ]
                               `plural`     TaFCIL |< At ]

@@ -400,11 +400,11 @@ cluster_108 = listing "Lexicon's properties"
 
     FaCIL |< Iy               `adj`     {- Easiyriy~ -}        [ unwords [ "of", "/", "from", "Asir", "(", "Saudi", "Arabia", ")" ] ],
 
-    HaFCaL                    `noun`    {- OaEosar -}          [ unwords [ "left", "-", "handed" ] ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaEosar -}          [ unwords [ "left", "-", "handed" ] ]
+                              `femini`     FaCLA',
 
-    HaFCaL                    `noun`    {- OaEosar -}          [ unwords [ "harder", "/", "hardest" ], "hardest" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaEosar -}          [ unwords [ "harder", "/", "hardest" ], "hardest" ]
+                              `femini`     FaCLA',
 
     FaCLA' |< Iy              `adj`     {- EasorAwiy~ -}       [ unwords [ "left", "-", "handed" ] ],
 
@@ -779,7 +779,7 @@ cluster_117 = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- OaEowaj -}          [ "crooked", "bent", "twisted" ]
                               `plural`     FUL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- taEowiyj -}         [ "distortion", "torsion" ]
                               `plural`     TaFCIL |< At,
@@ -947,8 +947,8 @@ cluster_120 = listing "Lexicon's properties"
     FAL |< aT                 `noun`    {- EAhap -}            [ "disease", "sickness" ]
                               `plural`     FAL |< At,
 
-    HaFCaL                    `noun`    {- OaEowah -}          [ "decrepit", "handicapped" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaEowah -}          [ "decrepit", "handicapped" ]
+                              `femini`     FaCLA',
 
     MaFUL                     `adj`     {- maEuwh -}           [ "diseased", "blighted", "mildewed" ] ]
 

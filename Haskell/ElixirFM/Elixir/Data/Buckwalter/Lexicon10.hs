@@ -3667,8 +3667,8 @@ cluster_72  = listing "Lexicon's properties"
 
  |> "r m k" <| [
 
-    HaFCaL                    `noun`    {- Oaromak -}          [ "gray", "ashen" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oaromak -}          [ "gray", "ashen" ]
+                              `femini`     FaCLA',
 
     FaCaL |< aT               `noun`    {- ramakap -}          [ "mare" ]
                               `plural`     FiCAL
@@ -3697,7 +3697,7 @@ cluster_73  = listing "Lexicon's properties"
                               `plural`     FaCCAL |< Un
     `derives` "------F---",
 
-    HaFCaL                    `noun`    {- Oaromal -}          [ "widower" ]
+    HaFCaL                    `adj`     {- Oaromal -}          [ "widower" ]
                               `plural`     HaFACiL,
 
     HaFCaL |< aT              `noun`    {- Oaromalap -}        [ "widow" ]
@@ -4292,7 +4292,7 @@ cluster_84  = listing "Lexicon's properties"
     FuCY                      `noun`    {- ruqaY -}            [ "magic", "sorcery", "magician", "sorcerer" ]
                            {- `others`  [ "raqqA' Nh N0_Nh Nhy" ] -},
 
-    HaFCY                     `noun`    {- OaroqaY -}          [ "higher", "superior", unwords [ "more", "/", "most", "advanced" ] ],
+    HaFCY                     `adj`     {- OaroqaY -}          [ "higher", "superior", unwords [ "more", "/", "most", "advanced" ] ],
 
     MiFCY |< aT               `noun`    {- miroqAp -}          [ "stairs", "ladder", "elevator" ]
                               `plural`     MaFACI,
@@ -4711,8 +4711,8 @@ cluster_91  = listing "Lexicon's properties"
 
  |> "r t t" <| [
 
-    HaFaCL                    `noun`    {- Oarat~ -}           [ unwords [ "speech", "-", "defective" ] ]
-                              `plural`     FaCLA',
+    HaFaCL                    `adj`     {- Oarat~ -}           [ unwords [ "speech", "-", "defective" ] ]
+                              `femini`     FaCLA',
 
     FuCL                      `noun`    {- rut~ -}             [ unwords [ "having", "a", "speech", "defect" ] ] ]
 
@@ -4866,8 +4866,8 @@ cluster_94  = listing "Lexicon's properties"
 
     FILAn |< Iy               `adj`     {- riyoHAniy~ -}       [ "Rihani" ],
 
-    HaFCaL                    `noun`    {- OarowaH -}          [ unwords [ "more", "/", "most", "calming" ], unwords [ "more", "/", "most", "soothing" ] ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OarowaH -}          [ unwords [ "more", "/", "most", "calming" ], unwords [ "more", "/", "most", "soothing" ] ]
+                              `femini`     FaCLA',
 
     FaCLA'                    `noun`    {- rawoHA' -}          [ "Rawha" ],
 

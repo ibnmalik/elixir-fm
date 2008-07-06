@@ -36,8 +36,8 @@ cluster_41  = listing "Lexicon's properties"
 
     HaFACIL                   `noun`    {- OamAliyd -}         [ unwords [ "tender", "twigs" ] ],
 
-    HaFCaL                    `noun`    {- Oamolad -}          [ "tender", "flexible" ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- Oamolad -}          [ "tender", "flexible" ]
+                              `femini`     FaCLA' ]
 
 
 cluster_42  = listing "Lexicon's properties"
@@ -275,9 +275,9 @@ cluster_45  = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- malAsap -}          [ "smoothness" ],
 
-    HaFCaL                    `noun`    {- Oamolas -}          [ "smooth", "sleek" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL ]
+    HaFCaL                    `adj`     {- Oamolas -}          [ "smooth", "sleek" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA' ]
 
 
 cluster_46  = listing "Lexicon's properties"
@@ -733,9 +733,9 @@ cluster_54  = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- mariyT -}           [ "hairless" ],
 
-    HaFCaL                    `noun`    {- OamoraT -}          [ "hairless" ]
+    HaFCaL                    `adj`     {- OamoraT -}          [ "hairless" ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "m r ^g" <| [
 
@@ -834,12 +834,12 @@ cluster_56  = listing "Lexicon's properties"
     TiFCAL                    `noun`    {- timorAd -}          [ "dovecote" ]
                               `plural`     TaFACIL,
 
-    HaFCaL                    `noun`    {- Oamorad -}          [ "beardless" ]
+    HaFCaL                    `adj`     {- Oamorad -}          [ "beardless" ]
                               `plural`     FuCL,
 
-    HaFCaL                    `noun`    {- Oamorad -}          [ "leafless", "withered" ]
+    HaFCaL                    `adj`     {- Oamorad -}          [ "leafless", "withered" ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFaCCuL                  `noun`    {- tamar~ud -}         [ "insurrection", "rebellion" ]
                               `plural`     TaFaCCuL |< At,

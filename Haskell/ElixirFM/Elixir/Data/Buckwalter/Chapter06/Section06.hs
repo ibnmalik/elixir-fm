@@ -76,9 +76,9 @@ cluster_102 = listing "Lexicon's properties"
     FiCAL                     `noun`    {- HiwAr -}            [ "conversation", "dialogue", "discussion", "talks" ]
                               `plural`     FiCAL |< At,
 
-    HaFCaL                    `noun`    {- OaHowar -}          [ unwords [ "white", "and", "black" ] ]
+    HaFCaL                    `adj`     {- OaHowar -}          [ unwords [ "white", "and", "black" ] ]
                               `plural`     FUL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FaCCAL |< aT              `noun`    {- Haw~Arap -}         [ unwords [ "cretaceous", "rock" ], "chalk" ],
 
@@ -560,7 +560,7 @@ cluster_111 = listing "Lexicon's properties"
 
     FaCawAn |< Iy |< aT       `noun`    {- HayawAniy~ap -}     [ "bestiality", unwords [ "animal", "nature" ] ],
 
-    HaFCY                     `noun`    {- OaHoyaY -}          [ unwords [ "livelier", "/", "liveliest" ], unwords [ "more", "/", "most", "vital" ], "liveliest", unwords [ "most", "vital" ] ]
+    HaFCY                     `adj`     {- OaHoyaY -}          [ unwords [ "livelier", "/", "liveliest" ], unwords [ "more", "/", "most", "vital" ], "liveliest", unwords [ "most", "vital" ] ]
                            {- `others`  [ "'a.hyaw NAn_Nayn" ] -},
 
     HiFCA'                    `noun`    {- IiHoyA' -}          [ "commemoration" ]

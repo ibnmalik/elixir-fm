@@ -533,8 +533,8 @@ cluster_9   = listing "Lexicon's properties"
 
     FaCIL                     `adj`     {- yasiyr -}           [ "small", "short" ],
 
-    HaFCaL                    `noun`    {- Oayosar -}          [ "left", unwords [ "left", "hand" ] ]
-                              `plural`     FuCLY |< At,
+    HaFCaL                    `adj`     {- Oayosar -}          [ "left", unwords [ "left", "hand" ] ]
+                              `femini`     FuCLY,
 
     HaFCaL                    `noun`    {- Oayosar -}          [ unwords [ "easier", "/", "easiest" ], unwords [ "smaller", "/", "smallest" ] ],
 

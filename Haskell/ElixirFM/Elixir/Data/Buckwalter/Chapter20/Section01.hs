@@ -774,7 +774,7 @@ cluster_14  = listing "Lexicon's properties"
     FaCL                      `noun`    {- faToH -}            [ "flatness" ],
 
     HaFCaL                    `adj`     {- OafoTaH -}          [ unwords [ "broad", "-", "nosed" ] ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     MuFaCCaL                  `adj`     {- mufaT~aH -}         [ unwords [ "broad", "-", "nosed" ], "flattened" ] ]
 
@@ -926,7 +926,7 @@ cluster_17  = listing "Lexicon's properties"
                               `plural`     FaCA'iL,
 
     HaFCaL                    `adj`     {- OafoTas -}          [ unwords [ "snub", "-", "nosed" ] ]
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "f .t y r" <| [
 

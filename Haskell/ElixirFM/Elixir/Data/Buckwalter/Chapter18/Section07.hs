@@ -209,9 +209,9 @@ cluster_125 = listing "Lexicon's properties"
 
     FIL |< aT                 `noun`    {- Eiyrap -}           [ "artificial", "false" ],
 
-    HaFCaL                    `noun`    {- OaEowar -}          [ unwords [ "one", "-", "eyed" ] ]
-                              `plural`     FaCLA'
-                              `plural`     FUL,
+    HaFCaL                    `adj`     {- OaEowar -}          [ unwords [ "one", "-", "eyed" ] ]
+                              `plural`     FUL
+                              `femini`     FaCLA',
 
     HiFAL |< aT               `noun`    {- IiEArap -}          [ "lending" ],
 
@@ -285,7 +285,7 @@ cluster_126 = listing "Lexicon's properties"
 
     FaCiL                     `noun`    {- Eawiz -}            [ "destitute", "needy" ],
 
-    HaFCaL                    `noun`    {- OaEowaz -}          [ "poor", "needy" ]
+    HaFCaL                    `adj`     {- OaEowaz -}          [ "poor", "needy" ]
                               `plural`     HaFACIL,
 
     HiFCAL                    `noun`    {- IiEowAz -}          [ "destitution", "need" ]
@@ -631,9 +631,9 @@ cluster_134 = listing "Lexicon's properties"
 
  |> "` y s" <| [
 
-    HaFCaL                    `noun`    {- OaEoyas -}          [ "beige" ]
+    HaFCaL                    `adj`     {- OaEoyas -}          [ "beige" ]
                               `plural`     FIL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FILY                      `noun`    {- EiysaY -}           [ "Issa", "Eissa" ],
 
@@ -705,7 +705,7 @@ cluster_135 = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- OaEozab -}          [ "bachelor", "unmarried" ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FACiL                     `adj`     {- EAzib -}            [ "unmarried" ] ]
 
@@ -756,8 +756,8 @@ cluster_136 = listing "Lexicon's properties"
     FiCAL                     `noun`    {- EizAl -}            [ unwords [ "household", "effects" ], "luggage" ],
 
     HaFCaL                    `adj`     {- OaEozal -}          [ "unarmed", "defenseless" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCCaL,
+                              `plural`     FuCCaL
+                              `femini`     FaCLA',
 
     MaFCiL                    `noun`    {- maEozil -}          [ "retreat", unwords [ "isolation", "ward" ], "segregation" ]
                               `plural`     MaFACiL,

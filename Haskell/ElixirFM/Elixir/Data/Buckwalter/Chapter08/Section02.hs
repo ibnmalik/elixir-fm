@@ -280,9 +280,9 @@ cluster_25  = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- duhomap -}          [ "blackness" ],
 
-    HaFCaL                    `noun`    {- Oadoham -}          [ "black" ]
+    HaFCaL                    `adj`     {- Oadoham -}          [ "black" ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FaCLA'                    `noun`    {- dahomA' -}          [ "masses", unwords [ "common", "folk" ] ],
 
@@ -395,7 +395,7 @@ cluster_27  = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- dahA' -}            [ "cunning", "craft" ],
 
-    HaFCY                     `noun`    {- OadohaY -}          [ unwords [ "craftier", "/", "craftiest" ], unwords [ "shrewder", "/", "shrewdest" ] ],
+    HaFCY                     `adj`     {- OadohaY -}          [ unwords [ "craftier", "/", "craftiest" ], unwords [ "shrewder", "/", "shrewdest" ] ],
 
     FACI                      `adj`     {- dAhiy -}            [ "smart", "sly" ]
                               `plural`     FACI |< At
@@ -444,10 +444,10 @@ cluster_28  = listing "Lexicon's properties"
     FuCCAL                    `noun`    {- duk~An -}           [ "shop", "store" ]
                               `plural`     FaCACIL,
 
-    HaFCaL                    `noun`    {- Oadokan -}          [ "dark", "blackish" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCLY |< At
-                              `plural`     FuCL,
+    HaFCaL                    `adj`     {- Oadokan -}          [ "dark", "blackish" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA'
+                              `femini`     FuCLY,
 
     FACiL                     `adj`     {- dAkin -}            [ "dark" ] ]
 

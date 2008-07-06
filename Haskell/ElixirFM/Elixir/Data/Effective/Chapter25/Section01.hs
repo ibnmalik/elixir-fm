@@ -581,8 +581,8 @@ cluster_10  = listing "Lexicon's properties"
     FaCL                      `noun`    {- najol -}            [ "son", "scion", "progeny" ]
                               `plural`     HaFCAL,
 
-    HaFCaL                    `noun`    {- Oanojal -}          [ unwords [ "wide", "-", "eyed" ], "gaping" ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- Oanojal -}          [ unwords [ "wide", "-", "eyed" ], "gaping" ]
+                              `femini`     FaCLA' ]
 
  |> "n ^g m" <| [
 

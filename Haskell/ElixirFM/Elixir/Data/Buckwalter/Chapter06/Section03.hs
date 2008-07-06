@@ -665,8 +665,8 @@ cluster_52  = listing "Lexicon's properties"
     FiCL                      `noun`    {- Hilos -}            [ unwords [ "saddle", "blanket" ] ]
                               `plural`     HaFCAL,
 
-    HaFCaL                    `noun`    {- OaHolas -}          [ "bay", "chestnut" ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- OaHolas -}          [ "bay", "chestnut" ]
+                              `femini`     FaCLA' ]
 
 
 cluster_53  = listing "Lexicon's properties"
@@ -711,7 +711,7 @@ cluster_53  = listing "Lexicon's properties"
 
     FuCLAn |< Iy              `adj`     {- HulowAniy~ -}       [ "confectioner", unwords [ "pastry", "cook" ] ],
 
-    HaFCY                     `noun`    {- OaHolaY -}          [ "sweeter", "sweetest" ] ]
+    HaFCY                     `adj`     {- OaHolaY -}          [ "sweeter", "sweetest" ] ]
 
 
 cluster_54  = listing "Lexicon's properties"

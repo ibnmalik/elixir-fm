@@ -1659,7 +1659,7 @@ cluster_30  = listing "Lexicon's properties"
 
     IFtaCY                    `verb`    {- AirotaqaY -}        [ "ascend", "increase", "rise" ],
 
-    HaFCY                     `noun`    {- OaroqaY -}          [ "higher", "superior", unwords [ "more", "/", "most", "advanced" ] ],
+    HaFCY                     `adj`     {- OaroqaY -}          [ "higher", "superior", unwords [ "more", "/", "most", "advanced" ] ],
 
     TaFCI |< aT               `noun`    {- taroqiyap -}        [ "promotion", "advancement", "elevation" ],
 

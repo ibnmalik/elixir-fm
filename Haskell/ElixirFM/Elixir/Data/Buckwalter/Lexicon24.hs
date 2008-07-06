@@ -1285,9 +1285,9 @@ cluster_23  = listing "Lexicon's properties"
     HuFCUL |< aT              `noun`    {- Oumovuwlap -}       [ "example", "lesson", "warning" ]
                               `plural`     HaFACIL,
 
-    HaFCaL                    `noun`    {- Oamoval -}          [ "exemplary", "ideal" ]
-                              `plural`     FuCLY |< At
-                              `plural`     HaFACiL,
+    HaFCaL                    `adj`     {- Oamoval -}          [ "exemplary", "ideal" ]
+                              `plural`     HaFACiL
+                              `femini`     FuCLY,
 
     TiFCAL                    `noun`    {- timovAl -}          [ "statue" ]
                               `plural`     TaFACIL,
@@ -2192,8 +2192,8 @@ cluster_39  = listing "Lexicon's properties"
                               `plural`     FiCAL
                               `plural`     HaFCAL,
 
-    HaFCaL                    `noun`    {- OamolaH -}          [ "saline", "salty" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OamolaH -}          [ "saline", "salty" ]
+                              `femini`     FaCLA',
 
     HuFCUL |< aT              `noun`    {- OumoluwHap -}       [ "joke", "anecdote" ]
                               `plural`     HaFACIL,
@@ -2256,7 +2256,7 @@ cluster_40  = listing "Lexicon's properties"
     FaCIL                     `noun`    {- maliyT -}           [ "hairless" ]
     `derives` "------F---",
 
-    HaFCaL                    `noun`    {- OamolaT -}          [ "hairless" ]
+    HaFCaL                    `adj`     {- OamolaT -}          [ "hairless" ]
                               `plural`     FuCL ]
 
  |> "m l ^g" <| [
@@ -2299,8 +2299,8 @@ cluster_41  = listing "Lexicon's properties"
 
     HaFACIL                   `noun`    {- OamAliyd -}         [ unwords [ "tender", "twigs" ] ],
 
-    HaFCaL                    `noun`    {- Oamolad -}          [ "tender", "flexible" ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- Oamolad -}          [ "tender", "flexible" ]
+                              `femini`     FaCLA' ]
 
 
 cluster_42  = listing "Lexicon's properties"
@@ -2538,9 +2538,9 @@ cluster_45  = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- malAsap -}          [ "smoothness" ],
 
-    HaFCaL                    `noun`    {- Oamolas -}          [ "smooth", "sleek" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL ]
+    HaFCaL                    `adj`     {- Oamolas -}          [ "smooth", "sleek" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA' ]
 
 
 cluster_46  = listing "Lexicon's properties"
@@ -2996,9 +2996,9 @@ cluster_54  = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- mariyT -}           [ "hairless" ],
 
-    HaFCaL                    `noun`    {- OamoraT -}          [ "hairless" ]
+    HaFCaL                    `adj`     {- OamoraT -}          [ "hairless" ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "m r ^g" <| [
 
@@ -3097,12 +3097,12 @@ cluster_56  = listing "Lexicon's properties"
     TiFCAL                    `noun`    {- timorAd -}          [ "dovecote" ]
                               `plural`     TaFACIL,
 
-    HaFCaL                    `noun`    {- Oamorad -}          [ "beardless" ]
+    HaFCaL                    `adj`     {- Oamorad -}          [ "beardless" ]
                               `plural`     FuCL,
 
-    HaFCaL                    `noun`    {- Oamorad -}          [ "leafless", "withered" ]
+    HaFCaL                    `adj`     {- Oamorad -}          [ "leafless", "withered" ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFaCCuL                  `noun`    {- tamar~ud -}         [ "insurrection", "rebellion" ]
                               `plural`     TaFaCCuL |< At,

@@ -52,12 +52,12 @@ cluster_42  = listing "Lexicon's properties"
 
     FiyAL |< aT               `noun`    {- ziyArap -}          [ "visit" ],
 
-    HaFCaL                    `noun`    {- Oazowar -}          [ "crooked", "oblique" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oazowar -}          [ "crooked", "oblique" ]
+                              `femini`     FaCLA',
 
-    HaFCaL                    `noun`    {- Oazowar -}          [ unwords [ "cross", "-", "eyed" ] ]
-                              `plural`     FaCLA'
-                              `plural`     FUL,
+    HaFCaL                    `adj`     {- Oazowar -}          [ unwords [ "cross", "-", "eyed" ] ]
+                              `plural`     FUL
+                              `femini`     FaCLA',
 
     MaFAL                     `noun`    {- mazAr -}            [ unwords [ "visit", "place" ], "shrine", "sanctuary" ]
                               `plural`     MaFAL |< At,

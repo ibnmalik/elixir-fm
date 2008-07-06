@@ -429,7 +429,7 @@ cluster_7   = listing "Lexicon's properties"
     FaCLA' |< Iy              `adj`     {- \$aEorAwiy~ -}      [ "Sha'rawi" ],
 
     HaFCaL                    `adj`     {- Oa$oEar -}          [ "hirsute" ]
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "^s ` w" <| [
 
@@ -765,7 +765,7 @@ cluster_14  = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- Oa$ohab -}          [ "gray" ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
 
 cluster_15  = listing "Lexicon's properties"
@@ -1010,9 +1010,9 @@ cluster_19  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- \$alal -}           [ "paralysis", "impotence", "inertia" ],
 
-    HaFaCL                    `noun`    {- Oa$al~ -}           [ "paralyzed", "impotent", "inert" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFaCL                    `adj`     {- Oa$al~ -}           [ "paralyzed", "impotent", "inert" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     FaCCAL                    `noun`    {- \$al~Al -}          [ "cataract", "cascade" ]
                               `plural`     FaCCAL |< At ]

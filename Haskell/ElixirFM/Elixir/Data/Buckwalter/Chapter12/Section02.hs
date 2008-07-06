@@ -795,8 +795,8 @@ cluster_35  = listing "Lexicon's properties"
     FuCL |< aT                `noun`    {- sufoEap -}          [ unwords [ "black", "stain" ] ]
                               `plural`     FuCaL,
 
-    HaFCaL                    `noun`    {- OasofaE -}          [ unwords [ "dark", "brown" ] ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- OasofaE -}          [ unwords [ "dark", "brown" ] ]
+                              `femini`     FaCLA' ]
 
  |> "s f d" <| [
 
@@ -892,9 +892,9 @@ cluster_37  = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- safAlap -}          [ "lowness", "baseness" ],
 
-    HaFCaL                    `noun`    {- Oasofal -}          [ unwords [ "lower", "/", "lowest" ], "underneath" ]
+    HaFCaL                    `adj`     {- Oasofal -}          [ unwords [ "lower", "/", "lowest" ], "underneath" ]
                               `plural`     HaFACiL
-                              `plural`     FuCLY |< At,
+                              `femini`     FuCLY,
 
     FACiL                     `adj`     {- sAfil -}            [ "lowly", "base" ]
                               `plural`     FACiL |< Un

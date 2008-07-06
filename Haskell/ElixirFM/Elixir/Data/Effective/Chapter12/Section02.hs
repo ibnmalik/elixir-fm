@@ -139,10 +139,10 @@ cluster_23  = listing "Lexicon's properties"
     FaCIL                     `noun`    {- samiyr -}           [ unwords [ "conversation", "partner" ] ]
     `derives` "------F---",
 
-    HaFCaL                    `noun`    {- Oasomar -}          [ "brown", "tawny", "tanned", unwords [ "brown", "-", "skinned" ], unwords [ "dark", "-", "complectioned" ] ]
+    HaFCaL                    `adj`     {- Oasomar -}          [ "brown", "tawny", "tanned", unwords [ "brown", "-", "skinned" ], unwords [ "dark", "-", "complectioned" ] ]
                               `plural`     FaCLY |< At
-                              `plural`     FaCLA'
-                              `plural`     FuCL ]
+                              `plural`     FuCL
+                              `femini`     FaCLA' ]
 
  |> "s m s r" <| [
 
@@ -170,7 +170,7 @@ cluster_24  = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- samAwap -}          [ "Samawa" ],
 
-    HaFCY                     `noun`    {- OasomaY -}          [ unwords [ "higher", "/", "highest" ], unwords [ "more", "/", "most", "eminent" ], "highest", unwords [ "most", "eminent" ] ],
+    HaFCY                     `adj`     {- OasomaY -}          [ unwords [ "higher", "/", "highest" ], unwords [ "more", "/", "most", "eminent" ], "highest", unwords [ "most", "eminent" ] ],
 
     HaFCA'                    `noun`    {- OasomA' -}          [ "Asmaa" ],
 
@@ -695,9 +695,9 @@ cluster_34  = listing "Lexicon's properties"
     FaCAL                     `noun`    {- sawAd -}            [ "blackness" ]
                               `plural`     HaFCiL |< aT,
 
-    HaFCaL                    `noun`    {- Oasowad -}          [ "black" ]
+    HaFCaL                    `adj`     {- Oasowad -}          [ "black" ]
                               `plural`     FUL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FULAn                     `noun`    {- suwdAn -}           [ "Sudan" ],
 

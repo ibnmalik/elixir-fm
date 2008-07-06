@@ -912,8 +912,8 @@ cluster_16  = listing "Lexicon's properties"
     FaCiL                     `verb`    {- waTif-a -}          [ unwords [ "have", "bushy", "eyebrows" ] ]
                               `imperf`     FCaL,
 
-    HaFCaL                    `noun`    {- OawoTaf -}          [ unwords [ "bushy", "-", "browed" ] ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OawoTaf -}          [ unwords [ "bushy", "-", "browed" ] ]
+                              `femini`     FaCLA',
 
     FaCLA'                    `noun`    {- waTofA' -}          [ unwords [ "heavy", "clouds" ] ] ]
 
@@ -2053,8 +2053,8 @@ cluster_38  = listing "Lexicon's properties"
 
     FaCiL                     `noun`    {- wabir -}            [ "hairy", "fluffy" ],
 
-    HaFCaL                    `noun`    {- Oawobar -}          [ "hairy", "fluffy" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oawobar -}          [ "hairy", "fluffy" ]
+                              `femini`     FaCLA',
 
     MuFaCCaL                  `adj`     {- muwab~ar -}         [ "woolly" ] ]
 
@@ -2425,7 +2425,7 @@ cluster_45  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- wafiy~ -}           [ "faithful", "complete" ]
                               `plural`     HaFCiLA',
 
-    HaFCY                     `noun`    {- OawofaY -}          [ unwords [ "more", "/", "most", "faithful" ], unwords [ "more", "/", "most", "complete" ], unwords [ "most", "faithful" ], unwords [ "most", "complete" ] ],
+    HaFCY                     `adj`     {- OawofaY -}          [ unwords [ "more", "/", "most", "faithful" ], unwords [ "more", "/", "most", "complete" ], unwords [ "most", "faithful" ], unwords [ "most", "complete" ] ],
 
     TaFCI |< aT               `noun`    {- tawofiyap -}        [ "satisfaction", "fulfillment" ],
 
@@ -3172,7 +3172,7 @@ cluster_60  = listing "Lexicon's properties"
     FiCAL |< At               `noun`    {- wilAyAt -}          [ "States" ]
                               `plural`     FiCAL |< At,
 
-    HaFCY                     `noun`    {- OawolaY -}          [ unwords [ "more", "/", "most", "appropriate", "/", "suitable", "/", "deserving" ], unwords [ "most", "appropriate", "/", "suitable", "/", "deserving" ] ],
+    HaFCY                     `adj`     {- OawolaY -}          [ unwords [ "more", "/", "most", "appropriate", "/", "suitable", "/", "deserving" ], unwords [ "most", "appropriate", "/", "suitable", "/", "deserving" ] ],
 
     MaFCY                     `noun`    {- mawolaY -}          [ "master", "lord" ]
                               `plural`     MaFACI,
@@ -4103,7 +4103,7 @@ cluster_77  = listing "Lexicon's properties"
 
     FaCA' |< Iy               `adj`     {- warA}iy~ -}         [ "rear", "back" ],
 
-    HaFCY                     `noun`    {- OaworaY -}          [ unwords [ "hiding", "better" ] ],
+    HaFCY                     `adj`     {- OaworaY -}          [ unwords [ "hiding", "better" ] ],
 
     TaFCI |< aT               `noun`    {- taworiyap -}        [ "hiding", "dissimulation" ] ]
 
@@ -4147,7 +4147,7 @@ cluster_78  = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- OawosaT -}          [ "middle", "central" ]
                               `plural`     HaFACiL
-                              `plural`     FuCLY |< At,
+                              `femini`     FuCLY,
 
     HaFCaL |< Iy              `adj`     {- OawosaTiy~ -}       [ "Middle" ],
 

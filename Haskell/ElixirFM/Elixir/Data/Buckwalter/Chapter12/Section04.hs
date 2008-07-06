@@ -389,10 +389,10 @@ cluster_68  = listing "Lexicon's properties"
     FaCIL                     `noun`    {- samiyr -}           [ unwords [ "conversation", "partner" ] ]
     `derives` "------F---",
 
-    HaFCaL                    `noun`    {- Oasomar -}          [ "brown", "tawny", "tanned", unwords [ "brown", "-", "skinned" ], unwords [ "dark", "-", "complectioned" ] ]
+    HaFCaL                    `adj`     {- Oasomar -}          [ "brown", "tawny", "tanned", unwords [ "brown", "-", "skinned" ], unwords [ "dark", "-", "complectioned" ] ]
                               `plural`     FaCLY |< At
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     HaFCaL |< Iy              `adj`     {- Oasomariy~ -}       [ "Asmari" ],
 
@@ -482,7 +482,7 @@ cluster_70  = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- samAwap -}          [ "Samawa" ],
 
-    HaFCY                     `noun`    {- OasomaY -}          [ unwords [ "higher", "/", "highest" ], unwords [ "more", "/", "most", "eminent" ], "highest", unwords [ "most", "eminent" ] ],
+    HaFCY                     `adj`     {- OasomaY -}          [ unwords [ "higher", "/", "highest" ], unwords [ "more", "/", "most", "eminent" ], "highest", unwords [ "most", "eminent" ] ],
 
     HaFCA'                    `noun`    {- OasomA' -}          [ "Asmaa" ],
 
@@ -844,7 +844,7 @@ cluster_76  = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- sanA' -}            [ "Sana'", "Sanaa" ],
 
-    HaFCY                     `noun`    {- OasonaY -}          [ unwords [ "more", "/", "most", "radiant" ], unwords [ "most", "radiant" ] ],
+    HaFCY                     `adj`     {- OasonaY -}          [ unwords [ "more", "/", "most", "radiant" ], unwords [ "most", "radiant" ] ],
 
     FACI |< aT                `noun`    {- sAniyap -}          [ unwords [ "water", "scoop" ] ]
                               `plural`     FawACI,

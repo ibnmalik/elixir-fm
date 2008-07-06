@@ -656,7 +656,7 @@ cluster_14  = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- Oahobal -}          [ unwords [ "dim", "-", "witted" ], "imbecile" ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     MaFCaL                    `noun`    {- mahobal -}          [ "vagina" ]
                               `plural`     MaFCiL,
@@ -780,8 +780,8 @@ cluster_16  = listing "Lexicon's properties"
     FaCiL                     `noun`    {- hadib -}            [ unwords [ "having", "long", "lashes" ] ]
     `derives` "------F---",
 
-    HaFCaL                    `noun`    {- Oahodab -}          [ unwords [ "having", "long", "lashes" ] ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oahodab -}          [ unwords [ "having", "long", "lashes" ] ]
+                              `femini`     FaCLA',
 
     FuCCAL                    `noun`    {- hud~Ab -}           [ "fringes", "border" ],
 
@@ -886,9 +886,9 @@ cluster_18  = listing "Lexicon's properties"
 
     InFaCaL                   `verb`    {- Ainohadal -}        [ unwords [ "hang", "loosely" ], "dangle" ],
 
-    HaFCaL                    `noun`    {- Oahodal -}          [ unwords [ "hanging", "loosely" ] ]
+    HaFCaL                    `adj`     {- Oahodal -}          [ unwords [ "hanging", "loosely" ] ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     MuFaCCaL                  `adj`     {- muhad~al -}         [ unwords [ "hanging", "loosely" ] ] ]
 

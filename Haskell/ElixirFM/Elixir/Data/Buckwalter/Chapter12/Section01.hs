@@ -327,9 +327,9 @@ cluster_6   = listing "Lexicon's properties"
 
     FuCAL                     `noun`    {- suHAm -}            [ "blackness" ],
 
-    HaFCaL                    `noun`    {- OasoHam -}          [ "black" ]
+    HaFCaL                    `adj`     {- OasoHam -}          [ "black" ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FuCayL                    `noun`    {- suHayom -}          [ "Suhaim" ],
 
@@ -607,8 +607,8 @@ cluster_11  = listing "Lexicon's properties"
 
  |> "s ^g .h" <| [
 
-    HaFCaL                    `noun`    {- OasojaH -}          [ "shapely", "beautiful" ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- OasojaH -}          [ "shapely", "beautiful" ]
+                              `femini`     FaCLA' ]
 
  |> "s ^g `" <| [
 

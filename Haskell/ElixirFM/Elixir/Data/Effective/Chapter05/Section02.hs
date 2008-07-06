@@ -241,9 +241,9 @@ cluster_24  = listing "Lexicon's properties"
                               `plural`     FaCAL |< At
                               `plural`     HaFyAL,
 
-    HaFCaL                    `noun`    {- Oajowad -}          [ unwords [ "better", "/", "best" ], unwords [ "more", "/", "most", "generous" ] ]
+    HaFCaL                    `adj`     {- Oajowad -}          [ unwords [ "better", "/", "best" ], unwords [ "more", "/", "most", "generous" ] ]
                               `plural`     HaFACIL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "^g w f" <| [
 

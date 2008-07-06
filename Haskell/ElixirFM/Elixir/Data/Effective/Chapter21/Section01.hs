@@ -330,11 +330,11 @@ cluster_7   = listing "Lexicon's properties"
 
     HaFCY                     `noun`    {- OaqoSaY -}          [ "Aqsa" ],
 
-    HaFCY                     `noun`    {- OaqoSaY -}          [ "farthest", unwords [ "most", "remote" ], "remotest" ]
-                              `plural`     FuCLY |< At
-                              `plural`     HaFACI,
+    HaFCY                     `adj`     {- OaqoSaY -}          [ "farthest", unwords [ "most", "remote" ], "remotest" ]
+                              `plural`     HaFACI
+                              `femini`     FuCLY,
 
-    HaFCY                     `noun`    {- OaqoSaY -}          [ "maximum" ],
+    HaFCY                     `adj`     {- OaqoSaY -}          [ "maximum" ],
 
     TaFaCCI                   `noun`    {- taqaS~iy -}         [ "investigation", "examination" ]
                               `plural`     TaFaCCI |< At,
@@ -806,8 +806,7 @@ cluster_15  = listing "Lexicon's properties"
     FaCCUL                    `noun`    {- qad~uwm -}          [ "adz" ]
                               `plural`     FaCA'iL,
 
-    HaFCaL                    `noun`    {- Oaqodam -}          [ unwords [ "older", "/", "oldest" ], "ancients" ]
-                              `plural`     HaFCaL |< Un,
+    HaFCaL                    `adj`     {- Oaqodam -}          [ unwords [ "older", "/", "oldest" ], "ancients" ],
 
     MaFCaL                    `noun`    {- maqodam -}          [ "arrival", "advent" ],
 

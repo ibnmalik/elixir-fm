@@ -776,11 +776,11 @@ cluster_14  = listing "Lexicon's properties"
 
     HaFCY                     `noun`    {- OaqoSaY -}          [ "Aqsa" ],
 
-    HaFCY                     `noun`    {- OaqoSaY -}          [ "farthest", unwords [ "most", "remote" ], "remotest" ]
-                              `plural`     FuCLY |< At
-                              `plural`     HaFACI,
+    HaFCY                     `adj`     {- OaqoSaY -}          [ "farthest", unwords [ "most", "remote" ], "remotest" ]
+                              `plural`     HaFACI
+                              `femini`     FuCLY,
 
-    HaFCY                     `noun`    {- OaqoSaY -}          [ "maximum" ],
+    HaFCY                     `adj`     {- OaqoSaY -}          [ "maximum" ],
 
     TaFaCCI                   `noun`    {- taqaS~iy -}         [ "investigation", "examination" ]
                               `plural`     TaFaCCI |< At,
@@ -907,8 +907,8 @@ cluster_16  = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- OaqoTaE -}          [ unwords [ "more", "/", "most", "convincing", "/", "conclusive" ] ],
 
-    HaFCaL                    `noun`    {- OaqoTaE -}          [ "amputee", "mute" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaqoTaE -}          [ "amputee", "mute" ]
+                              `femini`     FaCLA',
 
     MaFCaL                    `noun`    {- maqoTaE -}          [ "section", "selection", "excerpt" ]
                               `plural`     MaFACiL,

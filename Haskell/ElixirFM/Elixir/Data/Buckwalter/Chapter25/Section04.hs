@@ -487,7 +487,7 @@ cluster_70  = listing "Lexicon's properties"
                               `plural`     FuCL |< aT
                            {- `others`  [ "nadraTaN FW-Wa" ] -},
 
-    HaFCaL                    `noun`    {- Oanodar -}          [ unwords [ "threshing", "floor" ] ]
+    HaFCaL                    `adj`     {- Oanodar -}          [ unwords [ "threshing", "floor" ] ]
                               `plural`     HaFACiL,
 
     HaFCaL                    `noun`    {- Oanodar -}          [ unwords [ "rarer", "/", "rarest" ] ],

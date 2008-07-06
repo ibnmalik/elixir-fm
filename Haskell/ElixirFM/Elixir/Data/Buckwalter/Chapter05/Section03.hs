@@ -783,9 +783,9 @@ cluster_54  = listing "Lexicon's properties"
                               `plural`     FaCiL |< Un
     `derives` "------F---",
 
-    HaFCaL                    `noun`    {- Oajorab -}          [ "mangy", "scabby" ]
+    HaFCaL                    `adj`     {- Oajorab -}          [ "mangy", "scabby" ]
                               `plural`     FuCL
-                              `plural`     FaCLA'
+                              `femini`     FaCLA'
     `derives` "------F---",
 
     FiCAL                     `noun`    {- jirAb -}            [ "sack", "case" ]
@@ -851,8 +851,8 @@ cluster_55  = listing "Lexicon's properties"
     FaCiL                     `noun`    {- jarid -}            [ "barren" ]
                               `plural`     FuCL,
 
-    HaFCaL                    `noun`    {- Oajorad -}          [ "barren" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oajorad -}          [ "barren" ]
+                              `femini`     FaCLA',
 
     FaCAL                     `noun`    {- jarAd -}            [ "locust" ],
 

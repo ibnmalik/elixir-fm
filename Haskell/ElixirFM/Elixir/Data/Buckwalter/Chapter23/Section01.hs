@@ -619,7 +619,7 @@ cluster_12  = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- liHA' -}            [ unwords [ "inner", "bark" ] ],
 
-    HaFCY                     `noun`    {- OaloHaY -}          [ unwords [ "long", "-", "bearded" ] ],
+    HaFCY                     `adj`     {- OaloHaY -}          [ unwords [ "long", "-", "bearded" ] ],
 
     MuFtaCI                   `noun`    {- mulotaHiy -}        [ "bearded" ]
                               `plural`     MuFtaCI |< At ]

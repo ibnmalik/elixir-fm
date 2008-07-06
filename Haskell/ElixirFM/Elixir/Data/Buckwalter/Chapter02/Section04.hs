@@ -26,9 +26,9 @@ cluster_61  = listing "Lexicon's properties"
 
     FaCL |<< "a"              `adv`     {- baloha -}           [ unwords [ "not", "to", "mention" ] ],
 
-    HaFCaL                    `noun`    {- Oabolah -}          [ "doltish", "dumb" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL ]
+    HaFCaL                    `adj`     {- Oabolah -}          [ "doltish", "dumb" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA' ]
 
  |> "b l h n" <| [
 
@@ -147,8 +147,8 @@ cluster_63  = listing "Lexicon's properties"
 
  |> "b l q" <| [
 
-    HaFCaL                    `noun`    {- Oabolaq -}          [ unwords [ "black", "and", "white" ], "pinto", "piebald" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oabolaq -}          [ unwords [ "black", "and", "white" ], "pinto", "piebald" ]
+                              `femini`     FaCLA',
 
     FaCLAn                    `noun`    {- baloqAn -}          [ "Balkans" ],
 
@@ -781,7 +781,7 @@ cluster_74  = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- baqA' -}            [ "survival", "remaining" ],
 
-    HaFCY                     `noun`    {- OaboqaY -}          [ unwords [ "more", "lasting" ], unwords [ "more", "durable" ] ],
+    HaFCY                     `adj`     {- OaboqaY -}          [ unwords [ "more", "lasting" ], unwords [ "more", "durable" ] ],
 
     HiFCA'                    `noun`    {- IiboqA' -}          [ "continuation", "preservation" ]
                               `plural`     HiFCA' |< At,

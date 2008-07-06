@@ -412,7 +412,7 @@ cluster_8   = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- \*akA' -}           [ "cleverness" ],
 
-    HaFCY                     `noun`    {- Oa*okaY -}          [ unwords [ "smarter", "/", "smartest" ], unwords [ "more", "/", "most", "delicious" ], "smartest", unwords [ "most", "delicious" ] ] ]
+    HaFCY                     `adj`     {- Oa*okaY -}          [ unwords [ "smarter", "/", "smartest" ], unwords [ "more", "/", "most", "delicious" ], "smartest", unwords [ "most", "delicious" ] ] ]
 
  |> "_d k y" <| [
 
@@ -432,9 +432,9 @@ cluster_8   = listing "Lexicon's properties"
 
  |> "_d l f" <| [
 
-    HaFCaL                    `noun`    {- Oa*olaf -}          [ unwords [ "small", "-", "nosed" ] ]
+    HaFCaL                    `adj`     {- Oa*olaf -}          [ unwords [ "small", "-", "nosed" ] ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
 
 cluster_9   = listing "Lexicon's properties"

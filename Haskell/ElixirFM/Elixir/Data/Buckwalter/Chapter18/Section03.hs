@@ -377,7 +377,7 @@ cluster_47  = listing "Lexicon's properties"
 
     FuCLAn |< Iy |< aT        `noun`    {- EudowAniy~ap -}     [ "aggression", "belligerency" ],
 
-    HaFCY                     `noun`    {- OaEodaY -}          [ unwords [ "greater", "/", "greatest", "enemy" ], unwords [ "greatest", "enemy" ] ],
+    HaFCY                     `adj`     {- OaEodaY -}          [ unwords [ "greater", "/", "greatest", "enemy" ], unwords [ "greatest", "enemy" ] ],
 
     MaFCY                     `noun`    {- maEodaY -}          [ "avoidance", "escape" ],
 
@@ -564,8 +564,8 @@ cluster_50  = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- Euforap -}          [ unwords [ "dust", "-", "color" ] ],
 
-    HaFCaL                    `noun`    {- OaEofar -}          [ unwords [ "dust", "-", "colored" ] ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaEofar -}          [ unwords [ "dust", "-", "colored" ] ]
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- taEofiyr -}         [ "dusting", "sprinkling" ]
                               `plural`     TaFCIL |< At,

@@ -911,8 +911,8 @@ cluster_97  = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- nakiyr -}           [ "disavowal", "reproach", "blame" ],
 
-    HaFCaL                    `noun`    {- Oanokar -}          [ "reprehensible", "disapproving" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oanokar -}          [ "reprehensible", "disapproving" ]
+                              `femini`     FaCLA',
 
     HiFCAL                    `noun`    {- IinokAr -}          [ "denial", "disavowal", "refusal" ]
                               `plural`     HiFCAL |< At,
@@ -1012,7 +1012,7 @@ cluster_98  = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- nikAyap -}          [ "damage", "prejudice", "offense" ],
 
-    HaFCY                     `noun`    {- OanokaY -}          [ "worse", "worst", unwords [ "more", "/", "most", "harmful" ], unwords [ "most", "harmful" ] ] ]
+    HaFCY                     `adj`     {- OanokaY -}          [ "worse", "worst", unwords [ "more", "/", "most", "harmful" ], unwords [ "most", "harmful" ] ] ]
 
  |> "n k z" <| [
 
@@ -1056,9 +1056,9 @@ cluster_99  = listing "Lexicon's properties"
 
     FaCiL                     `adj`     {- nami$ -}            [ "freckled" ],
 
-    HaFCaL                    `noun`    {- Oanoma$ -}          [ "freckled" ]
+    HaFCaL                    `adj`     {- Oanoma$ -}          [ "freckled" ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "n m _t" <| [
 

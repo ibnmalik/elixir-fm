@@ -328,7 +328,7 @@ cluster_86  = listing "Lexicon's properties"
 
     FiCA'                     `noun`    {- HirA' -}            [ "Hira" ],
 
-    HaFCY                     `noun`    {- OaHoraY -}          [ unwords [ "more", "/", "most", "adequate" ], unwords [ "better", "/", "best" ] ],
+    HaFCY                     `adj`     {- OaHoraY -}          [ unwords [ "more", "/", "most", "adequate" ], unwords [ "better", "/", "best" ] ],
 
     TaFaCCI                   `noun`    {- taHar~iy -}         [ "investigation", "inquiry" ]
                               `plural`     TaFaCCI |< At ]
@@ -541,10 +541,10 @@ cluster_90  = listing "Lexicon's properties"
     FaCaL                     `adv`     {- Hasan -}            [ "good", "well" ]
                               `plural`     FiCAL,
 
-    HaFCaL                    `noun`    {- OaHosan -}          [ unwords [ "better", "/", "best" ], "beauty", "belle", "best" ]
-                              `plural`     FaCLA'
+    HaFCaL                    `adj`     {- OaHosan -}          [ unwords [ "better", "/", "best" ], "beauty", "belle", "best" ]
                               `plural`     HaFACiL
-                              `plural`     FuCLY |< At,
+                              `femini`     FaCLA'
+                              `femini`     FuCLY,
 
     FaCaL |< aT               `noun`    {- Hasanap -}          [ unwords [ "good", "deed" ], "merit" ],
 
@@ -1116,8 +1116,8 @@ cluster_100 = listing "Lexicon's properties"
 
     FaCL |< Iy |< aT          `noun`    {- Hawoliy~ap -}       [ "annals", "journal" ],
 
-    HaFCaL                    `noun`    {- OaHowal -}          [ "squinting", unwords [ "cross", "-", "eyed" ] ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaHowal -}          [ "squinting", unwords [ "cross", "-", "eyed" ] ]
+                              `femini`     FaCLA',
 
     FiCAL                     `noun`    {- HiwAl -}            [ "obstacle", "partition" ],
 

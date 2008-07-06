@@ -257,8 +257,8 @@ cluster_46  = listing "Lexicon's properties"
                               `plural`     FuCLAn |< At,
 
     HaFaCL                    `adj`     {- Oasak~ -}           [ "deaf" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     MaFCUL |< aT              `noun`    {- masokuwkap -}       [ "coin", unwords [ "drain", "hole" ] ],
 

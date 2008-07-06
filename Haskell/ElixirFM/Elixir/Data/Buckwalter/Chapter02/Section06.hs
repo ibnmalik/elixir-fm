@@ -472,8 +472,8 @@ cluster_108 = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- bayAD -}            [ "whiteness" ],
 
-    HaFCaL                    `noun`    {- OaboyaD -}          [ "white" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaboyaD -}          [ "white" ]
+                              `femini`     FaCLA',
 
     FIL                       `noun`    {- biyD -}             [ "white", "Caucasian" ],
 

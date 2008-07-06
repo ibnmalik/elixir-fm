@@ -69,7 +69,7 @@ cluster_21  = listing "Lexicon's properties"
 
     FaCA'                     `noun`    {- zakA' -}            [ "integrity", "righteousness" ],
 
-    HaFCY                     `noun`    {- OazokaY -}          [ unwords [ "purer", "/", "purest" ], unwords [ "better", "/", "best" ] ],
+    HaFCY                     `adj`     {- OazokaY -}          [ unwords [ "purer", "/", "purest" ], unwords [ "better", "/", "best" ] ],
 
     TaFCI |< aT               `noun`    {- tazokiyap -}        [ "purification", unwords [ "nomination", "by", "acclamation" ] ] ]
 
@@ -822,9 +822,9 @@ cluster_35  = listing "Lexicon's properties"
 
     FuCUL                     `noun`    {- zuruwq -}           [ "Zurouq" ],
 
-    HaFCaL                    `noun`    {- Oazoraq -}          [ "blue" ]
+    HaFCaL                    `adj`     {- Oazoraq -}          [ "blue" ]
                               `plural`     FuCuL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FaCLAn |< Iy              `adj`     {- zaroqAniy~ -}       [ "Zarqani" ],
 

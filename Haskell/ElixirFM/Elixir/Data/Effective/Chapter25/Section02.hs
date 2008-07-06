@@ -432,8 +432,8 @@ cluster_29  = listing "Lexicon's properties"
 
     IstaFCaL                  `verb`    {- Aisotanokar -}      [ unwords [ "be", "ignorant", "of" ], unwords [ "have", "no", "knowledge", "of" ], "repudiate" ],
 
-    HaFCaL                    `noun`    {- Oanokar -}          [ "reprehensible", "disapproving" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oanokar -}          [ "reprehensible", "disapproving" ]
+                              `femini`     FaCLA',
 
     HiFCAL                    `noun`    {- IinokAr -}          [ "denial", "disavowal", "refusal" ]
                               `plural`     HiFCAL |< At,

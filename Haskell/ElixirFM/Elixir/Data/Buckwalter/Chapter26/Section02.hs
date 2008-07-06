@@ -83,7 +83,7 @@ cluster_22  = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- hidAyap -}          [ "guidance" ],
 
-    HaFCY                     `noun`    {- OahodaY -}          [ unwords [ "better", "/", "best", "guided" ], unwords [ "more", "/", "most", "correct" ], unwords [ "best", "guided" ], unwords [ "most", "correct" ] ],
+    HaFCY                     `adj`     {- OahodaY -}          [ unwords [ "better", "/", "best", "guided" ], unwords [ "more", "/", "most", "correct" ], unwords [ "best", "guided" ], unwords [ "most", "correct" ] ],
 
     HiFCA'                    `noun`    {- IihodA' -}          [ "presenting", "leading" ]
                               `plural`     HiFCA' |< At,
@@ -254,9 +254,9 @@ cluster_25  = listing "Lexicon's properties"
     FiCL                      `noun`    {- hilob -}            [ "anchor", "grapnel" ]
                               `plural`     HaFCAL,
 
-    HaFCaL                    `noun`    {- Oaholab -}          [ "hirsute", "shaggy" ]
+    HaFCaL                    `adj`     {- Oaholab -}          [ "hirsute", "shaggy" ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FuCAL |< aT               `noun`    {- hulAbap -}          [ "lochia" ],
 

@@ -48,7 +48,7 @@ cluster_81  = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- Oa$owah -}          [ "distorted", "deformed" ]
                               `plural`     FUL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- ta$owiyh -}         [ "distortion" ]
                               `plural`     TaFCIL |< At,
@@ -512,8 +512,8 @@ cluster_91  = listing "Lexicon's properties"
     MaFIL                     `noun`    {- ma$iyb -}           [ unwords [ "old", "age" ], unwords [ "gray", "or", "white", "hair" ] ],
 
     HaFCaL                    `adj`     {- Oa$oyab -}          [ unwords [ "gray", "-", "haired" ], "old" ]
-                              `plural`     FaCLA'
-                              `plural`     FIL,
+                              `plural`     FIL
+                              `femini`     FaCLA',
 
     FIL |< aT                 `noun`    {- \$iybap -}          [ "Shibh", "Shibah" ],
 
@@ -707,7 +707,7 @@ cluster_94  = listing "Lexicon's properties"
     TaFACaL                   `verb`    {- ta$Azar -}          [ unwords [ "look", "askance", "at", "each", "other" ] ],
 
     HaFCaL                    `adj`     {- Oa$ozar -}          [ unwords [ "askance", "looking" ], "distrustful" ]
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "^sA_darwAn" <| [
 

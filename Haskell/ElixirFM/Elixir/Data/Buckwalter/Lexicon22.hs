@@ -154,8 +154,8 @@ cluster_3   = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- kuHolap -}          [ "pointing", "filling", "grouting" ],
 
-    HaFCaL                    `noun`    {- OakoHal -}          [ "black" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OakoHal -}          [ "black" ]
+                              `femini`     FaCLA',
 
     FaCLA'                    `noun`    {- kaHolA' -}          [ "blueweed" ],
 
@@ -1063,7 +1063,7 @@ cluster_20  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- kadiyr -}           [ "worried" ],
 
     HaFCaL                    `adj`     {- Oakodar -}          [ "dingy" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- takodiyr -}         [ "disturbing", "troubling" ]
                               `plural`     TaFCIL |< At,
@@ -1357,9 +1357,9 @@ cluster_26  = listing "Lexicon's properties"
 
     InFaCaL                   `verb`    {- Ainokafas -}        [ unwords [ "be", "bandy", "-", "legged" ] ],
 
-    HaFCaL                    `noun`    {- Oakofas -}          [ unwords [ "bandy", "-", "legged" ] ]
+    HaFCaL                    `adj`     {- Oakofas -}          [ unwords [ "bandy", "-", "legged" ] ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
 
 cluster_27  = listing "Lexicon's properties"
@@ -1650,8 +1650,8 @@ cluster_32  = listing "Lexicon's properties"
     FaCCAL |< Iy              `adj`     {- kal~Afiy~ -}        [ unwords [ "donkey", "hirer" ] ],
 
     HaFCaL                    `adj`     {- Oakolaf -}          [ "freckled", "ginger" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- takoliyf -}         [ "charging", "commissioning" ]
                               `plural`     TaFCIL |< At,
@@ -1965,9 +1965,9 @@ cluster_38  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- kamah -}            [ unwords [ "blindness", "from", "birth" ] ],
 
-    HaFCaL                    `noun`    {- Oakomah -}          [ unwords [ "born", "blind" ] ]
+    HaFCaL                    `adj`     {- Oakomah -}          [ unwords [ "born", "blind" ] ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
 
 cluster_39  = listing "Lexicon's properties"
@@ -2800,7 +2800,7 @@ cluster_53  = listing "Lexicon's properties"
 
     HaFCaL                    `noun`    {- Oakoram -}          [ "Akram" ],
 
-    HaFCaL                    `noun`    {- Oakoram -}          [ unwords [ "nobler", "/", "noblest" ], unwords [ "dearer", "/", "dearest" ], unwords [ "more", "/", "most", "precious" ] ]
+    HaFCaL                    `adj`     {- Oakoram -}          [ unwords [ "nobler", "/", "noblest" ], unwords [ "dearer", "/", "dearest" ], unwords [ "more", "/", "most", "precious" ] ]
                               `plural`     HaFACiL,
 
     MaFCaL                    `noun`    {- makoram -}          [ "Makram" ],
@@ -3434,7 +3434,7 @@ cluster_65  = listing "Lexicon's properties"
 
  |> "k t `" <| [
 
-    HaFCaL                    `noun`    {- OakotaE -}          [ unwords [ "one", "-", "armed" ], "crippled" ]
+    HaFCaL                    `adj`     {- OakotaE -}          [ unwords [ "one", "-", "armed" ], "crippled" ]
                               `plural`     FuCL ]
 
 
@@ -3555,9 +3555,9 @@ cluster_67  = listing "Lexicon's properties"
     FiCAL                     `noun`    {- kitAf -}            [ "shackle", "handcuff" ]
                               `plural`     FuCuL,
 
-    HaFCaL                    `noun`    {- Oakotaf -}          [ unwords [ "broad", "-", "shouldered" ] ]
+    HaFCaL                    `adj`     {- Oakotaf -}          [ unwords [ "broad", "-", "shouldered" ] ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFACuL                   `noun`    {- takAtuf -}          [ "solidarity" ]
                               `plural`     TaFACuL |< At,

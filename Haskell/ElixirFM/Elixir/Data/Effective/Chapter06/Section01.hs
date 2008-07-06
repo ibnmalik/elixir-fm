@@ -688,8 +688,8 @@ cluster_13  = listing "Lexicon's properties"
 
  |> ".h d b" <| [
 
-    HaFCaL                    `noun`    {- OaHodab -}          [ "hunchbacked" ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- OaHodab -}          [ "hunchbacked" ]
+                              `femini`     FaCLA' ]
 
 
 cluster_14  = listing "Lexicon's properties"

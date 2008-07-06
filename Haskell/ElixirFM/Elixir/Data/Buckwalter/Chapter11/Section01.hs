@@ -321,9 +321,9 @@ cluster_6   = listing "Lexicon's properties"
     FuCL                      `noun`    {- zuj~ -}             [ "ferrule", "arrowhead" ]
                               `plural`     FiCAL,
 
-    HaFaCL                    `noun`    {- Oazaj~ -}           [ unwords [ "having", "beautiful", "eyebrows" ] ]
+    HaFaCL                    `adj`     {- Oazaj~ -}           [ unwords [ "having", "beautiful", "eyebrows" ] ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FuCAL                     `noun`    {- zujAj -}            [ "glass", "windshield" ],
 
@@ -417,7 +417,7 @@ cluster_8   = listing "Lexicon's properties"
     FaCiL                     `adj`     {- zaxim -}            [ "stinking" ],
 
     HaFCaL                    `adj`     {- Oazoxam -}          [ "stinking" ]
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FaCL |< aT                `noun`    {- zaxomap -}          [ unwords [ "pick", "(", "music", ")" ] ],
 
@@ -595,10 +595,10 @@ cluster_11  = listing "Lexicon's properties"
                               `plural`     FaCiL |< Un
     `derives` "------F---",
 
-    HaFCaL                    `noun`    {- OazoEar -}          [ unwords [ "thin", "-", "haired" ] ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OazoEar -}          [ unwords [ "thin", "-", "haired" ] ]
+                              `femini`     FaCLA',
 
-    HaFCaL                    `noun`    {- OazoEar -}          [ "brigand", "scoundrel" ]
+    HaFCaL                    `adj`     {- OazoEar -}          [ "brigand", "scoundrel" ]
                               `plural`     FuCLAn,
 
     FuCayL                    `noun`    {- zuEayor -}          [ "Zuair" ],
@@ -653,9 +653,9 @@ cluster_12  = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- zabiyb -}           [ "raisin" ],
 
-    HaFaCL                    `noun`    {- Oazab~ -}           [ "hirsute", "shaggy" ]
+    HaFaCL                    `adj`     {- Oazab~ -}           [ "hirsute", "shaggy" ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
 
 cluster_13  = listing "Lexicon's properties"
@@ -1035,7 +1035,7 @@ cluster_20  = listing "Lexicon's properties"
 
     FuCA' |<< "a"             `prep`    {- zuhA'a -}           [ "roughly", "approximately" ],
 
-    HaFCY                     `noun`    {- OazohaY -}          [ unwords [ "more", "/", "most", "splendid" ], unwords [ "more", "/", "most", "conceited" ], unwords [ "most", "splendid" ], unwords [ "most", "conceited" ] ],
+    HaFCY                     `adj`     {- OazohaY -}          [ unwords [ "more", "/", "most", "splendid" ], unwords [ "more", "/", "most", "conceited" ], unwords [ "most", "splendid" ], unwords [ "most", "conceited" ] ],
 
     HiFCA'                    `noun`    {- IizohA' -}          [ "prosperity", "flourishing", "splendor" ],
 

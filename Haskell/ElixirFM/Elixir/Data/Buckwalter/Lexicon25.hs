@@ -1663,8 +1663,8 @@ cluster_30  = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- najiyl -}           [ unwords [ "couch", "grass" ], "quitch" ],
 
-    HaFCaL                    `noun`    {- Oanojal -}          [ unwords [ "wide", "-", "eyed" ], "gaping" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oanojal -}          [ unwords [ "wide", "-", "eyed" ], "gaping" ]
+                              `femini`     FaCLA',
 
     MiFCaL                    `noun`    {- minojal -}          [ "scythe", "sickle" ]
                               `plural`     MaFACiL,
@@ -3666,7 +3666,7 @@ cluster_70  = listing "Lexicon's properties"
                               `plural`     FuCL |< aT
                            {- `others`  [ "nadraTaN FW-Wa" ] -},
 
-    HaFCaL                    `noun`    {- Oanodar -}          [ unwords [ "threshing", "floor" ] ]
+    HaFCaL                    `adj`     {- Oanodar -}          [ unwords [ "threshing", "floor" ] ]
                               `plural`     HaFACiL,
 
     HaFCaL                    `noun`    {- Oanodar -}          [ unwords [ "rarer", "/", "rarest" ] ],
@@ -5041,8 +5041,8 @@ cluster_97  = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- nakiyr -}           [ "disavowal", "reproach", "blame" ],
 
-    HaFCaL                    `noun`    {- Oanokar -}          [ "reprehensible", "disapproving" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oanokar -}          [ "reprehensible", "disapproving" ]
+                              `femini`     FaCLA',
 
     HiFCAL                    `noun`    {- IinokAr -}          [ "denial", "disavowal", "refusal" ]
                               `plural`     HiFCAL |< At,
@@ -5142,7 +5142,7 @@ cluster_98  = listing "Lexicon's properties"
 
     FiCAL |< aT               `noun`    {- nikAyap -}          [ "damage", "prejudice", "offense" ],
 
-    HaFCY                     `noun`    {- OanokaY -}          [ "worse", "worst", unwords [ "more", "/", "most", "harmful" ], unwords [ "most", "harmful" ] ] ]
+    HaFCY                     `adj`     {- OanokaY -}          [ "worse", "worst", unwords [ "more", "/", "most", "harmful" ], unwords [ "most", "harmful" ] ] ]
 
  |> "n k z" <| [
 
@@ -5186,9 +5186,9 @@ cluster_99  = listing "Lexicon's properties"
 
     FaCiL                     `adj`     {- nami$ -}            [ "freckled" ],
 
-    HaFCaL                    `noun`    {- Oanoma$ -}          [ "freckled" ]
+    HaFCaL                    `adj`     {- Oanoma$ -}          [ "freckled" ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "n m _t" <| [
 
@@ -5301,9 +5301,9 @@ cluster_102 = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- numorap -}          [ "speck" ],
 
-    HaFCaL                    `noun`    {- Oanomar -}          [ "speckled" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFCaL                    `adj`     {- Oanomar -}          [ "speckled" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     MuFaCCaL                  `noun`    {- munam~ar -}         [ "spotted", "striped" ],
 
@@ -6057,7 +6057,7 @@ cluster_118 = listing "Lexicon's properties"
 
     FuCAL |< aT               `noun`    {- nuqAwap -}          [ "selection", "choice", "select" ],
 
-    HaFCY                     `noun`    {- OanoqaY -}          [ unwords [ "purer", "/", "purest" ], unwords [ "cleaner", "/", "cleanest" ], "purest", "cleanest" ],
+    HaFCY                     `adj`     {- OanoqaY -}          [ unwords [ "purer", "/", "purest" ], unwords [ "cleaner", "/", "cleanest" ], "purest", "cleanest" ],
 
     TaFCI |< aT               `noun`    {- tanoqiyap -}        [ "purification", "cleansing" ],
 

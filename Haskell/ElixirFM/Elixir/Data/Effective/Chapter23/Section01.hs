@@ -514,9 +514,9 @@ cluster_8   = listing "Lexicon's properties"
 
     IFtaCaL                   `verb`    {- Ailotafat -}        [ unwords [ "turn", "around" ], "heed", "consider" ],
 
-    HaFCaL                    `noun`    {- Oalofat -}          [ unwords [ "left", "-", "handed" ] ]
+    HaFCaL                    `adj`     {- Oalofat -}          [ unwords [ "left", "-", "handed" ] ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     FACiL                     `adj`     {- lAfit -}            [ "attracting", "turning" ],
 

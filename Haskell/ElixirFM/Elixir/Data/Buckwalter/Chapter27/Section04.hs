@@ -889,7 +889,7 @@ cluster_77  = listing "Lexicon's properties"
 
     FaCA' |< Iy               `adj`     {- warA}iy~ -}         [ "rear", "back" ],
 
-    HaFCY                     `noun`    {- OaworaY -}          [ unwords [ "hiding", "better" ] ],
+    HaFCY                     `adj`     {- OaworaY -}          [ unwords [ "hiding", "better" ] ],
 
     TaFCI |< aT               `noun`    {- taworiyap -}        [ "hiding", "dissimulation" ] ]
 
@@ -933,7 +933,7 @@ cluster_78  = listing "Lexicon's properties"
 
     HaFCaL                    `adj`     {- OawosaT -}          [ "middle", "central" ]
                               `plural`     HaFACiL
-                              `plural`     FuCLY |< At,
+                              `femini`     FuCLY,
 
     HaFCaL |< Iy              `adj`     {- OawosaTiy~ -}       [ "Middle" ],
 

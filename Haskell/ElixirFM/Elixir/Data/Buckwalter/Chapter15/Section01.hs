@@ -469,9 +469,9 @@ cluster_9   = listing "Lexicon's properties"
 
     MaFCUL                    `adj`     {- maDobuwT -}         [ "controlled", "regulated", "accurate", "precise" ],
 
-    HaFCaL                    `noun`    {- OaDobaT -}          [ "ambidextrous" ]
-                              `plural`     FaCLA'
-                              `plural`     FuCL,
+    HaFCaL                    `adj`     {- OaDobaT -}          [ "ambidextrous" ]
+                              `plural`     FuCL
+                              `femini`     FaCLA',
 
     MaFCaL |< aT              `noun`    {- maDobaTap -}        [ "minutes", "statement" ]
                               `plural`     MaFACiL,

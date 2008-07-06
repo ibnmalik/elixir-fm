@@ -441,7 +441,7 @@ cluster_28  = listing "Lexicon's properties"
 
  |> "f ` w" <| [
 
-    HaFCY                     `noun`    {- OafoEaY -}          [ "viper" ]
+    HaFCY                     `adj`     {- OafoEaY -}          [ "viper" ]
                               `plural`     HaFACI,
 
     MaFCY |< aT               `noun`    {- mafoEAp -}          [ unwords [ "den", "of", "vipers" ], unwords [ "viper", "dens" ] ]
@@ -860,8 +860,8 @@ cluster_37  = listing "Lexicon's properties"
 
     FaCCAL |< Iy              `adj`     {- fal~AHiy~ -}        [ "peasant" ],
 
-    HaFCaL                    `noun`    {- OafolaH -}          [ unwords [ "with", "cracked", "lower", "lip" ] ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OafolaH -}          [ unwords [ "with", "cracked", "lower", "lip" ] ]
+                              `femini`     FaCLA',
 
     FACiL                     `adj`     {- fAliH -}            [ "fortunate", "successful" ],
 

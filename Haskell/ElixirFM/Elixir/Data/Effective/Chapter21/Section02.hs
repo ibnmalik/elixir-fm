@@ -431,7 +431,7 @@ cluster_28  = listing "Lexicon's properties"
 
     FuCAL |< aT               `noun`    {- qurAbap -}          [ "almost", "nearly" ],
 
-    HaFCaL                    `noun`    {- Oaqorab -}          [ "soonest", unwords [ "nearer", "/", "nearest" ], unwords [ "more", "/", "most", "likely" ], "relatives", unwords [ "extended", "family" ] ]
+    HaFCaL                    `adj`     {- Oaqorab -}          [ "soonest", unwords [ "nearer", "/", "nearest" ], unwords [ "more", "/", "most", "likely" ], "relatives", unwords [ "extended", "family" ] ]
                               `plural`     HaFACiL
                               `plural`     HaFCaL |< Un,
 
@@ -700,7 +700,7 @@ cluster_33  = listing "Lexicon's properties"
 
     HaFCY                     `verb`    {- OaqosaY -}          [ "harden", unwords [ "make", "stubborn" ], unwords [ "make", "hard", "-", "hearted" ], unwords [ "be", "made", "stubborn" ], unwords [ "be", "made", "hard", "-", "hearted" ] ],
 
-    HaFCY                     `noun`    {- OaqosaY -}          [ "harshest", "cruelest" ],
+    HaFCY                     `adj`     {- OaqosaY -}          [ "harshest", "cruelest" ],
 
     FACI                      `adj`     {- qAsiy -}            [ "harsh", "cruel", "brutal" ]
                               `plural`     FACI |< At ]
@@ -973,7 +973,7 @@ cluster_37  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- qawiy~ -}           [ "strong", "powerful" ]
                               `plural`     HaFCiLA',
 
-    HaFCY                     `noun`    {- OaqowaY -}          [ unwords [ "stronger", "/", "strongest" ], unwords [ "more", "/", "most", "powerful" ], "strongest", unwords [ "most", "powerful" ] ],
+    HaFCY                     `adj`     {- OaqowaY -}          [ unwords [ "stronger", "/", "strongest" ], unwords [ "more", "/", "most", "powerful" ], "strongest", unwords [ "most", "powerful" ] ],
 
     TaFCI |< aT               `noun`    {- taqowiyap -}        [ "strengthening", "consolidation", "reinforcement", unwords [ "seed", "for", "sowing" ] ]
                               `plural`     TaFACI,

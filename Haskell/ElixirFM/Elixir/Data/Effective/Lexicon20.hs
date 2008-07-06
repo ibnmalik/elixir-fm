@@ -714,8 +714,8 @@ cluster_13  = listing "Lexicon's properties"
 
     FaCCAL |< Iy              `adj`     {- fal~AHiy~ -}        [ "peasant" ],
 
-    HaFCaL                    `noun`    {- OafolaH -}          [ unwords [ "with", "cracked", "lower", "lip" ] ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- OafolaH -}          [ unwords [ "with", "cracked", "lower", "lip" ] ]
+                              `femini`     FaCLA' ]
 
  |> "f l b" <| [
 

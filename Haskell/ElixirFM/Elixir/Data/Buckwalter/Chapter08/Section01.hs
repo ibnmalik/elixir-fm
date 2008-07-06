@@ -558,9 +558,9 @@ cluster_10  = listing "Lexicon's properties"
 
  |> "d ` ^g" <| [
 
-    HaFCaL                    `noun`    {- OadoEaj -}          [ unwords [ "black", "-", "eyed" ] ]
+    HaFCaL                    `adj`     {- OadoEaj -}          [ unwords [ "black", "-", "eyed" ] ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "d ` `" <| [
 
@@ -698,7 +698,7 @@ cluster_13  = listing "Lexicon's properties"
 
     FiCA' |< Iy               `adj`     {- diEA}iy~ -}         [ "propagandistic" ],
 
-    HaFCY                     `noun`    {- OadoEaY -}          [ unwords [ "more", "/", "most", "conducive" ], unwords [ "more", "/", "most", "provoking" ], unwords [ "most", "conducive" ], unwords [ "most", "provoking" ] ],
+    HaFCY                     `adj`     {- OadoEaY -}          [ unwords [ "more", "/", "most", "conducive" ], unwords [ "more", "/", "most", "provoking" ], unwords [ "most", "conducive" ], unwords [ "most", "provoking" ] ],
 
     FaCAL |< aT               `noun`    {- daEAwap -}          [ "propaganda", "publicity" ],
 

@@ -86,13 +86,13 @@ cluster_22  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- laxan -}            [ unwords [ "putrid", "stench" ] ],
 
-    HaFCaL                    `noun`    {- Oaloxan -}          [ "stinking" ]
+    HaFCaL                    `adj`     {- Oaloxan -}          [ "stinking" ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
-    HaFCaL                    `noun`    {- Oaloxan -}          [ "uncircumcised" ]
+    HaFCaL                    `adj`     {- Oaloxan -}          [ "uncircumcised" ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "l _h s" <| [
 
@@ -107,9 +107,9 @@ cluster_22  = listing "Lexicon's properties"
 
     FuCL |< aT                `noun`    {- luvogap -}          [ "lisping" ],
 
-    HaFCaL                    `noun`    {- Oalovag -}          [ "lisper" ]
+    HaFCaL                    `adj`     {- Oalovag -}          [ "lisper" ]
                               `plural`     FuCL
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> "l _t _t" <| [
 
@@ -289,8 +289,8 @@ cluster_25  = listing "Lexicon's properties"
 
  |> "l ` s" <| [
 
-    HaFCaL                    `noun`    {- OaloEas -}          [ unwords [ "red", "-", "lipped" ] ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- OaloEas -}          [ unwords [ "red", "-", "lipped" ] ]
+                              `femini`     FaCLA' ]
 
  |> "l b '" <| [
 
@@ -813,8 +813,8 @@ cluster_36  = listing "Lexicon's properties"
 
     FaCIL |< aT               `noun`    {- lafiyfap -}         [ "bundle", "package" ],
 
-    HaFaCL                    `noun`    {- Oalaf~ -}           [ "stout", "short" ]
-                              `plural`     FaCLA',
+    HaFaCL                    `adj`     {- Oalaf~ -}           [ "stout", "short" ]
+                              `femini`     FaCLA',
 
     MiFaCL                    `noun`    {- milaf~ -}           [ "file", "dossier" ],
 
@@ -892,9 +892,9 @@ cluster_38  = listing "Lexicon's properties"
 
     FaCUL                     `adj`     {- lafuwt -}           [ "sullen", unwords [ "ill", "-", "tempered" ] ],
 
-    HaFCaL                    `noun`    {- Oalofat -}          [ unwords [ "left", "-", "handed" ] ]
+    HaFCaL                    `adj`     {- Oalofat -}          [ unwords [ "left", "-", "handed" ] ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     IFtiCAL |< aT             `noun`    {- AilotifAtap -}      [ "turn", "glance" ],
 

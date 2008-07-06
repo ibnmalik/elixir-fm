@@ -76,8 +76,8 @@ cluster_62  = listing "Lexicon's properties"
     FaCL |< Iy                `adj`     {- faroEiy~ -}         [ unwords [ "sub", "-", "branch" ], "subdivisional", unwords [ "sub", "-", "sectional" ] ],
 
     HaFCaL                    `adj`     {- OaforaE -}          [ "tall", "slender" ]
-                              `plural`     FaCLA'
-                              `plural`     FACiL |< aT,
+                              `plural`     FACiL |< aT
+                              `femini`     FaCLA',
 
     TaFCIL                    `noun`    {- taforiyE -}         [ "derivation", "ramification", "shunting" ]
                               `plural`     TaFCIL |< At,

@@ -562,8 +562,8 @@ cluster_30  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- xafa$ -}            [ unwords [ "day", "blindness" ] ],
 
-    HaFCaL                    `noun`    {- Oaxofa$ -}          [ unwords [ "day", "blind" ], unwords [ "weak", "-", "sighted" ] ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oaxofa$ -}          [ unwords [ "day", "blind" ], unwords [ "weak", "-", "sighted" ] ]
+                              `femini`     FaCLA',
 
     FuCCAL                    `noun`    {- xuf~A$ -}           [ "bat" ]
                               `plural`     FaCACIL ]

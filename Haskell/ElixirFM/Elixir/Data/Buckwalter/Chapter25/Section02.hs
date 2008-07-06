@@ -572,8 +572,8 @@ cluster_30  = listing "Lexicon's properties"
 
     FaCIL                     `noun`    {- najiyl -}           [ unwords [ "couch", "grass" ], "quitch" ],
 
-    HaFCaL                    `noun`    {- Oanojal -}          [ unwords [ "wide", "-", "eyed" ], "gaping" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- Oanojal -}          [ unwords [ "wide", "-", "eyed" ], "gaping" ]
+                              `femini`     FaCLA',
 
     MiFCaL                    `noun`    {- minojal -}          [ "scythe", "sickle" ]
                               `plural`     MaFACiL,

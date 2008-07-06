@@ -150,8 +150,8 @@ cluster_63  = listing "Lexicon's properties"
     FaCaL                     `noun`    {- gayad -}            [ "flexibility", "elasticity" ],
 
     HaFCaL                    `adj`     {- Oagoyad -}          [ "flexible", "delicate" ]
-                              `plural`     FaCLA'
-                              `plural`     FIL,
+                              `plural`     FIL
+                              `femini`     FaCLA',
 
     TaFACaL                   `verb`    {- tagAyad -}          [ unwords [ "walk", "gracefully" ] ],
 
@@ -223,7 +223,7 @@ cluster_64  = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- gayonap -}          [ "dimple" ],
 
     HaFCaL                    `adj`     {- Oagoyan -}          [ "bushy", "dense" ]
-                              `plural`     FaCLA' ]
+                              `femini`     FaCLA' ]
 
  |> ".g y n y" <| [
 

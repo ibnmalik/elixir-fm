@@ -537,7 +537,7 @@ cluster_71  = listing "Lexicon's properties"
 
     FaCY |< aT                `noun`    {- qanAp -}            [ "Qanat" ],
 
-    HaFCY                     `noun`    {- OaqonaY -}          [ "bent", "crooked", "hooked" ],
+    HaFCY                     `adj`     {- OaqonaY -}          [ "bent", "crooked", "hooked" ],
 
     IFtiCA'                   `noun`    {- AiqotinA' -}        [ "purchase", "acquisition" ]
                               `plural`     IFtiCA' |< At,
@@ -952,8 +952,8 @@ cluster_78  = listing "Lexicon's properties"
     FaCIL |< aT               `noun`    {- qariyEap -}         [ "elite", "cream" ]
                               `plural`     FaCA'iL,
 
-    HaFCaL                    `noun`    {- OaqoraE -}          [ "bald", "bare" ]
-                              `plural`     FaCLA',
+    HaFCaL                    `adj`     {- OaqoraE -}          [ "bald", "bare" ]
+                              `femini`     FaCLA',
 
     FuCL                      `noun`    {- quroE -}            [ "bald" ],
 
@@ -1048,7 +1048,7 @@ cluster_79  = listing "Lexicon's properties"
 
     FuCAL |< aT               `noun`    {- qurAbap -}          [ "almost", "nearly" ],
 
-    HaFCaL                    `noun`    {- Oaqorab -}          [ "soonest", unwords [ "nearer", "/", "nearest" ], unwords [ "more", "/", "most", "likely" ], "relatives", unwords [ "extended", "family" ] ]
+    HaFCaL                    `adj`     {- Oaqorab -}          [ "soonest", unwords [ "nearer", "/", "nearest" ], unwords [ "more", "/", "most", "likely" ], "relatives", unwords [ "extended", "family" ] ]
                               `plural`     HaFACiL
                               `plural`     HaFCaL |< Un,
 

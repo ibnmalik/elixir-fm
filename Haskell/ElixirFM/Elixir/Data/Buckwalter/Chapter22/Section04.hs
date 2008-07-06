@@ -281,7 +281,7 @@ cluster_65  = listing "Lexicon's properties"
 
  |> "k t `" <| [
 
-    HaFCaL                    `noun`    {- OakotaE -}          [ unwords [ "one", "-", "armed" ], "crippled" ]
+    HaFCaL                    `adj`     {- OakotaE -}          [ unwords [ "one", "-", "armed" ], "crippled" ]
                               `plural`     FuCL ]
 
 
@@ -402,9 +402,9 @@ cluster_67  = listing "Lexicon's properties"
     FiCAL                     `noun`    {- kitAf -}            [ "shackle", "handcuff" ]
                               `plural`     FuCuL,
 
-    HaFCaL                    `noun`    {- Oakotaf -}          [ unwords [ "broad", "-", "shouldered" ] ]
+    HaFCaL                    `adj`     {- Oakotaf -}          [ unwords [ "broad", "-", "shouldered" ] ]
                               `plural`     FuCL
-                              `plural`     FaCLA',
+                              `femini`     FaCLA',
 
     TaFACuL                   `noun`    {- takAtuf -}          [ "solidarity" ]
                               `plural`     TaFACuL |< At,

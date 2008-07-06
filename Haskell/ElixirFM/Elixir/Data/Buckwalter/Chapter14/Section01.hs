@@ -128,7 +128,7 @@ cluster_2   = listing "Lexicon's properties"
                               `plural`     FaCA'iL,
 
     HaFCaL                    `adj`     {- OaSogar -}          [ unwords [ "smaller", "/", "smallest" ], unwords [ "younger", "/", "youngest" ], "minor" ]
-                              `plural`     FuCLY |< At,
+                              `femini`     FuCLY,
 
     TaFCIL                    `noun`    {- taSogiyr -}         [ "diminution", "reduction" ]
                               `plural`     TaFCIL |< At,
@@ -310,8 +310,8 @@ cluster_6   = listing "Lexicon's properties"
 
     FaCaL                     `adj`     {- SaHal -}            [ "raucous", "hoarse" ],
 
-    HaFCaL                    `noun`    {- OaSoHal -}          [ "raucous", "hoarse" ]
-                              `plural`     FaCLA' ]
+    HaFCaL                    `adj`     {- OaSoHal -}          [ "raucous", "hoarse" ]
+                              `femini`     FaCLA' ]
 
  |> ".s .h n" <| [
 
