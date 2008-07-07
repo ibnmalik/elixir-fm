@@ -195,10 +195,10 @@ instance Rules PatternT where
 
     -- Fischer (2002), par. 153, 93 ff, 99, etc.
 
-    isDiptote = flip elem [ HaFCaL, HACaL,
+    isDiptote = flip elem [ HaFCaL, HACaL, HaFCY, HaFaCL, HACY,
                             FaCLY,
                             FiCLY,
-                            FuCLY, FuCyY,
+                            FuCLY, FULY, FuCyY,
                             FaCaLY,
                             FaCALY,
                             FuCALY,

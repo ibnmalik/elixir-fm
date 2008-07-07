@@ -7701,13 +7701,13 @@ cluster_119 = listing "Lexicon's properties"
 
     Identity |<< "a"          `conj`    {- liOan~a -}          [ "because" ] ]
 
- |> "ll_ahumm" <| [
+ |> "l_ahumm" <| [
 
     al >| Identity |<< "a"    `noun`    {- All~`hum~a -}       [ "truly", "certainly", unwords [ "oh", "God", "!" ], unwords [ "dear", "God" ] ] ]
 
- |> "llah" <| [
+ |> "l_ah" <| [
 
-    al >| Identity            `prep`    {- All~ah -}           [ "Allah", "God", unwords [ "to", "/", "for", "God", "/", "Allah" ], unwords [ "by", "God", "/", "Allah" ] ] ]
+    al >| Identity            `noun`    {- All~ah -}           [ "Allah", "God", unwords [ "to", "/", "for", "God", "/", "Allah" ], unwords [ "by", "God", "/", "Allah" ] ] ]
 
  |> "ma'dub" <| [
 

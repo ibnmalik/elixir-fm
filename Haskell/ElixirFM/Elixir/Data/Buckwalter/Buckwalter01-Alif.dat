@@ -966,7 +966,7 @@ Ait~ixA*        NduAt   taking;adoption
 ;; mut~axa*_1
 mut~axa*        N-ap    taken;adopted
 ;
-;--- Axr
+; ;--- Axr
 ;; Wax~ar_1
 Oax~ar  PV      delay;postpone
 Wax~ir  IV_yu   delay;postpone
@@ -975,17 +975,14 @@ Wax~ar  IV_Pass_yu      be delayed;be postponed
 taOax~ar        PV_intr be delayed;be postponed
 taOax~ar        IV_intr be delayed;be postponed
 ;; |xar_1
-|xar    Nel     other;another;latest     [[|xar/NOUN]]
 |xar    Nel     other;another;latest     [[|xar/ADJ]]
-; sub-standard orthography:
-|xar    Nel     other;another;latest     [[|xar/ADJ]]
-|xar    Nuwn_Niyn       other;another;latest     [[|xar/NOUN]]
-|xar    Nuwn_Niyn       other;another;latest     [[|xar/ADJ]]
-;; OuxoraY_1
 OuxoraY N0      other;another     [[OuxorY/ADJ]]
 OuxorA  Nhy     other;another     [[OuxorA/ADJ]]
 Ouxoray NAn_Nayn        other;another     [[Ouxoray/ADJ]]
 Ouxoray NAt     others;another     [[Ouxoray/ADJ]]
+; sub-standard orthography:
+|xar    Nel     other;another;latest     [[|xar/ADJ]]
+|xar    Nuwn_Niyn       other;another;latest     [[|xar/ADJ]]
 ;; Ouxorawiy~_1
 Ouxorawiy~      Nall    eschatological     [[Ouxorawiy~/ADJ]]
 ;; Ouxorawiy~ap_1
@@ -4037,11 +4034,11 @@ Iil`hiy~        Nall    divine;godly;theological     [[Iil`hiy~/ADJ]]
 IilAhiy~        Nall    divine;godly;theological     [[IilAhiy~/ADJ]]
 ;; IilAhiy~At_1
 IilAhiy~        NAt     theology     [[IilAhiy~/NOUN]]
-;; All~ah_1
+;; All`h_1
 All~`h  FW-Wa   Allah;God    [[All~`h/NOUN_PROP]]
 lil~`hi FW-Wa   to/for God/Allah    [[li/PREP+All~`h/NOUN_PROP]]
 biAll~`hi       FW-Wa   by God/Allah        [[bi/PREP+All~`h/NOUN_PROP]]
-;; All~`hum~a_1
+;; All`hum~a_1
 All~`hum~a      FW-Wa   truly;certainly;oh God!;dear God
 ;; yAll~`h_1
 yAll~`h FW-Wa   let's go!     [[yAll~`h/INTERJ]]
@@ -5904,15 +5901,15 @@ OawA}il Ndip    early;beginning
 OawA}il Ndip    ancients
 ;; Oaw~al_2
 Oaw~al  Nall    first     [[Oaw~al/ADJ]]
-Oaw~aliy~       N-ap    first;foremost     [[Oaw~aliy~/ADJ]]
-;; Oaw~aliy~ap_1
-Oaw~aliy~       Nap     priority;precedence;primacy     [[Oaw~aliy~/NOUN]]
-;; OuwlaY_1
 OuwlaY  N0      first     [[OuwlY/ADJ]]
 OuwlA   Nhy     first     [[OuwlY/ADJ]]
 Ouwlay  NAn_Nayn        first     [[OuwlY/ADJ]]
 Ouwlay  NAt     first     [[OuwlY/ADJ]]
 Ouwal   N       first     [[Ouwal/ADJ]]
+;; Oaw~aliy~_1
+Oaw~aliy~       N-ap    first;foremost     [[Oaw~aliy~/ADJ]]
+;; Oaw~aliy~ap_1
+Oaw~aliy~       Nap     priority;precedence;primacy     [[Oaw~aliy~/NOUN]]
 ;; Ouw~ayol_1
 Ouw~ayol        N/ap    proton
 Ouway~il        N/ap    proton
