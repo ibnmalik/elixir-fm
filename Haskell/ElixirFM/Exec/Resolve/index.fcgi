@@ -58,7 +58,8 @@ sub pretty ($) {
     }
     else {
 	
-	return $q->table([ map { $q->Tr([ map { pretty_list($_) }
+	return $q->table({-cellspacing => 0}, 
+			 [ map { $q->Tr([ map { pretty_list($_) }
 					  
 					  split /\n/, $_ ]) } @word ]);
     }
@@ -103,7 +104,8 @@ sub pretty_tree {
 					    -title => "morphs of citation form"},   $info[2]),
 				   $q->div({-title => "lexical reference"},         $info[3]),
 				   
-				   $q->ul($q->li($q->table($q->Tr([ map { my @info = @{$_};
+				   $q->ul($q->li($q->table({-cellspacing => 0},
+							   $q->Tr([ map { my @info = @{$_};
 							 
 							 $info[1] = substr $info[1], 1, -1;
 							 
@@ -350,12 +352,6 @@ while ($q = new CGI::Fast) {
 	                 '-script' => [ # {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/listcollapse/listcollapse.js', '-type' => 'text/javascript'},
 					  {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/listexpander/listexpander.js', '-type' => 'text/javascript'} ]);
 
-    $start_form = $q->start_form('-method' => 'POST');
-
-  # $start_form =~ s/( action="[^"]+)"/$1#reply"/;
-
-    print $start_form;
-
 
     $q->param('data', '') unless defined $q->param('data');
     $q->param('view', '') unless defined $q->param('view');
@@ -386,18 +382,20 @@ while ($q = new CGI::Fast) {
 
     print $q->h2('Your Request');
 
+    print $q->start_form('-method' => 'POST');
+
     print encode "utf8", $q->table( {-border => 0},
 
-                Tr( {-align => 'left', -valign => 'middle'},
+                Tr( {-align => 'left'},
 
                     td( {-colspan => 3},
 
                         $q->textfield(  -name       =>  'text',
                                         -default    =>  $q->param('text'),
                                         -size       =>  50,
-                                        -maxlength  =>  50) ),
+                                        -maxlength  =>  60) ),
 
-                    td( {-colspan => 2},
+                    td( {-colspan => 2, -style => "vertical-align: middle; padding-left: 20px"},
 
 			$q->radio_group(-name       =>  'code',
                                         -values     =>  [ @enc_list ],
@@ -406,13 +404,13 @@ while ($q = new CGI::Fast) {
                                         -rows       =>  1,
                                         -columns    =>  scalar @enc_list) ) ),
 
-                Tr( {-align => 'left', -valign => 'middle'},
+                Tr( {-align => 'left'},
 
                     td({-align => 'left'},  $q->submit(-name => 'submit', -value => 'Resolve')),
                     td({-align => 'center'}, $q->reset('Reset')),
                     td({-align => 'right'}, $q->submit(-name => 'submit', -value => 'Example')),
 
-                    td({-align => 'left'}, 
+                    td({-align => 'left', -style => "vertical-align: middle; padding-left: 20px"}, 
 
 		       $q->checkbox_group( -name       =>  'data',
 					   -values     =>  [ 'Full Lexicon' ],
@@ -421,7 +419,7 @@ while ($q = new CGI::Fast) {
 					   -rows       =>  1,
 					   -columns    =>  1) ),
 
-                    td({-align => 'right'}, 
+                    td({-align => 'right', -style => "vertical-align: middle; padding-left: 20px"}, 
 
 		       $q->checkbox_group( -name       =>  'view',
 					   -values     =>  [ 'MorphoTrees' ],
@@ -432,7 +430,7 @@ while ($q = new CGI::Fast) {
     
     print $q->end_form();
 
-    print $q->br({-id => 'reply'});;
+    print $q->br();
 
     print $q->h2('ElixirFM Reply');
 

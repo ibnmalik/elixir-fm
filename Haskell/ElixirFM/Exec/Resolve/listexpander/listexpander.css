@@ -7,8 +7,8 @@
 .listexpander,
 .listexpander ul,
 .listexpander li{
-	margin:0;
-	padding:0;
+	margin:0px;
+	padding:0px;
 	list-style:none;
 }
 .listexpander ul{
@@ -17,7 +17,6 @@
 	If you do, Javascript disabled and CSS enabled browsers will not be able to use this list.
 	display:none;
 	*/ 
-        /*margin-left:10px;*/
 }
 .listexpander li{
 	line-height:150%;
@@ -29,17 +28,15 @@
 	width:100%;
 }
 
-
 .listexpander table {
     margin-left: 15px;
-    border: dotted 0pt;
-    border-spacing: 15px 0px;
+    border: 0px;
+    border-spacing: 0px;
 }
-.listexpander tr {
-    margin-bottom: 510pt;
-}
+
 .listexpander td {
-    margin: 100px;
+    padding-left: 15px;
+    padding-right: 0px;
 }
 
 .listexpander li.collapsed,

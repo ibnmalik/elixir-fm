@@ -7,10 +7,6 @@
     /* display: none; */
 }
 
-td.orth {
-    font-size: medium;
-}
-
 .xtag {
     font-family: Courier New;   
 }
@@ -37,14 +33,19 @@ body {
 }   
 
 table {
-    border-spacing: 10px 0px;
+    margin: 0px;
     margin-bottom: 10px;
+    border-spacing: 0px;
 }
 
 td {
+    border: 0px;
+    padding: 0px;
+    padding-right: 10px;
     font-size: medium;
     font-weight: normal;
     text-decoration: none;
+    vertical-align: baseline;
 }
 
 input {
