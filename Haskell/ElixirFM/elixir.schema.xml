@@ -108,6 +108,9 @@
                 <structure>
                     <!--<member name="plural" type="Plural.type" role="#CHILDNODES"/>-->
                     <member name="plural" type="Plural.type"/>
+                    <member name="femini">
+                        <list type="Morphs.type" ordered="1"/>
+                    </member>
                     <member name="number"><cdata format="any"/></member>
                 </structure>
             </element>

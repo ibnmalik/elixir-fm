@@ -5,11 +5,18 @@ use warnings;
 
 my $build = Module::Build->new(
     module_name         => 'ElixirFM',
-    license             => 'gpl',
+    license             => 'perl',
     dist_author         => 'Otakar Smrz <otakar smrz mff cuni cz>',
     dist_version_from   => 'lib/ElixirFM.pm',
+    requires       => {
+                           'perl'           => 5.008,
+                           'Encode::Arabic' => 0,
+                           'Encode::Mapper' => 0,
+    },
     build_requires => {
-        'Test::More' => 0,
+                           'Encode::Arabic' => 0,
+                           'Encode::Mapper' => 0,
+                           'Test::More'     => 0,
     },
     add_to_cleanup      => [ 'ElixirFM-*' ],
 );

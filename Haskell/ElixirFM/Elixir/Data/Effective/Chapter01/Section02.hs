@@ -527,7 +527,12 @@ cluster_28  = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- taOowiyl -}         [ "explanation", "interpretation" ]
                               `plural`     TaFCIL |< At,
 
-    FaCCaL                    `adj`     {- Oaw~al -}           [ "first", "foremost" ],
+    FaCCaL                    `adj`     {- Oaw~al -}           [ "first" ]
+                              `plural`     FuCaL
+                              `plural`     FaCCaL |< Un
+                              `plural`     FULY |< At,
+
+    FaCCaL |< Iy              `adj`     {- Oaw~aliy~ -}        [ "first", "foremost" ],
 
     FaCCaL |< Iy |< aT        `noun`    {- Oaw~aliy~ap -}      [ "priority", "precedence", "primacy" ],
 
@@ -559,13 +564,13 @@ cluster_28  = listing "Lexicon's properties"
                               `plural`     HACiL |< aT
                               `plural`     FACiL |< aT ]
 
- |> "' w t" <| [
-
-    FUL                       `noun`    {- Ouwt -}             [ "August" ] ]
-
 
 cluster_29  = listing "Lexicon's properties"
 
+
+ |> "' w t" <| [
+
+    FUL                       `noun`    {- Ouwt -}             [ "August" ] ]
 
  |> "' w t w" <| [
 

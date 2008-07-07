@@ -1358,23 +1358,37 @@ $Lexicon = {
     {
       'types' => {
         '\'A_har' => {
-          'Nuwn_Niyn' => 2
+          'Nuwn_Niyn' => 1
+        },
+        '\'u_hrA' => {
+          'Nhy' => 1
+        },
+        '\'u_hrY' => {
+          'NAt' => 1,
+          'N0' => 1,
+          'NAn_Nayn' => 1
         }
       },
       'entry' => '\'A_har',
       'form' => '\'A_har',
       'lines' => [
         ';; |xar_1',
-        '|xar    Nel     other;another;latest     [[|xar/NOUN]]',
         '|xar    Nel     other;another;latest     [[|xar/ADJ]]',
+        'OuxoraY N0      other;another     [[OuxorY/ADJ]]',
+        'OuxorA  Nhy     other;another     [[OuxorA/ADJ]]',
+        'Ouxoray NAn_Nayn        other;another     [[Ouxoray/ADJ]]',
+        'Ouxoray NAt     others;another     [[Ouxoray/ADJ]]',
         '|xar    Nel     other;another;latest     [[|xar/ADJ]]',
-        '|xar    Nuwn_Niyn       other;another;latest     [[|xar/NOUN]]',
         '|xar    Nuwn_Niyn       other;another;latest     [[|xar/ADJ]]'
       ],
       'patterns' => {
+        '\'u_hrA' => [],
         '\'A_har' => [
           'FACaL',
           'HACaL'
+        ],
+        '\'u_hrY' => [
+          'FuCLY'
         ]
       },
       'index' => '1',
@@ -1384,45 +1398,33 @@ $Lexicon = {
       'glosses' => [
         'other',
         'another',
-        'latest'
+        'latest',
+        'others'
       ],
       'orig' => '|xar',
       'prefix' => ''
     },
     {
-      'types' => {
-        '\'u_hrA' => {
-          'Nhy' => 1
-        },
-        '\'u_hrY' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => '\'u_hrY',
-      'form' => '\'u_hrY',
-      'lines' => [
-        ';; OuxoraY_1',
-        'OuxoraY N0      other;another     [[OuxorY/ADJ]]',
-        'OuxorA  Nhy     other;another     [[OuxorA/ADJ]]',
-        'Ouxoray NAn_Nayn        other;another     [[Ouxoray/ADJ]]',
-        'Ouxoray NAt     others;another     [[Ouxoray/ADJ]]'
-      ],
+      'types' => {},
+      'entry' => '\'A_har',
+      'form' => '\'A_har',
+      'lines' => [],
       'patterns' => {
         '\'u_hrA' => [],
+        '\'A_har' => [
+          'FACaL',
+          'HACaL'
+        ],
         '\'u_hrY' => [
           'FuCLY'
         ]
       },
       'index' => '1',
       'entity' => 'adj',
-      'morphs' => 'FuCLY',
+      'morphs' => 'HACaL',
       'suffix' => '',
-      'glosses' => [
-        'other',
-        'another',
-        'others'
-      ],
-      'orig' => 'OuxoraY',
+      'glosses' => [],
+      'orig' => '|xar',
       'prefix' => ''
     },
     {
@@ -1508,6 +1510,28 @@ $Lexicon = {
     {
       'types' => {},
       'entry' => '\'A_hir',
+      'form' => '\'A_hir',
+      'lines' => [],
+      'patterns' => {
+        '\'A_hir' => [
+          'HACiL',
+          'FACiL'
+        ],
+        '\'awA_hir' => [
+          'FawACiL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HACiL',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => '|xir',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'A_hir',
       'form' => '\'A_hiraT',
       'lines' => [
         ';; |xirap_1',
@@ -1521,6 +1545,20 @@ $Lexicon = {
       'glosses' => [
         'hereafter'
       ],
+      'orig' => '|xirap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'A_hir',
+      'form' => '\'A_hiraT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'HACiL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
       'orig' => '|xirap',
       'prefix' => ''
     },
@@ -13079,6 +13117,42 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'l_ah' => [
+    {
+      'types' => {
+        'lill_ahi' => {
+          'FW-Wa' => 1
+        },
+        'Alll_ah' => {
+          'FW-Wa' => 1
+        },
+        'biAlll_ahi' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => 'l_ah',
+      'form' => 'All_ah',
+      'lines' => [
+        ';; All`h_1',
+        'All~`h  FW-Wa   Allah;God    [[All~`h/NOUN_PROP]]',
+        'lil~`hi FW-Wa   to/for God/Allah    [[li/PREP+All~`h/NOUN_PROP]]',
+        'biAll~`hi       FW-Wa   by God/Allah        [[bi/PREP+All~`h/NOUN_PROP]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'prep',
+      'morphs' => 'al >| Identity',
+      'suffix' => '',
+      'glosses' => [
+        'Allah',
+        'God',
+        'to/for God/Allah',
+        'by God/Allah'
+      ],
+      'orig' => 'All`h',
+      'prefix' => 'al >| '
+    }
+  ],
   '\'irItr' => [
     {
       'types' => {
@@ -14570,6 +14644,38 @@ $Lexicon = {
         'electrode'
       ],
       'orig' => 'Iilikotruwd',
+      'prefix' => ''
+    }
+  ],
+  '\' _h r y' => [
+    {
+      'types' => {},
+      'entry' => '\'u_hrY',
+      'form' => '\'u_hrawiyy',
+      'lines' => [],
+      'patterns' => {
+        '\'u_hrawiyy' => []
+      },
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'KuRDY |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [],
+      'orig' => 'Ouxorawiy~',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'u_hrY',
+      'form' => '\'u_hrawiyyaT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'KuRDY |< Iy |< aT',
+      'suffix' => ' |< Iy |< aT',
+      'glosses' => [],
+      'orig' => 'Ouxorawiy~ap',
       'prefix' => ''
     }
   ],
@@ -37750,6 +37856,34 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  'l_ahumm' => [
+    {
+      'types' => {
+        'Alll_ahumma' => {
+          'FW-Wa' => 1
+        }
+      },
+      'entry' => 'l_ahumm',
+      'form' => 'All_ahumma',
+      'lines' => [
+        ';; All`hum~a_1',
+        'All~`hum~a      FW-Wa   truly;certainly;oh God!;dear God'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'al >| Identity |<< "a"',
+      'suffix' => ' |<< "a"',
+      'glosses' => [
+        'truly',
+        'certainly',
+        'oh God!',
+        'dear God'
+      ],
+      'orig' => 'All`hum~a',
+      'prefix' => 'al >| '
+    }
+  ],
   'yA\'ayyuhA' => [
     {
       'types' => {
@@ -37826,42 +37960,6 @@ $Lexicon = {
       ],
       'orig' => 'Ouwbik',
       'prefix' => ''
-    }
-  ],
-  'llah' => [
-    {
-      'types' => {
-        'lill_ahi' => {
-          'FW-Wa' => 1
-        },
-        'Alll_ah' => {
-          'FW-Wa' => 1
-        },
-        'biAlll_ahi' => {
-          'FW-Wa' => 1
-        }
-      },
-      'entry' => 'llah',
-      'form' => 'Alllah',
-      'lines' => [
-        ';; All~ah_1',
-        'All~`h  FW-Wa   Allah;God    [[All~`h/NOUN_PROP]]',
-        'lil~`hi FW-Wa   to/for God/Allah    [[li/PREP+All~`h/NOUN_PROP]]',
-        'biAll~`hi       FW-Wa   by God/Allah        [[bi/PREP+All~`h/NOUN_PROP]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'prep',
-      'morphs' => 'al >| Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Allah',
-        'God',
-        'to/for God/Allah',
-        'by God/Allah'
-      ],
-      'orig' => 'All~ah',
-      'prefix' => 'al >| '
     }
   ],
   '\'ar_turz' => [
@@ -45205,30 +45303,6 @@ $Lexicon = {
       ],
       'orig' => 'OanojliykAniy~',
       'prefix' => ''
-    }
-  ],
-  'll_ahumm' => [
-    {
-      'types' => {},
-      'entry' => 'll_ahumm',
-      'form' => 'Alll_ahumma',
-      'lines' => [
-        ';; All~`hum~a_1',
-        'All~`hum~a      FW-Wa   truly;certainly;oh God!;dear God'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'al >| Identity |<< "a"',
-      'suffix' => ' |<< "a"',
-      'glosses' => [
-        'truly',
-        'certainly',
-        'oh God!',
-        'dear God'
-      ],
-      'orig' => 'All~`hum~a',
-      'prefix' => 'al >| '
     }
   ],
   '\' s m r' => [
@@ -54278,11 +54352,19 @@ $Lexicon = {
     },
     {
       'types' => {
+        '\'uwal' => {
+          'N' => 1
+        },
         '\'awwal' => {
           'Nall' => 1
         },
-        '\'awwaliyy' => {
-          'N-ap' => 1
+        '\'uwlY' => {
+          'NAt' => 1,
+          'N0' => 1,
+          'NAn_Nayn' => 1
+        },
+        '\'uwlA' => {
+          'Nhy' => 1
         }
       },
       'entry' => '\'awwal',
@@ -54290,23 +54372,52 @@ $Lexicon = {
       'lines' => [
         ';; Oaw~al_2',
         'Oaw~al  Nall    first     [[Oaw~al/ADJ]]',
-        'Oaw~aliy~       N-ap    first;foremost     [[Oaw~aliy~/ADJ]]'
+        'OuwlaY  N0      first     [[OuwlY/ADJ]]',
+        'OuwlA   Nhy     first     [[OuwlY/ADJ]]',
+        'Ouwlay  NAn_Nayn        first     [[OuwlY/ADJ]]',
+        'Ouwlay  NAt     first     [[OuwlY/ADJ]]',
+        'Ouwal   N       first     [[Ouwal/ADJ]]'
       ],
       'patterns' => {
+        '\'uwal' => [
+          'FuCaL'
+        ],
         '\'awwal' => [
           'FaCCaL'
         ],
-        '\'awwaliyy' => []
+        '\'uwlY' => [
+          'FULY'
+        ],
+        '\'uwlA' => []
       },
       'index' => '2',
       'entity' => 'adj',
       'morphs' => 'FaCCaL',
       'suffix' => '',
       'glosses' => [
+        'first'
+      ],
+      'orig' => 'Oaw~al',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => '\'awwal',
+      'form' => '\'awwaliyy',
+      'lines' => [
+        ';; Oaw~aliy~_1',
+        'Oaw~aliy~       N-ap    first;foremost     [[Oaw~aliy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FaCCaL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
         'first',
         'foremost'
       ],
-      'orig' => 'Oaw~al',
+      'orig' => 'Oaw~aliy~',
       'prefix' => ''
     },
     {
@@ -54328,47 +54439,6 @@ $Lexicon = {
         'primacy'
       ],
       'orig' => 'Oaw~aliy~ap',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        '\'uwal' => {
-          'N' => 1
-        },
-        '\'uwlY' => {
-          'NAt' => 1
-        },
-        '\'uwlA' => {
-          'Nhy' => 1
-        }
-      },
-      'entry' => '\'uwlY',
-      'form' => '\'uwlY',
-      'lines' => [
-        ';; OuwlaY_1',
-        'OuwlaY  N0      first     [[OuwlY/ADJ]]',
-        'OuwlA   Nhy     first     [[OuwlY/ADJ]]',
-        'Ouwlay  NAn_Nayn        first     [[OuwlY/ADJ]]',
-        'Ouwlay  NAt     first     [[OuwlY/ADJ]]',
-        'Ouwal   N       first     [[Ouwal/ADJ]]'
-      ],
-      'patterns' => {
-        '\'uwal' => [
-          'FuCaL'
-        ],
-        '\'uwlY' => [
-          'FULY'
-        ],
-        '\'uwlA' => []
-      },
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'FULY',
-      'suffix' => '',
-      'glosses' => [
-        'first'
-      ],
-      'orig' => 'OuwlaY',
       'prefix' => ''
     },
     {
@@ -55321,6 +55391,15 @@ $Lexicon = {
     }
   ]
 };
+$Lexicon->{'\' _h r'}[3]{'types'} = $Lexicon->{'\' _h r'}[2]{'types'};
+$Lexicon->{'\' _h r'}[3]{'lines'} = $Lexicon->{'\' _h r'}[2]{'lines'};
+$Lexicon->{'\' _h r'}[3]{'glosses'} = $Lexicon->{'\' _h r'}[2]{'glosses'};
+$Lexicon->{'\' _h r'}[7]{'types'} = $Lexicon->{'\' _h r'}[6]{'types'};
+$Lexicon->{'\' _h r'}[7]{'lines'} = $Lexicon->{'\' _h r'}[6]{'lines'};
+$Lexicon->{'\' _h r'}[7]{'glosses'} = $Lexicon->{'\' _h r'}[6]{'glosses'};
+$Lexicon->{'\' _h r'}[9]{'types'} = $Lexicon->{'\' _h r'}[8]{'types'};
+$Lexicon->{'\' _h r'}[9]{'lines'} = $Lexicon->{'\' _h r'}[8]{'lines'};
+$Lexicon->{'\' _h r'}[9]{'glosses'} = $Lexicon->{'\' _h r'}[8]{'glosses'};
 $Lexicon->{'\' _t m'}[8]{'types'} = $Lexicon->{'\' _t m'}[7]{'types'};
 $Lexicon->{'\' _t m'}[8]{'lines'} = $Lexicon->{'\' _t m'}[7]{'lines'};
 $Lexicon->{'\' _t m'}[8]{'glosses'} = $Lexicon->{'\' _t m'}[7]{'glosses'};
@@ -55375,6 +55454,12 @@ $Lexicon->{'\' l m'}[9]{'glosses'} = $Lexicon->{'\' y l m'}[0]{'glosses'};
 $Lexicon->{'\' l m'}[10]{'types'} = $Lexicon->{'\' y l m'}[0]{'types'};
 $Lexicon->{'\' l m'}[10]{'lines'} = $Lexicon->{'\' y l m'}[0]{'lines'};
 $Lexicon->{'\' l m'}[10]{'glosses'} = $Lexicon->{'\' y l m'}[0]{'glosses'};
+$Lexicon->{'\' _h r y'}[0]{'types'} = $Lexicon->{'\' _h r'}[4]{'types'};
+$Lexicon->{'\' _h r y'}[0]{'lines'} = $Lexicon->{'\' _h r'}[4]{'lines'};
+$Lexicon->{'\' _h r y'}[0]{'glosses'} = $Lexicon->{'\' _h r'}[4]{'glosses'};
+$Lexicon->{'\' _h r y'}[1]{'types'} = $Lexicon->{'\' _h r'}[5]{'types'};
+$Lexicon->{'\' _h r y'}[1]{'lines'} = $Lexicon->{'\' _h r'}[5]{'lines'};
+$Lexicon->{'\' _h r y'}[1]{'glosses'} = $Lexicon->{'\' _h r'}[5]{'glosses'};
 $Lexicon->{'\' w n'}[8]{'types'} = $Lexicon->{'\' w n'}[7]{'types'};
 $Lexicon->{'\' w n'}[8]{'lines'} = $Lexicon->{'\' w n'}[7]{'lines'};
 $Lexicon->{'\' w n'}[8]{'glosses'} = $Lexicon->{'\' w n'}[7]{'glosses'};

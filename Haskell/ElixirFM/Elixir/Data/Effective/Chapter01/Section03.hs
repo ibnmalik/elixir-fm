@@ -354,10 +354,6 @@ cluster_45  = listing "Lexicon's properties"
 
     Identity |<< "a"          `conj`    {- liOan~a -}          [ "because" ] ]
 
- |> "llah" <| [
-
-    al >| Identity            `prep`    {- All~ah -}           [ "Allah", "God", unwords [ "to", "/", "for", "God", "/", "Allah" ], unwords [ "by", "God", "/", "Allah" ] ] ]
-
  |> "ma'dub" <| [
 
     Identity |< aT            `noun`    {- maOodubap -}        [ "banquet", "reception" ] ]

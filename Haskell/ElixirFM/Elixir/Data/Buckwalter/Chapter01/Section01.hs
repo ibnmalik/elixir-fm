@@ -767,10 +767,13 @@ cluster_14  = listing "Lexicon's properties"
 
     FACaL                     `adj`     {- \|xar -}            [ "other", "another", "latest" ]
                               `plural`     FACaL |< Un
-                              `plural`     HACaL |< Un,
-
-    FuCLY                     `adj`     {- OuxoraY -}          [ "other", "another" ]
+                              `plural`     HACaL |< Un
                               `plural`     FuCLY |< At,
+
+    HACaL                     `adj`     {- \|xar -}            [ "other", "another", "latest" ]
+                              `plural`     FACaL |< Un
+                              `plural`     HACaL |< Un
+                              `femini`     FuCLY,
 
     FuCLY |< Iy               `adj`     {- Ouxorawiy~ -}       [ "eschatological" ],
 
@@ -782,7 +785,15 @@ cluster_14  = listing "Lexicon's properties"
                               `plural`     FACiL |< Un
     `derives` "------F---",
 
+    HACiL                     `noun`    {- \|xir -}            [ "last", "end" ]
+                              `plural`     FawACiL
+                              `plural`     HACiL |< Un
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
+
     FACiL |< aT               `noun`    {- \|xirap -}          [ "hereafter" ],
+
+    HACiL |< aT               `noun`    {- \|xirap -}          [ "hereafter" ],
 
     FaCIL                     `adj`     {- Oaxiyr -}           [ "last", "latest", "recent", "latter" ],
 
@@ -824,9 +835,19 @@ cluster_14  = listing "Lexicon's properties"
 cluster_15  = listing "Lexicon's properties"
 
 
+ |> "' _h r y" <| [
+
+    KuRDY |< Iy               `adj`     {- Ouxorawiy~ -}       [ "eschatological" ],
+
+    KuRDY |< Iy |< aT         `noun`    {- Ouxorawiy~ap -}     [ "eschatology" ] ]
+
  |> "' _h t" <| [
 
     FuCL                      `noun`    {- Ouxot -}            [ "sister", "counterpart" ] ]
+
+
+cluster_16  = listing "Lexicon's properties"
+
 
  |> "' _h w" <| [
 
@@ -878,7 +899,7 @@ cluster_15  = listing "Lexicon's properties"
     KaRADIS                   `adj`     {- IaxAwiy~ -}         [ "fraternal" ] ]
 
 
-cluster_16  = listing "Lexicon's properties"
+cluster_17  = listing "Lexicon's properties"
 
 
  |> "' _h y" <| [
@@ -925,7 +946,7 @@ cluster_16  = listing "Lexicon's properties"
                               `plural`     FaCALI ]
 
 
-cluster_17  = listing "Lexicon's properties"
+cluster_18  = listing "Lexicon's properties"
 
 
  |> "' _t l" <| [
@@ -958,7 +979,7 @@ cluster_17  = listing "Lexicon's properties"
     `derives` "------F---" ]
 
 
-cluster_18  = listing "Lexicon's properties"
+cluster_19  = listing "Lexicon's properties"
 
 
  |> "' _t m" <| [
@@ -1003,7 +1024,7 @@ cluster_18  = listing "Lexicon's properties"
     KiRDiS                    `noun`    {- Iivomid -}          [ "antimony" ] ]
 
 
-cluster_19  = listing "Lexicon's properties"
+cluster_20  = listing "Lexicon's properties"
 
 
  |> "' _t r" <| [
@@ -1083,64 +1104,6 @@ cluster_19  = listing "Lexicon's properties"
     `derives` "------F---",
 
     MutaFaCCiL                `adj`     {- mutaOav~ir -}       [ "influenced", "affected" ] ]
-
-
-cluster_20  = listing "Lexicon's properties"
-
-
- |> "' _t y b" <| [
-
-    KaRDUS |< Iy              `adj`     {- Oavoyuwbiy~ -}      [ "Ethiopian" ] ]
-
- |> "' b '" <| [
-
-    HACAL                     `noun`    {- \|bA' -}            [ "fathers", "ancestors" ],
-
-    FiCAL                     `noun`    {- IibA' -}            [ "refusal", "denial" ]
-                              `plural`     FiCAL |< At,
-
-    FiCAL |< aT               `noun`    {- IibA'ap -}          [ "refusal", "denial" ] ]
-
- |> "' b .d" <| [
-
-    FuCL                      `noun`    {- OuboD -}            [ unwords [ "knee", "pit" ] ]
-                              `plural`     HACAL,
-
-    MaFCiL                    `noun`    {- maOobiD -}          [ unwords [ "knee", "pit" ] ]
-                              `plural`     MaFACiL,
-
-    FuCL |< Iy                `adj`     {- OuboDiy~ -}         [ unwords [ "popliteal", "(", "armpit", ")" ] ],
-
-    MaFCiL |< Iy              `adj`     {- maOobiDiy~ -}       [ unwords [ "popliteal", "(", "armpit", ")" ] ],
-
-    FiCAL |< Iy               `adj`     {- IibADiy~ -}         [ "Ibadi" ],
-
-    FiCAL |< Iy |< aT         `noun`    {- IibADiy~ap -}       [ "Ibadites" ],
-
-    FaCAL |< Iy               `adj`     {- OabADiy~ -}         [ "Ibadi" ],
-
-    FaCAL |< Iy |< aT         `noun`    {- OabADiy~ap -}       [ "Ibadites" ] ]
-
- |> "' b .t" <| [
-
-    TaFaCCaL                  `verb`    {- taOab~aT -}         [ unwords [ "put", "/", "carry", "under", "the", "arm" ] ],
-
-    FiCL                      `noun`    {- IiboT -}            [ "armpit" ]
-                              `plural`     HACAL,
-
-    FiCL |< Iy                `adj`     {- IiboTiy~ -}         [ "axillary", "armpit" ] ]
-
- |> "' b ^g d" <| [
-
-    KaRDaS                    `noun`    {- Oabojad -}          [ "alphabet" ],
-
-    KaRDaS |< Iy              `adj`     {- Oabojadiy~ -}       [ "alphabetical", "elementary" ],
-
-    KaRDaS |< Iy |< aT        `noun`    {- Oabojadiy~ap -}     [ "alphabet" ] ]
-
- |> "' b ^s r" <| [
-
-    KaRDIS                    `noun`    {- Oabo$iyr -}         [ "Abshir" ] ]
 
 
 section = [ cluster_1,

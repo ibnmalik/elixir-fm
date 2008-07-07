@@ -125,11 +125,11 @@ instance (Show a, Pretty [a]) => Pretty (Entity a) where
     pretty x = case x of    Verb f p i c t v    ->  elemesp "Verb" $
     	       	      	    	       	
             					eraseEmpty f [ elemtxt "form"   [] $ (pretty . map show) f ]
-                                ++
-                                eraseEmpty p [ elemtxt "pfirst" [] $ (pretty . map show) p ]
-                                ++				
-                                eraseEmpty i [ elemtxt "imperf" [] $ (pretty . map show) i ]
-                                ++				
+                                                ++
+                                                eraseEmpty p [ elemtxt "pfirst" [] $ (pretty . map show) p ]
+                                                ++				
+                                                eraseEmpty i [ elemtxt "imperf" [] $ (pretty . map show) i ]
+                                                ++				
             					eraseEmpty c [ elemtxt "second" [] $ (pretty . map show) c ]
             					++
             					eraseNothing t [ elemtxt "tense" [] $ pretty t ]
@@ -138,20 +138,20 @@ instance (Show a, Pretty [a]) => Pretty (Entity a) where
 
                             Noun l g n d        ->  elemesp "Noun" $
 
-                                eraseEmpty   l [ elemtxt "plural" [] $ pretty l ]
-                                ++
-                                eraseNothing g [ elemtxt "gender" [] $ pretty g ]
-                                ++
-                                eraseNothing n [ elemtxt "number" [] $ pretty n ]
-                                ++
-                                eraseNothing d [ elemtxt "derive" [] $ pretty d ]
+                                                eraseEmpty   l [ elemtxt "plural" [] $ pretty l ]
+                                                ++
+                                                eraseNothing g [ elemtxt "gender" [] $ pretty g ]
+                                                ++
+                                                eraseNothing n [ elemtxt "number" [] $ pretty n ]
+                                                ++
+                                                eraseNothing d [ elemtxt "derive" [] $ pretty d ]
 
                             Adj  l f n          ->  elemesp "Adj" $
 
-            			    	eraseEmpty   l [ elemtxt "plural" [] $ pretty l ]
+                       			    	eraseEmpty   l [ elemtxt "plural" [] $ pretty l ]
             					++
-            			    	eraseEmpty   l [ elemtxt "femini" [] $ pretty l ]
-            					++
+            			    	        eraseEmpty   f [ elemtxt "femini" [] $ pretty f ]
+               					++
             					eraseNothing n [ elemtxt "number" [] $ pretty n ]
 
                             Prep                ->  elemesp "Prep" []

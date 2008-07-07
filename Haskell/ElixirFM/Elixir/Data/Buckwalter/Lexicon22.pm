@@ -5744,14 +5744,32 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
+      'types' => {
+        'kubrA' => {
+          'Nhy' => 1
+        },
+        'kubrY' => {
+          'NAt' => 1,
+          'N0' => 1,
+          'NAn_Nayn' => 1
+        }
+      },
       'entry' => '\'akbar',
       'form' => '\'akbar',
       'lines' => [
         ';; Oakobar_2',
-        'Oakobar Nel     larger/largest;greater/greatest     [[Oakobar/ADJ]]'
+        'Oakobar Nel     larger/largest;greater/greatest     [[Oakobar/ADJ]]',
+        'kuboraY N0      larger/largest;greater/greatest     [[kuborY/ADJ]]',
+        'kuborA  Nhy     larger/largest;greater/greatest     [[kuborA/ADJ]]',
+        'kuboray NAn_Nayn        larger/largest;greater/greatest     [[kuboray/ADJ]]',
+        'kuboray NAt     larger/largest;greater/greatest     [[kuboray/ADJ]]'
       ],
-      'patterns' => {},
+      'patterns' => {
+        'kubrA' => [],
+        'kubrY' => [
+          'FuCLY'
+        ]
+      },
       'index' => '2',
       'entity' => 'adj',
       'morphs' => 'HaFCaL',
@@ -5814,59 +5832,33 @@ $Lexicon = {
       'prefix' => ''
     },
     {
-      'types' => {},
-      'entry' => 'kubrY',
-      'form' => 'kubrY',
+      'types' => {
+        'kubrY' => {
+          'N0' => 1
+        }
+      },
+      'entry' => '\'akbar',
+      'form' => '\'akbar',
       'lines' => [
-        ';; kuboraY_1',
+        ';; Oakobar_5',
+        'Oakobar Nel     great;major;significant     [[Oakobar/ADJ]]',
         'kuboraY N0      great;major;significant     [[kuborY/ADJ]]'
       ],
-      'patterns' => {},
-      'index' => '1',
+      'patterns' => {
+        'kubrY' => [
+          'FuCLY'
+        ]
+      },
+      'index' => '5',
       'entity' => 'adj',
-      'morphs' => 'FuCLY',
+      'morphs' => 'HaFCaL',
       'suffix' => '',
       'glosses' => [
         'great',
         'major',
         'significant'
       ],
-      'orig' => 'kuboraY',
-      'prefix' => ''
-    },
-    {
-      'types' => {
-        'kubrA' => {
-          'Nhy' => 1
-        },
-        'kubrY' => {
-          'NAt' => 1
-        }
-      },
-      'entry' => 'kubrY',
-      'form' => 'kubrY',
-      'lines' => [
-        ';; kuboraY_2',
-        'kuboraY N0      larger/largest;greater/greatest     [[kuborY/ADJ]]',
-        'kuborA  Nhy     larger/largest;greater/greatest     [[kuborA/ADJ]]',
-        'kuboray NAn_Nayn        larger/largest;greater/greatest     [[kuboray/ADJ]]',
-        'kuboray NAt     larger/largest;greater/greatest     [[kuboray/ADJ]]'
-      ],
-      'patterns' => {
-        'kubrA' => [],
-        'kubrY' => [
-          'FuCLY'
-        ]
-      },
-      'index' => '2',
-      'entity' => 'adj',
-      'morphs' => 'FuCLY',
-      'suffix' => '',
-      'glosses' => [
-        'larger/largest',
-        'greater/greatest'
-      ],
-      'orig' => 'kuboraY',
+      'orig' => 'Oakobar',
       'prefix' => ''
     },
     {

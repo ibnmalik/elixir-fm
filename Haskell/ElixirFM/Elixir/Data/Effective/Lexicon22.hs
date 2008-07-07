@@ -254,13 +254,13 @@ cluster_5   = listing "Lexicon's properties"
     HaFCaL                    `adj`     {- Oakobar -}          [ unwords [ "larger", "/", "largest" ], unwords [ "greater", "/", "greatest" ] ]
                               `femini`     FuCLY,
 
-    HaFCaL                    `adj`     {- Oakobar -}          [ "great", "major", "significant" ]
-                              `femini`     FuCLY,
-
     HaFCaL                    `adj`     {- Oakobar -}          [ "senior", "important", "leaders" ]
                               `plural`     HaFACiL,
 
     HaFCaL                    `noun`    {- Oakobar -}          [ "Akbar" ],
+
+    HaFCaL                    `adj`     {- Oakobar -}          [ "great", "major", "significant" ]
+                              `femini`     FuCLY,
 
     TaFCIL                    `noun`    {- takobiyr -}         [ "increase", "amplification", "enlargement" ]
                               `plural`     TaFCIL |< At,
@@ -308,14 +308,14 @@ cluster_5   = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- kadomap -}          [ "bite", "wound", "bruise" ]
                               `plural`     FaCaL |< At ]
 
-
-cluster_6   = listing "Lexicon's properties"
-
-
  |> "k d r" <| [
 
     FACiL                     `noun`    {- kAdir -}            [ "cadre", "functionaries", "staff" ]
                               `plural`     FawACiL ]
+
+
+cluster_6   = listing "Lexicon's properties"
+
 
  |> "k d y" <| [
 

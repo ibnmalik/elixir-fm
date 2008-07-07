@@ -327,20 +327,23 @@ cluster_6   = listing "Lexicon's properties"
 
     TaFaCCaL                  `verb`    {- taOax~ar -}         [ unwords [ "be", "delayed" ], unwords [ "be", "postponed" ] ],
 
+    FACaL                     `adj`     {- \|xar -}            [ "other", "another", "latest" ]
+                              `plural`     FACaL |< Un
+                              `plural`     HACaL |< Un
+                              `plural`     FuCLY |< At,
+
     HACaL                     `adj`     {- \|xar -}            [ "other", "another", "latest" ]
+                              `plural`     FACaL |< Un
                               `plural`     HACaL |< Un
                               `femini`     FuCLY,
 
-{-                                           
-    FACaL                     `adj`     {- \|xar -}            [ "other", "another", "latest" ]
-                              `plural`     FACaL |< Un
-                              `plural`     HACaL |< Un,
-
-    FuCLY                     `adj`     {- OuxoraY -}          [ "other", "another" ]
-                              `plural`     FuCLY |< At,
--}
-
     FACiL                     `noun`    {- \|xir -}            [ "last", "end" ]
+                              `plural`     FawACiL
+                              `plural`     HACiL |< Un
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
+
+    HACiL                     `noun`    {- \|xir -}            [ "last", "end" ]
                               `plural`     FawACiL
                               `plural`     HACiL |< Un
                               `plural`     FACiL |< Un
@@ -1799,21 +1802,14 @@ cluster_28  = listing "Lexicon's properties"
     TaFCIL                    `noun`    {- taOowiyl -}         [ "explanation", "interpretation" ]
                               `plural`     TaFCIL |< At,
 
-{-
-    FaCCaL                    `adj`     {- Oaw~al -}           [ "first", "foremost" ],
--}
-
-    FaCCaL                    `adj`     {- Oaw~al -}           [ "first", "foremost" ]
+    FaCCaL                    `adj`     {- Oaw~al -}           [ "first" ]
                               `plural`     FuCaL
-                              `femini`     FULY,
+                              `plural`     FaCCaL |< Un
+                              `plural`     FULY |< At,
+
+    FaCCaL |< Iy              `adj`     {- Oaw~aliy~ -}        [ "first", "foremost" ],
 
     FaCCaL |< Iy |< aT        `noun`    {- Oaw~aliy~ap -}      [ "priority", "precedence", "primacy" ],
-
-{-
-    FULY                      `adj`     {- OuwlaY -}           [ "first" ]
-                              `plural`     FuCaL
-                              `plural`     FULY |< At,
--}
 
     FAL                       `noun`    {- \|l -}              [ "family", "clan" ],
 
@@ -1843,13 +1839,13 @@ cluster_28  = listing "Lexicon's properties"
                               `plural`     HACiL |< aT
                               `plural`     FACiL |< aT ]
 
- |> "' w t" <| [
-
-    FUL                       `noun`    {- Ouwt -}             [ "August" ] ]
-
 
 cluster_29  = listing "Lexicon's properties"
 
+
+ |> "' w t" <| [
+
+    FUL                       `noun`    {- Ouwt -}             [ "August" ] ]
 
  |> "' w t w" <| [
 
@@ -3145,10 +3141,6 @@ cluster_45  = listing "Lexicon's properties"
  |> "li'ann" <| [
 
     Identity |<< "a"          `conj`    {- liOan~a -}          [ "because" ] ]
-
- |> "l_ah" <| [
-
-    al >| Identity            `noun`    {- All~ah -}           [ "Allah", "God", unwords [ "to", "/", "for", "God", "/", "Allah" ], unwords [ "by", "God", "/", "Allah" ] ] ]
 
  |> "ma'dub" <| [
 

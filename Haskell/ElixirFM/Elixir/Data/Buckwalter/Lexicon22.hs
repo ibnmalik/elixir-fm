@@ -806,13 +806,13 @@ cluster_15  = listing "Lexicon's properties"
     HaFCaL                    `adj`     {- Oakobar -}          [ unwords [ "larger", "/", "largest" ], unwords [ "greater", "/", "greatest" ] ]
                               `femini`     FuCLY,
 
-    HaFCaL                    `adj`     {- Oakobar -}          [ "great", "major", "significant" ]
-                              `femini`     FuCLY,
-
     HaFCaL                    `adj`     {- Oakobar -}          [ "senior", "important", "leaders" ]
                               `plural`     HaFACiL,
 
     HaFCaL                    `noun`    {- Oakobar -}          [ "Akbar" ],
+
+    HaFCaL                    `adj`     {- Oakobar -}          [ "great", "major", "significant" ]
+                              `femini`     FuCLY,
 
     FiCLiyA'                  `noun`    {- kiboriyA' -}        [ "arrogance" ]
                               `plural`     MuFACaL |< At,

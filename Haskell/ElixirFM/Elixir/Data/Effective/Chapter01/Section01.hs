@@ -329,12 +329,21 @@ cluster_6   = listing "Lexicon's properties"
 
     FACaL                     `adj`     {- \|xar -}            [ "other", "another", "latest" ]
                               `plural`     FACaL |< Un
-                              `plural`     HACaL |< Un,
-
-    FuCLY                     `adj`     {- OuxoraY -}          [ "other", "another" ]
+                              `plural`     HACaL |< Un
                               `plural`     FuCLY |< At,
 
+    HACaL                     `adj`     {- \|xar -}            [ "other", "another", "latest" ]
+                              `plural`     FACaL |< Un
+                              `plural`     HACaL |< Un
+                              `femini`     FuCLY,
+
     FACiL                     `noun`    {- \|xir -}            [ "last", "end" ]
+                              `plural`     FawACiL
+                              `plural`     HACiL |< Un
+                              `plural`     FACiL |< Un
+    `derives` "------F---",
+
+    HACiL                     `noun`    {- \|xir -}            [ "last", "end" ]
                               `plural`     FawACiL
                               `plural`     HACiL |< Un
                               `plural`     FACiL |< Un

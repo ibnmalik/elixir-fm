@@ -1,6 +1,7 @@
 Build.PL
 Changes
 lib/ElixirFM.pm
+lib/ElixirFM/Data/Lexicon.pm
 Makefile.PL
 MANIFEST
 META.yml
