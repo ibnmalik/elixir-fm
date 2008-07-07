@@ -1004,7 +1004,7 @@ cluster_77  = listing "Lexicon's properties"
     FaCCaL                    `adj`     {- Oaw~al -}           [ "first" ]
                               `plural`     FuCaL
                               `plural`     FaCCaL |< Un
-                              `plural`     FULY |< At,
+                              `femini`     FULY,
 
     FaCCaL |< Iy              `adj`     {- Oaw~aliy~ -}        [ "first", "foremost" ],
 

@@ -548,13 +548,13 @@ sub showEntry ($) {
                               @{$entry->{'patterns'}->{$form}} == 0 && $form eq $entry->{'form'} 
                               ? ($entry->{'morphs'}) : @{$entry->{'patterns'}->{$form}};
 
-            if ($entry->{'morphs'} =~ /^(?:HaFCaL|HACaL|HaFCY|HaFaCL|HACY)$/) {
+            if ($entry->{'morphs'} =~ /^(?:HaFCaL|HACaL|HaFCY|HaFaCL|HACY|FaCCaL)$/) {
 
-                $entry->{'entity'} = 'adj' if $entry->{'entity'} eq 'noun';
-                                                                               
                 push @femini, map { /^(FaCLA\'|FuC[Ly]Y|FULY)(?: \|\< At)?$/ ? $1 : () } @plural;
 
                 @plural = grep { not /^(?:FaCLA\'|FuC[Ly]Y|FULY)(?: \|\< At)?$/ } @plural;
+
+                $entry->{'entity'} = 'adj' if $entry->{'entity'} eq 'noun' and $entry->{'morphs'} ne 'FaCCaL';
             }
         
             @types = grep { not /At(?:_|$)/ || /ap(?:_|$)/ || /iyn(?:_|$)/ || /all(?:_|$)/ } @types;
