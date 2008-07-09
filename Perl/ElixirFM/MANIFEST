@@ -2,7 +2,7 @@ Build.PL
 Changes
 lib/ElixirFM.pm
 lib/ElixirFM/Data/Lexicon.pm
-Makefile.PL
+lib/MorphoMap.pm
 MANIFEST
 META.yml
 README

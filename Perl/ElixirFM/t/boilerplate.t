@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use Test::More tests => 3;
+use Test::More tests => 4;
 
 sub not_in_file_ok {
     my ($filename, %regex) = @_;
@@ -48,8 +48,6 @@ TODO: {
     "placeholder date/time"       => qr(Date/time)
   );
 
-  module_boilerplate_ok('lib\ElixirFM.pm');
-
-
+  module_boilerplate_ok('lib/ElixirFM.pm');
+  module_boilerplate_ok('lib/MorphoMap.pm');
 }
-

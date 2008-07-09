@@ -16,6 +16,8 @@ our $VERSION = '1.1' || do { q $Revision$ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 
 #
 # ##################################################################################################
 
+use ElixirFM::Data::Lexicon;
+
 use Encode::Arabic;
 
 sub orth {

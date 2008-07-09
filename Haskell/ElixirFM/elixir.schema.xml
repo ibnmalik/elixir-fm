@@ -73,7 +73,7 @@
     </type>
 
     <type name="Entity.type">
-        <sequence content_pattern="(Verb|Noun|Adj|Prep|Conj|Part|Intj)">
+        <sequence content_pattern="(Verb|Noun|Adj|Pron|Num|Adv|Prep|Conj|Part|Intj)">
             <element name="Verb">
                 <!--<structure role="#NODE">-->
                 <structure>
@@ -112,6 +112,24 @@
                         <list type="Morphs.type" ordered="1"/>
                     </member>
                     <member name="number"><cdata format="any"/></member>
+                </structure>
+            </element>
+            <element name="Pron">
+                <!--<structure role="#NODE">-->
+                <structure>
+                    <member name="nothing"><cdata format="any"/></member>
+                </structure>
+            </element>
+            <element name="Num">
+                <!--<structure role="#NODE">-->
+                <structure>
+                    <member name="nothing"><cdata format="any"/></member>
+                </structure>
+            </element>
+            <element name="Adv">
+                <!--<structure role="#NODE">-->
+                <structure>
+                    <member name="nothing"><cdata format="any"/></member>
                 </structure>
             </element>
             <element name="Prep">

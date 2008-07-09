@@ -35,18 +35,19 @@ version = revised "$Revision$"
 
 instance Pretty Lexicon where
 
-    pretty xs = text "package ElixirFM::Data::Lexicon;" <$$>
+    pretty xs = text "package ElixirFM::Data::Lexicon" <> semi <$>
                 empty <$$>
-                text "$lexicon" </> equals </>
-                (nest 4 . prettyList) xs <> semi <$$>
+                text "sub new" </> lbrace </> text "return" <$>
+                nest 4 (empty <$$> prettyList xs <> semi) <$>
+                rbrace <$>
                 empty <$$>
                 text "1" <> semi <$$> empty
 
 
 instance Pretty [(String, Doc)] where
 
-    pretty [] = text "{}"
-    pretty xs = text "{" </> (align . sep . punctuate comma . map pretty) xs </> text "}"
+    pretty [] = braces empty
+    pretty xs = lbrace </> (align . sep . punctuate comma . map pretty) xs </> rbrace
 
 
 instance Pretty (String, Doc) where
