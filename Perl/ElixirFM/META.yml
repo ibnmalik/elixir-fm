@@ -3,16 +3,27 @@ name: ElixirFM
 version: 1.1
 author:
   - 'Otakar Smrz <otakar smrz mff cuni cz>'
-abstract: The great new ElixirFM!
-license: gpl
+abstract: Interfaces to the ElixirFM system in Haskell
+license: perl
 resources:
-  license: http://www.opensource.org/licenses/gpl-license.php
+  license: http://dev.perl.org/licenses/
+requires:
+  Encode::Arabic: 0
+  Encode::Mapper: 0
+  perl: 5.008
 build_requires:
+  Encode::Arabic: 0
+  Encode::Mapper: 0
   Test::More: 0
 provides:
   ElixirFM:
     file: lib/ElixirFM.pm
     version: 1.1
+  ElixirFM::Data::Lexicon:
+    file: lib/ElixirFM/Data/Lexicon.pm
+  MorphoMap:
+    file: lib/MorphoMap.pm
+    version: 1.9
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
