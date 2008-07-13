@@ -92,15 +92,13 @@ execute _ nons = interact (unlines . intersperse "" .
 
     where f = case map toLower e of
 
-                        "tim"   ->  resolveBy (omitting s) . decode Tim
-                        "utf"   ->  resolveBy (omitting s) . decode UTF
+                        "tim"   ->  resolveBy (omitting omits . map downcode) . downcode . decode Tim
+                        "utf"   ->  resolveBy (omitting omits . map downcode) . downcode . decode UTF
 
-                        _       ->  resolveBy (omitting' "a i u A I U Y - N W _a _I _U")
+                        _       ->  resolveBy (omitting omits)
 
           e = case nons of  [] -> ""
                             _  -> head nons
-
-          s = (encode UCS . decode Tim) "aiuo~`FNK"
 
 
 prettier = sep . map (text . head) . unwrapResolve prettiest

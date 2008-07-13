@@ -78,22 +78,20 @@ unwrapResolve :: (forall c . (Template c, Show c) => a c -> b) -> [[Wrap a]] -> 
 unwrapResolve f = map (map (unwraps f))
 
 
-class Eq a => Resolve a where
+class Fuzzy a => Resolve a where
 
     resolve :: a -> [[Wrap Token]]
 
-    resolveBy :: (String -> String -> Bool) -> a -> [[Wrap Token]]
+    resolveBy :: ([a] -> [a] -> Bool) -> a -> [[Wrap Token]]
 
     resolve = resolveBy (==)
 
 
 instance Resolve String where
 
-    resolveBy q y = -- resolveList indexList id -- (decode TeX r) y
+    resolveBy q y = [ [s] | let l = letters y, (r, x) <- indexList, isSubsumed r l,
 
-                    [ [s] | (r, [x]) <- indexList, isSubsumed r y,
-
-                            s <- wraps (inflects y) x ]
+                            s <- wraps (inflects l) x ]
 
         where inflects y (Nest r z) = [ Token l i t | e <- z,
 
@@ -101,7 +99,7 @@ instance Resolve String where
 
                             (t, h) <- inflect l complete, i <- h,
 
-                            uncurry merge i `q` y ]
+                            (letters . uncurry merge) i `q` y ]
 
               complete = unTagSets (read "----------")
 
@@ -117,11 +115,13 @@ instance Resolve String where
 
 instance Resolve [UPoint] where
 
-    resolveBy q y = resolveList indexList (encode UCS . decode TeX)
-                                        q (encode UCS y)
+    resolveBy q y = resolveList indexList (decode TeX) q y
 
-
-instance Resolve a => Resolve [a] where
+{-
+instance Fuzzy a => Fuzzy [a] 
+      
+    
+instance (Fuzzy a, Fuzzy [a], Resolve a) => Resolve [a] where
 
     resolve     = concat . map resolve
     resolveBy q = concat . map (resolveBy q)
@@ -135,14 +135,13 @@ instance Resolve a => Resolve [a] where
               f =
 
         resolveTrie -}
+-}
 
+resolveList l c q y = [ [s] | let i = recode y, (r, x) <- l, isSubsumed r i,
 
-resolveList l uc eq y = [ [s] | (r, [x]) <- l, isSubsumed (uc r) y,
-                                               -- (decode TeX r) y
+                              s <- wraps (inflects (map (:[]) y)) x ]
 
-                          s <- wraps (inflects y) x ]
-
-    where inflects y (Nest r z) = (concat . map (\ (f, t) -> if uc f `eq` y
+    where inflects y (Nest r z) = (concat . map (\ (f, t) -> if (map (:[]) . c) f `q` y
                                                              then reverse t else []) .
 
                            Map.toList . Map.fromListWith (++))
@@ -167,47 +166,184 @@ resolveMore q y = resolveListMore indexList id q y  -- (encode UCS . decode TeX)
                                                     --    q (map (encode UCS) y)
 
 
-resolveListMore l uc eq y = [ [s] | (r, [x]) <- l, let y' = filter (isSubsumed (uc r)) y,
+resolveListMore l c q y = [ [s] | (r, x) <- l, let i = filter (isSubsumed ((map c) r) . letters) y,
                                                -- (decode TeX r) y
-                          not (null y'),
+                          not (null i),
 
-                          s <- wraps (inflects y') x ]
+                          s <- wraps (inflects i) x ]
 
     where inflects y (Nest r z) = [ Token (Lexeme r e) i t | e <- z,
 
                              let s = inflect (Lexeme r e) "----------", (t, h) <- s,
 
-                             i <- h, let m = (uc . uncurry merge) i, q <- y, m `eq` q ]
+                             i <- h, let m = (c . uncurry merge) i, d <- y, m `q` d ]
 
 
 resolveSub r = resolveBy (\ x y -> any (isPrefixOf x) (tails y)) r
 
-
+    
 -- unwrapResolve (uncurry merge . struct) $ resolveBy (omitting "aiuAUI") "ktbuN"
 
-omitting' :: String -> String -> String -> Bool
+omitting' :: Eq a => [[a]] -> [a] -> [a] -> Bool
 
-omitting' c x y = omitting s (letters x) (letters y)
-
-    where w = words c
-          s = case w of [z] -> letters z
-                        _   -> w
+omitting' c x y = omitting (concat c) x y
 
 
 omitting :: Eq a => [a] -> [a] -> [a] -> Bool
 
 omitting c (k:l) s@(q:r) | k == q     = omitting c l r
-                          | k `elem` c = omitting c l s
-                          | otherwise  = False
+                         | k `elem` c = omitting c l s
+                         | otherwise  = False
 
 omitting c (k:l) []      | k `elem` c = omitting c l []
-                          | otherwise  = False
+                         | otherwise  = False
 
 omitting _ [] (q:r) = False
 
 omitting _ []    [] = True
 
 
+isSubsumed :: Eq a => [a] -> [a] -> Bool
+
+isSubsumed []        _      = True
+isSubsumed _         []     = False
+isSubsumed zs@(x:xs) (y:ys) | x == y    = isSubsumed xs ys
+                            | otherwise = isSubsumed zs ys
+   
+
+reduce :: String -> [String]
+
+reduce = map head . group . (\ x -> case x of [y] -> [ z | z <- letters y, z `notElem` omits ]
+                                              _   -> [ z | z <- x, z `notElem` skips ]) . words
+    
+
+class Eq a => Fuzzy a where
+
+    omits :: [a]
+    skips :: [a]
+    nexts :: a -> a
+
+instance Fuzzy String where                                                   
+
+    skips = ["'", "w", "y"]
+    
+    omits = ["a", "i", "u", "A", "I", "U", "Y", "-", "N", "W", "_a", "_I", "_U"]
+
+    
+instance Fuzzy [UPoint] where
+
+    skips = [ [x] | x <- decode Tim "OWI}'wy" ]
+    
+    omits = [ [x] | x <- decode Tim "aiuo~`FNK" ]
+
+
+short :: String -> String
+
+short (d:z:s) | d == '_' && z `elem` "tdhaIU"  = s
+              | d == '^' && z `elem` "gscznl"  = s
+              | d == '.' && z `elem` "hsdtzgr" = s
+              | d == ',' && z `elem` "c"       = s
+
+short (d:zs) = zs
+short []     = []
+
+
+next :: String -> Maybe (String, String)
+
+next (d:z:s) | d == '_' && z `elem` "tdhaIU"  = Just ([d, z], s)
+             | d == '^' && z `elem` "gscznl"  = Just ([d, z], s)
+             | d == '.' && z `elem` "hsdtzgr" = Just ([d, z], s)
+             | d == ',' && z `elem` "c"       = Just ([d, z], s)
+
+next (d:zs) = Just ([d], zs)
+next []     = Nothing
+
+
+letters :: String -> [String]
+
+letters = unfoldr next
+    
+
+downcode :: [UPoint] -> [UPoint]
+
+downcode = map (toEnum . (\ x -> case x of 0x0622 -> 0x0627
+                                           0x0623 -> 0x0627
+                                           0x0625 -> 0x0627
+                                           0x0671 -> 0x0627
+                                           0x0624 -> 0x0648
+                                           0x0626 -> 0x064A
+                                           0x0649 -> 0x064A
+                                           0x0629 -> 0x0647
+                                           _      -> x     ) . fromEnum)
+
+                                           
+recode :: [UPoint] -> [String]
+
+recode xs = [ y | x <- xs, y <- Map.lookup x recoder ]
+
+
+recoder :: Map.Map UPoint String
+
+recoder = Map.fromAscList [ (toEnum x, y) | (y, x) <- [ 
+
+                            ( "'",          0x0621 ),
+
+                            ( "'",          0x0622 ),
+                            ( "'",          0x0623 ),
+                            ( "'",          0x0624 ),
+                            ( "'",          0x0625 ),
+                            ( "'",          0x0626 ),
+                            
+                            ( "b",          0x0628 ),
+
+                            ( "T",          0x0629 ),
+
+                            ( "t",          0x062A ),
+                            ( "_t",         0x062B ),
+
+                            ( "^g",         0x062C ),
+                            ( ".h",         0x062D ),
+                            ( "_h",         0x062E ),
+
+                            ( "d",          0x062F ),
+                            ( "_d",         0x0630 ),
+                            ( "r",          0x0631 ),
+                            ( "z",          0x0632 ),
+                            ( "s",          0x0633 ),
+                            ( "^s",         0x0634 ),
+                            ( ".s",         0x0635 ),
+                            ( ".d",         0x0636 ),
+                            ( ".t",         0x0637 ),
+                            ( ".z",         0x0638 ),
+
+                            ( "`",          0x0639 ),
+                            ( ".g",         0x063A ),
+                            ( "f",          0x0641 ),
+                            ( "q",          0x0642 ),
+                            ( "k",          0x0643 ),
+
+                            ( "l",          0x0644 ),
+
+                            ( "m",          0x0645 ),
+
+                            ( "n",          0x0646 ),
+
+                            ( "h",          0x0647 ),
+                            ( "w",          0x0648 ),
+                            ( "y",          0x064A ),
+
+                            ( "p",          0x067E ),
+                            ( "c",          0x0681 ),
+                            ( ",c",         0x0685 ),
+                            ( "^c",         0x0686 ),
+                            ( ".r",         0x0695 ),
+                            ( "^z",         0x0698 ),
+                            ( "v",          0x06A4 ),
+                            ( "^n",         0x06AD ),
+                            ( "g",          0x06AF ),
+                            ( "^l",         0x06B5 )    ] ]
+
+            
 -- resolveTrie l y = FM.analyze (analysis t (composition l))
 
 {-
@@ -275,11 +411,14 @@ indexTrie = (foldl (flip (insertTrieWith (++))) emptyTrie)
 
 --}
 
-indexList = [ (q, [x]) | x <- lexicon,       let q = case x of WrapQ n -> root n
-                                                               WrapT n -> root n
-                                                               WrapL n -> root n
-                                                               WrapS n -> root n ]
+indexList = [ (q, x) | x <- lexicon, let q = unwraps (reduce . root) x ]
 
+{-
+indexList = [ (reduce q, x) | x <- lexicon, let q = case x of WrapQ n -> root n
+                                                              WrapT n -> root n
+                                                              WrapL n -> root n
+                                                              WrapS n -> root n ]
+-}
 
 -- lookupTrie x = trieLookup indexTrie x
 
@@ -314,68 +453,9 @@ searchTrie t@(Trie (m, r)) i cs = concat
 --}
 
 
-isSubsumed :: String -> String -> Bool
-
-isSubsumed [] _ = True
-isSubsumed cs w = let xs = {- (foldr (\ c d -> if null d then [c]
-                                                      else if c == head d then d
-                                                                          else (c:d)) [] . words) -}
-                           (map head . group . (\ x -> case x of [y] -> [ z | z <- letters y,
-                                                                              z `notElem` skips ]
-                                                                 _   -> x) . words) cs in
-
-                  match xs w
-
-    where   match []    _ = True
-            match (x:y) z = if x `elem` omits
-
-                                then match y z
-                                else if null z then False
-                                               else if x `isPrefixOf` z
-
-                                                    then match y (drop (length x) z)
-                                                    else match (x:y) (short z)
-
-omits :: [String]
-
-omits = ["'", "w", "y"] ++ map (:[]) ((encode UCS . decode Tim) "OWI}'wy")
-
-
-skips :: [String]
-         
-skips = ["A", "I", "U", "a", "i", "u", "_a", "_I", "_U"] ++ map (:[]) ((encode UCS . decode Tim) "aiuo~`")
-
-
-short :: String -> String
-
-short (d:z:s) | d == '_' && z `elem` "tdhaIU"  = s
-              | d == '^' && z `elem` "gscznl"  = s
-              | d == '.' && z `elem` "hsdtzgr" = s
-              | d == ',' && z `elem` "c"       = s
-
-short (d:zs) = zs
-short []     = []
-
-
-next :: String -> Maybe (String, String)
-
-next (d:z:s) | d == '_' && z `elem` "tdhaIU"  = Just ([d, z], s)
-             | d == '^' && z `elem` "gscznl"  = Just ([d, z], s)
-             | d == '.' && z `elem` "hsdtzgr" = Just ([d, z], s)
-             | d == ',' && z `elem` "c"       = Just ([d, z], s)
-
-next (d:zs) = Just ([d], zs)
-next []     = Nothing
-
-
-letters :: String -> [String]
-
-letters = unfoldr next
-    
-
 -- recode = map (encode UTF . decode TeX . (++) "\\nodiacritics ") . concat
 
-recode = concat
+-- recode = concat
 
 {-
 arabicDict :: Dictionary
