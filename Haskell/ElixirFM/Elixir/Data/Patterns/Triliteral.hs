@@ -801,7 +801,7 @@ data PatternT =
 
         |   FuCayL                      |   FuwayL
 
-        |   FuwayCiL
+        |   FuwayCiL                                                    |   FuwayCL    {-- (?) --}
         |   FuCayyiL
 
         |   FuwayCaL    {-- (?) --}
