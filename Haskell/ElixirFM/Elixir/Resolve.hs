@@ -18,7 +18,6 @@
 module Elixir.Resolve where
 
 
-import Data.Map (Map)
 import qualified Data.Map as Map
 
 import Elixir.System
@@ -28,15 +27,13 @@ import Elixir.Data.Lexicons
 
 import Elixir.Lexicon
 import Elixir.Template
+
 import Elixir.Pretty hiding (group)
 
 import Encode
 import Encode.Arabic
 
 import Data.List
-
-
--- let y = "'a_hran.timu" in [ root x  | x <- lexicon, isSubsumed (root x) y, let s = case x of NestT r l -> [ inflect (Lexeme r z) "----------" | z <- l ] ;NestQ r l -> [ inflect (Lexeme r z) "----------" | z <- l ];NestL r l -> [ inflect (Lexeme r z) "----------"| z <- l ], h <- s, i <- h, j<- i, j == y]
 
 
 data Token a = Token { lexeme :: Lexeme a, struct :: (Root, Morphs a),
@@ -74,6 +71,21 @@ class Fuzzy a => Resolve a where
     resolve = resolveBy (==)
 
 
+complete :: [TagSet]
+    
+complete = unTagSets (read "----------")
+
+
+entries :: Entry a -> [Entry a]
+           
+entries e = case entity e of
+
+                Noun _ _ _ (Just _) -> [e, e { morphs = morphs e |< aT,
+                                               entity = Noun [Right (morphs e |< At)]
+                                                              Nothing Nothing Nothing }]
+                _                   -> [e]
+
+
 instance Resolve String where
 
     resolveBy q y = [ [s] | let l = units y, (r, x) <- indexList, isSubsumed r l,
@@ -82,22 +94,11 @@ instance Resolve String where
 
         where inflects y (Nest r z) = [ Token l i t | e <- z,
 
-                            s <- derives e, let l = Lexeme r s,
+                            s <- entries e, let l = Lexeme r s,
 
                             (t, h) <- inflect l complete, i <- h,
 
                             (units . uncurry merge) i `q` y ]
-
-              complete = unTagSets (read "----------")
-
-              derives e = case entity e of
-
-                          Noun _ _ _ (Just _) -> [e, e { morphs = morphs e |< aT,
-                                                         entity = Noun [Right (morphs e |< At)]
-                                                                  Nothing Nothing Nothing }]
-                                                      -- entity = Noun [] Nothing
-                                                      --          Nothing Nothing
-                          _                   -> [e]
 
 
 instance Resolve [UPoint] where
@@ -116,59 +117,30 @@ resolveList l c q y = [ [s] | let i = recode y, (r, x) <- l, isSubsumed r i,
 
                            [ (uncurry merge i, [Token l i t]) | e <- z,
 
-                             s <- derives e, let l = Lexeme r s,
+                             s <- entries e, let l = Lexeme r s,
 
                              (t, h) <- inflect l complete, i <- h ]
 
-          complete = unTagSets (read "----------")
 
-          derives e = case entity e of
-
-                      Noun _ _ _ (Just _) -> [e, e { morphs = morphs e |< aT,
-                                                     entity = Noun [Right (morphs e |< At)]
-                                                              Nothing Nothing Nothing }]
-                      _                   -> [e]
+resolveMore q y = resolveListMore indexList id q y
 
 
-resolveMore q y = resolveListMore indexList id q y  -- (encode UCS . decode TeX)
-                                                    --    q (map (encode UCS) y)
+resolveListMore l c q y = [ [s] | (r, x) <- l,
 
+                                  let i = filter (isSubsumed ((map c) r) . letters) y,
 
-resolveListMore l c q y = [ [s] | (r, x) <- l, let i = filter (isSubsumed ((map c) r) . letters) y,
-                                               -- (decode TeX r) y
-                          not (null i),
+                                  not (null i),
 
-                          s <- wraps (inflects i) x ]
+                                  s <- wraps (inflects i) x ]
 
     where inflects y (Nest r z) = [ Token (Lexeme r e) i t | e <- z,
 
-                             let s = inflect (Lexeme r e) "----------", (t, h) <- s,
+                             let s = inflect (Lexeme r e) complete, (t, h) <- s,
 
                              i <- h, let m = (c . uncurry merge) i, d <- y, m `q` d ]
 
 
 resolveSub r = resolveBy (\ x y -> any (isPrefixOf x) (tails y)) r
-
-
-{-
-instance Fuzzy a => Fuzzy [a]
-
-
-instance (Fuzzy a, Fuzzy [a], Resolve a) => Resolve [a] where
-
-    resolve     = concat . map resolve
-    resolveBy q = concat . map (resolveBy q)
-
-    {-  mapAccumL update_trie_resolve trie words
-
-        (unzip . foldr f z) ys
-
-        where z = []
-
-              f =
-
-        resolveTrie -}
--}
 
 
 -- unwrapResolve (uncurry merge . struct) $ resolveBy (omitting "aiuAUI") "ktbuN"
@@ -383,7 +355,7 @@ splits (c:s) = concat [ [((c:x):xs), [c]:y] | y@(x:xs) <- splits s ]
 
 {--
 
-newtype Trie a b = Trie (Map a (Trie a b), [b]) deriving Show
+newtype Trie a b = Trie (Map.Map a (Trie a b), [b]) deriving Show
 
 
 emptyTrie = Trie (Map.empty, [])
