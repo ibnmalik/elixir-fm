@@ -82,7 +82,8 @@ class Fuzzy a => Resolve a where
 
     resolve :: a -> [[Wrap Token]]
 
-    resolveBy :: ([a] -> [a] -> Bool) -> a -> [[Wrap Token]]
+    resolveBy :: (a -> a -> Bool) -> a -> [[Wrap Token]]
+--    resolveBy :: ([a] -> [a] -> Bool) -> a -> [[Wrap Token]]
 
     resolve = resolveBy (==)
 
@@ -91,25 +92,27 @@ instance Resolve String where
 
     resolveBy q y = [ [s] | let l = letters y, (r, x) <- indexList, isSubsumed r l,
 
-                            s <- wraps (inflects l) x ]
+                            s <- wraps (inflects y) x ]
+--                            s <- wraps (inflects l) x ]
 
         where inflects y (Nest r z) = [ Token l i t | e <- z,
 
-                            s <- derives e, let l = Lexeme r s, 
+                            s <- derives e, let l = Lexeme r s,
 
                             (t, h) <- inflect l complete, i <- h,
 
-                            (letters . uncurry merge) i `q` y ]
+                            uncurry merge i `q` y ]
+--                            (letters . uncurry merge) i `q` y ]
 
               complete = unTagSets (read "----------")
 
               derives e = case entity e of
-                                        
+
                           Noun _ _ _ (Just _) -> [e, e { morphs = morphs e |< aT,
                                                          entity = Noun [Right (morphs e |< At)]
                                                                   Nothing Nothing Nothing }]
                                                       -- entity = Noun [] Nothing
-                                                      --          Nothing Nothing 
+                                                      --          Nothing Nothing
                           _                   -> [e]
 
 
@@ -118,9 +121,9 @@ instance Resolve [UPoint] where
     resolveBy q y = resolveList indexList (decode TeX) q y
 
 {-
-instance Fuzzy a => Fuzzy [a] 
-      
-    
+instance Fuzzy a => Fuzzy [a]
+
+
 instance (Fuzzy a, Fuzzy [a], Resolve a) => Resolve [a] where
 
     resolve     = concat . map resolve
@@ -139,9 +142,11 @@ instance (Fuzzy a, Fuzzy [a], Resolve a) => Resolve [a] where
 
 resolveList l c q y = [ [s] | let i = recode y, (r, x) <- l, isSubsumed r i,
 
-                              s <- wraps (inflects (map (:[]) y)) x ]
+                              s <- wraps (inflects y) x ]
+--                              s <- wraps (inflects (map (:[]) y)) x ]
 
-    where inflects y (Nest r z) = (concat . map (\ (f, t) -> if (map (:[]) . c) f `q` y
+    where inflects y (Nest r z) = (concat . map (\ (f, t) -> if c f `q` y
+--    where inflects y (Nest r z) = (concat . map (\ (f, t) -> if (map (:[]) . c) f `q` y
                                                              then reverse t else []) .
 
                            Map.toList . Map.fromListWith (++))
@@ -155,7 +160,7 @@ resolveList l c q y = [ [s] | let i = recode y, (r, x) <- l, isSubsumed r i,
           complete = unTagSets (read "----------")
 
           derives e = case entity e of
-                                        
+
                       Noun _ _ _ (Just _) -> [e, e { morphs = morphs e |< aT,
                                                      entity = Noun [Right (morphs e |< At)]
                                                               Nothing Nothing Nothing }]
@@ -181,7 +186,7 @@ resolveListMore l c q y = [ [s] | (r, x) <- l, let i = filter (isSubsumed ((map 
 
 resolveSub r = resolveBy (\ x y -> any (isPrefixOf x) (tails y)) r
 
-    
+
 -- unwrapResolve (uncurry merge . struct) $ resolveBy (omitting "aiuAUI") "ktbuN"
 
 omitting' :: Eq a => [[a]] -> [a] -> [a] -> Bool
@@ -209,43 +214,32 @@ isSubsumed []        _      = True
 isSubsumed _         []     = False
 isSubsumed zs@(x:xs) (y:ys) | x == y    = isSubsumed xs ys
                             | otherwise = isSubsumed zs ys
-   
+
 
 reduce :: String -> [String]
 
 reduce = map head . group . (\ x -> case x of [y] -> [ z | z <- letters y, z `notElem` omits ]
                                               _   -> [ z | z <- x, z `notElem` skips ]) . words
-    
+
 
 class Eq a => Fuzzy a where
 
     omits :: [a]
     skips :: [a]
-    nexts :: a -> a
 
-instance Fuzzy String where                                                   
+
+instance Fuzzy String where
 
     skips = ["'", "w", "y"]
-    
+
     omits = ["a", "i", "u", "A", "I", "U", "Y", "-", "N", "W", "_a", "_I", "_U"]
 
-    
+
 instance Fuzzy [UPoint] where
 
     skips = [ [x] | x <- decode Tim "OWI}'wy" ]
-    
+
     omits = [ [x] | x <- decode Tim "aiuo~`FNK" ]
-
-
-short :: String -> String
-
-short (d:z:s) | d == '_' && z `elem` "tdhaIU"  = s
-              | d == '^' && z `elem` "gscznl"  = s
-              | d == '.' && z `elem` "hsdtzgr" = s
-              | d == ',' && z `elem` "c"       = s
-
-short (d:zs) = zs
-short []     = []
 
 
 next :: String -> Maybe (String, String)
@@ -261,8 +255,16 @@ next []     = Nothing
 
 letters :: String -> [String]
 
-letters = unfoldr next
-    
+-- letters = unfoldr next
+
+letters (d:z:s) | d == '_' && z `elem` "tdhaIU"  = [d, z] : letters s
+                | d == '^' && z `elem` "gscznl"  = [d, z] : letters s
+                | d == '.' && z `elem` "hsdtzgr" = [d, z] : letters s
+                | d == ',' && z `elem` "c"       = [d, z] : letters s
+
+letters (d:zs) = [d] : letters zs
+letters []     = []
+
 
 downcode :: [UPoint] -> [UPoint]
 
@@ -276,7 +278,7 @@ downcode = map (toEnum . (\ x -> case x of 0x0622 -> 0x0627
                                            0x0629 -> 0x0647
                                            _      -> x     ) . fromEnum)
 
-                                           
+
 recode :: [UPoint] -> [String]
 
 recode xs = [ y | x <- xs, y <- Map.lookup x recoder ]
@@ -284,7 +286,7 @@ recode xs = [ y | x <- xs, y <- Map.lookup x recoder ]
 
 recoder :: Map.Map UPoint String
 
-recoder = Map.fromAscList [ (toEnum x, y) | (y, x) <- [ 
+recoder = Map.fromAscList [ (toEnum x, y) | (y, x) <- [
 
                             ( "'",          0x0621 ),
 
@@ -293,7 +295,7 @@ recoder = Map.fromAscList [ (toEnum x, y) | (y, x) <- [
                             ( "'",          0x0624 ),
                             ( "'",          0x0625 ),
                             ( "'",          0x0626 ),
-                            
+
                             ( "b",          0x0628 ),
 
                             ( "T",          0x0629 ),
@@ -343,7 +345,7 @@ recoder = Map.fromAscList [ (toEnum x, y) | (y, x) <- [
                             ( "g",          0x06AF ),
                             ( "^l",         0x06B5 )    ] ]
 
-            
+
 -- resolveTrie l y = FM.analyze (analysis t (composition l))
 
 {-
