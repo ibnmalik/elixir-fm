@@ -18,19 +18,6 @@
 module Elixir.Resolve where
 
 
-{-
--- import FM.Arabic.Build
-import FM.Arabic.Composite
-
-import FM.Generic.Dictionary hiding (Entry)
-import FM.Generic.Dictionary as FM (Entry)
-
-import FM.Generic.CommonMain
-import FM.Generic.General
-import FM.Generic.GeneralIO
-
--}
-
 import Data.Map (Map)
 import qualified Data.Map as Map
 
@@ -82,18 +69,16 @@ class Fuzzy a => Resolve a where
 
     resolve :: a -> [[Wrap Token]]
 
-    resolveBy :: (a -> a -> Bool) -> a -> [[Wrap Token]]
---    resolveBy :: ([a] -> [a] -> Bool) -> a -> [[Wrap Token]]
+    resolveBy :: ([a] -> [a] -> Bool) -> a -> [[Wrap Token]]
 
     resolve = resolveBy (==)
 
 
 instance Resolve String where
 
-    resolveBy q y = [ [s] | let l = letters y, (r, x) <- indexList, isSubsumed r l,
+    resolveBy q y = [ [s] | let l = units y, (r, x) <- indexList, isSubsumed r l,
 
-                            s <- wraps (inflects y) x ]
---                            s <- wraps (inflects l) x ]
+                            s <- wraps (inflects l) x ]
 
         where inflects y (Nest r z) = [ Token l i t | e <- z,
 
@@ -101,8 +86,7 @@ instance Resolve String where
 
                             (t, h) <- inflect l complete, i <- h,
 
-                            uncurry merge i `q` y ]
---                            (letters . uncurry merge) i `q` y ]
+                            (units . uncurry merge) i `q` y ]
 
               complete = unTagSets (read "----------")
 
@@ -120,33 +104,12 @@ instance Resolve [UPoint] where
 
     resolveBy q y = resolveList indexList (decode TeX) q y
 
-{-
-instance Fuzzy a => Fuzzy [a]
-
-
-instance (Fuzzy a, Fuzzy [a], Resolve a) => Resolve [a] where
-
-    resolve     = concat . map resolve
-    resolveBy q = concat . map (resolveBy q)
-
-    {-  mapAccumL update_trie_resolve trie words
-
-        (unzip . foldr f z) ys
-
-        where z = []
-
-              f =
-
-        resolveTrie -}
--}
 
 resolveList l c q y = [ [s] | let i = recode y, (r, x) <- l, isSubsumed r i,
 
-                              s <- wraps (inflects y) x ]
---                              s <- wraps (inflects (map (:[]) y)) x ]
+                              s <- wraps (inflects (units y)) x ]
 
-    where inflects y (Nest r z) = (concat . map (\ (f, t) -> if c f `q` y
---    where inflects y (Nest r z) = (concat . map (\ (f, t) -> if (map (:[]) . c) f `q` y
+    where inflects y (Nest r z) = (concat . map (\ (f, t) -> if (units . c) f `q` y
                                                              then reverse t else []) .
 
                            Map.toList . Map.fromListWith (++))
@@ -187,6 +150,27 @@ resolveListMore l c q y = [ [s] | (r, x) <- l, let i = filter (isSubsumed ((map 
 resolveSub r = resolveBy (\ x y -> any (isPrefixOf x) (tails y)) r
 
 
+{-
+instance Fuzzy a => Fuzzy [a]
+
+
+instance (Fuzzy a, Fuzzy [a], Resolve a) => Resolve [a] where
+
+    resolve     = concat . map resolve
+    resolveBy q = concat . map (resolveBy q)
+
+    {-  mapAccumL update_trie_resolve trie words
+
+        (unzip . foldr f z) ys
+
+        where z = []
+
+              f =
+
+        resolveTrie -}
+-}
+
+
 -- unwrapResolve (uncurry merge . struct) $ resolveBy (omitting "aiuAUI") "ktbuN"
 
 omitting' :: Eq a => [[a]] -> [a] -> [a] -> Bool
@@ -196,6 +180,9 @@ omitting' c x y = omitting (concat c) x y
 
 omitting :: Eq a => [a] -> [a] -> [a] -> Bool
 
+omitting _ []    []      = True
+omitting _ []    _       = False
+
 omitting c (k:l) s@(q:r) | k == q     = omitting c l r
                          | k `elem` c = omitting c l s
                          | otherwise  = False
@@ -203,29 +190,29 @@ omitting c (k:l) s@(q:r) | k == q     = omitting c l r
 omitting c (k:l) []      | k `elem` c = omitting c l []
                          | otherwise  = False
 
-omitting _ [] (q:r) = False
-
-omitting _ []    [] = True
-
 
 isSubsumed :: Eq a => [a] -> [a] -> Bool
 
 isSubsumed []        _      = True
 isSubsumed _         []     = False
+
 isSubsumed zs@(x:xs) (y:ys) | x == y    = isSubsumed xs ys
                             | otherwise = isSubsumed zs ys
 
 
 reduce :: String -> [String]
 
-reduce = map head . group . (\ x -> case x of [y] -> [ z | z <- letters y, z `notElem` omits ]
-                                              _   -> [ z | z <- x, z `notElem` skips ]) . words
+reduce = map head . group . fixes . words
+
+    where fixes [y] = [ z | z <- units y, z `notElem` skips ++ omits ]
+          fixes x   = [ z | z <- x,       z `notElem` skips ]
 
 
 class Eq a => Fuzzy a where
 
     omits :: [a]
     skips :: [a]
+    units :: a -> [a]
 
 
 instance Fuzzy String where
@@ -234,12 +221,23 @@ instance Fuzzy String where
 
     omits = ["a", "i", "u", "A", "I", "U", "Y", "-", "N", "W", "_a", "_I", "_U"]
 
+    units ('_':z:s) | z `elem` "tdhaIU"  = ['_', z] : units s
+    units ('^':z:s) | z `elem` "gscznl"  = ['^', z] : units s
+    units ('.':z:s) | z `elem` "hsdtzgr" = ['.', z] : units s
+    units (',':z:s) | z `elem` "c"       = [',', z] : units s
+                                           
+    units (d:zs) = [d] : units zs
+
+    units []     = []
+
 
 instance Fuzzy [UPoint] where
 
     skips = [ [x] | x <- decode Tim "OWI}'wy" ]
 
     omits = [ [x] | x <- decode Tim "aiuo~`FNK" ]
+
+    units x = [ [y] | y <- x ]    -- can become more complex
 
 
 next :: String -> Maybe (String, String)
@@ -255,8 +253,11 @@ next []     = Nothing
 
 letters :: String -> [String]
 
+letters = units
+          
 -- letters = unfoldr next
 
+{-
 letters (d:z:s) | d == '_' && z `elem` "tdhaIU"  = [d, z] : letters s
                 | d == '^' && z `elem` "gscznl"  = [d, z] : letters s
                 | d == '.' && z `elem` "hsdtzgr" = [d, z] : letters s
@@ -264,6 +265,7 @@ letters (d:z:s) | d == '_' && z `elem` "tdhaIU"  = [d, z] : letters s
 
 letters (d:zs) = [d] : letters zs
 letters []     = []
+-}
 
 
 downcode :: [UPoint] -> [UPoint]

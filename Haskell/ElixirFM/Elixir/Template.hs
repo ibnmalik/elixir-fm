@@ -260,7 +260,7 @@ class Eq a => Rules a where
     isForm I = const True
     isForm _ = const False
     
-    isDiptote = const False
+    isDiptote = const True
     isPassive = const False
     
     prefixVerbI _ _ _ = []
