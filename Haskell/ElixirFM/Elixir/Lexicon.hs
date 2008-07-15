@@ -61,7 +61,7 @@ module Elixir.Lexicon (
 
         listing, include,
 
-        isVerb, isNoun, isAdj, isPrep, isConj, isPart, isIntj,
+        isVerb, isNoun, isAdj, isPron, isPrep, isConj, isPart, isIntj,
 
         lookupRoot, lookupRootBy, lookupEntry, lookupEntryBy,
 
@@ -155,11 +155,6 @@ infix 2 >-<, <->
 
 
 (<->) = (>-<)
-
-
-newtype Id a = Id a         deriving Show
-
--- type Id a = a
 
 
 data Wrap a = WrapS (a String)
@@ -271,6 +266,7 @@ data Entity a = Verb { form :: [Form], perfect', imperfect, imperative :: [a],
                        justTense :: Maybe Tense, justVoice :: Maybe Voice }
               | Noun [Plural a] (Maybe Gender) (Maybe Number) (Maybe String)
               | Adj  [Plural a] [Morphs a]     (Maybe Number)
+              | Pron
               | Prep
               | Conj
               | Part
@@ -279,7 +275,7 @@ data Entity a = Verb { form :: [Form], perfect', imperfect, imperative :: [a],
     deriving Show
 
 
-isVerb, isNoun, isAdj, isPrep, isConj, isPart, isIntj :: Entity a -> Bool
+isVerb, isNoun, isAdj, isPron, isPrep, isConj, isPart, isIntj :: Entity a -> Bool
 
 isVerb (Verb _ _ _ _ _ _) = True
 isVerb _                  = False
@@ -289,6 +285,9 @@ isNoun _              = False
 
 isAdj (Adj _ _ _) = True
 isAdj _           = False
+
+isPron Pron = True
+isPron _    = False
 
 isPrep Prep = True
 isPrep _    = False
@@ -334,7 +333,8 @@ noun m l = Entry (Noun [] Nothing Nothing Nothing) (morph m) l
 
 adj  m l = Entry (Adj [] [] Nothing) (morph m) l
 
-pron = noun
+pron m l = Entry Pron (morph m) l
+       
 num = noun
 adv = noun
 

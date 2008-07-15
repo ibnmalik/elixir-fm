@@ -25,17 +25,114 @@ import Data.Char (readLitChar)
 import Data.List (intersect)
 
 
-data TagSet = TagsVerb  [TagsVerb]
-            | TagsNoun  [TagsNoun]
-            | TagsAdj   [TagsAdj]
-            | TagsPron  [TagsPron]
-            | TagsNum   [TagsNum]
-            | TagsAdv   [TagsAdv]
-            | TagsPrep  [TagsPrep]
-            | TagsConj  [TagsConj]
-            | TagsPart  [TagsPart]
-            | TagsIntj  [TagsIntj]
-            | TagsError [Char]
+data EntVerb a = EntVerbP          (a Voice) (a Person) (a Gender) (a Number) 
+               | EntVerbI (a Mood) (a Voice) (a Person) (a Gender) (a Number)
+               | EntVerbC                               (a Gender) (a Number)
+
+    -- deriving Eq -- (Show, Eq)
+
+instance ShowE a => Show (EntVerb a) where
+
+    show (EntVerbP   v p g n) =    "VP-" ++ concat [showE v] ++ "-" ++
+                                   concat [showE p, showE g, showE n] ++ "--"
+
+    show (EntVerbI m v p g n) =    "VI" ++ concat [showE m, showE v] ++ "-" ++
+                                   concat [showE p, showE g, showE n] ++ "--"
+
+    show (EntVerbC       g n) =    "VC----" ++ concat [showE g, showE n] ++ "--"
+
+
+data EntPron a = EntPronP (a Person) (a Gender) (a Number) (a Case)
+               | EntPronD            (a Gender) (a Number) (a Case)
+               | EntPronR            (a Gender) (a Number) (a Case)
+
+    -- deriving Eq -- (Show, Eq)
+
+
+instance ShowE a => Show (EntPron a) where
+
+    show (EntPronP p g n c) =  "SP---" ++
+                               concat [showE p, showE g, showE n, showE c] ++ "-"
+
+    show (EntPronD   g n c) =  "SD----" ++ concat [showE g, showE n, showE c] ++ "-"
+
+    show (EntPronR   g n c) =  "SR----" ++ concat [showE g, showE n, showE c] ++ "-"
+
+
+class ShowE a where
+          
+    showE :: Show b => a b -> String
+
+
+instance ShowE Id where
+
+    showE (Id a) = [show' a]
+                   
+
+instance ShowE [] where
+
+    showE [] = "-"
+    showE [x] = [show' x]
+    showE xs  = '[' : foldr ((:) . show')  "]" xs
+
+
+newtype Id a = Id a         deriving Eq
+
+
+instance Show a => Show (Id a) where
+
+    show (Id x) = show x
+
+
+data EntType a = EntVerb (a (EntVerb a))
+               | EntPron (a (EntPron a))
+
+    -- deriving (Show, Eq)
+
+
+type EntTags = EntType []
+
+type EntPara = EntType Id
+
+
+entPara = [EntVerb (Id (EntVerbC (Id Feminine) (Id Plural))),
+           EntPron (Id (EntPronD (Id Feminine) (Id Singular) (Id Nominative))),
+           EntVerb (Id (EntVerbC (Id Masculine) (Id Dual)))]
+
+
+entTags = [EntVerb ([]), EntPron ([]), EntVerb ([])]
+
+
+
+type Tag = ParaType
+    
+
+data ParaType = ParaVerb  ParaVerb
+              | ParaNoun  ParaNoun
+              | ParaAdj   ParaAdj
+              | ParaPron  ParaPron
+              | ParaNum   ParaNum
+              | ParaAdv   ParaAdv
+              | ParaPrep  ParaPrep
+              | ParaConj  ParaConj
+              | ParaPart  ParaPart
+              | ParaIntj  ParaIntj
+              | ParaError [Char]
+
+    deriving (Eq, Show)
+
+
+data TagsType = TagsVerb  [TagsVerb]
+              | TagsNoun  [TagsNoun]
+              | TagsAdj   [TagsAdj]
+              | TagsPron  [TagsPron]
+              | TagsNum   [TagsNum]
+              | TagsAdv   [TagsAdv]
+              | TagsPrep  [TagsPrep]
+              | TagsConj  [TagsConj]
+              | TagsPart  [TagsPart]
+              | TagsIntj  [TagsIntj]
+              | TagsError [Char]
 
     deriving (Eq, Show)
 
@@ -114,7 +211,7 @@ class Restrict a where
     restrict :: a -> [a] -> [a]
 
 
-instance Restrict TagSet where
+instance Restrict TagsType where
 
     restrict (TagsVerb  xs) ys = [ TagsVerb (restrict x y) | TagsVerb y <- ys, x <- xs ]
     restrict (TagsNoun  xs) ys = [ TagsNoun (restrict x y) | TagsNoun y <- ys, x <- xs ]
@@ -298,14 +395,14 @@ instance Show TagsIntj where
 
 
 
-newtype TagSets = TagSets [TagSet] deriving Show
+newtype TagsTypes = TagsTypes [TagsType] deriving Show
 
-unTagSets (TagSets x) = x
+unTagsTypes (TagsTypes x) = x
 
 
-instance Read TagSets where
+instance Read TagsTypes where
 
-    readsPrec _ x = [(TagSets rs, "")]
+    readsPrec _ x = [(TagsTypes rs, "")]
 
         where rs = [ r | (y, z) <- readSlot x,
 
@@ -337,21 +434,23 @@ instance Read TagsVerb where
 
                        v1 <- if y1 == "-" then "PIC" else y1,
 
-                       let r = case v1 of
+                       r <- case v1 of
 
-                                'P' -> TagsVerbP (readData y3)
-                                                 (readData y5)
-                                                 (readData y6)
-                                                 (readData y7)
+                                'P' -> [TagsVerbP (readData y3)
+                                                  (readData y5)
+                                                  (readData y6)
+                                                  (readData y7)]
 
-                                'I' -> TagsVerbI (readData y2)
-                                                 (readData y3)
-                                                 (readData y5)
-                                                 (readData y6)
-                                                 (readData y7)
+                                'I' -> [TagsVerbI (readData y2)
+                                                  (readData y3)
+                                                  (readData y5)
+                                                  (readData y6)
+                                                  (readData y7)]
 
-                                'C' -> TagsVerbC (readData y6)
-                                                 (readData y7) ]
+                                'C' -> [TagsVerbC (readData y6)
+                                                  (readData y7)]
+
+                                _   -> [] ]
 
 
 instance Read TagsNoun where
@@ -399,20 +498,22 @@ instance Read TagsPron where
 
                        v1 <- if y1 == "-" then "PDR" else y1,
 
-                       let r = case v1 of
+                       r <- case v1 of
 
-                                'P' -> TagsPronP (readData y6)
-                                                 (readData y7)
-                                                 (readData y8)
-                                                 (readData y9)
+                                'P' -> [TagsPronP (readData y5)
+                                                  (readData y6)
+                                                  (readData y7)
+                                                  (readData y8)]
 
-                                'D' -> TagsPronD (readData y7)
-                                                 (readData y8)
-                                                 (readData y9)
+                                'D' -> [TagsPronD (readData y6)
+                                                  (readData y7)
+                                                  (readData y8)]
 
-                                'R' -> TagsPronR (readData y7)
-                                                 (readData y8)
-                                                 (readData y9) ]
+                                'R' -> [TagsPronR (readData y6)
+                                                  (readData y7)
+                                                  (readData y8)]
+
+                                _   -> [] ]
 
 
 instance Read TagsNum where
@@ -450,10 +551,13 @@ instance Read TagsPrep where
 
                        v1 <- if y1 == "-" then "-I" else y1,
 
-                       let r = case v1 of
+                       r <- case v1 of
 
-                                '-' -> TagsPrepP
-                                _   -> TagsPrepI (readData y8) ]
+                                '-' -> [TagsPrepP]
+
+                                'I' -> [TagsPrepI (readData y8)]
+
+                                _   -> [] ]
 
 
 instance Read TagsConj where
@@ -492,82 +596,6 @@ instance Read TagsIntj where
                        let r =         TagsIntjI ]
 
 
-data Tag = TagVerbP             [Voice] [Person] [Gender] [Number]
-         | TagVerbI [Mood]      [Voice] [Person] [Gender] [Number]
-         | TagVerbC                              [Gender] [Number]
-         | TagNounS [Humanness] [Voice]          [Gender] [Number] [Case] [State]
-         | TagAdjA  [Humanness] [Voice]          [Gender] [Number] [Case] [State]
-         | TagPronP                     [Person] [Gender] [Number] [Case]
-         | TagPronD                              [Gender] [Number] [Case]
-         | TagPronR                              [Gender] [Number] [Case]
-         | TagNum
-         | TagAdv
-         | TagPrepP
-         | TagPrepI                                                [Case]
-         | TagConj
-         | TagPart
-         | TagIntj
-         | TagError String
-
-    deriving Eq
-
-
-instance Show Tag where
-
-    show (TagVerbP   v p g n) = "VP" ++ concat [noshowlist, showlist v,
-                                                noshowlist, showlist p,
-                                                showlist g, showlist n,
-                                                noshowlist, noshowlist]
-
-    show (TagVerbI m v p g n) = "VI" ++ concat [showlist m, showlist v,
-                                                noshowlist, showlist p,
-                                                showlist g, showlist n,
-                                                noshowlist, noshowlist]
-
-    show (TagVerbC       g n) = "VC" ++ concat [noshowlist, noshowlist,
-                                                noshowlist, noshowlist,
-                                                showlist g, showlist n,
-                                                noshowlist, noshowlist]
-
-    show (TagNounS h v g n c s) = "N" ++ concat [noshowlist, showlist h, showlist v,
-                                                 noshowlist, noshowlist, showlist g,
-                                                 showlist n, showlist c, showlist s]
-
-    show (TagAdjA  h v g n c s) = "A" ++ concat [noshowlist, showlist h, showlist v,
-                                                 noshowlist, noshowlist, showlist g,
-                                                 showlist n, showlist c, showlist s]
-
-    show (TagPronP p g n c) = "SP" ++ concat [noshowlist, noshowlist,
-                                              noshowlist, showlist p,
-                                              showlist g, showlist n,
-                                              showlist c, noshowlist]
-
-    show (TagPronD   g n c) = "SD" ++ concat [noshowlist, noshowlist,
-                                              noshowlist, noshowlist,
-                                              showlist g, showlist n,
-                                              showlist c, noshowlist]
-
-    show (TagPronR   g n c) = "SR" ++ concat [noshowlist, noshowlist,
-                                              noshowlist, noshowlist,
-                                              showlist g, showlist n,
-                                              showlist c, noshowlist]
-
-    show TagNum         = "Q-" ++ noinflects
-    show TagAdv         = "D-" ++ noinflects
-
-    show TagPrepP           = "P-" ++ noinflects
-    show (TagPrepI       c) = "PI" ++ concat [noshowlist, noshowlist,
-                                              noshowlist, noshowlist,
-                                              noshowlist, noshowlist,
-                                              showlist c, noshowlist]
-
-    show TagConj        = "C-" ++ noinflects
-    show TagPart        = "F-" ++ noinflects
-    show TagIntj        = "I-" ++ noinflects
-
-    show (TagError s)   = s
-
-
 showlist :: Show a => [a] -> String
 
 showlist []  = "-"
@@ -578,105 +606,8 @@ noshowlist = "-"
 noinflects = replicate 8 '-'
 
 
-isTagParaVerb :: Tag -> Bool
-
-isTagParaVerb (TagVerbP   _ _ _ _) = True
-isTagParaVerb (TagVerbI _ _ _ _ _) = True
-isTagParaVerb (TagVerbC       _ _) = True
-isTagParaVerb _ = False
-
-
-isTagParaNoun :: Tag -> Bool
-
-isTagParaNoun (TagNounS _ _ _ _ _ _) = True
-isTagParaNoun _ = False
-
-
-isTagParaAdj :: Tag -> Bool
-
-isTagParaAdj (TagAdjA _ _ _ _ _ _) = True
-isTagParaAdj _ = False
-
-
-isTagParaPrep :: Tag -> Bool
-
-isTagParaPrep TagPrepP     = True
-isTagParaPrep (TagPrepI _) = True
-isTagParaPrep _ = False
-
-
-isTagParaConj :: Tag -> Bool
-
-isTagParaConj TagConj = True
-isTagParaConj _ = False
-
-
-isTagParaPart :: Tag -> Bool
-
-isTagParaPart TagPart = True
-isTagParaPart _ = False
-
-
-isTagParaIntj :: Tag -> Bool
-
-isTagParaIntj TagIntj = True
-isTagParaIntj _ = False
-
-
-expandTag :: Tag -> [String]    -- instance Inflect RootEntry Tag
-
-expandTag y = case y of
-
-    TagVerbP   v p g n      ->  map show [ VerbP v' p' g' n' |
-                                                v' <- vals v,
-                                                p' <- vals p,
-                                                g' <- vals g,
-                                                n' <- vals n ]
-
-    TagVerbI m v p g n      ->  map show [ VerbI m' v' p' g' n' |
-                                                m' <- vals m,
-                                                v' <- vals v,
-                                                p' <- vals p,
-                                                g' <- vals g,
-                                                n' <- vals n ]
-
-    TagVerbC       g n      ->  map show [ VerbC g' n' |
-                                                g' <- vals g,
-                                                n' <- vals n ]
-
-    TagNounS h v   g n c s  ->  map show [ NounS n' c' s' |
-                                                n' <- vals n,
-                                                c' <- vals c,
-                                                s' <- vals s ]
-
-    TagAdjA  h v   g n c s  ->  map show [ AdjA g' n' c' s' |
-                                                g' <- vals g,
-                                                n' <- vals n,
-                                                c' <- vals c,
-                                                s' <- vals s ]
-
-    TagPronP     p g n c    ->  map show [ PronP p' g' n' c' |
-                                                p' <- vals p,
-                                                g' <- vals g,
-                                                n' <- vals n,
-                                                c' <- vals c ]
-
-    TagPronD       g n c    ->  map show [ PronD g' n' c' |
-                                                g' <- vals g,
-                                                n' <- vals n,
-                                                c' <- vals c ]
-
-    TagPronR       g n c    ->  map show [ PronR g' n' c' |
-                                                g' <- vals g,
-                                                n' <- vals n,
-                                                c' <- vals c ]
-
-    TagPrepI           c    ->  map show [ PrepI c' |
-                                                c' <- vals c ]
-
-    _                       ->  [show y]
-
-
+{-
+  
 newtype Tags = Tags [Tag]               deriving Show
             -- Tags { unTags :: [Tag] } deriving Show
 
@@ -692,171 +623,7 @@ expandTags = map expandTag . unTags
 expandReadTags :: String -> [[String]]
 expandReadTags = map expandTag . readTags
 
--- let t = "V--A-3----" in putStr $ unlines . map show $ zip (concat $ expandReadTags t) (inflect (Lexeme "q w l" $ FAL `verb` []) t)
-
-
--- lookupTags :: [Tag] -> Tag ->
-
-
--- Elixir.System> [ restrict x y | x <- (readTags "V---------"), y <- (readTags "V--A------") ]
--- [Just VP-A-[123][MF][SDP]--,Nothing,Nothing,Nothing,Just VI[ISJE]A-[123][MF][SDP]--,Nothing,Nothing,Nothing,Just VC----[MF][SDP]--]
-
--- Elixir.System> [ restrict x y | x <- (readTags "V--P------"), y <- (readTags "V--A------") ]
--- [Just VP---[123][MF][SDP]--,Nothing,Nothing,Nothing,Just VI[ISJE]--[123][MF][SDP]--,Nothing,Nothing,Nothing,Just VC----[MF][SDP]--]
-
-
-restricts :: Tag -> Tag -> Maybe Tag
-
-restricts x y = case (x, y) of
-
-    (TagVerbP   v p g n    , TagVerbP    v' p' g' n'      ) -> Just (TagVerbP (vals v v')
-                                                                              (vals p p')
-                                                                              (vals g g')
-                                                                              (vals n n'))
-
-    (TagVerbI m v p g n    , TagVerbI m' v' p' g' n'      ) -> Just (TagVerbI (vals m m')
-                                                                              (vals v v')
-                                                                              (vals p p')
-                                                                              (vals g g')
-                                                                              (vals n n'))
-
-    (TagVerbC       g n    , TagVerbC          g' n'      ) -> Just (TagVerbC (vals g g')
-                                                                              (vals n n'))
-
-    (TagNounS h v   g n c s, TagNounS h' v'    g' n' c' s') -> Just (TagNounS (vals h h')
-                                                                              (vals v v')
-                                                                              (vals g g')
-                                                                              (vals n n')
-                                                                              (vals c c')
-                                                                              (vals s s'))
-
-    (TagAdjA  h v   g n c s, TagAdjA  h' v'    g' n' c' s') -> Just (TagAdjA  (vals h h')
-                                                                              (vals v v')
-                                                                              (vals g g')
-                                                                              (vals n n')
-                                                                              (vals c c')
-                                                                              (vals s s'))
-
-    (TagPronP     p g n c  , TagPronP       p' g' n' c'   ) -> Just (TagPronP (vals p p')
-                                                                              (vals g g')
-                                                                              (vals n n')
-                                                                              (vals c c'))
-
-    (TagPronD       g n c  , TagPronD          g' n' c'   ) -> Just (TagPronD (vals g g')
-                                                                              (vals n n')
-                                                                              (vals c c'))
-
-    (TagPronR       g n c  , TagPronR          g' n' c'   ) -> Just (TagPronR (vals g g')
-                                                                              (vals n n')
-                                                                              (vals c c'))
-
-    (TagNum                , TagNum                       ) -> Just (TagNum              )
-
-    (TagAdv                , TagAdv                       ) -> Just (TagAdv              )
-
-    (TagPrepP              , TagPrepP                     ) -> Just (TagPrepP            )
-
-    (TagPrepI           c  , TagPrepI                c'   ) -> Just (TagPrepI (vals c c'))
-
-    (TagConj               , TagConj                      ) -> Just (TagConj             )
-
-    (TagPart               , TagPart                      ) -> Just (TagPart             )
-
-    (TagIntj               , TagIntj                      ) -> Just (TagIntj             )
-
-    (_                     , _                            ) -> Nothing
-
-    where vals [] [] = values
-          vals [] ys = ys
-          vals xs [] = xs
-          vals xs ys = intersect xs ys
-
-
-instance Read Tags where
-
-{-
-    readsPrec _ x0 = [(Tags tags, "")]
-
-        where tags = [ r |
 -}
-
-    readsPrec _ x0 = if null tags then [(Tags [], "")] else tags
-
-        where tags = [ (Tags rs, "") |
-
-                       (y0, x1) <- readSlot x0, (y1, x2) <- readSlot x1,
-                       (y2, x3) <- readSlot x2, (y3, x4) <- readSlot x3,
-                       (y4, x5) <- readSlot x4, (y5, x6) <- readSlot x5,
-                       (y6, x7) <- readSlot x6, (y7, x8) <- readSlot x7,
-                       (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
-
-{-
-                               v0 <- if y0 == "-" then "VNASQDPCFI" else y0,
-                               v1 <- if y1 == "-" then "PICDR-" else y1,
-                               let r = case [v0,v1] of
--}
-
-                let rs = [ r | v0 <- if y0 == "-" then "VNASQDPCFI" else y0,
-                               v1 <- if y1 == "-" then "PICDR-" else y1,
-                               let r = case [v0,v1] of
-
-                                    "VP" -> TagVerbP (readData y3)
-                                                     (readData y5)
-                                                     (readData y6)
-                                                     (readData y7)
-
-                                    "VI" -> TagVerbI (readData y2)
-                                                     (readData y3)
-                                                     (readData y5)
-                                                     (readData y6)
-                                                     (readData y7)
-
-                                    "VC" -> TagVerbC (readData y6)
-                                                     (readData y7)
-
-                                    "N-" -> TagNounS (readData y2)
-                                                     (readData y3)
-                                                     (readData y6)
-                                                     (readData y7)
-                                                     (readData y8)
-                                                     (readData y9)
-
-                                    "A-" -> TagAdjA  (readData y2)
-                                                     (readData y3)
-                                                     (readData y6)
-                                                     (readData y7)
-                                                     (readData y8)
-                                                     (readData y9)
-
-                                    "SP" -> TagPronP (readData y6)
-                                                     (readData y7)
-                                                     (readData y8)
-                                                     (readData y9)
-
-                                    "SD" -> TagPronD (readData y7)
-                                                     (readData y8)
-                                                     (readData y9)
-
-                                    "SR" -> TagPronR (readData y7)
-                                                     (readData y8)
-                                                     (readData y9)
-
-                                    "Q-" -> TagNum
-                                    "D-" -> TagAdv
-
-                                    "P-" -> TagPrepP
-                                    "PI" -> TagPrepI (readData y8)
-
-                                    "C-" -> TagConj
-                                    "F-" -> TagPart
-                                    "I-" -> TagIntj
-
-{-
-                                    _    -> TagError "", r /= TagError "" ]
--}
-
-                                    _    -> TagError "", r /= TagError "" ] ]
-
 
 
 readData :: (Param a, Show a) => String -> [a]
@@ -1133,43 +900,25 @@ instance Show ParaPron where
 
 -}
 
-data ParaPronP  = PronP Person Gender Number Case
+data ParaPron = PronP Person Gender Number Case
+              | PronD        Gender Number Case
+              | PronR        Gender Number Case
 
     deriving Eq
 
-instance Param ParaPronP where
+instance Param ParaPron where
 
     values  =  [ PronP p g n c | n <- values, p <- values,
                                               g <- values, c <- values ]
+            ++ [ PronD   g n c | n <- values, g <- values, c <- values ]
+            ++ [ PronR   g n c | n <- values, g <- values, c <- values ]
 
-instance Show ParaPronP where
+instance Show ParaPron where
 
     show (PronP p g n c) =  "SP---" ++
                                [show' p, show' g, show' n, show' c] ++ "-"
 
-
-data ParaPronD  = PronD        Gender Number Case
-
-    deriving Eq
-
-instance Param ParaPronD where
-
-    values  =  [ PronD   g n c | n <- values, g <- values, c <- values ]
-
-instance Show ParaPronD where
-
     show (PronD   g n c) =  "SD----" ++ [show' g, show' n, show' c] ++ "-"
-
-
-data ParaPronR  = PronR        Gender Number Case
-
-    deriving Eq
-
-instance Param ParaPronR where
-
-    values  =  [ PronR   g n c | n <- values, g <- values, c <- values ]
-
-instance Show ParaPronR where
 
     show (PronR   g n c) =  "SR----" ++ [show' g, show' n, show' c] ++ "-"
 
@@ -1185,26 +934,26 @@ instance Param Grade    where values = enum
 -}
 
 
-data ParaNum = ParaNum  deriving (Eq, Enum)
+data ParaNum = NumQ  deriving (Eq, Enum)
 
 instance Param ParaNum where
 
-    values = [ParaNum]
+    values = [NumQ]
 
 instance Show ParaNum where
 
-    show ParaNum = "Q---------"
+    show NumQ = "Q---------"
 
 
-data ParaAdv = ParaAdv  deriving (Eq, Enum)
+data ParaAdv = AdvD  deriving (Eq, Enum)
 
 instance Param ParaAdv where
 
-    values = [ParaAdv]
+    values = [AdvD]
 
 instance Show ParaAdv where
 
-    show ParaAdv = "D---------"
+    show AdvD = "D---------"
 
 
 data ParaPrep = PrepP
@@ -1223,34 +972,34 @@ instance Show ParaPrep where
     show (PrepI c) = "PI------" ++ [show' c] ++ "-"
 
 
-data ParaConj = ParaConj  deriving (Eq, Enum)
+data ParaConj = ConjC  deriving (Eq, Enum)
 
 instance Param ParaConj where
 
-    values = [ParaConj]
+    values = [ConjC]
 
 instance Show ParaConj where
 
-    show ParaConj = "C---------"
+    show ConjC = "C---------"
 
 
-data ParaPart = ParaPart  deriving (Eq, Enum)
+data ParaPart = PartF  deriving (Eq, Enum)
 
 instance Param ParaPart where
 
-    values = [ParaPart]
+    values = [PartF]
 
 instance Show ParaPart where
 
-    show ParaPart = "F---------"
+    show PartF = "F---------"
 
 
-data ParaIntj = ParaIntj  deriving (Eq, Enum)
+data ParaIntj = IntjI  deriving (Eq, Enum)
 
 instance Param ParaIntj where
 
-    values = [ParaIntj]
+    values = [IntjI]
 
 instance Show ParaIntj where
 
-    show ParaIntj = "I---------"
+    show IntjI = "I---------"

@@ -36,8 +36,7 @@ import Encode.Arabic
 import Data.List
 
 
-data Token a = Token { lexeme :: Lexeme a, struct :: (Root, Morphs a),
-                       tag :: String }
+data Token a = Token { lexeme :: Lexeme a, struct :: (Root, Morphs a), tag :: Tag }
 
     deriving Show
 
@@ -51,7 +50,7 @@ instance Pretty [[Wrap Token]] where
 
 prettyResolve = (putStr . unlines . map head . unwrapResolve pretty')
 
-pretty' t = unwords $ map ($ t) [tag, uncurry merge . struct,
+pretty' t = unwords $ map ($ t) [show . tag, uncurry merge . struct,
                                  (\(Lexeme r _) -> show r)          . lexeme,
                                  (\(Lexeme _ l) -> show (morphs l)) . lexeme,
                                  (\(Lexeme _ l) -> show (reflex l)) . lexeme]
@@ -71,9 +70,9 @@ class Fuzzy a => Resolve a where
     resolve = resolveBy (==)
 
 
-complete :: [TagSet]
+complete :: [TagsType]
     
-complete = unTagSets (read "----------")
+complete = unTagsTypes (read "----------")
 
 
 entries :: Entry a -> [Entry a]

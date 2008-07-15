@@ -46,14 +46,14 @@ import Data.List (nub, isPrefixOf)
 import Elixir.Pretty
 
 
-instance Show a => Pretty [(String, [(Root, Morphs a)])] where
+instance Show a => Pretty [(Tag, [(Root, Morphs a)])] where
 
     pretty = sep . map pretty
 
  -- instance Pretty a => Pretty [a] where
 
 
-instance Show a => Pretty (String, [(Root, Morphs a)]) where
+instance Show a => Pretty (Tag, [(Root, Morphs a)]) where
 
     pretty = text . show
 
@@ -70,7 +70,7 @@ prettyInflect x y = (putStr . unlines . map show) (inflect x y)
 -}
 
 
-inflectDerive :: (Morphing a a, Forming a, Rules a, Derive b c, Inflect b c) => b a -> c -> [[(String, [(Root, Morphs a)])]]
+inflectDerive :: (Morphing a a, Forming a, Rules a, Derive b c, Inflect b c) => b a -> c -> [[(Tag, [(Root, Morphs a)])]]
 
 inflectDerive x y = [ inflect z y | z <- derive x y ]
 
@@ -91,7 +91,7 @@ inflectLookup l t = [ case i of WrapT x -> inflects x
 class Inflect m p where
 
     inflect :: (Rules a, Forming a, Morphing a a, Morphing (Morphs a) a) =>
-               m a -> p -> [(String, [(Root, Morphs a)])]
+               m a -> p -> [(Tag, [(Root, Morphs a)])]
 
     -- inflect :: Template b => a -> b -> Root -> [String]
 
@@ -129,18 +129,19 @@ instance Inflect Entry ParaNoun where
     inflect x = inflect (Lexeme "k t b" x)
 
 
-instance Inflect Lexeme TagSets where
+instance Inflect Lexeme TagsTypes where
 
-    inflect x (TagSets y) = inflect x y
+    inflect x (TagsTypes y) = inflect x y
 
 
-instance Inflect Lexeme TagSet where
+instance Inflect Lexeme TagsType where
 
     inflect x@(Lexeme r e) y = case y of
 
         TagsVerb z ->  inflect x z
         TagsNoun z ->  inflect x z
         TagsAdj  z ->  inflect x z
+        TagsPron z ->  inflect x z
         TagsPrep z ->  inflect x z
         TagsConj z ->  inflect x z
         TagsPart z ->  inflect x z
@@ -152,7 +153,6 @@ instance Inflect Lexeme TagsVerb where
 
     inflect (Lexeme r e) x | (not . isVerb) (entity e) = []
 
- -- inflect l x = [(show x, inflectVerb l x)]
 
     inflect (Lexeme r e) x@(TagsVerbP   v p g n) = [ (y, z) |
 
@@ -189,7 +189,7 @@ instance Inflect Lexeme TagsVerb where
 
                                 l <- nub ls ],
 
-            let y = show (VerbP v' p' g' n'),
+            let y = ParaVerb (VerbP v' p' g' n'),
 
             let z = paradigm (paraVerbP p' g' n') ]
 
@@ -248,7 +248,7 @@ instance Inflect Lexeme TagsVerb where
 
                                 l <- nub ls ],
 
-            let y = show x',
+            let y = ParaVerb x',
 
             let z = paradigm (paraVerbI m' p' g' n') ]
 
@@ -309,7 +309,7 @@ instance Inflect Lexeme TagsVerb where
 
                                 l <- nub ls ],
 
-            let y = show x',
+            let y = ParaVerb x',
 
             let z = paradigm (paraVerbC g' n') ]
 
@@ -333,7 +333,7 @@ instance Inflect Lexeme TagsNoun where
 
             c' <- vals c, s' <- vals s,
 
-            let y = show (NounS n' c' s'),
+            let y = ParaNoun (NounS n' c' s'),
 
             let z = map (inRules r c' s') i ]
 
@@ -350,21 +350,35 @@ instance Inflect Lexeme TagsAdj where
 
             c' <- vals c, s' <- vals s,
 
-            let y = show (AdjA g' n' c' s'),
+            let y = ParaAdj (AdjA g' n' c' s'),
 
             let z = map (inRules r c' s') i ]
+
+
+instance Inflect Lexeme TagsPron where
+
+    inflect x@(Lexeme r e) y | (not . isPron) (entity e) = error "HERE"
+
+    inflect (Lexeme r e) x@(TagsPronP p g n c) = [ (ParaPron (PronP p' g' n' c'), [(paraPronP p' g' n' c', morphs e)]) |
+                                                   p' <- vals p, g' <- vals g, n' <- vals n, c' <- vals c ]
+
+    inflect (Lexeme r e) x@(TagsPronD   g n c) = [ (ParaPron (PronD g' n' c'), [(paraPronD g' n' c' h, morphs e)]) |
+                                                   h <- ["h", ""], g' <- vals g, n' <- vals n, c' <- vals c ]
+
+    inflect (Lexeme r e) x@(TagsPronR   g n c) = [ (ParaPron (PronR g' n' c'), [(paraPronR g' n' c', morphs e)]) |
+                                                   g' <- vals g, n' <- vals n, c' <- vals c ]
 
 
 instance Inflect Lexeme TagsPrep where
 
     inflect x@(Lexeme r e) y | (not . isPrep) (entity e) = []
 
-    inflect (Lexeme r e) x@(TagsPrepP  ) = if null s then [(show (PrepP), [(r, m)])] else []
+    inflect (Lexeme r e) x@(TagsPrepP  ) = if null s then [(ParaPrep PrepP, [(r, m)])] else []
 
         where m@(Morphs t p s) = morphs e
 
     inflect (Lexeme r e) x@(TagsPrepI c) = if null s then []
-                                             else [ (show (PrepI c'), [(r, paraPrepI c' m)]) | c' <- vals c ]
+                                           else [ (ParaPrep (PrepI c'), [(r, paraPrepI c' m)]) | c' <- vals c ]
 
         where Morphs t p s = morphs e
               m = Morphs t p (tail s)
@@ -374,23 +388,24 @@ instance Inflect Lexeme TagsConj where
 
     inflect x@(Lexeme r e) y = case y of
 
-        TagsConjC                ->  inflect x [ ParaConj ]
+        TagsConjC                ->  inflect x [ ConjC ]
 
 
 instance Inflect Lexeme TagsPart where
 
     inflect x@(Lexeme r e) y = case y of
 
-        TagsPartF                ->  inflect x [ ParaPart ]
+        TagsPartF                ->  inflect x [ PartF ]
 
 
 instance Inflect Lexeme TagsIntj where
 
     inflect x@(Lexeme r e) y = case y of
 
-        TagsIntjI                ->  inflect x [ ParaIntj ]
+        TagsIntjI                ->  inflect x [ IntjI ]
 
 
+{-
 instance Inflect Lexeme Tags where
 
     inflect x (Tags y) = inflect x y
@@ -438,6 +453,7 @@ instance Inflect Lexeme Tag where
         TagIntj                 ->  inflect x ParaIntj
 
         _                       ->  []
+-}
 
 
 instance Inflect Lexeme String where
@@ -457,13 +473,14 @@ instance Inflect Lexeme String where
               et = entity e
 -}
 
-    inflect x@(Lexeme r e) y | isVerb et = inflect x [ z | z@(TagsVerb _) <- (unTagSets . read) y ]
-                             | isNoun et = inflect x [ z | z@(TagsNoun _) <- (unTagSets . read) y ]
-                             | isAdj  et = inflect x [ z | z@(TagsAdj  _) <- (unTagSets . read) y ]
-                             | isPrep et = inflect x [ z | z@(TagsPrep _) <- (unTagSets . read) y ]
-                             | isConj et = inflect x [ z | z@(TagsConj _) <- (unTagSets . read) y ]
-                             | isPart et = inflect x [ z | z@(TagsPart _) <- (unTagSets . read) y ]
-                             | isIntj et = inflect x [ z | z@(TagsIntj _) <- (unTagSets . read) y ]
+    inflect x@(Lexeme r e) y | isVerb et = inflect x [ z | z@(TagsVerb _) <- (unTagsTypes . read) y ]
+                             | isNoun et = inflect x [ z | z@(TagsNoun _) <- (unTagsTypes . read) y ]
+                             | isAdj  et = inflect x [ z | z@(TagsAdj  _) <- (unTagsTypes . read) y ]
+                             | isPron et = inflect x [ z | z@(TagsPron _) <- (unTagsTypes . read) y ]
+                             | isPrep et = inflect x [ z | z@(TagsPrep _) <- (unTagsTypes . read) y ]
+                             | isConj et = inflect x [ z | z@(TagsConj _) <- (unTagsTypes . read) y ]
+                             | isPart et = inflect x [ z | z@(TagsPart _) <- (unTagsTypes . read) y ]
+                             | isIntj et = inflect x [ z | z@(TagsIntj _) <- (unTagsTypes . read) y ]
                              | otherwise = []
 
         where et = entity e
@@ -516,7 +533,7 @@ instance Inflect Lexeme ParaVerb where
 
     inflect (Lexeme r e) x | (not . isVerb) (entity e) = []
 
-    inflect l x = [(show x, inflectVerb l x)]
+    inflect l x = [(ParaVerb x, inflectVerb l x)]
 
 
 inflectVerb :: (Morphing a b, Forming a, Rules a) => Lexeme a -> ParaVerb -> [(Root, Morphs b)]
@@ -865,7 +882,7 @@ paraVerbC g n i = prefix i . suffix c
                     Feminine  ->  "na"
 -}
 
-
+{-
 instance Inflect Lexeme ParaAdj where
 
     inflect (Lexeme r e) x | (not . isAdj) (entity e) = []
@@ -876,6 +893,7 @@ instance Inflect Lexeme ParaAdj where
 
 
 inflectAdj (Lexeme r e) (AdjA g n c s) = (map (inRules r c s) . inEntry' g n) e
+-}
 
 
 inEntry' Masculine n e = case n of Plural -> y
@@ -895,11 +913,12 @@ inEntry' Feminine  n e = case n of Plural | null y    -> [Right (morphs e |< At)
     where y = case entity e of Adj  _ f _ -> f
 
 
+
 instance Inflect Lexeme ParaNoun where
 
     inflect (Lexeme r e) x | (not . isNoun) (entity e) = []
 
-    inflect l x@(NounS n c s) = [(show x, inflectNoun l x)]
+    inflect l x@(NounS n c s) = [(ParaNoun x, inflectNoun l x)]
 
  -- inflect _ _               = error "Unexpected case ..."
 
@@ -1053,6 +1072,17 @@ paraY2Y c d s = case (c, d, s) of
 -}
 
 
+instance Inflect Lexeme ParaPron where
+
+    inflect x@(Lexeme r e) y | (not . isPron) (entity e) = []
+
+    inflect (Lexeme r e) x@(PronP p g n c) = [(ParaPron (PronP p g n c), [(paraPronP p g n c, morphs e)])]
+
+    inflect (Lexeme r e) x@(PronD   g n c) = [ (ParaPron (PronD g n c), [(paraPronD g n c h, morphs e)]) | h <- ["h", ""] ]
+
+    inflect (Lexeme r e) x@(PronR   g n c) = [(ParaPron (PronR g n c), [(paraPronR g n c, morphs e)])]
+
+
 paraPronP p g n c = case p of
 
     First   ->  case n of
@@ -1166,12 +1196,12 @@ instance Inflect Lexeme ParaPrep where
 
     inflect x@(Lexeme r e) y | (not . isPrep) (entity e) = []
 
-    inflect (Lexeme r e) x@(PrepP  ) = if null s then [(show x, [(r, m)])] else []
+    inflect (Lexeme r e) x@(PrepP  ) = if null s then [(ParaPrep PrepP, [(r, m)])] else []
 
         where m@(Morphs t p s) = morphs e
 
     inflect (Lexeme r e) x@(PrepI c) = if null s then []
-                                             else [(show x, [(r, paraPrepI c m)])]
+                                       else [(ParaPrep (PrepI c), [(r, paraPrepI c m)])]
 
         where Morphs t p s = morphs e
               m = Morphs t p (tail s)
@@ -1187,16 +1217,16 @@ paraPrepI c = case c of
 instance Inflect Lexeme ParaConj where
 
     inflect x@(Lexeme r e) y | (not . isConj) (entity e) = []
-                             | otherwise = [(show y, [(r, morphs e)])]
+                             | otherwise = [(ParaConj ConjC, [(r, morphs e)])]
 
 
 instance Inflect Lexeme ParaPart where
 
     inflect x@(Lexeme r e) y | (not . isPart) (entity e) = []
-                             | otherwise = [(show y, [(r, morphs e)])]
+                             | otherwise = [(ParaPart PartF, [(r, morphs e)])]
 
 
 instance Inflect Lexeme ParaIntj where
 
     inflect x@(Lexeme r e) y | (not . isIntj) (entity e) = []
-                             | otherwise = [(show y, [(r, morphs e)])]
+                             | otherwise = [(ParaIntj IntjI, [(r, morphs e)])]
