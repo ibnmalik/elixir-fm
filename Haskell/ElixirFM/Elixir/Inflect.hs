@@ -62,13 +62,6 @@ prettyInflect :: (Morphing a a, Forming a, Rules a, Show a, Inflect b c) => b a 
 
 prettyInflect x y = (putStr . unlines . map show) (inflect x y)
 
-{-
-    (putStr . unlines . map show) (zip tags infs)
-
-    where infs = inflect x y
-          tags = (concat . expandReadTags) y
--}
-
 
 inflectDerive :: (Morphing a a, Forming a, Rules a, Derive b c, Inflect b c) => b a -> c -> [[(Tag, [(Root, Morphs a)])]]
 
@@ -92,19 +85,6 @@ class Inflect m p where
 
     inflect :: (Rules a, Forming a, Morphing a a, Morphing (Morphs a) a) =>
                m a -> p -> [(Tag, [(Root, Morphs a)])]
-
-    -- inflect :: Template b => a -> b -> Root -> [String]
-
-
-{-
-
-[ (v, inflect (FiCAL |< Iy |< aT `noun` []) v)
-  | x :: ParaNoun <- values,
-    let y = case x of { NounS _ _ _ -> [x]; _ -> [] }, v <- y ]
-
-head [ l | NestT r l <- lexicon, r == "k t b" ]  !! 3
-
--}
 
 
 instance Inflect Lexeme a => Inflect Entry a where
@@ -357,7 +337,7 @@ instance Inflect Lexeme TagsAdj where
 
 instance Inflect Lexeme TagsPron where
 
-    inflect x@(Lexeme r e) y | (not . isPron) (entity e) = error "HERE"
+    inflect x@(Lexeme r e) y | (not . isPron) (entity e) = []
 
     inflect (Lexeme r e) x@(TagsPronP p g n c) = [ (ParaPron (PronP p' g' n' c'), [(paraPronP p' g' n' c', morphs e)]) |
                                                    p' <- vals p, g' <- vals g, n' <- vals n, c' <- vals c ]
@@ -405,74 +385,14 @@ instance Inflect Lexeme TagsIntj where
         TagsIntjI                ->  inflect x [ IntjI ]
 
 
-{-
-instance Inflect Lexeme Tags where
-
-    inflect x (Tags y) = inflect x y
-
-
-instance Inflect Lexeme Tag where
-
-    inflect x@(Lexeme r e) y = case y of
-
-        TagVerbP   v p g n      ->  inflect x [ VerbP v' p' g' n' |
-                                                    v' <- vals v,
-                                                    p' <- vals p,
-                                                    g' <- vals g,
-                                                    n' <- vals n ]
-
-        TagVerbI m v p g n      ->  inflect x [ VerbI m' v' p' g' n' |
-                                                    m' <- vals m,
-                                                    v' <- vals v,
-                                                    p' <- vals p,
-                                                    g' <- vals g,
-                                                    n' <- vals n ]
-
-        TagVerbC       g n      ->  inflect x [ VerbC g' n' |
-                                                    g' <- vals g,
-                                                    n' <- vals n ]
-
-        TagNounS h v   g n c s  ->  inflect x [ NounS n' c' s' |
-                                                    n' <- vals n,
-                                                    c' <- vals c,
-                                                    s' <- vals s ]
-
-        TagAdjA  h v   g n c s  ->  inflect x [ AdjA g' n' c' s' |
-                                                    g' <- vals g,
-                                                    n' <- vals n,
-                                                    c' <- vals c,
-                                                    s' <- vals s ]
-
-        TagPrepP                ->  inflect x PrepP
-
-        TagPrepI           c    ->  inflect x [ PrepI c' |
-                                                    c' <- vals c ]
-
-        TagConj                 ->  inflect x ParaConj
-        TagPart                 ->  inflect x ParaPart
-        TagIntj                 ->  inflect x ParaIntj
-
-        _                       ->  []
--}
-
-
 instance Inflect Lexeme String where
 
+    inflect x@(Lexeme r e) y = inflect x (restrict t u)
+
+                where t = fst (entity' e)
+                      u = unTagsTypes (read y)
+
 {-
-    inflect x@(Lexeme r e) | isVerb et = inflectOnly isTagParaVerb x
-                           | isNoun et = inflectOnly isTagParaNoun x
-                           | isAdj  et = inflectOnly isTagParaAdj  x
-                           | isPrep et = inflectOnly isTagParaPrep x
-                           | isConj et = inflectOnly isTagParaConj x
-                           | isPart et = inflectOnly isTagParaPart x
-                           | isIntj et = inflectOnly isTagParaIntj x
-                           | otherwise = const []
-
-        where inflectOnly x y = inflect y . filter x . -- more efficient --
-                                            unTags . read
-              et = entity e
--}
-
     inflect x@(Lexeme r e) y | isVerb et = inflect x [ z | z@(TagsVerb _) <- (unTagsTypes . read) y ]
                              | isNoun et = inflect x [ z | z@(TagsNoun _) <- (unTagsTypes . read) y ]
                              | isAdj  et = inflect x [ z | z@(TagsAdj  _) <- (unTagsTypes . read) y ]
@@ -484,49 +404,15 @@ instance Inflect Lexeme String where
                              | otherwise = []
 
         where et = entity e
+-}
 
-    {-
-
-    inflect x@(Lexeme r e) y | "VP" `isPrefixOf` y && length y == 10 &&
-                               isVerb (entity e) = inflect x z
-
-        where z = VerbP v p g n
-              [_, _, _, vc, _, pc, gc, nc, _, _] = y
-              v = if vc == 'P' then Passive else Active
-              p = if pc == '1' then First else
-                  if pc == '2' then Second else Third
-              g = if gc == 'F' then Feminine else Masculine
-              n = if nc == 'P' then Plural else
-                  if nc == 'D' then Dual else Singular
-
-    inflect x@(Lexeme r e) y | "VI" `isPrefixOf` y && length y == 10 &&
-                               isVerb (entity e) = inflect x z
-
-        where z = VerbI Indicative Active Third Masculine Singular
-
-
-    inflect x@(Lexeme r e) y | "VC" `isPrefixOf` y && length y == 10 &&
-                               isVerb (entity e) = inflect x z
-
-        where z = VerbC Masculine Singular
-
-
-    inflect x@(Lexeme r e) y | "NS" `isPrefixOf` y && length y == 10 &&
-                               isNoun (entity e) = inflect x z
-
-        where z = NounS Singular Genitive (Nothing :-: False)
-
-    inflect _ _ = []
-
-    -}
 
 instance Inflect Lexeme a => Inflect Lexeme [a] where
 
-    inflect x = concat . map (inflect x)
+    inflect x y = concat [ inflect x i | i <- y ]
 
+    -- inflect x = concat . map (inflect x)
     -- inflect = (.) concat . map . inflect
-
-    -- inflect x y = concat [ inflect x | i <- y ]
 
 
 instance Inflect Lexeme ParaVerb where
@@ -882,36 +768,6 @@ paraVerbC g n i = prefix i . suffix c
                     Feminine  ->  "na"
 -}
 
-{-
-instance Inflect Lexeme ParaAdj where
-
-    inflect (Lexeme r e) x | (not . isAdj) (entity e) = []
-
-    inflect l x@(AdjA g n c s) = [(show x, inflectAdj l x )]
-
- -- inflect _ _                = error "Unexpected case ..."
-
-
-inflectAdj (Lexeme r e) (AdjA g n c s) = (map (inRules r c s) . inEntry' g n) e
--}
-
-
-inEntry' Masculine n e = case n of Plural -> y
-                                   Dual   -> [Right (morphs e |< An)]
-                                   _      -> [Right (morphs e)]
-
-    where y = case entity e of Adj  l _ _  | null l    -> [Right (morphs e |< Un)]
-                                           | otherwise -> l
-
-inEntry' Feminine  n e = case n of Plural | null y    -> [Right (morphs e |< At)]
-                                          | otherwise -> [ Right (i |< At) | i <- y ]
-                                   Dual   | null y    -> [Right (morphs e |< aT |< An)]
-                                          | otherwise -> [ Right (i |< An) | i <- y ]
-                                   _      | null y    -> [Right (morphs e |< aT)]
-                                          | otherwise -> [ Right i | i <- y ]
-
-    where y = case entity e of Adj  _ f _ -> f
-
 
 
 instance Inflect Lexeme ParaNoun where
@@ -920,23 +776,14 @@ instance Inflect Lexeme ParaNoun where
 
     inflect l x@(NounS n c s) = [(ParaNoun x, inflectNoun l x)]
 
- -- inflect _ _               = error "Unexpected case ..."
-
 
 inflectNoun (Lexeme r e) (NounS n c s) = (map (inRules r c s) . inEntry n) e
 
 
 inEntry Plural e = case entity e of Noun l _ _ _ -> l
 
-{-
-inEntry Plural e = case entity e of Noun l _ _ _ | null l -> let Morphs t p s = morphs e in 
-                                                             case s of AT : r -> [Right (Morphs t p r |< At)]
-                                                                       _      -> [Right (morphs e |< Un)]
-                                                 | otherwise -> l
--}                                                
-
-inEntry Dual e = case entity e of Noun l _ _ _ | null l    -> []
-                                               | otherwise -> [Right (morphs e |< An)]
+inEntry Dual   e = case entity e of Noun l _ _ _ | null l    -> []
+                                                 | otherwise -> [Right (morphs e |< An)]
 
 inEntry _ e = [Right (morphs e)]
 
@@ -962,25 +809,42 @@ inRules r c (d :-: a) y = ((,) root . article . endings c d a) m
               where m@(Morphs t p s) = morph y
 
 
+instance Inflect Lexeme ParaAdj where
+
+    inflect (Lexeme r e) x | (not . isAdj) (entity e) = []
+
+    inflect l x@(AdjA g n c s) = [(ParaAdj x, inflectAdj l x )]
+
+
+inflectAdj (Lexeme r e) (AdjA g n c s) = (map (inRules r c s) . inEntry' g n) e
+
+
+inEntry' Masculine n e = case n of Plural -> y
+                                   Dual   -> [Right (morphs e |< An)]
+                                   _      -> [Right (morphs e)]
+
+    where y = case entity e of Adj  l _ _ | null l    -> [Right (morphs e |< Un)]
+                                          | otherwise -> l
+
+inEntry' Feminine  n e = case n of Plural | null y    -> [Right (morphs e |< At)]
+                                          | otherwise -> [ Right (i |< At) | i <- y ]
+                                   Dual   | null y    -> [Right (morphs e |< aT |< An)]
+                                          | otherwise -> [ Right (i |< An) | i <- y ]
+                                   _      | null y    -> [Right (morphs e |< aT)]
+                                          | otherwise -> [ Right i | i <- y ]
+
+    where y = case entity e of Adj  _ f _ -> f
+
+
+prefix :: Morphing a b => String -> a -> Morphs b
+          
 prefix x y = x >>| y
+
+
+suffix :: Morphing a b => String -> a -> Morphs b
 
 suffix x y = y |<< x
 
-
-{-
-instance Inflect String where
-
-    inflect = guessParadigm
-
-    prefix x y = x ++ y
-
-    suffix x y = y ++ x
-
-
-instance Template a => Inflect ([Root], a) where
-
-    inflect x = guessParadigm (concat (uncurry interlock x []))
--}
 
 paraTriptote, paraDiptote, paraDual, paraMasculine, paraFeminine ::
 
@@ -1033,43 +897,6 @@ paraFeminine c d a = case (c, d, a) of
 
         (Nominative, _ , _ )            -> suffix "u"
         ( _ ,        _ , _ )            -> suffix "i"
-
-
-{-
-paraI3N c d s = case (c, d, s) of
-
-        (Accusative,    Nothing,    False)  -> suffix "iyaN"
-        ( _ ,           Nothing,    False)  -> suffix "iN"
-
-        (Accusative,    _ ,         _ )     -> suffix "iya"
-        ( _ ,           _ ,         _ )     -> suffix "I"
-
-paraI2a c d s = case (c, d, s) of
-
-        (Nominative,    Nothing,    False)  -> suffix "I"
-        ( _ ,           Nothing,    False)  -> suffix "iya"
-
-        (Accusative,    _,          _ )     -> suffix "iya"
-        ( _ ,           _,          _ )     -> suffix "I"
-
-paraA3N c d s = case (c, d, s) of
-
-        ( _ , Nothing, False)   -> suffix "aN"
-        ( _ , _ ,      _    )   -> suffix "A"
-
-paraA2A c d s = case (c, d, s) of
-
-        ( _ , _ ,      _    )   -> suffix "A"
-
-paraY3N c d s = case (c, d, s) of
-
-        ( _ , Nothing, False)   -> suffix "aNY"
-        ( _ , _ ,      _    )   -> suffix "Y"
-
-paraY2Y c d s = case (c, d, s) of
-
-        ( _ , _ , _ )           -> suffix "Y"
--}
 
 
 instance Inflect Lexeme ParaPron where

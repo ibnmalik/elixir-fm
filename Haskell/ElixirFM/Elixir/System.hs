@@ -117,7 +117,6 @@ data ParaType = ParaVerb  ParaVerb
               | ParaConj  ParaConj
               | ParaPart  ParaPart
               | ParaIntj  ParaIntj
-              | ParaError [Char]
 
     deriving (Eq, Show)
 
@@ -132,7 +131,6 @@ data TagsType = TagsVerb  [TagsVerb]
               | TagsConj  [TagsConj]
               | TagsPart  [TagsPart]
               | TagsIntj  [TagsIntj]
-              | TagsError [Char]
 
     deriving (Eq, Show)
 
@@ -206,27 +204,74 @@ lets [] ys = ys
 lets xs ys = intersect xs ys
 
 
+expand :: TagsType -> TagsType
+    
+expand (TagsVerb xs) = TagsVerb (complete xs)
+expand (TagsNoun xs) = TagsNoun (complete xs)
+expand (TagsAdj  xs) = TagsAdj  (complete xs)
+expand (TagsPron xs) = TagsPron (complete xs)
+expand (TagsNum  xs) = TagsNum  (complete xs)
+expand (TagsAdv  xs) = TagsAdv  (complete xs)
+expand (TagsPrep xs) = TagsPrep (complete xs)
+expand (TagsConj xs) = TagsConj (complete xs)
+expand (TagsPart xs) = TagsPart (complete xs)
+expand (TagsIntj xs) = TagsIntj (complete xs)
+
+
 class Restrict a where
 
     restrict :: a -> [a] -> [a]
 
+    complete :: [a] -> [a]
+        
 
 instance Restrict TagsType where
 
-    restrict (TagsVerb  xs) ys = [ TagsVerb (restrict x y) | TagsVerb y <- ys, x <- xs ]
-    restrict (TagsNoun  xs) ys = [ TagsNoun (restrict x y) | TagsNoun y <- ys, x <- xs ]
-    restrict (TagsAdj   xs) ys = [ TagsAdj  (restrict x y) | TagsAdj  y <- ys, x <- xs ]
-    restrict (TagsPron  xs) ys = [ TagsPron (restrict x y) | TagsPron y <- ys, x <- xs ]
-    restrict (TagsNum   xs) ys = [ TagsNum  (restrict x y) | TagsNum  y <- ys, x <- xs ]
-    restrict (TagsAdv   xs) ys = [ TagsAdv  (restrict x y) | TagsAdv  y <- ys, x <- xs ]
-    restrict (TagsPrep  xs) ys = [ TagsPrep (restrict x y) | TagsPrep y <- ys, x <- xs ]
-    restrict (TagsConj  xs) ys = [ TagsConj (restrict x y) | TagsConj y <- ys, x <- xs ]
-    restrict (TagsPart  xs) ys = [ TagsPart (restrict x y) | TagsPart y <- ys, x <- xs ]
-    restrict (TagsIntj  xs) ys = [ TagsIntj (restrict x y) | TagsIntj y <- ys, x <- xs ]
-    restrict (TagsError xs) ys = []
+    complete [] = [TagsVerb [], TagsNoun [], TagsAdj  [], TagsPron [],
+                   TagsNum  [], TagsAdv  [], TagsPrep [], TagsConj [],
+                   TagsPart [], TagsIntj []]
+
+    complete xs = xs
+
+    restrict (TagsVerb []) ys = [ y | y@(TagsVerb _) <- ys ]
+    restrict (TagsNoun []) ys = [ y | y@(TagsNoun _) <- ys ]
+    restrict (TagsAdj  []) ys = [ y | y@(TagsAdj  _) <- ys ]
+    restrict (TagsPron []) ys = [ y | y@(TagsPron _) <- ys ]
+    restrict (TagsNum  []) ys = [ y | y@(TagsNum  _) <- ys ]
+    restrict (TagsAdv  []) ys = [ y | y@(TagsAdv  _) <- ys ]
+    restrict (TagsPrep []) ys = [ y | y@(TagsPrep _) <- ys ]
+    restrict (TagsConj []) ys = [ y | y@(TagsConj _) <- ys ]
+    restrict (TagsPart []) ys = [ y | y@(TagsPart _) <- ys ]
+    restrict (TagsIntj []) ys = [ y | y@(TagsIntj _) <- ys ]
+{-
+    restrict (TagsVerb []) ys = [ TagsVerb y | TagsVerb y <- ys ]
+    restrict (TagsNoun []) ys = [ TagsNoun y | TagsNoun y <- ys ]
+    restrict (TagsAdj  []) ys = [ TagsAdj  y | TagsAdj  y <- ys ]
+    restrict (TagsPron []) ys = [ TagsPron y | TagsPron y <- ys ]
+    restrict (TagsNum  []) ys = [ TagsNum  y | TagsNum  y <- ys ]
+    restrict (TagsAdv  []) ys = [ TagsAdv  y | TagsAdv  y <- ys ]
+    restrict (TagsPrep []) ys = [ TagsPrep y | TagsPrep y <- ys ]
+    restrict (TagsConj []) ys = [ TagsConj y | TagsConj y <- ys ]
+    restrict (TagsPart []) ys = [ TagsPart y | TagsPart y <- ys ]
+    restrict (TagsIntj []) ys = [ TagsIntj y | TagsIntj y <- ys ]
+-}
+    restrict (TagsVerb xs) ys = [ TagsVerb (restrict x y) | TagsVerb y <- ys, x <- xs ]
+    restrict (TagsNoun xs) ys = [ TagsNoun (restrict x y) | TagsNoun y <- ys, x <- xs ]
+    restrict (TagsAdj  xs) ys = [ TagsAdj  (restrict x y) | TagsAdj  y <- ys, x <- xs ]
+    restrict (TagsPron xs) ys = [ TagsPron (restrict x y) | TagsPron y <- ys, x <- xs ]
+    restrict (TagsNum  xs) ys = [ TagsNum  (restrict x y) | TagsNum  y <- ys, x <- xs ]
+    restrict (TagsAdv  xs) ys = [ TagsAdv  (restrict x y) | TagsAdv  y <- ys, x <- xs ]
+    restrict (TagsPrep xs) ys = [ TagsPrep (restrict x y) | TagsPrep y <- ys, x <- xs ]
+    restrict (TagsConj xs) ys = [ TagsConj (restrict x y) | TagsConj y <- ys, x <- xs ]
+    restrict (TagsPart xs) ys = [ TagsPart (restrict x y) | TagsPart y <- ys, x <- xs ]
+    restrict (TagsIntj xs) ys = [ TagsIntj (restrict x y) | TagsIntj y <- ys, x <- xs ]
 
 
 instance Restrict TagsVerb where
+
+    complete [] = [TagsVerbP [] [] [] [], TagsVerbI [] [] [] [] [], TagsVerbC [] []]
+
+    complete xs = xs
 
     restrict (TagsVerbP   v p g n) y = [ z | TagsVerbP    v' p' g' n' <- y,
                                              let z = TagsVerbP (lets v v')
@@ -248,6 +293,10 @@ instance Restrict TagsVerb where
 
 instance Restrict TagsNoun where
 
+    complete [] = [TagsNounS [] [] [] [] [] []]
+
+    complete xs = xs
+
     restrict (TagsNounS h v   g n c s) y = [ z | TagsNounS h' v'    g' n' c' s' <- y,
                                                  let z = TagsNounS (lets h h')
                                                                    (lets v v')
@@ -259,6 +308,10 @@ instance Restrict TagsNoun where
 
 instance Restrict TagsAdj where
 
+    complete [] = [TagsAdjA  [] [] [] [] [] []]
+
+    complete xs = xs
+                  
     restrict (TagsAdjA  h v   g n c s) y = [ z | TagsAdjA  h' v'    g' n' c' s' <- y,
                                                  let z = TagsAdjA  (lets h h')
                                                                    (lets v v')
@@ -269,6 +322,10 @@ instance Restrict TagsAdj where
 
 
 instance Restrict TagsPron where
+
+    complete [] = [TagsPronP [] [] [] [], TagsPronD [] [] [], TagsPronR [] [] []]
+
+    complete xs = xs
 
     restrict (TagsPronP     p g n c) y = [ z | TagsPronP       p' g' n' c' <- y,
                                                let z = TagsPronP (lets p p')
@@ -289,15 +346,27 @@ instance Restrict TagsPron where
 
 instance Restrict TagsNum where
 
+    complete [] = [TagsNumQ]
+
+    complete xs = xs
+                  
     restrict TagsNumQ y = [ z | TagsNumQ <- y, let z = TagsNumQ ]
 
 
 instance Restrict TagsAdv where
 
+    complete [] = [TagsAdvD]
+                  
+    complete xs = xs
+                  
     restrict TagsAdvD y = [ z | TagsAdvD <- y, let z = TagsAdvD ]
 
 
 instance Restrict TagsPrep where
+
+    complete [] = [TagsPrepP, TagsPrepI []]
+
+    complete xs = xs
 
     restrict TagsPrepP     y = [ z | TagsPrepP    <- y, let z = TagsPrepP ]
 
@@ -306,15 +375,27 @@ instance Restrict TagsPrep where
 
 instance Restrict TagsConj where
 
+    complete [] = [TagsConjC]
+
+    complete xs = xs
+
     restrict TagsConjC y = [ z | TagsConjC <- y, let z = TagsConjC ]
 
 
 instance Restrict TagsPart where
 
+    complete [] = [TagsPartF]
+
+    complete xs = xs
+
     restrict TagsPartF y = [ z | TagsPartF <- y, let z = TagsPartF ]
 
 
 instance Restrict TagsIntj where
+
+    complete [] = [TagsIntjI]
+
+    complete xs = xs
 
     restrict TagsIntjI y = [ z | TagsIntjI <- y, let z = TagsIntjI ]
 
@@ -408,19 +489,19 @@ instance Read TagsTypes where
 
                          v <- if y == "-" then "VNASQDPCFI" else y,
 
-                         let r = case v of
+                         r <- case v of
 
-                                'V' -> TagsVerb [ r | (r, "") <- reads z ]
-                                'N' -> TagsNoun [ r | (r, "") <- reads z ]
-                                'A' -> TagsAdj  [ r | (r, "") <- reads z ]
-                                'S' -> TagsPron [ r | (r, "") <- reads z ]
-                                'Q' -> TagsNum  [ r | (r, "") <- reads z ]
-                                'D' -> TagsAdv  [ r | (r, "") <- reads z ]
-                                'P' -> TagsPrep [ r | (r, "") <- reads z ]
-                                'C' -> TagsConj [ r | (r, "") <- reads z ]
-                                'F' -> TagsPart [ r | (r, "") <- reads z ]
-                                'I' -> TagsIntj [ r | (r, "") <- reads z ]
-                                _   -> TagsError "" ]
+                                'V' -> [ TagsVerb [ r | (r, "") <- reads z ] ]
+                                'N' -> [ TagsNoun [ r | (r, "") <- reads z ] ]
+                                'A' -> [ TagsAdj  [ r | (r, "") <- reads z ] ]
+                                'S' -> [ TagsPron [ r | (r, "") <- reads z ] ]
+                                'Q' -> [ TagsNum  [ r | (r, "") <- reads z ] ]
+                                'D' -> [ TagsAdv  [ r | (r, "") <- reads z ] ]
+                                'P' -> [ TagsPrep [ r | (r, "") <- reads z ] ]
+                                'C' -> [ TagsConj [ r | (r, "") <- reads z ] ]
+                                'F' -> [ TagsPart [ r | (r, "") <- reads z ] ]
+                                'I' -> [ TagsIntj [ r | (r, "") <- reads z ] ]
+                                _   -> [] ]
 
 
 instance Read TagsVerb where

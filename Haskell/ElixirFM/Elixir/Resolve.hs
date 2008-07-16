@@ -70,21 +70,6 @@ class Fuzzy a => Resolve a where
     resolve = resolveBy (==)
 
 
-complete :: [TagsType]
-    
-complete = unTagsTypes (read "----------")
-
-
-entries :: Entry a -> [Entry a]
-           
-entries e = case entity e of
-
-                Noun _ _ _ (Just _) -> [e, e { morphs = morphs e |< aT,
-                                               entity = Noun [Right (morphs e |< At)]
-                                                              Nothing Nothing Nothing }]
-                _                   -> [e]
-
-
 instance Resolve String where
 
     resolveBy q y = [ [s] | let l = units y, (r, x) <- indexList, isSubsumed r l,
@@ -93,9 +78,9 @@ instance Resolve String where
 
         where inflects y (Nest r z) = [ Token l i t | e <- z,
 
-                            s <- entries e, let l = Lexeme r s,
+                            let x = (expand . fst . entity') e, s <- entries e,
 
-                            (t, h) <- inflect l complete, i <- h,
+                            let l = Lexeme r s, (t, h) <- inflect l x, i <- h,
 
                             (units . uncurry merge) i `q` y ]
 
@@ -116,9 +101,9 @@ resolveList l c q y = [ [s] | let i = recode y, (r, x) <- l, isSubsumed r i,
 
                            [ (uncurry merge i, [Token l i t]) | e <- z,
 
-                             s <- entries e, let l = Lexeme r s,
+                             let x = (expand . fst . entity') e, s <- entries e,
 
-                             (t, h) <- inflect l complete, i <- h ]
+                             let l = Lexeme r s, (t, h) <- inflect l x, i <- h ]
 
 
 resolveMore q y = resolveListMore indexList id q y
@@ -134,7 +119,7 @@ resolveListMore l c q y = [ [s] | (r, x) <- l,
 
     where inflects y (Nest r z) = [ Token (Lexeme r e) i t | e <- z,
 
-                             let s = inflect (Lexeme r e) complete, (t, h) <- s,
+                             let s = inflect (Lexeme r e) ((expand . fst . entity') e), (t, h) <- s,
 
                              i <- h, let m = (c . uncurry merge) i, d <- y, m `q` d ]
 

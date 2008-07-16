@@ -55,9 +55,9 @@
   
     <type name="Entry.type">
         <structure role="#NODE">
-            <!--<member name="entity" type="Entity.type" role="#CHILDNODES"/>-->
-            <member name="entity" type="Entity.type"/>
             <member name="morphs" type="Morphs.type"/>
+            <member name="entity" type="Entity.type"/>
+            <!--<member name="entity" type="Entity.type" role="#CHILDNODES"/>-->
             <member name="reflex" type="Reflex.type"/>
             <member name="vallex" type="Vallex.type" role="#CHILDNODES"/>
         </structure>
