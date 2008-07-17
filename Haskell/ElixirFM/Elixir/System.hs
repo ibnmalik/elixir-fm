@@ -205,34 +205,38 @@ lets xs ys = case intersect xs ys of [] -> []
                                      zs -> [zs]
 
 
+list :: [a] -> [a] -> [a]
+
+list x [] = x
+list _ y  = y
+
+
 expand :: TagsType -> TagsType
 
-expand (TagsVerb xs) = TagsVerb (complete xs)
-expand (TagsNoun xs) = TagsNoun (complete xs)
-expand (TagsAdj  xs) = TagsAdj  (complete xs)
-expand (TagsPron xs) = TagsPron (complete xs)
-expand (TagsNum  xs) = TagsNum  (complete xs)
-expand (TagsAdv  xs) = TagsAdv  (complete xs)
-expand (TagsPrep xs) = TagsPrep (complete xs)
-expand (TagsConj xs) = TagsConj (complete xs)
-expand (TagsPart xs) = TagsPart (complete xs)
-expand (TagsIntj xs) = TagsIntj (complete xs)
+expand (TagsVerb xs) = TagsVerb (list complete xs)
+expand (TagsNoun xs) = TagsNoun (list complete xs)
+expand (TagsAdj  xs) = TagsAdj  (list complete xs)
+expand (TagsPron xs) = TagsPron (list complete xs)
+expand (TagsNum  xs) = TagsNum  (list complete xs)
+expand (TagsAdv  xs) = TagsAdv  (list complete xs)
+expand (TagsPrep xs) = TagsPrep (list complete xs)
+expand (TagsConj xs) = TagsConj (list complete xs)
+expand (TagsPart xs) = TagsPart (list complete xs)
+expand (TagsIntj xs) = TagsIntj (list complete xs)
 
 
 class Restrict a where
 
     restrict :: a -> [a] -> [a]
 
-    complete :: [a] -> [a]
+    complete :: [a]
 
 
 instance Restrict TagsType where
 
-    complete [] = [TagsVerb [], TagsNoun [], TagsAdj  [], TagsPron [],
-                   TagsNum  [], TagsAdv  [], TagsPrep [], TagsConj [],
-                   TagsPart [], TagsIntj []]
-
-    complete xs = xs
+    complete = [TagsVerb [], TagsNoun [], TagsAdj  [], TagsPron [],
+                TagsNum  [], TagsAdv  [], TagsPrep [], TagsConj [],
+                TagsPart [], TagsIntj []]
 
     restrict (TagsVerb []) ys = [ y | y@(TagsVerb _) <- ys ]
     restrict (TagsNoun []) ys = [ y | y@(TagsNoun _) <- ys ]
@@ -270,9 +274,7 @@ instance Restrict TagsType where
 
 instance Restrict TagsVerb where
 
-    complete [] = [TagsVerbP [] [] [] [], TagsVerbI [] [] [] [] [], TagsVerbC [] []]
-
-    complete xs = xs
+    complete = [TagsVerbP [] [] [] [], TagsVerbI [] [] [] [] [], TagsVerbC [] []]
 
     restrict (TagsVerbP   v p g n) y = [ TagsVerbP    v  p  g  n  |
                                          TagsVerbP    v' p' g' n' <- y,
@@ -292,9 +294,7 @@ instance Restrict TagsVerb where
 
 instance Restrict TagsNoun where
 
-    complete [] = [TagsNounS [] [] [] [] [] []]
-
-    complete xs = xs
+    complete = [TagsNounS [] [] [] [] [] []]
 
     restrict (TagsNounS h v   g n c s) y = [ TagsNounS h  v     g  n  c  s  |
                                              TagsNounS h' v'    g' n' c' s' <- y,
@@ -305,9 +305,7 @@ instance Restrict TagsNoun where
 
 instance Restrict TagsAdj where
 
-    complete [] = [TagsAdjA  [] [] [] [] [] []]
-
-    complete xs = xs
+    complete = [TagsAdjA  [] [] [] [] [] []]
 
     restrict (TagsAdjA  h v   g n c s) y = [ TagsAdjA  h  v     g  n  c  s  |
                                              TagsAdjA  h' v'    g' n' c' s' <- y,
@@ -318,9 +316,7 @@ instance Restrict TagsAdj where
 
 instance Restrict TagsPron where
 
-    complete [] = [TagsPronP [] [] [] [], TagsPronD [] [] [], TagsPronR [] [] []]
-
-    complete xs = xs
+    complete = [TagsPronP [] [] [] [], TagsPronD [] [] [], TagsPronR [] [] []]
 
     restrict (TagsPronP     p g n c) y = [ TagsPronP       p  g  n  c  |
                                            TagsPronP       p' g' n' c' <- y,
@@ -340,27 +336,21 @@ instance Restrict TagsPron where
 
 instance Restrict TagsNum where
 
-    complete [] = [TagsNumQ]
-
-    complete xs = xs
+    complete = [TagsNumQ]
 
     restrict TagsNumQ y = [ TagsNumQ | TagsNumQ <- y ]
 
 
 instance Restrict TagsAdv where
 
-    complete [] = [TagsAdvD]
-
-    complete xs = xs
+    complete = [TagsAdvD]
 
     restrict TagsAdvD y = [ TagsAdvD | TagsAdvD <- y ]
 
 
 instance Restrict TagsPrep where
 
-    complete [] = [TagsPrepP, TagsPrepI []]
-
-    complete xs = xs
+    complete = [TagsPrepP, TagsPrepI []]
 
     restrict TagsPrepP     y = [ TagsPrepP | TagsPrepP <- y ]
 
@@ -370,27 +360,21 @@ instance Restrict TagsPrep where
 
 instance Restrict TagsConj where
 
-    complete [] = [TagsConjC]
-
-    complete xs = xs
+    complete = [TagsConjC]
 
     restrict TagsConjC y = [ TagsConjC | TagsConjC <- y ]
 
 
 instance Restrict TagsPart where
 
-    complete [] = [TagsPartF]
-
-    complete xs = xs
+    complete = [TagsPartF]
 
     restrict TagsPartF y = [ TagsPartF | TagsPartF <- y ]
 
 
 instance Restrict TagsIntj where
 
-    complete [] = [TagsIntjI]
-
-    complete xs = xs
+    complete = [TagsIntjI]
 
     restrict TagsIntjI y = [ TagsIntjI | TagsIntjI <- y ]
 
