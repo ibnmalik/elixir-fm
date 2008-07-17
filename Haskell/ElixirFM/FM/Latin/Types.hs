@@ -27,17 +27,17 @@ import FM.Generic.Invariant
 
 {- Latin noun inflectional parameters -}
 
-data Case   = Nominative | 
+data Case   = Nominative |
 	      Vocative   |
-	      Accusative | 
+	      Accusative |
 	      Genitive   |
-	      Dative     | 
-	      Ablative     
+	      Dative     |
+	      Ablative
  deriving (Show,Eq,Enum,Ord,Bounded)
 
 instance Param Case    where values = enum
 
-data Number = Singular | 
+data Number = Singular |
 	      Plural
  deriving (Show,Eq,Enum,Ord,Bounded)
 
@@ -45,8 +45,8 @@ instance Param Number  where values = enum
 
 {- Latin noun inherent parameter -}
 
-data Gender = Masculine | 
-              Feminine  | 
+data Gender = Masculine |
+              Feminine  |
 	      Neuter
  deriving (Show,Eq,Enum,Ord,Bounded)
 
@@ -58,13 +58,13 @@ data NounForm = NounForm Number Case
 instance Param NounForm where
     values = [NounForm n c | n <- values , c <- values]
     prValue (NounForm n c) = unwords $ [prValue n, prValue c]
-			
+
 type Noun = NounForm -> Str
 
 {- Latin adjectives -}
 
-data Grade = Positive    | 
-	     Comparative | 
+data Grade = Positive    |
+	     Comparative |
 	     Superlative
  deriving (Show,Eq,Enum,Ord,Bounded)
 
@@ -74,12 +74,12 @@ data AdjectiveForm = AdjectiveForm Grade Gender Number Case
  deriving (Show,Eq)
 
 instance Param AdjectiveForm where
-    values = [AdjectiveForm gr g n c | 
-	      gr <- values, 
-	      g  <- values, 
-	      n <- values, 
+    values = [AdjectiveForm gr g n c |
+	      gr <- values,
+	      g  <- values,
+	      n <- values,
 	      c <- values]
-    prValue (AdjectiveForm gr g n c) = 
+    prValue (AdjectiveForm gr g n c) =
 	unwords $ [prValue gr, prValue g, prValue n, prValue c]
 
 type Adjective = AdjectiveForm -> Str
@@ -122,25 +122,25 @@ type Preposition = PrepForm -> Str
 
 data Person = First  |
 	      Second |
-	      Third 
+	      Third
  deriving (Show,Eq,Enum,Ord,Bounded)
 
 data PersonI = SecondI |
-	       ThirdI 
- deriving (Show,Eq,Enum,Ord,Bounded)	  
+	       ThirdI
+ deriving (Show,Eq,Enum,Ord,Bounded)
 
 data Tense = Present       |
-	     Imperfect     | 
+	     Imperfect     |
 	     Future        |
 	     Perfect       |
 	     FuturePerfect |
 	     PluPerfect
- deriving (Show,Eq,Enum,Ord,Bounded)	  
+ deriving (Show,Eq,Enum,Ord,Bounded)
 
 data TenseI = PresentI |
 	      PerfectI |
-	      FutureI 
- deriving (Show,Eq,Enum,Ord,Bounded)	  
+	      FutureI
+ deriving (Show,Eq,Enum,Ord,Bounded)
 
 data TenseS = PresentS   |
               ImperfectS |
@@ -150,9 +150,9 @@ data TenseS = PresentS   |
 
 data Voice = Active |
 	     Passive
- deriving (Show,Eq,Enum,Ord,Bounded)	  
+ deriving (Show,Eq,Enum,Ord,Bounded)
 
-data VerbForm = 
+data VerbForm =
     Indicative Person Number Tense Voice   |
     Infinitive TenseI Voice                |
     ParticiplesFuture  Voice               |
@@ -168,8 +168,8 @@ data VerbForm =
     GerundAcc                              |
     GerundAbl                              |
     SupineAcc                              |
-    SupineAblative 
- deriving (Show,Eq,Ord)	  
+    SupineAblative
+ deriving (Show,Eq,Ord)
 
 {- Instance of Param -}
 
@@ -181,31 +181,31 @@ instance Param TenseS  where values = enum
 instance Param Voice   where values = enum
 
 instance Param VerbForm where
-    values = 
-     [Indicative p n t v | 
+    values =
+     [Indicative p n t v |
       v <- values,
-      t <- values, 
+      t <- values,
       n <- values,
       p <- values
      ] ++
      [Infinitive t v | t <- values, v <- values] ++
-     [ParticiplesFuture v | v <- values] ++ 
-     [ParticiplesPresent, 
+     [ParticiplesFuture v | v <- values] ++
+     [ParticiplesPresent,
       ParticiplesPerfect] ++
-     [Subjunctive p n t v | 
+     [Subjunctive p n t v |
       v <- values,
       t <- values,
-      n <- values, 
+      n <- values,
       p <- values
      ] ++
-     [ImperativePresent n v | 
-      n <- values, 
-      v <- values] ++   
+     [ImperativePresent n v |
+      n <- values,
+      v <- values] ++
      [ImperativeFutureActive  n p | n <- values, p <- values] ++
      [ImperativeFuturePassiveSing p | p <- values] ++
      [
       ImperativeFuturePassivePl,
-      GerundGenitive, GerundDative, GerundAcc,    
+      GerundGenitive, GerundDative, GerundAcc,
       GerundAbl, SupineAcc, SupineAblative
      ]
 

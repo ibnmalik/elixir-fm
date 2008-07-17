@@ -1,11 +1,11 @@
 -- A strict general trie for types with orderings
-module FM.Generic.Trie 
+module FM.Generic.Trie
     (
 
-     Trie, 
+     Trie,
 
      -- * Construction
-     empty, 
+     empty,
      fromList, fromListWith,
      insert, insertWith,
 
@@ -43,7 +43,7 @@ fromListWith :: Ord a => (b -> b -> b) -> [([a], b)] -> Trie a b
 fromListWith f = fromListWith' f id
 
 -- | Construct a trie from a list of (key, value) pairs
---   with a combining function for values of equals keys, 
+--   with a combining function for values of equals keys,
 --   and a construction function used the first time a key is inserted.
 --   The order in which the elements are inserted and passed
 --   to the combining function is unspecified.
@@ -73,7 +73,7 @@ insertWith' :: Ord a => (b -> c -> b) -- ^ The first argument is the existing va
                 --   in the map if there is no existing value.
     -> [a] -> c -> Trie a b -> Trie a b
 insertWith' f g cs y = insertWith_ cs
-    where 
+    where
     insertWith_ []     (Node m)      = ValNode m (g y)
     insertWith_ []     (ValNode m v) = ValNode m (f v y)
     insertWith_ (c:cs) t             = updateMap h t
@@ -100,7 +100,7 @@ member k tr = isJust (lookup k tr)
 --   The results are ordered by key.
 toList :: Trie a b -> [([a],b)]
 toList t = collapse t []
-    where 
+    where
     collapse (Node m)      xs = rest m xs
     collapse (ValNode m v) xs = (reverse xs, v) : rest m xs
     rest m xs = concat [collapse tr (c:xs) | (c,tr) <- Map.toList m]

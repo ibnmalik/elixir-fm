@@ -61,8 +61,8 @@ elemtxt x y c = text ("<" ++ x) <> attrs y <> text ">"
 
 elempty x y   = text ("<" ++ x) <> attrs y <> text " />"
 
-elemesp x []  = elempty x [] 
-elemesp x y   = element x [] (vcat y) 
+elemesp x []  = elempty x []
+elemesp x y   = element x [] (vcat y)
 
 
 attrs y = foldl (</>) empty [ text a <> equals <> dquotes (text (escaqe v)) | (a, v) <- y ]
@@ -123,13 +123,13 @@ instance (Show a, Pretty (Entity a)) => Pretty (Entry a) where
 instance (Show a, Pretty [a]) => Pretty (Entity a) where
 
     pretty x = case x of    Verb f p i c t v    ->  elemesp "Verb" $
-    	       	      	    	       	
+
             					eraseEmpty f [ elemtxt "form"   [] $ (pretty . map show) f ]
                                 ++
                                 eraseEmpty p [ elemtxt "pfirst" [] $ (pretty . map show) p ]
-                                ++				
+                                ++
                                 eraseEmpty i [ elemtxt "imperf" [] $ (pretty . map show) i ]
-                                ++				
+                                ++
             					eraseEmpty c [ elemtxt "second" [] $ (pretty . map show) c ]
             					++
             					eraseNothing t [ elemtxt "tense" [] $ pretty t ]

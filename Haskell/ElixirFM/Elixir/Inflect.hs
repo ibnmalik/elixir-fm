@@ -837,7 +837,7 @@ inEntry' Feminine  n e = case n of Plural | null y    -> [Right (morphs e |< At)
 
 
 prefix :: Morphing a b => String -> a -> Morphs b
-          
+
 prefix x y = x >>| y
 
 

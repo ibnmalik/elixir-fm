@@ -6,7 +6,7 @@ import FM.Generic.Dictionary
 data Invariant = Invariant
   deriving (Show,Eq,Enum,Ord,Bounded)
 
-instance Param Invariant 
+instance Param Invariant
     where values = enum
 
 instance Dict Invariant

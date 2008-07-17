@@ -9,15 +9,15 @@
 -- > CVS $Author: markus $
 -- > CVS $Revision$
 --
--- A Trie ADT for Functional Morphology 
+-- A Trie ADT for Functional Morphology
 -----------------------------------------------------------------------------
 module FM.Generic.CTrie (
-              buildTrie, 
-              buildTrieDict, 
+              buildTrie,
+              buildTrieDict,
               buildTrieDictSynt,
               buildTrieWordlist,
-              trie_lookup, 
-              isInTrie, 
+              trie_lookup,
+              isInTrie,
               decompose
              ) where
 
@@ -33,7 +33,7 @@ foreign import ccall "trie_lib.h build"        build     :: CString -> IO()
 foreign import ccall "trie_lib.h lookup_t"     lookup_t  :: CString -> IO()
 foreign import ccall "trie_lib.h start"        start     :: IO()
 foreign import ccall "trie_lib.h stop"         stop      :: IO()
-foreign import ccall "trie_lib.h next"         next      :: IO CString 
+foreign import ccall "trie_lib.h next"         next      :: IO CString
 foreign import ccall "trie_lib.h more"         more      :: IO CInt
 foreign import ccall "trie_lib.h getNumber"    getNumber :: CString -> CInt
 foreign import ccall "trie_lib.h in_t"         in_t      :: CString -> CInt
@@ -64,14 +64,14 @@ buildTrieDictSynt :: Dictionary -> Bool -> IO ()
 buildTrieDictSynt d b = do empty
 		           when b reversed
                            start
-                           build_it $ prLex $ (dict2fullform d) 
+                           build_it $ prLex $ (dict2fullform d)
                            no_count
                            build_it $ prLex $ (dict2idlex d)
 		           stop
 
 prLex :: FullFormLex -> [(String,String)]
 prLex = concat . map prOne where
-  prOne (s,ps)  = [(s,a) | a <- map prAttr ps]	
+  prOne (s,ps)  = [(s,a) | a <- map prAttr ps]
   prAttr (a,ss) = ss ++ prCompAttr a
   prCompAttr a  = " [" ++ show a ++ "] "
 
@@ -95,7 +95,7 @@ trie_lookup :: String -> [(Attr,String)]
 trie_lookup = cstring2string . lookup_trie
 
 lookup_trie :: String -> [(Attr,CString)]
-lookup_trie s = 
+lookup_trie s =
             unsafePerformIO $
                 do withCString s lookup_t
                    process
@@ -118,12 +118,12 @@ isInTrie s = unsafePerformIO $
 {- |Compound analysis -}
 decompose :: ([Attr] -> Bool) -> String -> [[(Attr,String)]]
 decompose _  [] = []
-decompose f sentence = 
+decompose f sentence =
  	concat $ map ((map cstring2string) . legal f) $ deconstruct sentence
 
 {- |Translates the CString:s to String:s.-}
 cstring2string :: [(Attr,CString)] -> [(Attr,String)]
-cstring2string = map f 
+cstring2string = map f
   where f (a,cs) = (a,unsafePerformIO $ peekCString cs)
 
 {- |Is the set of substrings legal with respect to the compound
@@ -136,7 +136,7 @@ legal f input = removeInvalids attrValues
    | f (map fst xs)           = xs : removeInvalids xss -- Sequence valid
    | otherwise                = removeInvalids xss
   flatten       [] = [[]] -- combine all analyses with all other analyses
-  flatten (xs:xss) = [x:ys | x <- xs, ys <- res] 
+  flatten (xs:xss) = [x:ys | x <- xs, ys <- res]
       where res = flatten xss
   attrValues = flatten $ map (lookup_trie) input
 
@@ -144,6 +144,6 @@ legal f input = removeInvalids attrValues
    considering the compound attributes. -}
 deconstruct :: String -> [[String]]
 deconstruct [] = [[]]
-deconstruct s  = 
+deconstruct s  =
     concat [map (p:) (deconstruct r) | (p@(_:_),r) <- zip (inits s) (tails s),
 	                                              isInTrie p]

@@ -30,20 +30,20 @@ is_lexicon = isSuffixOf ".lexicon"
 output :: [Flag] -> Maybe FilePath
 output xs = case [f | Output f <- xs] of
              [f] -> Just f
-             _   -> Nothing  
+             _   -> Nothing
 
 fullformflag :: [Flag] -> Bool
-fullformflag xs = 
+fullformflag xs =
     case [p | p@(Print "lex") <- xs] of
      [_] -> True
      _   -> False
 
 
 {-|Data type for the Command line arguments. -}
-data Flag 
-     = Help          | 
-       Version       | 
-       Input  String | 
+data Flag
+     = Help          |
+       Version       |
+       Input  String |
        Output String |
        Print  String |
        Mode   String |
@@ -51,10 +51,10 @@ data Flag
        Paradigms     |
        Synth         |
        Inflect       |
-       InflectB      
+       InflectB
        deriving (Show,Eq)
 
-{- |Lists all possible arguments and their explainations -}    
+{- |Lists all possible arguments and their explainations -}
 options :: [OptDescr Flag]
 options =
     [ Option ['h'] ["help"]         (NoArg Help)             "display this message"
@@ -67,14 +67,14 @@ options =
     , Option ['b'] ["batch"]       (NoArg InflectB)           "Inflection batch mode"
     , Option ['s'] ["synthesizer"] (NoArg Synth)             "Synthesizer mode"
     ]
-    
+
 inp,outp :: Maybe String -> Flag
 outp = Output . fromMaybe "stdout"
 inp  = Input  . fromMaybe "stdin"
 
-{- |Collect the valid arguments. Raises an IO error if it fails.  -} 
+{- |Collect the valid arguments. Raises an IO error if it fails.  -}
 compilerOpts :: [String] -> ([Flag], [String])
-compilerOpts argv = 
+compilerOpts argv =
        case getOpt Permute options argv of
         (o,fs,[] ) -> (o,fs)
         (_,_,errs)  -> error (usageInfo [] options)

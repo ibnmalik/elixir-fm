@@ -7,7 +7,7 @@ import IO
 
 nWords :: String -> [String]
 nWords [] = []
-nWords (c:cs) 
+nWords (c:cs)
  | not (isSpace c) = case span (not . isSpace) cs of
                        (xs,ys) -> ((case c of
 				 'Á' -> 'á'
@@ -17,19 +17,19 @@ nWords (c:cs)
 				 'U' -> 'ú'--obs!
 				 'Ü' -> 'ü'
 				 'Ý' -> 'ý'
-				 'Ñ' -> 'ñ'				
+				 'Ñ' -> 'ñ'
 				 c   -> toLower c):xs):nWords ys
  | isSpace c    = nWords cs
- where 
+ where
   alphanumeric c = isAlpha c || elem c "ÁáÉéÍíÓóúÜüÝýÑñ"
 
-main 
+main
     = do xs <- getArgs
 	 case xs of
 	  [file] -> do prErr welcome
                        s <- readFile file
-		       let ws = unlines $ map unwords $ 
-				          sort $ nub  $ 
+		       let ws = unlines $ map unwords $
+				          sort $ nub  $
 					  map nWords  $ lines s
 		       putStr ws
 	  _ -> do prErr welcome

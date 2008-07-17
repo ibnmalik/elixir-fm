@@ -35,6 +35,23 @@ import Encode.Arabic
 
 import Data.List
 
+{-
+import Data.List hiding (elem, notElem)
+
+import Prelude hiding (elem, notElem)
+
+
+elem, notElem :: Eq a => a -> [a] -> Bool
+
+elem _ []	  = False
+elem x (y:ys) = x==y || elem x ys
+
+notElem	_ []	 = True
+notElem x (y:ys) = x /= y && notElem x ys
+
+infix  4 `elem`, `notElem`
+-}
+
 
 data Token a = Token { lexeme :: Lexeme a, struct :: (Root, Morphs a), tag :: Tag }
 
@@ -129,22 +146,22 @@ resolveSub r = resolveBy (\ x y -> any (isPrefixOf x) (tails y)) r
 
 -- unwrapResolve (uncurry merge . struct) $ resolveBy (omitting "aiuAUI") "ktbuN"
 
-omitting' :: Eq a => [[a]] -> [a] -> [a] -> Bool
+omitting' :: Eq a => (a -> a -> Bool) -> [[a]] -> [a] -> [a] -> Bool
 
-omitting' c x y = omitting (concat c) x y
+omitting' f c x y = omitting f (concat c) x y
 
 
-omitting :: Eq a => [a] -> [a] -> [a] -> Bool
+omitting :: Eq a => (a -> a -> Bool) -> [a] -> [a] -> [a] -> Bool
 
-omitting _ []    []      = True
-omitting _ []    _       = False
+omitting f _ []    []      = True
+omitting f _ []    _       = False
 
-omitting c (k:l) s@(q:r) | k == q     = omitting c l r
-                         | k `elem` c = omitting c l s
-                         | otherwise  = False
+omitting f c (k:l) s@(q:r) | k `f` q    = omitting f c l r
+                           | k `elem` c = omitting f c l s
+                           | otherwise  = False
 
-omitting c (k:l) []      | k `elem` c = omitting c l []
-                         | otherwise  = False
+omitting f c (k:l) []      | k `elem` c = omitting f c l []
+                           | otherwise  = False
 
 
 isSubsumed :: Eq a => [a] -> [a] -> Bool
@@ -169,6 +186,7 @@ class Eq a => Fuzzy a where
     omits :: [a]
     skips :: [a]
     units :: a -> [a]
+    fuzzy :: a -> a -> Bool
 
 
 instance Fuzzy String where
@@ -181,10 +199,12 @@ instance Fuzzy String where
     units ('^':z:s) | z `elem` "gscznl"  = ['^', z] : units s
     units ('.':z:s) | z `elem` "hsdtzgr" = ['.', z] : units s
     units (',':z:s) | z `elem` "c"       = [',', z] : units s
-                                           
+
     units (d:zs) = [d] : units zs
 
     units []     = []
+
+    fuzzy x y = x == y
 
 
 instance Fuzzy [UPoint] where
@@ -194,6 +214,42 @@ instance Fuzzy [UPoint] where
     omits = [ [x] | x <- decode Tim "aiuo~`FNK" ]
 
     units x = [ [y] | y <- x ]    -- can become more complex
+
+    fuzzy [x] [y] = equiv (fromEnum x) (fromEnum y)
+    fuzzy _  _    = False         -- can become more complex
+
+
+equiv :: Int -> Int -> Bool
+
+equiv 0x0621 y | y `elem` [0x0621, 0x0624, 0x0626] = True
+
+equiv 0x0622 y | y > 0x0620 && y < 0x0628 = True
+equiv 0x0623 y | y > 0x0620 && y < 0x0628 = True
+equiv 0x0625 y | y > 0x0620 && y < 0x0628 = True
+
+{-
+equiv 0x0622 y | y `elem` [0x0622, 0x0627, 0x0623, 0x0625, 0x0621, 0x0624, 0x0626] = True
+equiv 0x0623 y | y `elem` [0x0623, 0x0627, 0x0625, 0x0622, 0x0621, 0x0624, 0x0626] = True
+equiv 0x0625 y | y `elem` [0x0625, 0x0627, 0x0623, 0x0622, 0x0621, 0x0624, 0x0626] = True
+-}
+
+equiv 0x0627 y | y `elem` [0x0627, 0x0623, 0x0625, 0x0671] = True
+equiv 0x0671 y | y `elem` [0x0671, 0x0627, 0x0623, 0x0625] = True
+
+equiv 0x0624 y | y > 0x0622 && y < 0x0628 || y `elem` [0x0621,         0x0648] = True
+equiv 0x0626 y | y > 0x0622 && y < 0x0628 || y `elem` [0x0621, 0x0649, 0x064A] = True
+
+{-
+equiv 0x0624 y | y `elem` [0x0624, 0x0621, 0x0648,         0x0626, 0x0623, 0x0625, 0x0627] = True
+equiv 0x0626 y | y `elem` [0x0626, 0x0621, 0x0649, 0x064A, 0x0624, 0x0623, 0x0625, 0x0627] = True
+-}
+
+equiv 0x0649 y | y `elem` [0x0649, 0x064A] = True
+equiv 0x064A y | y `elem` [0x064A, 0x0649] = True
+
+equiv 0x0629 y | y `elem` [0x0629, 0x0647] = True
+
+equiv x y = x == y
 
 
 next :: String -> Maybe (String, String)
@@ -210,7 +266,7 @@ next []     = Nothing
 letters :: String -> [String]
 
 letters = units
-          
+
 -- letters = unfoldr next
 
 {-

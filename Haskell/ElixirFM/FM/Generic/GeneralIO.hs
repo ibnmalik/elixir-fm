@@ -2,12 +2,12 @@
 -- |
 -- Module      : FM.Generic.GeneralIO
 -- Maintainer  : Markus Forsberg
--- Stability   : 
--- Portability : 
+-- Stability   :
+-- Portability :
 --
--- Top-level functions: 
+-- Top-level functions:
 -- * reading/writing morphology databases
--- * writing Lexicon, Tables, GF, XFST, Latex 
+-- * writing Lexicon, Tables, GF, XFST, Latex
 -- * analysis/synthesis (Trie)
 --
 -----------------------------------------------------------------------------
@@ -42,7 +42,7 @@ writeLex f m = do h <- openFile f WriteMode
 outputLex m = prFullFormLex stdout $ dict2fullform m
 
 
-outputNewLex = putStrLnUTF8 . prNewDictionary 
+outputNewLex = putStrLnUTF8 . prNewDictionary
 
 writeTables :: FilePath -> Dictionary -> IO ()
 writeTables f m = writeFileUTF8 f $ prDictionary m
@@ -50,33 +50,33 @@ writeTables f m = writeFileUTF8 f $ prDictionary m
 outputTables m =  putStrLnUTF8 $ prDictionary m
 
 writeGF :: FilePath -> FilePath -> Dictionary -> IO ()
-writeGF f1 f2 m = writeFileUTF8 f1 $ 
+writeGF f1 f2 m = writeFileUTF8 f1 $
 		  "-- machine-generated GF file\n\n" ++
-		  "include " ++ f2 ++ " ;\n\n" ++ 
+		  "include " ++ f2 ++ " ;\n\n" ++
 		  prGF m
 
 
-outputGF f2 m = putStrLnUTF8 $ 
+outputGF f2 m = putStrLnUTF8 $
 		"-- machine-generated GF file\n\n" ++
-		"include " ++ f2 ++ " ;\n\n" ++ 
+		"include " ++ f2 ++ " ;\n\n" ++
 		prGF m
 
 writeGFRes :: FilePath -> FilePath -> Dictionary -> IO ()
-writeGFRes f1 f2 m = writeFileUTF8 f1 $ 
+writeGFRes f1 f2 m = writeFileUTF8 f1 $
 		  "-- machine-generated GF file\n\n" ++
-		  "include " ++ f2 ++ " ;\n\n" ++ 
+		  "include " ++ f2 ++ " ;\n\n" ++
 		  prGFRes m
 
 
-outputGFRes f2 m = putStrLnUTF8 $ 
+outputGFRes f2 m = putStrLnUTF8 $
 		  "-- machine-generated GF file\n\n" ++
-		  "include " ++ f2 ++ " ;\n\n" ++ 
+		  "include " ++ f2 ++ " ;\n\n" ++
 		  prGFRes m
 
 -- writeGF1 :: FilePath -> FilePath -> Dictionary -> IO ()
--- writeGF1 f1 f2 m = writeFileUTF8 f1 $ 
+-- writeGF1 f1 f2 m = writeFileUTF8 f1 $
 -- 		   "-- machine-generated GF file\n\n" ++
---		   "include " ++ f2 ++ " ;\n\n" ++ 
+--		   "include " ++ f2 ++ " ;\n\n" ++
 --		   prGF1 m
 
 
@@ -86,20 +86,20 @@ writeXML f m = writeFileUTF8 f $ prXML m
 outputXML m = putStrLnUTF8 $ prXML m
 
 writeXFST :: FilePath -> Dictionary -> IO ()
-writeXFST f m = writeFileUTF8 f $ 
+writeXFST f m = writeFileUTF8 f $
 		"# machine-generated XFST file\n\n" ++
 		prXFST m
 
-outputXFST m = putStrLnUTF8 $ 
+outputXFST m = putStrLnUTF8 $
 	       "# machine-generated XFST file\n\n" ++
 	       prXFST m
 
 writeLEXC :: FilePath -> Dictionary -> IO ()
-writeLEXC f m = writeFileUTF8 f $ 
+writeLEXC f m = writeFileUTF8 f $
 		"! machine-generated LEXC file\n\n" ++
 		prLEXC m
 
-outputLEXC m = putStrLnUTF8 $ 
+outputLEXC m = putStrLnUTF8 $
 	       "! machine-generated LEXC file\n\n" ++
 	       prLEXC m
 
@@ -115,7 +115,7 @@ writeSQL f m =  writeFileUTF8 f $ prSQL m
 
 outputSQL :: Dictionary -> IO ()
 outputSQL m =  putStrLnUTF8 $ prSQL m
-   
+
 analysis :: ([Attr] -> Bool) -> String -> [[String]]
 analysis f s =  map (map snd) $ CTrie.decompose f s
 
@@ -123,10 +123,10 @@ analysis f s =  map (map snd) $ CTrie.decompose f s
 
 lookupId :: String -> [String]
 lookupId s = nub [identifier n | s:n:_ <-  map (words . snd) (CTrie.trie_lookup s)]
-   where identifier = takeWhile (\c -> c /= ':')  . tail 
+   where identifier = takeWhile (\c -> c /= ':')  . tail
 
 synthesiser :: Language a => a -> IO()
-synthesiser l =         
+synthesiser l =
     do hPutStr stdout "> "
        hFlush stdout
        s <- hGetLine stdin
@@ -135,18 +135,18 @@ synthesiser l =
 	 ["c"] -> do putStrLnUTF8 $ unlines (paradigmNames l)
 		     synthesiser l
          []  -> synthesiser l
-         [w] -> 
+         [w] ->
            case(lookupId w) of
-	    [] -> do putStrLnUTF8 $ "No entry '" ++ w ++ "' found in the lexicon." 
+	    [] -> do putStrLnUTF8 $ "No entry '" ++ w ++ "' found in the lexicon."
 	             synthesiser l
-	    xs   -> do putStrLnUTF8 $ "[ " ++ "<" ++ w ++ ">" 
+	    xs   -> do putStrLnUTF8 $ "[ " ++ "<" ++ w ++ ">"
                        sequence_ [print_table x (reverse (map snd (CTrie.trie_lookup x))) | x <- xs]
 		       putStrLnUTF8 $ "]"
-	   	       synthesiser l 
+	   	       synthesiser l
          x:xs -> case (parseCommand l (unwords (x:xs))) of
 			    Bad s -> do putStrLnUTF8 s
 			                synthesiser l
-			    Ok e  -> do putStrLnUTF8 $ prDictionary $ 
+			    Ok e  -> do putStrLnUTF8 $ prDictionary $
 					           dictionary [e]
 			                synthesiser l
    where print_table id xs = do putStrLnUTF8 "{"
@@ -172,7 +172,7 @@ synthesiser l =
 
 {-
 synthesiser :: Language a => a -> Dictionary -> IO()
-synthesiser l dict = synt 
+synthesiser l dict = synt
  where table =  listToFM [((s1,s1++"_"++c),(c,xs,t,e)) | (s1,c,xs,t,e) <- (unDict dict)]
        synt =
 -}
@@ -195,13 +195,13 @@ infMode l
 	      [] -> infMode l
 
 imode :: Language a => a  -> IO()
-imode l = interact (concat . map f . lines) 
+imode l = interact (concat . map f . lines)
   where f s =
 	 case (words s) of
 	  (('-':'-':_):_) -> ""
 	  (x:xs) -> do case (parseCommand l (unwords (x:xs))) of
 		        Bad s -> s
-		        Ok e  -> unlines 
+		        Ok e  -> unlines
 				 ["[" ++ unwords (rcw (x:xs)) ++ "]",
 				  prDictionary $ dictionary [e]]
 	  _     -> ""

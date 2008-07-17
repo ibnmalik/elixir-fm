@@ -40,7 +40,7 @@ import FM.Generic.ErrM
 import FM.Generic.UTF8
 
 -- | An instance of the Dict class provides information on how
--- | to construct an entry for a given dictionary type. In 
+-- | to construct an entry for a given dictionary type. In
 -- | particular, it associated a word class identifier to the
 -- | dictionary type.
 class Param a => Dict a where
@@ -52,7 +52,7 @@ class Param a => Dict a where
   defaultAttr = const noComp
   attrException :: (a -> Str) -> [(a,Attr)]
   attrException = const []
-  
+
 -- | The Dictionary ADT
 data Dictionary       = Dict [Entry]
 
@@ -76,7 +76,7 @@ type Inflection_Table = [(Untyped,(Attr,Str))]
 
 -- | It is possible to add information about every word form,
 -- | such as pronounciation.
-type Extra            = [Str] 
+type Extra            = [Str]
 
 -- | Paradigm identifier.
 type Paradigm = String
@@ -98,12 +98,12 @@ shareDictionary (Dict xs) = Dict $ map shareEntry xs
 -- | share an Entry
 shareEntry :: Entry -> Entry
 shareEntry (dict_word, p, cat, inhs, infl, extra) =
-    (shareString dict_word, 
-     shareString p, 
-     shareString cat, 
-     map shareString inhs, 
-     shareTable infl, 
-     extra) 
+    (shareString dict_word,
+     shareString p,
+     shareString cat,
+     map shareString inhs,
+     shareTable infl,
+     extra)
  where shareTable xs = map (\(a,(p,b)) -> (shareString a,(p,shareStr b))) xs
 
 -- | create an inflection table with the compound information.
@@ -114,11 +114,11 @@ infTable f = prTableAttr f (defaultAttr f) (attrException f)
 -- | word forms to a list of strings.
 extraTable ::  Dict a => (a -> Str) -> Extra
 extraTable f = [s | (_,s) <- table f]
- 
+
 -- | Translate an inflection function to an Entry.
 entry  :: Dict a => (a -> Str) -> Entry
-entry f = entryI f [] 
-  
+entry f = entryI f []
+
 -- | Translate an inflection function with inherent information to an Entry.
 entryI :: Dict a => (a -> Str) -> [Inherent] -> Entry
 entryI f ihs = (dictword f, "UP", category f, ihs, infTable f,[])
@@ -126,7 +126,7 @@ entryI f ihs = (dictword f, "UP", category f, ihs, infTable f,[])
 -- | Translate an inflection function with paradigm identifier to an Entry.
 entryP  :: Dict a => (a -> Str) -> Paradigm -> Entry
 entryP f p = entryIP f [] p
-  
+
 -- | Inflection function + inherent + paradigm identifier -> Entry
 entryIP :: Dict a => (a -> Str) -> [Inherent] -> Paradigm -> Entry
 entryIP f ihs p = (dictword f, p , category f, ihs, infTable f,[])
@@ -144,10 +144,10 @@ entryWithInfoI fun ihs = (dictword f, "UP", category f, ihs, infTable f,extraTab
 
 -- | inflection function with extra information and inherent information.
 entryWithInfoP ::  Dict a => (a -> (Str,Str)) -> Paradigm -> Entry
-entryWithInfoP f = entryWithInfoIP f [] 
+entryWithInfoP f = entryWithInfoIP f []
 
 -- | inflection function with extra information and inherent information
--- | and paradigm identifier. 
+-- | and paradigm identifier.
 entryWithInfoIP ::  Dict a => (a -> (Str,Str)) -> [Inherent] -> Paradigm -> Entry
 entryWithInfoIP fun ihs p = (dictword f, p, category f, ihs, infTable f,extraTable g)
   where f = \a -> fst (fun a)
@@ -155,16 +155,16 @@ entryWithInfoIP fun ihs p = (dictword f, p, category f, ihs, infTable f,extraTab
 
 -- | Create a table with compound attributes.
 prTableAttr :: Param a => (a -> Str) -> Attr -> [(a,Attr)] -> [(String,(Attr,Str))]
-prTableAttr t da ts = 
+prTableAttr t da ts =
     [(prValue a,(maybe da id (lookup a ts),s)) | (a,s) <- table t]
 
 -- | Create a table with compound attributes when compound analysis
--- | is not used. 
+-- | is not used.
 prTableW :: Param a => Table a -> [(String,(Attr,Str))]
 prTableW t = [ (a,(noComp,s)) | (a,s) <- prTable t]
 
 
--- | Transform typed table to untyped. 
+-- | Transform typed table to untyped.
 prTable :: Param a => Table a -> Table String
 prTable = map (\ (a,b) -> (prValue a, b))
 
@@ -183,7 +183,7 @@ sizeW = sum . map sizeEntry . unDict
 sizeEntry :: Entry -> Int
 sizeEntry (_,_,_,_,t,_) = length t
 
--- | Create a Dictionary 
+-- | Create a Dictionary
 dictionary :: [Entry] -> Dictionary
 dictionary = Dict
 
@@ -199,11 +199,11 @@ unionDictionaries = foldr unionDictionary emptyDict
 removeAttr :: Dictionary -> [EntryN]
 removeAttr = map noAttr . unDict
 
--- | Remove attributes from Entry. Also remove extra information. 
+-- | Remove attributes from Entry. Also remove extra information.
 noAttr :: Entry ->  EntryN
 noAttr (d,_,c,inh,tab,_) = (d,c,inh,[(i, s) | (i,(_,s)) <- tab])
 
--- | Group a dictionary into categories; reverses the entries... 
+-- | Group a dictionary into categories; reverses the entries...
 classifyDict :: Dictionary -> [(Category,[Entry])]
 classifyDict = foldr addNext [] . unDict
  where
@@ -221,35 +221,35 @@ dict2idlex (Dict es) = map entry2id es
 
 -- | Translate Entry to a word identifier and its associated word forms.
 entry2id :: Entry -> (String,[(Attr,String)])
-entry2id (stem, para, typ, inhs, infl,extra) = 
+entry2id (stem, para, typ, inhs, infl,extra) =
     (name,[(a , par ++ " : " ++ (concat (intersperse "/" (unStr str)))) | (par,(a,str)) <- infl])
- where    
-    name = construct_name stem typ (concat (intersperse "_" inhs)) para 
+ where
+    name = construct_name stem typ (concat (intersperse "_" inhs)) para
 
 
 --- | Create a fullform lexicon.
 dict2fullform :: Dictionary -> FullFormLex
 dict2fullform (Dict es) = f es Set.empty
-  where 
-    f [] _ = [] 
-    f (e:es) set = 
+  where
+    f [] _ = []
+    f (e:es) set =
      case entry2full e of
-      (xs,name) -> seq (g (Set.member name set) name)   $ 
-                         [(s,[(a,d) | (a,d) <- ys]) | (s,ys) <- xs] ++ 
+      (xs,name) -> seq (g (Set.member name set) name)   $
+                         [(s,[(a,d) | (a,d) <- ys]) | (s,ys) <- xs] ++
 			  f es (Set.insert name set)
-    g True name = unsafePerformIO $ 
+    g True name = unsafePerformIO $
       hPutStrLn stderr (encodeUTF8 ("Duplicated identifer: " ++ name))
     g _    n = unsafePerformIO $ return ()
 
 
 entry2full :: Entry -> ([(String,[(Attr,String)])],String)
-entry2full (stem, para, typ, inhs, infl,extra) = 
+entry2full (stem, para, typ, inhs, infl,extra) =
   (concatMap mkForm (zip infl (extra ++ repeat nonExist)),name) where
-    name = construct_name stem typ (concat (intersperse "_" inhs)) para 
-    mkForm ((par,(a,str)),extra) = 
-        [(s1, [(a,unwords $ stem : ('(':(name++":"++w_id) ++ ")") : typ : sp : par : (ex extra inhs))]) 
-         --         LD stem (name ++":"++w_id) typ par inhs extra)]) 
-         | 
+    name = construct_name stem typ (concat (intersperse "_" inhs)) para
+    mkForm ((par,(a,str)),extra) =
+        [(s1, [(a,unwords $ stem : ('(':(name++":"++w_id) ++ ")") : typ : sp : par : (ex extra inhs))])
+         --         LD stem (name ++":"++w_id) typ par inhs extra)])
+         |
                (s1,w_id,extra) <- (zip3
                                    (unStr str)
                                    (map show [1..])
@@ -270,13 +270,13 @@ construct_name stem typ inhs para = nospace $ stem++"_"++typ++ inhs' ++ "__" ++p
 
 -- | Build Haskell Trie
 -- buildTrie :: Dictionary -> SATrie
--- buildTrie = tcompile . dict2fullformwithLexData  
+-- buildTrie = tcompile . dict2fullformwithLexData
 --  where dict2fullformwithLexData (Dict es) = f es Set.empty
 --       f []     _   = []
---       f (e:es) set = case entry2full e of 
---                       (xs,name) -> seq (g (Set.member name set) name)   $ 
+--       f (e:es) set = case entry2full e of
+--                       (xs,name) -> seq (g (Set.member name set) name)   $
 --		                       xs ++ f es (Set.insert name set)
---       g True name = unsafePerformIO $ 
+--       g True name = unsafePerformIO $
 --          hPutStrLn stderr (encodeUTF8 ("Duplicated identifer: " ++ name))
 --       g _    n = unsafePerformIO $ return ()
 

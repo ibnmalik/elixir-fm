@@ -22,7 +22,7 @@ module FM.Latin.Commands where
 import FM.Latin.Build
 import FM.Generic.Frontend
 
-commands = 
+commands =
  [
   ("d1rosa", ["rosa"], app1 d1rosa),
   ("d1poeta", ["poeta"], app1 d1poeta),

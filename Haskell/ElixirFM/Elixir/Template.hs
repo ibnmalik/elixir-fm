@@ -48,7 +48,7 @@ merge r y = (prefixes . suffixes) [interlock (words r) t]
 
           split [x]    = ([], x)
           split (x:xs) = (x:ys, y) where (ys, y) = split xs
-          
+
 {-
             if null s then prefixes shown
                       else prefixes (init shown ++ modified ++
@@ -259,10 +259,10 @@ class Eq a => Rules a where
 
     isForm I = const True
     isForm _ = const False
-    
+
     isDiptote = const True
     isPassive = const False
-    
+
     prefixVerbI _ _ _ = []
     prefixVerbC _ _   = []
     auxiesDouble  _ _ = []

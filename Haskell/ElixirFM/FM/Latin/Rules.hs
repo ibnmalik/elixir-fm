@@ -34,14 +34,14 @@ type Stem     = String
 -------------------------------------------------------
 
 decl1 :: DictForm -> Noun
-decl1 puella (NounForm n c) = 
-    mkStr $ 
+decl1 puella (NounForm n c) =
+    mkStr $
      case n of
       Singular -> case c of
 		   Accusative -> puella ++ "m"
 		   Genitive   -> puella ++ "e"
 		   Dative     -> puellae
-		   _          -> puella 
+		   _          -> puella
       Plural   ->  case c of
 	           Nominative -> puellae
 		   Vocative   -> puellae
@@ -70,15 +70,15 @@ decl2servus servus (NounForm n c) =
 		   Dative     -> servis
 		   Ablative   -> servis
 	           _          -> servi
- where 
+ where
    serv   = tk 2 servus
    servo  = serv ++ "o"
    servi  = serv ++ "i"
    servis = servi ++ "s"
 
 decl2gladius :: String -> Noun
-decl2gladius gladius nf =  
-    except (decl2servus gladius) 
+decl2gladius gladius nf =
+    except (decl2servus gladius)
 	       [(NounForm Singular Genitive, gladi),
 		(NounForm Singular Vocative, gladi)] nf
  where gladi =  tk 2 gladius
@@ -137,12 +137,12 @@ decl1Adj bonus melior optimus decl (AdjectiveForm gr g n c) =
     case gr of
      Positive ->
 	 decl bonus (g,n,c)
-     Comparative -> 
+     Comparative ->
 	 declfortior melior (g,n,c)
      Superlative -> decl optimus (g,n,c)
 
 decl1bonus :: String -> (Gender,Number,Case) -> Str
-decl1bonus bonus = decl1aux bonus (tk 2 bonus) 
+decl1bonus bonus = decl1aux bonus (tk 2 bonus)
 
 decl1tener :: String -> (Gender,Number,Case) -> Str
 decl1tener tener = decl1aux tener tener
@@ -157,15 +157,15 @@ decl1aux bonus bon (g,n,c) =
 	   decl2servus bonus (NounForm n c)
 	  Feminine  ->
 	   decl1 (bon ++ "a") (NounForm n c)
-	  Neuter   -> 
+	  Neuter   ->
 	   decl2bellum (bon ++ "um") (NounForm n c)
 
 declfortior :: String -> (Gender,Number,Case) -> Str
-declfortior fortior (g,n,c) = 
+declfortior fortior (g,n,c) =
  mkStr $
    case g of
     Neuter -> case n of
-	       Singular -> 
+	       Singular ->
 		   case c of
 		    Genitive -> fortioris
 		    Dative   -> fortiori
@@ -178,7 +178,7 @@ declfortior fortior (g,n,c) =
 		    Ablative -> fortioribus
 		    _        -> fortior ++ "a"
     _     ->  case n of
-	       Singular -> 
+	       Singular ->
 		   case c of
 		    Accusative -> fortior ++ "em"
 		    Genitive -> fortioris
@@ -198,7 +198,7 @@ declfortior fortior (g,n,c) =
         fortiori    = fortior ++ "i"
 	fortiore    = fortior ++ "e"
 -- Adverb
--- 
+--
 
 mkAdverb :: String -> String -> String -> Adverb
 mkAdverb bene melius optime = mkStr1 $ giveValues [bene,melius,optime]
@@ -225,16 +225,16 @@ vHabere habere vf =
    Indicative First Singular Present Passive -> mkStr $ habe ++ "or"
    Indicative First Singular Future Passive -> mkStr $ habe ++ "bor"
    Indicative Third Plural   Future Passive -> mkStr $ habe ++ "buntur"
-   Indicative p n t Passive                 -> mkIndicativePassive habe (hab ++ "it") II (p,n,t) 
+   Indicative p n t Passive                 -> mkIndicativePassive habe (hab ++ "it") II (p,n,t)
    Subjunctive p n t Active                 -> mkSubjunctiveActive (hab ++ "ea") (hab ++ "it") habere (p,n,t)
-   Subjunctive p n t Passive                -> mkSubjunctivePassive (hab ++ "ea") (hab ++ "u") habere (p,n,t) 
+   Subjunctive p n t Passive                -> mkSubjunctivePassive (hab ++ "ea") (hab ++ "u") habere (p,n,t)
    Infinitive t v                           -> mkInfinitive habe (t,v)
    ImperativePresent n v                    -> mkImperativePresent habe (n,v)
    ImperativeFutureActive  n p   -> mkImperativeFutureActive habe (n,p)
-   ImperativeFuturePassiveSing p -> 
-    mkStr $   
+   ImperativeFuturePassiveSing p ->
+    mkStr $
      case p of
-      _ -> habe ++ "tor" 
+      _ -> habe ++ "tor"
    ImperativeFuturePassivePl -> mkStr $ habe ++ "ntor"
    ParticiplesFuture  v ->
     mkStr $
@@ -256,19 +256,19 @@ vAmare :: String -> Verb
 vAmare amare vf =
   case vf of
    Indicative First Singular Present Active  -> mkStr $ am ++ "o"
-   Indicative p n t Active  -> mkIndicativeActive ama (ama ++ "v") I (p,n,t) 
+   Indicative p n t Active  -> mkIndicativeActive ama (ama ++ "v") I (p,n,t)
    Indicative First Singular Present Passive  -> mkStr $ am ++ "or"
    Indicative First Singular Future Passive -> mkStr $ ama ++ "bor"
-   Indicative p n t Passive  -> mkIndicativePassive ama (ama ++ "t") I (p,n,t) 
+   Indicative p n t Passive  -> mkIndicativePassive ama (ama ++ "t") I (p,n,t)
    Subjunctive p n t Active  -> mkSubjunctiveActive (am ++ "e") (ama ++ "v") amare (p,n,t)
    Subjunctive p n t Passive -> mkSubjunctivePassive (am ++ "e") (ama ++ "t") amare (p,n,t)
    Infinitive t v            -> mkInfinitive ama (t,v)
    ImperativePresent n v     -> mkImperativePresent ama (n,v)
    ImperativeFutureActive  n p   -> mkImperativeFutureActive ama (n,p)
-   ImperativeFuturePassiveSing p ->  
-    mkStr $  
+   ImperativeFuturePassiveSing p ->
+    mkStr $
      case p of
-      _ -> ama ++ "tor" 
+      _ -> ama ++ "tor"
    ImperativeFuturePassivePl -> mkStr $ ama ++ "ntor"
    ParticiplesFuture  v ->
     mkStr $
@@ -288,7 +288,7 @@ vAmare amare vf =
 
 -- personal endings for all conjugations in present tense
 endingsActive :: String -> Number -> Person -> String
-endingsActive prStem n p = 
+endingsActive prStem n p =
     case (n,p) of
      (Singular,First)  -> prStem ++ "o"
      (Singular,Second) -> prStem ++ "s"
@@ -299,14 +299,14 @@ endingsActive prStem n p =
 
 -- personal endings for all conjugations in imperfect
 endingsImperfect :: String -> Number -> Person -> String
-endingsImperfect prStem n p = 
+endingsImperfect prStem n p =
     case (n,p) of
      (Singular,First)  -> prStem ++ "m"
      _                 -> endingsActive prStem n p
 
--- 
+--
 endingsPerfect :: Number -> Person -> String
-endingsPerfect n p = 
+endingsPerfect n p =
     case (n,p) of
      (Singular,First)  -> "i"
      (Singular,Second) -> "isti"
@@ -316,7 +316,7 @@ endingsPerfect n p =
      (Plural,Third)    -> "erunt"
 
 endingsPluperfect :: Number -> Person -> String
-endingsPluperfect n p = 
+endingsPluperfect n p =
     case (n,p) of
      (Singular,First)  -> "eram"
      (Singular,Second) -> "eras"
@@ -326,7 +326,7 @@ endingsPluperfect n p =
      (Plural,Third)    -> "erant"
 
 endingsFutureperfect :: Number -> Person -> String
-endingsFutureperfect n p = 
+endingsFutureperfect n p =
     case (n,p) of
      (Singular,First)  -> "ero"
      (Singular,Second) -> "eris"
@@ -336,7 +336,7 @@ endingsFutureperfect n p =
      (Plural,Third)    -> "erint"
 
 endingsPassive :: Number -> Person -> String
-endingsPassive n p = 
+endingsPassive n p =
     case (n,p) of
      (Singular,First)  -> "r"
      (Singular,Second) -> "ris"
@@ -358,19 +358,19 @@ mkSubjunctivePassive subj part infin (p,n,t) =
     case t of
      PresentS       -> mkStr $ subj ++ endingsPassive n p
      ImperfectS     -> mkStr $ infin ++ endingsPassive n p
-     _              -> mkStr $ case n of 
+     _              -> mkStr $ case n of
 			        Singular -> part ++ "us"
 			        Plural   -> part ++ "i"
 
 mkIndicativeActive :: PresentStem -> PerfectStem -> Conjugation -> (Person, Number, Tense) -> Str
-mkIndicativeActive prStem peStem c (p,n,t) = 
+mkIndicativeActive prStem peStem c (p,n,t) =
     case t of
-     Present       -> mkStr $ endingsActive prStem n p 
+     Present       -> mkStr $ endingsActive prStem n p
      Imperfect     -> mkStr $ endingsImperfect (prStem ++ "ba") n p
      Perfect       -> mkStr $ peStem ++ endingsPerfect n p
      PluPerfect    -> mkStr $ endingsImperfect (peStem ++ "era") n p
      FuturePerfect -> mkStr $ endingsActive (peStem ++ "eri") n p
-     Future        -> mkStr $ 
+     Future        -> mkStr $
 		       case c of
 		        I  -> case (n,p) of
 			       (Plural,Third) -> prStem ++ "bunt"
@@ -379,16 +379,16 @@ mkIndicativeActive prStem peStem c (p,n,t) =
 			_  -> endingsImperfect (prStem ++ "e") n p
 
 mkIndicativePassive :: PresentStem -> Participle -> Conjugation -> (Person, Number, Tense) -> Str
-mkIndicativePassive prStem part c (p,n,t) = 
+mkIndicativePassive prStem part c (p,n,t) =
     case t of
-     Present       -> mkStr $ prStem ++ endingsPassive n p 
+     Present       -> mkStr $ prStem ++ endingsPassive n p
      Imperfect     -> mkStr $ prStem ++ "ba" ++ endingsPassive n p
-     Future        -> mkStr $ 
+     Future        -> mkStr $
 		       case c of
 		        I  -> prStem ++ "bi" ++ endingsPassive n p
 			II -> prStem ++ "bi" ++ endingsPassive n p
 			_  -> prStem ++ "e" ++ endingsPassive n p
-     _             -> mkStr $ case n of 
+     _             -> mkStr $ case n of
 			       Singular -> part ++ "us"
 			       Plural   -> part ++ "i"
 
@@ -405,9 +405,9 @@ mkInfinitive prStem (t,v) = mkStr $
 
 mkImperativePresent :: PresentStem -> (Number,Voice) -> Str
 mkImperativePresent prStem (n,v) =
-  mkStr $ 
+  mkStr $
     case (n,v) of
-     (Singular, Active)  -> prStem 
+     (Singular, Active)  -> prStem
      (Plural, Active)    -> prStem ++ "te"
      (Singular, Passive) -> prStem ++ "re"
      (Plural, Passive)   -> prStem ++ "mini"

@@ -10,10 +10,10 @@ tokens = ana where
   ana [] = []
   ana s = case s of
     c:cs  | isSpace c -> ana cs
-    c:cs  | isDigit c -> case span (isDigit) (c:cs) of 
+    c:cs  | isDigit c -> case span (isDigit) (c:cs) of
 			  (w,rest) -> (D w) : ana rest
-    p:cs  | isPunct p -> (P [p]) : ana cs  
-    c:cs              -> case span (not . isSpec) (c:cs) of 
+    p:cs  | isPunct p -> (P [p]) : ana cs
+    c:cs              -> case span (not . isSpec) (c:cs) of
 			  (w,rest) -> (W w) : ana rest
     []                -> []
   isSpec c = isSpace c || isPunct c || isDigit c

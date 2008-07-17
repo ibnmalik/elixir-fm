@@ -41,10 +41,10 @@ d1poeta :: DictForm -> Entry
 d1poeta w = masculine (decl1 w) "n1"
 
 d2servus :: DictForm -> Entry
-d2servus w = masculine (decl2servus w) "n2" 
+d2servus w = masculine (decl2servus w) "n2"
 
 d2pinus :: DictForm -> Entry
-d2pinus w = feminine (decl2servus w) "n2" 
+d2pinus w = feminine (decl2servus w) "n2"
 
 d2virus :: DictForm -> Entry
 d2virus w = neuter (decl2servus w) "n2"
@@ -75,23 +75,23 @@ adverbIrreg :: DictForm -> DictForm -> DictForm -> Entry
 adverbIrreg x y z = entryP (mkAdverb x y z) "adv"
 
 adj1durus :: DictForm -> Entry
-adj1durus durus = adj1bonus durus (dur ++ "ior") (dur ++ "issimus") 
+adj1durus durus = adj1bonus durus (dur ++ "ior") (dur ++ "issimus")
   where dur = tk 2 durus
 
 adj1bonus :: DictForm -> DictForm -> DictForm -> Entry
-adj1bonus bonus melior optimus = 
+adj1bonus bonus melior optimus =
     entryP (decl1Adj bonus melior optimus decl1bonus) "adj1"
 
 adj1tener :: DictForm -> Entry
-adj1tener tener = entryP (decl1Adj tener 
-		                   (tener ++ "ior") 
-				   (tener ++ "imus") 
+adj1tener tener = entryP (decl1Adj tener
+		                   (tener ++ "ior")
+				   (tener ++ "imus")
 				   decl1tener) "adj1"
 
 adj1sacer :: DictForm -> Entry
-adj1sacer sacer = entryP (decl1Adj sacer 
-		           (sacr ++ "ior") 
-			   (sacr ++ "issimus") 
+adj1sacer sacer = entryP (decl1Adj sacer
+		           (sacr ++ "ior")
+			   (sacr ++ "issimus")
 			   decl1sacer) "adj1"
  where sacr = tk 2 sacer ++ "r"
 
@@ -123,13 +123,13 @@ neuter n = noun n Neuter
 {-
 instance Dict NounForm      where category _ = "Noun"
 instance Dict VerbForm      where category _ = "Verb"
-				  dictword f = 
-				      concat $ take 1 $ unStr $ 
+				  dictword f =
+				      concat $ take 1 $ unStr $
 					   f (Infinitive PresentI Active)
 instance Dict AdverbForm    where category _ = "Adverb"
 instance Dict AdjectiveForm where category _ = "Adjective"
 instance Dict PrepForm      where category _ = "Preposition"
-instance Dict ParticleForm  
+instance Dict ParticleForm
     where category    _ = "Particle"
 	  defaultAttr _ = atS
 -}

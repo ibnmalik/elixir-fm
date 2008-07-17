@@ -60,7 +60,7 @@ instance Rules PatternQ where
                             IV      ->  [IKRaDaSS ..]
                             _       ->  []
 
-                            
+
     prefixVerbI x _ _   | x `elem` [I, II]  = "u"
                         | otherwise         = "a"
 

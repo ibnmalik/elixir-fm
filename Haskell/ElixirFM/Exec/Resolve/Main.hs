@@ -92,10 +92,10 @@ execute _ nons = interact (unlines . intersperse "" .
 
     where f = case map toLower e of
 
-                "tim"   ->  resolveBy (omitting omits . map downcode) . downcode . decode Tim
-                "utf"   ->  resolveBy (omitting omits . map downcode) . downcode . decode UTF
+                "tim"   ->  resolveBy (omitting fuzzy omits) . decode Tim
+                "utf"   ->  resolveBy (omitting fuzzy omits) . decode UTF
 
-                _       ->  resolveBy (omitting omits)
+                _       ->  resolveBy (omitting (==) omits)
 
           e = case nons of  [] -> ""
                             _  -> head nons

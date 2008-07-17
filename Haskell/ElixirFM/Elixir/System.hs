@@ -25,7 +25,7 @@ import Data.Char (readLitChar)
 import Data.List (intersect)
 
 
-data EntVerb a = EntVerbP          (a Voice) (a Person) (a Gender) (a Number) 
+data EntVerb a = EntVerbP          (a Voice) (a Person) (a Gender) (a Number)
                | EntVerbI (a Mood) (a Voice) (a Person) (a Gender) (a Number)
                | EntVerbC                               (a Gender) (a Number)
 
@@ -60,14 +60,14 @@ instance ShowE a => Show (EntPron a) where
 
 
 class ShowE a where
-          
+
     showE :: Show b => a b -> String
 
 
 instance ShowE Id where
 
     showE (Id a) = [show' a]
-                   
+
 
 instance ShowE [] where
 
@@ -105,7 +105,7 @@ entTags = [EntVerb ([]), EntPron ([]), EntVerb ([])]
 
 
 type Tag = ParaType
-    
+
 
 data ParaType = ParaVerb  ParaVerb
               | ParaNoun  ParaNoun
@@ -205,7 +205,7 @@ lets xs ys = intersect xs ys
 
 
 expand :: TagsType -> TagsType
-    
+
 expand (TagsVerb xs) = TagsVerb (complete xs)
 expand (TagsNoun xs) = TagsNoun (complete xs)
 expand (TagsAdj  xs) = TagsAdj  (complete xs)
@@ -223,7 +223,7 @@ class Restrict a where
     restrict :: a -> [a] -> [a]
 
     complete :: [a] -> [a]
-        
+
 
 instance Restrict TagsType where
 
@@ -311,7 +311,7 @@ instance Restrict TagsAdj where
     complete [] = [TagsAdjA  [] [] [] [] [] []]
 
     complete xs = xs
-                  
+
     restrict (TagsAdjA  h v   g n c s) y = [ z | TagsAdjA  h' v'    g' n' c' s' <- y,
                                                  let z = TagsAdjA  (lets h h')
                                                                    (lets v v')
@@ -349,16 +349,16 @@ instance Restrict TagsNum where
     complete [] = [TagsNumQ]
 
     complete xs = xs
-                  
+
     restrict TagsNumQ y = [ z | TagsNumQ <- y, let z = TagsNumQ ]
 
 
 instance Restrict TagsAdv where
 
     complete [] = [TagsAdvD]
-                  
+
     complete xs = xs
-                  
+
     restrict TagsAdvD y = [ z | TagsAdvD <- y, let z = TagsAdvD ]
 
 
@@ -688,7 +688,7 @@ noinflects = replicate 8 '-'
 
 
 {-
-  
+
 newtype Tags = Tags [Tag]               deriving Show
             -- Tags { unTags :: [Tag] } deriving Show
 

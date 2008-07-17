@@ -6,19 +6,19 @@ import FM.Generic.SharedString
 -- infixr 5 +/
 
 -- | List of word forms
-newtype NewStr = Str [String]   
+newtype NewStr = Str [String]
    deriving (Show, Eq, Ord)
 
 -- | List of word forms
 type Str = [String]
 
 -- | Inflection table
-type Table  a = [(a,Str)]  
+type Table  a = [(a,Str)]
 
 -- | Finite inflection function
-type Finite a = a -> Str   
+type Finite a = a -> Str
 
--- | The finite parameter class  
+-- | The finite parameter class
 class (Eq a, Show a) => Param a where
   values  :: [a]
   value   :: Int -> a
@@ -36,7 +36,7 @@ data Tok = W String | P String | D String
 type Attr = Int
 
 -- | default compound value
-noComp :: Attr 
+noComp :: Attr
 noComp = 0
 
 -- | Promote String to Str
@@ -57,7 +57,7 @@ unStr = id
 
 -- | Translate a [String] to Str
 strings :: [String] -> Str
--- strings = Str 
+-- strings = Str
 strings = id
 
 -- | Apply function to 'a' and promote the resulting String to Str.
@@ -81,11 +81,11 @@ s +* ss = mapStr (s++) ss
 (+/) :: String -> String -> String
 s +/ t = s ++ t -- s ++ "/" ++ t
 
--- | Variants listed in a string 
+-- | Variants listed in a string
 mkStrWords :: String -> Str
 mkStrWords = strings . words
 
--- | take all but n characters in the end of String 
+-- | take all but n characters in the end of String
 tk :: Int -> String -> String
 tk i s = take (max 0 (length s - i)) s
 
@@ -93,14 +93,14 @@ tk i s = take (max 0 (length s - i)) s
 dp :: Int -> String -> String
 dp i s = drop (max 0 (length s - i)) s
 
--- | Get the n:th char from the end of String 
+-- | Get the n:th char from the end of String
 ch :: Int -> String -> String
 ch n s = dp 1 (tk n s)
 
 -- | Prevent the duplication: "mus" +? "s" = "mus"
 (+?) :: String -> String -> String
 s +? e = case (s,e) of
-  (_:_, c:cs) | last s == c -> s ++ cs 
+  (_:_, c:cs) | last s == c -> s ++ cs
   _ -> s ++ e
 
 -- | Choose suffix depending on last letter of stem
@@ -113,7 +113,7 @@ ifEndThen cond s a b = case s of
 dropEndIf :: (Char -> Bool) -> String -> String
 dropEndIf cond s = ifEndThen cond s (init s) s
 
--- | Apply substitution table to string. 
+-- | Apply substitution table to string.
 changes :: [(String,String)] -> String -> String
 changes cs s = case lookupMark s cs of
   Just (b,e) -> e ++ changes cs (drop (length b) s)
@@ -122,13 +122,13 @@ changes cs s = case lookupMark s cs of
     [] -> []
  where
    lookupMark _ [] = Nothing
-   lookupMark st ((b,e):ms) = 
+   lookupMark st ((b,e):ms) =
      if isPrefixOf b st then Just (b,e) else lookupMark st ms
 
--- | Like changes, but only apply on prefix. 
+-- | Like changes, but only apply on prefix.
 changePref ::  [(String,String)] -> String -> String
 changePref cs t = case cs of
-  (s,r) : rs | isPrefixOf s t -> r ++ drop (length s) t 
+  (s,r) : rs | isPrefixOf s t -> r ++ drop (length s) t
              | otherwise -> changePref rs t
   _ -> t
 
@@ -166,20 +166,20 @@ variants f es p = case lookup p es of
 		   Nothing -> f p
 		   Just ss -> unionStr ss (f p)
 
--- | Missing word form 
+-- | Missing word form
 nonExist :: Str
 -- nonExist = Str []
 nonExist = []
 
--- | Filter missing forms from inflection table. 
+-- | Filter missing forms from inflection table.
 existingForms :: Table a -> Table a
 existingForms = filter (not . null . unStr . snd)
 
--- | Translate a finite function to a table. 
+-- | Translate a finite function to a table.
 table :: (Param a) => (a -> Str) -> Table a
 table f = [(v, f v) | v <- values]
 
--- | Used to define Param instances. 
+-- | Used to define Param instances.
 {- O.S.
 enum :: (Enum a, Bounded a) => [a]
 enum = [minBound .. maxBound]
@@ -193,7 +193,7 @@ indexVal a = maybe undefined id $ lookup a $ zip values [0..]
 
 -- | Inflection table lookup
 appTable :: (Param a) => Table a -> a -> Str
-appTable t a = maybe undefined id $ lookup a t 
+appTable t a = maybe undefined id $ lookup a t
 
 -- | Pick the first word form
 firstForm :: Param a => Table a -> Str
@@ -205,8 +205,8 @@ giveValues bs a = bs !! indexVal a
 
 -- | Longest common prefix for [String].
 longestPrefix :: [String] -> String
-longestPrefix ((c:w):ws) = 
-  let (cs,rs) = unzip (map (splitAt 1) ws) 
+longestPrefix ((c:w):ws) =
+  let (cs,rs) = unzip (map (splitAt 1) ws)
   in
   if all (==[c]) cs then c:longestPrefix (w:rs) else ""
 longestPrefix _ = ""

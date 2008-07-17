@@ -15,22 +15,22 @@ import FM.Generic.UTF8
 -- import Tokenize
 import qualified FM.Generic.CTrie as CTrie
 
-data AnaType = 
+data AnaType =
     Normal            |
     NoAnalysis        |
     FilterLexiconNo   |
     FilterLexiconComp
-    
+
 gfTypes :: Language a => a -> String
 gfTypes l = "types." ++ name l ++ ".gf"
 
 readDict :: Language a => a -> FilePath -> IO Dictionary
-readDict l f = 
+readDict l f =
     do (database,n) <- parseDict l f
        let isz = size (internDict l)
            sz  = n + isz
        prErr
-          $ "Morphology Statistics:\n" ++ 
+          $ "Morphology Statistics:\n" ++
             print_lang l ++
             print_paradigms l ++ print_size (sz,n,isz)
        return $ unionDictionary (internDict l) database
@@ -45,7 +45,7 @@ print_paradigms l = case paradigmCount l of
 print_size (0,n,isz)  = "empty dictionary"
 print_size (1,_,_)    = "1 entry"
 print_size (sz,n,isz) = show nsz ++ "k entries (e: " ++ show n ++ ", i: " ++ show isz ++ ")"
-  where 
+  where
         nsz = fromInteger $ round (((fromInteger (toInteger sz))::Double) / 1000)
 
 uName :: Language a => a -> String
@@ -56,8 +56,8 @@ uName l = case name l of
 commonMain :: Language a => a -> IO ()
 commonMain l = do
   xx <- getArgs
-  
-  lex <- catch (getEnv (env l)) (\_ -> 
+
+  lex <- catch (getEnv (env l)) (\_ ->
    do prErr $ "\n[" ++ (env l) ++ " is undefined, using \"./" ++ (dbaseName l) ++ "\".]\n"
       return $ "./" ++ (dbaseName l))
   case xx of
@@ -96,7 +96,7 @@ commonMain l = do
 			 infMode l
     ["-ib"]         -> do prErr $ welcome l
 		          imode l
-    _  -> 
+    _  ->
       do theDictionary <- readDict l lex
          case xx of
           ["-newlex"]         -> outputNewLex theDictionary
@@ -139,21 +139,21 @@ initStats :: Stats
 initStats = Stats { totalWords = 0, coveredWords = 0 }
 
 posify :: Language a => a -> (String -> [[String]]) -> IO ()
-posify l f = do 
+posify l f = do
   s' <- hGetContents stdin
   let ts  = tokenizer l (decodeUTF8 s')
       tss = get_sentences ts
   sequence_ [printResult (map anapos x) | x <- tss]
- where 
+ where
   printResult [] = return ()
   printResult xs = do hPutStrUTF8 stdout $ "{"
                       sequence_ xs
                       hPutStrLnUTF8 stdout $ "}"
-  anapos t = 
+  anapos t =
    case t of
     (P s) -> hPutStrUTF8 stdout $ "(\"" ++ esc s ++ "\",spec)"
     (D s) -> hPutStrUTF8 stdout $ "(\"" ++ esc s ++ "\",num)"
-    (W s) ->  
+    (W s) ->
 	case f s of
         [] -> hPutStrUTF8 stdout $ "(\"" ++ esc s ++ "\",)"
         xs -> hPutStrUTF8 stdout $ "(\"" ++ esc s ++ "\"," ++ prResult xs ++ ")"
@@ -190,19 +190,19 @@ run l f _           = do
 		      prErr $ "Covered words: " ++ show (coveredWords st)
 
 run' :: Language a => a -> (String -> [[String]]) -> AnaType -> Stats -> IO Stats
-run' l f t st = 
- do 
+run' l f t st =
+ do
    b <- hIsEOF stdin
-   if b then return st 
-    else do 
+   if b then return st
+    else do
           s' <- hGetLine stdin
           let s = decodeUTF8 s'
 	  case t of
-	    FilterLexiconNo   -> 
+	    FilterLexiconNo   ->
              analyze l t f (map W (words s)) st >>= run' l f t
-	    FilterLexiconComp -> 
+	    FilterLexiconComp ->
 	     analyze l t f (map W (words s)) st >>= run' l f t
-	    _                 ->  
+	    _                 ->
 	     analyze l t f (tokenizer l s) st >>= run' l f t
 
 word_tokens :: [Tok] -> [String]
@@ -214,13 +214,13 @@ hPutStrUTF8   h s = hPutStr h   $ encodeUTF8 s
 
 analyze :: Language a => a -> AnaType -> (String -> [[String]]) -> [Tok] -> Stats -> IO Stats
 analyze _ FilterLexiconNo f ((W x):xs) st
-     | or $ map (\ys -> length ys > 0) (concat (map f (word_tokens xs))) = 
+     | or $ map (\ys -> length ys > 0) (concat (map f (word_tokens xs))) =
 	 do
 	 hPutStrLnUTF8 stdout $ unwords (x:(word_tokens xs))
 	 return st
      | otherwise = return st
 analyze _ FilterLexiconComp f ((W x):xs) st
-     | or $ map (\ys -> length ys > 1) (concat (map f (word_tokens xs))) = 
+     | or $ map (\ys -> length ys > 1) (concat (map f (word_tokens xs))) =
 	 do
 	 hPutStrLnUTF8 stdout $ unwords (x:(word_tokens xs))
 	 return st
@@ -228,29 +228,29 @@ analyze _ FilterLexiconComp f ((W x):xs) st
 analyze _ _ _  [] st = return st
 analyze l t f (s:ss) st =
    case s of
-    (P s) ->   
-        do case t of 
-	    Normal    
+    (P s) ->
+        do case t of
+	    Normal
              -> do hPutStrLnUTF8 stdout $ "[ <" ++ s ++ "> SPECIAL]"
 		   analyze l t f ss st
             _ -> analyze l t f ss st
     (D s) ->
-        do case t of 
-            Normal 
+        do case t of
+            Normal
              -> do hPutStrLnUTF8 stdout $ "[ <" ++ s ++ "> NUMBER]"
 		   analyze l t f ss st
 	    _ -> analyze l t f ss st
-    (W s) ->  
+    (W s) ->
 	case f s of
         [] -> do prAnalysis l t s []
 	         analyze l t f ss (st {
 			             totalWords = totalWords st + 1,
-			                          coveredWords = coveredWords st 
+			                          coveredWords = coveredWords st
 			            })
         xs -> do prAnalysis l t s xs
 	         analyze l t f ss (st {
 			             totalWords = totalWords st + 1,
-			                          coveredWords = coveredWords st + 1 
+			                          coveredWords = coveredWords st + 1
 			            })
 
 
@@ -291,7 +291,7 @@ welcome l = unlines
 	     "*************************************"
 	    ]
   where padding s n = replicate (max (n - length s) 0) ' '
- 
+
 help :: IO()
 help = prErr help_text
 

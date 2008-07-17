@@ -170,7 +170,7 @@ data Wrap a = WrapS (a String)
 instance (Show (a String), Show (a PatternT), Show (a PatternQ), Show (a PatternL)) => Show (Wrap a) where
 
     showsPrec _ (WrapS x) = ("WrapS (" ++) . shows x . (")" ++)
-    showsPrec _ (WrapT x) = ("WrapT (" ++) . shows x . (")" ++) 
+    showsPrec _ (WrapT x) = ("WrapT (" ++) . shows x . (")" ++)
     showsPrec _ (WrapQ x) = ("WrapQ (" ++) . shows x . (")" ++)
     showsPrec _ (WrapL x) = ("WrapL (" ++) . shows x . (")" ++)
 
@@ -268,17 +268,17 @@ lexicon = listing ""
  (       FiCAL <.> ".--..-----") <=> [ "book" ]
 {-
                <|> "-.-.-.P-." <=>  FuCuL
-               <|> "-.-.-.P-." <=>  FiCAL |< At 
+               <|> "-.-.-.P-." <=>  FiCAL |< At
 
                <-> N------S4I <> FuCuL |< "A"
--}    
+-}
     ]
 
-    
+
 
 (<.>) :: (Morphing a b, Forming a, Rules a, Eq a) => a -> String -> Entry b
 
-x <.> y = Entry { morphs = morph x, entity = e, reflex = [], entity' = (r, []) } 
+x <.> y = Entry { morphs = morph x, entity = e, reflex = [], entity' = (r, []) }
 
     where e = case r of
 
@@ -291,19 +291,19 @@ x <.> y = Entry { morphs = morph x, entity = e, reflex = [], entity' = (r, []) }
                     TagsPart _ -> Part
                     TagsIntj _ -> Intj
                     _          -> Intj
-                                  
+
           r = head ((unTagsTypes . read) y ++ [TagsIntj []])
 
 
 
 (<=>) :: Entry a -> Reflex -> Entry a
-    
+
 x <=> y = x { reflex = y }
 
 
 type Reflex = [String]
 
-data Entry a = Entry { morphs :: Morphs a, entity :: Entity a, 
+data Entry a = Entry { morphs :: Morphs a, entity :: Entity a,
                        reflex :: Reflex, entity' :: Entity' a }
 
     deriving Show
@@ -388,7 +388,7 @@ noun m l = Entry (morph m) (Noun [] Nothing Nothing Nothing) l (TagsNoun [], [])
 adj  m l = Entry (morph m) (Adj [] [] Nothing)               l (TagsAdj  [], [])
 
 pron m l = Entry (morph m) Pron                              l (TagsPron [], [])
-       
+
 num = noun
 adv = noun
 
@@ -440,7 +440,7 @@ gerund = const
 
 
 entries :: Entry a -> [Entry a]
-           
+
 entries e = case entity e of
 
                 Noun _ _ _ (Just _) -> [e, e { morphs = morphs e |< aT,

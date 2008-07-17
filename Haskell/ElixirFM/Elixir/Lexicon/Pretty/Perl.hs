@@ -62,7 +62,7 @@ instance Pretty (Wrap Nest) where
     pretty (WrapQ (Nest r l)) = prettyNest' r l "NestQ"
     pretty (WrapS (Nest r l)) = prettyNest' r l "NestS"
 
-    
+
 prettyNest' r l t = pretty [ ("root", (text . show) r),
                              ("type", (text . show) t),
                              ("list", pretty l) ]

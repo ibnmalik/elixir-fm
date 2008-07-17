@@ -12,19 +12,19 @@ import FM.Generic.UTF8
 import FM.Generic.CTrie as CTrie
 
 
--- Note that all Functions have default definitions, but 
+-- Note that all Functions have default definitions, but
 -- in the common case, you give, at least, definitions for "paradigms"
 -- "internDict" and "composition"
 
 --class Show a => Language a b | a -> b where
 -- | A class defined to be able to construct a language independent frontend
 class Show a => Language a  where
-  name        :: a -> String  
-  dbaseName   :: a -> String  
-  composition :: a -> ([General.Attr] -> Bool) 
-  env         :: a -> String 
+  name        :: a -> String
+  dbaseName   :: a -> String
+  composition :: a -> ([General.Attr] -> Bool)
+  env         :: a -> String
   paradigms   :: a -> Commands
-  internDict  :: a -> Dictionary 
+  internDict  :: a -> Dictionary
   tokenizer   :: a -> String -> [General.Tok]
   wordGuesser :: a -> String -> [String]
   name        l = map toLower (show l)
@@ -34,12 +34,12 @@ class Show a => Language a  where
 	  noComp   _ = False
   env         l = "FM_" ++ map toUpper (show l)
   paradigms   _ = emptyC
-  internDict  _ = emptyDict  
+  internDict  _ = emptyDict
   tokenizer   _ = tokens
   wordGuesser _ = const []
 
--- | type for Command Map  
-type Commands = Map.Map String ([String], [String] -> Entry) 
+-- | type for Command Map
+type Commands = Map.Map String ([String], [String] -> Entry)
 
 -- | empty Command Map
 emptyC :: Commands
@@ -59,14 +59,14 @@ command_paradigms l = dictionary [f xs | (_,(xs,f)) <- Map.toList (paradigms l)]
 
 -- | Parse commands.
 parseCommand :: Language a => a -> String -> Err Entry
-parseCommand l s = 
+parseCommand l s =
    case words (remove_comment s) of
     (x:xs) -> case Map.lookup x (paradigms l) of
                Nothing -> Bad $ "Undefined paradigm identifier '" ++ x ++ "'."
                Just (ys,f) -> if (length xs == length ys) then
 	                         Ok $ f xs
-                               else				 
-                                 Bad $ "Paradigm '" ++ s ++ "' requires " ++ (show (length ys)) ++ " arguments." 
+                               else
+                                 Bad $ "Paradigm '" ++ s ++ "' requires " ++ (show (length ys)) ++ " arguments."
     [] -> Bad $ "No command."
 
 -- | List paradigm names
@@ -79,9 +79,9 @@ paradigmCount l = length $ Map.toList (paradigms l)
 
 -- | Reading external lexicon. Create empty lexicon if the file does not exist.
 parseDict :: Language a => a -> FilePath -> IO (Dictionary,Int)
-parseDict l f = 
+parseDict l f =
     do (es,n) <- catch (readdict l f) (\_ -> do writeFile f [] ; prErr ("Created new external dictionary: \"" ++ f ++ "\".\n"); return ([],0))
-       return $ (dictionary es,n)       
+       return $ (dictionary es,n)
 
 -- | Is input string a paradigm identifier?
 isParadigm :: Language a => a -> String -> Bool
@@ -110,9 +110,9 @@ readdict l f = do h <- openFile f ReadMode
   isComment           [] = False
   isComment     (' ':xs) = isComment xs
   isComment ('-':'-':xs) = True
-  isComment            _ = False       
+  isComment            _ = False
 
--- | Remove comments in String.  
+-- | Remove comments in String.
 remove_comment :: String -> String
 remove_comment [] = []
 remove_comment ('-':'-':_) = []

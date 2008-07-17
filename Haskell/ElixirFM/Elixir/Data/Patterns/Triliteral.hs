@@ -123,7 +123,7 @@ instance Rules PatternT where
    -- Fischer (2002), par. 243 (uy > uu), 33 ff (combinatory phonology), 250 (types)
    -- Fischer (2002), par. 208, 218, 220 (inflecting IX-3, XI-3, and IV-4 verbs)
 
-   
+
     prefixVerbI _ _ Passive                     = "u"
 
     prefixVerbI x _ _   | x `elem` [II .. IV]   = "u"

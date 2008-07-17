@@ -44,7 +44,7 @@ nounsAdj = [
 	 adj1tener "miser",
 	 adj1sacer "sacer",
 	 adj1sacer "ater"
-      ] 
+      ]
 
 adverbs = [
 	   adverbIrreg "bene" "melius" "optime",
