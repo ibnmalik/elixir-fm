@@ -195,7 +195,7 @@ instance Fuzzy String where
 
     omits = ["a", "i", "u", "A", "I", "U", "Y", "-", "N", "W", "_a", "_I", "_U"]
 
-    units ('_':z:s) | z `elem` "tdhaIU"  = ['_', z] : units s
+    units ('_':z:s) | z `elem` "thdaIU"  = ['_', z] : units s
     units ('^':z:s) | z `elem` "gscznl"  = ['^', z] : units s
     units ('.':z:s) | z `elem` "hsdtzgr" = ['.', z] : units s
     units (',':z:s) | z `elem` "c"       = [',', z] : units s

@@ -265,7 +265,7 @@ lexicon = listing ""
         FuCiL V--P------ [ "be destined" ],
 -}
 
- (       FiCAL <.> ".--..-----") <=> [ "book" ]
+        FiCAL <.> "----------" <=> [ "book" ]
 {-
                <|> "-.-.-.P-." <=>  FuCuL
                <|> "-.-.-.P-." <=>  FiCAL |< At

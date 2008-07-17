@@ -196,12 +196,13 @@ vals [] = values
 vals vs = vs
 
 
-lets :: Param a => [a] -> [a] -> [a]
+lets :: Param a => [a] -> [a] -> [[a]]
 
-lets [] [] = values
-lets xs [] = xs
-lets [] ys = ys
-lets xs ys = intersect xs ys
+lets [] [] = [[]]
+lets xs [] = [xs]
+lets [] ys = [ys]
+lets xs ys = case intersect xs ys of [] -> []
+                                     zs -> [zs]
 
 
 expand :: TagsType -> TagsType
@@ -273,22 +274,20 @@ instance Restrict TagsVerb where
 
     complete xs = xs
 
-    restrict (TagsVerbP   v p g n) y = [ z | TagsVerbP    v' p' g' n' <- y,
-                                             let z = TagsVerbP (lets v v')
-                                                               (lets p p')
-                                                               (lets g g')
-                                                               (lets n n') ]
+    restrict (TagsVerbP   v p g n) y = [ TagsVerbP    v  p  g  n  |
+                                         TagsVerbP    v' p' g' n' <- y,
+                                         v <- lets v v', p <- lets p p',
+                                         g <- lets g g', n <- lets n n' ]
 
-    restrict (TagsVerbI m v p g n) y = [ z | TagsVerbI m' v' p' g' n' <- y,
-                                             let z = TagsVerbI (lets m m')
-                                                               (lets v v')
-                                                               (lets p p')
-                                                               (lets g g')
-                                                               (lets n n') ]
+    restrict (TagsVerbI m v p g n) y = [ TagsVerbI m  v  p  g  n  |
+                                         TagsVerbI m' v' p' g' n' <- y,
+                                                          m <- lets m m',
+                                         v <- lets v v', p <- lets p p',
+                                         g <- lets g g', n <- lets n n' ]
 
-    restrict (TagsVerbC       g n) y = [ z | TagsVerbC          g' n' <- y,
-                                             let z = TagsVerbC (lets g g')
-                                                               (lets n n') ]
+    restrict (TagsVerbC       g n) y = [ TagsVerbC          g  n  |
+                                         TagsVerbC          g' n' <- y,
+                                         g <- lets g g', n <- lets n n' ]
 
 
 instance Restrict TagsNoun where
@@ -297,13 +296,11 @@ instance Restrict TagsNoun where
 
     complete xs = xs
 
-    restrict (TagsNounS h v   g n c s) y = [ z | TagsNounS h' v'    g' n' c' s' <- y,
-                                                 let z = TagsNounS (lets h h')
-                                                                   (lets v v')
-                                                                   (lets g g')
-                                                                   (lets n n')
-                                                                   (lets c c')
-                                                                   (lets s s') ]
+    restrict (TagsNounS h v   g n c s) y = [ TagsNounS h  v     g  n  c  s  |
+                                             TagsNounS h' v'    g' n' c' s' <- y,
+                                             h <- lets h h', v <- lets v v',
+                                             g <- lets g g', n <- lets n n',
+                                             c <- lets c c', s <- lets s s' ]
 
 
 instance Restrict TagsAdj where
@@ -312,13 +309,11 @@ instance Restrict TagsAdj where
 
     complete xs = xs
 
-    restrict (TagsAdjA  h v   g n c s) y = [ z | TagsAdjA  h' v'    g' n' c' s' <- y,
-                                                 let z = TagsAdjA  (lets h h')
-                                                                   (lets v v')
-                                                                   (lets g g')
-                                                                   (lets n n')
-                                                                   (lets c c')
-                                                                   (lets s s') ]
+    restrict (TagsAdjA  h v   g n c s) y = [ TagsAdjA  h  v     g  n  c  s  |
+                                             TagsAdjA  h' v'    g' n' c' s' <- y,
+                                             h <- lets h h', v <- lets v v',
+                                             g <- lets g g', n <- lets n n',
+                                             c <- lets c c', s <- lets s s' ]
 
 
 instance Restrict TagsPron where
@@ -327,21 +322,20 @@ instance Restrict TagsPron where
 
     complete xs = xs
 
-    restrict (TagsPronP     p g n c) y = [ z | TagsPronP       p' g' n' c' <- y,
-                                               let z = TagsPronP (lets p p')
-                                                                 (lets g g')
-                                                                 (lets n n')
-                                                                 (lets c c') ]
+    restrict (TagsPronP     p g n c) y = [ TagsPronP       p  g  n  c  |
+                                           TagsPronP       p' g' n' c' <- y,
+                                           p <- lets p p', g <- lets g g',
+                                           n <- lets n n', c <- lets c c' ]
 
-    restrict (TagsPronD       g n c) y = [ z | TagsPronD          g' n' c' <- y,
-                                               let z = TagsPronD (lets g g')
-                                                                 (lets n n')
-                                                                 (lets c c') ]
+    restrict (TagsPronD       g n c) y = [ TagsPronD          g  n  c  |
+                                           TagsPronD          g' n' c' <- y,
+                                                           g <- lets g g',
+                                           n <- lets n n', c <- lets c c' ]
 
-    restrict (TagsPronR       g n c) y = [ z | TagsPronR          g' n' c' <- y,
-                                               let z = TagsPronR (lets g g')
-                                                                 (lets n n')
-                                                                 (lets c c') ]
+    restrict (TagsPronR       g n c) y = [ TagsPronR          g  n  c  |
+                                           TagsPronR          g' n' c' <- y,
+                                                           g <- lets g g',
+                                           n <- lets n n', c <- lets c c' ]
 
 
 instance Restrict TagsNum where
@@ -350,7 +344,7 @@ instance Restrict TagsNum where
 
     complete xs = xs
 
-    restrict TagsNumQ y = [ z | TagsNumQ <- y, let z = TagsNumQ ]
+    restrict TagsNumQ y = [ TagsNumQ | TagsNumQ <- y ]
 
 
 instance Restrict TagsAdv where
@@ -359,7 +353,7 @@ instance Restrict TagsAdv where
 
     complete xs = xs
 
-    restrict TagsAdvD y = [ z | TagsAdvD <- y, let z = TagsAdvD ]
+    restrict TagsAdvD y = [ TagsAdvD | TagsAdvD <- y ]
 
 
 instance Restrict TagsPrep where
@@ -368,9 +362,10 @@ instance Restrict TagsPrep where
 
     complete xs = xs
 
-    restrict TagsPrepP     y = [ z | TagsPrepP    <- y, let z = TagsPrepP ]
+    restrict TagsPrepP     y = [ TagsPrepP | TagsPrepP <- y ]
 
-    restrict (TagsPrepI c) y = [ z | TagsPrepI c' <- y, let z = TagsPrepI (lets c c') ]
+    restrict (TagsPrepI c) y = [ TagsPrepI c  |
+                                 TagsPrepI c' <- y, c <- lets c c' ]
 
 
 instance Restrict TagsConj where
@@ -379,7 +374,7 @@ instance Restrict TagsConj where
 
     complete xs = xs
 
-    restrict TagsConjC y = [ z | TagsConjC <- y, let z = TagsConjC ]
+    restrict TagsConjC y = [ TagsConjC | TagsConjC <- y ]
 
 
 instance Restrict TagsPart where
@@ -388,7 +383,7 @@ instance Restrict TagsPart where
 
     complete xs = xs
 
-    restrict TagsPartF y = [ z | TagsPartF <- y, let z = TagsPartF ]
+    restrict TagsPartF y = [ TagsPartF | TagsPartF <- y ]
 
 
 instance Restrict TagsIntj where
@@ -397,7 +392,7 @@ instance Restrict TagsIntj where
 
     complete xs = xs
 
-    restrict TagsIntjI y = [ z | TagsIntjI <- y, let z = TagsIntjI ]
+    restrict TagsIntjI y = [ TagsIntjI | TagsIntjI <- y ]
 
 
 instance Show TagsVerb where
@@ -506,7 +501,7 @@ instance Read TagsTypes where
 
 instance Read TagsVerb where
 
-    readsPrec _ x1 = [ (r, "") |
+    readsPrec _ x1 = [ (r', "") |
                                                 (y1, x2) <- readSlot x1,
                        (y2, x3) <- readSlot x2, (y3, x4) <- readSlot x3,
                        (y4, x5) <- readSlot x4, (y5, x6) <- readSlot x5,
@@ -515,7 +510,7 @@ instance Read TagsVerb where
 
                        v1 <- if y1 == "-" then "PIC" else y1,
 
-                       r <- case v1 of
+                       r' <- case v1 of
 
                                 'P' -> [TagsVerbP (readData y3)
                                                   (readData y5)
@@ -570,7 +565,7 @@ instance Read TagsAdj where
 
 instance Read TagsPron where
 
-    readsPrec _ x1 = [ (r, "") |
+    readsPrec _ x1 = [ (r', "") |
                                                 (y1, x2) <- readSlot x1,
                        (y2, x3) <- readSlot x2, (y3, x4) <- readSlot x3,
                        (y4, x5) <- readSlot x4, (y5, x6) <- readSlot x5,
@@ -579,7 +574,7 @@ instance Read TagsPron where
 
                        v1 <- if y1 == "-" then "PDR" else y1,
 
-                       r <- case v1 of
+                       r' <- case v1 of
 
                                 'P' -> [TagsPronP (readData y5)
                                                   (readData y6)
@@ -623,7 +618,7 @@ instance Read TagsAdv where
 
 instance Read TagsPrep where
 
-    readsPrec _ x1 = [ (r, "") |
+    readsPrec _ x1 = [ (r', "") |
                                                 (y1, x2) <- readSlot x1,
                        (y2, x3) <- readSlot x2, (y3, x4) <- readSlot x3,
                        (y4, x5) <- readSlot x4, (y5, x6) <- readSlot x5,
@@ -632,7 +627,7 @@ instance Read TagsPrep where
 
                        v1 <- if y1 == "-" then "-I" else y1,
 
-                       r <- case v1 of
+                       r' <- case v1 of
 
                                 '-' -> [TagsPrepP]
 

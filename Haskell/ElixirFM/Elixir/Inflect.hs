@@ -136,7 +136,12 @@ instance Inflect Lexeme TagsVerb where
 
     inflect (Lexeme r e) x@(TagsVerbP   v p g n) = [ (y, z) |
 
-            v' <- vals v,
+            let v' = vals v
+                p' = vals p
+                g' = vals g
+                n' = vals n,
+
+            v <- v',
 
             let
 
@@ -144,9 +149,9 @@ instance Inflect Lexeme TagsVerb where
 
               Verb fs is _ _ jt jv
 
-                | maybe False (/= v') jv || maybe False (/= Perfect) jt -> []
+                | maybe False (/= v) jv || maybe False (/= Perfect) jt -> []
 
-                | null is || v' == Passive
+                | null is || v == Passive
                                        -> [ (f, siftVerb t (Perfect,   w) z) | f <- fs, let z = verbStems f r, t <- [pattern] ]
 
                 | otherwise            -> [ (f, zs) | f <- fs, let z = verbStems f r, t <- [pattern],
@@ -155,9 +160,9 @@ instance Inflect Lexeme TagsVerb where
 
                         where w = maybe Active id jv,
 
-            p' <- vals p, g' <- vals g, n' <- vals n,
+            p <- p', g <- g', n <- n',
 
-            let theVariant = isVariant (VerbP v' p' g' n'),
+            let theVariant = isVariant (VerbP v p g n),
 
             let
 
@@ -165,20 +170,26 @@ instance Inflect Lexeme TagsVerb where
 
           inRules es =  [ morph l | (f, e) <- es,
 
-                                let ls = map (findVerb (Perfect, v') theVariant) e,
+                                let ls = map (findVerb (Perfect, v) theVariant) e,
 
                                 l <- nub ls ],
 
-            let y = ParaVerb (VerbP v' p' g' n'),
+            let y = ParaVerb (VerbP v p g n),
 
-            let z = paradigm (paraVerbP p' g' n') ]
+            let z = paradigm (paraVerbP p g n) ]
 
         where Morphs pattern _ _ = morphs e
 
 
     inflect (Lexeme r e) x@(TagsVerbI m v p g n) = [ (y, z) |
 
-            v' <- vals v,
+            let m' = vals m
+                v' = vals v
+                p' = vals p
+                g' = vals g
+                n' = vals n,
+
+            v <- v',
 
             let
 
@@ -186,7 +197,7 @@ instance Inflect Lexeme TagsVerb where
 
               Verb fs _ is _ jt jv
 
-                | maybe False (/= v') jv || maybe False (== Perfect) jt -> []
+                | maybe False (/= v) jv || maybe False (== Perfect) jt -> []
 
                 | null is   -> [ (f, siftVerb t (Perfect,   w) z) | f <- fs, let z = verbStems f r, t <- [pattern] ]
 
@@ -194,9 +205,9 @@ instance Inflect Lexeme TagsVerb where
 
                         where w = maybe Active id jv,
 
-            m' <- vals m, p' <- vals p, g' <- vals g, n' <- vals n,
+            m <- m', p <- p', g <- g', n <- n',
 
-            let x' = VerbI m' v' p' g' n'
+            let x' = VerbI m v p g n
 
                 theVariant = isVariant x',
 
@@ -208,29 +219,29 @@ instance Inflect Lexeme TagsVerb where
 
             | isEndless x' =  [ k | (f, e) <- es,
 
-                                let ls = map (findVerb (Imperfect, v') True) e
+                                let ls = map (findVerb (Imperfect, v) True) e
 
-                                    hs = map (findVerb (Imperfect, v') False) e,
+                                    hs = map (findVerb (Imperfect, v) False) e,
 
-                                k <- [ (prefixVerbI f l v', morph l) | l <- nub ls ]
+                                k <- [ (prefixVerbI f l v, morph l) | l <- nub ls ]
 
                                   ++ [ (prefixh, suffix a morphh)   | h <- nub hs,
 
-                                       let prefixh = prefixVerbI f h v'
+                                       let prefixh = prefixVerbI f h v
 
                                            morphh = morph h,
 
                                        a <- auxiesDouble f h ] ]
 
-            | otherwise    =  [ (prefixVerbI f l v', morph l) | (f, e) <- es,
+            | otherwise    =  [ (prefixVerbI f l v, morph l) | (f, e) <- es,
 
-                                let ls = map (findVerb (Imperfect, v') theVariant) e,
+                                let ls = map (findVerb (Imperfect, v) theVariant) e,
 
                                 l <- nub ls ],
 
             let y = ParaVerb x',
 
-            let z = paradigm (paraVerbI m' p' g' n') ]
+            let z = paradigm (paraVerbI m p g n) ]
 
         where reduce f (x, y) = case s of Suffix "" : q@(Suffix ('-' : _ ) : _ ) -> Morphs t p q
                                           _                                      -> m
@@ -241,6 +252,9 @@ instance Inflect Lexeme TagsVerb where
 
 
     inflect (Lexeme r e) x@(TagsVerbC       g n) = [ (y, z) |
+
+            let g' = vals g
+                n' = vals n,
 
             let
 
@@ -256,9 +270,9 @@ instance Inflect Lexeme TagsVerb where
 
                 | otherwise            -> Left [ (prefixVerbC f i, morph i) | f <- fs, i <- is ],
 
-            g' <- vals g, n' <- vals n,
+            g <- g', n <- n',
 
-            let x' = VerbC g' n'
+            let x' = VerbC g n
 
                 theVariant = isVariant x',
 
@@ -291,7 +305,7 @@ instance Inflect Lexeme TagsVerb where
 
             let y = ParaVerb x',
 
-            let z = paradigm (paraVerbC g' n') ]
+            let z = paradigm (paraVerbC g n) ]
 
         where reduce f (x, y) = case s of Suffix "" : q@(Suffix ('-' : _ ) : _ ) -> Morphs t p q
                                           _                                      -> m
@@ -307,15 +321,19 @@ instance Inflect Lexeme TagsNoun where
 
     inflect (Lexeme r e) x@(TagsNounS _ _ _ n c s) = [ (y, z) |
 
-            n' <- vals n,
+            let n' = vals n
+                c' = vals c
+                s' = vals s,
 
-            let i = inEntry n' e,
+            n <- n',
 
-            c' <- vals c, s' <- vals s,
+            let i = inEntry n e,
 
-            let y = ParaNoun (NounS n' c' s'),
+            c <- c', s <- s',
 
-            let z = map (inRules r c' s') i ]
+            let y = ParaNoun (NounS n c s),
+
+            let z = map (inRules r c s) i ]
 
 
 instance Inflect Lexeme TagsAdj where
@@ -324,29 +342,50 @@ instance Inflect Lexeme TagsAdj where
 
     inflect (Lexeme r e) x@(TagsAdjA _ _ g n c s) = [ (y, z) |
 
-            g' <- vals g, n' <- vals n,
+            let g' = vals g
+                n' = vals n
+                c' = vals c
+                s' = vals s,
 
-            let i = inEntry' g' n' e,
+            g <- g', n <- n',
 
-            c' <- vals c, s' <- vals s,
+            let i = inEntry' g n e,
 
-            let y = ParaAdj (AdjA g' n' c' s'),
+            c <- c', s <- s',
 
-            let z = map (inRules r c' s') i ]
+            let y = ParaAdj (AdjA g n c s),
+
+            let z = map (inRules r c s) i ]
 
 
 instance Inflect Lexeme TagsPron where
 
     inflect x@(Lexeme r e) y | (not . isPron) (entity e) = []
 
-    inflect (Lexeme r e) x@(TagsPronP p g n c) = [ (ParaPron (PronP p' g' n' c'), [(paraPronP p' g' n' c', morphs e)]) |
-                                                   p' <- vals p, g' <- vals g, n' <- vals n, c' <- vals c ]
+    inflect (Lexeme r e) x@(TagsPronP p g n c) = [ (ParaPron (PronP p g n c), [(paraPronP p g n c, morphs e)]) |
 
-    inflect (Lexeme r e) x@(TagsPronD   g n c) = [ (ParaPron (PronD g' n' c'), [(paraPronD g' n' c' h, morphs e)]) |
-                                                   h <- ["h", ""], g' <- vals g, n' <- vals n, c' <- vals c ]
+                                                    let p' = vals p
+                                                        g' = vals g
+                                                        n' = vals n
+                                                        c' = vals c,
 
-    inflect (Lexeme r e) x@(TagsPronR   g n c) = [ (ParaPron (PronR g' n' c'), [(paraPronR g' n' c', morphs e)]) |
-                                                   g' <- vals g, n' <- vals n, c' <- vals c ]
+                                                    p <- p', g <- g', n <- n', c <- c' ]
+
+    inflect (Lexeme r e) x@(TagsPronD   g n c) = [ (ParaPron (PronD g n c), [(paraPronD g n c h, morphs e)]) |
+
+                                                    let g' = vals g
+                                                        n' = vals n
+                                                        c' = vals c,
+
+                                                    h <- ["h", ""], g <- g', n <- n', c <- c' ]
+
+    inflect (Lexeme r e) x@(TagsPronR   g n c) = [ (ParaPron (PronR g n c), [(paraPronR g n c, morphs e)]) |
+
+                                                    let g' = vals g
+                                                        n' = vals n
+                                                        c' = vals c,
+
+                                                    g <- g', n <- n', c <- c' ]
 
 
 instance Inflect Lexeme TagsPrep where
@@ -358,7 +397,9 @@ instance Inflect Lexeme TagsPrep where
         where m@(Morphs t p s) = morphs e
 
     inflect (Lexeme r e) x@(TagsPrepI c) = if null s then []
-                                           else [ (ParaPrep (PrepI c'), [(r, paraPrepI c' m)]) | c' <- vals c ]
+                                           else [ (ParaPrep (PrepI c), [(r, paraPrepI c m)]) |
+
+                                                   let c' = vals c, c <- c' ]
 
         where Morphs t p s = morphs e
               m = Morphs t p (tail s)
