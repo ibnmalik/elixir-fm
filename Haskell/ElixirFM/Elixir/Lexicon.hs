@@ -277,7 +277,7 @@ x <::> y = Entry { morphs = morph x, entity = e, reflex = [], entity' = (d, []) 
 
 
 infixl 6 <::>, <..>, <.>, <:>
-    
+
 
 (<..>) :: Entry a -> Reflex -> Entry a
 
@@ -293,7 +293,7 @@ x <.> y = x { entity' = (d, ((restrict d . unTagsTypes . read) y, []) : l) }
 
 (<:>) :: Morphing a b => Entry b -> a -> Entry b
 
-x <:> y = x { entity' = (d, r) } 
+x <:> y = x { entity' = (d, r) }
 
     where (d, l) = entity' x
           r = case l of []         -> []
@@ -718,19 +718,19 @@ genericLexicon = listing "Generic lexicon"
 
         "al" >>| "la_dI"    <::>    "SR--------"
                                                         <..>    [ "that", "which" ]
-                            <.>     "SR----FS--"               
+                            <.>     "SR----FS--"
                                                         <:>     "al" >>| "latI"
-                            <.>     "SR----MD1-"               
+                            <.>     "SR----MD1-"
                                                         <:>     al >| "la_d" |<< "Ani"
-                            <.>     "SR----MD[24]-"            
+                            <.>     "SR----MD[24]-"
                                                         <:>     al >| "la_d" |<< "ayni"
-                            <.>     "SR----FD1-"               
+                            <.>     "SR----FD1-"
                                                         <:>     al >| "lat" |<< "Ani"
-                            <.>     "SR----FD[24]-"            
+                            <.>     "SR----FD[24]-"
                                                         <:>     al >| "lat" |<< "ayni"
-                            <.>     "SR----MP--"               
+                            <.>     "SR----MP--"
                                                         <:>     "al" >>| "la_dIna"
-                            <.>     "SR----FP--"               
+                            <.>     "SR----FP--"
                                                         <:>     al >| "lAtI"
                                                         <:>     al >| "lawAtI"
                                                         <:>     al >| "lA'I"
@@ -741,17 +741,17 @@ genericLexicon = listing "Generic lexicon"
 
         "h_a" >>| "_dA"     <::>    "SD--------"
                                                         <..>    [ "this", "these" ]
-                            <.>     "SD----FS--"               
+                            <.>     "SD----FS--"
                                                         <:>     "h_a" >>| "_dihi"
-                            <.>     "SD----MD1-"               
+                            <.>     "SD----MD1-"
                                                         <:>     "h_a" >>| "_d" |<< "Ani"
-                            <.>     "SD----MD[24]-"            
+                            <.>     "SD----MD[24]-"
                                                         <:>     "h_a" >>| "_d" |<< "ayni"
-                            <.>     "SD----FD1-"               
-                                                        <:>     "h_a" >>| "t" |<< "Ani"
-                            <.>     "SD----FD[24]-"            
-                                                        <:>     "h_a" >>| "t" |<< "ayni"
-                            <.>     "SD-----P--"               
+                            <.>     "SD----FD1-"
+                                                        <:>     "hA" >>| "t" |<< "Ani"
+                            <.>     "SD----FD[24]-"
+                                                        <:>     "hA" >>| "t" |<< "ayni"
+                            <.>     "SD-----P--"
                                                         <:>     "h_a" >>| "'ulA'i"
         ]
 
@@ -760,17 +760,17 @@ genericLexicon = listing "Generic lexicon"
 
         "_d_ali" |<< "ka"   <::>    "SD--------"
                                                         <..>    [ "that", "those" ]
-                            <.>     "SD----FS--"               
+                            <.>     "SD----FS--"
                                                         <:>     "til" |<< "ka"
-                            <.>     "SD----MD1-"               
+                            <.>     "SD----MD1-"
                                                         <:>     "_d" |<< "Ani" |<< "ka"
-                            <.>     "SD----MD[24]-"            
+                            <.>     "SD----MD[24]-"
                                                         <:>     "_d" |<< "ayni" |<< "ka"
-                            <.>     "SD----FD1-"               
+                            <.>     "SD----FD1-"
                                                         <:>     "t" |<< "Ani" |<< "ka"
-                            <.>     "SD----FD[24]-"            
+                            <.>     "SD----FD[24]-"
                                                         <:>     "t" |<< "ayni" |<< "ka"
-                            <.>     "SD-----P--"               
+                            <.>     "SD-----P--"
                                                         <:>     "'_Ul_a'i" |<< "ka"
         ]
 
@@ -779,53 +779,58 @@ genericLexicon = listing "Generic lexicon"
 
         "huwa"              <::>    "SP--------"
                                                         <..>    [ "he", "she", "it" ]
-                            <.>     "SP---3MS[24]-"               
+                            <.>     "SP---3MS[24]-"
                                                         <:>     "hu"
-                            <.>     "SP---3FS1-"               
+                                                        <:>     "hi"
+                            <.>     "SP---3FS1-"
                                                         <:>     "hiya"
-                            <.>     "SP---3FS[24]-"               
+                            <.>     "SP---3FS[24]-"
                                                         <:>     "hA"
 
-                            <.>     "SP---3-D--"               
+                            <.>     "SP---3-D--"
                                                         <:>     "humA"
+                                                        <:>     "himA"
 
-                            <.>     "SP---3MP--"               
+                            <.>     "SP---3MP--"
                                                         <:>     "hum"
-                            <.>     "SP---3FP--"               
+                                                        <:>     "him"
+                            <.>     "SP---3FP--"
                                                         <:>     "hunna"
+                                                        <:>     "hinna"
 
-                            <.>     "SP---2MS1-"               
+                            <.>     "SP---2MS1-"
                                                         <:>     "'anta"
-                            <.>     "SP---2MS[24]-"               
+                            <.>     "SP---2MS[24]-"
                                                         <:>     "ka"
-                            <.>     "SP---2FS1-"               
+                            <.>     "SP---2FS1-"
                                                         <:>     "'anti"
-                            <.>     "SP---2FS[24]-"               
+                            <.>     "SP---2FS[24]-"
                                                         <:>     "ki"
 
-                            <.>     "SP---2-D1-"               
+                            <.>     "SP---2-D1-"
                                                         <:>     "'antumA"
-                            <.>     "SP---2-D[24]-"               
+                            <.>     "SP---2-D[24]-"
                                                         <:>     "kumA"
 
-                            <.>     "SP---2MP1-"               
+                            <.>     "SP---2MP1-"
                                                         <:>     "'antum"
-                            <.>     "SP---2MP[24]-"               
+                            <.>     "SP---2MP[24]-"
                                                         <:>     "kum"
-                            <.>     "SP---2FP1-"               
+                            <.>     "SP---2FP1-"
                                                         <:>     "'antunna"
-                            <.>     "SP---2FP[24]-"               
+                            <.>     "SP---2FP[24]-"
                                                         <:>     "kunna"
 
-                            <.>     "SP---1-S1-"               
+                            <.>     "SP---1-S1-"
                                                         <:>     "'anA"
-                            <.>     "SP---1-S2-"               
+                            <.>     "SP---1-S2-"
                                                         <:>     "|I"
-                            <.>     "SP---1-S4-"               
+                                                        <:>     "ya"
+                            <.>     "SP---1-S[42]-"
                                                         <:>     "nI"
 
-                            <.>     "SP---1-[DP]1-"               
+                            <.>     "SP---1-[DP]1-"
                                                         <:>     "na.hnu"
-                            <.>     "SP---1-[DP][24]-"               
+                            <.>     "SP---1-[DP][24]-"
                                                         <:>     "nA"
         ]

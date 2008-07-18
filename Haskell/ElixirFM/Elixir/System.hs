@@ -444,7 +444,7 @@ instance Show TagsAdv where
 instance Show TagsPrep where
 
     show TagsPrepP           = "P-" ++ noinflects
-                               
+
     show (TagsPrepI       c) = "PI" ++ concat [noshowlist, noshowlist,
                                                noshowlist, noshowlist,
                                                noshowlist, noshowlist,

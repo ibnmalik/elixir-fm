@@ -193,7 +193,7 @@ instance Fuzzy String where
 
     skips = ["'", "w", "y"]
 
-    omits = ["a", "i", "u", "A", "I", "U", "Y", "-", "N", "W", "_a", "_I", "_U"]
+    omits = ["a", "i", "u", "A", "I", "U", "Y", "-", "N", "W", "|", "_a", "_I", "_U"]
 
     units ('_':z:s) | z `elem` "thdaIU"  = ['_', z] : units s
     units ('^':z:s) | z `elem` "gscznl"  = ['^', z] : units s
@@ -254,7 +254,7 @@ equiv x y = x == y
 
 next :: String -> Maybe (String, String)
 
-next (d:z:s) | d == '_' && z `elem` "tdhaIU"  = Just ([d, z], s)
+next (d:z:s) | d == '_' && z `elem` "thdaIU"  = Just ([d, z], s)
              | d == '^' && z `elem` "gscznl"  = Just ([d, z], s)
              | d == '.' && z `elem` "hsdtzgr" = Just ([d, z], s)
              | d == ',' && z `elem` "c"       = Just ([d, z], s)
@@ -270,7 +270,7 @@ letters = units
 -- letters = unfoldr next
 
 {-
-letters (d:z:s) | d == '_' && z `elem` "tdhaIU"  = [d, z] : letters s
+letters (d:z:s) | d == '_' && z `elem` "thdaIU"  = [d, z] : letters s
                 | d == '^' && z `elem` "gscznl"  = [d, z] : letters s
                 | d == '.' && z `elem` "hsdtzgr" = [d, z] : letters s
                 | d == ',' && z `elem` "c"       = [d, z] : letters s

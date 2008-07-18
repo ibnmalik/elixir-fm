@@ -402,7 +402,7 @@ instance Inflect Lexeme TagsPron where
           let q = [ (r, q)  | let (d, l) = entity' e,
 
                     (d', r') <- l, TagsPron s <- d',
-                               
+
                     q <- if null (restrict (TagsPronP [p] [g] [n] [c]) s) then [] else r' ]
 
                                                          ]
@@ -418,7 +418,7 @@ instance Inflect Lexeme TagsPron where
           let q = [ (r, q) | let (d, l) = entity' e,
 
                     (d', r') <- l, TagsPron s <- d',
-                               
+
                     q <- if null (restrict (TagsPronD [g] [n] [c]) s) then [] else r' ]
 
                                                          ]
@@ -434,7 +434,7 @@ instance Inflect Lexeme TagsPron where
           let q = [ (r, q) | let (d, l) = entity' e,
 
                     (d', r') <- l, TagsPron s <- d',
-                               
+
                     q <- if null (restrict (TagsPronR [g] [n] [c]) s) then [] else r' ]
 
                                                          ]
@@ -1013,7 +1013,7 @@ instance Inflect Lexeme ParaPron where
         where q = [ (r, q)  | let (d, l) = entity' e,
 
                     (d', r') <- l, TagsPron s <- d',
-                               
+
                     q <- if null (restrict (TagsPronP [p] [g] [n] [c]) s) then [] else r' ]
 
 
@@ -1022,7 +1022,7 @@ instance Inflect Lexeme ParaPron where
         where q = [ (r, q) | let (d, l) = entity' e,
 
                     (d', r') <- l, TagsPron s <- d',
-                               
+
                     q <- if null (restrict (TagsPronD [g] [n] [c]) s) then [] else r' ]
 
 
@@ -1031,7 +1031,7 @@ instance Inflect Lexeme ParaPron where
         where q = [ (r, q) | let (d, l) = entity' e,
 
                     (d', r') <- l, TagsPron s <- d',
-                               
+
                     q <- if null (restrict (TagsPronR [g] [n] [c]) s) then [] else r' ]
 
     inflect (Lexeme r e) x@(PronS        ) = [(ParaPron PronS, [(r, morphs e)])]
