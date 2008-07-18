@@ -357,6 +357,13 @@ instance Show a => Show (Morphs a) where
               suffix' y          = (++) " |< "  . shows y
 
 
+instance Forming a => Forming (Morphs a) where
+
+    verbStems _ _ = []
+
+    nounStems _ _ = []
+
+
 instance Rules a => Rules (Morphs a) where
 
     isDiptote (Morphs t [] []) = isDiptote t

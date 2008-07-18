@@ -56,9 +56,11 @@ module Elixir.Lexicon (
         (>|), (|<), (>>|), (|<<),
 
 
-        (<.>), (<=>),
+        (<::>), (<..>), (<.>), (<:>),
 
         -- * Functions
+
+        genericLexicon,
 
         wraps, unwraps,
 
@@ -70,7 +72,7 @@ module Elixir.Lexicon (
 
         lookupLemma, lookupReflex,
 
-        root, ents,
+        root, ents, domain,
 
         verb, noun, adj, pron, num, adv, prep, conj, part, intj,
 
@@ -255,32 +257,11 @@ listing _ = (<|) "" ([] :: [Entry PatternT])
 -}
 
 
-lexicon = listing ""
+(<::>) :: (Morphing a b, Forming a, Rules a, Eq a) => a -> String -> Entry b
 
-    |> "k t b" <| [
+x <::> y = Entry { morphs = morph x, entity = e, reflex = [], entity' = (d, []) }
 
-{-
-        FaCaL V--------- [ "write" ],
-
-        FuCiL V--P------ [ "be destined" ],
--}
-
-        FiCAL <.> "----------" <=> [ "book" ]
-{-
-               <|> "-.-.-.P-." <=>  FuCuL
-               <|> "-.-.-.P-." <=>  FiCAL |< At
-
-               <-> N------S4I <> FuCuL |< "A"
--}
-    ]
-
-
-
-(<.>) :: (Morphing a b, Forming a, Rules a, Eq a) => a -> String -> Entry b
-
-x <.> y = Entry { morphs = morph x, entity = e, reflex = [], entity' = (r, []) }
-
-    where e = case r of
+    where e = case d of
 
                     TagsVerb _ -> entity (verb x [])
                     TagsNoun _ -> entity (noun x [])
@@ -292,13 +273,31 @@ x <.> y = Entry { morphs = morph x, entity = e, reflex = [], entity' = (r, []) }
                     TagsIntj _ -> Intj
                     _          -> Intj
 
-          r = head ((unTagsTypes . read) y ++ [TagsIntj []])
+          d = head ((unTagsTypes . read) y ++ [TagsIntj []])
 
 
+infixl 6 <::>, <..>, <.>, <:>
+    
 
-(<=>) :: Entry a -> Reflex -> Entry a
+(<..>) :: Entry a -> Reflex -> Entry a
 
-x <=> y = x { reflex = y }
+x <..> y = x { reflex = y }
+
+
+(<.>) :: Entry a -> String -> Entry a
+
+x <.> y = x { entity' = (d, ((restrict d . unTagsTypes . read) y, []) : l) }
+
+    where (d, l) = entity' x
+
+
+(<:>) :: Morphing a b => Entry b -> a -> Entry b
+
+x <:> y = x { entity' = (d, r) } 
+
+    where (d, l) = entity' x
+          r = case l of []         -> []
+                        (u, v) : w -> (u, morph y : v) : w
 
 
 type Reflex = [String]
@@ -309,9 +308,12 @@ data Entry a = Entry { morphs :: Morphs a, entity :: Entity a,
     deriving Show
 
 
-type Entity' a = (TagsType, ([(TagsType, [Morphs a])]))
+type Entity' a = (TagsType, ([([TagsType], [Morphs a])]))
 
 
+domain :: Entry a -> TagsType
+
+domain = fst . entity'
 
 
 type Plural a = Either (Root, Morphs a) (Morphs a)
@@ -387,7 +389,9 @@ noun m l = Entry (morph m) (Noun [] Nothing Nothing Nothing) l (TagsNoun [], [])
 
 adj  m l = Entry (morph m) (Adj [] [] Nothing)               l (TagsAdj  [], [])
 
-pron m l = Entry (morph m) Pron                              l (TagsPron [], [])
+pron m l = Entry (morph m) Pron                              l (TagsPron [TagsPronS], [])
+
+-- pron = part
 
 num = noun
 adv = noun
@@ -690,3 +694,138 @@ sumEntryChars :: Dictionary -> Int
 sumEntryChars = fold ((+) . foldr ((+) . length) 0) 0
 
 -}
+
+
+genericLexicon = listing "Generic lexicon"
+
+{-
+    |> "k t b" <| [
+
+--      FaCaL V--------- [ "write" ],
+
+--      FuCiL V--P------ [ "be destined" ],
+
+        al >| FiCAL <.> "----------" <..> [ "book" ]
+
+               <.> "-.-.-.P-." <:>  FuCuL
+               <.> "-.-.-.P-." <:>  (FiCAL |< At)
+
+               <.> "N------S4I" <:> (FuCuL |<< "A")
+        ]
+-}
+
+    |> "l" <| [
+
+        "al" >>| "la_dI"    <::>    "SR--------"
+                                                        <..>    [ "that", "which" ]
+                            <.>     "SR----FS--"               
+                                                        <:>     "al" >>| "latI"
+                            <.>     "SR----MD1-"               
+                                                        <:>     al >| "la_d" |<< "Ani"
+                            <.>     "SR----MD[24]-"            
+                                                        <:>     al >| "la_d" |<< "ayni"
+                            <.>     "SR----FD1-"               
+                                                        <:>     al >| "lat" |<< "Ani"
+                            <.>     "SR----FD[24]-"            
+                                                        <:>     al >| "lat" |<< "ayni"
+                            <.>     "SR----MP--"               
+                                                        <:>     "al" >>| "la_dIna"
+                            <.>     "SR----FP--"               
+                                                        <:>     al >| "lAtI"
+                                                        <:>     al >| "lawAtI"
+                                                        <:>     al >| "lA'I"
+        ]
+
+
+    |> "h" <| [
+
+        "h_a" >>| "_dA"     <::>    "SD--------"
+                                                        <..>    [ "this", "these" ]
+                            <.>     "SD----FS--"               
+                                                        <:>     "h_a" >>| "_dihi"
+                            <.>     "SD----MD1-"               
+                                                        <:>     "h_a" >>| "_d" |<< "Ani"
+                            <.>     "SD----MD[24]-"            
+                                                        <:>     "h_a" >>| "_d" |<< "ayni"
+                            <.>     "SD----FD1-"               
+                                                        <:>     "h_a" >>| "t" |<< "Ani"
+                            <.>     "SD----FD[24]-"            
+                                                        <:>     "h_a" >>| "t" |<< "ayni"
+                            <.>     "SD-----P--"               
+                                                        <:>     "h_a" >>| "'ulA'i"
+        ]
+
+
+    |> "k" <| [
+
+        "_d_ali" |<< "ka"   <::>    "SD--------"
+                                                        <..>    [ "that", "those" ]
+                            <.>     "SD----FS--"               
+                                                        <:>     "til" |<< "ka"
+                            <.>     "SD----MD1-"               
+                                                        <:>     "_d" |<< "Ani" |<< "ka"
+                            <.>     "SD----MD[24]-"            
+                                                        <:>     "_d" |<< "ayni" |<< "ka"
+                            <.>     "SD----FD1-"               
+                                                        <:>     "t" |<< "Ani" |<< "ka"
+                            <.>     "SD----FD[24]-"            
+                                                        <:>     "t" |<< "ayni" |<< "ka"
+                            <.>     "SD-----P--"               
+                                                        <:>     "'_Ul_a'i" |<< "ka"
+        ]
+
+
+    |> "" <| [
+
+        "huwa"              <::>    "SP--------"
+                                                        <..>    [ "he", "she", "it" ]
+                            <.>     "SP---3MS[24]-"               
+                                                        <:>     "hu"
+                            <.>     "SP---3FS1-"               
+                                                        <:>     "hiya"
+                            <.>     "SP---3FS[24]-"               
+                                                        <:>     "hA"
+
+                            <.>     "SP---3-D--"               
+                                                        <:>     "humA"
+
+                            <.>     "SP---3MP--"               
+                                                        <:>     "hum"
+                            <.>     "SP---3FP--"               
+                                                        <:>     "hunna"
+
+                            <.>     "SP---2MS1-"               
+                                                        <:>     "'anta"
+                            <.>     "SP---2MS[24]-"               
+                                                        <:>     "ka"
+                            <.>     "SP---2FS1-"               
+                                                        <:>     "'anti"
+                            <.>     "SP---2FS[24]-"               
+                                                        <:>     "ki"
+
+                            <.>     "SP---2-D1-"               
+                                                        <:>     "'antumA"
+                            <.>     "SP---2-D[24]-"               
+                                                        <:>     "kumA"
+
+                            <.>     "SP---2MP1-"               
+                                                        <:>     "'antum"
+                            <.>     "SP---2MP[24]-"               
+                                                        <:>     "kum"
+                            <.>     "SP---2FP1-"               
+                                                        <:>     "'antunna"
+                            <.>     "SP---2FP[24]-"               
+                                                        <:>     "kunna"
+
+                            <.>     "SP---1-S1-"               
+                                                        <:>     "'anA"
+                            <.>     "SP---1-S2-"               
+                                                        <:>     "|I"
+                            <.>     "SP---1-S4-"               
+                                                        <:>     "nI"
+
+                            <.>     "SP---1-[DP]1-"               
+                                                        <:>     "na.hnu"
+                            <.>     "SP---1-[DP][24]-"               
+                                                        <:>     "nA"
+        ]

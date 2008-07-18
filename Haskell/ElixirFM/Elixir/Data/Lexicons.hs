@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Data.Lexicons
--- Copyright   :  Otakar Smrz 2005-2007
+-- Copyright   :  Otakar Smrz 2005-2008
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -49,4 +49,6 @@ lexicons =  [   -- Elixir.Data.Effective.lexicon,
 
                 Elixir.Data.Buckwalter.lexicon,
 
-                Elixir.Data.Classical.lexicon   ]
+                Elixir.Data.Classical.lexicon,
+
+                Elixir.Lexicon.genericLexicon   ]

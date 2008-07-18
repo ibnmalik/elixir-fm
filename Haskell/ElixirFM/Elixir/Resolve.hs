@@ -95,7 +95,7 @@ instance Resolve String where
 
         where inflects y (Nest r z) = [ Token l i t | e <- z,
 
-                            let x = (expand . fst . entity') e, s <- entries e,
+                            let x = (expand . domain) e, s <- entries e,
 
                             let l = Lexeme r s, (t, h) <- inflect l x, i <- h,
 
@@ -118,7 +118,7 @@ resolveList l c q y = [ [s] | let i = recode y, (r, x) <- l, isSubsumed r i,
 
                            [ (uncurry merge i, [Token l i t]) | e <- z,
 
-                             let x = (expand . fst . entity') e, s <- entries e,
+                             let x = (expand . domain) e, s <- entries e,
 
                              let l = Lexeme r s, (t, h) <- inflect l x, i <- h ]
 
@@ -136,7 +136,7 @@ resolveListMore l c q y = [ [s] | (r, x) <- l,
 
     where inflects y (Nest r z) = [ Token (Lexeme r e) i t | e <- z,
 
-                             let s = inflect (Lexeme r e) ((expand . fst . entity') e), (t, h) <- s,
+                             let s = inflect (Lexeme r e) ((expand . domain) e), (t, h) <- s,
 
                              i <- h, let m = (c . uncurry merge) i, d <- y, m `q` d ]
 
