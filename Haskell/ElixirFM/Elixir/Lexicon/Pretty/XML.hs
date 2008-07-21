@@ -154,6 +154,7 @@ instance (Show a, Pretty [a]) => Pretty (Entity a) where
                					++
             					eraseNothing n [ elemtxt "number" [] $ pretty n ]
 
+                            Pron                ->  elemesp "Pron" []
                             Prep                ->  elemesp "Prep" []
                             Conj                ->  elemesp "Conj" []
                             Part                ->  elemesp "Part" []

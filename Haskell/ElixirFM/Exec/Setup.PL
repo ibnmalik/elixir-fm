@@ -59,7 +59,8 @@ sub path ($) {
 
     print "Removing ...";
 
-    foreach $file ((glob path "ElixirFM-Exec doc elixir-resolve *"),
+    foreach $file ((glob path "ElixirFM-Exec doc elixir *"),
+                  #(glob path "ElixirFM-Exec doc elixir-resolve *"),
                   #(glob path "ElixirFM-Exec doc elixir-inflect *"),
                    (glob path "ElixirFM-Exec doc *"),
                    (glob path "ElixirFM-Exec bin *"),
@@ -70,7 +71,8 @@ sub path ($) {
         unlink $file;
     }
 
-    rmdir path "ElixirFM-Exec doc elixir-resolve";
+    rmdir path "ElixirFM-Exec doc elixir";
+   #rmdir path "ElixirFM-Exec doc elixir-resolve";
    #rmdir path "ElixirFM-Exec doc elixir-inflect";
     rmdir path "ElixirFM-Exec doc";
     rmdir path "ElixirFM-Exec bin";
@@ -82,7 +84,8 @@ sub path ($) {
     mkdir path "ElixirFM-Exec bin";
     mkdir path "ElixirFM-Exec doc";
    #mkdir path "ElixirFM-Exec doc elixir-inflect";
-    mkdir path "ElixirFM-Exec doc elixir-resolve";
+   #mkdir path "ElixirFM-Exec doc elixir-resolve";
+    mkdir path "ElixirFM-Exec doc elixir";
 
 
     print "Changing directory: ..";
@@ -124,8 +127,11 @@ sub path ($) {
    #@execs = $^O eq 'MSWin32' ? (path "build elixir-inflect elixir-inflect.exe", path "build elixir-resolve elixir-resolve.exe")
    #                          : (path "build elixir-inflect elixir-inflect",     path "build elixir-resolve elixir-resolve");
 
-    @execs = $^O eq 'MSWin32' ? (path "build elixir-resolve elixir-resolve.exe")
-                              : (path "build elixir-resolve elixir-resolve");
+   #@execs = $^O eq 'MSWin32' ? (path "build elixir-resolve elixir-resolve.exe")
+   #                          : (path "build elixir-resolve elixir-resolve");
+
+    @execs = $^O eq 'MSWin32' ? (path "build elixir elixir.exe")
+                              : (path "build elixir elixir");
 
     foreach $file (@execs) {
 
@@ -147,11 +153,11 @@ sub path ($) {
    #}
 
 
-    $path = path "ElixirFM-Exec doc elixir-resolve";
+    $path = path "ElixirFM-Exec doc elixir";
 
     print $path;
 
-    foreach $file (glob path ".. Resolve dist doc html *") {
+    foreach $file (glob path ".. ElixirFM dist doc html *") {
 
         print '  <- ' . $file;
 
@@ -164,11 +170,15 @@ sub path ($) {
    #rmdir path ".. Inflect dist build";
    #rmdir path ".. Inflect dist";
 
-    rmdir path ".. Resolve dist doc html";
-    rmdir path ".. Resolve dist doc";
-    rmdir path ".. Resolve dist build";
-    rmdir path ".. Resolve dist";
+   #rmdir path ".. Resolve dist doc html";
+   #rmdir path ".. Resolve dist doc";
+   #rmdir path ".. Resolve dist build";
+   #rmdir path ".. Resolve dist";
 
+    rmdir path ".. ElixirFM dist doc html";
+    rmdir path ".. ElixirFM dist doc";
+    rmdir path ".. ElixirFM dist build";
+    rmdir path ".. ElixirFM dist";
 
     copy path ".. LICENSE", path "ElixirFM-Exec";
 
