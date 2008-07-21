@@ -111,4 +111,5 @@ prettiest t = (concat . intersperse "\t") $
                                 (\(Lexeme r l) -> merge r (morphs l)) . lexeme,
                                 (\(Lexeme r _) -> show r)             . lexeme,
                                 (\(Lexeme _ l) -> show (morphs l))    . lexeme,
-                                (\(Lexeme _ l) -> show (reflex l))    . lexeme]
+                                (\(Lexeme _ l) -> show (reflex l))    . lexeme,
+                                (\(Lexeme _ l) -> show (entity l))    . lexeme]

@@ -32,6 +32,8 @@ import Elixir.System
 
 import Elixir.Derive
 
+import Elixir.Lookup
+
 import FM.Generic.General
 
 import Encode

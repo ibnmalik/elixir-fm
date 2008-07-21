@@ -45,6 +45,8 @@ import Elixir.Pretty
 import Elixir.System
 
 import Elixir.Derive
+import Elixir.Lookup
+
 import Elixir.Inflect
 import Elixir.Resolve
 
