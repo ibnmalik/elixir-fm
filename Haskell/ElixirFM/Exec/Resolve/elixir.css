@@ -20,6 +20,16 @@
     color: goldenrod;
 }
 
+.class {
+    font-family: Courier New;   
+    color: orangered;
+}
+
+.stems {
+    font-family: Courier New;   
+    color: goldenrod;
+}
+
 .word {
     font-size:large;
 }
