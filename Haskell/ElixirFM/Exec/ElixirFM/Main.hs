@@ -24,7 +24,7 @@ import Elixir.Data.Lexicons
 
 import Elixir.Lexicon
 import Elixir.Template
-import Elixir.Pretty
+import Elixir.Pretty hiding (list)
 
 import Elixir.System
 
@@ -51,54 +51,55 @@ import Version
 version = revised "$Revision$"
 
 
-data Opts = DisplayUsage | PrintVersion
-
-    deriving (Eq, Ord)
+data Opts = DisplayUsage | PrintVersion | RunAction ([String] -> IO ())
 
 
 options :: [OptDescr Opts]
 
-options = [ Option ['h'] ["help"]    (NoArg  DisplayUsage)
+options = [ Option []    ["resolve"]    (NoArg (RunAction elixirResolve))
+                                                "run the 'resolve' mode",
+
+            Option []    ["inflect"]    (NoArg (RunAction elixirInflect))
+                                                "run the 'inflect' mode",
+
+            Option []    ["lookup"]     (NoArg (RunAction elixirLookup))
+                                                "run the 'lookup' mode",
+
+            Option []    ["derive"]     (NoArg (RunAction elixirDerive))
+                                                "run the 'derive' mode",
+
+            Option ['h'] ["help"]       (NoArg  DisplayUsage)
                                                 "show usage information",
 
-            Option ['v'] ["version"] (NoArg  PrintVersion)
+            Option ['v'] ["version"]    (NoArg PrintVersion)
                                                 "show program's version" ]
 
 
-processOpts :: [String] -> IO ([Opts], [String])
-
-processOpts argv = case getOpt Permute options argv of
-
-        (o, n, [])  ->  return ((nub . sort) o, n)
-        (_, _, es)  ->  (ioError . userError)
-                            (concat es ++ usageInfo synopsis options)
-
-
-synopsis = "elixir [OPTIONS] (resolve|inflect|lookup|derive) [TeX|Tim|UTF]"
+synopsis = "elixir [--]ACTION [ENCODING|STRING] ..."
 
 
 main = do   argv <- getArgs
-            (opts, nons) <- processOpts argv
 
-            case opts of
+            let mods = case argv of []              ->  ["--help"]
+                                    ('-' : x) : xs  ->  argv
+                                    x : xs          ->  ("--" ++ x) : xs
+            
+                (opts, pars, errs) = getOpt RequireOrder options mods
 
-                DisplayUsage : _    ->  warn (usageInfo synopsis options)
-                PrintVersion : _    ->  warn (showVersion Main.version)
+            if null errs then case head opts of
 
-                _   ->  case nons of
+                RunAction runs  ->  runs pars
 
-                        "resolve" : ns  ->  elixirResolve ns
-                        "inflect" : ns  ->  elixirInflect ns
-                        "lookup"  : ns  ->  elixirLookup ns
-                        "derive"  : ns  ->  elixirDerive ns
-                        _               ->  warn (usageInfo synopsis options)
+                DisplayUsage    ->  warn (usageInfo synopsis options)
+                PrintVersion    ->  warn (showVersion Main.version)
 
+                         else       warn (usageInfo synopsis options)
 
+                
 warn = hPutStr stderr
 
 
-elixirResolve n = interact (unlines . intersperse "" .
-                                     map (show . prettier . f) . words)
+elixirResolve n = interact (show . doubleline (prettier . f) . words)
 
     where f = case e of
 
@@ -111,16 +112,14 @@ elixirResolve n = interact (unlines . intersperse "" .
                          _  -> (map toLower . head) n
 
 
-elixirInflect n = interact (unlines . intersperse "" .
-                                     map (show . pretty . f) . words)
+elixirInflect n = interact (show . doubleline (pretty . f) . words)
 
     where f = inflectLookup e
           e = case n of  [] -> []
                          _  -> lookup (head n) lexicon
                
 
-elixirLookup n = interact (unlines . intersperse "" .
-                                     map (show . pretty . f) . words)
+elixirLookup n = interact (show . doubleline (pretty . f) . words)
 
     where f = case e of
 
@@ -134,17 +133,3 @@ elixirLookup n = interact (unlines . intersperse "" .
 
 
 elixirDerive n = error "'elixir derive' not implemented yet"
-
-
-prettier = sep . map (text . head) . unwrapResolve prettiest
-
-
-prettiest t = (concat . intersperse "\t") $
-                map ($ t) [show . tag, uncurry merge . struct,
-                                (\(r, _)       -> show r)             . struct,
-                                (\(_, l)       -> show l)             . struct,
-                                (\(Lexeme r l) -> merge r (morphs l)) . lexeme,
-                                (\(Lexeme r _) -> show r)             . lexeme,
-                                (\(Lexeme _ l) -> show (morphs l))    . lexeme,
-                                (\(Lexeme _ l) -> show (reflex l))    . lexeme,
-                                (\(Lexeme _ l) -> show (entity l))    . lexeme]

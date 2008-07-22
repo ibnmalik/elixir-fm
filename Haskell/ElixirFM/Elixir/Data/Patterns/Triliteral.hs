@@ -103,8 +103,8 @@ instance Rules PatternT where
 
     isForm f x = x `elem` case f of
 
-                            I       ->  init [FaCaL .. FaCCaL]
-                            II      ->  init [FaCCaL .. FACaL]
+                            I       ->  init [FaCaL .. FaCCaL] ++ [FACiL, FACI, FACL]
+                            II      ->  init [FaCCaL .. FACaL] ++ [TaFACI]
                             III     ->  init [FACaL .. HaFCaL]
                             IV      ->  init [HaFCaL .. TaFaCCaL]
                             V       ->  init [TaFaCCaL .. TaFACaL]
@@ -730,7 +730,7 @@ data PatternT =
 
         |   FiCLiyA'                    |   FILiyA'
 
-    {-- |   FACiL   --}                 |   FA'iL                                       |   FA'I
+    {-- |   FACiL   --}                 |   FA'iL   {-- |   FACI        |   FACL    --} |   FA'I
 
         |   MaFCUL                      |   MaFUL       |   MaFCIL
 

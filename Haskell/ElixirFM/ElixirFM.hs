@@ -36,12 +36,9 @@
 module ElixirFM where
 
 
-import Prelude ()
-import Elixir.Prelude
+import Prelude hiding (lookup)
 
 import Elixir.Data.Lexicons
-
-    -- Elixir.Data.Buckwalter
 
 import Elixir.Lexicon
 import Elixir.Template
@@ -59,8 +56,6 @@ import FM.Generic.General
 
 import Encode
 import Encode.Arabic
-
-import Prelude hiding (lookup)
 
 import Data.List hiding (lookup)
 

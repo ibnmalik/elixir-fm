@@ -22,6 +22,7 @@ import qualified Data.Map as Map
 
 import Elixir.System
 import Elixir.Inflect
+import Elixir.Derive
 
 import Elixir.Data.Lexicons
 
@@ -57,10 +58,15 @@ data Token a = Token { lexeme :: Lexeme a, struct :: (Root, Morphs a), tag :: Ta
 
     deriving Show
 
+    
+instance (Eq a, Morphing a a, Forming a, Show a, Template a) => Pretty (Token a) where
+
+    pretty = prettiest
+
 
 instance Pretty [[Wrap Token]] where
 
-    pretty = sep . map (text . head) . unwrapResolve pretty'
+    pretty = singleline (text . head) . unwrapResolve pretty'
 
 
 -- prettyResolve $ resolveBy (omitting $ (encode UCS . decode Tim) "aiuKNF") (decode Tim "qaDyA")
@@ -73,10 +79,41 @@ pretty' t = unwords $ map ($ t) [show . tag, uncurry merge . struct,
                                  (\(Lexeme _ l) -> show (reflex l)) . lexeme]
 
 
-unwrapResolve :: (forall c . (Template c, Show c) => a c -> b) -> [[Wrap a]] -> [[b]]
+unwrapResolve :: (forall c . (Template c, Show c, Rules c, Forming c, Morphing c c) => a c -> b) -> [[Wrap a]] -> [[b]]
 
 unwrapResolve f = map (map (unwraps f))
 
+
+-- prettier :: [[Wrap Token]] -> Doc
+
+prettier = singleline head . unwrapResolve prettiest
+
+
+-- prettiest :: (Template a, Show a, Rules a, Forming a, Morphing a a) => Token a -> [Char]
+
+prettiest t = (hcat . punctuate (text "\t") . map text)
+
+                   [show (tag t),
+                    uncurry merge str,
+                    show (fst str),
+                    show (snd str),
+                    merge r (morphs e),
+                    show r,
+                    show (morphs e),
+                    show (reflex e),
+                    show f,
+                    show (entity e)]
+                    
+    where Lexeme r e = lxm
+          lxm = lexeme t
+          str = struct t
+          f = case tag t of
+              
+            ParaVerb _ -> (form . entity) e
+            ParaNoun _ -> [ f | f <- [I ..], (not . null) (siftNoun (morphs e) (nounStems f r)) ]
+            ParaAdj  _ -> [ f | f <- [I ..], (not . null) (siftNoun (morphs e) (nounStems f r)) ]
+            _          -> []
+                    
 
 class Fuzzy a => Resolve a where
 

@@ -23,6 +23,8 @@ module Elixir.Pretty (
 
         -- * Functions
 
+        singleline, doubleline,
+        
         printPretty, exportPretty
 
     ) where
@@ -43,3 +45,13 @@ printPretty = print . pretty
 exportPretty :: Pretty a => a -> String
 
 exportPretty = flip displayS "" . renderPretty 0.4 200 . pretty
+
+
+singleline :: (a -> Doc) -> [a] -> Doc
+
+singleline f = foldr ((<$$>) . f) empty
+
+
+doubleline :: (a -> Doc) -> [a] -> Doc
+
+doubleline f = foldr ((<$$>) . (<$$> empty) . f) empty
