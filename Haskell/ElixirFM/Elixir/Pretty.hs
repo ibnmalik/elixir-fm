@@ -23,8 +23,8 @@ module Elixir.Pretty (
 
         -- * Functions
 
-        singleline, doubleline,
-        
+        onlines, singleline, doubleline,
+
         printPretty, exportPretty
 
     ) where
@@ -55,3 +55,12 @@ singleline f = foldr ((<$$>) . f) empty
 doubleline :: (a -> Doc) -> [a] -> Doc
 
 doubleline f = foldr ((<$$>) . (<$$> empty) . f) empty
+
+
+-- http://www.cas.mcmaster.ca/~kahl/Haskell/Lines/
+
+onlines = foldr f []
+
+    where f '\n' xss      = "" : xss
+          f x    []       = [[x]]
+          f x    (ys:yss) = (x:ys) : yss

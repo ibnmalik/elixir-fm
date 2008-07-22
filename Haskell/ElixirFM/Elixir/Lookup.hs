@@ -38,7 +38,7 @@ class Lookup a b where
 instance Lookup Root Lexicon where
 
     lookup = lookupEntry
-    
+
 
 instance Lookup a Lexicon
 
@@ -49,8 +49,8 @@ instance Lookup String [Wrap Lexeme]
 instance Lookup (Morphs a) [Wrap Lexeme]
 
 instance Morphing a b => Lookup a [Wrap Lexeme]
-    
-    
+
+
 countNest :: Lexicon -> Int
 countNest = length
 

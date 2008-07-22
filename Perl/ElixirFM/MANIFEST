@@ -1,5 +1,12 @@
 Build.PL
 Changes
+cgi/elixir/index.fcgi
+css/elixir.css
+css/listexpander/collapsed.gif
+css/listexpander/empty.gif
+css/listexpander/expanded.gif
+css/listexpander/listexpander.css
+css/listexpander/listexpander.js
 lib/ElixirFM.pm
 lib/ElixirFM/Data/Lexicon.pm
 lib/MorphoMap.pm

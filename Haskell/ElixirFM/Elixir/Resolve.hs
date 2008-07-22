@@ -58,7 +58,7 @@ data Token a = Token { lexeme :: Lexeme a, struct :: (Root, Morphs a), tag :: Ta
 
     deriving Show
 
-    
+
 instance (Eq a, Morphing a a, Forming a, Show a, Template a) => Pretty (Token a) where
 
     pretty = prettiest
@@ -103,17 +103,19 @@ prettiest t = (hcat . punctuate (text "\t") . map text)
                     show (reflex e),
                     show f,
                     show (entity e)]
-                    
+
     where Lexeme r e = lxm
           lxm = lexeme t
           str = struct t
           f = case tag t of
-              
+
             ParaVerb _ -> (form . entity) e
-            ParaNoun _ -> [ f | f <- [I ..], (not . null) (siftNoun (morphs e) (nounStems f r)) ]
-            ParaAdj  _ -> [ f | f <- [I ..], (not . null) (siftNoun (morphs e) (nounStems f r)) ]
+            ParaNoun _ -> [ f | f <- [I ..], or [ True | (_, b, c, d) <- nounStems f r,
+                                                  any (morphs e ==) [morph b, morph c, d] ] ]
+            ParaAdj  _ -> [ f | f <- [I ..], or [ True | (_, b, c, _) <- nounStems f r,
+                                                  any (morphs e ==) [morph b, morph c] ] ]
             _          -> []
-                    
+
 
 class Fuzzy a => Resolve a where
 

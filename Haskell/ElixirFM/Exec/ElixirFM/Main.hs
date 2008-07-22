@@ -19,7 +19,7 @@ module Main where
 
 
 import Prelude hiding (lookup)
-    
+
 import Elixir.Data.Lexicons
 
 import Elixir.Lexicon
@@ -83,7 +83,7 @@ main = do   argv <- getArgs
             let mods = case argv of []              ->  ["--help"]
                                     ('-' : x) : xs  ->  argv
                                     x : xs          ->  ("--" ++ x) : xs
-            
+
                 (opts, pars, errs) = getOpt RequireOrder options mods
 
             if null errs then case head opts of
@@ -95,11 +95,11 @@ main = do   argv <- getArgs
 
                          else       warn (usageInfo synopsis options)
 
-                
+
 warn = hPutStr stderr
 
 
-elixirResolve n = interact (show . doubleline (prettier . f) . words)
+elixirResolve n = interact (unlines . map (show . prettier . f) . concat . map words . onlines)
 
     where f = case e of
 
@@ -112,14 +112,14 @@ elixirResolve n = interact (show . doubleline (prettier . f) . words)
                          _  -> (map toLower . head) n
 
 
-elixirInflect n = interact (show . doubleline (pretty . f) . words)
+elixirInflect n = interact (unlines . map (show . pretty . f) . concat . map words . onlines)
 
     where f = inflectLookup e
           e = case n of  [] -> []
                          _  -> lookup (head n) lexicon
-               
 
-elixirLookup n = interact (show . doubleline (pretty . f) . words)
+
+elixirLookup n = interact (unlines . map (show . pretty . f) . concat . map words . onlines)
 
     where f = case e of
 
