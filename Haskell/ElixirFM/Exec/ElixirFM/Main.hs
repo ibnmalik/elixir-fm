@@ -51,8 +51,10 @@ import Version
 version = revised "$Revision$"
 
 
-data Opts = DisplayUsage | PrintVersion | RunAction ([String] -> IO ())
-
+data Opts = RunAction ([Opts] -> [String] -> IO ()) | FuzzyResolve
+          | DisplayUsage
+          | PrintVersion
+            
 
 options :: [OptDescr Opts]
 
@@ -68,14 +70,17 @@ options = [ Option []    ["resolve"]    (NoArg (RunAction elixirResolve))
             Option []    ["derive"]     (NoArg (RunAction elixirDerive))
                                                 "run the 'derive' mode",
 
+            Option ['f'] ["fuzzy"]      (NoArg (RunAction elixirDerive))
+                                                "use 'fuzzy' resolution",
+
             Option ['h'] ["help"]       (NoArg  DisplayUsage)
-                                                "show usage information",
+                                                "show the usage information",
 
-            Option ['v'] ["version"]    (NoArg PrintVersion)
-                                                "show program's version" ]
+            Option ['v'] ["version"]    (NoArg  PrintVersion)
+                                                "show the program's version" ]
 
 
-synopsis = "elixir [--]ACTION [ENCODING|STRING] ..."
+synopsis = "elixir [--]MODE [--OPTIONS] [PARAMETERS]"
 
 
 main = do   argv <- getArgs
@@ -88,7 +93,7 @@ main = do   argv <- getArgs
 
             if null errs then case head opts of
 
-                RunAction runs  ->  runs pars
+                RunAction runs  ->  runs (tail opts) pars
 
                 DisplayUsage    ->  warn (usageInfo synopsis options)
                 PrintVersion    ->  warn (showVersion Main.version)
@@ -99,27 +104,29 @@ main = do   argv <- getArgs
 warn = hPutStr stderr
 
 
-elixirResolve n = interact (unlines . map (show . prettier . f) . concat . map words . onlines)
+elixirResolve o p = interact (unlines . map (show . prettier . f) . concat . map words . onlines)
 
     where f = case e of
 
-                "tim"   ->  resolveBy (omitting fuzzy omits) . decode Tim
-                "utf"   ->  resolveBy (omitting fuzzy omits) . decode UTF
+                "tim"   ->  resolveBy q (omitting q omits) . decode Tim
+                "utf"   ->  resolveBy q (omitting q omits) . decode UTF
 
-                _       ->  resolveBy (omitting (==) omits)
+                _       ->  resolveBy q (omitting q omits)
 
-          e = case n of  [] -> ""
-                         _  -> (map toLower . head) n
+          e = case p of  [] -> ""
+                         _  -> (map toLower . head) p
+
+          q = if FuzzyResolve `elem` o then fuzzy else alike
 
 
-elixirInflect n = interact (unlines . map (show . pretty . f) . concat . map words . onlines)
+elixirInflect o p = interact (unlines . map (show . pretty . f) . concat . map words . onlines)
 
     where f = inflectLookup e
-          e = case n of  [] -> []
-                         _  -> lookup (head n) lexicon
+          e = case p of  [] -> []
+                         _  -> lookup (head p) lexicon
 
 
-elixirLookup n = interact (unlines . map (show . pretty . f) . concat . map words . onlines)
+elixirLookup o p = interact (unlines . map (show . pretty . f) . concat . map words . onlines)
 
     where f = case e of
 
@@ -128,8 +135,8 @@ elixirLookup n = interact (unlines . map (show . pretty . f) . concat . map word
 
                 _       ->  flip lookup lexicon
 
-          e = case n of  [] -> ""
-                         _  -> (map toLower . head) n
+          e = case p of  [] -> ""
+                         _  -> (map toLower . head) p
 
 
-elixirDerive n = error "'elixir derive' not implemented yet"
+elixirDerive o p = error "'elixir derive' not implemented yet"

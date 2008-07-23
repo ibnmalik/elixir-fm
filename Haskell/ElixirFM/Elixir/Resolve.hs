@@ -121,16 +121,16 @@ class Fuzzy a => Resolve a where
 
     resolve :: a -> [[Wrap Token]]
 
-    resolveBy :: ([a] -> [a] -> Bool) -> a -> [[Wrap Token]]
+    resolveBy :: (String -> String -> Bool) -> ([a] -> [a] -> Bool) -> a -> [[Wrap Token]]
 
-    resolve = resolveBy (==)
+    resolve = resolveBy (==) (==)
 
 
 instance Resolve String where
 
-    resolveBy q y = [ [s] | let l = units y, (r, x) <- indexList, isSubsumed r l,
+    resolveBy e q y = [ [s] | let l = units y, (r, x) <- indexList, isSubsumed e r l,
 
-                            s <- wraps (inflects l) x ]
+                              s <- wraps (inflects l) x ]
 
         where inflects y (Nest r z) = [ Token l i t | e <- z,
 
@@ -143,47 +143,45 @@ instance Resolve String where
 
 instance Resolve [UPoint] where
 
-    resolveBy q y = resolveList indexList (decode TeX) q y
+    resolveBy e q y = resolveList indexList (decode TeX) e q y
 
 
-resolveList l c q y = [ [s] | let i = recode y, (r, x) <- l, isSubsumed r i,
+resolveList l c e q y = [ [s] | let i = recode y, (r, x) <- l, isSubsumed e r i,
 
-                              s <- wraps (inflects (units y)) x ]
+                                s <- wraps (inflects (units y)) x ]
 
     where inflects y (Nest r z) = (concat . map (\ (f, t) -> if (units . c) f `q` y
-                                                             then reverse t else []) .
+                                                             then reverse t else [])
 
-                           Map.toList . Map.fromListWith (++))
+                          . Map.toList . Map.fromListWith (++))
 
-                           [ (uncurry merge i, [Token l i t]) | e <- z,
+                          [ (uncurry merge i, [Token l i t]) | e <- z,
 
-                             let x = (expand . domain) e, s <- entries e,
+                            let x = (expand . domain) e, s <- entries e,
 
-                             let l = Lexeme r s, (t, h) <- inflect l x, i <- h ]
-
-
-resolveMore q y = resolveListMore indexList id q y
+                            let l = Lexeme r s, (t, h) <- inflect l x, i <- h ]
 
 
-resolveListMore l c q y = [ [s] | (r, x) <- l,
+resolveMore e q y = resolveListMore indexList id e q y
 
-                                  let i = filter (isSubsumed ((map c) r) . letters) y,
 
-                                  not (null i),
+resolveListMore l c e q y = [ [s] | (r, x) <- l,
 
-                                  s <- wraps (inflects i) x ]
+                                    let i = filter (isSubsumed e ((map c) r) . letters) y,
+
+                                    not (null i),
+
+                                    s <- wraps (inflects i) x ]
 
     where inflects y (Nest r z) = [ Token (Lexeme r e) i t | e <- z,
 
-                             let s = inflect (Lexeme r e) ((expand . domain) e), (t, h) <- s,
+                            let s = inflect (Lexeme r e) ((expand . domain) e), (t, h) <- s,
 
-                             i <- h, let m = (c . uncurry merge) i, d <- y, m `q` d ]
+                            i <- h, let m = (c . uncurry merge) i, d <- y, m `q` d ]
 
 
 resolveSub r = resolveBy (\ x y -> any (isPrefixOf x) (tails y)) r
 
-
--- unwrapResolve (uncurry merge . struct) $ resolveBy (omitting "aiuAUI") "ktbuN"
 
 omitting' :: Eq a => (a -> a -> Bool) -> [[a]] -> [a] -> [a] -> Bool
 
@@ -192,8 +190,8 @@ omitting' f c x y = omitting f (concat c) x y
 
 omitting :: Eq a => (a -> a -> Bool) -> [a] -> [a] -> [a] -> Bool
 
-omitting f _ []    []      = True
-omitting f _ []    _       = False
+omitting _ _ []    []      = True
+omitting _ _ []    _       = False
 
 omitting f c (k:l) s@(q:r) | k `f` q    = omitting f c l r
                            | k `elem` c = omitting f c l s
@@ -203,13 +201,13 @@ omitting f c (k:l) []      | k `elem` c = omitting f c l []
                            | otherwise  = False
 
 
-isSubsumed :: Eq a => [a] -> [a] -> Bool
+isSubsumed :: Eq a => (a -> a -> Bool) -> [a] -> [a] -> Bool
 
-isSubsumed []        _      = True
-isSubsumed _         []     = False
+isSubsumed _ []        _      = True
+isSubsumed _ _         []     = False
 
-isSubsumed zs@(x:xs) (y:ys) | x == y    = isSubsumed xs ys
-                            | otherwise = isSubsumed zs ys
+isSubsumed f zs@(x:xs) (y:ys) | x `f` y   = isSubsumed f xs ys
+                              | otherwise = isSubsumed f zs ys
 
 
 reduce :: String -> [String]
@@ -225,14 +223,15 @@ class Eq a => Fuzzy a where
     omits :: [a]
     skips :: [a]
     units :: a -> [a]
+    alike :: a -> a -> Bool
     fuzzy :: a -> a -> Bool
 
 
 instance Fuzzy String where
 
-    skips = ["'", "w", "y"]
+    skips = ["'", "w", "y"]                                                             -- ["`", "q"]
 
-    omits = ["a", "i", "u", "A", "I", "U", "Y", "-", "N", "W", "|", "_a", "_I", "_U"]
+    omits = ["a", "i", "u", "A", "I", "U", "Y", "-", "N", "W", "|", "_a", "_I", "_U"]   -- ["'", "`", "q", "T"]
 
     units ('_':z:s) | z `elem` "thdaIU"  = ['_', z] : units s
     units ('^':z:s) | z `elem` "gscznl"  = ['^', z] : units s
@@ -243,52 +242,106 @@ instance Fuzzy String where
 
     units []     = []
 
+    alike x y = x == y
+
+    fuzzy "A" y | y `elem` ["A", "a", "Y"] = True
+    fuzzy "I" y | y `elem` ["I", "i", "e"] = True
+    fuzzy "U" y | y `elem` ["U", "u", "o"] = True
+    fuzzy "Y" y | y `elem` ["Y", "a", "A"] = True
+
+    fuzzy "'" y | y `elem` ["'", "`", "a", "i", "u"] = True
+    fuzzy "`" y | y `elem` ["`", "'", "a", "i", "u"] = True
+
+    fuzzy ".s" y | y `elem` [".s", "s"] = True
+    fuzzy ".d" y | y `elem` [".d", "d"] = True
+    fuzzy ".t" y | y `elem` [".t", "t"] = True
+    fuzzy ".z" y | y `elem` [".z", "z", ".d", "_d", "d"] = True
+
+    fuzzy "q" y | y `elem` ["q", "k", "'", "g"] = True
+    fuzzy "k" y | y `elem` ["k", "q"] = True
+
+    fuzzy ".h" y | y `elem` [".h", "_h", "h"] = True
+    fuzzy "_h" y | y `elem` ["_h", ".h", "h"] = True
+
+    fuzzy "^g" y | y `elem` ["^g", "g"] = True
+    fuzzy ".g" y | y `elem` [".g", "g"] = True
+
+    fuzzy "_t" y | y `elem` ["_t", "t", "s"] = True
+    fuzzy "_d" y | y `elem` ["_d", "d", "z"] = True
+
+ -- fuzzy "^s" y | y `elem` ["^s", "s"] = True
+
+ -- fuzzy "w" y | y `elem` ["w", "O"] = True
+ -- fuzzy "y" y | y `elem` ["y", "E"] = True
+
+    fuzzy "T" y | y `elem` ["T", "t", "h"] = True
+    fuzzy "N" y | y `elem` ["N", "n"] = True
+    fuzzy "W" y | y `elem` ["W", "A"] = True
+
+    fuzzy "_a" y | y `elem` ["_a", "A", "a"] = True
+    fuzzy "_I" y | y `elem` ["_I", "i", "I"] = True
+    fuzzy "_U" y | y `elem` ["_U", "u", "U"] = True
+
     fuzzy x y = x == y
 
 
 instance Fuzzy [UPoint] where
 
-    skips = [ [x] | x <- decode Tim "OWI}'wy" ]
+    skips = [ [x] | x <- decode Tim "OWI}'wy" ]     -- using the Fuzzy String in resolveBy
 
     omits = [ [x] | x <- decode Tim "aiuo~`FNK" ]
 
     units x = [ [y] | y <- x ]    -- can become more complex
 
-    fuzzy [x] [y] = equiv (fromEnum x) (fromEnum y)
+    alike [x] [y] = alike' (fromEnum x) (fromEnum y)
+    alike _   _   = False
+
+    fuzzy [x] [y] = fuzzy' (fromEnum x) (fromEnum y) ||
+                    alike' (fromEnum x) (fromEnum y)
     fuzzy _  _    = False         -- can become more complex
 
 
-equiv :: Int -> Int -> Bool
+alike' :: Int -> Int -> Bool
 
-equiv 0x0621 y | y `elem` [0x0621, 0x0624, 0x0626] = True
+alike' 0x0621 y | y `elem` [0x0621, 0x0624, 0x0626] = True
 
-equiv 0x0622 y | y > 0x0620 && y < 0x0628 = True
-equiv 0x0623 y | y > 0x0620 && y < 0x0628 = True
-equiv 0x0625 y | y > 0x0620 && y < 0x0628 = True
-
-{-
-equiv 0x0622 y | y `elem` [0x0622, 0x0627, 0x0623, 0x0625, 0x0621, 0x0624, 0x0626] = True
-equiv 0x0623 y | y `elem` [0x0623, 0x0627, 0x0625, 0x0622, 0x0621, 0x0624, 0x0626] = True
-equiv 0x0625 y | y `elem` [0x0625, 0x0627, 0x0623, 0x0622, 0x0621, 0x0624, 0x0626] = True
--}
-
-equiv 0x0627 y | y `elem` [0x0627, 0x0623, 0x0625, 0x0671] = True
-equiv 0x0671 y | y `elem` [0x0671, 0x0627, 0x0623, 0x0625] = True
-
-equiv 0x0624 y | y > 0x0622 && y < 0x0628 || y `elem` [0x0621,         0x0648] = True
-equiv 0x0626 y | y > 0x0622 && y < 0x0628 || y `elem` [0x0621, 0x0649, 0x064A] = True
+alike' 0x0622 y | y > 0x0620 && y < 0x0628 = True
+alike' 0x0623 y | y > 0x0620 && y < 0x0628 = True
+alike' 0x0625 y | y > 0x0620 && y < 0x0628 = True
 
 {-
-equiv 0x0624 y | y `elem` [0x0624, 0x0621, 0x0648,         0x0626, 0x0623, 0x0625, 0x0627] = True
-equiv 0x0626 y | y `elem` [0x0626, 0x0621, 0x0649, 0x064A, 0x0624, 0x0623, 0x0625, 0x0627] = True
+alike' 0x0622 y | y `elem` [0x0622, 0x0627, 0x0623, 0x0625, 0x0621, 0x0624, 0x0626] = True
+alike' 0x0623 y | y `elem` [0x0623, 0x0627, 0x0625, 0x0622, 0x0621, 0x0624, 0x0626] = True
+alike' 0x0625 y | y `elem` [0x0625, 0x0627, 0x0623, 0x0622, 0x0621, 0x0624, 0x0626] = True
 -}
 
-equiv 0x0649 y | y `elem` [0x0649, 0x064A] = True
-equiv 0x064A y | y `elem` [0x064A, 0x0649] = True
+alike' 0x0627 y | y `elem` [0x0627, 0x0623, 0x0625, 0x0671] = True
+alike' 0x0671 y | y `elem` [0x0671, 0x0627, 0x0623, 0x0625] = True
 
-equiv 0x0629 y | y `elem` [0x0629, 0x0647] = True
+alike' 0x0624 y | y > 0x0622 && y < 0x0628 || y `elem` [0x0621,         0x0648] = True
+alike' 0x0626 y | y > 0x0622 && y < 0x0628 || y `elem` [0x0621, 0x0649, 0x064A] = True
 
-equiv x y = x == y
+{-
+alike' 0x0624 y | y `elem` [0x0624, 0x0621, 0x0648,         0x0626, 0x0623, 0x0625, 0x0627] = True
+alike' 0x0626 y | y `elem` [0x0626, 0x0621, 0x0649, 0x064A, 0x0624, 0x0623, 0x0625, 0x0627] = True
+-}
+
+alike' 0x0649 y | y `elem` [0x0649, 0x064A] = True
+alike' 0x064A y | y `elem` [0x064A, 0x0649] = True
+
+alike' 0x0629 y | y `elem` [0x0629, 0x0647] = True
+
+alike' x y = x == y
+
+
+fuzzy' :: Int -> Int -> Bool
+
+fuzzy' 0x0635 y | y `elem` [0x0635, 0x0633] = True
+fuzzy' 0x0636 y | y `elem` [0x0636, 0x062F] = True
+fuzzy' 0x0637 y | y `elem` [0x0637, 0x062A] = True
+fuzzy' 0x0638 y | y `elem` [0x0638, 0x0632, 0x0636, 0x0630, 0x062F] = True
+
+fuzzy' x y = x == y
 
 
 next :: String -> Maybe (String, String)
