@@ -45,6 +45,8 @@ import Elixir.Lexicon
 
 import Data.List (nub, isPrefixOf)
 
+import Prelude hiding (lookup)
+
 import Elixir.Pretty hiding (list)
 
 
@@ -90,6 +92,15 @@ class Inflect m p where
                m a -> p -> [(Tag, [(Root, Morphs a)])]
 
 
+-- anything to become 'Wrap x' must have a newtype or data constructor x of kind * -> * 
+               
+newtype TagRootMorphs a = TRM [(Tag, [(Root, Morphs a)])]
+
+instance Show a => Show (TagRootMorphs a) where
+
+    show (TRM x) = show x
+    
+               
 instance Inflect Lexeme a => Inflect Entry a where
 
     inflect x = inflect (Lexeme "f ` l" x)
@@ -98,10 +109,25 @@ instance Inflect Lexeme a => Inflect Entry a where
 -- instance Inflect Lexeme a => Inflect ((,) String . Entry) a where
 --
 --     inflect (r, x) = inflect (Lexeme r x)
+--
+-- inflect' (r, x) = inflect (Lexeme r (x `adj` []))
 
-inflect' (r, x) = inflect (Lexeme r (x `adj` []))
+{-
+instance Inflect (Index, Lexicon) a where
 
+    inflect (x, l) y = [ z | w <- lookup x l, z <- unwraps (inflects y) w ]
+    
+        where inflects y (Nest r z) = [ i | e <- z, s <- entries e,
+                                            i <- inflect (Lexeme r s) y ]
+-}
 
+inflectIdx :: (Inflect Lexeme a, Lookup b [Wrap Nest]) => (b,[Wrap Nest]) -> a -> [Wrap TagRootMorphs]
+
+inflectIdx (x, l) y = [ z | w <- lookup x l, z <- wraps (inflects y) w ]
+
+    where inflects y (Nest r z) = [ TRM (inflect (Lexeme r s) y) | e <- z, s <- entries e ]
+                               
+                               
 instance Inflect Entry ParaVerb where
 
     inflect x = inflect (Lexeme "d r s" x)

@@ -12,7 +12,7 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Encode.Arabic"
+-- "Elixir" "FM"
 
 
 module Elixir.Lookup where
@@ -32,40 +32,27 @@ import Data.List hiding (lookup)
 
 class Lookup a b where
 
-    lookup :: a -> b -> [Wrap Lexeme]
+    lookup :: a -> Lexicon -> b
+
+ -- lookupBy :: (a -> c -> Bool) -> Lexicon -> b
+
+ -- lookup x = lookupBy (==)
 
 
-instance Lookup Root Lexicon where
+instance Lookup Index Lexicon where
 
-    lookup = lookupEntry
+    lookup (n, m) y = [ z | w <- find n y, z <- wraps lookup' w ]
+        
+        where find x y | x > 0     = take 1 (drop (x - 1) y)
+                       | x < 0     = find (-x) (reverse y)
+                       | otherwise = []
+                       
+              lookup' (Nest r z) = [ Nest r (find m z) ]
+    
+ 
+instance Lookup [Root] Lexicon where
 
-
-instance Lookup a Lexicon
-
-instance Lookup [UPoint] [Wrap Lexeme]
-
-instance Lookup String [Wrap Lexeme]
-
-instance Lookup (Morphs a) [Wrap Lexeme]
-
-instance Morphing a b => Lookup a [Wrap Lexeme]
-
-
-countNest :: Lexicon -> Int
-countNest = length
-
-countEntry :: Lexicon -> Int
-countEntry = sum . map countEach
-
-countEach :: Wrap Nest -> Int
-countEach = length . wraps ents
-
-{-
-countEach (WrapL l) = length (ents l)
-countEach (WrapT l) = length (ents l)
-countEach (WrapQ l) = length (ents l)
-countEach (WrapS l) = length (ents l)
--}
+    lookup x y = lookupRootBy ((x ==) . words) y
 
 
 lookupRoot :: Root -> Lexicon -> [Wrap Nest]
@@ -77,6 +64,19 @@ lookupRootBy f l = concat [ wraps (\ x -> if f (root x) then [x] else []) n | n 
 -- Would be so nice ... but HOW TO DO IT? ... thanks forall ^^
 --
 -- lookupRoot r l = [ n | n <- l, unwrap root n == r ]
+
+    
+
+-- instance Lookup a Lexicon
+
+instance Lookup [UPoint] [Wrap Lexeme] where
+
+    lookup x y = lookupEntryBy ((x ==) . decode TeX) y
+
+
+instance Lookup String [Wrap Lexeme] where
+
+    lookup x y = lookupEntryBy (x ==) y
 
 
 lookupEntry :: String -> Lexicon -> [Wrap Lexeme]
@@ -101,6 +101,28 @@ lookupEntry' z w r es = [ wrap (Lexeme r (const e z)) | e <- es, let m = morphs 
 -}
 
 
+instance Lookup (Morphs a) [Wrap Lexeme]
+
+instance Morphing a b => Lookup a [Wrap Lexeme]
+
+
+countNest :: Lexicon -> Int
+countNest = length
+
+countEntry :: Lexicon -> Int
+countEntry = sum . map countEach
+
+countEach :: Wrap Nest -> Int
+countEach = length . wraps ents
+
+{-
+countEach (WrapL l) = length (ents l)
+countEach (WrapT l) = length (ents l)
+countEach (WrapQ l) = length (ents l)
+countEach (WrapS l) = length (ents l)
+-}
+
+
 lookupReflex :: String -> Lexicon -> [Wrap Lexeme]
 
 lookupReflex w l = concat [ wraps (lookupReflex' w) n | n <- l ]
@@ -122,6 +144,7 @@ inflectLookup l t = [ case i of WrapT x -> inflects x
 -}
 
 
+
 lookupLemma :: String -> Lexicon -> String
 
 lookupLemma w l = (unlines . concat) (map (unwraps (lookupLemma' w)) l)
@@ -133,6 +156,7 @@ lookupLemma' w (Nest r es) = [ merge r m ++ " (" ++ r ++ ") " ++ show m ++ "\n\t
 
                         | e <- es, let m = morphs e
                                        h = merge r m, w == h ]
+
 
 {-
 lookupLemma w l = unlines [ s | n <- l, s <- case n of

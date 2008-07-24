@@ -21,6 +21,7 @@ module Main where
 import Prelude hiding (lookup)
 
 import Elixir.Data.Lexicons
+       -- Elixir.Data.Effective
 
 import Elixir.Lexicon
 import Elixir.Template
@@ -48,7 +49,9 @@ import Data.Version (showVersion)
 
 import Version
 
-version = revised "$Revision$"
+version = Version [1, 1, build] []
+    
+    where Version [build] [] = revised "$Revision$"
 
 
 data Opts = RunAction ([Opts] -> [String] -> IO ()) | FuzzyResolve
@@ -68,19 +71,27 @@ options = [ Option []    ["resolve"]    (NoArg (RunAction elixirResolve))
                                                 "run the 'lookup' mode",
 
             Option []    ["derive"]     (NoArg (RunAction elixirDerive))
-                                                "run the 'derive' mode",
+                                                "run the 'derive' mode\n\n",
 
-            Option ['f'] ["fuzzy"]      (NoArg (RunAction elixirDerive))
-                                                "use 'fuzzy' resolution",
+            Option ['f'] ["fuzzy"]      (NoArg  FuzzyResolve)
+                                                "use 'fuzzy' resolution\n\n",
 
             Option ['h'] ["help"]       (NoArg  DisplayUsage)
-                                                "show the usage information",
+                                                "program's usage and online references",
 
             Option ['v'] ["version"]    (NoArg  PrintVersion)
-                                                "show the program's version" ]
+                                                "library version and build information" ]
 
 
-synopsis = "elixir [--]MODE [--OPTIONS] [PARAMETERS]"
+copyleft = unlines ["ElixirFM (C) 2008-2005 Otakar Smrz, 2002 Tim Buckwalter",
+                    "GNU General Public License http://www.gnu.org/licenses/"]
+           
+synopsis = unlines [copyleft,
+                    "             http://sourceforge.net/projects/elixir-fm/",
+                    "                    http://quest.ms.mff.cuni.cz/elixir/",
+                    "                              <otakar.smrz mff.cuni.cz>",
+                    "",
+                    "elixir [--]MODE [--OPTIONS] [PARAMETERS]"]
 
 
 main = do   argv <- getArgs
@@ -95,8 +106,12 @@ main = do   argv <- getArgs
 
                 RunAction runs  ->  runs (tail opts) pars
 
-                DisplayUsage    ->  warn (usageInfo synopsis options)
-                PrintVersion    ->  warn (showVersion Main.version)
+                PrintVersion    ->  warn (unlines [copyleft, 
+                                          unwords ["ElixirFM", 
+                                                   showVersion Main.version,
+                                                   "July 2008"]])
+                                    
+                _               ->  warn (usageInfo synopsis options)
 
                          else       warn (usageInfo synopsis options)
 
@@ -108,27 +123,33 @@ elixirResolve o p = interact (unlines . map (show . prettier . f) . concat . map
 
     where f = case e of
 
-                "tim"   ->  resolveBy q (omitting q omits) . decode Tim
-                "utf"   ->  resolveBy q (omitting q omits) . decode UTF
+                "tim"   ->  if q then resolveBy alike (omitting alike omits) . decode Tim
+                                 else resolveBy fuzzy (omitting fuzzy omits) . decode Tim
 
-                _       ->  resolveBy q (omitting q omits)
+                "utf"   ->  if q then resolveBy alike (omitting alike omits) . decode UTF
+                                 else resolveBy fuzzy (omitting fuzzy omits) . decode UTF
+
+                _       ->  if q then resolveBy alike (omitting alike omits)
+                                 else resolveBy fuzzy (omitting fuzzy omits)
 
           e = case p of  [] -> ""
                          _  -> (map toLower . head) p
 
-          q = if FuzzyResolve `elem` o then fuzzy else alike
+          q = null [ FuzzyResolve | FuzzyResolve <- o ]
 
 
-elixirInflect o p = interact (unlines . map (show . pretty . f) . concat . map words . onlines)
+elixirInflect o p = interact (unlines . map (show . f) . concat . map words . onlines)
 
-    where f = inflectLookup e
-          e = case p of  [] -> []
-                         _  -> lookup (head p) lexicon
-
+    where f x = -- pretty [ z | w <- i, z <- wraps (\ (Nest r z) -> [ TRM (inflect (Lexeme r e) x) | e <- z ]) w ]
+                vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (inflect (Lexeme r e) x) | e <- z ]) w ]
+    
+          i = [ z | x <- p, (y :: Index, "") <- readsPrec 0 x, z <- lookup y lexicon :: Lexicon ]
+    
 
 elixirLookup o p = interact (unlines . map (show . pretty . f) . concat . map words . onlines)
 
-    where f = case e of
+    where f :: String -> [Wrap Lexeme]
+          f = case e of
 
                 "tim"   ->  flip lookup lexicon . decode Tim
                 "utf"   ->  flip lookup lexicon . decode UTF

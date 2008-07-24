@@ -12,7 +12,7 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Encode.Arabic"
+-- "Elixir" "FM"
 
 
 module Elixir.Lexicon (
@@ -36,9 +36,11 @@ module Elixir.Lexicon (
         -- (94686 reductions, 229830 cells)
         -- (93617 reductions, 227671 cells)
 
-        Wrap (..), Lexicon, Root, Reflex,
+        Wrap (..), Nest (..), Entry (..), Lexeme (..),
 
-        Nest (..), Entry (..), Lexeme (..), Entity (..),
+        Lexicon, Index, Root, Reflex,
+
+        Entity (..),
 
         PatternT (..),
         PatternQ (..),
@@ -120,6 +122,8 @@ include = concat    -- include f = concat . map f
 
 
 type Lexicon = [Wrap Nest]
+
+type Index = (Int, Int)
 
 type Root = String
 

@@ -25,6 +25,7 @@ import Elixir.Inflect
 import Elixir.Derive
 
 import Elixir.Data.Lexicons
+       -- Elixir.Data.Effective
 
 import Elixir.Lexicon
 import Elixir.Template
@@ -54,7 +55,7 @@ infix  4 `elem`, `notElem`
 -}
 
 
-data Token a = Token { lexeme :: Lexeme a, struct :: (Root, Morphs a), tag :: Tag }
+data Token a = Token { lexeme :: (Lexeme a, Index), struct :: (Root, Morphs a), tag :: Tag }
 
     deriving Show
 
@@ -74,9 +75,9 @@ instance Pretty [[Wrap Token]] where
 prettyResolve = (putStr . unlines . map head . unwrapResolve pretty')
 
 pretty' t = unwords $ map ($ t) [show . tag, uncurry merge . struct,
-                                 (\(Lexeme r _) -> show r)          . lexeme,
-                                 (\(Lexeme _ l) -> show (morphs l)) . lexeme,
-                                 (\(Lexeme _ l) -> show (reflex l)) . lexeme]
+                                 (\(Lexeme r _) -> show r)          . fst . lexeme,
+                                 (\(Lexeme _ l) -> show (morphs l)) . fst . lexeme,
+                                 (\(Lexeme _ l) -> show (reflex l)) . fst . lexeme]
 
 
 unwrapResolve :: (forall c . (Template c, Show c, Rules c, Forming c, Morphing c c) => a c -> b) -> [[Wrap a]] -> [[b]]
@@ -102,9 +103,10 @@ prettiest t = (hcat . punctuate (text "\t") . map text)
                     show (morphs e),
                     show (reflex e),
                     show f,
-                    show (entity e)]
+                    show (entity e),
+                    show (snd lxm)]
 
-    where Lexeme r e = lxm
+    where Lexeme r e = fst lxm
           lxm = lexeme t
           str = struct t
           f = case tag t of
@@ -128,11 +130,11 @@ class Fuzzy a => Resolve a where
 
 instance Resolve String where
 
-    resolveBy e q y = [ [s] | let l = units y, (r, x) <- indexList, isSubsumed e r l,
+    resolveBy e q y = [ [s] | let l = units y, ((r, x), n) <- zip indexList [1 ..],
 
-                              s <- wraps (inflects l) x ]
+                              isSubsumed e r l, s <- wraps (inflects l n) x ]
 
-        where inflects y (Nest r z) = [ Token l i t | e <- z,
+        where inflects y n (Nest r z) = [ Token (l, (n, m)) i t | (e, m) <- zip z [1 ..],
 
                             let x = (expand . domain) e, s <- entries e,
 
@@ -146,16 +148,16 @@ instance Resolve [UPoint] where
     resolveBy e q y = resolveList indexList (decode TeX) e q y
 
 
-resolveList l c e q y = [ [s] | let i = recode y, (r, x) <- l, isSubsumed e r i,
+resolveList l c e q y = [ [s] | let i = recode y, ((r, x), n) <- zip l [1 ..],
 
-                                s <- wraps (inflects (units y)) x ]
+                                isSubsumed e r i, s <- wraps (inflects (units y) n) x ]
 
-    where inflects y (Nest r z) = (concat . map (\ (f, t) -> if (units . c) f `q` y
-                                                             then reverse t else [])
+    where inflects y n (Nest r z) = (concat . map (\ (f, t) -> if (units . c) f `q` y
+                                                               then reverse t else [])
 
                           . Map.toList . Map.fromListWith (++))
 
-                          [ (uncurry merge i, [Token l i t]) | e <- z,
+                          [ (uncurry merge i, [Token (l, (n, m)) i t]) | (e, m) <- zip z [1 ..],
 
                             let x = (expand . domain) e, s <- entries e,
 
@@ -165,19 +167,17 @@ resolveList l c e q y = [ [s] | let i = recode y, (r, x) <- l, isSubsumed e r i,
 resolveMore e q y = resolveListMore indexList id e q y
 
 
-resolveListMore l c e q y = [ [s] | (r, x) <- l,
+resolveListMore l c e q y = [ [s] | ((r, x), n) <- zip l [1 ..],
 
                                     let i = filter (isSubsumed e ((map c) r) . letters) y,
 
-                                    not (null i),
+                                    not (null i), s <- wraps (inflects i n) x ]
 
-                                    s <- wraps (inflects i) x ]
-
-    where inflects y (Nest r z) = [ Token (Lexeme r e) i t | e <- z,
+    where inflects y n (Nest r z) = [ Token ((Lexeme r e), (n, m)) i t | (e, m) <- zip z [1 ..],
 
                             let s = inflect (Lexeme r e) ((expand . domain) e), (t, h) <- s,
 
-                            i <- h, let m = (c . uncurry merge) i, d <- y, m `q` d ]
+                            i <- h, let u = (c . uncurry merge) i, d <- y, u `q` d ]
 
 
 resolveSub r = resolveBy (\ x y -> any (isPrefixOf x) (tails y)) r
@@ -263,13 +263,13 @@ instance Fuzzy String where
     fuzzy ".h" y | y `elem` [".h", "_h", "h"] = True
     fuzzy "_h" y | y `elem` ["_h", ".h", "h"] = True
 
-    fuzzy "^g" y | y `elem` ["^g", "g"] = True
+    fuzzy "^g" y | y `elem` ["^g", "g", "j"] = True
     fuzzy ".g" y | y `elem` [".g", "g"] = True
 
     fuzzy "_t" y | y `elem` ["_t", "t", "s"] = True
     fuzzy "_d" y | y `elem` ["_d", "d", "z"] = True
 
- -- fuzzy "^s" y | y `elem` ["^s", "s"] = True
+    fuzzy "^s" y | y `elem` ["^s", "s"] = True
 
  -- fuzzy "w" y | y `elem` ["w", "O"] = True
  -- fuzzy "y" y | y `elem` ["y", "E"] = True
@@ -340,6 +340,19 @@ fuzzy' 0x0635 y | y `elem` [0x0635, 0x0633] = True
 fuzzy' 0x0636 y | y `elem` [0x0636, 0x062F] = True
 fuzzy' 0x0637 y | y `elem` [0x0637, 0x062A] = True
 fuzzy' 0x0638 y | y `elem` [0x0638, 0x0632, 0x0636, 0x0630, 0x062F] = True
+
+fuzzy' 0x0639 y | y `elem` [0x0639, 0x0623, 0x0625, 0x0627] = True
+
+fuzzy' 0x0642 y | y `elem` [0x0642, 0x0643, 0x0623, 0x0625, 0x0627] = True
+fuzzy' 0x0643 y | y `elem` [0x0643, 0x0642] = True
+
+fuzzy' 0x062D y | y `elem` [0x062D, 0x062E, 0x0647] = True
+fuzzy' 0x062E y | y `elem` [0x062E, 0x062D, 0x0647] = True
+
+fuzzy' 0x062B y | y `elem` [0x062B, 0x062A, 0x0633] = True
+fuzzy' 0x0630 y | y `elem` [0x0630, 0x062F, 0x0632] = True
+
+fuzzy' 0x0670 y | y `elem` [0x0670, 0x064E] = True
 
 fuzzy' x y = x == y
 
