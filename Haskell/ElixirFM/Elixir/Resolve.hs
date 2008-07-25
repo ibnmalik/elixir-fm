@@ -70,10 +70,6 @@ instance Pretty [[Wrap Token]] where
     pretty = singleline (text . head) . unwrapResolve pretty'
 
 
--- prettyResolve $ resolveBy (omitting $ (encode UCS . decode Tim) "aiuKNF") (decode Tim "qaDyA")
-
-prettyResolve = (putStr . unlines . map head . unwrapResolve pretty')
-
 pretty' t = unwords $ map ($ t) [show . tag, uncurry merge . struct,
                                  (\(Lexeme r _) -> show r)          . fst . lexeme,
                                  (\(Lexeme _ l) -> show (morphs l)) . fst . lexeme,
@@ -249,8 +245,8 @@ instance Fuzzy String where
     fuzzy "U" y | y `elem` ["U", "u", "o"] = True
     fuzzy "Y" y | y `elem` ["Y", "a", "A"] = True
 
-    fuzzy "'" y | y `elem` ["'", "`", "a", "i", "u"] = True
-    fuzzy "`" y | y `elem` ["`", "'", "a", "i", "u"] = True
+    fuzzy "'" y | y `elem` ["'", "`", "a", "i", "u", "e", "o"] = True
+    fuzzy "`" y | y `elem` ["`", "'", "a", "i", "u", "e", "o"] = True
 
     fuzzy ".s" y | y `elem` [".s", "s"] = True
     fuzzy ".d" y | y `elem` [".d", "d"] = True
@@ -343,7 +339,7 @@ fuzzy' 0x0638 y | y `elem` [0x0638, 0x0632, 0x0636, 0x0630, 0x062F] = True
 
 fuzzy' 0x0639 y | y `elem` [0x0639, 0x0623, 0x0625, 0x0627] = True
 
-fuzzy' 0x0642 y | y `elem` [0x0642, 0x0643, 0x0623, 0x0625, 0x0627] = True
+fuzzy' 0x0642 y | y `elem` [0x0642, 0x0643, 0x0621] || y > 0x0622 && y < 0x0628 = True
 fuzzy' 0x0643 y | y `elem` [0x0643, 0x0642] = True
 
 fuzzy' 0x062D y | y `elem` [0x062D, 0x062E, 0x0647] = True

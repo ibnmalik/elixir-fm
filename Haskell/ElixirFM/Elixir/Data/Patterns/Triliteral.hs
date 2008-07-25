@@ -514,8 +514,9 @@ instance Forming PatternT where
 
         (   FaCaL,      FACiL,      MaFCUL,     morph   FiCL            ),
         (   FaCaL,      FACiL,      MaFCUL,             FiCAL |< aT     ),
+        (   FaCaL,      FACiL,      MaFCUL,     morph   FuCUL           ),
 
-        (   FaCaL,      FACiL,      MaFCUL,             CiL |< aT       ),
+     -- (   FaCaL,      FACiL,      MaFCUL,             CiL |< aT       ),
 
         (   FAL,        FA'iL,      MaFUL,      morph   FaCL            ),
         (   FAL,        FA'iL,      MaFIL,      morph   FaCL            ),
@@ -543,7 +544,7 @@ instance Forming PatternT where
     nounStems III _ = [
 
         (   FACaL,      MuFACiL,    MuFACaL,            MuFACaL |< aT   ),
-        (   FACaL,      MuFACiL,    MuFACaL,    morph   FiCAL           ),
+     -- (   FACaL,      MuFACiL,    MuFACaL,    morph   FiCAL           ),
         (   FACY,       MuFACI,     MuFACY,             MuFACY |< aT    ),
         (   FACL,       MuFACL,     MuFACL,             MuFACL |< aT    )
 

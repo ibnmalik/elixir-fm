@@ -50,22 +50,19 @@ import Prelude hiding (lookup)
 import Elixir.Pretty hiding (list)
 
 
-instance Show a => Pretty [(Tag, [(Root, Morphs a)])] where
+instance (Show a, Template a) => Pretty [(Tag, [(Root, Morphs a)])] where
 
-    pretty = sep . map pretty
+    pretty = singleline pretty
 
  -- instance Pretty a => Pretty [a] where
 
 
-instance Show a => Pretty (Tag, [(Root, Morphs a)]) where
+instance (Show a, Template a) => Pretty (Tag, [(Root, Morphs a)]) where
 
-    pretty = text . show
-
-
-prettyInflect :: (Morphing a a, Forming a, Rules a, Show a, Inflect b c) => b a -> c -> IO ()
-
-prettyInflect x y = (putStr . unlines . map show) (inflect x y)
-
+    pretty (x, y) = (hcat . punctuate (text "\t") . map text)
+                    
+                    (show x : [ z | (u, v) <- y, z <- [merge u v, show u, show v] ])
+    
 
 inflectDerive :: (Morphing a a, Forming a, Rules a, Derive b c, Inflect b c) => b a -> c -> [[(Tag, [(Root, Morphs a)])]]
 
