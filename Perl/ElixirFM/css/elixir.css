@@ -5,6 +5,7 @@
 .orth {
     font-size: medium;
     /* display: none; */
+    line-height: 150%;
 }
 
 .xtag {
@@ -82,37 +83,39 @@ h2 {
 
 a:link { 
     color: indigo;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 h1 a:link { 
     color: gold;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:visited { 
-    color: goldenrod;
-    text-decoration: underline;
+    color: indigo;
+    text-decoration: none;
 }
 
 h1 a:visited { 
-    color: palegoldenrod;
-    text-decoration: underline;
+    color: gold;
+    text-decoration: none;
 }
 
 a:hover {
-    color: gold;
-    text-decoration: underline;
+    color: indigo;
+    text-decoration: none;
+    background-color: palegoldenrod;
 }
 
 h1 a:hover {
     color: gold;
-    text-decoration: underline;
+    text-decoration: none;
+    background-color: indigo;
 }
 
 a:active { 
-    color: goldenrod;
-    text-decoration: underline;
+    color: gold;
+    text-decoration: none;
 }
 
 code {

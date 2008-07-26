@@ -49,6 +49,95 @@ sub cling {
     return $text;
 }
 
+our $tagset = [
+
+    [ "part-of-speech",
+      { "V-" => "verb",
+	"VI" => "imperfective",
+	"VP" => "perfective",
+	"VC" => "imperative",
+	"N-" => "noun",
+	"A-" => "adjective",
+	"S-" => "pronoun",
+	"SP" => "personal",
+	"SD" => "demonstrative",
+	"SR" => "relative",
+	"Q-" => "numeral",
+	"D-" => "adverb",
+	"P-" => "preposition",
+	"PI" => "inflected",
+	"C-" => "conjunction",
+	"F-" => "particle",
+	"FN" => "negative",
+	"FI" => "interrogative",
+	"I-" => "interjection",
+	"G-" => "graphical symbol",
+	"Y-" => "abbreviation",
+	"--" => "isolated definite article",
+	"Z-" => "proper name" } ],
+
+    [ "", {} ],
+
+    [ "mood",
+      { "I" => "indicative",
+	"S" => "subjunctive",
+	"J" => "jussive",
+	"E" => "energetic" } ],
+    
+    [ "voice",
+      { "A" => "active",
+	"P" => "passive" } ], 
+    
+    [ "", {} ],
+    
+    [ "person",
+      { "1" => "first",
+	"2" => "second",
+	"3" => "third" } ],
+    
+    [ "gender",
+      { "M" => "masculine",
+	"F" => "feminine" } ],
+    
+    [ "number",
+      { "S" => "singular",
+	"D" => "dual",
+	"P" => "plural" } ],
+    
+    [ "case",
+      { "1" => "nominative",
+	"2" => "genitive",
+	"4" => "accusative" } ],
+    
+    [ "state",
+      { "I" => "indefinite",
+	"D" => "definite",
+	"R" => "reduced/construct",
+	"A" => "absolute/negative",
+	"C" => "complex/overdetermined",
+	"L" => "lifted/underdetermined" } ] 
+    
+    ];
+
+sub describe {
+
+    my @tag = split //, $_[0];
+
+    if (@tag == 1) {
+
+	return join ", ",
+	       exists $tagset->[0][1]{$tag[0] . '-'} ? $tagset->[0][1]{$tag[0] . '-'} : ();
+    }
+    else {
+
+	return join ", ",
+               ($tag[1] ne "-" && exists $tagset->[0][1]{$tag[0] . $tag[1]} ? $tagset->[0][1]{$tag[0] . $tag[1]} : ()),
+	       grep { $_ ne '' }
+ 	       map { exists $tagset->[$_][1]{$tag[$_]} ? $tagset->[$_][1]{$tag[$_]} . " " . $tagset->[$_][0] : '' }
+	       2 .. 9;
+    }
+}
+
 # ##################################################################################################
 #
 # ##################################################################################################
