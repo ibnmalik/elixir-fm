@@ -138,6 +138,102 @@ sub describe {
     }
 }
 
+sub retrieve {
+
+    my @word = split ' ', $_[0];
+
+    my @tag = ([], [], [], [], [], [], [], [], [], []);
+
+    my @tags = ();
+
+    foreach my $one (@word) {
+
+	$one =~ /^verb/i 		and push @{$tag[0]}, 'V' and next;
+	$one =~ /^noun/i 		and push @{$tag[0]}, 'N' and next;
+	$one =~ /^adj/i  		and push @{$tag[0]}, 'A' and next;
+	$one =~ /^pron/i 		and push @{$tag[0]}, 'S' and next;
+	$one =~ /^num/i  		and push @{$tag[0]}, 'Q' and next;
+	$one =~ /^adv/i  		and push @{$tag[0]}, 'D' and next;
+	$one =~ /^prep/i 		and push @{$tag[0]}, 'P' and next;
+	$one =~ /^conj/i 	    and push @{$tag[0]}, 'C' and next;
+	$one =~ /^part/i            and push @{$tag[0]}, 'F' and next;
+	$one =~ /^int(?:er)?j/i     and push @{$tag[0]}, 'I' and next;
+
+	$one =~ /^perf/i            and push @{$tag[1]}, 'P' and next;
+	$one =~ /^imp(?:er)?f/i     and push @{$tag[1]}, 'I' and next;
+	$one =~ /^imp(?:er)?a/i     and push @{$tag[1]}, 'C' and next;
+	$one =~ /^imp(?:er)?/i      and push @{$tag[1]}, 'I',
+	                                                 'C' and next;
+
+	$one =~ /^pers/i            and push @{$tag[1]}, 'P' and next;
+	$one =~ /^dem/i             and push @{$tag[1]}, 'D' and next;
+	$one =~ /^rel/i             and push @{$tag[1]}, 'R' and next;
+
+	$one =~ /^inf/i             and push @{$tag[1]}, 'I' and next;
+	$one =~ /^neg/i             and push @{$tag[1]}, 'N' and next;
+	$one =~ /^int(?:er)?r/i     and push @{$tag[1]}, 'I' and next;
+
+	$one =~ /^ind(?![ef])/i     and push @{$tag[2]}, 'I' and next;
+	$one =~ /^sub/i             and push @{$tag[2]}, 'S' and next;
+	$one =~ /^jus/i             and push @{$tag[2]}, 'J' and next;
+	$one =~ /^ene/i             and push @{$tag[2]}, 'E' and next;
+
+	$one =~ /^act/i             and push @{$tag[3]}, 'A' and next;
+	$one =~ /^pas/i             and push @{$tag[3]}, 'P' and next;
+
+	$one =~ /^(?:fir|[1f])st/i      and push @{$tag[5]}, '1' and next;
+	$one =~ /^(?:seco|[2s])nd/i     and push @{$tag[5]}, '2' and next;
+	$one =~ /^(?:thi|[3t])rd/i      and push @{$tag[5]}, '3' and next;
+
+	$one =~ /^mas/i             and push @{$tag[6]}, 'M' and next;
+	$one =~ /^fem/i             and push @{$tag[6]}, 'F' and next;
+
+	$one =~ /^s(?:in)?g/i       and push @{$tag[7]}, 'S' and next;
+	$one =~ /^du/i             and push @{$tag[7]}, 'D' and next;
+	$one =~ /^pl/i             and push @{$tag[7]}, 'P' and next;
+
+	$one =~ /^nom/i             and push @{$tag[8]}, '1' and next;
+	$one =~ /^gen/i             and push @{$tag[8]}, '2' and next;
+	$one =~ /^acc/i             and push @{$tag[8]}, '4' and next;
+	$one =~ /^obl/i             and push @{$tag[8]}, '2', 
+                                                         '4' and next;
+
+	$one =~ /^ind[ef]/i         and push @{$tag[9]}, 'I' and next;
+	$one =~ /^red/i             and push @{$tag[9]}, 'R' and next;
+	$one =~ /^cons/i            and push @{$tag[9]}, 'R' and next;
+	$one =~ /^def/i             and push @{$tag[9]}, 'D' and next;
+	$one =~ /^com/i             and push @{$tag[9]}, 'C' and next;
+	$one =~ /^over/i            and push @{$tag[9]}, 'C' and next;
+	$one =~ /^abs/i             and push @{$tag[9]}, 'A' and next;
+	$one =~ /^lift/i            and push @{$tag[9]}, 'L' and next;
+	$one =~ /^under/i           and push @{$tag[9]}, 'L' and next;
+
+	my @slot = ();
+
+	@slot = $one =~ /\G([-A-Z1-4]|\[[A-Z1-4]+\])/g;
+
+	if (@slot > 0) {
+
+	    if (@slot > 10) {
+
+		splice @slot, 10, (@slot - 10);
+	    }
+	    else {
+
+		push @slot, ('-') x (10 - @slot);
+	    }
+
+	    push @tags, join "", @slot;
+	}
+    }
+
+    my $tag = join "", map { @{$_} == 0 ? '-' : @{$_} == 1 ? $_->[0] : '[' . (join '', @{$_}) . ']' } @tag;
+
+    push @tags, $tag unless $tag eq '-' x 10;
+
+    return @tags;
+}
+
 # ##################################################################################################
 #
 # ##################################################################################################

@@ -32,23 +32,7 @@ our %enc_hash = (   'ArabTeX'       =>      'TeX',
 		    'Buckwalter'    =>      'Tim',
 		    'Unicode'       =>      'UTF'   );
 
-
 our @enc_list = sort keys %enc_hash;
-
-
-our @examples = (   [ 'ArabTeX',    "ad-dars al-'awwal" ],
-		    [ 'ArabTeX',    "y`tbru m.d'N" ],
-		    [ 'ArabTeX',    "narY mqhN" ],
-		    [ 'ArabTeX',    ".hayATN ^gyydTN" ],
-		    [ 'Buckwalter', "Aldrs AlOwl" ],
-		    [ 'Buckwalter', "yEtbr mDy}A" ],
-		    [ 'Buckwalter', "narY mqhY" ],
-		    [ 'Buckwalter', "HyApN jydpN" ],
-		    [ 'Unicode',    (decode "buckwalter", "Aldrs AlOwl") ],
-		    [ 'Unicode',    (decode "buckwalter", "yEtbr mDy}A") ],
-		    [ 'Unicode',    (decode "buckwalter", "narY mqhY") ],
-		    [ 'Unicode',    (decode "buckwalter", "HyApN jydpN") ]  );
-
 
 our $session;
 
@@ -161,7 +145,7 @@ sub display_footer ($) {
 
 sub pretty_resolve ($$) {
 
-    my @word = split /(?<=\n)\n/, $_[0];
+    my @word = split /(?:(?<=\n)\n|(?<=^)\n)/, $_[0], -1;
 
     my $q = $_[1];
 
@@ -232,11 +216,11 @@ sub pretty_resolve_tree {
 				   
 				   $q->div({-class => "xtag",
 					    -title => ElixirFM::describe($info[-1])},  $info[-1]),
-				   $q->div({-title => "citation form"},                $info[0]),
-				   $q->div({-class => "orth",			       
-					    -title => "citation form"},                decode "arabtex", $info[0]),
 				   $q->div({-class => "phon",			       
 					    -title => "citation form"},                decode "zdmg", $info[0]),
+				   $q->div({-class => "orth",			       
+					    -title => "citation form"},                decode "arabtex", $info[0]),
+				   $q->div({-title => "citation form"},                $info[0]),
 				   $q->div({-class => "root",			       
 					    -title => "root of citation form"},        $info[1]),
 				   $q->div({-class => "morphs",			       
@@ -248,8 +232,14 @@ sub pretty_resolve_tree {
 				   $q->div({-title => "lexical reference"},            $info[3]),
 				   
 				   $q->ul($q->div({-title => "inflect this lexeme"},
-						  $q->a({-href => 'index.fcgi?elixir=inflect&submit=Inflect&text=---------- ' 
+						  $q->a({-href => 'index.fcgi?elixir=inflect&code=' 
 							     . $info[6]}, "Inflect")),
+					  $q->div({-title => "derive other lexemes"},
+						  $q->a({-href => 'index.fcgi?elixir=derive&code=' 
+							     . $info[6]}, "Derive")),
+					  $q->div({-title => "lookup in the lexicon"},
+						  $q->a({-href => 'index.fcgi?elixir=lookup&code=' 
+							     . $info[6]}, "Lookup")),
 					  $q->li($q->table({-cellspacing => 0},
 							   $q->Tr([ map { my @info = @{$_};
 							 
@@ -259,11 +249,11 @@ sub pretty_resolve_tree {
 							   
 							   $q->td({-class => "xtag",
 								   -title => ElixirFM::describe($info[-1])},  $info[-1]),
-							   $q->td({-title => "inflected form"},               $info[0]),
-							   $q->td({-class => "orth",
-								   -title => "inflected form"},               decode "arabtex", $info[0]),
 							   $q->td({-class => "phon",
 								   -title => "inflected form"},               decode "zdmg", $info[0]),
+							   $q->td({-class => "orth",
+								   -title => "inflected form"},               decode "arabtex", $info[0]),
+							   $q->td({-title => "inflected form"},               $info[0]),
 							   $q->td({-class => "root",
 								   -title => "root of inflected form"},       $info[1]),
 							   $q->td({-class => "morphs",
@@ -301,20 +291,20 @@ sub pretty_resolve_list {
     return join $", $q->td({-class => "xtag",
                             -title => ElixirFM::describe(substr $data[0], 0, 1) .
                                       ", " . ElixirFM::describe($data[0])},     $data[0]),
-                    $q->td({-title => "inflected form"},            $data[1]),
-                    $q->td({-class => "orth",
-                            -title => "inflected form"},            $orth[0]),
                     $q->td({-class => "phon",
                             -title => "inflected form"},            $phon[0]),
+                    $q->td({-class => "orth",
+                            -title => "inflected form"},            $orth[0]),
+                    $q->td({-title => "inflected form"},            $data[1]),
                     $q->td({-class => "root",
                             -title => "root of inflected form"},    $data[2]),
                     $q->td({-class => "morphs",
                             -title => "morphs of inflected form"},  $data[3]),
-                    $q->td({-title => "citation form"},             $data[4]),
-                    $q->td({-class => "orth",
-                            -title => "citation form"},             $orth[1]),
                     $q->td({-class => "phon",
                             -title => "citation form"},             $phon[1]),
+                    $q->td({-class => "orth",
+                            -title => "citation form"},             $orth[1]),
+                    $q->td({-title => "citation form"},             $data[4]),
                     $q->td({-class => "root",
                             -title => "root of citation form"},     $data[5]),
                     $q->td({-class => "morphs",
@@ -343,26 +333,49 @@ sub resolve {
 
     $r .= display_header $c;
 
-    $q->param('data', '') unless defined $q->param('data');
-    $q->param('view', '') unless defined $q->param('view');
-    $q->param('fuzzy', '') unless defined $q->param('fuzzy');
+    my @example = ( [ 'Unicode',    (decode "buckwalter", "AqrO Aldrs AlOwl") ],
+		    [ 'ArabTeX',    "ad-dars al-'awwal" ],
+		    [ 'ArabTeX',    "y`tbru m.d'N" ],
+		    [ 'ArabTeX',    "narY mqhN" ],
+		    [ 'ArabTeX',    ".hayATN ^gyydTN" ],
+		    [ 'Buckwalter', "Aldrs AlOwl" ],
+		    [ 'Buckwalter', "yEtbr mDy}A" ],
+		    [ 'Buckwalter', "narY mqhY" ],
+		    [ 'Buckwalter', "HyApN jydpN" ],
+		    [ 'Unicode',    (decode "buckwalter", "Aldrs AlOwl") ],
+		    [ 'Unicode',    (decode "buckwalter", "yEtbr mDy}A") ],
+		    [ 'Unicode',    (decode "buckwalter", "narY mqhY") ],
+		    [ 'Unicode',    (decode "buckwalter", "HyApN jydpN") ] );
 
-    if (defined $q->param('submit') and $q->param('submit') eq ucfirst $q->param($c->mode_param())) {
+    if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
 
-	$q->param('text', decode "utf8", $q->param('text'));
+        my $idx = rand @example;
+
+        $q->param('text', $example[$idx][1]);
+        $q->param('code', $example[$idx][0]);
+
+	$q->param('view', rand 1 < 0.5 ? 'MorphoTrees View' : '');
+	$q->param('fuzzy', rand 1 < 0.5 ? 'Fuzzy Notation' : '');
     }
     else {
 
-        my $idx = rand @examples;
+	if (defined $q->param('text') and $q->param('text') != /^\s*$/) {
+	    
+	    $q->param('text', decode "utf8", $q->param('text'));
+	}
+	else {
+	    
+	    $q->param('text', $example[0][1]);
+	    $q->param('code', $example[0][0]);
 
-        $q->param('text', $examples[$idx][1]);
-
-        $q->param('code', $examples[$idx][0]);
-
-	$q->param('view', rand 1 < 0.5 ? 'MorphoTrees View' : '');
-
-	$q->param('fuzzy', rand 1 < 0.5 ? 'Fuzzy Notation' : '');
+	    $q->param('view', 'MorphoTrees View');
+	    $q->param('fuzzy', 'Fuzzy Notation');
+	}
     }
+
+    $q->param('view', '') unless defined $q->param('view');
+    $q->param('fuzzy', '') unless defined $q->param('fuzzy');
+    $q->param('data', '') unless defined $q->param('data');
 
     $r .= display_welcome $c;
 
@@ -390,7 +403,7 @@ sub resolve {
 					    -rows       =>  1,
 					    -columns    =>  1) ),
 
-                    td( {-colspan => 1, -style => "vertical-align: middle; padding-left: 20px; color: orangered"},
+                    td( {-colspan => 1, -style => "vertical-align: middle; padding-left: 20px", -class =>  'notice'},
 
 			$q->radio_group(-name       =>  'code',
                                         -values     =>  [ @enc_list ],
@@ -483,7 +496,9 @@ sub resolve {
 
 sub pretty_inflect ($$) {
 
-    my @word = split /(?<=\n)\n/, $_[0];    # ... multiple inflected lexemes
+ #  my @word = split /(?<=\n)\n/, $_[0];    # ... multiple inflected lexemes
+
+    my @word = split /(?:(?<=\n)\n|(?<=^)\n)/, $_[0], -1;
 
     my $q = $_[1];
 
@@ -519,11 +534,11 @@ sub pretty_inflect_list {
 
 				map { 
 
-				    $q->td({-title => "inflected form"},            $_->[0]),
-				    $q->td({-class => "orth",
-					    -title => "inflected form"},            decode "arabtex", $_->[0]),
 				    $q->td({-class => "phon",
 					    -title => "inflected form"},            decode "zdmg", $_->[0]),
+				    $q->td({-class => "orth",
+					    -title => "inflected form"},            decode "arabtex", $_->[0]),
+				    $q->td({-title => "inflected form"},            $_->[0]),
 				    $q->td({-class => "root",
 					    -title => "root of inflected form"},    $_->[1]),
 				    $q->td({-class => "morphs",
@@ -549,23 +564,41 @@ sub inflect {
 
     $r .= display_header $c;
 
-    $q->param('data', '') unless defined $q->param('data');
-    $q->param('view', '') unless defined $q->param('view');
+    my @example = ( [ '(3105,1)',               '-P-A-3---- -C--------' ],
+		    [ '(3105,-2) (1455,-5)',    '--[ISJ]------[IRD]'    ] );
 
-    if (defined $q->param('submit') and $q->param('submit') eq ucfirst $q->param($c->mode_param())) {
+    if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
 
-	$q->param('text', decode "utf8", $q->param('text'));
-    }
-    else {
+        my $idx = rand @example;
 
-        my $idx = rand @examples;
-
-        $q->param('text', $examples[$idx][1]);
-
-        $q->param('code', $examples[$idx][0]);
+        $q->param('text', $example[$idx][1]);
+        $q->param('code', $example[$idx][0]);
 
 	$q->param('view', rand 1 < 0.5 ? 'MorphoTrees View' : '');
     }
+    else {
+
+	if (defined $q->param('text') and $q->param('text') != /^\s*$/) {
+	    
+	    $q->param('text', decode "utf8", $q->param('text'));
+	}
+	else {
+	    
+	    $q->param('text', $example[0][1]);
+	}
+
+	if (defined $q->param('code') and $q->param('code') != /^\s*$/) {
+	    
+	    $q->param('code', decode "utf8", $q->param('code'));
+	}
+	else {
+	    
+	    $q->param('code', $example[0][0]);
+	}
+    }
+
+    $q->param('view', '') unless defined $q->param('view');
+    $q->param('data', '') unless defined $q->param('data');
 
     $r .= display_welcome $c;
 
@@ -577,21 +610,19 @@ sub inflect {
 
                 Tr( {-align => 'left'},
 
-                    td( {-colspan => 3},
+                    td( {-colspan => 3, -class => "xtag"},
 
                         $q->textfield(  -name       =>  'text',
                                         -default    =>  $q->param('text'),
                                         -size       =>  60,
                                         -maxlength  =>  100) ),
 
-                    td( {-colspan => 2, -style => "vertical-align: middle; padding-left: 20px"},
+                    td( {-colspan => 2, -align => 'left', -style => "vertical-align: middle; padding-left: 20px"}, 
 
-			$q->radio_group(-name       =>  'code',
-                                        -values     =>  [ @enc_list ],
+                        $q->textfield(  -name       =>  'code',
                                         -default    =>  $q->param('code'),
-                                        -linebreak  =>  0,
-                                        -rows       =>  1,
-                                        -columns    =>  scalar @enc_list) ) ),
+                                        -size       =>  30,
+                                        -maxlength  =>  50) ) ),
 
                 Tr( {-align => 'left'},
 
@@ -632,23 +663,25 @@ sub inflect {
 
     my $mode = $q->param($c->mode_param());
 
+    my $text = join ' ', ElixirFM::retrieve($q->param('text'));
+
     open T, '>', "$mode/index.tmp";
 
-    print T encode "utf8", $q->param('text');
+    print T encode "utf8", $text;
 
     close T;
 
-    my @index = $q->param('text') =~ /(\( *-? *[0-9]+ *, *-? *[0-9]+ *\))/g;
+    my @code = $q->param('code') =~ /(\( *-? *[0-9]+ *, *-? *[0-9]+ *\))/g;
 
-    @index = map { my $x = $_; $x =~ s/ +//g; "'" . $x . "'" } @index;
+    @code = map { my $x = $_; $x =~ s/ +//g; "'" . $x . "'" } @code;
 
     my $elixir = $q->param('data') ? './elixir' : './elixir-quick';
 
     tick @tick;
 
-    my $reply = `$elixir $mode @index < $mode/index.tmp`;
+    my $reply = `$elixir $mode @code < $mode/index.tmp`;
 
-    $r .= $q->pre(`echo $mode @index`);
+    $r .= $q->pre(`echo $mode @code $text`);
 
     tick @tick;
 
@@ -664,7 +697,7 @@ sub inflect {
 
     open L, '>>', "$mode/index.log";
 
-    print L join "\t", gmtime() . "", "CPU " . $time, (join " ", @index), ($q->param('data') ? 'Y' : 'N'), ($q->param('fuzzy') ? 'F' : 'A'), ($q->param('view') ? 'T' : 'L'),
+    print L join "\t", gmtime() . "", "CPU " . $time, (join " ", @code), ($q->param('data') ? 'Y' : 'N'), ($q->param('fuzzy') ? 'F' : 'A'), ($q->param('view') ? 'T' : 'L'),
             ($reply =~ /^\s*$/ ? '--' : '++'), encode "utf8", $q->param('text') . "\n";
 
     close L;
