@@ -50,14 +50,14 @@ import Data.Version (showVersion)
 import Version
 
 version = Version [1, 1, build] []
-    
+
     where Version [build] [] = revised "$Revision$"
 
 
 data Opts = RunAction ([Opts] -> [String] -> IO ()) | FuzzyResolve
           | DisplayUsage
           | PrintVersion
-            
+
 
 options :: [OptDescr Opts]
 
@@ -85,7 +85,7 @@ options = [ Option []    ["resolve"]    (NoArg (RunAction elixirResolve))
 
 copyleft = unlines ["ElixirFM (C) 2008-2005 Otakar Smrz, 2002 Tim Buckwalter",
                     "GNU General Public License http://www.gnu.org/licenses/"]
-           
+
 synopsis = unlines [copyleft,
                     "             http://sourceforge.net/projects/elixir-fm/",
                     "                    http://quest.ms.mff.cuni.cz/elixir/",
@@ -106,11 +106,11 @@ main = do   argv <- getArgs
 
                 RunAction runs  ->  runs (tail opts) pars
 
-                PrintVersion    ->  warn (unlines [copyleft, 
-                                          unwords ["ElixirFM", 
+                PrintVersion    ->  warn (unlines [copyleft,
+                                          unwords ["ElixirFM",
                                                    showVersion Main.version,
                                                    "July 2008"]])
-                                    
+
                 _               ->  warn (usageInfo synopsis options)
 
                          else       warn (usageInfo synopsis options)
@@ -142,9 +142,9 @@ elixirInflect o p = interact (unlines . map (show . f) . concat . map words . on
 
     where f x = -- pretty [ z | w <- i, z <- wraps (\ (Nest r z) -> [ TRM (inflect (Lexeme r e) x) | e <- z ]) w ]
                 vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (inflect (Lexeme r e) x) | e <- z ]) w ]
-    
+
           i = [ z | x <- p, (y :: Index, "") <- readsPrec 0 x, z <- lookup y lexicon :: Lexicon ]
-    
+
 
 elixirLookup o p = interact (unlines . map (show . pretty . f) . concat . map words . onlines)
 

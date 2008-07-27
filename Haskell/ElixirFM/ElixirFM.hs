@@ -39,6 +39,7 @@ module ElixirFM where
 import Prelude hiding (lookup)
 
 import Elixir.Data.Lexicons
+       -- Elixir.Data.Effective 
 
 import Elixir.Lexicon
 import Elixir.Template

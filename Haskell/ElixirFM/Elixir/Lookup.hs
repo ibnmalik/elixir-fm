@@ -27,6 +27,8 @@ import Elixir.Lexicon
 import Encode
 import Encode.Arabic
 
+-- import Text.Regex
+
 import Data.List hiding (lookup)
 
 
@@ -42,17 +44,19 @@ class Lookup a b where
 instance Lookup Index Lexicon where
 
     lookup (n, m) y = [ z | w <- find n y, z <- wraps lookup' w ]
-        
+
         where find x y | x > 0     = take 1 (drop (x - 1) y)
                        | x < 0     = find (-x) (reverse y)
                        | otherwise = []
-                       
+
               lookup' (Nest r z) = [ Nest r (find m z) ]
-    
- 
+
+
+{-
 instance Lookup [Root] Lexicon where
 
     lookup x y = lookupRootBy ((x ==) . words) y
+-}
 
 
 lookupRoot :: Root -> Lexicon -> [Wrap Nest]
@@ -65,7 +69,7 @@ lookupRootBy f l = concat [ wraps (\ x -> if f (root x) then [x] else []) n | n 
 --
 -- lookupRoot r l = [ n | n <- l, unwrap root n == r ]
 
-    
+
 
 -- instance Lookup a Lexicon
 
@@ -121,6 +125,25 @@ countEach (WrapT l) = length (ents l)
 countEach (WrapQ l) = length (ents l)
 countEach (WrapS l) = length (ents l)
 -}
+
+{-
+instance Lookup Regex [Wrap Lexeme] where
+
+    lookup x y = [ z | w <- y, z <- wraps lookup' w ]
+
+        where lookup' (Nest r z) = [ Lexeme r e | e <- z,
+                                     any (maybe False (const True)
+                                        . matchRegex x) (reflex e) ]
+-}
+
+type Regex = [String]
+
+instance Lookup Regex Lexicon where
+
+    lookup x y = [ z | w <- y, z <- wraps lookup' w ]
+
+        where lookup' (Nest r z) = [ Nest r [e] | e <- z,
+                                     any (any (`elem` x) . words) (reflex e) ]
 
 
 lookupReflex :: String -> Lexicon -> [Wrap Lexeme]

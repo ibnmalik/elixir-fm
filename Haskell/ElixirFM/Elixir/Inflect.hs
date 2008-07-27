@@ -60,9 +60,9 @@ instance (Show a, Template a) => Pretty [(Tag, [(Root, Morphs a)])] where
 instance (Show a, Template a) => Pretty (Tag, [(Root, Morphs a)]) where
 
     pretty (x, y) = (hcat . punctuate (text "\t") . map text)
-                    
+
                     (show x : [ z | (u, v) <- y, z <- [merge u v, show u, show v] ])
-    
+
 
 inflectDerive :: (Morphing a a, Forming a, Rules a, Derive b c, Inflect b c) => b a -> c -> [[(Tag, [(Root, Morphs a)])]]
 
@@ -89,15 +89,15 @@ class Inflect m p where
                m a -> p -> [(Tag, [(Root, Morphs a)])]
 
 
--- anything to become 'Wrap x' must have a newtype or data constructor x of kind * -> * 
-               
+-- anything to become 'Wrap x' must have a newtype or data constructor x of kind * -> *
+
 newtype TagRootMorphs a = TRM [(Tag, [(Root, Morphs a)])]
 
 instance Show a => Show (TagRootMorphs a) where
 
     show (TRM x) = show x
-    
-               
+
+
 instance Inflect Lexeme a => Inflect Entry a where
 
     inflect x = inflect (Lexeme "f ` l" x)
@@ -113,7 +113,7 @@ instance Inflect Lexeme a => Inflect Entry a where
 instance Inflect (Index, Lexicon) a where
 
     inflect (x, l) y = [ z | w <- lookup x l, z <- unwraps (inflects y) w ]
-    
+
         where inflects y (Nest r z) = [ i | e <- z, s <- entries e,
                                             i <- inflect (Lexeme r s) y ]
 -}
@@ -123,8 +123,8 @@ inflectIdx :: (Inflect Lexeme a, Lookup b [Wrap Nest]) => (b,[Wrap Nest]) -> a -
 inflectIdx (x, l) y = [ z | w <- lookup x l, z <- wraps (inflects y) w ]
 
     where inflects y (Nest r z) = [ TRM (inflect (Lexeme r s) y) | e <- z, s <- entries e ]
-                               
-                               
+
+
 instance Inflect Entry ParaVerb where
 
     inflect x = inflect (Lexeme "d r s" x)

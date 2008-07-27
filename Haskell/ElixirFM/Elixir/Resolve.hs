@@ -67,7 +67,7 @@ instance (Eq a, Morphing a a, Forming a, Show a, Template a) => Pretty (Token a)
 
 instance Pretty [[Wrap Token]] where
 
-    pretty = singleline (text . head) . unwrapResolve pretty'
+    pretty = singleline (vsep . map text) . unwrapResolve pretty'
 
 
 pretty' t = unwords $ map ($ t) [show . tag, uncurry merge . struct,
@@ -117,18 +117,23 @@ prettiest t = (hcat . punctuate (text "\t") . map text)
 
 class Fuzzy a => Resolve a where
 
-    resolve :: a -> [[Wrap Token]]
+    resolve :: a -> [[[Wrap Token]]]
 
-    resolveBy :: (String -> String -> Bool) -> ([a] -> [a] -> Bool) -> a -> [[Wrap Token]]
+    resolveBy :: (String -> String -> Bool) -> ([a] -> [a] -> Bool) -> (a -> [[a]]) -> a
+                 -> [[[Wrap Token]]]
 
-    resolve = resolveBy (==) (==)
+    tokenize :: a -> [[a]]
+
+    resolve = resolveBy (==) (==) (\ x -> [[x]]) -- ((:[]) . (:[]))
+
+resolve' = resolveBy' (==) (==) (\ x -> [[x]])
 
 
 instance Resolve String where
 
-    resolveBy e q y = [ [s] | let l = units y, ((r, x), n) <- zip indexList [1 ..],
+    resolveBy e q _ y = [ [s] | let l = units y, ((r, x), n) <- zip indexList [1 ..],
 
-                              isSubsumed e r l, s <- wraps (inflects l n) x ]
+                              isSubsumed e r l, s <- wraps (inflects l n) x ] : []
 
         where inflects y n (Nest r z) = [ Token (l, (n, m)) i t | (e, m) <- zip z [1 ..],
 
@@ -139,17 +144,46 @@ instance Resolve String where
                             (units . uncurry merge) i `q` y ]
 
 
+    tokenize x = [[x]] ++ [ ["wa", y] | 'w' : 'a' : y <- [x] ] ++ [ ["w", y] | 'w' : y <- [x] ] ++
+             if "mi'aTiN" `isSuffixOf` x then [[reverse y, reverse z]] else []
+             ++
+             if "y" `isSuffixOf` x then [[init x, "y"], [init (init x) ++ "U", "y"]] else []
+
+             where (z, y) = splitAt 7 (reverse x)
+
+
+resolveBy' :: (String -> String -> Bool) -> ([String] -> [String] -> Bool) -> (String -> [[String]]) -> String -> [[[Wrap Token]]]
+
+resolveBy' e q t y = [ [ (reverse . concat) (Map.lookup x resolves) | x <- p ] | p <- z ]
+
+        where z = t y
+              u = (map units . nub . concat) z
+
+              resolves = Map.fromListWith (++) [ s | ((r, x), n) <- zip indexList [1 ..],
+
+                                    let i = [ v | v <- u, isSubsumed e r v ],
+
+                                    not (null i), s <- unwraps (inflects i n) x ]
+
+              inflects y n (Nest r z) = [ (concat d, [wrap (Token (l, (n, m)) i t)]) | (e, m) <- zip z [1 ..],
+
+                            let x = (expand . domain) e, s <- entries e,
+
+                            let l = Lexeme r s, (t, h) <- inflect l x, i <- h,
+
+                            let u = (units . uncurry merge) i, d <- y, u `q` d ]
+
+
 instance Resolve [UPoint] where
 
-    resolveBy e q y = resolveList indexList (decode TeX) e q y
+    resolveBy e q _ y = resolveList indexList (decode TeX) e q y
 
 
 resolveList l c e q y = [ [s] | let i = recode y, ((r, x), n) <- zip l [1 ..],
 
-                                isSubsumed e r i, s <- wraps (inflects (units y) n) x ]
+                                isSubsumed e r i, s <- wraps (inflects (units y) n) x ] : []
 
-    where inflects y n (Nest r z) = (concat . map (\ (f, t) -> if (units . c) f `q` y
-                                                               then reverse t else [])
+    where inflects y n (Nest r z) = ((\ x -> [ z | (f, t) <- x, (units . c) f `q` y, z <- reverse t ])
 
                           . Map.toList . Map.fromListWith (++))
 
@@ -160,6 +194,36 @@ resolveList l c e q y = [ [s] | let i = recode y, ((r, x), n) <- zip l [1 ..],
                             let l = Lexeme r s, (t, h) <- inflect l x, i <- h ]
 
 
+resolveBy'' :: (String -> String -> Bool) -> ([[UPoint]] -> [[UPoint]] -> Bool) -> ([UPoint] -> [[[UPoint]]]) -> [UPoint] -> [[[Wrap Token]]]
+
+resolveBy'' e q t y = [ [ (reverse . concat) (Map.lookup x resolves) | x <- p ] | p <- z ]
+
+        where z = t y
+              u = (map (\ x -> (units x, recode x)) . nub . concat) z
+
+              c = decode TeX
+
+              resolves = Map.fromListWith (++) [ s | ((r, x), n) <- zip indexList [1 ..],
+
+                                    let i = [ v | (v, w) <- u, isSubsumed e r w ],
+
+                                    not (null i), s <- unwraps (inflects i n) x ]
+
+              inflects y n (Nest r z) = ((\ x -> [ (concat d, map wrap t) | (f, t) <- x,
+
+                                                            let u = (units . c) f, d <- y, u `q` d ])
+
+                          . Map.toList . Map.fromListWith (++))
+
+                          [ (uncurry merge i, [Token (l, (n, m)) i t]) | (e, m) <- zip z [1 ..],
+
+                            let x = (expand . domain) e, s <- entries e,
+
+                            let l = Lexeme r s, (t, h) <- inflect l x, i <- h ]
+
+
+
+
 resolveMore e q y = resolveListMore indexList id e q y
 
 
@@ -167,7 +231,7 @@ resolveListMore l c e q y = [ [s] | ((r, x), n) <- zip l [1 ..],
 
                                     let i = filter (isSubsumed e ((map c) r) . letters) y,
 
-                                    not (null i), s <- wraps (inflects i n) x ]
+                                    not (null i), s <- wraps (inflects i n) x ] : []
 
     where inflects y n (Nest r z) = [ Token ((Lexeme r e), (n, m)) i t | (e, m) <- zip z [1 ..],
 

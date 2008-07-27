@@ -190,7 +190,7 @@ wraps f (WrapS y) = map wrap (f y)
 wraps f (WrapL y) = map wrap (f y)
 
 
-unwraps :: (forall c . (Template c, Show c, Rules c, Forming c, Morphing c c) => a c -> b) -> Wrap a -> b
+unwraps :: (forall c . (Wrapping c, Template c, Show c, Rules c, Forming c, Morphing c c) => a c -> b) -> Wrap a -> b
 
 unwraps f (WrapT y) = f y
 unwraps f (WrapQ y) = f y
