@@ -190,6 +190,7 @@ resolve' = resolveBy' (==) (==) (\ x -> [[x]])
 
 instance Resolve String where
 
+{-
     resolveBy e q _ y = [[[ [s] | let l = units y, ((r, x), n) <- zip indexList [1 ..],
 
                               isSubsumed e r l, s <- wraps (inflects l n) x ]]]
@@ -201,6 +202,30 @@ instance Resolve String where
                             let l = Lexeme r s, (t, h) <- inflect l x, i <- h,
 
                             (units . uncurry merge) i `q` y ]
+-}
+
+    resolveBy e q t y = [ [ (reverse . concat) (Map.lookup x resolves) | x <- p ] | p <- z ]
+
+            where z = t y
+                  u = (map units . nub . concat) z
+
+                  resolves = Map.fromListWith (++) [ s | ((r, x), n) <- zip indexList [1 ..],
+
+                                        let i = [ v | v <- u, isSubsumed e r v ],
+
+                                        not (null i), s :: (String, [[Wrap Token]]) <- unwraps (inflects i n) x ]
+
+                  inflects y n (Nest r z) = [ z | (e, m) <- zip z [1 ..],
+
+                                let x = (expand . domain) e, s <- entries e,
+
+                                let l = Lexeme r s,
+
+                                z <- (Map.foldWithKey (\ k x y -> (k, [reverse x]) : y) [] . Map.fromListWith (++))
+
+                                     [ (concat d, [wrap (Token (l, (n, m)) i t)]) | (t, h) <- inflect l x, i <- h,
+
+                                       let u = (units . uncurry merge) i, d <- y, u `q` d ] ]
 
 
     tokenize x = [[x]] ++ [ ["wa", y] | 'w' : 'a' : y <- [x] ] ++ [ ["w", y] | 'w' : y <- [x] ] ++
@@ -239,6 +264,7 @@ resolveBy' e q t y = [ [ (reverse . concat) (Map.lookup x resolves) | x <- p ] |
 
 instance Resolve [UPoint] where
 
+{-
     resolveBy e q _ y = resolveList indexList (decode TeX) e q y
 
 
@@ -255,11 +281,44 @@ resolveList l c e q y = [[[ [s] | let i = recode y, ((r, x), n) <- zip l [1 ..],
                             let x = (expand . domain) e, s <- entries e,
 
                             let l = Lexeme r s, (t, h) <- inflect l x, i <- h ]
+-}
 
+    resolveBy e q t y = [ [ (reverse . concat) (Map.lookup x resolves) | x <- p ] | p <- z ]
 
-resolveBy'' :: (String -> String -> Bool) -> ([[UPoint]] -> [[UPoint]] -> Bool) -> ([UPoint] -> [[[UPoint]]]) -> [UPoint] -> [[[[Wrap Token]]]]
+            where z = t y
+                  u = (map (\ x -> (units x, recode x)) . nub . concat) z
 
-resolveBy'' e q t y = [[ [ (reverse . concat) (Map.lookup x resolves) | x <- p ] | p <- z ]]
+                  c = decode TeX
+
+                  resolves = Map.fromListWith (++) [ s | ((r, x), n) <- zip indexList [1 ..],
+
+                                        let i = [ v | (v, w) <- u, isSubsumed e r w ],
+
+                                        not (null i), s :: ([UPoint], [[Wrap Token]]) <- unwraps (inflects i n) x ]
+
+                  inflects y n (Nest r z) = 
+
+                              [ z | (e, m) <- zip z [1 ..],
+
+                                let x = (expand . domain) e, s <- entries e,
+
+                                let l = Lexeme r s,
+
+                                z <- (Map.foldWithKey (\ k x y -> (k, [reverse x]) : y) [] . Map.fromListWith (++) .
+
+                                        (\ x -> [ (concat d, t) | (f, t) <- x,
+
+                                                                let u = (units . c) f, d <- y, u `q` d ])
+
+                                     . Map.toList . Map.fromListWith (++))
+                                
+                                     [ (uncurry merge i, [wrap (Token (l, (n, m)) i t)]) | (t, h) <- inflect l x, i <- h ] ]
+                            
+                            
+
+resolveBy'' :: (String -> String -> Bool) -> ([[UPoint]] -> [[UPoint]] -> Bool) -> ([UPoint] -> [[[UPoint]]]) -> [UPoint] -> [[[Wrap Tokens]]]
+
+resolveBy'' e q t y = [ [ (reverse . concat) (Map.lookup x resolves) | x <- p ] | p <- z ]
 
         where z = t y
               u = (map (\ x -> (units x, recode x)) . nub . concat) z
@@ -270,20 +329,25 @@ resolveBy'' e q t y = [[ [ (reverse . concat) (Map.lookup x resolves) | x <- p ]
 
                                     let i = [ v | (v, w) <- u, isSubsumed e r w ],
 
-                                    not (null i), s <- unwraps (inflects i n) x ]
+                                    not (null i), s :: ([UPoint], [Wrap Tokens]) <- unwraps (inflects i n) x ]
 
-              inflects y n (Nest r z) = ((\ x -> [ (concat d, map wrap t) | (f, t) <- x,
+              inflects y n (Nest r z) = 
 
-                                                            let u = (units . c) f, d <- y, u `q` d ])
-
-                          . Map.toList . Map.fromListWith (++))
-
-                          [ (uncurry merge i, [Token (l, (n, m)) i t]) | (e, m) <- zip z [1 ..],
+                          [ z | (e, m) <- zip z [1 ..],
 
                             let x = (expand . domain) e, s <- entries e,
 
-                            let l = Lexeme r s, (t, h) <- inflect l x, i <- h ]
+                            let l = Lexeme r s,
 
+                            z <- (Map.foldWithKey (\ k x y -> (k, [wrap (Tokens (reverse x))]) : y) [] . Map.fromListWith (++) .
+
+                                    (\ x -> [ (concat d, t) | (f, t) <- x,
+
+                                                            let u = (units . c) f, d <- y, u `q` d ])
+
+                                 . Map.toList . Map.fromListWith (++))
+                            
+                                 [ (uncurry merge i, [Token (l, (n, m)) i t]) | (t, h) <- inflect l x, i <- h ] ]
 
 
 
