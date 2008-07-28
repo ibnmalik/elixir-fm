@@ -31,6 +31,7 @@ import Elixir.Lexicon
 import Elixir.Template
 
 import Elixir.Pretty hiding (group)
+import qualified Elixir.Pretty as Pretty (group)
 
 import Encode
 import Encode.Arabic
@@ -60,59 +61,72 @@ data Token a = Token { lexeme :: (Lexeme a, Index), struct :: (Root, Morphs a), 
     deriving Show
 
 
-instance (Eq a, Morphing a a, Forming a, Show a, Template a) => Pretty (Token a) where
+instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pretty (Token a) where
 
-    pretty = prettiest
+    pretty x = text (words (show (tag x)) !! 1) <> align (
+
+                    (hcat . map (text . ("\t" ++)))    [uncurry merge str,
+                                                        show (fst str),
+                                                        show (snd str)]
+                    <$$>
+                    (hcat . map (text . ("\t" ++)))    [merge r (morphs e),
+                                                        show r,
+                                                        show (morphs e)]
+                    <$$>
+                    (cat . map (text . ("\t" ++)))     [show (reflex e),
+                                                        show f]
+                    <$$>
+                                text "\t" <>           (text . concat . words . show)
+                                                       (pretty (entity e))
+                    <$$>
+                                text "\t" <>            pretty (snd lxm)
+                )
+
+        where Lexeme r e = fst lxm
+              lxm = lexeme x
+              str = struct x
+              f = case tag x of
+
+                ParaVerb _ -> (form . entity) e
+                ParaNoun _ -> [ f | f <- [I ..], or [ True | (_, b, c, d) <- nounStems f r,
+                                                      any (morphs e ==) [morph b, morph c, d] ] ]
+                ParaAdj  _ -> [ f | f <- [I ..], or [ True | (_, b, c, _) <- nounStems f r,
+                                                      any (morphs e ==) [morph b, morph c] ] ]
+                _          -> []
 
 
-instance Pretty [[Wrap Token]] where
+instance (Pretty (Token PatternT), Pretty (Token PatternQ),
+          Pretty (Token String),   Pretty (Token PatternL)) => Pretty (Wrap Token) where
 
-    pretty = singleline (vsep . map text) . unwrapResolve pretty'
-
-
-pretty' t = unwords $ map ($ t) [show . tag, uncurry merge . struct,
-                                 (\(Lexeme r _) -> show r)          . fst . lexeme,
-                                 (\(Lexeme _ l) -> show (morphs l)) . fst . lexeme,
-                                 (\(Lexeme _ l) -> show (reflex l)) . fst . lexeme]
+    pretty (WrapT x) = pretty x
+    pretty (WrapQ x) = pretty x
+    pretty (WrapS x) = pretty x
+    pretty (WrapL x) = pretty x
 
 
-unwrapResolve :: (forall c . (Template c, Show c, Rules c, Forming c, Morphing c c) => a c -> b) -> [[Wrap a]] -> [[b]]
+instance Pretty (Wrap Token) => Pretty [Wrap Token] where
 
-unwrapResolve f = map (map (unwraps f))
+    pretty x = nest 2 (text (": <" ++ unwords z ++ ">") <$$> align (singleline pretty x))
+
+        where y = (nub . map (unwraps (uncurry merge . struct))) x
+              z = if length y > 3 then take 3 y ++ ["..."]
+                                  else y
 
 
--- prettier :: [[Wrap Token]] -> Doc
+instance Pretty [Wrap Token] => Pretty [[Wrap Token]] where
 
-prettier = singleline head . unwrapResolve prettiest
+    pretty x = nest 1 (text (":" ++ unwords (concat s)) <$$> align (singleline id p))
+
+        where p = map pretty x
+              s = map (take 1 . lines . show) p
 
 
--- prettiest :: (Template a, Show a, Rules a, Forming a, Morphing a a) => Token a -> [Char]
+instance Pretty [[Wrap Token]] => Pretty [[[Wrap Token]]] where
 
-prettiest t = (hcat . punctuate (text "\t") . map text)
+    pretty x = nest 1 (text (":" ++ unwords (concat s)) <$$> align (singleline id p))
 
-                   [show (tag t),
-                    uncurry merge str,
-                    show (fst str),
-                    show (snd str),
-                    merge r (morphs e),
-                    show r,
-                    show (morphs e),
-                    show (reflex e),
-                    show f,
-                    show (entity e),
-                    show (snd lxm)]
-
-    where Lexeme r e = fst lxm
-          lxm = lexeme t
-          str = struct t
-          f = case tag t of
-
-            ParaVerb _ -> (form . entity) e
-            ParaNoun _ -> [ f | f <- [I ..], or [ True | (_, b, c, d) <- nounStems f r,
-                                                  any (morphs e ==) [morph b, morph c, d] ] ]
-            ParaAdj  _ -> [ f | f <- [I ..], or [ True | (_, b, c, _) <- nounStems f r,
-                                                  any (morphs e ==) [morph b, morph c] ] ]
-            _          -> []
+        where p = map pretty x
+              s = map (take 1 . lines . show) p
 
 
 class Fuzzy a => Resolve a where

@@ -119,7 +119,7 @@ main = do   argv <- getArgs
 warn = hPutStr stderr
 
 
-elixirResolve o p = interact (unlines . map (show . prettier . f) . concat . map words . onlines)
+elixirResolve o p = interact (unlines . map (show . pretty . f) . concat . map words . onlines)
 
     where f = case e of
 

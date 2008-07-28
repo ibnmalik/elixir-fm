@@ -89,6 +89,8 @@ import Elixir.Template
 
 import Elixir.System
 
+import Elixir.Pretty
+
 import Elixir.Data.Patterns
 
 -- import English
@@ -173,6 +175,14 @@ instance (Show (a String), Show (a PatternT), Show (a PatternQ), Show (a Pattern
     showsPrec _ (WrapL x) = ("WrapL (" ++) . shows x . (")" ++)
 
 
+instance (Pretty (a String), Pretty (a PatternT), Pretty (a PatternQ), Pretty (a PatternL)) => Pretty (Wrap a) where
+
+    pretty (WrapS x) = pretty x
+    pretty (WrapT x) = pretty x
+    pretty (WrapQ x) = pretty x
+    pretty (WrapL x) = pretty x
+
+
 class Wrapping a where
 
     wrap   :: m a    -> Wrap m
@@ -190,7 +200,7 @@ wraps f (WrapS y) = map wrap (f y)
 wraps f (WrapL y) = map wrap (f y)
 
 
-unwraps :: (forall c . (Wrapping c, Template c, Show c, Rules c, Forming c, Morphing c c) => a c -> b) -> Wrap a -> b
+unwraps :: (forall c . (Wrapping c, Show c, Template c, Rules c, Forming c, Morphing c c) => a c -> b) -> Wrap a -> b
 
 unwraps f (WrapT y) = f y
 unwraps f (WrapQ y) = f y
