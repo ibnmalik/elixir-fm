@@ -9,7 +9,9 @@
 .listexpander li{
 	margin:0px;
 	padding:0px;
+	padding-top:2px;
 	list-style:none;
+	line-height:150%;
 }
 .listexpander ul{
 	/*
@@ -44,18 +46,18 @@
 
 /* first level */
 
-.listexpander li{background:#red;}
-.listexpander li.collapsed{background:#eee url(collapsed.gif) no-repeat 5px .4em;} 
-.listexpander li.expanded{background:#eee url(expanded.gif) no-repeat 5px .4em;}
+.listexpander li{background:palegoldenrod;}
+.listexpander li.collapsed{background:palegoldenrod url(collapsed.gif) no-repeat 5px .4em;} 
+.listexpander li.expanded{background:palegoldenrod url(expanded.gif) no-repeat 5px .4em;}
 
 ul.listexpander li.empty{cursor:default;background:#f8e7e7 url(empty.gif) no-repeat 5px .4em;} 
 
 /* second level */
 
 .listexpander li ul,
-.listexpander li li{background:#f8f8f8;font-weight:normal;}
-.listexpander li li.collapsed{background:#f8f8f8 url(collapsed.gif) no-repeat 5px .4em;} 
-.listexpander li li.expanded{background:#f8f8f8 url(expanded.gif) no-repeat 5px .4em;}
+.listexpander li li{background:#eee;font-weight:normal;}
+.listexpander li li.collapsed{background:#eee url(collapsed.gif) no-repeat 5px .4em;} 
+.listexpander li li.expanded{background:#eee url(expanded.gif) no-repeat 5px .4em;}
 
 /* third level */
 
@@ -73,20 +75,18 @@ ul.listexpander li.empty{cursor:default;background:#f8e7e7 url(empty.gif) no-rep
 /* buttons */
 
 p.listexpander{
-	height:1.5em;
-	margin:1em 0;
+    margin: 0em;
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
 }
 p.listexpander a{
-	float:left;
-	height:1.5em;
-	line-height:1.5em;
-	padding:0 10px;
-	border:1px solid #eee;
+	padding:0 5px;
+	border:1px solid #ddd;
 	margin-right:5px;
 	cursor:pointer;
 }
 p.listexpander a:hover{
-	background:#f8f8f8;
+	background:#eee;
 }
 
 /* float fix */

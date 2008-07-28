@@ -1,8 +1,6 @@
-#!/usr/bin/perl
-
 # ###################################################################### Otakar Smrz, 2007/10/05
 #
-# ElixirFM #####################################################################################
+# ElixirFM Online ##############################################################################
 
 # $Id: index.fcgi 602 2008-07-07 09:52:29Z smrz $
 
@@ -105,13 +103,22 @@ sub display_header ($) {
     return $r;
 }
 
-sub display_welcome ($) {
+sub display_headline ($) {
 
     my $c = shift;
     my $q = $c->query();
     my $r;
 
     $r .= $q->h1($q->a({'href'=>'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM 1.x"), ucfirst $q->param($c->mode_param()), 'Online');
+    
+    return $r;
+}
+
+sub display_welcome ($) {
+
+    my $c = shift;
+    my $q = $c->query();
+    my $r;
 
     $r .= $q->p("Welcome to the online demo of the", $q->code($q->param($c->mode_param())), "function of",
                 $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/ElixirFM/'}, "ElixirFM") . ", which is the Haskell implementation of",
@@ -122,13 +129,13 @@ sub display_welcome ($) {
     return $r;
 }
 
-sub display_footer ($) {
+sub display_footline ($) {
 
     my $c = shift;
     my $q = $c->query();
     my $r;
 
-    $r .= $q->p("(C) Otakar Smrz 2008-2005, Tim Buckwalter 2002. GNU General Public License", $q->a({-href => 'http://www.gnu.org/licenses/'}, "GNU GPL") . ".");
+    $r .= $q->p("(C) Otakar Smrz 2008-2005, Tim Buckwalter 2002. GNU General Public License", $q->a({-href => 'http://www.gnu.org/licenses/'}, "GNU GPL 3") . ".");
 
     $r .= $q->p("ElixirFM is an", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "open-source online"), "project.",
                 "You can contribute to its development with your suggestions!");
@@ -136,6 +143,15 @@ sub display_footer ($) {
     $r .= $q->p("Contact", $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/'}, "otakar.smrz"), "at",
                 $q->a({-href => 'http://ufal.mff.cuni.cz/'}, "mff.cuni.cz") . ",",
 	        "Institute of Formal and Applied Linguistics, Charles University in Prague.");
+
+    return $r;
+}
+
+sub display_footer ($) {
+
+    my $c = shift;
+    my $q = $c->query();
+    my $r;
 
     $r .= $q->end_html();
 
@@ -147,33 +163,55 @@ sub pretty_resolve ($$) {
 
     my @word = split /(?:(?<=\n)\n|(?<=^)\n)/, $_[0], -1;
 
+    pop @word;
+
     my $q = $_[1];
 
     my @text = split ' ', $q->param('text');
 
+    my $r = '';
+
+    $r .= $q->p({-class => 'notice'}, 'The numbers of input and output words are not equal! ' . (scalar @text) . " <> " . (scalar @word)) unless @text == @word;
+
     if ($q->param('view')) {
 
-	return $q->ul({'-class' => 'listexpander'}, 
-		      map { my $tree = pretty_resolve_tree($word[$_], $q);
-				     
-			    $q->li( $tree ? 
+	for (my $i; $i < @word; $i++) {
 
-				    ( $q->div({-class => "word",
-					       -title => "input word"}, $text[$_]), $tree ) :
-				    
-				    ( {-class => 'empty'},				
-				      $q->div({-class => "word",
-					       -title => "input word"}, $text[$_]) ) ) }
-		       
-		      0 .. @word - 1);
+	    $r .= $q->h3($q->div($text[$i]));
+
+	    my $tree = pretty_resolve_tree($word[$i], $q);
+	    
+	    if ($tree) {
+
+		$r .= $q->ul({-class => 'listexpander'}, 
+
+			     $q->li($q->div({-class => "word",
+					     -title => "input word"}, $text[$i]), $tree));
+	    }
+	    else {
+		
+		$r .= $q->ul({-class => 'listexpander'}, 
+			      
+			     $q->li({-class => 'empty'},
+				    $q->div({-class => "word",
+					      -title => "input word"}, $text[$i]) ));
+	    }
+	}
     }
     else {
 	
-	return $q->table({-cellspacing => 0}, 
-			 [ map { $q->Tr([ map { pretty_resolve_list($_, $q) }
-					  
-					  split /\n/, $_ ]) } @word ]);
+	for (my $i; $i < @word; $i++) {
+
+	    $r .= $q->h3($q->div($text[$i]));
+
+	    $r .= $q->table({-cellspacing => 0}, 
+			    $q->Tr([ map { pretty_resolve_list($_, $q) }
+				     
+				     split /\n/, $word[$i] ]) );
+	}
     }
+
+    return $r;
 }
 
 sub pretty_resolve_tree {
@@ -333,6 +371,8 @@ sub resolve {
 
     $r .= display_header $c;
 
+    $r .= display_headline $c;
+
     my @example = ( [ 'Unicode',    (decode "buckwalter", "AqrO Aldrs AlOwl") ],
 		    [ 'ArabTeX',    "ad-dars al-'awwal" ],
 		    [ 'ArabTeX',    "y`tbru m.d'N" ],
@@ -399,6 +439,7 @@ sub resolve {
 			$q->checkbox_group( -name       =>  'data',
 					    -values     =>  [ 'Complete Lexicon' ],
 					    -default    =>  [ $q->param('data') ],
+					    -title      =>  "consider even less frequent entries",
 					    -linebreak  =>  0,
 					    -rows       =>  1,
 					    -columns    =>  1) ),
@@ -408,6 +449,7 @@ sub resolve {
 			$q->radio_group(-name       =>  'code',
                                         -values     =>  [ @enc_list ],
                                         -default    =>  $q->param('code'),
+					-title      =>  "phonological notation | one-to-one romanization | original orthography",
                                         -linebreak  =>  0,
                                         -rows       =>  1,
                                         -columns    =>  scalar @enc_list) ) ),
@@ -423,6 +465,7 @@ sub resolve {
 			$q->checkbox_group( -name       =>  'view',
 					    -values     =>  [ 'MorphoTrees View' ],
 					    -default    =>  [ $q->param('view') ],
+					    -title      =>  "more organized and interactive output",
 					    -linebreak  =>  0,
 					    -rows       =>  1,
 					    -columns    =>  1) ),
@@ -432,6 +475,7 @@ sub resolve {
 			$q->checkbox_group( -name       =>  'fuzzy',
 					    -values     =>  [ 'Fuzzy Notation' ],
 					    -default    =>  [ $q->param('fuzzy') ],
+					    -title      =>  "less strict resolution of the input",
 					    -linebreak  =>  0,
 					    -rows       =>  1,
 					    -columns    =>  1) ) ) );
@@ -444,10 +488,12 @@ sub resolve {
 
     $r .= $q->h2('ElixirFM Reply');
 
-    $r .= $q->p($q->param('view') ? "Click on the highlighted items to display or hide their contents." : (),
+  # $r .= $q->p({-class => 'notice'}, "You have checked the 'Fuzzy Notation' option due to which the resolution of the input words is less strict.") if $q->param('fuzzy');
+  # $r .= $q->p({-class => 'notice'}, "You can try the 'MorphoTrees View' option next for a more organized and interactive output.") unless $q->param('view');
 
-		"Point the mouse over the data to receive further information.");
+    $r .= $q->p({-class => 'notice'}, "Click on the items in the list of solutions below in order to display or hide their contents.") if $q->param('view');
 
+    $r .= $q->p("Point the mouse over the data to receive further information.");
 
     my $mode = $q->param($c->mode_param());
 
@@ -488,6 +534,8 @@ sub resolve {
 
     $r .= $q->p("Processing time", $time, "seconds.");
 
+    $r .= display_footline $c;
+
     $r .= display_footer $c;
 
     return $r;
@@ -503,9 +551,9 @@ sub pretty_inflect ($$) {
     my $q = $_[1];
 
     return $q->table({-cellspacing => 0}, 
-		     [ map { $q->Tr([ map { pretty_inflect_list($_, $q) }
+		     [ map { join $", map { pretty_inflect_list($_, $q) }
 					  
-				      split /\n/, $_ ]) } @word ]);
+			     split /\n/, $_ } @word ]);
 }
 
 sub pretty_inflect_list {
@@ -528,23 +576,38 @@ sub pretty_inflect_list {
     my @orth = map { decode "arabtex", $_ } @data[1, 4];
     my @phon = map { decode "zdmg", $_ } @data[1, 4];
 
-    return join $", $q->td({-class => "xtag",
-                            -title => ElixirFM::describe(substr $info[0], 0, 1) .
-                                      ", " . ElixirFM::describe($info[0])},     $info[0]),
-
-				map { 
-
-				    $q->td({-class => "phon",
-					    -title => "inflected form"},            decode "zdmg", $_->[0]),
-				    $q->td({-class => "orth",
-					    -title => "inflected form"},            decode "arabtex", $_->[0]),
-				    $q->td({-title => "inflected form"},            $_->[0]),
-				    $q->td({-class => "root",
-					    -title => "root of inflected form"},    $_->[1]),
-				    $q->td({-class => "morphs",
-					    -title => "morphs of inflected form"},  $_->[2]),
-				    
-			    } @info[1 .. @info];
+    return join $", ( map { $q->Tr(join $", 
+				   
+				   $q->td({-class => "xtag",
+					   -title => ElixirFM::describe(substr $info[0], 0, 1) .
+					       ", " . ElixirFM::describe($info[0])},     $info[0]),
+				   $q->td({-class => "phon",
+					   -title => "inflected form"},            decode "zdmg", $_->[0]),
+				   $q->td({-class => "orth",
+					   -title => "inflected form"},            decode "arabtex", $_->[0]),
+				   $q->td({-title => "inflected form"},            $_->[0]),
+				   $q->td({-class => "root",
+					   -title => "root of inflected form"},    $_->[1]),
+				   $q->td({-class => "morphs",
+					   -title => "morphs of inflected form"},  $_->[2]) )
+				
+		            } $info[1] ),
+					     
+		    ( map { $q->Tr(join $", 
+				 
+				   $q->td(),
+				   
+				   $q->td({-class => "phon",
+					   -title => "inflected form"},            decode "zdmg", $_->[0]),
+				   $q->td({-class => "orth",
+					   -title => "inflected form"},            decode "arabtex", $_->[0]),
+				   $q->td({-title => "inflected form"},            $_->[0]),
+				   $q->td({-class => "root",
+					   -title => "root of inflected form"},    $_->[1]),
+				   $q->td({-class => "morphs",
+					   -title => "morphs of inflected form"},  $_->[2]) )
+				
+			    } @info[2 .. @info - 1] );
 }
 
 
@@ -563,6 +626,8 @@ sub inflect {
     tick @tick;
 
     $r .= display_header $c;
+
+    $r .= display_headline $c;
 
     my @example = ( [ '(3105,1)',               '-P-A-3---- -C--------' ],
 		    [ '(3105,-2) (1455,-5)',    '--[ISJ]------[IRD]'    ] );
@@ -704,6 +769,8 @@ sub inflect {
 
     $r .= $q->p("Processing time", $time, "seconds.");
 
+    $r .= display_footline $c;
+
     $r .= display_footer $c;
 
     return $r;
@@ -726,9 +793,16 @@ sub lookup {
 
     $r .= display_header $c;
 
-    $r .= $q->p("The requested", "'" . $q->param($c->mode_param()) . "'", "mode is not implemented at the moment.");
+    $r .= display_headline $c;
 
-    $r .= $q->end_html();
+    $r .= $q->p("The requested", "'" . $q->param($c->mode_param()) . "'", "mode is not implemented online at the moment.",
+		"You can try out the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "executable"),
+		"or the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "library"), "instead, though.");
+
+    $r .= $q->p($q->div($q->a({-href => 'index.fcgi?elixir=resolve'}, "ElixirFM Resolve")),
+		$q->div($q->a({-href => 'index.fcgi?elixir=inflect&code=' . $q->param('code')}, "ElixirFM Inflect")));
+
+    $r .= display_footer $c;
 
     return $r;
 }
@@ -750,9 +824,16 @@ sub derive {
 
     $r .= display_header $c;
 
-    $r .= $q->p("The requested", "'" . $q->param($c->mode_param()) . "'", "mode is not implemented at the moment.");
+    $r .= display_headline $c;
 
-    $r .= $q->end_html();
+    $r .= $q->p("The requested", "'" . $q->param($c->mode_param()) . "'", "mode is not implemented online at the moment.",
+		"You can try out the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "executable"),
+		"or the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "library"), "instead, though.");
+
+    $r .= $q->p($q->div($q->a({-href => 'index.fcgi?elixir=resolve'}, "ElixirFM Resolve")),
+		$q->div($q->a({-href => 'index.fcgi?elixir=inflect&code=' . $q->param('code')}, "ElixirFM Inflect")));
+
+    $r .= display_footer $c;
 
     return $r;
 }

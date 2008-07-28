@@ -37,7 +37,6 @@
 
 .notice {
     color: orangered;
-    font-size: large;
 }
 
 body {
@@ -79,11 +78,35 @@ h1 {
 h2 { 
     font-size: large;
     font-weight: bold;
+    line-height: 130%;
     color: indigo;
     border: 1px;
     border-style: solid;
     border-color: goldenrod;
     padding: 2px 5px; 
+}
+
+h3 { 
+    font-size: large;
+    font-weight: bold;
+    line-height: 130%;
+    color: black;
+    /* background-color: palegoldenrod; */
+    border: 1px;
+    border-style: solid;
+    border-color: gold;
+    padding: 2px 5px; 
+}
+
+h3 div {
+    margin-right: 0em;
+}
+
+h3 div:before {
+    content: "Input word";
+    font-size: medium;
+    font-weight: normal;
+    margin-right: 1em;
 }
 
 a:link { 
