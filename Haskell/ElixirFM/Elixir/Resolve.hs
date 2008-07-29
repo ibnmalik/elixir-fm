@@ -64,97 +64,73 @@ data Token a = Token { lexeme :: (Lexeme a, Index), struct :: (Root, Morphs a), 
 newtype Tokens a = Tokens [Token a]
 
 
+instance Show (Token a) => Show (Tokens a) where
+
+    showsPrec n (Tokens x) = showsPrec n x
+
+
+encloseText = hcat . map (text . ('\t' :)) -- encloseSep tab empty tab . map text
+
+
 instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pretty (Tokens a) where
 
     pretty (Tokens [])       = text "!!! Empty Tokens !!!"
 
-    pretty (Tokens xs@(x:_)) = nest 1 (text ":" </> align ( nest 8 (
+    pretty (Tokens xs@(x:_)) = nest 2 (text ": " <> align (
 
-                                                                   fill 10 (pretty (snd lxm))
-                                <>
-                                (hcat . map (text . ("\t" ++)))    [merge r (morphs e),
-                                                                    show r,
-                                                                    show (morphs e)]
-                                <$$>
-                                (cat . map (text . ("\t" ++)))     [show (reflex e),
-                                                                    show f]
-                                <$$>
-                                            text "\t" <>           (text . concat . words . show)
-                                                                   (pretty (entity e)) )
-                                <$$>
-                                       vcat [
-                
-                                       text (words (show (tag y)) !! 1) <> 
-                                                                                  
-                                (hcat . map (text . ("\t" ++)))    [uncurry merge str,
-                                                                    show (fst str),
-                                                                    show (snd str)] |
-                
-                                          y <- xs, let str = struct y ] ))
+            nest 10 ( (fill 10 . text . show) idx <>
 
-                              where Lexeme r e = fst lxm
-                                    lxm = lexeme x
-                                    f = case tag x of
+                        (text . ('\t' :) . concat . words . show . pretty) (entity e)
 
-                                            ParaVerb _ -> (form . entity) e 
-                                            ParaNoun _ -> [ f | f <- [I ..], or [ True | (_, b, c, d) <- nounStems f r,
-                                                                                  any (morphs e ==) [morph b, morph c, d] ] ]
-                                            ParaAdj  _ -> [ f | f <- [I ..], or [ True | (_, b, c, _) <- nounStems f r,
-                                                                                  any (morphs e ==) [morph b, morph c] ] ]
-                                            _          -> []
+                        <$$> encloseText [show (reflex e), show (lookupForm (tag x) r e)]
+                        <$$> encloseText [merge r (morphs e), show r, show (morphs e)] )
 
+            <$$> vcat [ text (words (show (tag y)) !! 1) <>
+
+                        encloseText [merge d m, show d, show m] | y <- xs, let (d, m) = struct y ] ) )
+
+        where (Lexeme r e, idx) = lexeme x
 
 
 instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pretty (Token a) where
 
     pretty x = text (words (show (tag x)) !! 1) <> align (
 
-                    (hcat . map (text . ("\t" ++)))    [uncurry merge str,
-                                                        show (fst str),
-                                                        show (snd str)]
-                    <$$>
-                    (hcat . map (text . ("\t" ++)))    [merge r (morphs e),
-                                                        show r,
-                                                        show (morphs e)]
-                    <$$>
-                    (cat . map (text . ("\t" ++)))     [show (reflex e),
-                                                        show f]
-                    <$$>
-                                text "\t" <>           (text . concat . words . show)
-                                                       (pretty (entity e))
-                    <$$>
-                                text "\t" <>            pretty (snd lxm)
-                )
+                encloseText [merge d m, show d, show m]
 
-        where Lexeme r e = fst lxm
-              lxm = lexeme x
-              str = struct x
-              f = case tag x of
+                <$$> encloseText [merge r (morphs e), show r, show (morphs e)]
+                <$$> encloseText [show (reflex e), show (lookupForm (tag x) r e)]
+                <$$> (text . ('\t' :) . concat . words . show . pretty) (entity e)
+                <$$> (text . ('\t' :) . show) idx )
 
-                ParaVerb _ -> (form . entity) e
-                ParaNoun _ -> [ f | f <- [I ..], or [ True | (_, b, c, d) <- nounStems f r,
-                                                      any (morphs e ==) [morph b, morph c, d] ] ]
-                ParaAdj  _ -> [ f | f <- [I ..], or [ True | (_, b, c, _) <- nounStems f r,
-                                                      any (morphs e ==) [morph b, morph c] ] ]
-                _          -> []
+        where (Lexeme r e, idx) = lexeme x
+              (d, m) = struct x
 
-{-
-instance (Pretty (Token PatternT), Pretty (Token PatternQ),
-          Pretty (Token String),   Pretty (Token PatternL)) => Pretty (Wrap Token) where
 
-    pretty (WrapT x) = pretty x
-    pretty (WrapQ x) = pretty x
-    pretty (WrapS x) = pretty x
-    pretty (WrapL x) = pretty x
--}
+instance Pretty (Wrap Tokens) => Pretty [Wrap Tokens] where
+
+    pretty x = nest 1 (text (":: <" ++ unwords z ++ ">") <> foldr ((<>) . ((<>) line) . pretty) empty x)
+
+        where y = nub [ z | y <- x, z <- unwraps (\ (Tokens x) -> map (uncurry merge . struct) x) y ]
+
+              z = if length y > 3 then [head y] ++ [".."] ++ [last y] else y
+
 
 instance Pretty (Wrap Token) => Pretty [Wrap Token] where
 
     pretty x = nest 2 (text (": <" ++ unwords z ++ ">") <$$> align (singleline pretty x))
 
         where y = (nub . map (unwraps (uncurry merge . struct))) x
-              z = if length y > 3 then take 3 y ++ ["..."]
-                                  else y
+
+              z = if length y > 3 then [head y] ++ [".."] ++ [last y] else y
+
+
+instance Pretty [Wrap Tokens] => Pretty [[Wrap Tokens]] where
+
+    pretty x = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . ((<>) (line <> line)) . pretty) empty x)
+
+        where p = map pretty x
+              s = map (drop 1 . concat . take 1 . lines . show) p
 
 
 instance Pretty [Wrap Token] => Pretty [[Wrap Token]] where
@@ -163,6 +139,14 @@ instance Pretty [Wrap Token] => Pretty [[Wrap Token]] where
 
         where p = map pretty x
               s = map (take 1 . lines . show) p
+
+
+instance Pretty [[Wrap Tokens]] => Pretty [[[Wrap Tokens]]] where
+
+    pretty x = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . ((<>) (line <> line)) . pretty) line x)
+
+        where p = map pretty x
+              s = map (drop 1 . concat . take 1 . lines . show) p
 
 
 instance Pretty [[Wrap Token]] => Pretty [[[Wrap Token]]] where
@@ -175,20 +159,48 @@ instance Pretty [[Wrap Token]] => Pretty [[[Wrap Token]]] where
 
 class Fuzzy a => Resolve a where
 
-    resolve :: a -> [[[[Wrap Token]]]]
+    resolve :: a -> [[[Wrap Tokens]]]
 
-    resolveBy :: (String -> String -> Bool) -> ([a] -> [a] -> Bool) -> (a -> [[a]]) -> a
-                 -> [[[[Wrap Token]]]]
+    resolveBy :: (String -> String -> Bool) -> ([a] -> [a] -> Bool) -> (a -> [[a]])
+            -> a -> [[[Wrap Tokens]]]
 
     tokenize :: a -> [[a]]
 
     resolve = resolveBy (==) (==) (\ x -> [[x]]) -- ((:[]) . (:[]))
 
 
-resolve' = resolveBy' (==) (==) (\ x -> [[x]])
+thetoken x = [[x]]
+
+resolve'  = resolveBy'  (==) (==) (\ x -> [[x]])
+resolve'' = resolveBy'' (==) (==) (\ x -> [[x]])
 
 
 instance Resolve String where
+
+    resolveBy e q t y = [ [ concat (Map.lookup x resolves) | x <- p ] | p <- z ]
+
+            where z = t y
+                  u = (map units . nub . concat) z
+
+                  resolves = (Map.map reverse . Map.fromListWith (++)) [ s | ((r, x), n) <- zip indexList [1 ..],
+
+                                        let i = [ v | v <- u, isSubsumed e r v ],
+
+                                        not (null i), s <- unwraps (inflects i n) x ]
+
+                  inflects y n (Nest r z) = [ z | (e, m) <- zip z [1 ..],
+
+                                let x = (expand . domain) e, s <- entries e,
+
+                                let l = Lexeme r s,
+
+                                z <- (Map.foldWithKey (\ k x y -> (k, [wrap (Tokens (reverse x))]) : y) []
+
+                                    . Map.fromListWith (++))
+
+                                    [ (concat d, [Token (l, (n, m)) i t]) | (t, h) <- inflect l x, i <- h,
+
+                                       let u = (units . uncurry merge) i, d <- y, u `q` d ] ]
 
 {-
     resolveBy e q _ y = [[[ [s] | let l = units y, ((r, x), n) <- zip indexList [1 ..],
@@ -204,30 +216,6 @@ instance Resolve String where
                             (units . uncurry merge) i `q` y ]
 -}
 
-    resolveBy e q t y = [ [ (reverse . concat) (Map.lookup x resolves) | x <- p ] | p <- z ]
-
-            where z = t y
-                  u = (map units . nub . concat) z
-
-                  resolves = Map.fromListWith (++) [ s | ((r, x), n) <- zip indexList [1 ..],
-
-                                        let i = [ v | v <- u, isSubsumed e r v ],
-
-                                        not (null i), s :: (String, [[Wrap Token]]) <- unwraps (inflects i n) x ]
-
-                  inflects y n (Nest r z) = [ z | (e, m) <- zip z [1 ..],
-
-                                let x = (expand . domain) e, s <- entries e,
-
-                                let l = Lexeme r s,
-
-                                z <- (Map.foldWithKey (\ k x y -> (k, [reverse x]) : y) [] . Map.fromListWith (++))
-
-                                     [ (concat d, [wrap (Token (l, (n, m)) i t)]) | (t, h) <- inflect l x, i <- h,
-
-                                       let u = (units . uncurry merge) i, d <- y, u `q` d ] ]
-
-
     tokenize x = [[x]] ++ [ ["wa", y] | 'w' : 'a' : y <- [x] ] ++ [ ["w", y] | 'w' : y <- [x] ] ++
              if "mi'aTiN" `isSuffixOf` x then [[reverse y, reverse z]] else []
              ++
@@ -236,18 +224,19 @@ instance Resolve String where
              where (z, y) = splitAt 7 (reverse x)
 
 
-resolveBy' :: (String -> String -> Bool) -> ([String] -> [String] -> Bool) -> (String -> [[String]]) -> String -> [[[Wrap Tokens]]]
+resolveBy' :: (String -> String -> Bool) -> ([String] -> [String] -> Bool) -> (String -> [[String]])
+           -> String -> [[[[Wrap Token]]]]
 
-resolveBy' e q t y = [ [ (reverse . concat) (Map.lookup x resolves) | x <- p ] | p <- z ]
+resolveBy' e q t y = [ [ concat (Map.lookup x resolves) | x <- p ] | p <- z ]
 
         where z = t y
               u = (map units . nub . concat) z
 
-              resolves = Map.fromListWith (++) [ s | ((r, x), n) <- zip indexList [1 ..],
+              resolves = (Map.map reverse . Map.fromListWith (++)) [ s | ((r, x), n) <- zip indexList [1 ..],
 
                                     let i = [ v | v <- u, isSubsumed e r v ],
 
-                                    not (null i), s :: (String, [Wrap Tokens]) <- unwraps (inflects i n) x ]
+                                    not (null i), s :: (String, [[Wrap Token]]) <- unwraps (inflects i n) x ]
 
               inflects y n (Nest r z) = [ z | (e, m) <- zip z [1 ..],
 
@@ -255,14 +244,43 @@ resolveBy' e q t y = [ [ (reverse . concat) (Map.lookup x resolves) | x <- p ] |
 
                             let l = Lexeme r s,
 
-                            z <- (Map.foldWithKey (\ k x y -> (k, [wrap (Tokens (reverse x))]) : y) [] . Map.fromListWith (++))
+                            z <- (Map.foldWithKey (\ k x y -> (k, [reverse x]) : y) [] . Map.fromListWith (++))
 
-                                 [ (concat d, [Token (l, (n, m)) i t]) | (t, h) <- inflect l x, i <- h,
+                                [ (concat d, [wrap (Token (l, (n, m)) i t)]) | (t, h) <- inflect l x, i <- h,
 
                                    let u = (units . uncurry merge) i, d <- y, u `q` d ] ]
 
 
 instance Resolve [UPoint] where
+
+    resolveBy e q t y = [ [ concat (Map.lookup x resolves) | x <- p ] | p <- z ]
+
+            where z = t y
+                  u = (map (\ x -> (units x, recode x)) . nub . concat) z
+
+                  c = decode TeX
+
+                  resolves = (Map.map reverse . Map.fromListWith (++)) [ s | ((r, x), n) <- zip indexList [1 ..],
+
+                                        let i = [ v | (v, w) <- u, isSubsumed e r w ],
+
+                                        not (null i), s <- unwraps (inflects i n) x ]
+
+                  inflects y n (Nest r z) = [ z | (e, m) <- zip z [1 ..],
+
+                                let x = (expand . domain) e, s <- entries e,
+
+                                let l = Lexeme r s,
+
+                                z <- (Map.foldWithKey (\ k x y -> (k, [wrap (Tokens (reverse x))]) : y) []
+
+                                    . Map.fromListWith (++) .
+
+                                    (\ x -> [ (concat d, t) | (f, t) <- x, let u = (units . c) f, d <- y, u `q` d ])
+
+                                    . Map.toList . Map.fromListWith (++))
+
+                                    [ (uncurry merge i, [Token (l, (n, m)) i t]) | (t, h) <- inflect l x, i <- h ] ]
 
 {-
     resolveBy e q _ y = resolveList indexList (decode TeX) e q y
@@ -283,42 +301,11 @@ resolveList l c e q y = [[[ [s] | let i = recode y, ((r, x), n) <- zip l [1 ..],
                             let l = Lexeme r s, (t, h) <- inflect l x, i <- h ]
 -}
 
-    resolveBy e q t y = [ [ (reverse . concat) (Map.lookup x resolves) | x <- p ] | p <- z ]
 
-            where z = t y
-                  u = (map (\ x -> (units x, recode x)) . nub . concat) z
+resolveBy'' :: (String -> String -> Bool) -> ([[UPoint]] -> [[UPoint]] -> Bool) -> ([UPoint] -> [[[UPoint]]])
+            -> [UPoint] -> [[[[Wrap Token]]]]
 
-                  c = decode TeX
-
-                  resolves = Map.fromListWith (++) [ s | ((r, x), n) <- zip indexList [1 ..],
-
-                                        let i = [ v | (v, w) <- u, isSubsumed e r w ],
-
-                                        not (null i), s :: ([UPoint], [[Wrap Token]]) <- unwraps (inflects i n) x ]
-
-                  inflects y n (Nest r z) = 
-
-                              [ z | (e, m) <- zip z [1 ..],
-
-                                let x = (expand . domain) e, s <- entries e,
-
-                                let l = Lexeme r s,
-
-                                z <- (Map.foldWithKey (\ k x y -> (k, [reverse x]) : y) [] . Map.fromListWith (++) .
-
-                                        (\ x -> [ (concat d, t) | (f, t) <- x,
-
-                                                                let u = (units . c) f, d <- y, u `q` d ])
-
-                                     . Map.toList . Map.fromListWith (++))
-                                
-                                     [ (uncurry merge i, [wrap (Token (l, (n, m)) i t)]) | (t, h) <- inflect l x, i <- h ] ]
-                            
-                            
-
-resolveBy'' :: (String -> String -> Bool) -> ([[UPoint]] -> [[UPoint]] -> Bool) -> ([UPoint] -> [[[UPoint]]]) -> [UPoint] -> [[[Wrap Tokens]]]
-
-resolveBy'' e q t y = [ [ (reverse . concat) (Map.lookup x resolves) | x <- p ] | p <- z ]
+resolveBy'' e q t y = [ [ concat (Map.lookup x resolves) | x <- p ] | p <- z ]
 
         where z = t y
               u = (map (\ x -> (units x, recode x)) . nub . concat) z
@@ -329,45 +316,37 @@ resolveBy'' e q t y = [ [ (reverse . concat) (Map.lookup x resolves) | x <- p ] 
 
                                     let i = [ v | (v, w) <- u, isSubsumed e r w ],
 
-                                    not (null i), s :: ([UPoint], [Wrap Tokens]) <- unwraps (inflects i n) x ]
+                                    not (null i), s :: ([UPoint], [[Wrap Token]]) <- unwraps (inflects i n) x ]
 
-              inflects y n (Nest r z) = 
-
-                          [ z | (e, m) <- zip z [1 ..],
+              inflects y n (Nest r z) = [ z | (e, m) <- zip z [1 ..],
 
                             let x = (expand . domain) e, s <- entries e,
 
                             let l = Lexeme r s,
 
-                            z <- (Map.foldWithKey (\ k x y -> (k, [wrap (Tokens (reverse x))]) : y) [] . Map.fromListWith (++) .
+                            z <- (Map.foldWithKey (\ k x y -> (k, [reverse x]) : y) [] . Map.fromListWith (++) .
 
-                                    (\ x -> [ (concat d, t) | (f, t) <- x,
+                                (\ x -> [ (concat d, t) | (f, t) <- x, let u = (units . c) f, d <- y, u `q` d ])
 
-                                                            let u = (units . c) f, d <- y, u `q` d ])
+                                . Map.toList . Map.fromListWith (++))
 
-                                 . Map.toList . Map.fromListWith (++))
-                            
-                                 [ (uncurry merge i, [Token (l, (n, m)) i t]) | (t, h) <- inflect l x, i <- h ] ]
+                                [ (uncurry merge i, [wrap (Token (l, (n, m)) i t)]) | (t, h) <- inflect l x, i <- h ] ]
 
 
+resolveMore e q y = [ [s] | ((r, x), n) <- zip indexList [1 ..],
 
-resolveMore e q y = resolveListMore indexList id e q y
+                            let i = filter (isSubsumed e r . letters) y,
 
-
-resolveListMore l c e q y = [ [s] | ((r, x), n) <- zip l [1 ..],
-
-                                    let i = filter (isSubsumed e ((map c) r) . letters) y,
-
-                                    not (null i), s <- wraps (inflects i n) x ] : []
+                            not (null i), s <- wraps (inflects i n) x ] : []
 
     where inflects y n (Nest r z) = [ Token ((Lexeme r e), (n, m)) i t | (e, m) <- zip z [1 ..],
 
                             let s = inflect (Lexeme r e) ((expand . domain) e), (t, h) <- s,
 
-                            i <- h, let u = (c . uncurry merge) i, d <- y, u `q` d ]
+                            i <- h, let u = uncurry merge i, d <- y, u `q` d ]
 
 
-resolveSub r = resolveBy (\ x y -> any (isPrefixOf x) (tails y)) r
+resolveSub r = resolveBy (==) (\ x y -> any (isPrefixOf x) (tails y)) r
 
 
 omitting' :: Eq a => (a -> a -> Bool) -> [[a]] -> [a] -> [a] -> Bool

@@ -50,6 +50,21 @@ instance Derive Lexeme String where
 -- map (map (map (uncurry merge) . snd)) [ inflect x "N------S-I" | x <- derive (Lexeme "^g r b" $ FaCCaL `verb` []) "N" ]
 
 
+lookupForm :: (Eq a, Forming a, Morphing a a) => ParaType -> Root -> Entry a -> [Form]
+
+lookupForm x r e = case x of
+
+        ParaVerb _ -> (form . entity) e
+
+        ParaNoun _ -> [ f | f <- [I ..], or [ True | (_, b, c, d) <- nounStems f r,
+                                              any (morphs e ==) [morph b, morph c, d] ] ]
+
+        ParaAdj  _ -> [ f | f <- [I ..], or [ True | (_, b, c, _) <- nounStems f r,
+                                              any (morphs e ==) [morph b, morph c] ] ]
+
+        _          -> []
+
+
 lookVerb :: Eq a => a -> (Tense, Voice) -> (Tense, Voice) -> Bool -> [VerbStems a] -> [a]
 
 lookVerb x y z v = map (findVerb z v) . siftVerb x y

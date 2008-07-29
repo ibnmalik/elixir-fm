@@ -119,27 +119,21 @@ main = do   argv <- getArgs
 warn = hPutStr stderr
 
 
-normal x = [[x]]
-
-
 elixirResolve o p = interact (unlines . map (show . pretty . f) . concat . map words . onlines)
 
     where f = case e of
 
-                "tim"   ->  if q then resolveBy alike (omitting alike omits) normal . decode Tim
-                                 else resolveBy fuzzy (omitting fuzzy omits) normal . decode Tim
+                "tim"   ->  if q then resolveBy alike (omitting alike omits) thetoken . decode Tim
+                                 else resolveBy fuzzy (omitting fuzzy omits) thetoken . decode Tim
 
-                "mit"   ->  if q then resolveBy'' alike (omitting alike omits) normal . decode Tim
-                                 else resolveBy'' fuzzy (omitting fuzzy omits) normal . decode Tim
+                "utf"   ->  if q then resolveBy alike (omitting alike omits) thetoken . decode UTF
+                                 else resolveBy fuzzy (omitting fuzzy omits) thetoken . decode UTF
 
-                "utf"   ->  if q then resolveBy alike (omitting alike omits) normal . decode UTF
-                                 else resolveBy fuzzy (omitting fuzzy omits) normal . decode UTF
+                "xet"   ->  if q then resolveBy alike (omitting alike omits) tokenize
+                                 else resolveBy fuzzy (omitting fuzzy omits) tokenize
 
-                "xet"   ->  if q then resolveBy' alike (omitting alike omits) normal
-                                 else resolveBy' fuzzy (omitting fuzzy omits) normal
-
-                _       ->  if q then resolveBy alike (omitting alike omits) normal
-                                 else resolveBy fuzzy (omitting fuzzy omits) normal
+                _       ->  if q then resolveBy alike (omitting alike omits) thetoken
+                                 else resolveBy fuzzy (omitting fuzzy omits) thetoken
 
           e = case p of  [] -> ""
                          _  -> (map toLower . head) p
