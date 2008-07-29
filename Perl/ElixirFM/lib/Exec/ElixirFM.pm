@@ -161,9 +161,7 @@ sub display_footer ($) {
 
 sub pretty_resolve ($$) {
 
-    my @word = split /(?:(?<=\n)\n|(?<=^)\n)/, $_[0], -1;
-
-    pop @word;
+    my (undef, @word) = split /[:]{4}/, $_[0], -1;
 
     my $q = $_[1];
 
@@ -216,89 +214,113 @@ sub pretty_resolve ($$) {
 
 sub pretty_resolve_tree {
 
-    my @data = split /\n/, $_[0];
+    my (undef, @data) = split /[:]{3}/, $_[0];
 
     my $q = $_[1];
 
-    my %tree = ();
+    @data = grep { $_ !~ /^\s*$/ } @data;
 
-    foreach my $one (@data) {
+    @data = map { my (undef, @x) = split /[:]{2}/, $_; @x } @data; 
 
-	my @info = split /\t/, $one;
+    @data = grep { $_ !~ /^\s*$/ } @data;
 
-	(undef, $info[0]) = split ' ', $info[0];
+    @data = map { my (undef, @x) = split /[:]{1}/, $_; @x } @data; 
 
-	push @{$tree{join "\t", @info[4 .. 10], substr $info[0], 0, 1}}, [ @info[1 .. 3, 0] ];
-    }
+    @data = grep { $_ !~ /^\s*$/ } @data;
 
-    my @keys = keys %tree;
+    @data = map { my $x = $_; my $i = ''; 
 
-    return '' unless @keys;
+		  ($i) = $x =~ /^(?:[\t ]*\n)*([\t ]*)(?![\t\n ])/;
 
-    return $q->ul($q->li([ map { my @info = split /\t/, $_;
+		  $x = substr $x, length $i;
 
-				 $info[1] = substr $info[1], 1, -1;
-				 $info[3] = substr $info[3], 1, -1;
+		  $i .= ' ' x 4;
+
+		  [ split /(?<![\t\n ])[\t ]*\n(?:[\t ]*\n)*$i(?![\t\n ])/, $x ] } @data;
+
+  # return $q->ul($q->li([map { $q->pre($_) } @data]));
+
+    return '' unless @data;
+    
+    return $q->ul($q->li([ map {
+
+	my ($lexeme, @tokens) = @{$_};
+
+	my @info = split /[\n ]*\t/, $lexeme;
+
+	my $xcat = substr $tokens[0], 0, 1;
+
+	my @ents = ();
 	
-				 $info[3] =~ s/\",\"/\", \"/g;
+	($ents[0]) = $info[1] =~ /\<imperf\>([^\<]*)\</g;
+	($ents[1]) = $info[1] =~ /\<pfirst\>([^\<]*)\</g;
+	($ents[2]) = $info[1] =~ /\<second\>([^\<]*)\</g;
 
-				 $info[4] =~ s/[\[\]]//g;
+	$ents[1] = '' if defined $ents[0] and defined $ents[1] and lc $ents[0] eq lc $ents[1];
 
-				 my @ents = $info[5] =~ /= \[([^\]]*)\]/g;
 
-				 splice @ents, 1, 1 if @ents > 2 and lc $ents[1] eq lc $ents[2];
+	$info[1] = join " ", grep { defined $_ and $_ ne '' } @ents;
 
-				 $info[5] = join " ", @ents ? @ents[1 .. @ents - 1] : '';
+	$info[2] = substr $info[2], 1, -1;
+	$info[2] =~ s/\",\"/\", \"/g;
 
-				 ( join $",
+	$info[3] =~ s/[\[\]]//g;
+
+	$info[-2] = substr $info[-2], 1, -1;  # == $info[5]
+
+	
+	( join $",
 				   
-				   $q->div({-class => "xtag",
-					    -title => ElixirFM::describe($info[-1])},  $info[-1]),
-				   $q->div({-class => "phon",			       
-					    -title => "citation form"},                decode "zdmg", $info[0]),
-				   $q->div({-class => "orth",			       
-					    -title => "citation form"},                decode "arabtex", $info[0]),
-				   $q->div({-title => "citation form"},                $info[0]),
-				   $q->div({-class => "root",			       
-					    -title => "root of citation form"},        $info[1]),
-				   $q->div({-class => "morphs",			       
-					    -title => "morphs of citation form"},      $info[2]),
-				   $q->div({-class => "class",			       
-					    -title => "derivational class"},           $info[4]),
-				   $q->div({-class => "stems",			       
-					    -title => "inflectional stems"},           $info[5]),
-				   $q->div({-title => "lexical reference"},            $info[3]),
-				   
-				   $q->ul($q->div({-title => "inflect this lexeme"},
-						  $q->a({-href => 'index.fcgi?elixir=inflect&code=' 
-							     . $info[6]}, "Inflect")),
-					  $q->div({-title => "derive other lexemes"},
-						  $q->a({-href => 'index.fcgi?elixir=derive&code=' 
-							     . $info[6]}, "Derive")),
-					  $q->div({-title => "lookup in the lexicon"},
-						  $q->a({-href => 'index.fcgi?elixir=lookup&code=' 
-							     . $info[6]}, "Lookup")),
-					  $q->li($q->table({-cellspacing => 0},
-							   $q->Tr([ map { my @info = @{$_};
+	  $q->div({-class => "xtag",
+		   -title => ElixirFM::describe($xcat)},      $xcat),
+	  $q->div({-class => "phon",			       
+		   -title => "citation form"},                decode "zdmg", $info[-3]),
+	  $q->div({-class => "orth",			       
+		   -title => "citation form"},                decode "arabtex", $info[-3]),
+	  $q->div({-title => "citation form"},                $info[-3]),
+	  $q->div({-class => "root",			       
+		   -title => "root of citation form"},        $info[-2]),
+	  $q->div({-class => "morphs",			       
+		   -title => "morphs of citation form"},      $info[-1]),
+	  $q->div({-class => "class",			       
+		   -title => "derivational class"},           $info[3]),
+	  $q->div({-class => "stems",			       
+		   -title => "inflectional stems"},           $info[1]),
+	  $q->div({-title => "lexical reference"},            $info[2]),
+			   
+	  $q->ul($q->div({-title => "inflect this lexeme"},
+			 $q->a({-href => 'index.fcgi?elixir=inflect&code=' 
+				    . $info[0]}, "Inflect")),
+		 $q->div({-title => "derive other lexemes"},
+			 $q->a({-href => 'index.fcgi?elixir=derive&code=' 
+				    . $info[0]}, "Derive")),
+		 $q->div({-title => "lookup in the lexicon"},
+			 $q->a({-href => 'index.fcgi?elixir=lookup&code=' 
+				    . $info[0]}, "Lookup")),
+
+		 $q->li($q->table({-cellspacing => 0},
+
+				  $q->Tr([ map { my @info = split /[\n ]*\t/, $_;
+
+						 $info[-2] = substr $info[-2], 1, -1;
 							 
-							 $info[1] = substr $info[1], 1, -1;
-							 
-							 ( join $",
+						 ( join $",
 							   
-							   $q->td({-class => "xtag",
-								   -title => ElixirFM::describe($info[-1])},  $info[-1]),
-							   $q->td({-class => "phon",
-								   -title => "inflected form"},               decode "zdmg", $info[0]),
-							   $q->td({-class => "orth",
-								   -title => "inflected form"},               decode "arabtex", $info[0]),
-							   $q->td({-title => "inflected form"},               $info[0]),
-							   $q->td({-class => "root",
-								   -title => "root of inflected form"},       $info[1]),
-							   $q->td({-class => "morphs",
-								   -title => "morphs of inflected form"},     $info[2]) )
-							     
-								    } @{$tree{$_}} ])) )), )
-			   } @keys ]));
+						   $q->td({-class => "xtag",
+							   -title => ElixirFM::describe($info[0])},  $info[0]),
+						   $q->td({-class => "phon",
+							   -title => "inflected form"},               decode "zdmg", $info[-3]),
+						   $q->td({-class => "orth",
+							   -title => "inflected form"},               decode "arabtex", $info[-3]),
+						   $q->td({-title => "inflected form"},               $info[-3]),
+						   $q->td({-class => "root",
+							   -title => "root of inflected form"},       $info[-2]),
+						   $q->td({-class => "morphs",
+							   -title => "morphs of inflected form"},     $info[-1]) )
+						     
+					   } @tokens ] ) )) ) ) 
+	    
+			   } @data ] ));
 }
 
 sub pretty_resolve_list {
@@ -306,8 +328,6 @@ sub pretty_resolve_list {
     my @data = split /\t/, $_[0];
 
     my $q = $_[1];
-
-    (undef, $data[0]) = split ' ', $data[0];
 
     $data[2] = substr $data[2], 1, -1;
     $data[5] = substr $data[5], 1, -1;
@@ -413,6 +433,8 @@ sub resolve {
 	}
     }
 
+    $q->param('view', 'MorphoTrees View') if 'not implemented otherwise';
+
     $q->param('view', '') unless defined $q->param('view');
     $q->param('fuzzy', '') unless defined $q->param('fuzzy');
     $q->param('data', '') unless defined $q->param('data');
@@ -449,7 +471,9 @@ sub resolve {
 			$q->radio_group(-name       =>  'code',
                                         -values     =>  [ @enc_list ],
                                         -default    =>  $q->param('code'),
-					-title      =>  "phonological notation | one-to-one romanization | original orthography",
+					-attributes => { 'ArabTeX'    => {-title => "internal phonology-oriented notation"},
+							 'Buckwalter' => {-title => "letter-by-letter romanization"},
+							 'Unicode'    => {-title => "original script and orthography"} },
                                         -linebreak  =>  0,
                                         -rows       =>  1,
                                         -columns    =>  scalar @enc_list) ) ),
@@ -562,52 +586,24 @@ sub pretty_inflect_list {
 
     my $q = $_[1];
 
-    my @info;
+    return '' unless @data > 1;
 
-    (undef, $info[0]) = split ' ', $data[0];
+    $data[2] = substr $data[2], 1, -1;
 
-    for (my $i = 1; $i < @data / 3; $i++) {
-
-	$data[$i * 3 - 1] = substr $data[$i * 3 - 1], 1, -1;
-
-	$info[$i] = [ @data[$i * 3 - 2 .. $i * 3] ];
-    }
-
-    my @orth = map { decode "arabtex", $_ } @data[1, 4];
-    my @phon = map { decode "zdmg", $_ } @data[1, 4];
-
-    return join $", ( map { $q->Tr(join $", 
-				   
-				   $q->td({-class => "xtag",
-					   -title => ElixirFM::describe(substr $info[0], 0, 1) .
-					       ", " . ElixirFM::describe($info[0])},     $info[0]),
-				   $q->td({-class => "phon",
-					   -title => "inflected form"},            decode "zdmg", $_->[0]),
-				   $q->td({-class => "orth",
-					   -title => "inflected form"},            decode "arabtex", $_->[0]),
-				   $q->td({-title => "inflected form"},            $_->[0]),
-				   $q->td({-class => "root",
-					   -title => "root of inflected form"},    $_->[1]),
-				   $q->td({-class => "morphs",
-					   -title => "morphs of inflected form"},  $_->[2]) )
-				
-		            } $info[1] ),
-					     
-		    ( map { $q->Tr(join $", 
-				 
-				   $q->td(),
-				   
-				   $q->td({-class => "phon",
-					   -title => "inflected form"},            decode "zdmg", $_->[0]),
-				   $q->td({-class => "orth",
-					   -title => "inflected form"},            decode "arabtex", $_->[0]),
-				   $q->td({-title => "inflected form"},            $_->[0]),
-				   $q->td({-class => "root",
-					   -title => "root of inflected form"},    $_->[1]),
-				   $q->td({-class => "morphs",
-					   -title => "morphs of inflected form"},  $_->[2]) )
-				
-			    } @info[2 .. @info - 1] );
+    return $q->Tr( join $", 
+		   
+		   $q->td({-class => "xtag",
+			   -title => ElixirFM::describe(substr $data[0], 0, 1) . ", " .
+                                     ElixirFM::describe($data[0])},                       $data[0]),
+		   $q->td({-class => "phon",
+			   -title => "inflected form"},                 decode "zdmg",    $data[1]),
+		   $q->td({-class => "orth",
+			   -title => "inflected form"},                 decode "arabtex", $data[1]),
+		   $q->td({-title => "inflected form"},                 $data[1]),
+		   $q->td({-class => "root",
+			   -title => "root of inflected form"},         $data[2]),
+		   $q->td({-class => "morphs",
+			   -title => "morphs of inflected form"},       $data[3]) );
 }
 
 
