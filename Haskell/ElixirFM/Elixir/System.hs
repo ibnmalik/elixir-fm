@@ -20,7 +20,9 @@ module Elixir.System where
 
 import FM.Generic.General
 
-import Data.Char (readLitChar)
+import Elixir.Pretty hiding (list)
+
+import Data.Char (readLitChar, isSpace)
 
 import Data.List (intersect)
 
@@ -106,8 +108,12 @@ entPara = [EntVerb (Id (EntVerbC (Id Feminine) (Id Plural))),
 entTags = [EntVerb ([]), EntPron ([]), EntVerb ([])]
 
 
-
 type Tag = ParaType
+
+
+instance Pretty Tag where
+
+    pretty = text . dropWhile isSpace . dropWhile (not . isSpace) . show
 
 
 data ParaType = ParaVerb  ParaVerb

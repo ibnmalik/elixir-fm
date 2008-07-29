@@ -59,9 +59,9 @@ instance (Show a, Template a) => Pretty [(Tag, [(Root, Morphs a)])] where
 
 instance (Show a, Template a) => Pretty (Tag, [(Root, Morphs a)]) where
 
-    pretty (x, y) = (hcat . punctuate (text "\t") . map text)
+    pretty (x, y) = nest 10 ( pretty x <>
 
-                    (show x : [ z | (u, v) <- y, z <- [merge u v, show u, show v] ])
+                              vcat [ encloseText [merge u v, show u, show v] | (u, v) <- y ])
 
 
 inflectDerive :: (Morphing a a, Forming a, Rules a, Derive b c, Inflect b c) => b a -> c -> [[(Tag, [(Root, Morphs a)])]]
@@ -148,11 +148,12 @@ instance Inflect Lexeme TagsType where
         TagsNoun z ->  inflect x z
         TagsAdj  z ->  inflect x z
         TagsPron z ->  inflect x z
+        TagsNum  z ->  inflect x z
+        TagsAdv  z ->  inflect x z
         TagsPrep z ->  inflect x z
         TagsConj z ->  inflect x z
         TagsPart z ->  inflect x z
         TagsIntj z ->  inflect x z
-        _          ->  []
 
 
 instance Inflect Lexeme TagsVerb where
@@ -482,6 +483,20 @@ instance Inflect Lexeme TagsPrep where
 
         where Morphs t p s = morphs e
               m = Morphs t p (tail s)
+
+
+instance Inflect Lexeme TagsNum where
+
+    inflect x@(Lexeme r e) y = case y of
+
+        TagsNumQ                 ->  inflect x [ NumQ ]
+
+
+instance Inflect Lexeme TagsAdv where
+
+    inflect x@(Lexeme r e) y = case y of
+
+        TagsAdvD                 ->  inflect x [ AdvD ]
 
 
 instance Inflect Lexeme TagsConj where
@@ -1191,6 +1206,18 @@ paraPrepI c = case c of
         Nominative      -> suffix "u"
         Genitive        -> suffix "i"
         Accusative      -> suffix "a"
+
+
+instance Inflect Lexeme ParaNum where
+
+    inflect x@(Lexeme r e) y | (not . isNum) (entity e) = []
+                             | otherwise = [(ParaNum NumQ, [(r, morphs e)])]
+
+
+instance Inflect Lexeme ParaAdv where
+
+    inflect x@(Lexeme r e) y | (not . isAdv) (entity e) = []
+                             | otherwise = [(ParaAdv AdvD, [(r, morphs e)])]
 
 
 instance Inflect Lexeme ParaConj where

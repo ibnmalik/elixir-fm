@@ -69,9 +69,6 @@ instance Show (Token a) => Show (Tokens a) where
     showsPrec n (Tokens x) = showsPrec n x
 
 
-encloseText = hcat . map (text . ('\t' :)) -- encloseSep tab empty tab . map text
-
-
 instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pretty (Tokens a) where
 
     pretty (Tokens [])       = text "!!! Empty Tokens !!!"
@@ -85,7 +82,7 @@ instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pret
                         <$$> encloseText [show (reflex e), show (lookupForm (tag x) r e)]
                         <$$> encloseText [merge r (morphs e), show r, show (morphs e)] )
 
-            <$$> vcat [ text (words (show (tag y)) !! 1) <>
+            <$$> vcat [ pretty (tag y) <>
 
                         encloseText [merge d m, show d, show m] | y <- xs, let (d, m) = struct y ] ) )
 
@@ -94,7 +91,7 @@ instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pret
 
 instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pretty (Token a) where
 
-    pretty x = text (words (show (tag x)) !! 1) <> align (
+    pretty x =  pretty (tag x) <> align (
 
                 encloseText [merge d m, show d, show m]
 

@@ -143,8 +143,7 @@ elixirResolve o p = interact (unlines . map (show . pretty . f) . concat . map w
 
 elixirInflect o p = interact (unlines . map (show . f) . concat . map words . onlines)
 
-    where f x = -- pretty [ z | w <- i, z <- wraps (\ (Nest r z) -> [ TRM (inflect (Lexeme r e) x) | e <- z ]) w ]
-                vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (inflect (Lexeme r e) x) | e <- z ]) w ]
+    where f x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (inflect (Lexeme r e) x) | e <- z ]) w ]
 
           i = [ z | x <- p, (y :: Index, "") <- readsPrec 0 x, z <- lookup y lexicon :: Lexicon ]
 

@@ -23,7 +23,9 @@ module Elixir.Pretty (
 
         -- * Functions
 
-        onlines, singleline, doubleline,
+        onlines, encloseText,
+
+        singleline, doubleline,
 
         printPretty, exportPretty
 
@@ -55,6 +57,11 @@ singleline f = foldr ((<$$>) . f) empty
 doubleline :: (a -> Doc) -> [a] -> Doc
 
 doubleline f = foldr ((<$$>) . (<$$> empty) . f) empty
+
+
+encloseText :: [String] -> Doc
+
+encloseText = hcat . map (text . ('\t' :)) -- encloseSep tab empty tab . map text
 
 
 -- http://www.cas.mcmaster.ca/~kahl/Haskell/Lines/

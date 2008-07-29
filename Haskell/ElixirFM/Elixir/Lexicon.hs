@@ -68,7 +68,7 @@ module Elixir.Lexicon (
 
         listing, include,
 
-        isVerb, isNoun, isAdj, isPron, isPrep, isConj, isPart, isIntj,
+        isVerb, isNoun, isAdj, isPron, isNum, isAdv, isPrep, isConj, isPart, isIntj,
 
         root, ents, domain,
 
@@ -329,6 +329,8 @@ data Entity a = Verb { form :: [Form], perfect', imperfect, imperative :: [a],
               | Noun [Plural a] (Maybe Gender) (Maybe Number) (Maybe String)
               | Adj  [Plural a] [Morphs a]     (Maybe Number)
               | Pron
+              | Num
+              | Adv
               | Prep
               | Conj
               | Part
@@ -337,7 +339,7 @@ data Entity a = Verb { form :: [Form], perfect', imperfect, imperative :: [a],
     deriving Show
 
 
-isVerb, isNoun, isAdj, isPron, isPrep, isConj, isPart, isIntj :: Entity a -> Bool
+isVerb, isNoun, isAdj, isPron, isNum, isAdv, isPrep, isConj, isPart, isIntj :: Entity a -> Bool
 
 isVerb (Verb _ _ _ _ _ _) = True
 isVerb _                  = False
@@ -350,6 +352,12 @@ isAdj _           = False
 
 isPron Pron = True
 isPron _    = False
+
+isNum Num = True
+isNum _   = False
+
+isAdv Adv = True
+isAdv _   = False
 
 isPrep Prep = True
 isPrep _    = False
@@ -397,11 +405,8 @@ adj  m l = Entry (morph m) (Adj [] [] Nothing)               l (TagsAdj  [], [])
 
 pron m l = Entry (morph m) Pron                              l (TagsPron [TagsPronS], [])
 
--- pron = part
-
-num = noun
-adv = noun
-
+num  m l = Entry (morph m) Num  l (TagsNum  [], [])
+adv  m l = Entry (morph m) Adv  l (TagsAdv  [], [])
 prep m l = Entry (morph m) Prep l (TagsPrep [], [])
 conj m l = Entry (morph m) Conj l (TagsConj [], [])
 part m l = Entry (morph m) Part l (TagsPart [], [])
