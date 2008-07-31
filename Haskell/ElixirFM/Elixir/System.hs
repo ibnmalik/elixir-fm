@@ -44,15 +44,17 @@ instance ShowE a => Show (EntVerb a) where
     show (EntVerbC       g n) =    "VC----" ++ concat [showE g, showE n] ++ "--"
 
 
-data EntPron a = EntPronP (a Person) (a Gender) (a Number) (a Case)
+data EntPron a = EntPronS
+               | EntPronP (a Person) (a Gender) (a Number) (a Case)
                | EntPronD            (a Gender) (a Number) (a Case)
                | EntPronR            (a Gender) (a Number) (a Case)
-               | EntPronS
 
     -- deriving Eq -- (Show, Eq)
 
 
 instance ShowE a => Show (EntPron a) where
+
+    show (EntPronS        ) =  "S---------"
 
     show (EntPronP p g n c) =  "SP---" ++
                                concat [showE p, showE g, showE n, showE c] ++ "-"
@@ -60,8 +62,6 @@ instance ShowE a => Show (EntPron a) where
     show (EntPronD   g n c) =  "SD----" ++ concat [showE g, showE n, showE c] ++ "-"
 
     show (EntPronR   g n c) =  "SR----" ++ concat [showE g, showE n, showE c] ++ "-"
-
-    show EntPronS           =  "S---------"
 
 
 class ShowE a where
@@ -161,16 +161,22 @@ data TagsAdj  = TagsAdjA  [Humanness] [Voice]          [Gender] [Number] [Case] 
     deriving Eq
 
 
-data TagsPron = TagsPronP                     [Person] [Gender] [Number] [Case]
+data TagsPron = TagsPronS
+              | TagsPronP                     [Person] [Gender] [Number] [Case]
               | TagsPronD                              [Gender] [Number] [Case]
               | TagsPronR                              [Gender] [Number] [Case]
-              | TagsPronS
 
     deriving Eq
 
 
 data TagsNum  = TagsNumQ
-
+              | TagsNumI                               [Gender]          [Case] [State]
+              | TagsNumX                               [Gender]
+              | TagsNumL                                                 [Case] [State]
+              | TagsNumC                                        [Number] [Case] [State]
+              | TagsNumD                                                 [Case] [State]
+              | TagsNumM                                        [Number] [Case] [State]
+                
     deriving Eq
 
 
@@ -326,32 +332,59 @@ instance Restrict TagsAdj where
 
 instance Restrict TagsPron where
 
-    complete = [TagsPronP [] [] [] [], TagsPronD [] [] [], TagsPronR [] [] [], TagsPronS]
+    complete = [TagsPronS, TagsPronP [] [] [] [], TagsPronD [] [] [], TagsPronR [] [] []]
 
-    restrict (TagsPronP     p g n c) y = [ TagsPronP       p  g  n  c  |
-                                           TagsPronP       p' g' n' c' <- y,
-                                           p <- lets p p', g <- lets g g',
-                                           n <- lets n n', c <- lets c c' ]
+    restrict (TagsPronS        ) y = [ TagsPronS | TagsPronS <- y ]
 
-    restrict (TagsPronD       g n c) y = [ TagsPronD          g  n  c  |
-                                           TagsPronD          g' n' c' <- y,
-                                                           g <- lets g g',
-                                           n <- lets n n', c <- lets c c' ]
+    restrict (TagsPronP p g n c) y = [ TagsPronP       p  g  n  c  |
+                                       TagsPronP       p' g' n' c' <- y,
+                                       p <- lets p p', g <- lets g g',
+                                       n <- lets n n', c <- lets c c' ]
 
-    restrict (TagsPronR       g n c) y = [ TagsPronR          g  n  c  |
-                                           TagsPronR          g' n' c' <- y,
-                                                           g <- lets g g',
-                                           n <- lets n n', c <- lets c c' ]
+    restrict (TagsPronD   g n c) y = [ TagsPronD          g  n  c  |
+                                       TagsPronD          g' n' c' <- y,
+                                                       g <- lets g g',
+                                       n <- lets n n', c <- lets c c' ]
 
-    restrict TagsPronS               y = [ TagsPronS | TagsPronS <- y ]
+    restrict (TagsPronR   g n c) y = [ TagsPronR          g  n  c  |
+                                       TagsPronR          g' n' c' <- y,
+                                                       g <- lets g g',
+                                       n <- lets n n', c <- lets c c' ]
 
 
 instance Restrict TagsNum where
 
-    complete = [TagsNumQ]
+    complete = [TagsNumQ, TagsNumI [] [] [], TagsNumX [],    TagsNumL [] [],
+                          TagsNumC [] [] [], TagsNumD [] [], TagsNumM [] [] []]
 
-    restrict TagsNumQ y = [ TagsNumQ | TagsNumQ <- y ]
+    restrict (TagsNumQ             ) y = [ TagsNumQ | TagsNumQ <- y ]
 
+    restrict (TagsNumI  g   c s) y = [ TagsNumI        g     c  s |
+                                       TagsNumI        g'    c' s' <- y,
+                                                       g <- lets g g',
+                                       c <- lets c c', s <- lets s s' ]
+
+    restrict (TagsNumX  g      ) y = [ TagsNumX        g          |
+                                       TagsNumX        g'          <- y,
+                                                       g <- lets g g' ]
+
+    restrict (TagsNumL      c s) y = [ TagsNumL              c  s |
+                                       TagsNumL              c' s' <- y,
+                                       c <- lets c c', s <- lets s s' ]
+
+    restrict (TagsNumC    n c s) y = [ TagsNumC           n  c  s |
+                                       TagsNumC           n' c' s' <- y,
+                                                       n <- lets n n',
+                                       c <- lets c c', s <- lets s s' ]
+
+    restrict (TagsNumD      c s) y = [ TagsNumD              c  s |
+                                       TagsNumD              c' s' <- y,
+                                       c <- lets c c', s <- lets s s' ]
+
+    restrict (TagsNumM    n c s) y = [ TagsNumM           n  c  s |
+                                       TagsNumM           n' c' s' <- y,
+                                                       n <- lets n n',
+                                       c <- lets c c', s <- lets s s' ]
 
 instance Restrict TagsAdv where
 
@@ -364,7 +397,7 @@ instance Restrict TagsPrep where
 
     complete = [TagsPrepP, TagsPrepI []]
 
-    restrict TagsPrepP     y = [ TagsPrepP | TagsPrepP <- y ]
+    restrict (TagsPrepP  ) y = [ TagsPrepP | TagsPrepP <- y ]
 
     restrict (TagsPrepI c) y = [ TagsPrepI c  |
                                  TagsPrepI c' <- y, c <- lets c c' ]
@@ -422,6 +455,8 @@ instance Show TagsAdj where
 
 instance Show TagsPron where
 
+    show (TagsPronS        ) = "S-" ++ noinflects
+
     show (TagsPronP p g n c) = "SP" ++ concat [noshowlist, noshowlist,
                                                noshowlist, showlist p,
                                                showlist g, showlist n,
@@ -437,11 +472,39 @@ instance Show TagsPron where
                                                showlist g, showlist n,
                                                showlist c, noshowlist]
 
-    show (TagsPronS        ) = "S-" ++ noinflects
-
 instance Show TagsNum where
 
-    show TagsNumQ         = "Q-" ++ noinflects
+    show (TagsNumQ         ) = "Q-" ++ noinflects
+
+    show (TagsNumI  g   c s) = "QI" ++ concat [noshowlist, noshowlist,
+                                               noshowlist, noshowlist,
+                                               showlist g, noshowlist,
+                                               showlist c, showlist s]
+
+    show (TagsNumX  g      ) = "QX" ++ concat [noshowlist, noshowlist,
+                                               noshowlist, noshowlist,
+                                               showlist g, noshowlist,
+                                               noshowlist, noshowlist]
+
+    show (TagsNumL      c s) = "QL" ++ concat [noshowlist, noshowlist,
+                                               noshowlist, noshowlist,
+                                               noshowlist, noshowlist,
+                                               showlist c, showlist s]
+
+    show (TagsNumC    n c s) = "QC" ++ concat [noshowlist, noshowlist,
+                                               noshowlist, noshowlist,
+                                               noshowlist, showlist n,
+                                               showlist c, showlist s]
+
+    show (TagsNumD      c s) = "QD" ++ concat [noshowlist, noshowlist,
+                                               noshowlist, noshowlist,
+                                               noshowlist, noshowlist,
+                                               showlist c, showlist s]
+
+    show (TagsNumM    n c s) = "QM" ++ concat [noshowlist, noshowlist,
+                                               noshowlist, noshowlist,
+                                               noshowlist, showlist n,
+                                               showlist c, showlist s]
 
 instance Show TagsAdv where
 
@@ -449,7 +512,7 @@ instance Show TagsAdv where
 
 instance Show TagsPrep where
 
-    show TagsPrepP           = "P-" ++ noinflects
+    show (TagsPrepP        ) = "P-" ++ noinflects
 
     show (TagsPrepI       c) = "PI" ++ concat [noshowlist, noshowlist,
                                                noshowlist, noshowlist,
@@ -467,7 +530,6 @@ instance Show TagsPart where
 instance Show TagsIntj where
 
     show TagsIntjI        = "I-" ++ noinflects
-
 
 
 newtype TagsTypes = TagsTypes [TagsType] deriving Show
@@ -571,9 +633,11 @@ instance Read TagsPron where
                        (y6, x7) <- readSlot x6, (y7, x8) <- readSlot x7,
                        (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
 
-                       v1 <- if y1 == "-" then "PDR-" else y1,
+                       v1 <- if y1 == "-" then "-PDR" else y1,
 
                        r' <- case v1 of
+
+                                '-' -> [TagsPronS]
 
                                 'P' -> [TagsPronP (readData y5)
                                                   (readData y6)
@@ -588,21 +652,45 @@ instance Read TagsPron where
                                                   (readData y7)
                                                   (readData y8)]
 
-                                '-' -> [TagsPronS]
-
                                 _   -> [] ]
 
 
 instance Read TagsNum where
 
-    readsPrec _ x1 = [ (r, "") |
+    readsPrec _ x1 = [ (r', "") |
                                                 (y1, x2) <- readSlot x1,
                        (y2, x3) <- readSlot x2, (y3, x4) <- readSlot x3,
                        (y4, x5) <- readSlot x4, (y5, x6) <- readSlot x5,
                        (y6, x7) <- readSlot x6, (y7, x8) <- readSlot x7,
                        (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
 
-                       let r =         TagsNumQ ]
+                       v1 <- if y1 == "-" then "-IXLCDM" else y1,
+
+                       r' <- case v1 of
+
+                                '-' -> [TagsNumQ]
+
+                                'I' -> [TagsNumI  (readData y6)
+                                                  (readData y8)
+                                                  (readData y9)]
+
+                                'X' -> [TagsNumX  (readData y6)]
+
+                                'L' -> [TagsNumL  (readData y8)
+                                                  (readData y9)]
+
+                                'C' -> [TagsNumC  (readData y7)
+                                                  (readData y8)
+                                                  (readData y9)]
+
+                                'D' -> [TagsNumD  (readData y8)
+                                                  (readData y9)]
+
+                                'M' -> [TagsNumM  (readData y7)
+                                                  (readData y8)
+                                                  (readData y9)]
+
+                                _   -> [] ]
 
 
 instance Read TagsAdv where
@@ -683,26 +771,6 @@ noshowlist = "-"
 noinflects = replicate 8 '-'
 
 
-{-
-
-newtype Tags = Tags [Tag]               deriving Show
-            -- Tags { unTags :: [Tag] } deriving Show
-
-unTags :: Tags -> [Tag]
-unTags (Tags t) = t
-
-readTags :: String -> [Tag]
-readTags = unTags . read
-
-expandTags :: Tags -> [[String]]
-expandTags = map expandTag . unTags
-
-expandReadTags :: String -> [[String]]
-expandReadTags = map expandTag . readTags
-
--}
-
-
 readData :: (Param a, Show a) => String -> [a]
 
 -- readData x = [ y | y <- values, show' y `elem` x ]
@@ -717,32 +785,6 @@ readSlot [] = []
 readSlot x  = [ ([c], s) | (c, s) <- readLitChar x, c /= '[' ] ++
               [ (c, s) | ('[', z) <- readLitChar x, (c, y) <- lex z,
                          (']', s) <- readLitChar y ]
-
-
-data ParaVerb   = VerbP      Voice Person Gender Number
-                | VerbI Mood Voice Person Gender Number
-                | VerbC                   Gender Number
-    deriving Eq
-
-
-instance Param ParaVerb where
-
-    values  =  [ VerbP   v p g n | v <- values,
-                                   n <- values, p <- values, g <- values ]
-            ++ [ VerbI m v p g n | m <- values, v <- values,
-                                   n <- values, p <- values, g <- values ]
-            ++ [ VerbC       g n | n <- values, g <- values ]
-
-
-instance Show ParaVerb where
-
-    show (VerbP   v p g n) =    "VP-" ++ [show' v] ++ "-" ++
-                                   [show' p, show' g, show' n] ++ "--"
-
-    show (VerbI m v p g n) =    "VI" ++ [show' m, show' v] ++ "-" ++
-                                   [show' p, show' g, show' n] ++ "--"
-
-    show (VerbC       g n) =    "VC----" ++ [show' g, show' n] ++ "--"
 
 
 show' :: Show a => a -> Char
@@ -810,60 +852,6 @@ data Number = Singular
     deriving (Eq, Show, Enum)
 
 instance Param Number   where values = enum
-
-
--- data ParaNoun' = Noun Number Case State deriving (Eq, Show)
-
-
-data ParaNoun   = NounS              Number Case State
-            --- | NounP Voice Gender Number Case State
-            --- | NounA       Gender Number Case State
-    deriving Eq
-
-
-instance Param ParaNoun where
-
-    values  =  [ NounS     n c s | n <- values,
-                                   s <- values, c <- values ]
-            -- ++ [ NounP v g n c s | v <- values, n <- values, g <- values,
-            --                        s <- values, c <- values ]
-            -- ++ [ NounA   g n c s | n <- values, g <- values,
-            --                        s <- values, c <- values ]
-
-
-instance Show ParaNoun where
-
-    show (NounS     n c s) =    show (TagsNounS [] [] [] [n] [c] [s])
-
-                             -- "N------" ++ [show' n, show' c, show' s]
-
- -- show (NounP v g n c s) =    "NP-" ++ [show' v] ++ "--" ++
- --                                 [show' g, show' n, show' c, show' s]
-
- -- show (NounA   g n c s) =    "NA----" ++
- --                                 [show' g, show' n, show' c, show' s]
-
-
-instance Enum ParaNoun where
-    fromEnum x = head [ n | (y, n) <- zip values [0 ..], x == y ]
-    toEnum = (!!) values
-
-
-data ParaAdj    = AdjA       Gender Number Case State
-
-    deriving Eq
-
-
-instance Param ParaAdj where
-
-    values  =  [ AdjA   g n c s | n <- values, g <- values,
-                                  s <- values, c <- values ]
-
-
-instance Show ParaAdj where
-
-    show (AdjA   g n c s) =     "A-----" ++
-                                    [show' g, show' n, show' c, show' s]
 
 
 data Couple a b = a :-: b
@@ -951,33 +939,6 @@ newtype Logical a = Logical a
     deriving (Eq, Show)
 
 
-data ParaPron = PronP Person Gender Number Case
-              | PronD        Gender Number Case
-              | PronR        Gender Number Case
-              | PronS
-
-    deriving Eq
-
-instance Param ParaPron where
-
-    values  =  [ PronP p g n c | n <- values, p <- values,
-                                              g <- values, c <- values ]
-            ++ [ PronD   g n c | n <- values, g <- values, c <- values ]
-            ++ [ PronR   g n c | n <- values, g <- values, c <- values ]
-            ++ [ PronS ]
-
-instance Show ParaPron where
-
-    show (PronP p g n c) =  "SP---" ++
-                               [show' p, show' g, show' n, show' c] ++ "-"
-
-    show (PronD   g n c) =  "SD----" ++ [show' g, show' n, show' c] ++ "-"
-
-    show (PronR   g n c) =  "SR----" ++ [show' g, show' n, show' c] ++ "-"
-
-    show PronS           =  "S---------"
-
-
 {-
 
 data Grade  = Normal | Elative
@@ -989,15 +950,137 @@ instance Param Grade    where values = enum
 -}
 
 
-data ParaNum = NumQ  deriving (Eq, Enum)
+data ParaVerb   = VerbP      Voice Person Gender Number
+                | VerbI Mood Voice Person Gender Number
+                | VerbC                   Gender Number
+    deriving Eq
+
+
+instance Param ParaVerb where
+
+    values  =  [ VerbP   v p g n | v <- values,
+                                   n <- values, p <- values, g <- values ]
+            ++ [ VerbI m v p g n | m <- values, v <- values,
+                                   n <- values, p <- values, g <- values ]
+            ++ [ VerbC       g n | n <- values, g <- values ]
+
+
+instance Show ParaVerb where
+
+    show (VerbP   v p g n) =    "VP-" ++ [show' v] ++ "-" ++
+                                   [show' p, show' g, show' n] ++ "--"
+
+    show (VerbI m v p g n) =    "VI" ++ [show' m, show' v] ++ "-" ++
+                                   [show' p, show' g, show' n] ++ "--"
+
+    show (VerbC       g n) =    "VC----" ++ [show' g, show' n] ++ "--"
+
+
+data ParaNoun   = NounS              Number Case State
+            --- | NounP Voice Gender Number Case State
+            --- | NounA       Gender Number Case State
+    deriving Eq
+
+-- data ParaNoun' = Noun Number Case State deriving (Eq, Show)
+
+
+instance Param ParaNoun where
+
+    values  =  [ NounS     n c s | n <- values,
+                                   s <- values, c <- values ]
+            -- ++ [ NounP v g n c s | v <- values, n <- values, g <- values,
+            --                        s <- values, c <- values ]
+            -- ++ [ NounA   g n c s | n <- values, g <- values,
+            --                        s <- values, c <- values ]
+
+
+instance Show ParaNoun where
+
+    show (NounS     n c s) =    show (TagsNounS [] [] [] [n] [c] [s])
+
+                             -- "N------" ++ [show' n, show' c, show' s]
+
+ -- show (NounP v g n c s) =    "NP-" ++ [show' v] ++ "--" ++
+ --                                 [show' g, show' n, show' c, show' s]
+
+ -- show (NounA   g n c s) =    "NA----" ++
+ --                                 [show' g, show' n, show' c, show' s]
+
+
+instance Enum ParaNoun where
+    fromEnum x = head [ n | (y, n) <- zip values [0 ..], x == y ]
+    toEnum = (!!) values
+
+
+data ParaAdj    = AdjA       Gender Number Case State
+
+    deriving Eq
+
+
+instance Param ParaAdj where
+
+    values  =  [ AdjA   g n c s | n <- values, g <- values,
+                                  s <- values, c <- values ]
+
+
+instance Show ParaAdj where
+
+    show (AdjA   g n c s) =     "A-----" ++
+                                    [show' g, show' n, show' c, show' s]
+
+
+data ParaPron = PronS
+              | PronP Person Gender Number Case
+              | PronD        Gender Number Case
+              | PronR        Gender Number Case
+
+    deriving Eq
+
+instance Param ParaPron where
+
+    values  =  [ PronS ]
+            ++ [ PronP p g n c | n <- values, p <- values,
+                                              g <- values, c <- values ]
+            ++ [ PronD   g n c | n <- values, g <- values, c <- values ]
+            ++ [ PronR   g n c | n <- values, g <- values, c <- values ]
+
+instance Show ParaPron where
+
+    show (PronS        ) =  "S---------"
+    show (PronP p g n c) =  "SP---" ++ [show' p, show' g, show' n, show' c] ++ "-"
+    show (PronD   g n c) =  "SD----" ++ [show' g, show' n, show' c] ++ "-"
+    show (PronR   g n c) =  "SR----" ++ [show' g, show' n, show' c] ++ "-"
+
+
+data ParaNum = NumQ
+             | NumI Gender        Case State
+             | NumX Gender
+             | NumL               Case State
+             | NumC        Number Case State
+             | NumD               Case State
+             | NumM        Number Case State
+
+    deriving Eq
 
 instance Param ParaNum where
 
-    values = [NumQ]
+    values =  [ NumQ ]
+           ++ [ NumI g   c s | g <- values, c <- values, s <- values ]
+           ++ [ NumX g       | g <- values ]
+           ++ [ NumL     c s |              c <- values, s <- values ]
+           ++ [ NumC   n c s | n <- values, c <- values, s <- values ]
+           ++ [ NumD     c s |              c <- values, s <- values ]
+           ++ [ NumM   n c s | n <- values, c <- values, s <- values ]
 
 instance Show ParaNum where
 
-    show NumQ = "Q---------"
+    show (NumQ        ) = "Q---------"
+    show (NumI g   c s) = "QI----" ++ [show' g] ++ "-" ++ [show' c, show' s]
+    show (NumX g      ) = "QX----" ++ [show' g] ++ "---"
+    show (NumL     c s) = "QL------" ++ [show' c, show' s]
+    show (NumC   n c s) = "QC-----" ++ [show' n, show' c, show' s]
+    show (NumD     c s) = "QD------" ++ [show' c, show' s]
+    show (NumM   n c s) = "QM-----" ++ [show' n, show' c, show' s]
 
 
 data ParaAdv = AdvD  deriving (Eq, Enum)
@@ -1022,8 +1105,7 @@ instance Param ParaPrep where
 
 instance Show ParaPrep where
 
-    show PrepP     = "P---------"
-
+    show (PrepP  ) = "P---------"
     show (PrepI c) = "PI------" ++ [show' c] ++ "-"
 
 

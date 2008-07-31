@@ -487,37 +487,123 @@ instance Inflect Lexeme TagsPrep where
 
 instance Inflect Lexeme TagsNum where
 
-    inflect x@(Lexeme r e) y = case y of
+    inflect (Lexeme r e) x | (not . isNum) (entity e) = []
 
-        TagsNumQ                 ->  inflect x [ NumQ ]
+    inflect (Lexeme r e) x@(TagsNumQ         ) = [(ParaNum NumQ, [(r, morphs e)])]
+
+    inflect (Lexeme r e) x@(TagsNumI  g   c s) = [ (y, z) |
+
+            let g' = vals g
+                c' = vals c
+                s' = vals s,
+
+            g <- g',
+
+            let i = inEntry' g Singular e,
+
+            s <- s', c <- c',
+
+            let y = ParaNum (NumI g   c s),
+
+            let z = map (inRules r c s) i ]
+
+    inflect (Lexeme r e) x@(TagsNumX  g      ) = [ (y, z) |
+
+            let g' = vals g,
+
+            g <- g',
+
+            let i = inEntry' g Singular e,
+
+            let y = ParaNum (NumX g      ),
+
+            let z = map (inRules r Accusative (Just False :-: False)) i ]
+
+    inflect (Lexeme r e) x@(TagsNumL      c s) = [ (y, z) |
+
+            let c' = vals c
+                s' = vals s,
+
+            let i = inEntry Singular e,
+
+            s <- s', c <- c',
+
+            let y = ParaNum (NumL     c s),
+
+            let z = map (inRules r c s) i ]
+
+    inflect (Lexeme r e) x@(TagsNumC    n c s) = [ (y, z) |
+
+            let n' = vals n
+                c' = vals c
+                s' = vals s,
+
+            n <- n',
+
+            let i = inEntry n e,
+
+            s <- s', c <- c',
+
+            let y = ParaNum (NumC   n c s),
+
+            let z = map (inRules r c s) i ]
+
+    inflect (Lexeme r e) x@(TagsNumD      c s) = [ (y, z) |
+
+            let c' = vals c
+                s' = vals s,
+
+            let i = inEntry Singular e,
+
+            s <- s', c <- c',
+
+            let y = ParaNum (NumD     c s),
+
+            let z = map (inRules r c s) i ]
+
+    inflect (Lexeme r e) x@(TagsNumM    n c s) = [ (y, z) |
+
+            let n' = vals n
+                c' = vals c
+                s' = vals s,
+
+            n <- n',
+
+            let i = inEntry n e,
+
+            s <- s', c <- c',
+
+            let y = ParaNum (NumM   n c s),
+
+            let z = map (inRules r c s) i ]
 
 
 instance Inflect Lexeme TagsAdv where
 
     inflect x@(Lexeme r e) y = case y of
 
-        TagsAdvD                 ->  inflect x [ AdvD ]
+        TagsAdvD                 ->  inflect x AdvD
 
 
 instance Inflect Lexeme TagsConj where
 
     inflect x@(Lexeme r e) y = case y of
 
-        TagsConjC                ->  inflect x [ ConjC ]
+        TagsConjC                ->  inflect x ConjC
 
 
 instance Inflect Lexeme TagsPart where
 
     inflect x@(Lexeme r e) y = case y of
 
-        TagsPartF                ->  inflect x [ PartF ]
+        TagsPartF                ->  inflect x PartF
 
 
 instance Inflect Lexeme TagsIntj where
 
     inflect x@(Lexeme r e) y = case y of
 
-        TagsIntjI                ->  inflect x [ IntjI ]
+        TagsIntjI                ->  inflect x IntjI
 
 
 instance Inflect Lexeme String where
@@ -916,8 +1002,11 @@ inflectNoun (Lexeme r e) (NounS n c s) = (map (inRules r c s) . inEntry n) e
 
 
 inEntry Plural e = case entity e of Noun l _ _ _ -> l
+                                    Num  l _     -> l
 
 inEntry Dual   e = case entity e of Noun l _ _ _ | null l    -> []
+                                                 | otherwise -> [Right (morphs e |< An)]
+                                    Num  l _     | null l    -> []
                                                  | otherwise -> [Right (morphs e |< An)]
 
 inEntry _ e = [Right (morphs e)]
@@ -960,6 +1049,7 @@ inEntry' Masculine n e = case n of Plural -> y
 
     where y = case entity e of Adj  l _ _ | null l    -> [Right (morphs e |< Un)]
                                           | otherwise -> l
+                               _                      -> []
 
 inEntry' Feminine  n e = case n of Plural | null y    -> [Right (morphs e |< At)]
                                           | otherwise -> [ Right (i |< At) | i <- y ]
@@ -969,6 +1059,8 @@ inEntry' Feminine  n e = case n of Plural | null y    -> [Right (morphs e |< At)
                                           | otherwise -> [ Right i | i <- y ]
 
     where y = case entity e of Adj  _ f _ -> f
+                               Num  _ f   -> f
+                               _          -> []
 
 
 prefix :: Morphing a b => String -> a -> Morphs b
@@ -1211,7 +1303,14 @@ paraPrepI c = case c of
 instance Inflect Lexeme ParaNum where
 
     inflect x@(Lexeme r e) y | (not . isNum) (entity e) = []
-                             | otherwise = [(ParaNum NumQ, [(r, morphs e)])]
+
+    inflect x (NumQ         ) = inflect x (TagsNumQ                )
+    inflect x (NumI  g   c s) = inflect x (TagsNumI [g]     [c] [s])
+    inflect x (NumX  g      ) = inflect x (TagsNumX [g]            )
+    inflect x (NumL      c s) = inflect x (TagsNumL         [c] [s])
+    inflect x (NumC    n c s) = inflect x (TagsNumC     [n] [c] [s])
+    inflect x (NumD      c s) = inflect x (TagsNumD         [c] [s])
+    inflect x (NumM    n c s) = inflect x (TagsNumM     [n] [c] [s])
 
 
 instance Inflect Lexeme ParaAdv where

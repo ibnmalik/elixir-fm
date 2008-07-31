@@ -273,11 +273,12 @@ x <::> y = Entry { morphs = morph x, entity = e, reflex = [], entity' = (d, []) 
                     TagsNoun _ -> entity (noun x [])
                     TagsAdj  _ -> entity (adj  x [])
                     TagsPron _ -> Pron
+                    TagsNum  _ -> entity (num  x [])
+                    TagsAdv  _ -> Adv
                     TagsPrep _ -> Prep
                     TagsConj _ -> Conj
                     TagsPart _ -> Part
                     TagsIntj _ -> Intj
-                    _          -> Intj
 
           d = head ((unTagsTypes . read) y ++ [TagsIntj []])
 
@@ -329,7 +330,7 @@ data Entity a = Verb { form :: [Form], perfect', imperfect, imperative :: [a],
               | Noun [Plural a] (Maybe Gender) (Maybe Number) (Maybe String)
               | Adj  [Plural a] [Morphs a]     (Maybe Number)
               | Pron
-              | Num
+              | Num  [Plural a] [Morphs a]
               | Adv
               | Prep
               | Conj
@@ -353,8 +354,8 @@ isAdj _           = False
 isPron Pron = True
 isPron _    = False
 
-isNum Num = True
-isNum _   = False
+isNum (Num _ _) = True
+isNum _         = False
 
 isAdv Adv = True
 isAdv _   = False
@@ -405,7 +406,8 @@ adj  m l = Entry (morph m) (Adj [] [] Nothing)               l (TagsAdj  [], [])
 
 pron m l = Entry (morph m) Pron                              l (TagsPron [TagsPronS], [])
 
-num  m l = Entry (morph m) Num  l (TagsNum  [], [])
+num  m l = Entry (morph m) (Num [] [])                       l (TagsNum  [], [])
+
 adv  m l = Entry (morph m) Adv  l (TagsAdv  [], [])
 prep m l = Entry (morph m) Prep l (TagsPrep [], [])
 conj m l = Entry (morph m) Conj l (TagsConj [], [])
@@ -477,6 +479,7 @@ femini :: Morphing a b => Entry b -> a -> Entry b
 femini x y = case entity x of
 
                 Adj  z f n   -> x { entity = Adj z (morph y : f) n }
+                Num  z f     -> x { entity = Num z (morph y : f) }
                 _            -> x
 
 
@@ -486,6 +489,7 @@ plural x y = case entity x of
 
                 Noun z g n d -> x { entity = Noun (Right (morph y) : z) g n d }
                 Adj  z f n   -> x { entity = Adj  (Right (morph y) : z) f n }
+                Num  z f     -> x { entity = Num  (Right (morph y) : z) f }
                 _            -> x
 
 
@@ -614,6 +618,8 @@ sumEntryChars = fold ((+) . foldr ((+) . length) 0) 0
 -}
 
 
+genericLexicon :: Lexicon
+
 genericLexicon = listing "Generic lexicon"
 
 {-
@@ -631,6 +637,7 @@ genericLexicon = listing "Generic lexicon"
                <.> "N------S4I" <:> (FuCuL |<< "A")
         ]
 -}
+
 
     |> "l" <| [
 
@@ -751,4 +758,173 @@ genericLexicon = listing "Generic lexicon"
                                                         <:>     "na.hnu"
                             <.>     "SP---1-[DP][24]-"
                                                         <:>     "nA"
+        ]
+
+{-
+
+    |> "" <| [
+
+        
+              
+        ]
+
+
+    |> "" <| [
+              
+        ]
+
+
+    |> "" <| [
+              
+        ]
+
+-}
+
+    |> "` ^s r" <| [
+                    
+        FaCaL |< aT         <::>    "QI--------"
+                                                        <..>    [ "ten" ]
+                            `femini` FaCaL,
+
+        FaCaL |< aT         <::>    "QC--------"
+                                                        <..>    [ "ten, tens" ]
+                            `plural` FaCaL |< At,
+
+        FaCaL               <::>    "QX--------"
+     -- FaCaL               <::>    "Q[IX]--------"
+                                                        <..>    [ "-teen" ]
+                            `femini` FaCL |< aT,
+
+        FiCL |< Un          <::>    "QL--------"
+                                                        <..>    [ "twenty" ]
+        ]
+
+
+    |> "' .h d" <| [
+                    
+        FaCaL               <::>    "QI--------"
+                                                        <..>    [ "one" ]
+                            `femini` FiCLY
+        ]
+
+
+    |> "_t n y" <| [
+                    
+        IFC |< An           <::>    "QI--------"
+                                                        <..>    [ "two" ]
+                            `femini` IFC |< aT |< An
+        ]
+
+
+    |> "_t l _t" <| [
+                    
+        FaCAL |< aT         <::>    "QI--------"
+                                                        <..>    [ "three" ]
+                            `femini` FaCAL,
+
+        FaCAL |< Un         <::>    "QL--------"
+                                                        <..>    [ "thirty" ]
+        ]
+
+
+    |> "r b `" <| [
+                    
+        HaFCaL |< aT        <::>    "QI--------"
+                                                        <..>    [ "four" ]
+                            `femini` HaFCaL,
+
+        HaFCaL |< Un        <::>    "QL--------"
+                                                        <..>    [ "fourty" ]
+        ]
+
+
+    |> "_h m s" <| [
+                    
+        FaCL |< aT          <::>    "QI--------"
+                                                        <..>    [ "five" ]
+                            `femini` FaCL,
+
+        FaCL |< Un          <::>    "QL--------"
+                                                        <..>    [ "fifty" ]
+        ]
+        
+
+    |> "s t t" <| [
+                    
+        FiCL |< aT          <::>    "QI--------"
+                                                        <..>    [ "six" ]
+                            `femini` FiCL,
+
+        FiCL |< Un          <::>    "QL--------"
+                                                        <..>    [ "sixty" ]
+        ]
+
+
+    |> "s b `" <| [
+                    
+        FaCL |< aT          <::>    "QI--------"
+                                                        <..>    [ "seven" ]
+                            `femini` FaCL,
+
+        FaCL |< Un          <::>    "QL--------"
+                                                        <..>    [ "seventy" ]
+        ]
+        
+
+    |> "_t m n" <| [
+                    
+        FaCALI |< aT        <::>    "QI--------"
+                                                        <..>    [ "eight" ]
+                            `femini` FaCALI,
+
+        FaCAL |< Un         <::>    "QL--------"
+                                                        <..>    [ "eighty" ]
+        ]
+        
+
+    |> "t s `" <| [
+                    
+        FiCL |< aT          <::>    "QI--------"
+                                                        <..>    [ "nine" ]
+                            `femini` FiCL,
+
+        FiCL |< Un          <::>    "QL--------"
+                                                        <..>    [ "ninety" ]
+        ]
+
+
+    |> "m '" <| [
+
+        "m_I'" |< aT        <::>    "QC--------"
+                                                        <..>    [ "hundred" ]
+                            `plural` "m_I'" |< At,
+
+        "mi'" |< aT         <::>    "QC--------"
+                                                        <..>    [ "hundred" ]
+                            `plural` "mi'" |< At
+        ]
+
+
+    |> "' l f" <| [
+
+        FaCL                <::>    "QM--------"
+                                                        <..>    [ "thousand" ]
+                            `plural` HACAL
+                            `plural` FuCUL
+        ]
+
+
+    |> "m l y n" <| [
+
+        KiRDUS              <::>    "QM--------"
+                                                        <..>    [ "million" ]
+                            `plural` KaRADIS
+        ]
+
+
+    |> "m l y r" <| [
+
+        KiRDAS              <::>    "QM--------"
+                                                        <..>    [ "milliard", "billion" ]
+                            `plural` KiRDAS |< At
         ]

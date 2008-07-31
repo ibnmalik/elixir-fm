@@ -706,6 +706,8 @@ data PatternT =
     {-- |   FiCL    --}                                 |   FiC
     {-- |   FuCL    --}                                 |   FuC
 
+                                                        |   IFC
+
         |   FaCAL                                       |   FaCA'
         |   FiCAL                                       |   FiCA'
         |   FuCAL                                       |   FuCA'
