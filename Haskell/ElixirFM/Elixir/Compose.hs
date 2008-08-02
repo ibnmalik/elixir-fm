@@ -48,23 +48,52 @@ import Encode.Arabic
 
 -- length $ lines $ show $ generate "--[ISJ]-------" $ lookup ((3269,4)::Index) lexicon
 
+-- generate "--[ISJ]-------" $ lookup ((9909,3)::Index) lexicon
+
 
 generate :: String -> Lexicon -> Doc
 
-generate x y =  vsep [ z | w <- y, z <- unwraps (\ (Nest r z) -> [ pretty (process (inflect (Lexeme r e) x)) | e <- z ]) w ]
+generate x y =  singleline id [ z | let x' = (unTagsTypes . read) x,
+                                    w <- y, z <- unwraps (\ (Nest r z) -> [ (singleline (text . show) . process)
+                                                                            (inflect (Lexeme r e) x) | e <- z, e <- entries e ]) w ]
 
 
 -- process :: Template a => [(Tag, [(Root, Morphs a)])] -> [(String, [Tag])]
 
-process :: Template a => [(Tag, [(Root, Morphs a)])] -> [(String, Int)]
-
-process x = ((\ x -> [ (z, length t) | (z, t) <- x ])
+process x = ((\ x -> [ (z, (map pretty . reverse . nub) t) | (z, t) <- x ])
 
             . Map.toList . Map.fromListWith (++))
 
-            [ (z, [t]) | (t, y) <- x, (r, m) <- y, let z = -- (filter (`notElem` "aiu~o`FNK") . encode Tim . decode TeX)
-                                                           (merge r m) ]
+            [ (z, [(t, continue t)]) | (t, y) <- x, (r, m) <- y, let z = (filter (`notElem` "aiu~o`FNK") . encode Tim . decode TeX)
+                                                                  (merge r m) ]
 
+
+continue :: Tag -> [Maybe String]
+
+continue (ParaVerb _) = [Nothing, Just "SP------4-"]
+
+continue (ParaNoun _) = [Nothing, Just "SP------2-"]
+
+continue (ParaAdj  _) = [Nothing]
+
+continue (ParaPron _) = [Nothing]
+
+continue (ParaNum  (NumI Feminine _ (_ :-: True))) = [Nothing, Just "QC-----S2I",
+                                                               Just "QC-----S2R",
+                                                               Just "QC-----S2A"]
+continue (ParaNum  (NumC _ _ (_ :-: True))) = [Nothing, Just "SP------2-"]
+continue (ParaNum  (NumM _ _ (_ :-: True))) = [Nothing, Just "SP------2-"]
+continue (ParaNum  _) = [Nothing]
+
+continue (ParaAdv  _) = []
+
+continue (ParaPrep _) = []
+
+continue (ParaConj _) = []
+
+continue (ParaPart _) = []
+
+continue (ParaIntj _) = []
 
 
 

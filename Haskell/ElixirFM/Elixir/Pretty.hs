@@ -27,12 +27,14 @@ module Elixir.Pretty (
 
         singleline, doubleline,
 
-        printPretty, exportPretty
+        printPretty, exportPretty, exportFilePretty,
 
     ) where
 
 
 import Text.PrettyPrint.Leijen
+
+import System.IO
 
 import Version
 
@@ -44,9 +46,18 @@ printPretty :: Pretty a => a -> IO ()
 printPretty = print . pretty
 
 
-exportPretty :: Pretty a => a -> String
+exportPretty :: Doc -> String
 
-exportPretty = flip displayS "" . renderPretty 0.4 200 . pretty
+exportPretty = flip displayS "" . renderPretty 0.4 200
+
+
+exportFilePretty :: String -> Doc -> IO ()
+
+exportFilePretty x y = do h <- openFile x WriteMode
+                          displayIO h (renderPretty 0.4 200 y)
+                          hClose h
+
+                       -- withFile x WriteMode (flip displayIO (renderPretty 0.4 200 y))
 
 
 singleline :: (a -> Doc) -> [a] -> Doc
