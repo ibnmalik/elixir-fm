@@ -37,4 +37,4 @@ version = Version [1, 1, build] []
 
 
 
-main = exportFilePretty "compose.dat" $ generate "--[ISJ]-------" $ lexicon
+main = putDoc $ generate "--[ISJ]-------" $ lexicon

@@ -149,7 +149,8 @@ rewrite :: Tag -> Maybe String -> Char -> [String]
 
 rewrite _ Nothing               x = [[x]]
 
-rewrite (ParaVerb (VerbP _ Third Masculine Plural)) (Just _) 'A' = [""]
+rewrite (ParaVerb (VerbP _ Second Masculine Plural)) (Just _) 'm' = ["mw"]
+rewrite (ParaVerb (VerbP _ Third  Masculine Plural)) (Just _) 'A' = [""]
 
 rewrite (ParaVerb (VerbI Subjunctive _ Second Masculine Plural)) (Just _) 'A' = [""]
 rewrite (ParaVerb (VerbI Subjunctive _ Third  Masculine Plural)) (Just _) 'A' = [""]
