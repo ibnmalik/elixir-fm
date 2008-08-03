@@ -782,8 +782,9 @@ readData x = [ y | let v = map (\ z -> (show' z, z)) values,
 readSlot :: ReadS String
 
 readSlot [] = []
-readSlot x  = [ ([c], s) | (c, s) <- readLitChar x, c /= '[' ] ++
-              [ (c, s) | ('[', z) <- readLitChar x, (c, y) <- lex z,
+readSlot x  = [ ([c], s) | (c, s) <- readLitChar x, c /= '[', c /= ']' ] ++
+              [ (c, s) | ('[', z) <- readLitChar x,
+                           (c, y) <- lex z, not (null y),
                          (']', s) <- readLitChar y ]
 
 

@@ -31,7 +31,6 @@ import Elixir.Lexicon
 import Elixir.Template
 
 import Elixir.Pretty hiding (group)
-import qualified Elixir.Pretty as Pretty (group)
 
 import Encode
 import Encode.Arabic
