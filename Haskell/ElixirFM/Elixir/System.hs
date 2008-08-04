@@ -171,7 +171,9 @@ data TagsPron = TagsPronS
 
 data TagsNum  = TagsNumQ
               | TagsNumI                               [Gender]          [Case] [State]
-              | TagsNumX                               [Gender]
+              | TagsNumV                               [Gender]          [Case] [State]
+              | TagsNumX                               [Gender]          [Case] [State]
+              | TagsNumY                               [Gender]
               | TagsNumL                                                 [Case] [State]
               | TagsNumC                                        [Number] [Case] [State]
               | TagsNumD                                                 [Case] [State]
@@ -354,8 +356,9 @@ instance Restrict TagsPron where
 
 instance Restrict TagsNum where
 
-    complete = [TagsNumQ, TagsNumI [] [] [], TagsNumX [],    TagsNumL [] [],
-                          TagsNumC [] [] [], TagsNumD [] [], TagsNumM [] [] []]
+    complete = [TagsNumQ, TagsNumI [] [] [], TagsNumV [] [] [],
+                          TagsNumX [] [] [], TagsNumY [],       TagsNumL [] [],
+                          TagsNumC [] [] [], TagsNumD [] [],    TagsNumM [] [] []]
 
     restrict (TagsNumQ             ) y = [ TagsNumQ | TagsNumQ <- y ]
 
@@ -364,8 +367,18 @@ instance Restrict TagsNum where
                                                        g <- lets g g',
                                        c <- lets c c', s <- lets s s' ]
 
-    restrict (TagsNumX  g      ) y = [ TagsNumX        g          |
-                                       TagsNumX        g'          <- y,
+    restrict (TagsNumV  g   c s) y = [ TagsNumV        g     c  s |
+                                       TagsNumV        g'    c' s' <- y,
+                                                       g <- lets g g',
+                                       c <- lets c c', s <- lets s s' ]
+
+    restrict (TagsNumX  g   c s) y = [ TagsNumX        g     c  s |
+                                       TagsNumX        g'    c' s' <- y,
+                                                       g <- lets g g',
+                                       c <- lets c c', s <- lets s s' ]
+
+    restrict (TagsNumY  g      ) y = [ TagsNumY        g          |
+                                       TagsNumY        g'          <- y,
                                                        g <- lets g g' ]
 
     restrict (TagsNumL      c s) y = [ TagsNumL              c  s |
@@ -481,7 +494,17 @@ instance Show TagsNum where
                                                showlist g, noshowlist,
                                                showlist c, showlist s]
 
-    show (TagsNumX  g      ) = "QX" ++ concat [noshowlist, noshowlist,
+    show (TagsNumV  g   c s) = "QV" ++ concat [noshowlist, noshowlist,
+                                               noshowlist, noshowlist,
+                                               showlist g, noshowlist,
+                                               showlist c, showlist s]
+
+    show (TagsNumX  g   c s) = "QX" ++ concat [noshowlist, noshowlist,
+                                               noshowlist, noshowlist,
+                                               showlist g, noshowlist,
+                                               showlist c, showlist s]
+
+    show (TagsNumY  g      ) = "QY" ++ concat [noshowlist, noshowlist,
                                                noshowlist, noshowlist,
                                                showlist g, noshowlist,
                                                noshowlist, noshowlist]
@@ -664,7 +687,7 @@ instance Read TagsNum where
                        (y6, x7) <- readSlot x6, (y7, x8) <- readSlot x7,
                        (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
 
-                       v1 <- if y1 == "-" then "-IXLCDM" else y1,
+                       v1 <- if y1 == "-" then "-IVXYLCDM" else y1,
 
                        r' <- case v1 of
 
@@ -674,7 +697,15 @@ instance Read TagsNum where
                                                   (readData y8)
                                                   (readData y9)]
 
-                                'X' -> [TagsNumX  (readData y6)]
+                                'V' -> [TagsNumV  (readData y6)
+                                                  (readData y8)
+                                                  (readData y9)]
+
+                                'X' -> [TagsNumX  (readData y6)
+                                                  (readData y8)
+                                                  (readData y9)]
+
+                                'Y' -> [TagsNumY  (readData y6)]
 
                                 'L' -> [TagsNumL  (readData y8)
                                                   (readData y9)]
@@ -1055,7 +1086,9 @@ instance Show ParaPron where
 
 data ParaNum = NumQ
              | NumI Gender        Case State
-             | NumX Gender
+             | NumV Gender        Case State
+             | NumX Gender        Case State
+             | NumY Gender
              | NumL               Case State
              | NumC        Number Case State
              | NumD               Case State
@@ -1067,7 +1100,9 @@ instance Param ParaNum where
 
     values =  [ NumQ ]
            ++ [ NumI g   c s | g <- values, c <- values, s <- values ]
-           ++ [ NumX g       | g <- values ]
+           ++ [ NumV g   c s | g <- values, c <- values, s <- values ]
+           ++ [ NumX g   c s | g <- values, c <- values, s <- values ]
+           ++ [ NumY g       | g <- values ]
            ++ [ NumL     c s |              c <- values, s <- values ]
            ++ [ NumC   n c s | n <- values, c <- values, s <- values ]
            ++ [ NumD     c s |              c <- values, s <- values ]
@@ -1077,7 +1112,9 @@ instance Show ParaNum where
 
     show (NumQ        ) = "Q---------"
     show (NumI g   c s) = "QI----" ++ [show' g] ++ "-" ++ [show' c, show' s]
-    show (NumX g      ) = "QX----" ++ [show' g] ++ "---"
+    show (NumV g   c s) = "QV----" ++ [show' g] ++ "-" ++ [show' c, show' s]
+    show (NumX g   c s) = "QX----" ++ [show' g] ++ "-" ++ [show' c, show' s]
+    show (NumY g      ) = "QY----" ++ [show' g] ++ "---"
     show (NumL     c s) = "QL------" ++ [show' c, show' s]
     show (NumC   n c s) = "QC-----" ++ [show' n, show' c, show' s]
     show (NumD     c s) = "QD------" ++ [show' c, show' s]

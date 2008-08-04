@@ -507,7 +507,39 @@ instance Inflect Lexeme TagsNum where
 
             let z = map (inRules r c s) i ]
 
-    inflect (Lexeme r e) x@(TagsNumX  g      ) = [ (y, z) |
+    inflect (Lexeme r e) x@(TagsNumV  g   c s) = [ (y, z) |
+
+            let g' = vals g
+                c' = vals c
+                s' = vals s,
+
+            g <- g',
+
+            let i = inEntry' g Singular e,
+
+            s <- s', c <- c',
+
+            let y = ParaNum (NumV g   c s),
+
+            let z = map (inRules r c s) i ]
+
+    inflect (Lexeme r e) x@(TagsNumX  g   c s) = [ (y, z) |
+
+            let g' = vals g
+                c' = vals c
+                s' = vals s,
+
+            g <- g',
+
+            let i = inEntry' g Singular e,
+
+            s <- s', c <- c',
+
+            let y = ParaNum (NumX g   c s),
+
+            let z = map (inRules r c s) i ]
+
+    inflect (Lexeme r e) x@(TagsNumY  g      ) = [ (y, z) |
 
             let g' = vals g,
 
@@ -515,7 +547,7 @@ instance Inflect Lexeme TagsNum where
 
             let i = inEntry' g Singular e,
 
-            let y = ParaNum (NumX g      ),
+            let y = ParaNum (NumY g      ),
 
             let z = map (inRules r Accusative (Just False :-: False)) i ]
 
@@ -610,8 +642,8 @@ instance Inflect Lexeme String where
 
     inflect x@(Lexeme r e) y = inflect x (restrict t u)
 
-                where t = fst (entity' e)
-                      u = unTagsTypes (read y)
+                where t = domain e
+                      u = (unTagsTypes . read) y
 
 {-
     inflect x@(Lexeme r e) y | isVerb et = inflect x [ z | z@(TagsVerb _) <- (unTagsTypes . read) y ]
@@ -1306,7 +1338,9 @@ instance Inflect Lexeme ParaNum where
 
     inflect x (NumQ         ) = inflect x (TagsNumQ                )
     inflect x (NumI  g   c s) = inflect x (TagsNumI [g]     [c] [s])
-    inflect x (NumX  g      ) = inflect x (TagsNumX [g]            )
+    inflect x (NumV  g   c s) = inflect x (TagsNumV [g]     [c] [s])
+    inflect x (NumX  g   c s) = inflect x (TagsNumX [g]     [c] [s])
+    inflect x (NumY  g      ) = inflect x (TagsNumY [g]            )
     inflect x (NumL      c s) = inflect x (TagsNumL         [c] [s])
     inflect x (NumC    n c s) = inflect x (TagsNumC     [n] [c] [s])
     inflect x (NumD      c s) = inflect x (TagsNumD         [c] [s])
