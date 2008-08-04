@@ -24,12 +24,11 @@ import Prelude hiding (lookup)
 
 import Data.List hiding (lookup)
 
-import Elixir.System
+import Elixir.System hiding (list)
 import Elixir.Inflect
 import Elixir.Lookup
 
 import Elixir.Data.Lexicons
-       -- Elixir.Data.Effective
 
 import Elixir.Lexicon
 import Elixir.Template
@@ -42,7 +41,6 @@ import Encode.Arabic
 
 -- concat [ unwraps (\ (Nest r e) -> [print r, print (map (\ x -> pretty (inflect (r <-> x) (expand (domain x))) ) e) ]) l | l <- take 1 $ drop 3389 lexicon ]
 
-
 -- generate "-------S--" $ lookup ((3390,1)::Index) lexicon
 
 -- length $ lines $ show $ generate "--[ISJ]-------" $ lookup ((3269,4)::Index) lexicon
@@ -52,40 +50,48 @@ import Encode.Arabic
 
 generate :: String -> Lexicon -> Doc
 
-generate x y = singleline id [ z | let x' = (unTagsTypes . read) x,
-                                   w <- y, z <- unwraps (\ (Nest r z) -> [ (((<$$>) 
+generate x y = doubleline id [ z | let x' = (unTagsTypes . read) x,
+                                   (w, n) <- zip y [1 ..], z <- unwraps (\ (Nest r z) -> [ (list . (:) 
                                    
-                                    (text "::" <> 
-                                     encloseText [merge r (morphs e), show r, show (morphs e), show (reflex e), show (entity e)]) )
+                                    ((list . map text) [show (merge r (morphs e)), show r, (show . show) (morphs e),
+                                                        show (reflex e), (show . show) (entity e), show (n, m)])
 
-                                    . singleline (text . show) . process)
+                                    . map (text . show) . process)
                                     
-                                    (inflect (Lexeme r e) x) | e <- z, e <- entries e ]) w ]
+                                    (inflect (Lexeme r e) (restrict (domain e) x')) | (e, m) <- zip z [1 ..], e <- entries e ]) w ]
 
 
--- process :: Template a => [(Tag, [(Root, Morphs a)])] -> [(String, [Tag])]
-
-process x = ((\ x -> [ (z, (map (\ (x, y) -> (x, map pretty y)) . Map.toList . Map.map nub . Map.fromListWith (++)) t) | (z, t) <- x ])
+process x = (map (\ (i, x) -> (i, (map (\ (c, y) -> (c, (map (\ (m, z) -> (m, (reverse . nub . map (\ (p, s, t) -> (p, s, (show . pretty) t))) z))
+                                                                          
+                                                        . Map.toList . Map.fromListWith (++)) y))
+                                   
+                                    . Map.toList . Map.fromListWith (++)) x))
 
             . Map.toList . Map.fromListWith (++))
 
-            [ (i ++ w, [(c, [t])]) | (t, y) <- x, (r, m) <- y,
+            [ (i ++ w, [(c, [(show (Morphs t p' s'), [(p'', s'', v)])])]) | (v, y) <- x, (r, m) <- y,
 
-                c <- continue t,
+                c <- continue v,
 
                 let z = (filter (`notElem` "aiu~o`FNK") . encode Tim . decode TeX)
                         (if c == Just "SP---1-S2-" then merge r (Morphs t p n) else merge r m)
 
-                        where Morphs t p s = m
-                              n = case s of Suffix "U"  : x -> x
-                                            Suffix "I"  : x -> x
-                                            Suffix "ay" : x -> x
-                                            _               -> s
+                    Morphs t p s = m
+                                   
+                    n = case s of Suffix "U"  : x -> x
+                                  Suffix "I"  : x -> x
+                                  Suffix "ay" : x -> x
+                                  _               -> s
+
+                    (p'', p') = if null p then (Nothing, []) else (Just (case head p of Prefix x -> show x
+                                                                                        x        -> show x), tail p)
+                    (s'', s') = if null s then (Nothing, []) else (Just (case head s of Suffix x -> show x
+                                                                                        x        -> show x), tail s)
 
                     i = init z
-                    l = last z, 
+                    l = last z,
 
-                w <- rewrite t c l ]
+                w <- rewrite v c l ]
 
 
 continue :: Tag -> [Maybe String]
@@ -108,7 +114,7 @@ continue (ParaAdj  _) = [Nothing]
 
 continue (ParaPron _) = [Nothing]   -- in modern language
 
-continue (ParaNum  (NumI Feminine _ (Nothing :-: True))) = [Nothing, Just "QC-----S2I",
+continue (ParaNum  (NumV Feminine _ (Nothing :-: True))) = [Nothing, Just "QC-----S2I",
                                                                      Just "QC-----S2R",
                                                                      Just "QC-----S2A"]
 continue (ParaNum  (NumC _ _ (Nothing :-: True))) = [Nothing, Just "SP---1-S2-",
@@ -136,13 +142,6 @@ continue (ParaConj _) = [Nothing, Just "----------"]
 continue (ParaPart _) = [Nothing, Just "SP------4-"]
 
 continue (ParaIntj _) = [Nothing, Just "SP------2-"]
-
-
-{-
-insert :: Tag -> String -> [String]
-
-insert (ParaPrep _) "li" = [""]
--}
 
 
 rewrite :: Tag -> Maybe String -> Char -> [String]
@@ -174,17 +173,3 @@ rewrite _ (Just _)            'I' = ["I", "W", "}"]
 rewrite _ (Just _)            'W' = ["W", "}"]
 
 rewrite _ _                     x = [[x]]
-
-
-{-
-    tokenize x = [[x]] ++ [ ["wa", y] | 'w' : 'a' : y <- [x] ] ++ [ ["w", y] | 'w' : y <- [x] ] ++
-             if "mi'aTiN" `isSuffixOf` x then [[reverse y, reverse z]] else []
-             ++
-             if "y" `isSuffixOf` x then [[init x, "y"], [init (init x) ++ "U", "y"]] else []
-
-             where (z, y) = splitAt 7 (reverse x)
-
--}
-
-
-testtext = words "wa fI milaffi al-'adabi .tara.hat al-ma^gallaTu qa.dIyaTa al-lu.gaTi al-`arabIyaTi wa al-'a_h.tAri allatI tuhaddidu hA. \\cap wa yarY al-qA'imUna `alY al-milaffi 'anna mA tata`arra.du la hu al-lu.gaTu al-`arabIyaTu la hu 'ahdAfuN mu.haddadaTuN min hA 'ib`Adu al-`arabi `an lu.gaTi him wa muzA.hamaTu al-lu.gAti al-.garbIyaTi la hA wa huwa mA ya`nI .du`fa a.s-.silaTi bi hA wa mu.hAwalaTu 'izA.haTi al-lu.gaTi al-fu.s.hY bi kulli al-wasA'ili wa 'i.hlAli al-laha^gAti al-mu_htalifaTi fI al-bilAdi al-`arabIyaTi ma.halla hA."

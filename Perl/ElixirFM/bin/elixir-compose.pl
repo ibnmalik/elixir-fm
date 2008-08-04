@@ -2,20 +2,20 @@
 
 use Data::Dumper;
 
-$Data::Dumper::Sortkeys = 1;
-$Data::Dumper::Indent = 1;
+$Data::Dumper::Indent = 0;
 $Data::Dumper::Terse = 1;
 
 use strict;
 
-our $data = [];
-our %data = ();
-
-our $idx = 0;
+our %hash = ();
+our %list = ();
+our %idx = ();
 
 our $line;
 
 print << 'PL';
+
+package ElixirFM::Data::Compose;
 
 use Data::Dumper;
 
@@ -57,103 +57,109 @@ foreach my $lexeme (@{$data}) {
     $idx++;
 }
 
-foreach my $string (keys %{$auto}) {
 
-    print Data::Dumper->Dump([$string]);
-
-    print "\t=> ";
-
-    print Data::Dumper->Dump([$auto->{$string}]);
-
-    print ",\n";
-}
+print "%s\t=> %s,\n", Data::Dumper->Dump([$_]), Data::Dumper->Dump([$auto->{$_}]) foreach keys %{$auto};
 
 
 print << 'PM';
 
 };
 
+$lexs = [
+    
 PM
 
-$Data::Dumper::Indent = 1;
-$Data::Dumper::Terse = 0;
 
-print Data::Dumper->Dump([$lexs], ['lexs']);
-
-print "\n";
-
-print Data::Dumper->Dump([$tags], ['tags']);
+printf "%s,\n", Data::Dumper->Dump([$_]) foreach @{$lexs};
+    
 
 print << 'PM';
 
-    return $auto, $tags, $lexs;
+};
+
+$tags = [
+    
+PM
+
+
+printf "%s,\n", Data::Dumper->Dump([$_]) foreach @{$tags};
+    
+
+print << 'PM';
+
+    return $auto, $lexs, $tags;
 }
 
 1;
 
 PM
 
-sub Nothing () {
-
-    return undef;
-}
-
-sub Just ($) {
-
-    return $_[0];
-}
 
 sub data {
 
     return [
-
+        
 PL
 
+
+sub Nothing () {
+    
+    return undef;
+}
+
+sub Just ($) {
+    
+    return $_[0];
+}
+
+
+local $/ = "";
 
 while ($line = <>) {
 
     chomp $line;
         
-    if ($line =~ /^\:\:/) {
+    if ($line =~ /^\[/ and $line =~ /\]$/) {
 
-        print "[ ";
+        $line =~ s/\$/\\\$/g;
         
-        my @line = split /\t/, $line;
+        my $data = eval $line;
 
-        shift @line;
+        printf "[%s", Data::Dumper->Dump([$data->[0]]);
         
-        $line[2] =~ s/\"/\\\"/g;
-        $line[4] =~ s/\"/\\\"/g;
-        
-        printf "[\t\"%s\",\n\t%s,\n\t\"%s\",\n\t%s,\n\t\"%s\"\t]", @line;
-    }
-    elsif ($line =~ /^\(\"/) {
+        for (my $i = 1; $i < @{$data}; $i += 2) {
 
-        print ",\n";
+            printf ",\n%s, [", Data::Dumper->Dump([$data->[$i]]);
 
-        my @tags = split /\[(?!\()|(?<!\))\]/, $line;
+            for (my $j = 0; $j < @{$data->[$i + 1]}; $j += 2) {
 
-        $tags[0] =~ s/\$/\\\$/g;
-        
-        foreach my $one (grep { $_ % 2 } 0 .. @tags - 1) {
+                print "," if $j > 0;
+                
+                printf "\n\t%12s, [", Data::Dumper->Dump([$data->[$i + 1][$j]]);
 
-            $data{$tags[$one]} = $idx++ unless exists $data{$tags[$one]};
-            
-            $tags[$one] = $data{$tags[$one]};
+                foreach (my $k = 0; $k < @{$data->[$i + 1][$j + 1]}; $k += 2) {
+
+                    my $tags = Data::Dumper->Dump([$data->[$i + 1][$j + 1][$k + 1]]);
+
+                    $hash{'tags'}{$tags} = $idx{'tags'}++ unless exists $hash{'tags'}{$tags};
+
+                    print ", " if $k > 0;
+                        
+                    printf "%s, %s", Data::Dumper->Dump([$data->[$i + 1][$j + 1][$k]]),
+                                    $hash{'tags'}{$tags};
+                }
+
+                printf "]";
+            }
+
+            print "\t]";
         }
-
-        print join "", @tags;
-    }
-    else {
-
-        print "\t],\n\n";
+     
+        print "],\n\n";
     }
 }
 
     
-print "\n\n";
-
-
 print << 'PL';
 
     ]
@@ -161,24 +167,34 @@ print << 'PL';
 
 sub tags {
 
-    return
+    return [
 
 PL
 
 
-foreach my $one (keys %data) {
+foreach my $one (keys %{$hash{'tags'}}) {
 
-    my @tags = split ',', $one;
-    
-    $data->[$data{$one}] = [@tags];
+    my $tags = eval $one;
+
+    for (my $i = 0; $i < @{$tags}; $i += 3) {
+
+        push @{$list{'tags'}[$hash{'tags'}{$one}]}, [ @{$tags}[$i + 2, $i, $i + 1] ];
+    }
 }
 
-    
-print Data::Dumper->Dump([$data]);
+for (my $i = 0; $i < @{$list{'tags'}}; $i++) {
+
+    printf "# %d\n", $i;
+
+    print "[", join ",\n ", map { Data::Dumper->Dump([$_]) } @{$list{'tags'}[$i]};
+
+    print "],\n\n";
+}
 
     
 print << 'PL';
 
+    ]
 }
 
 1;
