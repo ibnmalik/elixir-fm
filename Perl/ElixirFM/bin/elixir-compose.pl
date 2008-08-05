@@ -167,16 +167,16 @@ while ($line = <>) {
 
             printf ",\n%s, [", Data::Dumper->Dump([$data->[$i]]);
 
+            my %assoc = ();
+            
             for (my $j = 0; $j < @{$data->[$i + 1]}; $j += 2) {
 
                 my $cont = Data::Dumper->Dump([$data->[$i + 1][$j]]);
 
                 $hash{'cont'}{$cont} = $idx{'cont'}++ unless exists $hash{'cont'}{$cont};
 
-                print "," if $j > 0;
-
-                printf "\n\t%d, [", $hash{'cont'}{$cont};
-
+                my @accum = ();
+                
                 for (my $k = 0; $k < @{$data->[$i + 1][$j + 1]}; $k += 2) {
 
                     my $tmpl = Data::Dumper->Dump([$data->[$i + 1][$j + 1][$k]]);
@@ -185,14 +185,17 @@ while ($line = <>) {
                     $hash{'tmpl'}{$tmpl} = $idx{'tmpl'}++ unless exists $hash{'tmpl'}{$tmpl};
                     $hash{'tags'}{$tags} = $idx{'tags'}++ unless exists $hash{'tags'}{$tags};
 
-                    print ", " if $k > 0;
-
-                    printf "%d, %d", $hash{'tmpl'}{$tmpl}, $hash{'tags'}{$tags};
+                    push @accum, $hash{'tmpl'}{$tmpl}, $hash{'tags'}{$tags};
                 }
 
-                printf "]";
+                $assoc{join ", ", @accum} = [] unless exists $assoc{join ", ", @accum};
+                
+                push @{$assoc{join ", ", @accum}}, $hash{'cont'}{$cont};
             }
 
+            print join ",", map { sprintf "\n\t[%s], [%s]", (join ", ", @{$assoc{$_}}), $_ }
+                            sort { $assoc{$a}[0] <=> $assoc{$b}[0] } keys %assoc;
+            
             print "\t]";
         }
 
