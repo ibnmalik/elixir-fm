@@ -45,7 +45,7 @@ sub cling {
     my $text = $_[0];
 
     $text =~ tr[ ][]d;
-    
+
     return $text;
 }
 
@@ -83,41 +83,43 @@ our $tagset = [
 	"S" => "subjunctive",
 	"J" => "jussive",
 	"E" => "energetic" } ],
-    
+
     [ "voice",
       { "A" => "active",
-	"P" => "passive" } ], 
-    
+	"P" => "passive" } ],
+
     [ "", {} ],
-    
+
     [ "person",
       { "1" => "first",
 	"2" => "second",
 	"3" => "third" } ],
-    
+
     [ "gender",
       { "M" => "masculine",
 	"F" => "feminine" } ],
-    
+
     [ "number",
       { "S" => "singular",
 	"D" => "dual",
 	"P" => "plural" } ],
-    
+
     [ "case",
       { "1" => "nominative",
 	"2" => "genitive",
 	"4" => "accusative" } ],
-    
+
     [ "state",
       { "I" => "indefinite",
 	"D" => "definite",
 	"R" => "reduced/construct",
 	"A" => "absolute/negative",
 	"C" => "complex/overdetermined",
-	"L" => "lifted/underdetermined" } ] 
-    
+	"L" => "lifted/underdetermined" } ]
+
     ];
+
+our $dims = scalar @{$tagset};
 
 sub describe {
 
@@ -134,7 +136,7 @@ sub describe {
                ($tag[1] ne "-" && exists $tagset->[0][1]{$tag[0] . $tag[1]} ? $tagset->[0][1]{$tag[0] . $tag[1]} : ()),
 	       grep { $_ ne '' }
  	       map { exists $tagset->[$_][1]{$tag[$_]} ? $tagset->[$_][1]{$tag[$_]} . " " . $tagset->[$_][0] : '' }
-	       2 .. 9;
+	       2 .. $dims - 1;
     }
 }
 
@@ -142,7 +144,7 @@ sub retrieve {
 
     my @word = split ' ', $_[0];
 
-    my @tag = ([], [], [], [], [], [], [], [], [], []);
+    my @tag = map { [] } 1 .. $dims;
 
     my @tags = ();
 
@@ -195,7 +197,7 @@ sub retrieve {
 	$one =~ /^nom/i             and push @{$tag[8]}, '1' and next;
 	$one =~ /^gen/i             and push @{$tag[8]}, '2' and next;
 	$one =~ /^acc/i             and push @{$tag[8]}, '4' and next;
-	$one =~ /^obl/i             and push @{$tag[8]}, '2', 
+	$one =~ /^obl/i             and push @{$tag[8]}, '2',
                                                          '4' and next;
 
 	$one =~ /^ind[ef]/i         and push @{$tag[9]}, 'I' and next;
@@ -214,13 +216,13 @@ sub retrieve {
 
 	if (@slot > 0) {
 
-	    if (@slot > 10) {
+	    if (@slot > $dims) {
 
-		splice @slot, 10, (@slot - 10);
+		splice @slot, $dims, (@slot - $dims);
 	    }
 	    else {
 
-		push @slot, ('-') x (10 - @slot);
+		push @slot, ('-') x ($dims - @slot);
 	    }
 
 	    push @tags, join "", @slot;
@@ -229,9 +231,17 @@ sub retrieve {
 
     my $tag = join "", map { @{$_} == 0 ? '-' : @{$_} == 1 ? $_->[0] : '[' . (join '', @{$_}) . ']' } @tag;
 
-    push @tags, $tag unless $tag eq '-' x 10;
+    push @tags, $tag unless $tag eq '-' x $dims;
 
     return @tags;
+}
+
+sub restrict {
+
+    my @restrict = split //, length $_[0] == $dims ? $_[0] : '-' x $dims;
+    my @inherit = split //, $_[1];
+
+    return join '', map { $restrict[$_] eq '-' && defined $inherit[$_] ? $inherit[$_] : $restrict[$_] } 0 .. $#restrict;
 }
 
 # ##################################################################################################
@@ -243,19 +253,19 @@ use subs 'foldr', 'foldl';
 sub foldr (&$@) {
 
     my ($fun, $nil, @lst) = @_;
-    
+
     return $nil unless @lst;
-    
-    return $fun->($lst[0], foldr $fun, $nil, @lst[1 .. @lst - 1]); 
+
+    return $fun->($lst[0], foldr $fun, $nil, @lst[1 .. @lst - 1]);
 }
 
 sub foldl (&$@) {
 
     my ($fun, $nil, @lst) = @_;
-    
+
     return $nil unless @lst;
-    
-    return foldl $fun, $fun->($nil, $lst[0]), @lst[1 .. @lst - 1]; 
+
+    return foldl $fun, $fun->($nil, $lst[0]), @lst[1 .. @lst - 1];
 }
 
 sub merge {
@@ -267,7 +277,7 @@ sub merge {
     my $prefixes = sub { foldr { mergePrefix($_[0], $_[1]) } $_[0], @{$morphs->[1]} };
 
     my $suffixes = sub { foldl { (substr $_[0], 0, -1) . mergeSuffix(
-                                 (substr $_[0], -1, 1), $_[1]) 
+                                 (substr $_[0], -1, 1), $_[1])
                                                            } $_[0], @{$morphs->[-1]} };
 
     return $prefixes->($suffixes->(interlock($morphs->[0], split ' ', $root)));
@@ -349,16 +359,16 @@ sub interlock {
 
         return $1;
     }
-    
+
     if (@root == 1 and $pattern eq 'Identity') {
 
         return $root[0];
-    }        
+    }
     elsif (@root == 3) {
 
         $pattern =~ s/Ft/assimVIII($root[0])/e;
         $pattern =~ s/[nN]F/assimVII($root[0])/e;
-        
+
         $pattern =~ s/F/$root[0]/g;
         $pattern =~ s/C/$root[1]/g;
         $pattern =~ s/L/$root[2]/g;
@@ -400,18 +410,18 @@ our @moony = ( "'", "b", "^g", ".h", "_h", "`", ".g",
 sub mergePrefix {
 
     my $p = $_[0];
-    my $y = substr $_[1], 0, 1; 
-    my $s = substr $_[1], 1; 
+    my $y = substr $_[1], 0, 1;
+    my $s = substr $_[1], 1;
 
     my ($x, $l);
-    
+
     if ($_[0] =~ /^[Aa]l$/) {
 
         ($l) = grep { $_[1] =~ /^\Q$_/ } @sunny;
 
         return "a" . ( defined $l ? $l : $_[1] =~ /^i/ ? "l-i" : "l" ) . "-" . $_[1];
     }
-    
+
     return "'A" . $s if $p eq "\"'a\"" and $y eq '\'' and isClosed($s);
     return "'U" . $s if $p eq "\"'u\"" and $y eq '\'' and isClosed($s);
 
@@ -423,7 +433,7 @@ sub mergePrefix {
 sub mergeSuffix {
 
     my (%rules, $x);
-    
+
     if ($_[0] eq 'Y') {
 
         return "AT"   if $_[1] =~ /^[Aa]T$/;
@@ -440,7 +450,7 @@ sub mergeSuffix {
 
                    "Ina" => "ayna",
                    "I"   => "ay"     );
-        
+
         if (($x) = $_[1] =~ /^"(.*)"$/) {
 
             return $rules{$x} if exists $rules{$x};
@@ -472,7 +482,7 @@ sub mergeSuffix {
 
                    "Ina" => "Ina",
                    "I"   => "I"     );
-        
+
         if (($x) = $_[1] =~ /^"(.*)"$/) {
 
             return $rules{$x} if exists $rules{$x};
@@ -485,7 +495,7 @@ sub mergeSuffix {
 
         return "iy" . showSuffix($_[1]);
     }
-        
+
     if ($_[0] eq 'A') {
 
         return "AT"   if $_[1] =~ /^[Aa]T$/;
@@ -502,7 +512,7 @@ sub mergeSuffix {
 
                    "Ina" => "ayna",
                    "I"   => "ay"     );
-        
+
         if (($x) = $_[1] =~ /^"(.*)"$/) {
 
             return $rules{$x} if exists $rules{$x};
@@ -529,7 +539,7 @@ sub mergeSuffix {
 
                    "Ina" => "Ina",
                    "I"   => "I"     );
-        
+
         if (($x) = $_[1] =~ /^"(.*)"$/) {
 
             return $rules{$x} if exists $rules{$x};
@@ -542,7 +552,7 @@ sub mergeSuffix {
 
         return "uw" . showSuffix($_[1]);
     }
-    
+
     return $_[0] . showSuffix($_[1]);
 }
 
@@ -617,7 +627,7 @@ You can also look for information at:
 =item * ElixirFM Project
 
 L<http://sourceforge.net/projects/elixir-fm/>
-    
+
 =item * RT: CPAN's request tracker
 
 L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=ElixirFM>
@@ -643,7 +653,7 @@ L<http://search.cpan.org/dist/ElixirFM>
 =head1 AUTHOR
 
 Otakar Smrz, C<< <otakar smrz mff cuni cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
-    
+
 
 =head1 COPYRIGHT & LICENSE
 

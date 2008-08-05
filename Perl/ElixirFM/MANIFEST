@@ -1,3 +1,5 @@
+bin/elixir-compose.pl
+bin/elixir-resolve.pl
 Build.PL
 Changes
 cgi/elixir/index.fcgi
@@ -8,7 +10,10 @@ css/listexpander/expanded.gif
 css/listexpander/listexpander.css
 css/listexpander/listexpander.js
 lib/ElixirFM.pm
+lib/ElixirFM/Data/Compose.PL
 lib/ElixirFM/Data/Lexicon.pm
+lib/ElixirFM/Resolve.pm
+lib/Exec/ElixirFM.pm
 lib/MorphoMap.pm
 MANIFEST
 META.yml
