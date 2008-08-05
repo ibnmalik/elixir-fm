@@ -11,7 +11,6 @@ our %hash = ();
 our %list = ();
 our %idx = ();
 
-our $line;
 
 print << 'PL';
 
@@ -25,7 +24,7 @@ $Data::Dumper::Terse = 1;
 use strict;
 
 
-warn "Generating large data (~40MB), please be patient ...\n";
+warn "Generating large data (~32MB), please be patient ...\n";
 
 open PM, '>' . (substr __FILE__, 0, -2) . 'pm';
 
@@ -151,7 +150,7 @@ sub Just ($) {
 
 local $/ = "";
 
-while ($line = <>) {
+while (my $line = <>) {
 
     chomp $line;
 
@@ -193,7 +192,7 @@ while ($line = <>) {
                 push @{$assoc{join ", ", @accum}}, $hash{'cont'}{$cont};
             }
 
-            print join ",", map { sprintf "\n\t[%s], [%s]", (join ", ", @{$assoc{$_}}), $_ }
+            print join ",", map { sprintf "\n\t[%s],\t[%s]", $_, join ", ", @{$assoc{$_}} }
                             sort { $assoc{$a}[0] <=> $assoc{$b}[0] } keys %assoc;
             
             print "\t]";

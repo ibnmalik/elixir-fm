@@ -723,13 +723,16 @@ genericLexicon = listing "Generic lexicon"
 
                             <.>     "SP---3-D--"
                                                         <:>     "humA"
+                            <.>     "SP---3-D[24]-"
                                                         <:>     "himA"
 
                             <.>     "SP---3MP--"
                                                         <:>     "hum"
+                            <.>     "SP---3MP[24]-"
                                                         <:>     "him"
                             <.>     "SP---3FP--"
                                                         <:>     "hunna"
+                            <.>     "SP---3FP[24]-"
                                                         <:>     "hinna"
 
                             <.>     "SP---2MS1-"

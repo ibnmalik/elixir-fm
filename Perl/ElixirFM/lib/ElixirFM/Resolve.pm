@@ -55,18 +55,26 @@ sub cont {
     return $_[0]->{'cont'}[$_[1]];
 }
 
-sub expand {
 
-    my ($q, $data) = @_;
+sub paired (@) {
 
-    my @data;
+    my @data = @_;
 
-    for (my $i = 0; $i < @{$data}; $i += 2) {
+    push @data, undef if @data % 2;
 
-        push @data, [$q->tmpl($data->[$i]), $q->tags($data->[$i + 1])];
+    my @pair;
+
+    for (my $i = 0; $i < @data; $i += 2) {
+
+        push @pair, [$data[$i], $data[$i + 1]];
     }
 
-    return @data;
+    return @pair;
+}
+
+sub concat (@) {
+
+    return map { ref $_ eq 'ARRAY' ? @{$_} : $_ } @_;
 }
 
 
@@ -85,29 +93,37 @@ sub resolve {
 
     my ($q, $word) = @_;
 
-    my $r = '';
+    my $r = "";
 
     foreach (@{$q->data($word)}) {
 
-        my $lexs = $q->lexs(shift @{$_});
+        my ($lexs, @data) = @{$_};
 
-        my %data = map { ref $_ ? $_ : $q->cont($_) } @{$_};
+        $lexs = $q->lexs($lexs);
 
-        if (exists $data{''}) {
+        @data = paired @data;
 
-            foreach ($q->expand($data{''})) {
+        my @null = map { (grep { $q->cont($_) eq '' } @{$_->[1]}) ? @{$_->[0]} : () } @data;
 
-                my ($tmpl, $tags) = @{$_};
+        if (@null) {
 
-                my $lexeme = join "\t", @{$lexs}[0 .. 2], Data::Dumper->Dump([$lexs->[3]]), $lexs->[4], "($lexs->[5],$lexs->[6])";
+            $r .= "\n";
+            
+            $r .= join "\t", @{$lexs}[0 .. 2], Data::Dumper->Dump([$lexs->[3]]), $lexs->[4], "($lexs->[5],$lexs->[6])";
+            
+            foreach (paired @null) {
 
-                $r .= sprintf "%s\n%s%s\n\n", $lexeme, $tmpl, join "", map { "\n\t" . $_ } map {
+                my ($tmpl, $tags) = ($q->tmpl($_->[0]), $q->tags($_->[1]));
 
+                $r .= join "", map { "\n\t" . $_ } map {
+                    
                     my $t = template($tmpl, $_->[1], $_->[-1]);
                     my $m = ElixirFM::merge($lexs->[1], $t);
-
+                    
                     join "\t", $_->[0], $t, $m, encode "utf8", decode "zdmg", $m  } @{$tags};
             }
+            
+            $r .= "\n";
         }
     }
 
