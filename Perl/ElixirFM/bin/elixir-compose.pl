@@ -170,10 +170,6 @@ while (my $line = <>) {
             
             for (my $j = 0; $j < @{$data->[$i + 1]}; $j += 2) {
 
-                my $cont = Data::Dumper->Dump([$data->[$i + 1][$j]]);
-
-                $hash{'cont'}{$cont} = $idx{'cont'}++ unless exists $hash{'cont'}{$cont};
-
                 my @accum = ();
                 
                 for (my $k = 0; $k < @{$data->[$i + 1][$j + 1]}; $k += 2) {
@@ -189,11 +185,18 @@ while (my $line = <>) {
 
                 $assoc{join ", ", @accum} = [] unless exists $assoc{join ", ", @accum};
                 
-                push @{$assoc{join ", ", @accum}}, $hash{'cont'}{$cont};
+                push @{$assoc{join ", ", @accum}}, Data::Dumper->Dump([$data->[$i + 1][$j]]);
             }
 
-            print join ",", map { sprintf "\n\t[%s],\t[%s]", $_, join ", ", @{$assoc{$_}} }
-                            sort { $assoc{$a}[0] <=> $assoc{$b}[0] } keys %assoc;
+            print join ",", map { 
+            
+                my $cont = Data::Dumper->Dump([$assoc{$_}]);
+
+                $hash{'cont'}{$cont} = $idx{'cont'}++ unless exists $hash{'cont'}{$cont};
+
+                sprintf "\n\t[%s],\t%s", $_, $cont } 
+                
+                sort { $assoc{$a}[0] <=> $assoc{$b}[0] } keys %assoc;
             
             print "\t]";
         }
