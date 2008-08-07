@@ -103,7 +103,7 @@ sub resolve {
 
         @data = paired @data;
 
-        my @null = map { (grep { $q->cont($_) eq '' } @{$_->[1]}) ? @{$_->[0]} : () } @data;
+        my @null = map { (grep { $_ eq '' } @{$q->cont($_->[1])}) ? @{$_->[0]} : () } @data;
 
         if (@null) {
 

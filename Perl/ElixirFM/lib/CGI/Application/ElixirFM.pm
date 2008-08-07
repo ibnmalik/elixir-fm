@@ -11,7 +11,7 @@ use lib '/home/smrz/lib/perl5/site_perl/5.10.0', '/home/smrz/lib/perl5/5.10.0',
         '/home/smrz/lib/perl5/site_perl/5.10.0/i386-linux-thread-multi',
         '/home/smrz/lib/perl5/site_perl/5.10.0/i386-linux-thread-multi/auto';
 
-package Exec::ElixirFM;
+package CGI::Application::ElixirFM;
 
 use base 'CGI::Application::FastCGI';
 

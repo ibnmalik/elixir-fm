@@ -24,7 +24,7 @@ $Data::Dumper::Terse = 1;
 use strict;
 
 
-warn "Generating large data (~32MB), please be patient ...\n";
+warn "Generating large data (~30MB), please be patient ...\n";
 
 open PM, '>' . (substr __FILE__, 0, -2) . 'pm';
 
@@ -185,7 +185,7 @@ while (my $line = <>) {
 
                 $assoc{join ", ", @accum} = [] unless exists $assoc{join ", ", @accum};
                 
-                push @{$assoc{join ", ", @accum}}, Data::Dumper->Dump([$data->[$i + 1][$j]]);
+                push @{$assoc{join ", ", @accum}}, $data->[$i + 1][$j];
             }
 
             print join ",", map { 
@@ -194,9 +194,9 @@ while (my $line = <>) {
 
                 $hash{'cont'}{$cont} = $idx{'cont'}++ unless exists $hash{'cont'}{$cont};
 
-                sprintf "\n\t[%s],\t%s", $_, $cont } 
+                sprintf "\n\t[%s],\t%s", $_, $hash{'cont'}{$cont} } 
                 
-                sort { $assoc{$a}[0] <=> $assoc{$b}[0] } keys %assoc;
+                sort { $assoc{$a}[0] cmp $assoc{$b}[0] } keys %assoc;
             
             print "\t]";
         }

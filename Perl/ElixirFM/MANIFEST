@@ -9,11 +9,11 @@ css/listexpander/empty.gif
 css/listexpander/expanded.gif
 css/listexpander/listexpander.css
 css/listexpander/listexpander.js
+lib/CGI/Application/ElixirFM.pm
 lib/ElixirFM.pm
 lib/ElixirFM/Data/Compose.PL
 lib/ElixirFM/Data/Lexicon.pm
 lib/ElixirFM/Resolve.pm
-lib/Exec/ElixirFM.pm
 lib/MorphoMap.pm
 MANIFEST
 META.yml
