@@ -21,6 +21,7 @@ use base 'ElixirFM::Data::Compose';
 use ElixirFM;
 
 use Encode::Arabic;
+use Encode::Arabic::Buckwalter ':xml';
 
 use Data::Dumper;
 
@@ -109,7 +110,8 @@ sub resolve {
 
             $r .= "\n";
             
-            $r .= join "\t", @{$lexs}[0 .. 2], Data::Dumper->Dump([$lexs->[3]]), $lexs->[4], "($lexs->[5],$lexs->[6])";
+            $r .= join "\t", @{$lexs}[0 .. 2], $lexs->[4], "($lexs->[5],$lexs->[6])" . "\n",
+                             Data::Dumper->Dump([$lexs->[3]]);
             
             foreach (paired @null) {
 
@@ -119,8 +121,14 @@ sub resolve {
                     
                     my $t = template($tmpl, $_->[1], $_->[-1]);
                     my $m = ElixirFM::merge($lexs->[1], $t);
+                    my $p = encode "utf8", decode "zdmg", $m;
+
+                    # my $x = decode "arabtex", $m;
+                    # my $b = encode "buckwalter", $x;
+                    # my $u = encode "utf8", $x;
+                    # my $d = ElixirFM::describe($_->[0]);
                     
-                    join "\t", $_->[0], $t, $m, encode "utf8", decode "zdmg", $m  } @{$tags};
+                    join "\t", $_->[0], $t, $m, $p } @{$tags};
             }
             
             $r .= "\n";
