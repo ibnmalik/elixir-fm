@@ -136,6 +136,8 @@ continue (ParaAdv  _) = [[Nothing]]
 continue (ParaPrep _) = [[Nothing], [Just "N-------2-",
                                      Just "A-------2-",
                                      Just "S---------",
+                                     Just "SD------2-",
+                                     Just "SR------2-",
                                      Just "Q-------2-",
                                      Just "D---------",
                                      Just "PI------2-",    -- in modern language
