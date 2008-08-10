@@ -377,13 +377,13 @@ verb :: (Morphing a b, Forming a, Rules a, Eq a) => a -> Reflex -> Entry b
 
 verb m l = Entry (morph m) (Verb forms [] [] [] justT justV) l (TagsVerb [], [])
 
-    where forms = takeOne [ f | f <- [III, I, II] ++ [IV ..], isForm f m ] 
+    where forms = takeOne [ f | f <- [III, I, II] ++ [IV ..], isForm f m ]
 
           --              [ f | f <- [I ..], isForm f m ]
-    
-          -- [ (f, t) | r <- ["F C C", "F C L","w C L", "r ' y"], f <- [I ..], 
+
+          -- [ (f, t) | r <- ["F C C", "F C L","w C L", "r ' y"], f <- [I ..],
           --            (_, x :: PatternT, _, _, _) <- verbStems f r, t <- [I ..],
-          --            isForm t x, t /= f ]                                         
+          --            isForm t x, t /= f ]
 
           takeOne (x:_) = [x]
           takeOne []    = []
@@ -648,6 +648,30 @@ genericLexicon = listing "Generic lexicon"
 -}
 
 
+    |> "s" <| [
+
+        "sa"        `part`      [ "will", "shall" ]
+
+        ]
+
+
+
+    |> "l" <| [
+
+        "li"        `conj`      [ "in order to", "so that" ],
+
+        "la"        `part`      [ "indeed", "truly" ]
+
+        ]
+
+
+    |> "m" <| [
+
+        "min"       `prep`      [ "from" ]
+
+        ]
+
+
     |> "l" <| [
 
         "al" >>| "la_dI"    <::>    "SR--------"
@@ -772,28 +796,9 @@ genericLexicon = listing "Generic lexicon"
                                                         <:>     "nA"
         ]
 
-{-
-
-    |> "" <| [
-
-        
-              
-        ]
-
-
-    |> "" <| [
-              
-        ]
-
-
-    |> "" <| [
-              
-        ]
-
--}
 
     |> "` ^s r" <| [
-                    
+
         FaCaL |< aT         <::>    "QX--------"
                                                         <..>    [ "ten" ]
                             `femini` FaCaL,
@@ -812,7 +817,7 @@ genericLexicon = listing "Generic lexicon"
 
 
     |> "' .h d" <| [
-                    
+
         FaCaL               <::>    "QI--------"
                                                         <..>    [ "one" ]
                             `femini` FiCLY
@@ -820,7 +825,7 @@ genericLexicon = listing "Generic lexicon"
 
 
     |> "_t n y" <| [
-                    
+
         IFC |< An           <::>    "QI--------"
                                                         <..>    [ "two" ]
                             `femini` IFC |< aT |< An
@@ -828,7 +833,7 @@ genericLexicon = listing "Generic lexicon"
 
 
     |> "_t l _t" <| [
-                    
+
         FaCAL |< aT         <::>    "QV--------"
                                                         <..>    [ "three" ]
                             `femini` FaCAL,
@@ -839,7 +844,7 @@ genericLexicon = listing "Generic lexicon"
 
 
     |> "r b `" <| [
-                    
+
         HaFCaL |< aT        <::>    "QV--------"
                                                         <..>    [ "four" ]
                             `femini` HaFCaL,
@@ -850,7 +855,7 @@ genericLexicon = listing "Generic lexicon"
 
 
     |> "_h m s" <| [
-                    
+
         FaCL |< aT          <::>    "QV--------"
                                                         <..>    [ "five" ]
                             `femini` FaCL,
@@ -858,10 +863,10 @@ genericLexicon = listing "Generic lexicon"
         FaCL |< Un          <::>    "QL--------"
                                                         <..>    [ "fifty" ]
         ]
-        
+
 
     |> "s t t" <| [
-                    
+
         FiCL |< aT          <::>    "QV--------"
                                                         <..>    [ "six" ]
                             `femini` FiCL,
@@ -872,7 +877,7 @@ genericLexicon = listing "Generic lexicon"
 
 
     |> "s b `" <| [
-                    
+
         FaCL |< aT          <::>    "QV--------"
                                                         <..>    [ "seven" ]
                             `femini` FaCL,
@@ -880,10 +885,10 @@ genericLexicon = listing "Generic lexicon"
         FaCL |< Un          <::>    "QL--------"
                                                         <..>    [ "seventy" ]
         ]
-        
+
 
     |> "_t m n" <| [
-                    
+
         FaCALI |< aT        <::>    "QV--------"
                                                         <..>    [ "eight" ]
                             `femini` FaCALI,
@@ -891,10 +896,10 @@ genericLexicon = listing "Generic lexicon"
         FaCAL |< Un         <::>    "QL--------"
                                                         <..>    [ "eighty" ]
         ]
-        
+
 
     |> "t s `" <| [
-                    
+
         FiCL |< aT          <::>    "QV--------"
                                                         <..>    [ "nine" ]
                             `femini` FiCL,

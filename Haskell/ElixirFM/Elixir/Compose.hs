@@ -133,14 +133,14 @@ continue (ParaNum  _) = [[Nothing]]
 
 continue (ParaAdv  _) = [[Nothing]]
 
-continue (ParaPrep _) = [[Nothing], [Just "N-------2-",
-                                     Just "A-------2-",
-                                     Just "S---------",
+continue (ParaPrep _) = [[Nothing], [Just "S---------",
                                      Just "SD------2-",
                                      Just "SR------2-",
+                                     Just "N-------2-",
+                                     Just "A-------2-",
                                      Just "Q-------2-",
-                                     Just "D---------",
                                      Just "PI------2-",    -- in modern language
+                                     Just "D---------",
                                      Just "C---------",
                                      Just "F---------"],
                                     [Just "SP---1-S2-"],
@@ -151,7 +151,8 @@ continue (ParaPrep _) = [[Nothing], [Just "N-------2-",
 
 continue (ParaConj _) = [[Nothing], [Just "----------"]]
 
-continue (ParaPart _) = [[Nothing], [Just "SP------4-"]]
+continue (ParaPart _) = [[Nothing], [Just "V---------"],
+                                    [Just "SP------4-"]]
 
 continue (ParaIntj _) = [[Nothing], [Just "SP------2-"]]
 
@@ -172,7 +173,8 @@ rewrite (ParaVerb (VerbI Jussive     _ Third  Masculine Plural)) (Just _) 'A' = 
 rewrite (ParaVerb (VerbC Masculine Plural)) (Just _) 'A' = [""]
 
 rewrite (ParaPrep _) (Just "SP---1-S2-") 'n' = [""]
-rewrite (ParaPrep _) (Just _)            'n' = ["n"]
+rewrite (ParaPrep _) (Just "S---------") 'n' = [""]
+rewrite (ParaPrep _) (Just "SP---1-S2-") 'y' = [""]
 rewrite (ParaPrep _) (Just "SP---1-S2-") 'Y' = [""]
 rewrite (ParaPrep _) (Just _)            'Y' = ["y"]
 
