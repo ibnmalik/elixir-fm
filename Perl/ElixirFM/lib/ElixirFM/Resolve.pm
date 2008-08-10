@@ -138,9 +138,17 @@ sub resolves {
 
             my @data = $q->filter($r, @{$assoc{$_}});
 
+            next unless @data;
+            
             my $cont = eval $_;
 
-            push @return, $q->resolves([@{$p}, [@data]], $cont, $next) if @data;
+            push @return, $q->resolves([@{$p}, [@data]], $cont, $next);
+
+            if ($i == 1 and 'll' eq substr $word, 0, 2) {
+
+                push @return, $q->resolves([@{$p}, [@data]], $cont, 'A'  . $next),
+                              $q->resolves([@{$p}, [@data]], $cont, 'Al' . $next);
+            }
         }
     }
 
@@ -164,7 +172,8 @@ sub filter {
 
             my ($tmpl, $tags) = @{$_};
 
-            my @tmpl = grep { my $t = $_->[0]; grep { ElixirFM::restrict($_, $t) eq $t } grep { $_ ne '' } @{$r} } @{$q->tags($tags)};
+            my @tmpl = grep { my $t = $_->[0]; grep { ElixirFM::restrict($_, $t) eq $t and ($_ eq $t or $_ ne 'S---------') }
+                                               grep { $_ ne '' } @{$r} } @{$q->tags($tags)};
 
             push @lexs, [$tmpl, [@tmpl]] if @tmpl;
         }
