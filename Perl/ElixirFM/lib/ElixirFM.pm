@@ -138,18 +138,18 @@ sub describe {
         splice @slot, $dims, (@slot - $dims);
     }
     else {
-        
+
         push @slot, ('-') x ($dims - @slot);
     }
-    
+
     my $type = exists $tagset->[0][1]{$slot[0] . '-'}      ? $tagset->[0][1]{$slot[0] . '-'}      : '';
     my $kind = exists $tagset->[0][1]{$slot[0] . $slot[1]} ? $tagset->[0][1]{$slot[0] . $slot[1]} : '';
 
     my @cats = map { exists $tagset->[$_][1]{$slot[$_]} ? [$tagset->[$_][0], $tagset->[$_][1]{$slot[$_]}] : [] }
 	       2 .. $dims - 1;
 
-    unshift @cats, $type eq $kind ? [$type, ''] : [$type, $kind]; 
-    
+    unshift @cats, $type eq $kind ? [$type, ''] : [$type, $kind];
+
     return join ", ", grep { $_ ne '' } map { join " ", grep { $_ ne '' } reverse @{$_} } @cats;
 }
 
@@ -179,20 +179,20 @@ sub retrieve {
 	$one =~ /^imp(?:er)?a/i         and push @{$tag[1]}, 'C' and next;
 	$one =~ /^imp(?:er)?/i          and push @{$tag[1]}, 'I',
 	                                                     'C' and next;
-                                        
+
 	$one =~ /^pers/i                and push @{$tag[1]}, 'P' and next;
 	$one =~ /^dem/i                 and push @{$tag[1]}, 'D' and next;
 	$one =~ /^rel/i                 and push @{$tag[1]}, 'R' and next;
-                                        
+
 	$one =~ /^inf/i                 and push @{$tag[1]}, 'I' and next;
 	$one =~ /^neg/i                 and push @{$tag[1]}, 'N' and next;
 	$one =~ /^int(?:er)?r/i         and push @{$tag[1]}, 'I' and next;
-                                        
+
 	$one =~ /^ind(?![ef])/i         and push @{$tag[2]}, 'I' and next;
 	$one =~ /^sub/i                 and push @{$tag[2]}, 'S' and next;
 	$one =~ /^jus/i                 and push @{$tag[2]}, 'J' and next;
 	$one =~ /^ene/i                 and push @{$tag[2]}, 'E' and next;
-                                        
+
 	$one =~ /^act/i                 and push @{$tag[3]}, 'A' and next;
 	$one =~ /^pas/i                 and push @{$tag[3]}, 'P' and next;
 
@@ -202,17 +202,17 @@ sub retrieve {
 
 	$one =~ /^mas/i                 and push @{$tag[6]}, 'M' and next;
 	$one =~ /^fem/i                 and push @{$tag[6]}, 'F' and next;
-                                        
+
 	$one =~ /^s(?:in)?g/i           and push @{$tag[7]}, 'S' and next;
 	$one =~ /^du/i                  and push @{$tag[7]}, 'D' and next;
 	$one =~ /^pl/i                  and push @{$tag[7]}, 'P' and next;
-                                        
+
 	$one =~ /^nom/i                 and push @{$tag[8]}, '1' and next;
 	$one =~ /^gen/i                 and push @{$tag[8]}, '2' and next;
 	$one =~ /^acc/i                 and push @{$tag[8]}, '4' and next;
 	$one =~ /^obl/i                 and push @{$tag[8]}, '2',
                                                              '4' and next;
-                                        
+
 	$one =~ /^ind[ef]/i             and push @{$tag[9]}, 'I' and next;
 	$one =~ /^red/i                 and push @{$tag[9]}, 'R' and next;
 	$one =~ /^cons/i                and push @{$tag[9]}, 'R' and next;

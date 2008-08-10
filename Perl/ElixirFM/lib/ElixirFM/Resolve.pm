@@ -90,55 +90,6 @@ sub template {
 }
 
 
-sub resolve_null {
-
-    my ($q, $word) = @_;
-
-    my $r = "";
-
-    foreach (@{$q->data($word)}) {
-
-        my ($lexs, @data) = @{$_};
-
-        $lexs = $q->lexs($lexs);
-
-        @data = paired @data;
-
-        my @null = map { (grep { $_ eq '' } @{$q->cont($_->[1])}) ? @{$_->[0]} : () } @data;
-
-        if (@null) {
-
-            $r .= "\n";
-            
-            $r .= join "\t", @{$lexs}[0 .. 2], $lexs->[4], "($lexs->[5],$lexs->[6])" . "\n",
-                             Data::Dumper->Dump([$lexs->[3]]);
-            
-            foreach (paired @null) {
-
-                my ($tmpl, $tags) = ($q->tmpl($_->[0]), $q->tags($_->[1]));
-
-                $r .= join "", map { "\n\t" . $_ } map {
-                    
-                    my $t = template($tmpl, $_->[1], $_->[-1]);
-                    my $m = ElixirFM::merge($lexs->[1], $t);
-                    my $p = encode "utf8", decode "zdmg", $m;
-
-                    # my $x = decode "arabtex", $m;
-                    # my $b = encode "buckwalter", $x;
-                    # my $u = encode "utf8", $x;
-                    # my $d = ElixirFM::describe($_->[0]);
-                    
-                    join "\t", $_->[0], $t, $m, $p } @{$tags};
-            }
-            
-            $r .= "\n";
-        }
-    }
-
-    return $r;
-}
-
-
 sub resolve {
 
     my ($q, $word) = @_;
@@ -159,33 +110,40 @@ sub resolves {
     }
 
     my @return = ();
-    
+
     for (my $i = length $word; $i > 0; $i--) {
-        
+
         my $lookup = $q->data(substr $word, 0, $i);
-        
+
         my %assoc = ();
-            
+
         foreach (@{$lookup}) {
 
             my ($lexs, @data) = @{$_};
-            
+
             foreach (paired @data) {
-                
-                $assoc{$_->[1]} = [] unless exists $assoc{$_->[1]};
-                
-                push @{$assoc{$_->[1]}}, [$lexs, $_->[0]];
+
+                foreach my $cont (map { Data::Dumper->Dump([$_]) } @{$q->cont($_->[1])}) {
+
+                    $assoc{$cont} = [] unless exists $assoc{$cont};
+
+                    push @{$assoc{$cont}}, [$lexs, $_->[0]];
+                }
             }
         }
-        
+
+        my $next = substr $word, $i;
+
         foreach (keys %assoc) {
-            
+
             my @data = $q->filter($r, @{$assoc{$_}});
-            
-            push @return, $q->resolves([@{$p}, [@data]], $q->cont($_), substr $word, $i) if @data;
+
+            my $cont = eval $_;
+
+            push @return, $q->resolves([@{$p}, [@data]], $cont, $next) if @data;
         }
     }
-    
+
     return @return;
 }
 
@@ -195,25 +153,25 @@ sub filter {
     my ($q, $r, @data) = @_;
 
     my @return;
-    
+
     foreach (@data) {
 
         my ($lexs, $data) = @{$_};
 
         my @lexs = ();
-        
+
         foreach (paired @{$data}) {
 
             my ($tmpl, $tags) = @{$_};
 
             my @tmpl = grep { my $t = $_->[0]; grep { ElixirFM::restrict($_, $t) eq $t } grep { $_ ne '' } @{$r} } @{$q->tags($tags)};
-            
+
             push @lexs, [$tmpl, [@tmpl]] if @tmpl;
         }
 
         push @return, [$lexs, [@lexs]] if @lexs;
     }
-    
+
     return @return;
 }
 
@@ -221,36 +179,36 @@ sub filter {
 sub pretty {
 
     my ($q, @data) = @_;
-    
+
     return join "\n::\n", map { join "\n:\n", map { join "", map {
-        
+
                 my ($lexs, $data) = @{$_};
-                
+
                 $lexs = $q->lexs($lexs);
-                
+
                 my $r = "\n";
-                
+
                 $r .= join "\t", @{$lexs}[0 .. 2], $lexs->[4], "($lexs->[5],$lexs->[6])" . "\n",
                                  Data::Dumper->Dump([$lexs->[3]]);
-                
+
                 foreach (@{$data}) {
-                    
+
                     my ($tmpl, $tags) = ($q->tmpl($_->[0]), $_->[1]);
-                    
+
                     $r .= join "", map { "\n\t" . $_ } map {
-                        
+
                         my $t = template($tmpl, $_->[1], $_->[-1]);
                         my $m = ElixirFM::merge($lexs->[1], $t);
                         my $p = encode "utf8", decode "zdmg", $m;
-                        
+
                         # my $x = decode "arabtex", $m;
                         # my $b = encode "buckwalter", $x;
                         # my $u = encode "utf8", $x;
                         # my $d = ElixirFM::describe($_->[0]);
-                        
+
                         join "\t", $_->[0], $t, $m, $p } @{$tags};
                 }
-                
+
                 $r . "\n" } @{$_} } @{$_} } @data;
 }
 

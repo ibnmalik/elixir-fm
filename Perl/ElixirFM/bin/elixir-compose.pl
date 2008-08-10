@@ -167,11 +167,11 @@ while (my $line = <>) {
             printf ",\n%s, [", Data::Dumper->Dump([$data->[$i]]);
 
             my %assoc = ();
-            
+
             for (my $j = 0; $j < @{$data->[$i + 1]}; $j += 2) {
 
                 my @accum = ();
-                
+
                 for (my $k = 0; $k < @{$data->[$i + 1][$j + 1]}; $k += 2) {
 
                     my $tmpl = Data::Dumper->Dump([$data->[$i + 1][$j + 1][$k]]);
@@ -184,20 +184,20 @@ while (my $line = <>) {
                 }
 
                 $assoc{join ", ", @accum} = [] unless exists $assoc{join ", ", @accum};
-                
+
                 push @{$assoc{join ", ", @accum}}, $data->[$i + 1][$j];
             }
 
-            print join ",", map { 
-            
+            print join ",", map {
+
                 my $cont = Data::Dumper->Dump([$assoc{$_}]);
 
                 $hash{'cont'}{$cont} = $idx{'cont'}++ unless exists $hash{'cont'}{$cont};
 
-                sprintf "\n\t[%s],\t%s", $_, $hash{'cont'}{$cont} } 
-                
+                sprintf "\n\t[%s],\t%s", $_, $hash{'cont'}{$cont} }
+
                 sort { $assoc{$a}[0] cmp $assoc{$b}[0] } keys %assoc;
-            
+
             print "\t]";
         }
 

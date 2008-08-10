@@ -51,22 +51,24 @@ import Encode.Arabic
 generate :: String -> Lexicon -> Doc
 
 generate x y = doubleline id [ z | let x' = (unTagsTypes . read) x,
-                                   (w, n) <- zip y [1 ..], z <- unwraps (\ (Nest r z) -> [ (list . (:) 
-                                   
+                                   (w, n) <- zip y [1 ..], z <- unwraps (\ (Nest r z) -> [ (list . (:)
+
                                     ((list . map text) [show (merge r (morphs e)), show r, (show . show) (morphs e),
                                                         show (reflex e), (show . show) (entity e), show (n, m)])
 
                                     . map (text . show) . process)
-                                    
+
                                     (inflect (Lexeme r e) (restrict (domain e) x')) | (e, m) <- zip z [1 ..], e <- entries e ]) w ]
 
 
-process x = (map (\ (i, x) -> (i, (map (\ (c, y) -> (c, (map (\ (m, z) -> (m, (reverse . nub . map (\ (p, s, t) -> (p, s, (show . pretty) t))) z))
-                                                                          
-                                                        . Map.toList . Map.fromListWith (++)) y))
-                                   
-                                    . Map.toList . Map.fromListWith (++)) x))
+process x = (map (\ (i, x) ->
+                    (i, (map (\ (c, y) ->
+                                (c, (map (\ (m, z) ->
 
+                                            (m, (reverse . nub . map (\ (p, s, t) -> (p, s, (show . pretty) t))) z))
+
+                                . Map.toList . Map.fromListWith (++)) y))
+                    . Map.toList . Map.fromListWith (++)) x))
             . Map.toList . Map.fromListWith (++))
 
             [ (i ++ w, [(c, [(show (Morphs t p' s'), [(p'', s'', v)])])]) | (v, y) <- x, (r, m) <- y,
@@ -74,10 +76,10 @@ process x = (map (\ (i, x) -> (i, (map (\ (c, y) -> (c, (map (\ (m, z) -> (m, (r
                 c <- continue v,
 
                 let z = (filter (`notElem` "aiu~o`FNK") . encode Tim . decode TeX)
-                        (if c == Just "SP---1-S2-" then merge r (Morphs t p n) else merge r m)
+                        (if head c == Just "SP---1-S2-" then merge r (Morphs t p n) else merge r m)
 
                     Morphs t p s = m
-                                   
+
                     n = case s of Suffix "U"  : x -> x
                                   Suffix "I"  : x -> x
                                   Suffix "ay" : x -> x
@@ -91,57 +93,65 @@ process x = (map (\ (i, x) -> (i, (map (\ (c, y) -> (c, (map (\ (m, z) -> (m, (r
                     i = init z
                     l = last z,
 
-                w <- rewrite v c l ]
+                w <- rewrite v (head c) l ]
 
 
-continue :: Tag -> [Maybe String]
+continue :: Tag -> [[Maybe String]]
 
-continue (ParaVerb _) = [Nothing, Just "SP------4-"]
+continue (ParaVerb _) = [[Nothing], [Just "SP------4-"]]
 
-continue (ParaNoun (NounS _ _ (Nothing :-: True))) = [Nothing, Just "SP---1-S2-", 
-                                                               Just "SP---1-D2-", 
-                                                               Just "SP---1-P2-", 
-                                                               Just "SP---2--2-",
-                                                               Just "SP---3--2-"]
-continue (ParaNoun _) = [Nothing]
+continue (ParaNoun (NounS _ _ (Nothing :-: True))) = [[Nothing], [Just "SP---1-S2-"],
+                                                                 [Just "SP---1-D2-",
+                                                                  Just "SP---1-P2-",
+                                                                  Just "SP---2--2-",
+                                                                  Just "SP---3--2-"]]
+continue (ParaNoun _) = [[Nothing]]
 
-continue (ParaAdj  (AdjA  _ _ _ (Nothing :-: True))) = [Nothing, Just "SP---1-S2-",
-                                                                 Just "SP---1-D2-", 
-                                                                 Just "SP---1-P2-", 
+continue (ParaAdj  (AdjA  _ _ _ (Nothing :-: True))) = [[Nothing], [Just "SP---1-S2-"],
+                                                                   [Just "SP---1-D2-",
+                                                                    Just "SP---1-P2-",
+                                                                    Just "SP---2--2-",
+                                                                    Just "SP---3--2-"]]
+continue (ParaAdj  _) = [[Nothing]]
+
+continue (ParaPron _) = [[Nothing]]   -- in modern language
+
+continue (ParaNum  (NumV Feminine _ (Nothing :-: True))) = [[Nothing], [Just "QC-----S2I",
+                                                                        Just "QC-----S2R",
+                                                                        Just "QC-----S2A"]]
+continue (ParaNum  (NumC _ _ (Nothing :-: True))) = [[Nothing], [Just "SP---1-S2-"],
+                                                                [Just "SP---1-D2-",
+                                                                 Just "SP---1-P2-",
                                                                  Just "SP---2--2-",
-                                                                 Just "SP---3--2-"]
-continue (ParaAdj  _) = [Nothing]
+                                                                 Just "SP---3--2-"]]
+continue (ParaNum  (NumM _ _ (Nothing :-: True))) = [[Nothing], [Just "SP---1-S2-"],
+                                                                [Just "SP---1-D2-",
+                                                                 Just "SP---1-P2-",
+                                                                 Just "SP---2--2-",
+                                                                 Just "SP---3--2-"]]
+continue (ParaNum  _) = [[Nothing]]
 
-continue (ParaPron _) = [Nothing]   -- in modern language
+continue (ParaAdv  _) = [[Nothing]]
 
-continue (ParaNum  (NumV Feminine _ (Nothing :-: True))) = [Nothing, Just "QC-----S2I",
-                                                                     Just "QC-----S2R",
-                                                                     Just "QC-----S2A"]
-continue (ParaNum  (NumC _ _ (Nothing :-: True))) = [Nothing, Just "SP---1-S2-",
-                                                              Just "SP---1-D2-", 
-                                                              Just "SP---1-P2-", 
-                                                              Just "SP---2--2-",
-                                                              Just "SP---3--2-"]
-continue (ParaNum  (NumM _ _ (Nothing :-: True))) = [Nothing, Just "SP---1-S2-",
-                                                              Just "SP---1-D2-", 
-                                                              Just "SP---1-P2-", 
-                                                              Just "SP---2--2-",
-                                                              Just "SP---3--2-"]
-continue (ParaNum  _) = [Nothing]
+continue (ParaPrep _) = [[Nothing], [Just "N-------2-",
+                                     Just "A-------2-",
+                                     Just "S---------",
+                                     Just "Q-------2-",
+                                     Just "D---------",
+                                     Just "PI------2-",    -- in modern language
+                                     Just "C---------",
+                                     Just "F---------"],
+                                    [Just "SP---1-S2-"],
+                                    [Just "SP---1-D2-",
+                                     Just "SP---1-P2-",
+                                     Just "SP---2--2-",
+                                     Just "SP---3--2-"]]
 
-continue (ParaAdv  _) = [Nothing]
+continue (ParaConj _) = [[Nothing], [Just "----------"]]
 
-continue (ParaPrep _) = [Nothing, Just "SP---1-S2-",
-                                  Just "SP---1-D2-", 
-                                  Just "SP---1-P2-", 
-                                  Just "SP---2--2-",
-                                  Just "SP---3--2-"]
+continue (ParaPart _) = [[Nothing], [Just "SP------4-"]]
 
-continue (ParaConj _) = [Nothing, Just "----------"]
-
-continue (ParaPart _) = [Nothing, Just "SP------4-"]
-
-continue (ParaIntj _) = [Nothing, Just "SP------2-"]
+continue (ParaIntj _) = [[Nothing], [Just "SP------2-"]]
 
 
 rewrite :: Tag -> Maybe String -> Char -> [String]
@@ -163,7 +173,8 @@ rewrite (ParaPrep _) (Just "SP---1-S2-") 'n' = [""]
 rewrite (ParaPrep _) (Just _)            'n' = ["n"]
 rewrite (ParaPrep _) (Just "SP---1-S2-") 'Y' = [""]
 rewrite (ParaPrep _) (Just _)            'Y' = ["y"]
-rewrite _            (Just _)            'Y' = ["A"]
+
+rewrite _ (Just _)            'Y' = ["A"]
 
 rewrite _ (Just _)            'p' = ["t"]
 

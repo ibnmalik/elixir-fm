@@ -2,9 +2,9 @@
 #
 # ElixirFM Online ##############################################################################
 
-# $Id: index.fcgi 602 2008-07-07 09:52:29Z smrz $
+# $Id$
 
-our $VERSION = do { q $Revision: 602 $ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
+our $VERSION = do { q $Revision$ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
 
 
 use lib '/home/smrz/lib/perl5/site_perl/5.10.0', '/home/smrz/lib/perl5/5.10.0',
@@ -95,9 +95,9 @@ sub display_header ($) {
 
     $r .= $q->start_html('-title'  => "ElixirFM 1.x Online Interface #" . $session, '-encoding' => $q->charset(),
 			 '-meta'   => { 'keywords' => 'Arabic morphological analyzer analysis generator generation' .
-					    'morphology lexicon dictionary lookup inflection derivation' },
+                                          'morphology lexicon dictionary lookup inflection derivation' },
 			 '-style'  => [ {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/elixir.css', '-type' => 'text/css'},
-					{'-src' => 'http://quest.ms.mff.cuni.cz/elixir/listexpander/listexpander.css', '-type' => 'text/css'} ],
+                            {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/listexpander/listexpander.css', '-type' => 'text/css'} ],
 			 '-script' => [ {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/listexpander/listexpander.js', '-type' => 'text/javascript'} ]);
 
     return $r;
@@ -142,7 +142,7 @@ sub display_footline ($) {
 
     $r .= $q->p("Contact", $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/'}, "otakar.smrz"), "at",
                 $q->a({-href => 'http://ufal.mff.cuni.cz/'}, "mff.cuni.cz") . ",",
-	        "Institute of Formal and Applied Linguistics, Charles University in Prague.");
+                "Institute of Formal and Applied Linguistics, Charles University in Prague.");
 
     return $r;
 }
@@ -184,15 +184,15 @@ sub pretty_resolve ($$) {
 		$r .= $q->ul({-class => 'listexpander'},
 
 			     $q->li($q->div({-class => "word",
-					     -title => "input word"}, $text[$i]), $tree));
+                                 -title => "input word"}, $text[$i]), $tree));
 	    }
 	    else {
 
 		$r .= $q->ul({-class => 'listexpander'},
 
 			     $q->li({-class => 'empty'},
-				    $q->div({-class => "word",
-					      -title => "input word"}, $text[$i]) ));
+    				    $q->div({-class => "word",
+    					         -title => "input word"}, $text[$i]) ));
 	    }
 	}
     }
@@ -203,7 +203,7 @@ sub pretty_resolve ($$) {
 	    $r .= $q->h3($q->div($text[$i]));
 
 	    $r .= $q->table({-cellspacing => 0},
-			    $q->Tr([ map { pretty_resolve_list($_, $q) }
+                        $q->Tr([ map { pretty_resolve_list($_, $q) }
 
 				     split /\n/, $word[$i] ]) );
 	}
@@ -272,55 +272,52 @@ sub pretty_resolve_tree {
 	( join $",
 
 	  $q->div({-class => "xtag",
-		   -title => ElixirFM::describe($xcat)}, $xcat),
+               -title => ElixirFM::describe($xcat)}, $xcat),
 	  $q->div({-class => "phon",
-		   -title => "citation form"},           decode "zdmg", $info[-3]),
+               -title => "citation form"},           decode "zdmg", $info[-3]),
 	  $q->div({-class => "orth",
-		   -title => "citation form"},           decode "arabtex", $info[-3]),
+               -title => "citation form"},           decode "arabtex", $info[-3]),
 	  $q->div({-title => "citation form"},           $info[-3]),
 	  $q->div({-class => "root",
-		   -title => "root of citation form"},   $info[-2]),
+               -title => "root of citation form"},   $info[-2]),
 	  $q->div({-class => "morphs",
-		   -title => "morphs of citation form"}, $info[-1]),
+		       -title => "morphs of citation form"}, $info[-1]),
 	  $q->div({-class => "class",
-		   -title => "derivational class"},      $info[3]),
+               -title => "derivational class"},      $info[3]),
 	  $q->div({-class => "stems",
-		   -title => "inflectional stems"},      $info[1]),
+		       -title => "inflectional stems"},      $info[1]),
 	  $q->div({-title => "lexical reference"},       $info[2]),
 
 	  $q->ul($q->div({-title => "inflect this lexeme"},
-			 $q->a({-href => 'index.fcgi?elixir=inflect&code='
-				    . $info[0]}, "Inflect")),
-		 $q->div({-title => "derive other lexemes"},
-			 $q->a({-href => 'index.fcgi?elixir=derive&code='
-				    . $info[0]}, "Derive")),
-		 $q->div({-title => "lookup in the lexicon"},
-			 $q->a({-href => 'index.fcgi?elixir=lookup&code='
-				    . $info[0]}, "Lookup")),
+                     $q->a({-href => 'index.fcgi?elixir=inflect&code=' . $info[0]}, "Inflect")),
+    		 $q->div({-title => "derive other lexemes"},
+                     $q->a({-href => 'index.fcgi?elixir=derive&code=' . $info[0]}, "Derive")),
+    		 $q->div({-title => "lookup in the lexicon"},
+                     $q->a({-href => 'index.fcgi?elixir=lookup&code=' . $info[0]}, "Lookup")),
 
-		 $q->li($q->table({-cellspacing => 0},
+    		 $q->li($q->table({-cellspacing => 0},
 
-				  $q->Tr([ map { my @info = split /[\n ]*\t/, $_;
+                    $q->Tr([ map { my @info = split /[\n ]*\t/, $_;
 
-						 $info[-2] = substr $info[-2], 1, -1;
+                            $info[-2] = substr $info[-2], 1, -1;
 
-						 ( join $",
+                            ( join $",
 
-						   $q->td({-class => "xtag",
-							   -title => ElixirFM::describe($info[0])}, $info[0]),
-						   $q->td({-class => "phon",
-							   -title => "inflected form"},             decode "zdmg", $info[-3]),
-						   $q->td({-class => "orth",
-							   -title => "inflected form"},             decode "arabtex", $info[-3]),
-						   $q->td({-title => "inflected form"},             $info[-3]),
-						   $q->td({-class => "root",
-							   -title => "root of inflected form"},     $info[-2]),
-						   $q->td({-class => "morphs",
-							   -title => "morphs of inflected form"},   $info[-1]) )
+                                $q->td({-class => "xtag",
+                                        -title => ElixirFM::describe($info[0])}, $info[0]),
+                                $q->td({-class => "phon",
+                                        -title => "inflected form"},             decode "zdmg", $info[-3]),
+                                $q->td({-class => "orth",
+                                        -title => "inflected form"},             decode "arabtex", $info[-3]),
+                                $q->td({-title => "inflected form"},             $info[-3]),
+                                $q->td({-class => "root",
+                                        -title => "root of inflected form"},     $info[-2]),
+                                $q->td({-class => "morphs",
+                                        -title => "morphs of inflected form"},   $info[-1]) )
 
-					   } @tokens ] ) )) ) )
+                        } @tokens ] ) )) ) )
 
-			   } @data ] ));
+			} @data ] ));
 }
 
 sub pretty_resolve_list {
@@ -350,26 +347,26 @@ sub pretty_resolve_list {
                             -title => ElixirFM::describe($data[0])}, $data[0]),
                     $q->td({-class => "phon",
                             -title => "inflected form"},             $phon[0]),
-                    $q->td({-class => "orth",                       
+                    $q->td({-class => "orth",
                             -title => "inflected form"},             $orth[0]),
                     $q->td({-title => "inflected form"},             $data[1]),
-                    $q->td({-class => "root",                       
+                    $q->td({-class => "root",
                             -title => "root of inflected form"},     $data[2]),
-                    $q->td({-class => "morphs",                     
+                    $q->td({-class => "morphs",
                             -title => "morphs of inflected form"},   $data[3]),
-                    $q->td({-class => "phon",                       
+                    $q->td({-class => "phon",
                             -title => "citation form"},              $phon[1]),
-                    $q->td({-class => "orth",                       
+                    $q->td({-class => "orth",
                             -title => "citation form"},              $orth[1]),
                     $q->td({-title => "citation form"},              $data[4]),
-                    $q->td({-class => "root",                       
+                    $q->td({-class => "root",
                             -title => "root of citation form"},      $data[5]),
-                    $q->td({-class => "morphs",                     
+                    $q->td({-class => "morphs",
                             -title => "morphs of citation form"},    $data[6]),
-		    $q->td({-class => "class",                      
-			    -title => "derivational class"},         $data[8]),
-		    $q->td({-class => "stems",                      
-			    -title => "inflectional stems"},         $data[9]),
+        		    $q->td({-class => "class",
+                            -title => "derivational class"},         $data[8]),
+        		    $q->td({-class => "stems",
+                            -title => "inflectional stems"},         $data[9]),
                     $q->td({-title => "lexical reference"},          $data[7]);
 }
 
@@ -592,16 +589,16 @@ sub pretty_inflect_list {
     return $q->Tr( join $",
 
 		   $q->td({-class => "xtag",
-			   -title => ElixirFM::describe($data[0])}, $data[0]),
+                   -title => ElixirFM::describe($data[0])}, $data[0]),
 		   $q->td({-class => "phon",
-			   -title => "inflected form"},             decode "zdmg",    $data[1]),
+                   -title => "inflected form"},             decode "zdmg",    $data[1]),
 		   $q->td({-class => "orth",
-			   -title => "inflected form"},             decode "arabtex", $data[1]),
+			       -title => "inflected form"},             decode "arabtex", $data[1]),
 		   $q->td({-title => "inflected form"},             $data[1]),
 		   $q->td({-class => "root",
-			   -title => "root of inflected form"},     $data[2]),
+			       -title => "root of inflected form"},     $data[2]),
 		   $q->td({-class => "morphs",
-			   -title => "morphs of inflected form"},   $data[3]) );
+			       -title => "morphs of inflected form"},   $data[3]) );
 }
 
 
@@ -624,7 +621,7 @@ sub inflect {
     $r .= display_headline $c;
 
     my @example = ( [ '(3105,1)',               '-P-A-3---- -C--------' ],
-		    [ '(3105,-2) (1455,-5)',    '--[ISJ]------[IRD]'    ] );
+                    [ '(3105,-2) (1455,-5)',    '--[ISJ]------[IRD]'    ] );
 
     if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
 
