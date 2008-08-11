@@ -244,38 +244,13 @@ ElixirFM::Resolve - Interfaces to the ElixirFM system in Haskell
 
 =head1 DESCRIPTION
 
-This module is a wrapper for various implementations of the encoding systems used for the Arabic
-language and covering even some non-Arabic extensions to the Arabic script. The included modules
-fit in the philosophy of L<Encode::Encoding|Encode::Encoding> and can be used directly with the
-L<Encode|Encode> module.
+The L<ElixirFM|ElixirFM> module reimplements some of the functionality of the ElixirFM system
+written in Haskell.
 
-
-=head1 SYNOPSIS
-
-Quick summary of what the module does.
-
-Perhaps a little code snippet.
-
-    use ElixirFM;
-
-    my $foo = ElixirFM->new();
-    ...
-
-
-=head1 FUNCTIONS
-
-=head2 function1
-
-=cut
-
-=head2 function2
-
-=cut
-
-=head1 BUGS
-
-Please report any bugs or feature requests to C<bug-elixirfm at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=ElixirFM>.
+In particular, it includes the L<ElixirFM::Resolve|ElixirFM::Resolve> and
+L<ElixirFM::Data::Compose|ElixirFM::Data::Compose> modules providing the algorithms and data for
+advanced Arabic morphological analysis, see also the L<elixir-resolve|elixir-resolve> executable.
+Other applications, such as morphological generation, can also be implemented with ElixirFM.
 
 
 =head1 SUPPORT
@@ -285,47 +260,20 @@ You can find documentation for this module with the perldoc command.
     perldoc ElixirFM
 
 
-You can also look for information at:
-
-=over 4
-
-=item * ElixirFM Project
-
-L<http://sourceforge.net/projects/elixir-fm/>
-
-=item * RT: CPAN's request tracker
-
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=ElixirFM>
-
-=item * AnnoCPAN: Annotated CPAN documentation
-
-L<http://annocpan.org/dist/ElixirFM>
-
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/ElixirFM>
-
-=item * Search CPAN
-
-L<http://search.cpan.org/dist/ElixirFM>
-
-=back
-
-
-=head1 ACKNOWLEDGEMENTS
+You can also look for information at L<http://sourceforge.net/projects/elixir-fm/>.
 
 
 =head1 AUTHOR
 
-Otakar Smrz, C<< <otakar smrz mff cuni cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
+Otakar Smrz C<< <otakar smrz mff cuni cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
 
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2008 Otakar Smrz
+Copyright (C) 2008-2005 Otakar Smrz, 2002 Tim Buckwalter
 
 This program is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself.
+under the terms of the GNU General Public License version 3.
 
 
 =cut

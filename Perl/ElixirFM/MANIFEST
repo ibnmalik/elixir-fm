@@ -1,18 +1,19 @@
 bin/elixir-compose.pl
 bin/elixir-resolve.pl
 Build.PL
-Changes
-cgi/elixir/index.fcgi
-css/elixir.css
-css/listexpander/collapsed.gif
-css/listexpander/empty.gif
-css/listexpander/expanded.gif
-css/listexpander/listexpander.css
-css/listexpander/listexpander.js
-lib/CGI/Application/ElixirFM.pm
+# Changes
+# cgi/elixir/index.fcgi
+# css/elixir.css
+# css/listexpander/collapsed.gif
+# css/listexpander/empty.gif
+# css/listexpander/expanded.gif
+# css/listexpander/listexpander.css
+# css/listexpander/listexpander.js
+LICENSE
+# lib/CGI/Application/ElixirFM.pm
 lib/ElixirFM.pm
 lib/ElixirFM/Data/Compose.PL
-lib/ElixirFM/Data/Lexicon.pm
+# lib/ElixirFM/Data/Lexicon.pm
 lib/ElixirFM/Resolve.pm
 lib/MorphoMap.pm
 MANIFEST

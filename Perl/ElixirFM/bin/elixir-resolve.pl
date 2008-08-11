@@ -2,6 +2,22 @@
 
 BEGIN {
 
+    our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
+
+    use Getopt::Std;
+
+    $Getopt::Std::STANDARD_HELP_VERSION = 1;
+    
+    our $options = {};
+
+    getopts('v', $options);
+
+    warn $VERSION . "\n" and exit if exists $options->{'v'};
+}
+
+
+BEGIN {
+
     warn "Initializing ...\n";
 }
 
@@ -35,3 +51,46 @@ sub undiacritize {
 
     return $text;
 }
+
+
+__END__
+
+
+=head1 NAME
+
+elixir-resolve - Arabic morphological analyzer derived from ElixirFM
+
+
+=head1 REVISION
+
+    $Revision$        $Date$
+
+
+=head1 OPTIONS
+
+  elixir-resolve [OPTIONS]
+    -v       --version      show program's version
+             --help         show usage information
+
+
+=head1 SEE ALSO
+
+ElixirFM Project                L<http://sourceforge.net/projects/elixir-fm/>
+
+Encode Arabic Project           L<http://sourceforge.net/projects/encode-arabic/>
+
+
+=head1 AUTHOR
+
+Otakar Smrz C<< <otakar smrz mff cuni cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
+
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright (C) 2008-2005 Otakar Smrz, 2002 Tim Buckwalter
+
+This library is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 3.
+
+
+=cut

@@ -7,10 +7,6 @@
 our $VERSION = do { q $Revision$ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
 
 
-use lib '/home/smrz/lib/perl5/site_perl/5.10.0', '/home/smrz/lib/perl5/5.10.0',
-        '/home/smrz/lib/perl5/site_perl/5.10.0/i386-linux-thread-multi',
-        '/home/smrz/lib/perl5/site_perl/5.10.0/i386-linux-thread-multi/auto';
-
 package CGI::Application::ElixirFM;
 
 use base 'CGI::Application::FastCGI';
@@ -27,8 +23,8 @@ use strict;
 
 
 our %enc_hash = (   'ArabTeX'       =>      'TeX',
-		    'Buckwalter'    =>      'Tim',
-		    'Unicode'       =>      'UTF'   );
+                    'Buckwalter'    =>      'Tim',
+                    'Unicode'       =>      'UTF'   );
 
 our @enc_list = sort keys %enc_hash;
 
