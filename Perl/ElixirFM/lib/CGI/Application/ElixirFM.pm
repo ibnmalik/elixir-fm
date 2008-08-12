@@ -4,7 +4,7 @@
 
 # $Id$
 
-our $VERSION = do { q $Revision$ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
+our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
 
 
 package CGI::Application::ElixirFM;
@@ -17,18 +17,19 @@ use Benchmark;
 
 use ElixirFM;
 
+use Encode::Arabic::ArabTeX ':simple';
 use Encode::Arabic::Buckwalter ':xml';
 
 use strict;
 
+
+our $session;
 
 our %enc_hash = (   'ArabTeX'       =>      'TeX',
                     'Buckwalter'    =>      'Tim',
                     'Unicode'       =>      'UTF'   );
 
 our @enc_list = sort keys %enc_hash;
-
-our $session;
 
 
 sub setup {
