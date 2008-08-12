@@ -155,6 +155,13 @@ sub display_footer ($) {
     return $r;
 }
 
+sub show_param ($@) {
+
+    my $q = shift;
+
+    return join '', map { '&' . $_ . '=' . $q->param($_) } @_;
+}
+
 
 sub pretty_resolve ($$) {
 
@@ -286,11 +293,11 @@ sub pretty_resolve_tree {
 	  $q->div({-title => "lexical reference"},       $info[2]),
 
 	  $q->ul($q->div({-title => "inflect this lexeme"},
-                     $q->a({-href => 'index.fcgi?elixir=inflect&code=' . $info[0]}, "Inflect")),
+                     $q->a({-href => 'index.fcgi?elixir=inflect' . show_param($q, 'data') . '&code=' . $info[0]}, "Inflect")),
     		 $q->div({-title => "derive other lexemes"},
-                     $q->a({-href => 'index.fcgi?elixir=derive&code=' . $info[0]}, "Derive")),
+                     $q->a({-href => 'index.fcgi?elixir=derive' . show_param($q, 'data') . '&code=' . $info[0]}, "Derive")),
     		 $q->div({-title => "lookup in the lexicon"},
-                     $q->a({-href => 'index.fcgi?elixir=lookup&code=' . $info[0]}, "Lookup")),
+                     $q->a({-href => 'index.fcgi?elixir=lookup' . show_param($q, 'data') . '&code=' . $info[0]}, "Lookup")),
 
     		 $q->li($q->table({-cellspacing => 0},
 
@@ -818,8 +825,8 @@ sub derive {
 		"You can try out the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "executable"),
 		"or the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "library"), "instead, though.");
 
-    $r .= $q->p($q->div($q->a({-href => 'index.fcgi?elixir=resolve'}, "ElixirFM Resolve")),
-		$q->div($q->a({-href => 'index.fcgi?elixir=inflect&code=' . $q->param('code')}, "ElixirFM Inflect")));
+    $r .= $q->p($q->div($q->a({-href => 'index.fcgi?elixir=resolve' . show_param($q, 'data')},         "ElixirFM Resolve")),
+		$q->div($q->a({-href => 'index.fcgi?elixir=inflect' . show_param($q, 'data', 'code')}, "ElixirFM Inflect")));
 
     $r .= display_footer $c;
 
