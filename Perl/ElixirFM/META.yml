@@ -13,7 +13,7 @@ build_requires:
   Encode::Arabic: 0
   Encode::Mapper: 0
   Test::More: 0
-generated_by: Module::Build version 0.280801
+generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2
@@ -28,4 +28,4 @@ provides:
     file: lib/MorphoMap.pm
     version: 1.9
 resources:
-  license: http://opensource.org/licenses/gpl-license.php
+  license: http://www.opensource.org/licenses/gpl-license.php

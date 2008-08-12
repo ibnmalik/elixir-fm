@@ -89,7 +89,7 @@ infixr 4 ->-
 infix  4 -<-
 
 
--- Fischer (2002), par. 42 ('i' > 'iy is reflected in patterns)
+-- Fischer (2002), par. 40 ('i' > 'iy is reflected in patterns)
 
 (->-) :: Prefix -> String -> String
 
@@ -106,10 +106,13 @@ Prefix "'u" ->- '\'' : s | isClosed s = "'U" ++ s
 Prefix [x, 'u'] ->- y : s | isClosed s &&
                             y `elem` "wy" = x : 'U' : s
 
--- encoding is independent of orthographic or phonetic context
+-- Fischer (2002), par. 237, 238, 241, 242 (i'talif, iwdad, iwraqqa)
+-- Wright (1967), par. 143, 145 versus Wehr (i'tamara, i'talafa)
 --
 -- Prefix "i" ->- '\'' : s = 'I' : s        -- would not cover
 -- Prefix "u" ->- '\'' : s = 'U' : s        -- patterns anyway
+--
+-- encoding need be independent of orthographic or phonetic context
 
 Prefix x ->- s = x ++ s
 
