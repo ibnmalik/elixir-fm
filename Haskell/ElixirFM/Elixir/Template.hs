@@ -107,7 +107,7 @@ Prefix [x, 'u'] ->- y : s | isClosed s &&
                             y `elem` "wy" = x : 'U' : s
 
 -- Fischer (2002), par. 237, 238, 241, 242 (i'talif, iwdad, iwraqqa)
--- Wright (1967), par. 143, 145 versus Wehr (i'tamara, i'talafa)
+-- Wright (1991), par. 143, 145 vs. Ryding (2005), p. 568 (i'tamara)
 --
 -- Prefix "i" ->- '\'' : s = 'I' : s        -- would not cover
 -- Prefix "u" ->- '\'' : s = 'U' : s        -- patterns anyway
