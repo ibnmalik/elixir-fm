@@ -9,7 +9,6 @@
 .listexpander li{
 	margin:0px;
 	padding:0px;
-	padding-top:2px;
 	list-style:none;
 	line-height:150%;
 }
@@ -22,8 +21,7 @@
 }
 .listexpander li{
 	line-height:150%;
-	/*margin-top:1px;*/
-	margin-top:5px;
+	border-top:2px white solid;
 	cursor:default;
 	text-indent:30px;
 	font-weight:bold;
@@ -46,9 +44,9 @@
 
 /* first level */
 
-.listexpander li{background:palegoldenrod;}
-.listexpander li.collapsed{background:palegoldenrod url(collapsed.gif) no-repeat 5px .4em;} 
-.listexpander li.expanded{background:palegoldenrod url(expanded.gif) no-repeat 5px .4em;}
+.listexpander li{background:/*palegoldenrod*/ #EEE8AA;}
+.listexpander li.collapsed{background:/*palegoldenrod*/ #EEE8AA url(collapsed.gif) no-repeat 5px .4em;} 
+.listexpander li.expanded{background:/*palegoldenrod*/ #EEE8AA url(expanded.gif) no-repeat 5px .4em;}
 
 ul.listexpander li.empty{cursor:default;background:#f8e7e7 url(empty.gif) no-repeat 5px .4em;} 
 
@@ -56,15 +54,15 @@ ul.listexpander li.empty{cursor:default;background:#f8e7e7 url(empty.gif) no-rep
 
 .listexpander li ul,
 .listexpander li li{background:#eee;font-weight:normal;}
-.listexpander li li.collapsed{background:#eee url(collapsed.gif) no-repeat 5px .4em;} 
-.listexpander li li.expanded{background:#eee url(expanded.gif) no-repeat 5px .4em;}
+.listexpander li li.collapsed{background:#eee url(collapsed.gif) no-repeat 5px .5em;} 
+.listexpander li li.expanded{background:#eee url(expanded.gif) no-repeat 5px .5em;}
 
 /* third level */
 
 .listexpander li li ul,
 .listexpander li li li{background:#fff;}
-.listexpander li li li.collapsed{background:#fff url(collapsed.gif) no-repeat 5px .4em;} 
-.listexpander li li li.expanded{background:#fff url(expanded.gif) no-repeat 5px .4em;}
+.listexpander li li li.collapsed{background:#fff url(collapsed.gif) no-repeat 5px .5em;} 
+.listexpander li li li.expanded{background:#fff url(expanded.gif) no-repeat 5px .5em;}
 
 /* fourth level */
 

@@ -13,22 +13,24 @@
 }
 
 .root {
-    color: indigo;
+    color: /*indigo*/ #4B0082;
+    white-space: nowrap;
 }
 
 .morphs {
     font-family: Courier New;   
-    color: goldenrod;
+    color: /*goldenrod*/ #DAA520;
+    white-space: nowrap;
 }
 
 .class {
     font-family: Courier New;   
-    color: orangered;
+    color: /*orangered*/ #FF4500;
 }
 
 .stems {
     font-family: Courier New;   
-    color: goldenrod;
+    color: /*goldenrod*/ #DAA520;
 }
 
 .word {
@@ -36,7 +38,7 @@
 }
 
 .notice {
-    color: orangered;
+    color: /*orangered*/ #FF4500;
 }
 
 body {
@@ -53,6 +55,54 @@ table {
     border-spacing: 0px;
 }
 
+table.lexeme {
+    width: 98%;
+    margin: 0px;
+    padding: 2px 0px;
+    border-spacing: 0px;
+}
+
+.lexeme td.xtag {
+    min-width: 2ex;
+}
+
+.lexeme td.phon {
+    min-width: 5em;
+}
+
+.lexeme td.orth {
+    min-width: 3em;
+}
+
+.lexeme td.atex {
+    min-width: 5em;
+}
+
+.lexeme td.root {
+    min-width: 9ex;
+}
+
+.lexeme td.morphs {
+    min-width: 8em;
+}
+
+.lexeme td.class {
+    width: 4em;
+}
+
+.lexeme td.stems {
+    width: 5em;
+}
+
+.lexeme td.reflex {
+    width: 20em;
+}
+
+.lexeme td.button {
+    min-width: 10em;
+    white-space: nowrap;
+}
+
 td {
     border: 0px;
     padding: 0px;
@@ -63,6 +113,10 @@ td {
     vertical-align: baseline;
 }
 
+td.orth {
+    text-align: right;
+}
+
 input {
     font-size: medium;
 }
@@ -70,8 +124,8 @@ input {
 h1 {
     font-size: x-large;
     font-weight: bold;
-    color: palegoldenrod;
-    background-color: indigo;
+    color: /*palegoldenrod*/ #EEE8AA;
+    background-color: /*indigo*/ #4B0082;
     padding: 3px 6px;
 } 
     
@@ -79,10 +133,10 @@ h2 {
     font-size: large;
     font-weight: bold;
     line-height: 130%;
-    color: indigo;
+    color: /*indigo*/ #4B0082;
     border: 1px;
     border-style: solid;
-    border-color: goldenrod;
+    border-color: /*goldenrod*/ #DAA520;
     padding: 2px 5px; 
 }
 
@@ -91,18 +145,17 @@ h3 {
     font-weight: bold;
     line-height: 130%;
     color: black;
-    /* background-color: palegoldenrod; */
     border: 1px;
     border-style: solid;
-    border-color: gold;
+    border-color: /*gold*/ #FFD700;
     padding: 2px 5px; 
 }
 
-h3 div {
+h3 span {
     margin-right: 0em;
 }
 
-h3 div:before {
+h3 span:before {
     content: "Input word";
     font-size: medium;
     font-weight: normal;
@@ -110,39 +163,39 @@ h3 div:before {
 }
 
 a:link { 
-    color: indigo;
+    color: /*indigo*/ #4B0082;
     text-decoration: none;
 }
 
 h1 a:link { 
-    color: gold;
+    color: /*gold*/ #FFD700;
     text-decoration: none;
 }
 
 a:visited { 
-    color: indigo;
+    color: /*indigo*/ #4B0082;
     text-decoration: none;
 }
 
 h1 a:visited { 
-    color: gold;
+    color: /*gold*/ #FFD700;
     text-decoration: none;
 }
 
 a:hover {
-    color: indigo;
+    color: /*indigo*/ #4B0082;
     text-decoration: none;
-    background-color: palegoldenrod;
+    background-color: /*palegoldenrod*/ #EEE8AA;
 }
 
 h1 a:hover {
-    color: gold;
+    color: /*gold*/ #FFD700;
     text-decoration: none;
-    background-color: indigo;
+    background-color: /*indigo*/ #4B0082;
 }
 
 a:active { 
-    color: gold;
+    color: /*gold*/ #FFD700;
     text-decoration: none;
 }
 
@@ -151,36 +204,43 @@ code {
     font-size: medium;
 }
 
-div {
+span {
     display: inline;
     margin-right: 1em;
 }
 
-ul div a {
+td.button {
+    text-align: right;
+}
+
+.button a {
     padding:0 5px;
     border:1px solid #ddd;
     margin-right:0em;
-}
-
-ul div a:visited {
-    padding:0 5px;
-    border:1px solid #ddd;
-    margin-right:0em;
-}
-
-ul div a:hover {
-    padding:0 5px;
-    border:1px solid gold;
-    margin-right:0em;
-    color: orangered;
     background-color: white;
+    text-align: right;
+    /* position: relative; */
+    /* left:200px; */
 }
 
-ul div a:active {
+.button a:visited {
     padding:0 5px;
-    border:1px solid gold;
+    border:1px solid #ddd;
     margin-right:0em;
-    color: gold;
+}
+
+.button a:hover {
+    padding:0 5px;
+    border:1px solid /*gold*/ #FFD700;
+    margin-right:0em;
+    color: /*orangered*/ #FF4500;
+}
+
+.button a:active {
+    padding:0 5px;
+    border:1px solid /*gold*/ #FFD700;
+    margin-right:0em;
+    color: /*gold*/ #FFD700;
 }
 
 td.xtag input {
