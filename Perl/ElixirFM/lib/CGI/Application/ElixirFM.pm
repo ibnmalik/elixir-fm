@@ -67,6 +67,18 @@ sub reinit {
     return -M $0 < 0;
 }
 
+
+sub escape ($) { 
+
+    my $x = shift; 
+
+    $x =~ s/\&/\&amp;/g;
+    $x =~ s/\</\&lt;/g;
+    $x =~ s/\>/\&gt;/g;
+    
+    return $x;
+}
+
 sub tick (\@) {
 
     push @{$_[0]}, new Benchmark;
@@ -285,11 +297,11 @@ sub pretty_resolve_tree {
 	  $q->div({-class => "root",
                -title => "root of citation form"},   $info[-2]),
 	  $q->div({-class => "morphs",
-		       -title => "morphs of citation form"}, $info[-1]),
+		       -title => "morphs of citation form"}, escape $info[-1]),
 	  $q->div({-class => "class",
                -title => "derivational class"},      $info[3]),
 	  $q->div({-class => "stems",
-		       -title => "inflectional stems"},      $info[1]),
+		       -title => "inflectional stems"},      escape $info[1]),
 	  $q->div({-title => "lexical reference"},       $info[2]),
 
 	  $q->ul($q->div({-title => "inflect this lexeme"},
@@ -317,7 +329,7 @@ sub pretty_resolve_tree {
                                 $q->td({-class => "root",
                                         -title => "root of inflected form"},     $info[-2]),
                                 $q->td({-class => "morphs",
-                                        -title => "morphs of inflected form"},   $info[-1]) )
+                                        -title => "morphs of inflected form"},   escape $info[-1]) )
 
                         } @tokens ] ) )) ) )
 
@@ -346,6 +358,8 @@ sub pretty_resolve_list {
 
     my @orth = map { decode "arabtex", $_ } @data[1, 4];
     my @phon = map { decode "zdmg", $_ } @data[1, 4];
+
+    @data[3, 6, 9] = map { escape $_ } @data[3, 6, 9];
 
     return join $", $q->td({-class => "xtag",
                             -title => ElixirFM::describe($data[0])}, $data[0]),
@@ -393,7 +407,8 @@ sub resolve {
 
     $r .= display_headline $c;
 
-    my @example = ( [ 'Unicode',    (decode "buckwalter", "AqrO Aldrs AlOwl") ],
+    my @example = ( [ 'Unicode',    decode "buckwalter", "AqrO Aldrs AlOwl" ],
+		    [ 'ArabTeX',    "iqra' ad-darsa al-'awwala" ],
 		    [ 'ArabTeX',    "ad-dars al-'awwal" ],
 		    [ 'ArabTeX',    "y`tbru m.d'N" ],
 		    [ 'ArabTeX',    "narY mqhN" ],
@@ -402,10 +417,10 @@ sub resolve {
 		    [ 'Buckwalter', "yEtbr mDy}A" ],
 		    [ 'Buckwalter', "narY mqhY" ],
 		    [ 'Buckwalter', "HyApN jydpN" ],
-		    [ 'Unicode',    (decode "buckwalter", "Aldrs AlOwl") ],
-		    [ 'Unicode',    (decode "buckwalter", "yEtbr mDy}A") ],
-		    [ 'Unicode',    (decode "buckwalter", "narY mqhY") ],
-		    [ 'Unicode',    (decode "buckwalter", "HyApN jydpN") ] );
+		    [ 'Unicode',    decode "buckwalter", "Aldrs AlOwl" ],
+		    [ 'Unicode',    decode "buckwalter", "yEtbr mDy}A" ],
+		    [ 'Unicode',    decode "buckwalter", "narY mqhY" ],
+		    [ 'Unicode',    decode "buckwalter", "HyApN jydpN" ] );
 
     if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
 
@@ -480,9 +495,9 @@ sub resolve {
 
                 Tr( {-align => 'left'},
 
-                    td({-align => 'left'},  $q->submit(-name => 'submit', -value => ucfirst $q->param($c->mode_param()))),
+                    td({-align => 'left'},   $q->submit(-name => 'submit', -value => ucfirst $q->param($c->mode_param()))),
                     td({-align => 'center'}, $q->reset('Reset')),
-                    td({-align => 'right'}, $q->submit(-name => 'submit', -value => 'Example')),
+                    td({-align => 'right'},  $q->submit(-name => 'submit', -value => 'Example')),
 
                     td( {-align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
 
@@ -562,7 +577,7 @@ sub resolve {
 
     $r .= display_footer $c;
 
-    return $r;
+    return encode "utf8", $r;
 }
 
 
@@ -602,7 +617,7 @@ sub pretty_inflect_list {
 		   $q->td({-class => "root",
 			       -title => "root of inflected form"},     $data[2]),
 		   $q->td({-class => "morphs",
-			       -title => "morphs of inflected form"},   $data[3]) );
+			       -title => "morphs of inflected form"},   escape $data[3]) );
 }
 
 
@@ -795,7 +810,7 @@ sub lookup {
 		"or the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "library"), "instead, though.");
 
     $r .= $q->p($q->div($q->a({-href => 'index.fcgi?elixir=resolve'}, "ElixirFM Resolve")),
-		$q->div($q->a({-href => 'index.fcgi?elixir=inflect&code=' . $q->param('code')}, "ElixirFM Inflect")));
+		$q->div($q->a({-href => 'index.fcgi?elixir=inflect' . show_param($q, 'code')}, "ElixirFM Inflect")));
 
     $r .= display_footer $c;
 
