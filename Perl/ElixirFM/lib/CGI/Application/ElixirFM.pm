@@ -68,14 +68,14 @@ sub reinit {
 }
 
 
-sub escape ($) { 
+sub escape ($) {
 
-    my $x = shift; 
+    my $x = shift;
 
     $x =~ s/\&/\&amp;/g;
     $x =~ s/\</\&lt;/g;
     $x =~ s/\>/\&gt;/g;
-    
+
     return $x;
 }
 
