@@ -88,10 +88,6 @@ cluster_1   = listing "Lexicon's properties"
 cluster_2   = listing "Lexicon's properties"
 
 
- |> "-- y h" <| [
-
-    HIL                       `noun`    {- Iiyh -}             [ "A." ] ]
-
  |> ".d" <| [
 
     Identity                  `noun`    {- D -}                [ "D", "26th" ] ]
@@ -168,13 +164,13 @@ cluster_2   = listing "Lexicon's properties"
 
     Identity |<< "a"          `prep`    {- ka -}               [ "as", "like", "K", "11th", unwords [ "(", "kilo", "-", ")" ] ] ]
 
-
-cluster_3   = listing "Lexicon's properties"
-
-
  |> "l" <| [
 
     Identity |<< "i"          `prep`    {- li -}               [ "for", "to", "L", "12th", unwords [ "(", "pounds", "/", "lira", ")" ] ] ]
+
+
+cluster_3   = listing "Lexicon's properties"
+
 
  |> "m" <| [
 

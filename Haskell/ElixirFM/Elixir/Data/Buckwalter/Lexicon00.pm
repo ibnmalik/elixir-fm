@@ -173,27 +173,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  '-- y h' => [
-    {
-      'types' => {},
-      'entry' => '\'iyh',
-      'form' => '\'iyh',
-      'lines' => [
-        ';; Iiyh_1',
-        'Iiyh    FW      A.     [[Oay/ABBREV]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'HIL',
-      'suffix' => '',
-      'glosses' => [
-        'A.'
-      ],
-      'orig' => 'Iiyh',
-      'prefix' => ''
-    }
-  ],
   't' => [
     {
       'types' => {},

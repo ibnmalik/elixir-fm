@@ -82,17 +82,13 @@ cluster_1   = listing "Lexicon's properties"
 
     CI                        `noun`    {- tiy -}              [ "T." ] ]
 
- |> "-- y h" <| [
+ |> ".g" <| [
 
-    HIL                       `noun`    {- Iiyh -}             [ "A." ] ]
+    Identity                  `noun`    {- g -}                [ "GH", "28th", unwords [ "(", "Greenwich", ")" ], unwords [ "(", "piaster", ")" ], unwords [ "(", "gram", ")" ] ] ]
 
 
 cluster_2   = listing "Lexicon's properties"
 
-
- |> ".g" <| [
-
-    Identity                  `noun`    {- g -}                [ "GH", "28th", unwords [ "(", "Greenwich", ")" ], unwords [ "(", "piaster", ")" ], unwords [ "(", "gram", ")" ] ] ]
 
  |> ".s" <| [
 
@@ -170,13 +166,13 @@ cluster_2   = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tg -}               [ "G.M.T." ] ]
 
-
-cluster_3   = listing "Lexicon's properties"
-
-
  |> "w" <| [
 
     Identity |<< "a"          `conj`    {- wa -}               [ "and", "W", "6th" ] ]
+
+
+cluster_3   = listing "Lexicon's properties"
+
 
  |> "y" <| [
 

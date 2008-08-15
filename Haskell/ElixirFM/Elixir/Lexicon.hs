@@ -671,6 +671,110 @@ genericLexicon = listing "Generic lexicon"
 
         ]
 
+ {-      
+    |> "' b w" <| [
+    
+        ]
+
+    |> "' _h w" <| [
+    
+        ]
+
+    |> ".h m w" <| [
+    
+        ]
+
+    |> "f w h" <| [
+    
+        ]
+-}
+
+    |> "' l h" <| [
+    
+        al >| "l_ah"        <::>    "N--------[D]"      <..>    [ "Allah", "God" ],
+        
+        "'il_ah"            <::>    "N--------[IRA]"    
+                                                        <..>    [ "god", "deity" ]
+                            `plural`    "'Alih" |< aT,
+        
+        "'il_ah" |< Iy      `adj`   [ "divine", "godly", "theological" ]
+        
+        ]
+
+
+    |> "' l h" <| [
+    
+        FiCAL           `noun`                      [ "god", "deity" ]
+                        `plural`    HACiL |< aT,
+        
+        FiCAL |< aT     `noun`                      [ "goddess", unwords [ "female", "deity" ] ]
+                        `plural`    FiCAL |< At,
+
+        FiCAL |< Iy     `adj`                       [ "divine", "godly", "theological" ],
+        
+        FACiL           `noun`                      [ "god" ],
+                        
+        FACiL |< aT     `noun`                      [ "goddess" ]
+                        `plural`    FACiL |< At,
+        
+        FACiL |< Iy     `adj`                       [ "divine" ]
+                                                        
+        ]
+
+
+    |> "_d" <| [
+    
+        "_d" |<< "U"        <::>    "SD--------"
+                                                        <..>    [ "the one of", "the one with" ]
+                            <.>     "SD----MS2-"
+                                                        <:>     "_d" |<< "I"
+                            <.>     "SD----MS4-"
+                                                        <:>     "_d" |<< "A"
+
+                            <.>     "SD----MD1-"
+                                                        <:>     "_daw" |<< "A"
+                            <.>     "SD----MD[24]-"
+                                                        <:>     "_daw" |<< "ay"
+
+                            <.>     "SD----MP1-"
+                                                        <:>     "_daw" |<< "U"
+                            <.>     "SD----MP[24]-"
+                                                        <:>     "_daw" |<< "I"
+
+                            <.>     "SD----FS1-"
+                                                        <:>     "_dAt" |<< "u"
+                            <.>     "SD----FS2-"
+                                                        <:>     "_dAt" |<< "i"
+                            <.>     "SD----FS4-"
+                                                        <:>     "_dAt" |<< "a"
+
+                            <.>     "SD----FD1-"
+                                                        <:>     "_dAt" |<< "A"
+                                                        <:>     "_dawAt" |<< "A"
+                            <.>     "SD----FD[24]-"
+                                                        <:>     "_dAt" |<< "ay"
+                                                        <:>     "_dawAt" |<< "ay"
+
+                            <.>     "SD----FP1-"
+                                                        <:>     "_daw" |< At |<< "u"
+                            <.>     "SD----FP[24]-"
+                                                        <:>     "_daw" |< At |<< "i"
+        ]
+
+
+    |> "l" <| [
+    
+        "'_Ul" |<< "U"      <::>    "SD-----P--"
+                                                        <..>    [ "the ones of", "the ones with" ]
+                            <.>     "SD----MP[24]-"
+                                                        <:>     "'_Ul" |<< "I"
+
+                            <.>     "SD----FP1-"
+                                                        <:>     "'_Ul" |< At |<< "u"
+                            <.>     "SD----FP[24]-"
+                                                        <:>     "'_Ul" |< At |<< "i"
+        ]
+
 
     |> "l" <| [
 
