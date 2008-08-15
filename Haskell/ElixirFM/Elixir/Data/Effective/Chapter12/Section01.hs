@@ -12,12 +12,6 @@ lexicon = include section
 cluster_1   = listing "Lexicon's properties"
 
 
- |> "ism" <| [
-
-    Identity                  `noun`    {- Aisom -}            [ "name" ],
-
-    Identity |< Iy            `adj`     {- Aisomiy~ -}         [ "nominal", unwords [ "in", "name" ] ] ]
-
  |> "s ' .h" <| [
 
     FACiL                     `noun`    {- sA}iH -}            [ "tourist" ]

@@ -569,6 +569,15 @@ sub throwForms {
 
     @form = map { my ($x, $y) = ($_) x 2;
 
+                  $y =~ s/(?<=^)F/H/            if $toor[0] =~ /^[\']$/ and $x =~ /^(?:FACiL|FACI|FiCL|FIL)$/;
+                  $y =~ s/(?<=^)H/F/            if $toor[0] =~ /^[\']$/ and $x =~ /^(?:HACaL|HACY|HICAL)$/;
+
+                  $y =~ s/(?<=^)F/T/            if $toor[0] =~ /^[t]$/;
+
+                  $y eq $x ? $x : ($x, $y) } @form;
+
+    @form = map { my ($x, $y) = ($_) x 2;
+
                   $y =~ s/(?<!^)F/$toor[0]/     if $toor[0] =~ /^[\'wy]$/;
 
                   $y eq $x ? $x : ($x, $y) } @form;
@@ -787,7 +796,7 @@ sub initializePatterns {
                                 $x =~ s/(?<![\$\<])$c/\\k<$c>/g;
                             }
 
-                            $x = '^' . $x . '$';    
+                            $x = '^' . $x . '$';
 
                             qr/$x/
 

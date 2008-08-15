@@ -46,6 +46,9 @@ cluster_21  = listing "Lexicon's properties"
 
     IFtaCaL                   `verb`    {- Ait~aham -}         [ "accuse" ],
 
+    TuCL |< aT                `noun`    {- tuhomap -}          [ "accusation", "charge" ]
+                              `plural`     TuCaL,
+
     FaCL                      `noun`    {- wahom -}            [ "delusion", "imagination" ]
                               `plural`     HaFCAL,
 

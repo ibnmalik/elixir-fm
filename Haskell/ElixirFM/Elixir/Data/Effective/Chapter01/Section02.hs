@@ -12,132 +12,6 @@ lexicon = include section
 cluster_21  = listing "Lexicon's properties"
 
 
- |> "' n f" <| [
-
-    IstaFCaL                  `verb`    {- AisotaOonaf -}      [ "resume", unwords [ "start", "over" ], "appeal" ],
-
-    FaCL                      `noun`    {- Oanof -}            [ "nose", "pride" ]
-                              `plural`     FuCUL,
-
-    FaCaL |< aT               `noun`    {- Oanafap -}          [ "pride", "disdain" ],
-
-    FACiL                     `noun`    {- \|nif -}            [ "previous", "beforehand" ]
-    `derives` "------F---",
-
-    HACiL                     `noun`    {- \|nif -}            [ "previous", "beforehand" ]
-    `derives` "------F---",
-
-    IstiFCAL                  `noun`    {- Aisoti}onAf -}      [ "resumption", "appeal" ]
-                              `plural`     IstiFCAL |< At,
-
-    IstiFCAL |< Iy            `adj`     {- Aisoti}onAfiy~ -}   [ "appellate" ] ]
-
- |> "' n h" <| [
-
-    FAL                       `noun`    {- \|h -}              [ unwords [ "ah", "!" ], unwords [ "ouch", "!" ] ]
-                              `plural`     FaL ]
-
- |> "' n n" <| [
-
-    FaL                       `part`    {- Oan -}              [ "to" ],
-
-    FaCL |<< "a"              `part`    {- Oan~a -}            [ "that" ]
-                              `plural`     FaCL,
-
-    FiL                       `part`    {- Iin -}              [ unwords [ "if", "/", "whether" ] ],
-
-    FiCL |<< "a"              `part`    {- Iin~a -}            [ unwords [ "that", "/", "indeed" ] ]
-                              `plural`     FiCL,
-
-    FaCAL                     `noun`    {- OanAn -}            [ "Annan" ] ]
-
- |> "' n q" <| [
-
-    FaCAL |< aT               `noun`    {- OanAqap -}          [ "elegance", "grace" ] ]
-
- |> "' n q r" <| [
-
-    KaRDaS |< aT              `noun`    {- Oanoqarap -}        [ "Ankara" ]
-                           {- `others`  [ "'ankarah N0", "'anqarah N0" ] -} ]
-
- |> "' n r n" <| [
-
-    KiRDUS                    `noun`    {- Iinoruwn -}         [ "Enron" ] ]
-
-
-cluster_22  = listing "Lexicon's properties"
-
-
- |> "' n s" <| [
-
-    FiCL                      `noun`    {- Iinos -}            [ "humans", "people" ]
-                              `plural`     HACAL
-                              `plural`     FuCAL
-                              `plural`     FaCaL,
-
-    FaCIL                     `noun`    {- Oaniys -}           [ "affable", "sociable" ]
-                              `plural`     FaCIL |< Un
-    `derives` "------F---",
-
-    FiCLAn                    `noun`    {- IinosAn -}          [ unwords [ "human", "being" ] ]
-                              `plural`     FuCAL
-    `derives` "------F---",
-
-    FiCLAn |< Iy              `adj`     {- IinosAniy~ -}       [ "human", "humane" ],
-
-    FiCLAn |< Iy |< aT        `noun`    {- IinosAniy~ap -}     [ "humanity" ],
-
-    HACiL |< aT               `noun`    {- \|nisap -}          [ "lady", "Miss" ],
-
-    FACiL |< aT               `noun`    {- \|nisap -}          [ "lady", "Miss" ] ]
-
- |> "' n s n" <| [
-
-    KiRDAS                    `noun`    {- IinosAn -}          [ unwords [ "human", "being" ] ]
-                           {- `others`  [ "'unAs N" ] -}
-    `derives` "------F---",
-
-    KiRDAS |< Iy              `adj`     {- IinosAniy~ -}       [ "human", "humane" ],
-
-    KiRDAS |< Iy |< aT        `noun`    {- IinosAniy~ap -}     [ "humanity" ] ]
-
- |> "' n t" <| [
-
-    FaCL |<< "a"              `pron`    {- Oanota -}           [ "you" ],
-
-    FaCL |<< "i"              `pron`    {- Oanoti -}           [ "you" ] ]
-
- |> "' n w" <| [
-
-    FaL                       `conj`    {- Oaw -}              [ "or" ] ]
-
- |> "' n y" <| [
-
-    FaC                       `part`    {- Oan -}              [ "to" ],
-
-    FiC                       `part`    {- Iin -}              [ unwords [ "if", "/", "whether" ] ],
-
-    MutaFaCCI                 `noun`    {- mutaOan~iy -}       [ "circumspect", "prudent" ]
-                              `plural`     MutaFaCCI |< At ]
-
-
-cluster_23  = listing "Lexicon's properties"
-
-
- |> "' q l m" <| [
-
-    TaKaRDaS                  `verb`    {- taOaqolam -}        [ unwords [ "be", "acclimatized" ], "adjust" ],
-
-    KaRDaS |< aT              `noun`    {- Oaqolamap -}        [ "acclimatization", "adjustment" ]
-                              `plural`     TaKaRDuS,
-
-    KiRDIS                    `noun`    {- Iiqoliym -}         [ "region", "district" ]
-                              `plural`     KaRADIS,
-
-    KiRDIS |< Iy              `adj`     {- Iiqoliymiy~ -}      [ "regional", "territorial" ],
-
-    KiRDIS |< Iy |< aT        `noun`    {- Iiqoliymiy~ap -}    [ "regionalism" ] ]
-
  |> "' q t" <| [
 
     MuFaCCaL                  `noun`    {- muWaq~at -}         [ "temporary", "provisional" ]
@@ -167,6 +41,11 @@ cluster_23  = listing "Lexicon's properties"
  |> "' r _h" <| [
 
     TaFCIL                    `noun`    {- taOoriyx -}         [ "historiography", "dating" ],
+
+    TACIL                     `noun`    {- tAriyx -}           [ "date", "history" ]
+                              `plural`     TawACIL,
+
+    TACIL |< Iy               `adj`     {- tAriyxiy~ -}        [ "historical" ],
 
     MuFaCCiL                  `noun`    {- muWar~ix -}         [ "historian", "chronicler" ]
                               `plural`     MuFaCCiL |< Un
@@ -202,10 +81,6 @@ cluster_23  = listing "Lexicon's properties"
 
     FAL |< Iy                 `adj`     {- \|riy~ -}           [ "Aryan" ] ]
 
-
-cluster_24  = listing "Lexicon's properties"
-
-
  |> "' r s" <| [
 
     FaCaL                     `verb`    {- Oaras-i -}          [ unwords [ "till", "the", "land" ] ]
@@ -218,6 +93,10 @@ cluster_24  = listing "Lexicon's properties"
  |> "' r z" <| [
 
     FaCL                      `noun`    {- Oaroz -}            [ "cedar" ] ]
+
+
+cluster_22  = listing "Lexicon's properties"
+
 
  |> "' s .h q" <| [
 
@@ -269,27 +148,15 @@ cluster_24  = listing "Lexicon's properties"
 
     HACaL                     `verb`    {- \|saf -}            [ "sadden", "distress" ],
 
-    FACaL                     `verb`    {- \|saf -}            [ "sadden", "distress" ],
-
     FaCaL                     `noun`    {- Oasaf -}            [ "regret", "sorry" ],
 
-    HACiL                     `noun`    {- \|sif -}            [ "sorry", "regretful" ]
-                              `plural`     HACiL |< Un
-                              `plural`     FACiL |< Un
-    `derives` "------F---",
-
     FACiL                     `noun`    {- \|sif -}            [ "sorry", "regretful" ]
-                              `plural`     HACiL |< Un
                               `plural`     FACiL |< Un
     `derives` "------F---",
 
     MuFCiL                    `noun`    {- muWosif -}          [ "regrettable", "unfortunate" ]
                               `plural`     MuFCiL |< Un
     `derives` "------F---" ]
-
-
-cluster_25  = listing "Lexicon's properties"
-
 
  |> "' s l m" <| [
 
@@ -305,6 +172,10 @@ cluster_25  = listing "Lexicon's properties"
                               `plural`     KaRADiS |< aT,
 
     KuRDuS |< Iy              `adj`     {- Ousoqufiy~ -}       [ "episcopal" ] ]
+
+
+cluster_23  = listing "Lexicon's properties"
+
 
  |> "' s r" <| [
 
@@ -355,10 +226,6 @@ cluster_25  = listing "Lexicon's properties"
 
     FiCLAn |< aT              `noun`    {- IisotAnap -}        [ "Istana" ] ]
 
-
-cluster_26  = listing "Lexicon's properties"
-
-
  |> "' s t _d" <| [
 
     KuRDAS                    `noun`    {- OusotA* -}          [ "professor" ]
@@ -374,6 +241,10 @@ cluster_26  = listing "Lexicon's properties"
  |> "' s t n" <| [
 
     KiRDAS |< aT              `noun`    {- IisotAnap -}        [ "Istana" ] ]
+
+
+cluster_24  = listing "Lexicon's properties"
+
 
  |> "' s w" <| [
 
@@ -429,12 +300,10 @@ cluster_26  = listing "Lexicon's properties"
 
  |> "' t r" <| [
 
-    HICAL                     `noun`    {- IiytAr -}           [ "ITAR" ],
-
-    FICAL                     `noun`    {- IiytAr -}           [ "ITAR" ] ]
+    HICAL                     `noun`    {- IiytAr -}           [ "ITAR" ] ]
 
 
-cluster_27  = listing "Lexicon's properties"
+cluster_25  = listing "Lexicon's properties"
 
 
  |> "' t y" <| [
@@ -442,18 +311,13 @@ cluster_27  = listing "Lexicon's properties"
     FaCY                      `verb`    {- OataY-i -}          [ "arrive", "come", "reach" ]
                               `imperf`     FCI,
 
-    FACY                      `verb`    {- \|taY -}            [ "give", "offer", unwords [ "be", "given" ] ],
-
     HACY                      `verb`    {- \|taY -}            [ "give", "offer", unwords [ "be", "given" ] ],
-
-    FACY                      `verb`    {- \|taY -}            [ "give", "offer", unwords [ "be", "given" ] ],
 
     HACY                      `verb`    {- \|taY -}            [ "give", "offer", unwords [ "be", "given" ] ],
 
     TaFaCCY                   `verb`    {- taOat~aY -}         [ "happen", "result" ],
 
     FACI                      `noun`    {- \|tiy -}            [ "coming", "following" ]
-                              `plural`     HACI |< At
                               `plural`     FACI |< At,
 
     MuFACI                    `noun`    {- muWAtiy -}          [ "favorable", "suitable" ]
@@ -467,12 +331,7 @@ cluster_27  = listing "Lexicon's properties"
 
     FaC                       `conj`    {- Oaw -}              [ "or" ],
 
-    FICAL                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
-                              `plural`     FICAL |< At
-                              `plural`     HICAL |< At,
-
     HICAL                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
-                              `plural`     FICAL |< At
                               `plural`     HICAL |< At ]
 
  |> "' w .g r" <| [
@@ -500,10 +359,6 @@ cluster_27  = listing "Lexicon's properties"
     KuRDiS                    `noun`    {- Ouwbik -}           [ "OPEC" ]
                            {- `others`  [ "'uwbiyk N" ] -} ]
 
-
-cluster_28  = listing "Lexicon's properties"
-
-
  |> "' w f" <| [
 
     FAL |< aT                 `noun`    {- \|fap -}            [ "vice", "plague" ],
@@ -515,6 +370,10 @@ cluster_28  = listing "Lexicon's properties"
     FAL                       `verb`    {- \|h-u -}            [ "moan", "sigh" ]
                               `imperf`     FUL
                               `pfirst`     FuL ]
+
+
+cluster_26  = listing "Lexicon's properties"
+
 
  |> "' w l" <| [
 
@@ -561,12 +420,7 @@ cluster_28  = listing "Lexicon's properties"
     FAL |< Iy                 `adj`     {- \|niy~ -}           [ "actual", "present", "simultaneous" ],
 
     FaCAL                     `noun`    {- OawAn -}            [ "time", "moment" ]
-                              `plural`     HACiL |< aT
                               `plural`     FACiL |< aT ]
-
-
-cluster_29  = listing "Lexicon's properties"
-
 
  |> "' w t" <| [
 
@@ -575,6 +429,10 @@ cluster_29  = listing "Lexicon's properties"
  |> "' w t w" <| [
 
     KuRDU                     `noun`    {- Ouwtuw -}           [ "Otto" ] ]
+
+
+cluster_27  = listing "Lexicon's properties"
+
 
  |> "' w t y" <| [
 
@@ -593,8 +451,6 @@ cluster_29  = listing "Lexicon's properties"
     FaCCY                     `verb`    {- Oaw~aY -}           [ "shelter", "lodge" ],
 
     HACY                      `verb`    {- \|waY -}            [ unwords [ "seek", "shelter" ], unwords [ "provide", "asylum" ], unwords [ "be", "sought", "as", "shelter" ], unwords [ "be", "provided", "as", "asylum" ] ],
-
-    FACY                      `verb`    {- \|waY -}            [ unwords [ "seek", "shelter" ], unwords [ "provide", "asylum" ], unwords [ "be", "sought", "as", "shelter" ], unwords [ "be", "provided", "as", "asylum" ] ],
 
     HICA'                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
                               `plural`     HICA' |< At,
@@ -638,10 +494,6 @@ cluster_29  = listing "Lexicon's properties"
 
     KiRDUS                    `noun`    {- Iiyjuwr -}          [ "Igor" ] ]
 
-
-cluster_30  = listing "Lexicon's properties"
-
-
  |> "' y _d" <| [
 
     FILAn                     `noun`    {- Iiy*An -}           [ "declaration", "proclamation" ]
@@ -654,6 +506,10 @@ cluster_30  = listing "Lexicon's properties"
 
     KiRDAS                    `noun`    {- Iiy*A' -}           [ "damage", "injury" ]
                               `plural`     KiRDAS |< At ]
+
+
+cluster_28  = listing "Lexicon's properties"
+
 
  |> "' y _d n" <| [
 
@@ -712,10 +568,6 @@ cluster_30  = listing "Lexicon's properties"
 
     FaCLUL |< aT              `noun`    {- Oayoluwlap -}       [ "reversal", "devolution" ] ]
 
-
-cluster_31  = listing "Lexicon's properties"
-
-
  |> "' y l '" <| [
 
     KiRDAS                    `noun`    {- IiylA' -}           [ "oath" ]
@@ -729,6 +581,10 @@ cluster_31  = listing "Lexicon's properties"
  |> "' y l y" <| [
 
     KiRDI                     `noun`    {- Iiyliy -}           [ "Eli", "Ilie" ] ]
+
+
+cluster_29  = listing "Lexicon's properties"
+
 
  |> "' y m" <| [
 
@@ -783,14 +639,14 @@ cluster_31  = listing "Lexicon's properties"
     FILA'                     `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
                               `plural`     FILA' |< At ]
 
-
-cluster_32  = listing "Lexicon's properties"
-
-
  |> "' y w '" <| [
 
     KiRDAS                    `noun`    {- IiywA' -}           [ "accommodation", "housing" ]
                               `plural`     KiRDAS |< At ]
+
+
+cluster_30  = listing "Lexicon's properties"
+
 
  |> "' y y" <| [
 
@@ -833,8 +689,6 @@ cluster_32  = listing "Lexicon's properties"
 
  |> "' z r" <| [
 
-    FACaL                     `verb`    {- \|zar -}            [ "help", "support" ],
-
     HACaL                     `verb`    {- \|zar -}            [ "help", "support" ],
 
     FaCL                      `noun`    {- Oazor -}            [ "strength" ],
@@ -857,10 +711,6 @@ cluster_32  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- \|nA -}             [ "Anna" ] ]
 
-
-cluster_33  = listing "Lexicon's properties"
-
-
  |> "'Ana_dAk" <| [
 
     Identity                  `adv`     {- \|na*Ak -}          [ "then", unwords [ "at", "that", "time" ] ] ]
@@ -868,6 +718,10 @@ cluster_33  = listing "Lexicon's properties"
  |> "'AyA" <| [
 
     Identity                  `noun`    {- \|yA -}             [ "Aya" ] ]
+
+
+cluster_31  = listing "Lexicon's properties"
+
 
  |> "'I.tAliyA" <| [
 
@@ -941,10 +795,6 @@ cluster_33  = listing "Lexicon's properties"
 
     Identity                  `part`    {- Iiy~A- -}           [ "to", "for", unwords [ "(", "accus.", ")" ] ] ]
 
-
-cluster_34  = listing "Lexicon's properties"
-
-
  |> "'U.gand" <| [
 
     Identity |< Iy            `adj`     {- Ouwganodiy~ -}      [ "Ugandan" ] ]
@@ -952,6 +802,10 @@ cluster_34  = listing "Lexicon's properties"
  |> "'U.gandA" <| [
 
     Identity                  `noun`    {- OuwganodA -}        [ "Uganda" ] ]
+
+
+cluster_32  = listing "Lexicon's properties"
+
 
  |> "'U^galAn" <| [
 
@@ -1025,10 +879,6 @@ cluster_34  = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- Ouwlimobiy~ -}      [ "Olympic" ] ]
 
-
-cluster_35  = listing "Lexicon's properties"
-
-
  |> "'UlimbiyAd" <| [
 
     Identity                  `noun`    {- OuwlimobiyAd -}     [ "Olympiad", "Olympics" ] ]
@@ -1036,6 +886,10 @@ cluster_35  = listing "Lexicon's properties"
  |> "'UlyIt" <| [
 
     Identity                  `noun`    {- Ouwloyiyt -}        [ "Ullyett" ] ]
+
+
+cluster_33  = listing "Lexicon's properties"
+
 
  |> "'UniskU" <| [
 
@@ -1107,10 +961,6 @@ cluster_35  = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- Oajanodap -}        [ "agenda", "schedule" ] ]
 
-
-cluster_36  = listing "Lexicon's properties"
-
-
  |> "'a^skInAzI" <| [
 
     Identity                  `noun`    {- Oa$okiynAziy -}     [ "Ashkenazi" ] ]
@@ -1118,6 +968,10 @@ cluster_36  = listing "Lexicon's properties"
  |> "'a^skrUft" <| [
 
     Identity                  `noun`    {- Oa$okruwft -}       [ "Ashcroft" ] ]
+
+
+cluster_34  = listing "Lexicon's properties"
+
 
  |> "'a_darbay^gAn" <| [
 
@@ -1189,10 +1043,6 @@ cluster_36  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OadowArod -}        [ "Edward", "Edouard" ] ]
 
-
-cluster_37  = listing "Lexicon's properties"
-
-
  |> "'af.gAnistAn" <| [
 
     Identity                  `noun`    {- OafogAnisotAn -}    [ "Afghanistan" ] ]
@@ -1200,6 +1050,10 @@ cluster_37  = listing "Lexicon's properties"
  |> "'afI.gdUr" <| [
 
     Identity                  `noun`    {- Oafiygoduwr -}      [ "Avigdor" ] ]
+
+
+cluster_35  = listing "Lexicon's properties"
+
 
  |> "'afIntA_hAdU" <| [
 
@@ -1273,10 +1127,6 @@ cluster_37  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- OalomiydA -}        [ "Almeda" ] ]
 
-
-cluster_38  = listing "Lexicon's properties"
-
-
  |> "'amAndA" <| [
 
     Identity                  `noun`    {- OamAnodA -}         [ "Amanda" ] ]
@@ -1284,6 +1134,10 @@ cluster_38  = listing "Lexicon's properties"
  |> "'amIlkAr" <| [
 
     Identity                  `noun`    {- OamiylokAr -}       [ "Amilcar" ] ]
+
+
+cluster_36  = listing "Lexicon's properties"
+
 
  |> "'amIrAl" <| [
 
@@ -1355,10 +1209,6 @@ cluster_38  = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- Oanodriyap -}       [ "Andrea" ] ]
 
-
-cluster_39  = listing "Lexicon's properties"
-
-
  |> "'andrIyifU" <| [
 
     Identity                  `noun`    {- Oanodriyyifuw -}    [ "Andreevo" ] ]
@@ -1366,6 +1216,10 @@ cluster_39  = listing "Lexicon's properties"
  |> "'andriyA" <| [
 
     Identity                  `noun`    {- OanodriyA -}        [ "Andrea" ] ]
+
+
+cluster_37  = listing "Lexicon's properties"
+
 
  |> "'andriyAs" <| [
 
@@ -1437,10 +1291,6 @@ cluster_39  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Oariyiyl -}         [ "Ariel" ] ]
 
-
-cluster_40  = listing "Lexicon's properties"
-
-
  |> "'armIniyA" <| [
 
     Identity                  `noun`    {- OaromiyniyA -}      [ "Armenia" ] ]
@@ -1448,6 +1298,10 @@ cluster_40  = listing "Lexicon's properties"
  |> "'armItA^g" <| [
 
     Identity                  `noun`    {- OaromiytAj -}       [ "Armitage" ] ]
+
+
+cluster_38  = listing "Lexicon's properties"
+
 
  |> "'arsA_hAnUf" <| [
 
@@ -1520,6 +1374,174 @@ cluster_40  = listing "Lexicon's properties"
  |> "'i_dA" <| [
 
     Identity                  `conj`    {- Ii*A -}             [ unwords [ "if", "/", "whether" ] ] ]
+
+ |> "'ibrAhIm" <| [
+
+    Identity                  `noun`    {- IiborAhiym -}       [ "Ibrahim" ],
+
+    Identity |< Iy            `adj`     {- IiborAhiymiy~ -}    [ "Ibrahimi" ] ]
+
+
+cluster_39  = listing "Lexicon's properties"
+
+
+ |> "'idmUnd" <| [
+
+    Identity                  `noun`    {- Iidomuwnod -}       [ "Edmund", "Edmond" ] ]
+
+ |> "'idrimId" <| [
+
+    Identity                  `noun`    {- Iidorimiyd -}       [ "Edremit" ] ]
+
+ |> "'idwArdU" <| [
+
+    Identity                  `noun`    {- IidowAroduw -}      [ "Eduardo" ] ]
+
+ |> "'idwArdz" <| [
+
+    Identity                  `noun`    {- IidowArodz -}       [ "Edwards" ] ]
+
+ |> "'ifrAyIm" <| [
+
+    Identity                  `noun`    {- IiforAyiym -}       [ "Efraim" ] ]
+
+ |> "'iklInIk" <| [
+
+    Identity |< Iy            `adj`     {- Iikoliyniykiy~ -}   [ "clinical" ] ]
+
+ |> "'iksbU" <| [
+
+    Identity                  `noun`    {- Iiksobuw -}         [ "Expo" ] ]
+
+ |> "'ikwAdUr" <| [
+
+    Identity                  `noun`    {- IikowAduwr -}       [ "Ecuador" ] ]
+
+ |> "'ilI`Azar" <| [
+
+    Identity                  `noun`    {- IiliyEAzar -}       [ "Eliezer" ] ]
+
+ |> "'il_ah" <| [
+
+    Identity                  `noun`    {- Iil`h -}            [ "god", "deity", "goddess", unwords [ "female", "deity" ] ],
+
+    Identity |< Iy            `adj`     {- Iil`hiy~ -}         [ "divine", "godly", "theological" ] ]
+
+ |> "'iliktrIk" <| [
+
+    Identity                  `noun`    {- Iilikotriyk -}      [ "Electric" ] ]
+
+ |> "'iliktrUn" <| [
+
+    Identity |< Iy            `adj`     {- Iilikotruwniy~ -}   [ "electronic" ] ]
+
+ |> "'iliyAn" <| [
+
+    Identity                  `noun`    {- IiliyAn -}          [ "Elian" ] ]
+
+ |> "'illA" <| [
+
+    Identity                  `noun`    {- Iil~A -}            [ "however", "except" ] ]
+
+ |> "'ilyU^sin" <| [
+
+    Identity                  `noun`    {- Iiloyuw$in -}       [ "Ilyushin" ] ]
+
+ |> "'imIl" <| [
+
+    Identity                  `noun`    {- Iimiyl -}           [ "Emile", "Emil" ] ]
+
+ |> "'imbirA.tUr" <| [
+
+    Identity |< Iy |< aT      `noun`    {- IimobirATuwriy~ap -} [ "empire" ] ]
+
+ |> "'imbiriyAl" <| [
+
+    Identity |< Iy            `adj`     {- IimobiriyAliy~ -}   [ "imperialist", "imperial" ] ]
+
+ |> "'immA" <| [
+
+    Identity                  `conj`    {- Iim~A -}            [ "either" ] ]
+
+
+cluster_40  = listing "Lexicon's properties"
+
+
+ |> "'inIr^gI" <| [
+
+    Identity                  `noun`    {- Iiniyrojiy -}       [ "Energy" ] ]
+
+ |> "'in^giltirA" <| [
+
+    Identity                  `noun`    {- IinojilotirA -}     [ "England" ] ]
+
+ |> "'in^glIz" <| [
+
+    Identity |< Iy            `adj`     {- Iinojliyziy~ -}     [ "English" ],
+
+    Identity |< Iy |< aT      `noun`    {- Iinojliyziy~ap -}   [ unwords [ "English", "(", "language", ")" ] ] ]
+
+ |> "'indUnIs" <| [
+
+    Identity |< Iy            `adj`     {- Iinoduwniysiy~ -}   [ "Indonesian" ] ]
+
+ |> "'indUnIsiyA" <| [
+
+    Identity                  `noun`    {- IinoduwniysiyA -}   [ "Indonesia" ] ]
+
+ |> "'indastrIz" <| [
+
+    Identity                  `noun`    {- Iinodasotriyz -}    [ "Industries" ] ]
+
+ |> "'indibandant" <| [
+
+    Identity                  `noun`    {- Iinodibanodant -}   [ "Independent" ] ]
+
+ |> "'indiyAnA" <| [
+
+    Identity                  `noun`    {- IinodiyAnA -}       [ "Indiana" ] ]
+
+ |> "'indiyAnAbUlIs" <| [
+
+    Identity                  `noun`    {- IinodiyAnAbuwliys -} [ "Indianapolis" ] ]
+
+ |> "'influwanzA" <| [
+
+    Identity                  `noun`    {- IinofluwanozA -}    [ "influenza" ] ]
+
+ |> "'inkA" <| [
+
+    Identity                  `noun`    {- IinokA -}           [ "Inca" ] ]
+
+ |> "'inkiltirA" <| [
+
+    Identity                  `noun`    {- IinokilotirA -}     [ "England" ] ]
+
+ |> "'inklIz" <| [
+
+    Identity |< Iy            `adj`     {- Iinokliyziy~ -}     [ "English" ],
+
+    Identity |< Iy |< aT      `noun`    {- Iinokliyziy~ap -}   [ unwords [ "English", "(", "language", ")" ] ] ]
+
+ |> "'innamA" <| [
+
+    Identity                  `conj`    {- Iin~amA -}          [ unwords [ "but", "rather" ], unwords [ "on", "the", "contrary" ] ] ]
+
+ |> "'inqlIz" <| [
+
+    Identity |< Iy            `adj`     {- Iinoqliyziy~ -}     [ "English" ] ]
+
+ |> "'intarnA^syUnAl" <| [
+
+    Identity                  `noun`    {- IinotarnA$oyuwnAl -} [ "International" ] ]
+
+ |> "'intirnit" <| [
+
+    Identity                  `noun`    {- Iinotironit -}      [ "Internet" ] ]
+
+ |> "'irItr" <| [
+
+    Identity |< Iy            `adj`     {- Iiriytriy~ -}       [ "Eritrean" ] ]
 
 
 section = [ cluster_21,

@@ -12,64 +12,6 @@ lexicon = include section
 cluster_21  = listing "Lexicon's properties"
 
 
- |> "' _t y b" <| [
-
-    KaRDUS |< Iy              `adj`     {- Oavoyuwbiy~ -}      [ "Ethiopian" ] ]
-
- |> "' b '" <| [
-
-    HACAL                     `noun`    {- \|bA' -}            [ "fathers", "ancestors" ],
-
-    FiCAL                     `noun`    {- IibA' -}            [ "refusal", "denial" ]
-                              `plural`     FiCAL |< At,
-
-    FiCAL |< aT               `noun`    {- IibA'ap -}          [ "refusal", "denial" ] ]
-
- |> "' b .d" <| [
-
-    FuCL                      `noun`    {- OuboD -}            [ unwords [ "knee", "pit" ] ]
-                              `plural`     HACAL,
-
-    MaFCiL                    `noun`    {- maOobiD -}          [ unwords [ "knee", "pit" ] ]
-                              `plural`     MaFACiL,
-
-    FuCL |< Iy                `adj`     {- OuboDiy~ -}         [ unwords [ "popliteal", "(", "armpit", ")" ] ],
-
-    MaFCiL |< Iy              `adj`     {- maOobiDiy~ -}       [ unwords [ "popliteal", "(", "armpit", ")" ] ],
-
-    FiCAL |< Iy               `adj`     {- IibADiy~ -}         [ "Ibadi" ],
-
-    FiCAL |< Iy |< aT         `noun`    {- IibADiy~ap -}       [ "Ibadites" ],
-
-    FaCAL |< Iy               `adj`     {- OabADiy~ -}         [ "Ibadi" ],
-
-    FaCAL |< Iy |< aT         `noun`    {- OabADiy~ap -}       [ "Ibadites" ] ]
-
- |> "' b .t" <| [
-
-    TaFaCCaL                  `verb`    {- taOab~aT -}         [ unwords [ "put", "/", "carry", "under", "the", "arm" ] ],
-
-    FiCL                      `noun`    {- IiboT -}            [ "armpit" ]
-                              `plural`     HACAL,
-
-    FiCL |< Iy                `adj`     {- IiboTiy~ -}         [ "axillary", "armpit" ] ]
-
- |> "' b ^g d" <| [
-
-    KaRDaS                    `noun`    {- Oabojad -}          [ "alphabet" ],
-
-    KaRDaS |< Iy              `adj`     {- Oabojadiy~ -}       [ "alphabetical", "elementary" ],
-
-    KaRDaS |< Iy |< aT        `noun`    {- Oabojadiy~ap -}     [ "alphabet" ] ]
-
- |> "' b ^s r" <| [
-
-    KaRDIS                    `noun`    {- Oabo$iyr -}         [ "Abshir" ] ]
-
-
-cluster_22  = listing "Lexicon's properties"
-
-
  |> "' b b" <| [
 
     FAL                       `noun`    {- \|b -}              [ "August" ],
@@ -95,7 +37,7 @@ cluster_22  = listing "Lexicon's properties"
     HUCiL                     `noun`    {- Ouwbib -}           [ unwords [ "OPEP", "(", "French", "for", "OPEC", ")" ] ] ]
 
 
-cluster_23  = listing "Lexicon's properties"
+cluster_22  = listing "Lexicon's properties"
 
 
  |> "' b d" <| [
@@ -141,7 +83,7 @@ cluster_23  = listing "Lexicon's properties"
                               `plural`     TaFaCCuL |< At ]
 
 
-cluster_24  = listing "Lexicon's properties"
+cluster_23  = listing "Lexicon's properties"
 
 
  |> "' b h" <| [
@@ -158,7 +100,6 @@ cluster_24  = listing "Lexicon's properties"
                               `plural`     FaCaL |< At,
 
     FACiL                     `noun`    {- \|bih -}            [ "concerned" ]
-                              `plural`     HACiL |< Un
                               `plural`     FACiL |< Un
     `derives` "------F---",
 
@@ -206,7 +147,7 @@ cluster_24  = listing "Lexicon's properties"
     FaCLA'                    `noun`    {- OabonA' -}          [ "sons", "children" ] ]
 
 
-cluster_25  = listing "Lexicon's properties"
+cluster_24  = listing "Lexicon's properties"
 
 
  |> "' b n s" <| [
@@ -225,7 +166,6 @@ cluster_25  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- \|biq -}            [ "fugitive" ]
                               `plural`     FuCCAL
-                              `plural`     HACiL |< Un
                               `plural`     FACiL |< Un
     `derives` "------F---" ]
 
@@ -284,7 +224,7 @@ cluster_25  = listing "Lexicon's properties"
     KiRDIS |< Iy              `adj`     {- Iiboriyziy~ -}      [ "golden" ] ]
 
 
-cluster_26  = listing "Lexicon's properties"
+cluster_25  = listing "Lexicon's properties"
 
 
  |> "' b w" <| [
@@ -330,7 +270,6 @@ cluster_26  = listing "Lexicon's properties"
     FaCIL                     `adj`     {- Oabiy~ -}           [ "proud", "dignified" ],
 
     FACI                      `noun`    {- \|biy -}            [ "reluctant", "unwilling" ]
-                              `plural`     HACI |< At
                               `plural`     FACI |< At
                               `plural`     FuCY |< aT ]
 
@@ -345,7 +284,7 @@ cluster_26  = listing "Lexicon's properties"
                               `plural`     KaRADiS ]
 
 
-cluster_27  = listing "Lexicon's properties"
+cluster_26  = listing "Lexicon's properties"
 
 
  |> "' d '" <| [
@@ -355,7 +294,7 @@ cluster_27  = listing "Lexicon's properties"
     FaCAL |< Iy               `adj`     {- OadA}iy~ -}         [ "functional", unwords [ "performance", "-", "related" ] ] ]
 
 
-cluster_28  = listing "Lexicon's properties"
+cluster_27  = listing "Lexicon's properties"
 
 
  |> "' d b" <| [
@@ -389,7 +328,6 @@ cluster_28  = listing "Lexicon's properties"
     FaCIL                     `noun`    {- Oadiyb -}           [ "Adeeb", "Adib" ],
 
     FACiL                     `noun`    {- \|dib -}            [ "host" ]
-                              `plural`     HACiL |< Un
                               `plural`     FACiL |< Un
     `derives` "------F---",
 
@@ -416,7 +354,7 @@ cluster_28  = listing "Lexicon's properties"
     HUCIL                     `noun`    {- Ouwdiyb -}          [ "Oedipus" ] ]
 
 
-cluster_29  = listing "Lexicon's properties"
+cluster_28  = listing "Lexicon's properties"
 
 
  |> "' d d" <| [
@@ -432,13 +370,9 @@ cluster_29  = listing "Lexicon's properties"
 
     HACaL                     `noun`    {- \|dam -}            [ "Adam" ],
 
-    FACaL                     `noun`    {- \|dam -}            [ "Adam" ],
-
     FawACiL                   `noun`    {- OawAdim -}          [ "humans" ],
 
     HACaL |< Iy               `adj`     {- \|damiy~ -}         [ "human", "humane" ],
-
-    FACaL |< Iy               `adj`     {- \|damiy~ -}         [ "human", "humane" ],
 
     FaCaL |< aT               `noun`    {- Oadamap -}          [ "skin" ],
 
@@ -476,7 +410,7 @@ cluster_29  = listing "Lexicon's properties"
                               `plural`     FaCaL |< At ]
 
 
-cluster_30  = listing "Lexicon's properties"
+cluster_29  = listing "Lexicon's properties"
 
 
  |> "' d y" <| [
@@ -526,7 +460,7 @@ cluster_30  = listing "Lexicon's properties"
                               `plural`     KaRADIS ]
 
 
-cluster_31  = listing "Lexicon's properties"
+cluster_30  = listing "Lexicon's properties"
 
 
  |> "' f f" <| [
@@ -571,19 +505,9 @@ cluster_31  = listing "Lexicon's properties"
 
     FuCUL                     `noun`    {- Oufuwl -}           [ "disappearance", "decline", unwords [ "fading", "away" ] ],
 
-    HACiL                     `noun`    {- \|fil -}            [ "passing", "fading", "transitory" ]
-                              `plural`     HACiL |< Un
-                              `plural`     FACiL |< Un
-    `derives` "------F---",
-
     FACiL                     `noun`    {- \|fil -}            [ "passing", "fading", "transitory" ]
-                              `plural`     HACiL |< Un
                               `plural`     FACiL |< Un
     `derives` "------F---" ]
-
-
-cluster_32  = listing "Lexicon's properties"
-
 
  |> "' f n" <| [
 
@@ -602,10 +526,11 @@ cluster_32  = listing "Lexicon's properties"
     `derives` "------F---",
 
     HICAL                     `noun`    {- IiyfAn -}           [ "Ivan" ]
-                              `plural`     FiCAL,
-
-    FICAL                     `noun`    {- IiyfAn -}           [ "Ivan" ]
                               `plural`     FiCAL ]
+
+
+cluster_31  = listing "Lexicon's properties"
+
 
  |> "' f q" <| [
 
@@ -654,10 +579,6 @@ cluster_32  = listing "Lexicon's properties"
 
     KuRDIS                    `noun`    {- Oufosiyt -}         [ "offset" ] ]
 
-
-cluster_33  = listing "Lexicon's properties"
-
-
  |> "' f t" <| [
 
     FICIL                     `noun`    {- Iiyfiyt -}          [ "Ivette" ] ]
@@ -670,6 +591,10 @@ cluster_33  = listing "Lexicon's properties"
 
     KaRDUS                    `noun`    {- Oafoyuwm -}         [ "opium" ]
                            {- `others`  [ "'afyuwn N" ] -} ]
+
+
+cluster_32  = listing "Lexicon's properties"
+
 
  |> "' h b" <| [
 
@@ -693,7 +618,7 @@ cluster_33  = listing "Lexicon's properties"
                               `plural`     FuCuL ]
 
 
-cluster_34  = listing "Lexicon's properties"
+cluster_33  = listing "Lexicon's properties"
 
 
  |> "' h l" <| [
@@ -730,13 +655,7 @@ cluster_34  = listing "Lexicon's properties"
 
     FaCL |< Iy |< aT          `noun`    {- Oaholiy~ap -}       [ "aptitude", "competence", "qualification" ],
 
-    HACiL                     `noun`    {- \|hil -}            [ "populated" ]
-                              `plural`     HACiL |< Un
-                              `plural`     FACiL |< Un
-    `derives` "------F---",
-
     FACiL                     `noun`    {- \|hil -}            [ "populated" ]
-                              `plural`     HACiL |< Un
                               `plural`     FACiL |< Un
     `derives` "------F---",
 
@@ -764,7 +683,7 @@ cluster_34  = listing "Lexicon's properties"
     `derives` "------F---" ]
 
 
-cluster_35  = listing "Lexicon's properties"
+cluster_34  = listing "Lexicon's properties"
 
 
  |> "' k ^s y" <| [
@@ -818,7 +737,7 @@ cluster_35  = listing "Lexicon's properties"
     FuCAL                     `noun`    {- OukAf -}            [ "packsaddle" ] ]
 
 
-cluster_36  = listing "Lexicon's properties"
+cluster_35  = listing "Lexicon's properties"
 
 
  |> "' k l" <| [
@@ -849,7 +768,6 @@ cluster_36  = listing "Lexicon's properties"
     FuCuL                     `noun`    {- Oukul -}            [ "fruit" ],
 
     FACiL                     `noun`    {- \|kil -}            [ "eater", "eating" ]
-                              `plural`     HACiL |< Un
                               `plural`     FACiL |< Un
     `derives` "------F---",
 
@@ -891,7 +809,7 @@ cluster_36  = listing "Lexicon's properties"
     MutaFACiL                 `noun`    {- muta|kil -}         [ "eroded", "corroded" ] ]
 
 
-cluster_37  = listing "Lexicon's properties"
+cluster_36  = listing "Lexicon's properties"
 
 
  |> "' k m" <| [
@@ -908,8 +826,6 @@ cluster_37  = listing "Lexicon's properties"
 
     FaCaL                     `verb`    {- Oakar-i -}          [ "cultivate" ]
                               `imperf`     FCiL,
-
-    FACaL                     `verb`    {- \|kar -}            [ "farm", "sharecrop" ],
 
     HACaL                     `verb`    {- \|kar -}            [ "farm", "sharecrop" ],
 
@@ -948,7 +864,7 @@ cluster_37  = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- Oakosajap -}        [ "oxygenation" ] ]
 
 
-cluster_38  = listing "Lexicon's properties"
+cluster_37  = listing "Lexicon's properties"
 
 
  |> "' k s d" <| [
@@ -980,18 +896,9 @@ cluster_38  = listing "Lexicon's properties"
  |> "' l '" <| [
 
     HICAL                     `noun`    {- IiylA' -}           [ "oath" ]
-                              `plural`     FICAL |< At
-                              `plural`     HICAL |< At,
-
-    FICAL                     `noun`    {- IiylA' -}           [ "oath" ]
-                              `plural`     FICAL |< At
                               `plural`     HICAL |< At,
 
     HACAL                     `noun`    {- \|lA' -}            [ "benefits", "blessings" ] ]
-
-
-cluster_39  = listing "Lexicon's properties"
-
 
  |> "' l b" <| [
 
@@ -1021,6 +928,10 @@ cluster_39  = listing "Lexicon's properties"
 
     FaCLAn |< Iy              `adj`     {- OalobAniy~ -}       [ "Albanian" ] ]
 
+
+cluster_38  = listing "Lexicon's properties"
+
+
  |> "' l b m" <| [
 
     KaRDUS                    `noun`    {- Oalobuwm -}         [ "album" ] ]
@@ -1030,7 +941,7 @@ cluster_39  = listing "Lexicon's properties"
     KaRDIS                    `noun`    {- Oalobiyr -}         [ "Albert" ] ]
 
 
-cluster_40  = listing "Lexicon's properties"
+cluster_39  = listing "Lexicon's properties"
 
 
  |> "' l f" <| [
@@ -1040,11 +951,7 @@ cluster_40  = listing "Lexicon's properties"
 
     FaCCaL                    `verb`    {- Oal~af -}           [ "compose", "constitute" ],
 
-    FACaL                     `verb`    {- \|laf -}            [ "befriend", unwords [ "adapt", "to" ] ],
-
     HACaL                     `verb`    {- \|laf -}            [ "befriend", unwords [ "adapt", "to" ] ],
-
-    FACaL                     `verb`    {- \|laf -}            [ "adapt", "familiarize" ],
 
     HACaL                     `verb`    {- \|laf -}            [ "adapt", "familiarize" ],
 
@@ -1080,17 +987,8 @@ cluster_40  = listing "Lexicon's properties"
 
     FACiL                     `noun`    {- \|lif -}            [ "companion", "confidant" ]
                               `plural`     FawACiL
-                              `plural`     HACiL |< Un
                               `plural`     FACiL |< Un
     `derives` "------F---",
-
-    HACiL                     `noun`    {- \|lif -}            [ "companion", "confidant" ]
-                              `plural`     FawACiL
-                              `plural`     HACiL |< Un
-                              `plural`     FACiL |< Un
-    `derives` "------F---",
-
-    FACaL                     `noun`    {- \|laf -}            [ "friendlier", "friendliest", unwords [ "more", "/", "most", "accustomed" ] ],
 
     HACaL                     `noun`    {- \|laf -}            [ "friendlier", "friendliest", unwords [ "more", "/", "most", "accustomed" ] ],
 
@@ -1120,12 +1018,7 @@ cluster_40  = listing "Lexicon's properties"
 
     MuFACaL |< aT             `noun`    {- muWAlafap -}        [ "adaptation", unwords [ "association", "with" ] ],
 
-    FICAL                     `noun`    {- IiylAf -}           [ "solidarity", "pact" ]
-                              `plural`     FICAL |< At
-                              `plural`     HICAL |< At,
-
     HICAL                     `noun`    {- IiylAf -}           [ "solidarity", "pact" ]
-                              `plural`     FICAL |< At
                               `plural`     HICAL |< At,
 
     TaFACuL                   `noun`    {- ta|luf -}           [ "harmony", "solidarity" ]
@@ -1141,6 +1034,51 @@ cluster_40  = listing "Lexicon's properties"
     IFtiCAL |< Iy             `adj`     {- Ai}otilAfiy~ -}     [ "coalition" ],
 
     FUCAL                     `noun`    {- OuwlAf -}           [ "Olaf" ] ]
+
+
+cluster_40  = listing "Lexicon's properties"
+
+
+ |> "' l f n" <| [
+
+    KaRDIS                    `noun`    {- Oalofiyn -}         [ "Alvin" ] ]
+
+ |> "' l f s" <| [
+
+    KaRADIS                   `noun`    {- OalAfiys -}         [ "Alaves" ],
+
+    KiRDIS                    `noun`    {- Iilofiys -}         [ "Elvis" ] ]
+
+ |> "' l h" <| [
+
+    FaCCaL                    `verb`    {- Oal~ah -}           [ "deify" ],
+
+    TaFaCCaL                  `verb`    {- taOal~ah -}         [ unwords [ "be", "deified" ], unwords [ "become", "a", "deity" ] ],
+
+    FiCAL |< Iy |< At         `noun`    {- IilAhiy~At -}       [ "theology" ],
+
+    FuCUL |< aT               `noun`    {- Ouluwhap -}         [ "divinity" ],
+
+    FuCUL |< Iy               `noun`    {- Ouluwhiy~ -}        [ "divinity" ],
+
+    FiCAL                     `noun`    {- IilAh -}            [ "divinity" ],
+
+    TaFCIL                    `noun`    {- taOoliyh -}         [ "deification", unwords [ "making", "god", "-", "like" ] ]
+                              `plural`     TaFCIL |< At ]
+
+ |> "' l k l" <| [
+
+    KaRDaS |< aT              `noun`    {- Oalokalap -}        [ "alkylation" ] ]
+
+ |> "' l l" <| [
+
+    FAL                       `noun`    {- \|l -}              [ "Al" ],
+
+    FiL                       `noun`    {- Iil -}              [ "El" ],
+
+    FILA'                     `noun`    {- IiylA' -}           [ "oath" ]
+                              `plural`     FILA' |< At
+                              `plural`     HICA' |< At ]
 
 
 section = [ cluster_21,

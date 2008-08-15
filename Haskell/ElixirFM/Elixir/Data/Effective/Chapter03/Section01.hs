@@ -59,7 +59,9 @@ cluster_1   = listing "Lexicon's properties"
     FACiL                     `noun`    {- tAjir -}            [ "merchant", "businessman", "businessmen" ]
                               `plural`     FuCCAL
                               `plural`     FACiL |< Un
-    `derives` "------F---" ]
+    `derives` "------F---",
+
+    FuwayCL |< Iy             `adj`     {- tuwayojriy~ -}      [ "Tuwaijri" ] ]
 
  |> "t ^s r n" <| [
 
@@ -229,7 +231,7 @@ cluster_4   = listing "Lexicon's properties"
  |> "t m l" <| [
 
     FACiL                     `noun`    {- tAmil -}            [ "Tamil" ]
-                           {- `others`  [ "tAmiyl N0" ] -} ]
+                              `plural`     TACIL ]
 
 
 cluster_5   = listing "Lexicon's properties"
@@ -745,10 +747,6 @@ cluster_11  = listing "Lexicon's properties"
  |> "tuwAlIt" <| [
 
     Identity                  `noun`    {- tuwAliyt -}         [ "toilette" ] ]
-
- |> "tuway^gr" <| [
-
-    Identity |< Iy            `adj`     {- tuwayojriy~ -}      [ "Tuwaijri" ] ]
 
 
 section = [ cluster_1,

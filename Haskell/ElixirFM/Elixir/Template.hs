@@ -163,7 +163,7 @@ isClosed _ = True
                         _       -> "ay" ++ show x
 
 'I' -<- x = case x of   AT      -> "iyaT"
-                        Iy      -> "Iy"
+                        Iy      -> "awIy"   -- "Iy"
                         Un      -> "Una"
                         In      -> "Ina"
 

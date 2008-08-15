@@ -24,12 +24,6 @@ cluster_1   = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- Ousokuf~ap -}       [ "doorstep", unwords [ "window", "sill" ] ] ]
 
- |> "ism" <| [
-
-    Identity                  `noun`    {- Aisom -}            [ "name" ],
-
-    Identity |< Iy            `adj`     {- Aisomiy~ -}         [ "nominal", unwords [ "in", "name" ] ] ]
-
  |> "mas.tarIn" <| [
 
     Identity                  `noun`    {- masoTariyn -}       [ "trowel" ] ]

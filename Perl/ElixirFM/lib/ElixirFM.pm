@@ -482,7 +482,7 @@ sub mergeSuffix {
     if ($_[0] eq 'I') {
 
         return "iyaT" if $_[1] =~ /^[Aa]T$/;
-        return "Iy"   if $_[1] eq "Iy";
+        return "awIy" if $_[1] eq "Iy";     # "Iy"
 
         return "Una" if $_[1] eq "Un";
         return "Ina" if $_[1] eq "In";

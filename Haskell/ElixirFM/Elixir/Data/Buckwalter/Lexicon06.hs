@@ -5483,7 +5483,9 @@ cluster_103 = listing "Lexicon's properties"
     MuFtaCY                   `noun`    {- muHotawaY -}        [ "content" ]
                               `plural`     MuFtaCY |< At,
 
-    MuFtaCI                   `noun`    {- muHotawiy -}        [ "containing" ] ]
+    MuFtaCI                   `noun`    {- muHotawiy -}        [ "containing" ],
+
+    FuCayLin                  `noun`    {- Huway~in -}         [ unwords [ "small", "animal" ] ] ]
 
 
 cluster_104 = listing "Lexicon's properties"
@@ -5878,6 +5880,8 @@ cluster_111 = listing "Lexicon's properties"
     FaCawAn |< Iy             `adj`     {- HayawAniy~ -}       [ "animal", "zoological" ],
 
     FaCawAn |< Iy |< aT       `noun`    {- HayawAniy~ap -}     [ "bestiality", unwords [ "animal", "nature" ] ],
+
+    FuwayLin                  `noun`    {- Huway~in -}         [ unwords [ "small", "animal" ] ],
 
     HaFCY                     `adj`     {- OaHoyaY -}          [ unwords [ "livelier", "/", "liveliest" ], unwords [ "more", "/", "most", "vital" ], "liveliest", unwords [ "most", "vital" ] ]
                            {- `others`  [ "'a.hyaw NAn_Nayn" ] -},

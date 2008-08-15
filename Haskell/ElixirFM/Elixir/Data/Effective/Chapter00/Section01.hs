@@ -20,10 +20,6 @@ cluster_1   = listing "Lexicon's properties"
 
     Identity                  `noun`    {- \|y -}              [ "A.", "I." ] ]
 
- |> "'Ih" <| [
-
-    Identity                  `noun`    {- Iiyh -}             [ "A." ] ]
-
  |> "-- ' f" <| [
 
     CaL                       `noun`    {- Oaf -}              [ "A.F." ],
@@ -85,6 +81,10 @@ cluster_1   = listing "Lexicon's properties"
  |> "-- t y" <| [
 
     CI                        `noun`    {- tiy -}              [ "T." ] ]
+
+ |> "-- y h" <| [
+
+    HIL                       `noun`    {- Iiyh -}             [ "A." ] ]
 
 
 cluster_2   = listing "Lexicon's properties"

@@ -9,7 +9,6 @@ import Elixir.Data.Buckwalter.Chapter01.Section03 as S03
 import Elixir.Data.Buckwalter.Chapter01.Section04 as S04
 import Elixir.Data.Buckwalter.Chapter01.Section05 as S05
 import Elixir.Data.Buckwalter.Chapter01.Section06 as S06
-import Elixir.Data.Buckwalter.Chapter01.Section07 as S07
 
 
 version = revised "$Revision$"
@@ -22,6 +21,5 @@ chapter = [ S01.section,
             S03.section,
             S04.section,
             S05.section,
-            S06.section,
-            S07.section ]
+            S06.section ]
 

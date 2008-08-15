@@ -24,12 +24,6 @@ cluster_1   = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- Ousokuf~ap -}       [ "doorstep", unwords [ "window", "sill" ] ] ]
 
- |> "ism" <| [
-
-    Identity                  `noun`    {- Aisom -}            [ "name" ],
-
-    Identity |< Iy            `adj`     {- Aisomiy~ -}         [ "nominal", unwords [ "in", "name" ] ] ]
-
  |> "mas.tarIn" <| [
 
     Identity                  `noun`    {- masoTariyn -}       [ "trowel" ] ]
@@ -3699,6 +3693,10 @@ cluster_70  = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- samAwap -}          [ "Samawa" ],
 
+    IFC                       `noun`    {- Aisom -}            [ "name" ]
+                              `plural`     HaFCA'
+                              `plural`     HaFACI,
+
     HaFCY                     `adj`     {- OasomaY -}          [ unwords [ "higher", "/", "highest" ], unwords [ "more", "/", "most", "eminent" ], "highest", unwords [ "most", "eminent" ] ],
 
     HaFCA'                    `noun`    {- OasomA' -}          [ "Asmaa" ],
@@ -3741,7 +3739,9 @@ cluster_71  = listing "Lexicon's properties"
 
     FACI                      `adj`     {- sAmiy -}            [ "exalted", "sublime" ]
                               `plural`     FaCY |< aT
-                              `plural`     FACI |< At ]
+                              `plural`     FACI |< At,
+
+    IFC |< Iy                 `adj`     {- Aisomiy~ -}         [ "nominal", unwords [ "in", "name" ] ] ]
 
  |> "s n '" <| [
 

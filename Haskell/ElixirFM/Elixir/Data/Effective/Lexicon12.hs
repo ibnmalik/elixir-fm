@@ -12,12 +12,6 @@ lexicon = include section
 cluster_1   = listing "Lexicon's properties"
 
 
- |> "ism" <| [
-
-    Identity                  `noun`    {- Aisom -}            [ "name" ],
-
-    Identity |< Iy            `adj`     {- Aisomiy~ -}         [ "nominal", unwords [ "in", "name" ] ] ]
-
  |> "s ' .h" <| [
 
     FACiL                     `noun`    {- sA}iH -}            [ "tourist" ]
@@ -1306,6 +1300,10 @@ cluster_24  = listing "Lexicon's properties"
 
     FaCAL |< aT               `noun`    {- samAwap -}          [ "Samawa" ],
 
+    IFC                       `noun`    {- Aisom -}            [ "name" ]
+                              `plural`     HaFCA'
+                              `plural`     HaFACI,
+
     HaFCY                     `adj`     {- OasomaY -}          [ unwords [ "higher", "/", "highest" ], unwords [ "more", "/", "most", "eminent" ], "highest", unwords [ "most", "eminent" ] ],
 
     HaFCA'                    `noun`    {- OasomA' -}          [ "Asmaa" ],
@@ -1337,21 +1335,23 @@ cluster_24  = listing "Lexicon's properties"
 
     FACI                      `adj`     {- sAmiy -}            [ "exalted", "sublime" ]
                               `plural`     FaCY |< aT
-                              `plural`     FACI |< At ]
+                              `plural`     FACI |< At,
+
+    IFC |< Iy                 `adj`     {- Aisomiy~ -}         [ "nominal", unwords [ "in", "name" ] ] ]
 
  |> "s n .h" <| [
 
     FACiL                     `adj`     {- sAniH -}            [ "auspicious", "favorable" ]
                               `plural`     FawACiL ]
 
+
+cluster_25  = listing "Lexicon's properties"
+
+
  |> "s n b k" <| [
 
     KuRDuS                    `noun`    {- sunobuk -}          [ "hoof", "awl" ]
                               `plural`     KaRADiS ]
-
-
-cluster_25  = listing "Lexicon's properties"
-
 
  |> "s n d" <| [
 

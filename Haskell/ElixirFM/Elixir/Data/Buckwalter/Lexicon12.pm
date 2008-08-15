@@ -10969,62 +10969,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'ism' => [
-    {
-      'types' => {
-        '\'asmA\'' => {
-          'Nh' => 1,
-          'Nhy' => 1,
-          'N0_Nh' => 1
-        },
-        '\'asAmiy' => {
-          'N0_Nh' => 1
-        }
-      },
-      'entry' => 'ism',
-      'form' => 'ism',
-      'lines' => [
-        ';; Aisom_1',
-        'Aisom   Ndu     name',
-        'OasomA\' N0_Nh   names',
-        'OasomAW Nh      names',
-        'OasomA} Nhy     names',
-        'OasAmiy N0_Nh   names',
-        'OasAm   NK      names'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'name',
-        'names'
-      ],
-      'orig' => 'Aisom',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'ism',
-      'form' => 'ismiyy',
-      'lines' => [
-        ';; Aisomiy~_1',
-        'Aisomiy~        N-ap    nominal;in name     [[Iisomiy~/ADJ]]'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'nominal',
-        'in name'
-      ],
-      'orig' => 'Aisomiy~',
-      'prefix' => ''
-    }
-  ],
   's l f t' => [
     {
       'types' => {
@@ -11229,6 +11173,26 @@ $Lexicon = {
         'sublime'
       ],
       'orig' => 'sAmiy',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'ism',
+      'form' => 'ismiyy',
+      'lines' => [
+        ';; Aisomiy~_1',
+        'Aisomiy~        N-ap    nominal;in name     [[Iisomiy~/ADJ]]'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'IFC |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'nominal',
+        'in name'
+      ],
+      'orig' => 'Aisomiy~',
       'prefix' => ''
     }
   ],
@@ -24276,6 +24240,47 @@ $Lexicon = {
         'Samawa'
       ],
       'orig' => 'samAwap',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'asmA\'' => {
+          'Nh' => 1,
+          'Nhy' => 1,
+          'N0_Nh' => 1
+        },
+        '\'asAmiy' => {
+          'N0_Nh' => 1
+        }
+      },
+      'entry' => 'ism',
+      'form' => 'ism',
+      'lines' => [
+        ';; Aisom_1',
+        'Aisom   Ndu     name',
+        'OasomA\' N0_Nh   names',
+        'OasomAW Nh      names',
+        'OasomA} Nhy     names',
+        'OasAmiy N0_Nh   names',
+        'OasAm   NK      names'
+      ],
+      'patterns' => {
+        '\'asmA\'' => [
+          'HaFCA\''
+        ],
+        '\'asAmiy' => [
+          'HaFACI'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'IFC',
+      'suffix' => '',
+      'glosses' => [
+        'name',
+        'names'
+      ],
+      'orig' => 'Aisom',
       'prefix' => ''
     },
     {
@@ -57533,18 +57538,18 @@ $Lexicon->{'s w m'}[9]{'glosses'} = $Lexicon->{'s \' m'}[9]{'glosses'};
 $Lexicon->{'s r s'}[1]{'types'} = $Lexicon->{'s y r s'}[0]{'types'};
 $Lexicon->{'s r s'}[1]{'lines'} = $Lexicon->{'s y r s'}[0]{'lines'};
 $Lexicon->{'s r s'}[1]{'glosses'} = $Lexicon->{'s y r s'}[0]{'glosses'};
-$Lexicon->{'s m w'}[12]{'types'} = $Lexicon->{'s m y'}[2]{'types'};
-$Lexicon->{'s m w'}[12]{'lines'} = $Lexicon->{'s m y'}[2]{'lines'};
-$Lexicon->{'s m w'}[12]{'glosses'} = $Lexicon->{'s m y'}[2]{'glosses'};
-$Lexicon->{'s m w'}[13]{'types'} = $Lexicon->{'s m y'}[3]{'types'};
-$Lexicon->{'s m w'}[13]{'lines'} = $Lexicon->{'s m y'}[3]{'lines'};
-$Lexicon->{'s m w'}[13]{'glosses'} = $Lexicon->{'s m y'}[3]{'glosses'};
-$Lexicon->{'s m w'}[14]{'types'} = $Lexicon->{'s m y'}[4]{'types'};
-$Lexicon->{'s m w'}[14]{'lines'} = $Lexicon->{'s m y'}[4]{'lines'};
-$Lexicon->{'s m w'}[14]{'glosses'} = $Lexicon->{'s m y'}[4]{'glosses'};
-$Lexicon->{'s m w'}[15]{'types'} = $Lexicon->{'s m y'}[5]{'types'};
-$Lexicon->{'s m w'}[15]{'lines'} = $Lexicon->{'s m y'}[5]{'lines'};
-$Lexicon->{'s m w'}[15]{'glosses'} = $Lexicon->{'s m y'}[5]{'glosses'};
+$Lexicon->{'s m w'}[13]{'types'} = $Lexicon->{'s m y'}[2]{'types'};
+$Lexicon->{'s m w'}[13]{'lines'} = $Lexicon->{'s m y'}[2]{'lines'};
+$Lexicon->{'s m w'}[13]{'glosses'} = $Lexicon->{'s m y'}[2]{'glosses'};
+$Lexicon->{'s m w'}[14]{'types'} = $Lexicon->{'s m y'}[3]{'types'};
+$Lexicon->{'s m w'}[14]{'lines'} = $Lexicon->{'s m y'}[3]{'lines'};
+$Lexicon->{'s m w'}[14]{'glosses'} = $Lexicon->{'s m y'}[3]{'glosses'};
+$Lexicon->{'s m w'}[15]{'types'} = $Lexicon->{'s m y'}[4]{'types'};
+$Lexicon->{'s m w'}[15]{'lines'} = $Lexicon->{'s m y'}[4]{'lines'};
+$Lexicon->{'s m w'}[15]{'glosses'} = $Lexicon->{'s m y'}[4]{'glosses'};
+$Lexicon->{'s m w'}[16]{'types'} = $Lexicon->{'s m y'}[5]{'types'};
+$Lexicon->{'s m w'}[16]{'lines'} = $Lexicon->{'s m y'}[5]{'lines'};
+$Lexicon->{'s m w'}[16]{'glosses'} = $Lexicon->{'s m y'}[5]{'glosses'};
 $Lexicon->{'s q y'}[6]{'types'} = $Lexicon->{'s q \''}[0]{'types'};
 $Lexicon->{'s q y'}[6]{'lines'} = $Lexicon->{'s q \''}[0]{'lines'};
 $Lexicon->{'s q y'}[6]{'glosses'} = $Lexicon->{'s q \''}[0]{'glosses'};
@@ -57563,9 +57568,9 @@ $Lexicon->{'s q y'}[13]{'glosses'} = $Lexicon->{'s q q'}[2]{'glosses'};
 $Lexicon->{'s m \''}[0]{'types'} = $Lexicon->{'s m w'}[8]{'types'};
 $Lexicon->{'s m \''}[0]{'lines'} = $Lexicon->{'s m w'}[8]{'lines'};
 $Lexicon->{'s m \''}[0]{'glosses'} = $Lexicon->{'s m w'}[8]{'glosses'};
-$Lexicon->{'s m \''}[1]{'types'} = $Lexicon->{'s m w'}[11]{'types'};
-$Lexicon->{'s m \''}[1]{'lines'} = $Lexicon->{'s m w'}[11]{'lines'};
-$Lexicon->{'s m \''}[1]{'glosses'} = $Lexicon->{'s m w'}[11]{'glosses'};
+$Lexicon->{'s m \''}[1]{'types'} = $Lexicon->{'s m w'}[12]{'types'};
+$Lexicon->{'s m \''}[1]{'lines'} = $Lexicon->{'s m w'}[12]{'lines'};
+$Lexicon->{'s m \''}[1]{'glosses'} = $Lexicon->{'s m w'}[12]{'glosses'};
 $Lexicon->{'s k k'}[5]{'types'} = $Lexicon->{'s k n'}[0]{'types'};
 $Lexicon->{'s k k'}[5]{'lines'} = $Lexicon->{'s k n'}[0]{'lines'};
 $Lexicon->{'s k k'}[5]{'glosses'} = $Lexicon->{'s k n'}[0]{'glosses'};

@@ -350,10 +350,6 @@ cluster_26  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tAkAhArA -}         [ "Takahara" ] ]
 
- |> "tAkIn" <| [
-
-    Identity                  `noun`    {- tAkiyn -}           [ unwords [ "Takin", "?", "?" ] ] ]
-
  |> "tAkInArdI" <| [
 
     Identity                  `noun`    {- tAkiynArodiy -}     [ "Tacchinardi" ] ]
@@ -923,10 +919,6 @@ cluster_33  = listing "Lexicon's properties"
  |> "tuwIst" <| [
 
     Identity                  `noun`    {- tuwiysot -}         [ "twist" ] ]
-
- |> "tuway^gr" <| [
-
-    Identity |< Iy            `adj`     {- tuwayojriy~ -}      [ "Tuwaijri" ] ]
 
 
 section = [ cluster_21,

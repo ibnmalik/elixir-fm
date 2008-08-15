@@ -601,6 +601,8 @@ cluster_72  = listing "Lexicon's properties"
 
     TaFACaL                   `verb`    {- tawArav -}          [ unwords [ "inherit", "successively" ] ],
 
+    HiCL                      `noun`    {- Iirv -}             [ "heritage", "legacy" ],
+
     FiCL                      `noun`    {- wirov -}            [ "inheritance", "legacy" ],
 
     FiCAL |< aT               `noun`    {- wirAvap -}          [ "inheritance", "legacy" ],

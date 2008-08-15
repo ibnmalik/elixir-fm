@@ -401,6 +401,25 @@ $Lexicon = {
       ],
       'orig' => 'tAjir',
       'prefix' => ''
+    },
+    {
+      'types' => {},
+      'entry' => 'tuway^gr',
+      'form' => 'tuway^griyy',
+      'lines' => [
+        ';; tuwayojriy~_1',
+        'tuwayojriy~     N0      Tuwaijri'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'adj',
+      'morphs' => 'FuwayCL |< Iy',
+      'suffix' => ' |< Iy',
+      'glosses' => [
+        'Tuwaijri'
+      ],
+      'orig' => 'tuwayojriy~',
+      'prefix' => ''
     }
   ],
   't z h' => [
@@ -3049,20 +3068,6 @@ $Lexicon = {
       'index' => '1',
       'entity' => 'adj',
       'morphs' => 'FICAL |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [],
-      'orig' => 'tiyjAniy~',
-      'prefix' => ''
-    },
-    {
-      'types' => {},
-      'entry' => 'tiy^gAn',
-      'form' => 'tiy^gAniyy',
-      'lines' => [],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'TICAL |< Iy',
       'suffix' => ' |< Iy',
       'glosses' => [],
       'orig' => 'tiyjAniy~',
@@ -9349,27 +9354,6 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
-  'tAkIn' => [
-    {
-      'types' => {},
-      'entry' => 'tAkiyn',
-      'form' => 'tAkiyn',
-      'lines' => [
-        ';; tAkiyn_1',
-        'tAkiyn  Nprop   Takin ??'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'Identity',
-      'suffix' => '',
-      'glosses' => [
-        'Takin ??'
-      ],
-      'orig' => 'tAkiyn',
-      'prefix' => ''
-    }
-  ],
   't r f' => [
     {
       'types' => {
@@ -10611,7 +10595,9 @@ $Lexicon = {
         'tAmiyl  N0      Tamil'
       ],
       'patterns' => {
-        'tAmiyl' => []
+        'tAmiyl' => [
+          'TACIL'
+        ]
       },
       'index' => '1',
       'entity' => 'noun',
@@ -11915,6 +11901,28 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  't f d' => [
+    {
+      'types' => {},
+      'entry' => 'tafiyd',
+      'form' => 'tafiydaT',
+      'lines' => [
+        ';; tafiydap_1',
+        'tafiydap        Nprop   Tafeeda;Tafida'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FaCIL |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [
+        'Tafeeda',
+        'Tafida'
+      ],
+      'orig' => 'tafiydap',
+      'prefix' => ''
+    }
+  ],
   't w n y' => [
     {
       'types' => {},
@@ -11942,28 +11950,6 @@ $Lexicon = {
       'suffix' => '',
       'glosses' => [],
       'orig' => 'tuwniy',
-      'prefix' => ''
-    }
-  ],
-  't f d' => [
-    {
-      'types' => {},
-      'entry' => 'tafiyd',
-      'form' => 'tafiydaT',
-      'lines' => [
-        ';; tafiydap_1',
-        'tafiydap        Nprop   Tafeeda;Tafida'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'noun',
-      'morphs' => 'FaCIL |< aT',
-      'suffix' => ' |< aT',
-      'glosses' => [
-        'Tafeeda',
-        'Tafida'
-      ],
-      'orig' => 'tafiydap',
       'prefix' => ''
     }
   ],
@@ -13459,27 +13445,6 @@ $Lexicon = {
       'suffix' => ' |< aT',
       'glosses' => [],
       'orig' => 'tirosAnap',
-      'prefix' => ''
-    }
-  ],
-  'tuway^gr' => [
-    {
-      'types' => {},
-      'entry' => 'tuway^gr',
-      'form' => 'tuway^griyy',
-      'lines' => [
-        ';; tuwayojriy~_1',
-        'tuwayojriy~     N0      Tuwaijri'
-      ],
-      'patterns' => {},
-      'index' => '1',
-      'entity' => 'adj',
-      'morphs' => 'Identity |< Iy',
-      'suffix' => ' |< Iy',
-      'glosses' => [
-        'Tuwaijri'
-      ],
-      'orig' => 'tuwayojriy~',
       'prefix' => ''
     }
   ],
@@ -15080,6 +15045,27 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  't k n' => [
+    {
+      'types' => {},
+      'entry' => 'tAkiyn',
+      'form' => 'tAkiyn',
+      'lines' => [
+        ';; tAkiyn_1',
+        'tAkiyn  Nprop   Takin ??'
+      ],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'TACIL',
+      'suffix' => '',
+      'glosses' => [
+        'Takin ??'
+      ],
+      'orig' => 'tAkiyn',
+      'prefix' => ''
+    }
+  ],
   'tUmyAnUfIt^s' => [
     {
       'types' => {},
@@ -15725,9 +15711,6 @@ $Lexicon->{'t y ^g n'}[0]{'glosses'} = $Lexicon->{'t w ^g'}[4]{'glosses'};
 $Lexicon->{'t ^g n'}[0]{'types'} = $Lexicon->{'t w ^g'}[4]{'types'};
 $Lexicon->{'t ^g n'}[0]{'lines'} = $Lexicon->{'t w ^g'}[4]{'lines'};
 $Lexicon->{'t ^g n'}[0]{'glosses'} = $Lexicon->{'t w ^g'}[4]{'glosses'};
-$Lexicon->{'t ^g n'}[1]{'types'} = $Lexicon->{'t w ^g'}[4]{'types'};
-$Lexicon->{'t ^g n'}[1]{'lines'} = $Lexicon->{'t w ^g'}[4]{'lines'};
-$Lexicon->{'t ^g n'}[1]{'glosses'} = $Lexicon->{'t w ^g'}[4]{'glosses'};
 $Lexicon->{'t y n t'}[0]{'types'} = $Lexicon->{'t n t'}[0]{'types'};
 $Lexicon->{'t y n t'}[0]{'lines'} = $Lexicon->{'t n t'}[0]{'lines'};
 $Lexicon->{'t y n t'}[0]{'glosses'} = $Lexicon->{'t n t'}[0]{'glosses'};

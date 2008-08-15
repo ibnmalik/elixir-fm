@@ -16,14 +16,6 @@ cluster_1   = listing "Lexicon's properties"
 
     Identity |< At            `noun`    {- miyqAt -}           [ unwords [ "appointed", "time" ], unwords [ "meeting", "point" ], "timetables", unwords [ "rendezvous", "points", "and", "times" ] ] ]
 
- |> "tu^gAh" <| [
-
-    Identity |<< "a"          `prep`    {- tujAha -}           [ "towards", "facing" ] ]
-
- |> "tuhm" <| [
-
-    Identity |< aT            `noun`    {- tuhomap -}          [ "accusation", "charge" ] ]
-
  |> "w ' .h" <| [
 
     FAL |< aT                 `noun`    {- wAHap -}            [ "oasis" ]
@@ -568,6 +560,9 @@ cluster_11  = listing "Lexicon's properties"
                               `plural`     FuCL,
 
     FiCAL |< Iy               `adj`     {- wijAhiy~ -}         [ "contradictory" ],
+
+    TuCAL |<< "a"             `prep`    {- tujAha -}           [ "towards", "facing" ]
+                              `plural`     TuCAL,
 
     TaFCIL                    `noun`    {- tawojiyh -}         [ "directing", "guiding", "sending" ],
 

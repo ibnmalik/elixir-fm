@@ -12,174 +12,6 @@ lexicon = include section
 cluster_41  = listing "Lexicon's properties"
 
 
- |> "'ibrAhIm" <| [
-
-    Identity                  `noun`    {- IiborAhiym -}       [ "Ibrahim" ],
-
-    Identity |< Iy            `adj`     {- IiborAhiymiy~ -}    [ "Ibrahimi" ] ]
-
- |> "'idmUnd" <| [
-
-    Identity                  `noun`    {- Iidomuwnod -}       [ "Edmund", "Edmond" ] ]
-
- |> "'idrimId" <| [
-
-    Identity                  `noun`    {- Iidorimiyd -}       [ "Edremit" ] ]
-
- |> "'idwArdU" <| [
-
-    Identity                  `noun`    {- IidowAroduw -}      [ "Eduardo" ] ]
-
- |> "'idwArdz" <| [
-
-    Identity                  `noun`    {- IidowArodz -}       [ "Edwards" ] ]
-
- |> "'ifrAyIm" <| [
-
-    Identity                  `noun`    {- IiforAyiym -}       [ "Efraim" ] ]
-
- |> "'iklInIk" <| [
-
-    Identity |< Iy            `adj`     {- Iikoliyniykiy~ -}   [ "clinical" ] ]
-
- |> "'iksbU" <| [
-
-    Identity                  `noun`    {- Iiksobuw -}         [ "Expo" ] ]
-
- |> "'ikwAdUr" <| [
-
-    Identity                  `noun`    {- IikowAduwr -}       [ "Ecuador" ] ]
-
- |> "'ilI`Azar" <| [
-
-    Identity                  `noun`    {- IiliyEAzar -}       [ "Eliezer" ] ]
-
- |> "'il_ah" <| [
-
-    Identity                  `noun`    {- Iil`h -}            [ "god", "deity", "goddess", unwords [ "female", "deity" ] ],
-
-    Identity |< Iy            `adj`     {- Iil`hiy~ -}         [ "divine", "godly", "theological" ] ]
-
- |> "'iliktrIk" <| [
-
-    Identity                  `noun`    {- Iilikotriyk -}      [ "Electric" ] ]
-
- |> "'iliktrUn" <| [
-
-    Identity |< Iy            `adj`     {- Iilikotruwniy~ -}   [ "electronic" ] ]
-
- |> "'iliyAn" <| [
-
-    Identity                  `noun`    {- IiliyAn -}          [ "Elian" ] ]
-
- |> "'illA" <| [
-
-    Identity                  `noun`    {- Iil~A -}            [ "however", "except" ] ]
-
- |> "'ilyU^sin" <| [
-
-    Identity                  `noun`    {- Iiloyuw$in -}       [ "Ilyushin" ] ]
-
- |> "'imIl" <| [
-
-    Identity                  `noun`    {- Iimiyl -}           [ "Emile", "Emil" ] ]
-
- |> "'imbirA.tUr" <| [
-
-    Identity |< Iy |< aT      `noun`    {- IimobirATuwriy~ap -} [ "empire" ] ]
-
-
-cluster_42  = listing "Lexicon's properties"
-
-
- |> "'imbiriyAl" <| [
-
-    Identity |< Iy            `adj`     {- IimobiriyAliy~ -}   [ "imperialist", "imperial" ] ]
-
- |> "'immA" <| [
-
-    Identity                  `conj`    {- Iim~A -}            [ "either" ] ]
-
- |> "'inIr^gI" <| [
-
-    Identity                  `noun`    {- Iiniyrojiy -}       [ "Energy" ] ]
-
- |> "'in^giltirA" <| [
-
-    Identity                  `noun`    {- IinojilotirA -}     [ "England" ] ]
-
- |> "'in^glIz" <| [
-
-    Identity |< Iy            `adj`     {- Iinojliyziy~ -}     [ "English" ],
-
-    Identity |< Iy |< aT      `noun`    {- Iinojliyziy~ap -}   [ unwords [ "English", "(", "language", ")" ] ] ]
-
- |> "'indUnIs" <| [
-
-    Identity |< Iy            `adj`     {- Iinoduwniysiy~ -}   [ "Indonesian" ] ]
-
- |> "'indUnIsiyA" <| [
-
-    Identity                  `noun`    {- IinoduwniysiyA -}   [ "Indonesia" ] ]
-
- |> "'indastrIz" <| [
-
-    Identity                  `noun`    {- Iinodasotriyz -}    [ "Industries" ] ]
-
- |> "'indibandant" <| [
-
-    Identity                  `noun`    {- Iinodibanodant -}   [ "Independent" ] ]
-
- |> "'indiyAnA" <| [
-
-    Identity                  `noun`    {- IinodiyAnA -}       [ "Indiana" ] ]
-
- |> "'indiyAnAbUlIs" <| [
-
-    Identity                  `noun`    {- IinodiyAnAbuwliys -} [ "Indianapolis" ] ]
-
- |> "'influwanzA" <| [
-
-    Identity                  `noun`    {- IinofluwanozA -}    [ "influenza" ] ]
-
- |> "'inkA" <| [
-
-    Identity                  `noun`    {- IinokA -}           [ "Inca" ] ]
-
- |> "'inkiltirA" <| [
-
-    Identity                  `noun`    {- IinokilotirA -}     [ "England" ] ]
-
- |> "'inklIz" <| [
-
-    Identity |< Iy            `adj`     {- Iinokliyziy~ -}     [ "English" ],
-
-    Identity |< Iy |< aT      `noun`    {- Iinokliyziy~ap -}   [ unwords [ "English", "(", "language", ")" ] ] ]
-
- |> "'innamA" <| [
-
-    Identity                  `conj`    {- Iin~amA -}          [ unwords [ "but", "rather" ], unwords [ "on", "the", "contrary" ] ] ]
-
- |> "'inqlIz" <| [
-
-    Identity |< Iy            `adj`     {- Iinoqliyziy~ -}     [ "English" ] ]
-
- |> "'intarnA^syUnAl" <| [
-
-    Identity                  `noun`    {- IinotarnA$oyuwnAl -} [ "International" ] ]
-
-
-cluster_43  = listing "Lexicon's properties"
-
-
- |> "'intirnit" <| [
-
-    Identity                  `noun`    {- Iinotironit -}      [ "Internet" ] ]
-
- |> "'irItr" <| [
-
-    Identity |< Iy            `adj`     {- Iiriytriy~ -}       [ "Eritrean" ] ]
-
  |> "'irnIstA" <| [
 
     Identity                  `noun`    {- IironiysotA -}      [ "Ernesta" ] ]
@@ -240,10 +72,6 @@ cluster_43  = listing "Lexicon's properties"
 
     Identity |< Iy            `adj`     {- IisorA}iyliy~ -}    [ "Israeli" ] ]
 
-
-cluster_44  = listing "Lexicon's properties"
-
-
  |> "'istUkhUlm" <| [
 
     Identity                  `noun`    {- Iisotuwkohuwlm -}   [ "Stockholm" ] ]
@@ -251,6 +79,10 @@ cluster_44  = listing "Lexicon's properties"
  |> "'istUniyA" <| [
 
     Identity                  `noun`    {- IisotuwniyA -}      [ "Estonia" ] ]
+
+
+cluster_42  = listing "Lexicon's properties"
+
 
  |> "'istanbUl" <| [
 
@@ -316,10 +148,6 @@ cluster_44  = listing "Lexicon's properties"
 
     Identity                  `adv`     {- biAltaOokiyd -}     [ "certainly", "undoubtedly" ] ]
 
-
-cluster_45  = listing "Lexicon's properties"
-
-
  |> "ibn" <| [
 
     Identity                  `noun`    {- Aibon -}            [ "son" ],
@@ -329,6 +157,10 @@ cluster_45  = listing "Lexicon's properties"
  |> "ka'ann" <| [
 
     Identity |<< "a"          `conj`    {- kaOan~a -}          [ unwords [ "as", "if" ] ] ]
+
+
+cluster_43  = listing "Lexicon's properties"
+
 
  |> "ka'annamA" <| [
 
@@ -358,12 +190,6 @@ cluster_45  = listing "Lexicon's properties"
 
     Identity |< aT            `noun`    {- maOodubap -}        [ "banquet", "reception" ] ]
 
- |> "tArI_h" <| [
-
-    Identity                  `noun`    {- tAriyx -}           [ "date", "history" ],
-
-    Identity |< Iy            `adj`     {- tAriyxiy~ -}        [ "historical" ] ]
-
  |> "wa'in" <| [
 
     Identity                  `conj`    {- waIin -}            [ unwords [ "even", "if" ] ] ]
@@ -371,7 +197,5 @@ cluster_45  = listing "Lexicon's properties"
 
 section = [ cluster_41,
             cluster_42,
-            cluster_43,
-            cluster_44,
-            cluster_45 ]
+            cluster_43 ]
 

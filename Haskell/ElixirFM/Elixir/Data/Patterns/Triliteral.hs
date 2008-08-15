@@ -213,7 +213,7 @@ instance Rules PatternT where
                             HaFACiL,
                             HaFACIL,
                             TaFACiL,
-                            TaFACIL,
+                            TaFACIL, TawACIL,
                             MaFACiL, MaFA'iL, MaFACL, MawACiL, MayACiL,
                             MaFACIL, MaFA'IL, MawACIL, MayACIL,
                             -- FuCaL, FuCAL,
@@ -507,16 +507,13 @@ instance Forming PatternT where
         ]
 
 
- -- verbStems _ _ = []
-
-
     nounStems I _ = [
 
         (   FaCaL,      FACiL,      MaFCUL,     morph   FiCL            ),
         (   FaCaL,      FACiL,      MaFCUL,             FiCAL |< aT     ),
         (   FaCaL,      FACiL,      MaFCUL,     morph   FuCUL           ),
 
-     -- (   FaCaL,      FACiL,      MaFCUL,             CiL |< aT       ),
+        (   FaCaL,      FACiL,      MaFCUL,             CiL |< aT       ),
 
         (   FAL,        FA'iL,      MaFUL,      morph   FaCL            ),
         (   FAL,        FA'iL,      MaFIL,      morph   FaCL            ),
@@ -530,13 +527,33 @@ instance Forming PatternT where
         ]
 
 
-    nounStems II _ = [
+    nounStems II r
+
+        | let x = words r in if null x || length x > 2 && x !! 1 == x !! 2
+                                       then False
+                                       else head x `elem` ["'"] = [
+
+        (   FaCCaL,     MuFaCCiL,   MuFaCCaL,   morph   TaFCIL          ),
+        (   FaCCaL,     MuFaCCiL,   MuFaCCaL,   morph   TACIL           )
+
+        ]
+
+        | let x = words r in if null x || length x > 2 && x !! 1 == x !! 2
+                                       then False
+                                       else head x `elem` ["w"] = [
+
+        (   FaCCaL,     MuFaCCiL,   MuFaCCaL,   morph   TaFCIL          ),
+        (   FaCCaL,     MuFaCCiL,   Mu'aCCaL,   morph   TaFCIL          )
+
+        ]
+
+        | otherwise = [
 
         (   FaCCaL,     MuFaCCiL,   MuFaCCaL,   morph   TaFCIL          ),
         (   FaCCaL,     MuFaCCiL,   MuFaCCaL,           TaFCiL |< aT    ),
 
-        (   FaCCY,      MuFaCCI,    MuFaCCY,            TaFCI |< aT     ),
-        (   FaCCY,      MuFaCCI,    MuFaCCY,            TaFIL |< aT     )
+        (   FaCCY,      MuFaCCI,    MuFaCCY,            TaFIL |< aT     ),
+        (   FaCCY,      MuFaCCI,    MuFaCCY,            TaFCI |< aT     )
 
         ]
 
@@ -703,16 +720,14 @@ data PatternT =
                                         |   FuL                                         |   FU
 
     {-- |   FaCL    --}                 |   FayL        |   FaC
-    {-- |   FiCL    --}                                 |   FiC
-    {-- |   FuCL    --}                                 |   FuC
+    {-- |   FiCL    --} |   HiCL                        |   FiC
+    {-- |   FuCL    --} |   TuCL                        |   FuC
 
                                                         |   IFC
 
         |   FaCAL                                       |   FaCA'
-        |   FiCAL                                       |   FiCA'
-        |   FuCAL                                       |   FuCA'
-
-                                        |   FiyAL       |   FiyA'
+        |   FiCAL                       |   FiyAL       |   FiCA'                       |   FiyA'
+        |   FuCAL       |   TuCAL                       |   FuCA'
 
                                                         |   FiCAy
 
@@ -791,7 +806,7 @@ data PatternT =
 
     {-- |   FaCaL   --}                             {-- |   FaCY    --}
         |   FiCaL                                       |   FiCY
-        |   FuCaL                                       |   FuCY
+        |   FuCaL       |   TuCaL                       |   FuCY
         |   FuCuL                                       |   FuCU
 
         |   FaCLAn
@@ -831,16 +846,16 @@ data PatternT =
 
         |   FaCCiL                                      |   FaCCI
 
-        |   TaFCIL
+        |   TaFCIL      |   TACIL
         |   TaFCiL                      |   TaFIL       |   TaFCI
 
         |   TaFACiL                                 {-- |   TaFACI  --}
-        |   TaFACIL
+        |   TaFACIL     |   TawACIL
 
         |   TiFCAL      |   TICAL                       |   TiFCA'                      |   TICA'
 
         |   MuFaCCiL                                    |   MuFaCCI
-        |   MuFaCCaL                                    |   MuFaCCY
+        |   MuFaCCaL    |   Mu'aCCaL                    |   MuFaCCY
 
 --  Form III
 

@@ -101,9 +101,7 @@ cluster_2   = listing "Lexicon's properties"
 
  |> "t ^g n" <| [
 
-    FICAL |< Iy               `adj`     {- tiyjAniy~ -}        [ "Tijani" ],
-
-    TICAL |< Iy               `adj`     {- tiyjAniy~ -}        [ "Tijani" ] ]
+    FICAL |< Iy               `adj`     {- tiyjAniy~ -}        [ "Tijani" ] ]
 
  |> "t ^g r" <| [
 
@@ -133,7 +131,9 @@ cluster_2   = listing "Lexicon's properties"
     FACiL                     `noun`    {- tAjir -}            [ "merchant", "businessman", "businessmen" ]
                               `plural`     FuCCAL
                               `plural`     FACiL |< Un
-    `derives` "------F---" ]
+    `derives` "------F---",
+
+    FuwayCL |< Iy             `adj`     {- tuwayojriy~ -}      [ "Tuwaijri" ] ]
 
  |> "t ^s r" <| [
 
@@ -538,6 +538,10 @@ cluster_8   = listing "Lexicon's properties"
 
     FiCL |< aT                `noun`    {- tik~ap -}           [ "ticking" ] ]
 
+ |> "t k n" <| [
+
+    TACIL                     `noun`    {- tAkiyn -}           [ unwords [ "Takin", "?", "?" ] ] ]
+
 
 cluster_9   = listing "Lexicon's properties"
 
@@ -769,7 +773,7 @@ cluster_12  = listing "Lexicon's properties"
  |> "t m l" <| [
 
     FACiL                     `noun`    {- tAmil -}            [ "Tamil" ]
-                           {- `others`  [ "tAmiyl N0" ] -} ]
+                              `plural`     TACIL ]
 
 
 cluster_13  = listing "Lexicon's properties"
@@ -1608,10 +1612,6 @@ cluster_26  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- tAkAhArA -}         [ "Takahara" ] ]
 
- |> "tAkIn" <| [
-
-    Identity                  `noun`    {- tAkiyn -}           [ unwords [ "Takin", "?", "?" ] ] ]
-
  |> "tAkInArdI" <| [
 
     Identity                  `noun`    {- tAkiynArodiy -}     [ "Tacchinardi" ] ]
@@ -2181,10 +2181,6 @@ cluster_33  = listing "Lexicon's properties"
  |> "tuwIst" <| [
 
     Identity                  `noun`    {- tuwiysot -}         [ "twist" ] ]
-
- |> "tuway^gr" <| [
-
-    Identity |< Iy            `adj`     {- tuwayojriy~ -}      [ "Tuwaijri" ] ]
 
 
 section = [ cluster_1,
