@@ -141,8 +141,8 @@ isClosed _ = True
 
 'Y' -<- x = case x of   AT      -> "AT"
                         Iy      -> "awIy"
-                        Un      -> "awna"
-                        In      -> "ayna"
+                        Un      -> "awn"
+                        In      -> "ayn"
 
                         Suffix ""       -> "a"
 
@@ -164,8 +164,8 @@ isClosed _ = True
 
 'I' -<- x = case x of   AT      -> "iyaT"
                         Iy      -> "awIy"   -- "Iy"
-                        Un      -> "Una"
-                        In      -> "Ina"
+                        Un      -> "Un"
+                        In      -> "In"
 
                         Suffix ""       -> "i"
 
@@ -186,8 +186,8 @@ isClosed _ = True
 
 'A' -<- x = case x of   AT      -> "AT"
                         Iy      -> "awIy"   -- "AwIy"
-                        Un      -> "awna"
-                        In      -> "ayna"
+                        Un      -> "awn"
+                        In      -> "ayn"
 
                         Suffix ""       -> "a"
 
@@ -205,8 +205,8 @@ isClosed _ = True
 
                         _       -> "aw" ++ show x
 
-'U' -<- x = case x of   Un      -> "Una"
-                        In      -> "Ina"
+'U' -<- x = case x of   Un      -> "Un"
+                        In      -> "In"
 
                         Suffix ""       -> "u"
 

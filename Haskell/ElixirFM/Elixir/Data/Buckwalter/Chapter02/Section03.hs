@@ -275,7 +275,19 @@ cluster_46  = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- bahA' -}            [ "beauty", "brilliancy" ],
 
-    FaCAL |< Iy               `adj`     {- bahA}iy~ -}         [ "Baha'i" ] ]
+    FaCAL |< Iy               `adj`     {- bahA}iy~ -}         [ "Baha'i" ],
+
+    FAL                       `verb`    {- bA'-u -}            [ "return", "incur" ]
+                              `imperf`     FUL
+                              `pfirst`     FuL,
+
+    HaFAL                     `verb`    {- OabA' -}            [ "accommodate", "reside" ],
+
+    FIL |< aT                 `noun`    {- biy}ap -}           [ "environment", "milieu" ],
+
+    FIL |< Iy                 `adj`     {- biy}iy~ -}          [ "environmental" ],
+
+    MaFAL |< aT               `noun`    {- mabA'ap -}          [ "abode", "habitation" ] ]
 
  |> "b h .z" <| [
 
@@ -287,6 +299,10 @@ cluster_46  = listing "Lexicon's properties"
     FACiL                     `noun`    {- bAhiZ -}            [ "oppressive", "exorbitant" ]
                               `plural`     FACiL |< Un
     `derives` "------F---" ]
+
+
+cluster_47  = listing "Lexicon's properties"
+
 
  |> "b h ^g" <| [
 
@@ -330,10 +346,6 @@ cluster_46  = listing "Lexicon's properties"
 
     KaRDaS                    `noun`    {- bahojat -}          [ "Bahjat" ] ]
 
-
-cluster_47  = listing "Lexicon's properties"
-
-
  |> "b h d l" <| [
 
     KaRDaS                    `verb`    {- bahodal -}          [ "insult", "ridicule" ],
@@ -345,6 +357,14 @@ cluster_47  = listing "Lexicon's properties"
     MuKaRDaS                  `noun`    {- mubahodal -}        [ "mistreated" ]
                               `plural`     MuKaRDaS |< Un
     `derives` "------F---" ]
+
+ |> "b h h" <| [
+
+    FaL |< Iy                 `adj`     {- bahiy~ -}           [ "beautiful", "brilliant" ] ]
+
+
+cluster_48  = listing "Lexicon's properties"
+
 
  |> "b h l" <| [
 
@@ -391,7 +411,7 @@ cluster_47  = listing "Lexicon's properties"
     KaRDY |< Iy               `adj`     {- baholawiy~ -}       [ "Bahlawi", "Bahlaoui" ] ]
 
 
-cluster_48  = listing "Lexicon's properties"
+cluster_49  = listing "Lexicon's properties"
 
 
  |> "b h m" <| [
@@ -433,7 +453,7 @@ cluster_48  = listing "Lexicon's properties"
                               `femini`     FaCLA' ]
 
 
-cluster_49  = listing "Lexicon's properties"
+cluster_50  = listing "Lexicon's properties"
 
 
  |> "b h r" <| [
@@ -491,7 +511,7 @@ cluster_49  = listing "Lexicon's properties"
     `derives` "------F---" ]
 
 
-cluster_50  = listing "Lexicon's properties"
+cluster_51  = listing "Lexicon's properties"
 
 
  |> "b h r z" <| [
@@ -533,10 +553,6 @@ cluster_50  = listing "Lexicon's properties"
                               `plural`     MaFCUL |< Un
     `derives` "------F---" ]
 
- |> "b h t n" <| [
-
-    KuRDAS                    `noun`    {- buhotAn -}          [ "slander" ] ]
-
  |> "b h t r" <| [
 
     KaRDaS                    `verb`    {- bahotar -}          [ "lie" ],
@@ -546,10 +562,12 @@ cluster_50  = listing "Lexicon's properties"
  |> "b h w" <| [
 
     FaCL                      `noun`    {- bahow -}            [ "parlor", "lobby" ]
-                              `plural`     HaFCA' ]
+                              `plural`     HaFCA',
+
+    FU                        `noun`    {- buw -}              [ "Bou" ] ]
 
 
-cluster_51  = listing "Lexicon's properties"
+cluster_52  = listing "Lexicon's properties"
 
 
  |> "b h y" <| [
@@ -575,7 +593,9 @@ cluster_51  = listing "Lexicon's properties"
                               `plural`     TaFACI |< At,
 
     MutaFACI                  `noun`    {- mutabAhiy -}        [ "proud", "boastful" ]
-                              `plural`     MutaFACI |< At ]
+                              `plural`     MutaFACI |< At,
+
+    FU                        `noun`    {- buw -}              [ "Bou" ] ]
 
  |> "b h z" <| [
 
@@ -585,46 +605,16 @@ cluster_51  = listing "Lexicon's properties"
     FaCL |< aT                `noun`    {- bahozap -}          [ "rejection" ]
                               `plural`     FaCaL |< At ]
 
-
-cluster_52  = listing "Lexicon's properties"
-
-
  |> "b k '" <| [
 
     FaCIL                     `adj`     {- bakiy' -}           [ "sparing", "sparce" ]
                               `plural`     FaCIL |< Un
                               `plural`     FiCAL,
 
-    FaCY                      `verb`    {- bakaY-i -}          [ "cry", "weep" ]
-                              `imperf`     FCY
-                              `imperf`     FCI,
-
-    FaCI                      `verb`    {- bakiy-a -}          [ "mourn" ]
-                              `imperf`     FCY,
-
-    FaCCY                     `verb`    {- bak~aY -}           [ unwords [ "make", "cry" ], unwords [ "be", "made", "to", "cry" ] ],
-
-    HaFCY                     `verb`    {- OabokaY -}          [ unwords [ "make", "cry" ], unwords [ "be", "made", "to", "cry" ] ],
-
-    TaFACY                    `verb`    {- tabAkaY -}          [ unwords [ "feign", "tears" ], unwords [ "shed", "crocodile", "tears" ] ],
-
-    IstaFCY                   `verb`    {- AisotabokaY -}      [ unwords [ "make", "cry" ] ],
-
     FuCAL                     `noun`    {- bukA' -}            [ "crying", "weeping" ],
 
     FaCCAL                    `noun`    {- bak~A' -}           [ "tearful" ]
-                              `plural`     FaCCAL |< Un,
-
-    MaFCY                     `noun`    {- mabokaY -}          [ "wailing" ],
-
-    FACI                      `noun`    {- bAkiy -}            [ "mourner", "weeping", "weepers" ]
-                              `plural`     FawACI
-                              `plural`     FACI |< At
-                              `plural`     FuCY |< aT,
-
-    MuFaCCI                   `noun`    {- mubak~iy -}         [ "tearful", "lamentable" ]
-                              `plural`     MuFaCCI |< At
-                              `plural`     MuFCI |< At ]
+                              `plural`     FaCCAL |< Un ]
 
  |> "b k b ^s" <| [
 
@@ -636,20 +626,21 @@ cluster_52  = listing "Lexicon's properties"
                               `plural`     FIL
                            {- `others`  [ "biyh N" ] -},
 
-    FaCL |< aT                `noun`    {- bak~ap -}           [ unwords [ "Bakka", "(", "ancient", "name", "of", "Mecca", ")" ] ] ]
+    FaCL |< aT                `noun`    {- bak~ap -}           [ unwords [ "Bakka", "(", "ancient", "name", "of", "Mecca", ")" ] ],
+
+    FaCLA'                    `noun`    {- bak~A' -}           [ "tearful" ]
+                              `plural`     FaCLA' |< Un ]
+
+
+cluster_53  = listing "Lexicon's properties"
+
 
  |> "b k l" <| [
 
     FaCCaL                    `verb`    {- bak~al -}           [ "buckle", "fold" ],
 
     FuCL |< aT                `noun`    {- bukolap -}          [ "clasp" ]
-                              `plural`     FuCaL,
-
-    FaL                       `conj`    {- bal -}              [ unwords [ "but", "rather" ], unwords [ "in", "fact" ] ] ]
-
-
-cluster_53  = listing "Lexicon's properties"
-
+                              `plural`     FuCaL ]
 
  |> "b k m" <| [
 
@@ -779,8 +770,24 @@ cluster_55  = listing "Lexicon's properties"
     FaC                       `noun`    {- bak -}              [ "Bey", "beys" ]
                            {- `others`  [ "biyh N", "biyk N" ] -},
 
+    FaCY                      `verb`    {- bakaY-i -}          [ "cry", "weep" ]
+                              `imperf`     FCY
+                              `imperf`     FCI,
+
     FaCI                      `verb`    {- bakiy-a -}          [ "mourn" ]
                               `imperf`     FCY,
+
+    FaCCY                     `verb`    {- bak~aY -}           [ unwords [ "make", "cry" ], unwords [ "be", "made", "to", "cry" ] ],
+
+    HaFCY                     `verb`    {- OabokaY -}          [ unwords [ "make", "cry" ], unwords [ "be", "made", "to", "cry" ] ],
+
+    TaFACY                    `verb`    {- tabAkaY -}          [ unwords [ "feign", "tears" ], unwords [ "shed", "crocodile", "tears" ] ],
+
+    IstaFCY                   `verb`    {- AisotabokaY -}      [ unwords [ "make", "cry" ] ],
+
+    FuCA'                     `noun`    {- bukA' -}            [ "crying", "weeping" ],
+
+    MaFCY                     `noun`    {- mabokaY -}          [ "wailing" ],
 
     FACI                      `noun`    {- bAkiy -}            [ "mourner", "weeping", "weepers" ]
                               `plural`     FawACI
@@ -792,8 +799,6 @@ cluster_55  = listing "Lexicon's properties"
                               `plural`     MuFCI |< At ]
 
  |> "b l '" <| [
-
-    FaC                       `conj`    {- bal -}              [ unwords [ "but", "rather" ], unwords [ "in", "fact" ] ],
 
     FaCAL                     `noun`    {- balA' -}            [ "tribulation", "affliction" ],
 

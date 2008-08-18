@@ -532,6 +532,7 @@ bab~agA}        Nhy     parrot
 babogAw NAt     parrots
 bab~agAw        NAt     parrots
 ;
+;--- btt
 ;; bat~-ui_1
 bat~    PV_V    determine;complete
 batat   PV_Ct   determine;complete
@@ -558,10 +559,6 @@ bat~    NapAt   adjudication;final decision
 bat~apF FW-Wa   absolutely    [[bat~apF/ADV]]
 ;; bat~iy~_1
 bat~iy~ Nall    definite     [[bat~iy~/ADJ]]
-;; bit~iy~ap_1
-bit~iy~ NapAt   barrel;tub     [[bit~iy~/NOUN]]
-batAtiy N0_Nh   barrels;tubs
-batAt   NK      barrels;tubs
 ;; batAtAF_1
 batAt   NF      absolutely     [[batAt/ADV]]
 ;; tabotiyt_1
@@ -571,6 +568,7 @@ bAt~    Nall    categorical;definitive
 ;; mabotuwt_1
 mabotuwt        Nall    severed;terminated
 ;
+;--- btr
 ;; batar-u_1
 batar   PV      amputate;mutilate
 botur   IV      amputate;mutilate
@@ -660,10 +658,17 @@ batal   NapAt   petal
 ;; bAtuwlA_1
 bAtuwlA N0      birch tree
 ;
+;--- bty
+;; bit~iy~ap_1
+bit~iy~ NapAt   barrel;tub     [[bit~iy~/NOUN]]
+batAtiy N0_Nh   barrels;tubs
+batAt   NK      barrels;tubs
+;
 ; AFP Corpus: Argentine soccer player Gabriel Omar Batistuta
 ;; bAtiysotuwtA_1
 bAtiysotuwtA    Nprop   Batistuta
 ;
+;--- bvv
 ;; bav~-u_1
 bav~    PV_V    transmit;disseminate
 bavav   PV_C    transmit;disseminate
@@ -785,6 +790,7 @@ bujuwm  N       speechlessness
 baj~an  PV-n    clinch (a nail);inculcate
 baj~in  IV-n_yu clinch (a nail);inculcate
 ;
+;--- bHH
 ;; baH~-u_1
 baH~    PV_V_intr       be hoarse;be harsh
 baHaH   PV_C_intr       be hoarse;be harsh
@@ -824,6 +830,7 @@ mubaHobaH       Nall    well-to-do;leisurely
 ;; tabaHobuH_1
 tabaHobuH       N/At    affluence;leisure
 ;
+;--- bHt
 ;; bAHat_1
 bAHat   PV-t    promise
 bAHit   IV_yu   promise
@@ -949,6 +956,7 @@ boHa$   IV      dig
 baHolaq PV      gaze
 baHoliq IV_yu   gaze
 ;
+;--- bxx
 ;; bax~-u_1
 bax~    PV_V    sprinkle;splatter
 baxax   PV_C    sprinkle;splatter
@@ -965,6 +973,7 @@ mibax~  NapAt   nozzle;sprayer
 ;; bax_1
 bax     FW      bravo!     [[bax/INTERJ]]
 ;
+;--- bxt
 ;; baxot_1
 baxot   N       luck;fortune
 buxuwt  N       luck;fortune
@@ -1464,7 +1473,7 @@ mubodiy N0      expressing;showing;demonstrating
 ;; bidiykiyr_1
 bidiykiyr       N       pedicure
 ;
-;--- b*
+;--- b**
 ;; ba*~-u_1
 ba*~    PV_V    surpass;beat
 ba*a*   PV_C    surpass;beat
@@ -1477,6 +1486,7 @@ bA*~    Nall    slovenly;squalid
 ;; ba*A*ap_1
 ba*A*   Nap     slovenliness;squalor
 ;
+;--- b*A
 ;; ba*aO-a_1
 ba*aO   PV-O    revile;abuse
 ba*a|   PV-|    revile;abuse
@@ -3156,6 +3166,7 @@ ba$A$   Nap     gaiety;smile
 ;; bA$~_1
 bA$~    Nall    smiling;happy
 ;
+;--- b$t
 ;; bu$ot_1
 bu$ot   N       cloak
 ;; bi$otap_1
@@ -4515,6 +4526,7 @@ biyh    N       Bey
 bakaw   NAt     beys
 bahaw   NAt     beys
 ;
+;--- bkk
 ;; bak~ap_1
 bak~ap  N0      Bakka (ancient name of Mecca)
 ;
@@ -4537,6 +4549,7 @@ bakAluwriyuws   N       Bachelor's;B.A.
 ;; bikobA$iy~_1
 bikobA$iy~      Nall    lieutenant colonel     [[bikobA$iy~/ADJ]]
 ;
+;--- bkt
 ;; bak~at_1
 bak~at  PV-t    censure;reprimand
 bak~it  IV_yu   censure;reprimand
@@ -4758,9 +4771,11 @@ bakiytA Nprop   Bakita
 ;; bikiyn_1
 bikiyn  Ndip    Peking;Beijing
 ;
+;--- bl
 ;; bal_1
 bal     FW-Wa   but rather;in fact     [[bal/CONJ]]
 ;
+;--- bll
 ;; bal~-u_1
 bal~    PV_V    soak;wet
 balal   PV_C    soak;wet
@@ -5288,7 +5303,7 @@ bulahoniy       Nap     wealth;abundance
 ;; balohawAn_1
 balohawAn       N       acrobat
 ;
-;--- blw bly
+;--- blw
 ;; balaY_1
 balaY   FW-Wa   indeed;certainly     [[balaY/INTERJ]]
 ;
@@ -5387,7 +5402,6 @@ mubotal Nuwn_Niyn       afflicted;suffering
 mubotalA        Napdu   afflicted;suffering
 mubotalay       NAt     afflicted;suffering
 ;
-;--- bl
 ;; lAOubAliy~ap_1
 lAOubAliy~      Nap_L   indifference     [[lAOubAliy~/NOUN]]
 lAOubAliy~      Nap_L   indifference     [[lAAubAliy~/NOUN]]
@@ -5497,7 +5511,7 @@ bamobah N       hot pink
 ;; bamobiy~_1
 bamobiy~        Nall    hot pink     [[bamobiy~/ADJ]]
 ;
-;--- bn(1)
+;--- bny
 ;; bin_1
 bin     FW-WaBi son     [[bin/NOUN]]
 ;; bin_2
@@ -5522,11 +5536,11 @@ bunuw~  Nap     sonship;filiation
 ;; banawiy~_1
 banawiy~        Nall    filial     [[banawiy~/ADJ]]
 ;
-;--- bn(2)
+;--- bnn
 ;; bun~_1
 bun~    N       coffee beans
 ;
-;--- bn(3)
+;--- bnn
 ;; banAn_1
 banAn   N       finger tips
 ;
@@ -5841,6 +5855,7 @@ bahAmA  N0      Bahamas
 ;; bahobahAniy_1
 bahobahAniy     N0      Bahbahani
 ;
+;--- bht
 ;; bahit-a_1
 bahit   PV-t_intr       become pale;blanche
 bohat   IV_intr become pale;blanche
@@ -5871,12 +5886,14 @@ bAhit   Nall    pale;astonished;startled
 ;; mabohuwt_1
 mabohuwt        Nall    astonished;startled
 ;
+;--- bhtr
 ;; bahotar_1
 bahotar PV      lie
 bahotir IV_yu   lie
 ;; bahotarap_1
 bahotar Nap     lying
 ;
+;--- bhj
 ;; bahij-a_1
 bahij   PV      rejoice
 bohaj   IV      rejoice

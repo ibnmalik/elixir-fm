@@ -12,6 +12,86 @@ lexicon = include section
 cluster_41  = listing "Lexicon's properties"
 
 
+ |> "'inIr^gI" <| [
+
+    Identity                  `noun`    {- Iiniyrojiy -}       [ "Energy" ] ]
+
+ |> "'in^giltirA" <| [
+
+    Identity                  `noun`    {- IinojilotirA -}     [ "England" ] ]
+
+ |> "'in^glIz" <| [
+
+    Identity |< Iy            `adj`     {- Iinojliyziy~ -}     [ "English" ],
+
+    Identity |< Iy |< aT      `noun`    {- Iinojliyziy~ap -}   [ unwords [ "English", "(", "language", ")" ] ] ]
+
+ |> "'indUnIs" <| [
+
+    Identity |< Iy            `adj`     {- Iinoduwniysiy~ -}   [ "Indonesian" ] ]
+
+ |> "'indUnIsiyA" <| [
+
+    Identity                  `noun`    {- IinoduwniysiyA -}   [ "Indonesia" ] ]
+
+ |> "'indastrIz" <| [
+
+    Identity                  `noun`    {- Iinodasotriyz -}    [ "Industries" ] ]
+
+ |> "'indibandant" <| [
+
+    Identity                  `noun`    {- Iinodibanodant -}   [ "Independent" ] ]
+
+ |> "'indiyAnA" <| [
+
+    Identity                  `noun`    {- IinodiyAnA -}       [ "Indiana" ] ]
+
+ |> "'indiyAnAbUlIs" <| [
+
+    Identity                  `noun`    {- IinodiyAnAbuwliys -} [ "Indianapolis" ] ]
+
+ |> "'influwanzA" <| [
+
+    Identity                  `noun`    {- IinofluwanozA -}    [ "influenza" ] ]
+
+ |> "'inkA" <| [
+
+    Identity                  `noun`    {- IinokA -}           [ "Inca" ] ]
+
+ |> "'inkiltirA" <| [
+
+    Identity                  `noun`    {- IinokilotirA -}     [ "England" ] ]
+
+ |> "'inklIz" <| [
+
+    Identity |< Iy            `adj`     {- Iinokliyziy~ -}     [ "English" ],
+
+    Identity |< Iy |< aT      `noun`    {- Iinokliyziy~ap -}   [ unwords [ "English", "(", "language", ")" ] ] ]
+
+ |> "'innamA" <| [
+
+    Identity                  `conj`    {- Iin~amA -}          [ unwords [ "but", "rather" ], unwords [ "on", "the", "contrary" ] ] ]
+
+ |> "'inqlIz" <| [
+
+    Identity |< Iy            `adj`     {- Iinoqliyziy~ -}     [ "English" ] ]
+
+ |> "'intarnA^syUnAl" <| [
+
+    Identity                  `noun`    {- IinotarnA$oyuwnAl -} [ "International" ] ]
+
+ |> "'intirnit" <| [
+
+    Identity                  `noun`    {- Iinotironit -}      [ "Internet" ] ]
+
+ |> "'irItr" <| [
+
+    Identity |< Iy            `adj`     {- Iiriytriy~ -}       [ "Eritrean" ] ]
+
+
+cluster_42  = listing "Lexicon's properties"
+
+
  |> "'irnIstA" <| [
 
     Identity                  `noun`    {- IironiysotA -}      [ "Ernesta" ] ]
@@ -81,7 +161,7 @@ cluster_41  = listing "Lexicon's properties"
     Identity                  `noun`    {- IisotuwniyA -}      [ "Estonia" ] ]
 
 
-cluster_42  = listing "Lexicon's properties"
+cluster_43  = listing "Lexicon's properties"
 
 
  |> "'istanbUl" <| [
@@ -159,7 +239,7 @@ cluster_42  = listing "Lexicon's properties"
     Identity |<< "a"          `conj`    {- kaOan~a -}          [ unwords [ "as", "if" ] ] ]
 
 
-cluster_43  = listing "Lexicon's properties"
+cluster_44  = listing "Lexicon's properties"
 
 
  |> "ka'annamA" <| [
@@ -197,5 +277,6 @@ cluster_43  = listing "Lexicon's properties"
 
 section = [ cluster_41,
             cluster_42,
-            cluster_43 ]
+            cluster_43,
+            cluster_44 ]
 

@@ -725,6 +725,9 @@ data PatternT =
 
                                                         |   IFC
 
+                                                        |   FiCt
+                                                        |   FuCt
+
         |   FaCAL                                       |   FaCA'
         |   FiCAL                       |   FiyAL       |   FiCA'                       |   FiyA'
         |   FuCAL       |   TuCAL                       |   FuCA'

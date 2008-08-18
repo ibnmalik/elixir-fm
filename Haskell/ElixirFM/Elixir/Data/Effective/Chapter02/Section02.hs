@@ -12,20 +12,6 @@ lexicon = include section
 cluster_21  = listing "Lexicon's properties"
 
 
- |> "b n d r" <| [
-
-    KaRDaS                    `noun`    {- banodar -}          [ "Bandar" ],
-
-    KaRDaS                    `noun`    {- banodar -}          [ "seaport", unwords [ "district", "capital" ] ]
-                              `plural`     KaRADiS ]
-
- |> "b n k" <| [
-
-    FaCL                      `noun`    {- banok -}            [ "bank" ]
-                              `plural`     FuCUL,
-
-    FaCL |< Iy                `adj`     {- banokiy~ -}         [ "bank", "banking" ] ]
-
  |> "b n n" <| [
 
     FiL                       `noun`    {- bin -}              [ "son" ],
@@ -66,6 +52,9 @@ cluster_22  = listing "Lexicon's properties"
 
     FaCI                      `noun`    {- baniy -}            [ unwords [ "sons", "/", "children", "of" ] ],
 
+    FiCt                      `noun`    {- binot -}            [ "daughter", "girl" ]
+                              `plural`     FaC |< At,
+
     FuCayL                    `noun`    {- bunay~ -}           [ unwords [ "little", "son" ] ],
 
     FaC |<< "awIy"            `adj`     {- banawiy~ -}         [ "filial" ],
@@ -105,13 +94,13 @@ cluster_22  = listing "Lexicon's properties"
 
     KuRDY |< Iy |< aT         `noun`    {- bunoyawiy~ap -}     [ "structuralism" ] ]
 
- |> "b n z n" <| [
-
-    KiRDIS                    `noun`    {- binoziyn -}         [ "gasoline", "benzine", "benzene" ] ]
-
 
 cluster_23  = listing "Lexicon's properties"
 
+
+ |> "b n z n" <| [
+
+    KiRDIS                    `noun`    {- binoziyn -}         [ "gasoline", "benzine", "benzene" ] ]
 
  |> "b q '" <| [
 
@@ -376,10 +365,6 @@ cluster_27  = listing "Lexicon's properties"
  |> "b r y" <| [
 
     FACI                      `noun`    {- bAriy -}            [ "Paris" ],
-
-    FaCA' |< aT               `noun`    {- barA'ap -}          [ "innocence" ],
-
-    FaCA' |< aT               `noun`    {- barA'ap -}          [ "license", "patent" ],
 
     TaFACY                    `verb`    {- tabAraY -}          [ "challenge", "confront" ],
 

@@ -37865,6 +37865,20 @@ $Lexicon = {
   'm y y' => [
     {
       'types' => {},
+      'entry' => 'miyt',
+      'form' => 'miytaT',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FIt |< aT',
+      'suffix' => ' |< aT',
+      'glosses' => [],
+      'orig' => 'miytap',
+      'prefix' => ''
+    },
+    {
+      'types' => {},
       'entry' => 'mayy',
       'form' => 'mayy',
       'lines' => [
@@ -47344,6 +47358,9 @@ $Lexicon->{'m .d y'}[7]{'glosses'} = $Lexicon->{'m .d \''}[1]{'glosses'};
 $Lexicon->{'m .d y'}[8]{'types'} = $Lexicon->{'m .d \''}[2]{'types'};
 $Lexicon->{'m .d y'}[8]{'lines'} = $Lexicon->{'m .d \''}[2]{'lines'};
 $Lexicon->{'m .d y'}[8]{'glosses'} = $Lexicon->{'m .d \''}[2]{'glosses'};
+$Lexicon->{'m y y'}[0]{'types'} = $Lexicon->{'m w t'}[9]{'types'};
+$Lexicon->{'m y y'}[0]{'lines'} = $Lexicon->{'m w t'}[9]{'lines'};
+$Lexicon->{'m y y'}[0]{'glosses'} = $Lexicon->{'m w t'}[9]{'glosses'};
 $Lexicon->{'m n w'}[10]{'types'} = $Lexicon->{'m n y'}[6]{'types'};
 $Lexicon->{'m n w'}[10]{'lines'} = $Lexicon->{'m n y'}[6]{'lines'};
 $Lexicon->{'m n w'}[10]{'glosses'} = $Lexicon->{'m n y'}[6]{'glosses'};

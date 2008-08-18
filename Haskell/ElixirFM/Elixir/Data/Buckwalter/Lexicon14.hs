@@ -3477,6 +3477,10 @@ cluster_68  = listing "Lexicon's properties"
 
     FaCCiL                    `noun`    {- Say~it -}           [ "megaphone" ] ]
 
+ |> ".s y y" <| [
+
+    FIt                       `noun`    {- Siyt -}             [ "renown", "reputation" ] ]
+
  |> ".sUdA" <| [
 
     Identity                  `noun`    {- SuwdA -}            [ "soda" ] ]
@@ -3505,15 +3509,15 @@ cluster_68  = listing "Lexicon's properties"
 
     Identity                  `noun`    {- Samuw}iyl -}        [ "Samuel", "Samu'il" ] ]
 
+
+cluster_69  = listing "Lexicon's properties"
+
+
  |> ".sanawbar" <| [
 
     Identity                  `noun`    {- Sanawobar -}        [ unwords [ "stone", "pine" ] ],
 
     Identity |< Iy            `adj`     {- Sanawobariy~ -}     [ "pine", "coniferous" ] ]
-
-
-cluster_69  = listing "Lexicon's properties"
-
 
  |> ".santimitr" <| [
 

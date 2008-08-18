@@ -822,6 +822,8 @@ cluster_16  = listing "Lexicon's properties"
 
  |> "' _h y" <| [
 
+    FuCt                      `noun`    {- Ouxot -}            [ "sister", "counterpart" ],
+
     FACI |< aT                `noun`    {- \|xiyap -}          [ "attachment", "bond" ],
 
     TaFACI                    `noun`    {- ta|xiy -}           [ "fraternity" ]

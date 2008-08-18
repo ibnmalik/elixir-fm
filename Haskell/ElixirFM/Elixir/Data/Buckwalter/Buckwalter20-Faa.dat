@@ -4332,8 +4332,10 @@ fAloSuw N0      bogus;false
 ;--- flT
 ;; fuloT_1
 fuloT   N       volt
-fulot   N       volt
 OafolAT N       volts
+;--- flt
+;; fulot_1
+fulot   N       volt
 OafolAt N       volts
 ;
 ;--- flTH

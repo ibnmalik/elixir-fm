@@ -12,9 +12,9 @@ lexicon = include section
 cluster_1   = listing "Lexicon's properties"
 
 
- |> "'ubAl" <| [
+ |> "'ubAlIy" <| [
 
-    lA >| Identity |< Iy |< aT `noun`    {- lAOubAliy~ap -}     [ "indifference" ] ]
+    lA >| Identity |< aT      `noun`    {- lAOubAliy~ap -}     [ "indifference" ] ]
 
  |> "b  '" <| [
 
@@ -47,8 +47,6 @@ cluster_1   = listing "Lexicon's properties"
     FAL                       `noun`    {- bA$ -}              [ "chief" ] ]
 
  |> "b ' _h" <| [
-
-    FaL                       `noun`    {- bax -}              [ unwords [ "bravo", "!" ] ],
 
     FACiL                     `noun`    {- bA}ix -}            [ "spoiled", "insipid" ]
                               `plural`     FACiL |< Un
@@ -154,9 +152,6 @@ cluster_2   = listing "Lexicon's properties"
     `derives` "------F---" ]
 
  |> "b ' t" <| [
-
-    FaL |< At |< aN           `adv`     {- batAtAF -}          [ "absolutely" ]
-                           {- `others`  [ "batAt NF" ] -},
 
     FACiL                     `noun`    {- bA}it -}            [ "stale", "unpromoted" ]
                               `plural`     FACiL |< Un

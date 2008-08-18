@@ -1938,8 +1938,7 @@ cluster_37  = listing "Lexicon's properties"
  |> "f l .t" <| [
 
     FuCL                      `noun`    {- fuloT -}            [ "volt" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "fult N", "'aflAt N" ] -} ]
+                              `plural`     HaFCAL ]
 
  |> "f l .t .h" <| [
 
@@ -2242,7 +2241,10 @@ cluster_44  = listing "Lexicon's properties"
     FaCLAn                    `adj`     {- falotAn -}          [ "wild", "outlaw", unwords [ "out", "of", "control" ] ],
 
     FACiL                     `adj`     {- fAlit -}            [ "escaped", unwords [ "at", "large" ], "debauched" ]
-                              `plural`     FuCaLA' ]
+                              `plural`     FuCaLA',
+
+    FuCL                      `noun`    {- fulot -}            [ "volt" ]
+                              `plural`     HaFCAL ]
 
  |> "f l w" <| [
 
@@ -2262,6 +2264,10 @@ cluster_44  = listing "Lexicon's properties"
 
     MaFACI                    `noun`    {- mafAliy -}          [ "pastures" ] ]
 
+
+cluster_45  = listing "Lexicon's properties"
+
+
  |> "f l w r" <| [
 
     TaKaRDaS                  `verb`    {- tafalowar -}        [ "fluoresce" ],
@@ -2274,10 +2280,6 @@ cluster_44  = listing "Lexicon's properties"
     MuKaRDiS                  `adj`     {- mufalowir -}        [ "fluorescent" ],
 
     MutaKaRDiS                `adj`     {- mutafalowir -}      [ "fluorescent" ] ]
-
-
-cluster_45  = listing "Lexicon's properties"
-
 
  |> "f l y" <| [
 
@@ -2314,6 +2316,10 @@ cluster_45  = listing "Lexicon's properties"
 
     FaC |<< "awIy"            `adj`     {- famawiy~ -}         [ "oral", "buccal" ] ]
 
+
+cluster_46  = listing "Lexicon's properties"
+
+
  |> "f n '" <| [
 
     FaCAL                     `noun`    {- fanA' -}            [ "annihilation", "extinction" ],
@@ -2330,10 +2336,6 @@ cluster_45  = listing "Lexicon's properties"
 
     TaFCIL                    `noun`    {- tafoniyT -}         [ "itemization", "enumeration" ]
                               `plural`     TaFCIL |< At ]
-
-
-cluster_46  = listing "Lexicon's properties"
-
 
  |> "f n .t s" <| [
 
@@ -2380,6 +2382,10 @@ cluster_46  = listing "Lexicon's properties"
 
     KaRDAS                    `noun`    {- fanodAl -}          [ "Vandals" ] ]
 
+
+cluster_47  = listing "Lexicon's properties"
+
+
  |> "f n d q" <| [
 
     KuRDuS                    `noun`    {- funoduq -}          [ "hotel" ]
@@ -2393,10 +2399,6 @@ cluster_46  = listing "Lexicon's properties"
 
     FaCaL                     `noun`    {- fanak -}            [ unwords [ "fennec", "(", "fox", ")" ] ]
                               `plural`     HaFCAL ]
-
-
-cluster_47  = listing "Lexicon's properties"
-
 
  |> "f n n" <| [
 
@@ -2445,6 +2447,10 @@ cluster_47  = listing "Lexicon's properties"
                               `plural`     MuFtaCL |< Un
     `derives` "------F---" ]
 
+
+cluster_48  = listing "Lexicon's properties"
+
+
  |> "f n q" <| [
 
     TaFaCCaL                  `verb`    {- tafan~aq -}         [ unwords [ "live", "in", "comfort" ] ],
@@ -2462,10 +2468,6 @@ cluster_47  = listing "Lexicon's properties"
 
     FACUL                     `noun`    {- fAnuws -}           [ "lamp", "lantern" ]
                               `plural`     FawACIL ]
-
-
-cluster_48  = listing "Lexicon's properties"
-
 
  |> "f n y" <| [
 

@@ -66,7 +66,7 @@ module Elixir.Lexicon (
 
         wraps, unwraps,
 
-        listing, include,
+        listing, include, cluster,
 
         isVerb, isNoun, isAdj, isPron, isNum, isAdv, isPrep, isConj, isPart, isIntj,
 
@@ -121,6 +121,9 @@ listing = Listing
 
 
 include = concat    -- include f = concat . map f
+
+
+cluster = "Lexicon's properties"
 
 
 type Lexicon = [Wrap Nest]
@@ -671,27 +674,43 @@ genericLexicon = listing "Generic lexicon"
 
         ]
 
- {-      
+
     |> "' b w" <| [
     
+        FaC                 `noun`                  [ "father" ]
+                            `plural`    HACA'
         ]
 
+        
     |> "' _h w" <| [
     
+        FaC                 `noun`                  [ "brother" ]
+                            `plural`    FiCL |< aT
+                            `plural`    FiCLAn
         ]
 
+        
     |> ".h m w" <| [
     
+        FaC                 `noun`                  [ "father-in-law" ]
+                            `plural`    HaFCA'
         ]
 
+        
     |> "f w h" <| [
-    
+
+        "f" |<< "U"         <::>    "N------S-R"
+                                                        <..>    [ "mouth" ]
+                            <.>     "N------S2R"
+                                                        <:>     "f" |<< "I"
+                            <.>     "N------S4R"
+                                                        <:>     "f" |<< "A"
         ]
--}
+
 
     |> "' l h" <| [
     
-        al >| "l_ah"        <::>    "N--------[D]"      <..>    [ "Allah", "God" ],
+        al >| "l_ah"        <::>    "N------S-[D]"      <..>    [ "Allah", "God" ],
         
         "'il_ah"            <::>    "N--------[IRA]"    
                                                         <..>    [ "god", "deity" ]

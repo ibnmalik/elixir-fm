@@ -870,8 +870,7 @@ cluster_37  = listing "Lexicon's properties"
  |> "f l .t" <| [
 
     FuCL                      `noun`    {- fuloT -}            [ "volt" ]
-                              `plural`     HaFCAL
-                           {- `others`  [ "fult N", "'aflAt N" ] -} ]
+                              `plural`     HaFCAL ]
 
  |> "f l .t .h" <| [
 

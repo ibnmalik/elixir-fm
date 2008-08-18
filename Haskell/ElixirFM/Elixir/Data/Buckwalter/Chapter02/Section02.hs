@@ -516,10 +516,6 @@ cluster_28  = listing "Lexicon's properties"
 cluster_29  = listing "Lexicon's properties"
 
 
- |> "b _d y" <| [
-
-    FaCA'                     `noun`    {- ba*A' -}            [ "obscenity", "contempt" ] ]
-
  |> "b _h ^s ^s" <| [
 
     KaRDIS                    `noun`    {- baxo$iy$ -}         [ "baksheesh", "gratuity" ]
@@ -536,7 +532,9 @@ cluster_29  = listing "Lexicon's properties"
 
     FuCayL |< aT              `noun`    {- buxayoxap -}        [ "squirt", "syringe" ],
 
-    MiFaCL |< aT              `noun`    {- mibax~ap -}         [ "nozzle", "sprayer" ] ]
+    MiFaCL |< aT              `noun`    {- mibax~ap -}         [ "nozzle", "sprayer" ],
+
+    FaL                       `noun`    {- bax -}              [ unwords [ "bravo", "!" ] ] ]
 
  |> "b _h `" <| [
 

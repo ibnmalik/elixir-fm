@@ -452,8 +452,8 @@ sub mergeSuffix {
         return "AT"   if $_[1] =~ /^[Aa]T$/;
         return "awIy" if $_[1] eq "Iy";
 
-        return "awna" if $_[1] eq "Un";
-        return "ayna" if $_[1] eq "In";
+        return "awn"  if $_[1] eq "Un";
+        return "ayn"  if $_[1] eq "In";
 
         %rules = ( ""    => "a",
 
@@ -484,8 +484,8 @@ sub mergeSuffix {
         return "iyaT" if $_[1] =~ /^[Aa]T$/;
         return "awIy" if $_[1] eq "Iy";     # "Iy"
 
-        return "Una" if $_[1] eq "Un";
-        return "Ina" if $_[1] eq "In";
+        return "Un"   if $_[1] eq "Un";
+        return "In"   if $_[1] eq "In";
 
         %rules = ( ""    => "i",
 
@@ -514,8 +514,8 @@ sub mergeSuffix {
         return "AT"   if $_[1] =~ /^[Aa]T$/;
         return "awIy" if $_[1] eq "Iy";     # "AwIy"
 
-        return "awna" if $_[1] eq "Un";
-        return "ayna" if $_[1] eq "In";
+        return "awn"  if $_[1] eq "Un";
+        return "ayn"  if $_[1] eq "In";
 
         %rules = ( ""    => "a",
 
@@ -541,8 +541,8 @@ sub mergeSuffix {
 
     if ($_[0] eq 'U') {
 
-        return "Una" if $_[1] eq "Un";
-        return "Ina" if $_[1] eq "In";
+        return "Un" if $_[1] eq "Un";
+        return "In" if $_[1] eq "In";
 
         %rules = ( ""    => "u",
 

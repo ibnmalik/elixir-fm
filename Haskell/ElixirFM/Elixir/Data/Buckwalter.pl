@@ -596,6 +596,8 @@ sub throwForms {
 
                   $y =~ s/(?<!^)L/$toor[2]/g    if $toor[2] =~ /^[\'wy]$/;
 
+                  $y =~ s/(?<!^)L/t/            if $toor[2] =~ /^[t]$/ and $x =~ /^(?:FiCL|FuCL)$/;
+                  
                   $y eq $x ? $x : ($x, $y) } @form;
 
     return @form;

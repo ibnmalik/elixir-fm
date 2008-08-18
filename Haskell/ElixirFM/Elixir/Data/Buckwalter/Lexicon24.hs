@@ -4500,6 +4500,8 @@ cluster_82  = listing "Lexicon's properties"
 
  |> "m y y" <| [
 
+    FIt |< aT                 `noun`    {- miytap -}           [ "death" ],
+
     FaCL                      `noun`    {- may~ -}             [ "Mayy" ] ]
 
 

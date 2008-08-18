@@ -5410,6 +5410,22 @@ $Lexicon = {
       'prefix' => ''
     }
   ],
+  '.s y y' => [
+    {
+      'types' => {},
+      'entry' => '.siyt',
+      'form' => '.siyt',
+      'lines' => [],
+      'patterns' => {},
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FIt',
+      'suffix' => '',
+      'glosses' => [],
+      'orig' => 'Siyt',
+      'prefix' => ''
+    }
+  ],
   '.s .h b' => [
     {
       'types' => {
@@ -31068,6 +31084,9 @@ $Lexicon = {
     }
   ]
 };
+$Lexicon->{'.s y y'}[0]{'types'} = $Lexicon->{'.s w t'}[7]{'types'};
+$Lexicon->{'.s y y'}[0]{'lines'} = $Lexicon->{'.s w t'}[7]{'lines'};
+$Lexicon->{'.s y y'}[0]{'glosses'} = $Lexicon->{'.s w t'}[7]{'glosses'};
 $Lexicon->{'.s y t'}[0]{'types'} = $Lexicon->{'.s w t'}[7]{'types'};
 $Lexicon->{'.s y t'}[0]{'lines'} = $Lexicon->{'.s w t'}[7]{'lines'};
 $Lexicon->{'.s y t'}[0]{'glosses'} = $Lexicon->{'.s w t'}[7]{'glosses'};

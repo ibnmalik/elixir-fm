@@ -12,88 +12,6 @@ lexicon = include section
 cluster_121 = listing "Lexicon's properties"
 
 
- |> "bArIziyAn" <| [
-
-    Identity                  `noun`    {- bAriyziyAn -}       [ "Parisien" ] ]
-
- |> "bAra^guwA'" <| [
-
-    Identity |< Iy            `adj`     {- bArajuwA}iy~ -}     [ "Paraguayan" ] ]
-
- |> "bAra^guwAy" <| [
-
-    Identity                  `noun`    {- bArajuwAy -}        [ "Paraguay" ] ]
-
- |> "bArbAdUs" <| [
-
-    Identity                  `noun`    {- bArobAduws -}       [ "Barbados" ] ]
-
- |> "bArbir" <| [
-
-    Identity                  `noun`    {- bArobir -}          [ "Barber" ] ]
-
- |> "bArfAn" <| [
-
-    Identity                  `noun`    {- bArfAn -}           [ "perfume" ] ]
-
- |> "bArints" <| [
-
-    Identity                  `noun`    {- bArinots -}         [ "Barents" ] ]
-
- |> "bAriyUm" <| [
-
-    Identity                  `noun`    {- bAriyuwm -}         [ "barium" ] ]
-
- |> "bArkir" <| [
-
-    Identity                  `noun`    {- bArokir -}          [ "Parker" ],
-
-    Identity                  `noun`    {- bArokir -}          [ "Barker" ] ]
-
- |> "bArlUr" <| [
-
-    Identity                  `noun`    {- bAroluwr -}         [ "Parlour" ] ]
-
- |> "bArmA" <| [
-
-    Identity                  `noun`    {- bAromA -}           [ "Parma" ] ]
-
- |> "bArnIsAndnUbl" <| [
-
-    Identity                  `noun`    {- bArniysAndnuwbl -}  [ unwords [ "Barnes", "and", "Noble" ] ] ]
-
- |> "bArtU" <| [
-
-    Identity                  `noun`    {- bArotuw -}          [ "Barto", "Barthez" ] ]
-
- |> "bArtnraz" <| [
-
-    Identity                  `noun`    {- bArtonraz -}        [ "Partners" ] ]
-
- |> "bAsId^gI" <| [
-
-    Identity                  `noun`    {- bAsiydjiy -}        [ "Basiji" ] ]
-
- |> "bAsIl" <| [
-
-    Identity                  `noun`    {- bAsiyl -}           [ "bacilli" ] ]
-
- |> "bAsU" <| [
-
-    Identity                  `noun`    {- bAsuw -}            [ "Paso" ] ]
-
- |> "bAsbUr" <| [
-
-    Identity                  `noun`    {- bAsobuwr -}         [ "passport" ] ]
-
- |> "bAskuwAl" <| [
-
-    Identity                  `noun`    {- bAsokuwAl -}        [ "Pascual" ] ]
-
-
-cluster_122 = listing "Lexicon's properties"
-
-
  |> "bAstIl" <| [
 
     Identity                  `noun`    {- bAsotiyl -}         [ "pastel" ] ]
@@ -175,7 +93,7 @@ cluster_122 = listing "Lexicon's properties"
     Identity                  `noun`    {- bAytos -}           [ "Bates" ] ]
 
 
-cluster_123 = listing "Lexicon's properties"
+cluster_122 = listing "Lexicon's properties"
 
 
  |> "bAzAr" <| [
@@ -257,7 +175,7 @@ cluster_123 = listing "Lexicon's properties"
     Identity                  `noun`    {- biyliyuwn -}        [ "Pelion" ] ]
 
 
-cluster_124 = listing "Lexicon's properties"
+cluster_123 = listing "Lexicon's properties"
 
 
  |> "bIlyah" <| [
@@ -337,7 +255,7 @@ cluster_124 = listing "Lexicon's properties"
     Identity                  `noun`    {- biyrosuwl -}        [ "Peirsol" ] ]
 
 
-cluster_125 = listing "Lexicon's properties"
+cluster_124 = listing "Lexicon's properties"
 
 
  |> "bIrtI" <| [
@@ -419,7 +337,7 @@ cluster_125 = listing "Lexicon's properties"
     Identity                  `noun`    {- buwEayonayon -}     [ "Bouainein" ] ]
 
 
-cluster_126 = listing "Lexicon's properties"
+cluster_125 = listing "Lexicon's properties"
 
 
  |> "bU`azIz" <| [
@@ -501,7 +419,7 @@ cluster_126 = listing "Lexicon's properties"
     Identity                  `noun`    {- buwnodisoliyg -}    [ "Bundeslig" ] ]
 
 
-cluster_127 = listing "Lexicon's properties"
+cluster_126 = listing "Lexicon's properties"
 
 
  |> "bUndislI.gah" <| [
@@ -579,7 +497,7 @@ cluster_127 = listing "Lexicon's properties"
     Identity |< Iy            `adj`     {- buwrosaEiydiy~ -}   [ unwords [ "from", "/", "of", "Port", "Said" ] ] ]
 
 
-cluster_128 = listing "Lexicon's properties"
+cluster_127 = listing "Lexicon's properties"
 
 
  |> "bUrtAs" <| [
@@ -659,7 +577,7 @@ cluster_128 = listing "Lexicon's properties"
     Identity                  `noun`    {- buwtrA -}           [ "Putra" ] ]
 
 
-cluster_129 = listing "Lexicon's properties"
+cluster_128 = listing "Lexicon's properties"
 
 
  |> "bUtzI" <| [
@@ -727,7 +645,7 @@ cluster_129 = listing "Lexicon's properties"
     Identity                  `prep`    {- baEodamA -}         [ unwords [ "after", "what" ] ] ]
 
 
-cluster_130 = listing "Lexicon's properties"
+cluster_129 = listing "Lexicon's properties"
 
 
  |> "ba`labakk" <| [
@@ -803,7 +721,7 @@ cluster_130 = listing "Lexicon's properties"
     Identity                  `noun`    {- balAraj -}          [ "stork" ] ]
 
 
-cluster_131 = listing "Lexicon's properties"
+cluster_130 = listing "Lexicon's properties"
 
 
  |> "balU^sIstAn" <| [
@@ -879,7 +797,7 @@ cluster_131 = listing "Lexicon's properties"
     Identity |< Iy            `adj`     {- bankriyAsiy~ -}     [ "pancreatic" ] ]
 
 
-cluster_132 = listing "Lexicon's properties"
+cluster_131 = listing "Lexicon's properties"
 
 
  |> "bansiyUn" <| [
@@ -959,7 +877,7 @@ cluster_132 = listing "Lexicon's properties"
     Identity                  `conj`    {- bayonamA -}         [ "while" ] ]
 
 
-cluster_133 = listing "Lexicon's properties"
+cluster_132 = listing "Lexicon's properties"
 
 
  |> "bayraqdAr" <| [
@@ -1035,7 +953,7 @@ cluster_133 = listing "Lexicon's properties"
     Identity                  `noun`    {- biloyuwniyr -}      [ "billionaire" ] ]
 
 
-cluster_134 = listing "Lexicon's properties"
+cluster_133 = listing "Lexicon's properties"
 
 
  |> "bimA" <| [
@@ -1117,7 +1035,7 @@ cluster_134 = listing "Lexicon's properties"
     Identity                  `noun`    {- bitruwliyuwm -}     [ "Petroleum" ] ]
 
 
-cluster_135 = listing "Lexicon's properties"
+cluster_134 = listing "Lexicon's properties"
 
 
  |> "bitrUstrAtI^gI" <| [
@@ -1197,7 +1115,7 @@ cluster_135 = listing "Lexicon's properties"
     Identity                  `noun`    {- blAs -}             [ "Blas" ] ]
 
 
-cluster_136 = listing "Lexicon's properties"
+cluster_135 = listing "Lexicon's properties"
 
 
  |> "blAstIk" <| [
@@ -1275,7 +1193,7 @@ cluster_136 = listing "Lexicon's properties"
     Identity                  `noun`    {- brAg -}             [ "Prague" ] ]
 
 
-cluster_137 = listing "Lexicon's properties"
+cluster_136 = listing "Lexicon's properties"
 
 
  |> "brA_hA" <| [
@@ -1357,7 +1275,7 @@ cluster_137 = listing "Lexicon's properties"
     Identity                  `noun`    {- briymAkuwf -}       [ "Primakoff" ] ]
 
 
-cluster_138 = listing "Lexicon's properties"
+cluster_137 = listing "Lexicon's properties"
 
 
  |> "brImin" <| [
@@ -1439,7 +1357,7 @@ cluster_138 = listing "Lexicon's properties"
     Identity                  `noun`    {- bruwtuwn -}         [ "proton" ] ]
 
 
-cluster_139 = listing "Lexicon's properties"
+cluster_138 = listing "Lexicon's properties"
 
 
  |> "brUtistAnt" <| [
@@ -1521,7 +1439,7 @@ cluster_139 = listing "Lexicon's properties"
     Identity                  `noun`    {- buromA -}           [ "Burma" ] ]
 
 
-cluster_140 = listing "Lexicon's properties"
+cluster_139 = listing "Lexicon's properties"
 
 
  |> "burnay.t" <| [
@@ -1586,6 +1504,10 @@ cluster_140 = listing "Lexicon's properties"
 
     Identity                  `noun`    {- miborA -}           [ "sharpener", unwords [ "pocket", "-", "knife" ] ] ]
 
+ |> "mubAlIy" <| [
+
+    lA >| Identity            `adj`     {- lAmubAliy~ -}       [ "indifferent", "apathetic", "indifference", "apathy" ] ]
+
 
 section = [ cluster_121,
             cluster_122,
@@ -1605,6 +1527,5 @@ section = [ cluster_121,
             cluster_136,
             cluster_137,
             cluster_138,
-            cluster_139,
-            cluster_140 ]
+            cluster_139 ]
 

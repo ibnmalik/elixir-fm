@@ -845,7 +845,15 @@ cluster_15  = listing "Lexicon's properties"
 
     FaCAL                     `noun`    {- bahA' -}            [ "beauty", "brilliancy" ],
 
-    FaCAL |< Iy               `adj`     {- bahA}iy~ -}         [ "Baha'i" ] ]
+    FaCAL |< Iy               `adj`     {- bahA}iy~ -}         [ "Baha'i" ],
+
+    FAL                       `verb`    {- bA'-u -}            [ "return", "incur" ]
+                              `imperf`     FUL
+                              `pfirst`     FuL,
+
+    FIL |< aT                 `noun`    {- biy}ap -}           [ "environment", "milieu" ],
+
+    FIL |< Iy                 `adj`     {- biy}iy~ -}          [ "environmental" ] ]
 
  |> "b h .z" <| [
 
@@ -895,17 +903,13 @@ cluster_15  = listing "Lexicon's properties"
                               `plural`     FACiL |< Un
     `derives` "------F---" ]
 
- |> "b h t" <| [
-
-    FuCLAn                    `noun`    {- buhotAn -}          [ "slander" ] ]
-
- |> "b h t n" <| [
-
-    KuRDAS                    `noun`    {- buhotAn -}          [ "slander" ] ]
-
 
 cluster_16  = listing "Lexicon's properties"
 
+
+ |> "b h t" <| [
+
+    FuCLAn                    `noun`    {- buhotAn -}          [ "slander" ] ]
 
  |> "b h y" <| [
 
@@ -917,32 +921,13 @@ cluster_16  = listing "Lexicon's properties"
 
  |> "b k '" <| [
 
-    FaCY                      `verb`    {- bakaY-i -}          [ "cry", "weep" ]
-                              `imperf`     FCY
-                              `imperf`     FCI,
-
-    FaCCY                     `verb`    {- bak~aY -}           [ unwords [ "make", "cry" ], unwords [ "be", "made", "to", "cry" ] ],
-
-    HaFCY                     `verb`    {- OabokaY -}          [ unwords [ "make", "cry" ], unwords [ "be", "made", "to", "cry" ] ],
-
-    FuCAL                     `noun`    {- bukA' -}            [ "crying", "weeping" ],
-
-    MaFCY                     `noun`    {- mabokaY -}          [ "wailing" ],
-
-    FACI                      `noun`    {- bAkiy -}            [ "mourner", "weeping", "weepers" ]
-                              `plural`     FawACI
-                              `plural`     FACI |< At
-                              `plural`     FuCY |< aT ]
+    FuCAL                     `noun`    {- bukA' -}            [ "crying", "weeping" ] ]
 
  |> "b k k" <| [
 
     FaL                       `noun`    {- bak -}              [ "Bey", "beys" ]
                               `plural`     FIL
                            {- `others`  [ "biyh N" ] -} ]
-
- |> "b k l" <| [
-
-    FaL                       `conj`    {- bal -}              [ unwords [ "but", "rather" ], unwords [ "in", "fact" ] ] ]
 
  |> "b k r" <| [
 
@@ -980,14 +965,22 @@ cluster_17  = listing "Lexicon's properties"
     FaC                       `noun`    {- bak -}              [ "Bey", "beys" ]
                            {- `others`  [ "biyh N", "biyk N" ] -},
 
+    FaCY                      `verb`    {- bakaY-i -}          [ "cry", "weep" ]
+                              `imperf`     FCY
+                              `imperf`     FCI,
+
+    FaCCY                     `verb`    {- bak~aY -}           [ unwords [ "make", "cry" ], unwords [ "be", "made", "to", "cry" ] ],
+
+    HaFCY                     `verb`    {- OabokaY -}          [ unwords [ "make", "cry" ], unwords [ "be", "made", "to", "cry" ] ],
+
+    FuCA'                     `noun`    {- bukA' -}            [ "crying", "weeping" ],
+
+    MaFCY                     `noun`    {- mabokaY -}          [ "wailing" ],
+
     FACI                      `noun`    {- bAkiy -}            [ "mourner", "weeping", "weepers" ]
                               `plural`     FawACI
                               `plural`     FACI |< At
                               `plural`     FuCY |< aT ]
-
- |> "b l '" <| [
-
-    FaC                       `conj`    {- bal -}              [ unwords [ "but", "rather" ], unwords [ "in", "fact" ] ] ]
 
 
 cluster_18  = listing "Lexicon's properties"
@@ -1105,6 +1098,8 @@ cluster_19  = listing "Lexicon's properties"
 
  |> "b l l" <| [
 
+    FaL                       `conj`    {- bal -}              [ unwords [ "but", "rather" ], unwords [ "in", "fact" ] ],
+
     FiCL |< aT                `noun`    {- bil~ap -}           [ "moisture", "wetness" ]
                               `plural`     FaCaL ]
 
@@ -1146,6 +1141,10 @@ cluster_20  = listing "Lexicon's properties"
     KaRDaS |< aT              `noun`    {- balowarap -}        [ "crystallization" ]
                               `plural`     TaKaRDuS |< At ]
 
+ |> "b l y" <| [
+
+    FaC                       `conj`    {- bal -}              [ unwords [ "but", "rather" ], unwords [ "in", "fact" ] ] ]
+
  |> "b l y n" <| [
 
     KiRDUS                    `noun`    {- biloyuwn -}         [ "billion" ]
@@ -1157,22 +1156,7 @@ cluster_20  = listing "Lexicon's properties"
     FiCAL                     `noun`    {- binA' -}            [ "build", "construct" ],
 
     FiCAL                     `noun`    {- binA' -}            [ "building", "structure" ]
-                              `plural`     HaFCI |< aT,
-
-    FaCCAL                    `noun`    {- ban~A' -}           [ "builder", "mason" ]
-                              `plural`     FaCCAL |< Un,
-
-    FaCCAL                    `adj`     {- ban~A' -}           [ "constructive" ],
-
-    FaCCAL                    `noun`    {- ban~A' -}           [ "Banna" ],
-
-    FAL                       `verb`    {- bA'-u -}            [ "return", "incur" ]
-                              `imperf`     FUL
-                              `pfirst`     FuL,
-
-    FIL |< aT                 `noun`    {- biy}ap -}           [ "environment", "milieu" ],
-
-    FIL |< Iy                 `adj`     {- biy}iy~ -}          [ "environmental" ] ]
+                              `plural`     HaFCI |< aT ]
 
  |> "b n ^g b" <| [
 
@@ -1193,6 +1177,20 @@ cluster_20  = listing "Lexicon's properties"
     KuRDuS |< Iy |< aT        `noun`    {- bunoduqiy~ap -}     [ "rifle" ],
 
     KuRDuS |< Iy |< aT        `noun`    {- bunoduqiy~ap -}     [ "Venice" ] ]
+
+ |> "b n d r" <| [
+
+    KaRDaS                    `noun`    {- banodar -}          [ "Bandar" ],
+
+    KaRDaS                    `noun`    {- banodar -}          [ "seaport", unwords [ "district", "capital" ] ]
+                              `plural`     KaRADiS ]
+
+ |> "b n k" <| [
+
+    FaCL                      `noun`    {- banok -}            [ "bank" ]
+                              `plural`     FuCUL,
+
+    FaCL |< Iy                `adj`     {- banokiy~ -}         [ "bank", "banking" ] ]
 
 
 section = [ cluster_1,

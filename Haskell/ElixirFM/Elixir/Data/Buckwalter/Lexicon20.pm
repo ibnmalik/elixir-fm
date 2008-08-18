@@ -36337,12 +36337,6 @@ $Lexicon = {
   'f l .t' => [
     {
       'types' => {
-        'fult' => {
-          'N' => 1
-        },
-        '\'aflAt' => {
-          'N' => 1
-        },
         '\'aflA.t' => {
           'N' => 1
         }
@@ -36352,13 +36346,9 @@ $Lexicon = {
       'lines' => [
         ';; fuloT_1',
         'fuloT   N       volt',
-        'fulot   N       volt',
-        'OafolAT N       volts',
-        'OafolAt N       volts'
+        'OafolAT N       volts'
       ],
       'patterns' => {
-        'fult' => [],
-        '\'aflAt' => [],
         '\'aflA.t' => [
           'HaFCAL'
         ]
@@ -46727,6 +46717,35 @@ $Lexicon = {
         'debauched'
       ],
       'orig' => 'fAlit',
+      'prefix' => ''
+    },
+    {
+      'types' => {
+        '\'aflAt' => {
+          'N' => 1
+        }
+      },
+      'entry' => 'fult',
+      'form' => 'fult',
+      'lines' => [
+        ';; fulot_1',
+        'fulot   N       volt',
+        'OafolAt N       volts'
+      ],
+      'patterns' => {
+        '\'aflAt' => [
+          'HaFCAL'
+        ]
+      },
+      'index' => '1',
+      'entity' => 'noun',
+      'morphs' => 'FuCL',
+      'suffix' => '',
+      'glosses' => [
+        'volt',
+        'volts'
+      ],
+      'orig' => 'fulot',
       'prefix' => ''
     }
   ],

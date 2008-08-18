@@ -79,6 +79,10 @@ instance Rules String where
                  in any (not . null) [t, q, l]
 
 
+    isDiptote x | x == "'il_ah"  = False
+                | otherwise      = True
+
+
 instance Forming String where
 
     verbStems _ _ = [
