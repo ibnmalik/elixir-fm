@@ -47,7 +47,7 @@ module Elixir.Lexicon (
         PatternL (..),
 
         Prefix (..), al, lA,
-        Suffix (..), aT, aN, -- iyy,
+        Suffix (..), aT, aN, iyA, iyaT, -- iyy,
 
         -- * Operators
 
@@ -123,7 +123,7 @@ listing = Listing
 include = concat    -- include f = concat . map f
 
 
-cluster = "Lexicon's properties"
+cluster = []
 
 
 type Lexicon = [Wrap Nest]

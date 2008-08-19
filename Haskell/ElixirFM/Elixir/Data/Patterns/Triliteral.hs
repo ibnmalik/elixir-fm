@@ -196,20 +196,21 @@ instance Rules PatternT where
     -- Fischer (2002), par. 153, 93 ff, 99, etc.
 
     isDiptote = flip elem [ HaFCaL, HACaL, HaFCY, HaFaCL, HACY,
-                            FaCLY,
+                            FaCLY, FaCwY,
                             FiCLY,
                             FuCLY, FULY, FuCyY,
                             FaCaLY,
-                            FaCALY,
+                            FaCALY, FaCAyY,
                             FuCALY,
                             FaCLA',
                             FuCaLA',
-                            HaFCiLA', HACiLA', HaFILA', HaFiCLA',
+                            HaFCiLA', HACiLA', HaFILA', HaFCiyA', HaFiCLA',
                             FaCA'iL,
                             FaCACiL,
                             FaCACIL,
                             FawACiL, FawA'iL, FawACL,
                             FawACIL, FawA'IL,
+                            FayACIL,
                             HaFACiL,
                             HaFACIL,
                             TaFACiL,
@@ -701,7 +702,7 @@ data PatternT =
 
 --  Form I
 
-            FaCaL                       |   FAL         |   FaCY        |   FaCL
+            FaCaL                       |   FAL         |   FaCY        |   FaCL        |   FA'
                                                         |   FaCA
         |   FaCiL                                       |   FaCI
         |   FaCuL                                       |   FaCU
@@ -723,21 +724,29 @@ data PatternT =
     {-- |   FiCL    --} |   HiCL                        |   FiC
     {-- |   FuCL    --} |   TuCL                        |   FuC
 
+                                                        |   FaCw
+                                                        |   FaCy
+                                                        |   FiCy
+                                                            
                                                         |   IFC
 
                                                         |   FiCt
                                                         |   FuCt
 
         |   FaCAL                                       |   FaCA'
+                                                        |   FaCAw
         |   FiCAL                       |   FiyAL       |   FiCA'                       |   FiyA'
+                                                        |   FiCAh
         |   FuCAL       |   TuCAL                       |   FuCA'
+                                                        |   FuCAw
 
                                                         |   FiCAy
 
-        |   FaCUL
-        |   FuCUL                       |   Fu'UL
+        |   FaCUL                       |   Fa'UL
+        |   FuCUL                       |   Fu'UL       |   FuCUw
+                                        |   FuyUL
 
-        |   FaCIL                       |   FayyiL
+        |   FaCIL                       |   FayyiL      |   FaCIy
         |   FuCIL
 
         |   FaCA'iL                                     |   FaCA'I
@@ -752,10 +761,12 @@ data PatternT =
         |   FiCLiyA'                    |   FILiyA'
 
     {-- |   FACiL   --}                 |   FA'iL   {-- |   FACI        |   FACL    --} |   FA'I
+                                        |   FAyiL
 
         |   MaFCUL                      |   MaFUL       |   MaFCIL
 
-        |   FaCCAL
+        |   FaCCAL                                                      |   FaCCA'
+                                                                        |   FaCCAy
         |   FiCCAL                      |   FICAL
         |   FuCCAL                      |   FUCAL
 
@@ -772,13 +783,20 @@ data PatternT =
         |   FaCACiL                                     |   FaCACI
         |   FaCACIL
 
-        |   FACUL
+        |   FawCaL
+        |   FayCaL
 
         |   FawACiL                     |   FawA'iL     |   FawACI      |   FawACL      |   FawA'I
+
+        |   FACUL
+        |   FayCUL
+
         |   FawACIL                     |   FawA'IL
+        |   FayACIL
 
         |   MaFCaL                      |   MaFAL       |   MaFCY       |   MaFaCL
         |   MaFCiL                      |   MaFIL       |   MaFCI
+        |   MaFCuL
         |   MiFCAL      |   MICAL
         |   MiFCaL      |   MICaL                       |   MiFCY       |   MiFaCL      |   MICY
 
@@ -791,10 +809,8 @@ data PatternT =
                         |   MawACIL
                         |   MayACIL
 
-        |   HaFCAL      |   HACAL                       |   HaFCA'                      |   HACA'
+        |   HaFCAL      |   HACAL       |   HaFyAL      |   HaFCA'                      |   HACA'
                                         |   HAFAL                                       |   HAFA'
-
-                                        |   HaFyAL
 
         |   HaFCiL      |   HACiL       |   HaFIL       |   HaFCI       |   HaFiCL      |   HACI
         |   HaFCuL      |   HACuL       |   HaFUL       |   HaFCU       |   HaFuCL      |   HACU
@@ -802,23 +818,24 @@ data PatternT =
         |   HaFACiL                                     |   HaFACI
         |   HaFACIL
 
-        |   HaFCiLA'    |   HACiLA'     |   HaFILA'                     |   HaFiCLA'
+        |   HaFCiLA'    |   HACiLA'     |   HaFILA'     |   HaFCiyA'    |   HaFiCLA'
 
         |   HuFCUL      |   HUCUL
-        |   HuFCIL      |   HUCIL
+        |   HuFCIL      |   HUCIL                       |   HuFCIy
 
     {-- |   FaCaL   --}                             {-- |   FaCY    --}
-        |   FiCaL                                       |   FiCY
+        |   FiCaL                       |   FiyaL       |   FiCY
         |   FuCaL       |   TuCaL                       |   FuCY
         |   FuCuL                                       |   FuCU
 
-        |   FaCLAn
+        |   FaCLAn                      |   FayLAn      |   FaCyAn
         |   FaCaLAn                                     |   FaCawAn
 
-        |   FiCLAn                      |   FILAn
-        |   FuCLAn                      |   FULAn
+        |   FiCLAn                      |   FILAn       |   FiCwAn
+                                                        |   FiCyAn
+        |   FuCLAn                      |   FULAn       |   FuCyAn
 
-        |   FaCALIn
+        |   FaCALIn                     |   FayALIn
 
         |   FuCayL                      |   FuwayL
 
@@ -830,14 +847,14 @@ data PatternT =
 
         |   FuCayLin                    |   FuwayLin
 
-        |   FaCLY
+        |   FaCLY                                       |   FaCwY
         |   FiCLY                       |   FILY
         |   FuCLY                       |   FULY        |   FuCyY
 
         |   FaCaLY
 
         |   FaCALI                      |   FawALI
-        |   FaCALY
+        |   FaCALY                                      |   FaCAyY
         |   FuCALY
 
         |   FaCLUL                      |   FayLUL
@@ -1001,7 +1018,7 @@ data PatternT =
         |   IFCICAL					                    |   IFCICA'
 
         |   MuFCawCiL   {- Fischer, par. 224 (?) -} 	|   MuFCawCI	{- (?) -}
-        |   MuFCawCaL	   	   	   	    	            |   MuFCawCY	{- (?) -}
+        |   MuFCawCaL                                   |   MuFCawCY	{- (?) -}
 
 --  Form XIII
 

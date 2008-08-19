@@ -431,6 +431,9 @@ iyn   = In
 aan   = An
 ayn   = Ayn
 
+iyA   = Suffix "iyA"
+iyaT  = Suffix "iyaT"
+
 aJIy  = Suffix "a^gIy"
 ajIy  = Suffix "a^gIy"
 ajiyy = Suffix "a^gIy"
