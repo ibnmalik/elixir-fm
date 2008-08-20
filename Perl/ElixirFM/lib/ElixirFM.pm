@@ -293,7 +293,12 @@ sub merge {
                                  (substr $_[0], -1, 1), $_[1])
                                                            } $_[0], @{$morphs->[-1]} };
 
-    return $prefixes->($suffixes->(interlock($morphs->[0], split ' ', $root)));
+    my $original = interlock($morphs->[0], split ' ', $root);
+
+    my $modified = $morphs->[0] eq "FaCLA'" && @{$morphs->[-1]}
+                                        ? (substr $original, 0, -1) . '_' : $original;
+    
+    return $prefixes->($suffixes->($modified));
 }
 
 sub morphs {
@@ -564,6 +569,20 @@ sub mergeSuffix {
         }
 
         return "uw" . showSuffix($_[1]);
+    }
+
+    if ($_[0] eq '_') {
+
+        %rules = ( "a"   => "'a",
+                   "i"   => "'i",
+                   "u"   => "'u"     );
+
+        if (($x) = $_[1] =~ /^"(.*)"$/) {
+
+            return $rules{$x} if exists $rules{$x};
+        }
+
+        return "w" . showSuffix($_[1]);
     }
 
     return $_[0] . showSuffix($_[1]);

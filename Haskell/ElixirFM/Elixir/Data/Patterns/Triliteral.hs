@@ -168,31 +168,6 @@ instance Rules PatternT where
     auxiesDouble _    _                         = []
 
 
-{-
-    prefixVerbI x t v =
-
-        if elem x [II .. IV] || v == Passive
-
-            then "u"
-            else "a"
-
-
-    prefixVerbC x t =
-
-        if x == I
-
-            then case t of FCuL -> "u"
-                           _    -> "i"
-
-            else if x == IV
-
-                then "'a"
-                else if elem x [II, III, V, VI]
-
-                        then ""
-                        else "i"
--}
-
     -- Fischer (2002), par. 153, 93 ff, 99, etc.
 
     isDiptote = flip elem [ HaFCaL, HACaL, HaFCY, HaFaCL, HACY,
@@ -206,6 +181,7 @@ instance Rules PatternT where
                             FuCaLA',
                             HaFCiLA', HACiLA', HaFILA', HaFCiyA', HaFiCLA',
                             FaCA'iL,
+                            FaCAyiL,
                             FaCACiL,
                             FaCACIL,
                             FawACiL, FawA'iL, FawACL,
@@ -725,8 +701,6 @@ data PatternT =
     {-- |   FuCL    --} |   TuCL                        |   FuC
 
                                                         |   FaCw
-                                                        |   FaCy
-                                                        |   FiCy
                                                             
                                                         |   IFC
 
@@ -750,6 +724,7 @@ data PatternT =
         |   FuCIL
 
         |   FaCA'iL                                     |   FaCA'I
+        |   FaCAyiL
 
         |   FaCLA'
         |   FuCaLA'
@@ -758,6 +733,8 @@ data PatternT =
         |   FiCLA'                      |   FILA'
         |   FuCLA'                      |   FULA'
 
+        |   FaCALIy
+            
         |   FiCLiyA'                    |   FILiyA'
 
     {-- |   FACiL   --}                 |   FA'iL   {-- |   FACI        |   FACL    --} |   FA'I
@@ -788,7 +765,7 @@ data PatternT =
 
         |   FawACiL                     |   FawA'iL     |   FawACI      |   FawACL      |   FawA'I
 
-        |   FACUL
+        |   FACUL                       |   FA'UL
         |   FayCUL
 
         |   FawACIL                     |   FawA'IL
@@ -825,19 +802,23 @@ data PatternT =
 
     {-- |   FaCaL   --}                             {-- |   FaCY    --}
         |   FiCaL                       |   FiyaL       |   FiCY
+                                                        |   FiCA
         |   FuCaL       |   TuCaL                       |   FuCY
         |   FuCuL                                       |   FuCU
 
-        |   FaCLAn                      |   FayLAn      |   FaCyAn
+        |   FaCLAn
         |   FaCaLAn                                     |   FaCawAn
 
-        |   FiCLAn                      |   FILAn       |   FiCwAn
-                                                        |   FiCyAn
-        |   FuCLAn                      |   FULAn       |   FuCyAn
+        |   FiCLAn                      |   FILAn
+        |   FuCLAn                      |   FULAn
 
-        |   FaCALIn                     |   FayALIn
+        |   FaCLUn
 
-        |   FuCayL                      |   FuwayL
+        |   FaCALIn
+
+        |   FaCALin
+
+        |   FuCayL                      |   FuwayL      |   FuCayy
 
         |   FuwayCiL                                                    |   FuwayCL    {-- (?) --}
         |   FuCayyiL

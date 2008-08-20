@@ -32,19 +32,24 @@ class Template a where
     interlock :: [String] -> a -> String
 
 
-merge :: (Morphing a b, Template b) => String -> a -> String
+merge :: (Morphing a b, Template b, Show b) => String -> a -> String
 
-merge r y = (prefixes . suffixes) [interlock (words r) t]
+merge r y = (prefixes . suffixes) [modified]
 
     where Morphs t p s = morph y
+
+          modified = if show t == "FaCLA'" && (not . null) s
+                     then init original ++ "_" else original
+                 
+          original = interlock (words r) t
 
           prefixes x = foldr (->-) x p
 
           suffixes x = folds (-<-) x s
 
           folds f z = foldl (flip (++)) [] .
-                      foldr (\ x (y:s) -> let (e, i) = split y in
-                                          f i x : e : s) z
+                      foldr (\ x (y:s) -> let (e, i) = split y
+                                          in  f i x : e : s) z
 
           split [x]    = ([], x)
           split (x:xs) = (x:ys, y) where (ys, y) = split xs
@@ -68,7 +73,7 @@ merge r y = (prefixes . suffixes) [interlock (words r) t]
 -}
 
 
-mergeWith :: (Morphing a b, Template b) => a -> String -> String
+mergeWith :: (Morphing a b, Template b, Show b) => a -> String -> String
 
 mergeWith = flip merge
 
@@ -224,6 +229,12 @@ isClosed _ = True
                                    "t" `isPrefixOf` x    -> "U" ++ x
 
                         _       -> "uw" ++ show x
+
+'_' -<- x = case x of   Suffix "a"      -> "'a"
+                        Suffix "i"      -> "'i"
+                        Suffix "u"      -> "'u"
+
+                        _       -> "w" ++ show x
 
 c -<- x = c : show x
 
