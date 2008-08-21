@@ -83,6 +83,9 @@ instance Template PatternT where
                                     'U' : y -> 'u' : y
                                     _       -> x
 
+    -- Fischer (2002), par. 35 b, Wehr (1961) (samA'Iy, samAwIy)
+    -- http://forum.wordreference.com/showthread.php?t=337799
+    
 
 -- Fischer (2002), par. 45, 46
 
@@ -746,6 +749,12 @@ data PatternT =
 
         |   FiCLA'                      |   FILA'
         |   FuCLA'                      |   FULA'
+
+        |   FaCLIy                      |   FALIy
+        |   FiCLIy
+        |   FuCLIy
+
+        |   FuCLAy
 
         |   FaCALIy
             

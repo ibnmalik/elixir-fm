@@ -367,6 +367,7 @@ sub assimVII {
 
 sub interlock {
 
+    return interlocks([], [], @_);
 }
 
 sub interlocks {
@@ -384,8 +385,8 @@ sub interlocks {
     }
     elsif (@root == 3) {
 
-        $pattern = substr $pattern, -1, 1, 'w' if $pattern =~ /^(?:F[aiu]CLA\'|F[IU]LA\')$/
-                                               and @{$s} and not $s->[0] =~ /^"[aiu]N?"$/;
+        $pattern = (substr $pattern, 0, -1) . 'w' if $pattern =~ /^(?:F[aiu]CLA'|F[IU]LA')$/
+                                                  and @{$s} and not $s->[0] =~ /^"[aiu]N?"$/;
 
         $pattern =~ s/Ft/assimVIII($root[0])/e;
         $pattern =~ s/[nN]F/assimVII($root[0])/e;
