@@ -293,12 +293,8 @@ sub merge {
                                  (substr $_[0], -1, 1), $_[1])
                                                            } $_[0], @{$morphs->[-1]} };
 
-    my $original = interlock($morphs->[0], split ' ', $root);
-
-    my $modified = $morphs->[0] eq "FaCLA'" && @{$morphs->[-1]}
-                                        ? (substr $original, 0, -1) . '_' : $original;
-    
-    return $prefixes->($suffixes->($modified));
+    return $prefixes->($suffixes->(interlocks($morphs->[1], $morphs->[-1],
+                                              $morphs->[0], split ' ', $root)));
 }
 
 sub morphs {
@@ -371,7 +367,11 @@ sub assimVII {
 
 sub interlock {
 
-    my ($pattern, @root) = @_;
+}
+
+sub interlocks {
+
+    my ($p, $s, $pattern, @root) = @_;
 
     if ($pattern =~ /^\"([^\"]+)\"$/) {
 
@@ -383,6 +383,9 @@ sub interlock {
         return $root[0];
     }
     elsif (@root == 3) {
+
+        $pattern = substr $pattern, -1, 1, 'w' if $pattern =~ /^(?:F[aiu]CLA\'|F[IU]LA\')$/
+                                               and @{$s} and not $s->[0] =~ /^"[aiu]N?"$/;
 
         $pattern =~ s/Ft/assimVIII($root[0])/e;
         $pattern =~ s/[nN]F/assimVII($root[0])/e;
@@ -569,20 +572,6 @@ sub mergeSuffix {
         }
 
         return "uw" . showSuffix($_[1]);
-    }
-
-    if ($_[0] eq '_') {
-
-        %rules = ( "a"   => "'a",
-                   "i"   => "'i",
-                   "u"   => "'u"     );
-
-        if (($x) = $_[1] =~ /^"(.*)"$/) {
-
-            return $rules{$x} if exists $rules{$x};
-        }
-
-        return "w" . showSuffix($_[1]);
     }
 
     return $_[0] . showSuffix($_[1]);

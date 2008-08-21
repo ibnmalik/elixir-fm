@@ -29,19 +29,18 @@ version = revised "$Revision$"
 
 class Template a where
 
-    interlock :: [String] -> a -> String
+    interlock  :: [String] -> a -> String
 
+    interlocks :: [Prefix] -> [Suffix] -> [String] -> a -> String
+    
+    interlock = interlocks [] []
+    
 
 merge :: (Morphing a b, Template b, Show b) => String -> a -> String
 
-merge r y = (prefixes . suffixes) [modified]
+merge r y = (prefixes . suffixes) [interlocks p s (words r) t]
 
     where Morphs t p s = morph y
-
-          modified = if show t == "FaCLA'" && (not . null) s
-                     then init original ++ "_" else original
-                 
-          original = interlock (words r) t
 
           prefixes x = foldr (->-) x p
 
@@ -122,17 +121,6 @@ Prefix [x, 'u'] ->- y : s | isClosed s &&
 Prefix x ->- s = x ++ s
 
 x ->- s = shows x ("-" ++ s)
-
-
-{-
-
-smooth :: String -> String
-
-smooth ('\'' : 'a' : '\'' : y) | isClosed y = "'A" ++ y
-smooth ('\'' : 'u' : '\'' : y) | isClosed y = "'U" ++ y
-smooth                      y               =         y
-
--}
 
 
 isClosed :: String -> Bool
@@ -229,12 +217,6 @@ isClosed _ = True
                                    "t" `isPrefixOf` x    -> "U" ++ x
 
                         _       -> "uw" ++ show x
-
-'_' -<- x = case x of   Suffix "a"      -> "'a"
-                        Suffix "i"      -> "'i"
-                        Suffix "u"      -> "'u"
-
-                        _       -> "w" ++ show x
 
 c -<- x = c : show x
 

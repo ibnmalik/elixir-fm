@@ -42,9 +42,7 @@ version = revised "$Revision$"
 
 instance Template String where
 
- -- interlock = flip const
-
-    interlock r = {- smooth . -} concat . replace . restore
+    interlocks _ _ r = concat . replace . restore
 
         where replace x = [ maybe [c] id (lookup c lock) | c <- x ]
 
@@ -67,8 +65,6 @@ instance Rules String where
 
     isForm f x = let t = [ True | y <- [toEnum 0 :: PatternT ..],
                                   show y == x, f `isForm` y ]
-
-                               -- f `isForm` y, show y == x ]
 
                      q = [ True | y <- [toEnum 0 :: PatternQ ..],
                                   show y == x, f `isForm` y ]

@@ -34,11 +34,25 @@ instance Morphing PatternT PatternT where
 
 instance Template PatternT where
 
-    interlock r p = if isForm VIII p then (concat . assimiVIII . show) p else
-                    if isForm VII  p then (concat . assimiVII  . show) p else
-                                          (concat . substitute . show) p
+    interlocks _ s r t = (concat . modify . show) t
+    
+        where modify | isForm VIII t               = assimiVIII
+                     | isForm VII  t               = assimiVII
+                     | (not . null) s && elem t
+                     
+                           [FaCLA', FiCLA', FuCLA', FILA', FULA'] =
+                                 
+                        case last s of
 
-        where substitute x = (replace . restore) x
+                            Suffix x | x `elem` ["a",  "i",  "u",
+                                                 "aN", "iN", "uN"]
+
+                              ->                     substitute
+                            _ -> (++ ["w"]) . init . substitute
+
+                     | otherwise                   = substitute
+        
+              substitute x = (replace . restore) x
 
               assimiVIII x = (replace . restore . init) iF
                              ++ [z, d] ++

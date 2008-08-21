@@ -192,7 +192,7 @@ class Wrapping a where
     unwrap :: Wrap m -> m a
 
 
-wraps :: (forall c . (Template c, Forming c, Morphing c c, Rules c)
+wraps :: (forall c . (Template c, Show c, Rules c, Forming c, Morphing c c)
             => a c -> [b c]) -> Wrap a -> [Wrap b]
 
 -- wraps f x = unwraps (map wrap . f)     -- ... not exactly
@@ -203,7 +203,7 @@ wraps f (WrapS y) = map wrap (f y)
 wraps f (WrapL y) = map wrap (f y)
 
 
-unwraps :: (forall c . (Wrapping c, Show c, Template c, Rules c, Forming c, Morphing c c) => a c -> b) -> Wrap a -> b
+unwraps :: (forall c . (Wrapping c, Template c, Show c, Rules c, Forming c, Morphing c c) => a c -> b) -> Wrap a -> b
 
 unwraps f (WrapT y) = f y
 unwraps f (WrapQ y) = f y

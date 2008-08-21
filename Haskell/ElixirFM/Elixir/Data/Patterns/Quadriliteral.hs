@@ -32,7 +32,7 @@ instance Morphing PatternQ PatternQ where
 
 instance Template PatternQ where
 
-    interlock r = concat . substitute . show
+    interlocks _ _ r = concat . substitute . show
 
         where substitute = replace . restore
 
