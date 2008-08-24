@@ -439,7 +439,7 @@ sub showEntry ($) {
     my $entry = $_[0];
 
     my $clone;
-    
+
     my ($others, $plural, $femini, $imperf, $pfirst, $second, $glosses) = ([], [], [], [], [], [], []);
 
     $entry->{'glosses'} = reduceGlosses($entry->{'glosses'}) unless $indexed;
@@ -510,23 +510,23 @@ sub showEntry ($) {
         my @plural = ();
 
         my @femini = ();
-        
+
         foreach my $form (keys %{$entry->{'patterns'}}) {
 
             my @types = keys %{$entry->{'types'}->{$form}};
 
             if ($entry->{'entity'} ne 'adj' and grep { /all(?:_|$)/ || /\/ap(?:_|$)/ } @types) {
-        
+
                 $clone->{'morphs'} = $entry->{'morphs'} . ' |< aT';
                 $clone->{'plural'} = $entry->{'morphs'} . ' |< At';
 
-                $clone->{$_} = $entry->{$_} foreach 'entity', 'glosses';                
+                $clone->{$_} = $entry->{$_} foreach 'entity', 'glosses';
             }
-        
+
             @types = grep { not /\/ap(?:_|$)/ } @types;
-            
+
             next unless @types;
-        
+
             my $suffix = '';
 
             if (grep { /iyn(?:_|$)/ || /all(?:_|$)/ } @types) {
@@ -538,14 +538,14 @@ sub showEntry ($) {
                 $suffix .= ' |< At';
             }
             elsif (grep { /ap(?:_|$)/ } @types) {   # N/ap excluded #
-            
+
                 $suffix .= ' |< aT';
             }
 
             my $grep = grep { /^N\/At(?:_|$)/ } @types;
 
-            push @plural, map { $_ . $suffix, $grep && $_ ne $entry->{'morphs'} ? $_ : () } 
-                              @{$entry->{'patterns'}->{$form}} == 0 && $form eq $entry->{'form'} 
+            push @plural, map { $_ . $suffix, $grep && $_ ne $entry->{'morphs'} ? $_ : () }
+                              @{$entry->{'patterns'}->{$form}} == 0 && $form eq $entry->{'form'}
                               ? ($entry->{'morphs'}) : @{$entry->{'patterns'}->{$form}};
 
             if ($entry->{'morphs'} =~ /^(?:HaFCaL|HACaL|HaFCY|HaFaCL|HACY|FaCCaL)$/) {
@@ -556,7 +556,7 @@ sub showEntry ($) {
 
                 $entry->{'entity'} = 'adj' if $entry->{'entity'} eq 'noun' and $entry->{'morphs'} ne 'FaCCaL';
             }
-        
+
             @types = grep { not /At(?:_|$)/ || /ap(?:_|$)/ || /iyn(?:_|$)/ || /all(?:_|$)/ } @types;
 
             my $morf = $form;
@@ -567,15 +567,15 @@ sub showEntry ($) {
                                                or $morf ne $form and exists $entry->{'patterns'}->{$morf}
                                                or $morf eq $entry->{'form'};
         }
-        
+
         if ($entry->{'entity'} eq 'adj' and @plural == 1 and
            ($plural[0] =~ / \|\< Un$/ and $entry->{'morphs'} !~ / \|\< aT$/ or
             $plural[0] =~ / \|\< At$/ and $entry->{'morphs'} =~ / \|\< aT$/)) {
-        
+
             $plural = [];
         }
         else {
-            
+
             $plural = [ @plural ];
         }
 
@@ -608,7 +608,7 @@ sub showEntry ($) {
 
                    (@{$others} > 0 ? '{- `others`  [ ' .
                             (join ", ", map { '"' . $_ . '"' } @{$others}) . ' ] -}' : ())),
-                            
+
                    (defined $clone ? "\n" . '    `derives` "------F---"': '');
 }
 

@@ -1049,7 +1049,7 @@ inRules r c (d :-: a) y = ((,) root . article . endings c d a) m
     where (root, m@(Morphs t p s)) = either id (\ m -> (r, m)) y
 
           article = case d of   Just True        -> case p of
-                        
+
                                                         Al : _          -> id
                                                         Prefix "al" : _ -> id
 

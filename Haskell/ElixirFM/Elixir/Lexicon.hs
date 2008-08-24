@@ -330,7 +330,7 @@ type Plural a = Either (Root, Morphs a) (Morphs a)
 
 data Entity a = Verb { form :: [Form], perfect', imperfect, imperative :: [a],
                        justTense :: Maybe Tense, justVoice :: Maybe Voice }
-              | Noun [Plural a] (Maybe Gender) (Maybe Number) (Maybe String)
+              | Noun [Plural a] (Maybe Gender) (Maybe Number) (Maybe Bool)
               | Adj  [Plural a] [Morphs a]     (Maybe Number)
               | Pron
               | Num  [Plural a] [Morphs a]
@@ -478,7 +478,7 @@ entries e = case entity e of
                 _                   -> [e]
 
 
-derives :: Entry a -> String -> Entry a
+derives :: Entry a -> Bool -> Entry a
 
 derives x y = case entity x of
 
@@ -676,27 +676,27 @@ genericLexicon = listing "Generic lexicon"
 
 
     |> "' b w" <| [
-    
+
         FaC                 `noun`                  [ "father" ]
                             `plural`    HACA'
         ]
 
-        
+
     |> "' _h w" <| [
-    
+
         FaC                 `noun`                  [ "brother" ]
                             `plural`    FiCL |< aT
                             `plural`    FiCLAn
         ]
 
-        
+
     |> ".h m w" <| [
-    
+
         FaC                 `noun`                  [ "father-in-law" ]
                             `plural`    HaFCA'
         ]
 
-        
+
     |> "f w h" <| [
 
         "f" |<< "U"         <::>    "N------S-R"
@@ -709,40 +709,40 @@ genericLexicon = listing "Generic lexicon"
 
 
     |> "' l h" <| [
-    
+
         al >| "l_ah"        <::>    "N------S-[D]"      <..>    [ "Allah", "God" ],
-        
-        "'il_ah"            <::>    "N--------[IRA]"    
+
+        "'il_ah"            <::>    "N--------[IRA]"
                                                         <..>    [ "god", "deity" ]
                             `plural`    "'Alih" |< aT,
-        
+
         "'il_ah" |< Iy      `adj`   [ "divine", "godly", "theological" ]
-        
+
         ]
 
 
     |> "' l h" <| [
-    
+
         FiCAL           `noun`                      [ "god", "deity" ]
                         `plural`    HACiL |< aT,
-        
+
         FiCAL |< aT     `noun`                      [ "goddess", unwords [ "female", "deity" ] ]
                         `plural`    FiCAL |< At,
 
         FiCAL |< Iy     `adj`                       [ "divine", "godly", "theological" ],
-        
+
         FACiL           `noun`                      [ "god" ],
-                        
+
         FACiL |< aT     `noun`                      [ "goddess" ]
                         `plural`    FACiL |< At,
-        
+
         FACiL |< Iy     `adj`                       [ "divine" ]
-                                                        
+
         ]
 
 
     |> "_d" <| [
-    
+
         "_d" |<< "U"        <::>    "SD--------"
                                                         <..>    [ "the one of", "the one with" ]
                             <.>     "SD----MS2-"
@@ -782,7 +782,7 @@ genericLexicon = listing "Generic lexicon"
 
 
     |> "l" <| [
-    
+
         "'_Ul" |<< "U"      <::>    "SD-----P--"
                                                         <..>    [ "the ones of", "the ones with" ]
                             <.>     "SD----MP[24]-"

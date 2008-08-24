@@ -586,7 +586,7 @@ sub throwForms {
 
                   $y =~ s/(?<!^)C/$toor[1]/     if $toor[1] =~ /^[\'wy]$/;
 
-                  $z =~ s/(?<!^)C/$toor[1]/g    if $toor[1] =~ /^[\'wy]$/;
+                  $z =~ s/(?<=C)C/$toor[1]/     if $toor[1] =~ /^[\'wy]$/;
 
                   $z eq $y ? $y eq $x ? $x : ($x, $y)
 
@@ -594,10 +594,16 @@ sub throwForms {
 
     @form = map { my ($x, $y) = ($_) x 2;
 
+                  $y =~ s/(?<!^)C/$toor[1]/g    if $toor[1] =~ /^[\'wy]$/;
+
+                  $y eq $x ? $x : ($x, $y) } @form;
+
+    @form = map { my ($x, $y) = ($_) x 2;
+
                   $y =~ s/(?<!^)L/$toor[2]/g    if $toor[2] =~ /^[\'wy]$/;
 
                   $y =~ s/(?<!^)L/t/            if $toor[2] =~ /^[t]$/ and $x =~ /^(?:FiCL|FuCL|FIL|FUL)$/;
-                  
+
                   $y eq $x ? $x : ($x, $y) } @form;
 
     return @form;

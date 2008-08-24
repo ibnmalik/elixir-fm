@@ -15,14 +15,20 @@
 -- "Elixir"
 
 
-module Elixir.Data.Lexicons where
+module Elixir.Data.Lexicons (lexicon) where
 
 
+import qualified Elixir.Data.Moony
+
+import qualified Elixir.Data.Sunny
+
+{-
 import qualified -- Elixir.Data.Effective
 
                  Elixir.Data.Buckwalter
 
 import qualified Elixir.Data.Classical
+-}
 
 
 import Elixir.Lexicon
@@ -45,6 +51,13 @@ lexicon = concat lexicons
 
 lexicons :: [Lexicon]
 
+lexicons =  [   Elixir.Data.Moony.lexicon,
+
+                Elixir.Data.Sunny.lexicon,
+
+                Elixir.Lexicon.genericLexicon   ]
+
+{-
 lexicons =  [   -- Elixir.Data.Effective.lexicon,
 
                 Elixir.Data.Buckwalter.lexicon,
@@ -52,3 +65,4 @@ lexicons =  [   -- Elixir.Data.Effective.lexicon,
                 Elixir.Data.Classical.lexicon,
 
                 Elixir.Lexicon.genericLexicon   ]
+-}

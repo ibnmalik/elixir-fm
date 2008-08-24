@@ -1,0 +1,46 @@
+-- --------------------------------------------------------------------------
+--  $Revision$ $Date$
+-- --------------------------------------------------------------------------
+
+-- |
+--
+-- Module      :  Elixir.Data.Sunny
+-- Copyright   :  Otakar Smrz 2005-2008
+-- License     :  GPL
+--
+-- Maintainer  :  otakar.smrz mff.cuni.cz
+-- Stability   :  provisional
+-- Portability :  portable
+--
+-- "Elixir"
+
+
+module Elixir.Data.Sunny (lexicon) where
+
+import Elixir.Lexicon
+
+import Elixir.Lexicon.Pretty
+
+import Elixir.Template
+
+import Data.List
+
+import qualified Elixir.Data.Sunny.Complex
+import qualified Elixir.Data.Sunny.Doubled
+import qualified Elixir.Data.Sunny.Regular
+
+import Version
+
+version = revised "$Revision$"
+
+
+lexicon :: Lexicon
+
+lexicon = concat lexicons
+
+
+lexicons :: [Lexicon]
+
+lexicons =  [   Elixir.Data.Sunny.Complex.lexicon,
+                Elixir.Data.Sunny.Doubled.lexicon,
+                Elixir.Data.Sunny.Regular.lexicon   ]

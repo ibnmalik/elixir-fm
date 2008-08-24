@@ -388,7 +388,15 @@ sub interlocks {
         $pattern = (substr $pattern, 0, -1) . 'w' if $pattern =~ /^(?:F[aiu]CLA'|F[IU]LA')$/
                                                   and @{$s} and not $s->[0] =~ /^"[aiu]N?"$/;
 
-        $pattern =~ s/Ft/assimVIII($root[0])/e;
+        if ("' _h _d" eq join ' ', @root) {
+
+            $pattern =~ s/Ft/tt/;
+        }
+        else {
+
+            $pattern =~ s/Ft/assimVIII($root[0])/e;
+        }
+
         $pattern =~ s/[nN]F/assimVII($root[0])/e;
 
         $pattern =~ s/F/$root[0]/g;
@@ -513,6 +521,8 @@ sub mergeSuffix {
             return "iN" if $x =~ /^[iu]N$/;
 
             return "I" . $x if $x =~ /^[nt]/;
+
+            return "Iy" if $x eq "Iy";
         }
 
         return "iy" . showSuffix($_[1]);

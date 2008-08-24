@@ -178,7 +178,7 @@ data TagsNum  = TagsNumQ
               | TagsNumC                                        [Number] [Case] [State]
               | TagsNumD                                                 [Case] [State]
               | TagsNumM                                        [Number] [Case] [State]
-                
+
     deriving Eq
 
 

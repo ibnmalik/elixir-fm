@@ -139,7 +139,7 @@ sub resolves {
             my @data = $q->filter($r, @{$assoc{$_}});
 
             next unless @data;
-            
+
             my $cont = eval $_;
 
             push @return, $q->resolves([@{$p}, [@data]], $cont, $next);

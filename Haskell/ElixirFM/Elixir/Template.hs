@@ -32,9 +32,9 @@ class Template a where
     interlock  :: [String] -> a -> String
 
     interlocks :: [Prefix] -> [Suffix] -> [String] -> a -> String
-    
+
     interlock = interlocks [] []
-    
+
 
 merge :: (Morphing a b, Template b, Show b) => String -> a -> String
 
@@ -174,6 +174,8 @@ isClosed _ = True
 
                                  | "n" `isPrefixOf` x ||
                                    "t" `isPrefixOf` x    -> "I" ++ x
+
+                        Suffix "Iy"     -> "Iy"
 
                         _       -> "iy" ++ show x
 
