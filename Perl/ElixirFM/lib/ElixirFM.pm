@@ -379,7 +379,7 @@ sub interlocks {
         return $1;
     }
 
-    if (@root == 1 and $pattern eq 'Identity') {
+    if (@root == 1 and $pattern =~ /^(?:_____|Identity)$/) {
 
         return $root[0];
     }
@@ -560,8 +560,10 @@ sub mergeSuffix {
 
     if ($_[0] eq 'U') {
 
-        return "Un" if $_[1] eq "Un";
-        return "In" if $_[1] eq "In";
+        return "UhAt" if $_[1] eq "At";
+
+        return "Un"   if $_[1] eq "Un";
+        return "In"   if $_[1] eq "In";
 
         %rules = ( ""    => "u",
 
