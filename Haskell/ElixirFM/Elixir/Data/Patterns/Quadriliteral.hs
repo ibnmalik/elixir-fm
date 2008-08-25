@@ -47,6 +47,7 @@ instance Template PatternQ where
                                  -- 'S' : y -> 's' : y
                                     'T' : y -> 't' : y
                                     'U' : y -> 'u' : y
+                                 -- 'Y' : y -> 'y' : y
                                     _       -> x
 
 

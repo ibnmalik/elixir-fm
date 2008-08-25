@@ -54,7 +54,12 @@ instance Forming PatternL where
 
 data PatternL =  Identity
 
-    deriving (Enum, Show, Eq)
+    deriving (Enum, Eq)
 
 
-identity = Identity
+instance Show PatternL where
+
+    show = const "_____"
+
+
+_____    = Identity

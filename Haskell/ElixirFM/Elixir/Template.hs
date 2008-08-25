@@ -20,7 +20,7 @@ module Elixir.Template where
 
 import Elixir.System
 
-import Data.List (isPrefixOf, isSuffixOf)
+import Data.List (isPrefixOf)
 
 import Version
 
@@ -200,7 +200,8 @@ isClosed _ = True
 
                         _       -> "aw" ++ show x
 
-'U' -<- x = case x of   Un      -> "Un"
+'U' -<- x = case x of   At      -> "UhAt"
+                        Un      -> "Un"
                         In      -> "In"
 
                         Suffix ""       -> "u"

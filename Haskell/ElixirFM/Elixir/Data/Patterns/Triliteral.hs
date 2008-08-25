@@ -83,6 +83,7 @@ instance Template PatternT where
                                     'S' : y -> 's' : y
                                     'T' : y -> 't' : y
                                     'U' : y -> 'u' : y
+                                    'Y' : y -> 'y' : y
                                     _       -> x
 
     -- Fischer (2002), par. 35 b, Wehr (1961) (samA'Iy, samAwIy)
@@ -216,7 +217,8 @@ instance Rules PatternT where
                             -- FuCaL, FuCAL,
                             FiCLiyA', FACULA',
                             FaCALIn,
-                            FaCLAn ]
+                            FaCLAn,
+                            YaFACIL ]
 
 
     isPassive = flip elem [ FuCiL, FIL, FuCI, FuCL,
@@ -853,6 +855,9 @@ data PatternT =
         |   FuCALY
 
         |   FaCLUL                      |   FayLUL
+
+        |   YaFCUL
+        |   YaFACIL
 
 --  Form II
 

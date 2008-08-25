@@ -43,7 +43,7 @@ import Elixir.Template
 
 import Elixir.Lexicon
 
-import Data.List (nub, isPrefixOf)
+import Data.List (nub)
 
 import Prelude hiding (lookup)
 
@@ -472,14 +472,14 @@ instance Inflect Lexeme TagsPrep where
 
     inflect x@(Lexeme r e) y | (not . isPrep) (entity e) = []
 
-    inflect (Lexeme r e) x@(TagsPrepP  ) = if null s then [(ParaPrep PrepP, [(r, m)])] else []
+    inflect (Lexeme r e) x@(TagsPrepP  ) | isInflect s = []
+                                         | otherwise   = [(ParaPrep PrepP, [(r, m)])]
 
         where m@(Morphs t p s) = morphs e
 
-    inflect (Lexeme r e) x@(TagsPrepI c) = if null s then []
-                                           else [ (ParaPrep (PrepI c), [(r, paraPrepI c m)]) |
-
-                                                   let c' = vals c, c <- c' ]
+    inflect (Lexeme r e) x@(TagsPrepI c) | isInflect s = [ (ParaPrep (PrepI c), [(r, paraPrepI c m)]) |
+                                                            let c' = vals c, c <- c' ]
+                                         | otherwise   = []
 
         where Morphs t p s = morphs e
               m = Morphs t p (tail s)
@@ -1320,15 +1320,20 @@ instance Inflect Lexeme ParaPrep where
 
     inflect x@(Lexeme r e) y | (not . isPrep) (entity e) = []
 
-    inflect (Lexeme r e) x@(PrepP  ) = if null s then [(ParaPrep PrepP, [(r, m)])] else []
+    inflect (Lexeme r e) x@(PrepP  ) | isInflect s = []
+                                     | otherwise   = [(ParaPrep PrepP, [(r, m)])]
 
         where m@(Morphs t p s) = morphs e
 
-    inflect (Lexeme r e) x@(PrepI c) = if null s then []
-                                       else [(ParaPrep (PrepI c), [(r, paraPrepI c m)])]
+    inflect (Lexeme r e) x@(PrepI c) | isInflect s = [(ParaPrep (PrepI c), [(r, paraPrepI c m)])]
+                                     | otherwise   = []
 
         where Morphs t p s = morphs e
               m = Morphs t p (tail s)
+
+
+isInflect s = case s of Suffix "a" : _ -> True
+                        _              -> False
 
 
 paraPrepI c = case c of
