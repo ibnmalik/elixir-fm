@@ -841,6 +841,7 @@ data PatternT =
 
         |   FuwayCaL    {-- (?) --}
         |   MuFayCaL
+        |   HuFayCAL
 
         |   FuCayLin                    |   FuwayLin
 
@@ -857,6 +858,7 @@ data PatternT =
         |   FaCLUL                      |   FayLUL
 
         |   YaFCUL
+        |   YaFCIL
         |   YaFACIL
 
 --  Form II

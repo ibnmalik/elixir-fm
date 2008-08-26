@@ -15,7 +15,7 @@
 -- "Elixir"
 
 
-module Elixir.Data.Sunny (lexicon) where
+module Elixir.Data.Sunny where
 
 import Elixir.Lexicon
 
@@ -27,6 +27,7 @@ import Data.List
 
 import qualified Elixir.Data.Sunny.Complex
 import qualified Elixir.Data.Sunny.Doubled
+import qualified Elixir.Data.Sunny.Foreign
 import qualified Elixir.Data.Sunny.Regular
 
 import Version
@@ -43,4 +44,5 @@ lexicons :: [Lexicon]
 
 lexicons =  [   Elixir.Data.Sunny.Complex.lexicon,
                 Elixir.Data.Sunny.Doubled.lexicon,
+                Elixir.Data.Sunny.Foreign.lexicon,
                 Elixir.Data.Sunny.Regular.lexicon   ]
