@@ -376,12 +376,20 @@ sub interlocks {
 
     if ($pattern =~ /^\"([^\"]+)\"$/) {
 
-        return $1;
+        $pattern = $1;
+
+        $pattern .= 'w' if $pattern =~ /A$/ and @{$s} and $s->[0] eq "Iy";
+
+        return $pattern;
     }
 
     if (@root == 1 and $pattern =~ /^(?:_____|Identity)$/) {
 
-        return $root[0];
+        $pattern = $root[0];
+
+        $pattern .= 'w' if $pattern =~ /A$/ and @{$s} and $s->[0] eq "Iy";
+        
+        return $pattern;
     }
     elsif (@root == 3) {
 

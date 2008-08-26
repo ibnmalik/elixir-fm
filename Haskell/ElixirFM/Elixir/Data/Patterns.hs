@@ -34,6 +34,7 @@ import Elixir.Data.Patterns.Triliteral
 
 import Elixir.Data.Patterns.Quadriliteral
 
+import Data.List (isSuffixOf)
 
 import Version
 
@@ -42,9 +43,16 @@ version = revised "$Revision$"
 
 instance Template String where
 
-    interlocks _ _ r = concat . replace . restore
+    interlocks _ s r = modify . concat . replace . restore
 
-        where replace x = [ maybe [c] id (lookup c lock) | c <- x ]
+        where modify x | (not . null) s && isSuffixOf "A" x =
+                                 
+                         case last s of Iy -> x ++ "w"
+                                        _  -> x
+
+                       | otherwise          = x
+
+              replace x = [ maybe [c] id (lookup c lock) | c <- x ]
 
                     where lock = zip ['F', 'C', 'L'] r ++
                                  zip ['K', 'R', 'D', 'S'] r
@@ -52,10 +60,11 @@ instance Template String where
               restore x = case x of 'H' : y -> '\'' : y
                                     'I' : y -> 'i' : y
                                     'M' : y -> 'm' : y
-                                 --   'N' : y -> 'n' : y
-                                 --   'S' : y -> 's' : y
+                                    'N' : y -> 'n' : y
+                                    'S' : y -> 's' : y
                                     'T' : y -> 't' : y
                                     'U' : y -> 'u' : y
+                                    'Y' : y -> 'y' : y
                                     _       -> x
 
 

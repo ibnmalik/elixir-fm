@@ -20,6 +20,8 @@ module Elixir.Data.Patterns.Literal where
 
 import Elixir.Template
 
+import Data.List (isSuffixOf)
+
 import Version
 
 version = revised "$Revision$"
@@ -32,7 +34,15 @@ instance Morphing PatternL PatternL where
 
 instance Template PatternL where
 
-    interlocks _ _ r _ = concat r
+    interlocks _ s r _ = (modify . concat) r
+
+        where modify x | (not . null) s && isSuffixOf "A" x =
+                                 
+                         case last s of Iy -> x ++ "w"
+                                        _  -> x
+
+                       | otherwise          = x
+              
 
  -- interlock = (.) concat . const
 

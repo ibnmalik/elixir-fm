@@ -18,30 +18,33 @@
 module Elixir.Lookup where
 
 
-import Elixir.System
-
 import Elixir.Template
 
 import Elixir.Lexicon
+import Elixir.Lexicon.Pretty
 
 import Encode
 import Encode.Arabic
 
 -- import Text.Regex
 
+import Data.List (isInfixOf)
+
 import Data.List hiding (lookup)
 
+import Prelude hiding (lookup)
+    
 
-class Lookup a b where
+class Lookup a where
 
-    lookup :: a -> Lexicon -> b
+    lookup :: a -> Lexicon -> Lexicon
 
  -- lookupBy :: (a -> c -> Bool) -> Lexicon -> b
 
  -- lookup x = lookupBy (==)
 
 
-instance Lookup Index Lexicon where
+instance Lookup Index where
 
     lookup (n, m) y = [ z | w <- find n y, z <- wraps lookup' w ]
 
@@ -49,8 +52,28 @@ instance Lookup Index Lexicon where
                        | x < 0     = find (-x) (reverse y)
                        | otherwise = []
 
-              lookup' (Nest r z) = [ Nest r (find m z) ]
+              lookup' (Nest r z) = [Nest r (find m z)]
 
+
+-- instance Lookup a Lexicon
+
+instance Lookup [UPoint] where
+
+    lookup x y = lookupBy ((x ==) . decode TeX) y
+
+
+instance Lookup String where
+
+    lookup x y = lookupBy (x ==) y
+
+
+lookupBy f l = [ z | n <- l, z <- wraps (lookup' f) n ]
+
+    where lookup' f n@(Nest r l) | f r       = [n]
+                                 | otherwise = case [ e | e <- l, let m = morphs e
+                                                                      h = merge r m, f h ]
+                                               of [] -> []
+                                                  xs -> [Nest r xs]
 
 {-
 instance Lookup [Root] Lexicon where
@@ -59,9 +82,10 @@ instance Lookup [Root] Lexicon where
 -}
 
 
-lookupRoot :: Root -> Lexicon -> [Wrap Nest]
+lookupRoot :: Root -> Lexicon -> Lexicon
 
 lookupRoot r l = lookupRootBy (r ==) l
+
 
 lookupRootBy f l = concat [ wraps (\ x -> if f (root x) then [x] else []) n | n <- l ]
 
@@ -70,27 +94,17 @@ lookupRootBy f l = concat [ wraps (\ x -> if f (root x) then [x] else []) n | n 
 -- lookupRoot r l = [ n | n <- l, unwrap root n == r ]
 
 
-
--- instance Lookup a Lexicon
-
-instance Lookup [UPoint] [Wrap Lexeme] where
-
-    lookup x y = lookupEntryBy ((x ==) . decode TeX) y
-
-
-instance Lookup String [Wrap Lexeme] where
-
-    lookup x y = lookupEntryBy (x ==) y
-
-
-lookupEntry :: String -> Lexicon -> [Wrap Lexeme]
+lookupEntry :: String -> Lexicon -> Lexicon
 
 lookupEntry w l = lookupEntryBy (w ==) l
 
-lookupEntryBy f l = concat [ wraps (lookupEntry' f) n | n <- l ]
 
-lookupEntry' f (Nest r l) = [ Lexeme r e | e <- l, let m = morphs e
-                                                       h = merge r m, f h ]
+lookupEntryBy f l = [ z | n <- l, z <- wraps (lookup' f) n ]
+
+    where lookup' f (Nest r l) = case [ e | e <- l, let m = morphs e
+                                                        h = merge r m, f h ]
+                                 of [] -> []
+                                    xs -> [Nest r xs]
 
 {-
 lookupEntry w l = [ s | n <- l, s <- case n of
@@ -105,9 +119,17 @@ lookupEntry' z w r es = [ wrap (Lexeme r (const e z)) | e <- es, let m = morphs 
 -}
 
 
-instance Lookup (Morphs a) [Wrap Lexeme]
+instance Show a => Lookup (Morphs a) where
+                           
+    lookup x y = [ z | w <- y, z <- wraps lookup' w ]
 
-instance Morphing a b => Lookup a [Wrap Lexeme]
+        where lookup' (Nest r l) = [ Nest r [e] | e <- l,
+                                     (" " ++ show x ++ " ") `isInfixOf` (" " ++ (show . morphs) e ++ " ") ]
+    
+
+instance (Morphing a b, Show b) => Lookup a where
+
+    lookup x = lookup (morph x)
 
 
 countNest :: Lexicon -> Int
@@ -138,11 +160,11 @@ instance Lookup Regex [Wrap Lexeme] where
 
 type Regex = [String]
 
-instance Lookup Regex Lexicon where
+instance Lookup Regex where
 
     lookup x y = [ z | w <- y, z <- wraps lookup' w ]
 
-        where lookup' (Nest r z) = [ Nest r [e] | e <- z,
+        where lookup' (Nest r l) = [ Nest r [e] | e <- l,
                                      any (any (`elem` x) . words) (reflex e) ]
 
 
@@ -156,8 +178,7 @@ lookupReflex' w (Nest r l) = [ Lexeme r e | e <- l, any (elem w . words)
 -- lookupReflex' w (Nest r l) = [ Lexeme r e | e <- l, let x = reflex e, s <- x,
 --                                             any (w ==) (words s) ]
 
-{- Rules.hs
-
+{-
 inflectLookup l t = [ case i of WrapT x -> inflects x
                                 WrapQ x -> inflects x
                                 WrapS x -> inflects x
@@ -188,24 +209,4 @@ lookupLemma w l = unlines [ s | n <- l, s <- case n of
                                 WrapT y@(Nest r e) -> (lookupLemma' w y)
                                 WrapQ y@(Nest r e) -> (lookupLemma' w y)
                                 WrapS y@(Nest r e) -> (lookupLemma' w y) ]
--}
-
-{-
-sumRoot :: Dictionary -> Int
-sumRoot = fold ((+) . const 1) 0
-
-sumRootChars :: Dictionary -> Int
-sumRootChars = foldWithKey (\ s l -> (+) (length s)) 0
-
--- sumRootChars = foldWithKey (\ s l -> (+ length s)) 0
--- sumRootChars = foldWithKey (\ s l -> (+) (length (const s l))) 0
--- sumRootChars = foldWithKey (\ s -> (+) . (($) length) . const s) 0
--- sumRootChars = foldWithKey (\ s -> (+) . (($) length) . (($) const) s) 0
--- sumRootChars = foldWithKey ((+) . length . const ) 0
-
-sumEntry :: Dictionary -> Int
-sumEntry = fold ((+) . length) 0
-
-sumEntryChars :: Dictionary -> Int
-sumEntryChars = fold ((+) . foldr ((+) . length) 0) 0
 -}

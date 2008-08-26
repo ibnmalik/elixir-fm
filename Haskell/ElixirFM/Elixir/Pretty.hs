@@ -77,6 +77,8 @@ encloseText = hcat . map (text . ('\t' :)) -- encloseSep tab empty tab . map tex
 
 -- http://www.cas.mcmaster.ca/~kahl/Haskell/Lines/
 
+onlines :: String -> [String]
+
 onlines = foldr f []
 
     where f '\n' xss      = "" : xss

@@ -661,7 +661,7 @@ genericLexicon = listing "Generic lexicon"
 
     |> "l" <| [
 
-        "li"        `conj`      [ "in order to", "so that" ],
+        "li"        `conj`      [ unwords [ "in", "order", "to" ], unwords [ "so", "that" ] ],
 
         "la"        `part`      [ "indeed", "truly" ]
 
@@ -744,7 +744,7 @@ genericLexicon = listing "Generic lexicon"
     |> "_d" <| [
 
         "_d" |<< "U"        <::>    "SD--------"
-                                                        <..>    [ "the one of", "the one with" ]
+                                                        <..>    [ unwords [ "the", "one", "of" ], unwords [ "the", "one", "with" ] ]
                             <.>     "SD----MS2-"
                                                         <:>     "_d" |<< "I"
                             <.>     "SD----MS4-"
@@ -784,7 +784,7 @@ genericLexicon = listing "Generic lexicon"
     |> "l" <| [
 
         "'_Ul" |<< "U"      <::>    "SD-----P--"
-                                                        <..>    [ "the ones of", "the ones with" ]
+                                                        <..>    [ unwords [ "the", "one", "of" ], unwords [ "the", "one", "with" ] ]
                             <.>     "SD----MP[24]-"
                                                         <:>     "'_Ul" |<< "I"
 
@@ -927,7 +927,7 @@ genericLexicon = listing "Generic lexicon"
                             `femini` FaCaL,
 
         FaCaL |< aT         <::>    "QM-----[SP]--"
-                                                        <..>    [ "ten, tens" ]
+                                                        <..>    [ "ten", "tens" ]
                             `plural` FaCaL |< At,
 
         FaCaL               <::>    "QY--------"
