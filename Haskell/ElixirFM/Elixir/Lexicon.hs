@@ -76,7 +76,7 @@ module Elixir.Lexicon (
 
         imperf, pfirst, ithird, second,
 
-        gerund, plural, femini, derives, entries,
+        gerund, plural, femini, limited, derives, entries,
 
         others, withRoot
 
@@ -268,7 +268,7 @@ listing _ = (<|) "" ([] :: [Entry PatternT])
 
 (<::>) :: (Morphing a b, Forming a, Rules a, Eq a) => a -> String -> Entry b
 
-x <::> y = Entry { morphs = morph x, entity = e, reflex = [], entity' = (d, []) }
+x <::> y = Entry { morphs = morph x, entity = e, limits = (d, []), reflex = [] }
 
     where e = case d of
 
@@ -296,16 +296,16 @@ x <..> y = x { reflex = y }
 
 (<.>) :: Entry a -> String -> Entry a
 
-x <.> y = x { entity' = (d, ((restrict d . unTagsTypes . read) y, []) : l) }
+x <.> y = x { limits = (d, ((restrict d . unTagsTypes . read) y, []) : l) }
 
-    where (d, l) = entity' x
+    where (d, l) = limits x
 
 
 (<:>) :: Morphing a b => Entry b -> a -> Entry b
 
-x <:> y = x { entity' = (d, r) }
+x <:> y = x { limits = (d, r) }
 
-    where (d, l) = entity' x
+    where (d, l) = limits x
           r = case l of []         -> []
                         (u, v) : w -> (u, morph y : v) : w
 
@@ -313,17 +313,17 @@ x <:> y = x { entity' = (d, r) }
 type Reflex = [String]
 
 data Entry a = Entry { morphs :: Morphs a, entity :: Entity a,
-                       reflex :: Reflex, entity' :: Entity' a }
+                       limits :: Limits a, reflex :: Reflex }
 
     deriving Show
 
 
-type Entity' a = (TagsType, ([([TagsType], [Morphs a])]))
+type Limits a = (TagsType, [([TagsType], [Morphs a])])
 
 
 domain :: Entry a -> TagsType
 
-domain = fst . entity'
+domain = fst . limits
 
 
 type Plural a = Either (Root, Morphs a) (Morphs a)
@@ -378,7 +378,7 @@ isIntj _    = False
 
 verb :: (Morphing a b, Forming a, Rules a, Eq a) => a -> Reflex -> Entry b
 
-verb m l = Entry (morph m) (Verb forms [] [] [] justT justV) l (TagsVerb [], [])
+verb m = Entry (morph m) (Verb forms [] [] [] justT justV) (TagsVerb [], [])
 
     where forms = takeOne [ f | f <- [III, I, II] ++ [IV ..], isForm f m ]
 
@@ -412,31 +412,31 @@ verb m l = Entry (morph m) (Verb forms [] [] [] justT justV) l (TagsVerb [], [])
 
 noun, adj, pron, num, adv, prep, conj, part, intj :: Morphing a b => a -> Reflex -> Entry b
 
-noun h l = Entry m (Noun [] Nothing Nothing Nothing) l (TagsNoun d, [])
+noun h = Entry m (Noun [] Nothing Nothing Nothing) (TagsNoun d, [])
 
     where Morphs t p s = morph h
           (m, d) = case s of
-                Suffix "aN" : _ -> (Morphs t p (tail s), [TagsNounS [] [] [] [Singular]
-                                                                [Accusative] [indefinite]])
-                _               -> (Morphs t p s, [])
+                        Suffix "aN" : _ -> (Morphs t p (tail s), [TagsNounS [] [] [] [Singular]
+                                                                 [Accusative] [indefinite]])
+                        _               -> (Morphs t p s, [])
 
-adj  h l = Entry m (Adj [] [] Nothing)               l (TagsAdj  d, [])
+adj  h = Entry m (Adj [] [] Nothing)               (TagsAdj  d, [])
 
     where Morphs t p s = morph h
           (m, d) = case s of
-                Suffix "aN" : _ -> (Morphs t p (tail s), [TagsAdjA  [] [] [] [Singular]
-                                                                [Accusative] [indefinite]])
-                _               -> (Morphs t p s, [])
+                        Suffix "aN" : _ -> (Morphs t p (tail s), [TagsAdjA  [] [] [] [Singular]
+                                                                 [Accusative] [indefinite]])
+                        _               -> (Morphs t p s, [])
 
-pron m l = Entry (morph m) Pron                              l (TagsPron [TagsPronS], [])
+pron m = Entry (morph m) Pron                      (TagsPron [TagsPronS], [])
 
-num  m l = Entry (morph m) (Num [] [])                       l (TagsNum  [], [])
+num  m = Entry (morph m) (Num [] [])               (TagsNum  [], [])
 
-adv  m l = Entry (morph m) Adv  l (TagsAdv  [], [])
-prep m l = Entry (morph m) Prep l (TagsPrep [], [])
-conj m l = Entry (morph m) Conj l (TagsConj [], [])
-part m l = Entry (morph m) Part l (TagsPart [], [])
-intj m l = Entry (morph m) Intj l (TagsIntj [], [])
+adv  m = Entry (morph m) Adv  (TagsAdv  [], [])
+prep m = Entry (morph m) Prep (TagsPrep [], [])
+conj m = Entry (morph m) Conj (TagsConj [], [])
+part m = Entry (morph m) Part (TagsPart [], [])
+intj m = Entry (morph m) Intj (TagsIntj [], [])
 
 infixl 3 `verb`, `noun`, `adj`, `pron`, `num`, `adv`,
          `prep`, `conj`, `part`, `intj`
@@ -498,6 +498,14 @@ derives x y = case entity x of
                 _            -> x
 
 
+limited :: Entry a -> String -> Entry a
+
+limited x y = x { limits = (h, l) }
+
+    where (d, l) = limits x
+          h = head ((restrict d . unTagsTypes . read) y ++ [d])
+
+
 femini :: Morphing a b => Entry b -> a -> Entry b
 
 femini x y = case entity x of
@@ -534,7 +542,7 @@ infixl 3 `imperf`, `pfirst`, `ithird`, `second`
 
 infixl 3 `gerund`, `plural`, `femini`, `others`, `withRoot`
 
-infixl 3 `derives`
+infixl 3 `limited`, `derives`
 
 
 others = const

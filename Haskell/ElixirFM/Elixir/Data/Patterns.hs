@@ -96,11 +96,11 @@ instance Forming String where
 
     verbStems _ _ = [
 
-        (   Just  (     "FaL",      "X",        "X",         "X"         ),
-                        "FaCL",     "X",        "X",         "X"         ),  -- laysa
+        (   Just  (     "FaL",      "|",        "|",         "|"         ),
+                        "FaCL",     "|",        "|",         "|"         ),  -- laysa
 
-        (   Just  (     "las",      "X",        "X",         "X"         ),
-                        "lays",     "X",        "X",         "X"         )   -- laysa
+        (   Just  (     "las",      "|",        "|",         "|"         ),
+                        "lays",     "|",        "|",         "|"         )   -- laysa
 
         ]
 

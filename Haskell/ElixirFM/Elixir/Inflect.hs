@@ -425,7 +425,7 @@ instance Inflect Lexeme TagsPron where
 
                                                     c <- c', n <- n', p <- p', g <- g',
 
-          let q = [ (r, q)  | let (d, l) = entity' e,
+          let q = [ (r, q)  | let (d, l) = limits e,
 
                     (d', r') <- l, TagsPron s <- d',
 
@@ -441,7 +441,7 @@ instance Inflect Lexeme TagsPron where
 
                                                     n <- n', g <- g', c <- c',
 
-          let q = [ (r, q) | let (d, l) = entity' e,
+          let q = [ (r, q) | let (d, l) = limits e,
 
                     (d', r') <- l, TagsPron s <- d',
 
@@ -457,7 +457,7 @@ instance Inflect Lexeme TagsPron where
 
                                                     n <- n', g <- g', c <- c',
 
-          let q = [ (r, q) | let (d, l) = entity' e,
+          let q = [ (r, q) | let (d, l) = limits e,
 
                     (d', r') <- l, TagsPron s <- d',
 
@@ -1184,7 +1184,7 @@ instance Inflect Lexeme ParaPron where
 
     inflect (Lexeme r e) x@(PronP p g n c) = [(ParaPron (PronP p g n c), list [(r, morphs e)] q)]
 
-        where q = [ (r, q)  | let (d, l) = entity' e,
+        where q = [ (r, q)  | let (d, l) = limits e,
 
                     (d', r') <- l, TagsPron s <- d',
 
@@ -1193,7 +1193,7 @@ instance Inflect Lexeme ParaPron where
 
     inflect (Lexeme r e) x@(PronD   g n c) = [(ParaPron (PronD g n c), list [(r, morphs e)] q)]
 
-        where q = [ (r, q) | let (d, l) = entity' e,
+        where q = [ (r, q) | let (d, l) = limits e,
 
                     (d', r') <- l, TagsPron s <- d',
 
@@ -1202,7 +1202,7 @@ instance Inflect Lexeme ParaPron where
 
     inflect (Lexeme r e) x@(PronR   g n c) = [(ParaPron (PronR g n c), list [(r, morphs e)] q)]
 
-        where q = [ (r, q) | let (d, l) = entity' e,
+        where q = [ (r, q) | let (d, l) = limits e,
 
                     (d', r') <- l, TagsPron s <- d',
 

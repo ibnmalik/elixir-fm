@@ -83,8 +83,6 @@ cluster_8   = cluster
     _____                     `noun`    {- <sIdA> -}           [ unwords [ "SIDA", "(", "AIDS", ")" ] ] ]
 
 
-
-
 cluster_9   = cluster
 
  |> "rAbInUfIt^s" <| [
@@ -1010,8 +1008,6 @@ cluster_133 = cluster
     _____                     `noun`    {- <tArAnI> -}         [ "" {- "Tarani" -} ] ]
 
 
-
-
 cluster_134 = cluster
 
  |> "tAnyA" <| [
@@ -1031,7 +1027,6 @@ cluster_136 = cluster
  |> "tAnIlA" <| [
 
     _____                     `noun`    {- <tAnIlA> -}         [ "" {- "Tanella" -} ] ]
-
 
 
 cluster_137 = cluster
@@ -1083,7 +1078,6 @@ cluster_143 = cluster
     _____                     `noun`    {- <tAdIrAn> -}        [ "" {- "Tadiran" -} ] ]
 
 
-
 cluster_144 = cluster
 
  |> "tUbiks" <| [
@@ -1091,15 +1085,11 @@ cluster_144 = cluster
     _____                     `noun`    {- <tUbiks> -}         [ "" {- "Topix" -} ] ]
 
 
-
-
-
 cluster_145 = cluster
 
  |> "tItsiwU" <| [
 
     _____                     `noun`    {- <tItsiwU> -}        [ "" {- "Tetsu" -} ] ]
-
 
 
 cluster_146 = cluster
@@ -1158,7 +1148,6 @@ cluster_153 = cluster
     _____                     `noun`    {- <tIbAzah> -}        [ "" {- "Tipasa" -} ] ]
 
 
-
 cluster_154 = cluster
 
  |> "tAymz" <| [
@@ -1166,7 +1155,6 @@ cluster_154 = cluster
     _____                     `noun`    {- <tAymz> -}          [ "" {- "Times" -} ],
 
     _____                     `noun`    {- <tAymz> -}          [ "" {- "Thames" -} ] ]
-
 
 
 cluster_155 = cluster
@@ -1197,7 +1185,6 @@ cluster_158 = cluster
     _____                     `noun`    {- <t^sAn.g> -}        [ "" {- "Chang" -} ] ]
 
 
-
 cluster_159 = cluster
 
  |> "tUziyA" <| [
@@ -1219,14 +1206,11 @@ cluster_161 = cluster
     _____                     `noun`    {- <tUtsI> -}          [ "" {- "Tutsi" -} ] ]
 
 
-
 cluster_162 = cluster
 
  |> "tUskA" <| [
 
     _____                     `noun`    {- <tUskA> -}          [ "" {- "Tosca" -} ] ]
-
-
 
 
 cluster_163 = cluster
@@ -1250,7 +1234,6 @@ cluster_165 = cluster
     _____                     `noun`    {- <tUrA> -}           [ "" {- "Tora" -} ] ]
 
 
-
 cluster_166 = cluster
 
  |> "tUmyAnUfIt^s" <| [
@@ -1265,18 +1248,11 @@ cluster_167 = cluster
     _____                     `noun`    {- <tUmAsI> -}         [ "" {- "Tomassi" -} ] ]
 
 
-
-
-
 cluster_168 = cluster
 
  |> "tamArA" <| [
 
     _____                     `noun`    {- <tamArA> -}         [ "" {- "Tamara" -} ] ]
-
-
-
-
 
 
 cluster_169 = cluster
@@ -1314,25 +1290,6 @@ cluster_173 = cluster
     _____                     `noun`    {- <t^sIlUbA> -}       [ "" {- "Chiluba" -} ] ]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 cluster_174 = cluster
 
  |> "tar.gA" <| [
@@ -1340,27 +1297,11 @@ cluster_174 = cluster
     _____                     `noun`    {- <tar.gA> -}         [ "" {- "Targha" -} ] ]
 
 
-
-
-
-
-
-
 cluster_175 = cluster
 
  |> "timbarwUlfz" <| [
 
     _____                     `noun`    {- <timbarwUlfz> -}    [ "" {- "Timberwolves" -} ] ]
-
-
-
-
-
-
-
-
-
-
 
 
 cluster_176 = cluster
@@ -1384,8 +1325,6 @@ cluster_178 = cluster
     _____                     `noun`    {- <triyAtlUn> -}      [ "" {- "Triathlon" -} ] ]
 
 
-
-
 cluster_179 = cluster
 
  |> "trUykA" <| [
@@ -1400,7 +1339,6 @@ cluster_180 = cluster
     _____                     `noun`    {- <trUsyIh> -}        [ "" {- "Troussier" -} ] ]
 
 
-
 cluster_181 = cluster
 
  |> "trIzI.gIh" <| [
@@ -1408,67 +1346,11 @@ cluster_181 = cluster
     _____                     `noun`    {- <trIzI.gIh> -}      [ "" {- "Trezeguet" -} ] ]
 
 
-
-
-
 cluster_182 = cluster
 
  |> "trAn" <| [
 
     _____                     `noun`    {- <trAn> -}           [ "" {- "Tran" -} ] ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 cluster_183 = cluster
@@ -1764,126 +1646,6 @@ cluster_223 = cluster
     "sUzAn"                   `noun`    {- <sUzAn> -}          [ "" {- "Susan" -}, "" {- "Suzan" -}, "" {- "Suzanne" -} ] ]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 cluster_224 = cluster
 
  |> "dAniyIl" <| [
@@ -1896,7 +1658,6 @@ cluster_225 = cluster
  |> "dAniyAl" <| [
 
     _____                     `noun`    {- <dAniyAl> -}        [ "" {- "Daniel" -} ] ]
-
 
 
 cluster_226 = cluster
@@ -1934,7 +1695,6 @@ cluster_230 = cluster
     _____                     `noun`    {- <dAmiyAnU> -}       [ "" {- "Damiano" -} ] ]
 
 
-
 cluster_231 = cluster
 
  |> "dAltUn" <| [
@@ -1963,7 +1723,6 @@ cluster_234 = cluster
     _____                     `noun`    {- <dAhUmI> -}         [ "" {- "Dahomey" -} ] ]
 
 
-
 cluster_235 = cluster
 
  |> "dAfIdI" <| [
@@ -1985,13 +1744,11 @@ cluster_237 = cluster
     _____                     `noun`    {- <dA> -}             [ "Da" ] ]
 
 
-
 cluster_238 = cluster
 
  |> "dIkmAn" <| [
 
     _____                     `noun`    {- <dIkmAn> -}         [ "" {- "Dickman" -} ] ]
-
 
 
 cluster_239 = cluster
@@ -2001,13 +1758,11 @@ cluster_239 = cluster
     _____                     `noun`    {- <dIkU^gI> -}        [ "" {- "Decugis" -} ] ]
 
 
-
 cluster_240 = cluster
 
  |> "dIfuwAr" <| [
 
     _____                     `noun`    {- <dIfuwAr> -}        [ "d'Ivoire" ] ]
-
 
 
 cluster_241 = cluster
@@ -2066,7 +1821,6 @@ cluster_248 = cluster
     _____                     `noun`    {- <dArkU> -}          [ "" {- "Darko" -} ] ]
 
 
-
 cluster_249 = cluster
 
  |> "dArA" <| [
@@ -2088,7 +1842,6 @@ cluster_251 = cluster
     _____                     `noun`    {- <dItrUyt> -}        [ "" {- "Detroit" -} ] ]
 
 
-
 cluster_252 = cluster
 
  |> "dIrnir" <| [
@@ -2096,19 +1849,11 @@ cluster_252 = cluster
     _____                     `noun`    {- <dIrnir> -}         [ "" {- "Derner" -} ] ]
 
 
-
-
 cluster_253 = cluster
 
  |> "dInAmIks" <| [
 
     _____                     `noun`    {- <dInAmIks> -}       [ "" {- "Dynamics" -} ] ]
-
-
-
-
-
-
 
 
 cluster_254 = cluster
@@ -2132,8 +1877,6 @@ cluster_256 = cluster
     _____                     `noun`    {- <dImArIh> -}        [ "" {- "Demaret" -} ] ]
 
 
-
-
 cluster_257 = cluster
 
  |> "d^gUrkAyif" <| [
@@ -2146,8 +1889,6 @@ cluster_258 = cluster
  |> "dUstum" <| [
 
     _____                     `noun`    {- <dUstum> -}         [ "" {- "Dustum" -} ] ]
-
-
 
 
 cluster_259 = cluster
@@ -2164,7 +1905,6 @@ cluster_260 = cluster
     _____                     `noun`    {- <dUnAld> -}         [ "" {- "Donald" -} ] ]
 
 
-
 cluster_261 = cluster
 
  |> "dUmInIk" <| [
@@ -2172,7 +1912,6 @@ cluster_261 = cluster
     _____                     `noun`    {- <dUmInIk> -}        [ "" {- "Dominik" -} ],
 
     _____                     `noun`    {- <dUmInIk> -}        [ "" {- "Dominique" -} ] ]
-
 
 
 cluster_262 = cluster
@@ -2203,8 +1942,6 @@ cluster_265 = cluster
     _____                     `noun`    {- <dUfdIfAn> -}       [ unwords [ "Dov", "" {- "Devan" -} ] ] ]
 
 
-
-
 cluster_266 = cluster
 
  |> "dU^sIfAr" <| [
@@ -2226,13 +1963,11 @@ cluster_268 = cluster
     _____                     `noun`    {- <dIznI> -}          [ "" {- "Disney" -} ] ]
 
 
-
 cluster_269 = cluster
 
  |> "ddIn" <| [
 
     al >| _____               `noun`    {- <ad-ddIn> -}        [ unwords [ "Al", "-", "Din" ], unwords [ "El", "-", "Din" ], "" {- "Eddin" -} ] ]
-
 
 
 cluster_270 = cluster
@@ -2242,27 +1977,11 @@ cluster_270 = cluster
     _____                     `noun`    {- <dayfinbUrt> -}     [ "" {- "Davenport" -} ] ]
 
 
-
-
-
-
-
-
-
-
-
-
-
 cluster_271 = cluster
 
  |> "distAynd" <| [
 
     _____                     `noun`    {- <distAynd> -}       [ "" {- "Destined" -} ] ]
-
-
-
-
-
 
 
 cluster_272 = cluster
@@ -2272,17 +1991,11 @@ cluster_272 = cluster
     _____                     `noun`    {- <dink.tA^s> -}      [ "" {- "Denktash" -} ] ]
 
 
-
-
-
-
 cluster_273 = cluster
 
  |> "dil.gAdU" <| [
 
     _____                     `noun`    {- <dil.gAdU> -}       [ "" {- "Delgado" -} ] ]
-
-
 
 
 cluster_274 = cluster
@@ -2292,7 +2005,6 @@ cluster_274 = cluster
     _____                     `noun`    {- <didI> -}           [ "" {- "Didi" -} ] ]
 
 
-
 cluster_275 = cluster
 
  |> "dusildUrf" <| [
@@ -2300,17 +2012,11 @@ cluster_275 = cluster
     _____                     `noun`    {- <dusildUrf> -}      [ "" {- "Dusseldorf" -} ] ]
 
 
-
 cluster_276 = cluster
 
  |> "dunqulah" <| [
 
     _____                     `noun`    {- <dunqulah> -}       [ "" {- "Dongola" -} ] ]
-
-
-
-
-
 
 
 cluster_277 = cluster
@@ -2369,14 +2075,11 @@ cluster_284 = cluster
     _____                     `noun`    {- <diyAnA> -}         [ "" {- "Diana" -} ] ]
 
 
-
-
 cluster_285 = cluster
 
  |> "diyA^giyU" <| [
 
     _____                     `noun`    {- <diyA^giyU> -}      [ "" {- "Diageo" -} ] ]
-
 
 
 cluster_286 = cluster
@@ -2386,1889 +2089,6 @@ cluster_286 = cluster
     _____                     `noun`    {- <dwdAyf> -}         [ "" {- "Dudayev" -} ] ]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 cluster_287 = cluster
 
  |> "nAbulI" <| [
@@ -4276,13 +2096,11 @@ cluster_287 = cluster
     _____                     `noun`    {- <nAbulI> -}         [ "" {- "Naples" -} ] ]
 
 
-
 cluster_288 = cluster
 
  |> "nA_hIt^sIfAn" <| [
 
     _____                     `noun`    {- <nA_hIt^sIfAn> -}   [ "" {- "Nakhichevan" -} ] ]
-
 
 
 cluster_289 = cluster
@@ -4334,7 +2152,6 @@ cluster_295 = cluster
     _____                     `noun`    {- <nAymiks> -}        [ unwords [ "NYMEX", "(", "New", "" {- "York" -}, "" {- "Mercantile" -}, "" {- "Exchange" -}, ")" ] ] ]
 
 
-
 cluster_296 = cluster
 
  |> "nAwhIrU" <| [
@@ -4368,9 +2185,6 @@ cluster_300 = cluster
  |> "nAsdAk" <| [
 
     _____                     `noun`    {- <nAsdAk> -}         [ "NASDAQ" ] ]
-
-
-
 
 
 cluster_301 = cluster
@@ -4415,15 +2229,11 @@ cluster_306 = cluster
     _____                     `noun`    {- <na.sIbIn> -}       [ "" {- "Nisibin" -} ] ]
 
 
-
-
-
 cluster_307 = cluster
 
  |> "nUrfUlk" <| [
 
     _____                     `noun`    {- <nUrfUlk> -}        [ "" {- "Norfolk" -} ] ]
-
 
 
 cluster_308 = cluster
@@ -4447,13 +2257,11 @@ cluster_310 = cluster
     _____                     `noun`    {- <nUmIdiyA> -}       [ "" {- "Numidia" -} ] ]
 
 
-
 cluster_311 = cluster
 
  |> "nUfUstI" <| [
 
     _____                     `noun`    {- <nUfUstI> -}        [ "" {- "Novosti" -}, "" {- "Novosty" -} ] ]
-
 
 
 cluster_312 = cluster
@@ -4484,13 +2292,11 @@ cluster_315 = cluster
     _____                     `noun`    {- <nIksUn> -}         [ "" {- "Nixon" -} ] ]
 
 
-
 cluster_316 = cluster
 
  |> "nIkay" <| [
 
     _____                     `noun`    {- <nIkay> -}          [ "" {- "Nikkei" -} ] ]
-
 
 
 cluster_317 = cluster
@@ -4509,7 +2315,6 @@ cluster_318 = cluster
     _____                     `noun`    {- <nitsArIm> -}       [ "" {- "Netzarim" -} ] ]
 
 
-
 cluster_319 = cluster
 
  |> "nitAnyAhU" <| [
@@ -4524,16 +2329,11 @@ cluster_320 = cluster
     _____                     `noun`    {- <nistA> -}          [ "" {- "Nesta" -} ] ]
 
 
-
-
-
 cluster_321 = cluster
 
  |> "nayrUbI" <| [
 
     _____                     `noun`    {- <nayrUbI> -}        [ "" {- "Nairobi" -} ] ]
-
-
 
 
 cluster_322 = cluster
@@ -4543,21 +2343,11 @@ cluster_322 = cluster
     _____                     `noun`    {- <nawAk^sU.t> -}     [ "" {- "Nouakchott" -} ] ]
 
 
-
-
-
-
 cluster_323 = cluster
 
  |> "na.srAllh" <| [
 
     _____                     `noun`    {- <na.srAllh> -}      [ "" {- "Nasrallah" -} ] ]
-
-
-
-
-
-
 
 
 cluster_324 = cluster
@@ -4618,20 +2408,111 @@ cluster_331 = cluster
     _____                     `noun`    {- <niyUdilhI> -}      [ unwords [ "New", "" {- "Delhi" -} ] ] ]
 
 
-
-
-
-
-
-
-
-
-
 cluster_332 = cluster
 
  |> "rAm^stAyin" <| [
 
     _____                     `noun`    {- <rAm^stAyin> -}     [ "" {- "Ramstein" -} ] ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

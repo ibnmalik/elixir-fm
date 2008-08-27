@@ -133,7 +133,6 @@ cluster_16  = cluster
     _____                     `noun`    {- <'IbUlA> -}         [ "" {- "Ebola" -} ] ]
 
 
-
 cluster_17  = cluster
 
  |> "'I.glz" <| [
@@ -146,8 +145,6 @@ cluster_18  = cluster
  |> "'AyA" <| [
 
     _____                     `noun`    {- <'AyA> -}           [ "Aya" ] ]
-
-
 
 
 cluster_19  = cluster
@@ -182,7 +179,6 @@ cluster_22  = cluster
  |> "'a.harUnUt" <| [
 
     _____                     `noun`    {- <'a.harUnUt> -}     [ "" {- "Aharonot" -}, "" {- "Ahronot" -} ] ]
-
 
 
 cluster_23  = cluster
@@ -283,9 +279,6 @@ cluster_36  = cluster
     _____                     `noun`    {- <'IfA> -}           [ "Eva" ] ]
 
 
-
-
-
 cluster_37  = cluster
 
  |> "'IdIn.gtUn" <| [
@@ -300,8 +293,6 @@ cluster_38  = cluster
     _____                     `noun`    {- <'IbirlI> -}        [ "" {- "Eberly" -} ] ]
 
 
-
-
 cluster_39  = cluster
 
  |> "'Irl" <| [
@@ -314,7 +305,6 @@ cluster_40  = cluster
  |> "'IrkUtsk" <| [
 
     _____                     `noun`    {- <'IrkUtsk> -}       [ "" {- "Irkutsk" -} ] ]
-
 
 
 cluster_41  = cluster
@@ -443,8 +433,6 @@ cluster_58  = cluster
     _____                     `noun`    {- <'UbrAdUfIt^s> -}   [ "" {- "Obradovic" -} ] ]
 
 
-
-
 cluster_59  = cluster
 
  |> "'UbAsAn^gU" <| [
@@ -466,15 +454,11 @@ cluster_61  = cluster
     _____                     `noun`    {- <'U^galAn> -}       [ "" {- "Ocalan" -}, "" {- "Oujalan" -} ] ]
 
 
-
 cluster_62  = cluster
 
  |> "'U.gust" <| [
 
     _____                     `noun`    {- <'U.gust> -}        [ "" {- "Auguste" -} ] ]
-
-
-
 
 
 cluster_63  = cluster
@@ -496,8 +480,6 @@ cluster_65  = cluster
  |> "'Ist" <| [
 
     _____                     `noun`    {- <'Ist> -}           [ "" {- "East" -} ] ]
-
-
 
 
 cluster_66  = cluster
@@ -535,7 +517,6 @@ cluster_70  = cluster
     _____                     `noun`    {- <'UlI^gAriyU> -}    [ "" {- "Oligario" -} ] ]
 
 
-
 cluster_71  = cluster
 
  |> "'Ul.gA" <| [
@@ -543,14 +524,11 @@ cluster_71  = cluster
     _____                     `noun`    {- <'Ul.gA> -}         [ "" {- "Olga" -} ] ]
 
 
-
 cluster_72  = cluster
 
  |> "'UksIr" <| [
 
     _____                     `noun`    {- <'UksIr> -}         [ "" {- "Auxerre" -} ] ]
-
-
 
 
 cluster_73  = cluster
@@ -567,14 +545,11 @@ cluster_74  = cluster
     _____                     `noun`    {- <'UkInAwA> -}       [ "" {- "Okinawa" -} ] ]
 
 
-
-
 cluster_75  = cluster
 
  |> "'UhAyU" <| [
 
     _____                     `noun`    {- <'UhAyU> -}         [ "" {- "Ohio" -} ] ]
-
 
 
 cluster_76  = cluster
@@ -591,15 +566,11 @@ cluster_77  = cluster
     _____                     `noun`    {- <'UfiyIdU> -}       [ "" {- "Oviedo" -} ] ]
 
 
-
 cluster_78  = cluster
 
  |> "'UfItz" <| [
 
     _____                     `noun`    {- <'UfItz> -}         [ "" {- "Owitz" -}, "" {- "Ovitz" -} ] ]
-
-
-
 
 
 cluster_79  = cluster
@@ -628,7 +599,6 @@ cluster_82  = cluster
  |> "'UnsAl" <| [
 
     _____                     `noun`    {- <'UnsAl> -}         [ "" {- "Unsal" -} ] ]
-
 
 
 cluster_83  = cluster
@@ -671,8 +641,6 @@ cluster_88  = cluster
  |> "'UlrIk" <| [
 
     _____                     `noun`    {- <'UlrIk> -}         [ "" {- "Ulrik" -} ] ]
-
-
 
 
 cluster_89  = cluster
@@ -724,11 +692,6 @@ cluster_95  = cluster
     _____                     `noun`    {- <'UsAkA> -}         [ "" {- "Osaka" -} ] ]
 
 
-
-
-
-
-
 cluster_96  = cluster
 
  |> "'UrlAndU" <| [
@@ -736,17 +699,11 @@ cluster_96  = cluster
     _____                     `noun`    {- <'UrlAndU> -}       [ "" {- "Orlando" -} ] ]
 
 
-
-
-
 cluster_97  = cluster
 
  |> "'UrbAn" <| [
 
     _____                     `noun`    {- <'UrbAn> -}         [ "" {- "Orban" -}, "" {- "Urban" -} ] ]
-
-
-
 
 
 cluster_98  = cluster
@@ -770,11 +727,6 @@ cluster_100 = cluster
     _____                     `noun`    {- <'UrI.gUn> -}       [ "" {- "Oregon" -} ] ]
 
 
-
-
-
-
-
 cluster_101 = cluster
 
  |> "'Uzayr" <| [
@@ -789,16 +741,11 @@ cluster_102 = cluster
     _____                     `noun`    {- <'UzIrIs> -}        [ "" {- "Osiris" -} ] ]
 
 
-
 cluster_103 = cluster
 
  |> "'Utri_ht" <| [
 
     _____                     `noun`    {- <'Utri_ht> -}       [ "" {- "Utrecht" -} ] ]
-
-
-
-
 
 
 cluster_104 = cluster
@@ -892,16 +839,11 @@ cluster_116 = cluster
     _____                     `noun`    {- <'abAbA> -}         [ "" {- "Ababa" -} ] ]
 
 
-
-
 cluster_117 = cluster
 
  |> "'a_tInA" <| [
 
     _____                     `noun`    {- <'a_tInA> -}        [ "" {- "Athens" -} ] ]
-
-
-
 
 
 cluster_118 = cluster
@@ -916,7 +858,6 @@ cluster_119 = cluster
  |> "'a^skInAzI" <| [
 
     _____                     `noun`    {- <'a^skInAzI> -}     [ "" {- "Ashkenazi" -} ] ]
-
 
 
 cluster_120 = cluster
@@ -996,7 +937,6 @@ cluster_130 = cluster
     _____                     `noun`    {- <'adIltUn> -}       [ "" {- "Addleton" -} ] ]
 
 
-
 cluster_131 = cluster
 
  |> "'abuwAllrA.gib" <| [
@@ -1016,7 +956,6 @@ cluster_133 = cluster
  |> "'abrAmz" <| [
 
     _____                     `noun`    {- <'abrAmz> -}        [ "" {- "Abrams" -} ] ]
-
 
 
 cluster_134 = cluster
@@ -1068,10 +1007,6 @@ cluster_140 = cluster
     _____                     `noun`    {- <'abUbakr> -}       [ unwords [ "Abu", "" {- "Bakr" -} ] ] ]
 
 
-
-
-
-
 cluster_141 = cluster
 
  |> "'afrIkAnir" <| [
@@ -1086,11 +1021,6 @@ cluster_142 = cluster
     _____                     `noun`    {- <'afrAhAm> -}       [ "" {- "Avraham" -} ] ]
 
 
-
-
-
-
-
 cluster_143 = cluster
 
  |> "'afIntA_hAdU" <| [
@@ -1103,7 +1033,6 @@ cluster_144 = cluster
  |> "'afI.gdUr" <| [
 
     _____                     `noun`    {- <'afI.gdUr> -}      [ "" {- "Avigdor" -} ] ]
-
 
 
 cluster_145 = cluster
@@ -1134,7 +1063,6 @@ cluster_148 = cluster
     _____                     `noun`    {- <'adriyAn> -}       [ "" {- "Adrian" -} ] ]
 
 
-
 cluster_149 = cluster
 
  |> "'albirtU" <| [
@@ -1161,8 +1089,6 @@ cluster_152 = cluster
  |> "'albirt" <| [
 
     _____                     `noun`    {- <'albirt> -}        [ "" {- "Albert" -} ] ]
-
-
 
 
 cluster_153 = cluster
@@ -1228,8 +1154,6 @@ cluster_161 = cluster
     _____                     `noun`    {- <'alAbAmA> -}       [ "" {- "Alabama" -} ] ]
 
 
-
-
 cluster_162 = cluster
 
  |> "'akbUbUrI" <| [
@@ -1242,8 +1166,6 @@ cluster_163 = cluster
  |> "'ahUrA" <| [
 
     _____                     `noun`    {- <'ahUrA> -}         [ "" {- "Ahora" -} ] ]
-
-
 
 
 cluster_164 = cluster
@@ -1288,8 +1210,6 @@ cluster_169 = cluster
     _____                     `noun`    {- <'almIdA> -}        [ "" {- "Almeda" -} ] ]
 
 
-
-
 cluster_170 = cluster
 
  |> "'alkAtU" <| [
@@ -1318,7 +1238,6 @@ cluster_173 = cluster
     _____                     `noun`    {- <'aliksAndrA> -}    [ "" {- "Aleksandra" -} ] ]
 
 
-
 cluster_174 = cluster
 
  |> "'alfIrkA" <| [
@@ -1333,15 +1252,11 @@ cluster_175 = cluster
     _____                     `noun`    {- <'alfArU> -}        [ "" {- "Alvaro" -} ] ]
 
 
-
 cluster_176 = cluster
 
  |> "'an^gAlI" <| [
 
     _____                     `noun`    {- <'an^gAlI> -}       [ "" {- "Anjali" -} ] ]
-
-
-
 
 
 cluster_177 = cluster
@@ -1356,8 +1271,6 @@ cluster_178 = cluster
  |> "'anAstAziyA" <| [
 
     _____                     `noun`    {- <'anAstAziyA> -}    [ "" {- "Anastasia" -} ] ]
-
-
 
 
 cluster_179 = cluster
@@ -1388,7 +1301,6 @@ cluster_182 = cluster
     _____                     `noun`    {- <'an.tUnUf> -}      [ "" {- "Antonov" -} ] ]
 
 
-
 cluster_183 = cluster
 
  |> "'amstirdAm" <| [
@@ -1396,14 +1308,11 @@ cluster_183 = cluster
     _____                     `noun`    {- <'amstirdAm> -}     [ "" {- "Amsterdam" -} ] ]
 
 
-
 cluster_184 = cluster
 
  |> "'amnistI" <| [
 
     _____                     `noun`    {- <'amnistI> -}       [ "" {- "Amnesty" -} ] ]
-
-
 
 
 cluster_185 = cluster
@@ -1420,18 +1329,11 @@ cluster_186 = cluster
     _____                     `noun`    {- <'andirli_ht> -}    [ "" {- "Anderlecht" -} ] ]
 
 
-
-
-
-
 cluster_187 = cluster
 
  |> "'anastAy" <| [
 
     _____                     `noun`    {- <'anastAy> -}       [ "" {- "Anastai" -} ] ]
-
-
-
 
 
 cluster_188 = cluster
@@ -1448,18 +1350,11 @@ cluster_189 = cluster
     _____                     `noun`    {- <'an^sIlUtI> -}     [ "" {- "Ancelotti" -} ] ]
 
 
-
-
-
 cluster_190 = cluster
 
  |> "'an^gilis" <| [
 
     _____                     `noun`    {- <'an^gilis> -}      [ "" {- "Angeles" -} ] ]
-
-
-
-
 
 
 cluster_191 = cluster
@@ -1569,7 +1464,6 @@ cluster_205 = cluster
     _____                     `noun`    {- <'arIksUn> -}       [ "" {- "Erikson" -}, "" {- "Ericsson" -} ] ]
 
 
-
 cluster_206 = cluster
 
  |> "'arI.gwI" <| [
@@ -1591,14 +1485,11 @@ cluster_208 = cluster
     _____                     `noun`    {- <'arAmkU> -}        [ "ARAMCO" ] ]
 
 
-
 cluster_209 = cluster
 
  |> "'ar.durUm" <| [
 
     _____                     `noun`    {- <'ar.durUm> -}      [ "" {- "Erzurum" -} ] ]
-
-
 
 
 cluster_210 = cluster
@@ -1608,20 +1499,11 @@ cluster_210 = cluster
     _____                     `noun`    {- <'anyIlI> -}        [ "" {- "Agnelli" -} ] ]
 
 
-
-
-
 cluster_211 = cluster
 
  |> "'antUnI" <| [
 
     _____                     `noun`    {- <'antUnI> -}        [ "" {- "Anthony" -} ] ]
-
-
-
-
-
-
 
 
 cluster_212 = cluster
@@ -1638,10 +1520,6 @@ cluster_213 = cluster
     _____                     `noun`    {- <'arfIdAs> -}       [ "" {- "Arvydas" -} ] ]
 
 
-
-
-
-
 cluster_214 = cluster
 
  |> "'arbakAn" <| [
@@ -1656,17 +1534,11 @@ cluster_215 = cluster
     _____                     `noun`    {- <'ar_turz> -}       [ "" {- "Arthurs" -} ] ]
 
 
-
-
-
 cluster_216 = cluster
 
  |> "'ar_hIbUf" <| [
 
     _____                     `adj`     {- <'ar_hIbUf> -}      [ "" {- "Arkhipov" -}, "" {- "Archipov" -} ] ]
-
-
-
 
 
 cluster_217 = cluster
@@ -1681,11 +1553,6 @@ cluster_218 = cluster
  |> "'asUmA" <| [
 
     _____                     `noun`    {- <'asUmA> -}         [ "" {- "Asuma" -} ] ]
-
-
-
-
-
 
 
 cluster_219 = cluster
@@ -1737,13 +1604,11 @@ cluster_225 = cluster
     _____                     `noun`    {- <'arnham> -}        [ "" {- "Arnhem" -} ] ]
 
 
-
 cluster_226 = cluster
 
  |> "'armItA^g" <| [
 
     _____                     `noun`    {- <'armItA^g> -}      [ "" {- "Armitage" -} ] ]
-
 
 
 cluster_227 = cluster
@@ -1753,15 +1618,11 @@ cluster_227 = cluster
     _____                     `noun`    {- <'ariyIl> -}        [ "" {- "Ariel" -} ] ]
 
 
-
 cluster_228 = cluster
 
  |> "'ayAks" <| [
 
     _____                     `noun`    {- <'ayAks> -}         [ "" {- "Ajax" -} ] ]
-
-
-
 
 
 cluster_229 = cluster
@@ -1806,19 +1667,6 @@ cluster_234 = cluster
     _____                     `noun`    {- <'atAlAntA> -}      [ "" {- "Atalanta" -} ] ]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 cluster_235 = cluster
 
  |> "'i.gnAsiyU" <| [
@@ -1831,9 +1679,6 @@ cluster_236 = cluster
  |> "'brAms" <| [
 
     _____                     `noun`    {- <'brAms> -}         [ "" {- "Abrams" -} ] ]
-
-
-
 
 
 cluster_237 = cluster
@@ -1864,7 +1709,6 @@ cluster_240 = cluster
     _____                     `noun`    {- <'ayndhUfin> -}     [ "" {- "Eindhoven" -} ] ]
 
 
-
 cluster_241 = cluster
 
  |> "'ayn^stAyn" <| [
@@ -1872,13 +1716,11 @@ cluster_241 = cluster
     _____                     `noun`    {- <'ayn^stAyn> -}     [ "" {- "Einstein" -} ] ]
 
 
-
 cluster_242 = cluster
 
  |> "'aydz" <| [
 
     _____                     `noun`    {- <'aydz> -}          [ "AIDS" ] ]
-
 
 
 cluster_243 = cluster
@@ -1909,8 +1751,6 @@ cluster_246 = cluster
  |> "'ifarIst" <| [
 
     _____                     `noun`    {- <'ifarIst> -}       [ "" {- "Everest" -} ] ]
-
-
 
 
 cluster_247 = cluster
@@ -1948,20 +1788,11 @@ cluster_251 = cluster
     _____                     `noun`    {- <'idmUnd> -}        [ "" {- "Edmund" -}, "" {- "Edmond" -} ] ]
 
 
-
-
-
-
-
-
 cluster_252 = cluster
 
  |> "'iliyAn" <| [
 
     _____                     `noun`    {- <'iliyAn> -}        [ "" {- "Elian" -} ] ]
-
-
-
 
 
 cluster_253 = cluster
@@ -1976,7 +1807,6 @@ cluster_254 = cluster
  |> "'ilhAnAn" <| [
 
     _____                     `noun`    {- <'ilhAnAn> -}       [ "" {- "Elhanan" -} ] ]
-
 
 
 cluster_255 = cluster
@@ -2007,8 +1837,6 @@ cluster_258 = cluster
     _____                     `noun`    {- <'ilI^sA> -}        [ "" {- "Elisha" -} ] ]
 
 
-
-
 cluster_259 = cluster
 
  |> "'iksibrIs" <| [
@@ -2023,11 +1851,6 @@ cluster_260 = cluster
  |> "'iksbU" <| [
 
     _____                     `noun`    {- <'iksbU> -}         [ "" {- "Expo" -} ] ]
-
-
-
-
-
 
 
 cluster_261 = cluster
@@ -2321,32 +2144,11 @@ cluster_299 = cluster
     "UyIn"                    `noun`    {- <UyIn> -}           [ "" {- "Oiyn" -} ] ]
 
 
-
-
-
-
-
-
-
-
-
-
 cluster_300 = cluster
 
  |> "'iskandarUn" <| [
 
     _____ |< aT               `noun`    {- <'iskandarUnaT> -}  [ "" {- "Iskenderun" -} ] ]
-
-
-
-
-
-
-
-
-
-
-
 
 
 cluster_301 = cluster
@@ -2356,14 +2158,11 @@ cluster_301 = cluster
     _____                     `noun`    {- <'istUkhUlm> -}     [ "" {- "Stockholm" -} ] ]
 
 
-
 cluster_302 = cluster
 
  |> "'istIlI" <| [
 
     _____                     `noun`    {- <'istIlI> -}        [ "" {- "Estili" -}, "" {- "Esteeli" -} ] ]
-
-
 
 
 cluster_303 = cluster
@@ -2373,25 +2172,11 @@ cluster_303 = cluster
     _____                     `noun`    {- <'isrAfIl> -}       [ "" {- "Israfil" -} ] ]
 
 
-
-
-
-
-
-
-
 cluster_304 = cluster
 
  |> "'iskutlandyArd" <| [
 
     _____                     `noun`    {- <'iskutlandyArd> -} [ unwords [ "" {- "Scotland" -}, "" {- "Yard" -} ] ] ]
-
-
-
-
-
-
-
 
 
 cluster_305 = cluster
@@ -2401,14 +2186,11 @@ cluster_305 = cluster
     _____                     `noun`    {- <'itziyUn> -}       [ "" {- "Etzion" -} ] ]
 
 
-
-
 cluster_306 = cluster
 
  |> "'istrIlA" <| [
 
     _____                     `noun`    {- <'istrIlA> -}       [ "" {- "Estrela" -} ] ]
-
 
 
 cluster_307 = cluster
@@ -2418,28 +2200,11 @@ cluster_307 = cluster
     _____                     `noun`    {- <'istrAdA> -}       [ "" {- "Estrada" -} ] ]
 
 
-
-
-
-
-
-
-
-
-
-
-
 cluster_308 = cluster
 
  |> "'unmUfIk" <| [
 
     _____                     `noun`    {- <'unmUfIk> -}       [ unwords [ "UNMOVIC", "(", "UN", "" {- "Monitoring," -}, "" {- "Verification" -}, "and", "" {- "Inspection" -}, "" {- "Commission" -}, ")" ] ] ]
-
-
-
-
-
-
 
 
 cluster_309 = cluster
@@ -2449,18 +2214,11 @@ cluster_309 = cluster
     _____                     `noun`    {- <'uksfUrd> -}       [ "" {- "Oxford" -} ] ]
 
 
-
 cluster_310 = cluster
 
  |> "iyt^sIbIryA" <| [
 
     _____                     `noun`    {- <iyt^sIbIryA> -}    [ "" {- "Echeverria" -} ] ]
-
-
-
-
-
-
 
 
 cluster_311 = cluster
@@ -2477,7 +2235,6 @@ cluster_312 = cluster
     _____                     `noun`    {- <AwkAs> -}          [ "" {- "Oukas" -}, unwords [ "" {- "Aukas" -}, "?", "?" ] ] ]
 
 
-
 cluster_313 = cluster
 
  |> "A.gbUh" <| [
@@ -2490,9 +2247,6 @@ cluster_314 = cluster
  |> "'uwAbik" <| [
 
     _____                     `noun`    {- <'uwAbik> -}        [ "OAPEC" ] ]
-
-
-
 
 
 cluster_315 = cluster
@@ -3019,3496 +2773,6 @@ cluster_386 = cluster
  |> "" <| [
 
     "'Uf"                     `noun`    {- <'Uf> -}            [ "Of" ] ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 cluster_387 = cluster
@@ -7941,12 +4205,111 @@ cluster_578 = cluster
     "'ayAn"                   `noun`    {- <'ayAn> -}          [ "" {- "Ayan" -} ] ]
 
 
-
 cluster_579 = cluster
 
  |> "" <| [
 
     "'iyAn"                   `noun`    {- <'iyAn> -}          [ "Ian" ] ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

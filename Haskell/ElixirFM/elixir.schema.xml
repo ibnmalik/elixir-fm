@@ -59,6 +59,7 @@
             <member name="entity" type="Entity.type"/>
             <!--<member name="entity" type="Entity.type" role="#CHILDNODES"/>-->
             <member name="reflex" type="Reflex.type"/>
+            <member name="limits" type="Limits.type"/>
             <member name="vallex" type="Vallex.type" role="#CHILDNODES"/>
         </structure>
     </type>
@@ -73,7 +74,7 @@
     </type>
 
     <type name="Entity.type">
-        <sequence content_pattern="(Verb|Noun|Adj|Pron|Num|Adv|Prep|Conj|Part|Intj)">
+        <sequence content_pattern="(Verb|Noun|Adj|Pron|Num|Adv|Prep|Conj|Part|Intj|Zero)">
             <element name="Verb">
                 <!--<structure role="#NODE">-->
                 <structure>
@@ -207,6 +208,28 @@
         <list ordered="1"><cdata format="any"/></list>
     </type>
    
+    <type name="Limits.type">
+        <structure>
+            <member name="fst" type="Tags.type"/>
+            <member name="snd">
+                <list ordered="1">
+                    <structure>
+                        <member name="fst">
+                            <list type="Tags.type" ordered="1"/>
+                        </member>
+                        <member name="snd">
+                            <list type="Morphs.type" ordered="1"/>
+                        </member>
+                    </structure>
+                </list>
+            </member>
+        </structure>
+    </type>
+
+    <type name="Tags.type">
+        <cdata format="any"/>
+    </type>
+
     <type name="Vallex.type">
         <sequence>
             <element name="Frame">
@@ -242,9 +265,7 @@
             <member name="form">
                 <cdata format="any"/>
             </member>
-            <member name="tag">
-                <cdata format="any"/>
-            </member>
+            <member name="tag" type="Tags.type"/>
             <member name="with" role="#CHILDNODES">
                 <sequence>
                     <element name="Node" type="Node.type"/>

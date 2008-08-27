@@ -114,14 +114,11 @@ cluster_15  = cluster
     _____ |< Iy               `noun`    {- <'Ibar^sIy> -}      [ "diocese", "bishopric" ] ]
 
 
-
 cluster_16  = cluster
 
  |> "'I.tAliyA" <| [
 
     _____                     `noun`    {- <'I.tAliyA> -}      [ "" {- "Italy" -} ] ]
-
-
 
 
 cluster_17  = cluster
@@ -136,7 +133,6 @@ cluster_18  = cluster
  |> "'Ana'i_diN" <| [
 
     _____                     `noun`    {- <'Ana'i_diN> -}     [ "then", unwords [ "at", "that", "time" ] ] ]
-
 
 
 cluster_19  = cluster
@@ -169,21 +165,6 @@ cluster_22  = cluster
     _____ |< Iy               `adj`     {- <'A.hInIy> -}       [ "albuminous" ] ]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 cluster_23  = cluster
 
  |> "'IdyUlU^g" <| [
@@ -202,9 +183,6 @@ cluster_24  = cluster
     _____ |< Iy               `adj`     {- <'IdrU^gInIy> -}    [ "hydrogen" ] ]
 
 
-
-
-
 cluster_25  = cluster
 
  |> "'Irland" <| [
@@ -214,31 +192,11 @@ cluster_25  = cluster
     _____ |< Iy               `adj`     {- <'IrlandIy> -}      [ "" {- "Irish" -} ] ]
 
 
-
-
 cluster_26  = cluster
 
  |> "'IriyAl" <| [
 
     _____                     `noun`    {- <'IriyAl> -}        [ "antenna", "aerial" ] ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 cluster_27  = cluster
@@ -255,9 +213,6 @@ cluster_28  = cluster
     _____                     `noun`    {- <'UbirA> -}         [ "opera" ] ]
 
 
-
-
-
 cluster_29  = cluster
 
  |> "'U^gArIt" <| [
@@ -265,7 +220,6 @@ cluster_29  = cluster
     _____                     `noun`    {- <'U^gArIt> -}       [ "" {- "Ugarit" -} ],
 
     _____ |< Iy               `adj`     {- <'U^gArItIy> -}     [ "" {- "Ugaritic" -} ] ]
-
 
 
 cluster_30  = cluster
@@ -289,10 +243,6 @@ cluster_32  = cluster
     _____                     `part`    {- <'IyA-> -}          [ "to", "for", unwords [ "(", "accus.", ")" ] ] ]
 
 
-
-
-
-
 cluster_33  = cluster
 
  |> "'IslAnd" <| [
@@ -302,20 +252,11 @@ cluster_33  = cluster
     _____ |< Iy               `adj`     {- <'IslAndIy> -}      [ "" {- "Icelander" -}, "" {- "Icelandic" -} ] ]
 
 
-
-
-
-
-
-
-
 cluster_34  = cluster
 
  |> "'Uksi^gIn" <| [
 
     _____                     `noun`    {- <'Uksi^gIn> -}      [ "oxygen" ] ]
-
-
 
 
 cluster_35  = cluster
@@ -325,8 +266,6 @@ cluster_35  = cluster
     _____ |< iyA              `noun`    {- <'UkrAniyA> -}      [ "" {- "Ukraine" -} ],
 
     _____ |< Iy               `adj`     {- <'UkrAnIy> -}       [ "" {- "Ukrainian" -} ] ]
-
-
 
 
 cluster_36  = cluster
@@ -343,7 +282,6 @@ cluster_37  = cluster
     _____                     `noun`    {- <'UkAlibtUs> -}     [ "eucalyptus" ] ]
 
 
-
 cluster_38  = cluster
 
  |> "'Ufsit" <| [
@@ -351,14 +289,11 @@ cluster_38  = cluster
     _____                     `noun`    {- <'Ufsit> -}         [ "offset" ] ]
 
 
-
-
 cluster_39  = cluster
 
  |> "'UfirUl" <| [
 
     _____                     `noun`    {- <'UfirUl> -}        [ "overalls" ] ]
-
 
 
 cluster_40  = cluster
@@ -382,30 +317,11 @@ cluster_42  = cluster
     _____ |< aT               `noun`    {- <'UqqaT> -}         [ "oka" ] ]
 
 
-
-
-
-
 cluster_43  = cluster
 
  |> "'Uns" <| [
 
     _____ |< aT               `noun`    {- <'UnsaT> -}         [ "ounce" ] ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 cluster_44  = cluster
@@ -443,7 +359,6 @@ cluster_48  = cluster
     _____                     `noun`    {- <'UrnIk> -}         [ "pattern", "form" ] ]
 
 
-
 cluster_49  = cluster
 
  |> "'UrkistrA" <| [
@@ -463,7 +378,6 @@ cluster_51  = cluster
  |> "'Urd" <| [
 
     _____ |< Iy               `adj`     {- <'UrdIy> -}         [ "" {- "Urdu" -} ] ]
-
 
 
 cluster_52  = cluster
@@ -489,9 +403,6 @@ cluster_54  = cluster
     _____ |< Iy               `adj`     {- <'UrU.gUyAnIy> -}   [ "" {- "Uruguayan" -} ] ]
 
 
-
-
-
 cluster_55  = cluster
 
  |> "'a.s.turlAb" <| [
@@ -504,7 +415,6 @@ cluster_56  = cluster
  |> "'a.hmadAbAd" <| [
 
     _____                     `noun`    {- <'a.hmadAbAd> -}    [ "" {- "Ahmadabad" -} ] ]
-
 
 
 cluster_57  = cluster
@@ -523,14 +433,11 @@ cluster_58  = cluster
     _____ |< Iy               `adj`     {- <'UzbakistAnIy> -}  [ "" {- "Uzbekistani" -} ] ]
 
 
-
-
 cluster_59  = cluster
 
  |> "'Uwayl" <| [
 
     _____                     `noun`    {- <'Uwayl> -}         [ "proton" ] ]
-
 
 
 cluster_60  = cluster
@@ -561,19 +468,6 @@ cluster_63  = cluster
     _____                     `noun`    {- <'UtU^grAf> -}      [ "autograph" ] ]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 cluster_64  = cluster
 
  |> "'abA^gUr" <| [
@@ -586,7 +480,6 @@ cluster_65  = cluster
  |> "'a_tyUbiyA" <| [
 
     _____                     `noun`    {- <'a_tyUbiyA> -}     [ "" {- "Ethiopia" -} ] ]
-
 
 
 cluster_66  = cluster
@@ -612,24 +505,11 @@ cluster_68  = cluster
     _____ |< Iy               `adj`     {- <'a_darbay^gAnIy> -} [ "" {- "Azerbeijani" -} ] ]
 
 
-
-
 cluster_69  = cluster
 
  |> "'a^gand" <| [
 
     _____ |< aT               `noun`    {- <'a^gandaT> -}      [ "agenda", "schedule" ] ]
-
-
-
-
-
-
-
-
-
-
-
 
 
 cluster_70  = cluster
@@ -639,21 +519,11 @@ cluster_70  = cluster
     _____                     `noun`    {- <'abwA> -}          [ "oboe" ] ]
 
 
-
-
-
 cluster_71  = cluster
 
  |> "'abrAmIs" <| [
 
     _____                     `noun`    {- <'abrAmIs> -}       [ "bream" ] ]
-
-
-
-
-
-
-
 
 
 cluster_72  = cluster
@@ -682,8 +552,6 @@ cluster_75  = cluster
  |> "'afrIqiyA" <| [
 
     _____                     `noun`    {- <'afrIqiyA> -}      [ "" {- "Africa" -}, "" {- "African" -} ] ]
-
-
 
 
 cluster_76  = cluster
@@ -725,8 +593,6 @@ cluster_80  = cluster
     _____                     `noun`    {- <'afUkAtU> -}       [ "advocate", "lawyer" ] ]
 
 
-
-
 cluster_81  = cluster
 
  |> "'af.gAnistAn" <| [
@@ -734,19 +600,11 @@ cluster_81  = cluster
     _____                     `noun`    {- <'af.gAnistAn> -}   [ "" {- "Afghanistan" -} ] ]
 
 
-
-
-
-
 cluster_82  = cluster
 
  |> "'alfA" <| [
 
     _____                     `noun`    {- <'alfA> -}          [ "alpha" ] ]
-
-
-
-
 
 
 cluster_83  = cluster
@@ -763,15 +621,6 @@ cluster_84  = cluster
     _____                     `noun`    {- <'alamunyUm> -}     [ "aluminum" ] ]
 
 
-
-
-
-
-
-
-
-
-
 cluster_85  = cluster
 
  |> "'aksiswAr" <| [
@@ -784,8 +633,6 @@ cluster_86  = cluster
  |> "'akrIlIk" <| [
 
     _____                     `noun`    {- <'akrIlIk> -}       [ "acrylic" ] ]
-
-
 
 
 cluster_87  = cluster
@@ -806,12 +653,6 @@ cluster_88  = cluster
     _____                     `noun`    {- <'amIlkAr> -}       [ "" {- "Amilcar" -} ] ]
 
 
-
-
-
-
-
-
 cluster_89  = cluster
 
  |> "'almAniyA" <| [
@@ -826,10 +667,6 @@ cluster_90  = cluster
     _____                     `part`    {- <'allA> -}          [ unwords [ "(", "in", "order", ")", "not", "to" ] ] ]
 
 
-
-
-
-
 cluster_91  = cluster
 
  |> "'alifbA'" <| [
@@ -839,14 +676,11 @@ cluster_91  = cluster
     _____ |< Iy               `adj`     {- <'alifbA'Iy> -}     [ "alphabetic" ] ]
 
 
-
-
 cluster_92  = cluster
 
  |> "'an^gUlA" <| [
 
     _____                     `noun`    {- <'an^gUlA> -}       [ "" {- "Angola" -} ] ]
-
 
 
 cluster_93  = cluster
@@ -870,8 +704,6 @@ cluster_95  = cluster
     _____                     `noun`    {- <'anImUmitr> -}     [ "anemometer" ] ]
 
 
-
-
 cluster_96  = cluster
 
  |> "'anAnAs" <| [
@@ -888,10 +720,6 @@ cluster_97  = cluster
     _____ |< Iy               `adj`     {- <'anA.dUlIy> -}     [ "" {- "Anatolian" -} ] ]
 
 
-
-
-
-
 cluster_98  = cluster
 
  |> "'an.gUlA" <| [
@@ -899,13 +727,11 @@ cluster_98  = cluster
     _____                     `noun`    {- <'an.gUlA> -}       [ "" {- "Angola" -} ] ]
 
 
-
 cluster_99  = cluster
 
  |> "'amrIkA" <| [
 
     _____                     `noun`    {- <'amrIkA> -}        [ "" {- "America" -} ] ]
-
 
 
 cluster_100 = cluster
@@ -920,8 +746,6 @@ cluster_101 = cluster
  |> "'ambAsAd" <| [
 
     _____                     `noun`    {- <'ambAsAd> -}       [ "embassy" ] ]
-
-
 
 
 cluster_102 = cluster
@@ -954,13 +778,11 @@ cluster_105 = cluster
     _____                     `noun`    {- <'anbA> -}          [ "" {- "Abba" -}, "" {- "Bishop" -} ] ]
 
 
-
 cluster_106 = cluster
 
  |> "'anamUn" <| [
 
     _____                     `noun`    {- <'anamUn> -}        [ "anemone" ] ]
-
 
 
 cluster_107 = cluster
@@ -970,8 +792,6 @@ cluster_107 = cluster
     _____ |< iyA              `noun`    {- <'an_trUbUlU^giyA> -} [ "anthropology" ],
 
     _____ |< Iy               `adj`     {- <'an_trUbUlU^gIy> -} [ "anthropological" ] ]
-
-
 
 
 cluster_108 = cluster
@@ -995,7 +815,6 @@ cluster_110 = cluster
  |> "'an^glIkAn" <| [
 
     _____ |< Iy               `adj`     {- <'an^glIkAnIy> -}   [ "" {- "Anglican" -} ] ]
-
 
 
 cluster_111 = cluster
@@ -1032,21 +851,6 @@ cluster_114 = cluster
     _____                     `noun`    {- <'ankUlA> -}        [ "" {- "Angola" -} ] ]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 cluster_115 = cluster
 
  |> "'arI.hA" <| [
@@ -1054,15 +858,11 @@ cluster_115 = cluster
     _____                     `noun`    {- <'arI.hA> -}        [ "" {- "Jericho" -} ] ]
 
 
-
-
-
 cluster_116 = cluster
 
  |> "'arA^gUz" <| [
 
     _____                     `noun`    {- <'arA^gUz> -}       [ "puppeteer", "" {- "Arazi" -} ] ]
-
 
 
 cluster_117 = cluster
@@ -1079,11 +879,6 @@ cluster_118 = cluster
  |> "'aqAqiyA" <| [
 
     _____                     `noun`    {- <'aqAqiyA> -}       [ "acacia" ] ]
-
-
-
-
-
 
 
 cluster_119 = cluster
@@ -1130,8 +925,6 @@ cluster_124 = cluster
     _____                     `noun`    {- <'aris.tA.talIs> -} [ "" {- "Aristotle" -} ] ]
 
 
-
-
 cluster_125 = cluster
 
  |> "'arduwAz" <| [
@@ -1146,7 +939,6 @@ cluster_126 = cluster
     _____                     `noun`    {- <'ardabb> -}        [ unwords [ "ardeb", "(", "capacity", "/", "weight", "measure", ")" ], unwords [ "ardebs", "(", "capacity", "/", "weight", "measure", ")" ] ] ]
 
 
-
 cluster_127 = cluster
 
  |> "'ardabIl" <| [
@@ -1154,8 +946,6 @@ cluster_127 = cluster
     _____                     `noun`    {- <'ardabIl> -}       [ "" {- "Ardabil" -} ],
 
     _____ |< Iy               `noun`    {- <'ardabIlIy> -}     [ "" {- "Ardebili" -} ] ]
-
-
 
 
 cluster_128 = cluster
@@ -1181,7 +971,6 @@ cluster_130 = cluster
     _____                     `noun`    {- <'ar_habIl> -}      [ "archipelago" ] ]
 
 
-
 cluster_131 = cluster
 
  |> "'ar^sIdUq" <| [
@@ -1203,8 +992,6 @@ cluster_133 = cluster
  |> "'arItriyA" <| [
 
     _____                     `noun`    {- <'arItriyA> -}      [ "" {- "Eritrea" -} ] ]
-
-
 
 
 cluster_134 = cluster
@@ -1242,13 +1029,6 @@ cluster_138 = cluster
     _____ |< Iy               `adj`     {- <'artuwAzIy> -}     [ "artesian" ] ]
 
 
-
-
-
-
-
-
-
 cluster_139 = cluster
 
  |> "'arnAwu.t" <| [
@@ -1258,13 +1038,11 @@ cluster_139 = cluster
     _____ |< Iy               `adj`     {- <'arnAwu.tIy> -}    [ "" {- "Albanian" -} ] ]
 
 
-
 cluster_140 = cluster
 
  |> "'armIniyA" <| [
 
     _____                     `noun`    {- <'armIniyA> -}      [ "" {- "Armenia" -} ] ]
-
 
 
 cluster_141 = cluster
@@ -1274,7 +1052,6 @@ cluster_141 = cluster
     _____ |< Iy               `adj`     {- <'aristuqrA.tIy> -} [ "aristocratic" ],
 
     _____ |< Iy |< aT         `noun`    {- <'aristuqrA.tIyaT> -} [ "aristocracy" ] ]
-
 
 
 cluster_142 = cluster
@@ -1296,12 +1073,6 @@ cluster_144 = cluster
  |> "'awan.t" <| [
 
     _____ |< aT               `noun`    {- <'awan.taT> -}      [ "swindle", "deceit" ] ]
-
-
-
-
-
-
 
 
 cluster_145 = cluster
@@ -1403,8 +1174,6 @@ cluster_157 = cluster
     _____                     `noun`    {- <'i.s.tabl> -}      [ "stable", "barn" ] ]
 
 
-
-
 cluster_158 = cluster
 
  |> "'azdara_ht" <| [
@@ -1426,16 +1195,11 @@ cluster_160 = cluster
     _____                     `part`    {- <'ayyuhA> -}        [ unwords [ "O", "!" ] ] ]
 
 
-
-
-
-
 cluster_161 = cluster
 
  |> "'aynamA" <| [
 
     _____                     `conj`    {- <'aynamA> -}        [ "wherever" ] ]
-
 
 
 cluster_162 = cluster
@@ -1445,16 +1209,11 @@ cluster_162 = cluster
     _____                     `noun`    {- <'aylAnd> -}        [ "" {- "Island" -} ] ]
 
 
-
 cluster_163 = cluster
 
  |> "'iklInIk" <| [
 
     _____ |< Iy               `adj`     {- <'iklInIkIy> -}     [ "clinical" ] ]
-
-
-
-
 
 
 cluster_164 = cluster
@@ -1469,11 +1228,6 @@ cluster_165 = cluster
  |> "'idyUlU^g" <| [
 
     _____ |< Iy               `adj`     {- <'idyUlU^gIy> -}    [ "ideological", "ideologist" ] ]
-
-
-
-
-
 
 
 cluster_166 = cluster
@@ -1492,7 +1246,6 @@ cluster_167 = cluster
     _____ |< Iy               `noun`    {- <'ibrAhImIy> -}     [ "" {- "Ibrahimi" -} ] ]
 
 
-
 cluster_168 = cluster
 
  |> "'ibistImUlU^g" <| [
@@ -1502,7 +1255,6 @@ cluster_168 = cluster
     _____ |< Iy               `adj`     {- <'ibistImUlU^gIy> -} [ "epistemological" ] ]
 
 
-
 cluster_169 = cluster
 
  |> "'i_tnUlU^g" <| [
@@ -1510,7 +1262,6 @@ cluster_169 = cluster
     _____ |< iyA              `noun`    {- <'i_tnUlU^giyA> -}  [ "ethnology" ],
 
     _____ |< Iy               `adj`     {- <'i_tnUlU^gIy> -}   [ "ethnological" ] ]
-
 
 
 cluster_170 = cluster
@@ -1536,8 +1287,6 @@ cluster_172 = cluster
     _____                     `noun`    {- <'iliktrUd> -}      [ "electrode" ] ]
 
 
-
-
 cluster_173 = cluster
 
  |> "'il_ah" <| [
@@ -1545,10 +1294,6 @@ cluster_173 = cluster
     _____                     `noun`    {- <'il_ah> -}         [ "god", "deity", "goddess", unwords [ "female", "deity" ] ],
 
     _____ |< Iy               `adj`     {- <'il_ahIy> -}       [ "divine", "godly", "theological" ] ]
-
-
-
-
 
 
 cluster_174 = cluster
@@ -1567,14 +1312,11 @@ cluster_175 = cluster
     _____ |< Iy               `adj`     {- <'ikwAdUrIy> -}     [ "" {- "Ecuadorian" -} ] ]
 
 
-
-
 cluster_176 = cluster
 
  |> "'iklIrik" <| [
 
     _____ |< Iy               `adj`     {- <'iklIrikIy> -}     [ "clerical" ] ]
-
 
 
 cluster_177 = cluster
@@ -1602,7 +1344,6 @@ cluster_179 = cluster
  |> "'in^giltirA" <| [
 
     _____                     `noun`    {- <'in^giltirA> -}    [ "" {- "England" -} ] ]
-
 
 
 cluster_180 = cluster
@@ -1650,8 +1391,6 @@ cluster_184 = cluster
     _____ |< Iy |< aT         `noun`    {- <'imbIriyAlIyaT> -} [ "imperialism" ] ]
 
 
-
-
 cluster_185 = cluster
 
  |> "'illA" <| [
@@ -1666,10 +1405,6 @@ cluster_186 = cluster
     _____                     `noun`    {- <'intirnit> -}      [ "" {- "Internet" -} ],
 
     _____ |< Iy               `adj`     {- <'intirnitIy> -}    [ "" {- "Internet" -} ] ]
-
-
-
-
 
 
 cluster_187 = cluster
@@ -1704,18 +1439,11 @@ cluster_190 = cluster
     _____                     `noun`    {- <'inkiltirA> -}     [ "" {- "England" -} ] ]
 
 
-
-
-
 cluster_191 = cluster
 
  |> "'influwanzA" <| [
 
     _____                     `noun`    {- <'influwanzA> -}    [ "influenza" ] ]
-
-
-
-
 
 
 cluster_192 = cluster
@@ -1730,8 +1458,6 @@ cluster_193 = cluster
  |> "'isbidA^g" <| [
 
     _____                     `noun`    {- <'isbidA^g> -}      [ unwords [ "white", "lead" ], "ceruse" ] ]
-
-
 
 
 cluster_194 = cluster
@@ -1776,8 +1502,6 @@ cluster_199 = cluster
     _____                     `noun`    {- <'is.tAnbUl> -}     [ "" {- "Istanbul" -} ],
 
     _____ |< Iy               `adj`     {- <'is.tAnbUlIy> -}   [ unwords [ "of", "/", "from", "" {- "Istanbul" -} ] ] ]
-
-
 
 
 cluster_200 = cluster
@@ -1859,7 +1583,6 @@ cluster_210 = cluster
     _____ |< Iy               `adj`     {- <'iskarbU.tIy> -}   [ "scurvy" ] ]
 
 
-
 cluster_211 = cluster
 
  |> "'iskandar" <| [
@@ -1869,7 +1592,6 @@ cluster_211 = cluster
     _____ |< Iy |< aT         `noun`    {- <'iskandarIyaT> -}  [ "" {- "Alexandria" -} ],
 
     _____ |< Iy               `adj`     {- <'iskandarIy> -}    [ "" {- "Alexandrian" -} ] ]
-
 
 
 cluster_212 = cluster
@@ -1939,13 +1661,11 @@ cluster_220 = cluster
     _____                     `noun`    {- <'isbirtU> -}       [ "alcohol" ] ]
 
 
-
 cluster_221 = cluster
 
  |> "'istUdiyU" <| [
 
     _____                     `noun`    {- <'istUdiyU> -}      [ "studio" ] ]
-
 
 
 cluster_222 = cluster
@@ -1960,7 +1680,6 @@ cluster_223 = cluster
  |> "'istAtIk" <| [
 
     _____ |< Iy               `adj`     {- <'istAtIkIy> -}     [ "static" ] ]
-
 
 
 cluster_224 = cluster
@@ -1994,7 +1713,6 @@ cluster_226 = cluster
     _____ |< Iy |< aT         `noun`    {- <'ismA`IlIyaT> -}   [ "" {- "Ismailia" -} ] ]
 
 
-
 cluster_227 = cluster
 
  |> "'islAnd" <| [
@@ -2018,7 +1736,6 @@ cluster_229 = cluster
  |> "'iskwA^s" <| [
 
     _____                     `noun`    {- <'iskwA^s> -}       [ unwords [ "squash", "(", "sport", ")" ] ] ]
-
 
 
 cluster_230 = cluster
@@ -2070,7 +1787,6 @@ cluster_236 = cluster
     _____ |< aT               `noun`    {- <'iwazzaT> -}       [ "goose", "geese" ] ]
 
 
-
 cluster_237 = cluster
 
  |> "'istu.gmAy" <| [
@@ -2087,7 +1803,6 @@ cluster_238 = cluster
     _____ |< Iy               `adj`     {- <'istrU^gInIy> -}   [ "estrogen" ] ]
 
 
-
 cluster_239 = cluster
 
  |> "'istrAtI^g" <| [
@@ -2095,7 +1810,6 @@ cluster_239 = cluster
     _____ |< Iy               `adj`     {- <'istrAtI^gIy> -}   [ "strategic" ],
 
     _____ |< Iy |< aT         `noun`    {- <'istrAtI^gIyaT> -} [ "strategy" ] ]
-
 
 
 cluster_240 = cluster
@@ -2164,7 +1878,6 @@ cluster_247 = cluster
     _____ |< Iy               `adj`     {- <'ur^guwAnIy> -}    [ "purple" ] ]
 
 
-
 cluster_248 = cluster
 
  |> "'urUbb" <| [
@@ -2179,9 +1892,6 @@ cluster_249 = cluster
  |> "'uqiyAnUs" <| [
 
     _____ |< Iy               `adj`     {- <'uqiyAnUsIy> -}    [ "" {- "Oceanian" -}, "" {- "Oceania" -} ] ]
-
-
-
 
 
 cluster_250 = cluster
@@ -2216,15 +1926,11 @@ cluster_253 = cluster
     _____ |< Iy               `adj`     {- <'uksi^gInIy> -}    [ "oxygenated" ] ]
 
 
-
 cluster_254 = cluster
 
  |> "ka'ann" <| [
 
     _____ |<< "a"             `conj`    {- <ka'anna> -}        [ unwords [ "as", "if" ] ] ]
-
-
-
 
 
 cluster_255 = cluster
@@ -2248,17 +1954,11 @@ cluster_257 = cluster
     _____                     `part`    {- <bi'an> -}          [ unwords [ "with", "that" ] ] ]
 
 
-
-
-
 cluster_258 = cluster
 
  |> "Al" <| [
 
     _____                     `noun`    {- <Al> -}             [ "the" ] ]
-
-
-
 
 
 cluster_259 = cluster
@@ -2275,10 +1975,6 @@ cluster_260 = cluster
  |> "'ustriyA" <| [
 
     _____                     `noun`    {- <'ustriyA> -}       [ "" {- "Austria" -} ] ]
-
-
-
-
 
 
 cluster_261 = cluster
@@ -2307,8 +2003,6 @@ cluster_264 = cluster
  |> "wa'in" <| [
 
     _____                     `conj`    {- <wa'in> -}          [ unwords [ "even", "if" ] ] ]
-
-
 
 
 cluster_265 = cluster
@@ -7579,7 +7273,6 @@ cluster_614 = cluster
     _____                     `noun`    {- <bAnUfA> -}         [ "" {- "Panova" -} ] ]
 
 
-
 cluster_615 = cluster
 
  |> "bAskuwAl" <| [
@@ -9225,7 +8918,6 @@ cluster_841 = cluster
     _____                     `noun`    {- <bfIstir> -}        [ "" {- "Pfister" -} ] ]
 
 
-
 cluster_842 = cluster
 
  |> "bayraqdAr" <| [
@@ -9322,8 +9014,6 @@ cluster_855 = cluster
  |> "bintA.gUn" <| [
 
     _____                     `noun`    {- <bintA.gUn> -}      [ "" {- "Pentagon" -} ] ]
-
-
 
 
 cluster_856 = cluster
@@ -9492,7 +9182,6 @@ cluster_879 = cluster
  |> "biyAnU" <| [
 
     _____                     `noun`    {- <biyAnU> -}         [ "piano" ] ]
-
 
 
 cluster_880 = cluster
@@ -9676,7 +9365,6 @@ cluster_904 = cluster
     _____                     `noun`    {- <brI.g> -}          [ "" {- "Brig" -} ] ]
 
 
-
 cluster_905 = cluster
 
  |> "brAyint" <| [
@@ -9712,7 +9400,6 @@ cluster_909 = cluster
     _____                     `noun`    {- <brAndI> -}         [ "brandy" ],
 
     _____                     `noun`    {- <brAndI> -}         [ "" {- "Brandy" -} ] ]
-
 
 
 cluster_910 = cluster
@@ -10138,10 +9825,6 @@ cluster_968 = cluster
     _____                     `noun`    {- <biAltAlI> -}       [ "therefore", "consequently" ] ]
 
 
-
-
-
-
 cluster_969 = cluster
 
  |> "'i_tb" <| [
@@ -10149,10 +9832,6 @@ cluster_969 = cluster
     _____ |< At               `noun`    {- <'i_tbAt> -}        [ "confirmation", "verification" ],
 
     _____ |< At |< Iy         `adj`     {- <'i_tbAtIy> -}      [ "confirmatory" ] ]
-
-
-
-
 
 
 cluster_970 = cluster
@@ -10188,10 +9867,6 @@ cluster_974 = cluster
  |> "i_tnA" <| [
 
     _____                     `adj`     {- <i_tnA> -}          [ unwords [ "(", "1st", "word", "in", "\"twelve\"", ")" ] ] ]
-
-
-
-
 
 
 cluster_975 = cluster
@@ -13382,7 +13057,6 @@ cluster_1140 = cluster
     _____                     `noun`    {- <^gAwI^s> -}        [ "sergeant" ] ]
 
 
-
 cluster_1141 = cluster
 
  |> "^gAstIn" <| [
@@ -13770,7 +13444,6 @@ cluster_1195 = cluster
     _____                     `noun`    {- <^gUlf> -}          [ "" {- "Gulf" -} ] ]
 
 
-
 cluster_1196 = cluster
 
  |> "^ganzabIl" <| [
@@ -14024,7 +13697,6 @@ cluster_1230 = cluster
  |> "^garaband" <| [
 
     _____ |< Iy |< aT         `noun`    {- <^garabandIyaT> -}  [ "knapsack", "pouch" ] ]
-
 
 
 cluster_1231 = cluster
@@ -18326,7 +17998,6 @@ cluster_1446 = cluster
     _____                     `noun`    {- <.haydar'AbAd> -}   [ "" {- "Hyderabad" -} ] ]
 
 
-
 cluster_1447 = cluster
 
  |> "_h .d _h .d" <| [
@@ -21644,7 +21315,6 @@ cluster_1609 = cluster
     _____ |< Iy               `adj`     {- <_hAra.sInIy> -}    [ "zinc" ] ]
 
 
-
 cluster_1610 = cluster
 
  |> "mA_halA" <| [
@@ -21848,7 +21518,6 @@ cluster_1636 = cluster
     _____ |< Iy               `noun`    {- <'arba`InIy> -}     [ "forties" ] ]
 
 
-
 cluster_1637 = cluster
 
  |> "yAturY" <| [
@@ -21856,14 +21525,11 @@ cluster_1637 = cluster
     _____                     `noun`    {- <yAturY> -}         [ "perhaps", "maybe" ] ]
 
 
-
 cluster_1638 = cluster
 
  |> "mazra`An" <| [
 
     _____ |< Iy               `adj`     {- <mazra`AnIy> -}     [ "farmer" ] ]
-
-
 
 
 cluster_1639 = cluster
@@ -21901,7 +21567,6 @@ cluster_1643 = cluster
  |> "'asmarAn" <| [
 
     _____ |< Iy               `adj`     {- <'asmarAnIy> -}     [ "" {- "Asmarani" -} ] ]
-
 
 
 cluster_1644 = cluster
@@ -28070,10 +27735,6 @@ cluster_2005 = cluster
     _____                     `noun`    {- <`artA> -}          [ "" {- "Arta" -} ] ]
 
 
-
-
-
-
 cluster_2006 = cluster
 
  |> "mu`allA" <| [
@@ -28134,7 +27795,6 @@ cluster_2013 = cluster
     _____                     `noun`    {- <`ullayq> -}        [ "raspberry" ],
 
     _____ |< aT               `noun`    {- <`ullayqaT> -}      [ "shrub", unwords [ "burning", "bush" ] ] ]
-
 
 
 cluster_2014 = cluster
@@ -34189,7 +33849,6 @@ cluster_2344 = cluster
     _____ |< Iy               `adj`     {- <fIlIbbInIy> -}     [ "" {- "Philippine" -}, "" {- "Filipino" -} ] ]
 
 
-
 cluster_2345 = cluster
 
  |> "fIlIbU" <| [
@@ -34202,7 +33861,6 @@ cluster_2346 = cluster
  |> "fIlAnuwIfA" <| [
 
     _____                     `noun`    {- <fIlAnuwIfA> -}     [ "" {- "Villanueva" -} ] ]
-
 
 
 cluster_2347 = cluster
@@ -34226,7 +33884,6 @@ cluster_2349 = cluster
  |> "fIfrI" <| [
 
     _____                     `noun`    {- <fIfrI> -}          [ "" {- "February" -} ] ]
-
 
 
 cluster_2350 = cluster
@@ -34604,7 +34261,6 @@ cluster_2400 = cluster
     _____ |< Iy               `adj`     {- <falamandIy> -}     [ "" {- "Flemish" -} ] ]
 
 
-
 cluster_2401 = cluster
 
  |> "fa_hrU" <| [
@@ -34624,7 +34280,6 @@ cluster_2403 = cluster
  |> "fa.sUliyA" <| [
 
     _____                     `noun`    {- <fa.sUliyA> -}      [ "beans" ] ]
-
 
 
 cluster_2404 = cluster
@@ -40371,7 +40026,6 @@ cluster_2752 = cluster
     _____                     `noun`    {- <qima.tr> -}        [ "satchel" ] ]
 
 
-
 cluster_2753 = cluster
 
  |> "quzmU.grAfiyA" <| [
@@ -43612,7 +43266,6 @@ cluster_2932 = cluster
     _____                     `noun`    {- <kAmbiyU> -}        [ unwords [ "rate", "of", "exchange" ] ] ]
 
 
-
 cluster_2933 = cluster
 
  |> "kAmbUdiyA" <| [
@@ -43653,8 +43306,6 @@ cluster_2938 = cluster
  |> "kAlfin" <| [
 
     _____                     `noun`    {- <kAlfin> -}         [ "" {- "Calvin" -} ] ]
-
-
 
 
 cluster_2939 = cluster
@@ -44094,7 +43745,6 @@ cluster_2999 = cluster
     _____ |< Iy               `adj`     {- <kAzA_hstAnIy> -}   [ "" {- "Kazakhstani" -} ] ]
 
 
-
 cluster_3000 = cluster
 
  |> "kAylAhUn" <| [
@@ -44263,13 +43913,11 @@ cluster_3023 = cluster
     _____                     `noun`    {- <kUn.gU> -}         [ "" {- "Congo" -} ] ]
 
 
-
 cluster_3024 = cluster
 
  |> "kUmsAr" <| [
 
     _____ |< Iy               `noun`    {- <kUmsArIy> -}       [ "conductor", unwords [ "ticket", "man" ], unwords [ "ticket", "men" ] ] ]
-
 
 
 cluster_3025 = cluster
@@ -44475,8 +44123,6 @@ cluster_3053 = cluster
  |> "kUnkAn" <| [
 
     _____                     `noun`    {- <kUnkAn> -}         [ unwords [ "card", "game" ] ] ]
-
-
 
 
 cluster_3054 = cluster
@@ -44701,7 +44347,6 @@ cluster_3085 = cluster
  |> "kalab^s" <| [
 
     _____                     `noun`    {- <kalab^s> -}        [ "handcuffs", "manacles" ] ]
-
 
 
 cluster_3086 = cluster
@@ -45168,7 +44813,6 @@ cluster_3149 = cluster
     _____                     `noun`    {- <krI.g> -}          [ "" {- "Craig" -} ] ]
 
 
-
 cluster_3150 = cluster
 
  |> "krAyslir" <| [
@@ -45381,7 +45025,6 @@ cluster_3179 = cluster
     _____                     `noun`    {- <krIstiyAnU> -}     [ "" {- "Cristiano" -}, "" {- "Christiano" -} ] ]
 
 
-
 cluster_3180 = cluster
 
  |> "krIstUf" <| [
@@ -45542,7 +45185,6 @@ cluster_3201 = cluster
  |> "kufartah" <| [
 
     _____                     `noun`    {- <kufartah> -}       [ "coverlet" ] ]
-
 
 
 cluster_3202 = cluster
@@ -46674,7 +46316,6 @@ cluster_3278 = cluster
                               `plural`     MaFCUL |< Un
                            
     `derives` feminine ]
-
 
 
 cluster_3279 = cluster
@@ -49287,7 +48928,6 @@ cluster_3464 = cluster
     _____                     `noun`    {- <mIkA> -}           [ "mica" ] ]
 
 
-
 cluster_3465 = cluster
 
  |> "mIdAlI" <| [
@@ -49675,13 +49315,11 @@ cluster_3519 = cluster
     _____                     `noun`    {- <mIlt^siyUr> -}     [ "" {- "Melchior" -} ] ]
 
 
-
 cluster_3520 = cluster
 
  |> "mIlUrAd" <| [
 
     _____                     `noun`    {- <mIlUrAd> -}        [ "" {- "Milorad" -} ] ]
-
 
 
 cluster_3521 = cluster
@@ -49775,8 +49413,6 @@ cluster_3533 = cluster
     _____                     `noun`    {- <mU.gAbI> -}        [ "" {- "Mugabe" -} ] ]
 
 
-
-
 cluster_3534 = cluster
 
  |> "mIzAnIn" <| [
@@ -49858,7 +49494,6 @@ cluster_3544 = cluster
     _____ |< Iy               `adj`     {- <mUrIskIy> -}       [ "" {- "Morisco" -} ] ]
 
 
-
 cluster_3545 = cluster
 
  |> "mUrI.tAn" <| [
@@ -49887,7 +49522,6 @@ cluster_3548 = cluster
  |> "mUrAfIk" <| [
 
     _____                     `noun`    {- <mUrAfIk> -}        [ "" {- "Moravec" -} ] ]
-
 
 
 cluster_3549 = cluster
@@ -50499,13 +50133,11 @@ cluster_3631 = cluster
     _____                     `noun`    {- <minA.hIm> -}       [ "" {- "Menahem" -} ] ]
 
 
-
 cluster_3632 = cluster
 
  |> "mimmA" <| [
 
     _____                     `conj`    {- <mimmA> -}          [ "which" ] ]
-
 
 
 cluster_3633 = cluster
@@ -50548,7 +50180,6 @@ cluster_3638 = cluster
  |> "muwArtin" <| [
 
     _____                     `noun`    {- <muwArtin> -}       [ "" {- "Moarten" -} ] ]
-
 
 
 cluster_3639 = cluster
@@ -50663,7 +50294,6 @@ cluster_3654 = cluster
  |> "'an'A" <| [
 
     _____                     `noun`    {- <'an'A> -}          [ unwords [ "farthest", "away" ], unwords [ "most", "remote" ] ] ]
-
 
 
 cluster_3655 = cluster
@@ -52850,7 +52480,6 @@ cluster_3804 = cluster
     _____                     `noun`    {- <ha'Arits> -}       [ "" {- "Haaretz" -} ] ]
 
 
-
 cluster_3805 = cluster
 
  |> "hUyAmA" <| [
@@ -53093,7 +52722,6 @@ cluster_3838 = cluster
     _____ |< Iy               `adj`     {- <humAyUnIy> -}      [ "imperial" ] ]
 
 
-
 cluster_3839 = cluster
 
  |> "hrbAtI" <| [
@@ -53292,28 +52920,11 @@ cluster_3866 = cluster
     _____ |< aT               `noun`    {- <matAwilaT> -}      [ unwords [ "" {- "Metuali" -}, "(", "" {- "Shiite" -}, "sect", ")" ] ] ]
 
 
-
-
-
 cluster_3867 = cluster
 
  |> "wIrkU" <| [
 
     _____                     `noun`    {- <wIrkU> -}          [ unwords [ "excise", "tax" ], unwords [ "real", "-", "estate", "tax" ] ] ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 cluster_3868 = cluster
@@ -53330,8 +52941,6 @@ cluster_3869 = cluster
     _____                     `noun`    {- <wA> -}             [ unwords [ "oh", "!" ] ] ]
 
 
-
-
 cluster_3870 = cluster
 
  |> "wiqIy" <| [
@@ -53339,18 +52948,11 @@ cluster_3870 = cluster
     _____ |< aT               `noun`    {- <wiqIyaT> -}        [ "uqiya" ] ]
 
 
-
-
-
-
-
-
 cluster_3871 = cluster
 
  |> "yAmI^s" <| [
 
     _____                     `noun`    {- <yAmI^s> -}         [ unwords [ "dried", "fruits" ] ] ]
-
 
 
 cluster_3872 = cluster
@@ -53397,10 +52999,6 @@ cluster_3877 = cluster
  |> "yUliyU" <| [
 
     _____                     `noun`    {- <yUliyU> -}         [ "" {- "July" -} ] ]
-
-
-
-
 
 
 cluster_3878 = cluster
@@ -53463,15 +53061,11 @@ cluster_3885 = cluster
     _____                     `noun`    {- <yAsIn> -}          [ "" {- "Yaseen" -}, "" {- "Yacine" -} ] ]
 
 
-
 cluster_3886 = cluster
 
  |> "yAnisUn" <| [
 
     _____                     `noun`    {- <yAnisUn> -}        [ "aniseed", "anise" ] ]
-
-
-
 
 
 cluster_3887 = cluster
@@ -53509,14 +53103,11 @@ cluster_3891 = cluster
     _____                     `noun`    {- <yahU_dA> -}        [ "" {- "Judah" -}, "" {- "Judea" -} ] ]
 
 
-
 cluster_3892 = cluster
 
  |> "yUzbA^s" <| [
 
     _____ |< Iy               `adj`     {- <yUzbA^sIy> -}      [ "captain" ] ]
-
-
 
 
 cluster_3893 = cluster
@@ -53533,7 +53124,6 @@ cluster_3894 = cluster
     _____                     `noun`    {- <yUrAniyUm> -}      [ "uranium" ] ]
 
 
-
 cluster_3895 = cluster
 
  |> "yUniyU" <| [
@@ -53546,13 +53136,6 @@ cluster_3896 = cluster
  |> "yUnUsfIr" <| [
 
     _____                     `noun`    {- <yUnUsfIr> -}       [ "ionosphere" ] ]
-
-
-
-
-
-
-
 
 
 cluster_3897 = cluster
