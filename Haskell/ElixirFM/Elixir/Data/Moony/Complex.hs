@@ -1,4 +1,4 @@
-    
+
 module Elixir.Data.Moony.Complex where
 
 import Elixir.Lexicon
@@ -13,23 +13,23 @@ cluster_1   = cluster
 
  |> "'" <| [
 
-    Identity |<< "a"          `noun`    {- <'a> -}             [ "A", "1st" ],
+    _____ |<< "a"             `noun`    {- <'a> -}             [ "A", "1st" ],
 
-    Identity |<< "i"          `noun`    {- <'i> -}             [ "I" ] ]
+    _____ |<< "i"             `noun`    {- <'i> -}             [ "I" ] ]
 
 
 cluster_2   = cluster
 
  |> "y" <| [
 
-    Identity                  `noun`    {- <y> -}              [ "Y", "10th" ] ]
+    _____                     `noun`    {- <y> -}              [ "Y", "10th" ] ]
 
 
 cluster_3   = cluster
 
  |> "w" <| [
 
-    Identity |<< "a"          `conj`    {- <wa> -}             [ "and", "W", "6th" ] ]
+    _____ |<< "a"             `conj`    {- <wa> -}             [ "and", "W", "6th" ] ]
 
 
 cluster_4   = cluster
@@ -50,7 +50,7 @@ cluster_5   = cluster
     FaCaL                     `noun`    {- <'a.had> -}         [ "one", "someone" ]
                               `plural`     FiCLY,
 
-    FaCaL                     `noun`    {- <'a.had> -}         [ "Sunday" ]
+    FaCaL                     `noun`    {- <'a.had> -}         [ "" {- "Sunday" -} ]
                               `plural`     HACAL,
 
     FuCAL |<< "a"             `noun`    {- <'u.hAda> -}        [ unwords [ "one", "-", "by", "-", "one" ] ],
@@ -75,48 +75,42 @@ cluster_7   = cluster
 
  |> "' .g y" <| [
 
-    "'a.gA"                   `noun`    {- <'a.gA> -}          [ "Agha" ] ]
+    "'a.gA"                   `noun`    {- <'a.gA> -}          [ "" {- "Agha" -} ] ]
+
 
 
 cluster_8   = cluster
 
- |> "' .g s y" <| [
-
-    "'a.gAsI"                 `noun`    {- <'a.gAsI> -}        [ "Agasi" ] ]
-
-
-cluster_9   = cluster
-
  |> "' .g r q" <| [
 
-    KiRDIS |< Iy              `adj`     {- <'i.grIqIy> -}      [ "Greek" ]
+    KiRDIS |< Iy              `adj`     {- <'i.grIqIy> -}      [ "" {- "Greek" -} ]
                               `plural`     KaRADiS |< aT
                               `plural`     KiRDIS |< Iy |< Un
                               `plural`     KiRDIS ]
 
 
-cluster_10  = cluster
+cluster_9   = cluster
 
  |> "" <| [
 
-    "'U.gUr"                  `noun`    {- <'U.gUr> -}         [ "Ugur" ] ]
+    "'U.gUr"                  `noun`    {- <'U.gUr> -}         [ "" {- "Ugur" -} ] ]
 
 
 
  |> "' .g r" <| [
 
-    "'a.gUr" |< aT            `noun`    {- <'a.gUraT> -}       [ unwords [ "agura", "(", "Israeli", "cent", ")" ], unwords [ "agurot", "(", "Israeli", "cents", ")" ] ] ]
+    "'a.gUr" |< aT            `noun`    {- <'a.gUraT> -}       [ unwords [ "agura", "(", "" {- "Israeli" -}, "cent", ")" ], unwords [ "agurot", "(", "" {- "Israeli" -}, "cents", ")" ] ] ]
 
 
-cluster_11  = cluster
+cluster_10  = cluster
 
  |> "' .g d r" <| [
 
-    "'a.gAdIr"                `noun`    {- <'a.gAdIr> -}       [ "Agadir" ] ]
+    "'a.gAdIr"                `noun`    {- <'a.gAdIr> -}       [ "" {- "Agadir" -} ] ]
 
 
 
-cluster_12  = cluster
+cluster_11  = cluster
 
  |> "' .s d" <| [
 
@@ -130,7 +124,7 @@ cluster_12  = cluster
     HICAL                     `noun`    {- <'I.sAd> -}         [ "closing", unwords [ "shutting", "(", "door", ")" ] ] ]
 
 
-cluster_13  = cluster
+cluster_12  = cluster
 
  |> "' .s l" <| [
 
@@ -198,7 +192,7 @@ cluster_13  = cluster
     `derives` feminine ]
 
 
-cluster_14  = cluster
+cluster_13  = cluster
 
  |> "' .t m" <| [
 
@@ -217,31 +211,31 @@ cluster_14  = cluster
                               `plural`     FuCuL ]
 
 
-cluster_15  = cluster
+cluster_14  = cluster
 
  |> "' .t l s" <| [
 
-    KaRDaS                    `noun`    {- <'a.tlas> -}        [ "Atlas" ]
+    KaRDaS                    `noun`    {- <'a.tlas> -}        [ "" {- "Atlas" -} ]
                               `plural`     KaRADiS,
 
     KaRDaS                    `noun`    {- <'a.tlas> -}        [ "atlas", "map" ]
                               `plural`     KaRADiS,
 
-    KaRDaS |< Iy              `adj`     {- <'a.tlasIy> -}      [ "Atlantic" ],
+    KaRDaS |< Iy              `adj`     {- <'a.tlasIy> -}      [ "" {- "Atlantic" -} ],
 
     KaRDaS                    `noun`    {- <'a.tlas> -}        [ "satin" ] ]
 
 
-cluster_16  = cluster
+cluster_15  = cluster
 
  |> "' .t l" <| [
 
-    "'I.tAl" |< Iy            `adj`     {- <'I.tAlIy> -}       [ "Italian" ],
+    "'I.tAl" |< Iy            `adj`     {- <'I.tAlIy> -}       [ "" {- "Italian" -} ],
 
-    "'I.tAliyA"               `noun`    {- <'I.tAliyA> -}      [ "Italy" ] ]
+    "'I.tAl" |< iyA           `noun`    {- <'I.tAliyA> -}      [ "" {- "Italy" -} ] ]
 
 
-cluster_17  = cluster
+cluster_16  = cluster
 
  |> "' .t .t" <| [
 
@@ -254,7 +248,7 @@ cluster_17  = cluster
     FaCIL                     `noun`    {- <'a.tI.t> -}        [ "braying" ] ]
 
 
-cluster_18  = cluster
+cluster_17  = cluster
 
  |> "' .s r" <| [
 
@@ -273,7 +267,7 @@ cluster_18  = cluster
     MaFCiL                    `noun`    {- <ma'.sir> -}        [ "barrier" ] ]
 
 
-cluster_19  = cluster
+cluster_18  = cluster
 
  |> "' .s q l" <| [
 
@@ -281,14 +275,14 @@ cluster_19  = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_20  = cluster
+cluster_19  = cluster
 
  |> "' ^g b" <| [
 
     FaCaL |< Iy |< aT         `noun`    {- <'a^gabIyaT> -}     [ "horologium" ] ]
 
 
-cluster_21  = cluster
+cluster_20  = cluster
 
  |> "' ^g ^g" <| [
 
@@ -318,7 +312,7 @@ cluster_21  = cluster
     MutaFaCCiL                `adj`     {- <muta'a^g^gi^g> -}  [ "burning", "blazing" ] ]
 
 
-cluster_22  = cluster
+cluster_21  = cluster
 
  |> "' ^g .s" <| [
 
@@ -327,7 +321,7 @@ cluster_22  = cluster
     FiCCAL                    `noun`    {- <'i^g^gA.s> -}      [ "pear" ] ]
 
 
-cluster_23  = cluster
+cluster_22  = cluster
 
  |> "' .t r" <| [
 
@@ -346,13 +340,7 @@ cluster_23  = cluster
     MuFaCCaL                  `adj`     {- <mu'a.t.tar> -}     [ "framed", unwords [ "in", "context" ] ] ]
 
 
-cluster_24  = cluster
-
- |> "" <| [
-
-    "'U^gIn"                  `noun`    {- <'U^gIn> -}         [ "Eugene" ] ]
-
-
+cluster_23  = cluster
 
  |> "' ^g n" <| [
 
@@ -364,7 +352,7 @@ cluster_24  = cluster
     `derives` feminine ]
 
 
-cluster_25  = cluster
+cluster_24  = cluster
 
  |> "' ^g m" <| [
 
@@ -377,7 +365,7 @@ cluster_25  = cluster
     FaCaL |< Iy |< aT         `noun`    {- <'a^gamIyaT> -}     [ "malaria" ] ]
 
 
-cluster_26  = cluster
+cluster_25  = cluster
 
  |> "' ^g l" <| [
 
@@ -413,7 +401,7 @@ cluster_26  = cluster
     `derives` feminine ]
 
 
-cluster_27  = cluster
+cluster_26  = cluster
 
  |> "' ^g r" <| [
 
@@ -504,7 +492,7 @@ cluster_27  = cluster
     `derives` feminine ]
 
 
-cluster_28  = cluster
+cluster_27  = cluster
 
  |> "' ^s n" <| [
 
@@ -516,7 +504,7 @@ cluster_28  = cluster
                               `plural`     FuCuL ]
 
 
-cluster_29  = cluster
+cluster_28  = cluster
 
  |> "' ^s f" <| [
 
@@ -524,18 +512,18 @@ cluster_29  = cluster
                               `plural`     FaCALI ]
 
 
-cluster_30  = cluster
+cluster_29  = cluster
 
  |> "' ^s b l" <| [
 
-    "'i^sbIl" |< Iy           `adj`     {- <'i^sbIlIy> -}      [ unwords [ "from", "/", "of", "Seville" ] ],
+    "'i^sbIl" |< Iy           `adj`     {- <'i^sbIlIy> -}      [ unwords [ "from", "/", "of", "" {- "Seville" -} ] ],
 
-    "'i^sbIl" |< Iy           `adj`     {- <'i^sbIlIy> -}      [ "Ishbili" ],
+    "'i^sbIl" |< Iy           `adj`     {- <'i^sbIlIy> -}      [ "" {- "Ishbili" -} ],
 
-    "'i^sbIl" |< Iy |< aT     `noun`    {- <'i^sbIlIyaT> -}    [ "Seville" ] ]
+    "'i^sbIl" |< Iy |< aT     `noun`    {- <'i^sbIlIyaT> -}    [ "" {- "Seville" -} ] ]
 
 
-cluster_31  = cluster
+cluster_30  = cluster
 
  |> "' ^s b" <| [
 
@@ -552,35 +540,29 @@ cluster_31  = cluster
                               `plural`     FaCA'iL ]
 
 
-cluster_32  = cluster
 
- |> "' ^g w d" <| [
-
-    "'a^gAwId"                `noun`    {- <'a^gAwId> -}       [ "Ecevit" ] ]
-
-
-cluster_33  = cluster
+cluster_31  = cluster
 
  |> "' _d _d" <| [
 
-    "'i_dan"                  `noun`    {- <'i_dan> -}         [ "therefore", "so", "then" ],
-
     "'i_d"                    `conj`    {- <'i_d> -}           [ "because" ],
 
-    "'i_d" |<< "aN"           `noun`    {- <'i_daN> -}         [ "therefore", "so", "then" ] ]
+    "'i_d" |<< "aN"           `adv`     {- <'i_daN> -}         [ "therefore", "so", "then" ],
+
+    "'i_d" |<< "an"           `adv`     {- <'i_dan> -}         [ "therefore", "so", "then" ] ]
 
 
-cluster_34  = cluster
+cluster_32  = cluster
 
  |> "" <| [
 
-    "'a^sUr" |< Iy |< At      `noun`    {- <'a^sUrIyAt> -}     [ "Assyriology" ],
+    "'a^sUr" |< Iy |< At      `noun`    {- <'a^sUrIyAt> -}     [ "" {- "Assyriology" -} ],
 
-    "'a^sUr" |< Iy            `adj`     {- <'a^sUrIy> -}       [ "Assyrian" ],
+    "'a^sUr" |< Iy            `adj`     {- <'a^sUrIy> -}       [ "" {- "Assyrian" -} ],
 
-    "'A^sUr"                  `noun`    {- <'A^sUr> -}         [ "Assyria" ],
+    "'A^sUr"                  `noun`    {- <'A^sUr> -}         [ "" {- "Assyria" -} ],
 
-    "'a^sUr"                  `noun`    {- <'a^sUr> -}         [ "Assyria" ] ]
+    "'a^sUr"                  `noun`    {- <'a^sUr> -}         [ "" {- "Assyria" -} ] ]
 
 
 
@@ -616,7 +598,7 @@ cluster_34  = cluster
                               `plural`     MawACIL ]
 
 
-cluster_35  = cluster
+cluster_33  = cluster
 
  |> "' _d n" <| [
 
@@ -674,7 +656,7 @@ cluster_35  = cluster
                               `plural`     IstiFCAL |< At ]
 
 
-cluster_36  = cluster
+cluster_34  = cluster
 
  |> "' _d y" <| [
 
@@ -700,14 +682,14 @@ cluster_36  = cluster
                               `plural`     MuFCI |< At ]
 
 
-cluster_37  = cluster
+cluster_35  = cluster
 
  |> "' _d r" <| [
 
-    "'A_dAr"                  `noun`    {- <'A_dAr> -}         [ "March" ] ]
+    "'A_dAr"                  `noun`    {- <'A_dAr> -}         [ "" {- "March" -} ] ]
 
 
-cluster_38  = cluster
+cluster_36  = cluster
 
  |> "' _h _d" <| [
 
@@ -766,7 +748,7 @@ cluster_38  = cluster
     MuFtaCaL                  `noun`    {- <mutta_ha_d> -}     [ "taken", "adopted" ] ]
 
 
-cluster_39  = cluster
+cluster_37  = cluster
 
  |> "' _h r" <| [
 
@@ -792,16 +774,16 @@ cluster_39  = cluster
 
     FaCIL                     `adj`     {- <'a_hIr> -}         [ "last", "latest", "recent", "latter" ],
 
-    FaCIL |<< "aN"            `noun`    {- <'a_hIraN> -}       [ "finally", "recently" ],
+    FaCIL |<< "aN"            `adj`     {- <'a_hIraN> -}       [ "finally", "recently" ],
 
     TaFCIL                    `noun`    {- <ta'_hIr> -}        [ "delay" ]
                               `plural`     TaFCIL |< At,
 
-    MuFaCCaL                  `adj`     {- <mu'a_h_har> -}     [ "delayed", "deferred" ],
-
     MuFaCCaL                  `noun`    {- <mu'a_h_har> -}     [ "rear", "back" ],
 
-    MuFaCCaL |<< "aN"         `noun`    {- <mu'a_h_haraN> -}   [ "recently", "finally" ],
+    MuFaCCaL                  `adj`     {- <mu'a_h_har> -}     [ "delayed", "deferred" ],
+
+    MuFaCCaL |<< "aN"         `adj`     {- <mu'a_h_haraN> -}   [ "recently", "finally" ],
 
     MuFaCCaL |< aT            `noun`    {- <mu'a_h_haraT> -}   [ "rear", unwords [ "rear", "positions" ] ],
 
@@ -819,7 +801,7 @@ cluster_39  = cluster
     FaCUL                     `noun`    {- <'a_hUr> -}         [ "barn", "stable" ] ]
 
 
-cluster_40  = cluster
+cluster_38  = cluster
 
  |> "' _h w" <| [
 
@@ -848,7 +830,7 @@ cluster_40  = cluster
 
     FiCA'                     `noun`    {- <'i_hA'> -}         [ "fraternity" ],
 
-    FiCA'                     `noun`    {- <'i_hA'> -}         [ "Akha" ],
+    FiCA'                     `noun`    {- <'i_hA'> -}         [ "" {- "Akha" -} ],
 
     FiCAL |< aT               `noun`    {- <'i_hAwaT> -}       [ "fraternization", "brotherliness" ],
 
@@ -861,7 +843,7 @@ cluster_40  = cluster
     FawACI                    `noun`    {- <'awA_hI> -}        [ "ties", "bonds" ] ]
 
 
-cluster_41  = cluster
+cluster_39  = cluster
 
  |> "' _t f" <| [
 
@@ -869,7 +851,7 @@ cluster_41  = cluster
                               `plural`     FaCALI ]
 
 
-cluster_42  = cluster
+cluster_40  = cluster
 
  |> "' _t _t" <| [
 
@@ -901,7 +883,7 @@ cluster_42  = cluster
                               `plural`     TaFCIL |< At ]
 
 
-cluster_43  = cluster
+cluster_41  = cluster
 
  |> "" <| [
 
@@ -939,14 +921,14 @@ cluster_43  = cluster
     `derives` feminine ]
 
 
-cluster_44  = cluster
+cluster_42  = cluster
 
  |> "' _t m d" <| [
 
     KiRDiS                    `noun`    {- <'i_tmid> -}        [ "antimony" ] ]
 
 
-cluster_45  = cluster
+cluster_43  = cluster
 
  |> "' _t m" <| [
 
@@ -982,7 +964,7 @@ cluster_45  = cluster
     `derives` feminine ]
 
 
-cluster_46  = cluster
+cluster_44  = cluster
 
  |> "' _t r" <| [
 
@@ -1065,14 +1047,14 @@ cluster_46  = cluster
     MutaFaCCiL                `adj`     {- <muta'a_t_tir> -}   [ "influenced", "affected" ] ]
 
 
-cluster_47  = cluster
+cluster_45  = cluster
 
  |> "' b ^s r" <| [
 
-    "'ab^sIr"                 `noun`    {- <'ab^sIr> -}        [ "Abshir" ] ]
+    "'ab^sIr"                 `noun`    {- <'ab^sIr> -}        [ "" {- "Abshir" -} ] ]
 
 
-cluster_48  = cluster
+cluster_46  = cluster
 
  |> "' b ^g d" <| [
 
@@ -1083,7 +1065,7 @@ cluster_48  = cluster
     KaRDaS |< Iy |< aT        `noun`    {- <'ab^gadIyaT> -}    [ "alphabet" ] ]
 
 
-cluster_49  = cluster
+cluster_47  = cluster
 
  |> "' b .t" <| [
 
@@ -1095,7 +1077,7 @@ cluster_49  = cluster
     FiCL |< Iy                `adj`     {- <'ib.tIy> -}        [ "axillary", "armpit" ] ]
 
 
-cluster_50  = cluster
+cluster_48  = cluster
 
  |> "' b .d" <| [
 
@@ -1109,33 +1091,27 @@ cluster_50  = cluster
 
     MaFCiL |< Iy              `adj`     {- <ma'bi.dIy> -}      [ unwords [ "popliteal", "(", "armpit", ")" ] ],
 
-    FiCAL |< Iy               `adj`     {- <'ibA.dIy> -}       [ "Ibadi" ],
+    FiCAL |< Iy               `adj`     {- <'ibA.dIy> -}       [ "" {- "Ibadi" -} ],
 
-    FiCAL |< Iy |< aT         `noun`    {- <'ibA.dIyaT> -}     [ "Ibadites" ],
+    FiCAL |< Iy |< aT         `noun`    {- <'ibA.dIyaT> -}     [ "" {- "Ibadites" -} ],
 
-    FaCAL |< Iy               `adj`     {- <'abA.dIy> -}       [ "Ibadi" ],
+    FaCAL |< Iy               `adj`     {- <'abA.dIy> -}       [ "" {- "Ibadi" -} ],
 
-    FaCAL |< Iy |< aT         `noun`    {- <'abA.dIyaT> -}     [ "Ibadites" ] ]
+    FaCAL |< Iy |< aT         `noun`    {- <'abA.dIyaT> -}     [ "" {- "Ibadites" -} ] ]
 
 
-cluster_51  = cluster
+cluster_49  = cluster
 
  |> "' _t y b" <| [
 
-    "'a_tyUb" |< Iy           `adj`     {- <'a_tyUbIy> -}      [ "Ethiopian" ] ]
+    "'a_tyUb" |< Iy           `adj`     {- <'a_tyUbIy> -}      [ "" {- "Ethiopian" -} ] ]
 
 
-cluster_52  = cluster
-
- |> "" <| [
-
-    "'Ab"                     `noun`    {- <'Ab> -}            [ "August" ] ]
-
-
+cluster_50  = cluster
 
  |> "" <| [
 
-    "'abIb"                   `noun`    {- <'abIb> -}          [ "Aviv" ] ]
+    "'Ab"                     `noun`    {- <'Ab> -}            [ "" {- "August" -} ] ]
 
 
 
@@ -1149,15 +1125,7 @@ cluster_52  = cluster
     FaCAL |< aT               `noun`    {- <'abAbaT> -}        [ "nostalgia", "homesickness" ] ]
 
 
-cluster_53  = cluster
-
- |> "" <| [
-
-    "'AbAd"                   `noun`    {- <'AbAd> -}          [ "Abad" ],
-
-    "'abAd"                   `noun`    {- <'abAd> -}          [ "Abad" ] ]
-
-
+cluster_51  = cluster
 
  |> "' b d" <| [
 
@@ -1198,7 +1166,7 @@ cluster_53  = cluster
                               `plural`     TaFaCCuL |< At ]
 
 
-cluster_54  = cluster
+cluster_52  = cluster
 
  |> "' b n" <| [
 
@@ -1212,23 +1180,23 @@ cluster_54  = cluster
     TaFCIL |< Iy              `adj`     {- <ta'bInIy> -}       [ "funerary", "commemorative" ] ]
 
 
-cluster_55  = cluster
+cluster_53  = cluster
 
  |> "' b l z" <| [
 
     KiRDIS                    `noun`    {- <'iblIz> -}         [ unwords [ "alluvial", "deposits" ] ] ]
 
 
-cluster_56  = cluster
+cluster_54  = cluster
 
  |> "' b l s" <| [
 
-    KiRDIS                    `noun`    {- <'iblIs> -}         [ "Devil", "demon" ]
+    KiRDIS                    `noun`    {- <'iblIs> -}         [ "" {- "Devil" -}, "demon" ]
                               `plural`     KaRADiS
                               `plural`     KaRADiS |< aT ]
 
 
-cluster_57  = cluster
+cluster_55  = cluster
 
  |> "' b l" <| [
 
@@ -1244,13 +1212,7 @@ cluster_57  = cluster
 
 
 
-cluster_58  = cluster
-
- |> "" <| [
-
-    "'abIh"                   `noun`    {- <'abIh> -}          [ "Abbe" ] ]
-
-
+cluster_56  = cluster
 
  |> "' b h" <| [
 
@@ -1273,7 +1235,7 @@ cluster_58  = cluster
     FuCCaL |< aT              `noun`    {- <'ubbahaT> -}       [ "pomp", "splendor" ] ]
 
 
-cluster_59  = cluster
+cluster_57  = cluster
 
  |> "' b r z" <| [
 
@@ -1282,7 +1244,7 @@ cluster_59  = cluster
     KiRDIS |< Iy              `adj`     {- <'ibrIzIy> -}       [ "golden" ] ]
 
 
-cluster_60  = cluster
+cluster_58  = cluster
 
  |> "' b r q" <| [
 
@@ -1291,30 +1253,24 @@ cluster_60  = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_61  = cluster
 
- |> "' b r m" <| [
-
-    KaRDAS                    `noun`    {- <'abrAm> -}         [ "Abram", "Abraham" ] ]
-
-
-cluster_62  = cluster
+cluster_59  = cluster
 
  |> "' b r l" <| [
 
-    "'abrIl"                  `noun`    {- <'abrIl> -}         [ "April", "Aprilia" ],
+    "'abrIl"                  `noun`    {- <'abrIl> -}         [ "" {- "April" -}, "" {- "Aprilia" -} ],
 
-    "'ibrIl"                  `noun`    {- <'ibrIl> -}         [ "April", "Aprilia" ] ]
+    "'ibrIl"                  `noun`    {- <'ibrIl> -}         [ "" {- "April" -}, "" {- "Aprilia" -} ] ]
 
 
-cluster_63  = cluster
+cluster_60  = cluster
 
  |> "' b r ^s" <| [
 
     "'abra^s" |< Iy |< aT     `noun`    {- <'abra^sIyaT> -}    [ "diocese", "bishopric" ] ]
 
 
-cluster_64  = cluster
+cluster_61  = cluster
 
  |> "' b r" <| [
 
@@ -1344,7 +1300,7 @@ cluster_64  = cluster
     `derives` feminine ]
 
 
-cluster_65  = cluster
+cluster_62  = cluster
 
  |> "' b q" <| [
 
@@ -1362,14 +1318,14 @@ cluster_65  = cluster
     `derives` feminine ]
 
 
-cluster_66  = cluster
+cluster_63  = cluster
 
  |> "' b n s" <| [
 
     "'abnUs"                  `noun`    {- <'abnUs> -}         [ "ebony" ] ]
 
 
-cluster_67  = cluster
+cluster_64  = cluster
 
  |> "' b z n" <| [
 
@@ -1377,7 +1333,7 @@ cluster_67  = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_68  = cluster
+cluster_65  = cluster
 
  |> "' b z m" <| [
 
@@ -1385,7 +1341,7 @@ cluster_68  = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_69  = cluster
+cluster_66  = cluster
 
  |> "' b y" <| [
 
@@ -1406,7 +1362,7 @@ cluster_69  = cluster
                               `plural`     FACI |< At ]
 
 
-cluster_70  = cluster
+cluster_67  = cluster
 
  |> "" <| [
 
@@ -1436,11 +1392,11 @@ cluster_70  = cluster
     FaCA |< An                `noun`    {- <'abawAn> -}        [ "parents" ] ]
 
 
-cluster_71  = cluster
+cluster_68  = cluster
 
  |> "" <| [
 
-    "'UdIb"                   `noun`    {- <'UdIb> -}          [ "Oedipus" ] ]
+    "'UdIb"                   `noun`    {- <'UdIb> -}          [ "" {- "Oedipus" -} ] ]
 
 
 
@@ -1476,7 +1432,7 @@ cluster_71  = cluster
                            
     `derives` feminine,
 
-    FaCIL                     `noun`    {- <'adIb> -}          [ "Adeeb", "Adib" ],
+    FaCIL                     `noun`    {- <'adIb> -}          [ "" {- "Adeeb" -}, "" {- "Adib" -} ],
 
     FACiL                     `noun`    {- <'Adib> -}          [ "host" ]
                               `plural`     FACiL |< Un
@@ -1507,7 +1463,7 @@ cluster_71  = cluster
     `derives` feminine ]
 
 
-cluster_72  = cluster
+cluster_69  = cluster
 
  |> "' d w" <| [
 
@@ -1515,38 +1471,26 @@ cluster_72  = cluster
                               `plural`     FaCA |< At ]
 
 
-cluster_73  = cluster
-
- |> "" <| [
-
-    "'adIs"                   `noun`    {- <'adIs> -}          [ "Addis" ] ]
-
-
+cluster_70  = cluster
 
  |> "' d s" <| [
 
-    "'UdIs" |< aT             `noun`    {- <'UdIsaT> -}        [ "Odyssey" ] ]
+    "'UdIs" |< aT             `noun`    {- <'UdIsaT> -}        [ "" {- "Odyssey" -} ] ]
 
 
-cluster_74  = cluster
+cluster_71  = cluster
 
  |> "' d r s" <| [
 
-    KiRDIS                    `noun`    {- <'idrIs> -}         [ "Idris", "Edris" ],
+    KiRDIS                    `noun`    {- <'idrIs> -}         [ "" {- "Idris" -}, "" {- "Edris" -} ],
 
-    KiRDIS |< Iy              `adj`     {- <'idrIsIy> -}       [ "Idrisid" ]
+    KiRDIS |< Iy              `adj`     {- <'idrIsIy> -}       [ "" {- "Idrisid" -} ]
                               `plural`     KaRADiS |< aT
                               `plural`     KiRDIS |< Iy |< Un ]
 
 
-cluster_75  = cluster
 
- |> "' d m n" <| [
-
-    "'idmUn"                  `noun`    {- <'idmUn> -}         [ "Edmond" ] ]
-
-
-cluster_76  = cluster
+cluster_72  = cluster
 
  |> "' d m" <| [
 
@@ -1554,7 +1498,7 @@ cluster_76  = cluster
 
     FawACiL                   `noun`    {- <'awAdim> -}        [ "humans" ],
 
-    FACaL                     `noun`    {- <'Adam> -}          [ "Adam" ] ]
+    FACaL                     `noun`    {- <'Adam> -}          [ "" {- "Adam" -} ] ]
 
 
 
@@ -1579,7 +1523,7 @@ cluster_76  = cluster
     FiCAL                     `noun`    {- <'idAm> -}          [ "fat", "sauce" ] ]
 
 
-cluster_77  = cluster
+cluster_73  = cluster
 
  |> "' d d" <| [
 
@@ -1591,7 +1535,7 @@ cluster_77  = cluster
     FiCL                      `noun`    {- <'idd> -}           [ "horrible", "evil" ] ]
 
 
-cluster_78  = cluster
+cluster_74  = cluster
 
  |> "' f ^s n" <| [
 
@@ -1599,7 +1543,7 @@ cluster_78  = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_79  = cluster
+cluster_75  = cluster
 
  |> "' f ^s" <| [
 
@@ -1607,18 +1551,18 @@ cluster_79  = cluster
                               `plural`     "'afI^s" |< At ]
 
 
-cluster_80  = cluster
+cluster_76  = cluster
 
  |> "' f .g n" <| [
 
-    "'af.gAn"                 `noun`    {- <'af.gAn> -}        [ "Afghans" ],
+    "'af.gAn"                 `noun`    {- <'af.gAn> -}        [ "" {- "Afghans" -} ],
 
-    "af.gAn" |< Iy            `adj`     {- <af.gAnIy> -}       [ "Afghani", "Afghan" ],
+    "'af.gAn" |< Iy           `adj`     {- <'af.gAnIy> -}      [ "" {- "Afghani" -}, "" {- "Afghan" -} ],
 
-    "'af.gAn" |< Iy           `noun`    {- <'af.gAnIy> -}      [ "Afghani" ] ]
+    "'af.gAn" |< Iy           `noun`    {- <'af.gAnIy> -}      [ "" {- "Afghani" -} ] ]
 
 
-cluster_81  = cluster
+cluster_77  = cluster
 
  |> "' d y" <| [
 
@@ -1641,7 +1585,7 @@ cluster_81  = cluster
                               `plural`     MuFaCCY |< At ]
 
 
-cluster_82  = cluster
+cluster_78  = cluster
 
  |> "' f l" <| [
 
@@ -1657,7 +1601,7 @@ cluster_82  = cluster
     `derives` feminine ]
 
 
-cluster_83  = cluster
+cluster_79  = cluster
 
  |> "' f k" <| [
 
@@ -1681,7 +1625,7 @@ cluster_83  = cluster
     `derives` feminine ]
 
 
-cluster_84  = cluster
+cluster_80  = cluster
 
  |> "' f f" <| [
 
@@ -1700,14 +1644,14 @@ cluster_84  = cluster
     `derives` feminine ]
 
 
-cluster_85  = cluster
+cluster_81  = cluster
 
  |> "' f s t" <| [
 
     "'ufsIt"                  `noun`    {- <'ufsIt> -}         [ "offset" ] ]
 
 
-cluster_86  = cluster
+cluster_82  = cluster
 
  |> "' f r z" <| [
 
@@ -1715,34 +1659,34 @@ cluster_86  = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_87  = cluster
+cluster_83  = cluster
 
  |> "' f r q" <| [
 
-    KaRDaS                    `verb`    {- <'afraq> -}         [ "Africanize" ],
+    KaRDaS                    `verb`    {- <'afraq> -}         [ "" {- "Africanize" -} ],
 
-    TaKaRDaS                  `verb`    {- <ta'afraq> -}       [ unwords [ "become", "Africanized" ] ],
+    TaKaRDaS                  `verb`    {- <ta'afraq> -}       [ unwords [ "become", "" {- "Africanized" -} ] ],
 
-    KaRDaS |< aT              `noun`    {- <'afraqaT> -}       [ "Africanization" ],
+    KaRDaS |< aT              `noun`    {- <'afraqaT> -}       [ "" {- "Africanization" -} ],
 
-    KaRDIS |< Iy              `adj`     {- <'afrIqIy> -}       [ "African" ]
+    KaRDIS |< Iy              `adj`     {- <'afrIqIy> -}       [ "" {- "African" -} ]
                               `plural`     KaRADiS |< aT
                               `plural`     KaRDIS |< Iy |< Un,
 
-    MutaKaRDiS                `noun`    {- <muta'afriq> -}     [ "Africanized" ]
+    MutaKaRDiS                `noun`    {- <muta'afriq> -}     [ "" {- "Africanized" -} ]
                               `plural`     MutaKaRDiS |< Un
                            
     `derives` feminine ]
 
 
-cluster_88  = cluster
+cluster_84  = cluster
 
  |> "' f r l" <| [
 
-    "'afrIl"                  `noun`    {- <'afrIl> -}         [ "April" ] ]
+    "'afrIl"                  `noun`    {- <'afrIl> -}         [ "" {- "April" -} ] ]
 
 
-cluster_89  = cluster
+cluster_85  = cluster
 
  |> "' f q" <| [
 
@@ -1764,15 +1708,7 @@ cluster_89  = cluster
     MiFCAL |< Iy              `adj`     {- <mi'fAqIy> -}       [ "periscopic" ] ]
 
 
-cluster_90  = cluster
-
- |> "" <| [
-
-    "'IfAn"                   `noun`    {- <'IfAn> -}          [ "Ivan" ],
-
-    "'ifAn"                   `noun`    {- <'ifAn> -}          [ "Ivan" ] ]
-
-
+cluster_86  = cluster
 
  |> "' f n" <| [
 
@@ -1792,7 +1728,7 @@ cluster_90  = cluster
     `derives` feminine ]
 
 
-cluster_91  = cluster
+cluster_87  = cluster
 
  |> "' h b" <| [
 
@@ -1817,21 +1753,15 @@ cluster_91  = cluster
                               `plural`     FuCuL ]
 
 
-cluster_92  = cluster
+cluster_88  = cluster
 
  |> "' f y m" <| [
 
     "'afyUm"                  `noun`    {- <'afyUm> -}         [ "opium" ] ]
 
 
-cluster_93  = cluster
 
- |> "' f y" <| [
-
-    "'afI"                    `noun`    {- <'afI> -}           [ "Avi" ] ]
-
-
-cluster_94  = cluster
+cluster_89  = cluster
 
  |> "' h l" <| [
 
@@ -1860,7 +1790,7 @@ cluster_94  = cluster
 
     FaCL |<< "aN"             `noun`    {- <'ahlaN> -}         [ unwords [ "welcome", "!" ] ],
 
-    FaCL |< Iy                `adj`     {- <'ahlIy> -}         [ "Ahly", "Ahli" ],
+    FaCL |< Iy                `adj`     {- <'ahlIy> -}         [ "" {- "Ahly" -}, "" {- "Ahli" -} ],
 
     FaCL |< Iy                `adj`     {- <'ahlIy> -}         [ "civil", "domestic", "family" ],
 
@@ -1903,21 +1833,21 @@ cluster_94  = cluster
     `derives` feminine ]
 
 
-cluster_95  = cluster
+cluster_90  = cluster
 
  |> "' k f" <| [
 
     FuCAL                     `noun`    {- <'ukAf> -}          [ "packsaddle" ] ]
 
 
-cluster_96  = cluster
+cluster_91  = cluster
 
  |> "' k d r" <| [
 
-    "'akAdIr"                 `noun`    {- <'akAdIr> -}        [ "Agadir" ] ]
+    "'akAdIr"                 `noun`    {- <'akAdIr> -}        [ "" {- "Agadir" -} ] ]
 
 
-cluster_97  = cluster
+cluster_92  = cluster
 
  |> "' k d m" <| [
 
@@ -1926,11 +1856,11 @@ cluster_97  = cluster
     "'akAdIm" |< Iy |< aT     `noun`    {- <'akAdImIyaT> -}    [ "academy" ] ]
 
 
-cluster_98  = cluster
+cluster_93  = cluster
 
  |> "" <| [
 
-    "'akAd" |< Iy             `adj`     {- <'akAdIy> -}        [ "Akkadian" ] ]
+    "'akAd" |< Iy             `adj`     {- <'akAdIy> -}        [ "" {- "Akkadian" -} ] ]
 
 
 
@@ -1940,9 +1870,9 @@ cluster_98  = cluster
 
     TaFaCCaL                  `verb`    {- <ta'akkad> -}       [ "ascertain" ],
 
-    FaCIL                     `noun`    {- <'akId> -}          [ "certain", "definite" ],
+    FaCIL                     `adj`     {- <'akId> -}          [ "certain", "definite" ],
 
-    FaCIL |<< "aN"            `noun`    {- <'akIdaN> -}        [ "certainly", "surely" ],
+    FaCIL |<< "aN"            `adj`     {- <'akIdaN> -}        [ "certainly", "surely" ],
 
     TaFCIL                    `noun`    {- <ta'kId> -}         [ "confirmation", "affirmation", "guarantee" ]
                               `plural`     TaFCIL |< At,
@@ -1965,14 +1895,8 @@ cluster_98  = cluster
     `derives` feminine ]
 
 
-cluster_99  = cluster
 
- |> "' k ^s y" <| [
-
-    "'ak^sAy"                 `noun`    {- <'ak^sAy> -}        [ "Akshay", "Akshai" ] ]
-
-
-cluster_100 = cluster
+cluster_94  = cluster
 
  |> "' k l" <| [
 
@@ -2047,7 +1971,7 @@ cluster_100 = cluster
     MutaFACiL                 `noun`    {- <muta'Akil> -}      [ "eroded", "corroded" ] ]
 
 
-cluster_101 = cluster
+cluster_95  = cluster
 
  |> "' k s ^g" <| [
 
@@ -2058,14 +1982,14 @@ cluster_101 = cluster
     KaRDaS |< aT              `noun`    {- <'aksa^gaT> -}      [ "oxygenation" ] ]
 
 
-cluster_102 = cluster
+cluster_96  = cluster
 
  |> "" <| [
 
     "'iks"                    `noun`    {- <'iks> -}           [ "X" ] ]
 
 
-cluster_103 = cluster
+cluster_97  = cluster
 
  |> "' k r" <| [
 
@@ -2098,7 +2022,7 @@ cluster_103 = cluster
     `derives` feminine ]
 
 
-cluster_104 = cluster
+cluster_98  = cluster
 
  |> "' k m" <| [
 
@@ -2112,14 +2036,14 @@ cluster_104 = cluster
     FaCaL |< Iy               `adj`     {- <'akamIy> -}        [ "hilly" ] ]
 
 
-cluster_105 = cluster
+cluster_99  = cluster
 
  |> "' k s r" <| [
 
     KiRDIS                    `noun`    {- <'iksIr> -}         [ "elixir" ] ]
 
 
-cluster_106 = cluster
+cluster_100 = cluster
 
  |> "' k s d" <| [
 
@@ -2146,35 +2070,21 @@ cluster_106 = cluster
                               `plural`     TaKaRDuS |< At ]
 
 
-cluster_107 = cluster
 
- |> "' l b r" <| [
-
-    "'albIr"                  `noun`    {- <'albIr> -}         [ "Albert" ] ]
-
-
-cluster_108 = cluster
+cluster_101 = cluster
 
  |> "' l b m" <| [
 
     "'albUm"                  `noun`    {- <'albUm> -}         [ "album" ] ]
 
 
-cluster_109 = cluster
+cluster_102 = cluster
 
  |> "" <| [
 
-    "'alb" |< Iy              `adj`     {- <'albIy> -}         [ "Alpine" ],
+    "'albAn" |< Iy            `adj`     {- <'albAnIy> -}       [ "" {- "Albanian" -} ],
 
-    "'alb"                    `noun`    {- <'alb> -}           [ "Alps" ] ]
-
-
-
- |> "" <| [
-
-    "'albAn" |< Iy            `adj`     {- <'albAnIy> -}       [ "Albanian" ],
-
-    "'albAn"                  `noun`    {- <'albAn> -}         [ "Albanians" ] ]
+    "'albAn"                  `noun`    {- <'albAn> -}         [ "" {- "Albanians" -} ] ]
 
 
 
@@ -2200,13 +2110,7 @@ cluster_109 = cluster
     `derives` feminine ]
 
 
-cluster_110 = cluster
-
- |> "" <| [
-
-    "'UlAf"                   `noun`    {- <'UlAf> -}          [ "Olaf" ] ]
-
-
+cluster_103 = cluster
 
  |> "' l f" <| [
 
@@ -2231,7 +2135,7 @@ cluster_110 = cluster
 
     FaCiL                     `noun`    {- <'alif> -}          [ "beginning" ],
 
-    FaCiL                     `noun`    {- <'alif> -}          [ unwords [ "alif", "(", "Arabic", "letter", ")" ] ]
+    FaCiL                     `noun`    {- <'alif> -}          [ unwords [ "alif", "(", "" {- "Arabic" -}, "letter", ")" ] ]
                               `plural`     FaCiL |< At,
 
     FaCL                      `noun`    {- <'alf> -}           [ "thousand" ]
@@ -2305,7 +2209,7 @@ cluster_110 = cluster
     IFtiCAL |< Iy             `adj`     {- <i'tilAfIy> -}      [ "coalition" ] ]
 
 
-cluster_111 = cluster
+cluster_104 = cluster
 
  |> "" <| [
 
@@ -2318,14 +2222,14 @@ cluster_111 = cluster
     "'il"                     `noun`    {- <'il> -}            [ "El" ] ]
 
 
-cluster_112 = cluster
+cluster_105 = cluster
 
  |> "' l k l" <| [
 
     KaRDaS |< aT              `noun`    {- <'alkalaT> -}       [ "alkylation" ] ]
 
 
-cluster_113 = cluster
+cluster_106 = cluster
 
  |> "' l h" <| [
 
@@ -2346,31 +2250,13 @@ cluster_113 = cluster
                               `plural`     TaFCIL |< At ]
 
 
-cluster_114 = cluster
+
+
+cluster_107 = cluster
 
  |> "" <| [
 
-    "'alAfIs"                 `noun`    {- <'alAfIs> -}        [ "Alaves" ] ]
-
-
-
- |> "' l f s" <| [
-
-    "'ilfIs"                  `noun`    {- <'ilfIs> -}         [ "Elvis" ] ]
-
-
-cluster_115 = cluster
-
- |> "' l f n" <| [
-
-    "'alfIn"                  `noun`    {- <'alfIn> -}         [ "Alvin" ] ]
-
-
-cluster_116 = cluster
-
- |> "" <| [
-
-    "'UlAmI"                  `adj`     {- <'UlAmI> -}         [ "Ulami" ] ]
+    "'UlAmI"                  `adj`     {- <'UlAmI> -}         [ "" {- "Ulami" -} ] ]
 
 
 
@@ -2409,14 +2295,8 @@ cluster_116 = cluster
     `derives` feminine ]
 
 
-cluster_117 = cluster
 
- |> "' l t y" <| [
-
-    "'altAy"                  `noun`    {- <'altAy> -}         [ "Altai", "Altaisk" ] ]
-
-
-cluster_118 = cluster
+cluster_108 = cluster
 
  |> "' l s" <| [
 
@@ -2431,7 +2311,7 @@ cluster_118 = cluster
     `derives` feminine ]
 
 
-cluster_119 = cluster
+cluster_109 = cluster
 
  |> "' l q" <| [
 
@@ -2453,14 +2333,8 @@ cluster_119 = cluster
     `derives` feminine ]
 
 
-cluster_120 = cluster
 
- |> "' l n" <| [
-
-    "'AlAn"                   `noun`    {- <'AlAn> -}          [ "Allan", "Allen", "Alain" ] ]
-
-
-cluster_121 = cluster
+cluster_110 = cluster
 
  |> "' l m s" <| [
 
@@ -2475,28 +2349,28 @@ cluster_121 = cluster
     `derives` feminine ]
 
 
-cluster_122 = cluster
+cluster_111 = cluster
 
  |> "" <| [
 
-    "'almAn" |< Iy            `adj`     {- <'almAnIy> -}       [ "German" ],
+    "'almAn" |< Iy            `adj`     {- <'almAnIy> -}       [ "" {- "German" -} ],
 
-    "'almAn" |< iyA           `noun`    {- <'almAniyA> -}      [ "Germany" ],
+    "'almAn" |< iyA           `noun`    {- <'almAniyA> -}      [ "" {- "Germany" -} ],
 
-    "'almAn"                  `noun`    {- <'almAn> -}         [ "Germans" ] ]
+    "'almAn"                  `noun`    {- <'almAn> -}         [ "" {- "Germans" -} ] ]
 
 
 
  |> "' l m n" <| [
 
-    KaRDaS                    `verb`    {- <'alman> -}         [ "Germanize", unwords [ "make", "German" ] ],
+    KaRDaS                    `verb`    {- <'alman> -}         [ "" {- "Germanize" -}, unwords [ "make", "" {- "German" -} ] ],
 
-    TaKaRDaS                  `verb`    {- <ta'alman> -}       [ unwords [ "become", "German" ], unwords [ "be", "Germanized" ] ],
+    TaKaRDaS                  `verb`    {- <ta'alman> -}       [ unwords [ "become", "" {- "German" -} ], unwords [ "be", "" {- "Germanized" -} ] ],
 
-    KaRDaS |< aT              `noun`    {- <'almanaT> -}       [ "Germanization", "Germanification" ] ]
+    KaRDaS |< aT              `noun`    {- <'almanaT> -}       [ "" {- "Germanization" -}, "" {- "Germanification" -} ] ]
 
 
-cluster_123 = cluster
+cluster_112 = cluster
 
  |> "' m b r" <| [
 
@@ -2505,35 +2379,17 @@ cluster_123 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_124 = cluster
+cluster_113 = cluster
 
  |> "' m b" <| [
 
     "'amIb" |< aT             `noun`    {- <'amIbaT> -}        [ "amoeba" ] ]
 
 
-cluster_125 = cluster
-
- |> "' m ^s r" <| [
-
-    "'am^sIr"                 `noun`    {- <'am^sIr> -}        [ "Amshir" ] ]
 
 
-cluster_126 = cluster
 
- |> "' l z s" <| [
-
-    "'alzAs"                  `noun`    {- <'alzAs> -}         [ "Alsace" ] ]
-
-
-cluster_127 = cluster
-
- |> "' l y s" <| [
-
-    "'ilyAs"                  `noun`    {- <'ilyAs> -}         [ "Elias" ] ]
-
-
-cluster_128 = cluster
+cluster_114 = cluster
 
  |> "" <| [
 
@@ -2575,7 +2431,7 @@ cluster_128 = cluster
     "'ilY"                    `prep`    {- <'ilY> -}           [ "to", "towards" ] ]
 
 
-cluster_129 = cluster
+cluster_115 = cluster
 
  |> "" <| [
 
@@ -2595,7 +2451,7 @@ cluster_129 = cluster
                               `plural`     HICA' |< At ]
 
 
-cluster_130 = cluster
+cluster_116 = cluster
 
  |> "' m l" <| [
 
@@ -2609,11 +2465,11 @@ cluster_130 = cluster
     FaCaL                     `noun`    {- <'amal> -}          [ "hope", "wish" ]
                               `plural`     HACAL,
 
-    FaCaL                     `noun`    {- <'amal> -}          [ "Amal" ],
+    FaCaL                     `noun`    {- <'amal> -}          [ "" {- "Amal" -} ],
 
-    HACAL                     `noun`    {- <'AmAl> -}          [ "Amal" ],
+    HACAL                     `noun`    {- <'AmAl> -}          [ "" {- "Amal" -} ],
 
-    FaCAL                     `noun`    {- <'amAl> -}          [ "Amal" ],
+    FaCAL                     `noun`    {- <'amAl> -}          [ "" {- "Amal" -} ],
 
     MaFCUL                    `noun`    {- <ma'mUl> -}         [ "expected", unwords [ "hoped", "for" ] ]
                               `plural`     MaFCUL |< Un
@@ -2641,14 +2497,14 @@ cluster_130 = cluster
     `derives` feminine ]
 
 
-cluster_131 = cluster
+cluster_117 = cluster
 
  |> "' m h r" <| [
 
-    "'amhar" |< Iy            `adj`     {- <'amharIy> -}       [ "Amharic" ] ]
+    "'amhar" |< Iy            `adj`     {- <'amharIy> -}       [ "" {- "Amharic" -} ] ]
 
 
-cluster_132 = cluster
+cluster_118 = cluster
 
  |> "' m d" <| [
 
@@ -2656,11 +2512,11 @@ cluster_132 = cluster
                               `plural`     HACAL ]
 
 
-cluster_133 = cluster
+cluster_119 = cluster
 
  |> "' m w" <| [
 
-    FuC |<< "awIy"            `adj`     {- <'umawIy> -}        [ "Umayyad" ] ]
+    FuC |<< "awIy"            `adj`     {- <'umawIy> -}        [ "" {- "Umayyad" -} ] ]
 
 
 
@@ -2705,7 +2561,7 @@ cluster_133 = cluster
 
     FaCAL |< Iy               `adj`     {- <'amAmIy> -}        [ "front", "forward" ],
 
-    FiCAL                     `noun`    {- <'imAm> -}          [ "Imam" ]
+    FiCAL                     `noun`    {- <'imAm> -}          [ "" {- "Imam" -} ]
                               `plural`     HaFiCL |< aT,
 
     FiCAL                     `noun`    {- <'imAm> -}          [ "leader", "imam" ]
@@ -2720,17 +2576,15 @@ cluster_133 = cluster
     FuCL |< aT                `noun`    {- <'ummaT> -}         [ "nation", "people" ]
                               `plural`     FuCaL,
 
-    FuCaL                     `noun`    {- <'umam> -}          [ "Nations" ],
-
     FuCaL |< Iy               `adj`     {- <'umamIy> -}        [ "international", "internationalist", "internationalism" ],
 
     TaFCIL                    `noun`    {- <ta'mIm> -}         [ "nationalization" ]
                               `plural`     TaFCIL |< At,
 
-    FuCayL |< aT              `noun`    {- <'umaymaT> -}       [ "Umaima" ] ]
+    FuCayL |< aT              `noun`    {- <'umaymaT> -}       [ "" {- "Umaima" -} ] ]
 
 
-cluster_134 = cluster
+cluster_120 = cluster
 
  |> "" <| [
 
@@ -2760,7 +2614,7 @@ cluster_134 = cluster
 
     FaCAL                     `noun`    {- <'amAn> -}          [ "safety", "protection" ],
 
-    FaCALI                    `noun`    {- <'amAnI> -}         [ "Amani" ],
+    FaCALI                    `noun`    {- <'amAnI> -}         [ "" {- "Amani" -} ],
 
     FaCAL |< aT               `noun`    {- <'amAnaT> -}        [ "faithfulness", "loyalty" ],
 
@@ -2768,9 +2622,9 @@ cluster_134 = cluster
 
     FaCAL |< aT               `noun`    {- <'amAnaT> -}        [ "deposit" ],
 
-    FaCIL                     `noun`    {- <'amIn> -}          [ "Amin" ],
+    FaCIL                     `noun`    {- <'amIn> -}          [ "" {- "Amin" -} ],
 
-    FaCIL |< aT               `noun`    {- <'amInaT> -}        [ "Amina" ],
+    FaCIL |< aT               `noun`    {- <'amInaT> -}        [ "" {- "Amina" -} ],
 
     FaCIL                     `noun`    {- <'amIn> -}          [ "faithful", "loyal" ]
                               `plural`     FuCaLA'
@@ -2787,7 +2641,7 @@ cluster_134 = cluster
                            
     `derives` feminine,
 
-    MaFCUL                    `noun`    {- <ma'mUn> -}         [ "Mamoun" ],
+    MaFCUL                    `noun`    {- <ma'mUn> -}         [ "" {- "Mamoun" -} ],
 
     MaFCUL                    `noun`    {- <ma'mUn> -}         [ "trustworthy", "loyal" ]
                               `plural`     MaFCUL |< Un
@@ -2818,14 +2672,14 @@ cluster_134 = cluster
     HICAL                     `noun`    {- <'ImAn> -}          [ "belief", "faith" ]
                               `plural`     HICAL |< At,
 
-    HICAL                     `noun`    {- <'ImAn> -}          [ "Iman" ],
+    HICAL                     `noun`    {- <'ImAn> -}          [ "" {- "Iman" -} ],
 
     MuFCiL                    `noun`    {- <mu'min> -}         [ "believer" ]
                               `plural`     MuFCiL |< Un
                            
     `derives` feminine,
 
-    MuFCiL                    `noun`    {- <mu'min> -}         [ unwords [ "believer", "(", "Muslim", ")" ] ]
+    MuFCiL                    `noun`    {- <mu'min> -}         [ unwords [ "believer", "(", "" {- "Muslim" -}, ")" ] ]
                               `plural`     MuFCiL |< Un
                            
     `derives` feminine,
@@ -2841,11 +2695,11 @@ cluster_134 = cluster
     `derives` feminine ]
 
 
-cluster_135 = cluster
+cluster_121 = cluster
 
  |> "" <| [
 
-    "'AmUr" |< Iy             `adj`     {- <'AmUrIy> -}        [ "Amorite" ] ]
+    "'AmUr" |< Iy             `adj`     {- <'AmUrIy> -}        [ "" {- "Amorite" -} ] ]
 
 
 
@@ -2874,14 +2728,14 @@ cluster_135 = cluster
 
     FiCL |< aT                `noun`    {- <'imraT> -}         [ "authority", "command" ],
 
-    FiCAL |< aT               `noun`    {- <'imAraT> -}        [ "Emirate" ]
+    FiCAL |< aT               `noun`    {- <'imAraT> -}        [ "" {- "Emirate" -} ]
                               `plural`     FiCAL |< At,
 
-    FiCAL |< At |< Iy         `adj`     {- <'imArAtIy> -}      [ unwords [ "Emirati", "(", "of", "/", "from", "the", "UAE", ")" ] ],
+    FiCAL |< At |< Iy         `adj`     {- <'imArAtIy> -}      [ unwords [ "" {- "Emirati" -}, "(", "of", "/", "from", "the", "UAE", ")" ] ],
 
     FaCAL |< aT               `noun`    {- <'amAraT> -}        [ "sign", "indication" ],
 
-    FaCIL                     `noun`    {- <'amIr> -}          [ "Emir" ]
+    FaCIL                     `noun`    {- <'amIr> -}          [ "" {- "Emir" -} ]
                               `plural`     FuCaLA'
                            
     `derives` feminine,
@@ -2891,7 +2745,7 @@ cluster_135 = cluster
                            
     `derives` feminine,
 
-    FaCIL |< Iy               `adj`     {- <'amIrIy> -}        [ "Emirate", "governmental" ],
+    FaCIL |< Iy               `adj`     {- <'amIrIy> -}        [ "" {- "Emirate" -}, "governmental" ],
 
     FACiL                     `noun`    {- <'Amir> -}          [ "commander", "commandant" ]
                               `plural`     FACiL |< Un
@@ -2933,69 +2787,57 @@ cluster_135 = cluster
                               `plural`     MuFtaCiL |< Un ]
 
 
-cluster_136 = cluster
+cluster_122 = cluster
 
  |> "' m s" <| [
 
     FaCL                      `noun`    {- <'ams> -}           [ "yesterday" ] ]
 
 
-cluster_137 = cluster
 
- |> "' m r z" <| [
-
-    "'imrUz"                  `noun`    {- <'imrUz> -}         [ "Emrouz" ] ]
-
-
-cluster_138 = cluster
+cluster_123 = cluster
 
  |> "" <| [
 
-    "'amrIk" |< Iy            `adj`     {- <'amrIkIy> -}       [ "American" ] ]
+    "'amrIk" |< Iy            `adj`     {- <'amrIkIy> -}       [ "" {- "American" -} ] ]
 
 
 
  |> "' m r k" <| [
 
-    KaRDaS                    `verb`    {- <'amrak> -}         [ "Americanize" ],
+    KaRDaS                    `verb`    {- <'amrak> -}         [ "" {- "Americanize" -} ],
 
-    TaKaRDaS                  `verb`    {- <ta'amrak> -}       [ unwords [ "become", "Americanized" ] ],
+    TaKaRDaS                  `verb`    {- <ta'amrak> -}       [ unwords [ "become", "" {- "Americanized" -} ] ],
 
-    KaRDaS |< aT              `noun`    {- <'amrakaT> -}       [ "Americanization" ],
+    KaRDaS |< aT              `noun`    {- <'amrakaT> -}       [ "" {- "Americanization" -} ],
 
-    TaKaRDuS                  `noun`    {- <ta'amruk> -}       [ "Americanization" ]
+    TaKaRDuS                  `noun`    {- <ta'amruk> -}       [ "" {- "Americanization" -} ]
                               `plural`     TaKaRDuS |< At ]
 
 
-cluster_139 = cluster
+cluster_124 = cluster
 
  |> "' n ^g .s" <| [
 
     KiRDAS                    `noun`    {- <'in^gA.s> -}       [ "pear" ] ]
 
 
-cluster_140 = cluster
 
- |> "' n .t n" <| [
-
-    "'an.tUn"                 `noun`    {- <'an.tUn> -}        [ "Antoun", "Anton" ] ]
-
-
-cluster_141 = cluster
+cluster_125 = cluster
 
  |> "' n .t k" <| [
 
-    "'an.tAk" |< iyaT         `noun`    {- <'an.tAkiyaT> -}    [ "Antakya", "Antioch" ] ]
+    "'an.tAk" |< iyaT         `noun`    {- <'an.tAkiyaT> -}    [ "" {- "Antakya" -}, "" {- "Antioch" -} ] ]
 
 
-cluster_142 = cluster
+cluster_126 = cluster
 
  |> "' n .g l" <| [
 
-    "'an.gUl" |< Iy           `adj`     {- <'an.gUlIy> -}      [ "Angolan", "Angolim", "Engoulime", unwords [ "Ingoulimes", "?", "?" ] ] ]
+    "'an.gUl" |< Iy           `adj`     {- <'an.gUlIy> -}      [ "" {- "Angolan" -}, "" {- "Angolim" -}, "" {- "Engoulime" -} ] ]
 
 
-cluster_143 = cluster
+cluster_127 = cluster
 
  |> "" <| [
 
@@ -3044,7 +2886,7 @@ cluster_143 = cluster
                               `plural`     MutaFaCCI |< At ]
 
 
-cluster_144 = cluster
+cluster_128 = cluster
 
  |> "' n _t" <| [
 
@@ -3074,21 +2916,15 @@ cluster_144 = cluster
     MuFaCCaL                  `adj`     {- <mu'anna_t> -}      [ "feminine", "effeminate" ] ]
 
 
-cluster_145 = cluster
 
- |> "' n _h l" <| [
-
-    "'an_hil"                 `noun`    {- <'an_hil> -}        [ "Angel" ] ]
-
-
-cluster_146 = cluster
+cluster_129 = cluster
 
  |> "' n ^s ^g" <| [
 
     "'an^sU^g" |< aT          `noun`    {- <'an^sU^gaT> -}     [ "anchovy" ] ]
 
 
-cluster_147 = cluster
+cluster_130 = cluster
 
  |> "' n ^s" <| [
 
@@ -3096,11 +2932,11 @@ cluster_147 = cluster
                               `plural`     "in^s" |< At ]
 
 
-cluster_148 = cluster
+cluster_131 = cluster
 
  |> "" <| [
 
-    "'an^gUl" |< Iy           `adj`     {- <'an^gUlIy> -}      [ "Angolan" ] ]
+    "'an^gUl" |< Iy           `adj`     {- <'an^gUlIy> -}      [ "" {- "Angolan" -} ] ]
 
 
 
@@ -3115,34 +2951,14 @@ cluster_148 = cluster
 
  |> "' n ^g l" <| [
 
-    TaKaRDaS                  `verb`    {- <ta'an^gal> -}      [ unwords [ "be", "Anglicized" ] ],
+    TaKaRDaS                  `verb`    {- <ta'an^gal> -}      [ unwords [ "be", "" {- "Anglicized" -} ] ],
 
-    KaRDaS |< aT              `noun`    {- <'an^galaT> -}      [ "Anglicization" ] ]
-
-
-cluster_149 = cluster
-
- |> "' n d z" <| [
-
-    "'andIz"                  `noun`    {- <'andIz> -}         [ "Andes" ] ]
+    KaRDaS |< aT              `noun`    {- <'an^galaT> -}      [ "" {- "Anglicization" -} ] ]
 
 
-cluster_150 = cluster
-
- |> "' n d k" <| [
-
-    "indIk"                   `noun`    {- <indIk> -}          [ "Indyk" ] ]
 
 
-cluster_151 = cluster
-
- |> "" <| [
-
-    "'and"                    `noun`    {- <'and> -}           [ "And", "Andang" ],
-
-    "'And"                    `noun`    {- <'And> -}           [ "And", "Andang" ] ]
-
-
+cluster_132 = cluster
 
  |> "' n d" <| [
 
@@ -3150,7 +2966,7 @@ cluster_151 = cluster
                               `plural`     "'anUd" |< At ]
 
 
-cluster_152 = cluster
+cluster_133 = cluster
 
  |> "' n b r" <| [
 
@@ -3159,7 +2975,7 @@ cluster_152 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_153 = cluster
+cluster_134 = cluster
 
  |> "' n b q" <| [
 
@@ -3167,7 +2983,7 @@ cluster_153 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_154 = cluster
+cluster_135 = cluster
 
  |> "' n b ^s" <| [
 
@@ -3177,7 +2993,7 @@ cluster_154 = cluster
     `derives` feminine ]
 
 
-cluster_155 = cluster
+cluster_136 = cluster
 
  |> "' n b ^g" <| [
 
@@ -3185,7 +3001,7 @@ cluster_155 = cluster
                               `plural`     KaRDaS |< At ]
 
 
-cluster_156 = cluster
+cluster_137 = cluster
 
  |> "' n b" <| [
 
@@ -3202,7 +3018,7 @@ cluster_156 = cluster
                               `plural`     TaFCIL |< At ]
 
 
-cluster_157 = cluster
+cluster_138 = cluster
 
  |> "" <| [
 
@@ -3217,39 +3033,39 @@ cluster_157 = cluster
     HACAL                     `noun`    {- <'AnAm> -}          [ "humankind", "mankind" ] ]
 
 
-cluster_158 = cluster
+cluster_139 = cluster
 
  |> "' n l" <| [
 
     "'UnIl"                   `noun`    {- <'UnIl> -}          [ "O'Neal" ] ]
 
 
-cluster_159 = cluster
+cluster_140 = cluster
 
  |> "' n k l" <| [
 
-    "'ankUl" |< Iy            `adj`     {- <'ankUlIy> -}       [ "Angolan" ] ]
+    "'ankUl" |< Iy            `adj`     {- <'ankUlIy> -}       [ "" {- "Angolan" -} ] ]
 
 
-cluster_160 = cluster
+cluster_141 = cluster
 
  |> "' n k" <| [
 
     HACuL                     `noun`    {- <'Anuk> -}          [ "lead" ] ]
 
 
-cluster_161 = cluster
+cluster_142 = cluster
 
  |> "' n h" <| [
 
-    "'Ah"                     `noun`    {- <'Ah> -}            [ unwords [ "ah", "!" ], unwords [ "ouch", "!" ] ],
+    "'Ah"                     `intj`    {- <'Ah> -}            [ unwords [ "ah", "!" ], unwords [ "ouch", "!" ] ],
 
-    "'ah"                     `noun`    {- <'ah> -}            [ unwords [ "ah", "!" ], unwords [ "ouch", "!" ] ],
+    "'ah"                     `intj`    {- <'ah> -}            [ unwords [ "ah", "!" ], unwords [ "ouch", "!" ] ],
 
-    "'Ah" |<< "aN"            `noun`    {- <'AhaN> -}          [ unwords [ "ah", "!" ], unwords [ "ouch", "!" ] ] ]
+    "'Ah" |<< "aN"            `intj`    {- <'AhaN> -}          [ unwords [ "ah", "!" ], unwords [ "ouch", "!" ] ] ]
 
 
-cluster_162 = cluster
+cluster_143 = cluster
 
  |> "' n f" <| [
 
@@ -3265,9 +3081,9 @@ cluster_162 = cluster
 
     FaCaL |< aT               `noun`    {- <'anafaT> -}        [ "pride", "disdain" ],
 
-    FACiL                     `noun`    {- <'Anif> -}          [ "previous", "beforehand" ],
+    FACiL                     `adj`     {- <'Anif> -}          [ "previous", "foregoing" ],
 
-    FACiL |<< "aN"            `noun`    {- <'AnifaN> -}        [ "previously", "foregoing" ],
+    FACiL |<< "aN"            `adj`     {- <'AnifaN> -}        [ "previously", "beforehand" ],
 
     FaCUL                     `noun`    {- <'anUf> -}          [ "proud", "haughty" ]
                               `plural`     FuCuL
@@ -3286,13 +3102,7 @@ cluster_162 = cluster
     IstiFCAL |< Iy            `adj`     {- <isti'nAfIy> -}     [ "appellate" ] ]
 
 
-cluster_163 = cluster
-
- |> "" <| [
-
-    "'anAn"                   `noun`    {- <'anAn> -}          [ "Annan" ] ]
-
-
+cluster_144 = cluster
 
  |> "" <| [
 
@@ -3330,18 +3140,12 @@ cluster_163 = cluster
     `derives` feminine ]
 
 
-cluster_164 = cluster
 
- |> "' n r n" <| [
-
-    "'inrUn"                  `noun`    {- <'inrUn> -}         [ "Enron" ] ]
-
-
-cluster_165 = cluster
+cluster_145 = cluster
 
  |> "" <| [
 
-    "'anqar" |< aT            `noun`    {- <'anqaraT> -}       [ "Ankara" ] ]
+    "'anqar" |< aT            `noun`    {- <'anqaraT> -}       [ "" {- "Ankara" -} ] ]
 
 
 
@@ -3350,7 +3154,7 @@ cluster_165 = cluster
     "'anqar" |< Iy            `adj`     {- <'anqarIy> -}       [ "angora" ] ]
 
 
-cluster_166 = cluster
+cluster_146 = cluster
 
  |> "' n q" <| [
 
@@ -3361,7 +3165,7 @@ cluster_166 = cluster
 
     TaFaCCaL                  `verb`    {- <ta'annaq> -}       [ unwords [ "be", "elegant" ] ],
 
-    FaCUL                     `noun`    {- <'anUq> -}          [ unwords [ "Egyptian", "vulture" ] ],
+    FaCUL                     `noun`    {- <'anUq> -}          [ unwords [ "" {- "Egyptian" -}, "vulture" ] ],
 
     FaCAL |< aT               `noun`    {- <'anAqaT> -}        [ "elegance", "grace" ],
 
@@ -3375,13 +3179,13 @@ cluster_166 = cluster
     MutaFaCCiL                `adj`     {- <muta'anniq> -}     [ "elegant" ] ]
 
 
-cluster_167 = cluster
+cluster_147 = cluster
 
  |> "' n s" <| [
 
     FuCAL                     `noun`    {- <'unAs> -}          [ "humans", "people" ],
 
-    FaCaL                     `noun`    {- <'anas> -}          [ "Anas" ],
+    FaCaL                     `noun`    {- <'anas> -}          [ "" {- "Anas" -} ],
 
     FaCiL                     `verb`    {- <'anis> -}          [ unwords [ "be", "companionable" ], unwords [ "be", "sociable" ] ]
                               `imperf`     FCaL,
@@ -3426,9 +3230,9 @@ cluster_167 = cluster
 
     lA >| FiCLAn |< Iy |< aT  `noun`    {- <lA-'insAnIyaT> -}  [ "inhumanity" ],
 
-    FiCLAn |< Iy |< At        `noun`    {- <'insAnIyAt> -}     [ "Humanities" ],
+    FiCLAn |< Iy |< At        `noun`    {- <'insAnIyAt> -}     [ "" {- "Humanities" -} ],
 
-    FACiL |< aT               `noun`    {- <'AnisaT> -}        [ "lady", "Miss" ]
+    FACiL |< aT               `noun`    {- <'AnisaT> -}        [ "lady", "" {- "Miss" -} ]
                               `plural`     FawACiL
                               `plural`     FACiL |< At,
 
@@ -3461,21 +3265,21 @@ cluster_167 = cluster
     `derives` feminine ]
 
 
-cluster_168 = cluster
+cluster_148 = cluster
 
  |> "' q l d" <| [
 
-    "'iqlId" |< Iy            `adj`     {- <'iqlIdIy> -}       [ "Euclidean" ] ]
+    "'iqlId" |< Iy            `adj`     {- <'iqlIdIy> -}       [ "" {- "Euclidean" -} ] ]
 
 
-cluster_169 = cluster
+cluster_149 = cluster
 
  |> "' q .t" <| [
 
     FaCiL                     `noun`    {- <'aqi.t> -}         [ unwords [ "cottage", "cheese" ] ] ]
 
 
-cluster_170 = cluster
+cluster_150 = cluster
 
  |> "' n z m" <| [
 
@@ -3483,21 +3287,15 @@ cluster_170 = cluster
                               `plural`     "'anzIm" |< At ]
 
 
-cluster_171 = cluster
 
- |> "' n y s" <| [
-
-    "'anAyIs"                 `noun`    {- <'anAyIs> -}        [ "Anais" ] ]
-
-
-cluster_172 = cluster
+cluster_151 = cluster
 
  |> "' n t k" <| [
 
     "'antIk" |< aT            `noun`    {- <'antIkaT> -}       [ "antique" ] ]
 
 
-cluster_173 = cluster
+cluster_152 = cluster
 
  |> "' r .d" <| [
 
@@ -3526,14 +3324,14 @@ cluster_173 = cluster
 
 
 
-cluster_174 = cluster
+cluster_153 = cluster
 
  |> "' q q" <| [
 
     FuCL |< aT                `noun`    {- <'uqqaT> -}         [ unwords [ "okka", "(", "weight", "measure", ")" ] ] ]
 
 
-cluster_175 = cluster
+cluster_154 = cluster
 
  |> "' q l m" <| [
 
@@ -3558,14 +3356,14 @@ cluster_175 = cluster
     `derives` feminine ]
 
 
-cluster_176 = cluster
+cluster_155 = cluster
 
  |> "' r ^s y" <| [
 
     "'ar^sI"                  `noun`    {- <'ar^sI> -}         [ unwords [ "arch", "-" ] ] ]
 
 
-cluster_177 = cluster
+cluster_156 = cluster
 
  |> "' r ^s f" <| [
 
@@ -3574,7 +3372,7 @@ cluster_177 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_178 = cluster
+cluster_157 = cluster
 
  |> "' r ^s" <| [
 
@@ -3582,14 +3380,14 @@ cluster_178 = cluster
                               `plural`     FuCUL ]
 
 
-cluster_179 = cluster
+cluster_158 = cluster
 
  |> "' r ^g n" <| [
 
     "'ar^gUn"                 `noun`    {- <'ar^gUn> -}        [ "argon" ] ]
 
 
-cluster_180 = cluster
+cluster_159 = cluster
 
  |> "' r ^g l" <| [
 
@@ -3597,7 +3395,7 @@ cluster_180 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_181 = cluster
+cluster_160 = cluster
 
  |> "' r ^g .h" <| [
 
@@ -3615,7 +3413,7 @@ cluster_181 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_182 = cluster
+cluster_161 = cluster
 
  |> "' r ^g" <| [
 
@@ -3626,7 +3424,7 @@ cluster_182 = cluster
 
  |> "' r ^g" <| [
 
-    FaCAL                     `noun`    {- <'arA^g> -}         [ "Araj" ],
+    FaCAL                     `noun`    {- <'arA^g> -}         [ "" {- "Araj" -} ],
 
     FaCiL                     `verb`    {- <'ari^g> -}         [ unwords [ "be", "aromatic" ] ]
                               `imperf`     FCaL,
@@ -3641,7 +3439,7 @@ cluster_182 = cluster
                               `plural`     FaCA'iL ]
 
 
-cluster_183 = cluster
+cluster_162 = cluster
 
  |> "' r .t q" <| [
 
@@ -3650,7 +3448,7 @@ cluster_183 = cluster
     KaRADIS |< Iy             `adj`     {- <'arA.tIqIy> -}     [ "heretic" ] ]
 
 
-cluster_184 = cluster
+cluster_163 = cluster
 
  |> "' r .t" <| [
 
@@ -3659,7 +3457,7 @@ cluster_184 = cluster
                               `plural`     FuCaL ]
 
 
-cluster_185 = cluster
+cluster_164 = cluster
 
  |> "' r .g n" <| [
 
@@ -3667,21 +3465,21 @@ cluster_185 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_186 = cluster
+cluster_165 = cluster
 
  |> "' r _t" <| [
 
     FaCCaL                    `verb`    {- <'arra_t> -}        [ "ignite", unwords [ "sow", "(", "discord", ")" ] ] ]
 
 
-cluster_187 = cluster
+cluster_166 = cluster
 
  |> "' r _h n" <| [
 
     KaRADiS |< aT             `noun`    {- <'arA_hinaT> -}     [ "notables" ] ]
 
 
-cluster_188 = cluster
+cluster_167 = cluster
 
  |> "' r _h" <| [
 
@@ -3704,39 +3502,33 @@ cluster_188 = cluster
     MuFaCCaL                  `adj`     {- <mu'arra_h> -}      [ "dated", "reported" ] ]
 
 
-cluster_189 = cluster
+cluster_168 = cluster
 
  |> "' r d y" <| [
 
-    "'urdU"                   `noun`    {- <'urdU> -}          [ "Urdu" ] ]
+    "'urdU"                   `noun`    {- <'urdU> -}          [ "" {- "Urdu" -} ] ]
 
 
-cluster_190 = cluster
+cluster_169 = cluster
 
  |> "' r d" <| [
 
-    "'urd" |< Iy              `adj`     {- <'urdIy> -}         [ "Urdu" ] ]
+    "'urd" |< Iy              `adj`     {- <'urdIy> -}         [ "" {- "Urdu" -} ] ]
 
 
-cluster_191 = cluster
 
- |> "' r b l" <| [
-
-    "'arbIl"                  `noun`    {- <'arbIl> -}         [ "Erbil", "Irbil" ] ]
-
-
-cluster_192 = cluster
+cluster_170 = cluster
 
  |> "' r b d" <| [
 
-    "'irbId"                  `noun`    {- <'irbId> -}         [ "Irbid" ],
+    "'irbId"                  `noun`    {- <'irbId> -}         [ "" {- "Irbid" -} ],
 
-    "'irbId" |< Iy            `adj`     {- <'irbIdIy> -}       [ unwords [ "of", "/", "from", "Irbid" ] ],
+    "'irbId" |< Iy            `adj`     {- <'irbIdIy> -}       [ unwords [ "of", "/", "from", "" {- "Irbid" -} ] ],
 
-    "'irbId" |< Iy            `adj`     {- <'irbIdIy> -}       [ "Irbidi" ] ]
+    "'irbId" |< Iy            `adj`     {- <'irbIdIy> -}       [ "" {- "Irbidi" -} ] ]
 
 
-cluster_193 = cluster
+cluster_171 = cluster
 
  |> "' r b" <| [
 
@@ -3778,7 +3570,7 @@ cluster_193 = cluster
     FuCL |< Iy                `adj`     {- <'urbIy> -}         [ "inguinal" ] ]
 
 
-cluster_194 = cluster
+cluster_172 = cluster
 
  |> "' r n b" <| [
 
@@ -3790,29 +3582,21 @@ cluster_194 = cluster
     KaRDaS |< Iy              `adj`     {- <'arnabIy> -}       [ unwords [ "rabbit", "-", "related" ], unwords [ "rabbit", "-", "like" ] ] ]
 
 
-cluster_195 = cluster
 
- |> "' r n" <| [
-
-    "'arUn"                   `noun`    {- <'arUn> -}          [ "Aaron" ],
-
-    "'ArUn"                   `noun`    {- <'ArUn> -}          [ "Aaron" ] ]
-
-
-cluster_196 = cluster
+cluster_173 = cluster
 
  |> "' r m n" <| [
 
-    "'arman" |< Iy            `adj`     {- <'armanIy> -}       [ "Armenian" ]
+    "'arman" |< Iy            `adj`     {- <'armanIy> -}       [ "" {- "Armenian" -} ]
                               `plural`     "'arman" |< Iy |< Un
                               `plural`     "'arman" ]
 
 
-cluster_197 = cluster
+cluster_174 = cluster
 
  |> "" <| [
 
-    "'ArAm" |< Iy             `adj`     {- <'ArAmIy> -}        [ "Aramaic", "Aramean" ] ]
+    "'ArAm" |< Iy             `adj`     {- <'ArAmIy> -}        [ "" {- "Aramaic" -}, "" {- "Aramean" -} ] ]
 
 
 
@@ -3834,14 +3618,8 @@ cluster_197 = cluster
     MiFCaL                    `noun`    {- <mi'ram> -}         [ unwords [ "root", "(", "tooth", ")" ] ] ]
 
 
-cluster_198 = cluster
 
- |> "' r k y" <| [
-
-    "'irkI"                   `noun`    {- <'irkI> -}          [ "Erki" ] ]
-
-
-cluster_199 = cluster
+cluster_175 = cluster
 
  |> "' r k" <| [
 
@@ -3851,7 +3629,7 @@ cluster_199 = cluster
     FuCL |< aT                `noun`    {- <'urkaT> -}         [ "grampus", "orca" ] ]
 
 
-cluster_200 = cluster
+cluster_176 = cluster
 
  |> "' r f" <| [
 
@@ -3867,14 +3645,8 @@ cluster_200 = cluster
     FuCayL |< aT              `noun`    {- <'urayfaT> -}       [ unwords [ "columella", "(", "middle", "ear", "bone", ")" ] ] ]
 
 
-cluster_201 = cluster
 
- |> "' r t r" <| [
-
-    "'artUr"                  `noun`    {- <'artUr> -}         [ "Arture" ] ]
-
-
-cluster_202 = cluster
+cluster_177 = cluster
 
  |> "' r t q" <| [
 
@@ -3883,7 +3655,7 @@ cluster_202 = cluster
     KaRADIS |< Iy             `adj`     {- <'arAtIqIy> -}      [ "heretic" ] ]
 
 
-cluster_203 = cluster
+cluster_178 = cluster
 
  |> "" <| [
 
@@ -3907,7 +3679,7 @@ cluster_203 = cluster
     FaCIL                     `noun`    {- <'arIs> -}          [ "peasant", "farmer" ] ]
 
 
-cluster_204 = cluster
+cluster_179 = cluster
 
  |> "" <| [
 
@@ -3918,10 +3690,10 @@ cluster_204 = cluster
 
  |> "' r r" <| [
 
-    "'Ar" |< Iy               `adj`     {- <'ArIy> -}          [ "Aryan" ] ]
+    "'Ar" |< Iy               `adj`     {- <'ArIy> -}          [ "" {- "Aryan" -} ] ]
 
 
-cluster_205 = cluster
+cluster_180 = cluster
 
  |> "' r q" <| [
 
@@ -3948,7 +3720,7 @@ cluster_205 = cluster
                               `plural`     FaCaL |< At ]
 
 
-cluster_206 = cluster
+cluster_181 = cluster
 
  |> "' r n k" <| [
 
@@ -3956,32 +3728,32 @@ cluster_206 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_207 = cluster
+cluster_182 = cluster
 
  |> "' s b n" <| [
 
-    "'isbAn" |< Iy            `adj`     {- <'isbAnIy> -}       [ "Spanish", "Spaniard" ]
+    "'isbAn" |< Iy            `adj`     {- <'isbAnIy> -}       [ "" {- "Spanish" -}, "" {- "Spaniard" -} ]
                               `plural`     "'isbAn" |< Iy |< Un
                               `plural`     "'isbAn" ]
 
 
-cluster_208 = cluster
+cluster_183 = cluster
 
  |> "' s ^g" <| [
 
-    "'asU^g"                  `noun`    {- <'asU^g> -}         [ "Sweden" ],
+    "'asU^g"                  `noun`    {- <'asU^g> -}         [ "" {- "Sweden" -} ],
 
-    "'asU^g" |< Iy            `adj`     {- <'asU^gIy> -}       [ "Swedish" ] ]
+    "'asU^g" |< Iy            `adj`     {- <'asU^gIy> -}       [ "" {- "Swedish" -} ] ]
 
 
-cluster_209 = cluster
+cluster_184 = cluster
 
  |> "' s .t y" <| [
 
     "'us.tY"                  `noun`    {- <'us.tY> -}         [ "boss", "chief" ] ]
 
 
-cluster_210 = cluster
+cluster_185 = cluster
 
  |> "' s .t r" <| [
 
@@ -3991,14 +3763,14 @@ cluster_210 = cluster
     KuRDUS |< Iy              `adj`     {- <'us.tUrIy> -}      [ "mythological", "legendary", "mythical" ] ]
 
 
-cluster_211 = cluster
+cluster_186 = cluster
 
  |> "' s .t n" <| [
 
     KaRADIS                   `noun`    {- <'asA.tIn> -}       [ "celebrities" ] ]
 
 
-cluster_212 = cluster
+cluster_187 = cluster
 
  |> "' s .t l" <| [
 
@@ -4006,28 +3778,22 @@ cluster_212 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_213 = cluster
 
- |> "' s .h q" <| [
-
-    "'is.hAq"                 `noun`    {- <'is.hAq> -}        [ "Isaac", "Yizhak" ] ]
-
-
-cluster_214 = cluster
+cluster_188 = cluster
 
  |> "' r z" <| [
 
     FaCL                      `noun`    {- <'arz> -}           [ "cedar" ] ]
 
 
-cluster_215 = cluster
+cluster_189 = cluster
 
  |> "' r y n" <| [
 
-    "'aryAn" |< Iy            `adj`     {- <'aryAnIy> -}       [ "Ariani" ] ]
+    "'aryAn" |< Iy            `adj`     {- <'aryAnIy> -}       [ "" {- "Ariani" -} ] ]
 
 
-cluster_216 = cluster
+cluster_190 = cluster
 
  |> "' r y l" <| [
 
@@ -4035,33 +3801,21 @@ cluster_216 = cluster
                               `plural`     "'iryal" |< At ]
 
 
-cluster_217 = cluster
-
- |> "" <| [
-
-    "'arAy"                   `noun`    {- <'arAy> -}          [ "Array" ] ]
-
-
+cluster_191 = cluster
 
  |> "' r y" <| [
 
     FaCL                      `noun`    {- <'ary> -}           [ "honey" ] ]
 
 
-cluster_218 = cluster
-
- |> "" <| [
-
-    "'awraw"                  `noun`    {- <'awraw> -}         [ "Aarau" ] ]
-
-
+cluster_192 = cluster
 
  |> "' r w" <| [
 
     FuCLIy |< aT              `noun`    {- <'urwIyaT> -}       [ unwords [ "mouflon", "(", "wild", "sheep", ")" ] ] ]
 
 
-cluster_219 = cluster
+cluster_193 = cluster
 
  |> "' s f" <| [
 
@@ -4105,13 +3859,13 @@ cluster_219 = cluster
     `derives` feminine ]
 
 
-cluster_220 = cluster
+cluster_194 = cluster
 
  |> "' s d" <| [
 
     IstaFCaL                  `verb`    {- <ista'sad> -}       [ unwords [ "seize", "control" ] ],
 
-    FaCaL                     `noun`    {- <'asad> -}          [ "Asad" ],
+    FaCaL                     `noun`    {- <'asad> -}          [ "" {- "Asad" -} ],
 
     FaCaL                     `noun`    {- <'asad> -}          [ "lion", "lioness" ]
                               `plural`     FuCL
@@ -4119,7 +3873,7 @@ cluster_220 = cluster
                               `plural`     HACAL
                               `plural`     FuCuL,
 
-    FaCaL |< Iy               `adj`     {- <'asadIy> -}        [ "Asadi" ],
+    FaCaL |< Iy               `adj`     {- <'asadIy> -}        [ "" {- "Asadi" -} ],
 
     FaCaL |< Iy               `adj`     {- <'asadIy> -}        [ unwords [ "lion", "-", "related" ], unwords [ "lion", "-", "like" ], "leonine" ],
 
@@ -4127,44 +3881,44 @@ cluster_220 = cluster
                               `plural`     MaFACiL ]
 
 
-cluster_221 = cluster
+cluster_195 = cluster
 
  |> "' s b r" <| [
 
     "'isbUr"                  `noun`    {- <'isbUr> -}         [ "sport" ] ]
 
 
-cluster_222 = cluster
+cluster_196 = cluster
 
  |> "' s m r" <| [
 
-    KaRDaS |< aT              `noun`    {- <'asmaraT> -}       [ "Asmara" ] ]
+    KaRDaS |< aT              `noun`    {- <'asmaraT> -}       [ "" {- "Asmara" -} ] ]
 
 
-cluster_223 = cluster
+cluster_197 = cluster
 
  |> "' s m" <| [
 
-    FuCAL |< aT               `noun`    {- <'usAmaT> -}        [ "Usama", "Osama" ] ]
+    FuCAL |< aT               `noun`    {- <'usAmaT> -}        [ "" {- "Usama" -}, "" {- "Osama" -} ] ]
 
 
-cluster_224 = cluster
+cluster_198 = cluster
 
  |> "' s l m" <| [
 
-    TaKaRDaS                  `verb`    {- <ta'aslam> -}       [ unwords [ "Islamize", "oneself" ], unwords [ "to", "become", "islamized" ] ],
+    TaKaRDaS                  `verb`    {- <ta'aslam> -}       [ unwords [ "" {- "Islamize" -}, "oneself" ], unwords [ "to", "become", "islamized" ] ],
 
-    KaRDaS                    `verb`    {- <'aslam> -}         [ "Islamize" ],
+    KaRDaS                    `verb`    {- <'aslam> -}         [ "" {- "Islamize" -} ],
 
-    KaRDaS |< aT              `noun`    {- <'aslamaT> -}       [ "Islamicization", "Islamification" ],
+    KaRDaS |< aT              `noun`    {- <'aslamaT> -}       [ "" {- "Islamicization" -}, "" {- "Islamification" -} ],
 
-    MuKaRDaS                  `noun`    {- <mu'aslam> -}       [ "Islamicized", "Islamified" ]
+    MuKaRDaS                  `noun`    {- <mu'aslam> -}       [ "" {- "Islamicized" -}, "" {- "Islamified" -} ]
                               `plural`     MuKaRDaS |< Un
                            
     `derives` feminine ]
 
 
-cluster_225 = cluster
+cluster_199 = cluster
 
  |> "' s l" <| [
 
@@ -4192,7 +3946,7 @@ cluster_225 = cluster
     `derives` feminine ]
 
 
-cluster_226 = cluster
+cluster_200 = cluster
 
  |> "' s k l" <| [
 
@@ -4200,7 +3954,7 @@ cluster_226 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_227 = cluster
+cluster_201 = cluster
 
  |> "' s f n" <| [
 
@@ -4210,7 +3964,7 @@ cluster_227 = cluster
     KiRDIS |< Iy              `adj`     {- <'isfInIy> -}       [ unwords [ "wedge", "-", "like" ], "cuneiform" ] ]
 
 
-cluster_228 = cluster
+cluster_202 = cluster
 
  |> "' s r b" <| [
 
@@ -4218,7 +3972,7 @@ cluster_228 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_229 = cluster
+cluster_203 = cluster
 
  |> "' s r" <| [
 
@@ -4252,7 +4006,7 @@ cluster_229 = cluster
     `derives` feminine ]
 
 
-cluster_230 = cluster
+cluster_204 = cluster
 
  |> "' s q l" <| [
 
@@ -4260,7 +4014,7 @@ cluster_230 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_231 = cluster
+cluster_205 = cluster
 
  |> "' s q f" <| [
 
@@ -4272,7 +4026,7 @@ cluster_231 = cluster
     KuRDuS |< Iy |< aT        `noun`    {- <'usqufIyaT> -}     [ "bishopric", "episcopate" ] ]
 
 
-cluster_232 = cluster
+cluster_206 = cluster
 
  |> "' s n" <| [
 
@@ -4294,7 +4048,7 @@ cluster_232 = cluster
     `derives` feminine ]
 
 
-cluster_233 = cluster
+cluster_207 = cluster
 
  |> "' s t _d" <| [
 
@@ -4309,7 +4063,7 @@ cluster_233 = cluster
     KuRDAS |< Iy |< aT        `noun`    {- <'ustA_dIyaT> -}    [ "professorship" ] ]
 
 
-cluster_234 = cluster
+cluster_208 = cluster
 
  |> "" <| [
 
@@ -4319,10 +4073,10 @@ cluster_234 = cluster
 
  |> "' s t" <| [
 
-    "'istAn" |< aT            `noun`    {- <'istAnaT> -}       [ "Istanbul", "Constantinople" ] ]
+    "'istAn" |< aT            `noun`    {- <'istAnaT> -}       [ "" {- "Istanbul" -}, "" {- "Constantinople" -} ] ]
 
 
-cluster_235 = cluster
+cluster_209 = cluster
 
  |> "' s s" <| [
 
@@ -4366,14 +4120,14 @@ cluster_235 = cluster
     MuFaCCaL |< Iy            `adj`     {- <mu'assasIy> -}     [ "institutional", "organizational" ] ]
 
 
-cluster_236 = cluster
+cluster_210 = cluster
 
  |> "' s t n" <| [
 
-    "istUn" |< Iy             `adj`     {- <istUnIy> -}        [ "Estonian" ] ]
+    "istUn" |< Iy             `adj`     {- <istUnIy> -}        [ "" {- "Estonian" -} ] ]
 
 
-cluster_237 = cluster
+cluster_211 = cluster
 
  |> "' s t k" <| [
 
@@ -4386,18 +4140,18 @@ cluster_237 = cluster
     KaRDIS |< aT              `noun`    {- <'astIkaT> -}       [ unwords [ "rubber", "eraser" ] ] ]
 
 
-cluster_238 = cluster
+cluster_212 = cluster
 
  |> "' s t d" <| [
 
     "'istAd"                  `noun`    {- <'istAd> -}         [ "stadium" ] ]
 
 
-cluster_239 = cluster
+cluster_213 = cluster
 
  |> "" <| [
 
-    "'aswAn"                  `noun`    {- <'aswAn> -}         [ "Aswan" ] ]
+    "'aswAn"                  `noun`    {- <'aswAn> -}         [ "" {- "Aswan" -} ] ]
 
 
 
@@ -4451,13 +4205,7 @@ cluster_239 = cluster
     MuFCI                     `adj`     {- <mu'sI> -}          [ "saddening", "discomforting" ] ]
 
 
-cluster_240 = cluster
-
- |> "" <| [
-
-    "'atAl"                   `noun`    {- <'atAl> -}          [ "Atal" ] ]
-
-
+cluster_214 = cluster
 
  |> "' t l" <| [
 
@@ -4465,25 +4213,19 @@ cluster_240 = cluster
                               `plural`     "'UtIl" |< At ]
 
 
-cluster_241 = cluster
 
- |> "' t .g y" <| [
-
-    "'atA.gI"                 `noun`    {- <'atA.gI> -}        [ "Atagi" ] ]
-
-
-cluster_242 = cluster
+cluster_215 = cluster
 
  |> "' s y .t" <| [
 
-    "'asyU.t"                 `noun`    {- <'asyU.t> -}        [ "Asyut" ],
+    "'asyU.t"                 `noun`    {- <'asyU.t> -}        [ "" {- "Asyut" -} ],
 
-    "'asyU.t" |< Iy           `adj`     {- <'asyU.tIy> -}      [ unwords [ "from", "/", "of", "Asyut" ] ],
+    "'asyU.t" |< Iy           `adj`     {- <'asyU.tIy> -}      [ unwords [ "from", "/", "of", "" {- "Asyut" -} ] ],
 
-    "'asyU.t" |< Iy           `adj`     {- <'asyU.tIy> -}      [ "Assiouti" ] ]
+    "'asyU.t" |< Iy           `adj`     {- <'asyU.tIy> -}      [ "" {- "Assiouti" -} ] ]
 
 
-cluster_243 = cluster
+cluster_216 = cluster
 
  |> "' s w r" <| [
 
@@ -4492,14 +4234,8 @@ cluster_243 = cluster
                               `plural`     KuRDAS ]
 
 
-cluster_244 = cluster
 
- |> "' s w n" <| [
-
-    KaRDAS                    `noun`    {- <'aswAn> -}         [ "Aswan" ] ]
-
-
-cluster_245 = cluster
+cluster_217 = cluster
 
  |> "' t w" <| [
 
@@ -4508,7 +4244,7 @@ cluster_245 = cluster
 
 
 
-cluster_246 = cluster
+cluster_218 = cluster
 
  |> "" <| [
 
@@ -4531,7 +4267,7 @@ cluster_246 = cluster
                               `plural`     FuCuL ]
 
 
-cluster_247 = cluster
+cluster_219 = cluster
 
  |> "" <| [
 
@@ -4549,14 +4285,8 @@ cluster_247 = cluster
     MaFCaL |< aT              `noun`    {- <ma'tamaT> -}       [ "mourners" ] ]
 
 
-cluster_248 = cluster
 
- |> "' w .g r" <| [
-
-    KuRDUS                    `noun`    {- <'uw.gUr> -}        [ "Ugur" ] ]
-
-
-cluster_249 = cluster
+cluster_220 = cluster
 
  |> "' w .d" <| [
 
@@ -4564,20 +4294,14 @@ cluster_249 = cluster
                               `plural`     FuCaL ]
 
 
-cluster_250 = cluster
+cluster_221 = cluster
 
  |> "' w '" <| [
 
     FaC                       `conj`    {- <'aw> -}            [ "or" ] ]
 
 
-cluster_251 = cluster
-
- |> "" <| [
-
-    "'UtI"                    `noun`    {- <'UtI> -}           [ "Ottey" ] ]
-
-
+cluster_222 = cluster
 
  |> "' t y" <| [
 
@@ -4604,7 +4328,7 @@ cluster_251 = cluster
     MutaFaCCI                 `adj`     {- <muta'attI> -}      [ "derived", "proceeding" ] ]
 
 
-cluster_252 = cluster
+cluster_223 = cluster
 
  |> "' w d" <| [
 
@@ -4627,7 +4351,7 @@ cluster_252 = cluster
 
 
 
-cluster_253 = cluster
+cluster_224 = cluster
 
  |> "' w b" <| [
 
@@ -4655,7 +4379,7 @@ cluster_253 = cluster
 
 
 
-cluster_254 = cluster
+cluster_225 = cluster
 
  |> "' w ^s" <| [
 
@@ -4663,28 +4387,16 @@ cluster_254 = cluster
                               `plural`     FaCALI ]
 
 
-cluster_255 = cluster
 
- |> "' w ^g n" <| [
-
-    "'U^gIn"                  `noun`    {- <'U^gIn> -}         [ "Eugene" ] ]
-
-
-cluster_256 = cluster
+cluster_226 = cluster
 
  |> "' w ^g" <| [
 
     FaCL                      `noun`    {- <'aw^g> -}          [ "climax", "maximum", "height", "summit" ] ]
 
 
-cluster_257 = cluster
 
- |> "' w k" <| [
-
-    "'Uk"                     `noun`    {- <'Uk> -}            [ "Oak" ] ]
-
-
-cluster_258 = cluster
+cluster_227 = cluster
 
  |> "' w h" <| [
 
@@ -4710,13 +4422,7 @@ cluster_258 = cluster
     MutaFaCCiL                `adj`     {- <muta'awwih> -}     [ "sighing", "exclaiming" ] ]
 
 
-cluster_259 = cluster
-
- |> "" <| [
-
-    "'Uf"                     `noun`    {- <'Uf> -}            [ "Of" ] ]
-
-
+cluster_228 = cluster
 
  |> "' w f" <| [
 
@@ -4733,21 +4439,21 @@ cluster_259 = cluster
     `derives` feminine ]
 
 
-cluster_260 = cluster
+cluster_229 = cluster
 
  |> "' w d s" <| [
 
-    "'UdIs" |< aT             `noun`    {- <'UdIsaT> -}        [ "Odyssey" ] ]
+    "'UdIs" |< aT             `noun`    {- <'UdIsaT> -}        [ "" {- "Odyssey" -} ] ]
 
 
-cluster_261 = cluster
+cluster_230 = cluster
 
  |> "' w d b" <| [
 
-    "'UdIb"                   `noun`    {- <'UdIb> -}          [ "Oedipus" ] ]
+    "'UdIb"                   `noun`    {- <'UdIb> -}          [ "" {- "Oedipus" -} ] ]
 
 
-cluster_262 = cluster
+cluster_231 = cluster
 
  |> "' w l" <| [
 
@@ -4790,7 +4496,7 @@ cluster_262 = cluster
 
     FAL |< Iy                 `adj`     {- <'AlIy> -}          [ "mechanical", "automatic" ],
 
-    FAL |< Iy |<< "aN"        `noun`    {- <'AlIyaN> -}        [ "mechanically", "automatically" ],
+    FAL |< Iy |<< "aN"        `adj`     {- <'AlIyaN> -}        [ "mechanically", "automatically" ],
 
     FAL |< Iy |< aT           `noun`    {- <'AlIyaT> -}        [ "automation", "mechanism" ],
 
@@ -4801,21 +4507,15 @@ cluster_262 = cluster
     FiCAL |< Iy |< aT         `noun`    {- <'iwAlIyaT> -}      [ "mechanism" ] ]
 
 
-cluster_263 = cluster
 
- |> "' w n y" <| [
-
-    "'UnU"                    `noun`    {- <'UnU> -}           [ "Ono", "Ohno" ] ]
-
-
-cluster_264 = cluster
+cluster_232 = cluster
 
  |> "' w n l" <| [
 
     "'UnIl"                   `noun`    {- <'UnIl> -}          [ "O'Neal" ] ]
 
 
-cluster_265 = cluster
+cluster_233 = cluster
 
  |> "" <| [
 
@@ -4843,7 +4543,7 @@ cluster_265 = cluster
                               `plural`     HACiL |< aT ]
 
 
-cluster_266 = cluster
+cluster_234 = cluster
 
  |> "" <| [
 
@@ -4857,97 +4557,71 @@ cluster_266 = cluster
 
 
 
-cluster_267 = cluster
+cluster_235 = cluster
 
  |> "' w l m" <| [
 
-    KuRDAS |< Iy              `adj`     {- <'uwlAmIy> -}       [ "Ulami" ] ]
-
-
-cluster_268 = cluster
-
- |> "' w l f" <| [
-
-    "'UlAf"                   `noun`    {- <'UlAf> -}          [ "Olaf" ] ]
-
-
-cluster_269 = cluster
-
- |> "" <| [
-
-    "'UtI"                    `noun`    {- <'UtI> -}           [ "Ottey" ] ]
+    KuRDAS |< Iy              `adj`     {- <'uwlAmIy> -}       [ "" {- "Ulami" -} ] ]
 
 
 
- |> "' w t y" <| [
-
-    "'UtU"                    `noun`    {- <'UtU> -}           [ "Otto" ] ]
 
 
-cluster_270 = cluster
-
- |> "' w t r" <| [
-
-    "'UtAr"                   `noun`    {- <'UtAr> -}          [ "Uttar" ] ]
-
-
-cluster_271 = cluster
+cluster_236 = cluster
 
  |> "' w t m" <| [
 
     "'UtUmAt" |< Iy           `adj`     {- <'UtUmAtIy> -}      [ "automatic", "automated" ] ]
 
 
-cluster_272 = cluster
+cluster_237 = cluster
 
  |> "' w t l" <| [
 
     "'UtIl"                   `noun`    {- <'UtIl> -}          [ "hotel" ] ]
 
 
-cluster_273 = cluster
+cluster_238 = cluster
 
  |> "' w t" <| [
 
-    "'Ut"                     `noun`    {- <'Ut> -}            [ "August" ] ]
+    "'Ut"                     `noun`    {- <'Ut> -}            [ "" {- "August" -} ] ]
 
 
-cluster_274 = cluster
+cluster_239 = cluster
 
  |> "' w s" <| [
 
-    FaCL                      `noun`    {- <'aws> -}           [ "lynx" ],
-
-    FaCL                      `noun`    {- <'aws> -}           [ "Aws" ] ]
+    FaCL                      `noun`    {- <'aws> -}           [ "lynx" ] ]
 
 
-cluster_275 = cluster
+cluster_240 = cluster
 
  |> "' w r y" <| [
 
-    "'Uruw" |< Iy             `adj`     {- <'UruwIy> -}        [ "Euro" ] ]
+    "'UrU" |< Iy              `adj`     {- <'UruwIy> -}        [ "" {- "Euro" -} ] ]
 
 
-cluster_276 = cluster
+cluster_241 = cluster
 
  |> "' w r b" <| [
 
-    KaRDaS                    `verb`    {- <'awrab> -}         [ "Europeanize" ],
+    KaRDaS                    `verb`    {- <'awrab> -}         [ "" {- "Europeanize" -} ],
 
-    TaKaRDaS                  `verb`    {- <ta'awrab> -}       [ unwords [ "be", "Europeanized" ] ],
+    TaKaRDaS                  `verb`    {- <ta'awrab> -}       [ unwords [ "be", "" {- "Europeanized" -} ] ],
 
-    MuKaRDaS                  `noun`    {- <mu'awrab> -}       [ "Europeanized" ]
+    MuKaRDaS                  `noun`    {- <mu'awrab> -}       [ "" {- "Europeanized" -} ]
                               `plural`     MuKaRDaS |< Un
                            
     `derives` feminine,
 
-    MutaKaRDiS                `noun`    {- <muta'awrib> -}     [ "Europeanized" ]
+    MutaKaRDiS                `noun`    {- <muta'awrib> -}     [ "" {- "Europeanized" -} ]
                               `plural`     MutaKaRDiS |< Un
                            
     `derives` feminine ]
 
 
-cluster_277 = cluster
+cluster_242 = cluster
 
  |> "' w r" <| [
 
@@ -4956,7 +4630,7 @@ cluster_277 = cluster
     FuCAL |< Iy               `adj`     {- <'uwArIy> -}        [ unwords [ "blazing", "thirst" ] ] ]
 
 
-cluster_278 = cluster
+cluster_243 = cluster
 
  |> "' w q" <| [
 
@@ -4970,33 +4644,21 @@ cluster_278 = cluster
                               `plural`     FaCALI ]
 
 
-cluster_279 = cluster
 
- |> "' y ^g h" <| [
-
-    "I^gih"                   `noun`    {- <I^gih> -}          [ "Aegean" ] ]
-
-
-cluster_280 = cluster
+cluster_244 = cluster
 
  |> "' y .t l" <| [
 
-    KiRDAS |< Iy              `adj`     {- <'iy.tAlIy> -}      [ "Italian" ] ]
-
-
-cluster_281 = cluster
-
- |> "' y .g r" <| [
-
-    "'I.gUr"                  `noun`    {- <'I.gUr> -}         [ "Igor" ] ]
+    KiRDAS |< Iy              `adj`     {- <'iy.tAlIy> -}      [ "" {- "Italian" -} ] ]
 
 
 
-cluster_282 = cluster
+
+cluster_245 = cluster
 
  |> "' y .d" <| [
 
-    FaCL |<< "aN"             `noun`    {- <'ay.daN> -}        [ "also" ],
+    FaCL |<< "aN"             `adv`     {- <'ay.daN> -}        [ "also" ],
 
     FAL                       `verb`    {- <'A.d> -}           [ "return", "revert" ]
                               `imperf`     FIL
@@ -5009,28 +4671,22 @@ cluster_282 = cluster
     FaCL |< Iy                `adj`     {- <'ay.dIy> -}        [ "metabolic" ] ]
 
 
-cluster_283 = cluster
+cluster_246 = cluster
 
  |> "' w z n" <| [
 
     "'UzUn"                   `noun`    {- <'UzUn> -}          [ "ozone" ] ]
 
 
-cluster_284 = cluster
+cluster_247 = cluster
 
  |> "' w z" <| [
 
     FaCCaL                    `verb`    {- <'awwaz> -}         [ "ridicule" ] ]
 
 
-cluster_285 = cluster
 
- |> "' w y n" <| [
-
-    "'UyIn"                   `noun`    {- <'UyIn> -}          [ "Oiyn" ] ]
-
-
-cluster_286 = cluster
+cluster_248 = cluster
 
  |> "' w y" <| [
 
@@ -5052,14 +4708,8 @@ cluster_286 = cluster
                               `plural`     MaFACI ]
 
 
-cluster_287 = cluster
 
- |> "' y d y" <| [
-
-    "'IdI"                    `noun`    {- <'IdI> -}           [ "Eddie" ] ]
-
-
-cluster_288 = cluster
+cluster_249 = cluster
 
  |> "' y d" <| [
 
@@ -5077,39 +4727,21 @@ cluster_288 = cluster
                            
     `derives` feminine,
 
-    FiCAL                     `noun`    {- <'iyAd> -}          [ "Iyad", "Eyad" ] ]
+    FiCAL                     `noun`    {- <'iyAd> -}          [ "" {- "Iyad" -}, "" {- "Eyad" -} ] ]
 
 
-cluster_289 = cluster
+cluster_250 = cluster
 
  |> "' y b" <| [
 
-    FaCCUL                    `noun`    {- <'ayyUb> -}         [ "Ayub", "Ayyoub", "Job" ],
+    FaCCUL                    `noun`    {- <'ayyUb> -}         [ "" {- "Ayub" -}, "" {- "Ayyoub" -}, "Job" ],
 
-    FaCCUL |< Iy              `adj`     {- <'ayyUbIy> -}       [ "Ayubi", "Ayubite" ] ]
-
-
-cluster_290 = cluster
-
- |> "' y ^g r" <| [
-
-    "'I^gUr"                  `noun`    {- <'I^gUr> -}         [ "Igor" ] ]
-
-
-cluster_291 = cluster
-
- |> "" <| [
-
-    "'il"                     `noun`    {- <'il> -}            [ unwords [ "El", "(", "in", "\"Beit", "El\"", ")" ] ] ]
+    FaCCUL |< Iy              `adj`     {- <'ayyUbIy> -}       [ "" {- "Ayubi" -}, "" {- "Ayubite" -} ] ]
 
 
 
- |> "" <| [
 
-    "'il"                     `noun`    {- <'il> -}            [ unwords [ "Il", "(", "in", "\"Kim", "Jong", "-", "il\"", "and", "\"Kim", "Il", "-", "sung\"", ")" ] ] ]
-
-
-cluster_292 = cluster
+cluster_251 = cluster
 
  |> "' y k" <| [
 
@@ -5117,48 +4749,12 @@ cluster_292 = cluster
                               `plural`     FaCL ]
 
 
-cluster_293 = cluster
-
- |> "' y h d" <| [
-
-    "'IhUd"                   `noun`    {- <'IhUd> -}          [ "Ehud" ] ]
-
-
-cluster_294 = cluster
-
- |> "' y f t" <| [
-
-    "'IfIt"                   `noun`    {- <'IfIt> -}          [ "Ivette" ] ]
-
-
-cluster_295 = cluster
-
- |> "" <| [
-
-    "'IfAn"                   `noun`    {- <'IfAn> -}          [ "Ivan" ] ]
 
 
 
- |> "' y f n" <| [
-
-    "'IfUn"                   `noun`    {- <'IfUn> -}          [ "Ivonne" ] ]
 
 
-cluster_296 = cluster
-
- |> "' y f" <| [
-
-    "'If"                     `noun`    {- <'If> -}            [ "Ives" ] ]
-
-
-cluster_297 = cluster
-
- |> "' y m y" <| [
-
-    "'aymI"                   `noun`    {- <'aymI> -}          [ "Amy" ] ]
-
-
-cluster_298 = cluster
+cluster_252 = cluster
 
  |> "' y m" <| [
 
@@ -5180,25 +4776,13 @@ cluster_298 = cluster
                               `plural`     TaFaCCuL |< At ]
 
 
-cluster_299 = cluster
-
- |> "' y l y" <| [
-
-    "'IlI"                    `noun`    {- <'IlI> -}           [ "Eli", "Ilie" ] ]
 
 
-cluster_300 = cluster
-
- |> "' y l t" <| [
-
-    "'IlIt"                   `noun`    {- <'IlIt> -}          [ "Elit" ] ]
-
-
-cluster_301 = cluster
+cluster_253 = cluster
 
  |> "' y l l" <| [
 
-    KaRDUS                    `noun`    {- <'aylUl> -}         [ "September" ] ]
+    KaRDUS                    `noun`    {- <'aylUl> -}         [ "" {- "September" -} ] ]
 
 
 
@@ -5207,26 +4791,14 @@ cluster_301 = cluster
     KaRDUS |< aT              `noun`    {- <'aylUlaT> -}       [ "reversal", "devolution" ] ]
 
 
-cluster_302 = cluster
 
- |> "' y r s" <| [
-
-    "'ayris"                  `noun`    {- <'ayris> -}         [ "Aires" ] ]
-
-
-cluster_303 = cluster
+cluster_254 = cluster
 
  |> "" <| [
 
-    "'IrAn"                   `noun`    {- <'IrAn> -}          [ "Iran" ],
+    "'IrAn"                   `noun`    {- <'IrAn> -}          [ "" {- "Iran" -} ],
 
-    "'IrAn" |< Iy             `adj`     {- <'IrAnIy> -}        [ "Iranian" ] ]
-
-
-
- |> "" <| [
-
-    "'Ir"                     `noun`    {- <'Ir> -}            [ "Air" ] ]
+    "'IrAn" |< Iy             `adj`     {- <'IrAnIy> -}        [ "" {- "Iranian" -} ] ]
 
 
 
@@ -5235,7 +4807,7 @@ cluster_303 = cluster
     FaCCAL                    `noun`    {- <'ayyAr> -}         [ "May" ] ]
 
 
-cluster_304 = cluster
+cluster_255 = cluster
 
  |> "' y q n" <| [
 
@@ -5244,19 +4816,7 @@ cluster_304 = cluster
     "'IqUn" |< Iy             `adj`     {- <'IqUnIy> -}        [ "icon" ] ]
 
 
-cluster_305 = cluster
-
- |> "" <| [
-
-    "UyIn"                    `noun`    {- <UyIn> -}           [ "Oiyn" ] ]
-
-
-
- |> "" <| [
-
-    "'iyAn"                   `noun`    {- <'iyAn> -}          [ "Ian" ] ]
-
-
+cluster_256 = cluster
 
  |> "' y n" <| [
 
@@ -5276,12 +4836,6 @@ cluster_305 = cluster
 
 
 
- |> "" <| [
-
-    "'ayAn"                   `noun`    {- <'ayAn> -}          [ "Ayan" ] ]
-
-
-
  |> "' y n" <| [
 
     FaCL |<< "a"              `noun`    {- <'ayna> -}          [ "where" ],
@@ -5289,7 +4843,7 @@ cluster_305 = cluster
     FaCL |<< "a"              `part`    {- <'ayna> -}          [ "where" ] ]
 
 
-cluster_306 = cluster
+cluster_257 = cluster
 
  |> "' z .h" <| [
 
@@ -5305,21 +4859,15 @@ cluster_306 = cluster
 
 
 
-cluster_307 = cluster
 
- |> "' y z y" <| [
-
-    "'IzI"                    `noun`    {- <'IzI> -}           [ "Easy" ] ]
-
-
-cluster_308 = cluster
+cluster_258 = cluster
 
  |> "' y z s" <| [
 
-    "'IzIs"                   `noun`    {- <'IzIs> -}          [ "Isis" ] ]
+    "'IzIs"                   `noun`    {- <'IzIs> -}          [ "" {- "Isis" -} ] ]
 
 
-cluster_309 = cluster
+cluster_259 = cluster
 
  |> "' y y" <| [
 
@@ -5335,18 +4883,18 @@ cluster_309 = cluster
 
  |> "' y y" <| [
 
-    FaCL                      `noun`    {- <'ayy> -}           [ "any", "what", "which" ],
+    FaCL                      `adj`     {- <'ayy> -}           [ "any", "what", "which" ],
 
-    FaCL |<< "aN"             `part`    {- <'ayyaN> -}         [ "whatever", "whichever" ],
+    FaCL |<< "aN"             `adj`     {- <'ayyaN> -}         [ "whatever", "whichever" ],
 
-    FaCL                      `part`    {- <'ayy> -}           [ "which", unwords [ "which", "one" ] ],
+    FaCL                      `noun`    {- <'ayy> -}           [ "which", unwords [ "which", "one" ] ],
 
-    FAL |< aT                 `noun`    {- <'AyaT> -}          [ unwords [ "Quranic", "verse" ], "miracle", "sign", "wonder" ] ]
-
-
+    FAL |< aT                 `noun`    {- <'AyaT> -}          [ unwords [ "" {- "Quranic" -}, "verse" ], "miracle", "sign", "wonder" ] ]
 
 
-cluster_310 = cluster
+
+
+cluster_260 = cluster
 
  |> "' y s" <| [
 
@@ -5358,7 +4906,7 @@ cluster_310 = cluster
     FiCAL                     `noun`    {- <'iyAs> -}          [ "despair" ] ]
 
 
-cluster_311 = cluster
+cluster_261 = cluster
 
  |> "' z l" <| [
 
@@ -5369,10 +4917,10 @@ cluster_311 = cluster
 
     FaCaL |< Iy               `adj`     {- <'azalIy> -}        [ "eternal" ],
 
-    FaCaL |< Iy |<< "aN"      `noun`    {- <'azalIyaN> -}      [ "eternally" ] ]
+    FaCaL |< Iy |<< "aN"      `adj`     {- <'azalIyaN> -}      [ "eternally" ] ]
 
 
-cluster_312 = cluster
+cluster_262 = cluster
 
  |> "' z f" <| [
 
@@ -5388,16 +4936,16 @@ cluster_312 = cluster
     FACiL |< aT               `noun`    {- <'AzifaT> -}        [ "end" ] ]
 
 
-cluster_313 = cluster
+cluster_263 = cluster
 
  |> "' z b k" <| [
 
-    "'azbak"                  `noun`    {- <'azbak> -}         [ "Uzbeks" ],
+    "'azbak"                  `noun`    {- <'azbak> -}         [ "" {- "Uzbeks" -} ],
 
-    "'azbak" |< Iy            `adj`     {- <'azbakIy> -}       [ "Uzbek" ] ]
+    "'azbak" |< Iy            `adj`     {- <'azbakIy> -}       [ "" {- "Uzbek" -} ] ]
 
 
-cluster_314 = cluster
+cluster_264 = cluster
 
  |> "' z b" <| [
 
@@ -5419,7 +4967,7 @@ cluster_314 = cluster
                               `plural`     MaFACIL ]
 
 
-cluster_315 = cluster
+cluster_265 = cluster
 
  |> "' z ^g" <| [
 
@@ -5427,7 +4975,7 @@ cluster_315 = cluster
                               `plural`     HACAL ]
 
 
-cluster_316 = cluster
+cluster_266 = cluster
 
  |> "' z q" <| [
 
@@ -5440,21 +4988,15 @@ cluster_316 = cluster
                               `plural`     MaFACiL ]
 
 
-cluster_317 = cluster
+cluster_267 = cluster
 
  |> "' z n" <| [
 
     "'UzUn"                   `noun`    {- <'UzUn> -}          [ "ozone" ] ]
 
 
-cluster_318 = cluster
 
- |> "' z m r" <| [
-
-    "'izmIr"                  `noun`    {- <'izmIr> -}         [ "Izmir", "Smyrna" ] ]
-
-
-cluster_319 = cluster
+cluster_268 = cluster
 
  |> "' z m l" <| [
 
@@ -5462,7 +5004,7 @@ cluster_319 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_320 = cluster
+cluster_269 = cluster
 
  |> "' z m" <| [
 
@@ -5496,16 +5038,16 @@ cluster_320 = cluster
     `derives` feminine ]
 
 
-cluster_321 = cluster
+cluster_270 = cluster
 
  |> "' z t k" <| [
 
-    "'aztIk"                  `noun`    {- <'aztIk> -}         [ "Aztecs" ],
+    "'aztIk"                  `noun`    {- <'aztIk> -}         [ "" {- "Aztecs" -} ],
 
-    "'aztIk" |< Iy            `adj`     {- <'aztIkIy> -}       [ "Aztec" ] ]
+    "'aztIk" |< Iy            `adj`     {- <'aztIkIy> -}       [ "" {- "Aztec" -} ] ]
 
 
-cluster_322 = cluster
+cluster_271 = cluster
 
  |> "' z t" <| [
 
@@ -5516,7 +5058,7 @@ cluster_322 = cluster
     "'AzUt" |< Iy             `adj`     {- <'AzUtIy> -}        [ "nitrogenous" ] ]
 
 
-cluster_323 = cluster
+cluster_272 = cluster
 
  |> "' z r" <| [
 
@@ -5557,7 +5099,7 @@ cluster_323 = cluster
     `derives` feminine ]
 
 
-cluster_324 = cluster
+cluster_273 = cluster
 
  |> "' z z" <| [
 
@@ -5573,7 +5115,7 @@ cluster_324 = cluster
     FaCIL                     `noun`    {- <'azIz> -}          [ "humming", "buzzing" ] ]
 
 
-cluster_325 = cluster
+cluster_274 = cluster
 
  |> "' z y" <| [
 
@@ -5582,14 +5124,14 @@ cluster_325 = cluster
     FiCA' |<< "a"             `prep`    {- <'izA'a> -}         [ "towards", "facing", "regarding", unwords [ "vis", "-", "a", "-", "vis" ] ] ]
 
 
-cluster_326 = cluster
+cluster_275 = cluster
 
  |> "b ' n" <| [
 
-    "ba'Un" |< aT             `noun`    {- <ba'UnaT> -}        [ unwords [ "Ba'una", "(", "10th", "Coptic", "month,", "June", "8", "-", "July", "7", ")" ] ] ]
+    "ba'Un" |< aT             `noun`    {- <ba'UnaT> -}        [ unwords [ "Ba'una", "(", "10th", "" {- "Coptic" -}, "month,", "" {- "June" -}, "8", "-", "" {- "July" -}, "7", ")" ] ] ]
 
 
-cluster_327 = cluster
+cluster_276 = cluster
 
  |> "b w l" <| [
 
@@ -5608,7 +5150,7 @@ cluster_327 = cluster
     "bAl"                     `noun`    {- <bAl> -}            [ "whale" ] ]
 
 
-cluster_328 = cluster
+cluster_277 = cluster
 
  |> "b ' b '" <| [
 
@@ -5617,21 +5159,21 @@ cluster_328 = cluster
     KuRDuS                    `noun`    {- <bu'bu'> -}         [ "pupil", "source" ] ]
 
 
-cluster_329 = cluster
+cluster_278 = cluster
 
  |> "b ' _h" <| [
 
     FaL                       `noun`    {- <ba_h> -}           [ unwords [ "bravo", "!" ] ] ]
 
 
-cluster_330 = cluster
+cluster_279 = cluster
 
  |> "b ' ^s" <| [
 
     FAL                       `noun`    {- <bA^s> -}           [ "chief" ] ]
 
 
-cluster_331 = cluster
+cluster_280 = cluster
 
  |> "b ' .s" <| [
 
@@ -5639,22 +5181,22 @@ cluster_331 = cluster
                               `plural`     "bA.s" |< At ]
 
 
-cluster_332 = cluster
+cluster_281 = cluster
 
  |> "b ' .g" <| [
 
     FAL |< aT                 `noun`    {- <bA.gaT> -}         [ "celluloid", unwords [ "tortoise", "shell" ] ] ]
 
 
-cluster_333 = cluster
+cluster_282 = cluster
 
  |> "b  w '" <| [
 
-    FAL                       `noun`    {- <bA'> -}            [ unwords [ "ba'", "(", "Arabic", "letter", ")" ], unwords [ "ba's", "(", "Arabic", "letter", ")" ] ]
+    FAL                       `noun`    {- <bA'> -}            [ unwords [ "ba'", "(", "" {- "Arabic" -}, "letter", ")" ], unwords [ "ba's", "(", "" {- "Arabic" -}, "letter", ")" ] ]
                               `plural`     FAL |< At ]
 
 
-cluster_334 = cluster
+cluster_283 = cluster
 
  |> "b ' z" <| [
 
@@ -5663,14 +5205,14 @@ cluster_334 = cluster
                               `plural`     FiCLAn ]
 
 
-cluster_335 = cluster
+cluster_284 = cluster
 
  |> "b ' y" <| [
 
     "bAy"                     `noun`    {- <bAy> -}            [ "Bey" ] ]
 
 
-cluster_336 = cluster
+cluster_285 = cluster
 
  |> "b ' s" <| [
 
@@ -5708,7 +5250,7 @@ cluster_336 = cluster
     `derives` feminine ]
 
 
-cluster_337 = cluster
+cluster_286 = cluster
 
  |> "b ' r" <| [
 
@@ -5725,7 +5267,7 @@ cluster_337 = cluster
     FuCL |< Iy                `adj`     {- <bu'rIy> -}         [ "focal" ] ]
 
 
-cluster_338 = cluster
+cluster_287 = cluster
 
  |> "b .g y" <| [
 
@@ -5756,8 +5298,6 @@ cluster_338 = cluster
 
     IFtiCA' |<< "a"           `prep`    {- <ibti.gA'a> -}      [ unwords [ "with", "the", "aim", "of" ], unwords [ "for", "the", "purpose", "of" ] ],
 
-    IFtiCA' |<< "aN"          `noun`    {- <ibti.gA'aN> -}     [ unwords [ "with", "the", "aim", "of" ], unwords [ "for", "the", "purpose", "of" ] ],
-
     FACI                      `noun`    {- <bA.gI> -}          [ "oppressive", "tyrant", "oppressors" ]
                               `plural`     FuCY |< aT
                               `plural`     FACI |< At,
@@ -5770,7 +5310,7 @@ cluster_338 = cluster
                               `plural`     MuFtaCY |< At ]
 
 
-cluster_339 = cluster
+cluster_288 = cluster
 
  |> "b .t '" <| [
 
@@ -5809,7 +5349,7 @@ cluster_339 = cluster
     `derives` feminine ]
 
 
-cluster_340 = cluster
+cluster_289 = cluster
 
  |> "b .s w" <| [
 
@@ -5817,14 +5357,14 @@ cluster_340 = cluster
                               `plural`     FaCaL |< At ]
 
 
-cluster_341 = cluster
+cluster_290 = cluster
 
  |> "b .t r '" <| [
 
-    "ba.trA'"                 `noun`    {- <ba.trA'> -}        [ "Petra" ] ]
+    "ba.trA'"                 `noun`    {- <ba.trA'> -}        [ "" {- "Petra" -} ] ]
 
 
-cluster_342 = cluster
+cluster_291 = cluster
 
  |> "b .t y" <| [
 
@@ -5832,7 +5372,7 @@ cluster_342 = cluster
                               `plural`     FawACI ]
 
 
-cluster_343 = cluster
+cluster_292 = cluster
 
  |> "b _d '" <| [
 
@@ -5847,14 +5387,14 @@ cluster_343 = cluster
     FaCAL                     `noun`    {- <ba_dA'> -}         [ "obscenity", "contempt" ] ]
 
 
-cluster_344 = cluster
+cluster_293 = cluster
 
  |> "b ^s y" <| [
 
-    "bA^sA" |< Iy             `adj`     {- <bA^sawIy> -}       [ unwords [ "rank", "of", "pasha" ] ] ]
+    "bA^sA" |< Iy             `adj`     {- <bA^sAwIy> -}       [ unwords [ "rank", "of", "pasha" ] ] ]
 
 
-cluster_345 = cluster
+cluster_294 = cluster
 
  |> "b d '" <| [
 
@@ -5888,12 +5428,12 @@ cluster_345 = cluster
 
     MaFCaL |< Iy              `adj`     {- <mabda'Iy> -}       [ "fundamental", "basic" ],
 
-    MaFCaL |< Iy |<< "aN"     `noun`    {- <mabda'IyaN> -}     [ unwords [ "in", "principle" ] ],
+    MaFCaL |< Iy |<< "aN"     `adj`     {- <mabda'IyaN> -}     [ unwords [ "in", "principle" ] ],
 
     IFtiCAL                   `noun`    {- <ibtidA'> -}        [ "beginning", "start" ]
                               `plural`     IFtiCAL |< At,
 
-    IFtiCAL |<< "aN"          `adj`     {- <ibtidA'aN> -}      [ unwords [ "beginning", "from" ], unwords [ "as", "of" ] ],
+    IFtiCAL |<< "aN"          `noun`    {- <ibtidA'aN> -}      [ unwords [ "beginning", "from" ], unwords [ "as", "of" ] ],
 
     IFtiCAL |< Iy             `adj`     {- <ibtidA'Iy> -}      [ "elementary", "preparatory" ],
 
@@ -5914,7 +5454,7 @@ cluster_345 = cluster
                               `plural`     HiFCAL |< At ]
 
 
-cluster_346 = cluster
+cluster_295 = cluster
 
  |> "b d w" <| [
 
@@ -5930,12 +5470,12 @@ cluster_346 = cluster
     FaCY |< aT                `noun`    {- <badAT> -}          [ "whim", "caprice" ]
                               `plural`     FaCaL |< At,
 
-    FaC |<< "awIy"            `adj`     {- <badawIy> -}        [ "Bedouin" ]
+    FaC |<< "awIy"            `adj`     {- <badawIy> -}        [ "" {- "Bedouin" -} ]
                               `plural`     FaC |<< "awIy" |< Un
                               `plural`     FaCL
                               `plural`     FuCY |< aT,
 
-    FaCAL |< aT               `noun`    {- <badAwaT> -}        [ unwords [ "desert", "life" ], "nomadism", unwords [ "Bedouin", "life" ] ]
+    FaCAL |< aT               `noun`    {- <badAwaT> -}        [ unwords [ "desert", "life" ], "nomadism", unwords [ "" {- "Bedouin" -}, "life" ] ]
                               `plural`     FiCAL |< aT,
 
     HiFCA'                    `noun`    {- <'ibdA'> -}         [ "expression", "manifestation" ]
@@ -5946,21 +5486,21 @@ cluster_346 = cluster
 
     FACI |< aT                `noun`    {- <bAdiyaT> -}        [ "desert" ],
 
-    FawACI                    `noun`    {- <bawAdI> -}         [ "nomads", "Bedouins" ],
+    FawACI                    `noun`    {- <bawAdI> -}         [ "nomads", "" {- "Bedouins" -} ],
 
     MuFCI                     `noun`    {- <mubdI> -}          [ "expressing", "showing", "demonstrating" ] ]
 
 
-cluster_347 = cluster
+cluster_296 = cluster
 
  |> "b h l y" <| [
 
-    "bahlawIy"                `adj`     {- <bahlawIy> -}       [ "Pahlavi", "Pahlevi" ],
+    "bahlawI"                 `adj`     {- <bahlawI> -}        [ "" {- "Pahlavi" -}, "" {- "Pahlevi" -} ],
 
-    "bahlawIy"                `adj`     {- <bahlawIy> -}       [ "Bahlawi", "Bahlaoui" ] ]
+    "bahlawI"                 `adj`     {- <bahlawI> -}        [ "" {- "Bahlawi" -}, "" {- "Bahlaoui" -} ] ]
 
 
-cluster_348 = cluster
+cluster_297 = cluster
 
  |> "b h w" <| [
 
@@ -5985,7 +5525,7 @@ cluster_348 = cluster
 
     FaCA'                     `noun`    {- <bahA'> -}          [ "beauty", "brilliancy" ],
 
-    FaCA' |< Iy               `adj`     {- <bahA'Iy> -}        [ "Baha'i" ],
+    FaCA' |< Iy               `adj`     {- <bahA'Iy> -}        [ "" {- "Baha'i" -} ],
 
     HaFCY                     `noun`    {- <'abhY> -}          [ unwords [ "more", "/", "most", "splendid" ] ],
 
@@ -5998,7 +5538,7 @@ cluster_348 = cluster
                               `plural`     MutaFACI |< At ]
 
 
-cluster_349 = cluster
+cluster_298 = cluster
 
  |> "b k '" <| [
 
@@ -6043,14 +5583,14 @@ cluster_349 = cluster
     MuFCI                     `noun`    {- <mubkI> -}          [ "tearful", "lamentable" ] ]
 
 
-cluster_350 = cluster
+cluster_299 = cluster
 
  |> "b l '" <| [
 
     "bal"                     `conj`    {- <bal> -}            [ unwords [ "but", "rather" ], unwords [ "in", "fact" ] ] ]
 
 
-cluster_351 = cluster
+cluster_300 = cluster
 
  |> "b k y" <| [
 
@@ -6058,7 +5598,7 @@ cluster_351 = cluster
                               `plural`     "bakA" |< At ]
 
 
-cluster_352 = cluster
+cluster_301 = cluster
 
  |> "" <| [
 
@@ -6081,6 +5621,8 @@ cluster_352 = cluster
 
 
  |> "b l w" <| [
+
+    lA >| MuFACI              `adj`     {- <lA-mubAlI> -}      [ "indifferent", "apathetic", "indifference", "apathy" ],
 
     FaCA                      `verb`    {- <balA> -}           [ "afflict", "test" ]
                               `imperf`     FCU,
@@ -6114,14 +5656,8 @@ cluster_352 = cluster
     MuFtaCY                   `adj`     {- <mubtalY> -}        [ "afflicted", "suffering" ] ]
 
 
-cluster_353 = cluster
 
- |> "b m b y" <| [
-
-    "bumbAy"                  `noun`    {- <bumbAy> -}         [ "Bombay" ] ]
-
-
-cluster_354 = cluster
+cluster_302 = cluster
 
  |> "b l y n" <| [
 
@@ -6130,7 +5666,7 @@ cluster_354 = cluster
                               `plural`     KiRDUS |< At ]
 
 
-cluster_355 = cluster
+cluster_303 = cluster
 
  |> "b l w r" <| [
 
@@ -6152,13 +5688,13 @@ cluster_355 = cluster
     `derives` feminine ]
 
 
-cluster_356 = cluster
+cluster_304 = cluster
 
  |> "b n y" <| [
 
-    FaCCA                     `noun`    {- <bannA> -}          [ "Banna" ],
+    FaCCA                     `noun`    {- <bannA> -}          [ "" {- "Banna" -} ],
 
-    FaCCA'                    `noun`    {- <bannA'> -}         [ "Banna" ],
+    FaCCA'                    `noun`    {- <bannA'> -}         [ "" {- "Banna" -} ],
 
     FaCCA'                    `adj`     {- <bannA'> -}         [ "constructive" ],
 
@@ -6208,20 +5744,14 @@ cluster_356 = cluster
     FiCA'                     `noun`    {- <binA'> -}          [ "build", "construct" ] ]
 
 
-cluster_357 = cluster
+cluster_305 = cluster
 
  |> "b n w r" <| [
 
     "banwAr"                  `noun`    {- <banwAr> -}         [ "baignoire" ] ]
 
 
-cluster_358 = cluster
-
- |> "" <| [
-
-    "bUnI"                    `noun`    {- <bUnI> -}           [ "Boni" ] ]
-
-
+cluster_306 = cluster
 
  |> "" <| [
 
@@ -6247,7 +5777,7 @@ cluster_358 = cluster
 
     FiC                       `noun`    {- <bin> -}            [ "son" ],
 
-    FaCI                      `noun`    {- <banI> -}           [ "Bani", "Beni", "Benny" ],
+    FaCI                      `noun`    {- <banI> -}           [ "" {- "Bani" -}, "" {- "Beni" -}, "" {- "Benny" -} ],
 
     FaC |< Un                 `noun`    {- <banUn> -}          [ unwords [ "sons", "/", "children", "of" ] ],
 
@@ -6261,14 +5791,14 @@ cluster_358 = cluster
                               `plural`     TaFaCCI |< At ]
 
 
-cluster_359 = cluster
+cluster_307 = cluster
 
  |> "b q l w" <| [
 
     "baqlAw" |< aT            `noun`    {- <baqlAwaT> -}       [ "baklava" ] ]
 
 
-cluster_360 = cluster
+cluster_308 = cluster
 
  |> "b q y" <| [
 
@@ -6294,9 +5824,9 @@ cluster_360 = cluster
     IstiFCA'                  `noun`    {- <istibqA'> -}       [ "maintenance", "continuation" ]
                               `plural`     IstiFCA' |< At,
 
-    FACI                      `noun`    {- <bAqI> -}           [ "Baqi" ],
+    FACI                      `noun`    {- <bAqI> -}           [ "" {- "Baqi" -} ],
 
-    FawACI                    `noun`    {- <bawAqI> -}         [ "Bawaqi" ],
+    FawACI                    `noun`    {- <bawAqI> -}         [ "" {- "Bawaqi" -} ],
 
     FACI                      `noun`    {- <bAqI> -}           [ "remainder" ]
                               `plural`     FACI |< At,
@@ -6305,7 +5835,7 @@ cluster_360 = cluster
                               `plural`     MutaFaCCI |< At ]
 
 
-cluster_361 = cluster
+cluster_309 = cluster
 
  |> "b r '" <| [
 
@@ -6314,7 +5844,7 @@ cluster_361 = cluster
                            
     `derives` feminine,
 
-    FACiL                     `noun`    {- <bAri'> -}          [ "Creator" ],
+    FACiL                     `noun`    {- <bAri'> -}          [ "" {- "Creator" -} ],
 
     FaCL                      `noun`    {- <bar'> -}           [ "creation" ],
 
@@ -6363,7 +5893,7 @@ cluster_361 = cluster
                               `plural`     IstiFCAL |< At ]
 
 
-cluster_362 = cluster
+cluster_310 = cluster
 
  |> "b r .g y" <| [
 
@@ -6371,14 +5901,14 @@ cluster_362 = cluster
                               `plural`     KaRADI ]
 
 
-cluster_363 = cluster
+cluster_311 = cluster
 
  |> "b r m '" <| [
 
     "barmA'" |< Iy            `adj`     {- <barmA'Iy> -}       [ "amphibious" ] ]
 
 
-cluster_364 = cluster
+cluster_312 = cluster
 
  |> "b r w z" <| [
 
@@ -6388,7 +5918,7 @@ cluster_364 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_365 = cluster
+cluster_313 = cluster
 
  |> "b r w" <| [
 
@@ -6396,7 +5926,7 @@ cluster_365 = cluster
                               `plural`     FaCaL |< At ]
 
 
-cluster_366 = cluster
+cluster_314 = cluster
 
  |> "" <| [
 
@@ -6407,13 +5937,7 @@ cluster_366 = cluster
 
  |> "" <| [
 
-    "bArI"                    `noun`    {- <bArI> -}           [ "Paris" ] ]
-
-
-
- |> "" <| [
-
-    "bArI"                    `noun`    {- <bArI> -}           [ "Bari", "Bary" ] ]
+    "bArI"                    `noun`    {- <bArI> -}           [ "" {- "Bari" -}, "" {- "Bary" -} ] ]
 
 
 
@@ -6443,7 +5967,7 @@ cluster_366 = cluster
                               `plural`     MutaFACI |< At ]
 
 
-cluster_367 = cluster
+cluster_315 = cluster
 
  |> "b s '" <| [
 
@@ -6453,30 +5977,24 @@ cluster_367 = cluster
     FaCL                      `noun`    {- <bas'> -}           [ unwords [ "amicable", "treatment" ], "intimacy" ] ]
 
 
-cluster_368 = cluster
 
- |> "b s k y" <| [
-
-    "biskAy"                  `noun`    {- <biskAy> -}         [ "Biscay" ] ]
-
-
-cluster_369 = cluster
+cluster_316 = cluster
 
  |> "b t r '" <| [
 
-    "bitrA'"                  `noun`    {- <bitrA'> -}         [ "Petra" ],
+    "bitrA'"                  `noun`    {- <bitrA'> -}         [ "" {- "Petra" -} ],
 
-    "batrA'"                  `noun`    {- <batrA'> -}         [ "Petra" ] ]
+    "batrA'"                  `noun`    {- <batrA'> -}         [ "" {- "Petra" -} ] ]
 
 
-cluster_370 = cluster
+cluster_317 = cluster
 
  |> "b w .g" <| [
 
     FaCCaL                    `verb`    {- <bawwa.g> -}        [ "surprise" ] ]
 
 
-cluster_371 = cluster
+cluster_318 = cluster
 
  |> "b w '" <| [
 
@@ -6502,14 +6020,8 @@ cluster_371 = cluster
     MutaFaCCiL                `adj`     {- <mutabawwi'> -}     [ "holding", "occupying", unwords [ "acceding", "(", "throne", ")" ] ] ]
 
 
-cluster_372 = cluster
 
- |> "b t y" <| [
-
-    "bUtI"                    `noun`    {- <bUtI> -}           [ "Petit" ] ]
-
-
-cluster_373 = cluster
+cluster_319 = cluster
 
  |> "b w .z" <| [
 
@@ -6518,7 +6030,7 @@ cluster_373 = cluster
     FUL |< aT                 `noun`    {- <bU.zaT> -}         [ "beer" ] ]
 
 
-cluster_374 = cluster
+cluster_320 = cluster
 
  |> "b w .t" <| [
 
@@ -6528,14 +6040,14 @@ cluster_374 = cluster
     FUL |< aT                 `noun`    {- <bU.taT> -}         [ "crucible", unwords [ "melting", "pot" ] ] ]
 
 
-cluster_375 = cluster
+cluster_321 = cluster
 
  |> "b w .s l" <| [
 
     "baw.sal" |< aT           `noun`    {- <baw.salaT> -}      [ "compass" ] ]
 
 
-cluster_376 = cluster
+cluster_322 = cluster
 
  |> "b w .s" <| [
 
@@ -6545,7 +6057,7 @@ cluster_376 = cluster
                               `plural`     FUL |< At ]
 
 
-cluster_377 = cluster
+cluster_323 = cluster
 
  |> "b w .h" <| [
 
@@ -6577,7 +6089,7 @@ cluster_377 = cluster
     `derives` feminine ]
 
 
-cluster_378 = cluster
+cluster_324 = cluster
 
  |> "b w .g z" <| [
 
@@ -6585,14 +6097,14 @@ cluster_378 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_379 = cluster
+cluster_325 = cluster
 
  |> "b w .g d" <| [
 
     KuRDAS |< aT              `noun`    {- <buw.gAdaT> -}      [ "potash", "lye" ] ]
 
 
-cluster_380 = cluster
+cluster_326 = cluster
 
  |> "b w `" <| [
 
@@ -6602,14 +6114,8 @@ cluster_380 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_381 = cluster
 
- |> "b w _h m" <| [
-
-    "bU_hUm"                  `noun`    {- <bU_hUm> -}         [ "Bochum" ] ]
-
-
-cluster_382 = cluster
+cluster_327 = cluster
 
  |> "b w _h" <| [
 
@@ -6627,25 +6133,19 @@ cluster_382 = cluster
     `derives` feminine ]
 
 
-cluster_383 = cluster
+cluster_328 = cluster
 
  |> "b w _d" <| [
 
-    "bU_dA"                   `noun`    {- <bU_dA> -}          [ "Buddha" ],
+    "bU_d" |<< "A"            `noun`    {- <bU_dA> -}          [ "" {- "Buddha" -} ],
 
-    "bU_d" |< Iy              `adj`     {- <bU_dIy> -}         [ "Buddhist" ],
+    "bU_d" |< Iy              `adj`     {- <bU_dIy> -}         [ "" {- "Buddhist" -} ],
 
-    "bU_d" |< Iy |< aT        `noun`    {- <bU_dIyaT> -}       [ "Buddhism" ] ]
-
-
-cluster_384 = cluster
-
- |> "b w ^s r" <| [
-
-    "bU^sir"                  `noun`    {- <bU^sir> -}         [ "Boucher" ] ]
+    "bU_d" |< Iy |< aT        `noun`    {- <bU_dIyaT> -}       [ "" {- "Buddhism" -} ] ]
 
 
-cluster_385 = cluster
+
+cluster_329 = cluster
 
  |> "b w ^s" <| [
 
@@ -6659,44 +6159,38 @@ cluster_385 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_386 = cluster
+cluster_330 = cluster
 
  |> "b w ^g h" <| [
 
     KuRDIS                    `noun`    {- <buw^gIh> -}        [ unwords [ "spark", "plug" ] ] ]
 
 
-cluster_387 = cluster
+cluster_331 = cluster
 
  |> "b w k r" <| [
 
     "bUkir"                   `noun`    {- <bUkir> -}          [ "poker" ] ]
 
 
-cluster_388 = cluster
+cluster_332 = cluster
 
  |> "b w h m" <| [
 
-    "bUhImiyA"                `noun`    {- <bUhImiyA> -}       [ "Bohemian" ],
+    "bUhIm" |< iyA            `noun`    {- <bUhImiyA> -}       [ "" {- "Bohemian" -} ],
 
-    "bUhIm" |< Iy             `adj`     {- <bUhImIy> -}        [ "Bohemian" ] ]
-
-
-cluster_389 = cluster
-
- |> "b w f n" <| [
-
-    "bUfUn"                   `noun`    {- <bUfUn> -}          [ "Buffon" ] ]
+    "bUhIm" |< Iy             `adj`     {- <bUhImIy> -}        [ "" {- "Bohemian" -} ] ]
 
 
-cluster_390 = cluster
+
+cluster_333 = cluster
 
  |> "b w f h" <| [
 
     "bUfIh"                   `noun`    {- <bUfIh> -}          [ "buffet" ] ]
 
 
-cluster_391 = cluster
+cluster_334 = cluster
 
  |> "b w d q" <| [
 
@@ -6704,14 +6198,14 @@ cluster_391 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_392 = cluster
+cluster_335 = cluster
 
  |> "b w b n" <| [
 
     "bUbIn" |< aT             `noun`    {- <bUbInaT> -}        [ "spool", "reel" ] ]
 
 
-cluster_393 = cluster
+cluster_336 = cluster
 
  |> "b w b" <| [
 
@@ -6744,28 +6238,22 @@ cluster_393 = cluster
     FUL                       `noun`    {- <bUb> -}            [ "pop" ] ]
 
 
-cluster_394 = cluster
 
- |> "b w l q" <| [
-
-    KuRDAS                    `noun`    {- <buwlAq> -}         [ "Bulaq" ] ]
-
-
-cluster_395 = cluster
+cluster_337 = cluster
 
  |> "b w l f" <| [
 
-    "bUlIf" |< Iy             `adj`     {- <bUlIfIy> -}        [ "Bolivian" ] ]
+    "bUlIf" |< Iy             `adj`     {- <bUlIfIy> -}        [ "" {- "Bolivian" -} ] ]
 
 
-cluster_396 = cluster
+cluster_338 = cluster
 
  |> "b w l d" <| [
 
     KuRDAS                    `noun`    {- <buwlAd> -}         [ "steel" ] ]
 
 
-cluster_397 = cluster
+cluster_339 = cluster
 
  |> "b w l .s" <| [
 
@@ -6773,7 +6261,7 @@ cluster_397 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_398 = cluster
+cluster_340 = cluster
 
  |> "b w l" <| [
 
@@ -6806,7 +6294,7 @@ cluster_398 = cluster
     MiFCaL |< aT              `noun`    {- <mibwalaT> -}       [ "bedpan" ] ]
 
 
-cluster_399 = cluster
+cluster_341 = cluster
 
  |> "b w q l" <| [
 
@@ -6814,7 +6302,7 @@ cluster_399 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_400 = cluster
+cluster_342 = cluster
 
  |> "b w q" <| [
 
@@ -6839,14 +6327,8 @@ cluster_400 = cluster
                               `plural`     FawA'iL ]
 
 
-cluster_401 = cluster
 
- |> "b w n y" <| [
-
-    "bUnI"                    `noun`    {- <bUnI> -}           [ "Boni" ] ]
-
-
-cluster_402 = cluster
+cluster_343 = cluster
 
  |> "b w n" <| [
 
@@ -6854,7 +6336,7 @@ cluster_402 = cluster
                               `plural`     FUL ]
 
 
-cluster_403 = cluster
+cluster_344 = cluster
 
  |> "b w m" <| [
 
@@ -6863,14 +6345,14 @@ cluster_403 = cluster
                               `plural`     FUL |< At ]
 
 
-cluster_404 = cluster
+cluster_345 = cluster
 
  |> "b w l y" <| [
 
     "bUlU"                    `noun`    {- <bUlU> -}           [ "polo" ] ]
 
 
-cluster_405 = cluster
+cluster_346 = cluster
 
  |> "b w l s" <| [
 
@@ -6882,7 +6364,7 @@ cluster_405 = cluster
     KuRDIS |< Iy              `adj`     {- <buwlIsIy> -}       [ "police", "detective" ] ]
 
 
-cluster_406 = cluster
+cluster_347 = cluster
 
  |> "b w t q" <| [
 
@@ -6890,21 +6372,15 @@ cluster_406 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_407 = cluster
 
- |> "b w t n" <| [
-
-    "bUtIn"                   `noun`    {- <bUtIn> -}          [ "Putin" ] ]
-
-
-cluster_408 = cluster
+cluster_348 = cluster
 
  |> "b w t k" <| [
 
     "bUtIk"                   `noun`    {- <bUtIk> -}          [ "boutique" ] ]
 
 
-cluster_409 = cluster
+cluster_349 = cluster
 
  |> "b w s" <| [
 
@@ -6916,35 +6392,29 @@ cluster_409 = cluster
                               `plural`     FUL |< At ]
 
 
-cluster_410 = cluster
+cluster_350 = cluster
 
  |> "b w r y" <| [
 
     "bUrI"                    `noun`    {- <bUrI> -}           [ "bugle", unwords [ "signal", "horn" ] ] ]
 
 
-cluster_411 = cluster
 
- |> "b w r s" <| [
-
-    "bUrIs"                   `noun`    {- <bUrIs> -}          [ "Boris" ] ]
-
-
-cluster_412 = cluster
+cluster_351 = cluster
 
  |> "b w r q" <| [
 
     KaRDaS                    `noun`    {- <bawraq> -}         [ "borax" ] ]
 
 
-cluster_413 = cluster
+cluster_352 = cluster
 
  |> "b w r ^g" <| [
 
     KuRDUS |< Iy              `adj`     {- <buwrU^gIy> -}      [ "bugler" ] ]
 
 
-cluster_414 = cluster
+cluster_353 = cluster
 
  |> "b w r" <| [
 
@@ -6965,7 +6435,7 @@ cluster_414 = cluster
     FULAn |< Iy               `adj`     {- <bUrAnIy> -}        [ unwords [ "vegetable", "stew" ] ] ]
 
 
-cluster_415 = cluster
+cluster_354 = cluster
 
  |> "b y '" <| [
 
@@ -6974,7 +6444,7 @@ cluster_415 = cluster
     FIL |< Iy                 `adj`     {- <bI'Iy> -}          [ "environmental" ] ]
 
 
-cluster_416 = cluster
+cluster_355 = cluster
 
  |> "b w z" <| [
 
@@ -6998,27 +6468,15 @@ cluster_416 = cluster
     `derives` feminine ]
 
 
-cluster_417 = cluster
+cluster_356 = cluster
 
  |> "b w y" <| [
 
     FUL |< aT                 `noun`    {- <bUyaT> -}          [ "paint" ] ]
 
 
-cluster_418 = cluster
 
- |> "" <| [
-
-    "bUtU"                    `noun`    {- <bUtU> -}           [ "Bhutto" ] ]
-
-
-
- |> "b w t y" <| [
-
-    "bUtI"                    `noun`    {- <bUtI> -}           [ "Petit" ] ]
-
-
-cluster_419 = cluster
+cluster_357 = cluster
 
  |> "b y .d" <| [
 
@@ -7046,14 +6504,14 @@ cluster_419 = cluster
 
     FaCLA' |< Iy              `adj`     {- <bay.dAwIy> -}      [ "oval" ],
 
-    FaCLA' |< Iy              `adj`     {- <bay.dAwIy> -}      [ "Casablancan" ],
+    FaCLA' |< Iy              `adj`     {- <bay.dAwIy> -}      [ "" {- "Casablancan" -} ],
 
     FaCAL                     `noun`    {- <bayA.d> -}         [ "whiteness" ],
 
     HaFCaL                    `adj`     {- <'abya.d> -}        [ "white" ]
                               `femini`     FaCLA',
 
-    FIL                       `noun`    {- <bI.d> -}           [ "white", "Caucasian" ],
+    FIL                       `noun`    {- <bI.d> -}           [ "white", "" {- "Caucasian" -} ],
 
     MaFIL                     `noun`    {- <mabI.d> -}         [ "ovary" ],
 
@@ -7079,21 +6537,9 @@ cluster_419 = cluster
     MuFaCCaL |< aT            `noun`    {- <mubayya.daT> -}    [ unwords [ "fair", "copy" ] ] ]
 
 
-cluster_420 = cluster
-
- |> "b y ^s" <| [
-
-    "bI^s" |< Iy              `adj`     {- <bI^sIy> -}         [ "Bishi" ] ]
 
 
-cluster_421 = cluster
-
- |> "b y ^g" <| [
-
-    "bI^gAn"                  `noun`    {- <bI^gAn> -}         [ "Bijan" ] ]
-
-
-cluster_422 = cluster
+cluster_358 = cluster
 
  |> "b y .t r" <| [
 
@@ -7107,21 +6553,15 @@ cluster_422 = cluster
     KaRDaS |< aT              `noun`    {- <bay.taraT> -}      [ "veterinary" ] ]
 
 
-cluster_423 = cluster
 
- |> "b y .g n" <| [
-
-    "bI.gin"                  `noun`    {- <bI.gin> -}         [ "Begin" ] ]
-
-
-cluster_424 = cluster
+cluster_359 = cluster
 
  |> "b y .d n" <| [
 
-    KaRDUS                    `noun`    {- <bay.dUn> -}        [ "Baidun", "Baidoun" ] ]
+    KaRDUS                    `noun`    {- <bay.dUn> -}        [ "" {- "Baidun" -}, "" {- "Baidoun" -} ] ]
 
 
-cluster_425 = cluster
+cluster_360 = cluster
 
  |> "b y `" <| [
 
@@ -7184,40 +6624,22 @@ cluster_425 = cluster
     FIL |< aT                 `noun`    {- <bI`aT> -}          [ "church", "synagogue" ] ]
 
 
-cluster_426 = cluster
+cluster_361 = cluster
 
  |> "b y l" <| [
 
     FIL                       `noun`    {- <bIl> -}            [ unwords [ "ball", "bearing" ], "marble" ] ]
 
 
-cluster_427 = cluster
-
- |> "" <| [
-
-    "baykir"                  `noun`    {- <baykir> -}         [ "Baker" ] ]
-
-
+cluster_362 = cluster
 
  |> "b y k r" <| [
 
     KiRDAS                    `noun`    {- <biykAr> -}         [ "compass", "dividers" ] ]
 
 
-cluster_428 = cluster
 
- |> "b y k n" <| [
-
-    "bIkIn"                   `noun`    {- <bIkIn> -}          [ "Peking", "Beijing" ] ]
-
-
-cluster_429 = cluster
-
- |> "" <| [
-
-    "bIdAr"                   `noun`    {- <bIdAr> -}          [ "Bidar" ] ]
-
-
+cluster_363 = cluster
 
  |> "b y d r" <| [
 
@@ -7225,7 +6647,7 @@ cluster_429 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_430 = cluster
+cluster_364 = cluster
 
  |> "b y d q" <| [
 
@@ -7233,7 +6655,7 @@ cluster_430 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_431 = cluster
+cluster_365 = cluster
 
  |> "" <| [
 
@@ -7270,28 +6692,22 @@ cluster_431 = cluster
     `derives` feminine ]
 
 
-cluster_432 = cluster
+cluster_366 = cluster
 
  |> "b y b" <| [
 
     "bIb"                     `noun`    {- <bIb> -}            [ "pipe", "tube" ] ]
 
 
-cluster_433 = cluster
+cluster_367 = cluster
 
  |> "b y m" <| [
 
-    FaCCUL |< Iy              `adj`     {- <bayyUmIy> -}       [ "Bayyoumi" ] ]
+    FaCCUL |< Iy              `adj`     {- <bayyUmIy> -}       [ "" {- "Bayyoumi" -} ] ]
 
 
-cluster_434 = cluster
 
- |> "b y l n" <| [
-
-    "bIlIn"                   `noun`    {- <bIlIn> -}          [ "Bilin", "Billin" ] ]
-
-
-cluster_435 = cluster
+cluster_368 = cluster
 
  |> "b y n" <| [
 
@@ -7326,7 +6742,7 @@ cluster_435 = cluster
     FaCAL                     `noun`    {- <bayAn> -}          [ "communique", "statement", "declaration" ]
                               `plural`     FaCAL |< At,
 
-    FaCAL                     `noun`    {- <bayAn> -}          [ "Bayan" ],
+    FaCAL                     `noun`    {- <bayAn> -}          [ "" {- "Bayan" -} ],
 
     FaCAL |< At               `noun`    {- <bayAnAt> -}        [ "data" ]
                               `plural`     FaCAL |< At,
@@ -7384,53 +6800,35 @@ cluster_435 = cluster
     MaFCUL |< aT              `noun`    {- <mabyUnaT> -}       [ "distance" ] ]
 
 
-cluster_436 = cluster
+cluster_369 = cluster
 
  |> "b y s n" <| [
 
     "bIsUn"                   `noun`    {- <bIsUn> -}          [ "bison" ] ]
 
 
-cluster_437 = cluster
+cluster_370 = cluster
 
  |> "b y s" <| [
 
-    FaCL |< aT                `noun`    {- <baysaT> -}         [ unwords [ "baysa", "(", "Yemeni", "coin", ")" ] ] ]
+    FaCL |< aT                `noun`    {- <baysaT> -}         [ unwords [ "baysa", "(", "" {- "Yemeni" -}, "coin", ")" ] ] ]
 
 
-cluster_438 = cluster
-
- |> "b y r z" <| [
-
-    "bIrIz"                   `noun`    {- <bIrIz> -}          [ "Peres" ] ]
 
 
-cluster_439 = cluster
-
- |> "b y r y" <| [
-
-    "bIrI"                    `noun`    {- <bIrI> -}           [ "Perry" ] ]
-
-
-cluster_440 = cluster
+cluster_371 = cluster
 
  |> "b y r t" <| [
 
-    "bayrUt"                  `noun`    {- <bayrUt> -}         [ "Beirut" ],
+    "bayrUt"                  `noun`    {- <bayrUt> -}         [ "" {- "Beirut" -} ],
 
-    "bayrUt" |< Iy            `adj`     {- <bayrUtIy> -}       [ "Beiruti" ],
+    "bayrUt" |< Iy            `adj`     {- <bayrUtIy> -}       [ "" {- "Beiruti" -} ],
 
-    "bayrUt" |< Iy            `adj`     {- <bayrUtIy> -}       [ "Beirouti", "Bairuti" ] ]
-
-
-cluster_441 = cluster
-
- |> "b y r s" <| [
-
-    "bIrIs"                   `noun`    {- <bIrIs> -}          [ "Peres" ] ]
+    "bayrUt" |< Iy            `adj`     {- <bayrUtIy> -}       [ "" {- "Beirouti" -}, "" {- "Bairuti" -} ] ]
 
 
-cluster_442 = cluster
+
+cluster_372 = cluster
 
  |> "b y r q" <| [
 
@@ -7438,57 +6836,27 @@ cluster_442 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_443 = cluster
 
- |> "" <| [
-
-    "bIrUn"                   `noun`    {- <bIrUn> -}          [ "Peron" ] ]
-
-
-
- |> "b y r n" <| [
-
-    KiRDUS |< Iy              `adj`     {- <biyrUnIy> -}       [ "Biruni", "Birouni" ] ]
-
-
-cluster_444 = cluster
+cluster_373 = cluster
 
  |> "b y r f" <| [
 
-    "bIrUf" |< Iy             `adj`     {- <bIrUfIy> -}        [ "Peruvian" ] ]
+    "bIrUf" |< Iy             `adj`     {- <bIrUfIy> -}        [ "" {- "Peruvian" -} ] ]
 
 
-cluster_445 = cluster
+cluster_374 = cluster
 
  |> "b y r" <| [
 
     FaCCAL |< aT              `noun`    {- <bayyAraT> -}       [ "plantation", "grove" ],
 
-    FIL |< aT                 `noun`    {- <bIraT> -}          [ "Birah", "Bireh" ] ]
+    FIL |< aT                 `noun`    {- <bIraT> -}          [ "" {- "Birah" -}, "" {- "Bireh" -} ] ]
 
 
-cluster_446 = cluster
-
- |> "b y n n" <| [
-
-    "bInUn"                   `noun`    {- <bInUn> -}          [ "Benon" ] ]
 
 
-cluster_447 = cluster
 
- |> "b y t s" <| [
-
-    "bItIs"                   `noun`    {- <bItIs> -}          [ "Betis" ] ]
-
-
-cluster_448 = cluster
-
- |> "b y t r" <| [
-
-    "bItAr"                   `noun`    {- <bItAr> -}          [ "Bitar", "Betar" ] ]
-
-
-cluster_449 = cluster
+cluster_375 = cluster
 
  |> "b y t" <| [
 
@@ -7500,7 +6868,7 @@ cluster_449 = cluster
 
     HaFAL                     `verb`    {- <'abAt> -}          [ unwords [ "give", "overnight", "lodging" ], unwords [ "be", "given", "overnight", "lodging" ] ],
 
-    FaCL                      `noun`    {- <bayt> -}           [ "Beit" ],
+    FaCL                      `noun`    {- <bayt> -}           [ "" {- "Beit" -} ],
 
     FaCL                      `noun`    {- <bayt> -}           [ "Bet" ],
 
@@ -7537,10 +6905,10 @@ cluster_449 = cluster
                            
     `derives` feminine,
 
-    FaCLA' |< Iy              `adj`     {- <baytAwIy> -}       [ "Beitawi" ] ]
+    FaCLA' |< Iy              `adj`     {- <baytAwIy> -}       [ "" {- "Beitawi" -} ] ]
 
 
-cluster_450 = cluster
+cluster_376 = cluster
 
  |> "b z y" <| [
 
@@ -7549,7 +6917,7 @@ cluster_450 = cluster
                               `plural`     FawACI ]
 
 
-cluster_451 = cluster
+cluster_377 = cluster
 
  |> "_t w y" <| [
 
@@ -7572,14 +6940,8 @@ cluster_451 = cluster
                               `plural`     MaFACI ]
 
 
-cluster_452 = cluster
 
- |> "^g ' t" <| [
-
-    "^git"                    `noun`    {- <^git> -}           [ "Jet" ] ]
-
-
-cluster_453 = cluster
+cluster_378 = cluster
 
  |> "^g ' r" <| [
 
@@ -7591,14 +6953,8 @@ cluster_453 = cluster
     FuCAL                     `noun`    {- <^gu'Ar> -}         [ "lowing", "mooing" ] ]
 
 
-cluster_454 = cluster
 
- |> "^g ' n" <| [
-
-    "^gAn"                    `noun`    {- <^gAn> -}           [ "Jean", "Jan" ] ]
-
-
-cluster_455 = cluster
+cluster_379 = cluster
 
  |> "^g ' m" <| [
 
@@ -7606,21 +6962,15 @@ cluster_455 = cluster
                               `plural`     "^gAm" |< At ]
 
 
-cluster_456 = cluster
 
- |> "^g ' k" <| [
-
-    "^gAk"                    `noun`    {- <^gAk> -}           [ "Jacques", "Jack" ] ]
-
-
-cluster_457 = cluster
+cluster_380 = cluster
 
  |> "^g ' h" <| [
 
     "^gAh"                    `noun`    {- <^gAh> -}           [ "rank", "dignity" ] ]
 
 
-cluster_458 = cluster
+cluster_381 = cluster
 
  |> "^g ' ^s" <| [
 
@@ -7632,7 +6982,7 @@ cluster_458 = cluster
     FACiL                     `adj`     {- <^gA'i^s> -}        [ "agitated", "excited" ] ]
 
 
-cluster_459 = cluster
+cluster_382 = cluster
 
  |> "^g ' ^g '" <| [
 
@@ -7640,14 +6990,14 @@ cluster_459 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_460 = cluster
+cluster_383 = cluster
 
  |> "^g ' '" <| [
 
-    "^gA'" |< Iy              `adj`     {- <^gA'Iy> -}         [ "Javanese" ] ]
+    "^gA'" |< Iy              `adj`     {- <^gA'Iy> -}         [ "" {- "Javanese" -} ] ]
 
 
-cluster_461 = cluster
+cluster_384 = cluster
 
  |> "^g ' z" <| [
 
@@ -7655,7 +7005,7 @@ cluster_461 = cluster
                               `plural`     "^gAz" |< At ]
 
 
-cluster_462 = cluster
+cluster_385 = cluster
 
  |> "^g ^s '" <| [
 
@@ -7668,7 +7018,7 @@ cluster_462 = cluster
     FuCL |< aT                `noun`    {- <^gu^s'aT> -}       [ "burping", "belching" ] ]
 
 
-cluster_463 = cluster
+cluster_386 = cluster
 
  |> "^g _d w" <| [
 
@@ -7677,11 +7027,11 @@ cluster_463 = cluster
                               `plural`     FiCA' ]
 
 
-cluster_464 = cluster
+cluster_387 = cluster
 
  |> "^g _t w" <| [
 
-    FACI                      `noun`    {- <^gA_tI> -}         [ "Hercules" ],
+    FACI                      `noun`    {- <^gA_tI> -}         [ "" {- "Hercules" -} ],
 
     FACI                      `adj`     {- <^gA_tI> -}         [ "kneeling" ],
 
@@ -7695,14 +7045,14 @@ cluster_464 = cluster
     FuCL |< aT                `noun`    {- <^gu_twaT> -}       [ unwords [ "rock", "pile" ], unwords [ "sepulchral", "mound" ] ] ]
 
 
-cluster_465 = cluster
+cluster_388 = cluster
 
  |> "^g ` w" <| [
 
     FiC |< aT                 `noun`    {- <^gi`aT> -}         [ "beer" ] ]
 
 
-cluster_466 = cluster
+cluster_389 = cluster
 
  |> "^g b y" <| [
 
@@ -7731,7 +7081,7 @@ cluster_466 = cluster
                               `plural`     FawACI ]
 
 
-cluster_467 = cluster
+cluster_390 = cluster
 
  |> "^g d w l" <| [
 
@@ -7743,7 +7093,7 @@ cluster_467 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_468 = cluster
+cluster_391 = cluster
 
  |> "^g f '" <| [
 
@@ -7753,11 +7103,11 @@ cluster_468 = cluster
     FuCAL                     `noun`    {- <^gufA'> -}         [ "dross", "refuse", "futility" ] ]
 
 
-cluster_469 = cluster
+cluster_392 = cluster
 
  |> "^g d y" <| [
 
-    FaCL                      `noun`    {- <^gady> -}          [ "Capricorn" ],
+    FaCL                      `noun`    {- <^gady> -}          [ "" {- "Capricorn" -} ],
 
     FaCL                      `noun`    {- <^gady> -}          [ "goat" ]
                               `plural`     FiCA'
@@ -7784,7 +7134,7 @@ cluster_469 = cluster
     MuFCI                     `adj`     {- <mu^gdI> -}         [ "useful", "suitable" ] ]
 
 
-cluster_470 = cluster
+cluster_393 = cluster
 
  |> "^g f w" <| [
 
@@ -7808,7 +7158,7 @@ cluster_470 = cluster
                               `plural`     FuCY |< aT ]
 
 
-cluster_471 = cluster
+cluster_394 = cluster
 
  |> "^g h y" <| [
 
@@ -7818,7 +7168,7 @@ cluster_471 = cluster
     HaFCY                     `noun`    {- <'a^ghY> -}         [ "roofless", "bald" ] ]
 
 
-cluster_472 = cluster
+cluster_395 = cluster
 
  |> "^g h w r" <| [
 
@@ -7827,20 +7177,14 @@ cluster_472 = cluster
     KaRDaS |< Iy              `adj`     {- <^gahwarIy> -}      [ "loud" ] ]
 
 
-cluster_473 = cluster
+cluster_396 = cluster
 
  |> "^g k y" <| [
 
     "^gUkI"                   `noun`    {- <^gUkI> -}          [ "jockey" ] ]
 
 
-cluster_474 = cluster
-
- |> "" <| [
-
-    "^gUlI"                   `noun`    {- <^gUlI> -}          [ "Julie" ] ]
-
-
+cluster_397 = cluster
 
  |> "^g l y" <| [
 
@@ -7849,7 +7193,7 @@ cluster_474 = cluster
 
     FaCIL                     `adj`     {- <^galIy> -}         [ "clear", "obvious" ],
 
-    FaCIL |<< "aN"            `noun`    {- <^galIyaN> -}       [ "obviously", "evidently" ],
+    FaCIL |<< "aN"            `adj`     {- <^galIyaN> -}       [ "obviously", "evidently" ],
 
     FaCIL |< aT               `noun`    {- <^galIyaT> -}       [ unwords [ "sure", "thing" ], unwords [ "plain", "fact" ] ]
                               `plural`     FaCALY,
@@ -7907,14 +7251,14 @@ cluster_474 = cluster
                               `plural`     MutaFaCCI |< At ]
 
 
-cluster_475 = cluster
+cluster_398 = cluster
 
  |> "^g l w n" <| [
 
     MuKaRDaS                  `adj`     {- <mu^galwan> -}      [ "galvanized" ] ]
 
 
-cluster_476 = cluster
+cluster_399 = cluster
 
  |> "^g n y" <| [
 
@@ -7954,7 +7298,7 @@ cluster_476 = cluster
     MaFCIL                    `adj`     {- <ma^gnIy> -}        [ "victimized", "aggrieved" ] ]
 
 
-cluster_477 = cluster
+cluster_400 = cluster
 
  |> "^g r '" <| [
 
@@ -7977,14 +7321,14 @@ cluster_477 = cluster
     MuFtaCiL                  `adj`     {- <mu^gtari'> -}      [ "bold", "forward" ] ]
 
 
-cluster_478 = cluster
+cluster_401 = cluster
 
  |> "^g s '" <| [
 
     FACiL                     `adj`     {- <^gAsi'> -}         [ "rough", "rugged" ] ]
 
 
-cluster_479 = cluster
+cluster_402 = cluster
 
  |> "^g r y" <| [
 
@@ -8019,22 +7363,13 @@ cluster_479 = cluster
 
     HiFCA' |< Iy              `adj`     {- <'i^grA'Iy> -}      [ "operational" ],
 
-    FACI |<< "aN"             `noun`    {- <^gAriyaN> -}       [ "occurring", "happening", "flowing" ],
-
-    FACI                      `adj`     {- <^gArI> -}          [ "current", "present", "proceeding", unwords [ "taking", "place" ] ]
-                              `plural`     FACI |< At,
+    FACI                      `adj`     {- <^gArI> -}          [ "current", "present", "proceeding", unwords [ "taking", "place" ], "occurring", "happening", "flowing" ],
 
     FACI |< aT                `noun`    {- <^gAriyaT> -}       [ "housemaid", "maids" ]
                               `plural`     FawACI ]
 
 
-cluster_480 = cluster
-
- |> "" <| [
-
-    "^git"                    `noun`    {- <^git> -}           [ "Jet" ] ]
-
-
+cluster_403 = cluster
 
  |> "" <| [
 
@@ -8047,7 +7382,7 @@ cluster_480 = cluster
     FiCAL |< aT               `noun`    {- <^gitAyaT> -}       [ unwords [ "head", "-", "scarf" ] ] ]
 
 
-cluster_481 = cluster
+cluster_404 = cluster
 
  |> "^g s w" <| [
 
@@ -8055,7 +7390,7 @@ cluster_481 = cluster
                               `imperf`     FCU ]
 
 
-cluster_482 = cluster
+cluster_405 = cluster
 
  |> "^g w `" <| [
 
@@ -8087,7 +7422,7 @@ cluster_482 = cluster
     HiFAL |< aT               `noun`    {- <'i^gA`aT> -}       [ unwords [ "making", "starve" ] ] ]
 
 
-cluster_483 = cluster
+cluster_406 = cluster
 
  |> "^g w _h" <| [
 
@@ -8095,7 +7430,7 @@ cluster_483 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_484 = cluster
+cluster_407 = cluster
 
  |> "^g w .t" <| [
 
@@ -8103,7 +7438,7 @@ cluster_484 = cluster
                               `plural`     FaCA'iL ]
 
 
-cluster_485 = cluster
+cluster_408 = cluster
 
  |> "^g w .h" <| [
 
@@ -8126,14 +7461,8 @@ cluster_485 = cluster
                               `plural`     FawA'iL ]
 
 
-cluster_486 = cluster
 
- |> "^g w b h" <| [
-
-    "^gUnIh"                  `noun`    {- <^gUnIh> -}         [ "Joubeh" ] ]
-
-
-cluster_487 = cluster
+cluster_409 = cluster
 
  |> "^g w b" <| [
 
@@ -8182,14 +7511,14 @@ cluster_487 = cluster
     MustaFIL                  `adj`     {- <musta^gIb> -}      [ "responsive", "answering" ] ]
 
 
-cluster_488 = cluster
+cluster_410 = cluster
 
  |> "^g w d y" <| [
 
     "^gUdU"                   `noun`    {- <^gUdU> -}          [ "judo" ] ]
 
 
-cluster_489 = cluster
+cluster_411 = cluster
 
  |> "^g w d" <| [
 
@@ -8207,7 +7536,7 @@ cluster_489 = cluster
                               `plural`     FayyiL |< Un
                               `plural`     FiyAL,
 
-    FaCAL                     `noun`    {- <^gawAd> -}         [ "Jawad" ],
+    FaCAL                     `noun`    {- <^gawAd> -}         [ "" {- "Jawad" -} ],
 
     FaCAL                     `adj`     {- <^gawAd> -}         [ "generous", "liberal" ]
                               `plural`     FaCAL |< Un
@@ -8234,21 +7563,15 @@ cluster_489 = cluster
                               `femini`     FaCLA' ]
 
 
-cluster_490 = cluster
+cluster_412 = cluster
 
  |> "^g w k y" <| [
 
     "^gUkI"                   `noun`    {- <^gUkI> -}          [ "jockey" ] ]
 
 
-cluster_491 = cluster
 
- |> "^g w k r" <| [
-
-    "^gUkir"                  `noun`    {- <^gUkir> -}         [ "Joker" ] ]
-
-
-cluster_492 = cluster
+cluster_413 = cluster
 
  |> "^g w h r" <| [
 
@@ -8261,26 +7584,26 @@ cluster_492 = cluster
     KaRDaS                    `noun`    {- <^gawhar> -}        [ "essence", "substance" ]
                               `plural`     KaRADiS,
 
-    KaRDaS                    `noun`    {- <^gawhar> -}        [ "Jawhar" ],
+    KaRDaS                    `noun`    {- <^gawhar> -}        [ "" {- "Jawhar" -} ],
 
     KaRDaS |< Iy              `adj`     {- <^gawharIy> -}      [ "fundamental", "essential" ],
 
-    KaRDaS |< Iy              `adj`     {- <^gawharIy> -}      [ "Jawhari" ],
+    KaRDaS |< Iy              `adj`     {- <^gawharIy> -}      [ "" {- "Jawhari" -} ],
 
-    KaRADiS |< Iy             `adj`     {- <^gawAhirIy> -}     [ "Jawahiri", "Jawahri" ],
+    KaRADiS |< Iy             `adj`     {- <^gawAhirIy> -}     [ "" {- "Jawahiri" -}, "" {- "Jawahri" -} ],
 
     MuKaRDaS                  `adj`     {- <mu^gawhar> -}      [ "decorated", "jewelry" ]
                               `plural`     MuKaRDaS |< At ]
 
 
-cluster_493 = cluster
+cluster_414 = cluster
 
  |> "^g w h" <| [
 
-    "^gAwah"                  `noun`    {- <^gAwah> -}         [ "Java" ] ]
+    "^gAwah"                  `noun`    {- <^gAwah> -}         [ "" {- "Java" -} ] ]
 
 
-cluster_494 = cluster
+cluster_415 = cluster
 
  |> "^g w f" <| [
 
@@ -8302,20 +7625,8 @@ cluster_494 = cluster
     MuFaCCaL                  `adj`     {- <mu^gawwaf> -}      [ "hollow", unwords [ "hollowed", "out" ] ] ]
 
 
-cluster_495 = cluster
 
- |> "" <| [
-
-    "^gUlU"                   `noun`    {- <^gUlU> -}          [ "Jolo" ] ]
-
-
-
- |> "^g w l y" <| [
-
-    "^gUlI"                   `noun`    {- <^gUlI> -}          [ "Julie" ] ]
-
-
-cluster_496 = cluster
+cluster_416 = cluster
 
  |> "^g w l" <| [
 
@@ -8339,7 +7650,7 @@ cluster_496 = cluster
 
     FaCCAL |< aT              `noun`    {- <^gawwAlaT> -}      [ "wanderer", "traveler" ],
 
-    FaCLAn                    `noun`    {- <^gawlAn> -}        [ "Golan" ],
+    FaCLAn                    `noun`    {- <^gawlAn> -}        [ "" {- "Golan" -} ],
 
     FaCaLAn                   `noun`    {- <^gawalAn> -}       [ "roving", "wandering" ],
 
@@ -8354,7 +7665,7 @@ cluster_496 = cluster
     MutaFaCCiL                `adj`     {- <muta^gawwil> -}    [ "traveling", "itinerant" ] ]
 
 
-cluster_497 = cluster
+cluster_417 = cluster
 
  |> "^g w q" <| [
 
@@ -8363,7 +7674,7 @@ cluster_497 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_498 = cluster
+cluster_418 = cluster
 
  |> "^g w n" <| [
 
@@ -8371,7 +7682,7 @@ cluster_498 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_499 = cluster
+cluster_419 = cluster
 
  |> "^g w s" <| [
 
@@ -8382,7 +7693,7 @@ cluster_499 = cluster
     IFtAL                     `verb`    {- <i^gtAs> -}         [ "search", "investigate" ] ]
 
 
-cluster_500 = cluster
+cluster_420 = cluster
 
  |> "^g w r b" <| [
 
@@ -8390,7 +7701,7 @@ cluster_500 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_501 = cluster
+cluster_421 = cluster
 
  |> "^g w r" <| [
 
@@ -8437,7 +7748,7 @@ cluster_501 = cluster
     MutaFACiL                 `adj`     {- <muta^gAwir> -}     [ "adjoining", "contiguous" ] ]
 
 
-cluster_502 = cluster
+cluster_422 = cluster
 
  |> "^g w y" <| [
 
@@ -8451,7 +7762,7 @@ cluster_502 = cluster
     FaCY                      `noun`    {- <^gawY> -}          [ "passion" ] ]
 
 
-cluster_503 = cluster
+cluster_423 = cluster
 
  |> "^g w w" <| [
 
@@ -8468,21 +7779,21 @@ cluster_503 = cluster
     FULAn |< Iy |< aT         `noun`    {- <^gUwAnIyaT> -}     [ "intimacy" ] ]
 
 
-cluster_504 = cluster
+cluster_424 = cluster
 
  |> "^g w t" <| [
 
     "^gUt"                    `noun`    {- <^gUt> -}           [ unwords [ "jute", "fiber" ] ] ]
 
 
-cluster_505 = cluster
+cluster_425 = cluster
 
  |> "^g w s s" <| [
 
     KaRDaS |< aT              `noun`    {- <^gawsasaT> -}      [ "espionage" ] ]
 
 
-cluster_506 = cluster
+cluster_426 = cluster
 
  |> "^g w s q" <| [
 
@@ -8490,11 +7801,11 @@ cluster_506 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_507 = cluster
+cluster_427 = cluster
 
  |> "^g w z" <| [
 
-    FaCLA'                    `noun`    {- <^gawzA'> -}        [ "Gemini" ] ]
+    FaCLA'                    `noun`    {- <^gawzA'> -}        [ "" {- "Gemini" -} ] ]
 
 
 
@@ -8564,7 +7875,7 @@ cluster_507 = cluster
     `derives` feminine ]
 
 
-cluster_508 = cluster
+cluster_428 = cluster
 
  |> "^g y ^s" <| [
 
@@ -8592,7 +7903,7 @@ cluster_508 = cluster
     FA'iL                     `adj`     {- <^gA'i^s> -}        [ "agitated", "excited" ] ]
 
 
-cluster_509 = cluster
+cluster_429 = cluster
 
  |> "^g y '" <| [
 
@@ -8609,7 +7920,7 @@ cluster_509 = cluster
                               `plural`     FAL |< Un ]
 
 
-cluster_510 = cluster
+cluster_430 = cluster
 
  |> "^g w z l" <| [
 
@@ -8617,49 +7928,19 @@ cluster_510 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_511 = cluster
-
- |> "^g w z h" <| [
-
-    "^gUzIh"                  `noun`    {- <^gUzIh> -}         [ "Jose" ] ]
-
-
-cluster_512 = cluster
-
- |> "" <| [
-
-    "^gUzif"                  `noun`    {- <^gUzif> -}         [ "Joseph" ] ]
 
 
 
- |> "^g w z f" <| [
 
-    "^gUzIf"                  `noun`    {- <^gUzIf> -}         [ "Josef" ] ]
-
-
-cluster_513 = cluster
-
- |> "^g w z b" <| [
-
-    "^gUzIb"                  `noun`    {- <^gUzIb> -}         [ "Josip" ] ]
-
-
-cluster_514 = cluster
-
- |> "^g y m y" <| [
-
-    "^gImI"                   `noun`    {- <^gImI> -}          [ "Jimmy" ] ]
-
-
-cluster_515 = cluster
+cluster_431 = cluster
 
  |> "^g y m" <| [
 
-    FIL                       `noun`    {- <^gIm> -}           [ unwords [ "jim", "(", "Arabic", "letter", ")" ] ]
+    FIL                       `noun`    {- <^gIm> -}           [ unwords [ "jim", "(", "" {- "Arabic" -}, "letter", ")" ] ]
                               `plural`     FIL |< At ]
 
 
-cluster_516 = cluster
+cluster_432 = cluster
 
  |> "^g y l" <| [
 
@@ -8669,21 +7950,15 @@ cluster_516 = cluster
     FIL |< Iy                 `adj`     {- <^gIlIy> -}         [ "generational", "secular" ] ]
 
 
-cluster_517 = cluster
 
- |> "^g y k f" <| [
-
-    "^gIkUf"                  `noun`    {- <^gIkUf> -}         [ "Chekov", "Jekov" ] ]
-
-
-cluster_518 = cluster
+cluster_433 = cluster
 
  |> "^g y h" <| [
 
-    FILAn                     `noun`    {- <^gIhAn> -}         [ "Jihan" ] ]
+    FILAn                     `noun`    {- <^gIhAn> -}         [ "" {- "Jihan" -} ] ]
 
 
-cluster_519 = cluster
+cluster_434 = cluster
 
  |> "^g y f" <| [
 
@@ -8698,14 +7973,14 @@ cluster_519 = cluster
     FIL |< Iy                 `adj`     {- <^gIfIy> -}         [ "cadaverous" ] ]
 
 
-cluster_520 = cluster
+cluster_435 = cluster
 
  |> "^g y b t" <| [
 
-    "^gIbUtI"                 `adj`     {- <^gIbUtI> -}        [ "Djibouti" ] ]
+    "^gIbUtI"                 `adj`     {- <^gIbUtI> -}        [ "" {- "Djibouti" -} ] ]
 
 
-cluster_521 = cluster
+cluster_436 = cluster
 
  |> "^g y b" <| [
 
@@ -8715,27 +7990,21 @@ cluster_521 = cluster
     FaCL |< Iy                `adj`     {- <^gaybIy> -}        [ "pocket" ] ]
 
 
-cluster_522 = cluster
+cluster_437 = cluster
 
  |> "^g y z" <| [
 
-    FIL |< aT                 `noun`    {- <^gIzaT> -}         [ "Giza" ],
+    FIL |< aT                 `noun`    {- <^gIzaT> -}         [ "" {- "Giza" -} ],
 
-    FILA' |< Iy               `adj`     {- <^gIzAwIy> -}       [ unwords [ "of", "/", "from", "Giza" ] ],
+    FILA' |< Iy               `adj`     {- <^gIzAwIy> -}       [ unwords [ "of", "/", "from", "" {- "Giza" -} ] ],
 
-    FILAn                     `noun`    {- <^gIzAn> -}         [ "Jizan" ],
+    FILAn                     `noun`    {- <^gIzAn> -}         [ "" {- "Jizan" -} ],
 
-    FILAn |< Iy               `adj`     {- <^gIzAnIy> -}       [ "Jizani" ] ]
-
-
-cluster_523 = cluster
-
- |> "^g y r m" <| [
-
-    "^gIrUm"                  `noun`    {- <^gIrUm> -}         [ "Jerome" ] ]
+    FILAn |< Iy               `adj`     {- <^gIzAnIy> -}       [ "" {- "Jizani" -} ] ]
 
 
-cluster_524 = cluster
+
+cluster_438 = cluster
 
  |> "^g y r" <| [
 
@@ -8750,21 +8019,15 @@ cluster_524 = cluster
     FaCCAL |< aT              `noun`    {- <^gayyAraT> -}      [ unwords [ "lime", "kiln" ] ] ]
 
 
-cluster_525 = cluster
 
- |> "^g y n" <| [
-
-    "^gIn"                    `noun`    {- <^gIn> -}           [ "Jeanne" ] ]
-
-
-cluster_526 = cluster
+cluster_439 = cluster
 
  |> "^g z ' r" <| [
 
-    KaRDaS |< aT              `noun`    {- <^gaz'araT> -}      [ "Algerianization" ] ]
+    KaRDaS |< aT              `noun`    {- <^gaz'araT> -}      [ "" {- "Algerianization" -} ] ]
 
 
-cluster_527 = cluster
+cluster_440 = cluster
 
  |> "^g z '" <| [
 
@@ -8799,7 +8062,7 @@ cluster_527 = cluster
                               `plural`     IFtiCAL |< At ]
 
 
-cluster_528 = cluster
+cluster_441 = cluster
 
  |> "^g z y" <| [
 
@@ -8825,27 +8088,27 @@ cluster_528 = cluster
 
     MuFACI                    `noun`    {- <mu^gAzI> -}        [ "remunerator" ],
 
-    MuFACI                    `noun`    {- <mu^gAzI> -}        [ "Mugazi" ] ]
+    MuFACI                    `noun`    {- <mu^gAzI> -}        [ "" {- "Mugazi" -} ] ]
 
 
-cluster_529 = cluster
+cluster_442 = cluster
 
  |> ".h ' m" <| [
 
-    ".hAm"                    `noun`    {- <.hAm> -}           [ unwords [ "Ham", "(", "Noah's", "2nd", "son", ")" ] ],
+    ".hAm"                    `noun`    {- <.hAm> -}           [ unwords [ "Ham", "(", "" {- "Noah's" -}, "2nd", "son", ")" ] ],
 
-    ".hAm" |< Iy              `adj`     {- <.hAmIy> -}         [ "Hamite", "Hamitic" ] ]
+    ".hAm" |< Iy              `adj`     {- <.hAmIy> -}         [ "" {- "Hamite" -}, "" {- "Hamitic" -} ] ]
 
 
-cluster_530 = cluster
+cluster_443 = cluster
 
  |> ".h  '" <| [
 
-    ".hA'"                    `noun`    {- <.hA'> -}           [ unwords [ "Ha'", "(", "Arabic", "letter", ")" ], unwords [ "Ha's", "(", "Arabic", "letter", ")" ] ]
+    ".hA'"                    `noun`    {- <.hA'> -}           [ unwords [ "Ha'", "(", "" {- "Arabic" -}, "letter", ")" ], unwords [ "Ha's", "(", "" {- "Arabic" -}, "letter", ")" ] ]
                               `plural`     ".hA'" |< At ]
 
 
-cluster_531 = cluster
+cluster_444 = cluster
 
  |> ".h .s y" <| [
 
@@ -8871,7 +8134,7 @@ cluster_531 = cluster
     HiFCA' |< Iy              `adj`     {- <'i.h.sA'Iy> -}     [ "statistician" ] ]
 
 
-cluster_532 = cluster
+cluster_445 = cluster
 
  |> ".h .z y" <| [
 
@@ -8892,7 +8155,7 @@ cluster_532 = cluster
     MaFCIL |< aT              `noun`    {- <ma.h.zIyaT> -}     [ "mistress", "paramour" ] ]
 
 
-cluster_533 = cluster
+cluster_446 = cluster
 
  |> ".h ^g w" <| [
 
@@ -8926,7 +8189,7 @@ cluster_533 = cluster
                               `plural`     HaFACI ]
 
 
-cluster_534 = cluster
+cluster_447 = cluster
 
  |> ".h ^s y" <| [
 
@@ -8977,7 +8240,7 @@ cluster_534 = cluster
                               `plural`     MaFCUL |< At ]
 
 
-cluster_535 = cluster
+cluster_448 = cluster
 
  |> ".h _d y" <| [
 
@@ -9018,7 +8281,7 @@ cluster_535 = cluster
                               `plural`     MuFACI |< At ]
 
 
-cluster_536 = cluster
+cluster_449 = cluster
 
  |> ".h _t w" <| [
 
@@ -9026,7 +8289,7 @@ cluster_536 = cluster
                               `imperf`     FCU ]
 
 
-cluster_537 = cluster
+cluster_450 = cluster
 
  |> ".h b w" <| [
 
@@ -9054,7 +8317,7 @@ cluster_537 = cluster
                               `plural`     MuFACaL |< At ]
 
 
-cluster_538 = cluster
+cluster_451 = cluster
 
  |> ".h d y" <| [
 
@@ -9062,7 +8325,7 @@ cluster_538 = cluster
                               `imperf`     FCY ]
 
 
-cluster_539 = cluster
+cluster_452 = cluster
 
  |> ".h d '" <| [
 
@@ -9077,7 +8340,7 @@ cluster_539 = cluster
                               `plural`     FiCAL ]
 
 
-cluster_540 = cluster
+cluster_453 = cluster
 
  |> ".h d w" <| [
 
@@ -9109,7 +8372,7 @@ cluster_540 = cluster
     FACI                      `noun`    {- <.hAdI> -}          [ "one" ] ]
 
 
-cluster_541 = cluster
+cluster_454 = cluster
 
  |> ".h f w" <| [
 
@@ -9140,7 +8403,7 @@ cluster_541 = cluster
                               `plural`     FuCY |< aT ]
 
 
-cluster_542 = cluster
+cluster_455 = cluster
 
  |> ".h k y" <| [
 
@@ -9170,7 +8433,7 @@ cluster_542 = cluster
     MaFCIL                    `adj`     {- <ma.hkIy> -}        [ "spoken" ] ]
 
 
-cluster_543 = cluster
+cluster_456 = cluster
 
  |> ".h m '" <| [
 
@@ -9188,24 +8451,26 @@ cluster_543 = cluster
                               `plural`     FaCaL |< At ]
 
 
-cluster_544 = cluster
+cluster_457 = cluster
 
  |> ".h l w" <| [
+
+    IFCawCY                   `verb`    {- <i.hlawlY> -}       [ unwords [ "be", "sweet" ] ],
 
     FaCU                      `verb`    {- <.halU> -}          [ unwords [ "be", "sweet" ], unwords [ "be", "pleasant" ] ]
                               `imperf`     FCU,
 
-    FaC |<< "aN"              `noun`    {- <.halaN> -}         [ "sweetness", "pleasantness" ],
+    FaCA                      `noun`    {- <.halA> -}          [ "sweetness", "pleasantness" ],
 
     FuCL                      `adj`     {- <.hulw> -}          [ "sweet", "pleasant" ],
 
-    FuCL |< aT                `noun`    {- <.hulwaT> -}        [ "Hilweh", "Hulwa" ],
+    FuCL |< aT                `noun`    {- <.hulwaT> -}        [ "" {- "Hilweh" -}, "" {- "Hulwa" -} ],
 
     FaCLY                     `noun`    {- <.halwY> -}         [ "pastry", "dessert", "sweets" ]
                               `plural`     FuCLY |< At
                               `plural`     FaCALY,
 
-    FaCALY                    `noun`    {- <.halAwY> -}        [ "Halawa" ],
+    FaCALY                    `noun`    {- <.halAwY> -}        [ "" {- "Halawa" -} ],
 
     FaCLA'                    `noun`    {- <.halwA'> -}        [ "candy" ],
 
@@ -9213,9 +8478,9 @@ cluster_544 = cluster
 
     FaCAL |< aT               `noun`    {- <.halAwaT> -}       [ "sweetness", "candies" ],
 
-    FaCAL |< aT               `noun`    {- <.halAwaT> -}       [ "Halawa" ],
+    FaCAL |< aT               `noun`    {- <.halAwaT> -}       [ "" {- "Halawa" -} ],
 
-    FuCLAn                    `noun`    {- <.hulwAn> -}        [ "Helwan" ],
+    FuCLAn                    `noun`    {- <.hulwAn> -}        [ "" {- "Helwan" -} ],
 
     FuCLAn                    `noun`    {- <.hulwAn> -}        [ "gratuity", "tip" ],
 
@@ -9256,7 +8521,7 @@ cluster_544 = cluster
                               `plural`     MuFaCCY |< At ]
 
 
-cluster_545 = cluster
+cluster_458 = cluster
 
  |> ".h m y" <| [
 
@@ -9296,7 +8561,7 @@ cluster_545 = cluster
     IFtaCY                    `verb`    {- <i.htamY> -}        [ unwords [ "take", "refuge" ] ] ]
 
 
-cluster_546 = cluster
+cluster_459 = cluster
 
  |> ".h m w" <| [
 
@@ -9316,13 +8581,13 @@ cluster_546 = cluster
     FaCAL |< aT               `noun`    {- <.hamAwaT> -}       [ "heat" ] ]
 
 
-cluster_547 = cluster
+cluster_460 = cluster
 
  |> ".h m y" <| [
 
-    FaCY |< Iy                `adj`     {- <.hamawIy> -}       [ unwords [ "from", "/", "of", "Hama" ] ],
+    FaCY |< Iy                `adj`     {- <.hamawIy> -}       [ unwords [ "from", "/", "of", "" {- "Hama" -} ] ],
 
-    FaCY |< aT                `noun`    {- <.hamAT> -}         [ "Hama" ] ]
+    FaCY |< aT                `noun`    {- <.hamAT> -}         [ "" {- "Hama" -} ] ]
 
 
 
@@ -9361,7 +8626,7 @@ cluster_547 = cluster
     FaCAL |< aT               `noun`    {- <.hamAwaT> -}       [ "heat" ] ]
 
 
-cluster_548 = cluster
+cluster_461 = cluster
 
  |> ".h n '" <| [
 
@@ -9370,7 +8635,7 @@ cluster_548 = cluster
     FiCCAL                    `noun`    {- <.hinnA'> -}        [ "henna" ] ]
 
 
-cluster_549 = cluster
+cluster_462 = cluster
 
  |> ".h n w" <| [
 
@@ -9415,7 +8680,7 @@ cluster_549 = cluster
                               `plural`     MunFaCY |< At ]
 
 
-cluster_550 = cluster
+cluster_463 = cluster
 
  |> ".h q w" <| [
 
@@ -9424,11 +8689,11 @@ cluster_550 = cluster
                               `plural`     FiCA' ]
 
 
-cluster_551 = cluster
+cluster_464 = cluster
 
  |> ".h r y" <| [
 
-    FiCA'                     `noun`    {- <.hirA'> -}         [ "Hira" ],
+    FiCA'                     `noun`    {- <.hirA'> -}         [ "" {- "Hira" -} ],
 
     FaCY                      `verb`    {- <.harY> -}          [ unwords [ "be", "able" ], unwords [ "be", "possible" ] ]
                               `imperf`     FCI,
@@ -9440,7 +8705,7 @@ cluster_551 = cluster
     FaCIL                     `adj`     {- <.harIy> -}         [ "adequate", "suitable" ]
                               `plural`     HaFCiLA',
 
-    FiCA'                     `noun`    {- <.hirA'> -}         [ "Hira" ],
+    FiCA'                     `noun`    {- <.hirA'> -}         [ "" {- "Hira" -} ],
 
     HaFCY                     `noun`    {- <'a.hrY> -}         [ unwords [ "more", "/", "most", "adequate" ], unwords [ "better", "/", "best" ] ],
 
@@ -9448,18 +8713,18 @@ cluster_551 = cluster
                               `plural`     TaFaCCI |< At ]
 
 
-cluster_552 = cluster
+cluster_465 = cluster
 
  |> ".h r w" <| [
 
     FaCL |< aT                `noun`    {- <.harwaT> -}        [ "burning", "pungency" ] ]
 
 
-cluster_553 = cluster
+cluster_466 = cluster
 
  |> ".h s y" <| [
 
-    HaFCA'                    `noun`    {- <'a.hsA'> -}        [ unwords [ "Hasa", "(", "S.Ar.", ")" ] ] ]
+    HaFCA'                    `noun`    {- <'a.hsA'> -}        [ unwords [ "" {- "Hasa" -}, "(", "S.Ar.", ")" ] ] ]
 
 
 
@@ -9481,7 +8746,7 @@ cluster_553 = cluster
     FaCA'                     `noun`    {- <.hasA'> -}         [ "soup" ] ]
 
 
-cluster_554 = cluster
+cluster_467 = cluster
 
  |> ".h w .s" <| [
 
@@ -9494,7 +8759,7 @@ cluster_554 = cluster
     FiyAL |< aT               `noun`    {- <.hiyA.saT> -}      [ "girth" ] ]
 
 
-cluster_555 = cluster
+cluster_468 = cluster
 
  |> ".h w .d" <| [
 
@@ -9506,14 +8771,14 @@ cluster_555 = cluster
     FuCayL |< aT              `noun`    {- <.huway.daT> -}     [ unwords [ "renal", "pelvis" ] ] ]
 
 
-cluster_556 = cluster
+cluster_469 = cluster
 
  |> ".h w '" <| [
 
     FaCCAL                    `noun`    {- <.hawwA'> -}        [ "Eve" ] ]
 
 
-cluster_557 = cluster
+cluster_470 = cluster
 
  |> ".h t y" <| [
 
@@ -9524,7 +8789,7 @@ cluster_557 = cluster
     FaCCY                     `noun`    {- <.hattY> -}         [ "even", unwords [ "even", "though" ], "although" ] ]
 
 
-cluster_558 = cluster
+cluster_471 = cluster
 
  |> ".h w .s l" <| [
 
@@ -9537,7 +8802,7 @@ cluster_558 = cluster
     KaRDaS                    `noun`    {- <.haw.sal> -}       [ "craw", "pelican" ] ]
 
 
-cluster_559 = cluster
+cluster_472 = cluster
 
  |> ".h w .t" <| [
 
@@ -9588,7 +8853,7 @@ cluster_559 = cluster
 
     FaCIL                     `noun`    {- <.hawI.t> -}        [ "shrewd", "clever" ],
 
-    MuFIL                     `noun`    {- <mu.hI.t> -}        [ "Ocean" ],
+    MuFIL                     `noun`    {- <mu.hI.t> -}        [ "" {- "Ocean" -} ],
 
     MuFIL                     `adj`     {- <mu.hI.t> -}        [ "surrounding", "peripheral" ],
 
@@ -9599,7 +8864,7 @@ cluster_559 = cluster
     FayL |< aT                `noun`    {- <.hay.taT> -}       [ "caution", "care" ] ]
 
 
-cluster_560 = cluster
+cluster_473 = cluster
 
  |> ".h w _d" <| [
 
@@ -9615,7 +8880,7 @@ cluster_560 = cluster
                               `plural`     FUL |< Iy |< aT ]
 
 
-cluster_561 = cluster
+cluster_474 = cluster
 
  |> ".h w ^s" <| [
 
@@ -9634,7 +8899,7 @@ cluster_561 = cluster
     FUL |< Iy                 `adj`     {- <.hU^sIy> -}        [ "wild", "strange" ] ]
 
 
-cluster_562 = cluster
+cluster_475 = cluster
 
  |> ".h w ^g l" <| [
 
@@ -9642,7 +8907,7 @@ cluster_562 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_563 = cluster
+cluster_476 = cluster
 
  |> ".h w ^g" <| [
 
@@ -9669,7 +8934,7 @@ cluster_563 = cluster
     MaFACIL                   `noun`    {- <ma.hAwI^g> -}      [ "poor", "destitute" ] ]
 
 
-cluster_564 = cluster
+cluster_477 = cluster
 
  |> ".h w k" <| [
 
@@ -9689,7 +8954,7 @@ cluster_564 = cluster
     `derives` feminine ]
 
 
-cluster_565 = cluster
+cluster_478 = cluster
 
  |> ".h w f" <| [
 
@@ -9698,7 +8963,7 @@ cluster_565 = cluster
     FAL |< aT                 `noun`    {- <.hAfaT> -}         [ "border", "edge" ] ]
 
 
-cluster_566 = cluster
+cluster_479 = cluster
 
  |> ".h w d" <| [
 
@@ -9711,7 +8976,7 @@ cluster_566 = cluster
     FaCL |< aT                `noun`    {- <.hawdaT> -}        [ "turn", "turning" ] ]
 
 
-cluster_567 = cluster
+cluster_480 = cluster
 
  |> ".h w b" <| [
 
@@ -9722,7 +8987,7 @@ cluster_567 = cluster
     FaCLA'                    `noun`    {- <.hawbA'> -}        [ "soul" ] ]
 
 
-cluster_568 = cluster
+cluster_481 = cluster
 
  |> ".h w _t" <| [
 
@@ -9734,7 +8999,7 @@ cluster_568 = cluster
                               `plural`     MustaFAL |< At ]
 
 
-cluster_569 = cluster
+cluster_482 = cluster
 
  |> ".h w l" <| [
 
@@ -9790,7 +9055,7 @@ cluster_569 = cluster
 
     IstiFAL |< aT             `noun`    {- <isti.hAlaT> -}     [ "change", "transformation" ],
 
-    FA'iL                     `noun`    {- <.hA'il> -}         [ "Ha'il", "Hayil" ],
+    FA'iL                     `noun`    {- <.hA'il> -}         [ "Ha'il", "" {- "Hayil" -} ],
 
     FA'iL                     `noun`    {- <.hA'il> -}         [ "obstacle", "partition" ]
                               `plural`     FawA'iL
@@ -9836,7 +9101,7 @@ cluster_569 = cluster
     FayL                      `noun`    {- <.hayl> -}          [ "strength", "force" ] ]
 
 
-cluster_570 = cluster
+cluster_483 = cluster
 
  |> ".h w q l" <| [
 
@@ -9852,7 +9117,7 @@ cluster_570 = cluster
     KaRDaS |< aT              `noun`    {- <.hawqalaT> -}      [ unwords [ "hawqala", "(", "saying", "\"God", "alone", "is", "mighty\"", ")" ] ] ]
 
 
-cluster_571 = cluster
+cluster_484 = cluster
 
  |> ".h w q" <| [
 
@@ -9863,7 +9128,7 @@ cluster_571 = cluster
     FaCCaL                    `verb`    {- <.hawwaq> -}        [ "surround", "enclose", "embrace" ] ]
 
 
-cluster_572 = cluster
+cluster_485 = cluster
 
  |> ".h w m" <| [
 
@@ -9880,7 +9145,7 @@ cluster_572 = cluster
     FaCCAL |< aT              `noun`    {- <.hawwAmaT> -}      [ "hovercraft" ] ]
 
 
-cluster_573 = cluster
+cluster_486 = cluster
 
  |> ".h w r" <| [
 
@@ -9919,7 +9184,7 @@ cluster_573 = cluster
     FUL |< Iy |< aT           `noun`    {- <.hUrIyaT> -}       [ "nymph", "houri" ]
                               `plural`     FUL,
 
-    FaCLAn                    `noun`    {- <.hawrAn> -}        [ "Hauran" ],
+    FaCLAn                    `noun`    {- <.hawrAn> -}        [ "" {- "Hauran" -} ],
 
     FAL |< aT                 `noun`    {- <.hAraT> -}         [ "quarter", "section" ]
                               `plural`     FaCALI,
@@ -9948,7 +9213,7 @@ cluster_573 = cluster
     MuFaCCaL                  `noun`    {- <mu.hawwar> -}      [ "customized", "altered" ] ]
 
 
-cluster_574 = cluster
+cluster_487 = cluster
 
  |> ".h w y" <| [
 
@@ -9977,7 +9242,7 @@ cluster_574 = cluster
     MuFtaCI                   `noun`    {- <mu.htawI> -}       [ "containing" ] ]
 
 
-cluster_575 = cluster
+cluster_488 = cluster
 
  |> ".h w t" <| [
 
@@ -9985,21 +9250,21 @@ cluster_575 = cluster
                               `plural`     FILAn
                               `plural`     HaFCAL,
 
-    FUL                       `noun`    {- <.hUt> -}           [ "Hout" ],
+    FUL                       `noun`    {- <.hUt> -}           [ "" {- "Hout" -} ],
 
-    FUL                       `noun`    {- <.hUt> -}           [ unwords [ "Hout", "(", "12th", "month", "of", "solar", "year,", "in", "S.Ar.", ")" ] ],
+    FUL                       `noun`    {- <.hUt> -}           [ unwords [ "" {- "Hout" -}, "(", "12th", "month", "of", "solar", "year,", "in", "S.Ar.", ")" ] ],
 
-    FUL                       `noun`    {- <.hUt> -}           [ "Pisces" ] ]
+    FUL                       `noun`    {- <.hUt> -}           [ "" {- "Pisces" -} ] ]
 
 
-cluster_576 = cluster
+cluster_489 = cluster
 
  |> ".h w s" <| [
 
     IFtAL                     `verb`    {- <i.htAs> -}         [ "hesitate" ] ]
 
 
-cluster_577 = cluster
+cluster_490 = cluster
 
  |> ".h w z" <| [
 
@@ -10038,7 +9303,7 @@ cluster_577 = cluster
     `derives` feminine ]
 
 
-cluster_578 = cluster
+cluster_491 = cluster
 
  |> ".h y .s" <| [
 
@@ -10055,7 +9320,7 @@ cluster_578 = cluster
     MaFIL                     `noun`    {- <ma.hI.s> -}        [ "escape", "avoidance" ] ]
 
 
-cluster_579 = cluster
+cluster_492 = cluster
 
  |> ".h y .d" <| [
 
@@ -10074,7 +9339,7 @@ cluster_579 = cluster
     FA'iL                     `adj`     {- <.hA'i.d> -}        [ "menstruating" ] ]
 
 
-cluster_580 = cluster
+cluster_493 = cluster
 
  |> ".h y _t" <| [
 
@@ -10083,7 +9348,7 @@ cluster_580 = cluster
     FaCL |< Iy |< aT          `noun`    {- <.hay_tIyaT> -}     [ "viewpoint", "opinion", "circumstances" ] ]
 
 
-cluster_581 = cluster
+cluster_494 = cluster
 
  |> ".h y f" <| [
 
@@ -10096,14 +9361,14 @@ cluster_581 = cluster
     FaCL                      `noun`    {- <.hayf> -}          [ "injustice", "prejudice" ] ]
 
 
-cluster_582 = cluster
+cluster_495 = cluster
 
  |> ".h y d r" <| [
 
-    KaRDaS                    `noun`    {- <.haydar> -}        [ "Haidar", "Heidar" ] ]
+    KaRDaS                    `noun`    {- <.haydar> -}        [ "" {- "Haidar" -}, "" {- "Heidar" -} ] ]
 
 
-cluster_583 = cluster
+cluster_496 = cluster
 
  |> ".h y d" <| [
 
@@ -10143,7 +9408,7 @@ cluster_583 = cluster
     MutaFACiL                 `adj`     {- <muta.hAyid> -}     [ "neutral" ] ]
 
 
-cluster_584 = cluster
+cluster_497 = cluster
 
  |> ".h y l" <| [
 
@@ -10152,7 +9417,7 @@ cluster_584 = cluster
     IFtiCAL                   `noun`    {- <i.htiyAl> -}       [ "fraud", "deception", "cheating" ]
                               `plural`     IFtiCAL |< At,
 
-    FACiL                     `noun`    {- <.hAyil> -}         [ "Hayil", "Ha'il" ],
+    FACiL                     `noun`    {- <.hAyil> -}         [ "" {- "Hayil" -}, "Ha'il" ],
 
     TaFaCCaL                  `verb`    {- <ta.hayyal> -}      [ unwords [ "employ", "artful", "means" ], unwords [ "ponder", "ways", "and", "means" ] ],
 
@@ -10183,7 +9448,7 @@ cluster_584 = cluster
     `derives` feminine ]
 
 
-cluster_585 = cluster
+cluster_498 = cluster
 
  |> ".h y k" <| [
 
@@ -10192,7 +9457,7 @@ cluster_585 = cluster
     FIL                       `noun`    {- <.hIk> -}           [ unwords [ "like", "that", "!" ], unwords [ "thus", "!" ] ] ]
 
 
-cluster_586 = cluster
+cluster_499 = cluster
 
  |> ".h y q" <| [
 
@@ -10205,7 +9470,7 @@ cluster_586 = cluster
     FaCL                      `noun`    {- <.hayq> -}          [ "consequence", "effect", "repercussion" ] ]
 
 
-cluster_587 = cluster
+cluster_500 = cluster
 
  |> ".h y n" <| [
 
@@ -10225,7 +9490,7 @@ cluster_587 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_588 = cluster
+cluster_501 = cluster
 
  |> ".h y r" <| [
 
@@ -10260,7 +9525,15 @@ cluster_588 = cluster
     MuFtAL                    `adj`     {- <mu.htAr> -}        [ "confused", "uncertain", "baffled" ] ]
 
 
-cluster_589 = cluster
+cluster_502 = cluster
+
+ |> "y .h y" <| [
+
+    "ya.hyY"                  `noun`    {- <ya.hyY> -}         [ "" {- "Yahya" -}, "" {- "Yehiyeh" -} ],
+
+    "ya.hyY"                  `noun`    {- <ya.hyY> -}         [ "" {- "John" -} ] ]
+
+
 
  |> ".h y y" <| [
 
@@ -10290,7 +9563,7 @@ cluster_589 = cluster
 
     IstaFY                    `verb`    {- <ista.hY> -}        [ unwords [ "be", "embarrassed" ], unwords [ "be", "shy" ], unwords [ "let", "live" ], unwords [ "keep", "alive" ] ],
 
-    FaCL                      `noun`    {- <.hayy> -}          [ "Hayy" ],
+    FaCL                      `noun`    {- <.hayy> -}          [ "" {- "Hayy" -} ],
 
     FaCL                      `adj`     {- <.hayy> -}          [ "alive", "living", "live", "lively" ]
                               `plural`     HaFCA',
@@ -10300,9 +9573,9 @@ cluster_589 = cluster
 
     FaCL |<< "a"              `noun`    {- <.hayya> -}         [ unwords [ "come", "!" ] ],
 
-    MuFCI                     `noun`    {- <mu.hyI> -}         [ "Muhi" ],
+    MuFCI                     `noun`    {- <mu.hyI> -}         [ "" {- "Muhi" -} ],
 
-    MuFI                      `noun`    {- <mu.hI> -}          [ "Muhi" ],
+    MuFI                      `noun`    {- <mu.hI> -}          [ "" {- "Muhi" -} ],
 
     FaCL                      `noun`    {- <.hayy> -}          [ "quarter", "district" ]
                               `plural`     HaFCA',
@@ -10321,7 +9594,7 @@ cluster_589 = cluster
     FaCA |< aT                `noun`    {- <.hayAT> -}         [ "life" ]
                               `plural`     FaCA |< At,
 
-    FaCA |< aT                `noun`    {- <.hayAT> -}         [ "Hayat" ],
+    FaCA |< aT                `noun`    {- <.hayAT> -}         [ "" {- "Hayat" -} ],
 
     FaCA |< aT |< Iy          `adj`     {- <.hayATIy> -}       [ "biological", "living" ],
 
@@ -10335,7 +9608,7 @@ cluster_589 = cluster
                               `plural`     HiFCA' |< At ]
 
 
-cluster_590 = cluster
+cluster_503 = cluster
 
  |> ".h y z" <| [
 
@@ -10356,7 +9629,7 @@ cluster_590 = cluster
     MunFAL                    `adj`     {- <mun.hAz> -}        [ "aligned", "biased" ] ]
 
 
-cluster_591 = cluster
+cluster_504 = cluster
 
  |> "_h ' n" <| [
 
@@ -10365,7 +9638,7 @@ cluster_591 = cluster
     "_hAn" |< aT              `noun`    {- <_hAnaT> -}         [ "compartment", "partition" ] ]
 
 
-cluster_592 = cluster
+cluster_505 = cluster
 
  |> "_h ' m" <| [
 
@@ -10375,22 +9648,22 @@ cluster_592 = cluster
                               `plural`     "_hAm" |< At ]
 
 
-cluster_593 = cluster
+cluster_506 = cluster
 
  |> "_h ' k" <| [
 
     "_hAk" |< Iy              `adj`     {- <_hAkIy> -}         [ "khaki" ] ]
 
 
-cluster_594 = cluster
+cluster_507 = cluster
 
  |> "_h  '" <| [
 
-    "_hA'"                    `noun`    {- <_hA'> -}           [ unwords [ "xa'", "(", "Arabic", "letter", ")" ], unwords [ "xa's", "(", "Arabic", "letter", ")" ] ]
+    "_hA'"                    `noun`    {- <_hA'> -}           [ unwords [ "xa'", "(", "" {- "Arabic" -}, "letter", ")" ], unwords [ "xa's", "(", "" {- "Arabic" -}, "letter", ")" ] ]
                               `plural`     "_hA'" |< At ]
 
 
-cluster_595 = cluster
+cluster_508 = cluster
 
  |> "_h .s y" <| [
 
@@ -10415,7 +9688,7 @@ cluster_595 = cluster
     MaFCIL                    `adj`     {- <ma_h.sIy> -}       [ "castrated", "emasculated" ] ]
 
 
-cluster_596 = cluster
+cluster_509 = cluster
 
  |> "_h .t '" <| [
 
@@ -10441,7 +9714,7 @@ cluster_596 = cluster
     MuFCiL                    `adj`     {- <mu_h.ti'> -}       [ "mistaken", unwords [ "at", "fault" ] ] ]
 
 
-cluster_597 = cluster
+cluster_510 = cluster
 
  |> "_h .t w" <| [
 
@@ -10464,7 +9737,7 @@ cluster_597 = cluster
                               `plural`     TaFaCCI |< At ]
 
 
-cluster_598 = cluster
+cluster_511 = cluster
 
  |> "_h _d '" <| [
 
@@ -10476,7 +9749,7 @@ cluster_598 = cluster
                               `plural`     IstiFCAL |< At ]
 
 
-cluster_599 = cluster
+cluster_512 = cluster
 
  |> "_h ^s y" <| [
 
@@ -10503,7 +9776,7 @@ cluster_599 = cluster
                               `plural`     FACI |< At ]
 
 
-cluster_600 = cluster
+cluster_513 = cluster
 
  |> "_h _d y" <| [
 
@@ -10516,7 +9789,7 @@ cluster_600 = cluster
                               `plural`     MustaFCI |< At ]
 
 
-cluster_601 = cluster
+cluster_514 = cluster
 
  |> "_h b '" <| [
 
@@ -10559,7 +9832,7 @@ cluster_601 = cluster
     `derives` feminine ]
 
 
-cluster_602 = cluster
+cluster_515 = cluster
 
  |> "_h b w" <| [
 
@@ -10567,14 +9840,14 @@ cluster_602 = cluster
                               `imperf`     FCU ]
 
 
-cluster_603 = cluster
+cluster_516 = cluster
 
  |> "_h d w" <| [
 
     "_hudayw" |< Iy           `adj`     {- <_hudaywIy> -}      [ "khedive", "khedivial" ] ]
 
 
-cluster_604 = cluster
+cluster_517 = cluster
 
  |> "_h f y" <| [
 
@@ -10628,7 +9901,7 @@ cluster_604 = cluster
     MuFtaCY                   `noun`    {- <mu_htafY> -}       [ unwords [ "hide", "-", "out" ] ] ]
 
 
-cluster_605 = cluster
+cluster_518 = cluster
 
  |> "_h l w" <| [
 
@@ -10689,10 +9962,10 @@ cluster_605 = cluster
 
     FawACI                    `noun`    {- <_hawAlI> -}        [ "elapsed" ],
 
-    FuCayL |< Iy              `adj`     {- <_hulaywIy> -}      [ "Khulaiwi" ] ]
+    FuCayL |< Iy              `adj`     {- <_hulaywIy> -}      [ "" {- "Khulaiwi" -} ] ]
 
 
-cluster_606 = cluster
+cluster_519 = cluster
 
  |> "_h r '" <| [
 
@@ -10704,7 +9977,7 @@ cluster_606 = cluster
     FaCAL                     `noun`    {- <_harA'> -}         [ "feces" ] ]
 
 
-cluster_607 = cluster
+cluster_520 = cluster
 
  |> "_h n y" <| [
 
@@ -10722,17 +9995,8 @@ cluster_607 = cluster
     HaFCY                     `verb`    {- <'a_hnY> -}         [ "afflict", unwords [ "wear", "down" ], "ruin", unwords [ "be", "worn", "down" ] ] ]
 
 
-cluster_608 = cluster
 
- |> "_h w r" <| [
-
-    FULIy                     `noun`    {- <_hUrIy> -}         [ "priest" ]
-                              `plural`     FaCALin |< aT,
-
-    FULIy                     `noun`    {- <_hUrIy> -}         [ "Khouri" ] ]
-
-
-cluster_609 = cluster
+cluster_521 = cluster
 
  |> "_h s '" <| [
 
@@ -10747,14 +10011,14 @@ cluster_609 = cluster
     FACiL                     `adj`     {- <_hAsi'> -}         [ "rejected", "disgraceful", "feeble" ] ]
 
 
-cluster_610 = cluster
+cluster_522 = cluster
 
  |> "_h w ^s q" <| [
 
     KaRDaS                    `noun`    {- <_haw^saq> -}       [ "wrapping" ] ]
 
 
-cluster_611 = cluster
+cluster_523 = cluster
 
  |> "_h w ^g" <| [
 
@@ -10763,10 +10027,10 @@ cluster_611 = cluster
 
     FaCL |< aT                `noun`    {- <_haw^gaT> -}       [ "schoolmaster", "teacher" ],
 
-    FaCL |< aT                `noun`    {- <_haw^gaT> -}       [ "Khoja" ] ]
+    FaCL |< aT                `noun`    {- <_haw^gaT> -}       [ "" {- "Khoja" -} ] ]
 
 
-cluster_612 = cluster
+cluster_524 = cluster
 
  |> "_h w .s" <| [
 
@@ -10783,7 +10047,7 @@ cluster_612 = cluster
     HaFCaL                    `noun`    {- <'a_hwa.s> -}       [ "squinting" ] ]
 
 
-cluster_613 = cluster
+cluster_525 = cluster
 
  |> "_h w .d" <| [
 
@@ -10802,14 +10066,14 @@ cluster_613 = cluster
                               `plural`     MaFAL |< At ]
 
 
-cluster_614 = cluster
+cluster_526 = cluster
 
  |> "_h w f w" <| [
 
-    "_hUfU"                   `noun`    {- <_hUfU> -}          [ "Cheops" ] ]
+    "_hUfU"                   `noun`    {- <_hUfU> -}          [ "" {- "Cheops" -} ] ]
 
 
-cluster_615 = cluster
+cluster_527 = cluster
 
  |> "_h w f" <| [
 
@@ -10851,7 +10115,7 @@ cluster_615 = cluster
     HaFCaL                    `noun`    {- <'a_hwaf> -}        [ unwords [ "more", "/", "most", "fearful" ] ] ]
 
 
-cluster_616 = cluster
+cluster_528 = cluster
 
  |> "_h w _h" <| [
 
@@ -10864,7 +10128,7 @@ cluster_616 = cluster
                               `plural`     FuCaL ]
 
 
-cluster_617 = cluster
+cluster_529 = cluster
 
  |> "_h w _d" <| [
 
@@ -10872,21 +10136,9 @@ cluster_617 = cluster
                               `plural`     FuCaL ]
 
 
-cluster_618 = cluster
-
- |> "" <| [
-
-    "_hUlU"                   `noun`    {- <_hUlU> -}          [ "Jolo" ] ]
 
 
-cluster_619 = cluster
-
- |> "_h w l t" <| [
-
-    "_hUlIt"                  `noun`    {- <_hUlIt> -}         [ "Hoeliet" ] ]
-
-
-cluster_620 = cluster
+cluster_530 = cluster
 
  |> "_h w l" <| [
 
@@ -10906,13 +10158,13 @@ cluster_620 = cluster
     FAL |< aT                 `noun`    {- <_hAlaT> -}         [ unwords [ "maternal", "aunt" ] ]
                               `plural`     FAL |< At,
 
-    FaCL |< aT                `noun`    {- <_hawlaT> -}        [ "Khawla" ],
+    FaCL |< aT                `noun`    {- <_hawlaT> -}        [ "" {- "Khawla" -} ],
 
     FaCL |< Iy                `adj`     {- <_hawlIy> -}        [ "supervisor", "gardener" ],
 
     FUL |< Iy                 `adj`     {- <_hUlIy> -}         [ "supervisor", "gardener" ],
 
-    FUL |< Iy                 `adj`     {- <_hUlIy> -}         [ "Khouli" ],
+    FUL |< Iy                 `adj`     {- <_hUlIy> -}         [ "" {- "Khouli" -} ],
 
     MuFaCCaL                  `noun`    {- <mu_hawwal> -}      [ "authorized" ],
 
@@ -10923,21 +10175,15 @@ cluster_620 = cluster
     FaCaL                     `noun`    {- <_hawal> -}         [ "sissy", "chattel" ] ]
 
 
-cluster_621 = cluster
 
- |> "_h w f y" <| [
-
-    "_hUfU"                   `noun`    {- <_hUfU> -}          [ "Cheops" ] ]
-
-
-cluster_622 = cluster
+cluster_531 = cluster
 
  |> "_h w r s" <| [
 
     KuRDuS                    `noun`    {- <_huwrus> -}        [ "choir" ] ]
 
 
-cluster_623 = cluster
+cluster_532 = cluster
 
  |> "_h w r" <| [
 
@@ -10959,7 +10205,7 @@ cluster_623 = cluster
     FaCCAL                    `adj`     {- <_hawwAr> -}        [ "weak", "languid" ] ]
 
 
-cluster_624 = cluster
+cluster_533 = cluster
 
  |> "_h w n" <| [
 
@@ -10995,7 +10241,7 @@ cluster_624 = cluster
                               `plural`     FaCL |< aT ]
 
 
-cluster_625 = cluster
+cluster_534 = cluster
 
  |> "_h w z q" <| [
 
@@ -11004,7 +10250,7 @@ cluster_625 = cluster
     KaRDaS |< aT              `noun`    {- <_hawzaqaT> -}      [ "impaling", "cornering" ] ]
 
 
-cluster_626 = cluster
+cluster_535 = cluster
 
  |> "_h w y" <| [
 
@@ -11033,31 +10279,25 @@ cluster_626 = cluster
                               `plural`     FACI |< At ]
 
 
-cluster_627 = cluster
 
- |> "_h w s h" <| [
-
-    "_hUsIh"                  `noun`    {- <_hUsIh> -}         [ "Jose" ] ]
-
-
-cluster_628 = cluster
+cluster_536 = cluster
 
  |> "_h w r" <| [
 
-    "_hUrI"                   `noun`    {- <_hUrI> -}          [ "Khouri" ],
+    FULIy                     `noun`    {- <_hUrIy> -}         [ "priest" ]
+                              `plural`     FaCALin |< aT,
 
-    "_hUrI"                   `noun`    {- <_hUrI> -}          [ "priest" ]
-                              `plural`     "_hawArin" |< aT ]
+    FULIy                     `noun`    {- <_hUrIy> -}         [ "" {- "Khouri" -} ] ]
 
 
-cluster_629 = cluster
+cluster_537 = cluster
 
  |> "_h y d `" <| [
 
     KaRDaS                    `noun`    {- <_hayda`> -}        [ "mirage" ] ]
 
 
-cluster_630 = cluster
+cluster_538 = cluster
 
  |> "_h y b" <| [
 
@@ -11076,7 +10316,7 @@ cluster_630 = cluster
     FA'iL                     `adj`     {- <_hA'ib> -}         [ "disappointed", "failing" ] ]
 
 
-cluster_631 = cluster
+cluster_539 = cluster
 
  |> "_h y ^s" <| [
 
@@ -11085,7 +10325,7 @@ cluster_631 = cluster
     FaCL |< aT                `noun`    {- <_hay^saT> -}       [ unwords [ "floor", "cloth" ], "sack" ] ]
 
 
-cluster_632 = cluster
+cluster_540 = cluster
 
  |> "_h y .t" <| [
 
@@ -11109,7 +10349,7 @@ cluster_632 = cluster
     FaCCAL                    `noun`    {- <_hayyA.t> -}       [ "tailor", "dressmaker", "seamstress" ]
                               `plural`     FaCCAL |< At,
 
-    FaCCAL                    `noun`    {- <_hayyA.t> -}       [ "Khayyat" ],
+    FaCCAL                    `noun`    {- <_hayyA.t> -}       [ "" {- "Khayyat" -} ],
 
     MiFCaL                    `noun`    {- <mi_hya.t> -}       [ "needle" ],
 
@@ -11119,7 +10359,7 @@ cluster_632 = cluster
     `derives` feminine ]
 
 
-cluster_633 = cluster
+cluster_541 = cluster
 
  |> "_h y l" <| [
 
@@ -11187,7 +10427,7 @@ cluster_633 = cluster
     MuFtAL                    `adj`     {- <mu_htAl> -}        [ "conceited", "arrogant" ] ]
 
 
-cluster_634 = cluster
+cluster_542 = cluster
 
  |> "_h y m" <| [
 
@@ -11204,13 +10444,13 @@ cluster_634 = cluster
                            
     `derives` feminine,
 
-    FaCCAL                    `noun`    {- <_hayyAm> -}        [ "Khayyam" ],
+    FaCCAL                    `noun`    {- <_hayyAm> -}        [ "" {- "Khayyam" -} ],
 
     MuFaCCaL                  `noun`    {- <mu_hayyam> -}      [ "camp", unwords [ "refugee", "camp" ] ]
                               `plural`     MuFaCCaL |< At ]
 
 
-cluster_635 = cluster
+cluster_543 = cluster
 
  |> "_h y r" <| [
 
@@ -11276,7 +10516,9 @@ cluster_635 = cluster
                            
     `derives` feminine,
 
-    MuFtAL                    `adj`     {- <mu_htAr> -}        [ "chosen", "selected", "selections", "anthology" ]
+    MuFtAL                    `adj`     {- <mu_htAr> -}        [ "chosen", "selected" ],
+
+    MuFtAL                    `noun`    {- <mu_htAr> -}        [ "selection", "anthology" ]
                               `plural`     MuFtAL |< At,
 
     MuFtAL                    `noun`    {- <mu_htAr> -}        [ "choice", "volunteering" ]
@@ -11284,25 +10526,24 @@ cluster_635 = cluster
                            
     `derives` feminine,
 
-    MuFtAL                    `noun`    {- <mu_htAr> -}        [ "Mukhtar" ],
+    MuFtAL                    `noun`    {- <mu_htAr> -}        [ "" {- "Mukhtar" -} ],
 
     MuFtAL                    `noun`    {- <mu_htAr> -}        [ unwords [ "mukhtar", "(", "village", "chief", ")" ], unwords [ "mukhtars", "(", "village", "chiefs", ")" ] ]
                               `plural`     MuFtAL |< Un
                            
     `derives` feminine,
 
-    MuFtAL |<< "aN"           `noun`    {- <mu_htAraN> -}      [ "voluntarily" ]
-                              `plural`     MuFtAL ]
+    MuFtAL |<< "aN"           `noun`    {- <mu_htAraN> -}      [ "voluntarily" ] ]
 
 
-cluster_636 = cluster
+cluster_544 = cluster
 
  |> "_h y y" <| [
 
     FaCL |< aT                `noun`    {- <_hayyaT> -}        [ "noose" ] ]
 
 
-cluster_637 = cluster
+cluster_545 = cluster
 
  |> "_h y s" <| [
 
@@ -11315,7 +10556,7 @@ cluster_637 = cluster
     FaCaLAn                   `noun`    {- <_hayasAn> -}       [ "breaking" ] ]
 
 
-cluster_638 = cluster
+cluster_546 = cluster
 
  |> "_h z y" <| [
 
@@ -11347,7 +10588,7 @@ cluster_638 = cluster
                               `femini`     FaCLY ]
 
 
-cluster_639 = cluster
+cluster_547 = cluster
 
  |> "` .d w" <| [
 
@@ -11368,7 +10609,7 @@ cluster_639 = cluster
     MuFaCCI                   `adj`     {- <mu`a.d.dI> -}      [ unwords [ "fissiparous", "(", "reproducing", "by", "spitting", ")" ] ] ]
 
 
-cluster_640 = cluster
+cluster_548 = cluster
 
  |> "` .s w" <| [
 
@@ -11386,7 +10627,7 @@ cluster_640 = cluster
     FuCA |< Iy                `adj`     {- <`u.sawIy> -}       [ "bacillary", "tubercular" ] ]
 
 
-cluster_641 = cluster
+cluster_549 = cluster
 
  |> "` .s y" <| [
 
@@ -11426,9 +10667,9 @@ cluster_641 = cluster
                               `plural`     FuCY |< aT
                               `plural`     FACI |< At,
 
-    FACI                      `noun`    {- <`A.sI> -}          [ "Orontes" ],
+    FACI                      `noun`    {- <`A.sI> -}          [ "" {- "Orontes" -} ],
 
-    FACI                      `noun`    {- <`A.sI> -}          [ "Assi" ],
+    FACI                      `noun`    {- <`A.sI> -}          [ "" {- "Assi" -} ],
 
     MutaFaCCI                 `adj`     {- <muta`a.s.sI> -}    [ "difficult", "incurable" ]
                               `plural`     MutaFaCCI |< At,
@@ -11438,7 +10679,7 @@ cluster_641 = cluster
 
 
 
-cluster_642 = cluster
+cluster_550 = cluster
 
  |> "` .t w" <| [
 
@@ -11452,11 +10693,11 @@ cluster_642 = cluster
 
     IstaFCY                   `verb`    {- <ista`.tY> -}       [ unwords [ "ask", "for", "alms" ], unwords [ "be", "asked", "(", "for", "alms", ")" ] ],
 
-    FaCLAn                    `noun`    {- <`a.twAn> -}        [ "Atwan" ],
+    FaCLAn                    `noun`    {- <`a.twAn> -}        [ "" {- "Atwan" -} ],
 
-    FaCA                      `noun`    {- <`a.tA> -}          [ "Atta" ],
+    FaCA                      `noun`    {- <`a.tA> -}          [ "" {- "Atta" -} ],
 
-    FaCA |< Iy                `noun`    {- <`a.tawIy> -}       [ "Attawi" ],
+    FaCA |< Iy                `noun`    {- <`a.tawIy> -}       [ "" {- "Attawi" -} ],
 
     FaCA                      `noun`    {- <`a.tA> -}          [ "present", "gift" ],
 
@@ -11468,7 +10709,7 @@ cluster_642 = cluster
     FaCA'                     `noun`    {- <`a.tA'> -}         [ "offer", "tender" ]
                               `plural`     FaCA' |< At,
 
-    FaCIy |< aT               `noun`    {- <`a.tIyaT> -}       [ "Atiyya" ],
+    FaCIy |< aT               `noun`    {- <`a.tIyaT> -}       [ "" {- "Atiyya" -} ],
 
     FaCIy |< aT               `noun`    {- <`a.tIyaT> -}       [ "gift", "present" ]
                               `plural`     FaCAyY,
@@ -11500,7 +10741,7 @@ cluster_642 = cluster
                               `plural`     MustaFCI |< At ]
 
 
-cluster_643 = cluster
+cluster_551 = cluster
 
  |> "` .z y" <| [
 
@@ -11511,14 +10752,14 @@ cluster_643 = cluster
                               `plural`     FaCALY ]
 
 
-cluster_644 = cluster
+cluster_552 = cluster
 
  |> "` ^g w" <| [
 
     FaCL |< aT                `noun`    {- <`a^gwaT> -}        [ unwords [ "pressed", "dates" ], unwords [ "date", "paste" ] ] ]
 
 
-cluster_645 = cluster
+cluster_553 = cluster
 
  |> "` ^s y" <| [
 
@@ -11562,7 +10803,7 @@ cluster_645 = cluster
     HaFCY                     `noun`    {- <'a`^sY> -}         [ "blind" ] ]
 
 
-cluster_646 = cluster
+cluster_554 = cluster
 
  |> "` _d y" <| [
 
@@ -11583,7 +10824,7 @@ cluster_646 = cluster
     FaCAL |< aT               `noun`    {- <`a_dAwaT> -}       [ "healthfulness", "salubrity" ] ]
 
 
-cluster_647 = cluster
+cluster_555 = cluster
 
  |> "` b '" <| [
 
@@ -11612,7 +10853,7 @@ cluster_647 = cluster
                               `plural`     MuFaCCaL |< At ]
 
 
-cluster_648 = cluster
+cluster_556 = cluster
 
  |> "` _t y" <| [
 
@@ -11628,7 +10869,7 @@ cluster_648 = cluster
                               `imperf`     FCU ]
 
 
-cluster_649 = cluster
+cluster_557 = cluster
 
  |> "` b w" <| [
 
@@ -11643,10 +10884,10 @@ cluster_649 = cluster
     FaCL |< aT                `noun`    {- <`abwaT> -}         [ "package", "pack", "charge" ]
                               `plural`     FaCaL |< At,
 
-    FuCY |< At                `noun`    {- <`ubayAt> -}        [ "Ubayat" ] ]
+    FuCY |< At                `noun`    {- <`ubayAt> -}        [ "" {- "Ubayat" -} ] ]
 
 
-cluster_650 = cluster
+cluster_558 = cluster
 
  |> "` d w" <| [
 
@@ -11702,7 +10943,7 @@ cluster_650 = cluster
 
     FuCLAn                    `noun`    {- <`udwAn> -}         [ "aggression", "hostility", "enmity" ],
 
-    FuCLAn                    `noun`    {- <`udwAn> -}         [ "Udwan" ],
+    FuCLAn                    `noun`    {- <`udwAn> -}         [ "" {- "Udwan" -} ],
 
     FuCLAn |< Iy              `adj`     {- <`udwAnIy> -}       [ "hostile", "aggressive" ],
 
@@ -11714,7 +10955,7 @@ cluster_650 = cluster
 
     MaFCI |< aT               `noun`    {- <ma`diyaT> -}       [ "ferryboat", "shuttle" ],
 
-    MaFACI                    `noun`    {- <ma`AdI> -}         [ unwords [ "Maadi", "(", "Cairo", ")" ] ],
+    MaFACI                    `noun`    {- <ma`AdI> -}         [ unwords [ "" {- "Maadi" -}, "(", "" {- "Cairo" -}, ")" ] ],
 
     TaFCI |< aT               `noun`    {- <ta`diyaT> -}       [ unwords [ "ferry", "service" ], "shuttle" ],
 
@@ -11757,15 +10998,15 @@ cluster_650 = cluster
                               `plural`     MuFCY |< At ]
 
 
-cluster_651 = cluster
+cluster_559 = cluster
 
  |> "` f w" <| [
-
-    FaCL |< Iy |< aT |<< "aN" `noun`    {- <`afwIyaTaN> -}     [ "spontaneously" ],
 
     FaCL |< Iy                `adj`     {- <`afwIy> -}         [ "spontaneous", "instinctive", "spontaneously", "instinctively" ],
 
     FaCL |< Iy |< aT          `noun`    {- <`afwIyaT> -}       [ "spontaneity" ],
+
+    FaCL |< Iy |< aT |<< "aN" `noun`    {- <`afwIyaTaN> -}     [ "spontaneously" ],
 
     FaCIy                     `adj`     {- <`afIy> -}          [ "vigorous", "robust" ],
 
@@ -11786,8 +11027,7 @@ cluster_651 = cluster
 
     FaCL                      `noun`    {- <`afw> -}           [ "pardon", "amnesty" ],
 
-    FaCL |<< "aN"             `noun`    {- <`afwaN> -}         [ unwords [ "excuse", "me", "!" ], unwords [ "you're", "welcome", "!" ] ]
-                              `plural`     FaCL,
+    FaCL |<< "aN"             `noun`    {- <`afwaN> -}         [ unwords [ "excuse", "me", "!" ], unwords [ "you're", "welcome", "!" ] ],
 
     FaCA'                     `noun`    {- <`afA'> -}          [ "extinction", "disuse" ],
 
@@ -11821,7 +11061,7 @@ cluster_651 = cluster
                               `plural`     MutaFACI |< At ]
 
 
-cluster_652 = cluster
+cluster_560 = cluster
 
  |> "` l y" <| [
 
@@ -11855,7 +11095,7 @@ cluster_652 = cluster
 
     IstaFCY                   `verb`    {- <ista`lY> -}        [ "rise", "appropriate" ],
 
-    FaCA'                     `noun`    {- <`alA'> -}          [ "Alaa" ],
+    FaCA'                     `noun`    {- <`alA'> -}          [ "" {- "Alaa" -} ],
 
     FaCA'                     `noun`    {- <`alA'> -}          [ "loftiness", "height" ],
 
@@ -11870,13 +11110,13 @@ cluster_652 = cluster
 
     FaCY                      `prep`    {- <`alY> -}           [ "on", "above" ],
 
-    FaC |<< "awIy"            `adj`     {- <`alawIy> -}        [ "Alawite" ],
+    FaCY |< Iy                `adj`     {- <`alawIy> -}        [ "" {- "Alawite" -} ],
 
     HaFCY                     `adj`     {- <'a`lY> -}          [ unwords [ "higher", "/", "highest" ], "supreme", "highest", "heights", "peaks", "high" ]
                               `plural`     HaFACI
                               `femini`     FuCyY,
 
-    MaFCY |< aT               `noun`    {- <ma`lAT> -}         [ "greatness", "nobility", unwords [ "His", "Excellency" ] ]
+    MaFCY |< aT               `noun`    {- <ma`lAT> -}         [ "greatness", "nobility", unwords [ "His", "" {- "Excellency" -} ] ]
                               `plural`     MaFACI,
 
     MaFACI                    `noun`    {- <ma`AlI> -}         [ "Ma'ale" ],
@@ -11906,14 +11146,14 @@ cluster_652 = cluster
     MustaFCI                  `adj`     {- <musta`lI> -}       [ "rising", "lofty" ] ]
 
 
-cluster_653 = cluster
+cluster_561 = cluster
 
  |> "" <| [
 
     "`an"                     `prep`    {- <`an> -}            [ unwords [ "from", "/", "about" ] ] ]
 
 
-cluster_654 = cluster
+cluster_562 = cluster
 
  |> "` l w n" <| [
 
@@ -11921,7 +11161,7 @@ cluster_654 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_655 = cluster
+cluster_563 = cluster
 
  |> "` m y" <| [
 
@@ -11969,14 +11209,14 @@ cluster_655 = cluster
     MuFaCCY                   `adj`     {- <mu`ammY> -}        [ "enigmatic", "camouflaged" ] ]
 
 
-cluster_656 = cluster
+cluster_564 = cluster
 
  |> "` m y r" <| [
 
-    KaRADiS |< aT             `noun`    {- <`amAyiraT> -}      [ "Amayreh" ] ]
+    KaRADiS |< aT             `noun`    {- <`amAyiraT> -}      [ "" {- "Amayreh" -} ] ]
 
 
-cluster_657 = cluster
+cluster_565 = cluster
 
  |> "` n w n" <| [
 
@@ -12001,7 +11241,7 @@ cluster_657 = cluster
     `derives` feminine ]
 
 
-cluster_658 = cluster
+cluster_566 = cluster
 
  |> "` n w" <| [
 
@@ -12019,7 +11259,7 @@ cluster_658 = cluster
     FuCY |< aT                `noun`    {- <`unAT> -}          [ "prisoners" ] ]
 
 
-cluster_659 = cluster
+cluster_567 = cluster
 
  |> "` n y" <| [
 
@@ -12066,7 +11306,7 @@ cluster_659 = cluster
     MaFCY |< Iy               `adj`     {- <ma`nawIy> -}       [ "semantic", "abstract" ] ]
 
 
-cluster_660 = cluster
+cluster_568 = cluster
 
  |> "` r '" <| [
 
@@ -12076,7 +11316,7 @@ cluster_660 = cluster
                               `plural`     IstiFCAL |< At ]
 
 
-cluster_661 = cluster
+cluster_569 = cluster
 
  |> "` r w" <| [
 
@@ -12089,7 +11329,7 @@ cluster_661 = cluster
                               `plural`     FuCY ]
 
 
-cluster_662 = cluster
+cluster_570 = cluster
 
  |> "` r y" <| [
 
@@ -12133,7 +11373,7 @@ cluster_662 = cluster
                               `plural`     MutaFaCCI |< At ]
 
 
-cluster_663 = cluster
+cluster_571 = cluster
 
  |> "` s y" <| [
 
@@ -12142,7 +11382,7 @@ cluster_663 = cluster
     FaCIL                     `adj`     {- <`asIy> -}          [ "capable", "suited", "able" ] ]
 
 
-cluster_664 = cluster
+cluster_572 = cluster
 
  |> "` s w" <| [
 
@@ -12153,14 +11393,8 @@ cluster_664 = cluster
                               `plural`     FACI |< At ]
 
 
-cluster_665 = cluster
 
- |> "` w y" <| [
-
-    FaCCA'                    `noun`    {- <`awwA'> -}         [ unwords [ "Bootes", "(", "contellation", ")" ] ] ]
-
-
-cluster_666 = cluster
+cluster_573 = cluster
 
  |> "` t w" <| [
 
@@ -12185,7 +11419,7 @@ cluster_666 = cluster
                               `plural`     HaFCA' ]
 
 
-cluster_667 = cluster
+cluster_574 = cluster
 
  |> "` w .d" <| [
 
@@ -12207,11 +11441,11 @@ cluster_667 = cluster
 
     IstaFAL                   `verb`    {- <ista`A.d> -}       [ "exchange", "substitute", unwords [ "be", "compensated" ] ],
 
-    FaCaL                     `noun`    {- <`awa.d> -}         [ "Awad" ],
+    FaCaL                     `noun`    {- <`awa.d> -}         [ "" {- "Awad" -} ],
 
-    FaCaL |< Iy               `adj`     {- <`awa.dIy> -}       [ "Awadi" ],
+    FaCaL |< Iy               `adj`     {- <`awa.dIy> -}       [ "" {- "Awadi" -} ],
 
-    FuCayL |< aT              `noun`    {- <`uway.daT> -}      [ "Oweida" ],
+    FuCayL |< aT              `noun`    {- <`uway.daT> -}      [ "" {- "Oweida" -} ],
 
     FiCaL                     `noun`    {- <`iwa.d> -}         [ "substitute" ],
 
@@ -12219,7 +11453,7 @@ cluster_667 = cluster
 
     FiCaL |<< "aN"            `noun`    {- <`iwa.daN> -}       [ unwords [ "in", "lieu", "of" ], unwords [ "in", "exchange", "for" ] ],
 
-    FaCCAL                    `noun`    {- <`awwA.d> -}        [ "Awwad" ],
+    FaCCAL                    `noun`    {- <`awwA.d> -}        [ "" {- "Awwad" -} ],
 
     TaFCIL                    `noun`    {- <ta`wI.d> -}        [ "compensation", "restitution", "reparations", "substitutes" ]
                               `plural`     TaFCIL |< At,
@@ -12235,7 +11469,7 @@ cluster_667 = cluster
                            
     `derives` feminine,
 
-    MuFaCCaL                  `noun`    {- <mu`awwa.d> -}      [ "Moawad", "Muawwad" ],
+    MuFaCCaL                  `noun`    {- <mu`awwa.d> -}      [ "" {- "Moawad" -}, "" {- "Muawwad" -} ],
 
     MutaFACiL                 `noun`    {- <muta`Awi.d> -}     [ "interchangeable" ]
                               `plural`     MutaFACiL |< Un
@@ -12243,7 +11477,7 @@ cluster_667 = cluster
     `derives` feminine ]
 
 
-cluster_668 = cluster
+cluster_575 = cluster
 
  |> "` w .s" <| [
 
@@ -12262,7 +11496,7 @@ cluster_668 = cluster
                               `plural`     IFtiyAL |< At ]
 
 
-cluster_669 = cluster
+cluster_576 = cluster
 
  |> "` w ^g" <| [
 
@@ -12281,11 +11515,11 @@ cluster_669 = cluster
 
     FAL                       `noun`    {- <`A^g> -}           [ "ivory" ],
 
-    FAL                       `noun`    {- <`A^g> -}           [ "Ivory" ],
+    FAL                       `noun`    {- <`A^g> -}           [ "" {- "Ivory" -} ],
 
     FAL |< Iy                 `adj`     {- <`A^gIy> -}         [ "ivory" ],
 
-    FAL |< Iy                 `adj`     {- <`A^gIy> -}         [ unwords [ "Ivorian", "(", "of", "/", "from", "the", "Ivory", "Coast", ")" ] ],
+    FAL |< Iy                 `adj`     {- <`A^gIy> -}         [ unwords [ "" {- "Ivorian" -}, "(", "of", "/", "from", "the", "" {- "Ivory" -}, "" {- "Coast" -}, ")" ] ],
 
     FaCaL                     `noun`    {- <`awa^g> -}         [ "curvature", "bending" ],
 
@@ -12307,7 +11541,7 @@ cluster_669 = cluster
     MuFCaLL                   `noun`    {- <mu`wa^g^g> -}      [ "retort" ] ]
 
 
-cluster_670 = cluster
+cluster_577 = cluster
 
  |> "` w _d" <| [
 
@@ -12342,7 +11576,7 @@ cluster_670 = cluster
     TaFCIL |< Iy              `adj`     {- <ta`wI_dIy> -}      [ "incantational" ] ]
 
 
-cluster_671 = cluster
+cluster_578 = cluster
 
  |> "` w d" <| [
 
@@ -12439,7 +11673,7 @@ cluster_671 = cluster
     MuFtAL                    `noun`    {- <mu`tAd> -}         [ "usual", "customary" ] ]
 
 
-cluster_672 = cluster
+cluster_579 = cluster
 
  |> "` w h" <| [
 
@@ -12460,7 +11694,7 @@ cluster_672 = cluster
     MaFCUL                    `adj`     {- <ma`yUh> -}         [ "diseased", "blighted", "mildewed" ] ]
 
 
-cluster_673 = cluster
+cluster_580 = cluster
 
  |> "` w f" <| [
 
@@ -12470,10 +11704,10 @@ cluster_673 = cluster
 
     FaCL                      `noun`    {- <`awf> -}           [ "Awf", "Ouf" ],
 
-    FaCL |< Iy                `adj`     {- <`awfIy> -}         [ "Awfi", "Oufi" ] ]
+    FaCL |< Iy                `adj`     {- <`awfIy> -}         [ "" {- "Awfi" -}, "" {- "Oufi" -} ] ]
 
 
-cluster_674 = cluster
+cluster_581 = cluster
 
  |> "` w l m" <| [
 
@@ -12484,7 +11718,7 @@ cluster_674 = cluster
     KaRDaS |< aT              `noun`    {- <`awlamaT> -}       [ "globalization" ] ]
 
 
-cluster_675 = cluster
+cluster_582 = cluster
 
  |> "` w l" <| [
 
@@ -12529,7 +11763,7 @@ cluster_675 = cluster
                               `plural`     HiFCAL |< At ]
 
 
-cluster_676 = cluster
+cluster_583 = cluster
 
  |> "` w m" <| [
 
@@ -12556,7 +11790,7 @@ cluster_676 = cluster
     FA'iL                     `adj`     {- <`A'im> -}          [ "floating" ] ]
 
 
-cluster_677 = cluster
+cluster_584 = cluster
 
  |> "` w n" <| [
 
@@ -12571,7 +11805,7 @@ cluster_677 = cluster
     FaCL                      `noun`    {- <`awn> -}           [ "assistance", "aid", "assistants" ]
                               `plural`     HaFCAL,
 
-    FaCL                      `noun`    {- <`awn> -}           [ "Aoun" ],
+    FaCL                      `noun`    {- <`awn> -}           [ "" {- "Aoun" -} ],
 
     FaCAL                     `noun`    {- <`awAn> -}          [ "intermittent", "endless" ],
 
@@ -12608,7 +11842,7 @@ cluster_677 = cluster
     MuFACaL |< aT             `noun`    {- <mu`AwanaT> -}      [ "assistance", "aid" ] ]
 
 
-cluster_678 = cluster
+cluster_585 = cluster
 
  |> "` w q" <| [
 
@@ -12647,7 +11881,7 @@ cluster_678 = cluster
     MuFAL                     `adj`     {- <mu`Aq> -}          [ "handicapped" ] ]
 
 
-cluster_679 = cluster
+cluster_586 = cluster
 
  |> "` w r" <| [
 
@@ -12707,7 +11941,7 @@ cluster_679 = cluster
     MustaFAL                  `adj`     {- <musta`Ar> -}       [ "borrowed", "false" ] ]
 
 
-cluster_680 = cluster
+cluster_587 = cluster
 
  |> "` w z" <| [
 
@@ -12745,11 +11979,11 @@ cluster_680 = cluster
     `derives` feminine ]
 
 
-cluster_681 = cluster
+cluster_588 = cluster
 
  |> "` w y" <| [
 
-    FaCCA'                    `noun`    {- <`awwA'> -}         [ unwords [ "Bootes", "(", "contellation", ")" ] ],
+    FaCCA'                    `noun`    {- <`awwA'> -}         [ unwords [ "" {- "Bootes" -}, "(", "contellation", ")" ] ],
 
     FaCY                      `verb`    {- <`awY> -}           [ "howl", "whine" ]
                               `imperf`     FCI,
@@ -12765,21 +11999,21 @@ cluster_681 = cluster
     MuFACI |< aT              `noun`    {- <mu`AwiyaT> -}      [ unwords [ "dog", "(", "bitch", ")" ] ] ]
 
 
-cluster_682 = cluster
+cluster_589 = cluster
 
  |> "` w s ^g" <| [
 
     KaRDaS                    `noun`    {- <`awsa^g> -}        [ unwords [ "matrimony", "vine", "(", "bot.", ")" ], "boxthorn" ] ]
 
 
-cluster_683 = cluster
+cluster_590 = cluster
 
  |> "` w s" <| [
 
-    FuCayL                    `noun`    {- <`uways> -}         [ "Owais", "Oweiss" ] ]
+    FuCayL                    `noun`    {- <`uways> -}         [ "" {- "Owais" -}, "" {- "Oweiss" -} ] ]
 
 
-cluster_684 = cluster
+cluster_591 = cluster
 
  |> "` y .t" <| [
 
@@ -12788,7 +12022,7 @@ cluster_684 = cluster
     FiCAL                     `noun`    {- <`iyA.t> -}         [ "screaming", "shouting" ] ]
 
 
-cluster_685 = cluster
+cluster_592 = cluster
 
  |> "` y y" <| [
 
@@ -12797,7 +12031,7 @@ cluster_685 = cluster
     HiFCA'                    `noun`    {- <'i`yA'> -}         [ "weariness", "powerlessness" ] ]
 
 
-cluster_686 = cluster
+cluster_593 = cluster
 
  |> "` y ^s" <| [
 
@@ -12821,7 +12055,7 @@ cluster_686 = cluster
 
     FaCL |< aT                `noun`    {- <`ay^saT> -}        [ "life", "existence" ],
 
-    FaCCAL                    `noun`    {- <`ayyA^s> -}        [ "Ayyash" ],
+    FaCCAL                    `noun`    {- <`ayyA^s> -}        [ "" {- "Ayyash" -} ],
 
     MaFAL                     `noun`    {- <ma`A^s> -}         [ "salary", "pension", "income" ]
                               `plural`     MaFAL |< At,
@@ -12845,7 +12079,7 @@ cluster_686 = cluster
     `derives` feminine ]
 
 
-cluster_687 = cluster
+cluster_594 = cluster
 
  |> "` y b" <| [
 
@@ -12882,7 +12116,7 @@ cluster_687 = cluster
     `derives` feminine ]
 
 
-cluster_688 = cluster
+cluster_595 = cluster
 
  |> "` y _t" <| [
 
@@ -12895,7 +12129,7 @@ cluster_688 = cluster
     FaCL                      `noun`    {- <`ay_t> -}          [ unwords [ "causing", "havoc" ] ] ]
 
 
-cluster_689 = cluster
+cluster_596 = cluster
 
  |> "` y f" <| [
 
@@ -12912,14 +12146,14 @@ cluster_689 = cluster
     FaCUL                     `adj`     {- <`ayUf> -}          [ "proud", "disdainful" ] ]
 
 
-cluster_690 = cluster
+cluster_597 = cluster
 
  |> "` y d d" <| [
 
-    KaRDIS                    `noun`    {- <`aydId> -}         [ "Aidid" ] ]
+    KaRDIS                    `noun`    {- <`aydId> -}         [ "" {- "Aidid" -} ] ]
 
 
-cluster_691 = cluster
+cluster_598 = cluster
 
  |> "` y d" <| [
 
@@ -12956,7 +12190,7 @@ cluster_691 = cluster
     MuFACaL |< aT             `noun`    {- <mu`AyadaT> -}      [ unwords [ "holiday", "greetings" ] ] ]
 
 
-cluster_692 = cluster
+cluster_599 = cluster
 
  |> "` y l" <| [
 
@@ -12978,7 +12212,7 @@ cluster_692 = cluster
     MuFaCCaL                  `noun`    {- <mu`ayyal> -}       [ "breadwinner", unwords [ "provider", "(", "for", "a", "large", "family", ")" ] ] ]
 
 
-cluster_693 = cluster
+cluster_600 = cluster
 
  |> "` y n" <| [
 
@@ -13000,14 +12234,14 @@ cluster_693 = cluster
     FaCL                      `noun`    {- <`ayn> -}           [ unwords [ "water", "spring" ], unwords [ "water", "source" ] ]
                               `plural`     FuCUL,
 
-    FaCL                      `noun`    {- <`ayn> -}           [ unwords [ "ain", "(", "Arabic", "letter", ")" ] ]
+    FaCL                      `noun`    {- <`ayn> -}           [ unwords [ "ain", "(", "" {- "Arabic" -}, "letter", ")" ] ]
                               `plural`     FaCL |< At,
 
     HaFCAL                    `noun`    {- <'a`yAn> -}         [ "notables", "VIP's" ],
 
     FaCL |< Iy                `adj`     {- <`aynIy> -}         [ "ocular", "eye", "real" ],
 
-    FaCLA' |< Iy              `adj`     {- <`aynAwIy> -}       [ "Ainawi", "Ainawy", "Einawi" ],
+    FaCLA' |< Iy              `adj`     {- <`aynAwIy> -}       [ "" {- "Ainawi" -}, "" {- "Ainawy" -}, "" {- "Einawi" -} ],
 
     FIL |< aT                 `noun`    {- <`InaT> -}          [ "advance" ],
 
@@ -13031,7 +12265,7 @@ cluster_693 = cluster
     MuFaCCaL                  `adj`     {- <mu`ayyan> -}       [ "fixed", "determined", "prescribed" ] ]
 
 
-cluster_694 = cluster
+cluster_601 = cluster
 
  |> "` y r" <| [
 
@@ -13077,7 +12311,7 @@ cluster_694 = cluster
     MuFACaL |< aT             `noun`    {- <mu`AyaraT> -}      [ "calibration", "standardization" ] ]
 
 
-cluster_695 = cluster
+cluster_602 = cluster
 
  |> "` y y" <| [
 
@@ -13108,15 +12342,15 @@ cluster_695 = cluster
     MuFCY                     `adj`     {- <mu`yY> -}          [ "exhausted" ] ]
 
 
-cluster_696 = cluster
+cluster_603 = cluster
 
  |> "" <| [
 
-    "`IsY" |< Iy              `adj`     {- <`IsawIy> -}        [ "Christian" ],
+    "`IsY" |< Iy              `adj`     {- <`IsawIy> -}        [ "" {- "Christian" -} ],
 
-    "`IsY"                    `noun`    {- <`IsY> -}           [ unwords [ "Jesus", "(", "in", "Islam", ")" ] ],
+    "`IsY"                    `noun`    {- <`IsY> -}           [ unwords [ "" {- "Jesus" -}, "(", "in", "" {- "Islam" -}, ")" ] ],
 
-    "`IsY"                    `noun`    {- <`IsY> -}           [ "Issa", "Eissa" ] ]
+    "`IsY"                    `noun`    {- <`IsY> -}           [ "" {- "Issa" -}, "" {- "Eissa" -} ] ]
 
 
 
@@ -13127,7 +12361,7 @@ cluster_696 = cluster
                               `femini`     FaCLA' ]
 
 
-cluster_697 = cluster
+cluster_604 = cluster
 
  |> "` z y" <| [
 
@@ -13170,7 +12404,7 @@ cluster_697 = cluster
                               `plural`     MuFaCCI |< At ]
 
 
-cluster_698 = cluster
+cluster_605 = cluster
 
  |> ".g ' z" <| [
 
@@ -13180,23 +12414,17 @@ cluster_698 = cluster
     ".gAz" |< Iy              `adj`     {- <.gAzIy> -}         [ "gaseous" ] ]
 
 
-cluster_699 = cluster
 
- |> ".g ' w" <| [
-
-    ".gAw"                    `noun`    {- <.gAw> -}           [ "Gao" ] ]
-
-
-cluster_700 = cluster
+cluster_606 = cluster
 
  |> ".g ' n" <| [
 
-    ".gAn" |< aT              `noun`    {- <.gAnaT> -}         [ "Ghana" ],
+    ".gAn" |< aT              `noun`    {- <.gAnaT> -}         [ "" {- "Ghana" -} ],
 
-    ".gAn" |< Iy              `adj`     {- <.gAnIy> -}         [ "Ghanaian", "Ghanian" ] ]
+    ".gAn" |< Iy              `adj`     {- <.gAnIy> -}         [ "" {- "Ghanaian" -}, "" {- "Ghanian" -} ] ]
 
 
-cluster_701 = cluster
+cluster_607 = cluster
 
  |> "" <| [
 
@@ -13207,12 +12435,12 @@ cluster_701 = cluster
 
  |> ".g ' l" <| [
 
-    ".gAl"                    `noun`    {- <.gAl> -}           [ "Gaul" ],
+    ".gAl"                    `noun`    {- <.gAl> -}           [ "" {- "Gaul" -} ],
 
-    ".gAl" |< Iy              `adj`     {- <.gAlIy> -}         [ "Gallic", "Gaul" ] ]
+    ".gAl" |< Iy              `adj`     {- <.gAlIy> -}         [ "" {- "Gallic" -}, "" {- "Gaul" -} ] ]
 
 
-cluster_702 = cluster
+cluster_608 = cluster
 
  |> ".g .d w" <| [
 
@@ -13222,7 +12450,7 @@ cluster_702 = cluster
 
     FaCY                      `noun`    {- <.ga.dY> -}         [ unwords [ "hot", "spot" ], "predicament", unwords [ "unbearable", "situation" ] ],
 
-    FaC |<< "aN"              `noun`    {- <.ga.daN> -}        [ unwords [ "hot", "spot" ], "predicament", unwords [ "unbearable", "situation" ] ],
+    FaCA                      `noun`    {- <.ga.dA> -}         [ unwords [ "hot", "spot" ], "predicament", unwords [ "unbearable", "situation" ] ],
 
     HiFCA'                    `noun`    {- <'i.g.dA'> -}       [ "disregarding", "ignoring", "overlooking" ]
                               `plural`     HiFCA' |< At,
@@ -13231,7 +12459,7 @@ cluster_702 = cluster
                               `plural`     TaFACI |< At ]
 
 
-cluster_703 = cluster
+cluster_609 = cluster
 
  |> ".g .t w" <| [
 
@@ -13255,7 +12483,7 @@ cluster_703 = cluster
                               `plural`     MuFaCCY |< At ]
 
 
-cluster_704 = cluster
+cluster_610 = cluster
 
  |> ".g ^s y" <| [
 
@@ -13302,14 +12530,14 @@ cluster_704 = cluster
     TaFCI |< aT               `noun`    {- <ta.g^siyaT> -}     [ "dimming", "clouding", "dulling" ] ]
 
 
-cluster_705 = cluster
+cluster_611 = cluster
 
  |> ".g _t '" <| [
 
     FuCAL                     `noun`    {- <.gu_tA'> -}        [ "scum" ] ]
 
 
-cluster_706 = cluster
+cluster_612 = cluster
 
  |> ".g _d w" <| [
 
@@ -13334,7 +12562,7 @@ cluster_706 = cluster
     MuFaCCI                   `adj`     {- <mu.ga_d_dI> -}     [ "nutritious", "substantial" ] ]
 
 
-cluster_707 = cluster
+cluster_613 = cluster
 
  |> ".g _t y" <| [
 
@@ -13353,7 +12581,7 @@ cluster_707 = cluster
                               `plural`     MuFCI |< At ]
 
 
-cluster_708 = cluster
+cluster_614 = cluster
 
  |> ".g b w" <| [
 
@@ -13380,7 +12608,7 @@ cluster_708 = cluster
     TaFCI |< aT               `noun`    {- <ta.gbiyaT> -}      [ "stupefaction" ] ]
 
 
-cluster_709 = cluster
+cluster_615 = cluster
 
  |> ".g d w" <| [
 
@@ -13403,7 +12631,7 @@ cluster_709 = cluster
     FaCA'                     `noun`    {- <.gadA'> -}         [ "breakfast", "lunch" ]
                               `plural`     HaFCI |< aT,
 
-    FaC |<< "aN"              `noun`    {- <.gadaN> -}         [ "tomorrow" ],
+    FaC |<< "aN"              `adv`     {- <.gadaN> -}         [ "tomorrow" ],
 
     FaC                       `noun`    {- <.gad> -}           [ "tomorrow" ],
 
@@ -13422,7 +12650,7 @@ cluster_709 = cluster
                               `plural`     FACI |< At ]
 
 
-cluster_710 = cluster
+cluster_616 = cluster
 
  |> ".g f y" <| [
 
@@ -13448,14 +12676,14 @@ cluster_710 = cluster
                               `plural`     FACI |< At ]
 
 
-cluster_711 = cluster
+cluster_617 = cluster
 
  |> ".g l b '" <| [
 
     KaRDAS |< Iy              `adj`     {- <.galbA'Iy> -}      [ "garrulous", "chatterbox" ] ]
 
 
-cluster_712 = cluster
+cluster_618 = cluster
 
  |> ".g l w" <| [
 
@@ -13496,7 +12724,7 @@ cluster_712 = cluster
                               `plural`     MuFACaL |< At ]
 
 
-cluster_713 = cluster
+cluster_619 = cluster
 
  |> ".g l y n" <| [
 
@@ -13504,7 +12732,7 @@ cluster_713 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_714 = cluster
+cluster_620 = cluster
 
  |> ".g l y" <| [
 
@@ -13531,7 +12759,7 @@ cluster_714 = cluster
                               `plural`     MaFACI ]
 
 
-cluster_715 = cluster
+cluster_621 = cluster
 
  |> ".g m y" <| [
 
@@ -13553,7 +12781,7 @@ cluster_715 = cluster
     MuFCY                     `adj`     {- <mu.gmY> -}         [ "fainted", "unconscious" ] ]
 
 
-cluster_716 = cluster
+cluster_622 = cluster
 
  |> ".g n y" <| [
 
@@ -13612,7 +12840,7 @@ cluster_716 = cluster
     MuFaCCY                   `noun`    {- <mu.gannY> -}       [ "sung" ] ]
 
 
-cluster_717 = cluster
+cluster_623 = cluster
 
  |> ".g r y" <| [
 
@@ -13667,7 +12895,7 @@ cluster_717 = cluster
     MaFCUL                    `adj`     {- <ma.grUw> -}        [ "glued" ] ]
 
 
-cluster_718 = cluster
+cluster_624 = cluster
 
  |> ".g w .g" <| [
 
@@ -13680,13 +12908,7 @@ cluster_718 = cluster
     FaCLA' |< Iy |< aT        `noun`    {- <.gaw.gAwIyaT> -}   [ "demagoguery" ] ]
 
 
-cluster_719 = cluster
-
- |> "" <| [
-
-    ".gU^s"                   `noun`    {- <.gU^s> -}          [ "Gush" ] ]
-
-
+cluster_625 = cluster
 
  |> ".g w ^s" <| [
 
@@ -13694,11 +12916,11 @@ cluster_719 = cluster
                               `plural`     FaCA'iL ]
 
 
-cluster_720 = cluster
+cluster_626 = cluster
 
  |> "" <| [
 
-    ".gU.t" |< Iy             `adj`     {- <.gU.tIy> -}        [ "Gothic" ] ]
+    ".gU.t" |< Iy             `adj`     {- <.gU.tIy> -}        [ "" {- "Gothic" -} ] ]
 
 
 
@@ -13727,7 +12949,7 @@ cluster_720 = cluster
     FA'iL |< Iy               `adj`     {- <.gA'i.tIy> -}      [ "fecal" ] ]
 
 
-cluster_721 = cluster
+cluster_627 = cluster
 
  |> ".g w .s" <| [
 
@@ -13757,7 +12979,7 @@ cluster_721 = cluster
     FA'iL                     `adj`     {- <.gA'i.s> -}        [ "immersed", "diving", unwords [ "under", "-", "water" ] ] ]
 
 
-cluster_722 = cluster
+cluster_628 = cluster
 
  |> ".g w l" <| [
 
@@ -13771,7 +12993,7 @@ cluster_722 = cluster
                               `plural`     HaFCAL
                               `plural`     FILAn,
 
-    FUL                       `noun`    {- <.gUl> -}           [ "Ghoul" ],
+    FUL                       `noun`    {- <.gUl> -}           [ "" {- "Ghoul" -} ],
 
     FIL |< aT                 `noun`    {- <.gIlaT> -}         [ "assassination" ],
 
@@ -13784,14 +13006,14 @@ cluster_722 = cluster
     MuFtAL                    `adj`     {- <mu.gtAl> -}        [ "assassinated", "murdered" ] ]
 
 
-cluster_723 = cluster
+cluster_629 = cluster
 
  |> ".g w _t h" <| [
 
     KaRDAS                    `noun`    {- <.gaw_tAh> -}       [ unwords [ "help", "!" ] ] ]
 
 
-cluster_724 = cluster
+cluster_630 = cluster
 
  |> ".g w _t" <| [
 
@@ -13805,7 +13027,7 @@ cluster_724 = cluster
 
     FiyAL                     `noun`    {- <.giyA_t> -}        [ "aid", "succor" ],
 
-    FiyAL                     `noun`    {- <.giyA_t> -}        [ "Giyath" ],
+    FiyAL                     `noun`    {- <.giyA_t> -}        [ "" {- "Giyath" -} ],
 
     HiFAL |< aT               `noun`    {- <'i.gA_taT> -}      [ "aid", unwords [ "relief", "assistance" ] ],
 
@@ -13813,7 +13035,7 @@ cluster_724 = cluster
 
     MuFIL                     `noun`    {- <mu.gI_t> -}        [ "deliverer", "succorer" ],
 
-    MuFIL                     `noun`    {- <mu.gI_t> -}        [ "Mughith", "Mugeeth" ],
+    MuFIL                     `noun`    {- <mu.gI_t> -}        [ "" {- "Mughith" -}, "" {- "Mugeeth" -} ],
 
     MustaFAL                  `noun`    {- <musta.gA_t> -}     [ unwords [ "requesting", "aid" ] ]
                               `plural`     MustaFAL |< Un
@@ -13821,26 +13043,8 @@ cluster_724 = cluster
     `derives` feminine ]
 
 
-cluster_725 = cluster
 
- |> ".g w w" <| [
-
-    ".gU"                     `noun`    {- <.gU> -}            [ "Gou", "Gu" ] ]
-
-
-cluster_726 = cluster
-
- |> "" <| [
-
-    ".gUrAn"                  `noun`    {- <.gUrAn> -}         [ "Goran" ] ]
-
-
-
- |> "" <| [
-
-    ".gUr"                    `noun`    {- <.gUr> -}           [ "Gore" ] ]
-
-
+cluster_631 = cluster
 
  |> ".g w r" <| [
 
@@ -13863,7 +13067,7 @@ cluster_726 = cluster
     FaCL                      `noun`    {- <.gawr> -}          [ "depression", "declivity", "caves" ]
                               `plural`     HaFCAL,
 
-    FaCL                      `noun`    {- <.gawr> -}          [ "Ghor" ],
+    FaCL                      `noun`    {- <.gawr> -}          [ "" {- "Ghor" -} ],
 
     MaFAL                     `noun`    {- <ma.gAr> -}         [ "cave", "cavern" ]
                               `plural`     MaFAL |< At
@@ -13888,21 +13092,9 @@ cluster_726 = cluster
     `derives` feminine ]
 
 
-cluster_727 = cluster
-
- |> ".g w n r" <| [
-
-    ".gUnAr"                  `noun`    {- <.gUnAr> -}         [ "Gunnar" ] ]
 
 
-cluster_728 = cluster
-
- |> ".g w m ^s" <| [
-
-    ".gUmI^s"                 `noun`    {- <.gUmI^s> -}        [ "Gomes" ] ]
-
-
-cluster_729 = cluster
+cluster_632 = cluster
 
  |> ".g w z" <| [
 
@@ -13914,14 +13106,8 @@ cluster_729 = cluster
                               `plural`     TaFCIL |< At ]
 
 
-cluster_730 = cluster
 
- |> ".g w y n" <| [
-
-    ".gUyAn" |< Iy            `adj`     {- <.gUyAnIy> -}       [ "Guyanese" ] ]
-
-
-cluster_731 = cluster
+cluster_633 = cluster
 
  |> ".g w y" <| [
 
@@ -13962,7 +13148,7 @@ cluster_731 = cluster
                               `plural`     MuFCI |< At ]
 
 
-cluster_732 = cluster
+cluster_634 = cluster
 
  |> ".g y .t n" <| [
 
@@ -13973,19 +13159,19 @@ cluster_732 = cluster
     KaRDaS |< Iy              `adj`     {- <.gay.tanIy> -}     [ "horticultural" ] ]
 
 
-cluster_733 = cluster
+cluster_635 = cluster
 
  |> ".g y .t" <| [
 
     FaCL                      `noun`    {- <.gay.t> -}         [ "garden", "orchard" ]
                               `plural`     FILAn,
 
-    FaCLAn |< Iy              `adj`     {- <.gay.tAnIy> -}     [ "Gheitany" ],
+    FaCLAn |< Iy              `adj`     {- <.gay.tAnIy> -}     [ "" {- "Gheitany" -} ],
 
     FaCLAn |< Iy              `adj`     {- <.gay.tAnIy> -}     [ "gardener", "horticulturist" ] ]
 
 
-cluster_734 = cluster
+cluster_636 = cluster
 
  |> ".g y .d" <| [
 
@@ -14000,7 +13186,7 @@ cluster_734 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_735 = cluster
+cluster_637 = cluster
 
  |> ".g y _t" <| [
 
@@ -14008,14 +13194,14 @@ cluster_735 = cluster
                               `imperf`     FIL
                               `pfirst`     FiL,
 
-    FaCL                      `noun`    {- <.gay_t> -}         [ "Ghaith" ],
+    FaCL                      `noun`    {- <.gay_t> -}         [ "" {- "Ghaith" -} ],
 
     FaCL                      `noun`    {- <.gay_t> -}         [ "rain" ]
                               `plural`     FuCUL
                               `plural`     HaFCAL ]
 
 
-cluster_736 = cluster
+cluster_638 = cluster
 
  |> ".g y .z" <| [
 
@@ -14047,7 +13233,7 @@ cluster_736 = cluster
     HiFAL |< aT               `noun`    {- <'i.gA.zaT> -}      [ "exasperation", "irritation" ] ]
 
 
-cluster_737 = cluster
+cluster_639 = cluster
 
  |> ".g y b" <| [
 
@@ -14126,14 +13312,14 @@ cluster_737 = cluster
     `derives` feminine ]
 
 
-cluster_738 = cluster
+cluster_640 = cluster
 
  |> ".g y l m" <| [
 
     KaRDaS                    `noun`    {- <.gaylam> -}        [ "tortoise" ] ]
 
 
-cluster_739 = cluster
+cluster_641 = cluster
 
  |> ".g y l" <| [
 
@@ -14144,7 +13330,7 @@ cluster_739 = cluster
                               `plural`     FuCUL ]
 
 
-cluster_740 = cluster
+cluster_642 = cluster
 
  |> ".g y h b" <| [
 
@@ -14152,7 +13338,7 @@ cluster_740 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_741 = cluster
+cluster_643 = cluster
 
  |> ".g y d q" <| [
 
@@ -14160,7 +13346,7 @@ cluster_741 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_742 = cluster
+cluster_644 = cluster
 
  |> ".g y d" <| [
 
@@ -14174,32 +13360,32 @@ cluster_742 = cluster
 
     TaFACaL                   `verb`    {- <ta.gAyad> -}       [ unwords [ "walk", "gracefully" ] ],
 
-    FAL |< aT                 `noun`    {- <.gAdaT> -}         [ "Ghada" ],
+    FAL |< aT                 `noun`    {- <.gAdaT> -}         [ "" {- "Ghada" -} ],
 
     FAL |< aT                 `noun`    {- <.gAdaT> -}         [ unwords [ "young", "lady" ] ]
                               `plural`     FIL ]
 
 
-cluster_743 = cluster
+cluster_645 = cluster
 
  |> ".g y n y" <| [
 
-    ".gIniyA"                 `noun`    {- <.gIniyA> -}        [ "Guinea" ],
+    ".gIn" |< iyA             `noun`    {- <.gIniyA> -}        [ "" {- "Guinea" -} ],
 
-    ".gIn" |< Iy              `adj`     {- <.gInIy> -}         [ "Guinean" ] ]
+    ".gIn" |< Iy              `adj`     {- <.gInIy> -}         [ "" {- "Guinean" -} ] ]
 
 
-cluster_744 = cluster
+cluster_646 = cluster
 
  |> "" <| [
 
-    ".gUyAn" |< Iy            `adj`     {- <.gUyAnIy> -}       [ "Guyanese" ] ]
+    ".gUyAn" |< Iy            `adj`     {- <.gUyAnIy> -}       [ "" {- "Guyanese" -} ] ]
 
 
 
  |> ".g y n" <| [
 
-    FaCL                      `noun`    {- <.gayn> -}          [ unwords [ "ghayn", "(", "Arabic", "letter", ")" ] ]
+    FaCL                      `noun`    {- <.gayn> -}          [ unwords [ "ghayn", "(", "" {- "Arabic" -}, "letter", ")" ] ]
                               `plural`     FaCL |< At,
 
     FaCL |< aT                `noun`    {- <.gaynaT> -}        [ "dimple" ],
@@ -14208,7 +13394,7 @@ cluster_744 = cluster
                               `femini`     FaCLA' ]
 
 
-cluster_745 = cluster
+cluster_647 = cluster
 
  |> ".g y m" <| [
 
@@ -14233,7 +13419,7 @@ cluster_745 = cluster
     MutaFaCCiL                `adj`     {- <muta.gayyim> -}    [ "clouded", "overcast", "blurred" ] ]
 
 
-cluster_746 = cluster
+cluster_648 = cluster
 
  |> ".g y r" <| [
 
@@ -14286,14 +13472,8 @@ cluster_746 = cluster
     MutaFACiL                 `adj`     {- <muta.gAyir> -}     [ "differing", "heterogeneous" ] ]
 
 
-cluster_747 = cluster
 
- |> ".g y z" <| [
-
-    ".gAyiz"                  `noun`    {- <.gAyiz> -}         [ "Gaze" ] ]
-
-
-cluster_748 = cluster
+cluster_649 = cluster
 
  |> ".g y y" <| [
 
@@ -14307,7 +13487,7 @@ cluster_748 = cluster
     FAL |< aT                 `noun`    {- <.gAyaT> -}         [ "utmost", "extreme", "extremely", "greatly" ] ]
 
 
-cluster_749 = cluster
+cluster_650 = cluster
 
  |> ".g z w" <| [
 
@@ -14335,20 +13515,14 @@ cluster_749 = cluster
                               `plural`     FawACI ]
 
 
-cluster_750 = cluster
+cluster_651 = cluster
 
  |> "f ' m" <| [
 
     FiCAL                     `noun`    {- <fi'Am> -}          [ unwords [ "group", "of", "people" ] ] ]
 
 
-cluster_751 = cluster
-
- |> "" <| [
-
-    "vAl"                     `noun`    {- <vAl> -}            [ "Val" ] ]
-
-
+cluster_652 = cluster
 
  |> "f ' l" <| [
 
@@ -14366,24 +13540,24 @@ cluster_751 = cluster
     MutaFACiL                 `adj`     {- <mutafA'il> -}      [ "optimistic" ] ]
 
 
-cluster_752 = cluster
+cluster_653 = cluster
 
  |> "f ' f '" <| [
 
     KaRDaS                    `verb`    {- <fa'fa'> -}         [ "stammer", "stutter" ] ]
 
 
-cluster_753 = cluster
+cluster_654 = cluster
 
  |> "f ' d" <| [
 
     FuCAL                     `noun`    {- <fu'Ad> -}          [ "heart", "mind" ]
                               `plural`     HaFCiL |< aT,
 
-    FuCAL                     `noun`    {- <fu'Ad> -}          [ "Fuad", "Fouad" ] ]
+    FuCAL                     `noun`    {- <fu'Ad> -}          [ "" {- "Fuad" -}, "" {- "Fouad" -} ] ]
 
 
-cluster_754 = cluster
+cluster_655 = cluster
 
  |> "f ' ^s" <| [
 
@@ -14392,22 +13566,22 @@ cluster_754 = cluster
     "fA^s" |< Iy              `adj`     {- <fA^sIy> -}         [ "fascist" ] ]
 
 
-cluster_755 = cluster
+cluster_656 = cluster
 
  |> "f  '" <| [
 
-    "fA'"                     `noun`    {- <fA'> -}            [ unwords [ "fa'", "(", "Arabic", "letter", ")" ], unwords [ "fa's", "(", "Arabic", "letter", ")" ] ]
+    "fA'"                     `noun`    {- <fA'> -}            [ unwords [ "fa'", "(", "" {- "Arabic" -}, "letter", ")" ], unwords [ "fa's", "(", "" {- "Arabic" -}, "letter", ")" ] ]
                               `plural`     "fA'" |< At ]
 
 
-cluster_756 = cluster
+cluster_657 = cluster
 
  |> "f ' z" <| [
 
     "fAz" |< aT               `noun`    {- <fAzaT> -}          [ "vase" ] ]
 
 
-cluster_757 = cluster
+cluster_658 = cluster
 
  |> "f ' y" <| [
 
@@ -14417,18 +13591,18 @@ cluster_757 = cluster
 
 
 
-cluster_758 = cluster
+cluster_659 = cluster
 
  |> "f ' t" <| [
 
     IFtaCaL                   `verb`    {- <ifta'at> -}        [ unwords [ "be", "obstinate" ], unwords [ "be", "oppressive" ], unwords [ "die", "suddenly" ] ] ]
 
 
-cluster_759 = cluster
+cluster_660 = cluster
 
  |> "f ' s" <| [
 
-    FAL |< Iy                 `adj`     {- <fAsIy> -}          [ "Fassi" ],
+    FAL |< Iy                 `adj`     {- <fAsIy> -}          [ "" {- "Fassi" -} ],
 
     FAL |< Iy                 `adj`     {- <fAsIy> -}          [ unwords [ "from", "/", "of", "Fez" ], "Fes" ],
 
@@ -14445,7 +13619,7 @@ cluster_759 = cluster
                               `plural`     FuCUL ]
 
 
-cluster_760 = cluster
+cluster_661 = cluster
 
  |> "f ' r" <| [
 
@@ -14456,13 +13630,7 @@ cluster_760 = cluster
                               `plural`     FiCLAn ]
 
 
-cluster_761 = cluster
-
- |> "" <| [
-
-    "fAn"                     `noun`    {- <fAn> -}            [ "Fan", "Fansa", "Vansa", "Fanssa", unwords [ "Vanssa", "?", "?" ] ] ]
-
-
+cluster_662 = cluster
 
  |> "f ' n" <| [
 
@@ -14470,7 +13638,7 @@ cluster_761 = cluster
                               `plural`     "fAn" |< At ]
 
 
-cluster_762 = cluster
+cluster_663 = cluster
 
  |> "f .d w" <| [
 
@@ -14505,7 +13673,7 @@ cluster_762 = cluster
                               `plural`     MutaFaCCI |< At ]
 
 
-cluster_763 = cluster
+cluster_664 = cluster
 
  |> "f .g w" <| [
 
@@ -14515,7 +13683,7 @@ cluster_763 = cluster
                               `plural`     FiCA' ]
 
 
-cluster_764 = cluster
+cluster_665 = cluster
 
  |> "f .h w" <| [
 
@@ -14526,7 +13694,7 @@ cluster_764 = cluster
                               `plural`     FaCALI ]
 
 
-cluster_765 = cluster
+cluster_666 = cluster
 
  |> "f .s y" <| [
 
@@ -14538,7 +13706,7 @@ cluster_765 = cluster
     FaCL |< aT                `noun`    {- <fa.syaT> -}        [ unwords [ "mild", "weather" ] ] ]
 
 
-cluster_766 = cluster
+cluster_667 = cluster
 
  |> "f ^g '" <| [
 
@@ -14568,7 +13736,7 @@ cluster_766 = cluster
                               `plural`     MuFACiL |< At ]
 
 
-cluster_767 = cluster
+cluster_668 = cluster
 
  |> "f ^s '" <| [
 
@@ -14576,7 +13744,7 @@ cluster_767 = cluster
                               `plural`     HiFCAL |< At ]
 
 
-cluster_768 = cluster
+cluster_669 = cluster
 
  |> "f ^g w" <| [
 
@@ -14588,7 +13756,7 @@ cluster_768 = cluster
                               `plural`     FiCA' ]
 
 
-cluster_769 = cluster
+cluster_670 = cluster
 
  |> "f ^s w" <| [
 
@@ -14615,7 +13783,7 @@ cluster_769 = cluster
                               `plural`     MutaFaCCI |< At ]
 
 
-cluster_770 = cluster
+cluster_671 = cluster
 
  |> "f _t '" <| [
 
@@ -14625,7 +13793,7 @@ cluster_770 = cluster
     FaCL                      `noun`    {- <fa_t'> -}          [ "quenching", unwords [ "cooling", "off" ] ] ]
 
 
-cluster_771 = cluster
+cluster_672 = cluster
 
  |> "f ` w" <| [
 
@@ -14637,7 +13805,7 @@ cluster_771 = cluster
                               `plural`     MaFCaL |< At ]
 
 
-cluster_772 = cluster
+cluster_673 = cluster
 
  |> "f h l w" <| [
 
@@ -14646,7 +13814,7 @@ cluster_772 = cluster
     KaRDaS |< aT              `noun`    {- <fahlawaT> -}       [ "cleverness", "shrewdness" ] ]
 
 
-cluster_773 = cluster
+cluster_674 = cluster
 
  |> "f d y" <| [
 
@@ -14686,7 +13854,7 @@ cluster_773 = cluster
     MaFCIL                    `adj`     {- <mafdIy> -}         [ "beloved", unwords [ "worthy", "of", "sacrifice" ] ] ]
 
 
-cluster_774 = cluster
+cluster_675 = cluster
 
  |> "f l w r" <| [
 
@@ -14702,7 +13870,7 @@ cluster_774 = cluster
     MutaKaRDiS                `adj`     {- <mutafalwir> -}     [ "fluorescent" ] ]
 
 
-cluster_775 = cluster
+cluster_676 = cluster
 
  |> "f l w" <| [
 
@@ -14722,7 +13890,7 @@ cluster_775 = cluster
     MaFACI                    `noun`    {- <mafAlI> -}         [ "pastures" ] ]
 
 
-cluster_776 = cluster
+cluster_677 = cluster
 
  |> "f m y" <| [
 
@@ -14733,7 +13901,7 @@ cluster_776 = cluster
     FaC |<< "awIy"            `adj`     {- <famawIy> -}        [ "oral", "buccal" ] ]
 
 
-cluster_777 = cluster
+cluster_678 = cluster
 
  |> "f l y" <| [
 
@@ -14749,7 +13917,7 @@ cluster_777 = cluster
     FACI |< aT                `noun`    {- <fAliyaT> -}        [ unwords [ "dung", "-", "beetle" ] ] ]
 
 
-cluster_778 = cluster
+cluster_679 = cluster
 
  |> "f q '" <| [
 
@@ -14766,7 +13934,7 @@ cluster_778 = cluster
                               `plural`     InFiCAL |< At ]
 
 
-cluster_779 = cluster
+cluster_680 = cluster
 
  |> "f n y" <| [
 
@@ -14795,7 +13963,7 @@ cluster_779 = cluster
                               `plural`     MutaFACI |< At ]
 
 
-cluster_780 = cluster
+cluster_681 = cluster
 
  |> "f r '" <| [
 
@@ -14805,37 +13973,19 @@ cluster_780 = cluster
     FaCAL                     `noun`    {- <farA'> -}          [ "onager", unwords [ "wild", "ass" ] ] ]
 
 
-cluster_781 = cluster
+cluster_682 = cluster
 
  |> "f r t" <| [
 
     FuCAL                     `noun`    {- <furAt> -}          [ unwords [ "sweet", "water" ] ],
 
-    FuCAL                     `noun`    {- <furAt> -}          [ "Euphrates", unwords [ "Tigris", "and", "Euphrates" ] ] ]
+    FuCAL                     `noun`    {- <furAt> -}          [ "" {- "Euphrates" -}, unwords [ "" {- "Tigris" -}, "and", "" {- "Euphrates" -} ] ] ]
 
 
-cluster_782 = cluster
-
- |> "f r f y" <| [
-
-    "firfI"                   `noun`    {- <firfI> -}          [ "Verviers" ] ]
 
 
-cluster_783 = cluster
 
- |> "f r s y" <| [
-
-    "firsAy"                  `noun`    {- <firsAy> -}         [ "Versailles" ] ]
-
-
-cluster_784 = cluster
-
- |> "f r y l" <| [
-
-    "firyAl"                  `noun`    {- <firyAl> -}         [ "Firyal" ] ]
-
-
-cluster_785 = cluster
+cluster_683 = cluster
 
  |> "f r y" <| [
 
@@ -14869,21 +14019,21 @@ cluster_785 = cluster
                               `plural`     MuFtaCY |< At ]
 
 
-cluster_786 = cluster
+cluster_684 = cluster
 
  |> "f r w l" <| [
 
     "farAwl" |< aT            `noun`    {- <farAwlaT> -}       [ "strawberry" ] ]
 
 
-cluster_787 = cluster
+cluster_685 = cluster
 
  |> "f r w" <| [
 
     FaCCA'                    `noun`    {- <farrA'> -}         [ "furrier" ]
                               `plural`     FaCCA' |< Un,
 
-    FaCCA'                    `noun`    {- <farrA'> -}         [ "Farra" ],
+    FaCCA'                    `noun`    {- <farrA'> -}         [ "" {- "Farra" -} ],
 
     FaCL                      `noun`    {- <farw> -}           [ "fur", "pelt" ],
 
@@ -14895,7 +14045,7 @@ cluster_787 = cluster
                               `plural`     FaCaL |< At ]
 
 
-cluster_788 = cluster
+cluster_686 = cluster
 
  |> "f t '" <| [
 
@@ -14905,7 +14055,7 @@ cluster_788 = cluster
     FaCiL                     `verb`    {- <fati'> -}          [ "cease", "desist", "stop" ] ]
 
 
-cluster_789 = cluster
+cluster_687 = cluster
 
  |> "f s w" <| [
 
@@ -14917,7 +14067,7 @@ cluster_789 = cluster
     FuCA'                     `noun`    {- <fusA'> -}          [ unwords [ "silent", "farting" ] ] ]
 
 
-cluster_790 = cluster
+cluster_688 = cluster
 
  |> "f t y" <| [
 
@@ -14960,12 +14110,12 @@ cluster_790 = cluster
 
     IstiFCA' |< Iy            `adj`     {- <istiftA'Iy> -}     [ "polling", "questionnaire", "survey" ],
 
-    MuFCI                     `noun`    {- <muftI> -}          [ unwords [ "mufti", "(", "Muslim", "legal", "scholar", ")" ] ],
+    MuFCI                     `noun`    {- <muftI> -}          [ unwords [ "mufti", "(", "" {- "Muslim" -}, "legal", "scholar", ")" ] ],
 
-    MuFCI                     `noun`    {- <muftI> -}          [ "Mufti" ] ]
+    MuFCI                     `noun`    {- <muftI> -}          [ "" {- "Mufti" -} ] ]
 
 
-cluster_791 = cluster
+cluster_689 = cluster
 
  |> "f w .d" <| [
 
@@ -15014,7 +14164,7 @@ cluster_791 = cluster
     `derives` feminine ]
 
 
-cluster_792 = cluster
+cluster_690 = cluster
 
  |> "f w f" <| [
 
@@ -15023,7 +14173,7 @@ cluster_792 = cluster
     MuFaCCaL                  `noun`    {- <mufawwaf> -}       [ unwords [ "white", "-", "striped" ] ] ]
 
 
-cluster_793 = cluster
+cluster_691 = cluster
 
  |> "f w d" <| [
 
@@ -15031,7 +14181,7 @@ cluster_793 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_794 = cluster
+cluster_692 = cluster
 
  |> "f w `" <| [
 
@@ -15040,14 +14190,8 @@ cluster_794 = cluster
     MuFaCCaL                  `adj`     {- <mufawwa`> -}       [ "virulent" ] ]
 
 
-cluster_795 = cluster
 
- |> "f w ^g y" <| [
-
-    "fU^gI"                   `noun`    {- <fU^gI> -}          [ "Fuji" ] ]
-
-
-cluster_796 = cluster
+cluster_693 = cluster
 
  |> "f w ^g" <| [
 
@@ -15057,7 +14201,7 @@ cluster_796 = cluster
     HaFCAL                    `noun`    {- <'afwA^g> -}        [ unwords [ "in", "droves" ], unwords [ "en", "masse" ] ] ]
 
 
-cluster_797 = cluster
+cluster_694 = cluster
 
  |> "f w .t" <| [
 
@@ -15065,7 +14209,7 @@ cluster_797 = cluster
                               `plural`     FuCaL ]
 
 
-cluster_798 = cluster
+cluster_695 = cluster
 
  |> "f w .h" <| [
 
@@ -15082,42 +14226,30 @@ cluster_798 = cluster
     FaCaLAn                   `noun`    {- <fawa.hAn> -}       [ "emanation", "exhalation" ] ]
 
 
-cluster_799 = cluster
+cluster_696 = cluster
 
  |> "f w n m" <| [
 
     "fUnIm"                   `noun`    {- <fUnIm> -}          [ "phoneme" ] ]
 
 
-cluster_800 = cluster
 
- |> "f w n" <| [
-
-    "fUn"                     `noun`    {- <fUn> -}            [ "Von", "von" ] ]
-
-
-cluster_801 = cluster
+cluster_697 = cluster
 
  |> "f w m" <| [
 
     FUL                       `noun`    {- <fUm> -}            [ "garlic" ] ]
 
 
-cluster_802 = cluster
 
- |> "f w l r" <| [
-
-    "fUlir"                   `noun`    {- <fUlir> -}          [ "Voeller", "Fuller" ] ]
-
-
-cluster_803 = cluster
+cluster_698 = cluster
 
  |> "f w l k" <| [
 
     "fUlIk"                   `noun`    {- <fUlIk> -}          [ "folic" ] ]
 
 
-cluster_804 = cluster
+cluster_699 = cluster
 
  |> "f w l _d" <| [
 
@@ -15128,7 +14260,7 @@ cluster_804 = cluster
     KuRDAS                    `adj`     {- <fuwlA_d> -}        [ "steel", unwords [ "steel", "plated" ] ] ]
 
 
-cluster_805 = cluster
+cluster_700 = cluster
 
  |> "f w l" <| [
 
@@ -15141,14 +14273,8 @@ cluster_805 = cluster
     `derives` feminine ]
 
 
-cluster_806 = cluster
 
- |> "f w k y" <| [
-
-    "fUkI"                    `noun`    {- <fUkI> -}           [ "Fuki" ] ]
-
-
-cluster_807 = cluster
+cluster_701 = cluster
 
  |> "f w h" <| [
 
@@ -15174,7 +14300,7 @@ cluster_807 = cluster
     MuFaCCaL                  `adj`     {- <mufawwah> -}       [ "eloquent" ] ]
 
 
-cluster_808 = cluster
+cluster_702 = cluster
 
  |> "f w q" <| [
 
@@ -15224,14 +14350,8 @@ cluster_808 = cluster
     MustaFIL                  `adj`     {- <mustafIq> -}       [ "awake" ] ]
 
 
-cluster_809 = cluster
 
- |> "f w r k" <| [
-
-    "fUrIk"                   `noun`    {- <fUrIk> -}          [ "Furik" ] ]
-
-
-cluster_810 = cluster
+cluster_703 = cluster
 
  |> "f w r" <| [
 
@@ -15267,7 +14387,7 @@ cluster_810 = cluster
                               `plural`     FawA'iL ]
 
 
-cluster_811 = cluster
+cluster_704 = cluster
 
  |> "f w t" <| [
 
@@ -15299,7 +14419,7 @@ cluster_811 = cluster
     MutaFACiL                 `adj`     {- <mutafAwit> -}      [ "different", "contradictory" ] ]
 
 
-cluster_812 = cluster
+cluster_705 = cluster
 
  |> "f y '" <| [
 
@@ -15318,7 +14438,7 @@ cluster_812 = cluster
                               `plural`     FuCUL ]
 
 
-cluster_813 = cluster
+cluster_706 = cluster
 
  |> "f w z" <| [
 
@@ -15330,11 +14450,11 @@ cluster_813 = cluster
 
     FaCL |< Iy                `adj`     {- <fawzIy> -}         [ "triumphant" ],
 
-    FaCL |< Iy                `adj`     {- <fawzIy> -}         [ "Fawzi" ],
+    FaCL |< Iy                `adj`     {- <fawzIy> -}         [ "" {- "Fawzi" -} ],
 
-    FaCLAn                    `noun`    {- <fawzAn> -}         [ "Fawzan" ],
+    FaCLAn                    `noun`    {- <fawzAn> -}         [ "" {- "Fawzan" -} ],
 
-    FaCAL                     `noun`    {- <fawAz> -}          [ "Fawaz" ],
+    FaCAL                     `noun`    {- <fawAz> -}          [ "" {- "Fawaz" -} ],
 
     MaFAL |< aT               `noun`    {- <mafAzaT> -}        [ "desert" ]
                               `plural`     MaFACiL,
@@ -15344,24 +14464,24 @@ cluster_813 = cluster
                            
     `derives` feminine,
 
-    FA'iL                     `noun`    {- <fA'iz> -}          [ "Fayez", "Fayiz", "Fa'iz" ],
+    FA'iL                     `noun`    {- <fA'iz> -}          [ "" {- "Fayez" -}, "" {- "Fayiz" -}, "Fa'iz" ],
 
-    FAyiL                     `noun`    {- <fAyiz> -}          [ "Fayez", "Fayiz" ] ]
+    FAyiL                     `noun`    {- <fAyiz> -}          [ "" {- "Fayez" -}, "" {- "Fayiz" -} ] ]
 
 
-cluster_814 = cluster
+cluster_707 = cluster
 
  |> "f y .h" <| [
 
     HaFCaL                    `adj`     {- <'afya.h> -}        [ "aromatic", "spacious" ]
                               `femini`     FaCLA',
 
-    FaCLA'                    `noun`    {- <fay.hA'> -}        [ "Damascus" ],
+    FaCLA'                    `noun`    {- <fay.hA'> -}        [ "" {- "Damascus" -} ],
 
     FaCCAL                    `noun`    {- <fayyA.h> -}        [ "redolent", "aromatic" ] ]
 
 
-cluster_815 = cluster
+cluster_708 = cluster
 
  |> "f y .d" <| [
 
@@ -15378,7 +14498,7 @@ cluster_815 = cluster
 
     FaCCAL                    `noun`    {- <fayyA.d> -}        [ "effusive", "elaborate", "munificent" ],
 
-    FaCCAL                    `noun`    {- <fayyA.d> -}        [ "Fayyad" ],
+    FaCCAL                    `noun`    {- <fayyA.d> -}        [ "" {- "Fayyad" -} ],
 
     FaCaLAn                   `noun`    {- <faya.dAn> -}       [ "flood", "deluge" ]
                               `plural`     FaCaLAn |< At,
@@ -15396,14 +14516,8 @@ cluster_815 = cluster
     MustaFIL                  `adj`     {- <mustafI.d> -}      [ "elaborate", "detailed", "extensive" ] ]
 
 
-cluster_816 = cluster
 
- |> "f y b r" <| [
-
-    "fIbir"                   `noun`    {- <fIbir> -}          [ "Weber", "Webber" ] ]
-
-
-cluster_817 = cluster
+cluster_709 = cluster
 
  |> "" <| [
 
@@ -15428,7 +14542,7 @@ cluster_817 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_818 = cluster
+cluster_710 = cluster
 
  |> "f y .z" <| [
 
@@ -15437,7 +14551,7 @@ cluster_818 = cluster
     FACiL                     `noun`    {- <fAyi.z> -}         [ "usurer" ] ]
 
 
-cluster_819 = cluster
+cluster_711 = cluster
 
  |> "f y h q" <| [
 
@@ -15451,7 +14565,7 @@ cluster_819 = cluster
     `derives` feminine ]
 
 
-cluster_820 = cluster
+cluster_712 = cluster
 
  |> "f y f" <| [
 
@@ -15459,7 +14573,7 @@ cluster_820 = cluster
                               `plural`     FaCALI ]
 
 
-cluster_821 = cluster
+cluster_713 = cluster
 
  |> "f y d" <| [
 
@@ -15479,7 +14593,7 @@ cluster_821 = cluster
     FA'iL |< aT               `noun`    {- <fA'idaT> -}        [ "benefit", "use" ]
                               `plural`     FawA'iL,
 
-    FACiL                     `noun`    {- <fAyid> -}          [ "Fayed" ],
+    FACiL                     `noun`    {- <fAyid> -}          [ "" {- "Fayed" -} ],
 
     MuFIL                     `adj`     {- <mufId> -}          [ "useful", "beneficial" ],
 
@@ -15493,28 +14607,22 @@ cluster_821 = cluster
     MustaFAL                  `noun`    {- <mustafAd> -}       [ "profited", "deduced", "inferred" ] ]
 
 
-cluster_822 = cluster
+cluster_714 = cluster
 
  |> "f y q" <| [
 
     FIL |< aT                 `noun`    {- <fIqaT> -}          [ "kindness", "favor" ] ]
 
 
-cluster_823 = cluster
 
- |> "f y n s" <| [
-
-    "fInUs"                   `noun`    {- <fInUs> -}          [ "Venus" ] ]
-
-
-cluster_824 = cluster
+cluster_715 = cluster
 
  |> "f y n q" <| [
 
-    "fInIq" |< Iy             `adj`     {- <fInIqIy> -}        [ "Phoenician" ] ]
+    "fInIq" |< Iy             `adj`     {- <fInIqIy> -}        [ "" {- "Phoenician" -} ] ]
 
 
-cluster_825 = cluster
+cluster_716 = cluster
 
  |> "f y n" <| [
 
@@ -15523,23 +14631,23 @@ cluster_825 = cluster
     FaCLAn                    `noun`    {- <faynAn> -}         [ unwords [ "long", "-", "haired" ] ] ]
 
 
-cluster_826 = cluster
+cluster_717 = cluster
 
  |> "f y m" <| [
 
-    FaCCUL                    `noun`    {- <fayyUm> -}         [ "Fayyoum" ],
+    FaCCUL                    `noun`    {- <fayyUm> -}         [ "" {- "Fayyoum" -} ],
 
-    FaCCUL |< Iy              `adj`     {- <fayyUmIy> -}       [ unwords [ "from", "/", "of", "Fayyoum" ] ] ]
-
-
-cluster_827 = cluster
-
- |> "f y l y" <| [
-
-    "fIlI"                    `noun`    {- <fIlI> -}           [ "Willy" ] ]
+    FaCCUL |< Iy              `adj`     {- <fayyUmIy> -}       [ unwords [ "from", "/", "of", "" {- "Fayyoum" -} ] ] ]
 
 
-cluster_828 = cluster
+cluster_718 = cluster
+
+ |> "f y n s" <| [
+
+    "fInUs"                   `noun`    {- <fInUs> -}          [ "" {- "Venus" -} ] ]
+
+
+cluster_719 = cluster
 
  |> "f y l q" <| [
 
@@ -15547,21 +14655,9 @@ cluster_828 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_829 = cluster
-
- |> "f y l l" <| [
-
-    KiRDAS |< Iy              `adj`     {- <fiylAlIy> -}       [ "Filali" ] ]
 
 
-cluster_830 = cluster
-
- |> "f y l b" <| [
-
-    KiRDIS                    `noun`    {- <fiylIb> -}         [ "Philip", "Philippe", "Phillippe" ] ]
-
-
-cluster_831 = cluster
+cluster_720 = cluster
 
  |> "f y l ^g" <| [
 
@@ -15569,7 +14665,7 @@ cluster_831 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_832 = cluster
+cluster_721 = cluster
 
  |> "f y l" <| [
 
@@ -15599,7 +14695,7 @@ cluster_832 = cluster
     `derives` feminine ]
 
 
-cluster_833 = cluster
+cluster_722 = cluster
 
  |> "f y z" <| [
 
@@ -15608,63 +14704,33 @@ cluster_833 = cluster
     "fIziyA'" |< Iy           `adj`     {- <fIziyA'Iy> -}      [ "physicist" ] ]
 
 
-cluster_834 = cluster
+cluster_723 = cluster
 
  |> "f y y" <| [
 
     FI                        `prep`    {- <fI> -}             [ "in" ] ]
 
 
-cluster_835 = cluster
-
- |> "f y t s" <| [
-
-    "fItIs"                   `noun`    {- <fItIs> -}          [ "Vitesse" ] ]
 
 
-cluster_836 = cluster
-
- |> "" <| [
-
-    "fItUr"                   `noun`    {- <fItUr> -}          [ "Vitor" ] ]
-
-
-
- |> "" <| [
-
-    "fItUr" |< Iy             `adj`     {- <fItUrIy> -}        [ "Fitouri", "Fituri" ] ]
-
-
-
- |> "f y t r" <| [
-
-    "faytUr" |< Iy            `adj`     {- <faytUrIy> -}       [ "Faitouri", "Faituri" ] ]
-
-
-cluster_837 = cluster
+cluster_724 = cluster
 
  |> "f y t n" <| [
 
     "faytUn"                  `noun`    {- <faytUn> -}         [ "phaeton" ] ]
 
 
-cluster_838 = cluster
 
- |> "f y s" <| [
-
-    "fAys"                    `noun`    {- <fAys> -}           [ "Weiss" ] ]
-
-
-cluster_839 = cluster
+cluster_725 = cluster
 
  |> "f y r z" <| [
 
-    KaRDUS                    `noun`    {- <fayrUz> -}         [ "Fayruz" ],
+    KaRDUS                    `noun`    {- <fayrUz> -}         [ "" {- "Fayruz" -} ],
 
     KaRDUS                    `noun`    {- <fayrUz> -}         [ "turquoise" ] ]
 
 
-cluster_840 = cluster
+cluster_726 = cluster
 
  |> "f y r s" <| [
 
@@ -15674,15 +14740,15 @@ cluster_840 = cluster
     "fayrUs" |< Iy            `adj`     {- <fayrUsIy> -}       [ "virus" ] ]
 
 
-cluster_841 = cluster
+cluster_727 = cluster
 
  |> "q ' f" <| [
 
-    FAL                       `noun`    {- <qAf> -}            [ unwords [ "qaf", "(", "Arabic", "letter", ")" ] ]
+    FAL                       `noun`    {- <qAf> -}            [ unwords [ "qaf", "(", "" {- "Arabic" -}, "letter", ")" ] ]
                               `plural`     FAL |< At ]
 
 
-cluster_842 = cluster
+cluster_728 = cluster
 
  |> "q .d y" <| [
 
@@ -15755,7 +14821,7 @@ cluster_842 = cluster
                               `plural`     MuFtaCY |< At ]
 
 
-cluster_843 = cluster
+cluster_729 = cluster
 
  |> "q .s y" <| [
 
@@ -15782,7 +14848,7 @@ cluster_843 = cluster
 
     FaCA'                     `noun`    {- <qa.sA'> -}         [ "remoteness", "distance" ],
 
-    HaFCY                     `noun`    {- <'aq.sY> -}         [ "Aqsa" ],
+    HaFCY                     `noun`    {- <'aq.sY> -}         [ "" {- "Aqsa" -} ],
 
     HaFCY                     `adj`     {- <'aq.sY> -}         [ "farthest", unwords [ "most", "remote" ], "remotest" ]
                               `plural`     HaFACI
@@ -15802,7 +14868,7 @@ cluster_843 = cluster
                               `plural`     FACI |< At ]
 
 
-cluster_844 = cluster
+cluster_730 = cluster
 
  |> "q .t w" <| [
 
@@ -15812,7 +14878,7 @@ cluster_844 = cluster
                               `plural`     FaCaL |< At ]
 
 
-cluster_845 = cluster
+cluster_731 = cluster
 
  |> "q _t '" <| [
 
@@ -15822,7 +14888,7 @@ cluster_845 = cluster
                               `plural`     FuCCAL |< At ]
 
 
-cluster_846 = cluster
+cluster_732 = cluster
 
  |> "q _d y" <| [
 
@@ -15836,14 +14902,14 @@ cluster_846 = cluster
                               `plural`     HaFCA' ]
 
 
-cluster_847 = cluster
+cluster_733 = cluster
 
  |> "q ` y" <| [
 
     HaFCY                     `verb`    {- <'aq`Y> -}          [ "crouch", "squat" ] ]
 
 
-cluster_848 = cluster
+cluster_734 = cluster
 
  |> "q b w" <| [
 
@@ -15867,7 +14933,7 @@ cluster_848 = cluster
     FaC |<< "awIy"            `adj`     {- <qabawIy> -}        [ "apsidal" ] ]
 
 
-cluster_849 = cluster
+cluster_735 = cluster
 
  |> "" <| [
 
@@ -15876,7 +14942,7 @@ cluster_849 = cluster
     "qad"                     `part`    {- <qad> -}            [ unwords [ "(", "has", "/", "have", ")" ], unwords [ "indeed", "(", "has", "/", "have", ")" ] ] ]
 
 
-cluster_850 = cluster
+cluster_736 = cluster
 
  |> "q d y" <| [
 
@@ -15908,7 +14974,7 @@ cluster_850 = cluster
     FuCL |< aT                `noun`    {- <qudwaT> -}         [ "example", "model", "pattern" ] ]
 
 
-cluster_851 = cluster
+cluster_737 = cluster
 
  |> "q f w" <| [
 
@@ -15921,7 +14987,7 @@ cluster_851 = cluster
 
     IFtaCY                    `verb`    {- <iqtafY> -}         [ "follow", "track", "imitate" ],
 
-    FaC |<< "aN"              `noun`    {- <qafaN> -}          [ "neck", "nape", "back", "reverse" ]
+    FaCA                      `noun`    {- <qafA> -}           [ "neck", "nape", "back", "reverse" ]
                               `plural`     HaFCA'
                               `plural`     HaFCI |< aT,
 
@@ -15934,7 +15000,7 @@ cluster_851 = cluster
                               `plural`     FawACI ]
 
 
-cluster_852 = cluster
+cluster_738 = cluster
 
  |> "q h w" <| [
 
@@ -15950,7 +15016,7 @@ cluster_852 = cluster
 
     FaCL |< At |< Iy          `adj`     {- <qahwAtIy> -}       [ unwords [ "cafe", "manager" ] ],
 
-    FaCL |< At |< Iy          `noun`    {- <qahwAtIy> -}       [ "Qahwati" ],
+    FaCL |< At |< Iy          `noun`    {- <qahwAtIy> -}       [ "" {- "Qahwati" -} ],
 
     FaCL |< At |< Iy |< aT    `noun`    {- <qahwAtIyaT> -}     [ unwords [ "cafe", "owners" ] ] ]
 
@@ -15967,7 +15033,7 @@ cluster_852 = cluster
                               `plural`     FACI |< At ]
 
 
-cluster_853 = cluster
+cluster_739 = cluster
 
  |> "q l w .z" <| [
 
@@ -15976,7 +15042,7 @@ cluster_853 = cluster
     MuKaRDaS                  `adj`     {- <muqalwa.z> -}      [ "spiral", "helical" ] ]
 
 
-cluster_854 = cluster
+cluster_740 = cluster
 
  |> "q l y" <| [
 
@@ -16010,7 +15076,7 @@ cluster_854 = cluster
     FiCL                      `noun`    {- <qilw> -}           [ "alkali" ] ]
 
 
-cluster_855 = cluster
+cluster_741 = cluster
 
  |> "q m '" <| [
 
@@ -16022,18 +15088,18 @@ cluster_855 = cluster
     FaCAL |< aT               `noun`    {- <qamA'aT> -}        [ "humbleness", "unattractiveness" ] ]
 
 
-cluster_856 = cluster
+cluster_742 = cluster
 
  |> "q l y b" <| [
 
-    "qalyUb"                  `noun`    {- <qalyUb> -}         [ "Qalyub" ],
+    "qalyUb"                  `noun`    {- <qalyUb> -}         [ "" {- "Qalyub" -} ],
 
-    "qalyUb" |< Iy |< aT      `noun`    {- <qalyUbIyaT> -}     [ "Qalyubiyah" ],
+    "qalyUb" |< Iy |< aT      `noun`    {- <qalyUbIyaT> -}     [ "" {- "Qalyubiyah" -} ],
 
-    "qalyUb" |< Iy            `adj`     {- <qalyUbIy> -}       [ unwords [ "from", "/", "of", "Qalyub" ] ] ]
+    "qalyUb" |< Iy            `adj`     {- <qalyUbIy> -}       [ unwords [ "from", "/", "of", "" {- "Qalyub" -} ] ] ]
 
 
-cluster_857 = cluster
+cluster_743 = cluster
 
  |> "q l w z" <| [
 
@@ -16042,20 +15108,14 @@ cluster_857 = cluster
     MuKaRDaS                  `adj`     {- <muqalwaz> -}       [ "spiral", "helical" ] ]
 
 
-cluster_858 = cluster
+cluster_744 = cluster
 
  |> "q n '" <| [
 
     FACiL                     `adj`     {- <qAni'> -}          [ "crimson", unwords [ "bright", "-", "red" ] ] ]
 
 
-cluster_859 = cluster
-
- |> "" <| [
-
-    "qUnI" |< aT              `noun`    {- <qUniyaT> -}        [ "Konya" ] ]
-
-
+cluster_745 = cluster
 
  |> "q n y" <| [
 
@@ -16090,7 +15150,7 @@ cluster_859 = cluster
                               `plural`     HaFCI |< aT
                               `plural`     FaCaL |< At,
 
-    FaCY |< aT                `noun`    {- <qanAT> -}          [ "Qanat" ],
+    FaCY |< aT                `noun`    {- <qanAT> -}          [ "" {- "Qanat" -} ],
 
     HaFCY                     `noun`    {- <'aqnY> -}          [ "bent", "crooked", "hooked" ],
 
@@ -16107,7 +15167,7 @@ cluster_859 = cluster
                               `plural`     MuFtaCY |< At ]
 
 
-cluster_860 = cluster
+cluster_746 = cluster
 
  |> "q r '" <| [
 
@@ -16124,9 +15184,9 @@ cluster_860 = cluster
 
     FiCAL |< aT               `noun`    {- <qirA'aT> -}        [ "reading" ],
 
-    FuCLAn                    `noun`    {- <qur'An> -}         [ "Quran" ],
+    FuCLAn                    `noun`    {- <qur'An> -}         [ "" {- "Quran" -} ],
 
-    FuCLAn |< Iy              `adj`     {- <qur'AnIy> -}       [ "Quranic" ],
+    FuCLAn |< Iy              `adj`     {- <qur'AnIy> -}       [ "" {- "Quranic" -} ],
 
     MiFCaL                    `noun`    {- <miqra'> -}         [ "lectern", "rostrum" ]
                               `plural`     MaFACiL,
@@ -16148,7 +15208,7 @@ cluster_860 = cluster
 
     MaFCUL |< Iy |< aT        `noun`    {- <maqrU'IyaT> -}     [ "legibility" ],
 
-    MuFCiL                    `noun`    {- <muqri'> -}         [ unwords [ "Quran", "reciter" ] ]
+    MuFCiL                    `noun`    {- <muqri'> -}         [ unwords [ "" {- "Quran" -}, "reciter" ] ]
                               `plural`     MuFCiL |< Un
                            
     `derives` feminine,
@@ -16159,7 +15219,7 @@ cluster_860 = cluster
     IstiFCAL |< Iy            `adj`     {- <istiqrA'Iy> -}     [ "inductive", "investigative" ] ]
 
 
-cluster_861 = cluster
+cluster_747 = cluster
 
  |> "q r w" <| [
 
@@ -16179,7 +15239,7 @@ cluster_861 = cluster
     IstiFCA' |< Iy            `adj`     {- <istiqrA'Iy> -}     [ "inductive", "investigative" ] ]
 
 
-cluster_862 = cluster
+cluster_748 = cluster
 
  |> "q r y" <| [
 
@@ -16205,10 +15265,10 @@ cluster_862 = cluster
 
     FaC |<< "awIy"            `adj`     {- <qarawIy> -}        [ "peasant", "villager" ],
 
-    FaC |<< "awIy"            `adj`     {- <qarawIy> -}        [ unwords [ "of", "/", "from", "Kairouan" ] ] ]
+    FaC |<< "awIy"            `adj`     {- <qarawIy> -}        [ unwords [ "of", "/", "from", "" {- "Kairouan" -} ] ] ]
 
 
-cluster_863 = cluster
+cluster_749 = cluster
 
  |> "q s w" <| [
 
@@ -16240,7 +15300,7 @@ cluster_863 = cluster
     TaFCI |< aT               `noun`    {- <taqsiyaT> -}       [ "tempering", "hardening" ] ]
 
 
-cluster_864 = cluster
+cluster_750 = cluster
 
  |> "q w ^s" <| [
 
@@ -16251,7 +15311,7 @@ cluster_864 = cluster
                               `plural`     FaCACIL ]
 
 
-cluster_865 = cluster
+cluster_751 = cluster
 
  |> "q w .t" <| [
 
@@ -16267,9 +15327,9 @@ cluster_865 = cluster
 
  |> "" <| [
 
-    "qU.t" |< Iy              `adj`     {- <qU.tIy> -}         [ "Gothic" ],
+    "qU.t" |< Iy              `adj`     {- <qU.tIy> -}         [ "" {- "Gothic" -} ],
 
-    "qU.t"                    `noun`    {- <qU.t> -}           [ "Goths" ] ]
+    "qU.t"                    `noun`    {- <qU.t> -}           [ "" {- "Goths" -} ] ]
 
 
 
@@ -16279,7 +15339,7 @@ cluster_865 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_866 = cluster
+cluster_752 = cluster
 
  |> "q w .s" <| [
 
@@ -16288,10 +15348,10 @@ cluster_866 = cluster
                            
     `derives` feminine,
 
-    FaCCAL                    `noun`    {- <qawwA.s> -}        [ "Qawwas" ] ]
+    FaCCAL                    `noun`    {- <qawwA.s> -}        [ "" {- "Qawwas" -} ] ]
 
 
-cluster_867 = cluster
+cluster_753 = cluster
 
  |> "q w .h" <| [
 
@@ -16309,7 +15369,7 @@ cluster_867 = cluster
                               `plural`     FUL ]
 
 
-cluster_868 = cluster
+cluster_754 = cluster
 
  |> "q w .d" <| [
 
@@ -16327,7 +15387,7 @@ cluster_868 = cluster
     MuFACaL |< aT             `noun`    {- <muqAwa.daT> -}     [ "barter", "exchange" ] ]
 
 
-cluster_869 = cluster
+cluster_755 = cluster
 
  |> "q w b" <| [
 
@@ -16351,7 +15411,7 @@ cluster_869 = cluster
                               `plural`     FuCaL ]
 
 
-cluster_870 = cluster
+cluster_756 = cluster
 
  |> "q w `" <| [
 
@@ -16364,7 +15424,7 @@ cluster_870 = cluster
                               `plural`     FAL |< At ]
 
 
-cluster_871 = cluster
+cluster_757 = cluster
 
  |> "q w d" <| [
 
@@ -16428,14 +15488,14 @@ cluster_871 = cluster
                               `plural`     MaFACiL ]
 
 
-cluster_872 = cluster
+cluster_758 = cluster
 
  |> "q w l n" <| [
 
     "qUlUn"                   `noun`    {- <qUlUn> -}          [ "bowels", "colon" ] ]
 
 
-cluster_873 = cluster
+cluster_759 = cluster
 
  |> "q w l b" <| [
 
@@ -16444,7 +15504,7 @@ cluster_873 = cluster
     KaRDaS |< aT              `noun`    {- <qawlabaT> -}       [ "casting", "molding" ] ]
 
 
-cluster_874 = cluster
+cluster_760 = cluster
 
  |> "q w l .h" <| [
 
@@ -16452,7 +15512,7 @@ cluster_874 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_875 = cluster
+cluster_761 = cluster
 
  |> "q w l" <| [
 
@@ -16468,8 +15528,7 @@ cluster_875 = cluster
                               `plural`     HaFACIL
                               `plural`     HaFCAL,
 
-    FaCL |<< "aN"             `noun`    {- <qawlaN> -}         [ unwords [ "in", "word" ], "verbally", unwords [ "by", "word" ] ]
-                              `plural`     FaCL,
+    FaCL |<< "aN"             `noun`    {- <qawlaN> -}         [ unwords [ "in", "word" ], "verbally", unwords [ "by", "word" ] ],
 
     FaCL |< aT                `noun`    {- <qawlaT> -}         [ "remark" ],
 
@@ -16506,14 +15565,14 @@ cluster_875 = cluster
                               `plural`     MaFACiL ]
 
 
-cluster_876 = cluster
+cluster_762 = cluster
 
  |> "q w h" <| [
 
     FaCCaL                    `verb`    {- <qawwah> -}         [ "shriek", "shout" ] ]
 
 
-cluster_877 = cluster
+cluster_763 = cluster
 
  |> "q w m" <| [
 
@@ -16635,25 +15694,25 @@ cluster_877 = cluster
     MustaFIL                  `noun`    {- <mustaqIm> -}       [ "straight", "correct", "righteous" ] ]
 
 
-cluster_878 = cluster
+cluster_764 = cluster
 
  |> "q w q z" <| [
 
-    "qawqAz"                  `noun`    {- <qawqAz> -}         [ "Caucasus" ],
+    "qawqAz"                  `noun`    {- <qawqAz> -}         [ "" {- "Caucasus" -} ],
 
-    "qawqAz" |< Iy            `adj`     {- <qawqAzIy> -}       [ "Caucasian" ] ]
+    "qawqAz" |< Iy            `adj`     {- <qawqAzIy> -}       [ "" {- "Caucasian" -} ] ]
 
 
-cluster_879 = cluster
+cluster_765 = cluster
 
  |> "q w q s" <| [
 
-    "qawqAs"                  `noun`    {- <qawqAs> -}         [ "Caucasus" ],
+    "qawqAs"                  `noun`    {- <qawqAs> -}         [ "" {- "Caucasus" -} ],
 
-    "qawqAs" |< Iy            `adj`     {- <qawqAsIy> -}       [ "Caucasian" ] ]
+    "qawqAs" |< Iy            `adj`     {- <qawqAsIy> -}       [ "" {- "Caucasian" -} ] ]
 
 
-cluster_880 = cluster
+cluster_766 = cluster
 
  |> "q w q `" <| [
 
@@ -16665,7 +15724,7 @@ cluster_880 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_881 = cluster
+cluster_767 = cluster
 
  |> "q w q" <| [
 
@@ -16680,20 +15739,14 @@ cluster_881 = cluster
 
     FuCayL                    `noun`    {- <quwayq> -}         [ "owl" ],
 
-    FuCayL                    `noun`    {- <quwayq> -}         [ "Quwaiq" ],
+    FuCayL                    `noun`    {- <quwayq> -}         [ "" {- "Quwaiq" -} ],
 
     FACUL                     `noun`    {- <qAwUq> -}          [ "headgear" ]
                               `plural`     FaCACIL ]
 
 
-cluster_882 = cluster
 
- |> "q w n y" <| [
-
-    "qUniy" |< aT             `noun`    {- <qUniyaT> -}        [ "Konya" ] ]
-
-
-cluster_883 = cluster
+cluster_768 = cluster
 
  |> "q w n" <| [
 
@@ -16705,7 +15758,7 @@ cluster_883 = cluster
                               `plural`     FaCACIL ]
 
 
-cluster_884 = cluster
+cluster_769 = cluster
 
  |> "q w m s" <| [
 
@@ -16713,7 +15766,7 @@ cluster_884 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_885 = cluster
+cluster_770 = cluster
 
  |> "q w s" <| [
 
@@ -16729,21 +15782,21 @@ cluster_885 = cluster
 
     FaCL                      `noun`    {- <qaws> -}           [ "parentheses" ],
 
-    FaCL                      `noun`    {- <qaws> -}           [ "Sagittarius" ],
+    FaCL                      `noun`    {- <qaws> -}           [ "" {- "Sagittarius" -} ],
 
     FaCCAL                    `noun`    {- <qawwAs> -}         [ "archer", "bowman" ]
                               `plural`     FaCCAL |< Un
                            
     `derives` feminine,
 
-    FaCCAL                    `noun`    {- <qawwAs> -}         [ "Qawwas" ],
+    FaCCAL                    `noun`    {- <qawwAs> -}         [ "" {- "Qawwas" -} ],
 
     FuCayL |< aT              `noun`    {- <quwaysaT> -}       [ unwords [ "sage", "(", "bot.", ")" ] ],
 
     MuFaCCaL                  `adj`     {- <muqawwas> -}       [ "arched", "bent", "curved" ] ]
 
 
-cluster_886 = cluster
+cluster_771 = cluster
 
  |> "q w r" <| [
 
@@ -16769,7 +15822,7 @@ cluster_886 = cluster
     MiFCaL |< aT              `noun`    {- <miqwaraT> -}       [ "gouge" ] ]
 
 
-cluster_887 = cluster
+cluster_772 = cluster
 
  |> "q w w" <| [
 
@@ -16778,14 +15831,14 @@ cluster_887 = cluster
                               `plural`     FuCY ]
 
 
-cluster_888 = cluster
+cluster_773 = cluster
 
  |> "q w t b" <| [
 
     MuKaRDaS                  `adj`     {- <muqawtab> -}       [ "hunchbacked" ] ]
 
 
-cluster_889 = cluster
+cluster_774 = cluster
 
  |> "q w t" <| [
 
@@ -16811,10 +15864,10 @@ cluster_889 = cluster
 
     MuFIL                     `noun`    {- <muqIt> -}          [ unwords [ "nourisher", "(", "God", ")" ] ],
 
-    MuFIL                     `noun`    {- <muqIt> -}          [ "Muqit", "Mouqeet" ] ]
+    MuFIL                     `noun`    {- <muqIt> -}          [ "" {- "Muqit" -}, "" {- "Mouqeet" -} ] ]
 
 
-cluster_890 = cluster
+cluster_775 = cluster
 
  |> "q w y" <| [
 
@@ -16864,7 +15917,7 @@ cluster_890 = cluster
     MuFaCCY                   `adj`     {- <muqawwY> -}        [ "strengthened", "reinforced" ] ]
 
 
-cluster_891 = cluster
+cluster_776 = cluster
 
  |> "q y .d" <| [
 
@@ -16887,7 +15940,7 @@ cluster_891 = cluster
     MuFACaL |< aT             `noun`    {- <muqAya.daT> -}     [ "barter", "exchange" ] ]
 
 
-cluster_892 = cluster
+cluster_777 = cluster
 
  |> "q y '" <| [
 
@@ -16910,7 +15963,7 @@ cluster_892 = cluster
                               `plural`     MuFaCCiL |< At ]
 
 
-cluster_893 = cluster
+cluster_778 = cluster
 
  |> "q y _t r" <| [
 
@@ -16918,7 +15971,7 @@ cluster_893 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_894 = cluster
+cluster_779 = cluster
 
  |> "q y ^s" <| [
 
@@ -16926,7 +15979,7 @@ cluster_894 = cluster
                               `plural`     FawACiL ]
 
 
-cluster_895 = cluster
+cluster_780 = cluster
 
  |> "q y .z" <| [
 
@@ -16941,39 +15994,39 @@ cluster_895 = cluster
     FA'iL                     `noun`    {- <qA'i.z> -}         [ unwords [ "very", "hot" ] ] ]
 
 
-cluster_896 = cluster
+cluster_781 = cluster
 
  |> "q y .t s" <| [
 
-    KiRDUS                    `noun`    {- <qiy.tUs> -}        [ "Cetus" ] ]
+    KiRDUS                    `noun`    {- <qiy.tUs> -}        [ "" {- "Cetus" -} ] ]
 
 
-cluster_897 = cluster
+cluster_782 = cluster
 
  |> "q y .s r" <| [
 
-    KaRDaS                    `noun`    {- <qay.sar> -}        [ "Qaisar" ],
+    KaRDaS                    `noun`    {- <qay.sar> -}        [ "" {- "Qaisar" -} ],
 
-    KaRDaS                    `noun`    {- <qay.sar> -}        [ "Caesar" ],
+    KaRDaS                    `noun`    {- <qay.sar> -}        [ "" {- "Caesar" -} ],
 
-    KaRDaS                    `noun`    {- <qay.sar> -}        [ "Emperor", "emperor" ]
+    KaRDaS                    `noun`    {- <qay.sar> -}        [ "" {- "Emperor" -}, "emperor" ]
                               `plural`     KaRADiS |< aT,
 
-    KaRDaS                    `noun`    {- <qay.sar> -}        [ "Tzar" ],
+    KaRDaS                    `noun`    {- <qay.sar> -}        [ "" {- "Tzar" -} ],
 
     KaRDaS |< Iy              `adj`     {- <qay.sarIy> -}      [ "cesarean", "imperial" ],
 
     KaRDaS |< Iy |< aT        `noun`    {- <qay.sarIyaT> -}    [ unwords [ "cesarean", "section" ] ] ]
 
 
-cluster_898 = cluster
+cluster_783 = cluster
 
  |> "q y .s" <| [
 
     FaCLAn |< aT              `noun`    {- <qay.sAnaT> -}      [ "sunfish", "moonfish" ] ]
 
 
-cluster_899 = cluster
+cluster_784 = cluster
 
  |> "q y .h" <| [
 
@@ -16994,7 +16047,7 @@ cluster_899 = cluster
     MutaFaCCiL                `adj`     {- <mutaqayyi.h> -}    [ "festering", "infected" ] ]
 
 
-cluster_900 = cluster
+cluster_785 = cluster
 
  |> "q y f" <| [
 
@@ -17008,7 +16061,7 @@ cluster_900 = cluster
                               `plural`     TaFCIL |< At ]
 
 
-cluster_901 = cluster
+cluster_786 = cluster
 
  |> "q y d m" <| [
 
@@ -17016,7 +16069,7 @@ cluster_901 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_902 = cluster
+cluster_787 = cluster
 
  |> "q y d" <| [
 
@@ -17041,7 +16094,7 @@ cluster_902 = cluster
     MuFaCCaL                  `adj`     {- <muqayyad> -}       [ "bound", "limited", "restricted" ] ]
 
 
-cluster_903 = cluster
+cluster_788 = cluster
 
  |> "q y l .t" <| [
 
@@ -17050,7 +16103,7 @@ cluster_903 = cluster
     MuKaRDaS                  `adj`     {- <muqayla.t> -}      [ unwords [ "suffering", "from", "scrotal", "hernia" ] ] ]
 
 
-cluster_904 = cluster
+cluster_789 = cluster
 
  |> "q y l" <| [
 
@@ -17079,21 +16132,15 @@ cluster_904 = cluster
     `derives` feminine ]
 
 
-cluster_905 = cluster
+cluster_790 = cluster
 
  |> "q y q b" <| [
 
     KaRDaS                    `noun`    {- <qayqab> -}         [ "maple" ] ]
 
 
-cluster_906 = cluster
 
- |> "q y n n" <| [
-
-    "qInAn"                   `noun`    {- <qInAn> -}          [ "Qinan" ] ]
-
-
-cluster_907 = cluster
+cluster_791 = cluster
 
  |> "q y n" <| [
 
@@ -17104,7 +16151,7 @@ cluster_907 = cluster
                               `plural`     FiCAL ]
 
 
-cluster_908 = cluster
+cluster_792 = cluster
 
  |> "q y m" <| [
 
@@ -17114,7 +16161,7 @@ cluster_908 = cluster
                               `plural`     TaFCIL |< At ]
 
 
-cluster_909 = cluster
+cluster_793 = cluster
 
  |> "q y t r" <| [
 
@@ -17122,7 +16169,7 @@ cluster_909 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_910 = cluster
+cluster_794 = cluster
 
  |> "q y s" <| [
 
@@ -17136,7 +16183,7 @@ cluster_910 = cluster
 
     IFtAL                     `verb`    {- <iqtAs> -}          [ "measure", "imitate" ],
 
-    FaCL                      `noun`    {- <qays> -}           [ "Qais", "Qays" ],
+    FaCL                      `noun`    {- <qays> -}           [ "" {- "Qais" -}, "" {- "Qays" -} ],
 
     FiCAL                     `noun`    {- <qiyAs> -}          [ "analogy" ]
                               `plural`     HaFCiL |< aT
@@ -17158,7 +16205,7 @@ cluster_910 = cluster
     MuFACaL |< aT             `noun`    {- <muqAyasaT> -}      [ "appraisal", "measurement", "comparison" ] ]
 
 
-cluster_911 = cluster
+cluster_795 = cluster
 
  |> "q y r" <| [
 
@@ -17172,16 +16219,16 @@ cluster_911 = cluster
     FIL                       `noun`    {- <qIr> -}            [ "tar", "pitch" ] ]
 
 
-cluster_912 = cluster
+cluster_796 = cluster
 
  |> "q z w n" <| [
 
-    "qazwIn"                  `noun`    {- <qazwIn> -}         [ "Caspian", "Qazvin" ],
+    "qazwIn"                  `noun`    {- <qazwIn> -}         [ "" {- "Caspian" -}, "" {- "Qazvin" -} ],
 
-    "qazwIn" |< Iy            `adj`     {- <qazwInIy> -}       [ "Caspian" ] ]
+    "qazwIn" |< Iy            `adj`     {- <qazwInIy> -}       [ "" {- "Caspian" -} ] ]
 
 
-cluster_913 = cluster
+cluster_797 = cluster
 
  |> "k ' k '" <| [
 
@@ -17191,15 +16238,15 @@ cluster_913 = cluster
                               `plural`     TaKaRDuS |< At ]
 
 
-cluster_914 = cluster
+cluster_798 = cluster
 
  |> "k ' f" <| [
 
-    FAL                       `noun`    {- <kAf> -}            [ unwords [ "kaf", "(", "Arabic", "letter", ")" ] ]
+    FAL                       `noun`    {- <kAf> -}            [ unwords [ "kaf", "(", "" {- "Arabic" -}, "letter", ")" ] ]
                               `plural`     FAL |< At ]
 
 
-cluster_915 = cluster
+cluster_799 = cluster
 
  |> "k ' d" <| [
 
@@ -17211,13 +16258,7 @@ cluster_915 = cluster
     FaCUL                     `adj`     {- <ka'Ud> -}          [ "insurmountable" ] ]
 
 
-cluster_916 = cluster
-
- |> "" <| [
-
-    "kAb"                     `noun`    {- <kAb> -}            [ "Cape" ] ]
-
-
+cluster_800 = cluster
 
  |> "k ' b" <| [
 
@@ -17244,14 +16285,14 @@ cluster_916 = cluster
     MuFtaCiL                  `adj`     {- <mukta'ib> -}       [ "depressed", "dejected" ] ]
 
 
-cluster_917 = cluster
+cluster_801 = cluster
 
  |> "k ' z" <| [
 
     "kAz"                     `noun`    {- <kAz> -}            [ "kerosene", "gas" ] ]
 
 
-cluster_918 = cluster
+cluster_802 = cluster
 
  |> "k ' s" <| [
 
@@ -17261,7 +16302,7 @@ cluster_918 = cluster
                               `plural`     FuCUL ]
 
 
-cluster_919 = cluster
+cluster_803 = cluster
 
  |> "k ' r" <| [
 
@@ -17269,7 +16310,7 @@ cluster_919 = cluster
                               `plural`     FAL |< At ]
 
 
-cluster_920 = cluster
+cluster_804 = cluster
 
  |> "k _h y" <| [
 
@@ -17280,7 +16321,7 @@ cluster_920 = cluster
                               `plural`     FawACI ]
 
 
-cluster_921 = cluster
+cluster_805 = cluster
 
  |> "k b r y" <| [
 
@@ -17288,7 +16329,7 @@ cluster_921 = cluster
                               `plural`     KaRADI ]
 
 
-cluster_922 = cluster
+cluster_806 = cluster
 
  |> "k b w" <| [
 
@@ -17309,7 +16350,7 @@ cluster_922 = cluster
                               `plural`     FACI |< At ]
 
 
-cluster_923 = cluster
+cluster_807 = cluster
 
  |> "k d y" <| [
 
@@ -17325,7 +16366,7 @@ cluster_923 = cluster
     FuCL |< aT                `noun`    {- <kudyaT> -}         [ "begging" ] ]
 
 
-cluster_924 = cluster
+cluster_808 = cluster
 
  |> "k f '" <| [
 
@@ -17369,7 +16410,7 @@ cluster_924 = cluster
     MutaFACiL                 `adj`     {- <mutakAfi'> -}      [ "alike", "commensurate" ] ]
 
 
-cluster_925 = cluster
+cluster_809 = cluster
 
  |> "k f y" <| [
 
@@ -17400,7 +16441,7 @@ cluster_925 = cluster
                               `plural`     MuFtaCI |< At ]
 
 
-cluster_926 = cluster
+cluster_810 = cluster
 
  |> "k l '" <| [
 
@@ -17415,7 +16456,7 @@ cluster_926 = cluster
     FaCUL                     `adj`     {- <kalU'> -}          [ "sleepless" ] ]
 
 
-cluster_927 = cluster
+cluster_811 = cluster
 
  |> "k h y" <| [
 
@@ -17425,7 +16466,7 @@ cluster_927 = cluster
     FiCAL |< aT               `noun`    {- <kihAyaT> -}        [ unwords [ "kihaya", "(", "adm.", "distr.", ")" ] ] ]
 
 
-cluster_928 = cluster
+cluster_812 = cluster
 
  |> "k m '" <| [
 
@@ -17433,14 +16474,14 @@ cluster_928 = cluster
                               `plural`     HaFCuL ]
 
 
-cluster_929 = cluster
+cluster_813 = cluster
 
  |> "" <| [
 
     "kamA"                    `conj`    {- <kamA> -}           [ "and", "as", "also" ] ]
 
 
-cluster_930 = cluster
+cluster_814 = cluster
 
  |> "k l w r" <| [
 
@@ -17449,7 +16490,7 @@ cluster_930 = cluster
     KaRDaS |< aT              `noun`    {- <kalwaraT> -}       [ "chlorination" ] ]
 
 
-cluster_931 = cluster
+cluster_815 = cluster
 
  |> "k l y" <| [
 
@@ -17468,7 +16509,7 @@ cluster_931 = cluster
     FiCL |< Iy                `adj`     {- <kilwIy> -}         [ "renal", "kidney" ] ]
 
 
-cluster_932 = cluster
+cluster_816 = cluster
 
  |> "k m y n" <| [
 
@@ -17476,7 +16517,7 @@ cluster_932 = cluster
                               `plural`     "kamyUn" |< At ]
 
 
-cluster_933 = cluster
+cluster_817 = cluster
 
  |> "" <| [
 
@@ -17493,7 +16534,7 @@ cluster_933 = cluster
                               `plural`     FuCY |< aT ]
 
 
-cluster_934 = cluster
+cluster_818 = cluster
 
  |> "k n w" <| [
 
@@ -17524,16 +16565,16 @@ cluster_934 = cluster
     MaFCIL                    `adj`     {- <maknIy> -}         [ unwords [ "alluded", "to" ] ] ]
 
 
-cluster_935 = cluster
+cluster_819 = cluster
 
  |> "" <| [
 
-    "kirwAt"                  `noun`    {- <kirwAt> -}         [ "Croats" ],
+    "kirwAt"                  `noun`    {- <kirwAt> -}         [ "" {- "Croats" -} ],
 
-    "kuruwAt" |< Iy           `adj`     {- <kuruwAtIy> -}      [ "Croatian", "Croat" ] ]
+    "kuruwAt" |< Iy           `adj`     {- <kuruwAtIy> -}      [ "" {- "Croatian" -}, "" {- "Croat" -} ] ]
 
 
-cluster_936 = cluster
+cluster_820 = cluster
 
  |> "k r w" <| [
 
@@ -17568,19 +16609,7 @@ cluster_936 = cluster
     FuC |<< "awIy" |< aT      `noun`    {- <kurawIyaT> -}      [ "sphericity", "roundness" ] ]
 
 
-cluster_937 = cluster
-
- |> "" <| [
-
-    "kiryAt"                  `noun`    {- <kiryAt> -}         [ "Kiryat" ] ]
-
-
-
- |> "" <| [
-
-    "kArI"                    `noun`    {- <kArI> -}           [ "Carey" ] ]
-
-
+cluster_821 = cluster
 
  |> "k r y" <| [
 
@@ -17626,21 +16655,14 @@ cluster_937 = cluster
                               `plural`     MustaFCI |< At ]
 
 
-cluster_938 = cluster
+cluster_822 = cluster
 
  |> "k r y b" <| [
 
-    "karAyIb"                 `noun`    {- <karAyIb> -}        [ "Caribbean" ] ]
+    "karAyIb"                 `noun`    {- <karAyIb> -}        [ "" {- "Caribbean" -} ] ]
 
 
-cluster_939 = cluster
-
- |> "k s y" <| [
-
-    FaCI                      `verb`    {- <kasI> -}           [ unwords [ "get", "dressed" ] ]
-                              `imperf`     FCY ]
-
-
+cluster_823 = cluster
 
  |> "k s w" <| [
 
@@ -17653,7 +16675,7 @@ cluster_939 = cluster
 
     IFtaCY                    `verb`    {- <iktasY> -}         [ unwords [ "be", "clothed" ], unwords [ "be", "attired" ] ],
 
-    FiCL |< aT                `noun`    {- <kiswaT> -}         [ unwords [ "kiswah", "(", "Kaaba", "cover", ")" ] ],
+    FiCL |< aT                `noun`    {- <kiswaT> -}         [ unwords [ "kiswah", "(", "" {- "Kaaba" -}, "cover", ")" ] ],
 
     FiCL |< aT                `noun`    {- <kiswaT> -}         [ "clothing", "attire" ]
                               `plural`     FuCY
@@ -17666,7 +16688,14 @@ cluster_939 = cluster
     TaFCI |< aT               `noun`    {- <taksiyaT> -}       [ "dressing", "clothing" ] ]
 
 
-cluster_940 = cluster
+
+ |> "k s y" <| [
+
+    FaCI                      `verb`    {- <kasI> -}           [ unwords [ "get", "dressed" ] ]
+                              `imperf`     FCY ]
+
+
+cluster_824 = cluster
 
  |> "k w `" <| [
 
@@ -17677,30 +16706,30 @@ cluster_940 = cluster
     FAL                       `noun`    {- <kA`> -}            [ unwords [ "carpal", "end", "of", "radius" ] ] ]
 
 
-cluster_941 = cluster
+cluster_825 = cluster
 
  |> "k w _t r" <| [
 
-    KaRDaS                    `noun`    {- <kaw_tar> -}        [ "Kawthar" ],
+    KaRDaS                    `noun`    {- <kaw_tar> -}        [ "" {- "Kawthar" -} ],
 
     KaRDaS                    `noun`    {- <kaw_tar> -}        [ "ample", "abundant" ] ]
 
 
-cluster_942 = cluster
+cluster_826 = cluster
 
  |> "k w _t l" <| [
 
     KaRDaS                    `noun`    {- <kaw_tal> -}        [ unwords [ "ship", "stern" ] ] ]
 
 
-cluster_943 = cluster
+cluster_827 = cluster
 
  |> "k w _t" <| [
 
     FaCL |< aT                `noun`    {- <kaw_taT> -}        [ "abundance", "fertility" ] ]
 
 
-cluster_944 = cluster
+cluster_828 = cluster
 
  |> "k w _h" <| [
 
@@ -17708,7 +16737,7 @@ cluster_944 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_945 = cluster
+cluster_829 = cluster
 
  |> "k w ^s" <| [
 
@@ -17718,37 +16747,24 @@ cluster_945 = cluster
                               `plural`     FuCaL ]
 
 
-cluster_946 = cluster
-
- |> "k w '" <| [
-
-    FaCCAL                    `noun`    {- <kawwA'> -}         [ "slanderer" ]
-                              `plural`     FaCCAL |< Un ]
 
 
-cluster_947 = cluster
-
- |> "k w h n" <| [
-
-    "kUhIn"                   `noun`    {- <kUhIn> -}          [ "Cohen" ] ]
-
-
-cluster_948 = cluster
+cluster_830 = cluster
 
  |> "k w f" <| [
 
     TaFaCCaL                  `verb`    {- <takawwaf> -}       [ unwords [ "band", "together" ], "throng" ],
 
-    FUL |< aT                 `noun`    {- <kUfaT> -}          [ "Kufa", "Koufa" ],
+    FUL |< aT                 `noun`    {- <kUfaT> -}          [ "" {- "Kufa" -}, "" {- "Koufa" -} ],
 
-    FUL |< Iy                 `adj`     {- <kUfIy> -}          [ unwords [ "of", "/", "from", "Kufa" ], "Kufic" ],
+    FUL |< Iy                 `adj`     {- <kUfIy> -}          [ unwords [ "of", "/", "from", "" {- "Kufa" -} ], "" {- "Kufic" -} ],
 
-    FUL |< Iy                 `adj`     {- <kUfIy> -}          [ "Kufi", "Koufi" ],
+    FUL |< Iy                 `adj`     {- <kUfIy> -}          [ "" {- "Kufi" -}, "" {- "Koufi" -} ],
 
     FUL |< Iy |< aT           `noun`    {- <kUfIyaT> -}        [ "kaffiyeh" ] ]
 
 
-cluster_949 = cluster
+cluster_831 = cluster
 
  |> "k w d" <| [
 
@@ -17773,41 +16789,29 @@ cluster_949 = cluster
     FAL                       `prep`    {- <kAd> -}            [ "almost" ] ]
 
 
-cluster_950 = cluster
-
- |> "k w b y" <| [
-
-    "kUbI"                    `noun`    {- <kUbI> -}           [ "Kobe" ] ]
 
 
-cluster_951 = cluster
-
- |> "k w b r" <| [
-
-    "kUbir"                   `noun`    {- <kUbir> -}          [ "Cooper", "Cuper" ] ]
-
-
-cluster_952 = cluster
+cluster_832 = cluster
 
  |> "k w b n" <| [
 
     "kUbUn"                   `noun`    {- <kUbUn> -}          [ "coupon" ] ]
 
 
-cluster_953 = cluster
+cluster_833 = cluster
 
  |> "k w b l" <| [
 
     "kUbIl"                   `noun`    {- <kUbIl> -}          [ "cobblestones" ] ]
 
 
-cluster_954 = cluster
+cluster_834 = cluster
 
  |> "" <| [
 
-    "kUbA"                    `noun`    {- <kUbA> -}           [ "Cuba" ],
+    "kUb" |<< "A"             `noun`    {- <kUbA> -}           [ "" {- "Cuba" -} ],
 
-    "kUb" |< Iy               `adj`     {- <kUbIy> -}          [ "Cuban" ] ]
+    "kUb" |< Iy               `adj`     {- <kUbIy> -}          [ "" {- "Cuban" -} ] ]
 
 
 
@@ -17819,23 +16823,17 @@ cluster_954 = cluster
     FUL |< aT                 `noun`    {- <kUbaT> -}          [ "cup", "glass" ] ]
 
 
-cluster_955 = cluster
 
- |> "k w m r" <| [
-
-    "kUmAr"                   `noun`    {- <kUmAr> -}          [ "Kumar" ] ]
-
-
-cluster_956 = cluster
+cluster_835 = cluster
 
  |> "k w m d" <| [
 
-    "kUmIdiyA"                `noun`    {- <kUmIdiyA> -}       [ "comedy" ],
+    "kUmId" |< iyA            `noun`    {- <kUmIdiyA> -}       [ "comedy" ],
 
     "kUmId" |< Iy             `adj`     {- <kUmIdIy> -}        [ "comic", "comedic" ] ]
 
 
-cluster_957 = cluster
+cluster_836 = cluster
 
  |> "k w m" <| [
 
@@ -17853,7 +16851,7 @@ cluster_957 = cluster
                               `plural`     FuCaL ]
 
 
-cluster_958 = cluster
+cluster_837 = cluster
 
  |> "k w l s" <| [
 
@@ -17861,53 +16859,29 @@ cluster_958 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_959 = cluster
 
- |> "" <| [
-
-    "kUlin"                   `noun`    {- <kUlin> -}          [ "Colin" ] ]
-
-
-
- |> "" <| [
-
-    "kUlIn"                   `noun`    {- <kUlIn> -}          [ "Coleen" ] ]
-
-
-cluster_960 = cluster
-
- |> "" <| [
-
-    "kuwAl"                   `noun`    {- <kuwAl> -}          [ "Kowal" ] ]
-
-
+cluster_838 = cluster
 
  |> "k w l" <| [
 
     FULAn                     `noun`    {- <kUlAn> -}          [ "papyrus" ] ]
 
 
-cluster_961 = cluster
+cluster_839 = cluster
 
  |> "k w k b" <| [
 
     KaRDaS                    `noun`    {- <kawkab> -}         [ "planet", "star" ]
                               `plural`     KaRADiS,
 
-    KaRDaS                    `noun`    {- <kawkab> -}         [ "Kawkab" ],
+    KaRDaS                    `noun`    {- <kawkab> -}         [ "" {- "Kawkab" -} ],
 
     KaRDaS |< aT              `noun`    {- <kawkabaT> -}       [ "star" ],
 
     KaRDaS |< Iy              `adj`     {- <kawkabIy> -}       [ "stellar", "planet" ] ]
 
 
-cluster_962 = cluster
-
- |> "" <| [
-
-    "kUk"                     `noun`    {- <kUk> -}            [ "Cook" ] ]
-
-
+cluster_840 = cluster
 
  |> "k w k" <| [
 
@@ -17917,7 +16891,7 @@ cluster_962 = cluster
                               `plural`     TaFCIL |< At ]
 
 
-cluster_963 = cluster
+cluster_841 = cluster
 
  |> "k w n" <| [
 
@@ -17927,8 +16901,6 @@ cluster_963 = cluster
     `derives` feminine,
 
     IstiFAL |< aT             `noun`    {- <istikAnaT> -}      [ "submission", "resignation" ],
-
-    FiyAL                     `noun`    {- <kiyAn> -}          [ "Qian" ],
 
     FiyAL                     `noun`    {- <kiyAn> -}          [ "entity" ]
                               `plural`     FiyAL |< At,
@@ -17984,14 +16956,14 @@ cluster_963 = cluster
                               `plural`     MuFaCCaL |< At ]
 
 
-cluster_964 = cluster
+cluster_842 = cluster
 
  |> "k w s ^g" <| [
 
     KaRDaS                    `noun`    {- <kawsa^g> -}        [ "swordfish" ] ]
 
 
-cluster_965 = cluster
+cluster_843 = cluster
 
  |> "k w s" <| [
 
@@ -18007,43 +16979,37 @@ cluster_965 = cluster
     HaFCaL                    `noun`    {- <'akwas> -}         [ unwords [ "prettier", "/", "prettiest" ] ] ]
 
 
-cluster_966 = cluster
+cluster_844 = cluster
 
  |> "k w r y" <| [
 
-    "kUriyA"                  `noun`    {- <kUriyA> -}         [ "Korea" ],
+    "kUr" |< iyA              `noun`    {- <kUriyA> -}         [ "" {- "Korea" -} ],
 
-    "kUr" |< Iy               `adj`     {- <kUrIy> -}          [ "Korean" ] ]
+    "kUr" |< Iy               `adj`     {- <kUrIy> -}          [ "" {- "Korean" -} ] ]
 
 
-cluster_967 = cluster
+cluster_845 = cluster
 
  |> "" <| [
 
     "kUrAl"                   `noun`    {- <kUrAl> -}          [ "choir" ] ]
 
 
-
- |> "k w r l" <| [
-
-    "kUrIl"                   `noun`    {- <kUrIl> -}          [ "Kurile" ] ]
-
-
-cluster_968 = cluster
+cluster_846 = cluster
 
  |> "k w r k" <| [
 
     "kUrik"                   `noun`    {- <kUrik> -}          [ unwords [ "forced", "labor" ] ] ]
 
 
-cluster_969 = cluster
+cluster_847 = cluster
 
  |> "k w r ^g" <| [
 
     KaRDaS |< aT              `noun`    {- <kawra^gaT> -}      [ "bulk", "wholesale" ] ]
 
 
-cluster_970 = cluster
+cluster_848 = cluster
 
  |> "k w r" <| [
 
@@ -18061,21 +17027,15 @@ cluster_970 = cluster
     FuCAL |< aT               `noun`    {- <kuwAraT> -}        [ "beehive" ]
                               `plural`     FaCA'iL,
 
-    FaCALI                    `noun`    {- <kawArI> -}         [ "Kawari" ],
+    FaCALI                    `noun`    {- <kawArI> -}         [ "" {- "Kawari" -} ],
 
     MiFCaL                    `noun`    {- <mikwar> -}         [ "turban" ],
 
     MuFaCCaL                  `adj`     {- <mukawwar> -}       [ "spherical" ] ]
 
 
-cluster_971 = cluster
 
- |> "k y .g" <| [
-
-    "kI.gAn"                  `noun`    {- <kI.gAn> -}         [ "Keegan" ] ]
-
-
-cluster_972 = cluster
+cluster_849 = cluster
 
  |> "k w z" <| [
 
@@ -18084,9 +17044,12 @@ cluster_972 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_973 = cluster
+cluster_850 = cluster
 
  |> "k w y" <| [
+
+    FaCCA'                    `noun`    {- <kawwA'> -}         [ "slanderer" ]
+                              `plural`     FaCCA' |< Un,
 
     FaCCA'                    `noun`    {- <kawwA'> -}         [ unwords [ "ironing", "man" ], "presser", unwords [ "ironing", "lady" ] ],
 
@@ -18115,7 +17078,7 @@ cluster_973 = cluster
                               `plural`     FACI |< At ]
 
 
-cluster_974 = cluster
+cluster_851 = cluster
 
  |> "k w w" <| [
 
@@ -18127,13 +17090,7 @@ cluster_974 = cluster
                               `plural`     FaCLA' |< Un ]
 
 
-cluster_975 = cluster
-
- |> "" <| [
-
-    "kUtur"                   `noun`    {- <kUtur> -}          [ "Kotor" ] ]
-
-
+cluster_852 = cluster
 
  |> "k w t r" <| [
 
@@ -18141,22 +17098,16 @@ cluster_975 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_976 = cluster
-
- |> "" <| [
-
-    "kUt"                     `noun`    {- <kUt> -}            [ "Cote" ] ]
-
-
+cluster_853 = cluster
 
  |> "k w t" <| [
 
-    FuCayL                    `noun`    {- <kuwayt> -}         [ "Kuwait" ],
+    FuCayL                    `noun`    {- <kuwayt> -}         [ "" {- "Kuwait" -} ],
 
-    FuCayL |< Iy              `adj`     {- <kuwaytIy> -}       [ "Kuwaiti" ] ]
+    FuCayL |< Iy              `adj`     {- <kuwaytIy> -}       [ "" {- "Kuwaiti" -} ] ]
 
 
-cluster_977 = cluster
+cluster_854 = cluster
 
  |> "" <| [
 
@@ -18176,14 +17127,8 @@ cluster_977 = cluster
                               `plural`     FaCALI ]
 
 
-cluster_978 = cluster
 
- |> "k y f n" <| [
-
-    "kIfin"                   `noun`    {- <kIfin> -}          [ "Kevin" ] ]
-
-
-cluster_979 = cluster
+cluster_855 = cluster
 
  |> "k y f" <| [
 
@@ -18212,7 +17157,7 @@ cluster_979 = cluster
     MuFaCCaL                  `noun`    {- <mukayyaf> -}       [ "conditioned" ] ]
 
 
-cluster_980 = cluster
+cluster_856 = cluster
 
  |> "k y d" <| [
 
@@ -18231,27 +17176,21 @@ cluster_980 = cluster
                               `plural`     MaFACiL ]
 
 
-cluster_981 = cluster
+cluster_857 = cluster
 
  |> "k y m s" <| [
 
     KaRDUS                    `noun`    {- <kaymUs> -}         [ unwords [ "gastric", "juice" ] ] ]
 
 
-cluster_982 = cluster
+cluster_858 = cluster
 
  |> "k y m n" <| [
 
     KiRDAS                    `noun`    {- <kiymAn> -}         [ unwords [ "piles", "of", "trash" ], "rubbish" ] ]
 
 
-cluster_983 = cluster
-
- |> "" <| [
-
-    "kIm"                     `noun`    {- <kIm> -}            [ "Kim" ] ]
-
-
+cluster_859 = cluster
 
  |> "k y m" <| [
 
@@ -18262,14 +17201,8 @@ cluster_983 = cluster
     "kImiyA'" |< Iy           `noun`    {- <kImiyA'Iy> -}      [ "chemist" ] ]
 
 
-cluster_984 = cluster
 
- |> "k y l y" <| [
-
-    "kIlI"                    `noun`    {- <kIlI> -}           [ "Kelly" ] ]
-
-
-cluster_985 = cluster
+cluster_860 = cluster
 
  |> "k y l" <| [
 
@@ -18296,7 +17229,7 @@ cluster_985 = cluster
 
     FaCCAL                    `noun`    {- <kayyAl> -}         [ "master", "lord" ],
 
-    FaCCAL                    `noun`    {- <kayyAl> -}         [ "Kayyal" ],
+    FaCCAL                    `noun`    {- <kayyAl> -}         [ "" {- "Kayyal" -} ],
 
     MiFCaL                    `noun`    {- <mikyal> -}         [ unwords [ "mikyal", "(", "measure", "of", "capacity", ")" ], unwords [ "mikyal", "(", "dry", "measure", "for", "grain", ")" ] ]
                               `plural`     MaFACIL
@@ -18306,7 +17239,7 @@ cluster_985 = cluster
                               `plural`     MaFACiL ]
 
 
-cluster_986 = cluster
+cluster_861 = cluster
 
  |> "k y r" <| [
 
@@ -18315,66 +17248,40 @@ cluster_986 = cluster
                               `plural`     FILAn ]
 
 
-cluster_987 = cluster
+cluster_862 = cluster
 
  |> "k y n y" <| [
 
-    "kInyA"                   `noun`    {- <kInyA> -}          [ "Kenya" ],
+    "kInyA"                   `noun`    {- <kInyA> -}          [ "" {- "Kenya" -} ],
 
-    "kIn" |< Iy               `adj`     {- <kInIy> -}          [ "Kenyan" ] ]
-
-
-cluster_988 = cluster
-
- |> "k y n t" <| [
-
-    "kInIt"                   `noun`    {- <kInIt> -}          [ "Kenneth" ] ]
+    "kIn" |< Iy               `adj`     {- <kInIy> -}          [ "" {- "Kenyan" -} ] ]
 
 
-cluster_989 = cluster
+
+cluster_863 = cluster
 
  |> "k y n n" <| [
 
     "kInIn"                   `noun`    {- <kInIn> -}          [ "quinine" ] ]
 
 
-cluster_990 = cluster
 
- |> "" <| [
-
-    "kIn"                     `noun`    {- <kIn> -}            [ "Ken" ],
-
-    "kin"                     `noun`    {- <kin> -}            [ "Ken" ] ]
-
-
-cluster_991 = cluster
+cluster_864 = cluster
 
  |> "k y w" <| [
 
-    FaCLAn                    `noun`    {- <kaywAn> -}         [ unwords [ "Saturn", "(", "planet", ")" ] ] ]
+    FaCLAn                    `noun`    {- <kaywAn> -}         [ unwords [ "" {- "Saturn" -}, "(", "planet", ")" ] ] ]
 
 
-cluster_992 = cluster
 
- |> "k y t y" <| [
-
-    "kItI"                    `noun`    {- <kItI> -}           [ "Kitty" ] ]
-
-
-cluster_993 = cluster
-
- |> "" <| [
-
-    "kIt"                     `noun`    {- <kIt> -}            [ "Kate" ] ]
-
-
+cluster_865 = cluster
 
  |> "k y t" <| [
 
     FaCL |<< "a"              `noun`    {- <kayta> -}          [ "such", "thus" ] ]
 
 
-cluster_994 = cluster
+cluster_866 = cluster
 
  |> "k y s" <| [
 
@@ -18417,14 +17324,14 @@ cluster_994 = cluster
     MuFaCCaL                  `adj`     {- <mukayyas> -}       [ "shrewd", "astute" ] ]
 
 
-cluster_995 = cluster
+cluster_867 = cluster
 
  |> "k y y" <| [
 
     FaC                       `conj`    {- <kay> -}            [ unwords [ "in", "order", "to" ] ] ]
 
 
-cluster_996 = cluster
+cluster_868 = cluster
 
  |> "m ' h" <| [
 
@@ -18433,14 +17340,14 @@ cluster_996 = cluster
     FAL |< Iy |< aT           `noun`    {- <mAhIyaT> -}        [ "salary", "income", "pay" ] ]
 
 
-cluster_997 = cluster
+cluster_869 = cluster
 
  |> "m ' .z" <| [
 
     "mA.z" |< aT              `noun`    {- <mA.zaT> -}         [ "appetizers" ] ]
 
 
-cluster_998 = cluster
+cluster_870 = cluster
 
  |> "m ' '" <| [
 
@@ -18453,28 +17360,16 @@ cluster_998 = cluster
     FiC |<< "awIy"            `adj`     {- <mi'awIy> -}        [ unwords [ "one", "-", "hundred" ], "hundreth", "percentage" ] ]
 
 
-cluster_999 = cluster
+cluster_871 = cluster
 
  |> "m ' z" <| [
 
     "mAz" |< aT               `noun`    {- <mAzaT> -}          [ "appetizers", "entrees" ] ]
 
 
-cluster_1000 = cluster
-
- |> "m ' y" <| [
-
-    "mAy"                     `noun`    {- <mAy> -}            [ "May" ] ]
 
 
-cluster_1001 = cluster
-
- |> "m ' w" <| [
-
-    "mAw"                     `noun`    {- <mAw> -}            [ "Mao" ] ]
-
-
-cluster_1002 = cluster
+cluster_872 = cluster
 
  |> "m ' s" <| [
 
@@ -18483,16 +17378,16 @@ cluster_1002 = cluster
     FAL |< Iy                 `adj`     {- <mAsIy> -}          [ "diamond" ] ]
 
 
-cluster_1003 = cluster
+cluster_873 = cluster
 
  |> "m ' r" <| [
 
-    FAL                       `noun`    {- <mAr> -}            [ "Saint", "Mar" ],
+    FAL                       `noun`    {- <mAr> -}            [ "" {- "Saint" -}, "Mar" ],
 
-    FAL |< At                 `noun`    {- <mArAt> -}          [ "Marat" ] ]
+    FAL |< At                 `noun`    {- <mArAt> -}          [ "" {- "Marat" -} ] ]
 
 
-cluster_1004 = cluster
+cluster_874 = cluster
 
  |> "m ' q" <| [
 
@@ -18511,7 +17406,7 @@ cluster_1004 = cluster
                               `plural`     HAFAL ]
 
 
-cluster_1005 = cluster
+cluster_875 = cluster
 
  |> "m ' n" <| [
 
@@ -18531,14 +17426,14 @@ cluster_1005 = cluster
                               `plural`     FuCaL ]
 
 
-cluster_1006 = cluster
+cluster_876 = cluster
 
  |> "m ' m '" <| [
 
     KaRDaS                    `verb`    {- <ma'ma'> -}         [ "bleat" ] ]
 
 
-cluster_1007 = cluster
+cluster_877 = cluster
 
  |> "m .d y" <| [
 
@@ -18578,7 +17473,7 @@ cluster_1007 = cluster
                               `plural`     MuFCY |< At ]
 
 
-cluster_1008 = cluster
+cluster_878 = cluster
 
  |> "m .h w" <| [
 
@@ -18610,7 +17505,7 @@ cluster_1008 = cluster
     MaFCUL                    `adj`     {- <mam.hUw> -}        [ "erased", unwords [ "wiped", "out" ] ] ]
 
 
-cluster_1009 = cluster
+cluster_879 = cluster
 
  |> "m .h w r" <| [
 
@@ -18624,7 +17519,7 @@ cluster_1009 = cluster
     MutaKaRDiS                `adj`     {- <mutama.hwir> -}    [ "revolving", "rotating" ] ]
 
 
-cluster_1010 = cluster
+cluster_880 = cluster
 
  |> "m .t w" <| [
 
@@ -18643,7 +17538,7 @@ cluster_1010 = cluster
     FaCL |< aT                `noun`    {- <ma.twaT> -}        [ "hour", "time", "moment" ] ]
 
 
-cluster_1011 = cluster
+cluster_881 = cluster
 
  |> "m ^s w r" <| [
 
@@ -18656,14 +17551,14 @@ cluster_1011 = cluster
     MutaKaRDiS                `adj`     {- <mutama^swir> -}    [ "walking", "promenading" ] ]
 
 
-cluster_1012 = cluster
+cluster_882 = cluster
 
  |> "m ^s w" <| [
 
     FaCL                      `noun`    {- <ma^sw> -}          [ "laxative" ] ]
 
 
-cluster_1013 = cluster
+cluster_883 = cluster
 
  |> "m ^s y" <| [
 
@@ -18703,33 +17598,28 @@ cluster_1013 = cluster
                               `plural`     FawACI ]
 
 
-cluster_1014 = cluster
+cluster_884 = cluster
 
- |> "m _d y" <| [
+ |> "" <| [
 
-    FuC                       `prep`    {- <mu_d> -}           [ "since", unwords [ "since", "then" ] ] ]
+    "ma`" |< Iy |< aT         `noun`    {- <ma`IyaT> -}        [ "company", "escort" ],
 
+    "ma`" |<< "aN"            `adv`     {- <ma`aN> -}          [ "together" ],
 
-cluster_1015 = cluster
-
- |> "m ` '" <| [
-
-    FuCAL                     `noun`    {- <mu`A'> -}          [ "mewing", "meow" ],
-
-    FiCAL                     `noun`    {- <mi`A'> -}          [ "intestines", "entrails" ]
-                              `plural`     HaFCAL ]
+    "ma`" |<< "a"             `prep`    {- <ma`a> -}           [ "with" ] ]
 
 
-cluster_1016 = cluster
+
+cluster_885 = cluster
 
  |> "m d '" <| [
 
-    FICAL |< Iy               `adj`     {- <mIdA'Iy> -}        [ "Midaoui", "Midawi" ],
+    FICAL |< Iy               `adj`     {- <mIdA'Iy> -}        [ "" {- "Midaoui" -}, "" {- "Midawi" -} ],
 
-    MICAL |< Iy               `adj`     {- <mIdA'Iy> -}        [ "Midaoui", "Midawi" ] ]
+    MICAL |< Iy               `adj`     {- <mIdA'Iy> -}        [ "" {- "Midaoui" -}, "" {- "Midawi" -} ] ]
 
 
-cluster_1017 = cluster
+cluster_886 = cluster
 
  |> "m ` y r" <| [
 
@@ -18738,27 +17628,23 @@ cluster_1017 = cluster
     KaRDaS |< aT              `noun`    {- <ma`yaraT> -}       [ "standardization" ] ]
 
 
-cluster_1018 = cluster
+cluster_887 = cluster
 
  |> "m ` y" <| [
 
-    FaC |<< "a"               `prep`    {- <ma`a> -}           [ "with" ],
+    FaCL                      `noun`    {- <ma`y> -}           [ "intestines", "entrails" ]
+                              `plural`     HaFCA',
 
-    FaC |<< "aN"              `noun`    {- <ma`aN> -}          [ "together" ],
-
-    FaC |< Iy |< aT           `noun`    {- <ma`IyaT> -}        [ "company", "escort" ],
-
-    FaCL                      `noun`    {- <ma`y> -}           [ "intestines", "entrails" ],
-
-    FiCY                      `noun`    {- <mi`Y> -}           [ "intestines", "entrails" ],
+    FiCY                      `noun`    {- <mi`Y> -}           [ "intestines", "entrails" ]
+                              `plural`     HaFCA',
 
     FiCA'                     `noun`    {- <mi`A'> -}          [ "intestines", "entrails" ]
                               `plural`     HaFCA',
 
-    FiC |<< "awIy"            `adj`     {- <mi`awIy> -}        [ "intestinal", "enteric" ] ]
+    FiCY |< Iy                `adj`     {- <mi`awIy> -}        [ "intestinal", "enteric" ] ]
 
 
-cluster_1019 = cluster
+cluster_888 = cluster
 
  |> "m ` w" <| [
 
@@ -18768,14 +17654,15 @@ cluster_1019 = cluster
     FuCA'                     `noun`    {- <mu`A'> -}          [ "mewing", "meow" ] ]
 
 
-cluster_1020 = cluster
+cluster_889 = cluster
 
  |> "m d l y" <| [
 
-    KaRADI |< aT              `noun`    {- <madAliyaT> -}      [ "medal" ] ]
+    "madAlI" |< aT            `noun`    {- <madAliyaT> -}      [ "medal" ]
+                              `plural`     "madAlI" |< At ]
 
 
-cluster_1021 = cluster
+cluster_890 = cluster
 
  |> "m d y n" <| [
 
@@ -18792,7 +17679,13 @@ cluster_1021 = cluster
     `derives` feminine ]
 
 
-cluster_1022 = cluster
+cluster_891 = cluster
+
+ |> "" <| [
+
+    "midy" |< aT              `noun`    {- <midyaT> -}         [ "" {- "Medea" -} ] ]
+
+
 
  |> "m d y" <| [
 
@@ -18802,39 +17695,39 @@ cluster_1022 = cluster
 
     TaFACY                    `verb`    {- <tamAdY> -}         [ unwords [ "go", "far" ], "continue", "persevere" ],
 
-    FaCY                      `noun`    {- <madY> -}           [ "extent", "range" ]
-                              `plural`     FaCA,
+    FaCY                      `noun`    {- <madY> -}           [ "extent", "range" ],
 
-    FaCY                      `noun`    {- <madY> -}           [ "period", "duration" ]
-                              `plural`     FaCA,
+    FaCY                      `noun`    {- <madY> -}           [ "period", "duration" ],
 
     FuCL |< aT                `noun`    {- <mudyaT> -}         [ "knife" ]
-                              `plural`     FiCL |< aT
-                              `plural`     FaCL |< aT
                               `plural`     FuCY,
 
-    FaC |<< "awIy"            `adj`     {- <madawIy> -}        [ "cutler" ],
+    FiCL |< aT                `noun`    {- <midyaT> -}         [ "knife" ]
+                              `plural`     FuCY,
+
+    FaCL |< aT                `noun`    {- <madyaT> -}         [ "knife" ]
+                              `plural`     FuCY,
+
+    FaCY |< Iy                `adj`     {- <madawIy> -}        [ "cutler" ],
 
     TaFACI                    `noun`    {- <tamAdI> -}         [ unwords [ "long", "run" ], "eventually" ]
-                              `plural`     TaFACI |< At,
-
-    FiCL |< aT                `noun`    {- <midyaT> -}         [ "Medea" ] ]
+                              `plural`     TaFACI |< At ]
 
 
-cluster_1023 = cluster
+cluster_892 = cluster
 
  |> "m h w" <| [
 
-    FaCA                      `noun`    {- <mahA> -}           [ "Maha" ],
+    FaCA                      `noun`    {- <mahA> -}           [ "" {- "Maha" -} ],
 
-    FaCY                      `noun`    {- <mahY> -}           [ "Maha" ],
+    FaCY                      `noun`    {- <mahY> -}           [ "" {- "Maha" -} ],
 
     FaCY |< aT                `noun`    {- <mahAT> -}          [ unwords [ "wild", "cow" ] ]
                               `plural`     FaCaL |< At
                               `plural`     FaCY |< At ]
 
 
-cluster_1024 = cluster
+cluster_893 = cluster
 
  |> "m l '" <| [
 
@@ -18863,9 +17756,6 @@ cluster_1024 = cluster
     FiCAy |< aT               `noun`    {- <milAyaT> -}        [ unwords [ "full", "-", "body", "garment" ] ]
                               `plural`     FuCAL |< At,
 
-    FiCAy |< aT               `noun`    {- <milAyaT> -}        [ unwords [ "bed", "sheet" ] ]
-                              `plural`     FuCAL |< At,
-
     FaCIL                     `adj`     {- <malI'> -}          [ "full", "filled", "replete" ]
                               `plural`     FaCLY
                               `plural`     FaCIL |< Un
@@ -18890,15 +17780,10 @@ cluster_1024 = cluster
                            
     `derives` feminine,
 
-    FaCAL |< Iy               `adj`     {- <malA'Iy> -}        [ "Malawian" ],
-
-    HiFCAL                    `noun`    {- <'imlA'> -}         [ "dictation", "orthography" ]
-                              `plural`     HiFCAL |< At,
-
-    HiFCAL |< Iy              `adj`     {- <'imlA'Iy> -}       [ "orthographic", "spelling" ] ]
+    FaCAL |< Iy               `adj`     {- <malA'Iy> -}        [ "" {- "Malawian" -} ] ]
 
 
-cluster_1025 = cluster
+cluster_894 = cluster
 
  |> "m l y n" <| [
 
@@ -18907,38 +17792,35 @@ cluster_1025 = cluster
                               `plural`     KiRDUS |< At ]
 
 
-cluster_1026 = cluster
+cluster_895 = cluster
+
+ |> "" <| [
+
+    "malAwI"                  `noun`    {- <malAwI> -}         [ "" {- "Malawi" -} ] ]
+
+
+
+ |> "" <| [
+
+    "mAlI"                    `noun`    {- <mAlI> -}           [ "" {- "Mali" -} ] ]
+
+
 
  |> "m l y" <| [
 
-    FACI                      `noun`    {- <mAlI> -}           [ "Mali" ],
-
-    FiCAL |< aT               `noun`    {- <milAyaT> -}        [ unwords [ "full", "-", "body", "garment" ] ]
-                              `plural`     FuCA' |< At,
-
     FiCAL |< aT               `noun`    {- <milAyaT> -}        [ unwords [ "bed", "sheet" ] ]
                               `plural`     FuCA' |< At,
-
-    FaCA' |< Iy               `adj`     {- <malA'Iy> -}        [ "Malawian" ],
-
-    FaCIL                     `noun`    {- <malIy> -}          [ unwords [ "long", "time" ], unwords [ "for", "a", "long", "time" ], unwords [ "for", "quite", "a", "while" ] ],
 
     FaCIL |< aT               `noun`    {- <malIyaT> -}        [ unwords [ "female", "bedouin", "dress" ] ]
                               `plural`     FaCALY ]
 
 
-cluster_1027 = cluster
 
- |> "m l w y" <| [
-
-    KaRADI                    `noun`    {- <malAwI> -}         [ "Malawi" ] ]
-
-
-cluster_1028 = cluster
+cluster_896 = cluster
 
  |> "m l w" <| [
 
-    FaCALI                    `noun`    {- <malAwI> -}         [ "Malawi" ],
+    FaCIy                     `noun`    {- <malIy> -}          [ unwords [ "long", "time" ], unwords [ "for", "a", "long", "time" ], unwords [ "for", "quite", "a", "while" ] ],
 
     FaCA                      `verb`    {- <malA> -}           [ unwords [ "walk", "briskly" ] ]
                               `imperf`     FCU,
@@ -18952,7 +17834,6 @@ cluster_1028 = cluster
     IstaFCY                   `verb`    {- <istamlY> -}        [ unwords [ "self", "-", "impose" ] ],
 
     FaCY                      `noun`    {- <malY> -}           [ unwords [ "open", "country" ], "steppe" ]
-                              `plural`     FaCA
                               `plural`     HaFCA',
 
     FaCL |< aT                `noun`    {- <malwaT> -}         [ unwords [ "malwa", "(", "dry", "measure", ")" ] ]
@@ -18968,50 +17849,77 @@ cluster_1028 = cluster
     HiFCA' |< Iy              `adj`     {- <'imlA'Iy> -}       [ "orthographic", "spelling" ] ]
 
 
-cluster_1029 = cluster
 
- |> "m n '" <| [
-
-    HiFCAL                    `noun`    {- <'imnA'> -}         [ "ejaculation" ]
-                              `plural`     HiFCAL |< At,
-
-    IstiFCAL                  `noun`    {- <istimnA'> -}       [ "masturbation" ] ]
-
-
-cluster_1030 = cluster
+cluster_897 = cluster
 
  |> "m l y r" <| [
 
-    KiRDAS                    `noun`    {- <milyAr> -}         [ "billion" ]
-                              `plural`     KiRDAS |< At ]
+    "milyAr"                  `noun`    {- <milyAr> -}         [ "billion" ]
+                              `plural`     "milyAr" |< At ]
 
 
-cluster_1031 = cluster
+cluster_898 = cluster
+
+ |> "" <| [
+
+    "mAnI" |< Iy              `adj`     {- <mAnawIy> -}        [ "" {- "Manichaean" -}, "" {- "Manichaeism" -} ] ]
+
+
+
+ |> "" <| [
+
+    "min"                     `part`    {- <min> -}            [ "from", "indeed" ] ]
+
+
+
+ |> "" <| [
+
+    "man"                     `part`    {- <man> -}            [ unwords [ "who", "/", "whom" ] ],
+
+    "man"                     `noun`    {- <man> -}            [ unwords [ "who", "/", "whom" ] ] ]
+
+
+
+ |> "m n y" <| [
+
+    FiCY                      `noun`    {- <minY> -}           [ "semen", "sperm" ],
+
+    FiCY |< Iy                `adj`     {- <minawIy> -}        [ "seminal", "spermatic" ],
+
+    FaCY |< aT                `noun`    {- <manAT> -}          [ unwords [ "" {- "Manat" -}, "(", "pre", "-", "" {- "Islamic" -}, "goddess", ")" ] ],
+
+    FuCY                      `noun`    {- <munY> -}           [ "" {- "Mouna" -}, "" {- "Muna" -} ],
+
+    FaCY                      `noun`    {- <manY> -}           [ "fate" ],
+
+    FaCY                      `verb`    {- <manY> -}           [ "afflict", unwords [ "put", "to", "the", "test" ], unwords [ "be", "put", "to", "the", "test" ] ]
+                              `imperf`     FCI,
+
+    FaCIL |< aT               `noun`    {- <manIyaT> -}        [ "destiny", unwords [ "fate", "of", "death" ] ]
+                              `plural`     FaCALY,
+
+    FuCL |< aT                `noun`    {- <munyaT> -}         [ "wish", "desire", "aspiration" ]
+                              `plural`     HaFACI
+                              `plural`     HuFCIL,
+
+    FiCY                      `noun`    {- <minY> -}           [ unwords [ "" {- "Mina" -}, "(", "valley", "near", "" {- "Mecca" -}, ")" ] ],
+
+    FiCL |< aT                `noun`    {- <minyaT> -}         [ "wish", "desire", "aspiration" ]
+                              `plural`     HaFACI
+                              `plural`     HuFCIL ]
+
+
 
  |> "m n w" <| [
 
     FaCA                      `verb`    {- <manA> -}           [ "afflict", unwords [ "put", "to", "the", "test" ] ]
                               `imperf`     FCU,
 
-    FaCY                      `verb`    {- <manY> -}           [ "afflict", unwords [ "put", "to", "the", "test" ], unwords [ "be", "put", "to", "the", "test" ] ]
-                              `imperf`     FCI,
-
     FaCCY                     `verb`    {- <mannY> -}          [ "arouse", unwords [ "raise", "hopes" ], unwords [ "be", "heartened" ], unwords [ "be", "given", "hope" ] ],
 
     TaFaCCY                   `verb`    {- <tamannY> -}        [ "desire", unwords [ "wish", "for" ], "hope" ],
 
     IstaFCY                   `verb`    {- <istamnY> -}        [ "masturbate" ],
-
-    FaCY                      `noun`    {- <manY> -}           [ "fate" ]
-                              `plural`     FaCA,
-
-    FuCY                      `noun`    {- <munY> -}           [ "Mouna", "Muna" ],
-
-    FiCY                      `noun`    {- <minY> -}           [ unwords [ "Mina", "(", "valley", "near", "Mecca", ")" ] ],
-
-    FiC |<< "awIy"            `adj`     {- <minawIy> -}        [ "seminal", "semen" ],
-
-    FaCY |< aT                `noun`    {- <manAT> -}          [ unwords [ "Manat", "(", "pre", "-", "Islamic", "goddess", ")" ] ],
 
     TaFCI |< aT               `noun`    {- <tamniyaT> -}       [ "ejaculation" ],
 
@@ -19027,33 +17935,8 @@ cluster_1031 = cluster
                               `plural`     MutaFaCCI |< At ]
 
 
-cluster_1032 = cluster
 
- |> "m n y" <| [
-
-    FACY |< Iy                `adj`     {- <mAnawIy> -}        [ "Manichaean", "Manichaeism" ],
-
-    FiC                       `part`    {- <min> -}            [ "from", "indeed" ],
-
-    FaC                       `noun`    {- <man> -}            [ unwords [ "who", "/", "whom" ] ],
-
-    FaC                       `part`    {- <man> -}            [ unwords [ "who", "/", "whom" ] ],
-
-    FaCIL |< aT               `noun`    {- <manIyaT> -}        [ "destiny", unwords [ "fate", "of", "death" ] ]
-                              `plural`     FaCALY,
-
-    FuCL |< aT                `noun`    {- <munyaT> -}         [ "wish", "desire", "aspiration" ]
-                              `plural`     FiCL |< aT
-                              `plural`     HaFACI
-                              `plural`     HuFCIL,
-
-    TaFCI |< aT               `noun`    {- <tamniyaT> -}       [ "ejaculation" ],
-
-    MutaFaCCI                 `noun`    {- <mutamannI> -}      [ "wishing", "desiring" ]
-                              `plural`     MutaFaCCI |< At ]
-
-
-cluster_1033 = cluster
+cluster_899 = cluster
 
  |> "m r '" <| [
 
@@ -19076,47 +17959,25 @@ cluster_1033 = cluster
 
     FaCIL                     `noun`    {- <marI'> -}          [ "esophagus", "gullet" ]
                               `plural`     FuCUL
-                              `plural`     HaFCiL |< aT,
-
-    FiCAL                     `noun`    {- <mirA'> -}          [ "quarrel", "dispute" ] ]
+                              `plural`     HaFCiL |< aT ]
 
 
-cluster_1034 = cluster
-
- |> "m r s y" <| [
-
-    KuRDI |< aT               `noun`    {- <mursiyaT> -}       [ "Murcia" ] ]
 
 
-cluster_1035 = cluster
-
- |> "m s '" <| [
-
-    FaCAL                     `noun`    {- <masA'> -}          [ "evening", unwords [ "in", "the", "evening" ] ],
-
-    FaCAL |< Iy               `adj`     {- <masA'Iy> -}        [ "evening" ],
-
-    FaCAL |< Iy |< aT         `noun`    {- <masA'IyaT> -}      [ "Masaia", "Masaya" ],
-
-    FUCAL |< Iy               `adj`     {- <mUsA'Iy> -}        [ "Moussaoui" ] ]
-
-
-cluster_1036 = cluster
+cluster_900 = cluster
 
  |> "m r y m" <| [
 
-    KaRDaS                    `noun`    {- <maryam> -}         [ "Mariam", "Miriam" ],
+    KaRDaS                    `noun`    {- <maryam> -}         [ "" {- "Mariam" -}, "" {- "Miriam" -} ],
 
-    KaRDaS                    `noun`    {- <maryam> -}         [ "Mary" ],
+    KaRDaS                    `noun`    {- <maryam> -}         [ "" {- "Mary" -} ],
 
     KaRDaS |< Iy |< aT        `noun`    {- <maryamIyaT> -}     [ "sage" ] ]
 
 
-cluster_1037 = cluster
+cluster_901 = cluster
 
  |> "m r y" <| [
-
-    FACI                      `noun`    {- <mArI> -}           [ "Mary" ],
 
     FACY                      `verb`    {- <mArY> -}           [ "argue", "dispute", "oppose" ],
 
@@ -19127,54 +17988,38 @@ cluster_1037 = cluster
     FuCL |< aT                `noun`    {- <muryaT> -}         [ "doubt", "quarrel", "dispute" ]
                               `plural`     FiCL |< aT,
 
-    FiCA'                     `noun`    {- <mirA'> -}          [ "quarrel", "dispute" ],
-
-    FiC |< Iy                 `adj`     {- <mirIy> -}          [ "Meri", "Miri" ] ]
+    FiCA'                     `noun`    {- <mirA'> -}          [ "quarrel", "dispute" ] ]
 
 
-cluster_1038 = cluster
+cluster_902 = cluster
 
  |> "m r w y" <| [
 
-    KaRDIS                    `adj`     {- <marwIy> -}         [ unwords [ "from", "/", "of", "Merv" ] ] ]
+    "marw" |< Iy              `adj`     {- <marwIy> -}         [ unwords [ "from", "/", "of", "" {- "Merv" -} ] ] ]
 
 
-cluster_1039 = cluster
+cluster_903 = cluster
 
  |> "m r w n" <| [
 
-    KaRDAS                    `noun`    {- <marwAn> -}         [ "Marwan" ],
+    KaRDAS                    `noun`    {- <marwAn> -}         [ "" {- "Marwan" -} ],
 
-    KaRDAS |< Iy              `adj`     {- <marwAnIy> -}       [ "Marwani" ] ]
+    KaRDAS |< Iy              `adj`     {- <marwAnIy> -}       [ "" {- "Marwani" -} ] ]
 
 
-cluster_1040 = cluster
+cluster_904 = cluster
 
  |> "m r w" <| [
 
     FuCUL |< aT               `noun`    {- <murUwaT> -}        [ "manliness", "chivalry" ],
 
-    FaCL                      `noun`    {- <marw> -}           [ "Merv" ],
-
     FaCL |< aT                `noun`    {- <marwaT> -}         [ "pebble", "flint" ]
                               `plural`     FaCL ]
 
 
-cluster_1041 = cluster
-
- |> "m s k y" <| [
-
-    KuRDU                     `noun`    {- <muskU> -}          [ "Moscow" ] ]
 
 
-cluster_1042 = cluster
-
- |> "m s k w" <| [
-
-    KuRDU                     `noun`    {- <muskU> -}          [ "Moscow" ] ]
-
-
-cluster_1043 = cluster
+cluster_905 = cluster
 
  |> "m s y" <| [
 
@@ -19189,16 +18034,16 @@ cluster_1043 = cluster
                               `imperf`     FCY
                               `imperf`     FCI,
 
-    MUCY                      `noun`    {- <mUsY> -}           [ "Mousa", "Moussa" ],
+    MUCY                      `noun`    {- <mUsY> -}           [ "" {- "Mousa" -}, "" {- "Moussa" -} ],
 
-    MUCY                      `noun`    {- <mUsY> -}           [ "Moses" ],
+    MUCY                      `noun`    {- <mUsY> -}           [ "" {- "Moses" -} ],
 
-    MUCY |< Iy                `adj`     {- <mUsawIy> -}        [ "Moussaoui" ],
+    MUCY |< Iy                `adj`     {- <mUsawIy> -}        [ "" {- "Moussaoui" -} ],
 
-    MUCY |< Iy                `adj`     {- <mUsawIy> -}        [ "Mosaic", "Moses" ] ]
+    MUCY |< Iy                `adj`     {- <mUsawIy> -}        [ "" {- "Mosaic" -}, "" {- "Moses" -} ] ]
 
 
-cluster_1044 = cluster
+cluster_906 = cluster
 
  |> "m s w" <| [
 
@@ -19212,7 +18057,7 @@ cluster_1044 = cluster
 
     FaCA' |< Iy               `adj`     {- <masA'Iy> -}        [ "evening" ],
 
-    FaCA' |< Iy |< aT         `noun`    {- <masA'IyaT> -}      [ "Masaia", "Masaya" ],
+    FaCA' |< Iy |< aT         `noun`    {- <masA'IyaT> -}      [ "" {- "Masaia" -}, "" {- "Masaya" -} ],
 
     MuFCI                     `noun`    {- <mumsI> -}          [ unwords [ "spending", "the", "evening" ] ]
                               `plural`     MuFCI |< At,
@@ -19220,7 +18065,7 @@ cluster_1044 = cluster
     MuFCY                     `noun`    {- <mumsY> -}          [ unwords [ "evening", "time" ] ] ]
 
 
-cluster_1045 = cluster
+cluster_907 = cluster
 
  |> "m t y" <| [
 
@@ -19230,17 +18075,11 @@ cluster_1045 = cluster
 
     FaCY                      `conj`    {- <matY> -}           [ "when" ],
 
-    FaCCY                     `noun`    {- <mattY> -}          [ "Matthew" ] ]
+    FaCCY                     `noun`    {- <mattY> -}          [ "" {- "Matthew" -} ] ]
 
 
-cluster_1046 = cluster
 
- |> "m w ^s y" <| [
-
-    "mU^sI"                   `noun`    {- <mU^sI> -}          [ "Moshe" ] ]
-
-
-cluster_1047 = cluster
+cluster_908 = cluster
 
  |> "m w ^g" <| [
 
@@ -19277,21 +18116,21 @@ cluster_1047 = cluster
     MutaFACiL                 `adj`     {- <mutamAwi^g> -}     [ "fluctuating", "undulating" ] ]
 
 
-cluster_1048 = cluster
+cluster_909 = cluster
 
  |> "m w .d" <| [
 
     "mU.d" |< aT              `noun`    {- <mU.daT> -}         [ "fashion", "style" ] ]
 
 
-cluster_1049 = cluster
+cluster_910 = cluster
 
  |> "m w '" <| [
 
     FuCAL                     `noun`    {- <muwA'> -}          [ "mewing", "meow" ] ]
 
 
-cluster_1050 = cluster
+cluster_911 = cluster
 
  |> "m w h" <| [
 
@@ -19324,42 +18163,24 @@ cluster_1050 = cluster
     TaFCIL |< Iy              `adj`     {- <tamwIhIy> -}       [ "fake", "false" ] ]
 
 
-cluster_1051 = cluster
-
- |> "m w f z" <| [
-
-    "mUfAz"                   `noun`    {- <mUfAz> -}          [ "Mofaz" ] ]
 
 
-cluster_1052 = cluster
-
- |> "m w f n" <| [
-
-    "mUfIn"                   `noun`    {- <mUfIn> -}          [ "Moven" ] ]
-
-
-cluster_1053 = cluster
+cluster_912 = cluster
 
  |> "m w d l" <| [
 
     "mUdIl"                   `noun`    {- <mUdIl> -}          [ "model", "pattern" ] ]
 
 
-cluster_1054 = cluster
+cluster_913 = cluster
 
  |> "m w d" <| [
 
     "mUd" |< aT               `noun`    {- <mUdaT> -}          [ "fashion", "style" ] ]
 
 
-cluster_1055 = cluster
 
- |> "m w b l" <| [
-
-    "mUbIl"                   `noun`    {- <mUbIl> -}          [ "Mobil" ] ]
-
-
-cluster_1056 = cluster
+cluster_914 = cluster
 
  |> "m w m y" <| [
 
@@ -19368,14 +18189,14 @@ cluster_1056 = cluster
     "mUmI" |< aT              `noun`    {- <mUmiyaT> -}        [ "mummy" ] ]
 
 
-cluster_1057 = cluster
+cluster_915 = cluster
 
  |> "m w m" <| [
 
     FUL                       `noun`    {- <mUm> -}            [ "wax" ] ]
 
 
-cluster_1058 = cluster
+cluster_916 = cluster
 
  |> "m w l" <| [
 
@@ -19422,34 +18243,16 @@ cluster_1058 = cluster
     `derives` feminine ]
 
 
-cluster_1059 = cluster
-
- |> "m w r w" <| [
-
-    "mUrU"                    `noun`    {- <mUrU> -}           [ "Moro" ] ]
 
 
-cluster_1060 = cluster
-
- |> "m w r s" <| [
-
-    "mUrIs"                   `noun`    {- <mUrIs> -}          [ "Maurice", "Morris" ] ]
-
-
-cluster_1061 = cluster
+cluster_917 = cluster
 
  |> "m w r n" <| [
 
     KuRDIS |< aT              `noun`    {- <muwrInaT> -}       [ unwords [ "wooden", "beam" ] ] ]
 
 
-cluster_1062 = cluster
-
- |> "" <| [
-
-    "mUr"                     `noun`    {- <mUr> -}            [ "Moore", "Mor" ] ]
-
-
+cluster_918 = cluster
 
  |> "m w r" <| [
 
@@ -19464,25 +18267,12 @@ cluster_1062 = cluster
     TaFaCCuL                  `noun`    {- <tamawwur> -}       [ unwords [ "swinging", "motion" ], "oscillation" ]
                               `plural`     TaFaCCuL |< At,
 
-    TaFaCCuL |<< "aN"         `noun`    {- <tamawwuraN> -}     [ unwords [ "back", "and", "forth" ] ]
-                              `plural`     TaFaCCuL ]
+    TaFaCCuL |<< "aN"         `noun`    {- <tamawwuraN> -}     [ unwords [ "back", "and", "forth" ] ] ]
 
 
-cluster_1063 = cluster
-
- |> "m w n k" <| [
-
-    "mUnIk"                   `noun`    {- <mUnIk> -}          [ "Monique" ] ]
 
 
-cluster_1064 = cluster
-
- |> "m w n _h" <| [
-
-    "mUnI_h"                  `noun`    {- <mUnI_h> -}         [ "Munich" ] ]
-
-
-cluster_1065 = cluster
+cluster_919 = cluster
 
  |> "m w n" <| [
 
@@ -19498,20 +18288,20 @@ cluster_1065 = cluster
     TaFCIL |< Iy              `adj`     {- <tamwInIy> -}       [ "supplying", "providing" ] ]
 
 
-cluster_1066 = cluster
+cluster_920 = cluster
 
  |> "m w s y" <| [
 
-    "mUsY"                    `noun`    {- <mUsY> -}           [ "Mousa", "Moussa" ],
+    "mUsY"                    `noun`    {- <mUsY> -}           [ "" {- "Mousa" -}, "" {- "Moussa" -} ],
 
-    "mUsY"                    `noun`    {- <mUsY> -}           [ "Moses" ],
+    "mUsY"                    `noun`    {- <mUsY> -}           [ "" {- "Moses" -} ],
 
-    "mUsY" |< Iy              `adj`     {- <mUsawIy> -}        [ "Moussaoui" ],
+    "mUsY" |< Iy              `adj`     {- <mUsawIy> -}        [ "" {- "Moussaoui" -} ],
 
-    "mUsY" |< Iy              `adj`     {- <mUsawIy> -}        [ "Mosaic", "Moses" ] ]
+    "mUsY" |< Iy              `adj`     {- <mUsawIy> -}        [ "" {- "Mosaic" -}, "" {- "Moses" -} ] ]
 
 
-cluster_1067 = cluster
+cluster_921 = cluster
 
  |> "m w s q" <| [
 
@@ -19522,21 +18312,15 @@ cluster_1067 = cluster
     "mUsIq" |< Iy |< aT       `noun`    {- <mUsIqIyaT> -}      [ "musicality" ] ]
 
 
-cluster_1068 = cluster
 
- |> "m w s d" <| [
-
-    "mUsAd"                   `noun`    {- <mUsAd> -}          [ "Mossad" ] ]
-
-
-cluster_1069 = cluster
+cluster_922 = cluster
 
  |> "m w s '" <| [
 
-    "mUsA'" |< Iy             `adj`     {- <mUsA'Iy> -}        [ "Moussaoui" ] ]
+    "mUsA'" |< Iy             `adj`     {- <mUsA'Iy> -}        [ "" {- "Moussaoui" -} ] ]
 
 
-cluster_1070 = cluster
+cluster_923 = cluster
 
  |> "m w z" <| [
 
@@ -19545,14 +18329,14 @@ cluster_1070 = cluster
     FaCL |< Iy                `adj`     {- <mawzIy> -}         [ "banana" ] ]
 
 
-cluster_1071 = cluster
+cluster_924 = cluster
 
  |> "m w t r" <| [
 
     "mUtUr"                   `noun`    {- <mUtUr> -}          [ "motor" ] ]
 
 
-cluster_1072 = cluster
+cluster_925 = cluster
 
  |> "m w t" <| [
 
@@ -19598,28 +18382,10 @@ cluster_1072 = cluster
     MustaFIL                  `adj`     {- <mustamIt> -}       [ unwords [ "death", "-", "defying" ], "martyr" ] ]
 
 
-cluster_1073 = cluster
-
- |> "" <| [
-
-    "mI^sIl"                  `noun`    {- <mI^sIl> -}         [ "Michael", "Michel" ] ]
 
 
 
- |> "m y ^s l" <| [
-
-    "mI^sIl"                  `noun`    {- <mI^sIl> -}         [ "Michelle" ] ]
-
-
-cluster_1074 = cluster
-
- |> "m y ^g r" <| [
-
-    "mI^gUr"                  `noun`    {- <mI^gUr> -}         [ "Major" ] ]
-
-
-
-cluster_1075 = cluster
+cluster_926 = cluster
 
  |> "m y .t" <| [
 
@@ -19633,7 +18399,7 @@ cluster_1075 = cluster
                               `plural`     FaCaLAn ]
 
 
-cluster_1076 = cluster
+cluster_927 = cluster
 
  |> "m y .h" <| [
 
@@ -19652,14 +18418,8 @@ cluster_1076 = cluster
     FaCL                      `noun`    {- <may.h> -}          [ "strutting", "waddling" ] ]
 
 
-cluster_1077 = cluster
 
- |> "m y .g n" <| [
-
-    "mI.gAn"                  `noun`    {- <mI.gAn> -}         [ "Megan" ] ]
-
-
-cluster_1078 = cluster
+cluster_928 = cluster
 
  |> "m y `" <| [
 
@@ -19696,35 +18456,17 @@ cluster_1078 = cluster
                               `plural`     FawA'iL ]
 
 
-cluster_1079 = cluster
+cluster_929 = cluster
 
  |> "m y k n" <| [
 
     KaRDaS |< aT              `noun`    {- <maykanaT> -}       [ "mechanization", "motorization" ] ]
 
 
-cluster_1080 = cluster
-
- |> "m y k" <| [
-
-    "mAyk"                    `noun`    {- <mAyk> -}           [ "Mike" ] ]
 
 
-cluster_1081 = cluster
 
- |> "m y d z" <| [
-
-    "mIdUz"                   `noun`    {- <mIdUz> -}          [ "Meadows" ] ]
-
-
-cluster_1082 = cluster
-
- |> "m y d l" <| [
-
-    "mIdil"                   `noun`    {- <mIdil> -}          [ "Middle" ] ]
-
-
-cluster_1083 = cluster
+cluster_930 = cluster
 
  |> "m y d" <| [
 
@@ -19757,32 +18499,20 @@ cluster_1083 = cluster
 
     FaCLAn |< Iy              `adj`     {- <maydAnIy> -}       [ "field", "survey", unwords [ "in", "the", "military", "field" ], "militarily" ],
 
-    FILA' |< Iy               `adj`     {- <mIdAwIy> -}        [ "Midaoui", "Midawi" ] ]
+    FILA' |< Iy               `adj`     {- <mIdAwIy> -}        [ "" {- "Midaoui" -}, "" {- "Midawi" -} ] ]
 
 
-cluster_1084 = cluster
 
- |> "m y m y" <| [
-
-    "mayAmI"                  `noun`    {- <mayAmI> -}         [ "Miami" ] ]
-
-
-cluster_1085 = cluster
+cluster_931 = cluster
 
  |> "m y m" <| [
 
-    FIL                       `noun`    {- <mIm> -}            [ unwords [ "mim", "(", "Arabic", "letter", ")" ] ]
+    FIL                       `noun`    {- <mIm> -}            [ unwords [ "mim", "(", "" {- "Arabic" -}, "letter", ")" ] ]
                               `plural`     FIL |< At ]
 
 
-cluster_1086 = cluster
 
- |> "m y l r" <| [
-
-    "mIlir"                   `noun`    {- <mIlir> -}          [ "Miller" ] ]
-
-
-cluster_1087 = cluster
+cluster_932 = cluster
 
  |> "m y l" <| [
 
@@ -19830,7 +18560,7 @@ cluster_1087 = cluster
     FA'iL                     `adj`     {- <mA'il> -}          [ "italic" ] ]
 
 
-cluster_1088 = cluster
+cluster_933 = cluster
 
  |> "" <| [
 
@@ -19857,32 +18587,26 @@ cluster_1088 = cluster
     `derives` feminine ]
 
 
-cluster_1089 = cluster
+cluster_934 = cluster
 
  |> "m y r y" <| [
 
     KiRDI                     `noun`    {- <miyrI> -}          [ "state" ] ]
 
 
-cluster_1090 = cluster
+cluster_935 = cluster
 
  |> "m y r n" <| [
 
     KaRDUS                    `noun`    {- <mayrUn> -}         [ "chrism" ] ]
 
 
-cluster_1091 = cluster
+cluster_936 = cluster
 
  |> "m y r" <| [
 
     FIL                       `noun`    {- <mIr> -}            [ "mayor" ]
                               `plural`     HaFCAL ]
-
-
-
- |> "" <| [
-
-    "mAyUr"                   `noun`    {- <mAyUr> -}          [ "Mayor", "Major" ] ]
 
 
 
@@ -19905,7 +18629,7 @@ cluster_1091 = cluster
     `derives` feminine ]
 
 
-cluster_1092 = cluster
+cluster_937 = cluster
 
  |> "m y n" <| [
 
@@ -19929,14 +18653,8 @@ cluster_1092 = cluster
     `derives` feminine ]
 
 
-cluster_1093 = cluster
 
- |> "m y y" <| [
-
-    "mayy"                    `noun`    {- <mayy> -}           [ "Mayy" ] ]
-
-
-cluster_1094 = cluster
+cluster_938 = cluster
 
  |> "m y z" <| [
 
@@ -19993,7 +18711,7 @@ cluster_1094 = cluster
     MuFtAL                    `adj`     {- <mumtAz> -}         [ "privileged", "favored" ] ]
 
 
-cluster_1095 = cluster
+cluster_939 = cluster
 
  |> "m z y" <| [
 
@@ -20003,29 +18721,23 @@ cluster_1095 = cluster
     FACI |< aT                `noun`    {- <mAziyaT> -}        [ "merit", "virtue", "advantage" ] ]
 
 
-cluster_1096 = cluster
 
- |> "h ' s" <| [
-
-    "hAs"                     `noun`    {- <hAs> -}            [ "Haas" ] ]
-
-
-cluster_1097 = cluster
+cluster_940 = cluster
 
  |> "h ' h '" <| [
 
     KaRDaS                    `verb`    {- <ha'ha'> -}         [ "laugh" ] ]
 
 
-cluster_1098 = cluster
+cluster_941 = cluster
 
  |> "h ' '" <| [
 
-    FAL                       `noun`    {- <hA'> -}            [ unwords [ "ha'", "(", "Arabic", "letter", ")" ], unwords [ "ha's", "(", "Arabic", "letter", ")" ] ]
+    FAL                       `noun`    {- <hA'> -}            [ unwords [ "ha'", "(", "" {- "Arabic" -}, "letter", ")" ], unwords [ "ha's", "(", "" {- "Arabic" -}, "letter", ")" ] ]
                               `plural`     FAL |< At ]
 
 
-cluster_1099 = cluster
+cluster_942 = cluster
 
  |> "h ^g '" <| [
 
@@ -20043,11 +18755,11 @@ cluster_1099 = cluster
     FiCAL |< Iy               `adj`     {- <hi^gA'Iy> -}       [ "alphabetical" ] ]
 
 
-cluster_1100 = cluster
+cluster_943 = cluster
 
  |> "h ^g y" <| [
 
-    FACI                      `noun`    {- <hA^gI> -}          [ "Haji" ],
+    FACI                      `noun`    {- <hA^gI> -}          [ "" {- "Haji" -} ],
 
     TaFCI |< aT               `noun`    {- <tah^giyaT> -}      [ "spelling" ],
 
@@ -20055,14 +18767,14 @@ cluster_1100 = cluster
                               `plural`     FACI |< At ]
 
 
-cluster_1101 = cluster
+cluster_944 = cluster
 
  |> "h ^g w y" <| [
 
     KaRDIS                    `adj`     {- <ha^gwIy> -}        [ "defamatory", "disparaging" ] ]
 
 
-cluster_1102 = cluster
+cluster_945 = cluster
 
  |> "h ^g w" <| [
 
@@ -20098,21 +18810,15 @@ cluster_1102 = cluster
                               `plural`     FACI |< At ]
 
 
-cluster_1103 = cluster
+cluster_946 = cluster
 
  |> "h _d '" <| [
 
     FuCAL                     `noun`    {- <hu_dA'> -}         [ "delirium" ] ]
 
 
-cluster_1104 = cluster
 
- |> "h ^s y" <| [
-
-    FUCI                      `noun`    {- <hU^sI> -}          [ unwords [ "Ho", "Chi" ] ] ]
-
-
-cluster_1105 = cluster
+cluster_947 = cluster
 
  |> "h b '" <| [
 
@@ -20120,7 +18826,7 @@ cluster_1105 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_1106 = cluster
+cluster_948 = cluster
 
  |> "h _d y" <| [
 
@@ -20135,7 +18841,7 @@ cluster_1106 = cluster
                               `plural`     FACI |< At ]
 
 
-cluster_1107 = cluster
+cluster_949 = cluster
 
  |> "h d '" <| [
 
@@ -20154,7 +18860,7 @@ cluster_1107 = cluster
 
     TaFCiL |< aT              `noun`    {- <tahdi'aT> -}       [ "calming", "appeasement" ],
 
-    FACiL                     `noun`    {- <hAdi'> -}          [ "Pacific" ],
+    FACiL                     `noun`    {- <hAdi'> -}          [ "" {- "Pacific" -} ],
 
     FACiL                     `adj`     {- <hAdi'> -}          [ "calm", "quiet", "peaceful" ],
 
@@ -20165,7 +18871,7 @@ cluster_1107 = cluster
                               `plural`     HiFCAL |< At ]
 
 
-cluster_1108 = cluster
+cluster_950 = cluster
 
  |> "h b w" <| [
 
@@ -20179,7 +18885,7 @@ cluster_1108 = cluster
                               `plural`     HaFCA' ]
 
 
-cluster_1109 = cluster
+cluster_951 = cluster
 
  |> "h d y" <| [
 
@@ -20202,11 +18908,9 @@ cluster_1109 = cluster
 
     FuCY                      `noun`    {- <hudY> -}           [ "guidance", unwords [ "right", "path" ] ],
 
-    FaCL |< aT                `noun`    {- <hadyaT> -}         [ unwords [ "line", "of", "conduct" ], "policy" ]
-                              `plural`     FiCL |< aT,
+    FiCL |< aT                `noun`    {- <hidyaT> -}         [ unwords [ "line", "of", "conduct" ], "policy" ],
 
-    FaCIL |< aT               `noun`    {- <hadIyaT> -}        [ "gift", "present" ]
-                              `plural`     FaCALY,
+    FaCIL |< aT               `noun`    {- <hadIyaT> -}        [ "gift", "present" ],
 
     FiCAL |< aT               `noun`    {- <hidAyaT> -}        [ "guidance" ],
 
@@ -20225,9 +18929,9 @@ cluster_1109 = cluster
                               `plural`     FACI |< At
                               `plural`     FuCY |< aT,
 
-    FACI                      `noun`    {- <hAdI> -}           [ "Hadi" ],
+    FACI                      `noun`    {- <hAdI> -}           [ "" {- "Hadi" -} ],
 
-    MaFCIL                    `noun`    {- <mahdIy> -}         [ "Mahdi" ],
+    MaFCIL                    `noun`    {- <mahdIy> -}         [ "" {- "Mahdi" -} ],
 
     MaFCIL                    `adj`     {- <mahdIy> -}         [ unwords [ "rightly", "guided" ] ],
 
@@ -20240,22 +18944,9 @@ cluster_1109 = cluster
                               `plural`     MuFtaCI |< At ]
 
 
-cluster_1110 = cluster
-
- |> "h k y" <| [
-
-    FUCI                      `noun`    {- <hUkI> -}           [ "hockey" ] ]
 
 
-cluster_1111 = cluster
-
- |> "h f y" <| [
-
-    FACI                      `adj`     {- <hAfI> -}           [ "famished", "starved" ]
-                              `plural`     FACI |< At ]
-
-
-cluster_1112 = cluster
+cluster_952 = cluster
 
  |> "h f w" <| [
 
@@ -20269,21 +18960,21 @@ cluster_1112 = cluster
                               `plural`     FACI |< At ]
 
 
-cluster_1113 = cluster
+cluster_953 = cluster
 
  |> "h l y n" <| [
 
-    KaRDaS |< aT              `noun`    {- <halyanaT> -}       [ "Hellenization" ] ]
+    KaRDaS |< aT              `noun`    {- <halyanaT> -}       [ "" {- "Hellenization" -} ] ]
 
 
-cluster_1114 = cluster
+cluster_954 = cluster
 
  |> "h l y" <| [
 
-    FaC                       `part`    {- <hal> -}            [ unwords [ "does", "/", "do", "?" ], unwords [ "did", "?" ], unwords [ "is", "/", "are", "?" ] ] ]
+    "hal"                     `part`    {- <hal> -}            [ unwords [ "does", "/", "do", "?" ], unwords [ "did", "?" ], unwords [ "is", "/", "are", "?" ] ] ]
 
 
-cluster_1115 = cluster
+cluster_955 = cluster
 
  |> "h l w s" <| [
 
@@ -20295,7 +18986,7 @@ cluster_1115 = cluster
     MuKaRDiS                  `adj`     {- <muhalwis> -}       [ "hallucinogenic" ] ]
 
 
-cluster_1116 = cluster
+cluster_956 = cluster
 
  |> "h m w" <| [
 
@@ -20305,7 +18996,7 @@ cluster_1116 = cluster
     FaCL                      `noun`    {- <hamw> -}           [ "flowing", "pouring" ] ]
 
 
-cluster_1117 = cluster
+cluster_957 = cluster
 
  |> "h n '" <| [
 
@@ -20323,7 +19014,7 @@ cluster_1117 = cluster
 
     FaCAL                     `noun`    {- <hanA'> -}          [ unwords [ "good", "health" ], "happiness" ],
 
-    FaCAL                     `noun`    {- <hanA'> -}          [ "Hanaa" ],
+    FaCAL                     `noun`    {- <hanA'> -}          [ "" {- "Hanaa" -} ],
 
     FiCAL                     `noun`    {- <hinA'> -}          [ "tar" ],
 
@@ -20337,7 +19028,7 @@ cluster_1117 = cluster
 
     FACiL                     `adj`     {- <hAni'> -}          [ "delighted", "glad" ],
 
-    FACI                      `noun`    {- <hAnI> -}           [ "Hani" ],
+    FACI                      `noun`    {- <hAnI> -}           [ "" {- "Hani" -} ],
 
     FACiL |< aT               `noun`    {- <hAni'aT> -}        [ unwords [ "servant", "girl" ], "maid" ],
 
@@ -20346,36 +19037,19 @@ cluster_1117 = cluster
                            
     `derives` feminine,
 
-    FaC |< Iy                 `adj`     {- <hanIy> -}          [ "pleasant", "delicious" ] ]
+    FaCIy                     `adj`     {- <hanIy> -}          [ "pleasant", "delicious" ] ]
 
 
-cluster_1118 = cluster
 
- |> "h n y" <| [
-
-    FACUL                     `noun`    {- <hAnUy> -}          [ "Hanoi" ],
-
-    FACI                      `noun`    {- <hAnI> -}           [ "Hani" ] ]
-
-
-cluster_1119 = cluster
+cluster_958 = cluster
 
  |> "h n w" <| [
 
-    FiCL                      `noun`    {- <hinw> -}           [ "time" ],
-
-    FaC |< aT                 `noun`    {- <hanaT> -}          [ "trifle", "defects" ]
-                              `plural`     FaCaL |< At ]
+    FiCL                      `noun`    {- <hinw> -}           [ "time" ] ]
 
 
-cluster_1120 = cluster
 
- |> "h n r y" <| [
-
-    KiRDI                     `noun`    {- <hinrI> -}          [ "Henry", "Henri" ] ]
-
-
-cluster_1121 = cluster
+cluster_959 = cluster
 
  |> "h r '" <| [
 
@@ -20395,7 +19069,17 @@ cluster_1121 = cluster
     MuFtaCiL                  `adj`     {- <muhtari'> -}       [ "torn", "tattered" ] ]
 
 
-cluster_1122 = cluster
+cluster_960 = cluster
+
+ |> "h r w" <| [
+
+    FaCY |< Iy                `adj`     {- <harawIy> -}        [ unwords [ "of", "/", "from", "" {- "Herat" -} ] ],
+
+    FaCALI                    `noun`    {- <harAwI> -}         [ "" {- "Hrawi" -} ],
+
+    FaCY |< aT                `noun`    {- <harAT> -}          [ "" {- "Herat" -} ] ]
+
+
 
  |> "h r w" <| [
 
@@ -20403,20 +19087,12 @@ cluster_1122 = cluster
                               `imperf`     FCU,
 
     FiCAL |< aT               `noun`    {- <hirAwaT> -}        [ "stick", "baton", "truncheon" ]
-                              `plural`     FiCAL |< At,
-
-    FaCALI                    `noun`    {- <harAwI> -}         [ "Hrawi" ],
-
-    FaCY |< aT                `noun`    {- <harAT> -}          [ "Herat" ],
-
-    FaC |<< "awIy"            `adj`     {- <harawIy> -}        [ unwords [ "of", "/", "from", "Herat" ] ] ]
+                              `plural`     FiCAL |< At ]
 
 
-cluster_1123 = cluster
+cluster_961 = cluster
 
  |> "h r y" <| [
-
-    FaCACI                    `noun`    {- <harArI> -}         [ "Harare" ],
 
     FuCL                      `noun`    {- <hury> -}           [ "granary" ]
                               `plural`     HaFCA',
@@ -20425,7 +19101,7 @@ cluster_1123 = cluster
                               `plural`     FACI |< At ]
 
 
-cluster_1124 = cluster
+cluster_962 = cluster
 
  |> "h r w l" <| [
 
@@ -20436,28 +19112,10 @@ cluster_1124 = cluster
     MuKaRDiS                  `adj`     {- <muharwil> -}       [ "hurrying", unwords [ "in", "a", "hurry" ] ] ]
 
 
-cluster_1125 = cluster
-
- |> "h w .g w" <| [
-
-    "hU.gU"                   `noun`    {- <hU.gU> -}          [ "Hugo" ] ]
 
 
-cluster_1126 = cluster
 
- |> "h w b y" <| [
-
-    "hUbI"                    `noun`    {- <hUbI> -}           [ "Hobby" ] ]
-
-
-cluster_1127 = cluster
-
- |> "h w b r" <| [
-
-    "hUbIr"                   `noun`    {- <hUbIr> -}          [ "Hubert" ] ]
-
-
-cluster_1128 = cluster
+cluster_963 = cluster
 
  |> "h w `" <| [
 
@@ -20473,14 +19131,8 @@ cluster_1128 = cluster
     FaCL                      `noun`    {- <haw`> -}           [ "vomiting" ] ]
 
 
-cluster_1129 = cluster
 
- |> "h w ^s y" <| [
-
-    "hU^sI"                   `noun`    {- <hU^sI> -}          [ unwords [ "Ho", "Chi" ] ] ]
-
-
-cluster_1130 = cluster
+cluster_964 = cluster
 
  |> "h w ^s" <| [
 
@@ -20508,7 +19160,7 @@ cluster_1130 = cluster
     `derives` feminine ]
 
 
-cluster_1131 = cluster
+cluster_965 = cluster
 
  |> "h w ^g" <| [
 
@@ -20526,21 +19178,15 @@ cluster_1131 = cluster
                               `plural`     FUL ]
 
 
-cluster_1132 = cluster
+cluster_966 = cluster
 
  |> "h w k y" <| [
 
     "hUkI"                    `noun`    {- <hUkI> -}           [ "hockey" ] ]
 
 
-cluster_1133 = cluster
 
- |> "h w k" <| [
-
-    "hUk"                     `noun`    {- <hUk> -}            [ "Hawk" ] ]
-
-
-cluster_1134 = cluster
+cluster_967 = cluster
 
  |> "h w d ^g" <| [
 
@@ -20548,7 +19194,7 @@ cluster_1134 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_1135 = cluster
+cluster_968 = cluster
 
  |> "h w d" <| [
 
@@ -20556,7 +19202,7 @@ cluster_1135 = cluster
                               `imperf`     FUL
                               `pfirst`     FuL,
 
-    FaCCaL                    `verb`    {- <hawwad> -}         [ unwords [ "make", "Jewish" ] ],
+    FaCCaL                    `verb`    {- <hawwad> -}         [ unwords [ "make", "" {- "Jewish" -} ] ],
 
     FaCCaL                    `verb`    {- <hawwad> -}         [ "intoxicate" ],
 
@@ -20564,26 +19210,26 @@ cluster_1135 = cluster
 
     TaFaCCaL                  `verb`    {- <tahawwad> -}       [ unwords [ "become", "a", "Jew" ] ],
 
-    FUL                       `noun`    {- <hUd> -}            [ "Jews" ],
+    FUL                       `noun`    {- <hUd> -}            [ "" {- "Jews" -} ],
 
     FaCAL |< aT               `noun`    {- <hawAdaT> -}        [ "indulgence", "leniency" ],
 
-    TaFCIL                    `noun`    {- <tahwId> -}         [ "Judaization" ]
+    TaFCIL                    `noun`    {- <tahwId> -}         [ "" {- "Judaization" -} ]
                               `plural`     TaFCIL |< At,
 
     MuFACaL |< aT             `noun`    {- <muhAwadaT> -}      [ "moderation", "mitigation" ],
 
-    MutaFaCCiL                `noun`    {- <mutahawwid> -}     [ "Judaized", unwords [ "under", "Jewish", "control" ] ]
+    MutaFaCCiL                `noun`    {- <mutahawwid> -}     [ "" {- "Judaized" -}, unwords [ "under", "" {- "Jewish" -}, "control" ] ]
                               `plural`     MutaFaCCiL |< Un
                            
     `derives` feminine,
 
     MutaFACiL                 `adj`     {- <mutahAwid> -}      [ "moderate" ],
 
-    FuCayL |< Iy              `adj`     {- <huwaydIy> -}       [ "Huweidi", "Howeidi" ] ]
+    FuCayL |< Iy              `adj`     {- <huwaydIy> -}       [ "" {- "Huweidi" -}, "" {- "Howeidi" -} ] ]
 
 
-cluster_1136 = cluster
+cluster_969 = cluster
 
  |> "h w m" <| [
 
@@ -20602,7 +19248,7 @@ cluster_1136 = cluster
                               `plural`     TaFCIL |< At ]
 
 
-cluster_1137 = cluster
+cluster_970 = cluster
 
  |> "h w l" <| [
 
@@ -20636,7 +19282,7 @@ cluster_1137 = cluster
     `derives` feminine ]
 
 
-cluster_1138 = cluster
+cluster_971 = cluster
 
  |> "h w n" <| [
 
@@ -20687,7 +19333,7 @@ cluster_1138 = cluster
     MustaFIL                  `adj`     {- <mustahIn> -}       [ "indifferent", "scornful" ] ]
 
 
-cluster_1139 = cluster
+cluster_972 = cluster
 
  |> "h w r" <| [
 
@@ -20725,29 +19371,15 @@ cluster_1139 = cluster
     MunFAL                    `adj`     {- <munhAr> -}         [ unwords [ "suffering", "a", "breakdown" ], "collapsing" ] ]
 
 
-cluster_1140 = cluster
-
- |> "" <| [
-
-    "hU"                      `noun`    {- <hU> -}             [ unwords [ "Ho", "(", "in", "\"Ho", "Chi", "Minh\"", ")" ] ] ]
-
-
+cluster_973 = cluster
 
  |> "h w w" <| [
 
-    FuC |< Iy |< aT           `noun`    {- <huwIyaT> -}        [ unwords [ "identity", "card" ], "identity" ],
-
-    FU |<< "a"                `noun`    {- <huwa> -}           [ unwords [ "it", "/", "he" ] ] ]
+    "huw" |< Iy |< aT         `noun`    {- <huwIyaT> -}        [ unwords [ "identity", "card" ], "identity" ] ]
 
 
-cluster_1141 = cluster
 
- |> "h w t w" <| [
-
-    "hUtU"                    `noun`    {- <hUtU> -}           [ "Hutu" ] ]
-
-
-cluster_1142 = cluster
+cluster_974 = cluster
 
  |> "h w t" <| [
 
@@ -20755,7 +19387,7 @@ cluster_1142 = cluster
                               `plural`     FuCaL ]
 
 
-cluster_1143 = cluster
+cluster_975 = cluster
 
  |> "h w s" <| [
 
@@ -20796,7 +19428,7 @@ cluster_1143 = cluster
     `derives` feminine ]
 
 
-cluster_1144 = cluster
+cluster_976 = cluster
 
  |> "h w y" <| [
 
@@ -20863,7 +19495,7 @@ cluster_1144 = cluster
     FACI |< aT                `noun`    {- <hAwiyaT> -}        [ "crevasse", "precipice" ] ]
 
 
-cluster_1145 = cluster
+cluster_977 = cluster
 
  |> "h y .t l" <| [
 
@@ -20871,7 +19503,7 @@ cluster_1145 = cluster
                               `plural`     KaRADiS |< aT ]
 
 
-cluster_1146 = cluster
+cluster_978 = cluster
 
  |> "h y .t" <| [
 
@@ -20884,7 +19516,7 @@ cluster_1146 = cluster
     FiCAL                     `noun`    {- <hiyA.t> -}         [ "clamor", "uproar" ] ]
 
 
-cluster_1147 = cluster
+cluster_979 = cluster
 
  |> "h y .d" <| [
 
@@ -20897,7 +19529,7 @@ cluster_1147 = cluster
     MaFIL                     `adj`     {- <mahI.d> -}         [ "broken", "powerless" ] ]
 
 
-cluster_1148 = cluster
+cluster_980 = cluster
 
  |> "h y '" <| [
 
@@ -20929,21 +19561,15 @@ cluster_1148 = cluster
                               `plural`     MuFaCCaL |< Un ]
 
 
-cluster_1149 = cluster
+cluster_981 = cluster
 
  |> "h w z" <| [
 
-    HaFCAL                    `noun`    {- <'ahwAz> -}         [ "Ahwaz" ] ]
+    HaFCAL                    `noun`    {- <'ahwAz> -}         [ "" {- "Ahwaz" -} ] ]
 
 
-cluster_1150 = cluster
 
- |> "h y _t m" <| [
-
-    KaRDaS                    `noun`    {- <hay_tam> -}        [ "Haitham" ] ]
-
-
-cluster_1151 = cluster
+cluster_982 = cluster
 
  |> "h y ^s" <| [
 
@@ -20956,7 +19582,7 @@ cluster_1151 = cluster
     FaCL |< aT                `noun`    {- <hay^saT> -}        [ "turmoil", "excitement" ] ]
 
 
-cluster_1152 = cluster
+cluster_983 = cluster
 
  |> "h y ^g" <| [
 
@@ -21000,14 +19626,14 @@ cluster_1152 = cluster
     MuFtAL                    `adj`     {- <muhtA^g> -}        [ "agitated", "impassioned" ] ]
 
 
-cluster_1153 = cluster
+cluster_984 = cluster
 
  |> "h y b z" <| [
 
     "hIbIz"                   `noun`    {- <hIbIz> -}          [ "hippies" ] ]
 
 
-cluster_1154 = cluster
+cluster_985 = cluster
 
  |> "h y b y" <| [
 
@@ -21017,7 +19643,7 @@ cluster_1154 = cluster
     `derives` feminine ]
 
 
-cluster_1155 = cluster
+cluster_986 = cluster
 
  |> "h y b" <| [
 
@@ -21060,7 +19686,7 @@ cluster_1155 = cluster
     MutaFaCCiL                `adj`     {- <mutahayyib> -}     [ "fearful", "timorous" ] ]
 
 
-cluster_1156 = cluster
+cluster_987 = cluster
 
  |> "h y k l" <| [
 
@@ -21072,21 +19698,15 @@ cluster_1156 = cluster
     KaRDaS |< aT              `noun`    {- <haykalaT> -}       [ "structuring", "composing" ] ]
 
 
-cluster_1157 = cluster
+cluster_988 = cluster
 
  |> "h y h" <| [
 
     FaCL |< At                `noun`    {- <hayhAt> -}         [ unwords [ "how", "!" ] ] ]
 
 
-cluster_1158 = cluster
 
- |> "h y f y" <| [
-
-    "hIfI"                    `noun`    {- <hIfI> -}           [ "Heavy" ] ]
-
-
-cluster_1159 = cluster
+cluster_989 = cluster
 
  |> "h y f" <| [
 
@@ -21116,14 +19736,14 @@ cluster_1159 = cluster
                               `femini`     FaCLA' ]
 
 
-cluster_1160 = cluster
+cluster_990 = cluster
 
  |> "h y l n" <| [
 
-    "hIlIn" |< Iy |< aT       `noun`    {- <hIlInIyaT> -}      [ "Hellenism" ] ]
+    "hIlIn" |< Iy |< aT       `noun`    {- <hIlInIyaT> -}      [ "" {- "Hellenism" -} ] ]
 
 
-cluster_1161 = cluster
+cluster_991 = cluster
 
  |> "" <| [
 
@@ -21138,12 +19758,6 @@ cluster_1161 = cluster
     FAL                       `noun`    {- <hAl> -}            [ "cardamom" ],
 
     FaCL                      `noun`    {- <hayl> -}           [ "cardamom" ] ]
-
-
-
- |> "" <| [
-
-    "hIl"                     `noun`    {- <hIl> -}            [ "Hill" ] ]
 
 
 
@@ -21167,14 +19781,14 @@ cluster_1161 = cluster
                               `plural`     InFiCAL |< At ]
 
 
-cluster_1162 = cluster
+cluster_992 = cluster
 
  |> "h y n m" <| [
 
     KaRDaS                    `verb`    {- <haynam> -}         [ unwords [ "murmur", "softly" ] ] ]
 
 
-cluster_1163 = cluster
+cluster_993 = cluster
 
  |> "h y m n" <| [
 
@@ -21187,7 +19801,7 @@ cluster_1163 = cluster
     MuKaRDiS                  `noun`    {- <muhaymin> -}       [ "guardian", "protector" ] ]
 
 
-cluster_1164 = cluster
+cluster_994 = cluster
 
  |> "h y m" <| [
 
@@ -21205,7 +19819,7 @@ cluster_1164 = cluster
 
     FiCAL                     `noun`    {- <hiyAm> -}          [ "passion" ],
 
-    FiCAL                     `noun`    {- <hiyAm> -}          [ "Hiyam" ],
+    FiCAL                     `noun`    {- <hiyAm> -}          [ "" {- "Hiyam" -} ],
 
     FaCUL                     `noun`    {- <hayUm> -}          [ "confused", "mystified" ],
 
@@ -21226,24 +19840,18 @@ cluster_1164 = cluster
     `derives` feminine ]
 
 
-cluster_1165 = cluster
+cluster_995 = cluster
 
  |> "h y y" <| [
 
     FI |<< "a"                `noun`    {- <hiya> -}           [ unwords [ "it", "/", "they", "/", "she" ] ] ]
 
 
-cluster_1166 = cluster
+cluster_996 = cluster
 
  |> "" <| [
 
-    "hAyt" |< Iy              `adj`     {- <hAytIy> -}         [ "Haitian" ] ]
-
-
-
- |> "" <| [
-
-    "hIt"                     `noun`    {- <hIt> -}            [ "Heat" ] ]
+    "hAyt" |< Iy              `adj`     {- <hAytIy> -}         [ "" {- "Haitian" -} ] ]
 
 
 
@@ -21254,7 +19862,7 @@ cluster_1166 = cluster
     FaCL |<< "a"              `noun`    {- <hayta> -}          [ unwords [ "come", "here", "!" ] ] ]
 
 
-cluster_1167 = cluster
+cluster_997 = cluster
 
  |> "h y r" <| [
 
@@ -21266,7 +19874,7 @@ cluster_1167 = cluster
     `derives` feminine ]
 
 
-cluster_1168 = cluster
+cluster_998 = cluster
 
  |> "h z '" <| [
 
@@ -21307,14 +19915,14 @@ cluster_1168 = cluster
     `derives` feminine ]
 
 
-cluster_1169 = cluster
+cluster_999 = cluster
 
  |> "w ' .t" <| [
 
     "wA.t"                    `noun`    {- <wA.t> -}           [ "watt" ] ]
 
 
-cluster_1170 = cluster
+cluster_1000 = cluster
 
  |> "w ' .h" <| [
 
@@ -21322,22 +19930,22 @@ cluster_1170 = cluster
                               `plural`     FAL |< At ]
 
 
-cluster_1171 = cluster
+cluster_1001 = cluster
 
  |> "w" <| [
 
-    Identity |< At            `noun`    {- <wAt> -}            [ "watt" ] ]
+    _____ |< At               `noun`    {- <wAt> -}            [ "watt" ] ]
 
 
-cluster_1172 = cluster
+cluster_1002 = cluster
 
  |> "w ' w" <| [
 
-    FAL                       `noun`    {- <wAw> -}            [ unwords [ "waw", "(", "Arabic", "letter", ")" ] ]
+    FAL                       `noun`    {- <wAw> -}            [ unwords [ "waw", "(", "" {- "Arabic" -}, "letter", ")" ] ]
                               `plural`     FAL |< At ]
 
 
-cluster_1173 = cluster
+cluster_1003 = cluster
 
  |> "w ' r" <| [
 
@@ -21349,7 +19957,7 @@ cluster_1173 = cluster
     FaCL                      `noun`    {- <wa'r> -}           [ "frightening" ] ]
 
 
-cluster_1174 = cluster
+cluster_1004 = cluster
 
  |> "w ' m" <| [
 
@@ -21363,29 +19971,23 @@ cluster_1174 = cluster
                               `plural`     MuFACaL |< At ]
 
 
-cluster_1175 = cluster
+cluster_1005 = cluster
 
  |> "w ' l" <| [
 
     MaFCiL                    `noun`    {- <maw'il> -}         [ "refuge", "asylum" ],
 
-    FACiL                     `noun`    {- <wA'il> -}          [ "Wael", "Wa'il" ] ]
+    FACiL                     `noun`    {- <wA'il> -}          [ "" {- "Wael" -}, "Wa'il" ] ]
 
 
-cluster_1176 = cluster
+cluster_1006 = cluster
 
  |> "w ' h" <| [
 
     FAL                       `noun`    {- <wAh> -}            [ unwords [ "wow", "!" ] ] ]
 
 
-cluster_1177 = cluster
-
- |> "" <| [
-
-    "wAd"                     `noun`    {- <wAd> -}            [ "Wade", "Wad" ] ]
-
-
+cluster_1007 = cluster
 
  |> "w ' d" <| [
 
@@ -21398,14 +20000,14 @@ cluster_1177 = cluster
 
     IFtaCaL                   `verb`    {- <itta'ad> -}        [ unwords [ "slow", "down" ], "hesitate" ],
 
-    FaCIL                     `noun`    {- <wa'Id> -}          [ "unhurried", "gradual" ],
+    FaCIL                     `adj`     {- <wa'Id> -}          [ "unhurried", "gradual" ],
 
-    FaCIL |<< "aN"            `noun`    {- <wa'IdaN> -}        [ "slowly", "gradually" ],
+    FaCIL |<< "aN"            `adj`     {- <wa'IdaN> -}        [ "slowly", "gradually" ],
 
     MuFtaCiL                  `adj`     {- <mutta'id> -}       [ "slow", "unhurried" ] ]
 
 
-cluster_1178 = cluster
+cluster_1008 = cluster
 
  |> "w .d '" <| [
 
@@ -21434,7 +20036,7 @@ cluster_1178 = cluster
     MICAL |< aT               `noun`    {- <mI.dA'aT> -}       [ unwords [ "ablution", "basin" ] ] ]
 
 
-cluster_1179 = cluster
+cluster_1009 = cluster
 
  |> "w .d .h" <| [
 
@@ -21487,7 +20089,7 @@ cluster_1179 = cluster
     `derives` feminine ]
 
 
-cluster_1180 = cluster
+cluster_1010 = cluster
 
  |> "w .d `" <| [
 
@@ -21555,7 +20157,7 @@ cluster_1180 = cluster
     MutaFACiL                 `adj`     {- <mutawA.di`> -}     [ "humble", "modest" ] ]
 
 
-cluster_1181 = cluster
+cluster_1011 = cluster
 
  |> "w .h '" <| [
 
@@ -21563,7 +20165,7 @@ cluster_1181 = cluster
                               `plural`     HICAL |< At ]
 
 
-cluster_1182 = cluster
+cluster_1012 = cluster
 
  |> "w .g y" <| [
 
@@ -21572,7 +20174,7 @@ cluster_1182 = cluster
                               `plural`     FaCY ]
 
 
-cluster_1183 = cluster
+cluster_1013 = cluster
 
  |> "w .g r" <| [
 
@@ -21588,7 +20190,7 @@ cluster_1183 = cluster
                               `plural`     FaCaL ]
 
 
-cluster_1184 = cluster
+cluster_1014 = cluster
 
  |> "w .g l" <| [
 
@@ -21612,7 +20214,7 @@ cluster_1184 = cluster
     MUCiL                     `adj`     {- <mU.gil> -}         [ unwords [ "deep", "-", "reaching" ], unwords [ "deep", "-", "rooted" ] ] ]
 
 
-cluster_1185 = cluster
+cluster_1015 = cluster
 
  |> "w .g d" <| [
 
@@ -21623,7 +20225,7 @@ cluster_1185 = cluster
     `derives` feminine ]
 
 
-cluster_1186 = cluster
+cluster_1016 = cluster
 
  |> "w .d r" <| [
 
@@ -21631,7 +20233,7 @@ cluster_1186 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_1187 = cluster
+cluster_1017 = cluster
 
  |> "w .d m" <| [
 
@@ -21639,7 +20241,7 @@ cluster_1187 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_1188 = cluster
+cluster_1018 = cluster
 
  |> "w .d b" <| [
 
@@ -21649,7 +20251,7 @@ cluster_1188 = cluster
                               `plural`     TaFCIL |< At ]
 
 
-cluster_1189 = cluster
+cluster_1019 = cluster
 
  |> "w .h ^s" <| [
 
@@ -21687,7 +20289,7 @@ cluster_1189 = cluster
     MustaFCiL                 `adj`     {- <mustaw.hi^s> -}    [ "savage", "barbaric", "lonesome" ] ]
 
 
-cluster_1190 = cluster
+cluster_1020 = cluster
 
  |> "w .h d" <| [
 
@@ -21703,9 +20305,7 @@ cluster_1190 = cluster
 
     FaCL |< aT                `noun`    {- <wa.hdaT> -}        [ "unity" ],
 
-    FaCL |< aT                `noun`    {- <wa.hdaT> -}        [ "Unity" ],
-
-    FaCL |< aT                `noun`    {- <wa.hdaT> -}        [ "Wahda", "Wihda" ],
+    FaCL |< aT                `noun`    {- <wa.hdaT> -}        [ "" {- "Wahda" -}, "" {- "Wihda" -} ],
 
     FaCL |< aT                `noun`    {- <wa.hdaT> -}        [ "unit" ]
                               `plural`     FaCaL |< At,
@@ -21716,7 +20316,7 @@ cluster_1190 = cluster
 
     FaCLAn |< Iy |< aT        `noun`    {- <wa.hdAnIyaT> -}    [ "singleness", "individualness" ],
 
-    FaCIL                     `noun`    {- <wa.hId> -}         [ "Waheed" ],
+    FaCIL                     `noun`    {- <wa.hId> -}         [ "" {- "Waheed" -} ],
 
     FaCIL                     `adj`     {- <wa.hId> -}         [ "only", "sole", "alone", "exclusive" ],
 
@@ -21727,7 +20327,7 @@ cluster_1190 = cluster
 
     TaFCIL                    `noun`    {- <taw.hId> -}        [ "monotheism" ],
 
-    TaFCIL |< Iy              `adj`     {- <taw.hIdIy> -}      [ "Tawhidi" ],
+    TaFCIL |< Iy              `adj`     {- <taw.hIdIy> -}      [ "" {- "Tawhidi" -} ],
 
     TaFCIL |< Iy              `adj`     {- <taw.hIdIy> -}      [ "unifying", "standardizing" ],
 
@@ -21737,9 +20337,7 @@ cluster_1190 = cluster
     IFtiCAL                   `noun`    {- <itti.hAd> -}       [ "union" ]
                               `plural`     IFtiCAL |< At,
 
-    IFtiCAL                   `noun`    {- <itti.hAd> -}       [ "Union" ],
-
-    IFtiCAL                   `noun`    {- <itti.hAd> -}       [ "Ittehad" ],
+    IFtiCAL                   `noun`    {- <itti.hAd> -}       [ "" {- "Ittehad" -} ],
 
     IFtiCAL |< Iy             `adj`     {- <itti.hAdIy> -}     [ "unionist", "federal" ],
 
@@ -21755,15 +20353,13 @@ cluster_1190 = cluster
 
     MuFtaCiL                  `adj`     {- <mutta.hid> -}      [ "united" ],
 
-    MuFtaCiL |< aT            `noun`    {- <mutta.hidaT> -}    [ "United" ],
-
     MustaFCiL                 `noun`    {- <mustaw.hid> -}     [ "solitary", "isolated" ]
                               `plural`     MustaFCiL |< Un
                            
     `derives` feminine ]
 
 
-cluster_1191 = cluster
+cluster_1021 = cluster
 
  |> "w .h w .h" <| [
 
@@ -21774,7 +20370,7 @@ cluster_1191 = cluster
     KaRDaS |< aT              `noun`    {- <wa.hwa.haT> -}     [ "trembling", "shivering", "shuddering" ] ]
 
 
-cluster_1192 = cluster
+cluster_1022 = cluster
 
  |> "w .h m" <| [
 
@@ -21791,7 +20387,7 @@ cluster_1192 = cluster
                               `plural`     FaCALY ]
 
 
-cluster_1193 = cluster
+cluster_1023 = cluster
 
  |> "w .h l" <| [
 
@@ -21817,14 +20413,14 @@ cluster_1193 = cluster
     MUCiL                     `adj`     {- <mU.hil> -}         [ "muddy" ] ]
 
 
-cluster_1194 = cluster
+cluster_1024 = cluster
 
  |> "w .h f" <| [
 
     FaCL                      `noun`    {- <wa.hf> -}          [ "luxuriant", "black" ] ]
 
 
-cluster_1195 = cluster
+cluster_1025 = cluster
 
  |> "w .s d" <| [
 
@@ -21837,7 +20433,7 @@ cluster_1195 = cluster
                               `plural`     FuCuL ]
 
 
-cluster_1196 = cluster
+cluster_1026 = cluster
 
  |> "w .s b" <| [
 
@@ -21855,7 +20451,7 @@ cluster_1196 = cluster
     FACiL                     `adj`     {- <wA.sib> -}         [ "lasting", "permanent" ] ]
 
 
-cluster_1197 = cluster
+cluster_1027 = cluster
 
  |> "w .s '" <| [
 
@@ -21863,7 +20459,7 @@ cluster_1197 = cluster
                               `plural`     HICAL |< At ]
 
 
-cluster_1198 = cluster
+cluster_1028 = cluster
 
  |> "w .h y" <| [
 
@@ -21891,7 +20487,7 @@ cluster_1198 = cluster
                               `plural`     MustaFCY |< At ]
 
 
-cluster_1199 = cluster
+cluster_1029 = cluster
 
  |> "w .s f" <| [
 
@@ -21930,14 +20526,14 @@ cluster_1199 = cluster
     FaCIL                     `noun`    {- <wa.sIf> -}         [ "valet", "lad", "page" ]
                               `plural`     FuCaLA',
 
-    FaCIL                     `noun`    {- <wa.sIf> -}         [ "Waseef", "Wasif" ],
+    FaCIL                     `noun`    {- <wa.sIf> -}         [ "" {- "Waseef" -}, "" {- "Wasif" -} ],
 
     FaCIL |< aT               `noun`    {- <wa.sIfaT> -}       [ unwords [ "servant", "girl" ], "maid" ]
                               `plural`     FaCA'iL,
 
-    FaCIL |< aT               `noun`    {- <wa.sIfaT> -}       [ "Waseefa", "Wasifa" ],
+    FaCIL |< aT               `noun`    {- <wa.sIfaT> -}       [ "" {- "Waseefa" -}, "" {- "Wasifa" -} ],
 
-    FACiL                     `noun`    {- <wA.sif> -}         [ "Wasef", "Wasif" ],
+    FACiL                     `noun`    {- <wA.sif> -}         [ "" {- "Wasef" -}, "" {- "Wasif" -} ],
 
     FACiL                     `noun`    {- <wA.sif> -}         [ "describing", "depicting", "characterizing" ]
                               `plural`     FACiL |< Un
@@ -21968,7 +20564,7 @@ cluster_1199 = cluster
                               `plural`     MustaFCaL |< At ]
 
 
-cluster_1200 = cluster
+cluster_1030 = cluster
 
  |> "w .s l" <| [
 
@@ -21995,7 +20591,7 @@ cluster_1200 = cluster
     FaCL                      `noun`    {- <wa.sl> -}          [ "connection", "contact", "receipt", "limbs" ]
                               `plural`     HaFCAL,
 
-    FaCL |< aT                `noun`    {- <wa.slaT> -}        [ unwords [ "wasla", "(", "Arabic", "diacritic", ")" ] ],
+    FaCL |< aT                `noun`    {- <wa.slaT> -}        [ unwords [ "wasla", "(", "" {- "Arabic" -}, "diacritic", ")" ] ],
 
     FuCL |< aT                `noun`    {- <wu.slaT> -}        [ "link", "connection" ],
 
@@ -22012,11 +20608,11 @@ cluster_1200 = cluster
 
     FuCUL |< Iy |< aT         `noun`    {- <wu.sUlIyaT> -}     [ "careerism", "pushiness" ],
 
-    MaFCiL                    `noun`    {- <maw.sil> -}        [ "Mosul" ],
+    MaFCiL                    `noun`    {- <maw.sil> -}        [ "" {- "Mosul" -} ],
 
-    MaFCiL |< Iy              `adj`     {- <maw.silIy> -}      [ unwords [ "of", "/", "from", "Mosul" ] ],
+    MaFCiL |< Iy              `adj`     {- <maw.silIy> -}      [ unwords [ "of", "/", "from", "" {- "Mosul" -} ] ],
 
-    MaFCiL |< Iy              `adj`     {- <maw.silIy> -}      [ "Mawsili" ],
+    MaFCiL |< Iy              `adj`     {- <maw.silIy> -}      [ "" {- "Mawsili" -} ],
 
     TaFCIL                    `noun`    {- <taw.sIl> -}        [ "connection", "contact" ]
                               `plural`     TaFCIL |< At,
@@ -22060,7 +20656,7 @@ cluster_1200 = cluster
     MuFtaCiL                  `adj`     {- <mutta.sil> -}      [ "continuous", "unceasing", "connected" ] ]
 
 
-cluster_1201 = cluster
+cluster_1031 = cluster
 
  |> "w .s w .s" <| [
 
@@ -22073,7 +20669,7 @@ cluster_1201 = cluster
     KaRDaS |< aT              `noun`    {- <wa.swa.saT> -}     [ "peek", unwords [ "furtive", "glance" ] ] ]
 
 
-cluster_1202 = cluster
+cluster_1032 = cluster
 
  |> "w .s m" <| [
 
@@ -22090,7 +20686,7 @@ cluster_1202 = cluster
                               `plural`     TaFCIL |< At ]
 
 
-cluster_1203 = cluster
+cluster_1033 = cluster
 
  |> "w .s y" <| [
 
@@ -22131,10 +20727,10 @@ cluster_1203 = cluster
 
     MUCY                      `noun`    {- <mU.sY> -}          [ "bequeathed", "willed" ],
 
-    MaFACI                    `noun`    {- <mawA.sI> -}        [ "Mawasi" ] ]
+    MaFACI                    `noun`    {- <mawA.sI> -}        [ "" {- "Mawasi" -} ] ]
 
 
-cluster_1204 = cluster
+cluster_1034 = cluster
 
  |> "w .t b" <| [
 
@@ -22144,7 +20740,7 @@ cluster_1204 = cluster
                               `plural`     FiCAL ]
 
 
-cluster_1205 = cluster
+cluster_1035 = cluster
 
  |> "w .t ^s" <| [
 
@@ -22154,7 +20750,7 @@ cluster_1205 = cluster
     FaCL                      `noun`    {- <wa.t^s> -}         [ "striking", "slapping" ] ]
 
 
-cluster_1206 = cluster
+cluster_1036 = cluster
 
  |> "w .t '" <| [
 
@@ -22199,7 +20795,7 @@ cluster_1206 = cluster
     `derives` feminine ]
 
 
-cluster_1207 = cluster
+cluster_1037 = cluster
 
  |> "w .t f" <| [
 
@@ -22212,7 +20808,7 @@ cluster_1207 = cluster
     FaCLA'                    `noun`    {- <wa.tfA'> -}        [ unwords [ "heavy", "clouds" ] ] ]
 
 
-cluster_1208 = cluster
+cluster_1038 = cluster
 
  |> "w .t d" <| [
 
@@ -22235,14 +20831,14 @@ cluster_1208 = cluster
     MuFaCCaL                  `adj`     {- <muwa.t.tad> -}     [ "strong", "solid", "sturdy" ] ]
 
 
-cluster_1209 = cluster
+cluster_1039 = cluster
 
  |> "w .t s" <| [
 
     FaCIL                     `noun`    {- <wa.tIs> -}         [ "furnace", "oven" ] ]
 
 
-cluster_1210 = cluster
+cluster_1040 = cluster
 
  |> "w .t r" <| [
 
@@ -22250,7 +20846,7 @@ cluster_1210 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_1211 = cluster
+cluster_1041 = cluster
 
  |> "w .t n" <| [
 
@@ -22266,7 +20862,7 @@ cluster_1211 = cluster
     FaCaL                     `noun`    {- <wa.tan> -}         [ "nation", "homeland" ]
                               `plural`     HaFCAL,
 
-    FaCaL                     `noun`    {- <wa.tan> -}         [ "Watan" ],
+    FaCaL                     `noun`    {- <wa.tan> -}         [ "" {- "Watan" -} ],
 
     FaCaL |< Iy               `adj`     {- <wa.tanIy> -}       [ "national" ],
 
@@ -22303,7 +20899,7 @@ cluster_1211 = cluster
                               `plural`     MustaFCaL |< At ]
 
 
-cluster_1212 = cluster
+cluster_1042 = cluster
 
  |> "w .z f" <| [
 
@@ -22332,7 +20928,7 @@ cluster_1212 = cluster
     MuFaCCaL                  `adj`     {- <muwa.z.zaf> -}     [ "employed", "hired" ] ]
 
 
-cluster_1213 = cluster
+cluster_1043 = cluster
 
  |> "w .z b" <| [
 
@@ -22349,7 +20945,7 @@ cluster_1213 = cluster
     `derives` feminine ]
 
 
-cluster_1214 = cluster
+cluster_1044 = cluster
 
  |> "w .t y" <| [
 
@@ -22361,7 +20957,7 @@ cluster_1214 = cluster
                               `plural`     FACI |< At ]
 
 
-cluster_1215 = cluster
+cluster_1045 = cluster
 
  |> "w .t w .t" <| [
 
@@ -22370,7 +20966,7 @@ cluster_1215 = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_1216 = cluster
+cluster_1046 = cluster
 
  |> "w ^g `" <| [
 
@@ -22393,7 +20989,7 @@ cluster_1216 = cluster
     MaFCUL                    `adj`     {- <maw^gU`> -}        [ "suffering", unwords [ "feeling", "pain" ] ] ]
 
 
-cluster_1217 = cluster
+cluster_1047 = cluster
 
  |> "w ^g b" <| [
 
@@ -22415,8 +21011,7 @@ cluster_1217 = cluster
 
     HICAL                     `noun`    {- <'I^gAb> -}         [ "affirmative", "obligation", "compliance" ],
 
-    HICAL |<< "aN"            `noun`    {- <'I^gAbaN> -}       [ unwords [ "in", "accordance", "with" ] ]
-                              `plural`     HICAL,
+    HICAL |<< "aN"            `noun`    {- <'I^gAbaN> -}       [ unwords [ "in", "accordance", "with" ] ],
 
     HICAL |< Iy               `adj`     {- <'I^gAbIy> -}       [ "positive", "affirmative" ],
 
@@ -22450,7 +21045,7 @@ cluster_1217 = cluster
     `derives` feminine ]
 
 
-cluster_1218 = cluster
+cluster_1048 = cluster
 
  |> "w ^g d" <| [
 
@@ -22463,7 +21058,7 @@ cluster_1218 = cluster
 
     FiCLAn                    `noun`    {- <wi^gdAn> -}        [ "emotion", "conscience" ],
 
-    FiCLAn                    `noun`    {- <wi^gdAn> -}        [ "Wijdan", "Wigdan" ],
+    FiCLAn                    `noun`    {- <wi^gdAn> -}        [ "" {- "Wijdan" -}, "" {- "Wigdan" -} ],
 
     FiCLAn |< Iy              `adj`     {- <wi^gdAnIy> -}      [ "emotional", "affective" ],
 
@@ -22499,7 +21094,7 @@ cluster_1218 = cluster
                               `plural`     TaFACuL |< At ]
 
 
-cluster_1219 = cluster
+cluster_1049 = cluster
 
  |> "w ^g f" <| [
 
@@ -22517,7 +21112,7 @@ cluster_1219 = cluster
     FACiL                     `noun`    {- <wA^gif> -}         [ "fluttering", "throbbing" ] ]
 
 
-cluster_1220 = cluster
+cluster_1050 = cluster
 
  |> "w ^g h" <| [
 
@@ -22604,7 +21199,7 @@ cluster_1220 = cluster
                               `plural`     MuFtaCaL |< At ]
 
 
-cluster_1221 = cluster
+cluster_1051 = cluster
 
  |> "w ^g r" <| [
 
@@ -22621,17 +21216,17 @@ cluster_1221 = cluster
                               `plural`     MaFACIL ]
 
 
-cluster_1222 = cluster
+cluster_1052 = cluster
 
  |> "w ^g q" <| [
 
-    FuCaL                     `noun`    {- <wu^gaq> -}         [ unwords [ "oudjak", "(", "Tunisian", "gendarme", ")" ] ],
+    FuCaL                     `noun`    {- <wu^gaq> -}         [ unwords [ "oudjak", "(", "" {- "Tunisian" -}, "gendarme", ")" ] ],
 
     FuCAL                     `noun`    {- <wu^gAq> -}         [ unwords [ "cooking", "stove" ] ]
                               `plural`     FuCAL |< At ]
 
 
-cluster_1223 = cluster
+cluster_1053 = cluster
 
  |> "w ^g n" <| [
 
@@ -22639,7 +21234,7 @@ cluster_1223 = cluster
                               `plural`     FaCaL |< At ]
 
 
-cluster_1224 = cluster
+cluster_1054 = cluster
 
  |> "w ^g m" <| [
 
@@ -22656,7 +21251,7 @@ cluster_1224 = cluster
     FACiL                     `adj`     {- <wA^gim> -}         [ "silent", "despondent" ] ]
 
 
-cluster_1225 = cluster
+cluster_1055 = cluster
 
  |> "w ^g l" <| [
 
@@ -22677,15 +21272,8 @@ cluster_1225 = cluster
     MaFCaL                    `noun`    {- <maw^gal> -}        [ "fear" ] ]
 
 
-cluster_1226 = cluster
 
- |> "w ^s '" <| [
-
-    FaCCAL                    `noun`    {- <wa^s^sA'> -}       [ unwords [ "embroidery", "vendor" ] ]
-                              `plural`     FaCCAL |< Un ]
-
-
-cluster_1227 = cluster
+cluster_1056 = cluster
 
  |> "w ^g z" <| [
 
@@ -22707,7 +21295,7 @@ cluster_1227 = cluster
                               `plural`     MUCaL |< At ]
 
 
-cluster_1228 = cluster
+cluster_1057 = cluster
 
  |> "w ^g s" <| [
 
@@ -22729,7 +21317,7 @@ cluster_1228 = cluster
                               `plural`     FACiL |< At ]
 
 
-cluster_1229 = cluster
+cluster_1058 = cluster
 
  |> "w ^s b" <| [
 
@@ -22737,7 +21325,7 @@ cluster_1229 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_1230 = cluster
+cluster_1059 = cluster
 
  |> "w ^s `" <| [
 
@@ -22749,7 +21337,7 @@ cluster_1230 = cluster
                               `plural`     FaCA'iL ]
 
 
-cluster_1231 = cluster
+cluster_1060 = cluster
 
  |> "w ^s ^s" <| [
 
@@ -22757,7 +21345,7 @@ cluster_1231 = cluster
                               `plural`     FaCLA' |< Un ]
 
 
-cluster_1232 = cluster
+cluster_1061 = cluster
 
  |> "w ^s ^g" <| [
 
@@ -22769,7 +21357,7 @@ cluster_1232 = cluster
     MutaFACiL                 `adj`     {- <mutawA^si^g> -}    [ "connected", "interrelated" ] ]
 
 
-cluster_1233 = cluster
+cluster_1062 = cluster
 
  |> "w ^s .h" <| [
 
@@ -22794,7 +21382,7 @@ cluster_1233 = cluster
     MuFtaCiL                  `adj`     {- <mutta^si.h> -}     [ "wearing", "attired" ] ]
 
 
-cluster_1234 = cluster
+cluster_1063 = cluster
 
  |> "w ^s w ^s" <| [
 
@@ -22805,7 +21393,7 @@ cluster_1234 = cluster
     KaRDaS |< aT              `noun`    {- <wa^swa^saT> -}     [ "whispering" ] ]
 
 
-cluster_1235 = cluster
+cluster_1064 = cluster
 
  |> "w ^s r" <| [
 
@@ -22820,14 +21408,14 @@ cluster_1235 = cluster
     MaFCUL |< Iy              `adj`     {- <maw^sUrIy> -}      [ "prismatic", unwords [ "prism", "-", "like" ] ] ]
 
 
-cluster_1236 = cluster
+cluster_1065 = cluster
 
  |> "w ^s q" <| [
 
     FaCaL                     `noun`    {- <wa^saq> -}         [ "lynx" ] ]
 
 
-cluster_1237 = cluster
+cluster_1066 = cluster
 
  |> "w ^s n" <| [
 
@@ -22835,7 +21423,7 @@ cluster_1237 = cluster
                               `plural`     FiCL |< aT ]
 
 
-cluster_1238 = cluster
+cluster_1067 = cluster
 
  |> "w ^s m" <| [
 
@@ -22851,7 +21439,7 @@ cluster_1238 = cluster
     FaCIL |< aT               `noun`    {- <wa^sImaT> -}       [ "hostility", "malice" ] ]
 
 
-cluster_1239 = cluster
+cluster_1068 = cluster
 
  |> "w ^s l" <| [
 
@@ -22859,7 +21447,7 @@ cluster_1239 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_1240 = cluster
+cluster_1069 = cluster
 
  |> "w ^s k" <| [
 
@@ -22877,7 +21465,7 @@ cluster_1240 = cluster
     FaCIL                     `adj`     {- <wa^sIk> -}         [ "imminent", "near" ] ]
 
 
-cluster_1241 = cluster
+cluster_1070 = cluster
 
  |> "w _h m" <| [
 
@@ -22902,7 +21490,7 @@ cluster_1241 = cluster
     MustaFCaL                 `adj`     {- <mustaw_ham> -}     [ "unwholesome", "indigestible" ] ]
 
 
-cluster_1242 = cluster
+cluster_1071 = cluster
 
  |> "w _h .t" <| [
 
@@ -22912,7 +21500,7 @@ cluster_1242 = cluster
     FaCL                      `noun`    {- <wa_h.t> -}         [ "graying" ] ]
 
 
-cluster_1243 = cluster
+cluster_1072 = cluster
 
  |> "w _d r" <| [
 
@@ -22920,9 +21508,12 @@ cluster_1243 = cluster
                               `imperf`     CaL ]
 
 
-cluster_1244 = cluster
+cluster_1073 = cluster
 
  |> "w ^s y" <| [
+
+    FaCCA'                    `noun`    {- <wa^s^sA'> -}       [ unwords [ "embroidery", "vendor" ] ]
+                              `plural`     FaCCA' |< Un,
 
     FaCY                      `verb`    {- <wa^sY> -}          [ "embellish", "denounce" ]
                               `imperf`     CI,
@@ -22943,7 +21534,7 @@ cluster_1244 = cluster
                               `plural`     FACI |< At ]
 
 
-cluster_1245 = cluster
+cluster_1074 = cluster
 
  |> "w _t '" <| [
 
@@ -22960,7 +21551,7 @@ cluster_1245 = cluster
     FaCAL                     `noun`    {- <wa_tA'> -}         [ "contusion", "sprain" ] ]
 
 
-cluster_1246 = cluster
+cluster_1075 = cluster
 
  |> "w _h z" <| [
 
@@ -22978,7 +21569,7 @@ cluster_1246 = cluster
     FACiL                     `adj`     {- <wA_hiz> -}         [ "stinging", "pricking" ] ]
 
 
-cluster_1247 = cluster
+cluster_1076 = cluster
 
  |> "w _h y" <| [
 
@@ -22996,7 +21587,7 @@ cluster_1247 = cluster
                               `plural`     TaFaCCI |< At ]
 
 
-cluster_1248 = cluster
+cluster_1077 = cluster
 
  |> "w _t n" <| [
 
@@ -23009,7 +21600,7 @@ cluster_1248 = cluster
     FaCaL |< Iy |< aT         `noun`    {- <wa_tanIyaT> -}     [ "idolatry" ] ]
 
 
-cluster_1249 = cluster
+cluster_1078 = cluster
 
  |> "w _t l" <| [
 
@@ -23018,7 +21609,7 @@ cluster_1249 = cluster
     FaCIL                     `noun`    {- <wa_tIl> -}         [ "rope" ] ]
 
 
-cluster_1250 = cluster
+cluster_1079 = cluster
 
  |> "w _t b" <| [
 
@@ -23038,7 +21629,7 @@ cluster_1250 = cluster
     FaCL |< aT                `noun`    {- <wa_tbaT> -}        [ "leap", "jump", "hop" ]
                               `plural`     FaCaL |< At,
 
-    FaCL |< aT                `noun`    {- <wa_tbaT> -}        [ "Wathba" ],
+    FaCL |< aT                `noun`    {- <wa_tbaT> -}        [ "" {- "Wathba" -} ],
 
     FaCCAL                    `noun`    {- <wa_t_tAb> -}       [ "jumpy", "impetuous" ]
                               `plural`     FaCCAL |< Un
@@ -23048,7 +21639,7 @@ cluster_1250 = cluster
     MutaFaCCiL                `adj`     {- <mutawa_t_tib> -}   [ "vigorous", "energetic" ] ]
 
 
-cluster_1251 = cluster
+cluster_1080 = cluster
 
  |> "w _t q" <| [
 
@@ -23107,7 +21698,7 @@ cluster_1251 = cluster
     `derives` feminine ]
 
 
-cluster_1252 = cluster
+cluster_1081 = cluster
 
  |> "w ` _t" <| [
 
@@ -23117,7 +21708,7 @@ cluster_1252 = cluster
     FaCLA'                    `noun`    {- <wa`_tA'> -}        [ "difficulty", "inconvenience" ] ]
 
 
-cluster_1253 = cluster
+cluster_1082 = cluster
 
  |> "w ` .z" <| [
 
@@ -23141,7 +21732,7 @@ cluster_1253 = cluster
     `derives` feminine ]
 
 
-cluster_1254 = cluster
+cluster_1083 = cluster
 
  |> "w ` '" <| [
 
@@ -23150,7 +21741,7 @@ cluster_1254 = cluster
                               `plural`     HaFACI ]
 
 
-cluster_1255 = cluster
+cluster_1084 = cluster
 
  |> "w _t r" <| [
 
@@ -23170,7 +21761,7 @@ cluster_1255 = cluster
                               `plural`     MaFACiL ]
 
 
-cluster_1256 = cluster
+cluster_1085 = cluster
 
  |> "w ` b" <| [
 
@@ -23190,7 +21781,7 @@ cluster_1256 = cluster
                               `plural`     MustaFCiL |< At ]
 
 
-cluster_1257 = cluster
+cluster_1086 = cluster
 
  |> "w ` d" <| [
 
@@ -23245,7 +21836,7 @@ cluster_1257 = cluster
     MutaFaCCiL                `adj`     {- <mutawa``id> -}     [ "promising", "threatening" ] ]
 
 
-cluster_1258 = cluster
+cluster_1087 = cluster
 
  |> "w ` s" <| [
 
@@ -23258,7 +21849,7 @@ cluster_1258 = cluster
     MICAL                     `noun`    {- <mI`As> -}          [ "quicksand" ] ]
 
 
-cluster_1259 = cluster
+cluster_1088 = cluster
 
  |> "w ` r" <| [
 
@@ -23281,7 +21872,7 @@ cluster_1259 = cluster
     HaFCaL                    `noun`    {- <'aw`ar> -}         [ unwords [ "rougher", "/", "roughest" ], unwords [ "more", "/", "most", "rugged" ] ] ]
 
 
-cluster_1260 = cluster
+cluster_1089 = cluster
 
  |> "w ` q" <| [
 
@@ -23293,7 +21884,7 @@ cluster_1260 = cluster
     FaCiL                     `adj`     {- <wa`iq> -}          [ "irritable", "petulant" ] ]
 
 
-cluster_1261 = cluster
+cluster_1090 = cluster
 
  |> "w ` l" <| [
 
@@ -23303,7 +21894,7 @@ cluster_1261 = cluster
     FaCLAn                    `noun`    {- <wa`lAn> -}         [ unwords [ "day", "flower" ], "commelina" ] ]
 
 
-cluster_1262 = cluster
+cluster_1091 = cluster
 
  |> "w ` k" <| [
 
@@ -23321,7 +21912,7 @@ cluster_1262 = cluster
     MutaFaCCiL                `adj`     {- <mutawa``ik> -}     [ "indisposed" ] ]
 
 
-cluster_1263 = cluster
+cluster_1092 = cluster
 
  |> "w ` z" <| [
 
@@ -23335,7 +21926,7 @@ cluster_1263 = cluster
     MUCaL                     `adj`     {- <mU`az> -}          [ "inspired", "suggested" ] ]
 
 
-cluster_1264 = cluster
+cluster_1093 = cluster
 
  |> "w ` y" <| [
 
@@ -23369,7 +21960,7 @@ cluster_1264 = cluster
     FACI |< aT                `noun`    {- <wA`iyaT> -}        [ "consciousness" ] ]
 
 
-cluster_1265 = cluster
+cluster_1094 = cluster
 
  |> "w ` w `" <| [
 
@@ -23378,7 +21969,7 @@ cluster_1265 = cluster
     KaRDaS |< aT              `noun`    {- <wa`wa`aT> -}       [ "howling", "yelping" ] ]
 
 
-cluster_1266 = cluster
+cluster_1095 = cluster
 
  |> "w b h" <| [
 
@@ -23390,7 +21981,7 @@ cluster_1266 = cluster
     FaCL                      `noun`    {- <wabh> -}           [ "heeding", "minding", unwords [ "paying", "attention" ] ] ]
 
 
-cluster_1267 = cluster
+cluster_1096 = cluster
 
  |> "w b _h" <| [
 
@@ -23402,7 +21993,7 @@ cluster_1267 = cluster
     MuFaCCiL                  `adj`     {- <muwabbi_h> -}      [ "reprimanding", "rebuking" ] ]
 
 
-cluster_1268 = cluster
+cluster_1097 = cluster
 
  |> "w b ^s" <| [
 
@@ -23412,7 +22003,7 @@ cluster_1268 = cluster
     HaFCAL                    `noun`    {- <'awbA^s> -}        [ "riffraf", "rabble" ] ]
 
 
-cluster_1269 = cluster
+cluster_1098 = cluster
 
  |> "w b '" <| [
 
@@ -23437,7 +22028,7 @@ cluster_1269 = cluster
     MaFCUL                    `adj`     {- <mawbU'> -}         [ unwords [ "plague", "-", "stricken" ], "infested" ] ]
 
 
-cluster_1270 = cluster
+cluster_1099 = cluster
 
  |> "w d ^g" <| [
 
@@ -23446,19 +22037,17 @@ cluster_1270 = cluster
                               `plural`     HaFCAL ]
 
 
-cluster_1271 = cluster
 
- |> "w b y" <| [
+cluster_1100 = cluster
 
-    FuCI                      `noun`    {- <wubI> -}           [ "Yobe" ] ]
+ |> "" <| [
+
+    "wAbUr"                   `noun`    {- <wAbUr> -}          [ unwords [ "steam", "engine" ] ]
+                              `plural`     "wAbUr" |< At ]
 
 
-cluster_1272 = cluster
 
  |> "w b r" <| [
-
-    FACUL                     `noun`    {- <wAbUr> -}          [ unwords [ "steam", "engine" ] ]
-                              `plural`     FACUL |< At,
 
     FaCiL                     `verb`    {- <wabir> -}          [ unwords [ "be", "hirsute" ] ]
                               `imperf`     FCaL,
@@ -23476,7 +22065,7 @@ cluster_1272 = cluster
     MuFaCCaL                  `adj`     {- <muwabbar> -}       [ "woolly" ] ]
 
 
-cluster_1273 = cluster
+cluster_1101 = cluster
 
  |> "w b q" <| [
 
@@ -23493,7 +22082,7 @@ cluster_1273 = cluster
     MUCiL |< aT               `noun`    {- <mUbiqaT> -}        [ unwords [ "grave", "offense" ], unwords [ "mortal", "sin" ] ] ]
 
 
-cluster_1274 = cluster
+cluster_1102 = cluster
 
  |> "w b l" <| [
 
@@ -23515,7 +22104,7 @@ cluster_1274 = cluster
     FACiL                     `noun`    {- <wAbil> -}          [ "shower", "downpour" ] ]
 
 
-cluster_1275 = cluster
+cluster_1103 = cluster
 
  |> "w d `" <| [
 
@@ -23534,14 +22123,13 @@ cluster_1275 = cluster
 
     FaCAL                     `noun`    {- <wadA`> -}          [ "departure", "farewell" ],
 
-    FaCAL |<< "aN"            `noun`    {- <wadA`aN> -}        [ unwords [ "farewell", "!" ], unwords [ "good", "-", "bye", "!" ] ]
-                              `plural`     FaCAL,
+    FaCAL |<< "aN"            `noun`    {- <wadA`aN> -}        [ unwords [ "farewell", "!" ], unwords [ "good", "-", "bye", "!" ] ],
 
     FaCAL |< aT               `noun`    {- <wadA`aT> -}        [ "gentleness", "meekness" ],
 
     FaCIL                     `noun`    {- <wadI`> -}          [ "calm", unwords [ "mild", "-", "tempered" ] ],
 
-    FaCIL                     `noun`    {- <wadI`> -}          [ "Wadie" ],
+    FaCIL                     `noun`    {- <wadI`> -}          [ "" {- "Wadie" -} ],
 
     FaCIL |< aT               `noun`    {- <wadI`aT> -}        [ "deposit", "trust", "charge" ]
                               `plural`     FaCA'iL,
@@ -23589,7 +22177,7 @@ cluster_1275 = cluster
                               `plural`     MustaFCaL |< At ]
 
 
-cluster_1276 = cluster
+cluster_1104 = cluster
 
  |> "w d d" <| [
 
@@ -23609,7 +22197,7 @@ cluster_1276 = cluster
 
     FuCL |< Iy                `adj`     {- <wuddIy> -}         [ "friendly", "amicable" ],
 
-    FiCAL                     `noun`    {- <widAd> -}          [ "Widad" ],
+    FiCAL                     `noun`    {- <widAd> -}          [ "" {- "Widad" -} ],
 
     FiCAL                     `noun`    {- <widAd> -}          [ "friendship" ],
 
@@ -23630,26 +22218,8 @@ cluster_1276 = cluster
                               `plural`     TaFACL |< At ]
 
 
-cluster_1277 = cluster
 
- |> "w f '" <| [
-
-    FaCA                      `noun`    {- <wafA> -}           [ unwords [ "WAFA", "(", "Palestine", "News", "Agency", ")" ] ],
-
-    FaCAL                     `noun`    {- <wafA'> -}          [ "fulfillment", "completion" ],
-
-    FaCAL                     `noun`    {- <wafA'> -}          [ "loyalty", "allegiance" ],
-
-    FaCAL                     `noun`    {- <wafA'> -}          [ "Wafa'" ],
-
-    HICAL                     `noun`    {- <'IfA'> -}          [ "fulfillment", "payment" ]
-                              `plural`     HICAL |< At,
-
-    IstICAL                   `noun`    {- <istIfA'> -}        [ "fulfillment", "completion" ]
-                              `plural`     IstICAL |< At ]
-
-
-cluster_1278 = cluster
+cluster_1105 = cluster
 
  |> "w d y" <| [
 
@@ -23665,7 +22235,7 @@ cluster_1278 = cluster
                               `plural`     HaFCI |< aT ]
 
 
-cluster_1279 = cluster
+cluster_1106 = cluster
 
  |> "w d r" <| [
 
@@ -23675,7 +22245,7 @@ cluster_1279 = cluster
                               `plural`     TaFCIL |< At ]
 
 
-cluster_1280 = cluster
+cluster_1107 = cluster
 
  |> "w d q" <| [
 
@@ -23684,7 +22254,7 @@ cluster_1280 = cluster
     FaCIL |< aT               `noun`    {- <wadIqaT> -}        [ "lawn", "meadow" ] ]
 
 
-cluster_1281 = cluster
+cluster_1108 = cluster
 
  |> "w d k" <| [
 
@@ -23700,7 +22270,7 @@ cluster_1281 = cluster
     FACiL                     `noun`    {- <wAdik> -}          [ "fatty" ] ]
 
 
-cluster_1282 = cluster
+cluster_1109 = cluster
 
  |> "w f d" <| [
 
@@ -23718,9 +22288,9 @@ cluster_1282 = cluster
     FaCL                      `noun`    {- <wafd> -}           [ "delegation" ]
                               `plural`     FuCUL,
 
-    FaCL                      `noun`    {- <wafd> -}           [ "Wafd" ],
+    FaCL                      `noun`    {- <wafd> -}           [ "" {- "Wafd" -} ],
 
-    FaCL |< Iy                `adj`     {- <wafdIy> -}         [ "Wafdist" ],
+    FaCL |< Iy                `adj`     {- <wafdIy> -}         [ "" {- "Wafdist" -} ],
 
     FiCAL |< aT               `noun`    {- <wifAdaT> -}        [ "arrival" ],
 
@@ -23740,14 +22310,14 @@ cluster_1282 = cluster
     `derives` feminine ]
 
 
-cluster_1283 = cluster
+cluster_1110 = cluster
 
  |> "w f `" <| [
 
     FaCIL |< aT               `noun`    {- <wafI`aT> -}        [ unwords [ "pen", "wiper" ] ] ]
 
 
-cluster_1284 = cluster
+cluster_1111 = cluster
 
  |> "w f .d" <| [
 
@@ -23758,7 +22328,7 @@ cluster_1284 = cluster
                               `plural`     FiCAL ]
 
 
-cluster_1285 = cluster
+cluster_1112 = cluster
 
  |> "w f q" <| [
 
@@ -23775,8 +22345,7 @@ cluster_1285 = cluster
 
     IFtaCaL                   `verb`    {- <ittafaq> -}        [ "agree" ],
 
-    FiCL |<< "a"              `noun`    {- <wifqa> -}          [ unwords [ "according", "to" ], unwords [ "in", "accordance", "with" ], unwords [ "pursuant", "to" ] ]
-                              `plural`     FiCL,
+    FiCL |<< "a"              `noun`    {- <wifqa> -}          [ unwords [ "according", "to" ], unwords [ "in", "accordance", "with" ], unwords [ "pursuant", "to" ] ],
 
     FaCL |< aT                `noun`    {- <wafqaT> -}         [ unwords [ "task", "item" ], unwords [ "work", "piece" ] ],
 
@@ -23810,7 +22379,7 @@ cluster_1285 = cluster
     MuFtaCaL                  `adj`     {- <muttafaq> -}       [ "agreed" ] ]
 
 
-cluster_1286 = cluster
+cluster_1113 = cluster
 
  |> "w f r" <| [
 
@@ -23856,7 +22425,7 @@ cluster_1286 = cluster
     MutaFACiL                 `adj`     {- <mutawAfir> -}      [ "available", "abundant" ] ]
 
 
-cluster_1287 = cluster
+cluster_1114 = cluster
 
  |> "w f y" <| [
 
@@ -23869,7 +22438,7 @@ cluster_1287 = cluster
 
     HaFCY                     `verb`    {- <'awfY> -}          [ "fulfill", "discharge", "pay", unwords [ "be", "paid" ] ],
 
-    TaFaCCY                   `verb`    {- <tawaffY> -}        [ unwords [ "take", "to", "Heaven" ], "die", unwords [ "pass", "away" ], "expire", unwords [ "take", "full", "share" ] ],
+    TaFaCCY                   `verb`    {- <tawaffY> -}        [ unwords [ "take", "to", "" {- "Heaven" -} ], "die", unwords [ "pass", "away" ], "expire", unwords [ "take", "full", "share" ] ],
 
     TaFACY                    `verb`    {- <tawAfY> -}         [ unwords [ "be", "complete" ], "concur" ],
 
@@ -23879,7 +22448,7 @@ cluster_1287 = cluster
 
     FaCA'                     `noun`    {- <wafA'> -}          [ "loyalty", "allegiance" ],
 
-    FaCA'                     `noun`    {- <wafA'> -}          [ "Wafa'" ],
+    FaCA'                     `noun`    {- <wafA'> -}          [ "" {- "Wafa'" -} ],
 
     FaCY |< aT                `noun`    {- <wafAT> -}          [ "death" ]
                               `plural`     FaCY |< At,
@@ -23905,7 +22474,7 @@ cluster_1287 = cluster
 
     FACI                      `adj`     {- <wAfI> -}           [ "sufficient", "abundant" ],
 
-    FACI                      `noun`    {- <wAfI> -}           [ "Wafi" ],
+    FACI                      `noun`    {- <wAfI> -}           [ "" {- "Wafi" -} ],
 
     MuFaCCI                   `noun`    {- <muwaffI> -}        [ "completing", unwords [ "rounding", "out" ], unwords [ "last", "day" ] ],
 
@@ -23913,7 +22482,7 @@ cluster_1287 = cluster
                               `plural`     MutaFaCCY |< At ]
 
 
-cluster_1288 = cluster
+cluster_1115 = cluster
 
  |> "w h ^g" <| [
 
@@ -23936,7 +22505,7 @@ cluster_1288 = cluster
     FaCaLAn                   `noun`    {- <waha^gAn> -}       [ "fire", "blaze", "glow" ] ]
 
 
-cluster_1289 = cluster
+cluster_1116 = cluster
 
  |> "w f z" <| [
 
@@ -23945,13 +22514,15 @@ cluster_1289 = cluster
     IstaFCaL                  `verb`    {- <istawfaz> -}       [ unwords [ "be", "prepared" ], unwords [ "be", "alert" ], unwords [ "be", "in", "suspense" ] ],
 
     FaCL                      `noun`    {- <wafz> -}           [ "hurry", "haste" ]
-                              `plural`     HaFCAL
-                              `plural`     FaCaL,
+                              `plural`     HaFCAL,
+
+    FaCaL                     `noun`    {- <wafaz> -}          [ "hurry", "haste" ]
+                              `plural`     HaFCAL,
 
     MutaFaCCiL                `adj`     {- <mutawaffiz> -}     [ "alert", "quick" ] ]
 
 
-cluster_1290 = cluster
+cluster_1117 = cluster
 
  |> "w h b" <| [
 
@@ -23966,22 +22537,21 @@ cluster_1290 = cluster
 
     FaCL |< aT                `noun`    {- <wahbaT> -}         [ "gratuity" ],
 
-    FaCL |< aT                `noun`    {- <wahbaT> -}         [ "Wahba" ],
+    FaCL |< aT                `noun`    {- <wahbaT> -}         [ "" {- "Wahba" -} ],
 
-    FaCCAL                    `noun`    {- <wahhAb> -}         [ "Wahhab" ],
+    FaCCAL                    `noun`    {- <wahhAb> -}         [ "" {- "Wahhab" -} ],
 
-    FaCCAL |< Iy              `adj`     {- <wahhAbIy> -}       [ "Wahhabi" ],
+    FaCCAL |< Iy              `adj`     {- <wahhAbIy> -}       [ "" {- "Wahhabi" -} ],
 
-    FaCCAL |< Iy |< aT        `noun`    {- <wahhAbIyaT> -}     [ "Wahhabism" ],
+    FaCCAL |< Iy |< aT        `noun`    {- <wahhAbIyaT> -}     [ "" {- "Wahhabism" -} ],
 
     MaFCiL |< aT              `noun`    {- <mawhibaT> -}       [ "talent", "gift" ]
-                              `plural`     MaFCaL
                               `plural`     MaFACiL,
 
     HICAL                     `noun`    {- <'IhAb> -}          [ "donation", "granting" ]
                               `plural`     HICAL |< At,
 
-    HICAL                     `noun`    {- <'IhAb> -}          [ "Ihab", "Ehab" ],
+    HICAL                     `noun`    {- <'IhAb> -}          [ "" {- "Ihab" -}, "" {- "Ehab" -} ],
 
     FACiL                     `noun`    {- <wAhib> -}          [ "granting", "donor" ]
                               `plural`     FACiL |< Un
@@ -23994,10 +22564,10 @@ cluster_1290 = cluster
 
     MaFCUL                    `noun`    {- <mawhUb> -}         [ "recipient" ],
 
-    MaFCUL                    `noun`    {- <mawhUb> -}         [ "Mawhub" ] ]
+    MaFCUL                    `noun`    {- <mawhUb> -}         [ "" {- "Mawhub" -} ] ]
 
 
-cluster_1291 = cluster
+cluster_1118 = cluster
 
  |> "w h l" <| [
 
@@ -24011,7 +22581,7 @@ cluster_1291 = cluster
     FaCL |< aT                `noun`    {- <wahlaT> -}         [ "moment", "instant" ] ]
 
 
-cluster_1292 = cluster
+cluster_1119 = cluster
 
  |> "w h d" <| [
 
@@ -24026,7 +22596,7 @@ cluster_1292 = cluster
     HaFCaL                    `noun`    {- <'awhad> -}         [ unwords [ "low", "-", "lying" ], "depressed" ] ]
 
 
-cluster_1293 = cluster
+cluster_1120 = cluster
 
  |> "w h m" <| [
 
@@ -24075,7 +22645,7 @@ cluster_1293 = cluster
     `derives` feminine ]
 
 
-cluster_1294 = cluster
+cluster_1121 = cluster
 
  |> "w h y" <| [
 
@@ -24092,7 +22662,7 @@ cluster_1294 = cluster
                               `plural`     FACI |< At ]
 
 
-cluster_1295 = cluster
+cluster_1122 = cluster
 
  |> "w h r" <| [
 
@@ -24105,19 +22675,21 @@ cluster_1295 = cluster
 
     FaCL |< aT                `noun`    {- <wahraT> -}         [ "consternation", "fear" ],
 
-    FaCLAn                    `noun`    {- <wahrAn> -}         [ "Oran" ] ]
+    FaCLAn                    `noun`    {- <wahrAn> -}         [ "" {- "Oran" -} ] ]
 
 
-cluster_1296 = cluster
+cluster_1123 = cluster
 
  |> "w h q" <| [
 
     FaCL                      `noun`    {- <wahq> -}           [ "lasso" ]
-                              `plural`     FaCaL
+                              `plural`     HaFCAL,
+
+    FaCaL                     `noun`    {- <wahaq> -}          [ "lasso" ]
                               `plural`     HaFCAL ]
 
 
-cluster_1297 = cluster
+cluster_1124 = cluster
 
  |> "w h n" <| [
 
@@ -24143,7 +22715,7 @@ cluster_1297 = cluster
                               `plural`     FuCuL ]
 
 
-cluster_1298 = cluster
+cluster_1125 = cluster
 
  |> "w k b" <| [
 
@@ -24170,7 +22742,7 @@ cluster_1298 = cluster
                               `plural`     MuFACaL |< At ]
 
 
-cluster_1299 = cluster
+cluster_1126 = cluster
 
  |> "w k `" <| [
 
@@ -24182,7 +22754,7 @@ cluster_1299 = cluster
     MICaL |< aT               `noun`    {- <mIka`aT> -}        [ "plowshare" ] ]
 
 
-cluster_1300 = cluster
+cluster_1127 = cluster
 
  |> "w k '" <| [
 
@@ -24206,13 +22778,10 @@ cluster_1300 = cluster
     `derives` feminine,
 
     MuFtaCaL                  `noun`    {- <muttaka'> -}       [ "cushion", "couch" ]
-                              `plural`     MuFtaCaL |< At,
-
-    FiCAL                     `noun`    {- <wikA'> -}          [ "string", "thong" ]
-                              `plural`     HaFCI |< aT ]
+                              `plural`     MuFtaCaL |< At ]
 
 
-cluster_1301 = cluster
+cluster_1128 = cluster
 
  |> "w k f" <| [
 
@@ -24224,7 +22793,7 @@ cluster_1301 = cluster
     FaCaLAn                   `noun`    {- <wakafAn> -}        [ "leaking", "trickling" ] ]
 
 
-cluster_1302 = cluster
+cluster_1129 = cluster
 
  |> "w k d" <| [
 
@@ -24241,7 +22810,7 @@ cluster_1302 = cluster
                            
     `derives` feminine,
 
-    FACiL                     `noun`    {- <wAkid> -}          [ "Waked" ],
+    FACiL                     `noun`    {- <wAkid> -}          [ "" {- "Waked" -} ],
 
     TaFCIL                    `noun`    {- <tawkId> -}         [ "confirmation", "assertion" ]
                               `plural`     TaFCIL |< At,
@@ -24253,14 +22822,14 @@ cluster_1302 = cluster
     MutaFaCCiL                `adj`     {- <mutawakkid> -}     [ "certain", "convinced" ] ]
 
 
-cluster_1303 = cluster
+cluster_1130 = cluster
 
  |> "w k m" <| [
 
     MUCiL                     `noun`    {- <mUkim> -}          [ "hurting", "offending" ] ]
 
 
-cluster_1304 = cluster
+cluster_1131 = cluster
 
  |> "w k l" <| [
 
@@ -24286,14 +22855,17 @@ cluster_1304 = cluster
                            
     `derives` feminine,
 
-    FaCIL                     `noun`    {- <wakIl> -}          [ "Wakil", "Wakeel" ],
+    FaCIL                     `noun`    {- <wakIl> -}          [ "" {- "Wakil" -}, "" {- "Wakeel" -} ],
 
     FiCAL |< aT               `noun`    {- <wikAlaT> -}        [ "agency" ]
-                              `plural`     FiCAL |< At
+                              `plural`     FiCAL |< At,
+
+    FaCAL |< aT               `noun`    {- <wakAlaT> -}        [ "agency" ]
                               `plural`     FaCAL |< At,
 
-    FiCAL |< aT               `noun`    {- <wikAlaT> -}        [ "proxy" ]
-                              `plural`     FaCAL |< aT,
+    FiCAL |< aT               `noun`    {- <wikAlaT> -}        [ "proxy" ],
+
+    FaCAL |< aT               `noun`    {- <wakAlaT> -}        [ "proxy" ],
 
     TaFCIL                    `noun`    {- <tawkIl> -}         [ unwords [ "appointing", "(", "representative", ")" ], unwords [ "delegation", "of", "authority" ] ]
                               `plural`     TaFCIL |< At,
@@ -24320,29 +22892,11 @@ cluster_1304 = cluster
                            
     `derives` feminine,
 
-    MutaFaCCiL                `noun`    {- <mutawakkil> -}     [ "Mutawakkil", "Muttawakil" ] ]
+    MutaFaCCiL                `noun`    {- <mutawakkil> -}     [ "" {- "Mutawakkil" -}, "" {- "Muttawakil" -} ] ]
 
 
-cluster_1305 = cluster
 
- |> "w l '" <| [
-
-    FaCAL                     `noun`    {- <walA'> -}          [ "loyalty", "allegiance" ],
-
-    FaCAL |< Iy               `adj`     {- <walA'Iy> -}        [ "amicable", "friendly" ],
-
-    FiCAL                     `noun`    {- <wilA'> -}          [ "succession" ],
-
-    FiCAL                     `noun`    {- <wilA'> -}          [ "successively" ],
-
-    HICAL                     `noun`    {- <'IlA'> -}          [ unwords [ "marriage", "annulment" ] ]
-                              `plural`     HICAL |< At,
-
-    IstICAL                   `noun`    {- <istIlA'> -}        [ "appropriation", "seizure" ]
-                              `plural`     IstICAL |< At ]
-
-
-cluster_1306 = cluster
+cluster_1132 = cluster
 
  |> "w k z" <| [
 
@@ -24352,7 +22906,7 @@ cluster_1306 = cluster
     FaCL                      `noun`    {- <wakz> -}           [ "punching", "pushing", "piercing" ] ]
 
 
-cluster_1307 = cluster
+cluster_1133 = cluster
 
  |> "w k y" <| [
 
@@ -24363,7 +22917,7 @@ cluster_1307 = cluster
                               `plural`     HaFCI |< aT ]
 
 
-cluster_1308 = cluster
+cluster_1134 = cluster
 
  |> "w k s" <| [
 
@@ -24377,7 +22931,7 @@ cluster_1308 = cluster
     FaCL |< aT                `noun`    {- <waksaT> -}         [ unwords [ "drop", "in", "value" ], "depreciation" ] ]
 
 
-cluster_1309 = cluster
+cluster_1135 = cluster
 
  |> "w k r" <| [
 
@@ -24391,7 +22945,7 @@ cluster_1309 = cluster
                               `plural`     FuCaL ]
 
 
-cluster_1310 = cluster
+cluster_1136 = cluster
 
  |> "w k n" <| [
 
@@ -24399,11 +22953,13 @@ cluster_1310 = cluster
                               `plural`     FuCUL,
 
     FuCL |< aT                `noun`    {- <wuknaT> -}         [ "nest" ]
-                              `plural`     FaCL
+                              `plural`     FaCaL |< At,
+
+    FaCL |< aT                `noun`    {- <waknaT> -}         [ "nest" ]
                               `plural`     FaCaL |< At ]
 
 
-cluster_1311 = cluster
+cluster_1137 = cluster
 
  |> "w l ^g" <| [
 
@@ -24427,14 +22983,14 @@ cluster_1311 = cluster
                               `plural`     MaFACiL ]
 
 
-cluster_1312 = cluster
+cluster_1138 = cluster
 
  |> "w l .t" <| [
 
-    FaCL                      `noun`    {- <wal.t> -}          [ "volt" ] ]
+    "wal.t"                   `noun`    {- <wal.t> -}          [ "volt" ] ]
 
 
-cluster_1313 = cluster
+cluster_1139 = cluster
 
  |> "w l .g" <| [
 
@@ -24446,7 +23002,7 @@ cluster_1313 = cluster
     FuCUL                     `noun`    {- <wulU.g> -}         [ "licking", "lapping", "defiling" ] ]
 
 
-cluster_1314 = cluster
+cluster_1140 = cluster
 
  |> "w l `" <| [
 
@@ -24478,7 +23034,7 @@ cluster_1314 = cluster
     `derives` feminine ]
 
 
-cluster_1315 = cluster
+cluster_1141 = cluster
 
  |> "w l d" <| [
 
@@ -24494,14 +23050,15 @@ cluster_1315 = cluster
     CiL |< aT                 `noun`    {- <lidaT> -}          [ "childbirth", "birth" ],
 
     CiL |< aT                 `noun`    {- <lidaT> -}          [ "contemporary" ]
-                              `plural`     CiL |< Un,
+                              `plural`     CiL |< Un
+                              `plural`     CiL |< At,
 
     FaCaL                     `noun`    {- <walad> -}          [ "child", "son", "children" ]
                               `plural`     HaFCAL,
 
     FaCL |< aT                `noun`    {- <waldaT> -}         [ "childbirth" ],
 
-    FaCIL                     `noun`    {- <walId> -}          [ "Walid", "Waleed" ],
+    FaCIL                     `noun`    {- <walId> -}          [ "" {- "Walid" -}, "" {- "Waleed" -} ],
 
     FaCIL                     `noun`    {- <walId> -}          [ "result", "product", "child", "children" ]
                               `plural`     FiCLAn,
@@ -24525,11 +23082,11 @@ cluster_1315 = cluster
                               `plural`     MaFACIL
                               `plural`     MaFACiL,
 
-    MaFCiL                    `noun`    {- <mawlid> -}         [ unwords [ "Mawlid", "(", "Prophet's", "Birthday", ")" ] ],
+    MaFCiL                    `noun`    {- <mawlid> -}         [ unwords [ "" {- "Mawlid" -}, "(", "" {- "Prophet's" -}, "" {- "Birthday" -}, ")" ] ],
 
-    MICAL                     `noun`    {- <mIlAd> -}          [ "birthday", "birth", "Christmas", unwords [ "Christian", "Era" ] ],
+    MICAL                     `noun`    {- <mIlAd> -}          [ "birthday", "birth", "" {- "Christmas" -}, unwords [ "" {- "Christian" -}, "Era" ] ],
 
-    MICAL |< Iy               `adj`     {- <mIlAdIy> -}        [ "A.D.", unwords [ "Christian", "Era" ] ],
+    MICAL |< Iy               `adj`     {- <mIlAdIy> -}        [ "A.D.", unwords [ "" {- "Christian" -}, "Era" ] ],
 
     TaFCIL                    `noun`    {- <tawlId> -}         [ "production", "generation" ]
                               `plural`     TaFCIL |< At,
@@ -24581,7 +23138,7 @@ cluster_1315 = cluster
     `derives` feminine ]
 
 
-cluster_1316 = cluster
+cluster_1142 = cluster
 
  |> "w l m" <| [
 
@@ -24591,7 +23148,7 @@ cluster_1316 = cluster
                               `plural`     FaCA'iL ]
 
 
-cluster_1317 = cluster
+cluster_1143 = cluster
 
  |> "w l h" <| [
 
@@ -24617,7 +23174,7 @@ cluster_1317 = cluster
     MutaFaCCiL                `adj`     {- <mutawallih> -}     [ "bewildered", unwords [ "hare", "-", "brained" ] ] ]
 
 
-cluster_1318 = cluster
+cluster_1144 = cluster
 
  |> "w l f" <| [
 
@@ -24630,14 +23187,14 @@ cluster_1318 = cluster
     MuFACaL |< aT             `noun`    {- <muwAlafaT> -}      [ unwords [ "fine", "-", "tuning" ] ] ]
 
 
-cluster_1319 = cluster
+cluster_1145 = cluster
 
  |> "w l d n" <| [
 
     KaRDaS |< aT              `noun`    {- <waldanaT> -}       [ "childhood", "puerility" ] ]
 
 
-cluster_1320 = cluster
+cluster_1146 = cluster
 
  |> "w l w l" <| [
 
@@ -24647,7 +23204,7 @@ cluster_1320 = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_1321 = cluster
+cluster_1147 = cluster
 
  |> "w l s" <| [
 
@@ -24663,7 +23220,7 @@ cluster_1321 = cluster
     MuFACaL |< aT             `noun`    {- <muwAlasaT> -}      [ "fraud", "duplicity" ] ]
 
 
-cluster_1322 = cluster
+cluster_1148 = cluster
 
  |> "w l y" <| [
 
@@ -24691,9 +23248,7 @@ cluster_1322 = cluster
 
     FaCA' |< Iy               `adj`     {- <walA'Iy> -}        [ "amicable", "friendly" ],
 
-    FiCAL |< aT               `noun`    {- <wilAyaT> -}        [ "state", "province" ],
-
-    FiCAL |< At               `noun`    {- <wilAyAt> -}        [ "States" ]
+    FiCAL |< aT               `noun`    {- <wilAyaT> -}        [ "state", "province" ]
                               `plural`     FiCAL |< At,
 
     HaFCY                     `noun`    {- <'awlY> -}          [ unwords [ "more", "/", "most", "appropriate", "/", "suitable", "/", "deserving" ], unwords [ "most", "appropriate", "/", "suitable", "/", "deserving" ] ],
@@ -24704,7 +23259,7 @@ cluster_1322 = cluster
     MaFCY                     `noun`    {- <mawlY> -}          [ "master", "lord" ]
                               `plural`     MaFACI,
 
-    MaFCY                     `noun`    {- <mawlY> -}          [ "Mawla" ],
+    MaFCY                     `noun`    {- <mawlY> -}          [ "" {- "Mawla" -} ],
 
     MaFCY |< aT               `noun`    {- <mawlAT> -}         [ "lady", "mistress" ]
                               `plural`     MaFCY |< At,
@@ -24741,22 +23296,16 @@ cluster_1322 = cluster
     MutaFaCCI                 `noun`    {- <mutawallI> -}      [ "responsible", "commissioned" ]
                               `plural`     MutaFaCCI |< At,
 
-    MutaFaCCI                 `noun`    {- <mutawallI> -}      [ "Mitwalli" ],
+    MutaFaCCI                 `noun`    {- <mutawallI> -}      [ "" {- "Mitwalli" -} ],
 
     MutaFACI                  `noun`    {- <mutawAlI> -}       [ "successive", "consecutive" ]
                               `plural`     MutaFACI |< At,
 
-    MaFCY |< Iy               `adj`     {- <mawlawIy> -}       [ unwords [ "Mawlawi", "dervish" ] ] ]
+    MaFCY |< Iy               `adj`     {- <mawlawIy> -}       [ unwords [ "" {- "Mawlawi" -}, "dervish" ] ] ]
 
 
-cluster_1323 = cluster
 
- |> "w n '" <| [
-
-    FaCAL                     `noun`    {- <wanA'> -}          [ "slackening", "lassitude" ] ]
-
-
-cluster_1324 = cluster
+cluster_1149 = cluster
 
  |> "w m y" <| [
 
@@ -24764,7 +23313,7 @@ cluster_1324 = cluster
                               `plural`     MaFACI ]
 
 
-cluster_1325 = cluster
+cluster_1150 = cluster
 
  |> "w m s" <| [
 
@@ -24778,7 +23327,7 @@ cluster_1325 = cluster
     MUCiL |< aT               `noun`    {- <mUmisaT> -}        [ "prostitute" ] ]
 
 
-cluster_1326 = cluster
+cluster_1151 = cluster
 
  |> "w m q" <| [
 
@@ -24788,14 +23337,14 @@ cluster_1326 = cluster
     FaCL                      `noun`    {- <wamq> -}           [ unwords [ "tender", "love" ] ] ]
 
 
-cluster_1327 = cluster
+cluster_1152 = cluster
 
  |> "w m d" <| [
 
     FaCiL                     `noun`    {- <wamid> -}          [ "sultry", "muggy" ] ]
 
 
-cluster_1328 = cluster
+cluster_1153 = cluster
 
  |> "w m .d" <| [
 
@@ -24812,7 +23361,7 @@ cluster_1328 = cluster
     FaCIL                     `noun`    {- <wamI.d> -}         [ "blinking", "sparkle", "twinkle" ] ]
 
 
-cluster_1329 = cluster
+cluster_1154 = cluster
 
  |> "w m '" <| [
 
@@ -24831,7 +23380,7 @@ cluster_1329 = cluster
 
 
 
-cluster_1330 = cluster
+cluster_1155 = cluster
 
  |> "w n y" <| [
 
@@ -24860,7 +23409,7 @@ cluster_1330 = cluster
                               `plural`     MutaFACI |< At ]
 
 
-cluster_1331 = cluster
+cluster_1156 = cluster
 
  |> "w n n" <| [
 
@@ -24872,14 +23421,8 @@ cluster_1331 = cluster
     FaCL                      `noun`    {- <wann> -}           [ "buzzing", "droning" ] ]
 
 
-cluster_1332 = cluster
 
- |> "w n d l" <| [
-
-    KaRDaS                    `noun`    {- <wandal> -}         [ "Vandals" ] ]
-
-
-cluster_1333 = cluster
+cluster_1157 = cluster
 
  |> "w n ^s" <| [
 
@@ -24887,7 +23430,7 @@ cluster_1333 = cluster
                               `plural`     FiCL |< At ]
 
 
-cluster_1334 = cluster
+cluster_1158 = cluster
 
  |> "w q _d" <| [
 
@@ -24901,7 +23444,7 @@ cluster_1334 = cluster
     MaFCUL                    `adj`     {- <mawqU_d> -}        [ unwords [ "fatally", "ill" ] ] ]
 
 
-cluster_1335 = cluster
+cluster_1159 = cluster
 
  |> "w q .z" <| [
 
@@ -24911,7 +23454,7 @@ cluster_1335 = cluster
     FaCCaL                    `verb`    {- <waqqa.z> -}        [ "incite", "inflame" ] ]
 
 
-cluster_1336 = cluster
+cluster_1160 = cluster
 
  |> "w q .s" <| [
 
@@ -24919,7 +23462,7 @@ cluster_1336 = cluster
                               `imperf`     CiL ]
 
 
-cluster_1337 = cluster
+cluster_1161 = cluster
 
  |> "w q .h" <| [
 
@@ -24950,7 +23493,7 @@ cluster_1337 = cluster
     FuCUL |< aT               `noun`    {- <wuqU.haT> -}       [ "insolence", "impertinence" ] ]
 
 
-cluster_1338 = cluster
+cluster_1162 = cluster
 
  |> "w q `" <| [
 
@@ -24958,8 +23501,6 @@ cluster_1338 = cluster
                               `imperf`     CaL,
 
     FaCCaL                    `verb`    {- <waqqa`> -}         [ "sign" ],
-
-    FuCCiL                    `verb`    {- <wuqqi`> -}         [ unwords [ "be", "signed" ] ],
 
     HaFCaL                    `verb`    {- <'awqa`> -}         [ "inflict", unwords [ "bring", "about" ], unwords [ "be", "brought", "about" ] ],
 
@@ -25035,7 +23576,7 @@ cluster_1338 = cluster
     MutaFaCCiL                `adj`     {- <mutawaqqi`> -}     [ "expecting", "anticipating" ] ]
 
 
-cluster_1339 = cluster
+cluster_1163 = cluster
 
  |> "w q b" <| [
 
@@ -25052,7 +23593,7 @@ cluster_1339 = cluster
                               `plural`     FaCaL |< At ]
 
 
-cluster_1340 = cluster
+cluster_1164 = cluster
 
  |> "w q d" <| [
 
@@ -25111,7 +23652,7 @@ cluster_1340 = cluster
                               `plural`     MustaFCaL |< At ]
 
 
-cluster_1341 = cluster
+cluster_1165 = cluster
 
  |> "w q f" <| [
 
@@ -25169,7 +23710,7 @@ cluster_1341 = cluster
     MutaFaCCiL                `noun`    {- <mutawaqqif> -}     [ "conditional", "dependent" ] ]
 
 
-cluster_1342 = cluster
+cluster_1166 = cluster
 
  |> "w q r" <| [
 
@@ -25201,7 +23742,7 @@ cluster_1342 = cluster
     MuFaCCaL                  `adj`     {- <muwaqqar> -}       [ "respected", "venerable" ] ]
 
 
-cluster_1343 = cluster
+cluster_1167 = cluster
 
  |> "w q q" <| [
 
@@ -25211,14 +23752,14 @@ cluster_1343 = cluster
     FAL                       `noun`    {- <wAq> -}            [ "Waq", unwords [ "strange", "and", "faraway", "lands" ] ] ]
 
 
-cluster_1344 = cluster
+cluster_1168 = cluster
 
  |> "w q l" <| [
 
     TaFaCCaL                  `verb`    {- <tawaqqal> -}       [ "climb" ] ]
 
 
-cluster_1345 = cluster
+cluster_1169 = cluster
 
  |> "w q w q" <| [
 
@@ -25231,7 +23772,7 @@ cluster_1345 = cluster
     KaRDAS                    `noun`    {- <waqwAq> -}         [ unwords [ "Waq", "Waq", "(", "legendary", "islands", ")" ], unwords [ "strange", "and", "faraway", "lands" ] ] ]
 
 
-cluster_1346 = cluster
+cluster_1170 = cluster
 
  |> "' q t" <| [
 
@@ -25239,7 +23780,7 @@ cluster_1346 = cluster
 
     MuFaCCaL                  `adj`     {- <mu'aqqat> -}       [ "temporary", "provisional" ],
 
-    MuFaCCaL |<< "aN"         `noun`    {- <mu'aqqataN> -}     [ "temporarily", "provisionally" ] ]
+    MuFaCCaL |<< "aN"         `adj`     {- <mu'aqqataN> -}     [ "temporarily", "provisionally" ] ]
 
 
 
@@ -25247,8 +23788,10 @@ cluster_1346 = cluster
 
     FaCCaL                    `verb`    {- <waqqat> -}         [ "schedule", unwords [ "appoint", "a", "time" ] ],
 
-    FaCL                      `adj`     {- <waqt> -}           [ "time", "moment", unwords [ "period", "of", "time" ] ]
+    FaCL                      `noun`    {- <waqt> -}           [ "time", "moment", unwords [ "period", "of", "time" ] ]
                               `plural`     HaFCAL,
+
+    HuFayCAL                  `noun`    {- <'uwayqAt> -}       [ unwords [ "short", "times" ], unwords [ "good", "times" ] ],
 
     FaCL |< Iy                `adj`     {- <waqtIy> -}         [ "temporal", "temporary", "provisional" ],
 
@@ -25276,7 +23819,7 @@ cluster_1346 = cluster
 
 
 
-cluster_1347 = cluster
+cluster_1171 = cluster
 
  |> "w q y" <| [
 
@@ -25311,7 +23854,14 @@ cluster_1347 = cluster
     FACI |< aT                `noun`    {- <wAqiyaT> -}        [ "shelter", "shield" ] ]
 
 
-cluster_1348 = cluster
+cluster_1172 = cluster
+
+ |> "w r ^s" <| [
+
+    FaCL |< aT                `noun`    {- <war^saT> -}        [ "workshop" ]
+                              `plural`     FiCaL ]
+
+
 
  |> "w r ^s" <| [
 
@@ -25322,13 +23872,10 @@ cluster_1348 = cluster
 
     FaCiL                     `adj`     {- <wari^s> -}         [ "lively", "brisk" ],
 
-    FACiL                     `adj`     {- <wAri^s> -}         [ "obtrusive", "interfering" ],
-
-    FaCL |< aT                `noun`    {- <war^saT> -}        [ "workshop" ]
-                              `plural`     FiCaL ]
+    FACiL                     `adj`     {- <wAri^s> -}         [ "obtrusive", "interfering" ] ]
 
 
-cluster_1349 = cluster
+cluster_1173 = cluster
 
  |> "w r .t" <| [
 
@@ -25357,7 +23904,7 @@ cluster_1349 = cluster
     MutaFaCCiL                `adj`     {- <mutawarri.t> -}    [ "involved", "implicated", "entangled" ] ]
 
 
-cluster_1350 = cluster
+cluster_1174 = cluster
 
  |> "w r _t" <| [
 
@@ -25384,7 +23931,7 @@ cluster_1350 = cluster
 
     FiCAL |< Iy               `adj`     {- <wirA_tIy> -}       [ "hereditary", "congenital" ],
 
-    FiCAL |< Iy |<< "aN"      `noun`    {- <wirA_tIyaN> -}     [ "genetically" ],
+    FiCAL |< Iy |<< "aN"      `adj`     {- <wirA_tIyaN> -}     [ "genetically" ],
 
     FaCIL                     `noun`    {- <warI_t> -}         [ "heir", "inheritor" ]
                               `plural`     FuCaLA'
@@ -25424,7 +23971,7 @@ cluster_1350 = cluster
     MutaFACaL                 `noun`    {- <mutawAra_t> -}     [ "inherited" ] ]
 
 
-cluster_1351 = cluster
+cluster_1175 = cluster
 
  |> "w r b" <| [
 
@@ -25444,7 +23991,7 @@ cluster_1351 = cluster
     MuFACaL                   `adj`     {- <muwArab> -}        [ unwords [ "partly", "open" ] ] ]
 
 
-cluster_1352 = cluster
+cluster_1176 = cluster
 
  |> "w r `" <| [
 
@@ -25455,10 +24002,11 @@ cluster_1352 = cluster
 
     FaCaL                     `noun`    {- <wara`> -}          [ "piety" ],
 
-    FaCiL                     `adj`     {- <wari`> -}          [ "pious" ] ]
+    FaCiL                     `adj`     {- <wari`> -}          [ "pious" ]
+                              `plural`     HaFCAL ]
 
 
-cluster_1353 = cluster
+cluster_1177 = cluster
 
  |> "w r d" <| [
 
@@ -25473,7 +24021,7 @@ cluster_1353 = cluster
 
     IstaFCaL                  `verb`    {- <istawrad> -}       [ "import" ],
 
-    FiCL                      `noun`    {- <wird> -}           [ unwords [ "wird", "(", "Islamic", "prayer", ")" ] ]
+    FiCL                      `noun`    {- <wird> -}           [ unwords [ "wird", "(", "" {- "Islamic" -}, "prayer", ")" ] ]
                               `plural`     HaFCAL,
 
     FaCIL                     `noun`    {- <warId> -}          [ "vein", unwords [ "jugular", "vein" ] ]
@@ -25484,7 +24032,7 @@ cluster_1353 = cluster
     MaFCiL                    `noun`    {- <mawrid> -}         [ "source", "resource" ]
                               `plural`     MaFACiL,
 
-    MaFCiL                    `noun`    {- <mawrid> -}         [ "Mawrid" ],
+    MaFCiL                    `noun`    {- <mawrid> -}         [ "" {- "Mawrid" -} ],
 
     MaFCiL |< aT              `noun`    {- <mawridaT> -}       [ unwords [ "landing", "place" ], "wharf" ],
 
@@ -25539,7 +24087,7 @@ cluster_1353 = cluster
     FaCL |< Iy |< aT          `noun`    {- <wardIyaT> -}       [ unwords [ "work", "shift" ], unwords [ "shift", "rotation" ] ] ]
 
 
-cluster_1354 = cluster
+cluster_1178 = cluster
 
  |> "w r n ^s" <| [
 
@@ -25548,16 +24096,14 @@ cluster_1354 = cluster
     KaRDIS                    `noun`    {- <warnI^s> -}        [ "varnish", "lacquer" ] ]
 
 
-cluster_1355 = cluster
+cluster_1179 = cluster
 
  |> "w r n" <| [
-
-    FACiL                     `noun`    {- <wArin> -}          [ "Warren" ],
 
     FaCaL                     `noun`    {- <waran> -}          [ "varan", unwords [ "monitor", "lizard" ] ] ]
 
 
-cluster_1356 = cluster
+cluster_1180 = cluster
 
  |> "w r m" <| [
 
@@ -25583,7 +24129,7 @@ cluster_1356 = cluster
     MutaFaCCiL                `adj`     {- <mutawarrim> -}     [ "swollen" ] ]
 
 
-cluster_1357 = cluster
+cluster_1181 = cluster
 
  |> "w r l" <| [
 
@@ -25592,7 +24138,7 @@ cluster_1357 = cluster
                               `plural`     FiCLAn ]
 
 
-cluster_1358 = cluster
+cluster_1182 = cluster
 
  |> "w r k" <| [
 
@@ -25601,7 +24147,7 @@ cluster_1358 = cluster
                               `plural`     FiCL ]
 
 
-cluster_1359 = cluster
+cluster_1183 = cluster
 
  |> "w r f" <| [
 
@@ -25615,16 +24161,16 @@ cluster_1359 = cluster
     FACiL                     `adj`     {- <wArif> -}          [ "extending", "stretching", "sprouting" ] ]
 
 
-cluster_1360 = cluster
+cluster_1184 = cluster
 
  |> "w r s" <| [
 
     FaCL                      `noun`    {- <wars> -}           [ unwords [ "dye", "plant" ] ],
 
-    HaFCAL                    `noun`    {- <'awrAs> -}         [ unwords [ "Aures", "(", "mountains", "in", "Algeria", ")" ] ] ]
+    HaFCAL                    `noun`    {- <'awrAs> -}         [ unwords [ "" {- "Aures" -}, "(", "mountains", "in", "" {- "Algeria" -}, ")" ] ] ]
 
 
-cluster_1361 = cluster
+cluster_1185 = cluster
 
  |> "w r q" <| [
 
@@ -25645,9 +24191,9 @@ cluster_1361 = cluster
                            
     `derives` feminine,
 
-    FaCCAL                    `noun`    {- <warrAq> -}         [ "Warraq" ],
+    FaCCAL                    `noun`    {- <warrAq> -}         [ "" {- "Warraq" -} ],
 
-    FiCAL                     `noun`    {- <wirAq> -}          [ "papermaking", unwords [ "stationery", "business" ] ],
+    FiCAL |< aT               `noun`    {- <wirAqaT> -}        [ "papermaking", unwords [ "stationery", "business" ] ],
 
     FACiL                     `adj`     {- <wAriq> -}          [ "leafy", "verdant", "green" ],
 
@@ -25659,7 +24205,7 @@ cluster_1361 = cluster
     MUCiL                     `adj`     {- <mUriq> -}          [ "verdant", "leafy", "green" ] ]
 
 
-cluster_1362 = cluster
+cluster_1186 = cluster
 
  |> "w r y" <| [
 
@@ -25676,8 +24222,7 @@ cluster_1362 = cluster
 
     TaFACY                    `verb`    {- <tawArY> -}         [ "conceal" ],
 
-    FaCY                      `noun`    {- <warY> -}           [ "mankind", "mortals" ]
-                              `plural`     FaCA,
+    FaCY                      `noun`    {- <warY> -}           [ "mankind", "mortals" ],
 
     FaCA' |<< "a"             `prep`    {- <warA'a> -}         [ "behind", "past", "beyond" ],
 
@@ -25690,7 +24235,7 @@ cluster_1362 = cluster
     TaFCI |< aT               `noun`    {- <tawriyaT> -}       [ "hiding", "dissimulation" ] ]
 
 
-cluster_1363 = cluster
+cluster_1187 = cluster
 
  |> "w s .t" <| [
 
@@ -25700,8 +24245,10 @@ cluster_1363 = cluster
 
     FaCL |<< "a"              `prep`    {- <was.ta> -}         [ "middle", "midst", "among" ],
 
+    FaCaL                     `noun`    {- <wasa.t> -}         [ "middle", "center", "environment", "circles", "quarters" ]
+                              `plural`     HaFCAL,
+
     FaCL                      `noun`    {- <was.t> -}          [ "middle", "center", "environment", "circles", "quarters" ]
-                              `plural`     FaCaL
                               `plural`     HaFCAL,
 
     FaCaL |< Iy               `adj`     {- <wasa.tIy> -}       [ "environmental" ],
@@ -25722,13 +24269,11 @@ cluster_1363 = cluster
     FaCIL |< aT               `noun`    {- <wasI.taT> -}       [ "means", "medium", "media" ]
                               `plural`     FaCA'iL,
 
-    HaFCaL                    `noun`    {- <'awsa.t> -}        [ "Middle" ],
-
     HaFCaL                    `adj`     {- <'awsa.t> -}        [ "middle", "central" ]
                               `plural`     HaFACiL
                               `femini`     FuCLY,
 
-    HaFCaL |< Iy              `adj`     {- <'awsa.tIy> -}      [ "Middle" ],
+    HaFCaL |< Iy              `adj`     {- <'awsa.tIy> -}      [ "" {- "Middle" -} ],
 
     TaFaCCuL                  `noun`    {- <tawassu.t> -}      [ "mediation" ]
                               `plural`     TaFaCCuL |< At,
@@ -25741,7 +24286,7 @@ cluster_1363 = cluster
     MutaFaCCiL |< Iy          `adj`     {- <mutawassi.tIy> -}  [ "middle", "central", "average" ] ]
 
 
-cluster_1364 = cluster
+cluster_1188 = cluster
 
  |> "w s _h" <| [
 
@@ -25764,7 +24309,7 @@ cluster_1364 = cluster
     FaCAL |< aT               `noun`    {- <wasA_haT> -}       [ "filth", "squalor" ] ]
 
 
-cluster_1365 = cluster
+cluster_1189 = cluster
 
  |> "w s `" <| [
 
@@ -25811,7 +24356,7 @@ cluster_1365 = cluster
 
     FACiL                     `adj`     {- <wAsi`> -}          [ "wide", "extensive", "broad" ],
 
-    FACiL                     `noun`    {- <wAsi`> -}          [ "Wasie", "Wasee" ],
+    FACiL                     `noun`    {- <wAsi`> -}          [ "" {- "Wasie" -}, "" {- "Wasee" -} ],
 
     MaFCUL |< aT              `noun`    {- <mawsU`aT> -}       [ "encyclopedia" ]
                               `plural`     MaFCUL |< At,
@@ -25825,7 +24370,7 @@ cluster_1365 = cluster
     MuFtaCaL                  `noun`    {- <muttasa`> -}       [ "space", "room" ] ]
 
 
-cluster_1366 = cluster
+cluster_1190 = cluster
 
  |> "w s l" <| [
 
@@ -25838,14 +24383,14 @@ cluster_1366 = cluster
                               `plural`     TaFaCCuL |< At ]
 
 
-cluster_1367 = cluster
+cluster_1191 = cluster
 
  |> "w s k y" <| [
 
-    KiRDI                     `noun`    {- <wiskI> -}          [ "whisky" ] ]
+    "wiskI"                   `noun`    {- <wiskI> -}          [ "whisky" ] ]
 
 
-cluster_1368 = cluster
+cluster_1192 = cluster
 
  |> "w s d" <| [
 
@@ -25854,9 +24399,13 @@ cluster_1368 = cluster
     TaFaCCaL                  `verb`    {- <tawassad> -}       [ unwords [ "lay", "down" ], "recline" ],
 
     FaCAL                     `noun`    {- <wasAd> -}          [ "cushion", "pillow" ]
-                              `plural`     FuCuL
-                              `plural`     FiCAL
-                              `plural`     FuCAL,
+                              `plural`     FuCuL,
+
+    FiCAL                     `noun`    {- <wisAd> -}          [ "cushion", "pillow" ]
+                              `plural`     FuCuL,
+
+    FuCAL                     `noun`    {- <wusAd> -}          [ "cushion", "pillow" ]
+                              `plural`     FuCuL,
 
     FiCAL |< aT               `noun`    {- <wisAdaT> -}        [ "cushion", "pillow" ]
                               `plural`     FaCA'iL,
@@ -25864,7 +24413,7 @@ cluster_1368 = cluster
     MuFaCCaL                  `adj`     {- <muwassad> -}       [ "easy", "smooth" ] ]
 
 
-cluster_1369 = cluster
+cluster_1193 = cluster
 
  |> "w s n" <| [
 
@@ -25878,11 +24427,11 @@ cluster_1369 = cluster
                            
     `derives` feminine,
 
-    FaCLAn                    `noun`    {- <wasnAn> -}         [ "sleepy", "drowsy" ]
-                              `plural`     FaCLY ]
+    FaCLAn                    `adj`     {- <wasnAn> -}         [ "sleepy", "drowsy" ]
+                              `femini`     FaCLY ]
 
 
-cluster_1370 = cluster
+cluster_1194 = cluster
 
  |> "w s m" <| [
 
@@ -25904,14 +24453,14 @@ cluster_1370 = cluster
     FiCAL                     `noun`    {- <wisAm> -}          [ "badge", "decoration" ]
                               `plural`     HaFCiL |< aT,
 
-    FiCAL                     `noun`    {- <wisAm> -}          [ "Wisam", "Wissam" ],
+    FiCAL                     `noun`    {- <wisAm> -}          [ "" {- "Wisam" -}, "" {- "Wissam" -} ],
 
     FaCAL |< aT               `noun`    {- <wasAmaT> -}        [ "gracefulness", "charm" ],
 
     FaCIL                     `adj`     {- <wasIm> -}          [ "graceful", unwords [ "good", "-", "looking" ] ]
                               `plural`     FuCaLA',
 
-    FaCIL                     `noun`    {- <wasIm> -}          [ "Waseem", "Wasim" ],
+    FaCIL                     `noun`    {- <wasIm> -}          [ "" {- "Waseem" -}, "" {- "Wasim" -} ],
 
     MaFCiL                    `noun`    {- <mawsim> -}         [ "season", "festival" ]
                               `plural`     MaFACiL,
@@ -25925,7 +24474,7 @@ cluster_1370 = cluster
     MaFCUL                    `adj`     {- <mawsUm> -}         [ "marked", "branded" ] ]
 
 
-cluster_1371 = cluster
+cluster_1195 = cluster
 
  |> "w t d" <| [
 
@@ -25938,22 +24487,26 @@ cluster_1371 = cluster
                               `plural`     TaFCIL |< At ]
 
 
-cluster_1372 = cluster
+cluster_1196 = cluster
 
  |> "w s y" <| [
 
-    FACY                      `verb`    {- <wAsY> -}           [ unwords [ "be", "charitable" ], "assist", "support" ],
-
     HaFCY                     `verb`    {- <'awsY> -}          [ unwords [ "shave", "(", "head", ")" ], unwords [ "be", "shaved", "(", "head", ")" ] ],
-
-    MuFACY |< aT              `noun`    {- <muwAsAT> -}        [ "charity", "consolation" ]
-                              `plural`     MuFACY |< At,
 
     MUCY                      `noun`    {- <mUsY> -}           [ unwords [ "straight", "razor" ] ]
                               `plural`     MaFACI ]
 
 
-cluster_1373 = cluster
+
+ |> "w s y" <| [
+
+    FACY                      `verb`    {- <wAsY> -}           [ unwords [ "be", "charitable" ], "assist", "support" ],
+
+    MuFACY |< aT              `noun`    {- <muwAsAT> -}        [ "charity", "consolation" ]
+                              `plural`     MuFACY |< At ]
+
+
+cluster_1197 = cluster
 
  |> "w s w s" <| [
 
@@ -25967,12 +24520,12 @@ cluster_1373 = cluster
     KaRDAS                    `noun`    {- <waswAs> -}         [ "temptation", "obsession" ]
                               `plural`     KaRADiS,
 
-    KaRDAS                    `noun`    {- <waswAs> -}         [ unwords [ "Tempter", "(", "Satan", ")" ] ],
+    KaRDAS                    `noun`    {- <waswAs> -}         [ unwords [ "" {- "Tempter" -}, "(", "" {- "Satan" -}, ")" ] ],
 
     MuKaRDaS                  `adj`     {- <muwaswas> -}       [ "obsessed", "delusional" ] ]
 
 
-cluster_1374 = cluster
+cluster_1198 = cluster
 
  |> "w s q" <| [
 
@@ -25995,7 +24548,7 @@ cluster_1374 = cluster
     MuFtaCiL                  `adj`     {- <muttasiq> -}       [ unwords [ "well", "-", "ordered" ], "harmonious" ] ]
 
 
-cluster_1375 = cluster
+cluster_1199 = cluster
 
  |> "w t r" <| [
 
@@ -26042,7 +24595,7 @@ cluster_1375 = cluster
     MutaFACiL                 `adj`     {- <mutawAtir> -}      [ "continuous" ] ]
 
 
-cluster_1376 = cluster
+cluster_1200 = cluster
 
  |> "w t n" <| [
 
@@ -26051,28 +24604,16 @@ cluster_1376 = cluster
                               `plural`     HaFCiL |< aT ]
 
 
-cluster_1377 = cluster
+cluster_1201 = cluster
 
  |> "w y y" <| [
 
-    FaL                       `noun`    {- <way> -}            [ unwords [ "shame", "on", "you" ] ] ]
+    "way"                     `noun`    {- <way> -}            [ unwords [ "shame", "on", "you" ] ] ]
 
 
-cluster_1378 = cluster
-
- |> "w y t n" <| [
-
-    "wItUn"                   `noun`    {- <wItUn> -}          [ "Wheaton" ] ]
 
 
-cluster_1379 = cluster
-
- |> "w y n" <| [
-
-    "wAyin"                   `noun`    {- <wAyin> -}          [ "Wayne" ] ]
-
-
-cluster_1380 = cluster
+cluster_1202 = cluster
 
  |> "w y l" <| [
 
@@ -26080,43 +24621,31 @@ cluster_1380 = cluster
 
     FaCL |< aT                `noun`    {- <waylaT> -}         [ "misfortune" ],
 
-    FA'iL                     `noun`    {- <wA'il> -}          [ "Wael", "Wa'il" ] ]
+    FA'iL                     `noun`    {- <wA'il> -}          [ "" {- "Wael" -}, "Wa'il" ] ]
 
 
-cluster_1381 = cluster
+cluster_1203 = cluster
 
  |> "w y k" <| [
 
     FIL |< aT                 `noun`    {- <wIkaT> -}          [ "okra", "gumbo" ] ]
 
 
-cluster_1382 = cluster
-
- |> "" <| [
-
-    "wIb"                     `noun`    {- <wIb> -}            [ "Webb" ] ]
-
-
-
- |> "" <| [
-
-    "wIb"                     `noun`    {- <wIb> -}            [ "Web" ] ]
-
-
+cluster_1204 = cluster
 
  |> "w y b" <| [
 
     FaCL |< aT                `noun`    {- <waybaT> -}         [ "wayba" ] ]
 
 
-cluster_1383 = cluster
+cluster_1205 = cluster
 
  |> "w y .h" <| [
 
     FaCL |<< "a"              `noun`    {- <way.ha> -}         [ unwords [ "woe", "unto", "you" ] ] ]
 
 
-cluster_1384 = cluster
+cluster_1206 = cluster
 
  |> "w t y" <| [
 
@@ -26125,14 +24654,14 @@ cluster_1384 = cluster
     MuFACI                    `adj`     {- <muwAtI> -}         [ "pleasing", "suitable" ] ]
 
 
-cluster_1385 = cluster
+cluster_1207 = cluster
 
  |> "w z l" <| [
 
     FaCCAL                    `noun`    {- <wazzAl> -}         [ "genista", unwords [ "broom", "(", "plant", ")" ] ] ]
 
 
-cluster_1386 = cluster
+cluster_1208 = cluster
 
  |> "w z b" <| [
 
@@ -26145,7 +24674,7 @@ cluster_1386 = cluster
                               `plural`     MayACIL ]
 
 
-cluster_1387 = cluster
+cluster_1209 = cluster
 
  |> "w z `" <| [
 
@@ -26173,7 +24702,7 @@ cluster_1387 = cluster
     MutaFaCCiL                `adj`     {- <mutawazzi`> -}     [ "scattered", "distributed" ] ]
 
 
-cluster_1388 = cluster
+cluster_1210 = cluster
 
  |> "w z n" <| [
 
@@ -26200,8 +24729,6 @@ cluster_1388 = cluster
     MICAL                     `noun`    {- <mIzAn> -}          [ unwords [ "weight", "scales" ], "measure", "meter" ],
 
     MICAL                     `noun`    {- <mIzAn> -}          [ "balance" ],
-
-    MICAL |< Iy |< aT         `noun`    {- <mIzAnIyaT> -}      [ "budget" ],
 
     MICAL |< Iy |< aT         `noun`    {- <mIzAnIyaT> -}      [ "budget", "balance" ],
 
@@ -26237,7 +24764,7 @@ cluster_1388 = cluster
     MuFtaCiL                  `adj`     {- <muttazin> -}       [ "balanced", "harmonious" ] ]
 
 
-cluster_1389 = cluster
+cluster_1211 = cluster
 
  |> "w z y" <| [
 
@@ -26256,7 +24783,7 @@ cluster_1389 = cluster
     MutaFACI                  `adj`     {- <mutawAzI> -}       [ "parallel", "equivalent", "egalitarian" ] ]
 
 
-cluster_1390 = cluster
+cluster_1212 = cluster
 
  |> "w z r" <| [
 
@@ -26284,7 +24811,7 @@ cluster_1390 = cluster
                            
     `derives` feminine,
 
-    FaCIL                     `noun`    {- <wazIr> -}          [ "Wazir" ],
+    FaCIL                     `noun`    {- <wazIr> -}          [ "" {- "Wazir" -} ],
 
     FiCAL |< aT               `noun`    {- <wizAraT> -}        [ "ministry" ]
                               `plural`     FiCAL |< At,
@@ -26292,7 +24819,7 @@ cluster_1390 = cluster
     FiCAL |< Iy               `adj`     {- <wizArIy> -}        [ "ministry", "ministerial" ] ]
 
 
-cluster_1391 = cluster
+cluster_1213 = cluster
 
  |> "w z z" <| [
 
@@ -26306,59 +24833,45 @@ cluster_1391 = cluster
                               `plural`     FaCL ]
 
 
-cluster_1392 = cluster
+cluster_1214 = cluster
 
  |> "y ^s b" <| [
 
     FaCL                      `noun`    {- <ya^sb> -}          [ "jasper" ] ]
 
 
-cluster_1393 = cluster
+cluster_1215 = cluster
 
  |> "y .s f" <| [
 
     FaCL                      `noun`    {- <ya.sf> -}          [ "jasper" ] ]
 
 
-cluster_1394 = cluster
+cluster_1216 = cluster
 
  |> "y .s b" <| [
 
     FaCL                      `noun`    {- <ya.sb> -}          [ "jasper" ] ]
 
 
-cluster_1395 = cluster
 
- |> "y .h y" <| [
-
-    FaCLY                     `noun`    {- <ya.hyY> -}         [ "Yahya", "Yehiyeh" ],
-
-    FaCLY                     `noun`    {- <ya.hyY> -}         [ "John" ] ]
-
-
-cluster_1396 = cluster
+cluster_1217 = cluster
 
  |> "y .h r" <| [
 
     MICAL                     `noun`    {- <mI.hAr> -}         [ "scepter", "mallet" ] ]
 
 
-cluster_1397 = cluster
 
- |> "y .h b r" <| [
-
-    KaRDUS                    `noun`    {- <ya.hbUr> -}        [ unwords [ "bustard", "chick" ] ] ]
-
-
-cluster_1398 = cluster
+cluster_1218 = cluster
 
  |> "y ' y" <| [
 
-    FAL                       `noun`    {- <yAy> -}            [ "spring", "spiral" ]
-                              `plural`     FAL |< At ]
+    "yAy"                     `noun`    {- <yAy> -}            [ "spring", "spiral" ]
+                              `plural`     "yAy" |< At ]
 
 
-cluster_1399 = cluster
+cluster_1219 = cluster
 
  |> "y ' s" <| [
 
@@ -26383,29 +24896,23 @@ cluster_1399 = cluster
     MustaFCiL                 `adj`     {- <mustay'is> -}      [ "hopeless", "desperate" ] ]
 
 
-cluster_1400 = cluster
+cluster_1220 = cluster
 
  |> "y ' q" <| [
 
-    FAL |< aT                 `noun`    {- <yAqaT> -}          [ "collar" ] ]
+    "yAq" |< aT               `noun`    {- <yAqaT> -}          [ "collar" ] ]
 
 
-cluster_1401 = cluster
 
- |> "y ' m" <| [
-
-    "yAmI"                    `adj`     {- <yAmI> -}           [ "Yami" ] ]
-
-
-cluster_1402 = cluster
+cluster_1221 = cluster
 
  |> "y ' '" <| [
 
-    FAL                       `noun`    {- <yA'> -}            [ unwords [ "ya'", "(", "Arabic", "letter", ")" ], unwords [ "ya's", "(", "Arabic", "letter", ")" ] ]
-                              `plural`     FAL |< At ]
+    "yA'"                     `noun`    {- <yA'> -}            [ unwords [ "ya'", "(", "" {- "Arabic" -}, "letter", ")" ], unwords [ "ya's", "(", "" {- "Arabic" -}, "letter", ")" ] ]
+                              `plural`     "yA'" |< At ]
 
 
-cluster_1403 = cluster
+cluster_1222 = cluster
 
  |> "y f .t" <| [
 
@@ -26413,7 +24920,7 @@ cluster_1403 = cluster
                               `plural`     FACL |< At ]
 
 
-cluster_1404 = cluster
+cluster_1223 = cluster
 
  |> "y d y" <| [
 
@@ -26425,7 +24932,7 @@ cluster_1404 = cluster
 
 
 
-cluster_1405 = cluster
+cluster_1224 = cluster
 
  |> "y b s" <| [
 
@@ -26436,32 +24943,36 @@ cluster_1405 = cluster
 
     HaFCaL                    `verb`    {- <'aybas> -}         [ unwords [ "make", "dry" ], "desiccate", unwords [ "be", "dried" ] ],
 
-    FaCL                      `noun`    {- <yabs> -}           [ "dryness" ]
-                              `plural`     FuCL
-                              `plural`     FaCaL,
+    FaCL                      `noun`    {- <yabs> -}           [ "dryness" ],
+
+    FuCL                      `noun`    {- <yubs> -}           [ "dryness" ],
+
+    FaCaL                     `noun`    {- <yabas> -}          [ "dryness" ],
 
     FaCiL                     `adj`     {- <yabis> -}          [ unwords [ "dried", "out" ], "desiccated" ],
 
     FuCUL |< aT               `noun`    {- <yubUsaT> -}        [ "dryness" ],
 
-    FACiL                     `adj`     {- <yAbis> -}          [ unwords [ "dried", "out" ], "desiccated" ] ]
+    FACiL                     `adj`     {- <yAbis> -}          [ unwords [ "dried", "out" ], "desiccated" ],
+
+    FACiL |< aT               `noun`    {- <yAbisaT> -}        [ "land", unwords [ "firm", "ground" ] ] ]
 
 
-cluster_1406 = cluster
+cluster_1225 = cluster
 
  |> "y b b" <| [
 
     FaCAL                     `noun`    {- <yabAb> -}          [ "devastated", "waste" ] ]
 
 
-cluster_1407 = cluster
+cluster_1226 = cluster
 
  |> "y _t r b" <| [
 
-    KaRDiS                    `noun`    {- <ya_trib> -}        [ "Yathrib" ] ]
+    KaRDiS                    `noun`    {- <ya_trib> -}        [ "" {- "Yathrib" -} ] ]
 
 
-cluster_1408 = cluster
+cluster_1227 = cluster
 
  |> "y _h t" <| [
 
@@ -26469,7 +24980,7 @@ cluster_1408 = cluster
                               `plural`     FuCUL ]
 
 
-cluster_1409 = cluster
+cluster_1228 = cluster
 
  |> "y _h n" <| [
 
@@ -26478,28 +24989,22 @@ cluster_1409 = cluster
     FaCL |< Iy                `adj`     {- <ya_hnIy> -}        [ "ragout", unwords [ "meat", "and", "vegetable", "stew" ] ] ]
 
 
-cluster_1410 = cluster
 
- |> "y ^s y" <| [
-
-    FaCAL                     `noun`    {- <ya^sAy> -}         [ "Yashai" ] ]
-
-
-cluster_1411 = cluster
+cluster_1229 = cluster
 
  |> "y ^s m q" <| [
 
-    KaRDaS                    `noun`    {- <ya^smaq> -}        [ "veil" ] ]
+    "ya^smaq"                 `noun`    {- <ya^smaq> -}        [ "veil" ] ]
 
 
-cluster_1412 = cluster
+cluster_1230 = cluster
 
  |> "y ^s m" <| [
 
     FaCL                      `noun`    {- <ya^sm> -}          [ "jade" ] ]
 
 
-cluster_1413 = cluster
+cluster_1231 = cluster
 
  |> "y m m" <| [
 
@@ -26514,26 +25019,21 @@ cluster_1413 = cluster
                               `plural`     FaCAL |< At ]
 
 
-cluster_1414 = cluster
 
- |> "y l m .z" <| [
-
-    KiRDAS                    `noun`    {- <yilmA.z> -}        [ "Yilmaz" ] ]
-
-
-cluster_1415 = cluster
+cluster_1232 = cluster
 
  |> "y h d" <| [
 
-    FaCUL |< Iy               `adj`     {- <yahUdIy> -}        [ "Jewish" ],
-
-    FaCUL |< Iy               `adj`     {- <yahUdIy> -}        [ "Jew" ]
+    FaCUL |< Iy               `adj`     {- <yahUdIy> -}        [ "" {- "Jewish" -} ]
                               `plural`     FaCUL,
 
-    FaCUL |< Iy |< aT         `noun`    {- <yahUdIyaT> -}      [ "Judaism" ] ]
+    FaCUL |< Iy               `noun`    {- <yahUdIy> -}        [ "Jew" ]
+                              `plural`     FaCUL,
+
+    FaCUL |< Iy |< aT         `noun`    {- <yahUdIyaT> -}      [ "" {- "Judaism" -} ] ]
 
 
-cluster_1416 = cluster
+cluster_1233 = cluster
 
  |> "y f `" <| [
 
@@ -26553,7 +25053,7 @@ cluster_1416 = cluster
 
     FaCAL                     `noun`    {- <yafA`> -}          [ "hill" ],
 
-    FACiL                     `noun`    {- <yAfi`> -}          [ "Yafie" ],
+    FACiL                     `noun`    {- <yAfi`> -}          [ "" {- "Yafie" -} ],
 
     FACiL                     `noun`    {- <yAfi`> -}          [ "adolescent", "teenager" ]
                               `plural`     FACiL |< Un
@@ -26561,14 +25061,14 @@ cluster_1416 = cluster
     `derives` feminine ]
 
 
-cluster_1417 = cluster
+cluster_1234 = cluster
 
  |> "y f _t" <| [
 
-    FACiL                     `noun`    {- <yAfi_t> -}         [ "Yafith", "Japheth" ] ]
+    "yAfi_t"                  `noun`    {- <yAfi_t> -}         [ "" {- "Yafith" -}, "" {- "Japheth" -} ] ]
 
 
-cluster_1418 = cluster
+cluster_1235 = cluster
 
  |> "y f _h" <| [
 
@@ -26576,7 +25076,7 @@ cluster_1418 = cluster
                               `plural`     FawACIL ]
 
 
-cluster_1419 = cluster
+cluster_1236 = cluster
 
  |> "y m n" <| [
 
@@ -26597,31 +25097,25 @@ cluster_1419 = cluster
 
     FuCL                      `noun`    {- <yumn> -}           [ unwords [ "good", "fortune" ], "success" ],
 
-    FaCaL                     `noun`    {- <yaman> -}          [ unwords [ "right", "side" ] ]
-                              `plural`     FaCL |< aT,
+    FaCaL                     `noun`    {- <yaman> -}          [ unwords [ "right", "side" ] ],
 
-    FaCaL |<< "aN"            `noun`    {- <yamanaN> -}        [ unwords [ "to", "the", "right" ] ]
-                              `plural`     FaCaL,
+    FaCL |< aT                `noun`    {- <yamnaT> -}         [ unwords [ "right", "side" ] ],
 
-    FaCaL |<< "aN"            `noun`    {- <yamanaN> -}        [ unwords [ "to", "the", "south" ] ]
-                              `plural`     FaCaL,
+    FaCaL |<< "aN"            `noun`    {- <yamanaN> -}        [ unwords [ "to", "the", "right" ], unwords [ "to", "the", "south" ] ],
 
-    FaCL |< aT                `noun`    {- <yamnaT> -}         [ unwords [ "to", "the", "right" ] ],
+    FaCL |< aT |<< "aN"       `noun`    {- <yamnaTaN> -}       [ unwords [ "to", "the", "right" ], unwords [ "to", "the", "south" ] ],
 
-    FaCL |< aT                `noun`    {- <yamnaT> -}         [ unwords [ "to", "the", "south" ] ],
+    FaCaL                     `noun`    {- <yaman> -}          [ "" {- "Yemen" -} ],
 
-    FaCaL                     `noun`    {- <yaman> -}          [ "Yemen" ],
+    FaCaL |< Iy               `adj`     {- <yamanIy> -}        [ "" {- "Yemeni" -} ],
 
-    FaCaL |< Iy               `adj`     {- <yamanIy> -}        [ "Yemeni" ],
+    FaCAL |< Iy               `adj`     {- <yamAnIy> -}        [ "" {- "Yemeni" -} ],
 
-    FaCAL |< Iy               `adj`     {- <yamAnIy> -}        [ "Yemeni" ],
-
-    FaCAL |< Iy               `adj`     {- <yamAnIy> -}        [ "Yamani" ],
+    FaCAL |< Iy               `adj`     {- <yamAnIy> -}        [ "" {- "Yamani" -} ],
 
     FaCIL                     `noun`    {- <yamIn> -}          [ unwords [ "right", "side" ], unwords [ "right", "hand" ] ],
 
-    FaCIL |<< "aN"            `noun`    {- <yamInaN> -}        [ unwords [ "to", "the", "right" ] ]
-                              `plural`     FaCIL,
+    FaCIL |<< "aN"            `noun`    {- <yamInaN> -}        [ unwords [ "to", "the", "right" ] ],
 
     FaCIL                     `noun`    {- <yamIn> -}          [ "oath" ]
                               `plural`     HaFCAL
@@ -26629,14 +25123,14 @@ cluster_1419 = cluster
 
     FaCIL |< Iy               `adj`     {- <yamInIy> -}        [ "rightist", unwords [ "right", "-", "wing" ] ],
 
-    HaFCaL                    `noun`    {- <'ayman> -}         [ "Ayman", "Aiman" ],
+    HaFCaL                    `noun`    {- <'ayman> -}         [ "" {- "Ayman" -}, "" {- "Aiman" -} ],
 
     HaFCaL                    `adj`     {- <'ayman> -}         [ "right", unwords [ "right", "hand" ], "lucky" ],
 
     FuCLY                     `adj`     {- <yumnY> -}          [ unwords [ "right", "hand" ], unwords [ "right", "side" ], "lucky" ]
                               `plural`     FuCLY |< At,
 
-    FuCLY                     `noun`    {- <yumnY> -}          [ "Youmna", "Yumna" ],
+    FuCLY                     `noun`    {- <yumnY> -}          [ "" {- "Youmna" -}, "" {- "Yumna" -} ],
 
     MaFCaL |< aT              `noun`    {- <maymanaT> -}       [ unwords [ "right", "wing" ], unwords [ "right", "side" ] ]
                               `plural`     MaFACiL,
@@ -26654,42 +25148,34 @@ cluster_1419 = cluster
                            
     `derives` feminine,
 
-    FACUL                     `noun`    {- <yAmUn> -}          [ "Yamoun" ] ]
+    FACUL                     `noun`    {- <yAmUn> -}          [ "" {- "Yamoun" -} ] ]
 
 
-cluster_1420 = cluster
+cluster_1237 = cluster
 
  |> "y n y r" <| [
 
-    KaRADiS                   `noun`    {- <yanAyir> -}        [ "January" ] ]
+    "yanAyir"                 `noun`    {- <yanAyir> -}        [ "" {- "January" -} ] ]
 
 
-cluster_1421 = cluster
 
- |> "y n y" <| [
-
-    FiC                       `noun`    {- <yin> -}            [ "Yen" ] ]
-
-
-cluster_1422 = cluster
+cluster_1238 = cluster
 
  |> "y n s n" <| [
 
     KaRDUS                    `noun`    {- <yansUn> -}         [ "aniseed", "anise" ] ]
 
 
-cluster_1423 = cluster
+cluster_1239 = cluster
 
  |> "y n n" <| [
 
-    FiL                       `noun`    {- <yin> -}            [ "Yen" ],
+    "yUnAn"                   `noun`    {- <yUnAn> -}          [ "" {- "Greece" -} ],
 
-    FUCAL                     `noun`    {- <yUnAn> -}          [ "Greece" ],
-
-    FUCAL |< Iy               `adj`     {- <yUnAnIy> -}        [ "Greek" ] ]
+    "yUnAn" |< Iy             `adj`     {- <yUnAnIy> -}        [ "" {- "Greek" -} ] ]
 
 
-cluster_1424 = cluster
+cluster_1240 = cluster
 
  |> "y n `" <| [
 
@@ -26712,14 +25198,8 @@ cluster_1424 = cluster
                               `plural`     FaCL |< aT ]
 
 
-cluster_1425 = cluster
 
- |> "y n ^s" <| [
-
-    FUCAL                     `noun`    {- <yUnA^s> -}         [ "Jonas" ] ]
-
-
-cluster_1426 = cluster
+cluster_1241 = cluster
 
  |> "y q .z" <| [
 
@@ -26741,14 +25221,13 @@ cluster_1426 = cluster
                               `plural`     FaCuL |< aT
                               `plural`     HaFCAL,
 
-    FaCL |< aT                `noun`    {- <yaq.zaT> -}        [ "alertness", "wakefulness" ]
-                              `plural`     FaCaL |< aT,
+    FaCL |< aT                `noun`    {- <yaq.zaT> -}        [ "alertness", "wakefulness" ],
 
-    FaCL |< aT                `noun`    {- <yaq.zaT> -}        [ "Yaqza" ],
+    FaCL |< aT                `noun`    {- <yaq.zaT> -}        [ "" {- "Yaqza" -} ],
 
     FaCLAn                    `adj`     {- <yaq.zAn> -}        [ "awake", "alert", "vigilant" ]
                               `plural`     FaCALY
-                              `plural`     FaCLY,
+                              `femini`     FaCLY,
 
     HICAL                     `noun`    {- <'IqA.z> -}         [ "awakening", "reveille" ]
                               `plural`     HICAL |< At,
@@ -26764,7 +25243,7 @@ cluster_1426 = cluster
     MustaFCiL                 `adj`     {- <mustayqi.z> -}     [ "awake" ] ]
 
 
-cluster_1427 = cluster
+cluster_1242 = cluster
 
  |> "y r `" <| [
 
@@ -26780,17 +25259,17 @@ cluster_1427 = cluster
     FaCAL                     `adj`     {- <yarA`> -}          [ "cowardly" ] ]
 
 
-cluster_1428 = cluster
+cluster_1243 = cluster
 
  |> "y q t" <| [
 
-    FACUL                     `noun`    {- <yAqUt> -}          [ "Yaqout" ],
+    FACUL                     `noun`    {- <yAqUt> -}          [ "" {- "Yaqout" -} ],
 
     FACUL                     `noun`    {- <yAqUt> -}          [ unwords [ "precious", "stone" ], "ruby" ]
                               `plural`     FawACIL ]
 
 
-cluster_1429 = cluster
+cluster_1244 = cluster
 
  |> "y q n" <| [
 
@@ -26829,32 +25308,32 @@ cluster_1429 = cluster
     MuFtaCiL                  `adj`     {- <muytaqin> -}       [ "confident" ] ]
 
 
-cluster_1430 = cluster
+cluster_1245 = cluster
 
  |> "y s n" <| [
 
-    MaFCUL                    `noun`    {- <maysUn> -}         [ "Maysoun", "Maisoun" ] ]
+    MaFCUL                    `noun`    {- <maysUn> -}         [ "" {- "Maysoun" -}, "" {- "Maisoun" -} ] ]
 
 
-cluster_1431 = cluster
+cluster_1246 = cluster
 
  |> "y s m n" <| [
 
-    KaRDIS                    `noun`    {- <yasmIn> -}         [ "Yasmin", "Yasmeen", "Jasmine" ],
+    "yasmIn"                  `noun`    {- <yasmIn> -}         [ "" {- "Yasmin" -}, "" {- "Yasmeen" -}, "" {- "Jasmine" -} ],
 
-    KaRDIS                    `noun`    {- <yasmIn> -}         [ "jasmine" ] ]
+    "yasmIn"                  `noun`    {- <yasmIn> -}         [ "jasmine" ] ]
 
 
-cluster_1432 = cluster
+cluster_1247 = cluster
 
  |> "y s `" <| [
 
-    FaCUL                     `noun`    {- <yasU`> -}          [ unwords [ "Jesus", "(", "in", "Christianity", ")" ], "Yasou" ],
+    "yasU`"                   `noun`    {- <yasU`> -}          [ unwords [ "" {- "Jesus" -}, "(", "in", "" {- "Christianity" -}, ")" ], "" {- "Yasou" -} ],
 
-    FaCUL |< Iy               `adj`     {- <yasU`Iy> -}        [ "Jesuit" ] ]
+    "yasU`" |< Iy             `adj`     {- <yasU`Iy> -}        [ "" {- "Jesuit" -} ] ]
 
 
-cluster_1433 = cluster
+cluster_1248 = cluster
 
  |> "y r q" <| [
 
@@ -26871,25 +25350,28 @@ cluster_1433 = cluster
     MaFCUL                    `noun`    {- <mayrUq> -}         [ "jaundiced" ] ]
 
 
-cluster_1434 = cluster
+cluster_1249 = cluster
 
  |> "y r m k" <| [
 
-    KaRDUS                    `noun`    {- <yarmUk> -}         [ "Yarmouk" ],
+    "yarmUk"                  `noun`    {- <yarmUk> -}         [ "" {- "Yarmouk" -} ],
 
-    KaRDUS |< Iy              `adj`     {- <yarmUkIy> -}       [ unwords [ "from", "/", "of", "Yarmouk" ] ] ]
+    "yarmUk" |< Iy            `adj`     {- <yarmUkIy> -}       [ unwords [ "from", "/", "of", "" {- "Yarmouk" -} ] ] ]
 
 
-cluster_1435 = cluster
+cluster_1250 = cluster
 
  |> "y r d" <| [
 
-    FACL |< aT                `noun`    {- <yArdaT> -}         [ "yard" ] ]
+    "yArd" |< aT              `noun`    {- <yArdaT> -}         [ "yard" ]
+                              `plural`     "yArd" |< At ]
 
 
-cluster_1436 = cluster
+cluster_1251 = cluster
 
  |> "y s r" <| [
+
+    FuCL |< Iy                `noun`    {- <yusrIy> -}         [ "" {- "Yusri" -}, "" {- "Yosri" -} ],
 
     FaCiL                     `verb`    {- <yasir> -}          [ unwords [ "become", "easy" ] ]
                               `imperf`     FCaL,
@@ -26926,7 +25408,7 @@ cluster_1436 = cluster
 
     HaFCaL                    `noun`    {- <'aysar> -}         [ unwords [ "easier", "/", "easiest" ], unwords [ "smaller", "/", "smallest" ] ],
 
-    MaFCiL                    `noun`    {- <maysir> -}         [ unwords [ "maisir", "(", "pre", "-", "Islamic", "gambling", ")" ] ],
+    MaFCiL                    `noun`    {- <maysir> -}         [ unwords [ "maisir", "(", "pre", "-", "" {- "Islamic" -}, "gambling", ")" ] ],
 
     MaFCaL |< aT              `noun`    {- <maysaraT> -}       [ unwords [ "left", "wing" ], unwords [ "left", "side" ] ]
                               `plural`     MaFACiL,
@@ -26937,9 +25419,9 @@ cluster_1436 = cluster
     TaFCIL                    `noun`    {- <taysIr> -}         [ "facilitation" ]
                               `plural`     TaFCIL |< At,
 
-    TaFCIL                    `noun`    {- <taysIr> -}         [ "Taiseer" ],
+    TaFCIL                    `noun`    {- <taysIr> -}         [ "" {- "Taiseer" -} ],
 
-    FACiL                     `noun`    {- <yAsir> -}          [ "Yasser", "Yasir" ],
+    FACiL                     `noun`    {- <yAsir> -}          [ "" {- "Yasser" -}, "" {- "Yasir" -} ],
 
     MaFCUL                    `noun`    {- <maysUr> -}         [ unwords [ "easily", "accomplished" ], "feasible", unwords [ "well", "-", "to", "-", "do" ] ]
                               `plural`     MaFACIL,
@@ -26959,32 +25441,26 @@ cluster_1436 = cluster
     `derives` feminine ]
 
 
-cluster_1437 = cluster
+cluster_1252 = cluster
 
  |> "y w d" <| [
 
     FaCCaL                    `verb`    {- <yawwad> -}         [ "iodize", "iodine" ] ]
 
 
-cluster_1438 = cluster
+cluster_1253 = cluster
 
  |> "y w b l" <| [
 
     "yUbIl"                   `noun`    {- <yUbIl> -}          [ "jubilee" ] ]
 
 
-cluster_1439 = cluster
 
- |> "y w ^g n" <| [
-
-    "yU^gIn"                  `noun`    {- <yU^gIn> -}         [ "Eugene" ] ]
-
-
-cluster_1440 = cluster
+cluster_1254 = cluster
 
  |> "y t m" <| [
 
-    FACUL                     `noun`    {- <yAtUm> -}          [ "Yatom" ],
+    FACUL                     `noun`    {- <yAtUm> -}          [ "" {- "Yatom" -} ],
 
     FaCaL                     `verb`    {- <yatam> -}          [ unwords [ "be", "orphaned" ] ]
                               `imperf`     FCiL,
@@ -27014,36 +25490,18 @@ cluster_1440 = cluster
     `derives` feminine ]
 
 
-cluster_1441 = cluster
-
- |> "y s y" <| [
-
-    FUCI                      `noun`    {- <yUsI> -}           [ "Yosi", "Yossi" ] ]
 
 
-cluster_1442 = cluster
-
- |> "y s r y" <| [
-
-    KuRDI                     `noun`    {- <yusrI> -}          [ "Yusri", "Yosri" ] ]
-
-
-cluster_1443 = cluster
+cluster_1255 = cluster
 
  |> "y w r w" <| [
 
-    "yUrU"                    `noun`    {- <yUrU> -}           [ "Euro" ]
-                              `plural`     "yUrUh" |< At ]
+    "yUrU"                    `noun`    {- <yUrU> -}           [ "" {- "Euro" -} ]
+                              `plural`     "yUrU" |< At ]
 
 
-cluster_1444 = cluster
 
- |> "y w r n" <| [
-
-    "yUrIn"                   `noun`    {- <yUrIn> -}          [ "Uhrin" ] ]
-
-
-cluster_1445 = cluster
+cluster_1256 = cluster
 
  |> "y w r" <| [
 
@@ -27051,30 +25509,10 @@ cluster_1445 = cluster
                               `plural`     FACiL |< Iy |< aT ]
 
 
-cluster_1446 = cluster
-
- |> "y w n s" <| [
-
-    "yUnis"                   `noun`    {- <yUnis> -}          [ "Yunis", "Younis", "Jonah" ] ]
 
 
-cluster_1447 = cluster
 
- |> "y w n n" <| [
-
-    "yUnAn"                   `noun`    {- <yUnAn> -}          [ "Greece" ],
-
-    "yUnAn" |< Iy             `adj`     {- <yUnAnIy> -}        [ "Greek" ] ]
-
-
-cluster_1448 = cluster
-
- |> "y w n ^s" <| [
-
-    "yUnA^s"                  `noun`    {- <yUnA^s> -}         [ "Jonas" ] ]
-
-
-cluster_1449 = cluster
+cluster_1257 = cluster
 
  |> "y w m" <| [
 
@@ -27087,7 +25525,7 @@ cluster_1449 = cluster
 
     FaCL                      `noun`    {- <yawm> -}           [ "today" ],
 
-    FaCL                      `noun`    {- <yawm> -}           [ "Youm" ],
+    FaCL                      `noun`    {- <yawm> -}           [ "" {- "Youm" -} ],
 
     FaCL |< Iy                `adj`     {- <yawmIy> -}         [ "daily", unwords [ "per", "diem" ], unwords [ "on", "a", "daily", "basis" ] ],
 
@@ -27103,14 +25541,14 @@ cluster_1449 = cluster
     `derives` feminine ]
 
 
-cluster_1450 = cluster
+cluster_1258 = cluster
 
  |> "y z l" <| [
 
     FACUL                     `noun`    {- <yAzUl> -}          [ unwords [ "wild", "garlic" ] ] ]
 
 
-cluster_1451 = cluster
+cluster_1259 = cluster
 
  |> "y z k" <| [
 
@@ -27118,64 +25556,28 @@ cluster_1451 = cluster
                               `plural`     FaCaL ]
 
 
-cluster_1452 = cluster
 
- |> "y z d" <| [
-
-    FaCIL |< Iy               `adj`     {- <yazIdIy> -}        [ "Yazidi" ] ]
-
-
-cluster_1453 = cluster
+cluster_1260 = cluster
 
  |> "y z ^g" <| [
 
-    FACiL |< Iy               `adj`     {- <yAzi^gIy> -}       [ "Yaziji" ] ]
-
-
-cluster_1454 = cluster
-
- |> "y y y" <| [
-
-    "yI"                      `noun`    {- <yI> -}             [ "Yi" ] ]
-
-
-cluster_1455 = cluster
-
- |> "y w w" <| [
-
-    "yU"                      `noun`    {- <yU> -}             [ "Yo", "Yu" ] ]
-
-
-cluster_1456 = cluster
-
- |> "" <| [
-
-    "yUsU"                    `noun`    {- <yUsU> -}           [ "Jusso", "Yusso" ] ]
+    FACiL |< Iy               `adj`     {- <yAzi^gIy> -}       [ "" {- "Yaziji" -} ] ]
 
 
 
- |> "y w s y" <| [
-
-    "yUsI"                    `noun`    {- <yUsI> -}           [ "Yosi", "Yossi" ] ]
 
 
-cluster_1457 = cluster
+cluster_1261 = cluster
 
  |> "y w s f" <| [
 
-    "yUsif"                   `noun`    {- <yUsif> -}          [ "Yousif", "Yusif", "Joseph" ],
+    "yUsuf"                   `noun`    {- <yUsuf> -}          [ "" {- "Yousif" -}, "" {- "Yusif" -}, "" {- "Joseph" -} ],
 
     "yUsuf" |< Iy             `adj`     {- <yUsufIy> -}        [ "tangerines" ] ]
 
 
-cluster_1458 = cluster
 
- |> "y w r y" <| [
-
-    "yUrI"                    `noun`    {- <yUrI> -}           [ "Youri", "Yuri" ] ]
-
-
-cluster_1459 = cluster
+cluster_1262 = cluster
 
  |> "w ' y" <| [
 
@@ -27183,7 +25585,7 @@ cluster_1459 = cluster
                               `imperf`     CI ]
 
 
-cluster_1460 = cluster
+cluster_1263 = cluster
 
  |> ".h w w" <| [
 
@@ -27191,12 +25593,6 @@ cluster_1460 = cluster
 
     HaFCY                     `adj`     {- <'a.hwY> -}         [ "dark-colored" ] ]
 
-
-cluster_1461 = cluster
-
- |> ".h l w" <| [
-
-    IFCawCY                   `verb`    {- <i.hlawlY> -}       [ unwords [ "be", "sweet" ] ] ]
 
 
 
@@ -28462,205 +26858,7 @@ section = [ cluster_1,
             cluster_1260,
             cluster_1261,
             cluster_1262,
-            cluster_1263,
-            cluster_1264,
-            cluster_1265,
-            cluster_1266,
-            cluster_1267,
-            cluster_1268,
-            cluster_1269,
-            cluster_1270,
-            cluster_1271,
-            cluster_1272,
-            cluster_1273,
-            cluster_1274,
-            cluster_1275,
-            cluster_1276,
-            cluster_1277,
-            cluster_1278,
-            cluster_1279,
-            cluster_1280,
-            cluster_1281,
-            cluster_1282,
-            cluster_1283,
-            cluster_1284,
-            cluster_1285,
-            cluster_1286,
-            cluster_1287,
-            cluster_1288,
-            cluster_1289,
-            cluster_1290,
-            cluster_1291,
-            cluster_1292,
-            cluster_1293,
-            cluster_1294,
-            cluster_1295,
-            cluster_1296,
-            cluster_1297,
-            cluster_1298,
-            cluster_1299,
-            cluster_1300,
-            cluster_1301,
-            cluster_1302,
-            cluster_1303,
-            cluster_1304,
-            cluster_1305,
-            cluster_1306,
-            cluster_1307,
-            cluster_1308,
-            cluster_1309,
-            cluster_1310,
-            cluster_1311,
-            cluster_1312,
-            cluster_1313,
-            cluster_1314,
-            cluster_1315,
-            cluster_1316,
-            cluster_1317,
-            cluster_1318,
-            cluster_1319,
-            cluster_1320,
-            cluster_1321,
-            cluster_1322,
-            cluster_1323,
-            cluster_1324,
-            cluster_1325,
-            cluster_1326,
-            cluster_1327,
-            cluster_1328,
-            cluster_1329,
-            cluster_1330,
-            cluster_1331,
-            cluster_1332,
-            cluster_1333,
-            cluster_1334,
-            cluster_1335,
-            cluster_1336,
-            cluster_1337,
-            cluster_1338,
-            cluster_1339,
-            cluster_1340,
-            cluster_1341,
-            cluster_1342,
-            cluster_1343,
-            cluster_1344,
-            cluster_1345,
-            cluster_1346,
-            cluster_1347,
-            cluster_1348,
-            cluster_1349,
-            cluster_1350,
-            cluster_1351,
-            cluster_1352,
-            cluster_1353,
-            cluster_1354,
-            cluster_1355,
-            cluster_1356,
-            cluster_1357,
-            cluster_1358,
-            cluster_1359,
-            cluster_1360,
-            cluster_1361,
-            cluster_1362,
-            cluster_1363,
-            cluster_1364,
-            cluster_1365,
-            cluster_1366,
-            cluster_1367,
-            cluster_1368,
-            cluster_1369,
-            cluster_1370,
-            cluster_1371,
-            cluster_1372,
-            cluster_1373,
-            cluster_1374,
-            cluster_1375,
-            cluster_1376,
-            cluster_1377,
-            cluster_1378,
-            cluster_1379,
-            cluster_1380,
-            cluster_1381,
-            cluster_1382,
-            cluster_1383,
-            cluster_1384,
-            cluster_1385,
-            cluster_1386,
-            cluster_1387,
-            cluster_1388,
-            cluster_1389,
-            cluster_1390,
-            cluster_1391,
-            cluster_1392,
-            cluster_1393,
-            cluster_1394,
-            cluster_1395,
-            cluster_1396,
-            cluster_1397,
-            cluster_1398,
-            cluster_1399,
-            cluster_1400,
-            cluster_1401,
-            cluster_1402,
-            cluster_1403,
-            cluster_1404,
-            cluster_1405,
-            cluster_1406,
-            cluster_1407,
-            cluster_1408,
-            cluster_1409,
-            cluster_1410,
-            cluster_1411,
-            cluster_1412,
-            cluster_1413,
-            cluster_1414,
-            cluster_1415,
-            cluster_1416,
-            cluster_1417,
-            cluster_1418,
-            cluster_1419,
-            cluster_1420,
-            cluster_1421,
-            cluster_1422,
-            cluster_1423,
-            cluster_1424,
-            cluster_1425,
-            cluster_1426,
-            cluster_1427,
-            cluster_1428,
-            cluster_1429,
-            cluster_1430,
-            cluster_1431,
-            cluster_1432,
-            cluster_1433,
-            cluster_1434,
-            cluster_1435,
-            cluster_1436,
-            cluster_1437,
-            cluster_1438,
-            cluster_1439,
-            cluster_1440,
-            cluster_1441,
-            cluster_1442,
-            cluster_1443,
-            cluster_1444,
-            cluster_1445,
-            cluster_1446,
-            cluster_1447,
-            cluster_1448,
-            cluster_1449,
-            cluster_1450,
-            cluster_1451,
-            cluster_1452,
-            cluster_1453,
-            cluster_1454,
-            cluster_1455,
-            cluster_1456,
-            cluster_1457,
-            cluster_1458,
-            cluster_1459,
-            cluster_1460,
-            cluster_1461 ]
+            cluster_1263 ]
 
 
 

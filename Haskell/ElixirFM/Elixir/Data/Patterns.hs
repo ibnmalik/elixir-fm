@@ -84,6 +84,10 @@ instance Rules String where
                  in any (not . null) [t, q, l]
 
 
+    isInert r x | (not . null) x && last x `elem` "AIU" = True
+                | otherwise                             = False
+
+
     isDiptote x | x == "'il_ah"  = False
                 | otherwise      = True
 

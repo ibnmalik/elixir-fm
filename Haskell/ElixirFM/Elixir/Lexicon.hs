@@ -412,9 +412,21 @@ verb m l = Entry (morph m) (Verb forms [] [] [] justT justV) l (TagsVerb [], [])
 
 noun, adj, pron, num, adv, prep, conj, part, intj :: Morphing a b => a -> Reflex -> Entry b
 
-noun m l = Entry (morph m) (Noun [] Nothing Nothing Nothing) l (TagsNoun [], [])
+noun h l = Entry m (Noun [] Nothing Nothing Nothing) l (TagsNoun d, [])
 
-adj  m l = Entry (morph m) (Adj [] [] Nothing)               l (TagsAdj  [], [])
+    where Morphs t p s = morph h
+          (m, d) = case s of
+                Suffix "aN" : _ -> (Morphs t p (tail s), [TagsNounS [] [] [] [Singular]
+                                                                [Accusative] [indefinite]])
+                _               -> (Morphs t p s, [])
+
+adj  h l = Entry m (Adj [] [] Nothing)               l (TagsAdj  d, [])
+
+    where Morphs t p s = morph h
+          (m, d) = case s of
+                Suffix "aN" : _ -> (Morphs t p (tail s), [TagsAdjA  [] [] [] [Singular]
+                                                                [Accusative] [indefinite]])
+                _               -> (Morphs t p s, [])
 
 pron m l = Entry (morph m) Pron                              l (TagsPron [TagsPronS], [])
 

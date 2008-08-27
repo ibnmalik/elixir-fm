@@ -118,7 +118,7 @@ instance Inflect (Index, Lexicon) a where
                                             i <- inflect (Lexeme r s) y ]
 -}
 
-inflectIdx :: (Inflect Lexeme a, Lookup b [Wrap Nest]) => (b,[Wrap Nest]) -> a -> [Wrap TagRootMorphs]
+inflectIdx :: (Inflect Lexeme a, Lookup b) => (b, [Wrap Nest]) -> a -> [Wrap TagRootMorphs]
 
 inflectIdx (x, l) y = [ z | w <- lookup x l, z <- wraps (inflects y) w ]
 
@@ -1044,9 +1044,9 @@ inEntry Dual   e = case entity e of Noun l _ _ _ | null l    -> []
 inEntry _ e = [Right (morphs e)]
 
 
-inRules r c (d :-: a) y = ((,) root . article . endings c d a) m
+inRules q c (d :-: a) y = ((,) r . article . endings c d a) m
 
-    where (root, m@(Morphs t p s)) = either id (\ m -> (r, m)) y
+    where (r, m@(Morphs t p s)) = either id (\ m -> (q, m)) y
 
           article = case d of   Just True        -> case p of
 
@@ -1061,6 +1061,10 @@ inRules r c (d :-: a) y = ((,) root . article . endings c d a) m
                                 At : _           -> paraFeminine
                                 An : _           -> paraDual      `with` reduce
 
+                                Suffix "aN" : _  -> paraTriptote  `with` reduce
+
+                                _  | isInert r m -> (const . const . const) id
+                                
                                 _  | isDiptote m -> paraDiptote
                                 _                -> paraTriptote
 

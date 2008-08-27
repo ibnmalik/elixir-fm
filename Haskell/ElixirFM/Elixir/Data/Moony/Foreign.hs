@@ -1,4 +1,4 @@
-    
+
 module Elixir.Data.Moony.Foreign where
 
 import Elixir.Lexicon
@@ -13,7 +13,7 @@ cluster_1   = cluster
 
  |> "' .g d" <| [
 
-    "'I.gAd"                  `noun`    {- <'I.gAd> -}         [ unwords [ "EGAD", "(", "Economic", "Growth", "and", "Agricultural", "Development", ")" ] ] ]
+    "'I.gAd"                  `noun`    {- <'I.gAd> -}         [ unwords [ "EGAD", "(", "" {- "Economic" -}, "" {- "Growth" -}, "and", "" {- "Agricultural" -}, "" {- "Development" -}, ")" ] ] ]
 
 
 cluster_2   = cluster
@@ -32,35 +32,35 @@ cluster_2   = cluster
 
  |> "" <| [
 
-    "'Ubib"                   `noun`    {- <'Ubib> -}          [ unwords [ "OPEP", "(", "French", "for", "OPEC", ")" ] ] ]
+    "'Ubib"                   `noun`    {- <'Ubib> -}          [ unwords [ "OPEP", "(", "" {- "French" -}, "for", "OPEC", ")" ] ] ]
 
 
 cluster_3   = cluster
 
  |> "' b k" <| [
 
-    "'abIk"                   `noun`    {- <'abIk> -}          [ unwords [ "APEC", "(", "Asia", "-", "Pacific", "Economic", "Cooperation", ")" ] ] ]
+    "'abIk"                   `noun`    {- <'abIk> -}          [ unwords [ "APEC", "(", "" {- "Asia" -}, "-", "" {- "Pacific" -}, "" {- "Economic" -}, "" {- "Cooperation" -}, ")" ] ] ]
 
 
 cluster_4   = cluster
 
  |> "" <| [
 
-    "'akIs"                   `noun`    {- <'akIs> -}          [ "Akis" ] ]
+    "'akIs"                   `noun`    {- <'akIs> -}          [ "" {- "Akis" -} ] ]
 
 
 cluster_5   = cluster
 
  |> "' k s" <| [
 
-    "'awAks"                  `noun`    {- <'awAks> -}         [ unwords [ "AWACS", "(", "Airborne", "Warning", "and", "Control", "System", ")" ] ] ]
+    "'awAks"                  `noun`    {- <'awAks> -}         [ unwords [ "AWACS", "(", "" {- "Airborne" -}, "" {- "Warning" -}, "and", "" {- "Control" -}, "" {- "System" -}, ")" ] ] ]
 
 
 cluster_6   = cluster
 
  |> "" <| [
 
-    "'UtAr"                   `noun`    {- <'UtAr> -}          [ "Uttar" ] ]
+    "'UtAr"                   `noun`    {- <'UtAr> -}          [ "" {- "Uttar" -} ] ]
 
 
 cluster_7   = cluster
@@ -74,7 +74,7 @@ cluster_8   = cluster
 
  |> "f ' w" <| [
 
-    "fAw"                     `noun`    {- <fAw> -}            [ unwords [ "FAO", "(", "UN", "Food", "and", "Agriculture", "Organization", ")" ] ] ]
+    "fAw"                     `noun`    {- <fAw> -}            [ unwords [ "FAO", "(", "UN", "" {- "Food" -}, "and", "" {- "Agriculture" -}, "" {- "Organization" -}, ")" ] ] ]
 
 
 cluster_9   = cluster
@@ -88,49 +88,49 @@ cluster_10  = cluster
 
  |> "" <| [
 
-    "mIs"                     `noun`    {- <mIs> -}            [ unwords [ "MEES", "(", "Middle", "East", "Economic", "Survey", ")" ] ] ]
+    "mIs"                     `noun`    {- <mIs> -}            [ unwords [ "MEES", "(", "" {- "Middle" -}, "" {- "East" -}, "" {- "Economic" -}, "" {- "Survey" -}, ")" ] ] ]
 
 
 cluster_11  = cluster
 
  |> ".g" <| [
 
-    Identity |< At            `noun`    {- <.gAt> -}           [ "GATT" ] ]
+    _____ |< At               `noun`    {- <.gAt> -}           [ "GATT" ] ]
 
 
 cluster_12  = cluster
 
  |> "fIfA" <| [
 
-    Identity                  `noun`    {- <fIfA> -}           [ unwords [ "FIFA", "(", "Federation", "Internationale", "de", "Football", "Association", ")" ] ] ]
+    _____                     `noun`    {- <fIfA> -}           [ unwords [ "FIFA", "(", "" {- "Federation" -}, "" {- "Internationale" -}, "de", "" {- "Football" -}, "" {- "Association" -}, ")" ] ] ]
 
 
 cluster_13  = cluster
 
  |> "fImA" <| [
 
-    Identity                  `noun`    {- <fImA> -}           [ unwords [ "FEMA", "(", "Federal", "Emergency", "Management", "Agency", ")" ] ] ]
+    _____                     `noun`    {- <fImA> -}           [ unwords [ "FEMA", "(", "" {- "Federal" -}, "" {- "Emergency" -}, "" {- "Management" -}, "" {- "Agency" -}, ")" ] ] ]
 
 
 cluster_14  = cluster
 
  |> "fUtsI" <| [
 
-    Identity                  `noun`    {- <fUtsI> -}          [ unwords [ "FTSE", "(", "Financial", "Times", "Stock", "Exchange", ")" ] ] ]
+    _____                     `noun`    {- <fUtsI> -}          [ unwords [ "FTSE", "(", "" {- "Financial" -}, "" {- "Times" -}, "" {- "Stock" -}, "" {- "Exchange" -}, ")" ] ] ]
 
 
 cluster_15  = cluster
 
  |> "kUnkAkAf" <| [
 
-    Identity                  `noun`    {- <kUnkAkAf> -}       [ unwords [ "CONCACAF", "(", "Confederation", "of", "North,", "Central", "American", "and", "Caribbean", "Association", "Football", ")" ] ] ]
+    _____                     `noun`    {- <kUnkAkAf> -}       [ unwords [ "CONCACAF", "(", "" {- "Confederation" -}, "of", "" {- "North," -}, "" {- "Central" -}, "" {- "American" -}, "and", "" {- "Caribbean" -}, "" {- "Association" -}, "" {- "Football" -}, ")" ] ] ]
 
 
 cluster_16  = cluster
 
  |> "'IbUlA" <| [
 
-    Identity                  `noun`    {- <'IbUlA> -}         [ "Ebola" ] ]
+    _____                     `noun`    {- <'IbUlA> -}         [ "" {- "Ebola" -} ] ]
 
 
 
@@ -138,14 +138,14 @@ cluster_17  = cluster
 
  |> "'I.glz" <| [
 
-    Identity                  `noun`    {- <'I.glz> -}         [ "Eagles" ] ]
+    _____                     `noun`    {- <'I.glz> -}         [ "" {- "Eagles" -} ] ]
 
 
 cluster_18  = cluster
 
  |> "'AyA" <| [
 
-    Identity                  `noun`    {- <'AyA> -}           [ "Aya" ] ]
+    _____                     `noun`    {- <'AyA> -}           [ "Aya" ] ]
 
 
 
@@ -154,598 +154,596 @@ cluster_19  = cluster
 
  |> "'AnA" <| [
 
-    Identity                  `noun`    {- <'AnA> -}           [ "Anna" ] ]
-
-
-
-
+    _____                     `noun`    {- <'AnA> -}           [ "" {- "Anna" -} ] ]
 
 
 cluster_20  = cluster
 
- |> "'IliyA" <| [
+ |> "qInAn" <| [
 
-    Identity                  `noun`    {- <'IliyA> -}         [ "Ilya" ] ]
+    _____                     `noun`    {- <qInAn> -}          [ "" {- "Qinan" -} ] ]
 
 
 cluster_21  = cluster
 
- |> "'IlAhI" <| [
+ |> "'Ulimb" <| [
 
-    Identity                  `noun`    {- <'IlAhI> -}         [ "Elahe" ] ]
+    _____ |< Iy               `adj`     {- <'UlimbIy> -}       [ "" {- "Olympic" -} ] ]
+
+
+
+ |> "'UlimbiyAd" <| [
+
+    _____                     `noun`    {- <'UlimbiyAd> -}     [ "" {- "Olympiad" -}, "" {- "Olympics" -} ] ]
 
 
 cluster_22  = cluster
 
- |> "'IkhArd" <| [
+ |> "'a.harUnUt" <| [
 
-    Identity                  `noun`    {- <'IkhArd> -}        [ "Eckhard" ] ]
+    _____                     `noun`    {- <'a.harUnUt> -}     [ "" {- "Aharonot" -}, "" {- "Ahronot" -} ] ]
+
 
 
 cluster_23  = cluster
 
- |> "'IkUrInIm" <| [
+ |> "'IliyA" <| [
 
-    Identity                  `noun`    {- <'IkUrInIm> -}      [ "Ekorinim" ] ]
+    _____                     `noun`    {- <'IliyA> -}         [ "" {- "Ilya" -} ] ]
 
 
 cluster_24  = cluster
 
- |> "'IkUnUmIst" <| [
+ |> "'IlAhI" <| [
 
-    Identity                  `noun`    {- <'IkUnUmIst> -}     [ "Economist" ] ]
+    _____                     `noun`    {- <'IlAhI> -}         [ "" {- "Elahe" -} ] ]
 
 
 cluster_25  = cluster
 
- |> "'IkUnUmIk" <| [
+ |> "'IkhArd" <| [
 
-    Identity                  `noun`    {- <'IkUnUmIk> -}      [ "Economic" ] ]
+    _____                     `noun`    {- <'IkhArd> -}        [ "" {- "Eckhard" -} ] ]
 
 
 cluster_26  = cluster
 
- |> "'IhUdA" <| [
+ |> "'IkUrInIm" <| [
 
-    Identity                  `noun`    {- <'IhUdA> -}         [ "Ehuda" ] ]
+    _____                     `noun`    {- <'IkUrInIm> -}      [ "" {- "Ekorinim" -} ] ]
 
 
 cluster_27  = cluster
 
- |> "'IfIrt" <| [
+ |> "'IkUnUmIst" <| [
 
-    Identity                  `noun`    {- <'IfIrt> -}         [ "Evert" ] ]
+    _____                     `noun`    {- <'IkUnUmIst> -}     [ "" {- "Economist" -} ] ]
 
 
 cluster_28  = cluster
 
- |> "'IfIkA" <| [
+ |> "'IkUnUmIk" <| [
 
-    Identity                  `noun`    {- <'IfIkA> -}         [ "Ivica" ] ]
+    _____                     `noun`    {- <'IkUnUmIk> -}      [ "" {- "Economic" -} ] ]
 
 
 cluster_29  = cluster
 
- |> "'IfAndU" <| [
+ |> "'IhUdA" <| [
 
-    Identity                  `noun`    {- <'IfAndU> -}        [ "Ivando" ] ]
+    _____                     `noun`    {- <'IhUdA> -}         [ "" {- "Ehuda" -} ] ]
 
 
 cluster_30  = cluster
 
- |> "'IfAnUf" <| [
+ |> "'IfIrt" <| [
 
-    Identity                  `noun`    {- <'IfAnUf> -}        [ "Ivanoff", "Ivanov" ] ]
+    _____                     `noun`    {- <'IfIrt> -}         [ "" {- "Evert" -} ] ]
 
 
 cluster_31  = cluster
 
- |> "'IfAnIt^s" <| [
+ |> "'IfIkA" <| [
 
-    Identity                  `noun`    {- <'IfAnIt^s> -}      [ "Ivanic", "Ivanitch" ] ]
+    _____                     `noun`    {- <'IfIkA> -}         [ "" {- "Ivica" -} ] ]
 
 
 cluster_32  = cluster
 
- |> "'IfAnIsIfIt^s" <| [
+ |> "'IfAndU" <| [
 
-    Identity                  `noun`    {- <'IfAnIsIfIt^s> -}  [ "Ivanisevic" ] ]
+    _____                     `noun`    {- <'IfAndU> -}        [ "" {- "Ivando" -} ] ]
 
 
 cluster_33  = cluster
 
- |> "'IfA" <| [
+ |> "'IfAnUf" <| [
 
-    Identity                  `noun`    {- <'IfA> -}           [ "Eva" ] ]
-
-
-
+    _____                     `noun`    {- <'IfAnUf> -}        [ "" {- "Ivanoff" -}, "" {- "Ivanov" -} ] ]
 
 
 cluster_34  = cluster
 
- |> "'IdIn.gtUn" <| [
+ |> "'IfAnIt^s" <| [
 
-    Identity                  `noun`    {- <'IdIn.gtUn> -}     [ "Eddington", "Edington" ] ]
+    _____                     `noun`    {- <'IfAnIt^s> -}      [ "" {- "Ivanic" -}, "" {- "Ivanitch" -} ] ]
 
 
 cluster_35  = cluster
 
- |> "'IbirlI" <| [
+ |> "'IfAnIsIfIt^s" <| [
 
-    Identity                  `noun`    {- <'IbirlI> -}        [ "Eberly" ] ]
-
-
+    _____                     `noun`    {- <'IfAnIsIfIt^s> -}  [ "" {- "Ivanisevic" -} ] ]
 
 
 cluster_36  = cluster
 
- |> "'Irl" <| [
+ |> "'IfA" <| [
 
-    Identity                  `noun`    {- <'Irl> -}           [ "Earle" ] ]
+    _____                     `noun`    {- <'IfA> -}           [ "Eva" ] ]
+
+
+
 
 
 cluster_37  = cluster
 
- |> "'IrkUtsk" <| [
+ |> "'IdIn.gtUn" <| [
 
-    Identity                  `noun`    {- <'IrkUtsk> -}       [ "Irkutsk" ] ]
-
+    _____                     `noun`    {- <'IdIn.gtUn> -}     [ "" {- "Eddington" -}, "" {- "Edington" -} ] ]
 
 
 cluster_38  = cluster
 
- |> "'IrfAyn" <| [
+ |> "'IbirlI" <| [
 
-    Identity                  `noun`    {- <'IrfAyn> -}        [ "Irvine" ] ]
+    _____                     `noun`    {- <'IbirlI> -}        [ "" {- "Eberly" -} ] ]
+
+
 
 
 cluster_39  = cluster
 
- |> "'IrbA.s" <| [
+ |> "'Irl" <| [
 
-    Identity                  `noun`    {- <'IrbA.s> -}        [ "Airbus" ] ]
+    _____                     `noun`    {- <'Irl> -}           [ "" {- "Earle" -} ] ]
 
 
 cluster_40  = cluster
 
- |> "'InzA.gI" <| [
+ |> "'IrkUtsk" <| [
 
-    Identity                  `noun`    {- <'InzA.gI> -}       [ "Inzaghi" ] ]
+    _____                     `noun`    {- <'IrkUtsk> -}       [ "" {- "Irkutsk" -} ] ]
+
 
 
 cluster_41  = cluster
 
- |> "'InkfIst" <| [
+ |> "'IrfAyn" <| [
 
-    Identity                  `noun`    {- <'InkfIst> -}       [ "Enqvist" ] ]
+    _____                     `noun`    {- <'IrfAyn> -}        [ "" {- "Irvine" -} ] ]
 
 
 cluster_42  = cluster
 
- |> "'Inir^gI" <| [
+ |> "'IrbA.s" <| [
 
-    Identity                  `noun`    {- <'Inir^gI> -}       [ "Energy" ] ]
+    _____                     `noun`    {- <'IrbA.s> -}        [ "" {- "Airbus" -} ] ]
 
 
 cluster_43  = cluster
 
- |> "'InfAntI" <| [
+ |> "'InzA.gI" <| [
 
-    Identity                  `noun`    {- <'InfAntI> -}       [ "Infante" ] ]
+    _____                     `noun`    {- <'InzA.gI> -}       [ "" {- "Inzaghi" -} ] ]
 
 
 cluster_44  = cluster
 
- |> "'InIr^gI" <| [
+ |> "'InkfIst" <| [
 
-    Identity                  `noun`    {- <'InIr^gI> -}       [ "Energie" ] ]
+    _____                     `noun`    {- <'InkfIst> -}       [ "" {- "Enqvist" -} ] ]
 
 
 cluster_45  = cluster
 
- |> "'In.gI" <| [
+ |> "'Inir^gI" <| [
 
-    Identity                  `noun`    {- <'In.gI> -}         [ "Inge" ] ]
+    _____                     `noun`    {- <'Inir^gI> -}       [ "" {- "Energy" -} ] ]
 
 
 cluster_46  = cluster
 
- |> "'ImirtUn" <| [
+ |> "'InfAntI" <| [
 
-    Identity                  `noun`    {- <'ImirtUn> -}       [ "Emerton" ] ]
+    _____                     `noun`    {- <'InfAntI> -}       [ "" {- "Infante" -} ] ]
 
 
 cluster_47  = cluster
 
- |> "'ImirsUn" <| [
+ |> "'InIr^gI" <| [
 
-    Identity                  `noun`    {- <'ImirsUn> -}       [ "Emerson" ] ]
+    _____                     `noun`    {- <'InIr^gI> -}       [ "" {- "Energie" -} ] ]
 
 
 cluster_48  = cluster
 
- |> "'ImIliyU" <| [
+ |> "'In.gI" <| [
 
-    Identity                  `noun`    {- <'ImIliyU> -}       [ "Emilio" ] ]
+    _____                     `noun`    {- <'In.gI> -}         [ "" {- "Inge" -} ] ]
 
 
 cluster_49  = cluster
 
- |> "'ImAnuwIl" <| [
+ |> "'ImirtUn" <| [
 
-    Identity                  `noun`    {- <'ImAnuwIl> -}      [ "Emanuel", "Emmanuel" ] ]
+    _____                     `noun`    {- <'ImirtUn> -}       [ "" {- "Emerton" -} ] ]
 
 
 cluster_50  = cluster
 
- |> "'IlwAr" <| [
+ |> "'ImirsUn" <| [
 
-    Identity                  `noun`    {- <'IlwAr> -}         [ "Eluard" ] ]
+    _____                     `noun`    {- <'ImirsUn> -}       [ "" {- "Emerson" -} ] ]
 
 
 cluster_51  = cluster
 
- |> "'IluwIlU" <| [
+ |> "'ImIliyU" <| [
 
-    Identity                  `noun`    {- <'IluwIlU> -}       [ "Iloilo" ] ]
+    _____                     `noun`    {- <'ImIliyU> -}       [ "" {- "Emilio" -} ] ]
 
 
 cluster_52  = cluster
 
- |> "'IliyUt" <| [
+ |> "'ImAnuwIl" <| [
 
-    Identity                  `noun`    {- <'IliyUt> -}        [ "Eliot", "Elliott" ] ]
+    _____                     `noun`    {- <'ImAnuwIl> -}      [ "" {- "Emanuel" -}, "" {- "Emmanuel" -} ] ]
 
 
 cluster_53  = cluster
 
- |> "'UdInIzI" <| [
+ |> "'IlwAr" <| [
 
-    Identity                  `noun`    {- <'UdInIzI> -}       [ "Udinese" ] ]
+    _____                     `noun`    {- <'IlwAr> -}         [ "" {- "Eluard" -} ] ]
 
 
 cluster_54  = cluster
 
- |> "'UbzIrfir" <| [
+ |> "'IluwIlU" <| [
 
-    Identity                  `noun`    {- <'UbzIrfir> -}      [ "Observer" ] ]
+    _____                     `noun`    {- <'IluwIlU> -}       [ "" {- "Iloilo" -} ] ]
 
 
 cluster_55  = cluster
 
- |> "'UbrAdUfIt^s" <| [
+ |> "'IliyUt" <| [
 
-    Identity                  `noun`    {- <'UbrAdUfIt^s> -}   [ "Obradovic" ] ]
-
-
+    _____                     `noun`    {- <'IliyUt> -}        [ "" {- "Eliot" -}, "" {- "Elliott" -} ] ]
 
 
 cluster_56  = cluster
 
- |> "'UbAsAn^gU" <| [
+ |> "'UdInIzI" <| [
 
-    Identity                  `noun`    {- <'UbAsAn^gU> -}     [ "Obasanjo" ] ]
+    _____                     `noun`    {- <'UdInIzI> -}       [ "" {- "Udinese" -} ] ]
 
 
 cluster_57  = cluster
 
- |> "'U^sa`yAhU" <| [
+ |> "'UbzIrfir" <| [
 
-    Identity                  `noun`    {- <'U^sa`yAhU> -}     [ "Oshayahu" ] ]
+    _____                     `noun`    {- <'UbzIrfir> -}      [ "" {- "Observer" -} ] ]
 
 
 cluster_58  = cluster
 
- |> "'U^galAn" <| [
+ |> "'UbrAdUfIt^s" <| [
 
-    Identity                  `noun`    {- <'U^galAn> -}       [ "Ocalan", "Oujalan" ] ]
+    _____                     `noun`    {- <'UbrAdUfIt^s> -}   [ "" {- "Obradovic" -} ] ]
+
 
 
 
 cluster_59  = cluster
 
- |> "'U.gust" <| [
+ |> "'UbAsAn^gU" <| [
 
-    Identity                  `noun`    {- <'U.gust> -}        [ "Auguste" ] ]
-
-
-
+    _____                     `noun`    {- <'UbAsAn^gU> -}     [ "" {- "Obasanjo" -} ] ]
 
 
 cluster_60  = cluster
 
- |> "'ItA" <| [
+ |> "'U^sa`yAhU" <| [
 
-    Identity                  `noun`    {- <'ItA> -}           [ "ETA" ] ]
+    _____                     `noun`    {- <'U^sa`yAhU> -}     [ "" {- "Oshayahu" -} ] ]
 
 
 cluster_61  = cluster
 
- |> "'IstIbAn" <| [
+ |> "'U^galAn" <| [
 
-    Identity                  `noun`    {- <'IstIbAn> -}       [ "Esteban" ] ]
+    _____                     `noun`    {- <'U^galAn> -}       [ "" {- "Ocalan" -}, "" {- "Oujalan" -} ] ]
+
 
 
 cluster_62  = cluster
 
- |> "'Ist" <| [
+ |> "'U.gust" <| [
 
-    Identity                  `noun`    {- <'Ist> -}           [ "East" ] ]
+    _____                     `noun`    {- <'U.gust> -}        [ "" {- "Auguste" -} ] ]
+
 
 
 
 
 cluster_63  = cluster
 
- |> "'IsIfU" <| [
+ |> "'ItA" <| [
 
-    Identity                  `noun`    {- <'IsIfU> -}         [ unwords [ "Isifu", "?", "?" ] ] ]
+    _____                     `noun`    {- <'ItA> -}           [ "ETA" ] ]
 
 
 cluster_64  = cluster
 
- |> "'UlIfir" <| [
+ |> "'IstIbAn" <| [
 
-    Identity                  `noun`    {- <'UlIfir> -}        [ "Oliver" ] ]
+    _____                     `noun`    {- <'IstIbAn> -}       [ "" {- "Esteban" -} ] ]
 
 
 cluster_65  = cluster
 
- |> "'UlIfIrA" <| [
+ |> "'Ist" <| [
 
-    Identity                  `noun`    {- <'UlIfIrA> -}       [ "Oliveira" ] ]
+    _____                     `noun`    {- <'Ist> -}           [ "" {- "East" -} ] ]
+
+
 
 
 cluster_66  = cluster
 
- |> "'UlIfA" <| [
+ |> "'IsIfU" <| [
 
-    Identity                  `noun`    {- <'UlIfA> -}         [ "Oliva" ] ]
+    _____                     `noun`    {- <'IsIfU> -}         [ unwords [ "" {- "Isifu" -}, "?", "?" ] ] ]
 
 
 cluster_67  = cluster
 
- |> "'UlI^gAriyU" <| [
+ |> "'UlIfir" <| [
 
-    Identity                  `noun`    {- <'UlI^gAriyU> -}    [ "Oligario" ] ]
-
+    _____                     `noun`    {- <'UlIfir> -}        [ "" {- "Oliver" -} ] ]
 
 
 cluster_68  = cluster
 
- |> "'Ul.gA" <| [
+ |> "'UlIfIrA" <| [
 
-    Identity                  `noun`    {- <'Ul.gA> -}         [ "Olga" ] ]
-
+    _____                     `noun`    {- <'UlIfIrA> -}       [ "" {- "Oliveira" -} ] ]
 
 
 cluster_69  = cluster
 
- |> "'UksIr" <| [
+ |> "'UlIfA" <| [
 
-    Identity                  `noun`    {- <'UksIr> -}         [ "Auxerre" ] ]
-
-
+    _____                     `noun`    {- <'UlIfA> -}         [ "" {- "Oliva" -} ] ]
 
 
 cluster_70  = cluster
 
- |> "'UklAhUmA" <| [
+ |> "'UlI^gAriyU" <| [
 
-    Identity                  `noun`    {- <'UklAhUmA> -}      [ "Oklahoma" ] ]
+    _____                     `noun`    {- <'UlI^gAriyU> -}    [ "" {- "Oligario" -} ] ]
+
 
 
 cluster_71  = cluster
 
- |> "'UkInAwA" <| [
+ |> "'Ul.gA" <| [
 
-    Identity                  `noun`    {- <'UkInAwA> -}       [ "Okinawa" ] ]
-
+    _____                     `noun`    {- <'Ul.gA> -}         [ "" {- "Olga" -} ] ]
 
 
 
 cluster_72  = cluster
 
- |> "'UhAyU" <| [
+ |> "'UksIr" <| [
 
-    Identity                  `noun`    {- <'UhAyU> -}         [ "Ohio" ] ]
+    _____                     `noun`    {- <'UksIr> -}         [ "" {- "Auxerre" -} ] ]
+
 
 
 
 cluster_73  = cluster
 
- |> "'UfqIr" <| [
+ |> "'UklAhUmA" <| [
 
-    Identity                  `noun`    {- <'UfqIr> -}         [ "Oufkir" ] ]
+    _____                     `noun`    {- <'UklAhUmA> -}      [ "" {- "Oklahoma" -} ] ]
 
 
 cluster_74  = cluster
 
- |> "'UfiyIdU" <| [
+ |> "'UkInAwA" <| [
 
-    Identity                  `noun`    {- <'UfiyIdU> -}       [ "Oviedo" ] ]
+    _____                     `noun`    {- <'UkInAwA> -}       [ "" {- "Okinawa" -} ] ]
+
 
 
 
 cluster_75  = cluster
 
- |> "'UfItz" <| [
+ |> "'UhAyU" <| [
 
-    Identity                  `noun`    {- <'UfItz> -}         [ "Owitz", "Ovitz" ] ]
-
-
+    _____                     `noun`    {- <'UhAyU> -}         [ "" {- "Ohio" -} ] ]
 
 
 
 cluster_76  = cluster
 
- |> "'UnurwA" <| [
+ |> "'UfqIr" <| [
 
-    Identity                  `noun`    {- <'UnurwA> -}        [ unwords [ "UNRWA", "(", "UN", "Relief", "and", "Works", "Agency", ")" ] ] ]
+    _____                     `noun`    {- <'UfqIr> -}         [ "" {- "Oufkir" -} ] ]
 
 
 cluster_77  = cluster
 
- |> "'UntirhA_hIn.g" <| [
+ |> "'UfiyIdU" <| [
 
-    Identity                  `noun`    {- <'UntirhA_hIn.g> -} [ "Unterhaching" ] ]
+    _____                     `noun`    {- <'UfiyIdU> -}       [ "" {- "Oviedo" -} ] ]
+
 
 
 cluster_78  = cluster
 
- |> "'UnsIns" <| [
+ |> "'UfItz" <| [
 
-    Identity                  `noun`    {- <'UnsIns> -}        [ "Oncins" ] ]
+    _____                     `noun`    {- <'UfItz> -}         [ "" {- "Owitz" -}, "" {- "Ovitz" -} ] ]
+
+
+
 
 
 cluster_79  = cluster
 
- |> "'UnsAl" <| [
+ |> "'UnurwA" <| [
 
-    Identity                  `noun`    {- <'UnsAl> -}         [ "Unsal" ] ]
-
+    _____                     `noun`    {- <'UnurwA> -}        [ unwords [ "UNRWA", "(", "UN", "" {- "Relief" -}, "and", "" {- "Works" -}, "" {- "Agency" -}, ")" ] ] ]
 
 
 cluster_80  = cluster
 
- |> "'UnlAyn" <| [
+ |> "'UntirhA_hIn.g" <| [
 
-    Identity                  `noun`    {- <'UnlAyn> -}        [ "Online" ] ]
+    _____                     `noun`    {- <'UntirhA_hIn.g> -} [ "" {- "Unterhaching" -} ] ]
 
 
 cluster_81  = cluster
 
- |> "'UniskU" <| [
+ |> "'UnsIns" <| [
 
-    Identity                  `noun`    {- <'UniskU> -}        [ "UNESCO" ] ]
+    _____                     `noun`    {- <'UnsIns> -}        [ "" {- "Oncins" -} ] ]
 
 
 cluster_82  = cluster
 
- |> "'UndIkAnI" <| [
+ |> "'UnsAl" <| [
 
-    Identity                  `noun`    {- <'UndIkAnI> -}      [ "Ondekane" ] ]
+    _____                     `noun`    {- <'UnsAl> -}         [ "" {- "Unsal" -} ] ]
+
 
 
 cluster_83  = cluster
 
- |> "'UlyIt" <| [
+ |> "'UnlAyn" <| [
 
-    Identity                  `noun`    {- <'UlyIt> -}         [ "Ullyett" ] ]
+    _____                     `noun`    {- <'UnlAyn> -}        [ "" {- "Online" -} ] ]
 
 
 cluster_84  = cluster
 
- |> "'UlsUn" <| [
+ |> "'UniskU" <| [
 
-    Identity                  `noun`    {- <'UlsUn> -}         [ "Olson" ] ]
+    _____                     `noun`    {- <'UniskU> -}        [ "UNESCO" ] ]
 
 
 cluster_85  = cluster
 
- |> "'UlrIk" <| [
+ |> "'UndIkAnI" <| [
 
-    Identity                  `noun`    {- <'UlrIk> -}         [ "Ulrik" ] ]
-
-
+    _____                     `noun`    {- <'UndIkAnI> -}      [ "" {- "Ondekane" -} ] ]
 
 
 cluster_86  = cluster
 
- |> "'UlbrAyt" <| [
+ |> "'UlyIt" <| [
 
-    Identity                  `noun`    {- <'UlbrAyt> -}       [ "Albright" ] ]
+    _____                     `noun`    {- <'UlyIt> -}         [ "" {- "Ullyett" -} ] ]
 
 
 cluster_87  = cluster
 
- |> "'UlUsI.gUn" <| [
+ |> "'UlsUn" <| [
 
-    Identity                  `noun`    {- <'UlUsI.gUn> -}     [ "Olusegun" ] ]
+    _____                     `noun`    {- <'UlsUn> -}         [ "" {- "Olson" -} ] ]
 
 
 cluster_88  = cluster
 
- |> "'UlUmUk" <| [
+ |> "'UlrIk" <| [
 
-    Identity                  `noun`    {- <'UlUmUk> -}        [ "Olomouc" ] ]
+    _____                     `noun`    {- <'UlrIk> -}         [ "" {- "Ulrik" -} ] ]
+
+
 
 
 cluster_89  = cluster
 
- |> "'UlIfyIrA" <| [
+ |> "'UlbrAyt" <| [
 
-    Identity                  `noun`    {- <'UlIfyIrA> -}      [ "Oliviera" ] ]
+    _____                     `noun`    {- <'UlbrAyt> -}       [ "" {- "Albright" -} ] ]
 
 
 cluster_90  = cluster
 
- |> "'UsItiyA" <| [
+ |> "'UlUsI.gUn" <| [
 
-    Identity                  `noun`    {- <'UsItiyA> -}       [ "Ossetia" ] ]
+    _____                     `noun`    {- <'UlUsI.gUn> -}     [ "" {- "Olusegun" -} ] ]
 
 
 cluster_91  = cluster
 
- |> "'UsAsUnA" <| [
+ |> "'UlUmUk" <| [
 
-    Identity                  `noun`    {- <'UsAsUnA> -}       [ "Osasuna" ] ]
+    _____                     `noun`    {- <'UlUmUk> -}        [ "" {- "Olomouc" -} ] ]
 
 
 cluster_92  = cluster
 
- |> "'UsAkA" <| [
+ |> "'UlIfyIrA" <| [
 
-    Identity                  `noun`    {- <'UsAkA> -}         [ "Osaka" ] ]
-
-
-
-
-
+    _____                     `noun`    {- <'UlIfyIrA> -}      [ "" {- "Oliviera" -} ] ]
 
 
 cluster_93  = cluster
 
- |> "'UrlAndU" <| [
+ |> "'UsItiyA" <| [
 
-    Identity                  `noun`    {- <'UrlAndU> -}       [ "Orlando" ] ]
-
-
-
+    _____                     `noun`    {- <'UsItiyA> -}       [ "" {- "Ossetia" -} ] ]
 
 
 cluster_94  = cluster
 
- |> "'UrbAn" <| [
+ |> "'UsAsUnA" <| [
 
-    Identity                  `noun`    {- <'UrbAn> -}         [ "Orban", "Urban" ] ]
-
-
-
+    _____                     `noun`    {- <'UsAsUnA> -}       [ "" {- "Osasuna" -} ] ]
 
 
 cluster_95  = cluster
 
- |> "'UrIsUfIt^s" <| [
+ |> "'UsAkA" <| [
 
-    Identity                  `noun`    {- <'UrIsUfIt^s> -}    [ "Oresovic" ] ]
+    _____                     `noun`    {- <'UsAkA> -}         [ "" {- "Osaka" -} ] ]
+
+
+
+
+
 
 
 cluster_96  = cluster
 
- |> "'UrI_hA" <| [
+ |> "'UrlAndU" <| [
 
-    Identity                  `noun`    {- <'UrI_hA> -}        [ "Oreja" ] ]
+    _____                     `noun`    {- <'UrlAndU> -}       [ "" {- "Orlando" -} ] ]
+
+
+
 
 
 cluster_97  = cluster
 
- |> "'UrI.gUn" <| [
+ |> "'UrbAn" <| [
 
-    Identity                  `noun`    {- <'UrI.gUn> -}       [ "Oregon" ] ]
-
-
+    _____                     `noun`    {- <'UrbAn> -}         [ "" {- "Orban" -}, "" {- "Urban" -} ] ]
 
 
 
@@ -753,24 +751,24 @@ cluster_97  = cluster
 
 cluster_98  = cluster
 
- |> "'Uzayr" <| [
+ |> "'UrIsUfIt^s" <| [
 
-    Identity |< aT            `noun`    {- <'UzayraT> -}       [ "Ouzera" ] ]
+    _____                     `noun`    {- <'UrIsUfIt^s> -}    [ "" {- "Oresovic" -} ] ]
 
 
 cluster_99  = cluster
 
- |> "'UzIrIs" <| [
+ |> "'UrI_hA" <| [
 
-    Identity                  `noun`    {- <'UzIrIs> -}        [ "Osiris" ] ]
-
+    _____                     `noun`    {- <'UrI_hA> -}        [ "" {- "Oreja" -} ] ]
 
 
 cluster_100 = cluster
 
- |> "'Utri_ht" <| [
+ |> "'UrI.gUn" <| [
 
-    Identity                  `noun`    {- <'Utri_ht> -}       [ "Utrecht" ] ]
+    _____                     `noun`    {- <'UrI.gUn> -}       [ "" {- "Oregon" -} ] ]
+
 
 
 
@@ -779,649 +777,648 @@ cluster_100 = cluster
 
 cluster_101 = cluster
 
- |> "'UtAwA" <| [
+ |> "'Uzayr" <| [
 
-    Identity                  `noun`    {- <'UtAwA> -}         [ "Ottawa" ] ]
+    _____ |< aT               `noun`    {- <'UzayraT> -}       [ "" {- "Ouzera" -} ] ]
 
 
 cluster_102 = cluster
 
- |> "'UtArAn^sAl" <| [
+ |> "'UzIrIs" <| [
 
-    Identity                  `noun`    {- <'UtArAn^sAl> -}    [ "Uttaranchal" ] ]
+    _____                     `noun`    {- <'UzIrIs> -}        [ "" {- "Osiris" -} ] ]
+
 
 
 cluster_103 = cluster
 
- |> "'UstrAfA" <| [
+ |> "'Utri_ht" <| [
 
-    Identity                  `noun`    {- <'UstrAfA> -}       [ "Ostrava" ] ]
+    _____                     `noun`    {- <'Utri_ht> -}       [ "" {- "Utrecht" -} ] ]
+
+
+
+
 
 
 cluster_104 = cluster
 
- |> "'Ustin" <| [
+ |> "'UtAwA" <| [
 
-    Identity                  `noun`    {- <'Ustin> -}         [ "Austin" ] ]
+    _____                     `noun`    {- <'UtAwA> -}         [ "" {- "Ottawa" -} ] ]
 
 
 cluster_105 = cluster
 
- |> "'UslU" <| [
+ |> "'UtArAn^sAl" <| [
 
-    Identity                  `noun`    {- <'UslU> -}          [ "Oslo" ] ]
+    _____                     `noun`    {- <'UtArAn^sAl> -}    [ "" {- "Uttaranchal" -} ] ]
 
 
 cluster_106 = cluster
 
- |> "'UskAr" <| [
+ |> "'UstrAfA" <| [
 
-    Identity                  `noun`    {- <'UskAr> -}         [ "Oscar" ] ]
+    _____                     `noun`    {- <'UstrAfA> -}       [ "" {- "Ostrava" -} ] ]
 
 
 cluster_107 = cluster
 
- |> "'abU_tnayn" <| [
+ |> "'Ustin" <| [
 
-    Identity                  `noun`    {- <'abU_tnayn> -}     [ unwords [ "Abu", "Thnain" ], "Abuthain" ] ]
+    _____                     `noun`    {- <'Ustin> -}         [ "" {- "Austin" -} ] ]
 
 
 cluster_108 = cluster
 
- |> "'abU^sanab" <| [
+ |> "'UslU" <| [
 
-    Identity                  `noun`    {- <'abU^sanab> -}     [ unwords [ "Abu", "Shanab" ], "Abushanab" ] ]
+    _____                     `noun`    {- <'UslU> -}          [ "" {- "Oslo" -} ] ]
 
 
 cluster_109 = cluster
 
- |> "'abU^gA" <| [
+ |> "'UskAr" <| [
 
-    Identity                  `noun`    {- <'abU^gA> -}        [ "Abuja", "Abouja" ] ]
+    _____                     `noun`    {- <'UskAr> -}         [ "" {- "Oscar" -} ] ]
 
 
 cluster_110 = cluster
 
- |> "'abU.zabI" <| [
+ |> "'abU_tnayn" <| [
 
-    Identity                  `noun`    {- <'abU.zabI> -}      [ unwords [ "Abu", "Dhabi" ] ] ]
+    _____                     `noun`    {- <'abU_tnayn> -}     [ unwords [ "Abu", "" {- "Thnain" -} ], "" {- "Abuthain" -} ] ]
 
 
 cluster_111 = cluster
 
- |> "'abU.gunaym" <| [
+ |> "'abU^sanab" <| [
 
-    Identity                  `noun`    {- <'abU.gunaym> -}    [ unwords [ "Abu", "Ghunaim" ] ] ]
+    _____                     `noun`    {- <'abU^sanab> -}     [ unwords [ "Abu", "" {- "Shanab" -} ], "" {- "Abushanab" -} ] ]
 
 
 cluster_112 = cluster
 
- |> "'abId^gAn" <| [
+ |> "'abU^gA" <| [
 
-    Identity                  `noun`    {- <'abId^gAn> -}      [ "Abidjan" ] ]
+    _____                     `noun`    {- <'abU^gA> -}        [ "" {- "Abuja" -}, "" {- "Abouja" -} ] ]
 
 
 cluster_113 = cluster
 
- |> "'abAbA" <| [
+ |> "'abU.zabI" <| [
 
-    Identity                  `noun`    {- <'abAbA> -}         [ "Ababa" ] ]
-
-
+    _____                     `noun`    {- <'abU.zabI> -}      [ unwords [ "Abu", "" {- "Dhabi" -} ] ] ]
 
 
 cluster_114 = cluster
 
- |> "'a_tInA" <| [
+ |> "'abU.gunaym" <| [
 
-    Identity                  `noun`    {- <'a_tInA> -}        [ "Athens" ] ]
-
-
-
+    _____                     `noun`    {- <'abU.gunaym> -}    [ unwords [ "Abu", "" {- "Ghunaim" -} ] ] ]
 
 
 cluster_115 = cluster
 
- |> "'a^skrUft" <| [
+ |> "'abId^gAn" <| [
 
-    Identity                  `noun`    {- <'a^skrUft> -}      [ "Ashcroft" ] ]
+    _____                     `noun`    {- <'abId^gAn> -}      [ "" {- "Abidjan" -} ] ]
 
 
 cluster_116 = cluster
 
- |> "'a^skInAzI" <| [
+ |> "'abAbA" <| [
 
-    Identity                  `noun`    {- <'a^skInAzI> -}     [ "Ashkenazi" ] ]
+    _____                     `noun`    {- <'abAbA> -}         [ "" {- "Ababa" -} ] ]
+
 
 
 
 cluster_117 = cluster
 
- |> "'a.tlAntIk" <| [
+ |> "'a_tInA" <| [
 
-    Identity                  `noun`    {- <'a.tlAntIk> -}     [ "Atlantic" ] ]
+    _____                     `noun`    {- <'a_tInA> -}        [ "" {- "Athens" -} ] ]
+
+
+
 
 
 cluster_118 = cluster
 
- |> "'a.tlAn.tiq" <| [
+ |> "'a^skrUft" <| [
 
-    Identity |< Iy            `adj`     {- <'a.tlAn.tiqIy> -}  [ "Atlantic" ] ]
+    _____                     `noun`    {- <'a^skrUft> -}      [ "" {- "Ashcroft" -} ] ]
 
 
 cluster_119 = cluster
 
- |> "'a.tlAn.t" <| [
+ |> "'a^skInAzI" <| [
 
-    Identity |< Iy            `adj`     {- <'a.tlAn.tIy> -}    [ "Atlantic" ] ]
+    _____                     `noun`    {- <'a^skInAzI> -}     [ "" {- "Ashkenazi" -} ] ]
+
 
 
 cluster_120 = cluster
 
- |> "'admIrAl" <| [
+ |> "'a.tlAntIk" <| [
 
-    Identity                  `noun`    {- <'admIrAl> -}       [ "Admiral" ] ]
+    _____                     `noun`    {- <'a.tlAntIk> -}     [ "" {- "Atlantic" -} ] ]
 
 
 cluster_121 = cluster
 
- |> "'admIrA" <| [
+ |> "'a.tlAn.tiq" <| [
 
-    Identity                  `noun`    {- <'admIrA> -}        [ "Admira" ] ]
+    _____ |< Iy               `adj`     {- <'a.tlAn.tiqIy> -}  [ "" {- "Atlantic" -} ] ]
 
 
 cluster_122 = cluster
 
- |> "'adirn" <| [
+ |> "'a.tlAn.t" <| [
 
-    Identity |< aT            `noun`    {- <'adirnaT> -}       [ "Edirne", "Adrianople" ] ]
+    _____ |< Iy               `adj`     {- <'a.tlAn.tIy> -}    [ "" {- "Atlantic" -} ] ]
 
 
 cluster_123 = cluster
 
- |> "'adUnIs" <| [
+ |> "'admIrAl" <| [
 
-    Identity                  `noun`    {- <'adUnIs> -}        [ "Adonis" ] ]
+    _____                     `noun`    {- <'admIrAl> -}       [ "" {- "Admiral" -} ] ]
 
 
 cluster_124 = cluster
 
- |> "'adUmIm" <| [
+ |> "'admIrA" <| [
 
-    Identity                  `noun`    {- <'adUmIm> -}        [ "Adumim" ] ]
+    _____                     `noun`    {- <'admIrA> -}        [ "" {- "Admira" -} ] ]
 
 
 cluster_125 = cluster
 
- |> "'adUlfU" <| [
+ |> "'adirn" <| [
 
-    Identity                  `noun`    {- <'adUlfU> -}        [ "Adolfo" ] ]
+    _____ |< aT               `noun`    {- <'adirnaT> -}       [ "" {- "Edirne" -}, "" {- "Adrianople" -} ] ]
 
 
 cluster_126 = cluster
 
- |> "'adUlf" <| [
+ |> "'adUnIs" <| [
 
-    Identity                  `noun`    {- <'adUlf> -}         [ "Adolf" ] ]
+    _____                     `noun`    {- <'adUnIs> -}        [ "" {- "Adonis" -} ] ]
 
 
 cluster_127 = cluster
 
- |> "'adIltUn" <| [
+ |> "'adUmIm" <| [
 
-    Identity                  `noun`    {- <'adIltUn> -}       [ "Addleton" ] ]
-
+    _____                     `noun`    {- <'adUmIm> -}        [ "" {- "Adumim" -} ] ]
 
 
 cluster_128 = cluster
 
- |> "'abuwAllrA.gib" <| [
+ |> "'adUlfU" <| [
 
-    Identity                  `noun`    {- <'abuwAllrA.gib> -} [ unwords [ "Abu", "Al", "-", "Raghib" ] ] ]
+    _____                     `noun`    {- <'adUlfU> -}        [ "" {- "Adolfo" -} ] ]
 
 
 cluster_129 = cluster
 
- |> "'abuwAi_tnayn" <| [
+ |> "'adUlf" <| [
 
-    Identity                  `noun`    {- <'abuwAi_tnayn> -}  [ unwords [ "Abu", "Thnain" ], "Abuthain" ] ]
+    _____                     `noun`    {- <'adUlf> -}         [ "" {- "Adolf" -} ] ]
 
 
 cluster_130 = cluster
 
- |> "'abrAmz" <| [
+ |> "'adIltUn" <| [
 
-    Identity                  `noun`    {- <'abrAmz> -}        [ "Abrams" ] ]
+    _____                     `noun`    {- <'adIltUn> -}       [ "" {- "Addleton" -} ] ]
 
 
 
 cluster_131 = cluster
 
- |> "'abrAhAm" <| [
+ |> "'abuwAllrA.gib" <| [
 
-    Identity                  `noun`    {- <'abrAhAm> -}       [ "Abraham" ] ]
+    _____                     `noun`    {- <'abuwAllrA.gib> -} [ unwords [ "Abu", "Al", "-", "" {- "Raghib" -} ] ] ]
 
 
 cluster_132 = cluster
 
- |> "'abilmAns" <| [
+ |> "'abuwAi_tnayn" <| [
 
-    Identity                  `noun`    {- <'abilmAns> -}      [ "Appelmans" ] ]
+    _____                     `noun`    {- <'abuwAi_tnayn> -}  [ unwords [ "Abu", "" {- "Thnain" -} ], "" {- "Abuthain" -} ] ]
 
 
 cluster_133 = cluster
 
- |> "'abUzayd" <| [
+ |> "'abrAmz" <| [
 
-    Identity                  `noun`    {- <'abUzayd> -}       [ unwords [ "Abu", "Zeid" ] ] ]
+    _____                     `noun`    {- <'abrAmz> -}        [ "" {- "Abrams" -} ] ]
+
 
 
 cluster_134 = cluster
 
- |> "'abUrudayn" <| [
+ |> "'abrAhAm" <| [
 
-    Identity |< aT            `noun`    {- <'abUrudaynaT> -}   [ unwords [ "Abu", "Rudaina" ] ] ]
+    _____                     `noun`    {- <'abrAhAm> -}       [ "" {- "Abraham" -} ] ]
 
 
 cluster_135 = cluster
 
- |> "'abUmAzin" <| [
+ |> "'abilmAns" <| [
 
-    Identity                  `noun`    {- <'abUmAzin> -}      [ unwords [ "Abu", "Mazen" ], unwords [ "Abu", "Mazin" ] ] ]
+    _____                     `noun`    {- <'abilmAns> -}      [ "" {- "Appelmans" -} ] ]
 
 
 cluster_136 = cluster
 
- |> "'abUdIs" <| [
+ |> "'abUzayd" <| [
 
-    Identity                  `noun`    {- <'abUdIs> -}        [ unwords [ "Abu", "Dis" ] ] ]
+    _____                     `noun`    {- <'abUzayd> -}       [ unwords [ "Abu", "" {- "Zeid" -} ] ] ]
 
 
 cluster_137 = cluster
 
- |> "'abUbakr" <| [
+ |> "'abUrudayn" <| [
 
-    Identity                  `noun`    {- <'abUbakr> -}       [ unwords [ "Abu", "Bakr" ] ] ]
-
-
-
-
+    _____ |< aT               `noun`    {- <'abUrudaynaT> -}   [ unwords [ "Abu", "" {- "Rudaina" -} ] ] ]
 
 
 cluster_138 = cluster
 
- |> "'afrIkAnir" <| [
+ |> "'abUmAzin" <| [
 
-    Identity                  `noun`    {- <'afrIkAnir> -}     [ "Afrikaaner" ] ]
+    _____                     `noun`    {- <'abUmAzin> -}      [ unwords [ "Abu", "" {- "Mazen" -} ], unwords [ "Abu", "" {- "Mazin" -} ] ] ]
 
 
 cluster_139 = cluster
 
- |> "'afrAhAm" <| [
+ |> "'abUdIs" <| [
 
-    Identity                  `noun`    {- <'afrAhAm> -}       [ "Avraham" ] ]
-
-
-
-
-
+    _____                     `noun`    {- <'abUdIs> -}        [ unwords [ "Abu", "Dis" ] ] ]
 
 
 cluster_140 = cluster
 
- |> "'afIntA_hAdU" <| [
+ |> "'abUbakr" <| [
 
-    Identity                  `noun`    {- <'afIntA_hAdU> -}   [ "Aventajado" ] ]
+    _____                     `noun`    {- <'abUbakr> -}       [ unwords [ "Abu", "" {- "Bakr" -} ] ] ]
+
+
+
+
 
 
 cluster_141 = cluster
 
- |> "'afI.gdUr" <| [
+ |> "'afrIkAnir" <| [
 
-    Identity                  `noun`    {- <'afI.gdUr> -}      [ "Avigdor" ] ]
-
+    _____                     `noun`    {- <'afrIkAnir> -}     [ "" {- "Afrikaaner" -} ] ]
 
 
 cluster_142 = cluster
 
- |> "'adwArd" <| [
+ |> "'afrAhAm" <| [
 
-    Identity                  `noun`    {- <'adwArd> -}        [ "Edward", "Edouard" ] ]
+    _____                     `noun`    {- <'afrAhAm> -}       [ "" {- "Avraham" -} ] ]
+
+
+
+
+
 
 
 cluster_143 = cluster
 
- |> "'adriyAtIk" <| [
+ |> "'afIntA_hAdU" <| [
 
-    Identity                  `noun`    {- <'adriyAtIk> -}     [ "Adriatic" ] ]
+    _____                     `noun`    {- <'afIntA_hAdU> -}   [ "" {- "Aventajado" -} ] ]
 
 
 cluster_144 = cluster
 
- |> "'adriyAnU" <| [
+ |> "'afI.gdUr" <| [
 
-    Identity                  `noun`    {- <'adriyAnU> -}      [ "Adriano" ] ]
+    _____                     `noun`    {- <'afI.gdUr> -}      [ "" {- "Avigdor" -} ] ]
+
 
 
 cluster_145 = cluster
 
- |> "'adriyAn" <| [
+ |> "'adwArd" <| [
 
-    Identity                  `noun`    {- <'adriyAn> -}       [ "Adrian" ] ]
-
+    _____                     `noun`    {- <'adwArd> -}        [ "" {- "Edward" -}, "" {- "Edouard" -} ] ]
 
 
 cluster_146 = cluster
 
- |> "'albirtU" <| [
+ |> "'adriyAtIk" <| [
 
-    Identity                  `noun`    {- <'albirtU> -}       [ "Alberto" ] ]
+    _____                     `noun`    {- <'adriyAtIk> -}     [ "" {- "Adriatic" -} ] ]
 
 
 cluster_147 = cluster
 
- |> "'albirtInI" <| [
+ |> "'adriyAnU" <| [
 
-    Identity                  `noun`    {- <'albirtInI> -}     [ "Albertini" ] ]
+    _____                     `noun`    {- <'adriyAnU> -}      [ "" {- "Adriano" -} ] ]
 
 
 cluster_148 = cluster
 
- |> "'albirtA" <| [
+ |> "'adriyAn" <| [
 
-    Identity                  `noun`    {- <'albirtA> -}       [ "Alberta" ] ]
+    _____                     `noun`    {- <'adriyAn> -}       [ "" {- "Adrian" -} ] ]
+
 
 
 cluster_149 = cluster
 
- |> "'albirt" <| [
+ |> "'albirtU" <| [
 
-    Identity                  `noun`    {- <'albirt> -}        [ "Albert" ] ]
-
-
+    _____                     `noun`    {- <'albirtU> -}       [ "" {- "Alberto" -} ] ]
 
 
 cluster_150 = cluster
 
- |> "'alUnzU" <| [
+ |> "'albirtInI" <| [
 
-    Identity                  `noun`    {- <'alUnzU> -}        [ "Alonso", "Alonzo" ] ]
+    _____                     `noun`    {- <'albirtInI> -}     [ "" {- "Albertini" -} ] ]
 
 
 cluster_151 = cluster
 
- |> "'alIzAbI_t" <| [
+ |> "'albirtA" <| [
 
-    Identity                  `noun`    {- <'alIzAbI_t> -}     [ "Elizabeth" ] ]
+    _____                     `noun`    {- <'albirtA> -}       [ "" {- "Alberta" -} ] ]
 
 
 cluster_152 = cluster
 
- |> "'alIsiyU" <| [
+ |> "'albirt" <| [
 
-    Identity                  `noun`    {- <'alIsiyU> -}       [ "Alessio" ] ]
+    _____                     `noun`    {- <'albirt> -}        [ "" {- "Albert" -} ] ]
+
+
 
 
 cluster_153 = cluster
 
- |> "'alIsAndrU" <| [
+ |> "'alUnzU" <| [
 
-    Identity                  `noun`    {- <'alIsAndrU> -}     [ "Alessandro" ] ]
+    _____                     `noun`    {- <'alUnzU> -}        [ "" {- "Alonso" -}, "" {- "Alonzo" -} ] ]
 
 
 cluster_154 = cluster
 
- |> "'alIksIs" <| [
+ |> "'alIzAbI_t" <| [
 
-    Identity                  `noun`    {- <'alIksIs> -}       [ "Alex" ] ]
+    _____                     `noun`    {- <'alIzAbI_t> -}     [ "" {- "Elizabeth" -} ] ]
 
 
 cluster_155 = cluster
 
- |> "'alIks" <| [
+ |> "'alIsiyU" <| [
 
-    Identity                  `noun`    {- <'alIks> -}         [ "Alex" ] ]
+    _____                     `noun`    {- <'alIsiyU> -}       [ "" {- "Alessio" -} ] ]
 
 
 cluster_156 = cluster
 
- |> "'alI_hAndrU" <| [
+ |> "'alIsAndrU" <| [
 
-    Identity                  `noun`    {- <'alI_hAndrU> -}    [ "Alejandro" ] ]
+    _____                     `noun`    {- <'alIsAndrU> -}     [ "" {- "Alessandro" -} ] ]
 
 
 cluster_157 = cluster
 
- |> "'alAskA" <| [
+ |> "'alIksIs" <| [
 
-    Identity                  `noun`    {- <'alAskA> -}        [ "Alaska" ] ]
+    _____                     `noun`    {- <'alIksIs> -}       [ "" {- "Alex" -} ] ]
 
 
 cluster_158 = cluster
 
- |> "'alAbAmA" <| [
+ |> "'alIks" <| [
 
-    Identity                  `noun`    {- <'alAbAmA> -}       [ "Alabama" ] ]
-
-
+    _____                     `noun`    {- <'alIks> -}         [ "" {- "Alex" -} ] ]
 
 
 cluster_159 = cluster
 
- |> "'akbUbUrI" <| [
+ |> "'alI_hAndrU" <| [
 
-    Identity                  `noun`    {- <'akbUbUrI> -}      [ "Akpoborie" ] ]
+    _____                     `noun`    {- <'alI_hAndrU> -}    [ "" {- "Alejandro" -} ] ]
 
 
 cluster_160 = cluster
 
- |> "'ahUrA" <| [
+ |> "'alAskA" <| [
 
-    Identity                  `noun`    {- <'ahUrA> -}         [ "Ahora" ] ]
-
-
+    _____                     `noun`    {- <'alAskA> -}        [ "" {- "Alaska" -} ] ]
 
 
 cluster_161 = cluster
 
- |> "'amAzUn" <| [
+ |> "'alAbAmA" <| [
 
-    Identity                  `noun`    {- <'amAzUn> -}        [ "Amazon" ] ]
+    _____                     `noun`    {- <'alAbAmA> -}       [ "" {- "Alabama" -} ] ]
+
+
 
 
 cluster_162 = cluster
 
- |> "'amAndA" <| [
+ |> "'akbUbUrI" <| [
 
-    Identity                  `noun`    {- <'amAndA> -}        [ "Amanda" ] ]
+    _____                     `noun`    {- <'akbUbUrI> -}      [ "" {- "Akpoborie" -} ] ]
 
 
 cluster_163 = cluster
 
- |> "'amAdUrA" <| [
+ |> "'ahUrA" <| [
 
-    Identity                  `noun`    {- <'amAdUrA> -}       [ "Amadora" ] ]
+    _____                     `noun`    {- <'ahUrA> -}         [ "" {- "Ahora" -} ] ]
+
+
 
 
 cluster_164 = cluster
 
- |> "'alzhAymir" <| [
+ |> "'amAzUn" <| [
 
-    Identity                  `noun`    {- <'alzhAymir> -}     [ "Alzheimer", "Alzheimer's" ] ]
+    _____                     `noun`    {- <'amAzUn> -}        [ "" {- "Amazon" -} ] ]
 
 
 cluster_165 = cluster
 
- |> "'alzAmUrA" <| [
+ |> "'amAndA" <| [
 
-    Identity                  `noun`    {- <'alzAmUrA> -}      [ "Alzamora" ] ]
+    _____                     `noun`    {- <'amAndA> -}        [ "" {- "Amanda" -} ] ]
 
 
 cluster_166 = cluster
 
- |> "'almIdA" <| [
+ |> "'amAdUrA" <| [
 
-    Identity                  `noun`    {- <'almIdA> -}        [ "Almeda" ] ]
-
-
+    _____                     `noun`    {- <'amAdUrA> -}       [ "" {- "Amadora" -} ] ]
 
 
 cluster_167 = cluster
 
- |> "'alkAtU" <| [
+ |> "'alzhAymir" <| [
 
-    Identity                  `noun`    {- <'alkAtU> -}        [ "Alkato" ] ]
+    _____                     `noun`    {- <'alzhAymir> -}     [ "" {- "Alzheimer" -}, "" {- "Alzheimer's" -} ] ]
 
 
 cluster_168 = cluster
 
- |> "'aliskandar" <| [
+ |> "'alzAmUrA" <| [
 
-    Identity                  `noun`    {- <'aliskandar> -}    [ "Alexander" ] ]
+    _____                     `noun`    {- <'alzAmUrA> -}      [ "" {- "Alzamora" -} ] ]
 
 
 cluster_169 = cluster
 
- |> "'aliksandr" <| [
+ |> "'almIdA" <| [
 
-    Identity                  `noun`    {- <'aliksandr> -}     [ "Alexander" ] ]
+    _____                     `noun`    {- <'almIdA> -}        [ "" {- "Almeda" -} ] ]
+
+
 
 
 cluster_170 = cluster
 
- |> "'aliksAndrA" <| [
+ |> "'alkAtU" <| [
 
-    Identity                  `noun`    {- <'aliksAndrA> -}    [ "Aleksandra" ] ]
-
+    _____                     `noun`    {- <'alkAtU> -}        [ "" {- "Alkato" -} ] ]
 
 
 cluster_171 = cluster
 
- |> "'alfIrkA" <| [
+ |> "'aliskandar" <| [
 
-    Identity                  `noun`    {- <'alfIrkA> -}       [ "Alverca" ] ]
+    _____                     `noun`    {- <'aliskandar> -}    [ "" {- "Alexander" -} ] ]
 
 
 cluster_172 = cluster
 
- |> "'alfArU" <| [
+ |> "'aliksandr" <| [
 
-    Identity                  `noun`    {- <'alfArU> -}        [ "Alvaro" ] ]
-
+    _____                     `noun`    {- <'aliksandr> -}     [ "" {- "Alexander" -} ] ]
 
 
 cluster_173 = cluster
 
- |> "'an^gAlI" <| [
+ |> "'aliksAndrA" <| [
 
-    Identity                  `noun`    {- <'an^gAlI> -}       [ "Anjali" ] ]
-
-
+    _____                     `noun`    {- <'aliksAndrA> -}    [ "" {- "Aleksandra" -} ] ]
 
 
 
 cluster_174 = cluster
 
- |> "'anAtUlI" <| [
+ |> "'alfIrkA" <| [
 
-    Identity                  `noun`    {- <'anAtUlI> -}       [ "Anatoly" ] ]
+    _____                     `noun`    {- <'alfIrkA> -}       [ "" {- "Alverca" -} ] ]
 
 
 cluster_175 = cluster
 
- |> "'anAstAziyA" <| [
+ |> "'alfArU" <| [
 
-    Identity                  `noun`    {- <'anAstAziyA> -}    [ "Anastasia" ] ]
-
+    _____                     `noun`    {- <'alfArU> -}        [ "" {- "Alvaro" -} ] ]
 
 
 
 cluster_176 = cluster
 
- |> "'an.tuwAn" <| [
+ |> "'an^gAlI" <| [
 
-    Identity                  `noun`    {- <'an.tuwAn> -}      [ "Antoine", "Antoin" ] ]
+    _____                     `noun`    {- <'an^gAlI> -}       [ "" {- "Anjali" -} ] ]
+
+
+
 
 
 cluster_177 = cluster
 
- |> "'an.talyAs" <| [
+ |> "'anAtUlI" <| [
 
-    Identity                  `noun`    {- <'an.talyAs> -}     [ "Antalyas" ] ]
+    _____                     `noun`    {- <'anAtUlI> -}       [ "" {- "Anatoly" -} ] ]
 
 
 cluster_178 = cluster
 
- |> "'an.tUniyU" <| [
+ |> "'anAstAziyA" <| [
 
-    Identity                  `noun`    {- <'an.tUniyU> -}     [ "Antonio" ] ]
+    _____                     `noun`    {- <'anAstAziyA> -}    [ "" {- "Anastasia" -} ] ]
+
+
 
 
 cluster_179 = cluster
 
- |> "'an.tUnUf" <| [
+ |> "'an.tuwAn" <| [
 
-    Identity                  `noun`    {- <'an.tUnUf> -}      [ "Antonov" ] ]
-
+    _____                     `noun`    {- <'an.tuwAn> -}      [ "" {- "Antoine" -}, "" {- "Antoin" -} ] ]
 
 
 cluster_180 = cluster
 
- |> "'amstirdAm" <| [
+ |> "'an.talyAs" <| [
 
-    Identity                  `noun`    {- <'amstirdAm> -}     [ "Amsterdam" ] ]
-
+    _____                     `noun`    {- <'an.talyAs> -}     [ "" {- "Antalyas" -} ] ]
 
 
 cluster_181 = cluster
 
- |> "'amnistI" <| [
+ |> "'an.tUniyU" <| [
 
-    Identity                  `noun`    {- <'amnistI> -}       [ "Amnesty" ] ]
-
-
+    _____                     `noun`    {- <'an.tUniyU> -}     [ "" {- "Antonio" -} ] ]
 
 
 cluster_182 = cluster
 
- |> "'andirsUn" <| [
+ |> "'an.tUnUf" <| [
 
-    Identity                  `noun`    {- <'andirsUn> -}      [ "Anderson" ] ]
+    _____                     `noun`    {- <'an.tUnUf> -}      [ "" {- "Antonov" -} ] ]
+
 
 
 cluster_183 = cluster
 
- |> "'andirli_ht" <| [
+ |> "'amstirdAm" <| [
 
-    Identity                  `noun`    {- <'andirli_ht> -}    [ "Anderlecht" ] ]
-
-
-
+    _____                     `noun`    {- <'amstirdAm> -}     [ "" {- "Amsterdam" -} ] ]
 
 
 
 cluster_184 = cluster
 
- |> "'anastAy" <| [
+ |> "'amnistI" <| [
 
-    Identity                  `noun`    {- <'anastAy> -}       [ "Anastai" ] ]
-
+    _____                     `noun`    {- <'amnistI> -}       [ "" {- "Amnesty" -} ] ]
 
 
 
 
 cluster_185 = cluster
 
- |> "'an^sInIh" <| [
+ |> "'andirsUn" <| [
 
-    Identity                  `noun`    {- <'an^sInIh> -}      [ "Enchaine" ] ]
+    _____                     `noun`    {- <'andirsUn> -}      [ "" {- "Anderson" -} ] ]
 
 
 cluster_186 = cluster
 
- |> "'an^sIlUtI" <| [
+ |> "'andirli_ht" <| [
 
-    Identity                  `noun`    {- <'an^sIlUtI> -}     [ "Ancelotti" ] ]
+    _____                     `noun`    {- <'andirli_ht> -}    [ "" {- "Anderlecht" -} ] ]
+
 
 
 
@@ -1429,10 +1426,9 @@ cluster_186 = cluster
 
 cluster_187 = cluster
 
- |> "'an^gilis" <| [
+ |> "'anastAy" <| [
 
-    Identity                  `noun`    {- <'an^gilis> -}      [ "Angeles" ] ]
-
+    _____                     `noun`    {- <'anastAy> -}       [ "" {- "Anastai" -} ] ]
 
 
 
@@ -1440,179 +1436,176 @@ cluster_187 = cluster
 
 cluster_188 = cluster
 
- |> "'anfirs" <| [
+ |> "'an^sInIh" <| [
 
-    Identity                  `noun`    {- <'anfirs> -}        [ "Antwerp" ] ]
+    _____                     `noun`    {- <'an^sInIh> -}      [ "" {- "Enchaine" -} ] ]
 
 
 cluster_189 = cluster
 
- |> "'andriyif" <| [
+ |> "'an^sIlUtI" <| [
 
-    Identity                  `noun`    {- <'andriyif> -}      [ "Andreyev" ] ]
+    _____                     `noun`    {- <'an^sIlUtI> -}     [ "" {- "Ancelotti" -} ] ]
+
+
+
 
 
 cluster_190 = cluster
 
- |> "'andriyUtI" <| [
+ |> "'an^gilis" <| [
 
-    Identity                  `noun`    {- <'andriyUtI> -}     [ "Andreotti" ] ]
+    _____                     `noun`    {- <'an^gilis> -}      [ "" {- "Angeles" -} ] ]
+
+
+
+
 
 
 cluster_191 = cluster
 
- |> "'andriyU" <| [
+ |> "'anfirs" <| [
 
-    Identity                  `noun`    {- <'andriyU> -}       [ "Andreo" ] ]
+    _____                     `noun`    {- <'anfirs> -}        [ "" {- "Antwerp" -} ] ]
 
 
 cluster_192 = cluster
 
- |> "'andriyAs" <| [
+ |> "'andriyif" <| [
 
-    Identity                  `noun`    {- <'andriyAs> -}      [ "Andreas" ] ]
+    _____                     `noun`    {- <'andriyif> -}      [ "" {- "Andreyev" -} ] ]
 
 
 cluster_193 = cluster
 
- |> "'andriyA" <| [
+ |> "'andriyUtI" <| [
 
-    Identity                  `noun`    {- <'andriyA> -}       [ "Andrea" ] ]
+    _____                     `noun`    {- <'andriyUtI> -}     [ "" {- "Andreotti" -} ] ]
 
 
 cluster_194 = cluster
 
- |> "'andrUz" <| [
+ |> "'andriyU" <| [
 
-    Identity                  `noun`    {- <'andrUz> -}        [ "Andrews" ] ]
+    _____                     `noun`    {- <'andriyU> -}       [ "" {- "Andreo" -} ] ]
 
 
 cluster_195 = cluster
 
- |> "'andrUbUf" <| [
+ |> "'andriyAs" <| [
 
-    Identity                  `noun`    {- <'andrUbUf> -}      [ "Andropov" ] ]
+    _____                     `noun`    {- <'andriyAs> -}      [ "" {- "Andreas" -} ] ]
 
 
 cluster_196 = cluster
 
- |> "'andrU" <| [
+ |> "'andriyA" <| [
 
-    Identity                  `noun`    {- <'andrU> -}         [ "Andrew" ] ]
+    _____                     `noun`    {- <'andriyA> -}       [ "" {- "Andrea" -} ] ]
 
 
 cluster_197 = cluster
 
- |> "'andrIyifU" <| [
+ |> "'andrUz" <| [
 
-    Identity                  `noun`    {- <'andrIyifU> -}     [ "Andreevo" ] ]
+    _____                     `noun`    {- <'andrUz> -}        [ "" {- "Andrews" -} ] ]
 
 
 cluster_198 = cluster
 
- |> "'andrIs" <| [
+ |> "'andrUbUf" <| [
 
-    Identity                  `noun`    {- <'andrIs> -}        [ "Andres" ] ]
+    _____                     `noun`    {- <'andrUbUf> -}      [ "" {- "Andropov" -} ] ]
 
 
 cluster_199 = cluster
 
- |> "'andrIh" <| [
+ |> "'andrU" <| [
 
-    Identity                  `noun`    {- <'andrIh> -}        [ "Andre", "Andrea" ] ]
+    _____                     `noun`    {- <'andrU> -}         [ "" {- "Andrew" -} ] ]
 
 
 cluster_200 = cluster
 
- |> "'andrI" <| [
+ |> "'andrIyifU" <| [
 
-    Identity                  `noun`    {- <'andrI> -}         [ "Andre", "Andrei" ],
-
-    Identity |< aT            `noun`    {- <'andriyaT> -}      [ "Andrea" ] ]
+    _____                     `noun`    {- <'andrIyifU> -}     [ "" {- "Andreevo" -} ] ]
 
 
 cluster_201 = cluster
 
- |> "'andirtUn" <| [
+ |> "'andrIs" <| [
 
-    Identity                  `noun`    {- <'andirtUn> -}      [ "Anderton" ] ]
+    _____                     `noun`    {- <'andrIs> -}        [ "" {- "Andres" -} ] ]
 
 
 cluster_202 = cluster
 
- |> "'arIksUn" <| [
+ |> "'andrIh" <| [
 
-    Identity                  `noun`    {- <'arIksUn> -}       [ "Erikson", "Ericsson" ] ]
-
+    _____                     `noun`    {- <'andrIh> -}        [ "" {- "Andre" -}, "" {- "Andrea" -} ] ]
 
 
 cluster_203 = cluster
 
- |> "'arI.gwI" <| [
+ |> "'andrI" <| [
 
-    Identity                  `noun`    {- <'arI.gwI> -}       [ "Arregui" ] ]
+    _____                     `noun`    {- <'andrI> -}         [ "" {- "Andre" -}, "" {- "Andrei" -} ],
+
+    _____ |< aT               `noun`    {- <'andriyaT> -}      [ "" {- "Andrea" -} ] ]
 
 
 cluster_204 = cluster
 
- |> "'arAnt^sA" <| [
+ |> "'andirtUn" <| [
 
-    Identity                  `noun`    {- <'arAnt^sA> -}      [ "Arancha" ] ]
+    _____                     `noun`    {- <'andirtUn> -}      [ "" {- "Anderton" -} ] ]
 
 
 cluster_205 = cluster
 
- |> "'arAmkU" <| [
+ |> "'arIksUn" <| [
 
-    Identity                  `noun`    {- <'arAmkU> -}        [ "ARAMCO" ] ]
+    _____                     `noun`    {- <'arIksUn> -}       [ "" {- "Erikson" -}, "" {- "Ericsson" -} ] ]
 
 
 
 cluster_206 = cluster
 
- |> "'ar.durUm" <| [
+ |> "'arI.gwI" <| [
 
-    Identity                  `noun`    {- <'ar.durUm> -}      [ "Erzurum" ] ]
-
-
+    _____                     `noun`    {- <'arI.gwI> -}       [ "" {- "Arregui" -} ] ]
 
 
 cluster_207 = cluster
 
- |> "'anyIlI" <| [
+ |> "'arAnt^sA" <| [
 
-    Identity                  `noun`    {- <'anyIlI> -}        [ "Agnelli" ] ]
-
-
-
+    _____                     `noun`    {- <'arAnt^sA> -}      [ "" {- "Arancha" -} ] ]
 
 
 cluster_208 = cluster
 
- |> "'antUnI" <| [
+ |> "'arAmkU" <| [
 
-    Identity                  `noun`    {- <'antUnI> -}        [ "Anthony" ] ]
-
-
-
-
-
+    _____                     `noun`    {- <'arAmkU> -}        [ "ARAMCO" ] ]
 
 
 
 cluster_209 = cluster
 
- |> "'arfinbir.g" <| [
+ |> "'ar.durUm" <| [
 
-    Identity                  `noun`    {- <'arfinbir.g> -}    [ "Arvenberg" ] ]
+    _____                     `noun`    {- <'ar.durUm> -}      [ "" {- "Erzurum" -} ] ]
+
+
 
 
 cluster_210 = cluster
 
- |> "'arfIdAs" <| [
+ |> "'anyIlI" <| [
 
-    Identity                  `noun`    {- <'arfIdAs> -}       [ "Arvydas" ] ]
-
+    _____                     `noun`    {- <'anyIlI> -}        [ "" {- "Agnelli" -} ] ]
 
 
 
@@ -1620,26 +1613,30 @@ cluster_210 = cluster
 
 cluster_211 = cluster
 
- |> "'arbakAn" <| [
+ |> "'antUnI" <| [
 
-    Identity                  `noun`    {- <'arbakAn> -}       [ "Arbakan" ] ]
+    _____                     `noun`    {- <'antUnI> -}        [ "" {- "Anthony" -} ] ]
+
+
+
+
+
+
 
 
 cluster_212 = cluster
 
- |> "'ar_turz" <| [
+ |> "'arfinbir.g" <| [
 
-    Identity                  `noun`    {- <'ar_turz> -}       [ "Arthurs" ] ]
-
-
-
+    _____                     `noun`    {- <'arfinbir.g> -}    [ "" {- "Arvenberg" -} ] ]
 
 
 cluster_213 = cluster
 
- |> "'ar_hIbUf" <| [
+ |> "'arfIdAs" <| [
 
-    Identity                  `adj`     {- <'ar_hIbUf> -}      [ "Arkhipov", "Archipov" ] ]
+    _____                     `noun`    {- <'arfIdAs> -}       [ "" {- "Arvydas" -} ] ]
+
 
 
 
@@ -1647,18 +1644,16 @@ cluster_213 = cluster
 
 cluster_214 = cluster
 
- |> "'arInA" <| [
+ |> "'arbakAn" <| [
 
-    Identity                  `noun`    {- <'arInA> -}         [ "Arena" ] ]
+    _____                     `noun`    {- <'arbakAn> -}       [ "" {- "Arbakan" -} ] ]
 
 
 cluster_215 = cluster
 
- |> "'asUmA" <| [
+ |> "'ar_turz" <| [
 
-    Identity                  `noun`    {- <'asUmA> -}         [ "Asuma" ] ]
-
-
+    _____                     `noun`    {- <'ar_turz> -}       [ "" {- "Arthurs" -} ] ]
 
 
 
@@ -1666,4691 +1661,6292 @@ cluster_215 = cluster
 
 cluster_216 = cluster
 
- |> "'artimUf" <| [
+ |> "'ar_hIbUf" <| [
 
-    Identity                  `noun`    {- <'artimUf> -}       [ "Artimov" ] ]
+    _____                     `adj`     {- <'ar_hIbUf> -}      [ "" {- "Arkhipov" -}, "" {- "Archipov" -} ] ]
+
+
+
 
 
 cluster_217 = cluster
 
- |> "'artUrU" <| [
+ |> "'arInA" <| [
 
-    Identity                  `noun`    {- <'artUrU> -}        [ "Arturo" ] ]
+    _____                     `noun`    {- <'arInA> -}         [ "" {- "Arena" -} ] ]
 
 
 cluster_218 = cluster
 
- |> "'artUrAs" <| [
+ |> "'asUmA" <| [
 
-    Identity                  `noun`    {- <'artUrAs> -}       [ "Arturas" ] ]
+    _____                     `noun`    {- <'asUmA> -}         [ "" {- "Asuma" -} ] ]
+
+
+
+
+
 
 
 cluster_219 = cluster
 
- |> "'arslAn" <| [
+ |> "'artimUf" <| [
 
-    Identity                  `noun`    {- <'arslAn> -}        [ "Arslan" ] ]
+    _____                     `noun`    {- <'artimUf> -}       [ "" {- "Artimov" -} ] ]
 
 
 cluster_220 = cluster
 
- |> "'arsinAl" <| [
+ |> "'artUrU" <| [
 
-    Identity                  `noun`    {- <'arsinAl> -}       [ "Arsenal" ] ]
+    _____                     `noun`    {- <'artUrU> -}        [ "" {- "Arturo" -} ] ]
 
 
 cluster_221 = cluster
 
- |> "'arsA_hAnUf" <| [
+ |> "'artUrAs" <| [
 
-    Identity                  `noun`    {- <'arsA_hAnUf> -}    [ "Arsakhanov" ] ]
+    _____                     `noun`    {- <'artUrAs> -}       [ "" {- "Arturas" -} ] ]
 
 
 cluster_222 = cluster
 
- |> "'arnham" <| [
+ |> "'arslAn" <| [
 
-    Identity                  `noun`    {- <'arnham> -}        [ "Arnhem" ] ]
-
+    _____                     `noun`    {- <'arslAn> -}        [ "" {- "Arslan" -} ] ]
 
 
 cluster_223 = cluster
 
- |> "'armItA^g" <| [
+ |> "'arsinAl" <| [
 
-    Identity                  `noun`    {- <'armItA^g> -}      [ "Armitage" ] ]
-
+    _____                     `noun`    {- <'arsinAl> -}       [ "" {- "Arsenal" -} ] ]
 
 
 cluster_224 = cluster
 
- |> "'ariyIl" <| [
+ |> "'arsA_hAnUf" <| [
 
-    Identity                  `noun`    {- <'ariyIl> -}        [ "Ariel" ] ]
-
+    _____                     `noun`    {- <'arsA_hAnUf> -}    [ "" {- "Arsakhanov" -} ] ]
 
 
 cluster_225 = cluster
 
- |> "'ayAks" <| [
+ |> "'arnham" <| [
 
-    Identity                  `noun`    {- <'ayAks> -}         [ "Ajax" ] ]
-
-
+    _____                     `noun`    {- <'arnham> -}        [ "" {- "Arnhem" -} ] ]
 
 
 
 cluster_226 = cluster
 
- |> "'atlitIkU" <| [
+ |> "'armItA^g" <| [
 
-    Identity                  `noun`    {- <'atlitIkU> -}      [ "Atletico" ] ]
+    _____                     `noun`    {- <'armItA^g> -}      [ "" {- "Armitage" -} ] ]
+
 
 
 cluster_227 = cluster
 
- |> "'atlAntIk" <| [
+ |> "'ariyIl" <| [
 
-    Identity                  `noun`    {- <'atlAntIk> -}      [ "Atlantic" ] ]
+    _____                     `noun`    {- <'ariyIl> -}        [ "" {- "Ariel" -} ] ]
+
 
 
 cluster_228 = cluster
 
- |> "'atlAntA" <| [
+ |> "'ayAks" <| [
 
-    Identity                  `noun`    {- <'atlAntA> -}       [ "Atlanta" ] ]
+    _____                     `noun`    {- <'ayAks> -}         [ "" {- "Ajax" -} ] ]
+
+
+
 
 
 cluster_229 = cluster
 
- |> "'atIlA" <| [
+ |> "'atlitIkU" <| [
 
-    Identity                  `noun`    {- <'atIlA> -}         [ "Attila" ] ]
+    _____                     `noun`    {- <'atlitIkU> -}      [ "" {- "Atletico" -} ] ]
 
 
 cluster_230 = cluster
 
- |> "'atAnAs" <| [
+ |> "'atlAntIk" <| [
 
-    Identity                  `noun`    {- <'atAnAs> -}        [ "Atanas" ] ]
+    _____                     `noun`    {- <'atlAntIk> -}      [ "" {- "Atlantic" -} ] ]
 
 
 cluster_231 = cluster
 
- |> "'atAlAntA" <| [
+ |> "'atlAntA" <| [
 
-    Identity                  `noun`    {- <'atAlAntA> -}      [ "Atalanta" ] ]
-
-
-
-
-
-
-
-
-
-
-
-
-
+    _____                     `noun`    {- <'atlAntA> -}       [ "" {- "Atlanta" -} ] ]
 
 
 cluster_232 = cluster
 
- |> "'i.gnAsiyU" <| [
+ |> "'atIlA" <| [
 
-    Identity                  `noun`    {- <'i.gnAsiyU> -}     [ "Ignacio" ] ]
+    _____                     `noun`    {- <'atIlA> -}         [ "" {- "Attila" -} ] ]
 
 
 cluster_233 = cluster
 
- |> "'brAms" <| [
+ |> "'atAnAs" <| [
 
-    Identity                  `noun`    {- <'brAms> -}         [ "Abrams" ] ]
-
-
-
+    _____                     `noun`    {- <'atAnAs> -}        [ "" {- "Atanas" -} ] ]
 
 
 cluster_234 = cluster
 
- |> "'ayrwAyz" <| [
+ |> "'atAlAntA" <| [
 
-    Identity                  `noun`    {- <'ayrwAyz> -}       [ "Airways" ] ]
+    _____                     `noun`    {- <'atAlAntA> -}      [ "" {- "Atalanta" -} ] ]
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 cluster_235 = cluster
 
- |> "'ayrlAynz" <| [
+ |> "'i.gnAsiyU" <| [
 
-    Identity                  `noun`    {- <'ayrlAynz> -}      [ "Airlines" ] ]
+    _____                     `noun`    {- <'i.gnAsiyU> -}     [ "" {- "Ignacio" -} ] ]
 
 
 cluster_236 = cluster
 
- |> "'ayntrA_ht" <| [
+ |> "'brAms" <| [
 
-    Identity                  `noun`    {- <'ayntrA_ht> -}     [ "Eintracht" ] ]
+    _____                     `noun`    {- <'brAms> -}         [ "" {- "Abrams" -} ] ]
+
+
+
 
 
 cluster_237 = cluster
 
- |> "'ayndhUfin" <| [
+ |> "'ayrwAyz" <| [
 
-    Identity                  `noun`    {- <'ayndhUfin> -}     [ "Eindhoven" ] ]
-
+    _____                     `noun`    {- <'ayrwAyz> -}       [ "" {- "Airways" -} ] ]
 
 
 cluster_238 = cluster
 
- |> "'ayn^stAyn" <| [
+ |> "'ayrlAynz" <| [
 
-    Identity                  `noun`    {- <'ayn^stAyn> -}     [ "Einstein" ] ]
-
+    _____                     `noun`    {- <'ayrlAynz> -}      [ "" {- "Airlines" -} ] ]
 
 
 cluster_239 = cluster
 
- |> "'aydz" <| [
+ |> "'ayntrA_ht" <| [
 
-    Identity                  `noun`    {- <'aydz> -}          [ "AIDS" ] ]
-
+    _____                     `noun`    {- <'ayntrA_ht> -}     [ "" {- "Eintracht" -} ] ]
 
 
 cluster_240 = cluster
 
- |> "'ikiyUs" <| [
+ |> "'ayndhUfin" <| [
 
-    Identity                  `noun`    {- <'ikiyUs> -}        [ "Ekeus" ] ]
+    _____                     `noun`    {- <'ayndhUfin> -}     [ "" {- "Eindhoven" -} ] ]
+
 
 
 cluster_241 = cluster
 
- |> "'ikistrA" <| [
+ |> "'ayn^stAyn" <| [
 
-    Identity                  `noun`    {- <'ikistrA> -}       [ "extra" ],
+    _____                     `noun`    {- <'ayn^stAyn> -}     [ "" {- "Einstein" -} ] ]
 
-    Identity                  `noun`    {- <'ikistrA> -}       [ "Extra" ] ]
 
 
 cluster_242 = cluster
 
- |> "'ifrAyIm" <| [
+ |> "'aydz" <| [
 
-    Identity                  `noun`    {- <'ifrAyIm> -}       [ "Efraim" ] ]
+    _____                     `noun`    {- <'aydz> -}          [ "AIDS" ] ]
+
 
 
 cluster_243 = cluster
 
- |> "'ifarIst" <| [
+ |> "'ikiyUs" <| [
 
-    Identity                  `noun`    {- <'ifarIst> -}       [ "Everest" ] ]
-
-
+    _____                     `noun`    {- <'ikiyUs> -}        [ "" {- "Ekeus" -} ] ]
 
 
 cluster_244 = cluster
 
- |> "'idwArdz" <| [
+ |> "'ikistrA" <| [
 
-    Identity                  `noun`    {- <'idwArdz> -}       [ "Edwards" ] ]
+    _____                     `noun`    {- <'ikistrA> -}       [ "extra" ],
+
+    _____                     `noun`    {- <'ikistrA> -}       [ "" {- "Extra" -} ] ]
 
 
 cluster_245 = cluster
 
- |> "'idwArdU" <| [
+ |> "'ifrAyIm" <| [
 
-    Identity                  `noun`    {- <'idwArdU> -}       [ "Eduardo" ] ]
+    _____                     `noun`    {- <'ifrAyIm> -}       [ "" {- "Efraim" -} ] ]
 
 
 cluster_246 = cluster
 
- |> "'idrimId" <| [
+ |> "'ifarIst" <| [
 
-    Identity                  `noun`    {- <'idrimId> -}       [ "Edremit" ] ]
+    _____                     `noun`    {- <'ifarIst> -}       [ "" {- "Everest" -} ] ]
+
+
 
 
 cluster_247 = cluster
 
- |> "'idmUndU" <| [
+ |> "'idwArdz" <| [
 
-    Identity                  `noun`    {- <'idmUndU> -}       [ "Edmundo" ] ]
+    _____                     `noun`    {- <'idwArdz> -}       [ "" {- "Edwards" -} ] ]
 
 
 cluster_248 = cluster
 
- |> "'idmUnd" <| [
+ |> "'idwArdU" <| [
 
-    Identity                  `noun`    {- <'idmUnd> -}        [ "Edmund", "Edmond" ] ]
-
-
-
-
-
-
+    _____                     `noun`    {- <'idwArdU> -}       [ "" {- "Eduardo" -} ] ]
 
 
 cluster_249 = cluster
 
- |> "'iliyAn" <| [
+ |> "'idrimId" <| [
 
-    Identity                  `noun`    {- <'iliyAn> -}        [ "Elian" ] ]
-
-
-
+    _____                     `noun`    {- <'idrimId> -}       [ "" {- "Edremit" -} ] ]
 
 
 cluster_250 = cluster
 
- |> "'iliktrIk" <| [
+ |> "'idmUndU" <| [
 
-    Identity                  `noun`    {- <'iliktrIk> -}      [ "Electric" ] ]
+    _____                     `noun`    {- <'idmUndU> -}       [ "" {- "Edmundo" -} ] ]
 
 
 cluster_251 = cluster
 
- |> "'ilhAnAn" <| [
+ |> "'idmUnd" <| [
 
-    Identity                  `noun`    {- <'ilhAnAn> -}       [ "Elhanan" ] ]
+    _____                     `noun`    {- <'idmUnd> -}        [ "" {- "Edmund" -}, "" {- "Edmond" -} ] ]
+
+
+
+
+
 
 
 
 cluster_252 = cluster
 
- |> "'ilIsiyU" <| [
+ |> "'iliyAn" <| [
 
-    Identity                  `noun`    {- <'ilIsiyU> -}       [ "Eliseo" ] ]
+    _____                     `noun`    {- <'iliyAn> -}        [ "" {- "Elian" -} ] ]
+
+
+
 
 
 cluster_253 = cluster
 
- |> "'ilIktrA" <| [
+ |> "'iliktrIk" <| [
 
-    Identity                  `noun`    {- <'ilIktrA> -}       [ "Elektra" ] ]
+    _____                     `noun`    {- <'iliktrIk> -}      [ "" {- "Electric" -} ] ]
 
 
 cluster_254 = cluster
 
- |> "'ilI`Azar" <| [
+ |> "'ilhAnAn" <| [
 
-    Identity                  `noun`    {- <'ilI`Azar> -}      [ "Eliezer" ] ]
+    _____                     `noun`    {- <'ilhAnAn> -}       [ "" {- "Elhanan" -} ] ]
+
 
 
 cluster_255 = cluster
 
- |> "'ilI^sA" <| [
+ |> "'ilIsiyU" <| [
 
-    Identity                  `noun`    {- <'ilI^sA> -}        [ "Elisha" ] ]
-
-
+    _____                     `noun`    {- <'ilIsiyU> -}       [ "" {- "Eliseo" -} ] ]
 
 
 cluster_256 = cluster
 
- |> "'iksibrIs" <| [
+ |> "'ilIktrA" <| [
 
-    Identity                  `noun`    {- <'iksibrIs> -}      [ "express" ],
-
-    Identity                  `noun`    {- <'iksibrIs> -}      [ "Express" ] ]
+    _____                     `noun`    {- <'ilIktrA> -}       [ "" {- "Elektra" -} ] ]
 
 
 cluster_257 = cluster
 
- |> "'iksbU" <| [
+ |> "'ilI`Azar" <| [
 
-    Identity                  `noun`    {- <'iksbU> -}         [ "Expo" ] ]
-
-
-
-
-
+    _____                     `noun`    {- <'ilI`Azar> -}      [ "" {- "Eliezer" -} ] ]
 
 
 cluster_258 = cluster
 
- |> "'inIr^gI" <| [
+ |> "'ilI^sA" <| [
 
-    Identity                  `noun`    {- <'inIr^gI> -}       [ "Energy" ] ]
-
-
-
+    _____                     `noun`    {- <'ilI^sA> -}        [ "" {- "Elisha" -} ] ]
 
 
 
 
 cluster_259 = cluster
 
- |> "'imIl" <| [
+ |> "'iksibrIs" <| [
 
-    Identity                  `noun`    {- <'imIl> -}          [ "Emile", "Emil" ] ]
+    _____                     `noun`    {- <'iksibrIs> -}      [ "express" ],
+
+    _____                     `noun`    {- <'iksibrIs> -}      [ "" {- "Express" -} ] ]
 
 
 cluster_260 = cluster
 
- |> "'ilyU^sin" <| [
+ |> "'iksbU" <| [
 
-    Identity                  `noun`    {- <'ilyU^sin> -}      [ "Ilyushin" ] ]
+    _____                     `noun`    {- <'iksbU> -}         [ "" {- "Expo" -} ] ]
+
+
+
 
 
 
 
 cluster_261 = cluster
 
- |> "'intirbUl" <| [
+ |> "'inIr^gI" <| [
 
-    Identity                  `noun`    {- <'intirbUl> -}      [ "Interpol" ] ]
+    _____                     `noun`    {- <'inIr^gI> -}       [ "" {- "Energy" -} ] ]
 
 
 cluster_262 = cluster
 
- |> "'intilI^gins" <| [
+ |> "' w n y" <| [
 
-    Identity                  `noun`    {- <'intilI^gins> -}   [ "Intelligence" ] ]
+    "'UnU"                    `noun`    {- <'UnU> -}           [ "Ono", "" {- "Ohno" -} ] ]
 
 
 cluster_263 = cluster
 
- |> "'intarnA^syUnAl" <| [
+ |> "' w l f" <| [
 
-    Identity                  `noun`    {- <'intarnA^syUnAl> -} [ "International" ] ]
+    "'UlAf"                   `noun`    {- <'UlAf> -}          [ "" {- "Olaf" -} ] ]
 
 
 cluster_264 = cluster
 
- |> "'intarfAks" <| [
+ |> "' w t y" <| [
 
-    Identity                  `noun`    {- <'intarfAks> -}     [ "Interfax" ] ]
-
-
+    "'UtU"                    `noun`    {- <'UtU> -}           [ "" {- "Otto" -} ] ]
 
 
+
+ |> "" <| [
+
+    "'UtI"                    `noun`    {- <'UtI> -}           [ "" {- "Ottey" -} ] ]
 
 
 cluster_265 = cluster
 
- |> "'inki^sAr" <| [
+ |> "' w t r" <| [
 
-    Identity |< Iy            `adj`     {- <'inki^sArIy> -}    [ "Janissary" ] ]
+    "'UtAr"                   `noun`    {- <'UtAr> -}          [ "" {- "Uttar" -} ] ]
 
 
 cluster_266 = cluster
 
- |> "'inkA" <| [
+ |> "' w s" <| [
 
-    Identity                  `noun`    {- <'inkA> -}          [ "Inca" ] ]
+    FaCL                      `noun`    {- <'aws> -}           [ "Aws" ] ]
 
 
 cluster_267 = cluster
 
- |> "'iniyAkI" <| [
+ |> "'imIl" <| [
 
-    Identity                  `noun`    {- <'iniyAkI> -}       [ "Inaki" ] ]
-
+    _____                     `noun`    {- <'imIl> -}          [ "" {- "Emile" -}, "" {- "Emil" -} ] ]
 
 
 cluster_268 = cluster
 
- |> "'indiyAnAbUlIs" <| [
+ |> "'ilyU^sin" <| [
 
-    Identity                  `noun`    {- <'indiyAnAbUlIs> -} [ "Indianapolis" ] ]
+    _____                     `noun`    {- <'ilyU^sin> -}      [ "" {- "Ilyushin" -} ] ]
 
 
 cluster_269 = cluster
 
- |> "'indiyAnA" <| [
+ |> "' y ^g h" <| [
 
-    Identity                  `noun`    {- <'indiyAnA> -}      [ "Indiana" ] ]
+    "I^gih"                   `noun`    {- <I^gih> -}          [ "" {- "Aegean" -} ] ]
 
 
 cluster_270 = cluster
 
- |> "'indibandant" <| [
+ |> "' y ^g r" <| [
 
-    Identity                  `noun`    {- <'indibandant> -}   [ "Independent" ] ]
+    "'I^gUr"                  `noun`    {- <'I^gUr> -}         [ "" {- "Igor" -} ] ]
+
+
+
+ |> "' y .g r" <| [
+
+    "'I.gUr"                  `noun`    {- <'I.gUr> -}         [ "" {- "Igor" -} ] ]
 
 
 cluster_271 = cluster
 
- |> "'indastrIz" <| [
+ |> "'intirbUl" <| [
 
-    Identity                  `noun`    {- <'indastrIz> -}     [ "Industries" ] ]
-
-
+    _____                     `noun`    {- <'intirbUl> -}      [ "" {- "Interpol" -} ] ]
 
 
 cluster_272 = cluster
 
- |> "'isbAr.t" <| [
+ |> "'intilI^gins" <| [
 
-    Identity |< aT            `noun`    {- <'isbAr.taT> -}     [ "Sparta" ] ]
+    _____                     `noun`    {- <'intilI^gins> -}   [ "" {- "Intelligence" -} ] ]
 
 
 cluster_273 = cluster
 
- |> "'isbAnyUl" <| [
+ |> "'intarnA^syUnAl" <| [
 
-    Identity                  `noun`    {- <'isbAnyUl> -}      [ "Espanol" ] ]
-
-
-
-
-
-
+    _____                     `noun`    {- <'intarnA^syUnAl> -} [ "" {- "International" -} ] ]
 
 
 cluster_274 = cluster
 
- |> "'irnIstA" <| [
+ |> "'intarfAks" <| [
 
-    Identity                  `noun`    {- <'irnIstA> -}       [ "Ernesta" ] ]
+    _____                     `noun`    {- <'intarfAks> -}     [ "" {- "Interfax" -} ] ]
 
 
 cluster_275 = cluster
 
- |> "'irmiyA" <| [
+ |> "' w y n" <| [
 
-    Identity                  `noun`    {- <'irmiyA> -}        [ "Jeremiah" ] ]
-
-
-
-
-
-
-
-
-
-
-
+    "'UyIn"                   `noun`    {- <'UyIn> -}          [ "" {- "Oiyn" -} ] ]
 
 
 cluster_276 = cluster
 
- |> "'iskandarUn" <| [
+ |> "' y d y" <| [
 
-    Identity |< aT            `noun`    {- <'iskandarUnaT> -}  [ "Iskenderun" ] ]
-
-
-
-
-
-
-
-
-
-
-
+    "'IdI"                    `noun`    {- <'IdI> -}           [ "" {- "Eddie" -} ] ]
 
 
 cluster_277 = cluster
 
- |> "'istUkhUlm" <| [
+ |> "" <| [
 
-    Identity                  `noun`    {- <'istUkhUlm> -}     [ "Stockholm" ] ]
+    "'il"                     `noun`    {- <'il> -}            [ unwords [ "Il", "(", "in", "\"Kim", "" {- "Jong" -}, "-", "il\"", "and", "\"Kim", "Il", "-", "sung\"", ")" ] ] ]
 
+
+
+ |> "" <| [
+
+    "'il"                     `noun`    {- <'il> -}            [ unwords [ "El", "(", "in", "\"Beit", "El\"", ")" ] ] ]
 
 
 cluster_278 = cluster
 
- |> "'istIlI" <| [
+ |> "' y h d" <| [
 
-    Identity                  `noun`    {- <'istIlI> -}        [ "Estili", "Esteeli" ] ]
-
-
+    "'IhUd"                   `noun`    {- <'IhUd> -}          [ "" {- "Ehud" -} ] ]
 
 
 cluster_279 = cluster
 
- |> "'isrAfIl" <| [
+ |> "'inki^sAr" <| [
 
-    Identity                  `noun`    {- <'isrAfIl> -}       [ "Israfil" ] ]
-
-
-
-
-
-
-
+    _____ |< Iy               `adj`     {- <'inki^sArIy> -}    [ "" {- "Janissary" -} ] ]
 
 
 cluster_280 = cluster
 
- |> "'iskutlandyArd" <| [
+ |> "'inkA" <| [
 
-    Identity                  `noun`    {- <'iskutlandyArd> -} [ unwords [ "Scotland", "Yard" ] ] ]
-
-
-
-
-
-
-
+    _____                     `noun`    {- <'inkA> -}          [ "" {- "Inca" -} ] ]
 
 
 cluster_281 = cluster
 
- |> "'itziyUn" <| [
+ |> "'iniyAkI" <| [
 
-    Identity                  `noun`    {- <'itziyUn> -}       [ "Etzion" ] ]
-
-
+    _____                     `noun`    {- <'iniyAkI> -}       [ "" {- "Inaki" -} ] ]
 
 
 cluster_282 = cluster
 
- |> "'istrIlA" <| [
+ |> "' y f t" <| [
 
-    Identity                  `noun`    {- <'istrIlA> -}       [ "Estrela" ] ]
-
+    "'IfIt"                   `noun`    {- <'IfIt> -}          [ "" {- "Ivette" -} ] ]
 
 
 cluster_283 = cluster
 
- |> "'istrAdA" <| [
+ |> "'indiyAnAbUlIs" <| [
 
-    Identity                  `noun`    {- <'istrAdA> -}       [ "Estrada" ] ]
-
-
-
-
-
-
-
-
-
-
-
+    _____                     `noun`    {- <'indiyAnAbUlIs> -} [ "" {- "Indianapolis" -} ] ]
 
 
 cluster_284 = cluster
 
- |> "'unmUfIk" <| [
+ |> "'indiyAnA" <| [
 
-    Identity                  `noun`    {- <'unmUfIk> -}       [ unwords [ "UNMOVIC", "(", "UN", "Monitoring,", "Verification", "and", "Inspection", "Commission", ")" ] ] ]
-
-
-
-
-
-
+    _____                     `noun`    {- <'indiyAnA> -}      [ "" {- "Indiana" -} ] ]
 
 
 cluster_285 = cluster
 
- |> "'uksfUrd" <| [
+ |> "'indibandant" <| [
 
-    Identity                  `noun`    {- <'uksfUrd> -}       [ "Oxford" ] ]
-
+    _____                     `noun`    {- <'indibandant> -}   [ "" {- "Independent" -} ] ]
 
 
 cluster_286 = cluster
 
- |> "iyt^sIbIryA" <| [
+ |> "'indastrIz" <| [
 
-    Identity                  `noun`    {- <iyt^sIbIryA> -}    [ "Echeverria" ] ]
-
-
-
-
-
-
+    _____                     `noun`    {- <'indastrIz> -}     [ "" {- "Industries" -} ] ]
 
 
 cluster_287 = cluster
 
- |> "AwmAzA" <| [
+ |> "" <| [
 
-    Identity                  `noun`    {- <AwmAzA> -}         [ "Omaza", unwords [ "Oumasa", "?", "?" ] ] ]
+    "'IfAn"                   `noun`    {- <'IfAn> -}          [ "" {- "Ivan" -} ] ]
 
 
 cluster_288 = cluster
 
- |> "AwkAs" <| [
+ |> "' y f n" <| [
 
-    Identity                  `noun`    {- <AwkAs> -}          [ "Oukas", unwords [ "Aukas", "?", "?" ] ] ]
-
+    "'IfUn"                   `noun`    {- <'IfUn> -}          [ "" {- "Ivonne" -} ] ]
 
 
 cluster_289 = cluster
 
- |> "A.gbUh" <| [
+ |> "'isbAr.t" <| [
 
-    Identity                  `noun`    {- <A.gbUh> -}         [ "Aghbou" ] ]
+    _____ |< aT               `noun`    {- <'isbAr.taT> -}     [ "" {- "Sparta" -} ] ]
 
 
 cluster_290 = cluster
 
- |> "'uwAbik" <| [
+ |> "'isbAnyUl" <| [
 
-    Identity                  `noun`    {- <'uwAbik> -}        [ "OAPEC" ] ]
-
-
-
+    _____                     `noun`    {- <'isbAnyUl> -}      [ "" {- "Espanol" -} ] ]
 
 
 cluster_291 = cluster
 
- |> "uwst" <| [
+ |> "' y f" <| [
 
-    al >| Identity            `noun`    {- <al-uwst> -}        [ "Aalst" ] ]
+    "'If"                     `noun`    {- <'If> -}            [ "" {- "Ives" -} ] ]
 
 
 cluster_292 = cluster
 
- |> "uwndU" <| [
+ |> "' y m y" <| [
 
-    Identity                  `noun`    {- <uwndU> -}          [ "Ondo" ] ]
+    "'aymI"                   `noun`    {- <'aymI> -}          [ "Amy" ] ]
 
 
 cluster_293 = cluster
 
- |> "uwn.gtrAkUl" <| [
+ |> "' y l y" <| [
 
-    Identity                  `noun`    {- <uwn.gtrAkUl> -}    [ "Ongtrakul" ] ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    "'IlI"                    `noun`    {- <'IlI> -}           [ "Eli", "" {- "Ilie" -} ] ]
 
 
 cluster_294 = cluster
 
- |> "wImbldUn" <| [
+ |> "' y l t" <| [
 
-    Identity                  `noun`    {- <wImbldUn> -}       [ "Wimbledon" ] ]
+    "'IlIt"                   `noun`    {- <'IlIt> -}          [ "" {- "Elit" -} ] ]
 
 
 cluster_295 = cluster
 
- |> "wIlyAms" <| [
+ |> "' y r s" <| [
 
-    Identity                  `noun`    {- <wIlyAms> -}        [ "Williams" ] ]
+    "'ayris"                  `noun`    {- <'ayris> -}         [ "" {- "Aires" -} ] ]
 
 
 cluster_296 = cluster
 
- |> "wIlyAm" <| [
+ |> "" <| [
 
-    Identity                  `noun`    {- <wIlyAm> -}         [ "William" ] ]
+    "'Ir"                     `noun`    {- <'Ir> -}            [ "Air" ] ]
 
 
 cluster_297 = cluster
 
- |> "wIltUrd" <| [
+ |> "'irnIstA" <| [
 
-    Identity                  `noun`    {- <wIltUrd> -}        [ "Wiltord" ] ]
+    _____                     `noun`    {- <'irnIstA> -}       [ "" {- "Ernesta" -} ] ]
 
 
 cluster_298 = cluster
 
- |> "wIlkinz" <| [
+ |> "'irmiyA" <| [
 
-    Identity                  `noun`    {- <wIlkinz> -}        [ "Wilkins" ] ]
+    _____                     `noun`    {- <'irmiyA> -}        [ "" {- "Jeremiah" -} ] ]
 
 
 cluster_299 = cluster
 
- |> "wAyzmAn" <| [
+ |> "" <| [
 
-    Identity                  `noun`    {- <wAyzmAn> -}        [ "Weizman" ] ]
+    "UyIn"                    `noun`    {- <UyIn> -}           [ "" {- "Oiyn" -} ] ]
+
+
+
+
+
+
+
+
+
+
 
 
 cluster_300 = cluster
 
- |> "wAtsU^sI" <| [
+ |> "'iskandarUn" <| [
 
-    Identity                  `noun`    {- <wAtsU^sI> -}       [ "Watsushi" ] ]
+    _____ |< aT               `noun`    {- <'iskandarUnaT> -}  [ "" {- "Iskenderun" -} ] ]
+
+
+
+
+
+
+
+
+
+
+
 
 
 cluster_301 = cluster
 
- |> "wAtirfUrd" <| [
+ |> "'istUkhUlm" <| [
 
-    Identity                  `noun`    {- <wAtirfUrd> -}      [ "Waterford" ] ]
+    _____                     `noun`    {- <'istUkhUlm> -}     [ "" {- "Stockholm" -} ] ]
+
 
 
 cluster_302 = cluster
 
- |> "wArsU" <| [
+ |> "'istIlI" <| [
 
-    Identity                  `noun`    {- <wArsU> -}          [ "Warsaw" ] ]
+    _____                     `noun`    {- <'istIlI> -}        [ "" {- "Estili" -}, "" {- "Esteeli" -} ] ]
+
+
 
 
 cluster_303 = cluster
 
- |> "wAr.tAn" <| [
+ |> "'isrAfIl" <| [
 
-    Identity                  `noun`    {- <wAr.tAn> -}        [ "Wartan" ] ]
+    _____                     `noun`    {- <'isrAfIl> -}       [ "" {- "Israfil" -} ] ]
+
+
+
+
+
+
+
 
 
 cluster_304 = cluster
 
- |> "wAnt^sUb" <| [
+ |> "'iskutlandyArd" <| [
 
-    Identity                  `noun`    {- <wAnt^sUb> -}       [ "Wanchope" ] ]
+    _____                     `noun`    {- <'iskutlandyArd> -} [ unwords [ "" {- "Scotland" -}, "" {- "Yard" -} ] ] ]
+
+
+
+
+
+
+
 
 
 cluster_305 = cluster
 
- |> "wAndirlI" <| [
+ |> "'itziyUn" <| [
 
-    Identity                  `noun`    {- <wAndirlI> -}       [ "Wanderley" ] ]
+    _____                     `noun`    {- <'itziyUn> -}       [ "" {- "Etzion" -} ] ]
+
+
 
 
 cluster_306 = cluster
 
- |> "wAltirz" <| [
+ |> "'istrIlA" <| [
 
-    Identity                  `noun`    {- <wAltirz> -}        [ "Walters" ] ]
+    _____                     `noun`    {- <'istrIlA> -}       [ "" {- "Estrela" -} ] ]
+
 
 
 cluster_307 = cluster
 
- |> "wAlAs" <| [
+ |> "'istrAdA" <| [
 
-    Identity                  `noun`    {- <wAlAs> -}          [ "Wallace" ] ]
+    _____                     `noun`    {- <'istrAdA> -}       [ "" {- "Estrada" -} ] ]
+
+
+
+
+
+
+
+
+
 
 
 
 
 cluster_308 = cluster
 
- |> "wwl" <| [
+ |> "'unmUfIk" <| [
 
-    Identity                  `noun`    {- <wwl> -}            [ "Wall" ] ]
+    _____                     `noun`    {- <'unmUfIk> -}       [ unwords [ "UNMOVIC", "(", "UN", "" {- "Monitoring," -}, "" {- "Verification" -}, "and", "" {- "Inspection" -}, "" {- "Commission" -}, ")" ] ] ]
+
+
+
+
+
+
 
 
 cluster_309 = cluster
 
- |> "wulfirhAmbtUn" <| [
+ |> "'uksfUrd" <| [
 
-    Identity                  `noun`    {- <wulfirhAmbtUn> -}  [ "Wolverhampton" ] ]
+    _____                     `noun`    {- <'uksfUrd> -}       [ "" {- "Oxford" -} ] ]
 
 
 
 cluster_310 = cluster
 
- |> "wUtir^gIt" <| [
+ |> "iyt^sIbIryA" <| [
 
-    Identity                  `noun`    {- <wUtir^gIt> -}      [ "Wategate" ] ]
+    _____                     `noun`    {- <iyt^sIbIryA> -}    [ "" {- "Echeverria" -} ] ]
+
+
+
+
+
+
 
 
 cluster_311 = cluster
 
- |> "wUrnar" <| [
+ |> "AwmAzA" <| [
 
-    Identity                  `noun`    {- <wUrnar> -}         [ "Warner" ] ]
+    _____                     `noun`    {- <AwmAzA> -}         [ "" {- "Omaza" -}, unwords [ "" {- "Oumasa" -}, "?", "?" ] ] ]
 
 
 cluster_312 = cluster
 
- |> "wUrldkUm" <| [
+ |> "AwkAs" <| [
 
-    Identity                  `noun`    {- <wUrldkUm> -}       [ "WorldCom" ] ]
+    _____                     `noun`    {- <AwkAs> -}          [ "" {- "Oukas" -}, unwords [ "" {- "Aukas" -}, "?", "?" ] ] ]
+
 
 
 cluster_313 = cluster
 
- |> "wUkir" <| [
+ |> "A.gbUh" <| [
 
-    Identity                  `noun`    {- <wUkir> -}          [ "Walker" ] ]
+    _____                     `noun`    {- <A.gbUh> -}         [ "" {- "Aghbou" -} ] ]
 
 
 cluster_314 = cluster
 
- |> "wUdrUf" <| [
+ |> "'uwAbik" <| [
 
-    Identity                  `noun`    {- <wUdrUf> -}         [ "Woodruff" ] ]
+    _____                     `noun`    {- <'uwAbik> -}        [ "OAPEC" ] ]
+
+
+
 
 
 cluster_315 = cluster
 
- |> "yAnA" <| [
+ |> "uwst" <| [
 
-    Identity                  `noun`    {- <yAnA> -}           [ "Jana" ] ]
-
+    al >| _____               `noun`    {- <al-uwst> -}        [ "" {- "Aalst" -} ] ]
 
 
 cluster_316 = cluster
 
- |> "yAmAhA" <| [
+ |> "uwndU" <| [
 
-    Identity                  `noun`    {- <yAmAhA> -}         [ "Yamaha" ] ]
-
-
-
-
-
-
+    _____                     `noun`    {- <uwndU> -}          [ "" {- "Ondo" -} ] ]
 
 
 cluster_317 = cluster
 
- |> "yUkUhAmA" <| [
+ |> "uwn.gtrAkUl" <| [
 
-    Identity                  `noun`    {- <yUkUhAmA> -}       [ "Yokohama" ] ]
+    _____                     `noun`    {- <uwn.gtrAkUl> -}    [ "" {- "Ongtrakul" -} ] ]
 
 
 cluster_318 = cluster
 
- |> "yUhAnsUn" <| [
+ |> "' .g s y" <| [
 
-    Identity                  `noun`    {- <yUhAnsUn> -}       [ "Johansson" ] ]
+    "'a.gAsI"                 `noun`    {- <'a.gAsI> -}        [ "" {- "Agasi" -} ] ]
 
 
 cluster_319 = cluster
 
- |> "yUfintUs" <| [
+ |> "" <| [
 
-    Identity                  `noun`    {- <yUfintUs> -}       [ "Juventus" ] ]
+    "'U^gIn"                  `noun`    {- <'U^gIn> -}         [ "" {- "Eugene" -} ] ]
 
 
 cluster_320 = cluster
 
- |> "yUfAnUfIt^s" <| [
+ |> "' ^g w d" <| [
 
-    Identity                  `noun`    {- <yUfAnUfIt^s> -}    [ "Jovanovic", "Jovanovich" ] ]
-
-
-
-
-
-
-
-
+    "'a^gAwId"                `noun`    {- <'a^gAwId> -}       [ "" {- "Ecevit" -} ] ]
 
 
 cluster_321 = cluster
 
- |> "yArkAs" <| [
+ |> "" <| [
 
-    Identity                  `noun`    {- <yArkAs> -}         [ "Yarkas" ] ]
-
+    "'abIb"                   `noun`    {- <'abIb> -}          [ "" {- "Aviv" -} ] ]
 
 
 cluster_322 = cluster
 
- |> "yAnA.gIsAwA" <| [
+ |> "" <| [
 
-    Identity                  `noun`    {- <yAnA.gIsAwA> -}    [ "Yanagisawa" ] ]
+    "'AbAd"                   `noun`    {- <'AbAd> -}          [ "" {- "Abad" -} ],
+
+    "'abAd"                   `noun`    {- <'abAd> -}          [ "" {- "Abad" -} ] ]
 
 
 cluster_323 = cluster
 
- |> "yiltsin" <| [
+ |> "" <| [
 
-    Identity                  `noun`    {- <yiltsin> -}        [ "Yeltsin" ] ]
+    "'abIh"                   `noun`    {- <'abIh> -}          [ "" {- "Abbe" -} ] ]
 
 
 cluster_324 = cluster
 
- |> "yif.gInI" <| [
+ |> "' b r m" <| [
 
-    Identity                  `noun`    {- <yif.gInI> -}       [ "Yevgeni" ] ]
-
-
-
-
-
+    KaRDAS                    `noun`    {- <'abrAm> -}         [ "" {- "Abram" -}, "" {- "Abraham" -} ] ]
 
 
 cluster_325 = cluster
 
- |> "yadI`Ut" <| [
+ |> "" <| [
 
-    Identity                  `noun`    {- <yadI`Ut> -}        [ "Yediot" ] ]
-
+    "'adIs"                   `noun`    {- <'adIs> -}          [ "" {- "Addis" -} ] ]
 
 
 cluster_326 = cluster
 
- |> "yUtA" <| [
+ |> "' d m n" <| [
 
-    Identity                  `noun`    {- <yUtA> -}           [ "Utah" ] ]
+    "'idmUn"                  `noun`    {- <'idmUn> -}         [ "" {- "Edmond" -} ] ]
 
 
 cluster_327 = cluster
 
- |> "yUrk" <| [
+ |> "" <| [
 
-    Identity                  `noun`    {- <yUrk> -}           [ "York" ] ]
+    "'IfAn"                   `noun`    {- <'IfAn> -}          [ "" {- "Ivan" -} ],
 
-
+    "'ifAn"                   `noun`    {- <'ifAn> -}          [ "" {- "Ivan" -} ] ]
 
 
 cluster_328 = cluster
 
- |> "yUnskUm" <| [
+ |> "' f y" <| [
 
-    Identity                  `noun`    {- <yUnskUm> -}        [ "UNSCOM" ] ]
-
-
+    "'afI"                    `noun`    {- <'afI> -}           [ "Avi" ] ]
 
 
 cluster_329 = cluster
 
- |> "yUnItA" <| [
+ |> "' k ^s y" <| [
 
-    Identity                  `noun`    {- <yUnItA> -}         [ "UNITA" ] ]
+    "'ak^sAy"                 `noun`    {- <'ak^sAy> -}        [ "" {- "Akshay" -}, "" {- "Akshai" -} ] ]
 
 
 cluster_330 = cluster
 
- |> "yUnIskU" <| [
+ |> "' l b r" <| [
 
-    Identity                  `noun`    {- <yUnIskU> -}        [ "UNESCO" ] ]
+    "'albIr"                  `noun`    {- <'albIr> -}         [ "" {- "Albert" -} ] ]
 
 
 cluster_331 = cluster
 
- |> "yUnIsif" <| [
+ |> "" <| [
 
-    Identity                  `noun`    {- <yUnIsif> -}        [ "UNICEF" ] ]
+    "'alb" |< Iy              `adj`     {- <'albIy> -}         [ "" {- "Alpine" -} ],
+
+    "'alb"                    `noun`    {- <'alb> -}           [ "" {- "Alps" -} ] ]
 
 
 cluster_332 = cluster
 
- |> "yUnAytid" <| [
+ |> "" <| [
 
-    Identity                  `noun`    {- <yUnAytid> -}       [ "United" ] ]
+    "'UlAf"                   `noun`    {- <'UlAf> -}          [ "" {- "Olaf" -} ] ]
 
 
 cluster_333 = cluster
 
- |> "ywmbl.gAz" <| [
+ |> "' l f s" <| [
 
-    Identity                  `noun`    {- <ywmbl.gAz> -}      [ unwords [ "Iompelgas", "?", "?" ] ] ]
+    "'ilfIs"                  `noun`    {- <'ilfIs> -}         [ "" {- "Elvis" -} ] ]
+
+
+
+ |> "" <| [
+
+    "'alAfIs"                 `noun`    {- <'alAfIs> -}        [ "" {- "Alaves" -} ] ]
 
 
 cluster_334 = cluster
 
- |> "yu.hannA" <| [
+ |> "' l f n" <| [
 
-    Identity                  `noun`    {- <yu.hannA> -}       [ "Yuhanna", "John" ] ]
+    "'alfIn"                  `noun`    {- <'alfIn> -}         [ "" {- "Alvin" -} ] ]
 
 
 cluster_335 = cluster
 
+ |> "' l t y" <| [
+
+    "'altAy"                  `noun`    {- <'altAy> -}         [ "" {- "Altai" -}, "" {- "Altaisk" -} ] ]
+
+
+cluster_336 = cluster
+
+ |> "' l n" <| [
+
+    "'AlAn"                   `noun`    {- <'AlAn> -}          [ "" {- "Allan" -}, "" {- "Allen" -}, "" {- "Alain" -} ] ]
+
+
+cluster_337 = cluster
+
+ |> "' m ^s r" <| [
+
+    "'am^sIr"                 `noun`    {- <'am^sIr> -}        [ "" {- "Amshir" -} ] ]
+
+
+cluster_338 = cluster
+
+ |> "' l z s" <| [
+
+    "'alzAs"                  `noun`    {- <'alzAs> -}         [ "" {- "Alsace" -} ] ]
+
+
+cluster_339 = cluster
+
+ |> "' l y s" <| [
+
+    "'ilyAs"                  `noun`    {- <'ilyAs> -}         [ "" {- "Elias" -} ] ]
+
+
+cluster_340 = cluster
+
+ |> "' m r z" <| [
+
+    "'imrUz"                  `noun`    {- <'imrUz> -}         [ "" {- "Emrouz" -} ] ]
+
+
+cluster_341 = cluster
+
+ |> "' n .t n" <| [
+
+    "'an.tUn"                 `noun`    {- <'an.tUn> -}        [ "" {- "Antoun" -}, "" {- "Anton" -} ] ]
+
+
+cluster_342 = cluster
+
+ |> "' n _h l" <| [
+
+    "'an_hil"                 `noun`    {- <'an_hil> -}        [ "" {- "Angel" -} ] ]
+
+
+cluster_343 = cluster
+
+ |> "' n d z" <| [
+
+    "'andIz"                  `noun`    {- <'andIz> -}         [ "" {- "Andes" -} ] ]
+
+
+cluster_344 = cluster
+
+ |> "' n d k" <| [
+
+    "indIk"                   `noun`    {- <indIk> -}          [ "" {- "Indyk" -} ] ]
+
+
+cluster_345 = cluster
+
+ |> "" <| [
+
+    "'and"                    `noun`    {- <'and> -}           [ "And", "" {- "Andang" -} ],
+
+    "'And"                    `noun`    {- <'And> -}           [ "And", "" {- "Andang" -} ] ]
+
+
+cluster_346 = cluster
+
+ |> "" <| [
+
+    "'anAn"                   `noun`    {- <'anAn> -}          [ "" {- "Annan" -} ] ]
+
+
+cluster_347 = cluster
+
+ |> "' n r n" <| [
+
+    "'inrUn"                  `noun`    {- <'inrUn> -}         [ "" {- "Enron" -} ] ]
+
+
+cluster_348 = cluster
+
+ |> "' n y s" <| [
+
+    "'anAyIs"                 `noun`    {- <'anAyIs> -}        [ "" {- "Anais" -} ] ]
+
+
+cluster_349 = cluster
+
+ |> "' r b l" <| [
+
+    "'arbIl"                  `noun`    {- <'arbIl> -}         [ "" {- "Erbil" -}, "" {- "Irbil" -} ] ]
+
+
+cluster_350 = cluster
+
+ |> "' r n" <| [
+
+    "'arUn"                   `noun`    {- <'arUn> -}          [ "" {- "Aaron" -} ],
+
+    "'ArUn"                   `noun`    {- <'ArUn> -}          [ "" {- "Aaron" -} ] ]
+
+
+cluster_351 = cluster
+
+ |> "' r k y" <| [
+
+    "'irkI"                   `noun`    {- <'irkI> -}          [ "" {- "Erki" -} ] ]
+
+
+cluster_352 = cluster
+
+ |> "' r t r" <| [
+
+    "'artUr"                  `noun`    {- <'artUr> -}         [ "" {- "Arture" -} ] ]
+
+
+cluster_353 = cluster
+
+ |> "' s .h q" <| [
+
+    "'is.hAq"                 `noun`    {- <'is.hAq> -}        [ "" {- "Isaac" -}, "" {- "Yizhak" -} ] ]
+
+
+cluster_354 = cluster
+
+ |> "" <| [
+
+    "'arAy"                   `noun`    {- <'arAy> -}          [ "" {- "Array" -} ] ]
+
+
+cluster_355 = cluster
+
+ |> "bAnIt^sbAkdI" <| [
+
+    _____                     `noun`    {- <bAnIt^sbAkdI> -}   [ "" {- "Panitchpakdi" -} ] ]
+
+
+cluster_356 = cluster
+
+ |> "bfIl^sIftr" <| [
+
+    _____                     `noun`    {- <bfIl^sIftr> -}     [ "" {- "Pfeilschifter" -} ] ]
+
+
+cluster_357 = cluster
+
+ |> "binsilfAn" <| [
+
+    _____ |< iyA              `noun`    {- <binsilfAniyA> -}   [ "" {- "Pennsylvania" -} ],
+
+    _____ |< Iy               `adj`     {- <binsilfAnIy> -}    [ "" {- "Pennsylvanian" -} ] ]
+
+
+cluster_358 = cluster
+
+ |> "bitrUstrAtI^gI" <| [
+
+    _____                     `noun`    {- <bitrUstrAtI^gI> -} [ "" {- "Petrostrategy" -} ] ]
+
+
+cluster_359 = cluster
+
+ |> "brAzAfIl" <| [
+
+    _____                     `noun`    {- <brAzAfIl> -}       [ "" {- "Brazzaville" -} ] ]
+
+
+cluster_360 = cluster
+
+ |> "brAmAtArskI" <| [
+
+    _____                     `noun`    {- <brAmAtArskI> -}    [ "" {- "Pramatarski" -} ] ]
+
+
+cluster_361 = cluster
+
+ |> "^gAtUrAbAtArAbUn.g" <| [
+
+    _____                     `noun`    {- <^gAtUrAbAtArAbUn.g> -} [ "" {- "Jatupatarapong" -} ] ]
+
+
+cluster_362 = cluster
+
+ |> "^gUhAnisbUr^g" <| [
+
+    _____                     `noun`    {- <^gUhAnisbUr^g> -}  [ "" {- "Johannesburg" -} ] ]
+
+
+cluster_363 = cluster
+
+ |> "^gunblA.t" <| [
+
+    _____                     `noun`    {- <^gunblA.t> -}      [ "" {- "Jumblatt" -} ],
+
+    _____ |< Iy               `adj`     {- <^gunblA.tIy> -}    [ "" {- "Jumblattist" -} ] ]
+
+
+cluster_364 = cluster
+
+ |> "fIlIbUsIs" <| [
+
+    _____                     `noun`    {- <fIlIbUsIs> -}      [ "" {- "Philippoussis" -} ] ]
+
+
+cluster_365 = cluster
+
+ |> "fIlAdilfiyA" <| [
+
+    _____                     `noun`    {- <fIlAdilfiyA> -}    [ "" {- "Philadelphia" -} ] ]
+
+
+cluster_366 = cluster
+
+ |> "fadbAtAk" <| [
+
+    _____                     `noun`    {- <fadbAtAk> -}       [ "" {- "Vedpathak" -} ] ]
+
+
+cluster_367 = cluster
+
+ |> "kAmbUmAyUrInzI" <| [
+
+    _____                     `noun`    {- <kAmbUmAyUrInzI> -} [ "" {- "Campomaiorense" -} ] ]
+
+
+cluster_368 = cluster
+
+ |> "kAlIfUrn" <| [
+
+    _____ |< iyA              `noun`    {- <kAlIfUrniyA> -}    [ "" {- "California" -} ],
+
+    _____ |< Iy               `adj`     {- <kAlIfUrnIy> -}     [ "" {- "Californian" -} ] ]
+
+
+cluster_369 = cluster
+
+ |> "kAyzirslUtirn" <| [
+
+    _____                     `noun`    {- <kAyzirslUtirn> -}  [ "" {- "Kaiserslautern" -} ] ]
+
+
+cluster_370 = cluster
+
+ |> "kUmunwil_t" <| [
+
+    _____                     `noun`    {- <kUmunwil_t> -}     [ "" {- "Commonwealth" -} ] ]
+
+
+cluster_371 = cluster
+
+ |> "kUmlInUfIt^s" <| [
+
+    _____                     `noun`    {- <kUmlInUfIt^s> -}   [ "" {- "Komljenovic" -} ] ]
+
+
+cluster_372 = cluster
+
+ |> "kUndUlIzA" <| [
+
+    _____                     `noun`    {- <kUndUlIzA> -}      [ "" {- "Condoleezza" -} ] ]
+
+
+cluster_373 = cluster
+
+ |> "kalA^snikUf" <| [
+
+    _____                     `noun`    {- <kalA^snikUf> -}    [ "" {- "Kalashnikov" -} ] ]
+
+
+cluster_374 = cluster
+
+ |> "krAyzilbUr.g" <| [
+
+    _____                     `noun`    {- <krAyzilbUr.g> -}   [ "" {- "Krayzelburg" -} ] ]
+
+
+cluster_375 = cluster
+
+ |> "krIstUfar" <| [
+
+    _____                     `noun`    {- <krIstUfar> -}      [ "" {- "Christopher" -} ] ]
+
+
+cluster_376 = cluster
+
+ |> "mIdlzbruh" <| [
+
+    _____                     `noun`    {- <mIdlzbruh> -}      [ "" {- "Middlesbrough" -} ] ]
+
+
+cluster_377 = cluster
+
+ |> "mIlUtInUfIt^s" <| [
+
+    _____                     `noun`    {- <mIlUtInUfIt^s> -}  [ "" {- "Milutinovic" -} ] ]
+
+
+cluster_378 = cluster
+
+ |> "mUnbUlyIh" <| [
+
+    _____                     `noun`    {- <mUnbUlyIh> -}      [ "" {- "Montpellier" -} ] ]
+
+
+cluster_379 = cluster
+
+ |> "mUr.gInstIrn" <| [
+
+    _____                     `noun`    {- <mUr.gInstIrn> -}   [ "" {- "Morgenstern" -} ] ]
+
+
+cluster_380 = cluster
+
+ |> "musta.gAnim" <| [
+
+    _____                     `noun`    {- <musta.gAnim> -}    [ "" {- "Mostaganem" -}, "" {- "Mostaghanem" -} ] ]
+
+
+cluster_381 = cluster
+
+ |> "" <| [
+
+    "'awraw"                  `noun`    {- <'awraw> -}         [ "" {- "Aarau" -} ] ]
+
+
+cluster_382 = cluster
+
+ |> "" <| [
+
+    "'atAl"                   `noun`    {- <'atAl> -}          [ "" {- "Atal" -} ] ]
+
+
+cluster_383 = cluster
+
+ |> "' t .g y" <| [
+
+    "'atA.gI"                 `noun`    {- <'atA.gI> -}        [ "" {- "Atagi" -} ] ]
+
+
+cluster_384 = cluster
+
+ |> "" <| [
+
+    "'UtI"                    `noun`    {- <'UtI> -}           [ "" {- "Ottey" -} ] ]
+
+
+cluster_385 = cluster
+
+ |> "' w k" <| [
+
+    "'Uk"                     `noun`    {- <'Uk> -}            [ "Oak" ] ]
+
+
+cluster_386 = cluster
+
+ |> "" <| [
+
+    "'Uf"                     `noun`    {- <'Uf> -}            [ "Of" ] ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cluster_387 = cluster
+
+ |> "y w r y" <| [
+
+    "yUrI"                    `noun`    {- <yUrI> -}           [ "" {- "Youri" -}, "" {- "Yuri" -} ] ]
+
+
+cluster_388 = cluster
+
+ |> "y w w" <| [
+
+    "yU"                      `noun`    {- <yU> -}             [ "Yo", "Yu" ] ]
+
+
+
+ |> "y y y" <| [
+
+    "yI"                      `noun`    {- <yI> -}             [ "Yi" ] ]
+
+
+cluster_389 = cluster
+
+ |> "y w n s" <| [
+
+    "yUnis"                   `noun`    {- <yUnis> -}          [ "" {- "Yunis" -}, "" {- "Younis" -}, "" {- "Jonah" -} ] ]
+
+
+cluster_390 = cluster
+
+ |> "y w r n" <| [
+
+    "yUrIn"                   `noun`    {- <yUrIn> -}          [ "" {- "Uhrin" -} ] ]
+
+
+cluster_391 = cluster
+
+ |> "" <| [
+
+    "yUsU"                    `noun`    {- <yUsU> -}           [ "" {- "Jusso" -}, "" {- "Yusso" -} ] ]
+
+
+
+ |> "y w s y" <| [
+
+    "yUsI"                    `noun`    {- <yUsI> -}           [ "" {- "Yosi" -}, "" {- "Yossi" -} ] ]
+
+
+cluster_392 = cluster
+
+ |> "y w n ^s" <| [
+
+    "yUnA^s"                  `noun`    {- <yUnA^s> -}         [ "" {- "Jonas" -} ] ]
+
+
+cluster_393 = cluster
+
+ |> "y n y" <| [
+
+    FiC                       `noun`    {- <yin> -}            [ "Yen" ] ]
+
+
+cluster_394 = cluster
+
+ |> "y l m .z" <| [
+
+    KiRDAS                    `noun`    {- <yilmA.z> -}        [ "" {- "Yilmaz" -} ] ]
+
+
+cluster_395 = cluster
+
+ |> "y ^s y" <| [
+
+    FaCAL                     `noun`    {- <ya^sAy> -}         [ "" {- "Yashai" -} ] ]
+
+
+cluster_396 = cluster
+
+ |> "y ' m" <| [
+
+    "yAmI"                    `adj`     {- <yAmI> -}           [ "" {- "Yami" -} ] ]
+
+
+cluster_397 = cluster
+
+ |> "" <| [
+
+    "wIb"                     `noun`    {- <wIb> -}            [ "Web" ] ]
+
+
+
+ |> "" <| [
+
+    "wIb"                     `noun`    {- <wIb> -}            [ "" {- "Webb" -} ] ]
+
+
+cluster_398 = cluster
+
+ |> "w y n" <| [
+
+    "wAyin"                   `noun`    {- <wAyin> -}          [ "" {- "Wayne" -} ] ]
+
+
+cluster_399 = cluster
+
+ |> "w y t n" <| [
+
+    "wItUn"                   `noun`    {- <wItUn> -}          [ "" {- "Wheaton" -} ] ]
+
+
+cluster_400 = cluster
+
+ |> "w r n" <| [
+
+    FACiL                     `noun`    {- <wArin> -}          [ "" {- "Warren" -} ] ]
+
+
+cluster_401 = cluster
+
+ |> "w n d l" <| [
+
+    KaRDaS                    `noun`    {- <wandal> -}         [ "" {- "Vandals" -} ] ]
+
+
+cluster_402 = cluster
+
+ |> "w f '" <| [
+
+    FaCA                      `noun`    {- <wafA> -}           [ unwords [ "WAFA", "(", "" {- "Palestine" -}, "" {- "News" -}, "" {- "Agency" -}, ")" ] ] ]
+
+
+cluster_403 = cluster
+
+ |> "w b y" <| [
+
+    FuCI                      `noun`    {- <wubI> -}           [ "" {- "Yobe" -} ] ]
+
+
+cluster_404 = cluster
+
+ |> "" <| [
+
+    "wAd"                     `noun`    {- <wAd> -}            [ "" {- "Wade" -}, "Wad" ] ]
+
+
+cluster_405 = cluster
+
+ |> "" <| [
+
+    "hIt"                     `noun`    {- <hIt> -}            [ "" {- "Heat" -} ] ]
+
+
+cluster_406 = cluster
+
+ |> "" <| [
+
+    "hIl"                     `noun`    {- <hIl> -}            [ "" {- "Hill" -} ] ]
+
+
+cluster_407 = cluster
+
+ |> "h y f y" <| [
+
+    "hIfI"                    `noun`    {- <hIfI> -}           [ "" {- "Heavy" -} ] ]
+
+
+cluster_408 = cluster
+
+ |> "h y _t m" <| [
+
+    KaRDaS                    `noun`    {- <hay_tam> -}        [ "" {- "Haitham" -} ] ]
+
+
+cluster_409 = cluster
+
+ |> "h w t w" <| [
+
+    "hUtU"                    `noun`    {- <hUtU> -}           [ "" {- "Hutu" -} ] ]
+
+
+cluster_410 = cluster
+
+ |> "h w k" <| [
+
+    "hUk"                     `noun`    {- <hUk> -}            [ "" {- "Hawk" -} ] ]
+
+
+cluster_411 = cluster
+
+ |> "h w b r" <| [
+
+    "hUbIr"                   `noun`    {- <hUbIr> -}          [ "" {- "Hubert" -} ] ]
+
+
+cluster_412 = cluster
+
+ |> "h w b y" <| [
+
+    "hUbI"                    `noun`    {- <hUbI> -}           [ "" {- "Hobby" -} ] ]
+
+
+cluster_413 = cluster
+
+ |> "h w .g w" <| [
+
+    "hU.gU"                   `noun`    {- <hU.gU> -}          [ "" {- "Hugo" -} ] ]
+
+
+cluster_414 = cluster
+
+ |> "harArI" <| [
+
+    _____                     `noun`    {- <harArI> -}         [ "" {- "Harare" -} ] ]
+
+
+cluster_415 = cluster
+
+ |> "h n r y" <| [
+
+    KiRDI                     `noun`    {- <hinrI> -}          [ "" {- "Henry" -}, "" {- "Henri" -} ] ]
+
+
+cluster_416 = cluster
+
+ |> "h n y" <| [
+
+    FACUL                     `noun`    {- <hAnUy> -}          [ "" {- "Hanoi" -} ] ]
+
+
+cluster_417 = cluster
+
+ |> "" <| [
+
+    "hU"                      `noun`    {- <hU> -}             [ unwords [ "Ho", "(", "in", "\"Ho", "Chi", "" {- "Minh\"" -}, ")" ] ] ]
+
+
+
+ |> "h ^s y" <| [
+
+    FUCI                      `noun`    {- <hU^sI> -}          [ unwords [ "Ho", "Chi" ] ] ]
+
+
+cluster_418 = cluster
+
+ |> "h ' s" <| [
+
+    "hAs"                     `noun`    {- <hAs> -}            [ "" {- "Haas" -} ] ]
+
+
+cluster_419 = cluster
+
+ |> "m y y" <| [
+
+    "mayy"                    `noun`    {- <mayy> -}           [ "" {- "Mayy" -} ] ]
+
+
+cluster_420 = cluster
+
+ |> "" <| [
+
+    "mAyUr"                   `noun`    {- <mAyUr> -}          [ "" {- "Mayor" -}, "" {- "Major" -} ] ]
+
+
+cluster_421 = cluster
+
+ |> "m y l r" <| [
+
+    "mIlir"                   `noun`    {- <mIlir> -}          [ "" {- "Miller" -} ] ]
+
+
+cluster_422 = cluster
+
+ |> "m y m y" <| [
+
+    "mayAmI"                  `noun`    {- <mayAmI> -}         [ "" {- "Miami" -} ] ]
+
+
+cluster_423 = cluster
+
+ |> "m y d l" <| [
+
+    "mIdil"                   `noun`    {- <mIdil> -}          [ "" {- "Middle" -} ] ]
+
+
+cluster_424 = cluster
+
+ |> "m y d z" <| [
+
+    "mIdUz"                   `noun`    {- <mIdUz> -}          [ "" {- "Meadows" -} ] ]
+
+
+cluster_425 = cluster
+
+ |> "m y k" <| [
+
+    "mAyk"                    `noun`    {- <mAyk> -}           [ "" {- "Mike" -} ] ]
+
+
+cluster_426 = cluster
+
+ |> "m y .g n" <| [
+
+    "mI.gAn"                  `noun`    {- <mI.gAn> -}         [ "" {- "Megan" -} ] ]
+
+
+cluster_427 = cluster
+
+ |> "m y ^g r" <| [
+
+    "mI^gUr"                  `noun`    {- <mI^gUr> -}         [ "" {- "Major" -} ] ]
+
+
+cluster_428 = cluster
+
+ |> "m y ^s l" <| [
+
+    "mI^sIl"                  `noun`    {- <mI^sIl> -}         [ "" {- "Michelle" -} ] ]
+
+
+
+ |> "" <| [
+
+    "mI^sIl"                  `noun`    {- <mI^sIl> -}         [ "" {- "Michael" -}, "" {- "Michel" -} ] ]
+
+
+cluster_429 = cluster
+
+ |> "m w s d" <| [
+
+    "mUsAd"                   `noun`    {- <mUsAd> -}          [ "" {- "Mossad" -} ] ]
+
+
+cluster_430 = cluster
+
+ |> "m w n _h" <| [
+
+    "mUnI_h"                  `noun`    {- <mUnI_h> -}         [ "" {- "Munich" -} ] ]
+
+
+cluster_431 = cluster
+
+ |> "m w n k" <| [
+
+    "mUnIk"                   `noun`    {- <mUnIk> -}          [ "" {- "Monique" -} ] ]
+
+
+cluster_432 = cluster
+
+ |> "" <| [
+
+    "mUr"                     `noun`    {- <mUr> -}            [ "" {- "Moore" -}, "Mor" ] ]
+
+
+cluster_433 = cluster
+
+ |> "m w r s" <| [
+
+    "mUrIs"                   `noun`    {- <mUrIs> -}          [ "" {- "Maurice" -}, "" {- "Morris" -} ] ]
+
+
+cluster_434 = cluster
+
+ |> "m w r w" <| [
+
+    "mUrU"                    `noun`    {- <mUrU> -}           [ "" {- "Moro" -} ] ]
+
+
+cluster_435 = cluster
+
+ |> "m w b l" <| [
+
+    "mUbIl"                   `noun`    {- <mUbIl> -}          [ "" {- "Mobil" -} ] ]
+
+
+cluster_436 = cluster
+
+ |> "m w f n" <| [
+
+    "mUfIn"                   `noun`    {- <mUfIn> -}          [ "" {- "Moven" -} ] ]
+
+
+cluster_437 = cluster
+
+ |> "m w f z" <| [
+
+    "mUfAz"                   `noun`    {- <mUfAz> -}          [ "" {- "Mofaz" -} ] ]
+
+
+cluster_438 = cluster
+
+ |> "m w ^s y" <| [
+
+    "mU^sI"                   `noun`    {- <mU^sI> -}          [ "" {- "Moshe" -} ] ]
+
+
+cluster_439 = cluster
+
+ |> "muskU" <| [
+
+    _____                     `noun`    {- <muskU> -}          [ "" {- "Moscow" -} ] ]
+
+
+cluster_440 = cluster
+
+ |> "marw" <| [
+
+    _____                     `noun`    {- <marw> -}           [ "" {- "Merv" -} ] ]
+
+
+cluster_441 = cluster
+
+ |> "mIrI" <| [
+
+    _____                     `noun`    {- <mIrI> -}           [ "" {- "Meri" -}, "" {- "Miri" -} ] ]
+
+
+
+ |> "mArI" <| [
+
+    _____                     `noun`    {- <mArI> -}           [ "" {- "Mary" -} ] ]
+
+
+cluster_442 = cluster
+
+ |> "m r s y" <| [
+
+    KuRDI |< aT               `noun`    {- <mursiyaT> -}       [ "" {- "Murcia" -} ] ]
+
+
+cluster_443 = cluster
+
+ |> "m ' w" <| [
+
+    "mAw"                     `noun`    {- <mAw> -}            [ "Mao" ] ]
+
+
+cluster_444 = cluster
+
+ |> "m ' y" <| [
+
+    "mAy"                     `noun`    {- <mAy> -}            [ "May" ] ]
+
+
+cluster_445 = cluster
+
+ |> "" <| [
+
+    "kIt"                     `noun`    {- <kIt> -}            [ "" {- "Kate" -} ] ]
+
+
+cluster_446 = cluster
+
+ |> "k y t y" <| [
+
+    "kItI"                    `noun`    {- <kItI> -}           [ "" {- "Kitty" -} ] ]
+
+
+cluster_447 = cluster
+
+ |> "" <| [
+
+    "kIn"                     `noun`    {- <kIn> -}            [ "Ken" ],
+
+    "kin"                     `noun`    {- <kin> -}            [ "Ken" ] ]
+
+
+cluster_448 = cluster
+
+ |> "k y n t" <| [
+
+    "kInIt"                   `noun`    {- <kInIt> -}          [ "" {- "Kenneth" -} ] ]
+
+
+cluster_449 = cluster
+
+ |> "k y l y" <| [
+
+    "kIlI"                    `noun`    {- <kIlI> -}           [ "" {- "Kelly" -} ] ]
+
+
+cluster_450 = cluster
+
+ |> "" <| [
+
+    "kIm"                     `noun`    {- <kIm> -}            [ "Kim" ] ]
+
+
+cluster_451 = cluster
+
+ |> "k y f n" <| [
+
+    "kIfin"                   `noun`    {- <kIfin> -}          [ "" {- "Kevin" -} ] ]
+
+
+cluster_452 = cluster
+
+ |> "" <| [
+
+    "kUt"                     `noun`    {- <kUt> -}            [ "" {- "Cote" -} ] ]
+
+
+cluster_453 = cluster
+
+ |> "" <| [
+
+    "kUtur"                   `noun`    {- <kUtur> -}          [ "" {- "Kotor" -} ] ]
+
+
+cluster_454 = cluster
+
+ |> "k y .g" <| [
+
+    "kI.gAn"                  `noun`    {- <kI.gAn> -}         [ "" {- "Keegan" -} ] ]
+
+
+cluster_455 = cluster
+
+ |> "k w r l" <| [
+
+    "kUrIl"                   `noun`    {- <kUrIl> -}          [ "" {- "Kurile" -} ] ]
+
+
+cluster_456 = cluster
+
+ |> "kiyAn" <| [
+
+    _____                     `noun`    {- <kiyAn> -}          [ "" {- "Qian" -} ] ]
+
+
+cluster_457 = cluster
+
+ |> "" <| [
+
+    "kUk"                     `noun`    {- <kUk> -}            [ "" {- "Cook" -} ] ]
+
+
+cluster_458 = cluster
+
+ |> "" <| [
+
+    "kuwAl"                   `noun`    {- <kuwAl> -}          [ "" {- "Kowal" -} ] ]
+
+
+cluster_459 = cluster
+
+ |> "" <| [
+
+    "kUlIn"                   `noun`    {- <kUlIn> -}          [ "" {- "Coleen" -} ] ]
+
+
+
+ |> "" <| [
+
+    "kUlin"                   `noun`    {- <kUlin> -}          [ "" {- "Colin" -} ] ]
+
+
+cluster_460 = cluster
+
+ |> "k w m r" <| [
+
+    "kUmAr"                   `noun`    {- <kUmAr> -}          [ "" {- "Kumar" -} ] ]
+
+
+cluster_461 = cluster
+
+ |> "k w b r" <| [
+
+    "kUbir"                   `noun`    {- <kUbir> -}          [ "" {- "Cooper" -}, "" {- "Cuper" -} ] ]
+
+
+cluster_462 = cluster
+
+ |> "k w b y" <| [
+
+    "kUbI"                    `noun`    {- <kUbI> -}           [ "" {- "Kobe" -} ] ]
+
+
+cluster_463 = cluster
+
+ |> "k w h n" <| [
+
+    "kUhIn"                   `noun`    {- <kUhIn> -}          [ "" {- "Cohen" -} ] ]
+
+
+cluster_464 = cluster
+
+ |> "" <| [
+
+    "kArI"                    `noun`    {- <kArI> -}           [ "" {- "Carey" -} ] ]
+
+
+cluster_465 = cluster
+
+ |> "" <| [
+
+    "kiryAt"                  `noun`    {- <kiryAt> -}         [ "" {- "Kiryat" -} ] ]
+
+
+cluster_466 = cluster
+
+ |> "" <| [
+
+    "kAb"                     `noun`    {- <kAb> -}            [ "" {- "Cape" -} ] ]
+
+
+cluster_467 = cluster
+
+ |> "q y n n" <| [
+
+    "qInAn"                   `noun`    {- <qInAn> -}          [ "" {- "Qinan" -} ] ]
+
+
+cluster_468 = cluster
+
+ |> "" <| [
+
+    "qUnI" |< aT              `noun`    {- <qUniyaT> -}        [ "" {- "Konya" -} ] ]
+
+
+cluster_469 = cluster
+
+ |> "f y s" <| [
+
+    "fAys"                    `noun`    {- <fAys> -}           [ "" {- "Weiss" -} ] ]
+
+
+cluster_470 = cluster
+
+ |> "f y t r" <| [
+
+    "faytUr" |< Iy            `adj`     {- <faytUrIy> -}       [ "" {- "Faitouri" -}, "" {- "Faituri" -} ] ]
+
+
+
+ |> "" <| [
+
+    "fItUr" |< Iy             `adj`     {- <fItUrIy> -}        [ "" {- "Fitouri" -}, "" {- "Fituri" -} ] ]
+
+
+
+ |> "" <| [
+
+    "fItUr"                   `noun`    {- <fItUr> -}          [ "" {- "Vitor" -} ] ]
+
+
+cluster_471 = cluster
+
+ |> "f y t s" <| [
+
+    "fItIs"                   `noun`    {- <fItIs> -}          [ "" {- "Vitesse" -} ] ]
+
+
+cluster_472 = cluster
+
+ |> "f y l b" <| [
+
+    KiRDIS                    `noun`    {- <fiylIb> -}         [ "" {- "Philip" -}, "" {- "Philippe" -}, "" {- "Phillippe" -} ] ]
+
+
+cluster_473 = cluster
+
+ |> "f y l l" <| [
+
+    KiRDAS |< Iy              `adj`     {- <fiylAlIy> -}       [ "" {- "Filali" -} ] ]
+
+
+cluster_474 = cluster
+
+ |> "f y l y" <| [
+
+    "fIlI"                    `noun`    {- <fIlI> -}           [ "" {- "Willy" -} ] ]
+
+
+cluster_475 = cluster
+
+ |> "f y b r" <| [
+
+    "fIbir"                   `noun`    {- <fIbir> -}          [ "" {- "Weber" -}, "" {- "Webber" -} ] ]
+
+
+cluster_476 = cluster
+
+ |> "f w r k" <| [
+
+    "fUrIk"                   `noun`    {- <fUrIk> -}          [ "" {- "Furik" -} ] ]
+
+
+cluster_477 = cluster
+
+ |> "f w k y" <| [
+
+    "fUkI"                    `noun`    {- <fUkI> -}           [ "" {- "Fuki" -} ] ]
+
+
+cluster_478 = cluster
+
+ |> "f w l r" <| [
+
+    "fUlir"                   `noun`    {- <fUlir> -}          [ "" {- "Voeller" -}, "" {- "Fuller" -} ] ]
+
+
+cluster_479 = cluster
+
+ |> "f w n" <| [
+
+    "fUn"                     `noun`    {- <fUn> -}            [ "Von", "von" ] ]
+
+
+cluster_480 = cluster
+
+ |> "f w ^g y" <| [
+
+    "fU^gI"                   `noun`    {- <fU^gI> -}          [ "" {- "Fuji" -} ] ]
+
+
+cluster_481 = cluster
+
+ |> "f r y l" <| [
+
+    "firyAl"                  `noun`    {- <firyAl> -}         [ "" {- "Firyal" -} ] ]
+
+
+cluster_482 = cluster
+
+ |> "f r s y" <| [
+
+    "firsAy"                  `noun`    {- <firsAy> -}         [ "" {- "Versailles" -} ] ]
+
+
+cluster_483 = cluster
+
+ |> "f r f y" <| [
+
+    "firfI"                   `noun`    {- <firfI> -}          [ "" {- "Verviers" -} ] ]
+
+
+cluster_484 = cluster
+
+ |> "" <| [
+
+    "fAn"                     `noun`    {- <fAn> -}            [ "Fan", "" {- "Fansa" -}, "" {- "Vansa" -}, "" {- "Fanssa" -}, unwords [ "" {- "Vanssa" -}, "?", "?" ] ] ]
+
+
+cluster_485 = cluster
+
+ |> "" <| [
+
+    "vAl"                     `noun`    {- <vAl> -}            [ "Val" ] ]
+
+
+cluster_486 = cluster
+
+ |> ".g y z" <| [
+
+    ".gAyiz"                  `noun`    {- <.gAyiz> -}         [ "" {- "Gaze" -} ] ]
+
+
+cluster_487 = cluster
+
+ |> ".g w m ^s" <| [
+
+    ".gUmI^s"                 `noun`    {- <.gUmI^s> -}        [ "" {- "Gomes" -} ] ]
+
+
+cluster_488 = cluster
+
+ |> ".g w n r" <| [
+
+    ".gUnAr"                  `noun`    {- <.gUnAr> -}         [ "" {- "Gunnar" -} ] ]
+
+
+cluster_489 = cluster
+
+ |> "" <| [
+
+    ".gUr"                    `noun`    {- <.gUr> -}           [ "" {- "Gore" -} ] ]
+
+
+cluster_490 = cluster
+
+ |> "" <| [
+
+    ".gUrAn"                  `noun`    {- <.gUrAn> -}         [ "" {- "Goran" -} ] ]
+
+
+cluster_491 = cluster
+
+ |> ".g w w" <| [
+
+    ".gU"                     `noun`    {- <.gU> -}            [ "Gou", "Gu" ] ]
+
+
+cluster_492 = cluster
+
+ |> "" <| [
+
+    ".gU^s"                   `noun`    {- <.gU^s> -}          [ "" {- "Gush" -} ] ]
+
+
+cluster_493 = cluster
+
+ |> ".g ' w" <| [
+
+    ".gAw"                    `noun`    {- <.gAw> -}           [ "Gao" ] ]
+
+
+cluster_494 = cluster
+
+ |> "_h w s h" <| [
+
+    "_hUsIh"                  `noun`    {- <_hUsIh> -}         [ "" {- "Jose" -} ] ]
+
+
+cluster_495 = cluster
+
+ |> "_h w l t" <| [
+
+    "_hUlIt"                  `noun`    {- <_hUlIt> -}         [ "" {- "Hoeliet" -} ] ]
+
+
+cluster_496 = cluster
+
+ |> "" <| [
+
+    "_hUlU"                   `noun`    {- <_hUlU> -}          [ "" {- "Jolo" -} ] ]
+
+
+cluster_497 = cluster
+
+ |> "^g y n" <| [
+
+    "^gIn"                    `noun`    {- <^gIn> -}           [ "" {- "Jeanne" -} ] ]
+
+
+cluster_498 = cluster
+
+ |> "^g y r m" <| [
+
+    "^gIrUm"                  `noun`    {- <^gIrUm> -}         [ "" {- "Jerome" -} ] ]
+
+
+cluster_499 = cluster
+
+ |> "^g y k f" <| [
+
+    "^gIkUf"                  `noun`    {- <^gIkUf> -}         [ "" {- "Chekov" -}, "" {- "Jekov" -} ] ]
+
+
+cluster_500 = cluster
+
+ |> "^g y m y" <| [
+
+    "^gImI"                   `noun`    {- <^gImI> -}          [ "" {- "Jimmy" -} ] ]
+
+
+cluster_501 = cluster
+
+ |> "^g w z b" <| [
+
+    "^gUzIb"                  `noun`    {- <^gUzIb> -}         [ "" {- "Josip" -} ] ]
+
+
+
+ |> "^g w z f" <| [
+
+    "^gUzIf"                  `noun`    {- <^gUzIf> -}         [ "" {- "Josef" -} ] ]
+
+
+
+ |> "" <| [
+
+    "^gUzif"                  `noun`    {- <^gUzif> -}         [ "" {- "Joseph" -} ] ]
+
+
+
+ |> "^g w z h" <| [
+
+    "^gUzIh"                  `noun`    {- <^gUzIh> -}         [ "" {- "Jose" -} ] ]
+
+
+cluster_502 = cluster
+
+ |> "" <| [
+
+    "^gUlU"                   `noun`    {- <^gUlU> -}          [ "" {- "Jolo" -} ] ]
+
+
+cluster_503 = cluster
+
+ |> "^g w k r" <| [
+
+    "^gUkir"                  `noun`    {- <^gUkir> -}         [ "" {- "Joker" -} ] ]
+
+
+cluster_504 = cluster
+
+ |> "^g w b h" <| [
+
+    "^gUbIh"                  `noun`    {- <^gUbIh> -}         [ "" {- "Joubeh" -} ] ]
+
+
+cluster_505 = cluster
+
+ |> "" <| [
+
+    "^gUlI"                   `noun`    {- <^gUlI> -}          [ "" {- "Julie" -} ] ]
+
+
+cluster_506 = cluster
+
+ |> "^g ' k" <| [
+
+    "^gAk"                    `noun`    {- <^gAk> -}           [ "" {- "Jacques" -}, "" {- "Jack" -} ] ]
+
+
+cluster_507 = cluster
+
+ |> "wImbldUn" <| [
+
+    _____                     `noun`    {- <wImbldUn> -}       [ "" {- "Wimbledon" -} ] ]
+
+
+cluster_508 = cluster
+
+ |> "wIlyAms" <| [
+
+    _____                     `noun`    {- <wIlyAms> -}        [ "" {- "Williams" -} ] ]
+
+
+cluster_509 = cluster
+
+ |> "wIlyAm" <| [
+
+    _____                     `noun`    {- <wIlyAm> -}         [ "" {- "William" -} ] ]
+
+
+cluster_510 = cluster
+
+ |> "wIltUrd" <| [
+
+    _____                     `noun`    {- <wIltUrd> -}        [ "" {- "Wiltord" -} ] ]
+
+
+cluster_511 = cluster
+
+ |> "wIlkinz" <| [
+
+    _____                     `noun`    {- <wIlkinz> -}        [ "" {- "Wilkins" -} ] ]
+
+
+cluster_512 = cluster
+
+ |> "wAyzmAn" <| [
+
+    _____                     `noun`    {- <wAyzmAn> -}        [ "" {- "Weizman" -} ] ]
+
+
+cluster_513 = cluster
+
+ |> "wAtsU^sI" <| [
+
+    _____                     `noun`    {- <wAtsU^sI> -}       [ "" {- "Watsushi" -} ] ]
+
+
+cluster_514 = cluster
+
+ |> "wAtirfUrd" <| [
+
+    _____                     `noun`    {- <wAtirfUrd> -}      [ "" {- "Waterford" -} ] ]
+
+
+cluster_515 = cluster
+
+ |> "wArsU" <| [
+
+    _____                     `noun`    {- <wArsU> -}          [ "" {- "Warsaw" -} ] ]
+
+
+cluster_516 = cluster
+
+ |> "wAr.tAn" <| [
+
+    _____                     `noun`    {- <wAr.tAn> -}        [ "" {- "Wartan" -} ] ]
+
+
+cluster_517 = cluster
+
+ |> "wAnt^sUb" <| [
+
+    _____                     `noun`    {- <wAnt^sUb> -}       [ "" {- "Wanchope" -} ] ]
+
+
+cluster_518 = cluster
+
+ |> "wAndirlI" <| [
+
+    _____                     `noun`    {- <wAndirlI> -}       [ "" {- "Wanderley" -} ] ]
+
+
+cluster_519 = cluster
+
+ |> "wAltirz" <| [
+
+    _____                     `noun`    {- <wAltirz> -}        [ "" {- "Walters" -} ] ]
+
+
+cluster_520 = cluster
+
+ |> "wAlAs" <| [
+
+    _____                     `noun`    {- <wAlAs> -}          [ "" {- "Wallace" -} ] ]
+
+
+cluster_521 = cluster
+
+ |> "^g ' n" <| [
+
+    "^gAn"                    `noun`    {- <^gAn> -}           [ "" {- "Jean" -}, "Jan" ] ]
+
+
+cluster_522 = cluster
+
+ |> "" <| [
+
+    "^git"                    `noun`    {- <^git> -}           [ "Jet" ] ]
+
+
+cluster_523 = cluster
+
+ |> "wwl" <| [
+
+    _____                     `noun`    {- <wwl> -}            [ "" {- "Wall" -} ] ]
+
+
+cluster_524 = cluster
+
+ |> "wulfirhAmbtUn" <| [
+
+    _____                     `noun`    {- <wulfirhAmbtUn> -}  [ "" {- "Wolverhampton" -} ] ]
+
+
+cluster_525 = cluster
+
+ |> "b y t r" <| [
+
+    "bItAr"                   `noun`    {- <bItAr> -}          [ "" {- "Bitar" -}, "" {- "Betar" -} ] ]
+
+
+cluster_526 = cluster
+
+ |> "wUtir^gIt" <| [
+
+    _____                     `noun`    {- <wUtir^gIt> -}      [ "" {- "Wategate" -} ] ]
+
+
+cluster_527 = cluster
+
+ |> "wUrnar" <| [
+
+    _____                     `noun`    {- <wUrnar> -}         [ "" {- "Warner" -} ] ]
+
+
+cluster_528 = cluster
+
+ |> "wUrldkUm" <| [
+
+    _____                     `noun`    {- <wUrldkUm> -}       [ "" {- "WorldCom" -} ] ]
+
+
+cluster_529 = cluster
+
+ |> "wUkir" <| [
+
+    _____                     `noun`    {- <wUkir> -}          [ "" {- "Walker" -} ] ]
+
+
+cluster_530 = cluster
+
+ |> "wUdrUf" <| [
+
+    _____                     `noun`    {- <wUdrUf> -}         [ "" {- "Woodruff" -} ] ]
+
+
+cluster_531 = cluster
+
+ |> "yAnA" <| [
+
+    _____                     `noun`    {- <yAnA> -}           [ "" {- "Jana" -} ] ]
+
+
+cluster_532 = cluster
+
+ |> "b y t s" <| [
+
+    "bItIs"                   `noun`    {- <bItIs> -}          [ "" {- "Betis" -} ] ]
+
+
+cluster_533 = cluster
+
+ |> "yAmAhA" <| [
+
+    _____                     `noun`    {- <yAmAhA> -}         [ "" {- "Yamaha" -} ] ]
+
+
+cluster_534 = cluster
+
+ |> "b y n n" <| [
+
+    "bInUn"                   `noun`    {- <bInUn> -}          [ "" {- "Benon" -} ] ]
+
+
+cluster_535 = cluster
+
+ |> "b y r n" <| [
+
+    KiRDUS |< Iy              `adj`     {- <biyrUnIy> -}       [ "" {- "Biruni" -}, "" {- "Birouni" -} ] ]
+
+
+
+ |> "" <| [
+
+    "bIrUn"                   `noun`    {- <bIrUn> -}          [ "" {- "Peron" -} ] ]
+
+
+cluster_536 = cluster
+
+ |> "b y r y" <| [
+
+    "bIrI"                    `noun`    {- <bIrI> -}           [ "" {- "Perry" -} ] ]
+
+
+cluster_537 = cluster
+
+ |> "b y r s" <| [
+
+    "bIrIs"                   `noun`    {- <bIrIs> -}          [ "" {- "Peres" -} ] ]
+
+
+
+ |> "b y r z" <| [
+
+    "bIrIz"                   `noun`    {- <bIrIz> -}          [ "" {- "Peres" -} ] ]
+
+
+cluster_538 = cluster
+
+ |> "b y l n" <| [
+
+    "bIlIn"                   `noun`    {- <bIlIn> -}          [ "" {- "Bilin" -}, "" {- "Billin" -} ] ]
+
+
+cluster_539 = cluster
+
+ |> "" <| [
+
+    "bIdAr"                   `noun`    {- <bIdAr> -}          [ "" {- "Bidar" -} ] ]
+
+
+cluster_540 = cluster
+
+ |> "yUkUhAmA" <| [
+
+    _____                     `noun`    {- <yUkUhAmA> -}       [ "" {- "Yokohama" -} ] ]
+
+
+cluster_541 = cluster
+
+ |> "yUhAnsUn" <| [
+
+    _____                     `noun`    {- <yUhAnsUn> -}       [ "" {- "Johansson" -} ] ]
+
+
+cluster_542 = cluster
+
+ |> "yUfintUs" <| [
+
+    _____                     `noun`    {- <yUfintUs> -}       [ "" {- "Juventus" -} ] ]
+
+
+cluster_543 = cluster
+
+ |> "yUfAnUfIt^s" <| [
+
+    _____                     `noun`    {- <yUfAnUfIt^s> -}    [ "" {- "Jovanovic" -}, "" {- "Jovanovich" -} ] ]
+
+
+cluster_544 = cluster
+
+ |> "b y k n" <| [
+
+    "bIkIn"                   `noun`    {- <bIkIn> -}          [ "" {- "Peking" -}, "" {- "Beijing" -} ] ]
+
+
+cluster_545 = cluster
+
+ |> "" <| [
+
+    "baykir"                  `noun`    {- <baykir> -}         [ "" {- "Baker" -} ] ]
+
+
+cluster_546 = cluster
+
+ |> "b y .g n" <| [
+
+    "bI.gin"                  `noun`    {- <bI.gin> -}         [ "" {- "Begin" -} ] ]
+
+
+cluster_547 = cluster
+
+ |> "b y ^g" <| [
+
+    "bI^gAn"                  `noun`    {- <bI^gAn> -}         [ "" {- "Bijan" -} ] ]
+
+
+cluster_548 = cluster
+
+ |> "b y ^s" <| [
+
+    "bI^s" |< Iy              `adj`     {- <bI^sIy> -}         [ "" {- "Bishi" -} ] ]
+
+
+cluster_549 = cluster
+
+ |> "" <| [
+
+    "bUtU"                    `noun`    {- <bUtU> -}           [ "" {- "Bhutto" -} ] ]
+
+
+cluster_550 = cluster
+
+ |> "b w r s" <| [
+
+    "bUrIs"                   `noun`    {- <bUrIs> -}          [ "" {- "Boris" -} ] ]
+
+
+cluster_551 = cluster
+
+ |> "b w t n" <| [
+
+    "bUtIn"                   `noun`    {- <bUtIn> -}          [ "" {- "Putin" -} ] ]
+
+
+cluster_552 = cluster
+
+ |> "yArkAs" <| [
+
+    _____                     `noun`    {- <yArkAs> -}         [ "" {- "Yarkas" -} ] ]
+
+
+cluster_553 = cluster
+
+ |> "b w l q" <| [
+
+    KuRDAS                    `noun`    {- <buwlAq> -}         [ "" {- "Bulaq" -} ] ]
+
+
+cluster_554 = cluster
+
+ |> "yAnA.gIsAwA" <| [
+
+    _____                     `noun`    {- <yAnA.gIsAwA> -}    [ "" {- "Yanagisawa" -} ] ]
+
+
+cluster_555 = cluster
+
+ |> "yiltsin" <| [
+
+    _____                     `noun`    {- <yiltsin> -}        [ "" {- "Yeltsin" -} ] ]
+
+
+cluster_556 = cluster
+
+ |> "yif.gInI" <| [
+
+    _____                     `noun`    {- <yif.gInI> -}       [ "" {- "Yevgeni" -} ] ]
+
+
+cluster_557 = cluster
+
+ |> "b w f n" <| [
+
+    "bUfUn"                   `noun`    {- <bUfUn> -}          [ "" {- "Buffon" -} ] ]
+
+
+cluster_558 = cluster
+
+ |> "b w ^s r" <| [
+
+    "bU^sir"                  `noun`    {- <bU^sir> -}         [ "" {- "Boucher" -} ] ]
+
+
+cluster_559 = cluster
+
+ |> "b w _h m" <| [
+
+    "bU_hUm"                  `noun`    {- <bU_hUm> -}         [ "" {- "Bochum" -} ] ]
+
+
+cluster_560 = cluster
+
+ |> "b t y" <| [
+
+    "bUtI"                    `noun`    {- <bUtI> -}           [ "" {- "Petit" -} ] ]
+
+
+cluster_561 = cluster
+
+ |> "b s k y" <| [
+
+    "biskAy"                  `noun`    {- <biskAy> -}         [ "" {- "Biscay" -} ] ]
+
+
+cluster_562 = cluster
+
+ |> "yadI`Ut" <| [
+
+    _____                     `noun`    {- <yadI`Ut> -}        [ "" {- "Yediot" -} ] ]
+
+
+cluster_563 = cluster
+
+ |> "" <| [
+
+    "bArI"                    `noun`    {- <bArI> -}           [ "" {- "Paris" -} ] ]
+
+
+cluster_564 = cluster
+
+ |> "yUtA" <| [
+
+    _____                     `noun`    {- <yUtA> -}           [ "" {- "Utah" -} ] ]
+
+
+cluster_565 = cluster
+
+ |> "yUrk" <| [
+
+    _____                     `noun`    {- <yUrk> -}           [ "" {- "York" -} ] ]
+
+
+cluster_566 = cluster
+
+ |> "" <| [
+
+    "bUnI"                    `noun`    {- <bUnI> -}           [ "" {- "Boni" -} ] ]
+
+
+cluster_567 = cluster
+
+ |> "b m b y" <| [
+
+    "bumbAy"                  `noun`    {- <bumbAy> -}         [ "" {- "Bombay" -} ] ]
+
+
+cluster_568 = cluster
+
+ |> "yUnskUm" <| [
+
+    _____                     `noun`    {- <yUnskUm> -}        [ "UNSCOM" ] ]
+
+
+cluster_569 = cluster
+
+ |> "' z m r" <| [
+
+    "'izmIr"                  `noun`    {- <'izmIr> -}         [ "" {- "Izmir" -}, "" {- "Smyrna" -} ] ]
+
+
+cluster_570 = cluster
+
+ |> "' y z y" <| [
+
+    "'IzI"                    `noun`    {- <'IzI> -}           [ "" {- "Easy" -} ] ]
+
+
+cluster_571 = cluster
+
+ |> "yUnItA" <| [
+
+    _____                     `noun`    {- <yUnItA> -}         [ "UNITA" ] ]
+
+
+cluster_572 = cluster
+
+ |> "yUnIskU" <| [
+
+    _____                     `noun`    {- <yUnIskU> -}        [ "UNESCO" ] ]
+
+
+cluster_573 = cluster
+
+ |> "yUnIsif" <| [
+
+    _____                     `noun`    {- <yUnIsif> -}        [ "UNICEF" ] ]
+
+
+cluster_574 = cluster
+
+ |> "yUnAytid" <| [
+
+    _____                     `noun`    {- <yUnAytid> -}       [ "" {- "United" -} ] ]
+
+
+cluster_575 = cluster
+
+ |> "ywmbl.gAz" <| [
+
+    _____                     `noun`    {- <ywmbl.gAz> -}      [ unwords [ "" {- "Iompelgas" -}, "?", "?" ] ] ]
+
+
+cluster_576 = cluster
+
+ |> "yu.hannA" <| [
+
+    _____                     `noun`    {- <yu.hannA> -}       [ "" {- "Yuhanna" -}, "" {- "John" -} ] ]
+
+
+cluster_577 = cluster
+
  |> "yits.hAk" <| [
 
-    Identity                  `noun`    {- <yits.hAk> -}       [ "Yitzhak" ] ]
+    _____                     `noun`    {- <yits.hAk> -}       [ "" {- "Yitzhak" -} ] ]
+
+
+cluster_578 = cluster
+
+ |> "" <| [
+
+    "'ayAn"                   `noun`    {- <'ayAn> -}          [ "" {- "Ayan" -} ] ]
 
 
 
+cluster_579 = cluster
+
+ |> "" <| [
+
+    "'iyAn"                   `noun`    {- <'iyAn> -}          [ "Ian" ] ]
 
 
 
@@ -6688,7 +8284,251 @@ section = [ cluster_1,
             cluster_332,
             cluster_333,
             cluster_334,
-            cluster_335 ]
+            cluster_335,
+            cluster_336,
+            cluster_337,
+            cluster_338,
+            cluster_339,
+            cluster_340,
+            cluster_341,
+            cluster_342,
+            cluster_343,
+            cluster_344,
+            cluster_345,
+            cluster_346,
+            cluster_347,
+            cluster_348,
+            cluster_349,
+            cluster_350,
+            cluster_351,
+            cluster_352,
+            cluster_353,
+            cluster_354,
+            cluster_355,
+            cluster_356,
+            cluster_357,
+            cluster_358,
+            cluster_359,
+            cluster_360,
+            cluster_361,
+            cluster_362,
+            cluster_363,
+            cluster_364,
+            cluster_365,
+            cluster_366,
+            cluster_367,
+            cluster_368,
+            cluster_369,
+            cluster_370,
+            cluster_371,
+            cluster_372,
+            cluster_373,
+            cluster_374,
+            cluster_375,
+            cluster_376,
+            cluster_377,
+            cluster_378,
+            cluster_379,
+            cluster_380,
+            cluster_381,
+            cluster_382,
+            cluster_383,
+            cluster_384,
+            cluster_385,
+            cluster_386,
+            cluster_387,
+            cluster_388,
+            cluster_389,
+            cluster_390,
+            cluster_391,
+            cluster_392,
+            cluster_393,
+            cluster_394,
+            cluster_395,
+            cluster_396,
+            cluster_397,
+            cluster_398,
+            cluster_399,
+            cluster_400,
+            cluster_401,
+            cluster_402,
+            cluster_403,
+            cluster_404,
+            cluster_405,
+            cluster_406,
+            cluster_407,
+            cluster_408,
+            cluster_409,
+            cluster_410,
+            cluster_411,
+            cluster_412,
+            cluster_413,
+            cluster_414,
+            cluster_415,
+            cluster_416,
+            cluster_417,
+            cluster_418,
+            cluster_419,
+            cluster_420,
+            cluster_421,
+            cluster_422,
+            cluster_423,
+            cluster_424,
+            cluster_425,
+            cluster_426,
+            cluster_427,
+            cluster_428,
+            cluster_429,
+            cluster_430,
+            cluster_431,
+            cluster_432,
+            cluster_433,
+            cluster_434,
+            cluster_435,
+            cluster_436,
+            cluster_437,
+            cluster_438,
+            cluster_439,
+            cluster_440,
+            cluster_441,
+            cluster_442,
+            cluster_443,
+            cluster_444,
+            cluster_445,
+            cluster_446,
+            cluster_447,
+            cluster_448,
+            cluster_449,
+            cluster_450,
+            cluster_451,
+            cluster_452,
+            cluster_453,
+            cluster_454,
+            cluster_455,
+            cluster_456,
+            cluster_457,
+            cluster_458,
+            cluster_459,
+            cluster_460,
+            cluster_461,
+            cluster_462,
+            cluster_463,
+            cluster_464,
+            cluster_465,
+            cluster_466,
+            cluster_467,
+            cluster_468,
+            cluster_469,
+            cluster_470,
+            cluster_471,
+            cluster_472,
+            cluster_473,
+            cluster_474,
+            cluster_475,
+            cluster_476,
+            cluster_477,
+            cluster_478,
+            cluster_479,
+            cluster_480,
+            cluster_481,
+            cluster_482,
+            cluster_483,
+            cluster_484,
+            cluster_485,
+            cluster_486,
+            cluster_487,
+            cluster_488,
+            cluster_489,
+            cluster_490,
+            cluster_491,
+            cluster_492,
+            cluster_493,
+            cluster_494,
+            cluster_495,
+            cluster_496,
+            cluster_497,
+            cluster_498,
+            cluster_499,
+            cluster_500,
+            cluster_501,
+            cluster_502,
+            cluster_503,
+            cluster_504,
+            cluster_505,
+            cluster_506,
+            cluster_507,
+            cluster_508,
+            cluster_509,
+            cluster_510,
+            cluster_511,
+            cluster_512,
+            cluster_513,
+            cluster_514,
+            cluster_515,
+            cluster_516,
+            cluster_517,
+            cluster_518,
+            cluster_519,
+            cluster_520,
+            cluster_521,
+            cluster_522,
+            cluster_523,
+            cluster_524,
+            cluster_525,
+            cluster_526,
+            cluster_527,
+            cluster_528,
+            cluster_529,
+            cluster_530,
+            cluster_531,
+            cluster_532,
+            cluster_533,
+            cluster_534,
+            cluster_535,
+            cluster_536,
+            cluster_537,
+            cluster_538,
+            cluster_539,
+            cluster_540,
+            cluster_541,
+            cluster_542,
+            cluster_543,
+            cluster_544,
+            cluster_545,
+            cluster_546,
+            cluster_547,
+            cluster_548,
+            cluster_549,
+            cluster_550,
+            cluster_551,
+            cluster_552,
+            cluster_553,
+            cluster_554,
+            cluster_555,
+            cluster_556,
+            cluster_557,
+            cluster_558,
+            cluster_559,
+            cluster_560,
+            cluster_561,
+            cluster_562,
+            cluster_563,
+            cluster_564,
+            cluster_565,
+            cluster_566,
+            cluster_567,
+            cluster_568,
+            cluster_569,
+            cluster_570,
+            cluster_571,
+            cluster_572,
+            cluster_573,
+            cluster_574,
+            cluster_575,
+            cluster_576,
+            cluster_577,
+            cluster_578,
+            cluster_579 ]
 
 
 
