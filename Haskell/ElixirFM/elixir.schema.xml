@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <pml_schema version="1.1" xmlns="http://ufal.mff.cuni.cz/pdt/pml/schema/">
-    <revision>0.1.0</revision>
+    <revision>1.0.0</revision>
     <description>ElixirFM Lexicon</description>
   
     <root name="ElixirFM" type="Lexicon.type" />
 
     <type name="Lexicon.type">
         <structure>
-            <!--<member name="data" role="#TREES" required="1" type="Wrap.type"/>-->
             <member name="meta">
                 <structure>
                     <member name="revision">
@@ -33,12 +32,7 @@
                 <element name="NestT" type="Nest.type"/>
                 <element name="NestQ" type="Nest.type"/>
                 <element name="NestL" type="Nest.type"/>
-                <!--<element name="WrapS" type="Nest.type"/>
-                <element name="WrapT" type="Nest.type"/>
-                <element name="WrapQ" type="Nest.type"/>
-                <element name="WrapL" type="Nest.type"/>-->
             </sequence>
-            <!--<list type="Nest.type"/>-->
         </container>
     </type>
 
@@ -57,26 +51,19 @@
         <structure role="#NODE">
             <member name="morphs" type="Morphs.type"/>
             <member name="entity" type="Entity.type"/>
-            <!--<member name="entity" type="Entity.type" role="#CHILDNODES"/>-->
-            <member name="reflex" type="Reflex.type"/>
             <member name="limits" type="Limits.type"/>
+            <member name="reflex" type="Reflex.type"/>
             <member name="vallex" type="Vallex.type" role="#CHILDNODES"/>
         </structure>
     </type>
     
     <type name="Root.type">
         <cdata format="any"/>
-        <!--<structure>
-            <member name="tex" required="1"><cdata format="any"/></member>
-            <member name="ucs"><cdata format="any"/></member>
-            <member name="tim"><cdata format="any"/></member>
-        </structure>-->
     </type>
 
     <type name="Entity.type">
         <sequence content_pattern="(Verb|Noun|Adj|Pron|Num|Adv|Prep|Conj|Part|Intj|Zero)">
             <element name="Verb">
-                <!--<structure role="#NODE">-->
                 <structure>
                     <member name="form">
                         <list type="Form.type" ordered="1"/>
@@ -95,9 +82,7 @@
                 </structure>
             </element>
             <element name="Noun">
-                <!--<structure role="#NODE">-->
                 <structure>
-                    <!--<member name="plural" type="Plural.type" role="#CHILDNODES"/>-->
                     <member name="plural" type="Plural.type"/>
                     <member name="gender"><cdata format="any"/></member>
                     <member name="number"><cdata format="any"/></member>
@@ -105,9 +90,7 @@
                 </structure>
             </element>
             <element name="Adj" >
-                <!--<structure role="#NODE">-->
                 <structure>
-                    <!--<member name="plural" type="Plural.type" role="#CHILDNODES"/>-->
                     <member name="plural" type="Plural.type"/>
                     <member name="femini">
                         <list type="Morphs.type" ordered="1"/>
@@ -115,47 +98,17 @@
                     <member name="number"><cdata format="any"/></member>
                 </structure>
             </element>
-            <element name="Pron">
-                <!--<structure role="#NODE">-->
-                <structure>
+            <element name="Pron"/>
+            <element name="Num"/>
+            <element name="Adv"/>
+            <element name="Prep"/>
+            <element name="Conj"/>
+            <element name="Part"/>
+            <element name="Intj"/>
+            <element name="Zero">
+                <!--<structure>
                     <member name="nothing"><cdata format="any"/></member>
-                </structure>
-            </element>
-            <element name="Num">
-                <!--<structure role="#NODE">-->
-                <structure>
-                    <member name="nothing"><cdata format="any"/></member>
-                </structure>
-            </element>
-            <element name="Adv">
-                <!--<structure role="#NODE">-->
-                <structure>
-                    <member name="nothing"><cdata format="any"/></member>
-                </structure>
-            </element>
-            <element name="Prep">
-                <!--<structure role="#NODE">-->
-                <structure>
-                    <member name="nothing"><cdata format="any"/></member>
-                </structure>
-            </element>
-            <element name="Conj">
-                <!--<structure role="#NODE">-->
-                <structure>
-                    <member name="nothing"><cdata format="any"/></member>
-                </structure>
-            </element>
-            <element name="Part">
-                <!--<structure role="#NODE">-->
-                <structure>
-                    <member name="nothing"><cdata format="any"/></member>
-                </structure>
-            </element>
-            <element name="Intj">
-                <!--<structure role="#NODE">-->
-                <structure>
-                    <member name="nothing"><cdata format="any"/></member>
-                </structure>
+                </structure>-->
             </element>
         </sequence>
     </type>
@@ -182,12 +135,8 @@
 
     <type name="Plural.type">
         <sequence>
-            <!--<element name="Right">
-                <container type="Morphs.type" role="#NODE"/>
-            </element>-->
             <element name="Right" type="Morphs.type"/>
             <element name="Left">
-                <!--<structure role="#NODE">-->
                 <structure>
                     <member name="fst" type="Root.type"/>
                     <member name="snd" type="Morphs.type"/>
@@ -275,7 +224,6 @@
     </type>
     
     <type name="Functor.type">
-        <!--<cdata format="any"/>-->
         <choice>
             <value>ACT</value>
             <value>PAT</value>

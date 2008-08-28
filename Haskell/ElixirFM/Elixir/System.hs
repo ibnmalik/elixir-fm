@@ -126,6 +126,7 @@ data ParaType = ParaVerb  ParaVerb
               | ParaConj  ParaConj
               | ParaPart  ParaPart
               | ParaIntj  ParaIntj
+              | ParaZero  ParaZero
 
     deriving (Eq, Show)
 
@@ -140,6 +141,7 @@ data TagsType = TagsVerb  [TagsVerb]
               | TagsConj  [TagsConj]
               | TagsPart  [TagsPart]
               | TagsIntj  [TagsIntj]
+              | TagsZero  [TagsZero]
 
     deriving (Eq, Show)
 
@@ -208,6 +210,11 @@ data TagsIntj = TagsIntjI
     deriving Eq
 
 
+data TagsZero = TagsZeroZ
+
+    deriving Eq
+
+
 vals :: Param a => [a] -> [a]
 
 vals [] = values
@@ -241,6 +248,7 @@ expand (TagsPrep xs) = TagsPrep (list complete xs)
 expand (TagsConj xs) = TagsConj (list complete xs)
 expand (TagsPart xs) = TagsPart (list complete xs)
 expand (TagsIntj xs) = TagsIntj (list complete xs)
+expand (TagsZero xs) = TagsZero (list complete xs)
 
 
 class Restrict a where
@@ -254,7 +262,7 @@ instance Restrict TagsType where
 
     complete = [TagsVerb [], TagsNoun [], TagsAdj  [], TagsPron [],
                 TagsNum  [], TagsAdv  [], TagsPrep [], TagsConj [],
-                TagsPart [], TagsIntj []]
+                TagsPart [], TagsIntj [], TagsZero []]
 
     restrict (TagsVerb []) ys = [ y | y@(TagsVerb _) <- ys ]
     restrict (TagsNoun []) ys = [ y | y@(TagsNoun _) <- ys ]
@@ -266,6 +274,7 @@ instance Restrict TagsType where
     restrict (TagsConj []) ys = [ y | y@(TagsConj _) <- ys ]
     restrict (TagsPart []) ys = [ y | y@(TagsPart _) <- ys ]
     restrict (TagsIntj []) ys = [ y | y@(TagsIntj _) <- ys ]
+    restrict (TagsZero []) ys = [ y | y@(TagsZero _) <- ys ]
 {-
     restrict (TagsVerb []) ys = [ TagsVerb y | TagsVerb y <- ys ]
     restrict (TagsNoun []) ys = [ TagsNoun y | TagsNoun y <- ys ]
@@ -288,6 +297,7 @@ instance Restrict TagsType where
     restrict (TagsConj xs) ys = [ TagsConj (restrict x y) | TagsConj y <- ys, x <- xs ]
     restrict (TagsPart xs) ys = [ TagsPart (restrict x y) | TagsPart y <- ys, x <- xs ]
     restrict (TagsIntj xs) ys = [ TagsIntj (restrict x y) | TagsIntj y <- ys, x <- xs ]
+    restrict (TagsZero xs) ys = [ TagsZero (restrict x y) | TagsZero y <- ys, x <- xs ]
 
 
 instance Restrict TagsVerb where

@@ -282,8 +282,9 @@ x <::> y = Entry { morphs = morph x, entity = e, limits = (d, []), reflex = [] }
                     TagsConj _ -> Conj
                     TagsPart _ -> Part
                     TagsIntj _ -> Intj
+                    TagsZero _ -> Zero
 
-          d = head ((unTagsTypes . read) y ++ [TagsIntj []])
+          d = head ((unTagsTypes . read) y ++ [TagsZero []])
 
 
 infixl 6 <::>, <..>, <.>, <:>
@@ -339,11 +340,12 @@ data Entity a = Verb { form :: [Form], perfect', imperfect, imperative :: [a],
               | Conj
               | Part
               | Intj
+              | Zero
 
     deriving Show
 
 
-isVerb, isNoun, isAdj, isPron, isNum, isAdv, isPrep, isConj, isPart, isIntj :: Entity a -> Bool
+isVerb, isNoun, isAdj, isPron, isNum, isAdv, isPrep, isConj, isPart, isIntj, isZero :: Entity a -> Bool
 
 isVerb (Verb _ _ _ _ _ _) = True
 isVerb _                  = False
@@ -374,6 +376,9 @@ isPart _    = False
 
 isIntj Intj = True
 isIntj _    = False
+
+isZero Zero = True
+isZero _    = False
 
 
 verb :: (Morphing a b, Forming a, Rules a, Eq a) => a -> Reflex -> Entry b
@@ -437,9 +442,11 @@ prep m = Entry (morph m) Prep (TagsPrep [], [])
 conj m = Entry (morph m) Conj (TagsConj [], [])
 part m = Entry (morph m) Part (TagsPart [], [])
 intj m = Entry (morph m) Intj (TagsIntj [], [])
+zero m = Entry (morph m) Zero (TagsZero [], [])
+
 
 infixl 3 `verb`, `noun`, `adj`, `pron`, `num`, `adv`,
-         `prep`, `conj`, `part`, `intj`
+         `prep`, `conj`, `part`, `intj`, `zero`
 
 {-
 imperf :: Wrapping a => Entry a -> [a] -> Entry a
