@@ -98,14 +98,29 @@
                     <member name="number"><cdata format="any"/></member>
                 </structure>
             </element>
-            <element name="Pron"/>
-            <element name="Num"/>
-            <element name="Adv"/>
-            <element name="Prep"/>
-            <element name="Conj"/>
-            <element name="Part"/>
-            <element name="Intj"/>
+            <element name="Pron">
+                <cdata format="any"/>
+            </element>
+            <element name="Num">
+                <cdata format="any"/>
+            </element>
+            <element name="Adv">
+                <cdata format="any"/>
+            </element>
+            <element name="Prep">
+                <cdata format="any"/>
+            </element>
+            <element name="Conj">
+                <cdata format="any"/>
+            </element>
+            <element name="Part">
+                <cdata format="any"/>
+            </element>
+            <element name="Intj">
+                <cdata format="any"/>
+            </element>
             <element name="Zero">
+                <cdata format="any"/>
                 <!--<structure>
                     <member name="nothing"><cdata format="any"/></member>
                 </structure>-->

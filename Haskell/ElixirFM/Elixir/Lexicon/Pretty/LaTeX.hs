@@ -24,7 +24,7 @@ module Elixir.Lexicon.Pretty.LaTeX (
     ) where
 
 
-import Elixir.Lexicon
+import Elixir.Lexicon.System
 
 import Elixir.Pretty
 
@@ -69,9 +69,10 @@ prettyNest' r l t = pretty [ ("root", (text . show) r),
 
 instance Show a => Pretty (Entry a) where
 
-    pretty (Entry e m l) = pretty [ ("entity", (text . show . show) e),
-                                    ("morphs", (text . show . show) m),
-                                    ("reflex", pretty l) ]
+    pretty (Entry m e l r) = pretty [ ("morphs", (text . show . show) m),
+                                      ("entity", (text . show . show) e),
+                                      ("limits", (text . show . show) l),
+                                      ("reflex", pretty r) ]
 
 
 instance Pretty String where

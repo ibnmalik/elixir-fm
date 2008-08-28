@@ -126,8 +126,11 @@ data ParaType = ParaVerb  ParaVerb
               | ParaConj  ParaConj
               | ParaPart  ParaPart
               | ParaIntj  ParaIntj
+              | ParaXtra  ParaXtra
+              | ParaYnit  ParaYnit
               | ParaZero  ParaZero
-
+              | ParaGrph  ParaGrph
+ 
     deriving (Eq, Show)
 
 
@@ -141,7 +144,10 @@ data TagsType = TagsVerb  [TagsVerb]
               | TagsConj  [TagsConj]
               | TagsPart  [TagsPart]
               | TagsIntj  [TagsIntj]
+              | TagsXtra  [TagsXtra]
+              | TagsYnit  [TagsYnit]
               | TagsZero  [TagsZero]
+              | TagsGrph  [TagsGrph]
 
     deriving (Eq, Show)
 
@@ -210,7 +216,22 @@ data TagsIntj = TagsIntjI
     deriving Eq
 
 
+data TagsXtra = TagsXtraX
+
+    deriving Eq
+
+
+data TagsYnit = TagsYnitY
+
+    deriving Eq
+
+
 data TagsZero = TagsZeroZ
+
+    deriving Eq
+
+
+data TagsGrph = TagsGrphG
 
     deriving Eq
 
@@ -248,7 +269,10 @@ expand (TagsPrep xs) = TagsPrep (list complete xs)
 expand (TagsConj xs) = TagsConj (list complete xs)
 expand (TagsPart xs) = TagsPart (list complete xs)
 expand (TagsIntj xs) = TagsIntj (list complete xs)
+expand (TagsXtra xs) = TagsXtra (list complete xs)
+expand (TagsYnit xs) = TagsYnit (list complete xs)
 expand (TagsZero xs) = TagsZero (list complete xs)
+expand (TagsGrph xs) = TagsGrph (list complete xs)
 
 
 class Restrict a where
@@ -262,7 +286,8 @@ instance Restrict TagsType where
 
     complete = [TagsVerb [], TagsNoun [], TagsAdj  [], TagsPron [],
                 TagsNum  [], TagsAdv  [], TagsPrep [], TagsConj [],
-                TagsPart [], TagsIntj [], TagsZero []]
+                TagsPart [], TagsIntj [],
+                TagsXtra [], TagsYnit [], TagsZero [], TagsGrph []]
 
     restrict (TagsVerb []) ys = [ y | y@(TagsVerb _) <- ys ]
     restrict (TagsNoun []) ys = [ y | y@(TagsNoun _) <- ys ]
@@ -274,19 +299,11 @@ instance Restrict TagsType where
     restrict (TagsConj []) ys = [ y | y@(TagsConj _) <- ys ]
     restrict (TagsPart []) ys = [ y | y@(TagsPart _) <- ys ]
     restrict (TagsIntj []) ys = [ y | y@(TagsIntj _) <- ys ]
+    restrict (TagsXtra []) ys = [ y | y@(TagsXtra _) <- ys ]
+    restrict (TagsYnit []) ys = [ y | y@(TagsYnit _) <- ys ]
     restrict (TagsZero []) ys = [ y | y@(TagsZero _) <- ys ]
-{-
-    restrict (TagsVerb []) ys = [ TagsVerb y | TagsVerb y <- ys ]
-    restrict (TagsNoun []) ys = [ TagsNoun y | TagsNoun y <- ys ]
-    restrict (TagsAdj  []) ys = [ TagsAdj  y | TagsAdj  y <- ys ]
-    restrict (TagsPron []) ys = [ TagsPron y | TagsPron y <- ys ]
-    restrict (TagsNum  []) ys = [ TagsNum  y | TagsNum  y <- ys ]
-    restrict (TagsAdv  []) ys = [ TagsAdv  y | TagsAdv  y <- ys ]
-    restrict (TagsPrep []) ys = [ TagsPrep y | TagsPrep y <- ys ]
-    restrict (TagsConj []) ys = [ TagsConj y | TagsConj y <- ys ]
-    restrict (TagsPart []) ys = [ TagsPart y | TagsPart y <- ys ]
-    restrict (TagsIntj []) ys = [ TagsIntj y | TagsIntj y <- ys ]
--}
+    restrict (TagsGrph []) ys = [ y | y@(TagsGrph _) <- ys ]
+                                
     restrict (TagsVerb xs) ys = [ TagsVerb (restrict x y) | TagsVerb y <- ys, x <- xs ]
     restrict (TagsNoun xs) ys = [ TagsNoun (restrict x y) | TagsNoun y <- ys, x <- xs ]
     restrict (TagsAdj  xs) ys = [ TagsAdj  (restrict x y) | TagsAdj  y <- ys, x <- xs ]
@@ -297,7 +314,10 @@ instance Restrict TagsType where
     restrict (TagsConj xs) ys = [ TagsConj (restrict x y) | TagsConj y <- ys, x <- xs ]
     restrict (TagsPart xs) ys = [ TagsPart (restrict x y) | TagsPart y <- ys, x <- xs ]
     restrict (TagsIntj xs) ys = [ TagsIntj (restrict x y) | TagsIntj y <- ys, x <- xs ]
+    restrict (TagsXtra xs) ys = [ TagsXtra (restrict x y) | TagsXtra y <- ys, x <- xs ]
+    restrict (TagsYnit xs) ys = [ TagsYnit (restrict x y) | TagsYnit y <- ys, x <- xs ]
     restrict (TagsZero xs) ys = [ TagsZero (restrict x y) | TagsZero y <- ys, x <- xs ]
+    restrict (TagsGrph xs) ys = [ TagsGrph (restrict x y) | TagsGrph y <- ys, x <- xs ]
 
 
 instance Restrict TagsVerb where
@@ -447,6 +467,34 @@ instance Restrict TagsIntj where
     restrict TagsIntjI y = [ TagsIntjI | TagsIntjI <- y ]
 
 
+instance Restrict TagsXtra where
+
+    complete = [TagsXtraX]
+
+    restrict TagsXtraX y = [ TagsXtraX | TagsXtraX <- y ]
+
+
+instance Restrict TagsYnit where
+
+    complete = [TagsYnitY]
+
+    restrict TagsYnitY y = [ TagsYnitY | TagsYnitY <- y ]
+
+
+instance Restrict TagsZero where
+
+    complete = [TagsZeroZ]
+
+    restrict TagsZeroZ y = [ TagsZeroZ | TagsZeroZ <- y ]
+
+
+instance Restrict TagsGrph where
+
+    complete = [TagsGrphG]
+
+    restrict TagsGrphG y = [ TagsGrphG | TagsGrphG <- y ]
+
+
 instance Show TagsVerb where
 
     show (TagsVerbP   v p g n) = "VP" ++ concat [noshowlist, showlist v,
@@ -564,6 +612,22 @@ instance Show TagsIntj where
 
     show TagsIntjI        = "I-" ++ noinflects
 
+instance Show TagsXtra where
+
+    show TagsXtraX        = "X-" ++ noinflects
+
+instance Show TagsYnit where
+
+    show TagsYnitY        = "Y-" ++ noinflects
+
+instance Show TagsZero where
+
+    show TagsZeroZ        = "Z-" ++ noinflects
+
+instance Show TagsGrph where
+
+    show TagsGrphG        = "G-" ++ noinflects
+
 
 newtype TagsTypes = TagsTypes [TagsType] deriving Show
 
@@ -576,7 +640,7 @@ instance Read TagsTypes where
 
         where rs = [ r | (y, z) <- readSlot x,
 
-                         v <- if y == "-" then "VNASQDPCFI" else y,
+                         v <- if y == "-" then "VNASQDPCFIXYZG" else y,
 
                          r <- case v of
 
@@ -590,6 +654,10 @@ instance Read TagsTypes where
                                 'C' -> [ TagsConj [ r | (r, "") <- reads z ] ]
                                 'F' -> [ TagsPart [ r | (r, "") <- reads z ] ]
                                 'I' -> [ TagsIntj [ r | (r, "") <- reads z ] ]
+                                'X' -> [ TagsXtra [ r | (r, "") <- reads z ] ]
+                                'Y' -> [ TagsYnit [ r | (r, "") <- reads z ] ]
+                                'Z' -> [ TagsZero [ r | (r, "") <- reads z ] ]
+                                'G' -> [ TagsGrph [ r | (r, "") <- reads z ] ]
                                 _   -> [] ]
 
 
@@ -800,6 +868,54 @@ instance Read TagsIntj where
                        (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
 
                        let r =         TagsIntjI ]
+
+
+instance Read TagsXtra where
+
+    readsPrec _ x1 = [ (r, "") |
+                                                (y1, x2) <- readSlot x1,
+                       (y2, x3) <- readSlot x2, (y3, x4) <- readSlot x3,
+                       (y4, x5) <- readSlot x4, (y5, x6) <- readSlot x5,
+                       (y6, x7) <- readSlot x6, (y7, x8) <- readSlot x7,
+                       (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
+
+                       let r =         TagsXtraX ]
+
+
+instance Read TagsYnit where
+
+    readsPrec _ x1 = [ (r, "") |
+                                                (y1, x2) <- readSlot x1,
+                       (y2, x3) <- readSlot x2, (y3, x4) <- readSlot x3,
+                       (y4, x5) <- readSlot x4, (y5, x6) <- readSlot x5,
+                       (y6, x7) <- readSlot x6, (y7, x8) <- readSlot x7,
+                       (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
+
+                       let r =         TagsYnitY ]
+
+
+instance Read TagsZero where
+
+    readsPrec _ x1 = [ (r, "") |
+                                                (y1, x2) <- readSlot x1,
+                       (y2, x3) <- readSlot x2, (y3, x4) <- readSlot x3,
+                       (y4, x5) <- readSlot x4, (y5, x6) <- readSlot x5,
+                       (y6, x7) <- readSlot x6, (y7, x8) <- readSlot x7,
+                       (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
+
+                       let r =         TagsZeroZ ]
+
+
+instance Read TagsGrph where
+
+    readsPrec _ x1 = [ (r, "") |
+                                                (y1, x2) <- readSlot x1,
+                       (y2, x3) <- readSlot x2, (y3, x4) <- readSlot x3,
+                       (y4, x5) <- readSlot x4, (y5, x6) <- readSlot x5,
+                       (y6, x7) <- readSlot x6, (y7, x8) <- readSlot x7,
+                       (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
+
+                       let r =         TagsGrphG ]
 
 
 showlist :: Show a => [a] -> String
@@ -1188,3 +1304,47 @@ instance Param ParaIntj where
 instance Show ParaIntj where
 
     show IntjI = "I---------"
+
+
+data ParaXtra = XtraX  deriving (Eq, Enum)
+
+instance Param ParaXtra where
+
+    values = [XtraX]
+
+instance Show ParaXtra where
+
+    show XtraX = "X---------"
+
+
+data ParaYnit = YnitY  deriving (Eq, Enum)
+
+instance Param ParaYnit where
+
+    values = [YnitY]
+
+instance Show ParaYnit where
+
+    show YnitY = "Y---------"
+
+
+data ParaZero = ZeroZ  deriving (Eq, Enum)
+
+instance Param ParaZero where
+
+    values = [ZeroZ]
+
+instance Show ParaZero where
+
+    show ZeroZ = "Z---------"
+
+
+data ParaGrph = GrphG  deriving (Eq, Enum)
+
+instance Param ParaGrph where
+
+    values = [GrphG]
+
+instance Show ParaGrph where
+
+    show GrphG = "G---------"

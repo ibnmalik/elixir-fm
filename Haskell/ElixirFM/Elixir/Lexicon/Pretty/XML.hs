@@ -24,7 +24,7 @@ module Elixir.Lexicon.Pretty.XML (
     ) where
 
 
-import Elixir.Lexicon
+import Elixir.Lexicon.System
 
 import Elixir.Pretty
 

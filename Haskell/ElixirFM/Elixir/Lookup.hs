@@ -21,7 +21,6 @@ module Elixir.Lookup where
 import Elixir.Template
 
 import Elixir.Lexicon
-import Elixir.Lexicon.Pretty
 
 import Encode
 import Encode.Arabic

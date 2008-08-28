@@ -34,9 +34,9 @@ module Elixir.Lexicon.Pretty.Haskell (
     ) where
 
 
-import Elixir.Lexicon
+import Elixir.Lexicon.System
 
-import Elixir.Pretty
+-- import Elixir.Pretty
 
 import Language.Haskell.Parser
 
@@ -53,4 +53,4 @@ prettyHaskell = prettyPrint
 
 instance Pretty Lexicon
 
-instance Pretty Nest
+instance Pretty (Wrap a)

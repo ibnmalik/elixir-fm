@@ -154,6 +154,10 @@ instance Inflect Lexeme TagsType where
         TagsConj z ->  inflect x z
         TagsPart z ->  inflect x z
         TagsIntj z ->  inflect x z
+        TagsXtra z ->  inflect x z
+        TagsYnit z ->  inflect x z
+        TagsZero z ->  inflect x z
+        TagsGrph z ->  inflect x z
 
 
 instance Inflect Lexeme TagsVerb where
@@ -612,52 +616,49 @@ instance Inflect Lexeme TagsNum where
 
 instance Inflect Lexeme TagsAdv where
 
-    inflect x@(Lexeme r e) y = case y of
-
-        TagsAdvD                 ->  inflect x AdvD
+    inflect x TagsAdvD = inflect x AdvD
 
 
 instance Inflect Lexeme TagsConj where
 
-    inflect x@(Lexeme r e) y = case y of
-
-        TagsConjC                ->  inflect x ConjC
+    inflect x TagsConjC = inflect x ConjC
 
 
 instance Inflect Lexeme TagsPart where
 
-    inflect x@(Lexeme r e) y = case y of
-
-        TagsPartF                ->  inflect x PartF
+    inflect x TagsPartF = inflect x PartF
 
 
 instance Inflect Lexeme TagsIntj where
 
-    inflect x@(Lexeme r e) y = case y of
+    inflect x TagsIntjI = inflect x IntjI
 
-        TagsIntjI                ->  inflect x IntjI
+
+instance Inflect Lexeme TagsXtra where
+
+    inflect x TagsXtraX = inflect x XtraX
+
+
+instance Inflect Lexeme TagsYnit where
+
+    inflect x TagsYnitY = inflect x YnitY
+
+
+instance Inflect Lexeme TagsZero where
+
+    inflect x TagsZeroZ = inflect x ZeroZ
+
+
+instance Inflect Lexeme TagsGrph where
+
+    inflect x TagsGrphG = inflect x GrphG
 
 
 instance Inflect Lexeme String where
 
-    inflect x@(Lexeme r e) y = inflect x (restrict t u)
+    inflect x@(Lexeme r e) y = inflect x (restrict (domain e) u)
 
-                where t = domain e
-                      u = (unTagsTypes . read) y
-
-{-
-    inflect x@(Lexeme r e) y | isVerb et = inflect x [ z | z@(TagsVerb _) <- (unTagsTypes . read) y ]
-                             | isNoun et = inflect x [ z | z@(TagsNoun _) <- (unTagsTypes . read) y ]
-                             | isAdj  et = inflect x [ z | z@(TagsAdj  _) <- (unTagsTypes . read) y ]
-                             | isPron et = inflect x [ z | z@(TagsPron _) <- (unTagsTypes . read) y ]
-                             | isPrep et = inflect x [ z | z@(TagsPrep _) <- (unTagsTypes . read) y ]
-                             | isConj et = inflect x [ z | z@(TagsConj _) <- (unTagsTypes . read) y ]
-                             | isPart et = inflect x [ z | z@(TagsPart _) <- (unTagsTypes . read) y ]
-                             | isIntj et = inflect x [ z | z@(TagsIntj _) <- (unTagsTypes . read) y ]
-                             | otherwise = []
-
-        where et = entity e
--}
+                where u = (unTagsTypes . read) y
 
 
 instance Inflect Lexeme a => Inflect Lexeme [a] where
@@ -1384,3 +1385,27 @@ instance Inflect Lexeme ParaIntj where
 
     inflect x@(Lexeme r e) y | (not . isIntj) (entity e) = []
                              | otherwise = [(ParaIntj IntjI, [(r, morphs e)])]
+
+
+instance Inflect Lexeme ParaXtra where
+
+    inflect x@(Lexeme r e) y | (not . isXtra) (entity e) = []
+                             | otherwise = [(ParaXtra XtraX, [(r, morphs e)])]
+
+
+instance Inflect Lexeme ParaYnit where
+
+    inflect x@(Lexeme r e) y | (not . isYnit) (entity e) = []
+                             | otherwise = [(ParaYnit YnitY, [(r, morphs e)])]
+
+
+instance Inflect Lexeme ParaZero where
+
+    inflect x@(Lexeme r e) y | (not . isZero) (entity e) = []
+                             | otherwise = [(ParaZero ZeroZ, [(r, morphs e)])]
+
+
+instance Inflect Lexeme ParaGrph where
+
+    inflect x@(Lexeme r e) y | (not . isGrph) (entity e) = []
+                             | otherwise = [(ParaGrph GrphG, [(r, morphs e)])]
