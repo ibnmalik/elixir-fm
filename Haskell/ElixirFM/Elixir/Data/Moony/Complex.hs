@@ -48,12 +48,19 @@ cluster_5   = cluster
     FaCCaL                    `verb`    {- <'a.h.had> -}       [ "unite", "unify" ],
 
     FaCaL                     `noun`    {- <'a.had> -}         [ "one", "someone" ]
-                              `plural`     FiCLY,
-
-    FaCaL                     `noun`    {- <'a.had> -}         [ "" {- "Sunday" -} ]
                               `plural`     HACAL,
 
-    FuCAL |<< "a"             `noun`    {- <'u.hAda> -}        [ unwords [ "one", "-", "by", "-", "one" ] ],
+    FiCLY                     `noun`    {- <'i.hdY> -}         [ "one", "someone" ]
+                              `plural`     FiCLY |< At,
+
+    FaCaL                     `noun`    {- <'a.had> -}         [ "unit" ]
+                              `plural`     HACAL,
+
+    FaCaL                     `noun`    {- <'a.had> -}         [ "" {- "Sunday" -} ],
+
+    FaCaL |< Iy |< aT         `noun`    {- <'a.hadIyaT> -}     [ "unity", "oneness" ],
+
+    FuCAL |<< "a"             `adv`     {- <'u.hAda> -}        [ unwords [ "one", "-", "by", "-", "one" ] ],
 
     FuCAL |< Iy               `adj`     {- <'u.hAdIy> -}       [ "single" ],
 

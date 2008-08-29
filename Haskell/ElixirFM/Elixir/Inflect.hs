@@ -392,34 +392,7 @@ instance Inflect Lexeme TagsAdj where
 instance Inflect Lexeme TagsPron where
 
     inflect x@(Lexeme r e) y | (not . isPron) (entity e) = []
-
-{-
-    inflect (Lexeme r e) x@(TagsPronP p g n c) = [ (ParaPron (PronP p g n c), [(paraPronP p g n c, morphs e)]) |
-
-                                                    let p' = vals p
-                                                        g' = vals g
-                                                        n' = vals n
-                                                        c' = vals c,
-
-                                                    c <- c', n <- n', p <- p', g <- g' ]
-
-    inflect (Lexeme r e) x@(TagsPronD   g n c) = [ (ParaPron (PronD g n c), [(paraPronD g n c h, morphs e)]) |
-
-                                                    let g' = vals g
-                                                        n' = vals n
-                                                        c' = vals c,
-
-                                                    h <- ["h", ""], n <- n', g <- g', c <- c' ]
-
-    inflect (Lexeme r e) x@(TagsPronR   g n c) = [ (ParaPron (PronR g n c), [(paraPronR g n c, morphs e)]) |
-
-                                                    let g' = vals g
-                                                        n' = vals n
-                                                        c' = vals c,
-
-                                                    n <- n', g <- g', c <- c' ]
--}
-
+    
     inflect (Lexeme r e) x@(TagsPronP p g n c) = [ (ParaPron (PronP p g n c), list [(r, morphs e)] q) |
 
                                                     let p' = vals p
@@ -429,13 +402,13 @@ instance Inflect Lexeme TagsPron where
 
                                                     c <- c', n <- n', p <- p', g <- g',
 
-          let q = [ (r, q)  | let (d, l) = limits e,
+                                                    let q = [ (r, q)  | let (d, l) = limits e,
 
-                    (d', r') <- l, TagsPron s <- d',
+                                                              (d', r') <- l, TagsPron s <- d',
 
-                    q <- if null (restrict (TagsPronP [p] [g] [n] [c]) s) then [] else r' ]
+                                                              q <- if null (restrict (TagsPronP [p] [g] [n] [c]) s)
 
-                                                         ]
+                                                                   then [] else r' ] ]
 
     inflect (Lexeme r e) x@(TagsPronD   g n c) = [ (ParaPron (PronD g n c), list [(r, morphs e)] q) |
 
@@ -445,13 +418,13 @@ instance Inflect Lexeme TagsPron where
 
                                                     n <- n', g <- g', c <- c',
 
-          let q = [ (r, q) | let (d, l) = limits e,
+                                                    let q = [ (r, q) | let (d, l) = limits e,
 
-                    (d', r') <- l, TagsPron s <- d',
+                                                              (d', r') <- l, TagsPron s <- d',
 
-                    q <- if null (restrict (TagsPronD [g] [n] [c]) s) then [] else r' ]
-
-                                                         ]
+                                                              q <- if null (restrict (TagsPronD [g] [n] [c]) s)
+                                                              
+                                                                   then [] else r' ] ]
 
     inflect (Lexeme r e) x@(TagsPronR   g n c) = [ (ParaPron (PronR g n c), list [(r, morphs e)] q) |
 
@@ -461,13 +434,13 @@ instance Inflect Lexeme TagsPron where
 
                                                     n <- n', g <- g', c <- c',
 
-          let q = [ (r, q) | let (d, l) = limits e,
+                                                    let q = [ (r, q) | let (d, l) = limits e,
+                                          
+                                                              (d', r') <- l, TagsPron s <- d',
 
-                    (d', r') <- l, TagsPron s <- d',
-
-                    q <- if null (restrict (TagsPronR [g] [n] [c]) s) then [] else r' ]
-
-                                                         ]
+                                                              q <- if null (restrict (TagsPronR [g] [n] [c]) s)
+                                                              
+                                                                   then [] else r' ] ]
 
     inflect (Lexeme r e) x@(TagsPronS        ) = [(ParaPron PronS, [(r, morphs e)])]
 
@@ -1023,7 +996,6 @@ paraVerbC g n i = prefix i . suffix c
 -}
 
 
-
 instance Inflect Lexeme ParaNoun where
 
     inflect (Lexeme r e) x | (not . isNoun) (entity e) = []
@@ -1038,16 +1010,16 @@ inEntry Plural e = case entity e of Noun l _ _ _ -> l
                                     Num  l _     -> l
 
 inEntry Dual   e = case entity e of Noun l _ _ _ | null l    -> []
-                                                 | otherwise -> [Right (morphs e |< An)]
+                                                 | otherwise -> [morphs e |< An]
                                     Num  l _     | null l    -> []
-                                                 | otherwise -> [Right (morphs e |< An)]
+                                                 | otherwise -> [morphs e |< An]
 
-inEntry _ e = [Right (morphs e)]
+inEntry _ e = [morphs e]
 
 
-inRules q c (d :-: a) y = ((,) r . article . endings c d a) m
+inRules r c (d :-: a) m = ((,) r . article . endings c d a) m
 
-    where (r, m@(Morphs t p s)) = either id (\ m -> (q, m)) y
+    where Morphs t p s = m
 
           article = case d of   Just True        -> case p of
 
@@ -1087,19 +1059,19 @@ inflectAdj (Lexeme r e) (AdjA g n c s) = (map (inRules r c s) . inEntry' g n) e
 
 
 inEntry' Masculine n e = case n of Plural -> y
-                                   Dual   -> [Right (morphs e |< An)]
-                                   _      -> [Right (morphs e)]
+                                   Dual   -> [morphs e |< An]
+                                   _      -> [morphs e]
 
-    where y = case entity e of Adj  l _ _ | null l    -> [Right (morphs e |< Un)]
+    where y = case entity e of Adj  l _ _ | null l    -> [morphs e |< Un]
                                           | otherwise -> l
                                _                      -> []
 
-inEntry' Feminine  n e = case n of Plural | null y    -> [Right (morphs e |< At)]
-                                          | otherwise -> [ Right (i |< At) | i <- y ]
-                                   Dual   | null y    -> [Right (morphs e |< aT |< An)]
-                                          | otherwise -> [ Right (i |< An) | i <- y ]
-                                   _      | null y    -> [Right (morphs e |< aT)]
-                                          | otherwise -> [ Right i | i <- y ]
+inEntry' Feminine  n e = case n of Plural | null y    -> [morphs e |< At]
+                                          | otherwise -> [ i |< At | i <- y ]
+                                   Dual   | null y    -> [morphs e |< aT |< An]
+                                          | otherwise -> [ i |< An | i <- y ]
+                                   _      | null y    -> [morphs e |< aT]
+                                          | otherwise -> [ i | i <- y ]
 
     where y = case entity e of Adj  _ f _ -> f
                                Num  _ f   -> f

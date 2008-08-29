@@ -678,7 +678,7 @@ cluster_30  = cluster
 
     FiCL                      `noun`    {- <^gidd> -}          [ "seriousness", "earnestness" ],
 
-    FiCL |<< "aN"             `noun`    {- <^giddaN> -}        [ "very", "much" ],
+    FiCL |<< "aN"             `adv`     {- <^giddaN> -}        [ "very", "much" ],
 
     FiCL |< Iy                `adj`     {- <^giddIy> -}        [ "serious", "earnest" ],
 

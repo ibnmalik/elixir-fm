@@ -1970,7 +1970,6 @@ cluster_129 = cluster
 
     MuFIL                     `noun`    {- <mudIr> -}          [ "director", "manager", "chief" ]
                               `plural`     MuFIL |< Un
-                              `plural`     FuCaLA' `withRoot` "m d r"
                            
     `derives` feminine,
 
@@ -1979,6 +1978,13 @@ cluster_129 = cluster
     MuFIL |< Iy |< aT         `noun`    {- <mudIrIyaT> -}      [ "district", "province" ],
 
     MustaFIL                  `adj`     {- <mustadIr> -}       [ "round", "circular" ] ]
+
+
+
+ |> "m d r" <| [
+
+    FuCIL                     `noun`    {- <mudIr> -}          [ "director", "manager", "chief" ]
+                              `plural`     FuCaLA' ]
 
 
 cluster_130 = cluster

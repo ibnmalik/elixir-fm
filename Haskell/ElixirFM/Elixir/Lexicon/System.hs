@@ -329,7 +329,7 @@ domain :: Entry a -> TagsType
 domain = fst . limits
 
 
-type Plural a = Either (Root, Morphs a) (Morphs a)
+type Plural a = Morphs a -- Either (Root, Morphs a) (Morphs a)
 
 data Entity a = Verb { form :: [Form], perfect', imperfect, imperative :: [a],
                        justTense :: Maybe Tense, justVoice :: Maybe Voice }
@@ -518,8 +518,8 @@ entries :: Entry a -> [Entry a]
 entries e = case entity e of
 
                 Noun _ _ _ (Just _) -> [e, e { morphs = morphs e |< aT,
-                                               entity = Noun [Right (morphs e |< At)]
-                                                              Nothing Nothing Nothing }]
+                                               entity = Noun [morphs e |< At]
+                                                        Nothing Nothing Nothing }]
                 _                   -> [e]
 
 
@@ -552,12 +552,15 @@ plural :: Morphing a b => Entry b -> a -> Entry b
 
 plural x y = case entity x of
 
-                Noun z g n d -> x { entity = Noun (Right (morph y) : z) g n d }
-                Adj  z f n   -> x { entity = Adj  (Right (morph y) : z) f n }
-                Num  z f     -> x { entity = Num  (Right (morph y) : z) f }
+                Noun z g n d -> x { entity = Noun (morph y : z) g n d }
+                Adj  z f n   -> x { entity = Adj  (morph y : z) f n }
+                Num  z f     -> x { entity = Num  (morph y : z) f }
                 _            -> x
 
 
+withRoot = const
+
+{-
 withRoot x y = case entity x of
 
                 Noun []    _ _ _ -> x
@@ -569,7 +572,7 @@ withRoot x y = case entity x of
                 Adj  (z:s) f n   -> x { entity = Adj  (Left (y, w) : s) f n }
 
                     where w = either snd id z
-
+-}
 
 infixl 3 `imperf`, `pfirst`, `ithird`, `second`
 

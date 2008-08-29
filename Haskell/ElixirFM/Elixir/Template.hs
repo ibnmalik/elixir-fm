@@ -213,8 +213,10 @@ isClosed _ = True
                         Suffix "Ina"    -> "Ina"
                         Suffix "I"      -> "I"
 
-                        Suffix x | x `elem` ["i",  "u"]  -> "U"
-                                 | x `elem` ["iN", "uN"] -> "iN"
+                        Suffix "u"      -> "U"
+                        Suffix "i"      -> "I"
+                        
+                        Suffix x | x `elem` ["uN", "iN"] -> x
 
                                  | "n" `isPrefixOf` x ||
                                    "t" `isPrefixOf` x    -> "U" ++ x

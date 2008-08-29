@@ -112,10 +112,11 @@ escaqe = concatMap fixChar
 
 instance (Show a, Pretty (Entity a)) => Pretty (Entry a) where
 
-    pretty (Entry m e l _) = element "Entry" []
+    pretty (Entry m e l r) = element "Entry" []
                              (vcat [ elemtxt "morphs" [] $ pretty m,
                                      element "entity" [] $ pretty e,
-                                     elemtxt "reflex" [] $ pretty l ])
+                                     element "limits" [] $ pretty l,
+                                     elemtxt "reflex" [] $ pretty r ])
 
     prettyList = vcat . map pretty
 

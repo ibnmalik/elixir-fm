@@ -816,6 +816,8 @@ data PatternT =
         |   HuFCUL      |   HUCUL
         |   HuFCIL      |   HUCIL                       |   HuFCIy
 
+        |   HiFCIL
+
     {-- |   FaCaL   --}                             {-- |   FaCY    --}
         |   FiCaL                       |   FiyaL       |   FiCY
                                                         |   FiCA
