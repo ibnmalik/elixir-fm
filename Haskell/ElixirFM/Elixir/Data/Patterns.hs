@@ -28,6 +28,8 @@ module Elixir.Data.Patterns (
 
 import Elixir.Template
 
+import Elixir.System
+
 import Elixir.Data.Patterns.Literal
 
 import Elixir.Data.Patterns.Triliteral
@@ -43,14 +45,36 @@ version = revised "$Revision$"
 
 instance Template String where
 
-    interlocks _ s r = modify . concat . replace . restore
+    interlocks _ s r t = (concat . modify) t
 
-        where modify x | (not . null) s && isSuffixOf "A" x =
+        where modify | isForm VIII t                      = assimiVIII
+                     | isForm VII  t                      = assimiVII
+                     | (not . null) s && isSuffixOf "A" t =
                                  
-                         case last s of Iy -> x ++ "w"
-                                        _  -> x
+                        case last s of Iy ->   (++ ["w"]) . substitute 
+                                       _  ->                substitute
 
-                       | otherwise          = x
+                     | otherwise                          = substitute
+
+              substitute x = (replace . restore) x
+
+              assimiVIII x = (replace . restore . init) iF
+                             ++ [z, d] ++
+                             (replace . tail) taCaL
+
+                    where (iF, taCaL) = break ('t' ==) x
+                          (z, d) = case r of []      -> ("F", "t")
+                                             ["'", "_h", "_d"]
+                                                     -> assimVIII "'" True
+                                             (c : _) -> assimVIII c False
+
+              assimiVII  x = (replace . restore . init) iN
+                             ++ [n, m] ++
+                             (replace . tail) faCaL
+
+                    where (iN, faCaL) = break ('F' ==) x
+                          (n, m) = case r of []      -> ("n", "F")
+                                             (c : _) -> assimVII c False
 
               replace x = [ maybe [c] id (lookup c lock) | c <- x ]
 
@@ -70,7 +94,7 @@ instance Template String where
 
 instance Rules String where
 
-    isForm I "lays" = True
+    isForm I    x | x `elem` ["lays", "las"] = True
 
     isForm f x = let t = [ True | y <- [toEnum 0 :: PatternT ..],
                                   show y == x, f `isForm` y ]
@@ -84,6 +108,13 @@ instance Rules String where
                  in any (not . null) [t, q, l]
 
 
+    prefixVerbI _ _ Passive = "u"
+
+    prefixVerbI x _ _       = "a"
+
+    prefixVerbC x   _       = "i"
+
+
     isInert r x | (not . null) x && last x `elem` "AIU" = True
                 | otherwise                             = False
 
@@ -94,15 +125,46 @@ instance Rules String where
 
 instance Forming String where
 
-    verbStems _ _ = [
+    verbStems I _ = [
 
-        (   Just  (     "FaL",      "|",        "|",         "|"         ),
-                        "FaCL",     "|",        "|",         "|"         ),  -- laysa
+        (   Just  (     "FaL",      "|",        "|",        "|"         ),
+                        "FaCL",     "|",        "|",        "|"         ),
+        (   Just  (     "las",      "|",        "|",        "|"         ),
+                        "lays",     "|",        "|",        "|"         )
 
-        (   Just  (     "las",      "|",        "|",         "|"         ),
-                        "lays",     "|",        "|",         "|"         )   -- laysa
+        ]
+
+    verbStems VII _ = [
+
+        (   Nothing,    "InFaCaL",  "UnFuCiL",  "NFaCiL",   "NFaCaL"    ),
+        (   Just   (    "InFaL",    "UnFiL",    "NFaL",     "NFaL"      ),
+                        "InFAL",    "UnFIL",    "NFAL",     "NFAL"      ),
+        (   Nothing,    "InFaCY",   "UnFuCI",   "NFaCI",    "NFaCY"     )
 
         ]
 
 
+    verbStems VIII _ = [
+
+        (   Nothing,    "IFtaCaL",  "UFtuCiL",  "FtaCiL",   "FtaCaL"    )
+      
+        ]
+
+    verbStems _ _ = []
+                    
+
+    nounStems VII _ = [
+
+        (   "InFaCaL",  "MunFaCiL", "MunFaCaL", morph   "InFiCAL"       ),
+        (   "InFAL",    "MunFAL",   "MunFAL",   morph   "InFiCAL"       ),
+        (   "InFaCY",   "MunFaCI",  "MunFaCY",  morph   "InFiCA'"       )
+
+        ]
+
+    nounStems VIII _ = [
+
+        (   "IFtaCaL",  "MuFtaCiL", "MuFtaCaL", morph   "IFtiCAL"       )
+
+        ]
+        
     nounStems _ _ = []
