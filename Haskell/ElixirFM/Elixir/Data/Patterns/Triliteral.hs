@@ -47,10 +47,10 @@ instance Template PatternT where
                             Suffix x | x `elem` ["a",  "i",  "u",
                                                  "aN", "iN", "uN"]
 
-                              ->                     substitute
-                            _ -> (++ ["w"]) . init . substitute
+                              ->              substitute
+                            _ -> (++ ["w"]) . substitute . init
 
-                     | otherwise                   = substitute
+                     | otherwise            = substitute
         
               substitute x = (replace . restore) x
 
@@ -61,8 +61,8 @@ instance Template PatternT where
                     where (iF, taCaL) = break ('t' ==) x
                           (z, d) = case r of []      -> ("F", "t")
                                              ["'", "_h", "_d"]
-                                                     -> ("t", "t")
-                                             (c : _) -> assimVIII c
+                                                     -> assimVIII "'" False
+                                             (c : _) -> assimVIII c True
 
               assimiVII  x = (replace . restore . init) iN
                              ++ [n, m] ++
@@ -70,7 +70,7 @@ instance Template PatternT where
 
                     where (iN, faCaL) = break ('F' ==) x
                           (n, m) = case r of []      -> ("n", "F")
-                                             (c : _) -> assimVII c
+                                             (c : _) -> assimVII c True
 
               replace x = [ maybe [c] id (lookup c lock) | c <- x ]
 
@@ -88,35 +88,46 @@ instance Template PatternT where
 
     -- Fischer (2002), par. 35 b, Wehr (1961) (samA'Iy, samAwIy)
     -- http://forum.wordreference.com/showthread.php?t=337799
-    
+
 
 -- Fischer (2002), par. 45, 46
 
-assimVII, assimVIII :: String -> (String, String)
+assimVII, assimVIII :: String -> Bool -> (String, String)
 
-assimVII  c = case c of
+assimVII  c normal = case c of
 
-                    "m"     ->  ("m", c)    -- preferred
-                    _       ->  ("n", c)
+                    "m"     | normal    ->  ("n", c)
+                            | otherwise ->  ("m", c)
+                                            
+                    _                   ->  ("n", c)
 
-assimVIII c = case c of
+assimVIII c normal = case c of
 
-                    "_t"    ->  (c, "_t")   -- preferred
+                    "'"     | normal    ->  (c, "t")
+                            | otherwise ->  ("t", "t")
+                                            
+                    "_t"                ->  (c, "_t")
 
-                    "_d"    ->  ("d", "d")  -- preferred
+                    "_d"    | normal    ->  ("d", "d")
+                            | otherwise ->  (c, "_d")
 
-                    "d"     ->  (c, "d")
-                    "z"     ->  (c, "d")
+                    "d"                 ->  (c, "d")
+                                            
+                    "z"                 ->  (c, "d")
+                                        
+                    ".s"                ->  (c, ".t")
+                                
+                    ".d"    | normal    ->  (c, ".t")
+                            | otherwise ->  (c, ".d")
+                                
+                    ".t"    | normal    ->  (c, ".t")
+                            | otherwise ->  (".d", ".t")
 
-                    ".s"    ->  (c, ".t")
-                    ".d"    ->  (c, ".t")   -- preferred
-                    ".t"    ->  (c, ".t")
-
-                    ".z"    ->  (c, ".z")   -- preferred
-
-                    "w"     ->  ("t", "t")
-
-                    _       ->  (c, "t")
+                    ".z"                ->  (c, ".z")
+                                        
+                    "w"                 ->  ("t", "t")
+                                        
+                    _                   ->  (c, "t")
 
 
 instance Rules PatternT where
