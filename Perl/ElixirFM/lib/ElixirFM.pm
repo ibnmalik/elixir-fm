@@ -336,33 +336,46 @@ sub showSuffix {
 
 sub assimVIII {
 
-    my $c = $_[0];
+    my ($c, $normal) = @_;
 
-    my %h = (       "_t"    =>  $c . "_t",   ## preferred
+    my %h = (       "'"     =>  [ $c . "t",
+                                  "t" . "t" ],
 
-                    "_d"    =>  "d" . "d",   ## preferred
+                    "_t"    =>    $c . "_t",
+
+                    "_d"    =>  [ "d" . "d",
+                                  $c . "_d" ],
 
                     "d"     =>  $c . "d",
+
                     "z"     =>  $c . "d",
 
                     ".s"    =>  $c . ".t",
-                    ".d"    =>  $c . ".t",   ## preferred
-                    ".t"    =>  $c . ".t",
 
-                    ".z"    =>  $c . ".z",   ## preferred
+                    ".d"    =>  [ $c . ".t",
+                                  $c . ".d" ],
+
+                    ".t"    =>  [ $c . ".t",
+                                  ".d" . ".t" ],
+
+                    ".z"    =>  $c . ".z",
 
                     "w"     =>  "t" . "t"    );
 
-    return exists $h{$c} ? $h{$c} : $c . "t";
+    return exists $h{$c} ? ref $h{$c} ? $normal ? $h{$c}[0] : $h{$c}[1]
+                                      : $h{$c}
+                         : $c . "t";
 }
 
 sub assimVII {
 
-    my $c = $_[0];
+    my ($c, $normal) = @_;
 
-    my %h = (       "m"     =>  "m" . $c     );
+    my %h = (       "m"     =>  [ "n" . $c, "m" . $c ]     );
 
-    return exists $h{$c} ? $h{$c} : "n" . $c;
+    return exists $h{$c} ? ref $h{$c} ? $normal ? $h{$c}[0] : $h{$c}[1]
+                                      : $h{$c}
+                         : "n" . $c;
 }
 
 sub interlock {
@@ -380,15 +393,32 @@ sub interlocks {
 
         $pattern .= 'w' if $pattern =~ /A$/ and @{$s} and $s->[0] eq "Iy";
 
-        return $pattern;
-    }
+        if ("' _h _d" eq join ' ', @root) {
 
-    if (@root == 1 and $pattern =~ /^(?:_____|Identity)$/) {
+            $pattern =~ s/Ft/assimVIII($root[0], 1)/e;
+        }
+        else {
+
+            $pattern =~ s/Ft/assimVIII($root[0], 0)/e;
+        }
+
+        $pattern =~ s/[nN]F/assimVII($root[0], 0)/e;
+
+        $pattern =~ s/F/$root[0]/g if defined $root[0];
+        $pattern =~ s/C/$root[1]/g if defined $root[1];
+        $pattern =~ s/L/$root[2]/g if defined $root[2];
+
+        $pattern =~ s/K/$root[0]/g if defined $root[0];
+        $pattern =~ s/R/$root[1]/g if defined $root[1];
+        $pattern =~ s/D/$root[2]/g if defined $root[2];
+        $pattern =~ s/S/$root[3]/g if defined $root[3];
+    }
+    elsif (@root == 1 and $pattern =~ /^(?:_____|Identity)$/) {
 
         $pattern = $root[0];
 
         $pattern .= 'w' if $pattern =~ /A$/ and @{$s} and $s->[0] eq "Iy";
-        
+
         return $pattern;
     }
     elsif (@root == 3) {
@@ -398,14 +428,14 @@ sub interlocks {
 
         if ("' _h _d" eq join ' ', @root) {
 
-            $pattern =~ s/Ft/tt/;
+            $pattern =~ s/Ft/assimVIII($root[0], 0)/e;
         }
         else {
 
-            $pattern =~ s/Ft/assimVIII($root[0])/e;
+            $pattern =~ s/Ft/assimVIII($root[0], 1)/e;
         }
 
-        $pattern =~ s/[nN]F/assimVII($root[0])/e;
+        $pattern =~ s/[nN]F/assimVII($root[0], 1)/e;
 
         $pattern =~ s/F/$root[0]/g;
         $pattern =~ s/C/$root[1]/g;
