@@ -7,10 +7,9 @@ copyright:          2008
 author:             Otakar Smrz
 maintainer:         otakar.smrz mff.cuni.cz
 homepage:           http://ufal.mff.cuni.cz/~smrz/
-package-url:        http://ufal.mff.cuni.cz/~smrz/ElixirFM/ElixirFM-1.1.zip
+package-url:        http://sourceforge.net/projects/elixir-fm/
 category:           Various
 build-depends:      Encode, Cabal, base, containers, wl-pprint
--- hs-source-dirs:     ., ../Encode
 synopsis:           Functional Arabic Morphology
 description:        The "Elixir" and "FM" libraries of "ElixirFM" implement
                     /Functional Arabic Morphology/. They have been designed by

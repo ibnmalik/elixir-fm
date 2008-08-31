@@ -6,7 +6,7 @@ copyright:          2008
 author:             Otakar Smrz
 maintainer:         otakar.smrz mff.cuni.cz
 homepage:           http://ufal.mff.cuni.cz/~smrz/
-package-url:        http://ufal.mff.cuni.cz/~smrz/ElixirFM/ElixirFM-Exec-1.1.tar.gz
+package-url:        http://sourceforge.net/projects/elixir-fm/
 category:           Various
 build-depends:      Encode, Cabal, base, containers, wl-pprint
 synopsis:           Functional Arabic Morphology
@@ -32,14 +32,5 @@ description:        The "Elixir" and "FM" libraries implement /Functional Arabic
 executable:         elixir
 main-is:            Exec/ElixirFM/Main.hs
 hs-source-dirs:     ., ..
-ghc-options:        -O -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
-
--- executable:         elixir-resolve
--- main-is:            Exec/Resolve/Main.hs
--- hs-source-dirs:     ., ..
--- ghc-options:        -O -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
-
--- executable:         elixir-inflect
--- main-is:            Exec/Inflect/Main.hs
--- hs-source-dirs:     ., ..
--- ghc-options:        -O -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
+ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
+              -- -O -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances

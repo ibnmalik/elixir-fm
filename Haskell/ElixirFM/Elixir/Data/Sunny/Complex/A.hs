@@ -1460,6 +1460,10 @@ cluster_101 = cluster
 
  |> "d r y" <| [
 
+    lA >| "'a" >>| FCI |<< "Iy" |< aT `noun`    {- <lA-'adrIyaT> -}    [ ['s','k','e','p','t','i','c','i','s','m'], ['a','g','n','o','s','t','i','c','i','s','m'] ],
+
+    lA >| "'a" >>| FCI |<< "Iy" `adj`     {- <lA-'adrIy> -}      [ ['s','k','e','p','t','i','c'], ['a','g','n','o','s','t','i','c'] ],
+
     FaCY                      `verb`    {- <darY> -}           [ ['k','n','o','w'], unwords [ ['b','e'], ['a','w','a','r','e'], ['o','f'] ], ['n','o','t','i','c','e'], unwords [ ['b','e'], ['k','n','o','w','n'] ] ]
                               `imperf`     FCI,
 

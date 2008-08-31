@@ -79,10 +79,10 @@ our $tagset = [
     	"FN" => "negative",
     	"FI" => "interrogative",
     	"I-" => "interjection",
-    	"G-" => "graphical symbol",
-    	"Y-" => "abbreviation",
-    	"--" => "isolated definite article",
-    	"Z-" => "proper name" } ],
+    	"X-" => "foreign word",
+    	"Y-" => "acronym/unit",
+    	"Z-" => "zero inflections",
+    	"G-" => "graphical symbol" } ],
 
     [ "", {} ],
 
