@@ -18,7 +18,7 @@
 module Elixir.Data.Lexicons (lexicon) where
 
 
---import qualified Elixir.Data.Moony
+import qualified Elixir.Data.Moony
 
 import qualified Elixir.Data.Sunny
 
@@ -51,7 +51,7 @@ lexicon = concat lexicons
 
 lexicons :: [Lexicon]
 
-lexicons =  [   --Elixir.Data.Moony.lexicon,
+lexicons =  [   Elixir.Data.Moony.lexicon,
 
                 Elixir.Data.Sunny.lexicon,
 

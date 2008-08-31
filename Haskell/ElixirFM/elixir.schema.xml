@@ -2,7 +2,7 @@
 <pml_schema version="1.1" xmlns="http://ufal.mff.cuni.cz/pdt/pml/schema/">
     <revision>1.0.0</revision>
     <description>ElixirFM Lexicon</description>
-  
+
     <root name="ElixirFM" type="Lexicon.type" />
 
     <type name="Lexicon.type">
@@ -46,7 +46,7 @@
             </member>
         </structure>
     </type>
-  
+
     <type name="Entry.type">
         <structure role="#NODE">
             <member name="morphs" type="Morphs.type" required="1"/>
@@ -56,7 +56,7 @@
             <member name="vallex" type="Vallex.type" role="#CHILDNODES"/>
         </structure>
     </type>
-    
+
     <type name="Root.type">
         <cdata format="any"/>
     </type>
@@ -67,7 +67,7 @@
                 <structure>
                     <member name="form" required="1">
                         <list type="Form.type" ordered="1"/>
-                    </member>    
+                    </member>
                     <member name="pfirst">
                         <list type="Pattern.type" ordered="1"/>
                     </member>
@@ -162,7 +162,7 @@
             <value>Imperative</value>
         </choice>
     </type>
-    
+
     <type name="Voice.type">
         <choice>
             <value>Active</value>
@@ -198,7 +198,7 @@
             <value>------F---</value>
         </choice>
     </type>
- 
+
     <type name="Morphs.type">
         <cdata format="any"/>
     </type>
@@ -212,7 +212,7 @@
             <cdata format="any"/>
         </list>
     </type>
-   
+
     <type name="Limits.type">
         <structure>
             <member name="fst" type="Tags.type"/>
@@ -266,7 +266,7 @@
             </member>
         </structure>
     </type>
-    
+
     <type name="Node.type">
         <structure role="#NODE">
             <member name="form">
@@ -280,7 +280,7 @@
             </member>
         </structure>
     </type>
-    
+
     <type name="Functor.type">
         <choice>
             <value>ACT</value>
@@ -356,7 +356,7 @@
             <value>SENT</value>
         </choice>
     </type>
-    
+
     <type name="Type.type">
         <choice>
             <value>OBL</value>

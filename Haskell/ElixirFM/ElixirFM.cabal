@@ -2,7 +2,15 @@ name:               ElixirFM
 version:            1.1
 license:            GPL
 license-file:       LICENSE
-extra-source-files: INSTALL
+extra-source-files: INSTALL,
+                    Elixir/Data/TrEd/elixir-moony-complex.xml,
+                    Elixir/Data/TrEd/elixir-moony-doubled.xml,
+                    Elixir/Data/TrEd/elixir-moony-foreign.xml,
+                    Elixir/Data/TrEd/elixir-moony-regular.xml,
+                    Elixir/Data/TrEd/elixir-sunny-complex.xml,
+                    Elixir/Data/TrEd/elixir-sunny-doubled.xml,
+                    Elixir/Data/TrEd/elixir-sunny-foreign.xml,
+                    Elixir/Data/TrEd/elixir-sunny-regular.xml
 copyright:          2008
 author:             Otakar Smrz
 maintainer:         otakar.smrz mff.cuni.cz

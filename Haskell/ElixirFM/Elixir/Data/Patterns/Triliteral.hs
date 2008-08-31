@@ -35,13 +35,13 @@ instance Morphing PatternT PatternT where
 instance Template PatternT where
 
     interlocks _ s r t = (concat . modify . show) t
-    
+
         where modify | isForm VIII t               = assimiVIII
                      | isForm VII  t               = assimiVII
                      | (not . null) s && elem t
-                     
+
                            [FaCLA', FiCLA', FuCLA', FILA', FULA'] =
-                                 
+
                         case last s of
 
                             Suffix x | x `elem` ["a",  "i",  "u",
@@ -51,7 +51,7 @@ instance Template PatternT where
                             _ -> (++ ["w"]) . substitute . init
 
                      | otherwise            = substitute
-        
+
               substitute x = (replace . restore) x
 
               assimiVIII x = (replace . restore . init) iF
@@ -98,35 +98,35 @@ assimVII  c normal = case c of
 
                     "m"     | normal    ->  ("n", c)
                             | otherwise ->  ("m", c)
-                                            
+
                     _                   ->  ("n", c)
 
 assimVIII c normal = case c of
 
                     "'"     | normal    ->  (c, "t")
                             | otherwise ->  ("t", "t")
-                                            
+
                     "_t"                ->  (c, "_t")
 
                     "_d"    | normal    ->  ("d", "d")
                             | otherwise ->  (c, "_d")
 
                     "d"                 ->  (c, "d")
-                                            
+
                     "z"                 ->  (c, "d")
-                                        
+
                     ".s"                ->  (c, ".t")
-                                
+
                     ".d"    | normal    ->  (c, ".t")
                             | otherwise ->  (c, ".d")
-                                
+
                     ".t"    | normal    ->  (c, ".t")
                             | otherwise ->  (".d", ".t")
 
                     ".z"                ->  (c, ".z")
-                                        
+
                     "w"                 ->  ("t", "t")
-                                        
+
                     _                   ->  (c, "t")
 
 
@@ -538,12 +538,27 @@ instance Forming PatternT where
         ]
 
 
-    nounStems II _ = [
+    nounStems II r
 
+        | (unwords . tail . words) r == "y y" = [
+
+        (   FaCCY,      MuFaCCI,    MuFaCCY,            TaFIL |< aT     )
+        
+        ]
+        
+        | let x = words r in if length x < 3 then False
+                                             else x !! 1 == x !! 2 = [
+
+        (   FaCCaL,     MuFaCCiL,   MuFaCCaL,   morph   TaFCIL          ),
+        (   FaCCaL,     MuFaCCiL,   MuFaCCaL,           TaFiCL |< aT    )
+
+        ]
+
+        | otherwise = [
+    
         (   FaCCaL,     MuFaCCiL,   MuFaCCaL,   morph   TaFCIL          ),
         (   FaCCaL,     MuFaCCiL,   MuFaCCaL,           TaFCiL |< aT    ),
 
-        (   FaCCY,      MuFaCCI,    MuFaCCY,            TaFIL |< aT     ),
         (   FaCCY,      MuFaCCI,    MuFaCCY,            TaFCI |< aT     )
 
         ]
@@ -717,7 +732,7 @@ data PatternT =
                                                         |   FaCw
                                                         |   FiCw
                                                         |   FuCw
-                                                            
+
                                                         |   IFC
 
                                                         |   FiCt
@@ -751,14 +766,14 @@ data PatternT =
         |   FuCLA'                      |   FULA'
 
         |   FaCLIy                      |   FALIy
-        |   FiCLIy
+        |   FiCLIy                      |   FILIy
         |   FuCLIy                      |   FULIy
 
         |   FaCLAy
         |   FuCLAy
 
-        |   FaCALIy
-            
+        |   FaCALIy                     |   FawALIy
+
         |   FiCLiyA'                    |   FILiyA'
 
     {-- |   FACiL   --}                 |   FA'iL   {-- |   FACI        |   FACL    --} |   FA'I
@@ -768,7 +783,6 @@ data PatternT =
 
         |   FaCCAL                                      |   FaCCA'
                                                         |   FaCCAy
-                                                        |   FaCCA
         |   FiCCAL                      |   FICAL
         |   FuCCAL                      |   FUCAL
 
@@ -800,7 +814,7 @@ data PatternT =
         |   MaFCaL                      |   MaFAL       |   MaFCY       |   MaFaCL
         |   MaFCiL                      |   MaFIL       |   MaFCI
         |   MaFCuL
-        
+
         |   MiFCaL      |   MICaL                       |   MiFCY       |   MiFaCL      |   MICY
         |   MiFCAL      |   MICAL                       |   MiFCA'
 
@@ -843,6 +857,7 @@ data PatternT =
         |   FuCLAn                      |   FULAn
 
         |   FaCLUn
+        |   FiCLUn
 
         |   FaCALIn
 
@@ -850,11 +865,15 @@ data PatternT =
 
         |   FuCayL                      |   FuwayL      |   FuCayy
 
+        |   FuCCayL
+
         |   FuwayCiL                                                    |   FuwayCL    {-- (?) --}
+        |   FuwayCaL    {-- (?) --}
+
         |   FuCayyiL
 
-        |   FuwayCaL    {-- (?) --}
         |   MuFayCaL
+
         |   HuFayCAL
 
         |   FuCayLin                    |   FuwayLin
@@ -887,12 +906,14 @@ data PatternT =
         |   FaCCiL                                      |   FaCCI
 
         |   TaFCIL      |   TACIL
-        |   TaFCiL                      |   TaFIL       |   TaFCI
+        |   TaFCiL                      |   TaFIL       |   TaFCI       |   TaFiCL
+        |   TaFCuL
 
         |   TaFACiL                                 {-- |   TaFACI  --}
         |   TaFACIL     |   TawACIL
 
         |   TiFCAL      |   TICAL                       |   TiFCA'                      |   TICA'
+        |   TaFCAL
 
         |   MuFaCCiL                                    |   MuFaCCI
         |   MuFaCCaL                                    |   MuFaCCY

@@ -37,12 +37,12 @@ instance Template PatternL where
     interlocks _ s r _ = (modify . concat) r
 
         where modify x | (not . null) s && isSuffixOf "A" x =
-                                 
+
                          case last s of Iy -> x ++ "w"
                                         _  -> x
 
                        | otherwise          = x
-              
+
 
  -- interlock = (.) concat . const
 
@@ -51,7 +51,7 @@ instance Rules PatternL where
 
     isForm I Identity = True
     isForm _ _        = False
-    
+
     isInert r x | (not . null) r && last r `elem` "AIU" = True
                 | otherwise                             = False
 

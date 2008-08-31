@@ -156,9 +156,9 @@ instance (Show a, Pretty [a]) => Pretty (Entity a) where
             					eraseNothing n [ elemtxt "number" [] $ pretty n ]
 
                             Pron                ->  elemesp "Pron" []
-                                                    
+
                             Num  l f            ->  elemesp "Num"  $
-                                                    
+
                                 eraseEmpty   l [ elemtxt "plural" [] $ pretty l ]
             					++
                                 eraseEmpty   f [ elemtxt "femini" [] $ pretty f ]
@@ -168,6 +168,11 @@ instance (Show a, Pretty [a]) => Pretty (Entity a) where
                             Conj                ->  elemesp "Conj" []
                             Part                ->  elemesp "Part" []
                             Intj                ->  elemesp "Intj" []
+
+                            Xtra                ->  elemesp "Xtra" []
+                            Ynit                ->  elemesp "Ynit" []
+                            Zero                ->  elemesp "Zero" []
+                            Grph                ->  elemesp "Grph" []
 
         where eraseNothing x y = case x of Nothing -> []
                                            _       -> y

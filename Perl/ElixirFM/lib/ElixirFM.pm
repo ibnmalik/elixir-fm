@@ -610,14 +610,16 @@ sub mergeSuffix {
                    "UW"  => "UW",
 
                    "Ina" => "Ina",
-                   "I"   => "I"     );
+                   "I"   => "I",
+
+                   "u"   => "U",
+                   "i"   => "I"     );
 
         if (($x) = $_[1] =~ /^"(.*)"$/) {
 
             return $rules{$x} if exists $rules{$x};
 
-            return "U"  if $x =~ /^[iu]$/;
-            return "iN" if $x =~ /^[iu]N$/;
+            return $x if $x =~ /^[ui]N$/;
 
             return "U" . $x if $x =~ /^[nt]/;
         }

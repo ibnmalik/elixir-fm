@@ -50,8 +50,8 @@ instance Template String where
         where modify | isForm VIII t                      = assimiVIII
                      | isForm VII  t                      = assimiVII
                      | (not . null) s && isSuffixOf "A" t =
-                                 
-                        case last s of Iy ->   (++ ["w"]) . substitute 
+
+                        case last s of Iy ->   (++ ["w"]) . substitute
                                        _  ->                substitute
 
                      | otherwise                          = substitute
@@ -147,11 +147,11 @@ instance Forming String where
     verbStems VIII _ = [
 
         (   Nothing,    "IFtaCaL",  "UFtuCiL",  "FtaCiL",   "FtaCaL"    )
-      
+
         ]
 
     verbStems _ _ = []
-                    
+
 
     nounStems VII _ = [
 
@@ -166,5 +166,5 @@ instance Forming String where
         (   "IFtaCaL",  "MuFtaCiL", "MuFtaCaL", morph   "IFtiCAL"       )
 
         ]
-        
+
     nounStems _ _ = []

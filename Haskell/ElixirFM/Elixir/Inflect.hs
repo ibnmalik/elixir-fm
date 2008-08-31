@@ -392,7 +392,7 @@ instance Inflect Lexeme TagsAdj where
 instance Inflect Lexeme TagsPron where
 
     inflect x@(Lexeme r e) y | (not . isPron) (entity e) = []
-    
+
     inflect (Lexeme r e) x@(TagsPronP p g n c) = [ (ParaPron (PronP p g n c), list [(r, morphs e)] q) |
 
                                                     let p' = vals p
@@ -423,7 +423,7 @@ instance Inflect Lexeme TagsPron where
                                                               (d', r') <- l, TagsPron s <- d',
 
                                                               q <- if null (restrict (TagsPronD [g] [n] [c]) s)
-                                                              
+
                                                                    then [] else r' ] ]
 
     inflect (Lexeme r e) x@(TagsPronR   g n c) = [ (ParaPron (PronR g n c), list [(r, morphs e)] q) |
@@ -435,11 +435,11 @@ instance Inflect Lexeme TagsPron where
                                                     n <- n', g <- g', c <- c',
 
                                                     let q = [ (r, q) | let (d, l) = limits e,
-                                          
+
                                                               (d', r') <- l, TagsPron s <- d',
 
                                                               q <- if null (restrict (TagsPronR [g] [n] [c]) s)
-                                                              
+
                                                                    then [] else r' ] ]
 
     inflect (Lexeme r e) x@(TagsPronS        ) = [(ParaPron PronS, [(r, morphs e)])]
@@ -1037,7 +1037,7 @@ inRules r c (d :-: a) m = ((,) r . article . endings c d a) m
                                 Suffix "aN" : _  -> paraTriptote  `with` reduce
 
                                 _  | isInert r m -> (const . const . const) id
-                                
+
                                 _  | isDiptote m -> paraDiptote
                                 _                -> paraTriptote
 

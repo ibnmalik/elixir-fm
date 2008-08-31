@@ -35,7 +35,7 @@ class Derive m p where
 instance Derive Lexeme String where
 
     derive x@(Lexeme r e) y | "V" `isPrefixOf` y = m 'V' (verb . unmorph)
-                            | "A" `isPrefixOf` y = case take 1 (drop 3 y) of
+                            | "A" `isPrefixOf` y = case (take 1 . drop 3) y of
                                   "A"       ->     m 'A' adj
                                   "P"       ->     m 'P' adj
                                   _         ->     m 'A' adj ++ m 'P' adj

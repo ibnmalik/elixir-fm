@@ -130,7 +130,7 @@ data ParaType = ParaVerb  ParaVerb
               | ParaYnit  ParaYnit
               | ParaZero  ParaZero
               | ParaGrph  ParaGrph
- 
+
     deriving (Eq, Show)
 
 
@@ -303,7 +303,7 @@ instance Restrict TagsType where
     restrict (TagsYnit []) ys = [ y | y@(TagsYnit _) <- ys ]
     restrict (TagsZero []) ys = [ y | y@(TagsZero _) <- ys ]
     restrict (TagsGrph []) ys = [ y | y@(TagsGrph _) <- ys ]
-                                
+
     restrict (TagsVerb xs) ys = [ TagsVerb (restrict x y) | TagsVerb y <- ys, x <- xs ]
     restrict (TagsNoun xs) ys = [ TagsNoun (restrict x y) | TagsNoun y <- ys, x <- xs ]
     restrict (TagsAdj  xs) ys = [ TagsAdj  (restrict x y) | TagsAdj  y <- ys, x <- xs ]

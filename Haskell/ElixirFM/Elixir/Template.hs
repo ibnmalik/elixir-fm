@@ -215,7 +215,7 @@ isClosed _ = True
 
                         Suffix "u"      -> "U"
                         Suffix "i"      -> "I"
-                        
+
                         Suffix x | x `elem` ["uN", "iN"] -> x
 
                                  | "n" `isPrefixOf` x ||
@@ -249,7 +249,7 @@ class Eq a => Rules a where
     isForm :: Form -> a -> Bool
 
     isInert :: String -> a -> Bool
-    
+
     isDiptote :: a -> Bool
 
     isPassive :: a -> Bool
@@ -267,7 +267,7 @@ class Eq a => Rules a where
 
     isDiptote = const True
     isPassive = const False
-    
+
     prefixVerbI _ _ _ = []
     prefixVerbC _ _   = []
     auxiesDouble  _ _ = []
@@ -374,7 +374,7 @@ instance Rules a => Rules (Morphs a) where
     isInert r (Morphs t _ s) = case s of []             -> isInert r t
                                          Suffix "A" : _ -> True
                                          _              -> False
-    
+
     isDiptote (Morphs t [] []) = isDiptote t
     isDiptote _                = False
 

@@ -189,7 +189,7 @@ data PatternQ =
 
         |   KaRADiS         |   KaRADI
         |   KaRADIS
-            
+
         |   KuRaDSIS
 
 --  Form II
