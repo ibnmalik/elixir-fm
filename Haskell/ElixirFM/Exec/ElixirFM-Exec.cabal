@@ -33,4 +33,3 @@ executable:         elixir
 main-is:            Exec/ElixirFM/Main.hs
 hs-source-dirs:     ., ..
 ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
-              -- -O -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances

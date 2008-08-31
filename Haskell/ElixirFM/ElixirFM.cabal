@@ -34,6 +34,7 @@ description:        The "Elixir" and "FM" libraries of "ElixirFM" implement
 exposed-modules:    ElixirFM,
                     Elixir,
                         -- Elixir.Data,
+                            Elixir.Data.Extra,
                             Elixir.Data.Moony,
                                 Elixir.Data.Moony.Complex,
                                     Elixir.Data.Moony.Complex.A,

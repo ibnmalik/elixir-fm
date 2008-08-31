@@ -486,7 +486,7 @@ cluster_66  = cluster
 
  |> "'IsIfU" <| [
 
-    _____                     `xtra`    {- <'IsIfU> -}         [ unwords [ ['I','s','i','f','u'], "?", "?" ] ] ]
+    _____                     `xtra`    {- <'IsIfU> -}         [ ['I','s','i','f','u'] ] ]
 
 
 cluster_67  = cluster

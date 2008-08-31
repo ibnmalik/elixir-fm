@@ -1335,7 +1335,7 @@ cluster_51  = cluster
 
     FaCL                      `noun`    {- <`afw> -}           [ ['p','a','r','d','o','n'], ['a','m','n','e','s','t','y'] ],
 
-    FaCL |<< "aN"             `noun`    {- <`afwaN> -}         [ unwords [ ['e','x','c','u','s','e'], ['m','e'], "!" ], unwords [ ['y','o','u','\'','r','e'], ['w','e','l','c','o','m','e'], "!" ] ],
+    FaCL |<< "aN"             `intj`    {- <`afwaN> -}         [ unwords [ ['e','x','c','u','s','e'], ['m','e'], "!" ], unwords [ ['y','o','u','\'','r','e'], ['w','e','l','c','o','m','e'], "!" ] ],
 
     FaCA'                     `noun`    {- <`afA'> -}          [ ['e','x','t','i','n','c','t','i','o','n'], ['d','i','s','u','s','e'] ],
 
@@ -3298,7 +3298,7 @@ cluster_121 = cluster
 
  |> ".g w _t h" <| [
 
-    KaRDAS                    `noun`    {- <.gaw_tAh> -}       [ unwords [ ['h','e','l','p'], "!" ] ] ]
+    KaRDAS                    `intj`    {- <.gaw_tAh> -}       [ unwords [ ['h','e','l','p'], "!" ] ] ]
 
 
 cluster_122 = cluster

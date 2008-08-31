@@ -17,17 +17,13 @@
 
 module Elixir.Data.Sunny where
 
-import Elixir.Lexicon
-
-import Elixir.Lexicon.Pretty
-
-import Elixir.Template
-
-import Data.List
 
 import qualified Elixir.Data.Sunny.Complex
 import qualified Elixir.Data.Sunny.Foreign
 import qualified Elixir.Data.Sunny.Regular
+
+
+import Elixir.Lexicon
 
 import Version
 

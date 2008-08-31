@@ -13,35 +13,35 @@ cluster_1   = cluster
 
  |> "sI" <| [
 
-    _____                     `noun`    {- <sI> -}             [ ['C','.'] ] ]
+    _____                     `xtra`    {- <sI> -}             [ ['C','.'] ] ]
 
 
 cluster_2   = cluster
 
  |> "fI" <| [
 
-    _____                     `noun`    {- <fI> -}             [ ['V','.'] ] ]
+    _____                     `xtra`    {- <fI> -}             [ ['V','.'] ] ]
 
 
 cluster_3   = cluster
 
  |> "dI" <| [
 
-    _____                     `noun`    {- <dI> -}             [ ['D','.'], ['D','e'] ] ]
+    _____                     `xtra`    {- <dI> -}             [ ['D','.'], ['D','e'] ] ]
 
 
 cluster_4   = cluster
 
  |> "bI" <| [
 
-    _____                     `noun`    {- <bI> -}             [ ['B','.'] ] ]
+    _____                     `xtra`    {- <bI> -}             [ ['B','.'] ] ]
 
 
 cluster_5   = cluster
 
  |> "^gI" <| [
 
-    _____                     `noun`    {- <^gI> -}            [ ['G','.'], ['J','.'] ] ]
+    _____                     `xtra`    {- <^gI> -}            [ ['G','.'], ['J','.'] ] ]
 
 
 cluster_6   = cluster
@@ -67,28 +67,28 @@ cluster_7   = cluster
 
  |> "'is" <| [
 
-    _____                     `noun`    {- <'is> -}            [ ['S','.'] ] ]
+    _____                     `xtra`    {- <'is> -}            [ ['S','.'] ] ]
 
 
 cluster_8   = cluster
 
  |> "'ar" <| [
 
-    _____                     `noun`    {- <'ar> -}            [ ['R','.'] ] ]
+    _____                     `xtra`    {- <'ar> -}            [ ['R','.'] ] ]
 
 
 cluster_9   = cluster
 
  |> "'in" <| [
 
-    _____                     `noun`    {- <'in> -}            [ ['N','.'] ] ]
+    _____                     `xtra`    {- <'in> -}            [ ['N','.'] ] ]
 
 
 cluster_10  = cluster
 
  |> "'im" <| [
 
-    _____                     `noun`    {- <'im> -}            [ ['M','.'] ] ]
+    _____                     `xtra`    {- <'im> -}            [ ['M','.'] ] ]
 
 
 cluster_11  = cluster
@@ -108,14 +108,14 @@ cluster_12  = cluster
 
  |> "'af" <| [
 
-    _____                     `ynit`    {- <'af> -}            [ ['A','.','F','.'] ] ]
+    _____                     `xtra`    {- <'af> -}            [ ['A','.','F','.'] ] ]
 
 
 cluster_13  = cluster
 
  |> "tI" <| [
 
-    _____                     `noun`    {- <tI> -}             [ ['T','.'] ] ]
+    _____                     `xtra`    {- <tI> -}             [ ['T','.'] ] ]
 
 
 cluster_14  = cluster
@@ -1410,14 +1410,13 @@ cluster_97  = cluster
     FuCyY |< Iy               `adj`     {- <dunyawIy> -}       [ ['w','o','r','l','d','l','y'], ['t','e','m','p','o','r','a','l'] ],
 
     TaFaCCI                   `noun`    {- <tadannI> -}        [ ['d','e','c','l','i','n','e'], ['s','i','n','k','i','n','g'], ['l','o','w'], ['n','e','a','r'], ['c','l','o','s','e'] ]
-                              `plural`     TaFaCCI |< At
-                              `plural`     FACI |< At,
+                              `plural`     TaFaCCI |< At,
 
-    MutaFaCCI                 `noun`    {- <mutadannI> -}      [ ['a','p','p','r','o','a','c','h','i','n','g'], unwords [ ['d','e','b','a','s','e','d'], "?", "?" ] ]
-                              `plural`     MutaFaCCI |< At,
+    FACI                      `adj`     {- <dAnI> -}           [ ['l','o','w'], ['n','e','a','r'], ['c','l','o','s','e'] ],
 
-    MutaFACI                  `noun`    {- <mutadAnI> -}       [ unwords [ ['c','l','o','s','e'], ['t','o','g','e','t','h','e','r'] ] ]
-                              `plural`     MutaFACI |< At ]
+    MutaFaCCI                 `adj`     {- <mutadannI> -}      [ ['a','p','p','r','o','a','c','h','i','n','g'] ],
+
+    MutaFACI                  `adj`     {- <mutadAnI> -}       [ unwords [ ['c','l','o','s','e'], ['t','o','g','e','t','h','e','r'] ] ] ]
 
 
 cluster_98  = cluster

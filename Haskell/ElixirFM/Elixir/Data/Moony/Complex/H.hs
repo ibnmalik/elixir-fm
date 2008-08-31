@@ -2317,7 +2317,7 @@ cluster_115 = cluster
 
     HaFaCL                    `verb`    {- <'a.ha.z.z> -}      [ unwords [ ['b','e'], ['f','o','r','t','u','n','a','t','e'] ] ],
 
-    FaCL                      `noun`    {- <.ha.z.z> -}        [ ['l','u','c','k'], ['f','o','r','t','u','n','e'], ['s','h','a','r','e','s'], unwords [ ['p','a','r','t','i','c','i','p','a','t','i','o','n'], "?", "?" ] ]
+    FaCL                      `noun`    {- <.ha.z.z> -}        [ ['l','u','c','k'], ['f','o','r','t','u','n','e'], ['s','h','a','r','e','s'] ]
                               `plural`     FuCUL,
 
     FaCIL                     `adj`     {- <.ha.zI.z> -}       [ ['l','u','c','k','y'], ['f','o','r','t','u','n','a','t','e'] ],

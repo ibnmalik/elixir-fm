@@ -1050,96 +1050,89 @@ cluster_139 = cluster
 
 cluster_140 = cluster
 
- |> "tAkIn" <| [
-
-    _____                     `xtra`    {- <tAkIn> -}          [ unwords [ ['T','a','k','i','n'], "?", "?" ] ] ]
-
-
-cluster_141 = cluster
-
  |> "tAkAhArA" <| [
 
     _____                     `xtra`    {- <tAkAhArA> -}       [ ['T','a','k','a','h','a','r','a'] ] ]
 
 
-cluster_142 = cluster
+cluster_141 = cluster
 
  |> "tAdIrAn" <| [
 
     _____                     `xtra`    {- <tAdIrAn> -}        [ ['T','a','d','i','r','a','n'] ] ]
 
 
-cluster_143 = cluster
+cluster_142 = cluster
 
  |> "tUbiks" <| [
 
     _____                     `xtra`    {- <tUbiks> -}         [ ['T','o','p','i','x'] ] ]
 
 
-cluster_144 = cluster
+cluster_143 = cluster
 
  |> "tItsiwU" <| [
 
     _____                     `xtra`    {- <tItsiwU> -}        [ ['T','e','t','s','u'] ] ]
 
 
-cluster_145 = cluster
+cluster_144 = cluster
 
  |> "tIrIzA" <| [
 
     _____                     `xtra`    {- <tIrIzA> -}         [ ['T','e','r','e','s','a'] ] ]
 
 
-cluster_146 = cluster
+cluster_145 = cluster
 
  |> "tIrAnA" <| [
 
     _____                     `xtra`    {- <tIrAnA> -}         [ ['T','i','r','a','n','a'] ] ]
 
 
-cluster_147 = cluster
+cluster_146 = cluster
 
  |> "tIr.gAt" <| [
 
     _____                     `xtra`    {- <tIr.gAt> -}        [ ['T','e','r','g','a','t'] ] ]
 
 
-cluster_148 = cluster
+cluster_147 = cluster
 
  |> "tInIsI" <| [
 
     _____                     `xtra`    {- <tInIsI> -}         [ ['T','e','n','n','e','s','s','e','e'] ] ]
 
 
-cluster_149 = cluster
+cluster_148 = cluster
 
  |> "tInInbawm" <| [
 
     _____                     `xtra`    {- <tInInbawm> -}      [ ['T','a','n','n','e','n','b','a','u','m'] ] ]
 
 
-cluster_150 = cluster
+cluster_149 = cluster
 
  |> "tIlstrUm" <| [
 
     _____                     `xtra`    {- <tIlstrUm> -}       [ ['T','i','l','l','s','t','r','o','m'] ] ]
 
 
-cluster_151 = cluster
+cluster_150 = cluster
 
  |> "tIhUmIr" <| [
 
     _____                     `xtra`    {- <tIhUmIr> -}        [ ['T','i','h','o','m','i','r'] ] ]
 
 
-cluster_152 = cluster
+cluster_151 = cluster
 
  |> "tIbAzah" <| [
 
     _____                     `xtra`    {- <tIbAzah> -}        [ ['T','i','p','a','s','a'] ] ]
 
 
-cluster_153 = cluster
+cluster_152 = cluster
 
  |> "tAymz" <| [
 
@@ -1148,116 +1141,123 @@ cluster_153 = cluster
     _____                     `xtra`    {- <tAymz> -}          [ ['T','h','a','m','e','s'] ] ]
 
 
-cluster_154 = cluster
+cluster_153 = cluster
 
  |> "t^sArlz" <| [
 
     _____                     `xtra`    {- <t^sArlz> -}        [ ['C','h','a','r','l','e','s'] ] ]
 
 
-cluster_155 = cluster
+cluster_154 = cluster
 
  |> "t^sArltUn" <| [
 
     _____                     `xtra`    {- <t^sArltUn> -}      [ ['C','h','a','r','l','t','o','n'] ] ]
 
 
-cluster_156 = cluster
+cluster_155 = cluster
 
  |> "t^sAndA" <| [
 
     _____                     `xtra`    {- <t^sAndA> -}        [ ['C','h','a','n','d','a'] ] ]
 
 
-cluster_157 = cluster
+cluster_156 = cluster
 
  |> "t^sAn.g" <| [
 
     _____                     `xtra`    {- <t^sAn.g> -}        [ ['C','h','a','n','g'] ] ]
 
 
-cluster_158 = cluster
+cluster_157 = cluster
 
  |> "tUziyA" <| [
 
     _____                     `xtra`    {- <tUziyA> -}         [ ['T','a','u','z','i','a','t'] ] ]
 
 
-cluster_159 = cluster
+cluster_158 = cluster
 
  |> "tUyUtA" <| [
 
     _____                     `xtra`    {- <tUyUtA> -}         [ ['T','o','y','o','t','a'] ] ]
 
 
-cluster_160 = cluster
+cluster_159 = cluster
 
  |> "tUtsI" <| [
 
     _____                     `xtra`    {- <tUtsI> -}          [ ['T','u','t','s','i'] ] ]
 
 
-cluster_161 = cluster
+cluster_160 = cluster
 
  |> "tUskA" <| [
 
     _____                     `xtra`    {- <tUskA> -}          [ ['T','o','s','c','a'] ] ]
 
 
-cluster_162 = cluster
+cluster_161 = cluster
 
  |> "tUrUntU" <| [
 
     _____                     `xtra`    {- <tUrUntU> -}        [ ['T','o','r','o','n','t','o'], ['T','o','r','r','e','s'] ] ]
 
 
-cluster_163 = cluster
+cluster_162 = cluster
 
  |> "tUrInU" <| [
 
     _____                     `xtra`    {- <tUrInU> -}         [ ['T','o','r','i','n','o'] ] ]
 
 
-cluster_164 = cluster
+cluster_163 = cluster
 
  |> "tUrA" <| [
 
     _____                     `xtra`    {- <tUrA> -}           [ ['T','o','r','a'] ] ]
 
 
-cluster_165 = cluster
+cluster_164 = cluster
 
  |> "tUmyAnUfIt^s" <| [
 
     _____                     `xtra`    {- <tUmyAnUfIt^s> -}   [ ['T','o','m','j','a','n','o','v','i','c','h'] ] ]
 
 
-cluster_166 = cluster
+cluster_165 = cluster
 
  |> "tUmAsI" <| [
 
     _____                     `xtra`    {- <tUmAsI> -}         [ ['T','o','m','a','s','s','i'] ] ]
 
 
-cluster_167 = cluster
+cluster_166 = cluster
 
  |> "tamArA" <| [
 
     _____                     `xtra`    {- <tamArA> -}         [ ['T','a','m','a','r','a'] ] ]
 
 
-cluster_168 = cluster
+cluster_167 = cluster
 
  |> "t^silsI" <| [
 
     _____                     `xtra`    {- <t^silsI> -}        [ ['C','h','e','l','s','e','a'] ] ]
 
 
-cluster_169 = cluster
+cluster_168 = cluster
 
  |> "t^sIrnUmIrdIn" <| [
 
     _____                     `xtra`    {- <t^sIrnUmIrdIn> -}  [ ['C','h','e','r','n','o','m','y','r','d','i','n'] ] ]
+
+
+cluster_169 = cluster
+
+ |> "t^sInI" <| [
+
+    _____                     `xtra`    {- <t^sInI> -}         [ ['C','h','e','n','e','y'] ] ]
 
 
 section = [ cluster_1,

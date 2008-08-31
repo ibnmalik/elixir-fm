@@ -450,33 +450,26 @@ cluster_61  = cluster
 
 cluster_62  = cluster
 
- |> "ywmbl.gAz" <| [
-
-    _____                     `xtra`    {- <ywmbl.gAz> -}      [ unwords [ ['I','o','m','p','e','l','g','a','s'], "?", "?" ] ] ]
-
-
-cluster_63  = cluster
-
  |> "yu.hannA" <| [
 
     _____                     `xtra`    {- <yu.hannA> -}       [ ['Y','u','h','a','n','n','a'], ['J','o','h','n'] ] ]
 
 
-cluster_64  = cluster
+cluster_63  = cluster
 
  |> "yits.hAk" <| [
 
     _____                     `xtra`    {- <yits.hAk> -}       [ ['Y','i','t','z','h','a','k'] ] ]
 
 
-cluster_65  = cluster
+cluster_64  = cluster
 
  |> "'ayAn" <| [
 
     _____                     `xtra`    {- <'ayAn> -}          [ ['A','y','a','n'] ] ]
 
 
-cluster_66  = cluster
+cluster_65  = cluster
 
  |> "'iyAn" <| [
 
@@ -547,5 +540,4 @@ section = [ cluster_1,
             cluster_62,
             cluster_63,
             cluster_64,
-            cluster_65,
-            cluster_66 ]
+            cluster_65 ]

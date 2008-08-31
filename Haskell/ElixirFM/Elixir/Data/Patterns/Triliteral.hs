@@ -202,6 +202,7 @@ instance Rules PatternT where
     -- Fischer (2002), par. 153, 93 ff, 99, etc.
 
     isDiptote = flip elem [ HaFCaL, HACaL, HaFCY, HaFaCL, HACY,
+                            HuFayCaL, HuFayCY, {-- (?) --}
                             FaCLY, FaCwY,
                             FiCLY,
                             FuCLY, FULY, FuCyY,
@@ -875,6 +876,8 @@ data PatternT =
         |   MuFayCaL
 
         |   HuFayCAL
+
+        |   HuFayCaL    {-- (?) --}                     |   HuFayCY
 
         |   FuCayLin                    |   FuwayLin
 

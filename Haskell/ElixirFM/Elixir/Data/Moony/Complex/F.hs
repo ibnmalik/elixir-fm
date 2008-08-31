@@ -1971,7 +1971,7 @@ cluster_106 = cluster
 
     FaCIL                     `adj`     {- <hanI'> -}          [ ['h','e','a','l','t','h','f','u','l'], ['b','e','n','e','f','i','c','i','a','l'], ['p','l','e','a','s','a','n','t'] ],
 
-    FaCIL                     `noun`    {- <hanI'> -}          [ unwords [ ['b','o','n'], ['a','p','p','e','t','i','t'], "!" ] ],
+    FaCIL |<< "aN"            `intj`    {- <hanI'aN> -}        [ unwords [ ['b','o','n'], ['a','p','p','e','t','i','t'], "!" ] ],
 
     TaFCiL |< aT              `noun`    {- <tahni'aT> -}       [ ['c','o','n','g','r','a','t','u','l','a','t','i','o','n','s'], ['g','r','e','e','t','i','n','g','s'] ]
                               `plural`     TaFACiL
@@ -2643,7 +2643,7 @@ cluster_136 = cluster
 
  |> "h y h" <| [
 
-    FaCL |< At                `noun`    {- <hayhAt> -}         [ unwords [ ['h','o','w'], "!" ] ] ]
+    FaCL |< At                `intj`    {- <hayhAt> -}         [ unwords [ ['h','o','w'], "!" ] ] ]
 
 
 cluster_137 = cluster
@@ -2924,7 +2924,7 @@ cluster_154 = cluster
 
  |> "w ' h" <| [
 
-    FAL                       `noun`    {- <wAh> -}            [ unwords [ ['w','o','w'], "!" ] ] ]
+    FAL                       `intj`    {- <wAh> -}            [ unwords [ ['w','o','w'], "!" ] ] ]
 
 
 cluster_155 = cluster

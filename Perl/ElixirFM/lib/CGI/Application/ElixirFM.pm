@@ -102,7 +102,7 @@ sub display_header ($) {
 
     $q->charset('utf-8');
 
-    $r .= $q->start_html('-title'  => "ElixirFM 1.x Online Interface #" . $session, '-encoding' => $q->charset(),
+    $r .= $q->start_html('-title'  => "ElixirFM 1.1 Online Interface #" . $session, '-encoding' => $q->charset(),
 			 '-meta'   => { 'keywords' => 'Arabic morphological analyzer analysis generator generation' .
                                           'morphology lexicon dictionary lookup inflection derivation' },
 			 '-style'  => [ {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/elixir.css', '-type' => 'text/css'},
@@ -118,7 +118,7 @@ sub display_headline ($) {
     my $q = $c->query();
     my $r;
 
-    $r .= $q->h1($q->a({'href'=>'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM 1.x"), ucfirst $q->param($c->mode_param()), 'Online');
+    $r .= $q->h1($q->a({'href'=>'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM 1.1"), ucfirst $q->param($c->mode_param()), 'Online');
 
     return $r;
 }
@@ -144,7 +144,7 @@ sub display_footline ($) {
     my $q = $c->query();
     my $r;
 
-    $r .= $q->p("(C) Otakar Smrz 2008-2005, Tim Buckwalter 2002. GNU General Public License", $q->a({-href => 'http://www.gnu.org/licenses/'}, "GNU GPL 3") . ".");
+    $r .= $q->p("(C) Otakar Smrz 2008-2005, Viktor Bielicky 2008, Tim Buckwalter 2002. GNU General Public License", $q->a({-href => 'http://www.gnu.org/licenses/'}, "GNU GPL 3") . ".");
 
     $r .= $q->p("ElixirFM is an", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "open-source online"), "project.",
                 "You can contribute to its development with your suggestions!");
@@ -318,11 +318,11 @@ sub pretty_resolve_tree {
 		   # $q->Tr(
 			   $q->td({-class => "button"},
 				  $q->a({-title => "inflect this lexeme",
-					 -href => 'index.fcgi?elixir=inflect' . show_param($q, 'data') . '&code=' . $info[0]}, "Inflect"),
+					 -href => 'index.fcgi?elixir=inflect' . '&code=' . $info[0]}, "Inflect"),
 				  $q->a({-title => "derive other lexemes",
-					 -href => 'index.fcgi?elixir=derive' . show_param($q, 'data') . '&code=' . $info[0]}, "Derive"),
+					 -href => 'index.fcgi?elixir=derive' . '&code=' . $info[0]}, "Derive"),
 				  $q->a({-title => "lookup in the lexicon",
-					 -href => 'index.fcgi?elixir=lookup' . show_param($q, 'data') . '&code=' . $info[0]}, "Lookup")),
+					 -href => 'index.fcgi?elixir=lookup' . '&code=' . $info[0]}, "Lookup")),
 		    )),
 
 	  $q->ul($q->li($q->table({-cellspacing => 0},
@@ -468,9 +468,7 @@ sub resolve {
 
     $q->param('view', 'MorphoTrees View') if 'not implemented otherwise';
 
-    $q->param('view', '') unless defined $q->param('view');
     $q->param('fuzzy', '') unless defined $q->param('fuzzy');
-    $q->param('data', '') unless defined $q->param('data');
 
     $r .= display_welcome $c;
 
@@ -489,15 +487,15 @@ sub resolve {
                                         -size       =>  60,
                                         -maxlength  =>  100) ),
 
-                    td( {-colspan => 1, -style => "vertical-align: middle; padding-left: 20px"},
+                    # td( {-colspan => 1, -style => "vertical-align: middle; padding-left: 20px"},
 
-			$q->checkbox_group( -name       =>  'data',
-					    -values     =>  [ 'Complete Lexicon' ],
-					    -default    =>  [ $q->param('data') ],
-					    -title      =>  "consider even less frequent entries",
-					    -linebreak  =>  0,
-					    -rows       =>  1,
-					    -columns    =>  1) ),
+			# $q->checkbox_group( -name       =>  'data',
+					    # -values     =>  [ 'Complete Lexicon' ],
+					    # -default    =>  [ $q->param('data') ],
+					    # -title      =>  "consider even less frequent entries",
+					    # -linebreak  =>  0,
+					    # -rows       =>  1,
+					    # -columns    =>  1) ),
 
                     td( {-colspan => 1, -style => "vertical-align: middle; padding-left: 20px", -class =>  'notice'},
 
@@ -517,15 +515,15 @@ sub resolve {
                     td({-align => 'center'}, $q->reset('Reset')),
                     td({-align => 'right'},  $q->submit(-name => 'submit', -value => 'Example')),
 
-                    td( {-align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
+                    # td( {-align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
 
-			$q->checkbox_group( -name       =>  'view',
-					    -values     =>  [ 'MorphoTrees View' ],
-					    -default    =>  [ $q->param('view') ],
-					    -title      =>  "more organized and interactive output",
-					    -linebreak  =>  0,
-					    -rows       =>  1,
-					    -columns    =>  1) ),
+			# $q->checkbox_group( -name       =>  'view',
+					    # -values     =>  [ 'MorphoTrees View' ],
+					    # -default    =>  [ $q->param('view') ],
+					    # -title      =>  "more organized and interactive output",
+					    # -linebreak  =>  0,
+					    # -rows       =>  1,
+					    # -columns    =>  1) ),
 
                     td( {-colspan => 1, -align => 'right', -style => "vertical-align: middle; padding-left: 20px"},
 
@@ -562,7 +560,7 @@ sub resolve {
 
     my $code = exists $enc_hash{$q->param('code')} ? $enc_hash{$q->param('code')} : 'TeX';
 
-    my $elixir = $q->param('data') ? './elixir' : './elixir-quick';
+    my $elixir = './elixir';
 
     my $fuzzy = $q->param('fuzzy') ? '--fuzzy' : '';
 
@@ -584,7 +582,7 @@ sub resolve {
 
     open L, '>>', "$mode/index.log";
 
-    print L join "\t", gmtime() . "", "CPU " . $time, $code, ($q->param('data') ? 'Y' : 'N'), ($q->param('fuzzy') ? 'F' : 'A'), ($q->param('view') ? 'T' : 'L'),
+    print L join "\t", gmtime() . "", "CPU " . $time, $code, ($q->param('fuzzy') ? 'F' : 'A'),
             ($reply =~ /^\s*$/ ? '--' : '++'), encode "utf8", $q->param('text') . "\n";
 
     close L;
@@ -667,8 +665,6 @@ sub inflect {
 
         $q->param('text', $example[$idx][1]);
         $q->param('code', $example[$idx][0]);
-
-	$q->param('view', rand 1 < 0.5 ? 'MorphoTrees View' : '');
     }
     else {
 
@@ -690,9 +686,6 @@ sub inflect {
 	    $q->param('code', $example[0][0]);
 	}
     }
-
-    $q->param('view', '') unless defined $q->param('view');
-    $q->param('data', '') unless defined $q->param('data');
 
     $r .= display_welcome $c;
 
@@ -724,23 +717,25 @@ sub inflect {
                     td({-align => 'center'}, $q->reset('Reset')),
                     td({-align => 'right'}, $q->submit(-name => 'submit', -value => 'Example')),
 
-                    td({-align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
+                    # td({-align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
 
-		       $q->checkbox_group( -name       =>  'data',
-					   -values     =>  [ 'Complete Lexicon' ],
-					   -default    =>  [ $q->param('data') ],
-					   -linebreak  =>  0,
-					   -rows       =>  1,
-					   -columns    =>  1) ),
+		       # $q->checkbox_group( -name       =>  'data',
+					   # -values     =>  [ 'Complete Lexicon' ],
+					   # -default    =>  [ $q->param('data') ],
+					   # -linebreak  =>  0,
+					   # -rows       =>  1,
+					   # -columns    =>  1) ),
 
-                    td({-align => 'right', -style => "vertical-align: middle; padding-left: 20px"},
+                    # td({-align => 'right', -style => "vertical-align: middle; padding-left: 20px"},
 
-		       $q->checkbox_group( -name       =>  'view',
-					   -values     =>  [ 'MorphoTrees View' ],
-					   -default    =>  [ 1 ],
-					   -linebreak  =>  0,
-					   -rows       =>  1,
-					   -columns    =>  1) ) ) );
+		       # $q->checkbox_group( -name       =>  'view',
+					   # -values     =>  [ 'MorphoTrees View' ],
+					   # -default    =>  [ 1 ],
+					   # -linebreak  =>  0,
+					   # -rows       =>  1,
+					   # -columns    =>  1) ) 
+
+                       ) );
 
     $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
 
@@ -750,9 +745,7 @@ sub inflect {
 
     $r .= $q->h2('ElixirFM Reply');
 
-    $r .= $q->p($q->param('view') ? "Click on the highlighted items to display or hide their contents." : (),
-
-		"Point the mouse over the data to receive further information.");
+    $r .= $q->p("Point the mouse over the data to receive further information.");
 
 
     my $mode = $q->param($c->mode_param());
@@ -769,7 +762,7 @@ sub inflect {
 
     @code = map { my $x = $_; $x =~ s/ +//g; "'" . $x . "'" } @code;
 
-    my $elixir = $q->param('data') ? './elixir' : './elixir-quick';
+    my $elixir = './elixir';
 
     tick @tick;
 
@@ -791,7 +784,7 @@ sub inflect {
 
     open L, '>>', "$mode/index.log";
 
-    print L join "\t", gmtime() . "", "CPU " . $time, (join " ", @code), ($q->param('data') ? 'Y' : 'N'), ($q->param('fuzzy') ? 'F' : 'A'), ($q->param('view') ? 'T' : 'L'),
+    print L join "\t", gmtime() . "", "CPU " . $time, (join " ", @code), ($q->param('fuzzy') ? 'F' : 'A'),
             ($reply =~ /^\s*$/ ? '--' : '++'), encode "utf8", $q->param('text') . "\n";
 
     close L;
@@ -828,8 +821,8 @@ sub lookup {
 		"You can try out the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "executable"),
 		"or the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "library"), "instead, though.");
 
-    $r .= $q->p($q->span($q->a({-href => 'index.fcgi?elixir=resolve' . show_param($q, 'data')},         "ElixirFM Resolve")),
-                $q->span($q->a({-href => 'index.fcgi?elixir=inflect' . show_param($q, 'data', 'code')}, "ElixirFM Inflect")));
+    $r .= $q->p($q->span($q->a({-href => 'index.fcgi?elixir=resolve' . show_param($q, 'code')}, "ElixirFM Resolve")),
+                $q->span($q->a({-href => 'index.fcgi?elixir=inflect' . show_param($q, 'code')}, "ElixirFM Inflect")));
 
     $r .= display_footer $c;
 
@@ -859,8 +852,8 @@ sub derive {
 		"You can try out the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "executable"),
 		"or the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "library"), "instead, though.");
 
-    $r .= $q->p($q->span($q->a({-href => 'index.fcgi?elixir=resolve' . show_param($q, 'data')},         "ElixirFM Resolve")),
-                $q->span($q->a({-href => 'index.fcgi?elixir=inflect' . show_param($q, 'data', 'code')}, "ElixirFM Inflect")));
+    $r .= $q->p($q->span($q->a({-href => 'index.fcgi?elixir=resolve' . show_param($q, 'code')}, "ElixirFM Resolve")),
+                $q->span($q->a({-href => 'index.fcgi?elixir=inflect' . show_param($q, 'code')}, "ElixirFM Inflect")));
 
     $r .= display_footer $c;
 

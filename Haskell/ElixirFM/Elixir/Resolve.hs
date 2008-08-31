@@ -25,7 +25,6 @@ import Elixir.Inflect
 import Elixir.Derive
 
 import Elixir.Data.Lexicons
-       -- Elixir.Data.Effective
 
 import Elixir.Lexicon
 import Elixir.Template
@@ -173,6 +172,8 @@ resolve'' = resolveBy'' (==) (==) (\ x -> [[x]])
 
 instance Resolve String where
 
+    resolve = resolveBy alike (omitting alike omits) tokenize
+
     resolveBy e q t y = [ [ concat (Map.lookup x resolves) | x <- p ] | p <- z ]
 
             where z = t y
@@ -198,6 +199,14 @@ instance Resolve String where
 
                                        let u = (units . uncurry merge) i, d <- y, u `q` d ] ]
 
+
+    tokenize x = [[x]] ++ [ ["wa", y] | 'w' : 'a' : y <- [x] ] ++ [ ["w", y] | 'w' : y <- [x] ] ++
+             if "mi'aTiN" `isSuffixOf` x then [[reverse y, reverse z]] else []
+             ++
+             if "y" `isSuffixOf` x then [[init x, "y"], [init (init x) ++ "U", "y"]] else []
+
+             where (z, y) = splitAt 7 (reverse x)
+
 {-
     resolveBy e q _ y = [[[ [s] | let l = units y, ((r, x), n) <- zip indexList [1 ..],
 
@@ -211,13 +220,6 @@ instance Resolve String where
 
                             (units . uncurry merge) i `q` y ]
 -}
-
-    tokenize x = [[x]] ++ [ ["wa", y] | 'w' : 'a' : y <- [x] ] ++ [ ["w", y] | 'w' : y <- [x] ] ++
-             if "mi'aTiN" `isSuffixOf` x then [[reverse y, reverse z]] else []
-             ++
-             if "y" `isSuffixOf` x then [[init x, "y"], [init (init x) ++ "U", "y"]] else []
-
-             where (z, y) = splitAt 7 (reverse x)
 
 
 resolveBy' :: (String -> String -> Bool) -> ([String] -> [String] -> Bool) -> (String -> [[String]])
@@ -249,6 +251,8 @@ resolveBy' e q t y = [ [ concat (Map.lookup x resolves) | x <- p ] | p <- z ]
 
 instance Resolve [UPoint] where
 
+    resolve = resolveBy alike (omitting alike omits) tokenize
+
     resolveBy e q t y = [ [ concat (Map.lookup x resolves) | x <- p ] | p <- z ]
 
             where z = t y
@@ -277,6 +281,9 @@ instance Resolve [UPoint] where
                                     . Map.toList . Map.fromListWith (++))
 
                                     [ (uncurry merge i, [Token (l, (n, m)) i t]) | (t, h) <- inflect l x, i <- h ] ]
+
+
+    tokenize x = [[x]]
 
 {-
     resolveBy e q _ y = resolveList indexList (decode TeX) e q y

@@ -1059,7 +1059,7 @@ cluster_141 = cluster
 
  |> "fAn" <| [
 
-    _____                     `xtra`    {- <fAn> -}            [ ['F','a','n'], ['F','a','n','s','a'], ['V','a','n','s','a'], ['F','a','n','s','s','a'], unwords [ ['V','a','n','s','s','a'], "?", "?" ] ] ]
+    _____                     `xtra`    {- <fAn> -}            [ ['F','a','n'], ['F','a','n','s','a'], ['V','a','n','s','a'] ] ]
 
 
 cluster_142 = cluster

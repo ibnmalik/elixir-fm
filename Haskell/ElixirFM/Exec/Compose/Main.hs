@@ -21,7 +21,6 @@ module Main where
 import Prelude hiding (lookup)
 
 import Elixir.Data.Lexicons
-       -- Elixir.Data.Effective
 
 import Elixir.Compose
 
@@ -34,7 +33,6 @@ import Version
 version = Version [1, 1, build] []
 
     where Version [build] [] = revised "$Revision$"
-
 
 
 main = putDoc $ generate "--[ISJ]-------" $ lexicon

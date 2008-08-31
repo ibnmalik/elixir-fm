@@ -328,7 +328,7 @@ cluster_23  = cluster
                            
     `derives` otherwise,
 
-    MutaFaCCiL                `noun`    {- <muta'assif> -}     [ unwords [ ['s','o','r','r','y'], "!" ] ],
+    MutaFaCCiL                `intj`    {- <muta'assif> -}     [ unwords [ ['s','o','r','r','y'], "!" ] ],
 
     MutaFaCCiL                `noun`    {- <muta'assif> -}     [ ['s','o','r','r','y'], ['r','e','g','r','e','t','f','u','l'] ]
                               `plural`     MutaFaCCiL |< Un
@@ -880,8 +880,9 @@ cluster_57  = cluster
     FAL |< At                 `noun`    {- <'AhAt> -}          [ ['a','c','c','l','a','i','m'], ['e','x','c','l','a','m','a','t','i','o','n'] ]
                               `plural`     FAL |< At,
 
-    FaCCaL                    `noun`    {- <'awwah> -}         [ unwords [ ['o','h'], "!" ] ]
-                              `plural`     FUCAL,
+    FaCCaL                    `intj`    {- <'awwah> -}         [ unwords [ ['o','h'], "!" ] ],
+
+    FuCAL                     `intj`    {- <'uwAh> -}          [ unwords [ ['o','h'], "!" ] ],
 
     TaFaCCuL                  `noun`    {- <ta'awwuh> -}       [ ['s','i','g','h','s'], ['e','x','c','l','a','m','a','t','i','o','n','s'] ]
                               `plural`     TaFaCCuL |< At,
@@ -1314,9 +1315,9 @@ cluster_88  = cluster
 
 cluster_89  = cluster
 
- |> "' y y" <| [
+ |> "'IyA" <| [
 
-    FiCLY                     `part`    {- <'iyyY> -}          [ unwords [ ['b','e'], ['c','a','r','e','f','u','l'], "!" ] ] ]
+    _____                     `part`    {- <'IyA> -}           [ ['o','h'], ['t','o'], ['f','o','r'] ] ]
 
 
 
@@ -1609,7 +1610,7 @@ cluster_108 = cluster
 
  |> "b ' _h" <| [
 
-    FaL                       `noun`    {- <ba_h> -}           [ unwords [ ['b','r','a','v','o'], "!" ] ] ]
+    FaL                       `intj`    {- <ba_h> -}           [ unwords [ ['b','r','a','v','o'], "!" ] ] ]
 
 
 cluster_109 = cluster

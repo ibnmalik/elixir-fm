@@ -1646,7 +1646,7 @@ cluster_80  = cluster
 
     TaFaCCaL                  `verb`    {- <ta'affaf> -}       [ ['c','o','m','p','l','a','i','n'], ['g','r','u','m','b','l','e'] ],
 
-    FuCL                      `noun`    {- <'uff> -}           [ unwords [ ['u','g','h'], "!" ] ],
+    FuCL                      `intj`    {- <'uff> -}           [ unwords [ ['u','g','h'], "!" ] ],
 
     FaCaL                     `noun`    {- <'afaf> -}          [ ['d','i','s','p','l','e','a','s','u','r','e'], ['g','r','u','m','b','l','i','n','g'] ],
 
@@ -1802,7 +1802,7 @@ cluster_89  = cluster
                            
     `derives` otherwise,
 
-    FaCL |<< "aN"             `noun`    {- <'ahlaN> -}         [ unwords [ ['w','e','l','c','o','m','e'], "!" ] ],
+    FaCL |<< "aN"             `intj`    {- <'ahlaN> -}         [ unwords [ ['w','e','l','c','o','m','e'], "!" ] ],
 
     FaCL |< Iy                `adj`     {- <'ahlIy> -}         [ ['A','h','l','y'], ['A','h','l','i'] ],
 
@@ -3308,7 +3308,7 @@ cluster_152 = cluster
 
  |> "' r .d" <| [
 
-    FaCCaL                    `verb`    {- <'arra.d> -}        [ unwords [ ['g','r','o','u','n','d'], "(", ['a','n','t','e','n','n','a',','], ['a','i','r','p','l','a','n','e'], ")" ], ['e','a','r','t','h'], unwords [ ['b','e'], ['g','r','o','u','n','d','e','d'], "(", ['a','n','t','e','n','n','a',','], ['a','i','r','p','l','a','n','e'], ")" ] ],
+    FaCCaL                    `verb`    {- <'arra.d> -}        [ unwords [ ['g','r','o','u','n','d'], "(", ['a','n','t','e','n','n','a',','], ['a','i','r','p','l','a','n','e'], ")" ], ['e','a','r','t','h'] ],
 
     FaCL                      `noun`    {- <'ar.d> -}          [ ['e','a','r','t','h'], ['t','e','r','r','i','t','o','r','y'], ['l','a','n','d'] ]
                               `plural`     FaCALI,

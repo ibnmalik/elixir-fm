@@ -21,7 +21,6 @@ module Main where
 import Prelude hiding (lookup)
 
 import Elixir.Data.Lexicons
-       -- Elixir.Data.Effective
 
 import Elixir.Lexicon
 import Elixir.Template
@@ -84,6 +83,7 @@ options = [ Option []    ["resolve"]    (NoArg (RunAction elixirResolve))
 
 
 copyleft = unlines ["ElixirFM (C) 2008-2005 Otakar Smrz, 2002 Tim Buckwalter",
+                --  "             2008 Viktor Bielicky, 2004 Markus Forsberg",
                     "GNU General Public License http://www.gnu.org/licenses/"]
 
 synopsis = unlines [copyleft,

@@ -1029,8 +1029,6 @@ cluster_51  = cluster
 
  |> ".t m ' n" <| [
 
-    KuRaDSIS |< aT            `noun`    {- <.tuma'nInaT> -}    [ ['c','a','l','m'], ['p','e','a','c','e','f','u','l','n','e','s','s'], ['r','e','a','s','s','u','r','a','n','c','e'] ],
-
     KaRDaS                    `verb`    {- <.tam'an> -}        [ ['p','a','c','i','f','y'], ['a','s','s','u','a','g','e'] ],
 
     TaKaRDaS                  `verb`    {- <ta.tam'an> -}      [ unwords [ ['b','e'], ['p','a','c','i','f','i','e','d'] ], unwords [ ['b','e'], ['a','s','s','u','a','g','e','d'] ] ],
@@ -1038,6 +1036,10 @@ cluster_51  = cluster
     IKRaDaSS                  `verb`    {- <i.tma'ann> -}      [ unwords [ ['b','e'], ['c','a','l','m'] ], unwords [ ['b','e'], ['r','e','a','s','s','u','r','e','d'] ] ],
 
     KaRDaS |< aT              `noun`    {- <.tam'anaT> -}      [ ['p','a','c','i','f','y','i','n','g'], ['c','a','l','m','i','n','g'], ['r','e','a','s','s','u','r','i','n','g'] ],
+
+    KuRaDSIS |< aT            `noun`    {- <.tuma'nInaT> -}    [ ['c','a','l','m'], ['t','r','a','n','q','u','i','l','l','i','t','y'], ['p','e','a','c','e','f','u','l','n','e','s','s'], ['r','e','a','s','s','u','r','a','n','c','e'] ],
+
+    KuRaDSIS |< Iy            `adj`     {- <.tuma'nInIy> -}    [ ['c','a','l','m','i','n','g'], ['t','r','a','n','q','u','i','l','i','z','i','n','g'] ],
 
     IKRiDSAS                  `noun`    {- <i.tmi'nAn> -}      [ ['t','r','a','n','q','u','i','l','l','i','t','y'], ['s','e','r','e','n','i','t','y'] ]
                               `plural`     IKRiDSAS |< At,

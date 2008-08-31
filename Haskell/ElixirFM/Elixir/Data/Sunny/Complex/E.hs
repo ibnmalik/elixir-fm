@@ -3890,7 +3890,7 @@ cluster_151 = cluster
 
     FiCL |< aT                `noun`    {- <^sirraT> -}        [ ['e','v','i','l'], ['m','a','l','i','c','e'] ],
 
-    FuCUL |< aT               `noun`    {- <^surUraT> -}       [ unwords [ ['S','h','u','r','u','r','a'], "(", "?", "?", ['S','a','u','d','i'], ['r','e','g','i','o','n'], ")" ] ],
+    FuCUL |< aT               `noun`    {- <^surUraT> -}       [ ['S','h','u','r','u','r','a'] ],
 
     FaCIL                     `noun`    {- <^sarIr> -}         [ ['b','a','d'], ['w','i','c','k','e','d'], ['e','v','i','l'] ]
                               `plural`     HaFiCL |< aT

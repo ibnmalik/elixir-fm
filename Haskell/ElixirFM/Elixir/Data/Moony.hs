@@ -17,17 +17,13 @@
 
 module Elixir.Data.Moony where
 
-import Elixir.Lexicon
-
-import Elixir.Lexicon.Pretty
-
-import Elixir.Template
-
-import Data.List
 
 import qualified Elixir.Data.Moony.Complex
 import qualified Elixir.Data.Moony.Foreign
 import qualified Elixir.Data.Moony.Regular
+
+
+import Elixir.Lexicon
 
 import Version
 
