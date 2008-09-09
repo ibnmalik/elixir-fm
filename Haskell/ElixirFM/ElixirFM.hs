@@ -16,7 +16,7 @@
 
 {-
     ElixirFM -- Implementation of Functional Arabic Morphology
-    Copyright (C) 2005-2008  Otakar Smrz
+    Copyright (C) 2005-2008 Otakar Smrz
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -39,7 +39,6 @@ module ElixirFM where
 import Prelude hiding (lookup)
 
 import Elixir.Data.Lexicons
-       -- Elixir.Data.Effective 
 
 import Elixir.Lexicon
 import Elixir.Template
@@ -65,17 +64,3 @@ import qualified Data.Map
 import Version
 
 version = revised "$Revision$"
-
--- sequence $ map (\ x -> print x) $ filter (\ (x, y) -> length y > 1) $
---     Data.Map.toList $ Data.Map.fromAscListWith (++) $
---     sortBy (\ x y -> fst x `compare` fst y) $ concat $
---     map (unwraps (\ x -> (map (\ y -> (y, [root x])) $ nub $
---     map (reflex) (ents x)))) lexicon
-
--- countEntry $ lookupRootBy (\ x -> let r = words x in
---     any (all (`elem` r) . words) ["y w", "w '", "y '"]) lexicon
-
--- filter ((> 2) . length) $
---     let f = (\ a b -> let x = a \\ "wy'"; y = b \\ "wy'" in x `compare` y) in
---     groupBy (\ a b -> case f a b of EQ -> True; _ -> False) $ sortBy f $
---     map (unwraps root) lexicon

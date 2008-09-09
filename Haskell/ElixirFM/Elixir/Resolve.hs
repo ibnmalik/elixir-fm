@@ -234,7 +234,7 @@ resolveBy' e q t y = [ [ concat (Map.lookup x resolves) | x <- p ] | p <- z ]
 
                                     let i = [ v | v <- u, isSubsumed e r v ],
 
-                                    not (null i), s :: (String, [[Wrap Token]]) <- unwraps (inflects i n) x ]
+                                    not (null i), s <- unwraps (inflects i n) x ]
 
               inflects y n (Nest r z) = [ z | (e, m) <- zip z [1 ..],
 
@@ -319,7 +319,7 @@ resolveBy'' e q t y = [ [ concat (Map.lookup x resolves) | x <- p ] | p <- z ]
 
                                     let i = [ v | (v, w) <- u, isSubsumed e r w ],
 
-                                    not (null i), s :: ([UPoint], [[Wrap Token]]) <- unwraps (inflects i n) x ]
+                                    not (null i), s <- unwraps (inflects i n) x ]
 
               inflects y n (Nest r z) = [ z | (e, m) <- zip z [1 ..],
 
