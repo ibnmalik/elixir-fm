@@ -11,16 +11,16 @@ package-url:        http://sourceforge.net/projects/elixir-fm/
 category:           Various
 build-depends:      Encode, Cabal, base, containers, wl-pprint
 synopsis:           Functional Arabic Morphology
-description:        The "ElixirFM" library implements /Functional Arabic Morphology/,
-                    which is designed by Otakar Smr&#382; and is described in his PhD thesis
+description:        The "ElixirFM" library implements a computational model of the morphological
+                    processes in Arabic. Both the library and the model have been designed by
+                    Otakar Smr&#382; and are described in his PhD thesis
                     /Functional Arabic Morphology. Formal System and Implementation/,
                     Charles University in Prague, July 2007,
-                    <http://ufal.mff.cuni.cz/~smrz/elixir-thesis.pdf>. The complete
-                    project is hosted on <http://sourceforge.net/projects/elixir-fm/>
-                    and the libraries are documented on
-                    <http://ufal.mff.cuni.cz/~smrz/ElixirFM/>.
+                    <http://ufal.mff.cuni.cz/~smrz/elixir-thesis.pdf>.
+                    The complete project is hosted on <http://sourceforge.net/projects/elixir-fm/>
+                    and the code is documented on <http://ufal.mff.cuni.cz/~smrz/ElixirFM/>.
                     .
-                    /ElixirFM/ is inspired by and extends the /Functional Morphology/
+                    /ElixirFM/ is inspired by and can directly extend the /Functional Morphology/
                     library developed by Markus Forsberg in his licenciate thesis
                     /Applications of Functional Programming in Processing Formal and Natural Languages/,
                     G&#246;teborg University and Chalmers University of Technology,
@@ -29,7 +29,7 @@ description:        The "ElixirFM" library implements /Functional Arabic Morphol
                     The "Version" library is just a simple support for
                     working with the CVS\/SVN revision keyword.
                     .
-                    "ElixirFM" "Elixir" "FM"
+                    "ElixirFM"
 exposed-modules:    ElixirFM,
                     --  Elixir,
                         --  Elixir.Data,
