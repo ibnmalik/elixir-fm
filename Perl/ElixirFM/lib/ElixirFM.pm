@@ -16,8 +16,6 @@ our $VERSION = '1.1' || do { q $Revision$ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 
 #
 # ##################################################################################################
 
-# use ElixirFM::Data::Lexicon;
-
 use Encode::Arabic;
 
 sub orth {
@@ -679,7 +677,7 @@ Otakar Smrz C<< <otakar smrz mff cuni cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright (C) 2008-2005 Otakar Smrz, 2002 Tim Buckwalter
+Copyright (C) 2005-2008 Otakar Smrz
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the GNU General Public License version 3.
