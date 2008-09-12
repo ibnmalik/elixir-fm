@@ -35,7 +35,7 @@
 }
 
 .listexpander td {
-    padding-left: 15px;
+    padding-left: 20px;
     padding-right: 0px;
 }
 
@@ -44,9 +44,9 @@
 
 /* first level */
 
-.listexpander li{background:/*palegoldenrod*/ #EEE8AA;}
-.listexpander li.collapsed{background:/*palegoldenrod*/ #EEE8AA url(collapsed.gif) no-repeat 5px .4em;} 
-.listexpander li.expanded{background:/*palegoldenrod*/ #EEE8AA url(expanded.gif) no-repeat 5px .4em;}
+.listexpander li{background:#EEE8AA /*palegoldenrod*/;}
+.listexpander li.collapsed{background:#EEE8AA /*palegoldenrod*/ url(collapsed.gif) no-repeat 5px .4em;} 
+.listexpander li.expanded{background:#EEE8AA /*palegoldenrod*/ url(expanded.gif) no-repeat 5px .4em;}
 
 ul.listexpander li.empty{cursor:default;background:#f8e7e7 url(empty.gif) no-repeat 5px .4em;} 
 

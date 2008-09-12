@@ -13,24 +13,24 @@
 }
 
 .root {
-    color: /*indigo*/ #4B0082;
+    color: #4B0082 /*indigo*/;
     white-space: nowrap;
 }
 
 .morphs {
     font-family: Courier New;   
-    color: /*goldenrod*/ #DAA520;
+    color: #DAA520 /*goldenrod*/;
     white-space: nowrap;
 }
 
 .class {
     font-family: Courier New;   
-    color: /*orangered*/ #FF4500;
+    color: #FF4500 /*orangered*/;
 }
 
 .stems {
     font-family: Courier New;   
-    color: /*goldenrod*/ #DAA520;
+    color: #DAA520 /*goldenrod*/;
 }
 
 .word {
@@ -38,7 +38,7 @@
 }
 
 .notice {
-    color: /*orangered*/ #FF4500;
+    color: #FF4500 /*orangered*/;
 }
 
 body {
@@ -100,13 +100,14 @@ table.lexeme {
 
 .lexeme td.button {
     min-width: 10em;
+    text-align: right;
     white-space: nowrap;
 }
 
 td {
     border: 0px;
     padding: 0px;
-    padding-right: 10px;
+    padding-right: 20px;
     font-size: medium;
     font-weight: normal;
     text-decoration: none;
@@ -124,8 +125,8 @@ input {
 h1 {
     font-size: x-large;
     font-weight: bold;
-    color: /*palegoldenrod*/ #EEE8AA;
-    background-color: /*indigo*/ #4B0082;
+    color: #EEE8AA /*palegoldenrod*/;
+    background-color: #4B0082 /*indigo*/;
     padding: 3px 6px;
 } 
     
@@ -133,10 +134,10 @@ h2 {
     font-size: large;
     font-weight: bold;
     line-height: 130%;
-    color: /*indigo*/ #4B0082;
+    color: #4B0082 /*indigo*/;
     border: 1px;
     border-style: solid;
-    border-color: /*goldenrod*/ #DAA520;
+    border-color: #DAA520 /*goldenrod*/;
     padding: 2px 5px; 
 }
 
@@ -147,7 +148,7 @@ h3 {
     color: black;
     border: 1px;
     border-style: solid;
-    border-color: /*gold*/ #FFD700;
+    border-color: #FFD700 /*gold*/;
     padding: 2px 5px; 
 }
 
@@ -163,39 +164,39 @@ h3 span:before {
 }
 
 a:link { 
-    color: /*indigo*/ #4B0082;
+    color: #4B0082 /*indigo*/;
     text-decoration: none;
 }
 
 h1 a:link { 
-    color: /*gold*/ #FFD700;
+    color: #FFD700 /*gold*/;
     text-decoration: none;
 }
 
 a:visited { 
-    color: /*indigo*/ #4B0082;
+    color: #4B0082 /*indigo*/;
     text-decoration: none;
 }
 
 h1 a:visited { 
-    color: /*gold*/ #FFD700;
+    color: #FFD700 /*gold*/;
     text-decoration: none;
 }
 
 a:hover {
-    color: /*indigo*/ #4B0082;
+    color: #4B0082 /*indigo*/;
     text-decoration: none;
-    background-color: /*palegoldenrod*/ #EEE8AA;
+    background-color: #EEE8AA /*palegoldenrod*/;
 }
 
 h1 a:hover {
-    color: /*gold*/ #FFD700;
+    color: #FFD700 /*gold*/;
     text-decoration: none;
-    background-color: /*indigo*/ #4B0082;
+    background-color: #4B0082 /*indigo*/;
 }
 
 a:active { 
-    color: /*gold*/ #FFD700;
+    color: #FFD700 /*gold*/;
     text-decoration: none;
 }
 
@@ -207,10 +208,6 @@ code {
 span {
     display: inline;
     margin-right: 1em;
-}
-
-td.button {
-    text-align: right;
 }
 
 .button a {
@@ -231,16 +228,16 @@ td.button {
 
 .button a:hover {
     padding:0 5px;
-    border:1px solid /*gold*/ #FFD700;
+    border:1px solid #FFD700 /*gold*/;
     margin-right:0em;
-    color: /*orangered*/ #FF4500;
+    color: #FF4500 /*orangered*/;
 }
 
 .button a:active {
     padding:0 5px;
-    border:1px solid /*gold*/ #FFD700;
+    border:1px solid #FFD700 /*gold*/;
     margin-right:0em;
-    color: /*gold*/ #FFD700;
+    color: #FFD700 /*gold*/;
 }
 
 td.xtag input {

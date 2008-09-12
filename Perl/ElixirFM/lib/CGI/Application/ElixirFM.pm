@@ -103,8 +103,8 @@ sub display_header ($) {
     $q->charset('utf-8');
 
     $r .= $q->start_html('-title'  => "ElixirFM 1.1 Online Interface #" . $session, '-encoding' => $q->charset(),
-			 '-meta'   => { 'keywords' => 'Arabic morphological analyzer analysis generator generation' .
-                                          'morphology lexicon dictionary lookup inflection derivation' },
+			 '-meta'   => { 'keywords' => join ' ', 'Arabic morphological analyzer analysis generator generation',
+		                        'morphology lexicon dictionary lookup inflection derivation rules grammar language' },
 			 '-style'  => [ {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/elixir.css', '-type' => 'text/css'},
                             {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/listexpander/listexpander.css', '-type' => 'text/css'} ],
 			 '-script' => [ {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/listexpander/listexpander.js', '-type' => 'text/javascript'} ]);
@@ -180,6 +180,14 @@ sub show_param ($@) {
     my $q = shift;
 
     return join '', map { '&' . $_ . '=' . $q->param($_) } @_;
+}
+
+
+sub fuzzy_fixes {
+
+    my $text = shift;
+
+    $text =~ s/(?<=[aiuAIUeoEO])sh//g;
 }
 
 
