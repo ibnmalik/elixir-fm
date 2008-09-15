@@ -12,7 +12,7 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Elixir" "FM"
+-- "ElixirFM"
 
 
 module Elixir.Lexicon.System (
@@ -273,9 +273,12 @@ x <::> y = Entry { morphs = morph x, entity = e, limits = (d, []), reflex = [] }
                     TagsConj _ -> Conj
                     TagsPart _ -> Part
                     TagsIntj _ -> Intj
+                    TagsXtra _ -> Xtra
+                    TagsYnit _ -> Ynit
                     TagsZero _ -> Zero
+                    TagsGrph _ -> Grph
 
-          d = head ((unTagsTypes . read) y ++ [TagsZero []])
+          d = head ((unTagsTypes . read) y ++ [TagsGrph []])
 
 
 infixl 6 <::>, <..>, <.>, <:>

@@ -172,6 +172,15 @@ sub retrieve {
     	$one =~ /^part/i                and push @{$tag[0]}, 'F' and next;
     	$one =~ /^int(?:er)?j/i         and push @{$tag[0]}, 'I' and next;
 
+        $one =~ /^(?:e)?xtra/i          and push @{$tag[0]}, 'X' and next;
+        $one =~ /^foreign/i             and push @{$tag[0]}, 'X' and next;
+        $one =~ /^[yu]nit/i             and push @{$tag[0]}, 'Y' and next;
+        $one =~ /^acronym/i             and push @{$tag[0]}, 'Y' and next;
+        $one =~ /^zero/i                and push @{$tag[0]}, 'Z' and next;
+        $one =~ /^null/i                and push @{$tag[0]}, 'Z' and next;
+        $one =~ /^gr(?:a)?ph/i          and push @{$tag[0]}, 'G' and next;
+        $one =~ /^symbol/i              and push @{$tag[0]}, 'G' and next;
+
     	$one =~ /^perf/i                and push @{$tag[1]}, 'P' and next;
     	$one =~ /^imp(?:er)?f/i         and push @{$tag[1]}, 'I' and next;
     	$one =~ /^imp(?:er)?a/i         and push @{$tag[1]}, 'C' and next;

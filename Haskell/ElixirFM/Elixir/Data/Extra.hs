@@ -12,7 +12,7 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Elixir"
+-- "ElixirFM"
 
 
 module Elixir.Data.Extra where

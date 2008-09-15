@@ -12,7 +12,7 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Elixir" "Encode"
+-- "ElixirFM" "Encode"
 
 {-
     FM.Generic.General -- Excerpt from the Functional Morphology library

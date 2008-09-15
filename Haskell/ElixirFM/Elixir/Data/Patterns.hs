@@ -12,7 +12,7 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Elixir"
+-- "ElixirFM" "Elixir.Template"
 
 
 module Elixir.Data.Patterns (

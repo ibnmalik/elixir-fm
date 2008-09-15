@@ -12,7 +12,7 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Elixir" "Elixir.Lexicon" "Elixir.Pretty"
+-- "ElixirFM" "Elixir.Lexicon" "Elixir.Pretty"
 
 
 module Elixir.Lexicon.Pretty.Perl (

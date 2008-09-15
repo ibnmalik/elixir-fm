@@ -12,7 +12,7 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Elixir" "FM"
+-- "ElixirFM"
 
 {-
     ElixirFM -- Implementation of Functional Arabic Morphology

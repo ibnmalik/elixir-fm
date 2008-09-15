@@ -12,7 +12,7 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Elixir" "Elixir.Template"
+-- "ElixirFM" "Elixir.Template"
 
 
 module Elixir.Data.Patterns.Quadriliteral where

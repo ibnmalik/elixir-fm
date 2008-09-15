@@ -12,7 +12,7 @@
 -- Stability   :  provisional
 -- Portability :  portable
 --
--- "Elixir" "FM"
+-- "ElixirFM"
 
 
 module Elixir.Compose where

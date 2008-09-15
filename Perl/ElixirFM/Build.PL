@@ -16,11 +16,9 @@ my $build = Module::Build->new(
     requires       => {
                            'perl'           => 5.008,
                            'Encode::Arabic' => 0,
-                           'Encode::Mapper' => 0,
     },
     build_requires => {
                            'Encode::Arabic' => 0,
-                           'Encode::Mapper' => 0,
                            'Test::More'     => 0,
     },
     add_to_cleanup      => [ 'ElixirFM-*' ],
