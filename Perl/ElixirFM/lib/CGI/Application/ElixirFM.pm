@@ -470,7 +470,7 @@ sub resolve {
 	    $q->param('code', $example[0][0]);
 
 	    $q->param('view', 'MorphoTrees View');
-	    $q->param('fuzzy', 'Fuzzy Notation');
+	    $q->param('fuzzy', '');
 	}
     }
 

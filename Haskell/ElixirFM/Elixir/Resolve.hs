@@ -402,9 +402,9 @@ instance Fuzzy String where
 
     omits = ["a", "i", "u", "A", "I", "U", "Y", "-", "N", "W", "|", "_a", "_I", "_U"]   -- ["'", "`", "q", "T"]
 
+    units ('.':z:s) | z `elem` "hsdtzgr" = ['.', z] : units s
     units ('_':z:s) | z `elem` "thdaIU"  = ['_', z] : units s
     units ('^':z:s) | z `elem` "gscznl"  = ['^', z] : units s
-    units ('.':z:s) | z `elem` "hsdtzgr" = ['.', z] : units s
     units (',':z:s) | z `elem` "c"       = [',', z] : units s
 
     units (d:zs) = [d] : units zs
