@@ -1,5 +1,5 @@
 
-module Elixir.Data.Sunny.Complex.D where
+module Elixir.Data.Sunny.Complex.D (section) where
 
 import Elixir.Lexicon
 
@@ -3174,9 +3174,9 @@ cluster_160 = cluster
 
 cluster_161 = cluster
 
- |> "l y r" <| [
+ |> "lIr" <| [
 
-    "lIr" |< aT               `noun`    {- <lIraT> -}          [ ['p','o','u','n','d'], ['l','i','r','a'] ] ]
+    _____ |< aT               `noun`    {- <lIraT> -}          [ ['p','o','u','n','d'], ['l','i','r','a'] ] ]
 
 
 cluster_162 = cluster
@@ -3213,9 +3213,9 @@ cluster_164 = cluster
     FaCY                      `verb`    {- <na'Y> -}           [ unwords [ ['b','e'], ['d','i','s','t','a','n','t'] ], unwords [ ['g','o'], ['a','w','a','y'] ] ]
                               `imperf`     FCY,
 
-    FACY                      `verb`    {- <nA'Y> -}           [ unwords [ ['k','e','e','p'], ['f','a','r'], ['a','w','a','y'] ], unwords [ ['b','e'], ['k','e','p','t'], ['f','a','r'], ['a','w','a','y'] ] ],
+    FACY                      `verb`    {- <nA'Y> -}           [ unwords [ ['k','e','e','p'], ['f','a','r'], ['a','w','a','y'] ] ],
 
-    HaFCY                     `verb`    {- <'an'Y> -}          [ ['r','e','m','o','v','e'], unwords [ ['p','l','a','c','e'], ['a','t'], "a", ['d','i','s','t','a','n','c','e'] ], unwords [ ['b','e'], ['p','l','a','c','e','d'], ['a','t'], "a", ['d','i','s','t','a','n','c','e'] ] ],
+    HaFCY                     `verb`    {- <'an'Y> -}          [ ['r','e','m','o','v','e'], unwords [ ['p','l','a','c','e'], ['a','t'], "a", ['d','i','s','t','a','n','c','e'] ] ],
 
     TaFACY                    `verb`    {- <tanA'Y> -}         [ unwords [ ['m','o','v','e'], ['a','p','a','r','t'] ], unwords [ ['b','e'], ['s','e','p','a','r','a','t','e','d'] ], unwords [ ['b','e'], ['d','i','s','t','a','n','t'] ] ],
 
@@ -3227,7 +3227,7 @@ cluster_164 = cluster
                               `plural`     HAFA'
                               `plural`     FuCY,
 
-    HaFCY                     `noun`    {- <'an'Y> -}          [ unwords [ ['f','a','r','t','h','e','r'], "/", ['f','a','r','t','h','e','s','t'], ['a','w','a','y'] ], unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['d','i','s','t','a','n','t'] ] ],
+    HaFCY                     `adj`     {- <'an'Y> -}          [ unwords [ ['f','a','r','t','h','e','r'], "/", ['f','a','r','t','h','e','s','t'], ['a','w','a','y'] ], unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['d','i','s','t','a','n','t'] ] ],
 
     MaFCY                     `noun`    {- <man'Y> -}          [ unwords [ ['d','i','s','t','a','n','t'], ['p','l','a','c','e'] ], ['a','l','o','o','f','n','e','s','s'] ]
                               `plural`     MaFCY |< At,

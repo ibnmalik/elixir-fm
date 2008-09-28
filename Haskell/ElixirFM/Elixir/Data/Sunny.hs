@@ -15,7 +15,7 @@
 -- "ElixirFM"
 
 
-module Elixir.Data.Sunny where
+module Elixir.Data.Sunny (lexicon) where
 
 
 import qualified Elixir.Data.Sunny.Complex

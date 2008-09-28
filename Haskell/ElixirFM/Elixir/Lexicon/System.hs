@@ -86,9 +86,6 @@ import Elixir.Data.Patterns
 
 -- import English
 
-import Data.Map hiding (map, null)
-import Data.List (groupBy, nub)
-
 import Version
 
 version = revised "$Revision$"

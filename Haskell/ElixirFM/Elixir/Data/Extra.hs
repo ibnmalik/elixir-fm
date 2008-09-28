@@ -15,7 +15,7 @@
 -- "ElixirFM"
 
 
-module Elixir.Data.Extra where
+module Elixir.Data.Extra (lexicon) where
 
 
 import Elixir.Lexicon

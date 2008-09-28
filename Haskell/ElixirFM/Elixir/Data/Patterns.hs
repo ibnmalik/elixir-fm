@@ -110,12 +110,12 @@ instance Rules String where
 
     prefixVerbI _ _ Passive = "u"
 
-    prefixVerbI x _ _       = "a"
+    prefixVerbI _ _ _       = "a"
 
-    prefixVerbC x   _       = "i"
+    prefixVerbC _   _       = "i"
 
 
-    isInert r x | (not . null) x && last x `elem` "AIU" = True
+    isInert _ x | (not . null) x && last x `elem` "AIU" = True
                 | otherwise                             = False
 
 

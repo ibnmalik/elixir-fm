@@ -1,5 +1,5 @@
 
-module Elixir.Data.Sunny.Foreign.A where
+module Elixir.Data.Sunny.Foreign.A (section) where
 
 import Elixir.Lexicon
 

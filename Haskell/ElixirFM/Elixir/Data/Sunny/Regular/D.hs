@@ -1,5 +1,5 @@
 
-module Elixir.Data.Sunny.Regular.D where
+module Elixir.Data.Sunny.Regular.D (section) where
 
 import Elixir.Lexicon
 
@@ -1924,7 +1924,7 @@ cluster_93  = cluster
 
  |> "rU^g" <| [
 
-    "rU^g"                    `noun`    {- <rU^g> -}           [ ['r','o','u','g','e'] ] ]
+    _____                     `noun`    {- <rU^g> -}           [ ['r','o','u','g','e'] ] ]
 
 
 cluster_94  = cluster

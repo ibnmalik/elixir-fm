@@ -1,5 +1,5 @@
 
-module Elixir.Data.Moony.Complex.A where
+module Elixir.Data.Moony.Complex.A (section) where
 
 import Elixir.Lexicon
 
@@ -1688,10 +1688,18 @@ cluster_83  = cluster
                               `plural`     KaRADiS |< aT
                               `plural`     KaRDIS |< Iy |< Un,
 
+    KaRDIS |< Iy              `noun`    {- <'afrIqIy> -}       [ ['A','f','r','i','c','a','n'] ]
+                              `plural`     KaRDIS |< Iy |< Un
+                              `plural`     KarADis |< aT
+                           
+    `derives` otherwise,
+
     MutaKaRDiS                `noun`    {- <muta'afriq> -}     [ ['A','f','r','i','c','a','n','i','z','e','d'] ]
                               `plural`     MutaKaRDiS |< Un
                            
-    `derives` otherwise ]
+    `derives` otherwise,
+
+    MutaKaRDiS                `adj`     {- <muta'afriq> -}     [ ['A','f','r','i','c','a','n','i','z','e','d'] ] ]
 
 
 cluster_84  = cluster
@@ -2092,14 +2100,6 @@ cluster_101 = cluster
 
 cluster_102 = cluster
 
- |> "'albAn" <| [
-
-    _____ |< Iy               `adj`     {- <'albAnIy> -}       [ ['A','l','b','a','n','i','a','n'] ],
-
-    _____                     `noun`    {- <'albAn> -}         [ ['A','l','b','a','n','i','a','n','s'] ] ]
-
-
-
  |> "' l b" <| [
 
     FaCaL                     `verb`    {- <'alab> -}          [ ['r','a','l','l','y'], ['a','s','s','e','m','b','l','e'], ['g','a','t','h','e','r'] ]
@@ -2245,6 +2245,11 @@ cluster_106 = cluster
 
  |> "' l h" <| [
 
+    FiCAL |< Iy               `adj`     {- <'ilAhIy> -}        [ ['d','i','v','i','n','e'], ['g','o','d','l','y'], ['t','h','e','o','l','o','g','i','c','a','l'] ],
+
+    FiCAL |< aT               `noun`    {- <'ilAhaT> -}        [ ['g','o','d'], ['d','e','i','t','y'], ['g','o','d','d','e','s','s'], unwords [ ['f','e','m','a','l','e'], ['d','e','i','t','y'] ] ]
+                              `plural`     FiCAL |< At,
+
     FaCCaL                    `verb`    {- <'allah> -}         [ ['d','e','i','f','y'] ],
 
     TaFaCCaL                  `verb`    {- <ta'allah> -}       [ unwords [ ['b','e'], ['d','e','i','f','i','e','d'] ], unwords [ ['b','e','c','o','m','e'], "a", ['d','e','i','t','y'] ] ],
@@ -2361,11 +2366,16 @@ cluster_111 = cluster
 
  |> "'almAn" <| [
 
-    _____ |< Iy               `adj`     {- <'almAnIy> -}       [ ['G','e','r','m','a','n'] ],
+    _____ |< Iy               `adj`     {- <'almAnIy> -}       [ ['G','e','r','m','a','n'] ]
+                              `plural`     _____,
 
-    _____ |< iyA              `noun`    {- <'almAniyA> -}      [ ['G','e','r','m','a','n','y'] ],
+    _____ |< Iy               `noun`    {- <'almAnIy> -}       [ ['G','e','r','m','a','n'] ]
+                              `plural`     _____
+                              `plural`     _____ |< Iy |< Un
+                           
+    `derives` otherwise,
 
-    _____                     `noun`    {- <'almAn> -}         [ ['G','e','r','m','a','n','s'] ] ]
+    _____ |< iyA              `noun`    {- <'almAniyA> -}      [ ['G','e','r','m','a','n','y'] ] ]
 
 
 
@@ -2805,9 +2815,29 @@ cluster_122 = cluster
 
 cluster_123 = cluster
 
+ |> "'amrIkAn" <| [
+
+    _____ |< Iy               `adj`     {- <'amrIkAnIy> -}     [ ['A','m','e','r','i','c','a','n'] ]
+                              `plural`     _____,
+
+    _____ |< Iy               `noun`    {- <'amrIkAnIy> -}     [ ['A','m','e','r','i','c','a','n'] ]
+                              `plural`     _____
+                              `plural`     _____ |< Iy |< Un
+                           
+    `derives` otherwise ]
+
+
+
  |> "'amrIk" <| [
 
-    _____ |< Iy               `adj`     {- <'amrIkIy> -}       [ ['A','m','e','r','i','c','a','n'] ] ]
+    _____ |<< "A"             `noun`    {- <'amrIkA> -}        [ ['A','m','e','r','i','c','a'] ],
+
+    _____ |< Iy               `adj`     {- <'amrIkIy> -}       [ ['A','m','e','r','i','c','a','n'] ],
+
+    _____ |< Iy               `noun`    {- <'amrIkIy> -}       [ ['A','m','e','r','i','c','a','n'] ]
+                              `plural`     _____ |< Iy |< Un
+                           
+    `derives` otherwise ]
 
 
 
