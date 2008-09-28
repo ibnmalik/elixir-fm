@@ -1008,7 +1008,7 @@ cluster_120 = cluster
  |> "' r _h n" <| [
 
     KaRDuS                    `noun`    {- <'ar_hun> -}        [ ['a','r','c','h','o','n'] ]
-                              `plural`     KarADiS |< aT ]
+                              `plural`     KaRADiS |< aT ]
 
 
 cluster_121 = cluster
@@ -1307,12 +1307,6 @@ cluster_154 = cluster
 
 
 cluster_155 = cluster
-
- |> "'idyUlU^giyA" <| [
-
- ]
-
-
 
  |> "'idyUlU^g" <| [
 

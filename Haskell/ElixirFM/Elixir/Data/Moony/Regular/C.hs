@@ -512,12 +512,6 @@ cluster_25  = cluster
 
 cluster_26  = cluster
 
- |> "b l .t ^g" <| [
-
- ]
-
-
-
  |> "b l .t" <| [
 
     FaCL |< aT                `noun`    {- <bal.taT> -}        [ ['a','x'] ]
@@ -607,7 +601,7 @@ cluster_30  = cluster
 
     KaRDaS |< Iy              `noun`    {- <bal^safIy> -}      [ ['B','o','l','s','h','e','v','i','s','t'] ]
                               `plural`     KaRADiS |< aT
-                              `plural`     KaRDaS |< Iy |< Um
+                              `plural`     KaRDaS |< Iy |< Un
                            
     `derives` otherwise,
 

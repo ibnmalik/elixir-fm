@@ -167,8 +167,10 @@ data PatternQ =
         |   KuRDiS          |   KuRDI
 
         |   KaRDiS          |   KaRDI
+        |   KaRDuS          |   KaRDU
 
         |   KiRDiS          |   KiRDI
+
         |   KuRDaS          |   KuRDY
         |   KuRDuS          |   KuRDU
 
@@ -191,6 +193,8 @@ data PatternQ =
         |   KaRADIS
 
         |   KuRaDSIS
+
+        |   KaRDaSS
 
 --  Form II
 

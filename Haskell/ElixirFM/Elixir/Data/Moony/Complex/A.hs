@@ -1690,7 +1690,7 @@ cluster_83  = cluster
 
     KaRDIS |< Iy              `noun`    {- <'afrIqIy> -}       [ ['A','f','r','i','c','a','n'] ]
                               `plural`     KaRDIS |< Iy |< Un
-                              `plural`     KarADis |< aT
+                              `plural`     KaRADiS |< aT
                            
     `derives` otherwise,
 

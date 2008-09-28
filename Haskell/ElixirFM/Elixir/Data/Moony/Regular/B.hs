@@ -2536,12 +2536,6 @@ cluster_168 = cluster
     _____                     `noun`    {- <bidrA.g> -}        [ ['P','e','d','r','a','g'] ] ]
 
 
-
- |> "b d r .g" <| [
-
- ]
-
-
 cluster_169 = cluster
 
  |> "b d r" <| [

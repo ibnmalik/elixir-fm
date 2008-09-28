@@ -471,12 +471,6 @@ cluster_64  = cluster
 
 cluster_65  = cluster
 
- |> "b l .g r" <| [
-
- ]
-
-
-
  |> "bul.gAr" <| [
 
     _____ |< Iy               `noun`    {- <bul.gArIy> -}      [ ['B','u','l','g','a','r','i','a','n'] ]
