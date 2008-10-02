@@ -67,7 +67,7 @@ module Elixir.Lexicon.System (
 
         imperf, pfirst, ithird, second,
 
-        gerund, plural, femini, limited, derives, entries,
+        masdar, plural, femini, limited, derives, entries,
 
         others, withRoot
 
@@ -499,7 +499,7 @@ second x y = x { entity = e { imperative = y : i } }
           i = imperative e
 
 
-gerund = const
+masdar = const
 
 
 entries :: Entry a -> [Entry a]
@@ -565,7 +565,7 @@ withRoot x y = case entity x of
 
 infixl 3 `imperf`, `pfirst`, `ithird`, `second`
 
-infixl 3 `gerund`, `plural`, `femini`, `others`, `withRoot`
+infixl 3 `masdar`, `plural`, `femini`, `others`, `withRoot`
 
 infixl 3 `limited`, `derives`
 
