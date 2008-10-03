@@ -7,5 +7,5 @@ BEGIN {
 	use_ok( 'MorphoMap' );
 }
 
-diag( "Testing ElixirFM $ElixirFM::VERSION, Perl $], $^X" );
-diag( "Testing MorphoMap $MorphoMap::VERSION, Perl $], $^X" );
+diag( "Testing ElixirFM $ElixirFM::VERSION" );
+diag( "Testing MorphoMap $MorphoMap::VERSION" );
