@@ -3,12 +3,11 @@ use warnings;
 
 use Test::More;
 
-my $version = 1.08;
-eval "use Test::Pod::Coverage $version";
-plan skip_all => "Test::Pod::Coverage $version required for testing POD coverage" if $@;
+foreach my $module ( [ 'Test::Pod::Coverage' => 1.08 ],
+                     [ 'Pod::Coverage'       => 0.18 ] ) {
 
-my $version = 0.18;
-eval "use Pod::Coverage $version";
-plan skip_all => "Pod::Coverage $version required for testing POD coverage" if $@;
+    eval "use @{$module}";
+    plan skip_all => "@{$module} required for testing POD coverage" if $@;
+}
 
 all_pod_coverage_ok();
