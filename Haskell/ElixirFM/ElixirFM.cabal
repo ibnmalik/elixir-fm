@@ -138,6 +138,7 @@ extensions:         MultiParamTypeClasses,
                     FlexibleInstances,
                     FlexibleContexts
 ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
+hugs-options:       -98 +o +u -h64M
 
 executable:         elixir
 main-is:            Exec/ElixirFM/Main.hs
@@ -238,6 +239,7 @@ other-modules:      ElixirFM,
                             Text.PrettyPrint.Leijen,
                     Version
 ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
+hugs-options:       -98 +o +u -h64M
 
 --  executable:         elixir-resolve
 --  main-is:            Exec/Resolve/Main.hs
@@ -341,3 +343,4 @@ ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecid
 --                              Text.PrettyPrint.Leijen,
 --                      Version
 --  ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
+--  hugs-options:       -98 +o +u -h64M
