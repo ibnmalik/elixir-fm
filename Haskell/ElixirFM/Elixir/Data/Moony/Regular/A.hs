@@ -1,5 +1,5 @@
 
-module Elixir.Data.Moony.Regular.A (section) where
+module Elixir.Data.Moony.Regular.A (lexicon) where
 
 import Elixir.Lexicon
 
@@ -29,8 +29,6 @@ cluster_3   = cluster
 
     _____                     `prep`    {- <ka> -}             [ ['a','s'], ['l','i','k','e'] ] ]
 
-
-
  |> "k" <| [
 
     _____                     `xtra`    {- <k> -}              [ "K", ['1','1','t','h'] ],
@@ -51,8 +49,6 @@ cluster_5   = cluster
 
     _____                     `conj`    {- <fa> -}             [ ['a','n','d'], ['s','o'] ] ]
 
-
-
  |> "f" <| [
 
     _____                     `xtra`    {- <f> -}              [ "F", ['1','7','t','h'] ],
@@ -65,8 +61,6 @@ cluster_6   = cluster
  |> "bi" <| [
 
     _____                     `prep`    {- <bi> -}             [ ['w','i','t','h'], ['b','y'] ] ]
-
-
 
  |> "b" <| [
 
@@ -1296,7 +1290,7 @@ cluster_153 = cluster
 
  |> "'aylAnd" <| [
 
-    _____                     `noun`    {- <'aylAnd> -}        [ ['I','s','l','a','n','d'] ] ]
+    _____                     `xtra`    {- <'aylAnd> -}        [ ['I','s','l','a','n','d'] ] ]
 
 
 cluster_154 = cluster

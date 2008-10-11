@@ -1,5 +1,5 @@
 
-module Elixir.Data.Sunny.Regular.G (section) where
+module Elixir.Data.Sunny.Regular.G (lexicon) where
 
 import Elixir.Lexicon
 
@@ -172,8 +172,6 @@ cluster_10  = cluster
  |> "sUd" <| [
 
     _____                     `noun`    {- <sUd> -}            [ ['S','u','d'] ] ]
-
-
 
  |> "swId" <| [
 

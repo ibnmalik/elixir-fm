@@ -1,5 +1,5 @@
 
-module Elixir.Data.Sunny.Regular.C (section) where
+module Elixir.Data.Sunny.Regular.C (lexicon) where
 
 import Elixir.Lexicon
 
@@ -69,8 +69,6 @@ cluster_5   = cluster
  |> "dUk" <| [
 
     _____                     `noun`    {- <dUk> -}            [ ['D','u','c'] ] ]
-
-
 
  |> "dUk" <| [
 
@@ -657,8 +655,6 @@ cluster_79  = cluster
                            
     `derives` otherwise ]
 
-
-
  |> "_d _h r" <| [
 
     FaCaL                     `verb`    {- <_da_har> -}        [ ['p','r','e','s','e','r','v','e'], ['s','t','o','r','e'] ]
@@ -877,8 +873,6 @@ cluster_89  = cluster
  |> "_d k r" <| [
 
     "IFtaCaL"                 `verb`    {- <i_d_dakar> -}      [ ['r','e','m','e','m','b','e','r'] ] ]
-
-
 
  |> "_d k r" <| [
 
@@ -1109,8 +1103,6 @@ cluster_101 = cluster
  |> "ta_dkar^g" <| [
 
     _____ |< Iy               `adj`     {- <ta_dkar^gIy> -}    [ unwords [ ['t','i','c','k','e','t'], ['c','l','e','r','k'] ] ] ]
-
-
 
  |> "ta_dkar" <| [
 
@@ -2219,6 +2211,9 @@ cluster_149 = cluster
 cluster_150 = cluster
 
  |> "r _h m" <| [
+
+    FaCaL                     `verb`    {- <ra_ham> -}         [ unwords [ ['b','e'], ['s','o','f','t'] ], unwords [ ['b','e'], ['g','e','n','t','l','e'] ] ]
+                              `imperf`     FCuL,
 
     FaCuL                     `verb`    {- <ra_hum> -}         [ unwords [ ['b','e'], ['s','o','f','t'] ], unwords [ ['b','e'], ['g','e','n','t','l','e'] ] ]
                               `imperf`     FCuL,

@@ -196,6 +196,8 @@ data PatternQ =
 
         |   KaRDaSS
 
+        |   KuRDuSAn
+
 --  Form II
 
         |   TaKaRDaS        |   TaKaRDY

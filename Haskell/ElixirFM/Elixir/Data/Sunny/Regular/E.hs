@@ -1,5 +1,5 @@
 
-module Elixir.Data.Sunny.Regular.E (section) where
+module Elixir.Data.Sunny.Regular.E (lexicon) where
 
 import Elixir.Lexicon
 
@@ -1739,8 +1739,6 @@ cluster_115 = cluster
  |> "zImbAbw" <| [
 
     _____ |< Iy               `adj`     {- <zImbAbwIy> -}      [ ['Z','i','m','b','a','b','w','e','a','n'] ] ]
-
-
 
  |> "zImbAbwI" <| [
 

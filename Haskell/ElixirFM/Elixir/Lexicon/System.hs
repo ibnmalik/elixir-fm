@@ -27,7 +27,7 @@ module Elixir.Lexicon.System (
 
         Wrap (..), Nest (..), Entry (..), Lexeme (..),
 
-        Lexicon, Index, Root, Reflex,
+        Lexicon, Cluster, Index, Root, Reflex,
 
         Entity (..),
 
@@ -108,13 +108,19 @@ listing = Listing
 -}
 
 
+include :: [Lexicon] -> Lexicon
+
 include = concat    -- include f = concat . map f
 
+
+cluster :: Cluster
 
 cluster = []
 
 
 type Lexicon = [Wrap Nest]
+
+type Cluster = Lexicon
 
 type Index = (Int, Int)
 
@@ -233,7 +239,10 @@ infixl 5 |>
 (|>) = flip (:)         -- (|>) x y = ((:) $! y) $! x
 
 
+-- listing = (.) (:[]) . flip const
+
 listing = const []
+
 
 (|>||<|) = const
 
@@ -321,7 +330,8 @@ domain = fst . limits
 type Plural a = Morphs a -- Either (Root, Morphs a) (Morphs a)
 
 data Entity a = Verb { form :: [Form], perfect', imperfect, imperative :: [a],
-                       justTense :: Maybe Tense, justVoice :: Maybe Voice }
+                       justTense :: Maybe Tense, justVoice :: Maybe Voice,
+                       msdr :: [Morphs a] }
               | Noun [Plural a] (Maybe Gender) (Maybe Number) (Maybe Bool)
               | Adj  [Plural a] [Morphs a]     (Maybe Number)
               | Pron
@@ -341,8 +351,8 @@ data Entity a = Verb { form :: [Form], perfect', imperfect, imperative :: [a],
 
 isVerb, isNoun, isAdj, isPron, isNum, isAdv, isPrep, isConj, isPart, isIntj :: Entity a -> Bool
 
-isVerb (Verb _ _ _ _ _ _) = True
-isVerb _                  = False
+isVerb (Verb _ _ _ _ _ _ _) = True
+isVerb _                    = False
 
 isNoun (Noun _ _ _ _) = True
 isNoun _              = False
@@ -389,7 +399,7 @@ isGrph _    = False
 
 verb :: (Morphing a b, Forming a, Rules a, Eq a) => a -> Reflex -> Entry b
 
-verb m = Entry (morph m) (Verb forms [] [] [] justT justV) (TagsVerb [], [])
+verb m = Entry (morph m) (Verb forms [] [] [] justT justV []) (TagsVerb [], [])
 
     where forms = takeOne [ f | f <- [III, I, II] ++ [IV ..], isForm f m ]
 
@@ -499,7 +509,10 @@ second x y = x { entity = e { imperative = y : i } }
           i = imperative e
 
 
-masdar = const
+masdar x y = x { entity = e { msdr = morph y : i } }
+
+    where e = entity x
+          i = msdr e
 
 
 entries :: Entry a -> [Entry a]

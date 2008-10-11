@@ -71,16 +71,23 @@ attrs y = foldl (</>) empty [ text a <> equals <> dquotes (text (escaqe v)) | (a
 nested c = nest 1 (linebreak <> c) <> linebreak
 
 
+{-
+instance Pretty (Wrap Nest) => Pretty Cluster where
+
+    pretty = element "Cluster" [] . vcat . map pretty
+-}
+
+
 instance (Pretty (Entry PatternT), Pretty (Entry PatternQ),
           Pretty (Entry String),   Pretty (Entry PatternL)) =>
           Pretty (Wrap Nest) where
 
-    pretty (WrapL (Nest r l)) = prettyNest' r l "NestL"
-    pretty (WrapT (Nest r l)) = prettyNest' r l "NestT"
-    pretty (WrapQ (Nest r l)) = prettyNest' r l "NestQ"
-    pretty (WrapS (Nest r l)) = prettyNest' r l "NestS"
+    pretty (WrapL (Nest r l)) = prettyNest' r l "Nest"
+    pretty (WrapT (Nest r l)) = prettyNest' r l "Nest"
+    pretty (WrapQ (Nest r l)) = prettyNest' r l "Nest"
+    pretty (WrapS (Nest r l)) = prettyNest' r l "Nest"
 
-prettyNest' r l t = (element "Wrap" [] . element t [])
+prettyNest' r l t = (element "Cluster" [] . element t [])
                     (elemtxt "root" [] (text r)
                                     -- (element "tex" [] (text r) <$$>
                                     --  element "ucs" [] ((text . encode UTF
@@ -112,34 +119,42 @@ escaqe = concatMap fixChar
 
 instance (Show a, Pretty (Entity a)) => Pretty (Entry a) where
 
-    pretty (Entry m e l r) = element "Entry" []
-                             (vcat [ elemtxt "morphs" [] $ pretty m,
-                                     element "entity" [] $ pretty e,
-                                     element "limits" [] $ pretty l,
-                                     elemtxt "reflex" [] $ pretty r ])
+    pretty (Entry m e l r) = (element "Entry" [] . vcat)
+                                 ([ elemtxt "morphs" [] $ pretty m,
+                                    element "entity" [] $ pretty e ]
+                                  ++ 
+                                  eraseEmpty l
+                                  [ element "limits" [] $ pretty l ]
+                                  ++   
+                                  [ elemtxt "reflex" [] $ pretty r ])
+                                  
+        where eraseEmpty x y = case x of (z, []) | z `elem` complete -> []
+                                         _                           -> y
 
     prettyList = vcat . map pretty
 
 
 instance (Show a, Pretty [a]) => Pretty (Entity a) where
 
-    pretty x = case x of    Verb f p i c t v    ->  elemesp "Verb" $
+    pretty x = case x of    Verb f p i c t v m  ->  elemesp "Verb" $
 
-            					eraseEmpty f [ elemtxt "form"   [] $ (pretty . map show) f ]
+            					eraseEmpty   f [ elemtxt "form"   [] $ (pretty . map show) f ]
                                 ++
-                                eraseEmpty p [ elemtxt "pfirst" [] $ (pretty . map show) p ]
+                                eraseEmpty   p [ elemtxt "pfirst" [] $ (pretty . map show) p ]
                                 ++
-                                eraseEmpty i [ elemtxt "imperf" [] $ (pretty . map show) i ]
+                                eraseEmpty   i [ elemtxt "imperf" [] $ (pretty . map show) i ]
                                 ++
-            					eraseEmpty c [ elemtxt "second" [] $ (pretty . map show) c ]
+            					eraseEmpty   c [ elemtxt "second" [] $ (pretty . map show) c ]
             					++
-            					eraseNothing t [ elemtxt "tense" [] $ pretty t ]
+            					eraseNothing t [ elemtxt "tense"  [] $ pretty t ]
             					++
-            					eraseNothing v [ elemtxt "voice" [] $ pretty v ]
+            					eraseNothing v [ elemtxt "voice"  [] $ pretty v ]
+                                ++
+            					eraseEmpty   m [ elemtxt "masdar" [] $ (pretty . map show) m ]
 
                             Noun l g n d        ->  elemesp "Noun" $
 
-                                eraseEmpty   l [ elemtxt "plural" [] $ pretty l ]
+                                eraseEmpty   l [ elemtxt "plural" [] $ (pretty . map show) l ]
                                 ++
                                 eraseNothing g [ elemtxt "gender" [] $ pretty g ]
                                 ++
@@ -192,6 +207,24 @@ instance Show a => Pretty (Either (Root, Morphs a) (Morphs a)) where
     prettyList xs = (nested . vcat . map pretty) xs
 
 
+instance Show a => Pretty (TagsType, [([TagsType], [Morphs a])]) where
+
+    pretty (x, y) = elemtxt "fst" [] (pretty x)
+                    <$$>
+                    elemtxt "snd" [] (pretty y)
+
+
+instance Show a => Pretty ([TagsType], [Morphs a]) where
+
+    pretty (x, y) = elemtxt "fst" [] ((pretty . map show) x)
+                    <$$>
+                    elemtxt "snd" [] ((pretty . map show) y)
+
+    prettyList []  = empty
+    prettyList [x] = pretty x
+    prettyList xyz = (nested . vcat . map (element "LM" [] . pretty)) xyz
+
+    
 instance Show a => Pretty a where
 
     pretty = text . escape . show

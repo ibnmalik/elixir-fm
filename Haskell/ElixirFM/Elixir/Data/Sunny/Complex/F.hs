@@ -1,5 +1,5 @@
 
-module Elixir.Data.Sunny.Complex.F (section) where
+module Elixir.Data.Sunny.Complex.F (lexicon) where
 
 import Elixir.Lexicon
 
@@ -210,8 +210,6 @@ cluster_9   = cluster
 
     FuCL                      `noun`    {- <.tunn> -}          [ ['t','o','n'] ]
                               `plural`     HaFCAL ]
-
-
 
  |> ".t n n" <| [
 
@@ -528,8 +526,6 @@ cluster_23  = cluster
 
     _____                     `noun`    {- <lidd> -}           [ ['L','y','d','d','a'] ] ]
 
-
-
  |> "l d d" <| [
 
     FaCL                      `verb`    {- <ladd> -}           [ unwords [ ['q','u','a','r','r','e','l'], ['w','i','t','h'] ], ['f','i','g','h','t'] ]
@@ -625,13 +621,9 @@ cluster_25  = cluster
                               `plural`     FuCUL
                               `plural`     HaFCAL ]
 
-
-
  |> "l k k" <| [
 
     FuCL                      `noun`    {- <lukk> -}           [ ['l','a','c'], ['r','e','s','i','n'] ] ]
-
-
 
  |> "l k k" <| [
 
@@ -650,13 +642,9 @@ cluster_26  = cluster
 
     _____ |<< "a"             `part`    {- <lima> -}           [ ['w','h','y'] ] ]
 
-
-
  |> "lam" <| [
 
     _____                     `part`    {- <lam> -}            [ ['n','o','t'] ] ]
-
-
 
  |> "l m m" <| [
 

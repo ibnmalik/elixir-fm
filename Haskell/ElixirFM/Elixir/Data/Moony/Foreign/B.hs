@@ -1,5 +1,5 @@
 
-module Elixir.Data.Moony.Foreign.B (section) where
+module Elixir.Data.Moony.Foreign.B (lexicon) where
 
 import Elixir.Lexicon
 
@@ -679,8 +679,6 @@ cluster_95  = cluster
 
     _____                     `xtra`    {- <'UtU> -}           [ ['O','t','t','o'] ] ]
 
-
-
  |> "'UtI" <| [
 
     _____                     `xtra`    {- <'UtI> -}           [ ['O','t','t','e','y'] ] ]
@@ -1150,8 +1148,6 @@ cluster_161 = cluster
  |> "'ilfIs" <| [
 
     _____                     `xtra`    {- <'ilfIs> -}         [ ['E','l','v','i','s'] ] ]
-
-
 
  |> "'alAfIs" <| [
 

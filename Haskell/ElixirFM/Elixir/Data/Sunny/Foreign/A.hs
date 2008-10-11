@@ -1,5 +1,5 @@
 
-module Elixir.Data.Sunny.Foreign.A (section) where
+module Elixir.Data.Sunny.Foreign.A (lexicon) where
 
 import Elixir.Lexicon
 
@@ -29,8 +29,6 @@ cluster_3   = cluster
 
     _____                     `xtra`    {- <tIm> -}            [ ['T','e','a','m'] ] ]
 
-
-
  |> "tIm" <| [
 
     _____                     `xtra`    {- <tIm> -}            [ ['T','i','m'] ] ]
@@ -42,8 +40,6 @@ cluster_4   = cluster
 
     _____                     `xtra`    {- <dUs> -}            [ ['D','O','S'] ] ]
 
-
-
  |> "dUs" <| [
 
     _____                     `xtra`    {- <dUs> -}            [ ['D','o','s'] ] ]
@@ -54,8 +50,6 @@ cluster_5   = cluster
  |> "rAm" <| [
 
     _____                     `xtra`    {- <rAm> -}            [ ['R','a','m'] ] ]
-
-
 
  |> "rAm" <| [
 
@@ -161,8 +155,6 @@ cluster_19  = cluster
 
     _____                     `xtra`    {- <^shAtIs.gAr> -}    [ ['C','h','a','t','t','i','s','g','a','r','h'] ] ]
 
-
-
  |> "^sAtIs.gAr" <| [
 
     _____                     `xtra`    {- <^sAtIs.gAr> -}     [ ['C','h','a','t','t','i','s','g','a','r','h'] ] ]
@@ -208,8 +200,6 @@ cluster_25  = cluster
  |> "ramsfild" <| [
 
     _____                     `xtra`    {- <ramsfild> -}       [ ['R','u','m','s','f','e','l','d'] ] ]
-
-
 
  |> "rAmsfild" <| [
 
@@ -380,13 +370,9 @@ cluster_48  = cluster
 
     _____                     `xtra`    {- <rUytir> -}         [ ['R','e','u','t','e','r','s'] ] ]
 
-
-
  |> "rUytirs" <| [
 
     _____                     `xtra`    {- <rUytirs> -}        [ ['R','e','u','t','e','r','s'] ] ]
-
-
 
  |> "rUytirz" <| [
 
@@ -462,8 +448,6 @@ cluster_58  = cluster
 
     _____                     `xtra`    {- <zakarIyA> -}       [ ['Z','a','k','a','r','i','y','a'], ['Z','e','c','h','a','r','i','a'] ] ]
 
-
-
  |> "zakariyA'" <| [
 
     _____                     `xtra`    {- <zakariyA'> -}      [ ['Z','a','c','h','a','r','i','a','s'], ['Z','e','c','h','a','r','i','a','h'] ] ]
@@ -481,8 +465,6 @@ cluster_60  = cluster
  |> "sAlUnIk" <| [
 
     _____                     `xtra`    {- <sAlUnIk> -}        [ ['S','a','l','o','n','i','k','a'], ['S','a','l','o','n','i','k'] ] ]
-
-
 
  |> "salAnIk" <| [
 
@@ -781,8 +763,6 @@ cluster_102 = cluster
  |> "stIfAn" <| [
 
     _____                     `xtra`    {- <stIfAn> -}         [ ['S','t','e','p','h','a','n'] ] ]
-
-
 
  |> "stIfin" <| [
 

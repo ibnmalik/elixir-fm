@@ -1,5 +1,5 @@
 
-module Elixir.Data.Sunny.Regular.D (section) where
+module Elixir.Data.Sunny.Regular.D (lexicon) where
 
 import Elixir.Lexicon
 
@@ -1968,8 +1968,6 @@ cluster_99  = cluster
 
     _____                     `noun`    {- <riyAl> -}          [ ['r','i','y','a','l'] ]
                               `plural`     _____ |< At ]
-
-
 
  |> "rUyAl" <| [
 

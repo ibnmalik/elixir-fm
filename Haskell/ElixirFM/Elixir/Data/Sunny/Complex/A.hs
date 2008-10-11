@@ -1,5 +1,5 @@
 
-module Elixir.Data.Sunny.Complex.A (section) where
+module Elixir.Data.Sunny.Complex.A (lexicon) where
 
 import Elixir.Lexicon
 
@@ -50,13 +50,9 @@ cluster_6   = cluster
 
     _____                     `xtra`    {- <'I> -}             [ ['E','.'] ] ]
 
-
-
  |> "'U" <| [
 
     _____                     `xtra`    {- <'U> -}             [ ['O','.'] ] ]
-
-
 
  |> "'ay" <| [
 
@@ -103,8 +99,6 @@ cluster_12  = cluster
  |> "'if" <| [
 
     _____                     `xtra`    {- <'if> -}            [ ['F','.'] ] ]
-
-
 
  |> "'af" <| [
 
@@ -450,8 +444,6 @@ cluster_43  = cluster
     FaCCaL                    `verb`    {- <tawwah> -}         [ ['m','i','s','l','e','a','d'], ['c','o','n','f','u','s','e'] ],
 
     FUL |< aT                 `noun`    {- <tUhaT> -}          [ ['d','a','u','g','h','t','e','r'] ] ]
-
-
 
  |> "t y h" <| [
 
@@ -994,8 +986,6 @@ cluster_78  = cluster
 
     FAL |< aT                 `noun`    {- <dAyaT> -}          [ ['m','i','d','w','i','f','e'], unwords [ ['w','e','t'], ['n','u','r','s','e'] ] ] ]
 
-
-
  |> "d ' y" <| [
 
     FAL                       `noun`    {- <dAy> -}            [ ['d','e','y'] ]
@@ -1405,8 +1395,6 @@ cluster_99  = cluster
     FuCCAL                    `noun`    {- <durrA'> -}         [ ['p','e','a','c','h'] ]
                               `plural`     FuCCAL |< At ]
 
-
-
  |> "d r '" <| [
 
     FaCaL                     `verb`    {- <dara'> -}          [ ['r','e','j','e','c','t'], ['a','v','e','r','t'], unwords [ ['w','a','r','d'], ['o','f','f'] ] ]
@@ -1486,8 +1474,6 @@ cluster_105 = cluster
     FUL                       `noun`    {- <dU^s> -}           [ ['s','h','o','w','e','r'], ['d','o','u','c','h','e'] ]
                               `plural`     FuL
                               `plural`     FUL |< At ]
-
-
 
  |> "d w ^s" <| [
 
@@ -1725,8 +1711,6 @@ cluster_125 = cluster
 
     FULAn                     `noun`    {- <dUmAn> -}          [ ['r','u','d','d','e','r'], ['h','e','l','m'] ] ]
 
-
-
  |> "d w m" <| [
 
     FACL                      `noun`    {- <dAwm> -}           [ ['D','a','u','m'] ],
@@ -1804,8 +1788,6 @@ cluster_128 = cluster
 
     FUL |<< "a"               `prep`    {- <dUna> -}           [ ['w','i','t','h','o','u','t'], ['b','e','n','e','a','t','h'], ['u','n','d','e','r','n','e','a','t','h'] ] ]
 
-
-
  |> "d w n" <| [
 
     FaCCaL                    `verb`    {- <dawwan> -}         [ ['r','e','c','o','r','d'], ['r','e','g','i','s','t','e','r'], ['c','o','l','l','e','c','t'] ],
@@ -1844,8 +1826,6 @@ cluster_129 = cluster
     FaCL |< Iy                `adj`     {- <dayrIy> -}         [ ['m','o','n','a','s','t','i','c'] ],
 
     FaCLAn |< Iy              `adj`     {- <dayrAnIy> -}       [ ['m','o','n','a','s','t','i','c'], ['m','o','n','k'] ] ]
-
-
 
  |> "d w r" <| [
 
@@ -1956,8 +1936,6 @@ cluster_129 = cluster
     MuFIL |< Iy |< aT         `noun`    {- <mudIrIyaT> -}      [ ['d','i','s','t','r','i','c','t'], ['p','r','o','v','i','n','c','e'] ],
 
     MustaFIL                  `adj`     {- <mustadIr> -}       [ ['r','o','u','n','d'], ['c','i','r','c','u','l','a','r'] ] ]
-
-
 
  |> "m d r" <| [
 
@@ -2234,8 +2212,6 @@ cluster_154 = cluster
                               `plural`     TaFaCCuL |< At,
 
     MutaFaCCiL                `adj`     {- <mutadayyin> -}     [ ['p','i','o','u','s'], ['r','e','l','i','g','i','o','u','s'] ] ]
-
-
 
  |> "d y n" <| [
 

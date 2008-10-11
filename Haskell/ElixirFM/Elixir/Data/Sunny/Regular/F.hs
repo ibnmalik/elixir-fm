@@ -1,5 +1,5 @@
 
-module Elixir.Data.Sunny.Regular.F (section) where
+module Elixir.Data.Sunny.Regular.F (lexicon) where
 
 import Elixir.Lexicon
 
@@ -710,8 +710,6 @@ cluster_32  = cluster
  |> "s b t" <| [
 
     FaCL |< aT                `noun`    {- <sabtaT> -}         [ ['C','e','u','t','a'] ] ]
-
-
 
  |> "s b t" <| [
 
@@ -2254,8 +2252,6 @@ cluster_104 = cluster
     FiCLAn                    `noun`    {- <sim`An> -}         [ ['S','i','m','o','n'] ],
 
     FuCUL                     `noun`    {- <sumU`> -}          [ ['S','u','m','u'] ] ]
-
-
 
  |> "s m `" <| [
 

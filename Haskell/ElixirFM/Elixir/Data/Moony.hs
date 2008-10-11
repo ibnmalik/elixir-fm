@@ -25,18 +25,13 @@ import qualified Elixir.Data.Moony.Regular
 
 import Elixir.Lexicon
 
-import Version
-
 version = revised "$Revision$"
 
 
 lexicon :: Lexicon
 
-lexicon = concat lexicons
+lexicon = include
 
-
-lexicons :: [Lexicon]
-
-lexicons =  [   Elixir.Data.Moony.Complex.lexicon,
+            [   Elixir.Data.Moony.Complex.lexicon,
                 Elixir.Data.Moony.Foreign.lexicon,
                 Elixir.Data.Moony.Regular.lexicon   ]

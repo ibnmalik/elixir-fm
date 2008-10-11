@@ -1,5 +1,5 @@
 
-module Elixir.Data.Moony.Complex.H (section) where
+module Elixir.Data.Moony.Complex.H (lexicon) where
 
 import Elixir.Lexicon
 
@@ -91,8 +91,6 @@ cluster_4   = cluster
 
     MUCY                      `noun`    {- <mUsY> -}           [ unwords [ ['s','t','r','a','i','g','h','t'], ['r','a','z','o','r'] ] ]
                               `plural`     MaFACI ]
-
-
 
  |> "w s y" <| [
 
@@ -1498,8 +1496,6 @@ cluster_88  = cluster
 
     FaCAL                     `noun`    {- <banAn> -}          [ unwords [ ['f','i','n','g','e','r'], ['t','i','p','s'] ] ] ]
 
-
-
  |> "b n n" <| [
 
     FuCL                      `noun`    {- <bunn> -}           [ unwords [ ['c','o','f','f','e','e'], ['b','e','a','n','s'] ] ] ]
@@ -1537,8 +1533,6 @@ cluster_91  = cluster
 
     FuCL                      `noun`    {- <burr> -}           [ ['w','h','e','a','t'] ] ]
 
-
-
  |> "b r r" <| [
 
     FaCLAn |< Iy              `adj`     {- <barrAnIy> -}       [ ['e','x','t','e','r','i','o','r'], ['e','x','t','e','r','n','a','l'] ],
@@ -1550,8 +1544,6 @@ cluster_91  = cluster
     FaCL                      `noun`    {- <barr> -}           [ ['l','a','n','d'], ['e','a','r','t','h'] ],
 
     FaCL |<< "aN"             `noun`    {- <barraN> -}         [ unwords [ ['b','y'], ['l','a','n','d'] ] ] ]
-
-
 
  |> "b r r" <| [
 
@@ -1604,8 +1596,6 @@ cluster_92  = cluster
 
     FaCL |< aT                `noun`    {- <bassaT> -}         [ ['c','a','t'] ]
                               `plural`     FiCAL ]
-
-
 
  |> "b s s" <| [
 
@@ -1668,8 +1658,6 @@ cluster_94  = cluster
 
     FuCUL                     `noun`    {- <buzUz> -}          [ ['l','i','n','e','n'], ['c','l','o','t','h'] ] ]
 
-
-
  |> "b z z" <| [
 
     FaCCAL |< aT              `noun`    {- <bazzAzaT> -}       [ ['p','a','c','i','f','i','e','r'], unwords [ ['b','a','b','y','\'','s'], ['b','o','t','t','l','e'] ] ],
@@ -1685,8 +1673,6 @@ cluster_94  = cluster
     FaCL                      `verb`    {- <bazz> -}           [ ['b','u','d'], ['b','u','r','g','e','o','n'] ]
                               `imperf`     FuCL
                               `pfirst`     FaCaL ]
-
-
 
  |> "b z z" <| [
 
@@ -1794,8 +1780,6 @@ cluster_100 = cluster
                               `plural`     FaCA'iL
                               `plural`     FuCaL ]
 
-
-
  |> "^g b b" <| [
 
     FaCL                      `verb`    {- <^gabb> -}          [ ['p','o','l','l','i','n','a','t','e'] ]
@@ -1812,8 +1796,6 @@ cluster_101 = cluster
  |> "^g d d" <| [
 
     MuFaCCiL |< Iy            `noun`    {- <mu^gaddidIy> -}    [ ['M','o','j','a','d','d','e','d','i'], ['M','u','j','a','d','d','e','d','i'] ] ]
-
-
 
  |> "^g d d" <| [
 
@@ -1945,8 +1927,6 @@ cluster_104 = cluster
  |> "^g l l" <| [
 
     FuCL                      `noun`    {- <^gull> -}          [ ['r','o','s','e'] ] ]
-
-
 
  |> "^g l l" <| [
 
@@ -2413,8 +2393,6 @@ cluster_117 = cluster
 
     FaCCaL                    `verb`    {- <.habbab> -}        [ ['e','n','d','e','a','r'], ['g','r','a','n','u','l','a','t','e'] ] ]
 
-
-
  |> ".h b b" <| [
 
     FaCL                      `verb`    {- <.habb> -}          [ ['l','o','v','e'], ['l','i','k','e'], ['w','a','n','t'] ]
@@ -2581,8 +2559,6 @@ cluster_120 = cluster
 
     FuCL |< aT                `noun`    {- <.hukkaT> -}        [ unwords [ ['s','m','a','l','l'], ['b','o','x'] ], ['j','a','r'] ]
                               `plural`     FuCaL ]
-
-
 
  |> ".h k k" <| [
 
@@ -3388,8 +3364,6 @@ cluster_139 = cluster
     FuCL                      `noun`    {- <_hunn> -}          [ unwords [ ['c','h','i','c','k','e','n'], ['c','o','o','p'] ], ['b','r','o','o','d','e','r'] ]
                               `plural`     HaFCAL ]
 
-
-
  |> "_h n n" <| [
 
     FaCL                      `verb`    {- <_hann> -}          [ ['n','a','s','a','l','i','z','e'], ['t','w','a','n','g'] ]
@@ -3945,8 +3919,6 @@ cluster_162 = cluster
 
     _____                     `noun`    {- <ta`izz> -}         [ ['T','a','i','z','z'] ] ]
 
-
-
  |> "` z z" <| [
 
     FaCL                      `verb`    {- <`azz> -}           [ unwords [ ['b','e'], ['s','t','r','o','n','g'] ], unwords [ ['b','e'], ['d','e','a','r'] ] ]
@@ -4148,8 +4120,6 @@ cluster_169 = cluster
                               `pfirst`     FaCaL,
 
     FuCL |< aT                `noun`    {- <.gubbaT> -}        [ ['g','u','l','p'] ] ]
-
-
 
  |> ".g b b" <| [
 

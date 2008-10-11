@@ -1,5 +1,5 @@
 
-module Elixir.Data.Sunny.Regular.A (section) where
+module Elixir.Data.Sunny.Regular.A (lexicon) where
 
 import Elixir.Lexicon
 
@@ -101,8 +101,6 @@ cluster_13  = cluster
 
     _____                     `part`    {- <sa> -}             [ ['w','i','l','l'], ['s','h','a','l','l'] ] ]
 
-
-
  |> "s" <| [
 
     _____                     `xtra`    {- <s> -}              [ "S", ['1','5','t','h'] ],
@@ -129,8 +127,6 @@ cluster_16  = cluster
  |> "li" <| [
 
     _____                     `prep`    {- <li> -}             [ ['f','o','r'], ['t','o'] ] ]
-
-
 
  |> "l" <| [
 
@@ -525,8 +521,6 @@ cluster_41  = cluster
  |> "t w b l" <| [
 
     KaRDaS                    `verb`    {- <tawbal> -}         [ ['s','p','i','c','e'], ['s','e','a','s','o','n'] ] ]
-
-
 
  |> "t b l" <| [
 
@@ -1503,8 +1497,6 @@ cluster_127 = cluster
  |> "t^sIl" <| [
 
     _____ |< Iy               `adj`     {- <t^sIlIy> -}        [ ['C','h','i','l','e','a','n'] ] ]
-
-
 
  |> "t^sIlI" <| [
 

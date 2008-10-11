@@ -4,18 +4,18 @@ module Elixir.Data.Moony.Foreign (lexicon) where
 import Elixir.Lexicon
 
 
-import Elixir.Data.Moony.Foreign.A as A
-import Elixir.Data.Moony.Foreign.B as B
-import Elixir.Data.Moony.Foreign.C as C
-import Elixir.Data.Moony.Foreign.D as D
+import qualified Elixir.Data.Moony.Foreign.A as A
+import qualified Elixir.Data.Moony.Foreign.B as B
+import qualified Elixir.Data.Moony.Foreign.C as C
+import qualified Elixir.Data.Moony.Foreign.D as D
 
 
 version = revised "$Revision$"
 
-lexicon = (concat . concat) chapter
+lexicon = include chapter
 
 
-chapter = [ A.section,
-            B.section,
-            C.section,
-            D.section ]
+chapter = [ A.lexicon,
+            B.lexicon,
+            C.lexicon,
+            D.lexicon ]

@@ -1,5 +1,5 @@
 
-module Elixir.Data.Sunny.Regular.B (section) where
+module Elixir.Data.Sunny.Regular.B (lexicon) where
 
 import Elixir.Lexicon
 
@@ -226,16 +226,10 @@ cluster_21  = cluster
 
  |> "_t b t" <| [
 
-    FaCAL |< Iy               `adj`     {- <_tabAtIy> -}       [ ['s','t','a','b','l','e'], ['s','t','a','t','i','c'] ],
-
-    FaCAL |< Iy |< aT         `noun`    {- <_tabAtIyaT> -}     [ ['s','t','a','b','i','l','i','t','y'] ],
-
-    FaCAL                     `noun`    {- <_tabAt> -}         [ ['r','e','l','i','a','b','i','l','i','t','y'], ['c','o','n','s','t','a','n','c','y'] ],
-
-    FaCaL                     `verb`    {- <_tabat> -}         [ unwords [ ['b','e'], ['s','t','a','b','l','e'] ], unwords [ ['b','e'], ['e','s','t','a','b','l','i','s','h','e','d'] ] ]
+    FaCuL                     `verb`    {- <_tabut> -}         [ unwords [ ['b','e'], ['f','i','r','m'] ] ]
                               `imperf`     FCuL,
 
-    FaCuL                     `verb`    {- <_tabut> -}         [ unwords [ ['b','e'], ['f','i','r','m'] ] ]
+    FaCaL                     `verb`    {- <_tabat> -}         [ unwords [ ['b','e'], ['s','t','a','b','l','e'] ], unwords [ ['b','e'], ['e','s','t','a','b','l','i','s','h','e','d'] ] ]
                               `imperf`     FCuL,
 
     FaCCaL                    `verb`    {- <_tabbat> -}        [ ['c','o','n','f','i','r','m'], ['r','e','i','n','f','o','r','c','e'] ],
@@ -245,6 +239,16 @@ cluster_21  = cluster
     TaFaCCaL                  `verb`    {- <ta_tabbat> -}      [ ['a','s','c','e','r','t','a','i','n'], ['v','e','r','i','f','y'] ],
 
     IstaFCaL                  `verb`    {- <ista_tbat> -}      [ ['v','e','r','i','f','y'], unwords [ ['s','e','e','k'], ['c','o','n','f','i','r','m','a','t','i','o','n'] ] ],
+
+    HiFCAL                    `noun`    {- <'i_tbAt> -}        [ ['c','o','n','f','i','r','m','a','t','i','o','n'], ['v','e','r','i','f','i','c','a','t','i','o','n'] ],
+
+    HiFCAL |< Iy              `adj`     {- <'i_tbAtIy> -}      [ ['c','o','n','f','i','r','m','a','t','o','r','y'] ],
+
+    FaCAL |< Iy               `adj`     {- <_tabAtIy> -}       [ ['s','t','a','b','l','e'], ['s','t','a','t','i','c'] ],
+
+    FaCAL |< Iy |< aT         `noun`    {- <_tabAtIyaT> -}     [ ['s','t','a','b','i','l','i','t','y'] ],
+
+    FaCAL                     `noun`    {- <_tabAt> -}         [ ['r','e','l','i','a','b','i','l','i','t','y'], ['c','o','n','s','t','a','n','c','y'] ],
 
     FuCUL                     `noun`    {- <_tubUt> -}         [ ['c','o','n','s','t','a','n','c','y'], ['p','e','r','m','a','n','e','n','c','e'] ],
 

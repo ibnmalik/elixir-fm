@@ -1,5 +1,5 @@
 
-module Elixir.Data.Moony.Foreign.C (section) where
+module Elixir.Data.Moony.Foreign.C (lexicon) where
 
 import Elixir.Lexicon
 
@@ -70,8 +70,6 @@ cluster_9   = cluster
  |> "'arUn" <| [
 
     _____                     `xtra`    {- <'arUn> -}          [ ['A','a','r','o','n'] ] ]
-
-
 
  |> "'ArUn" <| [
 
@@ -349,8 +347,6 @@ cluster_47  = cluster
 
     _____                     `xtra`    {- <yU> -}             [ ['Y','o'], ['Y','u'] ] ]
 
-
-
  |> "yI" <| [
 
     _____                     `xtra`    {- <yI> -}             [ ['Y','i'] ] ]
@@ -375,8 +371,6 @@ cluster_50  = cluster
  |> "yUsU" <| [
 
     _____                     `xtra`    {- <yUsU> -}           [ ['J','u','s','s','o'], ['Y','u','s','s','o'] ] ]
-
-
 
  |> "yUsI" <| [
 
@@ -423,8 +417,6 @@ cluster_56  = cluster
  |> "wIb" <| [
 
     _____                     `xtra`    {- <wIb> -}            [ ['W','e','b'] ] ]
-
-
 
  |> "wIb" <| [
 
@@ -563,8 +555,6 @@ cluster_75  = cluster
 
     _____                     `xtra`    {- <hU> -}             [ ['H','o'] ] ]
 
-
-
  |> "hU^sI" <| [
 
     _____                     `xtra`    {- <hU^sI> -}          [ unwords [ ['H','o'], ['C','h','i'] ] ] ]
@@ -645,8 +635,6 @@ cluster_86  = cluster
  |> "mI^sIl" <| [
 
     _____                     `xtra`    {- <mI^sIl> -}         [ ['M','i','c','h','e','l','l','e'] ] ]
-
-
 
  |> "mI^sIl" <| [
 
@@ -742,8 +730,6 @@ cluster_99  = cluster
  |> "mIrI" <| [
 
     _____                     `xtra`    {- <mIrI> -}           [ ['M','e','r','i'], ['M','i','r','i'] ] ]
-
-
 
  |> "mArI" <| [
 
@@ -868,8 +854,6 @@ cluster_116 = cluster
 
     _____                     `xtra`    {- <kUlIn> -}          [ ['C','o','l','e','e','n'] ] ]
 
-
-
  |> "kUlin" <| [
 
     _____                     `xtra`    {- <kUlin> -}          [ ['C','o','l','i','n'] ] ]
@@ -951,13 +935,9 @@ cluster_127 = cluster
 
     _____ |< Iy               `adj`     {- <faytUrIy> -}       [ ['F','a','i','t','o','u','r','i'], ['F','a','i','t','u','r','i'] ] ]
 
-
-
  |> "fItUr" <| [
 
     _____ |< Iy               `adj`     {- <fItUrIy> -}        [ ['F','i','t','o','u','r','i'], ['F','i','t','u','r','i'] ] ]
-
-
 
  |> "fItUr" <| [
 
@@ -1182,19 +1162,13 @@ cluster_158 = cluster
 
     _____                     `xtra`    {- <^gUzIb> -}         [ ['J','o','s','i','p'] ] ]
 
-
-
  |> "^gUzIf" <| [
 
     _____                     `xtra`    {- <^gUzIf> -}         [ ['J','o','s','e','f'] ] ]
 
-
-
  |> "^gUzif" <| [
 
     _____                     `xtra`    {- <^gUzif> -}         [ ['J','o','s','e','p','h'] ] ]
-
-
 
  |> "^gUzIh" <| [
 

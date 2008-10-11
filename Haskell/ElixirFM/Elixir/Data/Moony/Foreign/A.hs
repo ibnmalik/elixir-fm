@@ -1,5 +1,5 @@
 
-module Elixir.Data.Moony.Foreign.A (section) where
+module Elixir.Data.Moony.Foreign.A (lexicon) where
 
 import Elixir.Lexicon
 
@@ -22,13 +22,9 @@ cluster_2   = cluster
 
     _____                     `xtra`    {- <'Ubik> -}          [ ['O','P','E','C'] ] ]
 
-
-
  |> "'UbIk" <| [
 
     _____                     `xtra`    {- <'UbIk> -}          [ ['O','P','E','C'] ] ]
-
-
 
  |> "'Ubib" <| [
 
@@ -166,8 +162,6 @@ cluster_21  = cluster
  |> "'Ulimb" <| [
 
     _____ |< Iy               `adj`     {- <'UlimbIy> -}       [ ['O','l','y','m','p','i','c'] ] ]
-
-
 
  |> "'UlimbiyAd" <| [
 

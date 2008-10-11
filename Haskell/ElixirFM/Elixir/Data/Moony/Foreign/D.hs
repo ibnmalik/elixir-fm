@@ -1,5 +1,5 @@
 
-module Elixir.Data.Moony.Foreign.D (section) where
+module Elixir.Data.Moony.Foreign.D (lexicon) where
 
 import Elixir.Lexicon
 
@@ -169,8 +169,6 @@ cluster_23  = cluster
 
     _____ |< Iy               `adj`     {- <bIrUnIy> -}        [ ['B','i','r','u','n','i'], ['B','i','r','o','u','n','i'] ] ]
 
-
-
  |> "bIrUn" <| [
 
     _____                     `xtra`    {- <bIrUn> -}          [ ['P','e','r','o','n'] ] ]
@@ -188,8 +186,6 @@ cluster_25  = cluster
  |> "bIrIs" <| [
 
     _____                     `xtra`    {- <bIrIs> -}          [ ['P','e','r','e','s'] ] ]
-
-
 
  |> "bIrIz" <| [
 

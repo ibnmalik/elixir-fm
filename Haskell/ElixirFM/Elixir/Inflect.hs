@@ -178,7 +178,7 @@ instance Inflect Lexeme TagsVerb where
 
           inEntry = case entity e of
 
-              Verb fs is _ _ jt jv
+              Verb fs is _ _ jt jv _
 
                 | maybe False (/= v) jv || maybe False (/= Perfect) jt -> []
 
@@ -226,7 +226,7 @@ instance Inflect Lexeme TagsVerb where
 
           inEntry = case entity e of
 
-              Verb fs _ is _ jt jv
+              Verb fs _ is _ jt jv _
 
                 | maybe False (/= v) jv || maybe False (== Perfect) jt -> []
 
@@ -291,7 +291,7 @@ instance Inflect Lexeme TagsVerb where
 
           inEntry = case entity e of
 
-              Verb fs _ ys is jt jv
+              Verb fs _ ys is jt jv _
 
                 | maybe False (/= Active) jv || maybe False (== Perfect) jt -> Left []
 
@@ -661,7 +661,7 @@ inflectVerb (Lexeme r e) x@(VerbP   v p g n) = paradigm (paraVerbP p g n)
 
           inEntry = case entity e of
 
-              Verb fs is _ _ jt jv
+              Verb fs is _ _ jt jv _
 
                 | maybe False (/= v) jv || maybe False (/= Perfect) jt -> []
 
@@ -696,7 +696,7 @@ inflectVerb (Lexeme r e) x@(VerbI m v p g n) = paradigm (paraVerbI m p g n)
 
           inEntry = case entity e of
 
-              Verb fs _ is _ jt jv
+              Verb fs _ is _ jt jv _
 
                 | maybe False (/= v) jv || maybe False (== Perfect) jt -> []
 
@@ -750,7 +750,7 @@ inflectVerb (Lexeme r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
 
           inEntry = case entity e of
 
-              Verb fs _ ys is jt jv
+              Verb fs _ ys is jt jv _
 
                 | maybe False (/= Active) jv || maybe False (== Perfect) jt -> []
 
