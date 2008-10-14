@@ -131,13 +131,14 @@ extensions:         MultiParamTypeClasses,
                     ExistentialQuantification,
                     --  PolymorphicComponents,
                     RankNTypes,
+                    PatternSignatures,
                     OverlappingInstances,
                     --  IncoherentInstances,
                     UndecidableInstances,
                     TypeSynonymInstances,
                     FlexibleInstances,
                     FlexibleContexts
-ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
+ghc-options:        -O0
 hugs-options:       -98 +o +u -h64M
 
 executable:         elixir
@@ -238,7 +239,19 @@ other-modules:      ElixirFM,
                         --  Text.PrettyPrint,
                             Text.PrettyPrint.Leijen,
                     Version
-ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
+extensions:         MultiParamTypeClasses,
+                    FunctionalDependencies,
+                    ExistentialQuantification,
+                    --  PolymorphicComponents,
+                    RankNTypes,
+                    PatternSignatures,
+                    OverlappingInstances,
+                    --  IncoherentInstances,
+                    UndecidableInstances,
+                    TypeSynonymInstances,
+                    FlexibleInstances,
+                    FlexibleContexts
+ghc-options:        -O0
 hugs-options:       -98 +o +u -h64M
 
 --  executable:         elixir-resolve
@@ -342,5 +355,17 @@ hugs-options:       -98 +o +u -h64M
 --                          --  Text.PrettyPrint,
 --                              Text.PrettyPrint.Leijen,
 --                      Version
---  ghc-options:        -fglasgow-exts -fallow-overlapping-instances -fallow-undecidable-instances
+--  extensions:         MultiParamTypeClasses,
+--                      FunctionalDependencies,
+--                      ExistentialQuantification,
+--                      --  PolymorphicComponents,
+--                      RankNTypes,
+--                      PatternSignatures,
+--                      OverlappingInstances,
+--                      --  IncoherentInstances,
+--                      UndecidableInstances,
+--                      TypeSynonymInstances,
+--                      FlexibleInstances,
+--                      FlexibleContexts
+--  ghc-options:        -O0
 --  hugs-options:       -98 +o +u -h64M
