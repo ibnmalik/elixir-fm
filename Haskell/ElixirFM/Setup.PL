@@ -1,6 +1,8 @@
+#! env perl
+
 # ###################################################################### Otakar Smrz, 2007/09/29
 #
-# Building ElixirFM-Exec #######################################################################
+# Building ElixirFM ############################################################################
 
 # $Id$
 
@@ -16,8 +18,10 @@ sub path ($) {
     return File::Spec->join(split ' ', $_[0]);
 }
 
-    $DdotsElixirFMExecbin = path "... ElixirFM-Exec bin";
+    $DdotsElixirFMExecbin = path "... ElixirFM bin";
 
+    $Ddots = path "...";
+    
     $Dbin = path ". bin";
     $Ddoc = path ". doc";
 
@@ -27,7 +31,7 @@ sub path ($) {
     $\ = "\n";
 
 
-    $file = path ". ElixirFM-Exec.cabal";
+    $file = path ". ElixirFM.cabal";
 
     open C, '<', $file or die "Cannot open " . $file . "!\n";
 
@@ -59,76 +63,62 @@ sub path ($) {
 
     print "Removing ...";
 
-    foreach $file ((glob path "ElixirFM-Exec doc elixir *"),
-                  #(glob path "ElixirFM-Exec doc elixir-resolve *"),
-                  #(glob path "ElixirFM-Exec doc elixir-inflect *"),
-                   (glob path "ElixirFM-Exec doc *"),
-                   (glob path "ElixirFM-Exec bin *"),
-                   (glob path "ElixirFM-Exec *")) {
+    foreach $file ((glob path "ElixirFM doc elixir *"),
+                  #(glob path "ElixirFM doc elixir-resolve *"),
+                  #(glob path "ElixirFM doc elixir-compose *"),
+                   (glob path "ElixirFM doc *"),
+                   (glob path "ElixirFM bin *"),
+                   (glob path "ElixirFM *")) {
 
         print '  <- ' . $file;
 
         unlink $file;
     }
 
-    rmdir path "ElixirFM-Exec doc elixir";
-   #rmdir path "ElixirFM-Exec doc elixir-resolve";
-   #rmdir path "ElixirFM-Exec doc elixir-inflect";
-    rmdir path "ElixirFM-Exec doc";
-    rmdir path "ElixirFM-Exec bin";
-    rmdir path "ElixirFM-Exec";
+    rmdir path "ElixirFM doc elixir";
+   #rmdir path "ElixirFM doc elixir-resolve";
+   #rmdir path "ElixirFM doc elixir-compose";
+    rmdir path "ElixirFM doc";
+    rmdir path "ElixirFM bin";
+    rmdir path "ElixirFM";
 
-    die "Remove the " . ( path "dist ElixirFM-Exec" ). " directory first!\n" if -d "ElixirFM-Exec";
+    die "Remove the " . ( path "dist ElixirFM" ). " directory first!\n" if -d "ElixirFM";
 
-    mkdir path "ElixirFM-Exec";
-    mkdir path "ElixirFM-Exec bin";
-    mkdir path "ElixirFM-Exec doc";
-   #mkdir path "ElixirFM-Exec doc elixir-inflect";
-   #mkdir path "ElixirFM-Exec doc elixir-resolve";
-    mkdir path "ElixirFM-Exec doc elixir";
+    mkdir path "ElixirFM";
+    mkdir path "ElixirFM bin";
+    mkdir path "ElixirFM doc";
+   #mkdir path "ElixirFM doc elixir-compose";
+   #mkdir path "ElixirFM doc elixir-resolve";
+    mkdir path "ElixirFM doc elixir";
 
 
     print "Changing directory: ..";
     chdir "..";
 
 
-    system "runhaskell Setup.hs configure @ARGV";
+    @param = @ARGV ? @ARGV : '--user';             # override with '--global'
+    
+    system "runhaskell Setup.hs configure @param";
     system "runhaskell Setup.hs build";
+    system "runhaskell Setup.hs haddock";
+    system "runhaskell Setup.hs install";
 
-   #chdir "./Inflect";
+    system "runhaskell Setup.hs sdist";
 
-   #system "runhaskell Setup.hs configure";
-   #system "runhaskell Setup.hs haddock";
-
-   #chdir "..";
-
-   #chdir "./Resolve";
-
-   #system "runhaskell Setup.hs configure";
-   #system "runhaskell Setup.hs haddock";
-
-   #chdir "..";
-
-    system $^O eq 'MSWin32' ? "runhugs -98 Setup.hs configure"
-                            : "runhaskell Setup.hs configure @ARGV";
-
-    system $^O eq 'MSWin32' ? "runhugs -98 Setup.hs sdist"
-                            : "runhaskell Setup.hs sdist";
+#   system $^O eq 'MSWin32' ? "runhugs -98 Setup.hs sdist"
+#                           : "runhaskell Setup.hs sdist";
 
 
     print "Changing directory: dist";
     chdir "dist";
 
 
-    $path = path "ElixirFM-Exec bin";
+    $path = path "ElixirFM bin";
 
     print $path;
 
-   #@execs = $^O eq 'MSWin32' ? (path "build elixir-inflect elixir-inflect.exe", path "build elixir-resolve elixir-resolve.exe")
-   #                          : (path "build elixir-inflect elixir-inflect",     path "build elixir-resolve elixir-resolve");
-
-   #@execs = $^O eq 'MSWin32' ? (path "build elixir-resolve elixir-resolve.exe")
-   #                          : (path "build elixir-resolve elixir-resolve");
+   #@execs = $^O eq 'MSWin32' ? (path "build elixir-compose elixir-compose.exe", path "build elixir-resolve elixir-resolve.exe")
+   #                          : (path "build elixir-compose elixir-compose",     path "build elixir-resolve elixir-resolve");
 
     @execs = $^O eq 'MSWin32' ? (path "build elixir elixir.exe")
                               : (path "build elixir elixir");
@@ -141,23 +131,11 @@ sub path ($) {
     }
 
 
-   #$path = path "ElixirFM-Exec doc elixir-inflect";
-
-   #print $path;
-
-   #foreach $file (glob path ".. Inflect dist doc html *") {
-
-   #    print '  <- ' . $file;
-
-   #    move $file, $path;
-   #}
-
-
-    $path = path "ElixirFM-Exec doc elixir";
+    $path = path "ElixirFM doc elixir";
 
     print $path;
 
-    foreach $file (glob path ".. ElixirFM dist doc html *") {
+    foreach $file (glob path "doc html *") {
 
         print '  <- ' . $file;
 
@@ -165,25 +143,16 @@ sub path ($) {
     }
 
 
-   #rmdir path ".. Inflect dist doc html";
-   #rmdir path ".. Inflect dist doc";
-   #rmdir path ".. Inflect dist build";
-   #rmdir path ".. Inflect dist";
-
-   #rmdir path ".. Resolve dist doc html";
-   #rmdir path ".. Resolve dist doc";
-   #rmdir path ".. Resolve dist build";
-   #rmdir path ".. Resolve dist";
-
     rmdir path ".. ElixirFM dist doc html";
     rmdir path ".. ElixirFM dist doc";
     rmdir path ".. ElixirFM dist build";
     rmdir path ".. ElixirFM dist";
 
-    copy path ".. LICENSE", path "ElixirFM-Exec";
+    
+    copy path ".. LICENSE", path "ElixirFM";
 
 
-    open S, '>', path "ElixirFM-Exec SOURCE";
+    open S, '>', path "ElixirFM SOURCE";
 
     print S << "SOURCE";
 
@@ -203,13 +172,11 @@ SOURCE
     close S;
 
 
-    open I, '>', path "ElixirFM-Exec INSTALL";
+    open I, '>', path "ElixirFM INSTALL";
 
     print I << "INSTALL";
 
-INSTALLATION INSTRUCTIONS
-
-This package is a $^O-built version of the "ElixirFM-Exec-$ver" library:
+This package includes the $^O-built executables of the "ElixirFM-$ver" library:
 
     $url
 
@@ -225,7 +192,7 @@ either  execute the programs from within the $Dbin directory
         is already included in the PATH environment variable
 
     or  extend the setting of the PATH variable with $DdotsElixirFMExecbin,
-        where ... stand for the actual path to the unpacked distribution
+        where $Ddots stands for the actual path to the unpacked distribution
 
 If experiencing problems, please contact the maintainer of the software:
 
@@ -240,12 +207,12 @@ INSTALL
 
     $name = "ElixirFM-Exec-" . $ver . "-built-" . $^O;
 
-    system "tar -cf " . $name . ".tar" . " ElixirFM-Exec";
+    system "tar -cf " . $name . ".tar" . " ElixirFM";
 
     system "gzip -9 " . $name . ".tar";
 
     print "Done with " . $name . ".tar.gz";
 
-    system "zip -r " . $name . ".zip" . " ElixirFM-Exec";
+    system "zip -r " . $name . ".zip" . " ElixirFM";
 
     print "Done with " . $name . ".zip";
