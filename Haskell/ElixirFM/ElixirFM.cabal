@@ -9,7 +9,7 @@ maintainer:         otakar.smrz mff.cuni.cz
 homepage:           http://ufal.mff.cuni.cz/~smrz/
 package-url:        http://sourceforge.net/projects/elixir-fm/
 category:           Various
-build-depends:      Encode, Cabal, base, containers, wl-pprint
+build-depends:      Encode, Cabal, base, containers
 synopsis:           Functional Arabic Morphology
 description:        The "ElixirFM" library implements a computational model of the morphological
                     processes in Arabic. Both the library and the model have been designed by
