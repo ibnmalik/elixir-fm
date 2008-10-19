@@ -22,7 +22,7 @@ module Elixir.Lexicon (
         module Elixir.Lexicon.System,
 
         module Elixir.Lexicon.Pretty,
-            
+
         module Version
 
     ) where

@@ -24,14 +24,103 @@ import Elixir.Template
 
 import Elixir.Lexicon
 
-import Data.List (isPrefixOf)
+import Data.List (nub)
 
 
 class Derive m p where
 
-    derive :: (Forming a, Morphing a a, Morphing (Morphs a) a, Rules a) => m a -> p -> [m a]
+    derive :: (Forming a, Morphing a a, Morphing (Morphs a) a, Rules a) => m a -> p -> [Lexeme a]
 
 
+instance Derive Lexeme String where
+
+    derive x y = derive x u
+
+        where u = (unTagsTypes . read) y
+
+
+instance Derive Lexeme a => Derive Lexeme [a] where
+
+    derive x y = [ z | i <- y, z <- derive x i ]
+
+
+instance Derive Lexeme TagsTypes where
+
+    derive x (TagsTypes y) = derive x y
+
+
+instance Derive Lexeme TagsType where
+
+    derive x y = case y of
+
+        TagsVerb z ->  derive x (reduce z)
+        TagsNoun z ->  derive x (reduce z)
+        TagsAdj  z ->  derive x (reduce z)
+        _          ->  []
+
+        where reduce (x : _) = [x]
+              reduce []      = []
+
+
+instance Derive Lexeme TagsVerb where
+
+ -- derive (Lexeme r e) x | (not . isVerb) (entity e) = []
+
+    derive (Lexeme r e) x = [ z | f <- [I ..],
+
+            let ws = lookNoun (morphs e) 'V' (nounStems f r),
+
+            w <- nub ws,
+
+            let z = Lexeme r (unmorphs w `verb` (reflex e)) ]
+
+        where unmorphs (Morphs t _ _) = t
+
+
+instance Derive Lexeme TagsNoun where
+
+ -- derive (Lexeme r e) x | (not . isNoun) (entity e) = []
+
+    derive (Lexeme r e) x | isVerb (entity e) && (not . null) ws = [ z |
+
+                            w <- ws,
+
+                            let z = Lexeme r (w `noun` (reflex e)) ]
+
+            where ws = msdr (entity e)
+
+    derive (Lexeme r e) x = [ z | f <- [I ..],
+
+            let ws = lookNoun (morphs e) 'N' (nounStems f r),
+
+            w <- nub ws,
+
+            let z = Lexeme r (w `noun` (reflex e)) ]
+
+
+instance Derive Lexeme TagsAdj where
+
+ -- derive (Lexeme r e) x | (not . isAdj) (entity e) = []
+
+    derive (Lexeme r e) x@(TagsAdjA _ v _ _ _ _) = [ z |
+
+            let v' = vals v,
+
+            v <- v', f <- [I ..],
+
+            let ws = lookNoun (morphs e) (show' v) (nounStems f r),
+
+            w <- nub ws,
+
+            let z = Lexeme r (w `adj` (reflex e)) ]
+
+
+instance Derive Lexeme a => Derive Entry a where
+
+    derive x = derive (Lexeme "f ` l" x)
+
+
+{-
 instance Derive Lexeme String where
 
     derive x@(Lexeme r e) y | "V" `isPrefixOf` y = m 'V' (verb . unmorph)
@@ -45,6 +134,7 @@ instance Derive Lexeme String where
         where l c = concat [ lookNoun (morphs e) c (nounStems f r) | f <- [I ..] ]
               m c f = map (\ m -> Lexeme r (m `f` [])) (l c)
               unmorph (Morphs t p s) = t
+-}
 
 
 -- map (map (map (uncurry merge) . snd)) [ inflect x "N------S-I" | x <- derive (Lexeme "^g r b" $ FaCCaL `verb` []) "N" ]

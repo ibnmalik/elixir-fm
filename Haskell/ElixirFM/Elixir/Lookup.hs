@@ -32,7 +32,7 @@ import Data.List (isInfixOf)
 import Data.List hiding (lookup)
 
 import Prelude hiding (lookup)
-    
+
 
 class Lookup a where
 
@@ -119,12 +119,12 @@ lookupEntry' z w r es = [ wrap (Lexeme r (const e z)) | e <- es, let m = morphs 
 
 
 instance Show a => Lookup (Morphs a) where
-                           
+
     lookup x y = [ z | w <- y, z <- wraps lookup' w ]
 
         where lookup' (Nest r l) = [ Nest r [e] | e <- l,
                                      (" " ++ show x ++ " ") `isInfixOf` (" " ++ (show . morphs) e ++ " ") ]
-    
+
 
 instance (Morphing a b, Show b) => Lookup a where
 

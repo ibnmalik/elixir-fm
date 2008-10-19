@@ -1100,10 +1100,20 @@ cluster_113 = cluster
                               `imperf`     FCiL
                               `imperf`     FCuL,
 
+    FiCiLL |< aT              `noun`    {- <^gibillaT> -}      [ ['d','i','s','p','o','s','i','t','i','o','n'], ['t','e','m','p','e','r'] ]
+                              `plural`     FiCiLL |< At,
+
     FiCL |< aT                `noun`    {- <^giblaT> -}        [ ['d','i','s','p','o','s','i','t','i','o','n'], ['t','e','m','p','e','r'] ]
                               `plural`     FiCL |< At ]
 
  |> "^g b l" <| [
+
+    FaCaLAy |< aT             `noun`    {- <^gabalAyaT> -}     [ ['g','r','o','t','t','o'], ['c','a','v','e'] ]
+                              `plural`     FaCaLAy |< At,
+
+    FaCaLA' |< Iy             `adj`     {- <^gabalA'Iy> -}     [ ['G','a','b','a','l','a','w','i'] ],
+
+    FaCaLA' |< Iy             `adj`     {- <^gabalA'Iy> -}     [ ['m','o','u','n','t','a','i','n','e','e','r'] ],
 
     FaCaL                     `noun`    {- <^gabal> -}         [ ['m','o','u','n','t','a','i','n'] ]
                               `plural`     HaFCAL
@@ -1276,9 +1286,11 @@ cluster_116 = cluster
 
     MuFCaL                    `adj`     {- <mu^gbar> -}        [ ['f','o','r','c','e','d'], ['c','o','m','p','e','l','l','e','d'] ],
 
+    FuCLAn                    `noun`    {- <^gubrAn> -}        [ ['G','i','b','r','a','n'], ['J','u','b','r','a','n'] ],
+
     MutaFaCCiL                `adj`     {- <muta^gabbir> -}    [ ['t','y','r','a','n','t'] ],
 
-    FuCLAn                    `noun`    {- <^gubrAn> -}        [ ['G','i','b','r','a','n'], ['J','u','b','r','a','n'] ] ]
+    FaCaL |<< "Ut"            `noun`    {- <^gabarUt> -}       [ ['o','m','n','i','p','o','t','e','n','c','e'], ['m','i','g','h','t'] ] ]
 
 
 cluster_117 = cluster

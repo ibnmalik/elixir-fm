@@ -401,16 +401,16 @@ verb :: (Morphing a b, Forming a, Rules a, Eq a) => a -> Reflex -> Entry b
 
 verb m = Entry (morph m) (Verb forms [] [] [] justT justV []) (TagsVerb [], [])
 
-    where forms = takeOne [ f | f <- [III, I, II] ++ [IV ..], isForm f m ]
+    where forms = reduce [ f | f <- [III, I, II] ++ [IV ..], isForm f m ]
 
-          --              [ f | f <- [I ..], isForm f m ]
+          --             [ f | f <- [I ..], isForm f m ]
 
           -- [ (f, t) | r <- ["F C C", "F C L","w C L", "r ' y"], f <- [I ..],
           --            (_, x :: PatternT, _, _, _) <- verbStems f r, t <- [I ..],
           --            isForm t x, t /= f ]
 
-          takeOne (x:_) = [x]
-          takeOne []    = []
+          reduce (x : _) = [x]
+          reduce []      = []
 
           stems I = concat [ verbStems I r | r <- ["F C C", "F C L",
                                                    "w C L", "r ' y"] ]

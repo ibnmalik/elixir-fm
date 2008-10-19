@@ -371,6 +371,8 @@ instance Forming a => Forming (Morphs a) where
 
 instance Rules a => Rules (Morphs a) where
 
+    isForm f (Morphs t _ _) = isForm f t
+
     isInert r (Morphs t _ s) = case s of []             -> isInert r t
                                          Suffix "A" : _ -> True
                                          _              -> False

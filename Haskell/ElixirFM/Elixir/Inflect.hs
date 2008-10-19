@@ -64,7 +64,8 @@ instance (Show a, Template a) => Pretty (Tag, [(Root, Morphs a)]) where
                               vcat [ encloseText [merge u v, show u, show v] | (u, v) <- y ])
 
 
-inflectDerive :: (Morphing a a, Forming a, Rules a, Derive b c, Inflect b c) => b a -> c -> [[(Tag, [(Root, Morphs a)])]]
+inflectDerive :: (Morphing a a, Forming a, Rules a, Derive b c, Inflect Lexeme c) =>
+                 b a -> c -> [[(Tag, [(Root, Morphs a)])]]
 
 inflectDerive x y = [ inflect z y | z <- derive x y ]
 
@@ -142,7 +143,7 @@ instance Inflect Lexeme TagsTypes where
 
 instance Inflect Lexeme TagsType where
 
-    inflect x@(Lexeme r e) y = case y of
+    inflect x y = case y of
 
         TagsVerb z ->  inflect x z
         TagsNoun z ->  inflect x z
@@ -274,8 +275,8 @@ instance Inflect Lexeme TagsVerb where
 
             let z = paradigm (paraVerbI m p g n) ]
 
-        where reduce f (x, y) = case s of Suffix "" : q@(Suffix ('-' : _ ) : _ ) -> Morphs t p q
-                                          _                                      -> m
+        where reduce f (x, y) = case s of Suffix "" : q@(Suffix ('-' : _) : _) -> Morphs t p q
+                                          _                                    -> m
 
                   where m@(Morphs t p s) = f x y
 
@@ -338,8 +339,8 @@ instance Inflect Lexeme TagsVerb where
 
             let z = paradigm (paraVerbC g n) ]
 
-        where reduce f (x, y) = case s of Suffix "" : q@(Suffix ('-' : _ ) : _ ) -> Morphs t p q
-                                          _                                      -> m
+        where reduce f (x, y) = case s of Suffix "" : q@(Suffix ('-' : _) : _) -> Morphs t p q
+                                          _                                    -> m
 
                   where m@(Morphs t p s) = f x y
 
@@ -631,12 +632,12 @@ instance Inflect Lexeme String where
 
     inflect x@(Lexeme r e) y = inflect x (restrict (domain e) u)
 
-                where u = (unTagsTypes . read) y
+        where u = (unTagsTypes . read) y
 
 
 instance Inflect Lexeme a => Inflect Lexeme [a] where
 
-    inflect x y = concat [ inflect x i | i <- y ]
+    inflect x y = [ z | i <- y, z <- inflect x i ]
 
     -- inflect x = concat . map (inflect x)
     -- inflect = (.) concat . map . inflect
@@ -685,8 +686,8 @@ inflectVerb (Lexeme r e) x@(VerbI m v p g n) = paradigm (paraVerbI m p g n)
 
     where paradigm p = map ((,) r . reduce p) inEntry
 
-          reduce f (x, y) = case s of Suffix "" : q@(Suffix ('-' : _ ) : _ ) -> Morphs t p q
-                                      _                                      -> m
+          reduce f (x, y) = case s of Suffix "" : q@(Suffix ('-' : _) : _) -> Morphs t p q
+                                      _                                    -> m
 
               where m@(Morphs t p s) = f x y
 
@@ -739,8 +740,8 @@ inflectVerb (Lexeme r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
 
     where paradigm p = map ((,) r . reduce p) inEntry
 
-          reduce f (x, y) = case s of Suffix "" : q@(Suffix ('-' : _ ) : _ ) -> Morphs t p q
-                                      _                                      -> m
+          reduce f (x, y) = case s of Suffix "" : q@(Suffix ('-' : _) : _) -> Morphs t p q
+                                      _                                    -> m
 
               where m@(Morphs t p s) = f x y
 

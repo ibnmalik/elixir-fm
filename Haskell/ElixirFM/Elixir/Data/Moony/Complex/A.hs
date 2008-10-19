@@ -1569,7 +1569,7 @@ cluster_77  = cluster
 
     MuFaCCI                   `adj`     {- <mu'addI> -}        [ ['l','e','a','d','i','n','g'], ['c','a','u','s','i','n','g'] ],
 
-    MuFaCCY                   `adj`     {- <mu'addY> -}        [ ['t','a','s','k'], ['c','o','n','t','e','n','t'], ['s','i','g','n','i','f','i','c','a','n','c','e'] ] ]
+    MuFaCCY                   `noun`    {- <mu'addY> -}        [ ['t','a','s','k'], ['c','o','n','t','e','n','t'], ['s','i','g','n','i','f','i','c','a','n','c','e'] ] ]
 
 
 cluster_78  = cluster

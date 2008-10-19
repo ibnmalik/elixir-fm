@@ -122,12 +122,12 @@ instance (Show a, Pretty (Entity a)) => Pretty (Entry a) where
     pretty (Entry m e l r) = (element "Entry" [] . vcat)
                                  ([ elemtxt "morphs" [] $ pretty m,
                                     element "entity" [] $ pretty e ]
-                                  ++ 
+                                  ++
                                   eraseEmpty l
                                   [ element "limits" [] $ pretty l ]
-                                  ++   
+                                  ++
                                   [ elemtxt "reflex" [] $ pretty r ])
-                                  
+
         where eraseEmpty x y = case x of (z, []) | z `elem` complete -> []
                                          _                           -> y
 
@@ -224,7 +224,7 @@ instance Show a => Pretty ([TagsType], [Morphs a]) where
     prettyList [x] = pretty x
     prettyList xyz = (nested . vcat . map (element "LM" [] . pretty)) xyz
 
-    
+
 instance Show a => Pretty a where
 
     pretty = text . escape . show
@@ -251,6 +251,15 @@ instance (Pretty (Lexeme PatternT), Pretty (Lexeme PatternQ),
     pretty (WrapL y) = text "WrapL" <+> pretty y
 
 
+instance Pretty (Lexeme a) => Pretty [Lexeme a] where
+
+    pretty = vcat . punctuate linebreak . map pretty
+
+
 instance Pretty (Entry a) => Pretty (Lexeme a) where
 
-    pretty (Lexeme r e) = (squotes . text) r <+> pretty e
+    pretty (Lexeme r e) = (element "Lexeme" [])
+                            (elemtxt "root" [] (text r)
+                             <$$>
+                             element "core" [] (pretty e))
+

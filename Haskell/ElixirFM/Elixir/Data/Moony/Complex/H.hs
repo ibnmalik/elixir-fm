@@ -2647,6 +2647,8 @@ cluster_121 = cluster
                               `plural`     MaFaCL |< At
                               `plural`     MaFACL,
 
+    HiFCIL                    `noun`    {- <'i.hlIl> -}        [ ['u','r','e','t','h','r','a'] ],
+
     MaFaCL |< Iy              `adj`     {- <ma.hallIy> -}      [ ['l','o','c','a','l'], ['l','o','c','a','l','l','y'] ],
 
     MaFaCL |< aT              `noun`    {- <ma.hallaT> -}      [ unwords [ ['w','a','y'], ['s','t','a','t','i','o','n'] ], ['s','t','o','p','o','v','e','r'] ],
