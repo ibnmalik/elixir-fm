@@ -62,12 +62,12 @@ exportFilePretty x y = do h <- openFile x WriteMode
 
 singleline :: (a -> Doc) -> [a] -> Doc
 
-singleline f = foldr ((<> linebreak <>) . f) empty
+singleline f = foldr ((<>) . (<> linebreak) . f) empty
 
 
 doubleline :: (a -> Doc) -> [a] -> Doc
 
-doubleline f = foldr ((<> linebreak <>) . (<> linebreak) . f) empty
+doubleline f = foldr ((<>) . (<> linebreak) . (<> linebreak) . f) empty
 
 
 encloseText :: [String] -> Doc

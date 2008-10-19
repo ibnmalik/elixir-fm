@@ -258,8 +258,6 @@ instance Pretty (Lexeme a) => Pretty [Lexeme a] where
 
 instance Pretty (Entry a) => Pretty (Lexeme a) where
 
-    pretty (Lexeme r e) = (element "Lexeme" [])
-                            (elemtxt "root" [] (text r)
-                             <$$>
-                             element "core" [] (pretty e))
-
+    pretty (Lexeme r e) = element "Lexeme" [] (elemtxt "root" [] (text r)
+                                               <$$>
+                                               element "core" [] (pretty e))

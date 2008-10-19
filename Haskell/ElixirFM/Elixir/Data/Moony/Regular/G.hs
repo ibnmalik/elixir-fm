@@ -1609,10 +1609,6 @@ cluster_126 = cluster
 
 cluster_127 = cluster
 
- |> "^gamAykA" <| [
-
- ]
-
  |> "^gamAyk" <| [
 
     _____ |<< "A"             `noun`    {- <^gamAykA> -}       [ ['J','a','m','a','i','c','a'] ],
