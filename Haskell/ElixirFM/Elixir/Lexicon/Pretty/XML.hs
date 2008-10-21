@@ -164,9 +164,9 @@ instance (Show a, Pretty [a]) => Pretty (Entity a) where
 
                             Adj  l f n          ->  elemesp "Adj" $
 
-                                eraseEmpty   l [ elemtxt "plural" [] $ pretty l ]
+                                eraseEmpty   l [ elemtxt "plural" [] $ (pretty . map show) l ]
             					++
-                                eraseEmpty   f [ elemtxt "femini" [] $ pretty f ]
+                                eraseEmpty   f [ elemtxt "femini" [] $ (pretty . map show) f ]
                					++
             					eraseNothing n [ elemtxt "number" [] $ pretty n ]
 
@@ -174,9 +174,9 @@ instance (Show a, Pretty [a]) => Pretty (Entity a) where
 
                             Num  l f            ->  elemesp "Num"  $
 
-                                eraseEmpty   l [ elemtxt "plural" [] $ pretty l ]
+                                eraseEmpty   l [ elemtxt "plural" [] $ (pretty . map show) l ]
             					++
-                                eraseEmpty   f [ elemtxt "femini" [] $ pretty f ]
+                                eraseEmpty   f [ elemtxt "femini" [] $ (pretty . map show) f ]
 
                             Adv                 ->  elemesp "Adv"  []
                             Prep                ->  elemesp "Prep" []

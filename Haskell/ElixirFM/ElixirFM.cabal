@@ -138,7 +138,7 @@ extensions:         MultiParamTypeClasses,
                     TypeSynonymInstances,
                     FlexibleInstances,
                     FlexibleContexts
-ghc-options:        -O0
+--  ghc-options:        -O0
 hugs-options:       -98 +o +u -h64M
 
 executable:         elixir
@@ -251,7 +251,7 @@ extensions:         MultiParamTypeClasses,
                     TypeSynonymInstances,
                     FlexibleInstances,
                     FlexibleContexts
-ghc-options:        -O0
+--  ghc-options:        -O0
 hugs-options:       -98 +o +u -h64M
 
 --  executable:         elixir-resolve
@@ -367,5 +367,5 @@ hugs-options:       -98 +o +u -h64M
 --                      TypeSynonymInstances,
 --                      FlexibleInstances,
 --                      FlexibleContexts
---  ghc-options:        -O0
+--  --  ghc-options:        -O0
 --  hugs-options:       -98 +o +u -h64M

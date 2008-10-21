@@ -15,7 +15,7 @@
 -- "ElixirFM"
 
 
-module Elixir.Data.Sunny (lexicon) where
+module Elixir.Data.Sunny (booklet) where
 
 
 import qualified Elixir.Data.Sunny.Complex
@@ -30,8 +30,9 @@ version = revised "$Revision$"
 
 lexicon :: Lexicon
 
-lexicon = include
+lexicon = (concat . concat . concat) booklet
 
-            [   Elixir.Data.Sunny.Complex.lexicon,
-                Elixir.Data.Sunny.Foreign.lexicon,
-                Elixir.Data.Sunny.Regular.lexicon   ]
+
+booklet =   [   Elixir.Data.Sunny.Complex.chapter,
+                Elixir.Data.Sunny.Foreign.chapter,
+                Elixir.Data.Sunny.Regular.chapter   ]

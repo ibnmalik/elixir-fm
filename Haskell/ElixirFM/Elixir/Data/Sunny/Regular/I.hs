@@ -1,5 +1,5 @@
 
-module Elixir.Data.Sunny.Regular.I (lexicon) where
+module Elixir.Data.Sunny.Regular.I (section) where
 
 import Elixir.Lexicon
 

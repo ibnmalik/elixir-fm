@@ -1,5 +1,5 @@
 
-module Elixir.Data.Moony.Complex (lexicon) where
+module Elixir.Data.Moony.Complex (chapter) where
 
 import Elixir.Lexicon
 
@@ -17,15 +17,15 @@ import qualified Elixir.Data.Moony.Complex.I as I
 
 version = revised "$Revision$"
 
-lexicon = include chapter
+lexicon = (concat . concat) chapter
 
 
-chapter = [ A.lexicon,
-            B.lexicon,
-            C.lexicon,
-            D.lexicon,
-            E.lexicon,
-            F.lexicon,
-            G.lexicon,
-            H.lexicon,
-            I.lexicon ]
+chapter = [ A.section,
+            B.section,
+            C.section,
+            D.section,
+            E.section,
+            F.section,
+            G.section,
+            H.section,
+            I.section ]

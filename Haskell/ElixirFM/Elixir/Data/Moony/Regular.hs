@@ -1,5 +1,5 @@
 
-module Elixir.Data.Moony.Regular (lexicon) where
+module Elixir.Data.Moony.Regular (chapter) where
 
 import Elixir.Lexicon
 
@@ -31,29 +31,29 @@ import qualified Elixir.Data.Moony.Regular.W as W
 
 version = revised "$Revision$"
 
-lexicon = include chapter
+lexicon = (concat . concat) chapter
 
 
-chapter = [ A.lexicon,
-            B.lexicon,
-            C.lexicon,
-            D.lexicon,
-            E.lexicon,
-            F.lexicon,
-            G.lexicon,
-            H.lexicon,
-            I.lexicon,
-            J.lexicon,
-            K.lexicon,
-            L.lexicon,
-            M.lexicon,
-            N.lexicon,
-            O.lexicon,
-            P.lexicon,
-            Q.lexicon,
-            R.lexicon,
-            S.lexicon,
-            T.lexicon,
-            U.lexicon,
-            V.lexicon,
-            W.lexicon ]
+chapter = [ A.section,
+            B.section,
+            C.section,
+            D.section,
+            E.section,
+            F.section,
+            G.section,
+            H.section,
+            I.section,
+            J.section,
+            K.section,
+            L.section,
+            M.section,
+            N.section,
+            O.section,
+            P.section,
+            Q.section,
+            R.section,
+            S.section,
+            T.section,
+            U.section,
+            V.section,
+            W.section ]

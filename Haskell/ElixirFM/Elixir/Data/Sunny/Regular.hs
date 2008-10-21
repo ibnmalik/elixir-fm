@@ -1,5 +1,5 @@
 
-module Elixir.Data.Sunny.Regular (lexicon) where
+module Elixir.Data.Sunny.Regular (chapter) where
 
 import Elixir.Lexicon
 
@@ -21,19 +21,19 @@ import qualified Elixir.Data.Sunny.Regular.M as M
 
 version = revised "$Revision$"
 
-lexicon = include chapter
+lexicon = (concat . concat) chapter
 
 
-chapter = [ A.lexicon,
-            B.lexicon,
-            C.lexicon,
-            D.lexicon,
-            E.lexicon,
-            F.lexicon,
-            G.lexicon,
-            H.lexicon,
-            I.lexicon,
-            J.lexicon,
-            K.lexicon,
-            L.lexicon,
-            M.lexicon ]
+chapter = [ A.section,
+            B.section,
+            C.section,
+            D.section,
+            E.section,
+            F.section,
+            G.section,
+            H.section,
+            I.section,
+            J.section,
+            K.section,
+            L.section,
+            M.section ]

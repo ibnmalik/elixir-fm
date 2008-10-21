@@ -1,5 +1,5 @@
 
-module Elixir.Data.Sunny.Complex (lexicon) where
+module Elixir.Data.Sunny.Complex (chapter) where
 
 import Elixir.Lexicon
 
@@ -14,12 +14,12 @@ import qualified Elixir.Data.Sunny.Complex.F as F
 
 version = revised "$Revision$"
 
-lexicon = include chapter
+lexicon = (concat . concat) chapter
 
 
-chapter = [ A.lexicon,
-            B.lexicon,
-            C.lexicon,
-            D.lexicon,
-            E.lexicon,
-            F.lexicon ]
+chapter = [ A.section,
+            B.section,
+            C.section,
+            D.section,
+            E.section,
+            F.section ]

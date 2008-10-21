@@ -15,7 +15,7 @@
 -- "ElixirFM"
 
 
-module Elixir.Data.Moony (lexicon) where
+module Elixir.Data.Moony (booklet) where
 
 
 import qualified Elixir.Data.Moony.Complex
@@ -30,8 +30,9 @@ version = revised "$Revision$"
 
 lexicon :: Lexicon
 
-lexicon = include
+lexicon = (concat . concat . concat) booklet
 
-            [   Elixir.Data.Moony.Complex.lexicon,
-                Elixir.Data.Moony.Foreign.lexicon,
-                Elixir.Data.Moony.Regular.lexicon   ]
+
+booklet =   [   Elixir.Data.Moony.Complex.chapter,
+                Elixir.Data.Moony.Foreign.chapter,
+                Elixir.Data.Moony.Regular.chapter   ]

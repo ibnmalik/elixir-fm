@@ -1,5 +1,5 @@
 
-module Elixir.Data.Moony.Regular.F (lexicon) where
+module Elixir.Data.Moony.Regular.F (section) where
 
 import Elixir.Lexicon
 

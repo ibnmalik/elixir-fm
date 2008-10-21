@@ -30,8 +30,9 @@ version = revised "$Revision$"
 
 lexicon :: Lexicon
 
-lexicon = include
+lexicon =   Elixir.Data.Extra.lexicon ++
 
-            [   Elixir.Data.Moony.lexicon,
-                Elixir.Data.Sunny.lexicon,
-                Elixir.Data.Extra.lexicon   ]
+            (concat . concat . concat . concat)
+           
+            [   Elixir.Data.Moony.booklet,
+                Elixir.Data.Sunny.booklet   ]
