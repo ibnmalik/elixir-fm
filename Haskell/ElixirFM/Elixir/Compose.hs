@@ -156,6 +156,14 @@ continue (ParaPart _) = [[Nothing], [Just "V---------"],
 
 continue (ParaIntj _) = [[Nothing], [Just "SP------2-"]]
 
+continue (ParaXtra _) = [[Nothing]]
+
+continue (ParaYnit _) = [[Nothing]]
+
+continue (ParaZero _) = [[Nothing]]
+
+continue (ParaGrph _) = [[Nothing]]
+
 
 rewrite :: Tag -> Maybe String -> Char -> [String]
 

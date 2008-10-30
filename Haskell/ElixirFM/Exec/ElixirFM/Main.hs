@@ -34,6 +34,8 @@ import Elixir.Lookup
 import Elixir.Inflect
 import Elixir.Resolve
 
+import Elixir.Compose
+
 import FM.Generic.General
 
 import Encode.Arabic
@@ -70,7 +72,10 @@ options = [ Option []    ["resolve"]    (NoArg (RunAction elixirResolve))
                                                 "run the 'lookup' mode",
 
             Option []    ["derive"]     (NoArg (RunAction elixirDerive))
-                                                "run the 'derive' mode\n\n",
+                                                "run the 'derive' mode",
+
+            Option []    ["compose"]    (NoArg (RunAction elixirCompose))
+                                                "run the 'compose' mode\n\n",
 
             Option ['f'] ["fuzzy"]      (NoArg  FuzzyResolve)
                                                 "use 'fuzzy' resolution\n\n",
@@ -162,3 +167,9 @@ elixirLookup o p = interact (unlines . map (show . pretty . f) . concat . map wo
 
 
 elixirDerive o p = error "'elixir derive' not implemented yet"
+
+
+elixirCompose o p = (putDoc . generate t) lexicon
+
+    where t = case p of  [] -> "--[ISJ]-------"
+                         _  -> head p

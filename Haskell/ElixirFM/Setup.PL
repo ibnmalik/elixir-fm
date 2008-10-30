@@ -100,7 +100,7 @@ sub path ($) {
     
     system "runhaskell Setup.hs configure @param";
     system "runhaskell Setup.hs build";
-    system "runhaskell Setup.hs haddock";
+#   system "runhaskell Setup.hs haddock";
     system "runhaskell Setup.hs install";
 
     system "runhaskell Setup.hs sdist";
