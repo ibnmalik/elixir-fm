@@ -1361,6 +1361,8 @@ cluster_68  = cluster
 
  |> "s k f" <| [
 
+    HuFCuLL |< aT             `noun`    {- <'uskuffaT> -}      [ ['d','o','o','r','s','t','e','p'], unwords [ ['w','i','n','d','o','w'], ['s','i','l','l'] ] ],
+
     FaCCAL                    `noun`    {- <sakkAf> -}         [ ['s','h','o','e','m','a','k','e','r'], ['c','o','b','b','l','e','r'] ],
 
     FaCCAL                    `noun`    {- <sakkAf> -}         [ ['S','a','k','k','a','f'] ],
@@ -1368,12 +1370,14 @@ cluster_68  = cluster
     FiCAL |< aT               `noun`    {- <sikAfaT> -}        [ unwords [ ['s','h','o','e'], "-", ['m','a','k','i','n','g'] ] ],
 
     HiFCAL                    `noun`    {- <'iskAf> -}         [ ['s','h','o','e','m','a','k','e','r'], ['c','o','b','b','l','e','r'] ]
-                              `plural`     HiFCAL |< At,
-
-    HiFCAL |< Iy              `adj`     {- <'iskAfIy> -}       [ ['s','h','o','e','m','a','k','e','r'], ['c','o','b','b','l','e','r'] ]
                               `plural`     HaFACiL |< aT,
 
-    HiFCAL |< Iy              `adj`     {- <'iskAfIy> -}       [ ['I','s','k','a','f','i'] ],
+    HiFCAL |< Iy              `noun`    {- <'iskAfIy> -}       [ ['s','h','o','e','m','a','k','e','r'], ['c','o','b','b','l','e','r'] ]
+                              `plural`     HaFACiL |< aT
+                           
+    `derives` otherwise,
+
+    HiFCAL |< Iy              `noun`    {- <'iskAfIy> -}       [ ['I','s','k','a','f','i'] ],
 
     FACiL                     `noun`    {- <sAkif> -}          [ ['l','i','n','t','e','l'] ] ]
 
@@ -1575,6 +1579,8 @@ cluster_74  = cluster
     FuCUL |< Iy               `adj`     {- <sukUtIy> -}        [ ['t','a','c','i','t','u','r','n'] ],
 
     FaCUL                     `adj`     {- <sakUt> -}          [ ['t','a','c','i','t','u','r','n'] ],
+
+    HiFCAL                    `noun`    {- <'iskAt> -}         [ ['s','i','l','e','n','c','i','n','g'], ['m','u','t','i','n','g'], ['m','u','z','z','l','i','n','g'] ],
 
     FACiL                     `adj`     {- <sAkit> -}          [ ['s','i','l','e','n','t'], ['c','a','l','m'] ] ]
 

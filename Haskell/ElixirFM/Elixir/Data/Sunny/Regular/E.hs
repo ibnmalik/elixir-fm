@@ -1544,10 +1544,13 @@ cluster_102 = cluster
     MaFCaL                    `noun`    {- <mazra`> -}         [ ['f','a','r','m'], unwords [ ['a','r','a','b','l','e'], ['l','a','n','d'] ], ['p','l','a','n','t','a','t','i','o','n'] ]
                               `plural`     MaFACiL,
 
-    MaFACiL                   `noun`    {- <mazAri`> -}        [ ['F','a','r','m','s'] ],
-
     TaFCIL                    `noun`    {- <tazrI`> -}         [ unwords [ ['a','g','r','i','c','u','l','t','u','r','a','l','i','z','a','t','i','o','n'], "(", ['v','i','s'], "-", "a", "-", ['v','i','s'], ['i','n','d','u','s','t','r','i','a','l','i','z','a','t','i','o','n'], ")" ] ]
                               `plural`     TaFCIL |< At,
+
+    MaFCaLAn |< Iy            `noun`    {- <mazra`AnIy> -}     [ ['f','a','r','m','e','r'] ]
+                              `plural`     MaFCaLAn |< Iy |< Un
+                           
+    `derives` otherwise,
 
     MuFACaL |< aT             `noun`    {- <muzAra`aT> -}      [ unwords [ ['t','e','m','p','o','r','a','r','y'], ['s','h','a','r','e','c','r','o','p','p','i','n','g'] ] ],
 

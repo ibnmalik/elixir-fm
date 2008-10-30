@@ -2886,6 +2886,11 @@ cluster_126 = cluster
 
     FaCA'iL                   `noun`    {- <.harA'ir> -}       [ ['f','r','e','e'], ['n','o','b','l','e'], ['s','i','l','k'] ],
 
+    FaCLAn                    `adj`     {- <.harrAn> -}        [ ['t','h','i','r','s','t','y'], ['p','a','s','s','i','o','n','a','t','e'] ]
+                              `plural`     FiCAL
+                              `plural`     FaCALY
+                              `femini`     FaCCY,
+
     FaCL |< aT                `noun`    {- <.harraT> -}        [ unwords [ ['s','t','o','n','y'], ['a','r','e','a'] ], unwords [ ['l','a','v','a'], ['f','i','e','l','d'] ] ],
 
     FuCL |< Iy |< aT          `noun`    {- <.hurrIyaT> -}      [ ['f','r','e','e','d','o','m'] ],

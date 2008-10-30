@@ -204,7 +204,7 @@ instance Rules PatternT where
     isDiptote = flip elem [ HaFCaL, HACaL, HaFCY, HaFaCL, HACY,
                             HuFayCaL, HuFayCY, {-- (?) --}
                             FaCLY, FaCwY,
-                            FiCLY,
+                            FiCLY, FILY,
                             FuCLY, FULY, FuCyY,
                             FaCaLY,
                             FaCALY, FaCAyY,
@@ -229,6 +229,7 @@ instance Rules PatternT where
                             MaFACIL, MaFA'IL, MawACIL, MayACIL,
                             -- FuCaL, FuCAL,
                             FiCLiyA', FACULA',
+                            FuCayLA',
                             FaCALIn,
                             FaCLAn,
                             FaCALIL,
@@ -545,9 +546,9 @@ instance Forming PatternT where
         | (unwords . tail . words) r == "y y" = [
 
         (   FaCCY,      MuFaCCI,    MuFaCCY,            TaFIL |< aT     )
-        
+
         ]
-        
+
         | let x = words r in if length x < 3 then False
                                              else x !! 1 == x !! 2 = [
 
@@ -557,7 +558,7 @@ instance Forming PatternT where
         ]
 
         | otherwise = [
-    
+
         (   FaCCaL,     MuFaCCiL,   MuFaCCaL,   morph   TaFCIL          ),
         (   FaCCaL,     MuFaCCiL,   MuFaCCaL,           TaFCiL |< aT    ),
 
@@ -798,6 +799,8 @@ data PatternT =
 
                                         |   FuyyaL
 
+        |   FuCCuL                      |   FUCuL
+
         |   FiCCIL                      |   FICIL
         |   FaCCIL
         |   FaCCUL
@@ -813,6 +816,8 @@ data PatternT =
 
         |   FACUL                       |   FA'UL
         |   FayCUL
+
+        |   FACAL
 
         |   FawACIL                     |   FawA'IL
         |   FayACIL
@@ -862,12 +867,16 @@ data PatternT =
         |   FiCLAn                      |   FILAn
         |   FuCLAn                      |   FULAn
 
+        |   FuCuLLAn
+
         |   FaCLUn
         |   FiCLUn
 
         |   FaCALIn
 
         |   FaCALin
+
+        |   MaFCaLAn
 
         |   FuCayL                      |   FuwayL      |   FuCayy
 
@@ -886,6 +895,8 @@ data PatternT =
 
         |   FuCayLin                    |   FuwayLin
 
+        |   FuCayLA'
+
         |   FaCLY                                       |   FaCwY
         |   FiCLY                       |   FILY
         |   FuCLY                       |   FULY        |   FuCyY
@@ -900,9 +911,14 @@ data PatternT =
         |   FuCLUL
         |   FiCLIL
 
+        |   FiCaLL
         |   FiCiLL
 
         |   FaCALIL
+
+        |   HuFCuLL
+
+        |   MiFCaLL
 
         |   YaFCUL
         |   YaFCIL

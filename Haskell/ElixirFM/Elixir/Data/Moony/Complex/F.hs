@@ -2941,7 +2941,7 @@ cluster_156 = cluster
 
  |> "w .d `" <| [
 
-    FaCaL                     `verb`    {- <wa.da`> -}         [ ['p','u','t'], ['p','l','a','c','e'], unwords [ ['b','e'], ['p','u','t'] ] ]
+    FaCaL                     `verb`    {- <wa.da`> -}         [ ['p','u','t'], ['p','l','a','c','e'] ]
                               `imperf`     CaL,
 
     HaFCaL                    `verb`    {- <'aw.da`> -}        [ unwords [ ['s','u','f','f','e','r'], ['l','o','s','s','e','s'] ] ],

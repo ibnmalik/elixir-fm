@@ -3869,6 +3869,8 @@ cluster_152 = cluster
 
  |> "^s t t" <| [
 
+    HaFCAL                    `noun`    {- <'a^stAt> -}        [ ['v','a','r','i','e','t','i','e','s'], ['d','i','s','p','e','r','s','e','d'], ['s','c','a','t','t','e','r','e','d'] ],
+
     FaCL                      `verb`    {- <^satt> -}          [ ['d','i','s','p','e','r','s','e'], ['s','c','a','t','t','e','r'] ]
                               `imperf`     FiCL
                               `pfirst`     FaCaL,

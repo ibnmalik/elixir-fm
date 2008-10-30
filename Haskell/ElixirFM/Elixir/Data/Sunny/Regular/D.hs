@@ -2047,6 +2047,9 @@ cluster_106 = cluster
 
  |> "r z b" <| [
 
+    MiFCaLL |< aT             `noun`    {- <mirzabbaT> -}      [ unwords [ ['i','r','o','n'], ['r','o','d'] ] ]
+                              `plural`     MaFACiL,
+
     FaCaL                     `verb`    {- <razab> -}          [ unwords [ ['c','l','i','n','g'], ['t','o'] ] ]
                               `imperf`     FCuL,
 
