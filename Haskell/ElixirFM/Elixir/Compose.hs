@@ -58,7 +58,8 @@ generate x y = doubleline id [ z | let x' = (unTagsTypes . read) x,
 
                                     . map (text . show) . process)
 
-                                    (inflect (Lexeme r e) (restrict (domain e) x')) | (e, m) <- zip z [1 ..], e <- entries e ]) w ]
+                                    (inflect (Lexeme r e) x'') | (e, m) <- zip z [1 ..], e <- entries e,
+                                                                 let x'' = restrict (domain e) x', (not . null) x'' ]) w ]
 
 
 process x = (map (\ (i, x) ->

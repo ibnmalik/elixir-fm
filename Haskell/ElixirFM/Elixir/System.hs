@@ -24,7 +24,7 @@ import Elixir.Pretty hiding (list)
 
 import Data.Char (readLitChar, isSpace)
 
-import Data.List (intersect)
+import Data.List (intersect, nub)
 
 
 data EntVerb a = EntVerbP          (a Voice) (a Person) (a Gender) (a Number)
@@ -244,11 +244,9 @@ vals vs = vs
 
 lets :: Param a => [a] -> [a] -> [[a]]
 
-lets [] [] = [[]]
 lets xs [] = [xs]
-lets [] ys = [ys]
-lets xs ys = case intersect xs ys of [] -> []
-                                     zs -> [zs]
+lets xs ys = case intersect (vals xs) ys of [] -> []
+                                            zs -> [zs]
 
 
 list :: [a] -> [a] -> [a]
@@ -275,11 +273,46 @@ expand (TagsZero xs) = TagsZero (list complete xs)
 expand (TagsGrph xs) = TagsGrph (list complete xs)
 
 
+select :: TagsType -> [TagsType] -> [TagsType]
+
+select (TagsVerb _) ys = [ y | y@(TagsVerb _) <- ys ]
+select (TagsNoun _) ys = [ y | y@(TagsNoun _) <- ys ]
+select (TagsAdj  _) ys = [ y | y@(TagsAdj  _) <- ys ]
+select (TagsPron _) ys = [ y | y@(TagsPron _) <- ys ]
+select (TagsNum  _) ys = [ y | y@(TagsNum  _) <- ys ]
+select (TagsAdv  _) ys = [ y | y@(TagsAdv  _) <- ys ]
+select (TagsPrep _) ys = [ y | y@(TagsPrep _) <- ys ]
+select (TagsConj _) ys = [ y | y@(TagsConj _) <- ys ]
+select (TagsPart _) ys = [ y | y@(TagsPart _) <- ys ]
+select (TagsIntj _) ys = [ y | y@(TagsIntj _) <- ys ]
+select (TagsXtra _) ys = [ y | y@(TagsXtra _) <- ys ]
+select (TagsYnit _) ys = [ y | y@(TagsYnit _) <- ys ]
+select (TagsZero _) ys = [ y | y@(TagsZero _) <- ys ]
+select (TagsGrph _) ys = [ y | y@(TagsGrph _) <- ys ]
+
+
 class Restrict a where
 
     restrict :: a -> [a] -> [a]
 
     complete :: [a]
+
+
+instance Restrict [TagsType] where
+
+    complete = [complete]
+
+    restrict [] ys = ys
+    restrict xs [] = [xs]
+    restrict xs ys = [ restrict x zs | zs <- ys, z <- zs, x <- select z (nub xs) ]
+    -- restrict xs ys = [ restrict z (nub xs) | zs <- ys, z <- zs ]
+
+    
+instance Restrict String where
+
+    complete = ["----------"]
+
+    restrict x y = (map show . concat) (restrict ((unTagsTypes . read) x) (map (unTagsTypes . read) y))
 
 
 instance Restrict TagsType where
@@ -304,20 +337,20 @@ instance Restrict TagsType where
     restrict (TagsZero []) ys = [ y | y@(TagsZero _) <- ys ]
     restrict (TagsGrph []) ys = [ y | y@(TagsGrph _) <- ys ]
 
-    restrict (TagsVerb xs) ys = [ TagsVerb (restrict x y) | TagsVerb y <- ys, x <- xs ]
-    restrict (TagsNoun xs) ys = [ TagsNoun (restrict x y) | TagsNoun y <- ys, x <- xs ]
-    restrict (TagsAdj  xs) ys = [ TagsAdj  (restrict x y) | TagsAdj  y <- ys, x <- xs ]
-    restrict (TagsPron xs) ys = [ TagsPron (restrict x y) | TagsPron y <- ys, x <- xs ]
-    restrict (TagsNum  xs) ys = [ TagsNum  (restrict x y) | TagsNum  y <- ys, x <- xs ]
-    restrict (TagsAdv  xs) ys = [ TagsAdv  (restrict x y) | TagsAdv  y <- ys, x <- xs ]
-    restrict (TagsPrep xs) ys = [ TagsPrep (restrict x y) | TagsPrep y <- ys, x <- xs ]
-    restrict (TagsConj xs) ys = [ TagsConj (restrict x y) | TagsConj y <- ys, x <- xs ]
-    restrict (TagsPart xs) ys = [ TagsPart (restrict x y) | TagsPart y <- ys, x <- xs ]
-    restrict (TagsIntj xs) ys = [ TagsIntj (restrict x y) | TagsIntj y <- ys, x <- xs ]
-    restrict (TagsXtra xs) ys = [ TagsXtra (restrict x y) | TagsXtra y <- ys, x <- xs ]
-    restrict (TagsYnit xs) ys = [ TagsYnit (restrict x y) | TagsYnit y <- ys, x <- xs ]
-    restrict (TagsZero xs) ys = [ TagsZero (restrict x y) | TagsZero y <- ys, x <- xs ]
-    restrict (TagsGrph xs) ys = [ TagsGrph (restrict x y) | TagsGrph y <- ys, x <- xs ]
+    restrict (TagsVerb xs) ys = [ TagsVerb [ y | z <- zs, y <- restrict z (nub xs) ] | TagsVerb zs <- ys ]
+    restrict (TagsNoun xs) ys = [ TagsNoun [ y | z <- zs, y <- restrict z      xs  ] | TagsNoun zs <- ys ]
+    restrict (TagsAdj  xs) ys = [ TagsAdj  [ y | z <- zs, y <- restrict z      xs  ] | TagsAdj  zs <- ys ]
+    restrict (TagsPron xs) ys = [ TagsPron [ y | z <- zs, y <- restrict z (nub xs) ] | TagsPron zs <- ys ]
+    restrict (TagsNum  xs) ys = [ TagsNum  [ y | z <- zs, y <- restrict z (nub xs) ] | TagsNum  zs <- ys ]
+    restrict (TagsAdv  xs) ys = [ TagsAdv  [ y | z <- zs, y <- restrict z      xs  ] | TagsAdv  zs <- ys ]
+    restrict (TagsPrep xs) ys = [ TagsPrep [ y | z <- zs, y <- restrict z (nub xs) ] | TagsPrep zs <- ys ]
+    restrict (TagsConj xs) ys = [ TagsConj [ y | z <- zs, y <- restrict z      xs  ] | TagsConj zs <- ys ]
+    restrict (TagsPart xs) ys = [ TagsPart [ y | z <- zs, y <- restrict z      xs  ] | TagsPart zs <- ys ]
+    restrict (TagsIntj xs) ys = [ TagsIntj [ y | z <- zs, y <- restrict z      xs  ] | TagsIntj zs <- ys ]
+    restrict (TagsXtra xs) ys = [ TagsXtra [ y | z <- zs, y <- restrict z      xs  ] | TagsXtra zs <- ys ]
+    restrict (TagsYnit xs) ys = [ TagsYnit [ y | z <- zs, y <- restrict z      xs  ] | TagsYnit zs <- ys ]
+    restrict (TagsZero xs) ys = [ TagsZero [ y | z <- zs, y <- restrict z      xs  ] | TagsZero zs <- ys ]
+    restrict (TagsGrph xs) ys = [ TagsGrph [ y | z <- zs, y <- restrict z      xs  ] | TagsGrph zs <- ys ]
 
 
 instance Restrict TagsVerb where
@@ -331,7 +364,7 @@ instance Restrict TagsVerb where
 
     restrict (TagsVerbI m v p g n) y = [ TagsVerbI m  v  p  g  n  |
                                          TagsVerbI m' v' p' g' n' <- y,
-                                                          m <- lets m m',
+                                                         m <- lets m m',
                                          v <- lets v v', p <- lets p p',
                                          g <- lets g g', n <- lets n n' ]
 
