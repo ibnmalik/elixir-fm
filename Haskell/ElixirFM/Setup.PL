@@ -64,8 +64,6 @@ sub path ($) {
     print "Removing ...";
 
     foreach $file ((glob path "ElixirFM doc elixir *"),
-                  #(glob path "ElixirFM doc elixir-resolve *"),
-                  #(glob path "ElixirFM doc elixir-compose *"),
                    (glob path "ElixirFM doc *"),
                    (glob path "ElixirFM bin *"),
                    (glob path "ElixirFM *")) {
@@ -76,8 +74,6 @@ sub path ($) {
     }
 
     rmdir path "ElixirFM doc elixir";
-   #rmdir path "ElixirFM doc elixir-resolve";
-   #rmdir path "ElixirFM doc elixir-compose";
     rmdir path "ElixirFM doc";
     rmdir path "ElixirFM bin";
     rmdir path "ElixirFM";
@@ -87,8 +83,6 @@ sub path ($) {
     mkdir path "ElixirFM";
     mkdir path "ElixirFM bin";
     mkdir path "ElixirFM doc";
-   #mkdir path "ElixirFM doc elixir-compose";
-   #mkdir path "ElixirFM doc elixir-resolve";
     mkdir path "ElixirFM doc elixir";
 
 
@@ -100,7 +94,7 @@ sub path ($) {
     
     system "runhaskell Setup.hs configure @param";
     system "runhaskell Setup.hs build";
-#   system "runhaskell Setup.hs haddock";
+    system "runhaskell Setup.hs haddock";
     system "runhaskell Setup.hs install";
 
     system "runhaskell Setup.hs sdist";
@@ -116,9 +110,6 @@ sub path ($) {
     $path = path "ElixirFM bin";
 
     print $path;
-
-   #@execs = $^O eq 'MSWin32' ? (path "build elixir-compose elixir-compose.exe", path "build elixir-resolve elixir-resolve.exe")
-   #                          : (path "build elixir-compose elixir-compose",     path "build elixir-resolve elixir-resolve");
 
     @execs = $^O eq 'MSWin32' ? (path "build elixir elixir.exe")
                               : (path "build elixir elixir");
