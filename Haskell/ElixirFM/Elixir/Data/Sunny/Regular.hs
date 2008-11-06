@@ -17,6 +17,8 @@ import qualified Elixir.Data.Sunny.Regular.J as J
 import qualified Elixir.Data.Sunny.Regular.K as K
 import qualified Elixir.Data.Sunny.Regular.L as L
 import qualified Elixir.Data.Sunny.Regular.M as M
+import qualified Elixir.Data.Sunny.Regular.N as N
+import qualified Elixir.Data.Sunny.Regular.O as O
 
 
 version = revised "$Revision$"
@@ -36,4 +38,6 @@ chapter = [ A.section,
             J.section,
             K.section,
             L.section,
-            M.section ]
+            M.section,
+            N.section,
+            O.section ]
