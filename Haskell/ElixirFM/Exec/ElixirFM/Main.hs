@@ -150,7 +150,7 @@ elixirInflect o p = interact (unlines . map (show . f) . concat . map words . on
 
     where f x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (inflect (Lexeme r e) x) | e <- z ]) w ]
 
-          i = [ z | x <- p, (y :: Index, "") <- readsPrec 0 x, z <- lookup y lexicon ]
+          i = [ z | x <- p, (y, "") <- readsPrec 0 x, z <- lookup (y :: Index) lexicon ]
 
 
 elixirLookup o p = interact (unlines . map (show . pretty . f) . concat . map words . onlines)
