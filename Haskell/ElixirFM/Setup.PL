@@ -91,7 +91,7 @@ sub path ($) {
 
 
     @param = @ARGV ? @ARGV : $^O eq 'MSWin32' ? "--global" 
-                                              : "--user --prefix " . (path $ENV{'HOME'}, ".cabal");
+                                              : "--user --prefix '$ENV{HOME}/.cabal'";
     
     print "Configuring with parameters: @param";
     
