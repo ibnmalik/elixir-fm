@@ -174,7 +174,7 @@ instance Resolve String where
 
     resolve = resolveBy alike (omitting alike omits) tokenize
 
-    resolveBy e q t y = [ [ concat (Map.lookup x resolves) | x <- p ] | p <- z ]
+    resolveBy e q t y = [ [ r | x <- p, Just r <- [Map.lookup x resolves] ] | p <- z ]
 
             where z = t y
                   u = (map units . nub . concat) z
@@ -225,7 +225,7 @@ instance Resolve String where
 resolveBy' :: (String -> String -> Bool) -> ([String] -> [String] -> Bool) -> (String -> [[String]])
            -> String -> [[[[Wrap Token]]]]
 
-resolveBy' e q t y = [ [ concat (Map.lookup x resolves) | x <- p ] | p <- z ]
+resolveBy' e q t y = [ [ r | x <- p, Just r <- [Map.lookup x resolves] ] | p <- z ]
 
         where z = t y
               u = (map units . nub . concat) z
@@ -253,7 +253,7 @@ instance Resolve [UPoint] where
 
     resolve = resolveBy alike (omitting alike omits) tokenize
 
-    resolveBy e q t y = [ [ concat (Map.lookup x resolves) | x <- p ] | p <- z ]
+    resolveBy e q t y = [ [ r | x <- p, Just r <- [Map.lookup x resolves] ] | p <- z ]
 
             where z = t y
                   u = (map (\ x -> (units x, recode x)) . nub . concat) z
@@ -308,7 +308,7 @@ resolveList l c e q y = [[[ [s] | let i = recode y, ((r, x), n) <- zip l [1 ..],
 resolveBy'' :: (String -> String -> Bool) -> ([[UPoint]] -> [[UPoint]] -> Bool) -> ([UPoint] -> [[[UPoint]]])
             -> [UPoint] -> [[[[Wrap Token]]]]
 
-resolveBy'' e q t y = [ [ concat (Map.lookup x resolves) | x <- p ] | p <- z ]
+resolveBy'' e q t y = [ [ r | x <- p, Just r <- [Map.lookup x resolves] ] | p <- z ]
 
         where z = t y
               u = (map (\ x -> (units x, recode x)) . nub . concat) z
@@ -569,7 +569,7 @@ downcode = map (toEnum . (\ x -> case x of 0x0622 -> 0x0627
 
 recode :: [UPoint] -> [String]
 
-recode xs = [ y | x <- xs, y <- Map.lookup x recoder ]
+recode xs = [ y | x <- xs, Just y <- [Map.lookup x recoder] ]
 
 
 recoder :: Map.Map UPoint String
