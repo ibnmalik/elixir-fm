@@ -97,7 +97,7 @@ sub path ($) {
     
     system "runhaskell Setup.hs configure @param";
     system "runhaskell Setup.hs build";
-    system "runhaskell Setup.hs haddock";
+    system "runhaskell Setup.hs haddock --executables";
     system "runhaskell Setup.hs install";
     system "runhaskell Setup.hs sdist";
 
@@ -125,18 +125,12 @@ sub path ($) {
 
     print $path;
 
-    foreach $file (glob path "doc html *") {
+    foreach $file (glob path "doc html ElixirFM elixir *") {
 
         print '  <- ' . $file;
 
         move $file, $path;
     }
-
-
-    rmdir path ".. ElixirFM dist doc html";
-    rmdir path ".. ElixirFM dist doc";
-    rmdir path ".. ElixirFM dist build";
-    rmdir path ".. ElixirFM dist";
 
     
     copy path ".. LICENSE", path "ElixirFM";
