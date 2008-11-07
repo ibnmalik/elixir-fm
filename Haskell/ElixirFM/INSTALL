@@ -20,7 +20,7 @@ that understands Cabal and Haddock.
 
     You can then build the package, install it, generate the documentation, ...
 
-        runhaskell Setup.hs configure --user
+        runhaskell Setup.hs configure
         runhaskell Setup.hs build
         runhaskell Setup.hs haddock
         runhaskell Setup.hs install
@@ -32,13 +32,17 @@ that understands Cabal and Haddock.
 
     	:main --help
 
-    	:main configure --user
+    	:main configure
     	:main build
     	:main haddock
     	:main install
 
+    If you have Perl installed, you can simply run Setup.PL to do everything:
 
-If you need more help, please consult the Cabal documentation website.
+        perl Setup.PL
+
+
+In case you need more help, please consult the Cabal documentation website.
 
     http://www.haskell.org/cabal/release/latest/doc/users-guide/builders.html
     http://www.haskell.org/cabal/release/latest/doc/users-guide/

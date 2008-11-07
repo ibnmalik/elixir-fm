@@ -91,8 +91,7 @@ sub path ($) {
 
 
     @param = @ARGV ? @ARGV : $^O eq 'MSWin32' ? "--global" 
-                                              : "--user --prefix " .
-                                                (path $ENV{'HOME'}, ".cabal");
+                                              : "--user --prefix " . (path $ENV{'HOME'}, ".cabal");
     
     print "Configuring with parameters: @param";
     
@@ -100,7 +99,6 @@ sub path ($) {
     system "runhaskell Setup.hs build";
     system "runhaskell Setup.hs haddock";
     system "runhaskell Setup.hs install";
-
     system "runhaskell Setup.hs sdist";
 
 

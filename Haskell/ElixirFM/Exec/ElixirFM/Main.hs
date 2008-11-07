@@ -88,7 +88,7 @@ options = [ Option []    ["resolve"]    (NoArg (RunAction elixirResolve))
 
 
 copyleft = unlines ["ElixirFM (C) 2008-2005 Otakar Smrz, 2002 Tim Buckwalter",
-                --  "             2008 Viktor Bielicky, 2004 Markus Forsberg",
+                    "             2008 Viktor Bielicky, 2004 Markus Forsberg",
                     "GNU General Public License http://www.gnu.org/licenses/"]
 
 synopsis = unlines [copyleft,
@@ -114,7 +114,7 @@ main = do   argv <- getArgs
                 PrintVersion    ->  warn (unlines [copyleft,
                                           unwords ["ElixirFM",
                                                    showVersion Main.version,
-                                                   "October 2008"]])
+                                                   "November 2008"]])
 
                 _               ->  warn (usageInfo synopsis options)
 
