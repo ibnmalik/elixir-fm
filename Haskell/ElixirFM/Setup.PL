@@ -90,7 +90,11 @@ sub path ($) {
     chdir "..";
 
 
-    @param = @ARGV ? @ARGV : '--user';             # override with '--global'
+    @param = @ARGV ? @ARGV : $^O eq 'MSWin32' ? "--global" 
+                                              : "--user --prefix " .
+                                                (path $ENV{'HOME'}, ".cabal");
+    
+    print "Configuring with parameters: @param";
     
     system "runhaskell Setup.hs configure @param";
     system "runhaskell Setup.hs build";
@@ -98,9 +102,6 @@ sub path ($) {
     system "runhaskell Setup.hs install";
 
     system "runhaskell Setup.hs sdist";
-
-#   system $^O eq 'MSWin32' ? "runhugs -98 Setup.hs sdist"
-#                           : "runhaskell Setup.hs sdist";
 
 
     print "Changing directory: dist";
