@@ -6,7 +6,7 @@
 
 # $Id$
 
-our $VERSION = do { q $Revision$ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
+our $VERSION = join '.', 1, 1, q $Revision$ =~ /(\d+)/;
 
 
 use File::Spec;
@@ -18,9 +18,9 @@ sub path ($) {
     return File::Spec->join(split ' ', $_[0]);
 }
 
-    $DdotsElixirFMExecbin = path "... ElixirFM bin";
+    $DdotsElixirFMExecbin = path "..... ElixirFM bin";
 
-    $Ddots = path "...";
+    $Ddots = path ".....";
     
     $Dbin = path ". bin";
     $Ddoc = path ". doc";
@@ -189,7 +189,7 @@ INSTALL
     close I;
 
 
-    $name = "ElixirFM-Exec-" . $ver . "-built-" . $^O;
+    $name = "ElixirFM-" . $ver . "-Exec-" . $^O;
 
     system "tar -cf " . $name . ".tar" . " ElixirFM";
 

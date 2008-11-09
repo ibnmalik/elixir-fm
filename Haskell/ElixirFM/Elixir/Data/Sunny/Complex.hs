@@ -10,6 +10,7 @@ import qualified Elixir.Data.Sunny.Complex.C as C
 import qualified Elixir.Data.Sunny.Complex.D as D
 import qualified Elixir.Data.Sunny.Complex.E as E
 import qualified Elixir.Data.Sunny.Complex.F as F
+import qualified Elixir.Data.Sunny.Complex.G as G
 
 
 version = revised "$Revision$"
@@ -22,4 +23,5 @@ chapter = [ A.section,
             C.section,
             D.section,
             E.section,
-            F.section ]
+            F.section,
+            G.section ]
