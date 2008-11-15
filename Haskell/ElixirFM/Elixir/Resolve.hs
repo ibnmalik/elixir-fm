@@ -36,23 +36,6 @@ import Encode.Arabic
 
 import Data.List
 
-{-
-import Data.List hiding (elem, notElem)
-
-import Prelude hiding (elem, notElem)
-
-
-elem, notElem :: Eq a => a -> [a] -> Bool
-
-elem _ []	  = False
-elem x (y:ys) = x==y || elem x ys
-
-notElem	_ []	 = True
-notElem x (y:ys) = x /= y && notElem x ys
-
-infix  4 `elem`, `notElem`
--}
-
 
 data Token a = Token { lexeme :: (Lexeme a, Index), struct :: (Root, Morphs a), tag :: Tag }
 
@@ -634,18 +617,6 @@ recoder = Map.fromAscList [ (toEnum x, y) | (y, x) <- [
                             ( "^l",         0x06B5 )    ] ]
 
 
--- resolveTrie l y = FM.analyze (analysis t (composition l))
-
-{-
-resolveTrie l y  = analyze (analysis (trieDict (arabicDict')) arabicDecompose) [y]
-
-    where arabicDict' = (dictionary . -- (++) extradict .
-                                concat . map lex2dict)
-
-                    [ x | (r, [x]) <- l, isSubsumed r y ]
--}
-
-
 testtext = words "wa fI milaffi al-'adabi .tara.hat al-ma^gallaTu qa.dIyaTa al-lu.gaTi al-`arabIyaTi wa al-'a_h.tAri allatI tuhaddidu hA. \\cap wa yarY al-qA'imUna `alY al-milaffi 'anna mA tata`arra.du la hu al-lu.gaTu al-`arabIyaTu la hu 'ahdAfuN mu.haddadaTuN min hA 'ib`Adu al-`arabi `an lu.gaTi him wa muzA.hamaTu al-lu.gAti al-.garbIyaTi la hA wa huwa mA ya`nI .du`fa a.s-.silaTi bi hA wa mu.hAwalaTu 'izA.haTi al-lu.gaTi al-fu.s.hY bi kulli al-wasA'ili wa 'i.hlAli al-laha^gAti al-mu_htalifaTi fI al-bilAdi al-`arabIyaTi ma.halla hA."
 
 
@@ -667,133 +638,8 @@ splits [x] = [[[x]]]
 splits (c:s) = concat [ [((c:x):xs), [c]:y] | y@(x:xs) <- splits s ]
                    -- [ [[c]:y, ((c:x):xs)] | y@(x:xs) <- splits s ]
 
-{--
-
-newtype Trie a b = Trie (Map.Map a (Trie a b), [b]) deriving Show
-
-
-emptyTrie = Trie (Map.empty, [])
-
-(?) x y = Map.lookup y x
-
-
-insertTrieWith :: Ord a => (c -> [b] -> [b]) -> ([a], c) -> Trie a b -> Trie a b
-
-insertTrieWith f ([],    y) (Trie (m, r)) = Trie (m, f y r)
-
-insertTrieWith f (x:xs,  y) (Trie (m, r)) = Trie (
-
-    Map.insertWith' (\ _ o -> insertTrieWith f (xs, y) o)
-                    x
-                   (insertTrieWith f (xs, y) emptyTrie) m   , r)
-
-{--
-    Just t  -> Trie ((c, insert' (cs,ys) t') |-> mTable t) , r)
-    Nothing -> Trie ((c, insert' (cs,ys) emptyTrie) |-> mTable t), r)
---}
-
-indexTrie = (foldl (flip (insertTrieWith (++))) emptyTrie)
-
-            [ (words q, [x]) | x <- lexicon, let q = case x of WrapQ n -> root n
-                                                               WrapT n -> root n
-                                                               WrapL n -> root n
-                                                               WrapS n -> root n ]
-
---}
 
 indexList = [ (q, x) | x <- lexicon, let q = unwraps (reduce . root) x ]
 
-{-
-indexList = [ (reduce q, x) | x <- lexicon, let q = case x of WrapQ n -> root n
-                                                              WrapT n -> root n
-                                                              WrapL n -> root n
-                                                              WrapS n -> root n ]
--}
-
--- lookupTrie x = trieLookup indexTrie x
 
 lookupList x = lookup x indexList
-
-
--- indexPlus = tcompile [ (words (root x), [x]) | x <- lexicon ]
-
-
--- [ r | (r, [x]) <- indexList, any (isSubsumed r) testtext ]
---
--- [ r | (r, [x]) <- indexList, isSubsumed r "klm"]
---
--- (map root) $  concat $ searchTrie indexTrie "k l m"
--- (map root) $  concat $ searchTrie indexPlus "k l m"
---
--- ehm ... map ( nub . map root . concat . searchTrie indexTrie  . intersperse ' ') testtext
-
-
-{--
-
-searchTrie :: Trie String a -> [String] -> String -> [[a]]
-
-searchTrie (Trie (m, r))   _ [] = [r]
-searchTrie t@(Trie (m, r)) i cs = concat
-
-    [ n | (c, k) <- Map.toList m, let n | c `isPrefixOf` cs      = searchTrie k [c] (drop (length c) cs)
-                                        | c `elem` i ++
-                                                ["\'", "w", "y"] = searchTrie k [c] cs
-                                        | otherwise              = searchTrie t []  (short cs)]
-
---}
-
-
--- recode = map (encode UTF . decode TeX . (++) "\\nodiacritics ") . concat
-
--- recode = concat
-
-{-
-arabicDict :: Dictionary
-
-arabicDict = (dictionary . (++) extradict .
-                           concat .
-                           map lex2dict)  $ take 5 -- 0
-                                                                    $ drop 1000
-                                                                    lexicon
--}
-
-{--
-
-extradict = [ ("wa-", "Conj", ["Ups"], [ ("\nC---------", (1 :: Attr, ["wa-"])) ]) ]
-
-lex2dict (WrapT (Nest x ys)) = [ case entity y of
-
-    Noun _ _ _      -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaNoun -> [String]),
-                        "Noun", [],
-                        [ (show v, (0, recode ((map (map (uncurry merge) . snd) . inflect (Lexeme x y)) v))) | v <- values :: [ParaNoun] ])
-
-    Adj _ _         -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaNoun -> [String]),
-                        "Adj", [],
-                        [ (show v, (0, recode ((map (map (uncurry merge) . snd) . inflect (Lexeme x y)) v))) | v <- values :: [ParaAdj] ])
-
-    Verb _ _ _ _ _ _ -> (x ++ "\n" ++ show (morphs y), -- dictword (inflect y :: ParaVerb -> [String]),
-                        "Verb", [],
-                        [ (show v, (0, recode ((map (map (uncurry merge) . snd) . inflect (Lexeme x y)) v))) | v <- values :: [ParaVerb] ])
-
-    _               -> ("Dictword",
-                        "Category", ["Inherent"], [ ("Untyped", (0, ["String"])) ]) | y <- ys ]
-
-lex2dict (WrapQ (Nest x ys)) = []
-
-lex2dict _            = [ ("Others", "Category", ["Other"], [ ("Untyped", (0, ["None"])) ]) ]
-
-{-
-    where   lex2dict (NestT x ys) = [ (dictword $ inflect y,
-                                       category $ inflect y, -- (Lexeme x y),
-                                       ["Inherent properties"],
-                                       [("Untyped",(0,["String"]))]) | y <- ys ]
-                where root = words x
-
-            lex2dict _            = [ ("","Category",["Inherent"],[("Untyped",(0,["String"]))]) ]
--}
-
-instance Show [FM.Entry] => Show Dictionary where
-
-    showsPrec _ = shows . unDict
-
---}

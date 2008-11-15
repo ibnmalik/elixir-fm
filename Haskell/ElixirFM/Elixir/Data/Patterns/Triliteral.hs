@@ -744,12 +744,13 @@ data PatternT =
         |   FaCAL                                       |   FaCA'
                                                         |   FaCAw
                                                         |   FaCAy
+
         |   FiCAL                       |   FiyAL       |   FiCA'                       |   FiyA'
-                                                        |   FiCAh
+                        |   CAL                         |   FiCAh
+                                                        |   FiCAy
+
         |   FuCAL       |   TuCAL                       |   FuCA'
                                                         |   FuCAw
-
-                                                        |   FiCAy
 
         |   FaCUL                       |   Fa'UL
         |   FuCUL                       |   Fu'UL       |   FuCUw
@@ -867,6 +868,7 @@ data PatternT =
         |   FiCLAn                      |   FILAn
         |   FuCLAn                      |   FULAn
 
+        |   FACiLAn
         |   FuCuLLAn
 
         |   FaCLUn
@@ -883,7 +885,7 @@ data PatternT =
         |   FuCCayL
 
         |   FuwayCiL                                                    |   FuwayCL    {-- (?) --}
-        |   FuwayCaL    {-- (?) --}
+        |   FuwayCaL
 
         |   FuCayyiL
 
@@ -918,6 +920,7 @@ data PatternT =
 
         |   HuFCuLL
 
+        |   MiFCIL
         |   MiFCaLL
 
         |   YaFCUL

@@ -11,6 +11,11 @@ import qualified Elixir.Data.Moony.Foreign.D as D
 import qualified Elixir.Data.Moony.Foreign.E as E
 import qualified Elixir.Data.Moony.Foreign.F as F
 import qualified Elixir.Data.Moony.Foreign.G as G
+import qualified Elixir.Data.Moony.Foreign.H as H
+import qualified Elixir.Data.Moony.Foreign.I as I
+import qualified Elixir.Data.Moony.Foreign.J as J
+import qualified Elixir.Data.Moony.Foreign.K as K
+import qualified Elixir.Data.Moony.Foreign.L as L
 
 
 version = revised "$Revision$"
@@ -24,4 +29,9 @@ chapter = [ A.section,
             D.section,
             E.section,
             F.section,
-            G.section ]
+            G.section,
+            H.section,
+            I.section,
+            J.section,
+            K.section,
+            L.section ]
