@@ -108,6 +108,10 @@ cluster_3   = cluster
 
     MuFtaCaL                  `adj`     {- <mu`taraf> -}       [ ['r','e','c','o','g','n','i','z','e','d'], ['a','c','k','n','o','w','l','e','d','g','e','d'], ['a','d','m','i','t','t','e','d'] ] ]
 
+ |> "ma`ArIf" <| [
+
+    _____                     `xtra`    {- <ma`ArIf> -}        [ ['M','a','a','r','i','v'] ] ]
+
 
 cluster_4   = cluster
 
@@ -742,7 +746,7 @@ cluster_31  = cluster
 
  |> "`asqalAn" <| [
 
-    _____                     `noun`    {- <`asqalAn> -}       [ ['A','s','h','k','e','l','o','n'] ] ]
+    _____                     `xtra`    {- <`asqalAn> -}       [ ['A','s','h','k','e','l','o','n'] ] ]
 
 
 cluster_32  = cluster

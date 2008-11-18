@@ -183,13 +183,154 @@ instance Resolve String where
                                        let u = (units . uncurry merge) i, d <- y, u `q` d ] ]
 
 
-    tokenize x = [[x]] ++ [ ["wa", y] | 'w' : 'a' : y <- [x] ] ++ [ ["w", y] | 'w' : y <- [x] ] ++
+    tokenize x = tokens''' x {- [[x]] ++ [ ["wa", y] | 'w' : 'a' : y <- [x] ] ++ [ ["w", y] | 'w' : y <- [x] ] ++
              if "mi'aTiN" `isSuffixOf` x then [[reverse y, reverse z]] else []
              ++
              if "y" `isSuffixOf` x then [[init x, "y"], [init (init x) ++ "U", "y"]] else []
 
-             where (z, y) = splitAt 7 (reverse x)
+             where (z, y) = splitAt 7 (reverse x) -}
 
+
+tokens''' x = case x of
+ 
+                'w' : 'a' : '-' : y     ->  tokens'' x ++ [ "wa" : y' | y' <- tokens'' y ]
+                'w' : 'a' : y           ->  tokens'' x ++ [ "wa" : y' | y' <- tokens'' y ]
+                'w' : '-' : y           ->  tokens'' x ++ [ "wa" : y' | y' <- tokens'' y ]
+                'w' : y                 ->  tokens'' x ++ [ "wa" : y' | y' <- tokens'' y ]
+                
+                '\'' : 'a' : '-' : y    ->  tokens'' x ++ [ "'a" : y' | y' <- tokens'' y ]
+                '\'' : 'a' : y          ->  tokens'' x ++ [ "'a" : y' | y' <- tokens'' y ]
+                '\'' : '-' : y          ->  tokens'' x ++ [ "'a" : y' | y' <- tokens'' y ]
+                '\'' : y                ->  tokens'' x ++ [ "'a" : y' | y' <- tokens'' y ]
+                
+                'f' : 'a' : 'l' : '-' : y   ->  tokens'' x ++ [ "fa" : "li" : y' | y' <- tokens' y ]
+                'f' : 'a' : 'l' : y         ->  tokens'' x ++ [ "fa" : "li" : y' | y' <- tokens' y ]
+                'f' : 'l' : '-' : y         ->  tokens'' x ++ [ "fa" : "li" : y' | y' <- tokens' y ]
+                'f' : 'l' : y               ->  tokens'' x ++ [ "fa" : "li" : y' | y' <- tokens' y ]
+
+                'f' : 'a' : '-' : y     ->  tokens'' x ++ [ "fa" : y' | y' <- tokens'' y ]
+                'f' : 'a' : y           ->  tokens'' x ++ [ "fa" : y' | y' <- tokens'' y ]
+                'f' : '-' : y           ->  tokens'' x ++ [ "fa" : y' | y' <- tokens'' y ]
+                'f' : y                 ->  tokens'' x ++ [ "fa" : y' | y' <- tokens'' y ]
+
+                _                       ->  tokens'' x
+
+tokens'' x = case x of
+ 
+                's' : 'a' : '-' : y     ->  tokens' x ++ [ "sa" : y' | y' <- tokens' y ]
+                's' : 'a' : y           ->  tokens' x ++ [ "sa" : y' | y' <- tokens' y ]
+                's' : '-' : y           ->  tokens' x ++ [ "sa" : y' | y' <- tokens' y ]
+                's' : y                 ->  tokens' x ++ [ "sa" : y' | y' <- tokens' y ]
+
+                'k' : 'a' : '-' : y     ->  tokens' x ++ [ "ka" : y' | y' <- tokens' y ]
+                'k' : 'a' : y           ->  tokens' x ++ [ "ka" : y' | y' <- tokens' y ]
+                'k' : '-' : y           ->  tokens' x ++ [ "ka" : y' | y' <- tokens' y ]
+                'k' : y                 ->  tokens' x ++ [ "ka" : y' | y' <- tokens' y ]
+
+                't' : 'a' : '-' : y     ->  tokens' x ++ [ "ta" : y' | y' <- tokens' y ]
+                't' : 'a' : y           ->  tokens' x ++ [ "ta" : y' | y' <- tokens' y ]
+                't' : '-' : y           ->  tokens' x ++ [ "ta" : y' | y' <- tokens' y ]
+                't' : y                 ->  tokens' x ++ [ "ta" : y' | y' <- tokens' y ]
+{-
+                'w' : 'a' : '-' : y     ->  tokens' x ++ [ "wa" : y' | y' <- tokens' y ]
+                'w' : 'a' : y           ->  tokens' x ++ [ "wa" : y' | y' <- tokens' y ]
+                'w' : '-' : y           ->  tokens' x ++ [ "wa" : y' | y' <- tokens' y ]
+                'w' : y                 ->  tokens' x ++ [ "wa" : y' | y' <- tokens' y ]
+-}
+                'l' : 'a' : '-' : y     ->  tokens' x ++ [ "la" : y' | y' <- tokens' y ]
+                'l' : 'a' : y           ->  tokens' x ++ [ "la" : y' | y' <- tokens' y ]
+                'l' : '-' : y           ->  tokens' x ++ [ "la" : y' | y' <- tokens' y ]
+
+                'l' : 'i' : '-' : y     ->  tokens' x ++ [ "li" : y' | y' <- tokens' y ]
+                'l' : 'i' : y           ->  tokens' x ++ [ "li" : y' | y' <- tokens' y ]
+                'l' : '-' : y           ->  tokens' x ++ [ "li" : y' | y' <- tokens' y ]
+                'l' : y                 ->  tokens' x ++ [ "li" : y' | y' <- tokens' y ]
+                                                      ++ [ "la" : y' | y' <- tokens' y ]
+                                                      
+                'b' : 'i' : '-' : y     ->  tokens' x ++ [ "bi" : y' | y' <- tokens' y ]
+                'b' : 'i' : y           ->  tokens' x ++ [ "bi" : y' | y' <- tokens' y ]
+                'b' : '-' : y           ->  tokens' x ++ [ "bi" : y' | y' <- tokens' y ]
+                'b' : y                 ->  tokens' x ++ [ "bi" : y' | y' <- tokens' y ]
+
+                _                       ->  tokens' x
+
+tokens_' x = [[x]]
+
+
+tokens' x = case reverse x of
+
+                'u' : 'h' : y           ->  tokens_' x ++ [ y' ++ ["hu"] | y' <- tokens_' (reverse y) ]
+                'i' : 'h' : y           ->  tokens_' x ++ [ y' ++ ["hi"] | y' <- tokens_' (reverse y) ]
+                'A' : 'h' : y           ->  tokens_' x ++ [ y' ++ ["hA"] | y' <- tokens_' (reverse y) ]
+                'h' : y                 ->  tokens_' x ++ [ y' ++ ["hu"] | y' <- tokens_' (reverse y) ]
+                                                       ++ [ y' ++ ["hi"] | y' <- tokens_' (reverse y) ]
+                                                       ++ [ y' ++ ["hA"] | y' <- tokens_' (reverse y) ]
+
+                'm' : 'u' : 'h' : y     ->  tokens_' x ++ [ y' ++ ["hum"] | y' <- tokens_' (reverse y) ]
+                'm' : 'i' : 'h' : y     ->  tokens_' x ++ [ y' ++ ["him"] | y' <- tokens_' (reverse y) ]
+
+                'a' : 'n' : 'n' : 'u' : 'h' : y     ->  tokens_' x ++ [ y' ++ ["hunna"] | y' <- tokens_' (reverse y) ]
+                'a' : 'n' : 'n' : 'i' : 'h' : y     ->  tokens_' x ++ [ y' ++ ["hinna"] | y' <- tokens_' (reverse y) ]
+                'a' : 'n' : 'n' : 'h' : y           ->  tokens_' x ++ [ y' ++ ["hunna"] | y' <- tokens_' (reverse y) ]
+                                                                   ++ [ y' ++ ["hinna"] | y' <- tokens_' (reverse y) ]
+                'n' : 'n' : 'u' : 'h' : y           ->  tokens_' x ++ [ y' ++ ["hunna"] | y' <- tokens_' (reverse y) ]
+                'n' : 'n' : 'i' : 'h' : y           ->  tokens_' x ++ [ y' ++ ["hinna"] | y' <- tokens_' (reverse y) ]
+                'n' : 'n' : 'h' : y                 ->  tokens_' x ++ [ y' ++ ["hunna"] | y' <- tokens_' (reverse y) ]
+                                                                   ++ [ y' ++ ["hinna"] | y' <- tokens_' (reverse y) ]
+                
+                'A' : 'm' : 'u' : 'h' : y   ->  tokens_' x ++ [ y' ++ ["humA"] | y' <- tokens_' (reverse y) ]
+                'A' : 'm' : 'i' : 'h' : y   ->  tokens_' x ++ [ y' ++ ["himA"] | y' <- tokens_' (reverse y) ]
+                'm' : 'h' : y               ->  tokens_' x ++ [ y' ++ ["hum"] | y' <- tokens_' (reverse y) ]
+                                                           ++ [ y' ++ ["him"] | y' <- tokens_' (reverse y) ]
+                                                           ++ [ y' ++ ["humA"] | y' <- tokens_' (reverse y) ]
+                                                           ++ [ y' ++ ["himA"] | y' <- tokens_' (reverse y) ]
+                
+                'a' : 'k' : y           ->  tokens_' x ++ [ y' ++ ["ka"] | y' <- tokens_' (reverse y) ]
+                'i' : 'k' : y           ->  tokens_' x ++ [ y' ++ ["ki"] | y' <- tokens_' (reverse y) ]
+                'k' : y                 ->  tokens_' x ++ [ y' ++ ["ka"] | y' <- tokens_' (reverse y) ]
+                                                       ++ [ y' ++ ["ki"] | y' <- tokens_' (reverse y) ]
+                                                       
+                'm' : 'u' : 'k' : y     ->  tokens_' x ++ [ y' ++ ["kum"] | y' <- tokens_' (reverse y) ]
+
+                'a' : 'n' : 'n' : 'u' : 'k' : y     ->  tokens_' x ++ [ y' ++ ["kunna"] | y' <- tokens_' (reverse y) ]
+                'a' : 'n' : 'n' : 'k' : y           ->  tokens_' x ++ [ y' ++ ["kunna"] | y' <- tokens_' (reverse y) ]
+                'n' : 'n' : 'u' : 'k' : y           ->  tokens_' x ++ [ y' ++ ["kunna"] | y' <- tokens_' (reverse y) ]
+                'n' : 'n' : 'k' : y                 ->  tokens_' x ++ [ y' ++ ["kunna"] | y' <- tokens_' (reverse y) ]
+                
+                'A' : 'm' : 'u' : 'k' : y   ->  tokens_' x ++ [ y' ++ ["kumA"] | y' <- tokens_' (reverse y) ]
+                'm' : 'k' : y               ->  tokens_' x ++ [ y' ++ ["kum"] | y' <- tokens_' (reverse y) ]
+                                                           ++ [ y' ++ ["kumA"] | y' <- tokens_' (reverse y) ]
+
+                'u' : 'h' : y           ->  tokens_' x ++ [ y' ++ ["hu"] | y' <- tokens_' (reverse y) ]
+                'i' : 'h' : y           ->  tokens_' x ++ [ y' ++ ["hu"] | y' <- tokens_' (reverse y) ]
+                'a' : 'y' : 'I' : y     ->  tokens_' x ++ [ y' ++ ["ya"] | y' <- tokens_' (reverse ('U' : y)) ]
+                                                       ++ [ y' ++ ["ya"] | y' <- tokens_' (reverse ('I' : y)) ]
+                'y' : 'I' : y           ->  tokens_' x ++ [ y' ++ ["ya"] | y' <- tokens_' (reverse ('U' : y)) ]
+                                                       ++ [ y' ++ ["ya"] | y' <- tokens_' (reverse ('I' : y)) ]
+                
+                'a' : 'y' : y           ->  tokens_' x ++ [ y' ++ ["ya"] | y' <- tokens_' (reverse y) ]
+                'y' : y                 ->  tokens_' x ++ [ y' ++ ["ya"] | y' <- tokens_' (reverse y) ]
+
+                'I' : 'n' : y           ->  tokens_' x ++ [ y' ++ ["nI"] | y' <- tokens_' (reverse y) ]
+                'A' : 'n' : y           ->  tokens_' x ++ [ y' ++ ["nA"] | y' <- tokens_' (reverse y) ]
+                'n' : y                 ->  tokens_' x ++ [ y' ++ ["nI"] | y' <- tokens_' (reverse y) ]
+                                                       ++ [ y' ++ ["nA"] | y' <- tokens_' (reverse y) ]
+
+                'A' : 'm' : 'm' : 'a' : '`' : y     ->  tokens_' x ++ [ y' ++ ["`an", "mA"] | y' <- tokens_' (reverse y) ]
+                'A' : 'm' : 'm' : '`' : y           ->  tokens_' x ++ [ y' ++ ["`an", "mA"] | y' <- tokens_' (reverse y) ]
+                'm' : 'm' : 'a' : '`' : y           ->  tokens_' x ++ [ y' ++ ["`an", "mA"] | y' <- tokens_' (reverse y) ]
+                'm' : 'm' : '`' : y                 ->  tokens_' x ++ [ y' ++ ["`an", "mA"] | y' <- tokens_' (reverse y) ]
+                
+                'A' : 'm' : 'm' : 'i' : 'm' : y     ->  tokens_' x ++ [ y' ++ ["min", "mA"] | y' <- tokens_' (reverse y) ]
+                'A' : 'm' : 'm' : 'm' : y           ->  tokens_' x ++ [ y' ++ ["min", "mA"] | y' <- tokens_' (reverse y) ]
+                'm' : 'm' : 'i' : 'm' : y           ->  tokens_' x ++ [ y' ++ ["min", "mA"] | y' <- tokens_' (reverse y) ]
+                'm' : 'm' : 'm' : y                 ->  tokens_' x ++ [ y' ++ ["min", "mA"] | y' <- tokens_' (reverse y) ]
+                
+                'A' : 'm' : y           ->  tokens_' x ++ [ y' ++ ["mA"] | y' <- tokens_' (reverse y) ]
+                'm' : y                 ->  tokens_' x ++ [ y' ++ ["mA"] | y' <- tokens_' (reverse y) ]
+                                                       
+                _                       ->  tokens_' x
+                
 {-
     resolveBy e q _ y = [[[ [s] | let l = units y, ((r, x), n) <- zip indexList [1 ..],
 

@@ -1814,7 +1814,7 @@ cluster_82  = cluster
 
  |> "yA" <| [
 
-    _____                     `noun`    {- <yA> -}             [ ['o','h'], ['y','o','u'] ] ]
+    _____                     `part`    {- <yA> -}             [ ['o','h'], ['y','o','u'] ] ]
 
 
 cluster_83  = cluster

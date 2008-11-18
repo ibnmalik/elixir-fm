@@ -57,6 +57,8 @@ cluster_3   = cluster
 
     FaCCAL |< aT              `noun`    {- <barrAyaT> -}       [ ['s','h','a','r','p','e','n','e','r'] ],
 
+    MiFCY |< aT               `noun`    {- <mibrAT> -}         [ ['s','h','a','r','p','e','n','e','r'], unwords [ ['p','o','c','k','e','t'], "-", ['k','n','i','f','e'] ] ],
+
     MuFACY |< aT              `noun`    {- <mubArAT> -}        [ ['m','a','t','c','h'], ['g','a','m','e'], ['c','o','m','p','e','t','i','t','i','o','n'] ]
                               `plural`     MuFACY |< At,
 
