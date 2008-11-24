@@ -55,7 +55,7 @@ version = Version [1, 1, build] []
     where Version [build] [] = revised "$Revision$"
 
 
-data Opts = RunAction ([Opts] -> [String] -> IO ()) | FuzzyResolve
+data Opts = RunAction ([Opts] -> [String] -> IO ()) | FuzzyResolve | TokenResolve
           | DisplayUsage
           | PrintVersion
 
@@ -78,7 +78,10 @@ options = [ Option []    ["resolve"]    (NoArg (RunAction elixirResolve))
                                                 "run the 'compose' mode\n\n",
 
             Option ['f'] ["fuzzy"]      (NoArg  FuzzyResolve)
-                                                "use 'fuzzy' resolution\n\n",
+                                                "use 'fuzzy' resolution",
+
+            Option ['t'] ["token"]      (NoArg  TokenResolve)
+                                                "use 'token' resolution\n\n",
 
             Option ['h'] ["help"]       (NoArg  DisplayUsage)
                                                 "program's usage and online references",
@@ -124,52 +127,53 @@ main = do   argv <- getArgs
 warn = hPutStr stderr
 
 
-elixirResolve o p = interact (unlines . map (show . pretty . f) . concat . map words . onlines)
+elixirResolve o p = interact (unlines . map (show . pretty . q) . concat . map words . onlines)
 
-    where f = case e of
+    where q = case e of
 
-                "tim"   ->  if q then resolveBy alike (omitting alike omits) thetoken . decode Tim
-                                 else resolveBy fuzzy (omitting fuzzy omits) thetoken . decode Tim
+                "utf"   ->  resolveBy (fst f') (omitting (snd f') omits) t' . decode UTF
+                
+                            where f' = if f then (alike, alike) else (fuzzy, fuzzy)
+                                  t' = if t then tokenize else thetoken
 
-                "utf"   ->  if q then resolveBy alike (omitting alike omits) thetoken . decode UTF
-                                 else resolveBy fuzzy (omitting fuzzy omits) thetoken . decode UTF
+                "tim"   ->  resolveBy (fst f') (omitting (snd f') omits) t' . decode Tim
 
-                "xet"   ->  if q then resolveBy alike (omitting alike omits) tokenize
-                                 else resolveBy fuzzy (omitting fuzzy omits) tokenize
+                            where f' = if f then (alike, alike) else (fuzzy, fuzzy)
+                                  t' = if t then tokenize else thetoken
 
-                _       ->  if q then resolveBy alike (omitting alike omits) thetoken
-                                 else resolveBy fuzzy (omitting fuzzy omits) thetoken
+                _       ->  resolveBy (fst f') (omitting (snd f') omits) t'
+                
+                            where f' = if f then (alike, alike) else (fuzzy, fuzzy)
+                                  t' = if t then tokenize else thetoken
 
-          e = case p of  [] -> ""
-                         _  -> (map toLower . head) p
+          f = null [ FuzzyResolve | FuzzyResolve <- o ]
+          t = null [ TokenResolve | TokenResolve <- o ]
+                                  
+          e = if null p then "" else map toLower (head p)
 
-          q = null [ FuzzyResolve | FuzzyResolve <- o ]
 
+elixirInflect o p = interact (unlines . map (show . q) . concat . map words . onlines)
 
-elixirInflect o p = interact (unlines . map (show . f) . concat . map words . onlines)
-
-    where f x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (inflect (Lexeme r e) x) | e <- z ]) w ]
+    where q x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (inflect (Lexeme r e) x) | e <- z ]) w ]
 
           i = [ z | x <- p, (y, "") <- readsPrec 0 x, z <- lookup (y :: Index) lexicon ]
 
 
-elixirLookup o p = interact (unlines . map (show . pretty . f) . concat . map words . onlines)
+elixirLookup o p = interact (unlines . map (show . pretty . q) . concat . map words . onlines)
 
-    where f = case e of
+    where q = case e of
 
-                "tim"   ->  flip lookup lexicon . decode Tim
                 "utf"   ->  flip lookup lexicon . decode UTF
+                "tim"   ->  flip lookup lexicon . decode Tim
 
                 _       ->  flip lookup lexicon
 
-          e = case p of  [] -> ""
-                         _  -> (map toLower . head) p
+          e = if null p then "" else map toLower (head p)
 
 
 elixirDerive o p = error "'elixir derive' not implemented yet"
 
 
-elixirCompose o p = (putDoc . generate t) lexicon
+elixirCompose o p = (putDoc . generate e) lexicon
 
-    where t = case p of  [] -> "--[ISJ]-------"
-                         _  -> head p
+    where e = if null p then "--[ISJ]-------" else head p

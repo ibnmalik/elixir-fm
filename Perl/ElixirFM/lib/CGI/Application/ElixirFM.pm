@@ -572,9 +572,11 @@ sub resolve {
 
     my $fuzzy = $q->param('fuzzy') ? '--fuzzy' : '';
 
+    my $token = '--token';
+
     tick @tick;
 
-    my $reply = `$elixir $mode $fuzzy $code < $mode/index.tmp`;
+    my $reply = `$elixir $mode $fuzzy $token $code < $mode/index.tmp`;
 
     tick @tick;
 
