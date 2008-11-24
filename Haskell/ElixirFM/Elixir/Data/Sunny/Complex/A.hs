@@ -1431,57 +1431,6 @@ cluster_105 = cluster
     KiRDIS                    `noun`    {- <dindIy> -}         [ ['t','u','r','k','e','y'] ] ]
 
 
-cluster_106 = cluster
-
- |> "d n w" <| [
-
-    FaCA                      `verb`    {- <danA> -}           [ ['a','p','p','r','o','a','c','h'], unwords [ ['d','r','a','w'], ['n','e','a','r'] ] ]
-                              `imperf`     FCU,
-
-    FaCI                      `verb`    {- <danI> -}           [ unwords [ ['b','e'], ['m','e','a','n'] ], unwords [ ['b','e'], ['d','e','s','p','i','c','a','b','l','e'] ] ]
-                              `imperf`     FCY,
-
-    FaCCY                     `verb`    {- <dannY> -}          [ unwords [ ['m','o','v','e'], ['n','e','a','r'] ], unwords [ ['b','e'], ['b','a','s','e'] ], unwords [ ['b','e'], ['m','o','v','e','d'], ['n','e','a','r'] ], unwords [ ['b','e'], ['d','e','b','a','s','e','d'] ] ],
-
-    FACY                      `verb`    {- <dAnY> -}           [ ['a','p','p','r','o','a','c','h'], ['a','p','p','r','o','x','i','m','a','t','e'] ],
-
-    HaFCY                     `verb`    {- <'adnY> -}          [ unwords [ ['b','e'], ['n','e','a','r'] ], ['a','p','p','r','o','a','c','h'] ],
-
-    TaFaCCY                   `verb`    {- <tadannY> -}        [ unwords [ ['a','p','p','r','o','a','c','h'], ['g','r','a','d','u','a','l','l','y'] ], unwords [ ['b','e'], ['d','e','b','a','s','e','d'] ] ],
-
-    TaFACY                    `verb`    {- <tadAnY> -}         [ ['a','p','p','r','o','a','c','h'], unwords [ ['g','e','t'], ['c','l','o','s','e','r'] ] ],
-
-    IFtaCY                    `verb`    {- <iddanY> -}         [ unwords [ ['b','e'], ['n','e','a','r'] ], ['a','p','p','r','o','a','c','h'] ],
-
-    IstaFCY                   `verb`    {- <istadnY> -}        [ unwords [ ['r','e','a','c','h'], ['o','u','t'] ] ],
-
-    FuCUL                     `noun`    {- <dunUw> -}          [ ['a','d','v','e','n','t'], ['i','m','m','i','n','e','n','c','e'], ['p','r','o','x','i','m','i','t','y'] ],
-
-    FaCAL |< aT               `noun`    {- <danAwaT> -}        [ ['n','e','a','r','n','e','s','s'], ['l','o','w','l','i','n','e','s','s'], ['b','a','s','e','n','e','s','s'] ],
-
-    HaFCY                     `noun`    {- <'adnY> -}          [ unwords [ ['l','o','w','e','r'], "/", ['l','o','w','e','s','t'] ], ['i','n','f','e','r','i','o','r'], ['l','o','w','e','s','t'], unwords [ ['m','o','s','t'], ['i','n','f','e','r','i','o','r'] ] ],
-
-    HaFCY                     `adj`     {- <'adnY> -}          [ ['n','e','a','r'], ['n','e','a','r','e','r'], ['n','e','a','r','e','s','t'], ['i','n','f','e','r','i','o','r'], ['l','o','w','e','s','t'], unwords [ ['n','e','a','r'], "/", ['n','e','a','r','e','r'], "/", ['n','e','a','r','e','s','t'] ], unwords [ ['l','o','w','e','r'], "/", ['l','o','w','e','s','t'] ] ]
-                              `plural`     HaFACI
-                              `plural`     FuCY,
-
-    HaFCY                     `noun`    {- <'adnY> -}          [ ['m','i','n','i','m','u','m'] ],
-
-    FuCyY                     `noun`    {- <dunyY> -}          [ ['w','o','r','l','d'], ['n','e','a','r'], ['l','o','w'], ['i','n','f','e','r','i','o','r'] ]
-                              `plural`     FuCyY |< At,
-
-    FuCyY |< Iy               `adj`     {- <dunyawIy> -}       [ ['w','o','r','l','d','l','y'], ['t','e','m','p','o','r','a','l'] ],
-
-    TaFaCCI                   `noun`    {- <tadannI> -}        [ ['d','e','c','l','i','n','e'], ['s','i','n','k','i','n','g'], ['l','o','w'], ['n','e','a','r'], ['c','l','o','s','e'] ]
-                              `plural`     TaFaCCI |< At,
-
-    FACI                      `adj`     {- <dAnI> -}           [ ['l','o','w'], ['n','e','a','r'], ['c','l','o','s','e'] ],
-
-    MutaFaCCI                 `adj`     {- <mutadannI> -}      [ ['a','p','p','r','o','a','c','h','i','n','g'] ],
-
-    MutaFACI                  `adj`     {- <mutadAnI> -}       [ unwords [ ['c','l','o','s','e'], ['t','o','g','e','t','h','e','r'] ] ] ]
-
-
 section = [ cluster_1,
             cluster_2,
             cluster_3,
@@ -1586,5 +1535,4 @@ section = [ cluster_1,
             cluster_102,
             cluster_103,
             cluster_104,
-            cluster_105,
-            cluster_106 ]
+            cluster_105 ]

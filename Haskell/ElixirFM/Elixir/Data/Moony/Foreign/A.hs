@@ -772,13 +772,6 @@ cluster_105 = cluster
     _____                     `xtra`    {- <'arfIdAs> -}       [ ['A','r','v','y','d','a','s'] ] ]
 
 
-cluster_106 = cluster
-
- |> "'arfinbir.g" <| [
-
-    _____                     `xtra`    {- <'arfinbir.g> -}    [ ['A','r','v','e','n','b','e','r','g'] ] ]
-
-
 section = [ cluster_1,
             cluster_2,
             cluster_3,
@@ -883,5 +876,4 @@ section = [ cluster_1,
             cluster_102,
             cluster_103,
             cluster_104,
-            cluster_105,
-            cluster_106 ]
+            cluster_105 ]

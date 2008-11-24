@@ -982,6 +982,8 @@ data PatternT =
 
         |   TaFaCCuL                                    |   TaFaCCI
 
+        |   TiFiCCAL
+
         |   MutaFaCCiL                                  |   MutaFaCCI
         |   MutaFaCCaL                                  |   MutaFaCCY
 
