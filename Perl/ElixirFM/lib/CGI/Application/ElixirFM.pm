@@ -457,6 +457,7 @@ sub resolve {
 
 	$q->param('view', rand 1 < 0.5 ? 'MorphoTrees View' : '');
 	$q->param('fuzzy', rand 1 < 0.5 ? 'Fuzzy Notation' : '');
+	$q->param('token', rand 1 < 0.5 ? 'Tokenized' : '');
     }
     else {
 
@@ -471,12 +472,14 @@ sub resolve {
 
 	    $q->param('view', 'MorphoTrees View');
 	    $q->param('fuzzy', '');
+	    $q->param('token', '');
 	}
     }
 
     $q->param('view', 'MorphoTrees View') if 'not implemented otherwise';
 
     $q->param('fuzzy', '') unless defined $q->param('fuzzy');
+    $q->param('token', '') unless defined $q->param('token');
 
     $r .= display_welcome $c;
 
@@ -505,7 +508,7 @@ sub resolve {
 					    # -rows       =>  1,
 					    # -columns    =>  1) ),
 
-                    td( {-colspan => 1, -style => "vertical-align: middle; padding-left: 20px", -class =>  'notice'},
+                    td( {-colspan => 2, -style => "vertical-align: middle; padding-left: 20px", -class =>  'notice'},
 
 			$q->radio_group(-name       =>  'code',
                                         -values     =>  [ @enc_list ],
@@ -533,12 +536,22 @@ sub resolve {
 					    # -rows       =>  1,
 					    # -columns    =>  1) ),
 
-                    td( {-colspan => 1, -align => 'right', -style => "vertical-align: middle; padding-left: 20px"},
+                    td( {-align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
 
 			$q->checkbox_group( -name       =>  'fuzzy',
 					    -values     =>  [ 'Fuzzy Notation' ],
 					    -default    =>  [ $q->param('fuzzy') ],
 					    -title      =>  "less strict resolution of the input",
+					    -linebreak  =>  0,
+					    -rows       =>  1,
+					    -columns    =>  1) ),
+
+                    td( {-align => 'right', -style => "vertical-align: middle; padding-left: 20px"},
+
+			$q->checkbox_group( -name       =>  'view',
+					    -values     =>  [ 'Tokenized' ],
+					    -default    =>  [ $q->param('token') ],
+					    -title      =>  "consider each input word as one token",
 					    -linebreak  =>  0,
 					    -rows       =>  1,
 					    -columns    =>  1) ) ) );
@@ -572,7 +585,7 @@ sub resolve {
 
     my $fuzzy = $q->param('fuzzy') ? '--fuzzy' : '';
 
-    my $token = '--token';
+    my $token = $q->param('token') ? '--token' : '';
 
     tick @tick;
 
@@ -592,8 +605,11 @@ sub resolve {
 
     open L, '>>', "$mode/index.log";
 
-    print L join "\t", gmtime() . "", "CPU " . $time, $code, ($q->param('fuzzy') ? 'F' : 'A'),
-            ($reply =~ /^\s*$/ ? '--' : '++'), encode "utf8", $q->param('text') . "\n";
+    print L join "\t", gmtime() . "", "CPU " . $time, $code,
+                       ($q->param('fuzzy') ? 'F' : 'A'),
+                       ($q->param('token') ? 'T' : 'N'),
+                       ($reply =~ /^\s*$/ ? '--' : '++'),
+                       encode "utf8", $q->param('text') . "\n";
 
     close L;
 
