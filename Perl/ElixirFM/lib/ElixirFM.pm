@@ -264,6 +264,122 @@ sub restrict {
     return join '', map { $restrict[$_] eq '-' && defined $inherit[$_] ? $inherit[$_] : $restrict[$_] } 0 .. $#restrict;
 }
 
+sub unprettyResolve {
+
+    my (undef, @node) = split /[:]{4}/, $_[0];
+
+    return map {
+
+        my ($data, @node) = split /[:]{3}/, $_;
+
+        {
+            'data'  =>  {
+
+                    'info'  =>  [ map { join ' ', split ' ' } split /[:]{2}/, $data ],
+                    'deep'  =>  4,
+                },
+
+            'node'  =>  [
+
+                    map {
+
+                        my ($data, @node) = split /[:]{2}/, $_;
+
+                        {
+                            'data'  =>  {
+
+                                    'info'  =>  [ map { join ' ', split ' ' } split /[:]{1}/, $data ],
+                                    'deep'  =>  3,
+                                },
+
+                            'node'  =>  [
+
+                                    map {
+
+                                        my ($data, @node) = split /[:]{1}/, $_;
+
+                                        {
+                                            'data'  =>  {
+
+                                                    'info'  =>  [ join ' ', split ' ', $data ],
+                                                    'deep'  =>  2,
+                                                },
+
+                                            'node'  =>  [
+
+                                                    map {
+
+                                                        my $x = $_; my $i = '';
+
+                                                        ($i) = $x =~ /^(?:[\t ]*\n    )*([\t ]*)(?![\t\n ])/;
+
+                                                        $x = substr $x, length $i;
+
+                                                        $i .= '    ';
+
+                                                        my ($data, @node) = split /(?<![\t\n ])[\t ]*\n(?:[\t ]*\n)*$i(?![\t\n ])/, $x;
+
+                                                        {
+                                                            'data'  =>  {
+
+                                                                    'info'  =>  [ split /[\n ]*\t/, $data ],
+                                                                    'deep'  =>  1,
+                                                                },
+
+                                                            'node'  =>  [
+
+                                                                    map {
+
+                                                                        {
+                                                                            'data'  =>  {
+
+                                                                                    'info'  =>  [ split /[\n ]*\t/, $_ ],
+                                                                                    'deep'  =>  0,
+                                                                                },
+
+                                                                            'node'  =>  [
+
+                                                                                ],
+                                                                        }
+
+                                                                    } @node
+                                                                ],
+                                                        }
+
+                                                    } @node
+                                                ],
+                                        }
+
+                                    } @node
+                                ],
+                        }
+
+                    } @node
+                ],
+        }
+
+    } @node;
+}
+
+sub unprettyInflect {
+
+    my @data = split /(?:(?<=\n)\n|(?<=^)\n)/, $_[0];
+
+    return map {
+
+        my @data = split /\n/, $_;
+
+        [
+            map {
+
+                [ split /\t/, $_ ]
+
+            } @data
+        ]
+
+    } @data;
+}
+
 # ##################################################################################################
 #
 # ##################################################################################################

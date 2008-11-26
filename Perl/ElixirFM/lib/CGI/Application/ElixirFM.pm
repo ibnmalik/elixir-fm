@@ -58,7 +58,7 @@ sub run {
     while ($request->Accept >= 0) {
         $self->reset_query;
         $self->CGI::Application::run;
-	last if $self->reinit();
+        last if $self->reinit();
     }
 }
 
@@ -103,11 +103,11 @@ sub display_header ($) {
     $q->charset('utf-8');
 
     $r .= $q->start_html('-title'  => "ElixirFM 1.1 Online Interface #" . $session, '-encoding' => $q->charset(),
-			 '-meta'   => { 'keywords' => join ' ', 'Arabic morphological analyzer analysis generator generation',
-		                        'morphology lexicon dictionary lookup inflection derivation rules grammar language' },
-			 '-style'  => [ {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/elixir.css', '-type' => 'text/css'},
-                            {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/listexpander/listexpander.css', '-type' => 'text/css'} ],
-			 '-script' => [ {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/listexpander/listexpander.js', '-type' => 'text/javascript'} ]);
+                         '-meta'   => { 'keywords' => join ' ', 'Arabic morphological analyzer analysis generator generation',
+                                        'morphology lexicon dictionary lookup inflection derivation rules grammar language' },
+                         '-style'  => [ {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/elixir.css', '-type' => 'text/css'},
+                                        {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/listexpander/listexpander.css', '-type' => 'text/css'} ],
+                         '-script' => [ {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/listexpander/listexpander.js', '-type' => 'text/javascript'} ]);
 
     return $r;
 }
@@ -144,7 +144,8 @@ sub display_footline ($) {
     my $q = $c->query();
     my $r;
 
-    $r .= $q->p("(C) Otakar Smrz 2008-2005, Viktor Bielicky 2008, Tim Buckwalter 2002. GNU General Public License", $q->a({-href => 'http://www.gnu.org/licenses/'}, "GNU GPL 3") . ".");
+    $r .= $q->p("(C) Otakar Smrz 2008-2005, Viktor Bielicky 2008, Tim Buckwalter 2002. GNU General Public License",
+                $q->a({-href => 'http://www.gnu.org/licenses/'}, "GNU GPL 3") . ".");
 
     $r .= $q->p("ElixirFM is an", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "open-source online"), "project.",
                 "You can contribute to its development with your suggestions!");
@@ -163,12 +164,12 @@ sub display_footer ($) {
     my $r;
 
     $r .= $q->p({'style' => 'text-align: right;'},
-		'<a href="http://validator.w3.org/check?uri=referer"><img border="0"
-                    src="http://www.w3.org/Icons/valid-xhtml10"
-                    alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>',
-		'<a href="http://jigsaw.w3.org/css-validator/check?uri=referer"><img border="0"
-                    src="http://www.w3.org/Icons/valid-css2"
-                    alt="Valid CSS level 2.1" height="31" width="88" /></a>');
+                '<a href="http://validator.w3.org/check?uri=referer"><img border="0"
+                            src="http://www.w3.org/Icons/valid-xhtml10"
+                            alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>',
+                '<a href="http://jigsaw.w3.org/css-validator/check?uri=referer"><img border="0"
+                            src="http://www.w3.org/Icons/valid-css2"
+                            alt="Valid CSS level 2.1" height="31" width="88" /></a>');
 
     $r .= $q->end_html();
 
@@ -205,40 +206,40 @@ sub pretty_resolve ($$) {
 
     if ($q->param('view')) {
 
-	for (my $i; $i < @word; $i++) {
+        for (my $i; $i < @word; $i++) {
 
-	    $r .= $q->h3($q->span($text[$i]));
+            $r .= $q->h3($q->span($text[$i]));
 
-	    my $tree = pretty_resolve_tree($word[$i], $q);
+            my $tree = pretty_resolve_tree($word[$i], $q);
 
-	    if ($tree) {
+            if ($tree) {
 
-		$r .= $q->ul({-class => 'listexpander'},
+                $r .= $q->ul({-class => 'listexpander'},
 
-			     $q->li($q->span({-class => "word",
-                                 -title => "input word"}, $text[$i]), $tree));
-	    }
-	    else {
+                             $q->li($q->span({-class => "word",
+                                              -title => "input word"}, $text[$i]), $tree));
+            }
+            else {
 
-		$r .= $q->ul({-class => 'listexpander'},
+                $r .= $q->ul({-class => 'listexpander'},
 
-			     $q->li({-class => 'empty'},
-    				    $q->span({-class => "word",
-    					         -title => "input word"}, $text[$i]) ));
-	    }
-	}
+                             $q->li({-class => 'empty'},
+                                    $q->span({-class => "word",
+                                              -title => "input word"}, $text[$i]) ));
+                }
+        }
     }
     else {
 
-	for (my $i; $i < @word; $i++) {
+        for (my $i; $i < @word; $i++) {
 
-	    $r .= $q->h3($q->span($text[$i]));
+            $r .= $q->h3($q->span($text[$i]));
 
-	    $r .= $q->table({-cellspacing => 0},
-                        $q->Tr([ map { pretty_resolve_list($_, $q) }
+            $r .= $q->table({-cellspacing => 0},
+                            $q->Tr([ map { pretty_resolve_list($_, $q) }
 
-				     split /\n/, $word[$i] ]) );
-	}
+                                     split /\n/, $word[$i] ]) );
+        }
     }
 
     return $r;
@@ -304,33 +305,33 @@ sub pretty_resolve_tree {
 	( join $",
 
 	  $q->table({-cellspacing => 0, -class => "lexeme"},
-                    $q->Tr($q->td({-class => "xtag",
-				   -title => ElixirFM::describe($xcat)}, $xcat),
-			   $q->td({-class => "phon",
-				   -title => "citation form"},           decode "zdmg", $info[-3]),
-			   $q->td({-class => "orth",
-				   -title => "citation form"},           decode "arabtex", $info[-3]),
-			   $q->td({-class => "atex",
-				   -title => "citation form"},           $info[-3]),
-			   $q->td({-class => "root",
-				   -title => "root of citation form"},   $info[-2]),
-			   $q->td({-class => "morphs",
-				   -title => "morphs of citation form"}, escape $info[-1]),
-			   $q->td({-class => "class",
-				   -title => "derivational class"},      $info[3]),
-			   $q->td({-class => "stems",
-				   -title => "inflectional stems"},      escape $info[1]),
-			   $q->td({-class => "reflex",
-				   -title => "lexical reference"},       $info[2]),
-		   # ),
-		   # $q->Tr(
-			   $q->td({-class => "button"},
-				  $q->a({-title => "inflect this lexeme",
-					 -href => 'index.fcgi?elixir=inflect' . '&code=' . $info[0]}, "Inflect"),
-				  $q->a({-title => "derive other lexemes",
-					 -href => 'index.fcgi?elixir=derive' . '&code=' . $info[0]}, "Derive"),
-				  $q->a({-title => "lookup in the lexicon",
-					 -href => 'index.fcgi?elixir=lookup' . '&code=' . $info[0]}, "Lookup")),
+                $q->Tr($q->td({-class => "xtag",
+                               -title => ElixirFM::describe($xcat)}, $xcat),
+                       $q->td({-class => "phon",
+                               -title => "citation form"},           decode "zdmg", $info[-3]),
+                       $q->td({-class => "orth",
+                               -title => "citation form"},           decode "arabtex", $info[-3]),
+                       $q->td({-class => "atex",
+                               -title => "citation form"},           $info[-3]),
+                       $q->td({-class => "root",
+                               -title => "root of citation form"},   $info[-2]),
+                       $q->td({-class => "morphs",
+                               -title => "morphs of citation form"}, escape $info[-1]),
+                       $q->td({-class => "class",
+                               -title => "derivational class"},      $info[3]),
+                       $q->td({-class => "stems",
+                               -title => "inflectional stems"},      escape $info[1]),
+                       $q->td({-class => "reflex",
+                               -title => "lexical reference"},       $info[2]),
+               # ),
+               # $q->Tr(
+                       $q->td({-class => "button"},
+                              $q->a({-title => "inflect this lexeme",
+                                     -href => 'index.fcgi?elixir=inflect' . '&code=' . $info[0]}, "Inflect"),
+                              $q->a({-title => "derive other lexemes",
+                                     -href => 'index.fcgi?elixir=derive' . '&code=' . $info[0]}, "Derive"),
+                              $q->a({-title => "lookup in the lexicon",
+                                     -href => 'index.fcgi?elixir=lookup' . '&code=' . $info[0]}, "Lookup")),
 		    )),
 
 	  $q->ul($q->li($q->table({-cellspacing => 0},
@@ -348,7 +349,7 @@ sub pretty_resolve_tree {
                                 $q->td({-class => "orth",
                                         -title => "inflected form"},             decode "arabtex", $info[-3]),
                                 $q->td({-class => "atex",
-					-title => "inflected form"},             $info[-3]),
+                                        -title => "inflected form"},             $info[-3]),
                                 $q->td({-class => "root",
                                         -title => "root of inflected form"},     $info[-2]),
                                 $q->td({-class => "morphs",
@@ -391,7 +392,7 @@ sub pretty_resolve_list {
                     $q->td({-class => "orth",
                             -title => "inflected form"},             $orth[0]),
                     $q->td({-class => "atex",
-			    -title => "inflected form"},             $data[1]),
+                            -title => "inflected form"},             $data[1]),
                     $q->td({-class => "root",
                             -title => "root of inflected form"},     $data[2]),
                     $q->td({-class => "morphs",
@@ -401,17 +402,17 @@ sub pretty_resolve_list {
                     $q->td({-class => "orth",
                             -title => "citation form"},              $orth[1]),
                     $q->td({-class => "atex",
-			    -title => "citation form"},              $data[4]),
+                            -title => "citation form"},              $data[4]),
                     $q->td({-class => "root",
                             -title => "root of citation form"},      $data[5]),
                     $q->td({-class => "morphs",
                             -title => "morphs of citation form"},    $data[6]),
-        	    $q->td({-class => "class",
+                    $q->td({-class => "class",
                             -title => "derivational class"},         $data[8]),
-        	    $q->td({-class => "stems",
+                    $q->td({-class => "stems",
                             -title => "inflectional stems"},         $data[9]),
                     $q->td({-class => "reflex",
-			    -title => "lexical reference"},          $data[7]);
+                            -title => "lexical reference"},          $data[7]);
 }
 
 
@@ -759,7 +760,7 @@ sub inflect {
 					   # -default    =>  [ 1 ],
 					   # -linebreak  =>  0,
 					   # -rows       =>  1,
-					   # -columns    =>  1) ) 
+					   # -columns    =>  1) )
 
                        ) );
 

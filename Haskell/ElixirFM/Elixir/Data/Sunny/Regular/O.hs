@@ -2015,19 +2015,12 @@ cluster_99  = cluster
 
 cluster_100 = cluster
 
- |> "li-" <| [
-
-    _____                     `prep`    {- <li-> -}            [ ['t','o'], ['f','o','r'] ] ]
-
-
-cluster_101 = cluster
-
  |> "lIb" <| [
 
     _____ |< Iy               `adj`     {- <lIbIy> -}          [ ['L','i','b','y','a','n'] ] ]
 
 
-cluster_102 = cluster
+cluster_101 = cluster
 
  |> "lUbI" <| [
 
@@ -2035,7 +2028,7 @@ cluster_102 = cluster
                               `plural`     _____ |< At ]
 
 
-cluster_103 = cluster
+cluster_102 = cluster
 
  |> "l b b" <| [
 
@@ -2071,14 +2064,14 @@ cluster_103 = cluster
                               `plural`     TaFACIL ]
 
 
-cluster_104 = cluster
+cluster_103 = cluster
 
  |> "l b t" <| [
 
     FaCL |< aT                `noun`    {- <labtaT> -}         [ ['c','a','r','p'] ] ]
 
 
-cluster_105 = cluster
+cluster_104 = cluster
 
  |> "l b _t" <| [
 
@@ -2092,6 +2085,18 @@ cluster_105 = cluster
                               `plural`     FaCaL,
 
     FuCL |< aT                `noun`    {- <lub_taT> -}        [ unwords [ ['s','h','o','r','t'], ['d','e','l','a','y'] ], unwords [ ['b','r','i','e','f'], ['r','e','s','p','i','t','e'] ] ] ]
+
+
+cluster_105 = cluster
+
+ |> "l b _h" <| [
+
+    FaCL                      `noun`    {- <lab_h> -}          [ ['a','c','a','c','i','a'] ],
+
+    FaCL |< aT                `noun`    {- <lab_haT> -}        [ ['c','a','t','a','p','l','a','s','m'], ['p','o','u','l','t','i','c','e'], ['e','m','o','l','l','i','e','n','t'] ]
+                              `plural`     FaCaL |< At,
+
+    FaCIL                     `adj`     {- <labI_h> -}         [ ['f','l','e','s','h','y'], ['c','o','r','p','u','l','e','n','t'] ] ]
 
 
 section = [ cluster_1,
