@@ -72,14 +72,26 @@ sub reinit {
 
 sub escape ($) {
 
-    my $x = shift;
+    my $text = shift;
 
-    $x =~ s/\&/\&amp;/g;
-    $x =~ s/\</\&lt;/g;
-    $x =~ s/\>/\&gt;/g;
+    $text =~ s/\&/\&amp;/g;
+    $text =~ s/\</\&lt;/g;
+    $text =~ s/\>/\&gt;/g;
 
-    return $x;
+    return $text;
 }
+
+sub normalize ($) {
+
+    my $text = shift;
+
+    $text =~ tr[\x{06A9}\x{06AA}][\x{0643}];
+    $text =~ tr[\x{06CC}][\x{064A}];
+    $text =~ tr[\x{0640}][]d;
+
+    return $text;
+}
+
 
 sub tick (\@) {
 
@@ -485,7 +497,7 @@ sub resolve {
 
 	if (defined $q->param('text') and $q->param('text') != /^\s*$/) {
 
-	    $q->param('text', decode "utf8", $q->param('text'));
+	    $q->param('text', normalize decode "utf8", $q->param('text'));
 	}
 	else {
 
