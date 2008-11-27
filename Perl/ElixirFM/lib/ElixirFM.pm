@@ -404,6 +404,13 @@ sub foldl (&$@) {
     return foldl $fun, $fun->($nil, $lst[0]), @lst[1 .. @lst - 1];
 }
 
+sub nub (&@) {
+
+    my ($fun, @lst, %nub) = @_;
+
+    return grep { my $r = $fun->($_); exists $nub{$r} ? 0 : ++$nub{$r} } @lst;
+}
+
 sub merge {
 
     my ($root, $template) = @_;

@@ -20,6 +20,8 @@ use ElixirFM;
 use Encode::Arabic::ArabTeX ':simple';
 use Encode::Arabic::Buckwalter ':xml';
 
+use Encode::Arabic ':modes';
+
 use strict;
 
 
@@ -130,10 +132,13 @@ sub display_welcome ($) {
     my $r;
 
     $r .= $q->p("Welcome to the online demo of the", $q->code($q->param($c->mode_param())), "function of",
-                $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/ElixirFM/'}, "ElixirFM") . ", which is the Haskell implementation of",
-                $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/elixir-thesis.pdf'}, "Functional Arabic Morphology") . ".");
+                $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/ElixirFM/'}, "ElixirFM") . ", the implementation of",
+                $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/elixir-thesis.pdf'}, "Functional Arabic Morphology"),
+		"written in Haskell and Perl.");
 
-    $r .= $q->p("This version can analyze well-tokenized words. You can enter them in various notations, each allowing some symbols to be omitted.");
+    $r .= $q->p("ElixirFM can analyze non-tokenized as well as tokenized words, even if you omit some symbols or do not spell everything correctly.");
+
+    $r .= $q->p("You can experiment with entering the text in various notations.");
 
     return $r;
 }
@@ -194,7 +199,7 @@ sub fuzzy_fixes {
 
 sub pretty_resolve ($$) {
 
-    my (undef, @word) = split /[:]{4}/, $_[0], -1;
+    my @word = ElixirFM::unprettyResolve($_[0]);
 
     my $q = $_[1];
 
@@ -208,16 +213,14 @@ sub pretty_resolve ($$) {
 
         for (my $i; $i < @word; $i++) {
 
-            $r .= $q->h3($q->span($text[$i]));
+            $r .= $q->h3($q->span({-class => "word",
+                                   -title => "input word"}, $text[$i]));
 
             my $tree = pretty_resolve_tree($word[$i], $q);
 
             if ($tree) {
 
-                $r .= $q->ul({-class => 'listexpander'},
-
-                             $q->li($q->span({-class => "word",
-                                              -title => "input word"}, $text[$i]), $tree));
+                $r .= $q->ul({-class => 'listexpander'}, $tree);
             }
             else {
 
@@ -245,43 +248,57 @@ sub pretty_resolve ($$) {
     return $r;
 }
 
+sub pretty_data {
+
+    my $data = $_[0];
+
+    my $text = '';
+
+    if ($data->{'deep'} == 2) {
+
+	$text = join " ", map { my $x = $_; $x = $x eq '<>' ? '???' : substr $x, 1, -1;
+
+				join " ", map { decode "zdmg", $_ } split " ", $x } @{$data->{'info'}};
+    }
+    else {
+
+	enmode "buckwalter", 'noneplus';
+
+	$text = join " .. ", map { my $x = $_; $x = $x eq '<>' ? '???' : substr $x, 1, -1;
+
+				   join " ", ElixirFM::nub { $_[0] } map { 
+
+				       decode "buckwalter", encode "buckwalter", 
+
+				       decode "arabtex", $_ } grep { $_ ne ".." } split " ", $x } @{$data->{'info'}};
+
+	enmode "buckwalter", 'default';
+    }
+
+    return escape $text;
+}
+
 sub pretty_resolve_tree {
 
-    my (undef, @data) = split /[:]{3}/, $_[0];
+  # my @data = map { map { @{$_->{'node'}} } @{$_->{'node'}} } @{$_[0]->{'node'}};
+
+    my @data = @{$_[0]->{'node'}};
 
     my $q = $_[1];
 
-    @data = grep { $_ !~ /^\s*$/ } @data;
-
-    @data = map { my (undef, @x) = split /[:]{2}/, $_; @x } @data;
-
-    @data = grep { $_ !~ /^\s*$/ } @data;
-
-    @data = map { my (undef, @x) = split /[:]{1}/, $_; @x } @data;
-
-    @data = grep { $_ !~ /^\s*$/ } @data;
-
-    @data = map { my $x = $_; my $i = '';
-
-		  ($i) = $x =~ /^(?:[\t ]*\n)*([\t ]*)(?![\t\n ])/;
-
-		  $x = substr $x, length $i;
-
-		  $i .= ' ' x 4;
-
-		  [ split /(?<![\t\n ])[\t ]*\n(?:[\t ]*\n)*$i(?![\t\n ])/, $x ] } @data;
-
-  # return $q->ul($q->li([map { $q->pre($_) } @data]));
-
     return '' unless @data;
 
-    return $q->ul($q->li([ map {
+    return $q->li([ map {
 
-	my ($lexeme, @tokens) = @{$_};
+	   pretty_data($_->{'data'}) . "\n" . $q->ul($q->li([ map {
 
-	my @info = split /[\n ]*\t/, $lexeme;
+	   pretty_data($_->{'data'}) . "\n" . $q->ul($q->li([ map {
 
-	my $xcat = substr $tokens[0], 0, 1;
+	my @tokens = @{$_->{'node'}};
+
+	my @info = @{$_->{'data'}{'info'}};
+
+	my $xcat = substr $tokens[0]->{'data'}{'info'}[0], 0, 1;
 
 	my @ents = ();
 
@@ -336,7 +353,7 @@ sub pretty_resolve_tree {
 
 	  $q->ul($q->li($q->table({-cellspacing => 0},
 
-                    $q->Tr([ map { my @info = split /[\n ]*\t/, $_;
+                    $q->Tr([ map { my @info = @{$_->{'data'}{'info'}};
 
                             $info[-2] = substr $info[-2], 1, -1;
 
@@ -357,7 +374,11 @@ sub pretty_resolve_tree {
 
                         } @tokens ] ) )) ) )
 
-			} @data ] ));
+			} @{$_->{'node'}} ] ))
+
+			} @{$_->{'node'}} ] ))
+
+			} @data ] );
 }
 
 sub pretty_resolve_list {
@@ -549,7 +570,7 @@ sub resolve {
 
                     td( {-align => 'right', -style => "vertical-align: middle; padding-left: 20px"},
 
-			$q->checkbox_group( -name       =>  'view',
+			$q->checkbox_group( -name       =>  'token',
 					    -values     =>  [ 'Tokenized' ],
 					    -default    =>  [ $q->param('token') ],
 					    -title      =>  "consider each input word as one token",
