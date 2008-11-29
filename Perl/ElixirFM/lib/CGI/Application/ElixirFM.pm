@@ -221,40 +221,25 @@ sub pretty_resolve ($$) {
 
     $r .= $q->p({-class => 'notice'}, 'The numbers of input and output words are not equal! ' . (scalar @text) . " <> " . (scalar @word)) unless @text == @word;
 
-    if ($q->param('view')) {
+    for (my $i; $i < @word; $i++) {
 
-        for (my $i; $i < @word; $i++) {
+        $r .= $q->h3($q->span({-class => "word",
+                               -title => "input word"}, $text[$i]));
 
-            $r .= $q->h3($q->span({-class => "word",
-                                   -title => "input word"}, $text[$i]));
+        my $tree = pretty_resolve_tree($word[$i], $q);
 
-            my $tree = pretty_resolve_tree($word[$i], $q);
+        if ($tree) {
 
-            if ($tree) {
+            $r .= $q->ul({-class => 'listexpander'}, $tree);
+        }
+        else {
 
-                $r .= $q->ul({-class => 'listexpander'}, $tree);
+            $r .= $q->ul({-class => 'listexpander'},
+
+                         $q->li({-class => 'empty'},
+                                $q->span({-class => "word",
+                                          -title => "input word"}, $text[$i]) ));
             }
-            else {
-
-                $r .= $q->ul({-class => 'listexpander'},
-
-                             $q->li({-class => 'empty'},
-                                    $q->span({-class => "word",
-                                              -title => "input word"}, $text[$i]) ));
-                }
-        }
-    }
-    else {
-
-        for (my $i; $i < @word; $i++) {
-
-            $r .= $q->h3($q->span($text[$i]));
-
-            $r .= $q->table({-cellspacing => 0},
-                            $q->Tr([ map { pretty_resolve_list($_, $q) }
-
-                                     split /\n/, $word[$i] ]) );
-        }
     }
 
     return $r;
@@ -278,9 +263,9 @@ sub pretty_data {
 
 	$text = join " .. ", map { my $x = $_; $x = $x eq '<>' ? '???' : substr $x, 1, -1;
 
-				   join " ", ElixirFM::nub { $_[0] } map { 
+				   join " ", ElixirFM::nub { $_[0] } map {
 
-				       decode "buckwalter", encode "buckwalter", 
+				       decode "buckwalter", encode "buckwalter",
 
 				       decode "arabtex", $_ } grep { $_ ne ".." } split " ", $x } @{$data->{'info'}};
 
@@ -393,61 +378,6 @@ sub pretty_resolve_tree {
 			} @data ] );
 }
 
-sub pretty_resolve_list {
-
-    my @data = split /\t/, $_[0];
-
-    my $q = $_[1];
-
-    $data[2] = substr $data[2], 1, -1;
-    $data[5] = substr $data[5], 1, -1;
-    $data[7] = substr $data[7], 1, -1;
-
-    $data[7] =~ s/\",\"/\", \"/g;
-
-    $data[8] =~ s/[\[\]]//g;
-
-    my @ents = $data[9] =~ /= \[([^\]]*)\]/g;
-
-    splice @ents, 1, 1 if @ents > 2 and lc $ents[1] eq lc $ents[2];
-
-    $data[9] = join " ", @ents ? @ents[1 .. @ents - 1] : '';
-
-    my @orth = map { decode "arabtex", $_ } @data[1, 4];
-    my @phon = map { decode "zdmg", $_ } @data[1, 4];
-
-    @data[3, 6, 9] = map { escape $_ } @data[3, 6, 9];
-
-    return join $", $q->td({-class => "xtag",
-                            -title => ElixirFM::describe($data[0])}, $data[0]),
-                    $q->td({-class => "phon",
-                            -title => "inflected form"},             $phon[0]),
-                    $q->td({-class => "orth",
-                            -title => "inflected form"},             $orth[0]),
-                    $q->td({-class => "atex",
-                            -title => "inflected form"},             $data[1]),
-                    $q->td({-class => "root",
-                            -title => "root of inflected form"},     $data[2]),
-                    $q->td({-class => "morphs",
-                            -title => "morphs of inflected form"},   $data[3]),
-                    $q->td({-class => "phon",
-                            -title => "citation form"},              $phon[1]),
-                    $q->td({-class => "orth",
-                            -title => "citation form"},              $orth[1]),
-                    $q->td({-class => "atex",
-                            -title => "citation form"},              $data[4]),
-                    $q->td({-class => "root",
-                            -title => "root of citation form"},      $data[5]),
-                    $q->td({-class => "morphs",
-                            -title => "morphs of citation form"},    $data[6]),
-                    $q->td({-class => "class",
-                            -title => "derivational class"},         $data[8]),
-                    $q->td({-class => "stems",
-                            -title => "inflectional stems"},         $data[9]),
-                    $q->td({-class => "reflex",
-                            -title => "lexical reference"},          $data[7]);
-}
-
 
 sub resolve {
 
@@ -489,7 +419,6 @@ sub resolve {
         $q->param('text', $example[$idx][1]);
         $q->param('code', $example[$idx][0]);
 
-	$q->param('view', rand 1 < 0.5 ? 'MorphoTrees View' : '');
 	$q->param('fuzzy', rand 1 < 0.5 ? 'Fuzzy Notation' : '');
 	$q->param('token', rand 1 < 0.5 ? 'Tokenized' : '');
     }
@@ -504,13 +433,10 @@ sub resolve {
 	    $q->param('text', $example[0][1]);
 	    $q->param('code', $example[0][0]);
 
-	    $q->param('view', 'MorphoTrees View');
 	    $q->param('fuzzy', '');
 	    $q->param('token', '');
 	}
     }
-
-    $q->param('view', 'MorphoTrees View') if 'not implemented otherwise';
 
     $q->param('fuzzy', '') unless defined $q->param('fuzzy');
     $q->param('token', '') unless defined $q->param('token');
@@ -525,31 +451,21 @@ sub resolve {
 
                 Tr( {-align => 'left'},
 
-		    td( {-colspan => 3},
+                    td( {-colspan => 3},
 
-                        $q->textfield(  -name       =>  'text',
-                                        -default    =>  $q->param('text'),
-                                        -size       =>  60,
-                                        -maxlength  =>  100) ),
-
-                    # td( {-colspan => 1, -style => "vertical-align: middle; padding-left: 20px"},
-
-			# $q->checkbox_group( -name       =>  'data',
-					    # -values     =>  [ 'Complete Lexicon' ],
-					    # -default    =>  [ $q->param('data') ],
-					    # -title      =>  "consider even less frequent entries",
-					    # -linebreak  =>  0,
-					    # -rows       =>  1,
-					    # -columns    =>  1) ),
+                                $q->textfield(  -name       =>  'text',
+                                                -default    =>  $q->param('text'),
+                                                -size       =>  60,
+                                                -maxlength  =>  100) ),
 
                     td( {-colspan => 2, -style => "vertical-align: middle; padding-left: 20px", -class =>  'notice'},
 
-			$q->radio_group(-name       =>  'code',
+                        $q->radio_group(-name       =>  'code',
                                         -values     =>  [ @enc_list ],
                                         -default    =>  $q->param('code'),
-					-attributes => { 'ArabTeX'    => {-title => "internal phonology-oriented notation"},
-							 'Buckwalter' => {-title => "letter-by-letter romanization"},
-							 'Unicode'    => {-title => "original script and orthography"} },
+                                        -attributes =>  { 'ArabTeX'    => {-title => "internal phonology-oriented notation"},
+                                                          'Buckwalter' => {-title => "letter-by-letter romanization"},
+                                                          'Unicode'    => {-title => "original script and orthography"} },
                                         -linebreak  =>  0,
                                         -rows       =>  1,
                                         -columns    =>  scalar @enc_list) ) ),
@@ -560,35 +476,25 @@ sub resolve {
                     td({-align => 'center'}, $q->reset('Reset')),
                     td({-align => 'right'},  $q->submit(-name => 'submit', -value => 'Example')),
 
-                    # td( {-align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
-
-			# $q->checkbox_group( -name       =>  'view',
-					    # -values     =>  [ 'MorphoTrees View' ],
-					    # -default    =>  [ $q->param('view') ],
-					    # -title      =>  "more organized and interactive output",
-					    # -linebreak  =>  0,
-					    # -rows       =>  1,
-					    # -columns    =>  1) ),
-
                     td( {-align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
 
-			$q->checkbox_group( -name       =>  'fuzzy',
-					    -values     =>  [ 'Fuzzy Notation' ],
-					    -default    =>  [ $q->param('fuzzy') ],
-					    -title      =>  "less strict resolution of the input",
-					    -linebreak  =>  0,
-					    -rows       =>  1,
-					    -columns    =>  1) ),
+                        $q->checkbox_group( -name       =>  'fuzzy',
+                                    -values     =>  [ 'Fuzzy Notation' ],
+                                    -default    =>  [ $q->param('fuzzy') ],
+                                    -title      =>  "less strict resolution of the input",
+                                    -linebreak  =>  0,
+                                    -rows       =>  1,
+                                    -columns    =>  1) ),
 
                     td( {-align => 'right', -style => "vertical-align: middle; padding-left: 20px"},
 
-			$q->checkbox_group( -name       =>  'token',
-					    -values     =>  [ 'Tokenized' ],
-					    -default    =>  [ $q->param('token') ],
-					    -title      =>  "consider each input word as one token",
-					    -linebreak  =>  0,
-					    -rows       =>  1,
-					    -columns    =>  1) ) ) );
+                        $q->checkbox_group( -name       =>  'token',
+                                    -values     =>  [ 'Tokenized' ],
+                                    -default    =>  [ $q->param('token') ],
+                                    -title      =>  "consider each input word as one token",
+                                    -linebreak  =>  0,
+                                    -rows       =>  1,
+                                    -columns    =>  1) ) ) );
 
     $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
 
@@ -599,9 +505,8 @@ sub resolve {
     $r .= $q->h2('ElixirFM Reply');
 
   # $r .= $q->p({-class => 'notice'}, "You have checked the 'Fuzzy Notation' option due to which the resolution of the input words is less strict.") if $q->param('fuzzy');
-  # $r .= $q->p({-class => 'notice'}, "You can try the 'MorphoTrees View' option next for a more organized and interactive output.") unless $q->param('view');
 
-    $r .= $q->p({-class => 'notice'}, "Click on the items in the list of solutions below in order to display or hide their contents.") if $q->param('view');
+    $r .= $q->p({-class => 'notice'}, "Click on the items in the list of solutions below in order to display or hide their contents.");
 
     $r .= $q->p("Point the mouse over the data to receive further information.");
 
@@ -659,21 +564,22 @@ sub resolve {
 
 sub pretty_inflect ($$) {
 
- #  my @word = split /(?<=\n)\n/, $_[0];    # ... multiple inflected lexemes
-
-    my @word = split /(?:(?<=\n)\n|(?<=^)\n)/, $_[0];
+    my @word = ElixirFM::unprettyInflect($_[0]);
 
     my $q = $_[1];
 
-    return $q->table({-cellspacing => 0},
-		     [ map { join $", map { pretty_inflect_list($_, $q) }
+    return $q->table( {-cellspacing => 0},
 
-			     split /\n/, $_ } @word ]);
+                      [ map {
+
+                            join $", map { pretty_inflect_list($_, $q) } @{$_}
+
+                        } @word ] );
 }
 
 sub pretty_inflect_list {
 
-    my @data = split /\t/, $_[0];
+    my @data = @{$_[0]};
 
     my $q = $_[1];
 
@@ -716,8 +622,12 @@ sub inflect {
 
     $r .= display_headline $c;
 
-    my @example = ( [ '(3105,1)',               '-P-A-3---- -C--------' ],
-                    [ '(3105,-2) (1455,-5)',    '--[ISJ]------[IRD]'    ] );
+    my @example = ( [ '(3105,1)',               'perfect active third imperative'                               ],
+                    [ '(3105,1)',               'perf act 3rd impa'                                             ],
+                    [ '(3105,1)',               '-P-A-3---- -C--------'                                         ],
+                    [ '(3105,-2) (1455,-5)',    'indicative subjunctive jussive indefinite reduced definite'    ],
+                    [ '(3105,-2) (1455,-5)',    'ind sub jus indf red def'                                      ],
+                    [ '(3105,-2) (1455,-5)',    '--[ISJ]------[IRD]'                                            ] );
 
     if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
 
@@ -773,29 +683,11 @@ sub inflect {
 
                 Tr( {-align => 'left'},
 
-                    td({-align => 'left'},  $q->submit(-name => 'submit', -value => ucfirst $q->param($c->mode_param()))),
-                    td({-align => 'center'}, $q->reset('Reset')),
-                    td({-align => 'right'}, $q->submit(-name => 'submit', -value => 'Example')),
-
-                    # td({-align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
-
-		       # $q->checkbox_group( -name       =>  'data',
-					   # -values     =>  [ 'Complete Lexicon' ],
-					   # -default    =>  [ $q->param('data') ],
-					   # -linebreak  =>  0,
-					   # -rows       =>  1,
-					   # -columns    =>  1) ),
-
-                    # td({-align => 'right', -style => "vertical-align: middle; padding-left: 20px"},
-
-		       # $q->checkbox_group( -name       =>  'view',
-					   # -values     =>  [ 'MorphoTrees View' ],
-					   # -default    =>  [ 1 ],
-					   # -linebreak  =>  0,
-					   # -rows       =>  1,
-					   # -columns    =>  1) )
-
-                       ) );
+                    td( {-align => 'left'},     $q->submit( -name   =>  'submit',
+                                                            -value  =>  ucfirst $q->param($c->mode_param()) ) ),
+                    td( {-align => 'center'},   $q->reset('Reset') ),
+                    td( {-align => 'right'},    $q->submit( -name   =>  'submit',
+                                                            -value  =>  'Example') ) ) );
 
     $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
 
