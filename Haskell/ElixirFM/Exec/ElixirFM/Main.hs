@@ -55,7 +55,7 @@ version = Version [1, 1, build] []
     where Version [build] [] = revised "$Revision$"
 
 
-data Opts = RunAction ([Opts] -> [String] -> IO ()) | FuzzyResolve | TokenResolve
+data Opts = RunAction ([Opts] -> [String] -> IO ()) | FuzzyResolve | TokenResolve | PruneResolve
           | DisplayUsage
           | PrintVersion
 
@@ -78,10 +78,13 @@ options = [ Option []    ["resolve"]    (NoArg (RunAction elixirResolve))
                                                 "run the 'compose' mode\n\n",
 
             Option ['f'] ["fuzzy"]      (NoArg  FuzzyResolve)
-                                                "use 'fuzzy' resolution",
+                                                "fuzzy notation resolution",
 
             Option ['t'] ["token"]      (NoArg  TokenResolve)
-                                                "use 'token' resolution\n\n",
+                                                "single token resolution",
+
+            Option ['p'] ["prune"]      (NoArg  PruneResolve)
+                                                "resolution with pruning\n\n",
 
             Option ['h'] ["help"]       (NoArg  DisplayUsage)
                                                 "program's usage and online references",
@@ -127,9 +130,9 @@ main = do   argv <- getArgs
 warn = hPutStr stderr
 
 
-elixirResolve o p = interact (unlines . map (show . pretty . q) . concat . map words . onlines)
+elixirResolve o p = interact (unlines . map (show . q) . concat . map words . onlines)
 
-    where q = case e of
+    where q = pretty . (if r then id else prune) . case e of
 
                 "utf"   ->  resolveBy (fst f') (omitting (snd f') omits) t' . decode UTF
                 
@@ -148,25 +151,29 @@ elixirResolve o p = interact (unlines . map (show . pretty . q) . concat . map w
 
           f = null [ FuzzyResolve | FuzzyResolve <- o ]
           t = null [ TokenResolve | TokenResolve <- o ]
-                                  
+          r = null [ PruneResolve | PruneResolve <- o ]
+
           e = if null p then "" else map toLower (head p)
 
 
 elixirInflect o p = interact (unlines . map (show . q) . map words . onlines)
 
-    where q x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (inflect (Lexeme r e) x) | e <- z ]) w ]
+    where q x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (inflect (Lexeme r s) x) | e <- z, s <- entries e ]) w ]
 
-          i = [ z | x <- p, (y, "") <- readsPrec 0 x, z <- lookup (y :: Index) lexicon ]
+          i = [ z | x <- p, (y, "") <- readsPrec 0 x, z <- lookupIndex y lexicon ]
 
+
+-- elixirLookup :: (Lookup String, Lookup [UPoint]) => [Opts] -> [String] -> IO ()
 
 elixirLookup o p = interact (unlines . map (show . pretty . q) . concat . map words . onlines)
 
     where q = case e of
 
-                "utf"   ->  flip lookup lexicon . decode UTF
-                "tim"   ->  flip lookup lexicon . decode Tim
+                "utf"   ->  lookup . decode UTF
 
-                _       ->  flip lookup lexicon
+                "tim"   ->  lookup . decode Tim
+
+                _       ->  lookup
 
           e = if null p then "" else map toLower (head p)
 

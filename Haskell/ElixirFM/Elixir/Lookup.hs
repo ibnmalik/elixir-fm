@@ -20,6 +20,8 @@ module Elixir.Lookup where
 
 import Elixir.Template
 
+import Elixir.Data.Lexicons
+
 import Elixir.Lexicon
 
 import Encode
@@ -36,44 +38,39 @@ import Prelude hiding (lookup)
 
 class Lookup a where
 
-    lookup :: a -> Lexicon -> Lexicon
+    lookup :: a -> [Index]
 
  -- lookupBy :: (a -> c -> Bool) -> Lexicon -> b
 
  -- lookup x = lookupBy (==)
 
 
-instance Lookup Index where
+lookupIndex (n, m) y = [ z | w <- find n y, z <- wraps lookup' w ]
 
-    lookup (n, m) y = [ z | w <- find n y, z <- wraps lookup' w ]
+    where find x y | x > 0     = take 1 (drop (x - 1) y)
+                   | x < 0     = find (-x) (reverse y)
+                   | otherwise = y
 
-        where find x y | x > 0     = take 1 (drop (x - 1) y)
-                       | x < 0     = find (-x) (reverse y)
-                       | otherwise = []
-
-              lookup' (Nest r z) = [Nest r (find m z)]
+          lookup' (Nest r z) = [Nest r (find m z)]
 
 
--- instance Lookup a Lexicon
 
 instance Lookup [UPoint] where
 
-    lookup x y = lookupBy ((x ==) . decode TeX) y
+    lookup x = lookupBy ((x ==) . decode TeX)
 
 
 instance Lookup String where
 
-    lookup x y = lookupBy (x ==) y
+    lookup x = lookupBy (x ==)
 
 
-lookupBy f l = [ z | n <- l, z <- wraps (lookup' f) n ]
+lookupBy f = [ z | (n, n') <- zip lexicon [1 ..], z <- unwraps (lookup' n' f) n ]
 
-    where lookup' f n@(Nest r l) | f r       = [n]
-                                 | otherwise = case [ e | e <- l, let m = morphs e
-                                                                      h = merge r m, f h ]
-                                               of [] -> []
-                                                  xs -> [Nest r xs]
-
+    where lookup' n' f (Nest r l) | f r       = [(n', 0)]
+                                  | otherwise = [ (n', e') | (e, e') <- zip l [1 ..], let m = morphs e
+                                                                                          h = merge r m, f h ]
+                    
 {-
 instance Lookup [Root] Lexicon where
 
@@ -81,6 +78,7 @@ instance Lookup [Root] Lexicon where
 -}
 
 
+{-
 lookupRoot :: Root -> Lexicon -> Lexicon
 
 lookupRoot r l = lookupRootBy (r ==) l
@@ -208,4 +206,5 @@ lookupLemma w l = unlines [ s | n <- l, s <- case n of
                                 WrapT y@(Nest r e) -> (lookupLemma' w y)
                                 WrapQ y@(Nest r e) -> (lookupLemma' w y)
                                 WrapS y@(Nest r e) -> (lookupLemma' w y) ]
+-}
 -}

@@ -119,11 +119,13 @@ instance Inflect (Index, Lexicon) a where
                                             i <- inflect (Lexeme r s) y ]
 -}
 
+{-
 inflectIdx :: (Inflect Lexeme a, Lookup b) => (b, [Wrap Nest]) -> a -> [Wrap TagRootMorphs]
 
-inflectIdx (x, l) y = [ z | w <- lookup x l, z <- wraps (inflects y) w ]
+inflectIdx (x, l) y = [ z | w <- lookupIndex x l, z <- wraps (inflects y) w ]
 
     where inflects y (Nest r z) = [ TRM (inflect (Lexeme r s) y) | e <- z, s <- entries e ]
+-}
 
 
 instance Inflect Entry ParaVerb where

@@ -121,6 +121,8 @@ instance Pretty [Wrap Token] => Pretty [[Wrap Token]] where
 
 instance Pretty [[Wrap Tokens]] => Pretty [[[Wrap Tokens]]] where
 
+    pretty [] = text "::::" <> line
+    
     pretty x = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . ((<>) (line <> line)) . pretty) line x)
 
         where p = map pretty x
@@ -133,6 +135,11 @@ instance Pretty [[Wrap Token]] => Pretty [[[Wrap Token]]] where
 
         where p = map pretty x
               s = map (take 1 . lines . show) p
+
+
+prune :: [[[Wrap Tokens]]] -> [[[Wrap Tokens]]]
+
+prune = filter (not . any null)
 
 
 class Fuzzy a => Resolve a where
@@ -162,17 +169,19 @@ instance Resolve String where
             where z = t y
                   u = (map units . nub . concat) z
 
-                  resolves = (Map.map reverse . Map.fromListWith (++)) [ s | ((r, x), n) <- zip indexList [1 ..],
+                  resolves = (Map.map reverse . Map.fromListWith (++)) [ s | (x, n) <- zip lexicon [1 ..],
 
+                                        let r = unwraps (reduce . root) x,
+                                        
                                         let i = [ v | v <- u, isSubsumed e r v ],
 
                                         not (null i), s <- unwraps (inflects i n) x ]
 
                   inflects y n (Nest r z) = [ z | (e, m) <- zip z [1 ..],
 
-                                let x = (expand . domain) e, s <- entries e,
+                                let x = (expand . domain) e,
 
-                                let l = Lexeme r s,
+                                let l = Lexeme r e,
 
                                 z <- (Map.foldWithKey (\ k x y -> (k, [wrap (Tokens (reverse x))]) : y) []
 
@@ -312,20 +321,6 @@ instance Resolve String where
 
                     _                       ->  []
 
-{-
-    resolveBy e q _ y = [[[ [s] | let l = units y, ((r, x), n) <- zip indexList [1 ..],
-
-                              isSubsumed e r l, s <- wraps (inflects l n) x ]]]
-
-        where inflects y n (Nest r z) = [ Token (l, (n, m)) i t | (e, m) <- zip z [1 ..],
-
-                            let x = (expand . domain) e, s <- entries e,
-
-                            let l = Lexeme r s, (t, h) <- inflect l x, i <- h,
-
-                            (units . uncurry merge) i `q` y ]
--}
-
 
 resolveBy' :: (String -> String -> Bool) -> ([String] -> [String] -> Bool) -> (String -> [[String]])
            -> String -> [[[[Wrap Token]]]]
@@ -335,7 +330,9 @@ resolveBy' e q t y = [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- z ]
         where z = t y
               u = (map units . nub . concat) z
 
-              resolves = (Map.map reverse . Map.fromListWith (++)) [ s | ((r, x), n) <- zip indexList [1 ..],
+              resolves = (Map.map reverse . Map.fromListWith (++)) [ s | (x, n) <- zip lexicon [1 ..],
+
+                                    let r = unwraps (reduce . root) x,
 
                                     let i = [ v | v <- u, isSubsumed e r v ],
 
@@ -343,9 +340,9 @@ resolveBy' e q t y = [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- z ]
 
               inflects y n (Nest r z) = [ z | (e, m) <- zip z [1 ..],
 
-                            let x = (expand . domain) e, s <- entries e,
+                            let x = (expand . domain) e,
 
-                            let l = Lexeme r s,
+                            let l = Lexeme r e,
 
                             z <- (Map.foldWithKey (\ k x y -> (k, [reverse x]) : y) [] . Map.fromListWith (++))
 
@@ -365,7 +362,9 @@ instance Resolve [UPoint] where
 
                   c = decode TeX
 
-                  resolves = (Map.map reverse . Map.fromListWith (++)) [ s | ((r, x), n) <- zip indexList [1 ..],
+                  resolves = (Map.map reverse . Map.fromListWith (++)) [ s | (x, n) <- zip lexicon [1 ..],
+
+                                        let r = unwraps (reduce . root) x,
 
                                         let i = [ v | (v, w) <- u, isSubsumed e r w ],
 
@@ -373,9 +372,9 @@ instance Resolve [UPoint] where
 
                   inflects y n (Nest r z) = [ z | (e, m) <- zip z [1 ..],
 
-                                let x = (expand . domain) e, s <- entries e,
+                                let x = (expand . domain) e,
 
-                                let l = Lexeme r s,
+                                let l = Lexeme r e,
 
                                 z <- (Map.foldWithKey (\ k x y -> (k, [wrap (Tokens (reverse x))]) : y) []
 
@@ -519,26 +518,6 @@ instance Resolve [UPoint] where
                     _                       ->  []
 
 
-{-
-    resolveBy e q _ y = resolveList indexList (decode TeX) e q y
-
-
-resolveList l c e q y = [[[ [s] | let i = recode y, ((r, x), n) <- zip l [1 ..],
-
-                                isSubsumed e r i, s <- wraps (inflects (units y) n) x ]]]
-
-    where inflects y n (Nest r z) = ((\ x -> [ z | (f, t) <- x, (units . c) f `q` y, z <- reverse t ])
-
-                          . Map.toList . Map.fromListWith (++))
-
-                          [ (uncurry merge i, [Token (l, (n, m)) i t]) | (e, m) <- zip z [1 ..],
-
-                            let x = (expand . domain) e, s <- entries e,
-
-                            let l = Lexeme r s, (t, h) <- inflect l x, i <- h ]
--}
-
-
 resolveBy'' :: (String -> String -> Bool) -> ([[UPoint]] -> [[UPoint]] -> Bool) -> ([UPoint] -> [[[UPoint]]])
             -> [UPoint] -> [[[[Wrap Token]]]]
 
@@ -549,7 +528,9 @@ resolveBy'' e q t y = [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- z 
 
               c = decode TeX
 
-              resolves = Map.fromListWith (++) [ s | ((r, x), n) <- zip indexList [1 ..],
+              resolves = Map.fromListWith (++) [ s | (x, n) <- zip lexicon [1 ..],
+
+                                    let r = unwraps (reduce . root) x,
 
                                     let i = [ v | (v, w) <- u, isSubsumed e r w ],
 
@@ -557,9 +538,9 @@ resolveBy'' e q t y = [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- z 
 
               inflects y n (Nest r z) = [ z | (e, m) <- zip z [1 ..],
 
-                            let x = (expand . domain) e, s <- entries e,
+                            let x = (expand . domain) e,
 
-                            let l = Lexeme r s,
+                            let l = Lexeme r e,
 
                             z <- (Map.foldWithKey (\ k x y -> (k, [reverse x]) : y) [] . Map.fromListWith (++) .
 
@@ -568,19 +549,6 @@ resolveBy'' e q t y = [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- z 
                                 . Map.toList . Map.fromListWith (++))
 
                                 [ (uncurry merge i, [wrap (Token (l, (n, m)) i t)]) | (t, h) <- inflect l x, i <- h ] ]
-
-
-resolveMore e q y = [ [s] | ((r, x), n) <- zip indexList [1 ..],
-
-                            let i = filter (isSubsumed e r . letters) y,
-
-                            not (null i), s <- wraps (inflects i n) x ] : []
-
-    where inflects y n (Nest r z) = [ Token ((Lexeme r e), (n, m)) i t | (e, m) <- zip z [1 ..],
-
-                            let s = inflect (Lexeme r e) ((expand . domain) e), (t, h) <- s,
-
-                            i <- h, let u = uncurry merge i, d <- y, u `q` d ]
 
 
 resolveSub r = resolveBy (==) (\ x y -> any (isPrefixOf x) (tails y)) r
@@ -877,28 +845,3 @@ test = (words . unlines) [  "wa fI milaffi al-'adabi .tara.hat al-ma^gallaTu qa.
                             "min hA 'ib`Adu al-`arabi `an lu.gaTi him wa muzA.hamaTu al-lu.gAti al-.garbIyaTi la hA wa huwa mA ya`nI .du`fa a.s-.silaTi bi hA",
                             "wa mu.hAwalaTu 'izA.haTi al-lu.gaTi al-fu.s.hY bi kulli al-wasA'ili",
                             "wa 'i.hlAli al-laha^gAti al-mu_htalifaTi fI al-bilAdi al-`arabIyaTi ma.halla hA."  ]
-
-
-splitr :: [a] -> [[[a]]]
-splitr s = [s] : [ [i] ++ y | (i, j) <- zip (inits s) (tails s), not (null i), not (null j), y <- splitr j ]
-
-splitz :: [a] -> [[[a]]]
-splitz s = [s] : [ x ++ [j] | (i, j) <- zip (inits s) (tails s), not (null i), not (null j), x <- splitz i ]
-
-splitx :: [a] -> [[[a]]]
-splitx s = [s] : [ [i] ++ y | (i, j) <- reverse (zip (inits s) (tails s)), not (null i), not (null j), y <- splitx j ]
-
-splity :: [a] -> [[[a]]]
-splity s = [ x ++ [j] | (i, j) <- zip (inits s) (tails s), not (null i), not (null j), x <- splity i ] ++ [[s]]
-
-splits :: [a] -> [[[a]]]
-splits [] = []
-splits [x] = [[[x]]]
-splits (c:s) = concat [ [((c:x):xs), [c]:y] | y@(x:xs) <- splits s ]
-                   -- [ [[c]:y, ((c:x):xs)] | y@(x:xs) <- splits s ]
-
-
-indexList = [ (q, x) | x <- lexicon, let q = unwraps (reduce . root) x ]
-
-
-lookupList x = lookup x indexList
