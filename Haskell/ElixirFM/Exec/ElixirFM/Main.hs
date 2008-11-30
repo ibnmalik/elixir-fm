@@ -152,7 +152,7 @@ elixirResolve o p = interact (unlines . map (show . pretty . q) . concat . map w
           e = if null p then "" else map toLower (head p)
 
 
-elixirInflect o p = interact (unlines . map (show . q) . concat . map words . onlines)
+elixirInflect o p = interact (unlines . map (show . q) . map words . onlines)
 
     where q x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (inflect (Lexeme r e) x) | e <- z ]) w ]
 
