@@ -723,41 +723,6 @@ cluster_100 = cluster
     _____                     `xtra`    {- <dI.gUl> -}         [ ['D','e','g','a','u','l','l','e'] ] ]
 
 
-cluster_101 = cluster
-
- |> "dU.glAs" <| [
-
-    _____                     `xtra`    {- <dU.glAs> -}        [ ['D','o','u','g','l','a','s'] ] ]
-
-
-cluster_102 = cluster
-
- |> "dIfAt^s" <| [
-
-    _____                     `xtra`    {- <dIfAt^s> -}        [ ['D','i','v','a','c'] ] ]
-
-
-cluster_103 = cluster
-
- |> "dAfId" <| [
-
-    _____                     `xtra`    {- <dAfId> -}          [ ['D','a','v','i','d'] ] ]
-
-
-cluster_104 = cluster
-
- |> "dAfIdI" <| [
-
-    _____                     `xtra`    {- <dAfIdI> -}         [ ['D','a','v','i','d','e'] ] ]
-
-
-cluster_105 = cluster
-
- |> "dIfuwAr" <| [
-
-    _____                     `xtra`    {- <dIfuwAr> -}        [ ['d','\'','I','v','o','i','r','e'] ] ]
-
-
 section = [ cluster_1,
             cluster_2,
             cluster_3,
@@ -857,9 +822,4 @@ section = [ cluster_1,
             cluster_97,
             cluster_98,
             cluster_99,
-            cluster_100,
-            cluster_101,
-            cluster_102,
-            cluster_103,
-            cluster_104,
-            cluster_105 ]
+            cluster_100 ]

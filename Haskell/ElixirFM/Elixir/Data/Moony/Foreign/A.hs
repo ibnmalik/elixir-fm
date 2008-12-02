@@ -230,6 +230,13 @@ cluster_29  = cluster
 
 cluster_30  = cluster
 
+ |> "'UtI" <| [
+
+    _____                     `xtra`    {- <'UtI> -}           [ ['O','t','t','e','y'] ] ]
+
+
+cluster_31  = cluster
+
  |> "'UtU" <| [
 
     _____                     `xtra`    {- <'UtU> -}           [ ['O','t','t','o'] ] ]
@@ -239,385 +246,371 @@ cluster_30  = cluster
     _____                     `xtra`    {- <'UtI> -}           [ ['O','t','t','e','y'] ] ]
 
 
-cluster_31  = cluster
-
- |> "'UtI" <| [
-
-    _____                     `xtra`    {- <'UtI> -}           [ ['O','t','t','e','y'] ] ]
-
-
 cluster_32  = cluster
-
- |> "'UtAr" <| [
-
-    _____                     `xtra`    {- <'UtAr> -}          [ ['U','t','t','a','r'] ] ]
-
-
-cluster_33  = cluster
 
  |> "'ItAr" <| [
 
     _____                     `xtra`    {- <'ItAr> -}          [ ['I','T','A','R'] ] ]
 
 
-cluster_34  = cluster
+cluster_33  = cluster
 
  |> "'UtAr" <| [
 
     _____                     `xtra`    {- <'UtAr> -}          [ ['U','t','t','a','r'] ] ]
 
 
-cluster_35  = cluster
+cluster_34  = cluster
 
  |> "'UtArAn^sAl" <| [
 
     _____                     `xtra`    {- <'UtArAn^sAl> -}    [ ['U','t','t','a','r','a','n','c','h','a','l'] ] ]
 
 
-cluster_36  = cluster
+cluster_35  = cluster
 
  |> "'atA.gI" <| [
 
     _____                     `xtra`    {- <'atA.gI> -}        [ ['A','t','a','g','i'] ] ]
 
 
-cluster_37  = cluster
+cluster_36  = cluster
 
  |> "'atAl" <| [
 
     _____                     `xtra`    {- <'atAl> -}          [ ['A','t','a','l'] ] ]
 
 
-cluster_38  = cluster
+cluster_37  = cluster
 
  |> "'atIlA" <| [
 
     _____                     `xtra`    {- <'atIlA> -}         [ ['A','t','t','i','l','a'] ] ]
 
 
-cluster_39  = cluster
+cluster_38  = cluster
 
  |> "'atAlAntA" <| [
 
     _____                     `xtra`    {- <'atAlAntA> -}      [ ['A','t','a','l','a','n','t','a'] ] ]
 
 
-cluster_40  = cluster
+cluster_39  = cluster
 
  |> "'atAnAs" <| [
 
     _____                     `xtra`    {- <'atAnAs> -}        [ ['A','t','a','n','a','s'] ] ]
 
 
-cluster_41  = cluster
+cluster_40  = cluster
 
  |> "'UtAwA" <| [
 
     _____                     `xtra`    {- <'UtAwA> -}         [ ['O','t','t','a','w','a'] ] ]
 
 
-cluster_42  = cluster
+cluster_41  = cluster
 
  |> "'Utri_ht" <| [
 
     _____                     `xtra`    {- <'Utri_ht> -}       [ ['U','t','r','e','c','h','t'] ] ]
 
 
-cluster_43  = cluster
+cluster_42  = cluster
 
  |> "'itziyUn" <| [
 
     _____                     `xtra`    {- <'itziyUn> -}       [ ['E','t','z','i','o','n'] ] ]
 
 
-cluster_44  = cluster
+cluster_43  = cluster
 
  |> "'At^s" <| [
 
     _____                     `xtra`    {- <'At^s> -}          [ ['H','.'] ] ]
 
 
-cluster_45  = cluster
+cluster_44  = cluster
 
  |> "'It^sIbIryA" <| [
 
     _____                     `xtra`    {- <'It^sIbIryA> -}    [ ['E','c','h','e','v','e','r','r','i','a'] ] ]
 
 
-cluster_46  = cluster
+cluster_45  = cluster
 
  |> "'atlitIkU" <| [
 
     _____                     `xtra`    {- <'atlitIkU> -}      [ ['A','t','l','e','t','i','c','o'] ] ]
 
 
-cluster_47  = cluster
+cluster_46  = cluster
 
  |> "'atlAntA" <| [
 
     _____                     `xtra`    {- <'atlAntA> -}       [ ['A','t','l','a','n','t','a'] ] ]
 
 
-cluster_48  = cluster
+cluster_47  = cluster
 
  |> "'atlAntIk" <| [
 
     _____                     `xtra`    {- <'atlAntIk> -}      [ ['A','t','l','a','n','t','i','c'] ] ]
 
 
-cluster_49  = cluster
+cluster_48  = cluster
 
  |> "'a_tInA" <| [
 
     _____                     `xtra`    {- <'a_tInA> -}        [ ['A','t','h','e','n','s'] ] ]
 
 
-cluster_50  = cluster
+cluster_49  = cluster
 
  |> "'I^gUr" <| [
 
     _____                     `xtra`    {- <'I^gUr> -}         [ ['I','g','o','r'] ] ]
 
 
-cluster_51  = cluster
+cluster_50  = cluster
 
  |> "'U^galAn" <| [
 
     _____                     `xtra`    {- <'U^galAn> -}       [ ['O','c','a','l','a','n'], ['O','u','j','a','l','a','n'] ] ]
 
 
-cluster_52  = cluster
+cluster_51  = cluster
 
  |> "'U^gIn" <| [
 
     _____                     `xtra`    {- <'U^gIn> -}         [ ['E','u','g','e','n','e'] ] ]
 
 
-cluster_53  = cluster
+cluster_52  = cluster
 
  |> "'I^gih" <| [
 
     _____                     `xtra`    {- <'I^gih> -}         [ ['A','e','g','e','a','n'] ] ]
 
 
-cluster_54  = cluster
+cluster_53  = cluster
 
  |> "'a^gAwId" <| [
 
     _____                     `xtra`    {- <'a^gAwId> -}       [ ['E','c','e','v','i','t'] ] ]
 
 
-cluster_55  = cluster
+cluster_54  = cluster
 
  |> "'a.harUnUt" <| [
 
     _____                     `xtra`    {- <'a.harUnUt> -}     [ ['A','h','a','r','o','n','o','t'], ['A','h','r','o','n','o','t'] ] ]
 
 
-cluster_56  = cluster
+cluster_55  = cluster
 
  |> "'IdI" <| [
 
     _____                     `xtra`    {- <'IdI> -}           [ ['E','d','d','i','e'] ] ]
 
 
-cluster_57  = cluster
+cluster_56  = cluster
 
  |> "'adIs" <| [
 
     _____                     `xtra`    {- <'adIs> -}          [ ['A','d','d','i','s'] ] ]
 
 
-cluster_58  = cluster
+cluster_57  = cluster
 
  |> "'adIltUn" <| [
 
     _____                     `xtra`    {- <'adIltUn> -}       [ ['A','d','d','l','e','t','o','n'] ] ]
 
 
-cluster_59  = cluster
+cluster_58  = cluster
 
  |> "'adUlf" <| [
 
     _____                     `xtra`    {- <'adUlf> -}         [ ['A','d','o','l','f'] ] ]
 
 
-cluster_60  = cluster
+cluster_59  = cluster
 
  |> "'adUlfU" <| [
 
     _____                     `xtra`    {- <'adUlfU> -}        [ ['A','d','o','l','f','o'] ] ]
 
 
-cluster_61  = cluster
+cluster_60  = cluster
 
  |> "'adUmIm" <| [
 
     _____                     `xtra`    {- <'adUmIm> -}        [ ['A','d','u','m','i','m'] ] ]
 
 
-cluster_62  = cluster
+cluster_61  = cluster
 
  |> "'UdInIzI" <| [
 
     _____                     `xtra`    {- <'UdInIzI> -}       [ ['U','d','i','n','e','s','e'] ] ]
 
 
-cluster_63  = cluster
+cluster_62  = cluster
 
  |> "'adUnIs" <| [
 
     _____                     `xtra`    {- <'adUnIs> -}        [ ['A','d','o','n','i','s'] ] ]
 
 
-cluster_64  = cluster
+cluster_63  = cluster
 
  |> "'IdIn.gtUn" <| [
 
     _____                     `xtra`    {- <'IdIn.gtUn> -}     [ ['E','d','d','i','n','g','t','o','n'], ['E','d','i','n','g','t','o','n'] ] ]
 
 
-cluster_65  = cluster
+cluster_64  = cluster
 
  |> "'idrimId" <| [
 
     _____                     `xtra`    {- <'idrimId> -}       [ ['E','d','r','e','m','i','t'] ] ]
 
 
-cluster_66  = cluster
+cluster_65  = cluster
 
  |> "'adriyAtIk" <| [
 
     _____                     `xtra`    {- <'adriyAtIk> -}     [ ['A','d','r','i','a','t','i','c'] ] ]
 
 
-cluster_67  = cluster
+cluster_66  = cluster
 
  |> "'adriyAn" <| [
 
     _____                     `xtra`    {- <'adriyAn> -}       [ ['A','d','r','i','a','n'] ] ]
 
 
-cluster_68  = cluster
+cluster_67  = cluster
 
  |> "'adriyAnU" <| [
 
     _____                     `xtra`    {- <'adriyAnU> -}      [ ['A','d','r','i','a','n','o'] ] ]
 
 
-cluster_69  = cluster
+cluster_68  = cluster
 
  |> "'admIrA" <| [
 
     _____                     `xtra`    {- <'admIrA> -}        [ ['A','d','m','i','r','a'] ] ]
 
 
-cluster_70  = cluster
+cluster_69  = cluster
 
  |> "'admIrAl" <| [
 
     _____                     `xtra`    {- <'admIrAl> -}       [ ['A','d','m','i','r','a','l'] ] ]
 
 
-cluster_71  = cluster
+cluster_70  = cluster
 
  |> "'idmUn" <| [
 
     _____                     `xtra`    {- <'idmUn> -}         [ ['E','d','m','o','n','d'] ] ]
 
 
-cluster_72  = cluster
+cluster_71  = cluster
 
  |> "'idmUnd" <| [
 
     _____                     `xtra`    {- <'idmUnd> -}        [ ['E','d','m','u','n','d'], ['E','d','m','o','n','d'] ] ]
 
 
-cluster_73  = cluster
+cluster_72  = cluster
 
  |> "'idmUndU" <| [
 
     _____                     `xtra`    {- <'idmUndU> -}       [ ['E','d','m','u','n','d','o'] ] ]
 
 
-cluster_74  = cluster
+cluster_73  = cluster
 
  |> "'adwArd" <| [
 
     _____                     `xtra`    {- <'adwArd> -}        [ ['E','d','w','a','r','d'], ['E','d','o','u','a','r','d'] ] ]
 
 
-cluster_75  = cluster
+cluster_74  = cluster
 
  |> "'idwArdU" <| [
 
     _____                     `xtra`    {- <'idwArdU> -}       [ ['E','d','u','a','r','d','o'] ] ]
 
 
-cluster_76  = cluster
+cluster_75  = cluster
 
  |> "'idwArdz" <| [
 
     _____                     `xtra`    {- <'idwArdz> -}       [ ['E','d','w','a','r','d','s'] ] ]
 
 
-cluster_77  = cluster
+cluster_76  = cluster
 
  |> "'Ir" <| [
 
     _____                     `xtra`    {- <'Ir> -}            [ ['A','i','r'] ] ]
 
 
-cluster_78  = cluster
+cluster_77  = cluster
 
  |> "'ar" <| [
 
     _____                     `xtra`    {- <'ar> -}            [ ['R','.'] ] ]
 
 
-cluster_79  = cluster
+cluster_78  = cluster
 
  |> "'UrI_hA" <| [
 
     _____                     `xtra`    {- <'UrI_hA> -}        [ ['O','r','e','j','a'] ] ]
 
 
-cluster_80  = cluster
+cluster_79  = cluster
 
  |> "'UrIsUfIt^s" <| [
 
     _____                     `xtra`    {- <'UrIsUfIt^s> -}    [ ['O','r','e','s','o','v','i','c'] ] ]
 
 
-cluster_81  = cluster
+cluster_80  = cluster
 
  |> "'UrI.gUn" <| [
 
     _____                     `xtra`    {- <'UrI.gUn> -}       [ ['O','r','e','g','o','n'] ] ]
 
 
-cluster_82  = cluster
+cluster_81  = cluster
 
  |> "'arI.gwI" <| [
 
     _____                     `xtra`    {- <'arI.gwI> -}       [ ['A','r','r','e','g','u','i'] ] ]
 
 
-cluster_83  = cluster
+cluster_82  = cluster
 
  |> "'arIksUn" <| [
 
     _____                     `xtra`    {- <'arIksUn> -}       [ ['E','r','i','k','s','o','n'], ['E','r','i','c','s','s','o','n'] ] ]
 
 
-cluster_84  = cluster
+cluster_83  = cluster
 
  |> "'arAmkU" <| [
 
     _____                     `xtra`    {- <'arAmkU> -}        [ ['A','R','A','M','C','O'] ] ]
 
 
-cluster_85  = cluster
+cluster_84  = cluster
 
  |> "'arUn" <| [
 
@@ -628,144 +621,116 @@ cluster_85  = cluster
     _____                     `xtra`    {- <'ArUn> -}          [ ['A','a','r','o','n'] ] ]
 
 
-cluster_86  = cluster
+cluster_85  = cluster
 
  |> "'arInA" <| [
 
     _____                     `xtra`    {- <'arInA> -}         [ ['A','r','e','n','a'] ] ]
 
 
-cluster_87  = cluster
+cluster_86  = cluster
 
  |> "'arAnt^sA" <| [
 
     _____                     `xtra`    {- <'arAnt^sA> -}      [ ['A','r','a','n','c','h','a'] ] ]
 
 
-cluster_88  = cluster
+cluster_87  = cluster
 
  |> "'arAy" <| [
 
     _____                     `xtra`    {- <'arAy> -}          [ ['A','r','r','a','y'] ] ]
 
 
-cluster_89  = cluster
+cluster_88  = cluster
 
  |> "'ariyIl" <| [
 
     _____                     `xtra`    {- <'ariyIl> -}        [ ['A','r','i','e','l'] ] ]
 
 
-cluster_90  = cluster
+cluster_89  = cluster
 
  |> "'IrbA.s" <| [
 
     _____                     `xtra`    {- <'IrbA.s> -}        [ ['A','i','r','b','u','s'] ] ]
 
 
-cluster_91  = cluster
+cluster_90  = cluster
 
  |> "'arbakAn" <| [
 
     _____                     `xtra`    {- <'arbakAn> -}       [ ['A','r','b','a','k','a','n'] ] ]
 
 
-cluster_92  = cluster
+cluster_91  = cluster
 
  |> "'arbIl" <| [
 
     _____                     `xtra`    {- <'arbIl> -}         [ ['E','r','b','i','l'], ['I','r','b','i','l'] ] ]
 
 
-cluster_93  = cluster
+cluster_92  = cluster
 
  |> "'UrbAn" <| [
 
     _____                     `xtra`    {- <'UrbAn> -}         [ ['O','r','b','a','n'], ['U','r','b','a','n'] ] ]
 
 
-cluster_94  = cluster
+cluster_93  = cluster
 
  |> "'artUr" <| [
 
     _____                     `xtra`    {- <'artUr> -}         [ ['A','r','t','u','r','e'] ] ]
 
 
-cluster_95  = cluster
+cluster_94  = cluster
 
  |> "'artUrU" <| [
 
     _____                     `xtra`    {- <'artUrU> -}        [ ['A','r','t','u','r','o'] ] ]
 
 
-cluster_96  = cluster
+cluster_95  = cluster
 
  |> "'artUrAs" <| [
 
     _____                     `xtra`    {- <'artUrAs> -}       [ ['A','r','t','u','r','a','s'] ] ]
 
 
-cluster_97  = cluster
+cluster_96  = cluster
 
  |> "'artimUf" <| [
 
     _____                     `xtra`    {- <'artimUf> -}       [ ['A','r','t','i','m','o','v'] ] ]
 
 
-cluster_98  = cluster
+cluster_97  = cluster
 
  |> "'ar_turz" <| [
 
     _____                     `xtra`    {- <'ar_turz> -}       [ ['A','r','t','h','u','r','s'] ] ]
 
 
-cluster_99  = cluster
+cluster_98  = cluster
 
  |> "'ar_hIbUf" <| [
 
     _____                     `xtra`    {- <'ar_hIbUf> -}      [ ['A','r','k','h','i','p','o','v'], ['A','r','c','h','i','p','o','v'] ] ]
 
 
-cluster_100 = cluster
+cluster_99  = cluster
 
  |> "'arsA_hAnUf" <| [
 
     _____                     `xtra`    {- <'arsA_hAnUf> -}    [ ['A','r','s','a','k','h','a','n','o','v'] ] ]
 
 
-cluster_101 = cluster
+cluster_100 = cluster
 
  |> "'arsinAl" <| [
 
     _____                     `xtra`    {- <'arsinAl> -}       [ ['A','r','s','e','n','a','l'] ] ]
-
-
-cluster_102 = cluster
-
- |> "'arslAn" <| [
-
-    _____                     `xtra`    {- <'arslAn> -}        [ ['A','r','s','l','a','n'] ] ]
-
-
-cluster_103 = cluster
-
- |> "'ar.durUm" <| [
-
-    _____                     `xtra`    {- <'ar.durUm> -}      [ ['E','r','z','u','r','u','m'] ] ]
-
-
-cluster_104 = cluster
-
- |> "'arfIdAs" <| [
-
-    _____                     `xtra`    {- <'arfIdAs> -}       [ ['A','r','v','y','d','a','s'] ] ]
-
-
-cluster_105 = cluster
-
- |> "'arfinbir.g" <| [
-
-    _____                     `xtra`    {- <'arfinbir.g> -}    [ ['A','r','v','e','n','b','e','r','g'] ] ]
 
 
 section = [ cluster_1,
@@ -867,9 +832,4 @@ section = [ cluster_1,
             cluster_97,
             cluster_98,
             cluster_99,
-            cluster_100,
-            cluster_101,
-            cluster_102,
-            cluster_103,
-            cluster_104,
-            cluster_105 ]
+            cluster_100 ]

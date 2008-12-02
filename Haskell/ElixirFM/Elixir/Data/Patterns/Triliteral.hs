@@ -818,6 +818,7 @@ data PatternT =
         |   FACUL                       |   FA'UL
         |   FayCUL
 
+        |   FACIL
         |   FACAL
 
         |   FawACIL                     |   FawA'IL
