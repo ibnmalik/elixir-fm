@@ -264,6 +264,21 @@ sub restrict {
     return join '', map { $restrict[$_] eq '-' && defined $inherit[$_] ? $inherit[$_] : $restrict[$_] } 0 .. $#restrict;
 }
 
+sub prune ($) {
+
+    my $node = $_[0];
+
+    return $node unless $node->{'data'}{'type'} == 4;
+
+    @{$node->{'node'}} = grep {
+
+	                      not grep { not @{$_->{'node'}} } @{$_->{'node'}}
+
+                         } @{$node->{'node'}};
+
+    return $node;
+}
+
 sub unprettyResolve {
 
     my (undef, @node) = split /[:]{4}/, $_[0];
@@ -276,7 +291,7 @@ sub unprettyResolve {
             'data'  =>  {
 
                     'info'  =>  [ map { join ' ', split ' ' } split /[:]{2}/, $data ],
-                    'deep'  =>  4,
+                    'type'  =>  4,
                 },
 
             'node'  =>  [
@@ -289,7 +304,7 @@ sub unprettyResolve {
                             'data'  =>  {
 
                                     'info'  =>  [ map { join ' ', split ' ' } split /[:]{1}/, $data ],
-                                    'deep'  =>  3,
+                                    'type'  =>  3,
                                 },
 
                             'node'  =>  [
@@ -302,7 +317,7 @@ sub unprettyResolve {
                                             'data'  =>  {
 
                                                     'info'  =>  [ join ' ', split ' ', $data ],
-                                                    'deep'  =>  2,
+                                                    'type'  =>  2,
                                                 },
 
                                             'node'  =>  [
@@ -323,7 +338,7 @@ sub unprettyResolve {
                                                             'data'  =>  {
 
                                                                     'info'  =>  [ split /[\n ]*\t/, $data ],
-                                                                    'deep'  =>  1,
+                                                                    'type'  =>  1,
                                                                 },
 
                                                             'node'  =>  [
@@ -334,7 +349,7 @@ sub unprettyResolve {
                                                                             'data'  =>  {
 
                                                                                     'info'  =>  [ split /[\n ]*\t/, $_ ],
-                                                                                    'deep'  =>  0,
+                                                                                    'type'  =>  0,
                                                                                 },
 
                                                                             'node'  =>  [

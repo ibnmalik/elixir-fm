@@ -226,11 +226,11 @@ sub pretty_resolve ($$) {
         $r .= $q->h3($q->span({-class => "word",
                                -title => "input word"}, $text[$i]));
 
-        my $tree = pretty_resolve_tree($word[$i], $q);
+	$word[$i] = ElixirFM::prune($word[$i]);
 
-        if ($tree) {
+        if (@{$word[$i]->{'node'}}) {
 
-            $r .= $q->ul({-class => 'listexpander'}, $tree);
+            $r .= $q->ul({-class => 'listexpander'}, pretty_resolve_tree($word[$i], $q));
         }
         else {
 
@@ -251,7 +251,7 @@ sub pretty_data {
 
     my $text = '';
 
-    if ($data->{'deep'} == 2) {
+    if ($data->{'type'} == 2) {
 
 	$text = join " ", map { my $x = $_; $x = $x eq '<>' ? '???' : substr $x, 1, -1;
 

@@ -53,20 +53,20 @@ ul.listexpander li.empty{cursor:default;background:#f8e7e7 url(empty.gif) no-rep
 /* second level */
 
 .listexpander li ul,
-.listexpander li li{background:#eee;font-weight:normal;}
-.listexpander li li.collapsed{background:#eee url(collapsed.gif) no-repeat 5px .5em;} 
-.listexpander li li.expanded{background:#eee url(expanded.gif) no-repeat 5px .5em;}
+.listexpander li li{background:#eed;font-weight:normal;}
+.listexpander li li.collapsed{background:#eed url(collapsed.gif) no-repeat 5px .5em;} 
+.listexpander li li.expanded{background:#eed url(expanded.gif) no-repeat 5px .5em;}
 
 /* third level */
 
 .listexpander li li ul,
-.listexpander li li li{background:#fff;}
-.listexpander li li li.collapsed{background:#fff url(collapsed.gif) no-repeat 5px .5em;} 
-.listexpander li li li.expanded{background:#fff url(expanded.gif) no-repeat 5px .5em;}
+.listexpander li li li{background:#ffe;}
+.listexpander li li li.collapsed{background:#ffe url(collapsed.gif) no-repeat 5px .5em;} 
+.listexpander li li li.expanded{background:#ffe url(expanded.gif) no-repeat 5px .5em;}
 
 /* fourth level */
 
-.listexpander li li li li{text-indent:0;margin-left:30px;width:auto;}
+.listexpander li li li li{background:#fff; } /* li{text-indent:0;margin-left:30px;width:auto;} */
 
 /* etc. */
 
