@@ -575,12 +575,13 @@ omitting e c [] (q:r)        | q `elem` snd c = omitting e c [] r
                              | otherwise      = False
 
 
-isSubsumed :: Eq a => (a -> a -> Bool) -> [a] -> [a] -> Bool
+isSubsumed :: (String -> String -> Bool) -> [String] -> [String] -> Bool
 
 isSubsumed _ []        _      = True
 isSubsumed _ _         []     = False
 
-isSubsumed f zs@(x:xs) (y:ys) | x `f` y   = isSubsumed f xs ys
+isSubsumed f zs@(x:xs) (y:ys) | x `f` y || x == "_d" && y == "d"
+                                          = isSubsumed f xs ys
                               | otherwise = isSubsumed f zs ys
 
 

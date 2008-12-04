@@ -36,114 +36,67 @@ import Data.List hiding (lookup)
 import Prelude hiding (lookup)
 
 
-class Lookup a where
-
-    lookup :: a -> [Index]
-
- -- lookupBy :: (a -> c -> Bool) -> Lexicon -> b
-
- -- lookup x = lookupBy (==)
-
-
-lookupIndex (n, m) y = [ z | w <- find n y, z <- wraps lookup' w ]
+lookupClips (i, n) y = [ z | w <- find i y, z <- wraps lookups w ]
 
     where find x y | x > 0     = take 1 (drop (x - 1) y)
                    | x < 0     = find (-x) (reverse y)
                    | otherwise = y
 
-          lookup' (Nest r z) = [Nest r (find m z)]
+          lookups (Nest r l) = [Nest r [ e | j <- n, e <- find j l ]]
 
 
+lookupIndex (i, j) = lookupClips (i, [j])
 
+
+emanate :: Clips -> Lexicon
+
+emanate = flip lookupClips lexicon
+
+
+lookupWith :: (Root -> Bool) -> (forall c . (Wrapping c, Template c, Show c, Rules c, Forming c, Morphing c c) => Root -> Entry c -> Bool) -> [Clips]
+
+lookupWith p q = [ z | (n, i) <- zip lexicon [1 ..], z <- unwraps (lookups i p q) n ]
+
+    where lookups i p q (Nest r l) | p r       = [(i, [0])]
+                                   | otherwise = if null js then [] else [(i, js)]
+                                  
+                                    where js = [ j | (e, j) <- zip l [1 ..], q r e ]
+
+
+class Lookup a where
+
+    lookup :: a -> [Clips]
+
+    lookupIn :: a -> [Clips] -> [Clips]
+
+ 
 instance Lookup [UPoint] where
 
-    lookup x = lookupBy ((x ==) . decode TeX)
+    lookup x = lookupWith ((x ==) . decode TeX) (\ r e -> x == decode TeX (merge r (morphs e)))
 
 
 instance Lookup String where
 
-    lookup x = lookupBy (x ==)
+    lookup x = lookupWith (x ==) (\ r e -> x == merge r (morphs e))
+
+    
+type Regex = [String]
 
 
-lookupBy f = [ z | (n, n') <- zip lexicon [1 ..], z <- unwraps (lookup' n' f) n ]
+instance Lookup Regex where
 
-    where lookup' n' f (Nest r l) | f r       = [(n', 0)]
-                                  | otherwise = [ (n', e') | (e, e') <- zip l [1 ..], let m = morphs e
-                                                                                          h = merge r m, f h ]
-                    
-{-
-instance Lookup [Root] Lexicon where
-
-    lookup x y = lookupRootBy ((x ==) . words) y
--}
-
-
-{-
-lookupRoot :: Root -> Lexicon -> Lexicon
-
-lookupRoot r l = lookupRootBy (r ==) l
-
-
-lookupRootBy f l = concat [ wraps (\ x -> if f (root x) then [x] else []) n | n <- l ]
-
--- Would be so nice ... but HOW TO DO IT? ... thanks forall ^^
---
--- lookupRoot r l = [ n | n <- l, unwrap root n == r ]
-
-
-lookupEntry :: String -> Lexicon -> Lexicon
-
-lookupEntry w l = lookupEntryBy (w ==) l
-
-
-lookupEntryBy f l = [ z | n <- l, z <- wraps (lookup' f) n ]
-
-    where lookup' f (Nest r l) = case [ e | e <- l, let m = morphs e
-                                                        h = merge r m, f h ]
-                                 of [] -> []
-                                    xs -> [Nest r xs]
-
-{-
-lookupEntry w l = [ s | n <- l, s <- case n of
-
-                                WrapL (Nest r e) -> lookupEntry' WrapL w r e
-                                WrapT (Nest r e) -> lookupEntry' WrapT w r e
-                                WrapQ (Nest r e) -> lookupEntry' WrapQ w r e
-                                WrapS (Nest r e) -> lookupEntry' WrapS w r e ]
-
-lookupEntry' z w r es = [ wrap (Lexeme r (const e z)) | e <- es, let m = morphs e
-                                                                     h = merge r m, w == h ]
--}
+    lookup x = lookupWith (const False) (\ _ e -> any (any (`elem` x) . words) (reflex e))
 
 
 instance Show a => Lookup (Morphs a) where
 
-    lookup x y = [ z | w <- y, z <- wraps lookup' w ]
-
-        where lookup' (Nest r l) = [ Nest r [e] | e <- l,
-                                     (" " ++ show x ++ " ") `isInfixOf` (" " ++ (show . morphs) e ++ " ") ]
+    lookup x = lookupWith (const False) (\ _ e -> (" " ++ show x ++ " ") `isInfixOf` (" " ++ show (morphs e) ++ " "))
 
 
 instance (Morphing a b, Show b) => Lookup a where
 
     lookup x = lookup (morph x)
 
-
-countNest :: Lexicon -> Int
-countNest = length
-
-countEntry :: Lexicon -> Int
-countEntry = sum . map countEach
-
-countEach :: Wrap Nest -> Int
-countEach = length . wraps ents
-
-{-
-countEach (WrapL l) = length (ents l)
-countEach (WrapT l) = length (ents l)
-countEach (WrapQ l) = length (ents l)
-countEach (WrapS l) = length (ents l)
--}
 
 {-
 instance Lookup Regex [Wrap Lexeme] where
@@ -155,56 +108,12 @@ instance Lookup Regex [Wrap Lexeme] where
                                         . matchRegex x) (reflex e) ]
 -}
 
-type Regex = [String]
 
-instance Lookup Regex where
+countNest :: Lexicon -> Int
+countNest = length
 
-    lookup x y = [ z | w <- y, z <- wraps lookup' w ]
+countEntry :: Lexicon -> Int
+countEntry = sum . map countEach
 
-        where lookup' (Nest r l) = [ Nest r [e] | e <- l,
-                                     any (any (`elem` x) . words) (reflex e) ]
-
-
-lookupReflex :: String -> Lexicon -> [Wrap Lexeme]
-
-lookupReflex w l = concat [ wraps (lookupReflex' w) n | n <- l ]
-
-lookupReflex' w (Nest r l) = [ Lexeme r e | e <- l, any (elem w . words)
-                                                        (reflex e) ]
-
--- lookupReflex' w (Nest r l) = [ Lexeme r e | e <- l, let x = reflex e, s <- x,
---                                             any (w ==) (words s) ]
-
-{-
-inflectLookup l t = [ case i of WrapT x -> inflects x
-                                WrapQ x -> inflects x
-                                WrapS x -> inflects x
-                                WrapL x -> inflects x | i <- l ]
-
-    where inflects x = (map (map (uncurry merge) . snd)) (inflect x t)
--}
-
-
-
-lookupLemma :: String -> Lexicon -> String
-
-lookupLemma w l = (unlines . concat) (map (unwraps (lookupLemma' w)) l)
-
-lookupLemma' :: (Template a, Show a) => String -> Nest a -> [String]
-
-lookupLemma' w (Nest r es) = [ merge r m ++ " (" ++ r ++ ") " ++ show m ++ "\n\t" ++
-                        show (entity e) ++ "\n" ++ unlines (reflex e)
-
-                        | e <- es, let m = morphs e
-                                       h = merge r m, w == h ]
-
-
-{-
-lookupLemma w l = unlines [ s | n <- l, s <- case n of
-
-                                WrapL y@(Nest r e) -> (lookupLemma' w y)
-                                WrapT y@(Nest r e) -> (lookupLemma' w y)
-                                WrapQ y@(Nest r e) -> (lookupLemma' w y)
-                                WrapS y@(Nest r e) -> (lookupLemma' w y) ]
--}
--}
+countEach :: Wrap Nest -> Int
+countEach = length . wraps ents
