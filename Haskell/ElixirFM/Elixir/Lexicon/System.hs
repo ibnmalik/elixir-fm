@@ -98,7 +98,7 @@ type Lexicon = [Wrap Nest]
 
 type Cluster = Lexicon
 
-type Clips = (Int, [Int])
+type Clips = (Int, Maybe [Int])
 
 type Index = (Int, Int)
 

@@ -307,7 +307,7 @@ instance Restrict [TagsType] where
     restrict xs ys = [ restrict x zs | zs <- ys, z <- zs, x <- select z (nub xs) ]
     -- restrict xs ys = [ restrict z (nub xs) | zs <- ys, z <- zs ]
 
-    
+
 instance Restrict String where
 
     complete = ["----------"]

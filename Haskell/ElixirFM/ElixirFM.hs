@@ -59,7 +59,7 @@ import Encode.Arabic
 
 import Data.List hiding (lookup)
 
-import qualified Data.Map
+import qualified Data.Map as Map
 
 import Version
 
