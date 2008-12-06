@@ -373,6 +373,10 @@ cluster_19  = cluster
 
  |> "m .h q" <| [
 
+    "InFaCaL"                 `verb`    {- <imma.haq> -}       [ unwords [ ['b','e'], ['a','n','n','i','h','i','l','a','t','e','d'] ], ['p','e','r','i','s','h'] ] ]
+
+ |> "m .h q" <| [
+
     FaCaL                     `verb`    {- <ma.haq> -}         [ ['e','r','a','d','i','c','a','t','e'], ['a','n','n','i','h','i','l','a','t','e'] ]
                               `imperf`     FCaL,
 
@@ -381,8 +385,6 @@ cluster_19  = cluster
     TaFaCCaL                  `verb`    {- <tama.h.haq> -}     [ unwords [ ['b','e'], ['a','n','n','i','h','i','l','a','t','e','d'] ], ['p','e','r','i','s','h'] ],
 
     InFaCaL                   `verb`    {- <inma.haq> -}       [ unwords [ ['b','e'], ['a','n','n','i','h','i','l','a','t','e','d'] ], ['p','e','r','i','s','h'] ],
-
-    "InFaCaL"                 `verb`    {- <imma.haq> -}       [ unwords [ ['b','e'], ['a','n','n','i','h','i','l','a','t','e','d'] ], ['p','e','r','i','s','h'] ],
 
     IFtaCaL                   `verb`    {- <imta.haq> -}       [ unwords [ ['b','e'], ['a','n','n','i','h','i','l','a','t','e','d'] ], ['p','e','r','i','s','h'] ],
 
