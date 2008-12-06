@@ -18,16 +18,18 @@
 module Elixir.Lookup where
 
 
-import Elixir.Template
+import qualified Data.Map as Map
+
+import Elixir.System
+import Elixir.Derive
 
 import Elixir.Data.Lexicons
 
 import Elixir.Lexicon
+import Elixir.Template
 
 import Encode
 import Encode.Arabic
-
-import qualified Data.Map as Map
 
 import Data.List hiding (lookup)
 
@@ -125,6 +127,26 @@ instance Show a => Lookup (Morphs a) where
 instance (Morphing a b, Show b) => Lookup a where
 
     lookupWith y x = lookupWith y (morph x)
+
+
+instance Lookup Form where
+
+    lookupWith y x = lookupUsing y (const False) (\ r e -> x `elem` lookupForm (case domain e of TagsVerb _ -> 'V'
+                                                                                                 TagsNoun _ -> 'N'
+                                                                                                 TagsAdj  _ -> 'A'
+                                                                                                 _          -> '-') r e)
+
+                  -- lookupUsing y (const False) (\ _ e -> isForm x (morphs e))
+
+
+instance Lookup TagsType where
+
+    lookupWith y x = lookupWith y [x]
+
+
+instance Lookup [TagsType] where
+
+    lookupWith y x = lookupUsing y (const False) (\ _ e -> (not . null) (restrict (domain e) x))
 
 
 countNest :: Lexicon -> Int
