@@ -173,7 +173,7 @@ instance Resolve String where
 
                                         let r = unwraps (reduce . root) x,
 
-                                        let i = [ v | v <- u, isSubsumed b r v ],
+                                        let i = [ v | v <- u, isSubsumed b except r v ],
 
                                         not (null i), s <- unwraps (inflects i n) x ]
 
@@ -334,7 +334,7 @@ resolveBy' b q t y = [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- z ]
 
                                     let r = unwraps (reduce . root) x,
 
-                                    let i = [ v | v <- u, isSubsumed b r v ],
+                                    let i = [ v | v <- u, isSubsumed b except r v ],
 
                                     not (null i), s <- unwraps (inflects i n) x ]
 
@@ -366,7 +366,7 @@ instance Resolve [UPoint] where
 
                                         let r = unwraps (reduce . root) x,
 
-                                        let i = [ (v, w) | (v, w) <- u, isSubsumed b r w ],
+                                        let i = [ (v, w) | (v, w) <- u, isSubsumed b except r w ],
 
                                         not (null i), s <- unwraps (inflects i n) x ]
 
@@ -381,7 +381,7 @@ instance Resolve [UPoint] where
                                     . Map.fromListWith (++) .
 
                                     (\ x -> [ (concat d, t) | (f, t) <- x, let v = units f, let u = (units . c) f,
-                                                              (d, w) <- y, isSubsumed b w v, u `q` d ])
+                                                              (d, w) <- y, isSubsumed (flip b) approx w v, u `q` d ])
 
                                     . Map.toList . Map.fromListWith (++))
 
@@ -533,7 +533,7 @@ resolveBy'' b q t y = [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- z 
 
                                     let r = unwraps (reduce . root) x,
 
-                                    let i = [ (v, w) | (v, w) <- u, isSubsumed b r w ],
+                                    let i = [ (v, w) | (v, w) <- u, isSubsumed b except r w ],
 
                                     not (null i), s <- unwraps (inflects i n) x ]
 
@@ -546,7 +546,7 @@ resolveBy'' b q t y = [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- z 
                             z <- (Map.foldWithKey (\ k x y -> (k, [reverse x]) : y) [] . Map.fromListWith (++) .
 
                                 (\ x -> [ (concat d, t) | (f, t) <- x, let v = units f, let u = (units . c) f,
-                                                          (d, w) <- y, isSubsumed b w v, u `q` d ])
+                                                          (d, w) <- y, isSubsumed (flip b) approx w v, u `q` d ])
 
                                 . Map.toList . Map.fromListWith (++))
 
@@ -577,18 +577,30 @@ omitting e c [] (q:r)        | q `elem` snd c = omitting e c [] r
                              | otherwise      = False
 
 
-isSubsumed :: (String -> String -> Bool) -> [String] -> [String] -> Bool
+isSubsumed :: (String -> String -> Bool) -> (String -> String -> Bool) -> [String] -> [String] -> Bool
 
-isSubsumed _ []        _      = True
-isSubsumed _ _         []     = False
+isSubsumed _ _ []        _      = True
+isSubsumed _ _ _         []     = False
 
-isSubsumed q zs@(x:xs) (y:ys) | x `q` y ||
-                                x `c` y   = isSubsumed q xs ys
-                              | otherwise = isSubsumed q zs ys
+isSubsumed q c zs@(x:xs) (y:ys) | x `q` y ||
+                                  x `c` y   = isSubsumed q c xs ys
+                                | otherwise = isSubsumed q c zs ys
 
-    where c "t"  "T"  = True
-          c "_d" "d"  = True
-          c _    _    = False
+
+except :: String -> String -> Bool
+
+except "_d" "d"  = True
+except _    _    = False
+
+
+approx :: String -> String -> Bool
+
+approx "t"  "T"  = True
+approx "y"  "I"  = True
+approx "w"  "U"  = True
+approx "y"  "'"  = True
+approx "w"  "'"  = True
+approx _    _    = False
 
 
 reduce :: String -> [String]

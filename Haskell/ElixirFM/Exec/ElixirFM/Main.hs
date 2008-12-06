@@ -163,8 +163,6 @@ elixirInflect o p = interact (unlines . map (show . q) . map words . onlines)
           i = [ z | x <- p, (y, "") <- readsPrec 0 x, z <- lookupIndex y lexicon ]
 
 
--- elixirLookup :: (Lookup String, Lookup [UPoint]) => [Opts] -> [String] -> IO ()
-
 elixirLookup o p = interact (unlines . map (show . pretty . q) . concat . map words . onlines)
 
     where q = case e of
