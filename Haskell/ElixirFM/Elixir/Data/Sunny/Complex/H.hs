@@ -1431,7 +1431,6 @@ cluster_72  = cluster
  |> ".t n n" <| [
 
     FaCL                      `verb`    {- <.tann> -}          [ ['s','o','u','n','d'], unwords [ ['r','i','n','g'], ['o','u','t'] ] ]
-                              `imperf`     FCiL
                               `imperf`     FiCL
                               `pfirst`     FaCaL,
 
@@ -2170,7 +2169,6 @@ cluster_100 = cluster
 
     FaCL                      `verb`    {- <.zann> -}          [ ['t','h','i','n','k'], ['b','e','l','i','e','v','e'], ['p','r','e','s','u','m','e'] ]
                               `imperf`     FuCL
-                              `imperf`     FCuL
                               `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- <.zann> -}          [ ['o','p','i','n','i','o','n'], ['a','s','s','u','m','p','t','i','o','n'] ],

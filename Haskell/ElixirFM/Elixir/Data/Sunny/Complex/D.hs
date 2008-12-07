@@ -1090,7 +1090,6 @@ cluster_79  = cluster
 
     FaCL                      `verb`    {- <zann> -}           [ ['d','r','o','n','e'], ['b','u','z','z'] ]
                               `imperf`     FuCL
-                              `imperf`     FCuL
                               `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- <zann> -}           [ ['d','r','o','n','i','n','g'], ['b','u','z','z','i','n','g'] ] ]

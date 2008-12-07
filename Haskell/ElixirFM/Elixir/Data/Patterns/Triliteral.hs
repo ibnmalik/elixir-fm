@@ -758,6 +758,7 @@ data PatternT =
 
         |   FaCIL                       |   FayyiL      |   FaCIy
         |   FuCIL                                       |   FuCIy
+        |   FiCIL                                       |   FiCIy
 
         |   FaCA'iL                                     |   FaCA'I
         |   FaCAyiL

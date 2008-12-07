@@ -1403,27 +1403,22 @@ cluster_95  = cluster
 
 cluster_96  = cluster
 
- |> "' w l m" <| [
-
-    KuRDAS |< Iy              `adj`     {- <'uwlAmIy> -}       [ ['U','l','a','m','i'] ] ]
-
-
-cluster_97  = cluster
-
  |> "'IwAn" <| [
 
     _____                     `noun`    {- <'IwAn> -}          [ ['p','a','l','a','c','e'], ['h','a','l','l'] ]
                               `plural`     _____ |< At ]
 
+
+cluster_97  = cluster
+
  |> "' w n" <| [
 
     FAL                       `verb`    {- <'An> -}            [ ['a','r','r','i','v','e'], ['a','p','p','r','o','a','c','h'] ]
-                              `imperf`     FUL
-                              `imperf`     FIL,
+                              `imperf`     FUL,
 
     FAL                       `noun`    {- <'An> -}            [ ['t','i','m','e'], ['m','o','m','e','n','t'] ],
 
-    al >| FAL |<< "a"         `noun`    {- <al-'Ana> -}        [ ['n','o','w'] ],
+    al >| FAL |<< "a"         `adv`     {- <al-'Ana> -}        [ ['n','o','w'] ],
 
     FAL |< Iy                 `adj`     {- <'AnIy> -}          [ ['a','c','t','u','a','l'], ['p','r','e','s','e','n','t'], ['s','i','m','u','l','t','a','n','e','o','u','s'] ],
 
@@ -1433,6 +1428,11 @@ cluster_97  = cluster
 
     FaCAL                     `noun`    {- <'awAn> -}          [ ['t','i','m','e'], ['m','o','m','e','n','t'] ]
                               `plural`     HACiL |< aT ]
+
+ |> "' y n" <| [
+
+    FAL                       `verb`    {- <'An> -}            [ ['a','r','r','i','v','e'], ['a','p','p','r','o','a','c','h'] ]
+                              `imperf`     FIL ]
 
 
 cluster_98  = cluster

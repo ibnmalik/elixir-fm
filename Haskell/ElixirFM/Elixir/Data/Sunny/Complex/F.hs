@@ -1750,7 +1750,6 @@ cluster_94  = cluster
  |> "^s n n" <| [
 
     FaCL                      `verb`    {- <^sann> -}          [ ['w','a','g','e'], ['l','a','u','n','c','h'] ]
-                              `imperf`     FCuL
                               `imperf`     FuCL
                               `pfirst`     FaCaL,
 

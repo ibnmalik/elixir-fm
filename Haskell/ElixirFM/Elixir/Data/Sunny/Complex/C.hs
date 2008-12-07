@@ -1811,7 +1811,6 @@ cluster_83  = cluster
 
     FaCL                      `verb`    {- <rann> -}           [ ['r','i','n','g'], ['r','e','s','o','u','n','d'] ]
                               `imperf`     FiCL
-                              `imperf`     FCiL
                               `pfirst`     FaCaL,
 
     FaCL |< aT                `noun`    {- <rannaT> -}         [ ['r','i','n','g','i','n','g'], ['r','e','v','e','r','b','e','r','a','t','i','o','n'], ['s','h','o','u','t'] ],

@@ -1276,7 +1276,6 @@ cluster_70  = cluster
 
     FaCL                      `verb`    {- <sann> -}           [ ['p','r','e','s','c','r','i','b','e'], ['e','n','a','c','t'] ]
                               `imperf`     FuCL
-                              `imperf`     FCuL
                               `pfirst`     FaCaL,
 
     FaCCaL                    `verb`    {- <sannan> -}         [ ['s','h','a','r','p','e','n'], ['i','n','d','e','n','t'] ],
