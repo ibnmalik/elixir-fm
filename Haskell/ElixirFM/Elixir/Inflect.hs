@@ -15,17 +15,7 @@
 -- "ElixirFM"
 
 
-module Elixir.Inflect {- (
-
-        -- * Modules
-
-        module Elixir.System,
-
-        -- * Functions
-
-        guessParadigm
-
-    ) -} where
+module Elixir.Inflect where
 
 
 import Elixir.System
@@ -181,16 +171,13 @@ instance Inflect Lexeme TagsVerb where
 
           inEntry = case entity e of
 
-              Verb fs is _ _ jt jv _
+              Verb fs is ys _ jt jv _
 
                 | maybe False (/= v) jv || maybe False (/= Perfect) jt -> []
 
-                | null is || v == Passive
-                                       -> [ (f, siftVerb t (Perfect,   w) z) | f <- fs, let z = verbStems f r, t <- [pattern] ]
-
-                | otherwise            -> [ (f, zs) | f <- fs, let z = verbStems f r, t <- [pattern],
-                                                      let zs = [ z' | z'@(Just (t', _, _, _), _, _, _, _) <- (siftVerb t (Perfect,   w) z),
-                                                                      i <- is, i == t' ] ]
+                | otherwise     -> [ (f, z''') | f <- fs, let z = verbStems f r, let z' = siftVerb t Perfect w False z,
+                                                          let z'' = if null ys then z' else concat [ siftVerb y Imperfect w False z' | y <- ys ],
+                                                          let z''' = if null is then z'' else concat [ siftVerb i Perfect w True z'' | i <- is ] ]
 
                         where w = maybe Active id jv,
 
@@ -204,7 +191,7 @@ instance Inflect Lexeme TagsVerb where
 
           inRules es =  [ morph l | (f, e) <- es,
 
-                                let ls = map (findVerb (Perfect, v) theVariant) e,
+                                let ls = map (findVerb Perfect v theVariant) e,
 
                                 l <- nub ls ],
 
@@ -212,7 +199,7 @@ instance Inflect Lexeme TagsVerb where
 
             let z = paradigm (paraVerbP p g n) ]
 
-        where Morphs pattern _ _ = morphs e
+        where Morphs t _ _ = morphs e
 
 
     inflect (Lexeme r e) x@(TagsVerbI m v p g n) = [ (y, z) |
@@ -229,13 +216,13 @@ instance Inflect Lexeme TagsVerb where
 
           inEntry = case entity e of
 
-              Verb fs _ is _ jt jv _
+              Verb fs is ys _ jt jv _
 
                 | maybe False (/= v) jv || maybe False (== Perfect) jt -> []
 
-                | null is   -> [ (f, siftVerb t (Perfect,   w) z) | f <- fs, let z = verbStems f r, t <- [pattern] ]
-
-                | otherwise -> [ (f, siftVerb t (Imperfect, w) z) | f <- fs, let z = verbStems f r, t <- is ]
+                | otherwise     -> [ (f, z''') | f <- fs, let z = verbStems f r, let z' = siftVerb t Perfect w False z,
+                                                          let z'' = if null ys then z' else concat [ siftVerb y Imperfect w False z' | y <- ys ],
+                                                          let z''' = if null is then z'' else concat [ siftVerb i Perfect w True z'' | i <- is ] ]
 
                         where w = maybe Active id jv,
 
@@ -253,9 +240,9 @@ instance Inflect Lexeme TagsVerb where
 
             | isEndless x' =  [ k | (f, e) <- es,
 
-                                let ls = map (findVerb (Imperfect, v) True) e
+                                let ls = map (findVerb Imperfect v True) e
 
-                                    hs = map (findVerb (Imperfect, v) False) e,
+                                    hs = map (findVerb Imperfect v False) e,
 
                                 k <- [ (prefixVerbI f l v, morph l) | l <- nub ls ]
 
@@ -269,7 +256,7 @@ instance Inflect Lexeme TagsVerb where
 
             | otherwise    =  [ (prefixVerbI f l v, morph l) | (f, e) <- es,
 
-                                let ls = map (findVerb (Imperfect, v) theVariant) e,
+                                let ls = map (findVerb Imperfect v theVariant) e,
 
                                 l <- nub ls ],
 
@@ -282,7 +269,7 @@ instance Inflect Lexeme TagsVerb where
 
                   where m@(Morphs t p s) = f x y
 
-              Morphs pattern _ _ = morphs e
+              Morphs t _ _ = morphs e
 
 
     inflect (Lexeme r e) x@(TagsVerbC       g n) = [ (y, z) |
@@ -298,11 +285,13 @@ instance Inflect Lexeme TagsVerb where
 
                 | maybe False (/= Active) jv || maybe False (== Perfect) jt -> Left []
 
-                | null is -> if null ys then Right [ (f, siftVerb t (Perfect,   Active) z) | f <- fs, let z = verbStems f r, t <- [pattern] ]
+                | null is -> Right [ (f, z''') | f <- fs, let z = verbStems f r, let z' = siftVerb t Perfect w False z,
+                                                          let z'' = if null ys then z' else concat [ siftVerb y Imperfect w False z' | y <- ys ],
+                                                          let z''' = if null is then z'' else concat [ siftVerb i Perfect w True z'' | i <- is ] ]
 
-                                        else Right [ (f, siftVerb t (Imperfect, Active) z) | f <- fs, let z = verbStems f r, t <- ys ]
+                | otherwise            -> Left [ (prefixVerbC f i, morph i) | f <- fs, i <- is ]
 
-                | otherwise            -> Left [ (prefixVerbC f i, morph i) | f <- fs, i <- is ],
+                        where w = maybe Active id jv,
 
             n <- n', g <- g',
 
@@ -318,9 +307,9 @@ instance Inflect Lexeme TagsVerb where
 
             | isEndless x'  =  [ k | (f, e) <- es,
 
-                                let ls = map (findVerb (Imperfect, Active) True) e          -- reuse ...
+                                let ls = map (findVerb Imperfect Active True) e          -- reuse ...
 
-                                    hs = map (findVerb (Imperfect, Active) False) e,        -- reuse ...
+                                    hs = map (findVerb Imperfect Active False) e,        -- reuse ...
 
                                     k <- [ (prefixVerbC f l, morph l) | l <- nub ls ]
 
@@ -333,7 +322,7 @@ instance Inflect Lexeme TagsVerb where
 
             | otherwise    =  [ (prefixVerbC f l, morph l) | (f, e) <- es,
 
-                                let ls = map (findVerb (Imperfect, Active) theVariant) e,   -- reuse ...
+                                let ls = map (findVerb Imperfect Active theVariant) e,   -- reuse ...
 
                                 l <- nub ls ],
 
@@ -346,7 +335,7 @@ instance Inflect Lexeme TagsVerb where
 
                   where m@(Morphs t p s) = f x y
 
-              Morphs pattern _ _ = morphs e
+              Morphs t _ _ = morphs e
 
 
 instance Inflect Lexeme TagsNoun where
@@ -658,7 +647,7 @@ inflectVerb (Lexeme r e) x@(VerbP   v p g n) = paradigm (paraVerbP p g n)
 
     where paradigm p = map ((,) r . p) inEntry
 
-          Morphs pattern _ _ = morphs e
+          Morphs t _ _ = morphs e
 
           theVariant = isVariant x
 
@@ -669,7 +658,7 @@ inflectVerb (Lexeme r e) x@(VerbP   v p g n) = paradigm (paraVerbP p g n)
                 | maybe False (/= v) jv || maybe False (/= Perfect) jt -> []
 
                 | null is || v == Passive
-                       || not theVariant  -> inRules fs (Perfect, w) [pattern]
+                       || not theVariant  -> inRules fs Perfect w [t]
 
                 | otherwise            -> [ morph i | f <- fs, i <- is ]
 
@@ -677,9 +666,9 @@ inflectVerb (Lexeme r e) x@(VerbP   v p g n) = paradigm (paraVerbP p g n)
 
               _     ->  (error . unwords) ["Incompatible VerbP", show r]
 
-          inRules fs pp ts =  [ morph l | f <- fs, t <- ts,
+          inRules fs pp vv ts =  [ morph l | f <- fs, t <- ts,
 
-                                let ls = lookVerb t pp (Perfect, v) theVariant
+                                let ls = lookVerb t pp vv False Perfect v theVariant
                                                        (verbStems f r),
                                 l <- nub ls ]
 
@@ -693,7 +682,7 @@ inflectVerb (Lexeme r e) x@(VerbI m v p g n) = paradigm (paraVerbI m p g n)
 
               where m@(Morphs t p s) = f x y
 
-          Morphs pattern _ _ = morphs e
+          Morphs t _ _ = morphs e
 
           theVariant = isVariant x
 
@@ -703,22 +692,22 @@ inflectVerb (Lexeme r e) x@(VerbI m v p g n) = paradigm (paraVerbI m p g n)
 
                 | maybe False (/= v) jv || maybe False (== Perfect) jt -> []
 
-                | null is   -> inRules fs (Perfect,   w) [pattern]
+                | null is   -> inRules fs Perfect   w [t]
 
-                | otherwise -> inRules fs (Imperfect, w) is
+                | otherwise -> inRules fs Imperfect w is
 
                         where w = maybe Active id jv
 
               _     ->  (error . unwords) ["Incompatible VerbI", show r]
 
-          inRules fs pp ts
+          inRules fs pp vv ts
 
             | isEndless x  =  [ k | f <- fs, t <- ts,
 
-                                let ls = lookVerb t pp (Imperfect, v) True
+                                let ls = lookVerb t pp vv False Imperfect v True
                                                        (verbStems f r)
 
-                                    hs = lookVerb t pp (Imperfect, v) False
+                                    hs = lookVerb t pp vv False Imperfect v False
                                                        (verbStems f r),
 
                                 k <- [ (prefixVerbI f l v, morph l) | l <- nub ls ]
@@ -733,7 +722,7 @@ inflectVerb (Lexeme r e) x@(VerbI m v p g n) = paradigm (paraVerbI m p g n)
 
             | otherwise    =  [ (prefixVerbI f l v, morph l) | f <- fs, t <- ts,
 
-                                let ls = lookVerb t pp (Imperfect, v) theVariant
+                                let ls = lookVerb t pp vv False Imperfect v theVariant
                                                        (verbStems f r),
                                 l <- nub ls ]
 
@@ -747,7 +736,7 @@ inflectVerb (Lexeme r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
 
               where m@(Morphs t p s) = f x y
 
-          Morphs pattern _ _ = morphs e
+          Morphs t _ _ = morphs e
 
           theVariant = isVariant x
 
@@ -757,22 +746,22 @@ inflectVerb (Lexeme r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
 
                 | maybe False (/= Active) jv || maybe False (== Perfect) jt -> []
 
-                | null is -> if null ys then inRules fs (Perfect,   Active) [pattern]
+                | null is -> if null ys then inRules fs Perfect   Active [t]
 
-                                        else inRules fs (Imperfect, Active) ys
+                                        else inRules fs Imperfect Active ys
 
                 | otherwise            -> [ (prefixVerbC f i, morph i) | f <- fs, i <- is ]
 
               _     ->  (error . unwords) ["Incompatible VerbC", show r]
 
-          inRules fs pp ts
+          inRules fs pp vv ts
 
             | isEndless x  =  [ k | f <- fs, t <- ts,
 
-                                let ls = lookVerb t pp (Imperfect, Active) True
+                                let ls = lookVerb t pp vv False Imperfect Active True
                                                        (verbStems f r)
 
-                                    hs = lookVerb t pp (Imperfect, Active) False
+                                    hs = lookVerb t pp vv False Imperfect Active False
                                                        (verbStems f r),
 
                                     k <- [ (prefixVerbC f l, morph l) | l <- nub ls ]
@@ -786,7 +775,7 @@ inflectVerb (Lexeme r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
 
             | otherwise    =  [ (prefixVerbC f l, morph l) | f <- fs, t <- ts,
 
-                                let ls = lookVerb t pp (Imperfect, Active) theVariant
+                                let ls = lookVerb t pp vv False Imperfect Active theVariant
                                                        (verbStems f r),
                                 l <- nub ls ]
 

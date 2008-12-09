@@ -155,32 +155,39 @@ lookupForm x r e = case x of
         _   -> []
 
 
-lookVerb :: Eq a => a -> (Tense, Voice) -> (Tense, Voice) -> Bool -> [VerbStems a] -> [a]
+lookVerb :: Eq a => a -> Tense -> Voice -> Bool -> Tense -> Voice -> Bool -> [VerbStems a] -> [a]
 
-lookVerb x y z v = map (findVerb z v) . siftVerb x y
-
-
-siftVerb :: Eq a => a -> (Tense, Voice) -> [VerbStems a] -> [VerbStems a]
-
-siftVerb x (Perfect, Active)  is = [ i | i@(_, a, _, _, _) <- is, x == a ]
-siftVerb x (Perfect, Passive) is = [ i | i@(_, _, b, _, _) <- is, x == b ]
-siftVerb x (   _   , Active)  is = [ i | i@(_, _, _, c, _) <- is, x == c ]
-siftVerb x (   _   ,    _   ) is = [ i | i@(_, _, _, _, d) <- is, x == d ]
+lookVerb x t v b t' v' b' = map (findVerb t' v' b') . siftVerb x t v b
 
 
-findVerb :: (Tense, Voice) -> Bool -> VerbStems a -> a
+siftVerb :: Eq a => a -> Tense -> Voice -> Bool -> [VerbStems a] -> [VerbStems a]
 
-findVerb (Perfect, Active)  True (Just (a, _, _, _), _, _, _, _) = a
-findVerb (Perfect, Active)  _    ( _               , a, _, _, _) = a
+siftVerb x Perfect Active  True is = [ i | i@(Just (a, _, _, _), _, _, _, _) <- is, x == a ]
+siftVerb x Perfect Active  _    is = [ i | i@(_                , a, _, _, _) <- is, x == a ]
 
-findVerb (Perfect, Passive) True (Just (_, b, _, _), _, _, _, _) = b
-findVerb (Perfect, Passive) _    ( _               , _, b, _, _) = b
+siftVerb x Perfect Passive True is = [ i | i@(Just (_, b, _, _), _, _, _, _) <- is, x == b ]
+siftVerb x Perfect Passive _    is = [ i | i@(_                , _, b, _, _) <- is, x == b ]
 
-findVerb (   _   , Active)  True (Just (_, _, c, _), _, _, _, _) = c
-findVerb (   _   , Active)  _    ( _               , _, _, c, _) = c
+siftVerb x _       Active  True is = [ i | i@(Just (_, _, c, _), _, _, _, _) <- is, x == c ]
+siftVerb x _       Active  _    is = [ i | i@(_                , _, _, c, _) <- is, x == c ]
 
-findVerb (   _   ,    _   ) True (Just (_, _, _, d), _, _, _, _) = d
-findVerb (   _   ,    _   ) _    ( _               , _, _, _, d) = d
+siftVerb x _       _       True is = [ i | i@(Just (_, _, _, d), _, _, _, _) <- is, x == d ]
+siftVerb x _       _       _    is = [ i | i@(_                , _, _, _, d) <- is, x == d ]
+
+
+findVerb :: Tense -> Voice -> Bool -> VerbStems a -> a
+
+findVerb Perfect Active  True (Just (a, _, _, _), _, _, _, _) = a
+findVerb Perfect Active  _    ( _               , a, _, _, _) = a
+
+findVerb Perfect Passive True (Just (_, b, _, _), _, _, _, _) = b
+findVerb Perfect Passive _    ( _               , _, b, _, _) = b
+
+findVerb _       Active  True (Just (_, _, c, _), _, _, _, _) = c
+findVerb _       Active  _    ( _               , _, _, c, _) = c
+
+findVerb _       _       True (Just (_, _, _, d), _, _, _, _) = d
+findVerb _       _       _    ( _               , _, _, _, d) = d
 
 
 lookNoun :: (Morphing a a, Eq (Morphs a)) => Morphs a -> Char -> [NounStems a] -> [Morphs a]
