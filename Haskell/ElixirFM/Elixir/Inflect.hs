@@ -165,41 +165,27 @@ instance Inflect Lexeme TagsVerb where
                 g' = vals g
                 n' = vals n,
 
-            v <- v',
+            v <- v', n <- n', p <- p', g <- g',
 
-            let
+            let theVariant = isVariant (VerbP v p g n)
 
-          inEntry = case entity e of
+                inRules es = [ morph l | (f, e) <- es, let ls = map (findVerb Perfect v theVariant) e, l <- nub ls ]
 
-              Verb fs is ys _ jt jv _
-
-                | maybe False (/= v) jv || maybe False (/= Perfect) jt -> []
-
-                | otherwise     -> [ (f, z''') | f <- fs, let z = verbStems f r, let z' = siftVerb t Perfect w False z,
-                                                          let z'' = if null ys then z' else concat [ siftVerb y Imperfect w False z' | y <- ys ],
-                                                          let z''' = if null is then z'' else concat [ siftVerb i Perfect w True z'' | i <- is ] ]
-
-                        where w = maybe Active id jv,
-
-            n <- n', p <- p', g <- g',
-
-            let theVariant = isVariant (VerbP v p g n),
-
-            let
-
-          paradigm p = map ((,) r . p) (inRules inEntry)
-
-          inRules es =  [ morph l | (f, e) <- es,
-
-                                let ls = map (findVerb Perfect v theVariant) e,
-
-                                l <- nub ls ],
+                paradigm p = map ((,) r . p) (inRules inEntry),
 
             let y = ParaVerb (VerbP v p g n),
 
             let z = paradigm (paraVerbP p g n) ]
 
         where Morphs t _ _ = morphs e
+
+              Verb fs is ys _ jt jv _ = entity e
+
+              inEntry = [ (f, z) | f <- fs, let z = siftVerb t Perfect w False (verbStems f r),
+                                   z <- if null ys then [z] else [ siftVerb y Imperfect w False z | y <- ys ],
+                                   z <- if null is then [z] else [ siftVerb i Perfect w True z | i <- is ] ]
+
+                        where w = maybe Active id jv
 
 
     inflect (Lexeme r e) x@(TagsVerbI m v p g n) = [ (y, z) |
@@ -210,55 +196,37 @@ instance Inflect Lexeme TagsVerb where
                 g' = vals g
                 n' = vals n,
 
-            v <- v',
-
-            let
-
-          inEntry = case entity e of
-
-              Verb fs is ys _ jt jv _
-
-                | maybe False (/= v) jv || maybe False (== Perfect) jt -> []
-
-                | otherwise     -> [ (f, z''') | f <- fs, let z = verbStems f r, let z' = siftVerb t Perfect w False z,
-                                                          let z'' = if null ys then z' else concat [ siftVerb y Imperfect w False z' | y <- ys ],
-                                                          let z''' = if null is then z'' else concat [ siftVerb i Perfect w True z'' | i <- is ] ]
-
-                        where w = maybe Active id jv,
-
-            m <- m', n <- n', p <- p', g <- g',
+            v <- v', m <- m', n <- n', p <- p', g <- g',
 
             let x' = VerbI m v p g n
 
-                theVariant = isVariant x',
+                theVariant = isVariant x'
 
-            let
+                inRules es
 
-          paradigm p = map ((,) r . reduce p) (inRules inEntry)
+                     | isEndless x' =  [ k | (f, e) <- es,
 
-          inRules es
+                                        let ls = map (findVerb Imperfect v True) e
 
-            | isEndless x' =  [ k | (f, e) <- es,
+                                            hs = map (findVerb Imperfect v False) e,
 
-                                let ls = map (findVerb Imperfect v True) e
+                                        k <- [ (prefixVerbI f l v, morph l) | l <- nub ls ]
 
-                                    hs = map (findVerb Imperfect v False) e,
+                                          ++ [ (prefixh, suffix a morphh)   | h <- nub hs,
 
-                                k <- [ (prefixVerbI f l v, morph l) | l <- nub ls ]
+                                               let prefixh = prefixVerbI f h v
 
-                                  ++ [ (prefixh, suffix a morphh)   | h <- nub hs,
+                                                   morphh = morph h,
 
-                                       let prefixh = prefixVerbI f h v
+                                               a <- auxiesDouble f h ] ]
 
-                                           morphh = morph h,
+                     | otherwise    =  [ (prefixVerbI f l v, morph l) | (f, e) <- es,
 
-                                       a <- auxiesDouble f h ] ]
+                                        let ls = map (findVerb Imperfect v theVariant) e,
 
-            | otherwise    =  [ (prefixVerbI f l v, morph l) | (f, e) <- es,
-
-                                let ls = map (findVerb Imperfect v theVariant) e,
-
-                                l <- nub ls ],
+                                        l <- nub ls ]
+                                
+                paradigm p = map ((,) r . reduce p) (inRules inEntry),
 
             let y = ParaVerb x',
 
@@ -271,60 +239,51 @@ instance Inflect Lexeme TagsVerb where
 
               Morphs t _ _ = morphs e
 
+              Verb fs is ys _ jt jv _ = entity e
 
+              inEntry = [ (f, z) | f <- fs, let z = siftVerb t Perfect w False (verbStems f r),
+                                   z <- if null ys then [z] else [ siftVerb y Imperfect w False z | y <- ys ],
+                                   z <- if null is then [z] else [ siftVerb i Perfect w True z | i <- is ] ]
+
+                        where w = maybe Active id jv
+
+                        
+                        
     inflect (Lexeme r e) x@(TagsVerbC       g n) = [ (y, z) |
 
             let g' = vals g
                 n' = vals n,
 
-            let
-
-          inEntry = case entity e of
-
-              Verb fs _ ys is jt jv _
-
-                | maybe False (/= Active) jv || maybe False (== Perfect) jt -> Left []
-
-                | null is -> Right [ (f, z''') | f <- fs, let z = verbStems f r, let z' = siftVerb t Perfect w False z,
-                                                          let z'' = if null ys then z' else concat [ siftVerb y Imperfect w False z' | y <- ys ],
-                                                          let z''' = if null is then z'' else concat [ siftVerb i Perfect w True z'' | i <- is ] ]
-
-                | otherwise            -> Left [ (prefixVerbC f i, morph i) | f <- fs, i <- is ]
-
-                        where w = maybe Active id jv,
-
             n <- n', g <- g',
 
             let x' = VerbC g n
 
-                theVariant = isVariant x',
+                theVariant = isVariant x'
 
-            let
+                inRules es
 
-          paradigm p = map ((,) r . reduce p) (either id inRules inEntry)
+                    | isEndless x'  =  [ k | (f, e) <- es,
 
-          inRules es
+                                        let ls = map (findVerb Imperfect Active True) e          -- reuse ...
 
-            | isEndless x'  =  [ k | (f, e) <- es,
+                                            hs = map (findVerb Imperfect Active False) e,        -- reuse ...
 
-                                let ls = map (findVerb Imperfect Active True) e          -- reuse ...
+                                            k <- [ (prefixVerbC f l, morph l) | l <- nub ls ]
 
-                                    hs = map (findVerb Imperfect Active False) e,        -- reuse ...
+                                              ++ [ (prefixh, suffix a morphh) | h <- nub hs,
 
-                                    k <- [ (prefixVerbC f l, morph l) | l <- nub ls ]
+                                                    let prefixh = prefixVerbC f h
+                                                        morphh = morph h,
 
-                                      ++ [ (prefixh, suffix a morphh) | h <- nub hs,
+                                                    a <- auxiesDouble f h ] ]
 
-                                            let prefixh = prefixVerbC f h
-                                                morphh = morph h,
+                    | otherwise    =  [ (prefixVerbC f l, morph l) | (f, e) <- es,
 
-                                            a <- auxiesDouble f h ] ]
+                                        let ls = map (findVerb Imperfect Active theVariant) e,   -- reuse ...
 
-            | otherwise    =  [ (prefixVerbC f l, morph l) | (f, e) <- es,
+                                        l <- nub ls ]
 
-                                let ls = map (findVerb Imperfect Active theVariant) e,   -- reuse ...
-
-                                l <- nub ls ],
+                paradigm p = map ((,) r . reduce p) (either id inRules inEntry),
 
             let y = ParaVerb x',
 
@@ -337,6 +296,18 @@ instance Inflect Lexeme TagsVerb where
 
               Morphs t _ _ = morphs e
 
+              Verb fs _ ys is jt jv _ = entity e
+              
+              inEntry | null is   = Right [ (f, z) | f <- fs, let z = siftVerb t Perfect w False (verbStems f r),
+                                                     z <- if null ys then [z] else [ siftVerb y Imperfect w False z | y <- ys ],
+                                                     z <- if null is then [z] else [ siftVerb i Perfect w True z | i <- is ] ]
+
+                      | otherwise = Left [ (prefixVerbC f i, morph i) | f <- fs, i <- is ]
+
+                        where w = maybe Active id jv
+              
+              
+              
 
 instance Inflect Lexeme TagsNoun where
 
