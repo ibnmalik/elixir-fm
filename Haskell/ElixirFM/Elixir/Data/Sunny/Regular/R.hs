@@ -216,7 +216,7 @@ cluster_7   = cluster
 
 cluster_8   = cluster
 
- |> "ni`mat" <| [
+ |> ['n','i','`','m','a','t'] <| [
 
     _____                     `noun`    {- <ni`mat> -}         [ ['N','i','m','a','t'] ] ]
 
@@ -822,7 +822,7 @@ cluster_28  = cluster
 
 cluster_29  = cluster
 
- |> "nUfIl" <| [
+ |> ['n','U','f','I','l'] <| [
 
     _____                     `noun`    {- <nUfIl> -}          [ ['N','o','v','e','l','l'] ] ]
 
@@ -849,7 +849,7 @@ cluster_30  = cluster
 
 cluster_31  = cluster
 
- |> "nUfimbir" <| [
+ |> ['n','U','f','i','m','b','i','r'] <| [
 
     _____                     `noun`    {- <nUfimbir> -}       [ ['N','o','v','e','m','b','e','r'] ] ]
 
@@ -1529,7 +1529,7 @@ cluster_51  = cluster
 
 cluster_52  = cluster
 
- |> "nIkUtIn" <| [
+ |> ['n','I','k','U','t','I','n'] <| [
 
     _____                     `noun`    {- <nIkUtIn> -}        [ ['n','i','c','o','t','i','n','e'] ] ]
 
@@ -1833,14 +1833,14 @@ cluster_63  = cluster
 
 cluster_64  = cluster
 
- |> "nIkl" <| [
+ |> ['n','I','k','l'] <| [
 
     _____                     `noun`    {- <nIkl> -}           [ ['n','i','c','k','e','l'] ] ]
 
 
 cluster_65  = cluster
 
- |> "nAmIb" <| [
+ |> ['n','A','m','I','b'] <| [
 
     _____ |< iyA              `noun`    {- <nAmIbiyA> -}       [ ['N','a','m','i','b','i','a'] ],
 
@@ -1849,7 +1849,7 @@ cluster_65  = cluster
 
 cluster_66  = cluster
 
- |> "nUmId" <| [
+ |> ['n','U','m','I','d'] <| [
 
     _____ |< iyA              `xtra`    {- <nUmIdiyA> -}       [ ['N','u','m','i','d','i','a'] ],
 
@@ -1858,7 +1858,7 @@ cluster_66  = cluster
 
 cluster_67  = cluster
 
- |> "namU_da^g" <| [
+ |> ['n','a','m','U','_','d','a','^','g'] <| [
 
     _____                     `noun`    {- <namU_da^g> -}      [ ['s','a','m','p','l','e'], ['m','o','d','e','l'] ],
 
@@ -2030,7 +2030,7 @@ cluster_76  = cluster
 
 cluster_77  = cluster
 
- |> "nims" <| [
+ |> ['n','i','m','s'] <| [
 
     _____ |<< "A"             `noun`    {- <nimsA> -}          [ ['A','u','s','t','r','i','a'] ],
 
@@ -2039,14 +2039,14 @@ cluster_77  = cluster
 
 cluster_78  = cluster
 
- |> "namsA" <| [
+ |> ['n','a','m','s','A'] <| [
 
     _____                     `noun`    {- <namsA> -}          [ ['A','u','s','t','r','i','a'] ] ]
 
 
 cluster_79  = cluster
 
- |> "nUnU" <| [
+ |> ['n','U','n','U'] <| [
 
     _____                     `noun`    {- <nUnU> -}           [ ['N','u','n','o'] ] ]
 
@@ -2319,7 +2319,7 @@ cluster_88  = cluster
 
 cluster_89  = cluster
 
- |> "nAhIk" <| [
+ |> ['n','A','h','I','k'] <| [
 
     _____                     `part`    {- <nAhIk> -}          [ unwords [ ['n','o','t'], ['t','o'], ['m','e','n','t','i','o','n'] ] ] ]
 

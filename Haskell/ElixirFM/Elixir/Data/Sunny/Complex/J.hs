@@ -538,7 +538,7 @@ cluster_21  = cluster
 
 cluster_22  = cluster
 
- |> "nawbat^g" <| [
+ |> ['n','a','w','b','a','t','^','g'] <| [
 
     _____ |< Iy               `adj`     {- <nawbat^gIy> -}     [ unwords [ ['o','n'], ['d','u','t','y'] ], unwords [ ['o','n'], ['c','a','l','l'] ] ],
 
@@ -664,7 +664,7 @@ cluster_32  = cluster
 
     FIL                       `noun`    {- <nIl> -}            [ ['N','i','l','e'] ] ]
 
- |> "nAyl" <| [
+ |> ['n','A','y','l'] <| [
 
     _____                     `xtra`    {- <nAyl> -}           [ ['N','i','l','e'] ] ]
 
@@ -691,7 +691,7 @@ cluster_32  = cluster
 
 cluster_33  = cluster
 
- |> "niyUyUrk" <| [
+ |> ['n','i','y','U','y','U','r','k'] <| [
 
     _____                     `xtra`    {- <niyUyUrk> -}       [ unwords [ ['N','e','w'], ['Y','o','r','k'] ] ],
 
@@ -700,11 +700,11 @@ cluster_33  = cluster
 
 cluster_34  = cluster
 
- |> "nay^gar" <| [
+ |> ['n','a','y','^','g','a','r'] <| [
 
     _____                     `noun`    {- <nay^gar> -}        [ ['N','i','g','e','r'] ] ]
 
- |> "nay^gIr" <| [
+ |> ['n','a','y','^','g','I','r'] <| [
 
     _____ |< iyA              `noun`    {- <nay^gIriyA> -}     [ ['N','i','g','e','r','i','a'] ],
 
@@ -713,14 +713,14 @@ cluster_34  = cluster
 
 cluster_35  = cluster
 
- |> "nAylUn" <| [
+ |> ['n','A','y','l','U','n'] <| [
 
     _____                     `noun`    {- <nAylUn> -}         [ ['n','y','l','o','n'] ] ]
 
 
 cluster_36  = cluster
 
- |> "nyUzIlAnd" <| [
+ |> ['n','y','U','z','I','l','A','n','d'] <| [
 
     _____ |<< "A"             `noun`    {- <nyUzIlAndA> -}     [ unwords [ ['N','e','w'], ['Z','e','a','l','a','n','d'] ] ],
 

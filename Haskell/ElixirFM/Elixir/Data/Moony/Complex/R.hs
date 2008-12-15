@@ -1218,7 +1218,7 @@ cluster_49  = cluster
 
 cluster_50  = cluster
 
- |> "wIrkU" <| [
+ |> ['w','I','r','k','U'] <| [
 
     _____                     `noun`    {- <wIrkU> -}          [ unwords [ ['e','x','c','i','s','e'], ['t','a','x'] ], unwords [ ['r','e','a','l'], "-", ['e','s','t','a','t','e'], ['t','a','x'] ] ] ]
 
@@ -1695,7 +1695,7 @@ cluster_67  = cluster
 
 cluster_68  = cluster
 
- |> "wiskI" <| [
+ |> ['w','i','s','k','I'] <| [
 
     _____                     `noun`    {- <wiskI> -}          [ ['w','h','i','s','k','y'] ] ]
 
@@ -1839,7 +1839,7 @@ cluster_79  = cluster
 
 cluster_80  = cluster
 
- |> "wA^sin.tUn" <| [
+ |> ['w','A','^','s','i','n','.','t','U','n'] <| [
 
     _____                     `noun`    {- <wA^sin.tUn> -}     [ ['W','a','s','h','i','n','g','t','o','n'] ] ]
 
@@ -2345,7 +2345,7 @@ cluster_96  = cluster
 
 cluster_97  = cluster
 
- |> "wA.t" <| [
+ |> ['w','A','.','t'] <| [
 
     _____                     `noun`    {- <wA.t> -}           [ ['w','a','t','t'] ] ]
 

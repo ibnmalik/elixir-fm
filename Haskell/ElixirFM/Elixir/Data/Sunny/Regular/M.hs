@@ -189,7 +189,7 @@ cluster_10  = cluster
 
 cluster_11  = cluster
 
- |> ".sAl" <| [
+ |> ['.','s','A','l'] <| [
 
     _____ |< aT               `noun`    {- <.sAlaT> -}         [ ['h','a','l','l'] ] ]
 
@@ -813,7 +813,7 @@ cluster_42  = cluster
 
 cluster_43  = cluster
 
- |> ".santimitr" <| [
+ |> ['.','s','a','n','t','i','m','i','t','r'] <| [
 
     _____                     `noun`    {- <.santimitr> -}     [ ['c','e','n','t','i','m','e','t','e','r'] ] ]
 
@@ -1259,7 +1259,7 @@ cluster_61  = cluster
 
 cluster_62  = cluster
 
- |> ".darab_hAn" <| [
+ |> ['.','d','a','r','a','b','_','h','A','n'] <| [
 
     _____ |< aT               `noun`    {- <.darab_hAnaT> -}   [ unwords [ ['m','o','n','e','y'], ['m','i','n','t'] ] ] ]
 
@@ -1908,7 +1908,7 @@ cluster_91  = cluster
     FACUL                     `noun`    {- <.tAbUr> -}         [ ['c','o','l','u','m','n'], ['b','a','t','t','a','l','i','o','n'] ]
                               `plural`     FawACIL ]
 
- |> ".tabar" <| [
+ |> ['.','t','a','b','a','r'] <| [
 
     _____ |< Iy               `adj`     {- <.tabarIy> -}       [ ['T','i','b','e','r','i','a','n'] ],
 
@@ -1928,7 +1928,7 @@ cluster_92  = cluster
 
 cluster_93  = cluster
 
- |> ".tabardAr" <| [
+ |> ['.','t','a','b','a','r','d','A','r'] <| [
 
     _____                     `noun`    {- <.tabardAr> -}      [ ['s','a','p','p','e','r'], ['p','i','o','n','e','e','r'] ] ]
 
@@ -2030,7 +2030,7 @@ cluster_97  = cluster
 
 cluster_98  = cluster
 
- |> ".tubU.grAf" <| [
+ |> ['.','t','u','b','U','.','g','r','A','f'] <| [
 
     _____ |< iyA              `noun`    {- <.tubU.grAfiyA> -}  [ ['t','o','p','o','g','r','a','p','h','y'] ],
 

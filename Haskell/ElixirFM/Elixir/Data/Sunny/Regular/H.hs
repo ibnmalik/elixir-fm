@@ -399,7 +399,7 @@ cluster_17  = cluster
 
 cluster_18  = cluster
 
- |> "sI_h" <| [
+ |> ['s','I','_','h'] <| [
 
     _____                     `noun`    {- <sI_h> -}           [ ['S','i','k','h'] ] ]
 
@@ -548,11 +548,11 @@ cluster_25  = cluster
 
 cluster_26  = cluster
 
- |> "sAd" <| [
+ |> ['s','A','d'] <| [
 
     _____ |< aT               `noun`    {- <sAdaT> -}          [ ['p','l','a','i','n'] ] ]
 
- |> "sAd" <| [
+ |> ['s','A','d'] <| [
 
     _____ |< Iy |< aT         `noun`    {- <sAdIyaT> -}        [ ['s','a','d','i','s','m'] ],
 
@@ -651,7 +651,7 @@ cluster_31  = cluster
 
 cluster_32  = cluster
 
- |> "sadUm" <| [
+ |> ['s','a','d','U','m'] <| [
 
     _____                     `noun`    {- <sadUm> -}          [ ['S','o','d','o','m'] ] ]
 
@@ -798,7 +798,7 @@ cluster_38  = cluster
 
 cluster_39  = cluster
 
- |> "sIra^g" <| [
+ |> ['s','I','r','a','^','g'] <| [
 
     _____                     `noun`    {- <sIra^g> -}         [ unwords [ ['s','e','s','a','m','e'], ['o','i','l'] ] ] ]
 
@@ -907,7 +907,7 @@ cluster_46  = cluster
 
 cluster_47  = cluster
 
- |> "surAdiq" <| [
+ |> ['s','u','r','A','d','i','q'] <| [
 
     _____                     `noun`    {- <surAdiq> -}        [ ['p','a','v','i','l','i','o','n'], ['c','a','n','o','p','y'] ] ]
 
@@ -1086,7 +1086,7 @@ cluster_55  = cluster
 
 cluster_56  = cluster
 
- |> "saraqus.t" <| [
+ |> ['s','a','r','a','q','u','s','.','t'] <| [
 
     _____ |< aT               `noun`    {- <saraqus.taT> -}    [ ['S','a','r','a','g','o','s','s','a'], ['Z','a','r','a','g','o','z','a'] ],
 
@@ -1123,7 +1123,7 @@ cluster_59  = cluster
 
 cluster_60  = cluster
 
- |> "sarandIb" <| [
+ |> ['s','a','r','a','n','d','I','b'] <| [
 
     _____                     `noun`    {- <sarandIb> -}       [ ['S','e','r','e','n','d','i','p'] ],
 
@@ -1132,39 +1132,39 @@ cluster_60  = cluster
 
 cluster_61  = cluster
 
- |> "sar`askar" <| [
+ |> ['s','a','r','`','a','s','k','a','r'] <| [
 
     _____                     `noun`    {- <sar`askar> -}      [ ['g','e','n','e','r','a','l'] ] ]
 
 
 cluster_62  = cluster
 
- |> "sIrk" <| [
+ |> ['s','I','r','k'] <| [
 
     _____                     `noun`    {- <sIrk> -}           [ ['c','i','r','c','u','s'] ] ]
 
- |> "sirk" <| [
+ |> ['s','i','r','k'] <| [
 
     _____                     `noun`    {- <sirk> -}           [ ['c','i','r','c','u','s'] ] ]
 
 
 cluster_63  = cluster
 
- |> "sarkI" <| [
+ |> ['s','a','r','k','I'] <| [
 
     _____                     `noun`    {- <sarkI> -}          [ unwords [ ['b','i','l','l'], ['o','f'], ['e','x','c','h','a','n','g','e'] ] ] ]
 
 
 cluster_64  = cluster
 
- |> "sIzUfrIn" <| [
+ |> ['s','I','z','U','f','r','I','n'] <| [
 
     _____ |< Iy               `adj`     {- <sIzUfrInIy> -}     [ ['s','c','h','i','z','o','p','h','r','e','n','i','c'] ] ]
 
 
 cluster_65  = cluster
 
- |> "sizmU.grAf" <| [
+ |> ['s','i','z','m','U','.','g','r','A','f'] <| [
 
     _____                     `noun`    {- <sizmU.grAf> -}     [ ['s','e','i','s','m','o','g','r','a','p','h'] ],
 
@@ -1173,14 +1173,14 @@ cluster_65  = cluster
 
 cluster_66  = cluster
 
- |> "sAsAn" <| [
+ |> ['s','A','s','A','n'] <| [
 
     _____ |< Iy               `adj`     {- <sAsAnIy> -}        [ ['S','a','s','s','a','n','i','d','s'] ] ]
 
 
 cluster_67  = cluster
 
- |> "sUst" <| [
+ |> ['s','U','s','t'] <| [
 
     _____ |< aT               `noun`    {- <sUstaT> -}         [ ['z','i','p','p','e','r'] ] ]
 
@@ -1202,7 +1202,7 @@ cluster_69  = cluster
 
 cluster_70  = cluster
 
- |> "si.tAt" <| [
+ |> ['s','i','.','t','A','t'] <| [
 
     _____                     `noun`    {- <si.tAt> -}         [ ['S','e','t','t','a','t'] ] ]
 
@@ -1512,7 +1512,7 @@ cluster_83  = cluster
 
 cluster_84  = cluster
 
- |> "sA.gU" <| [
+ |> ['s','A','.','g','U'] <| [
 
     _____                     `noun`    {- <sA.gU> -}          [ ['s','a','g','o'] ] ]
 
@@ -1647,7 +1647,7 @@ cluster_91  = cluster
 
 cluster_92  = cluster
 
- |> "safar^gal" <| [
+ |> ['s','a','f','a','r','^','g','a','l'] <| [
 
     _____                     `noun`    {- <safar^gal> -}      [ ['q','u','i','n','c','e'] ] ]
 

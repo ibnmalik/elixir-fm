@@ -40,7 +40,7 @@ cluster_2   = cluster
 
 cluster_3   = cluster
 
- |> "darabukk" <| [
+ |> ['d','a','r','a','b','u','k','k'] <| [
 
     _____ |< aT               `noun`    {- <darabukkaT> -}     [ ['d','a','r','a','b','u','k','k','a'] ] ]
 
@@ -139,14 +139,14 @@ cluster_9   = cluster
 
 cluster_10  = cluster
 
- |> "durayhim" <| [
+ |> ['d','u','r','a','y','h','i','m'] <| [
 
     _____ |< At               `noun`    {- <durayhimAt> -}     [ ['p','e','n','n','i','e','s'] ] ]
 
 
 cluster_11  = cluster
 
- |> "dirbakk" <| [
+ |> ['d','i','r','b','a','k','k'] <| [
 
     _____ |< aT               `noun`    {- <dirbakkaT> -}      [ ['d','a','r','a','b','u','k','k','a'] ] ]
 
@@ -176,7 +176,7 @@ cluster_12  = cluster
 
 cluster_13  = cluster
 
- |> "dUsin.tAriyA" <| [
+ |> ['d','U','s','i','n','.','t','A','r','i','y','A'] <| [
 
     _____                     `noun`    {- <dUsin.tAriyA> -}   [ ['d','y','s','e','n','t','e','r','y'] ] ]
 
@@ -192,7 +192,7 @@ cluster_14  = cluster
 
 cluster_15  = cluster
 
- |> "dUsiyih" <| [
+ |> ['d','U','s','i','y','i','h'] <| [
 
     _____                     `noun`    {- <dUsiyih> -}        [ ['d','o','s','s','i','e','r'], ['f','i','l','e'] ] ]
 
@@ -375,7 +375,7 @@ cluster_21  = cluster
 
 cluster_22  = cluster
 
- |> "diftiriyA" <| [
+ |> ['d','i','f','t','i','r','i','y','A'] <| [
 
     _____                     `noun`    {- <diftiriyA> -}      [ ['d','i','p','h','t','h','e','r','i','a'] ] ]
 
@@ -750,7 +750,7 @@ cluster_33  = cluster
 
 cluster_34  = cluster
 
- |> "danyAl" <| [
+ |> ['d','a','n','y','A','l'] <| [
 
     _____                     `noun`    {- <danyAl> -}         [ ['D','a','n','i','e','l'] ] ]
 
@@ -799,7 +799,7 @@ cluster_36  = cluster
 
 cluster_37  = cluster
 
- |> "dAw" <| [
+ |> ['d','A','w'] <| [
 
     _____                     `noun`    {- <dAw> -}            [ ['D','o','w'] ] ]
 
@@ -834,7 +834,7 @@ cluster_40  = cluster
 
 cluster_41  = cluster
 
- |> "duwItU" <| [
+ |> ['d','u','w','I','t','U'] <| [
 
     _____                     `noun`    {- <duwItU> -}         [ ['d','u','e','t'], ['d','u','e','t','t','o'] ] ]
 
@@ -1088,7 +1088,7 @@ cluster_61  = cluster
 
 cluster_62  = cluster
 
- |> "dawAlayk" <| [
+ |> ['d','a','w','A','l','a','y','k'] <| [
 
     _____ |<< "a"             `noun`    {- <dawAlayka> -}      [ ['s','u','c','c','e','s','s','i','v','e','l','y'], unwords [ ['o','n','e'], ['b','y'], ['o','n','e'] ] ] ]
 
@@ -1234,14 +1234,14 @@ cluster_66  = cluster
 
 cluster_67  = cluster
 
- |> "duwaybib" <| [
+ |> ['d','u','w','a','y','b','i','b'] <| [
 
     _____ |< aT               `noun`    {- <duwaybibaT> -}     [ unwords [ ['s','m','a','l','l'], ['a','n','i','m','a','l'] ], ['i','n','s','e','c','t'] ] ]
 
 
 cluster_68  = cluster
 
- |> "daw.t" <| [
+ |> ['d','a','w','.','t'] <| [
 
     _____ |< aT               `noun`    {- <daw.taT> -}        [ ['d','o','w','r','y'] ] ]
 
@@ -1515,14 +1515,14 @@ cluster_87  = cluster
 
 cluster_88  = cluster
 
- |> "diyAlU^g" <| [
+ |> ['d','i','y','A','l','U','^','g'] <| [
 
     _____                     `noun`    {- <diyAlU^g> -}       [ ['d','i','a','l','o','g'] ] ]
 
 
 cluster_89  = cluster
 
- |> "diyAliktIk" <| [
+ |> ['d','i','y','A','l','i','k','t','I','k'] <| [
 
     _____                     `noun`    {- <diyAliktIk> -}     [ ['d','i','a','l','e','c','t','i','c','s'] ],
 
@@ -1619,7 +1619,7 @@ cluster_92  = cluster
 
 cluster_93  = cluster
 
- |> "diyAn" <| [
+ |> ['d','i','y','A','n'] <| [
 
     _____                     `noun`    {- <diyAn> -}          [ ['D','i','a','n','n','e'] ] ]
 
@@ -1655,7 +1655,7 @@ cluster_97  = cluster
 
 cluster_98  = cluster
 
- |> "daydabAn" <| [
+ |> ['d','a','y','d','a','b','A','n'] <| [
 
     _____                     `noun`    {- <daydabAn> -}       [ ['s','e','n','t','r','y'], ['g','u','a','r','d'] ] ]
 

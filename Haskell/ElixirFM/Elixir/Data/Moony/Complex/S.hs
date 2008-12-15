@@ -1679,7 +1679,7 @@ cluster_69  = cluster
 
 cluster_70  = cluster
 
- |> "wal.t" <| [
+ |> ['w','a','l','.','t'] <| [
 
     _____                     `noun`    {- <wal.t> -}          [ ['v','o','l','t'] ] ]
 
@@ -2024,7 +2024,7 @@ cluster_88  = cluster
 
 cluster_89  = cluster
 
- |> "way" <| [
+ |> ['w','a','y'] <| [
 
     _____                     `noun`    {- <way> -}            [ unwords [ ['s','h','a','m','e'], ['o','n'], ['y','o','u'] ] ] ]
 
@@ -2063,14 +2063,14 @@ cluster_93  = cluster
 
 cluster_94  = cluster
 
- |> "yA" <| [
+ |> ['y','A'] <| [
 
     _____                     `part`    {- <yA> -}             [ ['o','h'], ['y','o','u'] ] ]
 
 
 cluster_95  = cluster
 
- |> "yA'" <| [
+ |> ['y','A','\''] <| [
 
     _____                     `noun`    {- <yA'> -}            [ unwords [ ['y','a','\''], "(", ['A','r','a','b','i','c'], ['l','e','t','t','e','r'], ")" ] ]
                               `plural`     _____ |< At ]
@@ -2078,7 +2078,7 @@ cluster_95  = cluster
 
 cluster_96  = cluster
 
- |> "yA-'ayyuhA" <| [
+ |> ['y','A','-','\'','a','y','y','u','h','A'] <| [
 
     _____                     `part`    {- <yA-'ayyuhA> -}     [ unwords [ "O", "!" ] ] ]
 
@@ -2110,11 +2110,11 @@ cluster_97  = cluster
 
 cluster_98  = cluster
 
- |> "yA-al-l_ah" <| [
+ |> ['y','A','-','a','l','-','l','_','a','h'] <| [
 
     _____                     `intj`    {- <yA-al-l_ah> -}     [ unwords [ ['o','h'], ['G','o','d'], "!" ] ] ]
 
- |> "yallA" <| [
+ |> ['y','a','l','l','A'] <| [
 
     _____                     `intj`    {- <yallA> -}          [ unwords [ ['l','e','t','\'','s'], ['g','o'], "!" ] ] ]
 
