@@ -560,124 +560,152 @@ cluster_77  = cluster
 
 cluster_78  = cluster
 
+ |> "dU" <| [
+
+    _____                     `xtra`    {- <dU> -}             [ ['D','u'], ['D','o'] ] ]
+
+
+cluster_79  = cluster
+
  |> "dA" <| [
 
     _____                     `xtra`    {- <dA> -}             [ ['D','a'] ] ]
 
 
-cluster_79  = cluster
+cluster_80  = cluster
 
  |> "dI" <| [
 
     _____                     `xtra`    {- <dI> -}             [ ['D','.'], ['D','e'] ] ]
 
 
-cluster_80  = cluster
+cluster_81  = cluster
+
+ |> "dIb" <| [
+
+    _____                     `xtra`    {- <dIb> -}            [ ['D','e','e','b'] ] ]
+
+
+cluster_82  = cluster
 
  |> "dIbUrtIfU" <| [
 
     _____                     `xtra`    {- <dIbUrtIfU> -}      [ ['D','e','p','o','r','t','i','v','o'] ] ]
 
 
-cluster_81  = cluster
+cluster_83  = cluster
 
  |> "dabilyU" <| [
 
     _____                     `xtra`    {- <dabilyU> -}        [ ['W','.'] ] ]
 
 
-cluster_82  = cluster
+cluster_84  = cluster
+
+ |> "dablin" <| [
+
+    _____                     `xtra`    {- <dablin> -}         [ ['D','u','b','l','i','n'] ] ]
+
+
+cluster_85  = cluster
 
  |> "dItrUyt" <| [
 
     _____                     `xtra`    {- <dItrUyt> -}        [ ['D','e','t','r','o','i','t'] ] ]
 
 
-cluster_83  = cluster
+cluster_86  = cluster
 
  |> "dI^gItAl" <| [
 
     _____                     `xtra`    {- <dI^gItAl> -}       [ ['D','i','g','i','t','a','l'] ] ]
 
 
-cluster_84  = cluster
+cluster_87  = cluster
 
  |> "dI^gAnIrU" <| [
 
     _____                     `xtra`    {- <dI^gAnIrU> -}      [ unwords [ ['D','e'], ['J','a','n','i','e','r','o'] ] ] ]
 
 
-cluster_85  = cluster
+cluster_88  = cluster
 
  |> "didI" <| [
 
     _____                     `xtra`    {- <didI> -}           [ ['D','i','d','i'] ] ]
 
 
-cluster_86  = cluster
+cluster_89  = cluster
 
  |> "dUdAyif" <| [
 
     _____                     `xtra`    {- <dUdAyif> -}        [ ['D','u','d','a','y','e','v'] ] ]
 
 
-cluster_87  = cluster
+cluster_90  = cluster
 
  |> "dIdIyih" <| [
 
     _____                     `xtra`    {- <dIdIyih> -}        [ ['D','i','d','i','e','r'] ] ]
 
 
-cluster_88  = cluster
+cluster_91  = cluster
 
  |> "dArA" <| [
 
     _____                     `xtra`    {- <dArA> -}           [ ['D','a','r','a'] ] ]
 
 
-cluster_89  = cluster
+cluster_92  = cluster
 
  |> "dUrtmUnd" <| [
 
     _____                     `xtra`    {- <dUrtmUnd> -}       [ ['D','o','r','t','m','u','n','d'] ] ]
 
 
-cluster_90  = cluster
+cluster_93  = cluster
 
  |> "dir.gAm" <| [
 
     _____                     `xtra`    {- <dir.gAm> -}        [ ['D','i','r','g','h','a','m'] ] ]
 
 
-cluster_91  = cluster
+cluster_94  = cluster
 
  |> "dArkU" <| [
 
     _____                     `xtra`    {- <dArkU> -}          [ ['D','a','r','k','o'] ] ]
 
 
-cluster_92  = cluster
+cluster_95  = cluster
 
  |> "dIrnir" <| [
 
     _____                     `xtra`    {- <dIrnir> -}         [ ['D','e','r','n','e','r'] ] ]
 
 
-cluster_93  = cluster
+cluster_96  = cluster
 
  |> "dIzIrIh" <| [
 
     _____                     `xtra`    {- <dIzIrIh> -}        [ ['D','e','s','i','r','e'], ['D','e','s','i','r','e','e'] ] ]
 
 
-cluster_94  = cluster
+cluster_97  = cluster
 
  |> "dIznI" <| [
 
     _____                     `xtra`    {- <dIznI> -}          [ ['D','i','s','n','e','y'] ] ]
 
 
-cluster_95  = cluster
+cluster_98  = cluster
+
+ |> "dIs" <| [
+
+    _____                     `xtra`    {- <dIs> -}            [ ['D','i','s'] ] ]
+
+
+cluster_99  = cluster
 
  |> "dUs" <| [
 
@@ -688,39 +716,11 @@ cluster_95  = cluster
     _____                     `xtra`    {- <dUs> -}            [ ['D','o','s'] ] ]
 
 
-cluster_96  = cluster
+cluster_100 = cluster
 
  |> "dusildUrf" <| [
 
     _____                     `xtra`    {- <dusildUrf> -}      [ ['D','u','s','s','e','l','d','o','r','f'] ] ]
-
-
-cluster_97  = cluster
-
- |> "dUstum" <| [
-
-    _____                     `xtra`    {- <dUstum> -}         [ ['D','u','s','t','u','m'] ] ]
-
-
-cluster_98  = cluster
-
- |> "distAynd" <| [
-
-    _____                     `xtra`    {- <distAynd> -}       [ ['D','e','s','t','i','n','e','d'] ] ]
-
-
-cluster_99  = cluster
-
- |> "dI^sAn" <| [
-
-    _____                     `xtra`    {- <dI^sAn> -}         [ ['D','e','s','c','h','a','m','p','s'] ] ]
-
-
-cluster_100 = cluster
-
- |> "dI.gUl" <| [
-
-    _____                     `xtra`    {- <dI.gUl> -}         [ ['D','e','g','a','u','l','l','e'] ] ]
 
 
 section = [ cluster_1,
