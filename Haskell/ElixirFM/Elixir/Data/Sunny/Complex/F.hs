@@ -1662,10 +1662,6 @@ cluster_87  = cluster
 
 cluster_88  = cluster
 
- |> "^s w y" <| [
-
- ]
-
  |> "^s y '" <| [
 
     FAL                       `verb`    {- <^sA'> -}           [ ['w','a','n','t'], ['d','e','s','i','r','e'], ['w','i','s','h'] ]

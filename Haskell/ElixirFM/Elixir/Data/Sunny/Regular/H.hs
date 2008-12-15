@@ -812,10 +812,6 @@ cluster_40  = cluster
 
 cluster_41  = cluster
 
- |> "s r .h n" <| [
-
- ]
-
  |> "s r .h" <| [
 
     FiCLAn                    `noun`    {- <sir.hAn> -}        [ ['S','i','r','h','a','n'] ],
