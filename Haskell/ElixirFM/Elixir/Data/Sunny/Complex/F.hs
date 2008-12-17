@@ -1662,6 +1662,27 @@ cluster_87  = cluster
 
 cluster_88  = cluster
 
+ |> ['^','s','a','w','k','a','r','A','n'] <| [
+
+    _____                     `noun`    {- <^sawkarAn> -}      [ ['h','e','m','l','o','c','k'] ] ]
+
+
+cluster_89  = cluster
+
+ |> ['^','s','a','w','w','A'] <| [
+
+    _____                     `noun`    {- <^sawwA> -}         [ ['S','h','a','w','w','a'] ] ]
+
+
+cluster_90  = cluster
+
+ |> ['^','s','A','y'] <| [
+
+    _____                     `noun`    {- <^sAy> -}           [ ['t','e','a'] ] ]
+
+
+cluster_91  = cluster
+
  |> "^s y '" <| [
 
     FAL                       `verb`    {- <^sA'> -}           [ ['w','a','n','t'], ['d','e','s','i','r','e'], ['w','i','s','h'] ]
@@ -1690,27 +1711,6 @@ cluster_88  = cluster
                               `plural`     TaFaCCuL |< At,
 
     MaFIL                     `noun`    {- <ma^sI'> -}         [ ['w','i','s','h'], ['d','e','s','i','r','e'], ['v','o','l','i','t','i','o','n'] ] ]
-
-
-cluster_89  = cluster
-
- |> ['^','s','a','w','k','a','r','A','n'] <| [
-
-    _____                     `noun`    {- <^sawkarAn> -}      [ ['h','e','m','l','o','c','k'] ] ]
-
-
-cluster_90  = cluster
-
- |> ['^','s','a','w','w','A'] <| [
-
-    _____                     `noun`    {- <^sawwA> -}         [ ['S','h','a','w','w','a'] ] ]
-
-
-cluster_91  = cluster
-
- |> ['^','s','A','y'] <| [
-
-    _____                     `noun`    {- <^sAy> -}           [ ['t','e','a'] ] ]
 
 
 cluster_92  = cluster

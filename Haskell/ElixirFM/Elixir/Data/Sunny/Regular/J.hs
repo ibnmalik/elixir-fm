@@ -1116,6 +1116,8 @@ cluster_81  = cluster
 
     FaCAL |< aT               `noun`    {- <^sa^gA`aT> -}      [ ['c','o','u','r','a','g','e'] ],
 
+    FuCAL |< Iy |< aT         `noun`    {- <^su^gA`IyaT> -}    [ ['S','h','u','j','a','i','y','a'] ],
+
     HaFCaL                    `adj`     {- <'a^s^ga`> -}       [ ['c','o','u','r','a','g','e','o','u','s'] ]
                               `femini`     FaCLA',
 

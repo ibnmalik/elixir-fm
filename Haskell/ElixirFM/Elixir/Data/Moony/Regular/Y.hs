@@ -11,15 +11,6 @@ lexicon = include section
 
 cluster_1   = cluster
 
- |> ['h','U','n','d','U','r'] <| [
-
-    _____ |<< "As"            `xtra`    {- <hUndUrAs> -}       [ ['H','o','n','d','u','r','a','s'] ],
-
-    _____ |< Iy               `adj`     {- <hUndUrIy> -}       [ ['H','o','n','d','u','r','a','n'] ] ]
-
-
-cluster_2   = cluster
-
  |> ['h','i','n','d','U','s'] <| [
 
     _____ |< Iy               `adj`     {- <hindUsIy> -}       [ ['H','i','n','d','u'] ]
@@ -35,7 +26,7 @@ cluster_2   = cluster
     _____ |< Iy |< aT         `noun`    {- <hindUsIyaT> -}     [ ['H','i','n','d','u','i','s','m'] ] ]
 
 
-cluster_3   = cluster
+cluster_2   = cluster
 
  |> ['h','u','n','.','g','A','r'] <| [
 
@@ -50,5 +41,4 @@ cluster_3   = cluster
 
 
 section = [ cluster_1,
-            cluster_2,
-            cluster_3 ]
+            cluster_2 ]

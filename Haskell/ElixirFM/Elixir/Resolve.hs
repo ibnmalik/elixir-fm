@@ -193,7 +193,7 @@ instance Resolve String where
                                        let u = (units . uncurry merge) i, d <- y, u `q` d ] ]
 
 
-    tokenize x = tokens''' x
+    tokenize = nub . tokens'''
 
         where tokens x = if null x then [] else case reverse x of
 
@@ -384,7 +384,7 @@ instance Resolve [UPoint] where
                                     [ (uncurry merge i, [Token (l, (n, m)) i t]) | (t, h) <- inflect l x, i <- h ] ]
 
 
-    tokenize x = (map (map (decode Tim)) . tokens''' . encode Tim) x
+    tokenize = map (map (decode Tim)) . nub . tokens''' . encode Tim
 
         where tokens x = if null x then [] else case reverse x of
 
