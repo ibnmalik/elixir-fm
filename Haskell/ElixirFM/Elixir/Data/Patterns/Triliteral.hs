@@ -268,7 +268,8 @@ instance Forming PatternT where
 
     verbStems I r
 
-        | (unwords . tail . words) r == "y y" = [
+        | let x = words r in if null x then False
+                                       else tail x == ["y", "y"] = [
 
         (   Just   (    FaCI,       FuCI,       FCY,        FCY         ),
                         FaCL,       FuCL,       FCY,        FCY         ),  -- .hayya
@@ -385,12 +386,13 @@ instance Forming PatternT where
 
     verbStems IV r
 
-        | let x = words r in if null x || length x > 2 && x !! 1 == x !! 2
-                                       then False
+        | let x = words r in if null x then False
                                        else head x `elem` ["w", "y"] = [
 
         (   Nothing,    HaFCaL,     HUCiL,      FCiL,       FCaL        ),
-        (   Nothing,    HaFCY,      HUCI,       FCI,        FCY         )
+        (   Nothing,    HaFCY,      HUCI,       FCI,        FCY         ),
+        (   Just   (    HaFCaL,     HUCiL,      FCiL,       FCaL        ),
+                        HaFaCL,     HuFiCL,     FiCL,       FaCL        )
 
         ]
 
@@ -462,12 +464,13 @@ instance Forming PatternT where
 
     verbStems X r
 
-        | let x = words r in if null x || length x > 2 && x !! 1 == x !! 2
-                                       then False
+        | let x = words r in if null x then False
                                        else head x `elem` ["w", "y"] = [
 
         (   Nothing,    IstaFCaL,   UstUCiL,    StaFCiL,    StaFCaL     ),
-        (   Nothing,    IstaFCY,    UstUCI,     StaFCI,     StaFCY      )
+        (   Nothing,    IstaFCY,    UstUCI,     StaFCI,     StaFCY      ),
+        (   Just   (    IstaFCaL,   UstUCiL,    StaFCiL,    StaFCaL     ),
+                        IstaFaCL,   UstuFiCL,   StaFiCL,    StaFaCL     )
 
         ]
 
@@ -543,7 +546,8 @@ instance Forming PatternT where
 
     nounStems II r
 
-        | (unwords . tail . words) r == "y y" = [
+        | let x = words r in if null x then False
+                                       else tail x == ["y", "y"] = [
 
         (   FaCCY,      MuFaCCI,    MuFaCCY,            TaFIL |< aT     )
 
@@ -579,12 +583,12 @@ instance Forming PatternT where
 
     nounStems IV r
 
-        | let x = words r in if null x || length x > 2 && x !! 1 == x !! 2
-                                       then False
+        | let x = words r in if null x then False
                                        else head x `elem` ["w", "y"] = [
 
         (   HaFCaL,     MUCiL,      MUCaL,      morph   HICAL           ),
-        (   HaFCY,      MUCI,       MUCY,       morph   HICA'           )
+        (   HaFCY,      MUCI,       MUCY,       morph   HICA'           ),
+        (   HaFaCL,     MuFiCL,     MuFaCL,     morph   HICAL           )
 
         ]
 
@@ -648,12 +652,12 @@ instance Forming PatternT where
 
     nounStems X r
 
-        | let x = words r in if null x || length x > 2 && x !! 1 == x !! 2
-                                       then False
+        | let x = words r in if null x then False
                                        else head x `elem` ["w", "y"] = [
 
         (   IstaFCaL,   MustaFCiL,  MustaFCaL,  morph   IstICAL         ),
-        (   IstaFCY,    MustaFCI,   MustaFCY,   morph   IstICA'         )
+        (   IstaFCY,    MustaFCI,   MustaFCY,   morph   IstICA'         ),
+        (   IstaFaCL,   MustaFiCL,  MustaFaCL,  morph   IstICAL         )
 
         ]
 

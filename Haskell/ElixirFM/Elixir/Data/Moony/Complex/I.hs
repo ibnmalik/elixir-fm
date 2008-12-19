@@ -1721,6 +1721,7 @@ cluster_66  = cluster
                               `pfirst`     FaCaL,
 
     FaCL                      `verb`    {- <_habb> -}          [ ['c','i','r','c','u','m','v','e','n','t'], ['t','r','i','c','k'] ]
+                              `imperf`     FaCL
                               `pfirst`     FaCaL,
 
     TaFaCCaL                  `verb`    {- <ta_habbab> -}      [ ['a','m','b','l','e'], ['t','r','o','t'] ],
@@ -1921,6 +1922,7 @@ cluster_81  = cluster
  |> "_h s s" <| [
 
     FaCL                      `verb`    {- <_hass> -}          [ unwords [ ['b','e'], ['m','e','a','n'] ], ['d','i','m','i','n','i','s','h'] ]
+                              `imperf`     FaCL
                               `pfirst`     FaCiL,
 
     FaCL                      `verb`    {- <_hass> -}          [ ['l','e','s','s','e','n'], ['r','e','d','u','c','e'], ['d','i','m','i','n','i','s','h'] ]
@@ -2095,6 +2097,7 @@ cluster_86  = cluster
  |> "_h .d .d" <| [
 
     FaCL                      `verb`    {- <_ha.d.d> -}        [ ['s','h','o','c','k'], ['f','r','i','g','h','t','e','n'] ]
+                              `imperf`     FaCL
                               `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- <_ha.d.d> -}        [ ['j','o','l','t'], ['s','c','a','r','e'] ],
@@ -2480,7 +2483,8 @@ cluster_98  = cluster
 
     FaCY                      `noun`    {- <_hanY> -}          [ ['o','b','s','c','e','n','i','t','y'], ['f','o','r','n','i','c','a','t','i','o','n'] ],
 
-    FaCI                      `verb`    {- <_hanI> -}          [ unwords [ ['b','e'], ['o','b','s','c','e','n','e'] ] ] ]
+    FaCI                      `verb`    {- <_hanI> -}          [ unwords [ ['b','e'], ['o','b','s','c','e','n','e'] ] ]
+                              `imperf`     FCY ]
 
  |> "_h n w" <| [
 

@@ -1301,13 +1301,13 @@ cluster_92  = cluster
 
     FaCL |< aT                `noun`    {- <hatfaT> -}         [ ['s','h','o','u','t'], ['c','a','l','l'] ],
 
-    FuCAL                     `noun`    {- <hutAf> -}          [ ['s','h','o','u','t','i','n','g'], ['c','h','e','e','r','i','n','g'], ['s','h','o','u','t','s'] ]
+    FuCAL                     `noun`    {- <hutAf> -}          [ ['e','x','c','l','a','m','a','t','i','o','n'], ['s','h','o','u','t','i','n','g'], ['c','h','e','e','r','i','n','g'], ['s','h','o','u','t','s'] ]
                               `plural`     FuCAL |< At,
 
     FACiL                     `noun`    {- <hAtif> -}          [ ['t','e','l','e','p','h','o','n','e'] ]
                               `plural`     FawACiL,
 
-    FACiL                     `noun`    {- <hAtif> -}          [ ['s','h','o','u','t','s'], ['e','x','c','l','a','m','a','t','i','o','n','s'] ]
+    FACiL                     `noun`    {- <hAtif> -}          [ ['s','h','o','u','t','s'], ['e','x','c','l','a','m','a','t','i','o','n'] ]
                               `plural`     FawACiL,
 
     FACiL                     `adj`     {- <hAtif> -}          [ ['s','h','o','u','t','i','n','g'], ['c','a','l','l','i','n','g'] ]

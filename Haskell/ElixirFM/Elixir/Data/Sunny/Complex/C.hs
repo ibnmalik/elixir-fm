@@ -348,7 +348,8 @@ cluster_17  = cluster
     FaCY                      `verb`    {- <_dawY> -}          [ ['w','i','t','h','e','r'], ['f','a','d','e'] ]
                               `imperf`     FCI,
 
-    FaCI                      `verb`    {- <_dawI> -}          [ ['w','i','t','h','e','r'], ['f','a','d','e'] ],
+    FaCI                      `verb`    {- <_dawI> -}          [ ['w','i','t','h','e','r'], ['f','a','d','e'] ]
+                              `imperf`     FCY,
 
     HaFCY                     `verb`    {- <'a_dwY> -}         [ unwords [ ['m','a','k','e'], ['w','i','l','t'] ], unwords [ ['m','a','k','e'], ['d','r','y'] ], unwords [ ['b','e'], ['w','i','l','t','e','d'] ], unwords [ ['b','e'], ['d','r','i','e','d'] ] ],
 

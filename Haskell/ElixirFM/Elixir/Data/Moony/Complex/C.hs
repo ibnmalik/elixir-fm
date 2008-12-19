@@ -1057,7 +1057,7 @@ cluster_88  = cluster
 
     FaCL                      `noun`    {- <'a.t.t> -}         [ ['b','r','a','y','i','n','g'] ],
 
-    FaCIL                     `noun`    {- <'a.tI.t> -}        [ ['b','r','a','y','i','n','g'] ] ]
+    FaCIL                     `adj`     {- <'a.tI.t> -}        [ ['b','r','a','y','i','n','g'] ] ]
 
 
 cluster_89  = cluster

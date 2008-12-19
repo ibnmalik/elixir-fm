@@ -1438,6 +1438,7 @@ cluster_89  = cluster
  |> "` .s .s" <| [
 
     FaCL                      `verb`    {- <`a.s.s> -}         [ ['h','a','r','d','e','n'] ]
+                              `imperf`     FaCL
                               `pfirst`     FaCaL,
 
     FaCL                      `noun`    {- <`a.s.s> -}         [ ['h','a','r','d','e','n','i','n','g'] ]
@@ -1517,6 +1518,7 @@ cluster_92  = cluster
  |> "` .d .d" <| [
 
     FaCL                      `verb`    {- <`a.d.d> -}         [ ['b','i','t','e'] ]
+                              `imperf`     FaCL
                               `pfirst`     FaCiL,
 
     FaCCaL                    `verb`    {- <`a.d.da.d> -}      [ ['b','i','t','e'] ],

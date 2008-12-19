@@ -133,10 +133,7 @@ instance (Morphing a b, Show b) => Lookup a where
 
 instance Lookup Form where
 
-    lookupWith y x = lookupUsing y (const False) (\ r e -> x `elem` lookupForm (case domain e of TagsVerb _ -> 'V'
-                                                                                                 TagsNoun _ -> 'N'
-                                                                                                 TagsAdj  _ -> 'A'
-                                                                                                 _          -> '-') r e)
+    lookupWith y x = lookupUsing y (const False) (\ r e -> x `elem` lookupForm r e)
 
                   -- lookupUsing y (const False) (\ _ e -> isForm x (morphs e))
 

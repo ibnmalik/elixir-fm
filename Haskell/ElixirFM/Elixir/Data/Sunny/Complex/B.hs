@@ -220,6 +220,7 @@ cluster_18  = cluster
  |> "d ` `" <| [
 
     FaCL                      `verb`    {- <da``> -}           [ ['r','e','b','u','f','f'], unwords [ ['t','u','r','n'], ['d','o','w','n'] ] ]
+                              `imperf`     FaCL
                               `pfirst`     FaCaL,
 
     FaCIL                     `noun`    {- <da`I`> -}          [ ['D','a','\'','i','i'] ] ]
@@ -1186,10 +1187,11 @@ cluster_66  = cluster
 
  |> "d w y" <| [
 
-    FaCY                      `verb`    {- <dawY> -}           [ ['b','u','z','z'], ['h','u','m'], unwords [ ['b','e'], ['h','u','m','m','e','d'] ] ]
+    FaCY                      `verb`    {- <dawY> -}           [ ['b','u','z','z'], ['h','u','m'] ]
                               `imperf`     FCI,
 
-    FaCI                      `verb`    {- <dawI> -}           [ ['b','u','z','z'], ['h','u','m'] ],
+    FaCI                      `verb`    {- <dawI> -}           [ ['b','u','z','z'], ['h','u','m'] ]
+                              `imperf`     FCY,
 
     FaCCY                     `verb`    {- <dawwY> -}          [ ['b','u','z','z'], ['h','u','m'], ['d','r','o','n','e'] ],
 

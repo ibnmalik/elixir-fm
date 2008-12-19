@@ -140,19 +140,17 @@ instance Derive Lexeme String where
 -- map (map (map (uncurry merge) . snd)) [ inflect x "N------S-I" | x <- derive (Lexeme "^g r b" $ FaCCaL `verb` []) "N" ]
 
 
-lookupForm :: (Eq a, Forming a, Morphing a a) => Char -> Root -> Entry a -> [Form]
+lookupForm :: (Eq a, Forming a, Morphing a a) => Root -> Entry a -> [Form]
 
-lookupForm x r e = case x of
+lookupForm r e = case entity e of
 
-        'V' -> (form . entity) e
+        Verb _ _ _ _ _ _ _  -> (form . entity) e
 
-        'N' -> [ f | f <- [I ..], or [ True | (_, b, c, d) <- nounStems f r,
-                                       any (morphs e ==) [morph b, morph c, d] ] ]
+        Noun _ _ _ _        -> [ f | f <- [I ..], or [ any (morphs e ==) [morph b, morph c, d] | (_, b, c, d) <- nounStems f r ] ]
 
-        'A' -> [ f | f <- [I ..], or [ True | (_, b, c, _) <- nounStems f r,
-                                       any (morphs e ==) [morph b, morph c] ] ]
+        Adj  _ _ _          -> [ f | f <- [I ..], or [ any (morphs e ==) [morph b, morph c]    | (_, b, c, _) <- nounStems f r ] ]
 
-        _   -> []
+        _                   -> []
 
 
 lookVerb :: Eq a => a -> Tense -> Voice -> Bool -> Tense -> Voice -> Bool -> [VerbStems a] -> [a]

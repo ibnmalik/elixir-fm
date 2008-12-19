@@ -669,6 +669,7 @@ cluster_28  = cluster
  |> "w d d" <| [
 
     FaCL                      `verb`    {- <wadd> -}           [ ['w','a','n','t'], unwords [ ['w','o','u','l','d'], ['l','i','k','e'] ] ]
+                              `imperf`     FaCL
                               `pfirst`     FaCiL,
 
     FACL                      `verb`    {- <wAdd> -}           [ ['b','e','f','r','i','e','n','d'] ],
@@ -677,10 +678,14 @@ cluster_28  = cluster
 
     TaFACL                    `verb`    {- <tawAdd> -}         [ unwords [ ['b','e'], ['f','r','i','e','n','d','s'] ], unwords [ ['l','i','v','e'], ['h','a','r','m','o','n','i','o','u','s','l','y'] ] ],
 
-    FuCL                      `noun`    {- <wudd> -}           [ ['a','f','f','e','c','t','i','o','n'], ['f','r','i','e','n','d','s','h','i','p'] ]
-                              `plural`     FiCL,
+    FuCL                      `noun`    {- <wudd> -}           [ ['a','f','f','e','c','t','i','o','n'], ['f','r','i','e','n','d','s','h','i','p'] ],
 
-    HaFCAL                    `noun`    {- <'awdAd> -}         [ ['a','f','f','e','c','t','i','o','n','a','t','e'] ],
+    FiCL                      `noun`    {- <widd> -}           [ ['a','f','f','e','c','t','i','o','n'], ['f','r','i','e','n','d','s','h','i','p'] ],
+
+    FaCL                      `noun`    {- <wadd> -}           [ ['a','f','f','e','c','t','i','o','n'], ['f','r','i','e','n','d','s','h','i','p'] ],
+
+    FaCL                      `adj`     {- <wadd> -}           [ ['a','f','f','e','c','t','i','o','n','a','t','e'] ]
+                              `plural`     HaFCAL,
 
     FuCL |< Iy                `adj`     {- <wuddIy> -}         [ ['f','r','i','e','n','d','l','y'], ['a','m','i','c','a','b','l','e'] ],
 

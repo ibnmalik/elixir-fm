@@ -1949,6 +1949,7 @@ cluster_90  = cluster
                               `pfirst`     FaCaL,
 
     FaCL                      `verb`    {- <.hass> -}          [ ['f','e','e','l'] ]
+                              `imperf`     FaCL
                               `pfirst`     FaCiL,
 
     HaFaCL                    `verb`    {- <'a.hass> -}        [ ['f','e','e','l'], ['p','e','r','c','e','i','v','e'], unwords [ ['b','e'], ['f','e','l','t'] ] ],
@@ -2285,6 +2286,7 @@ cluster_100 = cluster
  |> ".h .z .z" <| [
 
     FaCL                      `verb`    {- <.ha.z.z> -}        [ unwords [ ['b','e'], ['f','o','r','t','u','n','a','t','e'] ] ]
+                              `imperf`     FaCL
                               `pfirst`     FaCaL,
 
     HaFaCL                    `verb`    {- <'a.ha.z.z> -}      [ unwords [ ['b','e'], ['f','o','r','t','u','n','a','t','e'] ] ],

@@ -1349,6 +1349,7 @@ cluster_50  = cluster
  |> ".g b b" <| [
 
     FaCL                      `verb`    {- <.gabb> -}          [ unwords [ ['c','o','m','e'], ['i','n','t','e','r','m','i','t','t','e','n','t','l','y'] ] ]
+                              `imperf`     FaCL
                               `pfirst`     FaCaL,
 
     FiCL                      `noun`    {- <.gibb> -}          [ ['c','o','n','s','e','q','u','e','n','c','e'], ['o','u','t','c','o','m','e'] ],
@@ -1775,6 +1776,7 @@ cluster_67  = cluster
  |> ".g .s .s" <| [
 
     FaCL                      `verb`    {- <.ga.s.s> -}        [ unwords [ ['b','e'], ['c','o','n','g','e','s','t','e','d'] ], unwords [ ['b','e'], ['c','r','o','w','d','e','d'] ] ]
+                              `imperf`     FaCL
                               `pfirst`     FaCiL,
 
     HaFaCL                    `verb`    {- <'a.ga.s.s> -}      [ ['s','u','f','f','o','c','a','t','e'], ['a','s','p','h','y','x','i','a','t','e'], ['d','r','o','w','n'] ],

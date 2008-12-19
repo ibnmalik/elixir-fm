@@ -1156,10 +1156,7 @@ cluster_49  = cluster
 
     FaCIL                     `adj`     {- <wakId> -}          [ ['c','o','n','f','i','r','m','e','d'], ['s','u','b','s','t','a','n','t','i','a','t','e','d'] ],
 
-    FaCIL                     `noun`    {- <wakId> -}          [ ['c','e','r','t','a','i','n'], ['p','o','s','i','t','i','v','e'] ]
-                              `plural`     FaCIL |< Un
-                           
-    `derives` otherwise,
+    FaCIL                     `adj`     {- <wakId> -}          [ ['c','e','r','t','a','i','n'], ['p','o','s','i','t','i','v','e'] ],
 
     FACiL                     `noun`    {- <wAkid> -}          [ ['W','a','k','e','d'] ],
 

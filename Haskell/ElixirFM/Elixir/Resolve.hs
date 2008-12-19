@@ -60,7 +60,7 @@ instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pret
 
                         (text . ('\t' :) . concat . words . show . pretty) (entity e)
 
-                        <$$> encloseText [show (reflex e), show (lookupForm ((head . show . pretty) (tag x)) r e)]
+                        <$$> encloseText [show (reflex e), show (lookupForm r e)]
                         <$$> encloseText [merge r (morphs e), show r, show (morphs e)] )
 
             <$$> vcat [ pretty (tag y) <>
@@ -77,7 +77,7 @@ instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pret
                 encloseText [merge d m, show d, show m]
 
                 <$$> encloseText [merge r (morphs e), show r, show (morphs e)]
-                <$$> encloseText [show (reflex e), show (lookupForm ((head . show) t) r e)]
+                <$$> encloseText [show (reflex e), show (lookupForm r e)]
                 <$$> (text . ('\t' :) . concat . words . show . pretty) (entity e)
                 <$$> (text . ('\t' :) . show) idx )
 

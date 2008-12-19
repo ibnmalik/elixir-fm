@@ -75,16 +75,14 @@ cluster_6   = cluster
 
     TaFaCCaL                  `verb`    {- <ta'awwah> -}       [ ['e','x','c','l','a','i','m'], ['s','i','g','h'] ],
 
-    FAL |< aT                 `noun`    {- <'AhaT> -}          [ ['e','x','c','l','a','m','a','t','i','o','n'], ['s','i','g','h'] ],
-
-    FAL |< At                 `noun`    {- <'AhAt> -}          [ ['a','c','c','l','a','i','m'], ['e','x','c','l','a','m','a','t','i','o','n'] ]
+    FAL |< aT                 `noun`    {- <'AhaT> -}          [ ['e','x','c','l','a','m','a','t','i','o','n'], ['s','i','g','h'], ['a','c','c','l','a','i','m'] ]
                               `plural`     FAL |< At,
 
     FaCCaL                    `intj`    {- <'awwah> -}         [ unwords [ ['o','h'], "!" ] ],
 
     FuCAL                     `intj`    {- <'uwAh> -}          [ unwords [ ['o','h'], "!" ] ],
 
-    TaFaCCuL                  `noun`    {- <ta'awwuh> -}       [ ['s','i','g','h','s'], ['e','x','c','l','a','m','a','t','i','o','n','s'] ]
+    TaFaCCuL                  `noun`    {- <ta'awwuh> -}       [ ['s','i','g','h'], ['e','x','c','l','a','m','a','t','i','o','n'] ]
                               `plural`     TaFaCCuL |< At,
 
     MutaFaCCiL                `adj`     {- <muta'awwih> -}     [ ['s','i','g','h','i','n','g'], ['e','x','c','l','a','i','m','i','n','g'] ] ]
@@ -1124,6 +1122,7 @@ cluster_73  = cluster
  |> "b ^s ^s" <| [
 
     FaCL                      `verb`    {- <ba^s^s> -}         [ unwords [ ['b','e'], ['h','a','p','p','y'] ], unwords [ ['b','e'], ['p','l','a','y','f','u','l'] ] ]
+                              `imperf`     FaCL
                               `pfirst`     FaCaL,
 
     FaCUL                     `noun`    {- <ba^sU^s> -}        [ ['s','m','i','l','i','n','g'], ['c','h','e','e','r','f','u','l'] ]

@@ -1016,6 +1016,7 @@ cluster_56  = cluster
                               `pfirst`     FaCaL,
 
     FaCL                      `verb`    {- <qa.d.d> -}         [ unwords [ ['b','e'], ['r','o','u','g','h'] ], unwords [ ['b','e'], ['c','r','u','d','e'] ] ]
+                              `imperf`     FaCL
                               `pfirst`     FaCaL,
 
     HaFaCL                    `verb`    {- <'aqa.d.d> -}       [ unwords [ ['b','e'], ['r','o','u','g','h'] ], unwords [ ['b','e'], ['h','a','r','d'] ] ],
