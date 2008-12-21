@@ -135,7 +135,7 @@ elixirResolve o p = interact (unlines . map (show . q) . concat . map words . on
     where q = pretty . (if r then id else prune) . case e of
 
                 "utf"   ->  resolveBy (fst f') (omitting (snd f') omits) t' . decode UTF
-                
+
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
                                   t' = if t then tokenize else thetoken
 
@@ -145,7 +145,7 @@ elixirResolve o p = interact (unlines . map (show . q) . concat . map words . on
                                   t' = if t then tokenize else thetoken
 
                 _       ->  resolveBy (fst f') (omitting (snd f') omits) t'
-                
+
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
                                   t' = if t then tokenize else thetoken
 
@@ -158,7 +158,7 @@ elixirResolve o p = interact (unlines . map (show . q) . concat . map words . on
 
 elixirInflect o p = interact (unlines . map (show . q) . map words . onlines)
 
-    where q x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (inflect (Lexeme r s) x) | e <- z, s <- entries e ]) w ]
+    where q x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (inflect (Lexeme r e) x) | e <- z ]) w ]
 
           i = [ z | x <- p, (y, "") <- readsPrec 0 x, z <- lookupIndex y lexicon ]
 
@@ -176,7 +176,11 @@ elixirLookup o p = interact (unlines . map (show . pretty . q) . concat . map wo
           e = if null p then "" else map toLower (head p)
 
 
-elixirDerive o p = error "'elixir derive' not implemented yet"
+elixirDerive o p = interact (unlines . map (show . q) . map words . onlines)
+
+    where q x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (derive (Lexeme r e) x) | e <- z ]) w ]
+
+          i = [ z | x <- p, (y, "") <- readsPrec 0 x, z <- lookupIndex y lexicon ]
 
 
 elixirCompose o p = (putDoc . generate e) lexicon

@@ -312,7 +312,7 @@ cluster_33  = cluster
 
     FuCUL |< Iy               `adj`     {- <_tubUtIy> -}       [ ['e','v','i','d','e','n','t','i','a','l'], ['s','u','p','p','o','r','t','i','n','g'] ],
 
-    HaFCaL                    `noun`    {- <'a_tbat> -}        [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['r','e','l','i','a','b','l','e'] ], ['s','t','e','a','d','i','e','r'] ],
+    HaFCaL                    `adj`     {- <'a_tbat> -}        [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['r','e','l','i','a','b','l','e'] ], ['s','t','e','a','d','i','e','r'] ],
 
     TaFCIL                    `noun`    {- <ta_tbIt> -}        [ ['s','u','b','s','t','a','n','t','i','a','t','i','o','n'], ['s','t','a','b','i','l','i','z','a','t','i','o','n'] ]
                               `plural`     TaFCIL |< At,
@@ -891,7 +891,7 @@ cluster_64  = cluster
     FaCIL                     `adj`     {- <_tamIn> -}         [ ['c','o','s','t','l','y'], ['p','r','e','c','i','o','u','s'] ]
                               `plural`     FiCAL,
 
-    HaFCaL                    `noun`    {- <'a_tman> -}        [ ['c','o','s','t','l','i','e','r'], unwords [ ['m','o','r','e'], ['v','a','l','u','a','b','l','e'] ] ],
+    HaFCaL                    `adj`     {- <'a_tman> -}        [ ['c','o','s','t','l','i','e','r'], unwords [ ['m','o','r','e'], ['v','a','l','u','a','b','l','e'] ] ],
 
     TaFCIL                    `noun`    {- <ta_tmIn> -}        [ ['a','p','p','r','a','i','s','a','l'], ['r','a','t','i','n','g'] ]
                               `plural`     TaFCIL |< At,

@@ -1096,9 +1096,10 @@ cluster_72  = cluster
 
  |> "' _h _d" <| [
 
-    FaCaL                     `verb`    {- <'a_ha_d> -}        [ ['t','a','k','e'], ['b','e','g','i','n'] ]
+    FaCaL                     `verb`    {- <'a_ha_d> -}        [ ['t','a','k','e'], ['b','e','g','i','n'], ['a','d','o','p','t'], ['o','b','s','e','r','v','e'], ['f','o','l','l','o','w'] ]
                               `imperf`     FCuL
-                              `second`     CuL,
+                              `second`     CuL
+                              `masdar`     FaCL,
 
     FaCCaL                    `verb`    {- <'a_h_ha_d> -}      [ ['e','n','c','h','a','n','t'], ['b','e','w','i','t','c','h'] ],
 

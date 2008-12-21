@@ -1198,7 +1198,7 @@ cluster_88  = cluster
 
     MaFCUL                    `adj`     {- <mamrUr> -}         [ unwords [ ['b','a','d'], "-", ['t','e','m','p','e','r','e','d'] ], ['i','r','r','i','t','a','b','l','e'] ],
 
-    HaFaCL                    `noun`    {- <'amarr> -}         [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['b','i','t','t','e','r'] ] ],
+    HaFaCL                    `adj`     {- <'amarr> -}         [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['b','i','t','t','e','r'] ] ],
 
     FaCIL |< aT               `noun`    {- <marIraT> -}        [ ['f','i','r','m','n','e','s','s'], ['b','i','t','t','e','r','n','e','s','s'] ]
                               `plural`     FaCA'iL,

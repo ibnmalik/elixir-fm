@@ -1692,7 +1692,7 @@ cluster_99  = cluster
 
     FUL |< Iy                 `adj`     {- <fUhIy> -}          [ ['o','r','a','l'], ['v','o','c','a','l'] ],
 
-    HaFCaL                    `noun`    {- <'afwah> -}         [ unwords [ ['b','r','o','a','d'], "-", ['m','o','u','t','h','e','d'] ] ],
+    HaFCaL                    `adj`     {- <'afwah> -}         [ unwords [ ['b','r','o','a','d'], "-", ['m','o','u','t','h','e','d'] ] ],
 
     MuFaCCaL                  `adj`     {- <mufawwah> -}       [ ['e','l','o','q','u','e','n','t'] ] ]
 

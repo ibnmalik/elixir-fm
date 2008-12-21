@@ -86,7 +86,7 @@ cluster_6   = cluster
     FaCIL                     `adj`     {- <qawIy> -}          [ ['s','t','r','o','n','g'], ['p','o','w','e','r','f','u','l'] ]
                               `plural`     HaFCiLA',
 
-    HaFCY                     `noun`    {- <'aqwY> -}          [ unwords [ ['s','t','r','o','n','g','e','r'], "/", ['s','t','r','o','n','g','e','s','t'] ], unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['p','o','w','e','r','f','u','l'] ], ['s','t','r','o','n','g','e','s','t'], unwords [ ['m','o','s','t'], ['p','o','w','e','r','f','u','l'] ] ],
+    HaFCY                     `adj`     {- <'aqwY> -}          [ unwords [ ['s','t','r','o','n','g','e','r'], "/", ['s','t','r','o','n','g','e','s','t'] ], unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['p','o','w','e','r','f','u','l'] ] ],
 
     TaFCI |< aT               `noun`    {- <taqwiyaT> -}       [ ['s','t','r','e','n','g','t','h','e','n','i','n','g'], ['c','o','n','s','o','l','i','d','a','t','i','o','n'], ['r','e','i','n','f','o','r','c','e','m','e','n','t'], unwords [ ['s','e','e','d'], ['f','o','r'], ['s','o','w','i','n','g'] ] ]
                               `plural`     TaFACI,

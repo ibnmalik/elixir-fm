@@ -28,7 +28,6 @@ import qualified Elixir.Data.Moony.Regular.U as U
 import qualified Elixir.Data.Moony.Regular.V as V
 import qualified Elixir.Data.Moony.Regular.W as W
 import qualified Elixir.Data.Moony.Regular.X as X
-import qualified Elixir.Data.Moony.Regular.Y as Y
 
 
 version = revised "$Revision$"
@@ -59,5 +58,4 @@ chapter = [ A.section,
             U.section,
             V.section,
             W.section,
-            X.section,
-            Y.section ]
+            X.section ]

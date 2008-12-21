@@ -725,7 +725,7 @@ cluster_27  = cluster
 
     FaCIL                     `adj`     {- <`awI.s> -}         [ ['d','i','f','f','i','c','u','l','t'], ['r','e','c','o','n','d','i','t','e'] ],
 
-    HaFCaL                    `noun`    {- <'a`wa.s> -}        [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['d','i','f','f','i','c','u','l','t'] ], unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['r','e','c','o','n','d','i','t','e'] ] ],
+    HaFCaL                    `adj`     {- <'a`wa.s> -}        [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['d','i','f','f','i','c','u','l','t'] ], unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['r','e','c','o','n','d','i','t','e'] ] ],
 
     IFtiyAL                   `noun`    {- <i`tiyA.s> -}       [ ['d','i','f','f','i','c','u','l','t','y'], ['i','n','t','r','a','c','t','a','b','i','l','i','t','y'] ]
                               `plural`     IFtiyAL |< At ]
@@ -1385,7 +1385,7 @@ cluster_51  = cluster
 
     FaCA'                     `noun`    {- <.gabA'> -}         [ ['i','g','n','o','r','a','n','c','e'], ['s','t','u','p','i','d','i','t','y'] ],
 
-    HaFCY                     `noun`    {- <'a.gbY> -}         [ ['s','t','u','p','i','d'] ],
+    HaFCY                     `adj`     {- <'a.gbY> -}         [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['s','t','u','p','i','d'] ] ],
 
     TaFCI |< aT               `noun`    {- <ta.gbiyaT> -}      [ ['s','t','u','p','e','f','a','c','t','i','o','n'] ] ]
 
@@ -2053,7 +2053,7 @@ cluster_80  = cluster
 
     FuCLA'                    `noun`    {- <.gulwA'> -}        [ ['z','e','a','l'], ['e','n','t','h','u','s','i','a','s','m'] ],
 
-    HaFCY                     `noun`    {- <'a.glY> -}         [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['e','x','p','e','n','s','i','v','e'] ], unwords [ ['m','o','s','t'], ['e','x','p','e','n','s','i','v','e'] ] ],
+    HaFCY                     `adj`     {- <'a.glY> -}         [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['e','x','p','e','n','s','i','v','e'] ] ],
 
     MuFACY |< aT              `noun`    {- <mu.gAlAT> -}       [ ['e','x','a','g','g','e','r','a','t','i','o','n'], ['e','x','c','e','s','s'] ]
                               `plural`     MuFACY |< At,
