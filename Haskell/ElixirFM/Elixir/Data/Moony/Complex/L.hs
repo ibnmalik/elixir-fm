@@ -1465,13 +1465,13 @@ cluster_89  = cluster
 
     FAL |< aT                 `noun`    {- <fAraT> -}          [ unwords [ ['p','l','a','n','e'], "(", ['t','o','o','l'], ")" ] ],
 
-    FaCL                      `noun`    {- <fawr> -}           [ ['i','m','m','e','d','i','a','t','e','l','y'], unwords [ ['a','t'], ['o','n','c','e'] ] ],
+    FaCL                      `noun`    {- <fawr> -}           [ ['b','o','i','l','i','n','g'] ],
+
+    FaCL |<< "aN"             `adv`     {- <fawraN> -}         [ ['i','m','m','e','d','i','a','t','e','l','y'], unwords [ ['a','t'], ['o','n','c','e'] ] ],
 
     FaCL |<< "a"              `prep`    {- <fawra> -}          [ unwords [ ['i','m','m','e','d','i','a','t','e','l','y'], ['a','f','t','e','r'] ] ],
 
     FaCL |< Iy                `adj`     {- <fawrIy> -}         [ ['i','m','m','e','d','i','a','t','e'], ['i','n','s','t','a','n','t'], unwords [ ['o','n'], ['t','h','e'], ['s','p','o','t'] ] ],
-
-    FaCL                      `noun`    {- <fawr> -}           [ ['b','o','i','l','i','n','g'] ],
 
     FaCL |< aT                `noun`    {- <fawraT> -}         [ ['t','a','n','t','r','u','m'], unwords [ ['f','l','a','r','e'], "-", ['u','p'] ] ],
 
@@ -1483,7 +1483,7 @@ cluster_89  = cluster
 
     FA'iL                     `adj`     {- <fA'ir> -}          [ ['b','o','i','l','i','n','g'] ],
 
-    FA'iL |< aT               `noun`    {- <fA'iraT> -}        [ unwords [ ['f','i','t'], ['o','f'], ['a','n','g','e','r'] ], unwords [ ['f','l','a','r','e'], "-", ['u','p'] ], unwords [ ['f','i','t','s'], ['o','f'], ['a','n','g','e','r'] ] ]
+    FA'iL |< aT               `noun`    {- <fA'iraT> -}        [ unwords [ ['f','i','t'], ['o','f'], ['a','n','g','e','r'] ], unwords [ ['f','l','a','r','e'], "-", ['u','p'] ] ]
                               `plural`     FawA'iL ]
 
 
@@ -1507,10 +1507,12 @@ cluster_90  = cluster
     MaFAL |< aT               `noun`    {- <mafAzaT> -}        [ ['d','e','s','e','r','t'] ]
                               `plural`     MaFACiL,
 
-    FA'iL                     `noun`    {- <fA'iz> -}          [ ['w','i','n','n','e','r'], ['v','i','c','t','o','r','i','o','u','s'] ]
+    FA'iL                     `noun`    {- <fA'iz> -}          [ ['w','i','n','n','e','r'] ]
                               `plural`     FA'iL |< Un
                            
     `derives` otherwise,
+
+    FA'iL                     `adj`     {- <fA'iz> -}          [ ['v','i','c','t','o','r','i','o','u','s'] ],
 
     FA'iL                     `noun`    {- <fA'iz> -}          [ ['F','a','y','e','z'], ['F','a','y','i','z'], ['F','a','\'','i','z'] ],
 
