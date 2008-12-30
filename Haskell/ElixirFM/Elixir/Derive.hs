@@ -36,7 +36,7 @@ instance (Show a, Template a) => Pretty [(TagsType, [(Form, Lexeme a)])] where
 
 instance (Show a, Template a) => Pretty (TagsType, [(Form, Lexeme a)]) where
 
-    pretty (x, y) = (fill 20 . pretty) x <> (nest 20 . vcat)
+    pretty (x, y) = pretty x <> (nest 12 . vcat)
 
                     [ encloseText [show u, merge r (morphs e), show r, show (morphs e)] | (u, Lexeme r e) <- y ]
 

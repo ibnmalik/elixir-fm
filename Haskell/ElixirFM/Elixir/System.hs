@@ -131,6 +131,24 @@ data ParaType = ParaVerb  ParaVerb
     deriving (Eq, Show)
 
 
+instance Pretty TagsType where
+
+    pretty (TagsVerb xs) = if null xs then (brackets . text) ("V-" ++ noinflects) else (text . show) xs
+    pretty (TagsNoun xs) = if null xs then (brackets . text) ("N-" ++ noinflects) else (text . show) xs
+    pretty (TagsAdj  xs) = if null xs then (brackets . text) ("A-" ++ noinflects) else (text . show) xs
+    pretty (TagsPron xs) = if null xs then (brackets . text) ("S-" ++ noinflects) else (text . show) xs
+    pretty (TagsNum  xs) = if null xs then (brackets . text) ("Q-" ++ noinflects) else (text . show) xs
+    pretty (TagsAdv  xs) = if null xs then (brackets . text) ("D-" ++ noinflects) else (text . show) xs
+    pretty (TagsPrep xs) = if null xs then (brackets . text) ("P-" ++ noinflects) else (text . show) xs
+    pretty (TagsConj xs) = if null xs then (brackets . text) ("C-" ++ noinflects) else (text . show) xs
+    pretty (TagsPart xs) = if null xs then (brackets . text) ("F-" ++ noinflects) else (text . show) xs
+    pretty (TagsIntj xs) = if null xs then (brackets . text) ("I-" ++ noinflects) else (text . show) xs
+    pretty (TagsXtra xs) = if null xs then (brackets . text) ("X-" ++ noinflects) else (text . show) xs
+    pretty (TagsYnit xs) = if null xs then (brackets . text) ("Y-" ++ noinflects) else (text . show) xs
+    pretty (TagsZero xs) = if null xs then (brackets . text) ("Z-" ++ noinflects) else (text . show) xs
+    pretty (TagsGrph xs) = if null xs then (brackets . text) ("G-" ++ noinflects) else (text . show) xs
+
+
 data TagsType = TagsVerb  [TagsVerb]
               | TagsNoun  [TagsNoun]
               | TagsAdj   [TagsAdj]
