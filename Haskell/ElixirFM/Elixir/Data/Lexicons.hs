@@ -33,6 +33,6 @@ lexicon :: Lexicon
 lexicon =   Elixir.Data.Extra.lexicon ++
 
             (concat . concat . concat . concat)
-           
+
             [   Elixir.Data.Moony.booklet,
                 Elixir.Data.Sunny.booklet   ]

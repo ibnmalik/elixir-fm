@@ -129,12 +129,15 @@ infix 2 >-<, <->
 (<->) = (>-<)
 
 
+-- anything to become 'Wrap x' must have a newtype or data constructor x of kind * -> *
+
 data Wrap a = WrapS (a String)
             | WrapT (a PatternT)
             | WrapQ (a PatternQ)
             | WrapL (a PatternL)
 
     -- deriving Show
+
 
 instance (Show (a String), Show (a PatternT), Show (a PatternQ), Show (a PatternL)) => Show (Wrap a) where
 

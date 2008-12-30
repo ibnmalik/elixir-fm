@@ -119,8 +119,8 @@ instance Rules String where
                 | otherwise                             = False
 
 
-    isDiptote x | x == "'il_ah"  = False
-                | otherwise      = True
+    isDiptote x = case letters x of [_, "a", _, "A", _, "i", _] -> True
+                                    _                           -> False
 
 
 instance Forming String where

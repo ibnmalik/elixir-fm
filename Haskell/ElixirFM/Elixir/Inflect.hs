@@ -40,24 +40,22 @@ import Prelude hiding (lookup)
 import Elixir.Pretty hiding (list)
 
 
-instance (Show a, Template a) => Pretty [(Tag, [(Root, Morphs a)])] where
+instance (Show a, Template a) => Pretty [(ParaType, [(Root, Morphs a)])] where
 
     pretty = singleline pretty
 
- -- instance Pretty a => Pretty [a] where
 
+instance (Show a, Template a) => Pretty (ParaType, [(Root, Morphs a)]) where
 
-instance (Show a, Template a) => Pretty (Tag, [(Root, Morphs a)]) where
+    pretty (x, y) = pretty x <> (nest 10 . vcat)
 
-    pretty (x, y) = nest 10 ( pretty x <>
-
-                              vcat [ encloseText [merge u v, show u, show v] | (u, v) <- y ])
+                    [ encloseText [merge u v, show u, show v] | (u, v) <- y ]
 
 
 inflectDerive :: (Morphing a a, Forming a, Rules a, Derive b c, Inflect Lexeme c) =>
-                 b a -> c -> [[(Tag, [(Root, Morphs a)])]]
+                 b a -> c -> [[(ParaType, [(Root, Morphs a)])]]
 
-inflectDerive x y = [ inflect z y | z <- derive x y ]
+inflectDerive x y = [ inflect w y | (_, z) <- derive x y, (_, w) <- z ]
 
 
 -- inflectLookup (lookupEntry "ra'y" lexicon) "--------4I"
@@ -77,16 +75,15 @@ inflectLookup l t = [ case i of WrapT x -> inflects x
 class Inflect m p where
 
     inflect :: (Rules a, Forming a, Morphing a a, Morphing (Morphs a) a) =>
-               m a -> p -> [(Tag, [(Root, Morphs a)])]
+               m a -> p -> [(ParaType, [(Root, Morphs a)])]
 
 
--- anything to become 'Wrap x' must have a newtype or data constructor x of kind * -> *
+newtype Inflected a = Inflected [(ParaType, [(Root, Morphs a)])]
 
-newtype TagRootMorphs a = TRM [(Tag, [(Root, Morphs a)])]
 
-instance Show a => Show (TagRootMorphs a) where
+instance Show a => Show (Inflected a) where
 
-    show (TRM x) = show x
+    show (Inflected x) = show x
 
 
 instance Inflect Lexeme a => Inflect Entry a where
@@ -153,10 +150,10 @@ instance Inflect Lexeme TagsType where
         TagsGrph z ->  inflect x z
 
 
-infoVerb r e = case entity e of 
+infoVerb r e = case entity e of
 
     Verb fs ps is cs _ jv _ ->  ([ (f, z) | f <- fs, let z = siftVerb t Perfect v False (verbStems f r),
-                                            z <- if null ps then [z] else [ siftVerb p Perfect v True z | p <- ps ], 
+                                            z <- if null ps then [z] else [ siftVerb p Perfect v True z | p <- ps ],
                                             z <- if null is then [z] else [ siftVerb i Imperfect v False z | i <- is ] ],
 
                                  [ (prefixVerbC f c, morph c) | f <- fs, c <- cs ])
@@ -181,7 +178,7 @@ instance Inflect Lexeme TagsVerb where
                 n' = vals n,
 
             let inEntry = infoVerb r e,
-            
+
             v <- v', n <- n', p <- p', g <- g',
 
             let theVariant = isVariant (VerbP v p g n)
@@ -204,7 +201,7 @@ instance Inflect Lexeme TagsVerb where
                 n' = vals n,
 
             let inEntry = infoVerb r e,
-            
+
             v <- v', m <- m', n <- n', p <- p', g <- g',
 
             let x = VerbI m v p g n
@@ -226,7 +223,7 @@ instance Inflect Lexeme TagsVerb where
                                                     let prefixh = prefixVerbI f h v
 
                                                         morphh = morph h,
- 
+
                                                     a <- auxiesDouble f h ] ]
 
                     | otherwise    =  [ (prefixVerbI f l v, morph l) | (f, e) <- es,
@@ -234,7 +231,7 @@ instance Inflect Lexeme TagsVerb where
                                         let ls = map (findVerb Imperfect v theVariant) e,
 
                                         l <- nub ls ]
-                                
+
                 paradigm p = map ((,) r . reduce p) (inRules (fst inEntry)),
 
             let y = ParaVerb x,
@@ -245,15 +242,15 @@ instance Inflect Lexeme TagsVerb where
                                           _                                    -> m
 
                   where m@(Morphs t p s) = f x y
-                        
-                        
+
+
     inflect (Lexeme r e) (TagsVerbC       g n) = [ (y, z) |
 
             let g' = vals g
                 n' = vals n,
 
             let inEntry = infoVerb r e,
-            
+
             n <- n', g <- g',
 
             let x = VerbC g n
@@ -273,7 +270,7 @@ instance Inflect Lexeme TagsVerb where
                                               ++ [ (prefixh, suffix a morphh) | h <- nub hs,
 
                                                     let prefixh = prefixVerbC f h
-                                                    
+
                                                         morphh = morph h,
 
                                                     a <- auxiesDouble f h ] ]
@@ -627,7 +624,7 @@ inflectVerb (Lexeme r e) x@(VerbP   v p g n) = paradigm (paraVerbP p g n)
           inRules fs pp vv ts = [ morph l | f <- fs, t <- ts,
 
                                   let ls = lookVerb t pp vv False Perfect v theVariant (verbStems f r),
-                                  
+
                                   l <- nub ls ]
 
 

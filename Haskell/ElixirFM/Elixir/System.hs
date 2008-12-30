@@ -108,10 +108,7 @@ entPara = [EntVerb (Id (EntVerbC (Id Feminine) (Id Plural))),
 entTags = [EntVerb ([]), EntPron ([]), EntVerb ([])]
 
 
-type Tag = ParaType
-
-
-instance Pretty Tag where
+instance Pretty ParaType where
 
     pretty = text . dropWhile isSpace . dropWhile (not . isSpace) . show
 

@@ -89,6 +89,31 @@ moony = [ "'", "b", "^g", ".h", "_h", "`", ".g",
           "c", ",c", "^n", "^l", ".r" ]
 
 
+letters :: String -> [String]
+
+letters ('.':z:s) | z `elem` "hsdtzgr" = ['.', z] : letters s
+letters ('_':z:s) | z `elem` "thdaIU"  = ['_', z] : letters s
+letters ('^':z:s) | z `elem` "gscznl"  = ['^', z] : letters s
+letters (',':z:s) | z `elem` "c"       = [',', z] : letters s
+
+letters (d:zs) = [d] : letters zs
+
+letters []     = []
+
+-- letters = unfoldr next
+
+
+next :: String -> Maybe (String, String)
+
+next (d:z:s) | d == '.' && z `elem` "hsdtzgr" = Just ([d, z], s)
+             | d == '_' && z `elem` "thdaIU"  = Just ([d, z], s)
+             | d == '^' && z `elem` "gscznl"  = Just ([d, z], s)
+             | d == ',' && z `elem` "c"       = Just ([d, z], s)
+
+next (d:zs) = Just ([d], zs)
+next []     = Nothing
+
+
 infixr 4 ->-
 infix  4 -<-
 

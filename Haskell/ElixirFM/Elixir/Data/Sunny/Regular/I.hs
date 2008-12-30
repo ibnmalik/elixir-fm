@@ -11,58 +11,16 @@ lexicon = include section
 
 cluster_1   = cluster
 
- |> "s f l q" <| [
-
-    KaRDaS |< aT              `noun`    {- <saflaqaT> -}       [ ['s','p','o','n','g','i','n','g'] ],
-
-    KiRDAS                    `noun`    {- <siflAq> -}         [ ['s','p','o','n','g','e','r'] ] ]
-
-
-cluster_2   = cluster
-
- |> ['s','I','f','U','n'] <| [
-
-    _____                     `noun`    {- <sIfUn> -}          [ ['s','i','p','h','o','n'] ] ]
-
-
-cluster_3   = cluster
-
- |> "s f n" <| [
-
-    FaCaL                     `noun`    {- <safan> -}          [ ['s','a','n','d','p','a','p','e','r'] ],
-
-    FaCIL                     `noun`    {- <safIn> -}          [ ['w','e','d','g','e'] ],
-
-    FaCIL |< aT               `noun`    {- <safInaT> -}        [ ['s','h','i','p'], ['v','e','s','s','e','l'] ]
-                              `plural`     FaCA'iL
-                              `plural`     FuCuL,
-
-    FaCCAL                    `noun`    {- <saffAn> -}         [ ['s','h','i','p','b','u','i','l','d','e','r'] ]
-                              `plural`     FaCCAL |< Un
-                           
-    `derives` otherwise,
-
-    FiCAL |< aT               `noun`    {- <sifAnaT> -}        [ unwords [ ['s','h','i','p'], "-", ['b','u','i','l','d','i','n','g'] ] ],
-
-    FICAL                     `noun`    {- <sIfAn> -}          [ ['S','e','v','a','n'] ] ]
-
-
-cluster_4   = cluster
-
- |> ['s','i','f','a','n','^','g'] <| [
-
-    _____                     `noun`    {- <sifan^g> -}        [ ['s','p','o','n','g','e'] ] ]
-
-
-cluster_5   = cluster
-
  |> "s f h" <| [
 
     FaCiL                     `verb`    {- <safih> -}          [ unwords [ ['b','e'], ['f','o','o','l','i','s','h'] ], unwords [ ['b','e'], ['i','n','s','o','l','e','n','t'] ] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FaCaL
+                              `masdar`     FaCAL |< aT,
 
     FaCuL                     `verb`    {- <safuh> -}          [ unwords [ ['b','e'], ['f','o','o','l','i','s','h'] ], unwords [ ['b','e'], ['i','n','s','o','l','e','n','t'] ] ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `masdar`     FaCAL |< aT,
 
     FaCCaL                    `verb`    {- <saffah> -}         [ ['d','i','s','c','r','e','d','i','t'], ['d','i','s','h','o','n','o','r'] ],
 
@@ -77,44 +35,38 @@ cluster_5   = cluster
     FaCAL |< aT               `noun`    {- <safAhaT> -}        [ ['s','t','u','p','i','d','i','t','y'], ['i','m','p','u','d','e','n','c','e'] ] ]
 
 
-cluster_6   = cluster
+cluster_2   = cluster
 
  |> "s q r" <| [
 
     FiCAL |< aT               `noun`    {- <siqAraT> -}        [ ['c','i','g','a','r','e','t','t','e'] ]
-                              `plural`     FaCA'iL,
+                              `plural`     FaCA'iL ]
+
+ |> "s q r" <| [
 
     FaCaL                     `noun`    {- <saqar> -}          [ unwords [ ['S','a','q','a','r'], "(", ['h','e','l','l'], ")" ] ] ]
 
 
-cluster_7   = cluster
-
- |> "s q r .t" <| [
-
-    KuRDAS                    `noun`    {- <suqrA.t> -}        [ ['S','o','c','r','a','t','e','s'] ],
-
-    KuRDAS |< Iy              `adj`     {- <suqrA.tIy> -}      [ ['S','o','c','r','a','t','i','c'] ] ]
-
-
-cluster_8   = cluster
+cluster_3   = cluster
 
  |> "s q s q" <| [
 
     KaRDaS |< aT              `noun`    {- <saqsaqaT> -}       [ ['c','h','i','r','p','i','n','g'] ] ]
 
 
-cluster_9   = cluster
+cluster_4   = cluster
 
  |> "s q .t" <| [
 
     FaCaL                     `verb`    {- <saqa.t> -}         [ ['f','a','l','l'], ['d','r','o','p'] ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `masdar`     FuCUL,
 
-    HaFCaL                    `verb`    {- <'asqa.t> -}        [ unwords [ ['s','h','o','o','t'], ['d','o','w','n'] ], unwords [ ['m','a','k','e'], ['f','a','l','l'] ], ['a','b','o','r','t'], unwords [ ['b','e'], ['s','h','o','t'], ['d','o','w','n'] ] ],
+    HaFCaL                    `verb`    {- <'asqa.t> -}        [ unwords [ ['s','h','o','o','t'], ['d','o','w','n'] ], unwords [ ['m','a','k','e'], ['f','a','l','l'] ], ['a','b','o','r','t'] ],
 
     TaFaCCaL                  `verb`    {- <tasaqqa.t> -}      [ ['g','a','t','h','e','r'] ],
 
-    TaFACaL                   `verb`    {- <tasAqa.t> -}       [ ['c','o','l','l','a','p','s','e'] ],
+    TaFACaL                   `verb`    {- <tasAqa.t> -}       [ ['c','o','l','l','a','p','s','e'], unwords [ ['f','a','l','l'], ['s','u','c','c','e','s','s','i','v','e','l','y'] ] ],
 
     FaCL                      `noun`    {- <saq.t> -}          [ ['d','e','w'] ],
 
@@ -123,7 +75,10 @@ cluster_9   = cluster
     FaCaL                     `noun`    {- <saqa.t> -}         [ ['r','e','f','u','s','e'] ]
                               `plural`     HaFCAL,
 
-    FaCaL |< Iy               `adj`     {- <saqa.tIy> -}       [ unwords [ ['j','u','n','k'], ['d','e','a','l','e','r'] ] ],
+    FaCaL |< Iy               `noun`    {- <saqa.tIy> -}       [ unwords [ ['j','u','n','k'], ['d','e','a','l','e','r'] ] ]
+                              `plural`     FaCaL |< Iy |< Un
+                           
+    `derives` otherwise,
 
     FaCL |< aT                `noun`    {- <saq.taT> -}        [ ['t','u','m','b','l','e'], ['s','l','i','p'], ['s','l','i','p','p','i','n','g'] ]
                               `plural`     FaCaL |< At,
@@ -136,7 +91,8 @@ cluster_9   = cluster
 
     MaFCaL                    `noun`    {- <masqa.t> -}        [ ['M','u','s','c','a','t'] ],
 
-    MaFCaL                    `noun`    {- <masqa.t> -}        [ ['b','i','r','t','h','p','l','a','c','e'], ['h','o','m','e','t','o','w','n'] ],
+    MaFCaL                    `noun`    {- <masqa.t> -}        [ ['b','i','r','t','h','p','l','a','c','e'], ['h','o','m','e','t','o','w','n'] ]
+                              `plural`     MaFACiL,
 
     MaFCaL                    `noun`    {- <masqa.t> -}        [ ['w','a','t','e','r','f','a','l','l'] ]
                               `plural`     MaFACiL,
@@ -152,10 +108,11 @@ cluster_9   = cluster
     FACiL                     `adj`     {- <sAqi.t> -}         [ ['f','a','i','l','i','n','g'], ['d','i','s','r','e','p','u','t','a','b','l','e'], ['o','m','i','t','t','e','d'] ]
                               `plural`     FuCCAL,
 
-    FACiL |< aT               `noun`    {- <sAqi.taT> -}       [ ['s','c','r','a','p'], unwords [ ['f','a','l','l','e','n'], ['w','o','m','a','n'] ] ] ]
+    FACiL |< aT               `noun`    {- <sAqi.taT> -}       [ ['s','c','r','a','p'], unwords [ ['f','a','l','l','e','n'], ['w','o','m','a','n'] ] ]
+                              `plural`     FACiL |< At ]
 
 
-cluster_10  = cluster
+cluster_5   = cluster
 
  |> "s q `" <| [
 
@@ -165,9 +122,13 @@ cluster_10  = cluster
     MuFaCCaL |< aT            `noun`    {- <musaqqa`aT> -}     [ unwords [ ['m','o','u','s','s','a','k','a'], "(", ['e','g','g','p','l','a','n','t'], ['a','n','d'], ['m','e','a','t'], ['d','i','s','h'], ")" ] ] ]
 
 
-cluster_11  = cluster
+cluster_6   = cluster
 
  |> "s q f" <| [
+
+    FaCaL                     `verb`    {- <saqaf> -}          [ unwords [ ['p','u','t'], "a", ['r','o','o','f'], ['o','v','e','r'] ] ]
+                              `imperf`     FCuL
+                              `masdar`     FaCL,
 
     FaCCaL                    `verb`    {- <saqqaf> -}         [ unwords [ ['p','u','t'], "a", ['r','o','o','f'], ['o','v','e','r'] ] ],
 
@@ -188,14 +149,14 @@ cluster_11  = cluster
     MuFaCCaL                  `adj`     {- <musaqqaf> -}       [ ['r','o','o','f','e','d'], ['c','o','v','e','r','e','d'] ] ]
 
 
-cluster_12  = cluster
+cluster_7   = cluster
 
  |> "s q l" <| [
 
     FaCAL |< aT               `noun`    {- <saqAlaT> -}        [ ['s','c','a','f','f','o','l','d'] ] ]
 
 
-cluster_13  = cluster
+cluster_8   = cluster
 
  |> "s q l b" <| [
 
@@ -208,15 +169,18 @@ cluster_13  = cluster
                               `plural`     KaRDaS |< Iy |< Un ]
 
 
-cluster_14  = cluster
+cluster_9   = cluster
 
  |> "s q m" <| [
 
     FaCiL                     `verb`    {- <saqim> -}          [ unwords [ ['b','e','c','o','m','e'], ['s','i','c','k'] ], unwords [ ['b','e','c','o','m','e'], ['t','h','i','n'] ] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FaCaL,
 
     FaCuL                     `verb`    {- <saqum> -}          [ unwords [ ['b','e','c','o','m','e'], ['s','i','c','k'] ], unwords [ ['b','e','c','o','m','e'], ['t','h','i','n'] ] ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `masdar`     FuCL
+                              `masdar`     FaCAL,
 
     FaCCaL                    `verb`    {- <saqqam> -}         [ unwords [ ['m','a','k','e'], ['s','i','c','k'] ] ],
 
@@ -235,14 +199,23 @@ cluster_14  = cluster
                               `plural`     MaFACIL ]
 
 
-cluster_15  = cluster
+cluster_10  = cluster
+
+ |> ['s','u','q','r','A','.','t'] <| [
+
+    _____                     `noun`    {- <suqrA.t> -}        [ ['S','o','c','r','a','t','e','s'] ],
+
+    _____ |< Iy               `adj`     {- <suqrA.tIy> -}      [ ['S','o','c','r','a','t','i','c'] ] ]
+
+
+cluster_11  = cluster
 
  |> ['s','a','q','q','A'] <| [
 
     _____                     `noun`    {- <saqqA> -}          [ ['S','a','q','q','a'] ] ]
 
 
-cluster_16  = cluster
+cluster_12  = cluster
 
  |> "s k b" <| [
 
@@ -269,22 +242,24 @@ cluster_16  = cluster
 
     MaFCUL |< Iy |< aT        `noun`    {- <maskUbIyaT> -}     [ unwords [ ['m','e','l','t','i','n','g'], ['p','o','t'] ], ['c','r','u','c','i','b','l','e'] ],
 
-    MunFaCiL                  `noun`    {- <munsakib> -}       [ ['s','h','e','d'], ['s','p','i','l','l','e','d'], unwords [ ['p','o','u','r','e','d'], ['o','u','t'] ] ] ]
+    MunFaCiL                  `adj`     {- <munsakib> -}       [ ['s','h','e','d'], ['s','p','i','l','l','e','d'], unwords [ ['p','o','u','r','e','d'], ['o','u','t'] ] ] ]
 
 
-cluster_17  = cluster
+cluster_13  = cluster
 
  |> "s k b ^g" <| [
 
     KaRDAS                    `noun`    {- <sakbA^g> -}        [ unwords [ ['m','e','a','t'], ['c','o','o','k','e','d'], ['i','n'], ['v','i','n','e','g','a','r'] ] ] ]
 
 
-cluster_18  = cluster
+cluster_14  = cluster
 
  |> "s k t" <| [
 
     FaCaL                     `verb`    {- <sakat> -}          [ unwords [ ['b','e'], ['s','i','l','e','n','t'] ] ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `masdar`     FaCL
+                              `masdar`     FuCUL,
 
     FaCuL                     `verb`    {- <sakut> -}          [ unwords [ ['h','a','v','e'], "a", ['s','t','r','o','k','e'] ] ]
                               `imperf`     FCaL,
@@ -295,7 +270,8 @@ cluster_18  = cluster
 
     FaCL                      `noun`    {- <sakt> -}           [ ['s','i','l','e','n','c','e'] ],
 
-    FaCL |< aT                `noun`    {- <saktaT> -}         [ ['s','i','l','e','n','c','e'], ['a','p','o','p','l','e','x','y'] ],
+    FaCL |< aT                `noun`    {- <saktaT> -}         [ ['s','i','l','e','n','c','e'], ['a','p','o','p','l','e','x','y'] ]
+                              `plural`     FaCL |< At,
 
     FuCUL                     `noun`    {- <sukUt> -}          [ ['s','i','l','e','n','c','e'] ],
 
@@ -308,14 +284,18 @@ cluster_18  = cluster
     FACiL                     `adj`     {- <sAkit> -}          [ ['s','i','l','e','n','t'], ['c','a','l','m'] ] ]
 
 
-cluster_19  = cluster
+cluster_15  = cluster
+
+ |> "s k r" <| [
+
+    FaCCaL                    `verb`    {- <sakkar> -}         [ ['c','l','o','s','e'] ] ]
 
  |> "s k r" <| [
 
     FaCiL                     `verb`    {- <sakir> -}          [ unwords [ ['g','e','t'], ['d','r','u','n','k'] ] ]
-                              `imperf`     FCaL,
-
-    FaCCaL                    `verb`    {- <sakkar> -}         [ ['c','l','o','s','e'], unwords [ ['p','u','t'], ['s','u','g','a','r'], ['o','n'] ] ],
+                              `imperf`     FCaL
+                              `masdar`     FaCaL
+                              `masdar`     FuCL,
 
     HaFCaL                    `verb`    {- <'askar> -}         [ ['i','n','e','b','r','i','a','t','e'] ],
 
@@ -326,14 +306,18 @@ cluster_19  = cluster
     FaCL |< aT                `noun`    {- <sakraT> -}         [ ['i','n','t','o','x','i','c','a','t','i','o','n'] ]
                               `plural`     FaCaL |< At,
 
-    FaCLAn                    `noun`    {- <sakrAn> -}         [ ['i','n','t','o','x','i','c','a','t','e','d'], ['d','r','u','n','k','a','r','d','s'] ]
-                              `plural`     FaCLY
-                              `plural`     FaCALY,
+    FaCLAn                    `adj`     {- <sakrAn> -}         [ ['i','n','t','o','x','i','c','a','t','e','d'], ['d','r','u','n','k','a','r','d','s'] ]
+                              `plural`     FaCALY
+                              `femini`     FaCLY,
 
     FiCCIL                    `noun`    {- <sikkIr> -}         [ unwords [ ['h','e','a','v','y'], ['d','r','i','n','k','e','r'] ] ],
 
     MuFCiL                    `noun`    {- <muskir> -}         [ unwords [ ['a','l','c','o','h','o','l','i','c'], ['b','e','v','e','r','a','g','e'] ] ]
-                              `plural`     MuFCiL |< At,
+                              `plural`     MuFCiL |< At ]
+
+ |> "s k r" <| [
+
+    FaCCaL                    `verb`    {- <sakkar> -}         [ unwords [ ['p','u','t'], ['s','u','g','a','r'], ['o','n'] ] ],
 
     FuCCaL                    `noun`    {- <sukkar> -}         [ ['s','u','g','a','r'] ],
 
@@ -345,55 +329,46 @@ cluster_19  = cluster
 
     FuCCaL |< Iy |< aT        `noun`    {- <sukkarIyaT> -}     [ unwords [ ['s','u','g','a','r'], ['b','o','w','l'] ] ],
 
-    FaCALIn                   `noun`    {- <sakArIn> -}        [ ['s','a','c','c','h','a','r','i','n'] ],
+    MuFaCCaL |< At            `noun`    {- <musakkarAt> -}     [ ['c','o','n','f','e','c','t','i','o','n','e','r','y'] ] ]
 
-    MuFaCCaL |< At            `noun`    {- <musakkarAt> -}     [ ['c','o','n','f','e','c','t','i','o','n','e','r','y'] ]
-                              `plural`     MuFaCCaL |< At,
+ |> "s k r" <| [
 
     FICAL                     `noun`    {- <sIkAr> -}          [ ['c','i','g','a','r'] ]
                               `plural`     FICAL |< At,
 
     FICAL |< aT               `noun`    {- <sIkAraT> -}        [ ['c','i','g','a','r','e','t','t','e'] ]
-                              `plural`     FiCAL
+                              `plural`     FaCA'iL,
+
+    FiCAL                     `noun`    {- <sikAr> -}          [ ['c','i','g','a','r','e','t','t','e'] ]
                               `plural`     FaCA'iL ]
 
 
-cluster_20  = cluster
-
- |> "s k r z" <| [
-
-    KuRDUS                    `noun`    {- <sukrUz> -}         [ ['s','u','c','r','o','s','e'] ] ]
-
-
-cluster_21  = cluster
+cluster_16  = cluster
 
  |> ['s','i','k','a','r','t','U'] <| [
 
     _____                     `noun`    {- <sikartU> -}        [ unwords [ ['c','o','t','t','o','n'], ['w','a','s','t','e'] ] ] ]
 
 
-cluster_22  = cluster
+cluster_17  = cluster
 
  |> ['s','I','k','U','r','t','A','h'] <| [
 
     _____                     `noun`    {- <sIkUrtAh> -}       [ ['i','n','s','u','r','a','n','c','e'] ] ]
-
-
-cluster_23  = cluster
 
  |> ['s','i','k','u','r','t','A','h'] <| [
 
     _____                     `noun`    {- <sikurtAh> -}       [ ['i','n','s','u','r','a','n','c','e'] ] ]
 
 
-cluster_24  = cluster
+cluster_18  = cluster
 
  |> ['s','u','k','u','r','r','u','^','g'] <| [
 
     _____ |< aT               `noun`    {- <sukurru^gaT> -}    [ ['b','o','w','l'], ['p','l','a','t','e'] ] ]
 
 
-cluster_25  = cluster
+cluster_19  = cluster
 
  |> "s k s k" <| [
 
@@ -403,21 +378,14 @@ cluster_25  = cluster
                               `plural`     TaKaRDuS |< At ]
 
 
-cluster_26  = cluster
+cluster_20  = cluster
 
- |> ['s','I','k','U','s','U','m'] <| [
+ |> ['s','I','k','U','s','U','m','A','t'] <| [
 
-    _____ |< At |< Iy         `adj`     {- <sIkUsUmAtIy> -}    [ ['p','s','y','c','h','o','s','o','m','a','t','i','c'] ] ]
-
-
-cluster_27  = cluster
-
- |> "s k s n" <| [
-
-    KaRDUS |< Iy              `adj`     {- <saksUnIy> -}       [ ['S','a','x','o','n'] ] ]
+    _____ |< Iy               `adj`     {- <sIkUsUmAtIy> -}    [ ['p','s','y','c','h','o','s','o','m','a','t','i','c'] ] ]
 
 
-cluster_28  = cluster
+cluster_21  = cluster
 
  |> "s k `" <| [
 
@@ -427,13 +395,14 @@ cluster_28  = cluster
                               `plural`     TaFaCCuL |< At ]
 
 
-cluster_29  = cluster
+cluster_22  = cluster
 
  |> "s k f" <| [
 
     HuFCuLL |< aT             `noun`    {- <'uskuffaT> -}      [ ['d','o','o','r','s','t','e','p'], unwords [ ['w','i','n','d','o','w'], ['s','i','l','l'] ] ],
 
-    FaCCAL                    `noun`    {- <sakkAf> -}         [ ['s','h','o','e','m','a','k','e','r'], ['c','o','b','b','l','e','r'] ],
+    FaCCAL                    `noun`    {- <sakkAf> -}         [ ['s','h','o','e','m','a','k','e','r'], ['c','o','b','b','l','e','r'] ]
+                              `plural`     FaCCAL |< Un,
 
     FaCCAL                    `noun`    {- <sakkAf> -}         [ ['S','a','k','k','a','f'] ],
 
@@ -452,7 +421,7 @@ cluster_29  = cluster
     FACiL                     `noun`    {- <sAkif> -}          [ ['l','i','n','t','e','l'] ] ]
 
 
-cluster_30  = cluster
+cluster_23  = cluster
 
  |> ['s','I','k','U','l','U','^','g'] <| [
 
@@ -461,21 +430,24 @@ cluster_30  = cluster
     _____ |< Iy               `adj`     {- <sIkUlU^gIy> -}     [ ['p','s','y','c','h','o','l','o','g','i','c','a','l'] ] ]
 
 
-cluster_31  = cluster
+cluster_24  = cluster
 
  |> "s k n" <| [
 
-    FuCCAL                    `noun`    {- <sukkAn> -}         [ ['r','u','d','d','e','r'] ]
-                              `plural`     FuCCAL |< At,
-
     FaCaL                     `verb`    {- <sakan> -}          [ unwords [ ['b','e'], ['c','a','l','m'] ] ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `masdar`     FuCUL,
+
+    FaCaL                     `verb`    {- <sakan> -}          [ ['l','i','v','e'], ['d','w','e','l','l'], ['i','n','h','a','b','i','t'] ]
+                              `imperf`     FCuL
+                              `masdar`     FaCL
+                              `masdar`     FuCLY,
 
     FaCCaL                    `verb`    {- <sakkan> -}         [ ['c','a','l','m'], ['p','l','a','c','a','t','e'] ],
 
     FACaL                     `verb`    {- <sAkan> -}          [ unwords [ ['l','i','v','e'], ['t','o','g','e','t','h','e','r'] ] ],
 
-    HaFCaL                    `verb`    {- <'askan> -}         [ unwords [ ['g','i','v','e'], ['l','o','d','g','i','n','g'] ], ['h','o','u','s','e'], unwords [ ['b','e'], ['g','i','v','e','n'], ['l','o','d','g','i','n','g'] ] ],
+    HaFCaL                    `verb`    {- <'askan> -}         [ unwords [ ['g','i','v','e'], ['l','o','d','g','i','n','g'] ], ['h','o','u','s','e'] ],
 
     TaFACaL                   `verb`    {- <tasAkan> -}        [ unwords [ ['l','i','v','e'], ['t','o','g','e','t','h','e','r'] ] ],
 
@@ -483,12 +455,14 @@ cluster_31  = cluster
 
     FaCaL |< Iy               `adj`     {- <sakanIy> -}        [ ['h','o','u','s','i','n','g'], ['r','e','s','i','d','e','n','t','i','a','l'] ],
 
-    FaCaL |< aT               `noun`    {- <sakanaT> -}        [ ['r','e','s','t'], ['r','e','p','o','s','e'] ],
+    FaCaL |< aT               `noun`    {- <sakanaT> -}        [ ['r','e','s','t'], ['r','e','p','o','s','e'] ]
+                              `plural`     FaCaL |< At,
 
     FaCaL |< aT               `noun`    {- <sakanaT> -}        [ ['c','a','l','m'], ['s','t','i','l','l'] ]
-                              `plural`     FawACiL,
+                              `plural`     FaCaL |< At,
 
-    FaCiL |< aT               `noun`    {- <sakinaT> -}        [ ['r','e','s','i','d','e','n','c','e'] ],
+    FaCiL |< aT               `noun`    {- <sakinaT> -}        [ ['r','e','s','i','d','e','n','c','e'] ]
+                              `plural`     FaCiL |< At,
 
     FuCUL                     `noun`    {- <sukUn> -}          [ ['r','e','s','t'], ['t','r','a','n','q','u','i','l','l','i','t','y'], ['q','u','i','e','t','u','d','e'] ],
 
@@ -496,14 +470,19 @@ cluster_31  = cluster
 
     FuCUL |< Iy |< aT         `noun`    {- <sukUnIyaT> -}      [ ['i','m','m','o','b','i','l','i','t','y'] ],
 
-    FaCCAL                    `noun`    {- <sakkAn> -}         [ ['c','u','t','l','e','r'] ],
+    FaCCAL                    `noun`    {- <sakkAn> -}         [ ['c','u','t','l','e','r'] ]
+                              `plural`     FaCCAL |< At,
 
     FiCCIL                    `noun`    {- <sikkIn> -}         [ ['k','n','i','f','e'] ]
                               `plural`     FaCACIL,
 
+    FuCCAL                    `noun`    {- <sukkAn> -}         [ ['r','u','d','d','e','r'] ]
+                              `plural`     FuCCAL |< At,
+
     FaCIL |< aT               `noun`    {- <sakInaT> -}        [ ['t','r','a','n','q','u','i','l','l','i','t','y'] ],
 
-    FiCCIL |< aT              `noun`    {- <sikkInaT> -}       [ ['k','n','i','f','e'] ],
+    FiCCIL |< aT              `noun`    {- <sikkInaT> -}       [ ['k','n','i','f','e'] ]
+                              `plural`     FaCACIL,
 
     FuCLY                     `noun`    {- <suknY> -}          [ ['r','e','s','i','d','e','n','c','e'] ],
 
@@ -541,14 +520,14 @@ cluster_31  = cluster
     `derives` otherwise ]
 
 
-cluster_32  = cluster
+cluster_25  = cluster
 
  |> ['s','a','k','a','n','^','g','a','b','I','n'] <| [
 
     _____                     `noun`    {- <sakan^gabIn> -}    [ ['o','x','y','m','e','l'] ] ]
 
 
-cluster_33  = cluster
+cluster_26  = cluster
 
  |> ['s','i','k','a','n','d','I','n','A','f'] <| [
 
@@ -557,28 +536,45 @@ cluster_33  = cluster
     _____ |< Iy               `adj`     {- <sikandInAfIy> -}   [ ['S','c','a','n','d','i','n','a','v','i','a','n'] ] ]
 
 
-cluster_34  = cluster
+cluster_27  = cluster
 
  |> ['s','i','k','r','i','t','I','r'] <| [
 
-    _____                     `noun`    {- <sikritIr> -}       [ ['s','e','c','r','e','t','a','r','y'], ['s','e','c','r','e','t','a','r','i','a','t'] ] ]
+    _____                     `noun`    {- <sikritIr> -}       [ ['s','e','c','r','e','t','a','r','y'] ]
+                              `plural`     _____ |< Un
+                           
+    `derives` otherwise,
 
-
-cluster_35  = cluster
+    _____ |< Iy |< aT         `noun`    {- <sikritIrIyaT> -}   [ ['s','e','c','r','e','t','a','r','i','a','t'] ] ]
 
  |> ['s','i','k','r','i','t','A','r'] <| [
 
     _____ |< Iy |< aT         `noun`    {- <sikritArIyaT> -}   [ ['s','e','c','r','e','t','a','r','i','a','t'] ] ]
 
 
-cluster_36  = cluster
+cluster_28  = cluster
+
+ |> ['s','u','k','r','U','z'] <| [
+
+    _____                     `noun`    {- <sukrUz> -}         [ ['s','u','c','r','o','s','e'] ] ]
+
+ |> ['s','a','k','A','r','I','n'] <| [
+
+    _____                     `noun`    {- <sakArIn> -}        [ ['s','a','c','c','h','a','r','i','n'] ] ]
 
  |> ['s','u','k','k','a','r','I','n'] <| [
 
     _____                     `noun`    {- <sukkarIn> -}       [ ['s','a','c','c','h','a','r','i','n'] ] ]
 
 
-cluster_37  = cluster
+cluster_29  = cluster
+
+ |> ['s','a','k','s','U','n'] <| [
+
+    _____ |< Iy               `adj`     {- <saksUnIy> -}       [ ['S','a','x','o','n'] ] ]
+
+
+cluster_30  = cluster
 
  |> "s l b" <| [
 
@@ -586,7 +582,8 @@ cluster_37  = cluster
                               `imperf`     FCuL,
 
     FaCiL                     `verb`    {- <salib> -}          [ unwords [ ['b','e'], ['i','n'], ['m','o','u','r','n','i','n','g'] ] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FaCaL,
 
     TaFaCCaL                  `verb`    {- <tasallab> -}       [ unwords [ ['b','e'], ['i','n'], ['m','o','u','r','n','i','n','g'] ] ],
 
@@ -607,7 +604,8 @@ cluster_37  = cluster
     FiCAL                     `noun`    {- <silAb> -}          [ unwords [ ['m','o','u','r','n','i','n','g'], ['c','l','o','t','h','e','s'] ] ]
                               `plural`     FuCuL,
 
-    FaCCAL                    `noun`    {- <sallAb> -}         [ ['p','l','u','n','d','e','r','e','r'] ],
+    FaCCAL                    `noun`    {- <sallAb> -}         [ ['p','l','u','n','d','e','r','e','r'] ]
+                              `plural`     FaCCAL |< Un,
 
     FaCIL                     `adj`     {- <salIb> -}          [ ['s','t','o','l','e','n'] ],
 
@@ -623,14 +621,14 @@ cluster_37  = cluster
     MaFCUL                    `adj`     {- <maslUb> -}         [ ['d','e','p','r','i','v','e','d'], ['u','n','s','u','c','c','e','s','s','f','u','l'] ] ]
 
 
-cluster_38  = cluster
+cluster_31  = cluster
 
  |> ['s','a','l','a','b','a','n','d'] <| [
 
     _____                     `noun`    {- <salaband> -}       [ ['m','a','r','t','i','n','g','a','l','e'] ] ]
 
 
-cluster_39  = cluster
+cluster_32  = cluster
 
  |> "s l t" <| [
 
@@ -641,29 +639,34 @@ cluster_39  = cluster
     InFaCaL                   `verb`    {- <insalat> -}        [ unwords [ ['s','l','i','p'], ['a','w','a','y'] ] ] ]
 
 
-cluster_40  = cluster
+cluster_33  = cluster
 
  |> "s l ^g" <| [
 
     FaCL                      `noun`    {- <sal^g> -}          [ ['c','h','a','r','d'] ] ]
 
 
-cluster_41  = cluster
+cluster_34  = cluster
 
  |> "s l ^g q" <| [
 
     KaRDUS |< Iy              `adj`     {- <sal^gUqIy> -}      [ ['S','e','l','j','u','k'] ]
-                              `plural`     KaRADiS |< aT ]
+                              `plural`     KaRADiS |< aT,
+
+    KaRDUS |< Iy              `noun`    {- <sal^gUqIy> -}      [ ['S','e','l','j','u','k'] ]
+                              `plural`     KaRADiS |< aT
+                           
+    `derives` otherwise ]
 
 
-cluster_42  = cluster
+cluster_35  = cluster
 
  |> "s l ^g m" <| [
 
     KaRDaS                    `noun`    {- <sal^gam> -}        [ ['t','u','r','n','i','p'] ] ]
 
 
-cluster_43  = cluster
+cluster_36  = cluster
 
  |> "s l .h" <| [
 
@@ -694,7 +697,8 @@ cluster_43  = cluster
     TaFaCCuL                  `noun`    {- <tasallu.h> -}      [ ['a','r','m','a','m','e','n','t'], ['a','r','m','s'] ]
                               `plural`     TaFaCCuL |< At,
 
-    MuFaCCiL                  `noun`    {- <musalli.h> -}      [ ['a','r','m','o','r','e','r'] ],
+    MuFaCCiL                  `noun`    {- <musalli.h> -}      [ ['a','r','m','o','r','e','r'] ]
+                              `plural`     MuFaCCiL,
 
     MuFaCCaL                  `adj`     {- <musalla.h> -}      [ ['a','r','m','o','r','e','d'], ['r','e','i','n','f','o','r','c','e','d'] ],
 
@@ -706,21 +710,29 @@ cluster_43  = cluster
     `derives` otherwise ]
 
 
-cluster_44  = cluster
+cluster_37  = cluster
+
+ |> "s l .h f" <| [
+
+    "sul.hufY" |< aT          `noun`    {- <sul.hufAT> -}      [ ['t','u','r','t','l','e'] ]
+                              `plural`     "salA.hif",
+
+    "sula.hfY" |< aT          `noun`    {- <sula.hfAT> -}      [ ['t','u','r','t','l','e'] ]
+                              `plural`     "salA.hif",
+
+    "sula.hfA'" |< Iy         `adj`     {- <sula.hfA'Iy> -}    [ unwords [ ['t','u','r','t','l','e'], "-", ['l','i','k','e'] ], ['s','l','o','w'] ],
+
+    "sula.hfA'" |< Iy |< aT   `noun`    {- <sula.hfA'IyaT> -}  [ ['d','a','w','d','l','i','n','g'], ['d','i','l','a','t','o','r','i','n','e','s','s'] ] ]
+
+
+cluster_38  = cluster
 
  |> ['s','i','l','A','.','h','d','A','r'] <| [
 
     _____                     `noun`    {- <silA.hdAr> -}      [ unwords [ ['s','w','o','r','d'], "-", ['b','e','a','r','e','r'] ], ['s','q','u','i','r','e'] ] ]
 
 
-cluster_45  = cluster
-
- |> ['s','u','l','a','.','h','f','Y'] <| [
-
-    _____ |< aT               `noun`    {- <sula.hfAT> -}      [ ['t','u','r','t','l','e'] ] ]
-
-
-cluster_46  = cluster
+cluster_39  = cluster
 
  |> "s l _h" <| [
 
@@ -743,7 +755,8 @@ cluster_46  = cluster
 
     FaCIL |< aT               `noun`    {- <salI_haT> -}       [ unwords [ ['c','i','n','n','a','m','o','n'], ['t','r','e','e'] ] ],
 
-    FaCLAn |< aT              `noun`    {- <sal_hAnaT> -}      [ ['s','l','a','u','g','h','t','e','r','h','o','u','s','e'] ],
+    FaCLAn |< aT              `noun`    {- <sal_hAnaT> -}      [ ['s','l','a','u','g','h','t','e','r','h','o','u','s','e'] ]
+                              `plural`     FaCLAn |< At,
 
     MaFCaL                    `noun`    {- <masla_h> -}        [ ['s','l','a','u','g','h','t','e','r','h','o','u','s','e'] ]
                               `plural`     MaFACiL,
@@ -758,32 +771,34 @@ cluster_46  = cluster
     `derives` otherwise ]
 
 
-cluster_47  = cluster
+cluster_40  = cluster
 
- |> "s l r" <| [
+ |> ['s','U','l','A','r'] <| [
 
-    FUCAL                     `noun`    {- <sUlAr> -}          [ unwords [ ['d','i','e','s','e','l'], "(", ['o','i','l'], "/", ['f','u','e','l'], ")" ] ] ]
+    _____                     `noun`    {- <sUlAr> -}          [ unwords [ ['d','i','e','s','e','l'], "(", ['o','i','l'], "/", ['f','u','e','l'], ")" ] ] ]
 
 
-cluster_48  = cluster
+cluster_41  = cluster
 
  |> "s l s" <| [
 
     FaCiL                     `verb`    {- <salis> -}          [ unwords [ ['b','e'], ['c','o','m','p','l','i','a','n','t'] ], unwords [ ['b','e'], ['f','l','u','e','n','t'] ] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FaCaL
+                              `masdar`     FaCAL |< aT,
 
     HaFCaL                    `verb`    {- <'aslas> -}         [ unwords [ ['m','a','k','e'], ['t','r','a','c','t','a','b','l','e'] ], unwords [ ['m','a','k','e'], ['f','l','u','e','n','t'] ] ],
 
     FaCaL                     `noun`    {- <salas> -}          [ unwords [ ['i','n','c','o','n','t','i','n','e','n','c','e'], ['o','f'], ['u','r','i','n','e'] ] ],
 
-    FaCiL                     `noun`    {- <salis> -}          [ ['t','r','a','c','t','a','b','l','e'], ['f','l','e','x','i','b','l','e'] ],
+    FaCiL                     `adj`     {- <salis> -}          [ ['t','r','a','c','t','a','b','l','e'], ['f','l','e','x','i','b','l','e'] ],
 
     FaCAL |< aT               `noun`    {- <salAsaT> -}        [ ['m','o','o','t','h','n','e','s','s'], ['f','l','e','x','i','b','i','l','i','t','y'], ['t','r','a','c','t','a','b','i','l','i','t','y'] ],
 
     HaFCaL                    `adj`     {- <'aslas> -}         [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['t','r','a','c','t','a','b','l','e'] ], unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['f','l','e','x','i','b','l','e'] ] ] ]
 
 
-cluster_49  = cluster
+cluster_42  = cluster
 
  |> "s l s l" <| [
 
@@ -799,12 +814,13 @@ cluster_49  = cluster
     TaKaRDuS                  `noun`    {- <tasalsul> -}       [ ['c','o','n','t','i','n','u','i','t','y'], ['s','e','q','u','e','n','c','e'] ]
                               `plural`     TaKaRDuS |< At,
 
-    MuKaRDaS                  `noun`    {- <musalsal> -}       [ ['s','e','r','i','a','l'], ['s','e','q','u','e','n','c','e'] ],
+    MuKaRDaS                  `noun`    {- <musalsal> -}       [ ['s','e','r','i','a','l'], ['s','e','q','u','e','n','c','e'] ]
+                              `plural`     MuKaRDaS |< At,
 
     MutaKaRDiS                `adj`     {- <mutasalsil> -}     [ ['c','o','n','t','i','n','u','o','u','s'], ['s','e','q','u','e','n','t','i','a','l'], ['c','h','a','i','n','e','d'] ] ]
 
 
-cluster_50  = cluster
+cluster_43  = cluster
 
  |> "s l .t" <| [
 
@@ -819,7 +835,7 @@ cluster_50  = cluster
 
     FaCAL |< aT               `noun`    {- <salA.taT> -}       [ ['g','l','i','b','n','e','s','s'], ['i','m','p','e','r','t','i','n','e','n','c','e'] ],
 
-    FuCayL |< Iy              `adj`     {- <sulay.tIy> -}      [ ['S','u','l','a','i','t','i'] ],
+    FuCayL |< Iy              `noun`    {- <sulay.tIy> -}      [ ['S','u','l','a','i','t','i'] ],
 
     TaFCIL                    `noun`    {- <taslI.t> -}        [ ['i','m','p','o','s','i','t','i','o','n'], ['e','x','e','r','t','i','o','n'] ]
                               `plural`     TaFCIL |< At,
@@ -827,29 +843,31 @@ cluster_50  = cluster
     TaFaCCuL                  `noun`    {- <tasallu.t> -}      [ ['s','u','p','r','e','m','a','c','y'], ['d','o','m','i','n','i','o','n'] ]
                               `plural`     TaFaCCuL |< At,
 
-    MuFaCCiL                  `adj`     {- <musalli.t> -}      [ ['c','o','n','t','r','o','l','l','i','n','g'], ['p','r','e','v','a','i','l','i','n','g'], ['c','o','m','m','a','n','d','i','n','g'] ],
+    MuFaCCiL                  `adj`     {- <musalli.t> -}      [ ['c','o','n','t','r','o','l','l','i','n','g'], ['p','r','e','v','a','i','l','i','n','g'], ['c','o','m','m','a','n','d','i','n','g'] ] ]
 
-    FaCaL |< aT               `noun`    {- <sala.taT> -}       [ ['s','a','l','a','d'] ]
-                              `plural`     FaCAL |< aT ]
+ |> ['s','a','l','a','.','t'] <| [
+
+    _____ |< aT               `noun`    {- <sala.taT> -}       [ ['s','a','l','a','d'] ]
+                              `plural`     _____ |< At ]
+
+ |> ['s','a','l','A','.','t'] <| [
+
+    _____ |< aT               `noun`    {- <salA.taT> -}       [ ['s','a','l','a','d'] ]
+                              `plural`     _____ |< At ]
 
 
-cluster_51  = cluster
+cluster_44  = cluster
 
  |> "s l .t .h" <| [
 
     IKRanDaS                  `verb`    {- <islan.ta.h> -}     [ unwords [ ['b','e'], ['w','i','d','e'] ] ],
 
-    MuKaRDaS                  `noun`    {- <musal.ta.h> -}     [ ['s','h','a','l','l','o','w'], ['s','h','o','a','l'], ['f','l','a','t'] ] ]
+    MuKaRDaS                  `noun`    {- <musal.ta.h> -}     [ ['s','h','a','l','l','o','w'], ['s','h','o','a','l'], ['f','l','a','t'] ],
+
+    KuRADiS                   `adj`     {- <sulA.ti.h> -}      [ ['w','i','d','e'] ] ]
 
 
-cluster_52  = cluster
-
- |> ['s','u','l','A','.','t','i','.','h'] <| [
-
-    _____                     `adj`     {- <sulA.ti.h> -}      [ ['w','i','d','e'] ] ]
-
-
-cluster_53  = cluster
+cluster_45  = cluster
 
  |> "s l .t n" <| [
 
@@ -857,10 +875,13 @@ cluster_53  = cluster
 
     TaKaRDaS                  `verb`    {- <tasal.tan> -}      [ unwords [ ['b','e','c','o','m','e'], ['r','u','l','e','r'] ], unwords [ ['b','e','c','o','m','e'], ['s','u','l','t','a','n'] ] ],
 
-    KaRDaS |< aT              `noun`    {- <sal.tanaT> -}      [ ['s','u','l','t','a','n','a','t','e'] ],
+    KaRDaS |< aT              `noun`    {- <sal.tanaT> -}      [ ['s','u','l','t','a','n','a','t','e'] ]
+                              `plural`     KaRDaS |< At,
 
     KuRDAS                    `noun`    {- <sul.tAn> -}        [ ['S','u','l','t','a','n'], ['S','u','l','t','a','n','e','s','s'], ['S','u','l','t','a','n','a'], ['s','u','l','t','a','n','s'] ]
-                              `plural`     KaRADIS,
+                              `plural`     KaRADIS
+                           
+    `derives` otherwise,
 
     KuRDAS                    `noun`    {- <sul.tAn> -}        [ ['p','o','w','e','r'] ],
 
@@ -869,7 +890,7 @@ cluster_53  = cluster
     KuRDAS |< Iy |< aT        `noun`    {- <sul.tAnIyaT> -}    [ unwords [ ['l','a','r','g','e'], ['m','e','t','a','l'], ['s','e','r','v','i','n','g'], ['b','o','w','l'] ], ['t','u','r','e','e','n'] ] ]
 
 
-cluster_54  = cluster
+cluster_46  = cluster
 
  |> "s l `" <| [
 
@@ -887,7 +908,7 @@ cluster_54  = cluster
     FiCaL |< Iy               `adj`     {- <sila`Iy> -}        [ ['c','o','m','m','o','d','i','t','i','e','s'], unwords [ ['c','o','m','m','e','r','c','i','a','l'], ['g','o','o','d','s'] ] ] ]
 
 
-cluster_55  = cluster
+cluster_47  = cluster
 
  |> "s l f" <| [
 
@@ -902,9 +923,11 @@ cluster_55  = cluster
 
     IFtaCaL                   `verb`    {- <istalaf> -}        [ ['b','o','r','r','o','w'] ],
 
-    FiCL                      `noun`    {- <silf> -}           [ unwords [ ['b','r','o','t','h','e','r'], "-", ['i','n'], "-", ['l','a','w'] ] ],
+    FiCL                      `noun`    {- <silf> -}           [ unwords [ ['b','r','o','t','h','e','r'], "-", ['i','n'], "-", ['l','a','w'] ] ]
+                              `plural`     HaFCAL,
 
-    FiCL |< aT                `noun`    {- <silfaT> -}         [ unwords [ ['s','i','s','t','e','r'], "-", ['i','n'], "-", ['l','a','w'] ] ],
+    FiCL |< aT                `noun`    {- <silfaT> -}         [ unwords [ ['s','i','s','t','e','r'], "-", ['i','n'], "-", ['l','a','w'] ] ]
+                              `plural`     FaCA'iL,
 
     FaCaL                     `noun`    {- <salaf> -}          [ ['a','n','c','e','s','t','o','r','s'] ]
                               `plural`     HaFCAL,
@@ -922,7 +945,8 @@ cluster_55  = cluster
                            
     `derives` otherwise,
 
-    FuCL |< aT                `noun`    {- <sulfaT> -}         [ ['l','o','a','n'], unwords [ ['c','a','s','h'], ['a','d','v','a','n','c','e'] ] ],
+    FuCL |< aT                `noun`    {- <sulfaT> -}         [ ['l','o','a','n'], unwords [ ['c','a','s','h'], ['a','d','v','a','n','c','e'] ] ]
+                              `plural`     FuCaL,
 
     FuCAL                     `noun`    {- <sulAf> -}          [ unwords [ ['c','h','o','i','c','e','s','t'], ['w','i','n','e'] ] ],
 
@@ -950,7 +974,7 @@ cluster_55  = cluster
     FACiL |<< "aN"            `adj`     {- <sAlifaN> -}        [ ['p','r','e','v','i','o','u','s','l','y'], ['f','o','r','m','e','r','l','y'] ] ]
 
 
-cluster_56  = cluster
+cluster_48  = cluster
 
  |> "s l f t" <| [
 
@@ -961,26 +985,20 @@ cluster_56  = cluster
     KaRDIS                    `noun`    {- <salfIt> -}         [ ['S','a','l','f','i','t'] ] ]
 
 
-cluster_57  = cluster
-
- |> "s l f d" <| [
-
-    KuRDIS                    `noun`    {- <sulfId> -}         [ ['s','u','l','f','i','d','e'] ] ]
-
-
-cluster_58  = cluster
+cluster_49  = cluster
 
  |> ['s','U','l','U','f','A','n'] <| [
 
     _____                     `noun`    {- <sUlUfAn> -}        [ ['c','e','l','l','o','p','h','a','n','e'] ] ]
 
 
-cluster_59  = cluster
+cluster_50  = cluster
 
  |> "s l q" <| [
 
     FaCaL                     `verb`    {- <salaq> -}          [ ['l','a','c','e','r','a','t','e'], ['b','o','i','l'] ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `masdar`     FaCL,
 
     TaFaCCaL                  `verb`    {- <tasallaq> -}       [ ['c','l','i','m','b'], ['s','c','a','l','e'] ],
 
@@ -995,9 +1013,11 @@ cluster_59  = cluster
     FaCIL |< aT               `noun`    {- <salIqaT> -}        [ ['i','n','s','t','i','n','c','t'], unwords [ ['n','a','t','u','r','a','l'], "-", ['b','o','r','n'] ] ]
                               `plural`     FaCA'iL,
 
-    FaCAL |< Iy               `adj`     {- <salAqIy> -}        [ ['s','a','l','u','k','i'], ['g','r','e','y','h','o','u','n','d'] ],
+    FaCAL |< Iy               `noun`    {- <salAqIy> -}        [ ['s','a','l','u','k','i'], ['g','r','e','y','h','o','u','n','d'] ],
 
-    FaCUL |< Iy               `adj`     {- <salUqIy> -}        [ ['s','a','l','u','k','i'], ['g','r','e','y','h','o','u','n','d'] ],
+    FaCUL |< Iy               `noun`    {- <salUqIy> -}        [ ['s','a','l','u','k','i'], ['g','r','e','y','h','o','u','n','d'] ],
+
+    FaCALUn                   `noun`    {- <salAqUn> -}        [ unwords [ ['r','e','d'], ['l','e','a','d'] ], ['m','i','n','i','u','m'] ],
 
     TaFaCCuL                  `noun`    {- <tasalluq> -}       [ ['c','l','i','m','b','i','n','g'], ['s','c','a','l','i','n','g'] ]
                               `plural`     TaFaCCuL |< At,
@@ -1010,19 +1030,14 @@ cluster_59  = cluster
     MutaFaCCiL                `adj`     {- <mutasalliq> -}     [ ['c','l','i','m','b','i','n','g'] ] ]
 
 
-cluster_60  = cluster
-
- |> ['s','a','l','A','q','U','n'] <| [
-
-    _____                     `noun`    {- <salAqUn> -}        [ unwords [ ['r','e','d'], ['l','e','a','d'] ], ['m','i','n','i','u','m'] ] ]
-
-
-cluster_61  = cluster
+cluster_51  = cluster
 
  |> "s l k" <| [
 
     FaCaL                     `verb`    {- <salak> -}          [ ['p','r','o','c','e','e','d'], unwords [ ['t','a','k','e'], "(", "a", ['r','o','a','d',','], ['p','a','t','h'], ")" ], ['b','e','h','a','v','e'] ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `masdar`     FaCL
+                              `masdar`     FuCUL,
 
     FaCCaL                    `verb`    {- <sallak> -}         [ ['c','l','e','a','r'], ['u','n','r','e','e','l'] ],
 
@@ -1055,18 +1070,20 @@ cluster_61  = cluster
     MaFCUL                    `adj`     {- <maslUk> -}         [ ['p','a','s','s','a','b','l','e'], ['u','n','o','b','s','t','r','u','c','t','e','d'] ] ]
 
 
-cluster_62  = cluster
+cluster_52  = cluster
 
  |> "s l m" <| [
 
     FaCiL                     `verb`    {- <salim> -}          [ unwords [ ['b','e'], ['s','a','f','e'] ], unwords [ ['b','e'], ['f','a','u','l','t','l','e','s','s'] ] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FaCAL
+                              `masdar`     FaCAL |< aT,
 
-    FaCCaL                    `verb`    {- <sallam> -}         [ unwords [ ['h','a','n','d'], ['o','v','e','r'] ], ['s','u','r','r','e','n','d','e','r'], ['g','r','e','e','t'], unwords [ ['b','e'], ['c','o','n','c','e','d','e','d'] ], unwords [ ['b','e'], ['g','r','a','n','t','e','d'] ] ],
+    FaCCaL                    `verb`    {- <sallam> -}         [ unwords [ ['h','a','n','d'], ['o','v','e','r'] ], ['s','u','r','r','e','n','d','e','r'], ['g','r','e','e','t'] ],
 
     FACaL                     `verb`    {- <sAlam> -}          [ unwords [ ['m','a','k','e'], ['p','e','a','c','e'], ['w','i','t','h'] ] ],
 
-    HaFCaL                    `verb`    {- <'aslam> -}         [ unwords [ ['h','a','n','d'], ['o','v','e','r'] ], ['s','u','r','r','e','n','d','e','r'], unwords [ ['b','e'], ['h','a','n','d','e','d'], ['o','v','e','r'] ] ],
+    HaFCaL                    `verb`    {- <'aslam> -}         [ unwords [ ['h','a','n','d'], ['o','v','e','r'] ], ['s','u','r','r','e','n','d','e','r'] ],
 
     TaFaCCaL                  `verb`    {- <tasallam> -}       [ ['r','e','c','e','i','v','e'], ['a','s','s','u','m','e'] ],
 
@@ -1086,9 +1103,9 @@ cluster_62  = cluster
 
     FaCL |< aT                `noun`    {- <salmaT> -}         [ ['S','a','l','m','a'] ],
 
-    FaCLA' |< Iy              `adj`     {- <salmAwIy> -}       [ ['S','a','l','m','a','w','y'], ['S','a','l','m','a','w','i'], ['S','a','l','m','a','o','u','i'] ],
+    FaCLA' |< Iy              `noun`    {- <salmAwIy> -}       [ ['S','a','l','m','a','w','y'], ['S','a','l','m','a','w','i'], ['S','a','l','m','a','o','u','i'] ],
 
-    FaCLY |< Iy               `adj`     {- <salmawIy> -}       [ ['S','a','l','m','a','w','y'], ['S','a','l','m','a','w','i'], ['S','a','l','m','a','o','u','i'] ],
+    FaCLY |< Iy               `noun`    {- <salmawIy> -}       [ ['S','a','l','m','a','w','y'], ['S','a','l','m','a','w','i'], ['S','a','l','m','a','o','u','i'] ],
 
     FuCCaL                    `noun`    {- <sullam> -}         [ ['l','a','d','d','e','r'], ['s','t','a','i','r','s'] ]
                               `plural`     FaCACiL
@@ -1111,14 +1128,15 @@ cluster_62  = cluster
 
     FaCIL                     `noun`    {- <salIm> -}          [ ['s','a','f','e'] ],
 
-    FaCIL                     `noun`    {- <salIm> -}          [ ['f','l','a','w','l','e','s','s'], ['c','o','r','r','e','c','t'], ['s','o','u','n','d'] ]
+    FaCIL                     `adj`     {- <salIm> -}          [ ['f','l','a','w','l','e','s','s'], ['c','o','r','r','e','c','t'], ['s','o','u','n','d'] ]
                               `plural`     FuCaLA',
 
     FaCLAn                    `noun`    {- <salmAn> -}         [ ['S','a','l','m','a','n'] ],
 
     FaCCUL                    `noun`    {- <sallUm> -}         [ ['S','a','l','l','o','u','m'], ['S','a','l','l','u','m'] ],
 
-    FuCALY                    `noun`    {- <sulAmY> -}         [ ['p','h','a','l','a','n','x'], unwords [ ['d','i','g','i','t','a','l'], ['b','o','n','e'] ] ],
+    FuCALY                    `noun`    {- <sulAmY> -}         [ ['p','h','a','l','a','n','x'], unwords [ ['d','i','g','i','t','a','l'], ['b','o','n','e'] ] ]
+                              `plural`     FuCALY |< At,
 
     HaFCaL                    `adj`     {- <'aslam> -}         [ unwords [ ['s','a','f','e','r'], "/", ['s','a','f','e','s','t'] ], unwords [ ['s','o','u','n','d','e','r'], "/", ['s','o','u','n','d','e','s','t'] ] ],
 
@@ -1160,51 +1178,63 @@ cluster_62  = cluster
     `derives` otherwise ]
 
 
-cluster_63  = cluster
+cluster_53  = cluster
 
  |> ['s','a','l','A','m','l','i','k'] <| [
 
     _____                     `noun`    {- <salAmlik> -}       [ ['s','e','l','a','m','l','i','k'], unwords [ ['r','e','c','e','p','t','i','o','n'], ['r','o','o','m'] ] ] ]
 
 
-cluster_64  = cluster
+cluster_54  = cluster
 
  |> ['s','I','l','A','n'] <| [
 
     _____                     `noun`    {- <sIlAn> -}          [ ['C','e','y','l','o','n'] ] ]
 
 
-cluster_65  = cluster
+cluster_55  = cluster
 
  |> ['s','i','l','i','n','d','i','r'] <| [
 
     _____                     `noun`    {- <silindir> -}       [ ['c','y','l','i','n','d','e','r'] ] ]
 
 
-cluster_66  = cluster
+cluster_56  = cluster
 
  |> ['s','u','l','f','A','t'] <| [
 
     _____                     `noun`    {- <sulfAt> -}         [ ['s','u','l','f','a','t','e'] ] ]
 
 
-cluster_67  = cluster
+cluster_57  = cluster
+
+ |> ['s','u','l','f','I','d'] <| [
+
+    _____                     `noun`    {- <sulfId> -}         [ ['s','u','l','f','i','d','e'] ] ]
+
+
+cluster_58  = cluster
 
  |> ['s','a','l','f','A','d','U','r'] <| [
 
     _____                     `noun`    {- <salfAdUr> -}       [ ['S','a','l','v','a','d','o','r'] ],
 
-    _____ |< Iy               `adj`     {- <salfAdUrIy> -}     [ ['S','a','l','v','a','d','o','r','a','n'] ] ]
+    _____ |< Iy               `adj`     {- <salfAdUrIy> -}     [ ['S','a','l','v','a','d','o','r','a','n'] ],
+
+    _____ |< Iy               `noun`    {- <salfAdUrIy> -}     [ ['S','a','l','v','a','d','o','r','a','n'] ]
+                              `plural`     _____ |< Iy |< Un
+                           
+    `derives` otherwise ]
 
 
-cluster_68  = cluster
+cluster_59  = cluster
 
  |> ['s','a','l','m','U','n'] <| [
 
     _____                     `noun`    {- <salmUn> -}         [ ['s','a','l','m','o','n'] ] ]
 
 
-cluster_69  = cluster
+cluster_60  = cluster
 
  |> ['s','A','m'] <| [
 
@@ -1212,17 +1242,19 @@ cluster_69  = cluster
 
     _____ |< Iy |< aT         `noun`    {- <sAmIyaT> -}        [ ['S','e','m','i','t','i','s','m'] ],
 
-    lA >| _____ |< Iy         `adj`     {- <lA-sAmIy> -}       [ unwords [ ['a','n','t','i'], "-", ['S','e','m','i','t','e'] ], unwords [ ['a','n','t','i'], "-", ['S','e','m','i','t','i','c'] ], unwords [ ['a','n','t','i'], "-", ['S','e','m','i','t','i','s','m'] ] ] ]
+    lA >| _____ |< Iy         `adj`     {- <lA-sAmIy> -}       [ unwords [ ['a','n','t','i'], "-", ['S','e','m','i','t','e'] ], unwords [ ['a','n','t','i'], "-", ['S','e','m','i','t','i','c'] ] ],
+
+    lA >| _____ |< Iy |< aT   `noun`    {- <lA-sAmIyaT> -}     [ unwords [ ['a','n','t','i'], "-", ['S','e','m','i','t','i','s','m'] ] ] ]
 
 
-cluster_70  = cluster
+cluster_61  = cluster
 
  |> ['s','I','m','A'] <| [
 
     _____                     `noun`    {- <sImA> -}           [ ['s','i','g','n'], ['c','h','a','r','a','c','t','e','r','i','s','t','i','c'] ] ]
 
 
-cluster_71  = cluster
+cluster_62  = cluster
 
  |> "s m t" <| [
 
@@ -1232,12 +1264,13 @@ cluster_71  = cluster
                               `plural`     FuCUL ]
 
 
-cluster_72  = cluster
+cluster_63  = cluster
 
  |> "s m ^g" <| [
 
     FaCuL                     `verb`    {- <samu^g> -}         [ unwords [ ['b','e'], ['d','i','s','g','u','s','t','i','n','g'] ] ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `masdar`     FaCAL |< aT,
 
     FaCCaL                    `verb`    {- <samma^g> -}        [ unwords [ ['m','a','k','e'], ['l','o','a','t','h','s','o','m','e'] ] ],
 
@@ -1249,12 +1282,13 @@ cluster_72  = cluster
     FaCAL |< aT               `noun`    {- <samA^gaT> -}       [ ['u','g','l','i','n','e','s','s'], ['o','d','i','o','u','s','n','e','s','s'] ] ]
 
 
-cluster_73  = cluster
+cluster_64  = cluster
 
  |> "s m .h" <| [
 
-    FaCaL                     `verb`    {- <sama.h> -}         [ ['a','l','l','o','w'], ['p','e','r','m','i','t'], ['a','u','t','h','o','r','i','z','e'], unwords [ ['b','e'], ['p','e','r','m','i','t','t','e','d'] ] ]
-                              `imperf`     FCaL,
+    FaCaL                     `verb`    {- <sama.h> -}         [ ['a','l','l','o','w'], ['p','e','r','m','i','t'], ['a','u','t','h','o','r','i','z','e'] ]
+                              `imperf`     FCaL
+                              `masdar`     FaCAL,
 
     FaCCaL                    `verb`    {- <samma.h> -}        [ unwords [ ['t','r','e','a','t'], ['k','i','n','d','l','y'] ] ],
 
@@ -1266,7 +1300,7 @@ cluster_73  = cluster
 
     FaCL                      `noun`    {- <sam.h> -}          [ ['k','i','n','d','n','e','s','s'], ['m','a','g','n','a','n','i','m','i','t','y'] ],
 
-    FaCL                      `noun`    {- <sam.h> -}          [ ['m','a','g','n','a','n','i','m','o','u','s'] ]
+    FaCL                      `adj`     {- <sam.h> -}          [ ['m','a','g','n','a','n','i','m','o','u','s'] ]
                               `plural`     FiCAL,
 
     FaCAL                     `noun`    {- <samA.h> -}         [ ['p','e','r','m','i','s','s','i','o','n'], ['m','u','n','i','f','i','c','e','n','c','e'] ],
@@ -1274,7 +1308,7 @@ cluster_73  = cluster
     FaCAL |< aT               `noun`    {- <samA.haT> -}       [ ['m','u','n','i','f','i','c','e','n','c','e'], ['e','m','i','n','e','n','c','e'] ],
 
     FaCIL                     `adj`     {- <samI.h> -}         [ ['t','o','l','e','r','a','n','t'], ['g','e','n','e','r','o','u','s'], ['m','a','g','n','a','n','i','m','o','u','s'] ]
-                              `plural`     FaCLA',
+                              `plural`     FuCaLA',
 
     FaCIL                     `noun`    {- <samI.h> -}         [ ['S','a','m','e','e','h'] ],
 
@@ -1285,13 +1319,15 @@ cluster_73  = cluster
 
     FACiL                     `noun`    {- <sAmi.h> -}         [ ['S','a','m','i','h'] ],
 
-    MaFCUL                    `adj`     {- <masmU.h> -}        [ ['p','e','r','m','i','s','s','i','b','l','e'], ['p','e','r','m','i','t','t','e','d'], ['p','r','e','r','o','g','a','t','i','v','e','s'], ['p','r','i','v','i','l','e','g','e','s'] ]
+    MaFCUL                    `adj`     {- <masmU.h> -}        [ ['p','e','r','m','i','s','s','i','b','l','e'], ['p','e','r','m','i','t','t','e','d'] ],
+
+    MaFCUL                    `noun`    {- <masmU.h> -}        [ ['p','r','e','r','o','g','a','t','i','v','e','s'], ['p','r','i','v','i','l','e','g','e','s'] ]
                               `plural`     MaFCUL |< At,
 
     MutaFACiL                 `adj`     {- <mutasAmi.h> -}     [ ['t','o','l','e','r','a','n','t'], ['i','n','d','u','l','g','e','n','t'] ] ]
 
 
-cluster_74  = cluster
+cluster_65  = cluster
 
  |> "s m .h q" <| [
 
@@ -1299,7 +1335,7 @@ cluster_74  = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_75  = cluster
+cluster_66  = cluster
 
  |> "s m d" <| [
 
@@ -1324,7 +1360,7 @@ cluster_75  = cluster
     FaCIL                     `noun`    {- <samId> -}          [ ['s','e','m','o','l','i','n','a'] ] ]
 
 
-cluster_76  = cluster
+cluster_67  = cluster
 
  |> "s m d r" <| [
 
@@ -1332,12 +1368,24 @@ cluster_76  = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_77  = cluster
+cluster_68  = cluster
+
+ |> "s m r" <| [
+
+    FACiL |< aT               `noun`    {- <sAmiraT> -}        [ ['S','a','m','a','r','i','a'] ],
+
+    FACiL |< Iy               `adj`     {- <sAmirIy> -}        [ ['S','a','m','a','r','i','t','a','n'] ] ]
+
+ |> "s m r" <| [
+
+    FaCCUL                    `noun`    {- <sammUr> -}         [ ['s','a','b','l','e'] ]
+                              `plural`     FaCACIL ]
 
  |> "s m r" <| [
 
     FaCuL                     `verb`    {- <samur> -}          [ unwords [ ['b','e','c','o','m','e'], ['b','r','o','w','n'] ] ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `masdar`     FuCL |< aT,
 
     FaCaL                     `verb`    {- <samar> -}          [ ['c','o','n','v','e','r','s','e'] ]
                               `imperf`     FCuL,
@@ -1367,14 +1415,14 @@ cluster_77  = cluster
 
     FaCIL |< aT               `noun`    {- <samIraT> -}        [ ['S','a','m','i','r','a'], ['S','a','m','e','e','r','a'] ],
 
-    FaCIL                     `noun`    {- <samIr> -}          [ unwords [ ['c','o','n','v','e','r','s','a','t','i','o','n'], ['p','a','r','t','n','e','r'] ] ],
+    FaCIL                     `noun`    {- <samIr> -}          [ unwords [ ['c','o','n','v','e','r','s','a','t','i','o','n'], ['p','a','r','t','n','e','r'] ] ]
+                              `plural`     FuCaLA',
 
     HaFCaL                    `adj`     {- <'asmar> -}         [ ['b','r','o','w','n'], ['t','a','w','n','y'], ['t','a','n','n','e','d'], unwords [ ['b','r','o','w','n'], "-", ['s','k','i','n','n','e','d'] ], unwords [ ['d','a','r','k'], "-", ['c','o','m','p','l','e','c','t','i','o','n','e','d'] ] ]
                               `plural`     FuCL
-                              `plural`     FaCLY |< At
                               `femini`     FaCLA',
 
-    HaFCaL |< Iy              `adj`     {- <'asmarIy> -}       [ ['A','s','m','a','r','i'] ],
+    HaFCaL |< Iy              `noun`    {- <'asmarIy> -}       [ ['A','s','m','a','r','i'] ],
 
     MaFACiL                   `noun`    {- <masAmir> -}        [ unwords [ ['e','v','e','n','i','n','g'], ['e','n','t','e','r','t','a','i','n','m','e','n','t'] ] ],
 
@@ -1397,24 +1445,17 @@ cluster_77  = cluster
     MuFACiL                   `noun`    {- <musAmir> -}        [ unwords [ ['c','o','n','v','e','r','s','a','t','i','o','n'], ['p','a','r','t','n','e','r'] ] ]
                               `plural`     MuFACiL |< Un
                            
-    `derives` otherwise,
-
-    FACiL |< aT               `noun`    {- <sAmiraT> -}        [ ['S','a','m','a','r','i','a'] ],
-
-    FACiL |< Iy               `adj`     {- <sAmirIy> -}        [ ['S','a','m','a','r','i','t','a','n'] ],
-
-    FaCCUL                    `noun`    {- <sammUr> -}         [ ['s','a','b','l','e'] ]
-                              `plural`     FaCACIL ]
+    `derives` otherwise ]
 
 
-cluster_78  = cluster
+cluster_69  = cluster
 
  |> ['s','a','m','a','r','q','a','n','d'] <| [
 
     _____                     `noun`    {- <samarqand> -}      [ ['S','a','m','a','r','k','a','n','d'] ] ]
 
 
-cluster_79  = cluster
+cluster_70  = cluster
 
  |> "s m s r" <| [
 
@@ -1429,14 +1470,14 @@ cluster_79  = cluster
     KaRDIS |< aT              `noun`    {- <samsIraT> -}       [ unwords [ ['m','a','t','c','h'], "-", ['m','a','k','e','r'] ] ] ]
 
 
-cluster_80  = cluster
+cluster_71  = cluster
 
  |> "s m s m" <| [
 
     KiRDiS                    `noun`    {- <simsim> -}         [ ['s','e','s','a','m','e'], ['S','e','s','a','m','e'] ] ]
 
 
-cluster_81  = cluster
+cluster_72  = cluster
 
  |> "s m .t" <| [
 
@@ -1457,14 +1498,14 @@ cluster_81  = cluster
     MiFCaL                    `noun`    {- <misma.t> -}        [ unwords [ ['v','i','n','e'], ['p','r','o','p'] ] ] ]
 
 
-cluster_82  = cluster
+cluster_73  = cluster
 
  |> ['s','U','m','a','.','t','r'] <| [
 
     _____ |< aT               `noun`    {- <sUma.traT> -}      [ ['S','u','m','a','t','r','a'] ] ]
 
 
-cluster_83  = cluster
+cluster_74  = cluster
 
  |> "s m `" <| [
 
@@ -1475,7 +1516,9 @@ cluster_83  = cluster
  |> "s m `" <| [
 
     FaCiL                     `verb`    {- <sami`> -}          [ ['h','e','a','r'], ['l','i','s','t','e','n'] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FaCL
+                              `masdar`     FaCAL,
 
     FaCCaL                    `verb`    {- <samma`> -}         [ unwords [ ['m','a','k','e'], ['h','e','a','r'] ], unwords [ ['h','a','v','e'], ['l','i','s','t','e','n'] ] ],
 
@@ -1500,7 +1543,8 @@ cluster_83  = cluster
     FaCIL                     `noun`    {- <samI`> -}          [ ['h','e','a','r','e','r'], ['l','i','s','t','e','n','e','r'] ]
                               `plural`     FuCaLA',
 
-    FaCCAL |< aT              `noun`    {- <sammA`aT> -}       [ unwords [ ['t','e','l','e','p','h','o','n','e'], ['r','e','c','e','i','v','e','r'] ], ['e','a','r','p','h','o','n','e'] ],
+    FaCCAL |< aT              `noun`    {- <sammA`aT> -}       [ unwords [ ['t','e','l','e','p','h','o','n','e'], ['r','e','c','e','i','v','e','r'] ], ['e','a','r','p','h','o','n','e'] ]
+                              `plural`     FaCCAL |< At,
 
     MaFCaL                    `noun`    {- <masma`> -}         [ unwords [ ['h','e','a','r','i','n','g'], ['d','i','s','t','a','n','c','e'] ] ]
                               `plural`     MaFACiL,
@@ -1526,32 +1570,26 @@ cluster_83  = cluster
     `derives` otherwise ]
 
 
-cluster_84  = cluster
-
- |> "s m f n" <| [
-
-    KiRDUS |< Iy              `adj`     {- <simfUnIy> -}       [ ['s','y','m','p','h','o','n','i','c'] ],
-
-    KiRDUS |< Iy |< aT        `noun`    {- <simfUnIyaT> -}     [ ['s','y','m','p','h','o','n','y'] ] ]
-
-
-cluster_85  = cluster
+cluster_75  = cluster
 
  |> "s m q" <| [
 
     FaCaL                     `verb`    {- <samaq> -}          [ unwords [ ['b','e'], ['l','o','f','t','y'] ] ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `masdar`     FuCUL,
 
     FaCUL                     `noun`    {- <samUq> -}          [ ['t','o','w','e','r','i','n','g'], ['t','a','l','l'] ],
 
-    FACiL                     `noun`    {- <sAmiq> -}          [ ['t','o','w','e','r','i','n','g'], ['t','a','l','l'] ],
+    FACiL                     `noun`    {- <sAmiq> -}          [ ['t','o','w','e','r','i','n','g'], ['t','a','l','l'] ] ]
+
+ |> "s m q" <| [
 
     FuCCAL                    `noun`    {- <summAq> -}         [ ['s','u','m','a','c'] ],
 
     FuCCAL |< Iy              `adj`     {- <summAqIy> -}       [ unwords [ ['p','o','r','p','h','y','r','y'], "(", ['r','e','d','d','i','s','h'], "-", ['p','u','r','p','l','e'], ['r','o','c','k'], ")" ] ] ]
 
 
-cluster_86  = cluster
+cluster_76  = cluster
 
  |> "s m k" <| [
 
@@ -1559,14 +1597,13 @@ cluster_86  = cluster
 
     FuCL                      `noun`    {- <sumk> -}           [ ['t','h','i','c','k','n','e','s','s'] ],
 
-    FaCaL                     `noun`    {- <samak> -}          [ ['f','i','s','h'] ],
+    FaCaL                     `noun`    {- <samak> -}          [ ['f','i','s','h'] ]
+                              `plural`     HaFCAL
+                              `plural`     FiCAL,
 
     FaCaL |< aT               `noun`    {- <samakaT> -}        [ ['P','i','s','c','e','s'] ],
 
     FaCaL |< Iy               `adj`     {- <samakIy> -}        [ unwords [ ['f','i','s','h'], "-", ['l','i','k','e'] ], ['f','i','s','h'] ],
-
-    FiCAL                     `noun`    {- <simAk> -}          [ ['f','i','s','h'] ]
-                              `plural`     HaFCAL,
 
     FaCCAL                    `noun`    {- <sammAk> -}         [ ['f','i','s','h','e','r','m','a','n'] ]
                               `plural`     FaCCAL |< Un
@@ -1586,20 +1623,23 @@ cluster_86  = cluster
                               `plural`     MaFACiL ]
 
 
-cluster_87  = cluster
+cluster_77  = cluster
 
  |> "s m k r" <| [
 
     KaRDaS |< aT              `noun`    {- <samkaraT> -}       [ ['t','i','n','s','m','i','t','h','i','n','g'] ],
 
-    KaRDaS |< Iy              `adj`     {- <samkarIy> -}       [ ['t','i','n','s','m','i','t','h'] ],
+    KaRDaS |< Iy              `noun`    {- <samkarIy> -}       [ ['t','i','n','s','m','i','t','h'] ]
+                              `plural`     KaRDaS |< Iy |< Un
+                           
+    `derives` otherwise,
 
-    KaRDaS |< Iy              `adj`     {- <samkarIy> -}       [ ['S','a','m','k','a','r','i'] ],
+    KaRDaS |< Iy              `noun`    {- <samkarIy> -}       [ ['S','a','m','k','a','r','i'] ],
 
     KaRDaS |< Iy |< aT        `noun`    {- <samkarIyaT> -}     [ ['t','i','n','s','m','i','t','h','i','n','g'] ] ]
 
 
-cluster_88  = cluster
+cluster_78  = cluster
 
  |> "s m l" <| [
 
@@ -1621,12 +1661,13 @@ cluster_88  = cluster
     FuCUL |< aT               `noun`    {- <sumUlaT> -}        [ unwords [ ['b','e','i','n','g'], ['i','n'], ['t','a','t','t','e','r','s'] ] ] ]
 
 
-cluster_89  = cluster
+cluster_79  = cluster
 
  |> "s m n" <| [
 
     FaCiL                     `verb`    {- <samin> -}          [ unwords [ ['b','e','c','o','m','e'], ['f','a','t'] ] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FiCaL,
 
     FaCCaL                    `verb`    {- <samman> -}         [ unwords [ ['m','a','k','e'], ['f','a','t'] ] ],
 
@@ -1640,7 +1681,10 @@ cluster_89  = cluster
 
     FiCL |< aT                `noun`    {- <simnaT> -}         [ ['f','a','t'], ['o','b','e','s','i','t','y'] ],
 
-    FaCCAL                    `noun`    {- <sammAn> -}         [ unwords [ ['b','u','t','t','e','r'], ['m','e','r','c','h','a','n','t'] ] ],
+    FaCCAL                    `noun`    {- <sammAn> -}         [ unwords [ ['b','u','t','t','e','r'], ['m','e','r','c','h','a','n','t'] ] ]
+                              `plural`     FaCCAL |< Un
+                           
+    `derives` otherwise,
 
     FaCAL |< aT               `noun`    {- <samAnaT> -}        [ ['c','a','l','f'] ],
 
@@ -1650,81 +1694,203 @@ cluster_89  = cluster
                               `plural`     FuCALY |< At ]
 
 
-cluster_90  = cluster
+cluster_80  = cluster
 
  |> "s m n t" <| [
 
     KaRDaS                    `verb`    {- <samnat> -}         [ unwords [ ['l','a','y'], ['c','e','m','e','n','t'] ] ] ]
 
 
-cluster_91  = cluster
+cluster_81  = cluster
 
  |> ['s','i','m','i','n','t','U'] <| [
 
     _____                     `noun`    {- <simintU> -}        [ ['c','e','m','e','n','t'] ] ]
 
 
-cluster_92  = cluster
+cluster_82  = cluster
 
  |> ['s','I','m','A','n','t','I','k'] <| [
 
     _____                     `noun`    {- <sImAntIk> -}       [ ['s','e','m','a','n','t','i','c','s'] ] ]
 
 
-cluster_93  = cluster
+cluster_83  = cluster
 
  |> ['s','a','m','A','n','^','g','U','n'] <| [
 
     _____ |< Iy               `adj`     {- <samAn^gUnIy> -}    [ ['a','z','u','r','e'], ['c','e','r','u','l','e','a','n'] ] ]
 
 
-cluster_94  = cluster
+cluster_84  = cluster
 
  |> ['s','a','m','a','n','d','a','r'] <| [
 
     _____                     `noun`    {- <samandar> -}       [ ['s','a','l','a','m','a','n','d','e','r'] ] ]
 
 
-cluster_95  = cluster
+cluster_85  = cluster
 
  |> "s m h r" <| [
 
     KaRDaS |< Iy              `adj`     {- <samharIy> -}       [ ['t','a','l','l'], ['h','u','s','k','y'] ] ]
 
 
-cluster_96  = cluster
+cluster_86  = cluster
 
  |> ['s','A','m','b','A'] <| [
 
     _____                     `noun`    {- <sAmbA> -}          [ ['s','a','m','b','a'] ] ]
 
 
-cluster_97  = cluster
+cluster_87  = cluster
 
  |> ['s','i','m','b','A','t','Y'] <| [
 
     _____ |< Iy               `adj`     {- <simbAtawIy> -}     [ ['s','y','m','p','a','t','h','e','t','i','c'] ] ]
 
 
-cluster_98  = cluster
+cluster_88  = cluster
 
  |> ['s','a','m','b','U','s','a','q'] <| [
 
     _____                     `noun`    {- <sambUsaq> -}       [ unwords [ ['s','a','m','b','u','s','a','k'], "(", ['s','t','u','f','f','e','d'], ['m','e','a','t'], ['p','a','s','t','r','y'], ")" ] ] ]
 
 
-cluster_99  = cluster
+cluster_89  = cluster
+
+ |> ['s','i','m','f','U','n'] <| [
+
+    _____ |< Iy               `adj`     {- <simfUnIy> -}       [ ['s','y','m','p','h','o','n','i','c'] ],
+
+    _____ |< Iy |< aT         `noun`    {- <simfUnIyaT> -}     [ ['s','y','m','p','h','o','n','y'] ] ]
+
+
+cluster_90  = cluster
 
  |> ['s','u','m','m','u','n'] <| [
 
     _____                     `noun`    {- <summun> -}         [ ['q','u','a','i','l'] ] ]
 
 
-cluster_100 = cluster
+cluster_91  = cluster
 
  |> ['s','I','n','A'] <| [
 
     _____                     `noun`    {- <sInA> -}           [ ['S','i','n','a','i'] ] ]
+
+
+cluster_92  = cluster
+
+ |> "s n b q" <| [
+
+    KuRDUS                    `noun`    {- <sunbUq> -}         [ ['b','a','r','g','e'] ]
+                              `plural`     KaRADIS ]
+
+
+cluster_93  = cluster
+
+ |> "s n b k" <| [
+
+    KuRDuS                    `noun`    {- <sunbuk> -}         [ ['h','o','o','f'], ['a','w','l'] ]
+                              `plural`     KaRADiS ]
+
+
+cluster_94  = cluster
+
+ |> "s n b l" <| [
+
+    KuRDuS                    `noun`    {- <sunbul> -}         [ unwords [ ['s','p','i','k','e'], "(", ['o','f'], ['g','r','a','i','n'], ")" ], unwords [ ['s','p','i','k','e','s'], "(", ['o','f'], ['g','r','a','i','n'], ")" ] ]
+                              `plural`     KaRADiS,
+
+    KuRDuS |< aT              `noun`    {- <sunbulaT> -}       [ ['V','i','r','g','o'] ],
+
+    KuRDuS |< Iy              `adj`     {- <sunbulIy> -}       [ unwords [ ['s','p','i','k','e'], "-", ['l','i','k','e'] ], unwords [ ['s','h','a','p','e','d'], ['l','i','k','e'], "a", ['s','p','i','k','e'] ] ] ]
+
+
+cluster_95  = cluster
+
+ |> ['s','i','n','A','t','U','r'] <| [
+
+    _____                     `noun`    {- <sinAtUr> -}        [ ['s','e','n','a','t','o','r'] ]
+                              `plural`     _____ |< At
+                           
+    `derives` otherwise ]
+
+ |> ['s','I','n','A','t','U','r'] <| [
+
+    _____                     `noun`    {- <sInAtUr> -}        [ ['s','e','n','a','t','o','r'] ]
+                              `plural`     _____ |< At
+                           
+    `derives` otherwise ]
+
+
+cluster_96  = cluster
+
+ |> "s n ^g" <| [
+
+    FACL |< At                `noun`    {- <sAn^gAt> -}        [ ['S','a','n','g','a','t'] ],
+
+    FaCL |< aT                `noun`    {- <san^gaT> -}        [ ['w','e','i','g','h','t'] ]
+                              `plural`     FaCaL |< At
+                              `plural`     FiCaL,
+
+    FiCL |< aT                `noun`    {- <sin^gaT> -}        [ ['b','a','y','o','n','e','t'] ]
+                              `plural`     FiCaL,
+
+    FiCAL                     `noun`    {- <sinA^g> -}         [ ['s','o','o','t'] ] ]
+
+
+cluster_97  = cluster
+
+ |> "s n ^g b" <| [
+
+    KiRDAS                    `noun`    {- <sin^gAb> -}        [ unwords [ ['g','r','a','y'], ['s','q','u','i','r','r','e','l'] ] ],
+
+    KiRDAS |< Iy              `adj`     {- <sin^gAbIy> -}      [ ['g','r','a','y'], ['a','s','h','e','n'] ] ]
+
+
+cluster_98  = cluster
+
+ |> "s n ^g q" <| [
+
+    KaRDaS                    `noun`    {- <san^gaq> -}        [ ['b','a','n','n','e','r'] ]
+                              `plural`     KaRADiS,
+
+    KaRDaS                    `noun`    {- <san^gaq> -}        [ unwords [ ['s','a','n','j','a','k'], "(", ['O','t','t','o','m','a','n'], ['v','i','l','a','y','e','t'], ['s','u','b','d','i','v','i','s','i','o','n'], ")" ], unwords [ ['s','a','n','j','a','k','s'], "(", ['O','t','t','o','m','a','n'], ['v','i','l','a','y','e','t'], ['s','u','b','d','i','v','i','s','i','o','n','s'], ")" ] ]
+                              `plural`     KaRADiS ]
+
+
+cluster_99  = cluster
+
+ |> "s n .h" <| [
+
+    FaCaL                     `verb`    {- <sana.h> -}         [ ['o','c','c','u','r'], unwords [ ['c','o','m','e'], ['t','o'], ['m','i','n','d'] ] ]
+                              `imperf`     FCaL,
+
+    FuCL                      `noun`    {- <sun.h> -}          [ ['o','c','c','u','r','r','e','n','c','e'], unwords [ ['c','o','m','i','n','g'], ['t','o'], ['m','i','n','d'] ] ],
+
+    FuCUL                     `noun`    {- <sunU.h> -}         [ ['o','c','c','u','r','r','e','n','c','e'], unwords [ ['c','o','m','i','n','g'], ['t','o'], ['m','i','n','d'] ] ],
+
+    FACiL                     `adj`     {- <sAni.h> -}         [ ['a','u','s','p','i','c','i','o','u','s'], ['f','a','v','o','r','a','b','l','e'] ]
+                              `plural`     FawACiL,
+
+    FACiL |< aT               `noun`    {- <sAni.haT> -}       [ ['o','p','p','o','r','t','u','n','i','t','y'] ] ]
+
+
+cluster_100 = cluster
+
+ |> "s n _h" <| [
+
+    FiCL                      `noun`    {- <sin_h> -}          [ ['r','o','o','t'], ['o','r','i','g','i','n'], ['a','l','v','e','o','l','u','s'] ]
+                              `plural`     FuCUL
+                              `plural`     HaFCAL,
+
+    FaCaL                     `noun`    {- <sana_h> -}         [ unwords [ ['r','a','n','k','n','e','s','s'], "(", ['o','i','l'], ")" ] ],
+
+    FaCAL |< aT               `noun`    {- <sanA_haT> -}       [ unwords [ ['r','a','n','k','n','e','s','s'], "(", ['o','i','l'], ")" ] ],
+
+    FaCiL                     `adj`     {- <sani_h> -}         [ unwords [ ['r','a','n','k'], "(", ['o','i','l'], ")" ] ] ]
 
 
 section = [ cluster_1,

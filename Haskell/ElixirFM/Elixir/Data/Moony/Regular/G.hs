@@ -857,8 +857,11 @@ cluster_43  = cluster
 
     IFtaCaL                   `verb`    {- <i.hta_dar> -}      [ unwords [ ['b','e'], ['o','n'], ['g','u','a','r','d'] ], unwords [ ['b','e'], ['c','a','u','t','i','o','u','s'] ], ['b','e','w','a','r','e'] ],
 
-    FiCL                      `noun`    {- <.hi_dr> -}         [ ['c','a','u','t','i','o','n'] ]
-                              `plural`     FaCL,
+    FiCL                      `noun`    {- <.hi_dr> -}         [ ['c','a','u','t','i','o','n'] ],
+
+    FaCL                      `noun`    {- <.ha_dr> -}         [ ['c','a','u','t','i','o','n'] ],
+
+    FaCiL                     `adj`     {- <.ha_dir> -}        [ ['c','a','u','t','i','o','u','s'] ],
 
     FaCAL |<< "i"             `noun`    {- <.ha_dAri> -}       [ ['b','e','w','a','r','e'], unwords [ ['w','a','t','c','h'], ['o','u','t'] ] ],
 

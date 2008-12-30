@@ -1450,7 +1450,8 @@ cluster_85  = cluster
  |> "w ^g b" <| [
 
     FaCaL                     `verb`    {- <wa^gab> -}         [ unwords [ ['b','e'], ['n','e','c','e','s','s','a','r','y'] ], unwords [ ['b','e'], ['i','n','c','u','m','b','e','n','t'] ] ]
-                              `imperf`     CiL,
+                              `imperf`     CiL
+                              `masdar`     FuCUL,
 
     FaCCaL                    `verb`    {- <wa^g^gab> -}       [ unwords [ ['m','a','k','e'], ['n','e','c','e','s','s','a','r','y'] ], ['o','b','l','i','g','a','t','e'] ],
 
@@ -1483,22 +1484,16 @@ cluster_85  = cluster
 
     MaFCUL                    `noun`    {- <maw^gUb> -}        [ ['o','b','l','i','g','a','t','i','o','n'], ['i','n','j','u','n','c','t','i','o','n'] ],
 
-    MUCiL                     `noun`    {- <mU^gib> -}         [ ['r','e','q','u','i','r','i','n','g'] ]
-                              `plural`     MUCiL |< Un
-                           
-    `derives` otherwise,
+    MUCiL                     `adj`     {- <mU^gib> -}         [ ['r','e','q','u','i','r','i','n','g'] ],
 
     MUCiL                     `noun`    {- <mU^gib> -}         [ ['r','e','a','s','o','n'], ['m','o','t','i','v','e'] ]
                               `plural`     MUCiL |< At,
 
     MUCiL |< aT               `noun`    {- <mU^gibaT> -}       [ ['c','a','u','s','e'], ['r','e','a','s','o','n'], ['m','o','t','i','v','e'] ],
 
-    MUCaL                     `noun`    {- <mU^gab> -}         [ ['n','e','c','e','s','s','a','r','y'], ['r','e','q','u','i','s','i','t','e'] ],
+    MUCaL                     `adj`     {- <mU^gab> -}         [ ['n','e','c','e','s','s','a','r','y'], ['r','e','q','u','i','s','i','t','e'] ],
 
-    MustaFCiL                 `noun`    {- <mustaw^gib> -}     [ ['d','e','s','e','r','v','i','n','g'], ['w','o','r','t','h','y'] ]
-                              `plural`     MustaFCiL |< Un
-                           
-    `derives` otherwise ]
+    MustaFCiL                 `adj`     {- <mustaw^gib> -}     [ ['d','e','s','e','r','v','i','n','g'], ['w','o','r','t','h','y'] ] ]
 
 
 cluster_86  = cluster
@@ -1733,7 +1728,8 @@ cluster_96  = cluster
                               `plural`     FuCUL,
 
     FaCL                      `noun`    {- <wa^gh> -}          [ ['s','i','d','e'], ['a','s','p','e','c','t'] ]
-                              `plural`     FuCUL,
+                              `plural`     FuCUL
+                              `plural`     HaFCuL,
 
     FaCL |< Iy                `adj`     {- <wa^ghIy> -}        [ ['f','a','c','i','a','l'] ],
 

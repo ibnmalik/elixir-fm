@@ -42,6 +42,9 @@ data Token a = Token { lexeme :: (Lexeme a, Index), struct :: (Root, Morphs a), 
     deriving Show
 
 
+type Tag = ParaType
+
+
 newtype Tokens a = Tokens [Token a]
 
 
@@ -651,14 +654,7 @@ instance Fuzzy String where
 
     omits = (["a", "i", "u", "A", "I", "U", "Y", "-", "N", "W", "|", "_a", "_I", "_U"], ["|"])  -- ["'", "`", "q", "T"]
 
-    units ('.':z:s) | z `elem` "hsdtzgr" = ['.', z] : units s
-    units ('_':z:s) | z `elem` "thdaIU"  = ['_', z] : units s
-    units ('^':z:s) | z `elem` "gscznl"  = ['^', z] : units s
-    units (',':z:s) | z `elem` "c"       = [',', z] : units s
-
-    units (d:zs) = [d] : units zs
-
-    units []     = []
+    units = letters
 
     alike x y = x == y
 
@@ -772,34 +768,6 @@ fuzzy' 0x0630 y | y `elem` [0x0630, 0x062F, 0x0632] = True
 fuzzy' 0x0670 y | y `elem` [0x0670, 0x064E] = True
 
 fuzzy' x y = x == y
-
-
-next :: String -> Maybe (String, String)
-
-next (d:z:s) | d == '_' && z `elem` "thdaIU"  = Just ([d, z], s)
-             | d == '^' && z `elem` "gscznl"  = Just ([d, z], s)
-             | d == '.' && z `elem` "hsdtzgr" = Just ([d, z], s)
-             | d == ',' && z `elem` "c"       = Just ([d, z], s)
-
-next (d:zs) = Just ([d], zs)
-next []     = Nothing
-
-
-letters :: String -> [String]
-
-letters = units
-
--- letters = unfoldr next
-
-{-
-letters (d:z:s) | d == ' && z `elem` "thdaIU"  = [d, z] : letters s
-                | d == '^' && z `elem` "gscznl"  = [d, z] : letters s
-                | d == '.' && z `elem` "hsdtzgr" = [d, z] : letters s
-                | d == ',' && z `elem` "c"       = [d, z] : letters s
-
-letters (d:zs) = [d] : letters zs
-letters []     = []
--}
 
 
 downcode :: [UPoint] -> [UPoint]

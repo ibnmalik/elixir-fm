@@ -1587,9 +1587,17 @@ cluster_89  = cluster
 
  |> "s t t" <| [
 
-    FiCL                      `adj`     {- <sitt> -}           [ ['s','i','x'], ['s','i','x','t','y'] ],
+    FiCL |< In |< At          `noun`    {- <sittInAt> -}       [ ['s','i','x','t','i','e','s'] ],
 
-    FACL                      `noun`    {- <sAtt> -}           [ ['s','i','x','t','h'] ],
+    FiCL |< In |< Iy          `adj`     {- <sittInIy> -}       [ ['s','i','x','t','i','e','s'], ['s','i','x','t','i','e','t','h'] ],
+
+    FiCL |< Un |< Iy          `adj`     {- <sittUnIy> -}       [ ['s','e','x','a','g','e','n','a','r','i','a','n'] ],
+
+    FiCL |< aT                `noun`    {- <sittaT> -}         [ ['s','i','x'] ],
+
+    FACL                      `adj`     {- <sAtt> -}           [ ['s','i','x','t','h'] ] ]
+
+ |> "s t t" <| [
 
     FiCL                      `noun`    {- <sitt> -}           [ ['l','a','d','y'], ['m','i','s','s'] ]
                               `plural`     FiCL |< At ]

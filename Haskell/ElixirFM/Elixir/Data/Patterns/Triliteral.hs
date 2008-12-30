@@ -880,6 +880,8 @@ data PatternT =
         |   FaCLUn
         |   FiCLUn
 
+        |   FaCALUn
+
         |   FaCALIn
 
         |   FaCALin

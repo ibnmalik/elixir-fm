@@ -252,11 +252,13 @@ instance (Pretty (Lexeme PatternT), Pretty (Lexeme PatternQ),
 
 instance Pretty (Lexeme a) => Pretty [Lexeme a] where
 
-    pretty = vcat . punctuate linebreak . map pretty
+    pretty = singleline pretty
 
 
 instance Pretty (Entry a) => Pretty (Lexeme a) where
 
-    pretty (Lexeme r e) = element "Lexeme" [] (elemtxt "root" [] (text r)
-                                               <$$>
-                                               element "core" [] (pretty e))
+    pretty (Lexeme r e) = elemtxt "root" [] (text r)
+                          <$$>
+                          element "core" [] (pretty e)
+
+    prettyList = vcat . map (element "Lexeme" [] . pretty)

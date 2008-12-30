@@ -120,7 +120,7 @@ instance Lookup Regex where
 instance Show a => Lookup (Morphs a) where
 
     lookupWith y x = lookupUsing y (const False) (\ _ e -> z `isInfixOf` (" " ++ show (morphs e) ++ " "))
-    
+
         where z = " " ++ show x ++ " "
 
                   -- lookupUsing y (const False) (\ _ e -> show x == show (morphs e))

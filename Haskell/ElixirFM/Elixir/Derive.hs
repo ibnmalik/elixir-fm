@@ -26,10 +26,39 @@ import Elixir.Lexicon
 
 import Data.List (nub)
 
+import Elixir.Pretty hiding (list)
+
+
+instance (Show a, Template a) => Pretty [(TagsType, [(Form, Lexeme a)])] where
+
+    pretty = singleline pretty
+
+
+instance (Show a, Template a) => Pretty (TagsType, [(Form, Lexeme a)]) where
+
+    pretty (x, y) = (fill 20 . pretty) x <> (nest 20 . vcat)
+
+                    [ encloseText [show u, merge r (morphs e), show r, show (morphs e)] | (u, Lexeme r e) <- y ]
+
+{-
+    pretty (x, y) = nest 4 (pretty x <> line <>
+
+                            vcat [ (fill 5 . pretty) u <> (nest 5 . pretty) v | (u, v) <- y ])
+-}
+
 
 class Derive m p where
 
-    derive :: (Forming a, Morphing a a, Morphing (Morphs a) a, Rules a) => m a -> p -> [Lexeme a]
+    derive :: (Forming a, Morphing a a, Morphing (Morphs a) a, Rules a) =>
+              m a -> p -> [(TagsType, [(Form, Lexeme a)])]
+
+
+newtype Derived a = Derived [(TagsType, [(Form, Lexeme a)])]
+
+
+instance Show a => Show (Derived a) where
+
+    show (Derived x) = show x
 
 
 instance Derive Lexeme String where
@@ -66,13 +95,17 @@ instance Derive Lexeme TagsVerb where
 
  -- derive (Lexeme r e) x | (not . isVerb) (entity e) = []
 
-    derive (Lexeme r e) x = [ z | f <- [I ..],
+    derive (Lexeme r e) x = [ (y, z) |
 
-            let ws = lookNoun (morphs e) 'V' (nounStems f r),
+            let y = TagsVerb [],
 
-            w <- nub ws,
+            let z = [ (f, z) | f <- [I ..],
 
-            let z = Lexeme r (unmorphs w `verb` (reflex e)) ]
+                               let ws = lookNoun (morphs e) 'V' (nounStems f r),
+
+                               w <- nub ws,
+
+                               let z = Lexeme r (unmorphs w `verb` (reflex e)) ] ]
 
         where unmorphs (Morphs t _ _) = t
 
@@ -81,38 +114,50 @@ instance Derive Lexeme TagsNoun where
 
  -- derive (Lexeme r e) x | (not . isNoun) (entity e) = []
 
-    derive (Lexeme r e) x | isVerb (entity e) && (not . null) ws = [ z |
+    derive (Lexeme r e) x | isVerb (entity e) && (not . null) ws = [ (y, z) |
 
-                            w <- ws,
+                            let y = TagsNoun [],
 
-                            let z = Lexeme r (w `noun` (reflex e)) ]
+                            let z = [ (f, z) | f <- form (entity e),
+
+                                               w <- ws,
+
+                                               let z = Lexeme r (w `noun` (reflex e)) ] ]
 
             where ws = msdr (entity e)
 
-    derive (Lexeme r e) x = [ z | f <- [I ..],
+    derive (Lexeme r e) x = [ (y, z) |
 
-            let ws = lookNoun (morphs e) 'N' (nounStems f r),
+            let y = TagsNoun [],
 
-            w <- nub ws,
+            let z = [ (f, z) | f <- [I ..],
 
-            let z = Lexeme r (w `noun` (reflex e)) ]
+                               let ws = lookNoun (morphs e) 'N' (nounStems f r),
+
+                               w <- nub ws,
+
+                               let z = Lexeme r (w `noun` (reflex e)) ] ]
 
 
 instance Derive Lexeme TagsAdj where
 
  -- derive (Lexeme r e) x | (not . isAdj) (entity e) = []
 
-    derive (Lexeme r e) x@(TagsAdjA _ v _ _ _ _) = [ z |
+    derive (Lexeme r e) x@(TagsAdjA _ v _ _ _ _) = [ (y, z) |
 
             let v' = vals v,
 
-            v <- v', f <- [I ..],
+            v <- v',
 
-            let ws = lookNoun (morphs e) (show' v) (nounStems f r),
+            let y = TagsAdj [TagsAdjA [] [v] [] [] [] []],
 
-            w <- nub ws,
+            let z = [ (f, z) | f <- [I ..],
 
-            let z = Lexeme r (w `adj` (reflex e)) ]
+                               let ws = lookNoun (morphs e) (show' v) (nounStems f r),
+
+                               w <- nub ws,
+
+                               let z = Lexeme r (w `adj` (reflex e)) ] ]
 
 
 instance Derive Lexeme a => Derive Entry a where
