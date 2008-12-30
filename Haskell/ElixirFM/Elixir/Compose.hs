@@ -97,7 +97,7 @@ process x = (map (\ (i, x) ->
                 w <- rewrite v (head c) l ]
 
 
-continue :: Tag -> [[Maybe String]]
+continue :: ParaType -> [[Maybe String]]
 
 continue (ParaVerb _) = [[Nothing], [Just "SP------4-"]]
 
@@ -166,7 +166,7 @@ continue (ParaZero _) = [[Nothing]]
 continue (ParaGrph _) = [[Nothing]]
 
 
-rewrite :: Tag -> Maybe String -> Char -> [String]
+rewrite :: ParaType -> Maybe String -> Char -> [String]
 
 rewrite _ Nothing               x = [[x]]
 
