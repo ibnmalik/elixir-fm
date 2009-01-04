@@ -23,6 +23,10 @@ module Elixir.Lexicon (
 
         module Elixir.Lexicon.Pretty,
 
+        module Elixir.Data.Patterns,
+
+        module Elixir.Template,
+
         module Version
 
     ) where
@@ -31,6 +35,12 @@ module Elixir.Lexicon (
 import Elixir.Lexicon.System
 
 import Elixir.Lexicon.Pretty
+
+import Elixir.Data.Patterns
+
+import Elixir.Template
+
+-- import English
 
 import Version
 

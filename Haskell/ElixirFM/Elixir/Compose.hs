@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Compose
--- Copyright   :  Otakar Smrz 2005-2008
+-- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -35,7 +35,6 @@ import Elixir.Template
 
 import Elixir.Pretty hiding (group)
 
-import Encode
 import Encode.Arabic
 
 

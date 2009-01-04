@@ -32,7 +32,6 @@ import Elixir.Data.Lexicons
 
 import Elixir.Pretty hiding (group)
 
-import Encode
 import Encode.Arabic
 
 import qualified Data.Map as Map

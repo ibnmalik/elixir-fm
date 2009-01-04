@@ -30,7 +30,6 @@ import Elixir.Inflect
 
 import Elixir.Data.Lexicons
 
-import Encode
 import Encode.Arabic
 
 import Data.List hiding (lookup)

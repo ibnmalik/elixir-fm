@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Lexicon.Pretty.Haskell
--- Copyright   :  Otakar Smrz 2005-2008
+-- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -41,10 +41,6 @@ import Elixir.Lexicon.System
 import Language.Haskell.Parser
 
 import Language.Haskell.Pretty
-
-import Version
-
-version = revised "$Revision$"
 
 
 prettyHaskell :: Lexicon -> String

@@ -62,7 +62,7 @@ lexicon = listing "Generic lexicon"
                                                         <:>     "IFCaL" |<< "A"
                             <.>     "N------D[24]R"
                                                         <:>     "IFCaL" |<< "ay",
-                                                        
+
         "IFCaL" |< aT       <::>    "N------[SD]-[IRDA]"
                                                         <..>    [ "woman" ]
                             <.>     "N------S1D"

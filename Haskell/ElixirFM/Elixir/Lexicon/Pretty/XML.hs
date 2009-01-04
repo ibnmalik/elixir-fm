@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Lexicon.Pretty.XML
--- Copyright   :  Otakar Smrz 2005-2008
+-- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -15,28 +15,18 @@
 -- "ElixirFM" "Elixir.Lexicon" "Elixir.Pretty"
 
 
-module Elixir.Lexicon.Pretty.XML (
-
-        -- * Classes
-
-        Pretty (..)
-
-    ) where
+module Elixir.Lexicon.Pretty.XML where
 
 
 import Elixir.Lexicon.System
 
-import Elixir.Pretty
+import Elixir.Template
 
 import Elixir.System
 
-import Elixir.Template
+import Elixir.Pretty
 
-import Encode.Arabic
-
-import Version
-
-version = revised "$Revision$"
+import Elixir.Data.Patterns
 
 
 instance Pretty (Wrap Nest) => Pretty Lexicon where
@@ -89,9 +79,6 @@ instance (Pretty (Entry PatternT), Pretty (Entry PatternQ),
 
 prettyNest' r l t = (element "Cluster" [] . element t [])
                     (elemtxt "root" [] (text r)
-                                    -- (element "tex" [] (text r) <$$>
-                                    --  element "ucs" [] ((text . encode UTF
-                                    --                          . decode TeX) r))
                      <$$>
                      element "ents" [] (pretty l))
 

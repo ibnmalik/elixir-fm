@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Lexicon.Pretty
--- Copyright   :  Otakar Smrz 2005-2008
+-- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -15,17 +15,7 @@
 -- "ElixirFM"
 
 
-module Elixir.Lexicon.Pretty (
-
-        -- * Classes
-
-        Pretty (..)
-
-    ) where
+module Elixir.Lexicon.Pretty where
 
 
 import Elixir.Lexicon.Pretty.XML
-
-import Version
-
-version = revised "$Revision$"

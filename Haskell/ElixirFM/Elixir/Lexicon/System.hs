@@ -15,58 +15,7 @@
 -- "ElixirFM"
 
 
-module Elixir.Lexicon.System (
-
-        -- * Class
-
-        Wrapping (..),
-
-        -- * Types
-
-        Wrap (..), Nest (..), Entry (..), Lexeme (..),
-
-        Lexicon, Cluster, Clips, Index, Root, Reflex,
-
-        Entity (..), Limits,
-
-        PatternT (..),
-        PatternQ (..),
-        PatternL (..), _____,
-
-        Prefix (..), al, lA,
-        Suffix (..), aT, aN, iyA, iyaT,
-
-        -- * Operators
-
-        (|>), (<|), (>-<), (<->),
-
-        (>|), (|<), (>>|), (|<<),
-
-        (<::>), (<..>), (<.>), (<:>),
-
-        -- * Functions
-
-        wraps, unwraps,
-
-        listing, include, cluster,
-
-        isVerb, isNoun, isAdj, isPron, isNum, isAdv, isPrep, isConj, isPart, isIntj,
-
-        isXtra, isYnit, isZero, isGrph,
-
-        root, ents, domain,
-
-        verb, noun, adj, pron, num, adv, prep, conj, part, intj,
-
-        xtra, ynit, zero, grph,
-
-        imperf, pfirst, ithird, second,
-
-        masdar, plural, femini, limited, derives,
-
-        entries
-
-    ) where
+module Elixir.Lexicon.System where
 
 
 import Elixir.Template
@@ -76,12 +25,6 @@ import Elixir.System
 import Elixir.Pretty
 
 import Elixir.Data.Patterns
-
--- import English
-
-import Version
-
-version = revised "$Revision$"
 
 
 include :: [Lexicon] -> Lexicon

@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Lexicon.Pretty.Perl
--- Copyright   :  Otakar Smrz 2005-2008
+-- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -15,22 +15,12 @@
 -- "ElixirFM" "Elixir.Lexicon" "Elixir.Pretty"
 
 
-module Elixir.Lexicon.Pretty.Perl (
-
-        -- * Classes
-
-        Pretty (..)
-
-    ) where
+module Elixir.Lexicon.Pretty.Perl where
 
 
 import Elixir.Lexicon.System
 
 import Elixir.Pretty
-
-import Version
-
-version = revised "$Revision$"
 
 
 instance Pretty Lexicon where

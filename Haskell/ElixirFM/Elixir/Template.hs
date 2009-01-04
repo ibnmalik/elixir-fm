@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Template
--- Copyright   :  Otakar Smrz 2005-2008
+-- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -21,10 +21,6 @@ module Elixir.Template where
 import Elixir.System
 
 import Data.List (isPrefixOf)
-
-import Version
-
-version = revised "$Revision$"
 
 
 class Template a where
