@@ -105,9 +105,7 @@ instance Derive Lexeme TagsVerb where
 
                                w <- nub ws,
 
-                               let z = Lexeme r (unmorphs w `verb` (reflex e)) ] ]
-
-        where unmorphs (Morphs t _ _) = t
+                               let z = Lexeme r (w `verb` (reflex e)) ] ]
 
 
 instance Derive Lexeme TagsNoun where

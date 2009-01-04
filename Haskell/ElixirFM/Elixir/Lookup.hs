@@ -99,6 +99,21 @@ class Lookup a where
 infixl 3 `with`
 
 
+instance Lookup a => Lookup [a] where
+
+    lookupWith y x = [ z | u <- x, z <- lookupWith y u ]
+
+
+instance Lookup Index where
+
+    lookupWith y (u, v) = lookupWith y (u, Just [v])
+
+
+instance Lookup Clips where
+
+    lookupWith y x = maybe [] id (intersection (Just [x]) y)
+
+
 instance Lookup [UPoint] where
 
     lookupWith y x = lookupUsing y ((x ==) . decode TeX) (\ r e -> x == decode TeX (merge r (morphs e)))

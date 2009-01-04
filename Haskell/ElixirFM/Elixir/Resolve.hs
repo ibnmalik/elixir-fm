@@ -193,7 +193,7 @@ instance Resolve String where
 
                                     [ (concat d, [Token (l, (n, m)) i t]) | (t, h) <- inflect l x, i <- h,
 
-                                       let u = (units . uncurry merge) i, d <- y, u `q` d ] ]
+                                        let u = (units . uncurry merge) i, d <- y, u `q` d ] ]
 
 
     tokenize = nub . tokens'''
@@ -347,7 +347,7 @@ resolveBy' b q t y = [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- z ]
 
                                 [ (concat d, [wrap (Token (l, (n, m)) i t)]) | (t, h) <- inflect l x, i <- h,
 
-                                   let u = (units . uncurry merge) i, d <- y, u `q` d ] ]
+                                    let u = (units . uncurry merge) i, d <- y, u `q` d ] ]
 
 
 instance Resolve [UPoint] where
@@ -376,7 +376,7 @@ instance Resolve [UPoint] where
                                 let l = Lexeme r e,
 
                                 z <- (Map.foldWithKey (\ k x y -> (k, [wrap (Tokens (reverse x))]) : y) []
-
+{-
                                     . Map.fromListWith (++) .
 
                                     (\ x -> [ (concat d, t) | (f, t) <- x, let v = units f, let u = (units . c) f,
@@ -385,6 +385,15 @@ instance Resolve [UPoint] where
                                     . Map.toList . Map.fromListWith (++))
 
                                     [ (uncurry merge i, [Token (l, (n, m)) i t]) | (t, h) <- inflect l x, i <- h ] ]
+-}
+
+                                    . Map.fromListWith (++))
+
+                                    [ (concat d, [Token (l, (n, m)) i t]) | (t, h) <- inflect l x, i <- h,
+
+                                        let f = uncurry merge i, let v = units f, let u = (units . c) f,
+
+                                        (d, w) <- y, isSubsumed (flip b) approx w v, u `q` d ] ]
 
 
     tokenize = map (map (decode Tim)) . nub . tokens''' . encode Tim
@@ -568,14 +577,13 @@ resolveBy'' b q t y = [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- z 
 
                             let l = Lexeme r e,
 
-                            z <- (Map.foldWithKey (\ k x y -> (k, [reverse x]) : y) [] . Map.fromListWith (++) .
+                            z <- (Map.foldWithKey (\ k x y -> (k, [reverse x]) : y) [] . Map.fromListWith (++))
 
-                                (\ x -> [ (concat d, t) | (f, t) <- x, let v = units f, let u = (units . c) f,
-                                                          (d, w) <- y, isSubsumed (flip b) approx w v, u `q` d ])
+                                [ (concat d, [wrap (Token (l, (n, m)) i t)]) | (t, h) <- inflect l x, i <- h,
 
-                                . Map.toList . Map.fromListWith (++))
+                                    let f = uncurry merge i, let v = units f, let u = (units . c) f,
 
-                                [ (uncurry merge i, [wrap (Token (l, (n, m)) i t)]) | (t, h) <- inflect l x, i <- h ] ]
+                                    (d, w) <- y, isSubsumed (flip b) approx w v, u `q` d ] ]
 
 
 resolveSub r = resolveBy (==) (\ x y -> any (isPrefixOf x) (tails y)) r

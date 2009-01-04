@@ -58,18 +58,9 @@ inflectDerive :: (Morphing a a, Forming a, Rules a, Derive b c, Inflect Lexeme c
 inflectDerive x y = [ inflect w y | (_, z) <- derive x y, (_, w) <- z ]
 
 
--- inflectLookup (lookupEntry "ra'y" lexicon) "--------4I"
--- inflectLookup (lookupEntry "^gadId" lexicon) "--------4I"
+inflectLookup :: (Lookup a, Inflect Lexeme b) => a -> b -> [[Wrap Inflected]]
 
--- inflectLookup :: Inflect a b => [Wrap a] -> b -> [[[[Char]]]]
-
-inflectLookup l t = [ case i of WrapT x -> inflects x
-                                WrapQ x -> inflects x
-                                WrapS x -> inflects x
-                                WrapL x -> inflects x | i <- l ]
-
-    where inflects x = -- (map (map (uncurry merge) . snd))
-                       pretty (inflect x t)
+inflectLookup x y = [ wraps (\ (Nest r n) -> [ Inflected (inflect (Lexeme r e) y) | e <- n ]) w | l <- lookup x, w <- emanate l ]
 
 
 class Inflect m p where
@@ -89,30 +80,6 @@ instance Show a => Show (Inflected a) where
 instance Inflect Lexeme a => Inflect Entry a where
 
     inflect x = inflect (Lexeme "f ` l" x)
-
-
--- instance Inflect Lexeme a => Inflect ((,) String . Entry) a where
---
---     inflect (r, x) = inflect (Lexeme r x)
---
--- inflect' (r, x) = inflect (Lexeme r (x `adj` []))
-
-{-
-instance Inflect (Index, Lexicon) a where
-
-    inflect (x, l) y = [ z | w <- lookup x l, z <- unwraps (inflects y) w ]
-
-        where inflects y (Nest r z) = [ i | e <- z, s <- entries e,
-                                            i <- inflect (Lexeme r s) y ]
--}
-
-{-
-inflectIdx :: (Inflect Lexeme a, Lookup b) => (b, [Wrap Nest]) -> a -> [Wrap TagRootMorphs]
-
-inflectIdx (x, l) y = [ z | w <- lookupIndex x l, z <- wraps (inflects y) w ]
-
-    where inflects y (Nest r z) = [ TRM (inflect (Lexeme r s) y) | e <- z, s <- entries e ]
--}
 
 
 instance Inflect Entry ParaVerb where

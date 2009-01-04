@@ -269,11 +269,9 @@ cluster_32  = cluster
 
  |> ['t','^','s','I','l'] <| [
 
+    _____ |<< "I"             `xtra`    {- <t^sIlI> -}         [ ['C','h','i','l','e'] ],
+
     _____ |< Iy               `adj`     {- <t^sIlIy> -}        [ ['C','h','i','l','e','a','n'] ] ]
-
- |> ['t','^','s','I','l','I'] <| [
-
-    _____                     `noun`    {- <t^sIlI> -}         [ ['C','h','i','l','e'] ] ]
 
 
 cluster_33  = cluster

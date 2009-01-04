@@ -604,7 +604,7 @@ cluster_84  = cluster
 
  |> ['^','s','I','l','A'] <| [
 
-    _____                     `xtra`    {- <^sIlA> -}          [ ['C','h','e','l','a'], ['S','h','e','i','l','a'], ['C','h','i','l','e'] ] ]
+    _____                     `xtra`    {- <^sIlA> -}          [ ['S','h','e','i','l','a'], ['C','h','e','l','a'] ] ]
 
 
 cluster_85  = cluster
