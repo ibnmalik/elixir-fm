@@ -782,6 +782,51 @@ sub lookup {
 }
 
 
+sub pretty_derive ($$) {
+
+    my @word = ElixirFM::unprettyDerive($_[0]);
+
+    my $q = $_[1];
+
+    return $q->table( {-cellspacing => 0},
+
+                      [ map {
+
+                            join $", map { pretty_derive_list($_, $q) } @{$_}
+
+                        } @word ] );
+}
+
+sub pretty_derive_list {
+
+    my @data = @{$_[0]};
+
+    my $q = $_[1];
+
+    return '' unless @data > 1;
+
+    $data[0] = substr $data[0], 1, -1;
+    $data[3] = substr $data[3], 1, -1;
+
+    return $q->Tr( join $",
+
+		   $q->td({-class => "xtag",
+			   -title => ElixirFM::describe($data[0])}, $data[0]),
+		   $q->td({-class => "class",
+			   -title => "derivational class"},       $data[1]),
+		   $q->td({-class => "phon",
+			   -title => "derived form"},             decode "zdmg",    $data[2]),
+		   $q->td({-class => "orth",
+			   -title => "derived form"},             decode "arabtex", $data[2]),
+		   $q->td({-class => "atex",
+			   -title => "derived form"},             $data[2]),
+		   $q->td({-class => "root",
+			   -title => "root of derived form"},     $data[3]),
+		   $q->td({-class => "morphs",
+			   -title => "morphs of derived form"},   escape $data[4]) );
+}
+
+
 sub derive {
 
     my $c = shift;
@@ -800,12 +845,133 @@ sub derive {
 
     $r .= display_headline $c;
 
-    $r .= $q->p("The requested", "'" . $q->param($c->mode_param()) . "'", "mode is not implemented online at the moment.",
-		"You can try out the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "executable"),
-		"or the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "library"), "instead, though.");
+    my @example = ( [ '(3105,1)',               '[VN]--------- A---------'                                      ],
+                    [ '(3105,1)',               'perf act 3rd impa'                                             ],
+                    [ '(3105,1)',               '-P-A-3---- -C--------'                                         ],
+                    [ '(3105,-2) (1455,-5)',    'indicative subjunctive jussive indefinite reduced definite'    ],
+                    [ '(3105,-2) (1455,-5)',    'ind sub jus indf red def'                                      ],
+                    [ '(3105,-2) (1455,-5)',    '--[ISJ]------[IRD]'                                            ] );
 
-    $r .= $q->p($q->span($q->a({-href => 'index.fcgi?elixir=resolve' . show_param($q, 'code')}, "ElixirFM Resolve")),
-                $q->span($q->a({-href => 'index.fcgi?elixir=inflect' . show_param($q, 'code')}, "ElixirFM Inflect")));
+    if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
+
+        my $idx = rand @example;
+
+        $q->param('text', $example[$idx][1]);
+        $q->param('code', $example[$idx][0]);
+    }
+    else {
+
+	if (defined $q->param('text') and $q->param('text') != /^\s*$/) {
+
+	    $q->param('text', decode "utf8", $q->param('text'));
+	}
+	else {
+
+	    $q->param('text', $example[0][1]);
+	}
+
+	if (defined $q->param('code') and $q->param('code') != /^\s*$/) {
+
+	    $q->param('code', decode "utf8", $q->param('code'));
+	}
+	else {
+
+	    $q->param('code', $example[0][0]);
+	}
+    }
+
+    $r .= display_welcome $c;
+
+    $r .= $q->h2('Your Request');
+
+    $r .= $q->start_form('-method' => 'POST');
+
+    $r .= $q->table( {-border => 0},
+
+                Tr( {-align => 'left'},
+
+                    td( {-colspan => 3, -class => "xtag"},
+
+                        $q->textfield(  -name       =>  'text',
+                                        -default    =>  $q->param('text'),
+                                        -size       =>  60,
+                                        -maxlength  =>  100) ),
+
+                    td( {-colspan => 2, -align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
+
+                        $q->textfield(  -name       =>  'code',
+                                        -default    =>  $q->param('code'),
+                                        -size       =>  30,
+                                        -maxlength  =>  50) ) ),
+
+                Tr( {-align => 'left'},
+
+                    td( {-align => 'left'},     $q->submit( -name   =>  'submit',
+                                                            -value  =>  ucfirst $q->param($c->mode_param()) ) ),
+                    td( {-align => 'center'},   $q->reset('Reset') ),
+                    td( {-align => 'right'},    $q->submit( -name   =>  'submit',
+                                                            -value  =>  'Example') ) ) );
+
+    $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
+
+    $r .= $q->end_form();
+
+    $r .= $q->br();
+
+    $r .= $q->h2('ElixirFM Reply');
+
+    $r .= $q->p("Point the mouse over the data to receive further information.");
+
+
+    my $mode = $q->param($c->mode_param());
+
+    my $text = $q->param('text');
+
+    $text =~ s/(?:masdar|msd)/noun/g;
+    $text =~ s/(?:participle|part)/adj/g;
+
+    $text = join ' ', ElixirFM::retrieve($text);
+
+    open T, '>', "$mode/index.tmp";
+
+    print T encode "utf8", $text;
+
+    close T;
+
+    my @code = $q->param('code') =~ /(\( *-? *[0-9]+ *, *-? *[0-9]+ *\))/g;
+
+    @code = map { my $x = $_; $x =~ s/ +//g; "'" . $x . "'" } @code;
+
+    my $elixir = './elixir';
+
+    tick @tick;
+
+    my $reply = `$elixir $mode @code < $mode/index.tmp`;
+
+    $r .= $q->pre(`echo $mode @code $text`);
+
+    tick @tick;
+
+    $r .= pretty_derive $reply, $q;
+
+    tick @tick;
+
+    my @time = map { timediff $tick[$_->[0]], $tick[$_->[1]] } [3, 0], [2, 1];
+
+    $time[0] = timediff $time[0], $time[1];
+
+    my $time = join "+", map { mytimestr($_) } reverse @time;
+
+    open L, '>>', "$mode/index.log";
+
+    print L join "\t", gmtime() . "", "CPU " . $time, (join " ", @code), ($q->param('fuzzy') ? 'F' : 'A'),
+            ($reply =~ /^\s*$/ ? '--' : '++'), encode "utf8", $q->param('text') . "\n";
+
+    close L;
+
+    $r .= $q->p("Processing time", $time, "seconds.");
+
+    $r .= display_footline $c;
 
     $r .= display_footer $c;
 
