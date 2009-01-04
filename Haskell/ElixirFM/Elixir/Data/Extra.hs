@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Data.Extra
--- Copyright   :  Otakar Smrz 2005-2008
+-- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -28,45 +28,90 @@ lexicon :: Lexicon
 lexicon = listing "Generic lexicon"
 
 
-    |> "l" <| [
+    |> "m r '" <| [
 
-        "li"        `conj`      [ unwords [ "in", "order", "to" ], unwords [ "so", "that" ] ],
-
-        "la"        `part`      [ "indeed", "truly" ]
-
+        "IFCuL"             <::>    "N------[SD]-[IRDA]"
+                                                        <..>    [ "man", "person" ]
+                            <.>     "N------S1[IA]"
+                                                        <:>     "IFCuL" |<< "uN"
+                            <.>     "N------S1[R]"
+                                                        <:>     "IFCuL" |<< "u"
+                            <.>     "N------S2[IA]"
+                                                        <:>     "IFCiL" |<< "iN"
+                            <.>     "N------S2[R]"
+                                                        <:>     "IFCiL" |<< "i"
+                            <.>     "N------S4[IA]"
+                                                        <:>     "IFCaL" |<< "aN"
+                            <.>     "N------S4[R]"
+                                                        <:>     "IFCaL" |<< "a"
+                            <.>     "N------S1D"
+                                                        <:>     al >| "FaCL" |<< "u"
+                            <.>     "N------S2D"
+                                                        <:>     al >| "FaCL" |<< "i"
+                            <.>     "N------S4D"
+                                                        <:>     al >| "FaCL" |<< "a"
+                            <.>     "N------D1[IA]"
+                                                        <:>     "IFCaL" |<< "Ani"
+                            <.>     "N------D[24][IA]"
+                                                        <:>     "IFCaL" |<< "ayni"
+                            <.>     "N------D1D"
+                                                        <:>     al >| "FaCL" |<< "Ani"
+                            <.>     "N------D[24]D"
+                                                        <:>     al >| "FaCL" |<< "ayni"
+                            <.>     "N------D1R"
+                                                        <:>     "IFCaL" |<< "A"
+                            <.>     "N------D[24]R"
+                                                        <:>     "IFCaL" |<< "ay",
+                                                        
+        "IFCaL" |< aT       <::>    "N------[SD]-[IRDA]"
+                                                        <..>    [ "woman" ]
+                            <.>     "N------S1D"
+                                                        <:>     al >| "FaCL" |< aT |<< "u"
+                            <.>     "N------S2D"
+                                                        <:>     al >| "FaCL" |< aT |<< "i"
+                            <.>     "N------S4D"
+                                                        <:>     al >| "FaCL" |< aT |<< "a"
+                            <.>     "N------D1D"
+                                                        <:>     al >| "FaCL" |< aT |<< "Ani"
+                            <.>     "N------D[24]D"
+                                                        <:>     al >| "FaCL" |< aT |<< "ayni"
         ]
 
 
-    |> "' b w" <| [
+    |> "b n m" <| [
 
-        FaC                 `noun`                  [ "father" ]
-                            `plural`    HACA'
-        ]
-
-
-    |> "' _h w" <| [
-
-        FaC                 `noun`                  [ "brother" ]
-                            `plural`    FiCL |< aT
-                            `plural`    FiCLAn
-        ]
-
-
-    |> ".h m w" <| [
-
-        FaC                 `noun`                  [ "father-in-law" ]
-                            `plural`    HaFCA'
-        ]
-
-
-    |> "f w h" <| [
-
-        "f" |<< "U"         <::>    "N------S-R"
-                                                        <..>    [ "mouth" ]
-                            <.>     "N------S2R"
-                                                        <:>     "f" |<< "I"
-                            <.>     "N------S4R"
-                                                        <:>     "f" |<< "A"
+        "IFCuL"             <::>    "N------[SD]-[IRDA]"
+                                                        <..>    [ "son" ]
+                            <.>     "N------S1[IA]"
+                                                        <:>     "IFCuL" |<< "uN"
+                            <.>     "N------S2[IA]"
+                                                        <:>     "IFCiL" |<< "iN"
+                            <.>     "N------S4[IA]"
+                                                        <:>     "IFCaL" |<< "aN"
+                            <.>     "N------S1[R]"
+                                                        <:>     "IFCuL" |<< "u"
+                            <.>     "N------S2[R]"
+                                                        <:>     "IFCiL" |<< "i"
+                            <.>     "N------S4[R]"
+                                                        <:>     "IFCaL" |<< "a"
+                            <.>     "N------S1D"
+                                                        <:>     al >| "IFCuL" |<< "u"
+                            <.>     "N------S2D"
+                                                        <:>     al >| "IFCiL" |<< "i"
+                            <.>     "N------S4D"
+                                                        <:>     al >| "IFCaL" |<< "a"
+                            <.>     "N------D1[IA]"
+                                                        <:>     "IFCaL" |<< "Ani"
+                            <.>     "N------D[24][IA]"
+                                                        <:>     "IFCaL" |<< "ayni"
+                            <.>     "N------D1R"
+                                                        <:>     "IFCaL" |<< "A"
+                            <.>     "N------D[24]R"
+                                                        <:>     "IFCaL" |<< "ay"
+                            <.>     "N------D1D"
+                                                        <:>     al >| "IFCaL" |<< "Ani"
+                            <.>     "N------D[24]D"
+                                                        <:>     al >| "IFCaL" |<< "ayni"
         ]
 
 
@@ -83,23 +128,93 @@ lexicon = listing "Generic lexicon"
         ]
 
 
-    |> "' l h" <| [
+    |> "' b w" <| [
 
-        FiCAL           `noun`                      [ "god", "deity" ]
-                        `plural`    HACiL |< aT,
+        FaC                 `noun`                  [ "father", "ancestor" ]
+                            `plural`    HACA'
 
-        FiCAL |< aT     `noun`                      [ "goddess", unwords [ "female", "deity" ] ]
-                        `plural`    FiCAL |< At,
+                            <.>     "N------D1[IA]"
+                                                        <:>     FaCA |<< "Ani"
+                            <.>     "N------D[24][IA]"
+                                                        <:>     FaCA |<< "ayni"
+                            <.>     "N------D1R"
+                                                        <:>     FaCA |<< "A"
+                            <.>     "N------D[24]R"
+                                                        <:>     FaCA |<< "ay"
+                            <.>     "N------D1D"
+                                                        <:>     al >| FaCA |<< "Ani"
+                            <.>     "N------D[24]D"
+                                                        <:>     al >| FaCA |<< "ayni"
+                            <.>     "N------S1R"
+                                                        <:>     FaC |<< "U"
+                            <.>     "N------S2R"
+                                                        <:>     FaC |<< "I"
+                            <.>     "N------S4R"
+                                                        <:>     FaC |<< "A"
+        ]
 
-        FiCAL |< Iy     `adj`                       [ "divine", "godly", "theological" ],
 
-        FACiL           `noun`                      [ "god" ],
+    |> "' _h w" <| [
 
-        FACiL |< aT     `noun`                      [ "goddess" ]
-                        `plural`    FACiL |< At,
+        FaC                 `noun`                  [ "brother" ]
+                            `plural`    FiCL |< aT
+                            `plural`    FiCLAn
 
-        FACiL |< Iy     `adj`                       [ "divine" ]
+                            <.>     "N------D1[IA]"
+                                                        <:>     FaCA |<< "Ani"
+                            <.>     "N------D[24][IA]"
+                                                        <:>     FaCA |<< "ayni"
+                            <.>     "N------D1R"
+                                                        <:>     FaCA |<< "A"
+                            <.>     "N------D[24]R"
+                                                        <:>     FaCA |<< "ay"
+                            <.>     "N------D1D"
+                                                        <:>     al >| FaCA |<< "Ani"
+                            <.>     "N------D[24]D"
+                                                        <:>     al >| FaCA |<< "ayni"
+                            <.>     "N------S1R"
+                                                        <:>     FaC |<< "U"
+                            <.>     "N------S2R"
+                                                        <:>     FaC |<< "I"
+                            <.>     "N------S4R"
+                                                        <:>     FaC |<< "A"
+        ]
 
+
+    |> ".h m w" <| [
+
+        FaC                 `noun`                  [ "father - in - law" ]
+                            `plural`    HaFCA'
+
+                            <.>     "N------D1[IA]"
+                                                        <:>     FaCA |<< "Ani"
+                            <.>     "N------D[24][IA]"
+                                                        <:>     FaCA |<< "ayni"
+                            <.>     "N------D1R"
+                                                        <:>     FaCA |<< "A"
+                            <.>     "N------D[24]R"
+                                                        <:>     FaCA |<< "ay"
+                            <.>     "N------D1D"
+                                                        <:>     al >| FaCA |<< "Ani"
+                            <.>     "N------D[24]D"
+                                                        <:>     al >| FaCA |<< "ayni"
+                            <.>     "N------S1R"
+                                                        <:>     FaC |<< "U"
+                            <.>     "N------S2R"
+                                                        <:>     FaC |<< "I"
+                            <.>     "N------S4R"
+                                                        <:>     FaC |<< "A"
+        ]
+
+
+    |> "f w h" <| [
+
+        "f" |<< "U"         <::>    "N------S-R"
+                                                        <..>    [ "mouth" ]
+                            <.>     "N------S2R"
+                                                        <:>     "f" |<< "I"
+                            <.>     "N------S4R"
+                                                        <:>     "f" |<< "A"
         ]
 
 
@@ -286,10 +401,10 @@ lexicon = listing "Generic lexicon"
 
         FaCaL |< aT         <::>    "QX--------"
                                                         <..>    [ "ten" ]
-                            `femini` FaCaL,
+                            `femini` FaCL,
 
         FaCaL |< aT         <::>    "QM-----[SP]--"
-                                                        <..>    [ "ten", "tens" ]
+                                                        <..>    [ "ten", "score", "dozen" ]
                             `plural` FaCaL |< At,
 
         FaCaL               <::>    "QY--------"
@@ -394,15 +509,21 @@ lexicon = listing "Generic lexicon"
         ]
 
 
-    |> "m '" <| [
+    |> "m ' y" <| [
 
         "m_I'" |< aT        <::>    "QC--------"
                                                         <..>    [ "hundred" ]
-                            `plural` "m_I'" |< At,
+                            `plural` "m_I'" |< At
+                            `plural` "m_I'" |< Un
+        ]
 
-        "mi'" |< aT         <::>    "QC--------"
+
+    |> "m ' y" <| [
+
+        FiC |< aT           <::>    "QC--------"
                                                         <..>    [ "hundred" ]
-                            `plural` "mi'" |< At
+                            `plural` FiC |< At
+                            `plural` FiC |< Un
         ]
 
 
@@ -415,11 +536,21 @@ lexicon = listing "Generic lexicon"
         ]
 
 
+    |> "l k k" <| [
+
+        FaCL                <::>    "QM--------"
+                                                        <..>    [ "one hundred thousand", "lac" ]
+                            `plural` HaFCAL
+                            `plural` FuCUL
+        ]
+
+
     |> "m l y n" <| [
 
         KiRDUS              <::>    "QM--------"
                                                         <..>    [ "million" ]
                             `plural` KaRADIS
+                            `plural` KiRDUS |< At
         ]
 
 

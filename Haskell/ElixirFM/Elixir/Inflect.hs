@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Inflect
--- Copyright   :  Otakar Smrz 2005-2008
+-- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -20,24 +20,15 @@ module Elixir.Inflect where
 
 import Elixir.System
 
-import Elixir.Derive
-
-import Elixir.Lookup
-
-import FM.Generic.General
-
-import Encode
-import Encode.Arabic
-
 import Elixir.Template
 
 import Elixir.Lexicon
 
-import Data.List (nub)
-
-import Prelude hiding (lookup)
+import Elixir.Derive
 
 import Elixir.Pretty hiding (list)
+
+import Data.List (nub)
 
 
 instance (Show a, Template a) => Pretty [(ParaType, [(Root, Morphs a)])] where
@@ -58,11 +49,6 @@ inflectDerive :: (Morphing a a, Forming a, Rules a, Derive b c, Inflect Lexeme c
 inflectDerive x y = [ inflect w y | (_, z) <- derive x y, (_, w) <- z ]
 
 
-inflectLookup :: (Lookup a, Inflect Lexeme b) => a -> b -> [[Wrap Inflected]]
-
-inflectLookup x y = [ wraps (\ (Nest r n) -> [ Inflected (inflect (Lexeme r e) y) | e <- n ]) w | l <- lookup x, w <- emanate l ]
-
-
 class Inflect m p where
 
     inflect :: (Rules a, Forming a, Morphing a a, Morphing (Morphs a) a) =>
@@ -75,6 +61,11 @@ newtype Inflected a = Inflected [(ParaType, [(Root, Morphs a)])]
 instance Show a => Show (Inflected a) where
 
     show (Inflected x) = show x
+
+
+instance (Show a, Template a) => Pretty (Inflected a) where
+
+    pretty (Inflected x) = pretty x
 
 
 instance Inflect Lexeme a => Inflect Entry a where
@@ -264,7 +255,7 @@ instance Inflect Lexeme TagsNoun where
 
     inflect (Lexeme r e) x | (not . isNoun) (entity e) = []
 
-    inflect (Lexeme r e) (TagsNounS _ _ _ n c s) = [ (y, z) |
+    inflect (Lexeme r e) (TagsNounS _ _ _ n c s) = [ (y, list z q) |
 
             let n' = vals n
                 c' = vals c
@@ -277,6 +268,14 @@ instance Inflect Lexeme TagsNoun where
             s <- s', c <- c',
 
             let y = ParaNoun (NounS n c s),
+
+            let q = [ (r, q)  | let (d, l) = limits e,
+
+                      (d', r') <- l, TagsNoun y <- d',
+
+                      q <- if null (restrict (TagsNounS [] [] [] [n] [c] [s]) y)
+
+                           then [] else r' ],
 
             let z = map (inRules r c s) i ]
 

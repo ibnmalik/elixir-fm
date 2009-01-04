@@ -1026,8 +1026,6 @@ cluster_78  = cluster
 
     FACI                      `adj`     {- <_tAnI> -}          [ ['s','e','c','o','n','d'], ['n','e','x','t'] ],
 
-    FACI |<< "aN"             `adj`     {- <_tAniyaN> -}       [ ['s','e','c','o','n','d','l','y'] ],
-
     FACI |< aT                `noun`    {- <_tAniyaT> -}       [ unwords [ ['s','e','c','o','n','d'], "(", ['t','i','m','e'], ['s','p','a','n'], ")" ] ]
                               `plural`     FawACI,
 

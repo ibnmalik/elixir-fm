@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Derive
--- Copyright   :  Otakar Smrz 2005-2008
+-- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -24,9 +24,9 @@ import Elixir.Template
 
 import Elixir.Lexicon
 
-import Data.List (nub)
-
 import Elixir.Pretty hiding (list)
+
+import Data.List (nub)
 
 
 instance (Show a, Template a) => Pretty [(TagsType, [(Form, Lexeme a)])] where
@@ -39,12 +39,6 @@ instance (Show a, Template a) => Pretty (TagsType, [(Form, Lexeme a)]) where
     pretty (x, y) = pretty x <> (nest 12 . vcat)
 
                     [ encloseText [show u, merge r (morphs e), show r, show (morphs e)] | (u, Lexeme r e) <- y ]
-
-{-
-    pretty (x, y) = nest 4 (pretty x <> line <>
-
-                            vcat [ (fill 5 . pretty) u <> (nest 5 . pretty) v | (u, v) <- y ])
--}
 
 
 class Derive m p where
@@ -59,6 +53,11 @@ newtype Derived a = Derived [(TagsType, [(Form, Lexeme a)])]
 instance Show a => Show (Derived a) where
 
     show (Derived x) = show x
+
+
+instance (Show a, Template a) => Pretty (Derived a) where
+
+    pretty (Derived x) = pretty x
 
 
 instance Derive Lexeme String where
@@ -178,9 +177,6 @@ instance Derive Lexeme String where
               m c f = map (\ m -> Lexeme r (m `f` [])) (l c)
               unmorph (Morphs t p s) = t
 -}
-
-
--- map (map (map (uncurry merge) . snd)) [ inflect x "N------S-I" | x <- derive (Lexeme "^g r b" $ FaCCaL `verb` []) "N" ]
 
 
 lookupForm :: (Eq a, Forming a, Morphing a a) => Root -> Entry a -> [Form]

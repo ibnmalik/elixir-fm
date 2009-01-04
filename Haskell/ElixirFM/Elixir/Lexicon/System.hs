@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Lexicon.System
--- Copyright   :  Otakar Smrz 2005-2008
+-- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -27,7 +27,7 @@ module Elixir.Lexicon.System (
 
         Lexicon, Cluster, Clips, Index, Root, Reflex,
 
-        Entity (..),
+        Entity (..), Limits,
 
         PatternT (..),
         PatternQ (..),
@@ -394,8 +394,9 @@ noun h = Entry m (Noun [] Nothing Nothing Nothing) (TagsNoun d, [])
     where Morphs t p s = morph h
           (m, d) = case s of
                         Suffix "aN" : _ -> (Morphs t p (tail s), [TagsNounS [] [] [] [Singular]
-                                                                 [Accusative] [indefinite]])
-                        _               -> (Morphs t p s, [])
+                                                                            [Accusative] [indefinite]])
+                        _               -> (Morphs t p s, [TagsNounS [] [] [] [] []
+                                                                     [indefinite, construct, definite, absolute]])
 
 adj  h = Entry m (Adj [] [] Nothing)               (TagsAdj  d, [])
 
@@ -424,7 +425,7 @@ zero m = Entry (morph m) Zero (TagsZero [], [])
 grph m = Entry (morph m) Grph (TagsGrph [], [])
 
 
-infixl 3 `verb`, `noun`, `adj`,  `pron`,
+infixl 6 `verb`, `noun`, `adj`,  `pron`,
          `num`,  `adv`,  `prep`, `conj`,
          `part`, `intj`,
          `xtra`, `ynit`, `zero`, `grph`
@@ -504,11 +505,11 @@ plural x y = case entity x of
                 _            -> x
 
 
-infixl 3 `imperf`, `pfirst`, `ithird`, `second`
+infixl 6 `imperf`, `pfirst`, `ithird`, `second`
 
-infixl 3 `masdar`, `plural`, `femini`, `others`
+infixl 6 `masdar`, `plural`, `femini`, `others`
 
-infixl 3 `limited`, `derives`
+infixl 6 `limited`, `derives`
 
 
 others = const

@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Lookup
--- Copyright   :  Otakar Smrz 2005-2008
+-- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -18,15 +18,17 @@
 module Elixir.Lookup where
 
 
-import qualified Data.Map as Map
-
 import Elixir.System
-import Elixir.Derive
 
-import Elixir.Data.Lexicons
+import Elixir.Template
 
 import Elixir.Lexicon
-import Elixir.Template
+
+import Elixir.Derive
+
+import Elixir.Inflect
+
+import Elixir.Data.Lexicons
 
 import Encode
 import Encode.Arabic
@@ -171,3 +173,13 @@ countEntry = sum . map countEach
 
 countEach :: Wrap Nest -> Int
 countEach = length . wraps ents
+
+
+inflectLookup :: (Lookup a, Inflect Lexeme b) => a -> b -> [[Wrap Inflected]]
+
+inflectLookup x y = [ wraps (\ (Nest r n) -> [ Inflected (inflect (Lexeme r e) y) | e <- n ]) w | l <- lookup x, w <- emanate l ]
+
+
+deriveLookup :: (Lookup a, Derive Lexeme b) => a -> b -> [[Wrap Derived]]
+
+deriveLookup x y = [ wraps (\ (Nest r n) -> [ Derived (derive (Lexeme r e) y) | e <- n ]) w | l <- lookup x, w <- emanate l ]

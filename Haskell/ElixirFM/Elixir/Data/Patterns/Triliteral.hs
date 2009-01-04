@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Data.Patterns.Triliteral
--- Copyright   :  Otakar Smrz 2005-2008
+-- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -885,6 +885,8 @@ data PatternT =
         |   FaCALIn
 
         |   FaCALin
+
+        |   HuFCuLAn
 
         |   MaFCaLAn
 

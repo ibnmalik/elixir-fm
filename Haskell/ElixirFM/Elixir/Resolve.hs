@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Resolve
--- Copyright   :  Otakar Smrz 2005-2008
+-- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -18,21 +18,24 @@
 module Elixir.Resolve where
 
 
-import qualified Data.Map as Map
-
 import Elixir.System
-import Elixir.Inflect
-import Elixir.Derive
 
-import Elixir.Data.Lexicons
+import Elixir.Template
 
 import Elixir.Lexicon
-import Elixir.Template
+
+import Elixir.Derive
+
+import Elixir.Inflect
+
+import Elixir.Data.Lexicons
 
 import Elixir.Pretty hiding (group)
 
 import Encode
 import Encode.Arabic
+
+import qualified Data.Map as Map
 
 import Data.List
 

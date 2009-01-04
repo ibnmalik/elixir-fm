@@ -2178,21 +2178,12 @@ cluster_98  = cluster
 
 cluster_99  = cluster
 
- |> "_h m s n" <| [
-
-    KaRDIS                    `noun`    {- <_hamsIn> -}        [ ['f','i','f','t','i','e','s'] ]
-                              `plural`     KaRDIS |< At,
-
-    KaRDIS |< Iy              `noun`    {- <_hamsInIy> -}      [ ['f','i','f','t','i','e','s'], ['f','i','f','t','i','e','t','h'] ] ]
-
  |> "_h m s" <| [
 
     FaCCaL                    `verb`    {- <_hammas> -}        [ unwords [ ['m','u','l','t','i','p','l','y'], ['b','y'], ['f','i','v','e'] ], unwords [ ['m','a','k','e'], ['p','e','n','t','a','g','o','n','a','l'] ], unwords [ ['d','i','v','i','d','e'], ['i','n','t','o'], ['f','i','v','e'], ['p','a','r','t','s'] ] ],
 
     FuCL                      `noun`    {- <_hums> -}          [ ['f','i','f','t','h'] ]
                               `plural`     HaFCAL,
-
-    FaCL                      `adj`     {- <_hams> -}          [ ['f','i','v','e'], ['f','i','f','t','y'] ],
 
     FaCL |< Iy                `adj`     {- <_hamsIy> -}        [ unwords [ ['f','i','v','e'], "-", ['y','e','a','r'] ], unwords [ ['f','i','v','e'], "-", ['p','a','r','t'] ] ],
 
@@ -2213,7 +2204,11 @@ cluster_99  = cluster
 
     FACiL                     `adj`     {- <_hAmis> -}         [ ['f','i','f','t','h'] ],
 
-    MuFaCCaL                  `adj`     {- <mu_hammas> -}      [ unwords [ ['f','i','v','e'], "-", ['p','a','r','t'] ], ['p','e','n','t','a','g','o','n','a','l'], ['f','i','v','e','f','o','l','d'] ] ]
+    MuFaCCaL                  `adj`     {- <mu_hammas> -}      [ unwords [ ['f','i','v','e'], "-", ['p','a','r','t'] ], ['p','e','n','t','a','g','o','n','a','l'], ['f','i','v','e','f','o','l','d'] ],
+
+    FaCL |< In |< At          `noun`    {- <_hamsInAt> -}      [ ['f','i','f','t','i','e','s'] ],
+
+    FaCL |< In |< Iy          `adj`     {- <_hamsInIy> -}      [ ['f','i','f','t','i','e','s'], ['f','i','f','t','i','e','t','h'] ] ]
 
 
 cluster_100 = cluster

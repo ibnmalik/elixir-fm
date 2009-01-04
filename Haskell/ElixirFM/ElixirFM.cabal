@@ -3,7 +3,7 @@ version:            1.1
 license:            GPL
 license-file:       LICENSE
 extra-source-files: INSTALL, Setup.PL
-copyright:          2008
+copyright:          2009
 author:             Otakar Smrz
 maintainer:         otakar.smrz mff.cuni.cz
 homepage:           http://ufal.mff.cuni.cz/~smrz/
