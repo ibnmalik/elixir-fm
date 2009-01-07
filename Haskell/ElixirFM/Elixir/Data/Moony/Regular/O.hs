@@ -2016,10 +2016,10 @@ cluster_96  = cluster
 
     KaRDaS                    `verb`    {- <qar.tas> -}        [ ['w','r','a','p'], ['p','a','c','k','a','g','e'] ],
 
-    KuRDAS                    `noun`    {- <qur.tAs> -}        [ ['p','a','p','e','r'], unwords [ ['s','h','e','e','t'], ['o','f'], ['p','a','p','e','r'] ], unwords [ ['s','h','e','e','t','s'], ['o','f'], ['p','a','p','e','r'] ] ]
+    KuRDAS                    `noun`    {- <qur.tAs> -}        [ ['p','a','p','e','r'], unwords [ ['s','h','e','e','t'], ['o','f'], ['p','a','p','e','r'] ] ]
                               `plural`     KaRADIS,
 
-    KiRDAS                    `noun`    {- <qir.tAs> -}        [ ['p','a','p','e','r'], unwords [ ['s','h','e','e','t'], ['o','f'], ['p','a','p','e','r'] ], unwords [ ['s','h','e','e','t','s'], ['o','f'], ['p','a','p','e','r'] ] ]
+    KiRDAS                    `noun`    {- <qir.tAs> -}        [ ['p','a','p','e','r'], unwords [ ['s','h','e','e','t'], ['o','f'], ['p','a','p','e','r'] ] ]
                               `plural`     KaRADIS,
 
     KuRDAS |< Iy              `adj`     {- <qur.tAsIy> -}      [ ['o','f','f','i','c','e'], ['d','e','s','k'] ],

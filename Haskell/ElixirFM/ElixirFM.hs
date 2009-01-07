@@ -50,9 +50,13 @@ import Elixir.Lookup
 import Elixir.Inflect
 import Elixir.Resolve
 
+import Elixir.Compose
+
 import FM.Generic.General
 
 import Encode.Arabic
+
+import Data.Char
 
 import Data.List hiding (lookup)
 

@@ -132,6 +132,7 @@ wraps f x = case x of WrapT y -> WrapT (f y)
                       WrapL y -> WrapL (f y)
 -}
 
+
 instance Wrapping PatternT  where   wrap             = WrapT
                                     unwrap (WrapT x) = x
 
@@ -351,7 +352,7 @@ adj  h = Entry m (Adj [] [] Nothing)               (TagsAdj  d, [])
 
 pron m = Entry (morph m) Pron                      (TagsPron [TagsPronS], [])
 
-num  m = Entry (morph m) (Num [] [])               (TagsNum  [], [])
+num  m = Entry (morph m) (Num [] [])               (TagsNum  [TagsNumQ], [])
 
 adv  m = Entry (morph m) Adv  (TagsAdv  [], [])
 prep m = Entry (morph m) Prep (TagsPrep [], [])

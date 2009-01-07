@@ -18,24 +18,27 @@
 module Elixir.Compose where
 
 
-import qualified Data.Map as Map
-
 import Prelude hiding (lookup)
 
-import Data.List hiding (lookup)
-
 import Elixir.System hiding (list)
+
+import Elixir.Template
+
+import Elixir.Lexicon
+
 import Elixir.Inflect
+
 import Elixir.Lookup
 
 import Elixir.Data.Lexicons
 
-import Elixir.Lexicon
-import Elixir.Template
-
 import Elixir.Pretty hiding (group)
 
 import Encode.Arabic
+
+import Data.List hiding (lookup)
+
+import qualified Data.Map as Map
 
 
 -- concat [ unwraps (\ (Nest r e) -> [print r, print (map (\ x -> pretty (inflect (r <-> x) (expand (domain x))) ) e) ]) l | l <- take 1 $ drop 3389 lexicon ]

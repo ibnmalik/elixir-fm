@@ -34,9 +34,11 @@ import Elixir.Pretty hiding (group)
 
 import Encode.Arabic
 
-import qualified Data.Map as Map
+import Data.Char
 
 import Data.List
+
+import qualified Data.Map as Map
 
 
 data Token a = Token { lexeme :: (Lexeme a, Index), struct :: (Root, Morphs a), tag :: Tag }

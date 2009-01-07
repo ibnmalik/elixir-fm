@@ -21,12 +21,10 @@ module Main where
 import Prelude hiding (lookup)
 
 import Elixir.Data.Lexicons
-
 import Elixir.Lexicon
-import Elixir.Template
-import Elixir.Pretty hiding (list)
 
 import Elixir.System
+import Elixir.Pretty
 
 import Elixir.Derive
 import Elixir.Lookup
@@ -45,8 +43,8 @@ import System.Console.GetOpt
 import System.IO
 
 import Data.Char
+
 import Data.List hiding (lookup)
-import Data.Version (showVersion)
 
 import Version
 
