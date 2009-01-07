@@ -15,7 +15,11 @@
 -- "ElixirFM"
 
 
-module Elixir.Lexicon.Pretty where
+module Elixir.Lexicon.Pretty (
+
+        module Elixir.Lexicon.Pretty.XML
+
+    ) where
 
 
 import Elixir.Lexicon.Pretty.XML

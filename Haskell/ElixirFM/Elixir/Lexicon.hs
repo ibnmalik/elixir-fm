@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Lexicon
--- Copyright   :  Otakar Smrz 2005-2008
+-- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -16,8 +16,6 @@
 
 
 module Elixir.Lexicon (
-
-        -- * Modules
 
         module Elixir.Lexicon.System,
 
@@ -39,8 +37,6 @@ import Elixir.Lexicon.Pretty
 import Elixir.Data.Patterns
 
 import Elixir.Template
-
--- import English
 
 import Version
 
