@@ -20,6 +20,8 @@ module Elixir.Lexicon.Pretty.Perl where
 
 import Elixir.Lexicon.System
 
+import Elixir.Data.Patterns
+
 import Elixir.Pretty
 
 

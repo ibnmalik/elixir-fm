@@ -144,9 +144,9 @@ cluster_19  = cluster
 
 cluster_20  = cluster
 
- |> ['\'','a','l','u','w','s','t'] <| [
+ |> ['\'','a','l','U','s','t'] <| [
 
-    _____                     `xtra`    {- <'aluwst> -}        [ ['A','a','l','s','t'] ] ]
+    _____                     `xtra`    {- <'alUst> -}         [ ['A','a','l','s','t'] ] ]
 
 
 cluster_21  = cluster

@@ -563,8 +563,9 @@ cluster_33  = cluster
 
     FaCwY                     `noun`    {- <^sarwY> -}         [ ['p','e','e','r'] ],
 
-    FaCY                      `verb`    {- <^sarY> -}          [ ['b','u','y'], ['p','u','r','c','h','a','s','e'], unwords [ ['b','e'], ['b','o','u','g','h','t'] ] ]
-                              `imperf`     FCI,
+    FaCY                      `verb`    {- <^sarY> -}          [ ['b','u','y'], ['p','u','r','c','h','a','s','e'] ]
+                              `imperf`     FCI
+                              `masdar`     FiCA',
 
     IFtaCY                    `verb`    {- <i^starY> -}        [ ['p','u','r','c','h','a','s','e'] ],
 

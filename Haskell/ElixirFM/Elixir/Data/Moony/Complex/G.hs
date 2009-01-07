@@ -923,8 +923,15 @@ cluster_64  = cluster
 
  |> "b y `" <| [
 
+    FIL |< aT                 `noun`    {- <bI`aT> -}          [ ['c','h','u','r','c','h'], ['s','y','n','a','g','o','g','u','e'] ]
+                              `plural`     FIL |< At
+                              `plural`     FiCaL ]
+
+ |> "b y `" <| [
+
     FAL                       `verb`    {- <bA`> -}            [ ['s','e','l','l'] ]
-                              `imperf`     FIL,
+                              `imperf`     FIL
+                              `masdar`     FaCL,
 
     FACaL                     `verb`    {- <bAya`> -}          [ unwords [ ['p','l','e','d','g','e'], ['a','l','l','e','g','i','a','n','c','e'], ['t','o'] ], unwords [ ['r','e','c','o','g','n','i','z','e'], ['a','s'], ['l','e','a','d','e','r'] ], unwords [ ['b','e'], ['r','e','c','o','g','n','i','z','e','d'], ['a','s'], ['l','e','a','d','e','r'] ] ],
 
@@ -955,30 +962,23 @@ cluster_64  = cluster
 
     FA'iL                     `noun`    {- <bA'i`> -}          [ ['v','e','n','d','o','r'], ['m','e','r','c','h','a','n','t'] ]
                               `plural`     FA'iL |< Un
+                              `plural`     FAL |< aT
                            
     `derives` otherwise,
-
-    FAL |< aT                 `noun`    {- <bA`aT> -}          [ ['m','e','r','c','h','a','n','t','s'], ['v','e','n','d','o','r','s'] ],
 
     MaFIL                     `noun`    {- <mabI`> -}          [ ['s','o','l','d'] ]
                               `plural`     MaFIL |< Un
                            
     `derives` otherwise,
 
-    MaFIL |< At               `noun`    {- <mabI`At> -}        [ ['s','a','l','e','s'] ]
-                              `plural`     MaFIL |< At,
+    MaFIL |< At               `noun`    {- <mabI`At> -}        [ ['s','a','l','e','s'] ],
 
-    MuFAL                     `noun`    {- <mubA`> -}          [ ['s','o','l','d'] ]
-                              `plural`     MuFAL |< Un
-                           
-    `derives` otherwise,
+    MuFAL                     `adj`     {- <mubA`> -}          [ ['s','o','l','d'] ],
 
     MuFtAL                    `noun`    {- <mubtA`> -}         [ ['b','u','y','e','r'], ['p','u','r','c','h','a','s','e','r'] ]
                               `plural`     MuFtAL |< Un
                            
-    `derives` otherwise,
-
-    FIL |< aT                 `noun`    {- <bI`aT> -}          [ ['c','h','u','r','c','h'], ['s','y','n','a','g','o','g','u','e'] ] ]
+    `derives` otherwise ]
 
 
 cluster_65  = cluster
