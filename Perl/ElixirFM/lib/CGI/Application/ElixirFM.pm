@@ -89,6 +89,10 @@ sub normalize ($) {
     $text =~ tr[\x{06CC}][\x{064A}];
     $text =~ tr[\x{0640}][]d;
 
+    $text =~ s/aa/A/g;
+    $text =~ s/ii/I/g;
+    $text =~ s/uu/U/g;
+
     return $text;
 }
 
@@ -143,14 +147,32 @@ sub display_welcome ($) {
     my $q = $c->query();
     my $r;
 
-    $r .= $q->p("Welcome to the online demo of the", $q->code($q->param($c->mode_param())), "function of",
+    $r .= $q->p("Welcome to the online interface to",
                 $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/ElixirFM/'}, "ElixirFM") . ", the implementation of",
                 $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/elixir-thesis.pdf'}, "Functional Arabic Morphology"),
-		"written in Haskell and Perl.");
+                "written in Haskell and Perl.");
 
-    $r .= $q->p("ElixirFM can analyze non-tokenized as well as tokenized words, even if you omit some symbols or do not spell everything correctly.");
+    $r .= $q->p("ElixirFM can work in four different modes. The current request executes the",
+                $q->code($q->param($c->mode_param())), "method of the morphological system.");
 
-    $r .= $q->p("You can experiment with entering the text in various notations.");
+    for ($q->param($c->mode_param())) {
+
+        if ($_ eq 'resolve') {
+
+            $r .= $q->p("ElixirFM can analyze non-tokenized as well as tokenized words, even if you omit some symbols or do not spell everything correctly.");
+
+            $r .= $q->p("You can experiment with entering the text in various notations.");
+        }
+        # elsif ($_ eq 'inflect') {
+
+        # }
+        # elsif ($_ eq 'lookup') {
+
+        # }
+        # elsif ($_ eq 'derive') {
+
+        # }
+    }
 
     return $r;
 }
@@ -161,7 +183,7 @@ sub display_footline ($) {
     my $q = $c->query();
     my $r;
 
-    $r .= $q->p("(C) Otakar Smrz 2008-2005, Viktor Bielicky 2008, Tim Buckwalter 2002. GNU General Public License",
+    $r .= $q->p("(C) Otakar Smrz 2009, Viktor Bielicky 2009, Tim Buckwalter 2002. GNU General Public License",
                 $q->a({-href => 'http://www.gnu.org/licenses/'}, "GNU GPL 3") . ".");
 
     $r .= $q->p("ElixirFM is an", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "open-source online"), "project.",
@@ -182,11 +204,11 @@ sub display_footer ($) {
 
     $r .= $q->p({'style' => 'text-align: right;'},
                 '<a href="http://validator.w3.org/check?uri=referer"><img border="0"
-                            src="http://www.w3.org/Icons/valid-xhtml10"
-                            alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>',
+                    src="http://www.w3.org/Icons/valid-xhtml10"
+                    alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>',
                 '<a href="http://jigsaw.w3.org/css-validator/check?uri=referer"><img border="0"
-                            src="http://www.w3.org/Icons/valid-css2"
-                            alt="Valid CSS level 2.1" height="31" width="88" /></a>');
+                    src="http://www.w3.org/Icons/valid-css2"
+                    alt="Valid CSS level 2.1" height="31" width="88" /></a>');
 
     $r .= $q->end_html();
 
@@ -253,23 +275,23 @@ sub pretty_data {
 
     if ($data->{'type'} == 2) {
 
-	$text = join " ", map { my $x = $_; $x = $x eq '<>' ? '???' : substr $x, 1, -1;
+        $text = join " ", map { my $x = $_; $x = $x eq '<>' ? '???' : substr $x, 1, -1;
 
-				join " ", map { decode "zdmg", $_ } split " ", $x } @{$data->{'info'}};
+                                join " ", map { decode "zdmg", $_ } split " ", $x } @{$data->{'info'}};
     }
     else {
 
-	enmode "buckwalter", 'noneplus';
+        enmode "buckwalter", 'noneplus';
 
-	$text = join " .. ", map { my $x = $_; $x = $x eq '<>' ? '???' : substr $x, 1, -1;
+        $text = join " .. ", map { my $x = $_; $x = $x eq '<>' ? '???' : substr $x, 1, -1;
 
-				   join " ", ElixirFM::nub { $_[0] } map {
+                                   join " ", ElixirFM::nub { $_[0] } map {
 
-				       decode "buckwalter", encode "buckwalter",
+                                       decode "buckwalter", encode "buckwalter",
 
-				       decode "arabtex", $_ } grep { $_ ne ".." } split " ", $x } @{$data->{'info'}};
+                                       decode "arabtex", $_ } grep { $_ ne ".." } split " ", $x } @{$data->{'info'}};
 
-	enmode "buckwalter", 'default';
+        enmode "buckwalter", 'default';
     }
 
     return escape $text;
@@ -398,19 +420,19 @@ sub resolve {
     $r .= display_headline $c;
 
     my @example = ( [ 'Unicode',    decode "buckwalter", "AqrO Aldrs AlOwl" ],
-		    [ 'ArabTeX',    "iqra' ad-darsa al-'awwala" ],
-		    [ 'ArabTeX',    "ad-dars al-'awwal" ],
-		    [ 'ArabTeX',    "y`tbru m.d'N" ],
-		    [ 'ArabTeX',    "narY mqhN" ],
-		    [ 'ArabTeX',    ".hayATN ^gyydTN" ],
-		    [ 'Buckwalter', "Aldrs AlOwl" ],
-		    [ 'Buckwalter', "yEtbr mDy}A" ],
-		    [ 'Buckwalter', "narY mqhY" ],
-		    [ 'Buckwalter', "HyApN jydpN" ],
-		    [ 'Unicode',    decode "buckwalter", "Aldrs AlOwl" ],
-		    [ 'Unicode',    decode "buckwalter", "yEtbr mDy}A" ],
-		    [ 'Unicode',    decode "buckwalter", "narY mqhY" ],
-		    [ 'Unicode',    decode "buckwalter", "HyApN jydpN" ] );
+                    [ 'ArabTeX',    "iqra' ad-darsa al-'awwala" ],
+                    [ 'ArabTeX',    "ad-dars al-'awwal" ],
+                    [ 'ArabTeX',    "y`tbru m.d'N" ],
+                    [ 'ArabTeX',    "narY mqhN" ],
+                    [ 'ArabTeX',    ".hayATN ^gyydTN" ],
+                    [ 'Buckwalter', "Aldrs AlOwl" ],
+                    [ 'Buckwalter', "yEtbr mDy}A" ],
+                    [ 'Buckwalter', "narY mqhY" ],
+                    [ 'Buckwalter', "HyApN jydpN" ],
+                    [ 'Unicode',    decode "buckwalter", "Aldrs AlOwl" ],
+                    [ 'Unicode',    decode "buckwalter", "yEtbr mDy}A" ],
+                    [ 'Unicode',    decode "buckwalter", "narY mqhY" ],
+                    [ 'Unicode',    decode "buckwalter", "HyApN jydpN" ] );
 
     if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
 
@@ -419,23 +441,23 @@ sub resolve {
         $q->param('text', $example[$idx][1]);
         $q->param('code', $example[$idx][0]);
 
-	$q->param('fuzzy', rand 1 < 0.5 ? 'Fuzzy Notation' : '');
-	$q->param('token', rand 1 < 0.5 ? 'Tokenized' : '');
+        $q->param('fuzzy', rand 1 < 0.5 ? 'Fuzzy Notation' : '');
+        $q->param('token', rand 1 < 0.5 ? 'Tokenized' : '');
     }
     else {
 
-	if (defined $q->param('text') and $q->param('text') != /^\s*$/) {
+        if (defined $q->param('text') and $q->param('text') != /^\s*$/) {
 
-	    $q->param('text', normalize decode "utf8", $q->param('text'));
-	}
-	else {
+            $q->param('text', normalize decode "utf8", $q->param('text'));
+        }
+        else {
 
-	    $q->param('text', $example[0][1]);
-	    $q->param('code', $example[0][0]);
+            $q->param('text', $example[0][1]);
+            $q->param('code', $example[0][0]);
 
-	    $q->param('fuzzy', '');
-	    $q->param('token', '');
-	}
+            $q->param('fuzzy', '');
+            $q->param('token', '');
+        }
     }
 
     $q->param('fuzzy', '') unless defined $q->param('fuzzy');
@@ -453,10 +475,10 @@ sub resolve {
 
                     td( {-colspan => 3},
 
-                                $q->textfield(  -name       =>  'text',
-                                                -default    =>  $q->param('text'),
-                                                -size       =>  60,
-                                                -maxlength  =>  100) ),
+                        $q->textfield(  -name       =>  'text',
+                                        -default    =>  $q->param('text'),
+                                        -size       =>  60,
+                                        -maxlength  =>  100) ),
 
                     td( {-colspan => 2, -style => "vertical-align: middle; padding-left: 20px", -class =>  'notice'},
 
@@ -479,22 +501,22 @@ sub resolve {
                     td( {-align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
 
                         $q->checkbox_group( -name       =>  'fuzzy',
-                                    -values     =>  [ 'Fuzzy Notation' ],
-                                    -default    =>  [ $q->param('fuzzy') ],
-                                    -title      =>  "less strict resolution of the input",
-                                    -linebreak  =>  0,
-                                    -rows       =>  1,
-                                    -columns    =>  1) ),
+                                            -values     =>  [ 'Fuzzy Notation' ],
+                                            -default    =>  [ $q->param('fuzzy') ],
+                                            -title      =>  "less strict resolution of the input",
+                                            -linebreak  =>  0,
+                                            -rows       =>  1,
+                                            -columns    =>  1) ),
 
                     td( {-align => 'right', -style => "vertical-align: middle; padding-left: 20px"},
 
                         $q->checkbox_group( -name       =>  'token',
-                                    -values     =>  [ 'Tokenized' ],
-                                    -default    =>  [ $q->param('token') ],
-                                    -title      =>  "consider each input word as one token",
-                                    -linebreak  =>  0,
-                                    -rows       =>  1,
-                                    -columns    =>  1) ) ) );
+                                            -values     =>  [ 'Tokenized' ],
+                                            -default    =>  [ $q->param('token') ],
+                                            -title      =>  "consider each input word as one token",
+                                            -linebreak  =>  0,
+                                            -rows       =>  1,
+                                            -columns    =>  1) ) ) );
 
     $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
 
@@ -512,7 +534,7 @@ sub resolve {
 
     my $mode = $q->param($c->mode_param());
 
-    open T, '>', "$mode/index.tmp";
+    open T, '>', "$mode/index.$$.$session.tmp";
 
     print T encode "utf8", $q->param('text');
 
@@ -528,7 +550,7 @@ sub resolve {
 
     tick @tick;
 
-    my $reply = `$elixir $mode $fuzzy $token $code < $mode/index.tmp`;
+    my $reply = `$elixir $mode $fuzzy $token $code < $mode/index.$$.$session.tmp`;
 
     tick @tick;
 
@@ -551,6 +573,8 @@ sub resolve {
                        encode "utf8", $q->param('text') . "\n";
 
     close L;
+
+    unlink "$mode/index.$$.$session.tmp";
 
     $r .= $q->p("Processing time", $time, "seconds.");
 
@@ -590,17 +614,17 @@ sub pretty_inflect_list {
     return $q->Tr( join $",
 
 		   $q->td({-class => "xtag",
-			   -title => ElixirFM::describe($data[0])}, $data[0]),
+                   -title => ElixirFM::describe($data[0])}, $data[0]),
 		   $q->td({-class => "phon",
-			   -title => "inflected form"},             decode "zdmg",    $data[1]),
+                   -title => "inflected form"},             decode "zdmg",    $data[1]),
 		   $q->td({-class => "orth",
-			   -title => "inflected form"},             decode "arabtex", $data[1]),
+                   -title => "inflected form"},             decode "arabtex", $data[1]),
 		   $q->td({-class => "atex",
-			   -title => "inflected form"},             $data[1]),
+                   -title => "inflected form"},             $data[1]),
 		   $q->td({-class => "root",
-			   -title => "root of inflected form"},     $data[2]),
+                   -title => "root of inflected form"},     $data[2]),
 		   $q->td({-class => "morphs",
-			   -title => "morphs of inflected form"},   escape $data[3]) );
+                   -title => "morphs of inflected form"},   escape $data[3]) );
 }
 
 
@@ -638,23 +662,23 @@ sub inflect {
     }
     else {
 
-	if (defined $q->param('text') and $q->param('text') != /^\s*$/) {
+        if (defined $q->param('text') and $q->param('text') != /^\s*$/) {
 
-	    $q->param('text', decode "utf8", $q->param('text'));
-	}
-	else {
+            $q->param('text', decode "utf8", $q->param('text'));
+        }
+        else {
 
-	    $q->param('text', $example[0][1]);
-	}
+            $q->param('text', $example[0][1]);
+        }
 
-	if (defined $q->param('code') and $q->param('code') != /^\s*$/) {
+        if (defined $q->param('code') and $q->param('code') != /^\s*$/) {
 
-	    $q->param('code', decode "utf8", $q->param('code'));
-	}
-	else {
+            $q->param('code', decode "utf8", $q->param('code'));
+        }
+        else {
 
-	    $q->param('code', $example[0][0]);
-	}
+            $q->param('code', $example[0][0]);
+        }
     }
 
     $r .= display_welcome $c;
@@ -704,7 +728,7 @@ sub inflect {
 
     my $text = join ' ', ElixirFM::retrieve($q->param('text'));
 
-    open T, '>', "$mode/index.tmp";
+    open T, '>', "$mode/index.$$.$session.tmp";
 
     print T encode "utf8", $text;
 
@@ -718,7 +742,7 @@ sub inflect {
 
     tick @tick;
 
-    my $reply = `$elixir $mode @code < $mode/index.tmp`;
+    my $reply = `$elixir $mode @code < $mode/index.$$.$session.tmp`;
 
     $r .= $q->pre(`echo $mode @code $text`);
 
@@ -740,6 +764,8 @@ sub inflect {
             ($reply =~ /^\s*$/ ? '--' : '++'), encode "utf8", $q->param('text') . "\n";
 
     close L;
+
+    unlink "$mode/index.$$.$session.tmp";
 
     $r .= $q->p("Processing time", $time, "seconds.");
 
@@ -769,81 +795,12 @@ sub lookup {
 
     $r .= display_headline $c;
 
-    $r .= $q->p("The requested", "'" . $q->param($c->mode_param()) . "'", "mode is not implemented online at the moment.",
-		"You can try out the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "executable"),
-		"or the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "library"), "instead, though.");
+    # $r .= $q->p("The requested", "'" . $q->param($c->mode_param()) . "'", "mode is not implemented online at the moment.",
+                # "You can try out the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "executable"),
+                # "or the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "library"), "instead, though.");
 
-    $r .= $q->p($q->span($q->a({-href => 'index.fcgi?elixir=resolve' . show_param($q, 'code')}, "ElixirFM Resolve")),
-                $q->span($q->a({-href => 'index.fcgi?elixir=inflect' . show_param($q, 'code')}, "ElixirFM Inflect")));
-
-    $r .= display_footer $c;
-
-    return $r;
-}
-
-
-sub pretty_derive ($$) {
-
-    my @word = ElixirFM::unprettyDerive($_[0]);
-
-    my $q = $_[1];
-
-    return $q->table( {-cellspacing => 0},
-
-                      [ map {
-
-                            join $", map { pretty_derive_list($_, $q) } @{$_}
-
-                        } @word ] );
-}
-
-sub pretty_derive_list {
-
-    my @data = @{$_[0]};
-
-    my $q = $_[1];
-
-    return '' unless @data > 1;
-
-    $data[0] = substr $data[0], 1, -1;
-    $data[3] = substr $data[3], 1, -1;
-
-    return $q->Tr( join $",
-
-		   $q->td({-class => "xtag",
-			   -title => ElixirFM::describe($data[0])}, $data[0]),
-		   $q->td({-class => "class",
-			   -title => "derivational class"},       $data[1]),
-		   $q->td({-class => "phon",
-			   -title => "derived form"},             decode "zdmg",    $data[2]),
-		   $q->td({-class => "orth",
-			   -title => "derived form"},             decode "arabtex", $data[2]),
-		   $q->td({-class => "atex",
-			   -title => "derived form"},             $data[2]),
-		   $q->td({-class => "root",
-			   -title => "root of derived form"},     $data[3]),
-		   $q->td({-class => "morphs",
-			   -title => "morphs of derived form"},   escape $data[4]) );
-}
-
-
-sub derive {
-
-    my $c = shift;
-
-    my $q = $c->query();
-
-    my $r = '';
-
-    my @tick = ();
-
-    $q->param($c->mode_param(), 'derive');
-
-    tick @tick;
-
-    $r .= display_header $c;
-
-    $r .= display_headline $c;
+    # $r .= $q->p($q->span($q->a({-href => 'index.fcgi?elixir=resolve' . show_param($q, 'code')}, "ElixirFM Resolve")),
+                # $q->span($q->a({-href => 'index.fcgi?elixir=inflect' . show_param($q, 'code')}, "ElixirFM Inflect")));
 
     my @example = ( [ '(3105,1)',               '[VN]--------- A---------'                                      ],
                     [ '(3105,1)',               'perf act 3rd impa'                                             ],
@@ -861,23 +818,23 @@ sub derive {
     }
     else {
 
-	if (defined $q->param('text') and $q->param('text') != /^\s*$/) {
+        if (defined $q->param('text') and $q->param('text') != /^\s*$/) {
 
-	    $q->param('text', decode "utf8", $q->param('text'));
-	}
-	else {
+            $q->param('text', decode "utf8", $q->param('text'));
+        }
+        else {
 
-	    $q->param('text', $example[0][1]);
-	}
+            $q->param('text', $example[0][1]);
+        }
 
-	if (defined $q->param('code') and $q->param('code') != /^\s*$/) {
+        if (defined $q->param('code') and $q->param('code') != /^\s*$/) {
 
-	    $q->param('code', decode "utf8", $q->param('code'));
-	}
-	else {
+            $q->param('code', decode "utf8", $q->param('code'));
+        }
+        else {
 
-	    $q->param('code', $example[0][0]);
-	}
+            $q->param('code', $example[0][0]);
+        }
     }
 
     $r .= display_welcome $c;
@@ -932,7 +889,7 @@ sub derive {
 
     $text = join ' ', ElixirFM::retrieve($text);
 
-    open T, '>', "$mode/index.tmp";
+    open T, '>', "$mode/index.$$.$session.tmp";
 
     print T encode "utf8", $text;
 
@@ -946,7 +903,7 @@ sub derive {
 
     tick @tick;
 
-    my $reply = `$elixir $mode @code < $mode/index.tmp`;
+    my $reply = `$elixir $mode @code < $mode/index.$$.$session.tmp`;
 
     $r .= $q->pre(`echo $mode @code $text`);
 
@@ -968,6 +925,207 @@ sub derive {
             ($reply =~ /^\s*$/ ? '--' : '++'), encode "utf8", $q->param('text') . "\n";
 
     close L;
+
+    unlink "$mode/index.$$.$session.tmp";
+
+    $r .= $q->p("Processing time", $time, "seconds.");
+
+    $r .= display_footline $c;
+
+    $r .= display_footer $c;
+
+    return $r;
+}
+
+
+sub pretty_derive ($$) {
+
+    my @word = ElixirFM::unprettyDerive($_[0]);
+
+    my $q = $_[1];
+
+    return $q->table( {-cellspacing => 0},
+
+                      [ map {
+
+                            join $", map { pretty_derive_list($_, $q) } @{$_}
+
+                        } @word ] );
+}
+
+sub pretty_derive_list {
+
+    my @data = @{$_[0]};
+
+    my $q = $_[1];
+
+    return '' unless @data > 1;
+
+    $data[0] = substr $data[0], 1, -1;
+    $data[3] = substr $data[3], 1, -1;
+
+    return $q->Tr( join $",
+
+		   $q->td({-class => "xtag",
+                   -title => ElixirFM::describe($data[0])}, $data[0]),
+		   $q->td({-class => "class",
+                   -title => "derivational class"},       $data[1]),
+		   $q->td({-class => "phon",
+                   -title => "derived form"},             decode "zdmg",    $data[2]),
+		   $q->td({-class => "orth",
+                   -title => "derived form"},             decode "arabtex", $data[2]),
+		   $q->td({-class => "atex",
+                   -title => "derived form"},             $data[2]),
+		   $q->td({-class => "root",
+                   -title => "root of derived form"},     $data[3]),
+		   $q->td({-class => "morphs",
+                   -title => "morphs of derived form"},   escape $data[4]) );
+}
+
+
+sub derive {
+
+    my $c = shift;
+
+    my $q = $c->query();
+
+    my $r = '';
+
+    my @tick = ();
+
+    $q->param($c->mode_param(), 'derive');
+
+    tick @tick;
+
+    $r .= display_header $c;
+
+    $r .= display_headline $c;
+
+    my @example = ( [ '(3105,1)',               '[VN]--------- A---------'                                      ],
+                    [ '(3105,1)',               'perf act 3rd impa'                                             ],
+                    [ '(3105,1)',               '-P-A-3---- -C--------'                                         ],
+                    [ '(3105,-2) (1455,-5)',    'indicative subjunctive jussive indefinite reduced definite'    ],
+                    [ '(3105,-2) (1455,-5)',    'ind sub jus indf red def'                                      ],
+                    [ '(3105,-2) (1455,-5)',    '--[ISJ]------[IRD]'                                            ] );
+
+    if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
+
+        my $idx = rand @example;
+
+        $q->param('text', $example[$idx][1]);
+        $q->param('code', $example[$idx][0]);
+    }
+    else {
+
+        if (defined $q->param('text') and $q->param('text') != /^\s*$/) {
+
+            $q->param('text', decode "utf8", $q->param('text'));
+        }
+        else {
+
+            $q->param('text', $example[0][1]);
+        }
+
+        if (defined $q->param('code') and $q->param('code') != /^\s*$/) {
+
+            $q->param('code', decode "utf8", $q->param('code'));
+        }
+        else {
+
+            $q->param('code', $example[0][0]);
+        }
+    }
+
+    $r .= display_welcome $c;
+
+    $r .= $q->h2('Your Request');
+
+    $r .= $q->start_form('-method' => 'POST');
+
+    $r .= $q->table( {-border => 0},
+
+                Tr( {-align => 'left'},
+
+                    td( {-colspan => 3, -class => "xtag"},
+
+                        $q->textfield(  -name       =>  'text',
+                                        -default    =>  $q->param('text'),
+                                        -size       =>  60,
+                                        -maxlength  =>  100) ),
+
+                    td( {-colspan => 2, -align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
+
+                        $q->textfield(  -name       =>  'code',
+                                        -default    =>  $q->param('code'),
+                                        -size       =>  30,
+                                        -maxlength  =>  50) ) ),
+
+                Tr( {-align => 'left'},
+
+                    td( {-align => 'left'},     $q->submit( -name   =>  'submit',
+                                                            -value  =>  ucfirst $q->param($c->mode_param()) ) ),
+                    td( {-align => 'center'},   $q->reset('Reset') ),
+                    td( {-align => 'right'},    $q->submit( -name   =>  'submit',
+                                                            -value  =>  'Example') ) ) );
+
+    $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
+
+    $r .= $q->end_form();
+
+    $r .= $q->br();
+
+    $r .= $q->h2('ElixirFM Reply');
+
+    $r .= $q->p("Point the mouse over the data to receive further information.");
+
+
+    my $mode = $q->param($c->mode_param());
+
+    my $text = $q->param('text');
+
+    $text =~ s/(?:masdar|msd)/noun/g;
+    $text =~ s/(?:participle|part)/adj/g;
+
+    $text = join ' ', ElixirFM::retrieve($text);
+
+    open T, '>', "$mode/index.$$.$session.tmp";
+
+    print T encode "utf8", $text;
+
+    close T;
+
+    my @code = $q->param('code') =~ /(\( *-? *[0-9]+ *, *-? *[0-9]+ *\))/g;
+
+    @code = map { my $x = $_; $x =~ s/ +//g; "'" . $x . "'" } @code;
+
+    my $elixir = './elixir';
+
+    tick @tick;
+
+    my $reply = `$elixir $mode @code < $mode/index.$$.$session.tmp`;
+
+    $r .= $q->pre(`echo $mode @code $text`);
+
+    tick @tick;
+
+    $r .= pretty_derive $reply, $q;
+
+    tick @tick;
+
+    my @time = map { timediff $tick[$_->[0]], $tick[$_->[1]] } [3, 0], [2, 1];
+
+    $time[0] = timediff $time[0], $time[1];
+
+    my $time = join "+", map { mytimestr($_) } reverse @time;
+
+    open L, '>>', "$mode/index.log";
+
+    print L join "\t", gmtime() . "", "CPU " . $time, (join " ", @code), ($q->param('fuzzy') ? 'F' : 'A'),
+            ($reply =~ /^\s*$/ ? '--' : '++'), encode "utf8", $q->param('text') . "\n";
+
+    close L;
+
+    unlink "$mode/index.$$.$session.tmp";
 
     $r .= $q->p("Processing time", $time, "seconds.");
 
