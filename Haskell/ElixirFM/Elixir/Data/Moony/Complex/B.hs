@@ -261,7 +261,7 @@ cluster_23  = cluster
 
  |> "' r .g n" <| [
 
-    KuRDuS                    `noun`    {- <'ur.gun> -}        [ unwords [ ['o','r','g','a','n'], "(", ['m','u','s','i','c'], ")" ], unwords [ ['o','r','g','a','n','s'], "(", ['m','u','s','i','c'], ")" ] ]
+    KuRDuS                    `noun`    {- <'ur.gun> -}        [ unwords [ ['o','r','g','a','n'], "(", ['m','u','s','i','c'], ")" ] ]
                               `plural`     KaRADiS ]
 
 

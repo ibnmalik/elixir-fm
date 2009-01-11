@@ -360,7 +360,7 @@ cluster_50  = cluster
 
  |> ['\'','a','f'] <| [
 
-    _____                     `xtra`    {- <'af> -}            [ ['A','.','F','.'] ] ]
+    _____                     `xtra`    {- <'af> -}            [ unwords [ ['A','.'], ['F','.'] ] ] ]
 
 
 cluster_51  = cluster
@@ -535,9 +535,7 @@ cluster_75  = cluster
 
  |> ['\'','i','k','i','s','t','r','A'] <| [
 
-    _____                     `xtra`    {- <'ikistrA> -}       [ ['e','x','t','r','a'] ],
-
-    _____                     `xtra`    {- <'ikistrA> -}       [ ['E','x','t','r','a'] ] ]
+    _____                     `xtra`    {- <'ikistrA> -}       [ ['e','x','t','r','a'] ] ]
 
 
 cluster_76  = cluster
@@ -586,9 +584,7 @@ cluster_82  = cluster
 
  |> ['\'','i','k','s','i','b','r','I','s'] <| [
 
-    _____                     `xtra`    {- <'iksibrIs> -}      [ ['e','x','p','r','e','s','s'] ],
-
-    _____                     `xtra`    {- <'iksibrIs> -}      [ ['E','x','p','r','e','s','s'] ] ]
+    _____                     `xtra`    {- <'iksibrIs> -}      [ ['e','x','p','r','e','s','s'] ] ]
 
 
 cluster_83  = cluster
@@ -641,9 +637,7 @@ cluster_89  = cluster
 
  |> ['\'','i','l'] <| [
 
-    _____                     `xtra`    {- <'il> -}            [ ['E','l'] ],
-
-    _____                     `xtra`    {- <'il> -}            [ ['I','l'] ] ]
+    _____                     `xtra`    {- <'il> -}            [ ['E','l'], ['I','l'] ] ]
 
 
 cluster_90  = cluster
@@ -718,9 +712,9 @@ cluster_99  = cluster
 
 cluster_100 = cluster
 
- |> ['\'','a','l','A','s','k','A'] <| [
+ |> ['\'','a','l','U','s','t'] <| [
 
-    _____                     `xtra`    {- <'alAskA> -}        [ ['A','l','a','s','k','a'] ] ]
+    _____                     `xtra`    {- <'alUst> -}         [ ['A','a','l','s','t'] ] ]
 
 
 section = [ cluster_1,

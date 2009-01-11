@@ -536,10 +536,18 @@ lexicon = listing "Generic lexicon"
         ]
 
 
+    |> "r b w" <| [
+
+        FiCL |< aT          <::>    "QM--------"
+                                                        <..>    [ "ten thousand", "myriad" ]
+                            `plural` FiCL |< At
+        ]
+
+
     |> "l k k" <| [
 
         FaCL                <::>    "QM--------"
-                                                        <..>    [ "one hundred thousand", "lac" ]
+                                                        <..>    [ "hundred thousand", "lac" ]
                             `plural` HaFCAL
                             `plural` FuCUL
         ]
@@ -554,9 +562,26 @@ lexicon = listing "Generic lexicon"
         ]
 
 
-    |> "m l y r" <| [
+    |> "b l y n" <| [
 
-        KiRDAS              <::>    "QM--------"
+        KiRDUS              <::>    "QM--------"
+                                                        <..>    [ "billion" ]
+                            `plural` KaRADIS
+                            `plural` KiRDUS |< At
+        ]
+
+
+    |> "milyAr" <| [
+
+        _____               <::>    "QM--------"
                                                         <..>    [ "milliard", "billion" ]
-                            `plural` KiRDAS |< At
+                            `plural` _____ |< At
+        ]
+
+
+    |> "trIliyUn" <| [
+
+        _____               <::>    "QM--------"
+                                                        <..>    [ "trillion" ]
+                            `plural` _____ |< At
         ]

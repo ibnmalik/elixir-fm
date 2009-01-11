@@ -21,7 +21,7 @@ cluster_2   = cluster
 
  |> ['t','i','b','i','t'] <| [
 
-    _____                     `noun`    {- <tibit> -}          [ ['T','i','b','e','t'] ],
+    _____                     `xtra`    {- <tibit> -}          [ ['T','i','b','e','t'] ],
 
     _____ |< Iy               `adj`     {- <tibitIy> -}        [ ['T','i','b','e','t','a','n'] ],
 
@@ -680,6 +680,8 @@ cluster_39  = cluster
     FuCL |< Iy                `adj`     {- <turkIy> -}         [ ['T','u','r','k','i','s','h'] ],
 
     FuCL |< Iy                `noun`    {- <turkIy> -}         [ ['T','u','r','k','i','s','h'] ],
+
+    FuCL |< iyA               `noun`    {- <turkiyA> -}        [ ['T','u','r','k','e','y'] ],
 
     TaFCIL                    `noun`    {- <tatrIk> -}         [ ['T','u','r','k','i','f','i','c','a','t','i','o','n'] ]
                               `plural`     TaFCIL |< At ]

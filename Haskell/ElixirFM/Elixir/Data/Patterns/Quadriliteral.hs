@@ -163,32 +163,32 @@ data PatternQ =
 
 --  Form I
 
-            KaRDaS          |   KaRDY
-        |   KuRDiS          |   KuRDI
+            KaRDaS                              |   KaRDY
+        |   KuRDiS          |   KUDiS           |   KuRDI           |   KUDI
 
-        |   KaRDiS          |   KaRDI
-        |   KaRDuS          |   KaRDU
+        |   KaRDiS                              |   KaRDI
+        |   KaRDuS                              |   KaRDU
 
-        |   KiRDaS          |   KiRDY
-        |   KiRDiS          |   KiRDI
+        |   KiRDaS          |   KIDaS           |   KiRDY           |   KIDY
+        |   KiRDiS          |   KIDiS           |   KiRDI           |   KIDI
 
-        |   KuRDaS          |   KuRDY
-        |   KuRDuS          |   KuRDU
+        |   KuRDaS          |   KUDaS           |   KuRDY           |   KUDY
+        |   KuRDuS          |   KUDuS           |   KuRDU           |   KUDU
 
-        |   MuKaRDiS        |   MuKaRDI
-        |   MuKaRDaS        |   MuKaRDY
+        |   MuKaRDiS                            |   MuKaRDI
+        |   MuKaRDaS                            |   MuKaRDY
 
         |   KaRDAS
         |   KaRDIS
         |   KaRDUS
 
-        |   KiRDAS
-        |   KiRDIS
-        |   KiRDUS
+        |   KiRDAS          |   KIDAS
+        |   KiRDIS          |   KIDIS
+        |   KiRDUS          |   KIDUS
 
-        |   KuRDAS
-        |   KuRDIS
-        |   KuRDUS
+        |   KuRDAS          |   KUDAS
+        |   KuRDIS          |   KUDIS
+        |   KuRDUS          |   KUDUS
 
         |   KARDIS
 
@@ -197,11 +197,11 @@ data PatternQ =
 
         |   KayRaDUS
 
-        |   KuRayDiS
+        |   KuRayDiS                            |   KuRayDI
 
-        |   KuRADiS
+        |   KuRADiS                             |   KuRADI    
 
-        |   KaRADiS         |   KaRADI
+        |   KaRADiS                             |   KaRADI
         |   KaRADIS
 
         |   KaRaDSU
@@ -211,38 +211,38 @@ data PatternQ =
 
         |   KaRDaSS
 
-        |   KuRDuSAn
+        |   KuRDuSAn        |   KUDuSAn
 
 --  Form II
 
-        |   TaKaRDaS        |   TaKaRDY
-        |   TuKuRDiS        |   TuKuRDI
+        |   TaKaRDaS                            |   TaKaRDY
+        |   TuKuRDiS                            |   TuKuRDI
 
-        |   TaKaRDuS        |   TaKaRDI
+        |   TaKaRDuS                            |   TaKaRDI
 
-        |   MutaKaRDiS      |   MutaKaRDI
-        |   MutaKaRDaS      |   MutaKaRDY
+        |   MutaKaRDiS                          |   MutaKaRDI
+        |   MutaKaRDaS                          |   MutaKaRDY
 
 --  Form III
 
-        |   IKRanDaS        |   IKRanDY
-        |   UKRunDiS        |   UKRunDI
+        |   IKRanDaS                            |   IKRanDY
+        |   UKRunDiS                            |   UKRunDI
 
-        |   KRanDiS         |   KRanDI
-        |   KRanDaS         |   KRanDY
+        |   KRanDiS                             |   KRanDI
+        |   KRanDaS                             |   KRanDY
 
-        |   IKRinDAS        |   IKRinDA'
+        |   IKRinDAS                            |   IKRinDA'
 
-        |   MuKRanDiS       |   MuKRanDI
-        |   MuKRanDaS       |   MuKRanDY
+        |   MuKRanDiS                           |   MuKRanDI
+        |   MuKRanDaS                           |   MuKRanDY
 
 --  Form IV
 
-        |   IKRaDaSS        |   IKRaDSaS
-        |   UKRuDiSS        |   UKRuDSiS
+        |   IKRaDaSS                                                |   IKRaDSaS
+        |   UKRuDiSS                                                |   UKRuDSiS
 
-        |   KRaDiSS         |   KRaDSiS
-        |   KRaDaSS         |   KRaDSaS
+        |   KRaDiSS                                                 |   KRaDSiS
+        |   KRaDaSS                                                 |   KRaDSaS
 
         |   IKRiDSAS
 

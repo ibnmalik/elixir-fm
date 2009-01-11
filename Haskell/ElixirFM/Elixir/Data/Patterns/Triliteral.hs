@@ -228,7 +228,9 @@ instance Rules PatternT where
                             MaFACiL, MaFA'iL, MaFACL, MawACiL, MayACiL,
                             MaFACIL, MaFA'IL, MawACIL, MayACIL,
                             -- FuCaL, FuCAL,
-                            FiCLiyA', FACULA',
+                            FiCLiyA',
+                            FACiLA',
+                            FACULA',
                             FuCayLA',
                             FaCALIn,
                             FaCLAn,
@@ -773,6 +775,8 @@ data PatternT =
         |   FaCaLAy
 
         |   FuCaLA'
+        
+        |   FACiLA'
         |   FACULA'
 
         |   FiCLA'                      |   FILA'
@@ -923,8 +927,11 @@ data PatternT =
         |   FuCLUL
         |   FiCLIL
 
+                                        |   Fu'LuL
+
         |   FiCaLL
         |   FiCiLL
+        |   FuCuLL
 
         |   FaCALIL
 

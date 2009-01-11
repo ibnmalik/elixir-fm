@@ -94,7 +94,7 @@ cluster_6   = cluster
 
  |> "' s k l" <| [
 
-    KiRDiS |< aT              `noun`    {- <'iskilaT> -}       [ ['s','e','a','p','o','r','t'], unwords [ ['c','o','m','m','e','r','c','i','a','l'], ['h','u','b'], "/", ['c','e','n','t','e','r'] ], unwords [ ['c','o','m','m','e','r','c','i','a','l'], ['h','u','b','s'], "/", ['c','e','n','t','e','r','s'] ] ]
+    KiRDiS |< aT              `noun`    {- <'iskilaT> -}       [ ['s','e','a','p','o','r','t'], unwords [ ['c','o','m','m','e','r','c','i','a','l'], ['h','u','b'], "/", ['c','e','n','t','e','r'] ] ]
                               `plural`     KaRADiS ]
 
 
