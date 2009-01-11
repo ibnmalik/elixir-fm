@@ -672,51 +672,51 @@ cluster_93  = cluster
 
 cluster_94  = cluster
 
- |> ['^','s','I','r','A','k'] <| [
-
-    _____                     `xtra`    {- <^sIrAk> -}         [ ['C','h','i','r','a','c'] ] ]
-
-
-cluster_95  = cluster
-
  |> ['^','s','A','r','U','n'] <| [
 
     _____                     `xtra`    {- <^sArUn> -}         [ ['S','h','a','r','o','n'] ] ]
 
 
-cluster_96  = cluster
+cluster_95  = cluster
 
  |> ['^','s','A','r','b','I','n','.','g'] <| [
 
     _____                     `xtra`    {- <^sArbIn.g> -}      [ ['S','c','h','a','r','p','i','n','g'] ] ]
 
 
-cluster_97  = cluster
+cluster_96  = cluster
 
  |> ['^','s','A','r','l'] <| [
 
     _____                     `xtra`    {- <^sArl> -}          [ ['C','h','a','r','l','e','s'] ] ]
 
 
-cluster_98  = cluster
+cluster_97  = cluster
 
  |> ['^','s','A','s'] <| [
 
     _____                     `xtra`    {- <^sAs> -}           [ ['S','h','a','s'] ] ]
 
 
-cluster_99  = cluster
+cluster_98  = cluster
 
  |> ['^','s','U','s','t','i','r'] <| [
 
     _____                     `xtra`    {- <^sUstir> -}        [ ['S','c','h','u','s','t','e','r'] ] ]
 
 
-cluster_100 = cluster
+cluster_99  = cluster
 
  |> ['^','s','U','s','t','I','k','U','f'] <| [
 
     _____                     `xtra`    {- <^sUstIkUf> -}      [ ['S','h','u','s','t','i','k','o','v'] ] ]
+
+
+cluster_100 = cluster
+
+ |> ['^','s','A','f','I','z'] <| [
+
+    _____                     `xtra`    {- <^sAfIz> -}         [ ['C','h','a','v','e','z'] ] ]
 
 
 section = [ cluster_1,

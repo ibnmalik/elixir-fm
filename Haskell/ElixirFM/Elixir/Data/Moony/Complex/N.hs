@@ -137,33 +137,20 @@ cluster_8   = cluster
 
 cluster_9   = cluster
 
- |> ['k','a','m'] <| [
-
-    _____                     `part`    {- <kam> -}            [ unwords [ ['h','o','w'], ['m','a','n','y'], "/", ['m','u','c','h'] ] ] ]
-
- |> "k m y" <| [
-
-    FaCIL                     `adj`     {- <kamIy> -}          [ ['a','r','m','e','d'], ['b','r','a','v','e'] ]
-                              `plural`     HaFCA'
-                              `plural`     FuCY |< aT ]
-
-
-cluster_10  = cluster
-
  |> "k m '" <| [
 
     FaCL                      `noun`    {- <kam'> -}           [ ['t','r','u','f','f','l','e'], ['m','u','s','h','r','o','o','m'] ]
                               `plural`     HaFCuL ]
 
 
-cluster_11  = cluster
+cluster_10  = cluster
 
  |> ['k','U','m','i','s','y','U','n','^','g'] <| [
 
     _____ |< Iy               `adj`     {- <kUmisyUn^gIy> -}   [ unwords [ ['c','o','m','m','i','s','s','i','o','n'], ['m','e','r','c','h','a','n','t'] ] ] ]
 
 
-cluster_12  = cluster
+cluster_11  = cluster
 
  |> "k m m" <| [
 
@@ -175,7 +162,7 @@ cluster_12  = cluster
 
  |> ['k','a','m'] <| [
 
-    _____                     `noun`    {- <kam> -}            [ unwords [ ['h','o','w'], ['m','a','n','y'], "/", ['m','u','c','h'] ] ] ]
+    _____                     `part`    {- <kam> -}            [ unwords [ ['h','o','w'], ['m','a','n','y'], "/", ['m','u','c','h'] ] ] ]
 
  |> "k m m" <| [
 
@@ -197,6 +184,15 @@ cluster_12  = cluster
 
     FiCAL |< aT               `noun`    {- <kimAmaT> -}        [ ['m','a','s','k'] ]
                               `plural`     FaCA'iL ]
+
+
+cluster_12  = cluster
+
+ |> "k m y" <| [
+
+    FaCIL                     `adj`     {- <kamIy> -}          [ ['a','r','m','e','d'], ['b','r','a','v','e'] ]
+                              `plural`     HaFCA'
+                              `plural`     FuCY |< aT ]
 
 
 cluster_13  = cluster

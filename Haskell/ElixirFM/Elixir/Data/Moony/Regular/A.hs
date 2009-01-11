@@ -1280,7 +1280,7 @@ cluster_86  = cluster
     FaCL |< Iy |< aT          `noun`    {- <bardIyaT> -}       [ ['p','a','p','y','r','u','s'] ]
                               `plural`     FaCL |< Iy |< At,
 
-    FaCL |< Iy                `noun`    {- <bardIy> -}         [ ['p','a','p','y','r','u','s'] ] ]
+    FaCL |< Iy                `adj`     {- <bardIy> -}         [ ['p','a','p','y','r','u','s'] ] ]
 
  |> "b r d" <| [
 
