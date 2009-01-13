@@ -161,17 +161,21 @@ elixirInflect o p = interact (unlines . map (show . q) . map words . onlines)
           i = [ z | x <- p, (y, "") <- readsPrec 0 x, z <- lookupIndex y lexicon ]
 
 
-elixirLookup o p = interact (unlines . map (show . pretty . q) . concat . map words . onlines)
+elixirLookup o p = interact (unlines . map (show . q) . concat . map words . onlines)
 
-    where q = case e of
+    where q = f . case map toLower e of
 
                 "utf"   ->  lookup . decode UTF
 
                 "tim"   ->  lookup . decode Tim
 
-                _       ->  lookup
+                _       ->  if null r then lookup else const r
 
-          e = if null p then "" else map toLower (head p)
+          f x = singleline id [ (text . show) y <> linebreak <> pretty z | y <- x, z <- lookupClips y lexicon ]
+
+          r = [ y | (y, "") <- readsPrec 0 e ] ++ [ (i, Just [j]) | ((i, j), "") <- readsPrec 0 e ]
+
+          e = if null p then "" else head p
 
 
 elixirDerive o p = interact (unlines . map (show . q) . map words . onlines)
