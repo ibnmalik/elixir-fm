@@ -24,7 +24,7 @@ import Elixir.Data.Lexicons
 import Elixir.Lexicon
 
 import Elixir.System
-import Elixir.Pretty
+import Elixir.Pretty hiding (list)
 
 import Elixir.Derive
 import Elixir.Lookup
@@ -158,31 +158,31 @@ elixirInflect o p = interact (unlines . map (show . q) . map words . onlines)
 
     where q x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (inflect (Lexeme r e) x) | e <- z ]) w ]
 
-          i = [ z | x <- p, (y, "") <- readsPrec 0 x, z <- lookupIndex y lexicon ]
+          i = [ z | x <- p, (y, _) <- reads x, z <- lookupIndex y lexicon ]
 
 
-elixirLookup o p = interact (unlines . map (show . q) . concat . map words . onlines)
+elixirLookup o p = interact (unlines . map (show . q) . onlines)
 
-    where q = f . case map toLower e of
+    where q x = (f . flip list c) (if null r then (lookup . words) x
+                                   else case e of
 
-                "utf"   ->  lookup . decode UTF
+                                        "utf"   ->  (lookup . decode UTF . head) r
+                                        "tim"   ->  (lookup . decode Tim . head) r
+                                        _       ->  (lookup . head) r)
 
-                "tim"   ->  lookup . decode Tim
-
-                _       ->  if null r then lookup else const r
-
+                where c = [ y | (y, _) <- reads x ] ++ [ (i, Just [j]) | ((i, j), _) <- reads x ]
+                      r = [ y :: String | (y, _) <- reads x ]
+                
           f x = singleline id [ (text . show) y <> linebreak <> pretty z | y <- x, z <- lookupClips y lexicon ]
 
-          r = [ y | (y, "") <- readsPrec 0 e ] ++ [ (i, Just [j]) | ((i, j), "") <- readsPrec 0 e ]
-
-          e = if null p then "" else head p
+          e = if null p then "" else map toLower (head p)
 
 
 elixirDerive o p = interact (unlines . map (show . q) . map words . onlines)
 
     where q x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (derive (Lexeme r e) x) | e <- z ]) w ]
 
-          i = [ z | x <- p, (y, "") <- readsPrec 0 x, z <- lookupIndex y lexicon ]
+          i = [ z | x <- p, (y, _) <- reads x, z <- lookupIndex y lexicon ]
 
 
 elixirCompose o p = (putDoc . generate e) lexicon
