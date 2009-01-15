@@ -172,7 +172,7 @@ elixirLookup o p = interact (unlines . map (show . q) . onlines)
 
                 where c = [ y | (y, _) <- reads x ] ++ [ (i, Just [j]) | ((i, j), _) <- reads x ]
                       r = [ y :: String | (y, _) <- reads x ]
-                
+
           f x = singleline id [ (text . show) y <> linebreak <> pretty z | y <- x, z <- lookupClips y lexicon ]
 
           e = if null p then "" else map toLower (head p)

@@ -28,6 +28,8 @@ import Elixir.Derive
 
 import Elixir.Inflect
 
+import Elixir.Resolve
+
 import Elixir.Data.Lexicons
 
 import Encode.Arabic
@@ -117,7 +119,11 @@ instance Lookup Clips where
 
 instance Lookup [UPoint] where
 
-    lookupWith y x = lookupUsing y ((x ==) . decode TeX) (\ r e -> x == decode TeX (merge r (morphs e)))
+    lookupWith y [] = lookupWith y ""
+
+    lookupWith y x = lookupUsing y f (\ r e -> f (merge r (morphs e)))
+
+        where f z = isSubsumed (flip alike) approx (recode x) (units z) && x == decode TeX z
 
 
 instance Lookup String where
@@ -130,7 +136,11 @@ type Regex = [String]
 
 instance Lookup Regex where
 
-    lookupWith y x = lookupUsing y (const False) (\ _ e -> any (any (`elem` x) . words) (reflex e))
+    lookupWith y [] = []
+
+    lookupWith y x = lookupUsing y (const False) (\ _ e -> any (flip all x . flip elem . words) (reflex e))
+
+                  -- lookupUsing y (const False) (\ _ e -> any (any (`elem` x) . words) (reflex e))
 
 
 instance Show a => Lookup (Morphs a) where

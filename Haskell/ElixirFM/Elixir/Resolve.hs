@@ -390,7 +390,6 @@ instance Resolve [UPoint] where
 
                                     [ (uncurry merge i, [Token (l, (n, m)) i t]) | (t, h) <- inflect l x, i <- h ] ]
 -}
-
                                     . Map.fromListWith (++))
 
                                     [ (concat d, [Token (l, (n, m)) i t]) | (t, h) <- inflect l x, i <- h,

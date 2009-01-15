@@ -465,7 +465,7 @@ cluster_36  = cluster
     FiyAL                     `noun`    {- <kiyAn> -}          [ ['e','n','t','i','t','y'] ]
                               `plural`     FiyAL |< At,
 
-    FAL                       `verb`    {- <kAn> -}            [ ['w','a','s'], ['w','e','r','e'], ['i','s'], ['a','r','e'] ]
+    FAL                       `verb`    {- <kAn> -}            [ ['b','e'], ['i','s'], ['e','x','i','s','t'] ]
                               `imperf`     FUL,
 
     FaCCaL                    `verb`    {- <kawwan> -}         [ ['c','r','e','a','t','e'] ],

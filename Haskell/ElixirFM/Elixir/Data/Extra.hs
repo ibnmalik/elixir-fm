@@ -123,7 +123,7 @@ lexicon = listing "Generic lexicon"
                                                         <..>    [ "god", "deity" ]
                             `plural`    "'Alih" |< aT,
 
-        "'il_ah" |< Iy      `adj`   [ "divine", "godly", "theological" ]
+        "'il_ah" |< Iy      `adj`                   [ "divine", "godly", "theological" ]
 
         ]
 
@@ -183,7 +183,7 @@ lexicon = listing "Generic lexicon"
 
     |> ".h m w" <| [
 
-        FaC                 `noun`                  [ "father - in - law" ]
+        FaC                 `noun`                  [ unwords [ "father", "-", "in", "-", "law" ] ]
                             `plural`    HaFCA'
 
                             <.>     "N------D1[IA]"
@@ -539,7 +539,7 @@ lexicon = listing "Generic lexicon"
     |> "r b w" <| [
 
         FiCL |< aT          <::>    "QM--------"
-                                                        <..>    [ "ten thousand", "myriad" ]
+                                                        <..>    [ unwords [ "ten", "thousand" ], "myriad" ]
                             `plural` FiCL |< At
         ]
 
@@ -547,7 +547,7 @@ lexicon = listing "Generic lexicon"
     |> "l k k" <| [
 
         FaCL                <::>    "QM--------"
-                                                        <..>    [ "hundred thousand", "lac" ]
+                                                        <..>    [ unwords [ "hundred", "thousand" ], "lac" ]
                             `plural` HaFCAL
                             `plural` FuCUL
         ]
