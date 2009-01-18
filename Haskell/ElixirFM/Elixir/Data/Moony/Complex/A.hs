@@ -110,7 +110,7 @@ cluster_7   = cluster
                               `imperf`     FCuL
                               `imperf`     FCiL,
 
-    FaCCaL                    `verb`    {- <'abbar> -}         [ unwords [ ['p','r','a','c','t','i','c','e'], ['a','c','u','p','u','n','c','t','u','r','e'] ], ['p','o','l','l','i','n','a','t','e'], unwords [ ['b','e'], ['a','c','u','p','u','n','c','t','u','r','e','d'] ] ],
+    FaCCaL                    `verb`    {- <'abbar> -}         [ unwords [ ['p','r','a','c','t','i','c','e'], ['a','c','u','p','u','n','c','t','u','r','e'] ], ['p','o','l','l','i','n','a','t','e'] ],
 
     FiCL |< aT                `noun`    {- <'ibraT> -}         [ ['i','n','d','i','c','a','t','o','r'], ['n','e','e','d','l','e'] ]
                               `plural`     FiCaL,
@@ -788,7 +788,7 @@ cluster_59  = cluster
                               `imperf`     FiCL
                               `pfirst`     FaCaL,
 
-    FaCCaL                    `verb`    {- <'a^g^ga^g> -}      [ ['k','i','n','d','l','e'], ['l','i','g','h','t'], unwords [ ['b','e'], ['l','i','t'] ] ],
+    FaCCaL                    `verb`    {- <'a^g^ga^g> -}      [ ['k','i','n','d','l','e'], ['l','i','g','h','t'] ],
 
     TaFaCCaL                  `verb`    {- <ta'a^g^ga^g> -}    [ unwords [ ['b','l','a','z','e'], ['u','p'] ], unwords [ ['b','e'], ['k','i','n','d','l','e','d'] ] ],
 
@@ -817,7 +817,7 @@ cluster_60  = cluster
                               `imperf`     FCiL
                               `imperf`     FCuL,
 
-    FaCCaL                    `verb`    {- <'a^g^gar> -}       [ ['l','e','a','s','e'], ['l','e','n','d'], unwords [ ['b','e'], ['l','e','n','t'] ] ],
+    FaCCaL                    `verb`    {- <'a^g^gar> -}       [ ['l','e','a','s','e'], ['l','e','n','d'] ],
 
     HACaL                     `verb`    {- <'A^gar> -}         [ ['l','e','n','d'], unwords [ ['h','i','r','e'], ['o','u','t'] ] ],
 
@@ -891,7 +891,7 @@ cluster_61  = cluster
 
  |> ['\'','U','^','g','A','r','I','t'] <| [
 
-    _____                     `noun`    {- <'U^gArIt> -}       [ ['U','g','a','r','i','t'] ],
+    _____                     `xtra`    {- <'U^gArIt> -}       [ ['U','g','a','r','i','t'] ],
 
     _____ |< Iy               `adj`     {- <'U^gArItIy> -}     [ ['U','g','a','r','i','t','i','c'] ],
 

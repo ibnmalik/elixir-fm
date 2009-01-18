@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Data.Patterns.Literal
--- Copyright   :  Otakar Smrz 2005-2008
+-- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -44,9 +44,6 @@ instance Template PatternL where
                        | otherwise          = x
 
 
- -- interlock = (.) concat . const
-
-
 instance Rules PatternL where
 
     isForm I Identity = True
@@ -59,8 +56,6 @@ instance Rules PatternL where
 instance Forming PatternL where
 
     verbStems _ _ = []
-
-    -- [ (Nothing, Identity, Identity, Identity, Identity) ]
 
     nounStems _ _ = []
 

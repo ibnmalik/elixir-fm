@@ -57,14 +57,15 @@ emanate :: Clips -> Lexicon
 emanate = flip lookupClips lexicon
 
 
-lookupUsing :: Maybe [Clips] -> (Root -> Bool) -> (forall c .
+lookupUsing :: Maybe [Clips] -> (Root -> Maybe Bool) -> (forall c .
                   (Wrapping c, Template c, Show c, Rules c, Forming c, Morphing c c) =>
                       Root -> Entry c -> Bool) -> [Clips]
 
 lookupUsing Nothing   p q = [ z | (n, i) <- zip lexicon [1 ..], z <- unwraps (lookups i p q) n ]
 
-    where lookups i p q (Nest r l) | p r       = [(i, Nothing)]
-                                   | otherwise = if null js then [] else [(i, Just js)]
+    where lookups i p q (Nest r l) = case p r of Just True                 -> [(i, Nothing)]
+                                                 Just _    | not (null js) -> [(i, Just js)]
+                                                 _                         -> []
 
                 where js = [ j | (e, j) <- zip l [1 ..], q r e ]
 
@@ -72,8 +73,9 @@ lookupUsing (Just []) _ _ = []
 lookupUsing (Just cs) p q = [ z | (n, i) <- zip lexicon [1 ..], (c, ds) <- cs, i == c,
                                   z <- unwraps (lookups i ds p q) n ]
 
-    where lookups i ds p q (Nest r l) | p r       = [(i, ds)]
-                                      | otherwise = if null js then [] else [(i, Just js)]
+    where lookups i ds p q (Nest r l) = case p r of Just True                 -> [(i, ds)]
+                                                    Just _    | not (null js) -> [(i, Just js)]
+                                                    _                         -> []
 
                 where js = case ds of Nothing -> [ j | (e, j) <- zip l [1 ..], q r e ]
                                       Just d  -> [ j | (e, j) <- zip l [1 ..], j `elem` d, q r e ]
@@ -121,14 +123,25 @@ instance Lookup [UPoint] where
 
     lookupWith y [] = lookupWith y ""
 
-    lookupWith y x = lookupUsing y f (\ r e -> f (merge r (morphs e)))
+    lookupWith y x = lookupUsing y f (\ r e -> q (decode TeX (merge r (morphs e))))
 
-        where f z = isSubsumed (flip alike) approx (recode x) (units z) && x == decode TeX z
+        where f z = if isSubsumed (flip alike) except (reduce z) r then Just (q (decode TeX z))
+                                                                   else Nothing
+              q z = omitting alike omits (units z) u
+
+              r = recode x
+              u = units x
 
 
 instance Lookup String where
 
-    lookupWith y x = lookupUsing y (x ==) (\ r e -> x == merge r (morphs e))
+    lookupWith y x = lookupUsing y f (\ r e -> q (merge r (morphs e)))
+
+        where f z = if isSubsumed (flip alike) except (reduce z) u then Just (q z)
+                                                                   else Nothing
+              q z = omitting alike omits (units z) u
+
+              u = units x
 
 
 type Regex = [String]
@@ -138,18 +151,18 @@ instance Lookup Regex where
 
     lookupWith y [] = []
 
-    lookupWith y x = lookupUsing y (const False) (\ _ e -> any (flip all x . flip elem . words) (reflex e))
+    lookupWith y x = lookupUsing y (Just . const False) (\ _ e -> any (flip all x . flip elem . words) (reflex e))
 
-                  -- lookupUsing y (const False) (\ _ e -> any (any (`elem` x) . words) (reflex e))
+                  -- lookupUsing y (Just . const False) (\ _ e -> any (any (`elem` x) . words) (reflex e))
 
 
 instance Show a => Lookup (Morphs a) where
 
-    lookupWith y x = lookupUsing y (const False) (\ _ e -> z `isInfixOf` (" " ++ show (morphs e) ++ " "))
+    lookupWith y x = lookupUsing y (Just . const False) (\ _ e -> z `isInfixOf` (" " ++ show (morphs e) ++ " "))
 
         where z = " " ++ show x ++ " "
 
-                  -- lookupUsing y (const False) (\ _ e -> show x == show (morphs e))
+                  -- lookupUsing y (Just . const False) (\ _ e -> show x == show (morphs e))
 
 
 instance (Morphing a b, Show b) => Lookup a where
@@ -159,9 +172,9 @@ instance (Morphing a b, Show b) => Lookup a where
 
 instance Lookup Form where
 
-    lookupWith y x = lookupUsing y (const False) (\ r e -> x `elem` lookupForm r e)
+    lookupWith y x = lookupUsing y (Just . const False) (\ r e -> x `elem` lookupForm r e)
 
-                  -- lookupUsing y (const False) (\ _ e -> isForm x (morphs e))
+                  -- lookupUsing y (Just . const False) (\ _ e -> isForm x (morphs e))
 
 
 instance Lookup TagsType where
@@ -171,7 +184,7 @@ instance Lookup TagsType where
 
 instance Lookup [TagsType] where
 
-    lookupWith y x = lookupUsing y (const False) (\ _ e -> (not . null) (restrict (domain e) x))
+    lookupWith y x = lookupUsing y (Just . const False) (\ _ e -> (not . null) (restrict (domain e) x))
 
 
 countNest :: Lexicon -> Int

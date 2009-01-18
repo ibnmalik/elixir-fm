@@ -232,6 +232,7 @@ instance Rules PatternT where
                             FACiLA',
                             FACULA',
                             FuCayLA',
+                            FuCALA',
                             FaCALIn,
                             FaCLAn,
                             FaCALIL,
@@ -912,6 +913,7 @@ data PatternT =
         |   FuCayLin                    |   FuwayLin
 
         |   FuCayLA'
+        |   FuCALA'
 
         |   FaCLY                                       |   FaCwY
         |   FiCLY                       |   FILY

@@ -38,7 +38,7 @@ sub setup {
 
     my $c = shift;
 
-    $c->mode_param('elixir');
+    $c->mode_param('mode');
 
     $c->start_mode('resolve');
     $c->error_mode('resolve');
@@ -136,7 +136,11 @@ sub display_headline ($) {
     my $q = $c->query();
     my $r;
 
-    $r .= $q->h1($q->a({'href'=>'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM 1.1"), ucfirst $q->param($c->mode_param()), 'Online');
+    $r .= $q->h1($q->a({'href' => 'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM 1.1"), ucfirst $q->param($c->mode_param()), 'Online');
+
+    $r .= $q->div({-class => "button"}, 
+                  map { $q->param($c->mode_param()) eq $_ ? ucfirst $_ : $q->a({'href' => 'index.fcgi?mode=' . $_}, ucfirst $_) }
+                      qw 'resolve inflect derive lookup');
 
     return $r;
 }
@@ -152,7 +156,7 @@ sub display_welcome ($) {
                 $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/elixir-thesis.pdf'}, "Functional Arabic Morphology"),
                 "written in Haskell and Perl.");
 
-    $r .= $q->p("ElixirFM can work in four different modes. The current request executes the",
+    $r .= $q->p("ElixirFM can work in four different modes. This request is processed by the",
                 $q->code($q->param($c->mode_param())), "method of the morphological system.");
 
     for ($q->param($c->mode_param())) {
@@ -363,11 +367,11 @@ sub pretty_resolve_tree {
                # $q->Tr(
                        $q->td({-class => "button"},
                               $q->a({-title => "inflect this lexeme",
-                                     -href => 'index.fcgi?elixir=inflect' . '&code=' . $info[0]}, "Inflect"),
+                                     -href => 'index.fcgi?mode=inflect' . '&code=' . $info[0]}, "Inflect"),
                               $q->a({-title => "derive other lexemes",
-                                     -href => 'index.fcgi?elixir=derive' . '&code=' . $info[0]}, "Derive"),
+                                     -href => 'index.fcgi?mode=derive' . '&code=' . $info[0]}, "Derive"),
                               $q->a({-title => "lookup in the lexicon",
-                                     -href => 'index.fcgi?elixir=lookup' . '&code=' . $info[0]}, "Lookup")),
+                                     -href => 'index.fcgi?mode=lookup' . '&code=' . $info[0]}, "Lookup")),
 		    )),
 
 	  $q->ul($q->li($q->table({-cellspacing => 0},
@@ -777,6 +781,15 @@ sub inflect {
 }
 
 
+sub pretty_lookup ($$) {
+
+  # my @word = ElixirFM::unprettyLookup($_[0]);
+
+    my $q = $_[1];
+
+    return $q->pre(escape $_[0]);
+}
+
 sub lookup {
 
     my $c = shift;
@@ -795,19 +808,20 @@ sub lookup {
 
     $r .= display_headline $c;
 
-    # $r .= $q->p("The requested", "'" . $q->param($c->mode_param()) . "'", "mode is not implemented online at the moment.",
-                # "You can try out the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "executable"),
-                # "or the", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "library"), "instead, though.");
-
-    # $r .= $q->p($q->span($q->a({-href => 'index.fcgi?elixir=resolve' . show_param($q, 'code')}, "ElixirFM Resolve")),
-                # $q->span($q->a({-href => 'index.fcgi?elixir=inflect' . show_param($q, 'code')}, "ElixirFM Inflect")));
-
-    my @example = ( [ '(3105,1)',               '[VN]--------- A---------'                                      ],
-                    [ '(3105,1)',               'perf act 3rd impa'                                             ],
-                    [ '(3105,1)',               '-P-A-3---- -C--------'                                         ],
-                    [ '(3105,-2) (1455,-5)',    'indicative subjunctive jussive indefinite reduced definite'    ],
-                    [ '(3105,-2) (1455,-5)',    'ind sub jus indf red def'                                      ],
-                    [ '(3105,-2) (1455,-5)',    '--[ISJ]------[IRD]'                                            ] );
+    my @example = ( [ 'Unicode',    decode "buckwalter", "AqrO Aldrs AlOwl" ],
+                    [ 'ArabTeX',    "iqra' ad-darsa al-'awwala" ],
+                    [ 'ArabTeX',    "ad-dars al-'awwal" ],
+                    [ 'ArabTeX',    "y`tbru m.d'N" ],
+                    [ 'ArabTeX',    "narY mqhN" ],
+                    [ 'ArabTeX',    ".hayATN ^gyydTN" ],
+                    [ 'Buckwalter', "Aldrs AlOwl" ],
+                    [ 'Buckwalter', "yEtbr mDy}A" ],
+                    [ 'Buckwalter', "narY mqhY" ],
+                    [ 'Buckwalter', "HyApN jydpN" ],
+                    [ 'Unicode',    decode "buckwalter", "Aldrs AlOwl" ],
+                    [ 'Unicode',    decode "buckwalter", "yEtbr mDy}A" ],
+                    [ 'Unicode',    decode "buckwalter", "narY mqhY" ],
+                    [ 'Unicode',    decode "buckwalter", "HyApN jydpN" ] );
 
     if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
 
@@ -815,27 +829,28 @@ sub lookup {
 
         $q->param('text', $example[$idx][1]);
         $q->param('code', $example[$idx][0]);
+
+        $q->param('fuzzy', rand 1 < 0.5 ? 'Fuzzy Notation' : '');
+        $q->param('token', rand 1 < 0.5 ? 'Tokenized' : '');
     }
     else {
 
         if (defined $q->param('text') and $q->param('text') != /^\s*$/) {
 
-            $q->param('text', decode "utf8", $q->param('text'));
+            $q->param('text', normalize decode "utf8", $q->param('text'));
         }
         else {
 
             $q->param('text', $example[0][1]);
-        }
-
-        if (defined $q->param('code') and $q->param('code') != /^\s*$/) {
-
-            $q->param('code', decode "utf8", $q->param('code'));
-        }
-        else {
-
             $q->param('code', $example[0][0]);
+
+            $q->param('fuzzy', '');
+            $q->param('token', '');
         }
     }
+
+    $q->param('fuzzy', '') unless defined $q->param('fuzzy');
+    $q->param('token', '') unless defined $q->param('token');
 
     $r .= display_welcome $c;
 
@@ -847,27 +862,50 @@ sub lookup {
 
                 Tr( {-align => 'left'},
 
-                    td( {-colspan => 3, -class => "xtag"},
+                    td( {-colspan => 3},
 
                         $q->textfield(  -name       =>  'text',
                                         -default    =>  $q->param('text'),
                                         -size       =>  60,
                                         -maxlength  =>  100) ),
 
-                    td( {-colspan => 2, -align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
+                    td( {-colspan => 2, -style => "vertical-align: middle; padding-left: 20px", -class =>  'notice'},
 
-                        $q->textfield(  -name       =>  'code',
+                        $q->radio_group(-name       =>  'code',
+                                        -values     =>  [ @enc_list ],
                                         -default    =>  $q->param('code'),
-                                        -size       =>  30,
-                                        -maxlength  =>  50) ) ),
+                                        -attributes =>  { 'ArabTeX'    => {-title => "internal phonology-oriented notation"},
+                                                          'Buckwalter' => {-title => "letter-by-letter romanization"},
+                                                          'Unicode'    => {-title => "original script and orthography"} },
+                                        -linebreak  =>  0,
+                                        -rows       =>  1,
+                                        -columns    =>  scalar @enc_list) ) ),
 
                 Tr( {-align => 'left'},
 
-                    td( {-align => 'left'},     $q->submit( -name   =>  'submit',
-                                                            -value  =>  ucfirst $q->param($c->mode_param()) ) ),
-                    td( {-align => 'center'},   $q->reset('Reset') ),
-                    td( {-align => 'right'},    $q->submit( -name   =>  'submit',
-                                                            -value  =>  'Example') ) ) );
+                    td({-align => 'left'},   $q->submit(-name => 'submit', -value => ucfirst $q->param($c->mode_param()))),
+                    td({-align => 'center'}, $q->reset('Reset')),
+                    td({-align => 'right'},  $q->submit(-name => 'submit', -value => 'Example')),
+
+                    td( {-align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
+
+                        $q->checkbox_group( -name       =>  'fuzzy',
+                                            -values     =>  [ 'Fuzzy Notation' ],
+                                            -default    =>  [ $q->param('fuzzy') ],
+                                            -title      =>  "less strict resolution of the input",
+                                            -linebreak  =>  0,
+                                            -rows       =>  1,
+                                            -columns    =>  1) ),
+
+                    td( {-align => 'right', -style => "vertical-align: middle; padding-left: 20px"},
+
+                        $q->checkbox_group( -name       =>  'token',
+                                            -values     =>  [ 'Tokenized' ],
+                                            -default    =>  [ $q->param('token') ],
+                                            -title      =>  "consider each input word as one token",
+                                            -linebreak  =>  0,
+                                            -rows       =>  1,
+                                            -columns    =>  1) ) ) );
 
     $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
 
@@ -877,39 +915,33 @@ sub lookup {
 
     $r .= $q->h2('ElixirFM Reply');
 
-    $r .= $q->p("Point the mouse over the data to receive further information.");
+    $r .= $q->p({-class => 'notice'}, "Click on the items in the list of solutions below in order to display or hide their contents.");
 
+    $r .= $q->p("Point the mouse over the data to receive further information.");
 
     my $mode = $q->param($c->mode_param());
 
-    my $text = $q->param('text');
-
-    $text =~ s/(?:masdar|msd)/noun/g;
-    $text =~ s/(?:participle|part)/adj/g;
-
-    $text = join ' ', ElixirFM::retrieve($text);
-
     open T, '>', "$mode/index.$$.$session.tmp";
 
-    print T encode "utf8", $text;
+    print T encode "utf8", $q->param('text');
 
     close T;
 
-    my @code = $q->param('code') =~ /(\( *-? *[0-9]+ *, *-? *[0-9]+ *\))/g;
-
-    @code = map { my $x = $_; $x =~ s/ +//g; "'" . $x . "'" } @code;
+    my $code = exists $enc_hash{$q->param('code')} ? $enc_hash{$q->param('code')} : 'TeX';
 
     my $elixir = './elixir';
 
-    tick @tick;
+    my $fuzzy = $q->param('fuzzy') ? '--fuzzy' : '';
 
-    my $reply = `$elixir $mode @code < $mode/index.$$.$session.tmp`;
-
-    $r .= $q->pre(`echo $mode @code $text`);
+    my $token = $q->param('token') ? '--token' : '';
 
     tick @tick;
 
-    $r .= pretty_derive $reply, $q;
+    my $reply = `$elixir $mode $fuzzy $token $code < $mode/index.$$.$session.tmp`;
+
+    tick @tick;
+
+    $r .= pretty_lookup $reply, $q;
 
     tick @tick;
 
@@ -921,8 +953,11 @@ sub lookup {
 
     open L, '>>', "$mode/index.log";
 
-    print L join "\t", gmtime() . "", "CPU " . $time, (join " ", @code), ($q->param('fuzzy') ? 'F' : 'A'),
-            ($reply =~ /^\s*$/ ? '--' : '++'), encode "utf8", $q->param('text') . "\n";
+    print L join "\t", gmtime() . "", "CPU " . $time, $code,
+                       ($q->param('fuzzy') ? 'F' : 'A'),
+                       ($q->param('token') ? 'T' : 'N'),
+                       ($reply =~ /^\s*$/ ? '--' : '++'),
+                       encode "utf8", $q->param('text') . "\n";
 
     close L;
 

@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Data.Patterns.Quadriliteral
--- Copyright   :  Otakar Smrz 2005-2008
+-- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -199,7 +199,7 @@ data PatternQ =
 
         |   KuRayDiS                            |   KuRayDI
 
-        |   KuRADiS                             |   KuRADI    
+        |   KuRADiS                             |   KuRADI
 
         |   KaRADiS                             |   KaRADI
         |   KaRADIS

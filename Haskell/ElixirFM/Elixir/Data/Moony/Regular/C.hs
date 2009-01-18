@@ -1176,7 +1176,7 @@ cluster_74  = cluster
     FaCaL                     `verb`    {- <bakar> -}          [ unwords [ ['r','i','s','e'], ['e','a','r','l','y'] ] ]
                               `imperf`     FCuL,
 
-    FaCCaL                    `verb`    {- <bakkar> -}         [ unwords [ ['d','o'], ['e','a','r','l','y'] ], unwords [ ['b','e'], ['d','o','n','e'], ['e','a','r','l','y'] ] ],
+    FaCCaL                    `verb`    {- <bakkar> -}         [ unwords [ ['d','o'], ['e','a','r','l','y'] ] ],
 
     FACaL                     `verb`    {- <bAkar> -}          [ ['a','n','t','i','c','i','p','a','t','e'], ['f','o','r','e','s','t','a','l','l'] ],
 

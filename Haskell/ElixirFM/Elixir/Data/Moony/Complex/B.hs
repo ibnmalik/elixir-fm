@@ -317,7 +317,7 @@ cluster_26  = cluster
     FaCaL                     `verb`    {- <'aram> -}          [ ['b','i','t','e'] ]
                               `imperf`     FCiL,
 
-    FaCCaL                    `verb`    {- <'arram> -}         [ unwords [ ['m','a','r','k'], ['o','u','t'] ], unwords [ ['b','e'], ['m','a','r','k','e','d'], ['o','u','t'] ] ],
+    FaCCaL                    `verb`    {- <'arram> -}         [ unwords [ ['m','a','r','k'], ['o','u','t'] ] ],
 
     FiCaL                     `noun`    {- <'iram> -}          [ ['b','o','u','l','d','e','r'], ['m','i','l','e','s','t','o','n','e'] ]
                               `plural`     HACAL,
@@ -337,10 +337,6 @@ cluster_27  = cluster
     _____                     `noun`    {- <'IrAn> -}          [ ['I','r','a','n'] ],
 
     _____ |< Iy               `adj`     {- <'IrAnIy> -}        [ ['I','r','a','n','i','a','n'] ] ]
-
- |> "' y r" <| [
-
-    FaCCAL                    `noun`    {- <'ayyAr> -}         [ ['M','a','y'] ] ]
 
 
 cluster_28  = cluster

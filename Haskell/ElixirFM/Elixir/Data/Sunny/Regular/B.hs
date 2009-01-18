@@ -232,7 +232,7 @@ cluster_29  = cluster
 
  |> ['t','^','s','I','k'] <| [
 
-    _____ |< iyA              `noun`    {- <t^sIkiyA> -}       [ ['C','z','e','c','h','i','a'] ],
+    _____ |< iyA              `xtra`    {- <t^sIkiyA> -}       [ ['C','z','e','c','h','i','a'] ],
 
     _____ |< Iy               `adj`     {- <t^sIkIy> -}        [ ['C','z','e','c','h'] ]
                               `plural`     _____,
@@ -247,7 +247,7 @@ cluster_30  = cluster
 
  |> ['t','^','s','I','k','U','s','l','U','f','A','k'] <| [
 
-    _____ |< iyA              `noun`    {- <t^sIkUslUfAkiyA> -} [ ['C','z','e','c','h','o','s','l','o','v','a','k','i','a'] ],
+    _____ |< iyA              `xtra`    {- <t^sIkUslUfAkiyA> -} [ ['C','z','e','c','h','o','s','l','o','v','a','k','i','a'] ],
 
     _____ |< Iy               `adj`     {- <t^sIkUslUfAkIy> -} [ ['C','z','e','c','h','o','s','l','o','v','a','k'] ]
                               `plural`     _____,
@@ -720,6 +720,8 @@ cluster_57  = cluster
 cluster_58  = cluster
 
  |> "_t l _t" <| [
+
+    FuCALA'                   `noun`    {- <_tulA_tA'> -}      [ ['T','u','e','s','d','a','y'] ],
 
     FaCCaL                    `verb`    {- <_talla_t> -}       [ ['t','r','i','p','l','e'], ['t','r','e','b','l','e'] ],
 

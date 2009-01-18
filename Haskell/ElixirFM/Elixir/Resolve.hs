@@ -601,10 +601,13 @@ omitting :: Eq a => (a -> a -> Bool) -> ([a], [a]) -> [a] -> [a] -> Bool
 
 omitting _ _ []      []      = True
 
-omitting e c i@(k:l) o@(q:r) | k `e` q        = omitting e c l r
-                             | k `elem` fst c = omitting e c l o
-                             | q `elem` snd c = omitting e c i r
-                             | otherwise      = False
+omitting e c i@(k:l) o@(q:r) | k `e` q      = omitting e c l r
+                             | k' && not q' = omitting e c l o
+                             | q' && not k' = omitting e c i r
+                             | otherwise    = False
+
+    where k' = k `elem` fst c
+          q' = q `elem` snd c
 
 omitting e c (k:l) []        | k `elem` fst c = omitting e c l []
                              | otherwise      = False
@@ -658,12 +661,12 @@ class Eq a => Fuzzy a where
 
 skips :: [String]
 
-skips = ["'", "w", "y"]                                                                         -- ["`", "q"]
+skips = ["'", "w", "y"]                                                                                 -- ["`", "q"]
 
 
 instance Fuzzy String where
 
-    omits = (["a", "i", "u", "A", "I", "U", "Y", "-", "N", "W", "|", "_a", "_I", "_U"], ["|"])  -- ["'", "`", "q", "T"]
+    omits = (["a", "i", "u", "A", "I", "U", "Y", "-", "N", "W", "|", "_a", "_I", "_U"], ["|", "\""])    -- ["'", "`", "q", "T"]
 
     units = letters
 

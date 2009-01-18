@@ -953,7 +953,7 @@ cluster_69  = cluster
 
     HaFCaL                    `verb`    {- <'asbat> -}         [ unwords [ ['r','e','s','t'], ['o','n'], ['t','h','e'], ['S','a','b','b','a','t','h'] ], ['s','l','u','m','b','e','r'] ],
 
-    FaCL                      `noun`    {- <sabt> -}           [ ['S','a','t','u','r','d','a','y'], ['S','a','b','b','a','t','h','s'] ]
+    FaCL                      `noun`    {- <sabt> -}           [ ['S','a','t','u','r','d','a','y'], ['S','a','b','b','a','t','h'] ]
                               `plural`     FuCUL,
 
     FaCL |< Iy                `adj`     {- <sabtIy> -}         [ ['S','a','b','b','a','t','a','r','i','a','n'] ],
