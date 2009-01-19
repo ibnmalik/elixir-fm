@@ -395,6 +395,45 @@ sub unprettyInflect {
     } @data;
 }
 
+sub unprettyLookup {
+
+    my @data = split /(?:(?<=\n)\n|(?<=^)\n)/, $_[0];
+
+    return map {
+
+        my @data = split /\s*<\/Nest>\s*/, $_;
+
+        [
+            map {
+
+                my ($data, @node) = split /\s*<Nest>\s*/, $_;
+
+                {
+                    'data'  =>  $data,
+
+                    'node'  =>  [
+
+                            map {
+
+                                my ($root) = /<root>(.*?)<\/root>/;
+
+                                my @ents = /<Entry>(.*?)<\/Entry>/gs;
+
+                                {
+                                    'root'  =>  $root,
+                                    'ents'  =>  [ @ents ],
+                                }
+
+                            } @node
+                        ],
+                }
+
+            } @data
+        ]
+
+    } @data;
+}
+
 sub unprettyDerive {
 
     my @data = split /(?:(?<=\n)\n|(?<=^)\n)/, $_[0];

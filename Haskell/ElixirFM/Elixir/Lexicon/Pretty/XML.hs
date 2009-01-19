@@ -29,7 +29,7 @@ import Elixir.Pretty
 import Elixir.Data.Patterns
 
 
-instance Pretty (Wrap Nest) => Pretty Lexicon where
+instance Pretty (Wrap Nest) => Pretty [Lexicon] where
 
     pretty xs = text "<?xml version=\"1.0\" encoding=\"utf-8\"?>"
                 <$$> empty <$$>
@@ -61,28 +61,6 @@ attrs y = foldl (</>) empty [ text a <> equals <> dquotes (text (escaqe v)) | (a
 nested c = nest 1 (linebreak <> c) <> linebreak
 
 
-{-
-instance Pretty (Wrap Nest) => Pretty Cluster where
-
-    pretty = element "Cluster" [] . vcat . map pretty
--}
-
-
-instance (Pretty (Entry PatternT), Pretty (Entry PatternQ),
-          Pretty (Entry String),   Pretty (Entry PatternL)) =>
-          Pretty (Wrap Nest) where
-
-    pretty (WrapL (Nest r l)) = prettyNest' r l "Nest"
-    pretty (WrapT (Nest r l)) = prettyNest' r l "Nest"
-    pretty (WrapQ (Nest r l)) = prettyNest' r l "Nest"
-    pretty (WrapS (Nest r l)) = prettyNest' r l "Nest"
-
-prettyNest' r l t = (element "Cluster" [] . element t [])
-                    (elemtxt "root" [] (text r)
-                     <$$>
-                     element "ents" [] (pretty l))
-
-
 escape :: String -> String
 escape = concatMap fixChar
     where fixChar '<' = "&lt;"
@@ -102,6 +80,30 @@ escaqe = concatMap fixChar
           fixChar c = [c]
 
 -- original is Text.XHtml.Internals.stringToHtmlString
+
+
+instance Pretty (Wrap Nest) => Pretty Cluster where
+
+    pretty = element "Cluster" [] . vcat . map pretty
+
+
+instance (Pretty (Nest PatternT), Pretty (Nest PatternQ),
+          Pretty (Nest String),   Pretty (Nest PatternL)) =>
+          Pretty (Wrap Nest) where
+
+    pretty (WrapL x) = pretty x
+    pretty (WrapT x) = pretty x
+    pretty (WrapQ x) = pretty x
+    pretty (WrapS x) = pretty x
+
+
+instance (Show a, Pretty (Entry a)) => Pretty (Nest a) where
+
+    pretty (Nest r l) = element "Nest" [] (elemtxt "root" [] (text r)
+                                           <$$>
+                                           element "ents" [] (pretty l))
+
+    prettyList = vcat . map pretty
 
 
 instance (Show a, Pretty (Entity a)) => Pretty (Entry a) where

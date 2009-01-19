@@ -138,8 +138,8 @@ sub display_headline ($) {
 
     $r .= $q->h1($q->a({'href' => 'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM 1.1"), ucfirst $q->param($c->mode_param()), 'Online');
 
-    $r .= $q->div({-class => "button"}, 
-                  map { $q->param($c->mode_param()) eq $_ ? ucfirst $_ : $q->a({'href' => 'index.fcgi?mode=' . $_}, ucfirst $_) }
+    $r .= $q->div({-class => "menu"},
+                  map { $q->param($c->mode_param()) eq $_ ? $q->span(ucfirst $_) : $q->a({'href' => 'index.fcgi?mode=' . $_}, ucfirst $_) }
                       qw 'resolve inflect derive lookup');
 
     return $r;
@@ -159,25 +159,6 @@ sub display_welcome ($) {
     $r .= $q->p("ElixirFM can work in four different modes. This request is processed by the",
                 $q->code($q->param($c->mode_param())), "method of the morphological system.");
 
-    for ($q->param($c->mode_param())) {
-
-        if ($_ eq 'resolve') {
-
-            $r .= $q->p("ElixirFM can analyze non-tokenized as well as tokenized words, even if you omit some symbols or do not spell everything correctly.");
-
-            $r .= $q->p("You can experiment with entering the text in various notations.");
-        }
-        # elsif ($_ eq 'inflect') {
-
-        # }
-        # elsif ($_ eq 'lookup') {
-
-        # }
-        # elsif ($_ eq 'derive') {
-
-        # }
-    }
-
     return $r;
 }
 
@@ -187,7 +168,8 @@ sub display_footline ($) {
     my $q = $c->query();
     my $r;
 
-    $r .= $q->p("(C) Otakar Smrz 2009, Viktor Bielicky 2009, Tim Buckwalter 2002. GNU General Public License",
+    $r .= $q->p({'style' => 'margin-top: 30px'},
+                "(C) Otakar Smrz 2009, Viktor Bielicky 2009, Tim Buckwalter 2002. GNU General Public License",
                 $q->a({-href => 'http://www.gnu.org/licenses/'}, "GNU GPL 3") . ".");
 
     $r .= $q->p("ElixirFM is an", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "open-source online"), "project.",
@@ -200,19 +182,30 @@ sub display_footline ($) {
     return $r;
 }
 
-sub display_footer ($) {
+sub display_footer ($$) {
 
     my $c = shift;
+    my $t = shift;
     my $q = $c->query();
     my $r;
 
-    $r .= $q->p({'style' => 'text-align: right;'},
-                '<a href="http://validator.w3.org/check?uri=referer"><img border="0"
-                    src="http://www.w3.org/Icons/valid-xhtml10"
-                    alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>',
-                '<a href="http://jigsaw.w3.org/css-validator/check?uri=referer"><img border="0"
-                    src="http://www.w3.org/Icons/valid-css2"
-                    alt="Valid CSS level 2.1" height="31" width="88" /></a>');
+    $r .= $q->p({'style' => 'color: white; height: 31px'},
+
+                $q->a({'style' => 'float: right',
+                       'href'  => "http://jigsaw.w3.org/css-validator/check?uri=referer"},
+                      $q->img({'border' => "0",
+                               'src' => "http://www.w3.org/Icons/valid-css2",
+                               'alt' => "Valid CSS level 2.1",
+                               'height' => "31", 'width' => "88"})),
+
+                $q->a({'style' => 'float: right',
+                       'href'  => "http://validator.w3.org/check?uri=referer"},
+                      $q->img({'border' => "0",
+                               'src' => "http://www.w3.org/Icons/valid-xhtml10",
+                               'alt' => "Valid XHTML 1.0 Transitional",
+                               'height' => "31", 'width' => "88"})),
+
+                "Processing time", $t, "seconds.");
 
     $r .= $q->end_html();
 
@@ -526,7 +519,9 @@ sub resolve {
 
     $r .= $q->end_form();
 
-    $r .= $q->br();
+    $r .= $q->p("ElixirFM can analyze non-tokenized as well as tokenized words, even if you omit some symbols or do not spell everything correctly.");
+
+    $r .= $q->p("You can experiment with entering the text in various notations.");
 
     $r .= $q->h2('ElixirFM Reply');
 
@@ -580,11 +575,9 @@ sub resolve {
 
     unlink "$mode/index.$$.$session.tmp";
 
-    $r .= $q->p("Processing time", $time, "seconds.");
-
     $r .= display_footline $c;
 
-    $r .= display_footer $c;
+    $r .= display_footer $c, $time;
 
     return encode "utf8", $r;
 }
@@ -771,11 +764,9 @@ sub inflect {
 
     unlink "$mode/index.$$.$session.tmp";
 
-    $r .= $q->p("Processing time", $time, "seconds.");
-
     $r .= display_footline $c;
 
-    $r .= display_footer $c;
+    $r .= display_footer $c, $time;
 
     return $r;
 }
@@ -783,11 +774,17 @@ sub inflect {
 
 sub pretty_lookup ($$) {
 
-  # my @word = ElixirFM::unprettyLookup($_[0]);
+    my @word = ElixirFM::unprettyLookup($_[0]);
 
     my $q = $_[1];
 
-    return $q->pre(escape $_[0]);
+    return $q->pre(escape join "\n\n\n", map {
+
+                    map { join "\n\n", $_->{'data'}, map {
+
+                          join "\n", $_->{'root'}, @{$_->{'ents'}}
+
+                          } @{$_->{'node'}} } @{$_} } @word);
 }
 
 sub lookup {
@@ -963,11 +960,9 @@ sub lookup {
 
     unlink "$mode/index.$$.$session.tmp";
 
-    $r .= $q->p("Processing time", $time, "seconds.");
-
     $r .= display_footline $c;
 
-    $r .= display_footer $c;
+    $r .= display_footer $c, $time;
 
     return $r;
 }
@@ -1162,11 +1157,9 @@ sub derive {
 
     unlink "$mode/index.$$.$session.tmp";
 
-    $r .= $q->p("Processing time", $time, "seconds.");
-
     $r .= display_footline $c;
 
-    $r .= display_footer $c;
+    $r .= display_footer $c, $time;
 
     return $r;
 }
