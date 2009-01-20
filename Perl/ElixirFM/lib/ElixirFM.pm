@@ -406,26 +406,19 @@ sub unprettyLookup {
         [
             map {
 
-                my ($data, @node) = split /\s*<Nest>\s*/, $_;
+                my ($data, $node) = split /\s*<Nest>\s*/, $_;
 
+                my ($root) = $node =~ /<root>(.*?)<\/root>/;
+
+                my @ents = $node =~ /<Entry>(.*?)<\/Entry>/gs;
+                
                 {
                     'data'  =>  $data,
 
-                    'node'  =>  [
-
-                            map {
-
-                                my ($root) = /<root>(.*?)<\/root>/;
-
-                                my @ents = /<Entry>(.*?)<\/Entry>/gs;
-
-                                {
+                    'node'  =>  {
                                     'root'  =>  $root,
                                     'ents'  =>  [ @ents ],
-                                }
-
-                            } @node
-                        ],
+                                },
                 }
 
             } @data

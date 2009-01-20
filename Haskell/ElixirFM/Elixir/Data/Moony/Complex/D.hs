@@ -347,7 +347,11 @@ cluster_30  = cluster
 
  |> ['\'','u','q','i','y','A','n','U','s'] <| [
 
-    _____ |< Iy               `adj`     {- <'uqiyAnUsIy> -}    [ ['O','c','e','a','n','i','a','n'], ['O','c','e','a','n','i','a'] ] ]
+    _____ |< iyA              `xtra`    {- <'uqiyAnUsiyA> -}   [ ['O','c','e','a','n','i','a'] ],
+
+    _____ |< Iy |< aT         `noun`    {- <'uqiyAnUsIyaT> -}  [ ['O','c','e','a','n','i','a'] ],
+
+    _____ |< Iy               `adj`     {- <'uqiyAnUsIy> -}    [ ['O','c','e','a','n','i','a','n'] ] ]
 
 
 cluster_31  = cluster

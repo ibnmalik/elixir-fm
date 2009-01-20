@@ -33,6 +33,8 @@ our %enc_hash = (   'ArabTeX'       =>      'TeX',
 
 our @enc_list = sort keys %enc_hash;
 
+our @modes = qw 'resolve inflect derive lookup';
+
 
 sub setup {
 
@@ -43,7 +45,7 @@ sub setup {
     $c->start_mode('resolve');
     $c->error_mode('resolve');
 
-    $c->run_modes(map { $_ => $_ } qw 'resolve inflect lookup derive');
+    $c->run_modes(map { $_ => $_ } @modes);
 }
 
 sub cgiapp_prerun {
@@ -77,6 +79,17 @@ sub escape ($) {
     $text =~ s/\&/\&amp;/g;
     $text =~ s/\</\&lt;/g;
     $text =~ s/\>/\&gt;/g;
+
+    return $text;
+}
+
+sub revert ($) {
+
+    my $text = shift;
+
+    $text =~ s/\&gt;/\>/g;
+    $text =~ s/\&lt;/\</g;
+    $text =~ s/\&amp;/\&/g;
 
     return $text;
 }
@@ -139,8 +152,7 @@ sub display_headline ($) {
     $r .= $q->h1($q->a({'href' => 'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM 1.1"), ucfirst $q->param($c->mode_param()), 'Online');
 
     $r .= $q->div({-class => "menu"},
-                  map { $q->param($c->mode_param()) eq $_ ? $q->span(ucfirst $_) : $q->a({'href' => 'index.fcgi?mode=' . $_}, ucfirst $_) }
-                      qw 'resolve inflect derive lookup');
+                  map { $q->param($c->mode_param()) eq $_ ? $q->span(ucfirst $_) : $q->a({'href' => 'index.fcgi?mode=' . $_}, ucfirst $_) } @modes);
 
     return $r;
 }
@@ -245,7 +257,7 @@ sub pretty_resolve ($$) {
         $r .= $q->h3($q->span({-class => "word",
                                -title => "input word"}, $text[$i]));
 
-	$word[$i] = ElixirFM::prune($word[$i]);
+        $word[$i] = ElixirFM::prune($word[$i]);
 
         if (@{$word[$i]->{'node'}}) {
 
@@ -258,13 +270,13 @@ sub pretty_resolve ($$) {
                          $q->li({-class => 'empty'},
                                 $q->span({-class => "word",
                                           -title => "input word"}, $text[$i]) ));
-            }
+        }
     }
 
     return $r;
 }
 
-sub pretty_data {
+sub pretty_resolve_data {
 
     my $data = $_[0];
 
@@ -296,8 +308,6 @@ sub pretty_data {
 
 sub pretty_resolve_tree {
 
-  # my @data = map { map { @{$_->{'node'}} } @{$_->{'node'}} } @{$_[0]->{'node'}};
-
     my @data = @{$_[0]->{'node'}};
 
     my $q = $_[1];
@@ -306,9 +316,9 @@ sub pretty_resolve_tree {
 
     return $q->li([ map {
 
-	   pretty_data($_->{'data'}) . "\n" . $q->ul($q->li([ map {
+	   pretty_resolve_data($_->{'data'}) . "\n" . $q->ul($q->li([ map {
 
-	   pretty_data($_->{'data'}) . "\n" . $q->ul($q->li([ map {
+	   pretty_resolve_data($_->{'data'}) . "\n" . $q->ul($q->li([ map {
 
 	my @tokens = @{$_->{'node'}};
 
@@ -714,8 +724,6 @@ sub inflect {
 
     $r .= $q->end_form();
 
-    $r .= $q->br();
-
     $r .= $q->h2('ElixirFM Reply');
 
     $r .= $q->p("Point the mouse over the data to receive further information.");
@@ -778,13 +786,102 @@ sub pretty_lookup ($$) {
 
     my $q = $_[1];
 
-    return $q->pre(escape join "\n\n\n", map {
+    my $r = '';
 
-                    map { join "\n\n", $_->{'data'}, map {
+    for (my $i; $i < @word; $i++) {
 
-                          join "\n", $_->{'root'}, @{$_->{'ents'}}
+        $r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($word[$i], $q));
+    }
 
-                          } @{$_->{'node'}} } @{$_} } @word);
+    return $r;
+}
+
+sub pretty_lookup_data {
+
+    my $data = $_[0];
+
+    my $text = '';
+
+    $text .= $data->{'data'};
+
+    $text .= " ";
+    
+    $text .= decode "zdmg", $_->{'node'}{'root'};
+    
+    $text .= " ";
+    
+    $text .= decode "arabtex", ElixirFM::cling($_->{'node'}{'root'});
+    
+    return escape $text;
+}
+
+sub pretty_lookup_tree {
+
+    my @data = @{$_[0]};
+
+    my $q = $_[1];
+
+    my @info = @data;
+
+    return $q->li([ map {
+
+            my $data = $_;
+            
+            pretty_lookup_data($_) . "\n" . $q->ul($q->li([ map {
+
+                my $ents = $_;
+                
+                my @info = ();
+
+                ($info[0]) = $ents =~ /\<morphs\>(.*?)\<\/morphs\>/s;
+                ($info[1]) = $ents =~ /\<entity\>(.*?)\<\/entity\>/s;
+                ($info[2]) = $ents =~ /\<limits\>(.*?)\<\/limits\>/s;
+                ($info[3]) = $ents =~ /\<reflex\>(.*?)\<\/reflex\>/s;
+
+                
+	my @ents = ();
+
+	($ents[0]) = $info[1] =~ /\<imperf\>([^\<]*)\</g;
+	($ents[1]) = $info[1] =~ /\<pfirst\>([^\<]*)\</g;
+	($ents[2]) = $info[1] =~ /\<second\>([^\<]*)\</g;
+
+	$info[4] = join " ", grep { defined $_ and $_ ne '' } @ents;
+
+    $info[5] = ElixirFM::merge($data->{'node'}{'root'}, revert $info[0]);
+    
+        $q->table({-cellspacing => 0, -class => "lexeme"},
+                $q->Tr($q->td({-class => "xtag",
+                               -title => ElixirFM::describe('')}, ''),
+                       $q->td({-class => "phon",
+                               -title => "citation form"},           decode "zdmg", $info[5]),
+                       $q->td({-class => "orth",
+                               -title => "citation form"},           decode "arabtex", $info[5]),
+                       $q->td({-class => "atex",
+                               -title => "citation form"},           $info[5]),
+                       $q->td({-class => "root",
+                               -title => "root of citation form"},   $data->{'node'}{'root'}),
+                       $q->td({-class => "morphs",
+                               -title => "morphs of citation form"}, $info[0]),
+                       $q->td({-class => "class",
+                               -title => "derivational class"},      ''),
+                       $q->td({-class => "stems",
+                               -title => "inflectional stems"},      escape $info[4]),
+                       $q->td({-class => "reflex",
+                               -title => "lexical reference"},       escape $info[3]),
+               # ),
+               # $q->Tr(
+                       $q->td({-class => "button"},
+                              $q->a({-title => "inflect this lexeme",
+                                     -href => 'index.fcgi?mode=inflect' . '&code=' . $data->{'data'}}, "Inflect"),
+                              $q->a({-title => "derive other lexemes",
+                                     -href => 'index.fcgi?mode=derive' . '&code=' . $data->{'data'}}, "Derive"),
+                              $q->a({-title => "lookup in the lexicon",
+                                     -href => 'index.fcgi?mode=lookup' . '&code=' . $data->{'data'}}, "Lookup")),
+		    )),
+                
+			} @{$_->{'node'}{'ents'}} ] ))
+
+            } @data ] );
 }
 
 sub lookup {
@@ -907,8 +1004,6 @@ sub lookup {
     $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
 
     $r .= $q->end_form();
-
-    $r .= $q->br();
 
     $r .= $q->h2('ElixirFM Reply');
 
@@ -1101,8 +1196,6 @@ sub derive {
     $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
 
     $r .= $q->end_form();
-
-    $r .= $q->br();
 
     $r .= $q->h2('ElixirFM Reply');
 
