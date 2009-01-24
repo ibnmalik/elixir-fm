@@ -1169,7 +1169,9 @@ cluster_52  = cluster
 
     FACiL |< Iy |< aT         `noun`    {- <sAlimIyaT> -}      [ ['S','a','l','m','i','y','a'] ],
 
-    MuFaCCaL                  `adj`     {- <musallam> -}       [ ['g','r','a','n','t','e','d'], ['o','b','v','i','o','u','s'], ['a','s','s','u','m','p','t','i','o','n','s'], ['g','i','v','e','n','s'] ]
+    MuFaCCaL                  `adj`     {- <musallam> -}       [ ['g','r','a','n','t','e','d'], ['o','b','v','i','o','u','s'] ],
+
+    MuFaCCaL                  `noun`    {- <musallam> -}       [ ['a','s','s','u','m','p','t','i','o','n','s'], ['g','i','v','e','n','s'] ]
                               `plural`     MuFaCCaL |< At,
 
     MuFCiL                    `adj`     {- <muslim> -}         [ ['M','u','s','l','i','m'] ],
@@ -1177,7 +1179,12 @@ cluster_52  = cluster
     MuFtaCiL                  `noun`    {- <mustalim> -}       [ ['r','e','c','i','p','i','e','n','t'], ['c','o','n','s','i','g','n','e','e'] ]
                               `plural`     MuFtaCiL |< Un
                            
-    `derives` otherwise ]
+    `derives` otherwise,
+
+    FuCayLAn                  `noun`    {- <sulaymAn> -}       [ ['S','u','l','a','y','m','a','n'], ['S','o','l','o','m','o','n'] ],
+
+    FuCayLAn |< Iy            `noun`    {- <sulaymAnIy> -}     [ unwords [ ['c','o','r','r','o','s','i','v','e'], ['s','u','b','l','i','m','a','t','e'] ], unwords [ ['m','e','r','c','u','r','y'], ['c','h','l','o','r','i','d','e'] ] ]
+                              `plural`     FuCayLAn |< Iy |< Un ]
 
 
 cluster_53  = cluster
@@ -1848,6 +1855,8 @@ cluster_97  = cluster
  |> "s n ^g b" <| [
 
     KiRDAS                    `noun`    {- <sin^gAb> -}        [ unwords [ ['g','r','a','y'], ['s','q','u','i','r','r','e','l'] ] ],
+
+    KuRayDIS                  `noun`    {- <sunay^gIb> -}      [ unwords [ ['s','m','a','l','l'], ['g','r','a','y'], ['s','q','u','i','r','r','e','l'] ] ],
 
     KiRDAS |< Iy              `adj`     {- <sin^gAbIy> -}      [ ['g','r','a','y'], ['a','s','h','e','n'] ] ]
 

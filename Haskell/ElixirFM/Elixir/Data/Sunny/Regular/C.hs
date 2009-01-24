@@ -294,7 +294,10 @@ cluster_14  = cluster
  |> "d r h m" <| [
 
     KiRDaS                    `noun`    {- <dirham> -}         [ ['d','i','r','h','a','m'] ]
-                              `plural`     KaRADiS ]
+                              `plural`     KaRADiS,
+
+    KuRayDiS                  `noun`    {- <durayhim> -}       [ ['p','e','n','n','y'] ]
+                              `plural`     KuRayDiS |< At ]
 
 
 cluster_15  = cluster

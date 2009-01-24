@@ -197,6 +197,8 @@ data PatternQ =
 
         |   KayRaDUS
 
+        |   KuRayDIS
+
         |   KuRayDiS                            |   KuRayDI
 
         |   KuRADiS                             |   KuRADI

@@ -45,8 +45,6 @@ type Clips = (Int, Maybe [Int])
 
 type Index = (Int, Int)
 
-type Root = String
-
 
 data Nest   a   =   Nest   Root [Entry a]   deriving Show
 

@@ -603,9 +603,9 @@ cluster_82  = cluster
 
 cluster_83  = cluster
 
- |> "l .g s" <| [
+ |> ['l','A','.','g','U','s'] <| [
 
-    FACUL                     `xtra`    {- <lA.gUs> -}         [ ['L','a','g','o','s'] ] ]
+    _____                     `xtra`    {- <lA.gUs> -}         [ ['L','a','g','o','s'] ] ]
 
 
 cluster_84  = cluster

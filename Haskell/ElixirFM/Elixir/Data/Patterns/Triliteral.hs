@@ -233,6 +233,10 @@ instance Rules PatternT where
                             FACULA',
                             FuCayLA',
                             FuCALA',
+                            FuCayLY,
+                            FuCayLA,
+                            FaCULY,
+                            FaCCULY,
                             FaCALIn,
                             FaCLAn,
                             FaCALIL,
@@ -267,12 +271,23 @@ instance Rules (Morphs PatternT) where
 -}
 
 
+isFirst :: Root -> Bool
+
+isFirst r = case words r of x : _ -> x == "w" || x == "y"
+                            _     -> False
+
+
+isDouble :: Root -> Bool
+
+isDouble r = case words r of x : y : z : _ -> y == z && y /= "y" && y /= "w"
+                             _             -> False
+
+
 instance Forming PatternT where
 
     verbStems I r
 
-        | let x = words r in if null x then False
-                                       else tail x == ["y", "y"] = [
+        | (tail . words) r == ["y", "y"] = [
 
         (   Just   (    FaCI,       FuCI,       FCY,        FCY         ),
                         FaCL,       FuCL,       FCY,        FCY         ),  -- .hayya
@@ -284,10 +299,7 @@ instance Forming PatternT where
 
         ]
 
-        | let x = words r in if length x < 3 then False
-                                             else x !! 1 == x !! 2 = [
-
-        -- Double
+        | isDouble r = [
 
         (   Just   (    FaCaL,      FuCiL,      FCaL,       FCaL        ),
                         FaCL,       FuCL,       FaCL,       FaCL        ),
@@ -306,16 +318,13 @@ instance Forming PatternT where
 
         ]
 
-        | (unwords . words) r == "r ' y" = [
+        | words r == ["r", "'", "y"] = [
 
         (   Nothing,    FaCY,       FuCI,       FY,         FY          )   -- ra'Y
 
         ]
 
-        | let x = words r in if null x then False
-                                       else head x `elem` ["w", "y"] = [
-
-        --  First
+        | isFirst r = [
 
         (   Nothing,    FaCaL,      FuCiL,      CaL,        FCaL        ),
         (   Nothing,    FaCaL,      FuCiL,      CiL,        FCaL        ),
@@ -326,16 +335,12 @@ instance Forming PatternT where
         (   Nothing,    FaCuL,      FuCiL,      CaL,        FCaL        ),
         (   Nothing,    FaCuL,      FuCiL,      CuL,        FCaL        ),
 
-        -- Either
-
         (   Nothing,    FaCY,       FuCI,       CI,         CY          ),  -- waqY
         (   Nothing,    FaCI,       FuCI,       CI,         CY          )   -- waliya
 
         ] ++ verbStems'     -- verbStems I "F C L" .. but no "[wy] [yw] L"
 
         | otherwise = [
-
-        --  Second
 
         (   Just  (     FuL,        FiL,        FuL,        FaL         ),
                         FAL,        FIL,        FUL,        FAL         ),  -- qAla
@@ -348,8 +353,6 @@ instance Forming PatternT where
 
      where { verbStems' = [
 
-        -- Regular
-
         (   Nothing,    FaCaL,      FuCiL,      FCaL,       FCaL        ),
         (   Nothing,    FaCaL,      FuCiL,      FCiL,       FCaL        ),
         (   Nothing,    FaCaL,      FuCiL,      FCuL,       FCaL        ),
@@ -358,8 +361,6 @@ instance Forming PatternT where
 
         (   Nothing,    FaCuL,      FuCiL,      FCaL,       FCaL        ),
         (   Nothing,    FaCuL,      FuCiL,      FCuL,       FCaL        ),
-
-        -- Third
 
         (   Nothing,    FaCA,       FuCI,       FCU,        FCY         ),  -- da`A
         (   Nothing,    FaCU,       FuCI,       FCU,        FCY         ),  -- .haluwa
@@ -389,8 +390,7 @@ instance Forming PatternT where
 
     verbStems IV r
 
-        | let x = words r in if null x then False
-                                       else head x `elem` ["w", "y"] = [
+        | isFirst r = [
 
         (   Nothing,    HaFCaL,     HUCiL,      FCiL,       FCaL        ),
         (   Nothing,    HaFCY,      HUCI,       FCI,        FCY         ),
@@ -467,8 +467,7 @@ instance Forming PatternT where
 
     verbStems X r
 
-        | let x = words r in if null x then False
-                                       else head x `elem` ["w", "y"] = [
+        | isFirst r = [
 
         (   Nothing,    IstaFCaL,   UstUCiL,    StaFCiL,    StaFCaL     ),
         (   Nothing,    IstaFCY,    UstUCI,     StaFCI,     StaFCY      ),
@@ -527,37 +526,65 @@ instance Forming PatternT where
         ]
 
 
-    nounStems I _ = [
+    nounStems I r
+
+        | isDouble r = [
+
+        (   FaCL,       FACL,       MaFCUL,     morph   FaCL            ),
+        (   FaCL,       FACL,       MaFCUL,     morph   FuCL            )
+
+        ]
+
+        | (tail . tail . words) r == ["y"] = [
+
+        (   FaCY,       FACI,       MaFCIL,     morph   FaCL            ),
+        (   FaCI,       FACI,       MaFCIL,     morph   FaCL            )
+
+        ]
+
+        | (tail . tail . words) r == ["w"] = [
+
+        (   FaCA,       FACI,       MaFCUL,     morph   FaCL            )
+
+        ]
+
+        | (init . tail . words) r == ["y"] = [
+
+        (   FAL,        FA'iL,      MaFIL,      morph   FaCL            )
+
+        ]
+
+        | (init . tail . words) r == ["w"] = [
+
+        (   FAL,        FA'iL,      MaFUL,      morph   FaCL            )
+
+        ]
+
+        | isFirst r = [
+
+        (   FaCaL,      FACiL,      MaFCUL,     morph   FuCUL           ),
+        (   FaCaL,      FACiL,      MaFCUL,             CiL |< aT       )
+
+        ]
+
+        | otherwise = [
 
         (   FaCaL,      FACiL,      MaFCUL,     morph   FiCL            ),
         (   FaCaL,      FACiL,      MaFCUL,             FiCAL |< aT     ),
-        (   FaCaL,      FACiL,      MaFCUL,     morph   FuCUL           ),
-
-        (   FaCaL,      FACiL,      MaFCUL,             CiL |< aT       ),
-
-        (   FAL,        FA'iL,      MaFUL,      morph   FaCL            ),
-        (   FAL,        FA'iL,      MaFIL,      morph   FaCL            ),
-
-        (   FaCA,       FACI,       MaFCUL,     morph   FaCL            ),
-        (   FaCY,       FACI,       MaFCIL,     morph   FaCL            ),
-        (   FaCI,       FACI,       MaFCIL,     morph   FaCL            ),
-
-        (   FaCL,       FACL,       MaFCUL,     morph   FaCL            )
+        (   FaCaL,      FACiL,      MaFCUL,     morph   FuCUL           )
 
         ]
 
 
     nounStems II r
 
-        | let x = words r in if null x then False
-                                       else tail x == ["y", "y"] = [
+        | (tail . words) r == ["y", "y"] = [
 
         (   FaCCY,      MuFaCCI,    MuFaCCY,            TaFIL |< aT     )
 
         ]
 
-        | let x = words r in if length x < 3 then False
-                                             else x !! 1 == x !! 2 = [
+        | isDouble r = [
 
         (   FaCCaL,     MuFaCCiL,   MuFaCCaL,   morph   TaFCIL          ),
         (   FaCCaL,     MuFaCCiL,   MuFaCCaL,           TaFiCL |< aT    )
@@ -586,12 +613,17 @@ instance Forming PatternT where
 
     nounStems IV r
 
-        | let x = words r in if null x then False
-                                       else head x `elem` ["w", "y"] = [
+        | isDouble r = [                                       if isFirst r then
+
+        (   HaFaCL,     MuFiCL,     MuFaCL,     morph   HICAL           )   else
+        (   HaFaCL,     MuFiCL,     MuFaCL,     morph   HiFCAL          )
+
+        ]
+
+        | isFirst r = [
 
         (   HaFCaL,     MUCiL,      MUCaL,      morph   HICAL           ),
-        (   HaFCY,      MUCI,       MUCY,       morph   HICA'           ),
-        (   HaFaCL,     MuFiCL,     MuFaCL,     morph   HICAL           )
+        (   HaFCY,      MUCI,       MUCY,       morph   HICA'           )
 
         ]
 
@@ -602,7 +634,6 @@ instance Forming PatternT where
         (   HaFAL,      MuFIL,      MuFAL,              HiFAL |< aT     ),
         (   HaFCY,      MuFCI,      MuFCY,      morph   HiFCA'          ),
         (   HaFY,       MuFI,       MuFY,               HiFA' |< aT     ),
-        (   HaFaCL,     MuFiCL,     MuFaCL,     morph   HiFCAL          ),
         (   HACY,       MUCI,       MUCY,       morph   HICA'           )
 
         ]
@@ -625,22 +656,50 @@ instance Forming PatternT where
         ]
 
 
-    nounStems VII _ = [
+    nounStems VII r
 
-        (   InFaCaL,    MunFaCiL,   MunFaCaL,   morph   InFiCAL         ),
-        (   InFAL,      MunFAL,     MunFAL,     morph   InFiCAL         ),
-        (   InFaCY,     MunFaCI,    MunFaCY,    morph   InFiCA'         ),
+        | isDouble r = [
+
         (   InFaCL,     MunFaCL,    MunFaCL,    morph   InFiCAL         )
 
         ]
 
+        | (init . tail . words) r `elem` [["w"], ["y"]] = [
 
-    nounStems VIII _ = [
+        (   InFAL,      MunFAL,     MunFAL,     morph   InFiCAL         ),
+        (   InFaCY,     MunFaCI,    MunFaCY,    morph   InFiCA'         ),
+        (   InFaCaL,    MunFaCiL,   MunFaCaL,   morph   InFiCAL         )
 
-        (   IFtaCaL,    MuFtaCiL,   MuFtaCaL,   morph   IFtiCAL         ),
+        ]
+
+        | otherwise = [
+
+        (   InFaCaL,    MunFaCiL,   MunFaCaL,   morph   InFiCAL         ),
+        (   InFaCY,     MunFaCI,    MunFaCY,    morph   InFiCA'         )
+
+        ]
+
+
+    nounStems VIII r
+
+        | isDouble r = [
+
+        (   IFtaCL,     MuFtaCL,    MuFtaCL,    morph   IFtiCAL         )
+
+        ]
+
+        | (init . tail . words) r `elem` [["w"], ["y"]] = [
+
         (   IFtAL,      MuFtAL,     MuFtAL,     morph   IFtiCAL         ),
         (   IFtaCY,     MuFtaCI,    MuFtaCY,    morph   IFtiCA'         ),
-        (   IFtaCL,     MuFtaCL,    MuFtaCL,    morph   IFtiCAL         )
+        (   IFtaCaL,    MuFtaCiL,   MuFtaCaL,   morph   IFtiCAL         )
+
+        ]
+
+        | otherwise = [
+
+        (   IFtaCaL,    MuFtaCiL,   MuFtaCaL,   morph   IFtiCAL         ),
+        (   IFtaCY,     MuFtaCI,    MuFtaCY,    morph   IFtiCA'         )
 
         ]
 
@@ -655,12 +714,17 @@ instance Forming PatternT where
 
     nounStems X r
 
-        | let x = words r in if null x then False
-                                       else head x `elem` ["w", "y"] = [
+        | isDouble r = [                                       if isFirst r then
+
+        (   IstaFaCL,   MustaFiCL,  MustaFaCL,  morph   IstICAL         )   else
+        (   IstaFaCL,   MustaFiCL,  MustaFaCL,  morph   IstiFCAL        )
+
+        ]
+
+        | isFirst r = [
 
         (   IstaFCaL,   MustaFCiL,  MustaFCaL,  morph   IstICAL         ),
-        (   IstaFCY,    MustaFCI,   MustaFCY,   morph   IstICA'         ),
-        (   IstaFaCL,   MustaFiCL,  MustaFaCL,  morph   IstICAL         )
+        (   IstaFCY,    MustaFCI,   MustaFCY,   morph   IstICA'         )
 
         ]
 
@@ -669,8 +733,7 @@ instance Forming PatternT where
         (   IstaFCaL,   MustaFCiL,  MustaFCaL,  morph   IstiFCAL        ),
         (   IstaFAL,    MustaFIL,   MustaFAL,           IstiFAL |< aT   ),
         (   IstaFCY,    MustaFCI,   MustaFCY,   morph   IstiFCA'        ),
-        (   IstaFY,     MustaFI,    MustaFY,    morph   IstiFA'         ),
-        (   IstaFaCL,   MustaFiCL,  MustaFaCL,  morph   IstiFCAL        )
+        (   IstaFY,     MustaFI,    MustaFY,    morph   IstiFA'         )
 
         ]
 
@@ -776,7 +839,7 @@ data PatternT =
         |   FaCaLAy
 
         |   FuCaLA'
-        
+
         |   FACiLA'
         |   FACULA'
 
@@ -827,6 +890,8 @@ data PatternT =
 
         |   FACUL                       |   FA'UL
         |   FayCUL
+
+        |   FACuL
 
         |   FACIL
         |   FACAL
@@ -879,6 +944,8 @@ data PatternT =
         |   FiCLAn                      |   FILAn
         |   FuCLAn                      |   FULAn
 
+        |   FaCULAn
+
         |   FACiLAn
         |   FuCuLLAn
 
@@ -899,7 +966,7 @@ data PatternT =
 
         |   FuCCayL
 
-        |   FuwayCiL                                                    |   FuwayCL    {-- (?) --}
+        |   FuwayCiL                                                    |   FuwayCL
         |   FuwayCaL
 
         |   FuCayyiL
@@ -910,10 +977,19 @@ data PatternT =
 
         |   HuFayCaL    {-- (?) --}                     |   HuFayCY
 
+        |   FuCayLAn
+
         |   FuCayLin                    |   FuwayLin
 
         |   FuCayLA'
+
         |   FuCALA'
+
+        |   FuCayLY
+        |   FuCayLA
+
+        |   FaCULY
+        |   FaCCULY
 
         |   FaCLY                                       |   FaCwY
         |   FiCLY                       |   FILY

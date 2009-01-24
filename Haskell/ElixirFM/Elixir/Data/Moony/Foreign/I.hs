@@ -687,30 +687,30 @@ cluster_96  = cluster
 
 cluster_97  = cluster
 
- |> ".g n r" <| [
-
-    FUCAL                     `xtra`    {- <.gUnAr> -}         [ ['G','u','n','n','a','r'] ] ]
-
-
-cluster_98  = cluster
-
  |> ['.','g','U','n','A','r'] <| [
 
     _____                     `xtra`    {- <.gUnAr> -}         [ ['G','u','n','n','a','r'] ] ]
 
 
-cluster_99  = cluster
+cluster_98  = cluster
 
  |> ['.','g','A','n','t','z'] <| [
 
     _____                     `xtra`    {- <.gAntz> -}         [ ['G','a','n','t','z'] ] ]
 
 
-cluster_100 = cluster
+cluster_99  = cluster
 
  |> ['.','g','A','n','d','I'] <| [
 
     _____                     `xtra`    {- <.gAndI> -}         [ ['G','h','a','n','d','i'] ] ]
+
+
+cluster_100 = cluster
+
+ |> ['.','g','A','w'] <| [
+
+    _____                     `xtra`    {- <.gAw> -}           [ ['G','a','o'] ] ]
 
 
 section = [ cluster_1,

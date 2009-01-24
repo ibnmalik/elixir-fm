@@ -787,7 +787,9 @@ cluster_44  = cluster
     FACiL                     `adj`     {- <.sAbir> -}         [ ['p','a','t','i','e','n','t'], ['s','t','e','a','d','f','a','s','t'], ['e','n','d','u','r','i','n','g'] ],
 
     MuFaCCaL |< At            `noun`    {- <mu.sabbarAt> -}    [ unwords [ ['c','a','n','n','e','d'], ['g','o','o','d','s'] ] ]
-                              `plural`     MuFaCCaL |< At ]
+                              `plural`     MuFaCCaL |< At,
+
+    FuCCayL                   `noun`    {- <.subbayr> -}       [ unwords [ ['I','n','d','i','a','n'], ['f','i','g'] ] ] ]
 
  |> ".s b r" <| [
 

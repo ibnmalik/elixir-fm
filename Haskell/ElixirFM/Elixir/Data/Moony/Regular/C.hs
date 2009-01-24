@@ -1447,7 +1447,9 @@ cluster_93  = cluster
                               `imperf`     FCaL,
 
     FaCaL                     `noun`    {- <bala.h> -}         [ unwords [ ['d','a','t','e'], "(", ['f','r','u','i','t'], ")" ] ]
-                              `plural`     FaCaL |< At ]
+                              `plural`     FaCaL |< At,
+
+    FuCayLA'                  `noun`    {- <bulay.hA'> -}      [ ['r','e','s','e','d','a'], unwords [ ['g','r','a','y','i','s','h'], ['g','r','e','e','n'] ] ] ]
 
 
 cluster_94  = cluster

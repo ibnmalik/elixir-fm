@@ -32,7 +32,7 @@ class Template a where
     interlock = interlocks [] []
 
 
-merge :: (Morphing a b, Template b, Show b) => String -> a -> String
+merge :: (Morphing a b, Template b, Show b) => Root -> a -> String
 
 merge r y = (prefixes . suffixes) [interlocks p s (words r) t]
 
@@ -74,6 +74,9 @@ mergeWith = flip merge
 
 
 infix 5 `merge`, `mergeWith`
+
+
+type Root = String
 
 
 sunny = [ "t", "_t", "d", "_d", "r", "z", "s", "^s",
