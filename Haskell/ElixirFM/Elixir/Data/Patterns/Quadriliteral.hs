@@ -72,7 +72,7 @@ instance Rules PatternQ where
                                     KRaDaSS] = auxies
                         | otherwise          = []
 
-    isDiptote = flip elem [ KaRADiS, KaRADIS, KuRDuSA' ]
+    isDiptote = flip elem [ KaRADiS, KaRADIS, KuRDuSA', KaRDaSY ]
 
     isPassive = const False
 
@@ -193,7 +193,10 @@ data PatternQ =
         |   KARDIS
 
         |   KaRDaSA'
+
         |   KuRDuSA'
+
+        |   KaRDaSY
 
         |   KayRaDUS
 

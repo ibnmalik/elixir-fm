@@ -1323,10 +1323,6 @@ cluster_87  = cluster
 
     FACUL                     `noun`    {- <bArUd> -}          [ ['g','u','n','p','o','w','d','e','r'] ] ]
 
- |> ['b','a','r','a','d','Y'] <| [
-
-    _____                     `noun`    {- <baradY> -}         [ ['B','a','r','a','d','a'] ] ]
-
  |> "b r d" <| [
 
     FaCaL                     `verb`    {- <barad> -}          [ ['c','a','l','m'], ['c','o','o','l'] ]
@@ -1354,6 +1350,8 @@ cluster_87  = cluster
     FaCL |< Iy |< aT          `noun`    {- <bardIyaT> -}       [ ['a','g','u','e'], unwords [ ['f','e','v','e','r'], ['a','t','t','a','c','k'] ] ],
 
     FuCaLA'                   `noun`    {- <buradA'> -}        [ ['a','g','u','e'], unwords [ ['f','e','v','e','r'], ['a','t','t','a','c','k'] ] ],
+
+    FaCaLY                    `noun`    {- <baradY> -}         [ ['B','a','r','a','d','a'] ],
 
     FaCCAL                    `noun`    {- <barrAd> -}         [ ['r','e','f','r','i','g','e','r','a','t','o','r'] ],
 

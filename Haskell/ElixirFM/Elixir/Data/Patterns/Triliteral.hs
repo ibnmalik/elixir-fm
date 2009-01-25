@@ -944,6 +944,7 @@ data PatternT =
         |   FiCLAn                      |   FILAn
         |   FuCLAn                      |   FULAn
 
+        |   FaCILAn
         |   FaCULAn
 
         |   FACiLAn

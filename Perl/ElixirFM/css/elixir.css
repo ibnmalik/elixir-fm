@@ -9,7 +9,7 @@
 }
 
 .xtag {
-    font-family: Courier New;   
+    font-family: Courier New;
 }
 
 .root {
@@ -18,23 +18,23 @@
 }
 
 .morphs {
-    font-family: Courier New;   
+    font-family: Courier New;
     color: #DAA520 /*goldenrod*/;
     white-space: nowrap;
 }
 
 .class {
-    font-family: Courier New;   
+    font-family: Courier New;
     color: #FF4500 /*orangered*/;
 }
 
 .stems {
-    font-family: Courier New;   
+    font-family: Courier New;
     color: #DAA520 /*goldenrod*/;
 }
 
 .word {
-    font-size:large;
+    font-size: large;
 }
 
 .notice {
@@ -47,7 +47,7 @@ body {
     font-size: medium;
     color: black;
     background-color: white;
-}   
+}
 
 table {
     margin: 0px;
@@ -104,6 +104,23 @@ table.lexeme {
     white-space: nowrap;
 }
 
+table.nest {
+    width: 98%;
+    margin: 0px;
+    padding: 2px 0px;
+    border-spacing: 0px;
+}
+
+.nest td.root {
+    font-weight: bold;
+}
+
+.nest td.button {
+    min-width: 10em;
+    text-align: right;
+    white-space: nowrap;
+}
+
 td {
     border: 0px;
     padding: 0px;
@@ -128,9 +145,9 @@ h1 {
     color: #EEE8AA /*palegoldenrod*/;
     background-color: #4B0082 /*indigo*/;
     padding: 3px 6px;
-} 
-    
-h2 { 
+}
+
+h2 {
     font-size: large;
     font-weight: bold;
     line-height: 130%;
@@ -138,10 +155,11 @@ h2 {
     border: 1px;
     border-style: solid;
     border-color: #DAA520 /*goldenrod*/;
-    padding: 2px 5px; 
+    padding: 2px 5px;
+    margin-top: 30px;
 }
 
-h3 { 
+h3 {
     font-size: large;
     font-weight: bold;
     line-height: 130%;
@@ -149,7 +167,7 @@ h3 {
     border: 1px;
     border-style: solid;
     border-color: #FFD700 /*gold*/;
-    padding: 2px 5px; 
+    padding: 2px 5px;
 }
 
 h3 span {
@@ -163,22 +181,22 @@ h3 span:before {
     margin-right: 1em;
 }
 
-a:link { 
+a:link {
     color: #4B0082 /*indigo*/;
     text-decoration: none;
 }
 
-h1 a:link { 
+h1 a:link {
     color: #FFD700 /*gold*/;
     text-decoration: none;
 }
 
-a:visited { 
+a:visited {
     color: #4B0082 /*indigo*/;
     text-decoration: none;
 }
 
-h1 a:visited { 
+h1 a:visited {
     color: #FFD700 /*gold*/;
     text-decoration: none;
 }
@@ -195,7 +213,7 @@ h1 a:hover {
     background-color: #4B0082 /*indigo*/;
 }
 
-a:active { 
+a:active {
     color: #FFD700 /*gold*/;
     text-decoration: none;
 }
@@ -211,35 +229,83 @@ span {
 }
 
 .button a {
-    padding:0 5px;
-    border:1px solid #ddd;
-    margin-right:0em;
+    padding: 0 5px;
+    border: 1px solid #ddd;
+    margin-right: 0em;
     background-color: white;
     text-align: right;
     /* position: relative; */
-    /* left:200px; */
+    /* left: 200px; */
 }
 
 .button a:visited {
-    padding:0 5px;
-    border:1px solid #ddd;
-    margin-right:0em;
+    padding: 0 5px;
+    border: 1px solid #ddd;
+    margin-right: 0em;
 }
 
 .button a:hover {
-    padding:0 5px;
-    border:1px solid #FFD700 /*gold*/;
-    margin-right:0em;
+    padding: 0 5px;
+    border: 1px solid #FFD700 /*gold*/;
+    margin-right: 0em;
     color: #FF4500 /*orangered*/;
 }
 
 .button a:active {
-    padding:0 5px;
-    border:1px solid #FFD700 /*gold*/;
-    margin-right:0em;
+    padding: 0 5px;
+    border: 1px solid #FFD700 /*gold*/;
+    margin-right: 0em;
+    color: #FFD700 /*gold*/;
+}
+
+div.menu {
+    min-width: 10em;
+    /* line-height: 0%; */
+    font-weight: bold;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.menu span {
+    padding: 0 5px;
+    border: 1px solid #ddd;
+    margin-right: 0em;
+    background-color: white;
+    text-align: right;
+    /* position: relative; */
+    /* left: 200px; */
+}
+
+.menu a {
+    padding: 0 5px;
+    border: 1px solid #ddd;
+    margin-right: 0em;
+    background-color: white;
+    text-align: right;
+    /* position: relative; */
+    /* left: 200px; */
+}
+
+.menu a:visited {
+    padding: 0 5px;
+    border: 1px solid #ddd;
+    margin-right: 0em;
+}
+
+.menu a:hover {
+    padding: 0 5px;
+    border: 1px solid #FFD700 /*gold*/;
+    margin-right: 0em;
+    color: #FF4500 /*orangered*/;
+}
+
+.menu a:active {
+    padding: 0 5px;
+    border: 1px solid #FFD700 /*gold*/;
+    margin-right: 0em;
     color: #FFD700 /*gold*/;
 }
 
 td.xtag input {
-    font-family: Courier New;   
+    font-family: Courier New;
 }
