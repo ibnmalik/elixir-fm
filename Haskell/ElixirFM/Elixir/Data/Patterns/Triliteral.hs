@@ -530,6 +530,8 @@ instance Forming PatternT where
 
         | isDouble r = [
 
+        (   FaCL,       FACL,       MaFCUL,     morph   FaCaL           ),
+        (   FaCL,       FACL,       MaFCUL,     morph   FaCAL           ),
         (   FaCL,       FACL,       MaFCUL,     morph   FaCL            ),
         (   FaCL,       FACL,       MaFCUL,     morph   FuCL            )
 
@@ -537,41 +539,86 @@ instance Forming PatternT where
 
         | (tail . tail . words) r == ["y"] = [
 
+        (   FaCY,       FACI,       MaFCIL,     morph   FaCY            ),
+        (   FaCY,       FACI,       MaFCIL,     morph   FaCA'           ),
+        (   FaCY,       FACI,       MaFCIL,     morph   FiCA'           ),
         (   FaCY,       FACI,       MaFCIL,     morph   FaCL            ),
-        (   FaCI,       FACI,       MaFCIL,     morph   FaCL            )
+        (   FaCY,       FACI,       MaFCIL,             FiCAL |< aT     ),
+
+        (   FaCI,       FACI,       MaFCIL,     morph   FaCY            ),
+        (   FaCI,       FACI,       MaFCIL,     morph   FaCA'           ),
+        (   FaCI,       FACI,       MaFCIL,     morph   FiCA'           ),
+        (   FaCI,       FACI,       MaFCIL,     morph   FaCL            ),
+        (   FaCI,       FACI,       MaFCIL,             FiCAL |< aT     )
 
         ]
 
         | (tail . tail . words) r == ["w"] = [
 
-        (   FaCA,       FACI,       MaFCUL,     morph   FaCL            )
+        (   FaCA,       FACI,       MaFCUL,     morph   FaCA            ),
+        (   FaCA,       FACI,       MaFCUL,     morph   FuCA'           ),
+        (   FaCA,       FACI,       MaFCUL,     morph   FaCL            ),
+        (   FaCA,       FACI,       MaFCUL,     morph   FuCUL           )
 
         ]
 
         | (init . tail . words) r == ["y"] = [
 
-        (   FAL,        FA'iL,      MaFIL,      morph   FaCL            )
+        (   FAL,        FA'iL,      MaFIL,      morph   FaCL            ),
+        (   FAL,        FA'iL,      MaFIL,      morph   FiCAL           ),
+        (   FAL,        FA'iL,      MaFIL,              FiCAL |< aT     ),
+        (   FAL,        FA'iL,      MaFIL,              FaCLUL |< aT    )
 
         ]
 
         | (init . tail . words) r == ["w"] = [
 
-        (   FAL,        FA'iL,      MaFUL,      morph   FaCL            )
+        (   FAL,        FA'iL,      MaFUL,      morph   FaCL            ),
+        (   FAL,        FA'iL,      MaFUL,      morph   FiyAL           ),
+        (   FAL,        FA'iL,      MaFUL,              FiyAL |< aT     ),
+        (   FAL,        FA'iL,      MaFUL,              FayLUL |< aT    )
 
         ]
 
         | isFirst r = [
 
+        (   FaCaL,      FACiL,      MaFCUL,     morph   FaCaL           ),
+        (   FaCaL,      FACiL,      MaFCUL,     morph   FaCAL           ),
+        (   FaCaL,      FACiL,      MaFCUL,     morph   FaCL            ),
+        (   FaCaL,      FACiL,      MaFCUL,             CiL |< aT       ),
+        (   FaCaL,      FACiL,      MaFCUL,             FaCAL |< aT     ),
+        (   FaCaL,      FACiL,      MaFCUL,             FiCAL |< aT     ),
         (   FaCaL,      FACiL,      MaFCUL,     morph   FuCUL           ),
-        (   FaCaL,      FACiL,      MaFCUL,             CiL |< aT       )
+
+        (   FaCiL,      FACiL,      MaFCUL,     morph   FaCaL           ),
+        (   FaCiL,      FACiL,      MaFCUL,     morph   FaCAL           ),
+        (   FaCiL,      FACiL,      MaFCUL,     morph   FaCL            ),
+        (   FaCiL,      FACiL,      MaFCUL,             CiL |< aT       ),
+        (   FaCiL,      FACiL,      MaFCUL,             FaCAL |< aT     ),
+        (   FaCiL,      FACiL,      MaFCUL,             FiCAL |< aT     ),
+        (   FaCiL,      FACiL,      MaFCUL,     morph   FuCUL           )
 
         ]
 
         | otherwise = [
 
+        (   FaCaL,      FACiL,      MaFCUL,     morph   FaCaL           ),
+        (   FaCaL,      FACiL,      MaFCUL,     morph   FaCAL           ),
+        (   FaCaL,      FACiL,      MaFCUL,     morph   FaCL            ),
         (   FaCaL,      FACiL,      MaFCUL,     morph   FiCL            ),
+        (   FaCaL,      FACiL,      MaFCUL,     morph   FuCL            ),
+        (   FaCaL,      FACiL,      MaFCUL,             FaCAL |< aT     ),
         (   FaCaL,      FACiL,      MaFCUL,             FiCAL |< aT     ),
-        (   FaCaL,      FACiL,      MaFCUL,     morph   FuCUL           )
+        (   FaCaL,      FACiL,      MaFCUL,     morph   FuCUL           ),
+
+        (   FaCiL,      FACiL,      MaFCUL,     morph   FaCaL           ),
+        (   FaCiL,      FACiL,      MaFCUL,     morph   FaCAL           ),
+        (   FaCiL,      FACiL,      MaFCUL,     morph   FaCL            ),
+        (   FaCiL,      FACiL,      MaFCUL,     morph   FiCL            ),
+        (   FaCiL,      FACiL,      MaFCUL,     morph   FuCL            ),
+        (   FaCiL,      FACiL,      MaFCUL,             FaCAL |< aT     ),
+        (   FaCiL,      FACiL,      MaFCUL,             FiCAL |< aT     ),
+        (   FaCiL,      FACiL,      MaFCUL,     morph   FuCUL           )
 
         ]
 

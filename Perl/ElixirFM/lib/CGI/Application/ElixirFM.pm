@@ -43,9 +43,9 @@ sub setup {
     my $c = shift;
 
     no strict;
- 
+
     $c->run_modes(map { $_ => \&{__PACKAGE__ . '::' . (ucfirst $_) . '::main'} } @modes);
-    
+
     use strict;
 
     $c->mode_param('mode');

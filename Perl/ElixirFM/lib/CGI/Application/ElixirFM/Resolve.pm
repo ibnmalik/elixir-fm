@@ -25,11 +25,11 @@ use Encode::Arabic ':modes';
 use strict;
 
 
-sub pretty_resolve ($$) {
+sub pretty ($$$) {
 
-    my @word = ElixirFM::unprettyResolve($_[0]);
+    my @word = ElixirFM::unpretty($_[0], $_[1]);
 
-    my $q = $_[1];
+    my $q = $_[2];
 
     my @text = split ' ', $q->param('text');
 
@@ -346,7 +346,7 @@ sub main {
 
     tick @tick;
 
-    $r .= pretty_resolve $reply, $q;
+    $r .= pretty $reply, $mode, $q;
 
     tick @tick;
 

@@ -25,17 +25,30 @@ use Encode::Arabic ':modes';
 use strict;
 
 
-sub pretty_lookup ($$) {
+sub pretty ($$$) {
 
-    my @word = ElixirFM::unprettyLookup($_[0]);
+    my ($data, $mode, $q) = @_;
 
-    my $q = $_[1];
+    my @word = ElixirFM::unpretty($data, $mode);
 
     my $r = '';
 
-    for (my $i; $i < @word; $i++) {
+    if ($mode eq 'lookup') {
 
-        $r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($word[$i], $q));
+        for (my $i; $i < @word; $i++) {
+
+            $r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($word[$i], $q));
+        }
+    }
+    else {
+
+        $r = $q->table( {-cellspacing => 0},
+
+                        [ map {
+
+                                join $", map { pretty_inflect_list($_, $q) } @{$_}
+
+                            } @word ] );
     }
 
     return $r;
@@ -52,11 +65,11 @@ sub pretty_lookup_data {
     $text .= decode "zdmg", $_->{'root'};
     $text .= " ";
     $text .= decode "arabtex", ElixirFM::cling($_->{'root'});
-    
+
     my ($clip) = $data->{'clip'} =~ /^\( (-?[0-9]+) , (?: Nothing | Just \[ ([^\]]*) \] ) \)$/x;
-    
+
     $clip = "($clip,Nothing)";
-  
+
     return $q->table({-cellspacing => 0, -class => "nest"},
                      $q->Tr($q->td({-class => "root"}, escape $text),
                             $q->td({-class => "button"},
@@ -76,19 +89,19 @@ sub pretty_lookup_tree {
     return $q->li([ map {
 
             my $data = $_;
-            
+
             my $clip = [undef, undef];
-            
+
             (@{$clip}) = $data->{'clip'} =~ /^\( (-?[0-9]+) , (?: Nothing | Just \[ ([^\]]*) \] ) \)$/x;
-            
+
             $clip->[1] = [ grep { /^-?[0-9]+$/ } split ',', $clip->[1] ] if defined $clip->[1];
-            
+
             pretty_lookup_data($_, $q) . "\n" . $q->ul($q->li([ map {
 
                 my $ents = $data->{'ents'}[$_];
-                
+
                 my $clip = sprintf "(%d,%d)", $clip->[0], defined $clip->[1] ? $clip->[1][$_] : $_ + 1;
-                
+
                 my @info = ();
 
                 ($info[0]) = $ents =~ /\<morphs\>\s*(.*?)\s*\<\/morphs\>/s;
@@ -124,7 +137,7 @@ sub pretty_lookup_tree {
 
     $info[5] = ElixirFM::merge($data->{'root'}, revert $info[0]);
 
-    
+
         $q->table({-cellspacing => 0, -class => "lexeme"},
                 $q->Tr($q->td({-class => "xtag",
                                -title => ElixirFM::describe($xtag)}, $xtag),
@@ -154,25 +167,10 @@ sub pretty_lookup_tree {
                               $q->a({-title => "lookup in the lexicon",
                                      -href => 'index.fcgi?mode=lookup' . '&clip=' . $clip}, "Lookup")),
 		    )),
-                
+
 			} 0 .. @{$_->{'ents'}} - 1 ] ))
 
             } @data ] );
-}
-
-sub pretty_inflect ($$) {
-
-    my @word = ElixirFM::unprettyInflect($_[0]);
-
-    my $q = $_[1];
-
-    return $q->table( {-cellspacing => 0},
-
-                      [ map {
-
-                            join $", map { pretty_inflect_list($_, $q) } @{$_}
-
-                        } @word ] );
 }
 
 sub pretty_inflect_list {
@@ -313,8 +311,8 @@ sub main {
 
     # tick @tick;
 
-    $r .= pretty_lookup $early, $q;
-    
+    $r .= pretty $early, 'lookup', $q;
+
     open T, '>', "$mode/index.$$.$session.tmp";
 
     print T encode "utf8", $text;
@@ -331,7 +329,7 @@ sub main {
 
     tick @tick;
 
-    $r .= pretty_inflect $reply, $q;
+    $r .= pretty $reply, $mode, $q;
 
     tick @tick;
 
