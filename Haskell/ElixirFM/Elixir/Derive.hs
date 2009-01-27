@@ -100,7 +100,7 @@ instance Derive Lexeme TagsVerb where
 
             let z = [ (f, z) | f <- [I ..],
 
-                               let ws = lookNoun (morphs e) 'V' (nounStems f r),
+                               let ws = lookNoun (morphs e) (domain e) 'V' (nounStems f r),
 
                                w <- nub ws,
 
@@ -129,7 +129,7 @@ instance Derive Lexeme TagsNoun where
 
             let z = [ (f, z) | f <- [I ..],
 
-                               let ws = lookNoun (morphs e) 'N' (nounStems f r),
+                               let ws = lookNoun (morphs e) (domain e) 'N' (nounStems f r),
 
                                w <- nub ws,
 
@@ -150,7 +150,7 @@ instance Derive Lexeme TagsAdj where
 
             let z = [ (f, z) | f <- [I ..],
 
-                               let ws = lookNoun (morphs e) (show' v) (nounStems f r),
+                               let ws = lookNoun (morphs e) (domain e) (show' v) (nounStems f r),
 
                                w <- nub ws,
 
@@ -227,24 +227,17 @@ findVerb _       _       True (Just (_, _, _, d), _, _, _, _) = d
 findVerb _       _       _    ( _               , _, _, _, d) = d
 
 
-lookNoun :: (Morphing a a, Eq (Morphs a)) => Morphs a -> Char -> [NounStems a] -> [Morphs a]
+lookNoun :: (Morphing a a, Eq (Morphs a)) => Morphs a -> TagsType -> Char -> [NounStems a] -> [Morphs a]
 
-lookNoun x y = map (findNoun y) . siftNoun x
-
-{-
-lookNoun x y is = [ findNoun y i | i@(a, _, _, _) <- is, x == morph a ]
-lookNoun x y is = [ findNoun y i | i@(_, b, _, _) <- is, x == morph b ]
-lookNoun x y is = [ findNoun y i | i@(_, _, c, _) <- is, x == morph c ]
-lookNoun x y is = [ findNoun y i | i@(_, _, _, d) <- is, x == d ]
--}
+lookNoun x y y' = map (findNoun y') . siftNoun x y
 
 
-siftNoun :: (Morphing a a, Eq (Morphs a)) => Morphs a -> [NounStems a] -> [NounStems a]
+siftNoun :: (Morphing a a, Eq (Morphs a)) => Morphs a -> TagsType -> [NounStems a] -> [NounStems a]
 
-siftNoun x is = [ i | i@(a, b, c, d) <- is, x == morph a ||
-                                            x == morph b ||
-                                            x == morph c ||
-                                            x == d ]
+siftNoun x (TagsVerb _) is = [ i | i@(a, _, _, _) <- is, x == morph a ]
+siftNoun x (TagsAdj  _) is = [ i | i@(_, b, c, _) <- is, x == morph b || x == morph c ]
+siftNoun x (TagsNoun _) is = [ i | i@(_, b, c, d) <- is, x == morph b || x == morph c || x == d ]
+siftNoun _ _            _  = []
 
 
 findNoun :: Morphing a a => Char -> NounStems a -> Morphs a

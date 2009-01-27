@@ -132,7 +132,7 @@ elixirResolve o p = interact (unlines . map (show . q) . concat . map words . on
 
     where q = pretty . (if r then id else prune) . case e of
 
-                "utf"   ->  resolveBy (fst f') (omitting (snd f') omits) t' . decode UTF
+                "tex"   ->  resolveBy (fst f') (omitting (snd f') omits) t'
 
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
                                   t' = if t then tokenize else thetoken
@@ -142,7 +142,7 @@ elixirResolve o p = interact (unlines . map (show . q) . concat . map words . on
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
                                   t' = if t then tokenize else thetoken
 
-                _       ->  resolveBy (fst f') (omitting (snd f') omits) t'
+                _       ->  resolveBy (fst f') (omitting (snd f') omits) t' . decode UTF
 
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
                                   t' = if t then tokenize else thetoken
@@ -166,9 +166,9 @@ elixirLookup o p = interact (unlines . map (show . q) . onlines)
     where q x = (f . flip list c) (if null r then (lookup . words) x
                                    else case e of
 
-                                        "utf"   ->  (lookup . decode UTF . head) r
+                                        "tex"   ->  (lookup . head) r
                                         "tim"   ->  (lookup . decode Tim . head) r
-                                        _       ->  (lookup . head) r)
+                                        _       ->  (lookup . decode UTF . head) r)
 
                 where c = [ y | (y, _) <- reads x ] ++ [ (i, Just [j]) | ((i, j), _) <- reads x ]
                       r = [ y | (y, _) <- reads x ]
