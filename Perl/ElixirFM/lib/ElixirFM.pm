@@ -412,7 +412,9 @@ sub unpretty {
     }
     else {
 
-        @data = split /(?:(?<=\n)\n|(?<=^)\n)/, $data;
+        @data = split /(?:(?<=\n)\n|(?<=^)\n)/, $data, -1;
+
+        pop @data;
 
         @data = map {
 

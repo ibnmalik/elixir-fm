@@ -180,20 +180,8 @@ sub main ($) {
 
     $r .= display_headline $c;
 
-    my @example = ( [ 'Unicode',    decode "buckwalter", "AqrO Aldrs AlOwl" ],
-                    [ 'ArabTeX',    "iqra' ad-darsa al-'awwala" ],
-                    [ 'ArabTeX',    "ad-dars al-'awwal" ],
-                    [ 'ArabTeX',    "y`tbru m.d'N" ],
-                    [ 'ArabTeX',    "narY mqhN" ],
-                    [ 'ArabTeX',    ".hayATN ^gyydTN" ],
-                    [ 'Buckwalter', "Aldrs AlOwl" ],
-                    [ 'Buckwalter', "yEtbr mDy}A" ],
-                    [ 'Buckwalter', "narY mqhY" ],
-                    [ 'Buckwalter', "HyApN jydpN" ],
-                    [ 'Unicode',    decode "buckwalter", "Aldrs AlOwl" ],
-                    [ 'Unicode',    decode "buckwalter", "yEtbr mDy}A" ],
-                    [ 'Unicode',    decode "buckwalter", "narY mqhY" ],
-                    [ 'Unicode',    decode "buckwalter", "HyApN jydpN" ] );
+    my @example = ( [ 'Unicode',    join " ", "school", decode "buckwalter", "drs k t b" ],
+                    [ 'ArabTeX',    "qAmUs 'lktrny ^g d d" ] );
 
     if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
 
@@ -258,6 +246,10 @@ sub main ($) {
     $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
 
     $r .= $q->end_form();
+
+    $r .= $q->p("ElixirFM can lookup lexical entries by the citation form and nests of entries by the root, and lets you search also in translations.");
+
+    $r .= $q->p("You can try enclosing the text in quotes if needed.");
 
     $r .= $q->h2('ElixirFM Reply');
 

@@ -41,7 +41,7 @@ sub pretty ($$$) {
 
         $r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($text[$i], $q));
 
-        $r .= $q->table({-cellspacing => 0}, map { pretty_inflect_list($_, $q) } @{$word[$i]});
+        $r .= $q->table({-cellspacing => 0}, "\n", map { pretty_inflect_list($_, $q) } @{$word[$i]});
     }
 
     return $r;
@@ -211,12 +211,12 @@ sub main ($) {
 
     $r .= display_headline $c;
 
-    my @example = ( [ '(3105,1)',               'perfect active third imperative'                               ],
-                    [ '(3105,1)',               'perf act 3rd impa'                                             ],
-                    [ '(3105,1)',               '-P-A-3---- -C--------'                                         ],
-                    [ '(3105,-2) (1455,-5)',    'indicative subjunctive jussive indefinite reduced definite'    ],
-                    [ '(3105,-2) (1455,-5)',    'ind sub jus indf red def'                                      ],
-                    [ '(3105,-2) (1455,-5)',    '--[ISJ]------[IRD]'                                            ] );
+    my @example = ( [ '(1320,1)',               'perfect active third imperative'                               ],
+                    [ '(1320,1)',               'perf act 3rd impa'                                             ],
+                    [ '(1320,1)',               '-P-A-3---- -C--------'                                         ],
+                    [ '(1320,3) (5370,14)',     'indicative subjunctive jussive indefinite reduced definite'    ],
+                    [ '(1320,3) (5370,14)',     'ind sub jus indf red def'                                      ],
+                    [ '(1320,3) (5370,14)',     '--[ISJ]------[IRD]'                                            ] );
 
     if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
 
@@ -294,7 +294,7 @@ sub main ($) {
 
     open T, '>', "$mode/index.$$.$session.tmp";
 
-    print T join "\n", @clip, "\n";
+    print T join "\n", @clip;
 
     close T;
 
