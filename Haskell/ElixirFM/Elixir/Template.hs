@@ -113,6 +113,20 @@ next (d:zs) = Just ([d], zs)
 next []     = Nothing
 
 
+drops :: [a] -> [a]
+
+drops [_]     = []
+drops (_ : y) = y
+drops []      = []
+
+
+takes :: [a] -> [a]
+
+takes [_]     = []
+takes (x : y) = x : takes y
+takes []      = []
+
+
 infixr 4 ->-
 infix  4 -<-
 

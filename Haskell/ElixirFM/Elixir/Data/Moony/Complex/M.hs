@@ -33,7 +33,8 @@ cluster_3   = cluster
  |> "q w l" <| [
 
     FAL                       `verb`    {- <qAl> -}            [ ['s','a','y'], ['t','e','l','l'] ]
-                              `imperf`     FUL,
+                              `imperf`     FUL
+                              `masdar`     FaCL,
 
     FACaL                     `verb`    {- <qAwal> -}          [ unwords [ ['n','e','g','o','t','i','a','t','e'], ['w','i','t','h'] ], unwords [ ['m','a','k','e'], "a", ['d','e','a','l'], ['w','i','t','h'] ] ],
 
@@ -103,7 +104,8 @@ cluster_6   = cluster
  |> "q w m" <| [
 
     FAL                       `verb`    {- <qAm> -}            [ ['u','n','d','e','r','t','a','k','e'], unwords [ ['c','a','r','r','y'], ['o','u','t'] ] ]
-                              `imperf`     FUL,
+                              `imperf`     FUL
+                              `masdar`     FiyAL,
 
     FaCCaL                    `verb`    {- <qawwam> -}         [ ['s','t','r','a','i','g','h','t','e','n'] ],
 
@@ -1189,9 +1191,10 @@ cluster_69  = cluster
 
     FaCIL                     `noun`    {- <ka.zI.z> -}        [ ['o','v','e','r','f','i','l','l','e','d'], ['o','v','e','r','s','t','u','f','f','e','d'] ],
 
-    IFtiCAL                   `adj`     {- <ikti.zA.z> -}      [ ['o','v','e','r','c','r','o','w','d','i','n','g'], ['o','v','e','r','f','i','l','l','i','n','g'], ['o','v','e','r','c','r','o','w','d','e','d'], unwords [ ['j','a','m'], "-", ['p','a','c','k','e','d'] ] ]
-                              `plural`     IFtiCAL |< At
-                              `plural`     MuFtaCL |< aT ]
+    IFtiCAL                   `noun`    {- <ikti.zA.z> -}      [ ['o','v','e','r','c','r','o','w','d','i','n','g'], ['o','v','e','r','f','i','l','l','i','n','g'] ]
+                              `plural`     IFtiCAL |< At,
+
+    MuFtaCL                   `adj`     {- <mukta.z.z> -}      [ ['o','v','e','r','c','r','o','w','d','e','d'], unwords [ ['j','a','m'], "-", ['p','a','c','k','e','d'] ] ] ]
 
 
 cluster_70  = cluster
@@ -1263,11 +1266,11 @@ cluster_72  = cluster
 
     FaCL                      `noun`    {- <kaff> -}           [ ['r','e','f','r','a','i','n','i','n','g'], ['d','i','s','c','o','n','t','i','n','u','a','t','i','o','n'], ['s','t','o','p','p','a','g','e'] ],
 
-    FaCL                      `noun`    {- <kaff> -}           [ unwords [ ['p','a','l','m'], ['o','f'], ['t','h','e'], ['h','a','n','d'] ], unwords [ ['p','a','l','m','s'], ['o','f'], ['t','h','e'], ['h','a','n','d','s'] ] ]
+    FaCL                      `noun`    {- <kaff> -}           [ unwords [ ['p','a','l','m'], ['o','f'], ['t','h','e'], ['h','a','n','d'] ] ]
                               `plural`     FuCUL
                               `plural`     HaFuCL,
 
-    FiCL |< aT                `noun`    {- <kiffaT> -}         [ unwords [ ['p','a','l','m'], ['o','f'], ['t','h','e'], ['h','a','n','d'] ], unwords [ ['p','a','l','m','s'], ['o','f'], ['t','h','e'], ['h','a','n','d','s'] ] ]
+    FiCL |< aT                `noun`    {- <kiffaT> -}         [ unwords [ ['p','a','l','m'], ['o','f'], ['t','h','e'], ['h','a','n','d'] ] ]
                               `plural`     FiCAL
                               `plural`     FiCaL,
 
@@ -1610,7 +1613,7 @@ cluster_92  = cluster
                               `plural`     HaFCAL
                               `plural`     HaFiCL |< aT,
 
-    FaCL |< aT                `noun`    {- <kannaT> -}         [ unwords [ ['d','a','u','g','h','t','e','r'], "-", ['i','n'], "-", ['l','a','w'] ], unwords [ ['s','i','s','t','e','r'], "-", ['i','n'], "-", ['l','a','w'] ], unwords [ ['d','a','u','g','h','t','e','r','s'], "-", ['i','n'], "-", ['l','a','w'] ], unwords [ ['s','i','s','t','e','r','s'], "-", ['i','n'], "-", ['l','a','w'] ] ]
+    FaCL |< aT                `noun`    {- <kannaT> -}         [ unwords [ ['d','a','u','g','h','t','e','r'], "-", ['i','n'], "-", ['l','a','w'] ], unwords [ ['s','i','s','t','e','r'], "-", ['i','n'], "-", ['l','a','w'] ] ]
                               `plural`     FaCA'iL,
 
     FuCL |< aT                `noun`    {- <kunnaT> -}         [ unwords [ ['s','h','e','d'], ['r','o','o','f'] ], ['a','w','n','i','n','g'] ]

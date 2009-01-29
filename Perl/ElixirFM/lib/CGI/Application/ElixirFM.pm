@@ -28,7 +28,7 @@ our %enc_hash = (   'ArabTeX'       =>      'TeX',
                     'Buckwalter'    =>      'Tim',
                     'Unicode'       =>      'UTF'   );
 
-our @enc_list = sort keys %enc_hash;
+our @enc_list = reverse sort keys %enc_hash;
 
 our @modes = qw 'resolve inflect derive lookup';
 

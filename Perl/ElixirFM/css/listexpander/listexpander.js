@@ -9,7 +9,7 @@ this.listexpander = function(){
 	
 	// edit 
 	
-	var expandTo = 2; // level up to which you want your lists to be initially expanded. 1 is minimum
+	var expandTo = 3; // level up to which you want your lists to be initially expanded. 1 is minimum
 	var expandText = "Expand All"; // text for expand all button
 	var collapseText = "Collapse All"; // text for collapse all button		
 	var listClass = "listexpander" // class name that you want to assign to list(s). If you wish to change it make sure to update the css file as well  

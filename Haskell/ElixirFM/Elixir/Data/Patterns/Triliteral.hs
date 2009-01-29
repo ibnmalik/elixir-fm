@@ -287,7 +287,7 @@ instance Forming PatternT where
 
     verbStems I r
 
-        | (tail . words) r == ["y", "y"] = [
+        | (drops . words) r == ["y", "y"] = [
 
         (   Just   (    FaCI,       FuCI,       FCY,        FCY         ),
                         FaCL,       FuCL,       FCY,        FCY         ),  -- .hayya
@@ -537,7 +537,7 @@ instance Forming PatternT where
 
         ]
 
-        | (tail . tail . words) r == ["y"] = [
+        | (drops . drops . words) r == ["y"] = [
 
         (   FaCY,       FACI,       MaFCIL,     morph   FaCY            ),
         (   FaCY,       FACI,       MaFCIL,     morph   FaCA'           ),
@@ -553,7 +553,7 @@ instance Forming PatternT where
 
         ]
 
-        | (tail . tail . words) r == ["w"] = [
+        | (drops . drops . words) r == ["w"] = [
 
         (   FaCA,       FACI,       MaFCUL,     morph   FaCA            ),
         (   FaCA,       FACI,       MaFCUL,     morph   FuCA'           ),
@@ -562,7 +562,7 @@ instance Forming PatternT where
 
         ]
 
-        | (init . tail . words) r == ["y"] = [
+        | (takes . drops . words) r == ["y"] = [
 
         (   FAL,        FA'iL,      MaFIL,      morph   FaCL            ),
         (   FAL,        FA'iL,      MaFIL,      morph   FiCAL           ),
@@ -571,7 +571,7 @@ instance Forming PatternT where
 
         ]
 
-        | (init . tail . words) r == ["w"] = [
+        | (takes . drops . words) r == ["w"] = [
 
         (   FAL,        FA'iL,      MaFUL,      morph   FaCL            ),
         (   FAL,        FA'iL,      MaFUL,      morph   FiyAL           ),
@@ -625,7 +625,7 @@ instance Forming PatternT where
 
     nounStems II r
 
-        | (tail . words) r == ["y", "y"] = [
+        | (drops . words) r == ["y", "y"] = [
 
         (   FaCCY,      MuFaCCI,    MuFaCCY,            TaFIL |< aT     )
 
@@ -711,7 +711,7 @@ instance Forming PatternT where
 
         ]
 
-        | (init . tail . words) r `elem` [["w"], ["y"]] = [
+        | (takes . drops . words) r `elem` [["w"], ["y"]] = [
 
         (   InFAL,      MunFAL,     MunFAL,     morph   InFiCAL         ),
         (   InFaCY,     MunFaCI,    MunFaCY,    morph   InFiCA'         ),
@@ -735,7 +735,7 @@ instance Forming PatternT where
 
         ]
 
-        | (init . tail . words) r `elem` [["w"], ["y"]] = [
+        | (takes . drops . words) r `elem` [["w"], ["y"]] = [
 
         (   IFtAL,      MuFtAL,     MuFtAL,     morph   IFtiCAL         ),
         (   IFtaCY,     MuFtaCI,    MuFtaCY,    morph   IFtiCA'         ),

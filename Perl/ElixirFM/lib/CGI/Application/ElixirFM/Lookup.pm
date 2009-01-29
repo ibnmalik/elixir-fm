@@ -35,6 +35,8 @@ sub pretty ($$$) {
 
     for (my $i; $i < @word; $i++) {
 
+        next unless @{$word[$i]};
+
         $r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($word[$i], $q));
     }
 
@@ -160,7 +162,7 @@ sub pretty_lookup_tree {
             } @data ] );
 }
 
-sub main {
+sub main ($) {
 
     my $c = shift;
 
@@ -199,9 +201,6 @@ sub main {
 
         $q->param('text', $example[$idx][1]);
         $q->param('code', $example[$idx][0]);
-
-        $q->param('fuzzy', rand 1 < 0.5 ? 'Fuzzy Notation' : '');
-        $q->param('token', rand 1 < 0.5 ? 'Tokenized' : '');
     }
     else {
 
@@ -218,14 +217,8 @@ sub main {
 
             $q->param('text', $example[0][1]);
             $q->param('code', $example[0][0]);
-
-            $q->param('fuzzy', '');
-            $q->param('token', '');
         }
     }
-
-    $q->param('fuzzy', '') unless defined $q->param('fuzzy');
-    $q->param('token', '') unless defined $q->param('token');
 
     $r .= display_welcome $c;
 
@@ -244,7 +237,7 @@ sub main {
                                         -size       =>  60,
                                         -maxlength  =>  100) ),
 
-                    td( {-colspan => 2, -style => "vertical-align: middle; padding-left: 20px", -class =>  'notice'},
+                    td( {-colspan => 2, -style => "vertical-align: middle; padding-left: 20px", -class => 'notice'},
 
                         $q->radio_group(-name       =>  'code',
                                         -values     =>  [ @enc_list ],
@@ -260,27 +253,7 @@ sub main {
 
                     td({-align => 'left'},   $q->submit(-name => 'submit', -value => ucfirst $q->param($c->mode_param()))),
                     td({-align => 'center'}, $q->reset('Reset')),
-                    td({-align => 'right'},  $q->submit(-name => 'submit', -value => 'Example')),
-
-                    td( {-align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
-
-                        $q->checkbox_group( -name       =>  'fuzzy',
-                                            -values     =>  [ 'Fuzzy Notation' ],
-                                            -default    =>  [ $q->param('fuzzy') ],
-                                            -title      =>  "less strict resolution of the input",
-                                            -linebreak  =>  0,
-                                            -rows       =>  1,
-                                            -columns    =>  1) ),
-
-                    td( {-align => 'right', -style => "vertical-align: middle; padding-left: 20px"},
-
-                        $q->checkbox_group( -name       =>  'token',
-                                            -values     =>  [ 'Tokenized' ],
-                                            -default    =>  [ $q->param('token') ],
-                                            -title      =>  "consider each input word as one token",
-                                            -linebreak  =>  0,
-                                            -rows       =>  1,
-                                            -columns    =>  1) ) ) );
+                    td({-align => 'right'},  $q->submit(-name => 'submit', -value => 'Example')) ) );
 
     $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
 
@@ -294,21 +267,44 @@ sub main {
 
     my $mode = $q->param($c->mode_param());
 
+    my @text = split '"', $q->param('text');
+
+    for (my $i = 0; $i < @text; $i += 2) {
+
+        my @data = split /(\( *-? *[0-9]+ *, *(?:-? *[0-9]+|Nothing|Just *\[[^\]]*\]) *\))/, $text[$i];
+
+        for (my $j = 0; $j < @data; $j += 2) {
+
+            my @word = (defined $q->param('code') and $q->param('code') ne 'Unicode')
+
+                        ? (split / *((?:[._^,]?[^ ._^,]){2,}|(?:[._^,]?[^ ._^,])(?: +(?:[._^,]?[^ ._^,])(?![^ ]))*) */, $data[$j])
+
+                        : (split / *(\p{InArabic}{2,}|\p{InArabic}(?: +\p{InArabic})*) */, $data[$j]);
+
+            for (my $l = 1; $l < @word; $l += 2) {
+
+                $word[$l] = '"' . $word[$l] . '"';
+            }
+
+            $data[$j] = join "\n", grep { $_ !~ /^ *$/ } @word;
+        }
+
+        $text[$i] = join "\n", grep { $_ !~ /^ *$/ } @data;
+    }
+
+    my $text = join "\n", grep { $_ !~ /^ *$/ } @text;
+
     open T, '>', "$mode/index.$$.$session.tmp";
 
-    print T encode "utf8", $q->param('text');
+    print T encode "utf8", $text;
 
     close T;
 
-    my $code = exists $enc_hash{$q->param('code')} ? $enc_hash{$q->param('code')} : 'TeX';
-
-    my $fuzzy = $q->param('fuzzy') ? '--fuzzy' : '';
-
-    my $token = $q->param('token') ? '--token' : '';
+    my $code = exists $enc_hash{$q->param('code')} ? $enc_hash{$q->param('code')} : 'UTF';
 
     tick @tick;
 
-    my $reply = `$elixir $mode $fuzzy $token $code < $mode/index.$$.$session.tmp`;
+    my $reply = `$elixir $mode $code < $mode/index.$$.$session.tmp`;
 
     tick @tick;
 
@@ -325,8 +321,6 @@ sub main {
     open L, '>>', "$mode/index.log";
 
     print L join "\t", gmtime() . "", "CPU " . $time, $code,
-                       ($q->param('fuzzy') ? 'F' : 'A'),
-                       ($q->param('token') ? 'T' : 'N'),
                        ($reply =~ /^\s*$/ ? '--' : '++'),
                        encode "utf8", $q->param('text') . "\n";
 

@@ -27,28 +27,21 @@ use strict;
 
 sub pretty ($$$) {
 
-    my ($data, $mode, $q) = @_;
+    my ($word, $text, $q) = @_;
 
-    my @word = ElixirFM::unpretty($data, $mode);
+    my @text = ElixirFM::unpretty($text, 'lookup');
+
+    my @word = ElixirFM::unpretty($word, 'derive');
 
     my $r = '';
 
-    if ($mode eq 'lookup') {
+    $r .= $q->p({-class => 'notice'}, 'The numbers of input and output words are not equal! ' . (scalar @text) . " <> " . (scalar @word)) unless @text == @word;
 
-        for (my $i; $i < @word; $i++) {
+    for (my $i; $i < @word; $i++) {
 
-            $r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($word[$i], $q));
-        }
-    }
-    else {
+        $r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($text[$i], $q));
 
-        $r = $q->table( {-cellspacing => 0},
-
-                        [ map {
-
-                                join $", map { pretty_inflect_list($_, $q) } @{$_}
-
-                            } @word ] );
+        $r .= $q->table({-cellspacing => 0}, map { pretty_inflect_list($_, $q) } @{$word[$i]});
     }
 
     return $r;
@@ -200,7 +193,7 @@ sub pretty_inflect_list {
 }
 
 
-sub main {
+sub main ($) {
 
     my $c = shift;
 
@@ -311,8 +304,6 @@ sub main {
 
     # tick @tick;
 
-    $r .= pretty $early, 'lookup', $q;
-
     open T, '>', "$mode/index.$$.$session.tmp";
 
     print T encode "utf8", $text;
@@ -325,11 +316,9 @@ sub main {
 
     my $reply = `$elixir $mode @clip < $mode/index.$$.$session.tmp`;
 
-    $r .= $q->pre(`echo $mode @clip $text`);
-
     tick @tick;
 
-    $r .= pretty $reply, $mode, $q;
+    $r .= pretty $reply, $early, $q;
 
     tick @tick;
 

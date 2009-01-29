@@ -656,7 +656,8 @@ cluster_44  = cluster
  |> "q r '" <| [
 
     FaCaL                     `verb`    {- <qara'> -}          [ ['r','e','a','d'] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FiCAL |< aT,
 
     HaFCaL                    `verb`    {- <'aqra'> -}         [ unwords [ ['m','a','k','e'], ['r','e','a','d'] ] ],
 
@@ -940,7 +941,7 @@ cluster_56  = cluster
                            
     `derives` otherwise,
 
-    FiCCIL                    `noun`    {- <qissIs> -}         [ ['c','l','e','r','g','y','m','a','n'], ['r','e','v','e','r','e','n','d'], ['c','l','e','r','g','y','m','e','n'] ]
+    FiCCIL                    `noun`    {- <qissIs> -}         [ ['c','l','e','r','g','y','m','a','n'], ['r','e','v','e','r','e','n','d'] ]
                               `plural`     FiCCIL |< Un
                               `plural`     FuCLAn
                               `plural`     HaFiCL |< aT
@@ -1411,7 +1412,7 @@ cluster_69  = cluster
     FaCA                      `verb`    {- <qafA> -}           [ ['f','o','l','l','o','w'], ['t','r','a','c','k'] ]
                               `imperf`     FCU,
 
-    FaCCY                     `verb`    {- <qaffY> -}          [ ['s','e','n','d'], ['r','h','y','m','e'], unwords [ ['b','e'], ['s','e','n','t'] ] ],
+    FaCCY                     `verb`    {- <qaffY> -}          [ ['s','e','n','d'], ['r','h','y','m','e'] ],
 
     TaFaCCY                   `verb`    {- <taqaffY> -}        [ ['f','o','l','l','o','w'], ['t','r','a','c','k'] ],
 
@@ -2040,7 +2041,7 @@ cluster_98  = cluster
 
  |> "q w .t" <| [
 
-    FaCL                      `noun`    {- <qaw.t> -}          [ unwords [ ['f','l','o','c','k'], ['o','f'], ['s','h','e','e','p'] ], unwords [ ['f','l','o','c','k','s'], ['o','f'], ['s','h','e','e','p'] ] ]
+    FaCL                      `noun`    {- <qaw.t> -}          [ unwords [ ['f','l','o','c','k'], ['o','f'], ['s','h','e','e','p'] ] ]
                               `plural`     HaFCAL ]
 
 

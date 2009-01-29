@@ -27,28 +27,21 @@ use strict;
 
 sub pretty ($$$) {
 
-    my ($data, $mode, $q) = @_;
+    my ($word, $text, $q) = @_;
 
-    my @word = ElixirFM::unpretty($data, $mode);
+    my @text = ElixirFM::unpretty($text, 'lookup');
+
+    my @word = ElixirFM::unpretty($word, 'derive');
 
     my $r = '';
 
-    if ($mode eq 'lookup') {
+    $r .= $q->p({-class => 'notice'}, 'The numbers of input and output words are not equal! ' . (scalar @text) . " <> " . (scalar @word)) unless @text == @word;
 
-        for (my $i; $i < @word; $i++) {
+    for (my $i; $i < @word; $i++) {
 
-            $r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($word[$i], $q));
-        }
-    }
-    else {
+        $r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($text[$i], $q));
 
-        $r = $q->table( {-cellspacing => 0},
-
-                        [ map {
-
-                                join $", map { pretty_derive_list($_, $q) } @{$_}
-
-                            } @word ] );
+        $r .= $q->table({-cellspacing => 0}, map { pretty_derive_list($_, $q) } @{$word[$i]});
     }
 
     return $r;
@@ -203,7 +196,7 @@ sub pretty_derive_list {
 }
 
 
-sub main {
+sub main ($) {
 
     my $c = shift;
 
@@ -317,9 +310,7 @@ sub main {
 
     my $early = `$elixir lookup < $mode/index.$$.$session.tmp`;
 
-    # tick @tick;
-
-    $r .= pretty $early, 'lookup', $q;
+    tick @tick;
 
     open T, '>', "$mode/index.$$.$session.tmp";
 
@@ -327,38 +318,36 @@ sub main {
 
     close T;
 
-    # tick @tick;
-
     @clip = map { "'" . (join "", split " ", $_) . "'" } @clip;
+
+    tick @tick;
 
     my $reply = `$elixir $mode @clip < $mode/index.$$.$session.tmp`;
 
-    $r .= $q->pre(`echo $mode @clip $text`);
+    tick @tick;
+
+    $r .= pretty $reply, $early, $q;
 
     tick @tick;
 
-    $r .= pretty $reply, $mode, $q;
+#    my @time = map { timediff $tick[$_->[0]], $tick[$_->[1]] } [3, 0], [2, 1];
 
-    tick @tick;
+#    $time[0] = timediff $time[0], $time[1];
 
-    my @time = map { timediff $tick[$_->[0]], $tick[$_->[1]] } [3, 0], [2, 1];
+#    my $time = join "+", map { mytimestr($_) } reverse @time;
 
-    $time[0] = timediff $time[0], $time[1];
+#    open L, '>>', "$mode/index.log";
 
-    my $time = join "+", map { mytimestr($_) } reverse @time;
+#    print L join "\t", gmtime() . "", "CPU " . $time, (join " ", @clip), ($q->param('fuzzy') ? 'F' : 'A'),
+#            ($reply =~ /^\s*$/ ? '--' : '++'), encode "utf8", $q->param('text') . "\n";
 
-    open L, '>>', "$mode/index.log";
-
-    print L join "\t", gmtime() . "", "CPU " . $time, (join " ", @clip), ($q->param('fuzzy') ? 'F' : 'A'),
-            ($reply =~ /^\s*$/ ? '--' : '++'), encode "utf8", $q->param('text') . "\n";
-
-    close L;
+#    close L;
 
     unlink "$mode/index.$$.$session.tmp";
 
     $r .= display_footline $c;
 
-    $r .= display_footer $c, $time;
+    $r .= display_footer $c, '';
 
     return $r;
 }

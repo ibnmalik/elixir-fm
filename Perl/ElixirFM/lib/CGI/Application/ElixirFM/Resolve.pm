@@ -193,7 +193,7 @@ sub pretty_resolve_tree {
 }
 
 
-sub main {
+sub main ($) {
 
     my $c = shift;
 
@@ -219,11 +219,11 @@ sub main {
                     [ 'ArabTeX',    ".hayATN ^gyydTN" ],
                     [ 'Buckwalter', "Aldrs AlOwl" ],
                     [ 'Buckwalter', "yEtbr mDy}A" ],
-                    [ 'Buckwalter', "narY mqhY" ],
+                    [ 'Buckwalter', "AhlA wshlA" ],
                     [ 'Buckwalter', "HyApN jydpN" ],
                     [ 'Unicode',    decode "buckwalter", "Aldrs AlOwl" ],
                     [ 'Unicode',    decode "buckwalter", "yEtbr mDy}A" ],
-                    [ 'Unicode',    decode "buckwalter", "narY mqhY" ],
+                    [ 'Unicode',    decode "buckwalter", "AhlA wshlA" ],
                     [ 'Unicode',    decode "buckwalter", "HyApN jydpN" ] );
 
     if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
@@ -241,6 +241,11 @@ sub main {
         if (defined $q->param('text') and $q->param('text') !~ /^\s*$/) {
 
             $q->param('text', normalize decode "utf8", $q->param('text'));
+
+            unless (defined $q->param('code') and $q->param('code') ne 'Unicode') {
+
+                return CGI::Application::ElixirFM::Lookup::main $c unless $q->param('text') =~ /\p{InArabic}/;
+            }
         }
         else {
 
@@ -272,7 +277,7 @@ sub main {
                                         -size       =>  60,
                                         -maxlength  =>  100) ),
 
-                    td( {-colspan => 2, -style => "vertical-align: middle; padding-left: 20px", -class =>  'notice'},
+                    td( {-colspan => 2, -style => "vertical-align: middle; padding-left: 20px", -class => 'notice'},
 
                         $q->radio_group(-name       =>  'code',
                                         -values     =>  [ @enc_list ],
@@ -292,20 +297,20 @@ sub main {
 
                     td( {-align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
 
-                        $q->checkbox_group( -name       =>  'fuzzy',
-                                            -values     =>  [ 'Fuzzy Notation' ],
-                                            -default    =>  [ $q->param('fuzzy') ],
-                                            -title      =>  "less strict resolution of the input",
+                        $q->checkbox_group( -name       =>  'token',
+                                            -values     =>  [ 'Tokenized' ],
+                                            -default    =>  [ $q->param('token') ],
+                                            -title      =>  "consider each input word as one token",
                                             -linebreak  =>  0,
                                             -rows       =>  1,
                                             -columns    =>  1) ),
 
                     td( {-align => 'right', -style => "vertical-align: middle; padding-left: 20px"},
 
-                        $q->checkbox_group( -name       =>  'token',
-                                            -values     =>  [ 'Tokenized' ],
-                                            -default    =>  [ $q->param('token') ],
-                                            -title      =>  "consider each input word as one token",
+                        $q->checkbox_group( -name       =>  'fuzzy',
+                                            -values     =>  [ 'Fuzzy Notation' ],
+                                            -default    =>  [ $q->param('fuzzy') ],
+                                            -title      =>  "less strict resolution of the input",
                                             -linebreak  =>  0,
                                             -rows       =>  1,
                                             -columns    =>  1) ) ) );
@@ -328,13 +333,15 @@ sub main {
 
     my $mode = $q->param($c->mode_param());
 
+    my $text = $q->param('text');
+
     open T, '>', "$mode/index.$$.$session.tmp";
 
-    print T encode "utf8", $q->param('text');
+    print T encode "utf8", $text;
 
     close T;
 
-    my $code = exists $enc_hash{$q->param('code')} ? $enc_hash{$q->param('code')} : 'TeX';
+    my $code = exists $enc_hash{$q->param('code')} ? $enc_hash{$q->param('code')} : 'UTF';
 
     my $fuzzy = $q->param('fuzzy') ? '--fuzzy' : '';
 
