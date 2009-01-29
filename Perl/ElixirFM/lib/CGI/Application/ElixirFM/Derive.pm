@@ -214,12 +214,12 @@ sub main ($) {
 
     $r .= display_headline $c;
 
-    my @example = ( [ '(1320,1)',               'perfect active third imperative'                               ],
-                    [ '(1320,1)',               'perf act 3rd impa'                                             ],
-                    [ '(1320,1)',               '-P-A-3---- -C--------'                                         ],
-                    [ '(1320,3) (5370,14)',     'indicative subjunctive jussive indefinite reduced definite'    ],
-                    [ '(1320,3) (5370,14)',     'ind sub jus indf red def'                                      ],
-                    [ '(1320,3) (5370,14)',     '--[ISJ]------[IRD]'                                            ] );
+    my @example = ( [ '(1320,1)',               'verb noun adjective'                       ],
+                    [ '(1320,1)',               'verb masdar participle'                    ],
+                    [ '(1320,1)',               '[VN]--------- A---------'                  ],
+                    [ '(1320,3) (5370,14)',     'participle passive active masdar verb'     ],
+                    [ '(1320,3) (5370,14)',     'part pas act msd verb'                     ],
+                    [ '(1320,3) (5370,14)',     'A--[PA] N V'                               ] );
 
     if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
 

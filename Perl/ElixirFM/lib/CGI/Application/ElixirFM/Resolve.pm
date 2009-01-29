@@ -214,17 +214,10 @@ sub main ($) {
     my @example = ( [ 'Unicode',    decode "buckwalter", "AqrO Aldrs AlOwl" ],
                     [ 'ArabTeX',    "iqra' ad-darsa al-'awwala" ],
                     [ 'ArabTeX',    "ad-dars al-'awwal" ],
-                    [ 'ArabTeX',    "y`tbru m.d'N" ],
-                    [ 'ArabTeX',    "narY mqhN" ],
-                    [ 'ArabTeX',    ".hayATN ^gyydTN" ],
                     [ 'Buckwalter', "Aldrs AlOwl" ],
-                    [ 'Buckwalter', "yEtbr mDy}A" ],
                     [ 'Buckwalter', "AhlA wshlA" ],
-                    [ 'Buckwalter', "HyApN jydpN" ],
                     [ 'Unicode',    decode "buckwalter", "Aldrs AlOwl" ],
-                    [ 'Unicode',    decode "buckwalter", "yEtbr mDy}A" ],
-                    [ 'Unicode',    decode "buckwalter", "AhlA wshlA" ],
-                    [ 'Unicode',    decode "buckwalter", "HyApN jydpN" ] );
+                    [ 'Unicode',    decode "buckwalter", "AhlA wshlA" ] );
 
     if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
 
