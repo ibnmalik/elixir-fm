@@ -1044,7 +1044,7 @@ cluster_71  = cluster
  |> "' l y" <| [
 
     FaCL |< aT                `noun`    {- <'alyaT> -}         [ ['b','u','t','t','o','c','k'], ['b','a','c','k','s','i','d','e'] ]
-                              `plural`     FaCY |< At
+                              `plural`     FaCaL |< At
                               `plural`     FaCALY ]
 
  |> "' l y" <| [

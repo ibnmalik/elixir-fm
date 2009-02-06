@@ -519,7 +519,7 @@ cluster_45  = cluster
 
  |> "' t w" <| [
 
-    FiCAL |< aT               `noun`    {- <'itAwaT> -}        [ ['t','a','x'], ['t','r','i','b','u','t','e'], ['p','a','y','m','e','n','t','s'] ]
+    FiCAL |< aT               `noun`    {- <'itAwaT> -}        [ ['t','a','x'], ['t','r','i','b','u','t','e'], ['p','a','y','m','e','n','t'] ]
                               `plural`     FaCALY
                               `plural`     FiCAL |< At ]
 

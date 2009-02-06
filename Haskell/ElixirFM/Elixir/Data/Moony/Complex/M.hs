@@ -779,7 +779,7 @@ cluster_45  = cluster
     FaCA                      `verb`    {- <kabA> -}           [ ['s','t','u','m','b','l','e'] ]
                               `imperf`     FCU,
 
-    FaCA                      `verb`    {- <kabA> -}           [ unwords [ ['p','o','u','r'], ['o','u','t'] ], ['e','m','p','t','y'], unwords [ ['b','e'], ['p','o','u','r','e','d'], ['o','u','t'] ] ]
+    FaCA                      `verb`    {- <kabA> -}           [ unwords [ ['p','o','u','r'], ['o','u','t'] ], ['e','m','p','t','y'] ]
                               `imperf`     FCU,
 
     HaFCY                     `verb`    {- <'akbY> -}          [ ['m','i','s','f','i','r','e'], unwords [ ['f','a','i','l'], ['t','o'], ['l','i','g','h','t'] ] ],

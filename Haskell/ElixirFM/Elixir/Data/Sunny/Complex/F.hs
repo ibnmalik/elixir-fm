@@ -891,7 +891,7 @@ cluster_44  = cluster
 
     FACY                      `verb`    {- <.sAfY> -}          [ unwords [ ['b','e'], ['s','i','n','c','e','r','e'], ['w','i','t','h'] ], unwords [ ['d','e','a','l'], ['h','o','n','e','s','t','l','y'], ['w','i','t','h'] ] ],
 
-    HaFCY                     `verb`    {- <'a.sfY> -}         [ ['c','h','o','o','s','e'], ['p','r','e','f','e','r'], unwords [ ['b','e'], ['c','h','o','s','e','n'] ], unwords [ ['b','e'], ['p','r','e','f','e','r','r','e','d'] ] ],
+    HaFCY                     `verb`    {- <'a.sfY> -}         [ ['c','h','o','o','s','e'], ['p','r','e','f','e','r'] ],
 
     TaFACY                    `verb`    {- <ta.sAfY> -}        [ unwords [ ['b','e'], ['s','i','n','c','e','r','e'], ['w','i','t','h'], ['e','a','c','h'], ['o','t','h','e','r'] ], unwords [ ['d','e','a','l'], ['h','o','n','e','s','t','l','y'], ['w','i','t','h'], ['e','a','c','h'], ['o','t','h','e','r'] ] ],
 
@@ -903,8 +903,8 @@ cluster_44  = cluster
 
     TaFCI |< Iy               `adj`     {- <ta.sfawIy> -}      [ ['d','e','f','i','n','i','t','i','v','e'], ['r','a','d','i','c','a','l'] ],
 
-    FaCY |< aT                `noun`    {- <.safAT> -}         [ ['s','t','o','n','e'], ['r','o','c','k'] ]
-                              `plural`     FaCaL |< At,
+    FaCA |< aT                `noun`    {- <.safAT> -}         [ ['s','t','o','n','e'], ['r','o','c','k'] ]
+                              `plural`     FaCA |< At,
 
     FaCL                      `noun`    {- <.safw> -}          [ ['c','l','a','r','i','t','y'], ['p','u','r','i','t','y'] ],
 
@@ -1018,8 +1018,8 @@ cluster_48  = cluster
 
     FaCCY                     `verb`    {- <.sallY> -}         [ ['p','r','a','y'], ['w','o','r','s','h','i','p'] ],
 
-    FaCY |< aT                `noun`    {- <.salAT> -}         [ ['p','r','a','y','e','r'], ['s','a','l','a','t'] ]
-                              `plural`     FaCaL |< At,
+    FaCA |< aT                `noun`    {- <.salAT> -}         [ ['p','r','a','y','e','r'], ['s','a','l','a','t'] ]
+                              `plural`     FaCA |< At,
 
     MuFaCCI                   `adj`     {- <mu.sallI> -}       [ ['p','r','a','y','i','n','g'], ['w','o','r','s','h','i','p','p','i','n','g'] ],
 
@@ -1846,7 +1846,7 @@ cluster_96  = cluster
                               `imperf`     FCU,
 
     FaCL |< aT                `noun`    {- <.da.hwaT> -}       [ ['f','o','r','e','n','o','o','n'], ['m','o','r','n','i','n','g'] ]
-                              `plural`     FaCA |< At ]
+                              `plural`     FaCaL |< At ]
 
  |> ".d .h y" <| [
 

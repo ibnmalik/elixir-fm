@@ -1383,7 +1383,7 @@ cluster_65  = cluster
     MuFtaCY                   `noun`    {- <mu^stakY> -}       [ ['d','e','f','e','n','d','a','n','t'] ],
 
     MiFCY |< aT               `noun`    {- <mi^skAT> -}        [ unwords [ ['l','a','m','p'], ['n','i','c','h','e'] ], unwords [ ['l','a','m','p'], ['s','t','a','n','d'] ] ]
-                              `plural`     MiFCaL |< At
+                              `plural`     MiFCAL |< At
                               `plural`     MaFACI ]
 
 

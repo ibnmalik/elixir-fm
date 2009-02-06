@@ -111,10 +111,7 @@ cluster_7   = cluster
 
     MuFACiL                   `adj`     {- <mumAli'> -}        [ ['p','r','e','j','u','d','i','c','e','d'], ['b','i','a','s','e','d'], ['c','o','l','l','a','b','o','r','a','t','o','r'] ],
 
-    MuFtaCiL                  `noun`    {- <mumtali'> -}       [ ['f','u','l','l'], ['r','e','p','l','e','t','e'] ]
-                              `plural`     MuFtaCiL |< Un
-                           
-    `derives` otherwise,
+    MuFtaCiL                  `adj`     {- <mumtali'> -}       [ ['f','u','l','l'], ['r','e','p','l','e','t','e'] ],
 
     FaCAL |< Iy               `adj`     {- <malA'Iy> -}        [ ['M','a','l','a','w','i','a','n'] ] ]
 

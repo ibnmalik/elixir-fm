@@ -125,11 +125,9 @@ sub pretty_lookup_tree {
                 $xtag = join ' ', ElixirFM::retrieve($xtag);
                 $xtag = substr $xtag, 0, 1;
 
-
 	$info[4] = join " ", grep { defined $_ and $_ ne '' } @ents[0 .. 2];
 
     $info[5] = ElixirFM::merge($data->{'root'}, revert $info[0]);
-
 
         $q->table({-cellspacing => 0, -class => "lexeme"},
                 $q->Tr($q->td({-class => "xtag",
@@ -138,10 +136,10 @@ sub pretty_lookup_tree {
                                -title => "citation form"},           decode "zdmg", $info[5]),
                        $q->td({-class => "orth",
                                -title => "citation form"},           decode "arabtex", $info[5]),
-                       $q->td({-class => "atex",
-                               -title => "citation form"},           $info[5]),
+                       # $q->td({-class => "atex",
+                       #         -title => "citation form"},           $info[5]),
                        $q->td({-class => "root",
-                               -title => "root of citation form"},   $data->{'root'}),
+                               -title => "root of citation form"},   decode "zdmg", $data->{'root'}),
                        $q->td({-class => "morphs",
                                -title => "morphs of citation form"}, $info[0]),
                        $q->td({-class => "class",
@@ -182,17 +180,19 @@ sub pretty_derive_list {
 		   $q->td({-class => "xtag",
                    -title => ElixirFM::describe($data[0])}, $data[0]),
 		   $q->td({-class => "class",
-                   -title => "derivational class"},       $data[1]),
+                   -title => "derivational class"},         $data[1]),
 		   $q->td({-class => "phon",
-                   -title => "derived form"},             decode "zdmg",    $data[2]),
+                   -title => "derived form"},               decode "zdmg",    $data[2]),
 		   $q->td({-class => "orth",
-                   -title => "derived form"},             decode "arabtex", $data[2]),
-		   $q->td({-class => "atex",
-                   -title => "derived form"},             $data[2]),
+                   -title => "derived form"},               decode "arabtex", $data[2]),
+		   # $q->td({-class => "atex",
+           #         -title => "derived form"},             $data[2]),
 		   $q->td({-class => "root",
-                   -title => "root of derived form"},     $data[3]),
+                   -title => "root of derived form"},       decode "zdmg", $data[3]),
 		   $q->td({-class => "morphs",
-                   -title => "morphs of derived form"},   escape $data[4]) );
+                   -title => "morphs of derived form"},     escape $data[4]),
+           $q->td({-class => "dtag",
+                   -title => "grammatical parameters"},     ElixirFM::describe($data[0])) );
 }
 
 
@@ -249,11 +249,14 @@ sub main ($) {
         }
     }
 
-    $r .= display_welcome $c;
+    $r .= $q->p("ElixirFM lets you derive words of similar meaning but different grammatical category.",
+                "You only need to tell the desired grammatical categories.");
+
+    $r .= $q->p("You can either enter natural language descriptions, or you can specify the parameters using the positional morphological tags.");
 
     $r .= $q->h2('Your Request');
 
-    $r .= $q->start_form('-method' => 'POST');
+    $r .= $q->start_form(-method => 'POST');
 
     $r .= $q->table( {-border => 0},
 

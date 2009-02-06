@@ -1,5 +1,5 @@
 /*
-	List Expander 
+	List Expander
 */
 
 .listexpander{width:100%;}
@@ -14,10 +14,10 @@
 }
 .listexpander ul{
 	/*
-	Uncomment this if you want to initially hide the child lists. 
+	Uncomment this if you want to initially hide the child lists.
 	If you do, Javascript disabled and CSS enabled browsers will not be able to use this list.
 	display:none;
-	*/ 
+	*/
 }
 .listexpander li{
 	line-height:150%;
@@ -40,28 +40,28 @@
 }
 
 .listexpander li.collapsed,
-.listexpander li.expanded{cursor:pointer;} 
+.listexpander li.expanded{cursor:pointer;}
 
 /* first level */
 
 .listexpander li{background:#EEE8AA /*palegoldenrod*/;}
-.listexpander li.collapsed{background:#EEE8AA /*palegoldenrod*/ url(collapsed.gif) no-repeat 5px .4em;} 
+.listexpander li.collapsed{background:#EEE8AA /*palegoldenrod*/ url(collapsed.gif) no-repeat 5px .4em;}
 .listexpander li.expanded{background:#EEE8AA /*palegoldenrod*/ url(expanded.gif) no-repeat 5px .4em;}
 
-ul.listexpander li.empty{cursor:default;background:#f8e7e7 url(empty.gif) no-repeat 5px .4em;} 
+ul.listexpander li.empty{cursor:default;background:#f8e7e7 url(empty.gif) no-repeat 5px .4em;}
 
 /* second level */
 
 .listexpander li ul,
 .listexpander li li{background:#eed;font-weight:normal;}
-.listexpander li li.collapsed{background:#eed url(collapsed.gif) no-repeat 5px .5em;} 
+.listexpander li li.collapsed{background:#eed url(collapsed.gif) no-repeat 5px .5em;}
 .listexpander li li.expanded{background:#eed url(expanded.gif) no-repeat 5px .5em;}
 
 /* third level */
 
 .listexpander li li ul,
 .listexpander li li li{background:#ffe;}
-.listexpander li li li.collapsed{background:#ffe url(collapsed.gif) no-repeat 5px .5em;} 
+.listexpander li li li.collapsed{background:#ffe url(collapsed.gif) no-repeat 5px .5em;}
 .listexpander li li li.expanded{background:#ffe url(expanded.gif) no-repeat 5px .5em;}
 
 /* fourth level */
@@ -89,10 +89,10 @@ p.listexpander a:hover{
 
 /* float fix */
 .listexpander li:after{
-    content: "."; 
-    display: block; 
-    height: 0; 
-    clear: both; 
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
     visibility: hidden;
 }
 .listexpander li{

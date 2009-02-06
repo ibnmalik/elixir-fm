@@ -1336,6 +1336,8 @@ cluster_63  = cluster
     FaCaL                     `noun`    {- <`arab> -}          [ ['A','r','a','b','s'], ['b','e','d','o','u','i','n','s'] ]
                               `plural`     HaFCAL,
 
+    FaCaL |< Iy |< aT         `noun`    {- <`arabIyaT> -}      [ ['A','r','a','b','i','c'] ],
+
     FaCaL |< Iy               `adj`     {- <`arabIy> -}        [ ['A','r','a','b','i','c'], ['A','r','a','b'] ]
                               `plural`     FaCaL,
 

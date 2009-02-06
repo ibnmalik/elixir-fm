@@ -830,11 +830,12 @@ cluster_53  = cluster
 
  |> "^g d d" <| [
 
-    FaCL                      `noun`    {- <^gadd> -}          [ ['g','r','a','n','d','f','a','t','h','e','r'], ['g','r','a','n','d','m','o','t','h','e','r'], ['a','n','c','e','s','t','o','r','s'], ['g','r','a','n','d','p','a','r','e','n','t','s'] ]
+    FaCL                      `noun`    {- <^gadd> -}          [ ['g','r','a','n','d','f','a','t','h','e','r'], ['a','n','c','e','s','t','o','r'], ['g','r','a','n','d','p','a','r','e','n','t'] ]
                               `plural`     HaFCAL
-                              `plural`     FuCUL
-                           
-    `derives` otherwise ]
+                              `plural`     FuCUL,
+
+    FaCL |< aT                `noun`    {- <^gaddaT> -}        [ ['g','r','a','n','d','m','o','t','h','e','r'], ['a','n','c','e','s','t','o','r'], ['g','r','a','n','d','p','a','r','e','n','t'] ]
+                              `plural`     FaCL |< At ]
 
  |> "^g d d" <| [
 
@@ -1623,7 +1624,7 @@ cluster_84  = cluster
     IFtaCY                    `verb`    {- <i^gtanY> -}        [ ['g','a','t','h','e','r'], ['h','a','r','v','e','s','t'] ],
 
     FaCL                      `noun`    {- <^gany> -}          [ ['h','a','r','v','e','s','t'] ]
-                              `plural`     FaCY |< At,
+                              `plural`     FaCaL |< At,
 
     FaCY                      `noun`    {- <^ganY> -}          [ ['f','r','u','i','t','s'] ]
                               `plural`     HaFCA',

@@ -1956,7 +1956,8 @@ cluster_88  = cluster
 
     FuCUL |< Iy |< aT         `noun`    {- <rubUbIyaT> -}      [ ['d','i','v','i','n','i','t','y'], ['d','e','i','t','y'] ],
 
-    FACL                      `noun`    {- <rAbb> -}           [ ['s','t','e','p','f','a','t','h','e','r'] ],
+    FACL                      `noun`    {- <rAbb> -}           [ ['s','t','e','p','f','a','t','h','e','r'] ]
+                              `plural`     FACL |< Un,
 
     FACL |< aT                `noun`    {- <rAbbaT> -}         [ ['s','t','e','p','m','o','t','h','e','r'] ]
                               `plural`     FACL |< At,
@@ -2088,7 +2089,7 @@ cluster_93  = cluster
     FaCL                      `noun`    {- <ra_ty> -}          [ ['l','a','m','e','n','t','a','t','i','o','n'], ['m','o','u','r','n','i','n','g'] ],
 
     FaCL |< aT                `noun`    {- <ra_tyaT> -}        [ ['a','r','t','h','r','i','t','i','s'], ['g','o','u','t'] ]
-                              `plural`     FaCY |< At ]
+                              `plural`     FaCaL |< At ]
 
 
 cluster_94  = cluster

@@ -943,10 +943,10 @@ cluster_69  = cluster
     HaFCA'                    `noun`    {- <'a_tnA'> -}        [ ['m','e','a','n','w','h','i','l','e'], ['m','e','a','n','t','i','m','e'] ],
 
     FaCL |< aT                `noun`    {- <_tanyaT> -}        [ ['f','o','l','d'], ['c','r','e','a','s','e'] ]
-                              `plural`     FaCY |< At,
+                              `plural`     FaCaL |< At,
 
     FaCL |< aT                `noun`    {- <_tanyaT> -}        [ ['c','u','f','f'] ]
-                              `plural`     FaCY |< At,
+                              `plural`     FaCaL |< At,
 
     FaCIL |< aT               `noun`    {- <_tanIyaT> -}       [ ['i','n','c','i','s','o','r'], ['p','a','t','h'], ['i','n','s','i','d','e'] ]
                               `plural`     FaCALY,

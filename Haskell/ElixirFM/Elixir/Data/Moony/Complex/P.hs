@@ -263,10 +263,9 @@ cluster_8   = cluster
     TaFACuL                   `noun`    {- <tahAyu'> -}        [ unwords [ ['m','u','t','u','a','l'], ['a','d','a','p','t','a','t','i','o','n'] ], unwords [ ['m','u','t','u','a','l'], ['a','d','j','u','s','t','m','e','n','t'] ] ]
                               `plural`     TaFACuL |< At,
 
-    MuFaCCiL                  `noun`    {- <muhayyi'> -}       [ ['p','r','e','p','a','r','a','t','o','r','y'] ],
+    MuFaCCiL                  `adj`     {- <muhayyi'> -}       [ ['p','r','e','p','a','r','a','t','o','r','y'] ],
 
-    MuFaCCaL                  `noun`    {- <muhayya'> -}       [ ['p','r','e','p','a','r','e','d'] ]
-                              `plural`     MuFaCCaL |< Un ]
+    MuFaCCaL                  `adj`     {- <muhayya'> -}       [ ['p','r','e','p','a','r','e','d'] ] ]
 
 
 cluster_9   = cluster

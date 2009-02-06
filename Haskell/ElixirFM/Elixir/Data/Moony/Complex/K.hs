@@ -788,7 +788,7 @@ cluster_43  = cluster
     FiCY                      `noun`    {- <fidY> -}           [ ['r','a','n','s','o','m'], ['s','a','c','r','i','f','i','c','e'] ],
 
     FiCL |< aT                `noun`    {- <fidyaT> -}         [ ['r','a','n','s','o','m'] ]
-                              `plural`     FiCY |< At,
+                              `plural`     FiCaL |< At,
 
     FiCA'                     `noun`    {- <fidA'> -}          [ unwords [ ['s','e','l','f'], "-", ['s','a','c','r','i','f','i','c','e'] ] ],
 
@@ -884,7 +884,7 @@ cluster_48  = cluster
 
     FaCL                      `noun`    {- <farw> -}           [ ['f','u','r'], ['p','e','l','t'] ],
 
-    FaCL |< aT                `noun`    {- <farwaT> -}         [ ['f','u','r'], ['p','e','l','t','s'] ]
+    FaCL |< aT                `noun`    {- <farwaT> -}         [ ['f','u','r'], ['p','e','l','t'] ]
                               `plural`     FiCA'
                               `plural`     FaCaL |< At,
 
@@ -1445,8 +1445,8 @@ cluster_82  = cluster
 
     FaCA                      `noun`    {- <falA> -}           [ unwords [ ['o','p','e','n'], ['c','o','u','n','t','r','y'] ] ],
 
-    FaCY |< aT                `noun`    {- <falAT> -}          [ unwords [ ['o','p','e','n'], ['c','o','u','n','t','r','y'] ] ]
-                              `plural`     FaCaL |< At
+    FaCA |< aT                `noun`    {- <falAT> -}          [ unwords [ ['o','p','e','n'], ['c','o','u','n','t','r','y'] ] ]
+                              `plural`     FaCA |< At
                               `plural`     HaFCA',
 
     MaFACI                    `noun`    {- <mafAlI> -}         [ ['p','a','s','t','u','r','e','s'] ] ]

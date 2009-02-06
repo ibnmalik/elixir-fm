@@ -240,7 +240,9 @@ cluster_29  = cluster
     _____ |< Iy               `noun`    {- <t^sIkIy> -}        [ ['C','z','e','c','h'] ]
                               `plural`     _____
                            
-    `derives` otherwise ]
+    `derives` otherwise,
+
+    _____ |< Iy |< aT         `noun`    {- <t^sIkIyaT> -}      [ ['C','z','e','c','h'] ] ]
 
 
 cluster_30  = cluster
@@ -779,7 +781,10 @@ cluster_59  = cluster
     MaFCaL |< aT              `noun`    {- <ma_tla^gaT> -}     [ unwords [ ['c','o','l','d'], "-", ['s','t','o','r','a','g','e'], ['p','l','a','n','t'] ] ]
                               `plural`     MaFACiL,
 
-    MuFaCCaL                  `adj`     {- <mu_talla^g> -}     [ ['f','r','o','z','e','n'] ] ]
+    MuFaCCaL                  `adj`     {- <mu_talla^g> -}     [ ['f','r','o','z','e','n'] ],
+
+    MuFaCCaL                  `noun`    {- <mu_talla^g> -}     [ unwords [ ['i','c','e'], ['c','r','e','a','m'] ] ]
+                              `plural`     MuFaCCaL |< At ]
 
 
 cluster_60  = cluster

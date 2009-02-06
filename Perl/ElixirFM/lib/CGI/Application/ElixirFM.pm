@@ -17,7 +17,7 @@ use Benchmark;
 
 use base 'Exporter';
 
-our @EXPORT = (qw 'display_header display_headline display_welcome display_footline display_footer',
+our @EXPORT = (qw 'display_header display_headline display_welcome display_footline display_footer display_keys',
                qw 'escape revert normalize tick mytimestr',
                qw '$elixir $session @modes %enc_hash @enc_list');
 
@@ -30,7 +30,7 @@ our %enc_hash = (   'ArabTeX'       =>      'TeX',
 
 our @enc_list = reverse sort keys %enc_hash;
 
-our @modes = qw 'resolve inflect derive lookup';
+our @modes = qw 'home resolve inflect derive lookup';
 
 our $elixir = './elixir';
 
@@ -44,13 +44,13 @@ sub setup {
 
     no strict;
 
-    $c->run_modes(map { $_ => \&{__PACKAGE__ . '::' . (ucfirst $_) . '::main'} } @modes);
+    $c->run_modes('home' => \&{__PACKAGE__ . '::main'}, map { $_ => \&{__PACKAGE__ . '::' . (ucfirst $_) . '::main'} } @modes[1 .. @modes - 1]);
 
     use strict;
 
     $c->mode_param('mode');
 
-    $c->start_mode('resolve');
+    $c->start_mode('home');
 }
 
 
@@ -108,6 +108,8 @@ sub normalize ($) {
     $text =~ tr[\x{06CC}][\x{064A}];
     $text =~ tr[\x{0640}][]d;
 
+    $text =~ s/\x{0627}\x{064B}(?!\p{Arabic})/\x{064B}\x{0627}/g;
+
     $text =~ s/aa/A/g;
     $text =~ s/ii/I/g;
     $text =~ s/uu/U/g;
@@ -139,12 +141,13 @@ sub display_header ($) {
 
     $q->charset('utf-8');
 
-    $r .= $q->start_html('-title'  => "ElixirFM 1.1 Online Interface #" . $session, '-encoding' => $q->charset(),
-                         '-meta'   => { 'keywords' => join ' ', 'Arabic morphological analyzer analysis generator generation',
-                                        'morphology lexicon dictionary lookup inflection derivation rules grammar language' },
-                         '-style'  => [ {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/elixir.css', '-type' => 'text/css'},
-                                        {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/listexpander/listexpander.css', '-type' => 'text/css'} ],
-                         '-script' => [ {'-src' => 'http://quest.ms.mff.cuni.cz/elixir/listexpander/listexpander.js', '-type' => 'text/javascript'} ]);
+    $r .= $q->start_html(-title  => "ElixirFM 1.1 Online Interface", -encoding => $q->charset(),
+                         -meta   => { -keywords => join ' ', 'Arabic morphological analyzer analysis generator generation',
+                                                             'morphology lexicon dictionary lookup inflection derivation rules grammar language' },
+                         -style  => [ {-src => 'http://quest.ms.mff.cuni.cz/elixir/elixir.css', -type => 'text/css'},
+                                      {-src => 'http://quest.ms.mff.cuni.cz/elixir/listexpander/listexpander.css', -type => 'text/css'} ],
+                         -script => [ {-src => 'http://quest.ms.mff.cuni.cz/elixir/elixir.js', -type => 'text/javascript'},
+                                      {-src => 'http://quest.ms.mff.cuni.cz/elixir/listexpander/listexpander.js', -type => 'text/javascript'} ]);
 
     return $r;
 }
@@ -153,9 +156,10 @@ sub display_headline ($) {
 
     my $c = shift;
     my $q = $c->query();
+    my $m = $q->param($c->mode_param());
     my $r;
 
-    $r .= $q->h1($q->a({'href' => 'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM 1.1"), ucfirst $q->param($c->mode_param()), 'Online');
+    $r .= $q->h1($q->a({'href' => 'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM 1.1"), ( $m eq 'home' ? ('Online', 'Interface') : (ucfirst $m, 'Online') ));
 
     $r .= $q->div({-class => "menu"},
                   map { $q->param($c->mode_param()) eq $_ ? $q->span(ucfirst $_) : $q->a({'href' => 'index.fcgi?mode=' . $_}, ucfirst $_) } @modes);
@@ -170,7 +174,7 @@ sub display_welcome ($) {
     my $r;
 
     $r .= $q->p("Welcome to the online interface to",
-                $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/ElixirFM/'}, "ElixirFM") . ", the implementation of",
+                $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM") . ", the implementation of",
                 $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/elixir-thesis.pdf'}, "Functional Arabic Morphology"),
                 "written in Haskell and Perl.");
 
@@ -207,7 +211,7 @@ sub display_footer ($$) {
     my $q = $c->query();
     my $r;
 
-    $r .= $q->p({'style' => 'color: white; height: 31px'},
+    $r .= $q->p({'style' => 'height: 31px'},
 
                 $q->a({'style' => 'float: right',
                        'href'  => "http://jigsaw.w3.org/css-validator/check?uri=referer"},
@@ -223,12 +227,43 @@ sub display_footer ($$) {
                                'alt' => "Valid XHTML 1.0 Transitional",
                                'height' => "31", 'width' => "88"})),
 
-                "Processing time", $t, "seconds.");
+                ( defined $q->param('time') ? ("Request number", $session, "processed in", $t, "seconds.") : ('') ));
+
+    $r .= $q->script({-type => 'text/javascript', -src => 'http://api.yamli.com/js/yamli_api.js'}, "");
+
+    $r .= $q->script({-type => 'text/javascript'}, join ' ', qw {
+
+                            if (typeof(Yamli) == "object") {
+
+                                Yamli.init({ uiLanguage: "en", startMode: "onOrUserDefault",
+                                             settingsPlacement: 'inside',
+                                             showTutorialLink: false, showDirectionLink: false });
+
+                                yamli('text');
+                            }
+                    });
 
     $r .= $q->end_html();
 
     return $r;
 }
+
+
+sub display_keys ($) {
+
+    my $q = shift;
+
+    return '';
+
+    return $q->div({'class' => 'keys'}, (map { $q->span({'onclick' => 'insertkey("' . (chr $_) . '")'}, " " . (chr $_) . " ") } 0x0621 .. 0x063A, 0x0641 .. 0x064A),
+                                        (map { $q->span({'onclick' => 'insertkey("' . (chr $_) . '")'}, " \x{0640}" . (chr $_) . " ") } 0x064B .. 0x0652, 0x0670),
+                                        (map { $q->span({'onclick' => 'insertkey("' . $_ . '")'}, $_) } 'Clear', 'Back', 'Space' ));
+
+    return $q->div({'class' => 'keys'}, (map { $q->span({'onclick' => 'insertkey("' . (chr $_) . '")'}, " " . (chr $_) . " ") } 0x0621 .. 0x063A, 0x0641 .. 0x064A),
+                                        (map { $q->span({'onclick' => 'insertkey("' . (chr $_) . '")'}, " \x{0640}" . (chr $_) . " ") } 0x064B .. 0x0652, 0x0670),
+                                        (map { $q->span({'onclick' => 'insertkey("' . $_ . '")'}, $_) } 'Clear', 'Back', 'Space' ));
+}
+
 
 sub show_param ($@) {
 
@@ -253,6 +288,71 @@ require CGI::Application::ElixirFM::Inflect;
 require CGI::Application::ElixirFM::Derive;
 
 require CGI::Application::ElixirFM::Lookup;
+
+
+sub main ($) {
+
+    my $c = shift;
+
+    my $q = $c->query();
+
+    my $r = '';
+
+    my @tick = ();
+
+    $q->param($c->mode_param(), 'home');
+
+    tick @tick;
+
+    $r .= display_header $c;
+
+    $r .= display_headline $c;
+
+    $r .= $q->p("Welcome to the online interface to",
+                $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM") . ", the implementation of",
+                $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/elixir-thesis.pdf'}, "Functional Arabic Morphology"),
+                "written in Haskell and Perl.");
+
+    $r .= $q->p("ElixirFM can process words of", $q->a({-href => 'http://en.wikipedia.org/wiki/Dictionary_of_Modern_Written_Arabic'},
+                "Modern Written Arabic"), "using four different modes.", "Here, you can learn how to use these modes for various purposes.");
+
+    $r .= $q->h2('Resolve');
+
+    $r .= $q->p("This mode provides tokenization and morphological analysis of the inserted text,",
+                "even if you omit some symbols or do not spell everything correctly.");
+
+    $r .= $q->p("You can experiment with entering the text in various notations.");
+
+    # $r .= $q->p("You can check the 'Fuzzy Notation' option due to which the resolution of the input words is less strict.");
+
+    $r .= $q->h2('Inflect');
+
+    $r .= $q->p("This mode lets you inflect words into the forms required by context.",
+                "You only need to define the grammatical parameters of the expected word forms.");
+
+    $r .= $q->p("You can either enter natural language descriptions, or you can specify the parameters using the positional morphological tags.");
+
+    $r .= $q->h2('Derive');
+
+    $r .= $q->p("This mode lets you derive words of similar meaning but different grammatical category.",
+                "You only need to tell the desired grammatical categories.");
+
+    $r .= $q->p("You can either enter natural language descriptions, or you can specify the parameters using the positional morphological tags.");
+
+    $r .= $q->h2('Lookup');
+
+    $r .= $q->p("This mode can lookup lexical entries by the citation form and nests of entries by the root,",
+                "and lets you search also in the English translations.");
+
+    $r .= $q->p("You can try enclosing the text in quotes if needed.");
+
+
+    $r .= display_footline $c;
+
+    $r .= display_footer $c, '';
+
+    return $r;
+}
 
 
 1;

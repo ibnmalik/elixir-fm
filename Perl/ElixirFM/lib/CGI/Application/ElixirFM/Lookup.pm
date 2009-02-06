@@ -49,18 +49,14 @@ sub pretty_lookup_data {
 
     my $q = $_[1];
 
-    my $text = '';
-
-    $text .= decode "zdmg", $_->{'root'};
-    $text .= " ";
-    $text .= decode "arabtex", ElixirFM::cling($_->{'root'});
+    my $root = join " ", (decode "zdmg", $_->{'root'}), (decode "arabtex", ElixirFM::cling($_->{'root'}));
 
     my ($clip) = $data->{'clip'} =~ /^\( (-?[0-9]+) , (?: Nothing | Just \[ ([^\]]*) \] ) \)$/x;
 
     $clip = "($clip,Nothing)";
 
     return $q->table({-cellspacing => 0, -class => "nest"},
-                     $q->Tr($q->td({-class => "root"}, escape $text),
+                     $q->Tr($q->td({-class => "root"}, escape $root),
                             $q->td({-class => "button"},
                                    $q->a({-title => "lookup in the lexicon",
                                           -href => 'index.fcgi?mode=lookup' . '&text=' . $clip}, "Lookup"))
@@ -134,10 +130,10 @@ sub pretty_lookup_tree {
                                -title => "citation form"},           decode "zdmg", $info[5]),
                        $q->td({-class => "orth",
                                -title => "citation form"},           decode "arabtex", $info[5]),
-                       $q->td({-class => "atex",
-                               -title => "citation form"},           $info[5]),
+                       # $q->td({-class => "atex",
+                       #         -title => "citation form"},           $info[5]),
                        $q->td({-class => "root",
-                               -title => "root of citation form"},   $data->{'root'}),
+                               -title => "root of citation form"},   decode "zdmg", $data->{'root'}),
                        $q->td({-class => "morphs",
                                -title => "morphs of citation form"}, $info[0]),
                        $q->td({-class => "class",
@@ -208,11 +204,14 @@ sub main ($) {
         }
     }
 
-    $r .= display_welcome $c;
+    $r .= $q->p("ElixirFM can lookup lexical entries by the citation form and nests of entries by the root.",
+                "You can even search the dictionary using English.");
+
+    $r .= $q->p("You can try enclosing the text in quotes if needed.");
 
     $r .= $q->h2('Your Request');
 
-    $r .= $q->start_form('-method' => 'POST');
+    $r .= $q->start_form(-method => 'POST', -onreset => "yamli('text')");
 
     $r .= $q->table( {-border => 0},
 
@@ -221,6 +220,7 @@ sub main ($) {
                     td( {-colspan => 3},
 
                         $q->textfield(  -name       =>  'text',
+                                        -id         =>  'text',
                                         -default    =>  $q->param('text'),
                                         -size       =>  60,
                                         -maxlength  =>  100) ),
@@ -230,6 +230,7 @@ sub main ($) {
                         $q->radio_group(-name       =>  'code',
                                         -values     =>  [ @enc_list ],
                                         -default    =>  $q->param('code'),
+                                        -onchange   =>  "yamli('text')",
                                         -attributes =>  { 'ArabTeX'    => {-title => "internal phonology-oriented notation"},
                                                           'Buckwalter' => {-title => "letter-by-letter romanization"},
                                                           'Unicode'    => {-title => "original script and orthography"} },
@@ -245,11 +246,9 @@ sub main ($) {
 
     $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
 
+    $r .= display_keys $q;
+
     $r .= $q->end_form();
-
-    $r .= $q->p("ElixirFM can lookup lexical entries by the citation form and nests of entries by the root, and lets you search also in translations.");
-
-    $r .= $q->p("You can try enclosing the text in quotes if needed.");
 
     $r .= $q->h2('ElixirFM Reply');
 

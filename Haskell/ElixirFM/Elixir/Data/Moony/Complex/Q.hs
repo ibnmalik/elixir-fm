@@ -1254,10 +1254,7 @@ cluster_53  = cluster
 
     FACiL                     `adj`     {- <wA.ti'> -}         [ ['l','o','w'], ['s','u','b','d','u','e','d'] ],
 
-    MuFaCCiL                  `noun`    {- <muwa.t.ti'> -}     [ ['p','r','e','d','i','s','p','o','s','i','n','g'], unwords [ ['p','r','e','p','a','r','i','n','g'], ['t','h','e'], ['w','a','y'] ], ['p','i','o','n','e','e','r'], unwords [ ['p','r','e','d','i','s','p','o','s','i','n','g'], ['f','a','c','t','o','r','s'] ] ]
-                              `plural`     MuFaCCiL |< Un
-                           
-    `derives` otherwise ]
+    MuFaCCiL                  `adj`     {- <muwa.t.ti'> -}     [ ['p','r','e','d','i','s','p','o','s','i','n','g'], unwords [ ['p','r','e','p','a','r','i','n','g'], ['t','h','e'], ['w','a','y'] ], ['p','i','o','n','e','e','r'] ] ]
 
 
 cluster_54  = cluster

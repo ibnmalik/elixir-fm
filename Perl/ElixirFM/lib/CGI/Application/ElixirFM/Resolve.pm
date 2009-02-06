@@ -65,30 +65,34 @@ sub pretty_resolve_data {
 
     my $data = $_[0];
 
+    my $q = $_[1];
+
     my $text = '';
 
     if ($data->{'type'} == 2) {
 
         $text = join " ", map { my $x = $_; $x = $x eq '<>' ? '???' : substr $x, 1, -1;
 
-                                join " ", map { decode "zdmg", $_ } split " ", $x } @{$data->{'info'}};
+                                join " ", map { escape decode "zdmg", $_ } split " ", $x } @{$data->{'info'}};
     }
     else {
 
         enmode "buckwalter", 'noneplus';
 
-        $text = join " .. ", map { my $x = $_; $x = $x eq '<>' ? '???' : substr $x, 1, -1;
+        $text = join " " . $q->span({-style => 'width: 10px'}, " "). " ",
 
-                                   join " ", ElixirFM::nub { $_[0] } map {
+                          map { my $x = $_; $x = $x eq '<>' ? '???' : substr $x, 1, -1;
 
-                                       decode "buckwalter", encode "buckwalter",
+                                join " ", ElixirFM::nub { $_[0] } map {
 
-                                       decode "arabtex", $_ } grep { $_ ne ".." } split " ", $x } @{$data->{'info'}};
+                                    escape decode "buckwalter", encode "buckwalter", decode "arabtex", $_
+
+                                } grep { $_ ne ".." } split " ", $x } @{$data->{'info'}};
 
         enmode "buckwalter", 'default';
     }
 
-    return escape $text;
+    return $text;
 }
 
 sub pretty_resolve_tree {
@@ -101,15 +105,15 @@ sub pretty_resolve_tree {
 
     return $q->li([ map {
 
-	   pretty_resolve_data($_->{'data'}) . "\n" . $q->ul($q->li([ map {
+	   $q->span({-title => "possible tokenization"}, pretty_resolve_data($_->{'data'}, $q)) . "\n" . $q->ul($q->li([ map {
 
-	   pretty_resolve_data($_->{'data'}) . "\n" . $q->ul($q->li([ map {
+	   $q->span({-title => "token form variants"}, pretty_resolve_data($_->{'data'}, $q)) . "\n" . $q->ul($q->li([ map {
 
-	my @tokens = @{$_->{'node'}};
+	my @tokens = ElixirFM::concise map { $_->{'data'}{'info'} } @{$_->{'node'}};
 
 	my @info = @{$_->{'data'}{'info'}};
 
-	my $xcat = substr $tokens[0]->{'data'}{'info'}[0], 0, 1;
+	my $xcat = substr $tokens[0]->[0], 0, 1;
 
 	my @ents = ();
 
@@ -129,6 +133,7 @@ sub pretty_resolve_tree {
 
 	$info[-2] = substr $info[-2], 1, -1;  # == $info[5]
 
+    my $root = join " ", (decode "zdmg", $info[-2]), (decode "arabtex", ElixirFM::cling($info[-2]));
 
 	( join $",
 
@@ -139,10 +144,10 @@ sub pretty_resolve_tree {
                                -title => "citation form"},           decode "zdmg", $info[-3]),
                        $q->td({-class => "orth",
                                -title => "citation form"},           decode "arabtex", $info[-3]),
-                       $q->td({-class => "atex",
-                               -title => "citation form"},           $info[-3]),
+                       # $q->td({-class => "atex",
+                       #         -title => "citation form"},           $info[-3]),
                        $q->td({-class => "root",
-                               -title => "root of citation form"},   $info[-2]),
+                               -title => "root of citation form"},   $root),
                        $q->td({-class => "morphs",
                                -title => "morphs of citation form"}, escape $info[-1]),
                        $q->td({-class => "class",
@@ -164,9 +169,13 @@ sub pretty_resolve_tree {
 
 	  $q->ul($q->li($q->table({-cellspacing => 0},
 
-                    $q->Tr([ map { my @info = @{$_->{'data'}{'info'}};
+                    $q->Tr([ map { my @info = @{$_};
 
                             $info[-2] = substr $info[-2], 1, -1;
+
+                            $info[-1] = escape $info[-1];
+
+                            # $info[-1] =~ s/((?:\&gt;)+\||\|(?:\&lt;)+)/\<span style="color:darkred"\>$1\<\/span\>/g;
 
                             ( join $",
 
@@ -176,12 +185,14 @@ sub pretty_resolve_tree {
                                         -title => "inflected form"},             decode "zdmg", $info[-3]),
                                 $q->td({-class => "orth",
                                         -title => "inflected form"},             decode "arabtex", $info[-3]),
-                                $q->td({-class => "atex",
-                                        -title => "inflected form"},             $info[-3]),
+                                # $q->td({-class => "atex",
+                                #         -title => "inflected form"},             $info[-3]),
                                 $q->td({-class => "root",
-                                        -title => "root of inflected form"},     $info[-2]),
+                                        -title => "root of inflected form"},     decode "zdmg", $info[-2]),
                                 $q->td({-class => "morphs",
-                                        -title => "morphs of inflected form"},   escape $info[-1]) )
+                                        -title => "morphs of inflected form"},   $info[-1]),
+                                $q->td({-class => "dtag",
+                                        -title => "grammatical parameters"},     ElixirFM::describe($info[0])) )
 
                         } @tokens ] ) )) ) )
 
@@ -253,11 +264,13 @@ sub main ($) {
     $q->param('fuzzy', '') unless defined $q->param('fuzzy');
     $q->param('token', '') unless defined $q->param('token');
 
-    $r .= display_welcome $c;
+    $r .= $q->p("ElixirFM can analyze non-tokenized as well as tokenized words, even if you omit some symbols or do not spell everything correctly.");
+
+    $r .= $q->p("You can experiment with entering the text in various notations.");
 
     $r .= $q->h2('Your Request');
 
-    $r .= $q->start_form('-method' => 'POST');
+    $r .= $q->start_form(-method => 'POST', -onreset => "yamli('text')");
 
     $r .= $q->table( {-border => 0},
 
@@ -266,6 +279,7 @@ sub main ($) {
                     td( {-colspan => 3},
 
                         $q->textfield(  -name       =>  'text',
+                                        -id         =>  'text',
                                         -default    =>  $q->param('text'),
                                         -size       =>  60,
                                         -maxlength  =>  100) ),
@@ -275,6 +289,7 @@ sub main ($) {
                         $q->radio_group(-name       =>  'code',
                                         -values     =>  [ @enc_list ],
                                         -default    =>  $q->param('code'),
+                                        -onchange   =>  "yamli('text')",
                                         -attributes =>  { 'ArabTeX'    => {-title => "internal phonology-oriented notation"},
                                                           'Buckwalter' => {-title => "letter-by-letter romanization"},
                                                           'Unicode'    => {-title => "original script and orthography"} },
@@ -310,15 +325,11 @@ sub main ($) {
 
     $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
 
+    $r .= display_keys $q;
+
     $r .= $q->end_form();
 
-    $r .= $q->p("ElixirFM can analyze non-tokenized as well as tokenized words, even if you omit some symbols or do not spell everything correctly.");
-
-    $r .= $q->p("You can experiment with entering the text in various notations.");
-
     $r .= $q->h2('ElixirFM Reply');
-
-  # $r .= $q->p({-class => 'notice'}, "You have checked the 'Fuzzy Notation' option due to which the resolution of the input words is less strict.") if $q->param('fuzzy');
 
     $r .= $q->p({-class => 'notice'}, "Click on the items in the list of solutions below in order to display or hide their contents.");
 
@@ -372,7 +383,7 @@ sub main ($) {
 
     $r .= display_footer $c, $time;
 
-    return encode "utf8", $r;
+    return $r;
 }
 
 

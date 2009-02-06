@@ -49,6 +49,10 @@ body {
     background-color: white;
 }
 
+p {
+    margin: 12px 0px;
+}
+
 table {
     margin: 0px;
     margin-bottom: 10px;
@@ -156,7 +160,7 @@ h2 {
     border-style: solid;
     border-color: #DAA520 /*goldenrod*/;
     padding: 2px 5px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 h3 {
@@ -168,6 +172,7 @@ h3 {
     border-style: solid;
     border-color: #FFD700 /*gold*/;
     padding: 2px 5px;
+    margin-bottom: 10px;
 }
 
 h3 span {
@@ -258,8 +263,28 @@ span {
     color: #FFD700 /*gold*/;
 }
 
+div.keys {
+    width: 50%;
+    line-height: 150%;
+    font-weight: bold;
+    text-align: right;
+    display: table;
+    /*white-space: nowrap;*/
+}
+
+.keys span {
+    width: 5em;
+    border: 1px solid #ddd;
+    margin-right: 0em;
+    background-color: white;
+    text-align: center;
+    display: table-cell;
+    /* position: relative; */
+    /* left: 200px; */
+}
+
 div.menu {
-    min-width: 10em;
+    /* min-width: 10em; */
     /* line-height: 0%; */
     font-weight: bold;
     text-align: right;

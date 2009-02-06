@@ -115,8 +115,7 @@ instance Rules String where
     prefixVerbC _   _       = "i"
 
 
-    isInert _ x | (not . null) x && last x `elem` "AIU" = True
-                | otherwise                             = False
+    isInert _ x = (not . null) x && last x `elem` "AIU"
 
 
     isDiptote x = case letters x of [_, "a", _, "A", _, "i", _] -> True

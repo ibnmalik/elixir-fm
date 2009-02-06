@@ -49,8 +49,7 @@ instance Rules PatternL where
     isForm I Identity = True
     isForm _ _        = False
 
-    isInert r _ | (not . null) r && last r `elem` "AIU" = True
-                | otherwise                             = False
+    isInert r _ = (not . null) r && last r `elem` "AIU"
 
 
 instance Forming PatternL where

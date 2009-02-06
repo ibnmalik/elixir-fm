@@ -961,16 +961,16 @@ cluster_40  = cluster
 
  |> "s d y" <| [
 
-    FaCCY                     `verb`    {- <saddY> -}          [ ['c','o','n','f','e','r'], unwords [ ['b','e'], ['c','o','n','f','e','r','r','e','d'] ] ],
+    FaCCY                     `verb`    {- <saddY> -}          [ ['c','o','n','f','e','r'] ],
 
-    HaFCY                     `verb`    {- <'asdY> -}          [ ['c','o','n','f','e','r'], ['r','e','n','d','e','r'], unwords [ ['b','e'], ['c','o','n','f','e','r','r','e','d'] ] ],
+    HaFCY                     `verb`    {- <'asdY> -}          [ ['c','o','n','f','e','r'], ['r','e','n','d','e','r'] ],
 
     FaCY                      `noun`    {- <sadY> -}           [ unwords [ ['p','r','e','v','a','i','l','i','n','g'], ['t','r','a','i','t'] ] ]
                               `plural`     HaFCI |< aT,
 
     FaCY |< aT                `noun`    {- <sadAT> -}          [ ['w','a','r','p'], ['t','h','r','e','a','d'] ],
 
-    FuCY                      `noun`    {- <sudY> -}           [ unwords [ ['i','n'], ['v','a','i','n'] ], ['f','u','t','i','l','e','l','y'], ['v','a','i','n'], ['f','u','t','i','l','e'] ] ]
+    FuCY                      `noun`    {- <sudY> -}           [ ['v','a','i','n'], ['f','u','t','i','l','e'] ] ]
 
 
 cluster_41  = cluster
@@ -1850,9 +1850,7 @@ cluster_83  = cluster
     FAL                       `noun`    {- <sA^g> -}           [ ['t','e','a','k'], unwords [ ['I','n','d','i','a','n'], ['o','a','k'] ] ]
                               `plural`     FILAn,
 
-    FAL |< At                 `noun`    {- <sA^gAt> -}         [ ['c','a','s','t','a','n','e','t','s'] ]
-                           
-    `limited` "-------P--" ]
+    FAL |< At                 `noun`    {- <sA^gAt> -}         [ ['c','a','s','t','a','n','e','t','s'] ] ]
 
 
 cluster_84  = cluster

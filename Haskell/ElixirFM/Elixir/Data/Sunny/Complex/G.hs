@@ -730,8 +730,7 @@ cluster_33  = cluster
                            
     `derives` otherwise,
 
-    MuFCaL                    `adj`     {- <mu.tfa'> -}        [ ['e','x','t','i','n','g','u','i','s','h','e','d'] ]
-                              `plural`     MuFCaL |< At,
+    MuFCaL                    `adj`     {- <mu.tfa'> -}        [ ['e','x','t','i','n','g','u','i','s','h','e','d'] ],
 
     MunFaCiL                  `adj`     {- <mun.tafi'> -}      [ ['e','x','t','i','n','g','u','i','s','h','e','d'] ] ]
 
@@ -1555,7 +1554,7 @@ cluster_66  = cluster
     FaCI                      `noun`    {- <.zabI> -}          [ ['D','h','a','b','i'] ],
 
     FaCL |< aT                `noun`    {- <.zabyaT> -}        [ ['g','a','z','e','l','l','e'] ]
-                              `plural`     FaCY |< At,
+                              `plural`     FaCaL |< At,
 
     FuCLAn |< Iy              `adj`     {- <.zubyAnIy> -}      [ unwords [ ['f','r','o','m'], "/", ['o','f'], ['A','b','u'], ['D','h','a','b','i'] ] ] ]
 

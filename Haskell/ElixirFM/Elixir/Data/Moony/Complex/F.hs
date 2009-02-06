@@ -1448,11 +1448,9 @@ cluster_87  = cluster
     FuCLY |< Iy               `adj`     {- <bunyawIy> -}       [ ['s','t','r','u','c','t','u','r','a','l'] ],
 
     FiCL |< aT                `noun`    {- <binyaT> -}         [ ['s','t','r','u','c','t','u','r','e'], unwords [ ['m','a','k','e'], "-", ['u','p'] ] ]
-                              `plural`     FiCY
-                              `plural`     FuCY,
+                              `plural`     FiCY,
 
     FuCL |< aT                `noun`    {- <bunyaT> -}         [ ['s','t','r','u','c','t','u','r','e'], unwords [ ['m','a','k','e'], "-", ['u','p'] ] ]
-                              `plural`     FiCY
                               `plural`     FuCY,
 
     FiCA' |< Iy               `adj`     {- <binA'Iy> -}        [ ['s','t','r','u','c','t','u','r','a','l'], ['a','r','c','h','i','t','e','c','t','u','r','a','l'] ],

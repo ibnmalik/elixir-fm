@@ -41,7 +41,7 @@ sub pretty ($$$) {
 
         $r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($text[$i], $q));
 
-        $r .= $q->table({-cellspacing => 0}, "\n", map { pretty_inflect_list($_, $q) } @{$word[$i]});
+        $r .= $q->table({-cellspacing => 0}, "\n", map { pretty_inflect_list($_, $q) } ElixirFM::concise @{$word[$i]});
     }
 
     return $r;
@@ -125,11 +125,9 @@ sub pretty_lookup_tree {
                 $xtag = join ' ', ElixirFM::retrieve($xtag);
                 $xtag = substr $xtag, 0, 1;
 
-
 	$info[4] = join " ", grep { defined $_ and $_ ne '' } @ents[0 .. 2];
 
     $info[5] = ElixirFM::merge($data->{'root'}, revert $info[0]);
-
 
         $q->table({-cellspacing => 0, -class => "lexeme"},
                 $q->Tr($q->td({-class => "xtag",
@@ -138,10 +136,10 @@ sub pretty_lookup_tree {
                                -title => "citation form"},           decode "zdmg", $info[5]),
                        $q->td({-class => "orth",
                                -title => "citation form"},           decode "arabtex", $info[5]),
-                       $q->td({-class => "atex",
-                               -title => "citation form"},           $info[5]),
+                       # $q->td({-class => "atex",
+                       #         -title => "citation form"},           $info[5]),
                        $q->td({-class => "root",
-                               -title => "root of citation form"},   $data->{'root'}),
+                               -title => "root of citation form"},   decode "zdmg", $data->{'root'}),
                        $q->td({-class => "morphs",
                                -title => "morphs of citation form"}, $info[0]),
                        $q->td({-class => "class",
@@ -184,12 +182,14 @@ sub pretty_inflect_list {
                    -title => "inflected form"},             decode "zdmg",    $data[1]),
 		   $q->td({-class => "orth",
                    -title => "inflected form"},             decode "arabtex", $data[1]),
-		   $q->td({-class => "atex",
-                   -title => "inflected form"},             $data[1]),
+		   # $q->td({-class => "atex",
+           #         -title => "inflected form"},             $data[1]),
 		   $q->td({-class => "root",
-                   -title => "root of inflected form"},     $data[2]),
+                   -title => "root of inflected form"},     decode "zdmg", $data[2]),
 		   $q->td({-class => "morphs",
-                   -title => "morphs of inflected form"},   escape $data[3]) );
+                   -title => "morphs of inflected form"},   escape $data[3]),
+           $q->td({-class => "dtag",
+                   -title => "grammatical parameters"},     ElixirFM::describe($data[0])) );
 }
 
 
@@ -246,11 +246,14 @@ sub main ($) {
         }
     }
 
-    $r .= display_welcome $c;
+    $r .= $q->p("ElixirFM lets you inflect words into the forms required by context.",
+                "You only need to define the grammatical parameters of the expected word forms.");
+
+    $r .= $q->p("You can either enter natural language descriptions, or you can specify the parameters using the positional morphological tags.");
 
     $r .= $q->h2('Your Request');
 
-    $r .= $q->start_form('-method' => 'POST');
+    $r .= $q->start_form(-method => 'POST');
 
     $r .= $q->table( {-border => 0},
 

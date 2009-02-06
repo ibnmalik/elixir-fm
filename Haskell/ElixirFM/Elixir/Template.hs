@@ -286,7 +286,7 @@ class Eq a => Rules a where
 
     isForm :: Form -> a -> Bool
 
-    isInert :: String -> a -> Bool
+    isInert :: Root -> a -> Bool
 
     isDiptote :: a -> Bool
 
@@ -411,9 +411,9 @@ instance Rules a => Rules (Morphs a) where
 
     isForm f (Morphs t _ _) = isForm f t
 
-    isInert r (Morphs t _ s) = case s of []             -> isInert r t
-                                         Suffix "A" : _ -> True
-                                         _              -> False
+    isInert r (Morphs t _ [])             = isInert r t
+    isInert r (Morphs t _ (Suffix x : _)) = (not . null) x && last x `elem` "AIU"
+    isInert _ _                           = False
 
     isDiptote (Morphs t [] []) = isDiptote t
     isDiptote _                = False

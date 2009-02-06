@@ -1373,8 +1373,8 @@ cluster_66  = cluster
 
     FaCA                      `noun`    {- <qa.tA> -}          [ unwords [ ['s','a','n','d'], ['g','r','o','u','s','e'] ] ],
 
-    FaCY |< aT                `noun`    {- <qa.tAT> -}         [ unwords [ ['s','a','n','d'], ['g','r','o','u','s','e'] ] ]
-                              `plural`     FaCaL |< At ]
+    FaCA |< aT                `noun`    {- <qa.tAT> -}         [ unwords [ ['s','a','n','d'], ['g','r','o','u','s','e'] ] ]
+                              `plural`     FaCA |< At ]
 
 
 cluster_67  = cluster
@@ -1712,9 +1712,9 @@ cluster_83  = cluster
 
     FuCL |< aT                `noun`    {- <qunwaT> -}         [ ['a','c','q','u','i','s','i','t','i','o','n'], ['p','o','s','s','e','s','s','i','o','n','s'], ['p','r','o','p','e','r','t','y'] ],
 
-    FaCY |< aT                `noun`    {- <qanAT> -}          [ ['c','a','n','a','l'], ['c','h','a','n','n','e','l'] ]
+    FaCA |< aT                `noun`    {- <qanAT> -}          [ ['c','a','n','a','l'], ['c','h','a','n','n','e','l'] ]
                               `plural`     HaFCI |< aT
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCA |< At,
 
     FaCY |< aT                `noun`    {- <qanAT> -}          [ ['Q','a','n','a','t'] ],
 

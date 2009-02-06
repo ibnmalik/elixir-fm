@@ -16,6 +16,37 @@ our $VERSION = '1.1' || do { q $Revision$ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 
 #
 # ##################################################################################################
 
+use subs 'foldr', 'foldl';
+
+sub foldr (&$@) {
+
+    my ($fun, $nil, @lst) = @_;
+
+    return $nil unless @lst;
+
+    return $fun->($lst[0], foldr $fun, $nil, @lst[1 .. @lst - 1]);
+}
+
+sub foldl (&$@) {
+
+    my ($fun, $nil, @lst) = @_;
+
+    return $nil unless @lst;
+
+    return foldl $fun, $fun->($nil, $lst[0]), @lst[1 .. @lst - 1];
+}
+
+sub nub (&@) {
+
+    my ($fun, @lst, %nub) = @_;
+
+    return grep { my $r = $fun->($_); exists $nub{$r} ? 0 : ++$nub{$r} } @lst;
+}
+
+# ##################################################################################################
+#
+# ##################################################################################################
+
 use Encode::Arabic;
 
 sub orth {
@@ -187,7 +218,7 @@ sub retrieve {
     	$one =~ /^imp(?:er)?/i          and push @{$tag[1]}, 'I',
     	                                                     'C' and next;
 
-    	$one =~ /^pers/i                and push @{$tag[1]}, 'P' and next;
+    	$one =~ /^pers(?:ona)?l/i       and push @{$tag[1]}, 'P' and next;
     	$one =~ /^dem/i                 and push @{$tag[1]}, 'D' and next;
     	$one =~ /^rel/i                 and push @{$tag[1]}, 'R' and next;
 
@@ -215,7 +246,7 @@ sub retrieve {
     	$one =~ /^pl/i                  and push @{$tag[7]}, 'P' and next;
 
     	$one =~ /^nom/i                 and push @{$tag[8]}, '1' and next;
-    	$one =~ /^gen/i                 and push @{$tag[8]}, '2' and next;
+    	$one =~ /^gen(?![dr])/i         and push @{$tag[8]}, '2' and next;
     	$one =~ /^acc/i                 and push @{$tag[8]}, '4' and next;
     	$one =~ /^obl/i                 and push @{$tag[8]}, '2',
                                                              '4' and next;
@@ -249,6 +280,18 @@ sub retrieve {
     	}
     }
 
+    if (not @{$tag[1]}) {
+
+        if (@{$tag[2]}) {
+
+            push @{$tag[1]}, 'I';
+        }
+        elsif (@{$tag[3]} or @{$tag[5]}) {
+
+            push @{$tag[1]}, 'P', 'I';
+        }
+    }
+
     my $tag = join "", map { @{$_} == 0 ? '-' : @{$_} == 1 ? $_->[0] : '[' . (join '', @{$_}) . ']' } @tag;
 
     unshift @tags, $tag unless $tag eq '-' x $dims;
@@ -277,6 +320,38 @@ sub prune {
                          } @{$node->{'node'}};
 
     return $node;
+}
+
+sub concise {
+
+    return @_ unless @_ > 1;
+
+    my @data = @_;
+
+    my $data = pop @data;
+
+    return foldr {
+
+            return @_ unless ref $_[0] eq 'ARRAY' and ref $_[1] eq 'ARRAY';
+
+            return @_ unless @{$_[0]} > 1 and @{$_[1]} > 1 and @{$_[0]} == @{$_[1]};
+
+            for (1 .. @{$_[0]} - 1) {
+
+                return @_ unless $_[0][$_] eq $_[1][$_];
+            }
+
+            my @fst = $_[0]->[0] =~ /^("?[A-Z1-4-]{6})([MF])([A-Z1-4-]{3}"?)$/;
+
+            my @snd = $_[1]->[0] =~ /^("?[A-Z1-4-]{6})([MF])([A-Z1-4-]{3}"?)$/;
+
+            return @_ unless @fst == 3 and @snd == 3;
+
+            return @_ unless $fst[0] eq $snd[0] and $fst[2] eq $snd[2] and $fst[1] ne $snd[1];
+
+            return [ $fst[0] . '-' . $fst[2], @{$_[0]}[1 .. @{$_[0]} - 1] ], @_[2 .. @_ - 1];
+
+        } $data, @data;
 }
 
 sub unpretty {
@@ -354,7 +429,7 @@ sub unpretty {
                                                             {
                                                                 'data'  =>  {
 
-                                                                    'info'  =>  [ split /[\n ]*\t/, $_ ],
+                                                                    'info'  =>  [ map { join ' ', split ' ' } split /[\n ]*\t/, $_ ],
                                                                     'type'  =>  0,
                                                                 },
 
@@ -437,33 +512,6 @@ sub unpretty {
 # ##################################################################################################
 #
 # ##################################################################################################
-
-use subs 'foldr', 'foldl';
-
-sub foldr (&$@) {
-
-    my ($fun, $nil, @lst) = @_;
-
-    return $nil unless @lst;
-
-    return $fun->($lst[0], foldr $fun, $nil, @lst[1 .. @lst - 1]);
-}
-
-sub foldl (&$@) {
-
-    my ($fun, $nil, @lst) = @_;
-
-    return $nil unless @lst;
-
-    return foldl $fun, $fun->($nil, $lst[0]), @lst[1 .. @lst - 1];
-}
-
-sub nub (&@) {
-
-    my ($fun, @lst, %nub) = @_;
-
-    return grep { my $r = $fun->($_); exists $nub{$r} ? 0 : ++$nub{$r} } @lst;
-}
 
 sub merge {
 
@@ -863,7 +911,7 @@ Otakar Smrz C<< <otakar smrz mff cuni cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright (C) 2005-2008 Otakar Smrz
+Copyright (C) 2005-2009 Otakar Smrz
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the GNU General Public License version 3.

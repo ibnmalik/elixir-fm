@@ -377,12 +377,12 @@ cluster_13  = cluster
 
     FaCL                      `noun`    {- <lahw> -}           [ ['e','n','t','e','r','t','a','i','n','m','e','n','t'], ['a','m','u','s','e','m','e','n','t'] ],
 
-    FaCY |< aT                `noun`    {- <lahAT> -}          [ ['u','v','u','l','a'] ]
+    FaCA |< aT                `noun`    {- <lahAT> -}          [ ['u','v','u','l','a'] ]
                               `plural`     FiCA'
-                              `plural`     FaCaL |< At
+                              `plural`     FaCA |< At
                               `plural`     FaCY |< At,
 
-    FaCY |< Iy                `adj`     {- <lahawIy> -}        [ ['u','v','u','l','a','r'] ],
+    FaCA |< Iy                `adj`     {- <lahawIy> -}        [ ['u','v','u','l','a','r'] ],
 
     MaFCY |< aT               `noun`    {- <malhAT> -}         [ unwords [ ['o','b','j','e','c','t'], ['o','f'], ['d','e','l','i','g','h','t'] ], ['c','o','m','e','d','y'] ],
 
@@ -1360,7 +1360,7 @@ cluster_65  = cluster
 
     IFtaCY                    `verb`    {- <intadY> -}         [ ['a','s','s','e','m','b','l','e'], ['c','o','n','v','e','n','e'] ],
 
-    FaCL |< aT                `noun`    {- <nadwaT> -}         [ ['s','e','m','i','n','a','r'], ['s','y','m','p','o','s','i','u','m'], ['s','y','m','p','o','s','i','a'], ['c','o','n','f','e','r','e','n','c','e'] ]
+    FaCL |< aT                `noun`    {- <nadwaT> -}         [ ['s','e','m','i','n','a','r'], ['s','y','m','p','o','s','i','u','m'], ['c','o','n','f','e','r','e','n','c','e'] ]
                               `plural`     FaCaL |< At,
 
     FaCLAn                    `noun`    {- <nadwAn> -}         [ ['m','o','i','s','t'], ['d','a','m','p'], ['g','e','n','e','r','o','u','s'] ],
@@ -1868,7 +1868,7 @@ cluster_81  = cluster
     FaCIL                     `noun`    {- <na`Iy> -}          [ ['b','l','a','m','e'], ['r','e','p','r','o','a','c','h'] ],
 
     FaCL |< aT                `noun`    {- <na`yaT> -}         [ unwords [ ['o','b','i','t','u','a','r','y'], ['n','o','t','i','c','e'] ] ]
-                              `plural`     FaCY |< At,
+                              `plural`     FaCaL |< At,
 
     MaFCY                     `noun`    {- <man`Y> -}          [ ['o','b','i','t','u','a','r','y'] ]
                               `plural`     MaFACI ]
