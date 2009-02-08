@@ -274,7 +274,9 @@ cluster_10  = cluster
 
     FuCLY                     `noun`    {- <lubnY> -}          [ ['L','u','b','n','a'] ],
 
-    FuCLAn                    `noun`    {- <lubnAn> -}         [ ['L','e','b','a','n','o','n'] ],
+    FuCLAn                    `noun`    {- <lubnAn> -}         [ ['L','e','b','a','n','o','n'] ]
+                           
+    `excepts` otherwise,
 
     FuCLAn |< Iy              `adj`     {- <lubnAnIy> -}       [ ['L','e','b','a','n','e','s','e'] ],
 

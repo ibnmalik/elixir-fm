@@ -78,6 +78,19 @@ sub cling {
     return $text;
 }
 
+sub nice {
+
+    my $morphs = morphs($_[0]);
+
+    $morphs->[0] = merge("", $morphs->[0]);
+
+    $morphs->[1] = [ map { $_ =~ /"/ ? showPrefix($_) : $_ } @{$morphs->[1]} ];
+
+    $morphs->[2] = [ map { $_ =~ /"/ ? showSuffix($_) : $_ } @{$morphs->[2]} ];
+
+    return join "-", map { phon($_) } @{$morphs->[1]}, $morphs->[0], map { $_ eq 'iyA' ? 'i|yA' : $_ } @{$morphs->[2]};
+}
+
 our $tagset = [
 
     [ "",
@@ -162,6 +175,8 @@ sub describe {
 
     my @slot = split //, $_[0];
 
+    my $terse = defined $_[1] ? $_[1] : '';
+
     if (@slot > $dims) {
 
         splice @slot, $dims, (@slot - $dims);
@@ -174,12 +189,13 @@ sub describe {
     my $type = exists $tagset->[0][1]{$slot[0] . '-'}      ? $tagset->[0][1]{$slot[0] . '-'}      : '';
     my $kind = exists $tagset->[0][1]{$slot[0] . $slot[1]} ? $tagset->[0][1]{$slot[0] . $slot[1]} : '';
 
-    my @cats = map { exists $tagset->[$_][1]{$slot[$_]} ? [$tagset->[$_][0], $tagset->[$_][1]{$slot[$_]}] : [] }
-	       2 .. $dims - 1;
+    my @cats = ([$type eq $kind ? '' : $kind, $type], map { exists $tagset->[$_][1]{$slot[$_]} ?
 
-    unshift @cats, $type eq $kind ? [$type, ''] : [$type, $kind];
+                    [$tagset->[$_][1]{$slot[$_]}, $terse && $_ != 5 ? '' : $tagset->[$_][0]] : []
 
-    return join ", ", grep { $_ ne '' } map { join " ", grep { $_ ne '' } reverse @{$_} } @cats;
+                } 2 .. $dims - 1);
+
+    return join ", ", grep { $_ ne '' } map { join " ", grep { $_ ne '' } @{$_} } @cats;
 }
 
 sub retrieve {
@@ -636,6 +652,9 @@ sub interlocks {
 
         $pattern =~ s/[nN]F/assimVII($root[0], 0)/e;
 
+        $pattern =~ s/^H/'/;
+        $pattern =~ s/^([IMNSTUY])/\l$1/;
+
         $pattern =~ s/F/$root[0]/g if defined $root[0];
         $pattern =~ s/C/$root[1]/g if defined $root[1];
         $pattern =~ s/L/$root[2]/g if defined $root[2];
@@ -645,7 +664,9 @@ sub interlocks {
         $pattern =~ s/D/$root[2]/g if defined $root[2];
         $pattern =~ s/S/$root[3]/g if defined $root[3];
     }
-    elsif (@root == 1 and $pattern =~ /^(?:_____|Identity)$/) {
+    elsif ($pattern =~ /^(?:_____|Identity)$/) {
+
+        @root = (@root, ('.....')[@root .. 0]);
 
         $pattern = $root[0];
 
@@ -653,7 +674,9 @@ sub interlocks {
 
         return $pattern;
     }
-    elsif (@root == 3) {
+    elsif ($pattern =~ /[FCL]/) {
+
+        @root = (@root, ('F', 'C', 'L')[@root .. 2]);
 
         $pattern = (substr $pattern, 0, -1) . 'w' if $pattern =~ /^(?:F[aiu]CLA'|F[IU]LA')$/
                                                   and @{$s} and not $s->[0] =~ /^"[aiu]N?"$/;
@@ -669,25 +692,29 @@ sub interlocks {
 
         $pattern =~ s/[nN]F/assimVII($root[0], 1)/e;
 
+        $pattern =~ s/^H/'/;
+        $pattern =~ s/^([IMNSTUY])/\l$1/;
+
         $pattern =~ s/F/$root[0]/g;
         $pattern =~ s/C/$root[1]/g;
         $pattern =~ s/L/$root[2]/g;
     }
-    elsif (@root == 4) {
+    elsif ($pattern =~ /[KRDS]/) {
+
+        @root = (@root, ('K', 'R', 'D', 'S')[@root .. 3]);
+
+        $pattern =~ s/^H/'/;
+        $pattern =~ s/^([IMNSTUY])/\l$1/;
 
         $pattern =~ s/K/$root[0]/g;
         $pattern =~ s/R/$root[1]/g;
         $pattern =~ s/D/$root[2]/g;
         $pattern =~ s/S/$root[3]/g;
     }
-    else {
+    elsif ($pattern ne '') {
 
-        return "!!! @root !!!";
+        return "!!! @root $pattern !!!";
     }
-
-    $pattern =~ s/^H/'/;
-
-    $pattern = lcfirst $pattern;
 
     return $pattern;
 }

@@ -1001,7 +1001,9 @@ cluster_65  = cluster
 
     TaKaRDaS                  `verb`    {- <taba.gdad> -}      [ ['s','w','a','g','g','e','r'] ],
 
-    KaRDAS                    `noun`    {- <ba.gdAd> -}        [ ['B','a','g','h','d','a','d'] ],
+    KaRDAS                    `noun`    {- <ba.gdAd> -}        [ ['B','a','g','h','d','a','d'] ]
+                           
+    `excepts` otherwise,
 
     KaRDAS |< Iy              `adj`     {- <ba.gdAdIy> -}      [ unwords [ ['f','r','o','m'], "/", ['o','f'], ['B','a','g','h','d','a','d'] ], ['B','a','g','h','d','a','d','i'] ]
                               `plural`     KaRADiS |< aT,
@@ -1144,7 +1146,9 @@ cluster_73  = cluster
 
  |> "b k k" <| [
 
-    FaCL |< aT                `noun`    {- <bakkaT> -}         [ unwords [ ['B','a','k','k','a'], "(", ['a','n','c','i','e','n','t'], ['n','a','m','e'], ['o','f'], ['M','e','c','c','a'], ")" ] ] ]
+    FaCL |< aT                `noun`    {- <bakkaT> -}         [ unwords [ ['B','a','k','k','a'], "(", ['a','n','c','i','e','n','t'], ['n','a','m','e'], ['o','f'], ['M','e','c','c','a'], ")" ] ]
+                           
+    `excepts` otherwise ]
 
 
 cluster_74  = cluster

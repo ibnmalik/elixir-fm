@@ -149,11 +149,11 @@ sub pretty_resolve_tree {
                        $q->td({-class => "root",
                                -title => "root of citation form"},   $root),
                        $q->td({-class => "morphs",
-                               -title => "morphs of citation form"}, escape $info[-1]),
+                               -title => "morphs of citation form"}, ElixirFM::nice($info[-1])),
                        $q->td({-class => "class",
                                -title => "derivational class"},      $info[3]),
                        $q->td({-class => "stems",
-                               -title => "inflectional stems"},      escape $info[1]),
+                               -title => "inflectional stems"},      ElixirFM::nice($info[1])),
                        $q->td({-class => "reflex",
                                -title => "lexical reference"},       $info[2]),
                # ),
@@ -173,8 +173,6 @@ sub pretty_resolve_tree {
 
                             $info[-2] = substr $info[-2], 1, -1;
 
-                            $info[-1] = escape $info[-1];
-
                             # $info[-1] =~ s/((?:\&gt;)+\||\|(?:\&lt;)+)/\<span style="color:darkred"\>$1\<\/span\>/g;
 
                             ( join $",
@@ -190,9 +188,9 @@ sub pretty_resolve_tree {
                                 $q->td({-class => "root",
                                         -title => "root of inflected form"},     decode "zdmg", $info[-2]),
                                 $q->td({-class => "morphs",
-                                        -title => "morphs of inflected form"},   $info[-1]),
+                                        -title => "morphs of inflected form"},   ElixirFM::nice($info[-1])),
                                 $q->td({-class => "dtag",
-                                        -title => "grammatical parameters"},     ElixirFM::describe($info[0])) )
+                                        -title => "grammatical parameters"},     ElixirFM::describe($info[0], 'terse')) )
 
                         } @tokens ] ) )) ) )
 
@@ -242,7 +240,9 @@ sub main ($) {
     }
     else {
 
-        if (defined $q->param('text') and $q->param('text') !~ /^\s*$/) {
+        $q->param('text', join ' ', split ' ', defined $q->param('text') ? $q->param('text') : '');
+
+        if ($q->param('text') ne '') {
 
             $q->param('text', normalize decode "utf8", $q->param('text'));
 
@@ -260,6 +260,8 @@ sub main ($) {
             $q->param('token', '');
         }
     }
+
+    $q->param('code', 'Unicode') unless defined $q->param('code');
 
     $q->param('fuzzy', '') unless defined $q->param('fuzzy');
     $q->param('token', '') unless defined $q->param('token');
@@ -383,7 +385,7 @@ sub main ($) {
 
     $r .= display_footer $c, $time;
 
-    return $r;
+    return encode "utf8", $r;
 }
 
 

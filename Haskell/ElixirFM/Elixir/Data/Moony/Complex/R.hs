@@ -1187,7 +1187,9 @@ cluster_62  = cluster
 
  |> "y _t r b" <| [
 
-    KaRDiS                    `noun`    {- <ya_trib> -}        [ ['Y','a','t','h','r','i','b'] ] ]
+    KaRDiS                    `noun`    {- <ya_trib> -}        [ ['Y','a','t','h','r','i','b'] ]
+                           
+    `excepts` otherwise ]
 
 
 cluster_63  = cluster

@@ -117,11 +117,11 @@ sub pretty_lookup_tree {
                 $xtag = join ' ', ElixirFM::retrieve($xtag);
                 $xtag = substr $xtag, 0, 1;
 
+    $info[0] = revert $info[0];
 
 	$info[4] = join " ", grep { defined $_ and $_ ne '' } @ents[0 .. 2];
 
-    $info[5] = ElixirFM::merge($data->{'root'}, revert $info[0]);
-
+    $info[5] = ElixirFM::merge($data->{'root'}, $info[0]);
 
         $q->table({-cellspacing => 0, -class => "lexeme"},
                 $q->Tr($q->td({-class => "xtag",
@@ -135,11 +135,11 @@ sub pretty_lookup_tree {
                        $q->td({-class => "root",
                                -title => "root of citation form"},   decode "zdmg", $data->{'root'}),
                        $q->td({-class => "morphs",
-                               -title => "morphs of citation form"}, $info[0]),
+                               -title => "morphs of citation form"}, ElixirFM::nice($info[0])),
                        $q->td({-class => "class",
                                -title => "derivational class"},      $ents[3]),
                        $q->td({-class => "stems",
-                               -title => "inflectional stems"},      escape $info[4]),
+                               -title => "inflectional stems"},      ElixirFM::nice($info[4])),
                        $q->td({-class => "reflex",
                                -title => "lexical reference"},       escape $info[3]),
                # ),
@@ -188,7 +188,9 @@ sub main ($) {
     }
     else {
 
-        if (defined $q->param('text') and $q->param('text') !~ /^\s*$/) {
+        $q->param('text', join ' ', split ' ', defined $q->param('text') ? $q->param('text') : '');
+
+        if ($q->param('text') ne '') {
 
             $q->param('text', normalize decode "utf8", $q->param('text'));
         }
@@ -203,6 +205,8 @@ sub main ($) {
             $q->param('code', $example[0][0]);
         }
     }
+
+    $q->param('code', 'Unicode') unless defined $q->param('code');
 
     $r .= $q->p("ElixirFM can lookup lexical entries by the citation form and nests of entries by the root.",
                 "You can even search the dictionary using English.");
@@ -323,7 +327,7 @@ sub main ($) {
 
     $r .= display_footer $c, $time;
 
-    return $r;
+    return encode "utf8", $r;
 }
 
 

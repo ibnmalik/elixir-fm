@@ -2464,7 +2464,9 @@ cluster_87  = cluster
 
  |> "` m n" <| [
 
-    FuCAL                     `noun`    {- <`umAn> -}          [ ['O','m','a','n'] ],
+    FuCAL                     `noun`    {- <`umAn> -}          [ ['O','m','a','n'] ]
+                           
+    `excepts` otherwise,
 
     FuCAL |< Iy               `adj`     {- <`umAnIy> -}        [ ['O','m','a','n','i'] ],
 
@@ -2475,7 +2477,9 @@ cluster_87  = cluster
 
  |> "` m n" <| [
 
-    FaCCAL                    `noun`    {- <`ammAn> -}         [ ['A','m','m','a','n'] ] ]
+    FaCCAL                    `noun`    {- <`ammAn> -}         [ ['A','m','m','a','n'] ]
+                           
+    `excepts` otherwise ]
 
 
 cluster_88  = cluster

@@ -540,9 +540,13 @@ cluster_38  = cluster
 
  |> "t w n s" <| [
 
-    KUDiS                     `noun`    {- <tUnis> -}          [ ['T','u','n','i','s'] ],
+    KUDiS                     `noun`    {- <tUnis> -}          [ ['T','u','n','i','s'] ]
+                           
+    `excepts` otherwise,
 
-    KUDiS                     `noun`    {- <tUnis> -}          [ ['T','u','n','i','s','i','a'] ],
+    KUDiS                     `noun`    {- <tUnis> -}          [ ['T','u','n','i','s','i','a'] ]
+                           
+    `excepts` otherwise,
 
     KUDiS |< Iy               `adj`     {- <tUnisIy> -}        [ ['T','u','n','i','s','i','a','n'] ]
                               `plural`     KaRADiS |< aT

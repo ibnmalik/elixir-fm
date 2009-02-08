@@ -41,7 +41,9 @@ cluster_5   = cluster
 
  |> "m k k" <| [
 
-    FaCL |< aT                `noun`    {- <makkaT> -}         [ ['M','e','c','c','a'] ],
+    FaCL |< aT                `noun`    {- <makkaT> -}         [ ['M','e','c','c','a'] ]
+                           
+    `excepts` otherwise,
 
     FaCL |< Iy                `adj`     {- <makkIy> -}         [ ['M','e','c','c','a','n'] ],
 

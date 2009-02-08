@@ -140,7 +140,7 @@ instance Show a => Pretty (Entity a) where
                                 ++
             					eraseEmpty   m [ elemtxt "masdar" [] $ (pretty . map show) m ]
 
-                            Noun l g n d        ->  elemesp "Noun" $
+                            Noun l g n d e      ->  elemesp "Noun" $
 
                                 eraseEmpty   l [ elemtxt "plural" [] $ (pretty . map show) l ]
                                 ++
@@ -149,6 +149,8 @@ instance Show a => Pretty (Entity a) where
                                 eraseNothing n [ elemtxt "number" [] $ pretty n ]
                                 ++
                                 eraseNothing d [ elemtxt "derive" [] $ pretty d ]
+                                ++
+                                eraseNothing e [ elemtxt "except" [] $ pretty e ]
 
                             Adj  l f n          ->  elemesp "Adj" $
 
