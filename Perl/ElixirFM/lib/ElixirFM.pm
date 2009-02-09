@@ -88,7 +88,7 @@ sub nice {
 
     $morphs->[2] = [ map { $_ =~ /"/ ? showSuffix($_) : $_ } @{$morphs->[2]} ];
 
-    return join "-", map { phon($_) } @{$morphs->[1]}, $morphs->[0], map { $_ eq 'iyA' ? 'i|yA' : $_ } @{$morphs->[2]};
+    return join "-", map { phon($_) } @{$morphs->[1]}, $morphs->[0], @{$morphs->[2]};
 }
 
 our $tagset = [
