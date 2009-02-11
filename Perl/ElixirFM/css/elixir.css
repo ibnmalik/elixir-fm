@@ -83,19 +83,20 @@ table.lexeme {
 }
 
 .lexeme td.atex {
-    min-width: 5em;
+    min-width: 3em;
 }
 
 .lexeme td.root {
+    text-align: center;
     min-width: 9ex;
 }
 
 .lexeme td.morphs {
-    min-width: 8em;
+    min-width: 5em;
 }
 
 .lexeme td.class {
-    width: 4em;
+    width: 2em;
 }
 
 .lexeme td.stems {

@@ -123,7 +123,9 @@ sub pretty_lookup_tree {
 
     $info[5] = ElixirFM::merge($data->{'root'}, $info[0]);
 
-        $q->table({-cellspacing => 0, -class => "lexeme"},
+    my $root = join " ", (decode "zdmg", $data->{'root'}), (decode "arabtex", ElixirFM::cling($data->{'root'}));
+
+    $q->table({-cellspacing => 0, -class => "lexeme"},
                 $q->Tr($q->td({-class => "xtag",
                                -title => ElixirFM::describe($xtag)}, $xtag),
                        $q->td({-class => "phon",
@@ -132,8 +134,8 @@ sub pretty_lookup_tree {
                                -title => "citation form"},           decode "arabtex", $info[5]),
                        # $q->td({-class => "atex",
                        #         -title => "citation form"},           $info[5]),
-                       $q->td({-class => "root",
-                               -title => "root of citation form"},   decode "zdmg", $data->{'root'}),
+                       # $q->td({-class => "root",
+                       #         -title => "root of citation form"},   $root),
                        $q->td({-class => "morphs",
                                -title => "morphs of citation form"}, ElixirFM::nice($info[0])),
                        $q->td({-class => "class",

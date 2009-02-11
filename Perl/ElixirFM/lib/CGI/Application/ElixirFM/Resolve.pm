@@ -54,7 +54,7 @@ sub pretty ($$$) {
 
                          $q->li({-class => 'empty'},
                                 $q->span({-class => "word",
-                                          -title => "input word"}, $text[$i]) ));
+                                          -title => "input word"}, $text[$i])) );
         }
     }
 
@@ -185,8 +185,8 @@ sub pretty_resolve_tree {
                                         -title => "inflected form"},             decode "arabtex", $info[-3]),
                                 # $q->td({-class => "atex",
                                 #         -title => "inflected form"},             $info[-3]),
-                                $q->td({-class => "root",
-                                        -title => "root of inflected form"},     decode "zdmg", $info[-2]),
+                                # $q->td({-class => "root",
+                                #         -title => "root of inflected form"},     decode "zdmg", $info[-2]),
                                 $q->td({-class => "morphs",
                                         -title => "morphs of inflected form"},   ElixirFM::nice($info[-1])),
                                 $q->td({-class => "dtag",

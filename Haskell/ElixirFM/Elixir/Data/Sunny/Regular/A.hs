@@ -867,9 +867,13 @@ cluster_62  = cluster
 
  |> "t ^s r n" <| [
 
-    KiRDIS                    `noun`    {- <ti^srIn> -}        [ unwords [ ['T','i','s','h','r','i','n'], "(", ['m','o','n','t','h'], ")" ] ],
+    KiRDIS                    `noun`    {- <ti^srIn> -}        [ unwords [ ['T','i','s','h','r','i','n'], "(", ['m','o','n','t','h'], ")" ] ]
+                           
+    `excepts` otherwise,
 
-    KiRDIS                    `noun`    {- <ti^srIn> -}        [ unwords [ ['T','i','s','h','r','i','n'], "(", ['n','e','w','s','p','a','p','e','r'], ")" ] ],
+    KiRDIS                    `noun`    {- <ti^srIn> -}        [ unwords [ ['T','i','s','h','r','i','n'], "(", ['n','e','w','s','p','a','p','e','r'], ")" ] ]
+                           
+    `excepts` otherwise,
 
     KaRADIS                   `noun`    {- <ta^sArIn> -}       [ ['a','u','t','u','m','n','s'], unwords [ ['f','a','l','l'], ['s','e','a','s','o','n','s'] ] ] ]
 
@@ -882,7 +886,7 @@ cluster_63  = cluster
                               `imperf`     FCaL
                               `masdar`     FaCaL,
 
-    HaFCaL                    `verb`    {- <'at`ab> -}         [ ['b','o','t','h','e','r'], unwords [ ['m','a','k','e'], ['t','i','r','e','d'] ], unwords [ ['b','e'], ['t','i','r','e','d'], ['o','u','t'] ] ],
+    HaFCaL                    `verb`    {- <'at`ab> -}         [ ['b','o','t','h','e','r'], unwords [ ['m','a','k','e'], ['t','i','r','e','d'] ] ],
 
     FaCL                      `noun`    {- <ta`b> -}           [ ['t','r','o','u','b','l','e'], ['b','u','r','d','e','n'] ],
 
@@ -930,7 +934,8 @@ cluster_66  = cluster
 
     FuCCAL                    `noun`    {- <tuffA.h> -}        [ ['a','p','p','l','e'] ]
                               `plural`     FaCACIL
-                              `plural`     FuCCAL |< At ]
+                           
+    `derives` otherwise ]
 
 
 cluster_67  = cluster
