@@ -666,7 +666,7 @@ sub interlocks {
     }
     elsif ($pattern =~ /^(?:_____|Identity)$/) {
 
-        @root = (@root, ('.....')[@root .. 0]);
+        @root = (@root, ('_____')[@root .. 0]);
 
         $pattern = $root[0];
 

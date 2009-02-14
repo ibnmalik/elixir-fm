@@ -77,36 +77,11 @@ instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pret
         where (Lexeme r e, idx) = lexeme x
 
 
-instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pretty (Token a) where
-
-    pretty x =  t <> align (
-
-                encloseText [merge d m, show d, show m]
-
-                <$$> encloseText [merge r (morphs e), show r, show (morphs e)]
-                <$$> encloseText [show (reflex e), show (lookupForm r e)]
-                <$$> (text . ('\t' :) . concat . words . show . pretty) (entity e)
-                <$$> (text . ('\t' :) . show) idx )
-
-        where (Lexeme r e, idx) = lexeme x
-              (d, m) = struct x
-              t = pretty (tag x)
-
-
 instance Pretty (Wrap Tokens) => Pretty [Wrap Tokens] where
 
     pretty x = nest 1 (text (":: <" ++ unwords z ++ ">") <> foldr ((<>) . ((<>) line) . pretty) empty x)
 
         where y = nub [ z | y <- x, z <- unwraps (\ (Tokens x) -> map (uncurry merge . struct) x) y ]
-
-              z = if length y > 3 then [head y] ++ [".."] ++ [last y] else y
-
-
-instance Pretty (Wrap Token) => Pretty [Wrap Token] where
-
-    pretty x = nest 2 (text (": <" ++ unwords z ++ ">") <$$> align (singleline pretty x))
-
-        where y = (nub . map (unwraps (uncurry merge . struct))) x
 
               z = if length y > 3 then [head y] ++ [".."] ++ [last y] else y
 
@@ -119,14 +94,6 @@ instance Pretty [Wrap Tokens] => Pretty [[Wrap Tokens]] where
               s = map (drop 1 . concat . take 1 . lines . show) p
 
 
-instance Pretty [Wrap Token] => Pretty [[Wrap Token]] where
-
-    pretty x = nest 1 (text (":" ++ unwords (concat s)) <$$> align (singleline id p))
-
-        where p = map pretty x
-              s = map (take 1 . lines . show) p
-
-
 instance Pretty [[Wrap Tokens]] => Pretty [[[Wrap Tokens]]] where
 
     pretty [] = text "::::" <> line
@@ -137,12 +104,9 @@ instance Pretty [[Wrap Tokens]] => Pretty [[[Wrap Tokens]]] where
               s = map (drop 1 . concat . take 1 . lines . show) p
 
 
-instance Pretty [[Wrap Token]] => Pretty [[[Wrap Token]]] where
+instance Pretty [[[Wrap Tokens]]] => Pretty [[[[Wrap Tokens]]]] where
 
-    pretty x = nest 1 (text (":" ++ unwords (concat s)) <$$> align (singleline id p))
-
-        where p = map pretty x
-              s = map (take 1 . lines . show) p
+    pretty = vcat . map pretty
 
 
 prune :: [[[Wrap Tokens]]] -> [[[Wrap Tokens]]]
@@ -152,30 +116,26 @@ prune = filter (not . any null)
 
 class Fuzzy a => Resolve a where
 
-    resolve :: a -> [[[Wrap Tokens]]]
+    resolve :: a -> [[[[Wrap Tokens]]]]
 
-    resolveBy :: (String -> String -> Bool) -> ([a] -> [a] -> Bool) -> (a -> [[a]])
-            -> a -> [[[Wrap Tokens]]]
+    resolveBy :: (String -> String -> Bool) -> ([a] -> [a] -> Bool)
+                    -> [[[a]]] -> [[[[Wrap Tokens]]]]
 
     tokenize :: a -> [[a]]
 
-    resolve = resolveBy (==) (==) (\ x -> [[x]]) -- ((:[]) . (:[]))
+    resolve = resolveBy (==) (==) . (\ x -> [[[x]]])
 
 
 thetoken x = [[x]]
 
-resolve'  = resolveBy'  (==) (==) (\ x -> [[x]])
-resolve'' = resolveBy'' (==) (==) (\ x -> [[x]])
-
 
 instance Resolve String where
 
-    resolve = resolveBy alike (omitting alike omits) tokenize
+    resolve = map prune . resolveBy alike (omitting alike omits) . map tokenize . words
 
-    resolveBy b q t y = [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- z ]
+    resolveBy b q z = [ [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- w ] | w <- z ]
 
-            where z = t y
-                  u = (map units . nub . concat) z
+            where u = (map units . nub . concat . concat) z
 
                   resolves = (Map.map reverse . Map.fromListWith (++)) [ s | (x, n) <- zip lexicon [1 ..],
 
@@ -325,43 +285,13 @@ instance Resolve String where
                     _                       ->  []
 
 
-resolveBy' :: (String -> String -> Bool) -> ([String] -> [String] -> Bool) -> (String -> [[String]])
-           -> String -> [[[[Wrap Token]]]]
-
-resolveBy' b q t y = [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- z ]
-
-        where z = t y
-              u = (map units . nub . concat) z
-
-              resolves = (Map.map reverse . Map.fromListWith (++)) [ s | (x, n) <- zip lexicon [1 ..],
-
-                                    let r = unwraps (reduce . root) x,
-
-                                    let i = [ v | v <- u, isSubsumed b except r v ],
-
-                                    not (null i), s <- unwraps (inflects i n) x ]
-
-              inflects y n (Nest r z) = [ z | (e, m) <- zip z [1 ..],
-
-                            let x = (expand . domain) e,
-
-                            let l = Lexeme r e,
-
-                            z <- (Map.foldWithKey (\ k x y -> (k, [reverse x]) : y) [] . Map.fromListWith (++))
-
-                                [ (concat d, [wrap (Token (l, (n, m)) i t)]) | (t, h) <- inflect l x, i <- h,
-
-                                    let u = (units . uncurry merge) i, d <- y, u `q` d ] ]
-
-
 instance Resolve [UPoint] where
 
-    resolve = resolveBy alike (omitting alike omits) tokenize
+    resolve = map prune . resolveBy alike (omitting alike omits) . map tokenize . (map (decode UCS) . words . encode UCS)
 
-    resolveBy b q t y = [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- z ]
+    resolveBy b q z = [ [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- w ] | w <- z ]
 
-            where z = t y
-                  u = (map (\ x -> (units x, recode x)) . nub . concat) z
+            where u = (map (\ x -> (units x, recode x)) . nub . concat . concat) z
 
                   c = decode TeX
 
@@ -556,40 +486,7 @@ instance Resolve [UPoint] where
                     _                       ->  []
 
 
-resolveBy'' :: (String -> String -> Bool) -> ([[UPoint]] -> [[UPoint]] -> Bool) -> ([UPoint] -> [[[UPoint]]])
-            -> [UPoint] -> [[[[Wrap Token]]]]
-
-resolveBy'' b q t y = [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- z ]
-
-        where z = t y
-              u = (map (\ x -> (units x, recode x)) . nub . concat) z
-
-              c = decode TeX
-
-              resolves = Map.fromListWith (++) [ s | (x, n) <- zip lexicon [1 ..],
-
-                                    let r = unwraps (reduce . root) x,
-
-                                    let i = [ (v, w) | (v, w) <- u, isSubsumed b except r w ],
-
-                                    not (null i), s <- unwraps (inflects i n) x ]
-
-              inflects y n (Nest r z) = [ z | (e, m) <- zip z [1 ..],
-
-                            let x = (expand . domain) e,
-
-                            let l = Lexeme r e,
-
-                            z <- (Map.foldWithKey (\ k x y -> (k, [reverse x]) : y) [] . Map.fromListWith (++))
-
-                                [ (concat d, [wrap (Token (l, (n, m)) i t)]) | (t, h) <- inflect l x, i <- h,
-
-                                    let f = uncurry merge i, let v = units f, let u = (units . c) f,
-
-                                    (d, w) <- y, isSubsumed (flip b) approx w v, u `q` d ] ]
-
-
-resolveSub r = resolveBy (==) (\ x y -> any (isPrefixOf x) (tails y)) r
+resolveSub x = resolveBy (==) (\ x y -> any (isPrefixOf x) (tails y)) x
 
 
 omitting' :: Eq a => (a -> a -> Bool) -> ([[a]], [[a]]) -> [a] -> [a] -> Bool
@@ -864,8 +761,8 @@ recoder = Map.fromAscList [ (toEnum x, y) | (y, x) <- [
                             ( "^l",         0x06B5 )    ] ]
 
 
-test = (words . unlines) [  "wa fI milaffi al-'adabi .tara.hat al-ma^gallaTu qa.dIyaTa al-lu.gaTi al-`arabIyaTi wa al-'a_h.tAri allatI tuhaddidu hA.",
-                            "\\cap wa yarY al-qA'imUna `alY al-milaffi 'anna mA tata`arra.du la hu al-lu.gaTu al-`arabIyaTu la hu 'ahdAfuN mu.haddadaTuN",
-                            "min hA 'ib`Adu al-`arabi `an lu.gaTi him wa muzA.hamaTu al-lu.gAti al-.garbIyaTi la hA wa huwa mA ya`nI .du`fa a.s-.silaTi bi hA",
-                            "wa mu.hAwalaTu 'izA.haTi al-lu.gaTi al-fu.s.hY bi kulli al-wasA'ili",
-                            "wa 'i.hlAli al-laha^gAti al-mu_htalifaTi fI al-bilAdi al-`arabIyaTi ma.halla hA."  ]
+test = unlines ["wa fI milaffi al-'adabi .tara.hat al-ma^gallaTu qa.dIyaTa al-lu.gaTi al-`arabIyaTi wa al-'a_h.tAri allatI tuhaddidu hA.",
+                "\\cap wa yarY al-qA'imUna `alY al-milaffi 'anna mA tata`arra.du la hu al-lu.gaTu al-`arabIyaTu la hu 'ahdAfuN mu.haddadaTuN",
+                "min hA 'ib`Adu al-`arabi `an lu.gaTi him wa muzA.hamaTu al-lu.gAti al-.garbIyaTi la hA wa huwa mA ya`nI .du`fa a.s-.silaTi bi hA",
+                "wa mu.hAwalaTu 'izA.haTi al-lu.gaTi al-fu.s.hY bi kulli al-wasA'ili",
+                "wa 'i.hlAli al-laha^gAti al-mu_htalifaTi fI al-bilAdi al-`arabIyaTi ma.halla hA."]

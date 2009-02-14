@@ -2620,6 +2620,13 @@ cluster_96  = cluster
 
     KaRDaS |< aT              `noun`    {- <`andalaT> -}       [ unwords [ ['n','i','g','h','t','i','n','g','a','l','e','\'','s'], ['s','o','n','g'] ] ] ]
 
+ |> "` n d l" <| [
+
+    "`andalIb"                `noun`    {- <`andalIb> -}       [ ['n','i','g','h','t','i','n','g','a','l','e'] ]
+                              `plural`     "`anAdil",
+
+    "`andalIb"                `noun`    {- <`andalIb> -}       [ ['A','n','d','a','l','i','b'] ] ]
+
 
 cluster_97  = cluster
 

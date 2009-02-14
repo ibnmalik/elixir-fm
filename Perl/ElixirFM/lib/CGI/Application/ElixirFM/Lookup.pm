@@ -58,7 +58,7 @@ sub pretty_lookup_data {
     return $q->table({-cellspacing => 0, -class => "nest"},
                      $q->Tr($q->td({-class => "root"}, escape $root),
                             $q->td({-class => "button"},
-                                   $q->a({-title => "lookup in the lexicon",
+                                   $q->a({-title => "lookup all entries under this root",
                                           -href => 'index.fcgi?mode=lookup' . '&text=' . $clip}, "Lookup"))
                 ));
 }

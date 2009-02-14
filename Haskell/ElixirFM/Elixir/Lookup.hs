@@ -34,6 +34,8 @@ import Elixir.Data.Lexicons
 
 import Encode.Arabic
 
+import Data.Char
+
 import Data.List hiding (lookup)
 
 import Prelude hiding (lookup)
@@ -151,7 +153,9 @@ instance Lookup Regex where
 
     lookupWith y [] = []
 
-    lookupWith y x = lookupUsing y (Just . const False) (\ _ e -> any (flip all x . flip elem . words) (reflex e))
+    lookupWith y x = lookupUsing y (Just . const False) (\ _ e -> any (flip all z . flip elem . words . map toLower) (reflex e))
+
+        where z = map (map toLower) x
 
                   -- lookupUsing y (Just . const False) (\ _ e -> any (any (`elem` x) . words) (reflex e))
 

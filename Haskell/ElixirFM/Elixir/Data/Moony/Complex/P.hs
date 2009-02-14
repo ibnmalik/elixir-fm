@@ -1226,20 +1226,11 @@ cluster_63  = cluster
 
     MuFaCCaL                  `adj`     {- <muwa^g^gah> -}     [ ['d','i','r','e','c','t','e','d'], ['a','i','m','e','d'] ],
 
-    MuFACiL                   `noun`    {- <muwA^gih> -}       [ ['f','a','c','i','n','g'], ['c','o','n','f','r','o','n','t','i','n','g'], ['a','n','t','a','g','o','n','i','s','t'] ]
-                              `plural`     MuFACiL |< Un
-                           
-    `derives` otherwise,
+    MuFACiL                   `adj`     {- <muwA^gih> -}       [ ['f','a','c','i','n','g'], ['c','o','n','f','r','o','n','t','i','n','g'], ['a','n','t','a','g','o','n','i','s','t'] ],
 
-    MutaFaCCiL                `noun`    {- <mutawa^g^gih> -}   [ unwords [ ['g','o','i','n','g'], ['t','o','w','a','r','d','s'] ], unwords [ ['t','u','r','n','i','n','g'], ['t','o','w','a','r','d','s'] ], ['f','a','c','i','n','g'] ]
-                              `plural`     MutaFaCCiL |< Un
-                           
-    `derives` otherwise,
+    MutaFaCCiL                `adj`     {- <mutawa^g^gih> -}   [ unwords [ ['g','o','i','n','g'], ['t','o','w','a','r','d','s'] ], unwords [ ['t','u','r','n','i','n','g'], ['t','o','w','a','r','d','s'] ], ['f','a','c','i','n','g'] ],
 
-    MuFtaCiL                  `noun`    {- <mutta^gih> -}      [ ['d','i','r','e','c','t','e','d'], ['a','i','m','e','d'] ]
-                              `plural`     MuFtaCiL |< Un
-                           
-    `derives` otherwise,
+    MuFtaCiL                  `adj`     {- <mutta^gih> -}      [ ['d','i','r','e','c','t','e','d'], ['a','i','m','e','d'] ],
 
     MuFtaCaL                  `noun`    {- <mutta^gah> -}      [ ['d','i','r','e','c','t','i','o','n'] ]
                               `plural`     MuFtaCaL |< At ]

@@ -1899,12 +1899,40 @@ cluster_94  = cluster
 
 cluster_95  = cluster
 
+ |> ['l','i','-','_','d','_','a','l','i','k'] <| [
+
+    _____ |<< "a"             `adv`     {- <li-_d_alika> -}    [ ['t','h','e','r','e','f','o','r','e'] ] ]
+
+
+cluster_96  = cluster
+
  |> ['l','a','-','`','a','l','l','a'] <| [
 
     _____                     `part`    {- <la-`alla> -}       [ ['p','e','r','h','a','p','s'] ] ]
 
 
-cluster_96  = cluster
+cluster_97  = cluster
+
+ |> ['l','i','-','m','a'] <| [
+
+    _____                     `part`    {- <li-ma> -}          [ ['w','h','y'] ] ]
+
+
+cluster_98  = cluster
+
+ |> ['l','i','-','m','A'] <| [
+
+    _____                     `part`    {- <li-mA> -}          [ ['w','h','y'], unwords [ ['f','o','r'], ['w','h','a','t'] ] ] ]
+
+
+cluster_99  = cluster
+
+ |> ['l','i','-','m','A','_','d','A'] <| [
+
+    _____                     `part`    {- <li-mA_dA> -}       [ ['w','h','y'] ] ]
+
+
+cluster_100 = cluster
 
  |> ['l','I','b'] <| [
 
@@ -1916,51 +1944,6 @@ cluster_96  = cluster
     `derives` otherwise,
 
     _____ |< Iy               `adj`     {- <lIbIy> -}          [ ['L','i','b','y','a','n'] ] ]
-
-
-cluster_97  = cluster
-
- |> ['l','U','b','I'] <| [
-
-    _____                     `noun`    {- <lUbI> -}           [ ['l','o','b','b','y'] ]
-                              `plural`     _____ |< At ]
-
-
-cluster_98  = cluster
-
- |> "l b t" <| [
-
-    FaCL |< aT                `noun`    {- <labtaT> -}         [ ['c','a','r','p'] ] ]
-
-
-cluster_99  = cluster
-
- |> "l b _t" <| [
-
-    FaCiL                     `verb`    {- <labi_t> -}         [ ['l','i','n','g','e','r'], ['r','e','m','a','i','n'], ['p','e','r','s','i','s','t'] ]
-                              `imperf`     FCaL,
-
-    TaFaCCaL                  `verb`    {- <talabba_t> -}      [ ['h','e','s','i','t','a','t','e'], ['l','i','n','g','e','r'], ['s','t','a','y'] ],
-
-    FuCL                      `noun`    {- <lub_t> -}          [ ['h','e','s','i','t','a','t','i','o','n'], ['d','e','l','a','y'] ],
-
-    FaCL                      `noun`    {- <lab_t> -}          [ ['h','e','s','i','t','a','t','i','o','n'], ['d','e','l','a','y'] ],
-
-    FaCaL                     `noun`    {- <laba_t> -}         [ ['h','e','s','i','t','a','t','i','o','n'], ['d','e','l','a','y'] ],
-
-    FuCL |< aT                `noun`    {- <lub_taT> -}        [ unwords [ ['s','h','o','r','t'], ['d','e','l','a','y'] ], unwords [ ['b','r','i','e','f'], ['r','e','s','p','i','t','e'] ] ] ]
-
-
-cluster_100 = cluster
-
- |> "l b _h" <| [
-
-    FaCL                      `noun`    {- <lab_h> -}          [ ['a','c','a','c','i','a'] ],
-
-    FaCL |< aT                `noun`    {- <lab_haT> -}        [ ['c','a','t','a','p','l','a','s','m'], ['p','o','u','l','t','i','c','e'], ['e','m','o','l','l','i','e','n','t'] ]
-                              `plural`     FaCaL |< At,
-
-    FaCIL                     `adj`     {- <labI_h> -}         [ ['f','l','e','s','h','y'], ['c','o','r','p','u','l','e','n','t'] ] ]
 
 
 section = [ cluster_1,

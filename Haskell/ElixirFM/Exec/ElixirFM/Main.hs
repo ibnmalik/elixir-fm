@@ -128,21 +128,21 @@ main = do   argv <- getArgs
 warn = hPutStr stderr
 
 
-elixirResolve o p = interact (unlines . map (show . q) . concat . map words . onlines)
+elixirResolve o p = interact (unlines . map (show . q . words) . onlines)
 
-    where q = pretty . (if r then id else prune) . case e of
+    where q = pretty . (if r then id else map prune) . case e of
 
-                "tex"   ->  resolveBy (fst f') (omitting (snd f') omits) t'
-
-                            where f' = if f then (alike, alike) else (fuzzy, fuzzy)
-                                  t' = if t then tokenize else thetoken
-
-                "tim"   ->  resolveBy (fst f') (omitting (snd f') omits) t' . decode Tim
+                "tex"   ->  resolveBy (fst f') (omitting (snd f') omits) . map t'
 
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
                                   t' = if t then tokenize else thetoken
 
-                _       ->  resolveBy (fst f') (omitting (snd f') omits) t' . decode UTF
+                "tim"   ->  resolveBy (fst f') (omitting (snd f') omits) . map (t' . decode Tim)
+
+                            where f' = if f then (alike, alike) else (fuzzy, fuzzy)
+                                  t' = if t then tokenize else thetoken
+
+                _       ->  resolveBy (fst f') (omitting (snd f') omits) . map (t' . decode UTF)
 
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
                                   t' = if t then tokenize else thetoken
