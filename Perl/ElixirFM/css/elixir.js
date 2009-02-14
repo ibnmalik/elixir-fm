@@ -33,7 +33,7 @@ function transcode (t) {
     }
 }
 
-function yamli (n) {
+function elixirYamli (n) {
 
     var elem = document.getElementsByName("code");
 
@@ -51,4 +51,11 @@ function yamli (n) {
             }
         }
     }
+}
+
+function elixirClear (n) {
+
+    var input = document.getElementById(n);
+
+    input.value = '';
 }

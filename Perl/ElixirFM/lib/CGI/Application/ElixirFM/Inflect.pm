@@ -128,7 +128,7 @@ sub pretty_lookup_tree {
     $info[5] = ElixirFM::merge($data->{'root'}, $info[0]);
 
     my $root = join " ", (decode "zdmg", $data->{'root'}), (decode "arabtex", ElixirFM::cling($data->{'root'}));
-    
+
         $q->table({-cellspacing => 0, -class => "lexeme"},
                 $q->Tr($q->td({-class => "xtag",
                                -title => ElixirFM::describe($xtag)}, $xtag),
@@ -211,12 +211,12 @@ sub main ($) {
 
     $r .= display_headline $c;
 
-    my @example = ( [ '(1320,1)',               'perfect active third imperative'                               ],
-                    [ '(1320,1)',               'perf act 3rd impa'                                             ],
-                    [ '(1320,1)',               '-P-A-3---- -C--------'                                         ],
-                    [ '(1320,3) (5370,14)',     'indicative subjunctive jussive indefinite reduced definite'    ],
-                    [ '(1320,3) (5370,14)',     'ind sub jus indf red def'                                      ],
-                    [ '(1320,3) (5370,14)',     '--[ISJ]------[IRD]'                                            ] );
+    my @example = ( [ '(1319,1)',               'perfect active third imperative'                               ],
+                    [ '(1319,1)',               'perf act 3rd impa'                                             ],
+                    [ '(1319,1)',               '-P-A-3---- -C--------'                                         ],
+                    [ '(1319,3) (5359,14)',     'indicative subjunctive jussive indefinite reduced definite'    ],
+                    [ '(1319,3) (5359,14)',     'ind sub jus indf red def'                                      ],
+                    [ '(1319,3) (5359,14)',     '--[ISJ]------[IRD]'                                            ] );
 
     if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
 
@@ -264,6 +264,8 @@ sub main ($) {
                     td( {-colspan => 3, -class => "xtag"},
 
                         $q->textfield(  -name       =>  'text',
+                                        -id         =>  'text',
+                                        -dir        =>  'ltr',
                                         -default    =>  $q->param('text'),
                                         -size       =>  60,
                                         -maxlength  =>  100) ),
@@ -277,11 +279,9 @@ sub main ($) {
 
                 Tr( {-align => 'left'},
 
-                    td( {-align => 'left'},     $q->submit( -name   =>  'submit',
-                                                            -value  =>  ucfirst $q->param($c->mode_param()) ) ),
-                    td( {-align => 'center'},   $q->reset('Reset') ),
-                    td( {-align => 'right'},    $q->submit( -name   =>  'submit',
-                                                            -value  =>  'Example') ) ) );
+                    td({-align => 'left'},   $q->submit(-name => 'submit', -value => ucfirst $q->param($c->mode_param()))),
+                    td({-align => 'center'}, $q->button(-name => 'clear',  -value => 'Clear', -onclick => "elixirClear('text')")),
+                    td({-align => 'right'},  $q->submit(-name => 'submit', -value => 'Example')) ) );
 
     $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
 

@@ -1397,6 +1397,12 @@ cluster_95  = cluster
 
     _____ |< Iy |< aT         `noun`    {- <dImUqrA.tIyaT> -}  [ ['d','e','m','o','c','r','a','c','y'] ] ]
 
+ |> ['d','I','m','u','q','r','A','.','t'] <| [
+
+    _____ |< Iy               `adj`     {- <dImuqrA.tIy> -}    [ ['d','e','m','o','c','r','a','t','i','c'] ],
+
+    _____ |< Iy |< aT         `noun`    {- <dImuqrA.tIyaT> -}  [ ['d','e','m','o','c','r','a','c','y'] ] ]
+
  |> ['d','i','m','u','q','r','A','.','t'] <| [
 
     _____ |< Iy               `adj`     {- <dimuqrA.tIy> -}    [ ['d','e','m','o','c','r','a','t','i','c'] ],

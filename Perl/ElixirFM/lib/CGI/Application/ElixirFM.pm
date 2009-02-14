@@ -100,21 +100,40 @@ sub revert ($) {
     return $text;
 }
 
-sub normalize ($) {
+sub normalize ($$) {
 
-    my $text = shift;
+    my ($text, $code) = @_;
 
-    $text =~ tr[\x{06A9}\x{06AA}][\x{0643}];
-    $text =~ tr[\x{06CC}][\x{064A}];
-    $text =~ tr[\x{0640}][]d;
+    my @data;
 
-    $text =~ s/\x{0627}\x{064B}(?!\p{Arabic})/\x{064B}\x{0627}/g;
+    if ($code eq 'Unicode') {
 
-    $text =~ s/aa/A/g;
-    $text =~ s/ii/I/g;
-    $text =~ s/uu/U/g;
+        $text =~ tr[\x{06A9}\x{06AA}][\x{0643}];
+        $text =~ tr[\x{06CC}][\x{064A}];
+        $text =~ tr[\x{0640}][]d;
 
-    return $text;
+        $text =~ s/([\x{0627}\x{0649}])\x{064B}/\x{064B}$1/g;
+
+        @data = $text =~ /( (?: \p{Arabic} | [\x{064B}-\x{0652}\x{0670}\x{0657}\x{0656}\x{0640}] )+ )/gx;
+    }
+    elsif ($code eq 'Tim') {
+
+        $text =~ tr[_][]d;
+
+        $text =~ s/([AY])F/F$1/g;
+
+        @data = $text =~ /( [OWI\>\&\<\'\|\}AbptvjHxd\*rzs\$SDTZEgfqklmnhwYyPJRVG\{A\~FNKaui\`o]+ )/gx;
+    }
+    elsif ($code eq 'TeX') {
+
+        $text =~ s/aa/A/g;
+        $text =~ s/ii/I/g;
+        $text =~ s/uu/U/g;
+
+        @data = $text =~ /( (?: \.[hsdtzgr] | \_[thdaIU] | \^[gscznl] | \,[c] | ['btdrzs`fqklmnhwyaiuAIUYNW|"-] )+ )/gx;
+    }
+
+    return join " ", @data;
 }
 
 
@@ -239,7 +258,7 @@ sub display_footer ($$) {
                                              settingsPlacement: 'inside',
                                              showTutorialLink: false, showDirectionLink: false });
 
-                                yamli('text');
+                                elixirYamli('text');
                             }
                     });
 

@@ -244,12 +244,14 @@ sub main ($) {
 
         if ($q->param('text') ne '') {
 
-            $q->param('text', normalize decode "utf8", $q->param('text'));
+            my $text = decode "utf8", $q->param('text');
 
             unless (defined $q->param('code') and $q->param('code') ne 'Unicode') {
 
-                return CGI::Application::ElixirFM::Lookup::main $c unless $q->param('text') =~ /\p{InArabic}/;
+                return CGI::Application::ElixirFM::Lookup::main $c unless $text =~ /\p{InArabic}/;
             }
+
+            $q->param('text', $text);
         }
         else {
 
@@ -272,7 +274,7 @@ sub main ($) {
 
     $r .= $q->h2('Your Request');
 
-    $r .= $q->start_form(-method => 'POST', -onreset => "yamli('text')");
+    $r .= $q->start_form(-method => 'POST');
 
     $r .= $q->table( {-border => 0},
 
@@ -282,6 +284,7 @@ sub main ($) {
 
                         $q->textfield(  -name       =>  'text',
                                         -id         =>  'text',
+                                        -dir        =>  'ltr',
                                         -default    =>  $q->param('text'),
                                         -size       =>  60,
                                         -maxlength  =>  100) ),
@@ -291,7 +294,7 @@ sub main ($) {
                         $q->radio_group(-name       =>  'code',
                                         -values     =>  [ @enc_list ],
                                         -default    =>  $q->param('code'),
-                                        -onchange   =>  "yamli('text')",
+                                        -onchange   =>  "elixirYamli('text')",
                                         -attributes =>  { 'ArabTeX'    => {-title => "internal phonology-oriented notation"},
                                                           'Buckwalter' => {-title => "letter-by-letter romanization"},
                                                           'Unicode'    => {-title => "original script and orthography"} },
@@ -302,7 +305,7 @@ sub main ($) {
                 Tr( {-align => 'left'},
 
                     td({-align => 'left'},   $q->submit(-name => 'submit', -value => ucfirst $q->param($c->mode_param()))),
-                    td({-align => 'center'}, $q->reset('Reset')),
+                    td({-align => 'center'}, $q->button(-name => 'clear',  -value => 'Clear', -onclick => "elixirClear('text')")),
                     td({-align => 'right'},  $q->submit(-name => 'submit', -value => 'Example')),
 
                     td( {-align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
@@ -339,15 +342,17 @@ sub main ($) {
 
     my $mode = $q->param($c->mode_param());
 
-    my $text = $q->param('text');
+    my $code = exists $enc_hash{$q->param('code')} ? $enc_hash{$q->param('code')} : 'UTF';
+
+    my $text = normalize $q->param('text'), $code;
+
+    $q->param('text', $text);
 
     open T, '>', "$mode/index.$$.$session.tmp";
 
     print T encode "utf8", $text;
 
     close T;
-
-    my $code = exists $enc_hash{$q->param('code')} ? $enc_hash{$q->param('code')} : 'UTF';
 
     my $fuzzy = $q->param('fuzzy') ? '--fuzzy' : '';
 

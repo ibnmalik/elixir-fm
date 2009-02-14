@@ -1529,10 +1529,7 @@ cluster_95  = cluster
 
     FACiL                     `noun`    {- <yAfi`> -}          [ ['Y','a','f','i','e'] ],
 
-    FACiL                     `noun`    {- <yAfi`> -}          [ ['a','d','o','l','e','s','c','e','n','t'], ['t','e','e','n','a','g','e','r'] ]
-                              `plural`     FACiL |< Un
-                           
-    `derives` otherwise ]
+    FACiL                     `adj`     {- <yAfi`> -}          [ ['a','d','o','l','e','s','c','e','n','t'], ['t','e','e','n','a','g','e','r'] ] ]
 
 
 cluster_96  = cluster
@@ -1621,7 +1618,7 @@ cluster_99  = cluster
 
     FaCIL                     `adj`     {- <yaqIn> -}          [ ['c','o','n','v','i','n','c','e','d'] ],
 
-    FaCIL |< Iy               `adj`     {- <yaqInIy> -}        [ ['i','n','d','i','s','p','u','t','a','b','l','e'], ['c','e','r','t','a','i','n'], unwords [ ['i','n','d','i','s','p','u','t','a','b','l','e'], ['f','a','c','t','s'] ], unwords [ ['e','s','t','a','b','l','i','s','h','e','d'], ['t','r','u','t','h','s'] ] ],
+    FaCIL |< Iy               `adj`     {- <yaqInIy> -}        [ ['i','n','d','i','s','p','u','t','a','b','l','e'], ['c','e','r','t','a','i','n'], ['e','s','t','a','b','l','i','s','h','e','d'] ],
 
     MICAL                     `noun`    {- <mIqAn> -}          [ ['c','r','e','d','u','l','o','u','s'] ]
                               `plural`     MICAL |< Un

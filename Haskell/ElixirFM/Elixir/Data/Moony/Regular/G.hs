@@ -1442,10 +1442,12 @@ cluster_66  = cluster
     FaCaL                     `adj`     {- <.haram> -}         [ ['t','a','b','o','o'], ['s','a','c','r','e','d'] ]
                               `plural`     HaFCAL,
 
-    FaCaL                     `noun`    {- <.haram> -}         [ unwords [ ['h','o','l','y'], ['s','i','t','e'] ], ['c','a','m','p','u','s'], unwords [ ['T','w','o'], ['H','o','l','y'], ['S','i','t','e','s'], "(", ['M','e','c','c','a'], ['a','n','d'], ['M','e','d','i','n','a'], ")" ] ]
+    FaCaL                     `noun`    {- <.haram> -}         [ unwords [ ['h','o','l','y'], ['s','i','t','e'] ], ['c','a','m','p','u','s'] ]
                               `plural`     HaFCAL,
 
-    FaCaL |< Iy               `adj`     {- <.haramIy> -}       [ ['H','a','r','a','m','i'] ],
+    FaCaL |< An               `noun`    {- <.haramAn> -}       [ unwords [ ['T','w','o'], ['H','o','l','y'], ['S','i','t','e','s'], "(", ['M','e','c','c','a'], ['a','n','d'], ['M','e','d','i','n','a'], ")" ] ],
+
+    FaCaL |< Iy               `noun`    {- <.haramIy> -}       [ ['H','a','r','a','m','i'] ],
 
     FuCL |< aT                `noun`    {- <.hurmaT> -}        [ ['w','i','f','e'] ]
                               `plural`     FuCaL,
@@ -1456,7 +1458,7 @@ cluster_66  = cluster
     FaCAL                     `noun`    {- <.harAm> -}         [ ['s','i','n'], ['o','f','f','e','n','s','e'] ]
                               `plural`     FuCuL,
 
-    FaCAL                     `noun`    {- <.harAm> -}         [ ['s','a','c','r','e','d'], ['h','o','l','y'] ],
+    FaCAL                     `adj`     {- <.harAm> -}         [ ['s','a','c','r','e','d'], ['h','o','l','y'] ],
 
     FaCIL                     `noun`    {- <.harIm> -}         [ ['h','a','r','e','m'] ]
                               `plural`     FuCuL,
@@ -1472,7 +1474,7 @@ cluster_66  = cluster
 
     FiCLAn                    `noun`    {- <.hirmAn> -}        [ ['d','e','p','r','i','v','a','t','i','o','n'], ['p','r','o','h','i','b','i','t','i','o','n'] ],
 
-    MaFCaL                    `noun`    {- <ma.hram> -}        [ ['f','o','r','b','i','d','d','e','n'], ['s','a','c','r','e','d'] ]
+    MaFCaL                    `adj`     {- <ma.hram> -}        [ ['f','o','r','b','i','d','d','e','n'], ['s','a','c','r','e','d'] ]
                               `plural`     MaFACiL,
 
     MuFACaL |< aT             `noun`    {- <mu.hAramaT> -}     [ ['M','u','h','a','r','a','m','a'] ],

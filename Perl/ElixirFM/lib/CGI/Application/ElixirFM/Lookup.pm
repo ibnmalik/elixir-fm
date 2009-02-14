@@ -194,7 +194,7 @@ sub main ($) {
 
         if ($q->param('text') ne '') {
 
-            $q->param('text', normalize decode "utf8", $q->param('text'));
+            $q->param('text', decode "utf8", $q->param('text'));
         }
         elsif (defined $q->param('clip') and $q->param('clip') =~ /^\s*\(\s*(-?)\s*([0-9]+)\s*,\s*(-?)\s*([0-9]+)\s*\)\s*$/) {
 
@@ -217,7 +217,7 @@ sub main ($) {
 
     $r .= $q->h2('Your Request');
 
-    $r .= $q->start_form(-method => 'POST', -onreset => "yamli('text')");
+    $r .= $q->start_form(-method => 'POST');
 
     $r .= $q->table( {-border => 0},
 
@@ -227,6 +227,7 @@ sub main ($) {
 
                         $q->textfield(  -name       =>  'text',
                                         -id         =>  'text',
+                                        -dir        =>  'ltr',
                                         -default    =>  $q->param('text'),
                                         -size       =>  60,
                                         -maxlength  =>  100) ),
@@ -236,7 +237,7 @@ sub main ($) {
                         $q->radio_group(-name       =>  'code',
                                         -values     =>  [ @enc_list ],
                                         -default    =>  $q->param('code'),
-                                        -onchange   =>  "yamli('text')",
+                                        -onchange   =>  "elixirYamli('text')",
                                         -attributes =>  { 'ArabTeX'    => {-title => "internal phonology-oriented notation"},
                                                           'Buckwalter' => {-title => "letter-by-letter romanization"},
                                                           'Unicode'    => {-title => "original script and orthography"} },
@@ -247,7 +248,7 @@ sub main ($) {
                 Tr( {-align => 'left'},
 
                     td({-align => 'left'},   $q->submit(-name => 'submit', -value => ucfirst $q->param($c->mode_param()))),
-                    td({-align => 'center'}, $q->reset('Reset')),
+                    td({-align => 'center'}, $q->button(-name => 'clear',  -value => 'Clear', -onclick => "elixirClear('text')")),
                     td({-align => 'right'},  $q->submit(-name => 'submit', -value => 'Example')) ) );
 
     $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
@@ -264,6 +265,8 @@ sub main ($) {
 
     my $mode = $q->param($c->mode_param());
 
+    my $code = exists $enc_hash{$q->param('code')} ? $enc_hash{$q->param('code')} : 'UTF';
+
     my @text = split '"', $q->param('text');
 
     for (my $i = 0; $i < @text; $i += 2) {
@@ -272,11 +275,11 @@ sub main ($) {
 
         for (my $j = 0; $j < @data; $j += 2) {
 
-            my @word = (defined $q->param('code') and $q->param('code') ne 'Unicode')
+            $data[$j] = normalize $data[$j], $code;
 
-                        ? (split / *((?:[._^,]?[^ ._^,]){2,}|(?:[._^,]?[^ ._^,])(?: +(?:[._^,]?[^ ._^,])(?![^ ]))*) */, $data[$j])
+            my @word = $code eq 'UTF' ? (split / *(\p{InArabic}{2,}|\p{InArabic}(?: +\p{InArabic})*) */, $data[$j])
 
-                        : (split / *(\p{InArabic}{2,}|\p{InArabic}(?: +\p{InArabic})*) */, $data[$j]);
+                        : (split / *((?:[._^,]?[^ ._^,]){2,}|(?:[._^,]?[^ ._^,])(?: +(?:[._^,]?[^ ._^,])(?![^ ]))*) */, $data[$j]);
 
             for (my $l = 1; $l < @word; $l += 2) {
 
@@ -291,13 +294,13 @@ sub main ($) {
 
     my $text = join "\n", grep { $_ !~ /^ *$/ } @text;
 
+    $q->param('text', $text);
+
     open T, '>', "$mode/index.$$.$session.tmp";
 
     print T encode "utf8", $text;
 
     close T;
-
-    my $code = exists $enc_hash{$q->param('code')} ? $enc_hash{$q->param('code')} : 'UTF';
 
     tick @tick;
 

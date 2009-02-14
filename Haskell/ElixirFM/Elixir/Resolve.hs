@@ -162,11 +162,25 @@ instance Resolve String where
 
     tokenize = nub . tokens'''
 
-        where tokens x = if null x then [] else case reverse x of
+        where tokens x = tokens'''' x ++ case reverse x of
 
-                    'U' : 'm' : 'u' : 't' : y   -> [[x], [reverse y ++ "tum"]]
-                    'U' : 'm' : 't' : y         -> [[x], [reverse y ++ "tm"]]
-                    _                           -> [[x]]
+                    'a' : 't' : y               -> [[reverse y ++ "Ta"]]
+                    'i' : 't' : y               -> [[reverse y ++ "Ti"]]
+                    'u' : 't' : y               -> [[reverse y ++ "Tu"]]
+                    't' : y                     -> [[reverse y ++ "T"]]
+
+                    'A' : y                     -> [[reverse y ++ "Y"]]
+
+                    'U' : 'm' : 'u' : 't' : y   -> [[reverse y ++ "tum"]]
+                    'U' : 'm' : 't' : y         -> [[reverse y ++ "tm"]]
+
+                    'U' : y                     -> [[reverse y ++ "UW"]]
+                    '"' : 'w' : y               -> [[reverse y ++ "W"]]
+                    'w' : y                     -> [[reverse y ++ "W"]]
+
+                    _                           -> []
+
+              tokens'''' x = if null x then [] else [[x]]
 
               tokens''' x = tokens'' x ++ case x of
 
@@ -175,10 +189,10 @@ instance Resolve String where
                     'w' : '-' : y           ->  [ "w"  : y' | y' <- tokens'' y ]
                     'w' : y                 ->  [ "w"  : y' | y' <- tokens'' y ]
 
-                    'f' : 'a' : 'l' : '-' : y   ->  [ "fa" : "l" : y' | y' <- tokens' y ]
-                    'f' : 'a' : 'l' : y         ->  [ "fa" : "l" : y' | y' <- tokens' y ]
-                    'f' : 'l' : '-' : y         ->  [ "f"  : "l" : y' | y' <- tokens' y ]
-                    'f' : 'l' : y               ->  [ "f"  : "l" : y' | y' <- tokens' y ]
+                    'f' : 'a' : 'l' : '"' : '-' : y ->  [ "fa" : "li" : y' | y' <- tokens' y ]
+                    'f' : 'a' : 'l' : '"' : y       ->  [ "fa" : "li" : y' | y' <- tokens' y ]
+                    'f' : 'l' : '"' : '-' : y       ->  [ "f"  : "li" : y' | y' <- tokens' y ]
+                    'f' : 'l' : '"' : y             ->  [ "f"  : "li" : y' | y' <- tokens' y ]
 
                     'f' : 'a' : '-' : y     ->  [ "fa" : y' | y' <- tokens'' y ]
                     'f' : 'a' : y           ->  [ "fa" : y' | y' <- tokens'' y ]
@@ -228,7 +242,7 @@ instance Resolve String where
 
                     _                       ->  []
 
-              tokens' x = tokens x ++ case reverse x of
+              tokens' x = tokens'''' x ++ case reverse x of
 
                     'u' : 'h' : y           ->  [ y' ++ ["hu"] | y' <- tokens (reverse y) ]
                     'i' : 'h' : y           ->  [ y' ++ ["hi"] | y' <- tokens (reverse y) ]
@@ -331,13 +345,26 @@ instance Resolve [UPoint] where
 
     tokenize = map (map (decode Tim)) . nub . tokens''' . encode Tim
 
-        where tokens x = if null x then [] else case reverse x of
+        where tokens x = tokens'''' x ++ case reverse x of
 
-                    'w' : 'u' : 'm' : 'u' : 't' : y -> [[x], [reverse y ++ "tum"]]
-                    'w' : 'm' : 'u' : 't' : y       -> [[x], [reverse y ++ "tum"]]
-                    'w' : 'u' : 'm' : 't' : y       -> [[x], [reverse y ++ "tm"]]
-                    'w' : 'm' : 't' : y             -> [[x], [reverse y ++ "tm"]]
-                    _                               -> [[x]]
+                    'a' : 't' : y                   -> [[reverse y ++ "pa"]]
+                    'i' : 't' : y                   -> [[reverse y ++ "pi"]]
+                    'u' : 't' : y                   -> [[reverse y ++ "pu"]]
+                    't' : y                         -> [[reverse y ++ "p"]]
+
+                    'A' : y                         -> [[reverse y ++ "Y"]]
+
+                    'w' : 'u' : 'm' : 'u' : 't' : y -> [[reverse y ++ "tum"]]
+                    'w' : 'm' : 'u' : 't' : y       -> [[reverse y ++ "tum"]]
+                    'w' : 'u' : 'm' : 't' : y       -> [[reverse y ++ "tm"]]
+                    'w' : 'm' : 't' : y             -> [[reverse y ++ "tm"]]
+
+                    'o' : 'w' : y                   -> [[reverse y ++ "woA"]]
+                    'w' : y                         -> [[reverse y ++ "wA"]]
+
+                    _                               -> []
+
+              tokens'''' x = if null x then [] else [[x]]
 
               tokens''' x = tokens'' x ++ case x of
 
@@ -345,9 +372,7 @@ instance Resolve [UPoint] where
                     'w' : y                 ->  [ "w"  : y' | y' <- tokens'' y ]
 
                     'f' : 'a' : 'l' : 'o' : y   ->  [ "fa" : "li" : y' | y' <- tokens' y ]
-                    'f' : 'a' : 'l' : y         ->  [ "fa" : "l"  : y' | y' <- tokens' y ]
                     'f' : 'l' : 'o' : y         ->  [ "f"  : "li" : y' | y' <- tokens' y ]
-                    'f' : 'l' : y               ->  [ "f"  : "l"  : y' | y' <- tokens' y ]
 
                     'f' : 'a' : y           ->  [ "fa" : y' | y' <- tokens'' y ]
                     'f' : y                 ->  [ "f"  : y' | y' <- tokens'' y ]
@@ -361,6 +386,16 @@ instance Resolve [UPoint] where
 
                     'b' : 'i' : y           ->  [ "bi" : y' | y' <- tokens' y ]
                     'b' : y                 ->  [ "b"  : y' | y' <- tokens' y ]
+
+                    'l' : 'i' : 'l' : y     ->  [ "li" : y' | y' <- tokens' ("l" ++ y) ++
+                                                                    tokens' ("Al" ++ y) ++
+                                                                    tokens' ("All" ++ y) ]
+                    'l' : 'a' : 'l' : y     ->  [ "la" : y' | y' <- tokens' ("l" ++ y) ++
+                                                                    tokens' ("Al" ++ y) ++
+                                                                    tokens' ("All" ++ y) ]
+                    'l' : 'l' : y           ->  [ "l"  : y' | y' <- tokens' ("l" ++ y) ++
+                                                                    tokens' ("Al" ++ y) ++
+                                                                    tokens' ("All" ++ y) ]
 
                     'l' : 'i' : y           ->  [ "li"  : y' | y' <- tokens' y ]
                     'l' : 'a' : 'A' : y     ->  [ "laA" : y' | y' <- tokens' y ]
@@ -386,7 +421,7 @@ instance Resolve [UPoint] where
 
                     _                       ->  []
 
-              tokens' x = tokens x ++ case reverse x of
+              tokens' x = tokens'''' x ++ case reverse x of
 
                     'u' : 'h' : y           ->  [ y' ++ ["hu"]  | y' <- tokens (reverse y) ]
                     'i' : 'h' : y           ->  [ y' ++ ["hi"]  | y' <- tokens (reverse y) ]
@@ -434,39 +469,39 @@ instance Resolve [UPoint] where
                     '~' : 'n' : 'k' : y                 ->  [ y' ++ ["kn~"]   | y' <- tokens (reverse y) ]
                     'n' : 'k' : y                       ->  [ y' ++ ["kn"]    | y' <- tokens (reverse y) ]
 
-                    'a' : '~' : 'y' : 'i' : y   ->  [ y' ++ ["ya"]  | y' <- tokens (reverse ('w' : 'u' : y)) ++
-                                                                            tokens (reverse ('y' : 'i' : y)) ]
-                    'a' : '~' : 'y' : y         ->  [ y' ++ ["ya"]  | y' <- tokens (reverse ('w' : y)) ++
-                                                                            tokens (reverse ('y' : y)) ]
-                    '~' : 'y' : 'i' : y         ->  [ y' ++ ["y"]   | y' <- tokens (reverse ('w' : 'u' : y)) ++
-                                                                            tokens (reverse ('y' : 'i' : y)) ]
-                    '~' : 'y' : y               ->  [ y' ++ ["y"]   | y' <- tokens (reverse ('w' : y)) ++
-                                                                            tokens (reverse ('y' : y)) ]
+                    'a' : '~' : 'y' : 'i' : y   ->  [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "uw") ++
+                                                                            tokens (reverse y ++ "iy") ]
+                    'a' : '~' : 'y' : y         ->  [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "w") ++
+                                                                            tokens (reverse y ++ "y") ]
+                    '~' : 'y' : 'i' : y         ->  [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "uw") ++
+                                                                            tokens (reverse y ++ "iy") ]
+                    '~' : 'y' : y               ->  [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "w") ++
+                                                                            tokens (reverse y ++ "y") ]
                     'a' : 'y' : y               ->  [ y' ++ ["ya"]  | y' <- tokens (reverse y) ]
 
-                    'y' : 'i' : '~' : 'n' : y   ->  [ y' ++ ["iy"]  | y' <- tokens (reverse ('~' : 'n' : y)) ] ++
-                                                    [ y' ++ ["niy"] | y' <- tokens (reverse ('n' : y)) ] ++
-                                                    [ y' ++ ["y"]   | y' <- tokens (reverse ('w' : 'u' : '~' : 'n' : y)) ++
-                                                                            tokens (reverse ('y' : 'i' : '~' : 'n' : y)) ]
-                    'y' : '~' : 'n' : y         ->  [ y' ++ ["y"]   | y' <- tokens (reverse ('~' : 'n' : y)) ] ++
-                                                    [ y' ++ ["ny"]  | y' <- tokens (reverse ('n' : y)) ] ++
-                                                    [ y' ++ ["y"]   | y' <- tokens (reverse ('w' : '~' : 'n' : y)) ++
-                                                                            tokens (reverse ('y' : '~' : 'n' : y)) ]
-                    'y' : 'i' : 'n' : y         ->  [ y' ++ ["iy"]  | y' <- tokens (reverse ('n' : y)) ] ++
+                    'y' : 'i' : '~' : 'n' : y   ->  [ y' ++ ["iy"]  | y' <- tokens (reverse y ++ "n~") ] ++
+                                                    [ y' ++ ["niy"] | y' <- tokens (reverse y ++ "n") ] ++
+                                                    [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "n~uw") ++
+                                                                            tokens (reverse y ++ "n~iy") ]
+                    'y' : '~' : 'n' : y         ->  [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "n~") ] ++
+                                                    [ y' ++ ["ny"]  | y' <- tokens (reverse y ++ "n") ] ++
+                                                    [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "n~w") ++
+                                                                            tokens (reverse y ++ "n~y") ]
+                    'y' : 'i' : 'n' : y         ->  [ y' ++ ["iy"]  | y' <- tokens (reverse y ++ "n") ] ++
                                                     [ y' ++ ["niy"] | y' <- tokens (reverse y) ] ++
-                                                    [ y' ++ ["y"]   | y' <- tokens (reverse ('w' : 'u' : 'n' : y)) ++
-                                                                            tokens (reverse ('y' : 'i' : 'n' : y)) ]
-                    'y' : 'n' : y               ->  [ y' ++ ["y"]   | y' <- tokens (reverse ('n' : y)) ] ++
+                                                    [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "nuw") ++
+                                                                            tokens (reverse y ++ "niy") ]
+                    'y' : 'n' : y               ->  [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "n") ] ++
                                                     [ y' ++ ["ny"]  | y' <- tokens (reverse y) ++
-                                                                            tokens (reverse ('n' : y)) ] ++
-                                                    [ y' ++ ["y"]   | y' <- tokens (reverse ('w' : 'n' : y)) ++
-                                                                            tokens (reverse ('y' : 'n' : y)) ]
+                                                                            tokens (reverse y ++ "n") ] ++
+                                                    [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "nw") ++
+                                                                            tokens (reverse y ++ "ny") ]
                     'y' : 'i' : y               ->  [ y' ++ ["iy"]  | y' <- tokens (reverse y) ] ++
-                                                    [ y' ++ ["y"]   | y' <- tokens (reverse ('w' : 'u' : y)) ++
-                                                                            tokens (reverse ('y' : 'i' : y)) ]
+                                                    [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "uw") ++
+                                                                            tokens (reverse y ++ "iy") ]
                     'y' : y                     ->  [ y' ++ ["y"]   | y' <- tokens (reverse y) ] ++
-                                                    [ y' ++ ["y"]   | y' <- tokens (reverse ('w' : y)) ++
-                                                                            tokens (reverse ('y' : y)) ]
+                                                    [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "w") ++
+                                                                            tokens (reverse y ++ "y") ]
 
                     'A' : 'a' : '~' : 'n' : y   ->  [ y' ++ ["naA"] | y' <- tokens (reverse ('n' : y)) ]
                     'A' : '~' : 'n' : y         ->  [ y' ++ ["nA"]  | y' <- tokens (reverse ('n' : y)) ]
@@ -535,6 +570,7 @@ approx "l"  "-"  = True
 approx "t"  "T"  = True
 approx "y"  "I"  = True
 approx "w"  "U"  = True
+approx "w"  "W"  = True
 approx "y"  "'"  = True
 approx "w"  "'"  = True
 approx _    _    = False
@@ -761,8 +797,8 @@ recoder = Map.fromAscList [ (toEnum x, y) | (y, x) <- [
                             ( "^l",         0x06B5 )    ] ]
 
 
-test = unlines ["wa fI milaffi al-'adabi .tara.hat al-ma^gallaTu qa.dIyaTa al-lu.gaTi al-`arabIyaTi wa al-'a_h.tAri allatI tuhaddidu hA.",
-                "\\cap wa yarY al-qA'imUna `alY al-milaffi 'anna mA tata`arra.du la hu al-lu.gaTu al-`arabIyaTu la hu 'ahdAfuN mu.haddadaTuN",
-                "min hA 'ib`Adu al-`arabi `an lu.gaTi him wa muzA.hamaTu al-lu.gAti al-.garbIyaTi la hA wa huwa mA ya`nI .du`fa a.s-.silaTi bi hA",
-                "wa mu.hAwalaTu 'izA.haTi al-lu.gaTi al-fu.s.hY bi kulli al-wasA'ili",
-                "wa 'i.hlAli al-laha^gAti al-mu_htalifaTi fI al-bilAdi al-`arabIyaTi ma.halla hA."]
+test = unlines ["wa fI milaffi al-'adabi .tara.hat al-ma^gallaTu qa.dIyaTa al-lu.gaTi al-`arabIyaTi wa-al-'a_h.tAri allatI tuhaddiduhA.",
+                "\\cap wa-yarY al-qA'imUna `alY al-milaffi 'anna mA tata`arra.du lahu al-lu.gaTu al-`arabIyaTu lahu 'ahdAfuN mu.haddadaTuN",
+                "minhA 'ib`Adu al-`arabi `an lu.gatihim wa-muzA.hamaTu al-lu.gAti al-.garbIyaTi lahA wa-huwa mA ya`nI .du`fa a.s-.silaTi bihA",
+                "wa-mu.hAwalaTu 'izA.haTi al-lu.gaTi al-fu.s.hY bi-kulli al-wasA'ili",
+                "wa-'i.hlAli al-laha^gAti al-mu_htalifaTi fI al-bilAdi al-`arabIyaTi ma.hallahA."]

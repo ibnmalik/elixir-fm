@@ -220,14 +220,8 @@ cluster_15  = cluster
 
     FACaL                     `verb`    {- <yAwam> -}          [ unwords [ ['h','i','r','e'], "(", ['a','s'], "a", ['d','a','y'], ['l','a','b','o','r','e','r'], ")" ] ],
 
-    FaCL                      `noun`    {- <yawm> -}           [ ['d','a','y'] ]
+    FaCL                      `noun`    {- <yawm> -}           [ ['d','a','y'], ['t','o','d','a','y'] ]
                               `plural`     HaFyAL,
-
-    FaCL                      `noun`    {- <yawm> -}           [ unwords [ ['s','o','m','e'], ['d','a','y'] ] ],
-
-    FaCL                      `noun`    {- <yawm> -}           [ ['t','o','d','a','y'] ],
-
-    FaCL                      `noun`    {- <yawm> -}           [ ['Y','o','u','m'] ],
 
     FaCL |< Iy                `adj`     {- <yawmIy> -}         [ ['d','a','i','l','y'], unwords [ ['p','e','r'], ['d','i','e','m'] ], unwords [ ['o','n'], "a", ['d','a','i','l','y'], ['b','a','s','i','s'] ] ],
 
