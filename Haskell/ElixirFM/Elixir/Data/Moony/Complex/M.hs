@@ -1609,7 +1609,7 @@ cluster_90  = cluster
 
     FACUL                     `noun`    {- <kAnUn> -}          [ unwords [ ['K','a','n','u','n'], "(", ['m','o','n','t','h'], ")" ] ]
                            
-    `excepts` otherwise,
+    `excepts` Diptote,
 
     FACUL                     `noun`    {- <kAnUn> -}          [ ['s','t','o','v','e'] ]
                               `plural`     FawACIL,

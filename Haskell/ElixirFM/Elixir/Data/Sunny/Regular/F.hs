@@ -507,7 +507,7 @@ cluster_23  = cluster
 
     FaCaLAn                   `noun`    {- <rama.dAn> -}       [ unwords [ ['R','a','m','a','d','a','n'], "(", ['m','o','n','t','h'], ")" ] ]
                            
-    `excepts` otherwise,
+    `excepts` Diptote,
 
     FaCaLAn |< Iy             `adj`     {- <rama.dAnIy> -}     [ unwords [ ['R','a','m','a','d','a','n'], "-", ['r','e','l','a','t','e','d'] ] ],
 

@@ -39,10 +39,11 @@ sub pretty ($$$) {
 
     for (my $i; $i < @word; $i++) {
 
-        $r .= $q->h3($q->span({-class => "word",
+        $r .= $q->h3($q->span({-class => "mode"}, ucfirst $_[1]),
+                     $q->span({-class => "word",
                                -title => "input word"}, $text[$i]));
 
-        $word[$i] = ElixirFM::prune($word[$i]);
+        # $word[$i] = ElixirFM::prune($word[$i]);
 
         if (@{$word[$i]->{'node'}}) {
 

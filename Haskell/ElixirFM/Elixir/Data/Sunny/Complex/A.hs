@@ -542,11 +542,11 @@ cluster_38  = cluster
 
     KUDiS                     `noun`    {- <tUnis> -}          [ ['T','u','n','i','s'] ]
                            
-    `excepts` otherwise,
+    `excepts` Diptote,
 
     KUDiS                     `noun`    {- <tUnis> -}          [ ['T','u','n','i','s','i','a'] ]
                            
-    `excepts` otherwise,
+    `excepts` Diptote,
 
     KUDiS |< Iy               `adj`     {- <tUnisIy> -}        [ ['T','u','n','i','s','i','a','n'] ]
                               `plural`     KaRADiS |< aT

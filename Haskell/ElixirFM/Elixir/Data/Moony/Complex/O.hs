@@ -252,11 +252,11 @@ cluster_14  = cluster
 
     FuCY                      `noun`    {- <munY> -}           [ ['M','o','u','n','a'], ['M','u','n','a'] ]
                            
-    `excepts` otherwise,
+    `excepts` Diptote,
 
     FiCY                      `noun`    {- <minY> -}           [ unwords [ ['M','i','n','a'], "(", ['v','a','l','l','e','y'], ['n','e','a','r'], ['M','e','c','c','a'], ")" ] ]
                            
-    `excepts` otherwise,
+    `excepts` Diptote,
 
     FiCY                      `noun`    {- <minY> -}           [ ['s','e','m','e','n'], ['s','p','e','r','m'] ],
 
@@ -308,7 +308,7 @@ cluster_17  = cluster
 
     FaCA                      `noun`    {- <mahA> -}           [ ['M','a','h','a'] ]
                            
-    `excepts` otherwise,
+    `excepts` Diptote,
 
     FaCA |< aT                `noun`    {- <mahAT> -}          [ unwords [ ['w','i','l','d'], ['c','o','w'] ] ]
                               `plural`     FaCA |< At ]
@@ -317,7 +317,7 @@ cluster_17  = cluster
 
     FaCY                      `noun`    {- <mahY> -}           [ ['M','a','h','a'] ]
                            
-    `excepts` otherwise,
+    `excepts` Diptote,
 
     FaCY |< aT                `noun`    {- <mahAT> -}          [ unwords [ ['w','i','l','d'], ['c','o','w'] ] ]
                               `plural`     FaCY |< At ]

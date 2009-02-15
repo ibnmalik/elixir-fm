@@ -30,7 +30,7 @@ import Elixir.Inflect
 
 import Elixir.Data.Lexicons
 
-import Elixir.Pretty hiding (group)
+import Elixir.Pretty
 
 import Encode.Arabic
 
@@ -141,7 +141,7 @@ instance Resolve String where
 
                                         let r = unwraps (reduce . root) x,
 
-                                        let i = [ v | v <- u, isSubsumed b except r v ],
+                                        let i = [ v | v <- u, isSubsumed b assims r v ],
 
                                         not (null i), s <- unwraps (inflects i n) x ]
 
@@ -313,7 +313,7 @@ instance Resolve [UPoint] where
 
                                         let r = unwraps (reduce . root) x,
 
-                                        let i = [ (v, w) | (v, w) <- u, isSubsumed b except r w ],
+                                        let i = [ (v, w) | (v, w) <- u, isSubsumed b assims r w ],
 
                                         not (null i), s <- unwraps (inflects i n) x ]
 
@@ -558,10 +558,10 @@ isSubsumed q c zs@(x:xs) (y:ys) | x `q` y ||
                                 | otherwise = isSubsumed q c zs ys
 
 
-except :: String -> String -> Bool
+assims :: String -> String -> Bool
 
-except "_d" "d"  = True
-except _    _    = False
+assims "_d" "d"  = True
+assims _    _    = False
 
 
 approx :: String -> String -> Bool

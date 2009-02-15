@@ -104,9 +104,9 @@ sub normalize ($$) {
 
     my ($text, $code) = @_;
 
-    my @data;
+    my @data = split " ", $text;
 
-    if ($code eq 'Unicode') {
+    if ($code eq 'UTF') {
 
         $text =~ tr[\x{06A9}\x{06AA}][\x{0643}];
         $text =~ tr[\x{06CC}][\x{064A}];

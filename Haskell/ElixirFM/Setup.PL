@@ -21,7 +21,7 @@ sub path ($) {
     $DdotsElixirFMExecbin = path "..... ElixirFM bin";
 
     $Ddots = path ".....";
-    
+
     $Dbin = path ". bin";
     $Ddoc = path ". doc";
 
@@ -90,11 +90,11 @@ sub path ($) {
     chdir "..";
 
 
-    @param = @ARGV ? @ARGV : $^O eq 'MSWin32' ? "--global" 
+    @param = @ARGV ? @ARGV : $^O eq 'MSWin32' ? "--global"
                                               : "--user --prefix $ENV{'HOME'}/.cabal";
-    
+
     print "Configuring with parameters: @param";
-    
+
     system "runhaskell Setup.hs configure @param";
     system "runhaskell Setup.hs build";
     system "runhaskell Setup.hs haddock --executables";
@@ -132,7 +132,7 @@ sub path ($) {
         move $file, $path;
     }
 
-    
+
     copy path ".. LICENSE", path "ElixirFM";
 
 

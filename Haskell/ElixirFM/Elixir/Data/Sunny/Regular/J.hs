@@ -711,7 +711,7 @@ cluster_56  = cluster
 
     FuCAL                     `noun`    {- <^subA.t> -}        [ ['F','e','b','r','u','a','r','y'] ]
                            
-    `excepts` otherwise,
+    `excepts` Diptote,
 
     FaCCUL                    `noun`    {- <^sabbU.t> -}       [ ['c','a','r','p'] ]
                               `plural`     FaCACIL ]

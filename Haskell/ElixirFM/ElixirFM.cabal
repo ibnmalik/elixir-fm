@@ -320,9 +320,3 @@ extensions:         MultiParamTypeClasses,
                     FlexibleInstances,
                     FlexibleContexts
 hugs-options:       -98 +o +u -h96M
-
---  executable:         elixir-resolve
---  main-is:            Exec/Resolve/Main.hs
-
---  executable:         elixir-compose
---  main-is:            Exec/Compose/Main.hs

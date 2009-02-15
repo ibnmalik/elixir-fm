@@ -20,7 +20,7 @@ module Elixir.Compose where
 
 import Prelude hiding (lookup)
 
-import Elixir.System hiding (list)
+import Elixir.System
 
 import Elixir.Template
 
@@ -32,7 +32,7 @@ import Elixir.Lookup
 
 import Elixir.Data.Lexicons
 
-import Elixir.Pretty hiding (group)
+import Elixir.Pretty
 
 import Encode.Arabic
 

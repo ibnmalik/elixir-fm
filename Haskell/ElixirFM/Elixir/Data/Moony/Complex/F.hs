@@ -116,7 +116,7 @@ cluster_9   = cluster
 
     _____ |< aT               `noun`    {- <ba'UnaT> -}        [ unwords [ ['B','a','\'','u','n','a'], "(", ['1','0','t','h'], ['C','o','p','t','i','c'], ['m','o','n','t','h',','], ['J','u','n','e'], "8", "-", ['J','u','l','y'], "7", ")" ] ]
                            
-    `excepts` otherwise ]
+    `excepts` Diptote ]
 
 
 cluster_10  = cluster
@@ -997,7 +997,7 @@ cluster_64  = cluster
 
     KaRDAS                    `noun`    {- <ba.gdAd> -}        [ ['B','a','g','h','d','a','d'] ]
                            
-    `excepts` otherwise,
+    `excepts` Diptote,
 
     KaRDAS |< Iy              `adj`     {- <ba.gdAdIy> -}      [ unwords [ ['f','r','o','m'], "/", ['o','f'], ['B','a','g','h','d','a','d'] ], ['B','a','g','h','d','a','d','i'] ]
                               `plural`     KaRADiS |< aT,
@@ -1142,7 +1142,7 @@ cluster_72  = cluster
 
     FaCL |< aT                `noun`    {- <bakkaT> -}         [ unwords [ ['B','a','k','k','a'], "(", ['a','n','c','i','e','n','t'], ['n','a','m','e'], ['o','f'], ['M','e','c','c','a'], ")" ] ]
                            
-    `excepts` otherwise ]
+    `excepts` Diptote ]
 
 
 cluster_73  = cluster

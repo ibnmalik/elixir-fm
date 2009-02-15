@@ -1048,7 +1048,7 @@ cluster_56  = cluster
 
     KaRDiS                    `noun`    {- <ya_trib> -}        [ ['Y','a','t','h','r','i','b'] ]
                            
-    `excepts` otherwise ]
+    `excepts` Diptote ]
 
 
 cluster_57  = cluster

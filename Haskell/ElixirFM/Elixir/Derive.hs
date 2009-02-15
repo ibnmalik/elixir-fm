@@ -24,7 +24,7 @@ import Elixir.Template
 
 import Elixir.Lexicon
 
-import Elixir.Pretty hiding (list)
+import Elixir.Pretty
 
 import Data.List (nub)
 

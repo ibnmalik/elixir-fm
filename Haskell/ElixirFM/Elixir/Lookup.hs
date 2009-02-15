@@ -127,7 +127,7 @@ instance Lookup [UPoint] where
 
     lookupWith y x = lookupUsing y f (\ r e -> q (decode TeX (merge r (morphs e))))
 
-        where f z = if isSubsumed (flip alike) except (reduce z) r then Just (q (decode TeX z))
+        where f z = if isSubsumed (flip alike) assims (reduce z) r then Just (q (decode TeX z))
                                                                    else Nothing
               q z = omitting alike omits (units z) u
 
@@ -139,7 +139,7 @@ instance Lookup String where
 
     lookupWith y x = lookupUsing y f (\ r e -> q (merge r (morphs e)))
 
-        where f z = if isSubsumed (flip alike) except (reduce z) u then Just (q z)
+        where f z = if isSubsumed (flip alike) assims (reduce z) u then Just (q z)
                                                                    else Nothing
               q z = omitting alike omits (units z) u
 

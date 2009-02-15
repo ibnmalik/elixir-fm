@@ -75,11 +75,12 @@ table.lexeme {
 }
 
 .lexeme td.phon {
-    min-width: 5em;
+    min-width: 5.5em;
 }
 
 .lexeme td.orth {
-    min-width: 3em;
+    min-width: 4em;
+    padding-right: 1em;
 }
 
 .lexeme td.atex {
@@ -92,11 +93,11 @@ table.lexeme {
 }
 
 .lexeme td.morphs {
-    min-width: 5em;
+    min-width: 8em;
 }
 
 .lexeme td.class {
-    width: 2em;
+    width: 2.5em;
 }
 
 .lexeme td.stems {
@@ -180,15 +181,14 @@ h3 {
     margin-bottom: 10px;
 }
 
-h3 span {
-    margin-right: 0em;
-}
-
-h3 span:before {
-    content: "Input word";
+h3 span.mode {
     font-size: medium;
     font-weight: normal;
-    margin-right: 1em;
+    margin-right: 0.4em;
+}
+
+h3 span.word {
+    margin-right: 0em;
 }
 
 a:link {

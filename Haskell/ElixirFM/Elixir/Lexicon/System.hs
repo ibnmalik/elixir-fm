@@ -230,7 +230,7 @@ type Plural a = Morphs a -- Either (Root, Morphs a) (Morphs a)
 data Entity a = Verb { form :: [Form], perfect', imperfect, imperative :: [a],
                        justTense :: Maybe Tense, justVoice :: Maybe Voice,
                        msdr :: [Morphs a] }
-              | Noun [Plural a] (Maybe Gender) (Maybe Number) (Maybe Bool) (Maybe Bool)
+              | Noun [Plural a] (Maybe Gender) (Maybe Number) (Maybe Bool) (Maybe Except)
               | Adj  [Plural a] [Morphs a]     (Maybe Number)
               | Pron
               | Num  [Plural a] [Morphs a]
@@ -423,12 +423,20 @@ derives x y = case entity x of
                 _              -> x
 
 
-excepts :: Entry a -> Bool -> Entry a
+excepts :: Entry a -> Except -> Entry a
 
 excepts x y = case entity x of
 
                 Noun z g n d _ -> x { entity = Noun z g n d (Just y) }
                 _              -> x
+
+
+except :: Entry a -> Maybe Except
+
+except x = case entity x of
+
+                Noun _ _ _ _ e -> e
+                _              -> Nothing
 
 
 limited :: Entry a -> String -> Entry a

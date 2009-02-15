@@ -10,14 +10,20 @@ this.listexpander = function(){
 
     // edit
 
-    var expandInit = 3; // level up to which you want your lists to be initially expanded
-    var expandMax = 4;
-    var expandMin = 1;
-    var expandText = "Expand"; // text for expand all button
-    var collapseText = "Collapse"; // text for collapse all button
-    var listClass = "listexpander" // class name that you want to assign to list(s)
+    var listClass = "listexpander"; // class name that you want to assign to list(s)
+
+    var expandText = "Expand";      // text for expand all button
+    var collapseText = "Collapse";  // text for collapse all button
 
     // end edit (do not edit below this line)
+
+    var elem = document.getElementsByName("mode");
+    var mode = elem.length > 0 ? elem[0].value : 'home';
+
+    var expandMax = mode == 'resolve' ? 4 : 3;
+    var expandMin = 1;
+
+    var expandInit = expandMax - 1;
 
     this.start = function(){
         var ul = document.getElementsByTagName("ul");

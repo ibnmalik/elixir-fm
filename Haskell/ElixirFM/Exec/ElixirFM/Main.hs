@@ -24,7 +24,7 @@ import Elixir.Data.Lexicons
 import Elixir.Lexicon
 
 import Elixir.System
-import Elixir.Pretty hiding (list)
+import Elixir.Pretty
 
 import Elixir.Derive
 import Elixir.Lookup
@@ -53,7 +53,7 @@ version = Version [1, 1, build] []
     where Version [build] [] = revised "$Revision$"
 
 
-data Opts = RunAction ([Opts] -> [String] -> IO ()) | FuzzyResolve | TokenResolve | PruneResolve
+data Opts = RunAction ([Opts] -> [String] -> IO ()) | FuzzyResolve | TokenResolve
           | DisplayUsage
           | PrintVersion
 
@@ -79,10 +79,7 @@ options = [ Option []    ["resolve"]    (NoArg (RunAction elixirResolve))
                                                 "fuzzy notation resolution",
 
             Option ['t'] ["token"]      (NoArg  TokenResolve)
-                                                "single token resolution",
-
-            Option ['p'] ["prune"]      (NoArg  PruneResolve)
-                                                "resolution with pruning\n\n",
+                                                "single token resolution\n\n",
 
             Option ['h'] ["help"]       (NoArg  DisplayUsage)
                                                 "program's usage and online references",
@@ -130,7 +127,7 @@ warn = hPutStr stderr
 
 elixirResolve o p = interact (unlines . map (show . q . words) . onlines)
 
-    where q = pretty . (if r then id else map prune) . case e of
+    where q = pretty . map prune . case e of
 
                 "tex"   ->  resolveBy (fst f') (omitting (snd f') omits) . map t'
 
@@ -149,7 +146,6 @@ elixirResolve o p = interact (unlines . map (show . q . words) . onlines)
 
           f = null [ FuzzyResolve | FuzzyResolve <- o ]
           t = null [ TokenResolve | TokenResolve <- o ]
-          r = null [ PruneResolve | PruneResolve <- o ]
 
           e = if null p then "" else map toLower (head p)
 
@@ -163,8 +159,8 @@ elixirInflect o p = interact (unlines . map (show . q) . map words . onlines)
 
 elixirLookup o p = interact (unlines . map (show . q) . onlines)
 
-    where q x = (f . flip list c) (if null r then (lookup . words) x
-                                   else case e of
+    where q x = (f . flip lists c) (if null r then (lookup . words) x
+                                    else case e of
 
                                         "tex"   ->  (lookup . head) r
                                         "tim"   ->  (lookup . decode Tim . head) r

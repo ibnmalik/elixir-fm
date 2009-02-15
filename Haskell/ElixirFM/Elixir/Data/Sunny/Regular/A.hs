@@ -869,11 +869,11 @@ cluster_62  = cluster
 
     KiRDIS                    `noun`    {- <ti^srIn> -}        [ unwords [ ['T','i','s','h','r','i','n'], "(", ['m','o','n','t','h'], ")" ] ]
                            
-    `excepts` otherwise,
+    `excepts` Diptote,
 
     KiRDIS                    `noun`    {- <ti^srIn> -}        [ unwords [ ['T','i','s','h','r','i','n'], "(", ['n','e','w','s','p','a','p','e','r'], ")" ] ]
                            
-    `excepts` otherwise,
+    `excepts` Diptote,
 
     KaRADIS                   `noun`    {- <ta^sArIn> -}       [ ['a','u','t','u','m','n','s'], unwords [ ['f','a','l','l'], ['s','e','a','s','o','n','s'] ] ] ]
 

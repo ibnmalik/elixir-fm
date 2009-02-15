@@ -31,9 +31,17 @@ sub pretty ($$$) {
 
     my $q = $_[2];
 
+    my @text = split "\n", $q->param('text');
+
     my $r = '';
 
+    $r .= $q->p({-class => 'notice'}, 'The numbers of input and output words are not equal! ' . (scalar @text) . " <> " . (scalar @word)) unless @text == @word;
+
     for (my $i; $i < @word; $i++) {
+
+        $r .= $q->h3($q->span({-class => "mode"}, ucfirst $_[1]),
+                     $q->span({-class => "word",
+                               -title => "input word"}, $text[$i]));
 
         next unless @{$word[$i]};
 
@@ -275,13 +283,13 @@ sub main ($) {
 
         for (my $j = 0; $j < @data; $j += 2) {
 
-            $data[$j] = normalize $data[$j], $code;
-
             my @word = $code eq 'UTF' ? (split / *(\p{InArabic}{2,}|\p{InArabic}(?: +\p{InArabic})*) */, $data[$j])
 
                         : (split / *((?:[._^,]?[^ ._^,]){2,}|(?:[._^,]?[^ ._^,])(?: +(?:[._^,]?[^ ._^,])(?![^ ]))*) */, $data[$j]);
 
             for (my $l = 1; $l < @word; $l += 2) {
+
+                $word[$l] = normalize $word[$l], $code;
 
                 $word[$l] = '"' . $word[$l] . '"';
             }

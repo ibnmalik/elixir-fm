@@ -1106,7 +1106,7 @@ cluster_69  = cluster
 
     FaCIL                     `noun`    {- <rabI`> -}          [ unwords [ ['R','a','b','i','e','e'], "(", ['m','o','n','t','h'], ")" ] ]
                            
-    `excepts` otherwise,
+    `excepts` Diptote,
 
     FaCIL |< aT               `noun`    {- <rabI`aT> -}        [ ['R','a','b','i','y','a'] ],
 

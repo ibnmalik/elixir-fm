@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.System
--- Copyright   :  Otakar Smrz 2005-2008
+-- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -20,7 +20,7 @@ module Elixir.System where
 
 import FM.Generic.General
 
-import Elixir.Pretty hiding (list)
+import Elixir.Pretty
 
 import Data.Char (readLitChar, isSpace)
 
@@ -264,28 +264,28 @@ lets xs ys = case intersect (vals xs) ys of [] -> []
                                             zs -> [zs]
 
 
-list :: [a] -> [a] -> [a]
+lists :: [a] -> [a] -> [a]
 
-list x [] = x
-list _ y  = y
+lists x [] = x
+lists _ y  = y
 
 
 expand :: TagsType -> TagsType
 
-expand (TagsVerb xs) = TagsVerb (list complete xs)
-expand (TagsNoun xs) = TagsNoun (list complete xs)
-expand (TagsAdj  xs) = TagsAdj  (list complete xs)
-expand (TagsPron xs) = TagsPron (list complete xs)
-expand (TagsNum  xs) = TagsNum  (list complete xs)
-expand (TagsAdv  xs) = TagsAdv  (list complete xs)
-expand (TagsPrep xs) = TagsPrep (list complete xs)
-expand (TagsConj xs) = TagsConj (list complete xs)
-expand (TagsPart xs) = TagsPart (list complete xs)
-expand (TagsIntj xs) = TagsIntj (list complete xs)
-expand (TagsXtra xs) = TagsXtra (list complete xs)
-expand (TagsYnit xs) = TagsYnit (list complete xs)
-expand (TagsZero xs) = TagsZero (list complete xs)
-expand (TagsGrph xs) = TagsGrph (list complete xs)
+expand (TagsVerb xs) = TagsVerb (lists complete xs)
+expand (TagsNoun xs) = TagsNoun (lists complete xs)
+expand (TagsAdj  xs) = TagsAdj  (lists complete xs)
+expand (TagsPron xs) = TagsPron (lists complete xs)
+expand (TagsNum  xs) = TagsNum  (lists complete xs)
+expand (TagsAdv  xs) = TagsAdv  (lists complete xs)
+expand (TagsPrep xs) = TagsPrep (lists complete xs)
+expand (TagsConj xs) = TagsConj (lists complete xs)
+expand (TagsPart xs) = TagsPart (lists complete xs)
+expand (TagsIntj xs) = TagsIntj (lists complete xs)
+expand (TagsXtra xs) = TagsXtra (lists complete xs)
+expand (TagsYnit xs) = TagsYnit (lists complete xs)
+expand (TagsZero xs) = TagsZero (lists complete xs)
+expand (TagsGrph xs) = TagsGrph (lists complete xs)
 
 
 select :: TagsType -> [TagsType] -> [TagsType]
@@ -1128,6 +1128,11 @@ instance Show Case where
     show Nominative = "1"
     show Genitive   = "2"
     show Accusative = "4"
+
+
+data Except = Diptote | Triptote
+
+    deriving (Eq, Show)
 
 
 type Humanness = Bool

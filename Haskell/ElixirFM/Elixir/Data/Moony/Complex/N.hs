@@ -1069,7 +1069,7 @@ cluster_69  = cluster
 
     KaRDaS                    `noun`    {- <maryam> -}         [ ['M','a','r','y'], ['M','a','r','i','a','m'], ['M','i','r','i','a','m'] ]
                            
-    `excepts` otherwise,
+    `excepts` Diptote,
 
     KaRDaS |< Iy |< aT        `noun`    {- <maryamIyaT> -}     [ ['s','a','g','e'] ] ]
 
@@ -1567,7 +1567,7 @@ cluster_99  = cluster
 
     FaCL |< aT                `noun`    {- <makkaT> -}         [ ['M','e','c','c','a'] ]
                            
-    `excepts` otherwise,
+    `excepts` Diptote,
 
     FaCL |< Iy                `adj`     {- <makkIy> -}         [ ['M','e','c','c','a','n'] ],
 

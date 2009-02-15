@@ -1194,7 +1194,7 @@ cluster_90  = cluster
 
     FaCCAL                    `noun`    {- <'ayyAr> -}         [ ['M','a','y'] ]
                            
-    `excepts` otherwise ]
+    `excepts` Diptote ]
 
 
 cluster_91  = cluster
@@ -1238,7 +1238,7 @@ cluster_94  = cluster
 
     FaCCUL                    `noun`    {- <'ayyUl> -}         [ ['S','e','p','t','e','m','b','e','r'] ]
                            
-    `excepts` otherwise ]
+    `excepts` Diptote ]
 
  |> "' y l l" <| [
 
