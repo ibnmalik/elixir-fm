@@ -217,9 +217,9 @@ sub main ($) {
     my @example = ( [ '(1319,1)',               'verb noun adjective'                       ],
                     [ '(1319,1)',               'verb masdar participle'                    ],
                     [ '(1319,1)',               '[VN]--------- A---------'                  ],
-                    [ '(1319,3) (5359,14)',     'participle passive active masdar verb'     ],
-                    [ '(1319,3) (5359,14)',     'part pas act msd verb'                     ],
-                    [ '(1319,3) (5359,14)',     'A--[PA] N V'                               ] );
+                    [ '(1319,3) (5357,14)',     'participle passive active masdar verb'     ],
+                    [ '(1319,3) (5357,14)',     'part pas act msd verb'                     ],
+                    [ '(1319,3) (5357,14)',     'A--[PA] N V'                               ] );
 
     if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
 

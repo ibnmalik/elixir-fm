@@ -989,10 +989,11 @@ cluster_48  = cluster
 
     FACUL                     `noun`    {- <.gAsUl> -}         [ ['s','o','a','p'], ['l','y','e'] ],
 
-    FaCCAL                    `noun`    {- <.gassAl> -}        [ unwords [ ['l','a','u','n','d','r','y'], ['m','a','n'] ] ]
-                              `plural`     FaCCAL |< Un
-                           
-    `derives` otherwise,
+    FaCCAL                    `noun`    {- <.gassAl> -}        [ ['l','a','u','n','d','r','y','m','a','n'] ]
+                              `plural`     FaCCAL |< Un,
+
+    FaCCAL |< aT              `noun`    {- <.gassAlaT> -}      [ ['l','a','u','n','d','r','y','w','o','m','a','n'] ]
+                              `plural`     FaCCAL |< At,
 
     FaCCAL |< aT              `noun`    {- <.gassAlaT> -}      [ unwords [ ['w','a','s','h','i','n','g'], ['m','a','c','h','i','n','e'] ] ]
                               `plural`     FaCCAL |< At,
@@ -1250,7 +1251,7 @@ cluster_61  = cluster
 
  |> ".g .t r f" <| [
 
-    KiRDIS                    `noun`    {- <.gi.trIf> -}       [ ['p','o','t','e','n','t','a','t','e'], unwords [ ['n','o','b','l','e'], ['m','a','n'] ] ]
+    KiRDIS                    `noun`    {- <.gi.trIf> -}       [ unwords [ ['n','o','b','l','e'], ['m','a','n'] ], ['p','o','t','e','n','t','a','t','e'] ]
                               `plural`     KaRADIS
                               `plural`     KaRADiS |< aT ]
 

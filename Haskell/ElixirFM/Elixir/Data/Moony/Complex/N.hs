@@ -273,9 +273,17 @@ cluster_18  = cluster
     FaCCA'                    `noun`    {- <kawwA'> -}         [ ['s','l','a','n','d','e','r','e','r'] ]
                               `plural`     FaCCA' |< Un,
 
-    FaCCA'                    `noun`    {- <kawwA'> -}         [ unwords [ ['i','r','o','n','i','n','g'], ['m','a','n'] ], ['p','r','e','s','s','e','r'], unwords [ ['i','r','o','n','i','n','g'], ['l','a','d','y'] ] ],
+    FaCCA'                    `noun`    {- <kawwA'> -}         [ unwords [ ['i','r','o','n','i','n','g'], ['m','a','n'] ], ['p','r','e','s','s','e','r'] ]
+                              `plural`     FaCCA' |< Un,
 
-    MaFCY |<< "a^gIy"         `adj`     {- <makwa^gIy> -}      [ unwords [ ['i','r','o','n','i','n','g'], ['m','a','n'] ], ['l','a','u','n','d','r','y','m','a','n'] ],
+    FaCCA' |< aT              `noun`    {- <kawwA'aT> -}       [ unwords [ ['i','r','o','n','i','n','g'], ['l','a','d','y'] ], ['p','r','e','s','s','e','r'] ]
+                              `plural`     FaCCA' |< At,
+
+    MaFCY |<< "a^gIy"         `noun`    {- <makwa^gIy> -}      [ unwords [ ['i','r','o','n','i','n','g'], ['m','a','n'] ], ['l','a','u','n','d','r','y','m','a','n'] ]
+                              `plural`     MaFCY |<< "a^gIy" |< Un,
+
+    MaFCY |<< "a^gIy" |< aT   `noun`    {- <makwa^gIyaT> -}    [ unwords [ ['i','r','o','n','i','n','g'], ['l','a','d','y'] ], ['l','a','u','n','d','r','y','w','o','m','a','n'] ]
+                              `plural`     MaFCY |<< "a^gIy" |< At,
 
     FaCY                      `verb`    {- <kawY> -}           [ ['p','r','e','s','s'], ['i','r','o','n'], ['c','a','u','t','e','r','i','z','e'], ['s','e','a','r'] ]
                               `imperf`     FCI,

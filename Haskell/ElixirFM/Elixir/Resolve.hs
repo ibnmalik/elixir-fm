@@ -284,6 +284,10 @@ instance Resolve String where
                     'a' : 'y' : y           ->  [ y' ++ ["ya"] | y' <- tokens (reverse y) ]
                     'y' : y                 ->  [ y' ++ ["y"]  | y' <- tokens (reverse y) ]
 
+                    'I' : y | y `elem` ["ba'", "h_a'", "mah.", "b'", "h_'", "mh."]
+                                            ->  [ [reverse y, "|I"] ] ++
+                                                [ [reverse y ++ y', "ya"] | y' <- ["U", "I", "A"] ]
+
                     'I' : 'n' : y           ->  [ y' ++ ["|I"] | y' <- tokens (reverse ('n' : y)) ] ++
                                                 [ y' ++ ["nI"] | y' <- tokens (reverse y) ]
                     'I' : y                 ->  [ y' ++ ["|I"] | y' <- tokens (reverse y) ]
@@ -469,54 +473,72 @@ instance Resolve [UPoint] where
                     '~' : 'n' : 'k' : y                 ->  [ y' ++ ["kn~"]   | y' <- tokens (reverse y) ]
                     'n' : 'k' : y                       ->  [ y' ++ ["kn"]    | y' <- tokens (reverse y) ]
 
-                    'a' : '~' : 'y' : 'i' : y   ->  [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "uw") ++
-                                                                            tokens (reverse y ++ "iy") ]
-                    'a' : '~' : 'y' : y         ->  [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "w") ++
-                                                                            tokens (reverse y ++ "y") ]
-                    '~' : 'y' : 'i' : y         ->  [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "uw") ++
-                                                                            tokens (reverse y ++ "iy") ]
-                    '~' : 'y' : y               ->  [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "w") ++
-                                                                            tokens (reverse y ++ "y") ]
+                    'a' : '~' : 'y' : 'i' : y   ->  [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "uwo") ++
+                                                                            tokens (reverse y ++ "iyo") ]
+                    'a' : '~' : 'y' : y         ->  [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "wo") ++
+                                                                            tokens (reverse y ++ "yo") ]
+                    '~' : 'y' : 'i' : y         ->  [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "uwo") ++
+                                                                            tokens (reverse y ++ "iyo") ]
+                    '~' : 'y' : y               ->  [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "wo") ++
+                                                                            tokens (reverse y ++ "yo") ]
                     'a' : 'y' : y               ->  [ y' ++ ["ya"]  | y' <- tokens (reverse y) ]
 
                     'y' : 'i' : '~' : 'n' : y   ->  [ y' ++ ["iy"]  | y' <- tokens (reverse y ++ "n~") ] ++
-                                                    [ y' ++ ["niy"] | y' <- tokens (reverse y ++ "n") ] ++
-                                                    [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "n~uw") ++
-                                                                            tokens (reverse y ++ "n~iy") ]
-                    'y' : '~' : 'n' : y         ->  [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "n~") ] ++
-                                                    [ y' ++ ["ny"]  | y' <- tokens (reverse y ++ "n") ] ++
-                                                    [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "n~w") ++
-                                                                            tokens (reverse y ++ "n~y") ]
+                                                    [ y' ++ ["niy"] | y' <- tokens (reverse y ++ "no") ] ++
+                                                    [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "n~uwo") ++
+                                                                            tokens (reverse y ++ "n~iyo") ]
+                    'y' : '~' : 'n' : y         ->  [ y' ++ ["iy"]  | y' <- tokens (reverse y ++ "n~") ] ++
+                                                    [ y' ++ ["niy"] | y' <- tokens (reverse y ++ "no") ] ++
+                                                    [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "n~wo") ++
+                                                                            tokens (reverse y ++ "n~yo") ]
                     'y' : 'i' : 'n' : y         ->  [ y' ++ ["iy"]  | y' <- tokens (reverse y ++ "n") ] ++
                                                     [ y' ++ ["niy"] | y' <- tokens (reverse y) ] ++
-                                                    [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "nuw") ++
-                                                                            tokens (reverse y ++ "niy") ]
-                    'y' : 'n' : y               ->  [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "n") ] ++
-                                                    [ y' ++ ["ny"]  | y' <- tokens (reverse y) ++
-                                                                            tokens (reverse y ++ "n") ] ++
-                                                    [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "nw") ++
-                                                                            tokens (reverse y ++ "ny") ]
-                    'y' : 'i' : y               ->  [ y' ++ ["iy"]  | y' <- tokens (reverse y) ] ++
-                                                    [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "uw") ++
-                                                                            tokens (reverse y ++ "iy") ]
-                    'y' : y                     ->  [ y' ++ ["y"]   | y' <- tokens (reverse y) ] ++
-                                                    [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "w") ++
-                                                                            tokens (reverse y ++ "y") ]
+                                                    [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "nuwo") ++
+                                                                            tokens (reverse y ++ "niyo") ]
+                    'y' : 'n' : y               ->  [ y' ++ ["iy"]  | y' <- tokens (reverse y ++ "n") ] ++
+                                                    [ y' ++ ["niy"] | y' <- tokens (reverse y) ++
+                                                                            tokens (reverse y ++ "no") ] ++
+                                                    [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "nwo") ++
+                                                                            tokens (reverse y ++ "nyo") ]
 
-                    'A' : 'a' : '~' : 'n' : y   ->  [ y' ++ ["naA"] | y' <- tokens (reverse ('n' : y)) ]
-                    'A' : '~' : 'n' : y         ->  [ y' ++ ["nA"]  | y' <- tokens (reverse ('n' : y)) ]
+                    'y' : 'i' : v : 'a' : u : [] | u `elem` "OA" && v `elem` "bx" || u == 'H' && v == 'm'
+                                                ->  [ [u : 'a' : v : [], "iy"] ] ++
+                                                    [ [u : 'a' : v : w,  "ya"] | w <- ["uwo", "iyo", "aA"] ]
+
+                    'y' : v : 'a' : u : []       | u `elem` "OA" && v `elem` "bx" || u == 'H' && v == 'm'
+                                                ->  [ [u : 'a' : v : [], "iy"] ] ++
+                                                    [ [u : 'a' : v : w,  "ya"] | w <- ["wo", "yo", "aA"] ]
+
+                    'y' : 'i' : v : u : []       | u `elem` "OA" && v `elem` "bx" || u == 'H' && v == 'm'
+                                                ->  [ [u : v : [], "iy"] ] ++
+                                                    [ [u : v : w,  "ya"] | w <- ["uwo", "iyo", "aA"] ]
+
+                    'y' : v : u : []             | u `elem` "OA" && v `elem` "bx" || u == 'H' && v == 'm'
+                                                ->  [ [u : v : [], "iy"] ] ++
+                                                    [ [u : v : w,  "ya"] | w <- ["wo", "yo", "aA"] ]
+
+                    'y' : 'i' : y               ->  [ y' ++ ["iy"]  | y' <- tokens (reverse y) ] ++
+                                                    [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "uwo") ++
+                                                                            tokens (reverse y ++ "iyo") ]
+                    'y' : 'A' : y               ->  [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "A") ]
+                    'y' : y                     ->  [ y' ++ ["iy"]  | y' <- tokens (reverse y) ] ++
+                                                    [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "wo") ++
+                                                                            tokens (reverse y ++ "yo") ]
+
+                    'A' : 'a' : '~' : 'n' : y   ->  [ y' ++ ["naA"] | y' <- tokens (reverse y ++ "no") ]
+                    'A' : '~' : 'n' : y         ->  [ y' ++ ["nA"]  | y' <- tokens (reverse y ++ "no") ]
                     'A' : 'a' : 'n' : y         ->  [ y' ++ ["naA"] | y' <- tokens (reverse y) ]
                     'A' : 'n' : y               ->  [ y' ++ ["nA"]  | y' <- tokens (reverse y) ++
-                                                                            tokens (reverse ('n' : y)) ]
+                                                                            tokens (reverse y ++ "no") ]
 
-                    'A' : 'a' : '~' : 'm' : y   ->  [ y' ++ ["maA"] | y' <- tokens (reverse ('m' : y)) ++
-                                                                            tokens (reverse ('n' : y)) ]
-                    'A' : '~' : 'm' : y         ->  [ y' ++ ["mA"]  | y' <- tokens (reverse ('m' : y)) ++
-                                                                            tokens (reverse ('n' : y)) ]
-                    'A' : 'm' : y               ->  [ y' ++ ["mA"]  | y' <- tokens (reverse y) ++
-                                                                            tokens (reverse ('m' : y)) ++
-                                                                            tokens (reverse ('n' : y)) ]
+                    'A' : 'a' : '~' : 'm' : y   ->  [ y' ++ ["maA"] | y' <- tokens (reverse y ++ "mo") ++
+                                                                            tokens (reverse y ++ "no") ]
+                    'A' : '~' : 'm' : y         ->  [ y' ++ ["mA"]  | y' <- tokens (reverse y ++ "mo") ++
+                                                                            tokens (reverse y ++ "no") ]
                     'A' : 'a' : 'm' : y         ->  [ y' ++ ["maA"] | y' <- tokens (reverse y) ]
+                    'A' : 'm' : y               ->  [ y' ++ ["mA"]  | y' <- tokens (reverse y) ++
+                                                                            tokens (reverse y ++ "mo") ++
+                                                                            tokens (reverse y ++ "no") ]
 
                     _                       ->  []
 

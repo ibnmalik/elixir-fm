@@ -412,7 +412,7 @@ instance Rules a => Rules (Morphs a) where
     isForm f (Morphs t _ _) = isForm f t
 
     isInert r (Morphs t _ [])             = isInert r t
-    isInert r (Morphs t _ (Suffix x : _)) = (not . null) x && last x `elem` "AIU"
+    isInert r (Morphs t _ (Suffix x : _)) = (not . null) x && last x `elem` "AIUY"
     isInert _ _                           = False
 
     isDiptote (Morphs t [] []) = isDiptote t
