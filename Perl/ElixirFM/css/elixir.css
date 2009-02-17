@@ -6,6 +6,7 @@
     font-size: medium;
     /* display: none; */
     line-height: 150%;
+    direction: rtl;
 }
 
 .xtag {

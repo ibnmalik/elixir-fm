@@ -127,6 +127,21 @@ takes (x : y) = x : takes y
 takes []      = []
 
 
+unquote :: String -> [String]
+
+unquote [] = []
+unquote xs = y : unquote z                  where (y, z) = quotes xs
+
+
+quotes :: String -> (String, String)
+
+quotes []              = ([], [])
+quotes ('\\' : y : ys) = ('\\' : y : u, v)  where (u, v) = quotes ys
+quotes ('\\' : [])     = (['\\'], [])
+quotes ('"' : ys)      = ([], ys)
+quotes (y : ys)        = (y : u, v)         where (u, v) = quotes ys
+
+
 infixr 4 ->-
 infix  4 -<-
 
