@@ -1,9 +1,9 @@
 /*
-	List Expander
-	written by Alen Grakalic
+    List Expander
+    written by Alen Grakalic
     provided by Css Globe (cssglobe.com)
 
-	modified by Otakar Smrz
+    modified by Otakar Smrz
 */
 
 this.listexpander = function(){
@@ -12,8 +12,10 @@ this.listexpander = function(){
 
     var listClass = "listexpander"; // class name that you want to assign to list(s)
 
-    var expandText = "Expand";      // text for expand all button
-    var collapseText = "Collapse";  // text for collapse all button
+    var expandText = "Expand";      // text for expand button
+    var collapseText = "Collapse";  // text for collapse button
+
+    var excludeText = "Exclude";
 
     // end edit (do not edit below this line)
 
@@ -29,7 +31,6 @@ this.listexpander = function(){
         var ul = document.getElementsByTagName("ul");
         for (var i=0;i<ul.length;i++){
             if(ul[i].className == listClass){
-                ul[i].limit = expandInit;
                 create(ul[i]);
                 buttons(ul[i]);
             };
@@ -37,16 +38,18 @@ this.listexpander = function(){
     };
 
     this.create = function(list) {
+        list.limit = expandInit;
         var items = list.getElementsByTagName("li");
         for(var i=0;i<items.length;i++){
-            listItem(items[i]);
+            listItem(items[i], list);
         };
     };
 
-    this.listItem = function(li){
-        if(li.getElementsByTagName("ul").length > 0){
-            var ul = li.getElementsByTagName("ul")[0];
-            var is = limited(ul);
+    this.listItem = function(li, list){
+        var items = li.getElementsByTagName("ul");
+        if(items.length > 0){
+            var ul = items[0];
+            var is = limited(ul, list);
             ul.style.display = is ? "none" : "block";
             li.className = is ? "collapsed" : "expanded";
             li.over = true;
@@ -65,6 +68,22 @@ this.listexpander = function(){
         var parent = list.parentNode;
         var p = document.createElement("p");
         p.className = listClass;
+
+        if (mode == 'resolve' || mode == 'lookup') {
+
+            var i = document.createElement("input");
+            i.type = 'text';
+            i.name = 'exclude';
+            i.onchange = function(){exclude(list, i)};
+            i.className = 'exclude'; 
+            p.appendChild(i);
+            var a = document.createElement("a");
+            a.innerHTML = excludeText;
+            a.onclick = function(){exclude(list, i)};
+            a.className = 'exclude';
+            p.appendChild(a);
+        }
+
         var a = document.createElement("a");
         a.innerHTML = expandText;
         a.onclick = function(){expand(list)};
@@ -73,16 +92,26 @@ this.listexpander = function(){
         a.innerHTML = collapseText;
         a.onclick = function(){collapse(list)};
         p.appendChild(a);
+
         parent.insertBefore(p,list);
+    };
+
+    this.exclude = function(list, input){
+
+        if (input.value != '') {
+
+            alert("This function is not implemented yet, sorry.");
+        }
     };
 
     this.expand = function(list){
         if (list.limit < expandMax) list.limit++;
-        li = list.getElementsByTagName("li");
+        var li = list.getElementsByTagName("li");
         for(var i=0;i<li.length;i++){
-            if(li[i].getElementsByTagName("ul").length > 0){
-                var ul = li[i].getElementsByTagName("ul")[0];
-                var is = limited(ul);
+            var items = li[i].getElementsByTagName("ul");
+            if(items.length > 0){
+                var ul = items[0];
+                var is = limited(ul, list);
                 ul.style.display = is ? "none" : "block";
                 li[i].className = is ? "collapsed" : "expanded";
             };
@@ -91,24 +120,28 @@ this.listexpander = function(){
 
     this.collapse = function(list){
         if (list.limit > expandMin) list.limit--;
-        li = list.getElementsByTagName("li");
+        var li = list.getElementsByTagName("li");
         for(var i=0;i<li.length;i++){
-            if(li[i].getElementsByTagName("ul").length > 0){
-                var ul = li[i].getElementsByTagName("ul")[0];
-                var is = limited(ul);
+            var items = li[i].getElementsByTagName("ul");
+            if(items.length > 0){
+                var ul = items[0];
+                var is = limited(ul, list);
                 ul.style.display = is ? "none" : "block";
                 li[i].className = is ? "collapsed" : "expanded";
             };
         };
     };
 
-    this.limited = function(obj){
-        var level = 1;
-        while(obj.parentNode.className != listClass){
-            if (obj.tagName == "UL") level++;
-            obj = obj.parentNode;
-        };
-        return (level > obj.parentNode.limit);
+    this.limited = function(node, list){
+        if (node.level == undefined) {
+            var root = node.parentNode;
+            node.level = 2;
+            while(root != list){
+                if (root.nodeName == "UL") node.level++;
+                root = root.parentNode;
+            };
+        }
+        return (node.level > list.limit);
     };
 
     start();

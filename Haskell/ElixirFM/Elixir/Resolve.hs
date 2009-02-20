@@ -305,7 +305,7 @@ instance Resolve String where
 
 instance Resolve [UPoint] where
 
-    resolve = map prune . resolveBy alike (omitting alike omits) . map tokenize . (map (decode UCS) . words . encode UCS)
+    resolve = map prune . resolveBy alike (omitting alike omits) . map (tokenize . decode UCS) . words . encode UCS
 
     resolveBy b q z = [ [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- w ] | w <- z ]
 
@@ -371,11 +371,17 @@ instance Resolve [UPoint] where
               tokens'''' x = case reverse x of
 
                     []                              ->  []
+{-
+                    '-' : 'y' : y | [ z | z <- y', z /= 'a' ] `elem` ["El", "ld", "HwAl"]
 
+                                                    ->  [[y' ++ "y-"], [y' ++ "Y-"]]
+
+                                        where y' = reverse y
+-}
                     '-' : 'y' : []                  ->  []
                     '-' : 'w' : []                  ->  []
 
-                    '-' : 'w' : y | length [ y' | y' <- y, y' `notElem` "aiuo~" ] < 2   ->  []
+                    '-' : 'w' : y | length [ z | z <- y, z `notElem` "aiuo~" ] < 2  ->  []
 
                     'y' : 'n' : []                  ->  [["nay"], ["niy"], ["nuy"]]
                     'y' : []                        ->  [["ya"], ["yi"], ["yu"]]
@@ -513,21 +519,19 @@ instance Resolve [UPoint] where
                                                     [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "nw-") ++
                                                                             tokens (reverse y ++ "ny-") ]
 
-                    'y' : 'i' : v : 'a' : u : [] | u `elem` "OA" && v `elem` "bx" || u == 'H' && v == 'm'
-                                                ->  [ [u : 'a' : v : [], "iy"] ] ++
-                                                    [ [u : 'a' : v : w,  "ya"] | w <- ["uw-", "iy-", "aA"] ]
+                    'y' : 'i' : y | [ z | z <- y', z /= 'a' ] `elem` ["Ob", "Ab", "Ox", "Ax", "Hm"]
 
-                    'y' : v : 'a' : u : []       | u `elem` "OA" && v `elem` "bx" || u == 'H' && v == 'm'
-                                                ->  [ [u : 'a' : v : [], "iy"] ] ++
-                                                    [ [u : 'a' : v : w,  "ya"] | w <- ["w-", "y-", "aA"] ]
+                                                ->  [ [y', "iy"] ] ++
+                                                    [ [y' ++ w, "ya"] | w <- ["uw-", "iy-", "aA"] ]
 
-                    'y' : 'i' : v : u : []       | u `elem` "OA" && v `elem` "bx" || u == 'H' && v == 'm'
-                                                ->  [ [u : v : [], "iy"] ] ++
-                                                    [ [u : v : w,  "ya"] | w <- ["uw-", "iy-", "aA"] ]
+                                        where y' = reverse y
 
-                    'y' : v : u : []             | u `elem` "OA" && v `elem` "bx" || u == 'H' && v == 'm'
-                                                ->  [ [u : v : [], "iy"] ] ++
-                                                    [ [u : v : w,  "ya"] | w <- ["w-", "y-", "aA"] ]
+                    'y' : y       | [ z | z <- y', z /= 'a' ] `elem` ["Ob", "Ab", "Ox", "Ax", "Hm"]
+
+                                                ->  [ [y', "iy"] ] ++
+                                                    [ [y' ++ w, "ya"] | w <- ["w-", "y-", "aA"] ]
+
+                                        where y' = reverse y
 
                     'y' : 'i' : y               ->  [ y' ++ ["iy"]  | y' <- tokens (reverse y) ] ++
                                                     [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "uw-") ++
@@ -603,6 +607,7 @@ approx :: String -> String -> Bool
 approx "l"  "-"  = True
 approx "t"  "T"  = True
 approx "y"  "I"  = True
+approx "y"  "Y"  = True
 approx "w"  "U"  = True
 approx "w"  "W"  = True
 approx "y"  "'"  = True
@@ -775,10 +780,7 @@ recoder = Map.fromAscList [ (toEnum x, y) | (y, x) <- [
 
                             ( "'",          0x0621 ),
 
-                            ( "'",          0x0622 ),
-                            ( "'",          0x0623 ),
                             ( "'",          0x0624 ),
-                            ( "'",          0x0625 ),
                             ( "'",          0x0626 ),
 
                             ( "b",          0x0628 ),

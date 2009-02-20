@@ -58,4 +58,5 @@ function elixirClear (n) {
     var input = document.getElementById(n);
 
     input.value = '';
+    input.focus();
 }

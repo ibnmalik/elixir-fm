@@ -19,10 +19,8 @@
 }
 
 .morphs {
-    font-family: DejaVu Sans;
-    color: darkorange;
-    /* font-family: Courier New; */
-    /* color: #DAA520 /*goldenrod*/; */
+    font-family: DejaVu Sans /*Courier New*/;
+    color: #FF8C00 /*darkorange*/;
     white-space: nowrap;
 }
 
@@ -32,10 +30,8 @@
 }
 
 .stems {
-    font-family: DejaVu Sans;
-    color: darkorange;
-    /* font-family: Courier New; */
-    /* color: #DAA520 /*goldenrod*/; */
+    font-family: DejaVu Sans /*Courier New*/;
+    color: #FF8C00 /*darkorange*/;
 }
 
 .word {

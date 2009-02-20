@@ -1369,7 +1369,7 @@ cluster_88  = cluster
 
  |> ['\'','i','_','d','A'] <| [
 
-    _____                     `conj`    {- <'i_dA> -}          [ unwords [ ['i','f'], "/", ['w','h','e','t','h','e','r'] ] ] ]
+    _____                     `conj`    {- <'i_dA> -}          [ ['i','f'], ['w','h','e','t','h','e','r'] ] ]
 
 
 cluster_89  = cluster

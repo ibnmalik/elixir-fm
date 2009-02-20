@@ -2512,7 +2512,7 @@ cluster_91  = cluster
 
  |> "` n d" <| [
 
-    FiCL |<< "a"              `prep`    {- <`inda> -}          [ unwords [ ['w','i','t','h'], "/", ['a','t'] ] ],
+    FiCL |<< "a"              `prep`    {- <`inda> -}          [ ['a','t'], ['w','i','t','h'] ],
 
     FaCiL                     `verb`    {- <`anid> -}          [ unwords [ ['b','e'], ['s','t','u','b','b','o','r','n'] ] ]
                               `imperf`     FCaL,

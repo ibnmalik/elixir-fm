@@ -101,7 +101,7 @@ cluster_13  = cluster
 
  |> ['b','A','r','A','k'] <| [
 
-    _____                     `xtra`    {- <bArAk> -}          [ ['B','a','r','r','a','c','k'], ['B','a','r','a','k'] ] ]
+    _____                     `xtra`    {- <bArAk> -}          [ ['B','a','r','a','c','k'], ['B','a','r','a','k'] ] ]
 
 
 cluster_14  = cluster
