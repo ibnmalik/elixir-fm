@@ -17,7 +17,7 @@ use Benchmark;
 
 use base 'Exporter';
 
-our @EXPORT = (qw 'display_header display_headline display_welcome display_footline display_footer display_keys',
+our @EXPORT = (qw 'display_header display_headline display_welcome display_footline display_footer',
                qw 'escape revert normalize tick mytimestr',
                qw '$elixir $session @modes %enc_hash @enc_list');
 
@@ -130,7 +130,24 @@ sub normalize ($$) {
         $text =~ s/ii/I/g;
         $text =~ s/uu/U/g;
 
-        @data = $text =~ /( (?: \.[hsdtzgr] | \_[thdaIU] | \^[gscznl] | \,[c] | ['btdrzs`fqklmnhwyaiuAIUYNW|"-] )+ )/gx;
+        $text =~ s/(.)\x{0331}/\_$1/g;
+        $text =~ s/(.)\x{030C}/\^$1/g;
+        $text =~ s/(.)\x{0323}/\.$1/g;
+
+        $text =~ s/(.)\x{032E}/\_$1/g;
+        $text =~ s/(.)\x{0307}/\.$1/g;
+
+        $text =~ s/(.)\x{0301}/\,$1/g;
+        $text =~ s/(.)\x{0303}/\^$1/g;
+
+        $text =~ s/\x{02BE}/\'/g;
+        $text =~ s/\x{02BF}/\`/g;
+
+        $text =~ s/\x{0061}\x{0304}/A/g;
+        $text =~ s/\x{0069}\x{0304}/I/g;
+        $text =~ s/\x{0075}\x{0304}/U/g;
+
+        @data = $text =~ /( (?: \.[hsdtzgr] | \_[thdaIU] | \^[gscznl] | \,[c] | ['btdrzs`fqklmnhwyTaiuAIUYNW|"-] )+ )/gx;
     }
 
     return join " ", @data;
@@ -265,22 +282,6 @@ sub display_footer ($$) {
     $r .= $q->end_html();
 
     return $r;
-}
-
-
-sub display_keys ($) {
-
-    my $q = shift;
-
-    return '';
-
-    return $q->div({'class' => 'keys'}, (map { $q->span({'onclick' => 'insertkey("' . (chr $_) . '")'}, " " . (chr $_) . " ") } 0x0621 .. 0x063A, 0x0641 .. 0x064A),
-                                        (map { $q->span({'onclick' => 'insertkey("' . (chr $_) . '")'}, " \x{0640}" . (chr $_) . " ") } 0x064B .. 0x0652, 0x0670),
-                                        (map { $q->span({'onclick' => 'insertkey("' . $_ . '")'}, $_) } 'Clear', 'Back', 'Space' ));
-
-    return $q->div({'class' => 'keys'}, (map { $q->span({'onclick' => 'insertkey("' . (chr $_) . '")'}, " " . (chr $_) . " ") } 0x0621 .. 0x063A, 0x0641 .. 0x064A),
-                                        (map { $q->span({'onclick' => 'insertkey("' . (chr $_) . '")'}, " \x{0640}" . (chr $_) . " ") } 0x064B .. 0x0652, 0x0670),
-                                        (map { $q->span({'onclick' => 'insertkey("' . $_ . '")'}, $_) } 'Clear', 'Back', 'Space' ));
 }
 
 

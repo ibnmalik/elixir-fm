@@ -157,17 +157,29 @@ elixirInflect o p = interact (unlines . map (show . q) . map words . onlines)
           i = [ z | x <- p, (y, _) <- reads x, z <- lookupIndex y lexicon ]
 
 
-elixirLookup o p = interact (unlines . map (show . q) . onlines)
+elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) . onlines)
 
-    where q x = (f . flip lists c) (if null r then (lookup . words) x
-                                    else case e of
+    where q x = (f . flip lists c) (if null y then [] else
+                                    if null r then if null [ z | z <- y, z > '\x0620' && z < '\x0672' ]
 
-                                        "tex"   ->  (lookup . head) r
-                                        "tim"   ->  (lookup . decode Tim . head) r
-                                        _       ->  (lookup . decode UTF . head) r)
+                                                      then case e of
+
+                                                                "tex"   ->  lookup y
+                                                                "tim"   ->  lookup (decode Tim y)
+                                                                _       ->  lookup (words y)
+
+                                                      else lookup (decode UCS y)
+
+                                              else if null [ z | z <- head r, z > '\x0620' && z < '\x0672' ]
+
+                                                      then if null (head r) then lookup ""
+                                                                            else lookup (map (decode UCS) r)
+
+                                                      else lookup (decode UCS (head r)))
 
                 where c = [ y | (y, _) <- reads x ] ++ [ (i, Just [j]) | ((i, j), _) <- reads x ]
-                      r = [ y | (y, _) <- reads x ]
+                      r = unfoldr (\ x -> let y = reads x in if null y then Nothing else Just (head y)) x
+                      y = unwords (words x)
 
           f x = singleline id [ (text . show) y <> linebreak <> pretty z | y <- x, z <- lookupClips y lexicon ]
 

@@ -146,10 +146,18 @@ instance Lookup String where
               u = units x
 
 
-type Regex = [String]
+instance Lookup [[UPoint]] where
+
+    lookupWith y [] = []
+
+    lookupWith y x = lookupUsing y (Just . const False) (\ _ e -> flip all z ((flip elem . map (map toLower)) (reflex e)))
+
+        where z = map (map toLower . encode UCS) x
+
+                  -- lookupUsing y (Just . const False) (\ _ e -> any (flip elem z) (reflex e))
 
 
-instance Lookup Regex where
+instance Lookup [String] where
 
     lookupWith y [] = []
 
@@ -157,7 +165,7 @@ instance Lookup Regex where
 
         where z = map (map toLower) x
 
-                  -- lookupUsing y (Just . const False) (\ _ e -> any (any (`elem` x) . words) (reflex e))
+                  -- lookupUsing y (Just . const False) (\ _ e -> any (any (flip elem x) . words) (reflex e))
 
 
 instance Show a => Lookup (Morphs a) where

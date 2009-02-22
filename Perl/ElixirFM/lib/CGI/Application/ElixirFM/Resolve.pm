@@ -331,8 +331,6 @@ sub main ($) {
 
     $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
 
-    $r .= display_keys $q;
-
     $r .= $q->end_form();
 
     $r .= $q->h2('ElixirFM Reply');

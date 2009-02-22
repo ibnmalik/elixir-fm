@@ -164,23 +164,59 @@ instance Resolve String where
 
         where tokens x = tokens'''' x ++ case reverse x of
 
-                    'a' : 't' : y               -> [[reverse y ++ "Ta"]]
-                    'i' : 't' : y               -> [[reverse y ++ "Ti"]]
-                    'u' : 't' : y               -> [[reverse y ++ "Tu"]]
-                    't' : y                     -> [[reverse y ++ "T"]]
+                    'a' : 't' : y               ->  [[reverse y ++ "Ta"]]
+                    'u' : 't' : y               ->  [[reverse y ++ "Tu"]]
 
-                    'A' : y                     -> [[reverse y ++ "Y"]]
+                    'i' : 't' : y               ->  tokens''''' x y "i"
+                    't' : y                     ->  tokens''''' x y ""
 
-                    'U' : 'm' : 'u' : 't' : y   -> [[reverse y ++ "tum"]]
-                    'U' : 'm' : 't' : y         -> [[reverse y ++ "tm"]]
+                    'A' : y                     ->  [[reverse y ++ "Y"]]
+{-
+                    'y' : 'a' : y | [ z | z <- y', z /= 'a' ] `elem` ["`l", "ld", ".hwAl"]
 
-                    'U' : y                     -> [[reverse y ++ "UW"]]
-                    '"' : 'w' : y               -> [[reverse y ++ "W"]]
-                    'w' : y                     -> [[reverse y ++ "W"]]
+                                                    ->  [[y' ++ "Y"]]
 
-                    _                           -> []
+                                        where y' = reverse y
+-}
+                    'y' : y | [ z | z <- y', z /= 'a' ] `elem` ["`l", "ld", ".hwAl"]
 
-              tokens'''' x = if null x then [] else [[x]]
+                                                    ->  [[y' ++ "Y"]]
+
+                                        where y' = reverse y
+
+                    'U' : 'm' : 'u' : 't' : y   ->  [[reverse y ++ "tum"]]
+                    'U' : 'm' : 't' : y         ->  [[reverse y ++ "tm"]]
+
+                    'U' : y                     ->  [[reverse y ++ "UW"]]
+                    '"' : 'w' : y               ->  [[reverse y ++ "W"]]
+                    'w' : y                     ->  [[reverse y ++ "W"]]
+
+                    _                           ->  []
+
+              tokens''''' x y z = case y of
+
+                    'a' : '\'' : 'i' : 'm' : n       | not (null n) ->  [[x], [reverse n, "mi'aT" ++ z]]
+                    '\'' : 'i' : 'm' : n             | not (null n) ->  [[x], [reverse n, "mi'T" ++ z]]
+
+                    'a' : '\'' : 'I' : '_' : 'm' : n | not (null n) ->  [[x], [reverse n, "m_I'aT" ++ z]]
+                    '\'' : 'I' : '_' : 'm' : n       | not (null n) ->  [[x], [reverse n, "m_I'T" ++ z]]
+
+                    'a' : '\'' : 'm' : n             | not (null n) ->  [[x], [reverse n, "m'aT" ++ z]]
+                    '\'' : 'm' : n                   | not (null n) ->  [[x], [reverse n, "m'T" ++ z]]
+
+                    _                                               ->  [[x]]
+
+              tokens'''' x = case reverse x of
+
+                    []                              ->  []
+
+                    'y' : []                        ->  [["ya"], ["yi"], ["yu"], ["yA"], ["yI"], ["yU"], ["yY"]]
+
+                    'N' : 'i' : 'T' : y             ->  tokens''''' x y "iN"
+                    'i' : 'T' : y                   ->  tokens''''' x y "i"
+                    'T' : y                         ->  tokens''''' x y ""
+
+                    _                               ->  [[x]]
 
               tokens''' x = tokens'' x ++ case x of
 
@@ -279,10 +315,10 @@ instance Resolve String where
 
                     'a' : 'y' : 'I' : y     ->  [ y' ++ ["ya"] | y' <- tokens (reverse ('U' : y)) ++
                                                                        tokens (reverse ('I' : y)) ]
-                    'y' : 'I' : y           ->  [ y' ++ ["y"]  | y' <- tokens (reverse ('U' : y)) ++
+                    'y' : 'I' : y           ->  [ y' ++ ["ya"] | y' <- tokens (reverse ('U' : y)) ++
                                                                        tokens (reverse ('I' : y)) ]
                     'a' : 'y' : y           ->  [ y' ++ ["ya"] | y' <- tokens (reverse y) ]
-                    'y' : y                 ->  [ y' ++ ["y"]  | y' <- tokens (reverse y) ]
+                    'y' : y                 ->  [ y' ++ ["ya"] | y' <- tokens (reverse y) ]
 
                     'I' : y | y `elem` ["ba'", "h_a'", "mah.", "b'", "h_'", "mh."]
                                             ->  [ [reverse y, "|I"] ] ++
@@ -351,33 +387,56 @@ instance Resolve [UPoint] where
 
         where tokens x = tokens'''' x ++ case reverse x of
 
-                    'a' : 't' : y                   -> [[reverse y ++ "pa"]]
-                    'i' : 't' : y                   -> [[reverse y ++ "pi"]]
-                    'u' : 't' : y                   -> [[reverse y ++ "pu"]]
-                    't' : y                         -> [[reverse y ++ "p"]]
+                    'a' : 't' : y                       ->  [[reverse y ++ "pa"]]
+                    'u' : 't' : y                       ->  [[reverse y ++ "pu"]]
 
-                    'A' : y                         -> [[reverse y ++ "Y"]]
+                    'i' : 't' : y                       ->  tokens''''' x y "i"
+                    't' : y                             ->  tokens''''' x y ""
 
-                    'w' : 'u' : 'm' : 'u' : 't' : y -> [[reverse y ++ "tum"]]
-                    'w' : 'm' : 'u' : 't' : y       -> [[reverse y ++ "tum"]]
-                    'w' : 'u' : 'm' : 't' : y       -> [[reverse y ++ "tm"]]
-                    'w' : 'm' : 't' : y             -> [[reverse y ++ "tm"]]
+                    'A' : y                             ->  [[reverse y ++ "Y"]]
 
-                    'o' : 'w' : y                   -> [[reverse y ++ "woA"]]
-                    'w' : y                         -> [[reverse y ++ "wA"]]
+{-
+                    '-' : 'y' : y | [ z | z <- y', z /= 'a' ] `elem` ["El", "ld", "HwAl"]
 
-                    _                               -> []
+                                                    ->  [[y' ++ "Y-"]]
+
+                                        where y' = reverse y
+
+                    'y' : y | [ z | z <- y', z /= 'a' ] `elem` ["El", "ld", "HwAl"]
+
+                                                    ->  [[y' ++ "Y"]]
+
+                                        where y' = reverse y
+-}
+
+                    'w' : 'u' : 'm' : 'u' : 't' : y     ->  [[reverse y ++ "tum"]]
+                    'w' : 'm' : 'u' : 't' : y           ->  [[reverse y ++ "tum"]]
+                    'w' : 'u' : 'm' : 't' : y           ->  [[reverse y ++ "tm"]]
+                    'w' : 'm' : 't' : y                 ->  [[reverse y ++ "tm"]]
+
+                    'o' : 'w' : y                       ->  [[reverse y ++ "woA"]]
+                    'w' : y                             ->  [[reverse y ++ "wA"]]
+
+                    _                                   ->  []
+
+              tokens''''' x y z = case y of
+
+                    'a' : '}' : 'i' : 'm' : n       | not (null n)  ->  [[x], [reverse n, "mi}ap" ++ z]]
+                    'a' : '}' : 'm' : n             | not (null n)  ->  [[x], [reverse n, "mi}ap" ++ z]]
+                    '}' : 'i' : 'm' : n             | not (null n)  ->  [[x], [reverse n, "mi}ap" ++ z]]
+                    '}' : 'm' : n                   | not (null n)  ->  [[x], [reverse n, "mi}ap" ++ z]]
+
+                    'a' : '}' : 'A' : 'i' : 'm' : n | not (null n)  ->  [[x], [reverse n, "miA}ap" ++ z]]
+                    'a' : '}' : 'A' : 'm' : n       | not (null n)  ->  [[x], [reverse n, "miA}ap" ++ z]]
+                    '}' : 'A' : 'i' : 'm' : n       | not (null n)  ->  [[x], [reverse n, "miA}ap" ++ z]]
+                    '}' : 'A' : 'm' : n             | not (null n)  ->  [[x], [reverse n, "miA}ap" ++ z]]
+
+                    _                                               ->  [[x]]
 
               tokens'''' x = case reverse x of
 
                     []                              ->  []
-{-
-                    '-' : 'y' : y | [ z | z <- y', z /= 'a' ] `elem` ["El", "ld", "HwAl"]
 
-                                                    ->  [[y' ++ "y-"], [y' ++ "Y-"]]
-
-                                        where y' = reverse y
--}
                     '-' : 'y' : []                  ->  []
                     '-' : 'w' : []                  ->  []
 
@@ -385,6 +444,10 @@ instance Resolve [UPoint] where
 
                     'y' : 'n' : []                  ->  [["nay"], ["niy"], ["nuy"]]
                     'y' : []                        ->  [["ya"], ["yi"], ["yu"]]
+
+                    'K' : 'p' : y                   ->  tokens''''' x y "K"
+                    'i' : 'p' : y                   ->  tokens''''' x y "i"
+                    'p' : y                         ->  tokens''''' x y ""
 
                     _                               ->  [[x]]
 
@@ -642,6 +705,16 @@ instance Fuzzy String where
 
     units = letters
 
+    alike "Y" y | y `elem` ["Y", "A"] = True
+
+    alike "T" y | y `elem` ["T", "t", "h"] = True
+    alike "N" y | y `elem` ["N", "n"] = True
+    alike "W" y | y `elem` ["W", "w"] = True
+
+    alike "_a" y | y `elem` ["_a", "A"] = True
+    alike "_I" y | y `elem` ["_I", "i"] = True
+    alike "_U" y | y `elem` ["_U", "u"] = True
+
     alike x y = x == y
 
     fuzzy "A" y | y `elem` ["A", "a", "Y"] = True
@@ -673,10 +746,6 @@ instance Fuzzy String where
 
  -- fuzzy "w" y | y `elem` ["w", "O"] = True
  -- fuzzy "y" y | y `elem` ["y", "E"] = True
-
-    fuzzy "T" y | y `elem` ["T", "t", "h"] = True
-    fuzzy "N" y | y `elem` ["N", "n"] = True
-    fuzzy "W" y | y `elem` ["W", "A"] = True
 
     fuzzy "_a" y | y `elem` ["_a", "A", "a"] = True
     fuzzy "_I" y | y `elem` ["_I", "i", "I"] = True

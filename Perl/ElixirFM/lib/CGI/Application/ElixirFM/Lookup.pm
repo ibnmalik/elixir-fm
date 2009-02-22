@@ -59,7 +59,7 @@ sub pretty_lookup_data {
 
     my $root = join " ", (decode "zdmg", $_->{'root'}), (decode "arabtex", ElixirFM::cling($_->{'root'}));
 
-    my ($clip) = $data->{'clip'} =~ /^\( (-?[0-9]+) , (?: Nothing | Just \[ ([^\]]*) \] ) \)$/x;
+    my ($clip) = $data->{'clip'} =~ /^\( (-?[1-9][0-9]*) , (?: Nothing | Just \[ ([^\]]*) \] ) \)$/x;
 
     $clip = "($clip,Nothing)";
 
@@ -85,9 +85,9 @@ sub pretty_lookup_tree {
 
             my $clip = [undef, undef];
 
-            (@{$clip}) = $data->{'clip'} =~ /^\( (-?[0-9]+) , (?: Nothing | Just \[ ([^\]]*) \] ) \)$/x;
+            (@{$clip}) = $data->{'clip'} =~ /^\( (-?[1-9][0-9]*) , (?: Nothing | Just \[ ([^\]]*) \] ) \)$/x;
 
-            $clip->[1] = [ grep { /^-?[0-9]+$/ } split ',', $clip->[1] ] if defined $clip->[1];
+            $clip->[1] = [ grep { /^-?[1-9][0-9]*$/ } split ',', $clip->[1] ] if defined $clip->[1];
 
             pretty_lookup_data($_, $q) . "\n" . $q->ul($q->li([ map {
 
@@ -204,7 +204,7 @@ sub main ($) {
 
             $q->param('text', decode "utf8", $q->param('text'));
         }
-        elsif (defined $q->param('clip') and $q->param('clip') =~ /^\s*\(\s*(-?)\s*([0-9]+)\s*,\s*(-?)\s*([0-9]+)\s*\)\s*$/) {
+        elsif (defined $q->param('clip') and $q->param('clip') =~ /^\s*\(\s*(-?)\s*([1-9][0-9]*)\s*,\s*(-?)\s*([1-9][0-9]*)\s*\)\s*$/) {
 
             $q->param('clip', "($1$2,$3$4)");
             $q->param('text', $q->param('clip'));
@@ -261,8 +261,6 @@ sub main ($) {
 
     $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
 
-    $r .= display_keys $q;
-
     $r .= $q->end_form();
 
     $r .= $q->h2('ElixirFM Reply');
@@ -275,32 +273,53 @@ sub main ($) {
 
     my $code = exists $enc_hash{$q->param('code')} ? $enc_hash{$q->param('code')} : 'UTF';
 
-    my @text = split '"', $q->param('text');
+    my $text = $q->param('text');
 
-    for (my $i = 0; $i < @text; $i += 2) {
+    my @data = ();
 
-        my @data = split /(\( *-? *[0-9]+ *, *(?:-? *[0-9]+|Nothing|Just *\[[^\]]*\]) *\))/, $text[$i];
+    while ($text ne '') {
 
-        for (my $j = 0; $j < @data; $j += 2) {
+        my $data = '';
 
-            my @word = $code eq 'UTF' ? (split / *(\p{InArabic}{2,}|\p{InArabic}(?: +\p{InArabic})*) */, $data[$j])
+        $text =~ s/^ +//;
 
-                        : (split / *((?:[._^,]?[^ ._^,]){2,}|(?:[._^,]?[^ ._^,])(?: +(?:[._^,]?[^ ._^,])(?![^ ]))*) */, $data[$j]);
+        if (($data) = $text =~ /^(\( *-? *[1-9][0-9]* *, *(?:-? *[1-9][0-9]*|Nothing|Just *\[ *[1-9][0-9]* *(?:\, *[1-9][0-9]* *)*\]) *\))/) {
 
-            for (my $l = 1; $l < @word; $l += 2) {
+            $text = substr $text, length $data;
+        }
+        elsif (($data) = $text =~ /^(\( *-? *[0-9]+ *, *(?:-? *[0-9]+|Nothing|Just *\[ *[0-9]+ *(?:\, *[0-9]+ *)*\]) *\))/) {
 
-                $word[$l] = normalize $word[$l], $code;
+            $text = substr $text, length $data;
 
-                $word[$l] = '"' . $word[$l] . '"';
-            }
+            $data = '';
+        }
+        elsif (($data) = $text =~ /^(\"\"|(?: *\"(?:\\.|[^\"\\]+)+\")+)/) {
 
-            $data[$j] = join "\n", grep { $_ !~ /^ *$/ } @word;
+            $text = substr $text, length $data;
+        }
+        elsif (($data) = $text =~ /^(\p{InArabic}{2,}|\p{InArabic}(?: +\p{InArabic}(?!\p{InArabic}))*)/) {
+
+            $text = substr $text, length $data;
+
+            $data = normalize $data, 'UTF';
+        }
+        elsif (($data) = $text =~ /^((?:[._^,]?[^ ._^,]){2,}|(?:[._^,]?[^ ._^,])(?: +(?:[._^,]?[^ ._^,])(?![^ ]))*)/ and $code ne 'UTF') {
+
+            $text = substr $text, length $data;
+
+            $data = normalize $data, $code;
+        }
+        elsif (($data) = $text =~ /^(.[^\(\"\p{InArabic}]*)/) {
+
+            $text = substr $text, length $data;
+
+            $data =~ s/ +$//;
         }
 
-        $text[$i] = join "\n", grep { $_ !~ /^ *$/ } @data;
+        push @data, $data unless $data eq '';
     }
 
-    my $text = join "\n", grep { $_ !~ /^ *$/ } @text;
+    $text = join "\n", @data;
 
     $q->param('text', $text);
 
@@ -330,7 +349,7 @@ sub main ($) {
 
     print L join "\t", gmtime() . "", "CPU " . $time, $code,
                        ($reply =~ /^\s*$/ ? '--' : '++'),
-                       encode "utf8", $q->param('text') . "\n";
+                       encode "utf8", (join "\t", split "\n", $q->param('text')) . "\n";
 
     close L;
 

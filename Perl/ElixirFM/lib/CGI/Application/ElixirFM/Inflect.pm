@@ -55,7 +55,7 @@ sub pretty_lookup_data {
 
     my $root = join " ", (decode "zdmg", $_->{'root'}), (decode "arabtex", ElixirFM::cling($_->{'root'}));
 
-    my ($clip) = $data->{'clip'} =~ /^\( (-?[0-9]+) , (?: Nothing | Just \[ ([^\]]*) \] ) \)$/x;
+    my ($clip) = $data->{'clip'} =~ /^\( (-?[1-9][0-9]*) , (?: Nothing | Just \[ ([^\]]*) \] ) \)$/x;
 
     $clip = "($clip,Nothing)";
 
@@ -81,9 +81,9 @@ sub pretty_lookup_tree {
 
             my $clip = [undef, undef];
 
-            (@{$clip}) = $data->{'clip'} =~ /^\( (-?[0-9]+) , (?: Nothing | Just \[ ([^\]]*) \] ) \)$/x;
+            (@{$clip}) = $data->{'clip'} =~ /^\( (-?[1-9][0-9]*) , (?: Nothing | Just \[ ([^\]]*) \] ) \)$/x;
 
-            $clip->[1] = [ grep { /^-?[0-9]+$/ } split ',', $clip->[1] ] if defined $clip->[1];
+            $clip->[1] = [ grep { /^-?[1-9][0-9]*$/ } split ',', $clip->[1] ] if defined $clip->[1];
 
             pretty_lookup_data($_, $q) . "\n" . $q->ul($q->li([ map {
 
@@ -295,7 +295,7 @@ sub main ($) {
 
     my $text = join ' ', ElixirFM::retrieve($q->param('text'));
 
-    my @clip = $q->param('clip') =~ /(\( *-? *[0-9]+ *, *-? *[0-9]+ *\))/g;
+    my @clip = $q->param('clip') =~ /(\( *-? *[1-9][0-9]* *, *-? *[1-9][0-9]* *\))/g;
 
     open T, '>', "$mode/index.$$.$session.tmp";
 

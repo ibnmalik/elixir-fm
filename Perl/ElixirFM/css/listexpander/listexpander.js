@@ -39,6 +39,7 @@ this.listexpander = function(){
 
     this.create = function(list) {
         list.limit = expandInit;
+	list.level = 1;
         var items = list.getElementsByTagName("li");
         for(var i=0;i<items.length;i++){
             listItem(items[i], list);
@@ -69,13 +70,13 @@ this.listexpander = function(){
         var p = document.createElement("p");
         p.className = listClass;
 
-        if (mode == 'resolve' || mode == 'lookup') {
+        if (mode == 'resolve') {
 
             var i = document.createElement("input");
             i.type = 'text';
             i.name = 'exclude';
-            i.onchange = function(){exclude(list, i)};
-            i.className = 'exclude'; 
+            i.onkeyup = function(){exclude(list, i)};
+            i.className = 'exclude';
             p.appendChild(i);
             var a = document.createElement("a");
             a.innerHTML = excludeText;
@@ -98,10 +99,143 @@ this.listexpander = function(){
 
     this.exclude = function(list, input){
 
-        if (input.value != '') {
+        var words = input.value.split(/[ ,]+/);
+        var items = list.getElementsByTagName("li");
 
-            alert("This function is not implemented yet, sorry.");
+        for (var i = 0; i < items.length; i++) {
+
+            if (items[i].parentNode.level == expandMax - 3) {
+
+                items[i].style.display = 'block';
+            }
+            else {
+
+                items[i].style.display = 'none';
+            }
         }
+
+        for (var i = items.length - 1; i > -1; i--) {
+
+            var level = items[i].parentNode.level;
+
+            if (level == expandMax) {
+
+                var table = items[i].getElementsByTagName("table");
+
+                if (table.length < 1) break;
+
+                var shows = prune(table[0], words);
+
+                if (shows) {
+
+                    items[i].style.display = 'block';
+
+                    var root = items[i].parentNode;
+
+                    while (root.nodeName != "LI") {
+
+                        root = root.parentNode;
+                    }
+
+                    root.style.display = 'block';
+                }
+            }
+            else if (level == expandMax - 1) {
+
+                if (items[i].style.display == 'block') {
+
+                    var root = items[i].parentNode;
+
+                    while (root.nodeName != "LI") {
+
+                    root = root.parentNode;
+                    }
+
+                    root.style.display = 'block';
+                }
+            }
+            else if (level == expandMax - 2) {
+
+                if (items[i].style.display == 'none') {
+
+                    var root = items[i].parentNode;
+
+                    while (root.nodeName != "LI") {
+
+                        root = root.parentNode;
+                    }
+
+                    root.style.display = 'none';
+                }
+            }
+        }
+
+        /*
+        for (var i = 0; i < items.length; i++) {
+
+            if (items[i].parentNode.level < expandMin + 2) {
+
+                if (items[i].style.display == 'none') {
+
+                    items[i].style.display = 'block';
+                    items[i].className = 'empty';
+                }
+                else {
+
+                    items[i].className = 'expanded';
+                }
+            }
+        }
+        */
+    };
+
+    this.prune = function(table, words) {
+
+        var lines = table.rows;
+        var shows = false;
+
+        for (var i = 0; i < lines.length; i++) {
+
+            var items = lines[i].cells;
+
+            var xr = false;
+            var dr = false;
+
+            for (var j = 0; j < items.length; j++) {
+
+                if (items[j].className == 'xtag') {
+
+                    var xtag = items[j].firstChild.nodeValue;
+
+                    for (var w = 0; w < words.length; w++) {
+
+                        if (words[w] == '') break;
+
+                        xr = xr || xtag.indexOf(words[w]) > -1;
+                    }
+                }
+                if (items[j].className == 'dtag') {
+
+                    var dtag = items[j].firstChild.nodeValue.split(/[ ,]+/);
+
+                    for (var w = 0; w < words.length; w++) {
+
+                        if (words[w] == '') break;
+
+                        for (var d = 0; d < dtag.length; d++) {
+
+                            dr = dr || dtag[d] == words[w];
+                        }
+                    }
+                }
+            }
+
+            lines[i].style.display = xr || dr ? "none" : "table-row";
+
+            shows = shows || ! (xr || dr);
+        }
+
+        return shows;
     };
 
     this.expand = function(list){
@@ -132,14 +266,14 @@ this.listexpander = function(){
         };
     };
 
-    this.limited = function(node, list){
+    this.limited = function(node, list) {
         if (node.level == undefined) {
+	    node.level = 2;
             var root = node.parentNode;
-            node.level = 2;
-            while(root != list){
+            while(root != list) {
                 if (root.nodeName == "UL") node.level++;
                 root = root.parentNode;
-            };
+            }
         }
         return (node.level > list.limit);
     };
