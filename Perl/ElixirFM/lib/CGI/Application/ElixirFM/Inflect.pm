@@ -214,9 +214,9 @@ sub main ($) {
     my @example = ( [ '(1319,1)',               'perfect active third imperative'                               ],
                     [ '(1319,1)',               'perf act 3rd impa'                                             ],
                     [ '(1319,1)',               '-P-A-3---- -C--------'                                         ],
-                    [ '(1319,3) (5357,14)',     'indicative subjunctive jussive indefinite reduced definite'    ],
-                    [ '(1319,3) (5357,14)',     'ind sub jus indf red def'                                      ],
-                    [ '(1319,3) (5357,14)',     '--[ISJ]------[IRD]'                                            ] );
+                    [ '(1319,3) (5356,14)',     'indicative subjunctive jussive indefinite reduced definite'    ],
+                    [ '(1319,3) (5356,14)',     'ind sub jus indf red def'                                      ],
+                    [ '(1319,3) (5356,14)',     '--[ISJ]------[IRD]'                                            ] );
 
     if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
 
