@@ -13,12 +13,10 @@ use base 'CGI::Application::FastCGI';
 
 use CGI::Fast ':standard';
 
-use Benchmark;
-
 use base 'Exporter';
 
 our @EXPORT = (qw 'display_header display_headline display_welcome display_footline display_footer',
-               qw 'escape revert normalize tick mytimestr',
+               qw 'escape revert normalize',
                qw '$elixir $session @modes %enc_hash @enc_list');
 
 use strict;
@@ -154,21 +152,6 @@ sub normalize ($$) {
 }
 
 
-sub tick (\@) {
-
-    push @{$_[0]}, new Benchmark;
-}
-
-sub mytimestr ($) {
-
-    my $x = timestr shift;
-
-    $x =~ /= *([^ ][^C ]+) *CPU\)/;
-
-    return $1;
-}
-
-
 sub display_header ($) {
 
     my $c = shift;
@@ -240,10 +223,9 @@ sub display_footline ($) {
     return $r;
 }
 
-sub display_footer ($$) {
+sub display_footer ($) {
 
     my $c = shift;
-    my $t = shift;
     my $q = $c->query();
     my $r;
 
@@ -261,9 +243,7 @@ sub display_footer ($$) {
                       $q->img({'border' => "0",
                                'src' => "http://www.w3.org/Icons/valid-xhtml10",
                                'alt' => "Valid XHTML 1.0 Transitional",
-                               'height' => "31", 'width' => "88"})),
-
-                ( defined $q->param('time') ? ("Request number", $session, "processed in", $t, "seconds.") : ('') ));
+                               'height' => "31", 'width' => "88"})) );
 
     $r .= $q->script({-type => 'text/javascript', -src => 'http://api.yamli.com/js/yamli_api.js'}, "");
 
@@ -318,11 +298,7 @@ sub main ($) {
 
     my $r = '';
 
-    my @tick = ();
-
     $q->param($c->mode_param(), 'home');
-
-    tick @tick;
 
     $r .= display_header $c;
 
@@ -369,7 +345,7 @@ sub main ($) {
 
     $r .= display_footline $c;
 
-    $r .= display_footer $c, '';
+    $r .= display_footer $c;
 
     return $r;
 }

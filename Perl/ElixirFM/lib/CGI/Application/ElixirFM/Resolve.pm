@@ -64,7 +64,7 @@ sub pretty ($$$) {
 
 sub pretty_resolve_data {
 
-    my $data = $_[0];
+    my $data = $_[0]->{'data'};
 
     my $q = $_[1];
 
@@ -72,23 +72,23 @@ sub pretty_resolve_data {
 
     if ($data->{'type'} == 2) {
 
-        $text = join " ", map { my $x = $_; $x = $x eq '<>' ? '???' : substr $x, 1, -1;
-
-                                join " ", map { escape decode "zdmg", $_ } split " ", $x } @{$data->{'info'}};
+        $text = join " ", map { join " ", map { escape decode "zdmg", $_ } split " ", substr $_, 1, -1 } @{$data->{'info'}};
     }
     else {
 
         enmode "buckwalter", 'noneplus';
 
-        $text = join " " . $q->span({-style => 'width: 10px'}, " "). " ",
+        $text = join " " . $q->span({-style => 'width: 20px'}, " ") . " ",
 
-                          map { my $x = $_; $x = $x eq '<>' ? '???' : substr $x, 1, -1;
-
-                                join " ", ElixirFM::nub { $_[0] } map {
+                        map { my @x = (ElixirFM::nub { $_[0] } map {
 
                                     escape decode "buckwalter", encode "buckwalter", decode "arabtex", $_
 
-                                } grep { $_ ne ".." } split " ", $x } @{$data->{'info'}};
+                                } ElixirFM::nub { $_[0] } map { $_->{'data'}{'info'}[1] } map { @{$_->{'node'}} } @{$_->{'node'}});
+
+                                join " ", @x > 3 ? ($x[0], '..', $x[-1]) : @x
+
+                            } @{$_[0]->{'node'}};
 
         enmode "buckwalter", 'default';
     }
@@ -106,9 +106,9 @@ sub pretty_resolve_tree {
 
     return $q->li([ map {
 
-	   $q->span({-title => "possible tokenization"}, pretty_resolve_data($_->{'data'}, $q)) . "\n" . $q->ul($q->li([ map {
+	   $q->span({-title => "possible tokenization"}, pretty_resolve_data($_, $q)) . "\n" . $q->ul($q->li([ map {
 
-	   $q->span({-title => "token form variants"}, pretty_resolve_data($_->{'data'}, $q)) . "\n" . $q->ul($q->li([ map {
+	   $q->span({-title => "token form variants"}, pretty_resolve_data($_, $q)) . "\n" . $q->ul($q->li([ map {
 
 	my @tokens = ElixirFM::concise map { $_->{'data'}{'info'} } @{$_->{'node'}};
 
@@ -211,11 +211,7 @@ sub main ($) {
 
     my $r = '';
 
-    my @tick = ();
-
     $q->param($c->mode_param(), 'resolve');
-
-    tick @tick;
 
     $r .= display_header $c;
 
@@ -357,25 +353,13 @@ sub main ($) {
 
     my $token = $q->param('token') ? '--token' : '';
 
-    tick @tick;
-
     my $reply = `$elixir $mode $fuzzy $token $code < $mode/index.$$.$session.tmp`;
-
-    tick @tick;
 
     $r .= pretty $reply, $mode, $q;
 
-    tick @tick;
-
-    my @time = map { timediff $tick[$_->[0]], $tick[$_->[1]] } [3, 0], [2, 1];
-
-    $time[0] = timediff $time[0], $time[1];
-
-    my $time = join "+", map { mytimestr($_) } reverse @time;
-
     open L, '>>', "$mode/index.log";
 
-    print L join "\t", gmtime() . "", "CPU " . $time, $code,
+    print L join "\t", gmtime() . "", $code,
                        ($q->param('fuzzy') ? 'F' : 'A'),
                        ($q->param('token') ? 'T' : 'N'),
                        ($reply =~ /^\s*$/ ? '--' : '++'),
@@ -387,7 +371,7 @@ sub main ($) {
 
     $r .= display_footline $c;
 
-    $r .= display_footer $c, $time;
+    $r .= display_footer $c;
 
     return encode "utf8", $r;
 }

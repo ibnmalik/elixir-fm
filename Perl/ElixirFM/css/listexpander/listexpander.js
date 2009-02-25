@@ -99,7 +99,7 @@ this.listexpander = function(){
 
     this.exclude = function(list, input){
 
-        var words = input.value.split(/[ ,]+/);
+        var words = input.value.split(/[ ,/]+/);
         var items = list.getElementsByTagName("li");
 
         for (var i = 0; i < items.length; i++) {
@@ -209,22 +209,22 @@ this.listexpander = function(){
 
                     for (var w = 0; w < words.length; w++) {
 
-                        if (words[w] == '') break;
+                        if (words[w] == '') continue;
 
                         xr = xr || xtag.indexOf(words[w]) > -1;
                     }
                 }
                 if (items[j].className == 'dtag') {
 
-                    var dtag = items[j].firstChild.nodeValue.split(/[ ,]+/);
+                    var dtag = items[j].firstChild.nodeValue.split(/[ ,/]+/);
 
                     for (var w = 0; w < words.length; w++) {
 
-                        if (words[w] == '') break;
+                        if (words[w].length < 2) continue;
 
                         for (var d = 0; d < dtag.length; d++) {
 
-                            dr = dr || dtag[d] == words[w];
+                            dr = dr || dtag[d].indexOf(words[w]) == 0;
                         }
                     }
                 }

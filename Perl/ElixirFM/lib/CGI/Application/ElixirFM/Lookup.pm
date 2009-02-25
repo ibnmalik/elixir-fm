@@ -176,11 +176,7 @@ sub main ($) {
 
     my $r = '';
 
-    my @tick = ();
-
     $q->param($c->mode_param(), 'lookup');
-
-    tick @tick;
 
     $r .= display_header $c;
 
@@ -329,25 +325,13 @@ sub main ($) {
 
     close T;
 
-    tick @tick;
-
     my $reply = `$elixir $mode $code < $mode/index.$$.$session.tmp`;
-
-    tick @tick;
 
     $r .= pretty $reply, $mode, $q;
 
-    tick @tick;
-
-    my @time = map { timediff $tick[$_->[0]], $tick[$_->[1]] } [3, 0], [2, 1];
-
-    $time[0] = timediff $time[0], $time[1];
-
-    my $time = join "+", map { mytimestr($_) } reverse @time;
-
     open L, '>>', "$mode/index.log";
 
-    print L join "\t", gmtime() . "", "CPU " . $time, $code,
+    print L join "\t", gmtime() . "", $code,
                        ($reply =~ /^\s*$/ ? '--' : '++'),
                        encode "utf8", (join "\t", split "\n", $q->param('text')) . "\n";
 
@@ -357,7 +341,7 @@ sub main ($) {
 
     $r .= display_footline $c;
 
-    $r .= display_footer $c, $time;
+    $r .= display_footer $c;
 
     return encode "utf8", $r;
 }

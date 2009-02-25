@@ -201,11 +201,7 @@ sub main ($) {
 
     my $r = '';
 
-    my @tick = ();
-
     $q->param($c->mode_param(), 'inflect');
-
-    tick @tick;
 
     $r .= display_header $c;
 
@@ -303,11 +299,7 @@ sub main ($) {
 
     close T;
 
-    tick @tick;
-
     my $early = `$elixir lookup < $mode/index.$$.$session.tmp`;
-
-    # tick @tick;
 
     open T, '>', "$mode/index.$$.$session.tmp";
 
@@ -315,28 +307,17 @@ sub main ($) {
 
     close T;
 
-    # tick @tick;
-
     @clip = map { "'" . (join "", split " ", $_) . "'" } @clip;
 
     my $reply = `$elixir $mode @clip < $mode/index.$$.$session.tmp`;
 
-    tick @tick;
-
     $r .= pretty $reply, $early, $q;
-
-    tick @tick;
-
-    my @time = map { timediff $tick[$_->[0]], $tick[$_->[1]] } [3, 0], [2, 1];
-
-    $time[0] = timediff $time[0], $time[1];
-
-    my $time = join "+", map { mytimestr($_) } reverse @time;
 
     open L, '>>', "$mode/index.log";
 
-    print L join "\t", gmtime() . "", "CPU " . $time, (join " ", @clip), ($q->param('fuzzy') ? 'F' : 'A'),
-            ($reply =~ /^\s*$/ ? '--' : '++'), encode "utf8", $q->param('text') . "\n";
+    print L join "\t", gmtime() . "", (join " ", @clip),
+                       ($reply =~ /^\s*$/ ? '--' : '++'),
+                       encode "utf8", $q->param('text') . "\n";
 
     close L;
 
@@ -344,7 +325,7 @@ sub main ($) {
 
     $r .= display_footline $c;
 
-    $r .= display_footer $c, $time;
+    $r .= display_footer $c;
 
     return encode "utf8", $r;
 }
