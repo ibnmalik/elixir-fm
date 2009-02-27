@@ -13,8 +13,6 @@ use CGI::Application::ElixirFM;
 
 use CGI::Fast ':standard';
 
-use Benchmark;
-
 use ElixirFM;
 
 use Encode::Arabic::ArabTeX ':simple';
@@ -62,6 +60,29 @@ sub pretty ($$$) {
     return $r;
 }
 
+sub pretty_resolve_tree {
+
+    my @data = @{$_[0]->{'node'}};
+
+    my $q = $_[1];
+
+    return '' unless @data;
+
+    return $q->li([ map {
+
+        $q->span({-title => "possible tokenization"}, pretty_resolve_data($_, $q)) . "\n" . $q->ul($q->li([ map {
+
+        $q->span({-title => "token form variants"}, pretty_resolve_data($_, $q)) . "\n" . $q->ul($q->li([ map {
+
+            pretty_resolve_lexeme($_, $q)
+
+                } @{$_->{'node'}} ] ))
+
+                } @{$_->{'node'}} ] ))
+
+                } @data ] );
+}
+
 sub pretty_resolve_data {
 
     my $data = $_[0]->{'data'};
@@ -96,57 +117,45 @@ sub pretty_resolve_data {
     return $text;
 }
 
-sub pretty_resolve_tree {
+sub pretty_resolve_lexeme {
 
-    my @data = @{$_[0]->{'node'}};
+    my @tokens = ElixirFM::concise map { $_->{'data'}{'info'} } @{$_[0]->{'node'}};
+
+    my @info = @{$_[0]->{'data'}{'info'}};
 
     my $q = $_[1];
 
-    return '' unless @data;
+    my $xcat = substr $tokens[0]->[0], 0, 1;
 
-    return $q->li([ map {
+    my @ents = ();
 
-	   $q->span({-title => "possible tokenization"}, pretty_resolve_data($_, $q)) . "\n" . $q->ul($q->li([ map {
+    ($ents[0]) = $info[1] =~ /\<imperf\>([^\<]*)\</g;
+    ($ents[1]) = $info[1] =~ /\<pfirst\>([^\<]*)\</g;
+    ($ents[2]) = $info[1] =~ /\<second\>([^\<]*)\</g;
 
-	   $q->span({-title => "token form variants"}, pretty_resolve_data($_, $q)) . "\n" . $q->ul($q->li([ map {
-
-	my @tokens = ElixirFM::concise map { $_->{'data'}{'info'} } @{$_->{'node'}};
-
-	my @info = @{$_->{'data'}{'info'}};
-
-	my $xcat = substr $tokens[0]->[0], 0, 1;
-
-	my @ents = ();
-
-	($ents[0]) = $info[1] =~ /\<imperf\>([^\<]*)\</g;
-	($ents[1]) = $info[1] =~ /\<pfirst\>([^\<]*)\</g;
-	($ents[2]) = $info[1] =~ /\<second\>([^\<]*)\</g;
-
-	$ents[1] = '' if defined $ents[0] and defined $ents[1] and lc $ents[0] eq lc $ents[1];
+    $ents[1] = '' if defined $ents[0] and defined $ents[1] and lc $ents[0] eq lc $ents[1];
 
 
-	$info[1] = join " ", grep { defined $_ and $_ ne '' } @ents;
+    $info[1] = join " ", grep { defined $_ and $_ ne '' } @ents;
 
-	$info[2] = substr $info[2], 1, -1;
-	$info[2] =~ s/\",\"/\", \"/g;
+    $info[2] = substr $info[2], 1, -1;
+    $info[2] =~ s/\",\"/\", \"/g;
 
-	$info[3] =~ s/[\[\]]//g;
+    $info[3] =~ s/[\[\]]//g;
 
-	$info[-2] = substr $info[-2], 1, -1;  # == $info[5]
+    $info[-2] = substr $info[-2], 1, -1;  # == $info[5]
 
     my $root = join " ", (decode "zdmg", $info[-2]), (decode "arabtex", ElixirFM::cling($info[-2]));
 
-	( join $",
+    return join $",
 
-	  $q->table({-cellspacing => 0, -class => "lexeme"},
+      $q->table({-cellspacing => 0, -class => "lexeme"},
                 $q->Tr($q->td({-class => "xtag",
                                -title => ElixirFM::describe($xcat)}, $xcat),
                        $q->td({-class => "phon",
                                -title => "citation form"},           decode "zdmg", $info[-3]),
                        $q->td({-class => "orth",
                                -title => "citation form"},           decode "arabtex", $info[-3]),
-                       # $q->td({-class => "atex",
-                       #         -title => "citation form"},           $info[-3]),
                        $q->td({-class => "root",
                                -title => "root of citation form"},   $root),
                        $q->td({-class => "morphs",
@@ -157,8 +166,7 @@ sub pretty_resolve_tree {
                                -title => "inflectional stems"},      ElixirFM::nice($info[1])),
                        $q->td({-class => "reflex",
                                -title => "lexical reference"},       $info[2]),
-               # ),
-               # $q->Tr(
+
                        $q->td({-class => "button"},
                               $q->a({-title => "inflect this lexeme",
                                      -href => 'index.fcgi?mode=inflect' . '&clip=' . $info[0]}, "Inflect"),
@@ -166,42 +174,34 @@ sub pretty_resolve_tree {
                                      -href => 'index.fcgi?mode=derive' . '&clip=' . $info[0]}, "Derive"),
                               $q->a({-title => "lookup in the lexicon",
                                      -href => 'index.fcgi?mode=lookup' . '&clip=' . $info[0]}, "Lookup")),
-		    )),
+            )),
 
-	  $q->ul($q->li($q->table({-cellspacing => 0},
+      $q->ul($q->li($q->table({-cellspacing => 0},
 
-                    $q->Tr([ map { my @info = @{$_};
-
-                            $info[-2] = substr $info[-2], 1, -1;
-
-                            # $info[-1] =~ s/((?:\&gt;)+\||\|(?:\&lt;)+)/\<span style="color:darkred"\>$1\<\/span\>/g;
-
-                            ( join $",
-
-                                $q->td({-class => "xtag",
-                                        -title => ElixirFM::describe($info[0])}, $info[0]),
-                                $q->td({-class => "phon",
-                                        -title => "inflected form"},             decode "zdmg", $info[-3]),
-                                $q->td({-class => "orth",
-                                        -title => "inflected form"},             decode "arabtex", $info[-3]),
-                                # $q->td({-class => "atex",
-                                #         -title => "inflected form"},             $info[-3]),
-                                # $q->td({-class => "root",
-                                #         -title => "root of inflected form"},     decode "zdmg", $info[-2]),
-                                $q->td({-class => "morphs",
-                                        -title => "morphs of inflected form"},   ElixirFM::nice($info[-1])),
-                                $q->td({-class => "dtag",
-                                        -title => "grammatical parameters"},     ElixirFM::describe($info[0], 'terse')) )
-
-                        } @tokens ] ) )) ) )
-
-			} @{$_->{'node'}} ] ))
-
-			} @{$_->{'node'}} ] ))
-
-			} @data ] );
+                    $q->Tr([ map { pretty_resolve_tokens($_, $q) } @tokens ] ) )) );
 }
 
+sub pretty_resolve_tokens {
+
+    my @info = @{$_[0]};
+
+    my $q = $_[1];
+
+    $info[-2] = substr $info[-2], 1, -1;
+
+    return join $",
+
+        $q->td({-class => "xtag",
+                -title => ElixirFM::describe($info[0])}, $info[0]),
+        $q->td({-class => "phon",
+                -title => "inflected form"},             decode "zdmg", $info[-3]),
+        $q->td({-class => "orth",
+                -title => "inflected form"},             decode "arabtex", $info[-3]),
+        $q->td({-class => "morphs",
+                -title => "morphs of inflected form"},   ElixirFM::nice($info[-1])),
+        $q->td({-class => "dtag",
+                -title => "grammatical parameters"},     ElixirFM::describe($info[0], 'terse'));
+}
 
 sub main ($) {
 

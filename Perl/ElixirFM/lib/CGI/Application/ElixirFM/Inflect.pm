@@ -13,8 +13,6 @@ use CGI::Application::ElixirFM;
 
 use CGI::Fast ':standard';
 
-use Benchmark;
-
 use ElixirFM;
 
 use Encode::Arabic::ArabTeX ':simple';
@@ -31,7 +29,7 @@ sub pretty ($$$) {
 
     my @text = ElixirFM::unpretty($text, 'lookup');
 
-    my @word = ElixirFM::unpretty($word, 'derive');
+    my @word = ElixirFM::unpretty($word, 'inflect');
 
     my $r = '';
 

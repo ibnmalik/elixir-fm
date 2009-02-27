@@ -13,8 +13,6 @@ use CGI::Application::ElixirFM;
 
 use CGI::Fast ':standard';
 
-use Benchmark;
-
 use ElixirFM;
 
 use Encode::Arabic::ArabTeX ':simple';

@@ -1,6 +1,6 @@
 # ###################################################################### Otakar Smrz, 2007/10/05
 #
-# ElixirFM Online ##############################################################################
+# ElixirFM Online Interface ####################################################################
 
 # $Id$
 
@@ -12,6 +12,8 @@ package CGI::Application::ElixirFM;
 use base 'CGI::Application::FastCGI';
 
 use CGI::Fast ':standard';
+
+use Unicode::Normalize;
 
 use base 'Exporter';
 
@@ -106,6 +108,8 @@ sub normalize ($$) {
 
     if ($code eq 'UTF') {
 
+        $text = Unicode::Normalize::normalize('KC', $text);
+
         $text =~ tr[\x{06A9}\x{06AA}][\x{0643}];
         $text =~ tr[\x{06CC}][\x{064A}];
         $text =~ tr[\x{0640}][]d;
@@ -123,6 +127,8 @@ sub normalize ($$) {
         @data = $text =~ /( [OWI\>\&\<\'\|\}AbptvjHxd\*rzs\$SDTZEgfqklmnhwYyPJRVG\{A\~FNKaui\`o]+ )/gx;
     }
     elsif ($code eq 'TeX') {
+
+        $text = Unicode::Normalize::normalize('D', $text);
 
         $text =~ s/aa/A/g;
         $text =~ s/ii/I/g;

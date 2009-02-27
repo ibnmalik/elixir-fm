@@ -68,29 +68,29 @@ table.lexeme {
 }
 
 .lexeme td.xtag {
-    min-width: 2ex;
+    width: 2ex;
 }
 
 .lexeme td.phon {
-    min-width: 5.5em;
+    width: 5.5em;
 }
 
 .lexeme td.orth {
-    min-width: 4em;
+    width: 4em;
     padding-right: 1em;
 }
 
 .lexeme td.atex {
-    min-width: 3em;
+    width: 3em;
 }
 
 .lexeme td.root {
     text-align: center;
-    min-width: 9ex;
+    width: 9ex;
 }
 
 .lexeme td.morphs {
-    min-width: 8em;
+    width: 8em;
 }
 
 .lexeme td.class {
@@ -144,6 +144,7 @@ td.orth {
 }
 
 input {
+    font-family: DejaVu Sans Condensed, DejaVu Sans, Tahoma, Arial Unicode MS, Verdana, Arial, Helvetica, sans-serif;
     font-size: medium;
 }
 

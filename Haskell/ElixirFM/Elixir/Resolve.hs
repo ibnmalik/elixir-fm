@@ -164,13 +164,15 @@ instance Resolve String where
 
         where tokens x = tokens'''' x ++ case reverse x of
 
+{-
                     'a' : 't' : y               ->  [[reverse y ++ "Ta"]]
                     'u' : 't' : y               ->  [[reverse y ++ "Tu"]]
 
-                    'i' : 't' : y               ->  tokens''''' x y "i"
-                    't' : y                     ->  tokens''''' x y ""
+                    'i' : 't' : y               ->  tokens''''' y "i"
+                    't' : y                     ->  tokens''''' y ""
 
                     'A' : y                     ->  [[reverse y ++ "Y"]]
+-}
 
                     'y' : 'a' : y | [ z | z <- y', z /= 'a' ] `elem` ["`l", "ld", ".hwAl"]
 
@@ -187,24 +189,26 @@ instance Resolve String where
                     'U' : 'm' : 'u' : 't' : y   ->  [[reverse y ++ "tum"]]
                     'U' : 'm' : 't' : y         ->  [[reverse y ++ "tm"]]
 
+{-
                     'U' : y                     ->  [[reverse y ++ "UW"]]
                     '"' : 'w' : y               ->  [[reverse y ++ "W"]]
                     'w' : y                     ->  [[reverse y ++ "W"]]
+-}
 
                     _                           ->  []
 
-              tokens''''' x y z = case y of
+              tokens''''' y z = case y of
 
-                    'a' : '\'' : 'i' : 'm' : n       | not (null n) ->  [[x], [reverse n, "mi'aT" ++ z]]
-                    '\'' : 'i' : 'm' : n             | not (null n) ->  [[x], [reverse n, "mi'T" ++ z]]
+                    'a' : '\'' : 'i' : 'm' : n       | not (null n) ->  [[reverse y ++ "T"], [reverse n, "mi'aT" ++ z]]
+                    '\'' : 'i' : 'm' : n             | not (null n) ->  [[reverse y ++ "T"], [reverse n, "mi'T" ++ z]]
 
-                    'a' : '\'' : 'I' : '_' : 'm' : n | not (null n) ->  [[x], [reverse n, "m_I'aT" ++ z]]
-                    '\'' : 'I' : '_' : 'm' : n       | not (null n) ->  [[x], [reverse n, "m_I'T" ++ z]]
+                    'a' : '\'' : 'I' : '_' : 'm' : n | not (null n) ->  [[reverse y ++ "T"], [reverse n, "m_I'aT" ++ z]]
+                    '\'' : 'I' : '_' : 'm' : n       | not (null n) ->  [[reverse y ++ "T"], [reverse n, "m_I'T" ++ z]]
 
-                    'a' : '\'' : 'm' : n             | not (null n) ->  [[x], [reverse n, "m'aT" ++ z]]
-                    '\'' : 'm' : n                   | not (null n) ->  [[x], [reverse n, "m'T" ++ z]]
+                    'a' : '\'' : 'm' : n             | not (null n) ->  [[reverse y ++ "T"], [reverse n, "m'aT" ++ z]]
+                    '\'' : 'm' : n                   | not (null n) ->  [[reverse y ++ "T"], [reverse n, "m'T" ++ z]]
 
-                    _                                               ->  [[x]]
+                    _                                               ->  [[reverse y ++ "T"]]
 
               tokens'''' x = case reverse x of
 
@@ -212,9 +216,9 @@ instance Resolve String where
 
                     'y' : []                        ->  [["ya"], ["yi"], ["yu"], ["yA"], ["yI"], ["yU"], ["yY"]]
 
-                    'N' : 'i' : 'T' : y             ->  tokens''''' x y "iN"
-                    'i' : 'T' : y                   ->  tokens''''' x y "i"
-                    'T' : y                         ->  tokens''''' x y ""
+                    'N' : 'i' : 'T' : y             ->  tokens''''' y "iN"
+                    'i' : 'T' : y                   ->  tokens''''' y "i"
+                    'T' : y                         ->  tokens''''' y ""
 
                     _                               ->  [[x]]
 
@@ -393,8 +397,8 @@ instance Resolve [UPoint] where
                     'a' : 't' : y                       ->  [[reverse y ++ "pa"]]
                     'u' : 't' : y                       ->  [[reverse y ++ "pu"]]
 
-                    'i' : 't' : y                       ->  tokens''''' x y "i"
-                    't' : y                             ->  tokens''''' x y ""
+                    'i' : 't' : y                       ->  tokens''''' y "i"
+                    't' : y                             ->  tokens''''' y ""
 
                     'A' : y                             ->  [[reverse y ++ "Y"]]
 
@@ -422,19 +426,19 @@ instance Resolve [UPoint] where
 
                     _                                   ->  []
 
-              tokens''''' x y z = case y of
+              tokens''''' y z = case y of
 
-                    'a' : '}' : 'i' : 'm' : n       | not (null n)  ->  [[x], [reverse n, "mi}ap" ++ z]]
-                    'a' : '}' : 'm' : n             | not (null n)  ->  [[x], [reverse n, "mi}ap" ++ z]]
-                    '}' : 'i' : 'm' : n             | not (null n)  ->  [[x], [reverse n, "mi}ap" ++ z]]
-                    '}' : 'm' : n                   | not (null n)  ->  [[x], [reverse n, "mi}ap" ++ z]]
+                    'a' : '}' : 'i' : 'm' : n       | not (null n)  ->  [[reverse y ++ "p"], [reverse n, "mi}ap" ++ z]]
+                    'a' : '}' : 'm' : n             | not (null n)  ->  [[reverse y ++ "p"], [reverse n, "mi}ap" ++ z]]
+                    '}' : 'i' : 'm' : n             | not (null n)  ->  [[reverse y ++ "p"], [reverse n, "mi}ap" ++ z]]
+                    '}' : 'm' : n                   | not (null n)  ->  [[reverse y ++ "p"], [reverse n, "mi}ap" ++ z]]
 
-                    'a' : '}' : 'A' : 'i' : 'm' : n | not (null n)  ->  [[x], [reverse n, "miA}ap" ++ z]]
-                    'a' : '}' : 'A' : 'm' : n       | not (null n)  ->  [[x], [reverse n, "miA}ap" ++ z]]
-                    '}' : 'A' : 'i' : 'm' : n       | not (null n)  ->  [[x], [reverse n, "miA}ap" ++ z]]
-                    '}' : 'A' : 'm' : n             | not (null n)  ->  [[x], [reverse n, "miA}ap" ++ z]]
+                    'a' : '}' : 'A' : 'i' : 'm' : n | not (null n)  ->  [[reverse y ++ "p"], [reverse n, "miA}ap" ++ z]]
+                    'a' : '}' : 'A' : 'm' : n       | not (null n)  ->  [[reverse y ++ "p"], [reverse n, "miA}ap" ++ z]]
+                    '}' : 'A' : 'i' : 'm' : n       | not (null n)  ->  [[reverse y ++ "p"], [reverse n, "miA}ap" ++ z]]
+                    '}' : 'A' : 'm' : n             | not (null n)  ->  [[reverse y ++ "p"], [reverse n, "miA}ap" ++ z]]
 
-                    _                                               ->  [[x]]
+                    _                                               ->  [[reverse y ++ "p"]]
 
               tokens'''' x = case reverse x of
 
@@ -448,9 +452,9 @@ instance Resolve [UPoint] where
                     'y' : 'n' : []                  ->  [["nay"], ["niy"], ["nuy"]]
                     'y' : []                        ->  [["ya"], ["yi"], ["yu"]]
 
-                    'K' : 'p' : y                   ->  tokens''''' x y "K"
-                    'i' : 'p' : y                   ->  tokens''''' x y "i"
-                    'p' : y                         ->  tokens''''' x y ""
+                    'K' : 'p' : y                   ->  tokens''''' y "K"
+                    'i' : 'p' : y                   ->  tokens''''' y "i"
+                    'p' : y                         ->  tokens''''' y ""
 
                     _                               ->  [[x]]
 
@@ -486,8 +490,10 @@ instance Resolve [UPoint] where
                                                                     tokens' ("All" ++ y) ]
 
                     'l' : 'i' : y           ->  [ "li"  : y' | y' <- tokens' y ]
-                    'l' : 'a' : 'A' : y     ->  [ "laA" : y' | y' <- tokens' y ]
-                    'l' : 'A' : y           ->  [ "lA"  : y' | y' <- tokens' y ]
+                    'l' : 'a' : 'A' : y     ->  [ "la"  : y' | y' <- tokens' ("A" ++ y) ] ++
+                                                [ "laA" : y' | y' <- tokens' y ]
+                    'l' : 'A' : y           ->  [ "l"   : y' | y' <- tokens' ("A" ++ y) ] ++
+                                                [ "lA"  : y' | y' <- tokens' y ]
                     'l' : 'a' : y           ->  [ "la"  : y' | y' <- tokens' y ]
                     'l' : y                 ->  [ "l"   : y' | y' <- tokens' y ]
 
@@ -676,8 +682,6 @@ approx "y"  "I"  = True
 approx "y"  "Y"  = True
 approx "w"  "U"  = True
 approx "w"  "W"  = True
-approx "y"  "'"  = True
-approx "w"  "'"  = True
 approx _    _    = False
 
 
@@ -727,6 +731,8 @@ instance Fuzzy String where
 
     fuzzy "'" y | y `elem` ["'", "`", "a", "i", "u", "e", "o"] = True
     fuzzy "`" y | y `elem` ["`", "'", "a", "i", "u", "e", "o"] = True
+
+    fuzzy "'" y | y `elem` ["w", "y"] = True
 
     fuzzy ".s" y | y `elem` [".s", "s"] = True
     fuzzy ".d" y | y `elem` [".d", "d"] = True
@@ -780,22 +786,11 @@ alike' 0x0622 y | y > 0x0620 && y < 0x0628 = True
 alike' 0x0623 y | y > 0x0620 && y < 0x0628 = True
 alike' 0x0625 y | y > 0x0620 && y < 0x0628 = True
 
-{-
-alike' 0x0622 y | y `elem` [0x0622, 0x0627, 0x0623, 0x0625, 0x0621, 0x0624, 0x0626] = True
-alike' 0x0623 y | y `elem` [0x0623, 0x0627, 0x0625, 0x0622, 0x0621, 0x0624, 0x0626] = True
-alike' 0x0625 y | y `elem` [0x0625, 0x0627, 0x0623, 0x0622, 0x0621, 0x0624, 0x0626] = True
--}
-
 alike' 0x0627 y | y `elem` [0x0627, 0x0623, 0x0625, 0x0671] = True
 alike' 0x0671 y | y `elem` [0x0671, 0x0627, 0x0623, 0x0625] = True
 
-alike' 0x0624 y | y > 0x0622 && y < 0x0628 || y `elem` [0x0621,         0x0648] = True
-alike' 0x0626 y | y > 0x0622 && y < 0x0628 || y `elem` [0x0621, 0x0649, 0x064A] = True
-
-{-
-alike' 0x0624 y | y `elem` [0x0624, 0x0621, 0x0648,         0x0626, 0x0623, 0x0625, 0x0627] = True
-alike' 0x0626 y | y `elem` [0x0626, 0x0621, 0x0649, 0x064A, 0x0624, 0x0623, 0x0625, 0x0627] = True
--}
+alike' 0x0624 y | y > 0x0622 && y < 0x0628 || y == 0x0621 = True
+alike' 0x0626 y | y > 0x0622 && y < 0x0628 || y == 0x0621 = True
 
 alike' 0x0649 y | y `elem` [0x0649, 0x064A] = True
 alike' 0x064A y | y `elem` [0x064A, 0x0649] = True
@@ -806,6 +801,9 @@ alike' x y = x == y
 
 
 fuzzy' :: Int -> Int -> Bool
+
+fuzzy' 0x0624 y | y `elem` [0x0648, 0x0649, 0x064A] = True
+fuzzy' 0x0626 y | y `elem` [0x0648, 0x0649, 0x064A] = True
 
 fuzzy' 0x0635 y | y `elem` [0x0635, 0x0633] = True
 fuzzy' 0x0636 y | y `elem` [0x0636, 0x062F] = True

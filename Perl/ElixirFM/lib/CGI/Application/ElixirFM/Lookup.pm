@@ -13,8 +13,6 @@ use CGI::Application::ElixirFM;
 
 use CGI::Fast ':standard';
 
-use Benchmark;
-
 use ElixirFM;
 
 use Encode::Arabic::ArabTeX ':simple';
@@ -140,10 +138,6 @@ sub pretty_lookup_tree {
                                -title => "citation form"},           decode "zdmg", $info[5]),
                        $q->td({-class => "orth",
                                -title => "citation form"},           decode "arabtex", $info[5]),
-                       # $q->td({-class => "atex",
-                       #         -title => "citation form"},           $info[5]),
-                       # $q->td({-class => "root",
-                       #         -title => "root of citation form"},   $root),
                        $q->td({-class => "morphs",
                                -title => "morphs of citation form"}, ElixirFM::nice($info[0])),
                        $q->td({-class => "class",
@@ -152,8 +146,7 @@ sub pretty_lookup_tree {
                                -title => "inflectional stems"},      ElixirFM::nice($info[4])),
                        $q->td({-class => "reflex",
                                -title => "lexical reference"},       escape $info[3]),
-               # ),
-               # $q->Tr(
+
                        $q->td({-class => "button"},
                               $q->a({-title => "inflect this lexeme",
                                      -href => 'index.fcgi?mode=inflect' . '&clip=' . $clip}, "Inflect"),
