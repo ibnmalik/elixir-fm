@@ -1202,16 +1202,12 @@ cluster_86  = cluster
 
 cluster_87  = cluster
 
- |> ['\'','A','m','U','r'] <| [
-
-    _____ |< Iy               `adj`     {- <'AmUrIy> -}        [ ['A','m','o','r','i','t','e'] ] ]
-
  |> "' m r" <| [
 
     FaCaL                     `verb`    {- <'amar> -}          [ ['c','o','m','m','a','n','d'], ['o','r','d','e','r'], ['p','r','e','s','c','r','i','b','e'] ]
                               `imperf`     FCuL
-                              `second`     FCuL
-                              `second`     CuL,
+                              `second`     CuL
+                              `second`     FCuL,
 
     FaCCaL                    `verb`    {- <'ammar> -}         [ ['e','m','p','o','w','e','r'], ['a','u','t','h','o','r','i','z','e'] ],
 
@@ -1240,12 +1236,7 @@ cluster_87  = cluster
                               `plural`     FaCAL |< At
                               `plural`     FaCA'iL,
 
-    FaCIL                     `noun`    {- <'amIr> -}          [ ['E','m','i','r'] ]
-                              `plural`     FuCaLA'
-                           
-    `derives` otherwise,
-
-    FaCIL                     `noun`    {- <'amIr> -}          [ ['p','r','i','n','c','e'] ]
+    FaCIL                     `noun`    {- <'amIr> -}          [ ['E','m','i','r'], ['p','r','i','n','c','e'] ]
                               `plural`     FuCaLA'
                            
     `derives` otherwise,
@@ -1286,8 +1277,14 @@ cluster_87  = cluster
     MuFtaCaL                  `noun`    {- <mu'tamar> -}       [ ['c','o','n','f','e','r','e','n','c','e'], ['c','o','n','v','e','n','t','i','o','n'] ]
                               `plural`     MuFtaCaL |< At,
 
-    MuFtaCiL                  `noun`    {- <mu'tamir> -}       [ unwords [ ['c','o','n','f','e','r','e','n','c','e'], ['p','a','r','t','i','c','i','p','a','n','t','s'] ], ['c','o','n','f','e','r','e','e','s'] ]
-                              `plural`     MuFtaCiL |< Un ]
+    MuFtaCiL                  `noun`    {- <mu'tamir> -}       [ unwords [ ['c','o','n','f','e','r','e','n','c','e'], ['p','a','r','t','i','c','i','p','a','n','t'] ], ['c','o','n','f','e','r','e','e'] ]
+                              `plural`     MuFtaCiL |< Un
+                           
+    `derives` otherwise ]
+
+ |> ['\'','A','m','U','r'] <| [
+
+    _____ |< Iy               `adj`     {- <'AmUrIy> -}        [ ['A','m','o','r','i','t','e'] ] ]
 
 
 cluster_88  = cluster

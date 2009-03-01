@@ -80,7 +80,7 @@ sub pretty_resolve_tree {
 
                 } @{$_->{'node'}} ] ))
 
-                } @data ] );
+                } @data ]);
 }
 
 sub pretty_resolve_data {
@@ -129,14 +129,11 @@ sub pretty_resolve_lexeme {
 
     my @ents = ();
 
-    ($ents[0]) = $info[1] =~ /\<imperf\>([^\<]*)\</g;
-    ($ents[1]) = $info[1] =~ /\<pfirst\>([^\<]*)\</g;
-    ($ents[2]) = $info[1] =~ /\<second\>([^\<]*)\</g;
+    ($ents[0]) = $info[1] =~ /\<imperf\>\s*(.*?)\s*\<\/imperf\>/s;
+    ($ents[1]) = $info[1] =~ /\<pfirst\>\s*(.*?)\s*\<\/pfirst\>/s;
+    ($ents[2]) = $info[1] =~ /\<second\>\s*(.*?)\s*\<\/second\>/s;
 
-    $ents[1] = '' if defined $ents[0] and defined $ents[1] and lc $ents[0] eq lc $ents[1];
-
-
-    $info[1] = join " ", grep { defined $_ and $_ ne '' } @ents;
+    $info[1] = join " ", grep { not /^\s*$/ } map { split /\<\/?LM\>/, $_ } grep { defined $_ } @ents;
 
     $info[2] = substr $info[2], 1, -1;
     $info[2] =~ s/\",\"/\", \"/g;
@@ -186,8 +183,6 @@ sub pretty_resolve_tokens {
     my @info = @{$_[0]};
 
     my $q = $_[1];
-
-    $info[-2] = substr $info[-2], 1, -1;
 
     return join $",
 

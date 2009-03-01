@@ -19,7 +19,7 @@ description:        The "ElixirFM" library implements a computational model of t
                     Charles University in Prague, July 2007,
                     <http://ufal.mff.cuni.cz/~smrz/elixir-thesis.pdf>.
                     The complete project is hosted on <http://sourceforge.net/projects/elixir-fm/>
-                    and the code is documented on <http://ufal.mff.cuni.cz/~smrz/ElixirFM/>.
+                    and an online interface is available via <http://quest.ms.mff.cuni.cz/elixir/>.
                     .
                     /ElixirFM/ is inspired by and can directly extend the /Functional Morphology/
                     library developed by Markus Forsberg in his licenciate thesis

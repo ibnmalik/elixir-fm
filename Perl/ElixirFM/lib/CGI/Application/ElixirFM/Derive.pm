@@ -33,13 +33,9 @@ sub pretty ($$$) {
 
     my $r = '';
 
-    $r .= $q->p({-class => 'notice'}, 'The numbers of input and output words are not equal! ' . (scalar @text) . " <> " . (scalar @word)) unless @text == @word;
+    for (my $i; $i < @text; $i++) {
 
-    for (my $i; $i < @word; $i++) {
-
-        $r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($text[$i], $q));
-
-        $r .= $q->table({-cellspacing => 0}, "\n", map { pretty_derive_list($_, $q) } @{$word[$i]});
+        $r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($text[$i], $q, \@word));
     }
 
     return $r;
@@ -127,6 +123,10 @@ sub pretty_lookup_tree {
 
     my $root = join " ", (decode "zdmg", $data->{'root'}), (decode "arabtex", ElixirFM::cling($data->{'root'}));
 
+    my $word = shift @{$_[2]};
+
+    join $",
+
         $q->table({-cellspacing => 0, -class => "lexeme"},
                 $q->Tr($q->td({-class => "xtag",
                                -title => ElixirFM::describe($xtag)}, $xtag),
@@ -134,8 +134,6 @@ sub pretty_lookup_tree {
                                -title => "citation form"},           decode "zdmg", $info[5]),
                        $q->td({-class => "orth",
                                -title => "citation form"},           decode "arabtex", $info[5]),
-                       # $q->td({-class => "atex",
-                       #         -title => "citation form"},           $info[5]),
                        $q->td({-class => "root",
                                -title => "root of citation form"},   $root),
                        $q->td({-class => "morphs",
@@ -146,8 +144,7 @@ sub pretty_lookup_tree {
                                -title => "inflectional stems"},      ElixirFM::nice($info[4])),
                        $q->td({-class => "reflex",
                                -title => "lexical reference"},       escape $info[3]),
-               # ),
-               # $q->Tr(
+
                        $q->td({-class => "button"},
                               $q->a({-title => "inflect this lexeme",
                                      -href => 'index.fcgi?mode=inflect' . '&clip=' . $clip}, "Inflect"),
@@ -156,6 +153,8 @@ sub pretty_lookup_tree {
                               $q->a({-title => "lookup in the lexicon",
                                      -href => 'index.fcgi?mode=lookup' . '&clip=' . $clip}, "Lookup")),
 		    )),
+
+        $q->ul($q->li($q->table({-cellspacing => 0}, "\n", map { pretty_derive_list($_, $q) } @{$word})))
 
 			} 0 .. @{$_->{'ents'}} - 1 ] ))
 
@@ -183,10 +182,6 @@ sub pretty_derive_list {
                    -title => "derived form"},               decode "zdmg",    $data[2]),
 		   $q->td({-class => "orth",
                    -title => "derived form"},               decode "arabtex", $data[2]),
-		   # $q->td({-class => "atex",
-           #         -title => "derived form"},             $data[2]),
-		   # $q->td({-class => "root",
-           #         -title => "root of derived form"},       decode "zdmg", $data[3]),
 		   $q->td({-class => "morphs",
                    -title => "morphs of derived form"},     ElixirFM::nice($data[4])),
            $q->td({-class => "dtag",
@@ -301,7 +296,7 @@ sub main ($) {
 
     $text = join ' ', ElixirFM::retrieve($text);
 
-    my @clip = $q->param('clip') =~ /(\( *-? *[1-9][0-9]* *, *-? *[1-9][0-9]* *\))/g;
+    my @clip = $q->param('clip') =~ /(\( *-? *[1-9][0-9]* *, *(?:-? *[1-9][0-9]*|Nothing|Just *\[ *-? *[1-9][0-9]* *(?:\, *-? *[1-9][0-9]* *)*\]) *\))/g;
 
     unless ($memoize and exists $memoize{$mode} and defined $memoize{$mode}[0]) {
 

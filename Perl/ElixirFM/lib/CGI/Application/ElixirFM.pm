@@ -131,6 +131,10 @@ sub normalize ($$) {
 
         $text = Unicode::Normalize::normalize('D', $text);
 
+        $text =~ s/\x{0061}[\x{0304}\x{0301}]/A/g;
+        $text =~ s/\x{0069}[\x{0304}\x{0301}]/I/g;
+        $text =~ s/\x{0075}[\x{0304}\x{0301}]/U/g;
+
         $text =~ s/aa/A/g;
         $text =~ s/ii/I/g;
         $text =~ s/uu/U/g;
@@ -147,10 +151,6 @@ sub normalize ($$) {
 
         $text =~ s/\x{02BE}/\'/g;
         $text =~ s/\x{02BF}/\`/g;
-
-        $text =~ s/\x{0061}\x{0304}/A/g;
-        $text =~ s/\x{0069}\x{0304}/I/g;
-        $text =~ s/\x{0075}\x{0304}/U/g;
 
         @data = $text =~ /( (?: \.[hsdtzgr] | \_[thdaIU] | \^[gscznl] | \,[c] | ['btdrzs`fqklmnhwyTaiuAIUYNW|"-] )+ )/gx;
     }

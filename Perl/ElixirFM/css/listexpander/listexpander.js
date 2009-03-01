@@ -25,7 +25,9 @@ this.listexpander = function(){
     var expandMax = mode == 'resolve' ? 4 : 3;
     var expandMin = 1;
 
-    var expandInit = expandMax - 1;
+    var expandInit = expandMax;
+
+    if (mode == 'resolve' || mode == 'lookup') expandInit--;
 
     this.start = function(){
         var ul = document.getElementsByTagName("ul");
@@ -70,7 +72,7 @@ this.listexpander = function(){
         var p = document.createElement("p");
         p.className = listClass;
 
-        if (mode == 'resolve') {
+        if (mode == 'resolve' || mode == 'inflect') {
 
             var i = document.createElement("input");
             i.type = 'text';
@@ -100,7 +102,7 @@ this.listexpander = function(){
 
             if (shows) {
 
-                i.value = 'X Y acronym';
+                i.value = 'X foreign Y acronym';
                 exclude(list, i);
 
                 var hides = true;
@@ -226,10 +228,13 @@ this.listexpander = function(){
 
         var lines = table.rows;
         var shows = false;
+        var hides = false;
 
         for (var i = 0; i < lines.length; i++) {
 
             var items = lines[i].cells;
+
+            var empty = true;
 
             var xr = false;
             var dr = false;
@@ -238,7 +243,15 @@ this.listexpander = function(){
 
                 if (items[j].className == 'xtag') {
 
-                    var xtag = items[j].firstChild.nodeValue;
+                    var xtag = items[j].firstChild;
+
+                    if (xtag == undefined) continue;
+
+                    xtag = xtag.nodeValue;
+
+                    if (xtag == '          ') continue;
+
+                    empty = false;
 
                     for (var w = 0; w < words.length; w++) {
 
@@ -249,7 +262,11 @@ this.listexpander = function(){
                 }
                 if (items[j].className == 'dtag') {
 
-                    var dtag = items[j].firstChild.nodeValue.split(/[ ,/]+/);
+                    var dtag = items[j].firstChild;
+
+                    if (dtag == undefined) continue;
+
+                    dtag = dtag.nodeValue.split(/[ ,/]+/);
 
                     for (var w = 0; w < words.length; w++) {
 
@@ -257,15 +274,21 @@ this.listexpander = function(){
 
                         for (var d = 0; d < dtag.length; d++) {
 
+                            if (dtag[d] == '') continue;
+
+                            empty = false;
+
                             dr = dr || dtag[d].indexOf(words[w]) == 0;
                         }
                     }
                 }
             }
 
-            lines[i].style.display = xr || dr ? "none" : "table-row";
+            hides = empty ? hides : (xr || dr);
 
-            shows = shows || ! (xr || dr);
+            lines[i].style.display = hides ? "none" : "table-row";
+
+            shows = shows || ! hides;
         }
 
         return shows;

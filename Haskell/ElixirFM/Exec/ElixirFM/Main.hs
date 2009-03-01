@@ -154,7 +154,9 @@ elixirInflect o p = interact (unlines . map (show . q) . map words . onlines)
 
     where q x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (inflect (Lexeme r e) x) | e <- z ]) w ]
 
-          i = [ z | x <- p, (y, _) <- reads x, z <- lookupIndex y lexicon ]
+          c x = [ y | (y, _) <- reads x ] ++ [ (i, Just [j]) | ((i, j), _) <- reads x ]
+
+          i = [ z | x <- p, y <- c x, z <- lookupClips y lexicon ]
 
 
 elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) . onlines)
@@ -190,7 +192,9 @@ elixirDerive o p = interact (unlines . map (show . q) . map words . onlines)
 
     where q x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (derive (Lexeme r e) x) | e <- z ]) w ]
 
-          i = [ z | x <- p, (y, _) <- reads x, z <- lookupIndex y lexicon ]
+          c x = [ y | (y, _) <- reads x ] ++ [ (i, Just [j]) | ((i, j), _) <- reads x ]
+
+          i = [ z | x <- p, y <- c x, z <- lookupClips y lexicon ]
 
 
 elixirCompose o p = (putDoc . generate e) lexicon
