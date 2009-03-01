@@ -225,6 +225,8 @@ sub main ($) {
                     [ 'Unicode',    decode "buckwalter", "Aldrs AlOwl" ],
                     [ 'Unicode',    decode "buckwalter", "AhlA wshlA" ] );
 
+    my $memoize = '';
+
     if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
 
         my $idx = rand @example;
@@ -232,8 +234,8 @@ sub main ($) {
         $q->param('text', $example[$idx][1]);
         $q->param('code', $example[$idx][0]);
 
-        $q->param('fuzzy', rand 1 < 0.5 ? 'Fuzzy Notation' : '');
-        $q->param('token', rand 1 < 0.5 ? 'Tokenized' : '');
+        $q->param('fuzzy', '');
+        $q->param('token', '');
     }
     else {
 
@@ -257,6 +259,8 @@ sub main ($) {
 
             $q->param('fuzzy', '');
             $q->param('token', '');
+
+            $memoize = 'yes';
         }
     }
 
@@ -343,31 +347,48 @@ sub main ($) {
 
     $q->param('text', $text);
 
-    open T, '>', "$mode/index.$$.$session.tmp";
+    unless ($memoize and exists $memoize{$mode}) {
 
-    print T encode "utf8", $text;
+        open T, '>', "$mode/index.$$.$session.tmp";
 
-    close T;
+        print T encode "utf8", $text;
+
+        close T;
+    }
 
     my $fuzzy = $q->param('fuzzy') ? '--fuzzy' : '';
 
     my $token = $q->param('token') ? '--token' : '';
 
-    my $reply = `$elixir $mode $fuzzy $token $code < $mode/index.$$.$session.tmp`;
+    my $reply = "$elixir $mode $fuzzy $token $code < $mode/index.$$.$session.tmp";
+
+    if ($memoize) {
+
+        $memoize{$mode} = `$reply` unless exists $memoize{$mode};
+
+        $reply = $memoize{$mode};
+    }
+    else {
+
+        $reply = `$reply`;
+    }
 
     $r .= pretty $reply, $mode, $q;
 
-    open L, '>>', "$mode/index.log";
+    unless ($memoize and exists $memoize{$mode}) {
 
-    print L join "\t", gmtime() . "", $code,
-                       ($q->param('fuzzy') ? 'F' : 'A'),
-                       ($q->param('token') ? 'T' : 'N'),
-                       ($reply =~ /^\s*$/ ? '--' : '++'),
-                       encode "utf8", $q->param('text') . "\n";
+        open L, '>>', "$mode/index.log";
 
-    close L;
+        print L join "\t", gmtime() . "", $code,
+                           ($q->param('fuzzy') ? 'F' : 'A'),
+                           ($q->param('token') ? 'T' : 'N'),
+                           ($reply =~ /^\s*$/ ? '--' : '++'),
+                           encode "utf8", $q->param('text') . "\n";
 
-    unlink "$mode/index.$$.$session.tmp";
+        close L;
+
+        unlink "$mode/index.$$.$session.tmp";
+    }
 
     $r .= display_footline $c;
 

@@ -178,6 +178,8 @@ sub main ($) {
     my @example = ( [ 'Unicode',    join " ", "school", decode "buckwalter", "drs k t b" ],
                     [ 'ArabTeX',    "qAmUs 'lktrny ^g d d" ] );
 
+    my $memoize = '';
+
     if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
 
         my $idx = rand @example;
@@ -202,6 +204,8 @@ sub main ($) {
 
             $q->param('text', $example[0][1]);
             $q->param('code', $example[0][0]);
+
+            $memoize = 'yes';
         }
     }
 
@@ -312,25 +316,42 @@ sub main ($) {
 
     $q->param('text', $text);
 
-    open T, '>', "$mode/index.$$.$session.tmp";
+    unless ($memoize and exists $memoize{$mode}) {
 
-    print T encode "utf8", $text;
+        open T, '>', "$mode/index.$$.$session.tmp";
 
-    close T;
+        print T encode "utf8", $text;
 
-    my $reply = `$elixir $mode $code < $mode/index.$$.$session.tmp`;
+        close T;
+    }
+
+    my $reply = "$elixir $mode $code < $mode/index.$$.$session.tmp";
+
+    if ($memoize) {
+
+        $memoize{$mode} = `$reply` unless exists $memoize{$mode};
+
+        $reply = $memoize{$mode};
+    }
+    else {
+
+        $reply = `$reply`;
+    }
 
     $r .= pretty $reply, $mode, $q;
 
-    open L, '>>', "$mode/index.log";
+    unless ($memoize and exists $memoize{$mode}) {
 
-    print L join "\t", gmtime() . "", $code,
-                       ($reply =~ /^\s*$/ ? '--' : '++'),
-                       encode "utf8", (join "\t", split "\n", $q->param('text')) . "\n";
+        open L, '>>', "$mode/index.log";
 
-    close L;
+        print L join "\t", gmtime() . "", $code,
+                           ($reply =~ /^\s*$/ ? '--' : '++'),
+                           encode "utf8", (join "\t", split "\n", $q->param('text')) . "\n";
 
-    unlink "$mode/index.$$.$session.tmp";
+        close L;
+
+        unlink "$mode/index.$$.$session.tmp";
+    }
 
     $r .= display_footline $c;
 

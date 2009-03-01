@@ -873,7 +873,7 @@ cluster_51  = cluster
     FaCY                      `verb`    {- <kadY> -}           [ unwords [ ['b','e'], ['s','t','i','n','g','y'] ], ['s','k','i','m','p'] ]
                               `imperf`     FCI,
 
-    FaCCY                     `verb`    {- <kaddY> -}          [ ['b','e','g'], unwords [ ['b','e'], ['b','e','g','g','e','d'] ] ],
+    FaCCY                     `verb`    {- <kaddY> -}          [ ['b','e','g'] ],
 
     HaFCY                     `verb`    {- <'akdY> -}          [ unwords [ ['g','i','v','e'], ['l','i','t','t','l','e'] ], ['s','k','i','m','p'] ],
 

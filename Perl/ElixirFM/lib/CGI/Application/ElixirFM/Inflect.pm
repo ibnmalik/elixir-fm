@@ -212,6 +212,8 @@ sub main ($) {
                     [ '(1319,3) (5356,14)',     'ind sub jus indf red def'                                      ],
                     [ '(1319,3) (5356,14)',     '--[ISJ]------[IRD]'                                            ] );
 
+    my $memoize = '';
+
     if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
 
         my $idx = rand @example;
@@ -239,6 +241,8 @@ sub main ($) {
         else {
 
             $q->param('clip', $example[0][0]);
+
+            $memoize = 'yes';
         }
     }
 
@@ -291,35 +295,66 @@ sub main ($) {
 
     my @clip = $q->param('clip') =~ /(\( *-? *[1-9][0-9]* *, *-? *[1-9][0-9]* *\))/g;
 
-    open T, '>', "$mode/index.$$.$session.tmp";
+    unless ($memoize and exists $memoize{$mode} and defined $memoize{$mode}[0]) {
 
-    print T join "\n", @clip;
+        open T, '>', "$mode/index.$$.$session.tmp";
 
-    close T;
+        print T join "\n", @clip;
 
-    my $early = `$elixir lookup < $mode/index.$$.$session.tmp`;
+        close T;
+    }
 
-    open T, '>', "$mode/index.$$.$session.tmp";
+    my $early = "$elixir lookup < $mode/index.$$.$session.tmp";
 
-    print T encode "utf8", $text;
+    if ($memoize) {
 
-    close T;
+        $memoize{$mode}[0] = `$early` unless exists $memoize{$mode} and defined $memoize{$mode}[0];
+
+        $early = $memoize{$mode}[0];
+    }
+    else {
+
+        $early = `$early`;
+    }
+
+    unless ($memoize and exists $memoize{$mode} and defined $memoize{$mode}[1]) {
+
+        open T, '>', "$mode/index.$$.$session.tmp";
+
+        print T encode "utf8", $text;
+
+        close T;
+    }
 
     @clip = map { "'" . (join "", split " ", $_) . "'" } @clip;
 
-    my $reply = `$elixir $mode @clip < $mode/index.$$.$session.tmp`;
+    my $reply = "$elixir $mode @clip < $mode/index.$$.$session.tmp";
+
+    if ($memoize) {
+
+        $memoize{$mode}[1] = `$reply` unless exists $memoize{$mode} and defined $memoize{$mode}[1];
+
+        $reply = $memoize{$mode}[1];
+    }
+    else {
+
+        $reply = `$reply`;
+    }
 
     $r .= pretty $reply, $early, $q;
 
-    open L, '>>', "$mode/index.log";
+    unless ($memoize and exists $memoize{$mode}) {
 
-    print L join "\t", gmtime() . "", (join " ", @clip),
-                       ($reply =~ /^\s*$/ ? '--' : '++'),
-                       encode "utf8", $q->param('text') . "\n";
+        open L, '>>', "$mode/index.log";
 
-    close L;
+        print L join "\t", gmtime() . "", (join " ", @clip),
+                           ($reply =~ /^\s*$/ ? '--' : '++'),
+                           encode "utf8", $q->param('text') . "\n";
 
-    unlink "$mode/index.$$.$session.tmp";
+        close L;
+
+        unlink "$mode/index.$$.$session.tmp";
+    }
 
     $r .= display_footline $c;
 

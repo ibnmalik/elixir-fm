@@ -19,23 +19,24 @@ use base 'Exporter';
 
 our @EXPORT = (qw 'display_header display_headline display_welcome display_footline display_footer',
                qw 'escape revert normalize',
-               qw '$elixir $session @modes %enc_hash @enc_list');
+               qw '$elixir @modes %memoize $session %enc_hash @enc_list');
 
 use strict;
 
+
+our $elixir = './elixir';
+
+our @modes = qw 'home resolve inflect derive lookup';
+
+our %memoize = ();
+
+our $session;
 
 our %enc_hash = (   'ArabTeX'       =>      'TeX',
                     'Buckwalter'    =>      'Tim',
                     'Unicode'       =>      'UTF'   );
 
 our @enc_list = reverse sort keys %enc_hash;
-
-our @modes = qw 'home resolve inflect derive lookup';
-
-our $elixir = './elixir';
-
-
-our $session;
 
 
 sub setup {
@@ -276,14 +277,6 @@ sub show_param ($@) {
     my $q = shift;
 
     return join '', map { '&' . $_ . '=' . $q->param($_) } @_;
-}
-
-
-sub fuzzy_fixes {
-
-    my $text = shift;
-
-    $text =~ s/(?<=[aiuAIUeoEO])sh//g;
 }
 
 

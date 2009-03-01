@@ -83,6 +83,39 @@ this.listexpander = function(){
             a.onclick = function(){exclude(list, i)};
             a.className = 'exclude';
             p.appendChild(a);
+
+            var items = list.getElementsByTagName("li");
+
+            var shows = false;
+
+            for (var j = 0; j < items.length; j++) {
+
+                if (items[j].parentNode.level == expandMax - 1) {
+
+                    var xtag = items[j].getElementsByTagName("td")[0];
+
+                    if (xtag.firstChild.nodeValue.match(/[XY]/)) shows = true;
+                }
+            }
+
+            if (shows) {
+
+                i.value = 'X Y acronym';
+                exclude(list, i);
+
+                var hides = true;
+
+                for (var j = 0; j < items.length; j++) {
+
+                    if (items[j].style.display == 'block') hides = false;
+                }
+
+                if (hides) {
+
+                    i.value = '';
+                    exclude(list, i);
+                }
+            }
         }
 
         var a = document.createElement("a");
@@ -122,7 +155,7 @@ this.listexpander = function(){
 
                 var table = items[i].getElementsByTagName("table");
 
-                if (table.length < 1) break;
+                if (table.length < 1) continue;
 
                 var shows = prune(table[0], words);
 
@@ -148,7 +181,7 @@ this.listexpander = function(){
 
                     while (root.nodeName != "LI") {
 
-                    root = root.parentNode;
+                        root = root.parentNode;
                     }
 
                     root.style.display = 'block';
