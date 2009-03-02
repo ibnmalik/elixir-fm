@@ -2,14 +2,14 @@ bin/elixir-compose.pl
 bin/elixir-resolve.pl
 Build.PL
 # Changes
-# cgi/elixir/index.fcgi
-# css/elixir.css
-# css/elixir.js
-# css/listexpander/collapsed.gif
-# css/listexpander/empty.gif
-# css/listexpander/expanded.gif
-# css/listexpander/listexpander.css
-# css/listexpander/listexpander.js
+cgi/elixir/index.fcgi
+css/elixir.css
+css/elixir.js
+css/listexpander/collapsed.gif
+css/listexpander/empty.gif
+css/listexpander/expanded.gif
+css/listexpander/listexpander.css
+css/listexpander/listexpander.js
 LICENSE
 lib/CGI/Application/ElixirFM.pm
 lib/CGI/Application/ElixirFM/Derive.pm
@@ -23,7 +23,7 @@ lib/MorphoMap.pm
 MANIFEST
 META.yml
 README
-t/00-load.t
-t/boilerplate.t
-t/pod-coverage.t
-t/pod.t
+# t/00-load.t
+# t/boilerplate.t
+# t/pod-coverage.t
+# t/pod.t

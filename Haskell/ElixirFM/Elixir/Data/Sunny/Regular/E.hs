@@ -1168,7 +1168,7 @@ cluster_58  = cluster
 
     FaCAL |< aT               `noun`    {- <ra.dA`aT> -}       [ unwords [ ['b','r','e','a','s','t'], "-", ['f','e','e','d','i','n','g'] ], ['s','u','c','k','i','n','g'] ],
 
-    FaCIL                     `adj`     {- <ra.dI`> -}         [ unwords [ ['b','r','e','a','s','t'], "-", ['f','e','e','d','i','n','g'], ['i','n','f','a','n','t'] ], unwords [ ['f','o','s','t','e','r'], ['c','h','i','l','d'] ], unwords [ ['f','o','s','t','e','r'], ['c','h','i','l','d','r','e','n'] ] ]
+    FaCIL                     `adj`     {- <ra.dI`> -}         [ unwords [ ['b','r','e','a','s','t'], "-", ['f','e','e','d','i','n','g'], ['i','n','f','a','n','t'] ], unwords [ ['f','o','s','t','e','r'], ['c','h','i','l','d'] ] ]
                               `plural`     FuCaLA'
                               `plural`     FuCCaL,
 

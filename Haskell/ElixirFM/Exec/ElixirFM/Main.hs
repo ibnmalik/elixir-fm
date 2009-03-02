@@ -26,11 +26,11 @@ import Elixir.Lexicon
 import Elixir.System
 import Elixir.Pretty
 
-import Elixir.Derive
-import Elixir.Lookup
-
-import Elixir.Inflect
 import Elixir.Resolve
+import Elixir.Inflect
+
+import Elixir.Lookup
+import Elixir.Derive
 
 import Elixir.Compose
 
