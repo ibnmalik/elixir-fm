@@ -168,8 +168,8 @@ sub display_header ($) {
     $q->charset('utf-8');
 
     $r .= $q->start_html(-title  => "ElixirFM 1.1 Online Interface", -encoding => $q->charset(),
-                         -meta   => { -keywords => join ' ', 'Arabic morphological analyzer analysis generator generation',
-                                                             'morphology lexicon dictionary lookup inflection derivation rules grammar language' },
+                         -meta   => { 'keywords' => join ' ', 'Arabic morphological analyzer analysis generator generation',
+                                                              'morphology lexicon dictionary lookup inflection derivation rules grammar language' },
                          -style  => [ {-src => 'http://quest.ms.mff.cuni.cz/elixir/elixir.css', -type => 'text/css'},
                                       {-src => 'http://quest.ms.mff.cuni.cz/elixir/listexpander/listexpander.css', -type => 'text/css'} ],
                          -script => [ {-src => 'http://quest.ms.mff.cuni.cz/elixir/elixir.js', -type => 'text/javascript'},

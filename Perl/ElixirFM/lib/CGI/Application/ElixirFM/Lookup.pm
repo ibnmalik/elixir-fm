@@ -351,6 +351,8 @@ sub main ($) {
 
             $text = substr $text, length $data;
 
+            $data =~ tr[\(\)\/\-][ ];
+
             $data =~ s/ +$//;
         }
 

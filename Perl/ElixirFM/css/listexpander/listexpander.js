@@ -77,6 +77,7 @@ this.listexpander = function(){
             var i = document.createElement("input");
             i.type = 'text';
             i.name = 'exclude';
+            i.title = 'type in tags or parameter values';
             i.onkeyup = function(){exclude(list, i)};
             i.className = 'exclude';
             p.appendChild(i);
@@ -286,7 +287,7 @@ this.listexpander = function(){
 
             hides = empty ? hides : (xr || dr);
 
-            lines[i].style.display = hides ? "none" : "table-row";
+            lines[i].style.display = hides ? "none" : "";
 
             shows = shows || ! hides;
         }
