@@ -115,6 +115,7 @@ sub normalize ($$) {
         $text =~ tr[\x{06CC}][\x{064A}];
         $text =~ tr[\x{0640}][]d;
 
+        $text =~ s/([\x{064B}-\x{0650}\x{0652}\x{0670}])\x{0651}/\x{0651}$1/g;
         $text =~ s/([\x{0627}\x{0649}])\x{064B}/\x{064B}$1/g;
 
         @data = $text =~ /( (?: \p{Arabic} | [\x{064B}-\x{0652}\x{0670}\x{0657}\x{0656}\x{0640}] )+ )/gx;
@@ -123,6 +124,7 @@ sub normalize ($$) {
 
         $text =~ tr[_][]d;
 
+        $text =~ s/([FNKauio\`])\~/\~$1/g;
         $text =~ s/([AY])F/F$1/g;
 
         @data = $text =~ /( [OWI\>\&\<\'\|\}AbptvjHxd\*rzs\$SDTZEgfqklmnhwYyPJRVG\{A\~FNKaui\`o]+ )/gx;
@@ -339,7 +341,7 @@ sub main ($) {
     $r .= $q->p("This mode can lookup lexical entries by the citation form and nests of entries by the root,",
                 "and lets you search also in the English translations.");
 
-    $r .= $q->p("You can try enclosing the text in quotes if needed.");
+    $r .= $q->p("You can try enclosing the text in quotes or parentheses if needed.");
 
 
     $r .= display_footline $c;

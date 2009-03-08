@@ -1327,12 +1327,12 @@ cluster_62  = cluster
     FaCCA'                    `noun`    {- <saqqA'> -}         [ unwords [ ['w','a','t','e','r'], ['c','a','r','r','i','e','r'] ] ]
                               `plural`     FaCCA' |< Un,
 
-    FaCY                      `verb`    {- <saqY> -}           [ unwords [ ['g','i','v','e'], ['t','o'], ['d','r','i','n','k'] ], ['i','r','r','i','g','a','t','e'], unwords [ ['b','e'], ['g','i','v','e','n'], ['t','o'], ['d','r','i','n','k'] ] ]
+    FaCY                      `verb`    {- <saqY> -}           [ unwords [ ['g','i','v','e'], ['t','o'], ['d','r','i','n','k'] ], ['i','r','r','i','g','a','t','e'] ]
                               `imperf`     FCI,
 
-    FACY                      `verb`    {- <sAqY> -}           [ unwords [ ['g','i','v','e'], ['t','o'], ['d','r','i','n','k'] ], unwords [ ['b','e'], ['g','i','v','e','n'], ['t','o'], ['d','r','i','n','k'] ] ],
+    FACY                      `verb`    {- <sAqY> -}           [ unwords [ ['g','i','v','e'], ['t','o'], ['d','r','i','n','k'] ] ],
 
-    HaFCY                     `verb`    {- <'asqY> -}          [ unwords [ ['g','i','v','e'], ['t','o'], ['d','r','i','n','k'] ], ['i','r','r','i','g','a','t','e'], unwords [ ['b','e'], ['g','i','v','e','n'], ['t','o'], ['d','r','i','n','k'] ] ],
+    HaFCY                     `verb`    {- <'asqY> -}          [ unwords [ ['g','i','v','e'], ['t','o'], ['d','r','i','n','k'] ], ['i','r','r','i','g','a','t','e'] ],
 
     IFtaCY                    `verb`    {- <istaqY> -}         [ unwords [ ['d','r','a','w'], ['w','a','t','e','r'] ], unwords [ ['d','r','a','w'], ['i','n','f','o','r','m','a','t','i','o','n'] ] ],
 

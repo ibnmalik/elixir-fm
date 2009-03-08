@@ -418,7 +418,7 @@ cluster_31  = cluster
     FaCL                      `noun`    {- <kalb> -}           [ ['d','o','g'] ]
                               `plural`     FiCAL,
 
-    FaCL |< aT                `noun`    {- <kalbaT> -}         [ unwords [ ['b','i','t','c','h'], "(", ['d','o','g'], ")" ], unwords [ ['b','i','t','c','h','e','s'], "(", ['d','o','g','s'], ")" ] ]
+    FaCL |< aT                `noun`    {- <kalbaT> -}         [ unwords [ ['b','i','t','c','h'], "(", ['d','o','g'], ")" ] ]
                               `plural`     FaCaL |< At,
 
     FaCL |< Iy                `adj`     {- <kalbIy> -}         [ ['c','a','n','i','n','e'] ],

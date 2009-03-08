@@ -731,7 +731,7 @@ cluster_20  = cluster
 
     FaCIL                     `noun`    {- <naqIr> -}          [ unwords [ ['w','o','r','t','h','l','e','s','s'], ['t','h','i','n','g'] ] ],
 
-    FaCIL |< aT               `noun`    {- <naqIraT> -}        [ unwords [ ['c','o','r','v','e','t','t','e'], "(", ['s','m','a','l','l'], ['w','a','r','s','h','i','p'], ")" ], unwords [ ['c','o','r','v','e','t','t','e','s'], "(", ['s','m','a','l','l'], ['w','a','r','s','h','i','p','s'], ")" ] ]
+    FaCIL |< aT               `noun`    {- <naqIraT> -}        [ unwords [ ['c','o','r','v','e','t','t','e'], "(", ['s','m','a','l','l'], ['w','a','r','s','h','i','p'], ")" ] ]
                               `plural`     FaCA'iL,
 
     FaCCAL |< aT              `noun`    {- <naqqAraT> -}       [ ['d','r','u','m'] ],

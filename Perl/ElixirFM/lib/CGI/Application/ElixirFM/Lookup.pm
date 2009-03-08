@@ -259,7 +259,7 @@ sub main ($) {
     $r .= $q->p("ElixirFM can lookup lexical entries by the citation form and nests of entries by the root.",
                 "You can even search the dictionary using English.");
 
-    $r .= $q->p("You can try enclosing the text in quotes if needed.");
+    $r .= $q->p("You can try enclosing the text in quotes or parentheses if needed.");
 
     $r .= $q->h2('Your Request');
 
@@ -347,7 +347,7 @@ sub main ($) {
 
             $data = normalize $data, $code;
         }
-        elsif (($data) = $text =~ /^(.[^\(\"\p{InArabic}]*)/) {
+        elsif (($data) = $text =~ /^(.[^\(\)\"\p{InArabic}]*)/) {
 
             $text = substr $text, length $data;
 

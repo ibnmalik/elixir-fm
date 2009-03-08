@@ -870,7 +870,7 @@ cluster_41  = cluster
 
  |> ".h _d f r" <| [
 
-    KiRDAS                    `noun`    {- <.hi_dfAr> -}       [ ['s','i','d','e'], ['e','n','t','i','r','e','t','y'], unwords [ ['e','n','t','i','r','e','l','y'], "(", ['a','l','l'], ['o','f'], ['_','_'], ")" ] ]
+    KiRDAS                    `noun`    {- <.hi_dfAr> -}       [ ['s','i','d','e'], ['e','n','t','i','r','e','t','y'] ]
                               `plural`     KuRDUS
                               `plural`     KaRADIS ]
 
@@ -936,7 +936,7 @@ cluster_44  = cluster
                               `plural`     FaCALIy
                               `plural`     FaCALI,
 
-    MiFCAL                    `noun`    {- <mi.hrAb> -}        [ unwords [ ['m','i','h','r','a','b'], "(", ['p','r','a','y','e','r'], ['n','i','c','h','e'], ")" ], ['s','a','n','c','t','u','m'], unwords [ ['m','i','h','r','a','b','s'], "(", ['p','r','a','y','e','r'], ['n','i','c','h','e','s'], ")" ] ]
+    MiFCAL                    `noun`    {- <mi.hrAb> -}        [ unwords [ ['m','i','h','r','a','b'], "(", ['p','r','a','y','e','r'], ['n','i','c','h','e'], ")" ], ['s','a','n','c','t','u','m'] ]
                               `plural`     MaFACiL,
 
     MuFACaL |< aT             `noun`    {- <mu.hArabaT> -}     [ unwords [ ['s','t','r','u','g','g','l','e'], ['a','g','a','i','n','s','t'] ], ['c','o','m','b','a','t'] ],

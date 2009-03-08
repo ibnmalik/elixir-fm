@@ -377,7 +377,7 @@ sub main ($) {
         print L join "\t", gmtime() . "", $code,
                            ($q->param('fuzzy') ? 'F' : 'A'),
                            ($q->param('token') ? 'T' : 'N'),
-                           ($reply =~ /^\s*$/ ? '--' : '++'),
+                           ($reply =~ m/^::::$/m ? '--' : '++'),
                            encode "utf8", $q->param('text') . "\n";
 
         close L;

@@ -331,7 +331,7 @@ cluster_21  = cluster
 
     FACaL                     `verb`    {- <tA_ham> -}         [ ['b','o','r','d','e','r'] ],
 
-    HaFCaL                    `verb`    {- <'at_ham> -}        [ unwords [ ['g','i','v','e'], ['i','n','d','i','g','e','s','t','i','o','n'] ], ['s','a','t','i','a','t','e'], unwords [ ['b','e'], ['g','i','v','e','n'], ['i','n','d','i','g','e','s','t','i','o','n'] ] ],
+    HaFCaL                    `verb`    {- <'at_ham> -}        [ unwords [ ['g','i','v','e'], ['i','n','d','i','g','e','s','t','i','o','n'] ], ['s','a','t','i','a','t','e'] ],
 
     FaCL                      `noun`    {- <ta_hm> -}          [ ['b','o','u','n','d','a','r','y'], ['l','i','m','i','t'] ]
                               `plural`     FuCUL,

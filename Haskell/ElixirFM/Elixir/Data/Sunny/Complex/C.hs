@@ -285,13 +285,8 @@ cluster_11  = cluster
     HiFCA'                    `noun`    {- <'irsA'> -}         [ ['a','n','c','h','o','r','a','g','e'] ]
                               `plural`     HiFCA' |< At,
 
-    FACI                      `adj`     {- <rAsI> -}           [ ['i','m','m','o','v','a','b','l','e'], ['a','n','c','h','o','r','e','d'], ['m','o','o','r','e','d'] ]
-                              `plural`     FawACI
-                              `plural`     FACI |< At,
-
-    FACI |< At                `noun`    {- <rAsiyAt> -}        [ ['t','o','w','e','r','i','n','g'], unwords [ ['u','n','s','h','a','k','a','b','l','e'], "(", ['m','o','u','n','t','a','i','n','s'], ")" ] ]
-                              `plural`     FawACI
-                              `plural`     FACI |< At ]
+    FACI                      `adj`     {- <rAsI> -}           [ ['i','m','m','o','v','a','b','l','e'], ['a','n','c','h','o','r','e','d'], ['m','o','o','r','e','d'], ['t','o','w','e','r','i','n','g'], unwords [ ['u','n','s','h','a','k','e','a','b','l','e'], "(", ['m','o','u','n','t','a','i','n','s'], ")" ] ]
+                              `plural`     FawACI ]
 
  |> "r s w" <| [
 

@@ -1375,7 +1375,7 @@ cluster_65  = cluster
 
     MaFCUL                    `adj`     {- <maq.tU`> -}        [ unwords [ ['c','u','t'], ['o','f','f'] ], ['s','e','v','e','r','e','d'] ],
 
-    MaFCUL |< aT              `noun`    {- <maq.tU`aT> -}      [ ['p','i','e','c','e'], unwords [ ['s','e','l','e','c','t','i','o','n'], "(", ['m','u','s','i','c'], "/", ['p','o','e','t','r','y'], ")" ], unwords [ ['s','h','o','r','t'], ['p','o','e','m','s'] ] ]
+    MaFCUL |< aT              `noun`    {- <maq.tU`aT> -}      [ ['p','i','e','c','e'], unwords [ ['s','e','l','e','c','t','i','o','n'], "(", ['m','u','s','i','c'], "/", ['p','o','e','t','r','y'], ")" ], unwords [ ['s','h','o','r','t'], ['p','o','e','m'] ] ]
                               `plural`     MaFACIL,
 
     MaFCUL |< Iy |< aT        `noun`    {- <maq.tU`IyaT> -}    [ unwords [ ['p','i','e','c','e'], ['w','o','r','k'] ] ],

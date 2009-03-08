@@ -777,9 +777,9 @@ cluster_72  = cluster
 
  |> "' .s d" <| [
 
-    FaCCaL                    `verb`    {- <'a.s.sad> -}       [ ['c','l','o','s','e'], unwords [ ['s','h','u','t'], "(", ['d','o','o','r'], ")" ], unwords [ ['b','e'], ['s','h','u','t'], "(", ['d','o','o','r'], ")" ] ],
+    FaCCaL                    `verb`    {- <'a.s.sad> -}       [ ['c','l','o','s','e'], unwords [ ['s','h','u','t'], "(", ['d','o','o','r'], ")" ] ],
 
-    HACaL                     `verb`    {- <'A.sad> -}         [ ['c','l','o','s','e'], unwords [ ['s','h','u','t'], "(", ['d','o','o','r'], ")" ], unwords [ ['b','e'], ['s','h','u','t'], "(", ['d','o','o','r'], ")" ] ],
+    HACaL                     `verb`    {- <'A.sad> -}         [ ['c','l','o','s','e'], unwords [ ['s','h','u','t'], "(", ['d','o','o','r'], ")" ] ],
 
     TaFCIL                    `noun`    {- <ta'.sId> -}        [ ['c','l','o','s','i','n','g'], unwords [ ['s','h','u','t','t','i','n','g'], "(", ['d','o','o','r'], ")" ] ]
                               `plural`     TaFCIL |< At,
@@ -941,7 +941,7 @@ cluster_81  = cluster
 
     FaCCaL                    `verb`    {- <'a.t.tar> -}       [ ['f','r','a','m','e'], ['c','o','n','t','e','x','t','u','a','l','i','z','e'], ['q','u','a','l','i','f','y'] ],
 
-    FiCAL                     `noun`    {- <'i.tAr> -}         [ ['f','r','a','m','e','w','o','r','k'], ['c','o','n','t','e','x','t'], unwords [ ['t','i','r','e'], ['(','o','f'], "a", ['w','h','e','e','l',')'] ], ['c','a','d','r','e'] ]
+    FiCAL                     `noun`    {- <'i.tAr> -}         [ ['f','r','a','m','e','w','o','r','k'], ['c','o','n','t','e','x','t'], unwords [ ['t','i','r','e'], "(", ['o','f'], "a", ['w','h','e','e','l'], ")" ], ['c','a','d','r','e'] ]
                               `plural`     FiCAL |< At
                               `plural`     FuCuL,
 
@@ -1060,7 +1060,7 @@ cluster_92  = cluster
 
  |> ['\'','a','.','g','U','r'] <| [
 
-    _____ |< aT               `noun`    {- <'a.gUraT> -}       [ unwords [ ['a','g','u','r','a'], "(", ['I','s','r','a','e','l','i'], ['c','e','n','t'], ")" ], unwords [ ['a','g','u','r','o','t'], "(", ['I','s','r','a','e','l','i'], ['c','e','n','t','s'], ")" ] ] ]
+    _____ |< aT               `noun`    {- <'a.gUraT> -}       [ unwords [ ['a','g','u','r','a'], "(", ['I','s','r','a','e','l','i'], ['c','e','n','t'], ")" ] ] ]
 
 
 cluster_93  = cluster

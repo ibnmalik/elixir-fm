@@ -643,9 +643,9 @@ cluster_35  = cluster
 
  |> "f t w" <| [
 
-    HaFCY                     `verb`    {- <'aftY> -}          [ unwords [ ['d','e','l','i','v','e','r'], "a", ['f','a','t','w','a'], "(", ['l','e','g','a','l'], ['o','p','i','n','i','o','n'], ")" ], ['o','p','i','n','e'], unwords [ ['b','e'], ['d','e','b','a','t','e','d'], ['l','e','g','a','l','l','y'] ] ],
+    HaFCY                     `verb`    {- <'aftY> -}          [ unwords [ ['d','e','l','i','v','e','r'], "a", ['f','a','t','w','a'], "(", ['l','e','g','a','l'], ['o','p','i','n','i','o','n'], ")" ], ['o','p','i','n','e'] ],
 
-    IstaFCY                   `verb`    {- <istaftY> -}        [ unwords [ ['s','e','e','k'], ['l','e','g','a','l'], ['o','p','i','n','i','o','n'] ], unwords [ ['b','e'], ['s','o','u','g','h','t'], "(", ['a','s'], ['l','e','g','a','l'], ['o','p','i','n','i','o','n'], ")" ] ],
+    IstaFCY                   `verb`    {- <istaftY> -}        [ unwords [ ['s','e','e','k'], ['l','e','g','a','l'], ['o','p','i','n','i','o','n'] ] ],
 
     FaCLY                     `noun`    {- <fatwY> -}          [ ['f','a','t','w','a'], unwords [ ['l','e','g','a','l'], ['o','p','i','n','i','o','n'] ] ]
                               `plural`     FaCALI

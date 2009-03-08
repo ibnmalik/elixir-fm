@@ -149,7 +149,7 @@ cluster_11  = cluster
 
  |> "d n q" <| [
 
-    FACiL                     `noun`    {- <dAniq> -}          [ unwords [ ['d','a','n','i','q'], "(", ['c','o','i','n'], ")" ], unwords [ ['d','a','n','i','q'], "(", ['s','q','u','a','r','e'], ['m','e','a','s','u','r','e'], ")" ], unwords [ ['d','a','n','i','q','s'], "(", ['c','o','i','n','s'], ")" ], unwords [ ['d','a','n','i','q','s'], "(", ['s','q','u','a','r','e'], ['m','e','a','s','u','r','e'], ")" ] ]
+    FACiL                     `noun`    {- <dAniq> -}          [ unwords [ ['d','a','n','i','q'], "(", ['c','o','i','n'], ")" ], unwords [ ['d','a','n','i','q'], "(", ['s','q','u','a','r','e'], ['m','e','a','s','u','r','e'], ")" ] ]
                               `plural`     FawACiL ]
 
 
