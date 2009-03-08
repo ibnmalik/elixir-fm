@@ -875,7 +875,9 @@ cluster_42  = cluster
 
  |> "l y s" <| [
 
-    "FaCL"                    `verb`    {- <lays> -}           [ unwords [ ['b','e'], ['n','o','t'] ], unwords [ ['i','s'], ['n','o','t'] ] ] ]
+    "FaCL"                    `verb`    {- <lays> -}           [ unwords [ ['b','e'], ['n','o','t'] ], unwords [ ['i','s'], ['n','o','t'] ] ]
+                           
+    `limited` "VP-A------" ]
 
  |> "l y s" <| [
 

@@ -41,15 +41,6 @@ import Data.List hiding (lookup)
 import qualified Data.Map as Map
 
 
--- concat [ unwraps (\ (Nest r e) -> [print r, print (map (\ x -> pretty (inflect (r <-> x) (expand (domain x))) ) e) ]) l | l <- take 1 $ drop 3389 lexicon ]
-
--- generate "-------S--" $ lookup ((3390,1)::Index) lexicon
-
--- length $ lines $ show $ generate "--[ISJ]-------" $ lookup ((3269,4)::Index) lexicon
-
--- generate "--[ISJ]-------" $ lookup ((9909,3)::Index) lexicon
-
-
 generate :: String -> Lexicon -> Doc
 
 generate x y = doubleline id [ z | let x' = (unTagsTypes . read) x,
@@ -60,7 +51,7 @@ generate x y = doubleline id [ z | let x' = (unTagsTypes . read) x,
 
                                     . map (text . show) . process)
 
-                                    (inflect (Lexeme r e) x'') | (e, m) <- zip z [1 ..], e <- entries e,
+                                    (inflect (Lexeme r e) x'') | (e, m) <- zip z [1 ..],
                                                                  let x'' = restrict (domain e) x', (not . null) x'' ]) w ]
 
 
