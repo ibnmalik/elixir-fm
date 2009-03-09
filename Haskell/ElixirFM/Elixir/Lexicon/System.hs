@@ -227,10 +227,8 @@ domain = fst . limits
 
 type Plural a = Morphs a -- Either (Root, Morphs a) (Morphs a)
 
-data Entity a = Verb { form :: [Form], perfect', imperfect, imperative :: [a],
-                       justTense :: Maybe Tense, justVoice :: Maybe Voice,
-                       msdr :: [Morphs a] }
-              | Noun [Plural a] (Maybe Gender) (Maybe Number) (Maybe Bool) (Maybe Except)
+data Entity a = Verb [Form]     [a] [a] [a]    (Maybe Tense)  (Maybe Voice) [Morphs a]
+              | Noun [Plural a] (Maybe Gender) (Maybe Number) (Maybe Bool)  (Maybe Except)
               | Adj  [Plural a] [Morphs a]     (Maybe Number)
               | Pron
               | Num  [Plural a] [Morphs a]
@@ -301,26 +299,19 @@ verb m = Entry (morph m) (Verb forms [] [] [] justT justV []) (TagsVerb [], [])
 
     where forms = reduce [ f | f <- [III, I, II] ++ [IV ..], isForm f m ]
 
-          --             [ f | f <- [I ..], isForm f m ]
-
-          -- [ (f, t) | r <- ["F C C", "F C L","w C L", "r ' y"], f <- [I ..],
-          --            (_, x :: PatternT, _, _, _) <- verbStems f r, t <- [I ..],
-          --            isForm t x, t /= f ]
-
           reduce (x : _) = [x]
           reduce []      = []
 
-          stems I = concat [ verbStems I r | r <- ["F C C", "F C L",
-                                                   "w C L", "r ' y"] ]
+          roots I = ["F C C", "F C L", "w C L", "r ' y"]
+          roots X = ["w C L", "F C L"]
+          roots _ = ["F C L"]
 
-          stems X = concat [ verbStems X r | r <- ["w C L", "F C L"] ]
+          stems = [ s | f <- forms, r <- roots f, s <- verbStems f r ]
 
-          stems f = verbStems f "F C L"
-
-          notPA = null [ x | f <- forms, (_, x, _, _, _) <- stems f, x == m ]
-          notPP = null [ x | f <- forms, (_, _, x, _, _) <- stems f, x == m ]
-          notIA = null [ x | f <- forms, (_, _, _, x, _) <- stems f, x == m ]
-          notIP = null [ x | f <- forms, (_, _, _, _, x) <- stems f, x == m ]
+          notPA = null [ () | (_, x, _, _, _) <- stems, x == m ]
+          notPP = null [ () | (_, _, x, _, _) <- stems, x == m ]
+          notIA = null [ () | (_, _, _, x, _) <- stems, x == m ]
+          notIP = null [ () | (_, _, _, _, x) <- stems, x == m ]
 
           justT = if notPA && notPP then Just Imperfect
                                     else Nothing
@@ -375,33 +366,33 @@ infixl 6 `verb`, `noun`, `adj`,  `pron`,
 
 imperf, pfirst, ithird, second :: Entry a -> a -> Entry a
 
-imperf x y = x { entity = e { imperfect = y : i } }
+imperf x y = case entity x of
 
-    where e = entity x
-          i = imperfect e
+                Verb f p i c t v m  -> x { entity = Verb f p (y : i) c t v m }
+                _                   -> x
 
 
-pfirst x y = x { entity = e { perfect' = y : p } }
+pfirst x y = case entity x of
 
-    where e = entity x
-          p = perfect' e
+                Verb f p i c t v m  -> x { entity = Verb f (y : p) i c t v m }
+                _                   -> x
 
 
 ithird = const
 
 
-second x y = x { entity = e { imperative = y : i } }
+second x y = case entity x of
 
-    where e = entity x
-          i = imperative e
+                Verb f p i c t v m  -> x { entity = Verb f p i (y : c) t v m }
+                _                   -> x
 
 
 masdar :: Morphing a b => Entry b -> a -> Entry b
 
-masdar x y = x { entity = e { msdr = morph y : i } }
+masdar x y = case entity x of
 
-    where e = entity x
-          i = msdr e
+                Verb f p i c t v m  -> x { entity = Verb f p i c t v (morph y : m) }
+                _                   -> x
 
 
 entries :: Entry a -> [Entry a]

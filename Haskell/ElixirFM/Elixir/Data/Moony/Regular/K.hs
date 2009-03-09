@@ -2408,7 +2408,7 @@ cluster_84  = cluster
 
  |> ['`','a','n'] <| [
 
-    _____                     `prep`    {- <`an> -}            [ unwords [ ['f','r','o','m'], "/", ['a','b','o','u','t'] ] ] ]
+    _____                     `prep`    {- <`an> -}            [ ['a','b','o','u','t'], ['f','r','o','m'] ] ]
 
 
 cluster_85  = cluster

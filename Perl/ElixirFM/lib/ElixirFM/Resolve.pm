@@ -57,39 +57,6 @@ sub cont {
 }
 
 
-sub paired (@) {
-
-    my @data = @_;
-
-    push @data, undef if @data % 2;
-
-    my @pair;
-
-    for (my $i = 0; $i < @data; $i += 2) {
-
-        push @pair, [$data[$i], $data[$i + 1]];
-    }
-
-    return @pair;
-}
-
-sub concat (@) {
-
-    return map { ref $_ eq 'ARRAY' ? @{$_} : $_ } @_;
-}
-
-
-sub template {
-
-    my ($t, $p, $s) = @_;
-
-    $p = $p =~ /^"/ ? $p . " >>| " : $p . " >| " unless $p eq '';
-    $s = $s =~ /^"/ ? " |<< " . $s : " |< " . $s unless $s eq '';
-
-    return $p . $t . $s;
-}
-
-
 sub resolve {
 
     my ($q, $word) = @_;
@@ -121,7 +88,7 @@ sub resolves {
 
             my ($lexs, @data) = @{$_};
 
-            foreach (paired @data) {
+            foreach (ElixirFM::tuples @data) {
 
                 foreach my $cont (map { Data::Dumper->Dump([$_]) } @{$q->cont($_->[1])}) {
 
@@ -168,7 +135,7 @@ sub filter {
 
         my @lexs = ();
 
-        foreach (paired @{$data}) {
+        foreach (ElixirFM::tuples @{$data}) {
 
             my ($tmpl, $tags) = @{$_};
 
@@ -206,14 +173,9 @@ sub pretty {
 
                     $r .= join "", map { "\n\t" . $_ } map {
 
-                        my $t = template($tmpl, $_->[1], $_->[-1]);
+                        my $t = ElixirFM::template($tmpl, $_->[1], $_->[-1]);
                         my $m = ElixirFM::merge($lexs->[1], $t);
                         my $p = encode "utf8", decode "zdmg", $m;
-
-                        # my $x = decode "arabtex", $m;
-                        # my $b = encode "buckwalter", $x;
-                        # my $u = encode "utf8", $x;
-                        # my $d = ElixirFM::describe($_->[0]);
 
                         join "\t", $_->[0], $t, $m, $p } @{$tags};
                 }
@@ -270,7 +232,7 @@ Otakar Smrz C<< <otakar smrz mff cuni cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright (C) 2008-2005 Otakar Smrz, 2002 Tim Buckwalter
+Copyright (C) 2009-2005 Otakar Smrz, 2002 Tim Buckwalter
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the GNU General Public License version 3.

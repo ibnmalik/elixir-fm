@@ -100,28 +100,28 @@ instance Derive Lexeme TagsVerb where
 
             let z = [ (f, z) | f <- [I ..],
 
-                               let ws = lookNoun (morphs e) (domain e) 'V' (nounStems f r),
+                               let ms = lookNoun (morphs e) (domain e) 'V' (nounStems f r),
 
-                               w <- nub ws,
+                               m <- nub ms,
 
-                               let z = Lexeme r (w `verb` (reflex e)) ] ]
+                               let z = Lexeme r (m `verb` (reflex e)) ] ]
 
 
 instance Derive Lexeme TagsNoun where
 
  -- derive (Lexeme r e) x | (not . isNoun) (entity e) = []
 
-    derive (Lexeme r e) x | isVerb (entity e) && (not . null) ws = [ (y, z) |
+    derive (Lexeme r e) x | isVerb (entity e) && (not . null) ms = [ (y, z) |
 
                             let y = TagsNoun [],
 
-                            let z = [ (f, z) | f <- form (entity e),
+                            let z = [ (f, z) | f <- fs,
 
-                                               w <- ws,
+                                               m <- ms,
 
-                                               let z = Lexeme r (w `noun` (reflex e)) ] ]
+                                               let z = Lexeme r (m `noun` (reflex e)) ] ]
 
-            where ws = msdr (entity e)
+            where Verb fs _ _ _ _ _ ms = entity e
 
     derive (Lexeme r e) x = [ (y, z) |
 
@@ -129,11 +129,11 @@ instance Derive Lexeme TagsNoun where
 
             let z = [ (f, z) | f <- [I ..],
 
-                               let ws = lookNoun (morphs e) (domain e) 'N' (nounStems f r),
+                               let ms = lookNoun (morphs e) (domain e) 'N' (nounStems f r),
 
-                               w <- nub ws,
+                               m <- nub ms,
 
-                               let z = Lexeme r (w `noun` (reflex e)) ] ]
+                               let z = Lexeme r (m `noun` (reflex e)) ] ]
 
 
 instance Derive Lexeme TagsAdj where
@@ -150,11 +150,11 @@ instance Derive Lexeme TagsAdj where
 
             let z = [ (f, z) | f <- [I ..],
 
-                               let ws = lookNoun (morphs e) (domain e) (show' v) (nounStems f r),
+                               let ms = lookNoun (morphs e) (domain e) (show' v) (nounStems f r),
 
-                               w <- nub ws,
+                               m <- nub ms,
 
-                               let z = Lexeme r (w `adj` (reflex e)) ] ]
+                               let z = Lexeme r (m `adj` (reflex e)) ] ]
 
 
 instance Derive Lexeme a => Derive Entry a where
@@ -183,7 +183,7 @@ lookupForm :: (Eq a, Forming a, Morphing a a) => Root -> Entry a -> [Form]
 
 lookupForm r e = case entity e of
 
-        Verb _ _ _ _ _ _ _  -> (form . entity) e
+        Verb fs _ _ _ _ _ _ -> fs
 
         Noun _ _ _ _ _      -> [ f | f <- [I ..], or [ any (morphs e ==) [morph b, morph c, d] | (_, b, c, d) <- nounStems f r ] ]
 
