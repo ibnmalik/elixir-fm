@@ -672,6 +672,11 @@ sub interlocks {
 
         $pattern .= 'w' if $pattern =~ /A$/ and @{$s} and $s->[0] eq "Iy";
 
+        $pattern =~ s/^H/'/;
+        $pattern =~ s/^([IMNSTUY])/\l$1/;
+
+        return $pattern unless @root;
+
         if ("' _h _d" eq join ' ', @root) {
 
             $pattern =~ s/Ft/assimVIII($root[0], 1)/e;
@@ -681,10 +686,7 @@ sub interlocks {
             $pattern =~ s/Ft/assimVIII($root[0], 0)/e;
         }
 
-        $pattern =~ s/[nN]F/assimVII($root[0], 0)/e;
-
-        $pattern =~ s/^H/'/;
-        $pattern =~ s/^([IMNSTUY])/\l$1/;
+        $pattern =~ s/nF/assimVII($root[0], 0)/e;
 
         $pattern =~ s/F/$root[0]/g if defined $root[0];
         $pattern =~ s/C/$root[1]/g if defined $root[1];
@@ -702,8 +704,6 @@ sub interlocks {
         $pattern = $root[0];
 
         $pattern .= 'w' if $pattern =~ /A$/ and @{$s} and $s->[0] eq "Iy";
-
-        return $pattern;
     }
     elsif ($pattern =~ /[FCL]/) {
 
@@ -711,6 +711,9 @@ sub interlocks {
 
         $pattern = (substr $pattern, 0, -1) . 'w' if $pattern =~ /^(?:F[aiu]CLA'|F[IU]LA')$/
                                                   and @{$s} and not $s->[0] =~ /^"[aiu]N?"$/;
+
+        $pattern =~ s/^H/'/;
+        $pattern =~ s/^([IMNSTUY])/\l$1/;
 
         if ("' _h _d" eq join ' ', @root) {
 
@@ -722,9 +725,6 @@ sub interlocks {
         }
 
         $pattern =~ s/[nN]F/assimVII($root[0], 1)/e;
-
-        $pattern =~ s/^H/'/;
-        $pattern =~ s/^([IMNSTUY])/\l$1/;
 
         $pattern =~ s/F/$root[0]/g;
         $pattern =~ s/C/$root[1]/g;
