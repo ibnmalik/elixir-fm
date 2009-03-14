@@ -333,6 +333,22 @@ lexicon = listing "Generic lexicon"
         ]
 
 
+    |> "k l" <| [
+
+        "kil" |<< "A"       <::>    "SD-----D--"
+                                                        <..>    [ unwords [ "both", "of" ], unwords [ "both", "of", "them" ] ]
+                            <.>     "SD----MD[24]-"
+                                                        <:>     "kil" |<< "ay"
+                                                        <:>     "kil" |<< "A"
+
+                            <.>     "SD----FD1-"
+                                                        <:>     "kil" |<< "t" |<< "A"
+                            <.>     "SD----FD[24]-"
+                                                        <:>     "kil" |<< "t" |<< "ay"
+                                                        <:>     "kil" |<< "t" |<< "A"
+        ]
+
+
     |> "" <| [
 
         "huwa"              <::>    "SP--------"

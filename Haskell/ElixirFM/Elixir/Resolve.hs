@@ -634,11 +634,6 @@ instance Resolve [UPoint] where
 resolveSub x = resolveBy (==) (\ x y -> any (isPrefixOf x) (tails y)) x
 
 
-omitting' :: Eq a => (a -> a -> Bool) -> ([[a]], [[a]]) -> [a] -> [a] -> Bool
-
-omitting' e c = omitting e (concat (fst c), concat (snd c))
-
-
 omitting :: Eq a => (a -> a -> Bool) -> ([a], [a]) -> [a] -> [a] -> Bool
 
 omitting _ _ []      []      = True
@@ -760,7 +755,7 @@ instance Fuzzy String where
     fuzzy "_I" y | y `elem` ["_I", "i", "I"] = True
     fuzzy "_U" y | y `elem` ["_U", "u", "U"] = True
 
-    fuzzy x y = x == y
+    fuzzy x y = alike x y
 
 
 instance Fuzzy [UPoint] where
