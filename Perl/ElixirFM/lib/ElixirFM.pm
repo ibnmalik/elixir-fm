@@ -818,6 +818,8 @@ sub mergeSuffix {
 
             return $x if $x =~ /^at/;
 
+            return "aw" . $x if $x =~ /^u/;
+
             return "a^gIy" if $x eq "a^gIy";
         }
 
@@ -850,6 +852,8 @@ sub mergeSuffix {
 
             return "I" . $x if $x =~ /^[nt]/;
 
+            return $x if $x =~ /^[iu]/;
+
             return "Iy" if $x eq "Iy";
         }
 
@@ -881,6 +885,8 @@ sub mergeSuffix {
             return "aN" if $x =~ /^[aiu]N$/;
 
             return $x if $x =~ /^at/;
+
+            return "aw" . $x if $x =~ /^u/;
         }
 
         return "aw" . showSuffix($_[1]);
@@ -912,6 +918,8 @@ sub mergeSuffix {
             return $x if $x =~ /^[ui]N$/;
 
             return "U" . $x if $x =~ /^[nt]/;
+
+            return $x if $x =~ /^[iu]/;
         }
 
         return "uw" . showSuffix($_[1]);

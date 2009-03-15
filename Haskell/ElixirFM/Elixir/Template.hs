@@ -202,7 +202,9 @@ isClosed _ = True
                         Suffix x | x `elem` ["a",  "i",  "u"]  -> "Y"
                                  | x `elem` ["aN", "iN", "uN"] -> "aNY"
 
-                                 | "at" `isPrefixOf` x         -> x
+                                 | "at" `isPrefixOf` x  -> x
+
+                                 | "u"  `isPrefixOf` x  -> "aw" ++ x
 
                         Suffix "a^gIy"  -> "a^gIy"
 
@@ -228,6 +230,9 @@ isClosed _ = True
                                  | "n" `isPrefixOf` x ||
                                    "t" `isPrefixOf` x    -> "I" ++ x
 
+                                 | "i" `isPrefixOf` x ||
+                                   "u" `isPrefixOf` x    -> x
+
                         Suffix "Iy"     -> "Iy"
 
                         _       -> "iy" ++ show x
@@ -249,7 +254,9 @@ isClosed _ = True
                         Suffix x | x `elem` ["a",  "i",  "u"]  -> "A"
                                  | x `elem` ["aN", "iN", "uN"] -> "aN"
 
-                                 | "at" `isPrefixOf` x         -> x
+                                 | "at" `isPrefixOf` x  -> x
+
+                                 | "u"  `isPrefixOf` x  -> "aw" ++ x
 
                         _       -> "aw" ++ show x
 
@@ -273,6 +280,9 @@ isClosed _ = True
 
                                  | "n" `isPrefixOf` x ||
                                    "t" `isPrefixOf` x    -> "U" ++ x
+
+                                 | "i" `isPrefixOf` x ||
+                                   "u" `isPrefixOf` x    -> x
 
                         _       -> "uw" ++ show x
 
@@ -359,8 +369,8 @@ y |< x = Morphs t p (x : s)
     where Morphs t p s = morph y
 
 
-infixr 7 >|, >>|    -- , >||
-infixl 8 |<, |<<    -- , ||<
+infixr 7 >|, >>|
+infixl 8 |<, |<<
 
 
 (>>|) :: Morphing a b => String -> a -> Morphs b
@@ -371,17 +381,6 @@ x >>| y = Prefix x >| y
 (|<<) :: Morphing a b => a -> String -> Morphs b
 
 y |<< x = y |< Suffix x
-
-
-{-
-
-(>||) :: Morphing a b => String -> a -> Morphs b
-(>||) = (>|) . Prefix
-
-(||<) :: Morphing a b => a -> String -> Morphs b
-(||<) = (flip (.) Suffix) . (|<)
-
--}
 
 
 instance Morphing (Morphs a) a where

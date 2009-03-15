@@ -366,6 +366,7 @@ instance Forming PatternT where
         (   Nothing,    FaCA,       FuCI,       FCU,        FCY         ),  -- da`A
         (   Nothing,    FaCU,       FuCI,       FCU,        FCY         ),  -- .haluwa
         (   Nothing,    FaCY,       FuCI,       FCI,        FCY         ),  -- ramY
+        (   Nothing,    FaCY,       FuCI,       FCY,        FCY         ),  -- sa`Y
         (   Nothing,    FaCI,       FuCI,       FCY,        FCY         )   -- nasiya
 
         ] }
