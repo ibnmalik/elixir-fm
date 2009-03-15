@@ -48,7 +48,7 @@ import Data.List hiding (lookup)
 
 import Version
 
-version = Version [1, 1, build] []
+version = Version [1, 1, max build 830] []
 
     where Version [build] [] = revised "$Revision$"
 
