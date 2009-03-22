@@ -4,14 +4,18 @@
 
 # $Id$
 
+package CGI::Application::ElixirFM::Resolve;
+
+use strict;
+
 our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
 
-
-package CGI::Application::ElixirFM::Resolve;
 
 use CGI::Application::ElixirFM;
 
 use CGI::Fast ':standard';
+
+use Exec::ElixirFM '.';
 
 use ElixirFM;
 
@@ -19,8 +23,6 @@ use Encode::Arabic::ArabTeX ':simple';
 use Encode::Arabic::Buckwalter ':xml';
 
 use Encode::Arabic ':modes';
-
-use strict;
 
 
 sub pretty ($$$) {
@@ -342,30 +344,21 @@ sub main ($) {
 
     $q->param('text', $text);
 
-    unless ($memoize and exists $memoize{$mode}) {
-
-        open T, '>', "$mode/index.$$.$session.tmp";
-
-        print T encode "utf8", $text;
-
-        close T;
-    }
-
     my $fuzzy = $q->param('fuzzy') ? '--fuzzy' : '';
 
     my $token = $q->param('token') ? '--token' : '';
 
-    my $reply = "$elixir $mode $fuzzy $token $code < $mode/index.$$.$session.tmp";
+    my $reply = [$mode, [$fuzzy, $token, $code], encode "utf8", $text];
 
     if ($memoize) {
 
-        $memoize{$mode} = `$reply` unless exists $memoize{$mode};
+        $memoize{$mode} = Exec::ElixirFM::elixir @{$reply} unless exists $memoize{$mode};
 
         $reply = $memoize{$mode};
     }
     else {
 
-        $reply = `$reply`;
+        $reply = Exec::ElixirFM::elixir @{$reply};
     }
 
     $r .= pretty $reply, $mode, $q;
@@ -381,8 +374,6 @@ sub main ($) {
                            encode "utf8", $q->param('text') . "\n";
 
         close L;
-
-        unlink "$mode/index.$$.$session.tmp";
     }
 
     $r .= display_footline $c;

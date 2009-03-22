@@ -4,10 +4,12 @@
 
 # $Id$
 
+package CGI::Application::ElixirFM;
+
+use strict;
+
 our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
 
-
-package CGI::Application::ElixirFM;
 
 use base 'CGI::Application::FastCGI';
 
@@ -20,8 +22,6 @@ use base 'Exporter';
 our @EXPORT = (qw 'display_header display_headline display_welcome display_footline display_footer',
                qw 'escape revert normalize',
                qw '$elixir @modes %memoize $session %enc_hash @enc_list');
-
-use strict;
 
 
 our $elixir = './elixir';

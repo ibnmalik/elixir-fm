@@ -385,7 +385,8 @@ cluster_24  = cluster
     TaFCAL                    `noun`    {- <ta_dkAr> -}        [ ['r','e','m','e','m','b','r','a','n','c','e'], ['s','o','u','v','e','n','i','r'] ],
 
     FaCaL                     `verb`    {- <_dakar> -}         [ ['m','e','n','t','i','o','n'], ['c','i','t','e'], ['r','e','m','e','m','b','e','r'] ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `masdar`     FiCL,
 
     FaCCaL                    `verb`    {- <_dakkar> -}        [ ['r','e','m','i','n','d'] ],
 

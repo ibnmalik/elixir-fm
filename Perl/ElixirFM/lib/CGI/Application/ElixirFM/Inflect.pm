@@ -4,14 +4,18 @@
 
 # $Id$
 
+package CGI::Application::ElixirFM::Inflect;
+
+use strict;
+
 our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
 
-
-package CGI::Application::ElixirFM::Inflect;
 
 use CGI::Application::ElixirFM;
 
 use CGI::Fast ':standard';
+
+use Exec::ElixirFM '.';
 
 use ElixirFM;
 
@@ -19,8 +23,6 @@ use Encode::Arabic::ArabTeX ':simple';
 use Encode::Arabic::Buckwalter ':xml';
 
 use Encode::Arabic ':modes';
-
-use strict;
 
 
 sub pretty ($$$) {
@@ -290,50 +292,32 @@ sub main ($) {
 
     my @clip = $q->param('clip') =~ /(\( *-? *[1-9][0-9]* *, *(?:-? *[1-9][0-9]*|Nothing|Just *\[ *-? *[1-9][0-9]* *(?:\, *-? *[1-9][0-9]* *)*\]) *\))/g;
 
-    unless ($memoize and exists $memoize{$mode} and defined $memoize{$mode}[0]) {
-
-        open T, '>', "$mode/index.$$.$session.tmp";
-
-        print T join "\n", @clip;
-
-        close T;
-    }
-
-    my $early = "$elixir lookup < $mode/index.$$.$session.tmp";
+    my $early = ['lookup', @clip];
 
     if ($memoize) {
 
-        $memoize{$mode}[0] = `$early` unless exists $memoize{$mode} and defined $memoize{$mode}[0];
+        $memoize{$mode}[0] = Exec::ElixirFM::elixir @{$early} unless exists $memoize{$mode} and defined $memoize{$mode}[0];
 
         $early = $memoize{$mode}[0];
     }
     else {
 
-        $early = `$early`;
-    }
-
-    unless ($memoize and exists $memoize{$mode} and defined $memoize{$mode}[1]) {
-
-        open T, '>', "$mode/index.$$.$session.tmp";
-
-        print T encode "utf8", $text;
-
-        close T;
+        $early = Exec::ElixirFM::elixir @{$early};
     }
 
     @clip = map { "'" . (join "", split " ", $_) . "'" } @clip;
 
-    my $reply = "$elixir $mode @clip < $mode/index.$$.$session.tmp";
+    my $reply = [$mode, [@clip], encode "utf8", $text];
 
     if ($memoize) {
 
-        $memoize{$mode}[1] = `$reply` unless exists $memoize{$mode} and defined $memoize{$mode}[1];
+        $memoize{$mode}[1] = Exec::ElixirFM::elixir @{$reply} unless exists $memoize{$mode} and defined $memoize{$mode}[1];
 
         $reply = $memoize{$mode}[1];
     }
     else {
 
-        $reply = `$reply`;
+        $reply = Exec::ElixirFM::elixir @{$reply};
     }
 
     $r .= pretty $reply, $early, $q;
@@ -347,8 +331,6 @@ sub main ($) {
                            encode "utf8", $q->param('text') . "\n";
 
         close L;
-
-        unlink "$mode/index.$$.$session.tmp";
     }
 
     $r .= display_footline $c;

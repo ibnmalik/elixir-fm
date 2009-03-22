@@ -681,7 +681,8 @@ cluster_40  = cluster
     FaCL |<< "u"              `adv`     {- <ba`du> -}          [ ['a','f','t','e','r','w','a','r','d'], ['l','a','t','e','r'], unwords [ "(", ['n','o','t'], ")", ['y','e','t'] ] ],
 
     FaCuL                     `verb`    {- <ba`ud> -}          [ unwords [ ['b','e'], ['d','i','s','t','a','n','t'] ] ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `masdar`     FuCL,
 
     FACaL                     `verb`    {- <bA`ad> -}          [ ['s','e','p','a','r','a','t','e'] ],
 
