@@ -313,7 +313,7 @@ sub main ($) {
         $early = Exec::ElixirFM::elixir @{$early};
     }
 
-    @clip = map { "'" . (join "", split " ", $_) . "'" } @clip;
+    @clip = map { join "", split " ", $_ } @clip;
 
     my $reply = [$mode, [@clip], encode "utf8", $text];
 

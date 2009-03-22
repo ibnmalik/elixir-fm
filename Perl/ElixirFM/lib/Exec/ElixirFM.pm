@@ -56,9 +56,9 @@ sub import {
 }
 
 
-sub elixir ($@) {
+sub elixir (@) {
 
-    my $mode = shift;
+    my $mode = defined $_[0] && ! ref $_[0] ? shift : '';
 
     my $opts = defined $_[0] && ref $_[0] eq 'ARRAY' ? shift : [];
 
@@ -74,7 +74,7 @@ sub elixir ($@) {
 }
 
 
-sub main ($@) {
+sub main (@) {
 
     return elixir @_;
 }
