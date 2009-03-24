@@ -21,16 +21,12 @@ use base 'Exporter';
 
 our @EXPORT = (qw 'display_header display_headline display_welcome display_footline display_footer',
                qw 'escape revert normalize',
-               qw '$elixir @modes %memoize $session %enc_hash @enc_list');
+               qw '@modes %memoize %enc_hash @enc_list');
 
-
-our $elixir = './elixir';
 
 our @modes = qw 'home resolve inflect derive lookup';
 
 our %memoize = ();
-
-our $session;
 
 our %enc_hash = (   'ArabTeX'       =>      'TeX',
                     'Buckwalter'    =>      'Tim',
@@ -54,11 +50,6 @@ sub setup {
     $c->start_mode('home');
 }
 
-
-sub cgiapp_prerun {
-
-    $session++;
-}
 
 # use base 'CGI::Application::FastCGI';
 

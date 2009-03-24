@@ -19,6 +19,7 @@ lib/CGI/Application/ElixirFM/Resolve.pm
 lib/ElixirFM.pm
 lib/ElixirFM/Data/Compose.PL
 lib/ElixirFM/Resolve.pm
+lib/Exec/ElixirFM.pm
 lib/MorphoMap.pm
 MANIFEST
 META.yml

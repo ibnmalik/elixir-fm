@@ -15,7 +15,7 @@ use CGI::Application::ElixirFM;
 
 use CGI::Fast ':standard';
 
-use Exec::ElixirFM '.';
+use Exec::ElixirFM './elixir';
 
 use ElixirFM;
 
