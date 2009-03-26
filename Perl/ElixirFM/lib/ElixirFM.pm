@@ -194,7 +194,9 @@ our $dims = scalar @{$tagset};
 
 sub describe {
 
-    my @slot = split //, $_[0];
+    my $i = 0;
+
+    my @slot = map { $i++ % 2 ? [ split //, $_ ] : map { [$_] } split //, $_ } split /[\[\]]/, $_[0];
 
     my $terse = defined $_[1] ? $_[1] : '';
 
@@ -204,19 +206,36 @@ sub describe {
     }
     else {
 
-        push @slot, ('-') x ($dims - @slot);
+        push @slot, ([]) x ($dims - @slot);
     }
 
-    my $type = exists $tagset->[0][1]{$slot[0] . '-'}      ? $tagset->[0][1]{$slot[0] . '-'}      : '';
-    my $kind = exists $tagset->[0][1]{$slot[0] . $slot[1]} ? $tagset->[0][1]{$slot[0] . $slot[1]} : '';
+    @slot = map { [ grep { $_ ne '-' } @{$_} ] } @slot;
 
-    my @cats = ([$type eq $kind ? '' : $kind, $type], map { exists $tagset->[$_][1]{$slot[$_]} ?
+    my @type = map { my $x = $_;
 
-                    [$tagset->[$_][1]{$slot[$_]}, $terse && $_ != 5 ? '' : $tagset->[$_][0]] : []
+                     [ exists $tagset->[0][1]{$_ . '-'} ? $tagset->[0][1]{$_ . '-'} : '',
 
-                } 2 .. $dims - 1);
+                       join " ", grep { $_ ne '' }
 
-    return join ", ", grep { $_ ne '' } map { join " ", grep { $_ ne '' } @{$_} } @cats;
+                            map { exists $tagset->[0][1]{$x . $_} ? $tagset->[0][1]{$x . $_} : '' } @{$slot[1]} ]
+
+                } @{$slot[0]};
+
+    my @cats = map { my $x = $_;
+
+                     [ $terse && $_ != 5 ? '' : $tagset->[$x][0],
+
+                       join " ", grep { $_ ne '' }
+
+                            map { exists $tagset->[$x][1]{$_} ? $tagset->[$x][1]{$_} : '' } @{$slot[$x]} ]
+
+                } 2 .. $dims - 1;
+
+    return join ", ", grep { $_ ne '' }
+
+                      (join " ", map { grep { $_ ne '' } $_->[1], $_->[0] } @type),
+
+                      (map { join " ", grep { $_ ne '' } $_->[1] ne '' ? ($_->[1], $_->[0]) : () } @cats);
 }
 
 sub retrieve {
