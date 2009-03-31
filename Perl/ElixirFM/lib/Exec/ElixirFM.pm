@@ -11,6 +11,8 @@ use strict;
 our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
 
 
+use Encode;
+
 use File::Spec;
 
 use File::Temp;
@@ -72,17 +74,19 @@ sub elixir (@) {
 
     my $opts = defined $_[0] && ref $_[0] eq 'ARRAY' ? shift : [];
 
-    my $params = join " ", $mode, map { '"' . $_ . '"' } @{$opts};
-
-    my $handle = new File::Temp;
-
-    print $handle join "\n", @_;
+    my $text = join "\n", @_;
 
     my $caller = caller 0;
 
     $caller = caller 1 if $caller eq __PACKAGE__;
 
     my $system = exists $elixir{$caller} ? $elixir{$caller} : $elixir;
+
+    my $params = join " ", $mode, map { '"' . $_ . '"' } @{$opts};
+
+    my $handle = new File::Temp;
+
+    print $handle Encode::is_utf8($text) ? encode "utf8", $text : $text;
 
     return `"$system" $params < "$handle"`;
 }

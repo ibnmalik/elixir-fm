@@ -1351,7 +1351,8 @@ cluster_91  = cluster
 
     IFtaCL                    `verb`    {- <i'tamm> -}         [ ['e','m','u','l','a','t','e'], ['f','o','l','l','o','w'] ],
 
-    FuCL                      `noun`    {- <'umm> -}           [ ['m','o','t','h','e','r'], ['m','a','t','e','r','n','a','l'] ],
+    FuCL                      `noun`    {- <'umm> -}           [ ['m','o','t','h','e','r'] ]
+                              `plural`     FuCL |<< "ah" |< At,
 
     FuCL                      `zero`    {- <'umm> -}           [ ['U','m','m'] ],
 

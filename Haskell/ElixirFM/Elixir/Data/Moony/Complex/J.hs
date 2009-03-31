@@ -470,9 +470,12 @@ cluster_17  = cluster
 
     FaCY |< Iy                `adj`     {- <`alawIy> -}        [ ['A','l','a','w','i','t','e'] ],
 
-    HaFCY                     `adj`     {- <'a`lY> -}          [ unwords [ ['h','i','g','h','e','r'], "/", ['h','i','g','h','e','s','t'] ], ['s','u','p','r','e','m','e'], ['h','i','g','h','e','s','t'], ['h','e','i','g','h','t','s'], ['p','e','a','k','s'], ['h','i','g','h'] ]
+    HaFCY                     `adj`     {- <'a`lY> -}          [ unwords [ ['h','i','g','h','e','r'], "/", ['h','i','g','h','e','s','t'] ], ['s','u','p','r','e','m','e'], ['h','i','g','h','e','s','t'] ]
                               `plural`     HaFACI
+                              `plural`     FuCY
                               `femini`     FuCyY,
+
+    HaFACI                    `noun`    {- <'a`AlI> -}         [ ['h','e','i','g','h','t','s'], ['p','e','a','k','s'] ],
 
     MaFCY |< aT               `noun`    {- <ma`lAT> -}         [ ['g','r','e','a','t','n','e','s','s'], ['n','o','b','i','l','i','t','y'], unwords [ ['H','i','s'], ['E','x','c','e','l','l','e','n','c','y'] ] ]
                               `plural`     MaFACI,

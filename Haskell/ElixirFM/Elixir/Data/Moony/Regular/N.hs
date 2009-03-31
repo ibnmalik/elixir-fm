@@ -476,7 +476,7 @@ cluster_26  = cluster
 
     MaFCiL |< Iy              `adj`     {- <maf.silIy> -}      [ ['a','r','t','i','c','u','l','a','r'] ],
 
-    TaFCIL                    `noun`    {- <taf.sIl> -}        [ ['d','e','t','a','i','l','i','n','g'], ['e','l','a','b','o','r','a','t','i','o','n'], unwords [ ['g','i','v','i','n','g'], ['d','e','t','a','i','l','s'] ], ['d','e','t','a','i','l','s'] ]
+    TaFCIL                    `noun`    {- <taf.sIl> -}        [ ['d','e','t','a','i','l'], ['d','e','t','a','i','l','i','n','g'], ['e','l','a','b','o','r','a','t','i','o','n'], unwords [ ['g','i','v','i','n','g'], ['d','e','t','a','i','l','s'] ] ]
                               `plural`     TaFACIL
                               `plural`     TaFCIL |< At,
 
@@ -496,7 +496,7 @@ cluster_26  = cluster
 
     MaFCUL                    `adj`     {- <maf.sUl> -}        [ ['d','e','t','a','c','h','e','d'], ['s','e','p','a','r','a','t','e','d'], ['e','x','c','l','u','d','e','d'] ],
 
-    MuFaCCaL                  `adj`     {- <mufa.s.sal> -}     [ ['d','e','t','a','i','l','e','d'], ['m','i','n','u','t','e'], unwords [ ['i','n'], ['d','e','t','a','i','n'] ], ['m','i','n','u','t','e','l','y'], ['e','l','a','b','o','r','a','t','e','l','y'] ],
+    MuFaCCaL                  `adj`     {- <mufa.s.sal> -}     [ ['d','e','t','a','i','l','e','d'], ['m','i','n','u','t','e'], unwords [ ['i','n'], ['d','e','t','a','i','l'] ] ],
 
     MuFaCCaL |< aT            `noun`    {- <mufa.s.salaT> -}   [ ['h','i','n','g','e'] ]
                               `plural`     MuFaCCaL |< At,
