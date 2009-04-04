@@ -1584,7 +1584,7 @@ cluster_80  = cluster
 
     TaFaCCaL                  `verb`    {- <ta.sayyad> -}      [ ['h','u','n','t'], ['f','i','s','h'], ['t','r','a','p'] ],
 
-    IFtAL                     `verb`    {- <i.s.tAd> -}        [ ['h','u','n','t'], ['f','i','s','h'], ['t','r','a','p'], unwords [ ['b','e'], ['t','r','a','p','p','e','d'] ] ],
+    IFtAL                     `verb`    {- <i.s.tAd> -}        [ ['h','u','n','t'], ['f','i','s','h'], ['t','r','a','p'] ],
 
     FaCL                      `noun`    {- <.sayd> -}          [ ['h','u','n','t','i','n','g'], ['f','i','s','h','i','n','g'], ['t','r','a','p','p','i','n','g'] ],
 

@@ -82,12 +82,12 @@ sub phon {
 
 sub orph {
 
-    return join " ", grep { $_ ne '' } orth($_[0]), phon($_[0]);
+    return join defined $_[1] ? $_[1] : " ", grep { $_ ne '' } orth($_[0]), phon($_[0]);
 }
 
 sub phor {
 
-    return join " ", grep { $_ ne '' } phon($_[0]), orth($_[0]);
+    return join defined $_[1] ? $_[1] : " ", grep { $_ ne '' } phon($_[0]), orth($_[0]);
 }
 
 sub cling {

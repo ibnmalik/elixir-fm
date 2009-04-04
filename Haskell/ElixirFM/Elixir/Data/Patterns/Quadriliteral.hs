@@ -20,6 +20,8 @@ module Elixir.Data.Patterns.Quadriliteral where
 
 import Elixir.Template
 
+import Elixir.System
+
 import Version
 
 version = revised "$Revision$"
@@ -62,7 +64,9 @@ instance Rules PatternQ where
                             _       ->  []
 
 
-    prefixVerbI x _ _   | x `elem` [I, II]  = "u"
+    prefixVerbI _ _ Passive                 = "u"
+
+    prefixVerbI x _ _   | x == I            = "u"
                         | otherwise         = "a"
 
     prefixVerbC x   _   | x `elem` [I, II]  = ""

@@ -465,7 +465,7 @@ cluster_42  = cluster
 
  |> "b .h _t" <| [
 
-    FaCaL                     `verb`    {- <ba.ha_t> -}        [ ['d','i','s','c','u','s','s'], ['s','e','a','r','c','h'] ]
+    FaCaL                     `verb`    {- <ba.ha_t> -}        [ ['d','i','s','c','u','s','s'], ['s','e','a','r','c','h'], unwords [ ['l','o','o','k'], ['f','o','r'] ], ['e','x','a','m','i','n','e'], ['s','t','u','d','y'], unwords [ ['l','o','o','k'], ['i','n','t','o'] ] ]
                               `imperf`     FCaL
                               `masdar`     FaCL,
 

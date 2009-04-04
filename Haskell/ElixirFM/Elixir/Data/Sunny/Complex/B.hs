@@ -583,7 +583,7 @@ cluster_20  = cluster
     FaCY                      `verb`    {- <dahY> -}           [ ['b','e','f','a','l','l'], ['s','t','r','i','k','e'] ]
                               `imperf`     FCY,
 
-    FaCCY                     `verb`    {- <dahhY> -}          [ ['b','e','f','a','l','l'], ['s','t','r','i','k','e'], unwords [ ['b','e'], ['s','t','r','u','c','k'] ] ],
+    FaCCY                     `verb`    {- <dahhY> -}          [ ['b','e','f','a','l','l'], ['s','t','r','i','k','e'] ],
 
     TaFACY                    `verb`    {- <tadAhY> -}         [ unwords [ ['p','r','e','t','e','n','d'], ['t','o'], ['b','e'], ['c','l','e','v','e','r'] ] ],
 

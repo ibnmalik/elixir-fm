@@ -1079,7 +1079,7 @@ cluster_58  = cluster
 
     MaFCiL |< aT              `noun`    {- <maqdiraT> -}       [ ['a','b','i','l','i','t','y'], ['p','o','t','e','n','t','i','a','l'], ['c','a','p','a','c','i','t','y'] ],
 
-    MiFCAL                    `noun`    {- <miqdAr> -}         [ ['e','x','t','e','n','t'], ['a','m','o','u','n','t'], ['d','e','g','r','e','e'], ['l','e','v','e','l'], ['d','o','s','a','g','e'], ['v','a','l','u','e'] ]
+    MiFCAL                    `noun`    {- <miqdAr> -}         [ ['e','x','t','e','n','t'], ['a','m','o','u','n','t'], ['d','e','g','r','e','e'], ['l','e','v','e','l'], ['v','a','l','u','e'], ['d','o','s','a','g','e'] ]
                               `plural`     MaFACIL,
 
     MiFCAL |< Iy              `adj`     {- <miqdArIy> -}       [ ['q','u','a','n','t','i','t','a','t','i','v','e'] ],

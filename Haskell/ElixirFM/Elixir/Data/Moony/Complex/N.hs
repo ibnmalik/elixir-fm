@@ -870,9 +870,7 @@ cluster_58  = cluster
 
     TaFACY                    `verb`    {- <tamAdY> -}         [ unwords [ ['g','o'], ['f','a','r'] ], ['c','o','n','t','i','n','u','e'], ['p','e','r','s','e','v','e','r','e'] ],
 
-    FaCY                      `noun`    {- <madY> -}           [ ['e','x','t','e','n','t'], ['r','a','n','g','e'] ],
-
-    FaCY                      `noun`    {- <madY> -}           [ ['p','e','r','i','o','d'], ['d','u','r','a','t','i','o','n'] ],
+    FaCY                      `noun`    {- <madY> -}           [ ['e','x','t','e','n','t'], ['r','a','n','g','e'], ['p','e','r','i','o','d'], ['d','u','r','a','t','i','o','n'] ],
 
     FuCL |< aT                `noun`    {- <mudyaT> -}         [ ['k','n','i','f','e'] ]
                               `plural`     FuCY,

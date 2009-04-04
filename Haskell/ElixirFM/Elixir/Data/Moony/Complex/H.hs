@@ -641,7 +641,7 @@ cluster_35  = cluster
 
     IFtaCL                    `verb`    {- <i.htadd> -}        [ unwords [ ['b','e'], ['a','n','g','r','y'] ], unwords [ ['b','e'], ['a','g','i','t','a','t','e','d'] ] ],
 
-    FaCL                      `noun`    {- <.hadd> -}          [ ['s','t','o','p'], ['h','a','l','t'], ['e','x','t','e','n','t'], ['l','i','m','i','t'], ['b','o','r','d','e','r'], ['f','r','o','n','t','i','e','r'] ]
+    FaCL                      `noun`    {- <.hadd> -}          [ ['e','x','t','e','n','t'], ['l','i','m','i','t'], ['b','o','r','d','e','r'], ['f','r','o','n','t','i','e','r'], ['s','t','o','p'], ['h','a','l','t'] ]
                               `plural`     FuCUL,
 
     FuCUL |< Iy               `adj`     {- <.hudUdIy> -}       [ ['f','r','o','n','t','i','e','r'], ['b','o','r','d','e','r'] ],

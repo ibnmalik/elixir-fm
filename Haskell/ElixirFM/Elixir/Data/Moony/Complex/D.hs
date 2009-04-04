@@ -1196,7 +1196,7 @@ cluster_86  = cluster
 
  |> "' m d" <| [
 
-    FaCaL                     `noun`    {- <'amad> -}          [ ['t','e','r','m'], ['p','e','r','i','o','d'], ['e','x','t','e','n','t'], ['r','a','n','g','e'], ['d','u','r','a','t','i','o','n'] ]
+    FaCaL                     `noun`    {- <'amad> -}          [ ['e','x','t','e','n','t'], ['r','a','n','g','e'], ['t','e','r','m'], ['p','e','r','i','o','d'], ['d','u','r','a','t','i','o','n'] ]
                               `plural`     HACAL ]
 
 

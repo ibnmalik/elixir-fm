@@ -476,7 +476,7 @@ cluster_26  = cluster
 
     HaFCaL                    `adj`     {- <'a.grab> -}        [ unwords [ ['s','t','r','a','n','g','e','r'], "/", ['s','t','r','a','n','g','e','s','t'] ] ],
 
-    MaFCiL                    `noun`    {- <ma.grib> -}        [ ['M','o','r','o','c','c','o'], ['M','a','g','h','r','e','b'], unwords [ ['M','a','g','h','r','i','b'], "(", ['n','o','r','t','h','w','e','s','t'], ['A','f','r','i','c','a'], ")" ] ],
+    MaFCiL                    `noun`    {- <ma.grib> -}        [ ['M','o','r','o','c','c','o'], ['M','a','g','h','r','e','b'] ],
 
     MaFACiL                   `noun`    {- <ma.gArib> -}       [ unwords [ ['w','e','s','t','e','r','n'], ['a','r','e','a','s'] ] ],
 
@@ -577,7 +577,7 @@ cluster_29  = cluster
 
     FaCCaL                    `verb`    {- <.garraz> -}        [ ['t','h','r','u','s','t'], ['s','t','i','c','k'] ],
 
-    HaFCaL                    `verb`    {- <'a.graz> -}        [ ['t','h','r','u','s','t'], ['s','t','i','c','k'], unwords [ ['b','e'], ['s','t','u','c','k'] ] ],
+    HaFCaL                    `verb`    {- <'a.graz> -}        [ ['t','h','r','u','s','t'], ['s','t','i','c','k'] ],
 
     TaFaCCaL                  `verb`    {- <ta.garraz> -}      [ ['p','e','n','e','t','r','a','t','e'], unwords [ ['b','e'], ['i','n','s','e','r','t','e','d'] ] ],
 

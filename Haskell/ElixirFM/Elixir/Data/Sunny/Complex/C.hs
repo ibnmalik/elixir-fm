@@ -157,7 +157,7 @@ cluster_4   = cluster
     FaCI                      `verb`    {- <radI> -}           [ ['p','e','r','i','s','h'] ]
                               `imperf`     FCY,
 
-    FaCCY                     `verb`    {- <raddY> -}          [ unwords [ ['m','a','k','e'], ['f','a','l','l'] ], ['a','n','n','i','h','i','l','a','t','e'], unwords [ ['b','e'], ['s','t','r','u','c','k'], ['d','o','w','n'] ] ],
+    FaCCY                     `verb`    {- <raddY> -}          [ unwords [ ['m','a','k','e'], ['f','a','l','l'] ], ['a','n','n','i','h','i','l','a','t','e'], unwords [ ['s','t','r','i','k','e'], ['d','o','w','n'] ] ],
 
     HaFCY                     `verb`    {- <'ardY> -}          [ ['k','i','l','l'], ['s','m','i','t','e'] ],
 
