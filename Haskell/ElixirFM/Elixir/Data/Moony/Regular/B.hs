@@ -583,9 +583,13 @@ cluster_48  = cluster
 
 cluster_49  = cluster
 
+ |> ['b','U','r','.','s'] <| [
+
+    _____ |< aT               `noun`    {- <bUr.saT> -}        [ unwords [ ['s','t','o','c','k'], ['e','x','c','h','a','n','g','e'] ], ['b','o','u','r','s','e'] ] ]
+
  |> ['b','u','r','.','s'] <| [
 
-    _____ |< aT               `noun`    {- <bur.saT> -}        [ unwords [ ['s','t','o','c','k'], ['e','x','c','h','a','n','g','e'] ] ] ]
+    _____ |< aT               `noun`    {- <bur.saT> -}        [ unwords [ ['s','t','o','c','k'], ['e','x','c','h','a','n','g','e'] ], ['b','o','u','r','s','e'] ] ]
 
  |> "b r .s" <| [
 

@@ -618,7 +618,7 @@ cluster_18  = cluster
 
     FACaL                     `verb`    {- <nAqad> -}          [ unwords [ ['c','a','l','l'], ['t','o'], ['a','c','c','o','u','n','t'] ] ],
 
-    HaFCaL                    `verb`    {- <'anqad> -}         [ ['p','a','y'], unwords [ ['b','e'], ['p','a','i','d'] ] ],
+    HaFCaL                    `verb`    {- <'anqad> -}         [ ['p','a','y'] ],
 
     IFtaCaL                   `verb`    {- <intaqad> -}        [ ['c','r','i','t','i','c','i','z','e'] ],
 

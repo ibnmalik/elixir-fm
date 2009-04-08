@@ -65,7 +65,7 @@ instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pret
 
             nest 10 ( (fill 10 . text . show) idx <>
 
-                        (text . ('\t' :) . concat . words . show . pretty) (entity e)
+                        (text . ('\t' :) . concat . map (unwords . words) . lines . show . pretty) (entity e)
 
                         <$$> encloseText [show (reflex e), show (lookupForm r e)]
                         <$$> encloseText [merge r (morphs e), show r, show (morphs e)] )

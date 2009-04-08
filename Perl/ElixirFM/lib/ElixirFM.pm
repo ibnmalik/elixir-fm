@@ -12,6 +12,10 @@ use strict;
 
 our $VERSION = '1.1' || join '.', '1.1', q $Revision$ =~ /(\d+)/;
 
+use Encode::Arabic;
+
+use XML::Parser;
+
 # ##################################################################################################
 #
 # ##################################################################################################
@@ -67,8 +71,6 @@ sub concat (@) {
 # ##################################################################################################
 #
 # ##################################################################################################
-
-use Encode::Arabic;
 
 sub orth {
 
@@ -410,6 +412,11 @@ sub concise {
         } $data, @data;
 }
 
+sub parse {
+
+    return XML::Parser->new('Style' => 'Tree')->parse($_[0]);
+}
+
 sub unpretty {
 
     my ($data, $mode) = (@_, '');
@@ -461,15 +468,14 @@ sub unpretty {
 
                                             map {
 
-                                                my $x = $_; my $i = '';
-
-                                                ($i) = $x =~ /^(?:[\t ]*\n    )*([\t ]*)(?![\t\n ])/;
-
-                                                $x = substr $x, length $i;
+                                                my ($i) = /^(?:[\t ]*\n    )*([\t ]*)(?![\t\n ])/;
 
                                                 $i .= '    ';
 
-                                                my ($data, @node) = split /(?<![\t\n ])[\t ]*\n(?:[\t ]*\n)*$i(?![\t\n ])/, $x;
+                                                s/^[\t\n ]+//;
+                                                s/[\t\n ]+$//;
+
+                                                my ($data, @node) = split /(?<![\t\n ])(?:[\t ]*\n)+$i(?![\t\n ])/, $_;
 
                                                 {
                                                     'data'  =>  {
@@ -485,7 +491,7 @@ sub unpretty {
                                                             {
                                                                 'data'  =>  {
 
-                                                                    'info'  =>  [ map { join ' ', split ' ' } split /[\n ]*\t/, $_ ],
+                                                                    'info'  =>  [ split /[\n ]*\t/, $_ ],
                                                                     'type'  =>  0,
                                                                 },
 
@@ -531,7 +537,7 @@ sub unpretty {
                     my (@ents) = $data =~ /<Entry>(.*?)<\/Entry>/gs;
 
                     {
-                        'clip'  =>  (join '', split ' ', $clip),
+                        'clip'  =>  ( join '', split ' ', $clip ),
                         'root'  =>  $root,
                         'ents'  =>  [ @ents ],
                     }

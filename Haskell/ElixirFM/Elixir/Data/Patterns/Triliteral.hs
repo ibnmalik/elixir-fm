@@ -213,7 +213,7 @@ instance Rules PatternT where
                             FaCaLA',
                             FuCaLA',
                             HaFCiLA', HACiLA', HaFILA', HaFCiyA', HaFiCLA',
-                            FaCA'iL,
+                            FaCA'iL, FayA'iL,
                             FaCAyiL,
                             FaCACiL,
                             FaCACIL,
@@ -332,6 +332,7 @@ instance Forming PatternT where
         (   Nothing,    FaCaL,      FuCiL,      CuL,        FCaL        ),
 
         (   Nothing,    FaCiL,      FuCiL,      CaL,        FCaL        ),
+        (   Nothing,    FaCiL,      FuCiL,      CiL,        FCaL        ),
 
         (   Nothing,    FaCuL,      FuCiL,      CaL,        FCaL        ),
         (   Nothing,    FaCuL,      FuCiL,      CuL,        FCaL        ),
@@ -879,7 +880,7 @@ data PatternT =
         |   FuCIL                                       |   FuCIy
         |   FiCIL                                       |   FiCIy
 
-        |   FaCA'iL                                     |   FaCA'I
+        |   FaCA'iL                     |   FayA'iL     |   FaCA'I
         |   FaCAyiL
 
         |   FaCLA'
