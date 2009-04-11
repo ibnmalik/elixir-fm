@@ -362,7 +362,7 @@ sub restrict {
     my @restrict = split //, length $_[0] == $dims ? $_[0] : '-' x $dims;
     my @inherit = split //, $_[1];
 
-    return join '', map { $restrict[$_] eq '-' && defined $inherit[$_] ? $inherit[$_] : $restrict[$_] } 0 .. $#restrict;
+    return join '', map { $restrict[$_] eq '-' && defined $inherit[$_] ? $inherit[$_] : $restrict[$_] } 0 .. @restrict - 1;
 }
 
 sub prune {
@@ -414,7 +414,118 @@ sub concise {
 
 sub parse {
 
-    return XML::Parser->new('Style' => 'Tree')->parse($_[0]);
+    my $parser = new XML::Parser 'Handlers' => {
+
+        'Init'  => sub {
+                            my $expat = shift;
+
+                            $expat->{Lists} = [];
+                            $expat->{Tree} = [];
+
+                            $expat->{Curlist} = [ '', {}, $expat->{Tree} ];
+                    },
+
+        'Start' => sub {
+                            my $expat = shift;
+                            my $name = shift;
+                            my $elem = [ $name, { @_ }, [] ];
+
+                            push @{ $expat->{Curlist}[-1] }, $elem;
+                            push @{ $expat->{Lists} }, $expat->{Curlist};
+
+                            $expat->{Curlist} = $elem;
+                    },
+
+        'End'   => sub {
+                            my $expat = shift;
+                            my $name = shift;
+
+                            my $elem = $expat->{Curlist};
+
+                            my $hash = $expat->{Curlist}[1];
+                            my $list = $expat->{Curlist}[-1];
+
+
+                            if (@{$list} == 1 and not ref $list->[0]) {
+
+                                $expat->{Curlist}[-1] = $list->[0];
+                            }
+                            else {
+
+                                @{$list} = grep { ref $_ or $_ !~ /^\s*$/ } @{$list};
+
+                                my $memo = {};
+                                my $quit = '';
+
+                                foreach my $one (@{$list}) {
+
+                                    if (ref $one and $one->[0] !~ /^[A-Z]/ and
+                                        not exists $hash->{$one->[0]} and
+                                        not exists $memo->{$one->[0]}) {
+
+                                        $memo->{$one->[0]} = $one;
+                                    }
+                                    else {
+
+                                        $quit = 'quit';
+
+                                        last;
+                                    }
+                                }
+
+                                unless ($quit) {
+
+                                    foreach my $one (keys %{$memo}) {
+
+                                        if (keys %{$memo->{$one}[1]}) {
+
+                                            if (ref $memo->{$one}[-1] and not @{$memo->{$one}[-1]}) {
+
+                                                $hash->{$one} = $memo->{$one}[1];
+                                            }
+                                        }
+                                        else {
+
+                                            $hash->{$one} = $memo->{$one}[-1];
+                                        }
+                                    }
+
+                                    $expat->{Curlist}[-1] = [];
+                                }
+                            }
+
+                            $expat->{Curlist} = pop @{ $expat->{Lists} };
+                    },
+
+        'Char'  => sub {
+                            my $expat = shift;
+                            my $text = shift;
+                            my $list = $expat->{Curlist}[-1];
+
+                            if (@{$list} > 0 and not ref $list->[-1]) {
+
+                                $list->[-1] .= $text;
+                            }
+                            else {
+
+                                push @{$list}, $text;
+                            }
+                    },
+
+        'Final' => sub {
+                            my $expat = shift;
+
+                            delete $expat->{Curlist};
+                            delete $expat->{Lists};
+
+                            $expat->{Tree};
+                    },
+
+        };
+
+    # return XML::Parser->new('Style' => 'Tree')->parse($_[0]);
+
+    return $parser->parse($_[0]);
 }
 
 sub unpretty {

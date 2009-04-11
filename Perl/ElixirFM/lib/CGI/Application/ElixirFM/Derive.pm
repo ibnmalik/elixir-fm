@@ -205,12 +205,12 @@ sub main ($) {
 
     $r .= display_headline $c;
 
-    my @example = ( [ '(1320,1)',               'verb noun adjective'                       ],
-                    [ '(1320,1)',               'verb masdar participle'                    ],
-                    [ '(1320,1)',               '[VN]--------- A---------'                  ],
-                    [ '(1320,3) (5357,14)',     'participle passive active masdar verb'     ],
-                    [ '(1320,3) (5357,14)',     'part pas act msd verb'                     ],
-                    [ '(1320,3) (5357,14)',     'A--[PA] N V'                               ] );
+    my @example = ( [ '(1319,1)',               'verb noun adjective'                       ],
+                    [ '(1319,1)',               'verb masdar participle'                    ],
+                    [ '(1319,1)',               '[VN]--------- A---------'                  ],
+                    [ '(1319,3) (5357,14)',     'participle passive active masdar verb'     ],
+                    [ '(1319,3) (5357,14)',     'part pas act msd verb'                     ],
+                    [ '(1319,3) (5357,14)',     'A--[PA] N V'                               ] );
 
     my $memoize = '';
 
