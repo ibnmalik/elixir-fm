@@ -25,6 +25,10 @@ use Encode::Arabic::Buckwalter ':xml';
 use Encode::Arabic ':modes';
 
 
+our @example = ( [ 'Unicode',   join " ", "school", decode "buckwalter", "drs k t b" ],
+                 [ 'ArabTeX',   "qAmUs 'lktrny ^g d d" ] );
+
+
 sub pretty ($$$) {
 
     my @word = ElixirFM::unpretty($_[0], $_[1]);
@@ -102,53 +106,38 @@ sub pretty_lookup_entry {
 
     my $clip = '(' . $_[2]->[0] . ',' . (defined $_[2]->[1] ? $_[2]->[1][$_[3]] : $_[3] + 1) . ')';
 
-    my $ents = $data->{'ents'}[$_[3]];
+    my $ents = ElixirFM::parse($data->{'ents'}[$_[3]]);
 
-    my @info = ();
+    my @info = @{$ents->[1]}{'morphs', 'entity', 'limits', 'reflex'};
 
-    ($info[0]) = $ents =~ /\<morphs\>\s*(.*?)\s*\<\/morphs\>/s;
-    ($info[1]) = $ents =~ /\<entity\>\s*(.*?)\s*\<\/entity\>/s;
-    ($info[2]) = $ents =~ /\<limits\>\s*(.*?)\s*\<\/limits\>/s;
-    ($info[3]) = $ents =~ /\<reflex\>\s*(.*?)\s*\<\/reflex\>/s;
+    $info[3] = [ ref $info[3] ? map { $_->[-1] } @{$info[3]} : $info[3] ];
 
-    $info[3] =~ s/\s*<\/LM>\s*<LM>\s*/", "/g;
-    $info[3] =~ s/^\s*(?:<LM>\s*)?/"/;
-    $info[3] =~ s/(?:\s*<\/LM>)?\s*$/"/;
+    my @ents = @{$ents->[1]{'entity'}[0][1]}{'imperf', 'pfirst', 'second', 'form'};
 
-    my @ents = ();
+    foreach (@ents) {
 
-    ($ents[0]) = $info[1] =~ /\<imperf\>\s*(.*?)\s*\<\/imperf\>/s;
-    ($ents[1]) = $info[1] =~ /\<pfirst\>\s*(.*?)\s*\<\/pfirst\>/s;
-    ($ents[2]) = $info[1] =~ /\<second\>\s*(.*?)\s*\<\/second\>/s;
+        $_ = defined $_ ? [ ref $_ ? map { $_->[-1] } @{$_} : $_ ] : [];
+    }
 
-    ($ents[3]) = $info[1] =~ /\<form\>([^\<]*)\<\/form\>/s;
+    my @entity = @{$ents->[1]{'entity'}[0][1]}{'plural', 'femini'};
 
-    $ents[3] = '' unless defined $ents[3];
+    foreach (@entity) {
 
-    my @entity = ();
+        $_ = defined $_ ? [ ref $_ ? map { $_->[-1] } @{$_} : $_ ] : [];
+    }
 
-    ($entity[0]) = $info[1] =~ /\<plural\>\s*(.*?)\s*\<\/plural\>/s;
-    ($entity[1]) = $info[1] =~ /\<femini\>\s*(.*?)\s*\<\/femini\>/s;
+    @entity = ((map { [($_ == 0 ? '-------P--' : ''),
+                       ElixirFM::merge($data->{'root'}, $entity[0][$_]), $entity[0][$_]] } 0 .. @{$entity[0]} - 1),
 
-	$entity[0] = [ grep { not /^\s*$/ } map { split /\<\/?LM\>/, $_ } grep { defined $_ } $entity[0] ];
-	$entity[1] = [ grep { not /^\s*$/ } map { split /\<\/?LM\>/, $_ } grep { defined $_ } $entity[1] ];
+               (map { [($_ == 0 ? '------F---' : ''),
+                       ElixirFM::merge($data->{'root'}, $entity[1][$_]), $entity[1][$_]] } 0 .. @{$entity[1]} - 1));
 
-    @entity = ((map { my $x = revert $entity[0][$_]; [($_ == 0 ? '-------P--' : ''),
-                      ElixirFM::merge($data->{'root'}, $x), $x] } 0 .. @{$entity[0]} - 1),
-
-               (map { my $x = revert $entity[1][$_]; [($_ == 0 ? '------F---' : ''),
-                      ElixirFM::merge($data->{'root'}, $x), $x] } 0 .. @{$entity[1]} - 1));
-
-    my $xtag = '';
-
-    ($xtag) = $info[1] =~ /^\<([A-Z][a-z]+)/;
+    my $xtag = $info[1]->[0][0];
 
     $xtag = join ' ', ElixirFM::retrieve($xtag);
     $xtag = substr $xtag, 0, 1;
 
-    $info[0] = revert $info[0];
-
-	$info[4] = join " ", grep { not /^\s*$/ } map { split /\<\/?LM\>/, $_ } grep { defined $_ } @ents[0 .. 2];
+	$info[4] = join " ", map { @{$_} } grep { defined $_ } @ents[0 .. 2];
 
     $info[5] = ElixirFM::merge($data->{'root'}, $info[0]);
 
@@ -166,11 +155,11 @@ sub pretty_lookup_entry {
                        $q->td({-class => "morphs",
                                -title => "morphs of citation form"}, ElixirFM::nice($info[0])),
                        $q->td({-class => "class",
-                               -title => "derivational class"},      $ents[3]),
+                               -title => "derivational class"},      join " ", @{$ents[3]}),
                        $q->td({-class => "stems",
                                -title => "inflectional stems"},      ElixirFM::nice($info[4])),
                        $q->td({-class => "reflex",
-                               -title => "lexical reference"},       escape $info[3]),
+                               -title => "lexical reference"},       escape join ", ", map { '"' . $_ . '"' } @{$info[3]}),
 
                        $q->td({-class => "button"},
                               $q->a({-title => "inflect this lexeme",
@@ -221,9 +210,6 @@ sub main ($) {
     $r .= display_header $c;
 
     $r .= display_headline $c;
-
-    my @example = ( [ 'Unicode',    join " ", "school", decode "buckwalter", "drs k t b" ],
-                    [ 'ArabTeX',    "qAmUs 'lktrny ^g d d" ] );
 
     my $memoize = '';
 

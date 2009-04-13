@@ -25,6 +25,18 @@ use Encode::Arabic::Buckwalter ':xml';
 use Encode::Arabic ':modes';
 
 
+our $find = Exec::ElixirFM::elixir 'lookup', ['tex'], "qara'", "istaqra'", "kitAbaT";
+
+our @clip = map { [ $_->[0]{'clip'} =~ /^\(([0-9]+),Just\[(?:[0-9]+,)*([0-9]+)\]\)$/ ] } ElixirFM::unpretty($find, 'lookup');
+
+our @example = ( [ "($clip[0][0],$clip[0][1])",                             'verb noun adjective'                       ],
+                 [ "($clip[0][0],$clip[0][1])",                             'verb masdar participle'                    ],
+                 [ "($clip[0][0],$clip[0][1])",                             '[VN]--------- A---------'                  ],
+                 [ "($clip[1][0],$clip[1][1]) ($clip[2][0],$clip[2][1])",   'participle passive active masdar verb'     ],
+                 [ "($clip[1][0],$clip[1][1]) ($clip[2][0],$clip[2][1])",   'part pas act msd verb'                     ],
+                 [ "($clip[1][0],$clip[1][1]) ($clip[2][0],$clip[2][1])",   'A--[PA] N V'                               ] );
+
+
 sub pretty ($$$) {
 
     my ($word, $text, $q) = @_;
@@ -83,32 +95,20 @@ sub pretty_lookup_tree {
 
             pretty_lookup_data($_, $q) . "\n" . $q->ul($q->li([ map {
 
-                my $ents = $data->{'ents'}[$_];
-
                 my $clip = sprintf "(%d,%d)", $clip->[0], defined $clip->[1] ? $clip->[1][$_] : $_ + 1;
 
-                my @info = ();
+                my $ents = ElixirFM::parse($data->{'ents'}[$_]);
 
-                ($info[0]) = $ents =~ /\<morphs\>\s*(.*?)\s*\<\/morphs\>/s;
-                ($info[1]) = $ents =~ /\<entity\>\s*(.*?)\s*\<\/entity\>/s;
-                ($info[2]) = $ents =~ /\<limits\>\s*(.*?)\s*\<\/limits\>/s;
-                ($info[3]) = $ents =~ /\<reflex\>\s*(.*?)\s*\<\/reflex\>/s;
+                my @info = @{$ents->[1]}{'morphs', 'entity', 'limits', 'reflex'};
 
-                $info[3] =~ s/\s*<\/LM>\s*<LM>\s*/", "/g;
-                $info[3] =~ s/^\s*(?:<LM>\s*)?/"/;
-                $info[3] =~ s/(?:\s*<\/LM>)?\s*$/"/;
+                $info[3] = [ ref $info[3] ? map { $_->[-1] } @{$info[3]} : $info[3] ];
 
-                my @ents = ();
+                my @ents = @{$ents->[1]{'entity'}[0][1]}{'imperf', 'pfirst', 'second', 'form'};
 
-                ($ents[0]) = $info[1] =~ /\<imperf\>([^\<]*)\</g;
-                ($ents[1]) = $info[1] =~ /\<pfirst\>([^\<]*)\</g;
-                ($ents[2]) = $info[1] =~ /\<second\>([^\<]*)\</g;
+                foreach (@ents) {
 
-                ($ents[3]) = $info[1] =~ /\<form\>([^\<]*)\</g;
-
-                $ents[3] = '' unless defined $ents[3];
-
-                $ents[3] =~ s/[\[\]]//g;
+                    $_ = defined $_ ? [ ref $_ ? map { $_->[-1] } @{$_} : $_ ] : [];
+                }
 
                 my $xtag = '';
 
@@ -117,9 +117,7 @@ sub pretty_lookup_tree {
                 $xtag = join ' ', ElixirFM::retrieve($xtag);
                 $xtag = substr $xtag, 0, 1;
 
-    $info[0] = revert $info[0];
-
-	$info[4] = join " ", grep { defined $_ and $_ ne '' } @ents[0 .. 2];
+	$info[4] = join " ", map { @{$_} } grep { defined $_ } @ents[0 .. 2];
 
     $info[5] = ElixirFM::merge($data->{'root'}, $info[0]);
 
@@ -141,11 +139,11 @@ sub pretty_lookup_tree {
                        $q->td({-class => "morphs",
                                -title => "morphs of citation form"}, ElixirFM::nice($info[0])),
                        $q->td({-class => "class",
-                               -title => "derivational class"},      $ents[3]),
+                               -title => "derivational class"},      join " ", @{$ents[3]}),
                        $q->td({-class => "stems",
                                -title => "inflectional stems"},      ElixirFM::nice($info[4])),
                        $q->td({-class => "reflex",
-                               -title => "lexical reference"},       escape $info[3]),
+                               -title => "lexical reference"},       escape join ", ", map { '"' . $_ . '"' } @{$info[3]}),
 
                        $q->td({-class => "button"},
                               $q->a({-title => "inflect this lexeme",
@@ -204,13 +202,6 @@ sub main ($) {
     $r .= display_header $c;
 
     $r .= display_headline $c;
-
-    my @example = ( [ '(1319,1)',               'verb noun adjective'                       ],
-                    [ '(1319,1)',               'verb masdar participle'                    ],
-                    [ '(1319,1)',               '[VN]--------- A---------'                  ],
-                    [ '(1319,3) (5357,14)',     'participle passive active masdar verb'     ],
-                    [ '(1319,3) (5357,14)',     'part pas act msd verb'                     ],
-                    [ '(1319,3) (5357,14)',     'A--[PA] N V'                               ] );
 
     my $memoize = '';
 

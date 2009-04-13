@@ -25,6 +25,15 @@ use Encode::Arabic::Buckwalter ':xml';
 use Encode::Arabic ':modes';
 
 
+our @example = ( [ 'Unicode',       decode "buckwalter", "AqrO Aldrs AlOwl" ],
+                 [ 'ArabTeX',       "iqra' ad-darsa al-'awwala" ],
+                 [ 'ArabTeX',       "ad-dars al-'awwal" ],
+                 [ 'Buckwalter',    "Aldrs AlOwl" ],
+                 [ 'Buckwalter',    "AhlA wshlA" ],
+                 [ 'Unicode',       decode "buckwalter", "Aldrs AlOwl" ],
+                 [ 'Unicode',       decode "buckwalter", "AhlA wshlA" ] );
+
+
 sub pretty ($$$) {
 
     my @word = ElixirFM::unpretty($_[0], $_[1]);
@@ -129,13 +138,16 @@ sub pretty_resolve_lexeme {
 
     my $xcat = substr $tokens[0]->[0], 0, 1;
 
-    my @ents = ();
+    my $ents = ElixirFM::parse($info[1]);
 
-    ($ents[0]) = $info[1] =~ /\<imperf\>\s*(.*?)\s*\<\/imperf\>/s;
-    ($ents[1]) = $info[1] =~ /\<pfirst\>\s*(.*?)\s*\<\/pfirst\>/s;
-    ($ents[2]) = $info[1] =~ /\<second\>\s*(.*?)\s*\<\/second\>/s;
+    my @ents = @{$ents->[1]}{'imperf', 'pfirst', 'second'};
 
-    $info[1] = join " ", grep { not /^\s*$/ } map { split /\<\/?LM\>/, $_ } grep { defined $_ } @ents;
+    foreach (@ents) {
+
+        $_ = defined $_ ? [ ref $_ ? map { $_->[-1] } @{$_} : $_ ] : [];
+    }
+
+	$info[1] = join " ", map { @{$_} } grep { defined $_ } @ents;
 
     $info[2] = substr $info[2], 1, -1;
     $info[2] =~ s/\",\"/\", \"/g;
@@ -213,14 +225,6 @@ sub main ($) {
     $r .= display_header $c;
 
     $r .= display_headline $c;
-
-    my @example = ( [ 'Unicode',    decode "buckwalter", "AqrO Aldrs AlOwl" ],
-                    [ 'ArabTeX',    "iqra' ad-darsa al-'awwala" ],
-                    [ 'ArabTeX',    "ad-dars al-'awwal" ],
-                    [ 'Buckwalter', "Aldrs AlOwl" ],
-                    [ 'Buckwalter', "AhlA wshlA" ],
-                    [ 'Unicode',    decode "buckwalter", "Aldrs AlOwl" ],
-                    [ 'Unicode',    decode "buckwalter", "AhlA wshlA" ] );
 
     my $memoize = '';
 
@@ -344,11 +348,9 @@ sub main ($) {
 
     $q->param('text', $text);
 
-    my $fuzzy = $q->param('fuzzy') ? '--fuzzy' : '';
+    my @param = map { $q->param($_) ? '--' . $_ : () } 'fuzzy', 'token';
 
-    my $token = $q->param('token') ? '--token' : '';
-
-    my $reply = [$mode, [$fuzzy, $token, $code], encode "utf8", $text];
+    my $reply = [$mode, [@param, $code], $text];
 
     if ($memoize) {
 

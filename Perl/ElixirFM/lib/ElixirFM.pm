@@ -518,12 +518,10 @@ sub parse {
                             delete $expat->{Curlist};
                             delete $expat->{Lists};
 
-                            $expat->{Tree};
+                            return $expat->{Tree}[0];
                     },
 
         };
-
-    # return XML::Parser->new('Style' => 'Tree')->parse($_[0]);
 
     return $parser->parse($_[0]);
 }
@@ -644,12 +642,13 @@ sub unpretty {
 
                     my ($clip, $data) = split /\s*<Nest>\s*/, $_;
 
-                    my ($root) = $data =~ /<root>(.*?)<\/root>/;
-                    my (@ents) = $data =~ /<Entry>(.*?)<\/Entry>/gs;
+                    my ($root) = $data =~ /(<root>.*?<\/root>)/;
+
+                    my (@ents) = $data =~ /(<Entry>.*?<\/Entry>)/gs;
 
                     {
                         'clip'  =>  ( join '', split ' ', $clip ),
-                        'root'  =>  $root,
+                        'root'  =>  ElixirFM::parse($root)->[2],
                         'ents'  =>  [ @ents ],
                     }
 
