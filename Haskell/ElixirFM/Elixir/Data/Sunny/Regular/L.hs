@@ -2204,7 +2204,7 @@ cluster_98  = cluster
     FaCaL                     `verb`    {- <.safan> -}         [ ['p','o','n','d','e','r'] ]
                               `imperf`     FCiL,
 
-    FaCaL                     `noun`    {- <.safan> -}         [ ['s','c','r','o','t','u','m'], ['s','c','r','o','t','a'] ]
+    FaCaL                     `noun`    {- <.safan> -}         [ ['s','c','r','o','t','u','m'] ]
                               `plural`     HaFCAL,
 
     FaCIL                     `noun`    {- <.safIn> -}         [ ['s','a','v','i','n'] ] ]

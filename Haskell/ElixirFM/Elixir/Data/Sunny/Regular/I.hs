@@ -1371,7 +1371,7 @@ cluster_67  = cluster
 
  |> "s m .h q" <| [
 
-    KiRDAS                    `noun`    {- <sim.hAq> -}        [ ['p','e','r','i','o','s','t','e','u','m'], ['p','e','r','i','o','s','t','e','a'] ]
+    KiRDAS                    `noun`    {- <sim.hAq> -}        [ ['p','e','r','i','o','s','t','e','u','m'] ]
                               `plural`     KaRADIS ]
 
 

@@ -113,12 +113,13 @@ sub normalize ($$) {
     }
     elsif ($code eq 'Tim') {
 
+        $text =~ tr[>&<][OWI];
         $text =~ tr[_][]d;
 
         $text =~ s/([FNKauio\`])\~/\~$1/g;
         $text =~ s/([AY])F/F$1/g;
 
-        @data = $text =~ /( [OWI\>\&\<\'\|\}AbptvjHxd\*rzs\$SDTZEgfqklmnhwYyPJRVG\{A\~FNKaui\`o]+ )/gx;
+        @data = $text =~ /( [OWI\'\|\}AbptvjHxd\*rzs\$SDTZEgfqklmnhwYyPJRVG\{A\~FNKaui\`o]+ )/gx;
     }
     elsif ($code eq 'TeX') {
 

@@ -691,7 +691,7 @@ cluster_49  = cluster
 
     TiFCAL                    `adj`     {- <tiklAm> -}         [ ['e','l','o','q','u','e','n','t'], ['g','a','r','r','u','l','o','u','s'] ],
 
-    FaCIL                     `noun`    {- <kalIm> -}          [ ['s','p','o','k','e','s','m','a','n'], ['s','p','o','k','e','s','m','e','n'] ]
+    FaCIL                     `noun`    {- <kalIm> -}          [ ['s','p','o','k','e','s','m','a','n'] ]
                               `plural`     FuCaLA',
 
     FaCIL                     `adj`     {- <kalIm> -}          [ ['w','o','u','n','d','e','d'] ]

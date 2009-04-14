@@ -837,7 +837,7 @@ cluster_39  = cluster
 
     FaCiL                     `adj`     {- <.ha_dir> -}        [ ['c','a','u','t','i','o','u','s'] ],
 
-    FaCAL |<< "i"             `noun`    {- <.ha_dAri> -}       [ ['b','e','w','a','r','e'], unwords [ ['w','a','t','c','h'], ['o','u','t'] ] ],
+    FaCAL |<< "i"             `intj`    {- <.ha_dAri> -}       [ ['b','e','w','a','r','e'], unwords [ ['w','a','t','c','h'], ['o','u','t'] ] ],
 
     TaFCIL                    `noun`    {- <ta.h_dIr> -}       [ ['w','a','r','n','i','n','g'], ['c','a','u','t','i','o','n'] ]
                               `plural`     TaFCIL |< At,
@@ -983,7 +983,7 @@ cluster_47  = cluster
 
     FACiL                     `noun`    {- <.hAri_t> -}        [ ['H','a','r','i','t','h'] ],
 
-    FACiL                     `noun`    {- <.hAri_t> -}        [ ['p','l','o','w','m','a','n'], ['p','l','o','w','m','e','n'] ]
+    FACiL                     `noun`    {- <.hAri_t> -}        [ ['p','l','o','w','m','a','n'] ]
                               `plural`     FuCCAL,
 
     FACiL |< Iy               `noun`    {- <.hAri_tIy> -}      [ ['H','a','r','i','t','h','i'] ] ]

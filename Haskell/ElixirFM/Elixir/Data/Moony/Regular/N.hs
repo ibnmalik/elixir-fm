@@ -1811,7 +1811,7 @@ cluster_82  = cluster
     FaCUL |< aT               `noun`    {- <falUkaT> -}        [ ['f','e','l','u','c','c','a'] ]
                               `plural`     FaCA'iL,
 
-    FaCA'iL |< Iy             `noun`    {- <falA'ikIy> -}      [ ['b','o','a','t','m','a','n'], ['b','o','a','t','m','e','n'] ]
+    FaCA'iL |< Iy             `noun`    {- <falA'ikIy> -}      [ ['b','o','a','t','m','a','n'] ]
                               `plural`     FaCA'iL |< Iy |< Un
                            
     `derives` otherwise ]

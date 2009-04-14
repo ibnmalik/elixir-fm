@@ -2113,7 +2113,7 @@ cluster_81  = cluster
 
     IstaFCaL                  `verb`    {- <ista.hwa_d> -}     [ ['o','v','e','r','w','h','e','l','m'], ['s','e','i','z','e'], ['u','s','u','r','p'] ],
 
-    FUL |< Iy                 `noun`    {- <.hU_dIy> -}        [ ['c','a','b','m','a','n'], ['d','r','i','v','e','r'], ['c','a','b','m','e','n'] ]
+    FUL |< Iy                 `noun`    {- <.hU_dIy> -}        [ ['c','a','b','m','a','n'], ['d','r','i','v','e','r'] ]
                               `plural`     FUL |< Iy |< aT ]
 
 

@@ -429,7 +429,7 @@ cluster_30  = cluster
 
  |> "q n b" <| [
 
-    FaCL                      `noun`    {- <qanb> -}           [ ['c','a','l','y','x'], ['c','a','l','y','c','e','s'] ]
+    FaCL                      `noun`    {- <qanb> -}           [ ['c','a','l','y','x'] ]
                               `plural`     FuCUL,
 
     FuCCaL                    `noun`    {- <qunnab> -}         [ ['h','e','m','p'] ],

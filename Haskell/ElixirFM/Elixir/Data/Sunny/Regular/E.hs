@@ -1444,7 +1444,7 @@ cluster_73  = cluster
 
     FaCIL                     `noun`    {- <ra.gIb> -}         [ ['R','a','g','h','e','e','b'] ],
 
-    FaCIL |< aT               `noun`    {- <ra.gIbaT> -}       [ ['d','e','s','i','d','e','r','a','t','u','m'], ['w','i','s','h'], ['d','e','s','i','d','e','r','a','t','a'] ]
+    FaCIL |< aT               `noun`    {- <ra.gIbaT> -}       [ ['d','e','s','i','d','e','r','a','t','u','m'], ['w','i','s','h'] ]
                               `plural`     FaCA'iL,
 
     TaFCIL                    `noun`    {- <tar.gIb> -}        [ ['i','n','v','i','t','a','t','i','o','n'], ['a','t','t','r','a','c','t','i','o','n'] ]

@@ -678,7 +678,7 @@ cluster_32  = cluster
 
     MuFCaL                    `adj`     {- <mul.haq> -}        [ ['a','p','p','e','n','d','e','d'], ['a','d','j','a','c','e','n','t'], ['a','n','n','e','x','e','d'] ],
 
-    MuFCaL                    `noun`    {- <mul.haq> -}        [ ['a','p','p','e','n','d','i','x'], ['a','d','d','e','n','d','u','m'], ['a','p','p','e','n','d','i','c','e','s'], ['a','d','d','e','n','d','a'] ]
+    MuFCaL                    `noun`    {- <mul.haq> -}        [ ['a','p','p','e','n','d','i','x'], ['a','d','d','e','n','d','u','m'] ]
                               `plural`     MaFACiL
                               `plural`     MuFCaL |< At,
 

@@ -1029,7 +1029,7 @@ cluster_29  = cluster
 
     FaCL                      `noun`    {- <naql> -}           [ ['t','r','a','n','s','m','i','s','s','i','o','n'], ['r','e','l','a','y','i','n','g'] ],
 
-    FaCL |< Iy                `adj`     {- <naqlIy> -}         [ ['t','r','a','n','s','p','o','r','t','a','t','i','o','n'], unwords [ ['t','r','a','n','s','p','o','r','t'], ['s','e','r','v','i','c','e','s'] ] ],
+    FaCL |< Iy                `adj`     {- <naqlIy> -}         [ ['t','r','a','n','s','p','o','r','t','a','t','i','o','n'], unwords [ ['t','r','a','n','s','p','o','r','t'], ['s','e','r','v','i','c','e'] ] ],
 
     FuCUL                     `noun`    {- <nuqUl> -}          [ unwords [ ['s','a','l','t','e','d'], ['n','u','t','s'] ] ],
 
@@ -1772,7 +1772,7 @@ cluster_62  = cluster
 
     lA >| MiFCaL |< Iy        `adj`     {- <lA-minha^gIy> -}   [ unwords [ ['e','x','t','r','a'], "-", ['c','u','r','r','i','c','u','l','a','r'] ] ],
 
-    MiFCAL                    `noun`    {- <minhA^g> -}        [ ['m','e','t','h','o','d'], ['p','r','o','g','r','a','m'], ['c','u','r','r','i','c','u','l','u','m'], ['c','u','r','r','i','c','u','l','a'] ]
+    MiFCAL                    `noun`    {- <minhA^g> -}        [ ['m','e','t','h','o','d'], ['p','r','o','g','r','a','m'], ['c','u','r','r','i','c','u','l','u','m'] ]
                               `plural`     MaFACIL,
 
     FACiL                     `noun`    {- <nAhi^g> -}         [ unwords [ ['w','e','l','l'], "-", ['t','r','o','d','d','e','n'], ['p','a','t','h'] ] ],

@@ -241,7 +241,7 @@ cluster_14  = cluster
     IFtiCAL                   `noun`    {- <itti^gAr> -}       [ ['t','r','a','d','e'], ['b','u','s','i','n','e','s','s'] ]
                               `plural`     IFtiCAL |< At,
 
-    FACiL                     `noun`    {- <tA^gir> -}         [ ['m','e','r','c','h','a','n','t'], ['b','u','s','i','n','e','s','s','m','a','n'], ['b','u','s','i','n','e','s','s','m','e','n'] ]
+    FACiL                     `noun`    {- <tA^gir> -}         [ ['m','e','r','c','h','a','n','t'], ['b','u','s','i','n','e','s','s','m','a','n'] ]
                               `plural`     FACiL |< Un
                               `plural`     FuCCAL
                            

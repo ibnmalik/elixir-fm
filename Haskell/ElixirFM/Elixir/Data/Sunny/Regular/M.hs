@@ -2118,7 +2118,7 @@ cluster_98  = cluster
 
  |> ['.','t','U','b','^','g'] <| [
 
-    _____ |< Iy               `noun`    {- <.tUb^gIy> -}       [ ['a','r','t','i','l','l','e','r','y','m','a','n'], ['a','r','t','i','l','l','e','r','y','m','e','n'] ]
+    _____ |< Iy               `noun`    {- <.tUb^gIy> -}       [ ['a','r','t','i','l','l','e','r','y','m','a','n'] ]
                               `plural`     _____ |< Iy |< aT
                            
     `derives` otherwise,

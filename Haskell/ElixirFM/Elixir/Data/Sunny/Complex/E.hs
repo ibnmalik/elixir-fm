@@ -1573,7 +1573,7 @@ cluster_76  = cluster
     MuFtaCI                   `adj`     {- <mu^stahI> -}       [ ['c','o','v','e','t','o','u','s'], ['g','r','e','e','d','y'] ]
                               `plural`     MuFtaCI |< At,
 
-    MuFtaCY                   `adj`     {- <mu^stahY> -}       [ ['d','e','s','i','r','a','b','l','e'], ['c','o','v','e','t','e','d'], ['d','e','s','i','d','e','r','a','t','a'], unwords [ ['c','o','v','e','t','e','d'], ['t','h','i','n','g','s'] ] ]
+    MuFtaCY                   `adj`     {- <mu^stahY> -}       [ ['d','e','s','i','r','a','b','l','e'], ['c','o','v','e','t','e','d'] ]
                               `plural`     MuFtaCY |< At,
 
     TaFCI |< aT               `noun`    {- <ta^shiyaT> -}      [ unwords [ ['a','r','o','u','s','i','n','g'], ['t','h','e'], ['a','p','p','e','t','i','t','e'] ] ] ]

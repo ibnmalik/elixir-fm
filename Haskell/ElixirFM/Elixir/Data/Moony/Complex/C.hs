@@ -729,7 +729,7 @@ cluster_67  = cluster
 
  |> ['\'','i','^','s','A','r','^','g'] <| [
 
-    _____ |< Iy               `noun`    {- <'i^sAr^gIy> -}     [ ['s','i','g','n','a','l','m','a','n'], ['s','i','g','n','a','l','m','e','n'] ]
+    _____ |< Iy               `noun`    {- <'i^sAr^gIy> -}     [ ['s','i','g','n','a','l','m','a','n'] ]
                               `plural`     _____ |< Iy |< aT
                            
     `derives` otherwise ]

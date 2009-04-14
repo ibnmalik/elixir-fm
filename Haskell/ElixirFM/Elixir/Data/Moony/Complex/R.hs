@@ -1103,7 +1103,7 @@ cluster_62  = cluster
 
     FaCaLAn                   `noun`    {- <yaraqAn> -}        [ ['j','a','u','n','d','i','c','e'] ],
 
-    FaCaLAn                   `noun`    {- <yaraqAn> -}        [ ['l','a','r','v','a','e'], ['l','a','r','v','a'] ],
+    FaCaLAn                   `noun`    {- <yaraqAn> -}        [ ['l','a','r','v','a'] ],
 
     MaFCUL                    `noun`    {- <mayrUq> -}         [ ['m','i','l','d','e','w','y'] ],
 

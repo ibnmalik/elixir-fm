@@ -1577,7 +1577,7 @@ cluster_70  = cluster
     FaCL                      `noun`    {- <_hayl> -}          [ ['h','o','r','s','e'] ]
                               `plural`     FuCUL,
 
-    FaCCAL                    `noun`    {- <_hayyAl> -}        [ ['h','o','r','s','e','m','a','n'], ['r','i','d','e','r'], ['h','o','r','s','e','m','e','n'], ['c','a','v','a','l','r','y'] ] ]
+    FaCCAL                    `noun`    {- <_hayyAl> -}        [ ['h','o','r','s','e','m','a','n'], ['r','i','d','e','r'], ['c','a','v','a','l','r','y'] ] ]
 
  |> "_h y l" <| [
 
@@ -1762,7 +1762,7 @@ cluster_78  = cluster
 
  |> "` _t _t" <| [
 
-    FuCL                      `noun`    {- <`u_t_t> -}         [ ['m','o','t','h'], ['l','a','r','v','a'], ['l','a','r','v','a','e'] ]
+    FuCL                      `noun`    {- <`u_t_t> -}         [ ['m','o','t','h'], ['l','a','r','v','a'] ]
                               `plural`     FuCL |< At
                               `plural`     FuCaL,
 

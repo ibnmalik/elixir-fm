@@ -668,7 +668,7 @@ cluster_26  = cluster
 
     FaCCaL                    `verb`    {- <dawwad> -}         [ unwords [ ['b','e','c','o','m','e'], ['w','o','r','m'], "-", ['e','a','t','e','n'] ] ],
 
-    FUL                       `noun`    {- <dUd> -}            [ ['l','a','r','v','a','e'], ['w','o','r','m'], ['l','a','r','v','a'] ]
+    FUL                       `noun`    {- <dUd> -}            [ ['w','o','r','m'], ['l','a','r','v','a'] ]
                               `plural`     FILAn,
 
     FUL |< Iy                 `adj`     {- <dUdIy> -}          [ unwords [ ['w','o','r','m'], "-", ['l','i','k','e'] ], ['v','e','r','m','i','f','o','r','m'] ],

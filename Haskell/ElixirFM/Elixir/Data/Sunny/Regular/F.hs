@@ -140,7 +140,7 @@ cluster_5   = cluster
     MaFCaL |< aT              `noun`    {- <markabaT> -}       [ ['v','e','h','i','c','l','e'], ['c','a','r','r','i','a','g','e'], ['c','r','a','f','t'] ]
                               `plural`     MaFCaL |< At,
 
-    MaFACiL |< Iy             `noun`    {- <marAkibIy> -}      [ ['b','o','a','t','m','a','n'], ['f','e','r','r','y','m','a','n'], ['b','o','a','t','m','e','n'], ['f','e','r','r','y','m','e','n'] ]
+    MaFACiL |< Iy             `noun`    {- <marAkibIy> -}      [ ['b','o','a','t','m','a','n'], ['f','e','r','r','y','m','a','n'] ]
                               `plural`     MaFACiL |< Iy |< Un
                            
     `derives` otherwise,
@@ -1443,7 +1443,7 @@ cluster_75  = cluster
 
     MuFACaL |< aT             `noun`    {- <muzAra`aT> -}      [ unwords [ ['t','e','m','p','o','r','a','r','y'], ['s','h','a','r','e','c','r','o','p','p','i','n','g'] ] ],
 
-    FACiL                     `noun`    {- <zAri`> -}          [ ['s','e','e','d','s','m','a','n'], ['f','a','r','m','e','r'], ['s','e','e','d','s','m','e','n'] ]
+    FACiL                     `noun`    {- <zAri`> -}          [ ['s','e','e','d','s','m','a','n'], ['f','a','r','m','e','r'] ]
                               `plural`     FuCCAL
                            
     `derives` otherwise,

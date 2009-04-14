@@ -987,7 +987,7 @@ cluster_79  = cluster
     FayyiL |< aT              `noun`    {- <'ayyilaT> -}       [ ['d','o','e'], ['d','e','e','r'] ]
                               `plural`     FayyiL |< At,
 
-    FayyiL |< Iy              `adj`     {- <'ayyilIy> -}       [ ['c','e','r','v','i','d','a','e'], ['c','e','r','v','i','d'], unwords [ ['d','e','e','r'], "-", ['r','e','l','a','t','e','d'] ] ] ]
+    FayyiL |< Iy              `adj`     {- <'ayyilIy> -}       [ ['c','e','r','v','i','d'], unwords [ ['d','e','e','r'], "-", ['r','e','l','a','t','e','d'] ] ] ]
 
  |> "' w l" <| [
 

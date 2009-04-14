@@ -2021,7 +2021,7 @@ cluster_91  = cluster
 
     FiyAL |< Iy               `adj`     {- <siyAsIy> -}        [ ['p','o','l','i','t','i','c','a','l'] ],
 
-    FiyAL |< Iy               `noun`    {- <siyAsIy> -}        [ ['p','o','l','i','t','i','c','i','a','n'], ['s','t','a','t','e','s','m','a','n'], ['s','t','a','t','e','s','m','e','n'] ]
+    FiyAL |< Iy               `noun`    {- <siyAsIy> -}        [ ['p','o','l','i','t','i','c','i','a','n'], ['s','t','a','t','e','s','m','a','n'] ]
                               `plural`     FiyAL |< Iy |< Un
                               `plural`     FAL |< aT
                            

@@ -1575,7 +1575,7 @@ cluster_81  = cluster
     MiFaCL                    `noun`    {- <mi^gann> -}        [ ['s','h','i','e','l','d'] ]
                               `plural`     MaFACL,
 
-    MaFCUL                    `noun`    {- <ma^gnUn> -}        [ ['i','n','s','a','n','e'], ['c','r','a','z','y'], ['m','a','d','m','a','n'], ['m','a','d','m','e','n'] ]
+    MaFCUL                    `noun`    {- <ma^gnUn> -}        [ ['i','n','s','a','n','e'], ['c','r','a','z','y'], ['m','a','d','m','a','n'] ]
                               `plural`     MaFACIL
                            
     `derives` otherwise ]

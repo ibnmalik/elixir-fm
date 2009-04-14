@@ -1022,7 +1022,7 @@ cluster_64  = cluster
 
     FuCA'                     `noun`    {- <bu.gA'> -}         [ ['d','e','s','i','r','e'], ['e','n','d','e','a','v','o','r'] ],
 
-    MaFCY                     `noun`    {- <mab.gY> -}         [ ['d','e','s','i','d','e','r','a','t','u','m'], ['d','e','s','i','d','e','r','a','t','a'] ]
+    MaFCY                     `noun`    {- <mab.gY> -}         [ ['d','e','s','i','d','e','r','a','t','u','m'] ]
                               `plural`     MaFACI,
 
     IFtiCA'                   `noun`    {- <ibti.gA'> -}       [ ['d','e','s','i','r','e'], ['w','i','s','h'] ]
