@@ -110,9 +110,7 @@ sub pretty_lookup_tree {
                     $_ = defined $_ ? [ ref $_ ? map { $_->[-1] } @{$_} : $_ ] : [];
                 }
 
-                my $xtag = '';
-
-                ($xtag) = $info[1] =~ /^\<([A-Z][a-z]+)/;
+                my $xtag = $info[1]->[0][0];
 
                 $xtag = join ' ', ElixirFM::retrieve($xtag);
                 $xtag = substr $xtag, 0, 1;
