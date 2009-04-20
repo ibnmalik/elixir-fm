@@ -203,7 +203,8 @@ cluster_18  = cluster
     FaCCaL                    `verb`    {- <'arra.d> -}        [ unwords [ ['g','r','o','u','n','d'], "(", ['a','n','t','e','n','n','a',','], ['a','i','r','p','l','a','n','e'], ")" ], ['e','a','r','t','h'] ],
 
     FaCL                      `noun`    {- <'ar.d> -}          [ ['e','a','r','t','h'], ['t','e','r','r','i','t','o','r','y'], ['l','a','n','d'] ]
-                              `plural`     FaCALI,
+                              `plural`     FaCALI
+                              `plural`     FaCL |< Un,
 
     FaCL |< Iy                `adj`     {- <'ar.dIy> -}        [ ['l','a','n','d'], ['g','r','o','u','n','d'] ],
 

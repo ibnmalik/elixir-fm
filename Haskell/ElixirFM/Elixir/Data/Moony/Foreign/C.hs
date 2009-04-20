@@ -638,79 +638,79 @@ cluster_89  = cluster
 
 cluster_90  = cluster
 
+ |> ['\'','i','n','^','g','i','l','t','i','r'] <| [
+
+    _____ |<< "A"             `xtra`    {- <'in^giltirA> -}    [ ['E','n','g','l','a','n','d'] ] ]
+
+
+cluster_91  = cluster
+
  |> ['\'','a','n','^','g','l','U'] <| [
 
     _____                     `xtra`    {- <'an^glU> -}        [ ['A','n','g','l','o'] ] ]
 
 
-cluster_91  = cluster
+cluster_92  = cluster
 
  |> ['\'','a','n','_','h','i','l'] <| [
 
     _____                     `xtra`    {- <'an_hil> -}        [ ['A','n','g','e','l'] ] ]
 
 
-cluster_92  = cluster
+cluster_93  = cluster
 
  |> ['\'','A','n','d'] <| [
 
     _____                     `xtra`    {- <'And> -}           [ ['A','n','d'], ['A','n','d','a','n','g'] ] ]
 
 
-cluster_93  = cluster
+cluster_94  = cluster
 
  |> ['\'','U','n','d','U'] <| [
 
     _____                     `xtra`    {- <'UndU> -}          [ ['O','n','d','o'] ] ]
 
 
-cluster_94  = cluster
+cluster_95  = cluster
 
  |> ['\'','i','n','d','i','b','a','n','d','a','n','t'] <| [
 
     _____                     `xtra`    {- <'indibandant> -}   [ ['I','n','d','e','p','e','n','d','e','n','t'] ] ]
 
 
-cluster_95  = cluster
+cluster_96  = cluster
 
  |> ['\'','a','n','d','i','r','t','U','n'] <| [
 
     _____                     `xtra`    {- <'andirtUn> -}      [ ['A','n','d','e','r','t','o','n'] ] ]
 
 
-cluster_96  = cluster
+cluster_97  = cluster
 
  |> ['\'','a','n','d','i','r','s','U','n'] <| [
 
     _____                     `xtra`    {- <'andirsUn> -}      [ ['A','n','d','e','r','s','o','n'] ] ]
 
 
-cluster_97  = cluster
+cluster_98  = cluster
 
  |> ['\'','a','n','d','i','r','l','i','_','h','t'] <| [
 
     _____                     `xtra`    {- <'andirli_ht> -}    [ ['A','n','d','e','r','l','e','c','h','t'] ] ]
 
 
-cluster_98  = cluster
+cluster_99  = cluster
 
  |> ['\'','a','n','d','I','z'] <| [
 
     _____                     `xtra`    {- <'andIz> -}         [ ['A','n','d','e','s'] ] ]
 
 
-cluster_99  = cluster
+cluster_100 = cluster
 
  |> ['\'','i','n','d','a','s','t','r','I','z'] <| [
 
     _____                     `xtra`    {- <'indastrIz> -}     [ ['I','n','d','u','s','t','r','i','e','s'] ] ]
-
-
-cluster_100 = cluster
-
- |> ['\'','i','n','d','I','k'] <| [
-
-    _____                     `xtra`    {- <'indIk> -}         [ ['I','n','d','y','k'] ] ]
 
 
 section = [ cluster_1,

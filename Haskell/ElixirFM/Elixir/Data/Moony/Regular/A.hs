@@ -1581,6 +1581,10 @@ cluster_99  = cluster
 
 cluster_100 = cluster
 
+ |> ['b','U','r','U','s'] <| [
+
+    _____ |< iyA              `xtra`    {- <bUrUsiyA> -}       [ ['B','o','r','u','s','s','i','a'] ] ]
+
  |> ['b','u','r','U','s'] <| [
 
     _____ |< iyA              `xtra`    {- <burUsiyA> -}       [ ['P','r','u','s','s','i','a'] ],

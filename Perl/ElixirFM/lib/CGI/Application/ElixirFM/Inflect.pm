@@ -254,7 +254,7 @@ sub main ($) {
                                         -dir        =>  'ltr',
                                         -default    =>  $q->param('text'),
                                         -size       =>  60,
-                                        -maxlength  =>  100) ),
+                                        -maxlength  =>  150) ),
 
                     td( {-colspan => 2, -align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
 

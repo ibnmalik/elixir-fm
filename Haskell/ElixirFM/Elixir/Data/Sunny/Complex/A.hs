@@ -1447,13 +1447,6 @@ cluster_97  = cluster
 
 cluster_98  = cluster
 
- |> ['d','U','s','i','n','.','t','A','r','i','y','A'] <| [
-
-    _____                     `noun`    {- <dUsin.tAriyA> -}   [ ['d','y','s','e','n','t','e','r','y'] ] ]
-
-
-cluster_99  = cluster
-
  |> "d s w" <| [
 
     FaCCY                     `verb`    {- <dassY> -}          [ ['i','n','t','r','o','d','u','c','e'], unwords [ ['b','r','i','n','g'], ['i','n'] ] ],
@@ -1461,11 +1454,22 @@ cluster_99  = cluster
     TaFaCCY                   `verb`    {- <tadassY> -}        [ unwords [ ['b','e'], ['h','i','d','d','e','n'] ], unwords [ ['b','e'], ['c','o','n','c','e','a','l','e','d'] ], ['p','e','n','e','t','r','a','t','e'] ] ]
 
 
-cluster_100 = cluster
+cluster_99  = cluster
 
  |> ['d','U','s','i','y','i','h'] <| [
 
     _____                     `noun`    {- <dUsiyih> -}        [ ['d','o','s','s','i','e','r'], ['f','i','l','e'] ] ]
+
+
+cluster_100 = cluster
+
+ |> "d ^s ^s" <| [
+
+    FaCL                      `verb`    {- <da^s^s> -}         [ ['c','r','u','s','h'], ['g','r','i','n','d'] ]
+                              `imperf`     FuCL
+                              `pfirst`     FaCaL,
+
+    FaCIL                     `noun`    {- <da^sI^s> -}        [ ['p','o','r','r','i','d','g','e'] ] ]
 
 
 section = [ cluster_1,
