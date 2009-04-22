@@ -87,7 +87,7 @@ Otakar Smrz C<< <otakar smrz mff cuni cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2009-2005 Otakar Smrz, 2002 Tim Buckwalter
+Copyright (C) 2009-2005 Otakar Smrz, 2009 Viktor Bielicky, 2002 Tim Buckwalter
 
 This library is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License version 3.
