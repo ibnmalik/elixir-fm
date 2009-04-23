@@ -289,24 +289,24 @@ cluster_22  = cluster
 
  |> "t l w" <| [
 
-    MutaFACI                  `adj`     {- <mutatAlI> -}       [ ['c','o','n','s','e','c','u','t','i','v','e'], ['s','u','c','c','e','s','s','i','v','e'] ],
-
-    FACI                      `adj`     {- <tAlI> -}           [ ['f','o','l','l','o','w','i','n','g'], ['s','u','b','s','e','q','u','e','n','t'] ],
-
-    IstaFCY                   `verb`    {- <istatlY> -}        [ ['c','o','n','t','i','n','u','e'] ],
-
-    HaFCY                     `verb`    {- <'atlY> -}          [ unwords [ ['m','a','k','e'], ['f','o','l','l','o','w'] ], unwords [ ['p','u','t'], ['n','e','x','t'] ] ],
+    FaCA                      `verb`    {- <talA> -}           [ ['f','o','l','l','o','w'], ['r','e','c','i','t','e'] ]
+                              `imperf`     FCU,
 
     TaFACY                    `verb`    {- <tatAlY> -}         [ unwords [ ['f','o','l','l','o','w'], ['o','n','e'], ['a','n','o','t','h','e','r'] ], unwords [ ['b','e'], ['s','u','c','c','e','s','s','i','v','e'] ] ],
 
-    FaCA                      `verb`    {- <talA> -}           [ ['f','o','l','l','o','w'], ['r','e','c','i','t','e'] ]
-                              `imperf`     FCU,
+    HaFCY                     `verb`    {- <'atlY> -}          [ unwords [ ['m','a','k','e'], ['f','o','l','l','o','w'] ], unwords [ ['p','u','t'], ['n','e','x','t'] ] ],
+
+    IstaFCY                   `verb`    {- <istatlY> -}        [ ['c','o','n','t','i','n','u','e'] ],
 
     FuCUL                     `noun`    {- <tulUw> -}          [ ['f','o','l','l','o','w','i','n','g'], ['e','n','s','u','i','n','g'] ],
 
     FiCAL |< aT               `noun`    {- <tilAwaT> -}        [ ['r','e','c','i','t','a','t','i','o','n'] ],
 
-    FiCL |<< "a"              `prep`    {- <tilwa> -}          [ ['a','f','t','e','r'] ] ]
+    FiCL |<< "a"              `prep`    {- <tilwa> -}          [ ['a','f','t','e','r'] ],
+
+    FACI                      `adj`     {- <tAlI> -}           [ ['f','o','l','l','o','w','i','n','g'], ['s','u','b','s','e','q','u','e','n','t'] ],
+
+    MutaFACI                  `adj`     {- <mutatAlI> -}       [ ['c','o','n','s','e','c','u','t','i','v','e'], ['s','u','c','c','e','s','s','i','v','e'] ] ]
 
 
 cluster_23  = cluster

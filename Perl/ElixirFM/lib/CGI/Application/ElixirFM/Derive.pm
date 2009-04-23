@@ -47,7 +47,7 @@ sub pretty ($$$) {
 
     my $r = '';
 
-    for (my $i; $i < @text; $i++) {
+    for (my $i = 0; $i < @text; $i++) {
 
         $r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($text[$i], $q, \@word));
     }

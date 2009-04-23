@@ -46,7 +46,7 @@ sub pretty ($$$) {
 
     $r .= $q->p({-class => 'notice'}, 'The numbers of input and output words are not equal! ' . (scalar @text) . " <> " . (scalar @word)) unless @text == @word;
 
-    for (my $i; $i < @word; $i++) {
+    for (my $i = 0; $i < @word; $i++) {
 
         $r .= $q->h3($q->span({-class => "mode"}, ucfirst $_[1]),
                      $q->span({-class => "word",

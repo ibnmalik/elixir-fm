@@ -248,7 +248,7 @@ sub display_footer ($) {
 
     $r .= $q->script({-type => 'text/javascript', -src => 'http://api.yamli.com/js/yamli_api.js'}, "");
 
-    $r .= $q->script({-type => 'text/javascript'}, join ' ', qw {
+    $r .= $q->script({-type => 'text/javascript'}, join ' ', split ' ', q {
 
                             if (typeof(Yamli) == "object") {
 
