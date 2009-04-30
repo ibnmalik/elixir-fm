@@ -1785,7 +1785,7 @@ cluster_82  = cluster
 
     FuCL                      `noun`    {- <_hul`> -}          [ ['d','i','v','o','r','c','e'] ],
 
-    FiCL |< aT                `noun`    {- <_hil`aT> -}        [ unwords [ ['r','o','b','e'], ['o','f'], ['h','o','n','o','r'] ], unwords [ ['r','o','b','e','s'], ['o','f'], ['h','o','n','o','r'] ] ]
+    FiCL |< aT                `noun`    {- <_hil`aT> -}        [ unwords [ ['r','o','b','e'], ['o','f'], ['h','o','n','o','r'] ] ]
                               `plural`     FiCaL,
 
     FawCaL                    `noun`    {- <_hawla`> -}        [ ['f','o','o','l'], ['s','i','m','p','l','e','t','o','n'] ],

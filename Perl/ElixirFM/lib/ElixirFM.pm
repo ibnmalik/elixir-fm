@@ -715,7 +715,9 @@ sub morphs {
 
     my (@fields) = $_[0];
 
-    my $morphs = [ undef, [], [] ];
+    my $morphs = [ $_[0], [], [] ];
+
+    return $morphs if $_[0] eq '';
 
     @fields = split /(?<!\") \>\| |(?<=\") \>\>\| /, $fields[-1];
 

@@ -784,7 +784,9 @@ cluster_40  = cluster
 
     _____ |< iyA              `noun`    {- <sUriyA> -}         [ ['S','y','r','i','a'] ],
 
-    _____ |< Iy |< aT         `noun`    {- <sUrIyaT> -}        [ ['S','y','r','i','a'] ],
+    _____ |< Iy |< aT         `noun`    {- <sUrIyaT> -}        [ ['S','y','r','i','a'] ]
+                           
+    `excepts` Diptote,
 
     _____ |< Iy               `adj`     {- <sUrIy> -}          [ ['S','y','r','i','a','n'] ] ]
 
