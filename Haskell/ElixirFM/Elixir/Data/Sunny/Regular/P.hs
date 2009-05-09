@@ -302,7 +302,7 @@ cluster_17  = cluster
 
     MaFCaL                    `noun`    {- <malmas> -}         [ ['t','o','u','c','h'] ],
 
-    MaFCaL                    `noun`    {- <malmas> -}         [ unwords [ ['p','o','i','n','t'], ['c','o','n','t','a','c','t'] ], unwords [ ['p','o','i','n','t','s'], ['o','f'], ['c','o','n','t','a','c','t'] ] ]
+    MaFCaL                    `noun`    {- <malmas> -}         [ unwords [ ['p','o','i','n','t'], ['o','f'], ['c','o','n','t','a','c','t'] ] ]
                               `plural`     MaFACiL,
 
     MaFCaL |< Iy              `adj`     {- <malmasIy> -}       [ ['t','a','c','t','u','a','l'], ['t','a','c','t','i','l','e'] ],
