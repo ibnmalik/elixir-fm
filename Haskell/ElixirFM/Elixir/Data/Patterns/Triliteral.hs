@@ -561,7 +561,12 @@ instance Forming PatternT where
         (   FaCA,       FACI,       MaFCUL,     morph   FaCA            ),
         (   FaCA,       FACI,       MaFCUL,     morph   FuCA'           ),
         (   FaCA,       FACI,       MaFCUL,     morph   FaCL            ),
-        (   FaCA,       FACI,       MaFCUL,     morph   FuCUL           )
+        (   FaCA,       FACI,       MaFCUL,     morph   FuCUL           ),
+
+        (   FaCA,       FACI,       MaFCIy,     morph   FaCA            ),
+        (   FaCA,       FACI,       MaFCIy,     morph   FuCA'           ),
+        (   FaCA,       FACI,       MaFCIy,     morph   FaCL            ),
+        (   FaCA,       FACI,       MaFCIy,     morph   FuCUL           )
 
         ]
 
@@ -913,6 +918,7 @@ data PatternT =
                                         |   FAyiL
 
         |   MaFCUL                      |   MaFUL       |   MaFCIL
+                                                        |   MaFCIy
 
         |   FaCCAL                                      |   FaCCA'
                                                         |   FaCCAy
