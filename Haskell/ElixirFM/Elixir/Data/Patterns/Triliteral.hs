@@ -570,6 +570,38 @@ instance Forming PatternT where
 
         ]
 
+        | (takes . words) r == ["'", "y"] = [
+
+        (   FAL,        FACiL,      MaFIL,      morph   FaCL            ),
+        (   FAL,        FACiL,      MaFIL,      morph   FiCAL           ),
+        (   FAL,        FACiL,      MaFIL,      morph   MaFIL           )
+
+        ]
+
+        | (takes . words) r == ["'", "w"] = [
+
+        (   FAL,        FAyiL,      MaFUL,      morph   FaCL            ),
+        (   FAL,        FAyiL,      MaFUL,      morph   FiyAL           ),
+        (   FAL,        FAyiL,      MaFUL,      morph   MaFAL           )
+
+        ]
+
+        | (drops . words) r == ["y", "'"] = [
+
+        (   FAL,        FA'I,       MaFIL,      morph   FaCL            ),
+        (   FAL,        FA'I,       MaFIL,      morph   FiCAL           ),
+        (   FAL,        FA'I,       MaFIL,      morph   MaFIL           )
+
+        ]
+
+        | (drops . words) r == ["w", "'"] = [
+
+        (   FAL,        FA'I,       MaFUL,      morph   FaCL            ),
+        (   FAL,        FA'I,       MaFUL,      morph   FiyAL           ),
+        (   FAL,        FA'I,       MaFUL,      morph   MaFAL           )
+
+        ]
+
         | (takes . drops . words) r == ["y"] = [
 
         (   FAL,        FA'iL,      MaFIL,      morph   FaCL            ),
@@ -719,9 +751,17 @@ instance Forming PatternT where
 
         ]
 
-        | (takes . drops . words) r `elem` [["w"], ["y"]] = [
+        | (takes . drops . words) r == ["y"] = [
 
         (   InFAL,      MunFAL,     MunFAL,     morph   InFiCAL         ),
+        (   InFaCY,     MunFaCI,    MunFaCY,    morph   InFiCA'         ),
+        (   InFaCaL,    MunFaCiL,   MunFaCaL,   morph   InFiCAL         )
+
+        ]
+
+        | (takes . drops . words) r == ["w"] = [
+
+        (   InFAL,      MunFAL,     MunFAL,     morph   InFiyAL         ),
         (   InFaCY,     MunFaCI,    MunFaCY,    morph   InFiCA'         ),
         (   InFaCaL,    MunFaCiL,   MunFaCaL,   morph   InFiCAL         )
 
@@ -743,9 +783,17 @@ instance Forming PatternT where
 
         ]
 
-        | (takes . drops . words) r `elem` [["w"], ["y"]] = [
+        | (takes . drops . words) r == ["y"] = [
 
         (   IFtAL,      MuFtAL,     MuFtAL,     morph   IFtiCAL         ),
+        (   IFtaCY,     MuFtaCI,    MuFtaCY,    morph   IFtiCA'         ),
+        (   IFtaCaL,    MuFtaCiL,   MuFtaCaL,   morph   IFtiCAL         )
+
+        ]
+
+        | (takes . drops . words) r == ["w"] = [
+
+        (   IFtAL,      MuFtAL,     MuFtAL,     morph   IFtiyAL         ),
         (   IFtaCY,     MuFtaCI,    MuFtaCY,    morph   IFtiCA'         ),
         (   IFtaCaL,    MuFtaCiL,   MuFtaCaL,   morph   IFtiCAL         )
 

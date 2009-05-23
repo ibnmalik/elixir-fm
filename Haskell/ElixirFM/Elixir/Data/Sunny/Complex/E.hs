@@ -1512,7 +1512,9 @@ cluster_72  = cluster
 
  |> "^s w '" <| [
 
-    FY |< aT                  `noun`    {- <^sAT> -}           [ ['s','h','e','e','p'] ] ]
+    FAL                       `noun`    {- <^sA'> -}           [ ['s','h','e','e','p'] ],
+
+    FA |< aT                  `noun`    {- <^sAT> -}           [ ['s','h','e','e','p'], ['e','w','e'] ] ]
 
  |> "^s w y" <| [
 
@@ -1529,7 +1531,6 @@ cluster_72  = cluster
     FaCIL                     `adj`     {- <^sawIy> -}         [ ['r','o','a','s','t','e','d'], ['b','r','o','i','l','e','d'] ],
 
     FaCY |< aT                `noun`    {- <^sawAT> -}         [ ['s','c','a','l','p'] ]
-                              `plural`     FaCA
                               `plural`     FaCY,
 
     FaCCAL |< aT              `noun`    {- <^sawwAyaT> -}      [ ['g','r','i','l','l'], ['g','r','i','d','i','r','o','n'] ],
@@ -1958,7 +1959,8 @@ cluster_98  = cluster
  |> "^s y '" <| [
 
     FAL                       `verb`    {- <^sA'> -}           [ ['w','a','n','t'], ['d','e','s','i','r','e'], ['w','i','s','h'] ]
-                              `imperf`     FAL,
+                              `imperf`     FAL
+                              `masdar`     MaFIL |< aT,
 
     TaFaCCaL                  `verb`    {- <ta^sayya'> -}      [ unwords [ ['c','a','l','m'], ['d','o','w','n'] ] ],
 
@@ -1977,6 +1979,8 @@ cluster_98  = cluster
 
     FuwayCaL                  `noun`    {- <^suwayya'> -}      [ unwords [ ['l','i','t','t','l','e'], ['b','i','t'] ] ],
 
+    FuwayL                    `noun`    {- <^suway'> -}        [ unwords [ ['l','i','t','t','l','e'], ['b','i','t'] ] ],
+
     FuwayL |< aT              `noun`    {- <^suway'aT> -}      [ unwords [ ['l','i','t','t','l','e'], ['b','i','t'] ] ],
 
     TaFCiL |< aT              `noun`    {- <ta^syi'aT> -}      [ ['r','e','i','f','i','c','a','t','i','o','n'] ],
@@ -1984,7 +1988,7 @@ cluster_98  = cluster
     TaFaCCuL                  `noun`    {- <ta^sayyu'> -}      [ ['r','e','i','f','i','c','a','t','i','o','n'] ]
                               `plural`     TaFaCCuL |< At,
 
-    MaFIL                     `noun`    {- <ma^sI'> -}         [ ['w','i','s','h'], ['d','e','s','i','r','e'], ['v','o','l','i','t','i','o','n'] ] ]
+    MaFIL |< aT               `noun`    {- <ma^sI'aT> -}       [ ['w','i','s','h'], ['d','e','s','i','r','e'], ['v','o','l','i','t','i','o','n'] ] ]
 
 
 cluster_99  = cluster

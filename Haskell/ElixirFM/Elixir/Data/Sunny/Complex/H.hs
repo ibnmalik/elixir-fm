@@ -1522,7 +1522,7 @@ cluster_68  = cluster
     FACUL                     `noun`    {- <nA.sUr> -}         [ ['f','i','s','t','u','l','a'] ]
                               `plural`     FawACIL,
 
-    MaFCaL                    `noun`    {- <man.sar> -}        [ unwords [ ['g','a','n','g'], ['o','f'], ['t','h','i','e','v','e','s'] ], unwords [ ['g','a','n','g','s'], ['o','f'], ['t','h','i','e','v','e','s'] ] ]
+    MaFCaL                    `noun`    {- <man.sar> -}        [ unwords [ ['g','a','n','g'], ['o','f'], ['t','h','i','e','v','e','s'] ] ]
                               `plural`     MaFACiL,
 
     TaFCIL                    `noun`    {- <tan.sIr> -}        [ ['C','h','r','i','s','t','i','a','n','i','z','a','t','i','o','n'] ]

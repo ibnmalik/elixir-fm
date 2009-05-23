@@ -142,7 +142,8 @@ cluster_9   = cluster
  |> "^g y '" <| [
 
     FAL                       `verb`    {- <^gA'> -}           [ ['a','r','r','i','v','e'], ['c','o','m','e'], ['o','c','c','u','r'] ]
-                              `imperf`     FIL,
+                              `imperf`     FIL
+                              `masdar`     MaFIL,
 
     FIL |< aT                 `noun`    {- <^gI'aT> -}         [ ['c','o','m','i','n','g'], ['a','r','r','i','v','a','l'] ],
 

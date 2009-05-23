@@ -1147,9 +1147,7 @@ cluster_36  = cluster
 
     IFtaCaL                   `verb`    {- <intaqal> -}        [ ['m','o','v','e'], ['t','r','a','n','s','f','e','r'] ],
 
-    FaCL                      `noun`    {- <naql> -}           [ ['t','r','a','n','s','p','o','r','t','a','t','i','o','n'], ['t','r','a','n','s','f','e','r'] ],
-
-    FaCL                      `noun`    {- <naql> -}           [ ['t','r','a','n','s','m','i','s','s','i','o','n'], ['r','e','l','a','y','i','n','g'] ],
+    FaCL                      `noun`    {- <naql> -}           [ ['t','r','a','n','s','p','o','r','t','a','t','i','o','n'], ['t','r','a','n','s','f','e','r'], ['t','r','a','n','s','m','i','s','s','i','o','n'], ['r','e','l','a','y','i','n','g'] ],
 
     FaCL |< Iy                `adj`     {- <naqlIy> -}         [ ['t','r','a','n','s','p','o','r','t','a','t','i','o','n'], unwords [ ['t','r','a','n','s','p','o','r','t'], ['s','e','r','v','i','c','e'] ] ],
 
@@ -1186,14 +1184,15 @@ cluster_36  = cluster
 
     IFtiCAL |< Iy             `adj`     {- <intiqAlIy> -}      [ ['t','r','a','n','s','i','t','i','o','n','a','l'] ],
 
-    FACiL                     `noun`    {- <nAqil> -}          [ ['t','r','a','n','s','m','i','t','t','i','n','g'], ['c','a','r','r','y','i','n','g'], ['c','o','n','v','e','y','i','n','g'], ['c','a','r','r','i','e','r','s'] ]
+    FACiL                     `adj`     {- <nAqil> -}          [ ['t','r','a','n','s','m','i','t','t','i','n','g'], ['c','a','r','r','y','i','n','g'], ['c','o','n','v','e','y','i','n','g'] ],
+
+    FACiL                     `noun`    {- <nAqil> -}          [ ['c','a','r','r','i','e','r'] ]
                               `plural`     FaCaL |< aT
-                              `plural`     FACiL |< Un
                               `plural`     FuCCAL
                            
     `derives` otherwise,
 
-    FACiL |< aT               `noun`    {- <nAqilaT> -}        [ ['t','r','a','n','s','p','o','r','t'], ['t','a','n','k','e','r'], ['c','a','r','r','i','e','r'] ]
+    FACiL |< aT               `noun`    {- <nAqilaT> -}        [ ['t','r','a','n','s','p','o','r','t'], ['t','a','n','k','e','r'] ]
                               `plural`     FACiL |< At,
 
     FACiL |< Iy |< aT         `noun`    {- <nAqilIyaT> -}      [ ['c','o','n','d','u','c','t','i','v','i','t','y'] ],

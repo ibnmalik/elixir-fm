@@ -13,6 +13,9 @@ cluster_1   = cluster
 
  |> "m w '" <| [
 
+    FAL                       `verb`    {- <mA'> -}            [ ['m','e','w'], ['m','e','o','w'] ]
+                              `imperf`     FUL,
+
     FuCAL                     `noun`    {- <muwA'> -}          [ ['m','e','w','i','n','g'], ['m','e','o','w'] ] ]
 
 

@@ -710,16 +710,15 @@ cluster_28  = cluster
 
  |> "d w ^s" <| [
 
-    FUL                       `noun`    {- <dU^s> -}           [ ['s','h','o','w','e','r'], ['d','o','u','c','h','e'] ]
-                              `plural`     FuL
-                              `plural`     FUL |< At ]
-
- |> "d w ^s" <| [
-
     FaCaL                     `verb`    {- <dawa^s> -}         [ unwords [ ['m','a','k','e'], ['n','o','i','s','e'] ], unwords [ ['r','a','i','s','e'], ['h','e','l','l'] ] ]
                               `imperf`     FCiL,
 
     FaCL |< aT                `noun`    {- <daw^saT> -}        [ ['n','o','i','s','e'], ['c','l','a','m','o','r'] ] ]
+
+ |> ['d','U','^','s'] <| [
+
+    _____                     `noun`    {- <dU^s> -}           [ ['s','h','o','w','e','r'], ['d','o','u','c','h','e'] ]
+                              `plural`     _____ |< At ]
 
 
 cluster_29  = cluster

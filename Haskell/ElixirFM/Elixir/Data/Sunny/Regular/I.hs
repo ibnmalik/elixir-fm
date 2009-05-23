@@ -1677,10 +1677,10 @@ cluster_82  = cluster
     MaFCaL                    `noun`    {- <masma`> -}         [ unwords [ ['h','e','a','r','i','n','g'], ['d','i','s','t','a','n','c','e'] ] ]
                               `plural`     MaFACiL,
 
-    MiFCaL                    `noun`    {- <misma`> -}         [ ['e','a','r'], ['s','t','e','t','h','o','s','c','o','p','e'], unwords [ ['r','e','c','e','i','v','e','r'], "(", ['t','e','l','e','p','h','o','n','e'], ")" ] ]
+    MiFCaL                    `noun`    {- <misma`> -}         [ ['e','a','r'], ['s','t','e','t','h','o','s','c','o','p','e'], unwords [ ['t','e','l','e','p','h','o','n','e'], ['r','e','c','e','i','v','e','r'] ] ]
                               `plural`     MaFACiL,
 
-    MiFCaL |< aT              `noun`    {- <misma`aT> -}       [ ['e','a','r','p','i','e','c','e'], ['e','a','r','p','h','o','n','e'], unwords [ ['r','e','c','e','i','v','e','r'], "(", ['t','e','l','e','p','h','o','n','e'], ")" ] ],
+    MiFCaL |< aT              `noun`    {- <misma`aT> -}       [ ['e','a','r','p','i','e','c','e'], ['e','a','r','p','h','o','n','e'], unwords [ ['t','e','l','e','p','h','o','n','e'], ['r','e','c','e','i','v','e','r'] ] ],
 
     TaFaCCuL                  `noun`    {- <tasammu`> -}       [ unwords [ ['a','u','s','c','u','l','t','a','t','i','o','n'], "(", ['l','i','s','t','e','n','i','n','g'], ['w','i','t','h'], "a", ['s','t','e','t','h','o','s','c','o','p','e'], ")" ] ]
                               `plural`     TaFaCCuL |< At,
@@ -1688,7 +1688,12 @@ cluster_82  = cluster
     IFtiCAL                   `noun`    {- <istimA`> -}        [ ['l','i','s','t','e','n','i','n','g'] ]
                               `plural`     IFtiCAL |< At,
 
-    FACiL                     `adj`     {- <sAmi`> -}          [ ['h','e','a','r','e','r'], ['l','i','s','t','e','n','e','r'], ['l','i','s','t','e','n','i','n','g'], unwords [ ['a','b','l','e'], ['t','o'], ['h','e','a','r'] ] ],
+    FACiL                     `noun`    {- <sAmi`> -}          [ ['h','e','a','r','e','r'], ['l','i','s','t','e','n','e','r'] ]
+                              `plural`     FACiL |< Un
+                           
+    `derives` otherwise,
+
+    FACiL                     `adj`     {- <sAmi`> -}          [ ['l','i','s','t','e','n','i','n','g'], unwords [ ['a','b','l','e'], ['t','o'], ['h','e','a','r'] ] ],
 
     MaFCUL                    `adj`     {- <masmU`> -}         [ ['a','u','d','i','b','l','e'], ['p','e','r','c','e','p','t','i','b','l','e'] ],
 

@@ -826,10 +826,11 @@ cluster_65  = cluster
 
  |> "' w b" <| [
 
-    FAyiL                     `adj`     {- <'Ayib> -}          [ ['c','o','m','i','n','g'], ['r','e','t','u','r','n','i','n','g'] ],
-
     FAL                       `verb`    {- <'Ab> -}            [ ['r','e','t','u','r','n'] ]
-                              `imperf`     FUL,
+                              `imperf`     FUL
+                              `masdar`     FaCL
+                              `masdar`     FaCL |< aT
+                              `masdar`     FiyAL,
 
     FaCCaL                    `verb`    {- <'awwab> -}         [ ['r','e','p','e','a','t'] ],
 
@@ -838,6 +839,8 @@ cluster_65  = cluster
     FaCL |< aT                `noun`    {- <'awbaT> -}         [ ['r','e','t','u','r','n'] ],
 
     FiyAL                     `noun`    {- <'iyAb> -}          [ ['r','e','t','u','r','n'] ],
+
+    FAyiL                     `adj`     {- <'Ayib> -}          [ ['c','o','m','i','n','g'], ['r','e','t','u','r','n','i','n','g'] ],
 
     FaCCAL                    `noun`    {- <'awwAb> -}         [ ['p','e','n','i','t','e','n','t'] ]
                               `plural`     FaCCAL |< Un

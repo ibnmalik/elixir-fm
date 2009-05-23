@@ -46,11 +46,6 @@ cluster_4   = cluster
 
  |> ".h y l" <| [
 
-    FiCAL |<< "a"             `prep`    {- <.hiyAla> -}        [ ['c','o','n','c','e','r','n','i','n','g'], unwords [ ['w','i','t','h'], ['r','e','g','a','r','d'], ['t','o'] ] ],
-
-    IFtiCAL                   `noun`    {- <i.htiyAl> -}       [ ['f','r','a','u','d'], ['d','e','c','e','p','t','i','o','n'], ['c','h','e','a','t','i','n','g'] ]
-                              `plural`     IFtiCAL |< At,
-
     FACiL                     `noun`    {- <.hAyil> -}         [ ['H','a','y','i','l'], ['H','a','\'','i','l'] ],
 
     TaFaCCaL                  `verb`    {- <ta.hayyal> -}      [ unwords [ ['e','m','p','l','o','y'], ['a','r','t','f','u','l'], ['m','e','a','n','s'] ], unwords [ ['p','o','n','d','e','r'], ['w','a','y','s'], ['a','n','d'], ['m','e','a','n','s'] ] ],
@@ -63,6 +58,8 @@ cluster_4   = cluster
 
     FiCaL |< Iy               `adj`     {- <.hiyalIy> -}       [ ['c','u','n','n','i','n','g'] ],
 
+    FiCAL |<< "a"             `prep`    {- <.hiyAla> -}        [ ['c','o','n','c','e','r','n','i','n','g'], unwords [ ['w','i','t','h'], ['r','e','g','a','r','d'], ['t','o'] ] ],
+
     HaFCaL                    `adj`     {- <'a.hyal> -}        [ ['c','r','a','f','t','i','e','r'], unwords [ ['m','o','r','e'], ['c','u','n','n','i','n','g'] ] ],
 
     TaFaCCuL                  `noun`    {- <ta.hayyul> -}      [ ['t','r','i','c','k','e','r','y'] ]
@@ -73,8 +70,8 @@ cluster_4   = cluster
 
     TaFACuL |< Iy             `adj`     {- <ta.hAyulIy> -}     [ ['f','r','a','u','d','u','l','e','n','t'] ],
 
-    IFtiyAL                   `noun`    {- <i.htiyAl> -}       [ ['f','r','a','u','d'], ['d','e','c','e','p','t','i','o','n'], ['c','h','e','a','t','i','n','g'] ]
-                              `plural`     IFtiyAL |< At,
+    IFtiCAL                   `noun`    {- <i.htiyAl> -}       [ ['f','r','a','u','d'], ['d','e','c','e','p','t','i','o','n'], ['c','h','e','a','t','i','n','g'] ]
+                              `plural`     IFtiCAL |< At,
 
     MuFtAL                    `noun`    {- <mu.htAl> -}        [ ['d','e','c','e','i','t','f','u','l'], ['i','m','p','o','s','t','o','r'], ['a','s','s','i','g','n','e','e'] ]
                               `plural`     MuFtAL |< Un

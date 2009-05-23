@@ -1499,6 +1499,8 @@ cluster_77  = cluster
                            
     `derives` otherwise,
 
+    FiCL |< Iy                `adj`     {- <^ginnIy> -}        [ ['d','e','m','o','n','i','c'], unwords [ ['j','i','n','n'], "-", ['r','e','l','a','t','e','d'] ] ],
+
     FaCL |< aT                `noun`    {- <^gannaT> -}        [ ['p','a','r','a','d','i','s','e'], ['g','a','r','d','e','n'] ]
                               `plural`     FiCAL
                               `plural`     FaCL |< At,
