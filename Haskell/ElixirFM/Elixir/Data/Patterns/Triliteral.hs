@@ -883,7 +883,7 @@ data PatternT =
 
 --  Form I
 
-            FaCaL                       |   FAL         |   FaCY        |   FaCL        |   FA'
+            FaCaL                       |   FAL         |   FaCY        |   FaCL
                                                         |   FaCA
         |   FaCiL                                       |   FaCI
         |   FaCuL                                       |   FaCU
@@ -894,20 +894,15 @@ data PatternT =
         |   FCiL        |   CiL         |   FIL         |   FCI         |   FiCL        |   CI
         |   FCuL        |   CuL         |   FUL         |   FCU         |   FuCL        |   CU
 
-                                        |   FIy
-                                        |   FUw
+                                        |   FaL         |   FaC                         |   FY
+                                                                                        |   FA
+                                        |   FiL         |   FiC                         |   FI
+                                        |   FuL         |   FuC                         |   FU
 
-                                        |   FaL                                         |   FY
-                                        |   FiL                                         |   FI
-                                        |   FuL                                         |   FU
-
-    {-- |   FaCL    --}                 |   FayL        |   FaC
-    {-- |   FiCL    --} |   HiCL                        |   FiC
-    {-- |   FuCL    --} |   TuCL                        |   FuC
-
-                                                        |   FaCw
-                                                        |   FiCw
-                                                        |   FuCw
+    {-- |   FaCL    --}                 |   FayL        |   FaCw                        |   FAw
+                                                                                        |   FA'
+    {-- |   FiCL    --} |   HiCL                        |   FiCw                        |   FIy
+    {-- |   FuCL    --} |   TuCL                        |   FuCw                        |   FUw
 
                                                         |   IFC
 
@@ -919,7 +914,7 @@ data PatternT =
                                                         |   FaCAy
 
         |   FiCAL                       |   FiyAL       |   FiCA'                       |   FiyA'
-                        |   CAL                         |   FiCAh
+                        |   CAL                         |   FiCAh                       |   FiyAh
                                                         |   FiCAy
 
         |   FuCAL       |   TuCAL                       |   FuCA'
