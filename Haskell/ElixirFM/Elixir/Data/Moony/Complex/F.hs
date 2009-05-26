@@ -427,7 +427,7 @@ cluster_23  = cluster
 
     FaCCaL                    `verb`    {- <barra'> -}         [ ['a','b','s','o','l','v','e'], ['e','x','o','n','e','r','a','t','e'], ['p','a','r','d','o','n'] ],
 
-    HaFCaL                    `verb`    {- <'abra'> -}         [ ['a','c','q','u','i','t'], ['a','b','s','o','l','v','e'], ['e','x','o','n','e','r','a','t','e'], unwords [ ['b','e'], ['a','c','q','u','i','t','t','e','d'] ] ],
+    HaFCaL                    `verb`    {- <'abra'> -}         [ ['a','c','q','u','i','t'], ['a','b','s','o','l','v','e'], ['e','x','o','n','e','r','a','t','e'] ],
 
     TaFaCCaL                  `verb`    {- <tabarra'> -}       [ unwords [ ['b','e'], ['a','b','s','o','l','v','e','d'] ], unwords [ ['b','e'], ['i','n','n','o','c','e','n','t'] ] ],
 

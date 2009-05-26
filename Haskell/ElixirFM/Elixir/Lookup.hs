@@ -18,6 +18,8 @@
 module Elixir.Lookup where
 
 
+import Elixir.Data
+
 import Elixir.System
 
 import Elixir.Template
@@ -29,8 +31,6 @@ import Elixir.Derive
 import Elixir.Inflect
 
 import Elixir.Resolve
-
-import Elixir.Data.Lexicons
 
 import Encode.Arabic
 

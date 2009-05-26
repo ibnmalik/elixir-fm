@@ -1243,7 +1243,7 @@ cluster_59  = cluster
 
     FaCCY                     `verb`    {- <naddY> -}          [ ['m','o','i','s','t','e','n'], unwords [ ['m','a','k','e'], ['d','a','m','p'] ] ],
 
-    HaFCY                     `verb`    {- <'andY> -}          [ ['m','o','i','s','t','e','n'], unwords [ ['m','a','k','e'], ['d','a','m','p'] ], unwords [ ['b','e'], ['d','a','m','p','e','n','e','d'] ] ],
+    HaFCY                     `verb`    {- <'andY> -}          [ ['m','o','i','s','t','e','n'], unwords [ ['m','a','k','e'], ['d','a','m','p'] ] ],
 
     TaFaCCY                   `verb`    {- <tanaddY> -}        [ unwords [ ['b','e'], ['m','o','i','s','t','e','n','e','d'] ], unwords [ ['a','p','p','e','a','r'], ['g','e','n','e','r','o','u','s'] ] ],
 
@@ -1663,7 +1663,7 @@ cluster_73  = cluster
     FaCA                      `verb`    {- <na.dA> -}          [ ['u','n','d','r','e','s','s'], ['d','w','i','n','d','l','e'], ['d','e','c','l','i','n','e'] ]
                               `imperf`     FCU,
 
-    FaCCY                     `verb`    {- <na.d.dY> -}        [ unwords [ ['t','a','k','e'], ['o','f','f'] ], ['s','t','r','i','p'], unwords [ ['b','e'], ['s','t','r','i','p','p','e','d'] ] ],
+    FaCCY                     `verb`    {- <na.d.dY> -}        [ unwords [ ['t','a','k','e'], ['o','f','f'] ], ['s','t','r','i','p'] ],
 
     HaFCY                     `verb`    {- <'an.dY> -}         [ ['e','x','h','a','u','s','t'], unwords [ ['m','a','k','e'], ['l','e','a','n'] ], unwords [ ['w','e','a','r'], ['o','u','t'] ], ['d','e','p','l','e','t','e'] ],
 

@@ -22,11 +22,11 @@ import Elixir.Lexicon.System
 
 import Elixir.Template
 
+import Elixir.Patterns
+
 import Elixir.System
 
 import Elixir.Pretty
-
-import Elixir.Data.Patterns
 
 
 instance Pretty (Wrap Nest) => Pretty [Lexicon] where

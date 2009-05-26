@@ -1450,7 +1450,7 @@ cluster_67  = cluster
 
     FACaL                     `verb`    {- <.gAla.t> -}        [ ['m','i','s','r','e','p','r','e','s','e','n','t'], ['f','a','l','s','i','f','y'], ['d','e','c','e','i','v','e'] ],
 
-    HaFCaL                    `verb`    {- <'a.gla.t> -}       [ unwords [ ['c','a','u','s','e'], ['t','o'], ['e','r','r'] ], unwords [ ['b','e'], ['f','o','r','c','e','d'], ['t','o'], ['e','r','r'] ] ],
+    HaFCaL                    `verb`    {- <'a.gla.t> -}       [ unwords [ ['c','a','u','s','e'], ['t','o'], ['e','r','r'] ] ],
 
     TaFACaL                   `verb`    {- <ta.gAla.t> -}      [ unwords [ ['m','i','s','l','e','a','d'], ['e','a','c','h'], ['o','t','h','e','r'] ] ],
 
@@ -1808,7 +1808,7 @@ cluster_83  = cluster
 
     FaCCaL                    `verb`    {- <.gamma.d> -}       [ unwords [ ['m','a','k','e'], ['o','b','s','c','u','r','e'] ], unwords [ ['m','a','k','e'], ['a','b','s','t','r','u','s','e'] ] ],
 
-    HaFCaL                    `verb`    {- <'a.gma.d> -}       [ ['b','l','u','r'], ['b','l','i','n','d'], unwords [ ['b','e'], ['b','l','u','r','r','e','d'] ] ],
+    HaFCaL                    `verb`    {- <'a.gma.d> -}       [ ['b','l','u','r'], ['b','l','i','n','d'] ],
 
     InFaCaL                   `verb`    {- <in.gama.d> -}      [ ['c','l','o','s','e'] ],
 

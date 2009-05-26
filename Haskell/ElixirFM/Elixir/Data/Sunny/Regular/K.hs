@@ -265,7 +265,7 @@ cluster_15  = cluster
 
     FaCCaL                    `verb`    {- <^sarrad> -}        [ ['d','i','s','p','o','s','s','e','s','s'], unwords [ ['m','a','k','e'], ['h','o','m','e','l','e','s','s'] ] ],
 
-    HaFCaL                    `verb`    {- <'a^srad> -}        [ unwords [ ['c','h','a','s','e'], ['a','w','a','y'] ], unwords [ ['b','e'], ['c','h','a','s','e','d'], ['a','w','a','y'] ] ],
+    HaFCaL                    `verb`    {- <'a^srad> -}        [ unwords [ ['c','h','a','s','e'], ['a','w','a','y'] ] ],
 
     TaFaCCaL                  `verb`    {- <ta^sarrad> -}      [ unwords [ ['b','e'], ['d','i','s','p','o','s','s','e','s','s','e','d'] ], unwords [ ['b','e'], ['m','a','d','e'], ['h','o','m','e','l','e','s','s'] ], ['r','o','a','m'] ],
 
@@ -1321,7 +1321,7 @@ cluster_64  = cluster
     FaCaL                     `verb`    {- <^sa`an> -}         [ ['s','c','a','t','t','e','r'], ['t','o','u','s','l','e'] ]
                               `imperf`     FCaL,
 
-    HaFCaL                    `verb`    {- <'a^s`an> -}        [ unwords [ ['g','r','a','s','p'], ['b','y'], ['t','h','e'], ['h','a','i','r'] ], unwords [ ['b','e'], ['g','r','a','s','p','e','d'], ['b','y'], ['t','h','e'], ['h','a','i','r'] ] ] ]
+    HaFCaL                    `verb`    {- <'a^s`an> -}        [ unwords [ ['g','r','a','s','p'], ['b','y'], ['t','h','e'], ['h','a','i','r'] ] ] ]
 
 
 cluster_65  = cluster

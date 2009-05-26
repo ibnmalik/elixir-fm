@@ -705,7 +705,7 @@ cluster_44  = cluster
     FaCiL                     `verb`    {- <_da`in> -}         [ ['s','u','b','m','i','t'], ['y','i','e','l','d'], ['o','b','e','y'] ]
                               `imperf`     FCaL,
 
-    HaFCaL                    `verb`    {- <'a_d`an> -}        [ ['s','u','b','m','i','t'], ['y','i','e','l','d'], ['o','b','e','y'], unwords [ ['b','e'], ['s','u','b','m','i','t','t','e','d'], ['t','o'] ], unwords [ ['b','e'], ['y','i','e','l','d','e','d'], ['t','o'] ] ],
+    HaFCaL                    `verb`    {- <'a_d`an> -}        [ ['s','u','b','m','i','t'], ['y','i','e','l','d'], ['o','b','e','y'] ],
 
     MuFACaL |< aT             `noun`    {- <mu_dA`anaT> -}     [ ['s','u','b','m','i','s','s','i','v','e','n','e','s','s'], ['c','o','m','p','l','i','a','n','c','e'], ['o','b','e','d','i','e','n','c','e'] ],
 

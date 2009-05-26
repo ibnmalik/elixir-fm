@@ -154,7 +154,7 @@ cluster_6   = cluster
 
     FaCCaL                    `verb`    {- <`a.s.sab> -}       [ ['w','r','a','p'] ],
 
-    HaFCaL                    `verb`    {- <'a`.sab> -}        [ ['w','r','a','p'], unwords [ ['b','e'], ['w','r','a','p','p','e','d'] ] ],
+    HaFCaL                    `verb`    {- <'a`.sab> -}        [ ['w','r','a','p'] ],
 
     TaFaCCaL                  `verb`    {- <ta`a.s.sab> -}     [ unwords [ ['b','e'], ['f','a','n','a','t','i','c','a','l'] ], unwords [ ['b','e'], ['i','n','t','o','l','e','r','a','n','t'] ] ],
 
@@ -1210,7 +1210,7 @@ cluster_41  = cluster
 
     FACaL                     `verb`    {- <`Aqar> -}          [ unwords [ ['b','e'], ['a','d','d','i','c','t','e','d'], ['t','o'] ] ],
 
-    HaFCaL                    `verb`    {- <'a`qar> -}         [ ['s','t','u','n'], unwords [ ['b','e'], ['s','t','u','n','n','e','d'] ] ],
+    HaFCaL                    `verb`    {- <'a`qar> -}         [ ['s','t','u','n'] ],
 
     FuCL                      `noun`    {- <`uqr> -}           [ ['s','t','e','r','i','l','i','t','y'] ],
 

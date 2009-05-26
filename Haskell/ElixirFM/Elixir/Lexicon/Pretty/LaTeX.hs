@@ -20,7 +20,7 @@ module Elixir.Lexicon.Pretty.LaTeX where
 
 import Elixir.Lexicon.System
 
-import Elixir.Data.Patterns
+import Elixir.Patterns
 
 import Elixir.Pretty
 

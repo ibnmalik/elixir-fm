@@ -634,7 +634,7 @@ cluster_40  = cluster
                               `imperf`     FiCL
                               `pfirst`     FaCaL,
 
-    HaFaCL                    `verb`    {- <'afarr> -}         [ unwords [ ['s','c','a','r','e'], ['o','f','f'] ], unwords [ ['b','e'], ['s','c','a','r','e','d'], ['o','f','f'] ] ],
+    HaFaCL                    `verb`    {- <'afarr> -}         [ unwords [ ['s','c','a','r','e'], ['o','f','f'] ] ],
 
     IFtaCL                    `verb`    {- <iftarr> -}         [ ['g','l','e','a','m'], ['s','h','i','n','e'], ['r','e','v','e','a','l'] ],
 

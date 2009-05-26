@@ -4,7 +4,7 @@
 
 -- |
 --
--- Module      :  Elixir.Data.Lexicons
+-- Module      :  Elixir.Data
 -- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
@@ -15,7 +15,7 @@
 -- "ElixirFM"
 
 
-module Elixir.Data.Lexicons (lexicon) where
+module Elixir.Data (lexicon) where
 
 
 import qualified Elixir.Data.Moony

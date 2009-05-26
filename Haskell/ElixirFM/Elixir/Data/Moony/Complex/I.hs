@@ -2027,7 +2027,7 @@ cluster_88  = cluster
 
     TaFaCCY                   `verb`    {- <ta`arrY> -}        [ ['u','n','d','r','e','s','s'], ['s','t','r','i','p'] ],
 
-    IstaFCY                   `verb`    {- <ista`rY> -}        [ ['u','n','d','r','e','s','s'], ['s','t','r','i','p'], unwords [ ['b','e'], ['s','t','r','i','p','p','e','d'], ['b','a','r','e'] ] ],
+    IstaFCY                   `verb`    {- <ista`rY> -}        [ ['u','n','d','r','e','s','s'], ['s','t','r','i','p'] ],
 
     FuCL                      `noun`    {- <`ury> -}           [ ['n','a','k','e','d','n','e','s','s'], ['b','a','r','e','n','e','s','s'] ],
 

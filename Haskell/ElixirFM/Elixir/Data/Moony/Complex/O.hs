@@ -336,7 +336,7 @@ cluster_16  = cluster
 
     FaCCaL                    `verb`    {- <mayyaz> -}         [ ['d','i','s','t','i','n','g','u','i','s','h'], ['d','i','f','f','e','r','e','n','t','i','a','t','e'], ['d','i','s','c','r','i','m','i','n','a','t','e'] ],
 
-    HaFAL                     `verb`    {- <'amAz> -}          [ ['d','i','s','t','i','n','g','u','i','s','h'], ['p','r','e','f','e','r'], unwords [ ['b','e'], ['p','r','e','f','e','r','r','e','d'] ] ],
+    HaFAL                     `verb`    {- <'amAz> -}          [ ['d','i','s','t','i','n','g','u','i','s','h'], ['p','r','e','f','e','r'] ],
 
     TaFaCCaL                  `verb`    {- <tamayyaz> -}       [ unwords [ ['b','e'], ['d','i','s','t','i','n','g','u','i','s','h','e','d'] ], unwords [ ['s','t','a','n','d'], ['o','u','t'] ], ['d','i','s','c','e','r','n'], ['d','i','s','t','i','n','g','u','i','s','h'] ],
 
@@ -1783,7 +1783,7 @@ cluster_85  = cluster
 
     FaCCaL                    `verb`    {- <hayyab> -}         [ ['i','n','t','i','m','i','d','a','t','e'] ],
 
-    HaFAL                     `verb`    {- <'ahAb> -}          [ unwords [ ['c','a','l','l'], ['o','n'] ], ['a','p','p','e','a','l'], unwords [ ['b','e'], ['c','a','l','l','e','d'], ['o','n'] ] ],
+    HaFAL                     `verb`    {- <'ahAb> -}          [ unwords [ ['c','a','l','l'], ['o','n'] ], ['a','p','p','e','a','l'] ],
 
     TaFaCCaL                  `verb`    {- <tahayyab> -}       [ ['f','e','a','r'], ['r','e','s','p','e','c','t'] ],
 
@@ -1835,7 +1835,7 @@ cluster_87  = cluster
 
     FaCCaL                    `verb`    {- <hayya^g> -}        [ ['a','g','i','t','a','t','e'], unwords [ ['s','t','i','r'], ['u','p'] ], ['p','r','o','v','o','k','e'] ],
 
-    HaFAL                     `verb`    {- <'ahA^g> -}         [ ['a','g','i','t','a','t','e'], unwords [ ['s','t','i','r'], ['u','p'] ], ['p','r','o','v','o','k','e'], unwords [ ['b','e'], ['s','t','i','r','r','e','d'], ['u','p'] ] ],
+    HaFAL                     `verb`    {- <'ahA^g> -}         [ ['a','g','i','t','a','t','e'], unwords [ ['s','t','i','r'], ['u','p'] ], ['p','r','o','v','o','k','e'] ],
 
     TaFaCCaL                  `verb`    {- <tahayya^g> -}      [ unwords [ ['b','e'], ['a','g','i','t','a','t','e','d'] ], unwords [ ['b','e'], ['p','r','o','v','o','k','e','d'] ], unwords [ ['b','e'], ['i','r','r','i','t','a','t','e','d'] ] ],
 

@@ -427,7 +427,7 @@ cluster_39  = cluster
 
  |> "s h b" <| [
 
-    HaFCaL                    `verb`    {- <'ashab> -}         [ ['e','l','a','b','o','r','a','t','e'], unwords [ ['d','i','s','c','u','s','s'], ['i','n'], ['d','e','t','a','i','l'] ], unwords [ ['b','e'], ['d','i','s','c','u','s','s','e','d'], ['i','n'], ['d','e','t','a','i','l'] ] ],
+    HaFCaL                    `verb`    {- <'ashab> -}         [ ['e','l','a','b','o','r','a','t','e'], unwords [ ['d','i','s','c','u','s','s'], ['i','n'], ['d','e','t','a','i','l'] ] ],
 
     FuCL                      `noun`    {- <suhb> -}           [ ['s','t','e','p','p','e'] ]
                               `plural`     FuCUL,
@@ -570,7 +570,7 @@ cluster_45  = cluster
 
     FACaL                     `verb`    {- <sAham> -}          [ ['p','a','r','t','i','c','i','p','a','t','e'], ['c','o','n','t','r','i','b','u','t','e'] ],
 
-    HaFCaL                    `verb`    {- <'asham> -}         [ ['p','a','r','t','i','c','i','p','a','t','e'], ['c','o','n','t','r','i','b','u','t','e'], ['s','h','a','r','e'], unwords [ ['b','e'], ['c','o','n','t','r','i','b','u','t','e','d'], ['t','o'] ], unwords [ ['b','e'], ['s','h','a','r','e','d'], ['i','n'] ] ],
+    HaFCaL                    `verb`    {- <'asham> -}         [ ['p','a','r','t','i','c','i','p','a','t','e'], ['c','o','n','t','r','i','b','u','t','e'], ['s','h','a','r','e'] ],
 
     FuCUL                     `noun`    {- <suhUm> -}          [ ['g','r','a','v','e','n','e','s','s'], ['s','a','d','n','e','s','s'] ],
 

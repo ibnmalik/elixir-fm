@@ -4,7 +4,7 @@
 
 -- |
 --
--- Module      :  Elixir.Data.Patterns
+-- Module      :  Elixir.Patterns
 -- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
@@ -15,7 +15,7 @@
 -- "ElixirFM" "Elixir.Template"
 
 
-module Elixir.Data.Patterns (
+module Elixir.Patterns (
 
         PatternL (..), _____,
 
@@ -30,11 +30,11 @@ import Elixir.Template
 
 import Elixir.System
 
-import Elixir.Data.Patterns.Literal
+import Elixir.Patterns.Literal
 
-import Elixir.Data.Patterns.Triliteral
+import Elixir.Patterns.Triliteral
 
-import Elixir.Data.Patterns.Quadriliteral
+import Elixir.Patterns.Quadriliteral
 
 import Data.List (isSuffixOf)
 

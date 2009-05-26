@@ -550,7 +550,7 @@ cluster_36  = cluster
     FaCiL                     `verb`    {- <tarif> -}          [ unwords [ ['l','i','v','e'], ['i','n'], ['l','u','x','u','r','y'] ] ]
                               `imperf`     FCaL,
 
-    HaFCaL                    `verb`    {- <'atraf> -}         [ unwords [ ['s','u','r','r','o','u','n','d'], ['w','i','t','h'], ['l','u','x','u','r','y'] ], unwords [ ['b','e'], ['s','u','r','r','o','u','n','d','e','d'], ['w','i','t','h'], ['l','u','x','u','r','y'] ] ],
+    HaFCaL                    `verb`    {- <'atraf> -}         [ unwords [ ['s','u','r','r','o','u','n','d'], ['w','i','t','h'], ['l','u','x','u','r','y'] ] ],
 
     TaFaCCaL                  `verb`    {- <tatarraf> -}       [ unwords [ ['l','i','v','e'], ['i','n'], ['l','u','x','u','r','y'] ] ],
 

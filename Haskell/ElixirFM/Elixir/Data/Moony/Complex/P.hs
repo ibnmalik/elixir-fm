@@ -753,7 +753,7 @@ cluster_44  = cluster
 
     FaCCaL                    `verb`    {- <wa^g^gah> -}       [ ['s','e','n','d'], ['d','i','r','e','c','t'] ],
 
-    FACaL                     `verb`    {- <wA^gah> -}         [ ['f','a','c','e'], unwords [ ['b','e'], ['f','a','c','e','d'], ['w','i','t','h'] ], ['c','o','n','f','r','o','n','t'] ],
+    FACaL                     `verb`    {- <wA^gah> -}         [ ['f','a','c','e'], ['c','o','n','f','r','o','n','t'] ],
 
     TaFaCCaL                  `verb`    {- <tawa^g^gah> -}     [ unwords [ ['g','o'], ['t','o','w','a','r','d','s'] ], unwords [ ['t','u','r','n'], ['t','o','w','a','r','d','s'] ], ['f','a','c','e'] ],
 

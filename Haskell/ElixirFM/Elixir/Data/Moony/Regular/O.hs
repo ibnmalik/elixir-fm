@@ -559,7 +559,7 @@ cluster_36  = cluster
 
     FACaL                     `verb`    {- <qAbal> -}          [ ['m','e','e','t'], ['f','a','c','e'] ],
 
-    HaFCaL                    `verb`    {- <'aqbal> -}         [ ['a','p','p','r','o','a','c','h'], unwords [ ['e','n','g','a','g','e'], ['i','n'] ], unwords [ ['b','e'], ['e','n','g','a','g','e','d'], ['i','n'] ] ],
+    HaFCaL                    `verb`    {- <'aqbal> -}         [ ['a','p','p','r','o','a','c','h'], unwords [ ['e','n','g','a','g','e'], ['i','n'] ] ],
 
     TaFaCCaL                  `verb`    {- <taqabbal> -}       [ ['r','e','c','e','i','v','e'], ['a','c','c','e','p','t'] ],
 
@@ -920,7 +920,7 @@ cluster_50  = cluster
     FaCaL                     `verb`    {- <qa.ham> -}         [ unwords [ ['b','u','r','s','t'], ['i','n','t','o'] ], unwords [ ['t','a','k','e'], ['b','y'], ['s','t','o','r','m'] ], unwords [ ['u','n','d','e','r','t','a','k','e'], ['b','o','l','d','l','y'] ] ]
                               `imperf`     FCuL,
 
-    HaFCaL                    `verb`    {- <'aq.ham> -}        [ ['s','q','u','e','e','z','e'], ['c','r','a','m'], unwords [ ['b','e'], ['c','r','a','m','m','e','d'] ] ],
+    HaFCaL                    `verb`    {- <'aq.ham> -}        [ ['s','q','u','e','e','z','e'], ['c','r','a','m'] ],
 
     IFtaCaL                   `verb`    {- <iqta.ham> -}       [ ['a','s','s','a','u','l','t'], ['s','t','o','r','m'], unwords [ ['b','u','r','s','t'], ['i','n','t','o'] ] ],
 

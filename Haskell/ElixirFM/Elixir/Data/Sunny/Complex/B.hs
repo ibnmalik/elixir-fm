@@ -429,9 +429,9 @@ cluster_11  = cluster
     FaCI                      `verb`    {- <damI> -}           [ ['b','l','e','e','d'] ]
                               `imperf`     FCY,
 
-    FaCCY                     `verb`    {- <dammY> -}          [ unwords [ ['m','a','k','e'], ['b','l','e','e','d'] ], unwords [ ['b','e'], ['b','l','e','d'] ] ],
+    FaCCY                     `verb`    {- <dammY> -}          [ unwords [ ['m','a','k','e'], ['b','l','e','e','d'] ] ],
 
-    HaFCY                     `verb`    {- <'admY> -}          [ unwords [ ['m','a','k','e'], ['b','l','e','e','d'] ], unwords [ ['b','e'], ['b','l','e','d'] ] ],
+    HaFCY                     `verb`    {- <'admY> -}          [ unwords [ ['m','a','k','e'], ['b','l','e','e','d'] ] ],
 
     FaC                       `noun`    {- <dam> -}            [ ['b','l','o','o','d'] ]
                               `plural`     FiCA',
@@ -1623,7 +1623,7 @@ cluster_72  = cluster
     FaCI                      `verb`    {- <_dawI> -}          [ ['w','i','t','h','e','r'], ['f','a','d','e'] ]
                               `imperf`     FCY,
 
-    HaFCY                     `verb`    {- <'a_dwY> -}         [ unwords [ ['m','a','k','e'], ['w','i','l','t'] ], unwords [ ['m','a','k','e'], ['d','r','y'] ], unwords [ ['b','e'], ['w','i','l','t','e','d'] ], unwords [ ['b','e'], ['d','r','i','e','d'] ] ],
+    HaFCY                     `verb`    {- <'a_dwY> -}         [ unwords [ ['m','a','k','e'], ['w','i','l','t'] ], unwords [ ['m','a','k','e'], ['d','r','y'] ] ],
 
     FACI                      `adj`     {- <_dAwI> -}          [ ['w','i','t','h','e','r','e','d'], ['f','a','d','e','d'] ]
                               `plural`     FACI |< At ]

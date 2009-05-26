@@ -718,7 +718,7 @@ cluster_35  = cluster
 
     FaCCaL                    `verb`    {- <saddal> -}         [ unwords [ ['l','e','t'], ['h','a','n','g'] ], unwords [ ['l','e','t'], ['d','r','o','p'] ] ],
 
-    HaFCaL                    `verb`    {- <'asdal> -}         [ unwords [ ['l','e','t'], ['h','a','n','g'] ], unwords [ ['l','e','t'], ['d','r','o','p'] ], unwords [ ['b','e'], ['l','e','f','t'], ['h','a','n','g','i','n','g'] ], unwords [ ['b','e'], ['a','l','l','o','w','e','d'], ['t','o'], ['d','r','o','p'] ] ],
+    HaFCaL                    `verb`    {- <'asdal> -}         [ unwords [ ['l','e','t'], ['h','a','n','g'] ], unwords [ ['l','e','t'], ['d','r','o','p'] ] ],
 
     TaFaCCaL                  `verb`    {- <tasaddal> -}       [ unwords [ ['h','a','n','g'], ['d','o','w','n'] ], unwords [ ['b','e'], ['l','o','w','e','r','e','d'] ] ],
 

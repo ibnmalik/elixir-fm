@@ -4,7 +4,7 @@
 
 -- |
 --
--- Module      :  Elixir.Data.Patterns.Literal
+-- Module      :  Elixir.Patterns.Literal
 -- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
@@ -15,7 +15,7 @@
 -- "ElixirFM" "Elixir.Template"
 
 
-module Elixir.Data.Patterns.Literal where
+module Elixir.Patterns.Literal where
 
 
 import Elixir.Template

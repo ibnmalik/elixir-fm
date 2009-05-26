@@ -782,7 +782,7 @@ cluster_58  = cluster
     FaCaL                     `verb`    {- <bada`> -}          [ ['i','n','n','o','v','a','t','e'], ['i','n','v','e','n','t'] ]
                               `imperf`     FCaL,
 
-    FaCCaL                    `verb`    {- <badda`> -}         [ ['e','x','c','e','l'], unwords [ ['b','e'], ['e','x','c','e','l','l','e','d'] ] ],
+    FaCCaL                    `verb`    {- <badda`> -}         [ ['e','x','c','e','l'] ],
 
     HaFCaL                    `verb`    {- <'abda`> -}         [ ['i','n','n','o','v','a','t','e'], ['c','r','e','a','t','e'] ],
 

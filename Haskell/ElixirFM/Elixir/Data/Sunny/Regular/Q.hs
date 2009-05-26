@@ -333,7 +333,7 @@ cluster_21  = cluster
                               `masdar`     FaCL
                               `masdar`     FuCUL,
 
-    HaFCaL                    `verb`    {- <'anza.h> -}        [ unwords [ ['s','c','o','o','p'], ['o','u','t'] ], ['d','r','a','i','n'], unwords [ ['b','e'], ['s','c','o','o','p','e','d'], ['o','u','t'] ] ],
+    HaFCaL                    `verb`    {- <'anza.h> -}        [ unwords [ ['s','c','o','o','p'], ['o','u','t'] ], ['d','r','a','i','n'] ],
 
     IFtaCaL                   `verb`    {- <intaza.h> -}       [ ['e','m','i','g','r','a','t','e'] ],
 
@@ -451,7 +451,7 @@ cluster_25  = cluster
     FaCaL                     `verb`    {- <nazaf> -}          [ ['d','r','a','i','n'], ['b','l','e','e','d'] ]
                               `imperf`     FCiL,
 
-    HaFCaL                    `verb`    {- <'anzaf> -}         [ ['d','r','a','i','n'], ['b','l','e','e','d'], unwords [ ['b','e'], ['b','l','e','d'] ] ],
+    HaFCaL                    `verb`    {- <'anzaf> -}         [ ['d','r','a','i','n'], ['b','l','e','e','d'] ],
 
     IstaFCaL                  `verb`    {- <istanzaf> -}       [ ['d','r','a','i','n'], ['b','l','e','e','d'], ['e','x','h','a','u','s','t'] ],
 

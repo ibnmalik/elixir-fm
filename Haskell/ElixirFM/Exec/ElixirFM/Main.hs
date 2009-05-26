@@ -20,7 +20,8 @@ module Main where
 
 import Prelude hiding (lookup)
 
-import Elixir.Data.Lexicons
+import Elixir.Data
+
 import Elixir.Lexicon
 
 import Elixir.System
@@ -29,8 +30,8 @@ import Elixir.Pretty
 import Elixir.Resolve
 import Elixir.Inflect
 
-import Elixir.Lookup
 import Elixir.Derive
+import Elixir.Lookup
 
 import Elixir.Compose
 
@@ -48,7 +49,7 @@ import Data.List hiding (lookup)
 
 import Version
 
-version = Version [1, 1, max build 846] []
+version = Version [1, 1, max build 853] []
 
     where Version [build] [] = revised "$Revision$"
 
@@ -115,7 +116,7 @@ main = do   argv <- getArgs
                 PrintVersion    ->  warn (unlines [copyleft,
                                           unwords ["ElixirFM",
                                                    showVersion Main.version,
-                                                   "April 2009"]])
+                                                   "May 2009"]])
 
                 _               ->  warn (usageInfo synopsis options)
 

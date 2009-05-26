@@ -1286,7 +1286,7 @@ cluster_57  = cluster
 
     TaFaCCaL                  `verb`    {- <ta.harraq> -}      [ unwords [ ['b','e'], ['b','u','r','n','e','d'] ] ],
 
-    IFtaCaL                   `verb`    {- <i.htaraq> -}       [ unwords [ ['b','u','r','n'], ['u','p'] ], unwords [ ['b','e'], ['b','u','r','n','e','d'] ] ],
+    IFtaCaL                   `verb`    {- <i.htaraq> -}       [ unwords [ ['b','u','r','n'], ['u','p'] ] ],
 
     FaCL                      `noun`    {- <.harq> -}          [ ['b','u','r','n','i','n','g'], ['f','i','r','e'], ['b','u','r','n','s'] ]
                               `plural`     FuCUL,
@@ -1346,7 +1346,7 @@ cluster_59  = cluster
 
  |> ".h r k" <| [
 
-    FaCCaL                    `verb`    {- <.harrak> -}        [ unwords [ ['m','a','k','e'], ['m','o','v','e'] ], ['a','c','t','i','v','a','t','e'], ['s','t','i','m','u','l','a','t','e'], unwords [ ['b','e'], ['m','o','v','e','d'] ] ],
+    FaCCaL                    `verb`    {- <.harrak> -}        [ unwords [ ['m','a','k','e'], ['m','o','v','e'] ], ['a','c','t','i','v','a','t','e'], ['s','t','i','m','u','l','a','t','e'] ],
 
     TaFaCCaL                  `verb`    {- <ta.harrak> -}      [ ['m','o','v','e'], unwords [ ['g','e','t'], ['m','o','v','i','n','g'] ], unwords [ ['b','e'], ['s','e','t'], ['i','n'], ['m','o','t','i','o','n'] ] ],
 

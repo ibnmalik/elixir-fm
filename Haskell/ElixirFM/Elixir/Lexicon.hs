@@ -21,7 +21,7 @@ module Elixir.Lexicon (
 
         module Elixir.Lexicon.Pretty,
 
-        module Elixir.Data.Patterns,
+        module Elixir.Patterns,
 
         module Elixir.Template,
 
@@ -36,7 +36,7 @@ import Elixir.Lexicon.System
 
 import Elixir.Lexicon.Pretty
 
-import Elixir.Data.Patterns
+import Elixir.Patterns
 
 import Elixir.Template
 

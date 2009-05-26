@@ -20,6 +20,8 @@ module Elixir.Compose where
 
 import Prelude hiding (lookup)
 
+import Elixir.Data
+
 import Elixir.System
 
 import Elixir.Template
@@ -29,8 +31,6 @@ import Elixir.Lexicon
 import Elixir.Inflect
 
 import Elixir.Lookup
-
-import Elixir.Data.Lexicons
 
 import Elixir.Pretty
 

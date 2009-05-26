@@ -1986,7 +1986,7 @@ cluster_73  = cluster
 
  |> ".h w ^g" <| [
 
-    HaFCaL                    `verb`    {- <'a.hwa^g> -}       [ ['n','e','e','d'], ['r','e','q','u','i','r','e'], unwords [ ['b','e'], ['n','e','e','d'] ] ],
+    HaFCaL                    `verb`    {- <'a.hwa^g> -}       [ ['n','e','e','d'], ['r','e','q','u','i','r','e'] ],
 
     IFtAL                     `verb`    {- <i.htA^g> -}        [ ['n','e','e','d'], ['w','a','n','t'] ],
 

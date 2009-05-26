@@ -4,7 +4,7 @@
 
 -- |
 --
--- Module      :  Elixir.Data.Patterns.Triliteral
+-- Module      :  Elixir.Patterns.Triliteral
 -- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
@@ -15,7 +15,7 @@
 -- "ElixirFM" "Elixir.Template"
 
 
-module Elixir.Data.Patterns.Triliteral where
+module Elixir.Patterns.Triliteral where
 
 
 import Elixir.Template

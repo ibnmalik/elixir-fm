@@ -1725,10 +1725,10 @@ cluster_62  = cluster
 
  |> ".g _d w" <| [
 
-    FaCA                      `verb`    {- <.ga_dA> -}         [ ['f','e','e','d'], ['n','o','u','r','i','s','h'], unwords [ ['b','e'], ['f','e','d'] ] ]
+    FaCA                      `verb`    {- <.ga_dA> -}         [ ['f','e','e','d'], ['n','o','u','r','i','s','h'] ]
                               `imperf`     FCU,
 
-    FaCCY                     `verb`    {- <.ga_d_dY> -}       [ ['f','e','e','d'], ['n','o','u','r','i','s','h'], unwords [ ['b','e'], ['f','e','d'] ] ],
+    FaCCY                     `verb`    {- <.ga_d_dY> -}       [ ['f','e','e','d'], ['n','o','u','r','i','s','h'] ],
 
     TaFaCCY                   `verb`    {- <ta.ga_d_dY> -}     [ unwords [ ['b','e'], ['f','e','d'] ], unwords [ ['b','e'], ['n','o','u','r','i','s','h','e','d'] ] ],
 
@@ -1810,7 +1810,7 @@ cluster_64  = cluster
 
     HuFCI                     `verb`    {- <'u.grI> -}         [ unwords [ ['b','e'], ['s','e','d','u','c','e','d'] ] ],
 
-    FaCA                      `verb`    {- <.garA> -}          [ unwords [ ['g','l','u','e'], ['t','o','g','e','t','h','e','r'] ], unwords [ ['b','e'], ['g','l','u','e','d'], ['t','o','g','e','t','h','e','r'] ] ]
+    FaCA                      `verb`    {- <.garA> -}          [ unwords [ ['g','l','u','e'], ['t','o','g','e','t','h','e','r'] ] ]
                               `imperf`     FCU,
 
     FaCCY                     `verb`    {- <.garrY> -}         [ ['g','l','u','e'] ],
@@ -2369,7 +2369,7 @@ cluster_87  = cluster
 
  |> ".g m y" <| [
 
-    FaCY                      `verb`    {- <.gamY> -}          [ unwords [ ['c','o','v','e','r'], ['w','i','t','h'], "a", ['r','o','o','f'] ], unwords [ ['b','e'], ['c','o','v','e','r','e','d'], ['w','i','t','h'], "a", ['r','o','o','f'] ], ['f','a','i','n','t'], unwords [ ['l','o','s','e'], ['c','o','n','s','c','i','o','u','s','n','e','s','s'] ] ]
+    FaCY                      `verb`    {- <.gamY> -}          [ unwords [ ['c','o','v','e','r'], ['w','i','t','h'], "a", ['r','o','o','f'] ], ['f','a','i','n','t'], unwords [ ['l','o','s','e'], ['c','o','n','s','c','i','o','u','s','n','e','s','s'] ] ]
                               `imperf`     FCI,
 
     FaCCY                     `verb`    {- <.gammY> -}         [ ['b','l','i','n','d','f','o','l','d'] ],
@@ -2427,7 +2427,7 @@ cluster_89  = cluster
 
     IFtaCY                    `verb`    {- <i.gtanY> -}        [ unwords [ ['b','e','c','o','m','e'], ['r','i','c','h'] ] ],
 
-    IstaFCY                   `verb`    {- <ista.gnY> -}       [ unwords [ ['d','i','s','p','e','n','s','e'], ['w','i','t','h'] ], unwords [ ['m','a','n','a','g','e'], ['w','i','t','h','o','u','t'] ], unwords [ ['b','e'], ['d','i','s','p','e','n','s','e','d'], ['w','i','t','h'] ] ],
+    IstaFCY                   `verb`    {- <ista.gnY> -}       [ unwords [ ['d','i','s','p','e','n','s','e'], ['w','i','t','h'] ], unwords [ ['m','a','n','a','g','e'], ['w','i','t','h','o','u','t'] ] ],
 
     FiCY                      `noun`    {- <.ginY> -}          [ ['w','e','a','l','t','h'] ]
                               `plural`     FuCL |< aT,

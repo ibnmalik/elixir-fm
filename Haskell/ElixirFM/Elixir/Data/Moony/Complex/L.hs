@@ -2151,7 +2151,7 @@ cluster_99  = cluster
 
     FaCCY                     `verb`    {- <qawwY> -}          [ ['s','t','r','e','n','g','t','h','e','n'] ],
 
-    FACY                      `verb`    {- <qAwY> -}           [ unwords [ ['c','o','m','p','e','t','e'], ['w','i','t','h'] ], unwords [ ['b','e'], ['c','o','m','p','e','t','e','d'], ['w','i','t','h'] ] ],
+    FACY                      `verb`    {- <qAwY> -}           [ unwords [ ['c','o','m','p','e','t','e'], ['w','i','t','h'] ] ],
 
     HaFCY                     `verb`    {- <'aqwY> -}          [ unwords [ ['b','e'], ['d','e','s','o','l','a','t','e'] ] ],
 

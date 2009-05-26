@@ -20,11 +20,11 @@ module Elixir.Lexicon.System where
 
 import Elixir.Template
 
+import Elixir.Patterns
+
 import Elixir.System
 
 import Elixir.Pretty
-
-import Elixir.Data.Patterns
 
 
 include :: [Lexicon] -> Lexicon

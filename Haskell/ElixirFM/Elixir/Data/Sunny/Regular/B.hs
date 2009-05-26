@@ -966,7 +966,7 @@ cluster_67  = cluster
     FaCaL                     `verb`    {- <dabar> -}          [ unwords [ ['t','u','r','n'], ['t','h','e'], ['b','a','c','k'] ], ['e','l','a','p','s','e'], ['p','a','s','s'] ]
                               `imperf`     FCuL,
 
-    FaCCaL                    `verb`    {- <dabbar> -}         [ unwords [ ['m','a','k','e'], ['p','l','a','n','s'] ], ['a','r','r','a','n','g','e'], ['m','a','n','a','g','e'], unwords [ ['b','e'], ['p','l','a','n','n','e','d'] ] ],
+    FaCCaL                    `verb`    {- <dabbar> -}         [ unwords [ ['m','a','k','e'], ['p','l','a','n','s'] ], ['a','r','r','a','n','g','e'], ['m','a','n','a','g','e'] ],
 
     HaFCaL                    `verb`    {- <'adbar> -}         [ unwords [ ['t','u','r','n'], ['t','h','e'], ['b','a','c','k'] ], ['f','l','e','e'], ['d','o','d','g','e'] ],
 

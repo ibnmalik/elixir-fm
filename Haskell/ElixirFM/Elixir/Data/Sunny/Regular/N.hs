@@ -856,7 +856,7 @@ cluster_47  = cluster
 
     FaCCaL                    `verb`    {- <.ta``am> -}        [ ['i','n','l','a','y'], ['v','a','c','c','i','n','a','t','e'] ],
 
-    HaFCaL                    `verb`    {- <'a.t`am> -}        [ ['f','e','e','d'], unwords [ ['b','e'], ['f','e','d'] ] ],
+    HaFCaL                    `verb`    {- <'a.t`am> -}        [ ['f','e','e','d'] ],
 
     TaFaCCaL                  `verb`    {- <ta.ta``am> -}      [ ['t','a','s','t','e'] ],
 

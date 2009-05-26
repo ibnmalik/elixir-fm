@@ -38,7 +38,8 @@ module ElixirFM where
 
 import Prelude hiding (lookup)
 
-import Elixir.Data.Lexicons
+import Elixir.Data
+
 import Elixir.Lexicon
 
 import Elixir.System
@@ -47,8 +48,8 @@ import Elixir.Pretty
 import Elixir.Resolve
 import Elixir.Inflect
 
-import Elixir.Lookup
 import Elixir.Derive
+import Elixir.Lookup
 
 import Elixir.Compose
 

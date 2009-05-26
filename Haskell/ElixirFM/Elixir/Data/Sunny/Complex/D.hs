@@ -2212,7 +2212,7 @@ cluster_99  = cluster
 
     FACaL                     `verb`    {- <sAwam> -}          [ ['b','a','r','g','a','i','n'], ['h','a','g','g','l','e'] ],
 
-    HaFAL                     `verb`    {- <'asAm> -}          [ unwords [ ['l','e','t'], ['w','a','n','d','e','r'] ], unwords [ ['b','e'], ['a','l','l','o','w','e','d'], ['t','o'], ['w','a','n','d','e','r'] ] ],
+    HaFAL                     `verb`    {- <'asAm> -}          [ unwords [ ['l','e','t'], ['w','a','n','d','e','r'] ] ],
 
     TaFACaL                   `verb`    {- <tasAwam> -}        [ ['b','a','r','g','a','i','n'], ['h','a','g','g','l','e'] ],
 

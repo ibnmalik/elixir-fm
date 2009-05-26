@@ -573,7 +573,7 @@ cluster_28  = cluster
 
  |> ".t .g w" <| [
 
-    FaCA                      `verb`    {- <.ta.gA> -}         [ ['o','v','e','r','s','t','e','p'], unwords [ ['b','e'], ['e','x','c','e','s','s','i','v','e'] ], unwords [ ['b','e'], ['o','v','e','r','s','t','e','p','p','e','d'] ] ]
+    FaCA                      `verb`    {- <.ta.gA> -}         [ ['o','v','e','r','s','t','e','p'], unwords [ ['b','e'], ['e','x','c','e','s','s','i','v','e'] ] ]
                               `imperf`     FCU,
 
     FaCA                      `noun`    {- <.ta.gA> -}         [ ['e','x','c','e','s','s'] ],

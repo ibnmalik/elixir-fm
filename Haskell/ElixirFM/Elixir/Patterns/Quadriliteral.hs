@@ -4,7 +4,7 @@
 
 -- |
 --
--- Module      :  Elixir.Data.Patterns.Quadriliteral
+-- Module      :  Elixir.Patterns.Quadriliteral
 -- Copyright   :  Otakar Smrz 2005-2009
 -- License     :  GPL
 --
@@ -15,7 +15,7 @@
 -- "ElixirFM" "Elixir.Template"
 
 
-module Elixir.Data.Patterns.Quadriliteral where
+module Elixir.Patterns.Quadriliteral where
 
 
 import Elixir.Template
