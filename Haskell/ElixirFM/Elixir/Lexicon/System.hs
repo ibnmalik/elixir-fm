@@ -302,9 +302,9 @@ verb m = Entry (morph m) (Verb forms [] [] [] justT justV []) (TagsVerb [], [])
           reduce (x : _) = [x]
           reduce []      = []
 
-          roots I = ["F C C", "F C L", "w C L", "r ' y"]
-          roots X = ["w C L", "F C L"]
-          roots _ = ["F C L"]
+          roots I = ["F C L", "w C L", "F C C", "r ' y"]
+          roots X = ["F C L", "w C L"]
+          roots _ = ["F C L"]               -- covered otherwise
 
           stems = [ s | f <- forms, r <- roots f, s <- verbStems f r ]
 

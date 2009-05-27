@@ -136,8 +136,6 @@ instance Forming String where
     verbStems VII _ = [
 
         (   Nothing,    "InFaCaL",  "UnFuCiL",  "NFaCiL",   "NFaCaL"    ),
-        (   Just   (    "InFaL",    "UnFiL",    "NFaL",     "NFaL"      ),
-                        "InFAL",    "UnFIL",    "NFAL",     "NFAL"      ),
         (   Nothing,    "InFaCY",   "UnFuCI",   "NFaCI",    "NFaCY"     )
 
         ]
@@ -155,7 +153,6 @@ instance Forming String where
     nounStems VII _ = [
 
         (   "InFaCaL",  "MunFaCiL", "MunFaCaL", morph   "InFiCAL"       ),
-        (   "InFAL",    "MunFAL",   "MunFAL",   morph   "InFiCAL"       ),
         (   "InFaCY",   "MunFaCI",  "MunFaCY",  morph   "InFiCA'"       )
 
         ]
