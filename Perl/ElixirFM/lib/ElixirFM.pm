@@ -526,11 +526,13 @@ sub parse {
     return $parser->parse($_[0]);
 }
 
-sub unpretty {
+sub unpretty (@) {
 
-    my ($data, $mode) = (@_, '');
+    my ($data, $mode) = @_;
 
     my @data;
+
+    $mode = $data =~ /^\s*[:]{4}/ ? 'resolve' : $data =~ /[>]\s*$/ ? 'lookup' : '' unless defined $mode;
 
     if ($mode eq 'resolve') {
 
