@@ -132,23 +132,23 @@ assimVIII c normal = case c of
 
 instance Rules PatternT where
 
-    isForm f x = x `elem` case f of
+    isForm f x = case f of
 
-                            I       ->  init [FaCaL .. FaCCaL] ++ [FACiL, FACI, FACL]
-                            II      ->  init [FaCCaL .. FACaL] ++ [TaFACI]
-                            III     ->  init [FACaL .. HaFCaL]
-                            IV      ->  init [HaFCaL .. TaFaCCaL]
-                            V       ->  init [TaFaCCaL .. TaFACaL]
-                            VI      ->  init [TaFACaL .. InFaCaL]
-                            VII     ->  init [InFaCaL .. IFtaCaL]
-                            VIII    ->  init [IFtaCaL .. IFCaLL]
-                            IX      ->  init [IFCaLL .. IstaFCaL]
-                            X       ->  init [IstaFCaL .. IFCALL]
-                            XI      ->  init [IFCALL .. IFCawCaL]
-                            XII     ->  init [IFCawCaL .. IFCawwaL]
-                            XIII    ->  init [IFCawwaL .. IFCanLaL]
-                            XIV     ->  init [IFCanLaL .. IFCanLY]
-                            XV      ->  [IFCanLY ..]
+                            I       ->  inside  x  FaCaL    FaCCaL    ||  elem x [FACiL, FACI, FACL]
+                            II      ->  inside  x  FaCCaL   FACaL     ||  elem x [TaFACI]
+                            III     ->  inside  x  FACaL    HaFCaL
+                            IV      ->  inside  x  HaFCaL   TaFaCCaL
+                            V       ->  inside  x  TaFaCCaL TaFACaL
+                            VI      ->  inside  x  TaFACaL  InFaCaL
+                            VII     ->  inside  x  InFaCaL  IFtaCaL
+                            VIII    ->  inside  x  IFtaCaL  IFCaLL
+                            IX      ->  inside  x  IFCaLL   IstaFCaL
+                            X       ->  inside  x  IstaFCaL IFCALL
+                            XI      ->  inside  x  IFCALL   IFCawCaL
+                            XII     ->  inside  x  IFCawCaL IFCawwaL
+                            XIII    ->  inside  x  IFCawwaL IFCanLaL
+                            XIV     ->  inside  x  IFCanLaL IFCanLY
+                            XV      ->  not (inside x FaCaL IFCanLY)
 
    -- Fischer (2002), par. 239 (ra'Y, wa'Y), 258 (ya.hyY, ista.hY), 224 (participles)
    -- Fischer (2002), par. 243 (uy > uu), 33 ff (combinatory phonology), 250 (types)
@@ -242,34 +242,6 @@ instance Rules PatternT where
                             FaCLAn,
                             FaCALIL,
                             YaFACIL ]
-
-
-    isPassive = flip elem [ FuCiL, FIL, FuCI, FuCL,
-                            FuCCiL, FuCCI,
-                            FUCiL, FUCI, FUCL,
-                            HuFCiL, HUCiL, HuFIL, HuFCI, HuFiCL, HUCI,
-                            TuFuCCiL, TuFuCCI,
-                            TuFUCiL, TuFUCI, TuFUCL,
-                            UnFuCiL, UnFIL, UnFuCI, UnFuCL,
-                            UFtuCiL, UFtIL, UFtuCI, UFtuCL,
-                            UFCuLL, UFCuLI, UFCuLiL,
-                            UstuFCiL, UstUCiL, UstuFIL, UstuFCI, UstuFI, UstuFiCL, UstUCI,
-                            UFCULL, UFCULiL,
-                            UFCUCiL, UFCUCI,
-                            UFCUwiL,
-                            UFCunLiL,
-                            UFCunLY ]
-
-
-{-
-instance Rules (Morphs PatternT) where
-
-    isDiptote (Morphs t [] []) = isDiptote t
-    isDiptote x                = x `elem` []
-
-    isPassive (Morphs t [] []) = isPassive t
-    isPassive x                = x `elem` []
--}
 
 
 isFirst :: Root -> Bool

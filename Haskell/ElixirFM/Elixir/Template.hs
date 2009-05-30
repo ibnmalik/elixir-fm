@@ -127,6 +127,13 @@ takes (x : y) = x : takes y
 takes []      = []
 
 
+inside :: Enum a => a -> a -> a -> Bool
+
+inside x l r = fromEnum l <= y && y < fromEnum r
+
+    where y = fromEnum x
+
+
 unquote :: String -> [String]
 
 unquote [] = []
@@ -315,8 +322,6 @@ class Eq a => Rules a where
 
     isDiptote :: a -> Bool
 
-    isPassive :: a -> Bool
-
     prefixVerbI :: Form -> a -> Voice -> String
 
     prefixVerbC :: Form -> a -> String
@@ -327,9 +332,7 @@ class Eq a => Rules a where
     isForm _ = const False
 
     isInert _ = const False
-
     isDiptote = const True
-    isPassive = const False
 
     prefixVerbI _ _ _ = []
     prefixVerbC _ _   = []
@@ -431,9 +434,6 @@ instance Rules a => Rules (Morphs a) where
 
     isDiptote (Morphs t [] []) = isDiptote t
     isDiptote _                = False
-
-    isPassive (Morphs t [] []) = isPassive t
-    isPassive _                = False
 
 
 data Prefix =   Prefix String

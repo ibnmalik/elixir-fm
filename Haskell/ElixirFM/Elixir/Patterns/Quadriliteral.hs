@@ -55,13 +55,13 @@ instance Template PatternQ where
 
 instance Rules PatternQ where
 
-    isForm f x = x `elem` case f of
+    isForm f x = case f of
 
-                            I       ->  init [KaRDaS .. TaKaRDaS]
-                            II      ->  init [TaKaRDaS .. IKRanDaS]
-                            III     ->  init [IKRanDaS .. IKRaDaSS]
-                            IV      ->  [IKRaDaSS ..]
-                            _       ->  []
+                            I       ->  inside  x  KaRDaS    TaKaRDaS
+                            II      ->  inside  x  TaKaRDaS  IKRanDaS
+                            III     ->  inside  x  IKRanDaS  IKRaDaSS
+                            IV      ->  not (inside x KaRDaS IKRaDaSS)
+                            _       ->  False
 
 
     prefixVerbI _ _ Passive                 = "u"
@@ -77,19 +77,6 @@ instance Rules PatternQ where
                         | otherwise          = []
 
     isDiptote = flip elem [ KaRADiS, KaRADIS, KuRDuSA', KaRDaSY ]
-
-    isPassive = const False
-
-
-{-
-instance Rules (Morphs PatternQ) where
-
-    isDiptote (Morphs t [] []) = isDiptote t
-    isDiptote x                = x `elem` []
-
-    isPassive (Morphs t [] []) = isPassive t
-    isPassive x                = x `elem` []
--}
 
 
 instance Forming PatternQ where
