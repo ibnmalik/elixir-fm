@@ -162,23 +162,6 @@ instance Derive Lexeme a => Derive Entry a where
     derive x = derive (Lexeme "f ` l" x)
 
 
-{-
-instance Derive Lexeme String where
-
-    derive x@(Lexeme r e) y | "V" `isPrefixOf` y = m 'V' (verb . unmorph)
-                            | "A" `isPrefixOf` y = case (take 1 . drop 3) y of
-                                  "A"       ->     m 'A' adj
-                                  "P"       ->     m 'P' adj
-                                  _         ->     m 'A' adj ++ m 'P' adj
-                            | "N" `isPrefixOf` y = m 'N' noun
-                            | otherwise          = []
-
-        where l c = concat [ lookNoun (morphs e) c (nounStems f r) | f <- [I ..] ]
-              m c f = map (\ m -> Lexeme r (m `f` [])) (l c)
-              unmorph (Morphs t p s) = t
--}
-
-
 lookupForm :: (Eq a, Forming a, Morphing a a) => Root -> Entry a -> [Form]
 
 lookupForm r e = case entity e of

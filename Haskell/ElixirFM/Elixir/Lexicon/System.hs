@@ -67,7 +67,9 @@ infix 2 >-<, <->
 (>-<) x y = Lexeme x y
 
 
-(<->) = (>-<)
+(<->) :: Root -> Entry a -> Lexeme a
+
+(<->) x y = Lexeme x y
 
 
 -- anything to become 'Wrap x' must have a newtype or data constructor x of kind * -> *
@@ -121,16 +123,6 @@ unwraps f (WrapS y) = f y
 unwraps f (WrapL y) = f y
 
 
-{-
-wraps :: (forall c . a c -> b c) -> Wrap a -> Wrap b
-
-wraps f x = case x of WrapT y -> WrapT (f y)
-                      WrapQ y -> WrapQ (f y)
-                      WrapS y -> WrapS (f y)
-                      WrapL y -> WrapL (f y)
--}
-
-
 instance Wrapping PatternT  where   wrap             = WrapT
                                     unwrap (WrapT x) = x
 
@@ -153,10 +145,12 @@ infixl 6 <|
 
 infixl 5 |>
 
-(|>) = flip (:)         -- (|>) x y = ((:) $! y) $! x
+(|>) :: [a] -> a -> [a]
+
+(|>) x y = (:) y x        -- (|>) x y = ((:) $! y) $! x
 
 
--- listing = (.) (:[]) . flip const
+listing :: a -> [b]
 
 listing = const []
 
