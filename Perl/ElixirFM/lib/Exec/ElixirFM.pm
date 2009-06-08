@@ -68,7 +68,7 @@ sub import {
 }
 
 
-sub elixir (@) {
+sub elixir {
 
     my $mode = defined $_[0] && ! ref $_[0] ? shift : '';
 
@@ -88,35 +88,35 @@ sub elixir (@) {
 
     print $handle Encode::is_utf8($text) ? encode "utf8", $text : $text;
 
-    return `"$system" $params < "$handle"`;
+    return scalar `"$system" $params < "$handle"`;
 }
 
 
-sub main (@) {
+sub main {
 
     return elixir @_;
 }
 
 
-sub resolve (@) {
+sub resolve {
 
     return elixir 'resolve', @_;
 }
 
 
-sub inflect (@) {
+sub inflect {
 
     return elixir 'inflect', @_;
 }
 
 
-sub derive (@) {
+sub derive {
 
     return elixir 'derive', @_;
 }
 
 
-sub lookup (@) {
+sub lookup {
 
     return elixir 'lookup', @_;
 }

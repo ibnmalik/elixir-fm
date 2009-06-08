@@ -110,11 +110,13 @@ instance Inflect Lexeme TagsType where
 
 infoVerb r e = case entity e of
 
-    Verb fs ps is cs _ jv _ ->  ([ (f, z) | f <- fs, let z = siftVerb t Perfect v False (verbStems f r),
-                                            z <- if null ps then [z] else [ siftVerb p Perfect v True z | p <- ps ],
-                                            z <- if null is then [z] else [ siftVerb i Imperfect v False z | i <- is ] ],
+    Verb fs ps is cs _ jv _ ->  ([ (f, z) | f <- fs,
 
-                                 [ (prefixVerbC f c, morph c) | f <- fs, c <- cs ])
+                                    let x =                                 siftVerb t Perfect v False (verbStems f r)
+                                        y = if null ps then x else concat [ siftVerb p Perfect v True x | p <- ps ]
+                                        z = if null is then y else concat [ siftVerb i Imperfect v False y | i <- is ] ],
+
+                                 [ (prefixVerbC f c, morph c) | f <- fs, c <- nub cs ])
 
                                     where Morphs t _ _ = morphs e
 
@@ -580,8 +582,8 @@ inflectVerb (Lexeme r e) x@(VerbP   v p g n) = paradigm (paraVerbP p g n)
 
                 | maybe False (/= v) jv || maybe False (/= Perfect) jt -> []
 
-                | null is || v == Passive
-                          || not theVariant -> inRules fs Perfect w [t]
+                | null is || not theVariant
+                          || v == Passive   -> inRules fs Perfect w [t]
 
                 | otherwise                 -> [ morph i | f <- fs, i <- is ]
 

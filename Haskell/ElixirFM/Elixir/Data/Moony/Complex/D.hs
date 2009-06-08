@@ -1417,10 +1417,6 @@ cluster_92  = cluster
 
 cluster_93  = cluster
 
- |> ['\'','a','m','I','n'] <| [
-
-    _____ |< Iy               `adj`     {- <'amInIy> -}        [ ['a','m','i','n','o'] ] ]
-
  |> "' m n" <| [
 
     FaCuL                     `verb`    {- <'amun> -}          [ unwords [ ['b','e'], ['l','o','y','a','l'] ], unwords [ ['b','e'], ['r','e','l','i','a','b','l','e'] ] ]
@@ -1514,6 +1510,13 @@ cluster_93  = cluster
 
 cluster_94  = cluster
 
+ |> ['\'','a','m','I','n'] <| [
+
+    _____ |< Iy               `adj`     {- <'amInIy> -}        [ ['a','m','i','n','o'] ] ]
+
+
+cluster_95  = cluster
+
  |> "' m w" <| [
 
     FaC |< aT                 `noun`    {- <'amaT> -}          [ ['b','o','n','d','m','a','i','d'], unwords [ ['s','l','a','v','e'], ['g','i','r','l'] ] ]
@@ -1527,7 +1530,7 @@ cluster_94  = cluster
     FuCayy |< aT              `noun`    {- <'umayyaT> -}       [ ['U','m','a','y','y','a','d'] ] ]
 
 
-cluster_95  = cluster
+cluster_96  = cluster
 
  |> ['\'','i','m','b','i','r','i','y','A','l'] <| [
 
@@ -1552,14 +1555,14 @@ cluster_95  = cluster
     _____ |< Iy |< aT         `noun`    {- <'imbIriyAlIyaT> -} [ ['i','m','p','e','r','i','a','l','i','s','m'] ] ]
 
 
-cluster_96  = cluster
+cluster_97  = cluster
 
  |> ['\'','a','m','b','A','s','A','d'] <| [
 
     _____                     `noun`    {- <'ambAsAd> -}       [ ['e','m','b','a','s','s','y'] ] ]
 
 
-cluster_97  = cluster
+cluster_98  = cluster
 
  |> ['\'','a','m','r','I','k'] <| [
 
@@ -1583,30 +1586,30 @@ cluster_97  = cluster
                            
     `derives` otherwise ]
 
+ |> ['\'','a','m','I','r','i','k'] <| [
 
-cluster_98  = cluster
+    _____ |<< "A"             `noun`    {- <'amIrikA> -}       [ ['A','m','e','r','i','c','a'] ],
+
+    _____ |< Iy               `adj`     {- <'amIrikIy> -}      [ ['A','m','e','r','i','c','a','n'] ],
+
+    _____ |< Iy               `noun`    {- <'amIrikIy> -}      [ ['A','m','e','r','i','c','a','n'] ]
+                              `plural`     _____ |< Iy |< Un
+                           
+    `derives` otherwise ]
+
+
+cluster_99  = cluster
 
  |> ['\'','a','m','m','A'] <| [
 
     _____                     `part`    {- <'ammA> -}          [ unwords [ ['a','s'], ['f','o','r'] ], ['c','o','n','c','e','r','n','i','n','g'] ] ]
 
 
-cluster_99  = cluster
+cluster_100 = cluster
 
  |> ['\'','i','m','m','A'] <| [
 
     _____                     `conj`    {- <'immA> -}          [ ['e','i','t','h','e','r'] ] ]
-
-
-cluster_100 = cluster
-
- |> ['\'','i','m','m','a','`'] <| [
-
-    _____                     `noun`    {- <'imma`> -}         [ unwords [ ['y','e','s'], "-", ['m','a','n'] ], ['o','p','p','o','r','t','u','n','i','s','t'] ]
-                           
-    `excepts` Triptote,
-
-    _____ |< Iy |< aT         `noun`    {- <'imma`IyaT> -}     [ ['o','p','p','o','r','t','u','n','i','s','m'] ] ]
 
 
 section = [ cluster_1,

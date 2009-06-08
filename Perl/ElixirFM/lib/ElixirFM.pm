@@ -47,7 +47,7 @@ sub nub (&@) {
     return grep { my $r = $fun->($_); exists $nub{$r} ? 0 : ++$nub{$r} } @lst;
 }
 
-sub tuples (@) {
+sub tuples {
 
     my @data = @_;
 
@@ -63,7 +63,7 @@ sub tuples (@) {
     return @pair;
 }
 
-sub concat (@) {
+sub concat {
 
     return map { ref $_ eq 'ARRAY' ? @{$_} : $_ } @_;
 }
@@ -526,7 +526,7 @@ sub parse {
     return $parser->parse($_[0]);
 }
 
-sub unpretty (@) {
+sub unpretty {
 
     my ($data, $mode) = @_;
 
@@ -650,7 +650,7 @@ sub unpretty (@) {
 
                     {
                         'clip'  =>  ( join '', split ' ', $clip ),
-                        'root'  =>  ElixirFM::parse($root)->[2],
+                        'root'  =>  parse($root)->[2],
                         'ents'  =>  [ @ents ],
                     }
 
@@ -669,13 +669,28 @@ sub unpretty (@) {
 
             my @data = split /\n/, $_;
 
-            [
-                map {
+            foldl {
 
-                    [ split /\t/, $_ ]
+                my $data = shift @{$_[1]};
 
-                } @data
-            ]
+                if ($data eq ' ' x 10) {
+
+                    push @{$_[0][-1]}, $_[1];
+                }
+                else {
+
+                    push @{$_[0]}, [$data, $_[1]];
+                }
+
+                return $_[0];
+
+            } [],
+
+            map {
+
+                [ split /\t/, $_ ]
+
+            } @data
 
         } @data;
     }

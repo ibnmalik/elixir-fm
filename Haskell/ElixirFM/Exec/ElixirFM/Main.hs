@@ -116,7 +116,7 @@ main = do   argv <- getArgs
                 PrintVersion    ->  warn (unlines [copyleft,
                                           unwords ["ElixirFM",
                                                    showVersion Main.version,
-                                                   "May 2009"]])
+                                                   "June 2009"]])
 
                 _               ->  warn (usageInfo synopsis options)
 
