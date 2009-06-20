@@ -22,6 +22,8 @@ use XML::Parser;
 
 use subs 'foldr', 'foldl';
 
+no warnings 'recursion';
+
 sub foldr (&$@) {
 
     my ($fun, $nil, @lst) = @_;

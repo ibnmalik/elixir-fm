@@ -152,7 +152,19 @@ sub pretty_lookup_tree {
                                      -href => 'index.fcgi?mode=lookup' . '&clip=' . $clip}, "Lookup")),
 		    )),
 
-        $q->ul($q->li($q->table({-cellspacing => 0}, "\n", map { pretty_inflect_list($_, $q) } @{$word})))
+        $q->ul($q->li($q->table({-cellspacing => 0}, "\n", map { pretty_inflect_list($_, $q) }
+
+                                        map {
+
+                                                [ $_->[0], @{$_->[1]} ],
+
+                                                map {
+
+                                                    [ ' ' x 10, @{$_} ]
+
+                                                } @{$_}[2 .. @{$_} - 1]
+
+                                        } @{$word})))
 
 			} 0 .. @{$_->{'ents'}} - 1 ] ))
 

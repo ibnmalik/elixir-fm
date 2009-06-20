@@ -79,7 +79,7 @@ instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pret
 
 instance Pretty (Wrap Tokens) => Pretty [Wrap Tokens] where
 
-    pretty x = nest 1 (text (":: <" ++ unwords z ++ ">") <> foldr ((<>) . ((<>) line) . pretty) empty x)
+    pretty x = nest 1 (text (":: <" ++ unwords z ++ ">") <> foldr ((<>) . (<>) line . pretty) empty x)
 
         where y = nub [ z | y <- x, z <- unwraps (\ (Tokens x) -> map (uncurry merge . struct) x) y ]
 
@@ -88,7 +88,7 @@ instance Pretty (Wrap Tokens) => Pretty [Wrap Tokens] where
 
 instance Pretty [Wrap Tokens] => Pretty [[Wrap Tokens]] where
 
-    pretty x = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . ((<>) (line <> line)) . pretty) empty x)
+    pretty x = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . (<>) (line <> line)) empty p)
 
         where p = map pretty x
               s = map (drop 1 . concat . take 1 . lines . show) p
@@ -98,7 +98,7 @@ instance Pretty [[Wrap Tokens]] => Pretty [[[Wrap Tokens]]] where
 
     pretty [] = text "::::" <> line
 
-    pretty x = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . ((<>) (line <> line)) . pretty) line x)
+    pretty x = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . (<>) (line <> line)) line p)
 
         where p = map pretty x
               s = map (drop 1 . concat . take 1 . lines . show) p
