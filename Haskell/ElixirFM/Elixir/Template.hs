@@ -20,7 +20,11 @@ module Elixir.Template where
 
 import Elixir.System
 
-import Data.List (isPrefixOf)
+import Encode.Arabic
+
+import Data.List
+
+import qualified Data.Map as Map
 
 
 class Template a where
@@ -75,82 +79,8 @@ mergeWith = flip merge
 
 infix 5 `merge`, `mergeWith`
 
-
-type Root = String
-
-
-sunny = [ "t", "_t", "d", "_d", "r", "z", "s", "^s",
-          ".s", ".d", ".t", ".z", "l", "n" ]
-
-moony = [ "'", "b", "^g", ".h", "_h", "`", ".g",
-          "f", "q", "k", "m", "h", "w", "y",
-          "B", "p", "v", "g", "^c", "^z",
-          "c", ",c", "^n", "^l", ".r" ]
-
-
-letters :: String -> [String]
-
-letters ('.':z:s) | z `elem` "hsdtzgr" = ['.', z] : letters s
-letters ('_':z:s) | z `elem` "thdaIU"  = ['_', z] : letters s
-letters ('^':z:s) | z `elem` "gscznl"  = ['^', z] : letters s
-letters (',':z:s) | z `elem` "c"       = [',', z] : letters s
-
-letters (d:zs) = [d] : letters zs
-
-letters []     = []
-
--- letters = unfoldr next
-
-
-next :: String -> Maybe (String, String)
-
-next (d:z:s) | d == '.' && z `elem` "hsdtzgr" = Just ([d, z], s)
-             | d == '_' && z `elem` "thdaIU"  = Just ([d, z], s)
-             | d == '^' && z `elem` "gscznl"  = Just ([d, z], s)
-             | d == ',' && z `elem` "c"       = Just ([d, z], s)
-
-next (d:zs) = Just ([d], zs)
-next []     = Nothing
-
-
-drops :: [a] -> [a]
-
-drops [_]     = []
-drops (_ : y) = y
-drops []      = []
-
-
-takes :: [a] -> [a]
-
-takes [_]     = []
-takes (x : y) = x : takes y
-takes []      = []
-
-
-inside :: Enum a => a -> a -> a -> Bool
-
-inside x l r = fromEnum l <= y && y < fromEnum r
-
-    where y = fromEnum x
-
-
-unquote :: String -> [String]
-
-unquote [] = []
-unquote xs = y : unquote z                  where (y, z) = quotes xs
-
-
-quotes :: String -> (String, String)
-
-quotes []              = ([], [])
-quotes ('\\' : y : ys) = ('\\' : y : u, v)  where (u, v) = quotes ys
-quotes ('\\' : [])     = (['\\'], [])
-quotes ('"' : ys)      = ([], ys)
-quotes (y : ys)        = (y : u, v)         where (u, v) = quotes ys
-
-
-infixr 4 ->-
-infix  4 -<-
+infix 4 ->-
+infix 4 -<-
 
 
 -- Fischer (2002), par. 40 ('i' > 'iy is reflected in patterns)
@@ -505,3 +435,321 @@ uN    = Suffix "uN"
 a     = Suffix "a"
 i     = Suffix "i"
 u     = Suffix "u"
+
+
+type Root = String
+
+
+sunny = [ "t", "_t", "d", "_d", "r", "z", "s", "^s",
+          ".s", ".d", ".t", ".z", "l", "n" ]
+
+moony = [ "'", "b", "^g", ".h", "_h", "`", ".g",
+          "f", "q", "k", "m", "h", "w", "y",
+          "B", "p", "v", "g", "^c", "^z",
+          "c", ",c", "^n", "^l", ".r" ]
+
+
+letters :: String -> [String]
+
+letters ('.':z:s) | z `elem` "hsdtzgr" = ['.', z] : letters s
+letters ('_':z:s) | z `elem` "thdaIU"  = ['_', z] : letters s
+letters ('^':z:s) | z `elem` "gscznl"  = ['^', z] : letters s
+letters (',':z:s) | z `elem` "c"       = [',', z] : letters s
+
+letters (d:zs) = [d] : letters zs
+
+letters []     = []
+
+-- letters = unfoldr next
+
+
+next :: String -> Maybe (String, String)
+
+next (d:z:s) | d == '.' && z `elem` "hsdtzgr" = Just ([d, z], s)
+             | d == '_' && z `elem` "thdaIU"  = Just ([d, z], s)
+             | d == '^' && z `elem` "gscznl"  = Just ([d, z], s)
+             | d == ',' && z `elem` "c"       = Just ([d, z], s)
+
+next (d:zs) = Just ([d], zs)
+next []     = Nothing
+
+
+drops :: [a] -> [a]
+
+drops [_]     = []
+drops (_ : y) = y
+drops []      = []
+
+
+takes :: [a] -> [a]
+
+takes [_]     = []
+takes (x : y) = x : takes y
+takes []      = []
+
+
+inside :: Enum a => a -> a -> a -> Bool
+
+inside x l r = fromEnum l <= y && y < fromEnum r
+
+    where y = fromEnum x
+
+
+unquote :: String -> [String]
+
+unquote [] = []
+unquote xs = y : unquote z                  where (y, z) = quotes xs
+
+
+quotes :: String -> (String, String)
+
+quotes []              = ([], [])
+quotes ('\\' : y : ys) = ('\\' : y : u, v)  where (u, v) = quotes ys
+quotes ('\\' : [])     = (['\\'], [])
+quotes ('"' : ys)      = ([], ys)
+quotes (y : ys)        = (y : u, v)         where (u, v) = quotes ys
+
+
+omitting :: Eq a => (a -> a -> Bool) -> ([a], [a]) -> [a] -> [a] -> Bool
+
+omitting _ _ []      []      = True
+
+omitting e c i@(k:l) o@(q:r) | k `e` q      = omitting e c l r
+                             | k' && not q' = omitting e c l o
+                             | q' && not k' = omitting e c i r
+                             | otherwise    = False
+
+    where k' = k `elem` fst c
+          q' = q `elem` snd c
+
+omitting e c (k:l) []        | k `elem` fst c = omitting e c l []
+                             | otherwise      = False
+
+omitting e c [] (q:r)        | q `elem` snd c = omitting e c [] r
+                             | otherwise      = False
+
+
+isSubsumed :: (String -> String -> Bool) -> (String -> String -> Bool) -> [String] -> [String] -> Bool
+
+isSubsumed _ _ []        _      = True
+isSubsumed _ _ _         []     = False
+
+isSubsumed q c zs@(x:xs) (y:ys) | x `q` y ||
+                                  x `c` y   = isSubsumed q c xs ys
+                                | otherwise = isSubsumed q c zs ys
+
+
+assims :: String -> String -> Bool
+
+assims "_d" "d"  = True
+assims "h"  "'"  = True
+assims "h"  "w"  = True
+assims _    _    = False
+
+
+approx :: String -> String -> Bool
+
+approx "l"  "-"  = True
+approx "t"  "T"  = True
+approx "y"  "I"  = True
+approx "y"  "Y"  = True
+approx "w"  "U"  = True
+approx "w"  "W"  = True
+approx _    _    = False
+
+
+reduce :: String -> [String]
+
+reduce = map head . group . fixes . words
+
+    where fixes [y] = [ z | z <- units y, z `notElem` skips ++ fst omits ]
+          fixes x   = [ z | z <- x,       z `notElem` skips ]
+
+class Eq a => Fuzzy a where
+
+    omits :: ([a], [a])
+    units :: a -> [a]
+    alike :: a -> a -> Bool
+    fuzzy :: a -> a -> Bool
+
+
+skips :: [String]
+
+skips = ["'", "w", "y"]                                                                                     -- ["`", "q"]
+
+
+instance Fuzzy String where
+
+    omits = (["a", "i", "u", "A", "I", "U", "Y", "-", "N", "W", "|", "_a", "_I", "_U"], ["|", "\"", "-"])   -- ["'", "`", "q", "T"]
+
+    units = letters
+
+    alike "Y" y | y `elem` ["Y", "A"] = True
+
+    alike "T" y | y `elem` ["T", "t", "h"] = True
+    alike "N" y | y `elem` ["N", "n"] = True
+    alike "W" y | y `elem` ["W", "w"] = True
+
+    alike "_a" y | y `elem` ["_a", "A"] = True
+    alike "_I" y | y `elem` ["_I", "i"] = True
+    alike "_U" y | y `elem` ["_U", "u"] = True
+
+    alike x y = x == y
+
+    fuzzy "A" y | y `elem` ["A", "a", "Y"] = True
+    fuzzy "I" y | y `elem` ["I", "i", "e"] = True
+    fuzzy "U" y | y `elem` ["U", "u", "o"] = True
+    fuzzy "Y" y | y `elem` ["Y", "a", "A"] = True
+
+    fuzzy "'" y | y `elem` ["'", "`", "a", "i", "u", "e", "o"] = True
+    fuzzy "`" y | y `elem` ["`", "'", "a", "i", "u", "e", "o"] = True
+
+    fuzzy "'" y | y `elem` ["w", "y"] = True
+
+    fuzzy ".s" y | y `elem` [".s", "s"] = True
+    fuzzy ".d" y | y `elem` [".d", "d"] = True
+    fuzzy ".t" y | y `elem` [".t", "t"] = True
+    fuzzy ".z" y | y `elem` [".z", "z", ".d", "_d", "d"] = True
+
+    fuzzy "q" y | y `elem` ["q", "k", "'", "g"] = True
+    fuzzy "k" y | y `elem` ["k", "q"] = True
+
+    fuzzy ".h" y | y `elem` [".h", "_h", "h"] = True
+    fuzzy "_h" y | y `elem` ["_h", ".h", "h"] = True
+
+    fuzzy "^g" y | y `elem` ["^g", "g", "j"] = True
+    fuzzy ".g" y | y `elem` [".g", "g"] = True
+
+    fuzzy "_t" y | y `elem` ["_t", "t", "s"] = True
+    fuzzy "_d" y | y `elem` ["_d", "d", "z"] = True
+
+    fuzzy "^s" y | y `elem` ["^s", "s"] = True
+
+ -- fuzzy "w" y | y `elem` ["w", "O"] = True
+ -- fuzzy "y" y | y `elem` ["y", "E"] = True
+
+    fuzzy "_a" y | y `elem` ["_a", "A", "a"] = True
+    fuzzy "_I" y | y `elem` ["_I", "i", "I"] = True
+    fuzzy "_U" y | y `elem` ["_U", "u", "U"] = True
+
+    fuzzy x y = alike x y
+
+
+instance Fuzzy [UPoint] where
+
+    omits = ([ [x] | x <- decode Tim "aiu~`FNK" ],
+             [ [x] | x <- decode Tim "o-" ])
+
+    units x = [ [y] | y <- x ]    -- can become more complex
+
+    alike [x] [y] = alike' (fromEnum x) (fromEnum y)
+    alike _   _   = False
+
+    fuzzy [x] [y] = fuzzy' (fromEnum x) (fromEnum y) ||
+                    alike' (fromEnum x) (fromEnum y)
+    fuzzy _  _    = False         -- can become more complex
+
+
+alike' :: Int -> Int -> Bool
+
+alike' 0x0621 y | y `elem` [0x0621, 0x0624, 0x0626] = True
+
+alike' 0x0622 y | y > 0x0620 && y < 0x0628 = True
+alike' 0x0623 y | y > 0x0620 && y < 0x0628 = True
+alike' 0x0625 y | y > 0x0620 && y < 0x0628 = True
+
+alike' 0x0627 y | y `elem` [0x0627, 0x0623, 0x0625, 0x0671] = True
+alike' 0x0671 y | y `elem` [0x0671, 0x0627, 0x0623, 0x0625] = True
+
+alike' 0x0624 y | y > 0x0622 && y < 0x0627 || y == 0x0621 = True
+alike' 0x0626 y | y > 0x0622 && y < 0x0627 || y == 0x0621 = True
+
+alike' 0x0649 y | y `elem` [0x0649, 0x064A] = True
+alike' 0x064A y | y `elem` [0x064A, 0x0649] = True
+
+alike' 0x0629 y | y `elem` [0x0629, 0x0647] = True
+
+alike' x y = x == y
+
+
+fuzzy' :: Int -> Int -> Bool
+
+fuzzy' 0x0624 y | y `elem` [0x0648, 0x0649, 0x064A, 0x0627] = True
+fuzzy' 0x0626 y | y `elem` [0x0648, 0x0649, 0x064A, 0x0627] = True
+
+fuzzy' 0x0635 y | y `elem` [0x0635, 0x0633] = True
+fuzzy' 0x0636 y | y `elem` [0x0636, 0x062F] = True
+fuzzy' 0x0637 y | y `elem` [0x0637, 0x062A] = True
+fuzzy' 0x0638 y | y `elem` [0x0638, 0x0632, 0x0636, 0x0630, 0x062F] = True
+
+fuzzy' 0x0639 y | y `elem` [0x0639, 0x0623, 0x0625, 0x0627] = True
+
+fuzzy' 0x0642 y | y `elem` [0x0642, 0x0643, 0x0621] || y > 0x0622 && y < 0x0628 = True
+fuzzy' 0x0643 y | y `elem` [0x0643, 0x0642] = True
+
+fuzzy' 0x062D y | y `elem` [0x062D, 0x062E, 0x0647] = True
+fuzzy' 0x062E y | y `elem` [0x062E, 0x062D, 0x0647] = True
+
+fuzzy' 0x062B y | y `elem` [0x062B, 0x062A, 0x0633] = True
+fuzzy' 0x0630 y | y `elem` [0x0630, 0x062F, 0x0632] = True
+
+fuzzy' 0x0670 y | y `elem` [0x0670, 0x064E] = True
+
+fuzzy' x y = x == y
+
+
+recode :: [UPoint] -> [String]
+
+recode xs = [ y | Just y <- [ Map.lookup x recoder | x <- xs ] ]
+
+
+recoder :: Map.Map UPoint String
+
+recoder = Map.fromAscList [ (toEnum x, y) | (y, x) <- [
+
+                            ( "'",          0x0621 ),
+
+                            ( "'",          0x0624 ),
+                            ( "'",          0x0626 ),
+
+                            ( "b",          0x0628 ),
+                            ( "T",          0x0629 ),
+                            ( "t",          0x062A ),
+                            ( "_t",         0x062B ),
+                            ( "^g",         0x062C ),
+                            ( ".h",         0x062D ),
+                            ( "_h",         0x062E ),
+                            ( "d",          0x062F ),
+                            ( "_d",         0x0630 ),
+                            ( "r",          0x0631 ),
+                            ( "z",          0x0632 ),
+                            ( "s",          0x0633 ),
+                            ( "^s",         0x0634 ),
+                            ( ".s",         0x0635 ),
+                            ( ".d",         0x0636 ),
+                            ( ".t",         0x0637 ),
+                            ( ".z",         0x0638 ),
+                            ( "`",          0x0639 ),
+                            ( ".g",         0x063A ),
+
+                            ( "f",          0x0641 ),
+                            ( "q",          0x0642 ),
+                            ( "k",          0x0643 ),
+                            ( "l",          0x0644 ),
+                            ( "m",          0x0645 ),
+                            ( "n",          0x0646 ),
+                            ( "h",          0x0647 ),
+                            ( "w",          0x0648 ),
+
+                            ( "y",          0x064A ),
+
+                            ( "p",          0x067E ),
+                            ( "c",          0x0681 ),
+                            ( ",c",         0x0685 ),
+                            ( "^c",         0x0686 ),
+                            ( ".r",         0x0695 ),
+                            ( "^z",         0x0698 ),
+                            ( "v",          0x06A4 ),
+                            ( "^n",         0x06AD ),
+                            ( "g",          0x06AF ),
+                            ( "^l",         0x06B5 )    ] ]

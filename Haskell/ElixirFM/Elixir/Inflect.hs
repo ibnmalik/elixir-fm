@@ -383,9 +383,9 @@ instance Inflect Lexeme TagsNum where
 
     inflect (Lexeme r e) x | (not . isNum) (entity e) = []
 
-    inflect (Lexeme r e) (TagsNumQ         ) = [(ParaNum NumQ, [(r, morphs e)])]
+    inflect (Lexeme r e) (TagsNumQ        ) = [(ParaNum NumQ, [(r, morphs e)])]
 
-    inflect (Lexeme r e) (TagsNumI  g   c s) = [ (y, z) |
+    inflect (Lexeme r e) (TagsNumI g   c s) = [ (y, z) |
 
             let g' = vals g
                 c' = vals c
@@ -546,9 +546,7 @@ instance Inflect Lexeme TagsGrph where
 
 instance Inflect Lexeme String where
 
-    inflect x@(Lexeme r e) y = inflect x (restrict (domain e) u)
-
-        where u = (unTagsTypes . read) y
+    inflect x@(Lexeme r e) y = inflect x (restrict (domain e) (convert y))
 
 
 instance Inflect Lexeme a => Inflect Lexeme [a] where
@@ -1250,15 +1248,15 @@ instance Inflect Lexeme ParaNum where
 
     inflect x@(Lexeme r e) y | (not . isNum) (entity e) = []
 
-    inflect x (NumQ         ) = inflect x (TagsNumQ                )
-    inflect x (NumI  g   c s) = inflect x (TagsNumI [g]     [c] [s])
-    inflect x (NumV  g   c s) = inflect x (TagsNumV [g]     [c] [s])
-    inflect x (NumX  g   c s) = inflect x (TagsNumX [g]     [c] [s])
-    inflect x (NumY  g      ) = inflect x (TagsNumY [g]            )
-    inflect x (NumL      c s) = inflect x (TagsNumL         [c] [s])
-    inflect x (NumC    n c s) = inflect x (TagsNumC     [n] [c] [s])
-    inflect x (NumD      c s) = inflect x (TagsNumD         [c] [s])
-    inflect x (NumM    n c s) = inflect x (TagsNumM     [n] [c] [s])
+    inflect x (NumQ        ) = inflect x (TagsNumQ                )
+    inflect x (NumI g   c s) = inflect x (TagsNumI [g]     [c] [s])
+    inflect x (NumV g   c s) = inflect x (TagsNumV [g]     [c] [s])
+    inflect x (NumX g   c s) = inflect x (TagsNumX [g]     [c] [s])
+    inflect x (NumY g      ) = inflect x (TagsNumY [g]            )
+    inflect x (NumL     c s) = inflect x (TagsNumL         [c] [s])
+    inflect x (NumC   n c s) = inflect x (TagsNumC     [n] [c] [s])
+    inflect x (NumD     c s) = inflect x (TagsNumD         [c] [s])
+    inflect x (NumM   n c s) = inflect x (TagsNumM     [n] [c] [s])
 
 
 instance Inflect Lexeme ParaAdv where

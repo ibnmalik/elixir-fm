@@ -176,7 +176,7 @@ x <::> y = Entry { morphs = morph x, entity = e, limits = (d, []), reflex = [] }
                     TagsZero _ -> Zero
                     TagsGrph _ -> Grph
 
-          d = head ((unTagsTypes . read) y ++ [TagsGrph []])
+          d = head (convert y ++ [TagsGrph []])
 
 
 infixl 6 <::>, <..>, <.>, <:>
@@ -189,7 +189,7 @@ x <..> y = x { reflex = y }
 
 (<.>) :: Entry a -> String -> Entry a
 
-x <.> y = x { limits = (d, ((restrict d . unTagsTypes . read) y, []) : l) }
+x <.> y = x { limits = (d, (restrict d (convert y), []) : l) }
 
     where (d, l) = limits x
 
@@ -429,7 +429,7 @@ limited :: Entry a -> String -> Entry a
 limited x y = x { limits = (h, l) }
 
     where (d, l) = limits x
-          h = head ((restrict d . unTagsTypes . read) y ++ [d])
+          h = head (restrict d (convert y) ++ [d])
 
 
 femini :: Morphing a b => Entry b -> a -> Entry b

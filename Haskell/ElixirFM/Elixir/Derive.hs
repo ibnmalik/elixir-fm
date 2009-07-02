@@ -62,9 +62,7 @@ instance (Show a, Template a) => Pretty (Derived a) where
 
 instance Derive Lexeme String where
 
-    derive x y = derive x u
-
-        where u = (unTagsTypes . read) y
+    derive x y = derive x (convert y)
 
 
 instance Derive Lexeme a => Derive Lexeme [a] where

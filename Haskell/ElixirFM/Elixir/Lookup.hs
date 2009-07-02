@@ -30,8 +30,6 @@ import Elixir.Derive
 
 import Elixir.Inflect
 
-import Elixir.Resolve
-
 import Encode.Arabic
 
 import Data.Char

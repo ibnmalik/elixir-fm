@@ -49,7 +49,7 @@ import Data.List hiding (lookup)
 
 import Version
 
-version = Version [1, 1, max build 860] []
+version = Version [1, 1, max build 861] []
 
     where Version [build] [] = revised "$Revision$"
 
@@ -116,7 +116,7 @@ main = do   argv <- getArgs
                 PrintVersion    ->  warn (unlines [copyleft,
                                           unwords ["ElixirFM",
                                                    showVersion Main.version,
-                                                   "June 2009"]])
+                                                   "July 2009"]])
 
                 _               ->  warn (usageInfo synopsis options)
 
@@ -133,17 +133,17 @@ elixirResolve o p = interact (unlines . map (show . q . words) . onlines)
                 "tex"   ->  resolveBy (fst f') (omitting (snd f') omits) . map t'
 
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
-                                  t' = if t then tokenize else thetoken
+                                  t' = if t then tokenize else (\ x -> [[x]])
 
                 "tim"   ->  resolveBy (fst f') (omitting (snd f') omits) . map (t' . decode Tim)
 
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
-                                  t' = if t then tokenize else thetoken
+                                  t' = if t then tokenize else (\ x -> [[x]])
 
                 _       ->  resolveBy (fst f') (omitting (snd f') omits) . map (t' . decode UTF)
 
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
-                                  t' = if t then tokenize else thetoken
+                                  t' = if t then tokenize else (\ x -> [[x]])
 
           f = null [ FuzzyResolve | FuzzyResolve <- o ]
           t = null [ TokenResolve | TokenResolve <- o ]

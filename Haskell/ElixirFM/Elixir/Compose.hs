@@ -30,8 +30,6 @@ import Elixir.Lexicon
 
 import Elixir.Inflect
 
-import Elixir.Lookup
-
 import Elixir.Pretty
 
 import Encode.Arabic
@@ -43,7 +41,7 @@ import qualified Data.Map as Map
 
 generate :: String -> Lexicon -> Doc
 
-generate x y = doubleline id [ z | let x' = (unTagsTypes . read) x,
+generate x y = doubleline id [ z | let x' = convert x,
                                    (w, n) <- zip y [1 ..], z <- unwraps (\ (Nest r z) -> [ (list . (:)
 
                                     ((list . map text) [show (merge r (morphs e)), show r, (show . show) (morphs e),

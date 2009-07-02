@@ -327,7 +327,7 @@ instance Restrict String where
 
     complete = ["----------"]
 
-    restrict x y = (map show . concat) (restrict ((unTagsTypes . read) x) (map (unTagsTypes . read) y))
+    restrict x y = (map show . concat) (restrict (convert x) (map convert y))
 
 
 instance Restrict TagsType where
@@ -679,7 +679,12 @@ instance Show TagsGrph where
 
 newtype TagsTypes = TagsTypes [TagsType] deriving Show
 
-unTagsTypes (TagsTypes x) = x
+
+convert :: String -> [TagsType]
+
+convert x = y
+
+    where TagsTypes y = read x
 
 
 instance Read TagsTypes where
@@ -1264,40 +1269,40 @@ instance Show ParaPron where
 
 
 data ParaNum = NumQ
-             | NumI Gender        Case State
-             | NumV Gender        Case State
-             | NumX Gender        Case State
-             | NumY Gender
-             | NumL               Case State
-             | NumC        Number Case State
-             | NumD               Case State
-             | NumM        Number Case State
+             | NumI  Gender        Case State
+             | NumV  Gender        Case State
+             | NumX  Gender        Case State
+             | NumY  Gender
+             | NumL                Case State
+             | NumC         Number Case State
+             | NumD                Case State
+             | NumM         Number Case State
 
     deriving Eq
 
 instance Param ParaNum where
 
     values =  [ NumQ ]
-           ++ [ NumI g   c s | g <- values, c <- values, s <- values ]
-           ++ [ NumV g   c s | g <- values, c <- values, s <- values ]
-           ++ [ NumX g   c s | g <- values, c <- values, s <- values ]
-           ++ [ NumY g       | g <- values ]
-           ++ [ NumL     c s |              c <- values, s <- values ]
-           ++ [ NumC   n c s | n <- values, c <- values, s <- values ]
-           ++ [ NumD     c s |              c <- values, s <- values ]
-           ++ [ NumM   n c s | n <- values, c <- values, s <- values ]
+           ++ [ NumI  g   c s | g <- values, c <- values, s <- values ]
+           ++ [ NumV  g   c s | g <- values, c <- values, s <- values ]
+           ++ [ NumX  g   c s | g <- values, c <- values, s <- values ]
+           ++ [ NumY  g       | g <- values ]
+           ++ [ NumL      c s |              c <- values, s <- values ]
+           ++ [ NumC    n c s | n <- values, c <- values, s <- values ]
+           ++ [ NumD      c s |              c <- values, s <- values ]
+           ++ [ NumM    n c s | n <- values, c <- values, s <- values ]
 
 instance Show ParaNum where
 
-    show (NumQ        ) = "Q---------"
-    show (NumI g   c s) = "QI----" ++ [show' g] ++ "-" ++ [show' c, show' s]
-    show (NumV g   c s) = "QV----" ++ [show' g] ++ "-" ++ [show' c, show' s]
-    show (NumX g   c s) = "QX----" ++ [show' g] ++ "-" ++ [show' c, show' s]
-    show (NumY g      ) = "QY----" ++ [show' g] ++ "---"
-    show (NumL     c s) = "QL------" ++ [show' c, show' s]
-    show (NumC   n c s) = "QC-----" ++ [show' n, show' c, show' s]
-    show (NumD     c s) = "QD------" ++ [show' c, show' s]
-    show (NumM   n c s) = "QM-----" ++ [show' n, show' c, show' s]
+    show (NumQ         ) =  "Q---------"
+    show (NumI  g   c s) =  "QI----" ++ [show' g] ++ "-" ++ [show' c, show' s]
+    show (NumV  g   c s) =  "QV----" ++ [show' g] ++ "-" ++ [show' c, show' s]
+    show (NumX  g   c s) =  "QX----" ++ [show' g] ++ "-" ++ [show' c, show' s]
+    show (NumY  g      ) =  "QY----" ++ [show' g] ++ "---"
+    show (NumL      c s) =  "QL------" ++ [show' c, show' s]
+    show (NumC    n c s) =  "QC-----" ++ [show' n, show' c, show' s]
+    show (NumD      c s) =  "QD------" ++ [show' c, show' s]
+    show (NumM    n c s) =  "QM-----" ++ [show' n, show' c, show' s]
 
 
 data ParaAdv = AdvD  deriving (Eq, Enum)
@@ -1401,3 +1406,48 @@ instance Param ParaGrph where
 instance Show ParaGrph where
 
     show GrphG = "G---------"
+
+
+revert :: ParaType -> TagsType
+
+revert (ParaVerb (VerbP   v p g n))  = TagsVerb [TagsVerbP     [v] [p] [g] [n]]
+revert (ParaVerb (VerbI m v p g n))  = TagsVerb [TagsVerbI [m] [v] [p] [g] [n]]
+revert (ParaVerb (VerbC       g n))  = TagsVerb [TagsVerbC             [g] [n]]
+
+revert (ParaNoun (NounS   n c s))  = TagsNoun [TagsNounS []  []  []  [n] [c] [s]]
+
+revert (ParaAdj  (AdjA  g n c s))  = TagsAdj  [TagsAdjA  []  []  [g] [n] [c] [s]]
+
+revert (ParaPron (PronS        ))  = TagsPron [TagsPronS]
+revert (ParaPron (PronP p g n c))  = TagsPron [TagsPronP [p] [g] [n] [c]]
+revert (ParaPron (PronD   g n c))  = TagsPron [TagsPronD     [g] [n] [c]]
+revert (ParaPron (PronR   g n c))  = TagsPron [TagsPronR     [g] [n] [c]]
+
+revert (ParaNum  (NumQ         ))  = TagsNum  [TagsNumQ]
+revert (ParaNum  (NumI  g   c s))  = TagsNum  [TagsNumI  [g]     [c] [s]]
+revert (ParaNum  (NumV  g   c s))  = TagsNum  [TagsNumV  [g]     [c] [s]]
+revert (ParaNum  (NumX  g   c s))  = TagsNum  [TagsNumX  [g]     [c] [s]]
+revert (ParaNum  (NumY  g      ))  = TagsNum  [TagsNumY  [g]]
+revert (ParaNum  (NumL      c s))  = TagsNum  [TagsNumL          [c] [s]]
+revert (ParaNum  (NumC    n c s))  = TagsNum  [TagsNumC      [n] [c] [s]]
+revert (ParaNum  (NumD      c s))  = TagsNum  [TagsNumD          [c] [s]]
+revert (ParaNum  (NumM    n c s))  = TagsNum  [TagsNumM      [n] [c] [s]]
+
+revert (ParaAdv  (AdvD))   = TagsAdv  [TagsAdvD]
+
+revert (ParaPrep (PrepP  )) = TagsPrep [TagsPrepP]
+revert (ParaPrep (PrepI c)) = TagsPrep [TagsPrepI [c]]
+
+revert (ParaConj (ConjC))  = TagsConj [TagsConjC]
+
+revert (ParaPart (PartF))  = TagsPart [TagsPartF]
+
+revert (ParaIntj (IntjI))  = TagsIntj [TagsIntjI]
+
+revert (ParaXtra (XtraX))  = TagsXtra [TagsXtraX]
+
+revert (ParaYnit (YnitY))  = TagsYnit [TagsYnitY]
+
+revert (ParaZero (ZeroZ))  = TagsZero [TagsZeroZ]
+
+revert (ParaGrph (GrphG))  = TagsGrph [TagsGrphG]
