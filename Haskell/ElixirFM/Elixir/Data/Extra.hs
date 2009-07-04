@@ -30,19 +30,19 @@ lexicon = listing "Generic lexicon"
 
     |> "m r '" <| [
 
-        "IFCuL"             <::>    "N------[SD]-[IRDA]"
+        "IFCuL"             <::>    "N------[SD]--"
                                                         <..>    [ "man", "person" ]
-                            <.>     "N------S1[IA]"
+                            <.>     "N------S1I"
                                                         <:>     "IFCuL" |<< "uN"
-                            <.>     "N------S1[R]"
-                                                        <:>     "IFCuL" |<< "u"
-                            <.>     "N------S2[IA]"
+                            <.>     "N------S2I"
                                                         <:>     "IFCiL" |<< "iN"
-                            <.>     "N------S2[R]"
-                                                        <:>     "IFCiL" |<< "i"
-                            <.>     "N------S4[IA]"
+                            <.>     "N------S4I"
                                                         <:>     "IFCaL" |<< "aN"
-                            <.>     "N------S4[R]"
+                            <.>     "N------S1[RA]"
+                                                        <:>     "IFCuL" |<< "u"
+                            <.>     "N------S2[RA]"
+                                                        <:>     "IFCiL" |<< "i"
+                            <.>     "N------S4[RA]"
                                                         <:>     "IFCaL" |<< "a"
                             <.>     "N------S1D"
                                                         <:>     al >| "FaCL" |<< "u"
@@ -54,16 +54,16 @@ lexicon = listing "Generic lexicon"
                                                         <:>     "IFCaL" |<< "Ani"
                             <.>     "N------D[24][IA]"
                                                         <:>     "IFCaL" |<< "ayni"
-                            <.>     "N------D1D"
-                                                        <:>     al >| "FaCL" |<< "Ani"
-                            <.>     "N------D[24]D"
-                                                        <:>     al >| "FaCL" |<< "ayni"
                             <.>     "N------D1R"
                                                         <:>     "IFCaL" |<< "A"
                             <.>     "N------D[24]R"
-                                                        <:>     "IFCaL" |<< "ay",
+                                                        <:>     "IFCaL" |<< "ay"
+                            <.>     "N------D1D"
+                                                        <:>     al >| "FaCL" |<< "Ani"
+                            <.>     "N------D[24]D"
+                                                        <:>     al >| "FaCL" |<< "ayni",
 
-        "IFCaL" |< aT       <::>    "N------[SD]-[IRDA]"
+        "IFCaL" |< aT       <::>    "N------[SD]--"
                                                         <..>    [ "woman" ]
                             <.>     "N------S1D"
                                                         <:>     al >| "FaCL" |< aT |<< "u"
@@ -80,19 +80,19 @@ lexicon = listing "Generic lexicon"
 
     |> "b n m" <| [
 
-        "IFCuL"             <::>    "N------[SD]-[IRDA]"
+        "IFCuL"             <::>    "N------[SD]--"
                                                         <..>    [ "son" ]
-                            <.>     "N------S1[IA]"
+                            <.>     "N------S1I"
                                                         <:>     "IFCuL" |<< "uN"
-                            <.>     "N------S2[IA]"
+                            <.>     "N------S2I"
                                                         <:>     "IFCiL" |<< "iN"
-                            <.>     "N------S4[IA]"
+                            <.>     "N------S4I"
                                                         <:>     "IFCaL" |<< "aN"
-                            <.>     "N------S1[R]"
+                            <.>     "N------S1[RA]"
                                                         <:>     "IFCuL" |<< "u"
-                            <.>     "N------S2[R]"
+                            <.>     "N------S2[RA]"
                                                         <:>     "IFCiL" |<< "i"
-                            <.>     "N------S4[R]"
+                            <.>     "N------S4[RA]"
                                                         <:>     "IFCaL" |<< "a"
                             <.>     "N------S1D"
                                                         <:>     al >| "IFCuL" |<< "u"
@@ -117,7 +117,7 @@ lexicon = listing "Generic lexicon"
 
     |> "' l h" <| [
 
-        al >| "l_ah"        <::>    "N------S-[D]"      <..>    [ "Allah", "God" ],
+        al >| "l_ah"        <::>    "N------S-D"        <..>    [ "Allah", "God" ],
 
         "'il_ah"            <::>    "N--------[IRA]"
                                                         <..>    [ "god", "deity" ]
@@ -346,6 +346,16 @@ lexicon = listing "Generic lexicon"
                             <.>     "SD----FD[24]-"
                                                         <:>     "kil" |<< "t" |<< "ay"
                                                         <:>     "kil" |<< "t" |<< "A"
+        ]
+
+
+    |> "l" <| [
+
+        "li"                <::>    "P---------"
+                                                        <..>    [ "for", "to" ]
+                            <.>     "P---------"
+                                                        <:>     "li"
+                                                        <:>     "la"
         ]
 
 

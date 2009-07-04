@@ -28,7 +28,7 @@ import Elixir.Derive
 
 import Elixir.Pretty
 
-import Data.List (nub)
+import Data.List (intersect, nub)
 
 
 instance (Show a, Template a) => Pretty [(ParaType, [(Root, Morphs a)])] where
@@ -73,14 +73,32 @@ instance Inflect Lexeme a => Inflect Entry a where
     inflect x = inflect (Lexeme "f ` l" x)
 
 
-instance Inflect Entry ParaVerb where
+instance Inflect Entry TagsVerb where
 
     inflect x = inflect (Lexeme "d r s" x)
 
 
-instance Inflect Entry ParaNoun where
+instance Inflect Entry TagsNoun where
 
     inflect x = inflect (Lexeme "k t b" x)
+
+
+instance Inflect Lexeme ParaType where
+
+    inflect x y = inflect x (revert y)
+
+
+instance Inflect Lexeme String where
+
+    inflect x@(Lexeme r e) y = inflect x (restrict (domain e) (convert y))
+
+
+instance Inflect Lexeme a => Inflect Lexeme [a] where
+
+    inflect x y = [ z | i <- y, z <- inflect x i ]
+
+    -- inflect x = concat . map (inflect x)
+    -- inflect = (.) concat . map . inflect
 
 
 instance Inflect Lexeme TagsTypes where
@@ -127,15 +145,20 @@ infoVerb r e = case entity e of
 
 instance Inflect Lexeme TagsVerb where
 
-    inflect (Lexeme r e) x | (not . isVerb) (entity e) = []
-
-
     inflect (Lexeme r e) (TagsVerbP   v p g n) = [ (y, z) |
+
+            let d = domain e,
+
+            TagsVerb y <- [d],
 
             let v' = vals v
                 p' = vals p
                 g' = vals g
-                n' = vals n,
+                n' = vals n
+
+                d' = TagsVerbP v' p' g' n',
+
+            TagsVerbP v' p' g' n' <- if null y then [d'] else restrict d' y,
 
             let inEntry = infoVerb r e,
 
@@ -154,11 +177,19 @@ instance Inflect Lexeme TagsVerb where
 
     inflect (Lexeme r e) (TagsVerbI m v p g n) = [ (y, z) |
 
+            let d = domain e,
+
+            TagsVerb y <- [d],
+
             let m' = vals m
                 v' = vals v
                 p' = vals p
                 g' = vals g
-                n' = vals n,
+                n' = vals n
+
+                d' = TagsVerbI m' v' p' g' n',
+
+            TagsVerbI m' v' p' g' n' <- if null y then [d'] else restrict d' y,
 
             let inEntry = infoVerb r e,
 
@@ -206,8 +237,16 @@ instance Inflect Lexeme TagsVerb where
 
     inflect (Lexeme r e) (TagsVerbC       g n) = [ (y, z) |
 
+            let d = domain e,
+
+            TagsVerb y <- [d],
+
             let g' = vals g
-                n' = vals n,
+                n' = vals n
+
+                d' = TagsVerbC g' n',
+
+            TagsVerbC g' n' <- if null y then [d'] else restrict d' y,
 
             let inEntry = infoVerb r e,
 
@@ -255,15 +294,22 @@ instance Inflect Lexeme TagsVerb where
 
 instance Inflect Lexeme TagsNoun where
 
-    inflect (Lexeme r e) x | (not . isNoun) (entity e) = []
-
     inflect (Lexeme r e) (TagsNounS _ _ _ n c s) = [ (y, lists z q) |
 
-            let x = except e,
+            let (d, l) = limits e,
+
+            TagsNoun y <- [d],
 
             let n' = vals n
                 c' = vals c
-                s' = vals s,
+                s' = if null s then l' else intersect s l'
+
+                l' = [indefinite, construct, definite, absolute]
+                d' = TagsNounS [] [] [] n' c' s',
+
+            TagsNounS _ _ _ n' c' s' <- if null y then [d'] else restrict d' y,
+
+            let x = except e,
 
             n <- n',
 
@@ -273,27 +319,31 @@ instance Inflect Lexeme TagsNoun where
 
             let y = ParaNoun (NounS n c s),
 
-            let q = [ (r, q)  | let (d, l) = limits e,
+            let q = [ (r, q) | (d', r') <- l, TagsNoun y <- d',
 
-                      (d', r') <- l, TagsNoun y <- d',
+                       q <- if null (restrict (TagsNounS [] [] [] [n] [c] [s]) y)
 
-                      q <- if null (restrict (TagsNounS [] [] [] [n] [c] [s]) y)
-
-                           then [] else r' ],
+                            then [] else r' ],
 
             let z = map (inRules r c s x) i ]
 
 
 instance Inflect Lexeme TagsAdj where
 
-    inflect (Lexeme r e) x | (not . isAdj) (entity e) = []
-
     inflect (Lexeme r e) (TagsAdjA _ _ g n c s) = [ (y, z) |
+
+            let d = domain e,
+
+            TagsAdj y <- [d],
 
             let g' = vals g
                 n' = vals n
                 c' = vals c
-                s' = vals s,
+                s' = vals s
+
+                d' = TagsAdjA [] [] g' n' c' s',
+
+            TagsAdjA _ _ g' n' c' s' <- if null y then [d'] else restrict d' y,
 
             g <- g', n <- n',
 
@@ -308,71 +358,120 @@ instance Inflect Lexeme TagsAdj where
 
 instance Inflect Lexeme TagsPron where
 
-    inflect (Lexeme r e) x | (not . isPron) (entity e) = []
-
     inflect (Lexeme r e) (TagsPronP p g n c) = [ (ParaPron (PronP p g n c), lists [(r, morphs e)] q) |
+
+                                                    let (d, l) = limits e,
+
+                                                    TagsPron y <- [d],
 
                                                     let p' = vals p
                                                         g' = vals g
                                                         n' = vals n
-                                                        c' = vals c,
+                                                        c' = vals c
+
+                                                        d' = TagsPronP p' g' n' c',
+
+                                                    TagsPronP p' g' n' c' <- if null y then [d'] else restrict d' y,
 
                                                     c <- c', n <- n', p <- p', g <- g',
 
-                                                    let q = [ (r, q)  | let (d, l) = limits e,
+                                                    let q = [ (r, q) | (d', r') <- l, TagsPron y <- d',
 
-                                                              (d', r') <- l, TagsPron s <- d',
+                                                               q <- if null (restrict (TagsPronP [p] [g] [n] [c]) y)
 
-                                                              q <- if null (restrict (TagsPronP [p] [g] [n] [c]) s)
-
-                                                                   then [] else r' ] ]
+                                                                    then [] else r' ] ]
 
     inflect (Lexeme r e) (TagsPronD   g n c) = [ (ParaPron (PronD g n c), lists [(r, morphs e)] q) |
 
+                                                    let (d, l) = limits e,
+
+                                                    TagsPron y <- [d],
+
                                                     let g' = vals g
                                                         n' = vals n
-                                                        c' = vals c,
+                                                        c' = vals c
+
+                                                        d' = TagsPronD g' n' c',
+
+                                                    TagsPronD g' n' c' <- if null y then [d'] else restrict d' y,
 
                                                     n <- n', g <- g', c <- c',
 
-                                                    let q = [ (r, q) | let (d, l) = limits e,
+                                                    let q = [ (r, q) | (d', r') <- l, TagsPron y <- d',
 
-                                                              (d', r') <- l, TagsPron s <- d',
+                                                               q <- if null (restrict (TagsPronD [g] [n] [c]) y)
 
-                                                              q <- if null (restrict (TagsPronD [g] [n] [c]) s)
-
-                                                                   then [] else r' ] ]
+                                                                    then [] else r' ] ]
 
     inflect (Lexeme r e) (TagsPronR   g n c) = [ (ParaPron (PronR g n c), lists [(r, morphs e)] q) |
 
+                                                    let (d, l) = limits e,
+
+                                                    TagsPron y <- [d],
+
                                                     let g' = vals g
                                                         n' = vals n
-                                                        c' = vals c,
+                                                        c' = vals c
+
+                                                        d' = TagsPronD g' n' c',
+
+                                                    TagsPronD g' n' c' <- if null y then [d'] else restrict d' y,
 
                                                     n <- n', g <- g', c <- c',
 
-                                                    let q = [ (r, q) | let (d, l) = limits e,
+                                                    let q = [ (r, q) | (d', r') <- l, TagsPron y <- d',
 
-                                                              (d', r') <- l, TagsPron s <- d',
+                                                               q <- if null (restrict (TagsPronR [g] [n] [c]) y)
 
-                                                              q <- if null (restrict (TagsPronR [g] [n] [c]) s)
+                                                                    then [] else r' ] ]
 
-                                                                   then [] else r' ] ]
+    inflect (Lexeme r e) (TagsPronS        ) = [ (ParaPron PronS, [(r, morphs e)]) |
 
-    inflect (Lexeme r e) (TagsPronS        ) = [(ParaPron PronS, [(r, morphs e)])]
+                                                    let d = domain e,
+
+                                                    TagsPron y <- [d],
+
+                                                    let d' = TagsPronS,
+
+                                                    TagsPronS <- if null y then [d'] else restrict d' y ]
 
 
 instance Inflect Lexeme TagsPrep where
 
-    inflect (Lexeme r e) x | (not . isPrep) (entity e) = []
-
     inflect (Lexeme r e) (TagsPrepP  ) | isInflect s = []
-                                       | otherwise   = [(ParaPrep PrepP, [(r, m)])]
+
+                                       | otherwise   = [ (ParaPrep PrepP, lists [(r, m)] q) |
+
+                                                            let (d, l) = limits e,
+
+                                                            TagsPrep y <- [d],
+
+                                                            let d' = TagsPrepP,
+
+                                                            TagsPrepP <- if null y then [d'] else restrict d' y,
+
+                                                            let q = [ (r, q) | (d', r') <- l, TagsPrep y <- d',
+
+                                                                       q <- if null (restrict TagsPrepP y)
+
+                                                                            then [] else r' ] ]
 
         where m@(Morphs t p s) = morphs e
 
     inflect (Lexeme r e) (TagsPrepI c) | isInflect s = [ (ParaPrep (PrepI c), [(r, paraPrepI c m)]) |
-                                                            let c' = vals c, c <- c' ]
+
+                                                            let d = domain e,
+
+                                                            TagsPrep y <- [d],
+
+                                                            let c' = vals c
+
+                                                                d' = TagsPrepI c',
+
+                                                            TagsPrepI c' <- if null y then [d'] else restrict d' y,
+
+                                                            c <- c' ]
+
                                        | otherwise   = []
 
         where Morphs t p s = morphs e
@@ -381,15 +480,20 @@ instance Inflect Lexeme TagsPrep where
 
 instance Inflect Lexeme TagsNum where
 
-    inflect (Lexeme r e) x | (not . isNum) (entity e) = []
-
-    inflect (Lexeme r e) (TagsNumQ        ) = [(ParaNum NumQ, [(r, morphs e)])]
-
     inflect (Lexeme r e) (TagsNumI g   c s) = [ (y, z) |
+
+            let d = domain e,
+
+            TagsNum y <- [d],
 
             let g' = vals g
                 c' = vals c
-                s' = vals s,
+                s' = if null s then l' else intersect s l'
+
+                l' = [indefinite, construct, definite, absolute]
+                d' = TagsNumI g' c' s',
+
+            TagsNumI g' c' s' <- if null y then [d'] else restrict d' y,
 
             g <- g',
 
@@ -403,9 +507,18 @@ instance Inflect Lexeme TagsNum where
 
     inflect (Lexeme r e) (TagsNumV  g   c s) = [ (y, z) |
 
+            let d = domain e,
+
+            TagsNum y <- [d],
+
             let g' = vals g
                 c' = vals c
-                s' = vals s,
+                s' = if null s then l' else intersect s l'
+
+                l' = [indefinite, construct, definite, absolute]
+                d' = TagsNumV g' c' s',
+
+            TagsNumV g' c' s' <- if null y then [d'] else restrict d' y,
 
             g <- g',
 
@@ -419,9 +532,18 @@ instance Inflect Lexeme TagsNum where
 
     inflect (Lexeme r e) (TagsNumX  g   c s) = [ (y, z) |
 
+            let d = domain e,
+
+            TagsNum y <- [d],
+
             let g' = vals g
                 c' = vals c
-                s' = vals s,
+                s' = if null s then l' else intersect s l'
+
+                l' = [indefinite, construct, definite, absolute]
+                d' = TagsNumX g' c' s',
+
+            TagsNumX g' c' s' <- if null y then [d'] else restrict d' y,
 
             g <- g',
 
@@ -435,7 +557,15 @@ instance Inflect Lexeme TagsNum where
 
     inflect (Lexeme r e) (TagsNumY  g      ) = [ (y, z) |
 
-            let g' = vals g,
+            let d = domain e,
+
+            TagsNum y <- [d],
+
+            let g' = vals g
+
+                d' = TagsNumY g',
+
+            TagsNumY g' <- if null y then [d'] else restrict d' y,
 
             g <- g',
 
@@ -443,12 +573,21 @@ instance Inflect Lexeme TagsNum where
 
             let y = ParaNum (NumY g      ),
 
-            let z = map (inRules r Accusative (Just False :-: False) Nothing) i ]
+            let z = map (inRules r Accusative absolute Nothing) i ]
 
     inflect (Lexeme r e) (TagsNumL      c s) = [ (y, z) |
 
+            let d = domain e,
+
+            TagsNum y <- [d],
+
             let c' = vals c
-                s' = vals s,
+                s' = if null s then l' else intersect s l'
+
+                l' = [indefinite, construct, definite, absolute]
+                d' = TagsNumL c' s',
+
+            TagsNumL c' s' <- if null y then [d'] else restrict d' y,
 
             let i = inEntry Singular e,
 
@@ -460,9 +599,18 @@ instance Inflect Lexeme TagsNum where
 
     inflect (Lexeme r e) (TagsNumC    n c s) = [ (y, z) |
 
+            let d = domain e,
+
+            TagsNum y <- [d],
+
             let n' = vals n
                 c' = vals c
-                s' = vals s,
+                s' = if null s then l' else intersect s l'
+
+                l' = [indefinite, construct, definite, absolute]
+                d' = TagsNumC n' c' s',
+
+            TagsNumC n' c' s' <- if null y then [d'] else restrict d' y,
 
             n <- n',
 
@@ -476,8 +624,17 @@ instance Inflect Lexeme TagsNum where
 
     inflect (Lexeme r e) (TagsNumD      c s) = [ (y, z) |
 
+            let d = domain e,
+
+            TagsNum y <- [d],
+
             let c' = vals c
-                s' = vals s,
+                s' = if null s then l' else intersect s l'
+
+                l' = [indefinite, construct, definite, absolute]
+                d' = TagsNumD c' s',
+
+            TagsNumD c' s' <- if null y then [d'] else restrict d' y,
 
             let i = inEntry Singular e,
 
@@ -489,9 +646,18 @@ instance Inflect Lexeme TagsNum where
 
     inflect (Lexeme r e) (TagsNumM    n c s) = [ (y, z) |
 
+            let d = domain e,
+
+            TagsNum y <- [d],
+
             let n' = vals n
                 c' = vals c
-                s' = vals s,
+                s' = if null s then l' else intersect s l'
+
+                l' = [indefinite, construct, definite, absolute]
+                d' = TagsNumM n' c' s',
+
+            TagsNumM n' c' s' <- if null y then [d'] else restrict d' y,
 
             n <- n',
 
@@ -503,65 +669,126 @@ instance Inflect Lexeme TagsNum where
 
             let z = map (inRules r c s Nothing) i ]
 
+    inflect (Lexeme r e) (TagsNumQ        ) = [ (ParaNum NumQ, [(r, morphs e)]) |
+
+                                                    let d = domain e,
+
+                                                    TagsNum y <- [d],
+
+                                                    let d' = TagsNumQ,
+
+                                                    TagsNumQ <- if null y then [d'] else restrict d' y ]
+
 
 instance Inflect Lexeme TagsAdv where
 
-    inflect x TagsAdvD = inflect x AdvD
+    inflect (Lexeme r e) TagsAdvD = [ (ParaAdv AdvD, [(r, morphs e)]) |
+
+                                        let d = domain e,
+
+                                        TagsAdv y <- [d],
+
+                                        let d' = TagsAdvD,
+
+                                        TagsAdvD <- if null y then [d'] else restrict d' y ]
 
 
 instance Inflect Lexeme TagsConj where
 
-    inflect x TagsConjC = inflect x ConjC
+    inflect (Lexeme r e) TagsConjC = [ (ParaConj ConjC, [(r, morphs e)]) |
+
+                                        let d = domain e,
+
+                                        TagsConj y <- [d],
+
+                                        let d' = TagsConjC,
+
+                                        TagsConjC <- if null y then [d'] else restrict d' y ]
 
 
 instance Inflect Lexeme TagsPart where
 
-    inflect x TagsPartF = inflect x PartF
+    inflect (Lexeme r e) TagsPartF = [ (ParaPart PartF, [(r, morphs e)]) |
+
+                                        let d = domain e,
+
+                                        TagsPart y <- [d],
+
+                                        let d' = TagsPartF,
+
+                                        TagsPartF <- if null y then [d'] else restrict d' y ]
 
 
 instance Inflect Lexeme TagsIntj where
 
-    inflect x TagsIntjI = inflect x IntjI
+    inflect (Lexeme r e) TagsIntjI = [ (ParaIntj IntjI, [(r, morphs e)]) |
+
+                                        let d = domain e,
+
+                                        TagsIntj y <- [d],
+
+                                        let d' = TagsIntjI,
+
+                                        TagsIntjI <- if null y then [d'] else restrict d' y ]
 
 
 instance Inflect Lexeme TagsXtra where
 
-    inflect x TagsXtraX = inflect x XtraX
+    inflect (Lexeme r e) TagsXtraX = [ (ParaXtra XtraX, [(r, morphs e)]) |
+
+                                        let d = domain e,
+
+                                        TagsXtra y <- [d],
+
+                                        let d' = TagsXtraX,
+
+                                        TagsXtraX <- if null y then [d'] else restrict d' y ]
 
 
 instance Inflect Lexeme TagsYnit where
 
-    inflect x TagsYnitY = inflect x YnitY
+    inflect (Lexeme r e) TagsYnitY = [ (ParaYnit YnitY, [(r, morphs e)]) |
+
+                                        let d = domain e,
+
+                                        TagsYnit y <- [d],
+
+                                        let d' = TagsYnitY,
+
+                                        TagsYnitY <- if null y then [d'] else restrict d' y ]
 
 
 instance Inflect Lexeme TagsZero where
 
-    inflect x TagsZeroZ = inflect x ZeroZ
+    inflect (Lexeme r e) TagsZeroZ = [ (ParaZero ZeroZ, [(r, morphs e)]) |
+
+                                        let d = domain e,
+
+                                        TagsZero y <- [d],
+
+                                        let d' = TagsZeroZ,
+
+                                        TagsZeroZ <- if null y then [d'] else restrict d' y ]
 
 
 instance Inflect Lexeme TagsGrph where
 
-    inflect x TagsGrphG = inflect x GrphG
+    inflect (Lexeme r e) TagsGrphG = [ (ParaGrph GrphG, [(r, morphs e)]) |
 
+                                        let d = domain e,
 
-instance Inflect Lexeme String where
+                                        TagsGrph y <- [d],
 
-    inflect x@(Lexeme r e) y = inflect x (restrict (domain e) (convert y))
+                                        let d' = TagsGrphG,
 
-
-instance Inflect Lexeme a => Inflect Lexeme [a] where
-
-    inflect x y = [ z | i <- y, z <- inflect x i ]
-
-    -- inflect x = concat . map (inflect x)
-    -- inflect = (.) concat . map . inflect
+                                        TagsGrphG <- if null y then [d'] else restrict d' y ]
 
 
 instance Inflect Lexeme ParaVerb where
 
-    inflect (Lexeme r e) x | (not . isVerb) (entity e) = []
+    inflect x y = inflect x (ParaVerb y)
 
-    inflect l x = [(ParaVerb x, inflectVerb l x)]
+    -- inflect x y = [(ParaVerb y, inflectVerb x y)]
 
 
 inflectVerb :: (Morphing a b, Forming a, Rules a) => Lexeme a -> ParaVerb -> [(Root, Morphs b)]
@@ -913,9 +1140,9 @@ paraVerbC g n i = prefix i . suffix c
 
 instance Inflect Lexeme ParaNoun where
 
-    inflect (Lexeme r e) x | (not . isNoun) (entity e) = []
+    inflect x y = inflect x (ParaNoun y)
 
-    inflect l x@(NounS n c s) = [(ParaNoun x, inflectNoun l x)]
+    -- inflect x y = [(ParaNoun y, inflectNoun x y)]
 
 
 inflectNoun (Lexeme r e) (NounS n c s) = (map (inRules r c s x) . inEntry n) e
@@ -972,9 +1199,9 @@ inRules r c (d :-: a) x m = ((,) r . article . endings c d a) m
 
 instance Inflect Lexeme ParaAdj where
 
-    inflect (Lexeme r e) x | (not . isAdj) (entity e) = []
+    inflect x y = inflect x (ParaAdj y)
 
-    inflect l x@(AdjA g n c s) = [(ParaAdj x, inflectAdj l x )]
+    -- inflect x y = [(ParaAdj y, inflectAdj x y)]
 
 
 inflectAdj (Lexeme r e) (AdjA g n c s) = (map (inRules r c s Nothing) . inEntry' g n) e
@@ -1065,45 +1292,7 @@ paraFeminine c d a = case (c, d, a) of
 
 instance Inflect Lexeme ParaPron where
 
-    inflect x@(Lexeme r e) y | (not . isPron) (entity e) = []
-
-{-
-    inflect (Lexeme r e) x@(PronP p g n c) = [(ParaPron (PronP p g n c), [(paraPronP p g n c, morphs e)])]
-
-    inflect (Lexeme r e) x@(PronD   g n c) = [ (ParaPron (PronD g n c), [(paraPronD g n c h, morphs e)]) | h <- ["h", ""] ]
-
-    inflect (Lexeme r e) x@(PronR   g n c) = [(ParaPron (PronR g n c), [(paraPronR g n c, morphs e)])]
--}
-
-    -- now inaccurate, one needs to restrict ParaPron to 'domain' as well
-
-    inflect (Lexeme r e) x@(PronP p g n c) = [(ParaPron (PronP p g n c), lists [(r, morphs e)] q)]
-
-        where q = [ (r, q)  | let (d, l) = limits e,
-
-                    (d', r') <- l, TagsPron s <- d',
-
-                    q <- if null (restrict (TagsPronP [p] [g] [n] [c]) s) then [] else r' ]
-
-
-    inflect (Lexeme r e) x@(PronD   g n c) = [(ParaPron (PronD g n c), lists [(r, morphs e)] q)]
-
-        where q = [ (r, q) | let (d, l) = limits e,
-
-                    (d', r') <- l, TagsPron s <- d',
-
-                    q <- if null (restrict (TagsPronD [g] [n] [c]) s) then [] else r' ]
-
-
-    inflect (Lexeme r e) x@(PronR   g n c) = [(ParaPron (PronR g n c), lists [(r, morphs e)] q)]
-
-        where q = [ (r, q) | let (d, l) = limits e,
-
-                    (d', r') <- l, TagsPron s <- d',
-
-                    q <- if null (restrict (TagsPronR [g] [n] [c]) s) then [] else r' ]
-
-    inflect (Lexeme r e) x@(PronS        ) = [(ParaPron PronS, [(r, morphs e)])]
+    inflect x y = inflect x (ParaPron y)
 
 
 paraPronP p g n c = case p of
@@ -1217,18 +1406,7 @@ paraPronD   g n c _ = case n of
 
 instance Inflect Lexeme ParaPrep where
 
-    inflect x@(Lexeme r e) y | (not . isPrep) (entity e) = []
-
-    inflect (Lexeme r e) x@(PrepP  ) | isInflect s = []
-                                     | otherwise   = [(ParaPrep PrepP, [(r, m)])]
-
-        where m@(Morphs t p s) = morphs e
-
-    inflect (Lexeme r e) x@(PrepI c) | isInflect s = [(ParaPrep (PrepI c), [(r, paraPrepI c m)])]
-                                     | otherwise   = []
-
-        where Morphs t p s = morphs e
-              m = Morphs t p (tail s)
+    inflect x y = inflect x (ParaPrep y)
 
 
 isInflect :: [Suffix] -> Bool
@@ -1246,62 +1424,44 @@ paraPrepI c = case c of
 
 instance Inflect Lexeme ParaNum where
 
-    inflect x@(Lexeme r e) y | (not . isNum) (entity e) = []
-
-    inflect x (NumQ        ) = inflect x (TagsNumQ                )
-    inflect x (NumI g   c s) = inflect x (TagsNumI [g]     [c] [s])
-    inflect x (NumV g   c s) = inflect x (TagsNumV [g]     [c] [s])
-    inflect x (NumX g   c s) = inflect x (TagsNumX [g]     [c] [s])
-    inflect x (NumY g      ) = inflect x (TagsNumY [g]            )
-    inflect x (NumL     c s) = inflect x (TagsNumL         [c] [s])
-    inflect x (NumC   n c s) = inflect x (TagsNumC     [n] [c] [s])
-    inflect x (NumD     c s) = inflect x (TagsNumD         [c] [s])
-    inflect x (NumM   n c s) = inflect x (TagsNumM     [n] [c] [s])
+    inflect x y = inflect x (ParaNum y)
 
 
 instance Inflect Lexeme ParaAdv where
 
-    inflect x@(Lexeme r e) y | (not . isAdv) (entity e) = []
-                             | otherwise = [(ParaAdv AdvD, [(r, morphs e)])]
+    inflect x y = inflect x (ParaAdv y)
 
 
 instance Inflect Lexeme ParaConj where
 
-    inflect x@(Lexeme r e) y | (not . isConj) (entity e) = []
-                             | otherwise = [(ParaConj ConjC, [(r, morphs e)])]
+    inflect x y = inflect x (ParaConj y)
 
 
 instance Inflect Lexeme ParaPart where
 
-    inflect x@(Lexeme r e) y | (not . isPart) (entity e) = []
-                             | otherwise = [(ParaPart PartF, [(r, morphs e)])]
+    inflect x y = inflect x (ParaPart y)
 
 
 instance Inflect Lexeme ParaIntj where
 
-    inflect x@(Lexeme r e) y | (not . isIntj) (entity e) = []
-                             | otherwise = [(ParaIntj IntjI, [(r, morphs e)])]
+    inflect x y = inflect x (ParaIntj y)
 
 
 instance Inflect Lexeme ParaXtra where
 
-    inflect x@(Lexeme r e) y | (not . isXtra) (entity e) = []
-                             | otherwise = [(ParaXtra XtraX, [(r, morphs e)])]
+    inflect x y = inflect x (ParaXtra y)
 
 
 instance Inflect Lexeme ParaYnit where
 
-    inflect x@(Lexeme r e) y | (not . isYnit) (entity e) = []
-                             | otherwise = [(ParaYnit YnitY, [(r, morphs e)])]
+    inflect x y = inflect x (ParaYnit y)
 
 
 instance Inflect Lexeme ParaZero where
 
-    inflect x@(Lexeme r e) y | (not . isZero) (entity e) = []
-                             | otherwise = [(ParaZero ZeroZ, [(r, morphs e)])]
+    inflect x y = inflect x (ParaZero y)
 
 
 instance Inflect Lexeme ParaGrph where
 
-    inflect x@(Lexeme r e) y | (not . isGrph) (entity e) = []
-                             | otherwise = [(ParaGrph GrphG, [(r, morphs e)])]
+    inflect x y = inflect x (ParaGrph y)

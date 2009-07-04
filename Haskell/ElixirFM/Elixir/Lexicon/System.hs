@@ -322,8 +322,7 @@ noun h = Entry m (Noun [] Nothing Nothing Nothing Nothing) (TagsNoun d, [])
           (m, d) = case s of
                         Suffix "aN" : _ -> (Morphs t p (tail s), [TagsNounS [] [] [] [Singular]
                                                                             [Accusative] [indefinite]])
-                        _               -> (Morphs t p s, [TagsNounS [] [] [] [] []
-                                                                     [indefinite, construct, definite, absolute]])
+                        _               -> (Morphs t p s, [])
 
 adj  h = Entry m (Adj [] [] Nothing)               (TagsAdj  d, [])
 
