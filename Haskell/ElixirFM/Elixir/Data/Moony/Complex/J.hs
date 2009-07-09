@@ -431,8 +431,6 @@ cluster_13  = cluster
 
     FuCUL                     `noun`    {- <`ulUw> -}          [ ['h','e','i','g','h','t'], ['e','l','e','v','a','t','i','o','n'] ],
 
-    FaCY                      `prep`    {- <`alY> -}           [ ['o','n'], ['a','b','o','v','e'] ],
-
     FaCY |< Iy                `adj`     {- <`alawIy> -}        [ ['A','l','a','w','i','t','e'] ],
 
     HaFCY                     `adj`     {- <'a`lY> -}          [ unwords [ ['h','i','g','h','e','r'], "/", ['h','i','g','h','e','s','t'] ], ['s','u','p','r','e','m','e'], ['h','i','g','h','e','s','t'] ]

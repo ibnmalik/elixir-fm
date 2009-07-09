@@ -1048,10 +1048,6 @@ cluster_70  = cluster
 
     HACA'                     `noun`    {- <'AlA'> -}          [ ['b','e','n','e','f','i','t','s'], ['b','l','e','s','s','i','n','g','s'] ] ]
 
- |> ['\'','i','l','Y'] <| [
-
-    _____                     `prep`    {- <'ilY> -}           [ ['t','o'], ['t','o','w','a','r','d','s'] ] ]
-
 
 cluster_71  = cluster
 
@@ -1077,9 +1073,9 @@ cluster_73  = cluster
 
  |> ['\'','a','l','b'] <| [
 
-    _____ |< Iy               `adj`     {- <'albIy> -}         [ ['A','l','p','i','n','e'] ],
+    _____                     `xtra`    {- <'alb> -}           [ ['A','l','p','s'] ],
 
-    _____                     `xtra`    {- <'alb> -}           [ ['A','l','p','s'] ] ]
+    _____ |< Iy               `adj`     {- <'albIy> -}         [ ['A','l','p','i','n','e'] ] ]
 
 
 cluster_74  = cluster
