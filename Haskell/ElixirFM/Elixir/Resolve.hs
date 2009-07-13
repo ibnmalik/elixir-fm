@@ -46,6 +46,8 @@ data Token a = Token { lexeme :: (Lexeme a, Index), struct :: (Root, Morphs a), 
     deriving Show
 
 
+type MorphoTrees = [[[[Wrap Token]]]]       -- [[[Wrap Tokens]]]
+
 type Tag = ParaType
 
 
@@ -57,13 +59,45 @@ instance Show (Token a) => Show (Tokens a) where
     showsPrec n (Tokens x) = showsPrec n x
 
 
+instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pretty (Token a) where
+
+    pretty x =  pretty t <> align (
+
+                encloseText [merge d m, show d, show m]
+
+                <$$> encloseText [merge r (morphs e), show r, show (morphs e)]
+                <$$> encloseText [show (reflex e), show (lookupForm r e)]
+                <$$> (text . ('\t' :) . concat . map (unwords . words) . lines . show . pretty) (entity e)
+                <$$> (text . ('\t' :) . show) i )
+
+        where Token (Lexeme r e, i) (d, m) t = x
+
+
+instance Pretty [Wrap Token] where
+
+    pretty []       = text "!!! Empty Tokens !!!"
+
+    pretty xs@(x:_) = nest 2 (text ": " <> align (
+
+            nest 10 ( unwraps (\ (Token (Lexeme r e, i) _ _) -> (fill 10 . text . show) i <>
+
+                        (text . ('\t' :) . concat . map (unwords . words) . lines . show . pretty) (entity e)
+
+                        <$$> encloseText [show (reflex e), show (lookupForm r e)]
+                        <$$> encloseText [merge r (morphs e), show r, show (morphs e)]) x )
+
+            <$$> vcat [ unwraps (\ (Token _ (d, m) t) -> pretty t <>
+
+                        encloseText [merge d m, show d, show m]) y | y <- xs ] ) )
+
+
 instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pretty (Tokens a) where
 
     pretty (Tokens [])       = text "!!! Empty Tokens !!!"
 
     pretty (Tokens xs@(x:_)) = nest 2 (text ": " <> align (
 
-            nest 10 ( (fill 10 . text . show) idx <>
+            nest 10 ( (fill 10 . text . show) i <>
 
                         (text . ('\t' :) . concat . map (unwords . words) . lines . show . pretty) (entity e)
 
@@ -74,7 +108,16 @@ instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pret
 
                         encloseText [merge d m, show d, show m] | y <- xs, let (d, m) = struct y ] ) )
 
-        where (Lexeme r e, idx) = lexeme x
+        where (Lexeme r e, i) = lexeme x
+
+
+instance Pretty [Wrap Token] => Pretty [[Wrap Token]] where
+
+    pretty x = nest 1 (text (":: <" ++ unwords z ++ ">") <> foldr ((<>) . (<>) line . pretty) empty x)
+
+        where y = nub [ z | y <- x, z <- map (unwraps (uncurry merge . struct)) y ]
+
+              z = if length y > 3 then [head y] ++ [".."] ++ [last y] else y
 
 
 instance Pretty (Wrap Tokens) => Pretty [Wrap Tokens] where
@@ -86,9 +129,27 @@ instance Pretty (Wrap Tokens) => Pretty [Wrap Tokens] where
               z = if length y > 3 then [head y] ++ [".."] ++ [last y] else y
 
 
+instance Pretty [[Wrap Token]] => Pretty [[[Wrap Token]]] where
+
+    pretty x = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . (<>) (line <> line)) empty p)
+
+        where p = map pretty x
+              s = map (drop 1 . concat . take 1 . lines . show) p
+
+
 instance Pretty [Wrap Tokens] => Pretty [[Wrap Tokens]] where
 
     pretty x = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . (<>) (line <> line)) empty p)
+
+        where p = map pretty x
+              s = map (drop 1 . concat . take 1 . lines . show) p
+
+
+instance Pretty [[[Wrap Token]]] => Pretty [[[[Wrap Token]]]] where
+
+    pretty [] = text "::::" <> line
+
+    pretty x = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . (<>) (line <> line)) line p)
 
         where p = map pretty x
               s = map (drop 1 . concat . take 1 . lines . show) p
@@ -104,12 +165,17 @@ instance Pretty [[Wrap Tokens]] => Pretty [[[Wrap Tokens]]] where
               s = map (drop 1 . concat . take 1 . lines . show) p
 
 
+instance Pretty [[[[Wrap Token]]]] => Pretty [[[[[Wrap Token]]]]] where
+
+    pretty = vcat . map pretty
+
+
 instance Pretty [[[Wrap Tokens]]] => Pretty [[[[Wrap Tokens]]]] where
 
     pretty = vcat . map pretty
 
 
-prune :: [[[Wrap Tokens]]] -> [[[Wrap Tokens]]]
+prune :: [[[a]]] -> [[[a]]]
 
 prune = filter (not . any null)
 
@@ -193,10 +259,9 @@ follow (ParaGrph _) = [[Nothing]]
 
 class Fuzzy a => Resolve a where
 
-    resolve :: a -> [[[[Wrap Tokens]]]]
+    resolve :: a -> [MorphoTrees]
 
-    resolveBy :: (String -> String -> Bool) -> ([a] -> [a] -> Bool)
-                    -> [[[a]]] -> [[[[Wrap Tokens]]]]
+    resolveBy :: (String -> String -> Bool) -> ([a] -> [a] -> Bool) -> [[[a]]] -> [MorphoTrees]
 
     tokenize :: a -> [[a]]
 
@@ -225,14 +290,15 @@ instance Resolve String where
 
                                 let l = Lexeme r e,
 
-                                z <- (Map.foldWithKey (\ k x y -> (k, [wrap (Tokens (reverse x))]) : y) []
+                                z <- (Map.foldWithKey (\ k x y -> (k, [foldl (flip ((:) . wrap)) [] x]) : y) []
+
+                                  -- (Map.foldWithKey (\ k x y -> (k, [wrap (Tokens (reverse x))]) : y) []
 
                                     . Map.fromListWith (++))
 
                                     [ (concat d, [Token (l, (n, m)) i t]) | (t, h) <- inflect l x, i <- h,
 
-                                        let u = (units . uncurry merge) i, d <- y, u `q` d ] ]
-
+                                       let u = (units . uncurry merge) i, d <- y, u `q` d ] ]
 
     tokenize = nub . tokens'''
 
@@ -444,17 +510,10 @@ instance Resolve [UPoint] where
 
                                 let l = Lexeme r e,
 
-                                z <- (Map.foldWithKey (\ k x y -> (k, [wrap (Tokens (reverse x))]) : y) []
-{-
-                                    . Map.fromListWith (++) .
+                                z <- (Map.foldWithKey (\ k x y -> (k, [foldl (flip ((:) . wrap)) [] x]) : y) []
 
-                                    (\ x -> [ (concat d, t) | (f, t) <- x, let v = units f, let u = (units . c) f,
-                                                              (d, w) <- y, isSubsumed (flip b) approx w v, u `q` d ])
+                                  -- (Map.foldWithKey (\ k x y -> (k, [wrap (Tokens (reverse x))]) : y) []
 
-                                    . Map.toList . Map.fromListWith (++))
-
-                                    [ (uncurry merge i, [Token (l, (n, m)) i t]) | (t, h) <- inflect l x, i <- h ] ]
--}
                                     . Map.fromListWith (++))
 
                                     [ (concat d, [Token (l, (n, m)) i t]) | (t, h) <- inflect l x, i <- h,
