@@ -180,12 +180,45 @@ prune :: [[[a]]] -> [[[a]]]
 prune = filter (not . any null)
 
 
--- harmonize :: [[[Wrap Tokens]]] -> [[[Wrap Tokens]]]
+-- harmonize :: MorphoTrees -> MorphoTrees
+
+harmonize = map (map snd . foldr (\ x y ->
+
+                [ z |   x' <- x, x <- x',
+
+                        let (t, m, w) = unwraps (\ x -> (tag x, uncurry merge (struct x), wrap x)) x
+                            f = (map (fmap convert) . concat) (follow t)
+                            q = revert t,
+
+                        (q', y') <- y,
+
+                        z <- if null y' then if q' `elem` f then [(Just [q], [x])] else []
+
+                                        else
+
+                                {- let (t', m', w') = unwraps (\ x -> (tag x, uncurry merge (struct x), wrap x)) (head y')
+                                    t = revert t'
+
+                                in -}
+
+                                if null [ () | Just x <- f, Just [x'] <- [q'], x' `elem` restrict x' x ] then [] else [(Just [q], x : y')] ]
+
+            ) [(Nothing, [])])
+
+{-
+harmonize = map (foldl (flip ((:) . map (\ x-> [ y | y <- x,
+                                                     let (t, f, w) = unwraps (\ x -> (revert (tag x), uncurry merge (struct x), wrap x)) y,
+                                                     restrict t (convert "--------2-") == [t] ]
+                                        ))) [])
+-}
+{-
+harmonize :: [[[Wrap Tokens]]] -> [[[Wrap Tokens]]]
 
 harmonize = map (foldl (flip ((:) . map (unwraps (\ (Tokens x) -> wrap
                                                         (Tokens [ y | y <- x, let t = revert (tag y),
                                                                       restrict t (convert "--------2-") == [t] ])
                                                  )))) [])
+-}
 
 
 follow :: ParaType -> [[Maybe String]]
@@ -225,7 +258,7 @@ follow (ParaNum  _) = [[Nothing]]
 
 follow (ParaAdv  _) = [[Nothing]]
 
-follow (ParaPrep _) = [[Nothing], [Just "S---------",
+follow (ParaPrep _) = [[Nothing], [Just "C---------",
                                      Just "SD------2-",
                                      Just "SR------2-",
                                      Just "N-------2-",
