@@ -1202,8 +1202,6 @@ cluster_54  = cluster
 
     FaCaL |< Iy               `adj`     {- <.hanafIy> -}       [ ['H','a','n','a','f','i'] ],
 
-    FaCaL |< Iy               `adj`     {- <.hanafIy> -}       [ ['H','a','n','a','f','i'] ],
-
     FaCaL |< Iy |< aT         `noun`    {- <.hanafIyaT> -}     [ ['f','a','u','c','e','t'], ['t','a','p'], ['H','a','n','a','f','i','s','m'] ],
 
     HaFCaL                    `noun`    {- <'a.hnaf> -}        [ ['c','l','u','b','f','o','o','t'] ] ]

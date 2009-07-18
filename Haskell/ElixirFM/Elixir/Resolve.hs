@@ -180,19 +180,19 @@ prune :: [[[a]]] -> [[[a]]]
 prune = filter (not . any null)
 
 
--- harmonize :: MorphoTrees -> MorphoTrees
+harmonize :: MorphoTrees -> [[[Wrap Token]]]
 
 harmonize = map (map snd . foldr (\ x y ->
 
                 [ z |   x' <- x, x <- x',
 
                         let (t, m, w) = unwraps (\ x -> (tag x, uncurry merge (struct x), wrap x)) x
-                            f = (map (fmap convert) . concat) (follow t)
+                            f = map (fmap (\ (x, y) -> (convert x, y))) (follow t m)
                             q = revert t,
 
                         (q', y') <- y,
 
-                        z <- if null y' then if q' `elem` f then [(Just [q], [x])] else []
+                        z <- if null y' then if null [ () | Nothing <- f ] then [] else [(Just ([q], m), [x])]
 
                                         else
 
@@ -201,7 +201,7 @@ harmonize = map (map snd . foldr (\ x y ->
 
                                 in -}
 
-                                if null [ () | Just x <- f, Just [x'] <- [q'], x' `elem` restrict x' x ] then [] else [(Just [q], x : y')] ]
+                                if null [ () | Just (x, p) <- f, Just ([x'], m') <- [q'], x' `elem` restrict x' x, p m' ] then [] else [(Just ([q], m), x : y')] ]
 
             ) [(Nothing, [])])
 
@@ -220,74 +220,64 @@ harmonize = map (foldl (flip ((:) . map (unwraps (\ (Tokens x) -> wrap
                                                  )))) [])
 -}
 
+euphony :: String -> String -> Bool
 
-follow :: ParaType -> [[Maybe String]]
+euphony x = not . isPrefixOf (if last x `elem` "Iiy" then "hu" else "hi")
 
-follow (ParaVerb _) = [[Nothing], [Just "SP------4-"]]
 
-follow (ParaNoun (NounS _ _ (Nothing :-: True))) = [[Nothing], [Just "SP---1-S2-"],
-                                                                 [Just "SP---1-D2-",
-                                                                  Just "SP---1-P2-",
-                                                                  Just "SP---2--2-",
-                                                                  Just "SP---3--2-"]]
-follow (ParaNoun _) = [[Nothing]]
+follow :: ParaType -> String -> [Maybe (String, String -> Bool)]
 
-follow (ParaAdj  (AdjA  _ _ _ (Nothing :-: True))) = [[Nothing], [Just "SP---1-S2-"],
-                                                                   [Just "SP---1-D2-",
-                                                                    Just "SP---1-P2-",
-                                                                    Just "SP---2--2-",
-                                                                    Just "SP---3--2-"]]
-follow (ParaAdj  _) = [[Nothing]]
+follow (ParaVerb (VerbP   Passive _ _ _)) 	_	= [Nothing]
+follow (ParaVerb (VerbI _ Passive _ _ _)) 	_	= [Nothing]
+follow (ParaVerb _) 	                    y	= [Nothing,
+                                                   Just ("SP------4-", euphony y)]
 
-follow (ParaPron _) = [[Nothing]]   -- in modern language
+follow (ParaNoun (NounS _ _ (Nothing :-: True))) 	y	= [Nothing, Just ("SP------2-", euphony y)]
+follow (ParaNoun _) 	                            _	= [Nothing]
 
-follow (ParaNum  (NumV Feminine _ (Nothing :-: True))) = [[Nothing], [Just "QC-----S2I",
-                                                                        Just "QC-----S2R",
-                                                                        Just "QC-----S2A"]]
-follow (ParaNum  (NumC _ _ (Nothing :-: True))) = [[Nothing], [Just "SP---1-S2-"],
-                                                                [Just "SP---1-D2-",
-                                                                 Just "SP---1-P2-",
-                                                                 Just "SP---2--2-",
-                                                                 Just "SP---3--2-"]]
-follow (ParaNum  (NumM _ _ (Nothing :-: True))) = [[Nothing], [Just "SP---1-S2-"],
-                                                                [Just "SP---1-D2-",
-                                                                 Just "SP---1-P2-",
-                                                                 Just "SP---2--2-",
-                                                                 Just "SP---3--2-"]]
-follow (ParaNum  _) = [[Nothing]]
+follow (ParaAdj  (AdjA  _ _ _ (Nothing :-: True))) 	y	= [Nothing, Just ("SP------2-", euphony y)]
+follow (ParaAdj  _) 	                            _	= [Nothing]
 
-follow (ParaAdv  _) = [[Nothing]]
+follow (ParaPron _) 	_	= [Nothing]   -- in modern language
 
-follow (ParaPrep _) = [[Nothing], [Just "C---------",
-                                     Just "SD------2-",
-                                     Just "SR------2-",
-                                     Just "N-------2-",
-                                     Just "A-------2-",
-                                     Just "Q-------2-",
-                                     Just "PI------2-",    -- in modern language
-                                     Just "D---------",
-                                     Just "C---------",
-                                     Just "F---------"],
-                                    [Just "SP---1-S2-"],
-                                    [Just "SP---1-D2-",
-                                     Just "SP---1-P2-",
-                                     Just "SP---2--2-",
-                                     Just "SP---3--2-"]]
+follow (ParaNum  (NumV Feminine _ (Nothing :-: True))) 	_	= [Nothing, Just ("QC-----S2[IRA]", const True)]
+follow (ParaNum  (NumC _ _ (Nothing :-: True))) 	    _	= [Nothing, Just ("SP------2-", const True)]
+follow (ParaNum  (NumM _ _ (Nothing :-: True))) 	    _	= [Nothing, Just ("SP------2-", const True)]
+follow (ParaNum  _) 	                                _	= [Nothing]
 
-follow (ParaConj _) = [[Nothing], [Just "----------"]]
+follow (ParaAdv  _) 	_	= [Nothing]
 
-follow (ParaPart _) = [[Nothing], [Just "V---------"],
-                                    [Just "SP------4-"]]
+follow (ParaPrep _) 	"la"	=          [Just ("S-------2-", euphony "la")]
+follow (ParaPrep _) 	"li"	= [Nothing, Just ("[NAQ]-------2-", const True),
+                                            Just ("PI------2-", const True),    -- in modern language
+                                            Just ("D---------", const True)]
+follow (ParaPrep _) 	"ka"	= [Nothing, Just ("S-------1-", const True),
+                                            Just ("[NAQ]-------2-", const True),
+                                            Just ("PI------2-", const True),    -- in modern language
+                                            Just ("D---------", const True)]
+follow (ParaPrep _) 	y	    = [Nothing, Just ("S-------2-", euphony y),
+                                            Just ("[NAQ]-------2-", const True),
+                                            Just ("PI------2-", const True),    -- in modern language
+                                            Just ("D---------", const True)]
 
-follow (ParaIntj _) = [[Nothing], [Just "SP------2-"]]
+follow (ParaConj _) 	"li"	= [Nothing, Just ("VIS-------", const True)]
+follow (ParaConj _) 	_	    = [Nothing, Just ("S-------1-", const True),
+                                            Just ("[VNAQDPCFIXYZ]---------", const True)]
 
-follow (ParaXtra _) = [[Nothing]]
+follow (ParaPart _) 	"sa"	= [Nothing, Just ("VII-------", const True)]
+follow (ParaPart _) 	"li"	= [Nothing, Just ("VIJ-------", const True)]
+follow (ParaPart _) 	_	    = [Nothing, Just ("V---------", const True),
+                                            Just ("SP------4-", const True)]
 
-follow (ParaYnit _) = [[Nothing]]
+follow (ParaIntj _) 	_	= [Nothing, Just ("SP------2-", const True)]
 
-follow (ParaZero _) = [[Nothing]]
+follow (ParaXtra _) 	_	= [Nothing]
 
-follow (ParaGrph _) = [[Nothing]]
+follow (ParaYnit _) 	_	= [Nothing]
+
+follow (ParaZero _) 	_	= [Nothing]
+
+follow (ParaGrph _) 	_	= [Nothing]
 
 
 class Fuzzy a => Resolve a where

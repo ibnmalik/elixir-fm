@@ -1725,9 +1725,6 @@ cluster_61  = cluster
     FaCI                      `verb`    {- <.gadI> -}          [ unwords [ ['h','a','v','e'], ['b','r','e','a','k','f','a','s','t'] ] ]
                               `imperf`     FCY,
 
-    FaCI                      `verb`    {- <.gadI> -}          [ unwords [ ['h','a','v','e'], ['b','r','e','a','k','f','a','s','t'] ] ]
-                              `imperf`     FCY,
-
     FaCCY                     `verb`    {- <.gaddY> -}         [ unwords [ ['g','i','v','e'], ['b','r','e','a','k','f','a','s','t'] ] ],
 
     TaFaCCY                   `verb`    {- <ta.gaddY> -}       [ unwords [ ['h','a','v','e'], ['b','r','e','a','k','f','a','s','t'] ] ],
@@ -1853,8 +1850,6 @@ cluster_65  = cluster
     MaFCIL                    `adj`     {- <ma.grIy> -}        [ ['g','l','u','e','d'] ] ]
 
  |> ".g r w" <| [
-
-    HuFCI                     `verb`    {- <'u.grI> -}         [ unwords [ ['b','e'], ['s','e','d','u','c','e','d'] ] ],
 
     FaCA                      `verb`    {- <.garA> -}          [ unwords [ ['g','l','u','e'], ['t','o','g','e','t','h','e','r'] ] ]
                               `imperf`     FCU,

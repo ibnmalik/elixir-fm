@@ -776,8 +776,6 @@ cluster_42  = cluster
 
     FaCIL                     `adj`     {- <_ha.sIb> -}        [ ['f','e','r','t','i','l','e'], ['p','r','o','d','u','c','t','i','v','e'] ],
 
-    FaCIL                     `adj`     {- <_ha.sIb> -}        [ ['f','e','r','t','i','l','e'], ['p','r','o','d','u','c','t','i','v','e'] ],
-
     HaFCaL                    `adj`     {- <'a_h.sab> -}       [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['f','e','r','t','i','l','e'] ], unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['p','r','o','d','u','c','t','i','v','e'] ] ],
 
     FuCUL |< aT               `noun`    {- <_hu.sUbaT> -}      [ ['f','e','r','t','i','l','i','t','y'] ],

@@ -631,8 +631,6 @@ cluster_38  = cluster
 
     FuCAL                     `noun`    {- <nubA.h> -}         [ ['b','a','r','k','i','n','g'] ],
 
-    FuCAL                     `noun`    {- <nubA.h> -}         [ ['b','a','r','k','i','n','g'] ],
-
     FaCIL                     `noun`    {- <nabI.h> -}         [ ['b','a','r','k','i','n','g'] ],
 
     FaCCAL                    `adj`     {- <nabbA.h> -}        [ ['b','a','r','k','i','n','g'], ['y','e','l','p','i','n','g'] ] ]

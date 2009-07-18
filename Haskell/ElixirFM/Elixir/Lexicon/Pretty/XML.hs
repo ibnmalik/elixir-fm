@@ -201,7 +201,8 @@ instance Show a => Pretty (TagsType, [([TagsType], [Morphs a])]) where
 
     pretty (x, y) = elemtxt "fst" [] (pretty x)
                     <$$>
-                    elemtxt "snd" [] (pretty y)
+                    elemtxt "snd" [] (case y of [_] -> nested (pretty y)
+                                                _   -> pretty y)
 
 
 instance Show a => Pretty ([TagsType], [Morphs a]) where

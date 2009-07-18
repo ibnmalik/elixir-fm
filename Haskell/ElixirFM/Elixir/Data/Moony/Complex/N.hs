@@ -65,13 +65,6 @@ cluster_5   = cluster
 
  |> "k w n" <| [
 
-    MustaFIL                  `adj`     {- <mustakIn> -}       [ ['s','u','b','m','i','s','s','i','v','e'], ['r','e','s','i','g','n','e','d'], ['h','u','m','b','l','e'] ],
-
-    IstiFAL |< aT             `noun`    {- <istikAnaT> -}      [ ['s','u','b','m','i','s','s','i','o','n'], ['r','e','s','i','g','n','a','t','i','o','n'] ],
-
-    FiyAL                     `noun`    {- <kiyAn> -}          [ ['e','n','t','i','t','y'] ]
-                              `plural`     FiyAL |< At,
-
     FAL                       `verb`    {- <kAn> -}            [ ['b','e'], ['i','s'], ['e','x','i','s','t'] ]
                               `imperf`     FUL
                               `masdar`     FaCL
@@ -112,6 +105,8 @@ cluster_5   = cluster
 
     TaFCIL |< Iy              `adj`     {- <takwInIy> -}       [ ['f','o','r','m','a','t','i','v','e'] ],
 
+    IstiFAL |< aT             `noun`    {- <istikAnaT> -}      [ ['s','u','b','m','i','s','s','i','o','n'], ['r','e','s','i','g','n','a','t','i','o','n'] ],
+
     FA'iL                     `adj`     {- <kA'in> -}          [ ['e','x','i','s','t','i','n','g'], ['l','o','c','a','t','e','d'] ],
 
     FA'iL                     `noun`    {- <kA'in> -}          [ ['c','r','e','a','t','u','r','e'], unwords [ ['l','i','v','i','n','g'], ['b','e','i','n','g'] ] ]
@@ -120,7 +115,9 @@ cluster_5   = cluster
     MuFaCCiL                  `noun`    {- <mukawwin> -}       [ ['c','o','n','s','t','i','t','u','e','n','t'], ['c','o','m','p','o','n','e','n','t'], ['e','l','e','m','e','n','t'] ]
                               `plural`     MuFaCCiL |< At,
 
-    MuFaCCaL                  `adj`     {- <mukawwan> -}       [ unwords [ ['c','o','m','p','o','s','e','d'], ['o','f'] ], unwords [ ['c','o','n','s','i','s','t','i','n','g'], ['o','f'] ], ['f','o','r','m','a','t','i','o','n','s'] ] ]
+    MuFaCCaL                  `adj`     {- <mukawwan> -}       [ unwords [ ['c','o','m','p','o','s','e','d'], ['o','f'] ], unwords [ ['c','o','n','s','i','s','t','i','n','g'], ['o','f'] ], ['f','o','r','m','a','t','i','o','n','s'] ],
+
+    MustaFIL                  `adj`     {- <mustakIn> -}       [ ['s','u','b','m','i','s','s','i','v','e'], ['r','e','s','i','g','n','e','d'], ['h','u','m','b','l','e'] ] ]
 
 
 cluster_6   = cluster
