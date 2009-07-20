@@ -565,6 +565,7 @@ reduce = map head . group . fixes . words
     where fixes [y] = [ z | z <- units y, z `notElem` skips ++ fst omits ]
           fixes x   = [ z | z <- x,       z `notElem` skips ]
 
+
 class Eq a => Fuzzy a where
 
     omits :: ([a], [a])

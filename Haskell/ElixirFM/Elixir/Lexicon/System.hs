@@ -46,9 +46,9 @@ type Clips = (Int, Maybe [Int])
 type Index = (Int, Int)
 
 
-data Nest   a   =   Nest   Root [Entry a]   deriving Show
+data Nest   a   =   Nest   Root [Entry a]   deriving (Show, Eq)
 
-data Lexeme a   =   Lexeme Root (Entry a)   deriving Show
+data Lexeme a   =   Lexeme Root (Entry a)   deriving (Show, Eq)
 
 
 root :: Nest a -> Root
@@ -72,15 +72,24 @@ infix 2 >-<, <->
 (<->) x y = Lexeme x y
 
 
--- anything to become 'Wrap x' must have a newtype or data constructor x of kind * -> *
+-- anything to become 'Wrap x' must have a newtype or data constructor 'x' of kind * -> *
 
 data Wrap a = WrapS (a String)
             | WrapT (a PatternT)
             | WrapQ (a PatternQ)
             | WrapL (a PatternL)
 
-    -- deriving Show
+    deriving Eq     -- (Show, Eq)
 
+{-
+instance (Eq (a String), Eq (a PatternT), Eq (a PatternQ), Eq (a PatternL)) => Eq (Wrap a) where
+
+    WrapS x == WrapS y = x == y
+    WrapT x == WrapT y = x == y
+    WrapQ x == WrapQ y = x == y
+    WrapL x == WrapL y = x == y
+    _       == _       = False
+-}
 
 instance (Show (a String), Show (a PatternT), Show (a PatternQ), Show (a PatternL)) => Show (Wrap a) where
 
@@ -208,7 +217,7 @@ type Reflex = [String]
 data Entry a = Entry { morphs :: Morphs a, entity :: Entity a,
                        limits :: Limits a, reflex :: Reflex }
 
-    deriving Show
+    deriving (Show, Eq)
 
 
 type Limits a = (TagsType, [([TagsType], [Morphs a])])
@@ -236,7 +245,7 @@ data Entity a = Verb [Form]     [a] [a] [a]    (Maybe Tense)  (Maybe Voice) [Mor
               | Zero
               | Grph
 
-    deriving Show
+    deriving (Show, Eq)
 
 
 isVerb, isNoun, isAdj, isPron, isNum, isAdv, isPrep, isConj, isPart, isIntj :: Entity a -> Bool

@@ -43,10 +43,12 @@ import qualified Data.Map as Map
 
 data Token a = Token { lexeme :: (Lexeme a, Index), struct :: (Root, Morphs a), tag :: Tag }
 
-    deriving Show
+    deriving (Show, Eq)
 
 
 type MorphoTrees = [[[[Wrap Token]]]]       -- [[[Wrap Tokens]]]
+
+type MorphoLists = [[[Wrap Token]]]
 
 type Tag = ParaType
 
@@ -180,7 +182,15 @@ prune :: [[[a]]] -> [[[a]]]
 prune = filter (not . any null)
 
 
-harmonize :: MorphoTrees -> [[[Wrap Token]]]
+-- morphotrees :: [[[Wrap Token]]] -> MorphoTrees
+
+morphotrees = map (map (groupBy (\ x y -> let f = unwraps (snd . lexeme) in f x == f y) . nub) .
+                       (\ x -> if null x then [] else foldr1 (zipWith (++)) x))
+
+                                      -- then [] else foldr (zipWith (:)) (repeat []) x
+
+
+-- harmonize :: MorphoTrees -> [[[Wrap Token]]]
 
 harmonize = map (map snd . foldr (\ x y ->
 
@@ -192,16 +202,12 @@ harmonize = map (map snd . foldr (\ x y ->
 
                         (q', y') <- y,
 
-                        z <- if null y' then if null [ () | Nothing <- f ] then [] else [(Just ([q], m), [x])]
+                        z <- if null y' then if null [ () | Nothing <- f ] then [] else [(Just ([q], m), [[x]])]        -- [(Just ([q], m), [x])]
 
-                                        else
+                                        else if null [ () | Just (x, p) <- f, Just ([x'], m') <- [q'], x' `elem` restrict x' x, p m' ]
 
-                                {- let (t', m', w') = unwraps (\ x -> (tag x, uncurry merge (struct x), wrap x)) (head y')
-                                    t = revert t'
-
-                                in -}
-
-                                if null [ () | Just (x, p) <- f, Just ([x'], m') <- [q'], x' `elem` restrict x' x, p m' ] then [] else [(Just ([q], m), x : y')] ]
+                                                                           then [] else [(Just ([q], m), [x] : y')]     -- [(Just ([q], m), x : y')]
+                        ]
 
             ) [(Nothing, [])])
 
@@ -293,7 +299,8 @@ class Fuzzy a => Resolve a where
 
 instance Resolve String where
 
-    resolve = map prune . resolveBy alike (omitting alike omits) . map tokenize . words
+    resolve = map prune -- map (morphotrees . harmonize . prune)
+            . resolveBy alike (omitting alike omits) . map tokenize . words
 
     resolveBy b q z = [ [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- w ] | w <- z ]
 
@@ -336,18 +343,6 @@ instance Resolve String where
 
                     'A' : y                     ->  [[reverse y ++ "Y"]]
 -}
-
-                    'y' : 'a' : y | [ z | z <- y', z /= 'a' ] `elem` ["`l", "ld", ".hwAl"]
-
-                                                ->  [[y' ++ "Y"]]
-
-                                        where y' = reverse y
-
-                    'y' : y       | [ z | z <- y', z /= 'a' ] `elem` ["`l", "ld", ".hwAl"]
-
-                                                ->  [[y' ++ "Y"]]
-
-                                        where y' = reverse y
 
                     'U' : 'm' : 'u' : 't' : y   ->  [[reverse y ++ "tum"]]
                     'U' : 'm' : 't' : y         ->  [[reverse y ++ "tm"]]
@@ -511,7 +506,8 @@ instance Resolve String where
 
 instance Resolve [UPoint] where
 
-    resolve = map prune . resolveBy alike (omitting alike omits) . map (tokenize . decode UCS) . words . encode UCS
+    resolve = map prune -- map (morphotrees . harmonize . prune)
+            . resolveBy alike (omitting alike omits) . map (tokenize . decode UCS) . words . encode UCS
 
     resolveBy b q z = [ [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- w ] | w <- z ]
 
@@ -557,20 +553,6 @@ instance Resolve [UPoint] where
                     't' : y                             ->  tokens''''' y ""
 
                     'A' : y                             ->  [[reverse y ++ "Y"]]
-
-{-
-                    '-' : 'y' : y | [ z | z <- y', z /= 'a' ] `elem` ["El", "ld", "HwAl"]
-
-                                                    ->  [[y' ++ "Y-"]]
-
-                                        where y' = reverse y
-
-                    'y' : y       | [ z | z <- y', z /= 'a' ] `elem` ["El", "ld", "HwAl"]
-
-                                                    ->  [[y' ++ "Y"]]
-
-                                        where y' = reverse y
--}
 
                     'w' : 'u' : 'm' : 'u' : 't' : y     ->  [[reverse y ++ "tum"]]
                     'w' : 'm' : 'u' : 't' : y           ->  [[reverse y ++ "tum"]]
