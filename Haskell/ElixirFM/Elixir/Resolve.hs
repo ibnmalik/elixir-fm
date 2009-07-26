@@ -46,19 +46,22 @@ data Token a = Token { lexeme :: (Lexeme a, Index), struct :: (Root, Morphs a), 
     deriving (Show, Eq)
 
 
-type MorphoTrees = [[[[Wrap Token]]]]       -- [[[Wrap Tokens]]]
-
-type MorphoLists = [[[Wrap Token]]]
-
 type Tag = ParaType
 
 
-newtype Tokens a = Tokens [Token a]
+newtype MorphoTrees a = MorphoTrees a   deriving (Show, Eq)
+
+newtype MorphoLists a = MorphoLists a   deriving (Show, Eq)
 
 
-instance Show (Token a) => Show (Tokens a) where
+instance Pretty (MorphoTrees a) => Pretty [MorphoTrees a] where
 
-    showsPrec n (Tokens x) = showsPrec n x
+    pretty = vcat . map pretty
+
+
+instance Pretty (MorphoLists a) => Pretty [MorphoLists a] where
+
+    pretty = vcat . map pretty
 
 
 instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pretty (Token a) where
@@ -81,6 +84,26 @@ instance Pretty [Wrap Token] where
 
     pretty xs@(x:_) = nest 2 (text ": " <> align (
 
+            vcat [ unwraps (\ (Token (Lexeme r e, i) (d, m) t) ->
+
+                    nest 10 ( (fill 10 . text . show) i <>
+
+                        (text . ('\t' :) . concat . map (unwords . words) . lines . show . pretty) (entity e)
+
+                        <$$> encloseText [show (reflex e), show (lookupForm r e)]
+                        <$$> encloseText [merge r (morphs e), show r, show (morphs e)] )
+
+                    <$$> pretty t <>
+
+                    encloseText [merge d m, show d, show m]) y | y <- xs ] ) )
+
+
+instance Pretty (MorphoTrees [Wrap Token]) where
+
+    pretty (MorphoTrees [])       = text "!!! Empty Tokens !!!"
+
+    pretty (MorphoTrees xs@(x:_)) = nest 2 (text ": " <> align (
+
             nest 10 ( unwraps (\ (Token (Lexeme r e, i) _ _) -> (fill 10 . text . show) i <>
 
                         (text . ('\t' :) . concat . map (unwords . words) . lines . show . pretty) (entity e)
@@ -93,24 +116,15 @@ instance Pretty [Wrap Token] where
                         encloseText [merge d m, show d, show m]) y | y <- xs ] ) )
 
 
-instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pretty (Tokens a) where
+instance Pretty (MorphoLists [Wrap Token]) where
 
-    pretty (Tokens [])       = text "!!! Empty Tokens !!!"
+    pretty (MorphoLists x) = nest 2 (text ": " <> align (
 
-    pretty (Tokens xs@(x:_)) = nest 2 (text ": " <> align (
+            text ("<" ++ unwords [ x | (x : _, _) <- y ] ++ ">")
 
-            nest 10 ( (fill 10 . text . show) i <>
+            <$$> vcat [ pretty t <> encloseText x | (x, t) <- y ] ) )
 
-                        (text . ('\t' :) . concat . map (unwords . words) . lines . show . pretty) (entity e)
-
-                        <$$> encloseText [show (reflex e), show (lookupForm r e)]
-                        <$$> encloseText [merge r (morphs e), show r, show (morphs e)] )
-
-            <$$> vcat [ pretty (tag y) <>
-
-                        encloseText [merge d m, show d, show m] | y <- xs, let (d, m) = struct y ] ) )
-
-        where (Lexeme r e, i) = lexeme x
+        where y = [ unwraps (\ (Token _ (d, m) t) -> ([merge d m, show d, show m], t)) y | y <- x ]
 
 
 instance Pretty [Wrap Token] => Pretty [[Wrap Token]] where
@@ -122,13 +136,31 @@ instance Pretty [Wrap Token] => Pretty [[Wrap Token]] where
               z = if length y > 3 then [head y] ++ [".."] ++ [last y] else y
 
 
-instance Pretty (Wrap Tokens) => Pretty [Wrap Tokens] where
+instance Pretty (MorphoTrees [Wrap Token]) => Pretty (MorphoTrees [[Wrap Token]]) where
 
-    pretty x = nest 1 (text (":: <" ++ unwords z ++ ">") <> foldr ((<>) . (<>) line . pretty) empty x)
+    pretty (MorphoTrees x) = nest 1 (text (":: <" ++ unwords z ++ ">") <> foldr ((<>) . (<>) line . pretty . MorphoTrees) empty x)
 
-        where y = nub [ z | y <- x, z <- unwraps (\ (Tokens x) -> map (uncurry merge . struct) x) y ]
+        where y = nub [ z | y <- x, z <- map (unwraps (uncurry merge . struct)) y ]
 
               z = if length y > 3 then [head y] ++ [".."] ++ [last y] else y
+
+
+instance Pretty (MorphoLists [Wrap Token]) => Pretty (MorphoLists [[Wrap Token]]) where
+
+    pretty (MorphoLists [])       = nest 1 (text "::" <> line)
+
+    pretty (MorphoLists xs@(x:_)) = nest 1 (text ":: " <> align ( vcat [
+
+                unwraps (\ (Token (Lexeme r e, i) _ _) -> (fill 10 . text . show) i <>
+
+                nest 10 (
+
+                        (text . ('\t' :) . concat . map (unwords . words) . lines . show . pretty) (entity e)
+
+                        <$$> encloseText [show (reflex e), show (lookupForm r e)]
+                        <$$> encloseText [merge r (morphs e), show r, show (morphs e)]) ) y | y <- x ]
+
+                <$$> vcat (map (pretty . MorphoLists) xs) ) )
 
 
 instance Pretty [[Wrap Token]] => Pretty [[[Wrap Token]]] where
@@ -139,12 +171,21 @@ instance Pretty [[Wrap Token]] => Pretty [[[Wrap Token]]] where
               s = map (drop 1 . concat . take 1 . lines . show) p
 
 
-instance Pretty [Wrap Tokens] => Pretty [[Wrap Tokens]] where
+instance Pretty (MorphoTrees [[Wrap Token]]) => Pretty (MorphoTrees [[[Wrap Token]]]) where
 
-    pretty x = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . (<>) (line <> line)) empty p)
+    pretty (MorphoTrees x) = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . (<>) (line <> line)) empty p)
 
-        where p = map pretty x
+        where p = map (pretty . MorphoTrees) x
               s = map (drop 1 . concat . take 1 . lines . show) p
+
+
+instance Pretty (MorphoLists [[Wrap Token]]) => Pretty (MorphoLists [[[Wrap Token]]]) where
+
+    pretty (MorphoLists x) = nest 1 (text ("::: " ++ unwords z) <> foldr ((<>) . (<>) (line <> line)) empty p)
+
+        where p = map (pretty . MorphoLists) x
+              s = (nub . concat) (map (map (drop 5) . filter (isPrefixOf "   : <") . lines . show) p)
+              z = if length s > 3 then [head s] ++ [".."] ++ [last s] else s
 
 
 instance Pretty [[[Wrap Token]]] => Pretty [[[[Wrap Token]]]] where
@@ -157,13 +198,23 @@ instance Pretty [[[Wrap Token]]] => Pretty [[[[Wrap Token]]]] where
               s = map (drop 1 . concat . take 1 . lines . show) p
 
 
-instance Pretty [[Wrap Tokens]] => Pretty [[[Wrap Tokens]]] where
+instance Pretty (MorphoTrees [[[Wrap Token]]]) => Pretty (MorphoTrees [[[[Wrap Token]]]]) where
 
-    pretty [] = text "::::" <> line
+    pretty (MorphoTrees []) = text "::::" <> line
 
-    pretty x = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . (<>) (line <> line)) line p)
+    pretty (MorphoTrees x) = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . (<>) (line <> line)) line p)
 
-        where p = map pretty x
+        where p = map (pretty . MorphoTrees) x
+              s = map (drop 1 . concat . take 1 . lines . show) p
+
+
+instance Pretty (MorphoLists [[[Wrap Token]]]) => Pretty (MorphoLists [[[[Wrap Token]]]]) where
+
+    pretty (MorphoLists []) = text "::::" <> line
+
+    pretty (MorphoLists x) = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . (<>) (line <> line)) line p)
+
+        where p = map (pretty . MorphoLists) x
               s = map (drop 1 . concat . take 1 . lines . show) p
 
 
@@ -172,9 +223,14 @@ instance Pretty [[[[Wrap Token]]]] => Pretty [[[[[Wrap Token]]]]] where
     pretty = vcat . map pretty
 
 
-instance Pretty [[[Wrap Tokens]]] => Pretty [[[[Wrap Tokens]]]] where
+instance Pretty (MorphoTrees [[[[Wrap Token]]]]) => Pretty (MorphoTrees [[[[[Wrap Token]]]]]) where
 
-    pretty = vcat . map pretty
+    pretty (MorphoTrees x) = vcat (map (pretty . MorphoTrees) x)
+
+
+instance Pretty (MorphoLists [[[[Wrap Token]]]]) => Pretty (MorphoLists [[[[[Wrap Token]]]]]) where
+
+    pretty (MorphoLists x) = vcat (map (pretty . MorphoLists) x)
 
 
 prune :: [[[a]]] -> [[[a]]]
@@ -182,49 +238,63 @@ prune :: [[[a]]] -> [[[a]]]
 prune = filter (not . any null)
 
 
--- morphotrees :: [[[Wrap Token]]] -> MorphoTrees
+clear :: [[[a]]] -> [[[a]]]
 
-morphotrees = map (map (groupBy (\ x y -> let f = unwraps (snd . lexeme) in f x == f y) . nub) .
-                       (\ x -> if null x then [] else foldr1 (zipWith (++)) x))
-
-                                      -- then [] else foldr (zipWith (:)) (repeat []) x
+clear = filter (not . null) . map (filter (not . null))
 
 
--- harmonize :: MorphoTrees -> [[[Wrap Token]]]
+morphotrees :: [[[[Wrap Token]]]] -> MorphoTrees [[[[Wrap Token]]]]
 
-harmonize = map (map snd . foldr (\ x y ->
+morphotrees = MorphoTrees . map (
 
-                [ z |   x' <- x, x <- x',
+                        map (   map (\ (_, x) -> let n = nub x in
 
-                        let (t, m, w) = unwraps (\ x -> (tag x, uncurry merge (struct x), wrap x)) x
+                                    unwraps (\ (Token (l@(Lexeme r e), i) _ _) -> [ w |
+
+                                                    (t, y) <- inflect l ((expand . domain) e), z <- y,
+                                                    let w = wrap (Token (l, i) z t), any (w ==) n ]
+
+                                        ) (head x)) .
+
+                                Map.toList . Map.fromListWith (++) .
+
+                                map (\ x -> (unwraps (snd . lexeme) (head x), x))   ) .
+
+                        (\ x -> if null x then [] else foldr (zipWith (:)) (repeat []) x) .
+
+                        map (   map nub .
+
+                                (\ x -> if null x then [] else foldr (zipWith (:)) (repeat []) x)   )
+
+                    ) . clear
+
+
+morpholists :: [[[[Wrap Token]]]] -> MorphoLists [[[[Wrap Token]]]]
+
+morpholists = MorphoLists . clear
+
+
+harmonize :: [[[[Wrap Token]]]] -> [[[[Wrap Token]]]]
+
+harmonize = map (map (map snd) . foldr (\ x y -> [ z | x' <- x, y' <- y,
+
+                let z = [ z | x <- x',
+
+                        let (t, m) = unwraps (\ x -> (tag x, uncurry merge (struct x))) x
                             f = map (fmap (\ (x, y) -> (convert x, y))) (follow t m)
                             q = revert t,
 
-                        (q', y') <- y,
+                        (q', y) <- y',
 
-                        z <- if null y' then if null [ () | Nothing <- f ] then [] else [(Just ([q], m), [[x]])]        -- [(Just ([q], m), [x])]
+                        z <- if null y then if null [ () | Nothing <- f ] then [] else [(Just ([q], m), [x])]       -- [(Just ([q], m), [[x]])]
 
-                                        else if null [ () | Just (x, p) <- f, Just ([x'], m') <- [q'], x' `elem` restrict x' x, p m' ]
+                                       else if null [ () | Just (x, p) <- f, Just ([x'], m') <- [q'], x' `elem` restrict x' x, p m' ]
 
-                                                                           then [] else [(Just ([q], m), [x] : y')]     -- [(Just ([q], m), x : y')]
-                        ]
+                                                                          then [] else [(Just ([q], m), x : y)]     -- [(Just ([q], m), [x] : y')]
+                                ] ]
 
-            ) [(Nothing, [])])
+            ) [[(Nothing, [])]])
 
-{-
-harmonize = map (foldl (flip ((:) . map (\ x-> [ y | y <- x,
-                                                     let (t, f, w) = unwraps (\ x -> (revert (tag x), uncurry merge (struct x), wrap x)) y,
-                                                     restrict t (convert "--------2-") == [t] ]
-                                        ))) [])
--}
-{-
-harmonize :: [[[Wrap Tokens]]] -> [[[Wrap Tokens]]]
-
-harmonize = map (foldl (flip ((:) . map (unwraps (\ (Tokens x) -> wrap
-                                                        (Tokens [ y | y <- x, let t = revert (tag y),
-                                                                      restrict t (convert "--------2-") == [t] ])
-                                                 )))) [])
--}
 
 euphony :: String -> String -> Bool
 
@@ -288,9 +358,9 @@ follow (ParaGrph _) 	_	= [Nothing]
 
 class Fuzzy a => Resolve a where
 
-    resolve :: a -> [MorphoTrees]
+    resolve :: a -> [[[[[Wrap Token]]]]]
 
-    resolveBy :: (String -> String -> Bool) -> ([a] -> [a] -> Bool) -> [[[a]]] -> [MorphoTrees]
+    resolveBy :: (String -> String -> Bool) -> ([a] -> [a] -> Bool) -> [[[a]]] -> [[[[[Wrap Token]]]]]
 
     tokenize :: a -> [[a]]
 
@@ -299,8 +369,7 @@ class Fuzzy a => Resolve a where
 
 instance Resolve String where
 
-    resolve = map prune -- map (morphotrees . harmonize . prune)
-            . resolveBy alike (omitting alike omits) . map tokenize . words
+    resolve = map harmonize . resolveBy alike (omitting alike omits) . map tokenize . words
 
     resolveBy b q z = [ [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- w ] | w <- z ]
 
@@ -506,8 +575,7 @@ instance Resolve String where
 
 instance Resolve [UPoint] where
 
-    resolve = map prune -- map (morphotrees . harmonize . prune)
-            . resolveBy alike (omitting alike omits) . map (tokenize . decode UCS) . words . encode UCS
+    resolve = map harmonize . resolveBy alike (omitting alike omits) . map (tokenize . decode UCS) . words . encode UCS
 
     resolveBy b q z = [ [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- w ] | w <- z ]
 

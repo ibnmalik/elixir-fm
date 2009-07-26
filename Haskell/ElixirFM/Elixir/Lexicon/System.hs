@@ -79,9 +79,9 @@ data Wrap a = WrapS (a String)
             | WrapQ (a PatternQ)
             | WrapL (a PatternL)
 
-    deriving Eq     -- (Show, Eq)
+    -- deriving (Show, Eq)
 
-{-
+
 instance (Eq (a String), Eq (a PatternT), Eq (a PatternQ), Eq (a PatternL)) => Eq (Wrap a) where
 
     WrapS x == WrapS y = x == y
@@ -89,7 +89,7 @@ instance (Eq (a String), Eq (a PatternT), Eq (a PatternQ), Eq (a PatternL)) => E
     WrapQ x == WrapQ y = x == y
     WrapL x == WrapL y = x == y
     _       == _       = False
--}
+
 
 instance (Show (a String), Show (a PatternT), Show (a PatternQ), Show (a PatternL)) => Show (Wrap a) where
 

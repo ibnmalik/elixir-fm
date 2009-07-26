@@ -54,7 +54,10 @@ version = Version [1, 1, max build 862] []
     where Version [build] [] = revised "$Revision$"
 
 
-data Opts = RunAction ([Opts] -> [String] -> IO ()) | FuzzyResolve | TokenResolve
+data Opts = RunAction ([Opts] -> [String] -> IO ()) | TreesResolve
+                                                    | ListsResolve
+                                                    | FuzzyResolve
+                                                    | QuickResolve
           | DisplayUsage
           | PrintVersion
 
@@ -76,11 +79,17 @@ options = [ Option []    ["resolve"]    (NoArg (RunAction elixirResolve))
             Option []    ["compose"]    (NoArg (RunAction elixirCompose))
                                                 "run the 'compose' mode\n\n",
 
-            Option ['f'] ["fuzzy"]      (NoArg  FuzzyResolve)
-                                                "fuzzy notation resolution",
+            Option ['t'] ["trees"]      (NoArg  TreesResolve)
+                                                "resolve using MorphoTrees",
 
-            Option ['t'] ["token"]      (NoArg  TokenResolve)
-                                                "single token resolution\n\n",
+            Option ['l'] ["lists"]      (NoArg  ListsResolve)
+                                                "resolve using MorphoLists",
+
+            Option ['f'] ["fuzzy"]      (NoArg  FuzzyResolve)
+                                                "resolve even fuzzy notation",
+
+            Option ['q'] ["quick"]      (NoArg  QuickResolve)
+                                                "resolve without tokenizing\n\n",
 
             Option ['h'] ["help"]       (NoArg  DisplayUsage)
                                                 "program's usage and online references",
@@ -128,7 +137,7 @@ warn = hPutStr stderr
 
 elixirResolve o p = interact (unlines . map (show . q . words) . onlines)
 
-    where q = pretty . map prune . case e of
+    where q = r . map harmonize . case e of
 
                 "tex"   ->  resolveBy (fst f') (omitting (snd f') omits) . map t'
 
@@ -145,8 +154,10 @@ elixirResolve o p = interact (unlines . map (show . q . words) . onlines)
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
                                   t' = if t then tokenize else (\ x -> [[x]])
 
-          f = null [ FuzzyResolve | FuzzyResolve <- o ]
-          t = null [ TokenResolve | TokenResolve <- o ]
+          f = null [ () | FuzzyResolve <- o ]
+          t = null [ () | QuickResolve <- o ]
+          r = if   [ () | TreesResolve <- o ]
+                 > [ () | ListsResolve <- o ] then pretty . map morphotrees else pretty . map morpholists
 
           e = if null p then "" else map toLower (head p)
 
