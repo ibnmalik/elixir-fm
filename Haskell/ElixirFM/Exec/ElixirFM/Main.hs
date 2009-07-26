@@ -49,7 +49,7 @@ import Data.List hiding (lookup)
 
 import Version
 
-version = Version [1, 1, max build 862] []
+version = Version [1, 1, max build 869] []
 
     where Version [build] [] = revised "$Revision$"
 
@@ -156,8 +156,8 @@ elixirResolve o p = interact (unlines . map (show . q . words) . onlines)
 
           f = null [ () | FuzzyResolve <- o ]
           t = null [ () | QuickResolve <- o ]
-          r = if   [ () | TreesResolve <- o ]
-                 > [ () | ListsResolve <- o ] then pretty . map morphotrees else pretty . map morpholists
+          r = if   [ () | ListsResolve <- o ]
+                 > [ () | TreesResolve <- o ] then pretty . map morpholists else pretty . map morphotrees
 
           e = if null p then "" else map toLower (head p)
 
