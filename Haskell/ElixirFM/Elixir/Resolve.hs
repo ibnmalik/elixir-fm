@@ -153,14 +153,14 @@ instance Pretty (MorphoLists [Wrap Token]) => Pretty (MorphoLists [[Wrap Token]]
 
                 unwraps (\ (Token (Lexeme r e, i) _ _) -> (fill 10 . text . show) i <>
 
-                nest 10 (
+                    nest 10 (
 
                         (text . ('\t' :) . concat . map (unwords . words) . lines . show . pretty) (entity e)
 
                         <$$> encloseText [show (reflex e), show (lookupForm r e)]
-                        <$$> encloseText [merge r (morphs e), show r, show (morphs e)]) ) y | y <- x ]
+                        <$$> encloseText [merge r (morphs e), show r, show (morphs e)]) ) y | y <- x ] )
 
-                <$$> vcat (map (pretty . MorphoLists) xs) ) )
+                <$$> vcat (map (pretty . MorphoLists) xs) )
 
 
 instance Pretty [[Wrap Token]] => Pretty [[[Wrap Token]]] where
@@ -184,7 +184,7 @@ instance Pretty (MorphoLists [[Wrap Token]]) => Pretty (MorphoLists [[[Wrap Toke
     pretty (MorphoLists x) = nest 1 (text ("::: " ++ unwords z) <> foldr ((<>) . (<>) (line <> line)) empty p)
 
         where p = map (pretty . MorphoLists) x
-              s = (nub . concat) (map (map (drop 5) . filter (isPrefixOf "   : <") . lines . show) p)
+              s = (nub . concat) (map (map (drop 3) . filter (isPrefixOf " : <") . lines . show) p)
               z = if length s > 3 then [head s] ++ [".."] ++ [last s] else s
 
 
