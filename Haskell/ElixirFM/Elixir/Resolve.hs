@@ -281,7 +281,7 @@ harmonize = map (map (map snd) . foldr (\ x y -> [ z | x' <- x, y' <- y,
                 let z = [ z | x <- x',
 
                         let (t, m) = unwraps (\ x -> (tag x, uncurry merge (struct x))) x
-                            f = map (fmap (\ (x, y) -> (convert x, y))) (follow t m)
+                            f = map (fmap (\ (x, y) -> (convert x, y))) (harmony t m)
                             q = revert t,
 
                         (q', y) <- y',
@@ -298,62 +298,74 @@ harmonize = map (map (map snd) . foldr (\ x y -> [ z | x' <- x, y' <- y,
 
 euphony :: String -> String -> Bool
 
-euphony x = not . isPrefixOf (if last x `elem` "Iiy" then "hu" else "hi")
+euphony [] _ = True
+
+euphony x "|I" = all (last x /=) "AIUYwy"
+euphony x "ya" = any (last x ==) "AIUYwy"
+
+euphony x y | isPrefixOf "hu" y = all (last x /=) "Iiy"
+euphony x y | isPrefixOf "hi" y = any (last x ==) "Iiy"
+
+euphony _ _ = True
 
 
-follow :: ParaType -> String -> [Maybe (String, String -> Bool)]
+harmony :: ParaType -> String -> [Maybe (String, String -> Bool)]
 
-follow (ParaVerb (VerbP   Passive _ _ _)) 	_	= [Nothing]
-follow (ParaVerb (VerbI _ Passive _ _ _)) 	_	= [Nothing]
-follow (ParaVerb _) 	                    y	= [Nothing,
+harmony (ParaVerb (VerbP   Passive _ _ _)) 	_	= [Nothing]
+harmony (ParaVerb (VerbI _ Passive _ _ _)) 	_	= [Nothing]
+harmony (ParaVerb _) 	                    y	= [Nothing,
                                                    Just ("SP------4-", euphony y)]
 
-follow (ParaNoun (NounS _ _ (Nothing :-: True))) 	y	= [Nothing, Just ("SP------2-", euphony y)]
-follow (ParaNoun _) 	                            _	= [Nothing]
+harmony (ParaNoun (NounS _ _ (Nothing :-: True))) 	y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
+harmony (ParaNoun _) 	                            _	= [Nothing]
 
-follow (ParaAdj  (AdjA  _ _ _ (Nothing :-: True))) 	y	= [Nothing, Just ("SP------2-", euphony y)]
-follow (ParaAdj  _) 	                            _	= [Nothing]
+harmony (ParaAdj  (AdjA  _ _ _ (Nothing :-: True))) 	y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
+harmony (ParaAdj  _) 	                                _	= [Nothing]
 
-follow (ParaPron _) 	_	= [Nothing]   -- in modern language
+harmony (ParaPron _) 	_	= [Nothing]   -- in modern language
 
-follow (ParaNum  (NumV Feminine _ (Nothing :-: True))) 	_	= [Nothing, Just ("QC-----S2[IRA]", const True)]
-follow (ParaNum  (NumC _ _ (Nothing :-: True))) 	    _	= [Nothing, Just ("SP------2-", const True)]
-follow (ParaNum  (NumM _ _ (Nothing :-: True))) 	    _	= [Nothing, Just ("SP------2-", const True)]
-follow (ParaNum  _) 	                                _	= [Nothing]
+harmony (ParaNum  (NumV Feminine _ (Nothing :-: True))) 	_	= [Nothing, Just ("QC-----S2[IRA]", const True)]
+harmony (ParaNum  (NumC _ _ (Nothing :-: True))) 	        _	= [Nothing, Just ("SP------2-", const True)]
+harmony (ParaNum  (NumM _ _ (Nothing :-: True))) 	        _	= [Nothing, Just ("SP------2-", const True)]
+harmony (ParaNum  _) 	                                    _	= [Nothing]
 
-follow (ParaAdv  _) 	_	= [Nothing]
+harmony (ParaAdv  _) 	_	= [Nothing]
 
-follow (ParaPrep _) 	"la"	=          [Just ("S-------2-", euphony "la")]
-follow (ParaPrep _) 	"li"	= [Nothing, Just ("[NAQ]-------2-", const True),
+harmony (ParaPrep _) 	"la"	=          [Just ("S-------2-", (\ x -> euphony "la" x && x /= "nI"))]
+harmony (ParaPrep _) 	"li"	= [Nothing, Just ("[NAQ]-------2-", const True),
                                             Just ("PI------2-", const True),    -- in modern language
                                             Just ("D---------", const True)]
-follow (ParaPrep _) 	"ka"	= [Nothing, Just ("S-------1-", const True),
+harmony (ParaPrep _) 	"ka"	= [Nothing, Just ("S-------1-", const True),
                                             Just ("[NAQ]-------2-", const True),
                                             Just ("PI------2-", const True),    -- in modern language
                                             Just ("D---------", const True)]
-follow (ParaPrep _) 	y	    = [Nothing, Just ("S-------2-", euphony y),
+harmony (ParaPrep _) 	y
+
+    | y `elem` ["`an", "min"]   = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "|I"))]
+    | y `elem` ["bi", "ta"]     = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "nI")),
                                             Just ("[NAQ]-------2-", const True),
                                             Just ("PI------2-", const True),    -- in modern language
                                             Just ("D---------", const True)]
+    | otherwise                 = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "nI"))]
 
-follow (ParaConj _) 	"li"	= [Nothing, Just ("VIS-------", const True)]
-follow (ParaConj _) 	_	    = [Nothing, Just ("S-------1-", const True),
+harmony (ParaConj _) 	"li"	= [Nothing, Just ("VIS-------", const True)]
+harmony (ParaConj _) 	_	    = [Nothing, Just ("S-------1-", const True),
                                             Just ("[VNAQDPCFIXYZ]---------", const True)]
 
-follow (ParaPart _) 	"sa"	= [Nothing, Just ("VII-------", const True)]
-follow (ParaPart _) 	"li"	= [Nothing, Just ("VIJ-------", const True)]
-follow (ParaPart _) 	_	    = [Nothing, Just ("V---------", const True),
+harmony (ParaPart _) 	"sa"	= [Nothing, Just ("VII-------", const True)]
+harmony (ParaPart _) 	"li"	= [Nothing, Just ("VIJ-------", const True)]
+harmony (ParaPart _) 	_	    = [Nothing, Just ("V---------", const True),
                                             Just ("SP------4-", const True)]
 
-follow (ParaIntj _) 	_	= [Nothing, Just ("SP------2-", const True)]
+harmony (ParaIntj _) 	_	= [Nothing, Just ("SP------2-", const True)]
 
-follow (ParaXtra _) 	_	= [Nothing]
+harmony (ParaXtra _) 	_	= [Nothing]
 
-follow (ParaYnit _) 	_	= [Nothing]
+harmony (ParaYnit _) 	_	= [Nothing]
 
-follow (ParaZero _) 	_	= [Nothing]
+harmony (ParaZero _) 	_	= [Nothing]
 
-follow (ParaGrph _) 	_	= [Nothing]
+harmony (ParaGrph _) 	_	= [Nothing]
 
 
 class Fuzzy a => Resolve a where
@@ -440,8 +452,6 @@ instance Resolve String where
               tokens'''' x = case reverse x of
 
                     []                              ->  []
-
-                    'y' : []                        ->  [["ya"], ["yi"], ["yu"], ["yA"], ["yI"], ["yU"], ["yY"]]
 
                     'N' : 'i' : 'T' : y             ->  tokens''''' y "iN"
                     'i' : 'T' : y                   ->  tokens''''' y "i"
@@ -546,10 +556,10 @@ instance Resolve String where
 
                     'a' : 'y' : 'I' : y     ->  [ y' ++ ["ya"] | y' <- tokens (reverse ('U' : y)) ++
                                                                        tokens (reverse ('I' : y)) ]
-                    'y' : 'I' : y           ->  [ y' ++ ["ya"] | y' <- tokens (reverse ('U' : y)) ++
+                    'y' : 'I' : y           ->  [ y' ++ ["y"]  | y' <- tokens (reverse ('U' : y)) ++
                                                                        tokens (reverse ('I' : y)) ]
                     'a' : 'y' : y           ->  [ y' ++ ["ya"] | y' <- tokens (reverse y) ]
-                    'y' : y                 ->  [ y' ++ ["ya"] | y' <- tokens (reverse y) ]
+                    'y' : y                 ->  [ y' ++ ["y"]  | y' <- tokens (reverse y) ]
 
                     'I' : y | [ z | z <- y', z /= 'a' ] `elem` ["'b", "'_h", ".hm"]
 
@@ -654,9 +664,6 @@ instance Resolve [UPoint] where
                     '-' : 'w' : []                  ->  []
 
                     '-' : 'w' : y | length [ z | z <- y, z `notElem` "aiuo~" ] < 2  ->  []
-
-                    'y' : 'n' : []                  ->  [["nay"], ["niy"], ["nuy"]]
-                    'y' : []                        ->  [["ya"], ["yi"], ["yu"]]
 
                     'K' : 'p' : y                   ->  tokens''''' y "K"
                     'i' : 'p' : y                   ->  tokens''''' y "i"
@@ -773,28 +780,29 @@ instance Resolve [UPoint] where
                                                                             tokens (reverse y ++ "iy-") ]
                     'a' : '~' : 'y' : y         ->  [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "w-") ++
                                                                             tokens (reverse y ++ "y-") ]
-                    '~' : 'y' : 'i' : y         ->  [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "uw-") ++
+                    '~' : 'y' : 'i' : y         ->  [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "uw-") ++
                                                                             tokens (reverse y ++ "iy-") ]
-                    '~' : 'y' : y               ->  [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "w-") ++
+                    '~' : 'y' : y               ->  [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "w-") ++
                                                                             tokens (reverse y ++ "y-") ]
                     'a' : 'y' : y               ->  [ y' ++ ["ya"]  | y' <- tokens (reverse y) ]
 
                     'y' : 'i' : '~' : 'n' : y   ->  [ y' ++ ["iy"]  | y' <- tokens (reverse y ++ "n~") ] ++
                                                     [ y' ++ ["niy"] | y' <- tokens (reverse y ++ "n-") ] ++
-                                                    [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "n~uw-") ++
+                                                    [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "n~uw-") ++
                                                                             tokens (reverse y ++ "n~iy-") ]
-                    'y' : '~' : 'n' : y         ->  [ y' ++ ["iy"]  | y' <- tokens (reverse y ++ "n~") ] ++
-                                                    [ y' ++ ["niy"] | y' <- tokens (reverse y ++ "n-") ] ++
-                                                    [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "n~w-") ++
+                    'y' : '~' : 'n' : y         ->  [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "n~") ] ++
+                                                    [ y' ++ ["ny"]  | y' <- tokens (reverse y ++ "n-") ] ++
+                                                    [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "n~w-") ++
                                                                             tokens (reverse y ++ "n~y-") ]
                     'y' : 'i' : 'n' : y         ->  [ y' ++ ["iy"]  | y' <- tokens (reverse y ++ "n") ] ++
-                                                    [ y' ++ ["niy"] | y' <- tokens (reverse y) ] ++
-                                                    [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "nuw-") ++
-                                                                            tokens (reverse y ++ "niy-") ]
-                    'y' : 'n' : y               ->  [ y' ++ ["iy"]  | y' <- tokens (reverse y ++ "n") ] ++
                                                     [ y' ++ ["niy"] | y' <- tokens (reverse y) ++
                                                                             tokens (reverse y ++ "n-") ] ++
-                                                    [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "nw-") ++
+                                                    [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "nuw-") ++
+                                                                            tokens (reverse y ++ "niy-") ]
+                    'y' : 'n' : y               ->  [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "n") ] ++
+                                                    [ y' ++ ["ny"]  | y' <- tokens (reverse y) ++
+                                                                            tokens (reverse y ++ "n-") ] ++
+                                                    [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "nw-") ++
                                                                             tokens (reverse y ++ "ny-") ]
 
                     'y' : 'i' : y | [ z | z <- y', z /= 'a' ] `elem` ["Ob", "Ab", "Ox", "Ax", "Hm"]
@@ -812,11 +820,10 @@ instance Resolve [UPoint] where
                                         where y' = reverse y
 
                     'y' : 'i' : y               ->  [ y' ++ ["iy"]  | y' <- tokens (reverse y) ] ++
-                                                    [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "uw-") ++
+                                                    [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "uw-") ++
                                                                             tokens (reverse y ++ "iy-") ]
-                    'y' : 'A' : y               ->  [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "A") ]
-                    'y' : y                     ->  [ y' ++ ["iy"]  | y' <- tokens (reverse y) ] ++
-                                                    [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "w-") ++
+                    'y' : y                     ->  [ y' ++ ["y"]   | y' <- tokens (reverse y) ] ++
+                                                    [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "w-") ++
                                                                             tokens (reverse y ++ "y-") ]
 
                     'A' : 'a' : '~' : 'n' : y   ->  [ y' ++ ["naA"] | y' <- tokens (reverse y ++ "n-") ]
