@@ -230,21 +230,28 @@ sub display_footer ($) {
     my $q = $c->query();
     my $r;
 
-    $r .= $q->p({'style' => 'height: 31px'},
+    $r .= $q->p(  # {'style' => 'height: 31px'},
+
+#                 $q->a({'style' => 'float: right',
+#                        'href'  => "http://jigsaw.w3.org/css-validator/check?uri=referer"},
+#                       $q->img({'border' => "0",
+#                                'src' => "http://www.w3.org/Icons/valid-css2",
+#                                'alt' => "Valid CSS level 2.1",
+#                                'height' => "31", 'width' => "88"})),
+
+#                 $q->a({'style' => 'float: right',
+#                        'href'  => "http://validator.w3.org/check?uri=referer"},
+#                       $q->img({'border' => "0",
+#                                'src' => "http://www.w3.org/Icons/valid-xhtml10",
+#                                'alt' => "Valid XHTML 1.0 Transitional",
+#                                'height' => "31", 'width' => "88"})),
 
                 $q->a({'style' => 'float: right',
-                       'href'  => "http://jigsaw.w3.org/css-validator/check?uri=referer"},
+                       'href'  => "http://sourceforge.net/projects/elixir-fm/"},
                       $q->img({'border' => "0",
-                               'src' => "http://www.w3.org/Icons/valid-css2",
-                               'alt' => "Valid CSS level 2.1",
-                               'height' => "31", 'width' => "88"})),
-
-                $q->a({'style' => 'float: right',
-                       'href'  => "http://validator.w3.org/check?uri=referer"},
-                      $q->img({'border' => "0",
-                               'src' => "http://www.w3.org/Icons/valid-xhtml10",
-                               'alt' => "Valid XHTML 1.0 Transitional",
-                               'height' => "31", 'width' => "88"})) );
+                               'src' => "http://sflogo.sourceforge.net/sflogo.php?group_id=181087&type=13",
+                               'alt' => "ElixirFM at SourceForge.net",
+                               'height' => "30", 'width' => "120"})) );
 
     $r .= $q->script({-type => 'text/javascript', -src => 'http://api.yamli.com/js/yamli_api.js'}, "");
 
