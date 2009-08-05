@@ -313,8 +313,7 @@ harmony :: ParaType -> String -> [Maybe (String, String -> Bool)]
 
 harmony (ParaVerb (VerbP   Passive _ _ _)) 	_	= [Nothing]
 harmony (ParaVerb (VerbI _ Passive _ _ _)) 	_	= [Nothing]
-harmony (ParaVerb _) 	                    y	= [Nothing,
-                                                   Just ("SP------4-", euphony y)]
+harmony (ParaVerb _) 	                    y	= [Nothing, Just ("SP------4-", euphony y)]
 
 harmony (ParaNoun (NounS _ _ (Nothing :-: True))) 	y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
 harmony (ParaNoun _) 	                            _	= [Nothing]
@@ -322,7 +321,9 @@ harmony (ParaNoun _) 	                            _	= [Nothing]
 harmony (ParaAdj  (AdjA  _ _ _ (Nothing :-: True))) 	y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
 harmony (ParaAdj  _) 	                                _	= [Nothing]
 
-harmony (ParaPron _) 	_	= [Nothing]   -- in modern language
+harmony (ParaPron _) 	y	= [Nothing]     -- in modern language
+
+-- Wrigth (1991), Fischer (2002), Badawi et al. (2004) on options with [Nothing, Just ("SP------4-", euphony y)]
 
 harmony (ParaNum  (NumV Feminine _ (Nothing :-: True))) 	_	= [Nothing, Just ("QC-----S2[IRA]", const True)]
 harmony (ParaNum  (NumC _ _ (Nothing :-: True))) 	        _	= [Nothing, Just ("SP------2-", const True)]
@@ -561,7 +562,7 @@ instance Resolve String where
                     'a' : 'y' : y           ->  [ y' ++ ["ya"] | y' <- tokens (reverse y) ]
                     'y' : y                 ->  [ y' ++ ["y"]  | y' <- tokens (reverse y) ]
 
-                    'I' : y | [ z | z <- y', z /= 'a' ] `elem` ["'b", "'_h", ".hm"]
+                    'I' : y | [ z | z <- y', z /= 'a' ] `elem` ["'b", "'_h", ".hm", "f"]
 
                                                 ->  [ [y', "|I"] ] ++
                                                     [ [y' ++ w, "ya"] | w <- ["U", "I", "A"] ]
@@ -805,14 +806,14 @@ instance Resolve [UPoint] where
                                                     [ y' ++ ["y"]   | y' <- tokens (reverse y ++ "nw-") ++
                                                                             tokens (reverse y ++ "ny-") ]
 
-                    'y' : 'i' : y | [ z | z <- y', z /= 'a' ] `elem` ["Ob", "Ab", "Ox", "Ax", "Hm"]
+                    'y' : 'i' : y | [ z | z <- y', z /= 'a' ] `elem` ["Ob", "Ab", "Ox", "Ax", "Hm", "f"]
 
                                                 ->  [ [y', "iy"] ] ++
                                                     [ [y' ++ w, "ya"] | w <- ["uw-", "iy-", "aA"] ]
 
                                         where y' = reverse y
 
-                    'y' : y       | [ z | z <- y', z /= 'a' ] `elem` ["Ob", "Ab", "Ox", "Ax", "Hm"]
+                    'y' : y       | [ z | z <- y', z /= 'a' ] `elem` ["Ob", "Ab", "Ox", "Ax", "Hm", "f"]
 
                                                 ->  [ [y', "iy"] ] ++
                                                     [ [y' ++ w, "ya"] | w <- ["w-", "y-", "aA"] ]

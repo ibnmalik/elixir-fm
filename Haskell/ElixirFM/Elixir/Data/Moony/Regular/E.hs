@@ -273,27 +273,27 @@ cluster_20  = cluster
 
  |> "^g b l" <| [
 
-    FaCaLAy |< aT             `noun`    {- <^gabalAyaT> -}     [ ['g','r','o','t','t','o'], ['c','a','v','e'] ]
-                              `plural`     FaCaLAy |< At,
-
-    FaCaLA' |< Iy             `adj`     {- <^gabalA'Iy> -}     [ ['G','a','b','a','l','a','w','i'] ],
-
-    FaCaLA' |< Iy             `adj`     {- <^gabalA'Iy> -}     [ ['m','o','u','n','t','a','i','n','e','e','r'] ],
-
     FaCaL                     `noun`    {- <^gabal> -}         [ ['m','o','u','n','t','a','i','n'] ]
                               `plural`     HaFCAL
                               `plural`     FiCAL,
-
-    FaCaL                     `noun`    {- <^gabal> -}         [ ['J','a','b','a','l'] ],
-
-    FuCayL                    `noun`    {- <^gubayl> -}        [ ['J','u','b','a','y','l'] ],
-
-    FaCaL |< Iy               `adj`     {- <^gabalIy> -}       [ ['m','o','u','n','t','a','i','n','o','u','s'] ],
 
     FaCaL |< Iy               `noun`    {- <^gabalIy> -}       [ ['m','o','u','n','t','a','i','n','e','e','r'], ['h','i','g','h','l','a','n','d','e','r'] ]
                               `plural`     FaCaL |< Iy |< Un
                            
     `derives` otherwise,
+
+    FaCaL |< Iy               `adj`     {- <^gabalIy> -}       [ ['m','o','u','n','t','a','i','n','o','u','s'] ],
+
+    FaCaL |<< "Aw" |< Iy      `noun`    {- <^gabalAwIy> -}     [ ['m','o','u','n','t','a','i','n','e','e','r'] ],
+
+    FaCaL |<< "Aw" |< Iy      `noun`    {- <^gabalAwIy> -}     [ ['G','a','b','a','l','a','w','i'] ],
+
+    FaCaL                     `noun`    {- <^gabal> -}         [ ['J','a','b','a','l'] ],
+
+    FuCayL                    `noun`    {- <^gubayl> -}        [ ['J','u','b','a','y','l'] ],
+
+    FaCaL |<< "Ay" |< aT      `noun`    {- <^gabalAyaT> -}     [ ['g','r','o','t','t','o'], ['c','a','v','e'] ]
+                              `plural`     FaCaL |<< "Ay" |< At,
 
     FaCL |< aT                `noun`    {- <^gablaT> -}        [ ['J','a','b','l','e','h'] ] ]
 

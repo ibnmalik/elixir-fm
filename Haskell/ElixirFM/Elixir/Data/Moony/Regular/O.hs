@@ -1775,6 +1775,8 @@ cluster_75  = cluster
 
     FaCL                      `noun`    {- <qar.d> -}          [ ['c','o','r','r','o','s','i','o','n'], ['e','r','o','s','i','o','n'] ],
 
+    FaCaL |<< "AwIy"          `noun`    {- <qara.dAwIy> -}     [ ['Q','a','r','a','d','a','w','i'] ],
+
     FaCIL                     `noun`    {- <qarI.d> -}         [ ['p','o','e','t','r','y'] ],
 
     FuCAL |< aT               `noun`    {- <qurA.daT> -}       [ ['c','h','i','p','s'], ['s','c','r','a','p','s'] ],

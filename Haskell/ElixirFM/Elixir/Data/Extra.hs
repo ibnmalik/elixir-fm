@@ -207,7 +207,7 @@ lexicon = listing "Generic lexicon"
         ]
 
 
-    |> "f w h" <| [
+    |> "f" <| [
 
         "f" |<< "U"         <::>    "N------S-R"
                                                         <..>    [ "mouth" ]
