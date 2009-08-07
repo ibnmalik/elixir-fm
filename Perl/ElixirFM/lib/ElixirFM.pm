@@ -976,7 +976,7 @@ sub mergeSuffix {
 
             return "aw" . $x if $x =~ /^u/;
 
-            return "a^gIy" if $x eq "a^gIy";
+            return "a^g" if $x =~ /^a?\^g$/;
         }
 
         return "ay" . showSuffix($_[1]);

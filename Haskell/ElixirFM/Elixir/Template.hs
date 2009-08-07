@@ -143,7 +143,7 @@ isClosed _ = True
 
                                  | "u"  `isPrefixOf` x  -> "aw" ++ x
 
-                        Suffix "a^gIy"  -> "a^gIy"
+                                 | x `elem` ["^g", "a^g"]   -> "a^g"
 
                         _       -> "ay" ++ show x
 
@@ -423,10 +423,6 @@ ayn   = Ayn
 
 iyA   = Suffix "iyA"
 iyaT  = Suffix "iyaT"
-
-aJIy  = Suffix "a^gIy"
-ajIy  = Suffix "a^gIy"
-ajiyy = Suffix "a^gIy"
 
 aN    = Suffix "aN"
 iN    = Suffix "iN"

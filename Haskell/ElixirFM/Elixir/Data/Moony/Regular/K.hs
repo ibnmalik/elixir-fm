@@ -36,6 +36,8 @@ cluster_2   = cluster
 
     FaCL |< Iy                `noun`    {- <`a^srIy> -}        [ ['A','s','h','r','i'] ],
 
+    FaCL |<< "Aw" |< Iy       `noun`    {- <`a^srAwIy> -}      [ ['A','s','h','r','a','w','i'] ],
+
     FuCL |< Iy                `adj`     {- <`u^srIy> -}        [ ['d','e','c','i','m','a','l'] ],
 
     FiCL |< aT                `noun`    {- <`i^sraT> -}        [ ['a','s','s','o','c','i','a','t','i','o','n'], ['r','e','l','a','t','i','o','n','s','h','i','p'] ],

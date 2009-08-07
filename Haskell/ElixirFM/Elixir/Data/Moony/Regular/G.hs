@@ -517,6 +517,9 @@ cluster_26  = cluster
 
     FaCL |< aT                `noun`    {- <.ha^glaT> -}       [ ['h','o','p','s','c','o','t','c','h'] ],
 
+    FawCaL |< aT              `noun`    {- <.haw^galaT> -}     [ ['f','l','a','s','k'], ['v','i','a','l'], ['p','h','i','a','l'] ]
+                              `plural`     FawACiL,
+
     MuFaCCaL                  `adj`     {- <mu.ha^g^gal> -}    [ unwords [ ['w','i','t','h'], ['a','n','k','l','e','t','s'] ], ['b','r','i','g','h','t'] ],
 
     FuCayLAn                  `noun`    {- <.hu^gaylAn> -}     [ ['H','e','j','a','i','l','a','n'], ['H','u','j','a','i','l','a','n'] ] ]
@@ -735,6 +738,8 @@ cluster_33  = cluster
     InFaCaL                   `verb`    {- <in.hadar> -}       [ unwords [ ['c','o','m','e'], "(", ['f','r','o','m'], ")" ] ],
 
     FaCUL                     `noun`    {- <.hadUr> -}         [ ['s','l','o','p','e'], ['d','e','c','l','i','v','i','t','y'] ],
+
+    FayCaL                    `noun`    {- <.haydar> -}        [ ['H','a','i','d','a','r'], ['H','e','i','d','a','r'] ],
 
     TaFaCCuL                  `noun`    {- <ta.haddur> -}      [ ['s','l','o','p','e'], ['d','e','c','l','i','v','i','t','y'] ]
                               `plural`     TaFaCCuL |< At,
@@ -2126,7 +2131,7 @@ cluster_88  = cluster
                            
     `derives` otherwise,
 
-    FACiL                     `noun`    {- <.hA.sil> -}        [ ['r','e','s','u','l','t'], ['i','n','c','o','m','e'], ['r','e','v','e','n','u','e','s'] ]
+    FACiL                     `noun`    {- <.hA.sil> -}        [ ['r','e','s','u','l','t'], ['i','n','c','o','m','e'], ['r','e','v','e','n','u','e'] ]
                               `plural`     FawACiL,
 
     MaFCUL                    `noun`    {- <ma.h.sUl> -}       [ ['y','i','e','l','d'], ['r','e','s','u','l','t'], ['c','r','o','p'] ]
@@ -2145,7 +2150,11 @@ cluster_88  = cluster
     `derives` otherwise,
 
     FuwayCiL                  `noun`    {- <.huway.sil> -}     [ ['b','l','i','s','t','e','r'], ['v','e','s','i','c','l','e'] ]
-                              `plural`     FuwayCiL |< At ]
+                              `plural`     FuwayCiL |< At,
+
+    FawCaL                    `noun`    {- <.haw.sal> -}       [ ['c','r','a','w'], ['p','e','l','i','c','a','n'] ],
+
+    FawCaL |< aT              `noun`    {- <.haw.salaT> -}     [ ['s','u','m','m','a','r','y'], ['r','e','s','u','m','e'] ] ]
 
 
 cluster_89  = cluster

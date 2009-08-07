@@ -340,6 +340,9 @@ cluster_19  = cluster
 
     FaCiL                     `adj`     {- <.gadiq> -}         [ ['c','o','p','i','o','u','s'], ['a','b','u','n','d','a','n','t'] ],
 
+    FayCaL                    `adj`     {- <.gaydaq> -}        [ ['h','a','n','d','s','o','m','e'], ['g','e','n','e','r','o','u','s'] ]
+                              `plural`     FayACiL,
+
     MuFCiL                    `adj`     {- <mu.gdiq> -}        [ ['c','o','p','i','o','u','s'], ['a','b','u','n','d','a','n','t'] ] ]
 
 
@@ -1630,7 +1633,9 @@ cluster_73  = cluster
 
     FuCUL |< aT               `noun`    {- <.gulUmaT> -}       [ ['y','o','u','t','h','f','u','l','n','e','s','s'] ],
 
-    FiCLAn |< Iy              `adj`     {- <.gilmAnIy> -}      [ ['p','e','d','e','r','a','s','t'] ] ]
+    FiCLAn |< Iy              `adj`     {- <.gilmAnIy> -}      [ ['p','e','d','e','r','a','s','t'] ],
+
+    FayCaL                    `noun`    {- <.gaylam> -}        [ ['t','o','r','t','o','i','s','e'] ] ]
 
 
 cluster_74  = cluster
@@ -2050,16 +2055,17 @@ cluster_98  = cluster
 
 cluster_99  = cluster
 
- |> ['.','g','l','I','s','i','r','I','n'] <| [
+ |> ".g h b" <| [
 
-    _____                     `noun`    {- <.glIsirIn> -}      [ ['g','l','y','c','e','r','i','n'] ] ]
+    FayCaL                    `noun`    {- <.gayhab> -}        [ ['d','a','r','k','n','e','s','s'], ['g','l','o','o','m'] ]
+                              `plural`     FayACiL ]
 
 
 cluster_100 = cluster
 
- |> ['f','I'] <| [
+ |> ['.','g','l','I','s','i','r','I','n'] <| [
 
-    _____                     `prep`    {- <fI> -}             [ ['i','n'] ] ]
+    _____                     `noun`    {- <.glIsirIn> -}      [ ['g','l','y','c','e','r','i','n'] ] ]
 
 
 section = [ cluster_1,

@@ -49,7 +49,7 @@ import Data.List hiding (lookup)
 
 import Version
 
-version = Version [1, 1, max build 869] []
+version = Version [1, 1, max build 874] []
 
     where Version [build] [] = revised "$Revision$"
 
@@ -125,7 +125,7 @@ main = do   argv <- getArgs
                 PrintVersion    ->  warn (unlines [copyleft,
                                           unwords ["ElixirFM",
                                                    showVersion Main.version,
-                                                   "July 2009"]])
+                                                   "August 2009"]])
 
                 _               ->  warn (usageInfo synopsis options)
 
