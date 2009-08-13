@@ -885,8 +885,7 @@ data PatternT =
                                                         |   FaCAy
 
         |   FiCAL                       |   FiyAL       |   FiCA'                       |   FiyA'
-                        |   CAL                         |   FiCAh                       |   FiyAh
-                                                        |   FiCAy
+                        |   CAL                         |   FiCAy
 
         |   FuCAL       |   TuCAL                       |   FuCA'
                                                         |   FuCAw

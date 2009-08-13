@@ -326,8 +326,8 @@ harmony (ParaPron _) 	y	= [Nothing]     -- in modern language
 -- Wrigth (1991), Fischer (2002), Badawi et al. (2004) on options with [Nothing, Just ("SP------4-", euphony y)]
 
 harmony (ParaNum  (NumV Feminine _ (Nothing :-: True))) 	_	= [Nothing, Just ("QC-----S2[IRA]", const True)]
-harmony (ParaNum  (NumC _ _ (Nothing :-: True))) 	        _	= [Nothing, Just ("SP------2-", const True)]
-harmony (ParaNum  (NumM _ _ (Nothing :-: True))) 	        _	= [Nothing, Just ("SP------2-", const True)]
+harmony (ParaNum  (NumC _ _ (Nothing :-: True))) 	        y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
+harmony (ParaNum  (NumM _ _ (Nothing :-: True))) 	        y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
 harmony (ParaNum  _) 	                                    _	= [Nothing]
 
 harmony (ParaAdv  _) 	_	= [Nothing]
@@ -349,16 +349,19 @@ harmony (ParaPrep _) 	y
                                             Just ("D---------", const True)]
     | otherwise                 = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "nI"))]
 
-harmony (ParaConj _) 	"li"	= [Nothing, Just ("VIS-------", const True)]
-harmony (ParaConj _) 	_	    = [Nothing, Just ("S-------1-", const True),
-                                            Just ("[VNAQDPCFIXYZ]---------", const True)]
+harmony (ParaConj _) 	"li"	    = [Nothing, Just ("VIS-------", const True)]
+harmony (ParaConj _)    y
+
+    | y `elem` ["'anna", "'inna"]   = [Nothing, Just ("SP------4-", euphony y)]
+    | otherwise                     = [Nothing, Just ("S-------1-", const True),
+                                                Just ("[VNAQDPCFIXYZ]---------", const True)]
 
 harmony (ParaPart _) 	"sa"	= [Nothing, Just ("VII-------", const True)]
 harmony (ParaPart _) 	"li"	= [Nothing, Just ("VIJ-------", const True)]
-harmony (ParaPart _) 	_	    = [Nothing, Just ("V---------", const True),
-                                            Just ("SP------4-", const True)]
+harmony (ParaPart _) 	y	    = [Nothing, Just ("V---------", const True),
+                                            Just ("SP------4-", euphony y)]
 
-harmony (ParaIntj _) 	_	= [Nothing, Just ("SP------2-", const True)]
+harmony (ParaIntj _) 	y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
 
 harmony (ParaXtra _) 	_	= [Nothing]
 

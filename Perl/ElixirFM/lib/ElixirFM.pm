@@ -537,7 +537,7 @@ sub unpretty_resolve {
         ?   {
                 'data'  =>  {
 
-                    'info'  =>  [ map { [ split /[\n ]*\t/, $_ ] } split /[\n ]*(?=\([0-9]+,[0-9]+\)[\n ]*\t)/, $data ],
+                    'info'  =>  [ map { [ split /[\n ]*\t/, $_ ] } grep { $_ ne '' } split /[\n ]*(?=\([0-9]+,[0-9]+\)[\n ]*\t|$)/, $data ],
                     'type'  =>  2,
                 },
 

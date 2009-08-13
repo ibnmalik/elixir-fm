@@ -1639,10 +1639,7 @@ cluster_78  = cluster
 
  |> "^s f n" <| [
 
-    FACiL                     `noun`    {- <^sAfin> -}         [ ['p','r','o','u','d'] ]
-                              `plural`     FACiL |< Un
-                           
-    `derives` otherwise ]
+    FACiL                     `adj`     {- <^sAfin> -}         [ ['p','r','o','u','d'] ] ]
 
 
 cluster_79  = cluster
@@ -1651,7 +1648,12 @@ cluster_79  = cluster
 
     FACaL                     `verb`    {- <^sAfah> -}         [ unwords [ ['c','o','m','m','u','n','i','c','a','t','e'], ['v','e','r','b','a','l','l','y'] ] ],
 
-    FaCaL |< Iy               `adj`     {- <^safahIy> -}       [ ['o','r','a','l'], ['v','e','r','b','a','l'], ['o','r','a','l','l','y'], ['v','e','r','b','a','l','l','y'] ],
+    FaC |< aT                 `noun`    {- <^safaT> -}         [ ['l','i','p'] ]
+                              `plural`     FiCAL,
+
+    FaCY |< Iy                `adj`     {- <^safawIy> -}       [ ['o','r','a','l'], ['v','e','r','b','a','l'] ],
+
+    FaCaL |< Iy               `adj`     {- <^safahIy> -}       [ ['o','r','a','l'], ['v','e','r','b','a','l'] ],
 
     FiCAL |<< "aN"            `noun`    {- <^sifAhaN> -}       [ ['o','r','a','l','l','y'], ['v','e','r','b','a','l','l','y'] ],
 

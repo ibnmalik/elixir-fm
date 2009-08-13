@@ -1252,7 +1252,7 @@ cluster_69  = cluster
 
     FUL |< aT                 `noun`    {- <fUhaT> -}          [ ['m','o','u','t','h'], ['a','p','e','r','t','u','r','e'] ]
                               `plural`     FaCA'iL
-                              `plural`     FuCL |< At,
+                              `plural`     FUL |< At,
 
     FUL |< Iy                 `adj`     {- <fUhIy> -}          [ ['o','r','a','l'], ['v','o','c','a','l'] ],
 
