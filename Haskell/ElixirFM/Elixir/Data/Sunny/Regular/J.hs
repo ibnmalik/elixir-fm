@@ -1434,9 +1434,7 @@ cluster_95  = cluster
                               `plural`     HaFCAL
                               `plural`     FuCUL,
 
-    FaCL |< Iy                `adj`     {- <^sa_h.sIy> -}      [ ['p','r','i','v','a','t','e'], ['p','e','r','s','o','n','a','l'] ],
-
-    FaCL |< Iy |<< "aN"       `adj`     {- <^sa_h.sIyaN> -}    [ unwords [ ['i','n'], ['p','e','r','s','o','n'] ], ['p','e','r','s','o','n','a','l','l','y'] ],
+    FaCL |< Iy                `adj`     {- <^sa_h.sIy> -}      [ ['p','r','i','v','a','t','e'], ['p','e','r','s','o','n','a','l'], unwords [ ['i','n'], ['p','e','r','s','o','n'] ] ],
 
     FaCL |< Iy |< aT          `noun`    {- <^sa_h.sIyaT> -}    [ ['i','d','e','n','t','i','t','y'], ['p','e','r','s','o','n'], ['p','e','r','s','o','n','a','l','i','t','y'] ]
                               `plural`     FaCL |< Iy |< At,

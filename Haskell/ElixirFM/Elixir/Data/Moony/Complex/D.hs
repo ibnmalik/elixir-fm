@@ -237,9 +237,7 @@ cluster_22  = cluster
 
     FaCCaL                    `verb`    {- <'aqqat> -}         [ unwords [ ['s','t','a','m','p'], ['t','h','e'], ['t','i','m','e'], "/", ['d','a','t','e'] ] ],
 
-    MuFaCCaL                  `adj`     {- <mu'aqqat> -}       [ ['t','e','m','p','o','r','a','r','y'], ['p','r','o','v','i','s','i','o','n','a','l'] ],
-
-    MuFaCCaL |<< "aN"         `adj`     {- <mu'aqqataN> -}     [ ['t','e','m','p','o','r','a','r','i','l','y'], ['p','r','o','v','i','s','i','o','n','a','l','l','y'] ] ]
+    MuFaCCaL                  `adj`     {- <mu'aqqat> -}       [ ['t','e','m','p','o','r','a','r','y'], ['p','r','o','v','i','s','i','o','n','a','l'] ] ]
 
  |> "w q t" <| [
 
@@ -390,9 +388,7 @@ cluster_33  = cluster
 
     TaFaCCaL                  `verb`    {- <ta'akkad> -}       [ unwords [ ['b','e'], ['c','e','r','t','a','i','n'] ], ['a','s','c','e','r','t','a','i','n'] ],
 
-    FaCIL                     `adj`     {- <'akId> -}          [ ['c','e','r','t','a','i','n'], ['d','e','f','i','n','i','t','e'] ],
-
-    FaCIL |<< "aN"            `adj`     {- <'akIdaN> -}        [ ['c','e','r','t','a','i','n','l','y'], ['s','u','r','e','l','y'] ],
+    FaCIL                     `adj`     {- <'akId> -}          [ ['c','e','r','t','a','i','n'], ['d','e','f','i','n','i','t','e'], ['s','u','r','e'] ],
 
     TaFCIL                    `noun`    {- <ta'kId> -}         [ ['c','o','n','f','i','r','m','a','t','i','o','n'], ['a','f','f','i','r','m','a','t','i','o','n'], ['g','u','a','r','a','n','t','e','e'] ]
                               `plural`     TaFCIL |< At,
@@ -406,10 +402,7 @@ cluster_33  = cluster
     TaFaCCuL                  `noun`    {- <ta'akkud> -}       [ ['a','s','s','u','r','a','n','c','e'], ['c','o','n','v','i','c','t','i','o','n'] ]
                               `plural`     TaFaCCuL |< At,
 
-    MutaFaCCiL                `noun`    {- <muta'akkid> -}     [ ['c','e','r','t','a','i','n'], ['s','u','r','e'] ]
-                              `plural`     MutaFaCCiL |< Un
-                           
-    `derives` otherwise ]
+    MutaFaCCiL                `adj`     {- <muta'akkid> -}     [ ['c','e','r','t','a','i','n'], ['s','u','r','e'] ] ]
 
  |> ['\'','a','k','A','d'] <| [
 
@@ -852,7 +845,7 @@ cluster_59  = cluster
 
  |> ['\'','a','l','i','f','b','A','\''] <| [
 
-    _____                     `noun`    {- <'alifbA'> -}       [ ['A','B','C','\'','s'] ],
+    _____                     `noun`    {- <'alifbA'> -}       [ ['a','l','p','h','a','b','e','t'] ],
 
     _____ |< Iy               `adj`     {- <'alifbA'Iy> -}     [ ['a','l','p','h','a','b','e','t','i','c'] ] ]
 

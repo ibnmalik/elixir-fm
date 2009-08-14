@@ -878,7 +878,7 @@ cluster_34  = cluster
 
     FaCL                      `noun`    {- <rawd> -}           [ ['e','x','p','l','o','r','a','t','i','o','n'] ],
 
-    FuCayL                    `noun`    {- <ruwayd> -}         [ ['s','l','o','w','l','y'], ['g','e','n','t','l','y'], ['g','r','a','d','u','a','l','l','y'] ],
+    FuCayL |<< "aN"           `noun`    {- <ruwaydaN> -}       [ ['s','l','o','w','l','y'], ['g','e','n','t','l','y'], ['g','r','a','d','u','a','l','l','y'] ],
 
     HiFAL |< aT               `noun`    {- <'irAdaT> -}        [ ['d','e','s','i','r','e'], ['w','i','l','l'] ],
 

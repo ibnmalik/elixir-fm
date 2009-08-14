@@ -1029,7 +1029,7 @@ cluster_59  = cluster
 
     FaCL                      `noun`    {- <fawr> -}           [ ['b','o','i','l','i','n','g'] ],
 
-    FaCL |<< "aN"             `adv`     {- <fawraN> -}         [ ['i','m','m','e','d','i','a','t','e','l','y'], unwords [ ['a','t'], ['o','n','c','e'] ] ],
+    FaCL |<< "aN"             `noun`    {- <fawraN> -}         [ ['i','m','m','e','d','i','a','t','e','l','y'], unwords [ ['a','t'], ['o','n','c','e'] ] ],
 
     FaCL |<< "a"              `prep`    {- <fawra> -}          [ unwords [ ['i','m','m','e','d','i','a','t','e','l','y'], ['a','f','t','e','r'] ] ],
 

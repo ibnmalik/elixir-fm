@@ -1302,8 +1302,6 @@ cluster_52  = cluster
 
     FiCA'                     `noun`    {- <wilA'> -}          [ ['s','u','c','c','e','s','s','i','o','n'] ],
 
-    FiCA'                     `noun`    {- <wilA'> -}          [ ['s','u','c','c','e','s','s','i','v','e','l','y'] ],
-
     MuFACY |< aT              `noun`    {- <muwAlAT> -}        [ ['f','r','i','e','n','d','s','h','i','p'], unwords [ ['c','o','n','t','i','n','u','o','u','s'], ['p','r','a','c','t','i','c','e'] ] ]
                               `plural`     MuFACY |< At,
 
@@ -1950,9 +1948,9 @@ cluster_96  = cluster
 
     FaCaL                     `noun`    {- <yara`> -}          [ ['c','o','w','a','r','d','l','i','n','e','s','s'] ],
 
-    FaCAL                     `noun`    {- <yarA`> -}          [ unwords [ ['r','e','e','d'], ['p','e','n'] ], ['f','i','r','e','f','l','y'] ],
-
-    FaCAL |< aT               `noun`    {- <yarA`aT> -}        [ ['f','i','r','e','f','l','y'] ],
+    FaCAL                     `noun`    {- <yarA`> -}          [ unwords [ ['r','e','e','d'], ['p','e','n'] ], ['f','i','r','e','f','l','y'] ]
+                           
+    `derives` otherwise,
 
     FaCAL                     `adj`     {- <yarA`> -}          [ ['c','o','w','a','r','d','l','y'] ] ]
 

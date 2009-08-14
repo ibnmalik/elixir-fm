@@ -941,7 +941,7 @@ cluster_44  = cluster
     FaCiL                     `verb`    {- <.saniq> -}         [ ['s','t','i','n','k'], ['s','m','e','l','l'] ]
                               `imperf`     FCaL,
 
-    FaCL                      `noun`    {- <.sanq> -}          [ unwords [ ['f','o','u','l'], "(", ['o','d','o','r'], ")" ], ['s','t','i','n','k','y'], ['s','m','e','l','l','y'] ],
+    FaCL                      `adj`     {- <.sanq> -}          [ ['f','o','u','l'], ['s','t','i','n','k','y'], ['s','m','e','l','l','y'] ],
 
     FaCL |< aT                `noun`    {- <.sanqaT> -}        [ unwords [ ['f','o','u','l'], ['o','d','o','r'] ], ['s','t','e','n','c','h'] ] ]
 

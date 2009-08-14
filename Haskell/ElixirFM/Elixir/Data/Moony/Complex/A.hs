@@ -1122,14 +1122,14 @@ cluster_73  = cluster
 
  |> "' _h w" <| [
 
-    FuCt                      `noun`    {- <'u_ht> -}          [ ['s','i','s','t','e','r'], ['c','o','u','n','t','e','r','p','a','r','t'] ]
-                              `plural`     FaCA |< At,
-
     FACY                      `verb`    {- <'A_hY> -}          [ ['f','r','a','t','e','r','n','i','z','e'], unwords [ ['b','e'], ['f','r','a','t','e','r','n','i','z','e','d'], ['w','i','t','h'] ] ],
 
     TaFaCCY                   `verb`    {- <ta'a_h_hY> -}      [ unwords [ ['b','e'], ['f','r','a','t','e','r','n','a','l'] ] ],
 
     TaFACY                    `verb`    {- <ta'A_hY> -}        [ ['f','r','a','t','e','r','n','i','z','e'] ],
+
+    FuC |<< "t"               `noun`    {- <'u_ht> -}          [ ['s','i','s','t','e','r'], ['c','o','u','n','t','e','r','p','a','r','t'] ]
+                              `plural`     FaCA |< At,
 
     FaCA |< Iy                `adj`     {- <'a_hawIy> -}       [ ['f','r','a','t','e','r','n','a','l'], ['b','r','o','t','h','e','r','l','y'] ],
 
@@ -1139,7 +1139,8 @@ cluster_73  = cluster
 
     FuCUL |< aT               `noun`    {- <'u_hUwaT> -}       [ ['f','r','a','t','e','r','n','i','t','y'], ['b','r','o','t','h','e','r','h','o','o','d'] ],
 
-    FACI |< aT                `noun`    {- <'A_hiyaT> -}       [ ['a','t','t','a','c','h','m','e','n','t'], ['b','o','n','d'] ],
+    FACI |< aT                `noun`    {- <'A_hiyaT> -}       [ ['a','t','t','a','c','h','m','e','n','t'], ['b','o','n','d'], ['t','i','e','s'] ]
+                              `plural`     FawACI,
 
     FiCA'                     `noun`    {- <'i_hA'> -}         [ ['f','r','a','t','e','r','n','i','t','y'] ],
 
@@ -1149,9 +1150,7 @@ cluster_73  = cluster
                               `plural`     TaFACI |< At,
 
     MuFACY |< aT              `noun`    {- <mu'A_hAT> -}       [ ['f','r','a','t','e','r','n','i','z','a','t','i','o','n'] ]
-                              `plural`     MuFACaL |< At,
-
-    FawACI                    `noun`    {- <'awA_hI> -}        [ ['t','i','e','s'], ['b','o','n','d','s'] ] ]
+                              `plural`     MuFACaL |< At ]
 
 
 cluster_74  = cluster
@@ -1268,11 +1267,19 @@ cluster_81  = cluster
 
  |> "' d m" <| [
 
-    FACaL |< Iy               `adj`     {- <'AdamIy> -}        [ ['h','u','m','a','n'], ['h','u','m','a','n','e'] ],
+    FACaL                     `noun`    {- <'Adam> -}          [ ['A','d','a','m'] ]
+                           
+    `excepts` Diptote,
 
-    FawACiL                   `noun`    {- <'awAdim> -}        [ ['h','u','m','a','n','s'] ],
+    FACaL |< Iy               `noun`    {- <'AdamIy> -}        [ ['h','u','m','a','n'], unwords [ ['h','u','m','a','n'], ['b','e','i','n','g'] ] ]
+                              `plural`     FACaL |< Iy |< Un
+                              `plural`     FawACiL,
 
-    FACaL                     `noun`    {- <'Adam> -}          [ ['A','d','a','m'] ] ]
+    FACaL |< Iy               `adj`     {- <'AdamIy> -}        [ ['h','u','m','a','n'], ['h','u','m','a','n','e'] ]
+                              `plural`     FACaL |< Iy |< Un
+                              `plural`     FawACiL,
+
+    FACaL |< Iy |< aT         `noun`    {- <'AdamIyaT> -}      [ ['h','u','m','a','n','i','t','y'], ['h','u','m','a','n','e','n','e','s','s'], ['h','u','m','a','n','i','s','m'] ] ]
 
  |> "' d m" <| [
 

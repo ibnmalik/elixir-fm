@@ -1198,7 +1198,7 @@ cluster_90  = cluster
 
     MuFACiL                   `adj`     {- <mubA^sir> -}       [ ['d','i','r','e','c','t'], ['i','m','m','e','d','i','a','t','e'] ],
 
-    MuFACaL |< aT |<< "aN"    `adv`     {- <mubA^saraTaN> -}   [ ['d','i','r','e','c','t','l','y'], ['i','m','m','e','d','i','a','t','e','l','y'] ],
+    MuFACaL |< aT |<< "aN"    `noun`    {- <mubA^saraTaN> -}   [ ['d','i','r','e','c','t','l','y'], ['i','m','m','e','d','i','a','t','e','l','y'] ],
 
     MuFACaL |< aT             `noun`    {- <mubA^saraT> -}     [ ['b','e','g','i','n','n','i','n','g'], ['p','u','r','s','u','i','t'] ],
 

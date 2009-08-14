@@ -1087,8 +1087,6 @@ cluster_57  = cluster
                               `plural`     FiCAL
                               `plural`     FuCLAn,
 
-    FaCIL |<< "aN"            `adj`     {- <sarI`aN> -}        [ ['q','u','i','c','k','l','y'], ['p','r','o','m','p','t','l','y'] ],
-
     HaFCaL                    `adj`     {- <'asra`> -}         [ unwords [ ['f','a','s','t','e','r'], "/", ['f','a','s','t','e','s','t'] ] ],
 
     FiCAL                     `noun`    {- <sirA`> -}          [ ['q','u','i','c','k','l','y'] ],
@@ -1175,7 +1173,9 @@ cluster_60  = cluster
 
  |> ['s','a','r','a','q','u','s','.','t'] <| [
 
-    _____ |< aT               `noun`    {- <saraqus.taT> -}    [ ['S','a','r','a','g','o','s','s','a'], ['Z','a','r','a','g','o','z','a'] ],
+    _____ |< aT               `noun`    {- <saraqus.taT> -}    [ ['S','a','r','a','g','o','s','s','a'], ['Z','a','r','a','g','o','z','a'] ]
+                           
+    `excepts` Diptote,
 
     _____ |< Iy               `adj`     {- <saraqus.tIy> -}    [ ['S','a','r','a','g','o','s','s','a','n'], ['Z','a','r','a','g','o','z','a','n'] ] ]
 
@@ -1212,7 +1212,7 @@ cluster_64  = cluster
 
  |> ['s','a','r','a','n','d','I','b'] <| [
 
-    _____                     `noun`    {- <sarandIb> -}       [ ['S','e','r','e','n','d','i','p'] ],
+    _____                     `noun`    {- <sarandIb> -}       [ ['S','e','r','e','n','d','i','p'], ['C','e','y','l','o','n'] ],
 
     _____ |< Iy               `adj`     {- <sarandIbIy> -}     [ unwords [ ['o','f'], "/", ['f','r','o','m'], ['S','e','r','e','n','d','i','p'] ] ] ]
 

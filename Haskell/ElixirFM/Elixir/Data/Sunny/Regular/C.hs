@@ -221,7 +221,7 @@ cluster_9   = cluster
 
     MaFACiL                   `noun`    {- <madArik> -}        [ ['f','a','c','u','l','t','i','e','s'], ['p','o','w','e','r','s'] ],
 
-    FiCAL                     `noun`    {- <dirAk> -}          [ ['c','o','n','s','t','a','n','t','l','y'], unwords [ ['w','i','t','h','o','u','t'], ['i','n','t','e','r','r','u','p','t','i','o','n'] ] ],
+    FiCAL |<< "aN"            `noun`    {- <dirAkaN> -}        [ ['c','o','n','s','t','a','n','t','l','y'], unwords [ ['w','i','t','h','o','u','t'], ['i','n','t','e','r','r','u','p','t','i','o','n'] ] ],
 
     HiFCAL                    `noun`    {- <'idrAk> -}         [ ['a','t','t','a','i','n','m','e','n','t'], ['r','e','a','l','i','z','a','t','i','o','n'], ['a','w','a','r','e','n','e','s','s'] ]
                               `plural`     HiFCAL |< At,

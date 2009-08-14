@@ -109,8 +109,6 @@ cluster_6   = cluster
 
     TaFCAL                    `noun`    {- <takrAr> -}         [ ['r','e','p','e','t','i','t','i','o','n'], ['r','e','i','t','e','r','a','t','i','o','n'], ['f','r','e','q','u','e','n','c','y'] ],
 
-    TaFCAL |<< "aN"           `adv`     {- <takrAraN> -}       [ ['r','e','p','e','a','t','e','d','l','y'], ['f','r','e','q','u','e','n','t','l','y'] ],
-
     TaFCAL |< Iy              `adj`     {- <takrArIy> -}       [ ['r','e','p','e','a','t','e','d'], ['f','r','e','q','u','e','n','t'] ],
 
     MuFaCCaL                  `adj`     {- <mukarrar> -}       [ ['r','e','p','e','a','t','e','d'], ['r','e','i','t','e','r','a','t','e','d'] ],

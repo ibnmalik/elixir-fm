@@ -710,7 +710,7 @@ cluster_40  = cluster
 
     IstaFCaL                  `verb`    {- <istarsal> -}       [ unwords [ ['b','e'], ['u','n','r','e','s','t','r','a','i','n','e','d'] ], unwords [ ['b','e'], ['u','n','i','n','h','i','b','i','t','e','d'] ] ],
 
-    FaCL                      `noun`    {- <rasl> -}           [ ['l','e','i','s','u','r','e','l','y'], ['l','o','o','s','e'] ],
+    FaCL                      `adj`     {- <rasl> -}           [ ['l','e','i','s','u','r','e','l','y'], ['l','o','o','s','e'] ],
 
     FiCL                      `noun`    {- <risl> -}           [ ['m','o','d','e','r','a','t','i','o','n'] ],
 
@@ -797,8 +797,6 @@ cluster_41  = cluster
                               `plural`     FuCUL,
 
     FaCL |< Iy                `adj`     {- <rasmIy> -}         [ ['o','f','f','i','c','i','a','l'] ],
-
-    FaCL |< Iy |<< "aN"       `adj`     {- <rasmIyaN> -}       [ ['o','f','f','i','c','i','a','l','l','y'] ],
 
     FawCaL                    `noun`    {- <rawsam> -}         [ ['c','l','i','c','h','e'] ]
                               `plural`     FawACiL,
@@ -1343,7 +1341,12 @@ cluster_66  = cluster
 
     MuFtaCiL                  `adj`     {- <murta`id> -}       [ ['t','r','e','m','b','l','i','n','g'] ],
 
-    FiCLIL                    `adj`     {- <ri`dId> -}         [ ['c','o','w','a','r','d'], ['c','o','w','a','r','d','l','y'] ]
+    FiCLIL                    `noun`    {- <ri`dId> -}         [ ['c','o','w','a','r','d'] ]
+                              `plural`     FaCALIL
+                           
+    `derives` otherwise,
+
+    FiCLIL                    `adj`     {- <ri`dId> -}         [ ['c','o','w','a','r','d','l','y'] ]
                               `plural`     FaCALIL ]
 
 

@@ -826,9 +826,7 @@ cluster_74  = cluster
 
     FaCaL |< Iy |< aT         `noun`    {- <'azalIyaT> -}      [ ['e','t','e','r','n','i','t','y'] ],
 
-    FaCaL |< Iy               `adj`     {- <'azalIy> -}        [ ['e','t','e','r','n','a','l'] ],
-
-    FaCaL |< Iy |<< "aN"      `adj`     {- <'azalIyaN> -}      [ ['e','t','e','r','n','a','l','l','y'] ] ]
+    FaCaL |< Iy               `adj`     {- <'azalIy> -}        [ ['e','t','e','r','n','a','l'] ] ]
 
 
 cluster_75  = cluster

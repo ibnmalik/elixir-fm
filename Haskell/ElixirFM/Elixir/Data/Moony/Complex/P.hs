@@ -209,7 +209,7 @@ cluster_11  = cluster
 
     FiCAL |< Iy |< aT         `noun`    {- <widAdIyaT> -}      [ ['a','s','s','o','c','i','a','t','i','o','n'] ],
 
-    FaCUL                     `noun`    {- <wadUd> -}          [ ['f','r','i','e','n','d','l','y'], ['c','o','r','d','i','a','l'] ],
+    FaCUL                     `adj`     {- <wadUd> -}          [ ['f','r','i','e','n','d','l','y'], ['c','o','r','d','i','a','l'] ],
 
     FaCIL                     `adj`     {- <wadId> -}          [ ['f','r','i','e','n','d','l','y'], ['a','m','i','c','a','b','l','e'] ],
 

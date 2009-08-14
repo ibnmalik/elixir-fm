@@ -479,9 +479,7 @@ cluster_25  = cluster
 
     FaCL                      `noun`    {- <^sar`> -}          [ ['l','a','w'] ],
 
-    FaCL |< Iy                `adj`     {- <^sar`Iy> -}        [ ['l','e','g','i','t','i','m','a','t','e'], ['l','a','w','f','u','l'] ],
-
-    FaCL |< Iy |<< "aN"       `adj`     {- <^sar`IyaN> -}      [ ['l','e','g','a','l','l','y'], ['l','e','g','i','t','i','m','a','t','e','l','y'] ],
+    FaCL |< Iy                `adj`     {- <^sar`Iy> -}        [ ['l','e','g','i','t','i','m','a','t','e'], ['l','e','g','a','l'], ['l','a','w','f','u','l'] ],
 
     FaCL |< Iy |< aT          `noun`    {- <^sar`IyaT> -}      [ ['l','e','g','i','t','i','m','a','c','y'], ['l','e','g','a','l','i','t','y'] ],
 
@@ -1648,10 +1646,11 @@ cluster_79  = cluster
 
     FACaL                     `verb`    {- <^sAfah> -}         [ unwords [ ['c','o','m','m','u','n','i','c','a','t','e'], ['v','e','r','b','a','l','l','y'] ] ],
 
-    FaC |< aT                 `noun`    {- <^safaT> -}         [ ['l','i','p'] ]
-                              `plural`     FiCAL,
+    FaC |< aT                 `noun`    {- <^safaT> -}         [ ['l','i','p'], ['r','i','m'], ['e','d','g','e'] ]
+                              `plural`     FiCAL
+                              `plural`     FaCA |< At,
 
-    FaCY |< Iy                `adj`     {- <^safawIy> -}       [ ['o','r','a','l'], ['v','e','r','b','a','l'] ],
+    FaCA |< Iy                `adj`     {- <^safawIy> -}       [ ['o','r','a','l'], ['v','e','r','b','a','l'] ],
 
     FaCaL |< Iy               `adj`     {- <^safahIy> -}       [ ['o','r','a','l'], ['v','e','r','b','a','l'] ],
 
@@ -1659,7 +1658,7 @@ cluster_79  = cluster
 
     FiCAL |< Iy               `adj`     {- <^sifAhIy> -}       [ ['o','r','a','l'], ['v','e','r','b','a','l'] ],
 
-    MuFACaL |< aT             `noun`    {- <mu^sAfahaT> -}     [ ['v','e','r','b','a','l'], ['o','r','a','l'], ['s','p','e','e','c','h'] ],
+    MuFACaL |< aT             `noun`    {- <mu^sAfahaT> -}     [ ['s','p','e','e','c','h'] ],
 
     MuFACaL |< aT |<< "aN"    `noun`    {- <mu^sAfahaTaN> -}   [ ['o','r','a','l','l','y'], ['v','e','r','b','a','l','l','y'] ] ]
 

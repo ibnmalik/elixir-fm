@@ -131,9 +131,9 @@ cluster_5   = cluster
 
     FaCL                      `noun`    {- <nadr> -}           [ ['r','a','r','e'], ['o','d','d'] ],
 
-    FaCL |< aT                `noun`    {- <nadraT> -}         [ ['r','a','r','i','t','y'], ['r','a','r','e','l','y'], ['s','e','l','d','o','m'] ],
+    FaCL |< aT                `noun`    {- <nadraT> -}         [ ['r','a','r','i','t','y'] ],
 
-    FuCL |< aT                `noun`    {- <nudraT> -}         [ ['r','a','r','i','t','y'], ['r','a','r','e','l','y'], ['s','e','l','d','o','m'] ],
+    FuCL |< aT                `noun`    {- <nudraT> -}         [ ['r','a','r','i','t','y'] ],
 
     HaFCaL                    `adj`     {- <'andar> -}         [ unwords [ ['t','h','r','e','s','h','i','n','g'], ['f','l','o','o','r'] ] ]
                               `plural`     HaFACiL,
@@ -151,7 +151,7 @@ cluster_5   = cluster
     TaFACuL                   `noun`    {- <tanAdur> -}        [ ['j','o','k','i','n','g'], ['j','e','s','t','i','n','g'] ]
                               `plural`     TaFACuL |< At,
 
-    FACiL                     `adj`     {- <nAdir> -}          [ ['r','a','r','e'], ['u','n','u','s','u','a','l'], ['i','n','f','r','e','q','u','e','n','t'], ['r','a','r','e','l','y'], ['s','e','l','d','o','m'] ],
+    FACiL                     `adj`     {- <nAdir> -}          [ ['r','a','r','e'], ['u','n','u','s','u','a','l'], ['i','n','f','r','e','q','u','e','n','t'] ],
 
     FACiL |< aT               `noun`    {- <nAdiraT> -}        [ unwords [ ['r','a','r','e'], ['t','h','i','n','g'] ], ['a','n','e','c','d','o','t','e'] ]
                               `plural`     FawACiL,
@@ -854,7 +854,7 @@ cluster_38  = cluster
     FiCL |< aT                `noun`    {- <nisbaT> -}         [ ['l','i','n','k'], ['r','e','l','a','t','i','o','n'], unwords [ ['p','e','r','c','e','n','t','a','g','e'], ['f','i','g','u','r','e','s'] ] ]
                               `plural`     FiCaL,
 
-    FiCL |< Iy                `adj`     {- <nisbIy> -}         [ ['r','e','l','a','t','i','v','e'], ['r','e','l','a','t','i','v','e','l','y'] ],
+    FiCL |< Iy                `adj`     {- <nisbIy> -}         [ ['r','e','l','a','t','i','v','e'] ],
 
     FiCL |< Iy |< aT          `noun`    {- <nisbIyaT> -}       [ ['r','e','l','a','t','i','v','i','t','y'] ],
 

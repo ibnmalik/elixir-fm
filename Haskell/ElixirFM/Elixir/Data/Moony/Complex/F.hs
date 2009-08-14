@@ -107,7 +107,7 @@ cluster_8   = cluster
 
  |> ['b','i','-','l','A','-','^','s','a','k','k'] <| [
 
-    _____                     `adv`     {- <bi-lA-^sakk> -}    [ ['u','n','d','o','u','b','t','e','d','l','y'] ] ]
+    _____ |<< "iN"            `adv`     {- <bi-lA-^sakkiN> -}  [ ['u','n','d','o','u','b','t','e','d','l','y'] ] ]
 
 
 cluster_9   = cluster
@@ -1309,21 +1309,21 @@ cluster_77  = cluster
 
     TaFaCCY                   `verb`    {- <tabannY> -}        [ ['a','d','o','p','t'] ],
 
-    FiCt                      `noun`    {- <bint> -}           [ ['d','a','u','g','h','t','e','r'] ]
-                              `plural`     FaC |< At,
+    IFC                       `noun`    {- <ibn> -}            [ ['s','o','n'], ['c','h','i','l','d'] ]
+                              `plural`     HaFCA'
+                              `plural`     FaC |< Un,
 
     IFC |< aT                 `noun`    {- <ibnaT> -}          [ ['d','a','u','g','h','t','e','r'] ]
                               `plural`     FaC |< At,
 
-    IFC                       `noun`    {- <ibn> -}            [ ['s','o','n'] ]
-                              `plural`     HaFCA'
-                              `plural`     FaC |< Un,
+    FiC                       `zero`    {- <bin> -}            [ ['B','i','n'], ['B','e','n'] ],
+
+    FiC |<< "t"               `noun`    {- <bint> -}           [ ['d','a','u','g','h','t','e','r'] ]
+                              `plural`     FaC |< At,
 
     FuCUL |< aT               `noun`    {- <bunUwaT> -}        [ ['s','o','n','s','h','i','p'], ['f','i','l','i','a','t','i','o','n'] ],
 
     FaCI                      `noun`    {- <banI> -}           [ ['B','a','n','i'], ['B','e','n','i'], ['B','e','n','n','y'] ],
-
-    FaC |< Un                 `noun`    {- <banUn> -}          [ unwords [ ['s','o','n','s'], "/", ['c','h','i','l','d','r','e','n'], ['o','f'] ] ],
 
     FuCayy                    `noun`    {- <bunayy> -}         [ unwords [ ['l','i','t','t','l','e'], ['s','o','n'] ] ],
 
@@ -1332,16 +1332,12 @@ cluster_77  = cluster
     TaFaCCI                   `noun`    {- <tabannI> -}        [ ['a','d','o','p','t','i','o','n'] ]
                               `plural`     TaFaCCI |< At ]
 
- |> ['b','i','n'] <| [
+ |> "b n w" <| [
 
-    _____                     `zero`    {- <bin> -}            [ ['B','i','n'], ['B','e','n'] ] ]
+    "FaCCA"                   `noun`    {- <bannA> -}          [ ['B','a','n','n','a'] ] ]
 
 
 cluster_78  = cluster
-
- |> "b n y" <| [
-
-    "FaCCA"                   `noun`    {- <bannA> -}          [ ['B','a','n','n','a'] ] ]
 
  |> "b n y" <| [
 

@@ -1098,8 +1098,6 @@ cluster_38  = cluster
 
     FiCAL                     `noun`    {- <.girAr> -}         [ ['m','a','n','n','e','r'], ['w','a','y'], ['h','a','s','t','e'] ],
 
-    FiCAL |<< "aN"            `noun`    {- <.girAraN> -}       [ ['h','a','s','t','i','l','y'] ],
-
     FaCCAL                    `adj`     {- <.garrAr> -}        [ ['d','e','c','e','p','t','i','v','e'] ],
 
     FaCAL |< aT               `noun`    {- <.garAraT> -}       [ ['h','e','e','d','l','e','s','s','n','e','s','s'], ['m','a','n','n','e','r'] ],

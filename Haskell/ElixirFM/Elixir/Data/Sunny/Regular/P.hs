@@ -194,7 +194,7 @@ cluster_9   = cluster
 
     FaCL                      `noun`    {- <lakz> -}           [ ['s','t','r','i','k','i','n','g'], ['k','i','c','k','i','n','g'] ],
 
-    FaCiL                     `adj`     {- <lakiz> -}          [ ['m','i','s','e','r','l','y'] ],
+    FaCiL                     `adj`     {- <lakiz> -}          [ ['m','i','s','e','r','l','y'], ['s','t','i','n','g','y'] ],
 
     FiCAL                     `noun`    {- <likAz> -}          [ ['p','i','n'], ['n','a','i','l'], ['p','e','g'] ] ]
 
@@ -333,8 +333,6 @@ cluster_19  = cluster
 
     TaFCIL                    `noun`    {- <talmI.h> -}        [ ['a','l','l','u','s','i','o','n'], ['s','u','g','g','e','s','t','i','o','n'], unwords [ ['e','a','r','l','y'], ['s','y','m','p','t','o','m','s'] ] ]
                               `plural`     TaFACIL,
-
-    TaFCIL |<< "aN"           `noun`    {- <talmI.haN> -}      [ ['i','n','d','i','r','e','c','t','l','y'], unwords [ ['t','h','r','o','u','g','h'], ['a','l','l','u','s','i','o','n'] ] ],
 
     MuFaCCiL                  `adj`     {- <mulammi.h> -}      [ ['a','l','l','u','d','i','n','g'], ['r','e','f','e','r','r','i','n','g'] ] ]
 

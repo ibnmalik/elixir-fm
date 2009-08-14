@@ -680,8 +680,6 @@ cluster_35  = cluster
 
     _____ |< Iy               `adj`     {- <lU^gistIy> -}      [ ['l','o','g','i','s','t','i','c'] ],
 
-    _____ |< Iy |<< "aN"      `adj`     {- <lU^gistIyaN> -}    [ ['l','o','g','i','s','t','i','c','a','l','l','y'] ],
-
     _____ |< Iy               `noun`    {- <lU^gistIy> -}      [ ['l','o','g','i','s','t','i','c','i','a','n'] ]
                               `plural`     _____ |< Iy |< Un
                            
@@ -924,9 +922,7 @@ cluster_45  = cluster
     IstiFCAL                  `noun`    {- <istil.hAq> -}      [ ['a','n','n','e','x','a','t','i','o','n'] ]
                               `plural`     IstiFCAL |< At,
 
-    FACiL                     `adj`     {- <lA.hiq> -}         [ ['l','a','t','e','r'], ['a','f','t','e','r','w','a','r','d','s'], ['s','h','o','r','t','l','y'], ['s','o','o','n'], ['s','u','b','s','e','q','u','e','n','t'] ],
-
-    FACiL                     `adj`     {- <lA.hiq> -}         [ ['a','t','t','a','c','h','e','d'], ['j','o','i','n','e','d'] ],
+    FACiL                     `adj`     {- <lA.hiq> -}         [ ['l','a','t','e','r'], ['s','o','o','n'], ['s','u','b','s','e','q','u','e','n','t'], ['a','t','t','a','c','h','e','d'], ['j','o','i','n','e','d'] ],
 
     FACiL |< aT               `noun`    {- <lA.hiqaT> -}       [ ['a','d','j','u','n','c','t'], ['a','p','p','e','n','d','a','g','e'] ]
                               `plural`     FawACiL,

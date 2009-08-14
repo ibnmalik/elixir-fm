@@ -44,7 +44,9 @@ cluster_3   = cluster
 
     InFaCaL                   `verb`    {- <in.taba`> -}       [ unwords [ ['b','e'], ['s','t','a','m','p','e','d'] ], unwords [ ['b','e'], ['i','m','p','r','e','s','s','e','d'] ] ],
 
-    FaCL                      `noun`    {- <.tab`> -}          [ ['t','e','m','p','e','r','a','m','e','n','t'], ['n','a','t','u','r','a','l','l','y'], unwords [ ['o','f'], ['c','o','u','r','s','e'] ] ],
+    FaCL                      `noun`    {- <.tab`> -}          [ ['t','e','m','p','e','r','a','m','e','n','t'] ],
+
+    FaCL |<< "aN"             `noun`    {- <.tab`aN> -}        [ ['n','a','t','u','r','a','l','l','y'], unwords [ ['o','f'], ['c','o','u','r','s','e'] ] ],
 
     FaCL                      `noun`    {- <.tab`> -}          [ ['p','r','i','n','t','i','n','g'] ],
 
@@ -1445,7 +1447,7 @@ cluster_69  = cluster
 
     FACiL                     `adj`     {- <.tAliq> -}         [ ['d','i','v','o','r','c','e','d'] ],
 
-    MuFCaL                    `adj`     {- <mu.tlaq> -}        [ ['a','b','s','o','l','u','t','e'], ['u','n','l','i','m','i','t','e','d'], ['a','b','s','o','l','u','t','e','l','y'] ],
+    MuFCaL                    `adj`     {- <mu.tlaq> -}        [ ['a','b','s','o','l','u','t','e'], ['u','n','l','i','m','i','t','e','d'] ],
 
     MutaFaCCiL                `adj`     {- <muta.talliq> -}    [ ['c','h','e','e','r','f','u','l'] ],
 

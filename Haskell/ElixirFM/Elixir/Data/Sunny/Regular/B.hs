@@ -1581,7 +1581,7 @@ cluster_99  = cluster
     TaFCIL                    `noun`    {- <tadrI^g> -}        [ ['g','r','a','d','a','t','i','o','n'], ['c','l','a','s','s','i','f','i','c','a','t','i','o','n'], ['c','a','t','e','g','o','r','i','z','a','t','i','o','n'] ]
                               `plural`     TaFCIL |< At,
 
-    TaFCIL |< Iy              `adj`     {- <tadrI^gIy> -}      [ ['g','r','a','d','u','a','l'], ['p','r','o','g','r','e','s','s','i','v','e'], ['g','r','a','d','u','a','l','l','y'], unwords [ ['i','n'], ['s','t','a','g','e','s'] ], unwords [ ['s','t','e','p'], ['b','y'], ['s','t','e','p'] ] ],
+    TaFCIL |< Iy              `adj`     {- <tadrI^gIy> -}      [ ['g','r','a','d','u','a','l'], ['p','r','o','g','r','e','s','s','i','v','e'], unwords [ ['i','n'], ['s','t','a','g','e','s'] ], unwords [ ['s','t','e','p'], ['b','y'], ['s','t','e','p'] ] ],
 
     HiFCAL                    `noun`    {- <'idrA^g> -}        [ ['i','n','s','e','r','t','i','o','n'], ['r','e','g','i','s','t','r','a','t','i','o','n'], ['r','e','c','o','r','d','i','n','g'] ]
                               `plural`     HiFCAL |< At,

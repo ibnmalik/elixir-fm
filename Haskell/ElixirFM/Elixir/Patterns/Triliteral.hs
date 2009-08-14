@@ -877,9 +877,6 @@ data PatternT =
 
                                                         |   IFC
 
-                                                        |   FiCt
-                                                        |   FuCt
-
         |   FaCAL                                       |   FaCA'
                                                         |   FaCAw
                                                         |   FaCAy

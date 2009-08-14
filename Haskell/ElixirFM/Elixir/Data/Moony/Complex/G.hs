@@ -643,8 +643,6 @@ cluster_35  = cluster
 
     FiCL |< Iy                `adj`     {- <^giddIy> -}        [ ['s','e','r','i','o','u','s'], ['e','a','r','n','e','s','t'] ],
 
-    FiCL |< Iy |<< "aN"       `adj`     {- <^giddIyaN> -}      [ ['s','e','r','i','o','u','s','l','y'], unwords [ ['i','n'], ['e','a','r','n','e','s','t'] ] ],
-
     FiCL |< Iy |< aT          `noun`    {- <^giddIyaT> -}      [ ['s','e','r','i','o','u','s','n','e','s','s'], ['e','a','r','n','e','s','t','n','e','s','s'] ],
 
     FiCL |< aT                `noun`    {- <^giddaT> -}        [ ['n','e','w','n','e','s','s'] ],
@@ -1215,9 +1213,7 @@ cluster_60  = cluster
     FaCY                      `verb`    {- <^galY> -}          [ ['p','o','l','i','s','h'], ['b','u','r','n','i','s','h'] ]
                               `imperf`     FCI,
 
-    FaCIL                     `adj`     {- <^galIy> -}         [ ['c','l','e','a','r'], ['o','b','v','i','o','u','s'] ],
-
-    FaCIL |<< "aN"            `adj`     {- <^galIyaN> -}       [ ['o','b','v','i','o','u','s','l','y'], ['e','v','i','d','e','n','t','l','y'] ],
+    FaCIL                     `adj`     {- <^galIy> -}         [ ['c','l','e','a','r'], ['o','b','v','i','o','u','s'], ['e','v','i','d','e','n','t'] ],
 
     FaCIL |< aT               `noun`    {- <^galIyaT> -}       [ unwords [ ['s','u','r','e'], ['t','h','i','n','g'] ], unwords [ ['p','l','a','i','n'], ['f','a','c','t'] ] ]
                               `plural`     FaCALY,

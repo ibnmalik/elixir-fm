@@ -96,7 +96,7 @@ cluster_6   = cluster
 
     FuCL                      `noun`    {- <.hubb> -}          [ ['l','o','v','e'], ['a','f','f','e','c','t','i','o','n'] ],
 
-    FuCL |< Iy                `adj`     {- <.hubbIy> -}        [ ['a','m','i','c','a','b','l','e'], ['a','m','i','c','a','b','l','y'] ],
+    FuCL |< Iy                `adj`     {- <.hubbIy> -}        [ ['a','m','i','c','a','b','l','e'] ],
 
     FaCAL                     `noun`    {- <.habAb> -}         [ ['g','o','a','l'], ['a','i','m'] ],
 
