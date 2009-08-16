@@ -2131,23 +2131,25 @@ cluster_97  = cluster
 
 cluster_98  = cluster
 
- |> ['s','a','y','k','U','r','A','n'] <| [
-
-    _____                     `noun`    {- <saykUrAn> -}       [ ['h','e','n','b','a','n','e'] ] ]
-
-
-cluster_99  = cluster
-
  |> ['s','t','U','b','w','U','t','^','s'] <| [
 
     _____                     `noun`    {- <stUbwUt^s> -}      [ ['s','t','o','p','w','a','t','c','h'] ] ]
 
 
-cluster_100 = cluster
+cluster_99  = cluster
 
  |> ['s','t','U','d','i','y','U'] <| [
 
     _____                     `noun`    {- <stUdiyU> -}        [ ['s','t','u','d','i','o'] ] ]
+
+
+cluster_100 = cluster
+
+ |> ['s','w','I','d'] <| [
+
+    _____                     `xtra`    {- <swId> -}           [ ['S','w','e','d','e','n'] ],
+
+    _____ |< Iy               `adj`     {- <swIdIy> -}         [ ['S','w','e','d','i','s','h'] ] ]
 
 
 section = [ cluster_1,

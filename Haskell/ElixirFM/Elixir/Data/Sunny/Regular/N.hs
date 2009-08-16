@@ -1322,10 +1322,23 @@ cluster_67  = cluster
 
     FaCL                      `noun`    {- <.tals> -}          [ ['e','f','f','a','c','e','m','e','n','t'], ['o','b','l','i','t','e','r','a','t','i','o','n'] ],
 
-    FiCL                      `noun`    {- <.tils> -}          [ ['e','f','f','a','c','e','d'], ['o','b','l','i','t','e','r','a','t','e','d'] ]
+    FiCL                      `adj`     {- <.tils> -}          [ ['e','f','f','a','c','e','d'], ['o','b','l','i','t','e','r','a','t','e','d'] ]
                               `plural`     HaFCAL,
 
-    FaCAL                     `noun`    {- <.talAs> -}         [ ['T','l','a','s'] ] ]
+    FaCAL                     `noun`    {- <.talAs> -}         [ ['T','l','a','s'] ],
+
+    HaFCaL                    `noun`    {- <'a.tlas> -}        [ ['A','t','l','a','s'] ]
+                              `plural`     HaFACiL,
+
+    HaFCaL |< Iy              `adj`     {- <'a.tlasIy> -}      [ ['A','t','l','a','n','t','i','c'] ],
+
+    HaFCaL                    `noun`    {- <'a.tlas> -}        [ ['s','a','t','i','n'] ],
+
+    HaFCaL                    `noun`    {- <'a.tlas> -}        [ ['a','t','l','a','s'], ['m','a','p'] ]
+                              `plural`     HaFACiL,
+
+    FayCaLAn                  `noun`    {- <.taylasAn> -}      [ ['s','h','a','w','l'] ]
+                              `plural`     FayACiL |< aT ]
 
 
 cluster_68  = cluster

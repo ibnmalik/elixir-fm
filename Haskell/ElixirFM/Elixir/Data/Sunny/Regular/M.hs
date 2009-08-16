@@ -383,7 +383,10 @@ cluster_16  = cluster
  |> ".s l ^g" <| [
 
     FuCCaL                    `noun`    {- <.sulla^g> -}       [ ['c','o','c','o','o','n'] ]
-                              `plural`     FuCCaL |< At ]
+                              `plural`     FuCCaL |< At,
+
+    FawCaLAn                  `noun`    {- <.sawla^gAn> -}     [ ['s','c','e','p','t','e','r'], unwords [ ['g','o','l','f'], ['c','l','u','b'] ], unwords [ ['p','o','l','o'], ['m','a','l','l','e','t'] ] ]
+                              `plural`     FawACiL |< aT ]
 
 
 cluster_17  = cluster

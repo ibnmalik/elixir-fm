@@ -950,6 +950,10 @@ data PatternT =
         |   FawCaL
         |   FayCaL
 
+        |   FawCaLAn
+        |   FayCaLAn
+        |   FayCuLAn
+
         |   FawACiL                     |   FawA'iL     |   FawACI      |   FawACL      |   FawA'I
         |   FayACiL
 
@@ -1016,7 +1020,6 @@ data PatternT =
         |   FaCULAn
 
         |   FACiLAn
-        |   FuCuLLAn
 
         |   FaCLUn
         |   FiCLUn
@@ -1080,6 +1083,8 @@ data PatternT =
         |   FiCaLL
         |   FiCiLL
         |   FuCuLL
+
+        |   FuCuLLAn
 
         |   FaCALIL
 

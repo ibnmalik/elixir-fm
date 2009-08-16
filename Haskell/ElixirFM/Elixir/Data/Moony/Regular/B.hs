@@ -1175,7 +1175,7 @@ cluster_88  = cluster
     _____                     `noun`    {- <bA^sA> -}          [ ['p','a','s','h','a'] ]
                               `plural`     _____ |< At,
 
-    _____ |< Iy               `adj`     {- <bA^sAwIy> -}       [ unwords [ ['r','a','n','k'], ['o','f'], ['p','a','s','h','a'] ] ] ]
+    _____ |< Iy               `adj`     {- <bA^sawIy> -}       [ unwords [ ['r','a','n','k'], ['o','f'], ['p','a','s','h','a'] ] ] ]
 
 
 cluster_89  = cluster

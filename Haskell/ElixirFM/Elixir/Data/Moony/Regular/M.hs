@@ -1844,28 +1844,26 @@ cluster_84  = cluster
 
     _____ |<< "A"             `noun`    {- <faransA> -}        [ ['F','r','a','n','c','e'] ],
 
-    _____ |<< "A'" |< Iy      `noun`    {- <faransA'Iy> -}     [ ['F','r','e','n','c','h'] ]
-                              `plural`     _____ |<< "A'" |< Iy |< Un
-                           
-    `derives` otherwise,
-
-    _____ |<< "A'" |< Iy      `adj`     {- <faransA'Iy> -}     [ ['F','r','e','n','c','h'] ],
-
     _____ |< Iy               `noun`    {- <faransIy> -}       [ ['F','r','e','n','c','h'] ]
                               `plural`     _____ |< Iy |< Un
                            
     `derives` otherwise,
 
-    _____ |< Iy               `adj`     {- <faransIy> -}       [ ['F','r','e','n','c','h'] ] ]
+    _____ |< Iy               `adj`     {- <faransIy> -}       [ ['F','r','e','n','c','h'] ],
 
- |> ['f','a','r','a','n','s','A'] <| [
-
-    _____ |< Iy               `noun`    {- <faransAwIy> -}     [ ['F','r','e','n','c','h'] ]
-                              `plural`     _____ |< Iy |< Un
+    _____ |<< "A" |< Iy       `noun`    {- <faransawIy> -}     [ ['F','r','e','n','c','h'] ]
+                              `plural`     _____ |<< "A" |< Iy |< Un
                            
     `derives` otherwise,
 
-    _____ |< Iy               `adj`     {- <faransAwIy> -}     [ ['F','r','e','n','c','h'] ] ]
+    _____ |<< "A" |< Iy       `adj`     {- <faransawIy> -}     [ ['F','r','e','n','c','h'] ],
+
+    _____ |<< "Aw" |< Iy      `noun`    {- <faransAwIy> -}     [ ['F','r','e','n','c','h'] ]
+                              `plural`     _____ |<< "Aw" |< Iy |< Un
+                           
+    `derives` otherwise,
+
+    _____ |<< "Aw" |< Iy      `adj`     {- <faransAwIy> -}     [ ['F','r','e','n','c','h'] ] ]
 
 
 cluster_85  = cluster

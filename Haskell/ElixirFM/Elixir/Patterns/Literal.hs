@@ -34,14 +34,7 @@ instance Morphing PatternL PatternL where
 
 instance Template PatternL where
 
-    interlocks _ s r _ = (modify . concat) r
-
-        where modify x | (not . null) s && isSuffixOf "A" x =
-
-                         case last s of Iy -> x ++ "w"
-                                        _  -> x
-
-                       | otherwise          = x
+    interlocks _ s r _ = concat r
 
 
 instance Rules PatternL where

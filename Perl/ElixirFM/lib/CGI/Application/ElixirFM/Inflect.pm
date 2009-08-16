@@ -61,7 +61,7 @@ sub pretty_lookup_data {
 
     my $q = $_[1];
 
-    my $root = join " ", (decode "zdmg", $_->{'root'}), (decode "arabtex", ElixirFM::cling($_->{'root'}));
+    my $root = join " ", (decode "zdmg", $_->{'root'}), (decode "arabtex", ElixirFM::cling($_->{'root'}, "|"));
 
     my ($clip) = $data->{'clip'} =~ /^\( (-?[1-9][0-9]*) , (?: Nothing | Just \[ ([^\]]*) \] ) \)$/x;
 
@@ -71,7 +71,7 @@ sub pretty_lookup_data {
                      $q->Tr($q->td({-class => "root"}, escape $root),
                             $q->td({-class => "button"},
                                    $q->a({-title => "lookup all entries under this root",
-                                          -href => 'index.fcgi?mode=lookup' . '&text=' . $clip}, "Lookup"))
+                                          -href => 'index.fcgi?mode=lookup' . '&text=' . (escape decode "arabtex", $_->{'root'})}, "Lookup"))
                 ));
 }
 

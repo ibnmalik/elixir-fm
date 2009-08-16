@@ -58,11 +58,12 @@ cluster_6   = cluster
 
  |> ['b','A','b','A'] <| [
 
-    _____                     `noun`    {- <bAbA> -}           [ ['P','o','p','e'] ],
+    _____                     `noun`    {- <bAbA> -}           [ ['P','o','p','e'] ]
+                              `plural`     _____ |< At,
 
-    _____ |<< "Iy"            `adj`     {- <bAbawIy> -}        [ ['p','a','p','a','l'] ],
+    _____ |< Iy               `adj`     {- <bAbawIy> -}        [ ['p','a','p','a','l'] ],
 
-    _____ |<< "Iy" |< aT      `noun`    {- <bAbawIyaT> -}      [ ['p','a','p','a','c','y'] ] ]
+    _____ |< Iy |< aT         `noun`    {- <bAbawIyaT> -}      [ ['p','a','p','a','c','y'] ] ]
 
 
 cluster_7   = cluster

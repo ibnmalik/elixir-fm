@@ -417,9 +417,11 @@ cluster_22  = cluster
     FaCL |< aT                `noun`    {- <sakraT> -}         [ ['i','n','t','o','x','i','c','a','t','i','o','n'] ]
                               `plural`     FaCaL |< At,
 
-    FaCLAn                    `adj`     {- <sakrAn> -}         [ ['i','n','t','o','x','i','c','a','t','e','d'], ['d','r','u','n','k','a','r','d','s'] ]
+    FaCLAn                    `adj`     {- <sakrAn> -}         [ ['i','n','t','o','x','i','c','a','t','e','d'], ['d','r','u','n','k','a','r','d'] ]
                               `plural`     FaCALY
                               `femini`     FaCLY,
+
+    FayCuLAn                  `noun`    {- <saykurAn> -}       [ ['h','e','n','b','a','n','e'] ],
 
     FiCCIL                    `noun`    {- <sikkIr> -}         [ unwords [ ['h','e','a','v','y'], ['d','r','i','n','k','e','r'] ] ],
 
@@ -430,9 +432,8 @@ cluster_22  = cluster
 
     FaCCaL                    `verb`    {- <sakkar> -}         [ unwords [ ['p','u','t'], ['s','u','g','a','r'], ['o','n'] ] ],
 
-    FuCCaL                    `noun`    {- <sukkar> -}         [ ['s','u','g','a','r'] ],
-
-    FaCACiL                   `noun`    {- <sakAkir> -}        [ ['c','o','n','f','e','c','t','i','o','n','e','r','y'] ],
+    FuCCaL                    `noun`    {- <sukkar> -}         [ ['s','u','g','a','r'], ['c','o','n','f','e','c','t','i','o','n','e','r','y'] ]
+                              `plural`     FaCACiL,
 
     FuCCaL |< Iy              `noun`    {- <sukkarIy> -}       [ ['d','i','a','b','e','t','e','s'] ],
 

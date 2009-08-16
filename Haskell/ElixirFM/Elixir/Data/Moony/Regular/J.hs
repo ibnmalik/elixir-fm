@@ -2308,6 +2308,8 @@ cluster_97  = cluster
 
     FaCaL |< Iy               `adj`     {- <`asalIy> -}        [ unwords [ ['h','o','n','e','y'], "-", ['l','i','k','e'] ], ['m','e','l','l','i','f','e','r','o','u','s'] ],
 
+    FayCaLAn                  `noun`    {- <`aysalAn> -}       [ ['h','y','a','c','i','n','t','h'] ],
+
     FaCCAL                    `noun`    {- <`assAl> -}         [ ['b','e','e','k','e','e','p','e','r'] ]
                               `plural`     FaCCAL |< Un
                            
