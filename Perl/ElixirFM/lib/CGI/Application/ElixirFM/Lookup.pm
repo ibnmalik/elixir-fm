@@ -63,13 +63,13 @@ sub pretty_lookup_data {
 
     my $clip = '(' . $_[2]->[0] . ',Nothing)';
 
-    my $root = join " ", (decode "zdmg", $_->{'root'}), (decode "arabtex", ElixirFM::cling($_->{'root'}, "|"));
+    my $root = decode "arabtex", ElixirFM::cling($_->{'root'}, "|");
 
     return $q->table({-cellspacing => 0, -class => "nest"},
-                     $q->Tr($q->td({-class => "root"}, escape $root),
+                     $q->Tr($q->td({-class => "root"}, escape join " ", (decode "zdmg", $_->{'root'}), $root),
                             $q->td({-class => "button"},
                                    $q->a({-title => "lookup all entries under this root",
-                                          -href => 'index.fcgi?mode=lookup' . '&text=' . (escape decode "arabtex", $_->{'root'})}, "Lookup"))
+                                          -href => 'index.fcgi?mode=lookup' . '&text=' . (escape join " ", split "", $root)}, "Lookup"))
                 ));
 }
 

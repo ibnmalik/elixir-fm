@@ -664,7 +664,7 @@ alike' 0x0626 y | y > 0x0622 && y < 0x0627 || y == 0x0621 = True
 -- alike' 0x0649 y | y `elem` [0x0649, 0x064A] = True
 -- alike' 0x064A y | y `elem` [0x064A, 0x0649] = True
 
-alike' 0x0629 y | y `elem` [0x0629, 0x0647] = True
+-- alike' 0x0629 y | y `elem` [0x0629, 0x0647] = True
 
 alike' x y = x == y
 

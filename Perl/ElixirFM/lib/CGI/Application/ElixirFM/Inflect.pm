@@ -61,17 +61,17 @@ sub pretty_lookup_data {
 
     my $q = $_[1];
 
-    my $root = join " ", (decode "zdmg", $_->{'root'}), (decode "arabtex", ElixirFM::cling($_->{'root'}, "|"));
+    my $root = decode "arabtex", ElixirFM::cling($_->{'root'}, "|");
 
     my ($clip) = $data->{'clip'} =~ /^\( (-?[1-9][0-9]*) , (?: Nothing | Just \[ ([^\]]*) \] ) \)$/x;
 
     $clip = "($clip,Nothing)";
 
     return $q->table({-cellspacing => 0, -class => "nest"},
-                     $q->Tr($q->td({-class => "root"}, escape $root),
+                     $q->Tr($q->td({-class => "root"}, escape join " ", (decode "zdmg", $_->{'root'}), $root),
                             $q->td({-class => "button"},
                                    $q->a({-title => "lookup all entries under this root",
-                                          -href => 'index.fcgi?mode=lookup' . '&text=' . (escape decode "arabtex", $_->{'root'})}, "Lookup"))
+                                          -href => 'index.fcgi?mode=lookup' . '&text=' . (escape join " ", split "", $root)}, "Lookup"))
                 ));
 }
 

@@ -332,7 +332,7 @@ harmony (ParaNum  _) 	                                    _	= [Nothing]
 
 harmony (ParaAdv  _) 	_	= [Nothing]
 
-harmony (ParaPrep _) 	"la"	=          [Just ("S-------2-", (\ x -> euphony "la" x && x /= "nI"))]
+harmony (ParaPrep _) 	"la"	= [Nothing, Just ("S-------2-", (\ x -> euphony "la" x && x /= "nI"))]
 harmony (ParaPrep _) 	"li"	= [Nothing, Just ("[NAQ]-------2-", const True),
                                             Just ("PI------2-", const True),    -- in modern language
                                             Just ("D---------", const True)]
@@ -732,7 +732,16 @@ instance Resolve [UPoint] where
 
                     _                       ->  []
 
-              tokens' x = tokens'''' x ++ case reverse x of
+              tokens' x = tokens'''''' x ++ case reverse x of
+
+                    'Y' : y     ->  tokens'''''' (reverse y ++ "y")
+
+                    'y' : y     ->  tokens''''   (reverse y ++ "Y")
+                    'h' : y     ->  tokens''''   (reverse y ++ "p")
+
+                    _           ->  []
+
+              tokens'''''' x = tokens'''' x ++ case reverse x of
 
                     'u' : 'h' : y           ->  [ y' ++ ["hu"]  | y' <- tokens (reverse y) ]
                     'i' : 'h' : y           ->  [ y' ++ ["hi"]  | y' <- tokens (reverse y) ]
