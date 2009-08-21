@@ -11,12 +11,22 @@ lexicon = include section
 
 cluster_1   = cluster
 
+ |> "' s f n" <| [
+
+    KiRDIS                    `noun`    {- <'isfIn> -}         [ ['w','e','d','g','e'] ]
+                              `plural`     KaRADIS,
+
+    KiRDIS |< Iy              `adj`     {- <'isfInIy> -}       [ unwords [ ['w','e','d','g','e'], "-", ['l','i','k','e'] ], ['c','u','n','e','i','f','o','r','m'] ] ]
+
+
+cluster_2   = cluster
+
  |> ['\'','a','s','a','f','A','h'] <| [
 
     _____                     `intj`    {- <'asafAh> -}        [ unwords [ ['t','o','o'], ['b','a','d'], "!" ], unwords [ ['h','o','w'], ['u','n','f','o','r','t','u','n','a','t','e'], "!" ] ] ]
 
 
-cluster_2   = cluster
+cluster_3   = cluster
 
  |> "' s q f" <| [
 
@@ -28,7 +38,7 @@ cluster_2   = cluster
     KuRDuS |< Iy |< aT        `noun`    {- <'usqufIyaT> -}     [ ['b','i','s','h','o','p','r','i','c'], ['e','p','i','s','c','o','p','a','t','e'] ] ]
 
 
-cluster_3   = cluster
+cluster_4   = cluster
 
  |> "' s q l" <| [
 
@@ -36,7 +46,7 @@ cluster_3   = cluster
                               `plural`     KaRADIS ]
 
 
-cluster_4   = cluster
+cluster_5   = cluster
 
  |> "' s k l" <| [
 
@@ -44,7 +54,7 @@ cluster_4   = cluster
                               `plural`     KaRADiS ]
 
 
-cluster_5   = cluster
+cluster_6   = cluster
 
  |> "' s l" <| [
 
@@ -66,7 +76,7 @@ cluster_5   = cluster
     MuFaCCaL                  `adj`     {- <mu'assal> -}       [ ['p','o','i','n','t','e','d'], ['t','a','p','e','r','e','d'] ] ]
 
 
-cluster_6   = cluster
+cluster_7   = cluster
 
  |> "' s l m" <| [
 
@@ -79,21 +89,21 @@ cluster_6   = cluster
     MuKaRDaS                  `adj`     {- <mu'aslam> -}       [ ['I','s','l','a','m','i','c','i','z','e','d'], ['I','s','l','a','m','i','f','i','e','d'] ] ]
 
 
-cluster_7   = cluster
+cluster_8   = cluster
 
  |> "' s m" <| [
 
     FuCAL |< aT               `noun`    {- <'usAmaT> -}        [ ['U','s','a','m','a'], ['O','s','a','m','a'] ] ]
 
 
-cluster_8   = cluster
+cluster_9   = cluster
 
  |> "' s m r" <| [
 
     KaRDaS |< aT              `noun`    {- <'asmaraT> -}       [ ['A','s','m','a','r','a'] ] ]
 
 
-cluster_9   = cluster
+cluster_10  = cluster
 
  |> "' s n" <| [
 
@@ -109,22 +119,13 @@ cluster_9   = cluster
     MutaFaCCiL                `adj`     {- <muta'assin> -}     [ ['p','u','t','r','i','d'], ['b','r','a','c','k','i','s','h'] ] ]
 
 
-cluster_10  = cluster
+cluster_11  = cluster
 
  |> "' s w r" <| [
 
     KiRDAS                    `noun`    {- <'iswAr> -}         [ ['b','r','a','c','e','l','e','t'] ]
                               `plural`     KaRADiS |< aT
                               `plural`     KuRDAS ]
-
-
-cluster_11  = cluster
-
- |> ['\'','A','s'] <| [
-
-    _____ |< iyA              `noun`    {- <'AsiyA> -}         [ ['A','s','i','a'] ],
-
-    _____ |< iyA |< Iy        `adj`     {- <'AsiyawIy> -}      [ ['A','s','i','a','n'], ['A','s','i','a','t','i','c'] ] ]
 
 
 cluster_12  = cluster

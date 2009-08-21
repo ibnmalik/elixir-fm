@@ -905,9 +905,9 @@ cluster_48  = cluster
 
     FaCiL                     `adj`     {- <salis> -}          [ ['t','r','a','c','t','a','b','l','e'], ['f','l','e','x','i','b','l','e'] ],
 
-    FaCAL |< aT               `noun`    {- <salAsaT> -}        [ ['m','o','o','t','h','n','e','s','s'], ['f','l','e','x','i','b','i','l','i','t','y'], ['t','r','a','c','t','a','b','i','l','i','t','y'] ],
+    FaCAL |< aT               `noun`    {- <salAsaT> -}        [ ['f','l','e','x','i','b','i','l','i','t','y'], ['t','r','a','c','t','a','b','i','l','i','t','y'], ['s','m','o','o','t','h','n','e','s','s'] ],
 
-    HaFCaL                    `adj`     {- <'aslas> -}         [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['t','r','a','c','t','a','b','l','e'] ], unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['f','l','e','x','i','b','l','e'] ] ] ]
+    HaFCaL                    `adj`     {- <'aslas> -}         [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['t','r','a','c','t','a','b','l','e'] ], unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['f','l','e','x','i','b','l','e'] ], unwords [ ['s','m','o','o','t','h','e','r'], "/", ['s','m','o','o','t','h','e','s','t'] ] ] ]
 
 
 cluster_49  = cluster

@@ -1957,8 +1957,6 @@ cluster_78  = cluster
 
     FACY                      `verb`    {- <`A.tY> -}          [ ['p','u','r','s','u','e'], ['p','r','a','c','t','i','c','e'] ],
 
-    MiFCA'                    `adj`     {- <mi`.tA'> -}        [ ['g','e','n','e','r','o','u','s'], ['p','r','o','d','u','c','t','i','v','e'] ],
-
     HaFCY                     `verb`    {- <'a`.tY> -}         [ ['g','i','v','e'], ['p','r','o','v','i','d','e'] ],
 
     TaFACY                    `verb`    {- <ta`A.tY> -}        [ unwords [ ['b','e'], ['i','n','v','o','l','v','e','d'], ['w','i','t','h'] ], ['u','n','d','e','r','t','a','k','e'] ],
@@ -1998,13 +1996,24 @@ cluster_78  = cluster
     IstiFCA'                  `noun`    {- <isti`.tA'> -}      [ ['b','e','g','g','i','n','g'], ['m','e','n','d','a','c','i','t','y'] ]
                               `plural`     IstiFCA' |< At,
 
-    MuFCI                     `adj`     {- <mu`.tI> -}         [ ['d','o','n','o','r'], ['g','i','v','i','n','g'] ],
+    MiFCA'                    `adj`     {- <mi`.tA'> -}        [ ['g','e','n','e','r','o','u','s'], ['p','r','o','d','u','c','t','i','v','e'] ],
 
-    MuFCY                     `noun`    {- <mu`.tY> -}         [ ['g','i','v','e','n'] ],
+    MuFCI                     `adj`     {- <mu`.tI> -}         [ ['g','i','v','i','n','g'] ],
 
-    MuFCY |< At               `noun`    {- <mu`.tayAt> -}      [ unwords [ ['g','i','v','e','n'], ['f','a','c','t','s'] ], ['d','a','t','a'], ['e','l','e','m','e','n','t','s'] ],
+    MuFCI                     `noun`    {- <mu`.tI> -}         [ ['d','o','n','o','r'] ]
+                              `plural`     MuFCI |< Un
+                           
+    `derives` otherwise,
 
-    MutaFACI                  `adj`     {- <muta`A.tI> -}      [ ['a','d','d','i','c','t'], unwords [ ['h','a','b','i','t','u','a','l'], ['u','s','e','r'] ] ],
+    MuFCY                     `adj`     {- <mu`.tY> -}         [ ['g','i','v','e','n'] ],
+
+    MuFCY                     `noun`    {- <mu`.tY> -}         [ unwords [ ['g','i','v','e','n'], ['f','a','c','t'] ], ['d','a','t','a'], ['e','l','e','m','e','n','t'] ]
+                              `plural`     MuFCY |< At,
+
+    MutaFACI                  `noun`    {- <muta`A.tI> -}      [ ['a','d','d','i','c','t'], unwords [ ['h','a','b','i','t','u','a','l'], ['u','s','e','r'] ] ]
+                              `plural`     MutaFACI |< Un
+                           
+    `derives` otherwise,
 
     MustaFCI                  `noun`    {- <musta`.tI> -}      [ ['b','e','g','g','a','r'], ['m','e','n','d','i','c','a','n','t'] ]
                               `plural`     MustaFCI |< Un

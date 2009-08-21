@@ -333,20 +333,17 @@ harmony (ParaNum  _) 	                                    _	= [Nothing]
 harmony (ParaAdv  _) 	_	= [Nothing]
 
 harmony (ParaPrep _) 	"la"	= [Nothing, Just ("S-------2-", (\ x -> euphony "la" x && x /= "nI"))]
-harmony (ParaPrep _) 	"li"	= [Nothing, Just ("[NAQ]-------2-", const True),
-                                            Just ("PI------2-", const True),    -- in modern language
-                                            Just ("D---------", const True)]
+harmony (ParaPrep _) 	"li"	= [Nothing, Just ("[NAQDXYZ]-------2-", const True),
+                                            Just ("PI------2-", const True)]    -- in modern language
 harmony (ParaPrep _) 	"ka"	= [Nothing, Just ("S-------1-", const True),
-                                            Just ("[NAQ]-------2-", const True),
-                                            Just ("PI------2-", const True),    -- in modern language
-                                            Just ("D---------", const True)]
+                                            Just ("[NAQDXYZ]-------2-", const True),
+                                            Just ("PI------2-", const True)]    -- in modern language
 harmony (ParaPrep _) 	y
 
     | y `elem` ["`an", "min"]   = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "|I"))]
     | y `elem` ["bi", "ta"]     = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "nI")),
-                                            Just ("[NAQ]-------2-", const True),
-                                            Just ("PI------2-", const True),    -- in modern language
-                                            Just ("D---------", const True)]
+                                            Just ("[NAQDXYZ]-------2-", const True),
+                                            Just ("PI------2-", const True)]    -- in modern language
     | otherwise                 = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "nI"))]
 
 harmony (ParaConj _) 	"li"	    = [Nothing, Just ("VIS-------", const True)]
@@ -358,7 +355,9 @@ harmony (ParaConj _)    y
 
 harmony (ParaPart _) 	"sa"	= [Nothing, Just ("VII-------", const True)]
 harmony (ParaPart _) 	"li"	= [Nothing, Just ("VIJ-------", const True)]
-harmony (ParaPart _) 	y	    = [Nothing, Just ("V---------", const True),
+harmony (ParaPart _) 	"la"	= [Nothing, Just ("[VNAQDPFIXYZ]---------", const True)]                    -- excluding "[SC]---------"
+harmony (ParaPart _) 	"'IyA"	= [Nothing, Just ("SP------2-", (\ x -> euphony "'IyA" x && x /= "nI"))]
+harmony (ParaPart _) 	y	    = [Nothing, Just ("[VNAQDXYZ]-------4-", const True),                       -- excluding "[SCPFI]---------"
                                             Just ("SP------4-", euphony y)]
 
 harmony (ParaIntj _) 	y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
@@ -734,12 +733,15 @@ instance Resolve [UPoint] where
 
               tokens' x = tokens'''''' x ++ case reverse x of
 
-                    'Y' : y     ->  tokens'''''' (reverse y ++ "y")
+                    'Y' : y                         ->  tokens'''''' (reverse y ++ "y")
 
-                    'y' : y     ->  tokens''''   (reverse y ++ "Y")
-                    'h' : y     ->  tokens''''   (reverse y ++ "p")
+                    'y' : y                         ->  [[reverse y ++ "Y"]]
 
-                    _           ->  []
+                    'h' : y                         ->  tokens''''' y ""
+
+                    'F' : x : y | x `elem` "AY"     ->  [[reverse y ++ "F" ++ [x]]]
+
+                    _                               ->  []
 
               tokens'''''' x = tokens'''' x ++ case reverse x of
 

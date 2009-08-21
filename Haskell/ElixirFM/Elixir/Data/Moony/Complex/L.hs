@@ -725,10 +725,9 @@ cluster_24  = cluster
 
     IstiFCAL |< Iy            `adj`     {- <istiqlAlIy> -}     [ ['i','n','d','e','p','e','n','d','e','n','t'], ['a','u','t','o','n','o','m','o','u','s'] ],
 
-    MuFiCL                    `noun`    {- <muqill> -}         [ ['d','e','s','t','i','t','u','t','e'], ['p','o','o','r'] ]
-                              `plural`     MuFiCL |< Un
-                           
-    `derives` otherwise,
+    IstiFCAL |< Iy |< aT      `noun`    {- <istiqlAlIyaT> -}   [ ['i','n','d','e','p','e','n','d','e','n','c','e'] ],
+
+    MuFiCL                    `adj`     {- <muqill> -}         [ ['d','e','s','t','i','t','u','t','e'], ['p','o','o','r'] ],
 
     MustaFiCL                 `adj`     {- <mustaqill> -}      [ ['i','n','d','e','p','e','n','d','e','n','t'], ['a','u','t','o','n','o','m','o','u','s'] ] ]
 

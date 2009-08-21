@@ -312,7 +312,7 @@ sub main ($) {
     $r .= $q->p("ElixirFM can process words of", $q->a({-href => 'http://en.wikipedia.org/wiki/Dictionary_of_Modern_Written_Arabic'},
                 "Modern Written Arabic"), "using four different modes.", "Here, you can learn how to use these modes for various purposes.");
 
-    $r .= $q->h2('Resolve');
+    $r .= $q->h2($q->a({-href => 'index.fcgi?mode=resolve'}, 'Resolve'));
 
     $r .= $q->p("This mode provides tokenization and morphological analysis of the inserted text,",
                 "even if you omit some symbols or do not spell everything correctly.");
@@ -321,21 +321,21 @@ sub main ($) {
 
     # $r .= $q->p("You can check the 'Fuzzy Notation' option due to which the resolution of the input words is less strict.");
 
-    $r .= $q->h2('Inflect');
+    $r .= $q->h2($q->a({-href => 'index.fcgi?mode=inflect'}, 'Inflect'));
 
     $r .= $q->p("This mode lets you inflect words into the forms required by context.",
                 "You only need to define the grammatical parameters of the expected word forms.");
 
     $r .= $q->p("You can either enter natural language descriptions, or you can specify the parameters using the positional morphological tags.");
 
-    $r .= $q->h2('Derive');
+    $r .= $q->h2($q->a({-href => 'index.fcgi?mode=derive'}, 'Derive'));
 
     $r .= $q->p("This mode lets you derive words of similar meaning but different grammatical category.",
                 "You only need to tell the desired grammatical categories.");
 
     $r .= $q->p("You can either enter natural language descriptions, or you can specify the parameters using the positional morphological tags.");
 
-    $r .= $q->h2('Lookup');
+    $r .= $q->h2($q->a({-href => 'index.fcgi?mode=lookup'}, 'Lookup'));
 
     $r .= $q->p("This mode can lookup lexical entries by the citation form and nests of entries by the root,",
                 "and lets you search also in the English translations.");

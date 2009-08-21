@@ -1098,7 +1098,7 @@ cluster_76  = cluster
 
  |> ['\'','a','l','l','A'] <| [
 
-    _____                     `conj`    {- <'allA> -}          [ unwords [ "(", ['i','n'], ['o','r','d','e','r'], ")", ['n','o','t'], ['t','o'] ] ] ]
+    _____                     `conj`    {- <'allA> -}          [ unwords [ ['n','o','t'], ['t','o'] ] ] ]
 
 
 cluster_77  = cluster
