@@ -1174,7 +1174,7 @@ cluster_58  = cluster
 
  |> ['w'] <| [
 
-    _____                     `xtra`    {- <w> -}              [ "W", ['6','t','h'] ] ]
+    _____                     `ynit`    {- <w> -}              [ "W", ['6','t','h'] ] ]
 
 
 cluster_59  = cluster
@@ -1681,11 +1681,14 @@ cluster_84  = cluster
     HICAL                     `noun`    {- <'I^gAd> -}         [ ['d','i','s','c','o','v','e','r','y'], ['f','i','n','d','i','n','g'] ]
                               `plural`     HICAL |< At,
 
-    FACiL                     `noun`    {- <wA^gid> -}         [ ['f','i','n','d','i','n','g'] ],
+    FACiL                     `adj`     {- <wA^gid> -}         [ ['f','i','n','d','i','n','g'] ],
+
+    MaFCUL                    `noun`    {- <maw^gUd> -}        [ unwords [ ['e','v','e','r','y','t','h','i','n','g'], ['i','n'], ['e','x','i','s','t','e','n','c','e'] ], ['a','s','s','e','t'], ['s','t','o','c','k'] ]
+                              `plural`     MaFCUL |< At,
 
     MaFCUL                    `adj`     {- <maw^gUd> -}        [ ['p','r','e','s','e','n','t'], ['e','x','i','s','t','i','n','g'], ['f','o','u','n','d'] ],
 
-    MUCiL                     `noun`    {- <mU^gid> -}         [ ['o','r','i','g','i','n','a','t','o','r'] ]
+    MUCiL                     `noun`    {- <mU^gid> -}         [ ['o','r','i','g','i','n','a','t','o','r'], ['c','r','e','a','t','o','r'], ['a','u','t','h','o','r'] ]
                               `plural`     MUCiL |< Un
                            
     `derives` otherwise,

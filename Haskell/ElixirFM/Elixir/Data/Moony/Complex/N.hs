@@ -1057,7 +1057,8 @@ cluster_58  = cluster
 
     FaCL                      `noun`    {- <maw^g> -}          [ ['w','a','v','e'] ]
                               `plural`     HaFCAL
-                              `plural`     FaCL |< At,
+                           
+    `derives` otherwise,
 
     FaCCAL                    `noun`    {- <mawwA^g> -}        [ ['u','n','d','u','l','a','t','i','n','g'] ],
 

@@ -176,7 +176,7 @@ cluster_24  = cluster
 
  |> ['n'] <| [
 
-    _____                     `xtra`    {- <n> -}              [ "N", ['1','4','t','h'] ] ]
+    _____                     `ynit`    {- <n> -}              [ "N", ['1','4','t','h'] ] ]
 
 
 cluster_25  = cluster

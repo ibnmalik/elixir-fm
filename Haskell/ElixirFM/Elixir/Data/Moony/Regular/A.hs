@@ -17,7 +17,7 @@ cluster_1   = cluster
 
  |> ['b'] <| [
 
-    _____                     `xtra`    {- <b> -}              [ "B", ['2','n','d'], "P" ] ]
+    _____                     `ynit`    {- <b> -}              [ "B", ['2','n','d'], "P" ] ]
 
 
 cluster_2   = cluster

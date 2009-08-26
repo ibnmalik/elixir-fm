@@ -666,6 +666,8 @@ alike' 0x0626 y | y > 0x0622 && y < 0x0627 || y == 0x0621 = True
 
 -- alike' 0x0629 y | y `elem` [0x0629, 0x0647] = True
 
+alike' 0x0670 y | y `elem` [0x0670, 0x064E] = True
+
 alike' x y = x == y
 
 
@@ -689,8 +691,6 @@ fuzzy' 0x062E y | y `elem` [0x062E, 0x062D, 0x0647] = True
 
 fuzzy' 0x062B y | y `elem` [0x062B, 0x062A, 0x0633] = True
 fuzzy' 0x0630 y | y `elem` [0x0630, 0x062F, 0x0632] = True
-
-fuzzy' 0x0670 y | y `elem` [0x0670, 0x064E] = True
 
 fuzzy' x y = x == y
 

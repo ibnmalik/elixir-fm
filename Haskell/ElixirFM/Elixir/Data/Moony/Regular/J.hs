@@ -1742,7 +1742,7 @@ cluster_71  = cluster
                               `plural`     FuCUL,
 
     FiCL                      `noun`    {- <`irq> -}           [ ['e','t','h','n','i','c','i','t','y'], ['r','a','c','e'] ]
-                              `plural`     FuCUL,
+                              `plural`     HaFCAL,
 
     FiCL |< Iy                `adj`     {- <`irqIy> -}         [ ['e','t','h','n','i','c'], ['r','a','c','i','a','l'] ],
 

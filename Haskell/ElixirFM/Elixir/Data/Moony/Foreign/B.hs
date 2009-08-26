@@ -393,10 +393,6 @@ cluster_55  = cluster
 
     _____                     `xtra`    {- <'if> -}            [ ['F','.'] ] ]
 
- |> ['\'','a','f'] <| [
-
-    _____                     `xtra`    {- <'af> -}            [ unwords [ ['A','.'], ['F','.'] ] ] ]
-
 
 cluster_56  = cluster
 

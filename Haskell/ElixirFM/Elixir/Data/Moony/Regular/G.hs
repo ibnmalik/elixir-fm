@@ -1654,6 +1654,7 @@ cluster_69  = cluster
                               `imperf`     FCuL,
 
     FaCiL                     `verb`    {- <.hasib> -}         [ ['r','e','g','a','r','d'], ['c','o','n','s','i','d','e','r'] ]
+                              `imperf`     FCaL
                               `imperf`     FCiL,
 
     FaCuL                     `verb`    {- <.hasub> -}         [ unwords [ ['b','e'], ['e','s','t','e','e','m','e','d'] ], unwords [ ['b','e'], ['v','a','l','u','e','d'] ] ]

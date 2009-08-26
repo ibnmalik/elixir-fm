@@ -303,7 +303,7 @@ instance Forming PatternT where
         (   Nothing,    FaCaL,      FuCiL,      CuL,        FCaL        ),
 
         (   Nothing,    FaCiL,      FuCiL,      CaL,        FCaL        ),
-        (   Nothing,    FaCiL,      FuCiL,      CiL,        FCaL        ),
+        (   Nothing,    FaCiL,      FuCiL,      CiL,        FCaL        ),  -- wari_ta
 
         (   Nothing,    FaCuL,      FuCiL,      CaL,        FCaL        ),
         (   Nothing,    FaCuL,      FuCiL,      CuL,        FCaL        ),
@@ -331,6 +331,7 @@ instance Forming PatternT where
         (   Nothing,    FaCaL,      FuCiL,      FCuL,       FCaL        ),
 
         (   Nothing,    FaCiL,      FuCiL,      FCaL,       FCaL        ),
+        (   Nothing,    FaCiL,      FuCiL,      FCiL,       FCaL        ),  -- .hasiba
 
         (   Nothing,    FaCuL,      FuCiL,      FCaL,       FCaL        ),
         (   Nothing,    FaCuL,      FuCiL,      FCuL,       FCaL        ),

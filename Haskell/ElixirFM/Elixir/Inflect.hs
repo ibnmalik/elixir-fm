@@ -413,9 +413,9 @@ instance Inflect Lexeme TagsPron where
                                                         n' = vals n
                                                         c' = vals c
 
-                                                        d' = TagsPronD g' n' c',
+                                                        d' = TagsPronR g' n' c',
 
-                                                    TagsPronD g' n' c' <- if null y then [d'] else restrict d' y,
+                                                    TagsPronR g' n' c' <- if null y then [d'] else restrict d' y,
 
                                                     n <- n', g <- g', c <- c',
 
@@ -513,9 +513,8 @@ instance Inflect Lexeme TagsNum where
 
             let g' = vals g
                 c' = vals c
-                s' = if null s then l' else intersect s l'
+                s' = vals s
 
-                l' = [indefinite, construct, definite, absolute]
                 d' = TagsNumV g' c' s',
 
             TagsNumV g' c' s' <- if null y then [d'] else restrict d' y,

@@ -313,7 +313,7 @@ cluster_17  = cluster
 
  |> "b y n" <| [
 
-    FaCL |<< "a"              `prep`    {- <bayna> -}          [ unwords [ ['b','e','t','w','e','e','n'], "/", ['a','m','o','n','g'] ] ],
+    FaCL |<< "a"              `prep`    {- <bayna> -}          [ ['b','e','t','w','e','e','n'], ['a','m','o','n','g'] ],
 
     FaCL |< Iy                `adj`     {- <baynIy> -}         [ unwords [ ['i','n'], "-", ['b','e','t','w','e','e','n'] ], ['m','u','t','u','a','l'] ],
 
@@ -346,7 +346,7 @@ cluster_17  = cluster
 
     FaCAL                     `noun`    {- <bayAn> -}          [ ['B','a','y','a','n'] ],
 
-    FaCAL |< At               `noun`    {- <bayAnAt> -}        [ ['d','a','t','a'] ]
+    FaCAL                     `noun`    {- <bayAn> -}          [ ['d','a','t','a'] ]
                               `plural`     FaCAL |< At,
 
     FaCAL |< Iy               `adj`     {- <bayAnIy> -}        [ ['e','x','p','l','a','n','a','t','o','r','y'], ['d','e','c','l','a','r','a','t','i','v','e'] ],

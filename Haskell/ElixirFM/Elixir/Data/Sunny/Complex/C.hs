@@ -1239,7 +1239,10 @@ cluster_46  = cluster
     FAL                       `verb`    {- <rA_t> -}           [ ['h','e','s','i','t','a','t','e'], ['d','e','l','a','y'] ]
                               `imperf`     FIL,
 
-    TaFaCCaL                  `verb`    {- <tarayya_t> -}      [ ['h','e','s','i','t','a','t','e'], ['d','e','l','a','y'], unwords [ ['b','e'], ['p','a','t','i','e','n','t'] ] ] ]
+    TaFaCCaL                  `verb`    {- <tarayya_t> -}      [ ['h','e','s','i','t','a','t','e'], ['d','e','l','a','y'], unwords [ ['b','e'], ['p','a','t','i','e','n','t'] ], ['w','a','i','t'] ],
+
+    TaFaCCuL                  `noun`    {- <tarayyu_t> -}      [ ['h','e','s','i','t','a','t','i','o','n'], ['d','e','l','a','y'], ['p','a','t','i','e','n','c','e'], ['w','a','i','t','i','n','g'] ]
+                              `plural`     TaFaCCuL |< At ]
 
 
 cluster_47  = cluster

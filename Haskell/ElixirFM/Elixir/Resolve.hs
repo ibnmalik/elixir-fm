@@ -325,24 +325,24 @@ harmony (ParaPron _) 	y	= [Nothing]     -- in modern language
 
 -- Wrigth (1991), Fischer (2002), Badawi et al. (2004) on options with [Nothing, Just ("SP------4-", euphony y)]
 
-harmony (ParaNum  (NumV Feminine _ (Nothing :-: True))) 	_	= [Nothing, Just ("QC-----S2[IRA]", const True)]
-harmony (ParaNum  (NumC _ _ (Nothing :-: True))) 	        y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
-harmony (ParaNum  (NumM _ _ (Nothing :-: True))) 	        y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
+harmony (ParaNum  (NumV Feminine _ (_ :-: True))) 	        _	= [Nothing, Just ("QC-----S2[IRA]", const True)]
+harmony (ParaNum  (NumC _        _ (Nothing :-: True)))     y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
+harmony (ParaNum  (NumM _        _ (Nothing :-: True)))     y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
 harmony (ParaNum  _) 	                                    _	= [Nothing]
 
 harmony (ParaAdv  _) 	_	= [Nothing]
 
 harmony (ParaPrep _) 	"la"	= [Nothing, Just ("S-------2-", (\ x -> euphony "la" x && x /= "nI"))]
-harmony (ParaPrep _) 	"li"	= [Nothing, Just ("[NAQDXYZ]-------2-", const True),
+harmony (ParaPrep _) 	"li"	= [Nothing, Just ("[NAQDXZ]-------2-", const True),
                                             Just ("PI------2-", const True)]    -- in modern language
 harmony (ParaPrep _) 	"ka"	= [Nothing, Just ("S-------1-", const True),
-                                            Just ("[NAQDXYZ]-------2-", const True),
+                                            Just ("[NAQDXZ]-------2-", const True),
                                             Just ("PI------2-", const True)]    -- in modern language
 harmony (ParaPrep _) 	y
 
     | y `elem` ["`an", "min"]   = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "|I"))]
     | y `elem` ["bi", "ta"]     = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "nI")),
-                                            Just ("[NAQDXYZ]-------2-", const True),
+                                            Just ("[NAQDXZ]-------2-", const True),
                                             Just ("PI------2-", const True)]    -- in modern language
     | otherwise                 = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "nI"))]
 
@@ -351,13 +351,13 @@ harmony (ParaConj _)    y
 
     | y `elem` ["'anna", "'inna"]   = [Nothing, Just ("SP------4-", euphony y)]
     | otherwise                     = [Nothing, Just ("S-------1-", const True),
-                                                Just ("[VNAQDPCFIXYZ]---------", const True)]
+                                                Just ("[VNAQDPCFIXZ]---------", const True)]
 
 harmony (ParaPart _) 	"sa"	= [Nothing, Just ("VII-------", const True)]
 harmony (ParaPart _) 	"li"	= [Nothing, Just ("VIJ-------", const True)]
-harmony (ParaPart _) 	"la"	= [Nothing, Just ("[VNAQDPFIXYZ]---------", const True)]                    -- excluding "[SC]---------"
+harmony (ParaPart _) 	"la"	= [Nothing, Just ("[VNAQDPFIXZ]---------", const True)]                     -- excluding "[SCY]---------"
 harmony (ParaPart _) 	"'IyA"	= [Nothing, Just ("SP------2-", (\ x -> euphony "'IyA" x && x /= "nI"))]
-harmony (ParaPart _) 	y	    = [Nothing, Just ("[VNAQDXYZ]-------4-", const True),                       -- excluding "[SCPFI]---------"
+harmony (ParaPart _) 	y	    = [Nothing, Just ("[VNAQDXZ]-------4-", const True),                        -- excluding "[SCPFIY]---------"
                                             Just ("SP------4-", euphony y)]
 
 harmony (ParaIntj _) 	y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]

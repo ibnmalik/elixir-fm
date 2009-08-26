@@ -1515,9 +1515,8 @@ cluster_65  = cluster
 
     FiCAL                     `noun`    {- <wi.sAl> -}         [ unwords [ ['s','e','x','u','a','l'], ['i','n','t','e','r','c','o','u','r','s','e'] ] ],
 
-    MuFACaL |< aT             `noun`    {- <muwA.salaT> -}     [ ['c','o','n','t','i','n','u','a','t','i','o','n'], ['c','o','n','t','i','n','u','e'] ],
-
-    MuFACaL |< aT             `noun`    {- <muwA.salaT> -}     [ ['c','o','m','m','u','n','i','c','a','t','i','o','n'], ['c','o','n','n','e','c','t','i','o','n'] ],
+    MuFACaL |< aT             `noun`    {- <muwA.salaT> -}     [ ['c','o','m','m','u','n','i','c','a','t','i','o','n'], ['c','o','n','n','e','c','t','i','o','n'], ['c','o','n','t','i','n','u','a','t','i','o','n'] ]
+                              `plural`     MuFACaL |< At,
 
     HICAL                     `noun`    {- <'I.sAl> -}         [ ['c','o','n','n','e','c','t','i','o','n'], ['t','r','a','n','s','p','o','r','t','a','t','i','o','n'], ['t','r','a','n','s','m','i','s','s','i','o','n'] ]
                               `plural`     HICAL |< At,

@@ -276,16 +276,24 @@ cluster_14  = cluster
     TaFaCCuL                  `noun`    {- <ta^sarrud> -}      [ ['h','o','m','e','l','e','s','s','n','e','s','s'] ]
                               `plural`     TaFaCCuL |< At,
 
-    FACiL                     `noun`    {- <^sArid> -}         [ ['f','u','g','i','t','i','v','e'], ['w','a','n','d','e','r','i','n','g'] ]
+    FACiL                     `adj`     {- <^sArid> -}         [ ['f','u','g','i','t','i','v','e'], ['w','a','n','d','e','r','i','n','g'] ]
                               `plural`     FawACiL
-                              `plural`     FuCuL
-                           
-    `derives` otherwise,
+                              `plural`     FuCuL,
 
     FACiL |< aT               `noun`    {- <^sAridaT> -}       [ ['e','x','c','e','p','t','i','o','n'], ['a','n','o','m','a','l','y'] ]
                               `plural`     FawACiL,
 
+    MuFaCCaL                  `noun`    {- <mu^sarrad> -}      [ unwords [ ['d','i','s','p','l','a','c','e','d'], ['p','e','r','s','o','n'] ], ['r','e','f','u','g','e','e'] ]
+                              `plural`     MuFaCCaL |< Un
+                           
+    `derives` otherwise,
+
     MuFaCCaL                  `adj`     {- <mu^sarrad> -}      [ ['h','o','m','e','l','e','s','s'], ['d','i','s','p','l','a','c','e','d'] ],
+
+    MutaFaCCiL                `noun`    {- <muta^sarrid> -}    [ unwords [ ['h','o','m','e','l','e','s','s'], ['p','e','r','s','o','n'] ] ]
+                              `plural`     MutaFaCCiL |< Un
+                           
+    `derives` otherwise,
 
     MutaFaCCiL                `adj`     {- <muta^sarrid> -}    [ ['h','o','m','e','l','e','s','s'], ['d','i','s','p','l','a','c','e','d'] ] ]
 
