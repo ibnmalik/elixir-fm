@@ -49,7 +49,7 @@ instance Template String where
 
         where modify | isForm VIII t                      = assimiVIII
                      | isForm VII  t                      = assimiVII
-                     | (not . null) s && isSuffixOf "A" t =
+                     | isSuffixOf "A" t && (not . null) s =
 
                         case last s of Iy ->   (++ ["w"]) . substitute
                                        _  ->                substitute

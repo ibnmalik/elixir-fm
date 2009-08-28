@@ -38,11 +38,14 @@ instance Template PatternT where
 
         where modify | isForm VIII t               = assimiVIII
                      | isForm VII  t               = assimiVII
-                     | (not . null) s && elem t
+                     | elem t
 
-                           [FaCLA', FiCLA', FuCLA', FILA', FULA'] =
+                        [FaCLA', FiCLA', FuCLA', FILA', FULA'] =
 
-                        case last s of
+                        if null s || null r || last r == "w"
+
+                                        then  substitute
+                                        else  case last s of
 
                             Suffix x | x `elem` ["a",  "i",  "u",
                                                  "aN", "iN", "uN"]
