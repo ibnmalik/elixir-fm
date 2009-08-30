@@ -673,7 +673,7 @@ cluster_28  = cluster
 
     FaCL |< Iy                `adj`     {- <^sarqIy> -}        [ ['E','a','s','t','e','r','n'], ['O','r','i','e','n','t','a','l'], ['e','a','s','t'] ],
 
-    FaCLA' |< Iy              `noun`    {- <^sarqAwIy> -}      [ ['S','h','a','r','q','a','w','i'] ],
+    FaCL |<< "Aw" |< Iy       `noun`    {- <^sarqAwIy> -}      [ ['S','h','a','r','q','a','w','i'] ],
 
     FuCUL                     `noun`    {- <^surUq> -}         [ ['s','u','n','r','i','s','e'] ],
 
@@ -1226,8 +1226,6 @@ cluster_57  = cluster
 
     FaCL |< Iy                `adj`     {- <^sa`rIy> -}        [ ['h','a','i','r'], ['c','a','p','i','l','l','a','r','y'] ],
 
-    FaCLA' |< Iy              `noun`    {- <^sa`rAwIy> -}      [ ['S','h','a','\'','r','a','w','i'] ],
-
     FaCIL                     `noun`    {- <^sa`Ir> -}         [ ['b','a','r','l','e','y'] ],
 
     FaCIL |< aT               `noun`    {- <^sa`IraT> -}       [ unwords [ ['b','e','a','d'], "(", ['g','u','n'], ['s','i','g','h','t'], ")" ] ],
@@ -1236,6 +1234,8 @@ cluster_57  = cluster
 
     HaFCaL                    `adj`     {- <'a^s`ar> -}        [ ['h','i','r','s','u','t','e'] ]
                               `femini`     FaCLA',
+
+    FaCLA' |< Iy              `noun`    {- <^sa`rAwIy> -}      [ ['S','h','a','\'','r','a','w','i'] ],
 
     FaCLAn |< Iy              `adj`     {- <^sa`rAnIy> -}      [ ['h','i','r','s','u','t','e'] ],
 

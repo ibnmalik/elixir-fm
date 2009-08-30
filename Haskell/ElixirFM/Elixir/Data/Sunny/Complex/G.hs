@@ -156,7 +156,10 @@ cluster_8   = cluster
                            
     `derives` otherwise,
 
-    FUL                       `noun`    {- <.tUb> -}           [ ['b','r','i','c','k'] ] ]
+    FUL                       `noun`    {- <.tUb> -}           [ ['b','r','i','c','k'] ],
+
+    FUL |< aT                 `noun`    {- <.tUbaT> -}         [ ['b','r','i','c','k'] ]
+                              `plural`     FUL |< At ]
 
  |> ".t w b" <| [
 
@@ -169,9 +172,7 @@ cluster_8   = cluster
 
     FULY                      `noun`    {- <.tUbY> -}          [ ['b','l','e','s','s','e','d','n','e','s','s'], ['b','e','a','t','i','t','u','d','e'] ],
 
-    FULA' |< Iy               `adj`     {- <.tUbAwIy> -}       [ ['u','t','o','p','i','a','n'] ],
-
-    FULA' |< Iy               `adj`     {- <.tUbAwIy> -}       [ ['b','l','e','s','s','e','d'] ],
+    FULA' |< Iy               `adj`     {- <.tUbAwIy> -}       [ ['b','l','e','s','s','e','d'], ['u','t','o','p','i','a','n'] ],
 
     FULA' |< Iy |< aT         `noun`    {- <.tUbAwIyaT> -}     [ ['b','l','e','s','s','e','d','n','e','s','s'] ] ]
 

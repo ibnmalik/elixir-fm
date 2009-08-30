@@ -639,7 +639,7 @@ cluster_46  = cluster
 
     FaCLA'                    `noun`    {- <taymA'> -}         [ ['T','a','i','m','a','\''] ],
 
-    FILA' |< Iy               `adj`     {- <tImAwIy> -}        [ ['T','i','m','a','w','i'] ],
+    FILA' |< Iy               `noun`    {- <tImAwIy> -}        [ ['T','i','m','a','w','i'] ],
 
     FaCL |< Iy |< aT          `noun`    {- <taymIyaT> -}       [ ['T','a','i','m','i','y','y','a'] ] ]
 

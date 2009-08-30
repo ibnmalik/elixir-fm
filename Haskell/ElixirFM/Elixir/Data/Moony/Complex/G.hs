@@ -103,7 +103,7 @@ cluster_7   = cluster
                            
     `derives` otherwise,
 
-    FaCLA' |< Iy              `zero`    {- <baytAwIy> -}       [ ['B','e','i','t','a','w','i'] ] ]
+    FaCL |<< "Aw" |< Iy       `noun`    {- <baytAwIy> -}       [ ['B','e','i','t','a','w','i'] ] ]
 
 
 cluster_8   = cluster

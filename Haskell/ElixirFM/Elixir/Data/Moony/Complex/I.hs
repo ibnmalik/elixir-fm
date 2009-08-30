@@ -1813,7 +1813,7 @@ cluster_72  = cluster
 
     FaCLA'                    `noun`    {- <`a^swA'> -}        [ ['d','a','r','k','n','e','s','s'], ['b','l','i','n','d','n','e','s','s'] ],
 
-    FaCLA' |< Iy              `adj`     {- <`a^swAwIy> -}      [ ['r','a','n','d','o','m'] ],
+    FaCLA' |< Iy              `adj`     {- <`a^swA'Iy> -}      [ ['r','a','n','d','o','m'] ],
 
     FaCA'                     `noun`    {- <`a^sA'> -}         [ ['d','i','n','n','e','r'], ['s','u','p','p','e','r'] ]
                               `plural`     HaFCI |< aT,

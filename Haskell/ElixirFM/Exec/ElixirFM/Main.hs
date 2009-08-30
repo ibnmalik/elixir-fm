@@ -74,10 +74,12 @@ options = [ Option []    ["resolve"]    (NoArg (RunAction elixirResolve))
                                                 "run the 'lookup' mode",
 
             Option []    ["derive"]     (NoArg (RunAction elixirDerive))
-                                                "run the 'derive' mode",
+                                                "run the 'derive' mode\n\n",
 
+            Option []    ["lexicon"]    (NoArg (RunAction elixirLexicon))
+                                                "dump the 'lexicon' data",
             Option []    ["compose"]    (NoArg (RunAction elixirCompose))
-                                                "run the 'compose' mode\n\n",
+                                                "dump the 'compose' data\n\n",
 
             Option ['t'] ["trees"]      (NoArg  TreesResolve)
                                                 "resolve using MorphoTrees",
@@ -207,6 +209,13 @@ elixirDerive o p = interact (unlines . map (show . q) . map words . onlines)
           c x = [ y | (y, _) <- reads x ] ++ [ (i, Just [j]) | ((i, j), _) <- reads x ]
 
           i = [ z | x <- p, y <- c x, z <- lookupClips y lexicon ]
+
+
+elixirLexicon o p = (putDoc . pretty . f) (lists [(0, Nothing)] ((concat . map q) p))
+
+    where q x = [ y | (y, _) <- reads x ] ++ [ (i, Just [j]) | ((i, j), _) <- reads x ]
+
+          f x = [ lookupClips y lexicon | y <- x ]
 
 
 elixirCompose o p = (putDoc . generate e) lexicon

@@ -924,8 +924,6 @@ cluster_57  = cluster
     FuCL |< aT                `noun`    {- <^gumlaT> -}        [ ['s','e','n','t','e','n','c','e'], ['c','l','a','u','s','e'], ['g','r','o','u','p'], ['w','h','o','l','e'] ]
                               `plural`     FuCaL,
 
-    FuCL |< aT |<< "aN"       `noun`    {- <^gumlaTaN> -}      [ ['c','o','m','p','l','e','t','e','l','y'], unwords [ ['o','n'], ['t','h','e'], ['w','h','o','l','e'] ] ],
-
     FaCaL                     `noun`    {- <^gamal> -}         [ ['c','a','m','e','l'] ]
                               `plural`     FiCAL
                               `plural`     HaFCAL,

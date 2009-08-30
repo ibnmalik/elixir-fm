@@ -551,7 +551,7 @@ cluster_44  = cluster
     FaCLAn |< Iy              `adj`     {- <ba.hrAnIy> -}      [ ['B','a','h','r','a','i','n','i'] ]
                               `plural`     FaCALin |< aT,
 
-    FaCLA' |< Iy              `noun`    {- <ba.hrAwIy> -}      [ ['B','a','h','r','a','w','i'], ['B','a','h','r','a','o','u','i'] ],
+    FaCL |<< "Aw" |< Iy       `noun`    {- <ba.hrAwIy> -}      [ ['B','a','h','r','a','w','i'], ['B','a','h','r','a','o','u','i'] ],
 
     FaCCAL                    `noun`    {- <ba.h.hAr> -}       [ ['s','e','a','m','a','n'], ['s','a','i','l','o','r'] ]
                               `plural`     FaCCAL |< Un
@@ -766,7 +766,7 @@ cluster_58  = cluster
 
     FaCLAn                    `noun`    {- <badrAn> -}         [ ['B','a','d','r','a','n'] ],
 
-    FaCLA' |< Iy              `adj`     {- <badrAwIy> -}       [ ['B','a','d','r','a','w','i'] ],
+    FaCL |<< "Aw" |< Iy       `noun`    {- <badrAwIy> -}       [ ['B','a','d','r','a','w','i'] ],
 
     FiCAL |<< "aN"            `noun`    {- <bidAraN> -}        [ ['q','u','i','c','k','l','y'], ['h','a','s','t','i','l','y'] ],
 

@@ -910,7 +910,8 @@ cluster_69  = cluster
 
     HaFCaL                    `noun`    {- <'azhar> -}         [ ['A','z','h','a','r'] ],
 
-    HaFCaL                    `adj`     {- <'azhar> -}         [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['r','a','d','i','a','n','t'] ] ],
+    HaFCaL                    `adj`     {- <'azhar> -}         [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['r','a','d','i','a','n','t'] ] ]
+                              `femini`     FaCLA',
 
     HaFCaL |< Iy              `adj`     {- <'azharIy> -}       [ ['A','z','h','a','r','i','t','e'] ],
 

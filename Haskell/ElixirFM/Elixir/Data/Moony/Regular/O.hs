@@ -2039,7 +2039,7 @@ cluster_84  = cluster
 
     FaCL                      `noun`    {- <qarq> -}           [ ['c','l','u','c','k','i','n','g'] ],
 
-    FaCLA' |< Iy              `noun`    {- <qarqAwIy> -}       [ ['Q','a','r','q','a','w','i'] ] ]
+    FaCL |<< "Aw" |< Iy       `noun`    {- <qarqAwIy> -}       [ ['Q','a','r','q','a','w','i'] ] ]
 
 
 cluster_85  = cluster

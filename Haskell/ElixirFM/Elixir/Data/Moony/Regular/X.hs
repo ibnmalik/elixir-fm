@@ -635,7 +635,7 @@ cluster_40  = cluster
 
     MuFaCCaL |< Iy            `noun`    {- <muhannadIy> -}     [ ['M','u','h','a','n','n','a','d','i'], ['M','o','h','a','n','n','a','d','i'] ],
 
-    FiCLA' |< Iy              `noun`    {- <hindAwIy> -}       [ ['H','i','n','d','a','w','i'] ] ]
+    FiCL |<< "Aw" |< Iy       `noun`    {- <hindAwIy> -}       [ ['H','i','n','d','a','w','i'] ] ]
 
 
 cluster_41  = cluster

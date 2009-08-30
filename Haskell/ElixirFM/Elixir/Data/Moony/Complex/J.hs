@@ -689,7 +689,7 @@ cluster_23  = cluster
 
     FaCL |< Iy                `adj`     {- <`aynIy> -}         [ ['o','c','u','l','a','r'], ['e','y','e'], ['r','e','a','l'] ],
 
-    FaCLA' |< Iy              `adj`     {- <`aynAwIy> -}       [ ['A','i','n','a','w','i'], ['A','i','n','a','w','y'], ['E','i','n','a','w','i'] ],
+    FaCL |<< "Aw" |< Iy       `noun`    {- <`aynAwIy> -}       [ ['A','i','n','a','w','i'], ['A','i','n','a','w','y'], ['E','i','n','a','w','i'] ],
 
     FIL |< aT                 `noun`    {- <`InaT> -}          [ ['a','d','v','a','n','c','e'] ],
 
@@ -1046,7 +1046,7 @@ cluster_37  = cluster
 
     FaCLA' |< Iy              `adj`     {- <.gazzAwIy> -}      [ unwords [ ['G','a','z','a','n'], "(", ['o','f'], "/", ['f','r','o','m'], ['G','a','z','a'], ")" ] ],
 
-    FaCLA' |< Iy              `adj`     {- <.gazzAwIy> -}      [ ['G','h','a','z','z','a','w','i'] ],
+    FaCLA' |< Iy              `noun`    {- <.gazzAwIy> -}      [ ['G','h','a','z','z','a','w','i'] ],
 
     FaCL |< aT                `noun`    {- <.gazzaT> -}        [ ['G','a','z','a'] ] ]
 

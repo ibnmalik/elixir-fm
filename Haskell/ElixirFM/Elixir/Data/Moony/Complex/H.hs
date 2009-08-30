@@ -1322,14 +1322,18 @@ cluster_43  = cluster
     FuCL |< aT                `noun`    {- <.hulwaT> -}        [ ['H','i','l','w','e','h'], ['H','u','l','w','a'] ],
 
     FaCLY                     `noun`    {- <.halwY> -}         [ ['p','a','s','t','r','y'], ['d','e','s','s','e','r','t'], ['s','w','e','e','t','s'] ]
-                              `plural`     FuCLY |< At
+                              `plural`     FaCLY |< At
+                              `plural`     FaCA |< Iy |< At
                               `plural`     FaCALY,
 
     FaCALY                    `noun`    {- <.halAwY> -}        [ ['H','a','l','a','w','a'] ],
 
-    FaCLA'                    `noun`    {- <.halwA'> -}        [ ['c','a','n','d','y'] ],
+    FaCLA'                    `noun`    {- <.halwA'> -}        [ ['c','a','n','d','y'], ['c','o','n','f','e','c','t','i','o','n','e','r','y'] ],
 
-    FaCLA' |< Iy              `adj`     {- <.halwAwIy> -}      [ ['c','o','n','f','e','c','t','i','o','n','e','r'], unwords [ ['p','a','s','t','r','y'], ['c','o','o','k'] ] ],
+    FaCLA' |< Iy              `noun`    {- <.halwA'Iy> -}      [ ['c','o','n','f','e','c','t','i','o','n','e','r'], unwords [ ['p','a','s','t','r','y'], ['c','o','o','k'] ] ]
+                              `plural`     FaCLA' |< Iy |< Un
+                           
+    `derives` otherwise,
 
     FaCAL |< aT               `noun`    {- <.halAwaT> -}       [ ['s','w','e','e','t','n','e','s','s'], ['c','a','n','d','i','e','s'] ],
 
@@ -1339,7 +1343,10 @@ cluster_43  = cluster
 
     FuCLAn                    `noun`    {- <.hulwAn> -}        [ ['g','r','a','t','u','i','t','y'], ['t','i','p'] ],
 
-    FuCLAn |< Iy              `adj`     {- <.hulwAnIy> -}      [ ['c','o','n','f','e','c','t','i','o','n','e','r'], unwords [ ['p','a','s','t','r','y'], ['c','o','o','k'] ] ],
+    FaCLAn |< Iy              `noun`    {- <.halwAnIy> -}      [ ['c','o','n','f','e','c','t','i','o','n','e','r'], unwords [ ['p','a','s','t','r','y'], ['c','o','o','k'] ] ]
+                              `plural`     FaCLAn |< Iy |< Un
+                           
+    `derives` otherwise,
 
     HaFCY                     `adj`     {- <'a.hlY> -}         [ ['s','w','e','e','t','e','r'], ['s','w','e','e','t','e','s','t'] ],
 

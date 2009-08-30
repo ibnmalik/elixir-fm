@@ -496,7 +496,7 @@ cluster_24  = cluster
 
  |> "k l l" <| [
 
-    FuCL                      `noun`    {- <kull> -}           [ ['e','v','e','r','y'], ['a','l','l'] ],
+    FuCL                      `noun`    {- <kull> -}           [ ['e','v','e','r','y'], ['a','l','l'], ['e','a','c','h'], ['w','h','o','l','e'], ['e','n','t','i','r','e','t','y'] ],
 
     FuCL |< Iy                `adj`     {- <kullIy> -}         [ ['t','o','t','a','l'], ['c','o','m','p','l','e','t','e'], ['e','n','t','i','r','e'] ],
 

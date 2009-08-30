@@ -1262,12 +1262,11 @@ cluster_68  = cluster
     FA'iL |< aT               `noun`    {- <mA'idaT> -}        [ ['t','a','b','l','e'] ]
                               `plural`     FawA'iL,
 
-    FaCLAn                    `noun`    {- <maydAn> -}         [ ['s','q','u','a','r','e'] ]
-                              `plural`     FILAn,
+    FaCLAn                    `noun`    {- <maydAn> -}         [ ['s','q','u','a','r','e'], ['f','i','e','l','d'], ['d','o','m','a','i','n'], ['a','r','e','n','a'] ]
+                              `plural`     FaCALIn,
 
-    FaCLAn                    `noun`    {- <maydAn> -}         [ ['f','i','e','l','d'], ['d','o','m','a','i','n'], ['a','r','e','n','a'] ]
-                              `plural`     FaCALIn
-                              `plural`     FILAn,
+    FILAn                     `noun`    {- <mIdAn> -}          [ ['s','q','u','a','r','e'], ['f','i','e','l','d'], ['d','o','m','a','i','n'], ['a','r','e','n','a'] ]
+                              `plural`     FaCALIn,
 
     FaCLAn |< Iy              `adj`     {- <maydAnIy> -}       [ ['f','i','e','l','d'], ['s','u','r','v','e','y'], unwords [ ['i','n'], ['t','h','e'], ['m','i','l','i','t','a','r','y'], ['f','i','e','l','d'] ] ],
 
