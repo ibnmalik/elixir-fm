@@ -380,18 +380,14 @@ cluster_19  = cluster
 
  |> "^s d w" <| [
 
-    FaCA                      `verb`    {- <^sadA> -}          [ ['c','h','a','n','t'], ['k','n','o','w'], unwords [ ['b','e'], ['k','n','o','w','n'] ] ]
+    FaCA                      `verb`    {- <^sadA> -}          [ ['c','h','a','n','t'], ['k','n','o','w'] ]
                               `imperf`     FCU,
 
     FaCL                      `noun`    {- <^sadw> -}          [ ['s','o','n','g'], ['c','h','a','n','t'] ],
 
     FACI                      `noun`    {- <^sAdI> -}          [ ['S','h','a','d','i'] ],
 
-    FACI                      `adj`     {- <^sAdI> -}          [ ['e','d','u','c','a','t','e','d'], ['t','r','a','i','n','e','d'] ]
-                              `plural`     FACI |< At,
-
-    FACI                      `adj`     {- <^sAdI> -}          [ ['s','i','n','g','i','n','g'], ['c','h','a','n','t','i','n','g'] ]
-                              `plural`     FACI |< At,
+    FACI                      `adj`     {- <^sAdI> -}          [ ['e','d','u','c','a','t','e','d'], ['t','r','a','i','n','e','d'], ['s','i','n','g','i','n','g'], ['c','h','a','n','t','i','n','g'] ],
 
     FACI |< aT                `noun`    {- <^sAdiyaT> -}       [ ['S','h','a','d','i','a'] ],
 

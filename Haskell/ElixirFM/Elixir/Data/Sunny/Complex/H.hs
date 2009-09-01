@@ -833,17 +833,17 @@ cluster_35  = cluster
 
  |> "n .g w" <| [
 
-    FaCA                      `verb`    {- <na.gA> -}          [ ['s','p','e','a','k'], unwords [ ['b','e'], ['s','p','o','k','e','n'] ] ]
+    FaCA                      `verb`    {- <na.gA> -}          [ ['s','p','e','a','k'] ]
                               `imperf`     FCU,
 
     FaCL                      `noun`    {- <na.gw> -}          [ ['s','p','e','a','k','i','n','g'] ] ]
 
  |> "n .g y" <| [
 
-    FaCY                      `verb`    {- <na.gY> -}          [ ['s','p','e','a','k'], unwords [ ['b','e'], ['s','p','o','k','e','n'] ] ]
+    FaCY                      `verb`    {- <na.gY> -}          [ ['s','p','e','a','k'] ]
                               `imperf`     FCI,
 
-    FACY                      `verb`    {- <nA.gY> -}          [ ['w','h','i','s','p','e','r'], ['f','l','a','t','t','e','r'], ['t','w','i','t','t','e','r'], unwords [ ['b','e'], ['f','l','i','r','t','e','d'], ['w','i','t','h'] ] ],
+    FACY                      `verb`    {- <nA.gY> -}          [ ['w','h','i','s','p','e','r'], ['f','l','a','t','t','e','r'], ['t','w','i','t','t','e','r'], ['f','l','i','r','t'] ],
 
     FaCL                      `noun`    {- <na.gy> -}          [ ['s','p','e','a','k','i','n','g'] ] ]
 

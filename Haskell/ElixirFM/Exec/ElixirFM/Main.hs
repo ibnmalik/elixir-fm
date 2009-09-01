@@ -49,7 +49,7 @@ import Data.List hiding (lookup)
 
 import Version
 
-version = Version [1, 1, max build 881] []
+version = Version [1, 1, max build 884] []
 
     where Version [build] [] = revised "$Revision$"
 
@@ -78,6 +78,7 @@ options = [ Option []    ["resolve"]    (NoArg (RunAction elixirResolve))
 
             Option []    ["lexicon"]    (NoArg (RunAction elixirLexicon))
                                                 "dump the 'lexicon' data",
+
             Option []    ["compose"]    (NoArg (RunAction elixirCompose))
                                                 "dump the 'compose' data\n\n",
 
@@ -127,7 +128,7 @@ main = do   argv <- getArgs
                 PrintVersion    ->  warn (unlines [copyleft,
                                           unwords ["ElixirFM",
                                                    showVersion Main.version,
-                                                   "August 2009"]])
+                                                   "September 2009"]])
 
                 _               ->  warn (usageInfo synopsis options)
 

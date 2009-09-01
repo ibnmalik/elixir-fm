@@ -1636,12 +1636,12 @@ cluster_70  = cluster
 
  |> "` r f" <| [
 
-    FaCaL                     `verb`    {- <`araf> -}          [ ['k','n','o','w'], unwords [ ['b','e'], ['k','n','o','w','n'] ] ]
+    FaCaL                     `verb`    {- <`araf> -}          [ ['k','n','o','w'], ['r','e','c','o','g','n','i','z','e'], unwords [ ['b','e'], ['a','w','a','r','e'] ], unwords [ ['b','e'], ['a','c','q','u','a','i','n','t','e','d'] ] ]
                               `imperf`     FCiL,
 
     FaCCaL                    `verb`    {- <`arraf> -}         [ ['a','c','q','u','a','i','n','t'] ],
 
-    TaFaCCaL                  `verb`    {- <ta`arraf> -}       [ unwords [ ['b','e','c','o','m','e'], ['a','c','q','u','a','i','n','t','e','d'], ['w','i','t','h'] ], unwords [ ['g','e','t'], ['t','o'], ['k','n','o','w'] ], ['i','d','e','n','t','i','f','y'] ],
+    TaFaCCaL                  `verb`    {- <ta`arraf> -}       [ unwords [ ['b','e','c','o','m','e'], ['a','c','q','u','a','i','n','t','e','d'] ], unwords [ ['g','e','t'], ['t','o'], ['k','n','o','w'] ], ['i','d','e','n','t','i','f','y'] ],
 
     TaFACaL                   `verb`    {- <ta`Araf> -}        [ unwords [ ['b','e','c','o','m','e'], ['a','c','q','u','a','i','n','t','e','d'] ], unwords [ ['g','e','t'], ['t','o'], ['k','n','o','w'] ] ],
 
