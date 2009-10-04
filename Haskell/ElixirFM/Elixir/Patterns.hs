@@ -118,8 +118,8 @@ instance Rules String where
     isInert _ x = (not . null) x && last x `elem` "AIUY"
 
 
-    isDiptote x = case letters x of [_, "a", _, "A", _, "i", _] -> True
-                                    _                           -> False
+    isDiptote x = case letters x of [_, "a", _, "A", _, y, _]   ->  y `elem` ["i", "I"]
+                                    _                           ->  False
 
 
 instance Forming String where

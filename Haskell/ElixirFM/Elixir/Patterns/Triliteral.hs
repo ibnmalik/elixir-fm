@@ -210,7 +210,7 @@ instance Rules PatternT where
                             FiCLY, FILY,
                             FuCLY, FULY, FuCyY,
                             FaCaLY,
-                            FaCALY, FaCAyY,
+                            FaCALY, FaCAyY, FaCAwY,
                             FuCALY,
                             FaCLA',
                             FuCaLA',
@@ -885,8 +885,9 @@ data PatternT =
                                                         |   FaCAw
                                                         |   FaCAy
 
-        |   FiCAL                       |   FiyAL       |   FiCA'                       |   FiyA'
-                        |   CAL                         |   FiCAy
+        |   FiCAL       |   CAL         |   FiyAL       |   FiCA'                       |   FiyA'
+                                                        |   FiCAy
+                                                        |   FiCAw
 
         |   FuCAL       |   TuCAL                       |   FuCA'
                                                         |   FuCAw
@@ -977,7 +978,9 @@ data PatternT =
 
         |   MaFCaL                      |   MaFAL       |   MaFCY       |   MaFaCL
         |   MaFCiL                      |   MaFIL       |   MaFCI
+
         |   MaFCuL
+        |   MuFCuL
 
         |   MiFCaL      |   MICaL                       |   MiFCY       |   MiFaCL      |   MICY
         |   MiFCAL      |   MICAL                       |   MiFCA'
@@ -1012,7 +1015,9 @@ data PatternT =
                                                         |   FiCA
         |   FuCaL       |   TuCaL                       |   FuCY
                                                         |   FuCA
-        |   FuCuL                                       |   FuCU
+
+        |   FuCuL
+        |   FiCiL
 
         |   FaCLAn
         |   FaCaLAn                                     |   FaCawAn
@@ -1075,6 +1080,7 @@ data PatternT =
 
         |   FaCALI                      |   FawALI
         |   FaCALY                                      |   FaCAyY
+                                                        |   FaCAwY
         |   FuCALY
 
         |   FaCLUL                      |   FayLUL
