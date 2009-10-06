@@ -73,7 +73,7 @@ sub pretty ($$$) {
 
 sub pretty_resolve_tree {
 
-    my @data = @{$_[0]->{'node'}};
+    my @data = @{$_[0]->{'data'}};
 
     my $q = $_[1];
 
@@ -83,56 +83,56 @@ sub pretty_resolve_tree {
 
         $q->span({-title => "possible tokenization"}, pretty_resolve_data($_, $q)) . "\n" . $q->ul($q->li([ map {
 
-        $q->span({-title => "token form variants"}, pretty_resolve_data($_, $q)) . "\n" . $q->ul($q->li([ map {
+        $q->span({-title => "token form variants"}, pretty_resolve_forms($_, $q)) . "\n" . $q->ul($q->li([ map {
 
             pretty_resolve_lexeme($_, $q)
 
-                } @{$_->{'node'}} ] ))
+                } @{$_->{'data'}} ] ))
 
-                } @{$_->{'node'}} ] ))
+                } @{$_->{'data'}} ] ))
 
                 } @data ]);
 }
 
 sub pretty_resolve_data {
 
+    my $data = $_[0]->{'node'};
+
+    my $q = $_[1];
+
+    return join " ", map { join " ", map { escape decode "zdmg", $_ } split " ", substr $_, 1, -1 } @{$data};
+}
+
+sub pretty_resolve_forms {
+
     my $data = $_[0]->{'data'};
 
     my $q = $_[1];
 
-    my $text = '';
+    enmode "buckwalter", 'noneplus';
 
-    if ($data->{'type'} == 2) {
+    my $text = join " " . $q->span({-style => 'width: 20px'}, " ") . " ",
 
-        $text = join " ", map { join " ", map { escape decode "zdmg", $_ } split " ", substr $_, 1, -1 } @{$data->{'info'}};
-    }
-    else {
+                    map { my @x = (ElixirFM::nub { $_[0] } map {
 
-        enmode "buckwalter", 'noneplus';
+                                escape decode "buckwalter", encode "buckwalter", decode "arabtex", $_
 
-        $text = join " " . $q->span({-style => 'width: 20px'}, " ") . " ",
+                            } ElixirFM::nub { $_[0] } map { $_->{'node'}[1] } map { @{$_->{'data'}} } @{$_->{'data'}});
 
-                        map { my @x = (ElixirFM::nub { $_[0] } map {
+                            join " ", @x > 3 ? ($x[0], '..', $x[-1]) : @x
 
-                                    escape decode "buckwalter", encode "buckwalter", decode "arabtex", $_
+                        } @{$data};
 
-                                } ElixirFM::nub { $_[0] } map { $_->{'data'}{'info'}[1] } map { @{$_->{'node'}} } @{$_->{'node'}});
-
-                                join " ", @x > 3 ? ($x[0], '..', $x[-1]) : @x
-
-                            } @{$_[0]->{'node'}};
-
-        enmode "buckwalter", 'default';
-    }
+    enmode "buckwalter", 'default';
 
     return $text;
 }
 
 sub pretty_resolve_lexeme {
 
-    my @tokens = ElixirFM::concise map { $_->{'data'}{'info'} } @{$_[0]->{'node'}};
+    my @tokens = ElixirFM::concise map { $_->{'node'} } @{$_[0]->{'data'}};
 
-    my @info = @{$_[0]->{'data'}{'info'}};
+    my @info = @{$_[0]->{'node'}};
 
     my $q = $_[1];
 
@@ -189,10 +189,10 @@ sub pretty_resolve_lexeme {
 
       $q->ul($q->li($q->table({-cellspacing => 0},
 
-                    $q->Tr([ map { pretty_resolve_tokens($_, $q) } @tokens ] ) )) );
+                    $q->Tr([ map { pretty_resolve_token($_, $q) } @tokens ] ) )) );
 }
 
-sub pretty_resolve_tokens {
+sub pretty_resolve_token {
 
     my @info = @{$_[0]};
 
