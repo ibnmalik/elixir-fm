@@ -54,7 +54,7 @@ sub pretty ($$$) {
 
         # $word[$i] = ElixirFM::prune($word[$i]);
 
-        if (@{$word[$i]->{'node'}}) {
+        if (@{$word[$i]}) {
 
             $r .= $q->ul({-class => 'listexpander'}, pretty_resolve_tree($word[$i], $q));
         }
@@ -73,7 +73,7 @@ sub pretty ($$$) {
 
 sub pretty_resolve_tree {
 
-    my @data = @{$_[0]->{'data'}};
+    my (undef, @data) = @{$_[0]};
 
     my $q = $_[1];
 
@@ -87,25 +87,16 @@ sub pretty_resolve_tree {
 
             pretty_resolve_lexeme($_, $q)
 
-                } @{$_->{'data'}} ] ))
+                } @{$_}[1 .. @{$_} - 1] ] ))
 
-                } @{$_->{'data'}} ] ))
+                } @{$_}[1 .. @{$_} - 1] ] ))
 
                 } @data ]);
 }
 
 sub pretty_resolve_data {
 
-    my $data = $_[0]->{'node'};
-
-    my $q = $_[1];
-
-    return join " ", map { join " ", map { escape decode "zdmg", $_ } split " ", substr $_, 1, -1 } @{$data};
-}
-
-sub pretty_resolve_forms {
-
-    my $data = $_[0]->{'data'};
+    my (undef, @data) = @{$_[0]};
 
     my $q = $_[1];
 
@@ -117,26 +108,37 @@ sub pretty_resolve_forms {
 
                                 escape decode "buckwalter", encode "buckwalter", decode "arabtex", $_
 
-                            } ElixirFM::nub { $_[0] } map { $_->{'node'}[1] } map { @{$_->{'data'}} } @{$_->{'data'}});
+                            } ElixirFM::nub { $_[0] } map { $_->[0][1] } map { @{$_}[1 .. @{$_} - 1] } @{$_}[1 .. @{$_} - 1]);
 
                             join " ", @x > 3 ? ($x[0], '..', $x[-1]) : @x
 
-                        } @{$data};
+                        } @data;
 
     enmode "buckwalter", 'default';
 
     return $text;
 }
 
-sub pretty_resolve_lexeme {
+sub pretty_resolve_forms {
 
-    my @tokens = ElixirFM::concise map { $_->{'node'} } @{$_[0]->{'data'}};
-
-    my @info = @{$_[0]->{'node'}};
+    my ($node, undef) = @{$_[0]};
 
     my $q = $_[1];
 
-    my $xcat = substr $tokens[0]->[0], 0, 1;
+    return join " ", map { join " ", map { escape decode "zdmg", $_ } split " ", substr $_, 1, -1 } @{$node};
+}
+
+sub pretty_resolve_lexeme {
+
+    my ($node, @data) = @{$_[0]};
+    
+    my @data = ElixirFM::concise @data;
+
+    my @info = @{$node};
+
+    my $q = $_[1];
+
+    my $xcat = substr $data[0]->[0], 0, 1;
 
     my $ents = ElixirFM::parse($info[1]);
 
@@ -189,7 +191,7 @@ sub pretty_resolve_lexeme {
 
       $q->ul($q->li($q->table({-cellspacing => 0},
 
-                    $q->Tr([ map { pretty_resolve_token($_, $q) } @tokens ] ) )) );
+                    $q->Tr([ map { pretty_resolve_token($_, $q) } @data ] ) )) );
 }
 
 sub pretty_resolve_token {

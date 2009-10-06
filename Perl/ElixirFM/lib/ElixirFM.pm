@@ -365,17 +365,17 @@ sub restrict {
 
 sub prune {
 
-    my $node = $_[0];
+    my $data = $_[0];
 
-    return unless ref $node eq 'HASH' and exists $node->{'data'} and ref $node->{'data'} eq 'ARRAY';
+    return $data unless ref $data eq 'ARRAY' and @{$data};
 
-    @{$node->{'data'}} = grep {
+    @{$data} = ($data->[0], grep {
 
-	                      not grep { not @{$_->{'data'}} } @{$_->{'data'}}
+                                not grep { not @{$_}[1 .. @{$_} - 1] } @{$_}[1 .. @{$_} - 1]
 
-                         } @{$node->{'data'}};
+                            } @{$data}[1 .. @{$data} - 1]);
 
-    return $node;
+    return $data;
 }
 
 sub concise {
@@ -530,86 +530,62 @@ sub unpretty_resolve {
 
     return  $node =~ /[()]/
 
-        ?   {
-                'node'  =>  [
+        ?   [
+                [
 
                     map { [ split /[\n ]*\t/, $_ ] } grep { $_ ne '' } split /[\n ]*(?=\([0-9]+,[0-9]+\)[\n ]*\t|$)/, $node
                 ],
 
-                'data'  =>  [
+                map {
 
-                    map {
+                    my ($i) = /^(?:[\t ]*\n    )*([\t ]*)(?![\t\n ])/;
 
-                        my ($i) = /^(?:[\t ]*\n    )*([\t ]*)(?![\t\n ])/;
+                    $i .= '    ';
 
-                        $i .= '    ';
+                    s/^[\t\n ]+//;
+                    s/[\t\n ]+$//;
 
-                        s/^[\t\n ]+//;
-                        s/[\t\n ]+$//;
+                    my ($node, @data) = split /(?<![\t\n ])(?:[\t ]*\n)+$i(?![\t\n ])/, $_;
 
-                        my ($node, @data) = split /(?<![\t\n ])(?:[\t ]*\n)+$i(?![\t\n ])/, $_;
+                    [
+                        [ join ' ', split ' ', $node ],
 
-                        {
-                            'node'  =>  [ join ' ', split ' ', $node ],
+                        map {
 
-                            'data'  =>  [
+                            [ split /[\n ]*\t/, $_ ],
 
-                                map {
+                        } @data
+                    ]
 
-                                    {
-                                        'node'  =>  [ split /[\n ]*\t/, $_ ],
+                } @data
+            ]
 
-                                        'data'  =>  [
+        :   [
+                [ join ' ', split ' ', $node ],
 
-                                        ],
-                                    }
+                map {
 
-                                } @data
-                            ],
-                        }
+                    my ($i) = /^(?:[\t ]*\n    )*([\t ]*)(?![\t\n ])/;
 
-                    } @data
-                ],
-            }
+                    $i .= '    ';
 
-        :   {
-                'node'  =>  [ join ' ', split ' ', $node ],
+                    s/^[\t\n ]+//;
+                    s/[\t\n ]+$//;
 
-                'data'  =>  [
+                    my ($node, @data) = split /(?<![\t\n ])(?:[\t ]*\n)+$i(?![\t\n ])/, $_;
 
-                    map {
+                    [
+                        [ split /[\n ]*\t/, $node ],
 
-                        my ($i) = /^(?:[\t ]*\n    )*([\t ]*)(?![\t\n ])/;
+                        map {
 
-                        $i .= '    ';
+                            [ split /[\n ]*\t/, $_ ],
 
-                        s/^[\t\n ]+//;
-                        s/[\t\n ]+$//;
+                        } @data
+                    ]
 
-                        my ($node, @data) = split /(?<![\t\n ])(?:[\t ]*\n)+$i(?![\t\n ])/, $_;
-
-                        {
-                            'node'  =>  [ split /[\n ]*\t/, $node ],
-
-                            'data'  =>  [
-
-                                map {
-
-                                    {
-                                        'node'  =>  [ split /[\n ]*\t/, $_ ],
-
-                                        'data'  =>  [
-
-                                        ],
-                                    }
-
-                                } @data
-                            ],
-                        }
-
-                    } @data
-                ],
-            };
+                } @data
+            ];
 }
 
 sub unpretty {
@@ -628,31 +604,25 @@ sub unpretty {
 
             my ($node, @data) = split /[:]{3}/, $_;
 
-            {
-                'node'  =>  [ map { join ' ', split ' ' } split /[:]{2}/, $node ],
+            [
+                [ map { join ' ', split ' ' } split /[:]{2}/, $node ],
 
-                'data'  =>  [
+                map {
 
-                    map {
+                    my ($node, @data) = split /[:]{2}/, $_;
 
-                        my ($node, @data) = split /[:]{2}/, $_;
+                    [
+                        [ map { join ' ', split ' ' } split /[:]{1}/, $node ],
 
-                        {
-                            'node'  =>  [ map { join ' ', split ' ' } split /[:]{1}/, $node ],
+                        map {
 
-                            'data'  =>  [
+                            unpretty_resolve($_);
 
-                                map {
+                        } @data
+                    ]
 
-                                    unpretty_resolve($_);
-
-                                } @data
-                            ],
-                        }
-
-                    } @data
-                ],
-            }
+                } @data
+            ]
 
         } @data;
     }
