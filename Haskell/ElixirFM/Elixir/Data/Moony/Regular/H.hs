@@ -359,15 +359,14 @@ cluster_12  = cluster
     TaFACuL                   `noun`    {- <ta.hAluf> -}       [ ['a','l','l','i','a','n','c','e'] ]
                               `plural`     TaFACuL |< At,
 
-    MuFaCCaL                  `noun`    {- <mu.hallaf> -}      [ ['s','w','o','r','n'], unwords [ ['b','o','u','n','d'], ['b','y'], ['o','a','t','h'] ], ['j','u','r','o','r'] ]
+    MuFaCCaL                  `noun`    {- <mu.hallaf> -}      [ ['j','u','r','o','r'] ]
                               `plural`     MuFaCCaL |< Un
                            
     `derives` otherwise,
 
-    MutaFACiL                 `noun`    {- <muta.hAlif> -}     [ ['a','l','l','i','e','d'] ]
-                              `plural`     MutaFACiL |< Un
-                           
-    `derives` otherwise ]
+    MuFaCCaL                  `adj`     {- <mu.hallaf> -}      [ ['s','w','o','r','n'], unwords [ ['b','o','u','n','d'], ['b','y'], ['o','a','t','h'] ] ],
+
+    MutaFACiL                 `adj`     {- <muta.hAlif> -}     [ ['a','l','l','i','e','d'] ] ]
 
 
 cluster_13  = cluster
@@ -473,10 +472,8 @@ cluster_16  = cluster
 
     FaCIL                     `noun`    {- <.halIm> -}         [ ['H','a','l','e','e','m'], ['H','a','l','i','m'] ],
 
-    FaCIL                     `noun`    {- <.halIm> -}         [ ['g','e','n','t','l','e'], ['p','a','t','i','e','n','t'] ]
-                              `plural`     FuCaLA'
-                           
-    `derives` otherwise,
+    FaCIL                     `adj`     {- <.halIm> -}         [ ['g','e','n','t','l','e'], ['p','a','t','i','e','n','t'] ]
+                              `plural`     FuCaLA',
 
     FaCUL                     `noun`    {- <.halUm> -}         [ unwords [ "(", ['E','g','y','p','t','i','a','n'], ")", ['c','h','e','e','s','e'] ] ],
 
@@ -497,10 +494,10 @@ cluster_17  = cluster
 
 cluster_18  = cluster
 
- |> ['.','h','a','l','a','n','^','g'] <| [
+ |> ['.','h','a','l','a','n'] <| [
 
-    _____ |< Iy               `noun`    {- <.halan^gIy> -}     [ ['s','w','i','n','d','l','e','r'], ['c','h','e','a','t'] ]
-                              `plural`     _____ |< Iy |< aT
+    _____ |<< "^g" |< Iy      `noun`    {- <.halan^gIy> -}     [ ['s','w','i','n','d','l','e','r'], ['c','h','e','a','t'] ]
+                              `plural`     _____ |<< "^g" |< Iy |< aT
                            
     `derives` otherwise ]
 
@@ -545,11 +542,11 @@ cluster_23  = cluster
 
  |> ".h m r" <| [
 
-    YaFCUL                    `noun`    {- <ya.hmUr> -}        [ ['d','e','e','r'], ['h','e','m','o','g','l','o','b','i','n'] ],
-
     FaCCaL                    `verb`    {- <.hammar> -}        [ ['r','e','d','d','e','n'], ['r','o','a','s','t'] ],
 
     IFCaLL                    `verb`    {- <i.hmarr> -}        [ unwords [ ['t','u','r','n'], ['r','e','d'] ], ['b','l','u','s','h'] ],
+
+    YaFCUL                    `noun`    {- <ya.hmUr> -}        [ ['d','e','e','r'], ['h','e','m','o','g','l','o','b','i','n'] ],
 
     FuCaL                     `noun`    {- <.humar> -}         [ ['a','s','p','h','a','l','t'] ],
 
@@ -576,9 +573,13 @@ cluster_23  = cluster
                               `plural`     FuCL
                               `femini`     FaCLA',
 
-    HaFCaL                    `adj`     {- <'a.hmar> -}        [ ['R','e','d'], ['A','l','h','a','m','b','r','a'], ['r','e','d','s'], ['r','e','d','s','k','i','n','s'] ]
-                              `plural`     FuCL
-                              `femini`     FaCLA',
+    HaFCaL                    `noun`    {- <'a.hmar> -}        [ ['r','e','d'], ['r','e','d','s','k','i','n'] ]
+                              `plural`     FuCL,
+
+    FaCLA'                    `noun`    {- <.hamrA'> -}        [ ['r','e','d'], ['r','e','d','s','k','i','n'] ]
+                              `plural`     FaCLA' |< At,
+
+    al >| FaCLA'              `noun`    {- <al-.hamrA'> -}     [ ['A','l','h','a','m','b','r','a'] ],
 
     IFCiLAL                   `noun`    {- <i.hmirAr> -}       [ ['r','e','d','d','e','n','i','n','g'], ['b','l','u','s','h','i','n','g'] ]
                               `plural`     IFCiLAL |< At,

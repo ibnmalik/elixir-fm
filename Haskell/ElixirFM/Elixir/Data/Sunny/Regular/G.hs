@@ -1040,7 +1040,7 @@ cluster_71  = cluster
 
     FACiL |< aT               `noun`    {- <sAbi.haT> -}       [ ['g','l','i','d','e','r'], ['s','a','i','l','p','l','a','n','e'] ],
 
-    FACiL |< At               `noun`    {- <sAbi.hAt> -}       [ unwords [ ['r','a','c','e'], ['h','o','r','s','e','s'] ] ]
+    FACiL                     `noun`    {- <sAbi.h> -}         [ unwords [ ['r','a','c','e'], ['h','o','r','s','e'] ] ]
                               `plural`     FACiL |< At
                               `plural`     FawACiL,
 
@@ -1205,8 +1205,7 @@ cluster_81  = cluster
 
     HuFCUL |< Iy              `adj`     {- <'usbU`Iy> -}       [ ['w','e','e','k','l','y'] ],
 
-    FaCUL |< At               `noun`    {- <sabU`At> -}        [ ['P','e','n','t','e','c','o','s','t'] ]
-                              `plural`     FaCUL |< At,
+    FaCUL |< At               `noun`    {- <sabU`At> -}        [ ['P','e','n','t','e','c','o','s','t'] ],
 
     FACiL                     `adj`     {- <sAbi`> -}          [ ['s','e','v','e','n','t','h'] ],
 

@@ -659,8 +659,8 @@ cluster_42  = cluster
 
  |> ['t','a','r','A','m'] <| [
 
-    _____ |< At               `noun`    {- <tarAmAt> -}        [ ['t','r','a','m','w','a','y'] ]
-                              `plural`     _____ ]
+    _____                     `noun`    {- <tarAm> -}          [ ['t','r','a','m','w','a','y'] ]
+                              `plural`     _____ |< At ]
 
 
 cluster_43  = cluster

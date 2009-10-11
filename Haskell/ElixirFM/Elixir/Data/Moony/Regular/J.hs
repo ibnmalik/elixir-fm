@@ -1464,8 +1464,7 @@ cluster_57  = cluster
     MaFCUL                    `noun`    {- <ma`rU.d> -}        [ ['e','x','p','o','s','i','t','i','o','n'], ['r','e','p','o','r','t'], ['p','e','t','i','t','i','o','n'] ]
                               `plural`     MaFACIL,
 
-    MaFCUL |< At              `noun`    {- <ma`rU.dAt> -}      [ ['t','e','n','d','e','r','s'], ['p','r','o','p','o','s','a','l','s'], ['e','x','h','i','b','i','t','s'] ]
-                              `plural`     MaFCUL |< At,
+    MaFCUL |< At              `noun`    {- <ma`rU.dAt> -}      [ ['t','e','n','d','e','r','s'], ['p','r','o','p','o','s','a','l','s'], ['e','x','h','i','b','i','t','s'] ],
 
     MuFaCCaL                  `adj`     {- <mu`arra.d> -}      [ ['e','x','p','o','s','e','d'], ['v','u','l','n','e','r','a','b','l','e'] ],
 
@@ -1474,10 +1473,7 @@ cluster_57  = cluster
                            
     `derives` otherwise,
 
-    MutaFACiL                 `noun`    {- <muta`Ari.d> -}     [ unwords [ ['c','l','a','s','h','i','n','g'], ['w','i','t','h'], ['e','a','c','h'], ['o','t','h','e','r'] ], unwords [ ['i','n'], ['c','o','n','f','l','i','c','t'], ['w','i','t','h'], ['e','a','c','h'], ['o','t','h','e','r'] ] ]
-                              `plural`     MutaFACiL |< Un
-                           
-    `derives` otherwise,
+    MutaFACiL                 `adj`     {- <muta`Ari.d> -}     [ unwords [ ['c','l','a','s','h','i','n','g'], ['w','i','t','h'], ['e','a','c','h'], ['o','t','h','e','r'] ], unwords [ ['i','n'], ['c','o','n','f','l','i','c','t'], ['w','i','t','h'], ['e','a','c','h'], ['o','t','h','e','r'] ] ],
 
     MuFtaCiL                  `adj`     {- <mu`tari.d> -}      [ ['o','p','p','o','s','e','d'], ['r','e','s','i','s','t','i','n','g'] ],
 
@@ -1624,8 +1620,7 @@ cluster_61  = cluster
 
     FaCIL                     `adj`     {- <`arIq> -}          [ unwords [ ['d','e','e','p'], "-", ['r','o','o','t','e','d'] ], unwords [ ['a','n','c','i','e','n','t'], ['a','n','d'], ['n','o','b','l','e'] ] ],
 
-    FaCIL |< At               `noun`    {- <`arIqAt> -}        [ ['E','r','e','k','a','t'], ['A','r','i','q','a','t'] ]
-                              `plural`     FaCIL |< At,
+    FaCIL |< At               `noun`    {- <`arIqAt> -}        [ ['E','r','e','k','a','t'], ['A','r','i','q','a','t'] ],
 
     FiCAL                     `noun`    {- <`irAq> -}          [ ['I','r','a','q'] ],
 

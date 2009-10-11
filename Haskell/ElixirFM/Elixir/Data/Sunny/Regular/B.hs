@@ -1274,10 +1274,8 @@ cluster_86  = cluster
 
     FaCL                      `noun`    {- <da.hr> -}          [ ['a','b','a','n','d','o','n','i','n','g'], ['l','e','a','v','i','n','g'] ],
 
-    InFiCAL                   `noun`    {- <indi.hAr> -}       [ ['b','a','n','i','s','h','m','e','n','t'], ['r','e','j','e','c','t','i','o','n'] ]
+    InFiCAL                   `noun`    {- <indi.hAr> -}       [ ['b','a','n','i','s','h','m','e','n','t'], ['r','e','j','e','c','t','i','o','n'], ['d','e','f','e','a','t'], ['c','o','l','l','a','p','s','e'] ]
                               `plural`     InFiCAL |< At,
-
-    InFiCAL |< At             `noun`    {- <indi.hArAt> -}     [ ['d','e','f','e','a','t'], ['c','o','l','l','a','p','s','e'] ],
 
     MaFCUL                    `adj`     {- <mad.hUr> -}        [ ['e','x','p','e','l','l','e','d'], ['b','a','n','i','s','h','e','d'] ] ]
 

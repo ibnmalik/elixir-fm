@@ -776,8 +776,7 @@ cluster_47  = cluster
 
     FiCLY                     `noun`    {- <_dikrY> -}         [ ['c','o','m','m','e','m','o','r','a','t','i','o','n'], ['r','e','m','e','m','b','r','a','n','c','e'] ],
 
-    FiCLY |< At               `noun`    {- <_dikrayAt> -}      [ ['m','e','m','o','i','r','s'], ['d','i','a','r','y'] ]
-                              `plural`     FiCLY |< At,
+    FiCLY |< At               `noun`    {- <_dikrayAt> -}      [ ['m','e','m','o','i','r','s'], ['d','i','a','r','y'] ],
 
     FaCIL                     `noun`    {- <_dakIr> -}         [ ['s','t','e','e','l'] ],
 
@@ -804,9 +803,7 @@ cluster_47  = cluster
 
     MuFaCCaL                  `noun`    {- <mu_dakkar> -}      [ ['m','a','s','c','u','l','i','n','e'] ],
 
-    MuFaCCiL |< aT            `noun`    {- <mu_dakkiraT> -}    [ ['r','e','m','i','n','d','e','r'], ['m','e','m','o','r','a','n','d','u','m'] ],
-
-    MuFaCCiL |< At            `noun`    {- <mu_dakkirAt> -}    [ ['m','e','m','o','i','r','s'], ['d','i','a','r','y'] ]
+    MuFaCCiL |< aT            `noun`    {- <mu_dakkiraT> -}    [ ['r','e','m','i','n','d','e','r'], ['m','e','m','o','r','a','n','d','u','m'], ['m','e','m','o','i','r','s'], ['d','i','a','r','y'] ]
                               `plural`     MuFaCCiL |< At ]
 
  |> ['t','a','_','d','k','a','r'] <| [

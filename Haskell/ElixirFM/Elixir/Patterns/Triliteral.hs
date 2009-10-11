@@ -242,7 +242,7 @@ instance Rules PatternT where
                             FaCCULY,
                             FaCALIn,
                             FaCLAn,
-                            FaCALIL,
+                            FaCALIL, FaCALIy,
                             YaFACIL ]
 
 
