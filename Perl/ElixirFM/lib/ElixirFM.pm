@@ -26,20 +26,24 @@ no warnings 'recursion';
 
 sub foldr (&$@) {
 
-    my ($fun, $nil, @lst) = @_;
+    my ($fun, $nil, @lst, $lst) = @_;
 
     return $nil unless @lst;
 
-    return $fun->($lst[0], foldr $fun, $nil, @lst[1 .. @lst - 1]);
+    ($lst, @lst) = @lst;
+
+    return $fun->($lst, foldr $fun, $nil, @lst);
 }
 
 sub foldl (&$@) {
 
-    my ($fun, $nil, @lst) = @_;
+    my ($fun, $nil, @lst, $lst) = @_;
 
     return $nil unless @lst;
 
-    return foldl $fun, $fun->($nil, $lst[0]), @lst[1 .. @lst - 1];
+    ($lst, @lst) = @lst;
+
+    return foldl $fun, $fun->($nil, $lst), @lst;
 }
 
 sub nub (&@) {
@@ -953,7 +957,9 @@ sub mergeSuffix {
                    "UW"  => "aW",
 
                    "Ina" => "ayna",
-                   "I"   => "ay"     );
+                   "I"   => "ay",
+
+                   "^g"  => "a^g"   );
 
         if (($x) = $_[1] =~ /^"(.*)"$/) {
 
@@ -965,8 +971,6 @@ sub mergeSuffix {
             return $x if $x =~ /^at/;
 
             return "aw" . $x if $x =~ /^u/;
-
-            return "a^g" if $x =~ /^a?\^g$/;
         }
 
         return "ay" . showSuffix($_[1]);
@@ -987,7 +991,11 @@ sub mergeSuffix {
                    "UW"  => "UW",
 
                    "Ina" => "Ina",
-                   "I"   => "I"     );
+                   "I"   => "I",
+
+                   "Iy"  => "Iy",
+
+                   "mA"  => "ImA"   );
 
         if (($x) = $_[1] =~ /^"(.*)"$/) {
 
@@ -999,8 +1007,6 @@ sub mergeSuffix {
             return "I" . $x if $x =~ /^[nt]/;
 
             return $x if $x =~ /^[iu]/;
-
-            return "Iy" if $x eq "Iy";
         }
 
         return "iy" . showSuffix($_[1]);
@@ -1021,7 +1027,12 @@ sub mergeSuffix {
                    "UW"  => "aW",
 
                    "Ina" => "ayna",
-                   "I"   => "ay"     );
+                   "I"   => "ay",
+
+                   "Iy"  => "AnIy",
+                   "At"  => "A'At",
+
+                   "_dA" => "A_dA"  );
 
         if (($x) = $_[1] =~ /^"(.*)"$/) {
 
@@ -1055,7 +1066,9 @@ sub mergeSuffix {
                    "I"   => "I",
 
                    "u"   => "U",
-                   "i"   => "I"     );
+                   "i"   => "I",
+
+                   "^g"  => "U^g"   );
 
         if (($x) = $_[1] =~ /^"(.*)"$/) {
 

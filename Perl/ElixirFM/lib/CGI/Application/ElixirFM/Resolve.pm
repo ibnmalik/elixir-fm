@@ -81,17 +81,25 @@ sub pretty_resolve_tree {
 
     return $q->li([ map {
 
-        $q->span({-title => "possible tokenization"}, pretty_resolve_data($_, $q)) . "\n" . $q->ul($q->li([ map {
+        my (undef, @data) = @{$_};
 
-        $q->span({-title => "token form variants"}, pretty_resolve_forms($_, $q)) . "\n" . $q->ul($q->li([ map {
+        $q->span({-title => "possible tokenization"}, pretty_resolve_data($_, $q)) . "\n" .
 
-            pretty_resolve_lexeme($_, $q)
+        $q->ul($q->li([ map {
 
-                } @{$_}[1 .. @{$_} - 1] ] ))
+                my (undef, @data) = @{$_};
 
-                } @{$_}[1 .. @{$_} - 1] ] ))
+                $q->span({-title => "token form variants"}, pretty_resolve_forms($_, $q)) . "\n" .
 
-                } @data ]);
+                $q->ul($q->li([ map {
+
+                    pretty_resolve_lexeme($_, $q)
+
+                } @data ))
+
+            } @data ))
+
+        } @data ]);
 }
 
 sub pretty_resolve_data {
@@ -108,7 +116,7 @@ sub pretty_resolve_data {
 
                                 escape decode "buckwalter", encode "buckwalter", decode "arabtex", $_
 
-                            } ElixirFM::nub { $_[0] } map { $_->[0][1] } map { @{$_}[1 .. @{$_} - 1] } @{$_}[1 .. @{$_} - 1]);
+                            } ElixirFM::nub { $_[0] } map { $_->[1] } map { @{$_}[1 .. @{$_} - 1] } @{$_}[1 .. @{$_} - 1]);
 
                             join " ", @x > 3 ? ($x[0], '..', $x[-1]) : @x
 
@@ -131,7 +139,7 @@ sub pretty_resolve_forms {
 sub pretty_resolve_lexeme {
 
     my ($node, @data) = @{$_[0]};
-    
+
     my @data = ElixirFM::concise @data;
 
     my @info = @{$node};

@@ -64,6 +64,21 @@ instance Pretty (MorphoLists a) => Pretty [MorphoLists a] where
     pretty = vcat . map pretty
 
 
+instance Pretty [[[[Wrap Token]]]] => Pretty [[[[[Wrap Token]]]]] where
+
+    pretty = vcat . map pretty
+
+
+instance Pretty (String, MorphoTrees a) => Pretty [(String, MorphoTrees a)] where
+
+    pretty = vcat . map pretty
+
+
+instance Pretty (String, MorphoLists a) => Pretty [(String, MorphoLists a)] where
+
+    pretty = vcat . map pretty
+
+
 instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pretty (Token a) where
 
     pretty x =  pretty t <> align (
@@ -82,11 +97,11 @@ instance Pretty [Wrap Token] where
 
     pretty []       = text "!!! Empty Tokens !!!"
 
-    pretty xs@(x:_) = nest 2 (text ": " <> align (
+    pretty xs@(x:_) = text ": " <> nest 2 ( align (
 
             vcat [ unwraps (\ (Token (Lexeme r e, i) (d, m) t) ->
 
-                    nest 10 ( (fill 10 . text . show) i <>
+                    (fill 10 . text . show) i <> nest 10 (
 
                         (text . ('\t' :) . concat . map (unwords . words) . lines . show . pretty) (entity e)
 
@@ -95,21 +110,21 @@ instance Pretty [Wrap Token] where
 
                     <$$> pretty t <>
 
-                    encloseText [merge d m, show d, show m]) y | y <- xs ] ) )
+                    encloseText [merge d m, show d, show m] ) y | y <- xs ] ) )
 
 
 instance Pretty (MorphoTrees [Wrap Token]) where
 
     pretty (MorphoTrees [])       = text "!!! Empty Tokens !!!"
 
-    pretty (MorphoTrees xs@(x:_)) = nest 2 (text ": " <> align (
+    pretty (MorphoTrees xs@(x:_)) = text ": " <> nest 2 ( align (
 
-            nest 10 ( unwraps (\ (Token (Lexeme r e, i) _ _) -> (fill 10 . text . show) i <>
+            ( unwraps (\ (Token (Lexeme r e, i) _ _) -> (fill 10 . text . show) i <> nest 10 (
 
                         (text . ('\t' :) . concat . map (unwords . words) . lines . show . pretty) (entity e)
 
                         <$$> encloseText [show (reflex e), show (lookupForm r e)]
-                        <$$> encloseText [merge r (morphs e), show r, show (morphs e)]) x )
+                        <$$> encloseText [merge r (morphs e), show r, show (morphs e)] )) x )
 
             <$$> vcat [ unwraps (\ (Token _ (d, m) t) -> pretty t <>
 
@@ -118,7 +133,7 @@ instance Pretty (MorphoTrees [Wrap Token]) where
 
 instance Pretty (MorphoLists [Wrap Token]) where
 
-    pretty (MorphoLists x) = nest 2 (text ": " <> align (
+    pretty (MorphoLists x) = text ": " <> nest 2 ( align (
 
             text ("<" ++ unwords [ x | (x : _, _) <- y ] ++ ">")
 
@@ -129,7 +144,7 @@ instance Pretty (MorphoLists [Wrap Token]) where
 
 instance Pretty [Wrap Token] => Pretty [[Wrap Token]] where
 
-    pretty x = nest 1 (text (":: <" ++ unwords z ++ ">") <> foldr ((<>) . (<>) line . pretty) empty x)
+    pretty x = text (":: <" ++ unwords z ++ ">") <> nest 1 (foldr ((<>) . (<>) line . pretty) empty x)
 
         where y = nub [ z | y <- x, z <- map (unwraps (uncurry merge . struct)) y ]
 
@@ -138,7 +153,7 @@ instance Pretty [Wrap Token] => Pretty [[Wrap Token]] where
 
 instance Pretty (MorphoTrees [Wrap Token]) => Pretty (MorphoTrees [[Wrap Token]]) where
 
-    pretty (MorphoTrees x) = nest 1 (text (":: <" ++ unwords z ++ ">") <> foldr ((<>) . (<>) line . pretty . MorphoTrees) empty x)
+    pretty (MorphoTrees x) = text (":: <" ++ unwords z ++ ">") <> nest 1 (foldr ((<>) . (<>) line . pretty . MorphoTrees) empty x)
 
         where y = nub [ z | y <- x, z <- map (unwraps (uncurry merge . struct)) y ]
 
@@ -151,14 +166,12 @@ instance Pretty (MorphoLists [Wrap Token]) => Pretty (MorphoLists [[Wrap Token]]
 
     pretty (MorphoLists xs@(x:_)) = nest 1 (text ":: " <> align ( vcat [
 
-                unwraps (\ (Token (Lexeme r e, i) _ _) -> (fill 10 . text . show) i <>
-
-                    nest 10 (
+                unwraps (\ (Token (Lexeme r e, i) _ _) -> (fill 10 . text . show) i <> nest 10 (
 
                         (text . ('\t' :) . concat . map (unwords . words) . lines . show . pretty) (entity e)
 
                         <$$> encloseText [show (reflex e), show (lookupForm r e)]
-                        <$$> encloseText [merge r (morphs e), show r, show (morphs e)]) ) y | y <- x ] )
+                        <$$> encloseText [merge r (morphs e), show r, show (morphs e)] ) ) y | y <- x ] )
 
                 <$$> vcat (map (pretty . MorphoLists) xs) )
 
@@ -173,7 +186,7 @@ instance Pretty [[Wrap Token]] => Pretty [[[Wrap Token]]] where
 
 instance Pretty (MorphoTrees [[Wrap Token]]) => Pretty (MorphoTrees [[[Wrap Token]]]) where
 
-    pretty (MorphoTrees x) = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . (<>) (line <> line)) empty p)
+    pretty (MorphoTrees x) = text ("::" ++ unwords s) <> nest 1 (foldr ((<>) . (<>) (line <> line)) empty p)
 
         where p = map (pretty . MorphoTrees) x
               s = map (drop 1 . concat . take 1 . lines . show) p
@@ -181,7 +194,7 @@ instance Pretty (MorphoTrees [[Wrap Token]]) => Pretty (MorphoTrees [[[Wrap Toke
 
 instance Pretty (MorphoLists [[Wrap Token]]) => Pretty (MorphoLists [[[Wrap Token]]]) where
 
-    pretty (MorphoLists x) = nest 1 (text ("::: " ++ unwords z) <> foldr ((<>) . (<>) (line <> line)) empty p)
+    pretty (MorphoLists x) = text ("::: " ++ unwords z) <> nest 1 (foldr ((<>) . (<>) (line <> line)) empty p)
 
         where p = map (pretty . MorphoLists) x
               s = (nub . concat) (map (map (drop 3) . filter (isPrefixOf " : <") . lines . show) p)
@@ -192,7 +205,7 @@ instance Pretty [[[Wrap Token]]] => Pretty [[[[Wrap Token]]]] where
 
     pretty [] = text "::::" <> line
 
-    pretty x = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . (<>) (line <> line)) line p)
+    pretty x = text ("::" ++ unwords s) <> nest 1 (foldr ((<>) . (<>) (line <> line)) empty p) <> line
 
         where p = map pretty x
               s = map (drop 1 . concat . take 1 . lines . show) p
@@ -202,7 +215,7 @@ instance Pretty (MorphoTrees [[[Wrap Token]]]) => Pretty (MorphoTrees [[[[Wrap T
 
     pretty (MorphoTrees []) = text "::::" <> line
 
-    pretty (MorphoTrees x) = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . (<>) (line <> line)) line p)
+    pretty (MorphoTrees x) = text ("::" ++ unwords s) <> nest 1 (foldr ((<>) . (<>) (line <> line)) empty p) <> line
 
         where p = map (pretty . MorphoTrees) x
               s = map (drop 1 . concat . take 1 . lines . show) p
@@ -212,25 +225,31 @@ instance Pretty (MorphoLists [[[Wrap Token]]]) => Pretty (MorphoLists [[[[Wrap T
 
     pretty (MorphoLists []) = text "::::" <> line
 
-    pretty (MorphoLists x) = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . (<>) (line <> line)) line p)
+    pretty (MorphoLists x) = text ("::" ++ unwords s) <> nest 1 (foldr ((<>) . (<>) (line <> line)) empty p) <> line
 
         where p = map (pretty . MorphoLists) x
               s = map (drop 1 . concat . take 1 . lines . show) p
 
 
-instance Pretty [[[[Wrap Token]]]] => Pretty [[[[[Wrap Token]]]]] where
+instance Pretty [[[Wrap Token]]] => Pretty (String, [[[[Wrap Token]]]]) where
 
-    pretty = vcat . map pretty
+    pretty (w, x) = text (":::: " ++ w) <> nest 1 (foldr ((<>) . (<>) (line <> line)) empty p) <> line
 
-
-instance Pretty (MorphoTrees [[[[Wrap Token]]]]) => Pretty (MorphoTrees [[[[[Wrap Token]]]]]) where
-
-    pretty (MorphoTrees x) = vcat (map (pretty . MorphoTrees) x)
+        where p = map pretty x
 
 
-instance Pretty (MorphoLists [[[[Wrap Token]]]]) => Pretty (MorphoLists [[[[[Wrap Token]]]]]) where
+instance Pretty (MorphoTrees [[[Wrap Token]]]) => Pretty (String, MorphoTrees [[[[Wrap Token]]]]) where
 
-    pretty (MorphoLists x) = vcat (map (pretty . MorphoLists) x)
+    pretty (w, MorphoTrees x) = text (":::: " ++ w) <> nest 1 (foldr ((<>) . (<>) (line <> line)) empty p) <> line
+
+        where p = map (pretty . MorphoTrees) x
+
+
+instance Pretty (MorphoLists [[[Wrap Token]]]) => Pretty (String, MorphoLists [[[[Wrap Token]]]]) where
+
+    pretty (w, MorphoLists x) = text (":::: " ++ w) <> nest 1 (foldr ((<>) . (<>) (line <> line)) empty p) <> line
+
+        where p = map (pretty . MorphoLists) x
 
 
 prune :: [[[a]]] -> [[[a]]]
@@ -371,6 +390,21 @@ harmony (ParaZero _) 	_	= [Nothing]
 harmony (ParaGrph _) 	_	= [Nothing]
 
 
+category :: Char -> Char -> Bool
+
+category x y | isArabic x = isArabic y
+             | isLetter x = isLetter y
+             | isNumber x = isNumber y
+             | otherwise  = False
+
+
+isArabic :: Char -> Bool
+
+isArabic y = 0x0620 < x && x < 0x063B || 0x063F < x && x < 0x0653
+
+    where x = ord y
+
+
 class Fuzzy a => Resolve a where
 
     resolve :: a -> [[[[[Wrap Token]]]]]
@@ -379,7 +413,11 @@ class Fuzzy a => Resolve a where
 
     tokenize :: a -> [[a]]
 
+    analyze :: ([[[[Wrap Token]]]] -> b [[[[Wrap Token]]]]) -> a -> [(String, b [[[[Wrap Token]]]])]
+
     resolve = resolveBy (==) (==) . (\ x -> [[[x]]])
+
+    analyze f = map ((,) "") . map f . resolve
 
 
 instance Resolve String where
@@ -588,7 +626,25 @@ instance Resolve String where
 
 instance Resolve [UPoint] where
 
-    resolve = map harmonize . resolveBy alike (omitting alike omits) . map (tokenize . decode UCS) . words . encode UCS
+    analyze f x = [ (x, f $ Map.findWithDefault (Map.findWithDefault [] x defaults) x resolves) | x <- w ]
+
+            where w = (concat . map (groupBy category) . words . encode UCS) x
+
+                  (r, q) = partition (any isArabic) w
+
+                  resolves = (Map.fromList . zip r . map harmonize . resolveBy alike (omitting alike omits) . map (tokenize . decode UCS)) r
+
+                  defaults = (Map.fromList . zip q . map (\ x -> if any isLetter x then []
+
+                                                            else if any isNumber x then []
+
+                                                            else if any isSymbol x then []
+
+                                                            else if any isPunctuation x then []
+
+                                                                                   else [])) q
+
+    resolve = map harmonize . resolveBy alike (omitting alike omits) . map (tokenize . decode UCS) . concat . map (groupBy category) . words . encode UCS
 
     resolveBy b q z = [ [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- w ] | w <- z ]
 

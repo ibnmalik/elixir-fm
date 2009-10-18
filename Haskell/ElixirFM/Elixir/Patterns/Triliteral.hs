@@ -213,7 +213,7 @@ instance Rules PatternT where
                             FaCALY, FaCAyY, FaCAwY,
                             FuCALY,
                             FaCLA',
-                            FuCaLA',
+                            FuCaLA', MuFaLA',
                             HaFCiLA', HACiLA', HaFILA', HaFCiyA', HaFiCLA',
                             FaCA'iL, FayA'iL,
                             FaCAyiL,
@@ -229,8 +229,9 @@ instance Rules PatternT where
                             TaFACIL, TawACIL,
                             MaFACiL, MaFA'iL, MaFACL, MawACiL, MayACiL,
                             MaFACIL, MaFA'IL, MawACIL, MayACIL,
+                            FaCALIy, FawALIy,
                             -- FuCaL, FuCAL,
-                            FiCLiyA',
+                            FiCLiyA', FILiyA',
                             FACiLA', FACiyA',
                             FACULA',
                             FaCILA',
@@ -242,7 +243,7 @@ instance Rules PatternT where
                             FaCCULY,
                             FaCALIn,
                             FaCLAn,
-                            FaCALIL, FaCALIy,
+                            FaCALIL,
                             YaFACIL ]
 
 
@@ -905,7 +906,7 @@ data PatternT =
 
         |   FaCLA'
 
-        |   FuCaLA'
+        |   FuCaLA'                     |   MuFaLA'
 
         |   FACiLA'                                     |   FACiyA'
         |   FACULA'
@@ -920,6 +921,7 @@ data PatternT =
         |   FuCLIy                      |   FULIy
 
         |   FaCLAy
+        |   FiCLAy
         |   FuCLAy
 
         |   FaCALIy                     |   FawALIy
@@ -1072,7 +1074,7 @@ data PatternT =
         |   FaCULY
         |   FaCCULY
 
-        |   FaCLY                                       |   FaCwY
+        |   FaCLY       |   TaCLY                       |   FaCwY
         |   FiCLY                       |   FILY
         |   FuCLY                       |   FULY        |   FuCyY
 

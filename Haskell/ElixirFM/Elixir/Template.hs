@@ -143,7 +143,7 @@ isClosed _ = True
 
                                  | "u"  `isPrefixOf` x  -> "aw" ++ x
 
-                                 | x `elem` ["^g", "a^g"]   -> "a^g"
+                        Suffix "^g"     -> "a^g"
 
                         _       -> "ay" ++ show x
 
@@ -172,6 +172,8 @@ isClosed _ = True
 
                         Suffix "Iy"     -> "Iy"
 
+                        Suffix "mA"     -> "ImA"
+
                         _       -> "iy" ++ show x
 
 'A' -<- x = case x of   AT      -> "AT"
@@ -194,6 +196,11 @@ isClosed _ = True
                                  | "at" `isPrefixOf` x  -> x
 
                                  | "u"  `isPrefixOf` x  -> "aw" ++ x
+
+                        Suffix "Iy"     -> "AnIy"
+                        Suffix "At"     -> "A'At"
+
+                        Suffix "_dA"    -> "A_dA"
 
                         _       -> "aw" ++ show x
 
@@ -220,6 +227,8 @@ isClosed _ = True
 
                                  | "i" `isPrefixOf` x ||
                                    "u" `isPrefixOf` x    -> x
+
+                        Suffix "^g"     -> "U^g"
 
                         _       -> "uw" ++ show x
 

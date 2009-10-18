@@ -49,7 +49,7 @@ import Data.List hiding (lookup)
 
 import Version
 
-version = Version [1, 1, max build 885] []
+version = Version [1, 1, max build 890] []
 
     where Version [build] [] = revised "$Revision$"
 
@@ -145,27 +145,30 @@ warn = hPutStr stderr
 
 elixirResolve o p = interact (unlines . map (show . q . words) . onlines)
 
-    where q = r . map harmonize . case e of
+    where q x = case e of
 
-                "tex"   ->  resolveBy (fst f') (omitting (snd f') omits) . map t'
-
-                            where f' = if f then (alike, alike) else (fuzzy, fuzzy)
-                                  t' = if t then tokenize else (\ x -> [[x]])
-
-                "tim"   ->  resolveBy (fst f') (omitting (snd f') omits) . map (t' . decode Tim)
+                "tex"   ->  (r x . map harmonize . resolveBy (fst f') (omitting (snd f') omits) . map t') x
 
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
                                   t' = if t then tokenize else (\ x -> [[x]])
 
-                _       ->  resolveBy (fst f') (omitting (snd f') omits) . map (t' . decode UTF)
+                "tim"   ->  (r x . map harmonize . resolveBy (fst f') (omitting (snd f') omits) . map (t' . decode Tim)) x
 
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
                                   t' = if t then tokenize else (\ x -> [[x]])
+
+                _       ->  (r x' . map harmonize . resolveBy (fst f') (omitting (snd f') omits) . map (t' . decode UTF)) x'
+
+                            where f' = if f then (alike, alike) else (fuzzy, fuzzy)
+                                  t' = if t then tokenize else (\ x -> [[x]])
+                                  x' = concat (map (groupBy category) x)
+
+          r x = if [ () | ListsResolve <- o ]
+                 > [ () | TreesResolve <- o ] then singleline pretty . zip x . map morpholists 
+                                              else singleline pretty . zip x . map morphotrees
 
           f = null [ () | FuzzyResolve <- o ]
           t = null [ () | QuickResolve <- o ]
-          r = if   [ () | ListsResolve <- o ]
-                 > [ () | TreesResolve <- o ] then pretty . map morpholists else pretty . map morphotrees
 
           e = if null p then "" else map toLower (head p)
 
