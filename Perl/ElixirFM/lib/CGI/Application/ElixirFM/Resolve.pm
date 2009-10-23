@@ -95,9 +95,9 @@ sub pretty_resolve_tree {
 
                     pretty_resolve_lexeme($_, $q)
 
-                } @data ))
+                } @data ]))
 
-            } @data ))
+            } @data ]))
 
         } @data ]);
 }

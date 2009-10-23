@@ -268,10 +268,14 @@ morphotrees = MorphoTrees . map (
 
                         map (   map (\ (_, x) -> let n = nub x in
 
-                                    unwraps (\ (Token (l@(Lexeme r e), i) _ _) -> [ w |
+                                    unwraps (\ (Token (l@(Lexeme r e), i) _ _) -> case n of 
+                                            
+                                                    [_] ->  n
+                                                    
+                                                    _   ->  [ w |
 
-                                                    (t, y) <- inflect l ((expand . domain) e), z <- y,
-                                                    let w = wrap (Token (l, i) z t), any (w ==) n ]
+                                                                (t, y) <- inflect l ((expand . domain) e), z <- y,
+                                                                let w = wrap (Token (l, i) z t), any (w ==) n ]
 
                                         ) (head x)) .
 
@@ -634,13 +638,24 @@ instance Resolve [UPoint] where
 
                   resolves = (Map.fromList . zip r . map harmonize . resolveBy alike (omitting alike omits) . map (tokenize . decode UCS)) r
 
-                  defaults = (Map.fromList . zip q . map (\ x -> if any isLetter x then []
+                  defaults = (Map.fromList . zip q . map (\ x -> if any isLetter x then let l = Lexeme "" ("" `zero` []) in [[[[wrap (Token (l, (0,1)) 
+                                                                                                                                       ("", morph x)
+                                                                                                                                       (ParaZero ZeroZ))]]]]
 
-                                                            else if any isNumber x then []
+                                                            else if any isNumber x then let l = Lexeme "" ("" `num` []) in [[[[wrap (Token (l, (0,2)) 
+                                                                                                                                       ("", morph x)
+                                                                                                                                       (ParaNum NumQ))]]]]
 
-                                                            else if any isSymbol x then []
+                                                            else if any isSymbol x then let l = Lexeme "" ("" `grph` []) in [[[[wrap (Token (l, (0,3)) 
+                                                                                                                                       ("", morph x)
+                                                                                                                                       (ParaGrph GrphG))]]]]
 
-                                                            else if any isPunctuation x then []
+                                                            else if any isPunctuation x then 
+                                                            
+                                                                                        let l = Lexeme "" ("" `grph` []) in [[[[wrap (Token (l, (0,3)) 
+                                                                                                                                       ("", morph x)
+                                                                                                                                       (ParaGrph GrphG))]]]]
+
 
                                                                                    else [])) q
 

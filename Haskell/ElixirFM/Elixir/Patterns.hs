@@ -45,6 +45,8 @@ version = revised "$Revision$"
 
 instance Template String where
 
+    interlocks _ _ [] t = restore t
+
     interlocks _ s r t = (concat . modify) t
 
         where modify | isForm VIII t                      = assimiVIII
@@ -63,18 +65,18 @@ instance Template String where
                              (replace . tail) taCaL
 
                     where (iF, taCaL) = break ('t' ==) x
-                          (z, d) = case r of []      -> ("F", "t")
-                                             ["'", "_h", "_d"]
-                                                     -> assimVIII "'" True
-                                             (c : _) -> assimVIII c False
+                          (z, d) = case r of ["'", "_h", "_d"]
+                                                    -> assimVIII "'" True
+                                             c : _  -> assimVIII c False
+                                             _      -> ("F", "t")
 
               assimiVII  x = (replace . restore . init) iN
                              ++ [n, m] ++
                              (replace . tail) faCaL
 
                     where (iN, faCaL) = break ('F' ==) x
-                          (n, m) = case r of []      -> ("n", "F")
-                                             (c : _) -> assimVII c False
+                          (n, m) = case r of c : _  -> assimVII c False
+                                             _      -> ("n", "F")
 
               replace x = [ maybe [c] id (lookup c lock) | c <- x ]
 

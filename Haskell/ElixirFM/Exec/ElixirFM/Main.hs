@@ -49,7 +49,7 @@ import Data.List hiding (lookup)
 
 import Version
 
-version = Version [1, 1, max build 890] []
+version = Version [1, 1, max build 891] []
 
     where Version [build] [] = revised "$Revision$"
 
@@ -143,7 +143,7 @@ tell = hPutStr stdout
 warn = hPutStr stderr
 
 
-elixirResolve o p = interact (unlines . map (show . q . words) . onlines)
+elixirResolve o p = interact (unlines . map (encode UTF . decode UCS . show . q . words . encode UCS . decode UTF) . onlines)
 
     where q x = case e of
 
@@ -157,14 +157,14 @@ elixirResolve o p = interact (unlines . map (show . q . words) . onlines)
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
                                   t' = if t then tokenize else (\ x -> [[x]])
 
-                _       ->  (r x' . map harmonize . resolveBy (fst f') (omitting (snd f') omits) . map (t' . decode UTF)) x'
+                _       ->  (r x' . map harmonize . resolveBy (fst f') (omitting (snd f') omits) . map (t' . decode UCS)) x'
 
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
                                   t' = if t then tokenize else (\ x -> [[x]])
                                   x' = concat (map (groupBy category) x)
 
           r x = if [ () | ListsResolve <- o ]
-                 > [ () | TreesResolve <- o ] then singleline pretty . zip x . map morpholists 
+                 > [ () | TreesResolve <- o ] then singleline pretty . zip x . map morpholists
                                               else singleline pretty . zip x . map morphotrees
 
           f = null [ () | FuzzyResolve <- o ]
@@ -173,7 +173,7 @@ elixirResolve o p = interact (unlines . map (show . q . words) . onlines)
           e = if null p then "" else map toLower (head p)
 
 
-elixirInflect o p = interact (unlines . map (show . q) . map words . onlines)
+elixirInflect o p = interact (unlines . map (show . q . words) . onlines)
 
     where q x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (inflect (Lexeme r e) x) | e <- z ]) w ]
 
@@ -211,7 +211,7 @@ elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) 
           e = if null p then "" else map toLower (head p)
 
 
-elixirDerive o p = interact (unlines . map (show . q) . map words . onlines)
+elixirDerive o p = interact (unlines . map (show . q . words) . onlines)
 
     where q x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (derive (Lexeme r e) x) | e <- z ]) w ]
 
