@@ -45,9 +45,8 @@ version = revised "$Revision$"
 
 instance Template String where
 
-    interlocks _ _ [] t = restore t
-
-    interlocks _ s r t = (concat . modify) t
+    interlocks _ s r t | null r    = restore t
+                       | otherwise = (concat . modify) t
 
         where modify | isForm VIII t                      = assimiVIII
                      | isForm VII  t                      = assimiVII

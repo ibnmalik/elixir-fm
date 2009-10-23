@@ -62,18 +62,18 @@ instance Template PatternT where
                              (replace . tail) taCaL
 
                     where (iF, taCaL) = break ('t' ==) x
-                          (z, d) = case r of []      -> ("F", "t")
-                                             ["'", "_h", "_d"]
-                                                     -> assimVIII "'" False
-                                             (c : _) -> assimVIII c True
+                          (z, d) = case r of ["'", "_h", "_d"]
+                                                    -> assimVIII "'" False
+                                             c : _  -> assimVIII c True
+                                             _      -> ("F", "t")
 
               assimiVII  x = (replace . restore . init) iN
                              ++ [n, m] ++
                              (replace . tail) faCaL
 
                     where (iN, faCaL) = break ('F' ==) x
-                          (n, m) = case r of []      -> ("n", "F")
-                                             (c : _) -> assimVII c True
+                          (n, m) = case r of c : _  -> assimVII c True
+                                             _      -> ("n", "F")
 
               replace x = [ maybe [c] id (lookup c lock) | c <- x ]
 
