@@ -76,7 +76,7 @@ sub elixir {
 
     my $text = join "\n", @_;
 
-    $text = encode "utf8", $text if Encode::is_utf8($text);
+    my $code = Encode::is_utf8($text);
 
     my $caller = caller 0;
 
@@ -88,13 +88,11 @@ sub elixir {
 
     my $handle = new File::Temp;
 
-    print $handle $text;
+    print $handle $code ? encode "utf8", $text : $text;
 
     my $data = scalar `"$system" $params < "$handle"`;
 
-    $data = decode "utf8", $data if Encode::is_utf8($text);
-
-    return $data;
+    return $code ? decode "utf8", $data : $data;
 }
 
 
