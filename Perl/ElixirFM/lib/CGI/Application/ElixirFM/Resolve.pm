@@ -131,7 +131,7 @@ sub pretty_resolve_forms {
 
     my $q = $_[1];
 
-    return join " ", map { join " ", map { escape decode "zdmg", $_ } @{$_} } @{$node};
+    return join " ", map { join " ", map { escape decode "zdmg", $_ } split " ", substr $_, 1, -1 } @{$node};
 }
 
 sub pretty_resolve_lexeme {
