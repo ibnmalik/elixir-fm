@@ -44,7 +44,7 @@ sub pretty ($$$) {
 
     my $r = '';
 
-    $r .= $q->p({-class => 'notice'}, 'The numbers of input and output words are not equal! ' . (scalar @text) . " <> " . (scalar @word)) unless @text == @word;
+    $r .= $q->p({-class => 'notice'}, escape 'The numbers of input and output words are not equal! ' . @text . " <> " . @word) unless @text == @word;
 
     for (my $i = 0; $i < @word; $i++) {
 
@@ -52,9 +52,7 @@ sub pretty ($$$) {
                      $q->span({-class => "word",
                                -title => "input word"}, $text[$i]));
 
-        # $word[$i] = ElixirFM::prune($word[$i]);
-
-        if (@{$word[$i]}) {
+        if (@{$word[$i]} > 1) {
 
             $r .= $q->ul({-class => 'listexpander'}, pretty_resolve_tree($word[$i], $q));
         }
@@ -133,7 +131,7 @@ sub pretty_resolve_forms {
 
     my $q = $_[1];
 
-    return join " ", map { join " ", map { escape decode "zdmg", $_ } split " ", substr $_, 1, -1 } @{$node};
+    return join " ", map { join " ", map { escape decode "zdmg", $_ } @{$_} } @{$node};
 }
 
 sub pretty_resolve_lexeme {

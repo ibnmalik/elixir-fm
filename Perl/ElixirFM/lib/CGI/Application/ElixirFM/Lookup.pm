@@ -63,13 +63,13 @@ sub pretty_lookup_data {
 
     my $clip = '(' . $_[2]->[0] . ',Nothing)';
 
-    my $root = decode "arabtex", ElixirFM::cling($_->{'root'}, "|");
-
     return $q->table({-cellspacing => 0, -class => "nest"},
-                     $q->Tr($q->td({-class => "root"}, escape join " ", (decode "zdmg", $_->{'root'}), $root),
+                     $q->Tr($q->td({-class => "root", 
+                                    -title => "common root"}, escape join " ", (decode "zdmg", $_->{'root'}), 
+                                                                               (decode "arabtex", ElixirFM::cling($_->{'root'}, "|"))),
                             $q->td({-class => "button"},
                                    $q->a({-title => "lookup all entries under this root",
-                                          -href => 'index.fcgi?mode=lookup' . '&text=' . (escape join " ", split "", $root)}, "Lookup"))
+                                          -href => 'index.fcgi?mode=lookup' . '&text=' . (escape decode "arabtex", $_->{'root'})}, "Lookup"))
                 ));
 }
 
@@ -140,8 +140,6 @@ sub pretty_lookup_entry {
 	$info[4] = join " ", map { @{$_} } grep { defined $_ } @ents[0 .. 2];
 
     $info[5] = ElixirFM::merge($data->{'root'}, $info[0]);
-
-    my $root = join " ", (decode "zdmg", $data->{'root'}), (decode "arabtex", ElixirFM::cling($data->{'root'}));
 
     return join $",
 

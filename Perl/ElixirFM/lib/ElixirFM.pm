@@ -552,7 +552,7 @@ sub unpretty_resolve {
                     my ($node, @data) = split /(?<![\t\n ])(?:[\t ]*\n)+$i(?![\t\n ])/, $_;
 
                     [
-                        [ join ' ', split ' ', $node ],
+                        [ split ' ', substr $node, 1, -1 ],
 
                         map {
 
@@ -565,7 +565,7 @@ sub unpretty_resolve {
             ]
 
         :   [
-                [ join ' ', split ' ', $node ],
+                [ split ' ', substr $node, 1, -1 ],
 
                 map {
 
@@ -609,14 +609,14 @@ sub unpretty {
             my ($node, @data) = split /[:]{3}/, $_;
 
             [
-                [ map { join ' ', split ' ' } split /[:]{2}/, $node ],
+                [ split ' ', $node ],
 
                 map {
 
                     my ($node, @data) = split /[:]{2}/, $_;
 
                     [
-                        [ map { join ' ', split ' ' } split /[:]{1}/, $node ],
+                        [ map { join ' ', split ' ' } split /(?<=[>])\s+(?=[<])/, $node ],
 
                         map {
 

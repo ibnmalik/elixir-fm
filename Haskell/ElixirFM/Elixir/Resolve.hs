@@ -95,7 +95,7 @@ instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pret
 
 instance Pretty [Wrap Token] where
 
-    pretty []       = text "!!! Empty Tokens !!!"
+    pretty []       = text ":"
 
     pretty xs@(x:_) = text ": " <> nest 2 ( align (
 
@@ -115,7 +115,7 @@ instance Pretty [Wrap Token] where
 
 instance Pretty (MorphoTrees [Wrap Token]) where
 
-    pretty (MorphoTrees [])       = text "!!! Empty Tokens !!!"
+    pretty (MorphoTrees [])       = text ":"
 
     pretty (MorphoTrees xs@(x:_)) = text ": " <> nest 2 ( align (
 
@@ -178,18 +178,18 @@ instance Pretty (MorphoLists [Wrap Token]) => Pretty (MorphoLists [[Wrap Token]]
 
 instance Pretty [[Wrap Token]] => Pretty [[[Wrap Token]]] where
 
-    pretty x = nest 1 (text ("::" ++ unwords s) <> foldr ((<>) . (<>) (line <> line)) empty p)
+    pretty x = nest 1 (text ("::: " ++ unwords s) <> foldr ((<>) . (<>) (line <> line)) empty p)
 
         where p = map pretty x
-              s = map (drop 1 . concat . take 1 . lines . show) p
+              s = map (drop 3 . concat . take 1 . lines . show) p
 
 
 instance Pretty (MorphoTrees [[Wrap Token]]) => Pretty (MorphoTrees [[[Wrap Token]]]) where
 
-    pretty (MorphoTrees x) = text ("::" ++ unwords s) <> nest 1 (foldr ((<>) . (<>) (line <> line)) empty p)
+    pretty (MorphoTrees x) = text ("::: " ++ unwords s) <> nest 1 (foldr ((<>) . (<>) (line <> line)) empty p)
 
         where p = map (pretty . MorphoTrees) x
-              s = map (drop 1 . concat . take 1 . lines . show) p
+              s = map (drop 3 . concat . take 1 . lines . show) p
 
 
 instance Pretty (MorphoLists [[Wrap Token]]) => Pretty (MorphoLists [[[Wrap Token]]]) where
@@ -268,10 +268,10 @@ morphotrees = MorphoTrees . map (
 
                         map (   map (\ (_, x) -> let n = nub x in
 
-                                    unwraps (\ (Token (l@(Lexeme r e), i) _ _) -> case n of 
-                                            
+                                    unwraps (\ (Token (l@(Lexeme r e), i) _ _) -> case n of
+
                                                     [_] ->  n
-                                                    
+
                                                     _   ->  [ w |
 
                                                                 (t, y) <- inflect l ((expand . domain) e), z <- y,
@@ -638,21 +638,21 @@ instance Resolve [UPoint] where
 
                   resolves = (Map.fromList . zip r . map harmonize . resolveBy alike (omitting alike omits) . map (tokenize . decode UCS)) r
 
-                  defaults = (Map.fromList . zip q . map (\ x -> if any isLetter x then let l = Lexeme "" ("" `zero` []) in [[[[wrap (Token (l, (0,1)) 
+                  defaults = (Map.fromList . zip q . map (\ x -> if any isLetter x then let l = Lexeme "" ("" `zero` []) in [[[[wrap (Token (l, (0,1))
                                                                                                                                        ("", morph x)
                                                                                                                                        (ParaZero ZeroZ))]]]]
 
-                                                            else if any isNumber x then let l = Lexeme "" ("" `num` []) in [[[[wrap (Token (l, (0,2)) 
+                                                            else if any isNumber x then let l = Lexeme "" ("" `num` []) in [[[[wrap (Token (l, (0,2))
                                                                                                                                        ("", morph x)
                                                                                                                                        (ParaNum NumQ))]]]]
 
-                                                            else if any isSymbol x then let l = Lexeme "" ("" `grph` []) in [[[[wrap (Token (l, (0,3)) 
+                                                            else if any isSymbol x then let l = Lexeme "" ("" `grph` []) in [[[[wrap (Token (l, (0,3))
                                                                                                                                        ("", morph x)
                                                                                                                                        (ParaGrph GrphG))]]]]
 
-                                                            else if any isPunctuation x then 
-                                                            
-                                                                                        let l = Lexeme "" ("" `grph` []) in [[[[wrap (Token (l, (0,3)) 
+                                                            else if any isPunctuation x then
+
+                                                                                        let l = Lexeme "" ("" `grph` []) in [[[[wrap (Token (l, (0,3))
                                                                                                                                        ("", morph x)
                                                                                                                                        (ParaGrph GrphG))]]]]
 
