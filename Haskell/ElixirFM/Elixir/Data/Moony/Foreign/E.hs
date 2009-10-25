@@ -11,16 +11,16 @@ lexicon = include section
 
 cluster_1   = cluster
 
- |> ['b','I','r','I'] <| [
+ |> ['b','A','r','I'] <| [
 
-    _____                     `xtra`    {- <bIrI> -}           [ ['P','e','r','r','y'] ] ]
+    _____                     `xtra`    {- <bArI> -}           [ ['P','a','r','i','s'] ] ]
 
 
 cluster_2   = cluster
 
- |> ['b','I','r','U'] <| [
+ |> ['b','I','r','I'] <| [
 
-    _____                     `xtra`    {- <bIrU> -}           [ ['P','e','r','u'] ] ]
+    _____                     `xtra`    {- <bIrI> -}           [ ['P','e','r','r','y'] ] ]
 
 
 cluster_3   = cluster

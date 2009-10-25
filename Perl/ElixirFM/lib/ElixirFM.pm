@@ -649,9 +649,11 @@ sub unpretty {
 
                     my (@ents) = $data =~ /(<Entry>.*?<\/Entry>)/gs;
 
+                    $root = parse($root)->[2];
+
                     {
                         'clip'  =>  ( join '', split ' ', $clip ),
-                        'root'  =>  parse($root)->[2],
+                        'root'  =>  ( ref $root ? "" : $root ),
                         'ents'  =>  [ @ents ],
                     }
 

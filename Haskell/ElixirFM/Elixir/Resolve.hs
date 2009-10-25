@@ -69,6 +69,11 @@ instance Pretty [[[[Wrap Token]]]] => Pretty [[[[[Wrap Token]]]]] where
     pretty = vcat . map pretty
 
 
+instance Pretty (String, [[[[Wrap Token]]]]) => Pretty [(String, [[[[Wrap Token]]]])] where
+
+    pretty = vcat . map pretty
+
+
 instance Pretty (String, MorphoTrees a) => Pretty [(String, MorphoTrees a)] where
 
     pretty = vcat . map pretty
@@ -266,18 +271,16 @@ morphotrees :: [[[[Wrap Token]]]] -> MorphoTrees [[[[Wrap Token]]]]
 
 morphotrees = MorphoTrees . map (
 
-                        map (   map (\ (_, x) -> let n = nub x in
+                        map (   map (\ (_, x) -> let n = nub x in case n of
 
-                                    unwraps (\ (Token (l@(Lexeme r e), i) _ _) -> case n of
+                                        [_] ->  n
 
-                                                    [_] ->  n
+                                        _   ->  unwraps (\ (Token (l@(Lexeme r e), i) _ _) -> [ w |
 
-                                                    _   ->  [ w |
+                                                        (t, y) <- inflect l ((expand . domain) e), z <- y,
+                                                        let w = wrap (Token (l, i) z t), any (w ==) n ]
 
-                                                                (t, y) <- inflect l ((expand . domain) e), z <- y,
-                                                                let w = wrap (Token (l, i) z t), any (w ==) n ]
-
-                                        ) (head x)) .
+                                                ) (head x)) .
 
                                 Map.toList . Map.fromListWith (++) .
 
@@ -404,29 +407,34 @@ category x y | isArabic x = isArabic y
 
 isArabic :: Char -> Bool
 
-isArabic y = 0x0620 < x && x < 0x063B || 0x063F < x && x < 0x0653
+isArabic x = 0x0620 < y && y < 0x063B || 0x063F < y && y < 0x0653
 
-    where x = ord y
+    where y = ord x
 
 
 class Fuzzy a => Resolve a where
 
-    resolve :: a -> [[[[[Wrap Token]]]]]
+    resolve :: a -> [(String, [[[[Wrap Token]]]])]
 
     resolveBy :: (String -> String -> Bool) -> ([a] -> [a] -> Bool) -> [[[a]]] -> [[[[[Wrap Token]]]]]
 
     tokenize :: a -> [[a]]
 
-    analyze :: ([[[[Wrap Token]]]] -> b [[[[Wrap Token]]]]) -> a -> [(String, b [[[[Wrap Token]]]])]
-
-    resolve = resolveBy (==) (==) . (\ x -> [[[x]]])
-
-    analyze f = map ((,) "") . map f . resolve
+    resolve = map ((,) "") . resolveBy (==) (==) . (\ x -> [[[x]]])
 
 
 instance Resolve String where
 
-    resolve = map harmonize . resolveBy alike (omitting alike omits) . map tokenize . words
+ -- resolve = map harmonize . resolveBy alike (omitting alike omits) . map tokenize . words
+
+    resolve x = [ (e, Map.findWithDefault (defaults e) e r) | e <- w ]
+
+            where w = words x
+
+                  z = (nub . filter (any isLetter)) w
+
+                  r = (Map.fromList . zip z . map harmonize . resolveBy alike (omitting alike omits) . map tokenize) z
+
 
     resolveBy b q z = [ [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- w ] | w <- z ]
 
@@ -628,38 +636,31 @@ instance Resolve String where
                     _                       ->  []
 
 
+defaults :: String -> [[[[Wrap Token]]]]
+
+defaults x@(c : _) | isPunctuation c ||
+
+                     isSymbol c       = [[[[wrap (Token (Lexeme "" ("" `grph` []), (0,1)) ("", morph x) (ParaGrph GrphG))]]]]
+
+                   | isNumber c       = [[[[wrap (Token (Lexeme "" ("" `num` []),  (0,2)) ("", morph x) (ParaNum NumQ))]]]]
+
+                   | otherwise        = []
+
+defaults []                           = []
+
+
 instance Resolve [UPoint] where
 
-    analyze f x = [ (x, f $ Map.findWithDefault (Map.findWithDefault [] x defaults) x resolves) | x <- w ]
+ -- resolve = map harmonize . resolveBy alike (omitting alike omits) . map (tokenize . decode UCS) . words . encode UCS
+
+    resolve x = [ (e, Map.findWithDefault (defaults e) e r) | e <- w ]
 
             where w = (concat . map (groupBy category) . words . encode UCS) x
 
-                  (r, q) = partition (any isArabic) w
+                  z = (nub . filter (any isArabic)) w
 
-                  resolves = (Map.fromList . zip r . map harmonize . resolveBy alike (omitting alike omits) . map (tokenize . decode UCS)) r
+                  r = (Map.fromList . zip z . map harmonize . resolveBy alike (omitting alike omits) . map (tokenize . decode UCS)) z
 
-                  defaults = (Map.fromList . zip q . map (\ x -> if any isLetter x then let l = Lexeme "" ("" `zero` []) in [[[[wrap (Token (l, (0,1))
-                                                                                                                                       ("", morph x)
-                                                                                                                                       (ParaZero ZeroZ))]]]]
-
-                                                            else if any isNumber x then let l = Lexeme "" ("" `num` []) in [[[[wrap (Token (l, (0,2))
-                                                                                                                                       ("", morph x)
-                                                                                                                                       (ParaNum NumQ))]]]]
-
-                                                            else if any isSymbol x then let l = Lexeme "" ("" `grph` []) in [[[[wrap (Token (l, (0,3))
-                                                                                                                                       ("", morph x)
-                                                                                                                                       (ParaGrph GrphG))]]]]
-
-                                                            else if any isPunctuation x then
-
-                                                                                        let l = Lexeme "" ("" `grph` []) in [[[[wrap (Token (l, (0,3))
-                                                                                                                                       ("", morph x)
-                                                                                                                                       (ParaGrph GrphG))]]]]
-
-
-                                                                                   else [])) q
-
-    resolve = map harmonize . resolveBy alike (omitting alike omits) . map (tokenize . decode UCS) . concat . map (groupBy category) . words . encode UCS
 
     resolveBy b q z = [ [ [ Map.findWithDefault [] x resolves | x <- p ] | p <- w ] | w <- z ]
 

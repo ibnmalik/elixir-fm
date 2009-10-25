@@ -346,9 +346,9 @@ cluster_45  = cluster
 
 cluster_46  = cluster
 
- |> ['\'','I','t','^','s','I','b','I','r','y','A'] <| [
+ |> ['\'','I','t','^','s','I','b','I','r'] <| [
 
-    _____                     `xtra`    {- <'It^sIbIryA> -}    [ ['E','c','h','e','v','e','r','r','i','a'] ] ]
+    _____ |< iyA              `xtra`    {- <'It^sIbIriyA> -}   [ ['E','c','h','e','v','e','r','r','i','a'] ] ]
 
 
 cluster_47  = cluster
