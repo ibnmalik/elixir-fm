@@ -68,10 +68,10 @@ sub pretty_lookup_data {
     return $q->table({-cellspacing => 0, -class => "nest"},
                      $q->Tr($q->td({-class => "root", 
                                     -title => "common root"}, escape join " ", (decode "zdmg", $_->{'root'}), 
-                                                                               (decode "arabtex", ElixirFM::cling($_->{'root'}, "|"))),
+                                                                               (quote decode "arabtex", ElixirFM::cling($_->{'root'}, "|"))),
                             $q->td({-class => "button"},
                                    $q->a({-title => "lookup all entries under this root",
-                                          -href => 'index.fcgi?mode=lookup' . '&text=' . (escape decode "arabtex", $_->{'root'})}, "Lookup"))
+                                          -href => 'index.fcgi?mode=lookup' . '&text=' . (escape quote decode "arabtex", $_->{'root'})}, "Lookup"))
                 ));
 }
 

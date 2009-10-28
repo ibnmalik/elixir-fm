@@ -81,6 +81,11 @@ sub escape ($) {
     return $text;
 }
 
+sub quote ($) {
+
+    return $_[0] eq '' ? '""' : $_[0];
+}
+
 sub revert ($) {
 
     my $text = shift;
