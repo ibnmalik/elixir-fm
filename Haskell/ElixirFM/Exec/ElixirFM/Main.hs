@@ -47,9 +47,11 @@ import Data.Char
 
 import Data.List hiding (lookup)
 
+import qualified Data.Map as Map
+
 import Version
 
-version = Version [1, 1, max build 891] []
+version = Version [1, 1, max build 898] []
 
     where Version [build] [] = revised "$Revision$"
 
@@ -147,25 +149,34 @@ elixirResolve o p = interact (unlines . map (encode UTF . decode UCS . show . q 
 
     where q x = case e of
 
-                "tex"   ->  (r x . map harmonize . resolveBy (fst f') (omitting (snd f') omits) . map t') x
+                "tex"   ->  r [ (e, Map.findWithDefault (defaults e) e z) | e <- x ]
 
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
                                   t' = if t then tokenize else (\ x -> [[x]])
 
-                "tim"   ->  (r x . map harmonize . resolveBy (fst f') (omitting (snd f') omits) . map (t' . decode Tim)) x
+                                  y = (nub . filter (any isLetter)) x
+                                  z = (Map.fromList . zip y . map harmonize . resolveBy (fst f') (omitting (snd f') omits) . map t') y
+
+                "tim"   ->  r [ (e, Map.findWithDefault (defaults e) e z) | e <- x ]
 
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
                                   t' = if t then tokenize else (\ x -> [[x]])
 
-                _       ->  (r x' . map harmonize . resolveBy (fst f') (omitting (snd f') omits) . map (t' . decode UCS)) x'
+                                  y = (nub . filter (any isArabic . encode UCS . decode Tim)) x
+                                  z = (Map.fromList . zip y . map harmonize . resolveBy (fst f') (omitting (snd f') omits) . map (t' . decode Tim)) y
+
+                _       ->  r [ (e, Map.findWithDefault (defaults e) e z) | e <- w ]
 
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
                                   t' = if t then tokenize else (\ x -> [[x]])
-                                  x' = concat (map (groupBy category) x)
 
-          r x = if [ () | ListsResolve <- o ]
-                 > [ () | TreesResolve <- o ] then singleline pretty . zip x . map morpholists
-                                              else singleline pretty . zip x . map morphotrees
+                                  w = (concat . map (groupBy category)) x
+                                  y = (nub . filter (any isArabic)) w
+                                  z = (Map.fromList . zip y . map harmonize . resolveBy (fst f') (omitting (snd f') omits) . map (t' . decode UCS)) y
+
+          r = if [ () | ListsResolve <- o ]
+               > [ () | TreesResolve <- o ] then singleline pretty . map (\ (x, y) -> (x, morpholists y))
+                                            else singleline pretty . map (\ (x, y) -> (x, morphotrees y))
 
           f = null [ () | FuzzyResolve <- o ]
           t = null [ () | QuickResolve <- o ]
