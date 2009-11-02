@@ -1094,13 +1094,13 @@ cluster_55  = cluster
 
  |> ".d .g .t" <| [
 
-    FaCaL                     `verb`    {- <.da.ga.t> -}       [ ['p','r','e','s','s'], ['p','u','s','h'], ['p','r','e','s','s','u','r','i','z','e'], ['c','o','m','p','r','e','s','s'] ]
+    FaCaL                     `verb`    {- <.da.ga.t> -}       [ ['p','r','e','s','s'], ['p','u','s','h'], ['p','r','e','s','s','u','r','i','z','e'], ['c','o','m','p','r','e','s','s'], ['c','l','i','c','k'] ]
                               `imperf`     FCaL
                               `masdar`     FaCL,
 
     InFaCaL                   `verb`    {- <in.da.ga.t> -}     [ unwords [ ['b','e'], ['p','r','e','s','s','e','d'] ], unwords [ ['b','e'], ['p','r','e','s','s','u','r','i','z','e','d'] ], unwords [ ['b','e'], ['c','o','m','p','r','e','s','s','e','d'] ] ],
 
-    FaCL                      `noun`    {- <.da.g.t> -}        [ ['p','r','e','s','s','i','n','g'], ['p','u','s','h','i','n','g'], ['p','r','e','s','s','u','r','i','z','i','n','g'], ['c','o','m','p','r','e','s','s','i','n','g'] ],
+    FaCL                      `noun`    {- <.da.g.t> -}        [ ['p','r','e','s','s','i','n','g'], ['p','u','s','h','i','n','g'], ['p','r','e','s','s','u','r','i','z','i','n','g'], ['c','o','m','p','r','e','s','s','i','n','g'], ['c','l','i','c','k','i','n','g'] ],
 
     FaCL                      `noun`    {- <.da.g.t> -}        [ ['p','r','e','s','s','u','r','e'], ['s','t','r','e','s','s'], ['v','o','l','t','a','g','e'] ]
                               `plural`     FuCUL,
@@ -1108,7 +1108,7 @@ cluster_55  = cluster
     FACiL                     `noun`    {- <.dA.gi.t> -}       [ ['c','o','m','p','r','e','s','s','o','r'], ['p','r','e','s','s','u','r','i','n','g'] ]
                               `plural`     FawACiL,
 
-    MaFCUL                    `noun`    {- <ma.d.gU.t> -}      [ ['c','o','m','p','r','e','s','s','e','d'] ],
+    MaFCUL                    `adj`     {- <ma.d.gU.t> -}      [ ['c','o','m','p','r','e','s','s','e','d'] ],
 
     FaCUL                     `adj`     {- <.da.gU.t> -}       [ ['c','o','m','p','r','e','s','s','i','b','l','e'], ['c','o','e','r','c','i','b','l','e'] ],
 

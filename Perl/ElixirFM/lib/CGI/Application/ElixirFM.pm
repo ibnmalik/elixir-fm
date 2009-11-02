@@ -20,7 +20,7 @@ use Unicode::Normalize;
 use base 'Exporter';
 
 our @EXPORT = (qw 'display_header display_headline display_welcome display_footline display_footer',
-               qw 'escape revert normalize',
+               qw 'escape quote revert normalize',
                qw '@modes %memoize %enc_hash @enc_list');
 
 

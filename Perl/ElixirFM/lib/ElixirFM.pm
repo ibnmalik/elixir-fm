@@ -530,7 +530,7 @@ sub parse {
 
 sub unpretty_resolve {
 
-    my ($node, @data) = split /[:]{1}/, $_[0];
+    my ($node, @data) = split /\n[\t ]*[:]{1}/, $_[0];
 
     return  $node =~ /[()]/
 

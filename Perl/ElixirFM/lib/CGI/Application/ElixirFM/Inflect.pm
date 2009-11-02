@@ -66,8 +66,8 @@ sub pretty_lookup_data {
     $clip = "($clip,Nothing)";
 
     return $q->table({-cellspacing => 0, -class => "nest"},
-                     $q->Tr($q->td({-class => "root", 
-                                    -title => "common root"}, escape join " ", (decode "zdmg", $_->{'root'}), 
+                     $q->Tr($q->td({-class => "root",
+                                    -title => "common root"}, escape join " ", (decode "zdmg", $_->{'root'}),
                                                                                (quote decode "arabtex", ElixirFM::cling($_->{'root'}, "|"))),
                             $q->td({-class => "button"},
                                    $q->a({-title => "lookup all entries under this root",

@@ -244,7 +244,7 @@ sub main ($) {
         $q->param('code', $example[$idx][0]);
 
         $q->param('fuzzy', '');
-        $q->param('token', '');
+        $q->param('quick', '');
     }
     else {
 
@@ -267,7 +267,7 @@ sub main ($) {
             $q->param('code', $example[0][0]);
 
             $q->param('fuzzy', '');
-            $q->param('token', '');
+            $q->param('quick', '');
 
             $memoize = 'yes';
         }
@@ -276,7 +276,7 @@ sub main ($) {
     $q->param('code', 'Unicode') unless defined $q->param('code');
 
     $q->param('fuzzy', '') unless defined $q->param('fuzzy');
-    $q->param('token', '') unless defined $q->param('token');
+    $q->param('quick', '') unless defined $q->param('quick');
 
     $r .= $q->p("ElixirFM can analyze non-tokenized as well as tokenized words, even if you omit some symbols or do not spell everything correctly.");
 
@@ -320,9 +320,9 @@ sub main ($) {
 
                     td( {-align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
 
-                        $q->checkbox_group( -name       =>  'token',
+                        $q->checkbox_group( -name       =>  'quick',
                                             -values     =>  [ 'Tokenized' ],
-                                            -default    =>  [ $q->param('token') ],
+                                            -default    =>  [ $q->param('quick') ],
                                             -title      =>  "consider each input word as one token",
                                             -linebreak  =>  0,
                                             -rows       =>  1,
@@ -356,7 +356,7 @@ sub main ($) {
 
     $q->param('text', $text);
 
-    my @param = map { $q->param($_) ? '--' . $_ : () } 'fuzzy', 'token';
+    my @param = map { $q->param($_) ? '--' . $_ : () } 'fuzzy', 'quick';
 
     my $reply = [$mode, [@param, $code], $text];
 
@@ -379,7 +379,7 @@ sub main ($) {
 
         print L join "\t", gmtime() . "", $code,
                            ($q->param('fuzzy') ? 'F' : 'A'),
-                           ($q->param('token') ? 'T' : 'N'),
+                           ($q->param('quick') ? 'T' : 'N'),
                            ($reply =~ m/^::::$/m ? '--' : '++'),
                            encode "utf8", $q->param('text') . "\n";
 
