@@ -28,7 +28,7 @@ import Elixir.Derive
 
 import Elixir.Pretty
 
-import Data.List (intersect, nub)
+import Data.List
 
 
 instance (Show a, Template a) => Pretty [(ParaType, [(Root, Morphs a)])] where
@@ -235,24 +235,25 @@ instance Inflect Lexeme TagsVerb where
                   where m@(Morphs t p s) = f x y
 
 
-    inflect (Lexeme r e) (TagsVerbC       g n) = [ (y, z) |
+    inflect (Lexeme r e) (TagsVerbC m     g n) = [ (y, z) |
 
             let d = domain e,
 
             TagsVerb y <- [d],
 
-            let g' = vals g
+            let m' = trim m [Jussive, Energetic]
+                g' = vals g
                 n' = vals n
 
-                d' = TagsVerbC g' n',
+                d' = TagsVerbC m' g' n',
 
-            TagsVerbC g' n' <- if null y then [d'] else restrict d' y,
+            TagsVerbC m' g' n' <- if null y then [d'] else restrict d' y,
 
             let inEntry = infoVerb r e,
 
-            n <- n', g <- g',
+            m <- m', n <- n', g <- g',
 
-            let x = VerbC g n
+            let x = VerbC m g n
 
                 theVariant = isVariant x
 
@@ -284,7 +285,7 @@ instance Inflect Lexeme TagsVerb where
 
             let y = ParaVerb x,
 
-            let z = paradigm (paraVerbC g n) ]
+            let z = paradigm (paraVerbC m g n) ]
 
         where reduce f (x, y) = case s of Suffix "" : q@(Suffix ('-' : _) : _) -> Morphs t p q
                                           _                                    -> m
@@ -302,9 +303,8 @@ instance Inflect Lexeme TagsNoun where
 
             let n' = vals n
                 c' = vals c
-                s' = if null s then l' else intersect s l'
+                s' = trim s [indefinite, construct, definite, absolute]
 
-                l' = [indefinite, construct, definite, absolute]
                 d' = TagsNounS [] [] [] n' c' s',
 
             TagsNounS _ _ _ n' c' s' <- if null y then [d'] else restrict d' y,
@@ -488,9 +488,8 @@ instance Inflect Lexeme TagsNum where
 
             let g' = vals g
                 c' = vals c
-                s' = if null s then l' else intersect s l'
+                s' = trim s [indefinite, construct, definite, absolute]
 
-                l' = [indefinite, construct, definite, absolute]
                 d' = TagsNumI g' c' s',
 
             TagsNumI g' c' s' <- if null y then [d'] else restrict d' y,
@@ -537,9 +536,8 @@ instance Inflect Lexeme TagsNum where
 
             let g' = vals g
                 c' = vals c
-                s' = if null s then l' else intersect s l'
+                s' = trim s [indefinite, construct, definite, absolute]
 
-                l' = [indefinite, construct, definite, absolute]
                 d' = TagsNumX g' c' s',
 
             TagsNumX g' c' s' <- if null y then [d'] else restrict d' y,
@@ -581,9 +579,8 @@ instance Inflect Lexeme TagsNum where
             TagsNum y <- [d],
 
             let c' = vals c
-                s' = if null s then l' else intersect s l'
+                s' = trim s [indefinite, construct, definite, absolute]
 
-                l' = [indefinite, construct, definite, absolute]
                 d' = TagsNumL c' s',
 
             TagsNumL c' s' <- if null y then [d'] else restrict d' y,
@@ -604,9 +601,8 @@ instance Inflect Lexeme TagsNum where
 
             let n' = vals n
                 c' = vals c
-                s' = if null s then l' else intersect s l'
+                s' = trim s [indefinite, construct, definite, absolute]
 
-                l' = [indefinite, construct, definite, absolute]
                 d' = TagsNumC n' c' s',
 
             TagsNumC n' c' s' <- if null y then [d'] else restrict d' y,
@@ -628,9 +624,8 @@ instance Inflect Lexeme TagsNum where
             TagsNum y <- [d],
 
             let c' = vals c
-                s' = if null s then l' else intersect s l'
+                s' = trim s [indefinite, construct, definite, absolute]
 
-                l' = [indefinite, construct, definite, absolute]
                 d' = TagsNumD c' s',
 
             TagsNumD c' s' <- if null y then [d'] else restrict d' y,
@@ -651,9 +646,8 @@ instance Inflect Lexeme TagsNum where
 
             let n' = vals n
                 c' = vals c
-                s' = if null s then l' else intersect s l'
+                s' = trim s [indefinite, construct, definite, absolute]
 
-                l' = [indefinite, construct, definite, absolute]
                 d' = TagsNumM n' c' s',
 
             TagsNumM n' c' s' <- if null y then [d'] else restrict d' y,
@@ -876,7 +870,7 @@ inflectVerb (Lexeme r e) x@(VerbI m v p g n) = paradigm (paraVerbI m p g n)
                                 l <- nub ls ]
 
 
-inflectVerb (Lexeme r e) x@(VerbC       g n) = paradigm (paraVerbC g n)
+inflectVerb (Lexeme r e) x@(VerbC m     g n) = paradigm (paraVerbC m g n)
 
     where paradigm p = map ((,) r . reduce p) inEntry
 
@@ -939,20 +933,20 @@ isVariant (VerbP   _ p g n) = case (p, g, n) of
 
 isVariant (VerbI m _ p g n) = case (m, p, g, n) of
 
-                                (   _   , Third,  Feminine, Plural)   -> True
-                                (   _   , Second, Feminine, Plural)   -> True
-                                (Jussive, First,     _    ,    _    ) -> True
-                                (Jussive, Second, Feminine,    _    ) -> False
-                                (Jussive,   _   ,    _    , Singular) -> True
-                                (   _   ,   _   ,    _    ,    _    ) -> False
+                                (   _   , Third,  Feminine,  Plural)   -> True
+                                (   _   , Second, Feminine,  Plural)   -> True
+                                (Jussive, First,     _    ,     _    ) -> True
+                                (Jussive,   _   , Masculine, Singular) -> True
+                                (Jussive, Third,     _    ,  Singular) -> True
+                                (   _   ,   _   ,    _    ,     _    ) -> False
 
-isVariant (VerbC       g n) = case (g, n) of
+isVariant (VerbC m     g n) = case (m, g, n) of
 
-                                (Masculine, Singular) -> True
-                                (Feminine,  Plural)   -> True
-                                (    _    ,    _    ) -> False
+                                (   _   , Feminine,  Plural)   -> True
+                                (Jussive, Masculine, Singular) -> True
+                                (   _   ,    _    ,     _    ) -> False
 
-                            -- isVariant (VerbI Jussive Active Second g n)
+                            -- isVariant (VerbI m Active Second g n)
 
 
 isEndless :: ParaVerb -> Bool
@@ -964,7 +958,7 @@ isEndless (VerbI Jussive _ p g n) = case (p, g, n) of
                                 (First,     _    ,    _    )    ->  True
                                 (  _  ,     _    ,    _    )    ->  False
 
-isEndless (VerbC             g n) = case (g, n) of
+isEndless (VerbC Jussive     g n) = case (g, n) of
 
                                 (Masculine, Singular) -> True
                                 (    _    ,    _    ) -> False
@@ -1100,7 +1094,7 @@ suffixesVerbI m p g n = case m of
                 ( _ ,   Feminine)   ->  suffix "nAnni"
 
 
-paraVerbC g n i = case n of
+paraVerbC m g n i = case n of
 
             Singular    -> case g of
 

@@ -22,14 +22,14 @@ import FM.Generic.General
 
 import Elixir.Pretty
 
-import Data.Char (readLitChar, isSpace)
+import Data.Char
 
-import Data.List (intersect, nub)
+import Data.List
 
 
 data EntVerb a = EntVerbP          (a Voice) (a Person) (a Gender) (a Number)
                | EntVerbI (a Mood) (a Voice) (a Person) (a Gender) (a Number)
-               | EntVerbC                               (a Gender) (a Number)
+               | EntVerbC (a Mood)                      (a Gender) (a Number)
 
     -- deriving Eq -- (Show, Eq)
 
@@ -41,7 +41,8 @@ instance ShowE a => Show (EntVerb a) where
     show (EntVerbI m v p g n) =    "VI" ++ concat [showE m, showE v] ++ "-" ++
                                    concat [showE p, showE g, showE n] ++ "--"
 
-    show (EntVerbC       g n) =    "VC----" ++ concat [showE g, showE n] ++ "--"
+    show (EntVerbC m     g n) =    "VC" ++ concat [showE m] ++ "---" ++
+                                   concat [showE g, showE n] ++ "--"
 
 
 data EntPron a = EntPronS
@@ -100,9 +101,9 @@ type EntTags = EntType []
 type EntPara = EntType Id
 
 
-entPara = [EntVerb (Id (EntVerbC (Id Feminine) (Id Plural))),
+entPara = [EntVerb (Id (EntVerbC (Id Jussive) (Id Feminine) (Id Plural))),
            EntPron (Id (EntPronD (Id Feminine) (Id Singular) (Id Nominative))),
-           EntVerb (Id (EntVerbC (Id Masculine) (Id Dual)))]
+           EntVerb (Id (EntVerbC (Id Jussive) (Id Masculine) (Id Dual)))]
 
 
 entTags = [EntVerb ([]), EntPron ([]), EntVerb ([])]
@@ -169,7 +170,7 @@ data TagsType = TagsVerb  [TagsVerb]
 
 data TagsVerb = TagsVerbP             [Voice] [Person] [Gender] [Number]
               | TagsVerbI [Mood]      [Voice] [Person] [Gender] [Number]
-              | TagsVerbC                              [Gender] [Number]
+              | TagsVerbC [Mood]                       [Gender] [Number]
 
     deriving Eq
 
@@ -255,6 +256,12 @@ vals :: Param a => [a] -> [a]
 
 vals [] = values
 vals vs = vs
+
+
+trim :: Eq a => [a] -> [a] -> [a]
+
+trim [] ys = ys
+trim xs ys = intersect xs ys
 
 
 lets :: Param a => [a] -> [a] -> [[a]]
@@ -370,7 +377,7 @@ instance Restrict TagsType where
 
 instance Restrict TagsVerb where
 
-    complete = [TagsVerbP [] [] [] [], TagsVerbI [] [] [] [] [], TagsVerbC [] []]
+    complete = [TagsVerbP [] [] [] [], TagsVerbI [] [] [] [] [], TagsVerbC [] [] []]
 
     restrict (TagsVerbP   v p g n) y = [ TagsVerbP    v  p  g  n  |
                                          TagsVerbP    v' p' g' n' <- y,
@@ -383,8 +390,9 @@ instance Restrict TagsVerb where
                                          v <- lets v v', p <- lets p p',
                                          g <- lets g g', n <- lets n n' ]
 
-    restrict (TagsVerbC       g n) y = [ TagsVerbC          g  n  |
-                                         TagsVerbC          g' n' <- y,
+    restrict (TagsVerbC m     g n) y = [ TagsVerbC m'       g  n  |
+                                         TagsVerbC m'       g' n' <- y,
+                                                         m <- lets m m',
                                          g <- lets g g', n <- lets n n' ]
 
 
@@ -555,7 +563,7 @@ instance Show TagsVerb where
                                                  showlist g, showlist n,
                                                  noshowlist, noshowlist]
 
-    show (TagsVerbC       g n) = "VC" ++ concat [noshowlist, noshowlist,
+    show (TagsVerbC m     g n) = "VC" ++ concat [showlist m, noshowlist,
                                                  noshowlist, noshowlist,
                                                  showlist g, showlist n,
                                                  noshowlist, noshowlist]
@@ -738,7 +746,8 @@ instance Read TagsVerb where
                                                   (readData y6)
                                                   (readData y7)]
 
-                                'C' -> [TagsVerbC (readData y6)
+                                'C' -> [TagsVerbC (readData y2 `intersect` [Jussive, Energetic])
+                                                  (readData y6)
                                                   (readData y7)]
 
                                 _   -> [] ]
@@ -758,7 +767,7 @@ instance Read TagsNoun where
                                                  (readData y6)
                                                  (readData y7)
                                                  (readData y8)
-                                                 (readData y9) ]
+                                                 (readData y9 `intersect` [indefinite, construct, definite, absolute]) ]
 
 
 instance Read TagsAdj where
@@ -826,7 +835,7 @@ instance Read TagsNum where
 
                                 'I' -> [TagsNumI  (readData y6)
                                                   (readData y8)
-                                                  (readData y9)]
+                                                  (readData y9 `intersect` [indefinite, construct, definite, absolute])]
 
                                 'V' -> [TagsNumV  (readData y6)
                                                   (readData y8)
@@ -834,23 +843,23 @@ instance Read TagsNum where
 
                                 'X' -> [TagsNumX  (readData y6)
                                                   (readData y8)
-                                                  (readData y9)]
+                                                  (readData y9 `intersect` [indefinite, construct, definite, absolute])]
 
                                 'Y' -> [TagsNumY  (readData y6)]
 
                                 'L' -> [TagsNumL  (readData y8)
-                                                  (readData y9)]
+                                                  (readData y9 `intersect` [indefinite, construct, definite, absolute])]
 
                                 'C' -> [TagsNumC  (readData y7)
                                                   (readData y8)
-                                                  (readData y9)]
+                                                  (readData y9 `intersect` [indefinite, construct, definite, absolute])]
 
                                 'D' -> [TagsNumD  (readData y8)
-                                                  (readData y9)]
+                                                  (readData y9 `intersect` [indefinite, construct, definite, absolute])]
 
                                 'M' -> [TagsNumM  (readData y7)
                                                   (readData y8)
-                                                  (readData y9)]
+                                                  (readData y9 `intersect` [indefinite, construct, definite, absolute])]
 
                                 _   -> [] ]
 
@@ -983,10 +992,7 @@ noinflects = replicate 8 '-'
 
 readData :: (Param a, Show a) => String -> [a]
 
--- readData x = [ y | y <- values, show' y `elem` x ]
-
-readData x = [ y | let v = map (\ z -> (show' z, z)) values,
-                   c <- x, y <- maybe [] (:[]) (lookup c v) ]
+readData x = [ y | let v = [ (show' z, z) | z <- values ], c <- x, Just y <- [lookup c v] ]
 
 
 readSlot :: ReadS String
@@ -1168,7 +1174,7 @@ instance Param Grade    where values = enum
 
 data ParaVerb   = VerbP      Voice Person Gender Number
                 | VerbI Mood Voice Person Gender Number
-                | VerbC                   Gender Number
+                | VerbC Mood              Gender Number
     deriving Eq
 
 
@@ -1178,7 +1184,8 @@ instance Param ParaVerb where
                                    n <- values, p <- values, g <- values ]
             ++ [ VerbI m v p g n | m <- values, v <- values,
                                    n <- values, p <- values, g <- values ]
-            ++ [ VerbC       g n | n <- values, g <- values ]
+            ++ [ VerbC m     g n | m <- [Jussive, Energetic],
+                                   n <- values, g <- values ]
 
 
 instance Show ParaVerb where
@@ -1189,7 +1196,8 @@ instance Show ParaVerb where
     show (VerbI m v p g n) =    "VI" ++ [show' m, show' v] ++ "-" ++
                                    [show' p, show' g, show' n] ++ "--"
 
-    show (VerbC       g n) =    "VC----" ++ [show' g, show' n] ++ "--"
+    show (VerbC m     g n) =    "VC" ++ [show' m] ++ "---" ++
+                                   [show' g, show' n] ++ "--"
 
 
 data ParaNoun   = NounS              Number Case State
@@ -1203,7 +1211,8 @@ data ParaNoun   = NounS              Number Case State
 instance Param ParaNoun where
 
     values  =  [ NounS     n c s | n <- values,
-                                   s <- values, c <- values ]
+                                   s <- [indefinite, construct, definite, absolute],
+                                   c <- values ]
             -- ++ [ NounP v g n c s | v <- values, n <- values, g <- values,
             --                        s <- values, c <- values ]
             -- ++ [ NounA   g n c s | n <- values, g <- values,
@@ -1283,14 +1292,14 @@ data ParaNum = NumQ
 instance Param ParaNum where
 
     values =  [ NumQ ]
-           ++ [ NumI  g   c s | g <- values, c <- values, s <- values ]
-           ++ [ NumV  g   c s | g <- values, c <- values, s <- values ]
-           ++ [ NumX  g   c s | g <- values, c <- values, s <- values ]
+           ++ [ NumI  g   c s | g <- values, s <- [indefinite, construct, definite, absolute], c <- values ]
+           ++ [ NumV  g   c s | g <- values, s <- values,                                      c <- values ]
+           ++ [ NumX  g   c s | g <- values, s <- [indefinite, construct, definite, absolute], c <- values ]
            ++ [ NumY  g       | g <- values ]
-           ++ [ NumL      c s |              c <- values, s <- values ]
-           ++ [ NumC    n c s | n <- values, c <- values, s <- values ]
-           ++ [ NumD      c s |              c <- values, s <- values ]
-           ++ [ NumM    n c s | n <- values, c <- values, s <- values ]
+           ++ [ NumL      c s |              s <- [indefinite, construct, definite, absolute], c <- values ]
+           ++ [ NumC    n c s | n <- values, s <- [indefinite, construct, definite, absolute], c <- values ]
+           ++ [ NumD      c s |              s <- [indefinite, construct, definite, absolute], c <- values ]
+           ++ [ NumM    n c s | n <- values, s <- [indefinite, construct, definite, absolute], c <- values ]
 
 instance Show ParaNum where
 
@@ -1412,7 +1421,7 @@ revert :: ParaType -> TagsType
 
 revert (ParaVerb (VerbP   v p g n))  = TagsVerb [TagsVerbP     [v] [p] [g] [n]]
 revert (ParaVerb (VerbI m v p g n))  = TagsVerb [TagsVerbI [m] [v] [p] [g] [n]]
-revert (ParaVerb (VerbC       g n))  = TagsVerb [TagsVerbC             [g] [n]]
+revert (ParaVerb (VerbC m     g n))  = TagsVerb [TagsVerbC [m]         [g] [n]]
 
 revert (ParaNoun (NounS   n c s))  = TagsNoun [TagsNounS []  []  []  [n] [c] [s]]
 

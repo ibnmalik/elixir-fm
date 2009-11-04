@@ -36,7 +36,7 @@ import Elixir.Patterns.Triliteral
 
 import Elixir.Patterns.Quadriliteral
 
-import Data.List (isSuffixOf)
+import Data.List
 
 import Version
 

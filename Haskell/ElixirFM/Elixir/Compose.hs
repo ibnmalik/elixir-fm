@@ -170,7 +170,7 @@ rewrite (ParaVerb (VerbI Subjunctive _ Third  Masculine Plural)) (Just _) 'A' = 
 rewrite (ParaVerb (VerbI Jussive     _ Second Masculine Plural)) (Just _) 'A' = [""]
 rewrite (ParaVerb (VerbI Jussive     _ Third  Masculine Plural)) (Just _) 'A' = [""]
 
-rewrite (ParaVerb (VerbC Masculine Plural)) (Just _) 'A' = [""]
+rewrite (ParaVerb (VerbC Jussive Masculine Plural)) (Just _) 'A' = [""]
 
 rewrite (ParaPrep _) (Just "SP---1-S2-") 'n' = [""]
 rewrite (ParaPrep _) (Just "S---------") 'n' = [""]

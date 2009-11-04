@@ -26,7 +26,7 @@ import Elixir.Lexicon
 
 import Elixir.Pretty
 
-import Data.List (nub)
+import Data.List
 
 
 instance (Show a, Template a) => Pretty [(TagsType, [(Form, Lexeme a)])] where
