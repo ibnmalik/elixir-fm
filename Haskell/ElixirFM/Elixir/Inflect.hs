@@ -968,33 +968,36 @@ isEndless (VerbC Jussive     g n) = case (g, n) of
 isEndless _                 = False
 
 
-paraVerbP p g n = case n of
+paraVerbP p g n = suffix c
+
+    where c = case n of
 
             Singular    ->  case (p, g) of
 
-                (Third,  Masculine) ->  suffix "a"
-                (Third,  Feminine)  ->  suffix "at"     -- "at-i"
-                (Second, Masculine) ->  suffix "ta"
-                (Second, Feminine)  ->  suffix "ti"
-                (First,      _    ) ->  suffix "tu"
+                (Third,  Masculine) ->  "a"
+                (Third,  Feminine)  ->  "at"        -- "at-i"
+                (Second, Masculine) ->  "ta"
+                (Second, Feminine)  ->  "ti"
+                (First,      _    ) ->  "tu"
 
             Dual        -> case (p, g) of
 
-                (Third,  Masculine) ->  suffix "A"
-                (Third,  Feminine)  ->  suffix "atA"
-                (Second,     _    ) ->  suffix "tumA"
-                (First,      _    ) ->  suffix "nA"
+                (Third,  Masculine) ->  "A"
+                (Third,  Feminine)  ->  "atA"
+                (Second,     _    ) ->  "tumA"
+                (First,      _    ) ->  "nA"
 
             Plural      -> case (p, g) of
 
-                (Third,  Masculine) ->  suffix "UW"
-                (Third,  Feminine)  ->  suffix "na"
-                (Second, Masculine) ->  suffix "tum"    -- "tum-u"
-                (Second, Feminine)  ->  suffix "tunna"
-                (First,      _    ) ->  suffix "nA"
+                (Third,  Masculine) ->  "UW"
+                (Third,  Feminine)  ->  "na"
+                (Second, Masculine) ->  "tum"       -- "tum-u"
+                (Second, Feminine)  ->  "tunna"
+                (First,      _    ) ->  "nA"
 
 
 paraVerbI m p g n i = prefixesVerbI p g n i . suffixesVerbI m p g n
+
 
 prefixesVerbI p g n i = prefix (c : i)
 
@@ -1006,129 +1009,119 @@ prefixesVerbI p g n i = prefix (c : i)
                 (First,     _    ,    _    )  ->  'n'
                 (  _  ,     _    ,    _    )  ->  't'
 
-{-
-prefixesVerbI p g n i = case (p, g, n) of
 
-    (Third, Masculine,    _    )  ->  prefix ("y" ++ i)
-    (Third, Feminine,  Plural)    ->  prefix ("y" ++ i)
-    (First,     _    , Singular)  ->  prefix ("'" ++ i)
-    (First,     _    ,    _    )  ->  prefix ("n" ++ i)
-    (  _  ,     _    ,    _    )  ->  prefix ("t" ++ i)
--}
+suffixesVerbI m p g n = suffix c
 
-suffixesVerbI m p g n = case m of
+    where c = case m of
 
-    Indicative  ->  case n of
+            Indicative  ->  case n of
 
-            Singular    ->  case (p, g) of
+                    Singular    ->  case (p, g) of
 
-                (Second, Feminine)  ->  suffix "Ina"
-                ( _ ,    _    )     ->  suffix "u"
+                        (Second, Feminine)  ->  "Ina"
+                        ( _ ,    _    )     ->  "u"
 
-            Dual        -> case (p, g) of
+                    Dual        -> case (p, g) of
 
-                (First, _ )         ->  suffix "u"
-                ( _,    _ )         ->  suffix "Ani"
+                        (First, _ )         ->  "u"
+                        ( _,    _ )         ->  "Ani"
 
-            Plural      -> case (p, g) of
+                    Plural      -> case (p, g) of
 
-                (First, _ )         ->  suffix "u"
-                ( _,    Masculine)  ->  suffix "Una"
-                ( _,    Feminine)   ->  suffix "na"
+                        (First, _ )         ->  "u"
+                        ( _,    Masculine)  ->  "Una"
+                        ( _,    Feminine)   ->  "na"
 
+            Subjunctive ->  case n of
 
-    Subjunctive ->  case n of
+                    Singular    ->  case (p, g) of
 
-            Singular    ->  case (p, g) of
+                        (Second, Feminine)  ->  "I"
+                        (_,      _ )        ->  "a"
 
-                (Second, Feminine)  ->  suffix "I"
-                (_,      _ )        ->  suffix "a"
+                    Dual        -> case (p, g) of
 
-            Dual        -> case (p, g) of
+                        (First,  _    )     ->  "a"
+                        ( _ ,    _    )     ->  "A"
 
-                (First,  _    )     ->  suffix "a"
-                ( _ ,    _    )     ->  suffix "A"
+                    Plural      -> case (p, g) of
 
-            Plural      -> case (p, g) of
+                        (First, _    )      ->  "a"
+                        ( _ ,   Masculine)  ->  "UW"
+                        ( _ ,   Feminine)   ->  "na"
 
-                (First, _    )      ->  suffix "a"
-                ( _ ,   Masculine)  ->  suffix "UW"
-                ( _ ,   Feminine)   ->  suffix "na"
+            Jussive     ->  case n of
 
+                    Singular    ->  case (p, g) of
 
-    Jussive     ->  case n of
+                        (Second, Feminine)  ->  "I"
+                        ( _ ,    _    )     ->  ""
 
-            Singular    ->  case (p, g) of
+                    Dual        -> case (p, g) of
 
-                (Second, Feminine)  ->  suffix "I"
-                ( _ ,    _    )     ->  suffix ""
+                        (First,  _  )       ->  ""
+                        ( _ ,    _  )       ->  "A"
 
-            Dual        -> case (p, g) of
+                    Plural      -> case (p, g) of
 
-                (First,  _  )       ->  suffix ""
-                ( _ ,    _  )       ->  suffix "A"
+                        (First, _   )       ->  ""
+                        ( _ ,   Masculine)  ->  "UW"
+                        ( _ ,   Feminine)   ->  "na"
 
-            Plural      -> case (p, g) of
+            Energetic   ->  case n of
 
-                (First, _   )       ->  suffix ""
-                ( _ ,   Masculine)  ->  suffix "UW"
-                ( _ ,   Feminine)   ->  suffix "na"
+                    Singular    ->  case (p, g) of
 
+                        (Second, Feminine)  ->  "inna"      -- "in"
+                        (_,      _ )        ->  "anna"      -- "an"
 
-    Energetic   ->  case n of
+                    Dual        -> case (p, g) of
 
-            Singular    ->  case (p, g) of
+                        (First,  _    )     ->  "anna"      -- "an"
+                        ( _ ,    _    )     ->  "Anni"
 
-                (Second, Feminine)  ->  suffix "inna"     -- "in"
-                (_,      _ )        ->  suffix "anna"     -- "an"
+                    Plural      -> case (p, g) of
 
-            Dual        -> case (p, g) of
-
-                (First,  _    )     ->  suffix "anna"     -- "an"
-                ( _ ,    _    )     ->  suffix "Anni"
-
-            Plural      -> case (p, g) of
-
-                (First, _    )      ->  suffix "anna"     -- "an"
-                ( _ ,   Masculine)  ->  suffix "unna"     -- "un"
-                ( _ ,   Feminine)   ->  suffix "nAnni"
+                        (First, _    )      ->  "anna"      -- "an"
+                        ( _ ,   Masculine)  ->  "unna"      -- "un"
+                        ( _ ,   Feminine)   ->  "nAnni"
 
 
-paraVerbC m g n i = case n of
+paraVerbC m g n i = prefix i . suffix c
 
-            Singular    -> case g of
+    where c = case m of
 
-                Masculine ->  prefix i . suffix ""
-                Feminine  ->  prefix i . suffix "I"
+            Energetic   ->  case n of
 
-            Dual        -> case g of
+                    Singular    ->  case g of
 
-                _         ->  prefix i . suffix "A"
+                        Masculine   ->  "anna"      -- "an"
+                        Feminine    ->  "inna"      -- "in"
 
-            Plural      -> case g of
+                    Dual        -> case g of
 
-                Masculine ->  prefix i . suffix "UW"
-                Feminine  ->  prefix i . suffix "na"
+                        _           ->  "Anni"
 
-{-
-paraVerbC g n i = prefix i . suffix c
+                    Plural      -> case g of
 
-    where c = case n of
+                        Masculine   ->  "unna"      -- "un"
+                        Feminine    ->  "nAnni"
 
-                Singular    -> case g of
+            _           ->  case n of
 
-                    Masculine ->  ""
-                    Feminine  ->  "I"
+                    Singular    -> case g of
 
-                Dual        -> case g of
+                        Masculine   ->  ""
+                        Feminine    ->  "I"
 
-                    _         ->  "A"
+                    Dual        -> case g of
 
-                Plural      -> case g of
+                        _           ->  "A"
 
-                    Masculine ->  "UW"
-                    Feminine  ->  "na"
--}
+                    Plural      -> case g of
+
+                        Masculine   ->  "UW"
+                        Feminine    ->  "na"
 
 
 instance Inflect Lexeme ParaNoun where
@@ -1237,9 +1230,9 @@ paraTriptote, paraDiptote, paraDual, paraMasculine, paraFeminine ::
 
 paraTriptote c d a = case (c, d, a) of
 
-        (Nominative, Nothing, False)    -> suffix "uN" -- suffix u . suffix N
-        (Genitive,   Nothing, False)    -> suffix "iN" -- suffix i . suffix N
-        (Accusative, Nothing, False)    -> suffix "aN" -- suffix a . suffix N
+        (Nominative, Nothing, False)    -> suffix "uN"  -- suffix u . suffix N
+        (Genitive,   Nothing, False)    -> suffix "iN"  -- suffix i . suffix N
+        (Accusative, Nothing, False)    -> suffix "aN"  -- suffix a . suffix N
 
         (Nominative, _ , _ )            -> suffix "u"
         (Genitive,   _ , _ )            -> suffix "i"
@@ -1271,7 +1264,7 @@ paraDual c d a = case (c, d, a) of
         ( _ ,        _ , False)         -> suffix "ayni"
 
         (Nominative, _ , True)          -> suffix "A"
-        ( _ ,        _ , True)          -> suffix "ay"  -- "ay-i"
+        ( _ ,        _ , True)          -> suffix "ay"      -- "ay-i"
 
 
 paraFeminine c d a = case (c, d, a) of
