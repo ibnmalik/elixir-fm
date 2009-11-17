@@ -2600,11 +2600,9 @@ cluster_96  = cluster
 
  |> ".h k m" <| [
 
-    FaCaL                     `verb`    {- <.hakam> -}         [ ['j','u','d','g','e'], ['s','e','n','t','e','n','c','e'] ]
-                              `imperf`     FCuL,
-
-    FaCaL                     `verb`    {- <.hakam> -}         [ ['r','u','l','e'], ['g','o','v','e','r','n'] ]
-                              `imperf`     FCuL,
+    FaCaL                     `verb`    {- <.hakam> -}         [ ['j','u','d','g','e'], ['s','e','n','t','e','n','c','e'], ['r','u','l','e'], ['g','o','v','e','r','n'] ]
+                              `imperf`     FCuL
+                              `masdar`     FuCL,
 
     FaCCaL                    `verb`    {- <.hakkam> -}        [ ['a','p','p','o','i','n','t'], ['c','h','o','o','s','e'] ],
 

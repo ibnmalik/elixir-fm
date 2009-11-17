@@ -695,10 +695,7 @@ cluster_43  = cluster
 
     FACiL |< Iy               `adj`     {- <^gAmi`Iy> -}       [ ['u','n','i','v','e','r','s','i','t','y'] ],
 
-    MaFCUL                    `noun`    {- <ma^gmU`> -}        [ ['g','a','t','h','e','r','e','d'], ['t','o','t','a','l'] ]
-                              `plural`     MaFCUL |< Un
-                           
-    `derives` otherwise,
+    MaFCUL                    `adj`     {- <ma^gmU`> -}        [ ['g','a','t','h','e','r','e','d'], ['t','o','t','a','l'] ],
 
     MaFCUL |< aT              `noun`    {- <ma^gmU`aT> -}      [ ['c','o','l','l','e','c','t','i','o','n'], ['g','r','o','u','p'], ['b','l','o','c'] ]
                               `plural`     MaFACIL,
@@ -708,20 +705,11 @@ cluster_43  = cluster
                            
     `derives` otherwise,
 
-    MuFaCCaL                  `noun`    {- <mu^gamma`> -}      [ ['c','o','m','b','i','n','e','d'], ['c','o','l','l','e','c','t','i','v','e'] ]
-                              `plural`     MuFaCCaL |< Un
-                           
-    `derives` otherwise,
+    MuFaCCaL                  `adj`     {- <mu^gamma`> -}      [ ['c','o','m','b','i','n','e','d'], ['c','o','l','l','e','c','t','i','v','e'] ],
 
-    MuFCaL                    `noun`    {- <mu^gma`> -}        [ ['u','n','a','n','i','m','o','u','s'], unwords [ ['i','n'], ['a','g','r','e','e','m','e','n','t'] ] ]
-                              `plural`     MuFCaL |< Un
-                           
-    `derives` otherwise,
+    MuFCaL                    `adj`     {- <mu^gma`> -}        [ ['u','n','a','n','i','m','o','u','s'], unwords [ ['i','n'], ['a','g','r','e','e','m','e','n','t'] ] ],
 
-    MuFtaCiL                  `noun`    {- <mu^gtami`> -}      [ ['p','a','r','t','i','c','i','p','a','n','t'], ['a','s','s','e','m','b','l','a','g','e'] ]
-                              `plural`     MuFtaCiL |< Un
-                           
-    `derives` otherwise,
+    MuFtaCiL                  `adj`     {- <mu^gtami`> -}      [ ['p','a','r','t','i','c','i','p','a','n','t'], ['a','s','s','e','m','b','l','a','g','e'] ],
 
     MuFtaCaL                  `noun`    {- <mu^gtama`> -}      [ ['s','o','c','i','e','t','y'] ]
                               `plural`     MuFtaCaL |< At,

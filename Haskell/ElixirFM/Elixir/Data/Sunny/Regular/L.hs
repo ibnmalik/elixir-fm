@@ -512,7 +512,7 @@ cluster_32  = cluster
 
     FuCL |< aT |<< "aN"       `noun`    {- <.subraTaN> -}      [ unwords [ ['o','n'], ['t','h','e'], ['w','h','o','l','e'] ], ['s','u','m','m','a','r','i','l','y'] ],
 
-    FaCUL                     `noun`    {- <.sabUr> -}         [ ['p','a','t','i','e','n','t'], ['e','n','d','u','r','i','n','g'] ]
+    FaCUL                     `adj`     {- <.sabUr> -}         [ ['p','a','t','i','e','n','t'], ['e','n','d','u','r','i','n','g'] ]
                               `plural`     FuCuL,
 
     FaCUL                     `noun`    {- <.sabUr> -}         [ ['S','a','b','o','u','r'] ],
@@ -534,6 +534,8 @@ cluster_32  = cluster
     FACiL                     `adj`     {- <.sAbir> -}         [ ['p','a','t','i','e','n','t'], ['s','t','e','a','d','f','a','s','t'], ['e','n','d','u','r','i','n','g'] ],
 
     MuFaCCaL |< At            `noun`    {- <mu.sabbarAt> -}    [ unwords [ ['c','a','n','n','e','d'], ['g','o','o','d','s'] ] ],
+
+    FaCCAL                    `noun`    {- <.sabbAr> -}        [ ['c','a','c','t','u','s'] ],
 
     FuCCayL                   `noun`    {- <.subbayr> -}       [ unwords [ ['I','n','d','i','a','n'], ['f','i','g'] ] ] ]
 

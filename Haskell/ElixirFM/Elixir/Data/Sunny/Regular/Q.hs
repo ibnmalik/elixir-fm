@@ -615,7 +615,7 @@ cluster_20  = cluster
 
     MaFCUL                    `adj`     {- <man^sUr> -}        [ ['p','u','b','l','i','s','h','e','d'], unwords [ ['s','p','r','e','a','d'], ['o','u','t'] ] ],
 
-    MaFCUL                    `adj`     {- <man^sUr> -}        [ ['p','u','b','l','i','c','a','t','i','o','n','s'], ['l','e','a','f','l','e','t','s'], ['c','i','r','c','u','l','a','r','s'] ]
+    MaFCUL                    `noun`    {- <man^sUr> -}        [ ['p','u','b','l','i','c','a','t','i','o','n'], ['l','e','a','f','l','e','t'], ['c','i','r','c','u','l','a','r'] ]
                               `plural`     MaFACIL
                               `plural`     MaFCUL |< At,
 

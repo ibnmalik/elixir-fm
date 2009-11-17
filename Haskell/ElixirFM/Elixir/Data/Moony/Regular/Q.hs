@@ -680,7 +680,7 @@ cluster_39  = cluster
                               `plural`     FiCL
                               `plural`     FuCUL,
 
-    FaCUL |< Iy               `adj`     {- <kabUlIy> -}        [ ['b','r','a','c','k','e','t'], unwords [ ['s','h','e','d'], ['r','o','o','f'] ] ]
+    FaCUL |< Iy               `noun`    {- <kabUlIy> -}        [ ['b','r','a','c','k','e','t'], unwords [ ['s','h','e','d'], ['r','o','o','f'] ] ]
                               `plural`     FawACIL ]
 
  |> "k b l" <| [
@@ -1732,7 +1732,7 @@ cluster_97  = cluster
 
     TaFaCCaL                  `verb`    {- <takarras> -}       [ unwords [ ['s','t','i','c','k'], ['t','o','g','e','t','h','e','r'] ], ['c','o','h','e','r','e'] ],
 
-    FuCLIy                    `noun`    {- <kursIy> -}         [ ['c','h','a','i','r'], ['s','e','a','t'] ]
+    FuCL |< Iy                `noun`    {- <kursIy> -}         [ ['c','h','a','i','r'], ['s','e','a','t'] ]
                               `plural`     FaCALI
                               `plural`     FaCALIy,
 

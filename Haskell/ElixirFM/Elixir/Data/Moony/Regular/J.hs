@@ -84,7 +84,7 @@ cluster_6   = cluster
 
     FuCayL |< Iy              `noun`    {- <`utaybIy> -}       [ ['O','t','a','i','b','i'] ],
 
-    FaCCAL |< Iy              `adj`     {- <`attAbIy> -}       [ ['z','e','b','r','a'] ],
+    FaCCAL |< Iy              `noun`    {- <`attAbIy> -}       [ ['z','e','b','r','a'] ],
 
     FaCCAL |< Iy              `noun`    {- <`attAbIy> -}       [ ['A','t','t','a','b','i'] ],
 

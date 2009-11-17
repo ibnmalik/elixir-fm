@@ -185,7 +185,8 @@ cluster_10  = cluster
     FuCLAn                    `noun`    {- <_husrAn> -}        [ ['l','o','s','s'], ['d','a','m','a','g','e'] ],
 
     FaCAL |< aT               `noun`    {- <_hasAraT> -}       [ ['l','o','s','s'], ['d','a','m','a','g','e'], ['c','a','s','u','a','l','t','i','e','s'] ]
-                              `plural`     FaCA'iL,
+                              `plural`     FaCA'iL
+                              `plural`     FaCAL |< At,
 
     FaCLAn                    `adj`     {- <_hasrAn> -}        [ ['l','o','s','e','r'] ],
 
@@ -670,8 +671,11 @@ cluster_35  = cluster
 
     FiCAL |< Iy               `adj`     {- <_hi.tAbIy> -}      [ ['o','r','a','t','o','r','i','c','a','l'] ],
 
-    FaCIL                     `noun`    {- <_ha.tIb> -}        [ ['f','i','a','n','c','e'], ['f','i','a','n','c','e','e'] ]
+    FaCIL                     `noun`    {- <_ha.tIb> -}        [ ['f','i','a','n','c','e'] ]
                               `plural`     FuCaLA',
+
+    FaCIL |< aT               `noun`    {- <_ha.tIbaT> -}      [ ['f','i','a','n','c','e','e'] ]
+                              `plural`     FaCIL |< At,
 
     FaCIL                     `noun`    {- <_ha.tIb> -}        [ ['o','r','a','t','o','r'], ['l','e','c','t','u','r','e','r'], ['p','r','e','a','c','h','e','r'] ]
                               `plural`     FuCaLA',

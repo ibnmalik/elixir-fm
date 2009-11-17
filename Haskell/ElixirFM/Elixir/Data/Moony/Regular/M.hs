@@ -1652,7 +1652,7 @@ cluster_81  = cluster
 
  |> "f s q" <| [
 
-    FiCLIy |< aT              `noun`    {- <fisqIyaT> -}       [ ['f','o','u','n','t','a','i','n'], ['w','e','l','l'] ]
+    FiCL |< Iy |< aT          `noun`    {- <fisqIyaT> -}       [ ['f','o','u','n','t','a','i','n'], ['w','e','l','l'] ]
                               `plural`     FaCALIy ]
 
  |> "f s q" <| [

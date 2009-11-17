@@ -874,10 +874,11 @@ cluster_59  = cluster
 
     FiCAL |< aT               `noun`    {- <sibA.haT> -}       [ ['s','w','i','m','m','i','n','g'] ],
 
-    MaFCaL                    `noun`    {- <masba.h> -}        [ unwords [ ['s','w','i','m','m','i','n','g'], ['p','o','o','l'] ], ['r','o','s','a','r','i','e','s'] ]
+    MaFCaL                    `noun`    {- <masba.h> -}        [ unwords [ ['s','w','i','m','m','i','n','g'], ['p','o','o','l'] ] ]
                               `plural`     MaFACiL,
 
-    MiFCaL |< aT              `noun`    {- <misba.haT> -}      [ ['r','o','s','a','r','y'] ],
+    MiFCaL |< aT              `noun`    {- <misba.haT> -}      [ ['r','o','s','a','r','y'] ]
+                              `plural`     MaFACiL,
 
     TaFCIL                    `noun`    {- <tasbI.h> -}        [ unwords [ ['g','l','o','r','i','f','i','c','a','t','i','o','n'], ['o','f'], ['G','o','d'] ], ['h','y','m','n'] ]
                               `plural`     TaFACIL
@@ -1374,12 +1375,7 @@ cluster_85  = cluster
                            
     `derives` otherwise,
 
-    FaCCAL |< aT              `noun`    {- <sa^g^gAdaT> -}     [ ['c','a','r','p','e','t'] ]
-                              `plural`     FaCACIL
-                              `plural`     FaCCAL
-                              `plural`     FaCCAL |< At,
-
-    FaCCAL |< aT              `noun`    {- <sa^g^gAdaT> -}     [ unwords [ ['p','r','a','y','e','r'], ['r','u','g'] ] ]
+    FaCCAL |< aT              `noun`    {- <sa^g^gAdaT> -}     [ ['c','a','r','p','e','t'], unwords [ ['p','r','a','y','e','r'], ['r','u','g'] ] ]
                               `plural`     FaCACIL
                               `plural`     FaCCAL
                               `plural`     FaCCAL |< At,
@@ -1389,13 +1385,13 @@ cluster_85  = cluster
 
     MaFCiL                    `noun`    {- <mas^gid> -}        [ ['M','a','s','j','i','d'] ],
 
-    FACiL                     `noun`    {- <sA^gid> -}         [ ['w','o','r','s','h','i','p','p','e','r'] ]
+    FACiL                     `noun`    {- <sA^gid> -}         [ ['w','o','r','s','h','i','p','e','r'] ]
                               `plural`     FuCUL
                               `plural`     FuCCaL
                            
     `derives` otherwise,
 
-    FACiL                     `adj`     {- <sA^gid> -}         [ ['w','o','r','s','h','i','p','p','i','n','g'], ['w','o','r','s','h','i','p','i','n','g'] ]
+    FACiL                     `adj`     {- <sA^gid> -}         [ ['w','o','r','s','h','i','p','i','n','g'] ]
                               `plural`     FuCUL
                               `plural`     FuCCaL ]
 

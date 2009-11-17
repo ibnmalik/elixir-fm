@@ -916,10 +916,6 @@ data PatternT =
         |   FiCLA'                      |   FILA'
         |   FuCLA'                      |   FULA'
 
-        |   FaCLIy                      |   FALIy
-        |   FiCLIy                      |   FILIy
-        |   FuCLIy                      |   FULIy
-
         |   FaCLAy
         |   FiCLAy
         |   FuCLAy
@@ -1002,7 +998,7 @@ data PatternT =
         |   HaFCiL      |   HACiL       |   HaFIL       |   HaFCI       |   HaFiCL      |   HACI
         |   HaFCuL      |   HACuL       |   HaFUL       |   HaFCU       |   HaFuCL      |   HACU
 
-        |   HaFACiL                                     |   HaFACI
+        |   HaFACiL                                     |   HaFACI                      |   HawACI
         |   HaFACIL                                     |   HaFACIy
 
         |   HaFCiLA'    |   HACiLA'     |   HaFILA'     |   HaFCiyA'    |   HaFiCLA'

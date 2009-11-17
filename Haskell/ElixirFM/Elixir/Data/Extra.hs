@@ -130,7 +130,7 @@ lexicon = listing "Generic lexicon"
 
     |> "' b w" <| [
 
-        FaC                 `noun`                  [ "father", "ancestor" ]
+        FaC                 `noun`                  [ "father", "ancestor", "parent" ]
                             `plural`    HACA'
 
                             <.>     "N------D1[IA]"
