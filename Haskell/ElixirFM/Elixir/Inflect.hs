@@ -526,7 +526,7 @@ instance Inflect Lexeme TagsNum where
 
             let y = ParaNum (NumV g   c s),
 
-            let z = map (inRules r c s Nothing) i ]
+            let z = map (inRules r c s (Just Triptote)) i ]
 
     inflect (Lexeme r e) (TagsNumX  g   c s) = [ (y, z) |
 
