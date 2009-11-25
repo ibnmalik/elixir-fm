@@ -853,7 +853,8 @@ cluster_58  = cluster
 
     FaCL                      `verb`    {- <madd> -}           [ ['e','x','t','e','n','d'], ['s','t','r','e','t','c','h'], unwords [ ['s','p','r','e','a','d'], ['o','u','t'] ] ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL,
+                              `pfirst`     FaCaL
+                              `masdar`     FaCL,
 
     FaCCaL                    `verb`    {- <maddad> -}         [ ['e','x','t','e','n','d'], unwords [ ['s','t','r','e','t','c','h'], ['o','u','t'] ], unwords [ ['s','p','r','e','a','d'], ['o','u','t'] ] ],
 
@@ -1108,6 +1109,7 @@ cluster_66  = cluster
 
     FACL                      `noun`    {- <mArr> -}           [ ['p','a','s','s','e','r','b','y'], ['p','e','d','e','s','t','r','i','a','n'] ]
                               `plural`     FACL |< Un
+                              `plural`     FACL |< aT
                            
     `derives` otherwise,
 

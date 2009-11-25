@@ -1138,9 +1138,7 @@ cluster_98  = cluster
 
  |> ['\'','a','f','r','U','-','\'','A','s'] <| [
 
-    _____ |<< "I" |<< "Aw" |< Iy `adj`     {- <'afrU-'AsiyAwIy> -} [ unwords [ ['A','f','r','o'], "-", ['A','s','i','a','t','i','c'] ], unwords [ ['A','f','r','i','c','a','n'], "-", ['A','s','i','a','n'] ] ] ]
-
- |> ['\'','a','f','r','U','-','\'','A','s'] <| [
+    _____ |<< "I" |<< "Aw" |< Iy `adj`     {- <'afrU-'AsiyAwIy> -} [ unwords [ ['A','f','r','o'], "-", ['A','s','i','a','t','i','c'] ], unwords [ ['A','f','r','i','c','a','n'], "-", ['A','s','i','a','n'] ] ],
 
     _____ |< iyA |< Iy        `adj`     {- <'afrU-'AsiyawIy> -} [ unwords [ ['A','f','r','o'], "-", ['A','s','i','a','t','i','c'] ], unwords [ ['A','f','r','i','c','a','n'], "-", ['A','s','i','a','n'] ] ] ]
 

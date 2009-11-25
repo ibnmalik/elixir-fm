@@ -990,10 +990,7 @@ cluster_46  = cluster
 
     MuFAL                     `adj`     {- <muqAl> -}          [ ['f','i','r','e','d'], ['d','i','s','m','i','s','s','e','d'], ['d','i','s','c','h','a','r','g','e','d'] ],
 
-    MustaFIL                  `noun`    {- <mustaqIl> -}       [ ['d','i','s','c','h','a','r','g','e','d'], ['r','e','t','i','r','e','d'] ]
-                              `plural`     MustaFIL |< Un
-                           
-    `derives` otherwise ]
+    MustaFIL                  `adj`     {- <mustaqIl> -}       [ ['d','i','s','c','h','a','r','g','e','d'], ['r','e','t','i','r','e','d'] ] ]
 
 
 cluster_47  = cluster

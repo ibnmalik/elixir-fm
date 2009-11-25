@@ -1477,10 +1477,6 @@ cluster_88  = cluster
 
     FiCAL |< aT               `noun`    {- <sifAnaT> -}        [ unwords [ ['s','h','i','p'], "-", ['b','u','i','l','d','i','n','g'] ] ] ]
 
- |> ['s','I','f','A','n'] <| [
-
-    _____                     `noun`    {- <sIfAn> -}          [ ['S','e','v','a','n'] ] ]
-
 
 cluster_89  = cluster
 

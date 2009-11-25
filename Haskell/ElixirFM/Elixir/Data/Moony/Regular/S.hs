@@ -1119,7 +1119,7 @@ cluster_90  = cluster
 
  |> ['k','A','n','k','A','n'] <| [
 
-    _____                     `noun`    {- <kAnkAn> -}         [ unwords [ ['C','a','n'], "-", ['C','a','n'] ] ] ]
+    _____                     `noun`    {- <kAnkAn> -}         [ unwords [ ['c','a','n'], "-", ['c','a','n'] ] ] ]
 
 
 cluster_91  = cluster
