@@ -932,13 +932,14 @@ data PatternT =
 
         |   FaCCAL                                      |   FaCCA'
                                                         |   FaCCAy
-        |   FiCCAL                      |   FICAL
-        |   FuCCAL                      |   FUCAL
-
+        |   FiCCAL                  {-- |   FICAL   --}
+        |   FuCCAL                  {-- |   FUCAL   --}
                                         |   FuyyAL
 
-        |   FuCCaL                      |   FUCaL
+        |   FICAL                                       |   FICA'
+        |   FUCAL
 
+        |   FuCCaL                      |   FUCaL
                                         |   FuyyaL
 
         |   FuCCuL                      |   FUCuL

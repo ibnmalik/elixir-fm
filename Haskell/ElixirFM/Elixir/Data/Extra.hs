@@ -329,7 +329,13 @@ lexicon = listing "Generic lexicon"
                             <.>     "SD----FD[24]-"
                                                         <:>     "t" |<< "ayni" |<< "ka"
                             <.>     "SD-----P--"
-                                                        <:>     "'_Ul_a'i" |<< "ka"
+                                                        <:>     "'_Ul_a'i" |<< "ka",
+
+        "_dA" |<< "ka"      <::>    "SD-----S--"
+                                                        <..>    [ "that" ]
+                            <.>     "SD----FS--"
+                                                        <:>     "tA" |<< "ka"
+                                                        <:>     "tI" |<< "ka"
         ]
 
 

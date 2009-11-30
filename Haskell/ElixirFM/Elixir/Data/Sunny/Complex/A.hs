@@ -415,7 +415,7 @@ cluster_29  = cluster
 
     FaCL |< aT                `noun`    {- <tawbaT> -}         [ ['r','e','p','e','n','t','a','n','c','e'], ['p','e','n','a','n','c','e'] ],
 
-    FaCCAL                    `zero`    {- <tawwAb> -}         [ ['T','a','w','w','a','b'] ],
+    FaCCAL                    `noun`    {- <tawwAb> -}         [ ['T','a','w','w','a','b'] ],
 
     FaCCAL                    `adj`     {- <tawwAb> -}         [ ['r','e','p','e','n','t','a','n','t'], ['m','e','r','c','i','f','u','l'] ],
 

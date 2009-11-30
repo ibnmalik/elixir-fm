@@ -1164,8 +1164,6 @@ inRules r c (d :-: a) x m = ((,) r . article . endings c d a) m
                                 At : _              -> paraFeminine
                                 An : _              -> paraDual      `with` reduce
 
-                                Suffix "aN" : _     -> paraTriptote  `with` reduce
-
                                 _   | isInert r m   -> (const . const . const) id
 
                                     | otherwise     -> case x of

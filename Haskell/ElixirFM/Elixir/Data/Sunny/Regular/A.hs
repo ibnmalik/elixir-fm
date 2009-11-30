@@ -15,12 +15,6 @@ cluster_1   = cluster
 
     _____                     `prep`    {- <ta> -}             [ ['b','y'] ] ]
 
- |> ['t'] <| [
-
-    _____                     `ynit`    {- <t> -}              [ "T", ['2','2','n','d'] ],
-
-    _____                     `ynit`    {- <t> -}              [ unwords [ "(", ['d','a','t','e'], ")" ], unwords [ "(", ['t','i','m','e'], "/", ['t','i','m','i','n','g'], ")" ], unwords [ "(", ['d','i','e','d'], ")" ] ] ]
-
 
 cluster_2   = cluster
 

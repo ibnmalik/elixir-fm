@@ -21,7 +21,6 @@ import qualified Elixir.Data.Moony.Complex.N as N
 import qualified Elixir.Data.Moony.Complex.O as O
 import qualified Elixir.Data.Moony.Complex.P as P
 import qualified Elixir.Data.Moony.Complex.Q as Q
-import qualified Elixir.Data.Moony.Complex.R as R
 
 
 version = revised "$Revision$"
@@ -45,5 +44,4 @@ chapter = [ A.section,
             N.section,
             O.section,
             P.section,
-            Q.section,
-            R.section ]
+            Q.section ]
