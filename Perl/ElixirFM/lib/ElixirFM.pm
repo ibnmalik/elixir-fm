@@ -532,48 +532,65 @@ sub clear {
 
     my $data = [ @{$_[0]} ];
 
-    pop @{$data};
-
     my $ents = $data->[1];
 
-    if (exists $ents->{'reflex'}) {
+    if ($data->[0] eq 'Entry') {
 
-        $_ = [ ref $_ ? map { $_->[-1] } @{$_} : $_ ]
+        if (exists $ents->{'reflex'}) {
 
-            foreach $ents->{'reflex'};
+            $_ = [ ref $_ ? map { $_->[-1] } @{$_} : $_ ]
+
+                foreach $ents->{'reflex'};
+        }
+
+        if (exists $ents->{'entity'}) {
+
+            $ents->{'entity'} = $ents->{'entity'}[0];
+
+            foreach ('plural', 'femini', 'masdar',
+                     'imperf', 'pfirst', 'second', 'form') {
+
+                next unless exists $ents->{'entity'}[1]{$_};
+
+                $_ = [ ref $_ ? map { $_->[-1] } @{$_} : $_ ]
+
+                    foreach $ents->{'entity'}[1]{$_};
+            }
+
+            pop @{$ents->{'entity'}};
+        }
+
+        if (exists $ents->{'limits'}) {
+
+            if (exists $ents->{'limits'}{'snd'}) {
+
+                $_ = [ ref $_ eq 'ARRAY' ? map { $_->[-2] } @{$_} : $_ ]
+
+                    foreach $ents->{'limits'}{'snd'};
+            }
+        }
+
+        pop @{$data};
     }
-
-    if (exists $ents->{'entity'}) {
-
-        $ents->{'entity'} = $ents->{'entity'}[0];
-
-        pop @{$ents->{'entity'}};
+    else {
 
         foreach ('plural', 'femini', 'masdar',
                  'imperf', 'pfirst', 'second', 'form') {
 
-            next unless exists $ents->{'entity'}[1]{$_};
+            next unless exists $ents->{$_};
 
             $_ = [ ref $_ ? map { $_->[-1] } @{$_} : $_ ]
 
-                foreach $ents->{'entity'}[1]{$_};
+                foreach $ents->{$_};
         }
-    }
 
-    if (exists $ents->{'limits'}) {
-
-        if (exists $ents->{'limits'}{'snd'}) {
-
-            $_ = [ ref $_ eq 'ARRAY' ? map { $_->[-2] } @{$_} : $_ ]
-
-                foreach $ents->{'limits'}{'snd'};
-        }
+        pop @{$data};
     }
 
     return $data;
 }
 
-sub unpretty_resolve {
+sub lists_trees {
 
     my ($data, $mode) = @_;
 
@@ -583,8 +600,16 @@ sub unpretty_resolve {
 
         ?   [
                 [
-
-                    map { [ split /[\n ]*\t/, $_ ] } grep { $_ ne '' } split /[\n ]*(?=\([0-9]+,[0-9]+\)[\n ]*\t|$)/, $node
+                    map { 
+                    
+                        my $data = [ split /[\n ]*\t/, $_ ];
+                        
+                        $data->[1] = parse_clear($data->[1], $mode);
+                        
+                        $data                       
+                    } 
+                    
+                    grep { $_ ne '' } split /[\n ]*(?=\([0-9]+,[0-9]+\)[\n ]*\t|$)/, $node
                 ],
 
                 map {
@@ -625,8 +650,12 @@ sub unpretty_resolve {
 
                     my ($node, @data) = split /(?<![\t\n ])(?:[\t ]*\n)+$i(?![\t\n ])/, $_;
 
+                    my $data = [ split /[\n ]*\t/, $node ];
+                    
+                    $data->[1] = parse_clear($data->[1], $mode);
+                    
                     [
-                        [ split /[\n ]*\t/, $node ],
+                        $data,
 
                         map {
 
@@ -639,7 +668,7 @@ sub unpretty_resolve {
             ];
 }
 
-sub unpretty_lookup {
+sub parse_clear {
 
     my ($data, $mode) = @_;
 
@@ -683,7 +712,7 @@ sub unpretty {
 
                         map {
 
-                            unpretty_resolve($_, $mode)
+                            lists_trees($_, $mode)
 
                         } @data
                     ]
@@ -719,7 +748,7 @@ sub unpretty {
                         'root'  =>  ( ref $root ? "" : $root ),
                         'ents'  =>  [ map {
 
-                                unpretty_lookup($_, $mode)
+                                parse_clear($_, $mode)
 
                             } @ents ],
                     }

@@ -36,7 +36,7 @@ our @example = ( [ 'Unicode',       decode "buckwalter", "AqrO Aldrs AlOwl" ],
 
 sub pretty ($$$) {
 
-    my @word = ElixirFM::unpretty($_[0], $_[1]);
+    my @word = ElixirFM::unpretty $_[0], 'clear';
 
     my $q = $_[2];
 
@@ -146,16 +146,7 @@ sub pretty_resolve_lexeme {
 
     my $xcat = substr $data[0]->[0], 0, 1;
 
-    my $ents = ElixirFM::parse($info[1]);
-
-    my @ents = @{$ents->[1]}{'imperf', 'pfirst', 'second'};
-
-    foreach (@ents) {
-
-        $_ = defined $_ ? [ ref $_ ? map { $_->[-1] } @{$_} : $_ ] : [];
-    }
-
-	$info[1] = join " ", map { @{$_} } grep { defined $_ } @ents;
+	$info[1] = join " ", map { exists $info[1]->{$_} ? @{$info[1]->{$_}} : () } 'imperf', 'pfirst', 'second';
 
     $info[2] = substr $info[2], 1, -1;
     $info[2] =~ s/\",\"/\", \"/g;

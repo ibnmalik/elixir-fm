@@ -27,7 +27,7 @@ use Encode::Arabic ':modes';
 
 our $find = Exec::ElixirFM::elixir 'lookup', ['tex'], "qara'", "istaqra'", "kitAbaT";
 
-our @clip = map { [ $_->[0]{'clip'} =~ /^\(([0-9]+),Just\[(?:[0-9]+,)*([0-9]+)\]\)$/ ] } ElixirFM::unpretty($find, 'lookup');
+our @clip = map { [ $_->[0]{'clip'} =~ /^\(([0-9]+),Just\[(?:[0-9]+,)*([0-9]+)\]\)$/ ] } ElixirFM::unpretty $find;
 
 our @example = ( [ "($clip[0][0],$clip[0][1])",                             'verb noun adjective'                       ],
                  [ "($clip[0][0],$clip[0][1])",                             'verb masdar participle'                    ],
@@ -41,9 +41,9 @@ sub pretty ($$$) {
 
     my ($word, $text, $q) = @_;
 
-    my @text = ElixirFM::unpretty($text, 'lookup');
+    my @text = ElixirFM::unpretty $text, 'clear';
 
-    my @word = ElixirFM::unpretty($word, 'derive');
+    my @word = ElixirFM::unpretty $word;
 
     my $r = '';
 
@@ -97,25 +97,18 @@ sub pretty_lookup_tree {
 
                 my $clip = sprintf "(%d,%d)", $clip->[0], defined $clip->[1] ? $clip->[1][$_] : $_ + 1;
 
-                my $ents = ElixirFM::parse($data->{'ents'}[$_]);
+                my $ents = $data->{'ents'}[$_];
 
                 my @info = @{$ents->[1]}{'morphs', 'entity', 'limits', 'reflex'};
 
-                $info[3] = [ ref $info[3] ? map { $_->[-1] } @{$info[3]} : $info[3] ];
-
-                my @ents = @{$ents->[1]{'entity'}[0][1]}{'imperf', 'pfirst', 'second', 'form'};
-
-                foreach (@ents) {
-
-                    $_ = defined $_ ? [ ref $_ ? map { $_->[-1] } @{$_} : $_ ] : [];
-                }
+                my $form = $ents->[1]{'entity'}[1]{'form'};
 
                 my $xtag = $info[1]->[0][0];
 
                 $xtag = join ' ', ElixirFM::retrieve($xtag);
                 $xtag = substr $xtag, 0, 1;
 
-	$info[4] = join " ", map { @{$_} } grep { defined $_ } @ents[0 .. 2];
+	$info[4] = join " ", map { exists $ents->[1]{'entity'}[1]{$_} ? @{$ents->[1]{'entity'}[1]{$_}} : () } 'imperf', 'pfirst', 'second';
 
     $info[5] = ElixirFM::merge($data->{'root'}, $info[0]);
 
@@ -137,7 +130,7 @@ sub pretty_lookup_tree {
                        $q->td({-class => "morphs",
                                -title => "morphs of citation form"}, ElixirFM::nice($info[0])),
                        $q->td({-class => "class",
-                               -title => "derivational class"},      join " ", @{$ents[3]}),
+                               -title => "derivational class"},      join " ", @{$form}),
                        $q->td({-class => "stems",
                                -title => "inflectional stems"},      ElixirFM::nice($info[4])),
                        $q->td({-class => "reflex",
