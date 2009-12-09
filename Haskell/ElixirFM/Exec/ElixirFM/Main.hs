@@ -51,7 +51,7 @@ import qualified Data.Map as Map
 
 import Version
 
-version = Version [1, 1, max build 908] []
+version = Version [1, 1, max build 910] []
 
     where Version [build] [] = revised "$Revision$"
 
@@ -130,7 +130,7 @@ main = do   argv <- getArgs
                 PrintVersion    ->  tell (unlines [copyleft,
                                           unwords ["ElixirFM",
                                                    showVersion Main.version,
-                                                   "November 2009"]])
+                                                   "December 2009"]])
 
                 DisplayUsage    ->  tell (usageInfo synopsis options)
 

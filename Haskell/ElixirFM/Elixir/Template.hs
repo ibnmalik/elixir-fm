@@ -51,7 +51,8 @@ merge r y = (prefixes . suffixes) [interlocks p s (words r) t]
                                           in  f i x : e : s) z
 
           split [x]    = ([], x)
-          split (x:xs) = (x:ys, y) where (ys, y) = split xs
+          split (x:xs) = (x:ys, y)  where (ys, y) = split xs
+          split []     = ([], '\NUL')  -- ([], '|')
 
 {-
             if null s then prefixes shown
@@ -110,7 +111,7 @@ Prefix [x, 'u'] ->- y : s | isClosed s &&
 
 Prefix x ->- s = x ++ s
 
-x ->- s = shows x ("-" ++ s)
+x ->- s  = shows x ('-' : s)
 
 
 isClosed :: String -> Bool
@@ -170,9 +171,9 @@ isClosed _ = True
                                  | "i" `isPrefixOf` x ||
                                    "u" `isPrefixOf` x    -> x
 
-                        Suffix "Iy"     -> "Iy"
+                                 | x `elem` ["ka", "mA"] -> "I" ++ x
 
-                        Suffix "mA"     -> "ImA"
+                        Suffix "Iy"     -> "Iy"
 
                         _       -> "iy" ++ show x
 
@@ -197,10 +198,10 @@ isClosed _ = True
 
                                  | "u"  `isPrefixOf` x  -> "aw" ++ x
 
+                                 | x `elem` ["ka", "_dA"] -> "A" ++ x
+
                         Suffix "Iy"     -> "AnIy"
                         Suffix "At"     -> "A'At"
-
-                        Suffix "_dA"    -> "A_dA"
 
                         _       -> "aw" ++ show x
 
@@ -232,7 +233,9 @@ isClosed _ = True
 
                         _       -> "uw" ++ show x
 
-c -<- x = c : show x
+'\NUL' -<- x = show x
+
+c -<- x  = c : show x
 
 
 data Form = I | II | III | IV | V | VI | VII | VIII | IX | X |
@@ -292,6 +295,11 @@ infixl 8 :|<:
 -}
 
 
+data Morphs a = Morphs a [Prefix] [Suffix]
+
+    deriving Eq
+
+
 class Morphing a b | a -> b where
 
     morph :: a -> Morphs b
@@ -328,16 +336,6 @@ y |<< x = y |< Suffix x
 instance Morphing (Morphs a) a where
 
     morph = id
-
-
-instance Morphing String String where
-
-    morph x = Morphs x [] []
-
-
-data Morphs a = Morphs a [Prefix] [Suffix]
-
-    deriving Eq
 
 
 instance Show a => Show (Morphs a) where

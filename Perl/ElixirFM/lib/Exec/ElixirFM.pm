@@ -74,7 +74,7 @@ sub elixir {
 
     my $opts = defined $_[0] && ref $_[0] eq 'ARRAY' ? shift : [];
 
-    my $text = join "\n", @_;
+    my $text = join "", map { $_ . "\n" } @_;
 
     my $code = Encode::is_utf8($text);
 

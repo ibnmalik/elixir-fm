@@ -20,8 +20,6 @@ module Elixir.Patterns.Literal where
 
 import Elixir.Template
 
-import Data.List (isSuffixOf)
-
 import Version
 
 version = revised "$Revision$"

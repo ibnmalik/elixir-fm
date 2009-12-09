@@ -528,9 +528,56 @@ sub parse {
     return $parser->parse($_[0]);
 }
 
+sub clear {
+
+    my $data = [ @{$_[0]} ];
+
+    pop @{$data};
+
+    my $ents = $data->[1];
+
+    if (exists $ents->{'reflex'}) {
+
+        $_ = [ ref $_ ? map { $_->[-1] } @{$_} : $_ ]
+
+            foreach $ents->{'reflex'};
+    }
+
+    if (exists $ents->{'entity'}) {
+
+        $ents->{'entity'} = $ents->{'entity'}[0];
+
+        pop @{$ents->{'entity'}};
+
+        foreach ('plural', 'femini', 'masdar',
+                 'imperf', 'pfirst', 'second', 'form') {
+
+            next unless exists $ents->{'entity'}[1]{$_};
+
+            $_ = [ ref $_ ? map { $_->[-1] } @{$_} : $_ ]
+
+                foreach $ents->{'entity'}[1]{$_};
+        }
+    }
+
+    if (exists $ents->{'limits'}) {
+
+        if (exists $ents->{'limits'}{'snd'}) {
+
+            $_ = [ ref $_ eq 'ARRAY' ? map { $_->[-2] } @{$_} : $_ ]
+
+                foreach $ents->{'limits'}{'snd'};
+        }
+    }
+
+    return $data;
+}
+
 sub unpretty_resolve {
 
-    my ($node, @data) = split /\n[\t ]*[:]{1}/, $_[0];
+    my ($data, $mode) = @_;
+
+    my ($node, @data) = split /\n[\t ]*[:]{1}/, $data;
 
     return  $node =~ /[()]/
 
@@ -592,15 +639,31 @@ sub unpretty_resolve {
             ];
 }
 
+sub unpretty_lookup {
+
+    my ($data, $mode) = @_;
+
+    $mode = '' unless defined $mode;
+
+    if ($mode eq 'parse' or $mode eq 'clear') {
+
+        $data = parse($data);
+
+        $data = clear($data) if $mode eq 'clear';
+    }
+
+    return $data;
+}
+
 sub unpretty {
 
     my ($data, $mode) = @_;
 
+    my $type = $data =~ /^\s*[:]{4}/ ? 'resolve' : $data =~ /[>]\s*$/ ? 'lookup' : '';
+
     my @data;
 
-    $mode = $data =~ /^\s*[:]{4}/ ? 'resolve' : $data =~ /[>]\s*$/ ? 'lookup' : '' unless defined $mode;
-
-    if ($mode eq 'resolve') {
+    if ($type eq 'resolve') {
 
         (undef, @data) = split /[:]{4}/, $data;
 
@@ -620,7 +683,7 @@ sub unpretty {
 
                         map {
 
-                            unpretty_resolve($_);
+                            unpretty_resolve($_, $mode)
 
                         } @data
                     ]
@@ -630,7 +693,7 @@ sub unpretty {
 
         } @data;
     }
-    elsif ($mode eq 'lookup') {
+    elsif ($type eq 'lookup') {
 
         @data = split /(?:(?<=\n)\n|(?<=^)\n)/, $data, -1;
 
@@ -654,7 +717,11 @@ sub unpretty {
                     {
                         'clip'  =>  ( join '', split ' ', $clip ),
                         'root'  =>  ( ref $root ? "" : $root ),
-                        'ents'  =>  [ @ents ],
+                        'ents'  =>  [ map {
+
+                                unpretty_lookup($_, $mode)
+
+                            } @ents ],
                     }
 
                 } @data
@@ -997,7 +1064,8 @@ sub mergeSuffix {
 
                    "Iy"  => "Iy",
 
-                   "mA"  => "ImA"   );
+                   "mA"  => "ImA",
+                   "ka"  => "Ika"   );
 
         if (($x) = $_[1] =~ /^"(.*)"$/) {
 
@@ -1034,7 +1102,8 @@ sub mergeSuffix {
                    "Iy"  => "AnIy",
                    "At"  => "A'At",
 
-                   "_dA" => "A_dA"  );
+                   "_dA" => "A_dA",
+                   "ka"  => "Aka"   );
 
         if (($x) = $_[1] =~ /^"(.*)"$/) {
 

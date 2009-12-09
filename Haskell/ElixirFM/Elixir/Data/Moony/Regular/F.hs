@@ -1761,9 +1761,9 @@ cluster_99  = cluster
 
 cluster_100 = cluster
 
- |> ['.','h','a','b','b','a','_','d','A'] <| [
+ |> ['.','h','a','b','b','a','h','A','n'] <| [
 
-    _____                     `intj`    {- <.habba_dA> -}      [ unwords [ ['h','o','w'], ['n','i','c','e'], "!" ] ] ]
+    _____                     `noun`    {- <.habbahAn> -}      [ ['c','a','r','d','a','m','o','m'] ] ]
 
 
 section = [ cluster_1,

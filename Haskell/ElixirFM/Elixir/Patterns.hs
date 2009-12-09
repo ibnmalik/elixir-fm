@@ -36,26 +36,30 @@ import Elixir.Patterns.Triliteral
 
 import Elixir.Patterns.Quadriliteral
 
-import Data.List
-
 import Version
 
 version = revised "$Revision$"
 
 
+instance Morphing String String where
+
+    morph x = Morphs x [] []
+
+
 instance Template String where
 
     interlocks _ s r t | null r    = restore t
+                       | null t    = t
                        | otherwise = (concat . modify) t
 
-        where modify | isForm VIII t                      = assimiVIII
-                     | isForm VII  t                      = assimiVII
-                     | isSuffixOf "A" t && (not . null) s =
+        where modify | isForm VIII t                   = assimiVIII
+                     | isForm VII  t                   = assimiVII
+                     | last t == 'A'                   =
 
-                        case last s of Iy ->   (++ ["w"]) . substitute
-                                       _  ->                substitute
+                        case s of Iy : _ -> (++ ["w"]) . substitute
+                                  _      ->              substitute
 
-                     | otherwise                          = substitute
+                     | otherwise                       = substitute
 
               substitute x = (replace . restore) x
 
@@ -95,7 +99,7 @@ instance Template String where
 
 instance Rules String where
 
-    isForm I    x | x `elem` ["lays", "las"] = True
+    isForm I    x | x `elem` ["", "lays", "las"] = True
 
     isForm f x = let t = [ True | y <- [toEnum 0 :: PatternT ..],
                                   show y == x, f `isForm` y ]
@@ -116,9 +120,6 @@ instance Rules String where
     prefixVerbC _   _       = "i"
 
 
-    isInert _ x = (not . null) x && last x `elem` "AIUY"
-
-
     isDiptote x = case letters x of [_, "a", _, "A", _, y, _]   ->  y `elem` ["i", "I"]
                                     _                           ->  False
 
@@ -127,10 +128,13 @@ instance Forming String where
 
     verbStems I _ = [
 
-        (   Just  (     "FaL",      "|",        "|",        "|"         ),
-                        "FaCL",     "|",        "|",        "|"         ),
-        (   Just  (     "las",      "|",        "|",        "|"         ),
-                        "lays",     "|",        "|",        "|"         )
+        (   Just  (     "",         "",         "",         ""          ),
+                        "",         "",         "",         ""          ),
+        (   Just  (     "las",      "",         "",         ""          ),
+                        "lays",     "",         "",         ""          ),
+
+        (   Just  (     "FaL",      "",         "",         ""          ),
+                        "FaCL",     "",         "",         ""          )
 
         ]
 

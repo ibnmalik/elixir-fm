@@ -29,7 +29,7 @@ version = revised "$Revision$"
 
 instance Morphing PatternQ PatternQ where
 
-    morph t = Morphs t [] []
+    morph x = Morphs x [] []
 
 
 instance Template PatternQ where
