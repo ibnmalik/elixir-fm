@@ -101,9 +101,9 @@ sub pretty_lookup_tree {
 
                 my @info = @{$ents->[1]}{'morphs', 'entity', 'limits', 'reflex'};
 
-                my $form = $ents->[1]{'entity'}[1]{'form'};
+                my $form = exists $ents->[1]{'entity'}[1]{'form'} ? $ents->[1]{'entity'}[1]{'form'} : [];
 
-                my $xtag = $info[1]->[0][0];
+                my $xtag = $info[1]->[0];
 
                 $xtag = join ' ', ElixirFM::retrieve($xtag);
                 $xtag = substr $xtag, 0, 1;

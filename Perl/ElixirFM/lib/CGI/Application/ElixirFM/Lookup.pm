@@ -31,7 +31,7 @@ our @example = ( [ 'Unicode',   join " ", "school", decode "buckwalter", "drs k 
 
 sub pretty ($$$) {
 
-    my @word = ElixirFM::unpretty($_[0], $_[1]);
+    my @word = ElixirFM::unpretty $_[0], 'clear';
 
     my $q = $_[2];
 
@@ -110,9 +110,9 @@ sub pretty_lookup_entry {
 
     my @info = @{$ents->[1]}{'morphs', 'entity', 'limits', 'reflex'};
 
-    my $form = $ents->[1]{'entity'}[1]{'form'};
+    my $form = exists $ents->[1]{'entity'}[1]{'form'} ? $ents->[1]{'entity'}[1]{'form'} : [];
 
-    my @entity = @{$ents->[1]{'entity'}[1]}{'plural', 'femini'};
+    my @entity = map { exists $ents->[1]{'entity'}[1]{$_} ? $ents->[1]{'entity'}[1]{$_} : [] } 'plural', 'femini';
 
     @entity = ((map { [($_ == 0 ? '-------P--' : ''),
                        ElixirFM::merge($data->{'root'}, $entity[0][$_]), $entity[0][$_]] } 0 .. @{$entity[0]} - 1),
@@ -120,7 +120,7 @@ sub pretty_lookup_entry {
                (map { [($_ == 0 ? '------F---' : ''),
                        ElixirFM::merge($data->{'root'}, $entity[1][$_]), $entity[1][$_]] } 0 .. @{$entity[1]} - 1));
 
-    my $xtag = $info[1]->[0][0];
+    my $xtag = $info[1]->[0];
 
     $xtag = join ' ', ElixirFM::retrieve($xtag);
     $xtag = substr $xtag, 0, 1;

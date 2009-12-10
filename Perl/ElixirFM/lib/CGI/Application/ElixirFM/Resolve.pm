@@ -146,7 +146,7 @@ sub pretty_resolve_lexeme {
 
     my $xcat = substr $data[0]->[0], 0, 1;
 
-	$info[1] = join " ", map { exists $info[1]->{$_} ? @{$info[1]->{$_}} : () } 'imperf', 'pfirst', 'second';
+	$info[1] = join " ", map { exists $info[1]->[1]{$_} ? @{$info[1]->[1]{$_}} : () } 'imperf', 'pfirst', 'second';
 
     $info[2] = substr $info[2], 1, -1;
     $info[2] =~ s/\",\"/\", \"/g;
