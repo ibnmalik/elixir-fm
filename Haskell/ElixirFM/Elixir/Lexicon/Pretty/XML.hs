@@ -201,18 +201,17 @@ instance Show a => Pretty (TagsType, [([TagsType], [Morphs a])]) where
 
     pretty (x, y) = elemtxt "fst" [] (pretty x)
                     <$$>
-                    elemtxt "snd" [] (case y of [_] -> nested (pretty y)
-                                                _   -> pretty y)
+                    elemtxt "snd" [] (pretty y)
 
 
 instance Show a => Pretty ([TagsType], [Morphs a]) where
 
-    pretty (x, y) = elemtxt "fst" [] ((pretty . map show) x)
+    pretty (x, y) = elemtxt "fst" [] ((pretty . map (show . pretty)) x)
                     <$$>
                     elemtxt "snd" [] ((pretty . map show) y)
 
     prettyList []  = empty
-    prettyList [x] = pretty x
+    prettyList [x] = (nested . pretty) x
     prettyList xyz = (nested . vcat . map (element "LM" [] . pretty)) xyz
 
 

@@ -254,6 +254,7 @@ sub display_footer ($) {
                 $q->a({'style' => 'float: right',
                        'href'  => "http://sourceforge.net/projects/elixir-fm/"},
                       $q->img({'border' => "0",
+                               'style' => 'margin-bottom: 20px',
                                'src' => "http://sflogo.sourceforge.net/sflogo.php?group_id=181087&type=13",
                                'alt' => "ElixirFM at SourceForge.net",
                                'height' => "30", 'width' => "120"})) );
@@ -316,6 +317,9 @@ sub main ($) {
 
     $r .= $q->p("ElixirFM can process words of", $q->a({-href => 'http://en.wikipedia.org/wiki/Dictionary_of_Modern_Written_Arabic'},
                 "Modern Written Arabic"), "using four different modes.", "Here, you can learn how to use these modes for various purposes.");
+
+    $r .= $q->p("Further information is available via", $q->a({-href => 'http://elixir-fm.wiki.sourceforge.net/'},
+                "ElixirFM Wiki") . ".");
 
     $r .= $q->h2($q->a({-href => 'index.fcgi?mode=resolve'}, 'Resolve'));
 

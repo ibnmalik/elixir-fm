@@ -600,15 +600,15 @@ sub lists_trees {
 
         ?   [
                 [
-                    map { 
-                    
+                    map {
+
                         my $data = [ split /[\n ]*\t/, $_ ];
-                        
+
                         $data->[1] = parse_clear($data->[1], $mode);
-                        
-                        $data                       
-                    } 
-                    
+
+                        $data
+                    }
+
                     grep { $_ ne '' } split /[\n ]*(?=\([0-9]+,[0-9]+\)[\n ]*\t|$)/, $node
                 ],
 
@@ -651,9 +651,9 @@ sub lists_trees {
                     my ($node, @data) = split /(?<![\t\n ])(?:[\t ]*\n)+$i(?![\t\n ])/, $_;
 
                     my $data = [ split /[\n ]*\t/, $node ];
-                    
+
                     $data->[1] = parse_clear($data->[1], $mode);
-                    
+
                     [
                         $data,
 
@@ -688,7 +688,7 @@ sub unpretty {
 
     my ($data, $mode) = @_;
 
-    my $type = $data =~ /^\s*[:]{4}/ ? 'resolve' : $data =~ /[>]\s*$/ ? 'lookup' : '';
+    my $type = $data =~ /^\s*[:]{4}/ ? 'resolve' : $data =~ /^\s*[()]/ ? 'lookup' : $data =~ /^\s*[<>]/ ? 'lexicon' : '';
 
     my @data;
 
@@ -758,11 +758,15 @@ sub unpretty {
 
         } @data;
     }
+    elsif ($type eq 'lexicon') {
+
+        @data = parse_clear($data, $mode);
+    }
     else {
 
         @data = split /(?:(?<=\n)\n|(?<=^)\n)/, $data, -1;
 
-        pop @data;
+        pop @data if @data and $data[-1] eq '';
 
         @data = map {
 

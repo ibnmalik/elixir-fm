@@ -110,11 +110,12 @@ sub pretty_resolve_data {
 
     my $text = join " " . $q->span({-style => 'width: 20px'}, " ") . " ",
 
-                    map { my @x = (ElixirFM::nub { $_[0] } map {
+                    map {                         
+                            my @x = ElixirFM::nub { $_[0] } map {
 
-                                escape decode "buckwalter", encode "buckwalter", decode "arabtex", $_
+                                        escape decode "buckwalter", encode "buckwalter", decode "arabtex", $_
 
-                            } ElixirFM::nub { $_[0] } map { $_->[1] } map { @{$_}[1 .. @{$_} - 1] } @{$_}[1 .. @{$_} - 1]);
+                                  } ElixirFM::nub { $_[0] } map { $_->[1] } map { @{$_}[1 .. @{$_} - 1] } @{$_}[1 .. @{$_} - 1];
 
                             join " ", @x > 3 ? ($x[0], '..', $x[-1]) : @x
 
