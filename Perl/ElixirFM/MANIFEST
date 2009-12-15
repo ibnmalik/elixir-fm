@@ -1,7 +1,4 @@
-bin/elixir-compose.pl
-bin/elixir-resolve.pl
 Build.PL
-# Changes
 cgi/elixir/index.fcgi
 css/elixir.css
 css/elixir.js
@@ -17,14 +14,7 @@ lib/CGI/Application/ElixirFM/Inflect.pm
 lib/CGI/Application/ElixirFM/Lookup.pm
 lib/CGI/Application/ElixirFM/Resolve.pm
 lib/ElixirFM.pm
-lib/ElixirFM/Data/Compose.PL
-lib/ElixirFM/Resolve.pm
 lib/Exec/ElixirFM.pm
-lib/MorphoMap.pm
 MANIFEST
 META.yml
 README
-# t/00-load.t
-# t/boilerplate.t
-# t/pod-coverage.t
-# t/pod.t

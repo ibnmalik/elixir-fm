@@ -1217,20 +1217,7 @@ ElixirFM - Interfaces to the ElixirFM system in Haskell
 The L<ElixirFM|ElixirFM> module reimplements some of the functionality of the ElixirFM system
 written in Haskell.
 
-In particular, it includes the L<ElixirFM::Resolve|ElixirFM::Resolve> and
-L<ElixirFM::Data::Compose|ElixirFM::Data::Compose> modules providing the algorithms and data for
-advanced Arabic morphological analysis, see also the L<elixir-resolve|elixir-resolve> executable.
-Other applications, such as morphological generation, can also be implemented with ElixirFM.
-
-
-=head1 SUPPORT
-
-You can find documentation for this module with the perldoc command.
-
-    perldoc ElixirFM
-
-
-You can also look for information at L<http://sourceforge.net/projects/elixir-fm/>.
+You can find documentation for this module at L<http://sourceforge.net/projects/elixir-fm/>.
 
 
 =head1 AUTHOR

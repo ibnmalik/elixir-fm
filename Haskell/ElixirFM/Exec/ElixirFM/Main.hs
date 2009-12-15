@@ -51,7 +51,7 @@ import qualified Data.Map as Map
 
 import Version
 
-version = Version [1, 1, max build 913] []
+version = Version [1, 1, max build 914] []
 
     where Version [build] [] = revised "$Revision$"
 

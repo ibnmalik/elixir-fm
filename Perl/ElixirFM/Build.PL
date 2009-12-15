@@ -8,11 +8,6 @@ my $build = Module::Build->new(
     license             => 'gpl',
     dist_author         => 'Otakar Smrz <otakar smrz mff cuni cz>',
     dist_version_from   => 'lib/ElixirFM.pm',
-    PL_files    => {
-
-        'lib/ElixirFM/Data/Compose.PL'  =>  'lib/ElixirFM/Data/Compose.pm',
-
-    },
     requires       => {
                            'perl'           => 5.008,
                            'Encode::Arabic' => 0,

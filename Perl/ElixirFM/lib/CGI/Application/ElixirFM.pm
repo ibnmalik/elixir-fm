@@ -318,7 +318,7 @@ sub main ($) {
     $r .= $q->p("ElixirFM can process words of", $q->a({-href => 'http://en.wikipedia.org/wiki/Dictionary_of_Modern_Written_Arabic'},
                 "Modern Written Arabic"), "using four different modes.", "Here, you can learn how to use these modes for various purposes.");
 
-    $r .= $q->p("Further information is available via", $q->a({-href => 'http://elixir-fm.wiki.sourceforge.net/'},
+    $r .= $q->p("ElixirFM is further documented at", $q->a({-href => 'http://elixir-fm.wiki.sourceforge.net/'},
                 "ElixirFM Wiki") . ".");
 
     $r .= $q->h2($q->a({-href => 'index.fcgi?mode=resolve'}, 'Resolve'));

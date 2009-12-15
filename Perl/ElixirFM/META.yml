@@ -7,25 +7,35 @@ abstract: Interfaces to the ElixirFM system in Haskell
 license: gpl
 requires:
   Encode::Arabic: 0
-  Encode::Mapper: 0
   perl: 5.008
 build_requires:
   Encode::Arabic: 0
-  Encode::Mapper: 0
   Test::More: 0
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2
 provides:
+  CGI::Application::ElixirFM:
+    file: lib/CGI/Application/ElixirFM.pm
+    version: 1.1.913
+  CGI::Application::ElixirFM::Derive:
+    file: lib/CGI/Application/ElixirFM/Derive.pm
+    version: 1.1.912
+  CGI::Application::ElixirFM::Inflect:
+    file: lib/CGI/Application/ElixirFM/Inflect.pm
+    version: 1.1.912
+  CGI::Application::ElixirFM::Lookup:
+    file: lib/CGI/Application/ElixirFM/Lookup.pm
+    version: 1.1.912
+  CGI::Application::ElixirFM::Resolve:
+    file: lib/CGI/Application/ElixirFM/Resolve.pm
+    version: 1.1.913
   ElixirFM:
     file: lib/ElixirFM.pm
     version: 1.1
-  ElixirFM::Resolve:
-    file: lib/ElixirFM/Resolve.pm
-    version: 1.1
-  MorphoMap:
-    file: lib/MorphoMap.pm
-    version: 1.9
+  Exec::ElixirFM:
+    file: lib/Exec/ElixirFM.pm
+    version: 1.1.910
 resources:
   license: http://www.opensource.org/licenses/gpl-license.php
