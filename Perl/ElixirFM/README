@@ -12,22 +12,20 @@ ElixirFM is documented at http://elixir-fm.wiki.sourceforge.net/.
 
 INSTALLATION
 
-To install this module, run the following commands:
+To install this module, run the following from the command line:
 
 	perl Build.PL
-	./Build
-	./Build test
-	./Build install
+	Build
+	Build install
 
-    
+
 DOCUMENTATION
 
-After installing, you can find documentation for this module with
-the perldoc command.
+Visit the site http://sourceforge.net/projects/elixir-fm/ or run
 
     perldoc ElixirFM
 
-You can also visit http://sourceforge.net/projects/elixir-fm/.
+in order to get more information on this and related software.
 
 
 COPYRIGHT AND LICENCE

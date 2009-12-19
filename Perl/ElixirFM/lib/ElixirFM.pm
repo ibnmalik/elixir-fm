@@ -694,25 +694,35 @@ sub unpretty {
 
     if ($type eq 'resolve') {
 
-        (undef, @data) = split /[:]{4}/, $data;
+        @data = split /(?:(?<=\n\n)\n|(?<=^\n)\n|(?<=^)\n)/, $data, -1;
+
+        pop @data;
 
         @data = map {
 
-            my ($node, @data) = split /[:]{3}/, $_;
+            my (undef, @data) = split /[:]{4}/, $_;
 
             [
-                [ split ' ', $node ],
-
                 map {
 
-                    my ($node, @data) = split /[:]{2}/, $_;
+                    my ($node, @data) = split /[:]{3}/, $_;
 
                     [
-                        [ map { join ' ', split ' ' } split /(?<=[>])\s+(?=[<])/, $node ],
+                        [ split ' ', $node ],
 
                         map {
 
-                            lists_trees($_, $mode)
+                            my ($node, @data) = split /[:]{2}/, $_;
+
+                            [
+                                [ map { join ' ', split ' ' } split /(?<=[>])\s+(?=[<])/, $node ],
+
+                                map {
+
+                                    lists_trees($_, $mode)
+
+                                } @data
+                            ]
 
                         } @data
                     ]

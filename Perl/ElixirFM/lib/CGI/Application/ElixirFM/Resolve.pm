@@ -36,11 +36,11 @@ our @example = ( [ 'Unicode',       decode "buckwalter", "AqrO Aldrs AlOwl" ],
 
 sub pretty ($$$) {
 
-    my @word = ElixirFM::unpretty $_[0], 'clear';
+    my @word = ElixirFM::concat ElixirFM::unpretty $_[0], 'clear';
 
     my $q = $_[2];
 
-    my @text = split ' ', $q->param('text');
+    my @text = split " ", $q->param('text');
 
     my $r = '';
 
