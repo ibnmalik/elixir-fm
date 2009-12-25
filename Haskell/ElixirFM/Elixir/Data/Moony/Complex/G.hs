@@ -126,9 +126,7 @@ cluster_4   = cluster
 
     HiFCA'                    `noun`    {- <'i^grA'> -}        [ ['c','o','n','d','u','c','t','i','n','g'], ['u','n','d','e','r','t','a','k','i','n','g'], unwords [ ['c','a','r','r','y','i','n','g'], ['o','u','t'] ] ],
 
-    HiFCA'                    `noun`    {- <'i^grA'> -}        [ ['p','r','o','c','e','s','s'], ['m','e','a','s','u','r','e'] ],
-
-    HiFCA'                    `noun`    {- <'i^grA'> -}        [ ['m','e','a','s','u','r','e','s'], ['s','t','e','p','s'] ]
+    HiFCA'                    `noun`    {- <'i^grA'> -}        [ ['p','r','o','c','e','s','s'], ['m','e','a','s','u','r','e'], ['s','t','e','p','s'] ]
                               `plural`     HiFCA' |< At,
 
     HiFCA' |< Iy              `adj`     {- <'i^grA'Iy> -}      [ ['o','p','e','r','a','t','i','o','n','a','l'] ],

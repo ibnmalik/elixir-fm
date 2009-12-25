@@ -141,7 +141,7 @@ cluster_19  = cluster
 
  |> ['t','U','r','U','n','t','U'] <| [
 
-    _____                     `xtra`    {- <tUrUntU> -}        [ ['T','o','r','o','n','t','o'], ['T','o','r','r','e','s'] ] ]
+    _____                     `xtra`    {- <tUrUntU> -}        [ ['T','o','r','o','n','t','o'] ] ]
 
 
 cluster_20  = cluster
@@ -239,9 +239,7 @@ cluster_33  = cluster
 
  |> ['t','I','m'] <| [
 
-    _____                     `xtra`    {- <tIm> -}            [ ['T','e','a','m'] ] ]
-
- |> ['t','I','m'] <| [
+    _____                     `xtra`    {- <tIm> -}            [ ['T','e','a','m'] ],
 
     _____                     `xtra`    {- <tIm> -}            [ ['T','i','m'] ] ]
 

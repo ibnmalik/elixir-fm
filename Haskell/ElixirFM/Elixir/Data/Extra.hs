@@ -25,7 +25,7 @@ version = revised "$Revision$"
 
 lexicon :: Lexicon
 
-lexicon = listing "Generic lexicon"
+lexicon = listing "Extended lexicon"
 
 
     |> "m r '" <| [
@@ -71,6 +71,14 @@ lexicon = listing "Generic lexicon"
                                                         <:>     al >| "FaCL" |< aT |<< "i"
                             <.>     "N------S4D"
                                                         <:>     al >| "FaCL" |< aT |<< "a"
+                            <.>     "N------D1[IA]"
+                                                        <:>     "IFCaL" |< aT |<< "Ani"
+                            <.>     "N------D[24][IA]"
+                                                        <:>     "IFCaL" |< aT |<< "ayni"
+                            <.>     "N------D1R"
+                                                        <:>     "IFCaL" |< aT |<< "A"
+                            <.>     "N------D[24]R"
+                                                        <:>     "IFCaL" |< aT |<< "ay"
                             <.>     "N------D1D"
                                                         <:>     al >| "FaCL" |< aT |<< "Ani"
                             <.>     "N------D[24]D"
@@ -117,13 +125,12 @@ lexicon = listing "Generic lexicon"
 
     |> "' l h" <| [
 
-        al >| "l_ah"        <::>    "N------S-D"        <..>    [ "Allah", "God" ],
+        al >| "C_aL"        <::>    "N------S-D"        <..>    [ "Allah", "God" ],
 
-        "'il_ah"            <::>    "N--------[IRA]"
-                                                        <..>    [ "god", "deity" ]
-                            `plural`    "'Alih" |< aT,
+        "FiC_aL"            `noun`                              [ "god", "deity" ]
+                            `plural`    "HACiL" |< aT,
 
-        "'il_ah" |< Iy      `adj`                   [ "divine", "godly", "theological" ]
+        "FiC_aL" |< Iy      `adj`                   [ "divine", "godly", "theological" ]
 
         ]
 
@@ -146,11 +153,11 @@ lexicon = listing "Generic lexicon"
                             <.>     "N------D[24]D"
                                                         <:>     al >| FaCA |<< "ayni"
                             <.>     "N------S1R"
-                                                        <:>     FaC |<< "U"
+                                                        <:>     FaCU |<< "u"
                             <.>     "N------S2R"
-                                                        <:>     FaC |<< "I"
+                                                        <:>     FaCI |<< "i"
                             <.>     "N------S4R"
-                                                        <:>     FaC |<< "A"
+                                                        <:>     FaCA |<< "a"
         ]
 
 
@@ -173,11 +180,11 @@ lexicon = listing "Generic lexicon"
                             <.>     "N------D[24]D"
                                                         <:>     al >| FaCA |<< "ayni"
                             <.>     "N------S1R"
-                                                        <:>     FaC |<< "U"
+                                                        <:>     FaCU |<< "u"
                             <.>     "N------S2R"
-                                                        <:>     FaC |<< "I"
+                                                        <:>     FaCI |<< "i"
                             <.>     "N------S4R"
-                                                        <:>     FaC |<< "A"
+                                                        <:>     FaCA |<< "a"
         ]
 
 
@@ -199,62 +206,70 @@ lexicon = listing "Generic lexicon"
                             <.>     "N------D[24]D"
                                                         <:>     al >| FaCA |<< "ayni"
                             <.>     "N------S1R"
-                                                        <:>     FaC |<< "U"
+                                                        <:>     FaCU |<< "u"
                             <.>     "N------S2R"
-                                                        <:>     FaC |<< "I"
+                                                        <:>     FaCI |<< "i"
                             <.>     "N------S4R"
-                                                        <:>     FaC |<< "A"
+                                                        <:>     FaCA |<< "a"
         ]
 
 
-    |> "f" <| [
+    |> "f w h" <| [
 
-        "f" |<< "U"         <::>    "N------S-R"
-                                                        <..>    [ "mouth" ]
+        FUL                 `noun`                  [ "mouth" ]
+                            `plural`    HaFCAL
+
+                            <.>     "N------S1R"
+                                                        <:>     FU |<< "u"
                             <.>     "N------S2R"
-                                                        <:>     "f" |<< "I"
+                                                        <:>     FI |<< "i"
                             <.>     "N------S4R"
-                                                        <:>     "f" |<< "A"
+                                                        <:>     FA |<< "a"
         ]
 
 
     |> "_d" <| [
 
-        "_d" |<< "U"        <::>    "SD--------"
+        "FU" |<< "u"        <::>    "SD--------"
                                                         <..>    [ unwords [ "the", "one", "of" ], unwords [ "the", "one", "with" ] ]
                             <.>     "SD----MS2-"
-                                                        <:>     "_d" |<< "I"
+                                                        <:>     "FI" |<< "i"
                             <.>     "SD----MS4-"
-                                                        <:>     "_d" |<< "A"
+                                                        <:>     "FA" |<< "a"
 
                             <.>     "SD----MD1-"
-                                                        <:>     "_daw" |<< "A"
+                                                        <:>     "FA" |<< "A"
                             <.>     "SD----MD[24]-"
-                                                        <:>     "_daw" |<< "ay"
+                                                        <:>     "FA" |<< "ay"
 
                             <.>     "SD----MP1-"
-                                                        <:>     "_daw" |<< "U"
+                                                        <:>     "Faw" |<< "U"
                             <.>     "SD----MP[24]-"
-                                                        <:>     "_daw" |<< "I"
+                                                        <:>     "Faw" |<< "I"
 
                             <.>     "SD----FS1-"
-                                                        <:>     "_dAt" |<< "u"
+                                                        <:>     "FA" |<< "t" |<< "u"
                             <.>     "SD----FS2-"
-                                                        <:>     "_dAt" |<< "i"
+                                                        <:>     "FA" |<< "t" |<< "i"
                             <.>     "SD----FS4-"
-                                                        <:>     "_dAt" |<< "a"
+                                                        <:>     "FA" |<< "t" |<< "a"
 
                             <.>     "SD----FD1-"
-                                                        <:>     "_dAt" |<< "A"
-                                                        <:>     "_dawAt" |<< "A"
+                                                        <:>     "FA" |<< "t" |<< "A"
+                                                        <:>     "FA" |< At |<< "A"
                             <.>     "SD----FD[24]-"
-                                                        <:>     "_dAt" |<< "ay"
-                                                        <:>     "_dawAt" |<< "ay"
+                                                        <:>     "FA" |<< "t" |<< "ay"
+                                                        <:>     "FA" |< At |<< "ay"
 
                             <.>     "SD----FP1-"
-                                                        <:>     "_daw" |< At |<< "u"
+                                                        <:>     "FA" |< At |<< "u"
                             <.>     "SD----FP[24]-"
-                                                        <:>     "_daw" |< At |<< "i"
+                                                        <:>     "FA" |< At |<< "i",
+
+        "FA"                <::>    "SD-----S--"
+                                                        <..>    [ "this" ]
+                            <.>     "SD----FS--"
+                                                        <:>     "FI"
         ]
 
 
@@ -268,7 +283,10 @@ lexicon = listing "Generic lexicon"
                             <.>     "SD----FP1-"
                                                         <:>     "'_Ul" |< At |<< "u"
                             <.>     "SD----FP[24]-"
-                                                        <:>     "'_Ul" |< At |<< "i"
+                                                        <:>     "'_Ul" |< At |<< "i",
+
+        "'_UlA'i"           <::>    "SD-----P--"
+                                                        <..>    [ "these" ]
         ]
 
 
@@ -300,7 +318,8 @@ lexicon = listing "Generic lexicon"
         "h_a" >>| "_dA"     <::>    "SD--------"
                                                         <..>    [ "this", "these" ]
                             <.>     "SD----FS--"
-                                                        <:>     "h_a" >>| "_dihi"
+                                                        <:>     "h_a" >>| "_d" |<< "ihi"
+                                                        <:>     "h_a" >>| "_dI"
                             <.>     "SD----MD1-"
                                                         <:>     "h_a" >>| "_d" |<< "Ani"
                             <.>     "SD----MD[24]-"
@@ -316,20 +335,21 @@ lexicon = listing "Generic lexicon"
 
     |> "k" <| [
 
-        "_d_ali" |<< "ka"   <::>    "SD--------"
-                                                        <..>    [ "that", "those" ]
-                            <.>     "SD----FS--"
-                                                        <:>     "til" |<< "ka"
-                            <.>     "SD----MD1-"
-                                                        <:>     "_d" |<< "Ani" |<< "ka"
-                            <.>     "SD----MD[24]-"
-                                                        <:>     "_d" |<< "ayni" |<< "ka"
-                            <.>     "SD----FD1-"
-                                                        <:>     "t" |<< "Ani" |<< "ka"
-                            <.>     "SD----FD[24]-"
-                                                        <:>     "t" |<< "ayni" |<< "ka"
-                            <.>     "SD-----P--"
-                                                        <:>     "'_Ul_a'i" |<< "ka",
+        "_d_a" |<< "li" |<< "ka"    <::>    "SD--------"
+                                                                <..>    [ "that", "those" ]
+                                    <.>     "SD----FS--"
+                                                                <:>     "t" |<< "il" |<< "ka"
+                                    <.>     "SD----MD1-"
+                                                                <:>     "_d" |<< "Ani" |<< "ka"
+                                    <.>     "SD----MD[24]-"
+                                                                <:>     "_d" |<< "ayni" |<< "ka"
+                                    <.>     "SD----FD1-"
+                                                                <:>     "t" |<< "Ani" |<< "ka"
+                                    <.>     "SD----FD[24]-"
+                                                                <:>     "t" |<< "ayni" |<< "ka"
+                                    <.>     "SD-----P--"
+                                                                <:>     "'_UlA'i" |<< "ka"
+                                                                <:>     "'_Ul_a'i" |<< "ka",
 
         "_dA" |<< "ka"      <::>    "SD-----S--"
                                                         <..>    [ "that" ]

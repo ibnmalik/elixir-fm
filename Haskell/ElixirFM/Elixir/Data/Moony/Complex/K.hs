@@ -422,9 +422,6 @@ cluster_21  = cluster
 
     TaFaCCaL                  `verb`    {- <tafawwah> -}       [ ['p','r','o','n','o','u','n','c','e'], ['u','t','t','e','r'], ['v','o','i','c','e'] ],
 
-    FUL                       `noun`    {- <fUh> -}            [ ['m','o','u','t','h'] ]
-                              `plural`     HaFCAL,
-
     HaFACIL                   `noun`    {- <'afAwIh> -}        [ ['s','p','i','c','e','s'] ],
 
     FUL |< aT                 `noun`    {- <fUhaT> -}          [ ['m','o','u','t','h'], ['a','p','e','r','t','u','r','e'] ]

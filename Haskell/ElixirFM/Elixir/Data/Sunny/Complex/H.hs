@@ -1676,31 +1676,6 @@ cluster_65  = cluster
 
  |> "n y l" <| [
 
-    FaCCaL                    `verb`    {- <nayyal> -}         [ unwords [ ['d','y','e'], ['w','i','t','h'], ['i','n','d','i','g','o'] ] ],
-
-    FIL                       `noun`    {- <nIl> -}            [ ['i','n','d','i','g','o'] ],
-
-    FIL |< aT                 `noun`    {- <nIlaT> -}          [ ['i','n','d','i','g','o'] ],
-
-    MuFaCCaL                  `adj`     {- <munayyal> -}       [ unwords [ ['d','y','e','d'], ['w','i','t','h'], ['i','n','d','i','g','o'] ] ] ]
-
- |> "n y l" <| [
-
-    TaFCIL                    `noun`    {- <tanyIl> -}         [ unwords [ ['a','l','l','u','v','i','a','t','i','o','n'], ['o','f'], ['s','o','i','l'], ['b','y'], ['t','h','e'], ['N','i','l','e'] ] ]
-                              `plural`     TaFCIL |< At,
-
-    MaFCaL                    `noun`    {- <manyal> -}         [ ['n','i','l','o','m','e','t','e','r'] ],
-
-    FIL |< Iy                 `adj`     {- <nIlIy> -}          [ ['N','i','l','o','t','i','c'], unwords [ ['o','f'], ['t','h','e'], ['N','i','l','e'] ] ],
-
-    FIL                       `noun`    {- <nIl> -}            [ ['N','i','l','e'] ] ]
-
- |> ['n','A','y','l'] <| [
-
-    _____                     `xtra`    {- <nAyl> -}           [ ['N','i','l','e'] ] ]
-
- |> "n y l" <| [
-
     FAL                       `verb`    {- <nAl> -}            [ ['a','t','t','a','i','n'], ['a','c','h','i','e','v','e'], ['a','c','q','u','i','r','e'] ]
                               `imperf`     FAL,
 
@@ -1718,6 +1693,27 @@ cluster_65  = cluster
     MaFAL                     `noun`    {- <manAl> -}          [ ['a','t','t','a','i','n','m','e','n','t'], ['a','c','q','u','i','r','i','n','g'], ['o','b','t','a','i','n','i','n','g'] ],
 
     MaFAL                     `noun`    {- <manAl> -}          [ ['M','a','n','a','l'] ] ]
+
+ |> "n y l" <| [
+
+    FaCCaL                    `verb`    {- <nayyal> -}         [ unwords [ ['d','y','e'], ['w','i','t','h'], ['i','n','d','i','g','o'] ] ],
+
+    FIL                       `noun`    {- <nIl> -}            [ ['i','n','d','i','g','o'] ],
+
+    FIL |< aT                 `noun`    {- <nIlaT> -}          [ ['i','n','d','i','g','o'] ],
+
+    MuFaCCaL                  `adj`     {- <munayyal> -}       [ unwords [ ['d','y','e','d'], ['w','i','t','h'], ['i','n','d','i','g','o'] ] ] ]
+
+ |> "n y l" <| [
+
+    FIL                       `noun`    {- <nIl> -}            [ ['N','i','l','e'] ],
+
+    FIL |< Iy                 `adj`     {- <nIlIy> -}          [ ['N','i','l','o','t','i','c'], unwords [ ['o','f'], ['t','h','e'], ['N','i','l','e'] ] ],
+
+    TaFCIL                    `noun`    {- <tanyIl> -}         [ unwords [ ['a','l','l','u','v','i','a','t','i','o','n'], ['o','f'], ['s','o','i','l'], ['b','y'], ['t','h','e'], ['N','i','l','e'] ] ]
+                              `plural`     TaFCIL |< At,
+
+    MaFCaL                    `noun`    {- <manyal> -}         [ ['n','i','l','o','m','e','t','e','r'] ] ]
 
 
 cluster_66  = cluster

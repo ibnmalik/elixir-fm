@@ -2153,19 +2153,19 @@ cluster_80  = cluster
 
 cluster_81  = cluster
 
- |> "_h n y" <| [
-
-    FaCY                      `noun`    {- <_hanY> -}          [ ['o','b','s','c','e','n','i','t','y'], ['f','o','r','n','i','c','a','t','i','o','n'] ],
-
-    FaCI                      `verb`    {- <_hanI> -}          [ unwords [ ['b','e'], ['o','b','s','c','e','n','e'] ] ]
-                              `imperf`     FCY ]
-
  |> "_h n w" <| [
 
     FaCA                      `verb`    {- <_hanA> -}          [ unwords [ ['b','e'], ['o','b','s','c','e','n','e'] ] ]
                               `imperf`     FCU,
 
     HaFCY                     `verb`    {- <'a_hnY> -}         [ ['a','f','f','l','i','c','t'], unwords [ ['w','e','a','r'], ['d','o','w','n'] ], ['r','u','i','n'] ] ]
+
+ |> "_h n y" <| [
+
+    FaCI                      `verb`    {- <_hanI> -}          [ unwords [ ['b','e'], ['o','b','s','c','e','n','e'] ] ]
+                              `imperf`     FCY,
+
+    FaCY                      `noun`    {- <_hanY> -}          [ ['o','b','s','c','e','n','i','t','y'], ['f','o','r','n','i','c','a','t','i','o','n'] ] ]
 
 
 cluster_82  = cluster
@@ -2200,13 +2200,13 @@ cluster_85  = cluster
 
  |> "_h w _h" <| [
 
-    FaCL                      `noun`    {- <_haw_h> -}         [ ['p','e','a','c','h'], ['p','l','u','m'] ]
-                              `plural`     FaCL |< At,
-
     FaCCaL                    `verb`    {- <_hawwa_h> -}       [ ['r','o','t'], ['d','e','c','a','y'], ['s','p','o','i','l'] ],
 
     FaCL |< aT                `noun`    {- <_haw_haT> -}       [ ['a','l','l','e','y'], ['p','a','s','s','a','g','e'], ['w','i','c','k','e','t'] ]
-                              `plural`     FuCaL ]
+                              `plural`     FuCaL,
+
+    FaCL                      `noun`    {- <_haw_h> -}         [ ['p','e','a','c','h'], ['p','l','u','m'] ]
+                              `plural`     FaCL |< At ]
 
 
 cluster_86  = cluster

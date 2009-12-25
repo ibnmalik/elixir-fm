@@ -153,11 +153,9 @@ cluster_21  = cluster
 
  |> ['r','A','m'] <| [
 
+    _____                     `xtra`    {- <rAm> -}            [ unwords [ ['R','A','M'], "(", ['r','a','n','d','o','m'], ['a','c','c','e','s','s'], ['m','e','m','o','r','y'], ")" ] ],
+
     _____                     `xtra`    {- <rAm> -}            [ ['R','a','m'] ] ]
-
- |> ['r','A','m'] <| [
-
-    _____                     `xtra`    {- <rAm> -}            [ unwords [ ['R','A','M'], "(", ['r','a','n','d','o','m'], ['a','c','c','e','s','s'], ['m','e','m','o','r','y'], ")" ] ] ]
 
 
 cluster_22  = cluster
@@ -232,13 +230,13 @@ cluster_31  = cluster
 
 cluster_32  = cluster
 
- |> ['r','a','m','s','f','i','l','d'] <| [
-
-    _____                     `xtra`    {- <ramsfild> -}       [ ['R','u','m','s','f','e','l','d'] ] ]
-
  |> ['r','A','m','s','f','i','l','d'] <| [
 
     _____                     `xtra`    {- <rAmsfild> -}       [ ['R','u','m','s','f','e','l','d'] ] ]
+
+ |> ['r','a','m','s','f','i','l','d'] <| [
+
+    _____                     `xtra`    {- <ramsfild> -}       [ ['R','u','m','s','f','e','l','d'] ] ]
 
 
 cluster_33  = cluster
@@ -312,7 +310,7 @@ cluster_42  = cluster
 
     _____                     `xtra`    {- <rantIs> -}         [ ['R','a','n','t','i','s'] ],
 
-    _____ |< Iy               `xtra`    {- <rantIsIy> -}       [ ['R','a','n','t','i','s','s','i'] ] ]
+    _____ |<< "I"             `xtra`    {- <rantIsI> -}        [ ['R','a','n','t','i','s','s','i'] ] ]
 
 
 cluster_43  = cluster
@@ -361,15 +359,11 @@ cluster_49  = cluster
 
  |> ['r','U','y','t','i','r'] <| [
 
-    _____                     `xtra`    {- <rUytir> -}         [ ['R','e','u','t','e','r','s'] ] ]
+    _____                     `xtra`    {- <rUytir> -}         [ ['R','e','u','t','e','r','s'] ],
 
- |> ['r','U','y','t','i','r','s'] <| [
+    _____ |<< "s"             `xtra`    {- <rUytirs> -}        [ ['R','e','u','t','e','r','s'] ],
 
-    _____                     `xtra`    {- <rUytirs> -}        [ ['R','e','u','t','e','r','s'] ] ]
-
- |> ['r','U','y','t','i','r','z'] <| [
-
-    _____                     `xtra`    {- <rUytirz> -}        [ ['R','e','u','t','e','r','s'] ] ]
+    _____ |<< "z"             `xtra`    {- <rUytirz> -}        [ ['R','e','u','t','e','r','s'] ] ]
 
 
 cluster_50  = cluster

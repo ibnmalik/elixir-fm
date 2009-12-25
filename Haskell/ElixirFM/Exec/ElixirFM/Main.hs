@@ -51,7 +51,7 @@ import qualified Data.Map as Map
 
 import Version
 
-version = Version [1, 1, max build 914] []
+version = Version [1, 1, max build 917] []
 
     where Version [build] [] = revised "$Revision$"
 
@@ -72,11 +72,11 @@ options = [ Option []    ["resolve"]    (NoArg (RunAction elixirResolve))
             Option []    ["inflect"]    (NoArg (RunAction elixirInflect))
                                                 "run the 'inflect' mode",
 
-            Option []    ["lookup"]     (NoArg (RunAction elixirLookup))
-                                                "run the 'lookup' mode",
-
             Option []    ["derive"]     (NoArg (RunAction elixirDerive))
-                                                "run the 'derive' mode\n\n",
+                                                "run the 'derive' mode",
+
+            Option []    ["lookup"]     (NoArg (RunAction elixirLookup))
+                                                "run the 'lookup' mode\n\n",
 
             Option []    ["lexicon"]    (NoArg (RunAction elixirLexicon))
                                                 "dump the 'lexicon' data",
@@ -193,6 +193,15 @@ elixirInflect o p = interact (unlines . map (show . q . words) . onlines)
           i = [ z | x <- p, y <- c x, z <- lookupClips y lexicon ]
 
 
+elixirDerive o p = interact (unlines . map (show . q . words) . onlines)
+
+    where q x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (derive (Lexeme r e) x) | e <- z ]) w ]
+
+          c x = [ y | (y, _) <- reads x ] ++ [ (i, Just [j]) | ((i, j), _) <- reads x ]
+
+          i = [ z | x <- p, y <- c x, z <- lookupClips y lexicon ]
+
+
 elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) . onlines)
 
     where q x = (f . flip lists c) (if null y then [] else
@@ -220,15 +229,6 @@ elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) 
           f x = singleline id [ (text . show) y <> linebreak <> pretty z | y <- x, z <- lookupClips y lexicon ]
 
           e = if null p then "" else map toLower (head p)
-
-
-elixirDerive o p = interact (unlines . map (show . q . words) . onlines)
-
-    where q x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (derive (Lexeme r e) x) | e <- z ]) w ]
-
-          c x = [ y | (y, _) <- reads x ] ++ [ (i, Just [j]) | ((i, j), _) <- reads x ]
-
-          i = [ z | x <- p, y <- c x, z <- lookupClips y lexicon ]
 
 
 elixirLexicon o p = (putDoc . pretty . f) (lists [(0, Nothing)] ((concat . map q) p))

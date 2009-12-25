@@ -1145,7 +1145,9 @@ sub mergeSuffix {
                    "Iy"  => "AnIy",
                    "At"  => "A'At",
 
+                   "t"   => "At",
                    "_dA" => "A_dA",
+                   "li"  => "Ali",
                    "ka"  => "Aka"   );
 
         if (($x) = $_[1] =~ /^"(.*)"$/) {

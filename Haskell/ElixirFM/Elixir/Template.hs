@@ -198,7 +198,7 @@ isClosed _ = True
 
                                  | "u"  `isPrefixOf` x  -> "aw" ++ x
 
-                                 | x `elem` ["ka", "_dA"] -> "A" ++ x
+                                 | x `elem` ["ka", "li", "_dA", "t"] -> "A" ++ x
 
                         Suffix "Iy"     -> "AnIy"
                         Suffix "At"     -> "A'At"
@@ -545,8 +545,6 @@ isSubsumed q c zs@(x:xs) (y:ys) | x `q` y ||
 assims :: String -> String -> Bool
 
 assims "_d" "d"  = True
-assims "h"  "'"  = True
-assims "h"  "w"  = True
 assims _    _    = False
 
 
@@ -579,7 +577,7 @@ class Eq a => Fuzzy a where
 
 skips :: [String]
 
-skips = ["'", "w", "y"]                                                                                     -- ["`", "q"]
+skips = ["'", "h", "w", "y"]                                                                                -- ["`", "q"]
 
 
 instance Fuzzy String where

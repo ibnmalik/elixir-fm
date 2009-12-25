@@ -493,7 +493,7 @@ cluster_69  = cluster
 
  |> ['s','t','A','r','z'] <| [
 
-    _____                     `xtra`    {- <stArz> -}          [ ['S','t','a','r','s'], ['S','t','a','r','i','e'] ] ]
+    _____                     `xtra`    {- <stArz> -}          [ ['S','t','a','r','s'] ] ]
 
 
 cluster_70  = cluster
