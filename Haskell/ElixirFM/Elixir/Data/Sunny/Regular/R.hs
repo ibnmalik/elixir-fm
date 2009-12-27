@@ -1016,7 +1016,7 @@ cluster_41  = cluster
 
     FaCAL |< Iy               `adj`     {- <nahArIy> -}        [ ['d','a','y','t','i','m','e'], ['d','i','u','r','n','a','l'], ['d','a','y','l','i','g','h','t'] ],
 
-    FaCAL |< Iy               `adj`     {- <nahArIy> -}        [ unwords [ ['n','e','w','s'], ['o','f'], ['t','h','e'], ['d','a','y'] ] ],
+    FaCAL |< Iy               `noun`    {- <nahArIy> -}        [ unwords [ ['n','e','w','s'], ['o','f'], ['t','h','e'], ['d','a','y'] ] ],
 
     FaCIL                     `adj`     {- <nahIr> -}          [ ['a','b','u','n','d','a','n','t'] ],
 

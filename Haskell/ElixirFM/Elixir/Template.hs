@@ -561,10 +561,16 @@ approx _    _    = False
 
 reduce :: String -> [String]
 
-reduce = map head . group . fixes . words
+reduce = map head . group . trims . words
 
-    where fixes [y] = [ z | z <- units y, z `notElem` skips ++ fst omits ]
-          fixes x   = [ z | z <- x,       z `notElem` skips ]
+    where trims [y]         = [ z | z <- units y, z `notElem` skips ++ fst omits ]
+          trims [x, y, "h"] = [ z | z <- [x, y],  z `notElem` skips ]
+          trims x           = [ z | z <- x,       z `notElem` skips ]
+
+
+skips :: [String]
+
+skips = ["'", "w", "y"]                                                                                     -- ["`", "q"]
 
 
 class Eq a => Fuzzy a where
@@ -573,11 +579,6 @@ class Eq a => Fuzzy a where
     units :: a -> [a]
     alike :: a -> a -> Bool
     fuzzy :: a -> a -> Bool
-
-
-skips :: [String]
-
-skips = ["'", "h", "w", "y"]                                                                                -- ["`", "q"]
 
 
 instance Fuzzy String where

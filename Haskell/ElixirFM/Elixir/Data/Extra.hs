@@ -425,6 +425,15 @@ lexicon = listing "Extended lexicon"
         ]
 
 
+    |> "h" <| [
+
+        "FU" |< Iy |< aT                    `noun`              [ "identity", unwords [ "identity", "card" ] ],
+
+        "mA" >>| "FI" |<< "Iy" |< aT        `noun`              [ "nature", "essence", "quality" ]
+
+        ]
+
+
     |> "" <| [
 
         "huwa"              <::>    "SP--------"
@@ -603,10 +612,10 @@ lexicon = listing "Extended lexicon"
 
     |> "m ' y" <| [
 
-        "m_I'" |< aT        <::>    "QC--------"
+        "F_IC" |< aT        <::>    "QC--------"
                                                         <..>    [ "hundred" ]
-                            `plural` "m_I'" |< At
-                            `plural` "m_I'" |< Un
+                            `plural` "F_IC" |< At
+                            `plural` "F_IC" |< Un
         ]
 
 

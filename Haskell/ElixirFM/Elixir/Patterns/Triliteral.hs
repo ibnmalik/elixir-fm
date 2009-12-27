@@ -566,15 +566,17 @@ instance Forming PatternT where
 
         (   FAL,        FA'I,       MaFIL,      morph   FaCL            ),
         (   FAL,        FA'I,       MaFIL,      morph   FiCAL           ),
-        (   FAL,        FA'I,       MaFIL,      morph   MaFIL           )
+        (   FAL,        FA'I,       MaFIL,      morph   MaFIL           ),
+        (   FAL,        FA'I,       MaFIL,              MaFIL |< aT     )
 
         ]
 
         | (drops . words) r == ["w", "'"] = [
 
         (   FAL,        FA'I,       MaFUL,      morph   FaCL            ),
+        (   FAL,        FA'I,       MaFUL,      morph   FuCAL           ),
         (   FAL,        FA'I,       MaFUL,      morph   FiyAL           ),
-        (   FAL,        FA'I,       MaFUL,      morph   MaFAL           )
+        (   FAL,        FA'I,       MaFUL,              MaFAL |< aT     )
 
         ]
 

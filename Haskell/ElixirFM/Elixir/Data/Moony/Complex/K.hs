@@ -444,7 +444,7 @@ cluster_22  = cluster
 
     FaCCaL                    `verb`    {- <fayya'> -}         [ unwords [ ['g','i','v','e'], ['s','h','a','d','e'] ] ],
 
-    HaFAL                     `verb`    {- <'afA'> -}          [ ['b','e','s','t','o','w'], unwords [ ['b','e'], ['b','e','s','t','o','w','n'] ] ],
+    HaFAL                     `verb`    {- <'afA'> -}          [ ['b','e','s','t','o','w'] ],
 
     TaFaCCaL                  `verb`    {- <tafayya'> -}       [ unwords [ ['s','e','e','k'], ['s','h','a','d','e'] ] ],
 
