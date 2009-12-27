@@ -134,9 +134,16 @@ instance Show a => Pretty (Entity a) where
                                 ++
             					eraseEmpty   c [ elemtxt "second" [] $ (pretty . map show) c ]
             					++
-            					eraseNothing t [ elemtxt "tense"  [] $ pretty t ]
+            					eraseNothing t [ elemtxt "tense"  [] $ case t of
+
+                                                            Just Perfect    ->  text "Perfect"
+                                                            Just Imperfect  ->  text "Imperfect"
+                                                            Just Imperative ->  text "Imperative" ]
             					++
-            					eraseNothing v [ elemtxt "voice"  [] $ pretty v ]
+            					eraseNothing v [ elemtxt "voice"  [] $ case v of
+
+                                                            Just Active     ->  text "Active"
+                                                            Just Passive    ->  text "Passive" ]
                                 ++
             					eraseEmpty   m [ elemtxt "masdar" [] $ (pretty . map show) m ]
 
@@ -148,7 +155,9 @@ instance Show a => Pretty (Entity a) where
                                 ++
                                 eraseNothing n [ elemtxt "number" [] $ pretty n ]
                                 ++
-                                eraseNothing d [ elemtxt "derive" [] $ pretty d ]
+                                eraseNothing d [ elemtxt "derive" [] $ case d of
+
+                                                            Just _          ->  text "------F---" ]
                                 ++
                                 eraseNothing e [ elemtxt "except" [] $ pretty e ]
 
