@@ -1118,6 +1118,8 @@ data PatternT =
 
         |   TaFCIL      |   TACIL
         |   TaFCiL                      |   TaFIL       |   TaFCI       |   TaFiCL
+
+        |   TaFCaL
         |   TaFCuL
 
         |   TaFACiL                                 {-- |   TaFACI  --}

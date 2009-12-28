@@ -491,16 +491,16 @@ instance Resolve String where
 
               tokens''''' y z = case y of
 
-                    'a' : '\'' : 'i' : 'm' : n       | not (null n) ->  [[reverse y ++ "T"], [reverse n, "mi'aT" ++ z]]
-                    '\'' : 'i' : 'm' : n             | not (null n) ->  [[reverse y ++ "T"], [reverse n, "mi'T" ++ z]]
+                    'a' : '\'' : 'i' : 'm' : n       | not (null n) ->  [[reverse y ++ "T" ++ z], [reverse n, "mi'aT" ++ z]]
+                    '\'' : 'i' : 'm' : n             | not (null n) ->  [[reverse y ++ "T" ++ z], [reverse n, "mi'T" ++ z]]
 
-                    'a' : '\'' : 'I' : '_' : 'm' : n | not (null n) ->  [[reverse y ++ "T"], [reverse n, "m_I'aT" ++ z]]
-                    '\'' : 'I' : '_' : 'm' : n       | not (null n) ->  [[reverse y ++ "T"], [reverse n, "m_I'T" ++ z]]
+                    'a' : '\'' : 'I' : '_' : 'm' : n | not (null n) ->  [[reverse y ++ "T" ++ z], [reverse n, "m_I'aT" ++ z]]
+                    '\'' : 'I' : '_' : 'm' : n       | not (null n) ->  [[reverse y ++ "T" ++ z], [reverse n, "m_I'T" ++ z]]
 
-                    'a' : '\'' : 'm' : n             | not (null n) ->  [[reverse y ++ "T"], [reverse n, "m'aT" ++ z]]
-                    '\'' : 'm' : n                   | not (null n) ->  [[reverse y ++ "T"], [reverse n, "m'T" ++ z]]
+                    'a' : '\'' : 'm' : n             | not (null n) ->  [[reverse y ++ "T" ++ z], [reverse n, "m'aT" ++ z]]
+                    '\'' : 'm' : n                   | not (null n) ->  [[reverse y ++ "T" ++ z], [reverse n, "m'T" ++ z]]
 
-                    _                                               ->  [[reverse y ++ "T"]]
+                    _                                               ->  [[reverse y ++ "T" ++ z]]
 
               tokens'''' x = case reverse x of
 
@@ -719,17 +719,17 @@ instance Resolve [UPoint] where
 
               tokens''''' y z = case y of
 
-                    'a' : '}' : 'i' : 'm' : n       | not (null n)  ->  [[reverse y ++ "p"], [reverse n, "mi}ap" ++ z]]
-                    'a' : '}' : 'm' : n             | not (null n)  ->  [[reverse y ++ "p"], [reverse n, "mi}ap" ++ z]]
-                    '}' : 'i' : 'm' : n             | not (null n)  ->  [[reverse y ++ "p"], [reverse n, "mi}ap" ++ z]]
-                    '}' : 'm' : n                   | not (null n)  ->  [[reverse y ++ "p"], [reverse n, "mi}ap" ++ z]]
+                    'a' : '}' : 'i' : 'm' : n       | not (null n)  ->  [[reverse y ++ "p" ++ z], [reverse n, "mi}ap" ++ z]]
+                    'a' : '}' : 'm' : n             | not (null n)  ->  [[reverse y ++ "p" ++ z], [reverse n, "m}ap" ++ z]]
+                    '}' : 'i' : 'm' : n             | not (null n)  ->  [[reverse y ++ "p" ++ z], [reverse n, "mi}p" ++ z]]
+                    '}' : 'm' : n                   | not (null n)  ->  [[reverse y ++ "p" ++ z], [reverse n, "m}p" ++ z]]
 
-                    'a' : '}' : 'A' : 'i' : 'm' : n | not (null n)  ->  [[reverse y ++ "p"], [reverse n, "miA}ap" ++ z]]
-                    'a' : '}' : 'A' : 'm' : n       | not (null n)  ->  [[reverse y ++ "p"], [reverse n, "miA}ap" ++ z]]
-                    '}' : 'A' : 'i' : 'm' : n       | not (null n)  ->  [[reverse y ++ "p"], [reverse n, "miA}ap" ++ z]]
-                    '}' : 'A' : 'm' : n             | not (null n)  ->  [[reverse y ++ "p"], [reverse n, "miA}ap" ++ z]]
+                    'a' : '}' : 'A' : 'i' : 'm' : n | not (null n)  ->  [[reverse y ++ "p" ++ z], [reverse n, "miA}ap" ++ z]]
+                    'a' : '}' : 'A' : 'm' : n       | not (null n)  ->  [[reverse y ++ "p" ++ z], [reverse n, "mA}ap" ++ z]]
+                    '}' : 'A' : 'i' : 'm' : n       | not (null n)  ->  [[reverse y ++ "p" ++ z], [reverse n, "miA}p" ++ z]]
+                    '}' : 'A' : 'm' : n             | not (null n)  ->  [[reverse y ++ "p" ++ z], [reverse n, "mA}p" ++ z]]
 
-                    _                                               ->  [[reverse y ++ "p"]]
+                    _                                               ->  [[reverse y ++ "p" ++ z]]
 
               tokens'''' x = case reverse x of
 

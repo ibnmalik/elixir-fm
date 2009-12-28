@@ -957,11 +957,9 @@ cluster_68  = cluster
 
     MaFCIL                    `adj`     {- <ma_tnIy> -}        [ ['f','o','l','d','e','d'], ['d','o','u','b','l','e','d'] ],
 
-    MuFaCCY                   `noun`    {- <mu_tannY> -}       [ ['d','o','u','b','l','e','d'], ['t','w','o','f','o','l','d'] ]
-                              `plural`     MuFaCCY |< At,
+    MuFaCCY                   `adj`     {- <mu_tannY> -}       [ ['d','o','u','b','l','e','d'], ['t','w','o','f','o','l','d'], ['d','u','a','l'] ],
 
-    MustaFCY                  `noun`    {- <musta_tnY> -}      [ ['e','x','c','e','p','t','e','d'], ['e','x','c','l','u','d','e','d'] ]
-                              `plural`     MustaFCY |< At ]
+    MustaFCY                  `adj`     {- <musta_tnY> -}      [ ['e','x','c','e','p','t','e','d'], ['e','x','c','l','u','d','e','d'] ] ]
 
 
 cluster_69  = cluster

@@ -121,7 +121,7 @@ instance Rules String where
 
 
     isDiptote x = case letters x of [_, "a", _, "A", _, y, _]   ->  y `elem` ["i", "I"]
-                                    _                           ->  False
+                                    _                           ->  x `elem` ["FaCL_an"]
 
 
 instance Forming String where

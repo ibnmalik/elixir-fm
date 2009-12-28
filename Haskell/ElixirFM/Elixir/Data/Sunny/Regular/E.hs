@@ -23,7 +23,7 @@ cluster_1   = cluster
 
     FACiL                     `adj`     {- <rAdi`> -}          [ ['d','e','t','e','r','r','i','n','g'], ['r','e','p','e','l','l','i','n','g'] ],
 
-    FACiL                     `noun`    {- <rAdi`> -}          [ ['d','e','t','e','r','r','e','n','c','e'], ['o','b','s','t','a','c','l','e'], ['i','m','p','e','d','i','m','e','n','t','s'] ]
+    FACiL                     `noun`    {- <rAdi`> -}          [ ['d','e','t','e','r','r','e','n','c','e'], ['o','b','s','t','a','c','l','e'], ['i','m','p','e','d','i','m','e','n','t'] ]
                               `plural`     FawACiL ]
 
 
@@ -51,10 +51,10 @@ cluster_3   = cluster
 
     TaFACaL                   `verb`    {- <tarAdaf> -}        [ unwords [ ['f','o','l','l','o','w'], ['o','n','e'], ['a','n','o','t','h','e','r'] ], unwords [ ['c','o','m','e'], ['i','n'], ['s','u','c','c','e','s','s','i','o','n'] ], unwords [ ['b','e'], ['s','y','n','o','n','y','m','o','u','s'] ] ],
 
-    FiCL                      `noun`    {- <ridf> -}           [ ['s','u','b','s','e','q','u','e','n','t'] ]
+    FiCL                      `adj`     {- <ridf> -}           [ ['s','u','b','s','e','q','u','e','n','t'] ]
                               `plural`     HaFCAL,
 
-    FaCIL                     `noun`    {- <radIf> -}          [ unwords [ ['n','e','x','t'], ['i','n'], ['l','i','n','e'] ] ],
+    FaCIL                     `adj`     {- <radIf> -}          [ unwords [ ['n','e','x','t'], ['i','n'], ['l','i','n','e'] ] ],
 
     FaCIL                     `noun`    {- <radIf> -}          [ ['r','e','s','e','r','v','e'] ],
 
@@ -165,14 +165,14 @@ cluster_10  = cluster
 
  |> "r z b" <| [
 
-    MiFCaLL |< aT             `noun`    {- <mirzabbaT> -}      [ unwords [ ['i','r','o','n'], ['r','o','d'] ] ]
-                              `plural`     MaFACiL,
-
     FaCaL                     `verb`    {- <razab> -}          [ unwords [ ['c','l','i','n','g'], ['t','o'] ] ]
                               `imperf`     FCuL,
 
     MiFCAL                    `noun`    {- <mirzAb> -}         [ ['w','a','t','e','r','s','p','o','u','t'], ['g','a','r','g','o','y','l','e'], unwords [ ['r','o','o','f'], ['g','u','t','t','e','r'] ] ]
-                              `plural`     MaFACIL ]
+                              `plural`     MaFACIL,
+
+    MiFCaLL |< aT             `noun`    {- <mirzabbaT> -}      [ unwords [ ['i','r','o','n'], ['r','o','d'] ] ]
+                              `plural`     MaFACiL ]
 
 
 cluster_11  = cluster
