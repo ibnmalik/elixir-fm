@@ -15,12 +15,10 @@ use base 'CGI::Application::FastCGI';
 
 use CGI::Fast ':standard';
 
-use Unicode::Normalize;
-
 use base 'Exporter';
 
 our @EXPORT = (qw 'display_header display_headline display_welcome display_footline display_footer',
-               qw 'escape quote revert normalize',
+               qw 'escape quote revert',
                qw '@modes %memoize %enc_hash @enc_list');
 
 
@@ -95,66 +93,6 @@ sub revert ($) {
     $text =~ s/\&amp;/\&/g;
 
     return $text;
-}
-
-sub normalize ($$) {
-
-    my ($text, $code) = @_;
-
-    my @data = split " ", $text;
-
-    if ($code eq 'UTF') {
-
-        $text = Unicode::Normalize::normalize('KC', $text);
-
-        $text =~ tr[\x{06A9}\x{06AA}][\x{0643}];
-        $text =~ tr[\x{06CC}][\x{064A}];
-        $text =~ tr[\x{0640}][]d;
-
-        $text =~ s/([\x{064B}-\x{0650}\x{0652}\x{0670}])\x{0651}/\x{0651}$1/g;
-        $text =~ s/([\x{0627}\x{0649}])\x{064B}/\x{064B}$1/g;
-
-        @data = $text =~ /( (?: \p{Arabic} | [\x{064B}-\x{0652}\x{0670}\x{0657}\x{0656}\x{0640}] )+ )/gx;
-    }
-    elsif ($code eq 'Tim') {
-
-        $text =~ tr[>&<][OWI];
-        $text =~ tr[_][]d;
-
-        $text =~ s/([FNKauio\`])\~/\~$1/g;
-        $text =~ s/([AY])F/F$1/g;
-
-        @data = $text =~ /( [OWI\'\|\}AbptvjHxd\*rzs\$SDTZEgfqklmnhwYyPJRVG\{A\~FNKaui\`o]+ )/gx;
-    }
-    elsif ($code eq 'TeX') {
-
-        $text = Unicode::Normalize::normalize('D', $text);
-
-        $text =~ s/\x{0061}[\x{0304}\x{0301}]/A/g;
-        $text =~ s/\x{0069}[\x{0304}\x{0301}]/I/g;
-        $text =~ s/\x{0075}[\x{0304}\x{0301}]/U/g;
-
-        $text =~ s/aa/A/g;
-        $text =~ s/ii/I/g;
-        $text =~ s/uu/U/g;
-
-        $text =~ s/(.)\x{0331}/\_$1/g;
-        $text =~ s/(.)\x{030C}/\^$1/g;
-        $text =~ s/(.)\x{0323}/\.$1/g;
-
-        $text =~ s/(.)\x{032E}/\_$1/g;
-        $text =~ s/(.)\x{0307}/\.$1/g;
-
-        $text =~ s/(.)\x{0301}/\,$1/g;
-        $text =~ s/(.)\x{0303}/\^$1/g;
-
-        $text =~ s/\x{02BE}/\'/g;
-        $text =~ s/\x{02BF}/\`/g;
-
-        @data = $text =~ /( (?: \.[hsdtzgr] | \_[thdaIU] | \^[gscznl] | \,[c] | ['btdrzs`fqklmnhwyTaiuAIUYNW|"-] )+ )/gx;
-    }
-
-    return join " ", @data;
 }
 
 

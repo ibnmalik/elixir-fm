@@ -25,16 +25,14 @@ use Encode::Arabic::Buckwalter ':xml';
 use Encode::Arabic ':modes';
 
 
-our $find = Exec::ElixirFM::elixir 'lookup', ['tex'], "qara'", "istaqra'", "kitAbaT";
+# [ $_->[0]{'clip'} =~ /^\(([0-9]+),Just\[(?:[0-9]+,)*([0-9]+)\]\)$/ ]
 
-our @clip = map { [ $_->[0]{'clip'} =~ /^\(([0-9]+),Just\[(?:[0-9]+,)*([0-9]+)\]\)$/ ] } ElixirFM::unpretty $find;
-
-our @example = ( [ "($clip[0][0],$clip[0][1])",                             'perfect active third imperative'                               ],
-                 [ "($clip[0][0],$clip[0][1])",                             'perf act 3rd impa'                                             ],
-                 [ "($clip[0][0],$clip[0][1])",                             '-P-A-3---- -C--------'                                         ],
-                 [ "($clip[1][0],$clip[1][1]) ($clip[2][0],$clip[2][1])",   'indicative subjunctive jussive indefinite reduced definite'    ],
-                 [ "($clip[1][0],$clip[1][1]) ($clip[2][0],$clip[2][1])",   'ind sub jus indf red def'                                      ],
-                 [ "($clip[1][0],$clip[1][1]) ($clip[2][0],$clip[2][1])",   '--[ISJ]------[IRD]'                                            ] );
+our @example = ( [ 'perfect active third imperative',                               decode "buckwalter", "qrO" ],
+                 [ 'perf act 3rd impa',                                             decode "buckwalter", "qrO" ],
+                 [ '-P-A-3---- -C--------',                                         decode "buckwalter", "qrO" ],
+                 [ 'indicative subjunctive jussive indefinite reduced definite',    decode "buckwalter", "AstqrO ktAbp" ],
+                 [ 'ind sub jus indf red def',                                      decode "buckwalter", "AstqrO ktAbp" ],
+                 [ '--[ISJ]------[IRD]',                                            decode "buckwalter", "AstqrO ktAbp" ] );
 
 
 sub pretty ($$$) {
@@ -209,8 +207,8 @@ sub main ($) {
 
         my $idx = rand @example;
 
-        $q->param('text', $example[$idx][1]);
-        $q->param('clip', $example[$idx][0]);
+        $q->param('text', $example[$idx][0]);
+        $q->param('clip', $example[$idx][1]);
     }
     else {
 
@@ -222,7 +220,7 @@ sub main ($) {
         }
         else {
 
-            $q->param('text', $example[0][1]);
+            $q->param('text', $example[0][0]);
         }
 
         if (defined $q->param('clip') and $q->param('clip') !~ /^\s*$/) {
@@ -231,7 +229,7 @@ sub main ($) {
         }
         else {
 
-            $q->param('clip', $example[0][0]);
+            $q->param('clip', $example[0][1]);
 
             $memoize = 'yes';
         }
@@ -287,6 +285,14 @@ sub main ($) {
     my @clip = $q->param('clip') =~ /(\( *-? *[1-9][0-9]* *, *(?:-? *[1-9][0-9]*|Nothing|Just *\[ *-? *[1-9][0-9]* *(?:\, *-? *[1-9][0-9]* *)*\]) *\))/g;
 
     my $early = ['lookup', @clip];
+    
+    my $clip = $q->param('clip');
+
+    $clip = join "\n", ElixirFM::identify $clip;
+
+    $q->param('clip', $clip);
+
+    my $early = ['lookup', [$code], encode "utf8", $clip];
 
     if ($memoize) {
 

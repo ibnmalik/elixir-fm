@@ -16,6 +16,8 @@ use Encode::Arabic;
 
 use XML::Parser;
 
+use Unicode::Normalize;
+
 # ##################################################################################################
 #
 # ##################################################################################################
@@ -412,6 +414,123 @@ sub concise {
             return [ $fst[0] . '-' . $fst[2], @{$_[0]}[1 .. @{$_[0]} - 1] ], @_[2 .. @_ - 1];
 
         } $data, @data;
+}
+
+sub normalize {
+
+    my ($text, $code) = @_;
+
+    $code = 'UTF' unless defined $code;
+    
+    my @data = split " ", $text;
+
+    if ($code eq 'UTF') {
+
+        $text = Unicode::Normalize::normalize('KC', $text);
+
+        $text =~ tr[\x{06A9}\x{06AA}][\x{0643}];
+        $text =~ tr[\x{06CC}][\x{064A}];
+        $text =~ tr[\x{0640}][]d;
+
+        $text =~ s/([\x{064B}-\x{0650}\x{0652}\x{0670}])\x{0651}/\x{0651}$1/g;
+        $text =~ s/([\x{0627}\x{0649}])\x{064B}/\x{064B}$1/g;
+
+        @data = $text =~ /( (?: \p{Arabic} | [\x{064B}-\x{0652}\x{0670}\x{0657}\x{0656}\x{0640}] )+ )/gx;
+    }
+    elsif ($code eq 'Tim') {
+
+        $text =~ tr[>&<][OWI];
+        $text =~ tr[_][]d;
+
+        $text =~ s/([FNKauio\`])\~/\~$1/g;
+        $text =~ s/([AY])F/F$1/g;
+
+        @data = $text =~ /( [OWI\'\|\}AbptvjHxd\*rzs\$SDTZEgfqklmnhwYyPJRVG\{A\~FNKaui\`o]+ )/gx;
+    }
+    elsif ($code eq 'TeX') {
+
+        $text = Unicode::Normalize::normalize('D', $text);
+
+        $text =~ s/\x{0061}[\x{0304}\x{0301}]/A/g;
+        $text =~ s/\x{0069}[\x{0304}\x{0301}]/I/g;
+        $text =~ s/\x{0075}[\x{0304}\x{0301}]/U/g;
+
+        $text =~ s/aa/A/g;
+        $text =~ s/ii/I/g;
+        $text =~ s/uu/U/g;
+
+        $text =~ s/(.)\x{0331}/\_$1/g;
+        $text =~ s/(.)\x{030C}/\^$1/g;
+        $text =~ s/(.)\x{0323}/\.$1/g;
+
+        $text =~ s/(.)\x{032E}/\_$1/g;
+        $text =~ s/(.)\x{0307}/\.$1/g;
+
+        $text =~ s/(.)\x{0301}/\,$1/g;
+        $text =~ s/(.)\x{0303}/\^$1/g;
+
+        $text =~ s/\x{02BE}/\'/g;
+        $text =~ s/\x{02BF}/\`/g;
+
+        @data = $text =~ /( (?: \.[hsdtzgr] | \_[thdaIU] | \^[gscznl] | \,[c] | ['btdrzs`fqklmnhwyTaiuAIUYNW|"-] )+ )/gx;
+    }
+
+    return join " ", @data;
+}
+
+sub identify {
+
+    my ($text, $code) = @_;
+
+    $code = 'UTF' unless defined $code;
+    
+    my @data = split " ", $text;
+
+    while ($text ne '') {
+
+        my $data = '';
+
+        $text =~ s/^ +//;
+
+        if (($data) = $text =~ /^(\( *-? *[1-9][0-9]* *, *(?:-? *[1-9][0-9]*|Nothing|Just *\[ *-? *[1-9][0-9]* *(?:\, *-? *[1-9][0-9]* *)*\]) *\))/) {
+
+            $text = substr $text, length $data;
+        }
+        elsif (($data) = $text =~ /^(\( *-? *[0-9]+ *, *(?:-? *[0-9]+|Nothing|Just *\[ *-? *[0-9]+ *(?:\, *-? *[0-9]+ *)*\]) *\))/) {
+
+            $text = substr $text, length $data;
+
+            $data = '';
+        }
+        elsif (($data) = $text =~ /^(\"\"|(?: *\"(?:\\.|[^\"\\]+)+\")+)/) {
+
+            $text = substr $text, length $data;
+        }
+        elsif (($data) = $text =~ /^(\p{InArabic}{2,}|\p{InArabic}(?: +\p{InArabic}(?!\p{InArabic}))*)/) {
+
+            $text = substr $text, length $data;
+
+            $data = normalize $data, 'UTF';
+        }
+        elsif (($data) = $text =~ /^((?:[._^,]?[^ ._^,]){2,}|(?:[._^,]?[^ ._^,])(?: +(?:[._^,]?[^ ._^,])(?![^ ]))*)/ and $code ne 'UTF') {
+
+            $text = substr $text, length $data;
+
+            $data = normalize $data, $code;
+        }
+        elsif (($data) = $text =~ /^(.[^\(\)\"\p{InArabic}]*)/) {
+
+            $text = substr $text, length $data;
+
+            $data =~ tr[\(\)\/\-][ ];
+
+            $data =~ s/ +$//;
+        }
+
+        push @data, $data unless $data eq '';
+    }
+
+    return @data;
 }
 
 sub parse {
@@ -1239,7 +1358,7 @@ Otakar Smrz C<< <otakar smrz mff cuni cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright (C) 2005-2009 Otakar Smrz
+Copyright (C) 2005-2010 Otakar Smrz
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the GNU General Public License version 3.

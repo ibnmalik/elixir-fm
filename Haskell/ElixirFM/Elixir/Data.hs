@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Data
--- Copyright   :  Otakar Smrz 2005-2009
+-- Copyright   :  Otakar Smrz 2005-2010
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz

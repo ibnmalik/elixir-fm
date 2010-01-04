@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Template
--- Copyright   :  Otakar Smrz 2005-2009
+-- Copyright   :  Otakar Smrz 2005-2010
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -21,6 +21,8 @@ module Elixir.Template where
 import Elixir.System
 
 import Encode.Arabic
+
+import Data.Char
 
 import Data.List
 
@@ -441,6 +443,19 @@ u     = Suffix "u"
 
 
 type Root = String
+
+
+category :: Char -> Char -> Bool
+
+category x y | isArabic x = isArabic y
+             | isLetter x = isLetter y
+             | isNumber x = isNumber y
+             | otherwise  = False
+
+
+isArabic :: Char -> Bool
+
+isArabic x = '\x0620' < x && x < '\x063B' || '\x063F' < x && x < '\x0653'
 
 
 sunny = [ "t", "_t", "d", "_d", "r", "z", "s", "^s",

@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Resolve
--- Copyright   :  Otakar Smrz 2005-2009
+-- Copyright   :  Otakar Smrz 2005-2010
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -395,21 +395,6 @@ harmony (ParaYnit _) 	_	= [Nothing]
 harmony (ParaZero _) 	_	= [Nothing]
 
 harmony (ParaGrph _) 	_	= [Nothing]
-
-
-category :: Char -> Char -> Bool
-
-category x y | isArabic x = isArabic y
-             | isLetter x = isLetter y
-             | isNumber x = isNumber y
-             | otherwise  = False
-
-
-isArabic :: Char -> Bool
-
-isArabic x = 0x0620 < y && y < 0x063B || 0x063F < y && y < 0x0653
-
-    where y = ord x
 
 
 class Fuzzy a => Resolve a where

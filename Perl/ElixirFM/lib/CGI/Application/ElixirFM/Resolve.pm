@@ -344,7 +344,7 @@ sub main ($) {
 
     my $code = exists $enc_hash{$q->param('code')} ? $enc_hash{$q->param('code')} : 'UTF';
 
-    my $text = normalize $q->param('text'), $code;
+    my $text = ElixirFM::normalize $q->param('text'), $code;
 
     $q->param('text', $text);
 

@@ -287,53 +287,7 @@ sub main ($) {
 
     my $text = $q->param('text');
 
-    my @data = ();
-
-    while ($text ne '') {
-
-        my $data = '';
-
-        $text =~ s/^ +//;
-
-        if (($data) = $text =~ /^(\( *-? *[1-9][0-9]* *, *(?:-? *[1-9][0-9]*|Nothing|Just *\[ *-? *[1-9][0-9]* *(?:\, *-? *[1-9][0-9]* *)*\]) *\))/) {
-
-            $text = substr $text, length $data;
-        }
-        elsif (($data) = $text =~ /^(\( *-? *[0-9]+ *, *(?:-? *[0-9]+|Nothing|Just *\[ *-? *[0-9]+ *(?:\, *-? *[0-9]+ *)*\]) *\))/) {
-
-            $text = substr $text, length $data;
-
-            $data = '';
-        }
-        elsif (($data) = $text =~ /^(\"\"|(?: *\"(?:\\.|[^\"\\]+)+\")+)/) {
-
-            $text = substr $text, length $data;
-        }
-        elsif (($data) = $text =~ /^(\p{InArabic}{2,}|\p{InArabic}(?: +\p{InArabic}(?!\p{InArabic}))*)/) {
-
-            $text = substr $text, length $data;
-
-            $data = normalize $data, 'UTF';
-        }
-        elsif (($data) = $text =~ /^((?:[._^,]?[^ ._^,]){2,}|(?:[._^,]?[^ ._^,])(?: +(?:[._^,]?[^ ._^,])(?![^ ]))*)/ and $code ne 'UTF') {
-
-            $text = substr $text, length $data;
-
-            $data = normalize $data, $code;
-        }
-        elsif (($data) = $text =~ /^(.[^\(\)\"\p{InArabic}]*)/) {
-
-            $text = substr $text, length $data;
-
-            $data =~ tr[\(\)\/\-][ ];
-
-            $data =~ s/ +$//;
-        }
-
-        push @data, $data unless $data eq '';
-    }
-
-    $text = join "\n", @data;
+    $text = join "\n", ElixirFM::identify $text;
 
     $q->param('text', $text);
 

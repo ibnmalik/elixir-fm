@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Exec.ElixirFM.Main
--- Copyright   :  Otakar Smrz 2005-2009
+-- Copyright   :  Otakar Smrz 2005-2010
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -51,7 +51,7 @@ import qualified Data.Map as Map
 
 import Version
 
-version = Version [1, 1, max build 920] []
+version = Version [1, 1, max build 921] []
 
     where Version [build] [] = revised "$Revision$"
 
@@ -103,8 +103,8 @@ options = [ Option []    ["resolve"]    (NoArg (RunAction elixirResolve))
                                                 "library version and build information" ]
 
 
-copyleft = unlines ["ElixirFM (C) 2009-2005 Otakar Smrz, 2002 Tim Buckwalter",
-                    "             2009 Viktor Bielicky, 2004 Markus Forsberg",
+copyleft = unlines ["ElixirFM (C) 2010-2005 Otakar Smrz and Viktor Bielicky",
+                    "             2004 Markus Forsberg, 2002 Tim Buckwalter",
                     "GNU General Public License http://www.gnu.org/licenses/"]
 
 synopsis = unlines [copyleft,
@@ -130,7 +130,7 @@ main = do   argv <- getArgs
                 PrintVersion    ->  tell (unlines [copyleft,
                                           unwords ["ElixirFM",
                                                    showVersion Main.version,
-                                                   "December 2009"]])
+                                                   "January 2010"]])
 
                 DisplayUsage    ->  tell (usageInfo synopsis options)
 
@@ -205,22 +205,19 @@ elixirDerive o p = interact (unlines . map (show . q . words) . onlines)
 elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) . onlines)
 
     where q x = (f . flip lists c) (if null y then [] else
-                                    if null r then if null [ z | z <- y, z > '\x0620' && z < '\x0672' ]
 
-                                                      then case e of
+                                    if null r then if any isArabic y        then lookup (decode UCS y)
 
-                                                                "tex"   ->  lookup y
-                                                                "tim"   ->  lookup (decode Tim y)
-                                                                _       ->  lookup (words y)
+                                                      else case e of
 
-                                                      else lookup (decode UCS y)
+                                                                    "tex"   ->   lookup y
+                                                                    "tim"   ->   lookup (decode Tim y)
+                                                                    _       ->   lookup (words y)
 
-                                              else if null [ z | z <- head r, z > '\x0620' && z < '\x0672' ]
+                                              else if any isArabic (head r) then lookup (decode UCS (head r))
 
-                                                      then if null (head r) then lookup ""
-                                                                            else lookup (map (decode UCS) r)
-
-                                                      else lookup (decode UCS (head r)))
+                                                      else if null (head r) then lookup ""
+                                                                            else lookup (map (decode UCS) r))
 
                 where c = [ y | (y, _) <- reads x ] ++ [ (i, Just [j]) | ((i, j), _) <- reads x ]
                       r = unfoldr (\ x -> let y = reads x in if null y then Nothing else Just (head y)) x
