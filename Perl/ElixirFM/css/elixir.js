@@ -5,26 +5,26 @@ function elixirYamli (n) {
 
     if (mode == 'resolve' || mode == 'lookup') {
 
-	var code = document.getElementsByName("code");
+        var code = document.getElementsByName("code");
 
-	for (var i = 0; i < code.length; i++) {
-	    
-	    if (code[i].checked) {
-		
-		if (code[i].value == 'ArabTeX' || code[i].value == 'Buckwalter') {
-		    
-		    Yamli.deyamlify('text');
-		}
-		else {
-		    
-		    Yamli.yamlify('text');
-		}
-	    }
-	}
+        for (var i = 0; i < code.length; i++) {
+
+            if (code[i].checked) {
+
+                if (code[i].value == 'ArabTeX' || code[i].value == 'Buckwalter') {
+
+                    Yamli.deyamlify('text');
+                }
+                else {
+
+                    Yamli.yamlify('text');
+                }
+            }
+        }
     }
     else {
-	
-	Yamli.yamlify('clip');
+
+        Yamli.yamlify('clip');
     }
 }
 

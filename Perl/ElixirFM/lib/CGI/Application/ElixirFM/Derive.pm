@@ -25,16 +25,12 @@ use Encode::Arabic::Buckwalter ':xml';
 use Encode::Arabic ':modes';
 
 
-our $find = Exec::ElixirFM::elixir 'lookup', ['tex'], "qara'", "istaqra'", "kitAbaT";
-
-our @clip = map { [ $_->[0]{'clip'} =~ /^\(([0-9]+),Just\[(?:[0-9]+,)*([0-9]+)\]\)$/ ] } ElixirFM::unpretty $find;
-
-our @example = ( [ "($clip[0][0],$clip[0][1])",                             'verb noun adjective'                       ],
-                 [ "($clip[0][0],$clip[0][1])",                             'verb masdar participle'                    ],
-                 [ "($clip[0][0],$clip[0][1])",                             '[VN]--------- A---------'                  ],
-                 [ "($clip[1][0],$clip[1][1]) ($clip[2][0],$clip[2][1])",   'participle passive active masdar verb'     ],
-                 [ "($clip[1][0],$clip[1][1]) ($clip[2][0],$clip[2][1])",   'part pas act msd verb'                     ],
-                 [ "($clip[1][0],$clip[1][1]) ($clip[2][0],$clip[2][1])",   'A--[PA] N V'                               ] );
+our @example = ( [ 'verb noun adjective',                       decode "buckwalter", "qrO" ],
+                 [ 'verb masdar participle',                    decode "buckwalter", "qrO" ],
+                 [ '[VN]--------- A---------',                  decode "buckwalter", "qrO" ],
+                 [ 'participle passive active masdar verb',     decode "buckwalter", "AstqrO ktAbp" ],
+                 [ 'part pas act msd verb',                     decode "buckwalter", "AstqrO ktAbp" ],
+                 [ 'A--[PA] N V',                               decode "buckwalter", "AstqrO ktAbp" ] );
 
 
 sub pretty ($$$) {
@@ -212,8 +208,8 @@ sub main ($) {
 
         my $idx = rand @example;
 
-        $q->param('text', $example[$idx][1]);
-        $q->param('clip', $example[$idx][0]);
+        $q->param('text', $example[$idx][0]);
+        $q->param('clip', $example[$idx][1]);
     }
     else {
 
@@ -225,7 +221,7 @@ sub main ($) {
         }
         else {
 
-            $q->param('text', $example[0][1]);
+            $q->param('text', $example[0][0]);
         }
 
         if (defined $q->param('clip') and $q->param('clip') !~ /^\s*$/) {
@@ -234,7 +230,7 @@ sub main ($) {
         }
         else {
 
-            $q->param('clip', $example[0][0]);
+            $q->param('clip', $example[0][1]);
 
             $memoize = 'yes';
         }
@@ -262,9 +258,10 @@ sub main ($) {
                                         -size       =>  60,
                                         -maxlength  =>  150) ),
 
-                    td( {-colspan => 2, -align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
+                    td( {-colspan => 1, -align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
 
                         $q->textfield(  -name       =>  'clip',
+                                        -id         =>  'clip',
                                         -default    =>  $q->param('clip'),
                                         -size       =>  20,
                                         -maxlength  =>  50) ) ),
@@ -273,7 +270,8 @@ sub main ($) {
 
                     td({-align => 'left'},   $q->submit(-name => 'submit', -value => ucfirst $q->param($c->mode_param()))),
                     td({-align => 'center'}, $q->button(-name => 'clear',  -value => 'Clear', -onclick => "elixirClear('text')")),
-                    td({-align => 'right'},  $q->submit(-name => 'submit', -value => 'Example')) ) );
+                    td({-align => 'right'},  $q->submit(-name => 'submit', -value => 'Example')),
+                    td({-align => 'right'},  $q->button(-name => 'clear',  -value => 'Clear', -onclick => "elixirClear('clip')")) ) );
 
     $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
 
@@ -292,9 +290,13 @@ sub main ($) {
 
     $text = join ' ', ElixirFM::retrieve($text);
 
-    my @clip = $q->param('clip') =~ /(\( *-? *[1-9][0-9]* *, *(?:-? *[1-9][0-9]*|Nothing|Just *\[ *-? *[1-9][0-9]* *(?:\, *-? *[1-9][0-9]* *)*\]) *\))/g;
+    my $clip = $q->param('clip');
 
-    my $early = ['lookup', @clip];
+    $clip = join "\n", ElixirFM::identify $clip;
+
+    $q->param('clip', $clip);
+
+    my $early = ['lookup', $clip];
 
     if ($memoize) {
 
@@ -307,9 +309,9 @@ sub main ($) {
         $early = Exec::ElixirFM::elixir @{$early};
     }
 
-    @clip = map { join "", split " ", $_ } @clip;
+    my @clip = map { map { $_->{'clip'} } @{$_} } ElixirFM::unpretty $early;
 
-    my $reply = [$mode, [@clip], encode "utf8", $text];
+    my $reply = [$mode, [@clip], $text];
 
     if ($memoize) {
 

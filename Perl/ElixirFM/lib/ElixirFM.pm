@@ -421,7 +421,7 @@ sub normalize {
     my ($text, $code) = @_;
 
     $code = 'UTF' unless defined $code;
-    
+
     my @data = split " ", $text;
 
     if ($code eq 'UTF') {
@@ -483,7 +483,7 @@ sub identify {
     my ($text, $code) = @_;
 
     $code = 'UTF' unless defined $code;
-    
+
     my @data = ();
 
     while ($text ne '') {
