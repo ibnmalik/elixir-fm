@@ -291,7 +291,7 @@ sub main ($) {
 
     $q->param('text', $text);
 
-    my $reply = [$mode, [$code], encode "utf8", $text];
+    my $reply = [$mode, [$code], $text];
 
     if ($memoize) {
 

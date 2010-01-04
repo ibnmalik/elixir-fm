@@ -1,20 +1,30 @@
 function elixirYamli (n) {
 
-    var elem = document.getElementsByName("code");
+    var elem = document.getElementsByName("mode");
+    var mode = elem.length > 0 ? elem[0].value : 'home';
 
-    for (var i = 0; i < elem.length; i++) {
+    if (mode == 'resolve' || mode == 'lookup') {
 
-        if (elem[i].checked) {
+	var code = document.getElementsByName("code");
 
-            if (elem[i].value == 'ArabTeX' || elem[i].value == 'Buckwalter') {
-
-                Yamli.deyamlify(n);
-            }
-            else {
-
-                Yamli.yamlify(n);
-            }
-        }
+	for (var i = 0; i < code.length; i++) {
+	    
+	    if (code[i].checked) {
+		
+		if (code[i].value == 'ArabTeX' || code[i].value == 'Buckwalter') {
+		    
+		    Yamli.deyamlify('text');
+		}
+		else {
+		    
+		    Yamli.yamlify('text');
+		}
+	    }
+	}
+    }
+    else {
+	
+	Yamli.yamlify('clip');
     }
 }
 

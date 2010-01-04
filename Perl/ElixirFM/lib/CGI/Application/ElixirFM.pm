@@ -207,7 +207,7 @@ sub display_footer ($) {
                                              settingsPlacement: 'inside',
                                              showTutorialLink: false, showDirectionLink: false });
 
-                                elixirYamli('text');
+                                elixirYamli('');
                             }
                     });
 

@@ -484,7 +484,7 @@ sub identify {
 
     $code = 'UTF' unless defined $code;
     
-    my @data = split " ", $text;
+    my @data = ();
 
     while ($text ne '') {
 
