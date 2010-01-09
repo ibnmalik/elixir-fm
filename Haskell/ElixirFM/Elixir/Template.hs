@@ -231,7 +231,7 @@ isClosed _ = True
                                  | "i" `isPrefixOf` x ||
                                    "u" `isPrefixOf` x    -> x
 
-                        Suffix "^g"     -> "U^g"
+                                 | x `elem` ["^g", "f", "l"] -> "U" ++ x
 
                         _       -> "uw" ++ show x
 

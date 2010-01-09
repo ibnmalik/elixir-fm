@@ -1527,7 +1527,9 @@ cluster_76  = cluster
 
     MuFACiL                   `adj`     {- <murAfiq> -}        [ ['c','o','m','p','a','n','i','o','n'], ['a','d','j','u','t','a','n','t'], ['a','c','c','o','m','p','a','n','i','n','g'], ['a','t','t','a','c','h','e','d'] ],
 
-    MuFCaL                    `adj`     {- <murfaq> -}         [ ['a','t','t','a','c','h','e','d'], ['e','n','c','l','o','s','e','d'], ['e','n','c','l','o','s','u','r','e','s'], unwords [ ['a','t','t','a','c','h','e','d'], ['i','t','e','m','s'] ] ]
+    MuFCaL                    `adj`     {- <murfaq> -}         [ ['a','t','t','a','c','h','e','d'], ['e','n','c','l','o','s','e','d'] ],
+
+    MuFCaL                    `noun`    {- <murfaq> -}         [ ['e','n','c','l','o','s','u','r','e'], unwords [ ['a','t','t','a','c','h','e','d'], ['i','t','e','m'] ] ]
                               `plural`     MuFCaL |< At,
 
     MuFtaCaL                  `noun`    {- <murtafaq> -}       [ ['s','u','p','p','o','r','t'], ['t','o','i','l','e','t'] ] ]

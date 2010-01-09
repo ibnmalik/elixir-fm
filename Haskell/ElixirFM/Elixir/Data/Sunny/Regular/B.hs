@@ -897,10 +897,9 @@ cluster_59  = cluster
     TaFCIL                    `noun`    {- <tadbI^g> -}        [ ['o','r','n','a','m','e','n','t','a','t','i','o','n'], ['c','o','m','p','o','s','i','t','i','o','n'] ]
                               `plural`     TaFCIL |< At,
 
-    MuFaCCaL                  `adj`     {- <mudabba^g> -}      [ ['e','m','b','e','l','l','i','s','h','e','d'] ]
-                              `plural`     MuFaCCaL |< At,
+    MuFaCCaL                  `adj`     {- <mudabba^g> -}      [ ['e','m','b','e','l','l','i','s','h','e','d'] ],
 
-    MuFaCCaL                  `noun`    {- <mudabba^g> -}      [ ['e','m','b','e','l','l','i','s','h','m','e','n','t','s'], unwords [ ['f','i','g','u','r','e','s'], ['o','f'], ['s','p','e','e','c','h'] ] ]
+    MuFaCCaL                  `noun`    {- <mudabba^g> -}      [ ['e','m','b','e','l','l','i','s','h','m','e','n','t'], unwords [ ['f','i','g','u','r','e'], ['o','f'], ['s','p','e','e','c','h'] ] ]
                               `plural`     MuFaCCaL |< At ]
 
 

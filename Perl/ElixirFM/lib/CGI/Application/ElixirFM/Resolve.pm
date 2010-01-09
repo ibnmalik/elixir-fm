@@ -36,9 +36,9 @@ our @example = ( [ 'Unicode',       decode "buckwalter", "AqrO Aldrs AlOwl" ],
 
 sub pretty ($$$) {
 
-    my @word = ElixirFM::concat ElixirFM::unpretty $_[0], 'clear';
+    my ($reply, $mode, $q) = @_;
 
-    my $q = $_[2];
+    my @word = ElixirFM::concat ElixirFM::unpretty $reply, 'clear';
 
     my @text = split " ", $q->param('text');
 
@@ -48,7 +48,7 @@ sub pretty ($$$) {
 
     for (my $i = 0; $i < @word; $i++) {
 
-        $r .= $q->h3($q->span({-class => "mode"}, ucfirst $_[1]),
+        $r .= $q->h3($q->span({-class => "mode"}, ucfirst $mode),
                      $q->span({-class => "word",
                                -title => "input word"}, $text[$i]));
 
@@ -156,13 +156,13 @@ sub pretty_resolve_lexeme {
 
     $info[-2] = substr $info[-2], 1, -1;  # == $info[5]
 
-    my $root = join " ", (decode "zdmg", $info[-2]), (decode "arabtex", ElixirFM::cling($info[-2]));
+    my $root = join " ", (decode "zdmg", $info[-2]), (decode "arabtex", ElixirFM::cling $info[-2]);
 
     return join $",
 
       $q->table({-cellspacing => 0, -class => "lexeme"},
                 $q->Tr($q->td({-class => "xtag",
-                               -title => ElixirFM::describe($xcat)}, $xcat),
+                               -title => ElixirFM::describe $xcat}, $xcat),
                        $q->td({-class => "phon",
                                -title => "citation form"},           decode "zdmg", $info[-3]),
                        $q->td({-class => "orth",
@@ -170,11 +170,11 @@ sub pretty_resolve_lexeme {
                        $q->td({-class => "root",
                                -title => "root of citation form"},   $root),
                        $q->td({-class => "morphs",
-                               -title => "morphs of citation form"}, ElixirFM::nice($info[-1])),
+                               -title => "morphs of citation form"}, ElixirFM::nice $info[-1]),
                        $q->td({-class => "class",
                                -title => "derivational class"},      $info[3]),
                        $q->td({-class => "stems",
-                               -title => "inflectional stems"},      ElixirFM::nice($info[1])),
+                               -title => "inflectional stems"},      ElixirFM::nice $info[1]),
                        $q->td({-class => "reflex",
                                -title => "lexical reference"},       $info[2]),
 
@@ -201,15 +201,15 @@ sub pretty_resolve_token {
     return join $",
 
         $q->td({-class => "xtag",
-                -title => ElixirFM::describe($info[0])}, $info[0]),
+                -title => ElixirFM::describe $info[0]}, $info[0]),
         $q->td({-class => "phon",
                 -title => "inflected form"},             decode "zdmg", $info[-3]),
         $q->td({-class => "orth",
                 -title => "inflected form"},             decode "arabtex", $info[-3]),
         $q->td({-class => "morphs",
-                -title => "morphs of inflected form"},   ElixirFM::nice($info[-1])),
+                -title => "morphs of inflected form"},   ElixirFM::nice $info[-1]),
         $q->td({-class => "dtag",
-                -title => "grammatical parameters"},     ElixirFM::describe($info[0], 'terse'));
+                -title => "grammatical parameters"},     ElixirFM::describe $info[0], 'terse');
 }
 
 sub main ($) {
@@ -289,7 +289,7 @@ sub main ($) {
                                         -dir        =>  'ltr',
                                         -default    =>  $q->param('text'),
                                         -size       =>  60,
-                                        -maxlength  =>  150) ),
+                                        -maxlength  =>  180) ),
 
                     td( {-colspan => 2, -style => "vertical-align: middle; padding-left: 20px", -class => 'notice'},
 

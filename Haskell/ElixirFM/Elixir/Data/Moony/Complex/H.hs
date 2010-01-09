@@ -1952,8 +1952,7 @@ cluster_74  = cluster
     IFtiCA'                   `noun`    {- <i_htifA'> -}       [ ['d','i','s','a','p','p','e','a','r','a','n','c','e'] ]
                               `plural`     IFtiCA' |< At,
 
-    FACI                      `adj`     {- <_hAfI> -}          [ ['h','i','d','d','e','n'], ['s','e','c','r','e','t'] ]
-                              `plural`     FACI |< At,
+    FACI                      `adj`     {- <_hAfI> -}          [ ['h','i','d','d','e','n'], ['s','e','c','r','e','t'] ],
 
     FACI |< aT                `noun`    {- <_hAfiyaT> -}       [ ['s','e','c','r','e','t'] ]
                               `plural`     FawACI
@@ -1963,8 +1962,7 @@ cluster_74  = cluster
 
     MutaFaCCI                 `adj`     {- <muta_haffI> -}     [ ['d','i','s','g','u','i','s','e','d'] ],
 
-    MuFtaCI                   `adj`     {- <mu_htafI> -}       [ ['h','i','d','d','e','n'], ['s','e','c','r','e','t'] ]
-                              `plural`     MuFtaCI |< At,
+    MuFtaCI                   `adj`     {- <mu_htafI> -}       [ ['h','i','d','d','e','n'], ['s','e','c','r','e','t'] ],
 
     MuFtaCY                   `noun`    {- <mu_htafY> -}       [ unwords [ ['h','i','d','e'], "-", ['o','u','t'] ] ] ]
 

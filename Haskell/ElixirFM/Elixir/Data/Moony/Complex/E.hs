@@ -403,8 +403,10 @@ cluster_36  = cluster
     TaFCIL                    `noun`    {- <ta'hIl> -}         [ ['c','e','r','t','i','f','y','i','n','g'], ['q','u','a','l','i','f','y','i','n','g'], ['t','r','a','i','n','i','n','g'], ['h','a','b','i','l','i','t','a','t','i','n','g'] ]
                               `plural`     TaFCIL |< At,
 
-    MuFaCCiL                  `adj`     {- <mu'ahhil> -}       [ ['q','u','a','l','i','f','y','i','n','g'], ['q','u','a','l','i','f','i','c','a','t','i','o','n','s'], ['c','e','r','t','i','f','i','c','a','t','i','o','n','s'] ]
+    MuFaCCiL                  `noun`    {- <mu'ahhil> -}       [ ['q','u','a','l','i','f','i','c','a','t','i','o','n'], ['c','e','r','t','i','f','i','c','a','t','i','o','n'] ]
                               `plural`     MuFaCCiL |< At,
+
+    MuFaCCiL                  `adj`     {- <mu'ahhil> -}       [ ['q','u','a','l','i','f','y','i','n','g'] ],
 
     MuFaCCaL                  `adj`     {- <mu'ahhal> -}       [ ['q','u','a','l','i','f','i','e','d'], ['c','o','m','p','e','t','e','n','t'], ['c','e','r','t','i','f','i','e','d'] ],
 

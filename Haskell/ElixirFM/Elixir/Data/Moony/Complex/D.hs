@@ -1445,14 +1445,17 @@ cluster_85  = cluster
 
     TaFaCCaL                  `verb`    {- <ta'anna_t> -}      [ unwords [ ['b','e'], ['f','e','m','i','n','i','n','e'] ], unwords [ ['b','e'], ['e','f','f','e','m','i','n','a','t','e'] ] ],
 
-    FuCLY                     `adj`     {- <'un_tY> -}         [ ['f','e','m','a','l','e'], ['f','e','m','i','n','i','n','e'] ]
-                              `plural`     FuCLY |< At,
+    HACaL                     `adj`     {- <'Ana_t> -}         [ ['f','e','m','a','l','e'], ['f','e','m','i','n','i','n','e'] ]
+                              `femini`     FuCLY
+                           
+    `limited` "------F---",
 
     FuCLY                     `noun`    {- <'un_tY> -}         [ ['f','e','m','a','l','e'] ]
                               `plural`     FiCAL
                               `plural`     FaCALY,
 
-    FuCLY |< An               `noun`    {- <'un_tayAn> -}      [ ['t','e','s','t','i','c','l','e','s'] ],
+    FuCLY                     `noun`    {- <'un_tY> -}         [ ['t','e','s','t','i','c','l','e'] ]
+                              `plural`     FuCLY |< At,
 
     FuCLY |< Iy               `adj`     {- <'un_tawIy> -}      [ ['f','e','m','i','n','i','n','e'] ],
 

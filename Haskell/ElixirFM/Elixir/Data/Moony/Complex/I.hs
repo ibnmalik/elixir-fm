@@ -877,9 +877,11 @@ cluster_33  = cluster
 
     IstaFCY                   `verb`    {- <ista`.sY> -}       [ ['e','l','u','d','e'], ['f','a','i','l'] ],
 
-    FaCIL                     `adj`     {- <`a.sIy> -}         [ ['r','e','b','e','l'], ['m','u','t','i','n','e','e','r'] ]
+    FaCIL                     `noun`    {- <`a.sIy> -}         [ ['r','e','b','e','l'], ['m','u','t','i','n','e','e','r'] ]
                               `plural`     FaCIL |< Un
-                              `plural`     HaFCiLA',
+                              `plural`     HaFCiLA'
+                           
+    `derives` otherwise,
 
     FiCLAn                    `noun`    {- <`i.syAn> -}        [ ['m','u','t','i','n','y'], ['i','n','s','u','b','o','r','d','i','n','a','t','i','o','n'] ],
 

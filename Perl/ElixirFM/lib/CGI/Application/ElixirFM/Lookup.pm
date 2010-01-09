@@ -31,9 +31,9 @@ our @example = ( [ 'Unicode',   join " ", "school", decode "buckwalter", "drs k 
 
 sub pretty ($$$) {
 
-    my @word = ElixirFM::unpretty $_[0], 'clear';
+    my ($reply, $mode, $q) = @_;
 
-    my $q = $_[2];
+    my @word = ElixirFM::unpretty $reply, 'clear';
 
     my @text = split "\n", $q->param('text');
 
@@ -43,7 +43,7 @@ sub pretty ($$$) {
 
     for (my $i = 0; $i < @word; $i++) {
 
-        $r .= $q->h3($q->span({-class => "mode"}, ucfirst $_[1]),
+        $r .= $q->h3($q->span({-class => "mode"}, ucfirst $mode),
                      $q->span({-class => "word",
                                -title => "input word"}, $text[$i]));
 
@@ -66,7 +66,7 @@ sub pretty_lookup_data {
     return $q->table({-cellspacing => 0, -class => "nest"},
                      $q->Tr($q->td({-class => "root",
                                     -title => "common root"}, escape join " ", (decode "zdmg", $_->{'root'}),
-                                                                               (quote decode "arabtex", ElixirFM::cling($_->{'root'}, "|"))),
+                                                                               (quote decode "arabtex", ElixirFM::cling $_->{'root'}, "|")),
                             $q->td({-class => "button"},
                                    $q->a({-title => "lookup all entries under this root",
                                           -href => 'index.fcgi?mode=lookup' . '&text=' . (escape quote decode "arabtex", $_->{'root'})}, "Lookup"))
@@ -122,28 +122,28 @@ sub pretty_lookup_entry {
 
     my $xtag = $info[1]->[0];
 
-    $xtag = join ' ', ElixirFM::retrieve($xtag);
+    $xtag = join ' ', ElixirFM::retrieve $xtag;
     $xtag = substr $xtag, 0, 1;
 
 	$info[4] = join " ", map { exists $ents->[1]{'entity'}[1]{$_} ? @{$ents->[1]{'entity'}[1]{$_}} : () } 'imperf', 'pfirst', 'second';
 
-    $info[5] = ElixirFM::merge($data->{'root'}, $info[0]);
+    $info[5] = ElixirFM::merge $data->{'root'}, $info[0];
 
     return join $",
 
       $q->table({-cellspacing => 0, -class => "lexeme"},
                 $q->Tr($q->td({-class => "xtag",
-                               -title => ElixirFM::describe($xtag)}, $xtag),
+                               -title => ElixirFM::describe $xtag}, $xtag),
                        $q->td({-class => "phon",
                                -title => "citation form"},           decode "zdmg", $info[5]),
                        $q->td({-class => "orth",
                                -title => "citation form"},           decode "arabtex", $info[5]),
                        $q->td({-class => "morphs",
-                               -title => "morphs of citation form"}, ElixirFM::nice($info[0])),
+                               -title => "morphs of citation form"}, ElixirFM::nice $info[0]),
                        $q->td({-class => "class",
                                -title => "derivational class"},      join " ", @{$form}),
                        $q->td({-class => "stems",
-                               -title => "inflectional stems"},      ElixirFM::nice($info[4])),
+                               -title => "inflectional stems"},      ElixirFM::nice $info[4]),
                        $q->td({-class => "reflex",
                                -title => "lexical reference"},       escape join ", ", map { '"' . $_ . '"' } @{$info[3]}),
 
@@ -172,15 +172,15 @@ sub pretty_lookup_entity {
     return join $",
 
         $q->td({-class => "xtag",
-                -title => ElixirFM::describe($info[0])}, $info[0]),
+                -title => ElixirFM::describe $info[0]}, $info[0]),
         $q->td({-class => "phon",
                 -title => "inflectional stem"},             decode "zdmg", $info[1]),
         $q->td({-class => "orth",
                 -title => "inflectional stem"},             decode "arabtex", $info[1]),
         $q->td({-class => "morphs",
-                -title => "morphs of inflectional stem"},   ElixirFM::nice($info[2])),
+                -title => "morphs of inflectional stem"},   ElixirFM::nice $info[2]),
         $q->td({-class => "dtag",
-                -title => "grammatical parameters"},        ElixirFM::describe($info[0], 'terse'));
+                -title => "grammatical parameters"},        ElixirFM::describe $info[0], 'terse');
 }
 
 sub main ($) {
@@ -250,7 +250,7 @@ sub main ($) {
                                         -dir        =>  'ltr',
                                         -default    =>  $q->param('text'),
                                         -size       =>  60,
-                                        -maxlength  =>  150) ),
+                                        -maxlength  =>  180) ),
 
                     td( {-colspan => 2, -style => "vertical-align: middle; padding-left: 20px", -class => 'notice'},
 

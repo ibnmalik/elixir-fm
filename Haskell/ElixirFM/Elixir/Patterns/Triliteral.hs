@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Patterns.Triliteral
--- Copyright   :  Otakar Smrz 2005-2009
+-- Copyright   :  Otakar Smrz 2005-2010
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -242,7 +242,7 @@ instance Rules PatternT where
                             FaCULY,
                             FaCCULY,
                             FaCALIn,
-                            FaCLAn,
+                            FaCLAn, FaCwAn,
                             FaCALIL,
                             YaFACIL ]
 
@@ -942,14 +942,16 @@ data PatternT =
         |   FICAL                                       |   FICA'
         |   FUCAL
 
-        |   FuCCaL                      |   FUCaL
+        |   FuCCaL                  {-- |   FUCaL   --}
                                         |   FuyyaL
-
-        |   FuCCuL                      |   FUCuL
+        |   FuCCuL
+        |   FiCCiL
 
         |   FiCCIL                      |   FICIL
         |   FaCCIL
         |   FaCCUL
+
+        |   FUCaL
 
         |   FaCACiL                                     |   FaCACI
         |   FaCACIL
@@ -1021,7 +1023,7 @@ data PatternT =
         |   FuCuL
         |   FiCiL
 
-        |   FaCLAn
+        |   FaCLAn                                      |   FaCwAn
         |   FaCaLAn                                     |   FaCawAn
 
         |   FiCLAn                      |   FILAn

@@ -734,8 +734,7 @@ cluster_41  = cluster
     MaFCUL                    `noun`    {- <masrUq> -}         [ unwords [ ['s','t','o','l','e','n'], ['g','o','o','d','s'] ] ]
                               `plural`     MaFCUL |< At,
 
-    MaFCUL                    `adj`     {- <masrUq> -}         [ ['s','t','o','l','e','n'] ]
-                              `plural`     MaFCUL |< At,
+    MaFCUL                    `adj`     {- <masrUq> -}         [ ['s','t','o','l','e','n'] ],
 
     MunFaCiL                  `adj`     {- <munsariq> -}       [ unwords [ ['r','o','b','b','e','d'], "(", ['o','f'], ")" ] ],
 

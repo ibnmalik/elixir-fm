@@ -451,23 +451,21 @@ sub normalize {
 
         $text = Unicode::Normalize::normalize('D', $text);
 
-        $text =~ s/\x{0061}[\x{0304}\x{0301}]/A/g;
-        $text =~ s/\x{0069}[\x{0304}\x{0301}]/I/g;
-        $text =~ s/\x{0075}[\x{0304}\x{0301}]/U/g;
+        $text =~ s/a[\x{0304}\x{0301}]/A/g;
+        $text =~ s/i[\x{0304}\x{0301}]/I/g;
+        $text =~ s/u[\x{0304}\x{0301}]/U/g;
 
         $text =~ s/aa/A/g;
         $text =~ s/ii/I/g;
         $text =~ s/uu/U/g;
 
-        $text =~ s/(.)\x{0331}/\_$1/g;
-        $text =~ s/(.)\x{030C}/\^$1/g;
-        $text =~ s/(.)\x{0323}/\.$1/g;
+        $text =~ s/j/\^g/g;
+        $text =~ s/x/\_h/g;
 
-        $text =~ s/(.)\x{032E}/\_$1/g;
-        $text =~ s/(.)\x{0307}/\.$1/g;
-
-        $text =~ s/(.)\x{0301}/\,$1/g;
-        $text =~ s/(.)\x{0303}/\^$1/g;
+        $text =~ s/(.)[\x{030C}\x{0303}]/\^$1/g;
+        $text =~ s/(.)[\x{0331}\x{032E}]/\_$1/g;
+        $text =~ s/(.)[\x{0323}\x{0307}]/\.$1/g;
+        $text =~ s/(.)[\x{0301}]/\,$1/g;
 
         $text =~ s/\x{02BE}/\'/g;
         $text =~ s/\x{02BF}/\`/g;
@@ -1303,6 +1301,8 @@ sub mergeSuffix {
                    "u"   => "U",
                    "i"   => "I",
 
+                   "l"   => "Ul",
+                   "f"   => "Uf",
                    "^g"  => "U^g"   );
 
         if (($x) = $_[1] =~ /^"(.*)"$/) {

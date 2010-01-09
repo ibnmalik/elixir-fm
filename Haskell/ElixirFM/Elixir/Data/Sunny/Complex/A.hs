@@ -931,7 +931,7 @@ cluster_68  = cluster
 
     FaCAL                     `noun`    {- <_tawAb> -}         [ ['r','e','c','o','m','p','e','n','s','e'], ['r','e','w','a','r','d'] ],
 
-    FaCCAL                    `noun`    {- <_tawwAb> -}        [ unwords [ ['R','e','m','u','n','e','r','a','t','o','r'], "(", ['G','o','d'], ")" ] ],
+    FaCCAL                    `noun`    {- <_tawwAb> -}        [ unwords [ ['r','e','m','u','n','e','r','a','t','o','r'], "(", ['G','o','d'], ")" ] ],
 
     FaCCAL                    `noun`    {- <_tawwAb> -}        [ unwords [ ['c','l','o','t','h','e','s'], ['m','e','r','c','h','a','n','t'] ] ]
                               `plural`     FaCCAL |< Un

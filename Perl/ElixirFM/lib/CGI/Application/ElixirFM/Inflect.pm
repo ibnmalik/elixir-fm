@@ -33,19 +33,32 @@ our @example = ( [ 'perfect active third imperative',                           
                  [ '--[ISJ]------[IRD]',                                            decode "buckwalter", "AstqrO ktAbp" ] );
 
 
-sub pretty ($$$) {
+sub pretty ($$$$) {
 
-    my ($word, $text, $q) = @_;
+    my ($reply, $query, $mode, $q) = @_;
 
-    my @text = ElixirFM::unpretty $text, 'clear';
+    my @word = ElixirFM::unpretty $reply;
 
-    my @word = ElixirFM::unpretty $word;
+    my @text = split "\n", $q->param('clip');
 
     my $r = '';
 
     for (my $i = 0; $i < @text; $i++) {
 
-        $r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($text[$i], $q, \@word));
+        $r .= $q->h3($q->span({-class => "mode"}, ucfirst $mode),
+                     $q->span({-class => "word",
+                               -title => "input word"}, $text[$i]));
+
+        for (my $j = 0; $j < @{$query->[$i]}; $j++) {
+
+            my $ents = map { @{$_->{'ents'}} } @{$query->[$i][$j]};
+
+            my $word = [ splice @word, 0, $ents ];
+
+            next unless map { @{$_} } @{$word};
+
+            $r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($query->[$i][$j], $q, $word));
+        }
     }
 
     return $r;
@@ -64,7 +77,7 @@ sub pretty_lookup_data {
     return $q->table({-cellspacing => 0, -class => "nest"},
                      $q->Tr($q->td({-class => "root",
                                     -title => "common root"}, escape join " ", (decode "zdmg", $_->{'root'}),
-                                                                               (quote decode "arabtex", ElixirFM::cling($_->{'root'}, "|"))),
+                                                                               (quote decode "arabtex", ElixirFM::cling $_->{'root'}, "|")),
                             $q->td({-class => "button"},
                                    $q->a({-title => "lookup all entries under this root",
                                           -href => 'index.fcgi?mode=lookup' . '&text=' . (escape quote decode "arabtex", $_->{'root'})}, "Lookup"))
@@ -101,22 +114,22 @@ sub pretty_lookup_tree {
 
                 my $xtag = $info[1]->[0];
 
-                $xtag = join ' ', ElixirFM::retrieve($xtag);
+                $xtag = join ' ', ElixirFM::retrieve $xtag;
                 $xtag = substr $xtag, 0, 1;
 
 	$info[4] = join " ", map { exists $ents->[1]{'entity'}[1]{$_} ? @{$ents->[1]{'entity'}[1]{$_}} : () } 'imperf', 'pfirst', 'second';
 
-    $info[5] = ElixirFM::merge($data->{'root'}, $info[0]);
+    $info[5] = ElixirFM::merge $data->{'root'}, $info[0];
 
-    my $root = join " ", (decode "zdmg", $data->{'root'}), (decode "arabtex", ElixirFM::cling($data->{'root'}));
+    my $root = join " ", (decode "zdmg", $data->{'root'}), (decode "arabtex", ElixirFM::cling $data->{'root'});
 
     my $word = shift @{$_[2]};
 
-    join $",
+    ! @{$word} ? '' : join $",
 
         $q->table({-cellspacing => 0, -class => "lexeme"},
                 $q->Tr($q->td({-class => "xtag",
-                               -title => ElixirFM::describe($xtag)}, $xtag),
+                               -title => ElixirFM::describe $xtag}, $xtag),
                        $q->td({-class => "phon",
                                -title => "citation form"},           decode "zdmg", $info[5]),
                        $q->td({-class => "orth",
@@ -124,11 +137,11 @@ sub pretty_lookup_tree {
                        $q->td({-class => "root",
                                -title => "root of citation form"},   $root),
                        $q->td({-class => "morphs",
-                               -title => "morphs of citation form"}, ElixirFM::nice($info[0])),
+                               -title => "morphs of citation form"}, ElixirFM::nice $info[0]),
                        $q->td({-class => "class",
                                -title => "derivational class"},      join " ", @{$form}),
                        $q->td({-class => "stems",
-                               -title => "inflectional stems"},      ElixirFM::nice($info[4])),
+                               -title => "inflectional stems"},      ElixirFM::nice $info[4]),
                        $q->td({-class => "reflex",
                                -title => "lexical reference"},       escape join ", ", map { '"' . $_ . '"' } @{$info[3]}),
 
@@ -173,15 +186,15 @@ sub pretty_inflect_list {
     return $q->Tr( join $",
 
 		   $q->td({-class => "xtag",
-                   -title => ElixirFM::describe($data[0])}, $data[0]),
+                   -title => ElixirFM::describe $data[0]}, $data[0]),
 		   $q->td({-class => "phon",
                    -title => "inflected form"},             decode "zdmg",    $data[1]),
 		   $q->td({-class => "orth",
                    -title => "inflected form"},             decode "arabtex", $data[1]),
 		   $q->td({-class => "morphs",
-                   -title => "morphs of inflected form"},   ElixirFM::nice($data[3])),
+                   -title => "morphs of inflected form"},   ElixirFM::nice $data[3]),
            $q->td({-class => "dtag",
-                   -title => "grammatical parameters"},     ElixirFM::describe($data[0], 'terse')) );
+                   -title => "grammatical parameters"},     ElixirFM::describe $data[0], 'terse') );
 }
 
 
@@ -253,15 +266,15 @@ sub main ($) {
                                         -dir        =>  'ltr',
                                         -default    =>  $q->param('text'),
                                         -size       =>  60,
-                                        -maxlength  =>  150) ),
+                                        -maxlength  =>  180) ),
 
                     td( {-colspan => 1, -align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
 
                         $q->textfield(  -name       =>  'clip',
                                         -id         =>  'clip',
                                         -default    =>  $q->param('clip'),
-                                        -size       =>  20,
-                                        -maxlength  =>  50) ) ),
+                                        -size       =>  30,
+                                        -maxlength  =>  60) ) ),
 
                 Tr( {-align => 'left'},
 
@@ -280,7 +293,7 @@ sub main ($) {
 
     my $mode = $q->param($c->mode_param());
 
-    my $text = join ' ', ElixirFM::retrieve($q->param('text'));
+    my $text = join ' ', ElixirFM::retrieve $q->param('text');
 
     my $clip = $q->param('clip');
 
@@ -288,20 +301,22 @@ sub main ($) {
 
     $q->param('clip', $clip);
 
-    my $early = ['lookup', $clip];
+    my $query = ['lookup', $clip];
 
     if ($memoize) {
 
-        $memoize{$mode}[0] = Exec::ElixirFM::elixir @{$early} unless exists $memoize{$mode} and defined $memoize{$mode}[0];
+        $memoize{$mode}[0] = Exec::ElixirFM::elixir @{$query} unless exists $memoize{$mode} and defined $memoize{$mode}[0];
 
-        $early = $memoize{$mode}[0];
+        $query = $memoize{$mode}[0];
     }
     else {
 
-        $early = Exec::ElixirFM::elixir @{$early};
+        $query = Exec::ElixirFM::elixir @{$query};
     }
 
-    my @clip = map { map { $_->{'clip'} } @{$_} } ElixirFM::unpretty $early;
+    $query = [ ElixirFM::unpretty $query, 'clear' ];
+
+    my @clip = map { map { $_->{'clip'} } @{$_} } @{$query};
 
     my $reply = [$mode, [@clip], $text];
 
@@ -316,7 +331,7 @@ sub main ($) {
         $reply = Exec::ElixirFM::elixir @{$reply};
     }
 
-    $r .= pretty $reply, $early, $q;
+    $r .= pretty $reply, $query, $mode, $q;
 
     unless ($memoize and exists $memoize{$mode}) {
 

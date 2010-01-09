@@ -580,8 +580,10 @@ cluster_33  = cluster
 
     MuFaCCiL                  `noun`    {- <mu.dabbi.t> -}     [ ['a','d','j','u','s','t','e','r'] ],
 
-    InFiCAL                   `adj`     {- <in.dibA.t> -}      [ ['d','i','s','c','i','p','l','i','n','e'], ['p','r','e','c','i','s','i','o','n'], ['d','i','s','c','i','p','l','i','n','a','r','y'], ['d','i','s','c','i','p','l','i','n','e','d'] ]
+    InFiCAL                   `noun`    {- <in.dibA.t> -}      [ ['d','i','s','c','i','p','l','i','n','e'], ['p','r','e','c','i','s','i','o','n'] ]
                               `plural`     InFiCAL |< At,
+
+    InFiCAL |< Iy             `adj`     {- <in.dibA.tIy> -}    [ ['d','i','s','c','i','p','l','i','n','a','r','y'], ['d','i','s','c','i','p','l','i','n','e','d'] ],
 
     MunFaCiL                  `adj`     {- <mun.dabi.t> -}     [ ['d','i','s','c','i','p','l','i','n','e','d'] ] ]
 
@@ -715,8 +717,7 @@ cluster_39  = cluster
     FACiL |< aT               `noun`    {- <.dA.hikaT> -}      [ ['t','o','o','t','h'], ['t','e','e','t','h'] ]
                               `plural`     FawACiL,
 
-    MuFCiL                    `adj`     {- <mu.d.hik> -}       [ ['l','a','u','g','h','a','b','l','e'], ['r','i','d','i','c','u','l','o','u','s'], ['f','u','n','n','y'], ['j','o','k','e','s'] ]
-                              `plural`     MuFCiL |< At ]
+    MuFCiL                    `adj`     {- <mu.d.hik> -}       [ ['l','a','u','g','h','a','b','l','e'], ['r','i','d','i','c','u','l','o','u','s'], ['f','u','n','n','y'], ['j','o','k','e'] ] ]
 
 
 cluster_40  = cluster

@@ -2061,8 +2061,7 @@ cluster_88  = cluster
     FACI |< aT                `noun`    {- <.hA^siyaT> -}      [ ['m','a','r','g','i','n'], ['e','d','g','e'], ['r','e','t','i','n','u','e'] ]
                               `plural`     FawACI,
 
-    MaFCUL                    `adj`     {- <ma.h^sUw> -}       [ ['s','t','u','f','f','e','d'], ['f','i','l','l','e','d'], ['l','o','a','d','e','d'], unwords [ ['s','t','u','f','f','e','d'], ['f','o','o','d'] ] ]
-                              `plural`     MaFCUL |< At ]
+    MaFCUL                    `adj`     {- <ma.h^sUw> -}       [ ['s','t','u','f','f','e','d'], ['f','i','l','l','e','d'], ['l','o','a','d','e','d'], unwords [ ['s','t','u','f','f','e','d'], ['f','o','o','d'] ] ] ]
 
 
 cluster_89  = cluster

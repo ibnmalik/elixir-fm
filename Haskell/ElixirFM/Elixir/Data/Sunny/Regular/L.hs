@@ -594,11 +594,10 @@ cluster_34  = cluster
 
     FiCL |< aT                `noun`    {- <.sib.gaT> -}       [ unwords [ ['s','i','b','g','h','a','t'], "(", ['i','n'], ['"','s','i','b','g','h','a','t','u','l','l','a','h','"'], ")" ] ],
 
-    FiCL |< Iy                `adj`     {- <.sib.gIy> -}       [ ['c','h','r','o','m','o','s','o','m','e'] ]
-                              `plural`     FiCL |< Iy |< At,
-
     FiCL |< Iy |< aT          `noun`    {- <.sib.gIyaT> -}     [ ['c','h','r','o','m','o','s','o','m','e'] ]
                               `plural`     FiCL |< Iy |< At,
+
+    FiCL |< Iy                `adj`     {- <.sib.gIy> -}       [ ['c','h','r','o','m','o','s','o','m','e'] ],
 
     FiCAL                     `noun`    {- <.sibA.g> -}        [ ['c','o','l','o','r'], ['d','y','e'], ['c','o','n','d','i','m','e','n','t'] ]
                               `plural`     HaFCiL |< aT,
@@ -1132,9 +1131,11 @@ cluster_52  = cluster
 
     FayCaL |< aT              `noun`    {- <.saydalaT> -}      [ ['p','h','a','r','m','a','c','o','l','o','g','y'], ['p','h','a','r','m','a','c','e','u','t','i','c','s'] ],
 
-    FayCaL |< Iy              `adj`     {- <.saydalIy> -}      [ ['p','h','a','r','m','a','c','i','s','t'] ]
+    FayCaL |< Iy              `noun`    {- <.saydalIy> -}      [ ['p','h','a','r','m','a','c','i','s','t'] ]
                               `plural`     FayCaL |< Iy |< Un
-                              `plural`     FayACiL |< aT,
+                              `plural`     FayACiL |< aT
+                           
+    `derives` otherwise,
 
     FayCaL |< Iy              `adj`     {- <.saydalIy> -}      [ ['p','h','a','r','m','a','c','e','u','t','i','c','a','l'] ],
 
