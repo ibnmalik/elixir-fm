@@ -49,16 +49,7 @@ sub pretty ($$$$) {
                      $q->span({-class => "word",
                                -title => "input word"}, $text[$i]));
 
-        for (my $j = 0; $j < @{$query->[$i]}; $j++) {
-
-            my $ents = map { @{$_->{'ents'}} } @{$query->[$i][$j]};
-
-            my $word = [ splice @word, 0, $ents ];
-
-            next unless map { @{$_} } @{$word};
-
-            $r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($query->[$i][$j], $q, $word));
-        }
+	$r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($query->[$i], $q, \@word));
     }
 
     return $r;
@@ -125,7 +116,7 @@ sub pretty_lookup_tree {
 
     my $word = shift @{$_[2]};
 
-    ! @{$word} ? '' : join $",
+    ! (grep { @{$_->[1]} } @{$word}) ? '' : join $",
 
         $q->table({-cellspacing => 0, -class => "lexeme"},
                 $q->Tr($q->td({-class => "xtag",
