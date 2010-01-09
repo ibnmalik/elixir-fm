@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Inflect
--- Copyright   :  Otakar Smrz 2005-2009
+-- Copyright   :  Otakar Smrz 2005-2010
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -33,7 +33,7 @@ import Data.List
 
 instance (Show a, Template a) => Pretty [(ParaType, [(Root, Morphs a)])] where
 
-    pretty = singleline pretty
+    pretty = singleline pretty . filter (not . null . snd)
 
 
 instance (Show a, Template a) => Pretty (ParaType, [(Root, Morphs a)]) where

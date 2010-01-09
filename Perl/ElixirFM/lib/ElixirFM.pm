@@ -647,7 +647,7 @@ sub parse {
 
 sub clear {
 
-    my $data = [ @{$_[0]} ];
+    my $data = [@{$_[0]}];
 
     my $ents = $data->[1];
 
@@ -901,16 +901,11 @@ sub unpretty {
 
             foldl {
 
-                my $data = shift @{$_[1]};
+                my ($data, @data) = @{$_[1]};
 
-                if ($data eq ' ' x 10) {
+                push @{$_[0]}, [$data] unless $data eq ' ' x 10;
 
-                    push @{$_[0][-1]}, $_[1];
-                }
-                else {
-
-                    push @{$_[0]}, [$data, $_[1]];
-                }
+                push @{$_[0][-1]}, [@data] if @data;
 
                 return $_[0];
 
