@@ -49,7 +49,11 @@ sub pretty ($$$$) {
                      $q->span({-class => "word",
                                -title => "input word"}, $text[$i]));
 
-        $r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($query->[$i], $q, \@word));
+        my @r = pretty_lookup_tree($query->[$i], $q, \@word);
+
+        next unless @r;
+
+        $r .= $q->ul({-class => 'listexpander'}, $q->li([@r]));
     }
 
     return $r;
@@ -83,7 +87,7 @@ sub pretty_lookup_tree {
 
     my @info = @data;
 
-    return $q->li([ map {
+    return map {
 
             my $data = $_;
 
@@ -160,10 +164,10 @@ sub pretty_lookup_tree {
                                                     } @{$word})))
 
                         } 0 .. @{$_->{'ents'}} - 1;
-            
+
             ! @r ? () : pretty_lookup_data($_, $q) . "\n" . $q->ul($q->li([@r]))
-            
-            } @data ] );
+
+        } @data;
 }
 
 sub pretty_derive_list {
@@ -172,7 +176,7 @@ sub pretty_derive_list {
 
     my $q = $_[1];
 
-    return '' unless @data > 1;
+    return '' if @data < 4;
 
     $data[0] = substr $data[0], 1, -1;
     $data[3] = substr $data[3], 1, -1;

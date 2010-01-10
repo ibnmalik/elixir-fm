@@ -290,19 +290,19 @@ morphotrees = MorphoTrees . map (
 
                         map (   map nub .
 
-                                (\ x -> if null x then [] else foldr (zipWith (:)) (repeat []) x)   )
-
-                    ) . clear
+                                (\ x -> if null x then [] else foldr (zipWith (:)) (repeat []) x)   )   )
 
 
 morpholists :: [[[[Wrap Token]]]] -> MorphoLists [[[[Wrap Token]]]]
 
-morpholists = MorphoLists . clear
+morpholists = MorphoLists
 
 
 harmonize :: [[[[Wrap Token]]]] -> [[[[Wrap Token]]]]
 
-harmonize = map (map (map snd) . foldr (\ x y -> [ z | x' <- x, y' <- y,
+harmonize = filter (not . null) . map (map (map snd) . filter (not . null) .                            -- clear . map (map (map snd) .
+
+            foldr (\ x y -> [ z | x' <- x, y' <- y,
 
                 let z = [ z | x <- x',
 
@@ -312,11 +312,11 @@ harmonize = map (map (map snd) . foldr (\ x y -> [ z | x' <- x, y' <- y,
 
                         (q', y) <- y',
 
-                        z <- if null y then if null [ () | Nothing <- f ] then [] else [(Just ([q], m), [x])]       -- [(Just ([q], m), [[x]])]
+                        z <- if null y then if null [ () | Nothing <- f ] then [] else [(Just ([q], m), [x])]
 
                                        else if null [ () | Just (x, p) <- f, Just ([x'], m') <- [q'], x' `elem` restrict x' x, p m' ]
 
-                                                                          then [] else [(Just ([q], m), x : y)]     -- [(Just ([q], m), [x] : y')]
+                                                                          then [] else [(Just ([q], m), x : y)]
                                 ] ]
 
             ) [[(Nothing, [])]])
@@ -919,8 +919,8 @@ instance Resolve [UPoint] where
 resolveSub x = resolveBy (==) (\ x y -> any (isPrefixOf x) (tails y)) x
 
 
-test = unlines ["wa fI milaffi al-'adabi .tara.hat al-ma^gallaTu qa.dIyaTa al-lu.gaTi al-`arabIyaTi wa-al-'a_h.tAri allatI tuhaddiduhA.",
-                "\\cap wa-yarY al-qA'imUna `alY al-milaffi 'anna mA tata`arra.du lahu al-lu.gaTu al-`arabIyaTu lahu 'ahdAfuN mu.haddadaTuN",
+test = unlines ["wa-fI milaffi al-'adabi .tara.hat al-ma^gallaTu qa.dIyaTa al-lu.gaTi al-`arabIyaTi wa-al-'a_h.tAri allatI tuhaddiduhA.",
+                "wa-yarY al-qA'imUna `alY al-milaffi 'anna mA tata`arra.du lahu al-lu.gaTu al-`arabIyaTu lahu 'ahdAfuN mu.haddadaTuN",
                 "minhA 'ib`Adu al-`arabi `an lu.gatihim wa-muzA.hamaTu al-lu.gAti al-.garbIyaTi lahA wa-huwa mA ya`nI .du`fa a.s-.silaTi bihA",
                 "wa-mu.hAwalaTu 'izA.haTi al-lu.gaTi al-fu.s.hY bi-kulli al-wasA'ili",
                 "wa-'i.hlAli al-laha^gAti al-mu_htalifaTi fI al-bilAdi al-`arabIyaTi ma.hallahA."]
