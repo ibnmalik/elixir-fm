@@ -574,7 +574,7 @@ cluster_28  = cluster
 
     MaFIL                     `noun`    {- <maqI.z> -}         [ unwords [ ['s','u','m','m','e','r'], ['r','e','s','i','d','e','n','c','e'] ] ],
 
-    FA'iL                     `noun`    {- <qA'i.z> -}         [ unwords [ ['v','e','r','y'], ['h','o','t'] ] ] ]
+    FA'iL                     `adj`     {- <qA'i.z> -}         [ unwords [ ['v','e','r','y'], ['h','o','t'] ] ] ]
 
 
 cluster_29  = cluster

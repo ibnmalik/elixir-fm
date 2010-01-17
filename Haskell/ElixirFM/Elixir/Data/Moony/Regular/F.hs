@@ -1698,9 +1698,9 @@ cluster_94  = cluster
 
     FaCaL                     `noun`    {- <.habal> -}         [ ['c','o','n','c','e','p','t','i','o','n'], ['p','r','e','g','n','a','n','c','y'] ],
 
-    FaCLAn                    `noun`    {- <.hablAn> -}        [ ['s','t','u','f','f','e','d'] ],
+    FaCLAn                    `adj`     {- <.hablAn> -}        [ ['s','t','u','f','f','e','d'] ],
 
-    FaCLAn |< aT              `noun`    {- <.hablAnaT> -}      [ ['p','r','e','g','n','a','n','t'] ],
+    FaCLAn                    `adj`     {- <.hablAn> -}        [ ['p','r','e','g','n','a','n','t'] ],
 
     FuCLY                     `noun`    {- <.hublY> -}         [ ['p','r','e','g','n','a','n','t'] ]
                               `plural`     FaCALY

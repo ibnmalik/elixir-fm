@@ -1128,17 +1128,14 @@ cluster_85  = cluster
 
     FaCaL                     `noun`    {- <talaf> -}          [ ['r','u','i','n'], ['l','o','s','s'] ],
 
-    FaCLAn                    `noun`    {- <talfAn> -}         [ ['s','p','o','i','l','e','d'], ['u','s','e','l','e','s','s'] ],
+    FaCLAn                    `adj`     {- <talfAn> -}         [ ['s','p','o','i','l','e','d'], ['u','s','e','l','e','s','s'] ],
 
     MaFCaL                    `noun`    {- <matlaf> -}         [ ['d','e','s','e','r','t'] ],
 
     MaFCaL |< aT              `noun`    {- <matlafaT> -}       [ ['d','e','s','e','r','t'] ]
                               `plural`     MaFACiL,
 
-    MiFCAL                    `noun`    {- <mitlAf> -}         [ ['w','a','s','t','r','e','l'], ['h','a','r','m','f','u','l'] ]
-                              `plural`     MiFCAL |< Un
-                           
-    `derives` otherwise,
+    MiFCAL                    `adj`     {- <mitlAf> -}         [ ['w','a','s','t','r','e','l'], ['h','a','r','m','f','u','l'] ],
 
     HiFCAL                    `noun`    {- <'itlAf> -}         [ ['d','e','s','t','r','u','c','t','i','o','n'], ['h','a','r','m'] ]
                               `plural`     HiFCAL |< At,

@@ -51,7 +51,7 @@ import qualified Data.Map as Map
 
 import Version
 
-version = Version [1, 1, max build 927] []
+version = Version [1, 1, max build 929] []
 
     where Version [build] [] = revised "$Revision$"
 
@@ -121,7 +121,7 @@ main = do   argv <- getArgs
                                     ('-' : x) : xs  ->  argv
                                     x : xs          ->  ("--" ++ x) : xs
 
-                (opts, pars, errs) = getOpt RequireOrder options mods
+                (opts, pars, errs) = getOpt Permute options mods
 
             if null errs then case head opts of
 

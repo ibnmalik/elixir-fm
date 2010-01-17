@@ -1073,9 +1073,10 @@ sub interlocks {
     }
     elsif ($pattern =~ /^(?:_____|Identity)$/) {
 
-        @root = (@root, ('_____')[@root .. 0]);
+        $pattern = join "", @root;
 
-        $pattern = $root[0];
+        $pattern = (substr $pattern, 0, -1) . 'm' if $pattern =~ /^(?:`an|min)$/
+                                                  and @{$s} and $s->[0] eq '"mA"';
     }
     elsif ($pattern =~ /[FCL]/) {
 

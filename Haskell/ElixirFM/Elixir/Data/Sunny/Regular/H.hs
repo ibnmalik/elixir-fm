@@ -622,9 +622,9 @@ cluster_38  = cluster
     FaCaLAn                   `noun`    {- <sara.tAn> -}       [ ['c','r','a','y','f','i','s','h'] ]
                               `plural`     FaCaLAn |< At,
 
-    FaCLAn                    `noun`    {- <sar.tAn> -}        [ ['c','a','n','c','e','r'] ],
+    FaCaLAn                   `noun`    {- <sara.tAn> -}       [ ['c','a','n','c','e','r'] ],
 
-    FaCLAn |< Iy              `adj`     {- <sar.tAnIy> -}      [ ['c','a','n','c','e','r'], ['c','a','n','c','e','r','o','u','s'] ] ]
+    FaCaLAn |< Iy             `adj`     {- <sara.tAnIy> -}     [ ['c','a','n','c','e','r'], ['c','a','n','c','e','r','o','u','s'] ] ]
 
  |> "s r .t" <| [
 
@@ -654,7 +654,7 @@ cluster_39  = cluster
     FuCL |< aT                `noun`    {- <sur`aT> -}         [ ['s','p','e','e','d'], ['v','e','l','o','c','i','t','y'], ['p','r','o','m','p','t','n','e','s','s'] ]
                               `plural`     FuCL |< At,
 
-    FaCLAn                    `noun`    {- <sar`An> -}         [ unwords [ ['h','o','w'], ['q','u','i','c','k','l','y'] ], unwords [ ['i','t'], ['w','a','s'], ['n','o','t'], ['l','o','n','g'], ['b','e','f','o','r','e'] ] ],
+    FuCLAn |<< "a"            `adv`     {- <sur`Ana> -}        [ unwords [ ['h','o','w'], ['q','u','i','c','k','l','y'] ], unwords [ ['i','t'], ['w','a','s'], ['n','o','t'], ['l','o','n','g'], ['b','e','f','o','r','e'] ] ],
 
     FaCIL                     `adj`     {- <sarI`> -}          [ ['q','u','i','c','k'], ['p','r','o','m','p','t'] ]
                               `plural`     FiCAL

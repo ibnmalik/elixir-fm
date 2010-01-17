@@ -1419,7 +1419,7 @@ cluster_48  = cluster
 
     FaCA' |< Iy               `adj`     {- <`amA'Iy> -}        [ ['c','h','a','o','t','i','c'] ],
 
-    FaCLAn                    `noun`    {- <`amyAn> -}         [ ['b','l','i','n','d'] ],
+    FaCLAn                    `adj`     {- <`amyAn> -}         [ ['b','l','i','n','d'] ],
 
     FaCLAn |< Iy              `adj`     {- <`amyAnIy> -}       [ ['b','l','i','n','d'] ],
 

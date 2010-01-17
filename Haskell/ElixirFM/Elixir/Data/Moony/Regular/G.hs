@@ -1350,7 +1350,7 @@ cluster_52  = cluster
     FiCAL                     `noun`    {- <.hizAn> -}         [ ['m','o','u','r','n','i','n','g'] ]
                               `plural`     FaCALY,
 
-    FaCLAn                    `noun`    {- <.haznAn> -}        [ unwords [ ['v','e','r','y'], ['s','a','d'] ], ['m','o','u','r','n','i','n','g'] ],
+    FaCLAn                    `adj`     {- <.haznAn> -}        [ unwords [ ['v','e','r','y'], ['s','a','d'] ], ['m','o','u','r','n','i','n','g'] ],
 
     TaFaCCuL                  `noun`    {- <ta.hazzun> -}      [ ['s','a','d','n','e','s','s'], ['m','o','u','r','n','i','n','g'] ]
                               `plural`     TaFaCCuL |< At,

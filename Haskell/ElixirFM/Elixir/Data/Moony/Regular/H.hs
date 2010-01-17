@@ -1153,7 +1153,7 @@ cluster_51  = cluster
 
     FaCUL                     `adj`     {- <_ha^gUl> -}        [ ['s','h','y'], ['e','m','b','a','r','r','a','s','s','e','d'] ],
 
-    FaCLAn                    `noun`    {- <_ha^glAn> -}       [ ['s','h','y'], ['e','m','b','a','r','r','a','s','s','e','d'] ],
+    FaCLAn                    `adj`     {- <_ha^glAn> -}       [ ['s','h','y'], ['e','m','b','a','r','r','a','s','s','e','d'] ],
 
     MaFCUL                    `adj`     {- <ma_h^gUl> -}       [ ['a','s','h','a','m','e','d'] ],
 
@@ -1893,7 +1893,7 @@ cluster_87  = cluster
 
     FaCaL                     `noun`    {- <_haraf> -}         [ ['s','e','n','i','l','i','t','y'] ],
 
-    FaCLAn                    `noun`    {- <_harfAn> -}        [ ['s','e','n','i','l','e'] ],
+    FaCLAn                    `adj`     {- <_harfAn> -}        [ ['s','e','n','i','l','e'] ],
 
     FaCIL                     `noun`    {- <_harIf> -}         [ ['a','u','t','u','m','n'], ['f','a','l','l'] ],
 

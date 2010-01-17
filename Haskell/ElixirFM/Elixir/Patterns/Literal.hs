@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Patterns.Literal
--- Copyright   :  Otakar Smrz 2005-2009
+-- Copyright   :  Otakar Smrz 2005-2010
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -32,7 +32,16 @@ instance Morphing PatternL PatternL where
 
 instance Template PatternL where
 
-    interlocks _ s r _ = concat r
+    interlocks _ s r _ = (modify . concat) r
+
+        where modify t | t `elem` ["`an", "min"] =
+
+                            if null s || last s /= Suffix "mA"
+
+                                            then t
+                                            else init t ++ "m"
+
+                       | otherwise               = t
 
 
 instance Rules PatternL where

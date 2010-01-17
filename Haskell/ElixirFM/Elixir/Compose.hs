@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Compose
--- Copyright   :  Otakar Smrz 2005-2009
+-- Copyright   :  Otakar Smrz 2005-2010
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -30,6 +30,8 @@ import Elixir.Lexicon
 
 import Elixir.Inflect
 
+import Elixir.Resolve
+
 import Elixir.Pretty
 
 import Encode.Arabic
@@ -37,6 +39,27 @@ import Encode.Arabic
 import Data.List hiding (lookup)
 
 import qualified Data.Map as Map
+
+
+class Compose a where
+
+    compose :: [a] -> [(String, [a])]
+
+    compose x = [("", x)]
+
+
+instance Compose String where
+
+    compose x = [(unwords x, x)]
+
+
+instance Compose (Wrap Token) where
+
+    compose = map (\ x -> (unwraps (uncurry merge . struct) x, [x]))
+
+
+-- let x = resolve "baytI" in pretty [ unwords [ w | (w, _) <- compose v ] | (_, y) <- x, z <- y, u <- z, v <- u ]
+-- let x = resolve "mimmA" in pretty [ unwords [ w | (w, _) <- compose v ] | (_, y) <- x, z <- y, u <- z, v <- u ]
 
 
 generate :: String -> Lexicon -> Doc

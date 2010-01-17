@@ -1500,11 +1500,11 @@ cluster_100 = cluster
 
     FiCL                      `noun`    {- <dif'> -}           [ ['w','a','r','m','t','h'], ['h','e','a','t'] ],
 
-    FaCiL                     `noun`    {- <dafi'> -}          [ ['w','a','r','m'] ],
+    FaCiL                     `adj`     {- <dafi'> -}          [ ['w','a','r','m'] ],
 
     FaCIL                     `adj`     {- <dafI'> -}          [ ['w','a','r','m'] ],
 
-    FaCLAn                    `noun`    {- <daf'An> -}         [ ['w','a','r','m'] ]
+    FaCLAn                    `adj`     {- <daf'An> -}         [ ['w','a','r','m'] ]
                               `plural`     FaCLY,
 
     FiCAL                     `noun`    {- <difA'> -}          [ ['h','e','a','t','i','n','g'] ],

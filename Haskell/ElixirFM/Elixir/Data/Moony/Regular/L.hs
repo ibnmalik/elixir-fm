@@ -74,12 +74,10 @@ cluster_4   = cluster
 
     FaCaL                     `noun`    {- <.garaq> -}         [ ['d','r','o','w','n','i','n','g'], ['s','i','n','k','i','n','g'], ['i','n','u','n','d','a','t','i','o','n'] ],
 
-    FaCIL                     `noun`    {- <.garIq> -}         [ ['d','r','o','w','n','e','d'], ['i','m','m','e','r','s','e','d'] ]
-                              `plural`     FaCLY
-                           
-    `derives` otherwise,
+    FaCIL                     `adj`     {- <.garIq> -}         [ ['d','r','o','w','n','e','d'], ['i','m','m','e','r','s','e','d'] ]
+                              `plural`     FaCLY,
 
-    FaCLAn                    `noun`    {- <.garqAn> -}        [ ['d','r','o','w','n','e','d'] ],
+    FaCLAn                    `adj`     {- <.garqAn> -}        [ ['d','r','o','w','n','e','d'] ],
 
     TaFCIL                    `noun`    {- <ta.grIq> -}        [ ['d','r','o','w','n','i','n','g'], ['s','i','n','k','i','n','g'], ['i','n','u','n','d','a','t','i','o','n'] ]
                               `plural`     TaFCIL |< At,

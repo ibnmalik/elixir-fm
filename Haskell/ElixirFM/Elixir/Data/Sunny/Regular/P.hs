@@ -1846,7 +1846,7 @@ cluster_72  = cluster
 
     FaCIL                     `noun`    {- <nadIm> -}          [ ['N','a','d','e','e','m'] ],
 
-    FaCLAn                    `noun`    {- <nadmAn> -}         [ ['r','e','p','e','n','t','a','n','t'], ['r','e','g','r','e','t','f','u','l'] ]
+    FaCLAn                    `adj`     {- <nadmAn> -}         [ ['r','e','p','e','n','t','a','n','t'], ['r','e','g','r','e','t','f','u','l'] ]
                               `plural`     FaCALY,
 
     MaFCaL                    `noun`    {- <mandam> -}         [ ['r','e','m','o','r','s','e'], ['r','e','g','r','e','t'] ],

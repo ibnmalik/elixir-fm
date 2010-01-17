@@ -32,10 +32,11 @@ cluster_1   = cluster
 
     FaCL                      `noun`    {- <mawt> -}           [ ['d','e','a','t','h'] ],
 
-    FaCLAn                    `noun`    {- <mawtAn> -}         [ ['d','y','i','n','g'], ['e','p','i','d','e','m','i','c'] ]
-                              `plural`     FULAn,
+    FaCLAn                    `noun`    {- <mawtAn> -}         [ ['d','y','i','n','g'], ['d','e','a','t','h'], ['e','p','i','d','e','m','i','c'] ],
 
-    FayyiL                    `noun`    {- <mayyit> -}         [ ['d','e','a','d'], ['l','i','f','e','l','e','s','s'], ['i','n','a','n','i','m','a','t','e'] ]
+    FULAn                     `noun`    {- <mUtAn> -}          [ ['d','y','i','n','g'], ['d','e','a','t','h'], ['e','p','i','d','e','m','i','c'] ],
+
+    FayyiL                    `adj`     {- <mayyit> -}         [ ['d','e','a','d'], ['l','i','f','e','l','e','s','s'], ['i','n','a','n','i','m','a','t','e'] ]
                               `plural`     FaCLY
                               `plural`     HaFCAL,
 
@@ -72,7 +73,7 @@ cluster_2   = cluster
                            
     `derives` otherwise,
 
-    FaCCAL                    `noun`    {- <mawwA^g> -}        [ ['u','n','d','u','l','a','t','i','n','g'] ],
+    FaCCAL                    `adj`     {- <mawwA^g> -}        [ ['u','n','d','u','l','a','t','i','n','g'] ],
 
     FaCCAL |< aT              `noun`    {- <mawwA^gaT> -}      [ ['t','r','a','n','s','m','i','t','t','e','r'] ],
 

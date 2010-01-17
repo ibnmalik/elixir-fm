@@ -498,7 +498,7 @@ cluster_30  = cluster
 
     FuCAL |< aT               `noun`    {- <.tufA.haT> -}      [ ['f','r','o','t','h'], ['f','o','a','m'] ],
 
-    FaCLAn                    `noun`    {- <.taf.hAn> -}       [ ['o','v','e','r','f','l','o','w','i','n','g'] ]
+    FaCLAn                    `adj`     {- <.taf.hAn> -}       [ ['o','v','e','r','f','l','o','w','i','n','g'] ]
                               `plural`     FaCLY,
 
     MiFCaL |< aT              `noun`    {- <mi.tfa.haT> -}     [ ['s','k','i','m','m','e','r'], ['l','a','d','l','e'] ],

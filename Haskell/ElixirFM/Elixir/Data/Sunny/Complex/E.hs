@@ -1534,7 +1534,7 @@ cluster_69  = cluster
 
     FaCLA'                    `noun`    {- <^saybA'> -}        [ ['S','h','a','i','b','a'] ],
 
-    FaCLAn                    `noun`    {- <^saybAn> -}        [ ['o','l','d'] ],
+    FaCLAn                    `adj`     {- <^saybAn> -}        [ ['o','l','d'] ],
 
     FaCLAn |< Iy              `adj`     {- <^saybAnIy> -}      [ ['o','l','d'] ],
 

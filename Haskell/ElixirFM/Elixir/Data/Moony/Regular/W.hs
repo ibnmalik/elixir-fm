@@ -144,7 +144,7 @@ cluster_9   = cluster
 
     FuCUL                     `noun`    {- <hurUb> -}          [ ['e','s','c','a','p','e'], ['f','l','e','e','i','n','g'] ],
 
-    FaCLAn                    `noun`    {- <harbAn> -}         [ ['f','u','g','i','t','i','v','e'], ['r','u','n','a','w','a','y'] ],
+    FaCLAn                    `adj`     {- <harbAn> -}         [ ['f','u','g','i','t','i','v','e'], ['r','u','n','a','w','a','y'] ],
 
     FaCCAL                    `noun`    {- <harrAb> -}         [ ['c','o','w','a','r','d'] ]
                               `plural`     FaCCAL |< Un
@@ -691,7 +691,7 @@ cluster_43  = cluster
 
     TaFACaL                   `verb`    {- <tahAfat> -}        [ unwords [ ['c','o','m','e'], ['i','n'], ['c','r','o','w','d','s'] ], unwords [ ['b','e'], ['i','n','f','a','t','u','a','t','e','d'] ] ],
 
-    FaCLAn                    `noun`    {- <haftAn> -}         [ ['w','e','a','k'], ['e','x','h','a','u','s','t','e','d'] ],
+    FaCLAn                    `adj`     {- <haftAn> -}         [ ['w','e','a','k'], ['e','x','h','a','u','s','t','e','d'] ],
 
     TaFACuL                   `noun`    {- <tahAfut> -}        [ ['i','n','f','a','t','u','a','t','i','o','n'] ]
                               `plural`     TaFACuL |< At,

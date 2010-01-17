@@ -257,7 +257,9 @@ sub main ($) {
                 "Modern Written Arabic"), "using four different modes.", "Here, you can learn how to use these modes for various purposes.");
 
     $r .= $q->p("ElixirFM is further documented at", $q->a({-href => 'http://elixir-fm.wiki.sourceforge.net/'},
-                "ElixirFM Wiki") . ".");
+                "ElixirFM Wiki") . ".",
+                "The multiple scripts of this site are best viewed with", $q->a({-href => 'http://sourceforge.net/projects/dejavu/'},
+                "DejaVu Fonts") . ".");
 
     $r .= $q->h2($q->a({-href => 'index.fcgi?mode=resolve'}, 'Resolve'));
 
