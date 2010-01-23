@@ -184,10 +184,14 @@ data PatternQ =
         |   KARDIS
 
         |   KaRDaSA'
+        |   KuRaDSA'
 
         |   KuRDuSA'
 
         |   KaRDaSY
+
+        |   KuRDuSY
+        |   KuRaDSY
 
         |   KayRaDUS
 

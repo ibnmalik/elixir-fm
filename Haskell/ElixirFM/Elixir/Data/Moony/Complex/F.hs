@@ -688,6 +688,8 @@ cluster_41  = cluster
 
     FuCayy                    `noun`    {- <bunayy> -}         [ unwords [ ['l','i','t','t','l','e'], ['s','o','n'] ] ],
 
+    FuCayy |< aT              `noun`    {- <bunayyaT> -}       [ unwords [ ['l','i','t','t','l','e'], ['d','a','u','g','h','t','e','r'] ] ],
+
     FaCA |< Iy                `adj`     {- <banawIy> -}        [ ['f','i','l','i','a','l'] ],
 
     TaFaCCI                   `noun`    {- <tabannI> -}        [ ['a','d','o','p','t','i','o','n'] ]

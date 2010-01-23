@@ -1321,7 +1321,7 @@ __END__
 
 =head1 NAME
 
-ElixirFM - Interfaces to the ElixirFM system in Haskell
+ElixirFM - Interfaces to the ElixirFM system implementing Functional Arabic Morphology
 
 
 =head1 REVISION

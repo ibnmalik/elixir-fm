@@ -141,9 +141,7 @@ cluster_4   = cluster
     TaFACuL                   `noun`    {- <tafA`ul> -}        [ ['i','n','t','e','r','a','c','t','i','o','n'], ['r','e','a','c','t','i','o','n'], ['r','e','c','i','p','r','o','c','i','t','y'] ]
                               `plural`     TaFACuL |< At,
 
-    TaFACuL |< Iy             `adj`     {- <tafA`ulIy> -}      [ ['i','n','t','e','r','a','c','t','i','v','e'] ],
-
-    TaFACuL |< Iy             `adj`     {- <tafA`ulIy> -}      [ ['r','e','a','c','t','i','v','e'] ],
+    TaFACuL |< Iy             `adj`     {- <tafA`ulIy> -}      [ ['i','n','t','e','r','a','c','t','i','v','e'], ['r','e','a','c','t','i','v','e'] ],
 
     TaFACuL |< Iy |< aT       `noun`    {- <tafA`ulIyaT> -}    [ ['i','n','t','e','r','a','c','t','i','o','n'], ['r','e','a','c','t','i','o','n'], ['r','e','c','i','p','r','o','c','i','t','y'] ],
 
@@ -946,7 +944,9 @@ cluster_44  = cluster
 
     KuRayDiS                  `noun`    {- <fulayfil> -}       [ ['p','e','p','p','e','r'] ],
 
-    MuKaRDaS                  `adj`     {- <mufalfal> -}       [ ['p','e','p','p','e','r','e','d'] ] ]
+    MuKaRDaS                  `adj`     {- <mufalfal> -}       [ ['p','e','p','p','e','r','e','d'] ],
+
+    KaRDUS                    `noun`    {- <falfUl> -}         [ ['e','l','e','p','h','a','n','t'], unwords [ ['l','i','t','t','l','e'], ['e','l','e','p','h','a','n','t'] ] ] ]
 
 
 cluster_45  = cluster

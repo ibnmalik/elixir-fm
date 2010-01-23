@@ -277,7 +277,9 @@ cluster_23  = cluster
 
     KaRDaS |< aT              `noun`    {- <'arnabaT> -}       [ ['t','i','p'], ['m','u','z','z','l','e'] ],
 
-    KaRDaS |< Iy              `adj`     {- <'arnabIy> -}       [ unwords [ ['r','a','b','b','i','t'], "-", ['r','e','l','a','t','e','d'] ], unwords [ ['r','a','b','b','i','t'], "-", ['l','i','k','e'] ] ] ]
+    KaRDaS |< Iy              `adj`     {- <'arnabIy> -}       [ unwords [ ['r','a','b','b','i','t'], "-", ['r','e','l','a','t','e','d'] ], unwords [ ['r','a','b','b','i','t'], "-", ['l','i','k','e'] ] ],
+
+    KaRDUS                    `noun`    {- <'arnUb> -}         [ ['b','u','n','n','y'], unwords [ ['l','i','t','t','l','e'], ['r','a','b','b','i','t'] ] ] ]
 
 
 cluster_24  = cluster

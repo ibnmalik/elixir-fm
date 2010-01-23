@@ -523,6 +523,8 @@ cluster_24  = cluster
     MiFCAL                    `noun`    {- <miqyAs> -}         [ ['s','t','a','n','d','a','r','d'], ['m','e','a','s','u','r','e'], ['m','e','a','s','u','r','e','m','e','n','t'] ]
                               `plural`     MaFACIL,
 
+    MuFaCCaL                  `adj`     {- <muqayyas> -}       [ ['m','e','a','s','u','r','e','d'] ],
+
     MuFACaL |< aT             `noun`    {- <muqAyasaT> -}      [ ['a','p','p','r','a','i','s','a','l'], ['m','e','a','s','u','r','e','m','e','n','t'], ['c','o','m','p','a','r','i','s','o','n'] ] ]
 
 

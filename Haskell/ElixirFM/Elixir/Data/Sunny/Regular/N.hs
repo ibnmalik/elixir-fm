@@ -1960,6 +1960,11 @@ cluster_97  = cluster
     _____                     `noun`    {- <lItr> -}           [ ['l','i','t','e','r'] ]
                               `plural`     _____ |< At ]
 
+ |> ['l','i','t','r'] <| [
+
+    _____                     `noun`    {- <litr> -}           [ ['l','i','t','e','r'] ]
+                              `plural`     _____ |< At ]
+
 
 cluster_98  = cluster
 
