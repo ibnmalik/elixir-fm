@@ -109,7 +109,7 @@ sub nice {
 
     my $morphs = morphs($_[0]);
 
-    $morphs->[0] = merge("", $morphs->[0]);
+    $morphs->[0] = $morphs->[0] =~ /^(?:_____|Identity)$/ ? '_____' : merge("", $morphs->[0]);
 
     $morphs->[1] = [ map { $_ =~ /"/ ? showPrefix($_) : $_ } @{$morphs->[1]} ];
 

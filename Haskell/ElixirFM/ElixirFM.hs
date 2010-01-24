@@ -33,16 +33,37 @@
 -}
 
 
-module ElixirFM where
+module ElixirFM (
 
+        -- * Modules
 
-import Prelude hiding (lookup)
+        module Elixir.Lexicon,
 
-import Elixir.Data
+        module Elixir.Data,
+
+        module Elixir.Pretty,
+
+        module Elixir.Resolve,
+        module Elixir.Inflect,
+
+        module Elixir.Derive,
+        module Elixir.Lookup,
+
+        module Elixir.Compose,
+
+        module FM.Generic.General,
+
+        -- * Version
+
+        version
+
+    ) where
+
 
 import Elixir.Lexicon
 
-import Elixir.System
+import Elixir.Data
+
 import Elixir.Pretty
 
 import Elixir.Resolve
@@ -63,6 +84,10 @@ import Data.List hiding (lookup)
 
 import qualified Data.Map as Map
 
+import Prelude hiding (lookup)
+
 import Version
 
-version = revised "$Revision$"
+version = Version [1, 1, max build 931] []
+
+    where Version [build] [] = revised "$Revision$"

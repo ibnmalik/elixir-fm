@@ -18,24 +18,7 @@
 module Main where
 
 
-import Prelude hiding (lookup)
-
-import Elixir.Data
-
-import Elixir.Lexicon
-
-import Elixir.System
-import Elixir.Pretty
-
-import Elixir.Resolve
-import Elixir.Inflect
-
-import Elixir.Derive
-import Elixir.Lookup
-
-import Elixir.Compose
-
-import FM.Generic.General
+import ElixirFM
 
 import Encode.Arabic
 
@@ -49,11 +32,11 @@ import Data.List hiding (lookup)
 
 import qualified Data.Map as Map
 
+import Prelude hiding (lookup)
+
 import Version
 
-version = Version [1, 1, max build 930] []
-
-    where Version [build] [] = revised "$Revision$"
+version = ElixirFM.version
 
 
 data Opts = RunAction ([Opts] -> [String] -> IO ()) | TreesResolve

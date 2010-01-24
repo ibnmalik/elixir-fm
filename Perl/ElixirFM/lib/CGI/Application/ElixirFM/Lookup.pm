@@ -125,7 +125,7 @@ sub pretty_lookup_entry {
     $xtag = join ' ', ElixirFM::retrieve $xtag;
     $xtag = substr $xtag, 0, 1;
 
-	$info[4] = join " ", map { exists $ents->[1]{'entity'}[1]{$_} ? @{$ents->[1]{'entity'}[1]{$_}} : () } 'imperf', 'pfirst', 'second';
+    $info[4] = join " ", map { exists $ents->[1]{'entity'}[1]{$_} ? @{$ents->[1]{'entity'}[1]{$_}} : () } 'imperf', 'pfirst', 'second';
 
     $info[5] = ElixirFM::merge $data->{'root'}, $info[0];
 
@@ -154,7 +154,7 @@ sub pretty_lookup_entry {
                                      -href => 'index.fcgi?mode=derive' . '&clip=' . $clip}, "Derive"),
                               $q->a({-title => "lookup in the lexicon",
                                      -href => 'index.fcgi?mode=lookup' . '&clip=' . $clip}, "Lookup")),
-		    )),
+            )),
 
       (@entity == 0) ? () :
 

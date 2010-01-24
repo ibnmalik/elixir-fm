@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Lookup
--- Copyright   :  Otakar Smrz 2005-2009
+-- Copyright   :  Otakar Smrz 2005-2010
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -19,10 +19,6 @@ module Elixir.Lookup where
 
 
 import Elixir.Data
-
-import Elixir.System
-
-import Elixir.Template
 
 import Elixir.Lexicon
 

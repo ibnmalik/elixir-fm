@@ -110,7 +110,7 @@ sub pretty_resolve_data {
 
     my $text = join " " . $q->span({-style => 'width: 20px'}, " ") . " ",
 
-                    map {                         
+                    map {
                             my @x = ElixirFM::nub { $_[0] } map {
 
                                         escape decode "buckwalter", encode "buckwalter", decode "arabtex", $_
@@ -147,7 +147,7 @@ sub pretty_resolve_lexeme {
 
     my $xcat = substr $data[0]->[0], 0, 1;
 
-	$info[1] = join " ", map { exists $info[1]->[1]{$_} ? @{$info[1]->[1]{$_}} : () } 'imperf', 'pfirst', 'second';
+    $info[1] = join " ", map { exists $info[1]->[1]{$_} ? @{$info[1]->[1]{$_}} : () } 'imperf', 'pfirst', 'second';
 
     $info[2] = substr $info[2], 1, -1;
     $info[2] =~ s/\",\"/\", \"/g;

@@ -182,13 +182,13 @@ sub pretty_inflect_list {
 
     return $q->Tr( join $",
 
-		   $q->td({-class => "xtag",
+           $q->td({-class => "xtag",
                    -title => ElixirFM::describe $data[0]}, $data[0]),
-		   $q->td({-class => "phon",
+           $q->td({-class => "phon",
                    -title => "inflected form"},             decode "zdmg",    $data[1]),
-		   $q->td({-class => "orth",
+           $q->td({-class => "orth",
                    -title => "inflected form"},             decode "arabtex", $data[1]),
-		   $q->td({-class => "morphs",
+           $q->td({-class => "morphs",
                    -title => "morphs of inflected form"},   ElixirFM::nice $data[3]),
            $q->td({-class => "dtag",
                    -title => "grammatical parameters"},     ElixirFM::describe $data[0], 'terse') );

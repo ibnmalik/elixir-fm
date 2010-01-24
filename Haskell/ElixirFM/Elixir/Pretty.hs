@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Pretty
--- Copyright   :  Otakar Smrz 2005-2009
+-- Copyright   :  Otakar Smrz 2005-2010
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -23,11 +23,11 @@ module Elixir.Pretty (
 
         -- * Functions
 
-        onlines, encloseText,
+        onlines, singleline, doubleline,
 
-        singleline, doubleline,
+        encloseText,
 
-        printPretty, exportPretty, exportFilePretty,
+        printPretty
 
     ) where
 

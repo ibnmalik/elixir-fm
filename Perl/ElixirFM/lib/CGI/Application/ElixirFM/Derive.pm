@@ -183,15 +183,15 @@ sub pretty_derive_list {
 
     return $q->Tr( join $",
 
-		   $q->td({-class => "xtag",
+           $q->td({-class => "xtag",
                    -title => ElixirFM::describe $data[0]}, $data[0]),
-		   $q->td({-class => "class",
+           $q->td({-class => "class",
                    -title => "derivational class"},         $data[1]),
-		   $q->td({-class => "phon",
+           $q->td({-class => "phon",
                    -title => "derived form"},               decode "zdmg",    $data[2]),
-		   $q->td({-class => "orth",
+           $q->td({-class => "orth",
                    -title => "derived form"},               decode "arabtex", $data[2]),
-		   $q->td({-class => "morphs",
+           $q->td({-class => "morphs",
                    -title => "morphs of derived form"},     ElixirFM::nice $data[4]),
            $q->td({-class => "dtag",
                    -title => "grammatical parameters"},     ElixirFM::describe $data[0], 'terse') );

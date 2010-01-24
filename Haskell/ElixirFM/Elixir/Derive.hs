@@ -18,10 +18,6 @@
 module Elixir.Derive where
 
 
-import Elixir.System
-
-import Elixir.Template
-
 import Elixir.Lexicon
 
 import Elixir.Pretty

@@ -3,7 +3,7 @@ name: ElixirFM
 version: 1.1
 author:
   - 'Otakar Smrz <otakar smrz mff cuni cz>'
-abstract: Interfaces to the ElixirFM system in Haskell
+abstract: Interfaces to the ElixirFM system implementing Functional Arabic Morphology
 license: gpl
 requires:
   Encode::Arabic: 0
@@ -18,19 +18,19 @@ meta-spec:
 provides:
   CGI::Application::ElixirFM:
     file: lib/CGI/Application/ElixirFM.pm
-    version: 1.1.913
+    version: 1.1.929
   CGI::Application::ElixirFM::Derive:
     file: lib/CGI/Application/ElixirFM/Derive.pm
-    version: 1.1.912
+    version: 1.1.931
   CGI::Application::ElixirFM::Inflect:
     file: lib/CGI/Application/ElixirFM/Inflect.pm
-    version: 1.1.912
+    version: 1.1.931
   CGI::Application::ElixirFM::Lookup:
     file: lib/CGI/Application/ElixirFM/Lookup.pm
-    version: 1.1.912
+    version: 1.1.931
   CGI::Application::ElixirFM::Resolve:
     file: lib/CGI/Application/ElixirFM/Resolve.pm
-    version: 1.1.913
+    version: 1.1.931
   ElixirFM:
     file: lib/ElixirFM.pm
     version: 1.1
