@@ -20,7 +20,9 @@ cluster_2   = cluster
 
  |> ['w','a'] <| [
 
-    _____                     `conj`    {- <wa> -}             [ ['a','n','d'] ] ]
+    _____                     `conj`    {- <wa> -}             [ ['a','n','d'] ],
+
+    _____                     `prep`    {- <wa> -}             [ unwords [ ['b','y'], "(", ['o','a','t','h'], ")" ] ] ]
 
 
 cluster_3   = cluster

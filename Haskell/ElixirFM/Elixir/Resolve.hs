@@ -360,6 +360,7 @@ harmony (ParaPrep _) 	"li"	= [Nothing, Just ("[NAQDXZ]-------2-", const True),
 harmony (ParaPrep _) 	"ka"	= [Nothing, Just ("S-------1-", const True),
                                             Just ("[NAQDXZ]-------2-", const True),
                                             Just ("PI------2-", const True)]    -- in modern language
+harmony (ParaPrep _) 	"wa"	= [Nothing, Just ("[NAQDXZ]-------2-", const True)]
 harmony (ParaPrep _) 	y
 
     | y `elem` ["`an", "min"]   = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "|I"))]

@@ -74,7 +74,7 @@ sub elixir {
 
     my $opts = defined $_[0] && ref $_[0] eq 'ARRAY' ? shift : [];
 
-    my $text = join "", map { $_ . "\n" } @_;
+    my $text = join "", map { $_ =~ /\n$/ ? $_ : $_ . "\n" } @_;
 
     my $code = Encode::is_utf8($text);
 
@@ -174,7 +174,7 @@ Otakar Smrz C<< <otakar smrz mff cuni cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright (C) 2005-2009 Otakar Smrz
+Copyright (C) 2005-2010 Otakar Smrz
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the GNU General Public License version 3.

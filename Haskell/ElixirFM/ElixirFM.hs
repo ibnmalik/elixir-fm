@@ -76,7 +76,7 @@ import Elixir.Compose
 
 import FM.Generic.General
 
-import Encode.Arabic
+import Encode.Arabic hiding (version)
 
 import Data.Char
 
@@ -88,6 +88,6 @@ import Prelude hiding (lookup)
 
 import Version
 
-version = Version [1, 1, max build 931] []
+version = Version [1, 1, max build 932] []
 
     where Version [build] [] = revised "$Revision$"
