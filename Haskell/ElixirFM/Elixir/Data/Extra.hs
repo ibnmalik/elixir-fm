@@ -128,7 +128,7 @@ lexicon = listing "Extended lexicon"
         al >| "C_aL"        <::>    "N------S-D"        <..>    [ "Allah", "God" ],
 
         al >| "C_aL" |<< "umma"     `intj`          [ "truly", "certainly", unwords [ "oh", "God", "!" ], unwords [ "dear", "God" ] ],
-        
+
         "FiC_aL"            `noun`                              [ "god", "deity" ]
                             `plural`    "HACiL" |< aT,
 
@@ -500,6 +500,25 @@ lexicon = listing "Extended lexicon"
         ]
 
 
+    |> "` m r" <| [
+
+        FaCL |<< "_W"       <::>    "N--------[IRA]"
+                                                        <..>    [ "Amr" ]
+                            <.>     "N------S1I"
+                                                        <:>     FaCL |<< "uNU"
+                            <.>     "N------S2I"
+                                                        <:>     FaCL |<< "iNU"
+                            <.>     "N------S4I"
+                                                        <:>     FaCL |<< "aNA"
+                            <.>     "N------S1[RA]"
+                                                        <:>     FaCL |<< "u_W"
+                            <.>     "N------S2[RA]"
+                                                        <:>     FaCL |<< "i_W"
+                            <.>     "N------S4[RA]"
+                                                        <:>     FaCL |<< "a_W"
+        ]
+
+
     |> "` ^s r" <| [
 
         FaCaL |< aT         <::>    "QX--------"
@@ -544,6 +563,7 @@ lexicon = listing "Extended lexicon"
 
 
     |> "_t l _t" <| [
+
 
         FaCAL |< aT         <::>    "QV--------"
                                                         <..>    [ "three" ]

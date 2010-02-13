@@ -1349,14 +1349,6 @@ cluster_45  = cluster
 
  |> "` m r" <| [
 
-    FuCaL                     `noun`    {- <`umar> -}          [ ['O','m','a','r'], ['U','m','a','r'] ]
-                           
-    `excepts` Diptote,
-
-    FuCaL |< Iy               `noun`    {- <`umarIy> -}        [ ['U','m','a','r','i'] ],
-
-    FuCayL                    `noun`    {- <`umayr> -}         [ ['O','m','a','i','r'], ['U','m','a','y','r'] ],
-
     FaCaL                     `verb`    {- <`amar> -}          [ ['i','n','h','a','b','i','t'], ['p','e','r','v','a','d','e'] ]
                               `imperf`     FCuL,
 
@@ -1375,7 +1367,7 @@ cluster_45  = cluster
 
     IstaFCaL                  `verb`    {- <ista`mar> -}       [ ['c','o','l','o','n','i','z','e'], ['s','e','t','t','l','e'] ],
 
-    FuCL                      `noun`    {- <`umr> -}           [ ['a','g','e'], ['l','i','f','e'], unwords [ ['a','g','e'], ['g','r','o','u','p','s'] ] ]
+    FuCL                      `noun`    {- <`umr> -}           [ ['a','g','e'], ['l','i','f','e'], unwords [ ['a','g','e'], ['g','r','o','u','p'] ] ]
                               `plural`     HaFCAL,
 
     FuCL |< Iy                `adj`     {- <`umrIy> -}         [ unwords [ ['a','g','e'], "-", ['r','e','l','a','t','e','d'] ] ],
@@ -1384,6 +1376,16 @@ cluster_45  = cluster
 
     FiCAL |< aT               `noun`    {- <`imAraT> -}        [ ['b','u','i','l','d','i','n','g'], ['s','t','r','u','c','t','u','r','e'], ['a','r','c','h','i','t','e','c','t','u','r','e'] ]
                               `plural`     FiCAL |< At,
+
+    FaCAyiL |< aT             `noun`    {- <`amAyiraT> -}      [ ['A','m','a','y','r','e','h'] ],
+
+    FuCaL                     `noun`    {- <`umar> -}          [ ['O','m','a','r'], ['U','m','a','r'] ]
+                           
+    `excepts` Diptote,
+
+    FuCayL                    `noun`    {- <`umayr> -}         [ ['O','m','a','i','r'], ['U','m','a','y','r'] ],
+
+    FuCaL |< Iy               `noun`    {- <`umarIy> -}        [ ['U','m','a','r','i'] ],
 
     FuCLAn                    `noun`    {- <`umrAn> -}         [ ['c','i','v','i','l','i','z','a','t','i','o','n'], ['c','u','l','t','u','r','e'], ['p','r','o','s','p','e','r','i','t','y'] ],
 
