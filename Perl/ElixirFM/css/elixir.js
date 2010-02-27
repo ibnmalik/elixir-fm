@@ -26,6 +26,11 @@ function elixirYamli (n) {
 
         Yamli.yamlify('clip');
     }
+
+    var text = document.getElementById('text');
+
+    text.focus();
+    text.select();
 }
 
 function elixirClear (n) {

@@ -249,6 +249,7 @@ sub main ($) {
                                         -id         =>  'text',
                                         -dir        =>  'ltr',
                                         -default    =>  $q->param('text'),
+                                        -accesskey  =>  '4',
                                         -size       =>  60,
                                         -maxlength  =>  180) ),
 
@@ -257,6 +258,7 @@ sub main ($) {
                         $q->radio_group(-name       =>  'code',
                                         -values     =>  [ @enc_list ],
                                         -default    =>  $q->param('code'),
+                                        -accesskey  =>  '5',
                                         -onchange   =>  "elixirYamli('text')",
                                         -attributes =>  { 'ArabTeX'    => {-title => "internal phonology-oriented notation"},
                                                           'Buckwalter' => {-title => "letter-by-letter romanization"},

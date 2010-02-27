@@ -19,6 +19,8 @@ foreach my $line (@text) {                          # the text is processed by l
         my ($node, @data) = @{$word};               # $node is an array reference
         my $form = join "", @{$node};               # remember the form for reuse
 
+        print $form . "\n" unless @data;            # mention unrecognized words
+
         foreach my $data (@data) {                  # level of word tokenization
 
             my (undef, @data) = @{$data};

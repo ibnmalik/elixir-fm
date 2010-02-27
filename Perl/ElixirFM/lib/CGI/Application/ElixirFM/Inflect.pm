@@ -262,6 +262,7 @@ sub main ($) {
                                         -id         =>  'text',
                                         -dir        =>  'ltr',
                                         -default    =>  $q->param('text'),
+                                        -accesskey  =>  '4',
                                         -size       =>  60,
                                         -maxlength  =>  180) ),
 
@@ -270,6 +271,7 @@ sub main ($) {
                         $q->textfield(  -name       =>  'clip',
                                         -id         =>  'clip',
                                         -default    =>  $q->param('clip'),
+                                        -accesskey  =>  '5',
                                         -size       =>  30,
                                         -maxlength  =>  60) ) ),
 
