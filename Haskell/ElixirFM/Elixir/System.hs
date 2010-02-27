@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.System
--- Copyright   :  Otakar Smrz 2005-2009
+-- Copyright   :  Otakar Smrz 2005-2010
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -1009,10 +1009,15 @@ show' :: Show a => a -> Char
 show' = head . show
 
 
-type Tense = Aspect
+data Tense = Perfect
+           | Imperfect
+    deriving (Eq, Show, Enum)
 
-data Aspect = Perfect
-            | Imperfect
+instance Param Tense   where values = enum
+
+
+data Aspect = Perfective
+            | Imperfective
             | Imperative
     deriving (Eq, Enum)
 
@@ -1020,9 +1025,9 @@ instance Param Aspect   where values = enum
 
 instance Show Aspect where
 
-    show Perfect    = "P"
-    show Imperfect  = "I"
-    show Imperative = "C"
+    show Perfective   = "P"
+    show Imperfective = "I"
+    show Imperative   = "C"
 
 
 data Mood   = Indicative

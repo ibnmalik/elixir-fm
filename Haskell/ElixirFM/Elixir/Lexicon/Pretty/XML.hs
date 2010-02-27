@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Lexicon.Pretty.XML
--- Copyright   :  Otakar Smrz 2005-2009
+-- Copyright   :  Otakar Smrz 2005-2010
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -137,8 +137,7 @@ instance Show a => Pretty (Entity a) where
             					eraseNothing t [ elemtxt "tense"  [] $ case t of
 
                                                             Just Perfect    ->  text "Perfect"
-                                                            Just Imperfect  ->  text "Imperfect"
-                                                            Just Imperative ->  text "Imperative" ]
+                                                            Just Imperfect  ->  text "Imperfect" ]
             					++
             					eraseNothing v [ elemtxt "voice"  [] $ case v of
 
