@@ -689,6 +689,8 @@ cluster_34  = cluster
     FaCiL                     `verb`    {- <sali`> -}          [ ['c','r','a','c','k'] ]
                               `imperf`     FCaL,
 
+    FaCCaL                    `verb`    {- <salla`> -}         [ ['c','o','m','m','o','d','i','f','y'] ],
+
     InFaCaL                   `verb`    {- <insala`> -}        [ ['s','p','l','i','t'] ],
 
     FaCL                      `noun`    {- <sal`> -}           [ ['c','r','a','c','k'], ['r','i','f','t'] ]
@@ -697,7 +699,9 @@ cluster_34  = cluster
     FiCL |< aT                `noun`    {- <sil`aT> -}         [ ['c','o','m','m','o','d','i','t','y'], unwords [ ['c','o','m','m','e','r','c','i','a','l'], ['a','r','t','i','c','l','e'] ], unwords [ ['c','o','m','m','e','r','c','i','a','l'], ['g','o','o','d','s'] ] ]
                               `plural`     FiCaL,
 
-    FiCaL |< Iy               `adj`     {- <sila`Iy> -}        [ ['c','o','m','m','o','d','i','t','i','e','s'], unwords [ ['c','o','m','m','e','r','c','i','a','l'], ['g','o','o','d','s'] ] ] ]
+    TaFCIL                    `noun`    {- <taslI`> -}         [ ['c','o','m','m','o','d','i','f','i','c','a','t','i','o','n'] ],
+
+    FiCaL |< Iy               `adj`     {- <sila`Iy> -}        [ ['c','o','m','m','e','r','c','i','a','l'], unwords [ ['c','o','m','m','o','d','i','t','y'], "-", ['r','e','l','a','t','e','d'] ] ] ]
 
 
 cluster_35  = cluster

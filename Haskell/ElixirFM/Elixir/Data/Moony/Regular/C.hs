@@ -175,10 +175,7 @@ cluster_6   = cluster
                            
     `derives` otherwise,
 
-    MaFCUL                    `noun`    {- <mab.dU`> -}        [ ['o','p','e','r','a','t','e','d'], ['d','i','s','s','e','c','t','e','d'] ]
-                              `plural`     MaFCUL |< Un
-                           
-    `derives` otherwise,
+    MaFCUL                    `adj`     {- <mab.dU`> -}        [ ['o','p','e','r','a','t','e','d'], ['d','i','s','s','e','c','t','e','d'] ],
 
     TaFaCCuL                  `noun`    {- <taba.d.du`> -}     [ ['s','h','o','p','p','i','n','g'] ]
                               `plural`     TaFaCCuL |< At ]
@@ -484,11 +481,9 @@ cluster_24  = cluster
 
     FaCaL                     `noun`    {- <ba.tar> -}         [ ['w','a','n','t','o','n','n','e','s','s'], ['a','r','r','o','g','a','n','c','e'] ],
 
-    FaCiL                     `noun`    {- <ba.tir> -}         [ ['a','r','r','o','g','a','n','t'], ['i','n','s','o','l','e','n','t'] ]
-                              `plural`     MuFCiL |< Un
-                              `plural`     FaCiL |< Un
-                           
-    `derives` otherwise ]
+    FaCiL                     `adj`     {- <ba.tir> -}         [ ['a','r','r','o','g','a','n','t'], ['i','n','s','o','l','e','n','t'] ],
+
+    MuFCiL                    `adj`     {- <mub.tir> -}        [ ['a','r','r','o','g','a','n','t'], ['i','n','s','o','l','e','n','t'] ] ]
 
 
 cluster_25  = cluster
