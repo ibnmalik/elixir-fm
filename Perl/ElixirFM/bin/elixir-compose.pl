@@ -24,7 +24,7 @@ $Data::Dumper::Terse = 1;
 use strict;
 
 
-warn "Generating large data (~30MB), please be patient ...\n";
+warn "Generating dictionaries, please be patient ...\n";
 
 open PM, '>' . (substr __FILE__, 0, -2) . 'pm';
 
