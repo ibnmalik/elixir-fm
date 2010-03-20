@@ -525,13 +525,21 @@ instance Resolve String where
                                                 [ y' ++ ["nI"] | y' <- tokens (reverse y) ]
                     'I' : y                 ->  [ y' ++ ["|I"] | y' <- tokens (reverse y) ]
 
-                    'A' : 'n' : y           ->  [ y' ++ ["nA"] | y' <- tokens (reverse y) ]
-                    'n' : y                 ->  [ y' ++ ["n"]  | y' <- tokens (reverse y) ]
-
                     'A' : 'm' : 'm' : y     ->  [ y' ++ ["mA"] | y' <- tokens (reverse ('m' : y)) ++
                                                                        tokens (reverse ('n' : y)) ]
 
                     'A' : 'm' : y           ->  [ y' ++ ["mA"] | y' <- tokens (reverse y) ]
+
+                    'n' : 'a' : 'm' : 'm' : y   ->  [ y' ++ ["man"] | y' <- tokens (reverse ('m' : y)) ++
+                                                                            tokens (reverse ('n' : y)) ]
+                    'n' : 'm' : 'm' : y         ->  [ y' ++ ["mn"]  | y' <- tokens (reverse ('m' : y)) ++
+                                                                            tokens (reverse ('n' : y)) ]
+
+                    'n' : 'a' : 'm' : y     ->  [ y' ++ ["man"] | y' <- tokens (reverse y) ]
+                    'n' : 'm' : y           ->  [ y' ++ ["mn"]  | y' <- tokens (reverse y) ]
+
+                    'A' : 'n' : y           ->  [ y' ++ ["nA"] | y' <- tokens (reverse y) ]
+                    'n' : y                 ->  [ y' ++ ["n"]  | y' <- tokens (reverse y) ]
 
                     _                       ->  []
 
@@ -825,6 +833,15 @@ instance Resolve [UPoint] where
                                                                             tokens (reverse y ++ "n-") ]
                     'A' : 'a' : 'm' : y         ->  [ y' ++ ["maA"] | y' <- tokens (reverse y) ]
                     'A' : 'm' : y               ->  [ y' ++ ["mA"]  | y' <- tokens (reverse y) ++
+                                                                            tokens (reverse y ++ "m-") ++
+                                                                            tokens (reverse y ++ "n-") ]
+
+                    'n' : 'a' : '~' : 'm' : y   ->  [ y' ++ ["man"] | y' <- tokens (reverse y ++ "m-") ++
+                                                                            tokens (reverse y ++ "n-") ]
+                    'n' : '~' : 'm' : y         ->  [ y' ++ ["mn"]  | y' <- tokens (reverse y ++ "m-") ++
+                                                                            tokens (reverse y ++ "n-") ]
+                    'n' : 'a' : 'm' : y         ->  [ y' ++ ["man"] | y' <- tokens (reverse y) ]
+                    'n' : 'm' : y               ->  [ y' ++ ["mn"]  | y' <- tokens (reverse y) ++
                                                                             tokens (reverse y ++ "m-") ++
                                                                             tokens (reverse y ++ "n-") ]
 

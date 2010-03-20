@@ -71,22 +71,24 @@ instance Compose (Wrap Token) where
 
                             ParaVerb (VerbP _ Second Masculine Plural)  ->  w ++ "U" ++ y
 
-                            ParaNoun _  | "|I" == y                     ->  init w ++ tail y
-
-                                        | "ya" == y && init w `elem` ["'ab", "'a_h", ".ham", "f"]
-
+                            ParaNoun _  | "ya" == y && init w `elem` ["'ab", "'a_h", ".ham", "f"]
                                                     && last w `elem` "UIA"      ->  init w ++ "I"
+                                        | "|I" == y                             ->  init w ++ tail y
+
 
                             ParaAdj  _  | "|I" == y                     ->  init w ++ tail y
 
                             ParaNum  (NumV Feminine _ (_ :-: True))     ->  w ++ y
 
-                            ParaPrep _  | "mA" == y && w `elem` ["`an", "min"]  ->  init w ++ "m" ++ y
+                            ParaPrep _  | y `elem` ["mA", "man"] && w `elem` ["`an", "min"]
+                                                                                ->  init w ++ "m" ++ y
+                                        | "|I" == y                             ->  init w ++ tail y
 
                             _   ->  case unwraps tag z of
 
-                                                ParaPron _              ->  w ++ y
-                                                _                       ->  w ++ "-" ++ y
+                                                ParaPron (PronP _ _ _ Nominative)   ->  w ++ "-" ++ y
+                                                ParaPron (PronP _ _ _ _)            ->  w ++ y
+                                                _                                   ->  w ++ "-" ++ y
 
                 where u = unwraps (uncurry merge . struct) x
 
@@ -137,9 +139,12 @@ harmony (ParaAdv  _) 	_	= [Nothing]
 
 harmony (ParaPrep _) 	"la"	= [Nothing, Just ("S-------2-", (\ x -> euphony "la" x && x /= "nI"))]
 harmony (ParaPrep _) 	"li"	= [Nothing, Just ("[NAQDXZ]-------2-", const True),
+                                            Just ("C---------", (== "'anna")),
                                             Just ("PI------2-", const True)]    -- in modern language
 harmony (ParaPrep _) 	"ka"	= [Nothing, Just ("S-------1-", const True),
+                                            Just ("S[DR]------2-", const True),
                                             Just ("[NAQDXZ]-------2-", const True),
+                                            Just ("C---------", (== "'anna")),
                                             Just ("PI------2-", const True)]    -- in modern language
 harmony (ParaPrep _) 	"wa"	= [Nothing, Just ("[NAQDXZ]-------2-", const True)]
 harmony (ParaPrep _) 	y
@@ -147,15 +152,16 @@ harmony (ParaPrep _) 	y
     | y `elem` ["`an", "min"]   = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "|I"))]
     | y `elem` ["bi", "ta"]     = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "nI")),
                                             Just ("[NAQDXZ]-------2-", const True),
+                                            Just ("C---------", (== "'anna")),
                                             Just ("PI------2-", const True)]    -- in modern language
     | otherwise                 = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "nI"))]
 
 harmony (ParaConj _) 	"li"	    = [Nothing, Just ("VIS-------", const True)]
 harmony (ParaConj _)    y
 
-    | y `elem` ["'anna", "'inna"]   = [Nothing, Just ("SP------4-", euphony y)]
-    | otherwise                     = [Nothing, Just ("S-------1-", const True),
-                                                Just ("[VNAQDPCFIXZ]---------", const True)]
+    | y `elem` ["'anna", "'inna", "ka-'anna", "li-'anna"]   = [Nothing, Just ("SP------4-", euphony y)]
+    | otherwise                                             = [Nothing, Just ("S-------1-", const True),
+                                                                        Just ("[VNAQDPCFIXZ]---------", const True)]
 
 harmony (ParaPart _) 	"sa"	= [Nothing, Just ("VII-------", const True)]
 harmony (ParaPart _) 	"li"	= [Nothing, Just ("VIJ-------", const True)]
