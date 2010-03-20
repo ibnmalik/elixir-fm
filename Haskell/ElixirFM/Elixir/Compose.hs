@@ -30,8 +30,6 @@ import Elixir.Lexicon
 
 import Elixir.Inflect
 
-import Elixir.Resolve
-
 import Elixir.Pretty
 
 import Encode.Arabic
@@ -41,25 +39,140 @@ import Data.List hiding (lookup)
 import qualified Data.Map as Map
 
 
+data Token a = Token { lexeme :: (Lexeme a, Index), struct :: (Root, Morphs a), tag :: Tag }
+
+    deriving (Show, Eq)
+
+
+type Tag = ParaType
+
+
 class Compose a where
 
-    compose :: [a] -> [(String, [a])]
+    compose :: [a] -> String
 
-    compose x = [("", x)]
+    compose x = ""
 
 
 instance Compose String where
 
-    compose x = [(unwords x, x)]
+    compose x = unwords x
 
 
 instance Compose (Wrap Token) where
 
-    compose = map (\ x -> (unwraps (uncurry merge . struct) x, [x]))
+ -- compose = unwords . map (unwraps (uncurry merge . struct))
+
+    compose = fst . foldr (\ x (y, z) -> (f x y z, x : z)) ("", [])
+
+        where f x _ [] = unwraps (uncurry merge . struct) x
+
+              f x y (z : _) = case unwraps tag x of
+
+                            ParaVerb (VerbP _ Second Masculine Plural)  ->  w ++ "U" ++ y
+
+                            ParaNoun _  | "|I" == y                     ->  init w ++ tail y
+
+                                        | "ya" == y && init w `elem` ["'ab", "'a_h", ".ham", "f"]
+
+                                                    && last w `elem` "UIA"      ->  init w ++ "I"
+
+                            ParaAdj  _  | "|I" == y                     ->  init w ++ tail y
+
+                            ParaNum  (NumV Feminine _ (_ :-: True))     ->  w ++ y
+
+                            ParaPrep _  | "mA" == y && w `elem` ["`an", "min"]  ->  init w ++ "m" ++ y
+
+                            _   ->  case unwraps tag z of
+
+                                                ParaPron _              ->  w ++ y
+                                                _                       ->  w ++ "-" ++ y
+
+                where u = unwraps (uncurry merge . struct) x
+
+                      w = case reverse u of
+
+                                c : 'T' : v     ->  reverse v ++ "t" ++ [c]
+                                'W' : 'a' : v   ->  reverse v ++ "aw"
+                                'W' : 'U' : v   ->  reverse v ++ "U"
+                                'Y' : v         ->  reverse v ++ "A"
+                                _               ->  u
 
 
--- let x = resolve "baytI" in pretty [ unwords [ w | (w, _) <- compose v ] | (_, y) <- x, z <- y, u <- z, v <- u ]
--- let x = resolve "mimmA" in pretty [ unwords [ w | (w, _) <- compose v ] | (_, y) <- x, z <- y, u <- z, v <- u ]
+euphony :: String -> String -> Bool
+
+euphony [] _ = True
+
+euphony x "|I" = all (last x /=) "AIUYwy"
+euphony x "ya" = any (last x ==) "AIUYwy"
+
+euphony x y | isPrefixOf "hu" y = all (last x /=) "Iiy"
+euphony x y | isPrefixOf "hi" y = any (last x ==) "Iiy"
+
+euphony _ _ = True
+
+
+harmony :: ParaType -> String -> [Maybe (String, String -> Bool)]
+
+harmony (ParaVerb (VerbP   Passive _ _ _)) 	_	= [Nothing]
+harmony (ParaVerb (VerbI _ Passive _ _ _)) 	_	= [Nothing]
+harmony (ParaVerb _) 	                    y	= [Nothing, Just ("SP------4-", euphony y)]
+
+harmony (ParaNoun (NounS _ _ (Nothing :-: True))) 	y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
+harmony (ParaNoun _) 	                            _	= [Nothing]
+
+harmony (ParaAdj  (AdjA  _ _ _ (Nothing :-: True))) 	y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
+harmony (ParaAdj  _) 	                                _	= [Nothing]
+
+harmony (ParaPron _) 	y	= [Nothing]     -- in modern language
+
+-- Wrigth (1991), Fischer (2002), Badawi et al. (2004) on options with [Nothing, Just ("SP------4-", euphony y)]
+
+harmony (ParaNum  (NumV Feminine _ (_ :-: True))) 	        _	= [Nothing, Just ("QC-----S2[IRA]", const True)]
+harmony (ParaNum  (NumC _        _ (Nothing :-: True)))     y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
+harmony (ParaNum  (NumM _        _ (Nothing :-: True)))     y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
+harmony (ParaNum  _) 	                                    _	= [Nothing]
+
+harmony (ParaAdv  _) 	_	= [Nothing]
+
+harmony (ParaPrep _) 	"la"	= [Nothing, Just ("S-------2-", (\ x -> euphony "la" x && x /= "nI"))]
+harmony (ParaPrep _) 	"li"	= [Nothing, Just ("[NAQDXZ]-------2-", const True),
+                                            Just ("PI------2-", const True)]    -- in modern language
+harmony (ParaPrep _) 	"ka"	= [Nothing, Just ("S-------1-", const True),
+                                            Just ("[NAQDXZ]-------2-", const True),
+                                            Just ("PI------2-", const True)]    -- in modern language
+harmony (ParaPrep _) 	"wa"	= [Nothing, Just ("[NAQDXZ]-------2-", const True)]
+harmony (ParaPrep _) 	y
+
+    | y `elem` ["`an", "min"]   = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "|I"))]
+    | y `elem` ["bi", "ta"]     = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "nI")),
+                                            Just ("[NAQDXZ]-------2-", const True),
+                                            Just ("PI------2-", const True)]    -- in modern language
+    | otherwise                 = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "nI"))]
+
+harmony (ParaConj _) 	"li"	    = [Nothing, Just ("VIS-------", const True)]
+harmony (ParaConj _)    y
+
+    | y `elem` ["'anna", "'inna"]   = [Nothing, Just ("SP------4-", euphony y)]
+    | otherwise                     = [Nothing, Just ("S-------1-", const True),
+                                                Just ("[VNAQDPCFIXZ]---------", const True)]
+
+harmony (ParaPart _) 	"sa"	= [Nothing, Just ("VII-------", const True)]
+harmony (ParaPart _) 	"li"	= [Nothing, Just ("VIJ-------", const True)]
+harmony (ParaPart _) 	"la"	= [Nothing, Just ("[VNAQDPFIXZ]---------", const True)]                     -- excluding "[SCY]---------"
+harmony (ParaPart _) 	"'IyA"	= [Nothing, Just ("SP------2-", (\ x -> euphony "'IyA" x && x /= "nI"))]
+harmony (ParaPart _) 	y	    = [Nothing, Just ("[VNAQDXZ]-------4-", const True),                        -- excluding "[SCPFIY]---------"
+                                            Just ("SP------4-", euphony y)]
+
+harmony (ParaIntj _) 	y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
+
+harmony (ParaXtra _) 	_	= [Nothing]
+
+harmony (ParaYnit _) 	_	= [Nothing]
+
+harmony (ParaZero _) 	_	= [Nothing]
+
+harmony (ParaGrph _) 	_	= [Nothing]
 
 
 generate :: String -> Lexicon -> Doc

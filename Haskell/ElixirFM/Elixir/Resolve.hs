@@ -26,6 +26,8 @@ import Elixir.Derive
 
 import Elixir.Inflect
 
+import Elixir.Compose
+
 import Elixir.Pretty
 
 import Encode.Arabic
@@ -35,14 +37,6 @@ import Data.Char
 import Data.List
 
 import qualified Data.Map as Map
-
-
-data Token a = Token { lexeme :: (Lexeme a, Index), struct :: (Root, Morphs a), tag :: Tag }
-
-    deriving (Show, Eq)
-
-
-type Tag = ParaType
 
 
 newtype MorphoTrees a = MorphoTrees a   deriving (Show, Eq)
@@ -136,7 +130,7 @@ instance Pretty (MorphoLists [Wrap Token]) where
 
     pretty (MorphoLists x) = text ": " <> nest 2 ( align (
 
-            text ("<" ++ unwords [ x | (x : _, _) <- y ] ++ ">")
+            text ("<" ++ compose x ++ ">")
 
             <$$> vcat [ pretty t <> encloseText x | (x, t) <- y ] ) )
 
@@ -147,7 +141,7 @@ instance Pretty [Wrap Token] => Pretty [[Wrap Token]] where
 
     pretty x = text (":: <" ++ unwords z ++ ">") <> nest 1 (foldr ((<>) . (<>) line . pretty) empty x)
 
-        where y = nub [ z | y <- x, z <- map (unwraps (uncurry merge . struct)) y ]
+        where y = nub [ compose y | y <- x ]
 
               z = if length y > 3 then [head y] ++ [".."] ++ [last y] else y
 
@@ -156,7 +150,7 @@ instance Pretty (MorphoTrees [Wrap Token]) => Pretty (MorphoTrees [[Wrap Token]]
 
     pretty (MorphoTrees x) = text (":: <" ++ unwords z ++ ">") <> nest 1 (foldr ((<>) . (<>) line . pretty . MorphoTrees) empty x)
 
-        where y = nub [ z | y <- x, z <- map (unwraps (uncurry merge . struct)) y ]
+        where y = nub [ unwraps (uncurry merge . struct) z | y <- x, z <- y ]
 
               z = if length y > 3 then [head y] ++ [".."] ++ [last y] else y
 
@@ -316,82 +310,6 @@ harmonize = filter (not . null) . map (map (map snd) . filter (not . null) .    
                                 ] ]
 
             ) [[(Nothing, [])]])
-
-
-euphony :: String -> String -> Bool
-
-euphony [] _ = True
-
-euphony x "|I" = all (last x /=) "AIUYwy"
-euphony x "ya" = any (last x ==) "AIUYwy"
-
-euphony x y | isPrefixOf "hu" y = all (last x /=) "Iiy"
-euphony x y | isPrefixOf "hi" y = any (last x ==) "Iiy"
-
-euphony _ _ = True
-
-
-harmony :: ParaType -> String -> [Maybe (String, String -> Bool)]
-
-harmony (ParaVerb (VerbP   Passive _ _ _)) 	_	= [Nothing]
-harmony (ParaVerb (VerbI _ Passive _ _ _)) 	_	= [Nothing]
-harmony (ParaVerb _) 	                    y	= [Nothing, Just ("SP------4-", euphony y)]
-
-harmony (ParaNoun (NounS _ _ (Nothing :-: True))) 	y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
-harmony (ParaNoun _) 	                            _	= [Nothing]
-
-harmony (ParaAdj  (AdjA  _ _ _ (Nothing :-: True))) 	y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
-harmony (ParaAdj  _) 	                                _	= [Nothing]
-
-harmony (ParaPron _) 	y	= [Nothing]     -- in modern language
-
--- Wrigth (1991), Fischer (2002), Badawi et al. (2004) on options with [Nothing, Just ("SP------4-", euphony y)]
-
-harmony (ParaNum  (NumV Feminine _ (_ :-: True))) 	        _	= [Nothing, Just ("QC-----S2[IRA]", const True)]
-harmony (ParaNum  (NumC _        _ (Nothing :-: True)))     y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
-harmony (ParaNum  (NumM _        _ (Nothing :-: True)))     y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
-harmony (ParaNum  _) 	                                    _	= [Nothing]
-
-harmony (ParaAdv  _) 	_	= [Nothing]
-
-harmony (ParaPrep _) 	"la"	= [Nothing, Just ("S-------2-", (\ x -> euphony "la" x && x /= "nI"))]
-harmony (ParaPrep _) 	"li"	= [Nothing, Just ("[NAQDXZ]-------2-", const True),
-                                            Just ("PI------2-", const True)]    -- in modern language
-harmony (ParaPrep _) 	"ka"	= [Nothing, Just ("S-------1-", const True),
-                                            Just ("[NAQDXZ]-------2-", const True),
-                                            Just ("PI------2-", const True)]    -- in modern language
-harmony (ParaPrep _) 	"wa"	= [Nothing, Just ("[NAQDXZ]-------2-", const True)]
-harmony (ParaPrep _) 	y
-
-    | y `elem` ["`an", "min"]   = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "|I"))]
-    | y `elem` ["bi", "ta"]     = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "nI")),
-                                            Just ("[NAQDXZ]-------2-", const True),
-                                            Just ("PI------2-", const True)]    -- in modern language
-    | otherwise                 = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "nI"))]
-
-harmony (ParaConj _) 	"li"	    = [Nothing, Just ("VIS-------", const True)]
-harmony (ParaConj _)    y
-
-    | y `elem` ["'anna", "'inna"]   = [Nothing, Just ("SP------4-", euphony y)]
-    | otherwise                     = [Nothing, Just ("S-------1-", const True),
-                                                Just ("[VNAQDPCFIXZ]---------", const True)]
-
-harmony (ParaPart _) 	"sa"	= [Nothing, Just ("VII-------", const True)]
-harmony (ParaPart _) 	"li"	= [Nothing, Just ("VIJ-------", const True)]
-harmony (ParaPart _) 	"la"	= [Nothing, Just ("[VNAQDPFIXZ]---------", const True)]                     -- excluding "[SCY]---------"
-harmony (ParaPart _) 	"'IyA"	= [Nothing, Just ("SP------2-", (\ x -> euphony "'IyA" x && x /= "nI"))]
-harmony (ParaPart _) 	y	    = [Nothing, Just ("[VNAQDXZ]-------4-", const True),                        -- excluding "[SCPFIY]---------"
-                                            Just ("SP------4-", euphony y)]
-
-harmony (ParaIntj _) 	y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
-
-harmony (ParaXtra _) 	_	= [Nothing]
-
-harmony (ParaYnit _) 	_	= [Nothing]
-
-harmony (ParaZero _) 	_	= [Nothing]
-
-harmony (ParaGrph _) 	_	= [Nothing]
 
 
 class Fuzzy a => Resolve a where
