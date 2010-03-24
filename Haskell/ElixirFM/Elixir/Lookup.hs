@@ -35,7 +35,9 @@ import Data.List hiding (lookup)
 import Prelude hiding (lookup)
 
 
-lookupClips (i, n) y = [ z | w <- find i y, z <- wraps (lookups n) w ]
+lookupClips :: Clips -> Lexicon
+
+lookupClips (i, n) = [ z | w <- find i lexicon, z <- wraps (lookups n) w ]
 
     where find x y | x > 0     = take 1 (drop (x - 1) y)
                    | x < 0     = find (-x) (reverse y)
@@ -45,12 +47,14 @@ lookupClips (i, n) y = [ z | w <- find i y, z <- wraps (lookups n) w ]
           lookups (Just n) (Nest r l) = [Nest r [ e | j <- n, e <- find j l ]]
 
 
+lookupIndex :: Index -> Lexicon
+
 lookupIndex (i, j) = lookupClips (i, Just [j])
 
 
 emanate :: Clips -> Lexicon
 
-emanate = flip lookupClips lexicon
+emanate = lookupClips
 
 
 lookupUsing :: Maybe [Clips] -> (Root -> Maybe Bool) -> (forall c .

@@ -74,15 +74,23 @@ instance Pretty (String, MorphoLists a) => Pretty [(String, MorphoLists a)] wher
     pretty = vcat . map pretty
 
 
-instance (Eq a, Morphing a a, Forming a, Show a, Template a, Pretty [a]) => Pretty (Token a) where
+concise :: (Show (Entity a), Show [Morphs a], Show [a]) => Entity a -> String
+
+concise (Verb _ p i c _ _ _) = unwords ["Verb", show p, show i, show c]
+concise (Noun l _ _ _ _)     = unwords ["Noun" , show l]
+concise (Adj  l f _)         = unwords ["Adj", show l, show f]
+concise x                    = show x
+
+
+instance (Eq a, Morphing a a, Forming a, Show a, Template a) => Pretty (Token a) where
 
     pretty x =  pretty t <> align (
 
                 encloseText [merge d m, show d, show m]
 
                 <$$> encloseText [merge r (morphs e), show r, show (morphs e)]
-                <$$> encloseText [show (reflex e), show (lookupForm r e)]
-                <$$> (text . ('\t' :) . concat . map (unwords . words) . lines . show . pretty) (entity e)
+                <$$> (text . ('\t' :) . show) (reflex e)
+                <$$> encloseText [concise (entity e), show (lookupForm r e)]
                 <$$> (text . ('\t' :) . show) i )
 
         where Token (Lexeme r e, i) (d, m) t = x
@@ -98,9 +106,9 @@ instance Pretty [Wrap Token] where
 
                     (fill 10 . text . show) i <> nest 10 (
 
-                        (text . ('\t' :) . concat . map (unwords . words) . lines . show . pretty) (entity e)
+                        (text . ('\t' :) . show) (reflex e)
 
-                        <$$> encloseText [show (reflex e), show (lookupForm r e)]
+                        <$$> encloseText [concise (entity e), show (lookupForm r e)]
                         <$$> encloseText [merge r (morphs e), show r, show (morphs e)] )
 
                     <$$> pretty t <>
@@ -116,9 +124,9 @@ instance Pretty (MorphoTrees [Wrap Token]) where
 
             ( unwraps (\ (Token (Lexeme r e, i) _ _) -> (fill 10 . text . show) i <> nest 10 (
 
-                        (text . ('\t' :) . concat . map (unwords . words) . lines . show . pretty) (entity e)
+                        (text . ('\t' :) . show) (reflex e)
 
-                        <$$> encloseText [show (reflex e), show (lookupForm r e)]
+                        <$$> encloseText [concise (entity e), show (lookupForm r e)]
                         <$$> encloseText [merge r (morphs e), show r, show (morphs e)] )) x )
 
             <$$> vcat [ unwraps (\ (Token _ (d, m) t) -> pretty t <>
@@ -163,9 +171,9 @@ instance Pretty (MorphoLists [Wrap Token]) => Pretty (MorphoLists [[Wrap Token]]
 
                 unwraps (\ (Token (Lexeme r e, i) _ _) -> (fill 10 . text . show) i <> nest 10 (
 
-                        (text . ('\t' :) . concat . map (unwords . words) . lines . show . pretty) (entity e)
+                        (text . ('\t' :) . show) (reflex e)
 
-                        <$$> encloseText [show (reflex e), show (lookupForm r e)]
+                        <$$> encloseText [concise (entity e), show (lookupForm r e)]
                         <$$> encloseText [merge r (morphs e), show r, show (morphs e)] ) ) y | y <- x ] )
 
                 <$$> vcat (map (pretty . MorphoLists) xs) )

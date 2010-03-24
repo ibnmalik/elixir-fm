@@ -704,9 +704,7 @@ sub clear {
 
 sub lists_trees {
 
-    my ($data, $mode) = @_;
-
-    my ($node, @data) = split /\n[\t ]*[:]{1}/, $data;
+    my ($node, @data) = split /\n[\t ]*[:]{1}/, $_[0];
 
     return  $node =~ /[()]/
 
@@ -714,11 +712,7 @@ sub lists_trees {
                 [
                     map {
 
-                        my $data = [ split /[\n ]*\t/, $_ ];
-
-                        $data->[1] = parse_clear($data->[1], $mode);
-
-                        $data
+                        [ split /[\n ]*\t/, $_ ]
                     }
 
                     grep { $_ ne '' } split /[\n ]*(?=\([0-9]+,[0-9]+\)[\n ]*\t|$)/, $node
@@ -762,12 +756,8 @@ sub lists_trees {
 
                     my ($node, @data) = split /(?<![\t\n ])(?:[\t ]*\n)+$i(?![\t\n ])/, $_;
 
-                    my $data = [ split /[\n ]*\t/, $node ];
-
-                    $data->[1] = parse_clear($data->[1], $mode);
-
                     [
-                        $data,
+                        [ split /[\n ]*\t/, $node ],
 
                         map {
 
@@ -831,7 +821,7 @@ sub unpretty {
 
                                 map {
 
-                                    lists_trees($_, $mode)
+                                    lists_trees($_)
 
                                 } @data
                             ]

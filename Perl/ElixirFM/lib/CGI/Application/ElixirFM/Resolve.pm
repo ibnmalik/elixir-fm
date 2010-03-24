@@ -38,7 +38,7 @@ sub pretty ($$$) {
 
     my ($reply, $mode, $q) = @_;
 
-    my @word = ElixirFM::concat ElixirFM::unpretty $reply, 'clear';
+    my @word = ElixirFM::concat ElixirFM::unpretty $reply;
 
     my @text = split " ", $q->param('text');
 
@@ -147,14 +147,16 @@ sub pretty_resolve_lexeme {
 
     my $xcat = substr $data[0]->[0], 0, 1;
 
-    $info[1] = join " ", map { exists $info[1]->[1]{$_} ? @{$info[1]->[1]{$_}} : () } 'imperf', 'pfirst', 'second';
+    $info[1] = substr $info[2], 1, -1;
+    $info[1] =~ s/\",\"/\", \"/g;
 
-    $info[2] = substr $info[2], 1, -1;
-    $info[2] =~ s/\",\"/\", \"/g;
+    my @stem = $info[2] =~ /^Verb \[([^\]]*)\] \[([^\]]*)\] \[([^\]]*)\]$/;
+
+    $info[2] = @stem ? join " ", map { split /[,]/, $stem[$_] } 1, 0, 2 : "";
 
     $info[3] =~ s/[\[\]]//g;
 
-    $info[-2] = substr $info[-2], 1, -1;  # == $info[5]
+    $info[-2] = substr $info[-2], 1, -1;
 
     my $root = join " ", (decode "zdmg", $info[-2]), (decode "arabtex", ElixirFM::cling $info[-2]);
 
@@ -174,9 +176,9 @@ sub pretty_resolve_lexeme {
                        $q->td({-class => "class",
                                -title => "derivational class"},      $info[3]),
                        $q->td({-class => "stems",
-                               -title => "inflectional stems"},      ElixirFM::nice $info[1]),
+                               -title => "inflectional stems"},      ElixirFM::nice $info[2]),
                        $q->td({-class => "reflex",
-                               -title => "lexical reference"},       $info[2]),
+                               -title => "lexical reference"},       $info[1]),
 
                        $q->td({-class => "button"},
                               $q->a({-title => "inflect this lexeme",

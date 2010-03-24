@@ -173,7 +173,7 @@ elixirInflect o p = interact (unlines . map (show . q . words) . onlines)
 
           c x = [ y | (y, _) <- reads x ] ++ [ (i, Just [j]) | ((i, j), _) <- reads x ]
 
-          i = [ z | x <- p, y <- c x, z <- lookupClips y lexicon ]
+          i = [ z | x <- p, y <- c x, z <- lookupClips y ]
 
 
 elixirDerive o p = interact (unlines . map (show . q . words) . onlines)
@@ -182,7 +182,7 @@ elixirDerive o p = interact (unlines . map (show . q . words) . onlines)
 
           c x = [ y | (y, _) <- reads x ] ++ [ (i, Just [j]) | ((i, j), _) <- reads x ]
 
-          i = [ z | x <- p, y <- c x, z <- lookupClips y lexicon ]
+          i = [ z | x <- p, y <- c x, z <- lookupClips y ]
 
 
 elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) . onlines)
@@ -206,7 +206,7 @@ elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) 
                       r = unfoldr (\ x -> let y = reads x in if null y then Nothing else Just (head y)) x
                       y = unwords (words x)
 
-          f x = singleline id [ (text . show) y <> linebreak <> pretty z | y <- x, z <- lookupClips y lexicon ]
+          f x = singleline id [ (text . show) y <> linebreak <> pretty z | y <- x, z <- lookupClips y ]
 
           e = if null p then "" else map toLower (head p)
 
@@ -215,9 +215,9 @@ elixirLexicon o p = (putDoc . pretty . f) (lists [(0, Nothing)] ((concat . map q
 
     where q x = [ y | (y, _) <- reads x ] ++ [ (i, Just [j]) | ((i, j), _) <- reads x ]
 
-          f x = [ lookupClips y lexicon | y <- x ]
+          f x = [ lookupClips y | y <- x ]
 
 
 elixirCompose o p = (putDoc . generate e) lexicon
 
-    where e = if null p then "--[ISJ]-------" else head p
+    where e = if null p then "Q---------" else head p
