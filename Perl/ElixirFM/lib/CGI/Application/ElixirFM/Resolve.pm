@@ -147,7 +147,7 @@ sub pretty_resolve_lexeme {
 
     my $xcat = substr $data[0]->[0], 0, 1;
 
-    $info[1] = substr $info[2], 1, -1;
+    $info[1] = substr $info[1], 1, -1;
     $info[1] =~ s/\",\"/\", \"/g;
 
     my @stem = $info[2] =~ /^Verb \[([^\]]*)\] \[([^\]]*)\] \[([^\]]*)\]$/;
