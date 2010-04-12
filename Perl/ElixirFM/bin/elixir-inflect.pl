@@ -1,6 +1,6 @@
 use ElixirFM;
 
-use Exec::ElixirFM;
+use ElixirFM::Exec;
 
 push @ARGV, "fa`al" unless @ARGV;
 
@@ -32,9 +32,9 @@ print << 'print';
 
 print
 
-@clip = ElixirFM::unpretty Exec::ElixirFM::elixir 'lookup', ["tex"], 'huwa';
+@clip = ElixirFM::unpretty ElixirFM::Exec::elixir 'lookup', ["tex"], 'huwa';
 
-@data = ElixirFM::unpretty Exec::ElixirFM::elixir 'inflect', [ map { $_->{'clip'} } map { @{$_} } @clip ], 'SP------1-';
+@data = ElixirFM::unpretty ElixirFM::Exec::elixir 'inflect', [ map { $_->{'clip'} } map { @{$_} } @clip ], 'SP------1-';
 
 # print join "\n", ElixirFM::concat map { @{$_} } map { @{$_} } @data;
 
@@ -44,7 +44,7 @@ print
 
 foreach $form (@ARGV) {
 
-    @clip = ElixirFM::unpretty Exec::ElixirFM::elixir 'lookup', ["tex"], $form;
+    @clip = ElixirFM::unpretty ElixirFM::Exec::elixir 'lookup', ["tex"], $form;
 
     foreach $clip (@clip) {
 
@@ -54,7 +54,7 @@ foreach $form (@ARGV) {
 
         print
 
-        @data = ElixirFM::unpretty Exec::ElixirFM::elixir 'inflect', [ map { $_->{'clip'} } @{$clip} ], 'VP-A------ VI-A------';
+        @data = ElixirFM::unpretty ElixirFM::Exec::elixir 'inflect', [ map { $_->{'clip'} } @{$clip} ], 'VP-A------ VI-A------';
 
         # print join "\n\n", map { join "\\\\\n", map { join "\t", "\\xtag{" . $_->[0] . "}", map { "\\nice{" . $_->[0] . "}" } @{$_}[1 .. @{$_} - 1] } @{$_} } @data;
 

@@ -4,18 +4,18 @@
 
 # $Id$
 
-package CGI::Application::ElixirFM::Resolve;
+package ElixirFM::CGI::Resolve;
 
 use strict;
 
 our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
 
 
-use CGI::Application::ElixirFM;
+use ElixirFM::CGI;
 
 use CGI::Fast ':standard';
 
-use Exec::ElixirFM './elixir';
+use ElixirFM::Exec './elixir';
 
 use ElixirFM;
 
@@ -360,13 +360,13 @@ sub main ($) {
 
     if ($memoize) {
 
-        $memoize{$mode} = Exec::ElixirFM::elixir @{$reply} unless exists $memoize{$mode};
+        $memoize{$mode} = ElixirFM::Exec::elixir @{$reply} unless exists $memoize{$mode};
 
         $reply = $memoize{$mode};
     }
     else {
 
-        $reply = Exec::ElixirFM::elixir @{$reply};
+        $reply = ElixirFM::Exec::elixir @{$reply};
     }
 
     $r .= pretty $reply, $mode, $q;

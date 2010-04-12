@@ -1,10 +1,231 @@
-# ###################################################################### Otakar Smrz, 2007/10/05
+# ###################################################################### Otakar Smrz, 2010/03/27
 #
-# ElixirFM Online Interface ####################################################################
+# ElixirFM Widget Interface ####################################################################
 
 # $Id$
 
-package CGI::Application::ElixirFM;
+package ElixirFM::Wx;
+
+use strict;
+
+our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
+
+
+require ElixirFM::Wx::Resolve;
+
+use base 'Wx::App';
+
+use Wx ':everything';
+
+use base 'Exporter';
+
+our @EXPORT = (qw '@modes %memoize %enc_hash @enc_list');
+
+
+our @modes = qw 'home resolve inflect derive lookup';
+
+our %memoize = ();
+
+our %enc_hash = (   'ArabTeX'       =>      'TeX',
+                    'Buckwalter'    =>      'Tim',
+                    'Unicode'       =>      'UTF'   );
+
+our @enc_list = reverse sort keys %enc_hash;
+
+our $elixir = {};
+
+
+sub escape ($) {
+
+    my $text = shift;
+
+    $text =~ s/\&/\&amp;/g;
+    $text =~ s/\</\&lt;/g;
+    $text =~ s/\>/\&gt;/g;
+
+    return $text;
+}
+
+sub quote ($) {
+
+    return $_[0] eq '' ? '""' : $_[0];
+}
+
+sub revert ($) {
+
+    my $text = shift;
+
+    $text =~ s/\&gt;/\>/g;
+    $text =~ s/\&lt;/\</g;
+    $text =~ s/\&amp;/\&/g;
+
+    return $text;
+}
+
+
+sub OnInit {
+
+    my $this = shift;
+
+    my $frame = new ElixirFM::Wx::Widget();
+
+    $frame->GONOW();
+    
+    $frame->Show(1);
+
+    1;
+}
+
+
+package ElixirFM::Wx::Widget;
+
+use strict;
+
+use Encode::Arabic;
+
+use Wx ':everything';
+use Wx::Html;
+use base 'Wx::Frame';
+
+use Wx::Event 'EVT_BUTTON', 'EVT_MENU';
+
+use vars '%ID_', '$I';
+
+%ID_ = map { $_ => 1000 + $I++ } qw 'GOTEXT GOBUTTON HTML ABOUT QUIT GOTEXT';
+
+sub new {
+    my $class = shift;
+    my $this = $class->SUPER::new(undef, -1,
+                    "ElixirFM Widget Interface",
+                    [0,0],
+                    [800,600],
+                    wxDEFAULT_FRAME_STYLE| wxCLIP_CHILDREN,
+                );
+
+    $this->SetIcon(Wx::GetWxPerlIcon());
+
+    $this->CreateStatusBar(3);
+    $this->SetStatusText("Welcome to ElixirFM ..." . (decode "buckwalter", ">hlA wshlA bkm"), 2);
+
+    $this->GOOEY();
+    
+    $this->SetMenuBar( MENUU($this) );
+
+    EVT_BUTTON( $this, $ID_{GOBUTTON}, \&GONOW );
+    EVT_MENU( $this, $ID_{ABOUT}, \&OnAbout );
+    EVT_MENU( $this, $ID_{QUIT}, \&OnQuit );
+
+    return $this;
+}
+
+
+sub OnAbout {
+    my( $this, $event ) = @_;
+
+    Wx::MessageBox( "Welcome to WxBrowser 1.0
+
+WxBrowser is a crude browser created as a demo of wxPerl
+Has basic support for html (probably html 1.0 or 2.0)
+That means, no cookies, no images, no forms, bad tables ;)
+
+(C)opyright CrazyInsomniac of PerlMonks.org.
+This program is released under the same terms as perl itself
+(if you don't know what that means, visit perl.com )
+",
+        "About WxBrowser", wxOK|wxICON_INFORMATION, $this );
+}
+
+sub OnQuit {
+
+    my ($this, $event) = @_;
+
+    $this->Close(1);
+}
+
+
+sub MENUU {
+    my( $bar ) = Wx::MenuBar->new();
+
+    my( $filemenu ) = Wx::Menu->new();
+    $filemenu->Append( $ID_{ABOUT}, "About", "Find Out Who Created WxBrowser" );
+    $filemenu->Append( $ID_{QUIT}, "Quit", "Exit this application" );
+    $bar->Append( $filemenu, "File" );
+    return $bar;
+}
+
+sub GONOW {
+    my ($this, $event) = @_;
+    my $html = $this->FindWindow($ID_{HTML});
+    my $text = $this->FindWindow($ID_{GOTEXT});
+
+    my $data = ElixirFM::Wx::Resolve::elixir(decode "buckwalter", $text->GetValue());
+
+    $html->SetPage("<pre>" . (ElixirFM::Wx::escape $data) . "</pre>");
+
+    # $html->LoadPage($text->GetValue());
+
+    return;
+}
+
+sub GOOEY{
+    my $this = shift;
+    my( $sizer1 ) = Wx::BoxSizer->new( wxVERTICAL );
+
+    my( $sizer2 ) = Wx::BoxSizer->new( wxVERTICAL );
+
+    my( $htmlsizer ) = Wx::BoxSizer->new( wxVERTICAL ); ###
+
+    my( $text ) = Wx::TextCtrl->new( $this, $ID_{GOTEXT},
+            ">hlA wshlA bkm",
+            wxDefaultPosition,
+#            [460,-1],
+            wxDefaultSize,
+            wxGROW # I don't even know if this works here
+        );
+
+    my( $html ) = Wx::HtmlWindow->new( ###
+                        $this,
+                        $ID_{HTML},
+                        wxDefaultPosition,
+                        wxDefaultSize,
+                    );
+
+    
+    $html->SetRelatedFrame($this, "WxBrowser: %s");
+    $html->SetRelatedStatusBar(0);
+
+    # $html->SetPage('<H1><a href="http://perlmonk.org/~grinder"><font color="#be2076">W</font><font color="#b15088">a</font><font color="#a28999">v</font><font color="#93bea9">e</font> <font color="#83e3b9">i</font><font color="#73efc7">t</font> <font color="#63e0d3">h</font><font color="#54b9dd">i</font><font color="#4583e5">g</font><font color="#374aeb">h</font><font color="#2a1cef">,</font><P><font color="#1e02ef">l</font><font color="#1404ee">e</font><font color="#0c08e9">t</font> <font color="#060de3">t</font><font color="#0214da">h</font><font color="#001bcf">a</font><font color="#0024c2">t</font> <font color="#092eb3">f</font><font color="#1e38a4">r</font><font color="#3d4393">e</font><font color="#624f82">a</font><font color="#8a5b70">k</font><P><font color="#af685f">f</font><font color="#cf754e">l</font><font color="#e5813e">a</font><font color="#ef8e2f">g</font> <font color="#ec9a22">f</font><font color="#dda617">l</font><font color="#c2b20d">y</font>!</a></H1>');
+
+    $htmlsizer->AddWindow( $html, 1, wxALIGN_CENTRE|wxGROW, 0 );###
+
+    $sizer2->Add($htmlsizer, 1, wxGROW|wxALIGN_CENTER_VERTICAL, 0 );###
+
+    my( $sizer3 ) = Wx::BoxSizer->new( wxHORIZONTAL );
+
+    $sizer3->AddWindow( $text, 1, wxGROW|wxALIGN_CENTER_HORIZONTAL, 0 );
+
+    my( $item9 ) = Wx::Button->new( $this,
+            $ID_{GOBUTTON},
+            "GO",
+            wxDefaultPosition,
+            [50,20], 0
+        );
+    $sizer3->AddWindow( $item9, 0, wxALIGN_RIGHT|wxALL, 0 );
+
+
+## switch these two lines, the wxBOTTOM  or wxTOP don't matter
+    $sizer1->Add( $sizer3, 0, wxGROW|wxTOP, 0 );
+    $sizer1->Add( $sizer2, 1, wxGROW|wxALIGN_CENTER_VERTICAL, 0 );
+
+    $this->SetAutoLayout( 1 );
+    $this->SetSizer( $sizer1 );
+}
+
+
+__END__
+
+
+package ElixirFM::CGI;
 
 use strict;
 
@@ -65,34 +286,6 @@ sub run {
 sub reinit {
 
     return -M $0 < 0;
-}
-
-
-sub escape ($) {
-
-    my $text = shift;
-
-    $text =~ s/\&/\&amp;/g;
-    $text =~ s/\</\&lt;/g;
-    $text =~ s/\>/\&gt;/g;
-
-    return $text;
-}
-
-sub quote ($) {
-
-    return $_[0] eq '' ? '""' : $_[0];
-}
-
-sub revert ($) {
-
-    my $text = shift;
-
-    $text =~ s/\&gt;/\>/g;
-    $text =~ s/\&lt;/\</g;
-    $text =~ s/\&amp;/\&/g;
-
-    return $text;
 }
 
 
@@ -225,13 +418,13 @@ sub show_param ($@) {
 }
 
 
-require CGI::Application::ElixirFM::Resolve;
+require ElixirFM::CGI::Resolve;
 
-require CGI::Application::ElixirFM::Inflect;
+require ElixirFM::CGI::Inflect;
 
-require CGI::Application::ElixirFM::Derive;
+require ElixirFM::CGI::Derive;
 
-require CGI::Application::ElixirFM::Lookup;
+require ElixirFM::CGI::Lookup;
 
 
 sub main ($) {

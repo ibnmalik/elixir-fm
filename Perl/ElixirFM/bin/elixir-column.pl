@@ -1,10 +1,10 @@
 use ElixirFM;
-use Exec::ElixirFM;
+use ElixirFM::Exec;
 
 $data = join "", <>;                                # read plain text or the output of
                                                     # `elixir resolve --lists`
 
-$data = Exec::ElixirFM::elixir 'resolve', ['--lists'], $data
+$data = ElixirFM::Exec::elixir 'resolve', ['--lists'], $data
                                                 unless $data =~ /^:::: [^ \n]+\n/;
 
 @text = ElixirFM::unpretty $data;

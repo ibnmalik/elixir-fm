@@ -4,18 +4,18 @@
 
 # $Id$
 
-package CGI::Application::ElixirFM::Inflect;
+package ElixirFM::CGI::Inflect;
 
 use strict;
 
 our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
 
 
-use CGI::Application::ElixirFM;
+use ElixirFM::CGI;
 
 use CGI::Fast ':standard';
 
-use Exec::ElixirFM './elixir';
+use ElixirFM::Exec './elixir';
 
 use ElixirFM;
 
@@ -304,13 +304,13 @@ sub main ($) {
 
     if ($memoize) {
 
-        $memoize{$mode}[0] = Exec::ElixirFM::elixir @{$query} unless exists $memoize{$mode} and defined $memoize{$mode}[0];
+        $memoize{$mode}[0] = ElixirFM::Exec::elixir @{$query} unless exists $memoize{$mode} and defined $memoize{$mode}[0];
 
         $query = $memoize{$mode}[0];
     }
     else {
 
-        $query = Exec::ElixirFM::elixir @{$query};
+        $query = ElixirFM::Exec::elixir @{$query};
     }
 
     $query = [ ElixirFM::unpretty $query, 'clear' ];
@@ -321,13 +321,13 @@ sub main ($) {
 
     if ($memoize) {
 
-        $memoize{$mode}[1] = Exec::ElixirFM::elixir @{$reply} unless exists $memoize{$mode} and defined $memoize{$mode}[1];
+        $memoize{$mode}[1] = ElixirFM::Exec::elixir @{$reply} unless exists $memoize{$mode} and defined $memoize{$mode}[1];
 
         $reply = $memoize{$mode}[1];
     }
     else {
 
-        $reply = Exec::ElixirFM::elixir @{$reply};
+        $reply = ElixirFM::Exec::elixir @{$reply};
     }
 
     $r .= pretty $reply, $query, $mode, $q;

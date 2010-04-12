@@ -4,7 +4,7 @@
 
 # $Id$
 
-package Exec::ElixirFM;
+package ElixirFM::Exec;
 
 use strict;
 
@@ -133,7 +133,7 @@ __END__
 
 =head1 NAME
 
-Exec::ElixirFM - Interface to the ElixirFM executable
+ElixirFM::Exec - Interface to the ElixirFM executable
 
 
 =head1 REVISION
@@ -143,25 +143,25 @@ Exec::ElixirFM - Interface to the ElixirFM executable
 
 =head1 SYNOPSIS
 
-    use Exec::ElixirFM;                         #   'elixir' will be tried out
+    use ElixirFM::Exec;                         #   'elixir' will be tried out
 
-    use Exec::ElixirFM '.';                     #   './elixir' will be invoked
-    use Exec::ElixirFM './elixir';              #   './elixir' will be invoked
+    use ElixirFM::Exec '.';                     #   './elixir' will be invoked
+    use ElixirFM::Exec './elixir';              #   './elixir' will be invoked
 
-    use Exec::ElixirFM 'some/other';            #   'some/other/elixir' unless
+    use ElixirFM::Exec 'some/other';            #   'some/other/elixir' unless
                                                 #   'some/other' is executable
 
-    Exec::ElixirFM::elixir 'help';
+    ElixirFM::Exec::elixir 'help';
 
-    import Exec::ElixirFM 'other/elixir';       #   switching to 'other/elixir'
+    import ElixirFM::Exec 'other/elixir';       #   switching to 'other/elixir'
 
-    Exec::ElixirFM::elixir 'inflect', ['(1320,1)'], "V[PI]---3MS--", "N------P-[IRD]";
-    Exec::ElixirFM::inflect           ['(1320,1)'], "V[PI]---3MS--", "N------P-[IRD]";
+    ElixirFM::Exec::elixir 'inflect', ['(1320,1)'], "V[PI]---3MS--", "N------P-[IRD]";
+    ElixirFM::Exec::inflect           ['(1320,1)'], "V[PI]---3MS--", "N------P-[IRD]";
 
 
 =head1 DESCRIPTION
 
-The L<Exec::ElixirFM|Exec::ElixirFM> module provides a simple interface for invoking the
+The L<ElixirFM::Exec|ElixirFM::Exec> module provides a simple interface for invoking the
 ElixirFM executable, which you need to install on your system yourself.
 
 The download and further information are at L<http://sourceforge.net/projects/elixir-fm/>.

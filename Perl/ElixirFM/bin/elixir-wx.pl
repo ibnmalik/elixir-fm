@@ -9,9 +9,9 @@
 our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
 
 
-use Wx::App::ElixirFM;
+use ElixirFM::Wx;
 
-my $wx = new Wx::App::ElixirFM;
+my $wx = new ElixirFM::Wx;
 
 $wx->MainLoop();
 
