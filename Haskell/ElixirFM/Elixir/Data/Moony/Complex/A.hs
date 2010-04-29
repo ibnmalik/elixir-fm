@@ -1512,13 +1512,13 @@ cluster_90  = cluster
 
 cluster_91  = cluster
 
- |> ['\'','U','r','u','b','b'] <| [
+ |> ['\'','U','r','U','b'] <| [
 
-    _____ |<< "A"             `xtra`    {- <'UrubbA> -}        [ ['E','u','r','o','p','e'] ],
+    _____ |<< "A"             `xtra`    {- <'UrUbA> -}         [ ['E','u','r','o','p','e'] ],
 
-    _____ |< Iy               `adj`     {- <'UrubbIy> -}       [ ['E','u','r','o','p','e','a','n'] ],
+    _____ |< Iy               `adj`     {- <'UrUbIy> -}        [ ['E','u','r','o','p','e','a','n'] ],
 
-    _____ |< Iy               `noun`    {- <'UrubbIy> -}       [ ['E','u','r','o','p','e','a','n'] ]
+    _____ |< Iy               `noun`    {- <'UrUbIy> -}        [ ['E','u','r','o','p','e','a','n'] ]
                               `plural`     _____ |< Iy |< Un
                            
     `derives` otherwise ]
@@ -1526,13 +1526,13 @@ cluster_91  = cluster
 
 cluster_92  = cluster
 
- |> ['\'','u','r','U','b','b'] <| [
+ |> ['\'','U','r','u','b','b'] <| [
 
-    _____ |<< "A"             `xtra`    {- <'urUbbA> -}        [ ['E','u','r','o','p','e'] ],
+    _____ |<< "A"             `xtra`    {- <'UrubbA> -}        [ ['E','u','r','o','p','e'] ],
 
-    _____ |< Iy               `adj`     {- <'urUbbIy> -}       [ ['E','u','r','o','p','e','a','n'] ],
+    _____ |< Iy               `adj`     {- <'UrubbIy> -}       [ ['E','u','r','o','p','e','a','n'] ],
 
-    _____ |< Iy               `noun`    {- <'urUbbIy> -}       [ ['E','u','r','o','p','e','a','n'] ]
+    _____ |< Iy               `noun`    {- <'UrubbIy> -}       [ ['E','u','r','o','p','e','a','n'] ]
                               `plural`     _____ |< Iy |< Un
                            
     `derives` otherwise ]

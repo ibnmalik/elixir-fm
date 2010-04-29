@@ -11,7 +11,7 @@ our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
 
 use ElixirFM::Wx;
 
-my $wx = new ElixirFM::Wx;
+our $wx = new ElixirFM::Wx;
 
 $wx->MainLoop();
 

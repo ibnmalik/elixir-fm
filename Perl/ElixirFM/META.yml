@@ -16,26 +16,36 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2
 provides:
-  CGI::Application::ElixirFM:
-    file: lib/CGI/Application/ElixirFM.pm
-    version: 1.1.929
-  CGI::Application::ElixirFM::Derive:
-    file: lib/CGI/Application/ElixirFM/Derive.pm
-    version: 1.1.938
-  CGI::Application::ElixirFM::Inflect:
-    file: lib/CGI/Application/ElixirFM/Inflect.pm
-    version: 1.1.938
-  CGI::Application::ElixirFM::Lookup:
-    file: lib/CGI/Application/ElixirFM/Lookup.pm
-    version: 1.1.938
-  CGI::Application::ElixirFM::Resolve:
-    file: lib/CGI/Application/ElixirFM/Resolve.pm
-    version: 1.1.938
   ElixirFM:
     file: lib/ElixirFM.pm
     version: 1.1
-  Exec::ElixirFM:
-    file: lib/Exec/ElixirFM.pm
-    version: 1.1.932
+  ElixirFM::CGI:
+    file: lib/ElixirFM/CGI.pm
+    version: 1.1.946
+  ElixirFM::CGI::Derive:
+    file: lib/ElixirFM/CGI/Derive.pm
+    version: 1.1.946
+  ElixirFM::CGI::Inflect:
+    file: lib/ElixirFM/CGI/Inflect.pm
+    version: 1.1.946
+  ElixirFM::CGI::Lookup:
+    file: lib/ElixirFM/CGI/Lookup.pm
+    version: 1.1.946
+  ElixirFM::CGI::Resolve:
+    file: lib/ElixirFM/CGI/Resolve.pm
+    version: 1.1.946
+  ElixirFM::Exec:
+    file: lib/ElixirFM/Exec.pm
+    version: 1.1.946
+  ElixirFM::Wx:
+    file: lib/ElixirFM/Wx.pm
+    version: 1.1.946
+  ElixirFM::Wx::Resolve:
+    file: lib/ElixirFM/Wx/Resolve.pm
+    version: 1.1.1
+  ElixirFM::Wx::TreeCtrl:
+    file: lib/ElixirFM/Wx.pm
+  ElixirFM::Wx::Widget:
+    file: lib/ElixirFM/Wx.pm
 resources:
   license: http://www.opensource.org/licenses/gpl-license.php

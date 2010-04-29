@@ -285,10 +285,7 @@ cluster_11  = cluster
                               `plural`     FuCUL
                               `plural`     FiCAL,
 
-    FaCCAL                    `noun`    {- <raffAf> -}         [ ['r','a','d','i','a','n','t'], ['g','l','i','s','t','e','n','i','n','g'] ]
-                              `plural`     FaCCAL |< Un
-                           
-    `derives` otherwise ]
+    FaCCAL                    `adj`     {- <raffAf> -}         [ ['r','a','d','i','a','n','t'], ['g','l','i','s','t','e','n','i','n','g'] ] ]
 
 
 cluster_12  = cluster

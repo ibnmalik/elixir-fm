@@ -503,7 +503,7 @@ cluster_15  = cluster
 
     FaCAL |< Iy               `adj`     {- <`aqArIy> -}        [ ['m','o','r','t','g','a','g','e'], unwords [ ['r','e','a','l'], ['e','s','t','a','t','e'] ] ],
 
-    FaCUL                     `noun`    {- <`aqUr> -}          [ ['m','o','r','d','a','c','i','o','u','s'], ['b','i','t','i','n','g'] ],
+    FaCUL                     `adj`     {- <`aqUr> -}          [ ['m','o','r','d','a','c','i','o','u','s'], ['b','i','t','i','n','g'] ],
 
     FaCCAL                    `noun`    {- <`aqqAr> -}         [ ['d','r','u','g'], ['m','e','d','i','c','a','m','e','n','t'] ]
                               `plural`     FaCACIL,
@@ -516,7 +516,7 @@ cluster_15  = cluster
 
     FACUL |< Iy               `adj`     {- <`AqUrIy> -}        [ ['A','q','o','u','r','i'] ],
 
-    FACiL                     `noun`    {- <`Aqir> -}          [ ['b','a','r','r','e','n'], ['s','t','e','r','i','l','e'] ]
+    FACiL                     `adj`     {- <`Aqir> -}          [ ['b','a','r','r','e','n'], ['s','t','e','r','i','l','e'] ]
                               `plural`     FawACiL
                               `plural`     FuCCaL,
 

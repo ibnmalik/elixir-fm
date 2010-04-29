@@ -916,10 +916,7 @@ cluster_57  = cluster
 
     FaCL |< Iy                `adj`     {- <ma`dIy> -}         [ ['g','a','s','t','r','i','c'], ['s','t','o','m','a','c','h'] ],
 
-    MaFCUL                    `noun`    {- <mam`Ud> -}         [ unwords [ ['h','a','v','i','n','g'], "a", ['g','a','s','t','r','i','c'], ['a','i','l','m','e','n','t'] ], ['d','y','s','p','e','p','t','i','c'] ]
-                              `plural`     MaFCUL |< Un
-                           
-    `derives` otherwise ]
+    MaFCUL                    `adj`     {- <mam`Ud> -}         [ unwords [ ['h','a','v','i','n','g'], "a", ['g','a','s','t','r','i','c'], ['a','i','l','m','e','n','t'] ], ['d','y','s','p','e','p','t','i','c'] ] ]
 
 
 cluster_58  = cluster
@@ -952,15 +949,23 @@ cluster_60  = cluster
 
  |> "m ` z" <| [
 
-    FaCL                      `noun`    {- <ma`z> -}           [ ['g','o','a','t','s'] ],
+    FaCL                      `noun`    {- <ma`z> -}           [ ['g','o','a','t'] ]
+                              `plural`     FaCIL
+                              `plural`     HaFCuL
+                           
+    `derives` otherwise,
 
-    FaCaL                     `noun`    {- <ma`az> -}          [ ['g','o','a','t','s'] ],
+    FaCaL                     `noun`    {- <ma`az> -}          [ ['g','o','a','t'] ]
+                              `plural`     FaCIL
+                              `plural`     HaFCuL
+                           
+    `derives` otherwise,
 
     FACiL                     `noun`    {- <mA`iz> -}          [ ['g','o','a','t'], unwords [ ['b','i','l','l','y'], ['g','o','a','t'] ] ]
-                              `plural`     FaCIL
                               `plural`     FawACiL,
 
-    FACiL |< aT               `noun`    {- <mA`izaT> -}        [ unwords [ ['n','a','n','n','y'], ['g','o','a','t'] ] ],
+    FACiL |< aT               `noun`    {- <mA`izaT> -}        [ unwords [ ['n','a','n','n','y'], ['g','o','a','t'] ] ]
+                              `plural`     FACiL |< At,
 
     FaCCAL                    `noun`    {- <ma``Az> -}         [ ['g','o','a','t','h','e','r','d'] ]
                               `plural`     FaCCAL |< Un
