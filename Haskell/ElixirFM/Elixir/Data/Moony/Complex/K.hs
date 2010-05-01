@@ -251,9 +251,9 @@ cluster_13  = cluster
 
     FaCL                      `noun`    {- <fawq> -}           [ ['t','o','p'], unwords [ ['u','p','p','e','r'], ['p','a','r','t'] ] ],
 
-    FaCL |< Iy                `adj`     {- <fawqIy> -}         [ ['u','p','p','e','r'], unwords [ ['s','u','p','e','r'], "-" ] ],
+    FaCL |< Iy                `adj`     {- <fawqIy> -}         [ ['u','p','p','e','r'], unwords [ ['s','u','p','e','r'], "-" ], unwords [ ['u','l','t','r','a'], "-" ] ],
 
-    FaCLAn |< Iy              `adj`     {- <fawqAnIy> -}       [ ['u','p','p','e','r'], unwords [ ['s','u','p','e','r'], "-" ] ],
+    FaCLAn |< Iy              `adj`     {- <fawqAnIy> -}       [ ['u','p','p','e','r'], unwords [ ['s','u','p','e','r'], "-" ], unwords [ ['u','l','t','r','a'], "-" ] ],
 
     FAL |< aT                 `noun`    {- <fAqaT> -}          [ ['p','o','v','e','r','t','y'], ['i','n','d','i','g','e','n','c','e'] ],
 

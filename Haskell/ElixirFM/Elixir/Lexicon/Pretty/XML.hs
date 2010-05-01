@@ -31,8 +31,8 @@ import Elixir.Pretty
 
 instance Pretty (Wrap Nest) => Pretty [Lexicon] where
 
-    pretty xs = text "<?xml version=\"1.0\" encoding=\"utf-8\"?>"
-                <$$> empty <$$>
+    pretty xs = text "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+                <$$> -- empty <$$>
     	        (element "ElixirFM" [("xmlns", "http://ufal.mff.cuni.cz/pdt/pml/")] .
                     (element "head" [] (elempty "schema" [("href", "elixir.schema.xml")]) <$$>) .
                     (element "meta" [] (elemtxt "revision" [] (text ("$" ++ "Revision: " ++ "$")) <$$>
@@ -49,7 +49,7 @@ elemtxt x y c = text ("<" ++ x) <> attrs y <> text ">"
                 <> c <>
                 text ("</" ++ x ++ ">")
 
-elempty x y   = text ("<" ++ x) <> attrs y <> text " />"
+elempty x y   = text ("<" ++ x) <> attrs y <> text "/>"
 
 elemesp x []  = elempty x []
 elemesp x y   = element x [] (vcat y)
