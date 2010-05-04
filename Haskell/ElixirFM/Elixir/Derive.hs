@@ -162,7 +162,7 @@ lookupForm r e = case entity e of
 
         Verb fs _ _ _ _ _ _ -> fs
 
-        Noun _ _ _ _ _      -> [ f | f <- [I ..], or [ any (morphs e ==) [morph b, morph c, d] | (_, b, c, d) <- nounStems f r ] ]
+        Noun _ _ _ _        -> [ f | f <- [I ..], or [ any (morphs e ==) [morph b, morph c, d] | (_, b, c, d) <- nounStems f r ] ]
 
         Adj  _ _ _          -> [ f | f <- [I ..], or [ any (morphs e ==) [morph b, morph c]    | (_, b, c, _) <- nounStems f r ] ]
 

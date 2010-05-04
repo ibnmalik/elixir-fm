@@ -77,7 +77,7 @@ instance Pretty (String, MorphoLists a) => Pretty [(String, MorphoLists a)] wher
 concise :: (Show (Entity a), Show [Morphs a], Show [a]) => Entity a -> String
 
 concise (Verb _ p i c _ _ _) = unwords ["Verb", show p, show i, show c]
-concise (Noun l _ _ _ _)     = unwords ["Noun" , show l]
+concise (Noun l _ _ _)       = unwords ["Noun" , show l]
 concise (Adj  l f _)         = unwords ["Adj", show l, show f]
 concise x                    = show x
 

@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Lexicon.System
--- Copyright   :  Otakar Smrz 2005-2009
+-- Copyright   :  Otakar Smrz 2005-2010
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -231,7 +231,7 @@ domain = fst . limits
 type Plural a = Morphs a -- Either (Root, Morphs a) (Morphs a)
 
 data Entity a = Verb [Form]     [a] [a] [a]    (Maybe Tense)  (Maybe Voice) [Morphs a]
-              | Noun [Plural a] (Maybe Gender) (Maybe Number) (Maybe Bool)  (Maybe Except)
+              | Noun [Plural a] (Maybe Except) (Maybe Gender) (Maybe Bool)  
               | Adj  [Plural a] [Morphs a]     (Maybe Number)
               | Pron
               | Num  [Plural a] [Morphs a]
@@ -253,8 +253,8 @@ isVerb, isNoun, isAdj, isPron, isNum, isAdv, isPrep, isConj, isPart, isIntj :: E
 isVerb (Verb _ _ _ _ _ _ _) = True
 isVerb _                    = False
 
-isNoun (Noun _ _ _ _ _) = True
-isNoun _                = False
+isNoun (Noun _ _ _ _) = True
+isNoun _              = False
 
 isAdj (Adj _ _ _) = True
 isAdj _           = False
@@ -325,7 +325,7 @@ verb m = Entry (morph m) (Verb forms [] [] [] justT justV []) (TagsVerb [], [])
 
 noun, adj, pron, num, adv, prep, conj, part, intj :: Morphing a b => a -> Reflex -> Entry b
 
-noun h = Entry m (Noun [] Nothing Nothing Nothing Nothing) (TagsNoun d, [])
+noun h = Entry m (Noun [] Nothing Nothing Nothing) (TagsNoun d, [])
 
     where Morphs t p s = morph h
           (m, d) = case s of
@@ -403,35 +403,34 @@ entries :: Entry a -> [Entry a]
 
 entries e = case entity e of
 
-                Noun _ _ _ (Just _) _ -> [e, e { morphs = morphs e |< aT,
-                                                 entity = Noun [morphs e |< At]
-                                                          Nothing Nothing
-                                                          Nothing Nothing }]
-                _                     -> [e]
+                Noun _ _ _ (Just _) -> [e, e { morphs = morphs e |< aT,
+                                               entity = Noun [morphs e |< At]
+                                                        Nothing Nothing Nothing }]
+                _                   -> [e]
 
 
 derives :: Entry a -> Bool -> Entry a
 
 derives x y = case entity x of
 
-                Noun z g n _ e -> x { entity = Noun z g n (Just y) e }
-                _              -> x
+                Noun z e g _ -> x { entity = Noun z e g (Just y) }
+                _            -> x
 
 
 excepts :: Entry a -> Except -> Entry a
 
 excepts x y = case entity x of
 
-                Noun z g n d _ -> x { entity = Noun z g n d (Just y) }
-                _              -> x
+                Noun z _ g d -> x { entity = Noun z (Just y) g d }
+                _            -> x
 
 
 except :: Entry a -> Maybe Except
 
 except x = case entity x of
 
-                Noun _ _ _ _ e -> e
-                _              -> Nothing
+                Noun _ e _ _ -> e
+                _            -> Nothing
 
 
 limited :: Entry a -> String -> Entry a
@@ -455,10 +454,10 @@ plural :: Morphing a b => Entry b -> a -> Entry b
 
 plural x y = case entity x of
 
-                Noun z g n d e -> x { entity = Noun (morph y : z) g n d e }
-                Adj  z f n     -> x { entity = Adj  (morph y : z) f n }
-                Num  z f       -> x { entity = Num  (morph y : z) f }
-                _              -> x
+                Noun z e g d -> x { entity = Noun (morph y : z) e g d }
+                Adj  z f n   -> x { entity = Adj  (morph y : z) f n }
+                Num  z f     -> x { entity = Num  (morph y : z) f }
+                _            -> x
 
 
 infixl 6 `imperf`, `pfirst`, `ithird`, `second`

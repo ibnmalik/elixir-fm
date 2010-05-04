@@ -1132,13 +1132,13 @@ inflectNoun (Lexeme r e) (NounS n c s) = (map (inRules r c s x) . inEntry n) e
     where x = except e
 
 
-inEntry Plural e = case entity e of Noun l _ _ _ _ -> l
-                                    Num  l _       -> l
+inEntry Plural e = case entity e of Noun l _ _ _ -> l
+                                    Num  l _     -> l
 
-inEntry Dual   e = case entity e of Noun l _ _ _ _ | null l    -> []
-                                                   | otherwise -> [morphs e |< An]
-                                    Num  l _       | null l    -> []
-                                                   | otherwise -> [morphs e |< An]
+inEntry Dual   e = case entity e of Noun l _ _ _ | null l    -> []
+                                                 | otherwise -> [morphs e |< An]
+                                    Num  l _     | null l    -> []
+                                                 | otherwise -> [morphs e |< An]
 
 inEntry _ e = [morphs e]
 

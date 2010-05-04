@@ -146,19 +146,17 @@ instance Show a => Pretty (Entity a) where
                                 ++
             					eraseEmpty   m [ elemtxt "masdar" [] $ (pretty . map show) m ]
 
-                            Noun l g n d e      ->  elemesp "Noun" $
+                            Noun l e g d        ->  elemesp "Noun" $
 
                                 eraseEmpty   l [ elemtxt "plural" [] $ (pretty . map show) l ]
                                 ++
-                                eraseNothing g [ elemtxt "gender" [] $ pretty g ]
+                                eraseNothing e [ elemtxt "except" [] $ pretty e ]
                                 ++
-                                eraseNothing n [ elemtxt "number" [] $ pretty n ]
+                                eraseNothing g [ elemtxt "gender" [] $ pretty g ]
                                 ++
                                 eraseNothing d [ elemtxt "derive" [] $ case d of
 
                                                             Just _          ->  text "------F---" ]
-                                ++
-                                eraseNothing e [ elemtxt "except" [] $ pretty e ]
 
                             Adj  l f n          ->  elemesp "Adj" $
 
