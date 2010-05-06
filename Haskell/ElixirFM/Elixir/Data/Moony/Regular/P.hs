@@ -136,7 +136,8 @@ cluster_9   = cluster
     MaFCiL                    `noun`    {- <maq.sid> -}        [ ['p','u','r','p','o','s','e'], ['i','n','t','e','n','t'], ['i','n','t','e','n','t','i','o','n','s'], ['g','o','a','l','s'] ]
                               `plural`     MaFACiL,
 
-    MaFCiL                    `noun`    {- <maq.sid> -}        [ ['d','e','s','t','i','n','a','t','i','o','n'], ['g','o','a','l'] ],
+    MaFCiL                    `noun`    {- <maq.sid> -}        [ ['d','e','s','t','i','n','a','t','i','o','n'], ['g','o','a','l'] ]
+                              `plural`     MaFACiL,
 
     MaFACiL                   `noun`    {- <maqA.sid> -}       [ ['M','a','q','a','s','i','d'] ],
 
@@ -774,7 +775,10 @@ cluster_26  = cluster
 
     FaCIL |< aT               `noun`    {- <qa.tIfaT> -}       [ ['p','a','s','t','r','y'] ],
 
-    FaCA'iL                   `noun`    {- <qa.tA'if> -}       [ unwords [ ['q','a','t','a','y','i','f'], "(", ['p','a','n','c','a','k','e','s'], ['s','t','u','f','f','e','d'], ['w','i','t','h'], ['n','u','t','s'], ['a','n','d'], ['d','r','e','n','c','h','e','d'], ['i','n'], ['s','y','r','u','p'], ")" ] ],
+    FaCA'iL                   `noun`    {- <qa.tA'if> -}       [ unwords [ ['q','a','t','a','y','i','f'], "(", ['p','a','n','c','a','k','e','s'], ['s','t','u','f','f','e','d'], ['w','i','t','h'], ['n','u','t','s'], ['a','n','d'], ['d','r','e','n','c','h','e','d'], ['i','n'], ['s','y','r','u','p'], ")" ] ]
+                              `plural`     FaCA'iL
+                           
+    `limited` "-------P--",
 
     MiFCaL                    `noun`    {- <miq.taf> -}        [ unwords [ ['f','r','u','i','t'], ['p','i','c','k','e','r'] ] ]
                               `plural`     MaFACiL,
@@ -958,10 +962,12 @@ cluster_33  = cluster
 
     MuFCaL                    `adj`     {- <muq`ad> -}         [ ['s','t','o','p','p','e','d'], ['i','n','t','e','r','r','u','p','t','e','d'] ],
 
-    MutaFACiL                 `noun`    {- <mutaqA`id> -}      [ ['r','e','t','i','r','e','d'], ['p','e','n','s','i','o','n','e','r'] ]
+    MutaFACiL                 `noun`    {- <mutaqA`id> -}      [ ['p','e','n','s','i','o','n','e','r'] ]
                               `plural`     MutaFACiL |< Un
                            
-    `derives` otherwise ]
+    `derives` otherwise,
+
+    MutaFACiL                 `adj`     {- <mutaqA`id> -}      [ ['r','e','t','i','r','e','d'] ] ]
 
 
 cluster_34  = cluster

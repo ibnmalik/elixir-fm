@@ -136,7 +136,10 @@ cluster_8   = cluster
 
     FaCAL |< aT               `noun`    {- <sa_hAfaT> -}       [ ['s','t','u','p','i','d','i','t','y'], ['f','o','l','l','y'] ],
 
-    FaCA'iL                   `noun`    {- <sa_hA'if> -}       [ unwords [ ['s','i','l','l','y'], ['t','h','i','n','g','s'] ], ['s','t','u','p','i','d','i','t','i','e','s'] ] ]
+    FaCA'iL                   `noun`    {- <sa_hA'if> -}       [ unwords [ ['s','i','l','l','y'], ['t','h','i','n','g','s'] ], ['s','t','u','p','i','d','i','t','i','e','s'] ]
+                              `plural`     FaCA'iL
+                           
+    `limited` "-------P--" ]
 
 
 cluster_9   = cluster

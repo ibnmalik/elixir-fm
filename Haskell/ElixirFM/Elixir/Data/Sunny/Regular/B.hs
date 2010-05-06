@@ -548,7 +548,10 @@ cluster_46  = cluster
 
     FACiL                     `adj`     {- <_tAqib> -}         [ ['p','e','n','e','t','r','a','t','i','n','g'], ['p','i','e','r','c','i','n','g'] ],
 
-    FiCAL |< At               `noun`    {- <_tiqAbAt> -}       [ ['d','r','i','l','l','s'], ['b','o','r','e','r','s'] ] ]
+    FiCAL |< At               `noun`    {- <_tiqAbAt> -}       [ ['b','o','r','e','r','s'], ['d','r','i','l','l','s'] ]
+                              `plural`     FiCAL |< At
+                           
+    `limited` "-------P--" ]
 
 
 cluster_47  = cluster
@@ -691,7 +694,10 @@ cluster_52  = cluster
 
     FACiL                     `adj`     {- <_tAli_t> -}        [ ['t','h','i','r','d'] ],
 
-    FaCAL |< In |< At         `noun`    {- <_talA_tInAt> -}    [ ['t','h','i','r','t','i','e','s'] ],
+    FaCAL |< In |< At         `noun`    {- <_talA_tInAt> -}    [ ['t','h','i','r','t','i','e','s'] ]
+                              `plural`     FaCAL |< In |< At
+                           
+    `limited` "-------P--",
 
     FaCAL |< In |< Iy         `adj`     {- <_talA_tInIy> -}    [ ['t','h','i','r','t','i','e','s'] ],
 
@@ -708,7 +714,10 @@ cluster_52  = cluster
 
     MuFaCCaL                  `adj`     {- <mu_talla_t> -}     [ ['t','r','i','a','n','g','l','e'], ['t','r','i','p','l','e'] ],
 
-    MuFaCCaL |< At            `noun`    {- <mu_talla_tAt> -}   [ ['t','r','i','g','o','n','o','m','e','t','r','y'] ] ]
+    MuFaCCaL |< At            `noun`    {- <mu_talla_tAt> -}   [ ['t','r','i','g','o','n','o','m','e','t','r','y'] ]
+                              `plural`     MuFaCCaL |< At
+                           
+    `limited` "-------P--" ]
 
 
 cluster_53  = cluster
@@ -870,10 +879,14 @@ cluster_57  = cluster
 
     FACiL                     `adj`     {- <_tAmin> -}         [ ['e','i','g','h','t','h'] ],
 
-    FaCAL |< In |< At         `noun`    {- <_tamAnInAt> -}     [ ['e','i','g','h','t','i','e','s'] ],
+    FaCAL |< In |< At         `noun`    {- <_tamAnInAt> -}     [ ['e','i','g','h','t','i','e','s'] ]
+                              `plural`     FaCAL |< In |< At
+                           
+    `limited` "-------P--",
 
-    TaFCIL                    `noun`    {- <ta_tmIn> -}        [ ['o','c','t','a','g','o','n','a','l'], ['e','i','g','h','t','f','o','l','d'] ]
-                              `plural`     TaFCIL |< At ]
+    FaCAL |< In |< Iy         `adj`     {- <_tamAnInIy> -}     [ ['e','i','g','h','t','i','e','s'] ],
+
+    MuFaCCaL                  `adj`     {- <mu_tamman> -}      [ ['o','c','t','a','g','o','n','a','l'], ['e','i','g','h','t','f','o','l','d'] ] ]
 
 
 cluster_58  = cluster
@@ -1173,7 +1186,10 @@ cluster_75  = cluster
 
     FACiL                     `adj`     {- <dA^gin> -}         [ ['d','a','r','k'], ['g','l','o','o','m','y'] ],
 
-    FawACiL                   `noun`    {- <dawA^gin> -}       [ ['p','o','u','l','t','r','y'] ],
+    FawACiL                   `noun`    {- <dawA^gin> -}       [ ['p','o','u','l','t','r','y'] ]
+                              `plural`     FawACiL
+                           
+    `limited` "-------P--",
 
     MuFaCCaL                  `adj`     {- <muda^g^gan> -}     [ ['d','o','m','e','s','t','i','c','a','t','e','d'] ],
 

@@ -1282,7 +1282,7 @@ cluster_66  = cluster
 
     MutaFACiL                 `adj`     {- <mutahAwid> -}      [ ['m','o','d','e','r','a','t','e'] ],
 
-    FuCayL |< Iy              `adj`     {- <huwaydIy> -}       [ ['H','u','w','e','i','d','i'], ['H','o','w','e','i','d','i'] ] ]
+    FuCayL |< Iy              `noun`    {- <huwaydIy> -}       [ ['H','u','w','e','i','d','i'], ['H','o','w','e','i','d','i'] ] ]
 
 
 cluster_67  = cluster
@@ -1457,7 +1457,9 @@ cluster_73  = cluster
                               `plural`     TaFCIL |< At,
 
     TaFCIL |< At              `noun`    {- <tahwImAt> -}       [ unwords [ ['t','a','l','l'], ['t','a','l','e','s'] ] ]
-                              `plural`     TaFCIL |< At ]
+                              `plural`     TaFCIL |< At
+                           
+    `limited` "-------P--" ]
 
 
 cluster_74  = cluster

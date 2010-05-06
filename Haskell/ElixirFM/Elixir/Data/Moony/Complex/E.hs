@@ -1209,7 +1209,7 @@ cluster_85  = cluster
 
     FuCL                      `noun`    {- <budd> -}           [ ['e','s','c','a','p','e'], ['a','v','o','i','d','i','n','g'] ],
 
-    HaFACIL                   `noun`    {- <'abAdId> -}        [ ['s','c','a','t','t','e','r','e','d'] ],
+    HaFACIL                   `adj`     {- <'abAdId> -}        [ ['s','c','a','t','t','e','r','e','d'] ],
 
     TaFCIL                    `noun`    {- <tabdId> -}         [ ['d','e','f','u','s','i','n','g'], ['s','q','u','a','n','d','e','r','i','n','g'], ['d','i','s','p','e','r','s','a','l'] ]
                               `plural`     TaFCIL |< At,
@@ -1259,7 +1259,10 @@ cluster_86  = cluster
 
     FACI |< aT                `noun`    {- <bAdiyaT> -}        [ ['d','e','s','e','r','t'] ],
 
-    FawACI                    `noun`    {- <bawAdI> -}         [ ['n','o','m','a','d','s'], ['B','e','d','o','u','i','n','s'] ],
+    FawACI                    `noun`    {- <bawAdI> -}         [ ['n','o','m','a','d','s'], ['B','e','d','o','u','i','n','s'] ]
+                              `plural`     FawACI
+                           
+    `limited` "-------P--",
 
     MuFCI                     `adj`     {- <mubdI> -}          [ ['e','x','p','r','e','s','s','i','n','g'], ['s','h','o','w','i','n','g'], ['d','e','m','o','n','s','t','r','a','t','i','n','g'] ] ]
 

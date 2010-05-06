@@ -1186,7 +1186,12 @@ cluster_82  = cluster
     MuFACY |< aT              `noun`    {- <mudA^gAT> -}       [ ['h','y','p','o','c','r','i','s','y'], ['f','l','a','t','t','e','r','y'] ]
                               `plural`     MuFACaL |< At,
 
-    FACI                      `adj`     {- <dA^gI> -}          [ ['g','l','o','o','m','y'], ['d','a','r','k'] ] ]
+    FACI                      `adj`     {- <dA^gI> -}          [ ['g','l','o','o','m','y'], ['d','a','r','k'] ],
+
+    FayACI                    `noun`    {- <dayA^gI> -}        [ ['d','a','r','k','n','e','s','s'] ]
+                              `plural`     FayACI
+                           
+    `limited` "-------P--" ]
 
 
 cluster_83  = cluster

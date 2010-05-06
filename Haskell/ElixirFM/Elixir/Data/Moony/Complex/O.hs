@@ -445,7 +445,10 @@ cluster_24  = cluster
 
     HICAL |< Iy               `adj`     {- <'I^gAbIy> -}       [ ['p','o','s','i','t','i','v','e'], ['a','f','f','i','r','m','a','t','i','v','e'] ],
 
-    HICAL |< Iy |< At         `noun`    {- <'I^gAbIyAt> -}     [ unwords [ ['p','o','s','i','t','i','v','e'], ['a','s','p','e','c','t','s'] ], unwords [ ['g','o','o','d'], ['p','o','i','n','t','s'] ] ],
+    HICAL |< Iy |< At         `noun`    {- <'I^gAbIyAt> -}     [ unwords [ ['p','o','s','i','t','i','v','e'], ['a','s','p','e','c','t','s'] ], unwords [ ['g','o','o','d'], ['p','o','i','n','t','s'] ] ]
+                              `plural`     HICAL |< Iy |< At
+                           
+    `limited` "-------P--",
 
     HICAL |< Iy |< aT         `noun`    {- <'I^gAbIyaT> -}     [ unwords [ ['p','o','s','i','t','i','v','e'], ['a','t','t','i','t','u','d','e'] ], unwords [ ['p','o','s','i','t','i','v','e'], ['n','a','t','u','r','e'] ] ],
 
@@ -1273,7 +1276,9 @@ cluster_56  = cluster
     MaFCUL                    `adj`     {- <mawrU_t> -}        [ ['i','n','h','e','r','i','t','e','d'], ['h','e','r','e','d','i','t','a','r','y'] ],
 
     MaFCUL |< At              `noun`    {- <mawrU_tAt> -}      [ ['l','e','g','a','c','y'], unwords [ ['c','u','l','t','u','r','a','l'], ['l','e','g','a','c','y'] ] ]
-                              `plural`     MaFCUL |< At,
+                              `plural`     MaFCUL |< At
+                           
+    `limited` "-------P--",
 
     MuFaCCiL                  `noun`    {- <muwarri_t> -}      [ ['t','e','s','t','a','t','o','r'], ['l','e','g','a','t','o','r'] ]
                               `plural`     MuFaCCiL |< Un
@@ -1336,7 +1341,9 @@ cluster_57  = cluster
     FACiL                     `adj`     {- <wArid> -}          [ ['a','p','p','e','a','r','i','n','g'], ['m','e','n','t','i','o','n','e','d'] ],
 
     FACiL |< At               `noun`    {- <wAridAt> -}        [ ['i','m','p','o','r','t','s'], ['r','e','t','u','r','n','s'] ]
-                              `plural`     FACiL |< At,
+                              `plural`     FACiL |< At
+                           
+    `limited` "-------P--",
 
     MuFaCCiL                  `noun`    {- <muwarrid> -}       [ ['s','u','p','p','l','i','e','r'], ['p','u','r','v','e','y','o','r'] ]
                               `plural`     MuFaCCiL |< Un

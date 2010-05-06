@@ -1406,7 +1406,10 @@ cluster_78  = cluster
 
     MaFIL                     `adj`     {- <mabI`> -}          [ ['s','o','l','d'] ],
 
-    MaFIL |< At               `noun`    {- <mabI`At> -}        [ ['s','a','l','e','s'] ],
+    MaFIL |< At               `noun`    {- <mabI`At> -}        [ ['s','a','l','e','s'] ]
+                              `plural`     MaFIL |< At
+                           
+    `limited` "-------P--",
 
     MuFAL                     `adj`     {- <mubA`> -}          [ ['s','o','l','d'] ],
 

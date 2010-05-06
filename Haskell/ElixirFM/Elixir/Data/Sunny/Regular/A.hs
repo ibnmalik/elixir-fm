@@ -82,14 +82,11 @@ cluster_5   = cluster
 
     FaCiL |< aT               `noun`    {- <tabi`aT> -}        [ ['c','o','n','s','e','q','u','e','n','c','e'], ['r','e','s','p','o','n','s','i','b','i','l','i','t','y'] ],
 
-    FaCIL                     `noun`    {- <tabI`> -}          [ ['a','d','j','u','n','c','t'], ['p','a','r','t','i','s','a','n'] ]
-                              `plural`     FaCIL |< Un
-                           
-    `derives` otherwise,
+    FaCIL                     `adj`     {- <tabI`> -}          [ ['a','d','j','u','n','c','t'], ['a','t','t','a','c','h','e','d'], ['f','o','l','l','o','w','i','n','g'] ]
+                              `plural`     FiCAL,
 
-    FiCAL                     `noun`    {- <tibA`> -}          [ ['a','d','j','u','n','c','t'] ],
-
-    FaCA'iL                   `noun`    {- <tabA'i`> -}        [ ['p','a','r','t','i','s','a','n','s'] ],
+    FaCIL                     `noun`    {- <tabI`> -}          [ ['f','o','l','l','o','w','e','r'], ['a','d','h','e','r','e','n','t'], ['p','a','r','t','i','s','a','n'] ]
+                              `plural`     FaCA'iL,
 
     FaCaL |< Iy |< aT         `noun`    {- <taba`IyaT> -}      [ ['s','u','b','o','r','d','i','n','a','t','i','o','n'], ['d','e','p','e','n','d','e','n','c','y'] ],
 
@@ -110,7 +107,10 @@ cluster_5   = cluster
 
     FACiL                     `adj`     {- <tAbi`> -}          [ ['s','u','b','o','r','d','i','n','a','t','e'], ['a','d','h','e','r','e','n','t'] ],
 
-    FawACiL                   `noun`    {- <tawAbi`> -}        [ ['d','e','p','e','n','d','e','n','c','i','e','s'], ['s','a','t','e','l','l','i','t','e','s'] ],
+    FawACiL                   `noun`    {- <tawAbi`> -}        [ ['d','e','p','e','n','d','e','n','c','i','e','s'], ['s','a','t','e','l','l','i','t','e','s'] ]
+                              `plural`     FawACiL
+                           
+    `limited` "-------P--",
 
     FACiL |< Iy               `noun`    {- <tAbi`Iy> -}        [ ['T','a','b','i','e'], ['T','a','b','i','i'] ],
 
@@ -809,9 +809,12 @@ cluster_59  = cluster
 
     FACiL                     `adj`     {- <tAsi`> -}          [ ['n','i','n','t','h'] ],
 
-    FiCL |< In |< At          `noun`    {- <tis`InAt> -}       [ ['n','i','n','e','t','i','e','s'] ],
+    FiCL |< In |< At          `noun`    {- <tis`InAt> -}       [ ['n','i','n','e','t','i','e','s'] ]
+                              `plural`     FiCL |< In |< At
+                           
+    `limited` "-------P--",
 
-    FiCL |< In |< Iy |< At    `noun`    {- <tis`InIyAt> -}     [ ['n','i','n','e','t','i','e','s'] ] ]
+    FiCL |< In |< Iy          `adj`     {- <tis`InIy> -}       [ ['n','i','n','e','t','i','e','s'] ] ]
 
 
 cluster_60  = cluster
@@ -826,7 +829,10 @@ cluster_60  = cluster
                            
     `excepts` Diptote,
 
-    KaRADIS                   `noun`    {- <ta^sArIn> -}       [ ['a','u','t','u','m','n','s'], unwords [ ['f','a','l','l'], ['s','e','a','s','o','n','s'] ] ] ]
+    KaRADIS                   `noun`    {- <ta^sArIn> -}       [ ['a','u','t','u','m','n','s'], unwords [ ['f','a','l','l'], ['s','e','a','s','o','n','s'] ] ]
+                              `plural`     KaRADIS
+                           
+    `limited` "-------P--" ]
 
 
 cluster_61  = cluster
@@ -845,7 +851,10 @@ cluster_61  = cluster
 
     FaCLAn                    `adj`     {- <ta`bAn> -}         [ ['t','i','r','e','d'] ],
 
-    MaFACiL                   `noun`    {- <matA`ib> -}        [ ['t','r','o','u','b','l','e','s'], ['c','o','m','p','l','a','i','n','t','s'] ],
+    MaFACiL                   `noun`    {- <matA`ib> -}        [ ['t','r','o','u','b','l','e','s'], ['c','o','m','p','l','a','i','n','t','s'] ]
+                              `plural`     MaFACiL
+                           
+    `limited` "-------P--",
 
     MuFCiL                    `adj`     {- <mut`ib> -}         [ ['t','r','o','u','b','l','e','s','o','m','e'], ['t','i','r','e','s','o','m','e'] ],
 
@@ -1054,7 +1063,10 @@ cluster_79  = cluster
 
  |> "t l t l" <| [
 
-    KaRADIS                   `noun`    {- <talAtIl> -}        [ ['h','a','r','d','s','h','i','p','s'], ['a','d','v','e','r','s','i','t','i','e','s'] ] ]
+    KaRADIS                   `noun`    {- <talAtIl> -}        [ ['h','a','r','d','s','h','i','p','s'], ['a','d','v','e','r','s','i','t','i','e','s'] ]
+                              `plural`     KaRADIS
+                           
+    `limited` "-------P--" ]
 
 
 cluster_80  = cluster

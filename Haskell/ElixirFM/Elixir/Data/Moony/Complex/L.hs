@@ -941,7 +941,10 @@ cluster_52  = cluster
 
     FuCY |< Iy                `adj`     {- <kurawIy> -}        [ ['g','l','o','b','u','l','a','r'], ['s','p','h','e','r','i','c','a','l'] ],
 
-    FuCY |< Iy |< At          `noun`    {- <kurawIyAt> -}      [ ['c','o','c','c','i'], unwords [ ['s','p','h','e','r','i','c','a','l'], ['b','a','c','t','e','r','i','a'] ] ],
+    FuCY |< Iy |< At          `noun`    {- <kurawIyAt> -}      [ ['c','o','c','c','i'], unwords [ ['s','p','h','e','r','i','c','a','l'], ['b','a','c','t','e','r','i','a'] ] ]
+                              `plural`     FuCY |< Iy |< At
+                           
+    `limited` "-------P--",
 
     FuCY |< Iy |< aT          `noun`    {- <kurawIyaT> -}      [ ['s','p','h','e','r','i','c','i','t','y'], ['r','o','u','n','d','n','e','s','s'] ] ]
 
@@ -1178,9 +1181,8 @@ cluster_65  = cluster
 
     FaCAL                     `noun`    {- <kafA'> -}          [ ['e','q','u','a','l','i','t','y'], ['a','d','e','q','u','a','c','y'] ],
 
-    FaCAL |< aT               `noun`    {- <kafA'aT> -}        [ ['c','o','m','p','e','t','e','n','c','e'], ['s','u','i','t','a','b','i','l','i','t','y'], ['p','r','o','f','i','c','i','e','n','c','y'] ],
-
-    FaCAL |< At               `noun`    {- <kafA'At> -}        [ ['q','u','a','l','i','f','i','c','a','t','i','o','n','s'], ['c','a','p','a','b','i','l','i','t','i','e','s'] ],
+    FaCAL |< aT               `noun`    {- <kafA'aT> -}        [ ['c','o','m','p','e','t','e','n','c','e'], ['s','u','i','t','a','b','i','l','i','t','y'], ['p','r','o','f','i','c','i','e','n','c','y'], ['q','u','a','l','i','f','i','c','a','t','i','o','n'], ['c','a','p','a','b','i','l','i','t','y'] ]
+                              `plural`     FaCAL |< At,
 
     MuFACaL |< aT             `noun`    {- <mukAfa'aT> -}      [ ['c','o','m','p','e','n','s','a','t','i','o','n'], ['r','e','w','a','r','d'], ['r','e','m','u','n','e','r','a','t','i','o','n'] ]
                               `plural`     MuFACaL |< At,
@@ -1473,9 +1475,15 @@ cluster_79  = cluster
 
     _____ |< Iy               `adj`     {- <kImiyA'Iy> -}      [ ['c','h','e','m','i','c','a','l'] ],
 
-    _____ |< Iy |< At         `noun`    {- <kImiyA'IyAt> -}    [ ['c','h','e','m','i','c','a','l','s'] ],
+    _____ |< Iy |< At         `noun`    {- <kImiyA'IyAt> -}    [ ['c','h','e','m','i','c','a','l','s'] ]
+                              `plural`     _____ |< Iy |< At
+                           
+    `limited` "-------P--",
 
-    _____ |< Iy               `noun`    {- <kImiyA'Iy> -}      [ ['c','h','e','m','i','s','t'] ] ]
+    _____ |< Iy               `noun`    {- <kImiyA'Iy> -}      [ ['c','h','e','m','i','s','t'] ]
+                              `plural`     _____ |< Iy |< Un
+                           
+    `derives` otherwise ]
 
 
 cluster_80  = cluster

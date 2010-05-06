@@ -964,7 +964,7 @@ data PatternT =
         |   FayCuLAn
 
         |   FawACiL                     |   FawA'iL     |   FawACI      |   FawACL      |   FawA'I
-        |   FayACiL
+        |   FayACiL                                     |   FayACI
 
         |   FACUL                       |   FA'UL
         |   FayCUL

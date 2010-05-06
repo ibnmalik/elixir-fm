@@ -477,7 +477,9 @@ cluster_14  = cluster
     MaFCUL |< Iy |< aT        `noun`    {- <maw.dU`IyaT> -}    [ ['o','b','j','e','c','t','i','v','i','t','y'] ],
 
     MuFaCCaL |< At            `noun`    {- <muwa.d.da`At> -}   [ ['c','o','n','v','e','n','t','i','o','n','s'] ]
-                              `plural`     MuFaCCaL |< At,
+                              `plural`     MuFaCCaL |< At
+                           
+    `limited` "-------P--",
 
     MutaFACiL                 `adj`     {- <mutawA.di`> -}     [ ['h','u','m','b','l','e'], ['m','o','d','e','s','t'] ] ]
 

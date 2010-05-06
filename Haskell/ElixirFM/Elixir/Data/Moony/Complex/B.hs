@@ -46,7 +46,10 @@ cluster_3   = cluster
     KaRDuS                    `noun`    {- <'ar_hun> -}        [ ['a','r','c','h','o','n'] ]
                               `plural`     KaRADiS |< aT,
 
-    KaRADiS |< aT             `noun`    {- <'arA_hinaT> -}     [ ['n','o','t','a','b','l','e','s'] ] ]
+    KaRADiS |< aT             `noun`    {- <'arA_hinaT> -}     [ ['n','o','t','a','b','l','e','s'] ]
+                              `plural`     KaRADiS |< aT
+                           
+    `limited` "-------P--" ]
 
 
 cluster_4   = cluster
@@ -995,7 +998,10 @@ cluster_81  = cluster
     TaFCIL                    `noun`    {- <ta'sIs> -}         [ ['e','s','t','a','b','l','i','s','h','m','e','n','t'], ['c','r','e','a','t','i','o','n'], ['i','n','s','t','a','l','l','a','t','i','o','n'] ]
                               `plural`     TaFCIL |< At,
 
-    TaFCIL |< At              `noun`    {- <ta'sIsAt> -}       [ ['f','a','c','i','l','i','t','i','e','s'], ['i','n','s','t','i','t','u','t','i','o','n','s'] ],
+    TaFCIL |< At              `noun`    {- <ta'sIsAt> -}       [ ['f','a','c','i','l','i','t','i','e','s'], ['i','n','s','t','i','t','u','t','i','o','n','s'] ]
+                              `plural`     TaFCIL |< At
+                           
+    `limited` "-------P--",
 
     TaFCIL |< Iy              `adj`     {- <ta'sIsIy> -}       [ ['f','u','n','d','a','m','e','n','t','a','l'], ['f','o','u','n','d','i','n','g'], ['c','o','n','s','t','i','t','u','e','n','t'] ],
 
@@ -1031,7 +1037,10 @@ cluster_84  = cluster
 
  |> "' s .t n" <| [
 
-    KaRADIS                   `noun`    {- <'asA.tIn> -}       [ ['c','e','l','e','b','r','i','t','i','e','s'] ] ]
+    KaRADIS                   `noun`    {- <'asA.tIn> -}       [ ['c','e','l','e','b','r','i','t','i','e','s'] ]
+                              `plural`     KaRADIS
+                           
+    `limited` "-------P--" ]
 
 
 cluster_85  = cluster

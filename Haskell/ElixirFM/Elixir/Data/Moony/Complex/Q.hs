@@ -1104,7 +1104,10 @@ cluster_80  = cluster
 
     FaCL |< Iy                `adj`     {- <yawmIy> -}         [ ['d','a','i','l','y'], unwords [ ['p','e','r'], ['d','i','e','m'] ], unwords [ ['o','n'], "a", ['d','a','i','l','y'], ['b','a','s','i','s'] ] ],
 
-    FaCL |< Iy |< At          `noun`    {- <yawmIyAt> -}       [ ['d','i','a','r','y'], ['m','e','m','o','i','r','s'] ],
+    FaCL |< Iy |< At          `noun`    {- <yawmIyAt> -}       [ ['d','i','a','r','y'], ['m','e','m','o','i','r','s'] ]
+                              `plural`     FaCL |< Iy |< At
+                           
+    `limited` "-------P--",
 
     MuFACaL |< aT             `noun`    {- <muyAwamaT> -}      [ unwords [ ['d','a','y'], ['l','a','b','o','r'] ] ],
 

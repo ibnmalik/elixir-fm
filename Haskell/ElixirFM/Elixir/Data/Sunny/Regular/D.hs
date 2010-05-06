@@ -310,7 +310,10 @@ cluster_20  = cluster
 
     FuCL |< Iy                `adj`     {- <duhnIy> -}         [ ['o','i','l','y'], ['g','r','e','a','s','y'], ['f','a','t','t','y'] ],
 
-    FuCL |< Iy |< At          `noun`    {- <duhnIyAt> -}       [ ['f','a','t','s'], ['o','i','l','s'], unwords [ ['g','r','e','a','s','y'], ['s','u','b','s','t','a','n','c','e','s'] ] ],
+    FuCL |< Iy |< At          `noun`    {- <duhnIyAt> -}       [ ['f','a','t','s'], ['o','i','l','s'], unwords [ ['g','r','e','a','s','y'], ['s','u','b','s','t','a','n','c','e','s'] ] ]
+                              `plural`     FuCL |< Iy |< At
+                           
+    `limited` "-------P--",
 
     FaCLA'                    `noun`    {- <dahnA'> -}         [ ['D','a','h','n','a'] ],
 
@@ -329,7 +332,10 @@ cluster_20  = cluster
 
     MuFACaL |< aT             `noun`    {- <mudAhanaT> -}      [ ['h','y','p','o','c','r','i','s','y'], ['d','e','c','e','i','t'] ],
 
-    MuFACiL                   `adj`     {- <mudAhin> -}        [ ['h','y','p','o','c','r','i','t','e'], ['f','l','a','t','t','e','r','e','r'] ],
+    MuFACiL                   `noun`    {- <mudAhin> -}        [ ['h','y','p','o','c','r','i','t','e'], ['f','l','a','t','t','e','r','e','r'] ]
+                              `plural`     MuFACiL |< Un
+                           
+    `derives` otherwise,
 
     MuFCiL                    `adj`     {- <mudhin> -}         [ ['o','i','l','y'], ['f','a','t','t','y'], ['g','r','e','a','s','y'] ] ]
 

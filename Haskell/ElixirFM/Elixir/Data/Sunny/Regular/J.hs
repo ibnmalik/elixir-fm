@@ -709,7 +709,10 @@ cluster_50  = cluster
 
     HaFCaL                    `adj`     {- <'a^sbah> -}        [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['s','i','m','i','l','a','r'] ] ],
 
-    MaFACiL                   `noun`    {- <ma^sAbih> -}       [ ['s','i','m','i','l','a','r','i','t','i','e','s'] ],
+    MaFACiL                   `noun`    {- <ma^sAbih> -}       [ ['s','i','m','i','l','a','r','i','t','i','e','s'] ]
+                              `plural`     MaFACiL
+                           
+    `limited` "-------P--",
 
     TaFCIL                    `noun`    {- <ta^sbIh> -}        [ ['c','o','m','p','a','r','i','s','o','n'], ['r','e','s','e','m','b','l','a','n','c','e'] ]
                               `plural`     TaFACIL
@@ -961,7 +964,12 @@ cluster_62  = cluster
     FaCaL                     `verb`    {- <^sa.hat> -}        [ unwords [ ['a','s','k'], ['f','o','r'], ['a','l','m','s'] ] ]
                               `imperf`     FCaL,
 
-    FaCCAL |< aT              `noun`    {- <^sa.h.hAtaT> -}    [ ['S','h','a','h','h','a','t','a'] ] ]
+    FaCCAL |< aT              `noun`    {- <^sa.h.hAtaT> -}    [ ['S','h','a','h','h','a','t','a'] ],
+
+    FaCCAL                    `noun`    {- <^sa.h.hAt> -}      [ ['b','e','g','g','a','r'] ]
+                              `plural`     FaCCAL |< Un
+                           
+    `derives` otherwise ]
 
 
 cluster_63  = cluster
@@ -1601,7 +1609,10 @@ cluster_100 = cluster
 
     KaRDIS                    `noun`    {- <^sar^sIr> -}       [ unwords [ ['w','i','l','d'], ['d','u','c','k'] ] ],
 
-    KaRADiS                   `noun`    {- <^sarA^sir> -}      [ ['s','o','u','l'], ['s','e','l','f'] ] ]
+    KaRADiS                   `noun`    {- <^sarA^sir> -}      [ ['s','o','u','l'], ['s','e','l','f'] ]
+                              `plural`     KaRADiS
+                           
+    `limited` "-------P--" ]
 
 
 section = [ cluster_1,

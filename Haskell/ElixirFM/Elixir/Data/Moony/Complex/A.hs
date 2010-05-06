@@ -601,7 +601,10 @@ cluster_47  = cluster
 
     HACAL |< Iy               `adj`     {- <'A_tArIy> -}       [ ['a','r','c','h','e','o','l','o','g','i','c','a','l'], ['h','i','s','t','o','r','i','c','a','l'] ],
 
-    FaCaL |< Iy |< At         `noun`    {- <'a_tarIyAt> -}     [ ['a','n','t','i','q','u','i','t','i','e','s'], ['r','e','l','i','c','s'] ],
+    FaCaL |< Iy |< At         `noun`    {- <'a_tarIyAt> -}     [ ['a','n','t','i','q','u','i','t','i','e','s'], ['r','e','l','i','c','s'] ]
+                              `plural`     FaCaL |< Iy |< At
+                           
+    `limited` "-------P--",
 
     FaCiL                     `adj`     {- <'a_tir> -}         [ ['e','g','o','i','s','t','i','c'] ],
 
@@ -1083,7 +1086,9 @@ cluster_68  = cluster
     MutaFaCCiL                `adj`     {- <muta'a_h_hir> -}   [ ['l','a','t','e'], ['d','e','l','a','y','e','d'] ],
 
     MutaFaCCiL |< At          `noun`    {- <muta'a_h_hirAt> -} [ ['a','r','r','e','a','r','s'] ]
-                              `plural`     MutaFaCCiL |< At,
+                              `plural`     MutaFaCCiL |< At
+                           
+    `limited` "-------P--",
 
     FaCUL                     `noun`    {- <'a_hUr> -}         [ ['b','a','r','n'], ['s','t','a','b','l','e'] ] ]
 
@@ -1403,7 +1408,10 @@ cluster_86  = cluster
     FiCL                      `noun`    {- <'i_dn> -}          [ ['p','e','r','m','i','s','s','i','o','n'], ['a','u','t','h','o','r','i','z','a','t','i','o','n'] ]
                               `plural`     FuCUL,
 
-    FuCUL |< At               `noun`    {- <'u_dUnAt> -}       [ ['b','o','n','d'] ],
+    FuCUL |< At               `noun`    {- <'u_dUnAt> -}       [ ['b','o','n','d'] ]
+                              `plural`     FuCUL |< At
+                           
+    `limited` "-------P--",
 
     FACiL                     `noun`    {- <'A_din> -}         [ unwords [ ['d','o','o','r'], "-", ['k','e','e','p','e','r'] ], ['p','o','r','t','e','r'] ]
                               `plural`     FACiL |< Un

@@ -426,8 +426,10 @@ cluster_24  = cluster
     TaFACuL                   `noun`    {- <takAbur> -}        [ ['a','r','r','o','g','a','n','c','e'] ]
                               `plural`     TaFACuL |< At,
 
-    MuFaCCiL                  `noun`    {- <mukabbir> -}       [ ['a','m','p','l','i','f','i','e','r'], ['m','a','g','n','i','f','y','i','n','g'] ]
+    MuFaCCiL                  `noun`    {- <mukabbir> -}       [ ['a','m','p','l','i','f','i','e','r'] ]
                               `plural`     MuFaCCiL |< At,
+
+    MuFaCCiL                  `adj`     {- <mukabbir> -}       [ ['m','a','g','n','i','f','y','i','n','g'] ],
 
     MuFaCCaL                  `adj`     {- <mukabbar> -}       [ ['e','n','l','a','r','g','e','d'], ['m','a','g','n','i','f','i','e','d'] ],
 
@@ -506,7 +508,10 @@ cluster_27  = cluster
 
     MaFCUL                    `adj`     {- <makbUs> -}         [ ['r','a','i','d','e','d'], ['a','t','t','a','c','k','e','d'] ],
 
-    MaFCUL |< At              `noun`    {- <makbUsAt> -}       [ unwords [ ['c','a','n','n','e','d'], ['g','o','o','d','s'] ], ['p','r','e','s','e','r','v','e','s'] ] ]
+    MaFCUL |< At              `noun`    {- <makbUsAt> -}       [ unwords [ ['c','a','n','n','e','d'], ['g','o','o','d','s'] ], ['p','r','e','s','e','r','v','e','s'] ]
+                              `plural`     MaFCUL |< At
+                           
+    `limited` "-------P--" ]
 
 
 cluster_28  = cluster
@@ -1670,7 +1675,10 @@ cluster_94  = cluster
 
  |> "k r .t" <| [
 
-    FaCACiL |< Iy             `noun`    {- <karAri.tIy> -}     [ ['c','a','r','r','i','e','r'], ['d','r','a','y','m','a','n'] ] ]
+    FaCACiL |< Iy             `noun`    {- <karAri.tIy> -}     [ ['c','a','r','r','i','e','r'], ['d','r','a','y','m','a','n'] ]
+                              `plural`     FaCACiL |< Iy |< Un
+                           
+    `derives` otherwise ]
 
 
 cluster_95  = cluster

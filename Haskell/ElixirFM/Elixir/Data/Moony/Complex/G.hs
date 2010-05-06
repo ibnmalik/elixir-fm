@@ -109,7 +109,10 @@ cluster_4   = cluster
 
     HaFCY                     `verb`    {- <'a^grY> -}         [ ['c','o','n','d','u','c','t'], unwords [ ['c','a','r','r','y'], ['o','u','t'] ], ['p','e','r','f','o','r','m'] ],
 
-    "mA" >>| FaCY |< At       `noun`    {- <mA^garayAt> -}     [ ['e','v','e','n','t','s'] ],
+    "mA" >>| FaCY |< At       `noun`    {- <mA^garayAt> -}     [ ['e','v','e','n','t','s'] ]
+                              `plural`     "mA" >>| FaCY |< At
+                           
+    `limited` "-------P--",
 
     FaCL                      `noun`    {- <^gary> -}          [ ['c','o','u','r','s','e'] ],
 
@@ -513,7 +516,10 @@ cluster_22  = cluster
 
     FaCA'                     `noun`    {- <^galA'> -}         [ ['c','l','a','r','i','f','i','c','a','t','i','o','n'], ['w','i','t','h','d','r','a','w','a','l'] ],
 
-    MaFACI                    `noun`    {- <ma^gAlI> -}        [ ['m','a','n','i','f','e','s','t','a','t','i','o','n','s'] ],
+    MaFACI                    `noun`    {- <ma^gAlI> -}        [ ['m','a','n','i','f','e','s','t','a','t','i','o','n','s'] ]
+                              `plural`     MaFACI
+                           
+    `limited` "-------P--",
 
     TaFCI |< aT               `noun`    {- <ta^gliyaT> -}      [ ['c','l','a','r','i','f','i','c','a','t','i','o','n'], ['r','e','v','e','l','a','t','i','o','n'] ],
 
@@ -627,7 +633,10 @@ cluster_27  = cluster
     FuCayL |< aT              `noun`    {- <^gunaynaT> -}      [ ['g','a','r','d','e','n'] ]
                               `plural`     FaCA'iL,
 
-    FaCA'iL |< Iy             `adj`     {- <^ganA'inIy> -}     [ ['g','a','r','d','e','n','e','r'] ],
+    FaCA'iL |< Iy             `noun`    {- <^ganA'inIy> -}     [ ['g','a','r','d','e','n','e','r'] ]
+                              `plural`     FaCA'iL |< Iy |< Un
+                           
+    `derives` otherwise,
 
     FiCL |< aT                `noun`    {- <^ginnaT> -}        [ ['m','a','n','i','a'], ['i','n','s','a','n','i','t','y'] ],
 
@@ -1791,10 +1800,9 @@ cluster_80  = cluster
 
     FaCL                      `noun`    {- <.harr> -}          [ ['w','a','r','m','t','h'], ['h','e','a','t'] ],
 
-    FuCL                      `adj`     {- <.hurr> -}          [ ['f','r','e','e'], ['i','n','d','e','p','e','n','d','e','n','t'], ['l','i','b','e','r','a','l'] ]
-                              `plural`     HaFCAL,
-
-    FaCA'iL                   `noun`    {- <.harA'ir> -}       [ ['f','r','e','e'], ['n','o','b','l','e'], ['s','i','l','k'] ],
+    FuCL                      `adj`     {- <.hurr> -}          [ ['f','r','e','e'], ['i','n','d','e','p','e','n','d','e','n','t'], ['l','i','b','e','r','a','l'], ['n','o','b','l','e'] ]
+                              `plural`     HaFCAL
+                              `plural`     FaCA'iL,
 
     FaCLAn                    `adj`     {- <.harrAn> -}        [ ['t','h','i','r','s','t','y'], ['p','a','s','s','i','o','n','a','t','e'] ]
                               `plural`     FiCAL
@@ -1807,7 +1815,8 @@ cluster_80  = cluster
     FuCL |< Iy |< aT          `noun`    {- <.hurrIyaT> -}      [ ['f','r','e','e','d','o','m'] ]
                               `plural`     FuCL |< Iy |< At,
 
-    FaCIL                     `noun`    {- <.harIr> -}         [ ['s','i','l','k'] ],
+    FaCIL                     `noun`    {- <.harIr> -}         [ ['s','i','l','k'] ]
+                              `plural`     FaCA'iL,
 
     FaCIL |< Iy               `noun`    {- <.harIrIy> -}       [ ['H','a','r','i','r','i'] ],
 
@@ -1821,7 +1830,8 @@ cluster_80  = cluster
 
     FaCAL |< aT               `noun`    {- <.harAraT> -}       [ ['t','e','m','p','e','r','a','t','u','r','e'], ['h','e','a','t'], ['f','e','v','e','r'] ],
 
-    FuCayL |< aT              `noun`    {- <.hurayraT> -}      [ ['c','a','l','o','r','i','e'] ],
+    FuCayL |< aT              `noun`    {- <.hurayraT> -}      [ ['c','a','l','o','r','i','e'] ]
+                              `plural`     FuCayL |< At,
 
     FaCAL |< Iy               `adj`     {- <.harArIy> -}       [ ['t','h','e','r','m','a','l'], ['c','a','l','o','r','i','c'] ],
 

@@ -138,9 +138,12 @@ cluster_7   = cluster
     FaCAL |< aT               `noun`    {- <.garAmaT> -}       [ ['f','i','n','e'], ['p','e','n','a','l','t','y'] ]
                               `plural`     FaCAL |< At,
 
-    FaCAL |< Iy               `adj`     {- <.garAmIy> -}       [ ['a','m','o','r','o','u','s'], ['l','o','v','e'] ],
+    FaCAL |< Iy               `adj`     {- <.garAmIy> -}       [ ['a','m','o','r','o','u','s'], ['l','o','v','e'], ['r','o','m','a','n','t','i','c'] ],
 
-    FaCAL |< Iy |< At         `noun`    {- <.garAmIyAt> -}     [ ['r','o','m','a','n','c','e'], unwords [ ['a','m','o','r','o','u','s'], ['a','d','v','e','n','t','u','r','e','s'] ] ],
+    FaCAL |< Iy |< At         `noun`    {- <.garAmIyAt> -}     [ ['r','o','m','a','n','c','e'], unwords [ ['a','m','o','r','o','u','s'], ['a','d','v','e','n','t','u','r','e','s'] ] ]
+                              `plural`     FaCAL |< Iy |< At
+                           
+    `limited` "-------P--",
 
     FaCIL                     `noun`    {- <.garIm> -}         [ ['d','e','b','t','o','r'], ['c','r','e','d','i','t','o','r'] ]
                               `plural`     FuCaLA'
@@ -1780,11 +1783,14 @@ cluster_88  = cluster
 
     HaFCaL                    `adj`     {- <'aftan> -}         [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['c','h','a','r','m','i','n','g'] ] ],
 
-    MaFACiL                   `noun`    {- <mafAtin> -}        [ ['c','h','a','r','m','s'], ['s','e','d','u','c','t','i','o','n','s'] ],
+    MaFACiL                   `noun`    {- <mafAtin> -}        [ ['c','h','a','r','m','s'], ['s','e','d','u','c','t','i','o','n','s'] ]
+                              `plural`     MaFACiL
+                           
+    `limited` "-------P--",
 
     FACiL                     `noun`    {- <fAtin> -}          [ ['F','a','t','i','n'] ],
 
-    FACiL                     `noun`    {- <fAtin> -}          [ ['t','e','m','p','t','i','n','g'], ['c','h','a','r','m','i','n','g'] ]
+    FACiL                     `adj`     {- <fAtin> -}          [ ['t','e','m','p','t','i','n','g'], ['c','h','a','r','m','i','n','g'] ]
                               `plural`     FawACiL,
 
     FACiL |< aT               `noun`    {- <fAtinaT> -}        [ unwords [ ['c','h','a','r','m','i','n','g'], ['w','o','m','a','n'] ] ],

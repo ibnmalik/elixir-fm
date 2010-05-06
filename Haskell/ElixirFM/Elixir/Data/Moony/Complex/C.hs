@@ -482,7 +482,10 @@ cluster_48  = cluster
 
  |> ['\'','a','^','s','U','r'] <| [
 
-    _____ |< Iy |< At         `noun`    {- <'a^sUrIyAt> -}     [ ['A','s','s','y','r','i','o','l','o','g','y'] ],
+    _____ |< Iy |< At         `noun`    {- <'a^sUrIyAt> -}     [ ['A','s','s','y','r','i','o','l','o','g','y'] ]
+                              `plural`     _____ |< Iy |< At
+                           
+    `limited` "-------P--",
 
     _____ |< Iy               `adj`     {- <'a^sUrIy> -}       [ ['A','s','s','y','r','i','a','n'] ],
 
