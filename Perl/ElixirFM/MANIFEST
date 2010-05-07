@@ -1,4 +1,7 @@
 Build.PL
+bin/elixir-column.pl
+bin/elixir-compose.pl
+bin/elixir-resolve.pl
 cgi/elixir/index.fcgi
 css/elixir.css
 css/elixir.js
@@ -14,9 +17,9 @@ lib/ElixirFM/CGI/Derive.pm
 lib/ElixirFM/CGI/Inflect.pm
 lib/ElixirFM/CGI/Lookup.pm
 lib/ElixirFM/CGI/Resolve.pm
+lib/ElixirFM/Data/Compose.PL
 lib/ElixirFM/Exec.pm
-lib/ElixirFM/Wx.pm
-lib/ElixirFM/Wx/Resolve.pm
+lib/ElixirFM/Resolve.pm
 MANIFEST
 META.yml
 README

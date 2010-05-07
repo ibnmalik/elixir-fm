@@ -37,15 +37,8 @@ provides:
   ElixirFM::Exec:
     file: lib/ElixirFM/Exec.pm
     version: 1.1.946
-  ElixirFM::Wx:
-    file: lib/ElixirFM/Wx.pm
-    version: 1.1.946
-  ElixirFM::Wx::Resolve:
-    file: lib/ElixirFM/Wx/Resolve.pm
-    version: 1.1.1
-  ElixirFM::Wx::TreeCtrl:
-    file: lib/ElixirFM/Wx.pm
-  ElixirFM::Wx::Widget:
-    file: lib/ElixirFM/Wx.pm
+  ElixirFM::Resolve:
+    file: lib/ElixirFM/Resolve.pm
+    version: 1.1
 resources:
   license: http://www.opensource.org/licenses/gpl-license.php
