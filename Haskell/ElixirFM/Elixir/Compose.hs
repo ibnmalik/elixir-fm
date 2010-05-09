@@ -95,8 +95,9 @@ instance Compose (Wrap Token) where
                       w = case reverse u of
 
                                 c : 'T' : v     ->  reverse v ++ "t" ++ [c]
-                                'W' : 'a' : v   ->  reverse v ++ "aw"
+                                c : '-' : v     ->  reverse v ++ [c]
                                 'W' : 'U' : v   ->  reverse v ++ "U"
+                                'W' : 'a' : v   ->  reverse v ++ "aw"
                                 'Y' : v         ->  reverse v ++ "A"
                                 _               ->  u
 

@@ -1,3 +1,5 @@
+#! perl -w
+
 use ElixirFM;
 use ElixirFM::Exec;
 
@@ -39,7 +41,7 @@ foreach my $line (@text) {                          # the text is processed by l
                                 ( join "", @{$node} ),                  # token forms
                                 ( join " ", map { $_->[0] } @data ),    # token tags
                                 ( join " ", map { $_->[0] } @lexs ),    # lexeme ids
-                                ( join " ", map { $_->[2] } @lexs ).    # translation
+                                ( join " ", map { $_->[1] } @lexs ).    # translation
                                "\n";
                 }
             }
