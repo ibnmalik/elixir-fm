@@ -22,9 +22,9 @@ import Elixir.Data
 
 import Elixir.Lexicon
 
-import Elixir.Derive
-
 import Elixir.Inflect
+
+import Elixir.Derive
 
 import Encode.Arabic
 

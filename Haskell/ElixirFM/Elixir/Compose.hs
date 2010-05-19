@@ -18,13 +18,7 @@
 module Elixir.Compose where
 
 
-import Prelude hiding (lookup)
-
 import Elixir.Data
-
-import Elixir.System
-
-import Elixir.Template
 
 import Elixir.Lexicon
 
@@ -34,7 +28,7 @@ import Elixir.Pretty
 
 import Encode.Arabic
 
-import Data.List hiding (lookup)
+import Data.List
 
 import qualified Data.Map as Map
 
