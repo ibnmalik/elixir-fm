@@ -798,7 +798,7 @@ sub unpretty {
 
         @data = split /(?:(?<=\n\n)\n|(?<=^\n)\n|(?<=^)\n)/, $data, -1;
 
-        pop @data;
+        pop @data if @data and $data[-1] eq '';
 
         @data = map {
 
@@ -838,7 +838,7 @@ sub unpretty {
 
         @data = split /(?:(?<=\n)\n|(?<=^)\n)/, $data, -1;
 
-        pop @data;
+        pop @data if @data and $data[-1] eq '';
 
         @data = map {
 
