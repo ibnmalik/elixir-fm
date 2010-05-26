@@ -946,10 +946,7 @@ cluster_39  = cluster
     IKRiDSAS                  `noun`    {- <i^smi'zAz> -}      [ ['r','e','p','u','g','n','a','n','c','e'], ['d','i','s','g','u','s','t'] ]
                               `plural`     IKRiDSAS |< At,
 
-    MuKRaDiSS                 `noun`    {- <mu^sma'izz> -}     [ ['d','i','s','g','u','s','t','e','d'], ['n','a','u','s','e','a','t','e','d'] ]
-                              `plural`     MuKRaDiSS |< Un
-                           
-    `derives` otherwise ]
+    MuKRaDiSS                 `adj`     {- <mu^sma'izz> -}     [ ['d','i','s','g','u','s','t','e','d'], ['n','a','u','s','e','a','t','e','d'] ] ]
 
 
 cluster_40  = cluster
@@ -2036,11 +2033,15 @@ cluster_92  = cluster
 
     HaFCY                     `verb`    {- <'a.s.hY> -}        [ ['a','w','a','k','e','n'], ['r','o','u','s','e'] ],
 
-    FaCL                      `noun`    {- <.sa.hw> -}         [ ['s','e','r','e','n','i','t','y'], ['c','l','a','r','i','t','y'] ],
+    FaCL                      `noun`    {- <.sa.hw> -}         [ ['s','e','r','e','n','i','t','y'], ['c','l','a','r','i','t','y'], ['b','r','i','g','h','t','n','e','s','s'] ],
+
+    FaCL                      `adj`     {- <.sa.hw> -}         [ ['s','e','r','e','n','e'], ['c','l','e','a','r'], ['b','r','i','g','h','t'], ['c','l','o','u','d','l','e','s','s'] ],
 
     FaCL |< aT                `noun`    {- <.sa.hwaT> -}       [ ['r','e','s','u','r','g','e','n','c','e'], ['r','e','v','i','v','a','l'], ['a','w','a','k','e','n','i','n','g'] ],
 
-    FACI                      `adj`     {- <.sA.hI> -}         [ ['b','r','i','g','h','t'], ['s','e','r','e','n','e'], ['v','i','g','i','l','a','n','t'], ['w','a','k','e','f','u','l'] ]
+    FACI                      `adj`     {- <.sA.hI> -}         [ ['s','e','r','e','n','e'], ['c','l','e','a','r'], ['b','r','i','g','h','t'], ['c','l','o','u','d','l','e','s','s'] ],
+
+    FACI                      `adj`     {- <.sA.hI> -}         [ ['a','w','a','k','e'], ['w','a','k','e','f','u','l'], ['a','l','e','r','t'], ['v','i','g','i','l','a','n','t'], ['c','o','n','s','c','i','o','u','s'] ]
                               `plural`     FACI |< Un
                               `plural`     FuCY |< aT ]
 

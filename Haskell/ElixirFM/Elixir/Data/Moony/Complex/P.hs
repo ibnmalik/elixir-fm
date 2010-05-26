@@ -2128,9 +2128,13 @@ cluster_85  = cluster
 
     FACaL                     `verb`    {- <wAlaf> -}          [ unwords [ ['a','s','s','o','c','i','a','t','e'], ['w','i','t','h'] ], unwords [ ['b','e'], ['i','n'], ['h','a','r','m','o','n','y'], ['w','i','t','h'] ], unwords [ ['b','e'], ['a','t','t','u','n','e','d'], ['t','o'] ] ],
 
-    MuFACaL |< aT             `noun`    {- <muwAlafaT> -}      [ ['h','a','r','m','o','n','y'], ['c','o','n','c','o','r','d'] ],
+    TaFCIL                    `noun`    {- <tawlIf> -}         [ ['c','o','m','b','i','n','a','t','i','o','n'], ['t','u','n','i','n','g'], ['t','u','n','e','r'] ]
+                              `plural`     TaFACIL,
 
-    MuFACaL |< aT             `noun`    {- <muwAlafaT> -}      [ unwords [ ['f','i','n','e'], "-", ['t','u','n','i','n','g'] ] ] ]
+    TaFCIL |< aT              `noun`    {- <tawlIfaT> -}       [ ['b','l','e','n','d'], ['m','i','x','t','u','r','e'] ]
+                              `plural`     TaFCIL |< At,
+
+    MuFACaL |< aT             `noun`    {- <muwAlafaT> -}      [ ['h','a','r','m','o','n','y'], ['c','o','n','c','o','r','d'], unwords [ ['f','i','n','e'], "-", ['t','u','n','i','n','g'] ] ] ]
 
 
 cluster_86  = cluster
