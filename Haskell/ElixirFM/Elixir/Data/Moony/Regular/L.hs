@@ -2040,10 +2040,17 @@ cluster_98  = cluster
 
     IstaFCaL                  `verb`    {- <istaf.hal> -}      [ unwords [ ['b','e'], ['a','g','g','r','a','v','a','t','e','d'] ], unwords [ ['b','e','c','o','m','e'], ['c','r','i','t','i','c','a','l'] ] ],
 
-    FaCL                      `noun`    {- <fa.hl> -}          [ ['s','t','a','l','l','i','o','n'], ['l','u','m','i','n','a','r','y'] ]
+    FaCL                      `noun`    {- <fa.hl> -}          [ ['l','u','m','i','n','a','r','y'], ['s','t','a','r'], ['m','a','s','t','e','r'] ]
+                              `plural`     FuCUL
                               `plural`     FuCUL |< aT,
 
-    FuCUL |< aT               `noun`    {- <fu.hUlaT> -}       [ ['v','i','r','i','l','i','t','y'], ['p','e','r','f','e','c','t','i','o','n'] ],
+    FaCL                      `noun`    {- <fa.hl> -}          [ ['m','a','l','e'], ['s','t','a','l','l','i','o','n'] ]
+                              `plural`     FuCUL
+                              `plural`     FuCUL |< aT,
+
+    FuCUL |< aT               `noun`    {- <fu.hUlaT> -}       [ ['e','x','c','e','l','l','e','n','c','e'], ['p','e','r','f','e','c','t','i','o','n'] ],
+
+    FuCUL |< aT               `noun`    {- <fu.hUlaT> -}       [ ['v','i','r','i','l','i','t','y'], ['m','a','s','c','u','l','i','n','i','t','y'] ],
 
     IstiFCAL                  `noun`    {- <istif.hAl> -}      [ ['g','r','a','v','i','t','y'], ['s','e','r','i','o','u','s','n','e','s','s'] ]
                               `plural`     IstiFCAL |< At,
