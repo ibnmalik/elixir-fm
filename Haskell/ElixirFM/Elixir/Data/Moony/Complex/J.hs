@@ -648,7 +648,9 @@ cluster_25  = cluster
 
     IstaFAL                   `verb`    {- <ista.gAb> -}       [ ['d','e','n','i','g','r','a','t','e'], ['s','l','a','n','d','e','r'] ],
 
-    FaCL                      `noun`    {- <.gayb> -}          [ ['i','n','v','i','s','i','b','l','e'], ['h','i','d','d','e','n'], ['a','b','s','e','n','t'] ]
+    FaCL                      `noun`    {- <.gayb> -}          [ ['a','b','s','e','n','c','e'], ['i','n','v','i','s','i','b','i','l','i','t','y'] ],
+
+    FaCL                      `adj`     {- <.gayb> -}          [ ['i','n','v','i','s','i','b','l','e'], ['h','i','d','d','e','n'], ['a','b','s','e','n','t'] ]
                               `plural`     FuCUL,
 
     FaCL |< Iy                `adj`     {- <.gaybIy> -}        [ ['h','i','d','d','e','n'], ['i','n','v','i','s','i','b','l','e'], ['s','e','c','r','e','t'], ['o','c','c','u','l','t'] ],
@@ -660,7 +662,7 @@ cluster_25  = cluster
 
     FAL |< Iy                 `adj`     {- <.gAbIy> -}         [ ['f','o','r','e','s','t','e','d'], ['w','o','o','d','e','d'] ],
 
-    FaCL |< aT                `noun`    {- <.gaybaT> -}        [ ['a','b','s','e','n','c','e'] ],
+    FaCL |< aT                `noun`    {- <.gaybaT> -}        [ ['a','b','s','e','n','c','e'], ['i','n','v','i','s','i','b','i','l','i','t','y'] ],
 
     FIL |< aT                 `noun`    {- <.gIbaT> -}         [ ['s','l','a','n','d','e','r'] ],
 
@@ -751,9 +753,13 @@ cluster_28  = cluster
 
     TaFACaL                   `verb`    {- <ta.gAyar> -}       [ unwords [ ['b','e'], ['d','i','f','f','e','r','e','n','t'] ], unwords [ ['b','e'], ['h','e','t','e','r','o','g','e','n','e','o','u','s'] ] ],
 
-    FaCL                      `part`    {- <.gayr> -}          [ ['n','o','t'], ['o','t','h','e','r'] ],
+    FaCL                      `noun`    {- <.gayr> -}          [ ['o','t','h','e','r'], ['u','n','l','i','k','e'], ['n','o','t'], unwords [ ['n','o','n'], "-" ] ],
 
-    FaCL |< Iy                `adj`     {- <.gayrIy> -}        [ ['a','l','t','r','u','i','s','t'], ['a','l','t','r','u','i','s','m'] ],
+    FaCL |<< "a"              `prep`    {- <.gayra> -}         [ ['e','x','p','e','c','t'], ['b','u','t'], ['w','i','t','h','o','u','t'] ],
+
+    FaCL |< Iy                `adj`     {- <.gayrIy> -}        [ ['a','l','t','r','u','i','s','t'] ],
+
+    FaCL |< Iy |< aT          `noun`    {- <.gayrIyaT> -}      [ ['a','l','t','r','u','i','s','m'] ],
 
     FaCL |< aT                `noun`    {- <.gayraT> -}        [ ['j','e','a','l','o','u','s','y'], ['z','e','a','l'] ],
 

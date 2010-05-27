@@ -1042,7 +1042,8 @@ cluster_50  = cluster
     FaCL                      `verb`    {- <.darr> -}          [ ['h','a','r','m'], ['i','n','j','u','r','e'] ]
                               `imperf`     FuCL
                               `pfirst`     FaCaL
-                              `masdar`     FaCL,
+                              `masdar`     FaCL
+                              `masdar`     FaCaL,
 
     FaCCaL                    `verb`    {- <.darrar> -}        [ ['d','a','m','a','g','e'], ['i','n','j','u','r','e'] ],
 
