@@ -693,7 +693,7 @@ cluster_50  = cluster
 
     IFtaCaL                   `verb`    {- <i^stabah> -}       [ ['s','u','s','p','e','c','t'], unwords [ ['b','e'], ['d','o','u','b','t','f','u','l'] ] ],
 
-    FiCL                      `noun`    {- <^sibh> -}          [ ['l','i','k','e'], ['q','u','a','s','i'], ['s','e','m','i'] ]
+    FiCL                      `noun`    {- <^sibh> -}          [ ['l','i','k','e'], unwords [ ['q','u','a','s','i'], "-" ], unwords [ ['s','e','m','i'], "-" ] ]
                               `plural`     HaFCAL,
 
     FaCaL                     `noun`    {- <^sabah> -}         [ ['r','e','s','e','m','b','l','a','n','c','e'] ]
@@ -704,7 +704,7 @@ cluster_50  = cluster
 
     FaCaLAn                   `noun`    {- <^sabahAn> -}       [ ['b','r','a','s','s'] ],
 
-    FaCIL                     `adj`     {- <^sabIh> -}         [ ['r','e','s','e','m','b','l','i','n','g'], ['s','i','m','i','l','a','r'], ['s','e','m','i'] ]
+    FaCIL                     `adj`     {- <^sabIh> -}         [ ['r','e','s','e','m','b','l','i','n','g'], ['s','i','m','i','l','a','r'], unwords [ ['s','e','m','i'], "-" ] ]
                               `plural`     FiCAL,
 
     HaFCaL                    `adj`     {- <'a^sbah> -}        [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['s','i','m','i','l','a','r'] ] ],

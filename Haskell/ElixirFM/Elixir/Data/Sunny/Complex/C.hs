@@ -2269,7 +2269,7 @@ cluster_100 = cluster
                            
     `derives` otherwise,
 
-    MuFaCCaL                  `adj`     {- <muzayyaf> -}       [ ['f','o','r','g','e','d'], ['c','o','u','n','t','e','r','f','e','i','t'], ['p','s','e','u','d','o'] ] ]
+    MuFaCCaL                  `adj`     {- <muzayyaf> -}       [ ['f','o','r','g','e','d'], ['c','o','u','n','t','e','r','f','e','i','t'], unwords [ ['p','s','e','u','d','o'], "-" ] ] ]
 
 
 section = [ cluster_1,

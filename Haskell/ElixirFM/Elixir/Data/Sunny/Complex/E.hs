@@ -35,9 +35,6 @@ cluster_2   = cluster
 
     TaFaCCaL                  `verb`    {- <ta^sabbab> -}      [ ['r','h','a','p','s','o','d','i','z','e'] ],
 
-    FaCL                      `noun`    {- <^sabb> -}          [ ['y','o','u','t','h'], unwords [ ['y','o','u','n','g'], ['w','o','m','a','n'] ] ]
-                              `plural`     FaCAL,
-
     FaCL                      `noun`    {- <^sabb> -}          [ ['a','l','u','m'], unwords [ ['s','t','y','p','t','i','c'], ['p','e','n','c','i','l'] ] ]
                               `plural`     FaCL |< At,
 
@@ -51,13 +48,27 @@ cluster_2   = cluster
 
     FaCIL |< aT               `noun`    {- <^sabIbaT> -}       [ ['y','o','u','t','h'], ['y','o','u','t','h','f','u','l','n','e','s','s'] ],
 
-    FACL                      `noun`    {- <^sAbb> -}          [ unwords [ ['y','o','u','n','g'], ['m','a','n'] ] ]
-                              `plural`     FuCLAn
-                              `plural`     FaCAL,
+    FACL                      `adj`     {- <^sAbb> -}          [ ['y','o','u','t','h','f','u','l'], ['j','u','v','e','n','i','l','e'] ],
 
-    FACL |< aT                `noun`    {- <^sAbbaT> -}        [ unwords [ ['y','o','u','n','g'], ['w','o','m','a','n'] ] ]
+    FACL                      `noun`    {- <^sAbb> -}          [ unwords [ ['y','o','u','n','g'], ['m','a','n'] ], ['y','o','u','t','h'] ]
+                              `plural`     FuCLAn
+                              `plural`     FaCAL
+                              `plural`     FaCaL |< aT,
+
+    FaCL                      `noun`    {- <^sabb> -}          [ unwords [ ['y','o','u','n','g'], ['m','a','n'] ], ['y','o','u','t','h'] ]
+                              `plural`     FuCLAn
+                              `plural`     FaCAL
+                              `plural`     FaCaL |< aT,
+
+    FACL |< aT                `noun`    {- <^sAbbaT> -}        [ unwords [ ['y','o','u','n','g'], ['w','o','m','a','n'] ], ['g','i','r','l'] ]
+                              `plural`     FACL |< At
                               `plural`     FawACL
-                              `plural`     FACL |< At,
+                              `plural`     FaCA'iL,
+
+    FaCL |< aT                `noun`    {- <^sabbaT> -}        [ unwords [ ['y','o','u','n','g'], ['w','o','m','a','n'] ], ['g','i','r','l'] ]
+                              `plural`     FACL |< At
+                              `plural`     FawACL
+                              `plural`     FaCA'iL,
 
     MaFCUL                    `adj`     {- <ma^sbUb> -}        [ ['k','i','n','d','l','e','d'], ['i','g','n','i','t','e','d'] ] ]
 
