@@ -540,9 +540,7 @@ cluster_32  = cluster
     FACiL                     `adj`     {- <kAmin> -}          [ ['h','i','d','d','e','n'], ['s','e','c','r','e','t'], ['l','a','t','e','n','t'] ]
                               `plural`     FawACiL,
 
-    FaCCUL                    `noun`    {- <kammUn> -}         [ ['c','u','m','i','n'] ],
-
-    FICAL                     `noun`    {- <kImAn> -}          [ unwords [ ['p','i','l','e','s'], ['o','f'], ['t','r','a','s','h'] ], ['r','u','b','b','i','s','h'] ] ]
+    FaCCUL                    `noun`    {- <kammUn> -}         [ ['c','u','m','i','n'] ] ]
 
 
 cluster_33  = cluster

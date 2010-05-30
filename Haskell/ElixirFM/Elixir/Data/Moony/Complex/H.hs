@@ -601,7 +601,7 @@ cluster_20  = cluster
                            
     `derives` otherwise,
 
-    FUCAL |< aT               `noun`    {- <.hUwAraT> -}       [ unwords [ ['c','r','e','t','a','c','e','o','u','s'], ['r','o','c','k'] ], ['c','h','a','l','k'] ],
+    FuCCAL |< aT              `noun`    {- <.huwwAraT> -}      [ unwords [ ['c','r','e','t','a','c','e','o','u','s'], ['r','o','c','k'] ], ['c','h','a','l','k'] ],
 
     FUL |< Iy |< aT           `noun`    {- <.hUrIyaT> -}       [ ['n','y','m','p','h'], ['h','o','u','r','i'] ]
                               `plural`     FUL,
@@ -905,7 +905,7 @@ cluster_32  = cluster
                               `plural`     FawA'iL,
 
     FA'iL                     `adj`     {- <.hA'il> -}         [ ['c','h','a','n','g','e','a','b','l','e'], ['v','a','r','i','a','b','l','e'], ['c','h','a','n','g','i','n','g'] ]
-                              `plural`     FUCaL,
+                              `plural`     FuCCaL,
 
     MuFaCCiL                  `noun`    {- <mu.hawwil> -}      [ ['c','o','n','v','e','r','t','e','r'], ['t','r','a','n','s','f','o','r','m','e','r'] ]
                               `plural`     MuFaCCiL |< At,
@@ -2352,7 +2352,7 @@ cluster_94  = cluster
                               `plural`     TaFaCCuL |< At,
 
     FA'iL                     `adj`     {- <_hA'if> -}         [ ['a','f','r','a','i','d'], ['f','e','a','r','f','u','l'] ]
-                              `plural`     FUCaL
+                              `plural`     FuCCaL
                               `plural`     FA'iL |< Un,
 
     MaFUL                     `adj`     {- <ma_hUf> -}         [ ['f','e','a','r','e','d'], ['d','a','n','g','e','r','o','u','s'] ],
@@ -2434,8 +2434,8 @@ cluster_96  = cluster
     `derives` otherwise,
 
     FA'iL                     `noun`    {- <_hA'in> -}         [ ['t','r','a','i','t','o','r'], ['t','r','e','a','c','h','e','r','o','u','s'], ['d','i','s','l','o','y','a','l'] ]
-                              `plural`     FUCAL
-                              `plural`     FaCL |< aT
+                              `plural`     FuCCAL
+                              `plural`     FaCaL |< aT
                            
     `derives` otherwise ]
 

@@ -1850,9 +1850,7 @@ cluster_91  = cluster
 
     FaCIL                     `noun`    {- <falIl> -}          [ ['n','i','c','k'] ],
 
-    MaFCUL                    `adj`     {- <maflUl> -}         [ ['d','e','n','t','e','d'], ['j','a','g','g','e','d'] ],
-
-    FICAL |< Iy               `adj`     {- <fIlAlIy> -}        [ ['F','i','l','a','l','i'] ] ]
+    MaFCUL                    `adj`     {- <maflUl> -}         [ ['d','e','n','t','e','d'], ['j','a','g','g','e','d'] ] ]
 
 
 cluster_92  = cluster

@@ -981,7 +981,7 @@ cluster_69  = cluster
     FA'iL                     `adj`     {- <_tA'ir> -}         [ ['a','g','i','t','a','t','e','d'], ['e','x','i','t','e','d'] ],
 
     FA'iL                     `noun`    {- <_tA'ir> -}         [ ['i','n','s','u','r','g','e','n','t'], ['r','e','v','o','l','u','t','i','o','n','a','r','y'] ]
-                              `plural`     FUCAL
+                              `plural`     FuCCAL
                            
     `derives` otherwise,
 

@@ -155,16 +155,16 @@ data PatternQ =
 --  Form I
 
             KaRDaS                              |   KaRDY
-        |   KuRDiS          |   KUDiS           |   KuRDI           |   KUDI
+        |   KuRDiS          |   KUDiS           |   KuRDI       {-- |   KUDI    --}
 
         |   KaRDiS                              |   KaRDI
         |   KaRDuS                              |   KaRDU
 
-        |   KiRDaS          |   KIDaS           |   KiRDY           |   KIDY
-        |   KiRDiS          |   KIDiS           |   KiRDI           |   KIDI
+        |   KiRDaS      {-- |   KIDaS   --}     |   KiRDY       {-- |   KIDY    --}
+        |   KiRDiS      {-- |   KIDiS   --}     |   KiRDI       {-- |   KIDI    --}
 
-        |   KuRDaS          |   KUDaS           |   KuRDY           |   KUDY
-        |   KuRDuS          |   KUDuS           |   KuRDU           |   KUDU
+        |   KuRDaS      {-- |   KUDaS   --}     |   KuRDY       {-- |   KUDY    --}
+        |   KuRDuS      {-- |   KUDuS   --}     |   KuRDU       {-- |   KUDU    --}
 
         |   MuKaRDiS                            |   MuKaRDI
         |   MuKaRDaS                            |   MuKaRDY
@@ -175,11 +175,11 @@ data PatternQ =
 
         |   KiRDAS          |   KIDAS
         |   KiRDIS          |   KIDIS
-        |   KiRDUS          |   KIDUS
+        |   KiRDUS      {-- |   KIDUS   --}
 
         |   KuRDAS          |   KUDAS
         |   KuRDIS          |   KUDIS
-        |   KuRDUS          |   KUDUS
+        |   KuRDUS      {-- |   KUDUS   --}
 
         |   KARDIS
 
@@ -213,7 +213,7 @@ data PatternQ =
 
         |   KaRDaSS
 
-        |   KuRDuSAn        |   KUDuSAn
+        |   KuRDuSAn    {-- |   KUDuSAn --}
 
         |   KaRDaSAn
 

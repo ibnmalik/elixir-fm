@@ -1658,7 +1658,7 @@ cluster_55  = cluster
                               `plural`     FA'iL |< At,
 
     FA'iL                     `noun`    {- <`A'id> -}          [ ['v','i','s','i','t','o','r'] ]
-                              `plural`     FUCAL
+                              `plural`     FuCCAL
                            
     `derives` otherwise,
 

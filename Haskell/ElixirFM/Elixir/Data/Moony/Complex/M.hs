@@ -61,13 +61,21 @@ cluster_5   = cluster
     TaFaCCaL                  `verb`    {- <takawwam> -}       [ ['a','c','c','u','m','u','l','a','t','e'], unwords [ ['b','e'], ['p','i','l','e','d'], ['u','p'] ], unwords [ ['b','e'], ['s','t','a','c','k','e','d'], ['u','p'] ] ],
 
     FaCL                      `noun`    {- <kawm> -}           [ ['p','i','l','e'], ['s','t','a','c','k'] ]
-                              `plural`     HaFCAL,
+                              `plural`     HaFCAL
+                              `plural`     FILAn,
 
-    FILAn                     `noun`    {- <kImAn> -}          [ unwords [ ['p','i','l','e','s'], ['o','f'], ['t','r','a','s','h'] ], ['r','u','b','b','i','s','h'] ],
+    FILAn                     `noun`    {- <kImAn> -}          [ unwords [ ['p','i','l','e','s'], ['o','f'], ['t','r','a','s','h'] ], ['r','u','b','b','i','s','h'] ]
+                              `plural`     FILAn
+                           
+    `limited` "-------P--",
+
+    FUL |< aT                 `noun`    {- <kUmaT> -}          [ ['h','e','a','p'], ['p','i','l','e'], ['m','a','s','s'] ]
+                              `plural`     FUL |< At
+                              `plural`     FuCaL,
 
     FaCL |< aT                `noun`    {- <kawmaT> -}         [ ['h','e','a','p'], ['p','i','l','e'], ['m','a','s','s'] ]
-                              `plural`     FUL |< At
-                              `plural`     FuCaL ]
+                              `plural`     FaCL |< At
+                              `plural`     HaFCAL ]
 
 
 cluster_6   = cluster

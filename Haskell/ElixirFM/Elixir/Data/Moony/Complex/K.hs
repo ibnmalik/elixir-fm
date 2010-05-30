@@ -1969,15 +1969,15 @@ cluster_92  = cluster
                               `plural`     InFiyAL |< At,
 
     FA'iL                     `noun`    {- <qA'id> -}          [ ['l','e','a','d','e','r'], ['c','o','m','m','a','n','d','e','r'] ]
-                              `plural`     FUCaL
-                              `plural`     FUCAL
+                              `plural`     FuCCaL
+                              `plural`     FuCCAL
                               `plural`     FAL |< aT
                            
     `derives` otherwise,
 
     FA'iL                     `noun`    {- <qA'id> -}          [ ['d','r','i','v','e','r'], ['c','h','a','u','f','f','e','u','r'] ]
                               `plural`     FA'iL |< Un
-                              `plural`     FUCAL
+                              `plural`     FuCCAL
                            
     `derives` otherwise,
 

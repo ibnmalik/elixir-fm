@@ -947,7 +947,7 @@ data PatternT =
         |   FuCCuL
         |   FiCCiL
 
-        |   FiCCIL                      |   FICIL
+        |   FiCCIL
         |   FaCCIL
         |   FaCCUL
 
