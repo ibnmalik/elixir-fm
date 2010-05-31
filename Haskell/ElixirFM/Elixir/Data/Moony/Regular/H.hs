@@ -1105,7 +1105,9 @@ cluster_50  = cluster
 
     FaCaL                     `verb`    {- <_hatan> -}         [ ['c','i','r','c','u','m','c','i','s','e'] ]
                               `imperf`     FCiL
-                              `masdar`     FaCL,
+                              `masdar`     FaCL
+                              `masdar`     FiCAL
+                              `masdar`     FiCAL |< aT,
 
     IFtaCaL                   `verb`    {- <i_htatan> -}       [ unwords [ ['b','e'], ['c','i','r','c','u','m','c','i','s','e','d'] ] ],
 

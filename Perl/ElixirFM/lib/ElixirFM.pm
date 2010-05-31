@@ -111,6 +111,8 @@ sub nice {
 
     $morphs->[0] = $morphs->[0] =~ /^(?:_____|Identity)$/ ? '_____' : merge("", $morphs->[0]);
 
+    $morphs->[0] =~ s/([FCL]|[KRDS])/|$1|/g;
+
     $morphs->[1] = [ map { $_ =~ /"/ ? showPrefix($_) : $_ } @{$morphs->[1]} ];
 
     $morphs->[2] = [ map { $_ =~ /"/ ? showSuffix($_) : $_ } @{$morphs->[2]} ];

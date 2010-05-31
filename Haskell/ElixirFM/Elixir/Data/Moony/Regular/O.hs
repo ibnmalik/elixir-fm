@@ -1992,7 +1992,8 @@ cluster_85  = cluster
  |> "q s r" <| [
 
     FaCaL                     `verb`    {- <qasar> -}          [ ['c','o','m','p','e','l'], ['c','o','n','s','t','r','a','i','n'], ['s','u','b','j','u','g','a','t','e'] ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `masdar`     FaCL,
 
     IFtaCaL                   `verb`    {- <iqtasar> -}        [ ['c','o','m','p','e','l'], ['c','o','n','s','t','r','a','i','n'], ['s','u','b','j','u','g','a','t','e'] ],
 
