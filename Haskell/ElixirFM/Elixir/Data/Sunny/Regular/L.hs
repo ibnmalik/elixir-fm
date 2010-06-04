@@ -855,10 +855,12 @@ cluster_43  = cluster
 
     TaFaCCaL                  `verb`    {- <ta.sa_h_har> -}    [ unwords [ ['b','e'], ['p','e','t','r','i','f','i','e','d'] ] ],
 
-    FaCL                      `noun`    {- <.sa_hr> -}         [ ['r','o','c','k'] ]
-                              `plural`     FaCaL |< At
-                              `plural`     FuCUL |< aT
-                              `plural`     FuCUL,
+    FaCL                      `noun`    {- <.sa_hr> -}         [ ['r','o','c','k'], ['b','o','u','l','d','e','r'] ]
+                              `plural`     FuCUL
+                              `plural`     FuCUL |< aT,
+
+    FaCL |< aT                `noun`    {- <.sa_hraT> -}       [ ['r','o','c','k'], ['b','o','u','l','d','e','r'] ]
+                              `plural`     FaCaL |< At,
 
     FaCL                      `noun`    {- <.sa_hr> -}         [ ['S','a','k','h','r'] ],
 

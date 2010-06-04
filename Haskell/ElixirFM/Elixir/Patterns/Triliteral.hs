@@ -53,6 +53,16 @@ instance Template PatternT where
                               ->              substitute
                             _ -> (++ ["w"]) . substitute . init
 
+                     | elem t
+
+                        [FUCiL, FUCI, FUCL, TuFUCiL, TuFUCI, TuFUCL] =
+
+                        case r of _ : "w" : _ -> substitute .
+                                                 (\ (u, c) ->
+                                                   u ++ "|" ++ c)
+                                                 . break ('C' ==)
+                                  _           -> substitute
+
                      | otherwise            = substitute
 
               substitute x = (replace . restore) x

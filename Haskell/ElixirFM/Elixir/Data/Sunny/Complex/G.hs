@@ -1805,14 +1805,21 @@ cluster_78  = cluster
     FayL |< aT                `noun`    {- <layyaT> -}         [ ['t','u','r','n'], ['c','u','r','v','e'] ]
                               `plural`     FiCY,
 
-    FiCA'                     `noun`    {- <liwA'> -}          [ ['b','a','n','n','e','r'], ['f','l','a','g'] ],
+    FiCA'                     `noun`    {- <liwA'> -}          [ ['b','a','n','n','e','r'], ['f','l','a','g'] ]
+                              `plural`     HaFCI |< aT
+                              `plural`     HaFCI |< At,
 
-    FiCA'                     `noun`    {- <liwA'> -}          [ unwords [ ['m','a','j','o','r'], ['g','e','n','e','r','a','l'] ], ['b','r','i','g','a','d','e'] ],
+    FiCA'                     `noun`    {- <liwA'> -}          [ unwords [ ['m','a','j','o','r'], ['g','e','n','e','r','a','l'] ], ['b','r','i','g','a','d','e'] ]
+                              `plural`     HaFCI |< aT
+                              `plural`     HaFCI |< At,
 
     FiCA'                     `noun`    {- <liwA'> -}          [ ['d','i','s','t','r','i','c','t'], ['p','r','o','v','i','n','c','e'] ]
-                              `plural`     HaFCI |< aT,
+                              `plural`     HaFCI |< aT
+                              `plural`     HaFCI |< At,
 
     FiCA'                     `noun`    {- <liwA'> -}          [ ['L','i','w','a'] ],
+
+    FaCCA'                    `noun`    {- <lawwA'> -}         [ ['w','r','y','n','e','c','k'] ],
 
     MiFCY                     `noun`    {- <milwY> -}          [ ['s','p','a','n','n','e','r'], ['w','r','e','n','c','h'] ]
                               `plural`     MaFACI,

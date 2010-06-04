@@ -1211,9 +1211,7 @@ cluster_84  = cluster
 
  |> "d _h y" <| [
 
-    FACY                      `verb`    {- <dA_hY> -}          [ ['p','a','m','p','e','r'], ['s','p','o','i','l'] ],
-
-    FUCI                      `noun`    {- <dU_hI> -}          [ ['D','o','u','k','h','i'] ] ]
+    FACY                      `verb`    {- <dA_hY> -}          [ ['p','a','m','p','e','r'], ['s','p','o','i','l'] ] ]
 
 
 cluster_85  = cluster
