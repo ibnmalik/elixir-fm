@@ -1074,9 +1074,12 @@ sub interlocks {
 
         @root = (@root, ('F', 'C', 'L')[@root .. 2]);
 
-        $pattern = (substr $pattern, 0, -1) . 'w' if $pattern =~ /^(?:F[aiu]CLA'|F[IU]LA')$/
+        $pattern = (substr $pattern, 0, -1) . 'w' if $pattern =~ /^F(?:[aiu]C|[IU])LA'$/
                                                   and @root and $root[-1] ne 'w'
                                                   and @{$s} and not $s->[0] =~ /^"[aiu]N?"$/;
+
+        $pattern =~ s/UC/U\|C/                    if $pattern =~ /^(?:Tu)?FUC(?:i?L|I)$/
+                                                  and @root > 1 and $root[1] eq 'w';
 
         $pattern =~ s/^H/'/;
         $pattern =~ s/^([IMNSTUY])/\l$1/;
