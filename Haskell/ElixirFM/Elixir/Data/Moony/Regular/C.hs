@@ -1225,7 +1225,9 @@ cluster_71  = cluster
 
  |> ['b','a','k','A','l','U','r'] <| [
 
-    _____ |< iyA              `noun`    {- <bakAlUriyA> -}     [ ['b','a','c','c','a','l','a','u','r','e','a','t','e'], ['B','.','A','.'] ] ]
+    _____ |< iyA              `noun`    {- <bakAlUriyA> -}     [ unwords [ ['b','a','c','h','e','l','o','r','\'','s'], ['d','e','g','r','e','e'] ], ['b','a','c','c','a','l','a','u','r','e','a','t','e'] ],
+
+    _____ |<< "iyUs"          `noun`    {- <bakAlUriyUs> -}    [ unwords [ ['b','a','c','h','e','l','o','r','\'','s'], ['d','e','g','r','e','e'] ], ['b','a','c','h','e','l','o','r'] ] ]
 
 
 cluster_72  = cluster

@@ -768,7 +768,7 @@ cluster_53  = cluster
                            
     `derives` otherwise,
 
-    KuRDUS |<< "A" |< aT      `noun`    {- <duktUrAT> -}       [ ['d','o','c','t','o','r','a','t','e'] ] ]
+    KuRDUS |<< "Ah"           `noun`    {- <duktUrAh> -}       [ ['d','o','c','t','o','r','a','t','e'] ] ]
 
 
 cluster_54  = cluster

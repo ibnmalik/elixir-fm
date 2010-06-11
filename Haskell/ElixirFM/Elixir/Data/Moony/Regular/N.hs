@@ -1773,7 +1773,8 @@ cluster_100 = cluster
 
     FaCiL                     `verb`    {- <qabil> -}          [ ['a','c','c','e','p','t'], ['r','e','c','e','i','v','e'], ['a','p','p','r','o','v','e'] ]
                               `imperf`     FCaL
-                              `masdar`     FuCUL,
+                              `masdar`     FuCUL
+                              `masdar`     FaCUL,
 
     FaCCaL                    `verb`    {- <qabbal> -}         [ ['k','i','s','s'] ],
 
