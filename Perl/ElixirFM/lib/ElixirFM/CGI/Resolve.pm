@@ -250,7 +250,7 @@ sub main ($) {
 
             unless (defined $q->param('code') and $q->param('code') ne 'Unicode') {
 
-                return CGI::Application::ElixirFM::Lookup::main $c unless $text =~ /\p{InArabic}/;
+                return ElixirFM::CGI::Lookup::main $c unless $text =~ /\p{InArabic}/;
             }
 
             $q->param('text', $text);
