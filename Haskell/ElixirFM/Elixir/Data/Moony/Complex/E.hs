@@ -1337,7 +1337,7 @@ cluster_89  = cluster
                               `plural`     FuCAL
                               `plural`     FaCAL
                               `plural`     FaCIL |< Un
-                              `plural`     HaFCiLA',
+                              `plural`     HaFCiyA',
 
     FaCAL |< aT               `noun`    {- <barA'aT> -}        [ ['i','n','n','o','c','e','n','c','e'] ],
 

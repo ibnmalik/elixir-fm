@@ -274,7 +274,9 @@ cluster_38  = cluster
 
  |> ['b','i','n','t','A','.','g','U','n'] <| [
 
-    _____                     `xtra`    {- <bintA.gUn> -}      [ ['P','e','n','t','a','g','o','n'] ] ]
+    _____                     `xtra`    {- <bintA.gUn> -}      [ ['P','e','n','t','a','g','o','n'] ],
+
+    al >| _____               `xtra`    {- <al-bintA.gUn> -}   [ ['P','e','n','t','a','g','o','n'] ] ]
 
 
 cluster_39  = cluster

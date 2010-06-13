@@ -707,6 +707,13 @@ lexicon = listing "Extended lexicon"
         _____               <::>    "QM--------"
                                                         <..>    [ "milliard", "billion" ]
                             `plural` _____ |< At
+
+                            <.>     "QM-----S1I"
+                                                        <:>     _____ |<< "uN"
+                            <.>     "QM-----S2I"
+                                                        <:>     _____ |<< "iN"
+                            <.>     "QM-----S4I"
+                                                        <:>     _____ |<< "aN"
         ]
 
 
@@ -715,4 +722,11 @@ lexicon = listing "Extended lexicon"
         _____               <::>    "QM--------"
                                                         <..>    [ "trillion" ]
                             `plural` _____ |< At
+
+                            <.>     "QM-----S1I"
+                                                        <:>     _____ |<< "uN"
+                            <.>     "QM-----S2I"
+                                                        <:>     _____ |<< "iN"
+                            <.>     "QM-----S4I"
+                                                        <:>     _____ |<< "aN"
         ]

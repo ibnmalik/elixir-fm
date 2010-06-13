@@ -874,7 +874,9 @@ cluster_65  = cluster
  |> ['d','U','l','A','r'] <| [
 
     _____                     `noun`    {- <dUlAr> -}          [ ['d','o','l','l','a','r'] ]
-                              `plural`     _____ |< At,
+                              `plural`     _____ |< At
+                           
+    `excepts` Triptote,
 
     _____ |< Iy               `adj`     {- <dUlArIy> -}        [ ['d','o','l','l','a','r'], unwords [ ['d','o','l','l','a','r'], "-", ['b','a','s','e','d'] ] ] ]
 

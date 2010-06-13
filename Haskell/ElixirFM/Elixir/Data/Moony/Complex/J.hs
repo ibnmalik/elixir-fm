@@ -657,8 +657,10 @@ cluster_25  = cluster
 
     FaCL |< Iy |< aT          `noun`    {- <.gaybIyaT> -}      [ ['m','e','t','a','p','h','y','s','i','c','s'] ],
 
-    FAL |< aT                 `noun`    {- <.gAbaT> -}         [ ['f','o','r','e','s','t'], ['j','u','n','g','l','e'] ]
-                              `plural`     FAL,
+    FAL                       `noun`    {- <.gAb> -}           [ ['w','o','o','d'], ['r','e','e','d'], ['b','a','m','b','o','o'] ],
+
+    FAL |< aT                 `noun`    {- <.gAbaT> -}         [ ['f','o','r','e','s','t'], ['w','o','o','d'], ['j','u','n','g','l','e'] ]
+                              `plural`     FAL |< At,
 
     FAL |< Iy                 `adj`     {- <.gAbIy> -}         [ ['f','o','r','e','s','t','e','d'], ['w','o','o','d','e','d'] ],
 
@@ -1931,6 +1933,17 @@ cluster_96  = cluster
 
 
 cluster_97  = cluster
+
+ |> ['f','i','n','i','z','u','w','I','l'] <| [
+
+    _____ |< Iy               `adj`     {- <finizuwIlIy> -}    [ ['V','e','n','e','z','u','e','l','a','n'] ],
+
+    _____ |< Iy               `noun`    {- <finizuwIlIy> -}    [ ['V','e','n','e','z','u','e','l','a','n'] ]
+                              `plural`     _____ |< Iy |< Un
+                           
+    `derives` otherwise,
+
+    _____ |<< "A"             `xtra`    {- <finizuwIlA> -}     [ ['V','e','n','e','z','u','e','l','a'] ] ]
 
  |> ['f','i','n','i','z','u','w','i','l','l'] <| [
 

@@ -2030,7 +2030,8 @@ cluster_66  = cluster
 
     FaCAL                     `noun`    {- <`awAn> -}          [ ['i','n','t','e','r','m','i','t','t','e','n','t'], ['e','n','d','l','e','s','s'] ],
 
-    MaFUL |< aT               `noun`    {- <ma`UnaT> -}        [ ['a','i','d'], ['a','s','s','i','s','t','a','n','c','e'], ['s','u','p','p','o','r','t'] ],
+    MaFUL |< aT               `noun`    {- <ma`UnaT> -}        [ ['a','i','d'], ['a','s','s','i','s','t','a','n','c','e'], ['s','u','p','p','o','r','t'] ]
+                              `plural`     MaFUL |< At,
 
     HiFAL |< aT               `noun`    {- <'i`AnaT> -}        [ ['s','u','p','p','o','r','t'], ['a','i','d'], ['a','s','s','i','s','t','a','n','c','e'] ],
 

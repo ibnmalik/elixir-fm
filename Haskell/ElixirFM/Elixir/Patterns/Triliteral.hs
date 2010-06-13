@@ -229,7 +229,7 @@ instance Rules PatternT where
                             FaCAyiL,
                             FaCACiL,
                             FaCACIL,
-                            FawACiL, FawA'iL, FawACL,
+                            FawACiL, FawA'iL, FawACL, FawALi',
                             FawACIL, FawA'IL,
                             FayACiL,
                             FayACIL,
@@ -919,7 +919,8 @@ data PatternT =
 
         |   FaCLA'
 
-        |   FuCaLA'                     |   MuFaLA'
+        |   FuCaLA'
+        |   MuFaLA'
 
         |   FACiLA'                                     |   FACiyA'
         |   FACULA'
@@ -975,6 +976,7 @@ data PatternT =
 
         |   FawACiL                     |   FawA'iL     |   FawACI      |   FawACL      |   FawA'I
         |   FayACiL                                     |   FayACI
+        |   FawALi'
 
         |   FACUL                       |   FA'UL
         |   FayCUL

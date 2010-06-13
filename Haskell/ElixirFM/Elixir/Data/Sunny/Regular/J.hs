@@ -260,7 +260,7 @@ cluster_22  = cluster
 
     IstaFCaL                  `verb`    {- <istashal> -}       [ unwords [ ['d','e','e','m'], ['e','a','s','y'] ] ],
 
-    FaCL                      `noun`    {- <sahl> -}           [ ['e','a','s','y'], ['s','i','m','p','l','e'] ]
+    FaCL                      `adj`     {- <sahl> -}           [ ['e','a','s','y'], ['s','i','m','p','l','e'] ]
                               `plural`     FuCUL,
 
     FuCayL                    `noun`    {- <suhayl> -}         [ ['S','u','h','e','i','l'], ['C','a','n','o','p','u','s'] ],

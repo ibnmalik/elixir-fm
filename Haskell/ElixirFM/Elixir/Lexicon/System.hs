@@ -231,7 +231,7 @@ domain = fst . limits
 type Plural a = Morphs a -- Either (Root, Morphs a) (Morphs a)
 
 data Entity a = Verb [Form]     [a] [a] [a]    (Maybe Tense)  (Maybe Voice) [Morphs a]
-              | Noun [Plural a] (Maybe Except) (Maybe Gender) (Maybe Bool)  
+              | Noun [Plural a] (Maybe Except) (Maybe Gender) (Maybe Bool)
               | Adj  [Plural a] [Morphs a]     (Maybe Number)
               | Pron
               | Num  [Plural a] [Morphs a]
@@ -328,20 +328,33 @@ noun, adj, pron, num, adv, prep, conj, part, intj :: Morphing a b => a -> Reflex
 noun h = Entry m (Noun [] Nothing Nothing Nothing) (TagsNoun d, [])
 
     where Morphs t p s = morph h
+
           (m, d) = case s of
-                        Suffix "aN" : _ -> (Morphs t p (tail s), [TagsNounS [] [] [] [Singular]
-                                                                            [Accusative] [indefinite]])
-                        Suffix "a" : _  -> (Morphs t p (tail s), [TagsNounS [] [] [] [Singular]
-                                                                            [Accusative] [construct]])
-                        _               -> (Morphs t p s, [])
+
+                        Suffix "aN" : _ -> (Morphs t p (tail s), [TagsNounS [] [] [] [Singular] [Accusative]
+                                                                 [indefinite]])
+                        Suffix "a" : _  -> (Morphs t p (tail s), [TagsNounS [] [] [] [Singular] [Accusative]
+                                                                 [if article then definite else construct]])
+                        _               -> (Morphs t p s, if article then [TagsNounS [] [] [] [] [] [definite]]
+                                                                     else [])
+
+          article = case p of
+
+                        Al : _          -> True
+                        Prefix "al" : _ -> True
+                        _               -> False
+
 
 adj  h = Entry m (Adj [] [] Nothing)               (TagsAdj  d, [])
 
     where Morphs t p s = morph h
+
           (m, d) = case s of
+
                         Suffix "aN" : _ -> (Morphs t p (tail s), [TagsAdjA  [] [] [] [Singular]
                                                                  [Accusative] [indefinite]])
                         _               -> (Morphs t p s, [])
+
 
 pron m = Entry (morph m) Pron                      (TagsPron [TagsPronS], [])
 

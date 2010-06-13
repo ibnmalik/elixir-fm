@@ -1086,13 +1086,33 @@ cluster_69  = cluster
 
 cluster_70  = cluster
 
+ |> ['d','I','b','l','U','m'] <| [
+
+    _____                     `noun`    {- <dIblUm> -}         [ ['d','i','p','l','o','m','a'], ['c','e','r','t','i','f','i','c','a','t','e'] ]
+                              `plural`     _____ |< At
+                           
+    `excepts` Triptote ]
+
  |> ['d','i','b','l','U','m'] <| [
 
     _____                     `noun`    {- <diblUm> -}         [ ['d','i','p','l','o','m','a'], ['c','e','r','t','i','f','i','c','a','t','e'] ]
-                              `plural`     _____ |< At ]
+                              `plural`     _____ |< At
+                           
+    `excepts` Triptote ]
 
 
 cluster_71  = cluster
+
+ |> ['d','I','b','l','U','m','A','s'] <| [
+
+    _____ |< Iy               `adj`     {- <dIblUmAsIy> -}     [ ['d','i','p','l','o','m','a','t','i','c'] ],
+
+    _____ |< Iy               `noun`    {- <dIblUmAsIy> -}     [ ['d','i','p','l','o','m','a','t'] ]
+                              `plural`     _____ |< Iy |< Un
+                           
+    `derives` otherwise,
+
+    _____ |< Iy |< aT         `noun`    {- <dIblUmAsIyaT> -}   [ ['d','i','p','l','o','m','a','c','y'] ] ]
 
  |> ['d','i','b','l','U','m','A','s'] <| [
 

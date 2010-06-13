@@ -396,7 +396,8 @@ cluster_8   = cluster
 
     FA'iL                     `noun`    {- <.tA'ir> -}         [ ['f','l','y','i','n','g'], ['b','i','r','d'], ['a','i','r','b','o','r','n','e'] ],
 
-    FA'iL |< aT               `noun`    {- <.tA'iraT> -}       [ ['a','i','r','c','r','a','f','t'], ['a','i','r','p','l','a','n','e'] ],
+    FA'iL |< aT               `noun`    {- <.tA'iraT> -}       [ ['a','i','r','c','r','a','f','t'], ['a','i','r','p','l','a','n','e'] ]
+                              `plural`     FA'iL |< At,
 
     MutaFaCCiL                `adj`     {- <muta.tayyir> -}    [ ['p','e','s','s','i','m','i','s','t'], ['s','u','p','e','r','s','t','i','t','i','o','u','s'] ],
 

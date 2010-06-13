@@ -2298,11 +2298,14 @@ cluster_100 = cluster
     MiFCY |< aT               `noun`    {- <mi.sfAT> -}        [ ['f','i','l','t','e','r'], ['s','t','r','a','i','n','e','r'] ]
                               `plural`     MaFACI,
 
-    TaFCI |< aT               `noun`    {- <ta.sfiyaT> -}      [ ['s','e','t','t','l','e','m','e','n','t'] ],
+    TaFCI |< aT               `noun`    {- <ta.sfiyaT> -}      [ ['s','e','t','t','l','e','m','e','n','t'] ]
+                              `plural`     TaFCI |< At,
 
-    TaFCI |< aT               `noun`    {- <ta.sfiyaT> -}      [ ['c','l','e','a','r','i','n','g'], ['l','i','q','u','i','d','a','t','i','o','n'], unwords [ ['e','l','i','m','i','n','a','t','i','o','n'], ['s','e','r','i','e','s'], "(", ['s','p','o','r','t','s'], ")" ] ],
+    TaFCI |< aT               `noun`    {- <ta.sfiyaT> -}      [ ['c','l','e','a','r','i','n','g'], ['l','i','q','u','i','d','a','t','i','o','n'], unwords [ ['e','l','i','m','i','n','a','t','i','o','n'], ['s','e','r','i','e','s'], "(", ['s','p','o','r','t','s'], ")" ] ]
+                              `plural`     TaFCI |< At,
 
-    TaFCI |< aT               `noun`    {- <ta.sfiyaT> -}      [ ['p','u','r','i','f','i','c','a','t','i','o','n'], ['f','i','l','t','r','a','t','i','o','n'] ],
+    TaFCI |< aT               `noun`    {- <ta.sfiyaT> -}      [ ['p','u','r','i','f','i','c','a','t','i','o','n'], ['f','i','l','t','r','a','t','i','o','n'] ]
+                              `plural`     TaFCI |< At,
 
     MuFACY |< aT              `noun`    {- <mu.sAfAT> -}       [ unwords [ ['g','o','o','d'], "-", ['w','i','l','l'] ], ['c','o','r','d','i','a','l','i','t','y'] ],
 

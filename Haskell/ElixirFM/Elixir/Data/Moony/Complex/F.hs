@@ -1795,7 +1795,7 @@ cluster_98  = cluster
 
  |> "^g d w" <| [
 
-    FaCA                      `verb`    {- <^gadA> -}          [ ['b','e','s','t','o','w'] ]
+    FaCA                      `verb`    {- <^gadA> -}          [ ['b','e','s','t','o','w'], unwords [ ['g','i','v','e'], "a", ['p','r','e','s','e','n','t'] ] ]
                               `imperf`     FCU,
 
     HaFCY                     `verb`    {- <'a^gdY> -}         [ unwords [ ['b','e'], ['u','s','e','f','u','l'] ] ],
@@ -1803,6 +1803,8 @@ cluster_98  = cluster
     IstaFCY                   `verb`    {- <ista^gdY> -}       [ ['i','m','p','l','o','r','e'], ['b','e','g'] ],
 
     FaCA'                     `noun`    {- <^gadA'> -}         [ ['a','d','v','a','n','t','a','g','e'], ['g','a','i','n'], ['b','e','n','e','f','i','t'] ],
+
+    FaCLY                     `noun`    {- <^gadwY> -}         [ ['g','i','f','t'], ['p','r','e','s','e','n','t'], ['a','d','v','a','n','t','a','g','e'], ['g','a','i','n'], ['b','e','n','e','f','i','t'] ],
 
     HaFCY                     `adj`     {- <'a^gdY> -}         [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['u','s','e','f','u','l'] ] ],
 

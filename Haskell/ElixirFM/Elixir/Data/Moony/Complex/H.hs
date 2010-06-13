@@ -1025,7 +1025,8 @@ cluster_36  = cluster
 
     FaCL |<< "u" |<< "mA"     `conj`    {- <.hay_tumA> -}      [ ['w','h','e','r','e','v','e','r'] ],
 
-    FaCL |< Iy |< aT          `noun`    {- <.hay_tIyaT> -}     [ ['v','i','e','w','p','o','i','n','t'], ['o','p','i','n','i','o','n'], ['c','i','r','c','u','m','s','t','a','n','c','e','s'] ] ]
+    FaCL |< Iy |< aT          `noun`    {- <.hay_tIyaT> -}     [ ['v','i','e','w','p','o','i','n','t'], ['o','p','i','n','i','o','n'], ['c','i','r','c','u','m','s','t','a','n','c','e','s'] ]
+                              `plural`     FaCL |< Iy |< At ]
 
 
 cluster_37  = cluster

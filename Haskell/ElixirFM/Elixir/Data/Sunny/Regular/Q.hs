@@ -109,13 +109,17 @@ cluster_2   = cluster
                               `plural`     HaFCAL
                               `plural`     HaFCiL |< aT,
 
+    FaCIL |< Iy               `adj`     {- <nasI^gIy> -}       [ ['t','e','x','t','i','l','e'] ],
+
     MaFCaL                    `noun`    {- <mansa^g> -}        [ unwords [ ['w','e','a','v','i','n','g'], ['m','i','l','l'] ] ]
                               `plural`     MaFACiL,
 
     MiFCaL                    `noun`    {- <minsa^g> -}        [ unwords [ ['w','e','a','v','e','r','\'','s'], ['l','o','o','m'] ] ],
 
-    MaFCUL                    `noun`    {- <mansU^g> -}        [ ['w','o','v','e','n'], ['t','e','x','t','i','l','e'], ['t','i','s','s','u','e'] ]
-                              `plural`     MaFCUL |< At ]
+    MaFCUL                    `noun`    {- <mansU^g> -}        [ ['t','e','x','t','i','l','e'], ['t','i','s','s','u','e'] ]
+                              `plural`     MaFCUL |< At,
+
+    MaFCUL                    `adj`     {- <mansU^g> -}        [ ['w','o','v','e','n'] ] ]
 
 
 cluster_3   = cluster

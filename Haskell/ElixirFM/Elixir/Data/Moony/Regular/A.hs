@@ -1517,7 +1517,7 @@ cluster_95  = cluster
 
  |> ['b','a','r','A','z','I','l'] <| [
 
-    _____                     `xtra`    {- <barAzIl> -}        [ ['B','r','a','z','i','l'] ],
+    al >| _____               `xtra`    {- <al-barAzIl> -}     [ ['B','r','a','z','i','l'] ],
 
     _____ |< Iy               `adj`     {- <barAzIlIy> -}      [ ['B','r','a','z','i','l','i','a','n'] ],
 

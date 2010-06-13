@@ -634,9 +634,9 @@ instance Inflect Lexeme TagsNum where
 
             let z = map (inRules r c s Nothing) i ]
 
-    inflect (Lexeme r e) (TagsNumM    n c s) = [ (y, z) |
+    inflect (Lexeme r e) (TagsNumM    n c s) = [ (y, lists z q) |
 
-            let d = domain e,
+            let (d, l) = limits e,
 
             TagsNum y <- [d],
 
@@ -655,6 +655,12 @@ instance Inflect Lexeme TagsNum where
             s <- s', c <- c',
 
             let y = ParaNum (NumM   n c s),
+
+            let q = [ (r, q) | (d', r') <- l, TagsNum y <- d',
+
+                       q <- if null (restrict (TagsNumM [n] [c] [s]) y)
+
+                            then [] else r' ],
 
             let z = map (inRules r c s Nothing) i ]
 

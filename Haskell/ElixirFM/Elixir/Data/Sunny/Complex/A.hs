@@ -601,6 +601,12 @@ cluster_46  = cluster
 
 cluster_47  = cluster
 
+ |> ['t','A','y','l','A','n','d'] <| [
+
+    _____                     `xtra`    {- <tAylAnd> -}        [ ['T','h','a','i','l','a','n','d'] ],
+
+    _____ |< Iy               `adj`     {- <tAylAndIy> -}      [ ['T','h','a','i'] ] ]
+
  |> ['t','A','y','l','a','n','d'] <| [
 
     _____                     `xtra`    {- <tAyland> -}        [ ['T','h','a','i','l','a','n','d'] ],

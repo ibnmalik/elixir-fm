@@ -1956,7 +1956,8 @@ cluster_92  = cluster
 
     FiyAL                     `noun`    {- <qiyAd> -}          [ ['l','e','a','d','e','r','s','h','i','p'], ['g','u','i','d','a','n','c','e'] ],
 
-    FiyAL |< aT               `noun`    {- <qiyAdaT> -}        [ ['l','e','a','d','e','r','s','h','i','p'], ['c','o','m','m','a','n','d'], ['l','e','a','d','e','r','s'], ['c','o','m','m','a','n','d','e','r','s'] ],
+    FiyAL |< aT               `noun`    {- <qiyAdaT> -}        [ ['l','e','a','d','e','r','s','h','i','p'], ['c','o','m','m','a','n','d'], ['l','e','a','d','e','r','s'], ['c','o','m','m','a','n','d','e','r','s'] ]
+                              `plural`     FiyAL |< At,
 
     FiyAL |< Iy               `adj`     {- <qiyAdIy> -}        [ ['l','e','a','d','i','n','g'], ['g','u','i','d','i','n','g'], ['c','o','m','m','a','n','d','i','n','g'] ],
 

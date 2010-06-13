@@ -141,14 +141,14 @@ harmony (ParaPrep _) 	"ka"	= [Nothing, Just ("S-------1-", const True),
                                             Just ("[NAQDXZ]-------2-", const True),
                                             Just ("C---------", (== "'anna")),
                                             Just ("PI------2-", const True)]    -- in modern language
-harmony (ParaPrep _) 	"wa"	= [Nothing, Just ("[NAQDXZ]-------2-", const True)]
+harmony (ParaPrep _) 	"bi"	= [Nothing, Just ("S-------2-", (\ x -> euphony "bi" x && x /= "nI")),
+                                            Just ("[NAQDXZ]-------2-", const True),
+                                            Just ("C---------", (`elem` ["'anna", ".hay_tu"])),
+                                            Just ("PI------2-", const True)]    -- in modern language
 harmony (ParaPrep _) 	y
 
+    | y `elem` ["wa", "ta"]     = [Nothing, Just ("[NAQDXZ]-------2-", const True)]
     | y `elem` ["`an", "min"]   = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "|I"))]
-    | y `elem` ["bi", "ta"]     = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "nI")),
-                                            Just ("[NAQDXZ]-------2-", const True),
-                                            Just ("C---------", (== "'anna")),
-                                            Just ("PI------2-", const True)]    -- in modern language
     | otherwise                 = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "nI"))]
 
 harmony (ParaConj _) 	"li"	    = [Nothing, Just ("VIS-------", const True)]

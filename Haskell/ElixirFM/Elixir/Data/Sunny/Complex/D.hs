@@ -135,7 +135,8 @@ cluster_5   = cluster
 
     MaFCUL                    `adj`     {- <mas'Ul> -}         [ ['r','e','s','p','o','n','s','i','b','l','e'], ['d','e','p','e','n','d','a','b','l','e'] ],
 
-    MaFCUL |< Iy |< aT        `noun`    {- <mas'UlIyaT> -}     [ ['r','e','s','p','o','n','s','i','b','i','l','i','t','y'] ],
+    MaFCUL |< Iy |< aT        `noun`    {- <mas'UlIyaT> -}     [ ['r','e','s','p','o','n','s','i','b','i','l','i','t','y'] ]
+                              `plural`     MaFCUL |< Iy |< At,
 
     lA >| MaFCUL |< Iy |< aT  `noun`    {- <lA-mas'UlIyaT> -}  [ ['i','r','r','e','s','p','o','n','s','i','b','i','l','i','t','y'] ],
 

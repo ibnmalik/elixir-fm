@@ -400,7 +400,9 @@ cluster_56  = cluster
 
  |> ['\'','a','y','d','z'] <| [
 
-    _____                     `xtra`    {- <'aydz> -}          [ ['A','I','D','S'] ] ]
+    _____                     `xtra`    {- <'aydz> -}          [ ['A','I','D','S'] ],
+
+    al >| _____               `xtra`    {- <al-'aydz> -}       [ ['A','I','D','S'] ] ]
 
 
 cluster_57  = cluster

@@ -1656,6 +1656,12 @@ cluster_65  = cluster
 
     _____ |< Iy               `adj`     {- <nyUzIlAndIy> -}    [ unwords [ ['N','e','w'], ['Z','e','a','l','a','n','d','e','r'] ] ] ]
 
+ |> ['n','y','U','z','I','l','a','n','d'] <| [
+
+    _____ |<< "A"             `xtra`    {- <nyUzIlandA> -}     [ unwords [ ['N','e','w'], ['Z','e','a','l','a','n','d'] ] ],
+
+    _____ |< Iy               `adj`     {- <nyUzIlandIy> -}    [ unwords [ ['N','e','w'], ['Z','e','a','l','a','n','d','e','r'] ] ] ]
+
 
 section = [ cluster_1,
             cluster_2,

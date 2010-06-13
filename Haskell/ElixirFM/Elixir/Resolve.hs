@@ -328,6 +328,8 @@ class Fuzzy a => Resolve a where
 
     tokenize :: a -> [[a]]
 
+    normalize :: a -> a
+
     resolve = map ((,) "") . resolveBy (==) (==) . (\ x -> [[[x]]])
 
 
@@ -372,7 +374,8 @@ instance Resolve String where
 
                                        let u = (units . uncurry merge) i, d <- y, u `q` d ] ]
 
-    tokenize = nub . tokens'''
+
+    tokenize = nub . tokens''' . normalize
 
         where tokens x = tokens'''' x ++ case reverse x of
 
@@ -552,6 +555,19 @@ instance Resolve String where
                     _                       ->  []
 
 
+    normalize x = case x of
+
+                    'a' : 'a' : y       ->  'A' : normalize y
+                    'i' : 'i' : y       ->  'I' : normalize y
+                    'u' : 'u' : y       ->  'U' : normalize y
+
+                    'j' : y             ->  '^' : 'g' : normalize y
+                    'x' : y             ->  '_' : 'h' : normalize y
+
+                    z : y               ->  z : normalize y
+                    _                   ->  []
+
+
 defaults :: String -> [[[[Wrap Token]]]]
 
 defaults x@(c : _) | isPunctuation c ||
@@ -611,7 +627,7 @@ instance Resolve [UPoint] where
                                         (d, w) <- y, isSubsumed (flip b) approx w v, u `q` d ] ]
 
 
-    tokenize = map (map (decode Tim)) . nub . tokens''' . encode Tim
+    tokenize = map (map (decode Tim)) . nub . tokens''' . normalize' . encode Tim
 
         where tokens x = tokens'''' x ++ case reverse x of
 
@@ -854,6 +870,22 @@ instance Resolve [UPoint] where
                                                                             tokens (reverse y ++ "n-") ]
 
                     _                       ->  []
+
+
+    normalize = decode Tim . normalize' . encode Tim
+
+
+normalize' :: String -> String
+
+normalize' x = case x of
+
+                '_' : y                             ->  normalize' y
+
+                z : '~' : y | z `elem` "FNKaui`"    ->  '~' : z : normalize' y
+                z : 'F' : y | z `elem` "AY"         ->  'F' : z : normalize' y
+
+                z : y                               ->  z : normalize' y
+                _                                   ->  []
 
 
 resolveSub x = resolveBy (==) (\ x y -> any (isPrefixOf x) (tails y)) x

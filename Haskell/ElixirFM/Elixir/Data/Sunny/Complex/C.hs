@@ -1890,7 +1890,8 @@ cluster_84  = cluster
 
     FaCL |< aT                `noun`    {- <zawraT> -}         [ ['v','i','s','i','t'] ],
 
-    FiyAL |< aT               `noun`    {- <ziyAraT> -}        [ ['v','i','s','i','t'] ],
+    FiyAL |< aT               `noun`    {- <ziyAraT> -}        [ ['v','i','s','i','t'] ]
+                              `plural`     FiyAL |< At,
 
     HaFCaL                    `adj`     {- <'azwar> -}         [ ['c','r','o','o','k','e','d'], ['o','b','l','i','q','u','e'] ]
                               `femini`     FaCLA',

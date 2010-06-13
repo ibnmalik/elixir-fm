@@ -312,7 +312,7 @@ cluster_21  = cluster
 
  |> ['y','A','b','A','n'] <| [
 
-    _____                     `xtra`    {- <yAbAn> -}          [ ['J','a','p','a','n'] ],
+    al >| _____               `noun`    {- <al-yAbAn> -}       [ ['J','a','p','a','n'] ],
 
     _____ |< Iy               `adj`     {- <yAbAnIy> -}        [ ['J','a','p','a','n','e','s','e'] ] ]
 

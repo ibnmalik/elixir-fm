@@ -404,7 +404,8 @@ cluster_18  = cluster
  |> "m y n" <| [
 
     FILA'                     `noun`    {- <mInA'> -}          [ ['p','o','r','t'], ['h','a','r','b','o','r'] ]
-                              `plural`     FawALI,
+                              `plural`     FawALI
+                              `plural`     FawALi',
 
     FIL |< aT                 `noun`    {- <mInaT> -}          [ ['p','o','r','t'], ['h','a','r','b','o','r'] ]
                               `plural`     FiCaL ]
