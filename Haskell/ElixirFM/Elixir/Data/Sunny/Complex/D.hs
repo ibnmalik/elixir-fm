@@ -268,8 +268,6 @@ cluster_11  = cluster
 
     FiCL |< Un |< Iy          `adj`     {- <sittUnIy> -}       [ ['s','e','x','a','g','e','n','a','r','i','a','n'] ],
 
-    FiCL |< aT                `noun`    {- <sittaT> -}         [ ['s','i','x'] ],
-
     FACL                      `adj`     {- <sAtt> -}           [ ['s','i','x','t','h'] ] ]
 
  |> "s t t" <| [

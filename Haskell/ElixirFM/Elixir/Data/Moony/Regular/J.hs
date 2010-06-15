@@ -2027,7 +2027,7 @@ cluster_79  = cluster
 
     TaFACaL                   `verb`    {- <ta`A^sar> -}       [ unwords [ ['a','s','s','o','c','i','a','t','e'], ['w','i','t','h'], ['e','a','c','h'], ['o','t','h','e','r'] ], unwords [ ['h','a','v','e'], ['c','o','n','t','a','c','t'], ['w','i','t','h'], ['e','a','c','h'], ['o','t','h','e','r'] ] ],
 
-    FuCL                      `noun`    {- <`u^sr> -}          [ ['t','e','n','t','h'], unwords [ ['t','e','n','t','h'], ['p','a','r','t'] ] ]
+    FuCL                      `noun`    {- <`u^sr> -}          [ ['t','e','n','t','h'] ]
                               `plural`     HaFCAL
                               `plural`     FuCUL,
 
@@ -2056,7 +2056,7 @@ cluster_79  = cluster
     MaFCaL                    `noun`    {- <ma`^sar> -}        [ ['a','s','s','e','m','b','l','y'], ['c','o','m','m','u','n','i','t','y'] ]
                               `plural`     MaFACiL,
 
-    MiFCAL                    `noun`    {- <mi`^sAr> -}        [ unwords [ ['o','n','e'], ['t','e','n','t','h'] ], unwords [ ['t','e','n','t','h'], ['p','a','r','t'] ] ],
+    MiFCAL                    `noun`    {- <mi`^sAr> -}        [ ['t','e','n','t','h'] ],
 
     TaFCIL                    `noun`    {- <ta`^sIr> -}        [ unwords [ ['i','n','c','r','e','a','s','i','n','g'], ['t','e','n','f','o','l','d'] ] ]
                               `plural`     TaFCIL |< At,
@@ -2134,12 +2134,12 @@ cluster_81  = cluster
                            
     `limited` "-------P--",
 
-    MaFCUL                    `noun`    {- <ma`^sUq> -}        [ ['l','o','v','e','r'] ]
+    MaFCUL                    `adj`     {- <ma`^sUq> -}        [ ['b','e','l','o','v','e','d'] ],
+
+    MaFCUL                    `noun`    {- <ma`^sUq> -}        [ ['l','o','v','e','r'], ['s','w','e','e','t','h','e','a','r','t'] ]
                               `plural`     MaFCUL |< Un
                            
-    `derives` otherwise,
-
-    MaFCUL |< aT              `noun`    {- <ma`^sUqaT> -}      [ ['b','e','l','o','v','e','d'], ['s','w','e','e','t','h','e','a','r','t'] ] ]
+    `derives` otherwise ]
 
 
 cluster_82  = cluster

@@ -1041,8 +1041,6 @@ cluster_69  = cluster
                               `plural`     HaFCuL
                               `plural`     FiCAL,
 
-    FaCL |< aT                `noun`    {- <sab`aT> -}         [ ['s','e','v','e','n'] ],
-
     FaCL |< In |< At          `noun`    {- <sab`InAt> -}       [ ['s','e','v','e','n','t','i','e','s'] ]
                               `plural`     FaCL |< In |< At
                            

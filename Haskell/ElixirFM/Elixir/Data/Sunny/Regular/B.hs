@@ -873,7 +873,7 @@ cluster_57  = cluster
 
  |> "_t m n" <| [
 
-    FuCL                      `noun`    {- <_tumn> -}          [ unwords [ ['o','n','e'], "-", ['e','i','g','h','t','h'] ], ['e','i','g','h','t','h'] ]
+    FuCL                      `noun`    {- <_tumn> -}          [ ['e','i','g','h','t','h'] ]
                               `plural`     HaFCAL,
 
     FuCL |< aT                `noun`    {- <_tumnaT> -}        [ ['t','h','u','m','n','a'] ]

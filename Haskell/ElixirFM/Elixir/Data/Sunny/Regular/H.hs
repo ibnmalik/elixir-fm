@@ -253,9 +253,8 @@ cluster_15  = cluster
 
     FaCCaL                    `verb`    {- <saddas> -}         [ unwords [ ['m','a','k','e'], ['s','i','x'], "-", ['f','o','l','d'] ], unwords [ ['m','u','l','t','i','p','l','y'], ['b','y'], ['s','i','x'] ], unwords [ ['m','a','k','e'], ['h','e','x','a','g','o','n','a','l'] ] ],
 
-    FuCL                      `noun`    {- <suds> -}           [ unwords [ ['o','n','e'], ['s','i','x','t','h'] ], ['s','e','x','t','a','n','t'] ],
-
-    HaFCAL                    `noun`    {- <'asdAs> -}         [ ['s','i','x','t','h','s'] ],
+    FuCL                      `noun`    {- <suds> -}           [ ['s','i','x','t','h'], ['s','e','x','t','a','n','t'] ]
+                              `plural`     HaFCAL,
 
     FuCAL |< Iy               `adj`     {- <sudAsIy> -}        [ unwords [ ['s','i','x'], "-", ['p','a','r','t'] ], unwords [ ['s','i','x'], "-", ['f','o','l','d'] ] ],
 

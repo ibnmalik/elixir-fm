@@ -805,7 +805,8 @@ cluster_59  = cluster
 
  |> "t s `" <| [
 
-    FuCL                      `noun`    {- <tus`> -}           [ unwords [ ['o','n','e'], ['n','i','n','t','h'] ] ],
+    FuCL                      `noun`    {- <tus`> -}           [ ['n','i','n','t','h'] ]
+                              `plural`     HaFCAL,
 
     FACiL                     `adj`     {- <tAsi`> -}          [ ['n','i','n','t','h'] ],
 

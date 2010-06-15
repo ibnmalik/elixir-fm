@@ -1,54 +1,55 @@
 #! perl -w
 
 use ElixirFM;
-use ElixirFM::Exec;
 
-$data = join "", <>;                                # read plain text or the output of
-                                                    # `elixir resolve --lists`
+$/ = "\n:::: ";                             # provide the data of `elixir resolve --lists`
 
-$data = ElixirFM::Exec::elixir 'resolve', ['--lists'], $data
-                                                unless $data =~ /^:::: [^ \n]+\n/;
+while ($data = <>) {                        # process the data efficiently word by word
 
-@text = ElixirFM::unpretty $data;
+    $data = substr $data, 0, -5 if $data =~ /\n:::: $/;
 
-# use Data::Dumper;                                 # pretty print the complete data
-# print Data::Dumper->Dump([\@text], ['*text']);
+    $data = ":::: " . $data unless $data =~ /^:::: /;
 
-foreach my $line (@text) {                          # the text is processed by lines
+    $data = $data . "\n";
 
-    foreach my $word (@{$line}) {                   # words delimited by whitespace
+    @text = ElixirFM::unpretty $data;                   # recover structured information
 
-        my ($node, @data) = @{$word};               # $node is an array reference
-        my $form = join "", @{$node};               # remember the form for reuse
+    foreach my $line (@text) {                          # the text is processed by lines
 
-        print $form . "\n" unless @data;            # mention unrecognized words
+        foreach my $word (@{$line}) {                   # words delimited by whitespace
 
-        foreach my $data (@data) {                  # level of word tokenization
+            my ($node, @data) = @{$word};               # $node is an array reference
+            my $form = join "", @{$node};               # remember the form for reuse
 
-            my (undef, @data) = @{$data};
+            print $form . "\n" unless @data;            # mention unrecognized words
 
-            foreach my $data (@data) {              # grouped by lexeme sequences
+            foreach my $data (@data) {                  # level of word tokenization
 
-                my ($node, @data) = @{$data};       # $node contains lexeme refs
-                my @lexs = @{$node};                # remember lexemes for reuse
+                my (undef, @data) = @{$data};
 
-                foreach my $data (@data) {              # solution token sequences
+                foreach my $data (@data) {              # grouped by lexeme sequences
 
-                    my ($node, @data) = @{$data};       # @data contains solutions
+                    my ($node, @data) = @{$data};       # $node contains lexeme refs
+                    my @lexs = @{$node};                # remember lexemes for reuse
 
-                    print join "\t",
-                                $form,                                  # input word
-                                ( join "", @{$node} ),                  # token forms
-                                ( join " ", map { $_->[0] } @data ),    # token tags
-                                ( join " ", map { $_->[0] } @lexs ),    # lexeme ids
-                                ( join " ", map { $_->[1] } @lexs ).    # translation
-                               "\n";
+                    foreach my $data (@data) {              # solution token sequences
+
+                        my ($node, @data) = @{$data};       # @data contains solutions
+
+                        print join "\t",
+                                    $form,                                  # input word
+                                    ( join "", @{$node} ),                  # token forms
+                                    ( join " ", map { $_->[0] } @data ),    # token tags
+                                    ( join " ", map { $_->[0] } @lexs ),    # lexeme ids
+                                    ( join " ", map { $_->[1] } @lexs ).    # translation
+                                   "\n";
+                    }
                 }
             }
+
+            print "";                                   # separate input words
         }
 
-        print "\n";                                 # separate input words
+        print "\n";                                     # separate input lines
     }
-
-    print "\n";                                     # separate input lines
 }
