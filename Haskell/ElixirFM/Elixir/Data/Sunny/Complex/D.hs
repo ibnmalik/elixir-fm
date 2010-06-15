@@ -766,7 +766,15 @@ cluster_36  = cluster
 
  |> ['s','U','f','y','i','t'] <| [
 
+    _____                     `xtra`    {- <sUfyit> -}         [ ['S','o','v','i','e','t'] ],
+
+    al >| _____               `xtra`    {- <as-sUfyit> -}      [ ['S','o','v','i','e','t'] ],
+
     _____ |< Iy               `adj`     {- <sUfyitIy> -}       [ ['S','o','v','i','e','t'] ] ]
+
+ |> ['s','U','f','y','A','t'] <| [
+
+    _____ |< Iy               `adj`     {- <sUfyAtIy> -}       [ ['S','o','v','i','e','t'] ] ]
 
 
 cluster_37  = cluster

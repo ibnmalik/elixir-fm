@@ -674,17 +674,14 @@ cluster_43  = cluster
 
     KaRDAS |< Iy              `adj`     {- <'almAsIy> -}       [ ['d','i','a','m','o','n','d'] ],
 
-    MuKaRDiS                  `noun`    {- <mu'almis> -}       [ ['d','i','a','m','o','n','d'] ]
-                              `plural`     MuKaRDiS |< Un
-                           
-    `derives` otherwise ]
+    MuKaRDiS                  `adj`     {- <mu'almis> -}       [ ['d','i','a','m','o','n','d'] ] ]
 
 
 cluster_44  = cluster
 
- |> ['\'','a','l','a','m','u','n','y','U','m'] <| [
+ |> ['\'','a','l','U','m','i','n','y','U','m'] <| [
 
-    _____                     `noun`    {- <'alamunyUm> -}     [ ['a','l','u','m','i','n','u','m'] ] ]
+    _____                     `noun`    {- <'alUminyUm> -}     [ ['a','l','u','m','i','n','i','u','m'], ['a','l','u','m','i','n','u','m'] ] ]
 
 
 cluster_45  = cluster
@@ -780,7 +777,8 @@ cluster_48  = cluster
 
  |> "' l y" <| [
 
-    HACA'                     `noun`    {- <'AlA'> -}          [ ['b','e','n','e','f','i','t','s'], ['b','l','e','s','s','i','n','g','s'] ] ]
+    FiCY                      `noun`    {- <'ilY> -}           [ ['b','e','n','e','f','i','t'], ['b','l','e','s','s','i','n','g'] ]
+                              `plural`     HACA' ]
 
 
 cluster_49  = cluster

@@ -687,9 +687,11 @@ cluster_52  = cluster
 
     FuCALA'                   `noun`    {- <_tulA_tA'> -}      [ ['T','u','e','s','d','a','y'] ],
 
+    FuCaLA'                   `noun`    {- <_tula_tA'> -}      [ ['T','u','e','s','d','a','y'] ],
+
     FaCCaL                    `verb`    {- <_talla_t> -}       [ ['t','r','i','p','l','e'], ['t','r','e','b','l','e'] ],
 
-    FuCL                      `noun`    {- <_tul_t> -}         [ unwords [ ['o','n','e'], ['t','h','i','r','d'] ], ['t','h','i','r','d','s'] ]
+    FuCL                      `noun`    {- <_tul_t> -}         [ ['t','h','i','r','d'] ]
                               `plural`     HaFCAL,
 
     FACiL                     `adj`     {- <_tAli_t> -}        [ ['t','h','i','r','d'] ],

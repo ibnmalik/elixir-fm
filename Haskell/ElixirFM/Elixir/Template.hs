@@ -455,7 +455,7 @@ category x y | isArabic x = isArabic y
 
 isArabic :: Char -> Bool
 
-isArabic x = '\x0620' < x && x < '\x063B' || '\x063F' < x && x < '\x0653'
+isArabic x = '\x0620' < x && x < '\x063B' || '\x063F' < x && x < '\x0653' || x == '\x0670'
 
 
 sunny = [ "t", "_t", "d", "_d", "r", "z", "s", "^s",
@@ -470,7 +470,7 @@ moony = [ "'", "b", "^g", ".h", "_h", "`", ".g",
 letters :: String -> [String]
 
 letters ('.':z:s) | z `elem` "hsdtzgr" = ['.', z] : letters s
-letters ('_':z:s) | z `elem` "thdaIU"  = ['_', z] : letters s
+letters ('_':z:s) | z `elem` "thdaIUW" = ['_', z] : letters s
 letters ('^':z:s) | z `elem` "gscznl"  = ['^', z] : letters s
 letters (',':z:s) | z `elem` "c"       = [',', z] : letters s
 
@@ -484,7 +484,7 @@ letters []     = []
 next :: String -> Maybe (String, String)
 
 next (d:z:s) | d == '.' && z `elem` "hsdtzgr" = Just ([d, z], s)
-             | d == '_' && z `elem` "thdaIU"  = Just ([d, z], s)
+             | d == '_' && z `elem` "thdaIUW" = Just ([d, z], s)
              | d == '^' && z `elem` "gscznl"  = Just ([d, z], s)
              | d == ',' && z `elem` "c"       = Just ([d, z], s)
 
@@ -570,7 +570,8 @@ approx "t"  "T"  = True
 approx "y"  "I"  = True
 approx "y"  "Y"  = True
 approx "w"  "U"  = True
-approx "w"  "W"  = True
+approx "w"  "_W" = True
+approx "w"  "_U" = True
 approx _    _    = False
 
 
