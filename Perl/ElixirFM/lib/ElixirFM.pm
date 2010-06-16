@@ -706,7 +706,7 @@ sub clear {
 
 sub lists_trees {
 
-    my ($node, @data) = split /^[\t ]*[:]{1}[\t ]+/m, $_[0];
+    my ($node, @data) = split /^[\t ]*[:]{1}(?=[\t ]+)/m, $_[0];
 
     return  $node =~ /[()]/
 
