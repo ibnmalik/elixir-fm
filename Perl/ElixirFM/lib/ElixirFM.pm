@@ -706,7 +706,7 @@ sub clear {
 
 sub lists_trees {
 
-    my ($node, @data) = split /\n[\t ]*[:]{1}/, $_[0];
+    my ($node, @data) = split /^[\t ]*[:]{1}[\t ]+/m, $_[0];
 
     return  $node =~ /[()]/
 
@@ -804,19 +804,19 @@ sub unpretty {
 
         @data = map {
 
-            my (undef, @data) = split /[:]{4}/, $_;
+            my (undef, @data) = split /^[\t ]*[:]{4}[\t ]+/m, $_;
 
             [
                 map {
 
-                    my ($node, @data) = split /[:]{3}/, $_;
+                    my ($node, @data) = split /^[\t ]*[:]{3}[\t ]+/m, $_;
 
                     [
                         [ split ' ', $node ],
 
                         map {
 
-                            my ($node, @data) = split /[:]{2}/, $_;
+                            my ($node, @data) = split /^[\t ]*[:]{2}[\t ]+/m, $_;
 
                             [
                                 [ map { join ' ', split ' ' } split /(?<=[>])\s+(?=[<])/, $node ],
