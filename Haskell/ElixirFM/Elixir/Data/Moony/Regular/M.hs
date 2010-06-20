@@ -190,11 +190,23 @@ cluster_8   = cluster
 
 cluster_9   = cluster
 
+ |> ['f','I','d','I','r','A','l'] <| [
+
+    _____ |< Iy |< aT         `noun`    {- <fIdIrAlIyaT> -}    [ ['f','e','d','e','r','a','t','i','o','n'] ],
+
+    _____ |< Iy               `adj`     {- <fIdIrAlIy> -}      [ ['f','e','d','e','r','a','l'] ] ]
+
  |> ['f','I','d','i','r','A','l'] <| [
 
     _____ |< Iy |< aT         `noun`    {- <fIdirAlIyaT> -}    [ ['f','e','d','e','r','a','t','i','o','n'] ],
 
     _____ |< Iy               `adj`     {- <fIdirAlIy> -}      [ ['f','e','d','e','r','a','l'] ] ]
+
+ |> ['f','i','d','i','r','A','l'] <| [
+
+    _____ |< Iy |< aT         `noun`    {- <fidirAlIyaT> -}    [ ['f','e','d','e','r','a','t','i','o','n'] ],
+
+    _____ |< Iy               `adj`     {- <fidirAlIy> -}      [ ['f','e','d','e','r','a','l'] ] ]
 
 
 cluster_10  = cluster

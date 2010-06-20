@@ -115,7 +115,7 @@ harmony (ParaVerb (VerbP   Passive _ _ _)) 	_	= [Nothing]
 harmony (ParaVerb (VerbI _ Passive _ _ _)) 	_	= [Nothing]
 harmony (ParaVerb _) 	                    y	= [Nothing, Just ("SP------4-", euphony y)]
 
-harmony (ParaNoun (NounS _ _ (Nothing :-: True))) 	y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
+harmony (ParaNoun (NounN _ _ (Nothing :-: True))) 	y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
 harmony (ParaNoun _) 	                            _	= [Nothing]
 
 harmony (ParaAdj  (AdjA  _ _ _ (Nothing :-: True))) 	y	= [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
@@ -132,12 +132,13 @@ harmony (ParaNum  _) 	                                    _	= [Nothing]
 
 harmony (ParaAdv  _) 	_	= [Nothing]
 
-harmony (ParaPrep _) 	"la"	= [Nothing, Just ("S-------2-", (\ x -> euphony "la" x && x /= "nI"))]
-harmony (ParaPrep _) 	"li"	= [Nothing, Just ("[NAQDXZ]-------2-", const True),
+harmony (ParaPrep _) 	"la"	= [Nothing, Just ("SP------2-", (\ x -> euphony "la" x && x /= "nI"))]
+harmony (ParaPrep _) 	"li"	= [Nothing, Just ("S[-DR]------2-", const True),
+                                            Just ("[NAQDXZ]-------2-", const True),
                                             Just ("C---------", (== "'anna")),
                                             Just ("PI------2-", const True)]    -- in modern language
-harmony (ParaPrep _) 	"ka"	= [Nothing, Just ("S-------1-", const True),
-                                            Just ("S[DR]------2-", const True),
+harmony (ParaPrep _) 	"ka"	= [Nothing, Just ("SP------1-", const True),
+                                            Just ("S[-DR]------2-", const True),
                                             Just ("[NAQDXZ]-------2-", const True),
                                             Just ("C---------", (== "'anna")),
                                             Just ("PI------2-", const True)]    -- in modern language
@@ -155,12 +156,15 @@ harmony (ParaConj _) 	"li"	    = [Nothing, Just ("VIS-------", const True)]
 harmony (ParaConj _)    y
 
     | y `elem` ["'anna", "'inna", "ka-'anna", "li-'anna"]   = [Nothing, Just ("SP------4-", euphony y)]
-    | otherwise                                             = [Nothing, Just ("S-------1-", const True),
+    | otherwise                                             = [Nothing, Just ("SP------1-", const True),
+                                                                        Just ("S[-DR]--------", const True),
                                                                         Just ("[VNAQDPCFIXZ]---------", const True)]
 
 harmony (ParaPart _) 	"sa"	= [Nothing, Just ("VII-------", const True)]
 harmony (ParaPart _) 	"li"	= [Nothing, Just ("VIJ-------", const True)]
-harmony (ParaPart _) 	"la"	= [Nothing, Just ("[VNAQDPFIXZ]---------", const True)]                     -- excluding "[SCY]---------"
+harmony (ParaPart _) 	"la"	= [Nothing, Just ("[VNAQDPFIXZ]---------", const True),
+                                            Just ("SP------1-", const True),
+                                            Just ("S[-DR]--------", const True)]                            -- excluding "[CY]---------"
 harmony (ParaPart _) 	"'IyA"	= [Nothing, Just ("SP------2-", (\ x -> euphony "'IyA" x && x /= "nI"))]
 harmony (ParaPart _) 	y	    = [Nothing, Just ("[VNAQDXZ]-------4-", const True),                        -- excluding "[SCPFIY]---------"
                                             Just ("SP------4-", euphony y)]
@@ -229,7 +233,7 @@ continue :: ParaType -> [[Maybe String]]
 
 continue (ParaVerb _) = [[Nothing], [Just "SP------4-"]]
 
-continue (ParaNoun (NounS _ _ (Nothing :-: True))) = [[Nothing], [Just "SP---1-S2-"],
+continue (ParaNoun (NounN _ _ (Nothing :-: True))) = [[Nothing], [Just "SP---1-S2-"],
                                                                  [Just "SP---1-D2-",
                                                                   Just "SP---1-P2-",
                                                                   Just "SP---2--2-",

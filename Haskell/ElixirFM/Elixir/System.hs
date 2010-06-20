@@ -175,7 +175,7 @@ data TagsVerb = TagsVerbP             [Voice] [Person] [Gender] [Number]
     deriving Eq
 
 
-data TagsNoun = TagsNounS [Humanness] [Voice]          [Gender] [Number] [Case] [State]
+data TagsNoun = TagsNounN [Humanness] [Voice]          [Gender] [Number] [Case] [State]
 
     deriving Eq
 
@@ -398,10 +398,10 @@ instance Restrict TagsVerb where
 
 instance Restrict TagsNoun where
 
-    complete = [TagsNounS [] [] [] [] [] []]
+    complete = [TagsNounN [] [] [] [] [] []]
 
-    restrict (TagsNounS h v   g n c s) y = [ TagsNounS h  v     g  n  c  s  |
-                                             TagsNounS h' v'    g' n' c' s' <- y,
+    restrict (TagsNounN h v   g n c s) y = [ TagsNounN h  v     g  n  c  s  |
+                                             TagsNounN h' v'    g' n' c' s' <- y,
                                              h <- lets h h', v <- lets v v',
                                              g <- lets g g', n <- lets n n',
                                              c <- lets c c', s <- lets s s' ]
@@ -570,7 +570,7 @@ instance Show TagsVerb where
 
 instance Show TagsNoun where
 
-    show (TagsNounS h v g n c s) = "N" ++ concat [noshowlist, showlist h, showlist v,
+    show (TagsNounN h v g n c s) = "N" ++ concat [noshowlist, showlist h, showlist v,
                                                   noshowlist, noshowlist, showlist g,
                                                   showlist n, showlist c, showlist s]
 
@@ -701,7 +701,7 @@ instance Read TagsTypes where
 
         where rs = [ r | (y, z) <- readSlot x,
 
-                         v <- if y == "-" then "VNASQDPCFIXYZG" else y,
+                         v <- if null y then "VNASQDPCFIXYZG" else y,
 
                          r <- case v of
 
@@ -731,7 +731,7 @@ instance Read TagsVerb where
                        (y6, x7) <- readSlot x6, (y7, x8) <- readSlot x7,
                        (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
 
-                       v1 <- if y1 == "-" then "PIC" else y1,
+                       v1 <- if null y1 then "PIC" else y1,
 
                        r' <- case v1 of
 
@@ -762,7 +762,7 @@ instance Read TagsNoun where
                        (y6, x7) <- readSlot x6, (y7, x8) <- readSlot x7,
                        (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
 
-                       let r =         TagsNounS (readData y2)
+                       let r =         TagsNounN (readData y2)
                                                  (readData y3)
                                                  (readData y6)
                                                  (readData y7)
@@ -796,7 +796,7 @@ instance Read TagsPron where
                        (y6, x7) <- readSlot x6, (y7, x8) <- readSlot x7,
                        (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
 
-                       v1 <- if y1 == "-" then "-PDR" else y1,
+                       v1 <- if null y1 then "-PDR" else y1,
 
                        r' <- case v1 of
 
@@ -827,7 +827,7 @@ instance Read TagsNum where
                        (y6, x7) <- readSlot x6, (y7, x8) <- readSlot x7,
                        (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
 
-                       v1 <- if y1 == "-" then "-IVXYLCDM" else y1,
+                       v1 <- if null y1 then "-IVXYLCDM" else y1,
 
                        r' <- case v1 of
 
@@ -885,7 +885,7 @@ instance Read TagsPrep where
                        (y6, x7) <- readSlot x6, (y7, x8) <- readSlot x7,
                        (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
 
-                       v1 <- if y1 == "-" then "-I" else y1,
+                       v1 <- if null y1 then "-I" else y1,
 
                        r' <- case v1 of
 
@@ -998,9 +998,8 @@ readData x = [ y | let v = [ (show' z, z) | z <- values ], c <- x, Just y <- [lo
 readSlot :: ReadS String
 
 readSlot [] = []
-readSlot x  = [ ([c], s) | (c, s) <- readLitChar x, c /= '[', c /= ']' ] ++
-              [ (c, s) | ('[', z) <- readLitChar x,
-                           (c, y) <- lex z, not (null y),
+readSlot x  = [ (if c == '-' then [] else [c], s) | (c, s) <- readLitChar x, c /= '[', c /= ']' ] ++
+              [ (c, s) | ('[', z) <- readLitChar x, let (c, y) = break (`elem` "][") z, not (null y),
                          (']', s) <- readLitChar y ]
 
 
@@ -1205,7 +1204,7 @@ instance Show ParaVerb where
                                    [show' g, show' n] ++ "--"
 
 
-data ParaNoun   = NounS              Number Case State
+data ParaNoun   = NounN              Number Case State
             --- | NounP Voice Gender Number Case State
             --- | NounA       Gender Number Case State
     deriving Eq
@@ -1215,7 +1214,7 @@ data ParaNoun   = NounS              Number Case State
 
 instance Param ParaNoun where
 
-    values  =  [ NounS     n c s | n <- values,
+    values  =  [ NounN     n c s | n <- values,
                                    s <- [indefinite, construct, definite, absolute],
                                    c <- values ]
             -- ++ [ NounP v g n c s | v <- values, n <- values, g <- values,
@@ -1226,7 +1225,7 @@ instance Param ParaNoun where
 
 instance Show ParaNoun where
 
-    show (NounS     n c s) =    show (TagsNounS [] [] [] [n] [c] [s])
+    show (NounN     n c s) =    show (TagsNounN [] [] [] [n] [c] [s])
 
                              -- "N------" ++ [show' n, show' c, show' s]
 
@@ -1428,7 +1427,7 @@ revert (ParaVerb (VerbP   v p g n))  = TagsVerb [TagsVerbP     [v] [p] [g] [n]]
 revert (ParaVerb (VerbI m v p g n))  = TagsVerb [TagsVerbI [m] [v] [p] [g] [n]]
 revert (ParaVerb (VerbC m     g n))  = TagsVerb [TagsVerbC [m]         [g] [n]]
 
-revert (ParaNoun (NounS   n c s))  = TagsNoun [TagsNounS []  []  []  [n] [c] [s]]
+revert (ParaNoun (NounN   n c s))  = TagsNoun [TagsNounN []  []  []  [n] [c] [s]]
 
 revert (ParaAdj  (AdjA  g n c s))  = TagsAdj  [TagsAdjA  []  []  [g] [n] [c] [s]]
 

@@ -94,6 +94,17 @@ cluster_10  = cluster
 
 cluster_11  = cluster
 
+ |> ['\'','U','s','t','u','r','A','l'] <| [
+
+    _____ |< iyA              `xtra`    {- <'UsturAliyA> -}    [ ['A','u','s','t','r','a','l','i','a'] ],
+
+    _____ |< Iy               `adj`     {- <'UsturAlIy> -}     [ ['A','u','s','t','r','a','l','i','a','n'] ],
+
+    _____ |< Iy               `noun`    {- <'UsturAlIy> -}     [ ['A','u','s','t','r','a','l','i','a','n'] ]
+                              `plural`     _____ |< Iy |< Un
+                           
+    `derives` otherwise ]
+
  |> ['\'','u','s','t','u','r','A','l'] <| [
 
     _____ |< iyA              `xtra`    {- <'usturAliyA> -}    [ ['A','u','s','t','r','a','l','i','a'] ],

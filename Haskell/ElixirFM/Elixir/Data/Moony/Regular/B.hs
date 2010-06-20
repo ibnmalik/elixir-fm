@@ -577,7 +577,7 @@ cluster_41  = cluster
 
  |> ['b','u','r','t','U','.','g','A','l'] <| [
 
-    _____                     `xtra`    {- <burtU.gAl> -}      [ ['P','o','r','t','u','g','a','l'] ],
+    al >| _____               `xtra`    {- <al-burtU.gAl> -}   [ ['P','o','r','t','u','g','a','l'] ],
 
     _____ |< Iy               `adj`     {- <burtU.gAlIy> -}    [ ['P','o','r','t','u','g','u','e','s','e'] ],
 
@@ -588,7 +588,7 @@ cluster_41  = cluster
 
  |> ['b','u','r','t','u','.','g','A','l'] <| [
 
-    _____                     `xtra`    {- <burtu.gAl> -}      [ ['P','o','r','t','u','g','a','l'] ],
+    al >| _____               `xtra`    {- <al-burtu.gAl> -}   [ ['P','o','r','t','u','g','a','l'] ],
 
     _____ |< Iy               `adj`     {- <burtu.gAlIy> -}    [ ['P','o','r','t','u','g','u','e','s','e'] ],
 

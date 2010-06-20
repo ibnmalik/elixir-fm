@@ -331,11 +331,11 @@ noun h = Entry m (Noun [] Nothing Nothing Nothing) (TagsNoun d, [])
 
           (m, d) = case s of
 
-                        Suffix "aN" : _ -> (Morphs t p (tail s), [TagsNounS [] [] [] [Singular] [Accusative]
+                        Suffix "aN" : _ -> (Morphs t p (tail s), [TagsNounN [] [] [] [Singular] [Accusative]
                                                                  [indefinite]])
-                        Suffix "a" : _  -> (Morphs t p (tail s), [TagsNounS [] [] [] [Singular] [Accusative]
+                        Suffix "a" : _  -> (Morphs t p (tail s), [TagsNounN [] [] [] [Singular] [Accusative]
                                                                  [if article then definite else construct]])
-                        _               -> (Morphs t p s, if article then [TagsNounS [] [] [] [] [] [definite]]
+                        _               -> (Morphs t p s, if article then [TagsNounN [] [] [] [] [] [definite]]
                                                                      else [])
 
           article = case p of

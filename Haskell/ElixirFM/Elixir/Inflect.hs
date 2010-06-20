@@ -291,7 +291,7 @@ instance Inflect Lexeme TagsVerb where
 
 instance Inflect Lexeme TagsNoun where
 
-    inflect (Lexeme r e) (TagsNounS _ _ _ n c s) = [ (y, lists z q) |
+    inflect (Lexeme r e) (TagsNounN _ _ _ n c s) = [ (y, lists z q) |
 
             let (d, l) = limits e,
 
@@ -301,9 +301,9 @@ instance Inflect Lexeme TagsNoun where
                 c' = vals c
                 s' = trim s [indefinite, construct, definite, absolute]
 
-                d' = TagsNounS [] [] [] n' c' s',
+                d' = TagsNounN [] [] [] n' c' s',
 
-            TagsNounS _ _ _ n' c' s' <- if null y then [d'] else restrict d' y,
+            TagsNounN _ _ _ n' c' s' <- if null y then [d'] else restrict d' y,
 
             let x = except e,
 
@@ -313,11 +313,11 @@ instance Inflect Lexeme TagsNoun where
 
             s <- s', c <- c',
 
-            let y = ParaNoun (NounS n c s),
+            let y = ParaNoun (NounN n c s),
 
             let q = [ (r, q) | (d', r') <- l, TagsNoun y <- d',
 
-                       q <- if null (restrict (TagsNounS [] [] [] [n] [c] [s]) y)
+                       q <- if null (restrict (TagsNounN [] [] [] [n] [c] [s]) y)
 
                             then [] else r' ],
 
@@ -1133,7 +1133,7 @@ instance Inflect Lexeme ParaNoun where
     -- inflect x y = [(ParaNoun y, inflectNoun x y)]
 
 
-inflectNoun (Lexeme r e) (NounS n c s) = (map (inRules r c s x) . inEntry n) e
+inflectNoun (Lexeme r e) (NounN n c s) = (map (inRules r c s x) . inEntry n) e
 
     where x = except e
 

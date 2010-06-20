@@ -625,6 +625,14 @@ cluster_33  = cluster
 
 cluster_34  = cluster
 
+ |> ['k','A','b','U','l'] <| [
+
+    _____                     `noun`    {- <kAbUl> -}          [ ['K','a','b','u','l'] ],
+
+    _____ |< Iy               `adj`     {- <kAbUlIy> -}        [ unwords [ ['o','f'], "/", ['f','r','o','m'], ['K','a','b','u','l'] ] ],
+
+    _____ |< Iy               `noun`    {- <kAbUlIy> -}        [ ['K','a','b','u','l','i'] ] ]
+
  |> ['k','A','b','u','l'] <| [
 
     _____                     `noun`    {- <kAbul> -}          [ ['K','a','b','u','l'] ],
