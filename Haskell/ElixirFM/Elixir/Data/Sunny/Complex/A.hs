@@ -761,9 +761,9 @@ cluster_59  = cluster
     FuCayL |< aT              `noun`    {- <_turayyaT> -}      [ ['c','h','a','n','d','e','l','i','e','r'] ]
                               `plural`     FuCayL |< At,
 
-    FuCayLA                   `noun`    {- <_turayyA> -}       [ ['P','l','e','i','a','d','e','s'] ],
+    FuCayLY                   `noun`    {- <_turayyY> -}       [ ['P','l','e','i','a','d','e','s'] ],
 
-    FuCayLA                   `noun`    {- <_turayyA> -}       [ ['T','h','u','r','a','y','y','a'], ['S','u','r','a','y','a'] ] ]
+    FuCayLY                   `noun`    {- <_turayyY> -}       [ ['T','h','u','r','a','y','y','a'], ['S','u','r','a','y','a'] ] ]
 
 
 cluster_60  = cluster

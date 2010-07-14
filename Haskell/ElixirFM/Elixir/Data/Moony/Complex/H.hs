@@ -303,18 +303,22 @@ cluster_7   = cluster
 
     FuCaL                     `noun`    {- <.humam> -}         [ ['m','a','g','m','a'], ['c','i','n','d','e','r','s'] ],
 
-    FuCLY                     `noun`    {- <.hummY> -}         [ ['f','e','v','e','r'], ['h','e','a','t'] ],
+    FuCLY                     `noun`    {- <.hummY> -}         [ ['f','e','v','e','r'], ['h','e','a','t'] ]
+                              `plural`     FuCLY |< At,
 
     FuCL |< Iy                `adj`     {- <.hummIy> -}        [ ['f','e','v','e','r','i','s','h'] ],
 
     FaCAL                     `noun`    {- <.hamAm> -}         [ ['d','o','v','e'], ['p','i','g','e','o','n'] ]
-                              `plural`     FaCAL |< At
-                              `plural`     FaCA'iL,
+                              `plural`     FaCA'iL
+                           
+    `derives` otherwise,
 
     FaCAL                     `noun`    {- <.hamAm> -}         [ ['H','a','m','a','m'] ],
 
-    FaCCAL                    `noun`    {- <.hammAm> -}        [ ['b','a','t','h'] ]
+    FaCCAL                    `noun`    {- <.hammAm> -}        [ ['b','a','t','h'], ['b','a','t','h','r','o','o','m'], ['s','p','a'] ]
                               `plural`     FaCCAL |< At,
+
+    al >| FaCCAL |< At        `noun`    {- <al-.hammAmAt> -}   [ ['H','a','m','m','a','m','e','t'] ],
 
     FaCIL                     `noun`    {- <.hamIm> -}         [ unwords [ ['c','l','o','s','e'], ['f','r','i','e','n','d'] ], ['i','n','t','i','m','a','t','e'] ]
                               `plural`     HaFiCLA'
@@ -361,7 +365,9 @@ cluster_9   = cluster
 
     FaCIL                     `adj`     {- <.hamIy> -}         [ ['g','l','o','w','i','n','g'], ['h','e','a','t','e','d'] ],
 
-    FaCIL |< aT               `noun`    {- <.hamIyaT> -}       [ ['z','e','a','l'], ['p','a','s','s','i','o','n'] ],
+    FaCIL |< aT               `noun`    {- <.hamIyaT> -}       [ ['z','e','a','l'], ['p','a','s','s','i','o','n'], ['e','n','t','h','u','s','i','a','s','m'] ],
+
+    FuCayLY                   `noun`    {- <.humayyY> -}       [ ['h','e','a','t'], ['e','x','c','i','t','e','m','e','n','t'], ['e','n','t','h','u','s','i','a','s','m'], ['p','a','s','s','i','o','n'] ],
 
     MaFCY                     `noun`    {- <ma.hmY> -}         [ ['f','u','r','n','a','c','e'] ],
 

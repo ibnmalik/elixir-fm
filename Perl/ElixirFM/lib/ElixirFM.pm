@@ -204,7 +204,7 @@ sub describe {
 
     my $i = 0;
 
-    my @slot = map { $i++ % 2 ? [ split //, $_ ] : map { [$_] } split //, $_ } split /[\[\]]/, $_[0];
+    my @slot = map { $i++ % 2 ? [ split //, $_ ] : map { [ $_ ne '-' ? $_ : () ] } split //, $_ } split /[\[\]]/, $_[0];
 
     my $terse = defined $_[1] ? $_[1] : '';
 
@@ -216,8 +216,6 @@ sub describe {
 
         push @slot, ([]) x ($dims - @slot);
     }
-
-    @slot = map { [ grep { $_ ne '-' } @{$_} ] } @slot;
 
     my @type = map { my $x = $_;
 
@@ -327,7 +325,7 @@ sub retrieve {
         $word =~ /^lift/i               and push @{$tags->[9]}, 'L' and next;
         $word =~ /^under/i              and push @{$tags->[9]}, 'L' and next;
 
-        if (@slot = $word =~ /\G([-A-Z1-4]|\[[A-Z1-4]+\])/g) {
+        if (@slot = $word =~ /\G([-A-Z1-4]|\[[-A-Z1-4]*\])/g) {
 
             if (@slot > $dims) {
 

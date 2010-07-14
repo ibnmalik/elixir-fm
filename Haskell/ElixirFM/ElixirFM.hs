@@ -88,6 +88,6 @@ import Prelude hiding (lookup)
 
 import Version
 
-version = Version [1, 1, max build 973] []
+version = Version [1, 1, max build 976] []
 
     where Version [build] [] = revised "$Revision$"
