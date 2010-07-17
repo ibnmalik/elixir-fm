@@ -1,9 +1,9 @@
 #! perl -w
 
+use Encode::Arabic ':modes';
+
 use Encode::Arabic::ArabTeX ':simple';
 use Encode::Arabic::Buckwalter ':xml';
-
-use Encode::Arabic ':modes';
 
 demode "buckwalter", "noneplus";        # remove diacritics
 
@@ -12,6 +12,7 @@ while ($line = <>) {
     next if $line =~ /^[\t ]*[(<>)]/ or $line =~ /^[\t ]+:::[\t ]+/;
 
     if ($line =~ /^[\t ]*(?:[^\t ]{10}| {10})\t([^\t ]+)\t"/ or
+        $line =~ /^[\t ]*(?:[^\t ]{12}| {12})\t[^\t ]+\t([^\t ]+)\t"/ or
         $line =~ /^[\t ]+:{1,2}[\t ]+<([^>]+)>/ or
         $line =~ /^[\t ]*[^\t ]+[\t ]+<([^>]+)>[\t ]+[^\t ]+/) {
 
