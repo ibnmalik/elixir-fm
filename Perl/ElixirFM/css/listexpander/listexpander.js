@@ -97,13 +97,15 @@ this.listexpander = function(){
 
                     var xtag = items[j].getElementsByTagName("td")[0];
 
-                    if (xtag.firstChild.nodeValue.match(/[XY]/)) shows = true;
+                    if (xtag.firstChild.nodeValue.match(/^[XY]/)) shows = true;
                 }
             }
 
+	    var value = i.value;
+
             if (shows) {
 
-                i.value = 'X foreign Y acronym';
+                i.value = 'X foreign Y acronym ' + value;
                 exclude(list, i);
 
                 var hides = true;
@@ -115,7 +117,40 @@ this.listexpander = function(){
 
                 if (hides) {
 
-                    i.value = '';
+                    i.value = value;
+                    exclude(list, i);
+                }
+            }
+
+            var shows = false;
+
+            for (var j = 0; j < items.length; j++) {
+
+                if (items[j].parentNode.level == expandMax - 1) {
+
+                    var xtag = items[j].getElementsByTagName("td")[0];
+
+                    if (xtag.firstChild.nodeValue.match(/[ACL]$/)) shows = true;
+                }
+            }
+
+	    var value = i.value;
+
+            if (shows) {
+
+                i.value = 'absolute over under ' + value;
+                exclude(list, i);
+
+                var hides = true;
+
+                for (var j = 0; j < items.length; j++) {
+
+                    if (items[j].style.display == 'block') hides = false;
+                }
+
+                if (hides) {
+
+                    i.value = value;
                     exclude(list, i);
                 }
             }
@@ -153,6 +188,8 @@ this.listexpander = function(){
         for (var i = items.length - 1; i > -1; i--) {
 
             var level = items[i].parentNode.level;
+
+	    if (level < 2) continue;
 
             if (level == expandMax) {
 
