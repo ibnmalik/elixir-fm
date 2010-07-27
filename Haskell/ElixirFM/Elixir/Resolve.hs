@@ -637,7 +637,8 @@ instance Resolve [UPoint] where
                     'i' : 't' : y                       ->  tokens''''' y "i"
                     't' : y                             ->  tokens''''' y ""
 
-                    'A' : y                             ->  [[reverse y ++ "Y"]]
+                    'A' : y                             ->  [[reverse y ++ "OY"], [reverse y ++ "Y"]]
+                    '|' : y                             ->  [[reverse y ++ "OY"]]
 
                     'w' : 'u' : 'm' : 'u' : 't' : y     ->  [[reverse y ++ "tum"]]
                     'w' : 'm' : 'u' : 't' : y           ->  [[reverse y ++ "tum"]]
