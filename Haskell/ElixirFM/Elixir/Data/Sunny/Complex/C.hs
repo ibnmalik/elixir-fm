@@ -326,6 +326,8 @@ cluster_13  = cluster
     TaFaCCuL                  `noun`    {- <taraqquq> -}       [ ['a','t','o','m','i','z','a','t','i','o','n'] ]
                               `plural`     TaFaCCuL |< At,
 
+    IstiFCAL                  `noun`    {- <istirqAq> -}       [ ['s','o','f','t','e','n','i','n','g'], ['e','n','s','l','a','v','e','m','e','n','t'] ],
+
     MaFCUL                    `noun`    {- <marqUq> -}         [ unwords [ ['m','a','r','q','o','u','q'], "(", ['t','h','i','n'], ['b','r','e','a','d'], ")" ] ] ]
 
 

@@ -530,7 +530,7 @@ lexicon = listing "Extended lexicon"
                             `plural` FaCaL |< At,
 
         FaCaL               <::>    "QY--------"
-                                                        <..>    [ "-teen" ]
+                                                        <..>    [ unwords [ "-", "teen" ] ]
                             `femini` FaCL |< aT,
 
         FiCL |< Un          <::>    "QL--------"
@@ -721,6 +721,35 @@ lexicon = listing "Extended lexicon"
 
         _____               <::>    "QM--------"
                                                         <..>    [ "trillion" ]
+                            `plural` _____ |< At
+
+                            <.>     "QM-----S1I"
+                                                        <:>     _____ |<< "uN"
+                            <.>     "QM-----S2I"
+                                                        <:>     _____ |<< "iN"
+                            <.>     "QM-----S4I"
+                                                        <:>     _____ |<< "aN"
+        ]
+
+
+    |> ".gU.gUl" <| [
+
+        _____               <::>    "QM--------"
+                                                        <..>    [ "googol" ]
+                            `plural` _____ |< At
+
+                            <.>     "QM-----S1I"
+                                                        <:>     _____ |<< "uN"
+                            <.>     "QM-----S2I"
+                                                        <:>     _____ |<< "iN"
+                            <.>     "QM-----S4I"
+                                                        <:>     _____ |<< "aN"
+
+
+    |> "^gU^gUl" <| [
+
+        _____               <::>    "QM--------"
+                                                        <..>    [ "googol" ]
                             `plural` _____ |< At
 
                             <.>     "QM-----S1I"
