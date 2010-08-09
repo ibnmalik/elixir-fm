@@ -744,6 +744,7 @@ lexicon = listing "Extended lexicon"
                                                         <:>     _____ |<< "iN"
                             <.>     "QM-----S4I"
                                                         <:>     _____ |<< "aN"
+        ]
 
 
     |> "^gU^gUl" <| [
