@@ -41,7 +41,7 @@ this.listexpander = function(){
 
     this.create = function(list) {
         list.limit = expandInit;
-	list.level = 1;
+        list.level = 1;
         var items = list.getElementsByTagName("li");
         for(var i=0;i<items.length;i++){
             listItem(items[i], list);
@@ -93,15 +93,22 @@ this.listexpander = function(){
 
             for (var j = 0; j < items.length; j++) {
 
-                if (items[j].parentNode.level == expandMax - 1) {
+                if (items[j].parentNode.level == expandMax) {
 
-                    var xtag = items[j].getElementsByTagName("td")[0];
+                    var xtag = items[j].getElementsByClassName("xtag");
 
-                    if (xtag.firstChild.nodeValue.match(/^[XY]/)) shows = true;
+                    for (var x = 0; x < xtag.length; x++) {
+
+                        if (xtag[x].firstChild.nodeValue.match(/^[XY]/)) {
+
+                            shows = true;
+                            break;
+                        }
+                    }
                 }
             }
 
-	    var value = i.value;
+            var value = i.value;
 
             if (shows) {
 
@@ -112,7 +119,11 @@ this.listexpander = function(){
 
                 for (var j = 0; j < items.length; j++) {
 
-                    if (items[j].style.display == 'block') hides = false;
+                    if (items[j].style.display == 'block') {
+
+                        hides = false;
+                        break;
+                    }
                 }
 
                 if (hides) {
@@ -126,15 +137,22 @@ this.listexpander = function(){
 
             for (var j = 0; j < items.length; j++) {
 
-                if (items[j].parentNode.level == expandMax - 1) {
+                if (items[j].parentNode.level == expandMax) {
 
-                    var xtag = items[j].getElementsByTagName("td")[0];
+                    var xtag = items[j].getElementsByClassName("xtag");
 
-                    if (xtag.firstChild.nodeValue.match(/[ACL]$/)) shows = true;
+                    for (var x = 0; x < xtag.length; x++) {
+
+                        if (xtag[x].firstChild.nodeValue.match(/[ACL]$/)) {
+
+                            shows = true;
+                            break;
+                        }
+                    }
                 }
             }
 
-	    var value = i.value;
+            var value = i.value;
 
             if (shows) {
 
@@ -145,7 +163,11 @@ this.listexpander = function(){
 
                 for (var j = 0; j < items.length; j++) {
 
-                    if (items[j].style.display == 'block') hides = false;
+                    if (items[j].style.display == 'block') {
+
+                        hides = false;
+                        break;
+                    }
                 }
 
                 if (hides) {
@@ -189,7 +211,7 @@ this.listexpander = function(){
 
             var level = items[i].parentNode.level;
 
-	    if (level < 2) continue;
+            if (level < 2) continue;
 
             if (level == expandMax) {
 
@@ -362,7 +384,7 @@ this.listexpander = function(){
 
     this.limited = function(node, list) {
         if (node.level == undefined) {
-	    node.level = 2;
+            node.level = 2;
             var root = node.parentNode;
             while(root != list) {
                 if (root.nodeName == "UL") node.level++;
