@@ -33,11 +33,11 @@ instance Pretty (Wrap Nest) => Pretty [Lexicon] where
 
     pretty xs = text "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
                 <$$> -- empty <$$>
-    	        (element "ElixirFM" [("xmlns", "http://ufal.mff.cuni.cz/pdt/pml/")] .
+                (element "ElixirFM" [("xmlns", "http://ufal.mff.cuni.cz/pdt/pml/")] .
                     (element "head" [] (elempty "schema" [("href", "elixir.schema.xml")]) <$$>) .
                     (element "meta" [] (elemtxt "revision" [] (text ("$" ++ "Revision: " ++ "$")) <$$>
                                         elemtxt "date" [] (text ("$" ++ "Date: " ++ "$"))) <$$>) .
-		             element "data" []) (vcat (map pretty xs))
+                     element "data" []) (vcat (map pretty xs))
                 <$$> empty
 
 
@@ -126,25 +126,25 @@ instance Show a => Pretty (Entity a) where
 
     pretty x = case x of    Verb f p i c t v m  ->  elemesp "Verb" $
 
-            					eraseEmpty   f [ elemtxt "form"   [] $ (pretty . map show) f ]
+                                eraseEmpty   f [ elemtxt "form"   [] $ (pretty . map show) f ]
                                 ++
                                 eraseEmpty   p [ elemtxt "pfirst" [] $ (pretty . map show) p ]
                                 ++
                                 eraseEmpty   i [ elemtxt "imperf" [] $ (pretty . map show) i ]
                                 ++
-            					eraseEmpty   c [ elemtxt "second" [] $ (pretty . map show) c ]
-            					++
-            					eraseNothing t [ elemtxt "tense"  [] $ case t of
+                                eraseEmpty   c [ elemtxt "second" [] $ (pretty . map show) c ]
+                                ++
+                                eraseNothing t [ elemtxt "tense"  [] $ case t of
 
                                                             Just Perfect    ->  text "Perfect"
                                                             Just Imperfect  ->  text "Imperfect" ]
-            					++
-            					eraseNothing v [ elemtxt "voice"  [] $ case v of
+                                ++
+                                eraseNothing v [ elemtxt "voice"  [] $ case v of
 
                                                             Just Active     ->  text "Active"
                                                             Just Passive    ->  text "Passive" ]
                                 ++
-            					eraseEmpty   m [ elemtxt "masdar" [] $ (pretty . map show) m ]
+                                eraseEmpty   m [ elemtxt "masdar" [] $ (pretty . map show) m ]
 
                             Noun l e g d        ->  elemesp "Noun" $
 
@@ -161,17 +161,17 @@ instance Show a => Pretty (Entity a) where
                             Adj  l f n          ->  elemesp "Adj" $
 
                                 eraseEmpty   l [ elemtxt "plural" [] $ (pretty . map show) l ]
-            					++
+                                ++
                                 eraseEmpty   f [ elemtxt "femini" [] $ (pretty . map show) f ]
-               					++
-            					eraseNothing n [ elemtxt "number" [] $ pretty n ]
+                                ++
+                                eraseNothing n [ elemtxt "number" [] $ pretty n ]
 
                             Pron                ->  elemesp "Pron" []
 
                             Num  l f            ->  elemesp "Num"  $
 
                                 eraseEmpty   l [ elemtxt "plural" [] $ (pretty . map show) l ]
-            					++
+                                ++
                                 eraseEmpty   f [ elemtxt "femini" [] $ (pretty . map show) f ]
 
                             Adv                 ->  elemesp "Adv"  []

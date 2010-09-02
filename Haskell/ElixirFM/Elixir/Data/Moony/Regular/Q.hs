@@ -112,7 +112,6 @@ cluster_5   = cluster
     FaCiL                     `verb`    {- <qani`> -}          [ unwords [ ['b','e'], ['c','o','n','v','i','n','c','e','d'] ], unwords [ ['b','e'], ['s','a','t','i','s','f','i','e','d'] ] ]
                               `imperf`     FCaL
                               `masdar`     FaCaL
-                              `masdar`     FuCLAn
                               `masdar`     FaCAL |< aT,
 
     FaCCaL                    `verb`    {- <qanna`> -}         [ ['c','o','n','v','i','n','c','e'], ['p','e','r','s','u','a','d','e'] ],

@@ -113,7 +113,7 @@ main = do   argv <- getArgs
                 PrintVersion    ->  tell (unlines [copyleft,
                                           unwords ["ElixirFM",
                                                    showVersion Main.version,
-                                                   "August 2010"]])
+                                                   "September 2010"]])
 
                 DisplayUsage    ->  tell (usageInfo synopsis options)
 

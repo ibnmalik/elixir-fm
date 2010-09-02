@@ -39,8 +39,7 @@ instance (Show a, Template a) => Pretty (TagsType, [(Form, Lexeme a)]) where
 
 class Derive m p where
 
-    derive :: (Forming a, Morphing a a, Morphing (Morphs a) a, Rules a) =>
-              m a -> p -> [(TagsType, [(Form, Lexeme a)])]
+    derive :: (Morphing a a, Forming a, Rules a) => m a -> p -> [(TagsType, [(Form, Lexeme a)])]
 
 
 newtype Derived a = Derived [(TagsType, [(Form, Lexeme a)])]
@@ -156,7 +155,7 @@ instance Derive Lexeme a => Derive Entry a where
     derive x = derive (Lexeme "f ` l" x)
 
 
-lookupForm :: (Eq a, Forming a, Morphing a a) => Root -> Entry a -> [Form]
+lookupForm :: (Morphing a a, Forming a, Eq a) => Root -> Entry a -> [Form]
 
 lookupForm r e = case entity e of
 
@@ -204,12 +203,12 @@ findVerb _       _       True (Just (_, _, _, d), _, _, _, _) = d
 findVerb _       _       _    ( _               , _, _, _, d) = d
 
 
-lookNoun :: (Morphing a a, Eq (Morphs a)) => Morphs a -> TagsType -> Char -> [NounStems a] -> [Morphs a]
+lookNoun :: (Morphing a a, Eq a) => Morphs a -> TagsType -> Char -> [NounStems a] -> [Morphs a]
 
 lookNoun x y y' = map (findNoun y') . siftNoun x y
 
 
-siftNoun :: (Morphing a a, Eq (Morphs a)) => Morphs a -> TagsType -> [NounStems a] -> [NounStems a]
+siftNoun :: (Morphing a a, Eq a) => Morphs a -> TagsType -> [NounStems a] -> [NounStems a]
 
 siftNoun x (TagsVerb _) is = [ i | i@(a, _, _, _) <- is, x == morph a ]
 siftNoun x (TagsAdj  _) is = [ i | i@(_, b, c, _) <- is, x == morph b || x == morph c ]

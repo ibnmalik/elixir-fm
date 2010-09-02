@@ -47,8 +47,7 @@ inflectDerive x y = [ inflect w y | (_, z) <- derive x y, (_, w) <- z ]
 
 class Inflect m p where
 
-    inflect :: (Rules a, Forming a, Morphing a a, Morphing (Morphs a) a) =>
-               m a -> p -> [(ParaType, [(Root, Morphs a)])]
+    inflect :: (Morphing a a, Forming a, Rules a) => m a -> p -> [(ParaType, [(Root, Morphs a)])]
 
 
 newtype Inflected a = Inflected [(ParaType, [(Root, Morphs a)])]

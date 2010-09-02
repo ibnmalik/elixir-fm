@@ -232,7 +232,9 @@ cluster_17  = cluster
 
  |> "' k s r" <| [
 
-    KiRDIS                    `noun`    {- <'iksIr> -}         [ ['e','l','i','x','i','r'] ] ]
+    KiRDIS                    `noun`    {- <'iksIr> -}         [ ['e','l','i','x','i','r'] ]
+                              `plural`     KiRDIS |< At
+                              `plural`     KaRADIS ]
 
 
 cluster_18  = cluster

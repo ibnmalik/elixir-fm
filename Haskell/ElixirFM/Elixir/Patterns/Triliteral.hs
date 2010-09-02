@@ -1192,7 +1192,7 @@ data PatternT =
 
         |   TaFACuL                                     |   TaFACI
 
-        |   MutaFACiL                                   |   MutaFACI	|   MutaFACL
+        |   MutaFACiL                                   |   MutaFACI    |   MutaFACL
         |   MutaFACaL                                   |   MutaFACY
 
 --  Form VII
@@ -1285,10 +1285,10 @@ data PatternT =
         |   FCawCiL                                     |   FCawCI
         |   FCawCaL                                     |   FCawCY
 
-        |   IFCICAL					                    |   IFCICA'
+        |   IFCICAL                                     |   IFCICA'
 
-        |   MuFCawCiL   {- Fischer, par. 224 (?) -} 	|   MuFCawCI	{- (?) -}
-        |   MuFCawCaL                                   |   MuFCawCY	{- (?) -}
+        |   MuFCawCiL   {- Fischer, par. 224 (?) -}     |   MuFCawCI    {- (?) -}
+        |   MuFCawCaL                                   |   MuFCawCY    {- (?) -}
 
 --  Form XIII
 

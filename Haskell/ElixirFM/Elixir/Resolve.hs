@@ -74,7 +74,7 @@ instance Pretty (String, MorphoLists a) => Pretty [(String, MorphoLists a)] wher
     pretty = vcat . map pretty
 
 
-concise :: (Show (Entity a), Show [Morphs a], Show [a]) => Entity a -> String
+concise :: Show a => Entity a -> String
 
 concise (Verb _ p i c _ _ _) = unwords ["Verb", show p, show i, show c]
 concise (Noun l _ _ _)       = unwords ["Noun" , show l]
