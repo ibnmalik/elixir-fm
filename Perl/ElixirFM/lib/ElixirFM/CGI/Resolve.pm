@@ -30,6 +30,7 @@ our @example = ( [ 'Unicode',       decode "buckwalter", "AqrO Aldrs AlOwl" ],
                  [ 'ArabTeX',       "ad-dars al-'awwal" ],
                  [ 'Buckwalter',    "Aldrs AlOwl" ],
                  [ 'Buckwalter',    "AhlA wshlA" ],
+                 [ 'Unicode',       decode "buckwalter", "Allgp AlErbyp bHr lA sAHl lh" ],
                  [ 'Unicode',       decode "buckwalter", "Aldrs AlOwl" ],
                  [ 'Unicode',       decode "buckwalter", "AhlA wshlA" ] );
 
@@ -288,7 +289,6 @@ sub main ($) {
 
                         $q->textfield(  -name       =>  'text',
                                         -id         =>  'text',
-                                        -dir        =>  'ltr',
                                         -default    =>  $q->param('text'),
                                         -accesskey  =>  '4',
                                         -size       =>  60,

@@ -263,7 +263,6 @@ sub main ($) {
 
                         $q->textfield(  -name       =>  'text',
                                         -id         =>  'text',
-                                        -dir        =>  'ltr',
                                         -default    =>  $q->param('text'),
                                         -accesskey  =>  '4',
                                         -size       =>  60,

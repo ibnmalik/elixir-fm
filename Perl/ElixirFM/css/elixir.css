@@ -143,9 +143,15 @@ td.orth {
     text-align: right;
 }
 
+td.xtag input {
+    font-family: Courier New;
+    direction: ltr;
+}
+
 input {
     font-family: DejaVu Sans Condensed, DejaVu Sans, Tahoma, Arial Unicode MS, Verdana, Arial, Helvetica, sans-serif;
     font-size: medium;
+    direction: rtl;
 }
 
 h1 {
@@ -313,8 +319,4 @@ div.menu {
     border: 1px solid #FFD700 /*gold*/;
     margin-right: 0em;
     color: #FFD700 /*gold*/;
-}
-
-td.xtag input {
-    font-family: Courier New;
 }

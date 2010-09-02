@@ -22,6 +22,10 @@ function elixirYamli (n) {
             }
         }
     }
+    else if (mode == 'home') {
+
+        Yamli.yamlify('text');
+    }
     else {
 
         Yamli.yamlify('clip');

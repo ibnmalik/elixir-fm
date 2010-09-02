@@ -94,6 +94,7 @@ p.listexpander input.exclude {
     padding: 0 5px;
     font-family: Courier New;
     font-size: smaller;
+    direction: ltr;
 }
 
 p.listexpander a.exclude {

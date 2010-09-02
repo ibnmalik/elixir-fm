@@ -17,7 +17,7 @@ use CGI::Fast ':standard';
 
 use base 'Exporter';
 
-our @EXPORT = (qw 'display_header display_headline display_welcome display_footline display_footer',
+our @EXPORT = (qw 'display_header display_headline display_footline display_footer',
                qw 'escape quote revert',
                qw '@modes %memoize %enc_hash @enc_list');
 
@@ -31,6 +31,15 @@ our %enc_hash = (   'ArabTeX'       =>      'TeX',
                     'Unicode'       =>      'UTF'   );
 
 our @enc_list = reverse sort keys %enc_hash;
+
+
+use Encode::Arabic::Buckwalter ':xml';
+
+our @example = ( [ decode "buckwalter", "AqrO Aldrs AlOwl" ],
+                 [ decode "buckwalter", "Allgp AlErbyp bHr lA sAHl lh" ],
+                 [ 'welcome "and" enjoy' ],
+                 [ "be happy" ],
+                 [ decode "buckwalter", "AhlA wshlA" ] );
 
 
 sub setup {
@@ -130,23 +139,6 @@ sub display_headline ($) {
     return $r;
 }
 
-sub display_welcome ($) {
-
-    my $c = shift;
-    my $q = $c->query();
-    my $r;
-
-    $r .= $q->p("Welcome to the online interface to",
-                $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM") . ", the implementation of",
-                $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/elixir-thesis.pdf'}, "Functional Arabic Morphology"),
-                "written in Haskell and Perl.");
-
-    $r .= $q->p("ElixirFM can work in four different modes. This request is processed by the",
-                $q->code($q->param($c->mode_param())), "method of the morphological system.");
-
-    return $r;
-}
-
 sub display_footline ($) {
 
     my $c = shift;
@@ -205,7 +197,7 @@ sub display_footer ($) {
 
                                 Yamli.init({ uiLanguage: "en", startMode: "onOrUserDefault",
                                              settingsPlacement: 'inside',
-                                             showTutorialLink: false, showDirectionLink: false });
+                                             showTutorialLink: false, showDirectionLink: true });
 
                                 elixirYamli('');
                             }
@@ -247,6 +239,42 @@ sub main ($) {
     $r .= display_header $c;
 
     $r .= display_headline $c;
+
+    $q->param('text', join ' ', split ' ', defined $q->param('text') ? $q->param('text') : '');
+
+    if (defined $q->param('submit')) {
+
+        return ElixirFM::CGI::Resolve::main $c if $q->param('submit') eq 'Submit' and $q->param('text') ne '';
+
+        my $idx = rand @example;
+
+        $q->param('text', $example[$idx][-1]);
+    }
+
+    $r .= $q->start_form(-method => 'POST', -style => 'margin: 10px 0px 30px 0px');
+
+    $r .= $q->table( {-border => 0},
+
+                Tr( {-align => 'center'},
+
+                    td( {-colspan => 3},
+
+                        $q->textfield(  -name       =>  'text',
+                                        -id         =>  'text',
+                                        -default    =>  $q->param('text'),
+                                        -accesskey  =>  '4',
+                                        -size       =>  100,
+                                        -maxlength  =>  180) ) ),
+
+                Tr( {-align => 'center'},
+
+                    td({-align => 'left'},   $q->submit(-name => 'submit', -value => 'Submit')),
+                    td({-align => 'center'}, $q->button(-name => 'clear',  -value => 'Clear', -onclick => "elixirClear('text')")),
+                    td({-align => 'right'},  $q->submit(-name => 'submit', -value => 'Example')) ) );
+
+    $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
+
+    $r .= $q->end_form();
 
     $r .= $q->p("Welcome to the online interface to",
                 $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM") . ", the implementation of",

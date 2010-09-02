@@ -26,6 +26,8 @@ use Encode::Arabic ':modes';
 
 
 our @example = ( [ 'Unicode',   join " ", "school", decode "buckwalter", "drs k t b" ],
+                 [ 'Unicode',   'welcome "and" enjoy' ],
+                 [ 'Unicode',   "be happy" ],
                  [ 'ArabTeX',   "qAmUs 'lktrny ^g d d" ] );
 
 
@@ -247,7 +249,6 @@ sub main ($) {
 
                         $q->textfield(  -name       =>  'text',
                                         -id         =>  'text',
-                                        -dir        =>  'ltr',
                                         -default    =>  $q->param('text'),
                                         -accesskey  =>  '4',
                                         -size       =>  60,
