@@ -786,23 +786,99 @@ sub parse_clear {
     return $data;
 }
 
-sub unpretty {
+sub unlines {
 
-    my ($data, $mode) = @_;
+    my ($data, $type) = @_;
 
-    my $type = $data =~ /^\s*[:]{4}/ ? 'resolve' : $data =~ /^\s*[()]/ ? 'lookup' : $data =~ /^\s*[<>]/ ? 'lexicon' : '';
+    $type = $data =~ /^\s*[:]{4}/ ? 'resolve' : $data =~ /^\s*[()]/ ? 'lookup' : $data =~ /^\s*[<>]/ ? 'lexicon' : '' unless defined $type;
 
     my @data;
 
     if ($type eq 'resolve') {
 
         @data = split /(?:(?<=\n\n)\n|(?<=^\n)\n|(?<=^)\n)/, $data, -1;
+    }
+    elsif ($type eq 'lookup') {
 
-        pop @data if @data and $data[-1] eq '';
+        @data = split /(?:(?<=\n)\n|(?<=^)\n)/, $data, -1;
+    }
+    elsif ($type eq 'lexicon') {
+
+        @data = split /(?:(?<=<\/Cluster>)\s*|\s*(?=<Cluster>))/, $data, -1;
+
+        shift @data if @data and $data[0] !~ /^<Cluster>/;
+        pop @data if @data and $data[-1] !~ /<\/Cluster>$/;
+    }
+    else {
+
+        @data = split /(?:(?<=\n)\n|(?<=^)\n)/, $data, -1;
+    }
+
+    pop @data if @data and $data[-1] eq '';
+
+    return @data;
+}
+
+sub unwords {
+
+    my ($data, $type) = @_;
+
+    $type = $data =~ /^\s*[:]{4}/ ? 'resolve' : $data =~ /^\s*[()]/ ? 'lookup' : $data =~ /^\s*[<>]/ ? 'lexicon' : '' unless defined $type;
+
+    my @data = unlines $data, $type;
+
+    if ($type eq 'resolve') {
+
+        (undef, @data) = map {
+
+            split /^[\t ]*[:]{4}[\t ]+/m, $_
+
+        } @data;
+    }
+    elsif ($type eq 'lookup') {
 
         @data = map {
 
-            my (undef, @data) = split /^[\t ]*[:]{4}[\t ]+/m, $_;
+            split /(?<=<\/Nest>)\s*/, $_
+
+        } @data;
+    }
+    elsif ($type eq 'lexicon') {
+
+        @data = map {
+
+            split /(?:(?<=<\/Nest>)\s*|\s*(?=<Nest>))/, $_
+
+        } @data;
+
+        shift @data if @data and $data[0] !~ /^<Nest>/;
+        pop @data if @data and $data[-1] !~ /<\/Nest>$/;
+    }
+    else {
+
+        @data = map {
+
+            split /\n/, $_
+
+        } @data;
+    }
+
+    return @data;
+}
+
+sub unpretty {
+
+    my ($data, $mode) = @_;
+
+    my $type = $data =~ /^\s*[:]{4}/ ? 'resolve' : $data =~ /^\s*[()]/ ? 'lookup' : $data =~ /^\s*[<>]/ ? 'lexicon' : '';
+
+    my @data = unlines $data, $type;
+
+    if ($type eq 'resolve') {
+
+        @data = map {
+
+            my @data = unwords $_, $type;
 
             [
                 map {
@@ -836,13 +912,9 @@ sub unpretty {
     }
     elsif ($type eq 'lookup') {
 
-        @data = split /(?:(?<=\n)\n|(?<=^)\n)/, $data, -1;
-
-        pop @data if @data and $data[-1] eq '';
-
         @data = map {
 
-            my @data = split /\s*<\/Nest>\s*/, $_;
+            my @data = unwords $_, $type;
 
             [
                 map {
@@ -876,13 +948,9 @@ sub unpretty {
     }
     else {
 
-        @data = split /(?:(?<=\n)\n|(?<=^)\n)/, $data, -1;
-
-        pop @data if @data and $data[-1] eq '';
-
         @data = map {
 
-            my @data = split /\n/, $_;
+            my @data = unwords $_, $type;
 
             foldl {
 
