@@ -55,6 +55,24 @@ sub nub (&@) {
     return grep { my $r = $fun->($_); exists $nub{$r} ? 0 : ++$nub{$r} } @lst;
 }
 
+sub groups ($@) {
+
+    my ($d, @d) = @_;
+
+    return @d unless $d > 0;
+
+    my $r = @d / $d;
+
+    my @r;
+
+    for (my $i = 0; $r * $i < @d; $i++) {
+
+        push @r, $r * ($i + 1) < 1 ? [] : [@d[$r * $i .. $r * ($i + 1) - 1 ]];
+    }
+
+    return @r;
+}
+
 sub tuples {
 
     my @data = @_;
@@ -858,7 +876,7 @@ sub unwords {
 
         @data = map {
 
-            split /\n/, $_
+            split /(?:(?<=\n)\n|(?<=^)\n)/, $_, -1
 
         } @data;
     }
@@ -870,7 +888,7 @@ sub unpretty {
 
     my ($data, $mode) = @_;
 
-    my $type = $data =~ /^\s*[:]{4}/ ? 'resolve' : $data =~ /^\s*[()]/ ? 'lookup' : $data =~ /^\s*[<>]/ ? 'lexicon' : '';
+    my $type = $data =~ /^\s*[:]{3,4}/ ? 'resolve' : $data =~ /^\s*[()]/ ? 'lookup' : $data =~ /^\s*[<>]/ ? 'lexicon' : '';
 
     my @data = unlines $data, $type;
 
@@ -967,6 +985,12 @@ sub unpretty {
             map {
 
                 [ split /\t/, $_ ]
+
+            }
+
+            map {
+
+                split /\n/, $_
 
             } @data
 

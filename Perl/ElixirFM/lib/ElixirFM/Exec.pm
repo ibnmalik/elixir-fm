@@ -11,6 +11,8 @@ use strict;
 our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
 
 
+use ElixirFM;
+
 use Encode;
 
 use File::Spec;
@@ -88,11 +90,27 @@ sub elixir {
 
     my $handle = new File::Temp;
 
-    print $handle $code ? encode "utf8", $text : $text;
+    my @text = split /\n/, $text, -1;
+
+    pop @text if @text and $text[-1] eq '';
+
+    $text = encode "utf8", $text if $code;
+
+    local $\ = "";
+
+    print $handle $text;
 
     my $data = scalar `"$system" $params < "$handle"`;
 
-    return $code ? decode "utf8", $data : $data;
+    $data = decode "utf8", $data if $code;
+
+    return $data unless wantarray;
+
+    my @data = ElixirFM::unlines $data;
+
+    @data = map { join "\n", @{$_} } ElixirFM::groups @text, @data unless @text == @data;
+
+    return @data;
 }
 
 
