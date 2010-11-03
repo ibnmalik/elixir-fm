@@ -80,7 +80,8 @@ cluster_5   = cluster
 
     FaCaL |< Iy               `adj`     {- <taba`Iy> -}        [ ['i','n','c','i','d','e','n','t','a','l'] ],
 
-    FaCiL |< aT               `noun`    {- <tabi`aT> -}        [ ['c','o','n','s','e','q','u','e','n','c','e'], ['r','e','s','p','o','n','s','i','b','i','l','i','t','y'] ],
+    FaCiL |< aT               `noun`    {- <tabi`aT> -}        [ ['c','o','n','s','e','q','u','e','n','c','e'], ['r','e','s','p','o','n','s','i','b','i','l','i','t','y'] ]
+                              `plural`     FaCiL |< At,
 
     FaCIL                     `adj`     {- <tabI`> -}          [ ['a','d','j','u','n','c','t'], ['a','t','t','a','c','h','e','d'], ['f','o','l','l','o','w','i','n','g'] ]
                               `plural`     FiCAL,

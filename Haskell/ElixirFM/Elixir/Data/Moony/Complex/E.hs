@@ -870,17 +870,20 @@ cluster_66  = cluster
 
  |> "' y y" <| [
 
-    FAL |< aT                 `noun`    {- <'AyaT> -}          [ unwords [ ['Q','u','r','a','n','i','c'], ['v','e','r','s','e'] ], ['m','i','r','a','c','l','e'], ['s','i','g','n'], ['w','o','n','d','e','r'] ],
+    FAL |< aT                 `noun`    {- <'AyaT> -}          [ unwords [ ['Q','u','r','a','n','i','c'], ['v','e','r','s','e'] ], ['m','i','r','a','c','l','e'], ['s','i','g','n'], ['w','o','n','d','e','r'] ]
+                              `plural`     FAL |< At ]
+
+ |> "' y y" <| [
+
+    FaCL                      `adj`     {- <'ayy> -}           [ ['a','n','y'], ['w','h','a','t'], ['w','h','i','c','h'], ['w','h','a','t','e','v','e','r'], ['w','h','i','c','h','e','v','e','r'] ]
+                           
+    `limited` "A------S-[IRA]",
 
     FaCL |<< "u" |<< "hA"     `part`    {- <'ayyuhA> -}        [ unwords [ "O", "!" ] ],
 
     FaCL |< aT |<< "u" |<< "hA" `part`    {- <'ayyaTuhA> -}      [ unwords [ "O", "!" ] ],
 
-    FaCL |<< "u" |<< "mA"     `adv`     {- <'ayyumA> -}        [ ['w','h','a','t','e','v','e','r'], ['w','h','a','t','s','o','e','v','e','r'] ],
-
-    FaCL                      `adj`     {- <'ayy> -}           [ ['a','n','y'], ['w','h','a','t'], ['w','h','i','c','h'], ['w','h','a','t','e','v','e','r'], ['w','h','i','c','h','e','v','e','r'] ]
-                           
-    `limited` "A------S-[IRA]" ]
+    FaCL |<< "u" |<< "mA"     `adv`     {- <'ayyumA> -}        [ ['w','h','a','t','e','v','e','r'], ['w','h','a','t','s','o','e','v','e','r'] ] ]
 
 
 cluster_67  = cluster

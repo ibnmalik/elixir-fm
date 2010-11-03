@@ -970,7 +970,8 @@ cluster_69  = cluster
 
     FaCL                      `noun`    {- <_tawr> -}          [ ['T','a','u','r','u','s'] ],
 
-    FaCL |< aT                `noun`    {- <_tawraT> -}        [ ['r','e','v','o','l','u','t','i','o','n'], ['u','p','r','i','s','i','n','g'] ],
+    FaCL |< aT                `noun`    {- <_tawraT> -}        [ ['r','e','v','o','l','u','t','i','o','n'], ['u','p','r','i','s','i','n','g'] ]
+                              `plural`     FaCL |< At,
 
     FaCL |< aT                `noun`    {- <_tawraT> -}        [ ['T','h','a','w','r','a'] ],
 

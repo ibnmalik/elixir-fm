@@ -729,7 +729,8 @@ cluster_42  = cluster
     MaFCaL |< Iy              `adj`     {- <maktabIy> -}       [ ['o','f','f','i','c','e'] ],
 
     MaFCaL |< aT              `noun`    {- <maktabaT> -}       [ ['l','i','b','r','a','r','y'], ['b','o','o','k','s','t','o','r','e'] ]
-                              `plural`     MaFACiL,
+                              `plural`     MaFACiL
+                              `plural`     MaFCaL |< At,
 
     MiFCAL                    `noun`    {- <miktAb> -}         [ ['p','r','i','n','t','e','r'] ],
 

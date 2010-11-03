@@ -2001,7 +2001,8 @@ cluster_75  = cluster
 
     FuCayL                    `noun`    {- <.hu.sayn> -}       [ ['f','o','x'], unwords [ ['l','i','t','t','l','e'], ['h','o','r','s','e'] ] ],
 
-    FaCAL |< aT               `noun`    {- <.ha.sAnaT> -}      [ ['i','m','m','u','n','i','t','y'], ['i','m','p','r','e','g','n','a','b','i','l','i','t','y'] ],
+    FaCAL |< aT               `noun`    {- <.ha.sAnaT> -}      [ ['i','m','m','u','n','i','t','y'], ['i','m','p','r','e','g','n','a','b','i','l','i','t','y'] ]
+                              `plural`     FaCAL |< At,
 
     TaFCIL                    `noun`    {- <ta.h.sIn> -}       [ ['f','o','r','t','i','f','i','c','a','t','i','o','n'], ['i','m','m','u','n','i','z','a','t','i','o','n'] ]
                               `plural`     TaFCIL |< At,

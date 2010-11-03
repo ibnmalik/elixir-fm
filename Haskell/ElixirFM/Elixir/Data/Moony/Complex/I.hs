@@ -1365,7 +1365,8 @@ cluster_46  = cluster
 
     FaCA'                     `noun`    {- <`alA'> -}          [ ['l','o','f','t','i','n','e','s','s'], ['h','e','i','g','h','t'] ],
 
-    FaCY |< aT                `noun`    {- <`alAT> -}          [ ['a','n','v','i','l'] ],
+    FaCA |< aT                `noun`    {- <`alAT> -}          [ ['a','n','v','i','l'] ]
+                              `plural`     FaCA,
 
     FiCAL |< aT               `noun`    {- <`ilAwaT> -}        [ ['i','n','c','r','e','a','s','e'], ['r','a','i','s','e'], ['b','o','n','u','s'] ]
                               `plural`     FiCAL |< At,

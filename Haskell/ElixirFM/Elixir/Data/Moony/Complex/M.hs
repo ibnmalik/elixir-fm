@@ -1711,9 +1711,10 @@ cluster_97  = cluster
 
  |> ['m','U','n','d','i','y','A','l'] <| [
 
-    _____                     `xtra`    {- <mUndiyAl> -}       [ unwords [ ['M','o','n','d','i','a','l'], "(", ['W','o','r','l','d'], ['C','u','p'], ")" ] ],
+    _____                     `noun`    {- <mUndiyAl> -}       [ unwords [ ['m','o','n','d','i','a','l'], "(", ['w','o','r','l','d'], ['c','u','p'], ")" ] ]
+                              `plural`     _____ |< At,
 
-    _____ |< Iy               `adj`     {- <mUndiyAlIy> -}     [ unwords [ ['M','o','n','d','i','a','l'], "(", ['W','o','r','l','d'], ['C','u','p'], ")" ] ] ]
+    _____ |< Iy               `adj`     {- <mUndiyAlIy> -}     [ unwords [ ['m','o','n','d','i','a','l'], "(", ['w','o','r','l','d'], ['c','u','p'], ")" ] ] ]
 
 
 cluster_98  = cluster

@@ -884,7 +884,8 @@ cluster_33  = cluster
 
     FiyAL                     `noun`    {- <riyA.d> -}         [ ['R','i','y','a','d','h'] ],
 
-    FiyAL |< aT               `noun`    {- <riyA.daT> -}       [ ['s','p','o','r','t'], unwords [ ['p','h','y','s','i','c','a','l'], ['e','x','e','r','c','i','s','e'] ], ['m','a','t','h','e','m','a','t','i','c','s'] ],
+    FiyAL |< aT               `noun`    {- <riyA.daT> -}       [ ['s','p','o','r','t'], unwords [ ['p','h','y','s','i','c','a','l'], ['e','x','e','r','c','i','s','e'] ], ['m','a','t','h','e','m','a','t','i','c','s'] ]
+                              `plural`     FiyAL |< At,
 
     FiyAL |< Iy               `noun`    {- <riyA.dIy> -}       [ ['m','a','t','h','e','m','a','t','i','c','i','a','n'] ]
                               `plural`     FiyAL |< Iy |< Un
@@ -1757,10 +1758,11 @@ cluster_80  = cluster
 
     IFtaCaL                   `verb`    {- <izdawa^g> -}       [ unwords [ ['b','e'], ['d','o','u','b','l','e'] ], unwords [ ['b','e'], ['i','n'], ['p','a','i','r','s'] ] ],
 
-    FaCL                      `noun`    {- <zaw^g> -}          [ ['s','p','o','u','s','e'], ['h','u','s','b','a','n','d'], unwords [ ['m','a','r','r','i','e','d'], ['c','o','u','p','l','e'] ] ]
+    FaCL                      `noun`    {- <zaw^g> -}          [ ['h','u','s','b','a','n','d'], ['s','p','o','u','s','e'], unwords [ ['m','a','r','r','i','e','d'], ['c','o','u','p','l','e'] ] ]
                               `plural`     HaFCAL,
 
-    FaCL |< aT                `noun`    {- <zaw^gaT> -}        [ ['w','i','f','e'] ],
+    FaCL |< aT                `noun`    {- <zaw^gaT> -}        [ ['w','i','f','e'], ['s','p','o','u','s','e'] ]
+                              `plural`     FaCL |< At,
 
     FaCL |< Iy                `adj`     {- <zaw^gIy> -}        [ ['m','a','r','i','t','a','l'], ['p','a','i','r','e','d'] ],
 

@@ -290,7 +290,7 @@ sub main ($) {
 
     my $text = $q->param('text');
 
-    $text = join "\n", ElixirFM::identify $text;
+    $text = join "\n", ElixirFM::identify $text, $code;
 
     $q->param('text', $text);
 

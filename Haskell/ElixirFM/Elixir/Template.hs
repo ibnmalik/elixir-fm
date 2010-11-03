@@ -431,7 +431,7 @@ aan   = An
 ayn   = Ayn
 
 iyA   = Suffix "iyA"
-iyaT  = Suffix "iyaT"
+iy    = Suffix "iy"
 
 aN    = Suffix "aN"
 iN    = Suffix "iN"

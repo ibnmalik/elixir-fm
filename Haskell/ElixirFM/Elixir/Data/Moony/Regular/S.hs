@@ -341,8 +341,8 @@ cluster_22  = cluster
 
     _____ |< Iy               `adj`     {- <kUmIdIy> -}        [ ['c','o','m','i','c'], ['c','o','m','e','d','i','c'] ],
 
-    _____ |<< "iyAn"          `noun`    {- <kUmIdiyAn> -}      [ ['c','o','m','e','d','i','a','n'] ]
-                              `plural`     _____ |<< "iy" |< Un ]
+    _____ |< iy |<< "An"      `noun`    {- <kUmIdiyAn> -}      [ ['c','o','m','e','d','i','a','n'] ]
+                              `plural`     _____ |< iy |< Un ]
 
 
 cluster_23  = cluster

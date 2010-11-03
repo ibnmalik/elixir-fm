@@ -817,7 +817,8 @@ cluster_38  = cluster
 
     TaFACaL                   `verb`    {- <ta.gAlab> -}       [ ['s','t','r','u','g','g','l','e'] ],
 
-    FaCL |< aT                `noun`    {- <.galbaT> -}        [ ['v','i','c','t','o','r','y'], unwords [ ['i','d','l','e'], ['t','a','l','k'] ] ],
+    FaCaL |< aT               `noun`    {- <.galabaT> -}       [ ['v','i','c','t','o','r','y'], unwords [ ['i','d','l','e'], ['t','a','l','k'] ] ]
+                              `plural`     FaCaL |< At,
 
     FaCCAL                    `adj`     {- <.gallAb> -}        [ ['v','i','c','t','o','r','i','o','u','s'] ],
 

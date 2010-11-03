@@ -1120,9 +1120,12 @@ cluster_39  = cluster
     MaFCaL                    `noun`    {- <manwar> -}         [ ['s','k','y','l','i','g','h','t'] ]
                               `plural`     MaFACiL,
 
-    MaFAL                     `noun`    {- <manAr> -}          [ ['l','i','g','h','t','h','o','u','s','e'] ]
+    MaFAL                     `noun`    {- <manAr> -}          [ ['l','i','g','h','t','h','o','u','s','e'], ['m','i','n','a','r','e','t'] ]
                               `plural`     MaFACiL
                               `plural`     MaFA'iL,
+
+    MaFAL |< aT               `noun`    {- <manAraT> -}        [ ['l','i','g','h','t','h','o','u','s','e'], ['m','i','n','a','r','e','t'] ]
+                              `plural`     MaFAL |< At,
 
     TaFCIL                    `noun`    {- <tanwIr> -}         [ ['l','i','g','h','t','i','n','g'], ['e','n','l','i','g','h','t','e','n','m','e','n','t'], ['b','l','o','s','s','o','m','i','n','g'] ]
                               `plural`     TaFCIL |< At,

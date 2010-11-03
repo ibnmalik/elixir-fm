@@ -369,7 +369,8 @@ cluster_17  = cluster
                            
     `derives` otherwise,
 
-    FuCUL |< aT               `noun`    {- <bu.tUlaT> -}       [ ['c','h','a','m','p','i','o','n','s','h','i','p'], unwords [ ['s','t','a','r','r','i','n','g'], ['r','o','l','e'] ], ['h','e','r','o','i','s','m'] ],
+    FuCUL |< aT               `noun`    {- <bu.tUlaT> -}       [ ['c','h','a','m','p','i','o','n','s','h','i','p'], unwords [ ['s','t','a','r','r','i','n','g'], ['r','o','l','e'] ], ['h','e','r','o','i','s','m'] ]
+                              `plural`     FuCUL |< At,
 
     FuCUL |< Iy               `adj`     {- <bu.tUlIy> -}       [ ['h','e','r','o','i','c'] ],
 
