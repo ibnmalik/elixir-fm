@@ -1035,7 +1035,7 @@ data PatternT =
         |   FuCuL
         |   FiCiL
 
-        |   FaCLAn                                      |   FaCwAn
+        |   FaCLAn                      |   FayLAn      |   FaCwAn
         |   FaCaLAn                                     |   FaCawAn
 
         |   FiCLAn                      |   FILAn
@@ -1088,7 +1088,7 @@ data PatternT =
         |   FaCULY
         |   FaCCULY
 
-        |   FaCLY       |   TaCLY                       |   FaCwY
+        |   FaCLY       |   TaCLY       |   FayLY       |   FaCwY
         |   FiCLY                       |   FILY
         |   FuCLY                       |   FULY        |   FuCyY
 

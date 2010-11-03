@@ -617,9 +617,11 @@ cluster_31  = cluster
 
     MaFIL                     `noun`    {- <maqIl> -}          [ unwords [ ['r','e','s','t','i','n','g'], ['p','l','a','c','e'] ], unwords [ ['h','a','l','t','i','n','g'], ['p','l','a','c','e'] ] ],
 
-    HiFAL |< aT               `noun`    {- <'iqAlaT> -}        [ ['d','i','s','m','i','s','s','a','l'], ['d','i','s','c','h','a','r','g','e'] ],
+    HiFAL |< aT               `noun`    {- <'iqAlaT> -}        [ ['d','i','s','m','i','s','s','a','l'], ['d','i','s','c','h','a','r','g','e'] ]
+                              `plural`     HiFAL |< At,
 
-    IstiFAL |< aT             `noun`    {- <istiqAlaT> -}      [ ['r','e','s','i','g','n','a','t','i','o','n'], ['r','e','t','i','r','e','m','e','n','t'] ],
+    IstiFAL |< aT             `noun`    {- <istiqAlaT> -}      [ ['r','e','s','i','g','n','a','t','i','o','n'], ['r','e','t','i','r','e','m','e','n','t'] ]
+                              `plural`     IstiFAL |< At,
 
     MuFAL                     `adj`     {- <muqAl> -}          [ ['f','i','r','e','d'], ['d','i','s','m','i','s','s','e','d'], ['d','i','s','c','h','a','r','g','e','d'] ],
 

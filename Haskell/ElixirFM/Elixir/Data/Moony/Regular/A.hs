@@ -472,6 +472,10 @@ cluster_40  = cluster
 
     FaCL |< Iy                `adj`     {- <ba.h_tIy> -}       [ ['r','e','s','e','a','r','c','h'] ],
 
+    FACUL                     `noun`    {- <bA.hU_t> -}        [ unwords [ ['s','e','a','r','c','h'], ['e','n','g','i','n','e'] ] ]
+                              `plural`     FawACIL
+                              `plural`     FACUL |< At,
+
     FaCCAL                    `noun`    {- <ba.h.hA_t> -}      [ ['s','c','h','o','l','a','r'], ['r','e','s','e','a','r','c','h','e','r'] ]
                               `plural`     FaCCAL |< Un
                            

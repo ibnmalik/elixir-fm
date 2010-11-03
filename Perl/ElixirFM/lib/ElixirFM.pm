@@ -847,9 +847,9 @@ sub unwords {
 
     if ($type eq 'resolve') {
 
-        (undef, @data) = map {
+        @data = map {
 
-            split /^[\t ]*[:]{4}[\t ]+/m, $_
+            split /^(?=[\t ]*[:]{4}[\t ]+)/m, $_
 
         } @data;
     }
@@ -888,7 +888,7 @@ sub unpretty {
 
     my ($data, $mode) = @_;
 
-    my $type = $data =~ /^\s*[:]{3,4}/ ? 'resolve' : $data =~ /^\s*[()]/ ? 'lookup' : $data =~ /^\s*[<>]/ ? 'lexicon' : '';
+    my $type = $data =~ /^\s*[:]{4}/ ? 'resolve' : $data =~ /^\s*[()]/ ? 'lookup' : $data =~ /^\s*[<>]/ ? 'lexicon' : '';
 
     my @data = unlines $data, $type;
 
@@ -901,7 +901,9 @@ sub unpretty {
             [
                 map {
 
-                    my ($node, @data) = split /^[\t ]*[:]{3}[\t ]+/m, $_;
+                    my (undef, $data) = split /^[\t ]*[:]{4}[\t ]+/m, $_;
+
+                    my ($node, @data) = split /^[\t ]*[:]{3}[\t ]+/m, $data;
 
                     [
                         [ split ' ', $node ],

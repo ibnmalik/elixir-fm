@@ -417,7 +417,7 @@ cluster_22  = cluster
 
  |> "k y w" <| [
 
-    FaCLAn                    `noun`    {- <kaywAn> -}         [ unwords [ ['S','a','t','u','r','n'], "(", ['p','l','a','n','e','t'], ")" ] ] ]
+    FaCLAn                    `noun`    {- <kaywAn> -}         [ ['S','a','t','u','r','n'] ] ]
 
 
 cluster_23  = cluster

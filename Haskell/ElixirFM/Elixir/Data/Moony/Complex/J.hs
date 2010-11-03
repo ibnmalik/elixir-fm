@@ -861,9 +861,12 @@ cluster_33  = cluster
     FaCL                      `noun`    {- <.gay.t> -}         [ ['g','a','r','d','e','n'], ['o','r','c','h','a','r','d'] ]
                               `plural`     FILAn,
 
-    FaCLAn |< Iy              `noun`    {- <.gay.tAnIy> -}     [ ['G','h','e','i','t','a','n','y'] ],
+    FaCLAn |< Iy              `noun`    {- <.gay.tAnIy> -}     [ ['g','a','r','d','e','n','e','r'], ['h','o','r','t','i','c','u','l','t','u','r','i','s','t'] ]
+                              `plural`     FaCLAn |< Iy |< Un
+                           
+    `derives` otherwise,
 
-    FaCLAn |< Iy              `adj`     {- <.gay.tAnIy> -}     [ ['g','a','r','d','e','n','e','r'], ['h','o','r','t','i','c','u','l','t','u','r','i','s','t'] ] ]
+    FaCLAn |< Iy              `noun`    {- <.gay.tAnIy> -}     [ ['G','h','e','i','t','a','n','y'] ] ]
 
 
 cluster_34  = cluster
@@ -872,7 +875,10 @@ cluster_34  = cluster
 
     KaRDaS |< aT              `noun`    {- <.gay.tanaT> -}     [ ['h','o','r','t','i','c','u','l','t','u','r','e'] ],
 
-    KaRDaS |< Iy              `noun`    {- <.gay.tanIy> -}     [ ['h','o','r','t','i','c','u','l','t','u','r','i','s','t'] ],
+    KaRDaS |< Iy              `noun`    {- <.gay.tanIy> -}     [ ['h','o','r','t','i','c','u','l','t','u','r','i','s','t'] ]
+                              `plural`     KaRDaS |< Iy |< Un
+                           
+    `derives` otherwise,
 
     KaRDaS |< Iy              `adj`     {- <.gay.tanIy> -}     [ ['h','o','r','t','i','c','u','l','t','u','r','a','l'] ] ]
 

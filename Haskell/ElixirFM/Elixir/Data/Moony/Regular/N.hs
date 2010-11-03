@@ -1401,6 +1401,8 @@ cluster_82  = cluster
 
     KaRDaS                    `verb`    {- <fahras> -}         [ ['c','a','t','a','l','o','g','u','e'], ['i','n','d','e','x'], ['c','l','a','s','s','i','f','y'] ],
 
+    KaRDaS |< aT              `noun`    {- <fahrasaT> -}       [ ['i','n','d','e','x','i','n','g'] ],
+
     KiRDiS                    `noun`    {- <fihris> -}         [ ['i','n','d','e','x'], ['c','a','t','a','l','o','g','u','e'], ['l','i','s','t'] ]
                               `plural`     KaRADiS,
 

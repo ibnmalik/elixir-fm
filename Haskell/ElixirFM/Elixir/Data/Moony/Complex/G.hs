@@ -1085,7 +1085,7 @@ cluster_46  = cluster
 
     FaCLAn                    `adj`     {- <^gaw`An> -}        [ ['h','u','n','g','r','y'], ['s','t','a','r','v','i','n','g'] ]
                               `plural`     FiyAL
-                              `plural`     FaCLY,
+                              `femini`     FaCLY,
 
     MaFAL |< aT               `noun`    {- <ma^gA`aT> -}       [ ['f','a','m','i','n','e'], ['s','t','a','r','v','a','t','i','o','n'] ],
 

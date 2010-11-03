@@ -32,7 +32,9 @@ cluster_1   = cluster
 
     FaCL                      `noun`    {- <mawt> -}           [ ['d','e','a','t','h'] ],
 
-    FaCLAn                    `noun`    {- <mawtAn> -}         [ ['d','y','i','n','g'], ['d','e','a','t','h'], ['e','p','i','d','e','m','i','c'] ],
+    FaCLAn                    `noun`    {- <mawtAn> -}         [ ['d','y','i','n','g'], ['d','e','a','t','h'], ['e','p','i','d','e','m','i','c'] ]
+                           
+    `excepts` Triptote,
 
     FULAn                     `noun`    {- <mUtAn> -}          [ ['d','y','i','n','g'], ['d','e','a','t','h'], ['e','p','i','d','e','m','i','c'] ],
 
@@ -1956,9 +1958,9 @@ cluster_90  = cluster
 
     FaCUL                     `adj`     {- <hayUm> -}          [ ['c','o','n','f','u','s','e','d'], ['m','y','s','t','i','f','i','e','d'] ],
 
-    FaCLAn                    `adj`     {- <haymAn> -}         [ ['i','n','f','a','t','u','a','t','e','d'], ['t','h','i','r','s','t','y'] ]
-                              `plural`     FaCLY
-                              `plural`     FiCAL,
+    FaCLAn                    `adj`     {- <haymAn> -}         [ ['i','n','f','a','t','u','a','t','e','d'], unwords [ ['m','a','d','l','y'], ['i','n'], ['l','o','v','e'] ], ['t','h','i','r','s','t','y'] ]
+                              `plural`     FiCAL
+                              `femini`     FaCLY,
 
     FA'iL                     `adj`     {- <hA'im> -}          [ ['c','o','n','f','u','s','e','d'], ['m','y','s','t','i','f','i','e','d'], unwords [ ['m','a','d'], ['w','i','t','h'], ['l','o','v','e'] ] ]
                               `plural`     FuCCaL
