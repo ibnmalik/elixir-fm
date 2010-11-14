@@ -1763,7 +1763,7 @@ cluster_70  = cluster
     MaFCiL                    `noun`    {- <mawkib> -}         [ ['e','s','c','o','r','t'], ['c','o','n','v','o','y'] ]
                               `plural`     MaFACiL,
 
-    MuFACaL                   `noun`    {- <muwAkab> -}        [ ['e','s','c','o','r','t','i','n','g'], unwords [ ['c','o','n','v','o','y'], ['d','u','t','y'] ] ]
+    MuFACaL |< aT             `noun`    {- <muwAkabaT> -}      [ ['e','s','c','o','r','t','i','n','g'], unwords [ ['c','o','n','v','o','y'], ['d','u','t','y'] ] ]
                               `plural`     MuFACaL |< At ]
 
 

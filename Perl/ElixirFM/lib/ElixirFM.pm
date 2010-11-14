@@ -135,7 +135,7 @@ sub nice {
 
     $morphs->[2] = [ map { $_ =~ /"/ ? showSuffix($_) : $_ } @{$morphs->[2]} ];
 
-    return join "-", map { phon($_) } @{$morphs->[1]}, $morphs->[0], @{$morphs->[2]};
+    return join "-", map { $_ eq "iy" ? $_ : phon($_) } @{$morphs->[1]}, $morphs->[0], @{$morphs->[2]};
 }
 
 our $tagset = [
@@ -1207,13 +1207,6 @@ sub interlocks {
     return $pattern;
 }
 
-sub isClosed {
-
-    return 0 if $_[0] =~ /^[aiuAIUY]/;
-
-    return 1;
-}
-
 our @sunny = ( "t", "_t", "d", "_d", "r", "z", "s", "^s",
                ".s", ".d", ".t", ".z", "l", "n" );
 
@@ -1221,6 +1214,44 @@ our @moony = ( "'", "b", "^g", ".h", "_h", "`", ".g",
                "f", "q", "k", "m", "h", "w", "y",
                "B", "p", "v", "g", "^c", "^z",
                "c", ",c", "^n", "^l", ".r" );
+
+our %sunny = map { $_, '' } @sunny;
+
+our %moony = map { $_, '' } @moony;
+
+sub letters {
+
+    return split /(?<![._^,])/, $_[0];
+}
+
+sub isSunny {
+
+    my @r = map { letters $_ } split " ", $_[0];
+
+    return exists $sunny{$r[0]};
+}
+
+sub isMoony {
+
+    return not isSunny $_[0];
+}
+
+sub isComplex {
+
+    my @r = map { letters $_ } split " ", $_[0];
+
+    return @r < 2 || $r[-2] eq $r[-1] || grep { /^['wy]$/ } @r;
+}
+
+sub isRegular {
+
+    return not isComplex $_[0];
+}
+
+sub isClosed {
+
+    return not $_[0] =~ /^[aiuAIUY]/;
+}
 
 sub mergePrefix {
 

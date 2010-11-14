@@ -429,10 +429,11 @@ lexicon = listing "Extended lexicon"
 
     |> "h" <| [
 
-        "FU" |< Iy |< aT                    `noun`              [ "identity", unwords [ "identity", "card" ] ],
+        "FU" |< Iy |< aT                `noun`                                      [ "identity", unwords [ "identity", "card" ] ]
+                                        `plural`    "FU" |< Iy |< At,
 
-        "mA" >>| "FI" |<< "Iy" |< aT        `noun`              [ "nature", "essence", "quality" ]
-
+        "mA" >>| "FI" |<< "Iy" |< aT    `noun`                                      [ "nature", "essence", "quality" ]
+                                        `plural`    "mA" >>| "FI" |<< "Iy" |< At
         ]
 
 

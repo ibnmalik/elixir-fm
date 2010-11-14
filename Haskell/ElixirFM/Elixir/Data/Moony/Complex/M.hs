@@ -1073,15 +1073,20 @@ cluster_62  = cluster
 
     HaFCY                     `verb`    {- <'amsY> -}          [ ['b','e','c','o','m','e'], unwords [ ['s','p','e','n','d'], ['t','h','e'], ['e','v','e','n','i','n','g'] ] ],
 
-    FaCA'                     `noun`    {- <masA'> -}          [ ['e','v','e','n','i','n','g'], unwords [ ['i','n'], ['t','h','e'], ['e','v','e','n','i','n','g'] ] ],
+    FaCA'                     `noun`    {- <masA'> -}          [ ['e','v','e','n','i','n','g'] ]
+                              `plural`     HaFCA'
+                              `plural`     HaFCI |< aT,
 
     FaCA' |< Iy               `adj`     {- <masA'Iy> -}        [ ['e','v','e','n','i','n','g'] ],
 
     FaCA' |< Iy |< aT         `noun`    {- <masA'IyaT> -}      [ ['M','a','s','a','i','a'], ['M','a','s','a','y','a'] ],
 
-    HuFCIy                    `noun`    {- <'umsIy> -}         [ ['e','v','e','n','i','n','g'], ['s','o','i','r','e','e'] ]
+    HuFCIy |< aT              `noun`    {- <'umsIyaT> -}       [ ['e','v','e','n','i','n','g'], ['s','o','i','r','e','e'] ]
                               `plural`     HuFCIy |< At
                               `plural`     HaFACIy,
+
+    HuFCI |< aT               `noun`    {- <'umsiyaT> -}       [ ['e','v','e','n','i','n','g'], ['s','o','i','r','e','e'] ]
+                              `plural`     HaFACI,
 
     MuFCI                     `adj`     {- <mumsI> -}          [ unwords [ ['s','p','e','n','d','i','n','g'], ['t','h','e'], ['e','v','e','n','i','n','g'] ] ],
 

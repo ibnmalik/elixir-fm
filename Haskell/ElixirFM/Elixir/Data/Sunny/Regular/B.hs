@@ -798,16 +798,13 @@ cluster_55  = cluster
 
     IstaFCaL                  `verb`    {- <ista_tmar> -}      [ ['i','n','v','e','s','t'] ],
 
-    FaCaL                     `noun`    {- <_tamar> -}         [ ['f','r','u','i','t'], ['r','e','s','u','l','t'] ]
+    FaCaL                     `noun`    {- <_tamar> -}         [ ['f','r','u','i','t'], ['r','e','s','u','l','t'], ['e','f','f','e','c','t'], ['y','i','e','l','d'], ['p','r','o','f','i','t'] ]
                               `plural`     FiCAL
-                              `plural`     HaFCAL,
+                              `plural`     HaFCAL
+                           
+    `derives` otherwise,
 
-    FaCL                      `noun`    {- <_tamr> -}          [ ['f','r','u','i','t'], ['r','e','s','u','l','t'] ]
-                              `plural`     FaCaL |< At,
-
-    IstiFCAL                  `noun`    {- <isti_tmAr> -}      [ ['i','n','v','e','s','t'], ['i','n','v','e','s','t','i','n','g'] ],
-
-    IstiFCAL                  `noun`    {- <isti_tmAr> -}      [ ['i','n','v','e','s','t','m','e','n','t'] ]
+    IstiFCAL                  `noun`    {- <isti_tmAr> -}      [ ['i','n','v','e','s','t','m','e','n','t'], ['i','n','v','e','s','t','i','n','g'] ]
                               `plural`     IstiFCAL |< At,
 
     IstiFCAL |< Iy            `adj`     {- <isti_tmArIy> -}    [ ['i','n','v','e','s','t','m','e','n','t'] ],

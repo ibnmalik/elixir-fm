@@ -571,6 +571,9 @@ cluster_35  = cluster
                               `plural`     FaCA'iL,
 
     FiCAL                     `noun`    {- <rihAn> -}          [ ['w','a','g','e','r'], ['c','o','n','t','e','s','t'], ['b','e','t','t','i','n','g'] ]
+                              `plural`     FiCAL |< At,
+
+    MuFACaL |< aT             `noun`    {- <murAhanaT> -}      [ ['w','a','g','e','r'], ['c','o','n','t','e','s','t'], ['b','e','t','t','i','n','g'] ]
                               `plural`     MuFACaL |< At,
 
     FACiL                     `adj`     {- <rAhin> -}          [ ['p','r','e','s','e','n','t'], ['c','u','r','r','e','n','t'] ],

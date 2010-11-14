@@ -1036,6 +1036,8 @@ cluster_42  = cluster
 
     TaFACaL                   `verb`    {- <tadAyan> -}        [ unwords [ ['c','o','n','t','r','a','c','t'], ['m','u','t','u','a','l','l','y'] ] ],
 
+    IFtAL                     `verb`    {- <iddAn> -}          [ ['b','o','r','r','o','w'], unwords [ ['b','u','y'], ['o','n'], ['c','r','e','d','i','t'] ] ],
+
     IstaFAL                   `verb`    {- <istadAn> -}        [ ['b','o','r','r','o','w'] ],
 
     FaCL                      `noun`    {- <dayn> -}           [ ['d','e','b','t'] ]
@@ -1046,6 +1048,8 @@ cluster_42  = cluster
     FaCCAL                    `noun`    {- <dayyAn> -}         [ unwords [ ['j','u','d','g','e'], "(", ['G','o','d'], ")" ] ],
 
     HiFAL |< aT               `noun`    {- <'idAnaT> -}        [ ['c','o','n','d','e','m','n','a','t','i','o','n'], ['c','e','n','s','u','r','e'] ],
+
+    IFtiCAL                   `noun`    {- <iddiyAn> -}        [ ['b','o','r','r','o','w','i','n','g'], unwords [ ['b','u','y','i','n','g'], ['o','n'], ['c','r','e','d','i','t'] ] ],
 
     IstiFAL |< aT             `noun`    {- <istidAnaT> -}      [ unwords [ ['i','n','c','u','r','r','e','n','c','e'], ['o','f'], ['d','e','b','t','s'] ] ],
 
@@ -1072,7 +1076,8 @@ cluster_42  = cluster
 
     MaFCUL                    `adj`     {- <madyUn> -}         [ ['i','n','d','e','b','t','e','d'], ['o','b','l','i','g','a','t','e','d'] ],
 
-    MaFCUL |< Iy |< aT        `noun`    {- <madyUnIyaT> -}     [ ['i','n','d','e','b','t','e','d','n','e','s','s'], ['o','b','l','i','g','a','t','i','o','n'] ] ]
+    MaFCUL |< Iy |< aT        `noun`    {- <madyUnIyaT> -}     [ ['i','n','d','e','b','t','e','d','n','e','s','s'], ['o','b','l','i','g','a','t','i','o','n'] ]
+                              `plural`     MaFCUL |< Iy |< At ]
 
 
 cluster_43  = cluster
@@ -2180,7 +2185,8 @@ cluster_91  = cluster
 
  |> ['r','A','d','i','y','U'] <| [
 
-    _____                     `noun`    {- <rAdiyU> -}         [ ['r','a','d','i','o'] ],
+    _____                     `noun`    {- <rAdiyU> -}         [ ['r','a','d','i','o'] ]
+                              `plural`     _____ |< At,
 
     _____ |< Iy               `adj`     {- <rAdiyuwIy> -}      [ ['r','a','d','i','o'] ] ]
 

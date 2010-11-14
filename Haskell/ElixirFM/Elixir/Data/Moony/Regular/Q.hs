@@ -663,7 +663,10 @@ cluster_41  = cluster
 
  |> ['k','a','b','s','U','l'] <| [
 
-    _____                     `noun`    {- <kabsUl> -}         [ ['c','a','p','s','u','l','e'], ['d','e','t','o','n','a','t','o','r'] ]
+    _____                     `noun`    {- <kabsUl> -}         [ ['c','a','p','s','u','l','e'] ]
+                              `plural`     _____ |< At,
+
+    _____ |< aT               `noun`    {- <kabsUlaT> -}       [ ['c','a','p','s','u','l','e'] ]
                               `plural`     _____ |< At ]
 
 

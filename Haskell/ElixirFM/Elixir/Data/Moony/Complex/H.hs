@@ -584,6 +584,11 @@ cluster_19  = cluster
                               `plural`     FaCA'iL
                               `plural`     FAL |< At,
 
+    FAL |< Iy |< At           `noun`    {- <.hA^gIyAt> -}      [ ['n','e','c','e','s','s','i','t','i','e','s'], ['u','t','i','l','i','t','i','e','s'], unwords [ ['e','v','e','r','y','d','a','y'], ['c','o','m','m','o','d','i','t','i','e','s'] ] ]
+                              `plural`     FAL |< Iy |< At
+                           
+    `limited` "-------P--",
+
     IFtiyAL                   `noun`    {- <i.htiyA^g> -}      [ ['n','e','e','d'], ['r','e','q','u','i','r','e','m','e','n','t'] ]
                               `plural`     IFtiyAL |< At,
 

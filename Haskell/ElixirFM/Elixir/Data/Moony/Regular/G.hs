@@ -2659,7 +2659,8 @@ cluster_95  = cluster
 
     TaFCIL |< Iy              `adj`     {- <ta.hkImIy> -}      [ ['a','r','b','i','t','r','a','t','i','o','n'] ],
 
-    MuFACaL |< aT             `noun`    {- <mu.hAkamaT> -}     [ unwords [ ['j','u','d','i','c','i','a','l'], ['p','r','o','c','e','e','d','i','n','g'] ], unwords [ ['l','e','g','a','l'], ['p','r','o','s','e','c','u','t','i','o','n'] ] ],
+    MuFACaL |< aT             `noun`    {- <mu.hAkamaT> -}     [ unwords [ ['j','u','d','i','c','i','a','l'], ['p','r','o','c','e','e','d','i','n','g'] ], unwords [ ['l','e','g','a','l'], ['p','r','o','s','e','c','u','t','i','o','n'] ] ]
+                              `plural`     MuFACaL |< At,
 
     HiFCAL                    `noun`    {- <'i.hkAm> -}        [ ['a','c','c','u','r','a','c','y'], ['p','r','e','c','i','s','i','o','n'] ]
                               `plural`     HiFCAL |< At,

@@ -272,7 +272,8 @@ cluster_23  = cluster
 
  |> ['t','i','l','f','i','z','y','U','n'] <| [
 
-    _____                     `noun`    {- <tilfizyUn> -}      [ ['t','e','l','e','v','i','s','i','o','n'] ],
+    _____                     `noun`    {- <tilfizyUn> -}      [ ['t','e','l','e','v','i','s','i','o','n'] ]
+                              `plural`     _____ |< At,
 
     _____ |< Iy               `adj`     {- <tilfizyUnIy> -}    [ ['t','e','l','e','v','i','s','i','o','n'] ] ]
 

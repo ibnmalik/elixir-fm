@@ -116,7 +116,11 @@ instance Lookup Index where
 
 instance Lookup Clips where
 
-    lookupWith y x = maybe [] id (intersection (Just [x]) y)
+    lookupWith Nothing  q       = [q]
+    lookupWith (Just p) (x, xs) = [ r | (y, ys) <- p, y == x, r <- z x (intersection ys xs)]
+
+        where z x i = case i of Just [] -> []
+                                _       -> [(x, i)]
 
 
 instance Lookup [UPoint] where
@@ -182,7 +186,17 @@ instance (Morphing a b, Show b) => Lookup a where
 
 instance Lookup Form where
 
-    lookupWith y x = lookupUsing y (Just . const False) (\ r e -> x `elem` lookupForm r e)
+    lookupWith y x = lookupUsing y (Just . const False) (\ r e -> z r e)
+
+        where z r e = case entity e of
+
+                        Verb fs _ _ _ _ _ _ -> or [ x == f | f <- fs ]
+
+                        Noun _ _ _ _        -> or [ any (morphs e ==) [morph b, morph c, d] | (_, b, c, d) <- nounStems x r ]
+
+                        Adj  _ _ _          -> or [ any (morphs e ==) [morph b, morph c]    | (_, b, c, _) <- nounStems x r ]
+
+                        _                   -> or []
 
                   -- lookupUsing y (Just . const False) (\ _ e -> isForm x (morphs e))
 

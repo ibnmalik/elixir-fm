@@ -199,7 +199,8 @@ cluster_6   = cluster
 
     FACiL                     `adj`     {- <fA`il> -}          [ ['e','f','f','e','c','t','i','v','e'], ['a','c','t','i','v','e'] ],
 
-    FACiL |< Iy |< aT         `noun`    {- <fA`ilIyaT> -}      [ ['e','f','f','e','c','t','i','v','e','n','e','s','s'], ['a','c','t','i','v','i','t','y'] ],
+    FACiL |< Iy |< aT         `noun`    {- <fA`ilIyaT> -}      [ ['a','c','t','i','v','i','t','y'], ['e','f','f','e','c','t','i','v','e','n','e','s','s'] ]
+                              `plural`     FACiL |< Iy |< At,
 
     MaFCUL                    `adj`     {- <maf`Ul> -}         [ ['a','f','f','e','c','t','e','d'], ['p','a','s','s','i','v','e'] ],
 

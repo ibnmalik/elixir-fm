@@ -1478,6 +1478,8 @@ cluster_69  = cluster
 
     MutaFACY                  `adj`     {- <mutaqA.dY> -}      [ unwords [ ['s','u','b','j','e','c','t'], ['t','o'], ['l','e','g','a','l'], ['p','r','o','s','e','c','u','t','i','o','n'] ] ],
 
+    MunFaCI                   `adj`     {- <munqa.dI> -}       [ ['e','x','p','i','r','i','n','g'], ['t','e','r','m','i','n','a','t','i','n','g'] ],
+
     MuFtaCY                   `adj`     {- <muqta.dY> -}       [ ['r','e','q','u','i','s','i','t','e'], ['n','e','c','e','s','s','a','r','y'] ],
 
     MuFtaCY                   `noun`    {- <muqta.dY> -}       [ ['r','e','q','u','i','r','e','m','e','n','t'], ['e','x','i','g','e','n','c','y'] ]

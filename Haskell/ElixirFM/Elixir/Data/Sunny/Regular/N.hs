@@ -287,8 +287,7 @@ cluster_16  = cluster
 
  |> ".t z ^g" <| [
 
-    FACiL                     `adj`     {- <.tAzi^g> -}        [ ['f','r','e','s','h'] ]
-                              `plural`     FaCiL |< aT ]
+    FACaL                     `adj`     {- <.tAza^g> -}        [ ['f','r','e','s','h'] ] ]
 
 
 cluster_17  = cluster
@@ -534,8 +533,11 @@ cluster_33  = cluster
 
     TaFaCCaL                  `verb`    {- <ta.taffal> -}      [ unwords [ ['b','e'], ['p','a','r','a','s','i','t','i','c'] ], unwords [ ['s','p','o','n','g','e'], ['o','f','f'], ['o','f'] ] ],
 
-    FiCL                      `noun`    {- <.tifl> -}          [ ['c','h','i','l','d'], ['i','n','f','a','n','t'], ['b','o','y'], ['g','i','r','l'] ]
+    FiCL                      `noun`    {- <.tifl> -}          [ ['c','h','i','l','d'], ['i','n','f','a','n','t'], ['b','o','y'] ]
                               `plural`     HaFCAL,
+
+    FiCL |< aT                `noun`    {- <.tiflaT> -}        [ ['c','h','i','l','d'], ['i','n','f','a','n','t'], ['g','i','r','l'] ]
+                              `plural`     FiCL |< At,
 
     FiCL |< Iy                `adj`     {- <.tiflIy> -}        [ ['i','n','f','a','n','t'], ['i','n','f','a','n','t','i','l','e'] ],
 
