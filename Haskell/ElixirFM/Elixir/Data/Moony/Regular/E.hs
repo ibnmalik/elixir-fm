@@ -913,11 +913,12 @@ cluster_52  = cluster
  |> "^g r .h" <| [
 
     FaCaL                     `verb`    {- <^gara.h> -}        [ ['w','o','u','n','d'], ['i','n','j','u','r','e'] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FaCL,
 
     FaCCaL                    `verb`    {- <^garra.h> -}       [ ['c','h','a','l','l','e','n','g','e'], ['i','n','v','a','l','i','d','a','t','e'] ],
 
-    InFaCaL                   `verb`    {- <in^gara.h> -}      [ unwords [ ['b','e'], ['w','o','u','n','d','e','d'] ], unwords [ ['b','e'], ['i','n','j','u','r','e','d'] ] ],
+    TaFaCCaL                  `verb`    {- <ta^garra.h> -}     [ unwords [ ['b','e'], ['w','o','u','n','d','e','d'] ], unwords [ ['b','e'], ['i','n','j','u','r','e','d'] ] ],
 
     IFtaCaL                   `verb`    {- <i^gtara.h> -}      [ ['c','o','m','m','i','t'] ],
 

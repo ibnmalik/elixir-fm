@@ -787,11 +787,9 @@ cluster_35  = cluster
 
     _____ |<< "A"             `xtra`    {- <nimsA> -}          [ ['A','u','s','t','r','i','a'] ],
 
+    al >| _____ |<< "A"       `xtra`    {- <an-nimsA> -}       [ ['A','u','s','t','r','i','a'] ],
+
     _____ |<< "Aw" |< Iy      `adj`     {- <nimsAwIy> -}       [ ['A','u','s','t','r','i','a','n'] ] ]
-
- |> ['n','a','m','s'] <| [
-
-    _____ |<< "A"             `xtra`    {- <namsA> -}          [ ['A','u','s','t','r','i','a'] ] ]
 
 
 cluster_36  = cluster

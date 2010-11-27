@@ -806,9 +806,9 @@ cluster_50  = cluster
 
  |> ['h','a','l'] <| [
 
-    _____                     `part`    {- <hal> -}            [ unwords [ ['d','o','e','s'], "?" ], unwords [ ['i','s'], "?" ] ],
+    _____                     `part`    {- <hal> -}            [ unwords [ ['w','h','e','t','h','e','r'], "?" ] ],
 
-    _____ |<< "lA"            `part`    {- <hallA> -}          [ unwords [ ['d','o','e','s'], ['n','o','t'], "?" ], unwords [ ['i','s'], ['n','o','t'], "?" ] ] ]
+    _____ |<< "lA"            `part`    {- <hallA> -}          [ unwords [ ['w','h','e','t','h','e','r'], ['n','o','t'], "?" ] ] ]
 
 
 cluster_51  = cluster

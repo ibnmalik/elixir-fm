@@ -760,7 +760,7 @@ cluster_43  = cluster
     FiCA'                     `noun`    {- <binA'> -}          [ ['b','u','i','l','d','i','n','g'], ['s','t','r','u','c','t','u','r','e'] ]
                               `plural`     HaFCI |< aT,
 
-    FiCA'                     `noun`    {- <binA'> -}          [ ['b','u','i','l','d'], ['c','o','n','s','t','r','u','c','t'] ] ]
+    FiCA'                     `noun`    {- <binA'> -}          [ ['b','u','i','l','d','i','n','g'], ['c','o','n','s','t','r','u','c','t','i','n','g'] ] ]
 
 
 cluster_44  = cluster

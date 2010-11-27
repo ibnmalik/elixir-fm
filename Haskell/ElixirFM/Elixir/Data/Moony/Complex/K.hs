@@ -1648,7 +1648,7 @@ cluster_76  = cluster
     HiFCAL                    `noun`    {- <'iqlAl> -}         [ ['d','e','c','r','e','a','s','e'], ['d','i','m','i','n','u','t','i','o','n'], ['r','e','d','u','c','t','i','o','n'] ]
                               `plural`     HiFCAL |< At,
 
-    IstiFCAL                  `noun`    {- <istiqlAl> -}       [ ['i','n','d','e','p','e','n','d','e','n','c','e'], ['a','u','t','o','n','o','m','y'] ]
+    IstiFCAL                  `noun`    {- <istiqlAl> -}       [ ['i','n','d','e','p','e','n','d','e','n','c','e'], ['a','u','t','o','n','o','m','y'], ['b','o','a','r','d','i','n','g'] ]
                               `plural`     IstiFCAL |< At,
 
     IstiFCAL |< Iy            `adj`     {- <istiqlAlIy> -}     [ ['i','n','d','e','p','e','n','d','e','n','t'], ['a','u','t','o','n','o','m','o','u','s'] ],

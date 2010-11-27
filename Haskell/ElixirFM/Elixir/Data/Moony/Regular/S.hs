@@ -368,9 +368,15 @@ cluster_24  = cluster
 
 cluster_25  = cluster
 
- |> ['k','A','m','i','r','A'] <| [
+ |> ['k','A','m','I','r'] <| [
 
-    _____                     `noun`    {- <kAmirA> -}         [ ['c','a','m','e','r','a'] ] ]
+    _____ |<< "A"             `noun`    {- <kAmIrA> -}         [ ['c','a','m','e','r','a'] ]
+                              `plural`     _____ |< At ]
+
+ |> ['k','A','m','i','r'] <| [
+
+    _____ |<< "A"             `noun`    {- <kAmirA> -}         [ ['c','a','m','e','r','a'] ]
+                              `plural`     _____ |< At ]
 
 
 cluster_26  = cluster

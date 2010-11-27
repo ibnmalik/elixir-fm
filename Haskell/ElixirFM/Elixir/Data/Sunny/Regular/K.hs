@@ -287,13 +287,11 @@ cluster_6   = cluster
 
     IstaFCaL                  `verb`    {- <ista^sraq> -}      [ unwords [ ['s','t','u','d','y'], ['t','h','e'], ['E','a','s','t'] ], unwords [ ['b','e'], ['a','n'], ['O','r','i','e','n','t','a','l','i','s','t'] ] ],
 
-    FaCL                      `noun`    {- <^sarq> -}          [ ['e','a','s','t'] ],
+    FaCL                      `noun`    {- <^sarq> -}          [ ['e','a','s','t'], ['E','a','s','t'], ['O','r','i','e','n','t'] ],
 
-    FaCL                      `noun`    {- <^sarq> -}          [ ['E','a','s','t'] ],
+    FaCL |<< "aN"             `noun`    {- <^sarqaN> -}        [ ['e','a','s','t','w','a','r','d'], unwords [ ['i','n'], ['t','h','e'], ['e','a','s','t'] ] ],
 
-    FaCL |<< "aN"             `noun`    {- <^sarqaN> -}        [ ['e','a','s','t','w','a','r','d'] ],
-
-    FaCL |< Iy                `adj`     {- <^sarqIy> -}        [ ['E','a','s','t','e','r','n'], ['O','r','i','e','n','t','a','l'], ['e','a','s','t'] ],
+    FaCL |< Iy                `adj`     {- <^sarqIy> -}        [ ['e','a','s','t','e','r','n'], ['O','r','i','e','n','t','a','l'], ['e','a','s','t'] ],
 
     FaCL |<< "Aw" |< Iy       `noun`    {- <^sarqAwIy> -}      [ ['S','h','a','r','q','a','w','i'] ],
 
@@ -1590,11 +1588,23 @@ cluster_72  = cluster
 
 cluster_73  = cluster
 
+ |> ['^','s','U','k','U','l','A','t'] <| [
+
+    _____ |< aT               `noun`    {- <^sUkUlAtaT> -}     [ ['c','h','o','c','o','l','a','t','e'] ],
+
+    _____ |< Iy               `adj`     {- <^sUkUlAtIy> -}     [ ['c','h','o','c','o','l','a','t','e'] ] ]
+
  |> ['^','s','u','k','U','l','A','t'] <| [
 
     _____ |< aT               `noun`    {- <^sukUlAtaT> -}     [ ['c','h','o','c','o','l','a','t','e'] ],
 
     _____ |< Iy               `adj`     {- <^sukUlAtIy> -}     [ ['c','h','o','c','o','l','a','t','e'] ] ]
+
+ |> ['^','s','I','k','U','l','A','t'] <| [
+
+    _____ |< aT               `noun`    {- <^sIkUlAtaT> -}     [ ['c','h','o','c','o','l','a','t','e'] ],
+
+    _____ |< Iy               `adj`     {- <^sIkUlAtIy> -}     [ ['c','h','o','c','o','l','a','t','e'] ] ]
 
 
 cluster_74  = cluster

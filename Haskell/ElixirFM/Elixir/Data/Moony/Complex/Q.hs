@@ -135,7 +135,7 @@ cluster_6   = cluster
 
     FaCL |< aT                `noun`    {- <wahraT> -}         [ ['c','o','n','s','t','e','r','n','a','t','i','o','n'], ['f','e','a','r'] ],
 
-    FaCLAn                    `noun`    {- <wahrAn> -}         [ ['O','r','a','n'] ] ]
+    FaCLAn                    `noun`    {- <wahrAn> -}         [ ['O','r','a','n'], ['W','a','h','r','a','n'] ] ]
 
 
 cluster_7   = cluster

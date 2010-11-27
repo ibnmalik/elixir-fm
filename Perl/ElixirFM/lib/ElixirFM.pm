@@ -100,12 +100,12 @@ sub concat {
 
 sub orth {
 
-    return decode "arabtex", $_[0];
+    return $_[0] eq '"' ? $_[0] : decode "arabtex", $_[0];
 }
 
 sub phon {
 
-    return decode "arabtex-zdmg", $_[0];
+    return $_[0] eq '"' ? $_[0] : decode "arabtex-zdmg", $_[0];
 }
 
 sub orph {

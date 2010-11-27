@@ -700,7 +700,8 @@ cluster_43  = cluster
     MaFCUL                    `adj`     {- <ma^gmU`> -}        [ ['g','a','t','h','e','r','e','d'], ['t','o','t','a','l'] ],
 
     MaFCUL |< aT              `noun`    {- <ma^gmU`aT> -}      [ ['c','o','l','l','e','c','t','i','o','n'], ['g','r','o','u','p'], ['b','l','o','c'] ]
-                              `plural`     MaFACIL,
+                              `plural`     MaFACIL
+                              `plural`     MaFCUL |< At,
 
     MuFaCCiL                  `noun`    {- <mu^gammi`> -}      [ ['c','o','l','l','e','c','t','o','r'], ['b','a','t','t','e','r','y'] ]
                               `plural`     MuFaCCiL |< Un

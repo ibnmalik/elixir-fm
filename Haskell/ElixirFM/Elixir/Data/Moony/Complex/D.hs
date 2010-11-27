@@ -688,13 +688,17 @@ cluster_44  = cluster
 
 cluster_45  = cluster
 
+ |> ['\'','U','l','I','m','b'] <| [
+
+    _____ |< iyA              `xtra`    {- <'UlImbiyA> -}      [ ['O','l','y','m','p','i','a'] ] ]
+
  |> ['\'','U','l','i','m','b'] <| [
 
-    _____ |< Iy               `adj`     {- <'UlimbIy> -}       [ ['O','l','y','m','p','i','c'] ] ]
+    _____ |< Iy               `adj`     {- <'UlimbIy> -}       [ ['O','l','y','m','p','i','c'] ],
 
- |> ['\'','U','l','i','m','b','i','y','A','d'] <| [
+    _____ |< iy |<< "Ad"      `xtra`    {- <'UlimbiyAd> -}     [ ['O','l','y','m','p','i','a','d'], ['O','l','y','m','p','i','c','s'] ],
 
-    _____                     `xtra`    {- <'UlimbiyAd> -}     [ ['O','l','y','m','p','i','a','d'], ['O','l','y','m','p','i','c','s'] ] ]
+    al >| _____ |< iy |<< "Ad" `xtra`    {- <al-'UlimbiyAd> -}  [ ['O','l','y','m','p','i','a','d'], ['O','l','y','m','p','i','c','s'] ] ]
 
 
 cluster_46  = cluster
@@ -807,7 +811,7 @@ cluster_51  = cluster
 
  |> ['\'','a','l','b'] <| [
 
-    _____                     `xtra`    {- <'alb> -}           [ ['A','l','p','s'] ],
+    al >| _____               `xtra`    {- <al-'alb> -}        [ ['A','l','p','s'] ],
 
     _____ |< Iy               `adj`     {- <'albIy> -}         [ ['A','l','p','i','n','e'] ] ]
 
@@ -1036,7 +1040,14 @@ cluster_65  = cluster
 
  |> "' m s" <| [
 
-    FaCL                      `noun`    {- <'ams> -}           [ ['y','e','s','t','e','r','d','a','y'] ] ]
+    FaCL |<< "i"              `adv`     {- <'amsi> -}          [ ['y','e','s','t','e','r','d','a','y'] ],
+
+    FaCL                      `noun`    {- <'ams> -}           [ ['y','e','s','t','e','r','d','a','y'], unwords [ ['r','e','c','e','n','t'], ['p','a','s','t'] ] ]
+                              `plural`     HACuL
+                              `plural`     FuCUL
+                              `plural`     HACAL,
+
+    FiCL |< Iy                `adj`     {- <'imsIy> -}         [ ['y','e','s','t','e','r','d','a','y'], ['y','e','s','t','e','r'] ] ]
 
 
 cluster_66  = cluster

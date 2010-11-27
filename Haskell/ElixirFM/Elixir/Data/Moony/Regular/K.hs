@@ -1639,7 +1639,8 @@ cluster_53  = cluster
 
     FaCaL |< Iy               `adj`     {- <`amalIy> -}        [ ['p','r','a','c','t','i','c','a','l'], ['p','r','a','g','m','a','t','i','c'], unwords [ ['i','n'], ['p','r','a','c','t','i','c','e'] ] ],
 
-    FaCaL |< Iy |< aT         `noun`    {- <`amalIyaT> -}      [ ['o','p','e','r','a','t','i','o','n'], ['m','i','s','s','i','o','n'], ['p','r','o','c','e','s','s'] ],
+    FaCaL |< Iy |< aT         `noun`    {- <`amalIyaT> -}      [ ['o','p','e','r','a','t','i','o','n'], ['m','i','s','s','i','o','n'], ['p','r','o','c','e','s','s'] ]
+                              `plural`     FaCaL |< Iy |< At,
 
     FuCL |< aT                `noun`    {- <`umlaT> -}         [ ['c','u','r','r','e','n','c','y'] ]
                               `plural`     FuCL |< At,
@@ -2459,11 +2460,11 @@ cluster_96  = cluster
 
     IstaFCaL                  `verb`    {- <ista.grab> -}      [ unwords [ ['w','o','n','d','e','r'], ['a','t'] ], unwords [ ['f','i','n','d'], ['s','t','r','a','n','g','e'] ] ],
 
-    FaCL                      `noun`    {- <.garb> -}          [ ['w','e','s','t'], ['W','e','s','t'] ],
+    FaCL                      `noun`    {- <.garb> -}          [ ['w','e','s','t'], ['W','e','s','t'], ['O','c','c','i','d','e','n','t'] ],
 
-    FaCL |<< "aN"             `noun`    {- <.garbaN> -}        [ ['w','e','s','t','w','a','r','d'], unwords [ ['i','n'], ['t','h','e'], ['W','e','s','t'] ] ],
+    FaCL |<< "aN"             `noun`    {- <.garbaN> -}        [ ['w','e','s','t','w','a','r','d'], unwords [ ['i','n'], ['t','h','e'], ['w','e','s','t'] ] ],
 
-    FaCL |< Iy                `adj`     {- <.garbIy> -}        [ ['w','e','s','t'], ['w','e','s','t','e','r','n'], ['w','e','s','t','e','r','n','e','r'] ],
+    FaCL |< Iy                `adj`     {- <.garbIy> -}        [ ['w','e','s','t','e','r','n'], ['O','c','c','i','d','e','n','t','a','l'], ['w','e','s','t'] ],
 
     FuCL |< aT                `noun`    {- <.gurbaT> -}        [ ['e','x','i','l','e'] ],
 

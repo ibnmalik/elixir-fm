@@ -130,7 +130,7 @@ cluster_5   = cluster
 
     FaCCaL                    `verb`    {- <fa_h_ham> -}       [ unwords [ ['s','h','o','w'], ['d','e','f','e','r','e','n','c','e'] ], unwords [ ['s','h','o','w'], ['r','e','s','p','e','c','t'] ] ],
 
-    FaCL                      `noun`    {- <fa_hm> -}          [ ['s','p','l','e','n','d','i','d'], ['m','a','g','n','i','f','i','c','e','n','t'] ],
+    FaCL                      `adj`     {- <fa_hm> -}          [ ['s','p','l','e','n','d','i','d'], ['m','a','g','n','i','f','i','c','e','n','t'] ],
 
     FaCAL |< aT               `noun`    {- <fa_hAmaT> -}       [ unwords [ ['H','i','s'], ['E','x','c','e','l','l','e','n','c','y'] ] ],
 

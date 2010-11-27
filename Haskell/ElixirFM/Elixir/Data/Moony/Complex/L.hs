@@ -134,7 +134,9 @@ cluster_8   = cluster
 
     FaCCAL                    `adj`     {- <qawwAl> -}         [ ['l','o','q','u','a','c','i','o','u','s'], ['t','a','l','k','a','t','i','v','e'] ],
 
-    MaFAL                     `noun`    {- <maqAl> -}          [ ['a','r','t','i','c','l','e'], ['e','s','s','a','y'] ]
+    MaFAL                     `noun`    {- <maqAl> -}          [ ['s','p','e','e','c','h'], ['p','r','o','p','o','s','i','t','i','o','n'] ],
+
+    MaFAL |< aT               `noun`    {- <maqAlaT> -}        [ ['a','r','t','i','c','l','e'], ['e','s','s','a','y'] ]
                               `plural`     MaFAL |< At,
 
     MuFACaL |< aT             `noun`    {- <muqAwalaT> -}      [ ['d','e','a','l'], ['b','a','r','g','a','i','n'], ['s','e','t','t','l','e','m','e','n','t'] ],

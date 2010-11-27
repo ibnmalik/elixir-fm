@@ -520,6 +520,17 @@ lexicon = listing "Extended lexicon"
         ]
 
 
+    |> "kAkAw" <| [
+
+        _____               <::>    "N------S--"
+                                                        <..>    [ "cocoa" ]
+                            <.>     "N--------[IRA]"
+                                                        <:>     _____
+                            <.>     "N--------D"
+                                                        <:>     al >| _____
+        ]
+
+
     |> "` ^s r" <| [
 
         FaCaL |< aT         <::>    "QX--------"

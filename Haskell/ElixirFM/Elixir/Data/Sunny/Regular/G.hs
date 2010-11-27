@@ -1125,7 +1125,8 @@ cluster_71  = cluster
     FiCAL                     `noun`    {- <sibAq> -}          [ ['r','a','c','e'], ['c','o','m','p','e','t','i','t','i','o','n'] ]
                               `plural`     FiCAL |< At,
 
-    MuFACaL |< aT             `noun`    {- <musAbaqaT> -}      [ ['r','a','c','e'], ['c','o','m','p','e','t','i','t','i','o','n'] ],
+    MuFACaL |< aT             `noun`    {- <musAbaqaT> -}      [ ['r','a','c','e'], ['c','o','m','p','e','t','i','t','i','o','n'] ]
+                              `plural`     MuFACaL |< At,
 
     TaFACuL                   `noun`    {- <tasAbuq> -}        [ ['r','a','c','e'], ['c','o','m','p','e','t','i','t','i','o','n'] ]
                               `plural`     TaFACuL |< At,

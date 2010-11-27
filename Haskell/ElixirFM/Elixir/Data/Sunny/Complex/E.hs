@@ -486,7 +486,9 @@ cluster_21  = cluster
     MuFtaCI                   `noun`    {- <mu^starI> -}       [ ['J','u','p','i','t','e','r'] ],
 
     MuFtaCY                   `noun`    {- <mu^starY> -}       [ unwords [ ['p','u','r','c','h','a','s','e','d'], ['g','o','o','d','s'] ] ]
-                              `plural`     MuFtaCY |< At,
+                              `plural`     MuFtaCY |< At
+                           
+    `derives` otherwise,
 
     FiCLAn                    `noun`    {- <^siryAn> -}        [ ['a','r','t','e','r','y'] ]
                               `plural`     FaCALIn,

@@ -816,6 +816,8 @@ cluster_55  = cluster
                            
     `derives` otherwise,
 
+    MustaFCiL                 `adj`     {- <musta_tmir> -}     [ ['i','n','v','e','s','t','i','n','g'] ],
+
     MustaFCaL                 `adj`     {- <musta_tmar> -}     [ ['e','x','p','l','o','i','t','e','d'], ['i','n','v','e','s','t','e','d'] ],
 
     FACiL                     `noun`    {- <_tAmir> -}         [ ['T','h','a','m','i','r'] ] ]

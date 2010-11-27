@@ -2067,7 +2067,7 @@ cluster_94  = cluster
 
  |> ['s','w','I','d'] <| [
 
-    _____                     `xtra`    {- <swId> -}           [ ['S','w','e','d','e','n'] ],
+    al >| _____               `xtra`    {- <as-swId> -}        [ ['S','w','e','d','e','n'] ],
 
     _____ |< Iy               `adj`     {- <swIdIy> -}         [ ['S','w','e','d','i','s','h'] ] ]
 

@@ -2081,6 +2081,8 @@ cluster_100 = cluster
 
     HaFCaL                    `verb`    {- <'af.ham> -}        [ ['s','t','i','f','l','e'], unwords [ ['m','a','k','e'], ['s','i','l','e','n','t'] ], ['r','e','b','u','t'] ],
 
+    TaFaCCaL                  `verb`    {- <tafa.h.ham> -}     [ unwords [ ['b','e'], ['c','a','r','b','o','n','i','z','e','d'] ] ],
+
     FaCL                      `noun`    {- <fa.hm> -}          [ ['c','o','a','l'] ],
 
     FaCL                      `noun`    {- <fa.hm> -}          [ ['F','a','h','m'] ],
@@ -2106,6 +2108,8 @@ cluster_100 = cluster
     FACiL                     `adj`     {- <fA.him> -}         [ unwords [ ['c','o','a','l'], "-", ['b','l','a','c','k'] ], unwords [ ['p','i','t','c','h'], "-", ['b','l','a','c','k'] ] ],
 
     MuFaCCiL                  `noun`    {- <mufa.h.him> -}     [ ['c','a','r','b','u','r','e','t','o','r'] ],
+
+    MutaFaCCiL                `adj`     {- <mutafa.h.him> -}   [ ['c','a','r','b','o','n','i','z','e','d'] ],
 
     MuFCiL                    `adj`     {- <muf.him> -}        [ ['o','v','e','r','w','h','e','l','m','i','n','g'], ['s','c','a','t','h','i','n','g'] ] ]
 
