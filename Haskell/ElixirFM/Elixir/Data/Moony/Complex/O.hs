@@ -603,7 +603,7 @@ cluster_31  = cluster
     FaCiL                     `verb`    {- <wa^gi`> -}         [ unwords [ ['f','e','e','l'], ['p','a','i','n'] ], ['h','u','r','t'] ]
                               `imperf`     FCaL,
 
-    HaFCaL                    `verb`    {- <'aw^ga`> -}        [ ['h','u','r','t'], unwords [ ['b','e'], ['h','u','r','t'] ] ],
+    HaFCaL                    `verb`    {- <'aw^ga`> -}        [ unwords [ ['c','a','u','s','e'], ['p','a','i','n'] ], ['p','a','i','n'], ['h','u','r','t'] ],
 
     TaFaCCaL                  `verb`    {- <tawa^g^ga`> -}     [ unwords [ ['s','u','f','f','e','r'], ['p','a','i','n'] ], ['c','o','m','m','i','s','e','r','a','t','e'] ],
 
@@ -616,7 +616,9 @@ cluster_31  = cluster
     TaFaCCuL                  `noun`    {- <tawa^g^gu`> -}     [ ['p','a','i','n'], ['a','i','l','m','e','n','t'] ]
                               `plural`     TaFaCCuL |< At,
 
-    MaFCUL                    `adj`     {- <maw^gU`> -}        [ ['s','u','f','f','e','r','i','n','g'], unwords [ ['f','e','e','l','i','n','g'], ['p','a','i','n'] ] ] ]
+    MaFCUL                    `adj`     {- <maw^gU`> -}        [ ['s','u','f','f','e','r','i','n','g'], unwords [ ['f','e','e','l','i','n','g'], ['p','a','i','n'] ] ],
+
+    MUCiL                     `adj`     {- <mU^gi`> -}         [ ['p','a','i','n','f','u','l'] ] ]
 
 
 cluster_32  = cluster

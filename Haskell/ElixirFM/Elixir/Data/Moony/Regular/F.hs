@@ -510,7 +510,7 @@ cluster_36  = cluster
 
     FuCAL                     `noun`    {- <^gumAd> -}         [ ['J','u','m','a','d'] ],
 
-    FuCALY                    `noun`    {- <^gumAdY> -}        [ unwords [ ['J','u','m','a','d','a'], "(", ['5','t','h'], ['a','n','d'], ['6','t','h'], ['m','o','n','t','h'], ['n','a','m','e','s'], ['i','n'], ['I','s','l','a','m','i','c'], ['c','a','l','e','n','d','a','r'], ")" ] ]
+    FuCALY                    `noun`    {- <^gumAdY> -}        [ ['J','u','m','a','d','a'] ]
                               `plural`     FuCALY |< At,
 
     FuCUL                     `noun`    {- <^gumUd> -}         [ ['f','r','e','e','z','i','n','g'], ['i','n','e','r','t','i','a'], ['d','e','a','d','l','o','c','k'] ],

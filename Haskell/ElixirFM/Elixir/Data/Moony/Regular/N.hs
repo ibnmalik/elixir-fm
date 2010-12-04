@@ -1629,7 +1629,9 @@ cluster_96  = cluster
 
  |> "q b r .s" <| [
 
-    KuRDuS                    `noun`    {- <qubru.s> -}        [ ['C','y','p','r','u','s'] ],
+    KuRDuS                    `noun`    {- <qubru.s> -}        [ ['C','y','p','r','u','s'] ]
+                           
+    `excepts` Diptote,
 
     KuRDuS |< Iy              `noun`    {- <qubru.sIy> -}      [ ['C','y','p','r','i','o','t'] ]
                               `plural`     KaRADiS |< aT

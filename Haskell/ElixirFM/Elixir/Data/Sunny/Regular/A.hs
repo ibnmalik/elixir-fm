@@ -823,11 +823,8 @@ cluster_60  = cluster
 
  |> "t ^s r n" <| [
 
-    KiRDIS                    `noun`    {- <ti^srIn> -}        [ unwords [ ['T','i','s','h','r','i','n'], "(", ['m','o','n','t','h'], ")" ] ]
-                           
-    `excepts` Diptote,
-
-    KiRDIS                    `noun`    {- <ti^srIn> -}        [ unwords [ ['T','i','s','h','r','i','n'], "(", ['n','e','w','s','p','a','p','e','r'], ")" ] ]
+    KiRDIS                    `noun`    {- <ti^srIn> -}        [ ['T','i','s','h','r','i','n'] ]
+                              `plural`     KaRADIS
                            
     `excepts` Diptote,
 

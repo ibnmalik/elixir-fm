@@ -930,7 +930,8 @@ cluster_62  = cluster
     FaCaL                     `verb`    {- <'amar> -}          [ ['c','o','m','m','a','n','d'], ['o','r','d','e','r'], ['p','r','e','s','c','r','i','b','e'] ]
                               `imperf`     FCuL
                               `second`     CuL
-                              `second`     FCuL,
+                              `second`     FCuL
+                              `masdar`     FaCL,
 
     FaCCaL                    `verb`    {- <'ammar> -}         [ ['e','m','p','o','w','e','r'], ['a','u','t','h','o','r','i','z','e'] ],
 

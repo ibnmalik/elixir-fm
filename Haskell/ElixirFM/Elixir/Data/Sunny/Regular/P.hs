@@ -1292,7 +1292,12 @@ cluster_49  = cluster
 
     IFtiCAL |< Iy             `adj`     {- <inti.hArIy> -}     [ ['s','u','i','c','i','d','a','l'], ['s','u','i','c','i','d','e'] ],
 
-    MuFtaCiL                  `noun`    {- <munta.hir> -}      [ unwords [ ['s','u','i','c','i','d','e'], "(", ['p','e','r','s','o','n'], ")" ] ]
+    IFtiCAL |< Iy             `noun`    {- <inti.hArIy> -}     [ ['s','u','i','c','i','d','e'] ]
+                              `plural`     IFtiCAL |< Iy |< Un
+                           
+    `derives` otherwise,
+
+    MuFtaCiL                  `noun`    {- <munta.hir> -}      [ ['s','u','i','c','i','d','e'] ]
                               `plural`     MuFtaCiL |< Un
                            
     `derives` otherwise ]

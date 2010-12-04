@@ -224,7 +224,7 @@ cluster_10  = cluster
                            
     `derives` otherwise,
 
-    FaCAL                     `adj`     {- <^gabAn> -}         [ ['c','o','w','a','r','d'] ]
+    FaCAL                     `adj`     {- <^gabAn> -}         [ ['c','o','w','a','r','d','l','y'] ]
                               `plural`     FuCaLA',
 
     FaCCAL                    `noun`    {- <^gabbAn> -}        [ unwords [ ['c','h','e','e','s','e'], ['m','e','r','c','h','a','n','t'] ] ]

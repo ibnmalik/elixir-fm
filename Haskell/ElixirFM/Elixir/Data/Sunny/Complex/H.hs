@@ -144,7 +144,7 @@ cluster_5   = cluster
 
     MuFCI |< aT               `noun`    {- <mundiyaT> -}       [ unwords [ ['d','i','s','g','r','a','c','e','f','u','l'], ['d','e','e','d'] ], ['i','n','s','u','l','t'] ],
 
-    MuFtaCY                   `noun`    {- <muntadY> -}        [ unwords [ ['a','s','s','e','m','b','l','y'], ['r','o','o','m'] ], unwords [ ['g','a','t','h','e','r','i','n','g'], ['p','l','a','c','e'] ] ]
+    MuFtaCY                   `noun`    {- <muntadY> -}        [ ['c','o','n','f','e','r','e','n','c','e'], ['f','a','i','r'], ['a','s','s','e','m','b','l','y'], unwords [ ['g','a','t','h','e','r','i','n','g'], ['p','l','a','c','e'] ] ]
                               `plural`     MuFtaCY |< At ]
 
  |> "n d y" <| [

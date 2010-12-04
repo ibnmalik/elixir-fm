@@ -59,138 +59,142 @@ cluster_7   = cluster
 
     _____                     `xtra`    {- <tItAnUs> -}        [ ['t','e','t','a','n','u','s'] ] ]
 
-
-cluster_8   = cluster
-
  |> ['t','i','t','a','n','U','s'] <| [
 
     _____                     `xtra`    {- <titanUs> -}        [ ['t','e','t','a','n','u','s'] ] ]
 
 
-cluster_9   = cluster
+cluster_8   = cluster
 
  |> ['t','U','t','s','I'] <| [
 
     _____                     `xtra`    {- <tUtsI> -}          [ ['T','u','t','s','i'] ] ]
 
 
-cluster_10  = cluster
+cluster_9   = cluster
 
  |> ['t','I','t','s','i','w','U'] <| [
 
     _____                     `xtra`    {- <tItsiwU> -}        [ ['T','e','t','s','u'] ] ]
 
 
-cluster_11  = cluster
+cluster_10  = cluster
 
  |> ['t','U','^','g','U'] <| [
 
     _____                     `xtra`    {- <tU^gU> -}          [ ['T','o','g','o'] ] ]
 
 
-cluster_12  = cluster
+cluster_11  = cluster
 
  |> ['t','A','d','I','r','A','n'] <| [
 
     _____                     `xtra`    {- <tAdIrAn> -}        [ ['T','a','d','i','r','a','n'] ] ]
 
 
-cluster_13  = cluster
+cluster_12  = cluster
 
  |> ['t','U','r','A'] <| [
 
     _____                     `xtra`    {- <tUrA> -}           [ ['T','o','r','a'] ] ]
 
 
-cluster_14  = cluster
+cluster_13  = cluster
 
  |> ['t','I','r','I'] <| [
 
     _____                     `xtra`    {- <tIrI> -}           [ ['T','h','i','e','r','r','y'] ] ]
 
 
-cluster_15  = cluster
+cluster_14  = cluster
 
  |> ['t','I','r','I','z','A'] <| [
 
     _____                     `xtra`    {- <tIrIzA> -}         [ ['T','e','r','e','s','a'] ] ]
 
 
-cluster_16  = cluster
+cluster_15  = cluster
 
  |> ['t','A','r','A','n','I'] <| [
 
     _____                     `xtra`    {- <tArAnI> -}         [ ['T','a','r','a','n','i'] ] ]
 
 
-cluster_17  = cluster
+cluster_16  = cluster
 
  |> ['t','I','r','A','n','A'] <| [
 
     _____                     `xtra`    {- <tIrAnA> -}         [ ['T','i','r','a','n','a'] ] ]
 
 
-cluster_18  = cluster
+cluster_17  = cluster
 
  |> ['t','U','r','I','n','U'] <| [
 
     _____                     `xtra`    {- <tUrInU> -}         [ ['T','o','r','i','n','o'] ] ]
 
 
-cluster_19  = cluster
+cluster_18  = cluster
 
  |> ['t','U','r','U','n','t','U'] <| [
 
     _____                     `xtra`    {- <tUrUntU> -}        [ ['T','o','r','o','n','t','o'] ] ]
 
 
-cluster_20  = cluster
+cluster_19  = cluster
 
  |> ['t','a','r','.','g','A'] <| [
 
     _____                     `xtra`    {- <tar.gA> -}         [ ['T','a','r','g','h','a'] ] ]
 
 
-cluster_21  = cluster
+cluster_20  = cluster
 
  |> ['t','I','r','.','g','A','t'] <| [
 
     _____                     `xtra`    {- <tIr.gAt> -}        [ ['T','e','r','g','a','t'] ] ]
 
 
-cluster_22  = cluster
+cluster_21  = cluster
 
  |> ['t','U','z','i','y','A'] <| [
 
     _____                     `xtra`    {- <tUziyA> -}         [ ['T','a','u','z','i','a','t'] ] ]
 
 
-cluster_23  = cluster
+cluster_22  = cluster
 
  |> ['t','A','s'] <| [
 
     _____                     `xtra`    {- <tAs> -}            [ ['T','A','S','S'] ] ]
 
 
-cluster_24  = cluster
+cluster_23  = cluster
 
  |> ['t','U','s','k','A'] <| [
 
     _____                     `xtra`    {- <tUskA> -}          [ ['T','o','s','c','a'] ] ]
 
 
-cluster_25  = cluster
+cluster_24  = cluster
 
  |> ['t','A','k','I','n','A','r','d','I'] <| [
 
     _____                     `xtra`    {- <tAkInArdI> -}      [ ['T','a','c','c','h','i','n','a','r','d','i'] ] ]
 
 
-cluster_26  = cluster
+cluster_25  = cluster
 
  |> ['t','A','k','A','h','A','r','A'] <| [
 
     _____                     `xtra`    {- <tAkAhArA> -}       [ ['T','a','k','a','h','a','r','a'] ] ]
+
+
+cluster_26  = cluster
+
+ |> ['t','i','k','s','A','s'] <| [
+
+    _____                     `xtra`    {- <tiksAs> -}         [ ['T','e','x','a','s'] ] ]
 
 
 cluster_27  = cluster
@@ -574,7 +578,7 @@ cluster_80  = cluster
 
  |> ['d','U'] <| [
 
-    _____                     `xtra`    {- <dU> -}             [ ['D','u'], ['D','o'] ] ]
+    _____                     `xtra`    {- <dU> -}             [ ['D','u'], ['D','o'], ['D','e'] ] ]
 
 
 cluster_81  = cluster

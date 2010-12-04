@@ -1312,7 +1312,9 @@ cluster_60  = cluster
  |> ['f','i','r','a','n','k'] <| [
 
     _____                     `noun`    {- <firank> -}         [ ['f','r','a','n','c'] ]
-                              `plural`     _____ |< At ]
+                              `plural`     _____ |< At
+                           
+    `excepts` Triptote ]
 
 
 cluster_61  = cluster
@@ -1895,10 +1897,11 @@ cluster_91  = cluster
 
     InFiCAL |< Iy |< aT       `noun`    {- <infi.sAlIyaT> -}   [ ['s','e','p','a','r','a','t','i','s','m'] ],
 
-    FACiL                     `noun`    {- <fA.sil> -}         [ ['c','o','n','c','l','u','s','i','v','e'], ['d','e','c','i','s','i','v','e'], ['i','n','t','e','r','l','u','d','e','s'], ['i','n','t','e','r','r','u','p','t','i','o','n','s'] ]
+    FACiL                     `adj`     {- <fA.sil> -}         [ ['s','e','p','a','r','a','t','i','n','g'], ['d','i','v','i','d','i','n','g'], ['c','o','n','c','l','u','s','i','v','e'], ['d','e','c','i','s','i','v','e'] ]
                               `plural`     FawACiL,
 
-    FACiL |< aT               `noun`    {- <fA.silaT> -}       [ ['p','a','r','t','i','t','i','o','n'], ['d','i','v','i','s','i','o','n'], ['c','o','m','m','a'], ['d','a','s','h'] ],
+    FACiL |< aT               `noun`    {- <fA.silaT> -}       [ ['p','a','r','t','i','t','i','o','n'], ['d','i','v','i','s','i','o','n'], ['c','o','m','m','a'], ['d','a','s','h'], ['i','n','t','e','r','l','u','d','e'] ]
+                              `plural`     FawACiL,
 
     MaFCUL                    `adj`     {- <maf.sUl> -}        [ ['d','e','t','a','c','h','e','d'], ['s','e','p','a','r','a','t','e','d'], ['e','x','c','l','u','d','e','d'] ],
 

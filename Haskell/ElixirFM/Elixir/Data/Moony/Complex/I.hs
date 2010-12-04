@@ -29,11 +29,11 @@ cluster_1   = cluster
 
     IstaFAL                   `verb`    {- <ista_hAr> -}       [ unwords [ ['s','e','e','k'], ['g','u','i','d','a','n','c','e'] ] ],
 
-    FaCL                      `noun`    {- <_hayr> -}          [ ['g','o','o','d'] ],
+    FaCL                      `noun`    {- <_hayr> -}          [ ['g','o','o','d'], unwords [ ['g','o','o','d'], ['t','h','i','n','g'] ], ['c','h','a','r','i','t','y'], ['w','e','l','f','a','r','e'] ]
+                              `plural`     FuCUL,
 
-    FaCL                      `noun`    {- <_hayr> -}          [ unwords [ ['b','e','t','t','e','r'], "/", ['b','e','s','t'] ], ['g','o','o','d'] ]
+    FaCL                      `adj`     {- <_hayr> -}          [ unwords [ ['b','e','t','t','e','r'], "/", ['b','e','s','t'] ], ['g','o','o','d'] ]
                               `plural`     FiCAL
-                              `plural`     FuCUL
                               `plural`     HaFCAL,
 
     FaCL |< Iy                `adj`     {- <_hayrIy> -}        [ ['c','h','a','r','i','t','a','b','l','e'], ['p','h','i','l','a','n','t','h','r','o','p','i','c'] ],

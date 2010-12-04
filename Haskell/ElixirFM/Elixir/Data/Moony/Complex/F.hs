@@ -430,7 +430,7 @@ cluster_27  = cluster
     FACI                      `noun`    {- <bAqI> -}           [ ['r','e','m','a','i','n','d','e','r'] ]
                               `plural`     FACI |< At,
 
-    FACI                      `adj`     {- <bAqI> -}           [ ['r','e','m','a','i','n','d','e','r'] ],
+    FACI                      `adj`     {- <bAqI> -}           [ ['r','e','m','a','i','n','i','n','g'] ],
 
     MutaFaCCI                 `adj`     {- <mutabaqqI> -}      [ ['r','e','s','i','d','u','e'], ['r','e','m','n','a','n','t'] ] ]
 

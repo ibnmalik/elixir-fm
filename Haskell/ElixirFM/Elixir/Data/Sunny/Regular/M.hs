@@ -1677,7 +1677,7 @@ cluster_79  = cluster
 
     FiCL                      `noun`    {- <.tibq> -}          [ unwords [ ['a','c','c','o','r','d','i','n','g'], ['t','o'] ], unwords [ ['c','o','n','f','o','r','m','i','n','g'], ['w','i','t','h'] ], unwords [ ['i','n'], ['a','c','c','o','r','d','a','n','c','e'], ['w','i','t','h'] ] ],
 
-    FaCaL                     `noun`    {- <.tabaq> -}         [ ['d','i','s','h'], ['c','o','u','r','s','e'], ['m','e','a','l'], ['s','a','u','c','e','r','s'] ]
+    FaCaL                     `noun`    {- <.tabaq> -}         [ ['d','i','s','h'], ['s','a','u','c','e','r'], ['c','o','u','r','s','e'], ['m','e','a','l'] ]
                               `plural`     HaFCAL,
 
     FaCaL |< aT               `noun`    {- <.tabaqaT> -}       [ ['c','l','a','s','s'], ['c','a','t','e','g','o','r','y'] ]

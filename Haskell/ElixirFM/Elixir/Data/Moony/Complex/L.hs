@@ -990,7 +990,8 @@ cluster_55  = cluster
     FuC |< Iy                 `adj`     {- <kurIy> -}          [ ['g','l','o','b','u','l','a','r'], ['s','p','h','e','r','i','c','a','l'] ],
 
     FuC |< aT                 `noun`    {- <kuraT> -}          [ ['g','l','o','b','e'], ['s','p','h','e','r','e'], ['b','a','l','l'] ]
-                              `plural`     FuCY,
+                              `plural`     FuCY
+                              `plural`     FuC |< At,
 
     FuCY |< Iy                `adj`     {- <kurawIy> -}        [ unwords [ ['s','o','c','c','e','r'], "-", ['r','e','l','a','t','e','d'] ], unwords [ "(", ['s','p','o','r','t','s'], ")", ['b','a','l','l'], "-", ['r','e','l','a','t','e','d'] ] ],
 
@@ -1481,7 +1482,8 @@ cluster_80  = cluster
 
  |> "k m m" <| [
 
-    FaCL |< Iy |< aT          `noun`    {- <kammIyaT> -}       [ ['q','u','a','n','t','i','t','y'], ['a','m','o','u','n','t'] ],
+    FaCL |< Iy |< aT          `noun`    {- <kammIyaT> -}       [ ['q','u','a','n','t','i','t','y'], ['a','m','o','u','n','t'] ]
+                              `plural`     FaCL |< Iy |< At,
 
     FaCL |< Iy                `adj`     {- <kammIy> -}         [ ['q','u','a','n','t','i','t','a','t','i','v','e'] ],
 
@@ -1616,7 +1618,8 @@ cluster_86  = cluster
 
     FiCAL |< aT               `noun`    {- <kinAnaT> -}        [ ['K','i','n','a','n','a'] ],
 
-    FACUL                     `noun`    {- <kAnUn> -}          [ unwords [ ['K','a','n','u','n'], "(", ['m','o','n','t','h'], ")" ] ]
+    FACUL                     `noun`    {- <kAnUn> -}          [ ['K','a','n','u','n'] ]
+                              `plural`     FawACIL
                            
     `excepts` Diptote,
 

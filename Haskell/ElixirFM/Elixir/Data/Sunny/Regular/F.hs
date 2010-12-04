@@ -164,7 +164,7 @@ cluster_10  = cluster
 
     FaCLA'                    `noun`    {- <ram.dA'> -}        [ unwords [ ['s','u','n'], "-", ['b','a','k','e','d'], ['g','r','o','u','n','d'] ], unwords [ ['h','o','t'], ['g','r','o','u','n','d'] ] ],
 
-    FaCaLAn                   `noun`    {- <rama.dAn> -}       [ unwords [ ['R','a','m','a','d','a','n'], "(", ['m','o','n','t','h'], ")" ] ]
+    FaCaLAn                   `noun`    {- <rama.dAn> -}       [ ['R','a','m','a','d','a','n'] ]
                            
     `excepts` Diptote,
 

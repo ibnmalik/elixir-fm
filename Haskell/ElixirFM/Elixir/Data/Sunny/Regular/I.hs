@@ -863,6 +863,9 @@ cluster_39  = cluster
 
     FuCUL |< Iy               `adj`     {- <sulUkIy> -}        [ ['b','e','h','a','v','i','o','r','a','l'] ],
 
+    FuCUL |< Iy |< aT         `noun`    {- <sulUkIyaT> -}      [ unwords [ ['p','a','t','t','e','r','n'], ['o','f'], ['b','e','h','a','v','i','o','r'] ] ]
+                              `plural`     FuCUL |< Iy |< At,
+
     MaFCaL                    `noun`    {- <maslak> -}         [ ['r','o','a','d'], ['m','e','t','h','o','d'], unwords [ ['c','o','u','r','s','e'], ['o','f'], ['a','c','t','i','o','n'] ] ]
                               `plural`     MaFACiL,
 

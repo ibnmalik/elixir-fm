@@ -394,7 +394,9 @@ cluster_8   = cluster
     TaFaCCuL                  `noun`    {- <ta.tayyur> -}      [ ['p','e','s','s','i','m','i','s','m'], ['s','u','p','e','r','s','t','i','t','i','o','n'] ]
                               `plural`     TaFaCCuL |< At,
 
-    FA'iL                     `noun`    {- <.tA'ir> -}         [ ['f','l','y','i','n','g'], ['b','i','r','d'], ['a','i','r','b','o','r','n','e'] ],
+    FA'iL                     `adj`     {- <.tA'ir> -}         [ ['f','l','y','i','n','g'], ['a','i','r','b','o','r','n','e'] ],
+
+    FA'iL                     `noun`    {- <.tA'ir> -}         [ ['b','i','r','d'] ],
 
     FA'iL |< aT               `noun`    {- <.tA'iraT> -}       [ ['a','i','r','c','r','a','f','t'], ['a','i','r','p','l','a','n','e'] ]
                               `plural`     FA'iL |< At,

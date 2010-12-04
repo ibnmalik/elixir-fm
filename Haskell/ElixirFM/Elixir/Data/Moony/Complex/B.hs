@@ -748,10 +748,12 @@ cluster_62  = cluster
 
     FACiL                     `adj`     {- <'Azim> -}          [ ['c','r','i','t','i','c','a','l'], ['d','e','c','i','s','i','v','e'] ],
 
-    MaFCUL                    `noun`    {- <ma'zUm> -}         [ unwords [ ['c','r','i','s','i','s'], ['v','i','c','t','i','m'] ], ['c','h','a','g','r','i','n','e','d'] ]
+    MaFCUL                    `noun`    {- <ma'zUm> -}         [ unwords [ ['c','r','i','s','i','s'], ['v','i','c','t','i','m'] ] ]
                               `plural`     MaFCUL |< Un
                            
     `derives` otherwise,
+
+    MaFCUL                    `adj`     {- <ma'zUm> -}         [ ['c','r','i','t','i','c','a','l'], ['c','h','a','g','r','i','n','e','d'] ],
 
     TaFCIL                    `noun`    {- <ta'zIm> -}         [ ['a','g','g','r','a','v','a','t','i','o','n'], unwords [ ['m','a','k','i','n','g'], ['c','r','i','t','i','c','a','l'] ] ]
                               `plural`     TaFCIL |< At,

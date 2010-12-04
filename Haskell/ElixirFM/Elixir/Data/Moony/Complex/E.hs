@@ -1010,7 +1010,7 @@ cluster_75  = cluster
 
  |> ['b','a','\'','U','n'] <| [
 
-    _____ |< aT               `noun`    {- <ba'UnaT> -}        [ unwords [ ['B','a','\'','u','n','a'], "(", ['1','0','t','h'], ['C','o','p','t','i','c'], ['m','o','n','t','h',','], ['J','u','n','e'], "8", "-", ['J','u','l','y'], "7", ")" ] ]
+    _____ |< aT               `noun`    {- <ba'UnaT> -}        [ ['B','a','\'','u','n','a'] ]
                            
     `excepts` Diptote ]
 
@@ -1196,6 +1196,9 @@ cluster_85  = cluster
 
     MaFCaL |< Iy |<< "aN"     `adj`     {- <mabda'IyaN> -}     [ unwords [ ['i','n'], ['p','r','i','n','c','i','p','l','e'] ] ],
 
+    HiFCAL                    `noun`    {- <'ibdA'> -}         [ ['e','x','p','r','e','s','s','i','o','n'], ['m','a','n','i','f','e','s','t','a','t','i','o','n'] ]
+                              `plural`     HiFCAL |< At,
+
     IFtiCAL                   `noun`    {- <ibtidA'> -}        [ ['b','e','g','i','n','n','i','n','g'], ['s','t','a','r','t'] ]
                               `plural`     IFtiCAL |< At,
 
@@ -1205,16 +1208,17 @@ cluster_85  = cluster
 
     FACiL                     `adj`     {- <bAdi'> -}          [ ['b','e','g','i','n','n','i','n','g'] ],
 
-    MuFtaCiL                  `noun`    {- <mubtadi'> -}       [ ['b','e','g','i','n','n','i','n','g'], ['b','e','g','i','n','n','e','r'] ]
+    MuFtaCiL                  `noun`    {- <mubtadi'> -}       [ ['b','e','g','i','n','n','e','r'] ]
                               `plural`     MuFtaCiL |< Un
                            
     `derives` otherwise,
 
-    MuFtaCaL                  `noun`    {- <mubtada'> -}       [ ['b','e','g','u','n'], ['s','u','b','j','e','c','t'], ['t','o','p','i','c'] ]
+    MuFtaCiL                  `adj`     {- <mubtadi'> -}       [ ['b','e','g','i','n','n','i','n','g'] ],
+
+    MuFtaCaL                  `noun`    {- <mubtada'> -}       [ ['s','u','b','j','e','c','t'], ['t','o','p','i','c'] ]
                               `plural`     MuFtaCaL |< At,
 
-    HiFCAL                    `noun`    {- <'ibdA'> -}         [ ['e','x','p','r','e','s','s','i','o','n'], ['m','a','n','i','f','e','s','t','a','t','i','o','n'] ]
-                              `plural`     HiFCAL |< At ]
+    MuFtaCaL                  `adj`     {- <mubtada'> -}       [ ['b','e','g','u','n'] ] ]
 
 
 cluster_86  = cluster

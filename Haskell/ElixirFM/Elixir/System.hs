@@ -835,7 +835,7 @@ instance Read TagsNum where
 
                                 'I' -> [TagsNumI  (readData y6)
                                                   (readData y8)
-                                                  (readData y9 `intersect` [indefinite, construct, definite, absolute])]
+                                                  (readData y9)]
 
                                 'V' -> [TagsNumV  (readData y6)
                                                   (readData y8)

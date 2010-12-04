@@ -973,7 +973,7 @@ cluster_28  = cluster
 
     FaCAL |< aT               `noun`    {- <qarAbaT> -}        [ ['a','f','f','i','n','i','t','y'], ['k','i','n','s','h','i','p'], ['r','e','l','a','t','i','o','n','s','h','i','p'] ],
 
-    FuCAL |< aT |<< "aN"      `noun`    {- <qurAbaTaN> -}      [ ['a','l','m','o','s','t'], ['n','e','a','r','l','y'] ],
+    FuCAL |< aT |<< "a"       `prep`    {- <qurAbaTa> -}       [ ['a','l','m','o','s','t'], ['n','e','a','r','l','y'] ],
 
     HaFCaL                    `noun`    {- <'aqrab> -}         [ ['r','e','l','a','t','i','v','e','s'], unwords [ ['e','x','t','e','n','d','e','d'], ['f','a','m','i','l','y'] ] ]
                               `plural`     HaFCaL |< Un

@@ -639,7 +639,7 @@ cluster_37  = cluster
     FaCaL |< Iy |< aT         `noun`    {- <.talabIyaT> -}     [ ['o','r','d','e','r'], ['c','o','m','m','i','s','s','i','o','n'] ]
                               `plural`     FaCaL |< Iy |< At,
 
-    MaFCaL                    `noun`    {- <ma.tlab> -}        [ ['q','u','e','s','t'], ['d','e','m','a','n','d'], ['d','e','s','i','d','e','r','a','t','u','m'], ['c','l','a','i','m'] ]
+    MaFCaL                    `noun`    {- <ma.tlab> -}        [ ['r','e','q','u','e','s','t'], ['d','e','m','a','n','d'], ['c','l','a','i','m'], ['d','e','s','i','d','e','r','a','t','u','m'] ]
                               `plural`     MaFACiL,
 
     MuFACaL |< aT             `noun`    {- <mu.tAlabaT> -}     [ ['r','e','q','u','i','r','e','m','e','n','t'], ['d','e','m','a','n','d'] ],

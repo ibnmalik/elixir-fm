@@ -904,7 +904,8 @@ cluster_50  = cluster
     TaFCIL                    `noun`    {- <tamrIr> -}         [ ['p','a','s','s','i','n','g'], ['t','r','a','n','s','f','e','r'] ]
                               `plural`     TaFCIL |< At,
 
-    TaFCIL |< aT              `noun`    {- <tamrIraT> -}       [ unwords [ ['p','a','s','s'], "(", ['b','a','l','l',','], ['i','n'], ['s','p','o','r','t','s'], ")" ] ],
+    TaFCIL |< aT              `noun`    {- <tamrIraT> -}       [ unwords [ ['p','a','s','s'], "(", ['b','a','l','l',','], ['i','n'], ['s','p','o','r','t','s'], ")" ] ]
+                              `plural`     TaFCIL |< At,
 
     HiFCAL                    `noun`    {- <'imrAr> -}         [ ['i','n','s','e','r','t','i','o','n'] ]
                               `plural`     HiFCAL |< At,
@@ -1294,6 +1295,8 @@ cluster_72  = cluster
 
     HiFCA'                    `noun`    {- <'im.dA'> -}        [ ['a','c','c','o','m','p','l','i','s','h','m','e','n','t'], ['c','o','m','p','l','e','t','i','o','n'] ]
                               `plural`     HiFCA' |< At,
+
+    FACI                      `noun`    {- <mA.dI> -}          [ ['p','a','s','t'] ],
 
     FACI                      `adj`     {- <mA.dI> -}          [ ['p','a','s','t'], ['b','y','g','o','n','e'] ]
                               `plural`     FawACI,

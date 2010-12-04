@@ -1200,7 +1200,7 @@ cluster_47  = cluster
 
     MuFaCCaL                  `adj`     {- <mu.harram> -}      [ ['f','o','r','b','i','d','d','e','n'] ],
 
-    MuFaCCaL                  `noun`    {- <mu.harram> -}      [ unwords [ ['M','u','h','a','r','r','a','m'], "(", ['m','o','n','t','h'], ")" ] ],
+    MuFaCCaL                  `noun`    {- <mu.harram> -}      [ ['M','u','h','a','r','r','a','m'] ],
 
     MuFtaCaL                  `adj`     {- <mu.htaram> -}      [ ['e','s','t','e','e','m','e','d'], ['r','e','s','p','e','c','t','e','d'] ] ]
 
@@ -2080,7 +2080,11 @@ cluster_76  = cluster
     IstiFCAL                  `noun`    {- <isti.h.dAr> -}     [ ['p','r','o','d','u','c','t','i','o','n'], ['s','u','m','m','o','n','i','n','g'] ]
                               `plural`     IstiFCAL |< At,
 
-    FACiL                     `adj`     {- <.hA.dir> -}        [ ['p','r','e','s','e','n','t'], ['a','t','t','e','n','d','i','n','g'] ],
+    FACiL                     `noun`    {- <.hA.dir> -}        [ ['p','r','e','s','e','n','t'] ],
+
+    FACiL                     `adj`     {- <.hA.dir> -}        [ ['p','r','e','s','e','n','t'], ['a','t','t','e','n','d','i','n','g'] ]
+                              `plural`     FACiL |< Un
+                              `plural`     FuCUL,
 
     FACiL |< aT               `noun`    {- <.hA.diraT> -}      [ ['m','e','t','r','o','p','o','l','i','s'], unwords [ ['c','a','p','i','t','a','l'], ['c','i','t','y'] ] ]
                               `plural`     FawACiL,
@@ -2266,7 +2270,8 @@ cluster_84  = cluster
     FuCL |< aT                `noun`    {- <.hufraT> -}        [ ['p','i','t'], ['h','o','l','e'] ]
                               `plural`     FuCaL,
 
-    FaCL |< Iy                `adj`     {- <.hafrIy> -}        [ ['e','x','c','a','v','a','t','i','o','n'], ['d','r','i','l','l','i','n','g'] ],
+    FaCL |< Iy |< aT          `noun`    {- <.hafrIyaT> -}      [ ['e','x','c','a','v','a','t','i','o','n'], ['d','i','g','g','i','n','g'], ['d','r','i','l','l','i','n','g'] ]
+                              `plural`     FaCL |< Iy |< At,
 
     FaCCAL                    `noun`    {- <.haffAr> -}        [ ['d','i','g','g','e','r'], ['d','r','i','l','l','e','r'] ]
                               `plural`     FaCCAL |< Un

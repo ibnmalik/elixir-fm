@@ -1011,6 +1011,8 @@ cluster_53  = cluster
 
     MuFaCCaL                  `adj`     {- <muqarrar> -}       [ unwords [ ['d','e','c','i','d','e','d'], ['u','p','o','n'] ], ['s','t','i','p','u','l','a','t','e','d'], ['s','c','h','e','d','u','l','e','d'] ],
 
+    MuFiCL                    `adj`     {- <muqirr> -}         [ ['r','a','t','i','f','y','i','n','g'], ['a','c','c','e','p','t','i','n','g'] ],
+
     MuFaCCaL |< At            `noun`    {- <muqarrarAt> -}     [ ['d','e','c','i','s','i','o','n','s'] ]
                               `plural`     MuFaCCaL |< At
                            
@@ -2122,10 +2124,8 @@ cluster_99  = cluster
 
     TaFaCCaL                  `verb`    {- <taqawwas> -}       [ unwords [ ['b','e'], ['b','e','n','t'] ], unwords [ ['b','e'], ['c','u','r','v','e','d'] ] ],
 
-    FaCL                      `noun`    {- <qaws> -}           [ ['b','o','w'], ['a','r','c','h'], ['v','a','u','l','t'] ]
+    FaCL                      `noun`    {- <qaws> -}           [ ['b','o','w'], ['a','r','c'], ['a','r','c','h'], ['v','a','u','l','t'], ['p','a','r','e','n','t','h','e','s','i','s'] ]
                               `plural`     HaFCAL,
-
-    FaCL                      `noun`    {- <qaws> -}           [ ['p','a','r','e','n','t','h','e','s','e','s'] ],
 
     FaCL                      `noun`    {- <qaws> -}           [ ['S','a','g','i','t','t','a','r','i','u','s'] ],
 

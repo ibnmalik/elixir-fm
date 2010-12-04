@@ -1104,9 +1104,15 @@ cluster_59  = cluster
                            
     `derives` otherwise,
 
-    FaCIL                     `noun`    {- <rabI`> -}          [ ['s','p','r','i','n','g'] ],
+    FaCIL                     `noun`    {- <rabI`> -}          [ ['s','p','r','i','n','g'] ]
+                              `plural`     HaFCiL |< aT
+                              `plural`     FiCAL
+                              `plural`     HaFCiLA',
 
-    FaCIL                     `noun`    {- <rabI`> -}          [ unwords [ ['R','a','b','i','e','e'], "(", ['m','o','n','t','h'], ")" ] ]
+    FaCIL                     `noun`    {- <rabI`> -}          [ ['R','a','b','i','e','e'] ]
+                              `plural`     HaFCiL |< aT
+                              `plural`     FiCAL
+                              `plural`     HaFCiLA'
                            
     `excepts` Diptote,
 
@@ -1411,7 +1417,7 @@ cluster_78  = cluster
                               `imperf`     FCaL
                               `masdar`     FaCaL,
 
-    FaCaL                     `noun`    {- <ra^gab> -}         [ unwords [ ['R','a','j','a','b'], "(", ['m','o','n','t','h'], ")" ] ],
+    FaCaL                     `noun`    {- <ra^gab> -}         [ ['R','a','j','a','b'] ],
 
     FaCUL                     `noun`    {- <ra^gUb> -}         [ ['R','a','j','o','u','b'], ['R','a','j','j','o','u','b'] ] ]
 

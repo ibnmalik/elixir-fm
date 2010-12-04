@@ -483,7 +483,7 @@ instance Inflect Lexeme TagsNum where
 
             let g' = vals g
                 c' = vals c
-                s' = trim s [indefinite, construct, definite, absolute]
+                s' = vals s
 
                 d' = TagsNumI g' c' s',
 

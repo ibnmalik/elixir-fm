@@ -1643,9 +1643,17 @@ cluster_100 = cluster
                            
     `derives` otherwise ]
 
+ |> ['\'','U','r','U','^','g','w','A','y'] <| [
+
+    _____                     `xtra`    {- <'UrU^gwAy> -}      [ ['U','r','u','g','u','a','y'] ],
+
+    al >| _____               `xtra`    {- <al-'UrU^gwAy> -}   [ ['U','r','u','g','u','a','y'] ] ]
+
  |> ['\'','U','r','u','^','g','w','A','y'] <| [
 
-    _____                     `xtra`    {- <'Uru^gwAy> -}      [ ['U','r','u','g','u','a','y'] ] ]
+    _____                     `xtra`    {- <'Uru^gwAy> -}      [ ['U','r','u','g','u','a','y'] ],
+
+    al >| _____               `xtra`    {- <al-'Uru^gwAy> -}   [ ['U','r','u','g','u','a','y'] ] ]
 
 
 section = [ cluster_1,

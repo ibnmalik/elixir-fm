@@ -1890,7 +1890,7 @@ cluster_77  = cluster
 
  |> ".s f r" <| [
 
-    FaCaL                     `noun`    {- <.safar> -}         [ unwords [ ['S','a','f','a','r'], "(", ['m','o','n','t','h'], ")" ] ] ]
+    FaCaL                     `noun`    {- <.safar> -}         [ ['S','a','f','a','r'] ] ]
 
 
 cluster_78  = cluster

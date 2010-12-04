@@ -2353,7 +2353,7 @@ cluster_100 = cluster
 
     TaFaCCaL                  `verb`    {- <ta.haqqaq> -}      [ ['m','a','t','e','r','i','a','l','i','z','e'], unwords [ ['b','e'], ['r','e','a','l','i','z','e','d'] ] ],
 
-    IstaFaCL                  `verb`    {- <ista.haqq> -}      [ ['d','e','s','e','r','v','e'], ['m','e','r','i','t'] ],
+    IstaFaCL                  `verb`    {- <ista.haqq> -}      [ ['d','e','s','e','r','v','e'], ['m','e','r','i','t'], unwords [ ['b','e'], ['d','u','e'] ] ],
 
     FaCL                      `noun`    {- <.haqq> -}          [ ['t','r','u','t','h'], ['r','i','g','h','t'], ['l','a','w'] ]
                               `plural`     FuCUL,
@@ -2409,7 +2409,7 @@ cluster_100 = cluster
 
     MutaFaCCiL                `adj`     {- <muta.haqqiq> -}    [ ['c','e','r','t','a','i','n'], ['c','o','n','v','i','n','c','e','d'] ],
 
-    MustaFiCL                 `adj`     {- <musta.hiqq> -}     [ ['d','e','s','e','r','v','i','n','g'], ['e','n','t','i','t','l','e','d'] ] ]
+    MustaFiCL                 `adj`     {- <musta.hiqq> -}     [ ['d','e','s','e','r','v','i','n','g'], ['e','n','t','i','t','l','e','d'], ['d','u','e'] ] ]
 
 
 section = [ cluster_1,

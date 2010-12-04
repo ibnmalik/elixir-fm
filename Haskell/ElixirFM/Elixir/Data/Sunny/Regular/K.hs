@@ -724,7 +724,7 @@ cluster_30  = cluster
 
     FaCIL                     `adj`     {- <^sa`Ib> -}         [ ['d','i','s','o','r','g','a','n','i','z','e','d'], ['d','i','s','p','e','r','s','e','d'] ],
 
-    FaCLAn                    `noun`    {- <^sa`bAn> -}        [ unwords [ ['S','h','a','\'','b','a','n'], "(", ['m','o','n','t','h'], ")" ] ],
+    FaCLAn                    `noun`    {- <^sa`bAn> -}        [ ['S','h','a','\'','b','a','n'] ],
 
     HaFCaL                    `noun`    {- <'a^s`ab> -}        [ unwords [ ['A','s','h','\'','a','b'], "(", ['l','e','g','e','n','d','a','r','y'], ['m','i','s','e','r'], ")" ] ],
 
