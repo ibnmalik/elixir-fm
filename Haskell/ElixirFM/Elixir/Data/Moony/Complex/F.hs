@@ -1795,6 +1795,11 @@ cluster_98  = cluster
 
     MutaFaCCiL                `adj`     {- <muta^gaddid> -}    [ ['m','o','d','e','r','n','i','z','e','d'], ['r','e','n','e','w','e','d'], ['r','e','v','i','v','e','d'] ],
 
+    MustaFiCL                 `noun`    {- <musta^gidd> -}     [ ['n','e','w','c','o','m','e','r'], ['b','e','g','i','n','n','e','r'] ]
+                              `plural`     MustaFiCL |< Un
+                           
+    `derives` otherwise,
+
     MustaFiCL                 `adj`     {- <musta^gidd> -}     [ ['r','e','c','e','n','t'], ['i','n','c','i','p','i','e','n','t'] ] ]
 
 

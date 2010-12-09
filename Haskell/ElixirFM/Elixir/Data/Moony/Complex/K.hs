@@ -1613,7 +1613,9 @@ cluster_76  = cluster
 
     TaFACL                    `verb`    {- <taqAll> -}         [ ['d','e','s','p','i','s','e'], ['s','c','o','r','n'] ],
 
-    IstaFaCL                  `verb`    {- <istaqall> -}       [ unwords [ ['b','e'], ['i','n','d','e','p','e','n','d','e','n','t'] ], unwords [ ['b','e'], ['a','u','t','o','n','o','m','o','u','s'] ], ['b','o','a','r','d'] ],
+    IstaFaCL                  `verb`    {- <istaqall> -}       [ unwords [ ['b','e'], ['i','n','d','e','p','e','n','d','e','n','t'] ], unwords [ ['b','e'], ['a','u','t','o','n','o','m','o','u','s'] ] ],
+
+    IstaFaCL                  `verb`    {- <istaqall> -}       [ ['b','o','a','r','d'], unwords [ ['b','e'], ['c','a','r','r','i','e','d'] ] ],
 
     FiCL                      `noun`    {- <qill> -}           [ ['p','a','u','c','i','t','y'], ['p','a','l','t','r','i','n','e','s','s'] ]
                               `plural`     FuCL,

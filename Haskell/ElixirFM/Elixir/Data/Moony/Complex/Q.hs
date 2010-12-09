@@ -167,7 +167,8 @@ cluster_9   = cluster
 
  |> "w h m" <| [
 
-    TuCL |< aT                `noun`    {- <tuhmaT> -}         [ ['a','c','c','u','s','a','t','i','o','n'], ['c','h','a','r','g','e'] ],
+    TuCL |< aT                `noun`    {- <tuhmaT> -}         [ ['a','c','c','u','s','a','t','i','o','n'], ['c','h','a','r','g','e'] ]
+                              `plural`     TuCaL,
 
     FaCiL                     `verb`    {- <wahim> -}          [ unwords [ ['b','e'], ['d','e','l','u','d','e','d'] ] ]
                               `imperf`     FCaL,

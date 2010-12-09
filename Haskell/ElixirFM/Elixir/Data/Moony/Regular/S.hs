@@ -537,7 +537,9 @@ cluster_32  = cluster
 
     FuCUL                     `noun`    {- <kumUn> -}          [ ['l','a','t','e','n','t'], ['l','a','t','e','n','c','y'] ],
 
-    FaCIL                     `adj`     {- <kamIn> -}          [ ['h','i','d','d','e','n'], ['a','m','b','u','s','h'] ]
+    FaCIL                     `noun`    {- <kamIn> -}          [ ['a','m','b','u','s','h'] ],
+
+    FaCIL                     `adj`     {- <kamIn> -}          [ ['h','i','d','d','e','n'] ]
                               `plural`     FuCaLA',
 
     MaFCaL                    `noun`    {- <makman> -}         [ ['a','m','b','u','s','h'] ]

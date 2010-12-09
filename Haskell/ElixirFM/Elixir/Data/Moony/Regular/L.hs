@@ -2038,7 +2038,11 @@ cluster_98  = cluster
                               `plural`     HaFACIL,
 
     FACiL                     `noun`    {- <fA.hi.s> -}        [ ['e','x','a','m','i','n','e','r'], ['q','u','e','s','t','i','o','n','e','r'], ['i','n','s','p','e','c','t','o','r'] ]
-                              `plural`     FuCCAL,
+                              `plural`     FuCCAL
+                           
+    `derives` otherwise,
+
+    FACiL                     `adj`     {- <fA.hi.s> -}        [ ['e','x','a','m','i','n','i','n','g'], ['i','n','s','p','e','c','t','i','n','g'], ['s','c','r','u','t','i','n','i','z','i','n','g'] ],
 
     MutaFaCCiL                `adj`     {- <mutafa.h.hi.s> -}  [ ['e','x','p','l','o','r','i','n','g'], ['s','c','r','u','t','i','n','i','z','i','n','g'] ] ]
 

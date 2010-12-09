@@ -691,7 +691,10 @@ instance Resolve [UPoint] where
                     'f' : y                 ->  [ "f"  : y' | y' <- tokens'' y ]
 
                     'O' : 'a' : y           ->  [ "Oa" : y' | y' <- tokens'' y ]
-                    'O' : y                 ->  [ "Oa" : y' | y' <- tokens'' y ]
+                    'O' : y                 ->  [ "O"  : y' | y' <- tokens'' y ]
+
+                    'A' : 'a' : y           ->  [ "Aa" : y' | y' <- tokens'' y ]
+                    'A' : y                 ->  [ "A"  : y' | y' <- tokens'' y ]
 
                     _                       ->  []
 
@@ -743,8 +746,6 @@ instance Resolve [UPoint] where
                     'y' : y                         ->  [[reverse y ++ "Y"]]
 
                     'h' : y                         ->  tokens''''' y ""
-
-                    'F' : x : y | x `elem` "AY"     ->  [[reverse y ++ "F" ++ [x]]]
 
                     _                               ->  []
 
@@ -881,6 +882,8 @@ normalize' :: String -> String
 normalize' x = case x of
 
                 '_' : y                             ->  normalize' y
+
+                'Y' : '\'' : y                      ->  '}' : normalize' y
 
                 z : '~' : y | z `elem` "FNKaui`"    ->  '~' : z : normalize' y
                 z : 'F' : y | z `elem` "AY"         ->  'F' : z : normalize' y

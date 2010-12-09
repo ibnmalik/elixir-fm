@@ -935,7 +935,8 @@ cluster_52  = cluster
 
     FaCCAL                    `noun`    {- <^garrA.h> -}       [ ['J','a','r','r','a','h'] ],
 
-    FiCAL |< aT               `noun`    {- <^girA.haT> -}      [ ['s','u','r','g','e','r','y'] ],
+    FiCAL |< aT               `noun`    {- <^girA.haT> -}      [ ['s','u','r','g','e','r','y'] ]
+                              `plural`     FiCAL |< At,
 
     FiCAL |< Iy               `adj`     {- <^girA.hIy> -}      [ ['s','u','r','g','i','c','a','l'] ],
 

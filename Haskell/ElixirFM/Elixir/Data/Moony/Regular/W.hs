@@ -799,7 +799,9 @@ cluster_49  = cluster
  |> ['h','i','k','t','A','r'] <| [
 
     _____                     `noun`    {- <hiktAr> -}         [ ['h','e','c','t','a','r','e'] ]
-                              `plural`     _____ |< At ]
+                              `plural`     _____ |< At
+                           
+    `excepts` Triptote ]
 
 
 cluster_50  = cluster

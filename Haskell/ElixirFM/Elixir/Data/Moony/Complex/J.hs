@@ -1321,7 +1321,7 @@ cluster_62  = cluster
     MuFACY |< aT              `noun`    {- <mufAdAT> -}        [ ['s','a','c','r','i','f','i','c','e'] ]
                               `plural`     MuFACY |< At,
 
-    TaFACI                    `noun`    {- <tafAdI> -}         [ ['a','v','o','i','d','a','n','c','e'] ]
+    TaFACI                    `noun`    {- <tafAdI> -}         [ ['a','v','o','i','d','a','n','c','e'], ['a','v','o','i','d','i','n','g'] ]
                               `plural`     TaFACI |< At,
 
     IFtiCA'                   `noun`    {- <iftidA'> -}        [ ['r','a','n','s','o','m','i','n','g'], unwords [ ['s','e','l','f'], "-", ['s','a','c','r','i','f','i','c','e'] ] ]

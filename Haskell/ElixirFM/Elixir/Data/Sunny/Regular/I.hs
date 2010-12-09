@@ -981,6 +981,11 @@ cluster_40  = cluster
     MuFaCCaL                  `noun`    {- <musallam> -}       [ ['a','s','s','u','m','p','t','i','o','n','s'], ['g','i','v','e','n','s'] ]
                               `plural`     MuFaCCaL |< At,
 
+    MuFCiL                    `noun`    {- <muslim> -}         [ ['M','u','s','l','i','m'] ]
+                              `plural`     MuFCiL |< Un
+                           
+    `derives` otherwise,
+
     MuFCiL                    `adj`     {- <muslim> -}         [ ['M','u','s','l','i','m'] ],
 
     MuFtaCiL                  `noun`    {- <mustalim> -}       [ ['r','e','c','i','p','i','e','n','t'], ['c','o','n','s','i','g','n','e','e'] ]
@@ -990,8 +995,7 @@ cluster_40  = cluster
 
     FuCayLAn                  `noun`    {- <sulaymAn> -}       [ ['S','u','l','a','y','m','a','n'], ['S','o','l','o','m','o','n'] ],
 
-    FuCayLAn |< Iy            `noun`    {- <sulaymAnIy> -}     [ unwords [ ['c','o','r','r','o','s','i','v','e'], ['s','u','b','l','i','m','a','t','e'] ], unwords [ ['m','e','r','c','u','r','y'], ['c','h','l','o','r','i','d','e'] ] ]
-                              `plural`     FuCayLAn |< Iy |< Un ]
+    FuCayLAn |< Iy            `noun`    {- <sulaymAnIy> -}     [ unwords [ ['c','o','r','r','o','s','i','v','e'], ['s','u','b','l','i','m','a','t','e'] ], unwords [ ['m','e','r','c','u','r','y'], ['c','h','l','o','r','i','d','e'] ] ] ]
 
 
 cluster_41  = cluster

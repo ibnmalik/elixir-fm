@@ -182,6 +182,10 @@ harmony (ParaPart _)    "la"    = [Nothing, Just ("[VNADPFIXZ]---------", const 
                                             Just ("Q[IVXLCM]--------", const True),
                                             Just ("SP------1-", const True),
                                             Just ("S[-DR]--------", const True)]                            -- excluding "[CY]---------"
+harmony (ParaPart _)    "'a"    = [Nothing, Just ("V---------", const True),
+                                            Just ("D---------", (`elem` ["hunA", "hunAka", "_tammaTa"])),
+                                            Just ("F---------", (`elem` ["mA", "lA", "lam", "lan", "sa"])),
+                                            Just ("S-------1-", const True)]
 harmony (ParaPart _)    "'IyA"  = [Nothing, Just ("SP------2-", (\ x -> euphony "'IyA" x && x /= "nI"))]
 harmony (ParaPart _)    y       = [Nothing, Just ("[VNADXZ]-------4-", const True),                         -- excluding "[SCPFIY]---------"
                                             Just ("Q[IVXLCM]------4-", const True),
