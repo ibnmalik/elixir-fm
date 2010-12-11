@@ -1122,6 +1122,13 @@ cluster_59  = cluster
 
     HaFCaL                    `noun`    {- <'arba`> -}         [ ['A','r','b','a'] ],
 
+    HaFCaL |< In |< At        `noun`    {- <'arba`InAt> -}     [ ['f','o','r','t','i','e','s'] ]
+                              `plural`     HaFCaL |< In |< At
+                           
+    `limited` "-------P--",
+
+    HaFCaL |< In |< Iy        `adj`     {- <'arba`InIy> -}     [ ['f','o','r','t','i','e','s'] ],
+
     FuCAL                     `noun`    {- <rubA`> -}          [ unwords [ ['f','o','u','r'], ['a','t'], "a", ['t','i','m','e'] ] ],
 
     FuCAL |< Iy               `adj`     {- <rubA`Iy> -}        [ unwords [ ['f','o','u','r'], "-", ['p','a','r','t'] ], unwords [ ['f','o','u','r'], "-", ['s','i','d','e','d'] ], ['q','u','a','d','r','a','n','g','l','e'] ],

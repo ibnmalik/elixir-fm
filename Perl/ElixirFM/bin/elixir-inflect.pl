@@ -7,7 +7,7 @@ push @ARGV, "fa`al" unless @ARGV;
 print << 'print';
 
 \documentclass{article}
-\usepackage[margin={0in,1in}]{geometry}
+\usepackage[margin=1in]{geometry}
 \usepackage{arabtex}
 \usepackage{listings}
 \pagestyle{empty}
@@ -18,7 +18,7 @@ print << 'print';
 \newcommand{\phon}[1]{{\arabfalse\transtrue\showfalse\<#1>}}
 \newcommand{\xtag}[1]{\lstinline{#1}}
 
-\renewcommand{\baselinestretch}{2.2}
+\renewcommand{\baselinestretch}{1.5}
 
 \usepackage{acolor}
 \usepackage{alocal}
@@ -28,7 +28,7 @@ print << 'print';
 \acolor{diacritics}{red}
 \settrans{czech}
 
-\LARGE
+\large
 
 print
 
@@ -50,7 +50,7 @@ foreach $form (@ARGV) {
 
         print << '        print';
 
-        \newpage
+        \vfill
 
         print
 
@@ -74,8 +74,8 @@ foreach $form (@ARGV) {
             print
 
             print ' ' x 12, ( map { "\\pair{$_}" } join " ", @{$pron{"SP---" . $_ . "1-"}} ), ' & ',
-                            ( map { "\\pair{$_}" } join " ", @{$verb{"VISA-" . $_ . "--"}} ), ' & ',
-                            ( map { "\\pair{$_}" } join " ", @{$verb{"VIJA-" . $_ . "--"}} ), ' \\\\' . "\n"
+                            ( map { "\\pair{$_}" } join " ", @{$verb{"VP-A-" . $_ . "--"}} ), ' & ',
+                            ( map { "\\pair{$_}" } join " ", @{$verb{"VIIA-" . $_ . "--"}} ), ' \\\\' . "\n"
 
                     foreach qw '1MS 2MS 2FS 3MS 3FS 1MP 2MP 2FP 3MP 3FP 2MD 3MD 3FD';
 

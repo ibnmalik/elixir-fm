@@ -318,6 +318,8 @@ cluster_20  = cluster
 
     MuFaCCiL |< Iy |< aT      `noun`    {- <muma_t_tilIyaT> -} [ ['r','e','p','r','e','s','e','n','t','a','t','i','o','n'] ],
 
+    MuFaCCiL                  `adj`     {- <muma_t_til> -}     [ ['r','e','p','r','e','s','e','n','t','i','n','g'], ['a','c','t','i','n','g'] ],
+
     MuFaCCaL                  `adj`     {- <muma_t_tal> -}     [ ['r','e','p','r','e','s','e','n','t','e','d'], ['d','e','p','i','c','t','e','d'] ],
 
     MuFACiL                   `adj`     {- <mumA_til> -}       [ ['s','i','m','i','l','a','r'], ['a','n','a','l','o','g','o','u','s'], ['r','e','s','e','m','b','l','i','n','g'] ],

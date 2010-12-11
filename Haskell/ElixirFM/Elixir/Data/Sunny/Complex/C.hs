@@ -1707,8 +1707,6 @@ cluster_79  = cluster
 
  |> "z h w" <| [
 
-    FaCI                      `adj`     {- <zahI> -}           [ ['s','p','l','e','n','d','i','d'], ['b','r','i','l','l','i','a','n','t'] ],
-
     FaCA                      `verb`    {- <zahA> -}           [ ['f','l','o','u','r','i','s','h'], unwords [ ['b','e'], ['r','a','d','i','a','n','t'] ] ]
                               `imperf`     FCU,
 
@@ -1734,6 +1732,8 @@ cluster_79  = cluster
 
     IFtiCA'                   `noun`    {- <izdihA'> -}        [ ['f','l','o','u','r','i','s','h','i','n','g'], ['r','a','d','i','a','n','c','e'], ['p','r','i','d','e'] ]
                               `plural`     IFtiCA' |< At,
+
+    FaCIy                     `adj`     {- <zahIy> -}          [ ['s','p','l','e','n','d','i','d'], ['b','r','i','l','l','i','a','n','t'] ],
 
     FACI                      `adj`     {- <zAhI> -}           [ ['r','e','s','p','l','e','n','d','e','n','t'], ['m','a','g','n','i','f','i','c','e','n','t'] ],
 
@@ -1851,8 +1851,6 @@ cluster_83  = cluster
 
  |> "z w r" <| [
 
-    IFCALL                    `verb`    {- <izwArr> -}         [ unwords [ ['b','e','c','o','m','e'], ['c','r','o','o','k','e','d'] ], unwords [ ['t','u','r','n'], ['a','s','i','d','e'] ] ],
-
     FAL                       `verb`    {- <zAr> -}            [ ['v','i','s','i','t'] ]
                               `imperf`     FUL,
 
@@ -1865,6 +1863,8 @@ cluster_83  = cluster
     IFCaLL                    `verb`    {- <izwarr> -}         [ ['a','l','i','e','n','a','t','e'], unwords [ ['b','e'], ['d','i','s','s','o','c','i','a','t','e','d'], ['f','r','o','m'] ] ],
 
     IstaFAL                   `verb`    {- <istazAr> -}        [ unwords [ ['s','e','e','k'], "a", ['v','i','s','i','t'] ] ],
+
+    IFCALL                    `verb`    {- <izwArr> -}         [ unwords [ ['b','e','c','o','m','e'], ['c','r','o','o','k','e','d'] ], unwords [ ['t','u','r','n'], ['a','s','i','d','e'] ] ],
 
     FaCL                      `noun`    {- <zawr> -}           [ ['t','h','r','o','a','t'] ],
 

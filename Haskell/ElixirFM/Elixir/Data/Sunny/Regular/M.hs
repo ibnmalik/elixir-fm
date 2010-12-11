@@ -1583,7 +1583,7 @@ cluster_77  = cluster
 
     InFaCaL                   `verb`    {- <in.taba`> -}       [ unwords [ ['b','e'], ['s','t','a','m','p','e','d'] ], unwords [ ['b','e'], ['i','m','p','r','e','s','s','e','d'] ] ],
 
-    FaCL                      `noun`    {- <.tab`> -}          [ ['t','e','m','p','e','r','a','m','e','n','t'] ],
+    FaCL                      `noun`    {- <.tab`> -}          [ unwords [ ['n','a','t','u','r','a','l'], ['c','o','u','r','s','e'] ], ['t','e','m','p','e','r','a','m','e','n','t'] ],
 
     FaCL |<< "aN"             `noun`    {- <.tab`aN> -}        [ ['n','a','t','u','r','a','l','l','y'], unwords [ ['o','f'], ['c','o','u','r','s','e'] ] ],
 

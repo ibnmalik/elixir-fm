@@ -1944,7 +1944,7 @@ cluster_94  = cluster
 
  |> ['l','a','n'] <| [
 
-    _____                     `part`    {- <lan> -}            [ unwords [ "(", ['w','i','l','l'], ")", ['n','o','t'] ] ] ]
+    _____                     `part`    {- <lan> -}            [ ['n','o','t'] ] ]
 
 
 cluster_95  = cluster

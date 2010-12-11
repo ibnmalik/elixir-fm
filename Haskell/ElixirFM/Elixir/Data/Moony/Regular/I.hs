@@ -453,6 +453,8 @@ cluster_25  = cluster
     FaCL                      `noun`    {- <_ha.sm> -}         [ ['d','e','d','u','c','t','i','o','n'], ['s','u','b','t','r','a','c','t','i','o','n'], ['l','i','a','b','i','l','i','t','i','e','s'] ]
                               `plural`     FuCUL,
 
+    FiCAL                     `noun`    {- <_hi.sAm> -}        [ ['c','o','n','f','r','o','n','t','a','t','i','o','n'], ['q','u','a','r','r','e','l'], ['d','i','s','p','u','t','e'], ['l','a','w','s','u','i','t'] ],
+
     FaCIL                     `noun`    {- <_ha.sIm> -}        [ ['a','d','v','e','r','s','a','r','y'] ]
                               `plural`     FuCaLA'
                               `plural`     FuCLAn,

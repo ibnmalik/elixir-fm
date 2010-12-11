@@ -642,7 +642,8 @@ cluster_37  = cluster
     MaFCaL                    `noun`    {- <ma.tlab> -}        [ ['r','e','q','u','e','s','t'], ['d','e','m','a','n','d'], ['c','l','a','i','m'], ['d','e','s','i','d','e','r','a','t','u','m'] ]
                               `plural`     MaFACiL,
 
-    MuFACaL |< aT             `noun`    {- <mu.tAlabaT> -}     [ ['r','e','q','u','i','r','e','m','e','n','t'], ['d','e','m','a','n','d'] ],
+    MuFACaL |< aT             `noun`    {- <mu.tAlabaT> -}     [ ['r','e','q','u','i','r','e','m','e','n','t'], ['d','e','m','a','n','d'] ]
+                              `plural`     MuFACaL |< At,
 
     FACiL                     `noun`    {- <.tAlib> -}         [ ['s','t','u','d','e','n','t'] ]
                               `plural`     FaCaL |< aT

@@ -1267,6 +1267,8 @@ cluster_47  = cluster
                            
     `derives` otherwise,
 
+    MuFACiL                   `adj`     {- <mu`Ari.d> -}       [ ['o','p','p','o','s','i','n','g'], ['r','e','s','i','s','t','i','n','g'] ],
+
     MutaFACiL                 `adj`     {- <muta`Ari.d> -}     [ unwords [ ['c','l','a','s','h','i','n','g'], ['w','i','t','h'], ['e','a','c','h'], ['o','t','h','e','r'] ], unwords [ ['i','n'], ['c','o','n','f','l','i','c','t'], ['w','i','t','h'], ['e','a','c','h'], ['o','t','h','e','r'] ] ],
 
     MuFtaCiL                  `adj`     {- <mu`tari.d> -}      [ ['o','p','p','o','s','e','d'], ['r','e','s','i','s','t','i','n','g'] ],

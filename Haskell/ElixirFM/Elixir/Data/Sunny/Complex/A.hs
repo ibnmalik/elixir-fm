@@ -874,9 +874,9 @@ cluster_67  = cluster
     FiCL                      `noun`    {- <_tiny> -}          [ ['f','o','l','d'], ['b','e','n','d'] ]
                               `plural`     HaFCA',
 
-    HaFCA' |<< "a"            `prep`    {- <'a_tnA'a> -}       [ ['d','u','r','i','n','g'] ],
+    HaFCA' |<< "a"            `prep`    {- <'a_tnA'a> -}       [ ['d','u','r','i','n','g'], ['m','e','a','n','w','h','i','l','e'] ],
 
-    HaFCA'                    `noun`    {- <'a_tnA'> -}        [ ['m','e','a','n','w','h','i','l','e'], ['m','e','a','n','t','i','m','e'] ],
+    HaFCA'                    `noun`    {- <'a_tnA'> -}        [ ['m','e','a','n','t','i','m','e'] ],
 
     FaCL |< aT                `noun`    {- <_tanyaT> -}        [ ['f','o','l','d'], ['c','r','e','a','s','e'] ]
                               `plural`     FaCaL |< At,

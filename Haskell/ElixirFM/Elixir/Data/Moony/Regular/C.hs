@@ -633,7 +633,7 @@ cluster_33  = cluster
 
  |> "b ` d" <| [
 
-    FaCL |<< "a"              `prep`    {- <ba`da> -}          [ ['a','f','t','e','r'], ['a','f','t','e','r','w','a','r','d'], ['l','a','t','e','r'], unwords [ "(", ['n','o','t'], ")", ['y','e','t'] ] ],
+    FaCL |<< "a"              `prep`    {- <ba`da> -}          [ ['a','f','t','e','r'], ['a','f','t','e','r','w','a','r','d'], ['l','a','t','e','r'], ['y','e','t'] ],
 
     FaCL |<< "a" |<< "mA"     `conj`    {- <ba`damA> -}        [ ['a','f','t','e','r'] ],
 

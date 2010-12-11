@@ -11,6 +11,7 @@ our $VERSION = join '.', 1, 1, q $Revision$ =~ /(\d+)/;
 
 use File::Spec;
 use File::Copy;
+use File::Which;
 
 
 sub path ($) {
@@ -78,7 +79,7 @@ sub path ($) {
     rmdir path "ElixirFM bin";
     rmdir path "ElixirFM";
 
-    die "Remove the " . ( path "dist ElixirFM" ). " directory first!\n" if -d "ElixirFM";
+    die "Remove the " . (path "dist ElixirFM") . " directory first!\n" if -d "ElixirFM";
 
     mkdir path "ElixirFM";
     mkdir path "ElixirFM bin";
@@ -119,6 +120,8 @@ sub path ($) {
 
         copy $file, $path;
     }
+
+    system join " ", "strip", glob path $path . " *" if defined which 'strip';
 
 
     $path = path "ElixirFM doc elixir";
@@ -191,12 +194,18 @@ INSTALL
 
     $name = "ElixirFM-" . $ver . "-Exec-" . $^O;
 
-    system "tar -cf " . $name . ".tar" . " ElixirFM";
+    if (defined which 'tar' and defined which 'gzip') {
 
-    system "gzip -9 " . $name . ".tar";
+        system "tar -cf " . $name . ".tar" . " ElixirFM";
 
-    print "Done with " . $name . ".tar.gz";
+        system "gzip -9 " . $name . ".tar";
 
-    system "zip -r " . $name . ".zip" . " ElixirFM";
+        print "Done with " . $name . ".tar.gz";
+    }
 
-    print "Done with " . $name . ".zip";
+    if (defined which 'zip') {
+
+        system "zip -r " . $name . ".zip" . " ElixirFM";
+
+        print "Done with " . $name . ".zip";
+    }

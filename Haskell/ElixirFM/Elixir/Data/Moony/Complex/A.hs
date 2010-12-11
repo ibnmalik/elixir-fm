@@ -595,7 +595,10 @@ cluster_47  = cluster
     FaCaL                     `noun`    {- <'a_tar> -}         [ ['e','f','f','e','c','t'], ['t','r','a','c','e'] ]
                               `plural`     HACAL,
 
-    HACAL                     `noun`    {- <'A_tAr> -}         [ ['a','n','t','i','q','u','i','t','i','e','s'], ['m','o','n','u','m','e','n','t','s'] ],
+    HACAL                     `noun`    {- <'A_tAr> -}         [ ['a','n','t','i','q','u','i','t','i','e','s'], ['m','o','n','u','m','e','n','t','s'] ]
+                              `plural`     HACAL
+                           
+    `limited` "-------P--",
 
     FaCaL |< Iy               `adj`     {- <'a_tarIy> -}       [ ['a','r','c','h','e','o','l','o','g','i','c','a','l'], ['h','i','s','t','o','r','i','c','a','l'] ],
 
