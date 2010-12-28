@@ -1543,7 +1543,7 @@ cluster_71  = cluster
 
  |> "s w f" <| [
 
-    FaCL |<< "a"              `part`    {- <sawfa> -}          [ ['w','i','l','l'], ['s','h','a','l','l'] ],
+    FaCL |<< "a"              `part`    {- <sawfa> -}          [ ['w','i','l','l'] ],
 
     FaCCaL                    `verb`    {- <sawwaf> -}         [ ['p','o','s','t','p','o','n','e'], ['p','r','o','c','r','a','s','t','i','n','a','t','e'] ],
 
@@ -1772,7 +1772,8 @@ cluster_79  = cluster
 
     FIL |<< "a" |<< "mA"      `adv`     {- <sIyamA> -}         [ ['e','s','p','e','c','i','a','l','l','y'] ],
 
-    TaFCI |< aT               `noun`    {- <taswiyaT> -}       [ ['s','e','t','t','l','e','m','e','n','t'], ['s','o','l','u','t','i','o','n'] ],
+    TaFCI |< aT               `noun`    {- <taswiyaT> -}       [ ['s','e','t','t','l','e','m','e','n','t'], ['s','o','l','u','t','i','o','n'] ]
+                              `plural`     TaFCI |< At,
 
     MuFACY |< aT              `noun`    {- <musAwAT> -}        [ ['e','q','u','a','l','i','t','y'], unwords [ ['e','q','u','a','l'], ['r','i','g','h','t','s'] ] ]
                               `plural`     MuFACY |< At,

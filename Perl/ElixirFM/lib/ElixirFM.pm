@@ -1161,6 +1161,15 @@ sub interlocks {
 
         $pattern = (substr $pattern, 0, -1) . 'm' if $pattern =~ /^(?:`an|min)$/
                                                   and @{$s} and $s->[0] eq '"mA"';
+
+        $pattern = (substr $pattern, 0, -1) . 'ah' if $pattern =~ /^(?:mA)$/
+                                                   and @{$s} and $s->[0] eq '"mA"';
+
+        $pattern = (substr $pattern, 0, -1) . 'l' if $pattern =~ /^(?:'an|'in)$/
+                                                  and @{$s} and $s->[0] eq '"lA"';
+
+        $pattern = (substr $pattern, 0, -1) . 'm' if $pattern =~ /^(?:'an|'in)$/
+                                                  and @{$s} and $s->[0] eq '"mA"';
     }
     elsif ($pattern =~ /[FCL]/) {
 

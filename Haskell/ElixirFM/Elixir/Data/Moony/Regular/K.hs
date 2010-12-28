@@ -1351,7 +1351,10 @@ cluster_45  = cluster
 
     FaCAL |< Iy |< aT         `noun`    {- <`alAnIyaT> -}      [ ['o','p','e','n','n','e','s','s'], ['p','u','b','l','i','c'], ['o','p','e','n','l','y'], ['p','u','b','l','i','c','l','y'] ],
 
-    HiFCAL                    `noun`    {- <'i`lAn> -}         [ ['d','e','c','l','a','r','a','t','i','o','n'], ['s','t','a','t','e','m','e','n','t'], ['a','n','n','o','u','n','c','e','m','e','n','t'], ['a','d','v','e','r','t','i','s','e','m','e','n','t'], ['s','i','g','n'], ['b','i','l','l','b','o','a','r','d'] ]
+    HiFCAL                    `noun`    {- <'i`lAn> -}         [ ['d','e','c','l','a','r','a','t','i','o','n'], ['s','t','a','t','e','m','e','n','t'], ['a','n','n','o','u','n','c','e','m','e','n','t'] ]
+                              `plural`     HiFCAL |< At,
+
+    HiFCAL                    `noun`    {- <'i`lAn> -}         [ ['a','d','v','e','r','t','i','s','e','m','e','n','t'], ['s','i','g','n'], ['b','i','l','l','b','o','a','r','d'] ]
                               `plural`     HiFCAL |< At,
 
     HiFCAL |< Iy              `adj`     {- <'i`lAnIy> -}       [ ['p','u','b','l','i','c','i','t','y'] ],

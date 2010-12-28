@@ -494,6 +494,13 @@ instance Resolve String where
                     'm' : 'i' : 'h' : y         ->  [ y' ++ ["him"]  | y' <- tokens (reverse y) ]
                     'A' : 'm' : 'u' : 'h' : y   ->  [ y' ++ ["humA"] | y' <- tokens (reverse y) ]
                     'A' : 'm' : 'i' : 'h' : y   ->  [ y' ++ ["himA"] | y' <- tokens (reverse y) ]
+
+                    'A' : 'm' : 'h' : y | y' `elem` ["ma", "m"]
+
+                                            ->  [ [y', "hmA"] ] ++ [ [y' ++ "h", "mA"] ] ++ [ ["mA", "mA"] ]
+
+                                        where y' = reverse y
+
                     'A' : 'm' : 'h' : y         ->  [ y' ++ ["hmA"]  | y' <- tokens (reverse y) ]
                     'm' : 'h' : y               ->  [ y' ++ ["hm"]   | y' <- tokens (reverse y) ]
 
@@ -536,6 +543,11 @@ instance Resolve String where
                                                 [ y' ++ ["nI"] | y' <- tokens (reverse y) ]
                     'I' : y                 ->  [ y' ++ ["|I"] | y' <- tokens (reverse y) ]
 
+                    'A' : 'l' : 'l' : y     ->  [ y' ++ ["lA"] | y' <- tokens (reverse ('l' : y)) ++
+                                                                       tokens (reverse ('n' : y)) ]
+
+                    'A' : 'l' : y           ->  [ y' ++ ["lA"] | y' <- tokens (reverse y) ]
+
                     'A' : 'm' : 'm' : y     ->  [ y' ++ ["mA"] | y' <- tokens (reverse ('m' : y)) ++
                                                                        tokens (reverse ('n' : y)) ]
 
@@ -570,7 +582,9 @@ instance Resolve String where
 
 defaults :: String -> [[[[Wrap Token]]]]
 
-defaults x@(c : _) | isPunctuation c ||
+defaults x@(c : _) | all ('\x0640' ==) x ||
+
+                     isPunctuation c ||
 
                      isSymbol c       = [[[[wrap (Token (Lexeme "" ("" `grph` []), (0,1)) ("", morph x) (ParaGrph GrphG))]]]]
 
@@ -589,7 +603,7 @@ instance Resolve [UPoint] where
 
             where w = (concat . map (groupBy category) . words . encode UCS) x
 
-                  z = (nub . filter (any isArabic)) w
+                  z = (nub . filter (any ('\x0640' /=)) . filter (any isArabic)) w
 
                   r = (Map.fromList . zip z . map harmonize . resolveBy alike (omitting alike omits) . map (tokenize . decode UCS)) z
 
@@ -765,6 +779,31 @@ instance Resolve [UPoint] where
                     'A' : 'm' : 'u' : 'h' : y           ->  [ y' ++ ["humA"]  | y' <- tokens (reverse y) ]
                     'A' : 'a' : 'm' : 'i' : 'h' : y     ->  [ y' ++ ["himaA"] | y' <- tokens (reverse y) ]
                     'A' : 'm' : 'i' : 'h' : y           ->  [ y' ++ ["himA"]  | y' <- tokens (reverse y) ]
+
+                    'A' : 'a' : 'm' : 'o' : 'h' : y | y' `elem` ["ma", "m"]
+
+                                                ->  [ [y' ++ w, "maA"] | w <- ["h-", "A-"] ]
+
+                                        where y' = reverse y
+
+                    'A' : 'm' : 'o' : 'h' : y | y' `elem` ["ma", "m"]
+
+                                                ->  [ [y' ++ w, "mA"] | w <- ["h-", "A-"] ]
+
+                                        where y' = reverse y
+
+                    'A' : 'a' : 'm' : 'h' : y | y' `elem` ["ma", "m"]
+
+                                                ->  [ [y', "hmaA"] ] ++ [ [y' ++ w, "maA"] | w <- ["h-", "A-"] ]
+
+                                        where y' = reverse y
+
+                    'A' : 'm' : 'h' : y | y' `elem` ["ma", "m"]
+
+                                                ->  [ [y', "hmA"] ] ++ [ [y' ++ w, "mA"] | w <- ["h-", "A-"] ]
+
+                                        where y' = reverse y
+
                     'A' : 'a' : 'm' : 'h' : y           ->  [ y' ++ ["hmaA"]  | y' <- tokens (reverse y) ]
                     'A' : 'm' : 'h' : y                 ->  [ y' ++ ["hmA"]   | y' <- tokens (reverse y) ]
                     'o' : 'm' : 'h' : y                 ->  [ y' ++ ["hmo"]   | y' <- tokens (reverse y) ]
@@ -851,6 +890,15 @@ instance Resolve [UPoint] where
                     'A' : '~' : 'n' : y         ->  [ y' ++ ["nA"]  | y' <- tokens (reverse y ++ "n-") ]
                     'A' : 'a' : 'n' : y         ->  [ y' ++ ["naA"] | y' <- tokens (reverse y) ]
                     'A' : 'n' : y               ->  [ y' ++ ["nA"]  | y' <- tokens (reverse y) ++
+                                                                            tokens (reverse y ++ "n-") ]
+
+                    'A' : 'a' : '~' : 'l' : y   ->  [ y' ++ ["laA"] | y' <- tokens (reverse y ++ "l-") ++
+                                                                            tokens (reverse y ++ "n-") ]
+                    'A' : '~' : 'l' : y         ->  [ y' ++ ["lA"]  | y' <- tokens (reverse y ++ "l-") ++
+                                                                            tokens (reverse y ++ "n-") ]
+                    'A' : 'a' : 'l' : y         ->  [ y' ++ ["laA"] | y' <- tokens (reverse y) ]
+                    'A' : 'l' : y               ->  [ y' ++ ["lA"]  | y' <- tokens (reverse y) ++
+                                                                            tokens (reverse y ++ "l-") ++
                                                                             tokens (reverse y ++ "n-") ]
 
                     'A' : 'a' : '~' : 'm' : y   ->  [ y' ++ ["maA"] | y' <- tokens (reverse y ++ "m-") ++

@@ -371,7 +371,7 @@ cluster_19  = cluster
 
     TaFaCCaL                  `verb`    {- <ta.sawwar> -}      [ ['i','m','a','g','i','n','e'], ['e','n','v','i','s','i','o','n'], ['p','o','n','d','e','r'] ],
 
-    FUL |< aT                 `noun`    {- <.sUraT> -}         [ ['p','i','c','t','u','r','e'], ['i','m','a','g','e'], ['i','l','l','u','s','t','r','a','t','i','o','n'], ['p','h','o','t','o'], ['p','h','o','t','o','g','r','a','p','h','s'] ]
+    FUL |< aT                 `noun`    {- <.sUraT> -}         [ ['p','i','c','t','u','r','e'], ['i','m','a','g','e'], ['i','l','l','u','s','t','r','a','t','i','o','n'], ['p','h','o','t','o'], ['p','h','o','t','o','g','r','a','p','h'] ]
                               `plural`     FuCaL,
 
     FUL |< aT                 `noun`    {- <.sUraT> -}         [ ['m','a','n','n','e','r'], ['w','a','y'], ['f','o','r','m'] ],
@@ -394,6 +394,8 @@ cluster_19  = cluster
                               `plural`     MuFaCCiL |< Un
                            
     `derives` otherwise,
+
+    MuFaCCiL                  `adj`     {- <mu.sawwir> -}      [ ['p','h','o','t','o','g','r','a','p','h','i','n','g'] ],
 
     MuFaCCiL                  `noun`    {- <mu.sawwir> -}      [ ['M','u','s','a','w','w','i','r'] ],
 

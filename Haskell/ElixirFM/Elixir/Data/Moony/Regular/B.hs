@@ -650,11 +650,13 @@ cluster_48  = cluster
 
  |> ['b','U','r','.','s'] <| [
 
-    _____ |< aT               `noun`    {- <bUr.saT> -}        [ unwords [ ['s','t','o','c','k'], ['e','x','c','h','a','n','g','e'] ], ['b','o','u','r','s','e'] ] ]
+    _____ |< aT               `noun`    {- <bUr.saT> -}        [ unwords [ ['s','t','o','c','k'], ['e','x','c','h','a','n','g','e'] ], ['b','o','u','r','s','e'] ]
+                              `plural`     _____ |< At ]
 
  |> ['b','u','r','.','s'] <| [
 
-    _____ |< aT               `noun`    {- <bur.saT> -}        [ unwords [ ['s','t','o','c','k'], ['e','x','c','h','a','n','g','e'] ], ['b','o','u','r','s','e'] ] ]
+    _____ |< aT               `noun`    {- <bur.saT> -}        [ unwords [ ['s','t','o','c','k'], ['e','x','c','h','a','n','g','e'] ], ['b','o','u','r','s','e'] ]
+                              `plural`     _____ |< At ]
 
 
 cluster_49  = cluster

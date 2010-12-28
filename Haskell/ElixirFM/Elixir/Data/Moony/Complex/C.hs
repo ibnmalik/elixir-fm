@@ -649,7 +649,8 @@ cluster_58  = cluster
                            
     `derives` otherwise,
 
-    FuCUL |< Iy |< aT         `noun`    {- <'u.sUlIyaT> -}     [ ['f','u','n','d','a','m','e','n','t','a','l','i','s','m'] ],
+    FuCUL |< Iy |< aT         `noun`    {- <'u.sUlIyaT> -}     [ ['f','u','n','d','a','m','e','n','t','a','l','i','s','m'] ]
+                              `plural`     FuCUL |< Iy |< At,
 
     FuCUL |< Iy               `noun`    {- <'u.sUlIy> -}       [ ['j','u','r','i','s','c','o','n','s','u','l','t'], ['l','e','g','i','s','l','a','t','o','r'] ]
                               `plural`     FuCUL |< Iy |< Un
@@ -728,7 +729,11 @@ cluster_62  = cluster
 
     FaCCaL                    `verb`    {- <'a.t.tar> -}       [ ['f','r','a','m','e'], ['c','o','n','t','e','x','t','u','a','l','i','z','e'], ['q','u','a','l','i','f','y'] ],
 
-    FiCAL                     `noun`    {- <'i.tAr> -}         [ ['f','r','a','m','e','w','o','r','k'], ['c','o','n','t','e','x','t'], unwords [ ['t','i','r','e'], "(", ['o','f'], "a", ['w','h','e','e','l'], ")" ], ['c','a','d','r','e'] ]
+    FiCAL                     `noun`    {- <'i.tAr> -}         [ ['f','r','a','m','e','w','o','r','k'], ['c','o','n','t','e','x','t'] ]
+                              `plural`     FiCAL |< At
+                              `plural`     FuCuL,
+
+    FiCAL                     `noun`    {- <'i.tAr> -}         [ unwords [ ['t','i','r','e'], "(", ['o','f'], "a", ['w','h','e','e','l'], ")" ] ]
                               `plural`     FiCAL |< At
                               `plural`     FuCuL,
 

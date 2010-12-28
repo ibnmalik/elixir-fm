@@ -732,7 +732,7 @@ cluster_36  = cluster
     FaCUL                     `noun`    {- <ba`U.d> -}         [ ['g','n','a','t'], ['m','o','s','q','u','i','t','o'] ]
                               `plural`     FaCUL |< At,
 
-    FaCL                      `adj`     {- <ba`.d> -}          [ ['s','o','m','e'], ['s','e','v','e','r','a','l'] ],
+    FaCL                      `noun`    {- <ba`.d> -}          [ ['s','o','m','e'], ['s','e','v','e','r','a','l'] ],
 
     TaFCIL                    `noun`    {- <tab`I.d> -}        [ ['d','i','v','i','s','i','o','n'], ['p','o','r','t','i','o','n','i','n','g'] ]
                               `plural`     TaFCIL |< At,

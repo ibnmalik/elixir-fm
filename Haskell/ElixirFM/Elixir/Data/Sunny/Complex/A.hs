@@ -962,7 +962,7 @@ cluster_69  = cluster
 
     FaCCaL                    `verb`    {- <_tawwar> -}        [ unwords [ ['s','t','i','r'], ['u','p'] ], ['r','e','v','o','l','u','t','i','o','n','i','z','e'] ],
 
-    HaFAL                     `verb`    {- <'a_tAr> -}         [ ['p','r','o','v','o','k','e'], ['a','g','i','t','a','t','e'] ],
+    HaFAL                     `verb`    {- <'a_tAr> -}         [ ['r','a','i','s','e'], ['p','r','o','v','o','k','e'], ['a','g','i','t','a','t','e'] ],
 
     IstaFAL                   `verb`    {- <ista_tAr> -}       [ ['i','n','c','i','t','e'], ['e','l','i','c','i','t'] ],
 
@@ -1437,7 +1437,8 @@ cluster_99  = cluster
     FuCA'                     `noun`    {- <du`A'> -}          [ ['c','a','l','l'], ['r','e','q','u','e','s','t'], ['i','n','v','o','c','a','t','i','o','n'] ]
                               `plural`     HaFCI |< aT,
 
-    FiCAy |< aT               `noun`    {- <di`AyaT> -}        [ ['p','r','o','p','a','g','a','n','d','a'], ['a','d','v','e','r','t','i','s','i','n','g'] ],
+    FiCAy |< aT               `noun`    {- <di`AyaT> -}        [ ['p','r','o','p','a','g','a','n','d','a'], ['a','d','v','e','r','t','i','s','i','n','g'] ]
+                              `plural`     FiCAy |< At,
 
     FiCA' |< Iy               `adj`     {- <di`A'Iy> -}        [ ['p','r','o','p','a','g','a','n','d','i','s','t','i','c'] ],
 

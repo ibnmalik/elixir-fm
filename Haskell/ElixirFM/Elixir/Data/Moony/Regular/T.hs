@@ -42,15 +42,13 @@ cluster_5   = cluster
 
  |> ['m','A'] <| [
 
-    _____                     `pron`    {- <mA> -}             [ ['w','h','i','c','h'], ['w','h','a','t'] ],
+    _____                     `pron`    {- <mA> -}             [ ['w','h','a','t'], ['w','h','i','c','h'] ],
 
-    _____                     `pron`    {- <mA> -}             [ unwords [ ['w','h','a','t'], "?" ] ],
+    _____                     `pron`    {- <mA> -}             [ ['w','h','i','c','h','e','v','e','r'], unwords [ "-", ['e','v','e','r'] ] ],
 
-    _____ |<< "_dA"           `pron`    {- <mA_dA> -}          [ unwords [ ['w','h','a','t'], "?" ] ],
+    _____ |<< "_dA"           `pron`    {- <mA_dA> -}          [ ['w','h','a','t'] ],
 
-    "mah" >>| _____           `conj`    {- <mahmA> -}          [ ['w','h','a','t','e','v','e','r'] ],
-
-    _____                     `part`    {- <mA> -}             [ ['w','h','i','c','h','e','v','e','r'] ],
+    _____ |<< "mA"            `conj`    {- <mahmA> -}          [ ['w','h','a','t','e','v','e','r'] ],
 
     _____                     `part`    {- <mA> -}             [ ['n','o','t'] ],
 
@@ -86,7 +84,8 @@ cluster_9   = cluster
  |> "m t r" <| [
 
     FiCL                      `noun`    {- <mitr> -}           [ ['m','e','t','e','r'] ]
-                              `plural`     HaFCAL,
+                              `plural`     HaFCAL
+                              `plural`     FiCL |< At,
 
     FiCL |< Iy                `adj`     {- <mitrIy> -}         [ ['m','e','t','r','i','c'], ['m','e','t','r','i','c','a','l'] ] ]
 
@@ -226,9 +225,12 @@ cluster_20  = cluster
 
     FiCL |<< "a"              `prep`    {- <mi_tla> -}         [ ['l','i','k','e'], unwords [ ['s','u','c','h'], ['a','s'] ] ],
 
+    HaFCAL |<< "a"            `prep`    {- <'am_tAla> -}       [ ['l','i','k','e'], unwords [ ['s','u','c','h'], ['a','s'] ] ],
+
     FiCL |<< "a" |<< "mA"     `conj`    {- <mi_tlamA> -}       [ ['l','i','k','e'], ['a','s'] ],
 
-    FiCL                      `noun`    {- <mi_tl> -}          [ ['s','a','m','e'], ['l','i','k','e'] ],
+    FiCL                      `noun`    {- <mi_tl> -}          [ ['s','i','m','i','l','a','r','i','t','y'], ['l','i','k','e','n','e','s','s'], unwords [ ['s','o','m','e','t','h','i','n','g'], ['s','i','m','i','l','a','r'] ], unwords [ ['o','n','e'], ['l','i','k','e'] ] ]
+                              `plural`     HaFCAL,
 
     FaCaL                     `verb`    {- <ma_tal> -}         [ ['r','e','s','e','m','b','l','e'], ['c','o','m','p','a','r','e'] ]
                               `imperf`     FCuL,

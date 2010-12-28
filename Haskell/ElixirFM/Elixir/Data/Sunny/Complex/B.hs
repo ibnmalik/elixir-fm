@@ -2108,12 +2108,10 @@ cluster_89  = cluster
 
     IstaFaCL                  `verb`    {- <istaradd> -}       [ ['r','e','c','o','v','e','r'], ['r','e','c','l','a','i','m'], ['r','e','g','a','i','n'] ],
 
-    FaCL                      `noun`    {- <radd> -}           [ ['r','e','p','l','y'] ]
+    FaCL                      `noun`    {- <radd> -}           [ ['r','e','p','l','y'], ['a','n','s','w','e','r'] ]
                               `plural`     FuCUL,
 
     FaCL                      `noun`    {- <radd> -}           [ ['r','e','t','u','r','n'], ['r','e','p','u','l','s','i','o','n'] ],
-
-    FaCL |<< "aN"             `adv`     {- <raddaN> -}         [ unwords [ ['i','n'], ['r','e','p','l','y'], ['t','o'] ], unwords [ ['i','n'], ['a','n','s','w','e','r'], ['t','o'] ] ],
 
     FaCL |< aT                `noun`    {- <raddaT> -}         [ ['r','e','v','e','r','b','e','r','a','t','i','o','n'], ['e','c','h','o'] ],
 

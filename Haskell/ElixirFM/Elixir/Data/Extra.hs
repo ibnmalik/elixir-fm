@@ -541,7 +541,7 @@ lexicon = listing "Extended lexicon"
                                                         <..>    [ "ten", "score", "dozen" ]
                             `plural` FaCaL |< At,
 
-        FaCaL               <::>    "QY--------"
+        FaCaL               <::>    "QU--------"
                                                         <..>    [ unwords [ "-", "teen" ] ]
                             `femini` FaCL |< aT,
 
@@ -568,7 +568,7 @@ lexicon = listing "Extended lexicon"
 
     |> "_t n y" <| [
 
-        IFC |< An           <::>    "QI--------"
+        IFC |< An           <::>    "QY--------"
                                                         <..>    [ "two" ]
                             `femini` IFC |< aT |< An
         ]

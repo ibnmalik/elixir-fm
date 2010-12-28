@@ -840,8 +840,10 @@ cluster_46  = cluster
 
     FaCL                      `noun`    {- <katl> -}           [ ['a','g','g','l','o','m','e','r','a','t','i','o','n'] ],
 
-    FuCL |< aT                `noun`    {- <kutlaT> -}         [ ['b','l','o','c'], ['g','r','o','u','p'] ]
+    FuCL |< aT                `noun`    {- <kutlaT> -}         [ ['b','l','o','c'], ['g','r','o','u','p'], ['m','a','s','s'] ]
                               `plural`     FuCaL,
+
+    FuCLY                     `noun`    {- <kutlY> -}          [ ['m','a','s','s'] ],
 
     FuCLY |< Iy               `adj`     {- <kutlawIy> -}       [ ['b','l','o','c'] ],
 

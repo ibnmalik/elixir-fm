@@ -637,7 +637,7 @@ cluster_35  = cluster
 
  |> ['m','a','n'] <| [
 
-    _____                     `pron`    {- <man> -}            [ ['w','h','o'], ['w','h','o','m'] ] ]
+    _____                     `pron`    {- <man> -}            [ ['w','h','o'] ] ]
 
 
 cluster_36  = cluster
@@ -863,13 +863,13 @@ cluster_56  = cluster
 
 cluster_57  = cluster
 
- |> ['m','u','n','_','d','u'] <| [
+ |> ['m','u','n','_','d'] <| [
 
-    _____                     `prep`    {- <mun_du> -}         [ ['s','i','n','c','e'], ['a','g','o'] ] ]
+    _____ |<< "u"             `prep`    {- <mun_du> -}         [ ['s','i','n','c','e'], ['f','o','r'], ['a','g','o'] ] ]
 
  |> ['m','u','_','d'] <| [
 
-    _____                     `prep`    {- <mu_d> -}           [ ['s','i','n','c','e'], unwords [ ['s','i','n','c','e'], ['t','h','e','n'] ] ] ]
+    _____                     `prep`    {- <mu_d> -}           [ ['s','i','n','c','e'], ['f','o','r'], ['a','g','o'] ] ]
 
 
 cluster_58  = cluster
@@ -1720,7 +1720,7 @@ cluster_99  = cluster
 
     MustaFCiL                 `adj`     {- <mustahdif> -}      [ ['t','a','r','g','e','t','i','n','g'], unwords [ ['a','i','m','i','n','g'], ['a','t'] ] ],
 
-    MustaFCaL                 `adj`     {- <mustahdaf> -}      [ ['g','u','i','d','e','d'], ['t','a','r','g','e','t','e','d'] ] ]
+    MustaFCaL                 `adj`     {- <mustahdaf> -}      [ ['t','a','r','g','e','t','e','d'], ['g','u','i','d','e','d'] ] ]
 
 
 cluster_100 = cluster

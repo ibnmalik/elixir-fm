@@ -547,7 +547,9 @@ cluster_25  = cluster
 
     IstaFCaL                  `verb`    {- <istaq.tar> -}      [ ['d','i','s','t','i','l','l'] ],
 
-    FaCaL                     `noun`    {- <qa.tar> -}         [ ['Q','a','t','a','r'] ],
+    FaCaL                     `noun`    {- <qa.tar> -}         [ ['Q','a','t','a','r'] ]
+                           
+    `excepts` Diptote,
 
     FaCaL |< Iy               `adj`     {- <qa.tarIy> -}       [ ['Q','a','t','a','r','i'] ],
 

@@ -666,6 +666,9 @@ cluster_37  = cluster
 
     HaFCaL                    `adj`     {- <'a^g_dab> -}       [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['a','t','t','r','a','c','t','i','v','e'] ] ],
 
+    TaFACuL                   `noun`    {- <ta^gA_dub> -}      [ ['i','n','t','e','r','a','c','t','i','o','n'] ]
+                              `plural`     TaFACuL |< At,
+
     InFiCAL                   `noun`    {- <in^gi_dAb> -}      [ ['a','t','t','r','a','c','t','i','o','n'], ['t','e','n','d','e','n','c','y'], ['e','n','t','i','c','e','m','e','n','t'] ]
                               `plural`     InFiCAL |< At,
 

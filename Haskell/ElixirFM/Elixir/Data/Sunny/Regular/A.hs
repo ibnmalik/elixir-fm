@@ -30,6 +30,8 @@ cluster_3   = cluster
 
     _____                     `xtra`    {- <tibit> -}          [ ['T','i','b','e','t'] ],
 
+    al >| _____               `xtra`    {- <at-tibit> -}       [ ['T','i','b','e','t'] ],
+
     _____ |< Iy               `adj`     {- <tibitIy> -}        [ ['T','i','b','e','t','a','n'] ],
 
     _____ |< Iy               `noun`    {- <tibitIy> -}        [ ['T','i','b','e','t','a','n'] ]

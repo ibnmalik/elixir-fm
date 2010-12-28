@@ -1816,6 +1816,8 @@ cluster_78  = cluster
                               `plural`     HaFCI |< aT
                               `plural`     HaFCI |< At,
 
+    "mIr" >>| FiCA'           `noun`    {- <mIrliwA'> -}       [ unwords [ ['m','a','j','o','r'], ['g','e','n','e','r','a','l'] ] ],
+
     FiCA'                     `noun`    {- <liwA'> -}          [ ['d','i','s','t','r','i','c','t'], ['p','r','o','v','i','n','c','e'] ]
                               `plural`     HaFCI |< aT
                               `plural`     HaFCI |< At,

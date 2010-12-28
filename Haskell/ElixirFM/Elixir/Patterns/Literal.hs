@@ -32,16 +32,23 @@ instance Morphing PatternL PatternL where
 
 instance Template PatternL where
 
+    interlocks _ [] r _ = concat r
+
     interlocks _ s r _ = (modify . concat) r
 
-        where modify t | t `elem` ["`an", "min"] =
+        where modify t | t `elem` ["`an", "min"] &&
+                         last s == Suffix "mA"          = init t ++ "m"
 
-                            if null s || last s /= Suffix "mA"
+                       | t `elem` ["mA"] &&                       
+                         last s == Suffix "mA"          = init t ++ "ah"
 
-                                            then t
-                                            else init t ++ "m"
-
-                       | otherwise               = t
+                       | t `elem` ["'an", "'in"] &&                       
+                         last s == Suffix "lA"          = init t ++ "l"
+                         
+                       | t `elem` ["'an", "'in"] &&                       
+                         last s == Suffix "mA"          = init t ++ "m"
+                         
+                       | otherwise                      = t
 
 
 instance Rules PatternL where
