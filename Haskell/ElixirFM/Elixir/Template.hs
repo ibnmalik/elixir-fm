@@ -579,7 +579,8 @@ reduce :: String -> [String]
 
 reduce = map head . group . trims . words
 
-    where trims [y] | y `elem` ["`an", "min", "'an", "'in"] = [[head y]]
+    where trims [y] | y `elem` ["`an", "min"] = [[head y]]
+                    | y `elem` ["'an", "'in"] = []
                     | otherwise = [ z | z <- units y, z `notElem` skips ++ fst omits ]
           trims [x, y, "h"]     = [ z | z <- [x, y],  z `notElem` skips ]
           trims x               = [ z | z <- x,       z `notElem` skips ]
