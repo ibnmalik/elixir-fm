@@ -454,6 +454,11 @@ instance Resolve String where
                     'b' : '-' : y           ->  [ "b"  : y' | y' <- tokens' y ]
                     'b' : y                 ->  [ "b"  : y' | y' <- tokens' y ]
 
+                    'l' : 'a' : 'w' : '-' : y   ->  [ "law" : y' | y' <- tokens' y ]
+                    'l' : 'a' : 'w' : y         ->  [ "law" : y' | y' <- tokens' y ]
+                    'l' : 'w' : '-' : y         ->  [ "lw"  : y' | y' <- tokens' y ]
+                    'l' : 'w' : y               ->  [ "lw"  : y' | y' <- tokens' y ]
+
                     'l' : 'i' : '-' : y     ->  [ "li" : y' | y' <- tokens' y ]
                     'l' : 'i' : y           ->  [ "li" : y' | y' <- tokens' y ]
                     'l' : 'A' : '-' : y     ->  [ "lA" : y' | y' <- tokens' y ]
@@ -717,6 +722,11 @@ instance Resolve [UPoint] where
                     'b' : 'i' : y           ->  [ "bi" : y' | y' <- tokens' y ]
                     'b' : y                 ->  [ "b"  : y' | y' <- tokens' y ]
 
+                    'l' : 'a' : 'w' : 'o' : y   ->  [ "lawo" : y' | y' <- tokens' y ]
+                    'l' : 'a' : 'w' : y         ->  [ "law"  : y' | y' <- tokens' y ]
+                    'l' : 'w' : 'o' : y         ->  [ "lwo"  : y' | y' <- tokens' y ]
+                    'l' : 'w' : y               ->  [ "lw"   : y' | y' <- tokens' y ]
+
                     'l' : 'i' : 'l' : y     ->  [ "li" : y' | y' <- tokens' ("l" ++ y) ++
                                                                     tokens' ("Al" ++ y) ++
                                                                     tokens' ("All" ++ y) ]
@@ -738,14 +748,10 @@ instance Resolve [UPoint] where
                     's' : 'a' : y           ->  [ "sa" : y' | y' <- tokens' y ]
                     's' : y                 ->  [ "s"  : y' | y' <- tokens' y ]
 
-                    'k' : 'a' : '-' : y     ->  [ "ka" : y' | y' <- tokens' y ]
                     'k' : 'a' : y           ->  [ "ka" : y' | y' <- tokens' y ]
-                    'k' : '-' : y           ->  [ "k"  : y' | y' <- tokens' y ]
                     'k' : y                 ->  [ "k"  : y' | y' <- tokens' y ]
 
-                    't' : 'a' : '-' : y     ->  [ "ta" : y' | y' <- tokens' y ]
                     't' : 'a' : y           ->  [ "ta" : y' | y' <- tokens' y ]
-                    't' : '-' : y           ->  [ "t"  : y' | y' <- tokens' y ]
                     't' : y                 ->  [ "t"  : y' | y' <- tokens' y ]
 
                     'm' : 'a' : 'A' : y     ->  [ "maA" : y' | y' <- tokens' y ]
