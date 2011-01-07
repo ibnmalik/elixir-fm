@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Resolve
--- Copyright   :  Otakar Smrz 2005-2010
+-- Copyright   :  Otakar Smrz 2005-2011
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -455,9 +455,11 @@ instance Resolve String where
                     'b' : y                 ->  [ "b"  : y' | y' <- tokens' y ]
 
                     'l' : 'a' : 'w' : '-' : y   ->  [ "law" : y' | y' <- tokens' y ]
-                    'l' : 'a' : 'w' : y         ->  [ "law" : y' | y' <- tokens' y ]
+                    'l' : 'a' : 'w' : y         ->  [ "law" : y' | y' <- tokens' y ] ++
+                                                    [ "la"  : y' | y' <- tokens' ('w' : y) ]
                     'l' : 'w' : '-' : y         ->  [ "lw"  : y' | y' <- tokens' y ]
-                    'l' : 'w' : y               ->  [ "lw"  : y' | y' <- tokens' y ]
+                    'l' : 'w' : y               ->  [ "lw"  : y' | y' <- tokens' y ] ++
+                                                    [ "l"   : y' | y' <- tokens' ('w' : y) ]
 
                     'l' : 'i' : '-' : y     ->  [ "li" : y' | y' <- tokens' y ]
                     'l' : 'i' : y           ->  [ "li" : y' | y' <- tokens' y ]
@@ -723,9 +725,16 @@ instance Resolve [UPoint] where
                     'b' : y                 ->  [ "b"  : y' | y' <- tokens' y ]
 
                     'l' : 'a' : 'w' : 'o' : y   ->  [ "lawo" : y' | y' <- tokens' y ]
-                    'l' : 'a' : 'w' : y         ->  [ "law"  : y' | y' <- tokens' y ]
+                    'l' : 'a' : 'w' : y         ->  [ "law"  : y' | y' <- tokens' y ] ++
+                                                    [ "la"   : y' | y' <- tokens' ('w' : y) ]
                     'l' : 'w' : 'o' : y         ->  [ "lwo"  : y' | y' <- tokens' y ]
-                    'l' : 'w' : y               ->  [ "lw"   : y' | y' <- tokens' y ]
+                    'l' : 'w' : y               ->  [ "lw"   : y' | y' <- tokens' y ] ++
+                                                    [ "l"    : y' | y' <- tokens' ('w' : y) ]
+
+                    'l' : 'a' : 'A' : y     ->  [ "laA" : y' | y' <- tokens' y ] ++
+                                                [ "la"  : y' | y' <- tokens' ('A' : y) ]
+                    'l' : 'A' : y           ->  [ "lA"  : y' | y' <- tokens' y ] ++
+                                                [ "l"   : y' | y' <- tokens' ('A' : y) ]
 
                     'l' : 'i' : 'l' : y     ->  [ "li" : y' | y' <- tokens' ("l" ++ y) ++
                                                                     tokens' ("Al" ++ y) ++
@@ -737,12 +746,8 @@ instance Resolve [UPoint] where
                                                                     tokens' ("Al" ++ y) ++
                                                                     tokens' ("All" ++ y) ]
 
-                    'l' : 'i' : y           ->  [ "li"  : y' | y' <- tokens' y ]
-                    'l' : 'a' : 'A' : y     ->  [ "la"  : y' | y' <- tokens' ("A" ++ y) ] ++
-                                                [ "laA" : y' | y' <- tokens' y ]
-                    'l' : 'A' : y           ->  [ "l"   : y' | y' <- tokens' ("A" ++ y) ] ++
-                                                [ "lA"  : y' | y' <- tokens' y ]
                     'l' : 'a' : y           ->  [ "la"  : y' | y' <- tokens' y ]
+                    'l' : 'i' : y           ->  [ "li"  : y' | y' <- tokens' y ]
                     'l' : y                 ->  [ "l"   : y' | y' <- tokens' y ]
 
                     's' : 'a' : y           ->  [ "sa" : y' | y' <- tokens' y ]

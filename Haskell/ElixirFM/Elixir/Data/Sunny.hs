@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Data.Sunny
--- Copyright   :  Otakar Smrz 2005-2010
+-- Copyright   :  Otakar Smrz 2005-2011
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz

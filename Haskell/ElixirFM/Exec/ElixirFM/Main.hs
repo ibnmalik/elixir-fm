@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Exec.ElixirFM.Main
--- Copyright   :  Otakar Smrz 2005-2010
+-- Copyright   :  Otakar Smrz 2005-2011
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -86,7 +86,7 @@ options = [ Option []    ["resolve"]    (NoArg (RunAction elixirResolve))
                                                 "library version and build information" ]
 
 
-copyleft = unlines ["ElixirFM (C) 2010-2005 Otakar Smrz and Viktor Bielicky",
+copyleft = unlines ["ElixirFM (C) 2011-2005 Otakar Smrz and Viktor Bielicky",
                     "             2004 Markus Forsberg, 2002 Tim Buckwalter",
                     "GNU General Public License http://www.gnu.org/licenses/"]
 
@@ -113,7 +113,7 @@ main = do   argv <- getArgs
                 PrintVersion    ->  tell (unlines [copyleft,
                                           unwords ["ElixirFM",
                                                    showVersion Main.version,
-                                                   "December 2010"]])
+                                                   "January 2011"]])
 
                 DisplayUsage    ->  tell (usageInfo synopsis options)
 

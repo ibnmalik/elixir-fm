@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  ElixirFM
--- Copyright   :  Otakar Smrz 2005-2010
+-- Copyright   :  Otakar Smrz 2005-2011
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -16,7 +16,7 @@
 
 {-
     ElixirFM -- Implementation of Functional Arabic Morphology
-    Copyright (C) 2005-2010 Otakar Smrz
+    Copyright (C) 2005-2011 Otakar Smrz
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -88,6 +88,6 @@ import Prelude hiding (lookup)
 
 import Version
 
-version = Version [1, 1, max build 996] []
+version = Version [1, 1, max build 997] []
 
     where Version [build] [] = revised "$Revision$"

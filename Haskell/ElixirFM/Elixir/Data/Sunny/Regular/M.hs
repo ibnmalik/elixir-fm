@@ -1049,6 +1049,8 @@ cluster_52  = cluster
                               `plural`     FiCAL
                               `plural`     FaCLAn,
 
+    HaFCaL                    `adj`     {- <'a.d`af> -}        [ unwords [ ['w','e','a','k','e','r'], "/", ['w','e','a','k','e','s','t'] ] ],
+
     HiFCAL                    `noun`    {- <'i.d`Af> -}        [ ['w','e','a','k','e','n','i','n','g'], ['i','m','p','a','i','r','m','e','n','t'] ]
                               `plural`     HiFCAL |< At,
 

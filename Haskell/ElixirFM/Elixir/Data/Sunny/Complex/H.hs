@@ -861,6 +861,8 @@ cluster_31  = cluster
     FACI |< aT                `noun`    {- <nAhiyaT> -}        [ ['b','a','n'], ['p','r','o','s','c','r','i','p','t','i','o','n'], unwords [ ['p','r','o','h','i','b','i','t','i','o','n'], ['o','r','d','e','r','s'] ] ]
                               `plural`     FawACI,
 
+    MuFCI                     `adj`     {- <munhI> -}          [ ['c','o','m','p','l','e','t','i','n','g'], ['f','i','n','i','s','h','i','n','g'] ],
+
     MutaFACI                  `adj`     {- <mutanAhI> -}       [ ['u','t','m','o','s','t'], ['e','x','t','r','e','m','e'], ['f','i','n','i','s','h','e','d'] ],
 
     lA >| MutaFACI            `adj`     {- <lA-mutanAhI> -}    [ ['i','n','f','i','n','i','t','e'] ],

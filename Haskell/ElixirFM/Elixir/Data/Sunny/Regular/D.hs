@@ -1264,7 +1264,8 @@ cluster_66  = cluster
                               `plural`     MaFACiL,
 
     TaFCIL                    `noun`    {- <tartIb> -}         [ ['a','r','r','a','n','g','e','m','e','n','t'], ['o','r','g','a','n','i','z','a','t','i','o','n'], ['p','r','e','p','a','r','a','t','i','o','n'] ]
-                              `plural`     TaFCIL |< At,
+                              `plural`     TaFCIL |< At
+                              `plural`     TaFACIL,
 
     TaFCIL |< Iy              `adj`     {- <tartIbIy> -}       [ ['p','r','e','p','a','r','a','t','o','r','y'], ['o','r','d','i','n','a','l'], ['a','r','r','a','n','g','e','m','e','n','t'] ],
 
