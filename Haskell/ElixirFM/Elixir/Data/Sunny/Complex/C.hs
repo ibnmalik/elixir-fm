@@ -171,6 +171,8 @@ cluster_5   = cluster
                               `plural`     FuCY |< aT
                               `plural`     FuCA',
 
+    FACI                      `adj`     {- <rA`I> -}           [ ['p','r','o','t','e','c','t','i','n','g'], unwords [ ['c','a','r','i','n','g'], ['f','o','r'] ] ],
+
     MaFCIL                    `adj`     {- <mar`Iy> -}         [ ['o','b','s','e','r','v','e','d'], unwords [ ['c','o','m','p','l','i','e','d'], ['w','i','t','h'] ] ] ]
 
 

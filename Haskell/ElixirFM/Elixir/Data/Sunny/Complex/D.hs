@@ -661,7 +661,12 @@ cluster_30  = cluster
                               `plural`     MaFACI,
 
     FACI                      `noun`    {- <sA`I> -}           [ ['m','e','s','s','e','n','g','e','r'], unwords [ ['d','e','l','i','v','e','r','y'], ['b','o','y'] ], ['s','l','a','n','d','e','r','e','r'] ]
-                              `plural`     FACI |< At ]
+                              `plural`     FACI |< Un
+                              `plural`     FuCY |< aT
+                           
+    `derives` otherwise,
+
+    FACI                      `adj`     {- <sA`I> -}           [ ['s','t','r','i','v','i','n','g'], ['p','u','r','s','u','i','n','g'] ] ]
 
 
 cluster_31  = cluster

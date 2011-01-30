@@ -1169,6 +1169,8 @@ cluster_49  = cluster
 
     MutaFaCCiL                `adj`     {- <mutawaffiq> -}     [ ['s','u','c','c','e','s','s','f','u','l'] ],
 
+    MutaFACiL                 `adj`     {- <mutawAfiq> -}      [ ['a','g','r','e','e','i','n','g'] ],
+
     MuFtaCaL                  `adj`     {- <muttafaq> -}       [ ['a','g','r','e','e','d'] ] ]
 
 

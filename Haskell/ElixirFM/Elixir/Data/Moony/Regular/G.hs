@@ -2679,6 +2679,9 @@ cluster_95  = cluster
 
     TaFaCCuL |< Iy            `adj`     {- <ta.hakkumIy> -}    [ ['a','r','b','i','t','r','a','r','y'], ['d','e','s','p','o','t','i','c'] ],
 
+    IFtiCAL                   `noun`    {- <i.htikAm> -}       [ ['c','o','n','t','r','o','l'] ]
+                              `plural`     IFtiCAL |< At,
+
     IstiFCAL                  `noun`    {- <isti.hkAm> -}      [ ['i','n','t','e','n','s','i','f','i','c','a','t','i','o','n'], ['f','o','r','t','i','f','i','c','a','t','i','o','n'] ]
                               `plural`     IstiFCAL |< At,
 

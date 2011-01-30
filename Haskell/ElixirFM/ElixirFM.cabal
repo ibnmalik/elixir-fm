@@ -1,5 +1,5 @@
 name:               ElixirFM
-version:            1.1
+version:            1.2.0
 license:            GPL
 license-file:       LICENSE
 extra-source-files: INSTALL, Setup.PL

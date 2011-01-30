@@ -2258,6 +2258,8 @@ cluster_93  = cluster
     TaFACuL                   `noun`    {- <ta.sAlu.h> -}      [ ['r','e','c','o','n','c','i','l','i','a','t','i','o','n'], ['s','e','t','t','l','e','m','e','n','t'] ]
                               `plural`     TaFACuL |< At,
 
+    TaFACuL |< Iy             `adj`     {- <ta.sAlu.hIy> -}    [ ['r','e','c','o','n','c','i','l','i','a','t','o','r','y'] ],
+
     IFtiCAL                   `noun`    {- <i.s.tilA.h> -}     [ ['c','o','n','v','e','n','t','i','o','n'], unwords [ ['t','e','c','h','n','i','c','a','l'], ['t','e','r','m'] ] ]
                               `plural`     IFtiCAL |< At,
 
@@ -2295,7 +2297,7 @@ cluster_93  = cluster
                            
     `derives` otherwise,
 
-    MutaFACiL                 `adj`     {- <muta.sAli.h> -}    [ unwords [ ['a','t'], ['p','e','a','c','e'] ], ['r','e','c','o','n','c','i','l','e','d'] ],
+    MutaFACiL                 `adj`     {- <muta.sAli.h> -}    [ ['r','e','c','o','n','c','i','l','e','d'], unwords [ ['a','t'], ['p','e','a','c','e'] ] ],
 
     MuFtaCaL                  `noun`    {- <mu.s.tala.h> -}    [ unwords [ ['t','e','c','h','n','i','c','a','l'], ['t','e','r','m'] ], ['t','e','r','m','i','n','o','l','o','g','y'] ]
                               `plural`     MuFtaCaL |< At ]

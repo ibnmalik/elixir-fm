@@ -2173,7 +2173,7 @@ cluster_70  = cluster
 
     MuFACaL |< aT             `noun`    {- <mu`AyadaT> -}      [ unwords [ ['h','o','l','i','d','a','y'], ['g','r','e','e','t','i','n','g','s'] ] ],
 
-    MuFtAL                    `adj`     {- <mu`tAd> -}         [ ['u','s','u','a','l'], ['c','u','s','t','o','m','a','r','y'] ],
+    MuFtAL                    `adj`     {- <mu`tAd> -}         [ ['u','s','u','a','l'], ['t','y','p','i','c','a','l'], ['h','a','b','i','t','u','a','l'], ['c','u','s','t','o','m','a','r','y'] ],
 
     MuFtAL                    `adj`     {- <mu`tAd> -}         [ ['h','a','b','i','t','u','a','t','e','d'], ['a','c','c','u','s','t','o','m','e','d'] ] ]
 

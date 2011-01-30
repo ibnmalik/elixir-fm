@@ -110,7 +110,9 @@ cluster_2   = cluster
 
     MunFaCL                   `adj`     {- <mun.hall> -}       [ ['d','i','s','s','o','l','v','e','d'], ['d','i','s','b','a','n','d','e','d'] ],
 
-    MuFtaCL                   `adj`     {- <mu.htall> -}       [ ['o','c','c','u','p','y','i','n','g'], ['o','c','c','u','p','i','e','d'] ] ]
+    MuFtaCL                   `adj`     {- <mu.htall> -}       [ ['o','c','c','u','p','y','i','n','g'] ],
+
+    MuFtaCL                   `adj`     {- <mu.htall> -}       [ ['o','c','c','u','p','i','e','d'] ] ]
 
 
 cluster_3   = cluster

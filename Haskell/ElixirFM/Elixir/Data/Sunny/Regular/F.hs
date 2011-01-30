@@ -1367,7 +1367,7 @@ cluster_81  = cluster
 
     FaCL                      `noun`    {- <za`m> -}           [ ['a','l','l','e','g','a','t','i','o','n'], ['c','l','a','i','m'] ],
 
-    FaCIL                     `noun`    {- <za`Im> -}          [ ['l','e','a','d','e','r'], unwords [ ['h','e','a','d'], ['o','f'], ['s','t','a','t','e'] ], unwords [ ['h','e','a','d','s'], ['o','f'], ['s','t','a','t','e'] ] ]
+    FaCIL                     `noun`    {- <za`Im> -}          [ ['l','e','a','d','e','r'], unwords [ ['h','e','a','d'], ['o','f'], ['s','t','a','t','e'] ] ]
                               `plural`     FuCaLA'
                            
     `derives` otherwise,
