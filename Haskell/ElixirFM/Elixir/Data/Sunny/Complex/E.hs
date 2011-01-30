@@ -13,9 +13,17 @@ cluster_1   = cluster
 
  |> "^s b b" <| [
 
-    FaCL                      `verb`    {- <^sabb> -}          [ unwords [ ['g','r','o','w'], ['u','p'] ], ['b','u','r','n'] ]
+    FaCL                      `verb`    {- <^sabb> -}          [ unwords [ ['g','r','o','w'], ['u','p'] ] ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL,
+                              `pfirst`     FaCaL
+                              `masdar`     FaCAL
+                              `masdar`     FaCIL |< aT,
+
+    FaCL                      `verb`    {- <^sabb> -}          [ ['b','u','r','n'] ]
+                              `imperf`     FiCL
+                              `pfirst`     FaCaL
+                              `masdar`     FuCUL
+                              `masdar`     FaCL,
 
     FaCL                      `verb`    {- <^sabb> -}          [ ['k','i','n','d','l','e'] ]
                               `imperf`     FuCL
@@ -852,7 +860,11 @@ cluster_35  = cluster
     FaCCA'                    `adj`     {- <^sakkA'> -}        [ ['q','u','e','r','u','l','o','u','s'], ['c','o','m','p','l','a','i','n','i','n','g'] ],
 
     FaCA                      `verb`    {- <^sakA> -}          [ ['c','o','m','p','l','a','i','n'], ['s','u','f','f','e','r'] ]
-                              `imperf`     FCU,
+                              `imperf`     FCU
+                              `masdar`     FaCL
+                              `masdar`     FaCLY
+                              `masdar`     FaCY |< aT
+                              `masdar`     FiCAy |< aT,
 
     TaFaCCY                   `verb`    {- <ta^sakkY> -}       [ ['c','o','m','p','l','a','i','n'], ['s','u','f','f','e','r'] ],
 
@@ -1015,7 +1027,8 @@ cluster_43  = cluster
 
     FaCL                      `verb`    {- <^sann> -}          [ ['w','a','g','e'], ['l','a','u','n','c','h'] ]
                               `imperf`     FuCL
-                              `pfirst`     FaCaL,
+                              `pfirst`     FaCaL
+                              `masdar`     FaCL,
 
     HaFaCL                    `verb`    {- <'a^sann> -}        [ ['w','a','g','e'], ['l','a','u','n','c','h'] ],
 

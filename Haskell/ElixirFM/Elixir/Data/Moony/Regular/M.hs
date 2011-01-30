@@ -1276,7 +1276,7 @@ cluster_58  = cluster
 
  |> ['f','a','r','a','n','s'] <| [
 
-    _____ |<< "A"             `noun`    {- <faransA> -}        [ ['F','r','a','n','c','e'] ],
+    _____ |<< "A"             `xtra`    {- <faransA> -}        [ ['F','r','a','n','c','e'] ],
 
     _____ |< Iy               `noun`    {- <faransIy> -}       [ ['F','r','e','n','c','h'] ]
                               `plural`     _____ |< Iy |< Un

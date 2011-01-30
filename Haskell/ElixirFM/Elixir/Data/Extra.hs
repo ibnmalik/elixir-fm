@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Data.Extra
--- Copyright   :  Otakar Smrz 2005-2010
+-- Copyright   :  Otakar Smrz 2005-2011
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -531,22 +531,23 @@ lexicon = listing "Extended lexicon"
         ]
 
 
-    |> "` ^s r" <| [
+    |> "' w l" <| [
 
-        FaCaL |< aT         <::>    "QX--------"
-                                                        <..>    [ "ten" ]
-                            `femini` FaCL,
+        HawCaL              `adj`                   [ "first", "foremost", "early" ]
+                            `femini`    FULY
+                            `plural`    HawCaL |< Un
+                            `plural`    FuCaL
+                            `plural`    FaCA'iL
 
-        FaCaL |< aT         <::>    "QM-----[SP]--"
-                                                        <..>    [ "ten", "score", "dozen" ]
-                            `plural` FaCaL |< At,
-
-        FaCaL               <::>    "QU--------"
-                                                        <..>    [ unwords [ "-", "teen" ] ]
-                            `femini` FaCL |< aT,
-
-        FiCL |< Un          <::>    "QL--------"
-                                                        <..>    [ "twenty" ]
+                            <.>     "A-----MS1I"
+                                                        <:>     HawCaL |<< "u"
+                                                        <:>     FaCCaL |<< "uN"
+                            <.>     "A-----MS2I"
+                                                        <:>     HawCaL |<< "a"
+                                                        <:>     FaCCaL |<< "iN"
+                            <.>     "A-----MS4I"
+                                                        <:>     HawCaL |<< "a"
+                                                        <:>     FaCCaL |<< "aN"
         ]
 
 
@@ -649,6 +650,25 @@ lexicon = listing "Extended lexicon"
 
         FiCL |< Un          <::>    "QL--------"
                                                         <..>    [ "ninety" ]
+        ]
+
+
+    |> "` ^s r" <| [
+
+        FaCaL |< aT         <::>    "QX--------"
+                                                        <..>    [ "ten" ]
+                            `femini` FaCL,
+
+        FaCaL |< aT         <::>    "QM-----[SP]--"
+                                                        <..>    [ "ten", "score", "dozen" ]
+                            `plural` FaCaL |< At,
+
+        FaCaL               <::>    "QU--------"
+                                                        <..>    [ unwords [ "-", "teen" ] ]
+                            `femini` FaCL |< aT,
+
+        FiCL |< Un          <::>    "QL--------"
+                                                        <..>    [ "twenty" ]
         ]
 
 

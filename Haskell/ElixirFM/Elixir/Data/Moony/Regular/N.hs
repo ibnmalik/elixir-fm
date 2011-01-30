@@ -685,13 +685,35 @@ cluster_29  = cluster
 
 cluster_30  = cluster
 
- |> ['f','I','l','I','b','b','I','n'] <| [
+ |> ['f','I','l','I','b','I','n'] <| [
 
-    _____                     `noun`    {- <fIlIbbIn> -}       [ ['P','h','i','l','i','p','p','i','n','e','s'] ],
+    _____                     `noun`    {- <fIlIbIn> -}        [ ['P','h','i','l','i','p','p','i','n','e','s'] ],
 
-    _____ |< Iy               `adj`     {- <fIlIbbInIy> -}     [ ['P','h','i','l','i','p','p','i','n','e'], ['F','i','l','i','p','i','n','o'] ],
+    _____ |< Iy               `adj`     {- <fIlIbInIy> -}      [ ['P','h','i','l','i','p','p','i','n','e'], ['F','i','l','i','p','i','n','o'] ],
 
-    _____ |< Iy               `noun`    {- <fIlIbbInIy> -}     [ ['P','h','i','l','i','p','p','i','n','e'], ['F','i','l','i','p','i','n','o'] ]
+    _____ |< Iy               `noun`    {- <fIlIbInIy> -}      [ ['P','h','i','l','i','p','p','i','n','e'], ['F','i','l','i','p','i','n','o'] ]
+                              `plural`     _____ |< Iy |< Un
+                           
+    `derives` otherwise ]
+
+ |> ['f','I','l','i','b','b','I','n'] <| [
+
+    _____                     `noun`    {- <fIlibbIn> -}       [ ['P','h','i','l','i','p','p','i','n','e','s'] ],
+
+    _____ |< Iy               `adj`     {- <fIlibbInIy> -}     [ ['P','h','i','l','i','p','p','i','n','e'], ['F','i','l','i','p','i','n','o'] ],
+
+    _____ |< Iy               `noun`    {- <fIlibbInIy> -}     [ ['P','h','i','l','i','p','p','i','n','e'], ['F','i','l','i','p','i','n','o'] ]
+                              `plural`     _____ |< Iy |< Un
+                           
+    `derives` otherwise ]
+
+ |> ['f','i','l','i','b','b','I','n'] <| [
+
+    _____                     `noun`    {- <filibbIn> -}       [ ['P','h','i','l','i','p','p','i','n','e','s'] ],
+
+    _____ |< Iy               `adj`     {- <filibbInIy> -}     [ ['P','h','i','l','i','p','p','i','n','e'], ['F','i','l','i','p','i','n','o'] ],
+
+    _____ |< Iy               `noun`    {- <filibbInIy> -}     [ ['P','h','i','l','i','p','p','i','n','e'], ['F','i','l','i','p','i','n','o'] ]
                               `plural`     _____ |< Iy |< Un
                            
     `derives` otherwise ]
@@ -754,6 +776,8 @@ cluster_32  = cluster
 
     FaCaL                     `noun`    {- <fala^g> -}         [ ['s','t','r','e','a','m'] ]
                               `plural`     HaFCAL,
+
+    al >| FaCCUL |< aT        `noun`    {- <al-fallU^gaT> -}   [ ['F','a','l','l','u','j','a','h'] ],
 
     FiCLAn                    `noun`    {- <fil^gAn> -}        [ unwords [ ['c','o','f','f','e','e'], ['c','u','p'] ] ]
                               `plural`     FaCALIn,

@@ -1312,7 +1312,7 @@ cluster_86  = cluster
 
  |> ['k','I','l','U'] <| [
 
-    _____                     `noun`    {- <kIlU> -}           [ ['k','i','l','o'], ['k','i','l','o','g','r','a','m'] ] ]
+    _____                     `xtra`    {- <kIlU> -}           [ ['k','i','l','o'], ['k','i','l','o','g','r','a','m'] ] ]
 
 
 cluster_87  = cluster

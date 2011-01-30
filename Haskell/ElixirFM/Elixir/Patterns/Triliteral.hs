@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Patterns.Triliteral
--- Copyright   :  Otakar Smrz 2005-2010
+-- Copyright   :  Otakar Smrz 2005-2011
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -214,7 +214,7 @@ instance Rules PatternT where
 
     -- Fischer (2002), par. 153, 93 ff, 99, etc.
 
-    isDiptote = flip elem [ HaFCaL, HACaL, HaFCY, HaFaCL, HACY,
+    isDiptote = flip elem [ HaFCaL, HACaL, HawCaL, HaFCY, HaFaCL, HACY,
                             HuFayCaL, HuFayCY, {-- (?) --}
                             FaCLY, FaCwY,
                             FiCLY, FILY,
@@ -233,7 +233,7 @@ instance Rules PatternT where
                             FawACIL, FawA'IL,
                             FayACiL,
                             FayACIL,
-                            HaFACiL,
+                            HaFACiL, HamAFiL,
                             HaFACIL, HaFACIy,
                             TaFACiL,
                             TaFACIL, TawACIL,
@@ -920,7 +920,7 @@ data PatternT =
         |   FaCLA'
 
         |   FuCaLA'
-        |   MuFaLA'
+                                        |   MuFaLA'
 
         |   FACiLA'                                     |   FACiyA'
         |   FACULA'
@@ -976,7 +976,7 @@ data PatternT =
 
         |   FawACiL                     |   FawA'iL     |   FawACI      |   FawACL      |   FawA'I
         |   FayACiL                                     |   FayACI
-        |   FawALi'
+                                        |   FawALi'
 
         |   FACUL                       |   FA'UL
         |   FayCUL
@@ -1015,9 +1015,11 @@ data PatternT =
 
         |   HaFCiL      |   HACiL       |   HaFIL       |   HaFCI       |   HaFiCL      |   HACI
         |   HaFCuL      |   HACuL       |   HaFUL       |   HaFCU       |   HaFuCL      |   HACU
+                                        |   HamFiL
 
         |   HaFACiL                                     |   HaFACI                      |   HawACI
         |   HaFACIL                                     |   HaFACIy
+                                        |   HamAFiL
 
         |   HaFCiLA'    |   HACiLA'     |   HaFILA'     |   HaFCiyA'    |   HaFiCLA'
 
@@ -1087,6 +1089,8 @@ data PatternT =
 
         |   FaCULY
         |   FaCCULY
+
+                        |   HawCaL
 
         |   FaCLY       |   TaCLY       |   FayLY       |   FaCwY
         |   FiCLY                       |   FILY

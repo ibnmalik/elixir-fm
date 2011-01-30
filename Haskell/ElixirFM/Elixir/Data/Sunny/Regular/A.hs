@@ -645,7 +645,7 @@ cluster_39  = cluster
 
     FuCL |< Iy                `noun`    {- <turkIy> -}         [ ['T','u','r','k','i','s','h'] ],
 
-    FuCL |< iyA               `noun`    {- <turkiyA> -}        [ ['T','u','r','k','e','y'] ],
+    FuCL |< iyA               `xtra`    {- <turkiyA> -}        [ ['T','u','r','k','e','y'] ],
 
     TaFCIL                    `noun`    {- <tatrIk> -}         [ ['T','u','r','k','i','f','i','c','a','t','i','o','n'] ]
                               `plural`     TaFCIL |< At ]

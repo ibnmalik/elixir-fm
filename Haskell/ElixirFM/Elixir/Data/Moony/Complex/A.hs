@@ -766,7 +766,8 @@ cluster_56  = cluster
     FaCL                      `verb`    {- <'a^g^g> -}         [ ['b','u','r','n'], ['b','l','a','z','e'] ]
                               `imperf`     FuCL
                               `imperf`     FiCL
-                              `pfirst`     FaCaL,
+                              `pfirst`     FaCaL
+                              `masdar`     FaCIL,
 
     FaCCaL                    `verb`    {- <'a^g^ga^g> -}      [ ['k','i','n','d','l','e'], ['l','i','g','h','t'] ],
 

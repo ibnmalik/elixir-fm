@@ -902,7 +902,8 @@ cluster_67  = cluster
  |> "d l `" <| [
 
     FaCaL                     `verb`    {- <dala`> -}          [ ['l','o','l','l'] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FaCL,
 
     FaCCaL                    `verb`    {- <dalla`> -}         [ ['p','a','m','p','e','r'], ['s','p','o','i','l'] ],
 
@@ -1091,7 +1092,8 @@ cluster_81  = cluster
  |> "d m r" <| [
 
     FaCaL                     `verb`    {- <damar> -}          [ ['p','e','r','i','s','h'], unwords [ ['b','e'], ['d','e','s','t','r','o','y','e','d'] ] ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `masdar`     FaCAL,
 
     FaCCaL                    `verb`    {- <dammar> -}         [ ['d','e','s','t','r','o','y'], ['w','r','e','c','k'] ],
 

@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Inflect
--- Copyright   :  Otakar Smrz 2005-2010
+-- Copyright   :  Otakar Smrz 2005-2011
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -325,9 +325,9 @@ instance Inflect Lexeme TagsNoun where
 
 instance Inflect Lexeme TagsAdj where
 
-    inflect (Lexeme r e) (TagsAdjA _ _ g n c s) = [ (y, z) |
+    inflect (Lexeme r e) (TagsAdjA _ _ g n c s) = [ (y, lists z q) |
 
-            let d = domain e,
+            let (d, l) = limits e,
 
             TagsAdj y <- [d],
 
@@ -347,6 +347,12 @@ instance Inflect Lexeme TagsAdj where
             s <- s', c <- c',
 
             let y = ParaAdj (AdjA g n c s),
+
+            let q = [ (r, q) | (d', r') <- l, TagsAdj y <- d',
+
+                       q <- if null (restrict (TagsAdjA [] [] [g] [n] [c] [s]) y)
+
+                            then [] else r' ],
 
             let z = map (inRules r c s Nothing) i ]
 

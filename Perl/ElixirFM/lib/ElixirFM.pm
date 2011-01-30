@@ -100,12 +100,16 @@ sub concat {
 
 sub orth {
 
-    return $_[0] eq '"' ? $_[0] : decode "arabtex", $_[0];
+    my $text = decode "arabtex", $_[0];
+
+    return $_[0] eq '"' || $text eq '' ? $_[0] : $text;
 }
 
 sub phon {
 
-    return $_[0] eq '"' ? $_[0] : decode "arabtex-zdmg", $_[0];
+    my $text = decode "arabtex-zdmg", $_[0];
+
+    return $_[0] eq '"' || $text eq '' ? $_[0] : $text;
 }
 
 sub orph {
@@ -738,21 +742,16 @@ sub lists_trees {
 
                 map {
 
-                    my ($i) = /^(?:[\t ]*\n    )*([\t ]*)(?![\t\n ])/;
+                    my ($i, $q) = /^(?:[\t ]*\n    )*([\t ]*)([^\t\n ](?:.*[^\t\n ])?)[\t\n ]*$/s;
 
-                    $i .= '    ';
-
-                    s/^[\t\n ]+//;
-                    s/[\t\n ]+$//;
-
-                    my ($node, @data) = split /(?<![\t\n ])(?:[\t ]*\n)+$i(?![\t\n ])/, $_;
+                    my ($node, @data) = split /(?<![\t\n ])(?:[\t ]*\n)+$i    (?![\t\n ])/, $q;
 
                     [
                         [ join ' ', split ' ', $node ],
 
                         map {
 
-                            [ split /[\n ]*\t/, $_ ],
+                            [ split /[\n ]*\t/, $_ ]
 
                         } @data
                     ]
@@ -765,21 +764,16 @@ sub lists_trees {
 
                 map {
 
-                    my ($i) = /^(?:[\t ]*\n    )*([\t ]*)(?![\t\n ])/;
+                    my ($i, $q) = /^(?:[\t ]*\n    )*([\t ]*)([^\t\n ](?:.*[^\t\n ])?)[\t\n ]*$/s;
 
-                    $i .= '    ';
-
-                    s/^[\t\n ]+//;
-                    s/[\t\n ]+$//;
-
-                    my ($node, @data) = split /(?<![\t\n ])(?:[\t ]*\n)+$i(?![\t\n ])/, $_;
+                    my ($node, @data) = split /(?<![\t\n ])(?:[\t ]*\n)+$i    (?![\t\n ])/, $q;
 
                     [
                         [ split /[\n ]*\t/, $node ],
 
                         map {
 
-                            [ split /[\n ]*\t/, $_ ],
+                            [ split /[\n ]*\t/, $_ ]
 
                         } @data
                     ]
@@ -1224,9 +1218,9 @@ our @moony = ( "'", "b", "^g", ".h", "_h", "`", ".g",
                "B", "p", "v", "g", "^c", "^z",
                "c", ",c", "^n", "^l", ".r" );
 
-our %sunny = map { $_, '' } @sunny;
+our %sunny = map { $_ => '' } @sunny;
 
-our %moony = map { $_, '' } @moony;
+our %moony = map { $_ => '' } @moony;
 
 sub letters {
 
@@ -1476,7 +1470,7 @@ Otakar Smrz C<< <otakar smrz mff cuni cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright (C) 2005-2010 Otakar Smrz
+Copyright (C) 2005-2011 Otakar Smrz
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the GNU General Public License version 3.

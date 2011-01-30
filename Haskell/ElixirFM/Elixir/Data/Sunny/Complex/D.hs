@@ -719,6 +719,14 @@ cluster_34  = cluster
 
 cluster_35  = cluster
 
+ |> ['s','U','f','y','I','t'] <| [
+
+    _____                     `xtra`    {- <sUfyIt> -}         [ ['S','o','v','i','e','t'] ],
+
+    al >| _____               `xtra`    {- <as-sUfyIt> -}      [ ['S','o','v','i','e','t'] ],
+
+    _____ |< Iy               `adj`     {- <sUfyItIy> -}       [ ['S','o','v','i','e','t'] ] ]
+
  |> ['s','U','f','y','i','t'] <| [
 
     _____                     `xtra`    {- <sUfyit> -}         [ ['S','o','v','i','e','t'] ],
@@ -1477,7 +1485,12 @@ cluster_67  = cluster
 
     _____ |<< "A"             `xtra`    {- <suwIsrA> -}        [ ['S','w','i','t','z','e','r','l','a','n','d'] ],
 
-    _____ |< Iy               `adj`     {- <suwIsrIy> -}       [ ['S','w','i','s','s'] ] ]
+    _____ |< Iy               `adj`     {- <suwIsrIy> -}       [ ['S','w','i','s','s'] ],
+
+    _____ |< Iy               `noun`    {- <suwIsrIy> -}       [ ['S','w','i','s','s'] ]
+                              `plural`     _____ |< Iy |< Un
+                           
+    `derives` otherwise ]
 
 
 cluster_68  = cluster

@@ -1264,7 +1264,9 @@ cluster_49  = cluster
  |> ['r','i','y','A','l'] <| [
 
     _____                     `noun`    {- <riyAl> -}          [ ['r','i','y','a','l'] ]
-                              `plural`     _____ |< At ]
+                              `plural`     _____ |< At
+                           
+    `excepts` Triptote ]
 
 
 cluster_50  = cluster

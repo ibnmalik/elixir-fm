@@ -637,6 +637,7 @@ cluster_32  = cluster
     TaFaCCaL                  `verb`    {- <tasalla.t> -}      [ ['c','o','m','m','a','n','d'], ['o','v','e','r','p','o','w','e','r'], ['p','r','e','v','a','i','l'] ],
 
     FuCL |< aT                `noun`    {- <sul.taT> -}        [ ['p','o','w','e','r'], ['a','u','t','h','o','r','i','t','y'], ['r','u','l','e'] ]
+                              `plural`     FuCaL
                               `plural`     FuCuL |< At,
 
     FaCIL                     `adj`     {- <salI.t> -}         [ ['s','t','r','o','n','g'], ['s','h','a','r','p'] ],

@@ -708,6 +708,9 @@ cluster_43  = cluster
                            
     `derives` otherwise,
 
+    MuFaCCaL                  `noun`    {- <mu^gamma`> -}      [ ['c','o','m','p','o','u','n','d'], ['c','o','m','p','l','e','x'] ]
+                              `plural`     MuFaCCaL |< At,
+
     MuFaCCaL                  `adj`     {- <mu^gamma`> -}      [ ['c','o','m','b','i','n','e','d'], ['c','o','l','l','e','c','t','i','v','e'] ],
 
     MuFCaL                    `adj`     {- <mu^gma`> -}        [ ['u','n','a','n','i','m','o','u','s'], unwords [ ['i','n'], ['a','g','r','e','e','m','e','n','t'] ] ],

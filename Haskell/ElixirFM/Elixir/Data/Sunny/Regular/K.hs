@@ -1944,7 +1944,11 @@ cluster_97  = cluster
     TaFCIL                    `noun`    {- <ta^smI`> -}        [ ['w','a','x','i','n','g'], unwords [ ['s','m','e','a','r','i','n','g'], ['w','i','t','h'], ['w','a','x'] ], unwords [ ['m','a','k','i','n','g'], ['i','m','p','e','r','m','e','a','b','l','e'] ] ]
                               `plural`     TaFCIL |< At,
 
-    FaCL                      `noun`    {- <^sam`> -}          [ ['w','a','x'], ['c','a','n','d','l','e'] ],
+    FaCL                      `noun`    {- <^sam`> -}          [ ['w','a','x'], ['c','a','n','d','l','e'] ]
+                              `plural`     FuCUL,
+
+    FaCL |<< "a" |<< "dAn"    `noun`    {- <^sam`adAn> -}      [ ['c','a','n','d','e','l','a','b','r','u','m'], ['c','a','n','d','l','e','h','o','l','d','e','r'] ]
+                              `plural`     FaCL |<< "a" |<< "dAn" |< At,
 
     FaCL |< aT                `noun`    {- <^sam`aT> -}        [ ['c','a','n','d','l','e'] ]
                               `plural`     FaCaL |< At,
@@ -1963,14 +1967,6 @@ cluster_97  = cluster
 
 
 cluster_98  = cluster
-
- |> "^s m `" <| [
-
-    FaCL |<< "a" |<< "dAn"    `noun`    {- <^sam`adAn> -}      [ ['c','a','n','d','e','l','a','b','r','u','m'], ['c','a','n','d','l','e','h','o','l','d','e','r'] ]
-                              `plural`     FaCL |<< "a" |<< "dAn" |< At ]
-
-
-cluster_99  = cluster
 
  |> "^s m l" <| [
 
@@ -2021,11 +2017,18 @@ cluster_99  = cluster
                               `plural`     MuFtaCaL |< At ]
 
 
-cluster_100 = cluster
+cluster_99  = cluster
 
  |> ['^','s','a','m','A','n'] <| [
 
     _____ |< Iy |< aT         `noun`    {- <^samAnIyaT> -}     [ ['s','h','a','m','a','n','i','s','m'] ] ]
+
+
+cluster_100 = cluster
+
+ |> ['^','s','a','m','a','n','d','a','r'] <| [
+
+    _____                     `noun`    {- <^samandar> -}      [ ['b','e','e','t'], ['c','h','a','r','d'] ] ]
 
 
 section = [ cluster_1,

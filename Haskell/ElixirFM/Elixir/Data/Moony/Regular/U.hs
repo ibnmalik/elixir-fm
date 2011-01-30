@@ -693,12 +693,17 @@ cluster_44  = cluster
     FiCL                      `noun`    {- <mi.sr> -}          [ ['m','e','t','r','o','p','o','l','i','s'] ]
                               `plural`     HaFCAL,
 
-    FiCL |< Iy                `adj`     {- <mi.srIy> -}        [ ['E','g','y','p','t','i','a','n'], ['E','g','y','p','t','o','l','o','g','y'] ],
+    FiCL |< Iy                `adj`     {- <mi.srIy> -}        [ ['E','g','y','p','t','i','a','n'] ],
 
     FiCL |< Iy                `noun`    {- <mi.srIy> -}        [ ['E','g','y','p','t','i','a','n'] ]
                               `plural`     FiCL |< Iy |< Un
                            
     `derives` otherwise,
+
+    FiCL |< Iy |< At          `noun`    {- <mi.srIyAt> -}      [ ['E','g','y','p','t','o','l','o','g','y'] ]
+                              `plural`     FiCL |< Iy |< At
+                           
+    `limited` "-------P--",
 
     FaCL |< Iy                `noun`    {- <ma.srIy> -}        [ ['M','a','s','r','y'] ],
 

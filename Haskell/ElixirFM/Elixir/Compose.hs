@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Compose
--- Copyright   :  Otakar Smrz 2005-2010
+-- Copyright   :  Otakar Smrz 2005-2011
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -112,6 +112,12 @@ euphony x y | isPrefixOf "hu" y = all (last x /=) "Iiy"
 euphony x y | isPrefixOf "hi" y = any (last x ==) "Iiy"
 
 euphony _ _ = True
+
+
+--
+--  reconsider      'annI   'innI   li-'annI    and fix overgeneration in   'annanI 'innanI
+--  likewise for    'annA   'innA   li-'annA    etc.
+--
 
 
 numeric :: [String]

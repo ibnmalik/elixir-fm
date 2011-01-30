@@ -2184,7 +2184,8 @@ cluster_80  = cluster
  |> ".h .t m" <| [
 
     FaCaL                     `verb`    {- <.ha.tam> -}        [ ['s','m','a','s','h'], ['d','e','m','o','l','i','s','h'] ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `masdar`     FaCL,
 
     FaCCaL                    `verb`    {- <.ha.t.tam> -}      [ ['s','m','a','s','h'], ['d','e','m','o','l','i','s','h'] ],
 

@@ -765,7 +765,9 @@ cluster_28  = cluster
     FaCL |< aT                `noun`    {- <dawlaT> -}         [ ['s','t','a','t','e'], ['c','o','u','n','t','r','y'] ]
                               `plural`     FuCaL,
 
-    FaCL |< Iy                `adj`     {- <dawlIy> -}         [ ['i','n','t','e','r','n','a','t','i','o','n','a','l'], ['s','t','a','t','e'], ['w','o','r','l','d'] ],
+    FaCL |< Iy                `adj`     {- <dawlIy> -}         [ ['i','n','t','e','r','n','a','t','i','o','n','a','l'], ['s','t','a','t','e'] ],
+
+    FuCaL |< Iy               `adj`     {- <duwalIy> -}        [ ['i','n','t','e','r','n','a','t','i','o','n','a','l'], ['w','o','r','l','d'] ],
 
     FuCayL |< aT              `noun`    {- <duwaylaT> -}       [ unwords [ ['p','e','t','t','y'], ['s','t','a','t','e'] ] ]
                               `plural`     FuCayL |< At,

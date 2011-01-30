@@ -884,7 +884,7 @@ cluster_67  = cluster
     FaCL |< aT                `noun`    {- <_tanyaT> -}        [ ['c','u','f','f'] ]
                               `plural`     FaCaL |< At,
 
-    FaCIL |< aT               `noun`    {- <_tanIyaT> -}       [ ['i','n','c','i','s','o','r'], ['p','a','t','h'], ['i','n','s','i','d','e'] ]
+    FaCIL |< aT               `noun`    {- <_tanIyaT> -}       [ ['i','n','c','i','s','o','r'], ['p','a','t','h'], ['i','n','s','i','d','e'], ['w','i','t','h','i','n'] ]
                               `plural`     FaCALY,
 
     FaCA'                     `noun`    {- <_tanA'> -}         [ ['a','p','p','r','e','c','i','a','t','i','o','n'], ['p','r','a','i','s','e'] ],
