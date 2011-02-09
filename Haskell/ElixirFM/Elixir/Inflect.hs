@@ -719,28 +719,40 @@ instance Inflect Lexeme TagsAdv where
 
 instance Inflect Lexeme TagsConj where
 
-    inflect (Lexeme r e) TagsConjC = [ (ParaConj ConjC, [(r, morphs e)]) |
+    inflect (Lexeme r e) TagsConjC = [ (ParaConj ConjC, lists [(r, morphs e)] q) |
 
-                                        let d = domain e,
+                                        let (d, l) = limits e,
 
                                         TagsConj y <- [d],
 
                                         let d' = TagsConjC,
 
-                                        TagsConjC <- if null y then [d'] else restrict d' y ]
+                                        TagsConjC <- if null y then [d'] else restrict d' y,
+
+                                        let q = [ (r, q) | (d', r') <- l, TagsConj y <- d',
+
+                                                   q <- if null (restrict TagsConjC y)
+
+                                                        then [] else r' ] ]
 
 
 instance Inflect Lexeme TagsPart where
 
-    inflect (Lexeme r e) TagsPartF = [ (ParaPart PartF, [(r, morphs e)]) |
+    inflect (Lexeme r e) TagsPartF = [ (ParaPart PartF, lists [(r, morphs e)] q) |
 
-                                        let d = domain e,
+                                        let (d, l) = limits e,
 
                                         TagsPart y <- [d],
 
                                         let d' = TagsPartF,
 
-                                        TagsPartF <- if null y then [d'] else restrict d' y ]
+                                        TagsPartF <- if null y then [d'] else restrict d' y,
+
+                                        let q = [ (r, q) | (d', r') <- l, TagsPart y <- d',
+
+                                                   q <- if null (restrict TagsPartF y)
+
+                                                        then [] else r' ] ]
 
 
 instance Inflect Lexeme TagsIntj where

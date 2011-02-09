@@ -234,7 +234,7 @@ cluster_21  = cluster
 
  |> "t l l" <| [
 
-    FaCL                      `noun`    {- <tall> -}           [ ['T','e','l'] ],
+    FaCL                      `xtra`    {- <tall> -}           [ ['T','e','l'] ],
 
     FaCL                      `noun`    {- <tall> -}           [ ['h','i','l','l'], ['e','l','e','v','a','t','i','o','n'], ['m','o','u','n','t','a','i','n','s'] ]
                               `plural`     FuCUL
@@ -958,7 +958,10 @@ cluster_69  = cluster
  |> "_t w r" <| [
 
     FAL                       `verb`    {- <_tAr> -}           [ ['r','e','v','o','l','t'], ['a','r','i','s','e'] ]
-                              `imperf`     FUL,
+                              `imperf`     FUL
+                              `masdar`     FaCL
+                              `masdar`     FaCL |< aT
+                              `masdar`     FaCaLAn,
 
     FaCCaL                    `verb`    {- <_tawwar> -}        [ unwords [ ['s','t','i','r'], ['u','p'] ], ['r','e','v','o','l','u','t','i','o','n','i','z','e'] ],
 

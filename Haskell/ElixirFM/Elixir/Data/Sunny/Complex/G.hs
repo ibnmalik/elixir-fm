@@ -1283,7 +1283,7 @@ cluster_51  = cluster
 
     MutaFaCCI                 `adj`     {- <mutalaqqI> -}      [ ['r','e','c','e','i','v','i','n','g'] ],
 
-    MuFtaCY                   `noun`    {- <multaqY> -}        [ unwords [ ['m','e','e','t','i','n','g'], ['p','l','a','c','e'] ], ['j','u','n','c','t','u','r','e'] ]
+    MuFtaCY                   `noun`    {- <multaqY> -}        [ ['c','o','n','f','e','r','e','n','c','e'], ['m','e','e','t','i','n','g'] ]
                               `plural`     MuFtaCY |< At ]
 
 

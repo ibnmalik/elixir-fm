@@ -1222,13 +1222,13 @@ cluster_77  = cluster
 
     FaCaL |< Iy               `adj`     {- <mara.dIy> -}       [ ['d','i','s','e','a','s','e','d'], ['s','i','c','k'], ['p','a','t','h','o','l','o','g','i','c','a','l'] ],
 
-    FaCIL                     `noun`    {- <marI.d> -}         [ ['p','a','t','i','e','n','t'], unwords [ ['s','i','c','k'], ['p','e','r','s','o','n'] ], unwords [ ['s','i','c','k'], ['p','e','o','p','l','e'] ] ]
+    FaCIL                     `noun`    {- <marI.d> -}         [ ['p','a','t','i','e','n','t'], unwords [ ['s','i','c','k'], ['p','e','r','s','o','n'] ] ]
                               `plural`     FaCLY
                               `plural`     FaCALY
                            
     `derives` otherwise,
 
-    FaCIL                     `adj`     {- <marI.d> -}         [ ['p','a','t','i','e','n','t'], unwords [ ['s','i','c','k'], ['p','e','r','s','o','n'] ], unwords [ ['s','i','c','k'], ['p','e','o','p','l','e'] ] ]
+    FaCIL                     `adj`     {- <marI.d> -}         [ ['s','i','c','k'], ['i','l','l'] ]
                               `plural`     FaCLY
                               `plural`     FaCALY,
 

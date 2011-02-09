@@ -779,8 +779,16 @@ instance Resolve [UPoint] where
                     'u' : 'h' : y           ->  [ y' ++ ["hu"]  | y' <- tokens (reverse y) ]
                     'i' : 'h' : y           ->  [ y' ++ ["hi"]  | y' <- tokens (reverse y) ]
                     'A' : 'a' : 'h' : y     ->  [ y' ++ ["haA"] | y' <- tokens (reverse y) ]
-                    'A' : 'h' : y           ->  [ y' ++ ["hA"]  | y' <- tokens (reverse y) ]
-                    'h' : y                 ->  [ y' ++ ["h"]   | y' <- tokens (reverse y) ]
+                    'A' : 'h' : y           ->  [ y' ++ ["hA"]  | y' <- tokens (reverse y) ++
+                                                                        tokens (reverse y ++ "h-") ]
+                    'h' : y                 ->  [ y' ++ ["h"]   | y' <- tokens (reverse y) ++
+                                                                        tokens (reverse y ++ "h-") ]
+
+                    'u' : '~' : 'h' : y         ->  [ y' ++ ["hu"]  | y' <- tokens (reverse y ++ "h-") ]
+                    'i' : '~' : 'h' : y         ->  [ y' ++ ["hi"]  | y' <- tokens (reverse y ++ "h-") ]
+                    'A' : 'a' : '~' : 'h' : y   ->  [ y' ++ ["haA"] | y' <- tokens (reverse y ++ "h-") ]
+                    'A' : '~' : 'h' : y         ->  [ y' ++ ["hA"]  | y' <- tokens (reverse y ++ "h-") ]
+                    '~' : 'h' : y               ->  [ y' ++ ["h"]   | y' <- tokens (reverse y ++ "h-") ]
 
                     'o' : 'm' : 'u' : 'h' : y           ->  [ y' ++ ["humo"]  | y' <- tokens (reverse y) ]
                     'o' : 'm' : 'i' : 'h' : y           ->  [ y' ++ ["himo"]  | y' <- tokens (reverse y) ]
@@ -790,6 +798,15 @@ instance Resolve [UPoint] where
                     'A' : 'm' : 'u' : 'h' : y           ->  [ y' ++ ["humA"]  | y' <- tokens (reverse y) ]
                     'A' : 'a' : 'm' : 'i' : 'h' : y     ->  [ y' ++ ["himaA"] | y' <- tokens (reverse y) ]
                     'A' : 'm' : 'i' : 'h' : y           ->  [ y' ++ ["himA"]  | y' <- tokens (reverse y) ]
+
+                    'o' : 'm' : 'u' : '~' : 'h' : y         ->  [ y' ++ ["humo"]  | y' <- tokens (reverse y ++ "h-") ]
+                    'o' : 'm' : 'i' : '~' : 'h' : y         ->  [ y' ++ ["himo"]  | y' <- tokens (reverse y ++ "h-") ]
+                    'm' : 'u' : '~' : 'h' : y               ->  [ y' ++ ["hum"]   | y' <- tokens (reverse y ++ "h-") ]
+                    'm' : 'i' : '~' : 'h' : y               ->  [ y' ++ ["him"]   | y' <- tokens (reverse y ++ "h-") ]
+                    'A' : 'a' : 'm' : 'u' : '~' : 'h' : y   ->  [ y' ++ ["humaA"] | y' <- tokens (reverse y ++ "h-") ]
+                    'A' : 'm' : 'u' : '~' : 'h' : y         ->  [ y' ++ ["humA"]  | y' <- tokens (reverse y ++ "h-") ]
+                    'A' : 'a' : 'm' : 'i' : '~' : 'h' : y   ->  [ y' ++ ["himaA"] | y' <- tokens (reverse y ++ "h-") ]
+                    'A' : 'm' : 'i' : '~' : 'h' : y         ->  [ y' ++ ["himA"]  | y' <- tokens (reverse y ++ "h-") ]
 
                     'A' : 'a' : 'm' : 'o' : 'h' : y | y' `elem` ["ma", "m"]
 
@@ -805,47 +822,99 @@ instance Resolve [UPoint] where
 
                     'A' : 'a' : 'm' : 'h' : y | y' `elem` ["ma", "m"]
 
-                                                ->  [ [y', "hmaA"] ] ++ [ [y' ++ w, "maA"] | w <- ["h-", "A-"] ]
+                                                ->  [ [y', "hmaA"] ] ++ [ [y' ++ "h-", "hmaA"] ] ++
+                                                    [ [y' ++ w, "maA"] | w <- ["h-", "A-"] ]
 
                                         where y' = reverse y
 
                     'A' : 'm' : 'h' : y | y' `elem` ["ma", "m"]
 
-                                                ->  [ [y', "hmA"] ] ++ [ [y' ++ w, "mA"] | w <- ["h-", "A-"] ]
+                                                ->  [ [y', "hmA"] ] ++ [ [y' ++ "h-", "hmA"] ] ++
+                                                    [ [y' ++ w, "mA"] | w <- ["h-", "A-"] ]
 
                                         where y' = reverse y
 
-                    'A' : 'a' : 'm' : 'h' : y           ->  [ y' ++ ["hmaA"]  | y' <- tokens (reverse y) ]
-                    'A' : 'm' : 'h' : y                 ->  [ y' ++ ["hmA"]   | y' <- tokens (reverse y) ]
-                    'o' : 'm' : 'h' : y                 ->  [ y' ++ ["hmo"]   | y' <- tokens (reverse y) ]
-                    'm' : 'h' : y                       ->  [ y' ++ ["hm"]    | y' <- tokens (reverse y) ]
+                    -- review and fix hyphens in <h-> and <A-> above
+                    -- tokenize <hmA> and <kmA> with respect to <mA>
+
+                    'A' : 'a' : 'm' : 'h' : y           ->  [ y' ++ ["hmaA"]  | y' <- tokens (reverse y) ++
+                                                                                      tokens (reverse y ++ "h-") ]
+                    'A' : 'm' : 'h' : y                 ->  [ y' ++ ["hmA"]   | y' <- tokens (reverse y) ++
+                                                                                      tokens (reverse y ++ "h-") ]
+                    'o' : 'm' : 'h' : y                 ->  [ y' ++ ["hmo"]   | y' <- tokens (reverse y) ++
+                                                                                      tokens (reverse y ++ "h-") ]
+                    'm' : 'h' : y                       ->  [ y' ++ ["hm"]    | y' <- tokens (reverse y) ++
+                                                                                      tokens (reverse y ++ "h-") ]
+
+                    'A' : 'a' : 'm' : '~' : 'h' : y     ->  [ y' ++ ["hmaA"]  | y' <- tokens (reverse y ++ "h-") ]
+                    'A' : 'm' : '~' : 'h' : y           ->  [ y' ++ ["hmA"]   | y' <- tokens (reverse y ++ "h-") ]
+                    'o' : 'm' : '~' : 'h' : y           ->  [ y' ++ ["hmo"]   | y' <- tokens (reverse y ++ "h-") ]
+                    'm' : '~' : 'h' : y                 ->  [ y' ++ ["hm"]    | y' <- tokens (reverse y ++ "h-") ]
 
                     'a' : '~' : 'n' : 'u' : 'h' : y     ->  [ y' ++ ["hun~a"] | y' <- tokens (reverse y) ]
                     'a' : '~' : 'n' : 'i' : 'h' : y     ->  [ y' ++ ["hin~a"] | y' <- tokens (reverse y) ]
-                    'a' : '~' : 'n' : 'h' : y           ->  [ y' ++ ["hn~a"]  | y' <- tokens (reverse y) ]
+                    'a' : '~' : 'n' : 'h' : y           ->  [ y' ++ ["hn~a"]  | y' <- tokens (reverse y) ++
+                                                                                      tokens (reverse y ++ "h-") ]
                     '~' : 'n' : 'u' : 'h' : y           ->  [ y' ++ ["hun~"]  | y' <- tokens (reverse y) ]
                     '~' : 'n' : 'i' : 'h' : y           ->  [ y' ++ ["hin~"]  | y' <- tokens (reverse y) ]
-                    '~' : 'n' : 'h' : y                 ->  [ y' ++ ["hn~"]   | y' <- tokens (reverse y) ]
-                    'n' : 'h' : y                       ->  [ y' ++ ["hn"]    | y' <- tokens (reverse y) ]
+                    '~' : 'n' : 'h' : y                 ->  [ y' ++ ["hn~"]   | y' <- tokens (reverse y) ++
+                                                                                      tokens (reverse y ++ "h-") ]
+                    'n' : 'h' : y                       ->  [ y' ++ ["hn"]    | y' <- tokens (reverse y) ++
+                                                                                      tokens (reverse y ++ "h-") ]
+
+                    'a' : '~' : 'n' : 'u' : '~' : 'h' : y   ->  [ y' ++ ["hun~a"] | y' <- tokens (reverse y ++ "h-") ]
+                    'a' : '~' : 'n' : 'i' : '~' : 'h' : y   ->  [ y' ++ ["hin~a"] | y' <- tokens (reverse y ++ "h-") ]
+                    'a' : '~' : 'n' : '~' : 'h' : y         ->  [ y' ++ ["hn~a"]  | y' <- tokens (reverse y ++ "h-") ]
+                    '~' : 'n' : 'u' : '~' : 'h' : y         ->  [ y' ++ ["hun~"]  | y' <- tokens (reverse y ++ "h-") ]
+                    '~' : 'n' : 'i' : '~' : 'h' : y         ->  [ y' ++ ["hin~"]  | y' <- tokens (reverse y ++ "h-") ]
+                    '~' : 'n' : '~' : 'h' : y               ->  [ y' ++ ["hn~"]   | y' <- tokens (reverse y ++ "h-") ]
+                    'n' : '~' : 'h' : y                     ->  [ y' ++ ["hn"]    | y' <- tokens (reverse y ++ "h-") ]
 
                     'a' : 'k' : y           ->  [ y' ++ ["ka"] | y' <- tokens (reverse y) ]
                     'i' : 'k' : y           ->  [ y' ++ ["ki"] | y' <- tokens (reverse y) ]
-                    'k' : y                 ->  [ y' ++ ["k"]  | y' <- tokens (reverse y) ]
+                    'k' : y                 ->  [ y' ++ ["k"]  | y' <- tokens (reverse y) ++
+                                                                       tokens (reverse y ++ "k-") ]
+
+                    'a' : '~' : 'k' : y     ->  [ y' ++ ["ka"] | y' <- tokens (reverse y ++ "k-") ]
+                    'i' : '~' : 'k' : y     ->  [ y' ++ ["ki"] | y' <- tokens (reverse y ++ "k-") ]
+                    '~' : 'k' : y           ->  [ y' ++ ["k"]  | y' <- tokens (reverse y ++ "k-") ]
 
                     'o' : 'm' : 'u' : 'k' : y           ->  [ y' ++ ["kumo"]  | y' <- tokens (reverse y) ]
                     'm' : 'u' : 'k' : y                 ->  [ y' ++ ["kum"]   | y' <- tokens (reverse y) ]
                     'A' : 'a' : 'm' : 'u' : 'k' : y     ->  [ y' ++ ["kumaA"] | y' <- tokens (reverse y) ]
                     'A' : 'm' : 'u' : 'k' : y           ->  [ y' ++ ["kumA"]  | y' <- tokens (reverse y) ]
-                    'A' : 'a' : 'm' : 'k' : y           ->  [ y' ++ ["kmaA"]  | y' <- tokens (reverse y) ]
-                    'A' : 'm' : 'k' : y                 ->  [ y' ++ ["kmA"]   | y' <- tokens (reverse y) ]
-                    'o' : 'm' : 'k' : y                 ->  [ y' ++ ["kmo"]   | y' <- tokens (reverse y) ]
-                    'm' : 'k' : y                       ->  [ y' ++ ["km"]    | y' <- tokens (reverse y) ]
+                    'A' : 'a' : 'm' : 'k' : y           ->  [ y' ++ ["kmaA"]  | y' <- tokens (reverse y) ++
+                                                                                      tokens (reverse y ++ "k-") ]
+                    'A' : 'm' : 'k' : y                 ->  [ y' ++ ["kmA"]   | y' <- tokens (reverse y) ++
+                                                                                      tokens (reverse y ++ "k-") ]
+                    'o' : 'm' : 'k' : y                 ->  [ y' ++ ["kmo"]   | y' <- tokens (reverse y) ++
+                                                                                      tokens (reverse y ++ "k-") ]
+                    'm' : 'k' : y                       ->  [ y' ++ ["km"]    | y' <- tokens (reverse y) ++
+                                                                                      tokens (reverse y ++ "k-") ]
+
+                    'o' : 'm' : 'u' : '~' : 'k' : y         ->  [ y' ++ ["kumo"]  | y' <- tokens (reverse y ++ "k-") ]
+                    'm' : 'u' : '~' : 'k' : y               ->  [ y' ++ ["kum"]   | y' <- tokens (reverse y ++ "k-") ]
+                    'A' : 'a' : 'm' : 'u' : '~' : 'k' : y   ->  [ y' ++ ["kumaA"] | y' <- tokens (reverse y ++ "k-") ]
+                    'A' : 'm' : 'u' : '~' : 'k' : y         ->  [ y' ++ ["kumA"]  | y' <- tokens (reverse y ++ "k-") ]
+                    'A' : 'a' : 'm' : '~' : 'k' : y         ->  [ y' ++ ["kmaA"]  | y' <- tokens (reverse y ++ "k-") ]
+                    'A' : 'm' : '~' : 'k' : y               ->  [ y' ++ ["kmA"]   | y' <- tokens (reverse y ++ "k-") ]
+                    'o' : 'm' : '~' : 'k' : y               ->  [ y' ++ ["kmo"]   | y' <- tokens (reverse y ++ "k-") ]
+                    'm' : '~' : 'k' : y                     ->  [ y' ++ ["km"]    | y' <- tokens (reverse y ++ "k-") ]
 
                     'a' : '~' : 'n' : 'u' : 'k' : y     ->  [ y' ++ ["kun~a"] | y' <- tokens (reverse y) ]
-                    'a' : '~' : 'n' : 'k' : y           ->  [ y' ++ ["kn~a"]  | y' <- tokens (reverse y) ]
+                    'a' : '~' : 'n' : 'k' : y           ->  [ y' ++ ["kn~a"]  | y' <- tokens (reverse y) ++
+                                                                                      tokens (reverse y ++ "k-") ]
                     '~' : 'n' : 'u' : 'k' : y           ->  [ y' ++ ["kun~"]  | y' <- tokens (reverse y) ]
-                    '~' : 'n' : 'k' : y                 ->  [ y' ++ ["kn~"]   | y' <- tokens (reverse y) ]
-                    'n' : 'k' : y                       ->  [ y' ++ ["kn"]    | y' <- tokens (reverse y) ]
+                    '~' : 'n' : 'k' : y                 ->  [ y' ++ ["kn~"]   | y' <- tokens (reverse y) ++
+                                                                                      tokens (reverse y ++ "k-") ]
+                    'n' : 'k' : y                       ->  [ y' ++ ["kn"]    | y' <- tokens (reverse y) ++
+                                                                                      tokens (reverse y ++ "k-") ]
+
+                    'a' : '~' : 'n' : 'u' : '~' : 'k' : y   ->  [ y' ++ ["kun~a"] | y' <- tokens (reverse y ++ "k-") ]
+                    'a' : '~' : 'n' : '~' : 'k' : y         ->  [ y' ++ ["kn~a"]  | y' <- tokens (reverse y ++ "k-") ]
+                    '~' : 'n' : 'u' : '~' : 'k' : y         ->  [ y' ++ ["kun~"]  | y' <- tokens (reverse y ++ "k-") ]
+                    '~' : 'n' : '~' : 'k' : y               ->  [ y' ++ ["kn~"]   | y' <- tokens (reverse y ++ "k-") ]
+                    'n' : '~' : 'k' : y                     ->  [ y' ++ ["kn"]    | y' <- tokens (reverse y ++ "k-") ]
 
                     'a' : '~' : 'y' : 'i' : y   ->  [ y' ++ ["ya"]  | y' <- tokens (reverse y ++ "uw-") ++
                                                                             tokens (reverse y ++ "iy-") ]

@@ -113,7 +113,7 @@ main = do   argv <- getArgs
                 PrintVersion    ->  tell (unlines [copyleft,
                                           unwords ["ElixirFM",
                                                    showVersion Main.version,
-                                                   "January 2011"]])
+                                                   "February 2011"]])
 
                 DisplayUsage    ->  tell (usageInfo synopsis options)
 
@@ -145,7 +145,7 @@ elixirResolve o p = interact (unlines . map (encode UTF . decode UCS . show . q 
                             where f' = if f then (alike, alike) else (fuzzy, fuzzy)
                                   t' = if t then tokenize else (\ x -> [[x]])
 
-                                  y = (nub . filter (any isArabic . encode UCS . decode Tim)) x
+                                  y = (nub . filter (any ('_' /=)) . filter (any isArabic . encode UCS . decode Tim)) x
                                   z = (Map.fromList . zip y . map harmonize . resolveBy (fst f') (omitting (snd f') omits) . map (t' . decode Tim)) y
 
                 _       ->  r [ (e, Map.findWithDefault (defaults e) e z) | e <- w ]
@@ -154,7 +154,7 @@ elixirResolve o p = interact (unlines . map (encode UTF . decode UCS . show . q 
                                   t' = if t then tokenize else (\ x -> [[x]])
 
                                   w = (concat . map (groupBy category)) x
-                                  y = (nub . filter (any isArabic)) w
+                                  y = (nub . filter (any ('\x0640' /=)) . filter (any isArabic)) w
                                   z = (Map.fromList . zip y . map harmonize . resolveBy (fst f') (omitting (snd f') omits) . map (t' . decode UCS)) y
 
           r = if [ () | ListsResolve <- o ]

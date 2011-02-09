@@ -741,7 +741,9 @@ cluster_31  = cluster
 
  |> "` d n" <| [
 
-    FaCaL                     `noun`    {- <`adan> -}          [ ['A','d','e','n'] ],
+    FaCaL                     `noun`    {- <`adan> -}          [ ['A','d','e','n'] ]
+                           
+    `excepts` Diptote,
 
     FaCL                      `noun`    {- <`adn> -}           [ ['E','d','e','n'] ],
 

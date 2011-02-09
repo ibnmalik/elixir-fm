@@ -319,7 +319,8 @@ cluster_23  = cluster
 
     HaFCuL |< Iy              `adj`     {- <'ashumIy> -}       [ ['s','h','a','r','e','s'], ['s','t','o','c','k','s'] ],
 
-    MuFACaL |< aT             `noun`    {- <musAhamaT> -}      [ ['p','a','r','t','i','c','i','p','a','t','i','o','n'], ['c','o','n','t','r','i','b','u','t','i','o','n'] ],
+    MuFACaL |< aT             `noun`    {- <musAhamaT> -}      [ ['p','a','r','t','i','c','i','p','a','t','i','o','n'], ['c','o','n','t','r','i','b','u','t','i','o','n'] ]
+                              `plural`     MuFACaL |< At,
 
     HiFCAL                    `noun`    {- <'ishAm> -}         [ ['p','a','r','t','i','c','i','p','a','t','i','o','n'], ['c','o','n','t','r','i','b','u','t','i','o','n'] ]
                               `plural`     HiFCAL |< At,

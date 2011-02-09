@@ -1013,7 +1013,9 @@ cluster_33  = cluster
     FACiL                     `adj`     {- <`Akif> -}          [ ['a','s','s','i','d','u','o','u','s'], unwords [ ['b','u','s','i','l','y'], ['e','n','g','a','g','e','d'] ] ],
 
     MuFtaCaL                  `noun`    {- <mu`takaf> -}       [ unwords [ ['s','e','c','l','u','d','e','d'], ['p','l','a','c','e'] ], ['r','e','t','r','e','a','t'] ]
-                              `plural`     MuFtaCaL |< At ]
+                              `plural`     MuFtaCaL |< At,
+
+    MuFtaCaL                  `adj`     {- <mu`takaf> -}       [ ['s','e','c','l','u','d','e','d'], ['i','s','o','l','a','t','e','d'] ] ]
 
 
 cluster_34  = cluster

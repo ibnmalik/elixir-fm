@@ -377,6 +377,72 @@ lexicon = listing "Extended lexicon"
         ]
 
 
+    |> "' n" <| [
+
+        "'an"                       `conj`              [ "to" ],
+
+        "'an" |<< "lA"              `conj`              [ unwords [ "not", "to" ] ],
+
+        "li-" >>| "'an"             `conj`              [ unwords [ "in", "order", "to" ] ],
+
+        "li-" >>| "'an" |<< "lA"    `conj`              [ unwords [ "in", "order", "not", "to"  ] ],
+
+        "'an" |<< "na"              `conj`              [ "that" ]
+
+                            <.>     "C---------"        <:>     "'an" |<< "na"
+                                                        <:>     "'an",
+
+        "li-" >>| "'an" |<< "na"    `conj`              [ "because" ]
+
+                            <.>     "C---------"        <:>     "li-" >>| "'an" |<< "na"
+                                                        <:>     "li-" >>| "'an",
+
+        "ka-" >>| "'an" |<< "na"    `conj`              [ unwords [ "as", "if" ] ]
+
+                            <.>     "C---------"        <:>     "ka-" >>| "'an" |<< "na"
+                                                        <:>     "ka-" >>| "'an",
+
+        "ka-" >>| "'an" |<< "na" |<< "mA"   `conj`      [ unwords [ "as", "if" ] ],
+
+        "'in"                       `conj`              [ "if", "whether" ],
+
+        "'in" |<< "lA"              `conj`              [ unwords [ "if", "not" ], unwords [ "whether", "not" ] ],
+
+        "'in" |<< "lA"              `part`              [ "however", "except" ],
+
+        "'in" |<< "na"              `conj`              [ "that" ]
+
+                            <.>     "C---------"        <:>     "'in" |<< "na"
+                                                        <:>     "'in",
+
+        "'in" |<< "na"              `part`              [ "indeed" ]
+
+                            <.>     "F---------"        <:>     "'in" |<< "na"
+                                                        <:>     "'in",
+
+        "'in" |<< "na" |<< "mA"     `conj`              [ unwords [ "but", "rather" ], unwords [ "on", "the", "contrary" ] ]
+
+        ]
+
+
+    |> "l k n" <| [
+
+        "l_akin"                    `conj`              [ "however", "but" ],
+
+        "l_akin" |<< "na"           `conj`              [ "however", "but" ]
+
+                            <.>     "C---------"        <:>     "l_akin" |<< "na"
+                                                        <:>     "l_akin",
+
+        "lAkin"                     `conj`              [ "however", "but" ],
+
+        "lAkin" |<< "na"            `conj`              [ "however", "but" ]
+
+                            <.>     "C---------"        <:>     "lAkin" |<< "na"
+                                                        <:>     "lAkin"
+        ]
+
+
     |> "l" <| [
 
         "li"                <::>    "P---------"

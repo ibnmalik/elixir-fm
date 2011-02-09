@@ -1016,7 +1016,8 @@ cluster_42  = cluster
 
     FaCCiL                    `adj`     {- <dayyin> -}         [ ['r','e','l','i','g','i','o','u','s'] ],
 
-    FiCAL |< aT               `noun`    {- <diyAnaT> -}        [ ['r','e','l','i','g','i','o','n'], ['c','r','e','e','d'] ],
+    FiCAL |< aT               `noun`    {- <diyAnaT> -}        [ ['r','e','l','i','g','i','o','n'], ['c','r','e','e','d'] ]
+                              `plural`     FiCAL |< At,
 
     FaCCAL                    `adj`     {- <dayyAn> -}         [ ['p','i','o','u','s'], ['d','e','v','o','u','t'] ],
 

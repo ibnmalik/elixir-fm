@@ -863,7 +863,8 @@ cluster_60  = cluster
 
     FaCaL                     `verb`    {- <saba.h> -}         [ ['s','w','i','m'] ]
                               `imperf`     FCaL
-                              `masdar`     FaCAL |< aT,
+                              `masdar`     FiCAL |< aT
+                              `masdar`     FaCL,
 
     FaCCaL                    `verb`    {- <sabba.h> -}        [ ['g','l','o','r','i','f','y'], ['p','r','a','i','s','e'] ],
 

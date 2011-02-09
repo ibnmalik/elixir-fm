@@ -114,12 +114,6 @@ euphony x y | isPrefixOf "hi" y = any (last x ==) "Iiy"
 euphony _ _ = True
 
 
---
---  reconsider      'annI   'innI   li-'annI    l_akinnI    and fix overgeneration in   'annanI 'innanI
---  likewise for    'annA   'innA   li-'annA    l_akinnA    etc.
---
-
-
 numeric :: [String]
 
 numeric = [ merge "" z | x <- [".hAdI", "_tAnI", "_tAli_t", "rAbi`", "_hAmis", "sAdis", "sAbi`", "_tAmin", "tAsi`"],
@@ -142,6 +136,16 @@ harmony (ParaAdj  (AdjA  _ _ _ (Nothing :-: True)))     y
     | otherwise                         = [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
 
 harmony (ParaAdj  _)                                    _   = [Nothing]
+
+harmony (ParaPron (PronD _ _ Nominative))    y
+
+    | y `elem` ["kilA", "kiltA"]        = [Nothing, Just ("S------D2-", euphony y)]
+    | otherwise                         = [Nothing]
+
+harmony (ParaPron (PronD _ _ _))    y
+
+    | y `elem` ["kilay", "kiltay"]      = [Nothing, Just ("S------D2-", euphony y)]
+    | otherwise                         = [Nothing]
 
 harmony (ParaPron PronS)    "mA"    = [Nothing, Just ("VP--------", const True),
                                                 Just ("S---------", (== "mA"))]
@@ -195,10 +199,11 @@ harmony (ParaConj _)    "law"       = [Nothing, Just ("F---------", (== "lA"))]
 harmony (ParaConj _)    y
 
     | y `elem` ["'anna", "ka-'anna", "li-'anna"]    = [Nothing, Just ("SP------4-", euphony y)]
-    | y `elem` ["'an", "'in"]                       = [Nothing, Just ("F---------", (== "lA"))] -- Just ("SP---1--4-", euphony y)
-    | y `elem` ["'inna", "l_akinna"]                = [Nothing, Just ("SP------4-", euphony y),
+    | y `elem` ["'an", "'in"]                       = [Nothing, Just ("F---------", (== "lA")),
+                                                                Just ("SP---1--4-", const True)]
+    | y `elem` ["'inna", "l_akinna", "lAkinna"]     = [Nothing, Just ("SP------4-", euphony y),
                                                                 Just ("S---------", (== "mA"))]
-    | y `elem` ["l_akin"]                           = [Nothing, Just ("SP---1--4-", euphony y)]
+    | y `elem` ["l_akin", "lAkin"]                  = [Nothing, Just ("SP---1--4-", const True)]
     | y `elem` ["wa", "fa"]                         = [Nothing, Just ("SP------1-", const True),
                                                                 Just ("S[-DR]--------", const True),
                                                                 Just ("Q[IYVXLCM]--------", const True),
@@ -219,6 +224,7 @@ harmony (ParaPart _)    "hal"       = [Nothing, Just ("F---------", (== "lA"))]
 harmony (ParaPart _)    "'IyA"      = [Nothing, Just ("SP------2-", (\ x -> euphony "'IyA" x && x /= "nI"))]
 harmony (ParaPart _)    "'inna"     = [Nothing, Just ("SP------4-", euphony "'inna"),
                                                 Just ("S---------", (== "mA"))]
+harmony (ParaPart _)    "'in"       = [Nothing, Just ("SP---1--4-", const True)]
 harmony (ParaPart _)    "`alla"     = [Nothing, Just ("SP------4-", euphony "`alla")]
 harmony (ParaPart _)    "lA"        = [Nothing, Just ("VI--------", const True),
                                                 Just ("[NADXZ]-------4-", const True),              -- excluding "[SCPFIY]---------"

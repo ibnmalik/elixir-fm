@@ -276,7 +276,7 @@ cluster_24  = cluster
 
     HaFCaL                    `verb`    {- <'a^shad> -}        [ ['q','u','o','t','e'] ],
 
-    IstaFCaL                  `verb`    {- <ista^shad> -}      [ ['q','u','o','t','e'] ],
+    IstaFCaL                  `verb`    {- <ista^shad> -}      [ ['q','u','o','t','e'], ['c','i','t','e'] ],
 
     UstuFCiL                  `verb`    {- <ustu^shid> -}      [ unwords [ ['b','e'], ['m','a','r','t','y','r','e','d'] ], unwords [ ['d','i','e'], ['i','n'], ['b','a','t','t','l','e'] ] ],
 
@@ -328,10 +328,17 @@ cluster_24  = cluster
     IstiFCAL                  `noun`    {- <isti^shAd> -}      [ ['m','a','r','t','y','r','d','o','m'] ]
                               `plural`     IstiFCAL |< At,
 
+    IstiFCAL |< Iy            `adj`     {- <isti^shAdIy> -}    [ ['m','a','r','t','y','r'] ],
+
     IstiFCAL                  `noun`    {- <isti^shAd> -}      [ ['q','u','o','t','a','t','i','o','n'] ]
                               `plural`     IstiFCAL |< At,
 
-    IstiFCAL |< Iy            `adj`     {- <isti^shAdIy> -}    [ ['m','a','r','t','y','r'] ] ]
+    MustaFCiL                 `noun`    {- <musta^shid> -}     [ ['m','a','r','t','y','r'] ]
+                              `plural`     MustaFCiL |< Un
+                           
+    `derives` otherwise,
+
+    MustaFCiL                 `adj`     {- <musta^shid> -}     [ ['q','u','o','t','i','n','g'], ['c','i','t','i','n','g'] ] ]
 
 
 cluster_25  = cluster
@@ -1534,7 +1541,7 @@ cluster_66  = cluster
 
     IstaFCaL                  `verb`    {- <ista.s`ab> -}      [ unwords [ ['c','o','n','s','i','d','e','r'], ['d','i','f','f','i','c','u','l','t'] ] ],
 
-    FaCL                      `adj`     {- <.sa`b> -}          [ ['d','i','f','f','i','c','u','l','t'], ['a','r','d','u','o','u','s'] ]
+    FaCL                      `adj`     {- <.sa`b> -}          [ ['d','i','f','f','i','c','u','l','t'], ['h','a','r','d'], ['a','r','d','u','o','u','s'] ]
                               `plural`     FiCAL,
 
     HaFCaL                    `adj`     {- <'a.s`ab> -}        [ unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['d','i','f','f','i','c','u','l','t'] ], unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['a','r','d','u','o','u','s'] ] ],

@@ -390,7 +390,7 @@ cluster_23  = cluster
 
  |> ['s','U','r'] <| [
 
-    _____ |< iyA              `noun`    {- <sUriyA> -}         [ ['S','y','r','i','a'] ],
+    _____ |< iyA              `xtra`    {- <sUriyA> -}         [ ['S','y','r','i','a'] ],
 
     _____ |< Iy |< aT         `noun`    {- <sUrIyaT> -}        [ ['S','y','r','i','a'] ]
                            
