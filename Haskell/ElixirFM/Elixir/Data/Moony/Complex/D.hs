@@ -1478,6 +1478,16 @@ cluster_84  = cluster
 
 cluster_85  = cluster
 
+ |> "' n s n" <| [
+
+    KaRDaS                    `verb`    {- <'ansan> -}         [ ['h','u','m','a','n','i','z','e'] ],
+
+    TaKaRDaS                  `verb`    {- <ta'ansan> -}       [ unwords [ ['b','e','c','o','m','e'], ['h','u','m','a','n','i','z','e','d'] ] ],
+
+    KaRDaS |< aT              `noun`    {- <'ansanaT> -}       [ ['h','u','m','a','n','i','z','a','t','i','o','n'] ],
+
+    TaKaRDuS                  `noun`    {- <ta'ansun> -}       [ ['h','u','m','a','n','i','z','a','t','i','o','n'] ] ]
+
  |> "' n s" <| [
 
     FaCiL                     `verb`    {- <'anis> -}          [ unwords [ ['b','e'], ['c','o','m','p','a','n','i','o','n','a','b','l','e'] ], unwords [ ['b','e'], ['s','o','c','i','a','b','l','e'] ] ]

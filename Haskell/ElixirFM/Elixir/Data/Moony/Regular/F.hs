@@ -839,6 +839,9 @@ cluster_48  = cluster
     KuRDUS                    `noun`    {- <^gumhUr> -}        [ ['m','u','l','t','i','t','u','d','e'], ['p','u','b','l','i','c'], ['m','a','s','s','e','s'] ]
                               `plural`     KaRADIS,
 
+    KuRDUS |< Iy |< aT        `noun`    {- <^gumhUrIyaT> -}    [ ['r','e','p','u','b','l','i','c'] ]
+                              `plural`     KuRDUS |< Iy |< At,
+
     KuRDUS |< Iy              `adj`     {- <^gumhUrIy> -}      [ ['r','e','p','u','b','l','i','c','a','n'], ['r','e','p','u','b','l','i','c'] ],
 
     KaRADIS |< Iy             `adj`     {- <^gamAhIrIy> -}     [ ['m','a','s','s'], ['t','h','r','o','n','g'] ],

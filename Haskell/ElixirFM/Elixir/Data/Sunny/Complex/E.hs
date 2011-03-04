@@ -308,10 +308,12 @@ cluster_12  = cluster
 
     MuFaCCaL                  `adj`     {- <mu^saddad> -}      [ ['i','n','t','e','n','s','e'] ],
 
-    MutaFaCCiL                `noun`    {- <muta^saddid> -}    [ ['e','x','t','r','e','m','i','s','t'], ['f','a','n','a','t','i','c'], ['s','t','r','i','c','t'], ['z','e','a','l','o','t'] ]
+    MutaFaCCiL                `noun`    {- <muta^saddid> -}    [ ['e','x','t','r','e','m','i','s','t'], ['f','a','n','a','t','i','c'], ['z','e','a','l','o','t'] ]
                               `plural`     MutaFaCCiL |< Un
                            
-    `derives` otherwise ]
+    `derives` otherwise,
+
+    MutaFaCCiL                `adj`     {- <muta^saddid> -}    [ ['e','x','t','r','e','m','i','s','t'], ['f','a','n','a','t','i','c'], ['s','t','r','i','c','t'] ] ]
 
 
 cluster_13  = cluster
@@ -468,7 +470,8 @@ cluster_21  = cluster
     FiCY                      `noun`    {- <^sirY> -}          [ ['p','u','r','c','h','a','s','e'] ]
                               `plural`     HaFCI |< aT,
 
-    FiCA'                     `noun`    {- <^sirA'> -}         [ ['p','u','r','c','h','a','s','e'], ['b','u','y','i','n','g'], ['p','u','r','c','h','a','s','i','n','g'] ],
+    FiCA'                     `noun`    {- <^sirA'> -}         [ ['p','u','r','c','h','a','s','e'], ['b','u','y','i','n','g'], ['p','u','r','c','h','a','s','i','n','g'] ]
+                              `plural`     FiCA' |< At,
 
     FiCA' |< Iy               `adj`     {- <^sirA'Iy> -}       [ ['p','u','r','c','h','a','s','i','n','g'] ],
 

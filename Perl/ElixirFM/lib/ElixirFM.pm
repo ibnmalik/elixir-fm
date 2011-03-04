@@ -1047,6 +1047,16 @@ sub morphs {
     return $morphs;
 }
 
+sub unmorphs {
+
+    my $morphs = $_[0];
+
+    @{$morphs->[1]} = map { /"/ ? $_ . " >>| " : $_ . " >| " } @{$morphs->[1]};
+    @{$morphs->[2]} = map { /"/ ? " |<< " . $_ : " |< " . $_ } @{$morphs->[2]};
+
+    return join '', @{$morphs->[1]}, $morphs->[0], @{$morphs->[2]};
+}
+
 sub showPrefix {
 
     my $text = $_[0];
@@ -1169,7 +1179,7 @@ sub interlocks {
 
         @root = (@root, ('F', 'C', 'L')[@root .. 2]);
 
-        $pattern = (substr $pattern, 0, -1) . 'w' if $pattern =~ /^F(?:[aiu]C|[IU])LA'$/
+        $pattern = (substr $pattern, 0, -1) . 'w' if $pattern =~ /^F(?:aC[Ly]|[iu]CL|[IU]L)A'$/
                                                   and @root and $root[-1] ne 'w'
                                                   and @{$s} and not $s->[0] =~ /^"[aiu]N?"$/;
 

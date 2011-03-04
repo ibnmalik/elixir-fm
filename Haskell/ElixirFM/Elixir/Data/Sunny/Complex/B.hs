@@ -381,15 +381,14 @@ cluster_12  = cluster
 
     FaCAL |< aT               `noun`    {- <danAwaT> -}        [ ['n','e','a','r','n','e','s','s'], ['l','o','w','l','i','n','e','s','s'], ['b','a','s','e','n','e','s','s'] ],
 
-    HaFCY                     `adj`     {- <'adnY> -}          [ unwords [ ['n','e','a','r'], "/", ['n','e','a','r','e','r'], "/", ['n','e','a','r','e','s','t'] ], unwords [ ['l','o','w','e','r'], "/", ['l','o','w','e','s','t'] ], unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['i','n','f','e','r','i','o','r'] ] ]
+    HaFCY                     `adj`     {- <'adnY> -}          [ unwords [ ['n','e','a','r'], "/", ['n','e','a','r','e','r'], "/", ['n','e','a','r','e','s','t'] ], unwords [ ['l','o','w','e','r'], "/", ['l','o','w','e','s','t'] ], unwords [ ['m','o','r','e'], "/", ['m','o','s','t'], ['i','n','f','e','r','i','o','r'] ], ['m','i','n','i','m','u','m'], ['m','i','n','i','m','a','l'] ]
                               `plural`     HaFACI
+                              `plural`     HaFCY |< Un
                               `plural`     FuCY
                               `femini`     FuCyY,
 
-    HaFCY                     `noun`    {- <'adnY> -}          [ ['m','i','n','i','m','u','m'] ],
-
-    FuCyY                     `noun`    {- <dunyY> -}          [ ['w','o','r','l','d'], ['n','e','a','r'], ['l','o','w'], ['i','n','f','e','r','i','o','r'] ]
-                              `plural`     FuCyY |< At,
+    FuCyY                     `noun`    {- <dunyY> -}          [ ['w','o','r','l','d'], ['e','a','r','t','h'] ]
+                              `plural`     FuCY,
 
     FuCyY |< Iy               `adj`     {- <dunyawIy> -}       [ ['w','o','r','l','d','l','y'], ['t','e','m','p','o','r','a','l'] ],
 
@@ -2175,6 +2174,9 @@ cluster_90  = cluster
 
     FiCA'                     `noun`    {- <ridA'> -}          [ ['g','o','w','n'], ['r','o','b','e'] ]
                               `plural`     HaFCI |< aT,
+
+    TaFaCCI                   `noun`    {- <taraddI> -}        [ ['d','e','c','l','i','n','e'], ['d','e','t','e','r','i','o','r','a','t','i','o','n'] ]
+                              `plural`     TaFaCCI |< At,
 
     IFtiCA'                   `noun`    {- <irtidA'> -}        [ ['w','e','a','r','i','n','g'], unwords [ ['p','u','t','t','i','n','g'], ['o','n'] ] ]
                               `plural`     IFtiCA' |< At,

@@ -40,7 +40,7 @@ instance Template PatternT where
                      | isForm VII  t               = assimiVII
                      | elem t
 
-                        [FaCLA', FiCLA', FuCLA', FILA', FULA'] =
+                        [FaCLA', FiCLA', FuCLA', FILA', FULA', FaCyA'] =
 
                         if null s || null r || last r == "w"
 
@@ -222,13 +222,13 @@ instance Rules PatternT where
                             FaCaLY,
                             FaCALY, FaCAyY, FaCAwY,
                             FuCALY,
-                            FaCLA',
+                            FaCLA', FaCyA',
                             FuCaLA', MuFaLA',
                             HaFCiLA', HACiLA', HaFILA', HaFCiyA', HaFiCLA',
                             FaCA'iL, FayA'iL,
                             FaCAyiL,
                             FaCACiL,
-                            FaCACIL,
+                            FaCACIL, FaCACIy,
                             FawACiL, FawA'iL, FawACL, FawALi',
                             FawACIL, FawA'IL,
                             FayACiL,
@@ -890,6 +890,7 @@ data PatternT =
     {-- |   FaCL    --}                 |   FayL        |   FaCw                        |   FAw
                                                                                         |   FA'
     {-- |   FiCL    --} |   HiCL                        |   FiCw                        |   FIy
+                                                        |   FiCy
     {-- |   FuCL    --} |   TuCL                        |   FuCw                        |   FUw
                                                         |   FuC'
 
@@ -917,7 +918,7 @@ data PatternT =
         |   FaCA'iL                     |   FayA'iL     |   FaCA'I
         |   FaCAyiL
 
-        |   FaCLA'
+        |   FaCLA'                                      |   FaCyA'
 
         |   FuCaLA'
                                         |   MuFaLA'
@@ -958,14 +959,14 @@ data PatternT =
         |   FuCCuL
         |   FiCCiL
 
-        |   FiCCIL
+        |   FiCCIL                                      |   FiCCIy
         |   FaCCIL
         |   FaCCUL
 
         |   FUCaL
 
         |   FaCACiL                                     |   FaCACI
-        |   FaCACIL
+        |   FaCACIL                                     |   FaCACIy
 
         |   FawCaL
         |   FayCaL

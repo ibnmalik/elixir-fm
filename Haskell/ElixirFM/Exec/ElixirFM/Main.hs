@@ -100,6 +100,9 @@ synopsis = unlines [copyleft,
 
 main = do   argv <- getArgs
 
+            hSetBinaryMode stdin True
+            hSetBinaryMode stdout True
+
             let mods = case argv of []              ->  ["--help"]
                                     ('-' : x) : xs  ->  argv
                                     x : xs          ->  ("--" ++ x) : xs
@@ -113,7 +116,7 @@ main = do   argv <- getArgs
                 PrintVersion    ->  tell (unlines [copyleft,
                                           unwords ["ElixirFM",
                                                    showVersion Main.version,
-                                                   "February 2011"]])
+                                                   "March 2011"]])
 
                 DisplayUsage    ->  tell (usageInfo synopsis options)
 

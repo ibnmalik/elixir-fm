@@ -374,6 +374,8 @@ cluster_21  = cluster
 
  |> "_h .s _h .s" <| [
 
+    KaRDaS                    `verb`    {- <_ha.s_ha.s> -}     [ ['p','r','i','v','a','t','i','z','e'] ],
+
     KaRDaS |< aT              `noun`    {- <_ha.s_ha.saT> -}   [ ['p','r','i','v','a','t','i','z','a','t','i','o','n'] ],
 
     MuKaRDaS                  `adj`     {- <mu_ha.s_ha.s> -}   [ ['p','r','i','v','a','t','i','z','e','d'] ] ]

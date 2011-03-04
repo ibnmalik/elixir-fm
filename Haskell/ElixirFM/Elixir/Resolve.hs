@@ -1013,6 +1013,9 @@ normalize' x = case x of
 
                 'Y' : '\'' : y                      ->  '}' : normalize' y
 
+                'A' : '~' : z : y | z `elem` "Fa"   ->  '~' : z : 'A' : normalize' y
+                'A' : z : '~' : y | z `elem` "Fa"   ->  '~' : z : 'A' : normalize' y
+
                 z : '~' : y | z `elem` "FNKaui`"    ->  '~' : z : normalize' y
                 z : 'F' : y | z `elem` "AY"         ->  'F' : z : normalize' y
 

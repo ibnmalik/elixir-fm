@@ -659,7 +659,7 @@ cluster_27  = cluster
 
     FiCL |< aT                `noun`    {- <qi.t`aT> -}        [ ['u','n','i','t'] ],
 
-    FuCL |< aT                `noun`    {- <qu.t`aT> -}        [ unwords [ ['p','l','o','t'], ['o','f'], ['l','a','n','d'] ], ['l','o','t'], unwords [ ['p','l','o','t','s'], ['o','f'], ['l','a','n','d'] ] ]
+    FuCL |< aT                `noun`    {- <qu.t`aT> -}        [ unwords [ ['p','l','o','t'], ['o','f'], ['l','a','n','d'] ], ['l','o','t'] ]
                               `plural`     FuCaL,
 
     FaCL |< aT                `noun`    {- <qa.t`aT> -}        [ ['s','t','u','m','p'] ]

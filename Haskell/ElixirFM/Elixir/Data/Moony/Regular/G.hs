@@ -1857,7 +1857,9 @@ cluster_70  = cluster
 
     FaCL                      `noun`    {- <.ha.sr> -}         [ ['e','n','c','i','r','c','l','e','m','e','n','t'], ['c','o','n','t','a','i','n','m','e','n','t'], ['b','o','u','n','d','s'] ],
 
-    FaCL |< Iy                `adj`     {- <.ha.srIy> -}       [ ['e','s','c','r','o','w'] ],
+    FaCL |< Iy                `adj`     {- <.ha.srIy> -}       [ ['e','x','c','l','u','s','i','v','e'] ],
+
+    FaCL |< Iy                `noun`    {- <.ha.srIy> -}       [ ['e','s','c','r','o','w'] ],
 
     FuCL                      `noun`    {- <.hu.sr> -}         [ ['r','e','t','e','n','t','i','o','n'] ],
 

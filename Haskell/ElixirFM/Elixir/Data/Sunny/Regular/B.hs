@@ -1685,6 +1685,8 @@ cluster_96  = cluster
 
     TaFCIL |< Iy              `adj`     {- <tadrIsIy> -}       [ ['f','a','c','u','l','t','y'], ['t','e','a','c','h','i','n','g'], ['i','n','s','t','r','u','c','t','i','o','n','a','l'] ],
 
+    TaFACuL                   `noun`    {- <tadArus> -}        [ unwords [ ['s','t','u','d','y','i','n','g'], ['t','o','g','e','t','h','e','r'] ] ],
+
     FACiL                     `adj`     {- <dAris> -}          [ ['s','t','u','d','y','i','n','g'] ],
 
     FACiL                     `adj`     {- <dAris> -}          [ ['e','f','f','a','c','e','d'], ['o','b','l','i','t','e','r','a','t','e','d'], ['c','r','u','m','b','l','i','n','g'] ]
