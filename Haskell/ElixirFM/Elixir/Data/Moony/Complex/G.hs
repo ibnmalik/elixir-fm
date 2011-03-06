@@ -595,7 +595,7 @@ cluster_25  = cluster
     IFtaCY                    `verb`    {- <i^gtanY> -}        [ ['g','a','t','h','e','r'], ['h','a','r','v','e','s','t'] ],
 
     FaCL                      `noun`    {- <^gany> -}          [ ['h','a','r','v','e','s','t'] ]
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCY |< At,
 
     FaCY                      `noun`    {- <^ganY> -}          [ ['f','r','u','i','t','s'] ]
                               `plural`     HaFCA',
@@ -1390,13 +1390,13 @@ cluster_66  = cluster
     FaCL                      `noun`    {- <.habw> -}          [ ['c','r','a','w','l','i','n','g'] ],
 
     FiCL |< aT                `noun`    {- <.hibwaT> -}        [ ['g','i','f','t'] ]
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCA |< At,
 
     FaCL |< aT                `noun`    {- <.habwaT> -}        [ ['g','i','f','t'] ]
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCA |< At,
 
     FuCL |< aT                `noun`    {- <.hubwaT> -}        [ ['g','i','f','t'] ]
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCA |< At,
 
     FiCA'                     `noun`    {- <.hibA'> -}         [ ['g','i','f','t'] ],
 
@@ -1971,7 +1971,7 @@ cluster_84  = cluster
     FaCL                      `noun`    {- <.ha^sw> -}         [ ['s','t','u','f','f','i','n','g'], ['f','i','l','l','i','n','g'], ['i','n','s','e','r','t','i','o','n'] ],
 
     FaCL |< aT                `noun`    {- <.ha^swaT> -}       [ ['f','i','l','l','i','n','g'], ['s','t','u','f','f','i','n','g'], ['l','o','a','d'] ]
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCA |< At,
 
     FaCY                      `noun`    {- <.ha^sY> -}         [ ['i','n','t','e','s','t','i','n','e','s'], ['b','o','w','e','l','s'], ['i','n','t','e','r','i','o','r'] ]
                               `plural`     FaCA
@@ -2027,11 +2027,6 @@ cluster_86  = cluster
 
  |> ".h .s y" <| [
 
-    FaCw |< aT                `noun`    {- <.ha.swaT> -}       [ ['p','e','b','b','l','e'] ]
-                              `plural`     FaCA |< At,
-
-    FaCA |< Iy                `adj`     {- <.ha.sawIy> -}      [ ['s','t','o','n','y'], ['g','r','a','v','e','l','l','y'] ],
-
     HaFCY                     `verb`    {- <'a.h.sY> -}        [ ['c','o','u','n','t'], ['c','a','l','c','u','l','a','t','e'] ],
 
     FaCY                      `noun`    {- <.ha.sY> -}         [ ['c','a','l','c','u','l','u','s'] ],
@@ -2040,6 +2035,11 @@ cluster_86  = cluster
 
     FaCY |< aT                `noun`    {- <.ha.sAT> -}        [ ['p','e','b','b','l','e'] ]
                               `plural`     FaCY |< At,
+
+    FaCw |< aT                `noun`    {- <.ha.swaT> -}       [ ['p','e','b','b','l','e'] ]
+                              `plural`     FaCA |< At,
+
+    FaCA |< Iy                `adj`     {- <.ha.sawIy> -}      [ ['s','t','o','n','y'], ['g','r','a','v','e','l','l','y'] ],
 
     HiFCA'                    `noun`    {- <'i.h.sA'> -}       [ ['c','a','l','c','u','l','a','t','i','o','n'], ['s','t','a','t','i','s','t','i','c','s'] ]
                               `plural`     HiFCA' |< At,

@@ -1856,7 +1856,7 @@ cluster_72  = cluster
     FaCA'                     `noun`    {- <_halA'> -}         [ ['e','m','p','t','i','n','e','s','s'], ['v','o','i','d'], ['o','u','t','d','o','o','r','s'] ],
 
     FaCL |< aT                `noun`    {- <_halwaT> -}        [ ['p','r','i','v','a','c','y'], ['s','e','c','l','u','s','i','o','n'], ['b','o','o','t','h'] ]
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCA |< At,
 
     FaCA |< Iy                `adj`     {- <_halawIy> -}       [ ['c','e','l','l','u','l','a','r'] ],
 

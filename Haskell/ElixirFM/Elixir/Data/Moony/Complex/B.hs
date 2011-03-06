@@ -822,7 +822,7 @@ cluster_69  = cluster
 
  |> ['\'','A','s'] <| [
 
-    _____ |< iyA              `noun`    {- <'AsiyA> -}         [ ['A','s','i','a'] ],
+    _____ |< iyA              `xtra`    {- <'AsiyA> -}         [ ['A','s','i','a'] ],
 
     _____ |< iyA |< Iy        `adj`     {- <'AsiyawIy> -}      [ ['A','s','i','a','n'], ['A','s','i','a','t','i','c'] ] ]
 

@@ -741,15 +741,15 @@ cluster_59  = cluster
 
  |> "_t r y" <| [
 
-    FaCw |< aT                `noun`    {- <_tarwaT> -}        [ ['w','e','a','l','t','h'], ['a','b','u','n','d','a','n','c','e'], ['r','i','c','h','e','s'] ]
-                              `plural`     FaCA |< At,
-
-    FaCA'                     `noun`    {- <_tarA'> -}         [ ['w','e','a','l','t','h'], ['a','b','u','n','d','a','n','c','e'] ],
-
     FaCI                      `verb`    {- <_tarI> -}          [ unwords [ ['b','e','c','o','m','e'], ['w','e','a','l','t','h','y'] ] ]
                               `imperf`     FCY,
 
     HaFCY                     `verb`    {- <'a_trY> -}         [ ['e','n','r','i','c','h'], unwords [ ['m','a','k','e'], ['r','i','c','h'] ] ],
+
+    FaCA'                     `noun`    {- <_tarA'> -}         [ ['w','e','a','l','t','h'], ['a','b','u','n','d','a','n','c','e'] ],
+
+    FaCw |< aT                `noun`    {- <_tarwaT> -}        [ ['w','e','a','l','t','h'], ['a','b','u','n','d','a','n','c','e'], ['r','i','c','h','e','s'] ]
+                              `plural`     FaCA |< At,
 
     HiFCA'                    `noun`    {- <'i_trA'> -}        [ ['e','n','r','i','c','h','m','e','n','t'] ]
                               `plural`     HiFCA' |< At,
@@ -879,10 +879,10 @@ cluster_67  = cluster
     HaFCA'                    `noun`    {- <'a_tnA'> -}        [ ['m','e','a','n','t','i','m','e'] ],
 
     FaCL |< aT                `noun`    {- <_tanyaT> -}        [ ['f','o','l','d'], ['c','r','e','a','s','e'] ]
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCY |< At,
 
     FaCL |< aT                `noun`    {- <_tanyaT> -}        [ ['c','u','f','f'] ]
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCY |< At,
 
     FaCIL |< aT               `noun`    {- <_tanIyaT> -}       [ ['i','n','c','i','s','o','r'], ['p','a','t','h'], ['i','n','s','i','d','e'], ['w','i','t','h','i','n'] ]
                               `plural`     FaCALY,
@@ -1428,7 +1428,7 @@ cluster_99  = cluster
     IstaFCY                   `verb`    {- <istad`Y> -}        [ ['s','u','m','m','o','n'], ['i','n','v','o','k','e'] ],
 
     FaCL |< aT                `noun`    {- <da`waT> -}         [ ['c','a','l','l'], ['i','n','v','i','t','a','t','i','o','n'], ['s','u','p','p','l','i','c','a','t','i','o','n'] ]
-                              `plural`     FaCaL |< At,
+                              `plural`     FaCA |< At,
 
     FaCL |< aT                `noun`    {- <da`waT> -}         [ unwords [ "(", ['I','s','l','a','m','i','c'], ")", ['m','i','s','s','i','o','n','a','r','y'], ['w','o','r','k'] ], ['D','a','\'','w','a','h'], ['p','r','o','p','a','g','a','n','d','a'] ],
 

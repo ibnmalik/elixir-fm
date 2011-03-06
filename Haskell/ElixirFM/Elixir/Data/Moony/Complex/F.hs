@@ -164,7 +164,7 @@ cluster_11  = cluster
  |> "b .s w" <| [
 
     FaCL |< aT                `noun`    {- <ba.swaT> -}        [ ['e','m','b','e','r'] ]
-                              `plural`     FaCaL |< At ]
+                              `plural`     FaCA |< At ]
 
 
 cluster_12  = cluster
@@ -500,8 +500,9 @@ cluster_30  = cluster
 
     FiCL                      `noun`    {- <bill> -}           [ ['r','e','c','o','v','e','r','y'], ['c','o','n','v','a','l','e','s','c','e','n','c','e'] ],
 
-    FiCL |< aT                `noun`    {- <billaT> -}         [ ['m','o','i','s','t','u','r','e'], ['w','e','t','n','e','s','s'] ]
-                              `plural`     FaCaL,
+    FiCL |< aT                `noun`    {- <billaT> -}         [ ['m','o','i','s','t','u','r','e'], ['w','e','t','n','e','s','s'] ],
+
+    FaCaL                     `noun`    {- <balal> -}          [ ['m','o','i','s','t','u','r','e'], ['w','e','t','n','e','s','s'] ],
 
     FaCIL                     `noun`    {- <balIl> -}          [ unwords [ ['c','o','o','l'], ['w','i','n','d'] ] ],
 

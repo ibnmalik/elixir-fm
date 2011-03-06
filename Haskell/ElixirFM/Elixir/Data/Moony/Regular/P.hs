@@ -1901,7 +1901,7 @@ cluster_84  = cluster
 
     FaCaL                     `noun`    {- <qamal> -}          [ unwords [ ['l','i','c','e'], ['i','n','f','e','s','t','a','t','i','o','n'] ] ],
 
-    FaCL                      `noun`    {- <qaml> -}           [ ['l','i','c','e'], ['l','o','u','s','e'] ],
+    FaCL                      `noun`    {- <qaml> -}           [ ['l','o','u','s','e'] ],
 
     FaCiL                     `adj`     {- <qamil> -}          [ unwords [ ['l','i','c','e'], "-", ['i','n','f','e','s','t','e','d'] ] ],
 

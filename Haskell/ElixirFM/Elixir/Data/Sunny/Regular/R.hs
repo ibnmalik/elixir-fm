@@ -1018,6 +1018,11 @@ cluster_42  = cluster
 
     FACiL                     `adj`     {- <nAhi.d> -}         [ ['c','o','n','c','l','u','s','i','v','e'], ['i','n','d','i','s','p','u','t','a','b','l','e'] ],
 
+    MuFACiL                   `noun`    {- <munAhi.d> -}       [ ['o','p','p','o','n','e','n','t'] ]
+                              `plural`     MuFACiL |< Un
+                           
+    `derives` otherwise,
+
     MuFACiL                   `adj`     {- <munAhi.d> -}       [ ['f','i','g','h','t','i','n','g'], ['r','e','s','i','s','t','i','n','g'] ] ]
 
 

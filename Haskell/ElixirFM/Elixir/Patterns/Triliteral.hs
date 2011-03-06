@@ -888,11 +888,12 @@ data PatternT =
                                         |   FuL         |   FuC                         |   FU
 
     {-- |   FaCL    --}                 |   FayL        |   FaCw                        |   FAw
-                                                                                        |   FA'
-    {-- |   FiCL    --} |   HiCL                        |   FiCw                        |   FIy
-                                                        |   FiCy
+                                                        |   FaCy                        |   FA'
+    {-- |   FiCL    --} |   HiCL                        |   FiCy                        |   FIy
+                                                        |   FiCw
     {-- |   FuCL    --} |   TuCL                        |   FuCw                        |   FUw
                                                         |   FuC'
+                                                        |   FuCy
 
                                                         |   IFC
 
@@ -1041,7 +1042,7 @@ data PatternT =
         |   FaCLAn                      |   FayLAn      |   FaCwAn
         |   FaCaLAn                                     |   FaCawAn
 
-        |   FiCLAn                      |   FILAn
+        |   FiCLAn                      |   FILAn       |   FiCwAn
         |   FuCLAn                      |   FULAn
 
         |   FaCILAn

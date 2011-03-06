@@ -1412,7 +1412,7 @@ cluster_91  = cluster
  |> "b r w" <| [
 
     FaCL |< aT                `noun`    {- <barwaT> -}         [ ['w','a','s','t','e'], ['s','c','r','a','p'] ]
-                              `plural`     FaCaL |< At ]
+                              `plural`     FaCA |< At ]
 
 
 cluster_92  = cluster

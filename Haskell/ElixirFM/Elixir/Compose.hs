@@ -167,7 +167,7 @@ harmony (ParaPrep _)    "li"    = [Nothing, Just ("S[-DR]------2-", const True),
                                             Just ("A-------4[IRCL]", (`elem` numeric)),
                                             Just ("Q[IYVXLCM]------2-", const True),
                                             Just ("Q[IV]------4[RCL]", const True),
-                                            Just ("C---------", (== "'anna")),
+                                            Just ("C---------", (`elem` ["'anna", "'an"])),
                                             Just ("PI------2-", const True)]    -- in modern language
 harmony (ParaPrep _)    "ka"    = [Nothing, Just ("SP------1-", const True),
                                             Just ("S[-DR]------2-", const True),
@@ -175,7 +175,7 @@ harmony (ParaPrep _)    "ka"    = [Nothing, Just ("SP------1-", const True),
                                             Just ("A-------4[IRCL]", (`elem` numeric)),
                                             Just ("Q[IYVXLCM]------2-", const True),
                                             Just ("Q[IV]------4[RCL]", const True),
-                                            Just ("C---------", (== "'anna")),
+                                            Just ("C---------", (`elem` ["'anna", "'an"])),
                                             Just ("PI------2-", const True)]    -- in modern language
 harmony (ParaPrep _)    "bi"    = [Nothing, Just ("S-------2-", (\ x -> euphony "bi" x && x /= "nI")),
                                             Just ("F---------", (== "lA")),
@@ -183,7 +183,7 @@ harmony (ParaPrep _)    "bi"    = [Nothing, Just ("S-------2-", (\ x -> euphony 
                                             Just ("A-------4[IRCL]", (`elem` numeric)),
                                             Just ("Q[IYVXLCM]------2-", const True),
                                             Just ("Q[IV]------4[RCL]", const True),
-                                            Just ("C---------", (`elem` ["'anna", ".hay_tu"])),
+                                            Just ("C---------", (`elem` ["'anna", "'an", ".hay_tu"])),
                                             Just ("PI------2-", const True)]    -- in modern language
 harmony (ParaPrep _)    y
 
@@ -226,6 +226,7 @@ harmony (ParaPart _)    "'inna"     = [Nothing, Just ("SP------4-", euphony "'in
                                                 Just ("S---------", (== "mA"))]
 harmony (ParaPart _)    "'in"       = [Nothing, Just ("SP---1--4-", const True)]
 harmony (ParaPart _)    "`alla"     = [Nothing, Just ("SP------4-", euphony "`alla")]
+harmony (ParaPart _)    "layta"     = [Nothing, Just ("SP------4-", euphony "layta")]
 harmony (ParaPart _)    "lA"        = [Nothing, Just ("VI--------", const True),
                                                 Just ("[NADXZ]-------4-", const True),              -- excluding "[SCPFIY]---------"
                                                 Just ("Q[IYVXLCM]------4-", const True),
