@@ -168,7 +168,7 @@ harmony (ParaPrep _)    "li"    = [Nothing, Just ("S[-DR]------2-", const True),
                                             Just ("Q[IYVXLCM]------2-", const True),
                                             Just ("Q[IV]------4[RCL]", const True),
                                             Just ("C---------", (`elem` ["'anna", "'an"])),
-                                            Just ("PI------2-", const True)]    -- in modern language
+                                            Just ("P[-I]------2-", const True)]    -- in modern language
 harmony (ParaPrep _)    "ka"    = [Nothing, Just ("SP------1-", const True),
                                             Just ("S[-DR]------2-", const True),
                                             Just ("[NADXZ]-------2-", const True),
@@ -176,7 +176,7 @@ harmony (ParaPrep _)    "ka"    = [Nothing, Just ("SP------1-", const True),
                                             Just ("Q[IYVXLCM]------2-", const True),
                                             Just ("Q[IV]------4[RCL]", const True),
                                             Just ("C---------", (`elem` ["'anna", "'an"])),
-                                            Just ("PI------2-", const True)]    -- in modern language
+                                            Just ("P[-I]------2-", const True)]    -- in modern language
 harmony (ParaPrep _)    "bi"    = [Nothing, Just ("S-------2-", (\ x -> euphony "bi" x && x /= "nI")),
                                             Just ("F---------", (== "lA")),
                                             Just ("[NADXZ]-------2-", const True),
@@ -184,7 +184,7 @@ harmony (ParaPrep _)    "bi"    = [Nothing, Just ("S-------2-", (\ x -> euphony 
                                             Just ("Q[IYVXLCM]------2-", const True),
                                             Just ("Q[IV]------4[RCL]", const True),
                                             Just ("C---------", (`elem` ["'anna", "'an", ".hay_tu"])),
-                                            Just ("PI------2-", const True)]    -- in modern language
+                                            Just ("P[-I]------2-", const True)]    -- in modern language
 harmony (ParaPrep _)    y
 
     | y `elem` ["wa", "ta"]     = [Nothing, Just ("[NAXZ]-------2-", const True)]

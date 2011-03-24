@@ -737,7 +737,7 @@ sub lists_trees {
                         [ split /[\n ]*\t/, $_ ]
                     }
 
-                    grep { $_ ne '' } split /[\n ]*(?=\([0-9]+,[0-9]+\)[\n ]*\t|$)/, $node
+                    grep { $_ ne '' } split /[\n ]*(?=\((?:[0-9]+,[0-9]+)?\)[\n ]*\t|$)/, $node
                 ],
 
                 map {
