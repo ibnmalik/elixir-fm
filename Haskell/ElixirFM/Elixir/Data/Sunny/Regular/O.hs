@@ -969,7 +969,9 @@ cluster_42  = cluster
                               `plural`     TaFaCCuL |< At,
 
     MuFaCCiL                  `noun`    {- <mula.t.tif> -}     [ ['p','a','l','l','i','a','t','i','v','e'], ['s','e','d','a','t','i','v','e'] ]
-                              `plural`     MuFaCCiL |< At ]
+                              `plural`     MuFaCCiL |< At,
+
+    MuFaCCaL                  `adj`     {- <mula.t.taf> -}     [ ['k','i','n','d','e','r'], ['g','e','n','t','l','e','r'], ['s','o','f','t','e','r'] ] ]
 
 
 cluster_43  = cluster

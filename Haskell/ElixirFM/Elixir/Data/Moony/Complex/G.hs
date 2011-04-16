@@ -1917,7 +1917,7 @@ cluster_82  = cluster
 
  |> ".h s y" <| [
 
-    HaFCA'                    `noun`    {- <'a.hsA'> -}        [ unwords [ ['H','a','s','a'], "(", ['S','.','A','r','.'], ")" ] ] ]
+    HaFCA'                    `noun`    {- <'a.hsA'> -}        [ ['H','a','s','a'] ] ]
 
 
 cluster_83  = cluster

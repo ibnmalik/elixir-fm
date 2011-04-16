@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Lexicon.Pretty.XML
--- Copyright   :  Otakar Smrz 2005-2010
+-- Copyright   :  Otakar Smrz 2005-2011
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -29,7 +29,7 @@ import Elixir.System
 import Elixir.Pretty
 
 
-instance Pretty (Wrap Nest) => Pretty [Lexicon] where
+instance Pretty Lexicon => Pretty [Lexicon] where
 
     pretty xs = text "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
                 <$$> -- empty <$$>
@@ -88,7 +88,7 @@ instance Pretty (Wrap Nest) => Pretty Cluster where
 
 
 instance (Pretty (Nest PatternT), Pretty (Nest PatternQ),
-          Pretty (Nest String),   Pretty (Nest PatternL)) =>
+          Pretty (Nest PatternL), Pretty (Nest String)) =>
           Pretty (Wrap Nest) where
 
     pretty (WrapL x) = pretty x
@@ -97,7 +97,7 @@ instance (Pretty (Nest PatternT), Pretty (Nest PatternQ),
     pretty (WrapS x) = pretty x
 
 
-instance (Show a, Pretty (Entry a)) => Pretty (Nest a) where
+instance Pretty (Entry a) => Pretty (Nest a) where
 
     pretty (Nest r l) = element "Nest" [] (elemtxt "root" [] (text r)
                                            <$$>
@@ -192,18 +192,7 @@ instance Show a => Pretty (Entity a) where
                                          _  -> y
 
 
-instance Show a => Pretty (Either (Root, Morphs a) (Morphs a)) where
-
-    pretty (Right x)     = elemtxt "Right" [] (pretty x)
-    pretty (Left (r, x)) = element "Left" [] (elemtxt "fst" [] (pretty r)
-                                              <$$>
-                                              elemtxt "snd" [] (pretty x))
-
-    prettyList [] = empty
-    prettyList xs = (nested . vcat . map pretty) xs
-
-
-instance Show a => Pretty (TagsType, [([TagsType], [Morphs a])]) where
+instance Show a => Pretty (Limits a) where
 
     pretty (x, y) = elemtxt "fst" [] (pretty x)
                     <$$>
@@ -238,7 +227,7 @@ instance Pretty String where
 -- instance (forall b . Pretty (a b)) => Pretty (Wrap a) where
 
 instance (Pretty (Lexeme PatternT), Pretty (Lexeme PatternQ),
-          Pretty (Lexeme String),   Pretty (Lexeme PatternL)) =>
+          Pretty (Lexeme PatternL), Pretty (Lexeme String)) =>
           Pretty (Wrap Lexeme) where
 
     pretty (WrapT y) = text "WrapT" <+> pretty y

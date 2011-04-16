@@ -1090,7 +1090,7 @@ cluster_38  = cluster
 
     HaFCY                     `verb`    {- <'a`lY> -}          [ ['r','a','i','s','e'] ],
 
-    TaFACY                    `verb`    {- <ta`AlY> -}         [ unwords [ ['b','e'], ['r','a','i','s','e','d'] ], unwords [ ['b','e'], ['e','x','a','l','t','e','d'] ], unwords [ ['c','o','m','e'], "!" ] ],
+    TaFACY                    `verb`    {- <ta`AlY> -}         [ unwords [ ['b','e'], ['r','a','i','s','e','d'] ], unwords [ ['b','e'], ['e','x','a','l','t','e','d'] ], unwords [ ['l','o','o','k'], ['d','o','w','n'] ], unwords [ ['c','o','m','e'], "!" ] ],
 
     IFtaCY                    `verb`    {- <i`talY> -}         [ ['r','i','s','e'], ['m','o','u','n','t'] ],
 
@@ -1148,6 +1148,8 @@ cluster_38  = cluster
 
     HiFCA'                    `noun`    {- <'i`lA'> -}         [ ['r','a','i','s','i','n','g'], ['l','i','f','t','i','n','g'] ]
                               `plural`     HiFCA' |< At,
+
+    TaFACI                    `noun`    {- <ta`AlI> -}         [ unwords [ ['l','o','o','k','i','n','g'], ['d','o','w','n'] ] ],
 
     IFtiCA'                   `noun`    {- <i`tilA'> -}        [ ['a','s','c','e','n','s','i','o','n'], unwords [ ['a','c','c','e','s','s','i','o','n'], ['t','o'], ['o','f','f','i','c','e'] ] ]
                               `plural`     IFtiCA' |< At,

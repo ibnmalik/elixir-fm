@@ -1889,6 +1889,7 @@ cluster_86  = cluster
     FA'iL                     `noun`    {- <qA'id> -}          [ ['d','r','i','v','e','r'], ['p','i','l','o','t'], ['c','h','a','u','f','f','e','u','r'] ]
                               `plural`     FA'iL |< Un
                               `plural`     FuCCAL
+                              `plural`     FAL |< aT
                            
     `derives` otherwise,
 

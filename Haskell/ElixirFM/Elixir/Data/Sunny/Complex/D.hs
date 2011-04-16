@@ -1281,7 +1281,6 @@ cluster_58  = cluster
 
     FA'iL                     `noun`    {- <sA'i.h> -}         [ ['t','o','u','r','i','s','t'], ['t','r','a','v','e','l','e','r'] ]
                               `plural`     FA'iL |< Un
-                              `plural`     FuyyAL
                               `plural`     FuCCAL
                            
     `derives` otherwise ]
@@ -1351,7 +1350,9 @@ cluster_60  = cluster
 
     FayyiL |< aT              `noun`    {- <sayyidaT> -}       [ ['S','a','y','y','i','d','a'] ],
 
-    FiyAL |< aT               `noun`    {- <siyAdaT> -}        [ ['s','o','v','e','r','e','i','g','n','t','y'], ['s','u','p','r','e','m','a','c','y'], ['E','x','c','e','l','l','e','n','c','y'] ] ]
+    FiyAL |< aT               `noun`    {- <siyAdaT> -}        [ ['s','o','v','e','r','e','i','g','n','t','y'], ['s','u','p','r','e','m','a','c','y'], ['E','x','c','e','l','l','e','n','c','y'] ],
+
+    FiyAL |< Iy               `adj`     {- <siyAdIy> -}        [ ['s','o','v','e','r','e','i','g','n'], ['j','u','r','i','s','d','i','c','t','i','o','n','a','l'] ] ]
 
 
 cluster_61  = cluster

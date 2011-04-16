@@ -268,6 +268,11 @@ cluster_22  = cluster
 
     _____                     `noun`    {- <'IrAn> -}          [ ['I','r','a','n'] ],
 
+    _____ |< Iy               `noun`    {- <'IrAnIy> -}        [ ['I','r','a','n','i','a','n'] ]
+                              `plural`     _____ |< Iy |< Un
+                           
+    `derives` otherwise,
+
     _____ |< Iy               `adj`     {- <'IrAnIy> -}        [ ['I','r','a','n','i','a','n'] ] ]
 
 

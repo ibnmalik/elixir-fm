@@ -184,7 +184,9 @@ cluster_9   = cluster
  |> "n b .h" <| [
 
     FaCaL                     `verb`    {- <naba.h> -}         [ ['b','a','r','k'] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FaCL
+                              `masdar`     FuCAL,
 
     TaFACaL                   `verb`    {- <tanAba.h> -}       [ unwords [ ['b','a','r','k'], ['a','t'], ['e','a','c','h'], ['o','t','h','e','r'] ] ],
 
@@ -428,7 +430,7 @@ cluster_18  = cluster
     YaFCUL                    `noun`    {- <yanbU`> -}         [ ['s','p','r','i','n','g'], ['s','o','u','r','c','e'] ]
                               `plural`     YaFACIL,
 
-    YaFCUL                    `noun`    {- <yanbU`> -}         [ unwords [ ['Y','a','n','b','o','u'], "(", ['S','a','u','d','i'], ['A','r','.'], ")" ] ] ]
+    YaFCUL                    `noun`    {- <yanbU`> -}         [ ['Y','a','n','b','o','u'] ] ]
 
 
 cluster_19  = cluster

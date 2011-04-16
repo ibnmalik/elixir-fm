@@ -1559,7 +1559,9 @@ cluster_87  = cluster
                            
     `excepts` Diptote,
 
-    FaCA |< aT                `noun`    {- <mahAT> -}          [ unwords [ ['w','i','l','d'], ['c','o','w'] ] ]
+    FaCA                      `noun`    {- <mahA> -}           [ ['o','r','y','x'], ['a','n','t','e','l','o','p','e'], unwords [ ['w','i','l','d'], ['c','o','w'] ] ],
+
+    FaCA |< aT                `noun`    {- <mahAT> -}          [ ['o','r','y','x'], ['a','n','t','e','l','o','p','e'], unwords [ ['w','i','l','d'], ['c','o','w'] ] ]
                               `plural`     FaCA |< At ]
 
  |> "m h y" <| [
@@ -1568,7 +1570,9 @@ cluster_87  = cluster
                            
     `excepts` Diptote,
 
-    FaCY |< aT                `noun`    {- <mahAT> -}          [ unwords [ ['w','i','l','d'], ['c','o','w'] ] ]
+    FaCY                      `noun`    {- <mahY> -}           [ ['o','r','y','x'], ['a','n','t','e','l','o','p','e'], unwords [ ['w','i','l','d'], ['c','o','w'] ] ],
+
+    FaCY |< aT                `noun`    {- <mahAT> -}          [ ['o','r','y','x'], ['a','n','t','e','l','o','p','e'], unwords [ ['w','i','l','d'], ['c','o','w'] ] ]
                               `plural`     FaCY |< At ]
 
 
@@ -1586,14 +1590,9 @@ cluster_89  = cluster
 
  |> "m w t" <| [
 
-    FaCAL                     `noun`    {- <mawAt> -}          [ ['i','n','a','n','i','m','a','t','e'], ['u','n','c','u','l','t','i','v','a','t','e','d'] ],
-
-    MuFAL                     `adj`     {- <mumAt> -}          [ ['o','b','s','o','l','e','t','e'], ['a','n','t','i','q','u','a','t','e','d'] ],
-
-    MaFAL                     `noun`    {- <mamAt> -}          [ ['d','e','a','t','h'], unwords [ ['p','l','a','c','e'], ['o','f'], ['d','e','a','t','h'] ] ],
-
     FAL                       `verb`    {- <mAt> -}            [ ['d','i','e'], unwords [ ['p','a','s','s'], ['a','w','a','y'] ] ]
-                              `imperf`     FUL,
+                              `imperf`     FUL
+                              `masdar`     FaCL,
 
     FaCCaL                    `verb`    {- <mawwat> -}         [ ['k','i','l','l'] ],
 
@@ -1609,7 +1608,11 @@ cluster_89  = cluster
                            
     `excepts` Triptote,
 
+    MaFAL                     `noun`    {- <mamAt> -}          [ ['d','e','a','t','h'], unwords [ ['p','l','a','c','e'], ['o','f'], ['d','e','a','t','h'] ] ],
+
     FULAn                     `noun`    {- <mUtAn> -}          [ ['d','y','i','n','g'], ['d','e','a','t','h'], ['e','p','i','d','e','m','i','c'] ],
+
+    FaCAL                     `noun`    {- <mawAt> -}          [ ['i','n','a','n','i','m','a','t','e'], ['u','n','c','u','l','t','i','v','a','t','e','d'] ],
 
     FayyiL                    `adj`     {- <mayyit> -}         [ ['d','e','a','d'], ['l','i','f','e','l','e','s','s'], ['i','n','a','n','i','m','a','t','e'] ]
                               `plural`     FaCLY
@@ -1626,6 +1629,8 @@ cluster_89  = cluster
     FA'iL                     `adj`     {- <mA'it> -}          [ ['m','o','r','i','b','u','n','d'], ['m','o','r','t','a','l'] ],
 
     MuFIL                     `adj`     {- <mumIt> -}          [ ['f','a','t','a','l'], ['l','e','t','h','a','l'], ['m','o','r','t','a','l'] ],
+
+    MuFAL                     `adj`     {- <mumAt> -}          [ ['o','b','s','o','l','e','t','e'], ['a','n','t','i','q','u','a','t','e','d'] ],
 
     MustaFIL                  `adj`     {- <mustamIt> -}       [ unwords [ ['d','e','a','t','h'], "-", ['d','e','f','y','i','n','g'] ], ['m','a','r','t','y','r'] ] ]
 

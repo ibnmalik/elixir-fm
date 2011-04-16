@@ -559,13 +559,9 @@ cluster_20  = cluster
 
     MiFCAL |< Iy              `adj`     {- <miqdArIy> -}       [ ['q','u','a','n','t','i','t','a','t','i','v','e'] ],
 
-    TaFCIL                    `noun`    {- <taqdIr> -}         [ ['a','p','p','r','e','c','i','a','t','i','o','n'], ['g','r','a','t','i','t','u','d','e'] ],
-
-    TaFCIL                    `noun`    {- <taqdIr> -}         [ ['e','s','t','i','m','a','t','e'], ['c','a','l','c','u','l','a','t','i','o','n'], ['a','p','p','r','a','i','s','a','l'] ]
+    TaFCIL                    `noun`    {- <taqdIr> -}         [ ['e','s','t','i','m','a','t','e'], ['c','a','l','c','u','l','a','t','i','o','n'], ['a','p','p','r','e','c','i','a','t','i','o','n'], ['a','p','p','r','a','i','s','a','l'], ['g','r','a','t','i','t','u','d','e'] ]
                               `plural`     TaFACIL
                               `plural`     TaFCIL |< At,
-
-    TaFCIL |<< "aN"           `noun`    {- <taqdIraN> -}       [ unwords [ ['i','n'], ['a','p','p','r','e','c','i','a','t','i','o','n'], ['f','o','r'] ] ],
 
     TaFCIL |< Iy              `adj`     {- <taqdIrIy> -}       [ ['e','s','t','i','m','a','t','e','d'], ['a','p','p','r','e','c','i','a','t','i','v','e'] ],
 

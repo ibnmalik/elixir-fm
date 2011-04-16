@@ -1189,8 +1189,7 @@ cluster_47  = cluster
                               `plural`     FawACiL
                               `plural`     FawACI,
 
-    MuFaCCaL |< aT            `noun`    {- <mu_habba'aT> -}    [ ['h','i','d','d','e','n'], ['s','e','c','r','e','t'] ]
-                              `plural`     MuFaCCaL |< At,
+    MuFaCCaL                  `adj`     {- <mu_habba'> -}      [ ['h','i','d','d','e','n'], ['s','e','c','r','e','t'], ['c','a','c','h','e','d'] ],
 
     MuFtaCiL                  `adj`     {- <mu_htabi'> -}      [ ['h','i','d','d','e','n'], ['c','o','n','c','e','a','l','e','d'] ] ]
 
@@ -1653,7 +1652,12 @@ cluster_67  = cluster
     MaFCUL                    `noun`    {- <ma_h.tU.t> -}      [ ['m','a','n','u','s','c','r','i','p','t'] ]
                               `plural`     MaFCUL |< At,
 
-    MuFaCCiL                  `noun`    {- <mu_ha.t.ti.t> -}   [ ['p','l','a','n','n','e','r','s'], ['s','k','e','t','c','h','e','r','s'] ]
+    MaFCUL |< aT              `noun`    {- <ma_h.tU.taT> -}    [ ['m','a','n','u','s','c','r','i','p','t'] ]
+                              `plural`     MaFCUL |< At,
+
+    MaFCUL                    `adj`     {- <ma_h.tU.t> -}      [ ['h','a','n','d','w','r','i','t','t','e','n'] ],
+
+    MuFaCCiL                  `noun`    {- <mu_ha.t.ti.t> -}   [ ['p','l','a','n','n','e','r'], ['s','k','e','t','c','h','e','r'] ]
                               `plural`     MuFaCCiL |< Un
                            
     `derives` otherwise,
@@ -2125,7 +2129,10 @@ cluster_90  = cluster
  |> "_h w f" <| [
 
     FAL                       `verb`    {- <_hAf> -}           [ unwords [ ['b','e'], ['s','c','a','r','e','d'] ], unwords [ ['b','e'], ['a','f','r','a','i','d'] ], unwords [ ['b','e'], ['f','r','i','g','h','t','e','n','e','d'] ] ]
-                              `imperf`     FAL,
+                              `imperf`     FAL
+                              `masdar`     FaCL
+                              `masdar`     FIL |< aT
+                              `masdar`     MaFAL |< aT,
 
     FaCCaL                    `verb`    {- <_hawwaf> -}        [ ['f','r','i','g','h','t','e','n'], ['a','l','a','r','m'] ],
 

@@ -808,7 +808,7 @@ cluster_28  = cluster
     FaCUL                     `adj`     {- <qa.tUf> -}         [ ['s','l','o','w'] ]
                               `plural`     FuCuL,
 
-    FaCIL                     `noun`    {- <qa.tIf> -}         [ unwords [ ['Q','a','t','i','f'], "(", ['S','.','A','r','.'], ")" ] ],
+    FaCIL                     `noun`    {- <qa.tIf> -}         [ ['Q','a','t','i','f'] ],
 
     FaCIL |< aT               `noun`    {- <qa.tIfaT> -}       [ ['p','a','s','t','r','y'] ],
 

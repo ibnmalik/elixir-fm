@@ -184,7 +184,9 @@ cluster_20  = cluster
 
  |> ['\'','a','n','q','a','r'] <| [
 
-    _____ |< aT               `noun`    {- <'anqaraT> -}       [ ['A','n','k','a','r','a'] ] ]
+    _____ |< aT               `noun`    {- <'anqaraT> -}       [ ['A','n','k','a','r','a'] ]
+                           
+    `excepts` Diptote ]
 
  |> ['\'','a','n','q','a','r'] <| [
 
@@ -1307,9 +1309,11 @@ cluster_86  = cluster
                               `plural`     FaCIL |< Un
                               `plural`     HaFCiyA',
 
-    FaCAL |< aT               `noun`    {- <barA'aT> -}        [ ['i','n','n','o','c','e','n','c','e'] ],
+    FaCAL |< aT               `noun`    {- <barA'aT> -}        [ ['i','n','n','o','c','e','n','c','e'] ]
+                              `plural`     FaCAL |< At,
 
-    FaCAL |< aT               `noun`    {- <barA'aT> -}        [ ['l','i','c','e','n','s','e'], ['p','a','t','e','n','t'] ],
+    FaCAL |< aT               `noun`    {- <barA'aT> -}        [ ['l','i','c','e','n','s','e'], ['p','a','t','e','n','t'] ]
+                              `plural`     FaCAL |< At,
 
     TaFCiL |< aT              `noun`    {- <tabri'aT> -}       [ ['e','x','e','m','p','t','i','o','n'], ['a','c','q','u','i','t','t','a','l'] ],
 

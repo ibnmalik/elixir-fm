@@ -108,7 +108,9 @@ cluster_3   = cluster
 
     FaCY                      `verb`    {- <.galY> -}          [ ['b','o','i','l'] ]
                               `imperf`     FCY
-                              `imperf`     FCI,
+                              `imperf`     FCI
+                              `masdar`     FaCL
+                              `masdar`     FaCaLAn,
 
     FaCCY                     `verb`    {- <.gallY> -}         [ ['b','o','i','l'] ],
 
@@ -605,7 +607,7 @@ cluster_20  = cluster
 
     FaCL |< Iy |< aT          `noun`    {- <.gaybIyaT> -}      [ ['m','e','t','a','p','h','y','s','i','c','s'] ],
 
-    FAL                       `noun`    {- <.gAb> -}           [ ['w','o','o','d'], ['r','e','e','d'], ['b','a','m','b','o','o'] ],
+    FAL                       `noun`    {- <.gAb> -}           [ ['f','o','r','e','s','t'], ['w','o','o','d'], ['j','u','n','g','l','e'], ['r','e','e','d'], ['b','a','m','b','o','o'] ],
 
     FAL |< aT                 `noun`    {- <.gAbaT> -}         [ ['f','o','r','e','s','t'], ['w','o','o','d'], ['j','u','n','g','l','e'] ]
                               `plural`     FAL |< At,

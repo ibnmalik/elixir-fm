@@ -1149,6 +1149,8 @@ cluster_72  = cluster
 
     IFtiCAL |< Iy             `adj`     {- <istibAqIy> -}      [ ['h','a','s','t','e','n','i','n','g'], ['h','u','r','r','y','i','n','g'], unwords [ ['p','u','s','h','i','n','g'], ['f','o','r','w','a','r','d'] ], ['c','o','m','p','e','t','i','n','g'], ['r','a','c','i','n','g'] ],
 
+    FACiL                     `noun`    {- <sAbiq> -}          [ ['p','a','s','t'] ],
+
     FACiL                     `adj`     {- <sAbiq> -}          [ ['f','o','r','m','e','r'], ['p','r','e','v','i','o','u','s'], ['p','r','e','c','e','d','i','n','g'], ['e','a','r','l','y'] ]
                               `plural`     FuCCAL
                               `plural`     FACiL |< Un,
@@ -1156,7 +1158,7 @@ cluster_72  = cluster
     FACiL |< aT               `noun`    {- <sAbiqaT> -}        [ ['p','r','e','c','e','d','e','n','t'], ['p','r','i','o','r','i','t','y'], ['a','n','t','e','c','e','d','e','n','t','s'] ]
                               `plural`     FawACiL,
 
-    FACiL |< Iy |< aT         `noun`    {- <sAbiqIyaT> -}      [ ['p','r','i','o','r'], ['f','o','r','m','e','r'] ],
+    FACiL |< Iy               `adj`     {- <sAbiqIy> -}        [ ['p','r','i','o','r'], ['f','o','r','m','e','r'] ],
 
     MaFCUL                    `adj`     {- <masbUq> -}         [ ['p','r','e','c','e','d','e','n','t','e','d'] ],
 

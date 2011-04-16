@@ -193,7 +193,9 @@ cluster_13  = cluster
  |> "b l h" <| [
 
     FaCiL                     `verb`    {- <balih> -}          [ unwords [ ['b','e'], ['s','t','u','p','i','d'] ] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FaCaL
+                              `masdar`     FaCAL |< aT,
 
     TaFACaL                   `verb`    {- <tabAlah> -}        [ unwords [ ['f','e','i','g','n'], ['s','t','u','p','i','d','i','t','y'] ], unwords [ ['p','l','a','y'], ['t','h','e'], ['f','o','o','l'] ] ],
 

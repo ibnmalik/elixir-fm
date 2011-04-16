@@ -679,6 +679,8 @@ cluster_38  = cluster
                            
     `derives` otherwise,
 
+    MuFACiL                   `adj`     {- <mu.tAlib> -}       [ ['d','e','m','a','n','d','i','n','g'], ['r','e','q','u','i','r','i','n','g'] ],
+
     MuFACaL                   `adj`     {- <mu.tAlab> -}       [ ['a','c','c','o','u','n','t','a','b','l','e'] ],
 
     TaFaCCuL                  `noun`    {- <ta.tallub> -}      [ ['n','e','c','e','s','s','i','t','y'], ['e','x','i','g','e','n','c','y'] ]

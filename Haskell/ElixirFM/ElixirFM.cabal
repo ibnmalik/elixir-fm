@@ -9,7 +9,7 @@ maintainer:         otakar.smrz mff.cuni.cz
 homepage:           http://ufal.mff.cuni.cz/~smrz/
 package-url:        http://sourceforge.net/projects/elixir-fm/
 category:           Text, Natural Language Processing
-build-depends:      Encode, Cabal, base < 5, containers
+build-depends:      Encode, Cabal, base < 5, containers, wl-pprint > 1
 build-type:         Simple
 synopsis:           Functional Arabic Morphology
 description:        The "ElixirFM" library implements a computational model of the morphological
@@ -65,9 +65,6 @@ exposed-modules:    ElixirFM,
                     --  FM,
                         --  FM.Generic,
                             FM.Generic.General,
-                    --  Text,
-                        --  Text.PrettyPrint,
-                            Text.PrettyPrint.Leijen,
                     Version
 other-modules:                      Elixir.Data.Moony.Complex.A,
                                     Elixir.Data.Moony.Complex.B,
@@ -293,9 +290,6 @@ other-modules:      ElixirFM,
                     --  FM,
                         --  FM.Generic,
                             FM.Generic.General,
-                    --  Text,
-                        --  Text.PrettyPrint,
-                            Text.PrettyPrint.Leijen,
                     Version
 extensions:         MultiParamTypeClasses,
                     FunctionalDependencies,
@@ -304,7 +298,7 @@ extensions:         MultiParamTypeClasses,
                     RankNTypes,
                     --  ScopedTypeVariables,
                     OverlappingInstances,
-                    --  IncoherentInstances,
+		    --  IncoherentInstances,
                     UndecidableInstances,
                     TypeSynonymInstances,
                     FlexibleInstances,

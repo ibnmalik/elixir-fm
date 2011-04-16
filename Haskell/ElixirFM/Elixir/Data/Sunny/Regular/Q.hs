@@ -75,7 +75,7 @@ cluster_2   = cluster
 
     FaCL |< Iy                `adj`     {- <nas_hIy> -}        [ unwords [ ['N','a','s','k','h','i'], "(", ['A','r','a','b','i','c'], ['s','c','r','i','p','t'], ")" ] ],
 
-    FuCL |< aT                `noun`    {- <nus_haT> -}        [ ['c','o','p','y'] ]
+    FuCL |< aT                `noun`    {- <nus_haT> -}        [ ['c','o','p','y'], ['v','e','r','s','i','o','n'], ['e','d','i','t','i','o','n'] ]
                               `plural`     FuCaL,
 
     FaCCAL                    `noun`    {- <nassA_h> -}        [ ['c','o','p','y','i','s','t'], ['s','c','r','i','b','e'] ]

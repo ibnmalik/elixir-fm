@@ -2383,25 +2383,24 @@ cluster_86  = cluster
 
     MaFCUL                    `noun`    {- <ma.hfU.z> -}       [ ['M','a','h','f','o','u','z'] ],
 
-    MaFCUL                    `noun`    {- <ma.hfU.z> -}       [ ['p','r','e','s','e','r','v','e','d'], ['s','a','f','e','g','u','a','r','d','e','d'], ['r','e','c','o','r','d','s'], ['a','r','c','h','i','v','e','s'] ]
-                              `plural`     MaFCUL |< Un
-                           
-    `derives` otherwise,
+    MaFCUL                    `adj`     {- <ma.hfU.z> -}       [ ['p','r','e','s','e','r','v','e','d'], ['s','a','f','e','g','u','a','r','d','e','d'] ],
 
-    MuFACiL                   `noun`    {- <mu.hAfi.z> -}      [ ['g','o','v','e','r','n','o','r'], ['c','o','n','s','e','r','v','a','t','i','v','e'] ]
+    MaFCUL |< At              `noun`    {- <ma.hfU.zAt> -}     [ ['r','e','c','o','r','d','s'], ['a','r','c','h','i','v','e','s'] ]
+                              `plural`     MaFCUL |< At
+                           
+    `limited` "-------P--",
+
+    MuFACiL                   `noun`    {- <mu.hAfi.z> -}      [ ['g','o','v','e','r','n','o','r'], ['m','a','y','o','r'] ]
                               `plural`     MuFACiL |< Un
                            
     `derives` otherwise,
 
-    MutaFaCCiL                `noun`    {- <muta.haffi.z> -}   [ ['c','a','u','t','i','o','u','s'], ['r','e','s','e','r','v','e','d'] ]
-                              `plural`     MutaFaCCiL |< Un
-                           
-    `derives` otherwise,
+    MuFACiL                   `adj`     {- <mu.hAfi.z> -}      [ ['c','o','n','s','e','r','v','a','t','i','v','e'], ['o','b','s','e','r','v','i','n','g'] ],
+
+    MutaFaCCiL                `adj`     {- <muta.haffi.z> -}   [ ['c','a','u','t','i','o','u','s'], ['r','e','s','e','r','v','e','d'] ],
 
     MustaFCaL                 `noun`    {- <musta.hfa.z> -}    [ ['r','e','s','e','r','v','e'] ]
-                              `plural`     MustaFCaL |< Un
-                           
-    `derives` otherwise ]
+                              `plural`     MustaFCaL |< At ]
 
 
 cluster_87  = cluster
