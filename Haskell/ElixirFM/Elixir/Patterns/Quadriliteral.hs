@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Patterns.Quadriliteral
--- Copyright   :  Otakar Smrz 2005-2009
+-- Copyright   :  Otakar Smrz 2005-2011
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -21,10 +21,6 @@ module Elixir.Patterns.Quadriliteral where
 import Elixir.Template
 
 import Elixir.System
-
-import Version
-
-version = revised "$Revision$"
 
 
 instance Morphing PatternQ PatternQ where

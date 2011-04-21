@@ -4,8 +4,6 @@ module Elixir.Data.Sunny.Complex.H (section) where
 import Elixir.Lexicon
 
 
-version = revised "$Revision$"
-
 lexicon = include section
 
 

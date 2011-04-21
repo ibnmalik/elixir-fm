@@ -8,7 +8,7 @@ package ElixirFM::CGI;
 
 use strict;
 
-our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
+our $VERSION = join '.', '1.2', q $Revision$ =~ /(\d+)/;
 
 
 use base 'CGI::Application::FastCGI';
@@ -113,7 +113,7 @@ sub display_header ($) {
 
     $q->charset('utf-8');
 
-    $r .= $q->start_html(-title  => "ElixirFM 1.1 Online Interface", -encoding => $q->charset(),
+    $r .= $q->start_html(-title  => "ElixirFM Online Interface", -encoding => $q->charset(),
                          -meta   => { 'keywords' => join ' ', 'Arabic morphological analyzer analysis generator generation',
                                                               'morphology lexicon dictionary lookup inflection derivation rules grammar language' },
                          -style  => [ {-src => 'http://quest.ms.mff.cuni.cz/elixir/elixir.css', -type => 'text/css'},
@@ -131,7 +131,7 @@ sub display_headline ($) {
     my $m = $q->param($c->mode_param());
     my $r;
 
-    $r .= $q->h1($q->a({'href' => 'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM 1.1"), ( $m eq 'home' ? ('Online', 'Interface') : (ucfirst $m, 'Online') ));
+    $r .= $q->h1($q->a({'href' => 'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM"), ( $m eq 'home' ? ('Online', 'Interface') : (ucfirst $m, 'Online') ));
 
     $r .= $q->div({-class => "menu"},
                   map { $q->param($c->mode_param()) eq $_ ? $q->span(ucfirst $_) : $q->a({'href' => 'index.fcgi?mode=' . $_}, ucfirst $_) } @modes);

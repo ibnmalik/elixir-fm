@@ -4,8 +4,6 @@ module Elixir.Data.Moony.Regular.F (section) where
 import Elixir.Lexicon
 
 
-version = revised "$Revision$"
-
 lexicon = include section
 
 
@@ -1087,7 +1085,7 @@ cluster_60  = cluster
     KiRDIS                    `noun`    {- <^ginzIr> -}        [ ['c','h','a','i','n'], ['t','r','a','c','k'] ]
                               `plural`     KaRADIS,
 
-    KiRDIS                    `noun`    {- <^ginzIr> -}        [ unwords [ ['j','i','n','z','e','e','r'], "(", ['c','.'], ['2','0'], ['m','e','t','e','r','s'], ")" ] ]
+    KiRDIS                    `noun`    {- <^ginzIr> -}        [ ['j','i','n','z','e','e','r'] ]
                               `plural`     KaRADIS,
 
     KaRDUS |< Iy              `adj`     {- <^ganzUrIy> -}      [ ['J','a','n','z','o','u','r','i'] ],

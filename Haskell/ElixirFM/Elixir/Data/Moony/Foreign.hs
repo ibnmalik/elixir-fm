@@ -21,8 +21,6 @@ import qualified Elixir.Data.Moony.Foreign.N as N
 import qualified Elixir.Data.Moony.Foreign.O as O
 
 
-version = revised "$Revision$"
-
 lexicon = (concat . concat) chapter
 
 

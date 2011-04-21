@@ -34,9 +34,7 @@ import qualified Data.Map as Map
 
 import Prelude hiding (lookup)
 
-import Version
-
-version = ElixirFM.version
+import Elixir.Version
 
 
 data Opts = RunAction ([Opts] -> [String] -> IO ()) | TreesResolve
@@ -115,7 +113,7 @@ main = do   argv <- getArgs
 
                 PrintVersion    ->  tell (unlines [copyleft,
                                           unwords ["ElixirFM",
-                                                   showVersion Main.version,
+                                                   showVersion version,
                                                    "April 2011"]])
 
                 DisplayUsage    ->  tell (usageInfo synopsis options)

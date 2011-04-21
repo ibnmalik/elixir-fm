@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Patterns.Literal
--- Copyright   :  Otakar Smrz 2005-2010
+-- Copyright   :  Otakar Smrz 2005-2011
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -19,10 +19,6 @@ module Elixir.Patterns.Literal where
 
 
 import Elixir.Template
-
-import Version
-
-version = revised "$Revision$"
 
 
 instance Morphing PatternL PatternL where

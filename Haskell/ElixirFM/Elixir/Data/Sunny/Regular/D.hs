@@ -4,8 +4,6 @@ module Elixir.Data.Sunny.Regular.D (section) where
 import Elixir.Lexicon
 
 
-version = revised "$Revision$"
-
 lexicon = include section
 
 
@@ -1711,13 +1709,6 @@ cluster_87  = cluster
 
 cluster_88  = cluster
 
- |> "r ^g n" <| [
-
-    MaFCUL |< aT              `noun`    {- <mar^gUnaT> -}      [ ['b','a','s','k','e','t'] ] ]
-
-
-cluster_89  = cluster
-
  |> "r .h b" <| [
 
     FaCiL                     `verb`    {- <ra.hib> -}         [ unwords [ ['b','e'], ['s','p','a','c','i','o','u','s'] ] ]
@@ -1757,7 +1748,7 @@ cluster_89  = cluster
     TaFCAL                    `noun`    {- <tar.hAb> -}        [ ['w','e','l','c','o','m','e'], ['g','r','e','e','t','i','n','g'] ] ]
 
 
-cluster_90  = cluster
+cluster_89  = cluster
 
  |> "r .h r .h" <| [
 
@@ -1767,7 +1758,7 @@ cluster_90  = cluster
                               `plural`     KaRDAS ]
 
 
-cluster_91  = cluster
+cluster_90  = cluster
 
  |> "r .h .d" <| [
 
@@ -1780,7 +1771,7 @@ cluster_91  = cluster
                               `plural`     MaFACIL ]
 
 
-cluster_92  = cluster
+cluster_91  = cluster
 
  |> "r .h q" <| [
 
@@ -1793,7 +1784,7 @@ cluster_92  = cluster
     FaCIL |< Iy               `adj`     {- <ra.hIqIy> -}       [ ['e','x','q','u','i','s','i','t','e'], ['d','e','l','i','c','i','o','u','s'] ] ]
 
 
-cluster_93  = cluster
+cluster_92  = cluster
 
  |> "r .h l" <| [
 
@@ -1846,7 +1837,7 @@ cluster_93  = cluster
                               `plural`     MuFaCCaL |< At ]
 
 
-cluster_94  = cluster
+cluster_93  = cluster
 
  |> "r .h m" <| [
 
@@ -1903,7 +1894,7 @@ cluster_94  = cluster
     "FaCL_an"                 `adj`     {- <ra.hm_an> -}       [ ['m','e','r','c','i','f','u','l'] ] ]
 
 
-cluster_95  = cluster
+cluster_94  = cluster
 
  |> "r _h .s" <| [
 
@@ -1942,7 +1933,7 @@ cluster_95  = cluster
     MuFtaCaL                  `adj`     {- <murta_ha.s> -}     [ ['c','h','e','a','p'], unwords [ ['l','o','w'], "-", ['p','r','i','c','e','d'] ] ] ]
 
 
-cluster_96  = cluster
+cluster_95  = cluster
 
  |> "r _h m" <| [
 
@@ -1970,14 +1961,14 @@ cluster_96  = cluster
                               `plural`     TaFCIL |< At ]
 
 
-cluster_97  = cluster
+cluster_96  = cluster
 
  |> "r d .h" <| [
 
     FaCaL                     `noun`    {- <rada.h> -}         [ unwords [ ['l','o','n','g'], ['p','e','r','i','o','d'] ] ] ]
 
 
-cluster_98  = cluster
+cluster_97  = cluster
 
  |> ['r','A','d','A','r'] <| [
 
@@ -1987,7 +1978,7 @@ cluster_98  = cluster
     _____ |< Iy               `adj`     {- <rAdArIy> -}        [ ['r','a','d','a','r'] ] ]
 
 
-cluster_99  = cluster
+cluster_98  = cluster
 
  |> ['r','U','d','I','s'] <| [
 
@@ -1996,13 +1987,31 @@ cluster_99  = cluster
     _____ |< Iy               `adj`     {- <rUdIsIy> -}        [ ['R','h','o','d','e','s','i','a','n'] ] ]
 
 
-cluster_100 = cluster
+cluster_99  = cluster
 
  |> "r d s" <| [
 
     FaCaL                     `verb`    {- <radas> -}          [ ['c','r','u','s','h'], unwords [ ['r','o','l','l'], ['s','m','o','o','t','h'] ] ]
                               `imperf`     FCuL
                               `imperf`     FCiL ]
+
+
+cluster_100 = cluster
+
+ |> "r d `" <| [
+
+    FaCaL                     `verb`    {- <rada`> -}          [ ['p','r','e','v','e','n','t'], ['d','e','t','e','r'], ['r','e','p','e','l'] ]
+                              `imperf`     FCaL
+                              `masdar`     FaCL,
+
+    IFtaCaL                   `verb`    {- <irtada`> -}        [ unwords [ ['b','e'], ['p','r','e','v','e','n','t','e','d'] ] ],
+
+    FaCL                      `noun`    {- <rad`> -}           [ ['d','e','t','e','r','r','e','n','c','e'], ['r','e','p','e','l','l','i','n','g'], ['i','n','h','i','b','i','t','i','o','n'] ],
+
+    FACiL                     `adj`     {- <rAdi`> -}          [ ['d','e','t','e','r','r','i','n','g'], ['r','e','p','e','l','l','i','n','g'] ],
+
+    FACiL                     `noun`    {- <rAdi`> -}          [ ['d','e','t','e','r','r','e','n','c','e'], ['o','b','s','t','a','c','l','e'], ['i','m','p','e','d','i','m','e','n','t'] ]
+                              `plural`     FawACiL ]
 
 
 section = [ cluster_1,

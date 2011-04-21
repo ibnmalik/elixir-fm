@@ -51,11 +51,7 @@ module ElixirFM (
 
         module Elixir.Compose,
 
-        module FM.Generic.General,
-
-        -- * Version
-
-        version
+        module FM.Generic.General
 
     ) where
 
@@ -76,7 +72,7 @@ import Elixir.Compose
 
 import FM.Generic.General
 
-import Encode.Arabic hiding (version)
+import Encode.Arabic
 
 import Data.Char
 
@@ -86,8 +82,4 @@ import qualified Data.Map as Map
 
 import Prelude hiding (lookup)
 
-import Version
-
-version = Version [1, 2, 0, max build 1005] []
-
-    where Version [build] [] = revised "$Revision$"
+import Elixir.Version

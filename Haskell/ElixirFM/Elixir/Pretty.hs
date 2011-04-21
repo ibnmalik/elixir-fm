@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Pretty
--- Copyright   :  Otakar Smrz 2005-2010
+-- Copyright   :  Otakar Smrz 2005-2011
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -35,10 +35,6 @@ module Elixir.Pretty (
 import Text.PrettyPrint.Leijen hiding (group)
 
 import System.IO
-
-import Version
-
-version = revised "$Revision$"
 
 
 printPretty :: Pretty a => a -> IO ()

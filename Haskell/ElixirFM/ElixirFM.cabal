@@ -27,9 +27,6 @@ description:        The "ElixirFM" library implements a computational model of t
                     G&#246;teborg University and Chalmers University of Technology,
                     December 2004, <http://www.cs.chalmers.se/~markus/FM/>.
                     .
-                    The "Version" library is just a simple support for
-                    working with the CVS\/SVN revision keyword.
-                    .
                     "ElixirFM"
 exposed-modules:    ElixirFM,
                     --  Elixir,
@@ -62,10 +59,10 @@ exposed-modules:    ElixirFM,
                         Elixir.Resolve,
                         Elixir.System,
                         Elixir.Template,
+                        Elixir.Version,
                     --  FM,
                         --  FM.Generic,
-                            FM.Generic.General,
-                    Version
+                            FM.Generic.General
 other-modules:                      Elixir.Data.Moony.Complex.A,
                                     Elixir.Data.Moony.Complex.B,
                                     Elixir.Data.Moony.Complex.C,
@@ -287,10 +284,10 @@ other-modules:      ElixirFM,
                         Elixir.Resolve,
                         Elixir.System,
                         Elixir.Template,
+                        Elixir.Version,
                     --  FM,
                         --  FM.Generic,
-                            FM.Generic.General,
-                    Version
+                            FM.Generic.General
 extensions:         MultiParamTypeClasses,
                     FunctionalDependencies,
                     ExistentialQuantification,

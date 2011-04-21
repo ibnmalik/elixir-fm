@@ -6,7 +6,7 @@
 
 # $Id$
 
-our $VERSION = join '.', 1, 1, q $Revision$ =~ /(\d+)/;
+our $VERSION = join '.', 1, 2, 0, q $Revision$ =~ /(\d+)/;
 
 
 use File::Spec;

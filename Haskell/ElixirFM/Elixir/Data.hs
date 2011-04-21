@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Data
--- Copyright   :  Otakar Smrz 2005-2010
+-- Copyright   :  Otakar Smrz 2005-2011
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -24,8 +24,6 @@ import qualified Elixir.Data.Extra
 
 
 import Elixir.Lexicon
-
-version = revised "$Revision$"
 
 
 lexicon :: Lexicon

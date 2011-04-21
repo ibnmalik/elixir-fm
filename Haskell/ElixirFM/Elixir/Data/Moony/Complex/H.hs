@@ -4,8 +4,6 @@ module Elixir.Data.Moony.Complex.H (section) where
 import Elixir.Lexicon
 
 
-version = revised "$Revision$"
-
 lexicon = include section
 
 
@@ -556,7 +554,7 @@ cluster_23  = cluster
     TaFaCCuL                  `noun`    {- <ta.hawwu.t> -}     [ ['p','r','e','c','a','u','t','i','o','n'], ['a','t','t','e','n','t','i','o','n'] ]
                               `plural`     TaFaCCuL |< At,
 
-    IFtiyAL                   `noun`    {- <i.htiyA.t> -}      [ unwords [ ['r','e','s','e','r','v','e'], "(", ['e','c','o','n','.',','], ['g','e','o','l','.',','], ['m','i','l','i','t','.',','], ['s','p','o','.'], ")" ] ]
+    IFtiyAL                   `noun`    {- <i.htiyA.t> -}      [ ['r','e','s','e','r','v','e'] ]
                               `plural`     IFtiyAL |< At,
 
     IFtiyAL                   `noun`    {- <i.htiyA.t> -}      [ ['c','a','u','t','i','o','n'], ['p','r','e','c','a','u','t','i','o','n'] ]
@@ -564,7 +562,7 @@ cluster_23  = cluster
 
     IFtiyAL |< Iy             `adj`     {- <i.htiyA.tIy> -}    [ ['p','r','e','c','a','u','t','i','o','n','a','r','y'], ['c','o','n','t','i','n','g','e','n','c','y'], ['r','e','s','e','r','v','e'] ],
 
-    IFtiyAL |< Iy             `noun`    {- <i.htiyA.tIy> -}    [ unwords [ ['r','e','s','e','r','v','e'], "(", ['e','c','o','n','.',','], ['g','e','o','l','.',','], ['m','i','l','i','t','.',','], ['s','p','o','.'], ")" ] ]
+    IFtiyAL |< Iy             `noun`    {- <i.htiyA.tIy> -}    [ ['r','e','s','e','r','v','e'] ]
                               `plural`     IFtiyAL |< Iy |< At,
 
     FA'iL                     `noun`    {- <.hA'i.t> -}        [ ['w','a','l','l'] ]

@@ -4,8 +4,6 @@ module Elixir.Data.Moony.Regular.J (section) where
 import Elixir.Lexicon
 
 
-version = revised "$Revision$"
-
 lexicon = include section
 
 
@@ -1784,7 +1782,7 @@ cluster_68  = cluster
 
  |> "` s ^g" <| [
 
-    FawCaL                    `noun`    {- <`awsa^g> -}        [ unwords [ ['m','a','t','r','i','m','o','n','y'], ['v','i','n','e'], "(", ['b','o','t','.'], ")" ], ['b','o','x','t','h','o','r','n'] ] ]
+    FawCaL                    `noun`    {- <`awsa^g> -}        [ unwords [ ['m','a','t','r','i','m','o','n','y'], ['v','i','n','e'] ], ['b','o','x','t','h','o','r','n'] ] ]
 
 
 cluster_69  = cluster

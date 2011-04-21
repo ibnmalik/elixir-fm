@@ -4,8 +4,6 @@ module Elixir.Data.Moony.Regular.R (section) where
 import Elixir.Lexicon
 
 
-version = revised "$Revision$"
-
 lexicon = include section
 
 
@@ -155,7 +153,7 @@ cluster_8   = cluster
 
  |> ['k','a','r','m','a','l'] <| [
 
-    _____                     `noun`    {- <karmal> -}         [ unwords [ ['M','t','.'], ['C','a','r','m','e','l'], "(", ['P','a','l','e','s','t','i','n','e'], ")" ] ],
+    _____                     `noun`    {- <karmal> -}         [ ['C','a','r','m','e','l'] ],
 
     _____                     `noun`    {- <karmal> -}         [ ['K','a','r','m','a','l'] ],
 

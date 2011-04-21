@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Lexicon
--- Copyright   :  Otakar Smrz 2005-2009
+-- Copyright   :  Otakar Smrz 2005-2011
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -27,7 +27,7 @@ module Elixir.Lexicon (
 
         module Elixir.System,
 
-        module Version
+        module Elixir.Version
 
     ) where
 
@@ -42,6 +42,4 @@ import Elixir.Template
 
 import Elixir.System
 
-import Version
-
-version = revised "$Revision$"
+import Elixir.Version

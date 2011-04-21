@@ -25,8 +25,6 @@ import qualified Elixir.Data.Moony.Regular
 
 import Elixir.Lexicon
 
-version = revised "$Revision$"
-
 
 lexicon :: Lexicon
 

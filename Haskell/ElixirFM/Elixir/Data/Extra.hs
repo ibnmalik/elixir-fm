@@ -20,8 +20,6 @@ module Elixir.Data.Extra (lexicon) where
 
 import Elixir.Lexicon
 
-version = revised "$Revision$"
-
 
 lexicon :: Lexicon
 

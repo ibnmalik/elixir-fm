@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Patterns
--- Copyright   :  Otakar Smrz 2005-2009
+-- Copyright   :  Otakar Smrz 2005-2011
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -35,10 +35,6 @@ import Elixir.Patterns.Literal
 import Elixir.Patterns.Triliteral
 
 import Elixir.Patterns.Quadriliteral
-
-import Version
-
-version = revised "$Revision$"
 
 
 instance Morphing String String where

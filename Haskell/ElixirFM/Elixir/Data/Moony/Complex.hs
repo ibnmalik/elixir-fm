@@ -23,8 +23,6 @@ import qualified Elixir.Data.Moony.Complex.P as P
 import qualified Elixir.Data.Moony.Complex.Q as Q
 
 
-version = revised "$Revision$"
-
 lexicon = (concat . concat) chapter
 
 

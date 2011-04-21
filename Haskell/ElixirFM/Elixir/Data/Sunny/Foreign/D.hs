@@ -4,8 +4,6 @@ module Elixir.Data.Sunny.Foreign.D (section) where
 import Elixir.Lexicon
 
 
-version = revised "$Revision$"
-
 lexicon = include section
 
 

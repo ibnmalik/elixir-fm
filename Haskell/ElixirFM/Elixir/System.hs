@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.System
--- Copyright   :  Otakar Smrz 2005-2010
+-- Copyright   :  Otakar Smrz 2005-2011
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -32,6 +32,7 @@ data EntVerb a = EntVerbP          (a Voice) (a Person) (a Gender) (a Number)
                | EntVerbC (a Mood)                      (a Gender) (a Number)
 
     -- deriving Eq -- (Show, Eq)
+
 
 instance ShowE a => Show (EntVerb a) where
 

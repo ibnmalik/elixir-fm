@@ -4,8 +4,6 @@ module Elixir.Data.Moony.Complex.K (section) where
 import Elixir.Lexicon
 
 
-version = revised "$Revision$"
-
 lexicon = include section
 
 
@@ -1965,7 +1963,7 @@ cluster_90  = cluster
 
     FaCCAL                    `noun`    {- <qawwAs> -}         [ ['Q','a','w','w','a','s'] ],
 
-    FuCayL |< aT              `noun`    {- <quwaysaT> -}       [ unwords [ ['s','a','g','e'], "(", ['b','o','t','.'], ")" ] ],
+    FuCayL |< aT              `noun`    {- <quwaysaT> -}       [ ['s','a','g','e'] ],
 
     MuFaCCaL                  `adj`     {- <muqawwas> -}       [ ['a','r','c','h','e','d'], ['b','e','n','t'], ['c','u','r','v','e','d'] ] ]
 

@@ -22,10 +22,6 @@ import Elixir.Template
 
 import Elixir.System
 
-import Version
-
-version = revised "$Revision$"
-
 
 instance Morphing PatternT PatternT where
 

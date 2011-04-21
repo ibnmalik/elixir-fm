@@ -4,8 +4,6 @@ module Elixir.Data.Moony.Regular.L (section) where
 import Elixir.Lexicon
 
 
-version = revised "$Revision$"
-
 lexicon = include section
 
 

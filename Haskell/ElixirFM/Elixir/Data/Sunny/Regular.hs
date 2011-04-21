@@ -24,8 +24,6 @@ import qualified Elixir.Data.Sunny.Regular.Q as Q
 import qualified Elixir.Data.Sunny.Regular.R as R
 
 
-version = revised "$Revision$"
-
 lexicon = (concat . concat) chapter
 
 
