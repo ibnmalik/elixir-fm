@@ -1,0 +1,110 @@
+# -*- cperl -*-
+
+#ifndef padt
+#define padt
+
+#include <contrib/pml/PML.mak>
+
+package PADT;
+
+BEGIN {
+
+    use Exporter 'import';
+
+    our @EXPORT_OK = ('switch_context_hook', 'pre_switch_context_hook', 'idx');
+
+    import TredMacro;
+}
+
+our $regexQ = qr/[0-9]+(?:[\.\,\x{060C}\x{066B}\x{066C}][0-9]+)? |
+                 [\x{0660}-\x{0669}]+(?:[\.\,\x{060C}\x{066B}\x{066C}][\x{0660}-\x{0669}]+)?/x;
+
+our $regexG = qr/[\.\,\;\:\!\?\`\"\'\(\)\[\]\{\}\<\>\\\|\/\~\@\#\$\%\^\&\*\_\=\+\-\x{00AB}\x{00BB}\x{060C}\x{061B}\x{061F}]/;
+
+sub initialize_direction {
+
+    $TrEd::Convert::lefttoright = $_[0] ne 'right-to-left' || $^O eq 'MSWin32' || $Tk::VERSION gt 804.00;
+
+    $TrEd::Config::valueLineReverseLines = $_[0] eq 'right-to-left';
+    $TrEd::Config::valueLineAlign = $_[1];
+
+    $main::treeViewOpts->{reverseNodeOrder} = $_[0] eq 'right-to-left';
+
+    $TrEd::TreeView::DefaultNodeStyle{NodeLabel} = [ -valign => 'top', -halign => $_[1] ];
+    $TrEd::TreeView::DefaultNodeStyle{Node} = [ -textalign => $_[1] ];
+
+    $_->treeView->apply_options($main::treeViewOpts) foreach @{$grp->{framegroup}->{treeWindows}};
+
+    main::update_value_line($grp->{framegroup});
+}
+
+sub switch_context_hook {
+
+    return unless GUI();
+
+    my $class = $_[1];
+
+    my $style = &{$class . '::CreateStylesheets'}();
+
+    SetStylesheetPatterns($style, $class, 1) unless StylesheetExists($class);
+
+    my $sheet = GetCurrentStylesheet();
+
+    SetCurrentStylesheet($class) unless $sheet =~ $class;
+
+    UnbindBuiltin('Shift+Home');
+    UnbindBuiltin('Shift+End');
+
+    initialize_direction('right-to-left', 'right');
+}
+
+sub pre_switch_context_hook {
+
+    return unless GUI();
+
+    return if $_[0] =~ /ElixirFM|MorphoTrees|Analytic|DeepLevels|WordsLevel|PhraseTrees/ and
+              $_[1] =~ /ElixirFM|MorphoTrees|Analytic|DeepLevels|WordsLevel|PhraseTrees/;
+
+    initialize_direction('left-to-right', 'left');
+}
+
+sub idx {
+
+    my $node = $_[0] || $this;
+
+    return unless exists $node->{'id'};
+
+    my @idx = grep { $_ ne '' } split /[^0-9]+/, $node->{'id'};
+
+    return wantarray ? @idx : ( "#" . join "/", @idx );
+}
+
+#include "ElixirFM.mak"
+#include "MorphoTrees.mak"
+#include "Analytic.mak"
+#include "DeepLevels.mak"
+#include "WordsLevel.mak"
+#include "PhraseTrees.mak"
+
+package TredMacro;
+
+push @AUTO_CONTEXT_GUESSING, sub {
+
+    my $schema = PML::SchemaName();
+
+    return $schema       if defined $schema and $schema =~ /ElixirFM|MorphoTrees|Analytic|DeepLevels|WordsLevel|PhraseTrees/;
+
+    return 'MorphoTrees' if $grp->{FSFile}->FS()->isList('type') and
+                            grep { /[EP]|paragraph|entity/ } $grp->{FSFile}->FS()->listValues('type');
+
+    return 'DeepLevels'  if $grp->{FSFile}->FS()->isList('func') and
+                            grep { /ACT|PAT|ADDR|EFF|ORIG/ } $grp->{FSFile}->FS()->listValues('func');
+
+    return 'Analytic'    if $grp->{FSFile}->FS()->exists('afun') and
+                            $grp->{FSFile}->FS()->exists('arabclause');
+
+    return 'PhraseTrees' if $grp->{FSFile}->FS()->exists('label');
+    return;
+};
+
+#endif padt
