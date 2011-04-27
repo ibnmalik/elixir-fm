@@ -406,7 +406,7 @@ Encode::Arabic::ArabTeX::RE - Deprecated Encode::Arabic::ArabTeX implemented wit
 
 =head1 REVISION
 
-    $Revision: 162 $        $Date: 2006-12-16 01:16:10 +0100 (Sat, 16 Dec 2006) $
+    $Revision: 162 $        $Date: 2006-12-16 03:16:10 +0300 (Sat, 16 Dec 2006) $
 
 
 =head1 SYNOPSIS

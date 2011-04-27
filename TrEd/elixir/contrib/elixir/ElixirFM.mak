@@ -27,7 +27,7 @@ our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
 
 BEGIN {
 
-    import PADT 'switch_context_hook', 'pre_switch_context_hook', 'idx';
+    # import ElixirFM 'switch_context_hook', 'pre_switch_context_hook';
 
     import TredMacro;
 }
@@ -1031,16 +1031,16 @@ sub move_node_forward {
     $Redraw = 'none';
     ChangingFile(0);
 
-	my $node = $this;
+    my $node = $this;
 
-	if ($main::treeViewOpts->{reverseNodeOrder} and not InVerticalMode()) {
+    if ($main::treeViewOpts->{reverseNodeOrder} and not InVerticalMode()) {
 
- 		CutPasteBefore($node, $node->lbrother()) if $node->lbrother();
-	}
-	else {
+        CutPasteBefore($node, $node->lbrother()) if $node->lbrother();
+    }
+    else {
 
-		CutPasteAfter($node, $node->rbrother()) if $node->rbrother();
-	}
+        CutPasteAfter($node, $node->rbrother()) if $node->rbrother();
+    }
 
     $this = $node;
 
@@ -1054,16 +1054,16 @@ sub move_node_backward {
     $Redraw = 'none';
     ChangingFile(0);
 
-	my $node = $this;
+    my $node = $this;
 
-	if ($main::treeViewOpts->{reverseNodeOrder} and not InVerticalMode()) {
+    if ($main::treeViewOpts->{reverseNodeOrder} and not InVerticalMode()) {
 
-		CutPasteAfter($node, $node->rbrother()) if $node->rbrother();
-	}
-	else {
+        CutPasteAfter($node, $node->rbrother()) if $node->rbrother();
+    }
+    else {
 
-		CutPasteBefore($node, $node->lbrother()) if $node->lbrother();
-	}
+        CutPasteBefore($node, $node->lbrother()) if $node->lbrother();
+    }
 
     $this = $node;
 

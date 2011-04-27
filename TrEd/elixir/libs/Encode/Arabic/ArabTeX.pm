@@ -2389,7 +2389,7 @@ Encode::Arabic::ArabTeX - Interpreter of the ArabTeX notation of Arabic
 
 =head1 REVISION
 
-    $Revision: 937 $             $Date: 2010-02-14 13:54:54 +0100 (Sun, 14 Feb 2010) $
+    $Revision: 937 $             $Date: 2010-02-14 15:54:54 +0300 (Sun, 14 Feb 2010) $
 
 
 =head1 SYNOPSIS

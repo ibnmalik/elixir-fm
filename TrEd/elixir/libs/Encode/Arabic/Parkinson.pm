@@ -258,7 +258,7 @@ Encode::Arabic::Parkinson - Dil Parkinson's transliteration of Arabic
 
 =head1 REVISION
 
-    $Revision: 179 $        $Date: 2007-01-14 01:23:25 +0100 (Sun, 14 Jan 2007) $
+    $Revision: 179 $        $Date: 2007-01-14 03:23:25 +0300 (Sun, 14 Jan 2007) $
 
 
 =head1 SYNOPSIS

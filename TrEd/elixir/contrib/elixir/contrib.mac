@@ -5,21 +5,16 @@
 
 #include <contrib/pml/PML.mak>
 
-package PADT;
+package ElixirFM;
 
 BEGIN {
 
     use Exporter 'import';
 
-    our @EXPORT_OK = ('switch_context_hook', 'pre_switch_context_hook', 'idx');
+    our @EXPORT_OK = ('switch_context_hook', 'pre_switch_context_hook');
 
     import TredMacro;
 }
-
-our $regexQ = qr/[0-9]+(?:[\.\,\x{060C}\x{066B}\x{066C}][0-9]+)? |
-                 [\x{0660}-\x{0669}]+(?:[\.\,\x{060C}\x{066B}\x{066C}][\x{0660}-\x{0669}]+)?/x;
-
-our $regexG = qr/[\.\,\;\:\!\?\`\"\'\(\)\[\]\{\}\<\>\\\|\/\~\@\#\$\%\^\&\*\_\=\+\-\x{00AB}\x{00BB}\x{060C}\x{061B}\x{061F}]/;
 
 sub initialize_direction {
 
@@ -62,29 +57,12 @@ sub pre_switch_context_hook {
 
     return unless GUI();
 
-    return if $_[0] =~ /ElixirFM|MorphoTrees|Analytic|DeepLevels|WordsLevel|PhraseTrees/ and
-              $_[1] =~ /ElixirFM|MorphoTrees|Analytic|DeepLevels|WordsLevel|PhraseTrees/;
+    return if $_[0] =~ /ElixirFM/ and $_[1] =~ /ElixirFM/;
 
     initialize_direction('left-to-right', 'left');
 }
 
-sub idx {
-
-    my $node = $_[0] || $this;
-
-    return unless exists $node->{'id'};
-
-    my @idx = grep { $_ ne '' } split /[^0-9]+/, $node->{'id'};
-
-    return wantarray ? @idx : ( "#" . join "/", @idx );
-}
-
 #include "ElixirFM.mak"
-#include "MorphoTrees.mak"
-#include "Analytic.mak"
-#include "DeepLevels.mak"
-#include "WordsLevel.mak"
-#include "PhraseTrees.mak"
 
 package TredMacro;
 
@@ -92,18 +70,8 @@ push @AUTO_CONTEXT_GUESSING, sub {
 
     my $schema = PML::SchemaName();
 
-    return $schema       if defined $schema and $schema =~ /ElixirFM|MorphoTrees|Analytic|DeepLevels|WordsLevel|PhraseTrees/;
+    return $schema if defined $schema and $schema =~ /ElixirFM/;
 
-    return 'MorphoTrees' if $grp->{FSFile}->FS()->isList('type') and
-                            grep { /[EP]|paragraph|entity/ } $grp->{FSFile}->FS()->listValues('type');
-
-    return 'DeepLevels'  if $grp->{FSFile}->FS()->isList('func') and
-                            grep { /ACT|PAT|ADDR|EFF|ORIG/ } $grp->{FSFile}->FS()->listValues('func');
-
-    return 'Analytic'    if $grp->{FSFile}->FS()->exists('afun') and
-                            $grp->{FSFile}->FS()->exists('arabclause');
-
-    return 'PhraseTrees' if $grp->{FSFile}->FS()->exists('label');
     return;
 };
 

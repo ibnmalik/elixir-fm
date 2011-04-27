@@ -576,7 +576,7 @@ Encode::Mapper - Intuitive, yet efficient mappings for Encode
 
 =head1 REVISION
 
-    $Revision: 663 $       $Date: 2008-08-11 16:21:54 +0200 (Mon, 11 Aug 2008) $
+    $Revision: 663 $       $Date: 2008-08-11 17:21:54 +0300 (Mon, 11 Aug 2008) $
 
 
 =head1 SYNOPSIS

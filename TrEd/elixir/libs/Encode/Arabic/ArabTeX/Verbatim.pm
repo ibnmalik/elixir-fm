@@ -1656,7 +1656,7 @@ Encode::Arabic::ArabTeX::Verbatim - Interpreter of the Verbatim variant of the A
 
 =head1 REVISION
 
-    $Revision: 717 $        $Date: 2008-10-03 00:28:12 +0200 (Fri, 03 Oct 2008) $
+    $Revision: 717 $        $Date: 2008-10-03 01:28:12 +0300 (Fri, 03 Oct 2008) $
 
 
 =head1 SYNOPSIS

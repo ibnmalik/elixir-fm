@@ -86,7 +86,7 @@ Encode::Arabic - Encodings of Arabic
 
 =head1 REVISION
 
-    $Revision: 934 $        $Date: 2010-02-13 17:26:58 +0100 (Sat, 13 Feb 2010) $
+    $Revision: 934 $        $Date: 2010-02-13 19:26:58 +0300 (Sat, 13 Feb 2010) $
 
 
 =head1 SYNOPSIS

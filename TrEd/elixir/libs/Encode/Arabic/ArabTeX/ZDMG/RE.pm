@@ -102,7 +102,7 @@ Encode::Arabic::ArabTeX::ZDMG::RE - Deprecated Encode::Arabic::ArabTeX::ZDMG imp
 
 =head1 REVISION
 
-    $Revision: 143 $        $Date: 2006-11-15 02:16:57 +0100 (Wed, 15 Nov 2006) $
+    $Revision: 143 $        $Date: 2006-11-15 04:16:57 +0300 (Wed, 15 Nov 2006) $
 
 
 =head1 SYNOPSIS
