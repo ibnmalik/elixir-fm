@@ -1,7 +1,7 @@
-# -*- cperl -*-
+# -*- perl -*-
 
-#ifndef padt
-#define padt
+#ifndef elixir
+#define elixir
 
 #include <contrib/pml/PML.mak>
 
@@ -75,4 +75,4 @@ push @AUTO_CONTEXT_GUESSING, sub {
     return;
 };
 
-#endif padt
+#endif elixir
