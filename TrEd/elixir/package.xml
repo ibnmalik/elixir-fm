@@ -4,7 +4,7 @@
     <schema href="tred_extension_schema.xml"/>
   </head>
   <pkgname>elixir</pkgname>
-  <icon></icon>
+  <icon>icons/elixir.png</icon>
   <repository href="http://ufal.mff.cuni.cz/~pajas/tred/extensions/"/>
   <title>ElixirFM Lexicon</title>
   <version>1.2.0.0</version>
