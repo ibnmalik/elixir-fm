@@ -60,13 +60,21 @@ sub AraMorph_POSVector ($) {
 
     &initialize_AraMorph_POSVector unless defined $AraMorph_POSVector;
 
-    if (exists $AraMorph_POSVector->{$_[0]}) {
+    my $data = $_[0];
 
-        return $AraMorph_POSVector->{$_[0]};
+    $data =~ s/NOUN_QUANT/NOUN/;
+    $data =~ s/NOUN_NUM/NUM/;
+
+    $data =~ s/ADJ_COMP/ADJ/;
+    $data =~ s/ADJ_NUM/ADJ/;
+
+    if (exists $AraMorph_POSVector->{$data}) {
+
+        return $AraMorph_POSVector->{$data};
     }
     else {
 
-        $AraMorph_POSVector_missing{$_[0]}++;
+        $AraMorph_POSVector_missing{$data}++;
 
         return $AraMorph_POSVector->{''};
     }
@@ -1483,7 +1491,7 @@ sub morph_is_prefix ($) {
                     min/PREP | la/EMPH(?:ATIC)?_PART | la/RESULT_CLAUSE_PARTICLE | la/RC_PART |
                     \>a/INTERROG_PART | wa/OATH | wi?/CONJ | \>awi?/CONJ | .*/EXIST_PART |
                     [Hh]a?/FUT | b[ai]/ASP_PART | [bm]/ASP_PART | fA?/CONJ | b/CONJ | .*/PREP |
-                    \<in/SUB_CONJ | ma/NEG_PART )}x;
+                    \<in/SUB_CONJ | ma/NEG_PART | fa/CONNEC_PART | .*/PUNC )}x;
 }
 
 
@@ -1568,7 +1576,7 @@ Perl is also designed to make the easy jobs not that easy ;)
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2003-2007 by Otakar Smrz
+Copyright 2003-2011 Otakar Smrz
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

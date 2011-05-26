@@ -284,7 +284,7 @@ sub main ($) {
     $r .= $q->p("ElixirFM can process words of", $q->a({-href => 'http://en.wikipedia.org/wiki/Dictionary_of_Modern_Written_Arabic'},
                 "Modern Written Arabic"), "using four different modes.", "Here, you can learn how to use these modes for various purposes.");
 
-    $r .= $q->p("ElixirFM is further documented at", $q->a({-href => 'http://elixir-fm.wiki.sourceforge.net/'},
+    $r .= $q->p("ElixirFM is further documented at", $q->a({-href => 'http://sourceforge.net/apps/trac/elixir-fm/'},
                 "ElixirFM Wiki") . ".",
                 "The multiple scripts of this site are best viewed with", $q->a({-href => 'http://sourceforge.net/projects/dejavu/'},
                 "DejaVu Fonts") . ".");
