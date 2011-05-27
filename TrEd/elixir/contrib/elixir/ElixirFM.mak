@@ -1226,17 +1226,11 @@ no strict;
 ElixirFM - Context for Annotation of the ElixirFM Lexicon in the TrEd Environment
 
 
-=head1 REVISION
-
-    $Revision$       $Date$
-
-
 =head1 DESCRIPTION
 
-ElixirFM ...
-
-
-=head1 SEE ALSO
+ElixirFM is a high-level implementation of Functional Arabic Morphology documented at
+L<http://sourceforge.net/apps/trac/elixir-fm/>. The core of ElixirFM is written in Haskell,
+while interfaces in Perl support lexicon editing and other interactions.
 
 TrEd Tree Editor L<http://ufal.mff.cuni.cz/~pajas/tred/>
 
@@ -1245,11 +1239,7 @@ Prague Arabic Dependency Treebank L<http://ufal.mff.cuni.cz/padt/online/>
 
 =head1 AUTHOR
 
-Otakar Smrz, L<http://ufal.mff.cuni.cz/~smrz/>
-
-    eval { 'E<lt>' . ( join '.', qw 'otakar smrz' ) . "\x40" . ( join '.', qw 'mff cuni cz' ) . 'E<gt>' }
-
-Perl is also designed to make the easy jobs not that easy ;)
+Otakar Smrz E<lt>otakar.smrz mff.cuni.czE<gt>
 
 
 =head1 COPYRIGHT AND LICENSE
