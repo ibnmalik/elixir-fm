@@ -33,7 +33,7 @@
        x="0"
        y="0"
        id="rect5050"
-       style="fill:#ffffff;fill-opacity:1;stroke:none" />
+       style="fill:#ffffff;fill-opacity:0;stroke:none" />
     <path
        d="M 3,45 17,24 3,3 17,3 45,45 31,45 24,34.5 17,45 Z"
        id="path3018"
