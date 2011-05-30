@@ -131,6 +131,10 @@ sub display_headline ($) {
     my $m = $q->param($c->mode_param());
     my $r;
 
+    $r .= $q->a({'href' => 'http://sourceforge.net/projects/elixir-fm/'},
+                $q->img({-src => 'http://quest.ms.mff.cuni.cz/elixir/elixir.png', -alt => 'ElixirFM',
+                         -style => 'background-color: #FFFFFF; float: left; margin: -2px 8px 0px 0px'}));
+
     $r .= $q->h1($q->a({'href' => 'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM"), ( $m eq 'home' ? ('Online', 'Interface') : (ucfirst $m, 'Online') ));
 
     $r .= $q->div({-class => "menu"},
