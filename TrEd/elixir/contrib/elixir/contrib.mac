@@ -47,9 +47,6 @@ sub switch_context_hook {
 
     SetCurrentStylesheet($class) unless $sheet =~ $class;
 
-    UnbindBuiltin('Shift+Home');
-    UnbindBuiltin('Shift+End');
-
     initialize_direction('right-to-left', 'right');
 }
 
