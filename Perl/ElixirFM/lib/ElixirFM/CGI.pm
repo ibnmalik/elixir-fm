@@ -116,6 +116,7 @@ sub display_header ($) {
     $r .= $q->start_html(-title  => "ElixirFM Online Interface", -encoding => $q->charset(),
                          -meta   => { 'keywords' => join ' ', 'Arabic morphological analyzer analysis generator generation',
                                                               'morphology lexicon dictionary lookup inflection derivation rules grammar language' },
+                         -head   => $q->Link({-rel => 'shortcut icon', -href => 'http://quest.ms.mff.cuni.cz/elixir/elixir.ico', -type => 'image/x-icon'}),
                          -style  => [ {-src => 'http://quest.ms.mff.cuni.cz/elixir/elixir.css', -type => 'text/css'},
                                       {-src => 'http://quest.ms.mff.cuni.cz/elixir/listexpander/listexpander.css', -type => 'text/css'} ],
                          -script => [ {-src => 'http://quest.ms.mff.cuni.cz/elixir/elixir.js', -type => 'text/javascript'},
@@ -132,7 +133,9 @@ sub display_headline ($) {
     my $r;
 
     $r .= $q->a({'href' => 'http://sourceforge.net/projects/elixir-fm/'},
-                $q->img({-src => 'http://quest.ms.mff.cuni.cz/elixir/elixir.png', -alt => 'ElixirFM',
+                $q->img({-border => '0',
+                         -src => 'http://quest.ms.mff.cuni.cz/elixir/elixir.png',
+                         -alt => 'ElixirFM',
                          -style => 'background-color: #FFFFFF; float: left; margin: -2px 8px 0px 0px'}));
 
     $r .= $q->h1($q->a({'href' => 'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM"), ( $m eq 'home' ? ('Online', 'Interface') : (ucfirst $m, 'Online') ));
