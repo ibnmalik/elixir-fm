@@ -556,6 +556,9 @@ cluster_33  = cluster
     FaCiL                     `noun`    {- <'alif> -}          [ unwords [ ['a','l','i','f'], "(", ['A','r','a','b','i','c'], ['l','e','t','t','e','r'], ")" ] ]
                               `plural`     FaCiL |< At,
 
+    FaCL |< Iy |< aT          `noun`    {- <'alfIyaT> -}       [ ['m','i','l','l','e','n','n','i','u','m'] ]
+                              `plural`     FaCL |< Iy |< At,
+
     FaCL |< Iy                `adj`     {- <'alfIy> -}         [ ['m','i','l','l','e','n','a','r','y'], unwords [ ['o','n','e'], ['t','h','o','u','s','a','n','d','t','h'] ] ] ]
 
 

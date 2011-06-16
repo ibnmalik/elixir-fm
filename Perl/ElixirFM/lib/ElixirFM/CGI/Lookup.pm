@@ -63,7 +63,7 @@ sub pretty_lookup_data {
 
     my $q = $_[1];
 
-    my $clip = '(' . $_[2]->[0] . ',Nothing)';
+    my $clip = '(' . $_[2]->[0] . ',[])';
 
     return $q->table({-cellspacing => 0, -class => "nest"},
                      $q->Tr($q->td({-class => "root",
@@ -87,7 +87,7 @@ sub pretty_lookup_tree {
 
         my $clip = [undef, undef];
 
-        (@{$clip}) = $_->{'clip'} =~ /^\( (-?[1-9][0-9]*) , (?: Nothing | Just \[ ([^\]]*) \] ) \)$/x;
+        (@{$clip}) = $_->{'clip'} =~ /^\( (-?[1-9][0-9]*) , (?: \[ ([^\]]*) \] ) \)$/x;
 
         $clip->[1] = [ grep { /^-?[1-9][0-9]*$/ } split ',', $clip->[1] ] if defined $clip->[1];
 

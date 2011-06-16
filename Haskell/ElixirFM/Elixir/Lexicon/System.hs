@@ -27,6 +27,16 @@ import Elixir.System
 import Elixir.Pretty
 
 
+type Clips = (Int, [Int])
+
+type Index = (Int, Int)
+
+
+clips :: Index -> Clips
+
+clips (i, j) = (i, [j])
+
+
 include :: [Lexicon] -> Lexicon
 
 include = concat    -- include f = concat . map f
@@ -40,10 +50,6 @@ cluster = []
 type Lexicon = [Wrap Nest]
 
 type Cluster = Lexicon
-
-type Clips = (Int, Maybe [Int])
-
-type Index = (Int, Int)
 
 
 data Nest   a   =   Nest   Root [Entry a]   deriving (Show, Eq)

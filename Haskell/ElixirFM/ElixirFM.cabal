@@ -2,7 +2,7 @@ name:               ElixirFM
 version:            1.2.0
 license:            GPL
 license-file:       LICENSE
-extra-source-files: INSTALL, Setup.PL
+extra-source-files: INSTALL, Setup.PL, elixir.svg
 copyright:          2011
 author:             Otakar Smrz
 maintainer:         otakar.smrz mff.cuni.cz
@@ -295,7 +295,7 @@ extensions:         MultiParamTypeClasses,
                     RankNTypes,
                     --  ScopedTypeVariables,
                     OverlappingInstances,
-		    --  IncoherentInstances,
+            --  IncoherentInstances,
                     UndecidableInstances,
                     TypeSynonymInstances,
                     FlexibleInstances,

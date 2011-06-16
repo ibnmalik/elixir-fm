@@ -1488,6 +1488,8 @@ cluster_84  = cluster
 
     FaCCY                     `verb`    {- <mannY> -}          [ ['a','r','o','u','s','e'], unwords [ ['r','a','i','s','e'], ['h','o','p','e','s'] ], unwords [ ['b','e'], ['h','e','a','r','t','e','n','e','d'] ] ],
 
+    HaFCY                     `verb`    {- <'amnY> -}          [ ['e','j','a','c','u','l','a','t','e'] ],
+
     TaFaCCY                   `verb`    {- <tamannY> -}        [ ['d','e','s','i','r','e'], unwords [ ['w','i','s','h'], ['f','o','r'] ], ['h','o','p','e'] ],
 
     IstaFCY                   `verb`    {- <istamnY> -}        [ ['m','a','s','t','u','r','b','a','t','e'] ],
@@ -1512,12 +1514,16 @@ cluster_84  = cluster
                               `plural`     FaCALY,
 
     FuCL |< aT                `noun`    {- <munyaT> -}         [ ['w','i','s','h'], ['d','e','s','i','r','e'], ['a','s','p','i','r','a','t','i','o','n'] ]
-                              `plural`     HaFACI
-                              `plural`     HuFCIL,
+                              `plural`     FuCY,
 
     FiCL |< aT                `noun`    {- <minyaT> -}         [ ['w','i','s','h'], ['d','e','s','i','r','e'], ['a','s','p','i','r','a','t','i','o','n'] ]
-                              `plural`     HaFACI
-                              `plural`     HuFCIL,
+                              `plural`     FuCY,
+
+    HuFCIL |< aT              `noun`    {- <'umnIyaT> -}       [ ['w','i','s','h'], ['d','e','s','i','r','e'], ['a','s','p','i','r','a','t','i','o','n'] ]
+                              `plural`     HaFACIL,
+
+    HuFCI |< aT               `noun`    {- <'umniyaT> -}       [ ['w','i','s','h'], ['d','e','s','i','r','e'], ['a','s','p','i','r','a','t','i','o','n'] ]
+                              `plural`     HaFACI,
 
     TaFCI |< aT               `noun`    {- <tamniyaT> -}       [ ['e','j','a','c','u','l','a','t','i','o','n'] ],
 

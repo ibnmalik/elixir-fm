@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Derive
--- Copyright   :  Otakar Smrz 2005-2010
+-- Copyright   :  Otakar Smrz 2005-2011
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -32,7 +32,7 @@ instance (Show a, Template a) => Pretty [(TagsType, [(Form, Lexeme a)])] where
 
 instance (Show a, Template a) => Pretty (TagsType, [(Form, Lexeme a)]) where
 
-    pretty (x, y) = pretty x <> (nest 12 . vcat)
+    pretty (x, y) = pretty x <> (nest 10 . vcat)
 
                     [ encloseText [show u, merge r (morphs e), show r, show (morphs e)] | (u, Lexeme r e) <- y ]
 

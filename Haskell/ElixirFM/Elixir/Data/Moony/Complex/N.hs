@@ -195,7 +195,7 @@ cluster_8   = cluster
     TaFaCCuL                  `noun`    {- <tamayyu`> -}       [ ['l','i','q','u','e','f','a','c','t','i','o','n'] ]
                               `plural`     TaFaCCuL |< At,
 
-    FA'iL                     `noun`    {- <mA'i`> -}          [ ['m','e','l','t','i','n','g'], ['l','i','q','u','i','d'] ],
+    FA'iL                     `adj`     {- <mA'i`> -}          [ ['l','i','q','u','i','d'], ['m','e','l','t','i','n','g'] ],
 
     FA'iL                     `noun`    {- <mA'i`> -}          [ ['f','l','u','i','d'] ]
                               `plural`     FawACiL

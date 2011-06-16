@@ -1445,7 +1445,7 @@ cluster_57  = cluster
                               `plural`     FiCAL
                               `plural`     FuCUL,
 
-    FuCAL |< Iy               `adj`     {- <qulA`Iy> -}        [ unwords [ ['f','o','o','t'], "-", ['a','n','d'], "-", ['m','o','u','t','h'], "(", ['d','i','s','e','a','s','e'], ")" ] ],
+    FuCAL |< Iy               `noun`    {- <qulA`Iy> -}        [ unwords [ ['f','o','o','t'], "-", ['a','n','d'], "-", ['m','o','u','t','h'], "(", ['d','i','s','e','a','s','e'], ")" ] ],
 
     MaFCaL                    `noun`    {- <maqla`> -}         [ unwords [ ['s','t','o','n','e'], ['q','u','a','r','r','y'] ] ]
                               `plural`     MaFACiL,

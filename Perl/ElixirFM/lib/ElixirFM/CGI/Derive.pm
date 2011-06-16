@@ -65,9 +65,9 @@ sub pretty_lookup_data {
 
     my $q = $_[1];
 
-    my ($clip) = $data->{'clip'} =~ /^\( (-?[1-9][0-9]*) , (?: Nothing | Just \[ ([^\]]*) \] ) \)$/x;
+    my ($clip) = $data->{'clip'} =~ /^\( (-?[1-9][0-9]*) , (?: \[ ([^\]]*) \] ) \)$/x;
 
-    $clip = "($clip,Nothing)";
+    $clip = "($clip,[])";
 
     return $q->table({-cellspacing => 0, -class => "nest"},
                      $q->Tr($q->td({-class => "root",
@@ -93,7 +93,7 @@ sub pretty_lookup_tree {
 
             my $clip = [undef, undef];
 
-            (@{$clip}) = $data->{'clip'} =~ /^\( (-?[1-9][0-9]*) , (?: Nothing | Just \[ ([^\]]*) \] ) \)$/x;
+            (@{$clip}) = $data->{'clip'} =~ /^\( (-?[1-9][0-9]*) , (?: \[ ([^\]]*) \] ) \)$/x;
 
             $clip->[1] = [ grep { /^-?[1-9][0-9]*$/ } split ',', $clip->[1] ] if defined $clip->[1];
 
@@ -178,7 +178,6 @@ sub pretty_derive_list {
 
     return '' if @data < 4;
 
-    $data[0] = substr $data[0], 1, -1;
     $data[3] = substr $data[3], 1, -1;
 
     return $q->Tr( join $",

@@ -96,31 +96,41 @@ synopsis = unlines [copyleft,
                     "elixir [--]MODE [--OPTIONS] [PARAMETERS]"]
 
 
-main = do   argv <- getArgs
+main = do   args <- getArgs
 
-            hSetBinaryMode stdin True
+            hSetBinaryMode stdin  True
             hSetBinaryMode stdout True
 
-            let mods = case argv of []              ->  ["--help"]
-                                    ('-' : x) : xs  ->  argv
-                                    x : xs          ->  ("--" ++ x) : xs
+            hSetBuffering stdin  LineBuffering
+            hSetBuffering stdout LineBuffering
+
+            let mods = case args of []      ->  []
+                                    x : xs  ->  case x of
+
+                                        '-' : '-' : y   ->  stop y ++ xs
+                                        '-' : _         ->  args
+                                        _               ->  stop x ++ xs
+
+                stop x = if any (isPrefixOf x) ["inflect", "derive"]
+                         then ["--" ++ x, "--"]
+                         else ["--" ++ x]
 
                 (opts, pars, errs) = getOpt Permute options mods
 
-            if null errs then case head opts of
+            if null errs && not (null opts) then case head opts of
 
                 RunAction runs  ->  runs (tail opts) pars
 
                 PrintVersion    ->  tell (unlines [copyleft,
                                           unwords ["ElixirFM",
                                                    showVersion version,
-                                                   "April 2011"]])
+                                                   "June 2011"]])
 
                 DisplayUsage    ->  tell (usageInfo synopsis options)
 
                 _               ->  warn (usageInfo synopsis options)
 
-                         else       warn (usageInfo synopsis options)
+                    else            warn (usageInfo synopsis options)
 
 
 tell = hPutStr stdout
@@ -168,22 +178,30 @@ elixirResolve o p = interact (unlines . map (encode UTF . decode UCS . show . q 
           e = if null p then "" else map toLower (head p)
 
 
-elixirInflect o p = interact (unlines . map (show . q . words) . onlines)
+elixirInflect o p = interact (unlines . map (show . q) . onlines)
 
-    where q x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (inflect (Lexeme r e) x) | e <- z ]) w ]
+    where q x = vsep [ z | (y, z) <- c x, let t = lists d z, w <- emanate y, z <- f t w ]
 
-          c x = [ y | (y, _) <- reads x ] ++ [ (i, Just [j]) | ((i, j), _) <- reads x ]
+          f x = unwraps (\ (Nest r z) -> [ pretty (inflect (Lexeme r e) x) | e <- z ])
 
-          i = [ z | x <- p, y <- c x, z <- lookupClips y ]
+          c x = [ (y, e z) | (y, z) <- reads x ] ++ [ (clips y, e z) | (y, z) <- reads x ]
+
+          e x = [ z | y <- words x, z <- convert y ]
+
+          d = [ z | y <- lists ["----------"] p, z <- convert y ]
 
 
-elixirDerive o p = interact (unlines . map (show . q . words) . onlines)
+elixirDerive o p = interact (unlines . map (show . q) . onlines)
 
-    where q x = vsep [ z | w <- i, z <- unwraps (\ (Nest r z) -> [ pretty (derive (Lexeme r e) x) | e <- z ]) w ]
+    where q x = vsep [ z | (y, z) <- c x, let t = lists d z, w <- emanate y, z <- f t w ]
 
-          c x = [ y | (y, _) <- reads x ] ++ [ (i, Just [j]) | ((i, j), _) <- reads x ]
+          f x = unwraps (\ (Nest r z) -> [ pretty (derive (Lexeme r e) x) | e <- z ])
 
-          i = [ z | x <- p, y <- c x, z <- lookupClips y ]
+          c x = [ (y, e z) | (y, z) <- reads x ] ++ [ (clips y, e z) | (y, z) <- reads x ]
+
+          e x = [ z | y <- words x, z <- convert y ]
+
+          d = [ z | y <- lists ["----------"] p, z <- convert y ]
 
 
 elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) . onlines)
@@ -203,20 +221,20 @@ elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) 
                                                       else if null (head r) then lookup ""
                                                                             else lookup (map (decode UCS) r))
 
-                where c = [ y | (y, _) <- reads x ] ++ [ (i, Just [j]) | ((i, j), _) <- reads x ]
+                where c = [ y | (y, _) <- reads x ] ++ [ clips y | (y, _) <- reads x ]
                       r = unfoldr (\ x -> let y = reads x in if null y then Nothing else Just (head y)) x
                       y = unwords (words x)
 
-          f x = singleline id [ (text . show) y <> linebreak <> pretty z | y <- x, z <- lookupClips y ]
+          f x = singleline id [ (text . show) y | y <- x ]
 
           e = if null p then "" else map toLower (head p)
 
 
-elixirLexicon o p = (putDoc . pretty . f) (lists [(0, Nothing)] ((concat . map q) p))
+elixirLexicon o p = interact (unlines . map (show . q) . onlines)
 
-    where q x = [ y | (y, _) <- reads x ] ++ [ (i, Just [j]) | ((i, j), _) <- reads x ]
+    where q x = vcat [ pretty z | y <- c x, z <- emanate y ]
 
-          f x = [ lookupClips y | y <- x ]
+          c x = [ y | (y, _) <- reads x ] ++ [ clips y | (y, _) <- reads x ]
 
 
 elixirCompose o p = (putDoc . generate e) lexicon

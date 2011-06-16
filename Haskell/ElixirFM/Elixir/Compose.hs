@@ -148,6 +148,7 @@ harmony (ParaPron (PronD _ _ _))    y
     | otherwise                         = [Nothing]
 
 harmony (ParaPron PronS)    "mA"    = [Nothing, Just ("V[PI]I-------", const True),
+                                                Just ("P---------", const True),
                                                 Just ("S---------", (== "mA"))]
 harmony (ParaPron PronS)    y       = [Nothing, Just ("S---------", (== "mA"))]
 harmony (ParaPron _)        y       = [Nothing]     -- in modern language

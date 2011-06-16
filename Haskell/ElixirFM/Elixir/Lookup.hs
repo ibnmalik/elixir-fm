@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Lookup
--- Copyright   :  Otakar Smrz 2005-2010
+-- Copyright   :  Otakar Smrz 2005-2011
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -35,26 +35,16 @@ import Data.List hiding (lookup)
 import Prelude hiding (lookup)
 
 
-lookupClips :: Clips -> Lexicon
+emanate :: Clips -> Lexicon
 
-lookupClips (i, n) = [ z | w <- find i lexicon, z <- wraps (lookups n) w ]
+emanate (i, n) = [ z | w <- find i lexicon, z <- wraps (lookups n) w ]
 
     where find x y | x > 0     = take 1 (drop (x - 1) y)
                    | x < 0     = find (-x) (reverse y)
-                   | otherwise = y
+                   | otherwise = []
 
-          lookups Nothing  n          = [n]
-          lookups (Just n) (Nest r l) = [Nest r [ e | j <- n, e <- find j l ]]
-
-
-lookupIndex :: Index -> Lexicon
-
-lookupIndex (i, j) = lookupClips (i, Just [j])
-
-
-emanate :: Clips -> Lexicon
-
-emanate = lookupClips
+          lookups [] z          = [z]
+          lookups n  (Nest r y) = [Nest r [ e | x <- n, e <- find x y ]]
 
 
 lookupUsing :: Maybe [Clips] -> (Root -> Maybe Bool) -> (forall c .
@@ -63,8 +53,8 @@ lookupUsing :: Maybe [Clips] -> (Root -> Maybe Bool) -> (forall c .
 
 lookupUsing Nothing   p q = [ z | (n, i) <- zip lexicon [1 ..], z <- unwraps (lookups i p q) n ]
 
-    where lookups i p q (Nest r l) = case p r of Just True                 -> [(i, Nothing)]
-                                                 Just _    | not (null js) -> [(i, Just js)]
+    where lookups i p q (Nest r l) = case p r of Just True                 -> [(i, [])]
+                                                 Just _    | not (null js) -> [(i, js)]
                                                  _                         -> []
 
                 where js = [ j | (e, j) <- zip l [1 ..], q r e ]
@@ -74,18 +64,11 @@ lookupUsing (Just cs) p q = [ z | (n, i) <- zip lexicon [1 ..], (c, ds) <- cs, i
                                   z <- unwraps (lookups i ds p q) n ]
 
     where lookups i ds p q (Nest r l) = case p r of Just True                 -> [(i, ds)]
-                                                    Just _    | not (null js) -> [(i, Just js)]
+                                                    Just _    | not (null js) -> [(i, js)]
                                                     _                         -> []
 
-                where js = case ds of Nothing -> [ j | (e, j) <- zip l [1 ..], q r e ]
-                                      Just d  -> [ j | (e, j) <- zip l [1 ..], j `elem` d, q r e ]
-
-
-intersection :: Eq a => Maybe [a] -> Maybe [a] -> Maybe [a]
-
-intersection x        Nothing  = x
-intersection Nothing  y        = y
-intersection (Just x) (Just y) = Just (intersect x y)
+                where js = case ds of [] -> [ j | (e, j) <- zip l [1 ..], q r e ]
+                                      _  -> [ j | (e, j) <- zip l [1 ..], d <- ds, j == d, q r e ]
 
 
 class Lookup a where
@@ -111,16 +94,18 @@ instance Lookup a => Lookup [a] where
 
 instance Lookup Index where
 
-    lookupWith y (u, v) = lookupWith y (u, Just [v])
+    lookupWith y x = lookupWith y (clips x)
 
 
 instance Lookup Clips where
 
     lookupWith Nothing  q       = [q]
-    lookupWith (Just p) (x, xs) = [ r | (y, ys) <- p, y == x, r <- z x (intersection ys xs)]
+    lookupWith (Just p) (x, xs) = [ (x, zs) | (y, ys) <- p, y == x, zs <- ints xs ys ]
 
-        where z x i = case i of Just [] -> []
-                                _       -> [(x, i)]
+        where ints xs [] = [xs]
+              ints [] ys = [ys]
+              ints xs ys = case intersect ys xs of [] -> []
+                                                   zs -> [zs]
 
 
 instance Lookup [UPoint] where

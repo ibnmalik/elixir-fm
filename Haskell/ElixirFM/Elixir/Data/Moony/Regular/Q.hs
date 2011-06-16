@@ -1724,7 +1724,7 @@ cluster_96  = cluster
 
     TaFCIL |< aT              `noun`    {- <takrI`aT> -}       [ ['b','e','l','c','h','i','n','g'], ['e','r','u','c','t','a','t','i','o','n'] ],
 
-    FACiL                     `noun`    {- <kAri`> -}          [ ['f','o','o','t'], ['a','n','k','l','e'], ['t','r','o','t','t','e','r'], ['f','e','e','t'] ]
+    FACiL                     `noun`    {- <kAri`> -}          [ ['f','o','o','t'], ['a','n','k','l','e'], ['t','r','o','t','t','e','r'] ]
                               `plural`     FawACiL ]
 
 

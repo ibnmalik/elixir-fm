@@ -290,9 +290,9 @@ cluster_10  = cluster
                               `plural`     FaCA'iL
                               `plural`     FiCAL,
 
-    FaCIL                     `noun`    {- <nasIm> -}          [ ['N','a','s','e','e','m'], ['N','a','s','i','m'] ],
+    FaCIL                     `noun`    {- <nasIm> -}          [ ['N','a','s','i','m'], ['N','a','s','e','e','m'] ],
 
-    MaFCiL                    `noun`    {- <mansim> -}         [ unwords [ ['f','o','o','t'], ['s','o','l','e'] ], unwords [ ['p','a','d','d','e','d'], ['f','o','o','t'] ], unwords [ ['p','a','d','d','e','d'], ['f','e','e','t'] ] ]
+    MaFCiL                    `noun`    {- <mansim> -}         [ unwords [ ['f','o','o','t'], ['s','o','l','e'] ], unwords [ ['p','a','d','d','e','d'], ['f','o','o','t'] ] ]
                               `plural`     MaFACiL,
 
     MutaFaCCaL                `noun`    {- <mutanassam> -}     [ unwords [ ['p','l','a','c','e'], ['o','f'], ['e','m','a','n','a','t','i','o','n'] ] ] ]

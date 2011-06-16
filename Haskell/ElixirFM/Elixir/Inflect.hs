@@ -85,7 +85,7 @@ instance Inflect Lexeme ParaType where
 
 instance Inflect Lexeme String where
 
-    inflect x@(Lexeme r e) y = inflect x (restrict (domain e) (convert y))
+    inflect x y = inflect x (convert y)
 
 
 instance Inflect Lexeme a => Inflect Lexeme [a] where
