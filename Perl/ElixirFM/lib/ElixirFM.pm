@@ -851,8 +851,10 @@ sub unwords {
 
         @data = map {
 
-            split /(?<=<\/Nest>)\s*/, $_
-
+            split /^(?=[\t ]*\(\ *-?\ *[1-9][0-9]*\ *,
+                               \ *(?:-?\ *[1-9][0-9]*|
+                                     \[\ *\]|
+                                     \[\ *-?\ *[1-9][0-9]*\ *(?:\,\ *-?\ *[1-9][0-9]*\ *)*\])\ *\))/xm, $_
         } @data;
     }
     elsif ($type eq 'lexicon') {
@@ -935,11 +937,13 @@ sub unpretty {
 
                     my ($clip, $data) = split /\s*<Nest>\s*/, $_;
 
+                    $data = '' unless defined $data;
+
                     my ($root) = $data =~ /(<root>.*?<\/root>)/;
 
-                    my (@ents) = $data =~ /(<Entry>.*?<\/Entry>)/gs;
+                    $root = defined $root ? parse($root)->[2] : '';
 
-                    $root = parse($root)->[2];
+                    my (@ents) = $data =~ /(<Entry>.*?<\/Entry>)/gs;
 
                     {
                         'clip'  =>  ( join '', split ' ', $clip ),

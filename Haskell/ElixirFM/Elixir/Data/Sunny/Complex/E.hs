@@ -457,7 +457,8 @@ cluster_21  = cluster
                               `imperf`     FCI
                               `masdar`     FiCA',
 
-    IFtaCY                    `verb`    {- <i^starY> -}        [ ['b','u','y'], ['p','u','r','c','h','a','s','e'] ],
+    IFtaCY                    `verb`    {- <i^starY> -}        [ ['b','u','y'], ['p','u','r','c','h','a','s','e'] ]
+                              `masdar`     FiCA',
 
     IstaFCY                   `verb`    {- <ista^srY> -}       [ ['d','e','t','e','r','i','o','r','a','t','e'] ],
 

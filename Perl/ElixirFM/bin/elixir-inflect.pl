@@ -1,3 +1,5 @@
+#! perl -w
+
 use ElixirFM;
 
 use ElixirFM::Exec;
@@ -34,7 +36,7 @@ print
 
 @clip = ElixirFM::unpretty ElixirFM::Exec::elixir 'lookup', ["tex"], 'huwa';
 
-@data = ElixirFM::unpretty ElixirFM::Exec::elixir 'inflect', [ map { $_->{'clip'} } map { @{$_} } @clip ], 'SP------1-';
+@data = ElixirFM::unpretty ElixirFM::Exec::elixir 'inflect', ['SP------1-'], map { $_->{'clip'} } map { @{$_} } @clip;
 
 # print join "\n", ElixirFM::concat map { @{$_} } map { @{$_} } @data;
 
@@ -54,7 +56,7 @@ foreach $form (@ARGV) {
 
         print
 
-        @data = ElixirFM::unpretty ElixirFM::Exec::elixir 'inflect', [ map { $_->{'clip'} } @{$clip} ], 'VP-A------ VI-A------';
+        @data = ElixirFM::unpretty ElixirFM::Exec::elixir 'inflect', ['VP-A------', 'VI-A------'], map { $_->{'clip'} } @{$clip};
 
         # print join "\n\n", map { join "\\\\\n", map { join "\t", "\\xtag{" . $_->[0] . "}", map { "\\nice{" . $_->[0] . "}" } @{$_}[1 .. @{$_} - 1] } @{$_} } @data;
 
