@@ -26,6 +26,8 @@ import Elixir.Inflect
 
 import Elixir.Derive
 
+import Elixir.Pretty
+
 import Encode.Arabic
 
 import Data.Char
@@ -33,6 +35,50 @@ import Data.Char
 import Data.List hiding (lookup)
 
 import Prelude hiding (lookup)
+
+
+instance Pretty [Clips] where
+
+    pretty = singleline pretty
+
+
+instance Pretty Clips where
+
+    pretty x = (text . show) x <$$> vcat [ unwraps (\ (Nest r z) ->
+
+                    vcat [ vcat (
+
+                           [text (show i) <> text "\t" <> pretty (domain e) <>
+                            encloseText [merge r (morphs e), show r, show (morphs e), show (reflex e)]]
+
+                           ++
+
+                           [ text "\t" <> pretty f <> text "\t" <>
+                             text (intercalate "\n\t          " [ intercalate "\t" [merge r t, show r, show t] | t <- s ])
+                           | (f : _, s) <- snd (limits e) ])
+
+                         | (i, e) <- zip y z ]
+
+                    ) w | w <- z ]
+
+        where y = enumerate x
+
+              z = case unzip y of ([], _)    -> []
+                                  (i : _, j) -> emanate (i, j)
+
+
+enumerate :: Clips -> [Index]
+
+enumerate (i, n) = [ (j, z) | (j, w) <- find i lexicon, z <- unwraps (lookups n) w ]
+
+    where find x y | x > 0 && x < i  = [(x, y !! (x - 1))]
+                   | x < 0 && x > -i = find (x + i) y
+                   | otherwise = []
+
+            where i = length y + 1
+
+          lookups [] (Nest _ y) = [1 .. length y]
+          lookups n  (Nest _ y) = [ z | x <- n, (z, _) <- find x y ]
 
 
 emanate :: Clips -> Lexicon
