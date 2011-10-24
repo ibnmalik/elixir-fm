@@ -1353,7 +1353,13 @@ cluster_46  = cluster
  |> "` n y" <| [
 
     FaCY                      `verb`    {- <`anY> -}           [ ['m','e','a','n'], ['s','i','g','n','i','f','y'], ['c','o','n','c','e','r','n'] ]
-                              `imperf`     FCI,
+                              `imperf`     FCI
+                              `masdar`     FaCL
+                              `masdar`     FiCAL |< aT,
+
+    FuCiLa                    `verb`    {- <`uniya> -}         [ unwords [ ['b','e'], ['w','o','r','r','i','e','d'] ], unwords [ ['b','e'], ['c','o','n','c','e','r','n','e','d'] ], unwords [ ['t','a','k','e'], ['c','a','r','e'], ['o','f'] ] ]
+                              `imperf`     FCY
+                              `masdar`     FiCAL |< aT,
 
     FaCCY                     `verb`    {- <`annY> -}          [ ['a','f','f','l','i','c','t'] ],
 

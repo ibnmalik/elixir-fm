@@ -1003,7 +1003,7 @@ cluster_80  = cluster
 
     MuFaCCiL                  `adj`     {- <mu'assis> -}       [ ['f','o','u','n','d','i','n','g'], ['c','o','n','s','t','i','t','u','e','n','t'] ],
 
-    MuFaCCaL |< aT            `noun`    {- <mu'assasaT> -}     [ ['i','n','s','t','i','t','u','t','i','o','n'], ['o','r','g','a','n','i','z','a','t','i','o','n'] ]
+    MuFaCCaL |< aT            `noun`    {- <mu'assasaT> -}     [ ['i','n','s','t','i','t','u','t','i','o','n'], ['o','r','g','a','n','i','z','a','t','i','o','n'], ['f','o','u','n','d','a','t','i','o','n'] ]
                               `plural`     MuFaCCaL |< At,
 
     MuFaCCaL |< Iy            `adj`     {- <mu'assasIy> -}     [ ['i','n','s','t','i','t','u','t','i','o','n','a','l'], ['o','r','g','a','n','i','z','a','t','i','o','n','a','l'] ],

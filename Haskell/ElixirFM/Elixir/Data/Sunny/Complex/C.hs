@@ -1090,7 +1090,12 @@ cluster_39  = cluster
     MaFCIL |< aT              `noun`    {- <marwIyaT> -}       [ ['t','a','l','e'], ['s','t','o','r','y'], ['r','e','p','o','r','t'] ]
                               `plural`     MaFCIL |< At,
 
-    HuFCIL |< aT              `noun`    {- <'urwIyaT> -}       [ unwords [ ['m','o','u','f','l','o','n'], "(", ['w','i','l','d'], ['s','h','e','e','p'], ")" ] ] ]
+    HuFCIL |< aT              `noun`    {- <'urwIyaT> -}       [ unwords [ ['m','o','u','f','l','o','n'], "(", ['w','i','l','d'], ['s','h','e','e','p'], ")" ] ]
+                              `plural`     HaFACIL
+                              `plural`     HaFACY,
+
+    HuFCiL |< aT              `noun`    {- <'urwiyaT> -}       [ unwords [ ['m','o','u','f','l','o','n'], "(", ['w','i','l','d'], ['s','h','e','e','p'], ")" ] ]
+                              `plural`     HaFACI ]
 
 
 cluster_40  = cluster

@@ -2113,7 +2113,7 @@ cluster_91  = cluster
 
     FaCaL                     `verb`    {- <qasam> -}          [ ['d','i','v','i','d','e'], ['d','i','s','t','r','i','b','u','t','e'] ]
                               `imperf`     FCiL
-                              `masdar`     FaCaL,
+                              `masdar`     FaCL,
 
     FaCCaL                    `verb`    {- <qassam> -}         [ ['d','i','v','i','d','e'], ['p','a','r','t','i','t','i','o','n'], ['d','i','s','t','r','i','b','u','t','e'] ],
 

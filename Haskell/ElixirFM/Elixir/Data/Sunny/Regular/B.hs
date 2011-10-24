@@ -1071,6 +1071,16 @@ cluster_67  = cluster
 
 cluster_68  = cluster
 
+ |> "d b l ^g" <| [
+
+    KaRDaS                    `verb`    {- <dabla^g> -}        [ ['d','u','b'] ],
+
+    KaRDaS |< aT              `noun`    {- <dabla^gaT> -}      [ ['d','u','b','b','i','n','g'] ],
+
+    muKaRDiS                  `noun`    {- <mudabli^g> -}      [ unwords [ ['d','u','b','b','i','n','g'], ['a','r','t','i','s','t'] ], unwords [ ['d','u','b','b','i','n','g'], ['a','c','t','o','r'] ], ['d','u','b','b','e','r'] ],
+
+    muKaRDaS                  `adj`     {- <mudabla^g> -}      [ ['d','u','b','b','e','d'] ] ]
+
  |> ['d','U','b','l','A','^','g'] <| [
 
     _____                     `noun`    {- <dUblA^g> -}        [ ['d','u','b','b','i','n','g'] ] ]

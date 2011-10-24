@@ -57,7 +57,9 @@ cluster_5   = cluster
  |> "t b `" <| [
 
     FaCiL                     `verb`    {- <tabi`> -}          [ ['f','o','l','l','o','w'], ['p','u','r','s','u','e'] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FaCaL
+                              `masdar`     FaCAL |< aT,
 
     FACaL                     `verb`    {- <tAba`> -}          [ ['c','o','n','t','i','n','u','e'], ['f','o','l','l','o','w'] ],
 

@@ -1496,17 +1496,16 @@ cluster_90  = cluster
 
     FACaL                     `verb`    {- <'Arab> -}          [ unwords [ ['t','r','y'], ['t','o'], ['o','u','t','w','i','t'] ] ],
 
-    FaCaL                     `noun`    {- <'arab> -}          [ ['d','e','s','i','r','e'], ['g','o','a','l'] ],
+    FaCaL                     `noun`    {- <'arab> -}          [ ['d','e','s','i','r','e'], ['g','o','a','l'] ]
+                              `plural`     HACAL,
 
     FiCL                      `noun`    {- <'irb> -}           [ ['l','i','m','b'] ]
                               `plural`     HACAL,
 
-    HACAL                     `noun`    {- <'ArAb> -}          [ ['d','e','s','i','r','e','s'], ['g','o','a','l','s'] ],
+    FiCL |<< "aN"             `noun`    {- <'irbaN> -}         [ unwords [ ['p','i','e','c','e'], ['b','y'], ['p','i','e','c','e'] ], unwords [ ['t','o'], ['s','h','r','e','d','s'] ] ],
 
     FuCL                      `noun`    {- <'urb> -}           [ ['k','n','o','t'], ['a','d','v','e','r','s','i','t','y'] ]
                               `plural`     FuCaL,
-
-    FiCL |<< "aN"             `noun`    {- <'irbaN> -}         [ unwords [ ['p','i','e','c','e'], ['b','y'], ['p','i','e','c','e'] ], unwords [ ['t','o'], ['s','h','r','e','d','s'] ] ],
 
     FaCIL                     `adj`     {- <'arIb> -}          [ ['a','s','t','u','t','e'], ['i','n','d','u','s','t','r','i','o','u','s'] ],
 

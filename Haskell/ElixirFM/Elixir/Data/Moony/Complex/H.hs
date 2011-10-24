@@ -639,7 +639,8 @@ cluster_28  = cluster
  |> ".h w l" <| [
 
     FAL                       `verb`    {- <.hAl> -}           [ ['p','r','e','v','e','n','t'] ]
-                              `imperf`     FUL,
+                              `imperf`     FUL
+                              `masdar`     FayLUL |< aT,
 
     FaCCaL                    `verb`    {- <.hawwal> -}        [ ['c','h','a','n','g','e'], ['c','o','n','v','e','r','t'], ['s','w','i','t','c','h'] ],
 

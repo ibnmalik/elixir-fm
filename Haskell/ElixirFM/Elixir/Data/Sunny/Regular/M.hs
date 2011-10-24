@@ -1277,9 +1277,10 @@ cluster_61  = cluster
                               `plural`     FaCA'iL,
 
     MuFaCCiL                  `noun`    {- <mu.dammid> -}      [ unwords [ ['m','a','l','e'], ['n','u','r','s','e'] ] ]
-                              `plural`     MuFaCCiL |< Un
-                           
-    `derives` otherwise,
+                              `plural`     MuFaCCiL |< Un,
+
+    MuFaCCiL |< aT            `noun`    {- <mu.dammidaT> -}    [ unwords [ ['f','e','m','a','l','e'], ['n','u','r','s','e'] ] ]
+                              `plural`     MuFaCCiL |< At,
 
     MuFaCCiL |< aT            `noun`    {- <mu.dammidaT> -}    [ ['c','o','m','p','r','e','s','s'], ['b','a','n','d','a','g','e'] ] ]
 

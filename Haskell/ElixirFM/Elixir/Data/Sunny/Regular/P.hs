@@ -2147,7 +2147,8 @@ cluster_91  = cluster
  |> "n z `" <| [
 
     FaCaL                     `verb`    {- <naza`> -}          [ ['r','e','m','o','v','e'], ['e','l','i','m','i','n','a','t','e'], ['d','i','v','e','s','t'] ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `masdar`     FaCL,
 
     FaCCaL                    `verb`    {- <nazza`> -}         [ ['r','e','m','o','v','e'], unwords [ ['t','a','k','e'], ['a','w','a','y'] ] ],
 
