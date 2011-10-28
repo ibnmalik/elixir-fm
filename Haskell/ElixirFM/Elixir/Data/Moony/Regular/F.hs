@@ -1735,7 +1735,7 @@ cluster_97  = cluster
 
     IFtaCaL                   `verb`    {- <i.htabal> -}       [ ['e','n','s','n','a','r','e'], ['t','r','a','p'] ],
 
-    FaCL                      `noun`    {- <.habl> -}          [ ['c','o','r','d'], ['c','a','b','l','e'] ]
+    FaCL                      `noun`    {- <.habl> -}          [ ['c','o','r','d'], ['c','a','b','l','e'], ['r','o','p','e'] ]
                               `plural`     FiCAL
                               `plural`     HaFCAL
                               `plural`     FuCUL

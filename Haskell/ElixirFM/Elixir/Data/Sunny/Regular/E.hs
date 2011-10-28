@@ -1449,7 +1449,7 @@ cluster_74  = cluster
     IFtiCAL                   `noun`    {- <irtifA`> -}        [ ['r','i','s','e'], ['i','n','c','r','e','a','s','e'], ['e','l','e','v','a','t','i','o','n'] ]
                               `plural`     IFtiCAL |< At,
 
-    FACiL                     `noun`    {- <rAfi`> -}          [ ['h','o','i','s','t','i','n','g'], ['l','i','f','t','i','n','g'], ['c','r','a','n','e'] ],
+    FACiL                     `adj`     {- <rAfi`> -}          [ ['h','o','i','s','t','i','n','g'], ['l','i','f','t','i','n','g'] ],
 
     FACiL |< aT               `noun`    {- <rAfi`aT> -}        [ unwords [ ['h','o','i','s','t','i','n','g'], ['g','e','a','r'] ], unwords [ ['l','i','f','t','i','n','g'], ['a','p','p','a','r','a','t','u','s'] ], ['c','r','a','n','e'] ]
                               `plural`     FACiL |< At
