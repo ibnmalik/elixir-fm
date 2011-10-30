@@ -46,18 +46,19 @@ instance Pretty Clips where
 
     pretty x = (text . show) x <$$> vcat [ unwraps (\ (Nest r z) ->
 
-                    vcat [ vcat (
+                    vcat [ (fill 10 . text . show) i <> (nest 10 . vcat) (
 
-                           [text (show i) <> text "\t" <> pretty (domain e) <>
-                            encloseText [merge r (morphs e), show r, show (morphs e), show (reflex e)]]
+                              text "\t" <> pretty (domain e) <>
+                              encloseText [merge r (morphs e), show r, show (morphs e), show (reflex e)]
 
-                           ++
+                              :
 
-                           [ text "\t" <> pretty f <> text "\t" <>
-                             text (intercalate "\n\t          " [ intercalate "\t" [merge r t, show r, show t] | t <- s ])
-                           | (f : _, s) <- snd (limits e) ])
+                              [ encloseSep (text "\t" <> pretty f) empty
+                                           (text "\t" <> fill 10 empty)
+                                [ encloseText [merge r t, show r, show t] | t <- s ]
+                              | (f : _, s) <- snd (limits e) ]
 
-                         | (i, e) <- zip y z ]
+                            ) | (i, e) <- zip y z ]
 
                     ) w | w <- z ]
 

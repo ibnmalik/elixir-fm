@@ -1380,7 +1380,7 @@ cluster_47  = cluster
                               `masdar`     FaCL
                               `masdar`     FiCAL |< aT,
 
-    FuCiLa                    `verb`    {- <`uniya> -}         [ unwords [ ['b','e'], ['w','o','r','r','i','e','d'] ], unwords [ ['b','e'], ['c','o','n','c','e','r','n','e','d'] ], unwords [ ['t','a','k','e'], ['c','a','r','e'], ['o','f'] ] ]
+    FuCI                      `verb`    {- <`unI> -}           [ unwords [ ['b','e'], ['w','o','r','r','i','e','d'] ], unwords [ ['b','e'], ['c','o','n','c','e','r','n','e','d'] ], unwords [ ['t','a','k','e'], ['c','a','r','e'], ['o','f'] ] ]
                               `imperf`     FCY
                               `masdar`     FiCAL |< aT,
 

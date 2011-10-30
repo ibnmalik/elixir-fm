@@ -1092,10 +1092,11 @@ cluster_39  = cluster
 
     HuFCIL |< aT              `noun`    {- <'urwIyaT> -}       [ unwords [ ['m','o','u','f','l','o','n'], "(", ['w','i','l','d'], ['s','h','e','e','p'], ")" ] ]
                               `plural`     HaFACIL
-                              `plural`     HaFACY,
+                              `plural`     HaFCY,
 
     HuFCiL |< aT              `noun`    {- <'urwiyaT> -}       [ unwords [ ['m','o','u','f','l','o','n'], "(", ['w','i','l','d'], ['s','h','e','e','p'], ")" ] ]
-                              `plural`     HaFACI ]
+                              `plural`     HaFACI
+                              `plural`     HaFCY ]
 
 
 cluster_40  = cluster
