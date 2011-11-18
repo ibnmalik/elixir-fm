@@ -31,9 +31,16 @@ module Elixir.Version (
     ) where
 
 
+import Elixir.Pretty
+
 import Data.Version
 
 import Text.ParserCombinators.ReadP
+
+
+instance Pretty Version where
+
+    pretty (Version x y) = sep (cat (punctuate dot (map pretty x)) : map text y)
 
 
 revised :: String -> Version
@@ -41,6 +48,6 @@ revised :: String -> Version
 revised revision = fst . last . readP_to_S parseVersion $ words revision !! 1
 
 
-version = Version [1, 2, 0, max build 1016] []
+version = Version [1, 2, 0, max build 1016] ["November 2011"]
 
     where Version [build] [] = revised "$Revision$"

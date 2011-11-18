@@ -123,8 +123,7 @@ main = do   args <- getArgs
 
                 PrintVersion    ->  tell (unlines [copyleft,
                                           unwords ["ElixirFM",
-                                                   showVersion version,
-                                                   "October 2011"]])
+                                                   show (pretty version)]])
 
                 DisplayUsage    ->  tell (usageInfo synopsis options)
 
@@ -225,7 +224,7 @@ elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) 
                       r = unfoldr (\ x -> let y = reads x in if null y then Nothing else Just (head y)) x
                       y = unwords (words x)
 
-          f x = singleline id [ (text . show) y | y <- x ]
+          f x = singleline id [ pretty y | y <- x ]
 
           e = if null p then "" else map toLower (head p)
 
