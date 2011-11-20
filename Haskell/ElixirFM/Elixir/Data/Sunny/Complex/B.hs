@@ -100,15 +100,20 @@ cluster_2   = cluster
     MiFaCL |< aT              `noun`    {- <midaqqaT> -}       [ ['p','o','u','n','d','e','r'], ['c','l','a','p','p','e','r'] ]
                               `plural`     MaFACL,
 
-    TaFCIL                    `noun`    {- <tadqIq> -}         [ ['a','c','c','u','r','a','c','y'], ['p','r','e','c','i','s','i','o','n'], ['v','e','r','i','f','i','c','a','t','i','o','n'], ['c','h','e','c','k','i','n','g'] ]
+    TaFCIL                    `noun`    {- <tadqIq> -}         [ ['a','c','c','u','r','a','c','y'], ['p','r','e','c','i','s','i','o','n'] ]
+                              `plural`     TaFCIL |< At,
+
+    TaFCIL                    `noun`    {- <tadqIq> -}         [ ['v','e','r','i','f','i','c','a','t','i','o','n'], ['c','h','e','c','k','i','n','g'] ]
                               `plural`     TaFCIL |< At,
 
     MaFCUL                    `adj`     {- <madqUq> -}         [ ['c','r','u','s','h','e','d'], ['g','r','o','u','n','d'] ],
 
-    MuFaCCiL                  `noun`    {- <mudaqqiq> -}       [ ['c','h','e','c','k','e','r'], ['a','c','c','u','r','a','t','e'], ['m','e','t','i','c','u','l','o','u','s'] ]
+    MuFaCCiL                  `noun`    {- <mudaqqiq> -}       [ ['c','h','e','c','k','e','r'] ]
                               `plural`     MuFaCCiL |< Un
                            
     `derives` otherwise,
+
+    MuFaCCiL                  `adj`     {- <mudaqqiq> -}       [ ['a','c','c','u','r','a','t','e'], ['m','e','t','i','c','u','l','o','u','s'] ],
 
     MuFaCCaL                  `adj`     {- <mudaqqaq> -}       [ ['p','r','e','c','i','s','e'], ['a','c','c','u','r','a','t','e'] ] ]
 

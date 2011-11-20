@@ -999,6 +999,15 @@ instance Resolve [UPoint] where
                                                                             tokens (reverse y ++ "m-") ++
                                                                             tokens (reverse y ++ "n-") ]
 
+                    'o' : 'n' : 'a' : '~' : 'm' : y   ->  [ y' ++ ["mano"] | y' <- tokens (reverse y ++ "m-") ++
+                                                                                   tokens (reverse y ++ "n-") ]
+                    'o' : 'n' : '~' : 'm' : y         ->  [ y' ++ ["mno"]  | y' <- tokens (reverse y ++ "m-") ++
+                                                                                   tokens (reverse y ++ "n-") ]
+                    'o' : 'n' : 'a' : 'm' : y         ->  [ y' ++ ["mano"] | y' <- tokens (reverse y) ]
+                    'o' : 'n' : 'm' : y               ->  [ y' ++ ["mno"]  | y' <- tokens (reverse y) ++
+                                                                                   tokens (reverse y ++ "m-") ++
+                                                                                   tokens (reverse y ++ "n-") ]
+
                     _                       ->  []
 
 
@@ -1015,6 +1024,7 @@ normalize' x = case x of
 
                 'A' : '~' : z : y | z `elem` "Fa"   ->  '~' : z : 'A' : normalize' y
                 'A' : z : '~' : y | z `elem` "Fa"   ->  '~' : z : 'A' : normalize' y
+                'A' : '~' : y                       ->  '~' : 'A' : normalize' y
 
                 z : '~' : y | z `elem` "FNKaui`"    ->  '~' : z : normalize' y
                 z : 'F' : y | z `elem` "AY"         ->  'F' : z : normalize' y
