@@ -698,6 +698,10 @@ instance Resolve [UPoint] where
                     'i' : 'p' : y                   ->  tokens''''' y "i"
                     'p' : y                         ->  tokens''''' y ""
 
+                    '\'' : 'Y' : y                  ->  [[reverse y ++ "y'"], [reverse y ++ "}"]]
+
+                    -- extend this rule to diacritized cases
+
                     _                               ->  [[x]]
 
               tokens''' x = tokens'' x ++ case x of
@@ -767,6 +771,8 @@ instance Resolve [UPoint] where
               tokens' x = tokens'''''' x ++ case reverse x of
 
                     'Y' : y                         ->  tokens'''''' (reverse y ++ "y")
+
+                    -- extend this rule to diacritized cases
 
                     'y' : y                         ->  [[reverse y ++ "Y"]]
 
@@ -1020,7 +1026,7 @@ normalize' x = case x of
 
                 '_' : y                             ->  normalize' y
 
-                'Y' : '\'' : y                      ->  '}' : normalize' y
+                'l' : 'A' : 'a' : y                 ->  'l' : 'a' : 'A' : normalize' y
 
                 'A' : '~' : z : y | z `elem` "Fa"   ->  '~' : z : 'A' : normalize' y
                 'A' : z : '~' : y | z `elem` "Fa"   ->  '~' : z : 'A' : normalize' y
