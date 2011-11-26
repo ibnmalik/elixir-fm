@@ -350,6 +350,10 @@ cluster_16  = cluster
     FaCaL                     `verb`    {- <.hada_t> -}        [ ['h','a','p','p','e','n'], unwords [ ['t','a','k','e'], ['p','l','a','c','e'] ] ]
                               `imperf`     FCuL,
 
+    FaCCaL                    `verb`    {- <.hadda_t> -}       [ ['t','e','l','l'], ['r','e','l','a','t','e'], ['s','p','e','a','k'], ['t','a','l','k'] ],
+
+    FaCCaL                    `verb`    {- <.hadda_t> -}       [ ['u','p','d','a','t','e'], ['r','e','n','e','w'] ],
+
     FACaL                     `verb`    {- <.hAda_t> -}        [ ['d','i','s','c','u','s','s'], ['n','e','g','o','t','i','a','t','e'] ],
 
     HaFCaL                    `verb`    {- <'a.hda_t> -}       [ ['c','a','u','s','e'], unwords [ ['b','r','i','n','g'], ['a','b','o','u','t'] ] ],

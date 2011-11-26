@@ -962,9 +962,10 @@ cluster_54  = cluster
     HaFCaL                    `verb`    {- <'abqar> -}         [ unwords [ ['s','p','l','i','t'], ['o','p','e','n'] ], ['d','i','s','e','m','b','o','w','e','l'] ],
 
     FaCaL                     `noun`    {- <baqar> -}          [ ['c','o','w'] ]
-                              `plural`     FaCaL |< At
                               `plural`     FuCUL
-                              `plural`     HaFCAL,
+                              `plural`     HaFCAL
+                           
+    `derives` otherwise,
 
     FaCaL |< Iy               `adj`     {- <baqarIy> -}        [ ['b','o','v','i','n','e'], ['c','o','w'] ],
 

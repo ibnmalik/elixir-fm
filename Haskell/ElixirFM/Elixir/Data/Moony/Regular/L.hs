@@ -343,6 +343,8 @@ cluster_18  = cluster
 
     IFtaCaL                   `verb`    {- <i.gtasal> -}       [ ['w','a','s','h'], ['b','a','t','h','e'] ],
 
+    FaCL                      `noun`    {- <.gasl> -}          [ ['w','a','s','h','i','n','g'], ['c','l','e','a','n','i','n','g'] ],
+
     FuCL                      `noun`    {- <.gusl> -}          [ ['w','a','s','h','i','n','g'], ['a','b','l','u','t','i','o','n'] ],
 
     FiCL                      `noun`    {- <.gisl> -}          [ unwords [ ['w','a','s','h'], ['w','a','t','e','r'] ] ],

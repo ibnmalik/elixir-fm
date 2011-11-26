@@ -48,6 +48,6 @@ revised :: String -> Version
 revised revision = fst . last . readP_to_S parseVersion $ words revision !! 1
 
 
-version = Version [1, 2, 0, max build 1019] ["November 2011"]
+version = Version [1, 2, 0, max build 1020] ["November 2011"]
 
     where Version [build] [] = revised "$Revision$"
