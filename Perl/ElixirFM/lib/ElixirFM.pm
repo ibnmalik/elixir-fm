@@ -10,7 +10,7 @@ use 5.008;
 
 use strict;
 
-our $VERSION = '1.1' || join '.', '1.1', q $Revision$ =~ /(\d+)/;
+our $VERSION = '1.2' || join '.', '1.2.0', q $Revision$ =~ /(\d+)/;
 
 use Encode::Arabic;
 
@@ -466,7 +466,7 @@ sub normalize {
     }
     elsif ($code eq 'TeX') {
 
-        $text = Unicode::Normalize::normalize('D', $text);
+        $text = Unicode::Normalize::normalize('KD', $text);
 
         $text =~ s/a[\x{0304}\x{0301}]/A/g;
         $text =~ s/i[\x{0304}\x{0301}]/I/g;
