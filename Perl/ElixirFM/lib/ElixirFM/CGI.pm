@@ -153,7 +153,7 @@ sub display_footline ($) {
     my $r;
 
     $r .= $q->p({'style' => 'margin-top: 30px'},
-                "(C) Otakar Smrz 2011, Viktor Bielicky 2011, Tim Buckwalter 2002. GNU General Public License",
+                "(C) Otakar Smrz 2012, Viktor Bielicky 2012, Tim Buckwalter 2002. GNU General Public License",
                 $q->a({-href => 'http://www.gnu.org/licenses/'}, "GNU GPL 3") . ".");
 
     $r .= $q->p("ElixirFM is an", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "open-source online"), "project.",

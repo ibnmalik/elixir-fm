@@ -2,9 +2,17 @@
 
 use ElixirFM;
 
+use Encode::Arabic;
+
+use Getopt::Long;
+
+our $style = {};
+
+GetOptions($style, 'default', 'shihadeh', 'milicka');
+
 $/ = "\n:::: ";                             # provide the data of `elixir resolve --lists`
 
-while ($data = <>) {                        # process the data efficiently word by word
+while ($data = decode "utf8", <>) {         # process the data efficiently word by word
 
     $data = substr $data, 0, -5 if $data =~ /\n:::: $/;
 
@@ -16,12 +24,12 @@ while ($data = <>) {                        # process the data efficiently word 
 
     foreach my $line (@text) {                          # the text is processed by lines
 
-        foreach my $word (@{$line}) {                   # words delimited by whitespace
+        foreach my $data (@{$line}) {                   # words delimited by whitespace
 
-            my ($node, @data) = @{$word};               # $node is an array reference
-            my $form = join "", @{$node};               # remember the form for reuse
+            my ($node, @data) = @{$data};               # $node is an array reference
+            my $word = join "", @{$node};               # remember the word for reuse
 
-            print $form . "\n" unless @data;            # mention unrecognized words
+            print $word . "\n" unless @data;            # mention unrecognized words
 
             foreach my $data (@data) {                  # level of word tokenization
 
@@ -35,14 +43,43 @@ while ($data = <>) {                        # process the data efficiently word 
                     foreach my $data (@data) {              # solution token sequences
 
                         my ($node, @data) = @{$data};       # @data contains solutions
+                        my $form = join "", @{$node};       # fully restored word form
 
-                        print join "\t",
-                                    $form,                                  # input word
-                                    ( join "", @{$node} ),                  # token forms
-                                    ( join " ", map { $_->[0] } @data ),    # token tags
-                                    ( join " ", map { $_->[0] } @lexs ),    # lexeme ids
-                                    ( join " ", map { $_->[1] } @lexs ).    # translation
-                                   "\n";
+                        if (exists $style->{'milicka'}) {
+
+                            $form = substr $form, 1, -1;        # remove excessive wickets
+
+                            print encode "utf8", join "\t",
+                                        ( $word ),               # input word
+                                        ( $form ),               # token forms
+                                        ( ElixirFM::orth $form ),
+                                        ( ElixirFM::phon $form ),
+                                        ( join " ", map { $_->[0] } @data ),    # token tags
+                                        ( join " ", map { $_->[1] } @data ),    # token forms
+                                        ( join " ", ElixirFM::orth join " ", map { $_->[1] } @data ),    # token forms
+                                        ( join " ", ElixirFM::phon join " ", map { $_->[1] } @data ),    # token forms
+                                        ( join " ", map { $_->[2] } @data ),    # token roots
+                                        ( join " + ", map { $_->[3] } @data ),    # token patterns
+                                        ( join " ", map { $_->[4] } @lexs ),    # lexeme forms
+                                        ( ElixirFM::orth join " ", map { $_->[4] } @lexs ),
+                                        ( ElixirFM::phon join " ", map { $_->[4] } @lexs ),
+                                        ( join " ", map { $_->[5] } @lexs ),    # lexeme roots
+                                        ( join " + ", map { $_->[6] } @lexs ),    # lexeme patterns
+                                        ( join " ", map { (split " ", $_->[2])[0] } @lexs ),    # part-of-speech
+                                        ( join " ", map { $_->[3] } @lexs ),    # class
+                                        ( join " ", map { $_->[1] } @lexs ).    # translation
+                                       "\n";
+                        }
+                        else {
+
+                            print encode "utf8", join "\t",
+                                        $word,                                  # input word
+                                        $form,                                  # token forms
+                                        ( join " ", map { $_->[0] } @data ),    # token tags
+                                        ( join " ", map { $_->[0] } @lexs ),    # lexeme ids
+                                        ( join " ", map { $_->[1] } @lexs ).    # translation
+                                       "\n";
+                        }
                     }
                 }
             }
