@@ -29,7 +29,7 @@ while ($data = decode "utf8", <>) {         # process the data efficiently word 
             my ($node, @data) = @{$data};               # $node is an array reference
             my $word = join "", @{$node};               # remember the word for reuse
 
-            print $word . "\n" unless @data;            # mention unrecognized words
+            print encode "utf8", $word . "\n" unless @data;     # mention unrecognized words
 
             foreach my $data (@data) {                  # level of word tokenization
 
