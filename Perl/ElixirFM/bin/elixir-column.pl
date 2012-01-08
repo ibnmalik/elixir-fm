@@ -56,15 +56,27 @@ while ($data = decode "utf8", <>) {         # process the data efficiently word 
                                         ( ElixirFM::phon $form ),
                                         ( join " ", map { $_->[0] } @data ),    # token tags
                                         ( join " ", map { $_->[1] } @data ),    # token forms
-                                        ( join " ", ElixirFM::orth join " ", map { $_->[1] } @data ),    # token forms
-                                        ( join " ", ElixirFM::phon join " ", map { $_->[1] } @data ),    # token forms
-                                        ( join " ", map { $_->[2] } @data ),    # token roots
+                                        ( join " ", map { ElixirFM::orth $_->[1] } @data ),    # token forms
+                                        ( join " ", map { ElixirFM::phon $_->[1] } @data ),    # token forms
                                         ( join " + ", map { $_->[3] } @data ),    # token patterns
-                                        ( join " ", map { $_->[4] } @lexs ),    # lexeme forms
-                                        ( ElixirFM::orth join " ", map { $_->[4] } @lexs ),
-                                        ( ElixirFM::phon join " ", map { $_->[4] } @lexs ),
-                                        ( join " ", map { $_->[5] } @lexs ),    # lexeme roots
+                                        ( join " ", map { $_->[2] } @data ),    # token roots
+                                        ( join " ", map { '"' . $_ . '"' }
+                                                    map { ElixirFM::orth $_ }
+                                                    map { substr $_->[2], 1, -1 } @data ),    # token roots
+                                        ( join " ", map { '"' . $_ . '"' }
+                                                    map { ElixirFM::phon $_ }
+                                                    map { substr $_->[2], 1, -1 } @data ),    # token roots
+                                        # ( join " ", map { $_->[5] } @lexs ),    # lexeme roots
+                                        # ( join " ", map { '"' . $_ . '"' }
+                                        #             map { ElixirFM::orth $_ }
+                                        #             map { substr $_->[5], 1, -1 } @lexs ),    # lexeme roots
+                                        # ( join " ", map { '"' . $_ . '"' }
+                                        #             map { ElixirFM::phon $_ }
+                                        #             map { substr $_->[5], 1, -1 } @lexs ),    # lexeme roots
                                         ( join " + ", map { $_->[6] } @lexs ),    # lexeme patterns
+                                        ( join " ", map { $_->[4] } @lexs ),    # lexeme forms
+                                        ( join " ", map { ElixirFM::orth $_->[4] } @lexs ),
+                                        ( join " ", map { ElixirFM::phon $_->[4] } @lexs ),
                                         ( join " ", map { (split " ", $_->[2])[0] } @lexs ),    # part-of-speech
                                         ( join " ", map { $_->[3] } @lexs ),    # class
                                         ( join " ", map { $_->[1] } @lexs ).    # translation
