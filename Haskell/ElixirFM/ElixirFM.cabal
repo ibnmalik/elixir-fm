@@ -3,7 +3,7 @@ version:            1.2.0
 license:            GPL
 license-file:       LICENSE
 extra-source-files: INSTALL, Setup.PL, elixir.svg
-copyright:          2011
+copyright:          2012
 author:             Otakar Smrz
 maintainer:         otakar.smrz mff.cuni.cz
 homepage:           http://ufal.mff.cuni.cz/~smrz/
@@ -295,7 +295,7 @@ extensions:         MultiParamTypeClasses,
                     RankNTypes,
                     --  ScopedTypeVariables,
                     OverlappingInstances,
-            --  IncoherentInstances,
+                    --  IncoherentInstances,
                     UndecidableInstances,
                     TypeSynonymInstances,
                     FlexibleInstances,

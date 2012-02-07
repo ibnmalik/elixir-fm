@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Compose
--- Copyright   :  Otakar Smrz 2005-2011
+-- Copyright   :  Otakar Smrz 2005-2012
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -134,6 +134,7 @@ harmony (ParaAdj  (AdjA  _ _ _ (Nothing :-: True)))     y
 
     | init y `elem` ["'ayy", "'ayyaT"]  = [Nothing, Just ("S---------", (== "mA"))]
     | otherwise                         = [Nothing, Just ("SP------2-", (\ x -> euphony y x && x /= "nI"))]
+                                        -- consider Just ("SP------4-", euphony y)
 
 harmony (ParaAdj  _)                                    _   = [Nothing]
 

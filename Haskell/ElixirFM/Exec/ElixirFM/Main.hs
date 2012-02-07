@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Exec.ElixirFM.Main
--- Copyright   :  Otakar Smrz 2005-2011
+-- Copyright   :  Otakar Smrz 2005-2012
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -84,7 +84,7 @@ options = [ Option []    ["resolve"]    (NoArg (RunAction elixirResolve))
                                                 "library version and build information" ]
 
 
-copyleft = unlines ["ElixirFM (C) 2011-2005 Otakar Smrz and Viktor Bielicky",
+copyleft = unlines ["ElixirFM (C) 2012-2005 Otakar Smrz and Viktor Bielicky",
                     "             2004 Markus Forsberg, 2002 Tim Buckwalter",
                     "GNU General Public License http://www.gnu.org/licenses/"]
 
@@ -177,7 +177,7 @@ elixirResolve o p = interact (unlines . map (encode UTF . decode UCS . show . q 
           e = if null p then "" else map toLower (head p)
 
 
-elixirInflect o p = interact (unlines . map (show . q) . onlines)
+elixirInflect o p = interact (unlines . map (show . q) . filter r . onlines)
 
     where q x = vsep [ z | (y, z) <- c x, let t = lists d z, w <- emanate y, z <- f t w ]
 
@@ -189,8 +189,10 @@ elixirInflect o p = interact (unlines . map (show . q) . onlines)
 
           d = [ z | y <- lists ["----------"] p, z <- convert y ]
 
+          r x = null (words x) || not (null (c x) || any ('"' ==) x)
 
-elixirDerive o p = interact (unlines . map (show . q) . onlines)
+
+elixirDerive o p = interact (unlines . map (show . q) . filter r . onlines)
 
     where q x = vsep [ z | (y, z) <- c x, let t = lists d z, w <- emanate y, z <- f t w ]
 
@@ -201,6 +203,8 @@ elixirDerive o p = interact (unlines . map (show . q) . onlines)
           e x = [ z | y <- words x, z <- convert y ]
 
           d = [ z | y <- lists ["----------"] p, z <- convert y ]
+
+          r x = null (words x) || not (null (c x) || any ('"' ==) x)
 
 
 elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) . onlines)

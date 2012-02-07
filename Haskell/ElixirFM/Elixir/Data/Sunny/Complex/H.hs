@@ -336,7 +336,8 @@ cluster_13  = cluster
  |> "n s y" <| [
 
     FaCI                      `verb`    {- <nasI> -}           [ ['f','o','r','g','e','t'], unwords [ ['b','e'], ['f','o','r','g','o','t','t','e','n'] ] ]
-                              `imperf`     FCY,
+                              `imperf`     FCY
+                              `masdar`     FiCLAn,
 
     HaFCY                     `verb`    {- <'ansY> -}          [ unwords [ ['m','a','k','e'], ['f','o','r','g','e','t'] ] ],
 
