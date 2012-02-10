@@ -233,11 +233,13 @@ elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) 
           e = if null p then "" else map toLower (head p)
 
 
-elixirLexicon o p = interact (unlines . map (show . q) . onlines)
+elixirLexicon o p = interact (unlines . map (show . q) . filter r . onlines)
 
     where q x = vcat [ pretty z | y <- c x, z <- emanate y ]
 
           c x = [ y | (y, _) <- reads x ] ++ [ clips y | (y, _) <- reads x ]
+
+          r x = null (words x) || not (null (c x) || any ('"' ==) x)
 
 
 elixirCompose o p = (putDoc . generate e) lexicon

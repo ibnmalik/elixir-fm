@@ -51,12 +51,12 @@ instance Pretty Clips where
                               text "\t" <> pretty (domain e) <>
                               encloseText [merge r (morphs e), show r, show (morphs e), show (reflex e)]
 
-                              :
+                              : display r (entity e) ++
 
                               [ encloseSep (text "\t" <> pretty f) empty
                                            (text "\t" <> fill 10 empty)
-                                [ encloseText [merge r t, show r, show t] | t <- s ]
-                              | (f : _, s) <- snd (limits e) ]
+                                  [ encloseText [merge r t, show r, show t] | t <- s ]
+                                | (f : _, s) <- snd (limits e) ]
 
                             ) | (i, e) <- zip y z ]
 
@@ -66,6 +66,92 @@ instance Pretty Clips where
 
               z = case unzip y of ([], _)    -> []
                                   (i : _, j) -> emanate (i, j)
+
+
+display :: (Template a, Show a, Morphing a b, Template b, Show b) => Root -> Entity a -> [Doc]
+
+display r x = case x of   Verb f p i c t v m  ->
+
+                                eraseEmpty p
+                                  [ encloseSep (text "\t" <> text "-P--------") empty
+                                               (text "\t" <> fill 10 empty)
+                                    [ encloseText [merge r t, show r, show t] | t <- p ] ]
+                                ++
+                                eraseEmpty i
+                                  [ encloseSep (text "\t" <> text "-I--------") empty
+                                               (text "\t" <> fill 10 empty)
+                                    [ encloseText [merge r t, show r, show t] | t <- i ] ]
+                                ++
+                                eraseEmpty c
+                                  [ encloseSep (text "\t" <> text "-C--------") empty
+                                               (text "\t" <> fill 10 empty)
+                                    [ encloseText [merge r t, show r, show t] | t <- c ] ]
+                                ++
+                                eraseEmpty m
+                                  [ encloseSep (text "\t" <> text "N---------") empty
+                                               (text "\t" <> fill 10 empty)
+                                    [ encloseText [merge r t, show r, show t] | t <- m ] ]
+
+                                -- eraseEmpty   f [ elemtxt "form"   [] $ (pretty . map show) f ]
+                                -- ++
+                                -- eraseNothing t [ elemtxt "tense"  [] $ case t of
+
+                                --                             Just Perfect    ->  text "Perfect"
+                                --                             Just Imperfect  ->  text "Imperfect" ]
+                                -- ++
+                                -- eraseNothing v [ elemtxt "voice"  [] $ case v of
+
+                                --                             Just Active     ->  text "Active"
+                                --                             Just Passive    ->  text "Passive" ]
+
+                          Noun l e g d        ->
+
+                                eraseEmpty l
+                                  [ encloseSep (text "\t" <> text "-------P--") empty
+                                               (text "\t" <> fill 10 empty)
+                                    [ encloseText [merge r t, show r, show t] | t <- l ] ]
+
+                                -- eraseNothing e [ elemtxt "except" [] $ pretty e ]
+                                -- ++
+                                -- eraseNothing g [ elemtxt "gender" [] $ pretty g ]
+                                -- ++
+                                -- eraseNothing d [ elemtxt "derive" [] $ case d of
+
+                                --                             Just _          ->  text "------F---" ]
+
+                          Adj  l f n          ->
+
+                                eraseEmpty l
+                                  [ encloseSep (text "\t" <> text "-------P--") empty
+                                               (text "\t" <> fill 10 empty)
+                                    [ encloseText [merge r t, show r, show t] | t <- l ] ]
+                                ++
+                                eraseEmpty f
+                                  [ encloseSep (text "\t" <> text "------F---") empty
+                                               (text "\t" <> fill 10 empty)
+                                    [ encloseText [merge r t, show r, show t] | t <- f ] ]
+
+                                -- eraseNothing n [ elemtxt "number" [] $ pretty n ]
+
+                          Num  l f            ->
+
+                                eraseEmpty l
+                                  [ encloseSep (text "\t" <> text "-------P--") empty
+                                               (text "\t" <> fill 10 empty)
+                                    [ encloseText [merge r t, show r, show t] | t <- l ] ]
+                                ++
+                                eraseEmpty f
+                                  [ encloseSep (text "\t" <> text "------F---") empty
+                                               (text "\t" <> fill 10 empty)
+                                    [ encloseText [merge r t, show r, show t] | t <- f ] ]
+
+                          _                   ->  []
+
+        where eraseNothing x y = case x of Nothing -> []
+                                           _       -> y
+
+              eraseEmpty x y = case x of [] -> []
+                                         _  -> y
 
 
 enumerate :: Clips -> [Index]
