@@ -920,23 +920,24 @@ sub unpretty {
 
                     my ($clip, @data) = split /\n(?=[(])/, $_;
 
-                #     $data = '' unless defined $data;
+                    [ ( join '', split ' ', $clip ),
 
-                #     my ($root) = $data =~ /(<root>.*?<\/root>)/;
+                      map {
 
-                #     $root = defined $root ? parse($root)->[2] : '';
+                          my ($head, @tail) = map {
 
-                #     my (@ents) = $data =~ /(<Entry>.*?<\/Entry>)/gs;
+                              [ grep { $_ ne "" } map { join ' ', split ' ', $_ } split /\t/, $_ ]
 
-                    {
-                        'clip'  =>  ( join '', split ' ', $clip ),
-                #         'root'  =>  ( ref $root ? "" : $root ),
-                        'ents'  =>  [ map {
+                          } split /\n/, $_;
 
-                                          [ split /\n/, $_ ]
+                          my ($idx, @ent) = @{$head};
 
-                                      } @data ],
-                    }
+                          [ $idx, [@ent], @tail ]
+
+                          # FIX multiple indented lines for items in @tail
+
+                        } @data,
+                    ]
 
                 } @data
             ]

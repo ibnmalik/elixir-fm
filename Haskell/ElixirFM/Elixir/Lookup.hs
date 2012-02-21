@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Lookup
--- Copyright   :  Otakar Smrz 2005-2011
+-- Copyright   :  Otakar Smrz 2005-2012
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
