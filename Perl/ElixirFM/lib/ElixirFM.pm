@@ -782,22 +782,6 @@ sub lists_trees {
             ];
 }
 
-sub parse_clear {
-
-    my ($data, $mode) = @_;
-
-    $mode = '' unless defined $mode;
-
-    if ($mode eq 'parse' or $mode eq 'clear') {
-
-        $data = parse($data);
-
-        $data = clear($data) if $mode eq 'clear';
-    }
-
-    return $data;
-}
-
 sub unlines {
 
     my ($data, $type) = @_;
@@ -852,8 +836,7 @@ sub unwords {
         @data = map {
 
             split /^(?=[\t ]*\(\ *-?\ *[1-9][0-9]*\ *,
-                               \ *(?:-?\ *[1-9][0-9]*|
-                                     \[\ *\]|
+                               \ *(?:\[\ *\]|
                                      \[\ *-?\ *[1-9][0-9]*\ *(?:\,\ *-?\ *[1-9][0-9]*\ *)*\])\ *\))/xm, $_
         } @data;
     }
@@ -935,24 +918,24 @@ sub unpretty {
             [
                 map {
 
-                    my ($clip, $data) = split /\s*<Nest>\s*/, $_;
+                    my ($clip, @data) = split /\n(?=[(])/, $_;
 
-                    $data = '' unless defined $data;
+                #     $data = '' unless defined $data;
 
-                    my ($root) = $data =~ /(<root>.*?<\/root>)/;
+                #     my ($root) = $data =~ /(<root>.*?<\/root>)/;
 
-                    $root = defined $root ? parse($root)->[2] : '';
+                #     $root = defined $root ? parse($root)->[2] : '';
 
-                    my (@ents) = $data =~ /(<Entry>.*?<\/Entry>)/gs;
+                #     my (@ents) = $data =~ /(<Entry>.*?<\/Entry>)/gs;
 
                     {
                         'clip'  =>  ( join '', split ' ', $clip ),
-                        'root'  =>  ( ref $root ? "" : $root ),
+                #         'root'  =>  ( ref $root ? "" : $root ),
                         'ents'  =>  [ map {
 
-                                parse_clear($_, $mode)
+                                          [ split /\n/, $_ ]
 
-                            } @ents ],
+                                      } @data ],
                     }
 
                 } @data
@@ -962,7 +945,16 @@ sub unpretty {
     }
     elsif ($type eq 'lexicon') {
 
-        @data = parse_clear($data, $mode);
+        $mode = '' unless defined $mode;
+
+        if ($mode eq 'parse' or $mode eq 'clear') {
+
+            $data = parse($data);
+
+            $data = clear($data) if $mode eq 'clear';
+        }
+
+        @data = ($data);
     }
     else {
 
