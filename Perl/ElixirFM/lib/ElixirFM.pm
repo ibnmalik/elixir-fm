@@ -924,17 +924,25 @@ sub unpretty {
 
                       map {
 
-                          my ($head, @tail) = map {
+                          my ($fst, @rst) = map {
 
-                              [ grep { $_ ne "" } map { join ' ', split ' ', $_ } split /\t/, $_ ]
+                              [ split /\t/, $_ ]
 
                           } split /\n/, $_;
 
-                          my ($idx, @ent) = @{$head};
+                          my ($idx, @ent) = @{$fst};
 
-                          [ $idx, [@ent], @tail ]
+                          foldl {
 
-                          # FIX multiple indented lines for items in @tail
+                              my (undef, $data, @data) = @{$_[1]};
+
+                              push @{$_[0]}, [$data] unless $data eq ' ' x 10;
+
+                              push @{$_[0][-1]}, [@data] if @data;
+
+                              return $_[0];
+
+                          } [ ( join '', split ' ', $idx ), [@ent] ], @rst;
 
                         } @data,
                     ]
@@ -1477,7 +1485,7 @@ Otakar Smrz C<< <otakar smrz mff cuni cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright (C) 2005-2011 Otakar Smrz
+Copyright (C) 2005-2012 Otakar Smrz
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the GNU General Public License version 3.
