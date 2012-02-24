@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Template
--- Copyright   :  Otakar Smrz 2005-2010
+-- Copyright   :  Otakar Smrz 2005-2012
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -36,6 +36,11 @@ class Template a where
     interlocks :: [Prefix] -> [Suffix] -> [String] -> a -> String
 
     interlock = interlocks [] []
+
+
+pattern :: Morphs a -> a
+
+pattern (Morphs t p s) = t
 
 
 merge :: (Morphing a b, Template b, Show b) => Root -> a -> String

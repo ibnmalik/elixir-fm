@@ -49,7 +49,8 @@ instance Pretty Clips where
                     vcat [ (fill 10 . text . show) i <> (nest 10 . vcat) (
 
                               text "\t" <> pretty (domain e) <>
-                              encloseText [merge r (morphs e), show r, show (morphs e), show (reflex e)]
+                              encloseText [merge r (morphs e), show r, show (morphs e),
+                                           show (reflex e), show (lookupForm r e)]
 
                               : display r (entity e) ++
 

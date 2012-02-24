@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Derive
--- Copyright   :  Otakar Smrz 2005-2011
+-- Copyright   :  Otakar Smrz 2005-2012
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -161,11 +161,14 @@ lookupForm r e = case entity e of
 
         Verb fs _ _ _ _ _ _ -> fs
 
-        Noun _ _ _ _        -> [ f | f <- [I ..], or [ any (morphs e ==) [morph b, morph c, d] | (_, b, c, d) <- nounStems f r ] ]
+        Noun _ _ _ _        -> [ f | f <- [I ..], or [ p == b || p == c || m == d | (_, b, c, d) <- nounStems f r ] ]
 
-        Adj  _ _ _          -> [ f | f <- [I ..], or [ any (morphs e ==) [morph b, morph c]    | (_, b, c, _) <- nounStems f r ] ]
+        Adj  _ _ _          -> [ f | f <- [I ..], or [ p == b || p == c           | (_, b, c, _) <- nounStems f r ] ]
 
         _                   -> []
+
+        where p = pattern m
+              m = morphs e
 
 
 lookVerb :: Eq a => a -> Tense -> Voice -> Bool -> Tense -> Voice -> Bool -> [VerbStems a] -> [a]
