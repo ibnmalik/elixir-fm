@@ -5,16 +5,14 @@ author:
   - 'Otakar Smrz <otakar smrz mff cuni cz>'
 abstract: Interfaces to the ElixirFM system implementing Functional Arabic Morphology
 license: gpl
+resources:
+  license: ~
 requires:
   Encode::Arabic: 0
   perl: 5.008
 build_requires:
   Encode::Arabic: 0
   Test::More: 0
-generated_by: Module::Build version 0.2808
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
 provides:
   ElixirFM:
     file: lib/ElixirFM.pm
@@ -33,12 +31,14 @@ provides:
     version: 1.1.946
   ElixirFM::CGI::Resolve:
     file: lib/ElixirFM/CGI/Resolve.pm
-    version: 1.1.946
+    version: 1.1.964
   ElixirFM::Exec:
     file: lib/ElixirFM/Exec.pm
     version: 1.1.946
   ElixirFM::Resolve:
     file: lib/ElixirFM/Resolve.pm
     version: 1.1
-resources:
-  license: http://www.opensource.org/licenses/gpl-license.php
+generated_by: Module::Build version 0.32
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

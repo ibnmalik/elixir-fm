@@ -35,7 +35,7 @@ sub pretty ($$$) {
 
     my ($reply, $mode, $q) = @_;
 
-    my @word = ElixirFM::unpretty $reply, 'clear';
+    my @word = ElixirFM::unpretty $reply;
 
     my @text = split "\n", $q->param('text');
 
@@ -67,11 +67,11 @@ sub pretty_lookup_data {
 
     return $q->table({-cellspacing => 0, -class => "nest"},
                      $q->Tr($q->td({-class => "root",
-                                    -title => "common root"}, escape join " ", (decode "zdmg", $_->{'root'}),
-                                                                               (quote decode "arabtex", ElixirFM::cling $_->{'root'}, "|")),
+                                    -title => "common root"}, escape join " ", (decode "zdmg", $data->[1][1][2]),
+                                                                               (quote decode "arabtex", ElixirFM::cling $data->[1][1][2], "|")),
                             $q->td({-class => "button"},
                                    $q->a({-title => "lookup all entries under this root",
-                                          -href => 'index.fcgi?mode=lookup' . '&text=' . (escape quote decode "arabtex", $_->{'root'})}, "Lookup"))
+                                          -href => 'index.fcgi?mode=lookup' . '&text=' . (escape quote decode "arabtex", $data->[1][1][2])}, "Lookup"))
                 ));
 }
 
@@ -87,7 +87,7 @@ sub pretty_lookup_tree {
 
         my $clip = [undef, undef];
 
-        (@{$clip}) = $_->{'clip'} =~ /^\( (-?[1-9][0-9]*) , (?: \[ ([^\]]*) \] ) \)$/x;
+        (@{$clip}) = $data->[0] =~ /^\( (-?[1-9][0-9]*) , (?: \[ ([^\]]*) \] ) \)$/x;
 
         $clip->[1] = [ grep { /^-?[1-9][0-9]*$/ } split ',', $clip->[1] ] if defined $clip->[1];
 
@@ -95,7 +95,7 @@ sub pretty_lookup_tree {
 
             pretty_lookup_entry($data, $q, $clip, $_)
 
-                } 0 .. @{$_->{'ents'}} - 1 ] ))
+                } 1 .. @{$data} - 1 ] ))
 
                 } @data ]);
 }
@@ -106,30 +106,27 @@ sub pretty_lookup_entry {
 
     my $q = $_[1];
 
-    my $clip = '(' . $_[2]->[0] . ',' . (defined $_[2]->[1] ? $_[2]->[1][$_[3]] : $_[3] + 1) . ')';
+    my $ents = $data->[$_[3]];
 
-    my $ents = $data->{'ents'}[$_[3]];
+    my $clip = $ents->[0];     # '(' . $_[2]->[0] . ',' . (defined $_[2]->[1] ? $_[2]->[1][$_[3]] : $_[3] + 1) . ')';
 
-    my @info = @{$ents->[1]}{'morphs', 'entity', 'limits', 'reflex'};
+    my @info = @{$ents->[1]}[3, 0, 0, 4];    # @{$ents->[1]}{'morphs', 'entity', 'limits', 'reflex'};
 
-    my $form = exists $ents->[1]{'entity'}[1]{'form'} ? $ents->[1]{'entity'}[1]{'form'} : [];
+    my $form = [ split ',', substr $ents->[1][5], 1, -1 ];
 
-    my @entity = map { exists $ents->[1]{'entity'}[1]{$_} ? $ents->[1]{'entity'}[1]{$_} : [] } 'plural', 'femini';
+    my @entity = map { my $t = $_; [ map { $ents->[$_][0] eq $t ? @{$ents->[$_]}[1 .. @{$ents->[$_]} - 1] : () } 2 .. @{$ents} - 1 ] } "-------P--", "------F---"; 
 
-    @entity = ((map { [($_ == 0 ? '-------P--' : ''),
-                       ElixirFM::merge($data->{'root'}, $entity[0][$_]), $entity[0][$_]] } 0 .. @{$entity[0]} - 1),
+    @entity = ((map { [($_ == 0 ? '-------P--' : ''), @{$entity[0][$_]}[0, 2]] } 0 .. @{$entity[0]} - 1),
+               (map { [($_ == 0 ? '------F---' : ''), @{$entity[1][$_]}[0, 2]] } 0 .. @{$entity[1]} - 1));
 
-               (map { [($_ == 0 ? '------F---' : ''),
-                       ElixirFM::merge($data->{'root'}, $entity[1][$_]), $entity[1][$_]] } 0 .. @{$entity[1]} - 1));
+    my $xtag = substr $info[1], 0, 1;  # $info[1]->[0];
 
-    my $xtag = $info[1]->[0];
+    # $xtag = join ' ', ElixirFM::retrieve $xtag;
+    # $xtag = substr $xtag, 0, 1;
 
-    $xtag = join ' ', ElixirFM::retrieve $xtag;
-    $xtag = substr $xtag, 0, 1;
+    $info[4] = join " ", map { my $t = $_; map { $ents->[$_][0] eq $t ? map { $_->[2] } @{$ents->[$_]}[1 .. @{$ents->[$_]} - 1] : () } 2 .. @{$ents} - 1 } "-I--------", "-P--------", "-C--------"; 
 
-    $info[4] = join " ", map { exists $ents->[1]{'entity'}[1]{$_} ? @{$ents->[1]{'entity'}[1]{$_}} : () } 'imperf', 'pfirst', 'second';
-
-    $info[5] = ElixirFM::merge $data->{'root'}, $info[0];
+    $info[5] = ElixirFM::merge $data->[1][1][2], $info[0];
 
     return join $",
 
@@ -147,7 +144,7 @@ sub pretty_lookup_entry {
                        $q->td({-class => "stems",
                                -title => "inflectional stems"},      ElixirFM::nice $info[4]),
                        $q->td({-class => "reflex",
-                               -title => "lexical reference"},       escape join ", ", map { '"' . $_ . '"' } @{$info[3]}),
+                               -title => "lexical reference"},       escape join '", "', split '","', substr $info[3], 1, -1), # escape join ", ", map { '"' . $_ . '"' } @{$info[3]}),
 
                        $q->td({-class => "button"},
                               $q->a({-title => "inflect this lexeme",
