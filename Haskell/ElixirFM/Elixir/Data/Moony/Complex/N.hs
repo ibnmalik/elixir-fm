@@ -521,10 +521,7 @@ cluster_26  = cluster
  |> "h d y" <| [
 
     FaCY                      `verb`    {- <hadY> -}           [ ['g','u','i','d','e'], ['d','i','r','e','c','t'], ['l','e','a','d'] ]
-                              `imperf`     FCI
-                              `masdar`     FaCL
-                              `masdar`     FuCY
-                              `masdar`     FiCAL |< aT,
+                              `imperf`     FCI,
 
     FACY                      `verb`    {- <hAdY> -}           [ unwords [ ['e','x','c','h','a','n','g','e'], ['p','r','e','s','e','n','t','s'], ['w','i','t','h'] ] ],
 

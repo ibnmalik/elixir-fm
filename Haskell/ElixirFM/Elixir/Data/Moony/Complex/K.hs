@@ -1249,8 +1249,7 @@ cluster_61  = cluster
  |> "q .d y" <| [
 
     FaCY                      `verb`    {- <qa.dY> -}          [ ['e','x','e','c','u','t','e'], ['p','e','r','f','o','r','m'], ['d','e','c','r','e','e'] ]
-                              `imperf`     FCI
-                              `masdar`     FaCA',
+                              `imperf`     FCI,
 
     FaCCY                     `verb`    {- <qa.d.dY> -}        [ unwords [ ['c','a','r','r','y'], ['o','u','t'] ], ['e','f','f','e','c','t','u','a','t','e'], ['a','c','c','o','m','p','l','i','s','h'] ],
 

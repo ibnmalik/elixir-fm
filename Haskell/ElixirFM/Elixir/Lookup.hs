@@ -93,32 +93,12 @@ display r x = case x of   Verb f p i c t v m  ->
                                                (text "\t" <> fill 10 empty)
                                     [ encloseText [merge r t, show r, show t] | t <- m ] ]
 
-                                -- eraseEmpty   f [ elemtxt "form"   [] $ (pretty . map show) f ]
-                                -- ++
-                                -- eraseNothing t [ elemtxt "tense"  [] $ case t of
-
-                                --                             Just Perfect    ->  text "Perfect"
-                                --                             Just Imperfect  ->  text "Imperfect" ]
-                                -- ++
-                                -- eraseNothing v [ elemtxt "voice"  [] $ case v of
-
-                                --                             Just Active     ->  text "Active"
-                                --                             Just Passive    ->  text "Passive" ]
-
                           Noun l e g d        ->
 
                                 eraseEmpty l
                                   [ encloseSep (text "\t" <> text "-------P--") empty
                                                (text "\t" <> fill 10 empty)
                                     [ encloseText [merge r t, show r, show t] | t <- l ] ]
-
-                                -- eraseNothing e [ elemtxt "except" [] $ pretty e ]
-                                -- ++
-                                -- eraseNothing g [ elemtxt "gender" [] $ pretty g ]
-                                -- ++
-                                -- eraseNothing d [ elemtxt "derive" [] $ case d of
-
-                                --                             Just _          ->  text "------F---" ]
 
                           Adj  l f n          ->
 
@@ -131,8 +111,6 @@ display r x = case x of   Verb f p i c t v m  ->
                                   [ encloseSep (text "\t" <> text "------F---") empty
                                                (text "\t" <> fill 10 empty)
                                     [ encloseText [merge r t, show r, show t] | t <- f ] ]
-
-                                -- eraseNothing n [ elemtxt "number" [] $ pretty n ]
 
                           Num  l f            ->
 

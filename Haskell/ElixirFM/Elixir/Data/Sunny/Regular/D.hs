@@ -177,8 +177,7 @@ cluster_13  = cluster
  |> "d h s" <| [
 
     FaCaL                     `verb`    {- <dahas> -}          [ ['t','r','a','m','p','l','e'], ['c','r','u','s','h'], unwords [ ['r','u','n'], ['o','v','e','r'] ] ]
-                              `imperf`     FCaL
-                              `masdar`     FaCL ]
+                              `imperf`     FCaL ]
 
 
 cluster_14  = cluster

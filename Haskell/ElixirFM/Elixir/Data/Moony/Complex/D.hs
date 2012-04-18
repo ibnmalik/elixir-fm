@@ -234,8 +234,7 @@ cluster_17  = cluster
 
     FaCaL                     `verb`    {- <'akal> -}          [ ['e','a','t'], ['c','o','n','s','u','m','e'] ]
                               `imperf`     FCuL
-                              `second`     CuL
-                              `masdar`     FaCL,
+                              `second`     CuL,
 
     FaCCaL                    `verb`    {- <'akkal> -}         [ ['f','e','e','d'] ],
 

@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Resolve
--- Copyright   :  Otakar Smrz 2005-2011
+-- Copyright   :  Otakar Smrz 2005-2012
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -44,17 +44,17 @@ newtype MorphoTrees a = MorphoTrees a   deriving (Show, Eq)
 newtype MorphoLists a = MorphoLists a   deriving (Show, Eq)
 
 
+instance Pretty [[[[Wrap Token]]]] => Pretty [[[[[Wrap Token]]]]] where
+
+    pretty = vcat . map pretty
+
+
 instance Pretty (MorphoTrees a) => Pretty [MorphoTrees a] where
 
     pretty = vcat . map pretty
 
 
 instance Pretty (MorphoLists a) => Pretty [MorphoLists a] where
-
-    pretty = vcat . map pretty
-
-
-instance Pretty [[[[Wrap Token]]]] => Pretty [[[[[Wrap Token]]]]] where
 
     pretty = vcat . map pretty
 
@@ -98,22 +98,19 @@ instance (Eq a, Morphing a a, Forming a, Show a, Template a) => Pretty (Token a)
 
 instance Pretty [Wrap Token] where
 
-    pretty []       = text ":"
+    pretty [] = text ":"
 
-    pretty xs@(x:_) = text ": " <> nest 2 ( align (
+    pretty xs = text ("<" ++ compose xs ++ ">") <> align (
 
-            vcat [ unwraps (\ (Token (Lexeme r e, i) (d, m) t) ->
+                vcat [ unwraps (\ (Token (Lexeme r e, i) (d, m) t) ->
 
-                    (fill 10 . text . show) i <> nest 10 (
+                       text "\t" <> pretty t <>
 
-                        (text . ('\t' :) . show) (reflex e)
+                       encloseText [merge d m, show m, show d, show (morphs e), merge r (morphs e)] <>
 
-                        <$$> encloseText [concise (entity e), show (lookupForm r e)]
-                        <$$> encloseText [merge r (morphs e), show r, show (morphs e)] )
+                       text "\t" <> (fill 10 . text . show) i <>
 
-                    <$$> pretty t <>
-
-                    encloseText [merge d m, show d, show m] ) y | y <- xs ] ) )
+                       text "\t" <> (text . show) (reflex e) ) y | y <- xs ] )
 
 
 instance Pretty (MorphoTrees [Wrap Token]) where
@@ -147,11 +144,7 @@ instance Pretty (MorphoLists [Wrap Token]) where
 
 instance Pretty [Wrap Token] => Pretty [[Wrap Token]] where
 
-    pretty x = text (":: <" ++ unwords z ++ ">") <> nest 1 (foldr ((<>) . (<>) line . pretty) empty x)
-
-        where y = nub [ compose y | y <- x ]
-
-              z = if length y > 3 then [head y] ++ [".."] ++ [last y] else y
+    pretty x = foldr ((<>) . (<>) line . pretty) empty x
 
 
 instance Pretty (MorphoTrees [Wrap Token]) => Pretty (MorphoTrees [[Wrap Token]]) where
@@ -181,10 +174,7 @@ instance Pretty (MorphoLists [Wrap Token]) => Pretty (MorphoLists [[Wrap Token]]
 
 instance Pretty [[Wrap Token]] => Pretty [[[Wrap Token]]] where
 
-    pretty x = nest 1 (text ("::: " ++ unwords s) <> foldr ((<>) . (<>) (line <> line)) empty p)
-
-        where p = map pretty x
-              s = map (drop 3 . concat . take 1 . lines . show) p
+    pretty x = foldr ((<>) . (<>) (line <> line) . pretty) empty x
 
 
 instance Pretty (MorphoTrees [[Wrap Token]]) => Pretty (MorphoTrees [[[Wrap Token]]]) where
@@ -1026,14 +1016,19 @@ normalize' x = case x of
 
                 '_' : y                             ->  normalize' y
 
-                'l' : 'A' : 'a' : y                 ->  'l' : 'a' : 'A' : normalize' y
-
-                'A' : '~' : z : y | z `elem` "Fa"   ->  '~' : z : 'A' : normalize' y
                 'A' : z : '~' : y | z `elem` "Fa"   ->  '~' : z : 'A' : normalize' y
+                'A' : '~' : z : y | z `elem` "Fa"   ->  '~' : z : 'A' : normalize' y
                 'A' : '~' : y                       ->  '~' : 'A' : normalize' y
 
+                'A' : 'F' : y                       ->  'F' : 'A' : normalize' y
+                'Y' : 'F' : y                       ->  'F' : 'Y' : normalize' y
+
+                'A' : 'a' : z : y | z /= 'l'        ->  'a' : 'A' : z : normalize' y
+
+                'l' : 'A' : z : '~' : y | z `elem` "Fa"   ->  'l' : '~' : z : 'A' : normalize' y
+                'l' : 'A' : 'a' : y                       ->  'l' : 'a' : 'A' : normalize' y
+
                 z : '~' : y | z `elem` "FNKaui`"    ->  '~' : z : normalize' y
-                z : 'F' : y | z `elem` "AY"         ->  'F' : z : normalize' y
 
                 z : y                               ->  z : normalize' y
                 _                                   ->  []
