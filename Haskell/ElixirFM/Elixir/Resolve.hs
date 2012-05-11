@@ -100,7 +100,7 @@ instance Pretty [Wrap Token] where
 
     pretty [] = text ":"
 
-    pretty xs = text ("<" ++ compose xs ++ ">") <> align (
+    pretty xs = text (compose xs) <> align (
 
                 vcat [ unwraps (\ (Token (Lexeme r e, i) (d, m) t) ->
 
@@ -144,7 +144,7 @@ instance Pretty (MorphoLists [Wrap Token]) where
 
 instance Pretty [Wrap Token] => Pretty [[Wrap Token]] where
 
-    pretty x = foldr ((<>) . (<>) line . pretty) empty x
+    pretty x = foldr ((<>) . (<> line) . pretty) empty x
 
 
 instance Pretty (MorphoTrees [Wrap Token]) => Pretty (MorphoTrees [[Wrap Token]]) where
@@ -174,7 +174,7 @@ instance Pretty (MorphoLists [Wrap Token]) => Pretty (MorphoLists [[Wrap Token]]
 
 instance Pretty [[Wrap Token]] => Pretty [[[Wrap Token]]] where
 
-    pretty x = foldr ((<>) . (<>) (line <> line) . pretty) empty x
+    pretty x = foldr ((<>) . pretty) empty x
 
 
 instance Pretty (MorphoTrees [[Wrap Token]]) => Pretty (MorphoTrees [[[Wrap Token]]]) where
@@ -198,7 +198,7 @@ instance Pretty [[[Wrap Token]]] => Pretty [[[[Wrap Token]]]] where
 
     pretty [] = text "::::" <> line
 
-    pretty x = text ("::" ++ unwords s) <> nest 1 (foldr ((<>) . (<>) (line <> line)) empty p) <> line
+    pretty x = text ("::" ++ unwords s) <> nest 1 (foldr (<>) empty p) <> line
 
         where p = map pretty x
               s = map (drop 1 . concat . take 1 . lines . show) p
@@ -226,7 +226,7 @@ instance Pretty (MorphoLists [[[Wrap Token]]]) => Pretty (MorphoLists [[[[Wrap T
 
 instance Pretty [[[Wrap Token]]] => Pretty (String, [[[[Wrap Token]]]]) where
 
-    pretty (w, x) = text (":::: " ++ w) <> nest 1 (foldr ((<>) . (<>) (line <> line)) empty p) <> line
+    pretty (w, x) = text w <> align ( foldr ((<>) . (text "\t" <>)) empty p ) <> line
 
         where p = map pretty x
 

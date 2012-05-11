@@ -44,24 +44,25 @@ instance Pretty [Clips] where
 
 instance Pretty Clips where
 
-    pretty x = (text . show) x <$$> vcat [ unwraps (\ (Nest r z) ->
+    pretty x = (text . show) x <> align ( vcat [ unwraps (\ (Nest r z) ->
 
-                    vcat [ (fill 10 . text . show) i <> (nest 10 . vcat) (
+                    vcat [ text "\t" <> (fill 10 . text . show) i <> vcat (
 
                               text "\t" <> pretty (domain e) <>
                               encloseText [merge r (morphs e), show r, show (morphs e),
                                            show (reflex e), show (lookupForm r e)]
+                              :
 
-                              : display r (entity e) ++
+                              [ encloseSep (text "\t" <> fill 10 empty <> text "\t" <> pretty f) empty
+                                           (text "\t" <> fill 10 empty <> text "\t" <> fill 10 empty)
+                                           [ encloseText [merge r t, show r, show t] | t <- s ]
 
-                              [ encloseSep (text "\t" <> pretty f) empty
-                                           (text "\t" <> fill 10 empty)
-                                  [ encloseText [merge r t, show r, show t] | t <- s ]
-                                | (f : _, s) <- snd (limits e) ]
+                                | (f, s) <- [ (pretty f, s) | (f, s) <- display (entity e) ] ++
+                                            [ (pretty f, s) | (f : _, s) <- snd (limits e) ] ]
 
                             ) | (i, e) <- zip y z ]
 
-                    ) w | w <- z ]
+                    ) w | w <- z ] )
 
         where y = enumerate x
 
@@ -69,60 +70,33 @@ instance Pretty Clips where
                                   (i : _, j) -> emanate (i, j)
 
 
-display :: (Template a, Show a, Morphing a b, Template b, Show b) => Root -> Entity a -> [Doc]
+display :: Morphing a a => Entity a -> [(String, [Morphs a])]
 
-display r x = case x of   Verb f p i c t v m  ->
+display x = case x of     Verb f p i c t v m  ->
 
-                                eraseEmpty p
-                                  [ encloseSep (text "\t" <> text "-P--------") empty
-                                               (text "\t" <> fill 10 empty)
-                                    [ encloseText [merge r t, show r, show t] | t <- p ] ]
+                                eraseEmpty p [("-P--------", map morph p)]
                                 ++
-                                eraseEmpty i
-                                  [ encloseSep (text "\t" <> text "-I--------") empty
-                                               (text "\t" <> fill 10 empty)
-                                    [ encloseText [merge r t, show r, show t] | t <- i ] ]
+                                eraseEmpty i [("-I--------", map morph i)]
                                 ++
-                                eraseEmpty c
-                                  [ encloseSep (text "\t" <> text "-C--------") empty
-                                               (text "\t" <> fill 10 empty)
-                                    [ encloseText [merge r t, show r, show t] | t <- c ] ]
+                                eraseEmpty c [("-C--------", map morph c)]
                                 ++
-                                eraseEmpty m
-                                  [ encloseSep (text "\t" <> text "N---------") empty
-                                               (text "\t" <> fill 10 empty)
-                                    [ encloseText [merge r t, show r, show t] | t <- m ] ]
+                                eraseEmpty m [("N---------", m)]
 
                           Noun l e g d        ->
 
-                                eraseEmpty l
-                                  [ encloseSep (text "\t" <> text "-------P--") empty
-                                               (text "\t" <> fill 10 empty)
-                                    [ encloseText [merge r t, show r, show t] | t <- l ] ]
+                                eraseEmpty l [("-------P--", l)]
 
                           Adj  l f n          ->
 
-                                eraseEmpty l
-                                  [ encloseSep (text "\t" <> text "-------P--") empty
-                                               (text "\t" <> fill 10 empty)
-                                    [ encloseText [merge r t, show r, show t] | t <- l ] ]
+                                eraseEmpty l [("-------P--", l)]
                                 ++
-                                eraseEmpty f
-                                  [ encloseSep (text "\t" <> text "------F---") empty
-                                               (text "\t" <> fill 10 empty)
-                                    [ encloseText [merge r t, show r, show t] | t <- f ] ]
+                                eraseEmpty f [("------F---", f)]
 
                           Num  l f            ->
 
-                                eraseEmpty l
-                                  [ encloseSep (text "\t" <> text "-------P--") empty
-                                               (text "\t" <> fill 10 empty)
-                                    [ encloseText [merge r t, show r, show t] | t <- l ] ]
+                                eraseEmpty l [("-------P--", l)]
                                 ++
-                                eraseEmpty f
-                                  [ encloseSep (text "\t" <> text "------F---") empty
-                                               (text "\t" <> fill 10 empty)
-                                    [ encloseText [merge r t, show r, show t] | t <- f ] ]
+                                eraseEmpty f [("------F---", f)]
 
                           _                   ->  []
 
