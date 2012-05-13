@@ -46,21 +46,27 @@ instance Pretty Clips where
 
     pretty x = (text . show) x <> align ( vcat [ unwraps (\ (Nest r z) ->
 
-                    vcat [ text "\t" <> (fill 10 . text . show) i <> vcat (
+                    vcat [ text "\t" <> column ( \ _i -> (text . show) i
+                                     <> column ( \ i_ -> vcat (
 
-                              text "\t" <> pretty (domain e) <>
-                              encloseText [merge r (morphs e), show r, show (morphs e),
-                                           show (reflex e), show (lookupForm r e)]
-                              :
+                               text "\t" <> pretty (domain e) <>
+                               encloseText [merge r (morphs e), show r, show (morphs e),
+                                            show (reflex e), show (lookupForm r e)]
+                               :
 
-                              [ encloseSep (text "\t" <> fill 10 empty <> text "\t" <> pretty f) empty
-                                           (text "\t" <> fill 10 empty <> text "\t" <> fill 10 empty)
-                                           [ encloseText [merge r t, show r, show t] | t <- s ]
+                               [ text "\t" <> fill (i_ - _i) empty <>
+                                 text "\t" <> column ( \ _f -> pretty f
+                                           <> column ( \ f_ -> hcat ( punctuate ( line <>
 
-                                | (f, s) <- [ (pretty f, s) | (f, s) <- display (entity e) ] ++
-                                            [ (pretty f, s) | (f : _, s) <- snd (limits e) ] ]
+                                     text "\t" <> fill (i_ - _i) empty <>
+                                     text "\t" <> fill (f_ - _f) empty )
 
-                            ) | (i, e) <- zip y z ]
+                                     [ encloseText [merge r t, show r, show t] | t <- s ]
+
+                                 ) ) ) | (f, s) <- [ (pretty f, s) | (f, s) <- display (entity e) ] ++
+                                                   [ (pretty f, s) | (f : _, s) <- snd (limits e) ] ]
+
+                           ) ) ) | (i, e) <- zip y z ]
 
                     ) w | w <- z ] )
 

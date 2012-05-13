@@ -465,7 +465,13 @@ cluster_29  = cluster
 
     MaFCY                     `noun`    {- <mabkY> -}          [ ['w','a','i','l','i','n','g'] ],
 
-    FACI                      `adj`     {- <bAkI> -}           [ ['m','o','u','r','n','e','r'], ['w','e','e','p','i','n','g'], ['w','e','e','p','e','r','s'] ]
+    FACI                      `noun`    {- <bAkI> -}           [ ['m','o','u','r','n','e','r'], ['w','e','e','p','e','r'] ]
+                              `plural`     FuCY |< aT
+                              `plural`     FawACI
+                           
+    `derives` otherwise,
+
+    FACI                      `adj`     {- <bAkI> -}           [ ['w','e','e','p','i','n','g'], ['m','o','u','r','n','i','n','g'] ]
                               `plural`     FuCY |< aT
                               `plural`     FawACI,
 

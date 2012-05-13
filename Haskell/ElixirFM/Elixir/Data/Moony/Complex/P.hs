@@ -2151,7 +2151,10 @@ cluster_93  = cluster
  |> "w h b" <| [
 
     FaCaL                     `verb`    {- <wahab> -}          [ ['d','o','n','a','t','e'], ['g','r','a','n','t'] ]
-                              `imperf`     CaL,
+                              `imperf`     CaL
+                              `masdar`     CiL |< aT
+                              `masdar`     FaCL
+                              `masdar`     FaCAL,
 
     HaFCaL                    `verb`    {- <'awhab> -}         [ ['p','r','e','s','e','n','t'], unwords [ ['g','i','v','e'], ['a','s'], "a", ['g','i','f','t'] ] ],
 

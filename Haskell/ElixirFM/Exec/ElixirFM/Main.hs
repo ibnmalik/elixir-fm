@@ -169,6 +169,7 @@ elixirResolve o p = interact (unlines . map (encode UTF . decode UCS . show . q 
 
           r = if [ () | ListsResolve <- o ]
                > [ () | TreesResolve <- o ] then singleline pretty . map (\ (x, y) -> (x, morpholists y))
+                                            else if null [ () | TreesResolve <- o ] then singleline pretty
                                             else singleline pretty . map (\ (x, y) -> (x, morphotrees y))
 
           f = null [ () | FuzzyResolve <- o ]
