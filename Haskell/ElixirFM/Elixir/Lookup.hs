@@ -71,9 +71,7 @@ instance Pretty Clips where
                     ) w | w <- z ] )
 
         where y = enumerate x
-
-              z = case unzip y of ([], _)    -> []
-                                  (i : _, j) -> emanate (i, j)
+              z = [ e | c <- regroup y, e <- emanate c ]
 
 
 display :: Morphing a a => Entity a -> [(String, [Morphs a])]
@@ -113,15 +111,20 @@ display x = case x of     Verb f p i c t v m  ->
                                          _  -> y
 
 
+regroup :: [Index] -> [Clips]
+
+regroup = map (\ z -> (fst (head z), map snd z)) . groupBy (\ x y -> fst x == fst y)
+
+
 enumerate :: Clips -> [Index]
 
 enumerate (i, n) = [ (j, z) | (j, w) <- find i lexicon, z <- unwraps (lookups n) w ]
 
-    where find x y | x > 0 && x < i  = [(x, y !! (x - 1))]
-                   | x < 0 && x > -i = find (x + i) y
+    where find x y | x > 0 && x < z  = [(x, y !! (x - 1))]
+                   | x < 0 && x > -z = find (x + z) y
                    | otherwise = []
 
-            where i = length y + 1
+            where z = length y + 1
 
           lookups [] (Nest _ y) = [1 .. length y]
           lookups n  (Nest _ y) = [ z | x <- n, (z, _) <- find x y ]

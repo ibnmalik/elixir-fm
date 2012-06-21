@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Inflect
--- Copyright   :  Otakar Smrz 2005-2011
+-- Copyright   :  Otakar Smrz 2005-2012
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -25,6 +25,24 @@ import Elixir.Derive
 import Elixir.Pretty
 
 import Data.List
+
+
+instance (Show a, Template a) => Pretty [(String, [(ParaType, [(Root, Morphs a)])])] where
+
+    pretty = vcat . map pretty
+
+
+instance (Show a, Template a) => Pretty (String, [(ParaType, [(Root, Morphs a)])]) where
+
+    pretty (x, y) = text x <> align ( vcat [
+
+                        text "\t" <> pretty t <> hcat ( punctuate ( line <>
+
+                            text "\t" <> fill 10 empty )
+
+                            [ encloseText [merge u v, show u, show v] | (u, v) <- f ]
+
+                        ) | (t, f) <- y, not (null f) ] ) <> line
 
 
 instance (Show a, Template a) => Pretty [(ParaType, [(Root, Morphs a)])] where

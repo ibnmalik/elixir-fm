@@ -1,6 +1,8 @@
 Build.PL
 bin/elixir-column.pl
 bin/elixir-compose.pl
+bin/elixir-encode.pl
+bin/elixir-merge.pl
 bin/elixir-resolve.pl
 cgi/elixir/index.fcgi
 css/elixir.css
@@ -23,3 +25,4 @@ lib/ElixirFM/Resolve.pm
 MANIFEST
 META.yml
 README
+META.json

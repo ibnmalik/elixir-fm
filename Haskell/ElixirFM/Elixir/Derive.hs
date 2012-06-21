@@ -25,6 +25,24 @@ import Elixir.Pretty
 import Data.List
 
 
+instance (Show a, Template a) => Pretty [(String, [(TagsType, [(Form, Lexeme a)])])] where
+
+    pretty = vcat . map pretty
+
+
+instance (Show a, Template a) => Pretty (String, [(TagsType, [(Form, Lexeme a)])]) where
+
+    pretty (x, y) = text x <> align ( vcat [
+
+                        text "\t" <> pretty t <> hcat ( punctuate ( line <>
+
+                            text "\t" <> fill 10 empty )
+
+                            [ encloseText [show u, merge r (morphs e), show r, show (morphs e)] | (u, Lexeme r e) <- f ]
+
+                        ) | (t, f) <- y, not (null f) ] ) <> line
+
+
 instance (Show a, Template a) => Pretty [(TagsType, [(Form, Lexeme a)])] where
 
     pretty = singleline pretty . filter (not . null . snd)

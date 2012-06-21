@@ -3,20 +3,19 @@ ElixirFM - Interfaces to the ElixirFM system in Haskell
 The ElixirFM module reimplements some of the functionality of the
 ElixirFM system written in Haskell.
 
-The Exec::ElixirFM module provides a simple interface for invoking
-the ElixirFM executable, which you need to install on your system
-yourself.
+The ElixirFM::Exec module provides a simple interface for invoking the
+'elixir' executable. You need to install this executable by yourself.
 
-ElixirFM is documented at http://elixir-fm.wiki.sourceforge.net/.
+ElixirFM is documented at http://sourceforge.net/apps/trac/elixir-fm/.
 
 
 INSTALLATION
 
 To install this module, run the following from the command line:
 
-	perl Build.PL
-	Build
-	Build install
+    perl Build.PL
+    Build
+    Build install
 
 
 DOCUMENTATION
@@ -30,7 +29,7 @@ in order to get more information on this and related software.
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2010-2005 Otakar Smrz, 2002 Tim Buckwalter
+Copyright (C) 2012-2005 Otakar Smrz, 2002 Tim Buckwalter
 
 This program is free software. You can redistribute it and/or modify
 it under the terms of the GNU General Public License version 3.

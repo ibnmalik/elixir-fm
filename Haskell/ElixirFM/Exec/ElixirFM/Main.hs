@@ -167,10 +167,14 @@ elixirResolve o p = interact (unlines . map (encode UTF . decode UCS . show . q 
                                   y = (nub . filter (any ('\x0640' /=)) . filter (any isArabic)) w
                                   z = (Map.fromList . zip y . map harmonize . resolveBy (fst f') (omitting (snd f') omits) . map (t' . decode UCS)) y
 
-          r = if [ () | ListsResolve <- o ]
-               > [ () | TreesResolve <- o ] then singleline pretty . map (\ (x, y) -> (x, morpholists y))
-                                            else if null [ () | TreesResolve <- o ] then singleline pretty
-                                            else singleline pretty . map (\ (x, y) -> (x, morphotrees y))
+          r = case compare l s of
+
+                  EQ  ->  singleline pretty
+                  GT  ->  singleline pretty . map (\ (x, y) -> (x, morpholists y))
+                  LT  ->  singleline pretty . map (\ (x, y) -> (x, morphotrees y))
+
+          l = [ () | ListsResolve <- o ]
+          s = [ () | TreesResolve <- o ]
 
           f = null [ () | FuzzyResolve <- o ]
           t = null [ () | QuickResolve <- o ]
@@ -180,9 +184,10 @@ elixirResolve o p = interact (unlines . map (encode UTF . decode UCS . show . q 
 
 elixirInflect o p = interact (unlines . map (show . q) . filter r . onlines)
 
-    where q x = vsep [ z | (y, z) <- c x, let t = lists d z, w <- emanate y, z <- f t w ]
+    where q x = hcat [ z | (y, p) <- c x, let t = lists d p, let u = enumerate y,
+                           (v, w) <- zip u [ s | r <- regroup u, s <- emanate r ], z <- f t v w ]
 
-          f x = unwraps (\ (Nest r z) -> [ pretty (inflect (Lexeme r e) x) | e <- z ])
+          f x y = unwraps (\ (Nest r z) -> [ pretty (show y, inflect (Lexeme r e) x) | e <- z ])
 
           c x = [ (y, e z) | (y, z) <- reads x ] ++ [ (clips y, e z) | (y, z) <- reads x ]
 
@@ -190,14 +195,15 @@ elixirInflect o p = interact (unlines . map (show . q) . filter r . onlines)
 
           d = [ z | y <- lists ["----------"] p, z <- convert y ]
 
-          r x = null (words x) || not (null (c x) || any ('"' ==) x)
+          r x = otherwise -- null (words x) || not (null (c x) || any ('"' ==) x)
 
 
 elixirDerive o p = interact (unlines . map (show . q) . filter r . onlines)
 
-    where q x = vsep [ z | (y, z) <- c x, let t = lists d z, w <- emanate y, z <- f t w ]
+    where q x = hcat [ z | (y, p) <- c x, let t = lists d p, let u = enumerate y,
+                           (v, w) <- zip u [ s | r <- regroup u, s <- emanate r ], z <- f t v w ]
 
-          f x = unwraps (\ (Nest r z) -> [ pretty (derive (Lexeme r e) x) | e <- z ])
+          f x y = unwraps (\ (Nest r z) -> [ pretty (show y, derive (Lexeme r e) x) | e <- z ])
 
           c x = [ (y, e z) | (y, z) <- reads x ] ++ [ (clips y, e z) | (y, z) <- reads x ]
 
@@ -205,7 +211,7 @@ elixirDerive o p = interact (unlines . map (show . q) . filter r . onlines)
 
           d = [ z | y <- lists ["----------"] p, z <- convert y ]
 
-          r x = null (words x) || not (null (c x) || any ('"' ==) x)
+          r x = otherwise -- null (words x) || not (null (c x) || any ('"' ==) x)
 
 
 elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) . onlines)

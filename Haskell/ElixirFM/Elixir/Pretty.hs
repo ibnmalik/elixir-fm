@@ -5,7 +5,7 @@
 -- |
 --
 -- Module      :  Elixir.Pretty
--- Copyright   :  Otakar Smrz 2005-2011
+-- Copyright   :  Otakar Smrz 2005-2012
 -- License     :  GPL
 --
 -- Maintainer  :  otakar.smrz mff.cuni.cz
@@ -23,7 +23,7 @@ module Elixir.Pretty (
 
         -- * Functions
 
-        onlines, singleline, doubleline,
+        onlines, columns, singleline, doubleline,
 
         encloseText,
 
@@ -69,6 +69,16 @@ doubleline f = foldr ((<>) . (<> linebreak) . (<> linebreak) . f) empty
 encloseText :: [String] -> Doc
 
 encloseText = hcat . map (text . ('\t' :)) -- encloseSep tab empty tab . map text
+
+
+columns :: String -> [String]
+
+columns = foldr f []
+
+    where f '\t' []       = "" : [""]
+          f '\t' xss      = "" : xss
+          f x    []       = [[x]]
+          f x    (ys:yss) = (x:ys) : yss
 
 
 -- http://www.cas.mcmaster.ca/~kahl/Haskell/Lines/
