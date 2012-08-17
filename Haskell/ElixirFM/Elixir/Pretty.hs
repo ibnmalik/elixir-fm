@@ -23,11 +23,9 @@ module Elixir.Pretty (
 
         -- * Functions
 
-        onlines, columns, singleline, doubleline,
+        rows, cols, singleline, doubleline,
 
-        encloseText,
-
-        printPretty
+        joinText, printPretty
 
     ) where
 
@@ -66,14 +64,14 @@ doubleline :: (a -> Doc) -> [a] -> Doc
 doubleline f = foldr ((<>) . (<> linebreak) . (<> linebreak) . f) empty
 
 
-encloseText :: [String] -> Doc
+joinText :: [String] -> Doc
 
-encloseText = hcat . map (text . ('\t' :)) -- encloseSep tab empty tab . map text
+joinText = hcat . map (text . ('\t' :))
 
 
-columns :: String -> [String]
+cols :: String -> [String]
 
-columns = foldr f []
+cols = foldr f []
 
     where f '\t' []       = "" : [""]
           f '\t' xss      = "" : xss
@@ -81,12 +79,13 @@ columns = foldr f []
           f x    (ys:yss) = (x:ys) : yss
 
 
--- http://www.cas.mcmaster.ca/~kahl/Haskell/Lines/
+rows :: String -> [String]
 
-onlines :: String -> [String]
-
-onlines = foldr f []
+rows = foldr f []
 
     where f '\n' xss      = "" : xss
           f x    []       = [[x]]
           f x    (ys:yss) = (x:ys) : yss
+
+
+-- http://www.cas.mcmaster.ca/~kahl/Haskell/Lines/

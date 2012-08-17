@@ -40,7 +40,7 @@ instance (Show a, Template a) => Pretty (String, [(ParaType, [(Root, Morphs a)])
 
                             text "\t" <> fill 10 empty )
 
-                            [ encloseText [merge u v, show u, show v] | (u, v) <- f ]
+                            [ joinText [merge u v, show u, show v] | (u, v) <- f ]
 
                         ) | (t, f) <- y, not (null f) ] ) <> line
 
@@ -54,7 +54,7 @@ instance (Show a, Template a) => Pretty (ParaType, [(Root, Morphs a)]) where
 
     pretty (x, y) = pretty x <> (nest 10 . vcat)
 
-                    [ encloseText [merge u v, show u, show v] | (u, v) <- y ]
+                    [ joinText [merge u v, show u, show v] | (u, v) <- y ]
 
 
 inflectDerive :: (Morphing a a, Forming a, Rules a, Derive b c, Inflect Lexeme c) =>

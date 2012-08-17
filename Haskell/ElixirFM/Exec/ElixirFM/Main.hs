@@ -138,7 +138,7 @@ tell = hPutStr stdout
 warn = hPutStr stderr
 
 
-elixirResolve o p = interact (unlines . map (encode UTF . decode UCS . show . q . words . encode UCS . decode UTF) . onlines)
+elixirResolve o p = interact (unlines . map (encode UTF . decode UCS . show . q . words . encode UCS . decode UTF) . rows)
 
     where q x = case e of
 
@@ -182,9 +182,9 @@ elixirResolve o p = interact (unlines . map (encode UTF . decode UCS . show . q 
           e = if null p then "" else map toLower (head p)
 
 
-elixirInflect o p = interact (unlines . map (show . q) . filter r . onlines)
+elixirInflect o p = interact (unlines . map (show . q) . filter r . map cols . rows)
 
-    where q x = hcat [ z | (y, p) <- c x, let t = lists d p, let u = enumerate y,
+    where q x = hcat [ z | (y, p) <- c (unwords x), let t = lists d p, let u = enumerate y,
                            (v, w) <- zip u [ s | r <- regroup u, s <- emanate r ], z <- f t v w ]
 
           f x y = unwraps (\ (Nest r z) -> [ pretty (show y, inflect (Lexeme r e) x) | e <- z ])
@@ -195,10 +195,11 @@ elixirInflect o p = interact (unlines . map (show . q) . filter r . onlines)
 
           d = [ z | y <- lists ["----------"] p, z <- convert y ]
 
-          r x = otherwise -- null (words x) || not (null (c x) || any ('"' ==) x)
+          r x = null x || otherwise
+                -- null (words x) || not (null (c x) || any ('"' ==) x)
 
 
-elixirDerive o p = interact (unlines . map (show . q) . filter r . onlines)
+elixirDerive o p = interact (unlines . map (show . q) . filter r . rows)
 
     where q x = hcat [ z | (y, p) <- c x, let t = lists d p, let u = enumerate y,
                            (v, w) <- zip u [ s | r <- regroup u, s <- emanate r ], z <- f t v w ]
@@ -214,7 +215,7 @@ elixirDerive o p = interact (unlines . map (show . q) . filter r . onlines)
           r x = otherwise -- null (words x) || not (null (c x) || any ('"' ==) x)
 
 
-elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) . onlines)
+elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) . rows)
 
     where q x = (f . flip lists c) (if null y then [] else
 
@@ -240,7 +241,7 @@ elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) 
           e = if null p then "" else map toLower (head p)
 
 
-elixirLexicon o p = interact (unlines . map (show . q) . filter r . onlines)
+elixirLexicon o p = interact (unlines . map (show . q) . filter r . rows)
 
     where q x = vcat [ pretty z | y <- c x, z <- emanate y ]
 

@@ -86,11 +86,11 @@ instance (Eq a, Morphing a a, Forming a, Show a, Template a) => Pretty (Token a)
 
     pretty x =  pretty t <> align (
 
-                encloseText [merge d m, show d, show m]
+                joinText [merge d m, show d, show m]
 
-                <$$> encloseText [merge r (morphs e), show r, show (morphs e)]
+                <$$> joinText [merge r (morphs e), show r, show (morphs e)]
                 <$$> (text . ('\t' :) . show) (reflex e)
-                <$$> encloseText [concise (entity e), show (lookupForm r e)]
+                <$$> joinText [concise (entity e), show (lookupForm r e)]
                 <$$> (text . ('\t' :) . show) i )
 
         where Token (Lexeme r e, i) (d, m) t = x
@@ -108,7 +108,7 @@ instance Pretty [Wrap Token] where
                     [ unwraps (\ (Token (Lexeme r e, i) (d, m) t) ->
 
                       text "\t" <> pretty t <>
-                      encloseText [merge d m, show m, show d, show (morphs e), merge r (morphs e),
+                      joinText [merge d m, show m, show d, show (morphs e), merge r (morphs e),
                                    show i, show (reflex e)]
 
                       ) y | y <- xs ] ) ) )
@@ -124,12 +124,12 @@ instance Pretty (MorphoTrees [Wrap Token]) where
 
                         (text . ('\t' :) . show) (reflex e)
 
-                        <$$> encloseText [concise (entity e), show (lookupForm r e)]
-                        <$$> encloseText [merge r (morphs e), show r, show (morphs e)] )) x )
+                        <$$> joinText [concise (entity e), show (lookupForm r e)]
+                        <$$> joinText [merge r (morphs e), show r, show (morphs e)] )) x )
 
             <$$> vcat [ unwraps (\ (Token _ (d, m) t) -> pretty t <>
 
-                        encloseText [merge d m, show d, show m]) y | y <- xs ] ) )
+                        joinText [merge d m, show d, show m]) y | y <- xs ] ) )
 
 
 instance Pretty (MorphoLists [Wrap Token]) where
@@ -138,7 +138,7 @@ instance Pretty (MorphoLists [Wrap Token]) where
 
             text ("<" ++ compose x ++ ">")
 
-            <$$> vcat [ pretty t <> encloseText x | (x, t) <- y ] ) )
+            <$$> vcat [ pretty t <> joinText x | (x, t) <- y ] ) )
 
         where y = [ unwraps (\ (Token _ (d, m) t) -> ([merge d m, show d, show m], t)) y | y <- x ]
 
@@ -167,8 +167,8 @@ instance Pretty (MorphoLists [Wrap Token]) => Pretty (MorphoLists [[Wrap Token]]
 
                         (text . ('\t' :) . show) (reflex e)
 
-                        <$$> encloseText [concise (entity e), show (lookupForm r e)]
-                        <$$> encloseText [merge r (morphs e), show r, show (morphs e)] ) ) y | y <- x ] )
+                        <$$> joinText [concise (entity e), show (lookupForm r e)]
+                        <$$> joinText [merge r (morphs e), show r, show (morphs e)] ) ) y | y <- x ] )
 
                 <$$> vcat (map (pretty . MorphoLists) xs) )
 

@@ -50,8 +50,8 @@ instance Pretty Clips where
                                      <> column ( \ i_ -> vcat (
 
                                text "\t" <> pretty (domain e) <>
-                               encloseText [merge r (morphs e), show r, show (morphs e),
-                                            show (reflex e), show (lookupForm r e)]
+                               joinText [merge r (morphs e), show r, show (morphs e),
+                                         show (reflex e), show (lookupForm r e)]
                                :
 
                                [ text "\t" <> fill (i_ - _i) empty <>
@@ -61,7 +61,7 @@ instance Pretty Clips where
                                      text "\t" <> fill (i_ - _i) empty <>
                                      text "\t" <> fill (f_ - _f) empty )
 
-                                     [ encloseText [merge r t, show r, show t] | t <- s ]
+                                     [ joinText [merge r t, show r, show t] | t <- s ]
 
                                  ) ) ) | (f, s) <- [ (pretty f, s) | (f, s) <- display (entity e) ] ++
                                                    [ (pretty f, s) | (f : _, s) <- snd (limits e) ] ]
