@@ -1236,7 +1236,7 @@ ElixirFM is a high-level implementation of Functional Arabic Morphology document
 L<http://sourceforge.net/apps/trac/elixir-fm/>. The core of ElixirFM is written in Haskell,
 while interfaces in Perl support lexicon editing and other interactions.
 
-TrEd Tree Editor L<http://ufal.mff.cuni.cz/~pajas/tred/>
+TrEd Tree Editor L<http://ufal.mff.cuni.cz/tred/>
 
 Prague Arabic Dependency Treebank L<http://ufal.mff.cuni.cz/padt/online/>
 

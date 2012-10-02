@@ -5,7 +5,7 @@
   </head>
   <pkgname>elixir</pkgname>
   <icon>icons/elixir.png</icon>
-  <repository href="http://ufal.mff.cuni.cz/~pajas/tred/extensions/"/>
+  <repository href="http://ufal.mff.cuni.cz/tred/extensions/core/"/>
   <title>ElixirFM Lexicon</title>
   <version>1.2.0.1</version>
   <copyright year="2006-2011">Otakar Smrž</copyright>
