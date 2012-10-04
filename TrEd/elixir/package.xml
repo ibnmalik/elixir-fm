@@ -7,11 +7,11 @@
   <icon>icons/elixir.png</icon>
   <repository href="http://ufal.mff.cuni.cz/tred/extensions/core/"/>
   <title>ElixirFM Lexicon</title>
-  <version>1.2.0.1</version>
+  <version>1.2.0.3</version>
   <copyright year="2006-2011">Otakar Smrž</copyright>
   <description>Editing, browsing, and processing of the lexicon of ElixirFM.</description>
   <require>
-    <tred min_version="1.4484"/>
+    <tred min_version="2.4936"/>
     <perl_module name="perl" min_version="5.008"/>
     <perl_module name="File::Which">
       <ppm name="File-Which" href="http://trouchelle.com/ppm/File-Which.ppd"/>
