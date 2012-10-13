@@ -8,7 +8,7 @@
 -- Copyright   :  Otakar Smrz 2005-2012
 -- License     :  GPL
 --
--- Maintainer  :  otakar.smrz mff.cuni.cz
+-- Maintainer  :  otakar.smrz seznam.cz
 -- Stability   :  provisional
 -- Portability :  portable
 --
@@ -48,6 +48,4 @@ revised :: String -> Version
 revised revision = fst . last . readP_to_S parseVersion $ words revision !! 1
 
 
-version = Version [1, 2, 0, max build 1036] ["July 2012"]
-
-    where Version [build] [] = revised "$Revision$"
+version = Version [1, 2, 0, 1036] ["October 2012"]

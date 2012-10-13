@@ -171,7 +171,7 @@ The download and further information are at L<http://sourceforge.net/projects/el
 
 =head1 AUTHOR
 
-Otakar Smrz C<< <otakar smrz mff cuni cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
+Otakar Smrz C<< <otakar smrz seznam cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
 
 
 =head1 COPYRIGHT & LICENSE

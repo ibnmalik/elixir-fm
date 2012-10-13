@@ -8,7 +8,7 @@
 -- Copyright   :  Otakar Smrz 2005-2012
 -- License     :  GPL
 --
--- Maintainer  :  otakar.smrz mff.cuni.cz
+-- Maintainer  :  otakar.smrz seznam.cz
 -- Stability   :  provisional
 -- Portability :  portable
 --
@@ -90,8 +90,8 @@ copyleft = unlines ["ElixirFM (C) 2012-2005 Otakar Smrz and Viktor Bielicky",
 
 synopsis = unlines [copyleft,
                     "             http://sourceforge.net/projects/elixir-fm/",
-                    "                    http://quest.ms.mff.cuni.cz/elixir/",
-                    "                              <otakar.smrz mff.cuni.cz>",
+                    "                      http://elixir-fm.sourceforge.net/",
+                    "                                <otakar.smrz seznam.cz>",
                     "",
                     "elixir [--]MODE [--OPTIONS] [PARAMETERS]"]
 

@@ -82,7 +82,7 @@ Encode Arabic Project           L<http://sourceforge.net/projects/encode-arabic/
 
 =head1 AUTHOR
 
-Otakar Smrz C<< <otakar smrz mff cuni cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
+Otakar Smrz C<< <otakar smrz seznam cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
 
 
 =head1 COPYRIGHT AND LICENSE

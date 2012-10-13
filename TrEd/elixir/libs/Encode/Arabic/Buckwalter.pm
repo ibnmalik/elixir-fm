@@ -369,7 +369,7 @@ Xerox Arabic Home Page  L<http://www.arabic-morphology.com/>
 
 Otakar Smrz, L<http://ufal.mff.cuni.cz/~smrz/>
 
-    eval { 'E<lt>' . ( join '.', qw 'otakar smrz' ) . "\x40" . ( join '.', qw 'mff cuni cz' ) . 'E<gt>' }
+    eval { 'E<lt>' . ( join '.', qw 'otakar smrz' ) . "\x40" . ( join '.', qw 'seznam cz' ) . 'E<gt>' }
 
 Perl is also designed to make the easy jobs not that easy ;)
 

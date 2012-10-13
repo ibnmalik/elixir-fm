@@ -8,7 +8,7 @@
 -- Copyright   :  Otakar Smrz 2005-2012
 -- License     :  GPL
 --
--- Maintainer  :  otakar.smrz mff.cuni.cz
+-- Maintainer  :  otakar.smrz seznam.cz
 -- Stability   :  provisional
 -- Portability :  portable
 --

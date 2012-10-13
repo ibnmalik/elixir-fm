@@ -6,7 +6,7 @@ use warnings;
 my $build = Module::Build->new(
     module_name         => 'ElixirFM',
     license             => 'gpl',
-    dist_author         => 'Otakar Smrz <otakar smrz mff cuni cz>',
+    dist_author         => 'Otakar Smrz <otakar smrz seznam cz>',
     dist_version_from   => 'lib/ElixirFM.pm',
     requires       => {
                            'perl'           => 5.008,

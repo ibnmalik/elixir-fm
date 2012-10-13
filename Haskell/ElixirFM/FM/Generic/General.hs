@@ -8,7 +8,7 @@
 -- Copyright   :  Markus Forsberg 2004
 -- License     :  GPL
 --
--- Maintainer  :  otakar.smrz mff.cuni.cz
+-- Maintainer  :  otakar.smrz seznam.cz
 -- Stability   :  provisional
 -- Portability :  portable
 --
