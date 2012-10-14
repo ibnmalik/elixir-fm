@@ -1,0 +1,22 @@
+use ElixirFM;
+use ElixirFM::Exec;
+
+use Data::Dumper;
+
+$\ = "\n";
+
+print map { "$_\n" } ElixirFM::retrieve "perfect active third indicative";
+
+print ElixirFM::retrieve "perfect verb second person feminine active";
+
+print join " ", ElixirFM::retrieve "(verb act sg pl) (noun adj sg nom indef) S V[PI]-A";
+
+print ElixirFM::describe "V[PI]-A-3[FM]S--";
+
+print ElixirFM::describe "[NA]------S1I", 'terse';
+
+$r = ElixirFM::Exec::elixir "resolve", "حوله";
+
+@u = ElixirFM::unpretty $r;
+
+print Data::Dumper->Dump([\@u], ["*u"]);

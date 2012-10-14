@@ -159,8 +159,7 @@ sub display_footline ($) {
     $r .= $q->p("ElixirFM is an", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "open-source online"), "project.",
                 "You can contribute to its development with your suggestions!");
 
-    $r .= $q->p("Contact", $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/'}, "otakar.smrz"), "at",
-                $q->a({-href => 'http://ufal.mff.cuni.cz/'}, "mff.cuni.cz") . ",",
+    $r .= $q->p("Contact", $q->a({-href => 'http://cz.linkedin.com/in/otakarsmrz/'}, "otakar.smrz seznam.cz") . ",",
                 "Institute of Formal and Applied Linguistics, Charles University in Prague.");
 
     return $r;
@@ -285,7 +284,7 @@ sub main ($) {
 
     $r .= $q->p("Welcome to the online interface to",
                 $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "ElixirFM") . ", the implementation of",
-                $q->a({-href => 'http://ufal.mff.cuni.cz/~smrz/elixir-thesis.pdf'}, "Functional Arabic Morphology"),
+                $q->a({-href => 'http://elixir-fm.sourceforge.net/elixir-thesis.pdf'}, "Functional Arabic Morphology"),
                 "written in Haskell and Perl.");
 
     $r .= $q->p("ElixirFM can process words of", $q->a({-href => 'http://en.wikipedia.org/wiki/Dictionary_of_Modern_Written_Arabic'},

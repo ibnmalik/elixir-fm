@@ -148,14 +148,13 @@ sub pretty_resolve_lexeme {
 
     my $xcat = substr $data[0]->[0], 0, 1;
 
-    $info[1] = substr $info[1], 1, -1;
-    $info[1] =~ s/\",\"/\", \"/g;
+    $info[1] = join '", "', split '","', substr $info[1], 1, -1;
 
     my @stem = $info[2] =~ /^Verb \[([^\]]*)\] \[([^\]]*)\] \[([^\]]*)\]$/;
 
     $info[2] = @stem ? join " ", map { split /[,]/, $stem[$_] } 1, 0, 2 : "";
 
-    $info[3] =~ s/[\[\]]//g;
+    $info[3] = substr $info[3], 1, -1;
 
     $info[-2] = substr $info[-2], 1, -1;
 
