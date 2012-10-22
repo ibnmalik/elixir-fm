@@ -3,13 +3,13 @@
 import subprocess
 import sys
 
-def elixir(mode, opts, text):
-    elixir = subprocess.Popen(['elixir', mode] + opts, stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+def elixir(mode, text, *opts):
+    elixir = subprocess.Popen(['elixir', mode] + list(opts), stdin=subprocess.PIPE, stdout=subprocess.PIPE)
     (data, errs) = elixir.communicate(text)
     return data
 
-def main(args=sys.argv[1:]):
-    print elixir(args[0] if args else "", args[1:], sys.stdin.read())
+def main(*args):
+    print elixir(args[0] if args else "", sys.stdin.read(), *args[1:])
 
 if __name__ == "__main__":
-    main()
+    main(*sys.argv[1:])
