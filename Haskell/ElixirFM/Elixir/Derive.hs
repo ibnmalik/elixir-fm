@@ -40,7 +40,7 @@ instance (Show a, Template a) => Pretty (String, [(TagsType, [(Form, Lexeme a)])
 
                             [ joinText [show u, merge r (morphs e), show r, show (morphs e)] | (u, Lexeme r e) <- f ]
 
-                        ) | (t, f) <- y, not (null f) ] ) <> line
+                        ) | (t, f) <- y, not (null f) ] )
 
 
 instance (Show a, Template a) => Pretty [(TagsType, [(Form, Lexeme a)])] where

@@ -157,8 +157,12 @@ ElixirFM::Exec - Interface to the ElixirFM executable
 
     import ElixirFM::Exec 'other/elixir';       #   switching to 'other/elixir'
 
-    ElixirFM::Exec::elixir 'inflect', ['(1320,1)'], "V[PI]---3MS--", "N------P-[IRD]";
-    ElixirFM::Exec::inflect           ['(1320,1)'], "V[PI]---3MS--", "N------P-[IRD]";
+    ElixirFM::Exec::elixir 'inflect',           #   requested mode of operation
+                           ["V[PI]---3MS--"],   #   optional command-line params
+                           "(1320,1)",          #   supplied standard-input data
+                           "(1234,[])";         #   which can be split by lines
+
+    ElixirFM::Exec::inflect ["V[PI]---3MS--"], "(1320,1)", "(1234,[])";
 
 
 =head1 DESCRIPTION
@@ -176,7 +180,7 @@ Otakar Smrz C<< <otakar smrz seznam cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright (C) 2005-2010 Otakar Smrz
+Copyright (C) 2005-2012 Otakar Smrz
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the GNU General Public License version 3.

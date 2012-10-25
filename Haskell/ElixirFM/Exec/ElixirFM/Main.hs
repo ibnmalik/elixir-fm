@@ -184,10 +184,10 @@ elixirResolve o p = interact (unlines . map (encode UTF . decode UCS . show . q 
 
 elixirInflect o p = interact (unlines . map (show . q) . filter r . map cols . rows)
 
-    where q x = hcat [ z | (y, p) <- c (unwords x), let t = lists d p, let u = enumerate y,
-                           (v, w) <- zip u [ s | r <- regroup u, s <- emanate r ], z <- f t v w ]
+    where q x = singleline id [ z | (y, p) <- c (unwords x), let t = lists d p, let u = enumerate y,
+                                    z <- [ f t u s | r <- regroup u, s <- emanate r ] ]
 
-          f x y = unwraps (\ (Nest r z) -> [ pretty (show y, inflect (Lexeme r e) x) | e <- z ])
+          f x u = unwraps (\ (Nest r z) -> pretty [ (show y, inflect (Lexeme r e) x) | (y, e) <- zip u z ] )
 
           c x = [ (y, e z) | (y, z) <- reads x ] ++ [ (clips y, e z) | (y, z) <- reads x ]
 
@@ -201,10 +201,10 @@ elixirInflect o p = interact (unlines . map (show . q) . filter r . map cols . r
 
 elixirDerive o p = interact (unlines . map (show . q) . filter r . rows)
 
-    where q x = hcat [ z | (y, p) <- c x, let t = lists d p, let u = enumerate y,
-                           (v, w) <- zip u [ s | r <- regroup u, s <- emanate r ], z <- f t v w ]
+    where q x = singleline id [ z | (y, p) <- c x, let t = lists d p, let u = enumerate y,
+                                    z <- [ f t u s | r <- regroup u, s <- emanate r ] ]
 
-          f x y = unwraps (\ (Nest r z) -> [ pretty (show y, derive (Lexeme r e) x) | e <- z ])
+          f x u = unwraps (\ (Nest r z) -> pretty [ (show y, derive (Lexeme r e) x) | (y, e) <- zip u z ] )
 
           c x = [ (y, e z) | (y, z) <- reads x ] ++ [ (clips y, e z) | (y, z) <- reads x ]
 
@@ -236,7 +236,7 @@ elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) 
                       r = unfoldr (\ x -> let y = reads x in if null y then Nothing else Just (head y)) x
                       y = unwords (words x)
 
-          f x = singleline id [ pretty y | y <- x ]
+          f x = singleline id [ pretty c | y <- x, c <- regroup (enumerate y) ]
 
           e = if null p then "" else map toLower (head p)
 

@@ -42,7 +42,7 @@ instance (Show a, Template a) => Pretty (String, [(ParaType, [(Root, Morphs a)])
 
                             [ joinText [merge u v, show u, show v] | (u, v) <- f ]
 
-                        ) | (t, f) <- y, not (null f) ] ) <> line
+                        ) | (t, f) <- y, not (null f) ] )
 
 
 instance (Show a, Template a) => Pretty [(ParaType, [(Root, Morphs a)])] where
