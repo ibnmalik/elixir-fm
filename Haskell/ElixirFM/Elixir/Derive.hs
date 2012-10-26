@@ -27,7 +27,7 @@ import Data.List
 
 instance (Show a, Template a) => Pretty [(String, [(TagsType, [(Form, Lexeme a)])])] where
 
-    pretty = vcat . map pretty
+    pretty = vcat . map pretty . filter (not . null . snd)
 
 
 instance (Show a, Template a) => Pretty (String, [(TagsType, [(Form, Lexeme a)])]) where

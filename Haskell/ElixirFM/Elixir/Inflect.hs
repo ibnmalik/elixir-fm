@@ -29,7 +29,7 @@ import Data.List
 
 instance (Show a, Template a) => Pretty [(String, [(ParaType, [(Root, Morphs a)])])] where
 
-    pretty = vcat . map pretty
+    pretty = vcat . map pretty . filter (not . null . snd)
 
 
 instance (Show a, Template a) => Pretty (String, [(ParaType, [(Root, Morphs a)])]) where
