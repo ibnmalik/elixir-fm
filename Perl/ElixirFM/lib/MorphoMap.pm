@@ -2,16 +2,13 @@
 #
 # MorphoMap ################################################################ 2004/02/29 # 2004/11/24
 
-# $Id$
-
 package MorphoMap;
 
 use 5.008;
 
 use strict;
-use warnings;
 
-our $VERSION = '1.9' || do { q $Revision$ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
+our $VERSION = '1.9.1';
 
 
 our ($AraMorph_POSVector, %AraMorph_POSVector_missing);
@@ -1514,11 +1511,6 @@ __END__
 MorphoMap - Approximation of Tim Buckwalter's Morphology into the Functional Morphology
 
 
-=head1 REVISION
-
-    $Revision$       $Date$
-
-
 =head1 DESCRIPTION
 
 =over
@@ -1567,16 +1559,12 @@ the already specified information for e.g. illusory feminine plural and overgene
 
 =head1 AUTHOR
 
-Otakar Smrz, L<http://ufal.mff.cuni.cz/~smrz/>
-
-    eval { 'E<lt>' . ( join '.', qw 'otakar smrz' ) . "\x40" . ( join '.', qw 'seznam cz' ) . 'E<gt>' }
-
-Perl is also designed to make the easy jobs not that easy ;)
+Otakar Smrz C<< <otakar-smrz users.sf.net> >>, L<http://otakar-smrz.users.sf.net/>
 
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2003-2011 Otakar Smrz
+Copyright (C) 2003-2012 Otakar Smrz
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

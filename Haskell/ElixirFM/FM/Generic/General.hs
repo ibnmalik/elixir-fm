@@ -1,14 +1,10 @@
--- --------------------------------------------------------------------------
---  $Revision$ $Date$
--- --------------------------------------------------------------------------
-
 -- |
 --
 -- Module      :  FM.Generic.General
 -- Copyright   :  Markus Forsberg 2004
 -- License     :  GPL
 --
--- Maintainer  :  otakar.smrz seznam.cz
+-- Maintainer  :  otakar-smrz users.sf.net
 -- Stability   :  provisional
 -- Portability :  portable
 --

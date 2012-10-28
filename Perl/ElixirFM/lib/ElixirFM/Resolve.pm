@@ -2,15 +2,13 @@
 #
 # ElixirFM Resolve #################################################################################
 
-# $Id$
-
 package ElixirFM::Resolve;
 
 use 5.008;
 
 use strict;
 
-our $VERSION = '1.1' || do { q $Revision$ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
+our $VERSION = '1.1.0';
 
 # ##################################################################################################
 #
@@ -194,11 +192,6 @@ __END__
 ElixirFM::Resolve - Interfaces to the ElixirFM system in Haskell
 
 
-=head1 REVISION
-
-    $Revision$        $Date$
-
-
 =head1 SYNOPSIS
 
     use ElixirFM::Resolve;
@@ -227,7 +220,7 @@ You can also look for information at L<http://sourceforge.net/projects/elixir-fm
 
 =head1 AUTHOR
 
-Otakar Smrz C<< <otakar smrz seznam cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
+Otakar Smrz C<< <otakar-smrz users.sf.net> >>, L<http://otakar-smrz.users.sf.net/>
 
 
 =head1 COPYRIGHT & LICENSE

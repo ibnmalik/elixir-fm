@@ -2,13 +2,11 @@
 #
 # ElixirFM Resolve Online ######################################################################
 
-# $Id$
-
 package ElixirFM::CGI::Resolve;
 
 use strict;
 
-our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
+our $VERSION = '1.1.0';
 
 
 use ElixirFM::CGI;

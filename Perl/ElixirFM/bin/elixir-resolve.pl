@@ -2,7 +2,7 @@
 
 BEGIN {
 
-    our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
+    our $VERSION = '1.1.0';
 
     use Getopt::Std;
 
@@ -61,11 +61,6 @@ __END__
 elixir-resolve - Arabic morphological analyzer derived from ElixirFM
 
 
-=head1 REVISION
-
-    $Revision$        $Date$
-
-
 =head1 OPTIONS
 
   elixir-resolve [OPTIONS]
@@ -82,7 +77,7 @@ Encode Arabic Project           L<http://sourceforge.net/projects/encode-arabic/
 
 =head1 AUTHOR
 
-Otakar Smrz C<< <otakar smrz seznam cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
+Otakar Smrz C<< <otakar-smrz users.sf.net> >>, L<http://otakar-smrz.users.sf.net/>
 
 
 =head1 COPYRIGHT AND LICENSE

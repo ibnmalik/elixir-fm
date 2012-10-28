@@ -9,7 +9,7 @@ def elixir(mode, text, *opts):
     return data
 
 def main(*args):
-    print elixir(args[0] if args else "", sys.stdin.read(), *args[1:])
+    sys.stdout.write(elixir(args[0] if args else "", sys.stdin.read(), *args[1:]))
 
 if __name__ == "__main__":
     main(*sys.argv[1:])

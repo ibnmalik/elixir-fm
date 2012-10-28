@@ -2,13 +2,11 @@
 #
 # ElixirFM Lookup Online #######################################################################
 
-# $Id$
-
 package ElixirFM::CGI::Lookup;
 
 use strict;
 
-our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
+our $VERSION = '1.1.0';
 
 
 use ElixirFM::CGI;
@@ -114,7 +112,7 @@ sub pretty_lookup_entry {
 
     my $form = [ split ',', substr $ents->[1][5], 1, -1 ];
 
-    my @entity = map { my $t = $_; [ map { $ents->[$_][0] eq $t ? @{$ents->[$_]}[1 .. @{$ents->[$_]} - 1] : () } 2 .. @{$ents} - 1 ] } "-------P--", "------F---"; 
+    my @entity = map { my $t = $_; [ map { $ents->[$_][0] eq $t ? @{$ents->[$_]}[1 .. @{$ents->[$_]} - 1] : () } 2 .. @{$ents} - 1 ] } "-------P--", "------F---";
 
     @entity = ((map { [($_ == 0 ? '-------P--' : ''), @{$entity[0][$_]}[0, 2]] } 0 .. @{$entity[0]} - 1),
                (map { [($_ == 0 ? '------F---' : ''), @{$entity[1][$_]}[0, 2]] } 0 .. @{$entity[1]} - 1));
@@ -124,7 +122,7 @@ sub pretty_lookup_entry {
     # $xtag = join ' ', ElixirFM::retrieve $xtag;
     # $xtag = substr $xtag, 0, 1;
 
-    $info[4] = join " ", map { my $t = $_; map { $ents->[$_][0] eq $t ? map { $_->[2] } @{$ents->[$_]}[1 .. @{$ents->[$_]} - 1] : () } 2 .. @{$ents} - 1 } "-I--------", "-P--------", "-C--------"; 
+    $info[4] = join " ", map { my $t = $_; map { $ents->[$_][0] eq $t ? map { $_->[2] } @{$ents->[$_]}[1 .. @{$ents->[$_]} - 1] : () } 2 .. @{$ents} - 1 } "-I--------", "-P--------", "-C--------";
 
     $info[5] = ElixirFM::merge $data->[1][1][2], $info[0];
 

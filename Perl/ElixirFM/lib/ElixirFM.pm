@@ -2,15 +2,13 @@
 #
 # ElixirFM Interfaces ##############################################################################
 
-# $Id$
-
 package ElixirFM;
 
 use 5.008;
 
 use strict;
 
-our $VERSION = '1.2' || join '.', '1.2.0', q $Revision$ =~ /(\d+)/;
+our $VERSION = '1.2.0';
 
 use Encode::Arabic;
 
@@ -1460,11 +1458,6 @@ __END__
 ElixirFM - Interfaces to the ElixirFM system implementing Functional Arabic Morphology
 
 
-=head1 REVISION
-
-    $Revision$        $Date$
-
-
 =head1 SYNOPSIS
 
     use ElixirFM;
@@ -1480,7 +1473,7 @@ You can find documentation for this module at L<http://sourceforge.net/projects/
 
 =head1 AUTHOR
 
-Otakar Smrz C<< <otakar smrz seznam cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
+Otakar Smrz C<< <otakar-smrz users.sf.net> >>, L<http://otakar-smrz.users.sf.net/>
 
 
 =head1 COPYRIGHT & LICENSE

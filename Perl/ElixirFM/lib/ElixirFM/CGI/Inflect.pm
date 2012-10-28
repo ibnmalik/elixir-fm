@@ -2,13 +2,11 @@
 #
 # ElixirFM Inflect Online ######################################################################
 
-# $Id$
-
 package ElixirFM::CGI::Inflect;
 
 use strict;
 
-our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
+our $VERSION = '1.2.0';
 
 
 use ElixirFM::CGI;
@@ -25,12 +23,12 @@ use Encode::Arabic::Buckwalter ':xml';
 use Encode::Arabic ':modes';
 
 
-our @example = ( [ 'perfect active third imperative',                               decode "buckwalter", "qrO" ],
-                 [ 'perf act 3rd impa',                                             decode "buckwalter", "qrO" ],
-                 [ '-P-A-3---- -C--------',                                         decode "buckwalter", "qrO" ],
-                 [ 'indicative subjunctive jussive indefinite reduced definite',    decode "buckwalter", "AstqrO ktAbp" ],
-                 [ 'ind sub jus indf red def',                                      decode "buckwalter", "AstqrO ktAbp" ],
-                 [ '--[ISJ]------[IRD]',                                            decode "buckwalter", "AstqrO ktAbp" ] );
+our @example = ( [ 'perfect active third imperative',                            decode "buckwalter", "qrO" ],
+                 [ 'perf act 3rd impa',                                          decode "buckwalter", "qrO" ],
+                 [ '-P-A-3---- -C--------',                                      decode "buckwalter", "qrO" ],
+                 [ 'indicative subjunctive jussive indefinite reduced definite', decode "buckwalter", "AstqrO ktAbp" ],
+                 [ 'ind sub jus indf red def',                                   decode "buckwalter", "AstqrO ktAbp" ],
+                 [ '--[ISJ]------[IRD]',                                         decode "buckwalter", "AstqrO ktAbp" ] );
 
 
 sub pretty ($$$$) {
@@ -101,18 +99,18 @@ sub pretty_lookup_tree {
 
                 my $ents = $data->[$_];
 
-		my $clip = $ents->[0];     # sprintf "(%d,%d)", $clip->[0], defined $clip->[1] ? $clip->[1][$_] : $_ + 1;
+        my $clip = $ents->[0];     # sprintf "(%d,%d)", $clip->[0], defined $clip->[1] ? $clip->[1][$_] : $_ + 1;
 
-		my @info = @{$ents->[1]}[3, 0, 0, 4];    # @{$ents->[1]}{'morphs', 'entity', 'limits', 'reflex'};
+        my @info = @{$ents->[1]}[3, 0, 0, 4];    # @{$ents->[1]}{'morphs', 'entity', 'limits', 'reflex'};
 
-		my $form = [ split ',', substr $ents->[1][5], 1, -1 ];
+        my $form = [ split ',', substr $ents->[1][5], 1, -1 ];
 
-		my $xtag = substr $info[1], 0, 1;  # $info[1]->[0];
+        my $xtag = substr $info[1], 0, 1;  # $info[1]->[0];
 
-		# $xtag = join ' ', ElixirFM::retrieve $xtag;
-		# $xtag = substr $xtag, 0, 1;
+        # $xtag = join ' ', ElixirFM::retrieve $xtag;
+        # $xtag = substr $xtag, 0, 1;
 
-                $info[4] = join " ", map { my $t = $_; map { $ents->[$_][0] eq $t ? map { $_->[2] } @{$ents->[$_]}[1 .. @{$ents->[$_]} - 1] : () } 2 .. @{$ents} - 1 } "-I--------", "-P--------", "-C--------"; 
+                $info[4] = join " ", map { my $t = $_; map { $ents->[$_][0] eq $t ? map { $_->[2] } @{$ents->[$_]}[1 .. @{$ents->[$_]} - 1] : () } 2 .. @{$ents} - 1 } "-I--------", "-P--------", "-C--------";
 
                 $info[5] = ElixirFM::merge $data->[1][1][2], $info[0];
 

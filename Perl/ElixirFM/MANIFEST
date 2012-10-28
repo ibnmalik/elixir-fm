@@ -23,6 +23,5 @@ lib/ElixirFM/Data/Compose.PL
 lib/ElixirFM/Exec.pm
 lib/ElixirFM/Resolve.pm
 MANIFEST
-META.yml
 README
-META.json
+t/ElixirFM.t

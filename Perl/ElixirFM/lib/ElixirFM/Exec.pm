@@ -2,13 +2,11 @@
 #
 # ElixirFM Executable ##############################################################################
 
-# $Id$
-
 package ElixirFM::Exec;
 
 use strict;
 
-our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
+our $VERSION = '1.2.0';
 
 
 use Encode;
@@ -138,11 +136,6 @@ __END__
 ElixirFM::Exec - Interface to the ElixirFM executable
 
 
-=head1 REVISION
-
-    $Revision$        $Date$
-
-
 =head1 SYNOPSIS
 
     use ElixirFM::Exec;                         #   'elixir' will be tried out
@@ -175,7 +168,7 @@ The download and further information are at L<http://sourceforge.net/projects/el
 
 =head1 AUTHOR
 
-Otakar Smrz C<< <otakar smrz seznam cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
+Otakar Smrz C<< <otakar-smrz users.sf.net> >>, L<http://otakar-smrz.users.sf.net/>
 
 
 =head1 COPYRIGHT & LICENSE

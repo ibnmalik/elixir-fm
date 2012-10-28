@@ -2,13 +2,11 @@
 #
 # ElixirFM Widget Interface ####################################################################
 
-# $Id$
-
 package ElixirFM::Wx::Resolve;
 
 use strict;
 
-our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
+our $VERSION = '1.1.0';
 
 
 use Wx ':everything';

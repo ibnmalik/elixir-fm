@@ -2,13 +2,11 @@
 #
 # ElixirFM Online Interface ####################################################################
 
-# $Id$
-
 package ElixirFM::CGI;
 
 use strict;
 
-our $VERSION = join '.', '1.2', q $Revision$ =~ /(\d+)/;
+our $VERSION = '1.2.0';
 
 
 use base 'CGI::Application::FastCGI';
@@ -153,13 +151,13 @@ sub display_footline ($) {
     my $r;
 
     $r .= $q->p({'style' => 'margin-top: 30px'},
-                "(C) Otakar Smrz 2012, Viktor Bielicky 2012, Tim Buckwalter 2002. GNU General Public License",
+                "(C) Otakar Smr\x{017E} 2012, Viktor Bielick\x{00FD} 2012, Tim Buckwalter 2002. GNU General Public License",
                 $q->a({-href => 'http://www.gnu.org/licenses/'}, "GNU GPL 3") . ".");
 
     $r .= $q->p("ElixirFM is an", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "open-source online"), "project.",
                 "You can contribute to its development with your suggestions!");
 
-    $r .= $q->p("Contact", $q->a({-href => 'http://cz.linkedin.com/in/otakarsmrz/'}, "otakar.smrz seznam.cz") . ",",
+    $r .= $q->p("Contact", $q->a({-href => 'http://otakar-smrz.users.sf.net/'}, "otakar-smrz users.sf.net") . ",",
                 "Institute of Formal and Applied Linguistics, Charles University in Prague.");
 
     return $r;

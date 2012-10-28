@@ -4,9 +4,7 @@
 #
 # Building ElixirFM ############################################################################
 
-# $Id$
-
-our $VERSION = join '.', 1, 2, 0, q $Revision$ =~ /(\d+)/;
+our $VERSION = '1.2.0';
 
 
 use File::Spec;

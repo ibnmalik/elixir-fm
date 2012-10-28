@@ -5,8 +5,8 @@ license-file:       LICENSE
 extra-source-files: INSTALL, Setup.PL, elixir.svg
 copyright:          2012
 author:             Otakar Smrz
-maintainer:         otakar.smrz seznam.cz
-homepage:           http://cz.linkedin.com/in/otakarsmrz
+maintainer:         otakar-smrz users.sf.net
+homepage:           http://otakar-smrz.users.sf.net/
 package-url:        http://sourceforge.net/projects/elixir-fm/
 category:           Text, Natural Language Processing
 build-depends:      Encode, Cabal, base < 4.4, containers, wl-pprint > 1.0
