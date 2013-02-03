@@ -151,7 +151,7 @@ sub display_footline ($) {
     my $r;
 
     $r .= $q->p({'style' => 'margin-top: 30px'},
-                "(C) Otakar Smr\x{017E} 2012, Viktor Bielick\x{00FD} 2012, Tim Buckwalter 2002. GNU General Public License",
+                "(C) Otakar Smr\x{017E} 2013, Viktor Bielick\x{00FD} 2012, Tim Buckwalter 2002. GNU General Public License",
                 $q->a({-href => 'http://www.gnu.org/licenses/'}, "GNU GPL 3") . ".");
 
     $r .= $q->p("ElixirFM is an", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "open-source online"), "project.",
@@ -254,6 +254,10 @@ sub main ($) {
 
         $q->param('text', $example[$idx][-1]);
     }
+    else {
+
+        $q->param('text', decode "utf8", $q->param('text'));
+    }
 
     $r .= $q->start_form(-method => 'POST', -style => 'margin: 10px 0px 30px 0px');
 
@@ -328,7 +332,7 @@ sub main ($) {
 
     $r .= display_footer $c;
 
-    return $r;
+    return encode "utf8", $r;
 }
 
 
