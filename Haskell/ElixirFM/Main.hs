@@ -1,7 +1,7 @@
 -- |
 --
--- Module      :  Exec.ElixirFM.Main
--- Copyright   :  Otakar Smrz 2005-2012
+-- Module      :  Main
+-- Copyright   :  Otakar Smrz 2005-2013
 -- License     :  GPL
 --
 -- Maintainer  :  otakar-smrz users.sf.net
@@ -80,7 +80,7 @@ options = [ Option []    ["resolve"]    (NoArg (RunAction elixirResolve))
                                                 "library version and build information" ]
 
 
-copyleft = unlines ["ElixirFM (C) 2012-2005 Otakar Smrz and Viktor Bielicky",
+copyleft = unlines ["ElixirFM (C) 2013-2005 Otakar Smrz and Viktor Bielicky",
                     "             2004 Markus Forsberg, 2002 Tim Buckwalter",
                     "GNU General Public License http://www.gnu.org/licenses/"]
 

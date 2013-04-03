@@ -3,7 +3,7 @@ version:            1.2.0
 license:            GPL
 license-file:       LICENSE
 extra-source-files: INSTALL, Setup.PL, elixir.svg
-copyright:          2012
+copyright:          2013
 author:             Otakar Smrz
 maintainer:         otakar-smrz users.sf.net
 homepage:           http://otakar-smrz.users.sf.net/
@@ -165,7 +165,7 @@ extensions:         MultiParamTypeClasses,
 hugs-options:       -98 +o +u -h96M
 
 executable:         elixir
-main-is:            Exec/ElixirFM/Main.hs
+main-is:            Main.hs
 other-modules:      ElixirFM,
                     --  Elixir,
                         Elixir.Data,
