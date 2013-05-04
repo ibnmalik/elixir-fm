@@ -213,9 +213,9 @@ elixirDerive o p = interact (unlines . map (show . q) . filter r . rows)
 
 elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) . rows)
 
-    where q x = if null c then if null y then empty else pretty (
+    where q x = if null y then empty else pretty (
 
-                               if null r then if any isArabic y        then (y, lookup (decode UCS y))
+                if null c then if null r then if any isArabic y        then (y, lookup (decode UCS y))
 
                                                  else case e of
 
@@ -226,9 +226,9 @@ elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) 
                                          else if any isArabic (head r) then (head r, lookup (decode UCS (head r)))
 
                                                  else if null (head r) then (show "", lookup "")
-                                                                       else (show (unwords r), lookup (map (decode UCS) r)) )
+                                                                       else (show (unwords r), lookup (map (decode UCS) r))
 
-                          else pretty (head c)
+                          else head c )
 
                 where c = [ (show y, [y]) | (y, _) <- reads x ] ++ [ (show y, [clips y]) | (y, _) <- reads x ]
                       r = unfoldr (\ x -> let y = reads x in if null y then Nothing else Just (head y)) x
