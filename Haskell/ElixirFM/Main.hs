@@ -211,28 +211,28 @@ elixirDerive o p = interact (unlines . map (show . q) . filter r . rows)
           r x = otherwise -- null (words x) || not (null (c x) || any ('"' ==) x)
 
 
-elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) . rows)
+elixirLookup o p = interact (unlines . map (show . pretty . q . encode UCS . decode UTF) . rows)
 
-    where q x = (f . flip lists c) (if null y then [] else
+    where q x = if null c then if null y then ("", []) else
 
-                                    if null r then if any isArabic y        then lookup (decode UCS y)
+                               if null r then if any isArabic y        then (y, lookup (decode UCS y))
 
-                                                      else case e of
+                                                 else case e of
 
-                                                                    "tex"   ->   lookup y
-                                                                    "tim"   ->   lookup (decode Tim y)
-                                                                    _       ->   lookup (words y)
+                                                               "tex"   ->   (y, lookup y)
+                                                               "tim"   ->   (y, lookup (decode Tim y))
+                                                               _       ->   (y, lookup (words y))
 
-                                              else if any isArabic (head r) then lookup (decode UCS (head r))
+                                         else if any isArabic (head r) then (head r, lookup (decode UCS (head r)))
 
-                                                      else if null (head r) then lookup ""
-                                                                            else lookup (map (decode UCS) r))
+                                                 else if null (head r) then (show "", lookup "")
+                                                                       else (show (unwords r), lookup (map (decode UCS) r))
 
-                where c = [ y | (y, _) <- reads x ] ++ [ clips y | (y, _) <- reads x ]
+                          else head c
+
+                where c = [ (show y, [y]) | (y, _) <- reads x ] ++ [ (show y, [clips y]) | (y, _) <- reads x ]
                       r = unfoldr (\ x -> let y = reads x in if null y then Nothing else Just (head y)) x
                       y = unwords (words x)
-
-          f x = singleline id [ pretty c | y <- x, c <- regroup (enumerate y) ]
 
           e = if null p then "" else map toLower (head p)
 

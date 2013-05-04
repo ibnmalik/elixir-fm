@@ -1,7 +1,7 @@
 -- |
 --
 -- Module      :  Elixir.Lookup
--- Copyright   :  Otakar Smrz 2005-2012
+-- Copyright   :  Otakar Smrz 2005-2013
 -- License     :  GPL
 --
 -- Maintainer  :  otakar-smrz users.sf.net
@@ -33,6 +33,50 @@ import Data.List hiding (lookup)
 import Prelude hiding (lookup)
 
 
+instance Pretty [Clips] => Pretty (String, [Clips]) where
+
+    pretty (w, x) = text w <> align (vcat (map nice x)) <> line
+
+        where nice x = vcat [ text "\t" <> width ((text . show) c) ( \ c' ->
+
+                              hcat ( punctuate ( line <>
+                                     text "\t" <> fill c' empty )
+
+                                   [ unwraps ( \ (Nest r z) ->
+
+                                     hcat ( punctuate ( line <>
+                                            text "\t" <> fill c' empty )
+
+                                          [ text "\t" <> width ((text . show) i) ( \ i' ->
+
+                                            hcat ( punctuate ( line <>
+                                                   text "\t" <> fill c' empty <>
+                                                   text "\t" <> fill i' empty )
+
+                              ( ( text "\t" <> pretty (domain e) <>
+                                  joinText [merge r (morphs e), show r, show (morphs e),
+                                            show (reflex e), show (lookupForm r e)] )
+                                :
+
+                                [ text "\t" <> width (pretty f) ( \ f' ->
+
+                                  hcat ( punctuate ( line <>
+                                         text "\t" <> fill c' empty <>
+                                         text "\t" <> fill i' empty <>
+                                         text "\t" <> fill f' empty )
+
+                                       [ joinText [merge r t, show r, show t] | t <- s ]
+
+                                  ) ) | (f, s) <- [ (pretty f, s) | (f, s) <- display (entity e) ] ++
+                                                  [ (pretty f, s) | (f : _, s) <- snd (limits e) ] ]
+
+                              ) ) ) | (i, e) <- zip y z ] )
+
+                       ) w | w <- emanate c ] ) ) | c <- regroup y ]
+
+                where y = enumerate x
+
+
 instance Pretty [Clips] where
 
     pretty = singleline pretty
@@ -40,31 +84,32 @@ instance Pretty [Clips] where
 
 instance Pretty Clips where
 
-    pretty x = vcat [ (text . show) c <> align ( vcat [ unwraps (\ (Nest r z) ->
+    pretty x = vcat [ (text . show) c <> align ( vcat [ unwraps ( \ (Nest r z) ->
 
-                   vcat [ text "\t" <> column ( \ _i -> (text . show) i
-                                    <> column ( \ i_ -> vcat (
+                    vcat [ text "\t" <> width ((text . show) i) ( \ i' ->
 
-                              text "\t" <> pretty (domain e) <>
-                              joinText [merge r (morphs e), show r, show (morphs e),
-                                        show (reflex e), show (lookupForm r e)]
-                              :
+                           hcat ( punctuate ( line <>
+                                  text "\t" <> fill i' empty )
 
-                              [ text "\t" <> fill (i_ - _i) empty <>
-                                text "\t" <> column ( \ _f -> pretty f
-                                          <> column ( \ f_ -> hcat ( punctuate ( line <>
+                           ( ( text "\t" <> pretty (domain e) <>
+                               joinText [merge r (morphs e), show r, show (morphs e),
+                                         show (reflex e), show (lookupForm r e)] )
+                             :
 
-                                    text "\t" <> fill (i_ - _i) empty <>
-                                    text "\t" <> fill (f_ - _f) empty )
+                             [ text "\t" <> width (pretty f) ( \ f' ->
+
+                               hcat ( punctuate ( line <>
+                                      text "\t" <> fill i' empty <>
+                                      text "\t" <> fill f' empty )
 
                                     [ joinText [merge r t, show r, show t] | t <- s ]
 
-                                ) ) ) | (f, s) <- [ (pretty f, s) | (f, s) <- display (entity e) ] ++
-                                                  [ (pretty f, s) | (f : _, s) <- snd (limits e) ] ]
+                               ) ) | (f, s) <- [ (pretty f, s) | (f, s) <- display (entity e) ] ++
+                                               [ (pretty f, s) | (f : _, s) <- snd (limits e) ] ]
 
-                          ) ) ) | (i, e) <- zip y z ]
+                           ) ) ) | (i, e) <- zip y z ]
 
-                   ) w | w <- emanate c ] ) | c <- regroup y ]
+                    ) w | w <- emanate c ] ) | c <- regroup y ]
 
         where y = enumerate x
 

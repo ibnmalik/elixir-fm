@@ -1,7 +1,7 @@
 -- |
 --
 -- Module      :  Elixir.Resolve
--- Copyright   :  Otakar Smrz 2005-2012
+-- Copyright   :  Otakar Smrz 2005-2013
 -- License     :  GPL
 --
 -- Maintainer  :  otakar-smrz users.sf.net
@@ -96,10 +96,10 @@ instance Pretty [Wrap Token] where
 
     pretty [] = empty
 
-    pretty xs = text "\t" <> column ( \ _c -> text (compose xs)
-                          <> column ( \ c_ -> hcat ( punctuate ( line <>
+    pretty xs = text "\t" <> width (text (compose xs)) ( \ c' ->
 
-                    text "\t" <> fill (c_ - _c) empty )
+                    hcat ( punctuate ( line <>
+                           text "\t" <> fill c' empty )
 
                     [ unwraps (\ (Token (Lexeme r e, i) (d, m) t) ->
 
@@ -107,7 +107,7 @@ instance Pretty [Wrap Token] where
                       joinText [merge d m, show m, show d, show (morphs e), merge r (morphs e),
                                    show i, show (reflex e)]
 
-                      ) y | y <- xs ] ) ) )
+                      ) y | y <- xs ] ) )
 
 
 instance Pretty (MorphoTrees [Wrap Token]) where
@@ -141,7 +141,7 @@ instance Pretty (MorphoLists [Wrap Token]) where
 
 instance Pretty [Wrap Token] => Pretty [[Wrap Token]] where
 
-    pretty x = foldr ((<>) . (<> line) . pretty) empty x
+    pretty = vcat . map pretty
 
 
 instance Pretty (MorphoTrees [Wrap Token]) => Pretty (MorphoTrees [[Wrap Token]]) where
@@ -171,7 +171,7 @@ instance Pretty (MorphoLists [Wrap Token]) => Pretty (MorphoLists [[Wrap Token]]
 
 instance Pretty [[Wrap Token]] => Pretty [[[Wrap Token]]] where
 
-    pretty x = foldr ((<>) . pretty) empty x
+    pretty = vcat . map pretty
 
 
 instance Pretty (MorphoTrees [[Wrap Token]]) => Pretty (MorphoTrees [[[Wrap Token]]]) where
@@ -223,7 +223,7 @@ instance Pretty (MorphoLists [[[Wrap Token]]]) => Pretty (MorphoLists [[[[Wrap T
 
 instance Pretty [[[Wrap Token]]] => Pretty (String, [[[[Wrap Token]]]]) where
 
-    pretty (w, x) = text w <> align ( foldr ((<>) . pretty) empty x )
+    pretty (w, x) = text w <> align (vcat (map pretty x)) <> line
 
 
 instance Pretty (MorphoTrees [[[Wrap Token]]]) => Pretty (String, MorphoTrees [[[[Wrap Token]]]]) where
