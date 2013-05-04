@@ -211,9 +211,9 @@ elixirDerive o p = interact (unlines . map (show . q) . filter r . rows)
           r x = otherwise -- null (words x) || not (null (c x) || any ('"' ==) x)
 
 
-elixirLookup o p = interact (unlines . map (show . pretty . q . encode UCS . decode UTF) . rows)
+elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) . rows)
 
-    where q x = if null c then if null y then ("", []) else
+    where q x = if null c then if null y then empty else pretty (
 
                                if null r then if any isArabic y        then (y, lookup (decode UCS y))
 
@@ -226,9 +226,9 @@ elixirLookup o p = interact (unlines . map (show . pretty . q . encode UCS . dec
                                          else if any isArabic (head r) then (head r, lookup (decode UCS (head r)))
 
                                                  else if null (head r) then (show "", lookup "")
-                                                                       else (show (unwords r), lookup (map (decode UCS) r))
+                                                                       else (show (unwords r), lookup (map (decode UCS) r)) )
 
-                          else head c
+                          else pretty (head c)
 
                 where c = [ (show y, [y]) | (y, _) <- reads x ] ++ [ (show y, [clips y]) | (y, _) <- reads x ]
                       r = unfoldr (\ x -> let y = reads x in if null y then Nothing else Just (head y)) x
