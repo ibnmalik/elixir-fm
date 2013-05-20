@@ -256,12 +256,9 @@ sub main ($) {
                                         -default    =>  $q->param('code'),
                                         -accesskey  =>  '5',
                                         -onchange   =>  "elixirYamli('text')",
-                                        -attributes =>  { 'ArabTeX'    => {-title => "internal phonology-oriented notation"},
-                                                          'Buckwalter' => {-title => "letter-by-letter romanization"},
-                                                          'Unicode'    => {-title => "original script and orthography"} },
-                                        -linebreak  =>  0,
-                                        -rows       =>  1,
-                                        -columns    =>  scalar @enc_list) ) ),
+                                        -labelattributes  =>  { 'ArabTeX'    => {-title => "internal phonology-oriented notation"},
+                                                                'Buckwalter' => {-title => "letter-by-letter romanization"},
+                                                                'Unicode'    => {-title => "original script and orthography"} } ) ) ),
 
                 Tr( {-align => 'left'},
 

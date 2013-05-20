@@ -298,12 +298,9 @@ sub main ($) {
                                         -default    =>  $q->param('code'),
                                         -accesskey  =>  '5',
                                         -onchange   =>  "elixirYamli('text')",
-                                        -attributes =>  { 'ArabTeX'    => {-title => "internal phonology-oriented notation"},
-                                                          'Buckwalter' => {-title => "letter-by-letter romanization"},
-                                                          'Unicode'    => {-title => "original script and orthography"} },
-                                        -linebreak  =>  0,
-                                        -rows       =>  1,
-                                        -columns    =>  scalar @enc_list) ) ),
+                                        -labelattributes  =>  { 'ArabTeX'    => {-title => "internal phonology-oriented notation"},
+                                                                'Buckwalter' => {-title => "letter-by-letter romanization"},
+                                                                'Unicode'    => {-title => "original script and orthography"} } ) ) ),
 
                 Tr( {-align => 'left'},
 
@@ -317,10 +314,7 @@ sub main ($) {
                                             -values     =>  [ 'Tokenized' ],
                                             -default    =>  [ $q->param('quick') ],
                                             -accesskey  =>  '6',
-                                            -title      =>  "consider each input word as one token",
-                                            -linebreak  =>  0,
-                                            -rows       =>  1,
-                                            -columns    =>  1) ),
+                                            -labelattributes  =>  { 'Tokenized' => {-title => "consider each input word as one token"} } ) ),
 
                     td( {-align => 'right', -style => "vertical-align: middle; padding-left: 20px"},
 
@@ -328,10 +322,7 @@ sub main ($) {
                                             -values     =>  [ 'Fuzzy Notation' ],
                                             -default    =>  [ $q->param('fuzzy') ],
                                             -accesskey  =>  '7',
-                                            -title      =>  "less strict resolution of the input",
-                                            -linebreak  =>  0,
-                                            -rows       =>  1,
-                                            -columns    =>  1) ) ) );
+                                            -labelattributes  => { 'Fuzzy Notation' => {-title => "less strict resolution of the input"} } ) ) ) );
 
     $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
 
