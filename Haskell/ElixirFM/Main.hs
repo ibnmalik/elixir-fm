@@ -211,7 +211,7 @@ elixirDerive o p = interact (unlines . map (show . q) . filter r . rows)
           r x = otherwise -- null (words x) || not (null (c x) || any ('"' ==) x)
 
 
-elixirLookup o p = interact (unlines . map (show . q . encode UCS . decode UTF) . rows)
+elixirLookup o p = interact (unlines . map (encode UTF . decode UCS . show . q . encode UCS . decode UTF) . rows)
 
     where q x = if null y then empty else pretty (
 
