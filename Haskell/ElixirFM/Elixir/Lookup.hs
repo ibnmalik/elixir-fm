@@ -1,3 +1,4 @@
+
 -- |
 --
 -- Module      :  Elixir.Lookup
@@ -72,7 +73,8 @@ instance Pretty [Clips] => Pretty (String, [Clips]) where
 
                               ) ) ) | (i, e) <- zip y z ] )
 
-                       ) w | w <- emanate c ] ) ) | c <- regroup y ]
+                       ) w | w <- emanate c ] ) ) | c <- if not (null (snd x)) || null y then regroup y
+                                                                                         else [x] ]
 
                 where y = enumerate x
 
@@ -109,7 +111,8 @@ instance Pretty Clips where
 
                            ) ) ) | (i, e) <- zip y z ]
 
-                    ) w | w <- emanate c ] ) | c <- regroup y ]
+                    ) w | w <- emanate c ] ) | c <- if not (null (snd x)) || null y then regroup y
+                                                                                    else [x] ]
 
         where y = enumerate x
 
