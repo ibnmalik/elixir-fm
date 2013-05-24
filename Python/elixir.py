@@ -8,6 +8,18 @@ def elixir(mode, text, *opts):
     (data, errs) = elixir.communicate(text)
     return data
 
+def resolve(text, *opts):
+    return elixir('resolve', text, *opts)
+
+def inflect(text, *opts):
+    return elixir('inflect', text, *opts)
+
+def derive(text, *opts):
+    return elixir('derive', text, *opts)
+
+def lookup(text, *opts):
+    return elixir('lookup', text, *opts)
+
 def main(*args):
     sys.stdout.write(elixir(args[0] if args else "", sys.stdin.read(), *args[1:]))
 
