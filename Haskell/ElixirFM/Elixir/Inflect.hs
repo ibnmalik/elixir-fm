@@ -519,7 +519,7 @@ instance Inflect Lexeme TagsNum where
 
             let z = map (inRules r c s Nothing) i ]
 
-    inflect (Lexeme r e) (TagsNumY g   c s) = [ (y, z) |
+    inflect (Lexeme r e) (TagsNumU g   c s) = [ (y, z) |
 
             let d = domain e,
 
@@ -529,9 +529,9 @@ instance Inflect Lexeme TagsNum where
                 c' = vals c
                 s' = vals s
 
-                d' = TagsNumY g' c' s',
+                d' = TagsNumU g' c' s',
 
-            TagsNumY g' c' s' <- if null y then [d'] else restrict d' y,
+            TagsNumU g' c' s' <- if null y then [d'] else restrict d' y,
 
             g <- g',
 
@@ -539,7 +539,7 @@ instance Inflect Lexeme TagsNum where
 
             s <- s', c <- c',
 
-            let y = ParaNum (NumY g   c s),
+            let y = ParaNum (NumU g   c s),
 
             let z = map (inRules r c s Nothing) i ]
 
@@ -591,7 +591,7 @@ instance Inflect Lexeme TagsNum where
 
             let z = map (inRules r c s Nothing) i ]
 
-    inflect (Lexeme r e) (TagsNumU  g      ) = [ (y, z) |
+    inflect (Lexeme r e) (TagsNumY  g      ) = [ (y, z) |
 
             let d = domain e,
 
@@ -599,15 +599,15 @@ instance Inflect Lexeme TagsNum where
 
             let g' = vals g
 
-                d' = TagsNumU g',
+                d' = TagsNumY g',
 
-            TagsNumU g' <- if null y then [d'] else restrict d' y,
+            TagsNumY g' <- if null y then [d'] else restrict d' y,
 
             g <- g',
 
             let i = inEntry' g Singular e,
 
-            let y = ParaNum (NumU g      ),
+            let y = ParaNum (NumY g      ),
 
             let z = map (inRules r Accusative absolute Nothing) i ]
 

@@ -1,7 +1,7 @@
 -- |
 --
 -- Module      :  Elixir.System
--- Copyright   :  Otakar Smrz 2005-2011
+-- Copyright   :  Otakar Smrz 2005-2013
 -- License     :  GPL
 --
 -- Maintainer  :  otakar-smrz users.sf.net
@@ -192,10 +192,10 @@ data TagsPron = TagsPronS
 
 data TagsNum  = TagsNumQ
               | TagsNumI                               [Gender]          [Case] [State]
-              | TagsNumY                               [Gender]          [Case] [State]
+              | TagsNumU                               [Gender]          [Case] [State]
               | TagsNumV                               [Gender]          [Case] [State]
               | TagsNumX                               [Gender]          [Case] [State]
-              | TagsNumU                               [Gender]
+              | TagsNumY                               [Gender]
               | TagsNumL                                                 [Case] [State]
               | TagsNumC                                        [Number] [Case] [State]
               | TagsNumD                                                 [Case] [State]
@@ -440,8 +440,8 @@ instance Restrict TagsPron where
 
 instance Restrict TagsNum where
 
-    complete = [TagsNumQ, TagsNumI [] [] [], TagsNumY [] [] [], TagsNumV [] [] [],
-                          TagsNumX [] [] [], TagsNumU [],       TagsNumL [] [],
+    complete = [TagsNumQ, TagsNumI [] [] [], TagsNumU [] [] [], TagsNumV [] [] [],
+                          TagsNumX [] [] [], TagsNumY [],       TagsNumL [] [],
                           TagsNumC [] [] [], TagsNumD [] [],    TagsNumM [] [] []]
 
     restrict (TagsNumQ             ) y = [ TagsNumQ | TagsNumQ <- y ]
@@ -451,8 +451,8 @@ instance Restrict TagsNum where
                                                        g <- lets g g',
                                        c <- lets c c', s <- lets s s' ]
 
-    restrict (TagsNumY  g   c s) y = [ TagsNumY        g     c  s |
-                                       TagsNumY        g'    c' s' <- y,
+    restrict (TagsNumU  g   c s) y = [ TagsNumU        g     c  s |
+                                       TagsNumU        g'    c' s' <- y,
                                                        g <- lets g g',
                                        c <- lets c c', s <- lets s s' ]
 
@@ -466,8 +466,8 @@ instance Restrict TagsNum where
                                                        g <- lets g g',
                                        c <- lets c c', s <- lets s s' ]
 
-    restrict (TagsNumU  g      ) y = [ TagsNumU        g          |
-                                       TagsNumU        g'          <- y,
+    restrict (TagsNumY  g      ) y = [ TagsNumY        g          |
+                                       TagsNumY        g'          <- y,
                                                        g <- lets g g' ]
 
     restrict (TagsNumL      c s) y = [ TagsNumL              c  s |
@@ -611,7 +611,7 @@ instance Show TagsNum where
                                                showlist g, noshowlist,
                                                showlist c, showlist s]
 
-    show (TagsNumY  g   c s) = "QY" ++ concat [noshowlist, noshowlist,
+    show (TagsNumU  g   c s) = "QU" ++ concat [noshowlist, noshowlist,
                                                noshowlist, noshowlist,
                                                showlist g, noshowlist,
                                                showlist c, showlist s]
@@ -626,7 +626,7 @@ instance Show TagsNum where
                                                showlist g, noshowlist,
                                                showlist c, showlist s]
 
-    show (TagsNumU  g      ) = "QU" ++ concat [noshowlist, noshowlist,
+    show (TagsNumY  g      ) = "QY" ++ concat [noshowlist, noshowlist,
                                                noshowlist, noshowlist,
                                                showlist g, noshowlist,
                                                noshowlist, noshowlist]
@@ -835,7 +835,7 @@ instance Read TagsNum where
                        (y6, x7) <- readSlot x6, (y7, x8) <- readSlot x7,
                        (y8, x9) <- readSlot x8, (y9, "") <- readSlot x9,
 
-                       v1 <- if null y1 then "-IYVXULCDM" else y1,
+                       v1 <- if null y1 then "-IUVXYLCDM" else y1,
 
                        r' <- case v1 of
 
@@ -845,7 +845,7 @@ instance Read TagsNum where
                                                   (readData y8)
                                                   (readData y9)]
 
-                                'Y' -> [TagsNumY  (readData y6)
+                                'U' -> [TagsNumU  (readData y6)
                                                   (readData y8)
                                                   (readData y9)]
 
@@ -857,7 +857,7 @@ instance Read TagsNum where
                                                   (readData y8)
                                                   (readData y9 `intersect` [indefinite, construct, definite, absolute])]
 
-                                'U' -> [TagsNumU  (readData y6)]
+                                'Y' -> [TagsNumY  (readData y6)]
 
                                 'L' -> [TagsNumL  (readData y8)
                                                   (readData y9 `intersect` [indefinite, construct, definite, absolute])]
@@ -1295,10 +1295,10 @@ instance Show ParaPron where
 
 data ParaNum = NumQ
              | NumI  Gender        Case State
-             | NumY  Gender        Case State
+             | NumU  Gender        Case State
              | NumV  Gender        Case State
              | NumX  Gender        Case State
-             | NumU  Gender
+             | NumY  Gender
              | NumL                Case State
              | NumC         Number Case State
              | NumD                Case State
@@ -1310,10 +1310,10 @@ instance Param ParaNum where
 
     values =  [ NumQ ]
            ++ [ NumI  g   c s | g <- values, s <- [indefinite, construct, definite, absolute], c <- values ]
-           ++ [ NumY  g   c s | g <- values, s <- [indefinite, construct, definite, absolute], c <- values ]
+           ++ [ NumU  g   c s | g <- values, s <- [indefinite, construct, definite, absolute], c <- values ]
            ++ [ NumV  g   c s | g <- values, s <- values,                                      c <- values ]
            ++ [ NumX  g   c s | g <- values, s <- [indefinite, construct, definite, absolute], c <- values ]
-           ++ [ NumU  g       | g <- values ]
+           ++ [ NumY  g       | g <- values ]
            ++ [ NumL      c s |              s <- [indefinite, construct, definite, absolute], c <- values ]
            ++ [ NumC    n c s | n <- values, s <- [indefinite, construct, definite, absolute], c <- values ]
            ++ [ NumD      c s |              s <- [indefinite, construct, definite, absolute], c <- values ]
@@ -1323,10 +1323,10 @@ instance Show ParaNum where
 
     show (NumQ         ) =  "Q---------"
     show (NumI  g   c s) =  "QI----" ++ [show' g] ++ "-" ++ [show' c, show' s]
-    show (NumY  g   c s) =  "QY----" ++ [show' g] ++ "-" ++ [show' c, show' s]
+    show (NumU  g   c s) =  "QU----" ++ [show' g] ++ "-" ++ [show' c, show' s]
     show (NumV  g   c s) =  "QV----" ++ [show' g] ++ "-" ++ [show' c, show' s]
     show (NumX  g   c s) =  "QX----" ++ [show' g] ++ "-" ++ [show' c, show' s]
-    show (NumU  g      ) =  "QU----" ++ [show' g] ++ "---"
+    show (NumY  g      ) =  "QY----" ++ [show' g] ++ "---"
     show (NumL      c s) =  "QL------" ++ [show' c, show' s]
     show (NumC    n c s) =  "QC-----" ++ [show' n, show' c, show' s]
     show (NumD      c s) =  "QD------" ++ [show' c, show' s]
@@ -1453,10 +1453,10 @@ revert (ParaPron (PronR   g n c))  = TagsPron [TagsPronR     [g] [n] [c]]
 
 revert (ParaNum  (NumQ         ))  = TagsNum  [TagsNumQ]
 revert (ParaNum  (NumI  g   c s))  = TagsNum  [TagsNumI  [g]     [c] [s]]
-revert (ParaNum  (NumY  g   c s))  = TagsNum  [TagsNumY  [g]     [c] [s]]
+revert (ParaNum  (NumU  g   c s))  = TagsNum  [TagsNumU  [g]     [c] [s]]
 revert (ParaNum  (NumV  g   c s))  = TagsNum  [TagsNumV  [g]     [c] [s]]
 revert (ParaNum  (NumX  g   c s))  = TagsNum  [TagsNumX  [g]     [c] [s]]
-revert (ParaNum  (NumU  g      ))  = TagsNum  [TagsNumU  [g]]
+revert (ParaNum  (NumY  g      ))  = TagsNum  [TagsNumY  [g]]
 revert (ParaNum  (NumL      c s))  = TagsNum  [TagsNumL          [c] [s]]
 revert (ParaNum  (NumC    n c s))  = TagsNum  [TagsNumC      [n] [c] [s]]
 revert (ParaNum  (NumD      c s))  = TagsNum  [TagsNumD          [c] [s]]
