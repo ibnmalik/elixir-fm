@@ -53,22 +53,35 @@ sub nub (&@) {
     return grep { my $r = $fun->($_); exists $nub{$r} ? 0 : ++$nub{$r} } @lst;
 }
 
-sub groups ($@) {
+sub groups (@) {
 
-    my ($d, @d) = @_;
+    my @list = @_;
 
-    return @d unless $d > 0;
+    my $tree = [];
+    my @tree = ($tree);
 
-    my $r = @d / $d;
+    for (my $i = 0; $i < @list; $i ++) {
 
-    my @r;
+        my ($n, $l) = (0, @{$list[$i]} - 1);
 
-    for (my $i = 0; $r * $i < @d; $i++) {
+        $n++ until split " ", $list[$i][$n];
 
-        push @r, $r * ($i + 1) < 1 ? [] : [@d[$r * $i .. $r * ($i + 1) - 1 ]];
+        my $f = foldr { [$_[0], $_[1]] } [$list[$i][$l]], @{$list[$i]}[$n .. $l - 1];
+        my $t = $n - @tree + 1;
+
+        if ($t < 0) {
+
+            splice @tree, $t;
+        }
+        elsif ($t > 0) {
+
+            push @tree, $tree[-1][-1] for 1 .. $t;
+        }
+
+        push @{$tree[-1]}, $f;
     }
 
-    return @r;
+    return $tree;
 }
 
 sub tuples {
@@ -785,7 +798,8 @@ sub unlines {
 
     my ($data, $type) = @_;
 
-    $type = $data =~ /^\s*[:]{4}/ ? 'resolve' : $data =~ /^\s*[()]/ ? 'lookup' : $data =~ /^\s*[<>]/ ? 'lexicon' : '' unless defined $type;
+    $type = $data =~ /^\s*[:]{4}/ ? 'resolve' # : $data =~ /^\s*[()]/ ? 'lookup'
+                                                : $data =~ /^\s*[<>]/ ? 'lexicon' : '' unless defined $type;
 
     my @data;
 
@@ -818,7 +832,8 @@ sub unwords {
 
     my ($data, $type) = @_;
 
-    $type = $data =~ /^\s*[:]{4}/ ? 'resolve' : $data =~ /^\s*[()]/ ? 'lookup' : $data =~ /^\s*[<>]/ ? 'lexicon' : '' unless defined $type;
+    $type = $data =~ /^\s*[:]{4}/ ? 'resolve' # : $data =~ /^\s*[()]/ ? 'lookup'
+                                                : $data =~ /^\s*[<>]/ ? 'lexicon' : '' unless defined $type;
 
     my @data = unlines $data, $type;
 
@@ -866,7 +881,8 @@ sub unpretty {
 
     my ($data, $mode) = @_;
 
-    my $type = $data =~ /^\s*[:]{4}/ ? 'resolve' : $data =~ /^\s*[()]/ ? 'lookup' : $data =~ /^\s*[<>]/ ? 'lexicon' : '';
+    my $type = $data =~ /^\s*[:]{4}/ ? 'resolve' # : $data =~ /^\s*[()]/ ? 'lookup'
+                                                   : $data =~ /^\s*[<>]/ ? 'lexicon' : '';
 
     my @data = unlines $data, $type;
 
@@ -970,17 +986,7 @@ sub unpretty {
 
             my @data = unwords $_, $type;
 
-            foldl {
-
-                my ($data, @data) = @{$_[1]};
-
-                push @{$_[0]}, [$data] unless $data eq ' ' x 10;
-
-                push @{$_[0][-1]}, [@data] if @data;
-
-                return $_[0];
-
-            } [],
+            groups
 
             map {
 
