@@ -16,7 +16,7 @@ use CGI::Fast ':standard';
 use base 'Exporter';
 
 our @EXPORT = (qw 'display_header display_headline display_footline display_footer',
-               qw 'escape quote revert',
+               qw 'display_twitter escape quote revert',
                qw '@modes %memoize %enc_hash @enc_list');
 
 
@@ -151,7 +151,7 @@ sub display_footline ($) {
     my $r;
 
     $r .= $q->p({'style' => 'margin-top: 30px'},
-                "(C) Otakar Smr\x{017E} 2012, Viktor Bielick\x{00FD} 2012, Tim Buckwalter 2002. GNU General Public License",
+                "(C) Otakar Smr\x{017E} 2013, Viktor Bielick\x{00FD} 2012, Tim Buckwalter 2002. GNU General Public License",
                 $q->a({-href => 'http://www.gnu.org/licenses/'}, "GNU GPL 3") . ".");
 
     $r .= $q->p("ElixirFM is an", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "open-source online"), "project.",
@@ -212,6 +212,23 @@ sub display_footer ($) {
     return $r;
 }
 
+sub display_twitter ($) {
+
+    my $c = shift;
+    my $q = $c->query();
+    my $r;
+
+    $r .= $q->div({-style => "float: right"}, q {
+<a href="https://twitter.com/dzamedzam" class="twitter-follow-button" data-show-count="false" data-size="medium" data-show-screen-name="false" data-dnt="true">Follow</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://elixir-fm.sf.net/" data-text="Like this site for understanding and transforming words in #Arabic" data-via="dzamedzam" data-size="medium" data-count="none" data-hashtags="ElixirFM" data-dnt="true" title="Recommend #ElixirFM on Twitter">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+});
+
+    return $r;
+}
+
 
 sub show_param ($@) {
 
@@ -254,6 +271,10 @@ sub main ($) {
 
         $q->param('text', $example[$idx][-1]);
     }
+    else {
+
+        $q->param('text', decode "utf8", $q->param('text'));
+    }
 
     $r .= $q->start_form(-method => 'POST', -style => 'margin: 10px 0px 30px 0px');
 
@@ -287,6 +308,8 @@ sub main ($) {
 
     $r .= $q->p("ElixirFM can process words of", $q->a({-href => 'http://en.wikipedia.org/wiki/Dictionary_of_Modern_Written_Arabic'},
                 "Modern Written Arabic"), "using four different modes.", "Here, you can learn how to use these modes for various purposes.");
+
+    $r .= display_twitter $c;
 
     $r .= $q->p("ElixirFM is further documented at", $q->a({-href => 'http://sourceforge.net/apps/trac/elixir-fm/'},
                 "ElixirFM Wiki") . ".",
@@ -328,7 +351,7 @@ sub main ($) {
 
     $r .= display_footer $c;
 
-    return $r;
+    return encode "utf8", $r;
 }
 
 

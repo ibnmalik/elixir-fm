@@ -66,10 +66,10 @@ sub pretty_lookup_data {
     return $q->table({-cellspacing => 0, -class => "nest"},
                      $q->Tr($q->td({-class => "root",
                                     -title => "common root"}, escape join " ", (decode "zdmg", $data->[1][1][2]),
-                                                                               (quote decode "arabtex", ElixirFM::cling $data->[1][1][2], "|")),
+                                                                               (quote decode "arabtex", join "|", split " ", $data->[1][1][2])),
                             $q->td({-class => "button"},
                                    $q->a({-title => "lookup all entries under this root",
-                                          -href => 'index.fcgi?mode=lookup' . '&text=' . (escape quote decode "arabtex", $data->[1][1][2])}, "Lookup"))
+                                          -href => 'index.fcgi?mode=lookup' . '&text=' . (escape quote join "+", split " ", decode "arabtex", $data->[1][1][2])}, "Lookup"))
                 ));
 }
 
@@ -82,6 +82,8 @@ sub pretty_lookup_tree {
     return $q->li([ map {
 
         my $data = $_;
+
+        $data->[1][1][2] = substr $data->[1][1][2], 1, -1;
 
         my $clip = [undef, undef];
 
@@ -230,6 +232,8 @@ sub main ($) {
     $r .= $q->p("ElixirFM can lookup lexical entries by the citation form and nests of entries by the root.",
                 "You can even search the dictionary using English.");
 
+    $r .= display_twitter $c;
+
     $r .= $q->p("You can try enclosing the text in quotes or parentheses if needed.");
 
     $r .= $q->h2('Your Request');
@@ -256,12 +260,9 @@ sub main ($) {
                                         -default    =>  $q->param('code'),
                                         -accesskey  =>  '5',
                                         -onchange   =>  "elixirYamli('text')",
-                                        -attributes =>  { 'ArabTeX'    => {-title => "internal phonology-oriented notation"},
-                                                          'Buckwalter' => {-title => "letter-by-letter romanization"},
-                                                          'Unicode'    => {-title => "original script and orthography"} },
-                                        -linebreak  =>  0,
-                                        -rows       =>  1,
-                                        -columns    =>  scalar @enc_list) ) ),
+                                        -labelattributes  =>  { 'ArabTeX'    => {-title => "internal phonology-oriented notation"},
+                                                                'Buckwalter' => {-title => "letter-by-letter romanization"},
+                                                                'Unicode'    => {-title => "original script and orthography"} } ) ) ),
 
                 Tr( {-align => 'left'},
 

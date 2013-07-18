@@ -155,6 +155,7 @@ our $tagset = [
         "SR" => "relative",
         "Q-" => "numeral",
         "QI" => "",
+        "QU" => "",
         "QV" => "",
         "QX" => "",
         "QY" => "",
@@ -1478,7 +1479,7 @@ Otakar Smrz C<< <otakar-smrz users.sf.net> >>, L<http://otakar-smrz.users.sf.net
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright (C) 2005-2012 Otakar Smrz
+Copyright (C) 2005-2013 Otakar Smrz
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the GNU General Public License version 3.

@@ -1,11 +1,11 @@
 function elixirYamli (n) {
 
-    var elem = document.getElementsByName("mode");
+    var elem = document.getElementsByName('mode');
     var mode = elem.length > 0 ? elem[0].value : 'home';
 
     if (mode == 'resolve' || mode == 'lookup') {
 
-        var code = document.getElementsByName("code");
+        var code = document.getElementsByName('code');
 
         for (var i = 0; i < code.length; i++) {
 
