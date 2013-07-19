@@ -89,6 +89,8 @@ sub pretty_lookup_tree {
 
             my $data = $_;
 
+            $data->[1][1][2] = substr $data->[1][1][2], 1, -1;
+
             my $clip = [undef, undef];
 
             (@{$clip}) = $data->[0] =~ /^\( (-?[1-9][0-9]*) , (?: \[ ([^\]]*) \] ) \)$/x;
@@ -245,6 +247,8 @@ sub main ($) {
 
     $r .= $q->p("ElixirFM lets you derive words of similar meaning but different grammatical category.",
                 "You only need to tell the desired grammatical categories.");
+
+    $r .= display_twitter $c;
 
     $r .= $q->p("You can either enter natural language descriptions, or you can specify the parameters using the positional morphological tags.");
 
