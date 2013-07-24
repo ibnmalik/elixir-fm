@@ -172,7 +172,9 @@ cluster_8   = cluster
  |> ".h l m" <| [
 
     FaCaL                     `verb`    {- <.halam> -}         [ ['d','r','e','a','m'] ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `masdar`     FuCL
+                              `masdar`     FuCuL,
 
     FaCuL                     `verb`    {- <.halum> -}         [ unwords [ ['b','e'], ['g','e','n','t','l','e'] ] ]
                               `imperf`     FCuL,

@@ -34,7 +34,8 @@ cluster_3   = cluster
     FaCaL                     `verb`    {- <sa'al> -}          [ ['a','s','k'], ['i','n','q','u','i','r','e'], ['r','e','q','u','e','s','t'] ]
                               `imperf`     FCaL
                               `second`     FaL
-                              `second`     FCaL,
+                              `second`     FCaL
+                              `masdar`     FuCAL,
 
     FACaL                     `verb`    {- <sA'al> -}          [ ['q','u','e','s','t','i','o','n'], ['i','n','t','e','r','r','o','g','a','t','e'] ],
 
@@ -1298,9 +1299,9 @@ cluster_60  = cluster
 
  |> "s w d" <| [
 
-    IFCaLL                    `verb`    {- <iswadd> -}         [ unwords [ ['b','e','c','o','m','e'], ['b','l','a','c','k'] ] ],
-
     FaCCaL                    `verb`    {- <sawwad> -}         [ ['b','l','a','c','k','e','n'] ],
+
+    IFCaLL                    `verb`    {- <iswadd> -}         [ unwords [ ['b','e','c','o','m','e'], ['b','l','a','c','k'] ] ],
 
     HaFCaL                    `adj`     {- <'aswad> -}         [ ['b','l','a','c','k'] ]
                               `plural`     FUL
@@ -1329,7 +1330,8 @@ cluster_60  = cluster
  |> "s w d" <| [
 
     FAL                       `verb`    {- <sAd> -}            [ ['p','r','e','v','a','i','l'], unwords [ ['b','e'], ['p','r','e','d','o','m','i','n','a','n','t'] ], ['r','u','l','e'], ['g','o','v','e','r','n'] ]
-                              `imperf`     FUL,
+                              `imperf`     FUL
+                              `masdar`     FiyAL |< aT,
 
     Fu'LuL                    `noun`    {- <su'dud> -}         [ ['d','o','m','i','n','i','o','n'], ['s','o','v','e','r','e','i','g','n','t','y'] ],
 

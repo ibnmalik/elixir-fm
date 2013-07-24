@@ -4,8 +4,8 @@
     <schema href="elixir.schema.xml" />
   </head>
   <meta>
-    <revision>$Revision: 301 $</revision>
-    <date>$Date: 2011-10-30 00:09:46 +0200 (Sun, 30 Oct 2011) $</date>
+    <revision>$Revision: 347 $</revision>
+    <date>$Date: 2013-06-21 11:14:08 +0200 (Fri, 21 Jun 2013) $</date>
   </meta>
   <data>
     <Cluster>
@@ -3538,6 +3538,7 @@
               </Verb>
             </entity>
             <reflex>telephone</reflex>
+            
           </Entry>
         </ents>
       </Nest>
@@ -9224,6 +9225,7 @@
               <LM>chat</LM>
               <LM>converse</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>KaRDaS |&lt; aT	darda^saT	دَردَشَة	dardašat</morphs>
@@ -14750,6 +14752,7 @@
               <Verb>
                 <form>I</form>
                 <imperf>FCaL	dhas	دهَس	dhas</imperf>
+                <masdar>FaCL	dahs	دَهس	dahs</masdar>
               </Verb>
             </entity>
             <reflex>
@@ -14757,6 +14760,7 @@
               <LM>crush</LM>
               <LM>run over</LM>
             </reflex>
+            
           </Entry>
         </ents>
       </Nest>
@@ -16314,6 +16318,7 @@
               </Verb>
             </entity>
             <reflex>remind</reflex>
+            
           </Entry>
           <Entry>
             <morphs>FACaL	_dAkar	ذَاكَر	ḏākar</morphs>
@@ -16323,6 +16328,7 @@
               </Verb>
             </entity>
             <reflex>negotiate</reflex>
+            
           </Entry>
           <Entry>
             <morphs>HaFCaL	'a_dkar	أَذكَر	ʾaḏkar</morphs>
@@ -16341,6 +16347,7 @@
               </Verb>
             </entity>
             <reflex>remember</reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFACaL	ta_dAkar	تَذَاكَر	taḏākar</morphs>
@@ -16374,6 +16381,7 @@
               <LM>memorize</LM>
               <LM>recall</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FiCL	_dikr	ذِكر	ḏikr</morphs>
@@ -26114,8 +26122,7 @@
           <Entry>
             <morphs>FACiL	rAfi`	رَافِع	rāfiʿ</morphs>
             <entity>
-              <Adj>
-              </Adj>
+              <Adj/>
             </entity>
             <reflex>
               <LM>hoisting</LM>
@@ -43763,9 +43770,11 @@
               <Verb>
                 <form>I</form>
                 <imperf><LM>FCuL	sfuk	سفُك	sfuk</LM><LM>FCiL	sfik	سفِك	sfik</LM></imperf>
+                <masdar>FaCL	safk	سَفك	safk</masdar>
               </Verb>
             </entity>
             <reflex>shed</reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFACaL	tasAfak	تَسَافَك	tasāfak</morphs>
@@ -47545,6 +47554,7 @@
               <LM>hand over</LM>
               <LM>surrender</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFaCCaL	tasallam	تَسَلَّم	tasallam</morphs>
@@ -66057,6 +66067,7 @@
               <LM>trust</LM>
               <LM>live harmoniously with</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FiCL	.sidq	صِدق	ṣidq</morphs>
@@ -68808,6 +68819,7 @@
               <LM>turn yellow</LM>
               <LM>become pale</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>IFCALL	i.sfArr	اِصفَارّ	iṣfārr</morphs>
@@ -110694,6 +110706,7 @@
               </Verb>
             </entity>
             <reflex>criticize</reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCL	naqd	نَقد	naqd</morphs>

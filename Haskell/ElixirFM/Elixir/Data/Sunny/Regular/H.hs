@@ -1384,7 +1384,8 @@ cluster_83  = cluster
 
     FaCaL                     `verb`    {- <safak> -}          [ ['s','h','e','d'] ]
                               `imperf`     FCuL
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `masdar`     FaCL,
 
     TaFACaL                   `verb`    {- <tasAfak> -}        [ ['m','u','r','d','e','r'] ],
 

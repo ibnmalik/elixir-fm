@@ -4,8 +4,8 @@
     <schema href="elixir.schema.xml" />
   </head>
   <meta>
-    <revision>$Revision: 301 $</revision>
-    <date>$Date: 2011-10-30 00:09:46 +0200 (Sun, 30 Oct 2011) $</date>
+    <revision>$Revision: 347 $</revision>
+    <date>$Date: 2013-06-21 11:14:08 +0200 (Fri, 21 Jun 2013) $</date>
   </meta>
   <data>
     <Cluster>
@@ -3562,6 +3562,7 @@
               </Verb>
             </entity>
             <reflex>telephone</reflex>
+            
           </Entry>
         </ents>
       </Nest>
@@ -9297,6 +9298,7 @@
               <LM>chat</LM>
               <LM>converse</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>KaRDaS |&lt; aT</morphs>
@@ -14854,6 +14856,7 @@
               <Verb>
                 <form>I</form>
                 <imperf>FCaL</imperf>
+                <masdar>FaCL</masdar>
               </Verb>
             </entity>
             <reflex>
@@ -14861,6 +14864,7 @@
               <LM>crush</LM>
               <LM>run over</LM>
             </reflex>
+            
           </Entry>
         </ents>
       </Nest>
@@ -16441,6 +16445,7 @@
               </Verb>
             </entity>
             <reflex>remind</reflex>
+            
           </Entry>
           <Entry>
             <morphs>FACaL</morphs>
@@ -16450,6 +16455,7 @@
               </Verb>
             </entity>
             <reflex>negotiate</reflex>
+            
           </Entry>
           <Entry>
             <morphs>HaFCaL</morphs>
@@ -16468,6 +16474,7 @@
               </Verb>
             </entity>
             <reflex>remember</reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFACaL</morphs>
@@ -16501,6 +16508,7 @@
               <LM>memorize</LM>
               <LM>recall</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FiCL</morphs>
@@ -26393,8 +26401,7 @@
           <Entry>
             <morphs>FACiL</morphs>
             <entity>
-              <Adj>
-              </Adj>
+              <Adj/>
             </entity>
             <reflex>
               <LM>hoisting</LM>
@@ -44325,9 +44332,11 @@
                   <LM>FCuL</LM>
                   <LM>FCiL</LM>
                 </imperf>
+                <masdar>FaCL</masdar>
               </Verb>
             </entity>
             <reflex>shed</reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFACaL</morphs>
@@ -48167,6 +48176,7 @@
               <LM>hand over</LM>
               <LM>surrender</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFaCCaL</morphs>
@@ -66897,6 +66907,7 @@
               <LM>trust</LM>
               <LM>live harmoniously with</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FiCL</morphs>
@@ -69688,6 +69699,7 @@
               <LM>turn yellow</LM>
               <LM>become pale</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>IFCALL</morphs>
@@ -112154,6 +112166,7 @@
               </Verb>
             </entity>
             <reflex>criticize</reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCL</morphs>

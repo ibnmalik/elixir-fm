@@ -1045,7 +1045,7 @@ cluster_63  = cluster
  |> "' m l" <| [
 
     FaCaL                     `verb`    {- <'amal> -}          [ unwords [ ['h','o','p','e'], ['f','o','r'] ], unwords [ ['w','i','s','h'], ['f','o','r'] ] ]
-                              `imperf`     FCaL
+                              `imperf`     FCuL
                               `masdar`     FaCaL,
 
     FaCCaL                    `verb`    {- <'ammal> -}         [ unwords [ ['h','o','p','e'], ['f','o','r'] ], ['e','x','p','e','c','t'] ],

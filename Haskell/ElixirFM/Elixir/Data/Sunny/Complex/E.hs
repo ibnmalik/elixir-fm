@@ -2007,7 +2007,8 @@ cluster_91  = cluster
 
     FaCL                      `verb`    {- <.sa.h.h> -}        [ unwords [ ['b','e'], ['c','o','r','r','e','c','t'] ], unwords [ ['b','e'], ['t','r','u','e'] ] ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL,
+                              `pfirst`     FaCaL
+                              `masdar`     FiCL |< aT,
 
     FaCCaL                    `verb`    {- <.sa.h.ha.h> -}     [ ['c','o','r','r','e','c','t'], ['c','o','n','f','i','r','m'] ],
 

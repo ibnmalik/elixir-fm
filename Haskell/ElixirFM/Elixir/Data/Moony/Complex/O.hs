@@ -221,7 +221,9 @@ cluster_13  = cluster
  |> "w _t q" <| [
 
     FaCiL                     `verb`    {- <wa_tiq> -}         [ ['t','r','u','s','t'], ['r','e','l','y'], ['d','e','p','e','n','d'] ]
-                              `imperf`     CiL,
+                              `imperf`     CiL
+                              `masdar`     CiL |< aT
+                              `masdar`     FuCUL,
 
     FaCCaL                    `verb`    {- <wa_t_taq> -}       [ ['a','t','t','e','s','t'], ['c','e','r','t','i','f','y'], ['a','u','t','h','e','n','t','i','c','a','t','e'] ],
 
@@ -1041,7 +1043,7 @@ cluster_43  = cluster
 
  |> "w d q" <| [
 
-    FaCaL                     `noun`    {- <wadaq> -}          [ ['d','r','i','z','z','l','e'] ],
+    FaCL                      `noun`    {- <wadq> -}           [ ['d','r','i','z','z','l','e'] ],
 
     FaCIL |< aT               `noun`    {- <wadIqaT> -}        [ ['l','a','w','n'], ['m','e','a','d','o','w'] ] ]
 

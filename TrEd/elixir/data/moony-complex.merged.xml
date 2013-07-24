@@ -4,8 +4,8 @@
     <schema href="elixir.schema.xml" />
   </head>
   <meta>
-    <revision>$Revision: 304 $</revision>
-    <date>$Date: 2011-12-06 22:53:30 +0100 (Tue, 06 Dec 2011) $</date>
+    <revision>$Revision: 353 $</revision>
+    <date>$Date: 2013-07-24 01:29:33 +0200 (Wed, 24 Jul 2013) $</date>
   </meta>
   <data>
     <Cluster>
@@ -2740,6 +2740,7 @@
               <LM>postpone</LM>
               <LM>delay</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFaCCaL	ta'a^g^gal	تَأَجَّل	taʾaǧǧal</morphs>
@@ -12421,6 +12422,7 @@
                 <form>I</form>
                 <imperf>FCuL	'kul	أكُل	ʾkul</imperf>
                 <second>CuL	kul	كُل	kul</second>
+                <masdar>FaCL	'akl	أَكل	ʾakl</masdar>
               </Verb>
             </entity>
             <reflex>
@@ -14919,7 +14921,7 @@
             <entity>
               <Verb>
                 <form>I</form>
-                <imperf>FCaL	'mal	أمَل	ʾmal</imperf>
+                <imperf>FCuL	'mul	أمُل	ʾmul</imperf>
                 <masdar>FaCaL	'amal	أَمَل	ʾamal</masdar>
               </Verb>
             </entity>
@@ -15349,6 +15351,7 @@
               <LM>trust</LM>
               <LM>entrust</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>IstaFCaL	ista'man	اِستَأمَن	istaʾman</morphs>
@@ -23241,14 +23244,27 @@
           <Entry>
             <morphs>FACI	bAkI	بَاكِي	bākī</morphs>
             <entity>
+              <Noun>
+                <plural><LM>FuCY |&lt; aT	bukAT	بُكَاة	bukāt</LM><LM>FawACI	bawAkI	بَوَاكِي	bawākī</LM></plural>
+                <derive>------F---</derive>
+              </Noun>
+            </entity>
+            <reflex>
+              <LM>mourner</LM>
+              <LM>weeper</LM>
+            </reflex>
+          </Entry>
+          <Entry>
+            <morphs>FACI	bAkI	بَاكِي	bākī</morphs>
+            <entity>
               <Adj>
                 <plural><LM>FuCY |&lt; aT	bukAT	بُكَاة	bukāt</LM><LM>FawACI	bawAkI	بَوَاكِي	bawākī</LM></plural>
               </Adj>
             </entity>
+            <limits/>
             <reflex>
-              <LM>mourner</LM>
               <LM>weeping</LM>
-              <LM>weepers</LM>
+              <LM>mourning</LM>
             </reflex>
           </Entry>
           <Entry>
@@ -25839,12 +25855,14 @@
               <Verb>
                 <form>I</form>
                 <imperf>FIL	bI.d	بِيض	bīḍ</imperf>
+                <masdar>FaCL	bay.d	بَيض	bayḍ</masdar>
               </Verb>
             </entity>
             <reflex>
               <LM>lay an egg</LM>
               <LM>settle down</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCCaL	bayya.d	بَيَّض	bayyaḍ</morphs>
@@ -28067,7 +28085,7 @@
               <Verb>
                 <form>I</form>
                 <imperf>FCI	^grI	جرِي	ǧrī</imperf>
-                <masdar>FaCL	^gary	جَري	ǧary</masdar>
+                <masdar><LM>FaCL	^gary	جَري	ǧary</LM><LM>FaCaLAn	^garayAn	جَرَيَان	ǧarayān</LM></masdar>
               </Verb>
             </entity>
             <reflex>
@@ -36379,12 +36397,14 @@
               <Verb>
                 <form>I</form>
                 <imperf><LM>FCI	.hkI	حكِي	ḥkī</LM><LM>FCY	.hkY	حكَى	ḥkā</LM></imperf>
+                <masdar>FiCAL |&lt; aT	.hikAyaT	حِكَايَة	ḥikāyat</masdar>
               </Verb>
             </entity>
             <reflex>
               <LM>relate</LM>
               <LM>report</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FACY	.hAkY	حَاكَى	ḥākā</morphs>
@@ -36397,6 +36417,7 @@
               <LM>imitate</LM>
               <LM>resemble</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FiCAL |&lt; aT	.hikAyaT	حِكَايَة	ḥikāyat</morphs>
@@ -48596,6 +48617,7 @@
               <LM>dine</LM>
               <LM>sup</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCY	`a^sY	عَشَى	ʿašā</morphs>
@@ -49142,6 +49164,7 @@
               <LM>give</LM>
               <LM>provide</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFACY	ta`A.tY	تَعَاطَى	taʿāṭā</morphs>
@@ -50858,6 +50881,7 @@
               </Verb>
             </entity>
             <reflex>feign blindness</reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCY	`amY	عَمَى	ʿamā</morphs>
@@ -55204,6 +55228,7 @@
               </Verb>
             </entity>
             <reflex>have breakfast</reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCA'	.gadA'	غَدَاء	ġadāʾ</morphs>
@@ -68092,6 +68117,7 @@
               <Verb>
                 <form>I</form>
                 <imperf>FCI	q.dI	قضِي	qḍī</imperf>
+                <masdar>FaCA'	qa.dA'	قَضَاء	qaḍāʾ</masdar>
               </Verb>
             </entity>
             <reflex>
@@ -68099,6 +68125,7 @@
               <LM>perform</LM>
               <LM>decree</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCCY	qa.d.dY	قَضَّى	qaḍḍā</morphs>
@@ -68150,6 +68177,7 @@
               <LM>litigate</LM>
               <LM>lay claim to</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>InFaCY	inqa.dY	اِنقَضَى	inqaḍā</morphs>
@@ -68175,6 +68203,7 @@
               <LM>demand</LM>
               <LM>require</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>IstaFCY	istaq.dY	اِستَقضَى	istaqḍā</morphs>
@@ -85262,6 +85291,7 @@
               <Verb>
                 <form>I</form>
                 <imperf>FCI	hdI	هدِي	hdī</imperf>
+                <masdar><LM>FaCL	hady	هَدي	hady</LM><LM>FuCY	hudY	هُدَى	hudā</LM><LM>FiCAL |&lt; aT	hidAyaT	هِدَايَة	hidāyat</LM></masdar>
               </Verb>
             </entity>
             <reflex>
@@ -85269,6 +85299,7 @@
               <LM>direct</LM>
               <LM>lead</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FACY	hAdY	هَادَى	hādā</morphs>
@@ -85292,6 +85323,7 @@
               <LM>present</LM>
               <LM>lead</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFaCCY	tahaddY	تَهَدَّى	tahaddā</morphs>
@@ -87157,6 +87189,7 @@
               </Verb>
             </entity>
             <reflex>congratulate</reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFaCCaL	tahanna'	تَهَنَّأ	tahannaʾ</morphs>
@@ -91245,6 +91278,7 @@
               <Verb>
                 <form>I</form>
                 <imperf>CiL	_tiq	ثِق	ṯiq</imperf>
+                <masdar><LM>CiL |&lt; aT	_tiqaT	ثِقَة	ṯiqat</LM><LM>FuCUL	wu_tUq	وُثُوق	wuṯūq</LM></masdar>
               </Verb>
             </entity>
             <reflex>
@@ -91252,6 +91286,7 @@
               <LM>rely</LM>
               <LM>depend</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCCaL	wa_t_taq	وَثَّق	waṯṯaq</morphs>
@@ -91265,6 +91300,7 @@
               <LM>certify</LM>
               <LM>authenticate</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FACaL	wA_taq	وَاثَق	wāṯaq</morphs>
@@ -91314,6 +91350,7 @@
               <LM>make certain</LM>
               <LM>have confidence in</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>CiL |&lt; aT	_tiqaT	ثِقَة	ṯiqat</morphs>
@@ -94398,7 +94435,7 @@
         <root>w d q	و د ق	w d q</root>
         <ents>
           <Entry>
-            <morphs>FaCaL	wadaq	وَدَق	wadaq</morphs>
+            <morphs>FaCL	wadq	وَدق	wadq</morphs>
             <entity>
               <Noun/>
             </entity>
@@ -107110,12 +107147,14 @@
               <Verb>
                 <form>I</form>
                 <imperf>CaL	hab	هَب	hab</imperf>
+                <masdar><LM>CiL |&lt; aT	hibaT	هِبَة	hibat</LM><LM>FaCL	wahb	وَهب	wahb</LM><LM>FaCAL	wahAb	وَهَاب	wahāb</LM></masdar>
               </Verb>
             </entity>
             <reflex>
               <LM>donate</LM>
               <LM>grant</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>HaFCaL	'awhab	أَوهَب	ʾawhab</morphs>

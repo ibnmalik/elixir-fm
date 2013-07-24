@@ -13,7 +13,8 @@ cluster_1   = cluster
 
     FaCY                      `verb`    {- <^garY> -}          [ ['o','c','c','u','r'], ['h','a','p','p','e','n'], unwords [ ['t','a','k','e'], ['p','l','a','c','e'] ], ['f','l','o','w'] ]
                               `imperf`     FCI
-                              `masdar`     FaCL,
+                              `masdar`     FaCL
+                              `masdar`     FaCaLAn,
 
     FACY                      `verb`    {- <^gArY> -}          [ unwords [ ['k','e','e','p'], ['u','p'], ['w','i','t','h'] ] ],
 
@@ -2370,7 +2371,8 @@ cluster_98  = cluster
 
     FaCY                      `verb`    {- <.hakY> -}          [ ['r','e','l','a','t','e'], ['r','e','p','o','r','t'] ]
                               `imperf`     FCI
-                              `imperf`     FCY,
+                              `imperf`     FCY
+                              `masdar`     FiCAL |< aT,
 
     FACY                      `verb`    {- <.hAkY> -}          [ ['i','m','i','t','a','t','e'], ['r','e','s','e','m','b','l','e'] ],
 

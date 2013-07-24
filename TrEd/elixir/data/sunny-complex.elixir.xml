@@ -4,8 +4,8 @@
     <schema href="elixir.schema.xml" />
   </head>
   <meta>
-    <revision>$Revision: 303 $</revision>
-    <date>$Date: 2011-12-01 12:51:04 +0100 (Thu, 01 Dec 2011) $</date>
+    <revision>$Revision: 344 $</revision>
+    <date>$Date: 2013-05-05 02:37:39 +0200 (Sun, 05 May 2013) $</date>
   </meta>
   <data>
     <Cluster>
@@ -6551,6 +6551,7 @@
               <LM>deteriorate</LM>
               <LM>decline</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaKaRDuS</morphs>
@@ -20059,6 +20060,7 @@
               <LM>join</LM>
               <LM>marry off</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FACaL</morphs>
@@ -20081,6 +20083,7 @@
               </Verb>
             </entity>
             <reflex>get married</reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFACaL</morphs>
@@ -22166,6 +22169,7 @@
                   <LM>FaL</LM>
                   <LM>FCaL</LM>
                 </second>
+                <masdar>FuCAL</masdar>
               </Verb>
             </entity>
             <reflex>
@@ -22173,6 +22177,7 @@
               <LM>inquire</LM>
               <LM>request</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FACaL</morphs>
@@ -22218,6 +22223,7 @@
               <LM>ask</LM>
               <LM>wonder</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FuCL</morphs>
@@ -26525,6 +26531,16 @@
         <root>s w d</root>
         <ents>
           <Entry>
+            <morphs>FaCCaL</morphs>
+            <entity>
+              <Verb>
+                <form>II</form>
+              </Verb>
+            </entity>
+            <reflex>blacken</reflex>
+            
+          </Entry>
+          <Entry>
             <morphs>IFCaLL</morphs>
             <entity>
               <Verb>
@@ -26533,15 +26549,6 @@
             </entity>
             <reflex>become black</reflex>
             
-          </Entry>
-          <Entry>
-            <morphs>FaCCaL</morphs>
-            <entity>
-              <Verb>
-                <form>II</form>
-              </Verb>
-            </entity>
-            <reflex>blacken</reflex>
           </Entry>
           <Entry>
             <morphs>HaFCaL</morphs>
@@ -26635,6 +26642,7 @@
               <Verb>
                 <form>I</form>
                 <imperf>FUL</imperf>
+                <masdar>FiyAL |&lt; aT</masdar>
               </Verb>
             </entity>
             <reflex>
@@ -26643,6 +26651,7 @@
               <LM>rule</LM>
               <LM>govern</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>Fu'LuL</morphs>
@@ -34737,6 +34746,7 @@
               <LM>desire</LM>
               <LM>wish</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFaCCaL</morphs>
@@ -36526,6 +36536,7 @@
                 <form>I</form>
                 <pfirst>FaCaL</pfirst>
                 <imperf>FiCL</imperf>
+                <masdar>FiCL |&lt; aT</masdar>
               </Verb>
             </entity>
             <reflex>
@@ -36545,6 +36556,7 @@
               <LM>correct</LM>
               <LM>confirm</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFaCCaL</morphs>
@@ -40877,6 +40889,7 @@
               <LM>sacrifice</LM>
               <LM>immolate</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>HaFCY</morphs>
@@ -43373,6 +43386,7 @@
               <Verb>
                 <form>I</form>
                 <imperf>FCaL</imperf>
+                <masdar>FuCUL</masdar>
               </Verb>
             </entity>
             <reflex>
@@ -52782,6 +52796,7 @@
               <LM>predict</LM>
               <LM>forecast</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>IstaFCaL</morphs>
@@ -58364,6 +58379,7 @@
               <LM>hand over</LM>
               <LM>deliver</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFACaL</morphs>
@@ -58376,6 +58392,7 @@
               <LM>deal with</LM>
               <LM>eat</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCL</morphs>

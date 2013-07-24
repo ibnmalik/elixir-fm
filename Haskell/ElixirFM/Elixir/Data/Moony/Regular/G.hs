@@ -348,11 +348,12 @@ cluster_16  = cluster
  |> ".h d _t" <| [
 
     FaCaL                     `verb`    {- <.hada_t> -}        [ ['h','a','p','p','e','n'], unwords [ ['t','a','k','e'], ['p','l','a','c','e'] ] ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `masdar`     FuCUL,
 
     FaCCaL                    `verb`    {- <.hadda_t> -}       [ ['t','e','l','l'], ['r','e','l','a','t','e'], ['s','p','e','a','k'], ['t','a','l','k'] ],
 
-    FaCCaL                    `verb`    {- <.hadda_t> -}       [ ['u','p','d','a','t','e'], ['r','e','n','e','w'] ],
+    FaCCaL                    `verb`    {- <.hadda_t> -}       [ ['u','p','d','a','t','e'], ['r','e','n','e','w'], ['m','o','d','e','r','n','i','z','e'] ],
 
     FACaL                     `verb`    {- <.hAda_t> -}        [ ['d','i','s','c','u','s','s'], ['n','e','g','o','t','i','a','t','e'] ],
 

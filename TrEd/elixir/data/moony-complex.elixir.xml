@@ -4,8 +4,8 @@
     <schema href="elixir.schema.xml" />
   </head>
   <meta>
-    <revision>$Revision: 304 $</revision>
-    <date>$Date: 2011-12-06 22:53:30 +0100 (Tue, 06 Dec 2011) $</date>
+    <revision>$Revision: 353 $</revision>
+    <date>$Date: 2013-07-24 01:29:33 +0200 (Wed, 24 Jul 2013) $</date>
   </meta>
   <data>
     <Cluster>
@@ -2773,6 +2773,7 @@
               <LM>postpone</LM>
               <LM>delay</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFaCCaL</morphs>
@@ -12569,6 +12570,7 @@
                 <form>I</form>
                 <imperf>FCuL</imperf>
                 <second>CuL</second>
+                <masdar>FaCL</masdar>
               </Verb>
             </entity>
             <reflex>
@@ -15102,7 +15104,7 @@
             <entity>
               <Verb>
                 <form>I</form>
-                <imperf>FCaL</imperf>
+                <imperf>FCuL</imperf>
                 <masdar>FaCaL</masdar>
               </Verb>
             </entity>
@@ -15535,6 +15537,7 @@
               <LM>trust</LM>
               <LM>entrust</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>IstaFCaL</morphs>
@@ -23514,6 +23517,22 @@
           <Entry>
             <morphs>FACI</morphs>
             <entity>
+              <Noun>
+                <plural>
+                  <LM>FuCY |&lt; aT</LM>
+                  <LM>FawACI</LM>
+                </plural>
+                <derive>------F---</derive>
+              </Noun>
+            </entity>
+            <reflex>
+              <LM>mourner</LM>
+              <LM>weeper</LM>
+            </reflex>
+          </Entry>
+          <Entry>
+            <morphs>FACI</morphs>
+            <entity>
               <Adj>
                 <plural>
                   <LM>FuCY |&lt; aT</LM>
@@ -23521,10 +23540,10 @@
                 </plural>
               </Adj>
             </entity>
+            <limits/>
             <reflex>
-              <LM>mourner</LM>
               <LM>weeping</LM>
-              <LM>weepers</LM>
+              <LM>mourning</LM>
             </reflex>
           </Entry>
           <Entry>
@@ -26133,12 +26152,14 @@
               <Verb>
                 <form>I</form>
                 <imperf>FIL</imperf>
+                <masdar>FaCL</masdar>
               </Verb>
             </entity>
             <reflex>
               <LM>lay an egg</LM>
               <LM>settle down</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCCaL</morphs>
@@ -28389,7 +28410,10 @@
               <Verb>
                 <form>I</form>
                 <imperf>FCI</imperf>
-                <masdar>FaCL</masdar>
+                <masdar>
+                  <LM>FaCL</LM>
+                  <LM>FaCaLAn</LM>
+                </masdar>
               </Verb>
             </entity>
             <reflex>
@@ -36825,12 +36849,14 @@
                   <LM>FCI</LM>
                   <LM>FCY</LM>
                 </imperf>
+                <masdar>FiCAL |&lt; aT</masdar>
               </Verb>
             </entity>
             <reflex>
               <LM>relate</LM>
               <LM>report</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FACY</morphs>
@@ -36843,6 +36869,7 @@
               <LM>imitate</LM>
               <LM>resemble</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FiCAL |&lt; aT</morphs>
@@ -49201,6 +49228,7 @@
               <LM>dine</LM>
               <LM>sup</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCY</morphs>
@@ -49754,6 +49782,7 @@
               <LM>give</LM>
               <LM>provide</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFACY</morphs>
@@ -51476,6 +51505,7 @@
               </Verb>
             </entity>
             <reflex>feign blindness</reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCY</morphs>
@@ -55846,6 +55876,7 @@
               </Verb>
             </entity>
             <reflex>have breakfast</reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCA'</morphs>
@@ -68867,6 +68898,7 @@
               <Verb>
                 <form>I</form>
                 <imperf>FCI</imperf>
+                <masdar>FaCA'</masdar>
               </Verb>
             </entity>
             <reflex>
@@ -68874,6 +68906,7 @@
               <LM>perform</LM>
               <LM>decree</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCCY</morphs>
@@ -68925,6 +68958,7 @@
               <LM>litigate</LM>
               <LM>lay claim to</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>InFaCY</morphs>
@@ -68950,6 +68984,7 @@
               <LM>demand</LM>
               <LM>require</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>IstaFCY</morphs>
@@ -86237,6 +86272,11 @@
               <Verb>
                 <form>I</form>
                 <imperf>FCI</imperf>
+                <masdar>
+                  <LM>FaCL</LM>
+                  <LM>FuCY</LM>
+                  <LM>FiCAL |&lt; aT</LM>
+                </masdar>
               </Verb>
             </entity>
             <reflex>
@@ -86244,6 +86284,7 @@
               <LM>direct</LM>
               <LM>lead</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FACY</morphs>
@@ -86267,6 +86308,7 @@
               <LM>present</LM>
               <LM>lead</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFaCCY</morphs>
@@ -88142,6 +88184,7 @@
               </Verb>
             </entity>
             <reflex>congratulate</reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFaCCaL</morphs>
@@ -92258,6 +92301,10 @@
               <Verb>
                 <form>I</form>
                 <imperf>CiL</imperf>
+                <masdar>
+                  <LM>CiL |&lt; aT</LM>
+                  <LM>FuCUL</LM>
+                </masdar>
               </Verb>
             </entity>
             <reflex>
@@ -92265,6 +92312,7 @@
               <LM>rely</LM>
               <LM>depend</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCCaL</morphs>
@@ -92278,6 +92326,7 @@
               <LM>certify</LM>
               <LM>authenticate</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FACaL</morphs>
@@ -92327,6 +92376,7 @@
               <LM>make certain</LM>
               <LM>have confidence in</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>CiL |&lt; aT</morphs>
@@ -95444,7 +95494,7 @@
         <root>w d q</root>
         <ents>
           <Entry>
-            <morphs>FaCaL</morphs>
+            <morphs>FaCL</morphs>
             <entity>
               <Noun/>
             </entity>
@@ -108239,12 +108289,18 @@
               <Verb>
                 <form>I</form>
                 <imperf>CaL</imperf>
+                <masdar>
+                  <LM>CiL |&lt; aT</LM>
+                  <LM>FaCL</LM>
+                  <LM>FaCAL</LM>
+                </masdar>
               </Verb>
             </entity>
             <reflex>
               <LM>donate</LM>
               <LM>grant</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>HaFCaL</morphs>

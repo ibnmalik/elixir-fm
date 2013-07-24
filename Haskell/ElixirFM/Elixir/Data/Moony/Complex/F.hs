@@ -1263,7 +1263,8 @@ cluster_73  = cluster
  |> "b y .d" <| [
 
     FAL                       `verb`    {- <bA.d> -}           [ unwords [ ['l','a','y'], ['a','n'], ['e','g','g'] ], unwords [ ['s','e','t','t','l','e'], ['d','o','w','n'] ] ]
-                              `imperf`     FIL,
+                              `imperf`     FIL
+                              `masdar`     FaCL,
 
     FaCCaL                    `verb`    {- <bayya.d> -}        [ ['b','l','e','a','c','h'], ['b','l','a','n','c','h'] ],
 

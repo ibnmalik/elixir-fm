@@ -4,8 +4,8 @@
     <schema href="elixir.schema.xml" />
   </head>
   <meta>
-    <revision>$Revision: 302 $</revision>
-    <date>$Date: 2011-11-26 01:22:51 +0100 (Sat, 26 Nov 2011) $</date>
+    <revision>$Revision: 353 $</revision>
+    <date>$Date: 2013-07-24 01:29:33 +0200 (Wed, 24 Jul 2013) $</date>
   </meta>
   <data>
     <Cluster>
@@ -30369,12 +30369,14 @@
               <Verb>
                 <form>I</form>
                 <imperf>FCuL</imperf>
+                <masdar>FuCUL</masdar>
               </Verb>
             </entity>
             <reflex>
               <LM>happen</LM>
               <LM>take place</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCCaL</morphs>
@@ -30389,6 +30391,7 @@
               <LM>speak</LM>
               <LM>talk</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCCaL</morphs>
@@ -30397,11 +30400,14 @@
                 <form>II</form>
               </Verb>
             </entity>
-            <limits/>
+            <limits>
+            </limits>
             <reflex>
               <LM>update</LM>
               <LM>renew</LM>
+              <LM>modernize</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FACaL</morphs>
@@ -30415,6 +30421,7 @@
               <LM>discuss</LM>
               <LM>negotiate</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>HaFCaL</morphs>
@@ -30427,6 +30434,7 @@
               <LM>cause</LM>
               <LM>bring about</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFaCCaL</morphs>
@@ -30439,6 +30447,7 @@
               <LM>speak</LM>
               <LM>discuss</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFACaL</morphs>
@@ -30448,6 +30457,7 @@
               </Verb>
             </entity>
             <reflex>discuss</reflex>
+            
           </Entry>
           <Entry>
             <morphs>IstaFCaL</morphs>
@@ -30457,6 +30467,7 @@
               </Verb>
             </entity>
             <reflex>renew</reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCaL</morphs>
@@ -40050,9 +40061,14 @@
               <Verb>
                 <form>I</form>
                 <imperf>FCuL</imperf>
+                <masdar>
+                  <LM>FuCL</LM>
+                  <LM>FuCuL</LM>
+                </masdar>
               </Verb>
             </entity>
             <reflex>dream</reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCuL</morphs>
@@ -75338,8 +75354,7 @@
           <Entry>
             <morphs>FaCL</morphs>
             <entity>
-              <Noun>
-              </Noun>
+              <Noun/>
             </entity>
             <reflex>
               <LM>washing</LM>
@@ -76637,6 +76652,7 @@
               <LM>beg forgiveness</LM>
               <LM>apologize</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCL</morphs>
@@ -88673,6 +88689,7 @@
               <LM>be kind enough to</LM>
               <LM>help oneself</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCL |&lt;&lt; "aN"</morphs>
@@ -89069,6 +89086,7 @@
               <Verb>
                 <form>I</form>
                 <imperf>FCuL</imperf>
+                <masdar>FaCaL</masdar>
               </Verb>
             </entity>
             <reflex>
@@ -89076,6 +89094,7 @@
               <LM>break the fast</LM>
               <LM>have breakfast</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCaL</morphs>
@@ -89098,6 +89117,7 @@
               <LM>break the fast</LM>
               <LM>have breakfast</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFaCCaL</morphs>

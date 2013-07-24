@@ -4,8 +4,8 @@
     <schema href="elixir.schema.xml" />
   </head>
   <meta>
-    <revision>$Revision: 303 $</revision>
-    <date>$Date: 2011-12-01 12:51:04 +0100 (Thu, 01 Dec 2011) $</date>
+    <revision>$Revision: 344 $</revision>
+    <date>$Date: 2013-05-05 02:37:39 +0200 (Sun, 05 May 2013) $</date>
   </meta>
   <data>
     <Cluster>
@@ -6502,6 +6502,7 @@
               <LM>deteriorate</LM>
               <LM>decline</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaKaRDuS	tadahwur	تَدَهوُر	tadahwur</morphs>
@@ -19870,6 +19871,7 @@
               <LM>join</LM>
               <LM>marry off</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FACaL	zAwa^g	زَاوَج	zāwaǧ</morphs>
@@ -19892,6 +19894,7 @@
               </Verb>
             </entity>
             <reflex>get married</reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFACaL	tazAwa^g	تَزَاوَج	tazāwaǧ</morphs>
@@ -21968,6 +21971,7 @@
                 <form>I</form>
                 <imperf>FCaL	s'al	سأَل	sʾal</imperf>
                 <second><LM>FaL	sal	سَل	sal</LM><LM>FCaL	s'al	سأَل	sʾal</LM></second>
+                <masdar>FuCAL	su'Al	سُؤَال	suʾāl</masdar>
               </Verb>
             </entity>
             <reflex>
@@ -21975,6 +21979,7 @@
               <LM>inquire</LM>
               <LM>request</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FACaL	sA'al	سَاءَل	sāʾal</morphs>
@@ -22020,6 +22025,7 @@
               <LM>ask</LM>
               <LM>wonder</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FuCL	su'l	سُؤل	suʾl</morphs>
@@ -26270,6 +26276,16 @@
         <root>s w d	س و د	s w d</root>
         <ents>
           <Entry>
+            <morphs>FaCCaL	sawwad	سَوَّد	sawwad</morphs>
+            <entity>
+              <Verb>
+                <form>II</form>
+              </Verb>
+            </entity>
+            <reflex>blacken</reflex>
+            
+          </Entry>
+          <Entry>
             <morphs>IFCaLL	iswadd	اِسوَدّ	iswadd</morphs>
             <entity>
               <Verb>
@@ -26278,15 +26294,6 @@
             </entity>
             <reflex>become black</reflex>
             
-          </Entry>
-          <Entry>
-            <morphs>FaCCaL	sawwad	سَوَّد	sawwad</morphs>
-            <entity>
-              <Verb>
-                <form>II</form>
-              </Verb>
-            </entity>
-            <reflex>blacken</reflex>
           </Entry>
           <Entry>
             <morphs>HaFCaL	'aswad	أَسوَد	ʾaswad</morphs>
@@ -26380,6 +26387,7 @@
               <Verb>
                 <form>I</form>
                 <imperf>FUL	sUd	سُود	sūd</imperf>
+                <masdar>FiyAL |&lt; aT	siyAdaT	سِيَادَة	siyādat</masdar>
               </Verb>
             </entity>
             <reflex>
@@ -26388,6 +26396,7 @@
               <LM>rule</LM>
               <LM>govern</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>Fu'LuL	su'dud	سُؤدُد	suʾdud</morphs>
@@ -34371,6 +34380,7 @@
               <LM>desire</LM>
               <LM>wish</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFaCCaL	ta^sayya'	تَشَيَّأ	tašayyaʾ</morphs>
@@ -36132,6 +36142,7 @@
                 <form>I</form>
                 <pfirst>FaCaL	.sa.ha.h	صَحَح	ṣaḥaḥ</pfirst>
                 <imperf>FiCL	.si.h.h	صِحّ	ṣiḥḥ</imperf>
+                <masdar>FiCL |&lt; aT	.si.h.haT	صِحَّة	ṣiḥḥat</masdar>
               </Verb>
             </entity>
             <reflex>
@@ -36151,6 +36162,7 @@
               <LM>correct</LM>
               <LM>confirm</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFaCCaL	ta.sa.h.ha.h	تَصَحَّح	taṣaḥḥaḥ</morphs>
@@ -40429,6 +40441,7 @@
               <LM>sacrifice</LM>
               <LM>immolate</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>HaFCY	'a.d.hY	أَضحَى	ʾaḍḥā</morphs>
@@ -42901,6 +42914,7 @@
               <Verb>
                 <form>I</form>
                 <imperf>FCaL	.tra'	طرَأ	ṭraʾ</imperf>
+                <masdar>FuCUL	.turU'	طُرُوء	ṭurūʾ</masdar>
               </Verb>
             </entity>
             <reflex>
@@ -52200,6 +52214,7 @@
               <LM>predict</LM>
               <LM>forecast</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>IstaFCaL	istanba'	اِستَنبَأ	istanbaʾ</morphs>
@@ -57746,6 +57761,7 @@
               <LM>hand over</LM>
               <LM>deliver</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>TaFACaL	tanAwal	تَنَاوَل	tanāwal</morphs>
@@ -57758,6 +57774,7 @@
               <LM>deal with</LM>
               <LM>eat</LM>
             </reflex>
+            
           </Entry>
           <Entry>
             <morphs>FaCL	nawl	نَول	nawl</morphs>

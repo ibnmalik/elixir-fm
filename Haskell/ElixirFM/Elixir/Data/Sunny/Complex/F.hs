@@ -1622,7 +1622,8 @@ cluster_77  = cluster
  |> ".t r '" <| [
 
     FaCaL                     `verb`    {- <.tara'> -}         [ ['o','c','c','u','r'], ['h','a','p','p','e','n'] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FuCUL,
 
     HaFCaL                    `verb`    {- <'a.tra'> -}        [ ['e','u','l','o','g','i','z','e'] ],
 
