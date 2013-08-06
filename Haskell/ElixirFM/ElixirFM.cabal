@@ -9,7 +9,7 @@ maintainer:         otakar-smrz users.sf.net
 homepage:           http://otakar-smrz.users.sf.net/
 package-url:        http://sourceforge.net/projects/elixir-fm/
 category:           Text, Natural Language Processing
-build-depends:      Encode, Cabal, base < 4.4, containers, wl-pprint > 1.0
+build-depends:      Encode, Cabal, base, containers, wl-pprint > 1.0
 build-type:         Simple
 synopsis:           Functional Arabic Morphology
 description:        The "ElixirFM" library implements a computational model of the morphological
@@ -163,6 +163,7 @@ extensions:         MultiParamTypeClasses,
                     FlexibleInstances,
                     FlexibleContexts
 hugs-options:       -98 +o +u -h96M
+ghc-options:        +RTS -c -RTS
 
 executable:         elixir
 main-is:            Main.hs
@@ -301,3 +302,4 @@ extensions:         MultiParamTypeClasses,
                     FlexibleInstances,
                     FlexibleContexts
 hugs-options:       -98 +o +u -h96M
+ghc-options:        +RTS -c -RTS

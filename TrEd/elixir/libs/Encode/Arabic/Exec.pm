@@ -1,12 +1,12 @@
 # ########################################################################## Otakar Smrz, 2009/03/21
 #
-# ElixirFM Executable ##############################################################################
+# Encode Arabic Executable #########################################################################
 
-package ElixirFM::Exec;
+package Encode::Arabic::Exec;
 
 use strict;
 
-our $VERSION = '1.2.0';
+our $VERSION = '0.1.0';
 
 
 use Encode;
@@ -18,9 +18,11 @@ use File::Temp;
 use File::Which;
 
 
-our $elixir = 'elixir';
+our $encode = 'encode';
+our $decode = 'decode';
 
-our %elixir = ();
+our %encode = ();
+our %decode = ();
 
 
 sub import {
@@ -133,12 +135,12 @@ __END__
 
 =head1 NAME
 
-ElixirFM::Exec - Interface to the ElixirFM executable
+Encode::Arabic::Exec - Interface to the Encode Arabic executables
 
 
 =head1 SYNOPSIS
 
-    use ElixirFM::Exec;                         #   'elixir' will be tried out
+    use Encode::Arabic::Exec;                   #   'encode' and 'decode' will be tried out
 
     use ElixirFM::Exec '.';                     #   './elixir' will be invoked
     use ElixirFM::Exec './elixir';              #   './elixir' will be invoked
@@ -161,9 +163,9 @@ ElixirFM::Exec - Interface to the ElixirFM executable
 =head1 DESCRIPTION
 
 The L<ElixirFM::Exec|ElixirFM::Exec> module provides a simple interface for invoking the
-ElixirFM executable, which you need to install on your system yourself.
+Encode Arabic executables, which you need to install on your system yourself.
 
-The download and further information are at L<http://sourceforge.net/projects/elixir-fm/>.
+The download and further information are at L<http://sourceforge.net/projects/encode-arabic/>.
 
 
 =head1 AUTHOR

@@ -2,15 +2,13 @@
 #
 # ElixirFM Interfaces ##############################################################################
 
-# $Id: ElixirFM.pm 1004 2011-03-24 11:35:59Z smrz $
-
 package ElixirFM;
 
 use 5.008;
 
 use strict;
 
-our $VERSION = '1.1' || join '.', '1.1', q $Revision: 1004 $ =~ /(\d+)/;
+our $VERSION = '1.2.1';
 
 use Encode::Arabic;
 
@@ -55,22 +53,35 @@ sub nub (&@) {
     return grep { my $r = $fun->($_); exists $nub{$r} ? 0 : ++$nub{$r} } @lst;
 }
 
-sub groups ($@) {
+sub groups (@) {
 
-    my ($d, @d) = @_;
+    my @list = @_;
 
-    return @d unless $d > 0;
+    my $tree = [];
+    my @tree = ($tree);
 
-    my $r = @d / $d;
+    for (my $i = 0; $i < @list; $i ++) {
 
-    my @r;
+        my ($n, $l) = (0, @{$list[$i]} - 1);
 
-    for (my $i = 0; $r * $i < @d; $i++) {
+        $n++ until split " ", $list[$i][$n];
 
-        push @r, $r * ($i + 1) < 1 ? [] : [@d[$r * $i .. $r * ($i + 1) - 1 ]];
+        my $f = foldr { [$_[0], $_[1]] } [$list[$i][$l]], @{$list[$i]}[$n .. $l - 1];
+        my $t = $n - @tree + 1;
+
+        if ($t < 0) {
+
+            splice @tree, $t;
+        }
+        elsif ($t > 0) {
+
+            push @tree, $tree[-1][-1] for 1 .. $t;
+        }
+
+        push @{$tree[-1]}, $f;
     }
 
-    return @r;
+    return $tree;
 }
 
 sub tuples {
@@ -157,6 +168,7 @@ our $tagset = [
         "SR" => "relative",
         "Q-" => "numeral",
         "QI" => "",
+        "QU" => "",
         "QV" => "",
         "QX" => "",
         "QY" => "",
@@ -466,7 +478,7 @@ sub normalize {
     }
     elsif ($code eq 'TeX') {
 
-        $text = Unicode::Normalize::normalize('D', $text);
+        $text = Unicode::Normalize::normalize('KD', $text);
 
         $text =~ s/a[\x{0304}\x{0301}]/A/g;
         $text =~ s/i[\x{0304}\x{0301}]/I/g;
@@ -507,11 +519,11 @@ sub identify {
 
         $text =~ s/^ +//;
 
-        if (($data) = $text =~ /^(\( *-? *[1-9][0-9]* *, *(?:-? *[1-9][0-9]*|Nothing|Just *\[ *-? *[1-9][0-9]* *(?:\, *-? *[1-9][0-9]* *)*\]) *\))/) {
+        if (($data) = $text =~ /^(\( *-? *[1-9][0-9]* *, *(?:-? *[1-9][0-9]*|\[ *\]|\[ *-? *[1-9][0-9]* *(?:\, *-? *[1-9][0-9]* *)*\]) *\))/) {
 
             $text = substr $text, length $data;
         }
-        elsif (($data) = $text =~ /^(\( *-? *[0-9]+ *, *(?:-? *[0-9]+|Nothing|Just *\[ *-? *[0-9]+ *(?:\, *-? *[0-9]+ *)*\]) *\))/) {
+        elsif (($data) = $text =~ /^(\( *-? *[0-9]+ *, *(?:-? *[0-9]+|\[ *\]|\[ *-? *[0-9]+ *(?:\, *-? *[0-9]+ *)*\]) *\))/) {
 
             $text = substr $text, length $data;
 
@@ -782,27 +794,12 @@ sub lists_trees {
             ];
 }
 
-sub parse_clear {
-
-    my ($data, $mode) = @_;
-
-    $mode = '' unless defined $mode;
-
-    if ($mode eq 'parse' or $mode eq 'clear') {
-
-        $data = parse($data);
-
-        $data = clear($data) if $mode eq 'clear';
-    }
-
-    return $data;
-}
-
 sub unlines {
 
     my ($data, $type) = @_;
 
-    $type = $data =~ /^\s*[:]{4}/ ? 'resolve' : $data =~ /^\s*[()]/ ? 'lookup' : $data =~ /^\s*[<>]/ ? 'lexicon' : '' unless defined $type;
+    $type = $data =~ /^\s*[:]{4}/ ? 'resolve' # : $data =~ /^\s*[()]/ ? 'lookup'
+                                                : $data =~ /^\s*[<>]/ ? 'lexicon' : '' unless defined $type;
 
     my @data;
 
@@ -835,7 +832,8 @@ sub unwords {
 
     my ($data, $type) = @_;
 
-    $type = $data =~ /^\s*[:]{4}/ ? 'resolve' : $data =~ /^\s*[()]/ ? 'lookup' : $data =~ /^\s*[<>]/ ? 'lexicon' : '' unless defined $type;
+    $type = $data =~ /^\s*[:]{4}/ ? 'resolve' # : $data =~ /^\s*[()]/ ? 'lookup'
+                                                : $data =~ /^\s*[<>]/ ? 'lexicon' : '' unless defined $type;
 
     my @data = unlines $data, $type;
 
@@ -851,8 +849,9 @@ sub unwords {
 
         @data = map {
 
-            split /(?<=<\/Nest>)\s*/, $_
-
+            split /^(?=[\t ]*\(\ *-?\ *[1-9][0-9]*\ *,
+                               \ *(?:\[\ *\]|
+                                     \[\ *-?\ *[1-9][0-9]*\ *(?:\,\ *-?\ *[1-9][0-9]*\ *)*\])\ *\))/xm, $_
         } @data;
     }
     elsif ($type eq 'lexicon') {
@@ -882,7 +881,8 @@ sub unpretty {
 
     my ($data, $mode) = @_;
 
-    my $type = $data =~ /^\s*[:]{4}/ ? 'resolve' : $data =~ /^\s*[()]/ ? 'lookup' : $data =~ /^\s*[<>]/ ? 'lexicon' : '';
+    my $type = $data =~ /^\s*[:]{4}/ ? 'resolve' # : $data =~ /^\s*[()]/ ? 'lookup'
+                                                   : $data =~ /^\s*[<>]/ ? 'lexicon' : '';
 
     my @data = unlines $data, $type;
 
@@ -933,23 +933,34 @@ sub unpretty {
             [
                 map {
 
-                    my ($clip, $data) = split /\s*<Nest>\s*/, $_;
+                    my ($clip, @data) = split /\n(?=[(])/, $_;
 
-                    my ($root) = $data =~ /(<root>.*?<\/root>)/;
+                    [ ( join '', split ' ', $clip ),
 
-                    my (@ents) = $data =~ /(<Entry>.*?<\/Entry>)/gs;
+                      map {
 
-                    $root = parse($root)->[2];
+                          my ($fst, @rst) = map {
 
-                    {
-                        'clip'  =>  ( join '', split ' ', $clip ),
-                        'root'  =>  ( ref $root ? "" : $root ),
-                        'ents'  =>  [ map {
+                              [ split /\t/, $_ ]
 
-                                parse_clear($_, $mode)
+                          } split /\n/, $_;
 
-                            } @ents ],
-                    }
+                          my ($idx, @ent) = @{$fst};
+
+                          foldl {
+
+                              my (undef, $data, @data) = @{$_[1]};
+
+                              push @{$_[0]}, [$data] unless $data eq ' ' x 10;
+
+                              push @{$_[0][-1]}, [@data] if @data;
+
+                              return $_[0];
+
+                          } [ ( join '', split ' ', $idx ), [@ent] ], @rst;
+
+                        } @data,
+                    ]
 
                 } @data
             ]
@@ -958,7 +969,16 @@ sub unpretty {
     }
     elsif ($type eq 'lexicon') {
 
-        @data = parse_clear($data, $mode);
+        $mode = '' unless defined $mode;
+
+        if ($mode eq 'parse' or $mode eq 'clear') {
+
+            $data = parse($data);
+
+            $data = clear($data) if $mode eq 'clear';
+        }
+
+        @data = ($data);
     }
     else {
 
@@ -966,17 +986,7 @@ sub unpretty {
 
             my @data = unwords $_, $type;
 
-            foldl {
-
-                my ($data, @data) = @{$_[1]};
-
-                push @{$_[0]}, [$data] unless $data eq ' ' x 10;
-
-                push @{$_[0][-1]}, [@data] if @data;
-
-                return $_[0];
-
-            } [],
+            groups
 
             map {
 
@@ -1455,11 +1465,6 @@ __END__
 ElixirFM - Interfaces to the ElixirFM system implementing Functional Arabic Morphology
 
 
-=head1 REVISION
-
-    $Revision: 1004 $        $Date: 2011-03-24 14:35:59 +0300 (Thu, 24 Mar 2011) $
-
-
 =head1 SYNOPSIS
 
     use ElixirFM;
@@ -1475,12 +1480,12 @@ You can find documentation for this module at L<http://sourceforge.net/projects/
 
 =head1 AUTHOR
 
-Otakar Smrz C<< <otakar smrz seznam cz> >>, L<http://ufal.mff.cuni.cz/~smrz/>
+Otakar Smrz C<< <otakar-smrz users.sf.net> >>, L<http://otakar-smrz.users.sf.net/>
 
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright (C) 2005-2011 Otakar Smrz
+Copyright (C) 2005-2013 Otakar Smrz
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the GNU General Public License version 3.

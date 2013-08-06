@@ -1,8 +1,8 @@
 # ###################################################################### Otakar Smrz, 2003/01/23
 #
-# Encoding of Arabic: Dil Parkinson's Notation ###################################### 2006/02/03
+# Encoding of Arabic: Habash-Soudi-Buckwalter Notation ############################## 2003/06/19
 
-package Encode::Arabic::Parkinson;
+package Encode::Arabic::Habash;
 
 use 5.008;
 
@@ -14,7 +14,7 @@ use Scalar::Util 'blessed';
 use Encode::Encoding;
 use base 'Encode::Encoding';
 
-__PACKAGE__->Define('Parkinson', 'Dil');
+__PACKAGE__->Define('Habash', 'Soudi', 'HSB');
 
 
 our $enmode;
@@ -116,6 +116,7 @@ sub enmode ($$;$$) {
                 q [\x{0623}\x{0624}\x{0625}] .
                 q [\x{060C}\x{061B}\x{061F}] .
                 q [\x{0621}\x{0622}\x{0626}-\x{063A}\x{0641}-\x{064A}] .
+                q [\x{067E}\x{0686}\x{0698}\x{06A4}\x{06AF}] .
                 q [\x{0660}-\x{0669}] .
                 q [\x{0671}] .
                 q [\x{0651}] .
@@ -129,21 +130,26 @@ sub enmode ($$;$$) {
 
                 ( $kshd
                     ? ''
-                    : q [_] ) .
-                q [LWE] .
-                q [,;?] .
-                q [CMYAbQtVjHxdvrzspSDTZcgfqklmnhwey] .
+                    : q [\x{005F}] ) .
+                q [\x{00C2}\x{0175}\x{01CD}] .
+                q [\x{002C}\x{003B}\x{003F}] .
+                q [\x{0027}\x{0100}\x{0177}\x{0041}\x{0062}\x{0127}\x{0074}\x{03B8}\x{006A}\x{0048}\x{0078}] .
+                q [\x{0064}\x{00F0}\x{0072}\x{007A}\x{0073}\x{0161}\x{0053}\x{0044}\x{0054}\x{010E}\x{03C2}] .
+                q [\x{03B3}\x{0066}\x{0071}\x{006B}\x{006C}\x{006D}\x{006E}\x{0068}\x{0077}\x{00FD}\x{0079}] .
+                q [\x{0070}\x{0063}\x{017E}\x{0076}\x{0067}] .
                 q [0-9] .
                 ( $mode == 0
-                    ? q [O]
-                    : q [A] ) .
+                    ? q [\x{00C4}]
+                    : q [\x{0041}] ) .
                 ( $mode == 1
                     ? ''
-                    : q [~] . ( $mode == 2
-                                    ? ''
-                                    : q [NUIauiR] . ( $mode == 3
-                                                        ? ''
-                                                        : q [o] ) ) )
+                    : q [\x{007E}] .
+                      ( $mode == 2
+                          ? ''
+                          : q [\x{00E3}\x{0169}\x{0129}\x{0061}\x{0075}\x{0069}\x{00E1}] .
+                            ( $mode == 3
+                                ? ''
+                                : q [\x{00B7}] ) ) )
 
                 );
 
@@ -187,17 +193,20 @@ sub demode ($$;$$) {
 
                 ( $kshd
                     ? ''
-                    : q [_] ) .
-                q [LWE] .
-                q [,;?] .
-                q [CMYAbQtVjHxdvrzspSDTZcgfqklmnhwey] .
+                    : q [\x{005F}] ) .
+                q [\x{00C2}\x{0175}\x{01CD}] .
+                q [\x{002C}\x{003B}\x{003F}] .
+                q [\x{0027}\x{0100}\x{0177}\x{0041}\x{0062}\x{0127}\x{0074}\x{03B8}\x{006A}\x{0048}\x{0078}] .
+                q [\x{0064}\x{00F0}\x{0072}\x{007A}\x{0073}\x{0161}\x{0053}\x{0044}\x{0054}\x{010E}\x{03C2}] .
+                q [\x{03B3}\x{0066}\x{0071}\x{006B}\x{006C}\x{006D}\x{006E}\x{0068}\x{0077}\x{00FD}\x{0079}] .
+                q [\x{0070}\x{0063}\x{017E}\x{0076}\x{0067}] .
                 q [0-9] .
-                q [O] .
-                q [~] .
-                q [NUIauiR] .
-                q [o] .
+                q [\x{00C4}] .
+                q [\x{007E}] .
+                q [\x{00E3}\x{0169}\x{0129}\x{0061}\x{0075}\x{0069}\x{00E1}] .
+                q [\x{00B7}] .
                 ( $kshd
-                    ? q [_]
+                    ? q [\x{005F}]
                     : '' )
 
                 ,
@@ -208,6 +217,7 @@ sub demode ($$;$$) {
                 q [\x{0623}\x{0624}\x{0625}] .
                 q [\x{060C}\x{061B}\x{061F}] .
                 q [\x{0621}\x{0622}\x{0626}-\x{063A}\x{0641}-\x{064A}] .
+                q [\x{067E}\x{0686}\x{0698}\x{06A4}\x{06AF}] .
                 q [\x{0660}-\x{0669}] .
                 ( $mode == 0
                     ? q [\x{0671}]
@@ -248,27 +258,27 @@ __END__
 
 =head1 NAME
 
-Encode::Arabic::Parkinson - Dil Parkinson's transliteration of Arabic
+Encode::Arabic::Habash - Habash-Soudi-Buckwalter transliteration of Arabic
 
 
 =head1 SYNOPSIS
 
-    use Encode::Arabic::Parkinson;          # imports just like 'use Encode' would, plus more
+    use Encode::Arabic::Habash;             # imports just like 'use Encode' would, plus more
 
-    while ($line = <>) {                    # Dil Parkinson's mapping into the Arabic script
+    while ($line = <>) {                    # Habash-Soudi-Buckwalter mapping into the Arabic script
 
-        print encode 'utf8', decode 'parkinson', $line;     # 'Parkinson' alias 'Dil'
+        print encode 'utf8', decode 'habash', $line;        # 'Habash' alias 'Soudi' alias 'HSB'
     }
 
     # shell filter of data, e.g. in *n*x systems instead of viewing the Arabic script proper
 
-    % perl -MEncode::Arabic::Parkinson -pe '$_ = encode "parkinson", decode "utf8", $_'
+    % perl -MEncode::Arabic::Habash -pe '$_ = encode "habash", decode "utf8", $_'
 
 
 =head1 DESCRIPTION
 
-Dil Parkinson's notation is a one-to-one transliteration of the Arabic script for Modern Standard
-Arabic, using lower ASCII characters to encode the graphemes of the original script.
+Habash-Soudi-Buckwalter notation is a one-to-one transliteration of the graphemes of the Arabic script
+into various symbols of Unicode defined in L<http://scholar.google.com/scholar?q=habash+soudi+buckwalter>.
 
 
 =head2 IMPLEMENTATION

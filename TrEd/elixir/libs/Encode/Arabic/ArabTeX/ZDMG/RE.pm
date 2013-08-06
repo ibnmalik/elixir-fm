@@ -2,17 +2,12 @@
 #
 # Encoding of Arabic: ArabTeX Notation by Klaus Lagally #####################################
 
-# $Id: RE.pm 143 2006-11-15 01:16:57Z smrz $
-
 package Encode::Arabic::ArabTeX::ZDMG::RE;
 
 use 5.008;
 
 use strict;
 use warnings;
-
-our $VERSION = do { q $Revision: 143 $ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
-
 
 sub import {            # perform import as if Encode were used one level before this module
     require Encode;
@@ -34,9 +29,7 @@ sub encode ($$;$$) {
 
     $_[1] = '' if $check;                   # this is what in-place edit needs
 
-    require Encode;
-
-    Encode::_utf8_off($text);
+    $text = Encode::encode "utf8", $text if Encode::is_utf8($text);
 
     return $text;
 }
@@ -46,6 +39,8 @@ sub decode ($$;$) {
     my (undef, $text, $check) = @_;
 
     $_[1] = '' if $check;                   # this is what in-place edit needs
+
+    $text = Encode::decode "utf8", $text unless Encode::is_utf8($text);
 
     for ($text) {
 
@@ -100,17 +95,12 @@ __END__
 Encode::Arabic::ArabTeX::ZDMG::RE - Deprecated Encode::Arabic::ArabTeX::ZDMG implemented with regular expressions
 
 
-=head1 REVISION
-
-    $Revision: 143 $        $Date: 2006-11-15 04:16:57 +0300 (Wed, 15 Nov 2006) $
-
-
 =head1 SYNOPSIS
 
     use Encode::Arabic::ArabTeX::ZDMG::RE;
 
     $string = decode 'arabtex-zdmg-re', $octets;
-    $octets = encode 'arabtex-zdmg-re', $string;    # not implemented, returns _utf8_off($string)
+    $octets = encode 'arabtex-zdmg-re', $string;    # not really implemented
 
 
 =head1 DESCRIPTION
@@ -134,16 +124,12 @@ L<Encode::Arabic::ArabTeX::ZDMG|Encode::Arabic::ArabTeX::ZDMG>
 
 =head1 AUTHOR
 
-Otakar Smrz, L<http://ufal.mff.cuni.cz/~smrz/>
-
-    eval { 'E<lt>' . ( join '.', qw 'otakar smrz' ) . "\x40" . ( join '.', qw 'seznam cz' ) . 'E<gt>' }
-
-Perl is also designed to make the easy jobs not that easy ;)
+Otakar Smrz C<< <otakar-smrz users.sf.net> >>, L<http://otakar-smrz.users.sf.net/>
 
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2003-2006 by Otakar Smrz
+Copyright (C) 2003-2012 Otakar Smrz
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

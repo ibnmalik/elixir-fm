@@ -2,8 +2,6 @@
 #
 # ElixirFM Context for the TrEd Environment ########################################################
 
-# $Id$
-
 package ElixirFM;
 
 use 5.008;
@@ -17,7 +15,7 @@ use File::Copy;
 
 use File::Basename;
 
-our $VERSION = join '.', '1.1', q $Revision$ =~ /(\d+)/;
+our $VERSION = '1.2.1';
 
 # ##################################################################################################
 #
@@ -80,85 +78,6 @@ sub masdars {
 # ##################################################################################################
 #
 # ##################################################################################################
-
-# our $lexicon = do "C:/Data/PADT-work/ElixirFM/Lexicon.pm";
-
-# my @keys = keys %{$lexicon};
-
-# foreach my $x (@keys) {
-
-    # my $y = $x;
-
-    # $y =~ s/^(.+[aiuAIU])(.)[aiu]\2$/$1$2\~/;
-    # $y =~ s/^(.+[^aiuAIU])(.)([aiu])\2$/$1$3$2\~/;
-
-    # $y =~ s/[OWI\|\}]$/'/;
-
-    # $y =~ s/aY?$//;
-    # $y =~ s/uw?$//;
-    # $y =~ s/iy?$//;
-
-    # if ($x ne $y) {
-
-        # $lexicon->{$y} = $lexicon->{$x};
-
-        # delete $lexicon->{$x};
-    # }
-# }
-
-
-# sub save_rest {
-
-    # ChangingFile(0);
-    # use Data::Dumper;
-    # open F, '>', 'C:/Data/FunnyThing/Weird.pm';
-    # print F Data::Dumper->Dump([$ElixirFM::lexicon], ['lexicon']);
-    # close F;
-# }
-
-# sub find_verb {
-
-    # ChangingFile(0);
-
-    # my $delete = shift;
-
-    # use Encode::Arabic::Buckwalter ':xml';
-
-    # return unless $this->{'#name'} eq 'Entry';
-
-    # return unless ElixirFM::entity($this)->[0] eq 'Verb';
-
-    # my $x = $this->{'morphs'};
-    # my $y = exists ElixirFM::entity($this)->[1]{'pfirst'} ? ElixirFM::entity($this)->[1]{'pfirst'}[0] || '' : '';
-
-    # foreach my $z ($x, $y) {
-
-        # $z = encode "buckwalter", decode "arabtex", ElixirFM::merge($this->parent()->{'root'}, $z);
-
-        # $z =~ s/[OWI\|\}]$/'/;
-
-        # $z =~ s/aA/A/g;
-
-        # $z =~ s/aY$//;
-        # $z =~ s/uw$//;
-        # $z =~ s/iy$//;
-
-        # if (exists $lexicon->{$z}) {
-
-            # unless ($this->children()) {
-
-                # ChangingFile(1);
-
-                # $this = new_Frame();
-                # $this = new_Frame();
-            # }
-
-            # delete $lexicon->{$z} if $delete;
-        # }
-    # }
-
-    # return;
-# }
 
 sub change_entity {
 
@@ -1243,12 +1162,12 @@ Prague Arabic Dependency Treebank L<http://ufal.mff.cuni.cz/padt/online/>
 
 =head1 AUTHOR
 
-Otakar Smrz E<lt>otakar.smrz seznam.czE<gt>
+Otakar Smrz C<< <otakar-smrz users.sf.net> >>, L<http://otakar-smrz.users.sf.net/>
 
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2006-2012 by Otakar Smrz
+Copyright 2006-2013 by Otakar Smrz
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

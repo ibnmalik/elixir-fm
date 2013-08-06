@@ -2,8 +2,6 @@
 #
 # Encoding of Arabic: ArabTeX Notation by Klaus Lagally, ZDMG #################################
 
-# $Id: ZDMG.pm 934 2010-02-13 16:26:58Z smrz $
-
 package Encode::Arabic::ArabTeX::ZDMG;
 
 use 5.008;
@@ -12,9 +10,6 @@ use strict;
 use warnings;
 
 use Carp;
-
-our $VERSION = do { q $Revision: 934 $ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
-
 
 use Encode::Arabic::ArabTeX ();
 use base 'Encode::Arabic::ArabTeX';
@@ -577,11 +572,6 @@ __END__
 Encode::Arabic::ArabTeX::ZDMG - ZDMG phonetic transcription of Arabic using the ArabTeX notation
 
 
-=head1 REVISION
-
-    $Revision: 934 $        $Date: 2010-02-13 19:26:58 +0300 (Sat, 13 Feb 2010) $
-
-
 =head1 SYNOPSIS
 
     use Encode::Arabic::ArabTeX::ZDMG;  # imports just like 'use Encode' would, plus extended options
@@ -632,16 +622,12 @@ Encode Arabic: Exercise in Functional Parsing
 
 =head1 AUTHOR
 
-Otakar Smrz, L<http://ufal.mff.cuni.cz/~smrz/>
-
-    eval { 'E<lt>' . ( join '.', qw 'otakar smrz' ) . "\x40" . ( join '.', qw 'seznam cz' ) . 'E<gt>' }
-
-Perl is also designed to make the easy jobs not that easy ;)
+Otakar Smrz C<< <otakar-smrz users.sf.net> >>, L<http://otakar-smrz.users.sf.net/>
 
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2003-2010 by Otakar Smrz
+Copyright (C) 2003-2010 Otakar Smrz
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

@@ -2,8 +2,6 @@
 #
 # Encoding of Arabic: ArabTeX Notation by Klaus Lagally, Verbatim #############################
 
-# $Id: Verbatim.pm 717 2008-10-02 22:28:12Z smrz $
-
 package Encode::Arabic::ArabTeX::Verbatim;
 
 use 5.008;
@@ -12,9 +10,6 @@ use strict;
 use warnings;
 
 use Carp;
-
-our $VERSION = do { q $Revision: 717 $ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
-
 
 use Encode::Arabic::ArabTeX ();
 use base 'Encode::Arabic::ArabTeX';
@@ -1654,11 +1649,6 @@ __END__
 Encode::Arabic::ArabTeX::Verbatim - Interpreter of the Verbatim variant of the ArabTeX notation
 
 
-=head1 REVISION
-
-    $Revision: 717 $        $Date: 2008-10-03 01:28:12 +0300 (Fri, 03 Oct 2008) $
-
-
 =head1 SYNOPSIS
 
     use Encode::Arabic::ArabTeX::Verbatim;  # imports just like 'use Encode' would, plus extended options
@@ -1706,16 +1696,12 @@ Klaus Lagally       L<http://www.informatik.uni-stuttgart.de/ifi/bs/people/lagal
 
 =head1 AUTHOR
 
-Otakar Smrz, L<http://ufal.mff.cuni.cz/~smrz/>
-
-    eval { 'E<lt>' . ( join '.', qw 'otakar smrz' ) . "\x40" . ( join '.', qw 'seznam cz' ) . 'E<gt>' }
-
-Perl is also designed to make the easy jobs not that easy ;)
+Otakar Smrz C<< <otakar-smrz users.sf.net> >>, L<http://otakar-smrz.users.sf.net/>
 
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2005-2008 by Otakar Smrz
+Copyright (C) 2005-2008 Otakar Smrz
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

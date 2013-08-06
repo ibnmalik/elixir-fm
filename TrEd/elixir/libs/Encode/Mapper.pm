@@ -2,8 +2,6 @@
 #
 # Mapper Engine Class ##################################################################### 2003/06/19
 
-# $Id: Mapper.pm 663 2008-08-11 14:21:54Z smrz $
-
 package Encode::Mapper;
 
 use 5.008;
@@ -13,7 +11,7 @@ use warnings;
 
 use Carp;
 
-our $VERSION = '1.6' || do { q $Revision: 663 $ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
+our $VERSION = '1.7';
 
 
 use bytes;                  # ensures splitting into one-byte tokens .. lexically scoped
@@ -571,12 +569,7 @@ __END__
 
 =head1 NAME
 
-Encode::Mapper - Intuitive, yet efficient mappings for Encode
-
-
-=head1 REVISION
-
-    $Revision: 663 $       $Date: 2008-08-11 17:21:54 +0300 (Mon, 11 Aug 2008) $
+Encode::Mapper - Intuitive yet efficient mappings for Encode
 
 
 =head1 SYNOPSIS
@@ -1021,16 +1014,12 @@ Encode Arabic: Exercise in Functional Parsing
 
 =head1 AUTHOR
 
-Otakar Smrz, L<http://ufal.mff.cuni.cz/~smrz/>
-
-    eval { 'E<lt>' . ( join '.', qw 'otakar smrz' ) . "\x40" . ( join '.', qw 'seznam cz' ) . 'E<gt>' }
-
-Perl is also designed to make the easy jobs not that easy ;)
+Otakar Smrz C<< <otakar-smrz users.sf.net> >>, L<http://otakar-smrz.users.sf.net/>
 
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2003-2007 by Otakar Smrz
+Copyright (C) 2003-2012 Otakar Smrz
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

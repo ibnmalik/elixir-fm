@@ -2,8 +2,6 @@
 #
 # Encoding of Arabic: Tim Buckwalter's Notation ##################################### 2003/06/19
 
-# $Id: Buckwalter.pm 179 2007-01-14 00:23:25Z smrz $
-
 package Encode::Arabic::Buckwalter;
 
 use 5.008;
@@ -12,9 +10,6 @@ use strict;
 use warnings;
 
 use Scalar::Util 'blessed';
-
-our $VERSION = do { q $Revision: 179 $ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
-
 
 use Encode::Encoding;
 use base 'Encode::Encoding';
@@ -75,7 +70,11 @@ sub encode ($$;$) {
 
     $_[1] = '' if $check;                   # needed by in-place edit
 
-    return encoder $text;
+    $text = encoder $text;
+
+    $text = Encode::encode "utf8", $text if Encode::is_utf8($text);
+
+    return $text;
 }
 
 
@@ -84,7 +83,11 @@ sub decode ($$;$) {
 
     $_[1] = '' if $check;                   # needed by in-place edit
 
-    return decoder $text;
+    $text = Encode::decode "utf8", $text unless Encode::is_utf8($text);
+
+    $text = decoder $text;
+
+    return $text;
 }
 
 
@@ -256,11 +259,6 @@ __END__
 Encode::Arabic::Buckwalter - Tim Buckwalter's transliteration of Arabic
 
 
-=head1 REVISION
-
-    $Revision: 179 $        $Date: 2007-01-14 03:23:25 +0300 (Sun, 14 Jan 2007) $
-
-
 =head1 SYNOPSIS
 
     use Encode::Arabic::Buckwalter;         # imports just like 'use Encode' would, plus more
@@ -362,21 +360,15 @@ Tim Buckwalter's Qamus  L<http://www.qamus.org/>
 Buckwalter Arabic Morphological Analyzer
     L<http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC2002L49>
 
-Xerox Arabic Home Page  L<http://www.arabic-morphology.com/>
-
 
 =head1 AUTHOR
 
-Otakar Smrz, L<http://ufal.mff.cuni.cz/~smrz/>
-
-    eval { 'E<lt>' . ( join '.', qw 'otakar smrz' ) . "\x40" . ( join '.', qw 'seznam cz' ) . 'E<gt>' }
-
-Perl is also designed to make the easy jobs not that easy ;)
+Otakar Smrz C<< <otakar-smrz users.sf.net> >>, L<http://otakar-smrz.users.sf.net/>
 
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2003-2007 by Otakar Smrz
+Copyright (C) 2003-2012 Otakar Smrz
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

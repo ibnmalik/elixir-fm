@@ -2,8 +2,6 @@
 #
 # Encoding of Arabic: ArabTeX Notation by Klaus Lagally ############################ 2003/06/19
 
-# $Id: ArabTeX.pm 937 2010-02-14 12:54:54Z smrz $
-
 package Encode::Arabic::ArabTeX;
 
 use 5.008;
@@ -13,9 +11,6 @@ use warnings;
 
 use Scalar::Util 'blessed';
 use Carp;
-
-our $VERSION = do { q $Revision: 937 $ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
-
 
 use Encode::Encoding;
 use base 'Encode::Encoding';
@@ -2387,11 +2382,6 @@ __END__
 Encode::Arabic::ArabTeX - Interpreter of the ArabTeX notation of Arabic
 
 
-=head1 REVISION
-
-    $Revision: 937 $             $Date: 2010-02-14 15:54:54 +0300 (Sun, 14 Feb 2010) $
-
-
 =head1 SYNOPSIS
 
     use Encode::Arabic::ArabTeX;        # imports just like 'use Encode' would, plus extended options
@@ -2603,16 +2593,12 @@ Encode Arabic: Exercise in Functional Parsing
 
 =head1 AUTHOR
 
-Otakar Smrz, L<http://ufal.mff.cuni.cz/~smrz/>
-
-    eval { 'E<lt>' . ( join '.', qw 'otakar smrz' ) . "\x40" . ( join '.', qw 'seznam cz' ) . 'E<gt>' }
-
-Perl is also designed to make the easy jobs not that easy ;)
+Otakar Smrz C<< <otakar-smrz users.sf.net> >>, L<http://otakar-smrz.users.sf.net/>
 
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2003-2010 by Otakar Smrz
+Copyright (C) 2003-2010 Otakar Smrz
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

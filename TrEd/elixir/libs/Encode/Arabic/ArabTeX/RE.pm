@@ -2,8 +2,6 @@
 #
 # Encoding of Arabic: ArabTeX Notation by Klaus Lagally #####################################
 
-# $Id: RE.pm 162 2006-12-16 00:16:10Z smrz $
-
 package Encode::Arabic::ArabTeX::RE;
 
 use 5.008;
@@ -12,9 +10,6 @@ use strict;
 use warnings;
 
 use Scalar::Util 'blessed';
-
-our $VERSION = do { q $Revision: 162 $ =~ /(\d+)/; sprintf "%4.2f", $1 / 100 };
-
 
 use Encode::Encoding;
 use base 'Encode::Encoding';
@@ -125,6 +120,8 @@ sub encode ($$;$) {
         $text =~ s/\\sukun{}//g;
     }
 
+    $text = Encode::encode "utf8", $text if Encode::is_utf8($text);
+
     return $text;
 }
 
@@ -134,6 +131,8 @@ sub decode ($$;$) {
     my $one;
 
     $_[1] = '' if $check;                   # this is what in-place edit needs
+
+    $text = Encode::decode "utf8", $text unless Encode::is_utf8($text);
 
     $cls->initialize_decode() unless %decode_used;
 
@@ -404,11 +403,6 @@ __END__
 Encode::Arabic::ArabTeX::RE - Deprecated Encode::Arabic::ArabTeX implemented with regular expressions
 
 
-=head1 REVISION
-
-    $Revision: 162 $        $Date: 2006-12-16 03:16:10 +0300 (Sat, 16 Dec 2006) $
-
-
 =head1 SYNOPSIS
 
     use Encode::Arabic::ArabTeX::RE;
@@ -437,16 +431,12 @@ L<Encode::Arabic::ArabTeX|Encode::Arabic::ArabTeX>
 
 =head1 AUTHOR
 
-Otakar Smrz, L<http://ufal.mff.cuni.cz/~smrz/>
-
-    eval { 'E<lt>' . ( join '.', qw 'otakar smrz' ) . "\x40" . ( join '.', qw 'seznam cz' ) . 'E<gt>' }
-
-Perl is also designed to make the easy jobs not that easy ;)
+Otakar Smrz C<< <otakar-smrz users.sf.net> >>, L<http://otakar-smrz.users.sf.net/>
 
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2003-2006 by Otakar Smrz
+Copyright (C) 2003-2012 Otakar Smrz
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
