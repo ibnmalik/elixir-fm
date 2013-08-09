@@ -1824,7 +1824,7 @@ cluster_90  = cluster
 
     _____                     `conj`    {- <wa> -}             [ ['a','n','d'] ],
 
-    _____                     `prep`    {- <wa> -}             [ unwords [ ['b','y'], "(", ['o','a','t','h'], ")" ] ] ]
+    _____                     `prep`    {- <wa> -}             [ ['b','y'] ] ]
 
 
 cluster_91  = cluster

@@ -1,7 +1,7 @@
 -- |
 --
 -- Module      :  Elixir.Compose
--- Copyright   :  Otakar Smrz 2005-2012
+-- Copyright   :  Otakar Smrz 2005-2013
 -- License     :  GPL
 --
 -- Maintainer  :  otakar-smrz users.sf.net
@@ -185,7 +185,7 @@ harmony (ParaPrep _)    "bi"    = [Nothing, Just ("S-------2-", (\ x -> euphony 
                                             Just ("P[-I]------2-", const True)]    -- in modern language
 harmony (ParaPrep _)    y
 
-    | y `elem` ["wa", "ta"]     = [Nothing, Just ("[NAXZ]-------2-", const True)]
+    | y `elem` ["wa", "ta"]     = [Nothing, Just ("N-------2D", (== "al-l_ahi"))]
     | y `elem` ["`an", "min"]   = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "|I"))]
     | otherwise                 = [Nothing, Just ("S-------2-", (\ x -> euphony y x && x /= "nI"))]
 
