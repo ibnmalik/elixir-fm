@@ -2043,10 +2043,12 @@ cluster_92  = cluster
  |> ".s .h w" <| [
 
     FaCA                      `verb`    {- <.sa.hA> -}         [ unwords [ ['w','a','k','e'], ['u','p'] ], unwords [ ['r','e','g','a','i','n'], ['c','o','n','s','c','i','o','u','s','n','e','s','s'] ] ]
-                              `imperf`     FCU,
+                              `imperf`     FCU
+                              `masdar`     FaCL,
 
     FaCI                      `verb`    {- <.sa.hI> -}         [ unwords [ ['w','a','k','e'], ['u','p'] ], unwords [ ['r','e','g','a','i','n'], ['c','o','n','s','c','i','o','u','s','n','e','s','s'] ] ]
-                              `imperf`     FCY,
+                              `imperf`     FCY
+                              `masdar`     FaCA,
 
     FaCCY                     `verb`    {- <.sa.h.hY> -}       [ ['a','w','a','k','e','n'], ['r','o','u','s','e'] ],
 

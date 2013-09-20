@@ -154,7 +154,8 @@ cluster_6   = cluster
  |> "w .d `" <| [
 
     FaCaL                     `verb`    {- <wa.da`> -}         [ ['p','u','t'], ['p','l','a','c','e'] ]
-                              `imperf`     CaL,
+                              `imperf`     CaL
+                              `masdar`     FaCL,
 
     HaFCaL                    `verb`    {- <'aw.da`> -}        [ unwords [ ['s','u','f','f','e','r'], ['l','o','s','s','e','s'] ] ],
 

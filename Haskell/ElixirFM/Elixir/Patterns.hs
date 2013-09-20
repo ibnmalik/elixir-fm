@@ -46,10 +46,22 @@ instance Template String where
 
         where modify | isForm VIII t                   = assimiVIII
                      | isForm VII  t                   = assimiVII
-                     | last t == 'A'                   =
+                     | null s                          = substitute
 
-                        case s of Iy : _ -> (++ ["w"]) . substitute
-                                  _      ->              substitute
+                     | t `elem` ["`an", "min"] &&
+                       last s == Suffix "mA"           = (: []) . (++ "m") . init
+
+                     | t `elem` ["mA"] &&
+                       last s == Suffix "mA"           = (: []) . (++ "ah") . init
+
+                     | t `elem` ["'an", "'in"] &&
+                       last s == Suffix "lA"           = (: []) . (++ "l") . init
+
+                     | t `elem` ["'an", "'in"] &&
+                       last s == Suffix "mA"           = (: []) . (++ "m") . init
+
+                     | last t == 'A' &&
+                       head s == Iy                    = (++ ["w"]) . substitute
 
                      | otherwise                       = substitute
 

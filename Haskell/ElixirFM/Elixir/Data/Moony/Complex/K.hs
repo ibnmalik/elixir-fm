@@ -162,7 +162,8 @@ cluster_8   = cluster
  |> "f w q" <| [
 
     FAL                       `verb`    {- <fAq> -}            [ ['s','u','r','p','a','s','s'], ['e','x','c','e','l'] ]
-                              `imperf`     FUL,
+                              `imperf`     FUL
+                              `masdar`     FaCAL,
 
     HaFAL                     `verb`    {- <'afAq> -}          [ unwords [ ['w','a','k','e'], ['u','p'] ], ['r','e','c','o','v','e','r'], ['r','e','c','u','p','e','r','a','t','e'] ],
 

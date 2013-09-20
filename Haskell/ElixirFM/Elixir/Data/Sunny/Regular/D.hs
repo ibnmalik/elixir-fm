@@ -623,10 +623,6 @@ cluster_37  = cluster
 
  |> "_d k r" <| [
 
-    "IFtaCaL"                 `verb`    {- <i_d_dakar> -}      [ ['r','e','m','e','m','b','e','r'] ] ]
-
- |> "_d k r" <| [
-
     FaCaL                     `verb`    {- <_dakar> -}         [ ['m','e','n','t','i','o','n'], ['c','i','t','e'], ['r','e','m','e','m','b','e','r'] ]
                               `imperf`     FCuL
                               `masdar`     FiCL,
@@ -705,6 +701,10 @@ cluster_37  = cluster
                               `plural`     MuFaCCiL |< At,
 
     MuFaCCaL                  `adj`     {- <mu_dakkar> -}      [ ['m','a','s','c','u','l','i','n','e'] ] ]
+
+ |> "_d k r" <| [
+
+    "IFtaCaL"                 `verb`    {- <i_d_dakar> -}      [ ['r','e','m','e','m','b','e','r'] ] ]
 
 
 cluster_38  = cluster

@@ -702,7 +702,7 @@ cluster_34  = cluster
     FaCaL                     `verb`    {- <.gafar> -}         [ ['f','o','r','g','i','v','e'] ]
                               `imperf`     FCiL
                               `masdar`     FaCL
-                              `masdar`     MaFCIL |< aT
+                              `masdar`     MaFCiL |< aT
                               `masdar`     FuCLAn,
 
     IFtaCaL                   `verb`    {- <i.gtafar> -}       [ ['f','o','r','g','i','v','e'] ],

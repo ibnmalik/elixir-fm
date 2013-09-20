@@ -379,7 +379,7 @@ lexicon = listing "Extended lexicon"
 
         "li-" >>| "'an"             `conj`              [ unwords [ "in", "order", "to" ] ],
 
-        "li-" >>| "'an" |<< "lA"    `conj`              [ unwords [ "in", "order", "not", "to"  ] ],
+        "li-" >>| "'an" |<< "lA"    `conj`              [ unwords [ "in", "order", "not", "to" ] ],
 
         "'an" |<< "na"              `conj`              [ "that" ]
 

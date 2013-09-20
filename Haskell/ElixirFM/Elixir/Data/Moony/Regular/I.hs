@@ -781,10 +781,12 @@ cluster_37  = cluster
  |> "_h .t f" <| [
 
     FaCiL                     `verb`    {- <_ha.tif> -}        [ ['a','b','d','u','c','t'], ['c','a','t','c','h'] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FaCL,
 
     FaCaL                     `verb`    {- <_ha.taf> -}        [ ['a','b','d','u','c','t'], ['c','a','t','c','h'], unwords [ ['b','e'], ['c','a','u','g','h','t'] ] ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `masdar`     FaCL,
 
     TaFaCCaL                  `verb`    {- <ta_ha.t.taf> -}    [ ['g','r','a','b'], ['s','n','a','t','c','h'], unwords [ ['c','a','r','r','y'], ['a','w','a','y'] ] ],
 

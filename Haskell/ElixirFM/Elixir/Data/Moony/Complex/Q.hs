@@ -623,7 +623,8 @@ cluster_56  = cluster
  |> "y q .z" <| [
 
     FaCiL                     `verb`    {- <yaqi.z> -}         [ unwords [ ['b','e'], ['a','w','a','k','e'] ], unwords [ ['b','e'], ['a','l','e','r','t'] ] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FaCaL,
 
     FaCuL                     `verb`    {- <yaqu.z> -}         [ unwords [ ['b','e'], ['a','w','a','k','e'] ], unwords [ ['b','e'], ['a','l','e','r','t'] ] ]
                               `imperf`     FCuL,

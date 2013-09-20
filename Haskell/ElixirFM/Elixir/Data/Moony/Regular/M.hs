@@ -1750,7 +1750,7 @@ cluster_87  = cluster
 
     FaCiL                     `verb`    {- <fa^sil> -}         [ ['f','a','i','l'], unwords [ ['b','e'], ['u','n','s','u','c','c','e','s','s','f','u','l'] ] ]
                               `imperf`     FCaL
-                              `masdar`     FaCAL,
+                              `masdar`     FaCaL,
 
     HaFCaL                    `verb`    {- <'af^sal> -}        [ ['t','h','w','a','r','t'], ['f','r','u','s','t','r','a','t','e'] ],
 

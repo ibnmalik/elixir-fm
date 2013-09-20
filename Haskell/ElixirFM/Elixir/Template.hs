@@ -584,6 +584,7 @@ reduce = map head . group . trims . words
                     | y `elem` ["'an", "'in"] = []
                     | otherwise = [ z | z <- units y, z `notElem` skips ++ fst omits ]
           trims [x, y, "h"]     = [ z | z <- [x, y],  z `notElem` skips ]
+          trims ["'", "n"]      = []
           trims x               = [ z | z <- x,       z `notElem` skips ]
 
 

@@ -549,7 +549,9 @@ cluster_24  = cluster
  |> ".h _d r" <| [
 
     FaCiL                     `verb`    {- <.ha_dir> -}        [ unwords [ ['b','e'], ['c','a','u','t','i','o','u','s'] ], ['b','e','w','a','r','e'] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FaCaL
+                              `masdar`     FiCL,
 
     FaCCaL                    `verb`    {- <.ha_d_dar> -}      [ ['w','a','r','n'], ['c','a','u','t','i','o','n'] ],
 

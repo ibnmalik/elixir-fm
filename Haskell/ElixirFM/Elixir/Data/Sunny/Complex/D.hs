@@ -1299,6 +1299,33 @@ cluster_60  = cluster
 
  |> "s w d" <| [
 
+    FAL                       `verb`    {- <sAd> -}            [ ['p','r','e','v','a','i','l'], unwords [ ['b','e'], ['p','r','e','d','o','m','i','n','a','n','t'] ], ['r','u','l','e'], ['g','o','v','e','r','n'] ]
+                              `imperf`     FUL
+                              `masdar`     FiyAL |< aT,
+
+    Fu'LuL                    `noun`    {- <su'dud> -}         [ ['d','o','m','i','n','i','o','n'], ['s','o','v','e','r','e','i','g','n','t','y'] ],
+
+    FA'iL                     `adj`     {- <sA'id> -}          [ ['p','r','e','v','a','i','l','i','n','g'], ['d','o','m','i','n','a','n','t'], ['r','u','l','i','n','g'] ],
+
+    FayyiL                    `noun`    {- <sayyid> -}         [ ['S','i','r'], ['M','r','.'], ['M','i','s','t','e','r'], ['g','e','n','t','l','e','m','a','n'] ]
+                              `plural`     HaFyAL
+                              `plural`     FAL |< aT,
+
+    FayyiL                    `noun`    {- <sayyid> -}         [ ['S','a','y','y','i','d'] ],
+
+    FAL |< At                 `noun`    {- <sAdAt> -}          [ ['S','a','d','a','t'] ],
+
+    FayyiL |< aT              `noun`    {- <sayyidaT> -}       [ ['M','i','s','s'], ['M','r','s','.'], ['M','s','.'], ['l','a','d','y'] ]
+                              `plural`     FayyiL |< At,
+
+    FayyiL |< aT              `noun`    {- <sayyidaT> -}       [ ['S','a','y','y','i','d','a'] ],
+
+    FiyAL |< aT               `noun`    {- <siyAdaT> -}        [ ['s','o','v','e','r','e','i','g','n','t','y'], ['s','u','p','r','e','m','a','c','y'], ['E','x','c','e','l','l','e','n','c','y'] ],
+
+    FiyAL |< Iy               `adj`     {- <siyAdIy> -}        [ ['s','o','v','e','r','e','i','g','n'], ['j','u','r','i','s','d','i','c','t','i','o','n','a','l'] ] ]
+
+ |> "s w d" <| [
+
     FaCCaL                    `verb`    {- <sawwad> -}         [ ['b','l','a','c','k','e','n'] ],
 
     IFCaLL                    `verb`    {- <iswadd> -}         [ unwords [ ['b','e','c','o','m','e'], ['b','l','a','c','k'] ] ],
@@ -1326,33 +1353,6 @@ cluster_60  = cluster
     MuFCaLL |< aT             `noun`    {- <muswaddaT> -}      [ unwords [ ['r','o','u','g','h'], ['d','r','a','f','t'] ] ],
 
     FULAn                     `noun`    {- <sUdAn> -}          [ ['S','u','d','a','n'] ] ]
-
- |> "s w d" <| [
-
-    FAL                       `verb`    {- <sAd> -}            [ ['p','r','e','v','a','i','l'], unwords [ ['b','e'], ['p','r','e','d','o','m','i','n','a','n','t'] ], ['r','u','l','e'], ['g','o','v','e','r','n'] ]
-                              `imperf`     FUL
-                              `masdar`     FiyAL |< aT,
-
-    Fu'LuL                    `noun`    {- <su'dud> -}         [ ['d','o','m','i','n','i','o','n'], ['s','o','v','e','r','e','i','g','n','t','y'] ],
-
-    FA'iL                     `adj`     {- <sA'id> -}          [ ['p','r','e','v','a','i','l','i','n','g'], ['d','o','m','i','n','a','n','t'], ['r','u','l','i','n','g'] ],
-
-    FayyiL                    `noun`    {- <sayyid> -}         [ ['S','i','r'], ['M','r','.'], ['M','i','s','t','e','r'], ['g','e','n','t','l','e','m','a','n'] ]
-                              `plural`     HaFyAL
-                              `plural`     FAL |< aT,
-
-    FayyiL                    `noun`    {- <sayyid> -}         [ ['S','a','y','y','i','d'] ],
-
-    FAL |< At                 `noun`    {- <sAdAt> -}          [ ['S','a','d','a','t'] ],
-
-    FayyiL |< aT              `noun`    {- <sayyidaT> -}       [ ['M','i','s','s'], ['M','r','s','.'], ['M','s','.'], ['l','a','d','y'] ]
-                              `plural`     FayyiL |< At,
-
-    FayyiL |< aT              `noun`    {- <sayyidaT> -}       [ ['S','a','y','y','i','d','a'] ],
-
-    FiyAL |< aT               `noun`    {- <siyAdaT> -}        [ ['s','o','v','e','r','e','i','g','n','t','y'], ['s','u','p','r','e','m','a','c','y'], ['E','x','c','e','l','l','e','n','c','y'] ],
-
-    FiyAL |< Iy               `adj`     {- <siyAdIy> -}        [ ['s','o','v','e','r','e','i','g','n'], ['j','u','r','i','s','d','i','c','t','i','o','n','a','l'] ] ]
 
 
 cluster_61  = cluster
