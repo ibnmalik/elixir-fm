@@ -86,7 +86,7 @@ instance Derive Lexeme TagsTypes where
 
 instance Derive Lexeme TagsType where
 
-    derive x y = case y of
+    derive x y = case expand y of
 
         TagsVerb z ->  derive x (reduce z)
         TagsNoun z ->  derive x (reduce z)
