@@ -201,8 +201,12 @@ entries r e = case entity e of
                   Verb _   _ _ _ _  _ _ -> [ y | (t, f) <- derive (Lexeme r e) [TagsNoun [],
                                                                                 TagsAdj  []], (_, Lexeme _ y) <- f ]
 
-                  Noun _ f _            -> [ e { morphs = m,
-                                                 entity = Noun [Morphs t p (At : tail s)] [] Nothing }
-                                             | m@(Morphs t p s) <- f ]
+                  Noun _ f _            -> [ e { morphs = m, entity = Noun [Morphs t p (feminine s)] [] Nothing }
+                                               | m@(Morphs t p s) <- f ]
 
                   _                     -> []
+
+              where feminine s = case s of
+
+                                     AT : r -> At : r
+                                     _      -> At : s

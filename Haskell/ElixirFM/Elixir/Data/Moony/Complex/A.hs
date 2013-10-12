@@ -958,10 +958,8 @@ cluster_65  = cluster
     FaCCaL                    `verb`    {- <'a.h.had> -}       [ ['u','n','i','t','e'], ['u','n','i','f','y'] ],
 
     FaCaL                     `noun`    {- <'a.had> -}         [ ['o','n','e'], ['s','o','m','e','o','n','e'] ]
-                              `plural`     HACAL,
-
-    FiCLY                     `noun`    {- <'i.hdY> -}         [ ['o','n','e'], ['s','o','m','e','o','n','e'] ]
-                              `plural`     FiCLY |< At,
+                              `plural`     HACAL
+                              `femini`     FiCLY,
 
     FaCaL                     `noun`    {- <'a.had> -}         [ ['u','n','i','t'] ]
                               `plural`     HACAL,
