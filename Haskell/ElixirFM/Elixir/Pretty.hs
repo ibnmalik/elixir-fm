@@ -1,7 +1,7 @@
 -- |
 --
 -- Module      :  Elixir.Pretty
--- Copyright   :  Otakar Smrz 2005-2012
+-- Copyright   :  Otakar Smrz 2005-2013
 -- License     :  GPL
 --
 -- Maintainer  :  otakar-smrz users.sf.net
@@ -21,7 +21,11 @@ module Elixir.Pretty (
 
         rows, cols, singleline, doubleline,
 
-        joinText, printPretty
+        joinText, printPretty,
+
+        element, elemtxt, elempty, elemesp, attrs,
+
+        nested, escape, escaqe
 
     ) where
 
@@ -85,3 +89,44 @@ rows = foldr f []
 
 
 -- http://www.cas.mcmaster.ca/~kahl/Haskell/Lines/
+
+
+element x y c = text ("<" ++ x) <> attrs y <> text ">"
+                <> nested c <>
+                text ("</" ++ x ++ ">")
+
+elemtxt x y c = text ("<" ++ x) <> attrs y <> text ">"
+                <> c <>
+                text ("</" ++ x ++ ">")
+
+elempty x y   = text ("<" ++ x) <> attrs y <> text "/>"
+
+elemesp x []  = elempty x []
+elemesp x y   = element x [] (vcat y)
+
+
+attrs y = foldl (</>) empty [ text a <> equals <> dquotes (text (escaqe v)) | (a, v) <- y ]
+
+
+nested c = nest 1 (linebreak <> c) <> linebreak
+
+
+escape :: String -> String
+escape = concatMap fixChar
+    where fixChar '<' = "&lt;"
+          fixChar '>' = "&gt;"
+          fixChar '&' = "&amp;"
+       -- fixChar '"' = "&quot;"
+          fixChar c = [c]
+       -- fixChar c | ord c < 0xff = [c]
+       -- fixChar c = "&#" ++ show (ord c) ++ ";"
+
+escaqe :: String -> String
+escaqe = concatMap fixChar
+    where fixChar '<' = "&lt;"
+          fixChar '>' = "&gt;"
+          fixChar '&' = "&amp;"
+          fixChar '"' = "&quot;"
+          fixChar c = [c]
+
+-- Text.XHtml.Internals.stringToHtmlString

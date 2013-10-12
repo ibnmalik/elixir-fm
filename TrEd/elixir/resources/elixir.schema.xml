@@ -86,6 +86,7 @@
             <element name="Noun">
                 <structure>
                     <member name="plural" type="Plural"/>
+                    <member name="femini" type="Femini"/>
                     <member name="except" type="Except"/>
                     <member name="gender" type="Gender"/>
                     <member name="derive" type="Derive"/>

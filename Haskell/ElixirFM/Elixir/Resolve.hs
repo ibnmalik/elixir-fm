@@ -73,8 +73,8 @@ instance Pretty (String, MorphoLists a) => Pretty [(String, MorphoLists a)] wher
 concise :: Show a => Entity a -> String
 
 concise (Verb _ p i c _ _ _) = unwords ["Verb", show p, show i, show c]
-concise (Noun l _ _ _)       = unwords ["Noun" , show l]
-concise (Adj  l f _)         = unwords ["Adj", show l, show f]
+concise (Noun l _ _)         = unwords ["Noun" , show l]
+concise (Adj  l f)           = unwords ["Adj", show l, show f]
 concise x                    = show x
 
 
@@ -345,10 +345,8 @@ instance Resolve String where
 
                   inflects y n (Nest r z) = [ z | (e, m) <- zip z [1 ..],
 
-                                (x, l) <- ((expand . domain) e, Lexeme r e) : derives r e,
-
-                                -- let x = (expand . domain) e,
-                                -- let l = Lexeme r e,
+                                let x = (expand . domain) e,
+                                let l = Lexeme r e,
 
                                 z <- (Map.foldWithKey (\ k x y -> (k, [foldl (flip ((:) . wrap)) [] x]) : y) []
 
@@ -359,12 +357,6 @@ instance Resolve String where
                                     [ (concat d, [Token (l, (n, m)) i t]) | (t, h) <- inflect l x, i <- h,
 
                                        let u = (units . uncurry merge) i, d <- y, u `q` d ] ]
-
-                  derives r e = [ (expand t, m) | (t, l) <- derive (Lexeme r e) (tags (entity e)), (_, m) <- l ]
-
-                                where tags (Verb [I] _ _ _ _ _ []) = [TagsAdj []]
-                                      tags (Verb _   _ _ _ _ _ _)  = [TagsNoun [], TagsAdj []]
-                                      tags _                       = []
 
 
     tokenize = nub . tokens''' . normalize
@@ -623,10 +615,8 @@ instance Resolve [UPoint] where
 
                   inflects y n (Nest r z) = [ z | (e, m) <- zip z [1 ..],
 
-                                (x, l) <- ((expand . domain) e, Lexeme r e) : derives r e,
-
-                                -- let x = (expand . domain) e,
-                                -- let l = Lexeme r e,
+                                let x = (expand . domain) e,
+                                let l = Lexeme r e,
 
                                 z <- (Map.foldWithKey (\ k x y -> (k, [foldl (flip ((:) . wrap)) [] x]) : y) []
 
@@ -639,12 +629,6 @@ instance Resolve [UPoint] where
                                         let f = uncurry merge i, let v = units f, let u = (units . c) f,
 
                                         (d, w) <- y, isSubsumed (flip b) approx w v, u `q` d ] ]
-
-                  derives r e = [ (expand t, m) | (t, l) <- derive (Lexeme r e) (tags (entity e)), (_, m) <- l ]
-
-                                where tags (Verb [I] _ _ _ _ _ []) = [TagsAdj []]
-                                      tags (Verb _   _ _ _ _ _ _)  = [TagsNoun [], TagsAdj []]
-                                      tags _                       = []
 
 
     tokenize = map (map (decode Tim)) . nub . tokens''' . normalize' . encode Tim

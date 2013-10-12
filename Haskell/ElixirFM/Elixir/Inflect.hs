@@ -1,7 +1,7 @@
 -- |
 --
 -- Module      :  Elixir.Inflect
--- Copyright   :  Otakar Smrz 2005-2012
+-- Copyright   :  Otakar Smrz 2005-2013
 -- License     :  GPL
 --
 -- Maintainer  :  otakar-smrz users.sf.net
@@ -14,7 +14,13 @@
 module Elixir.Inflect where
 
 
-import Elixir.Lexicon
+import Elixir.Template
+
+import Elixir.Patterns
+
+import Elixir.System
+
+import Elixir.Entity
 
 import Elixir.Derive
 
@@ -137,7 +143,7 @@ instance Inflect Lexeme TagsType where
 
 infoVerb r e = case entity e of
 
-    Verb fs ps is cs _ jv _ ->  ([ (f, z) | f <- fs,
+    Verb fs ps is cs _ _ jv ->  ([ (f, z) | f <- fs,
 
                                     let x =                                 siftVerb t Perfect v False (verbStems f r)
                                         y = if null ps then x else concat [ siftVerb p Perfect v True x | p <- ps ]
@@ -853,7 +859,7 @@ inflectVerb (Lexeme r e) x@(VerbP   v p g n) = paradigm (paraVerbP p g n)
 
           inEntry = case entity e of
 
-              Verb fs is _ _ jt jv _
+              Verb fs is _ _ _ jt jv
 
                 | maybe False (/= v) jv || maybe False (/= Perfect) jt -> []
 
@@ -888,7 +894,7 @@ inflectVerb (Lexeme r e) x@(VerbI m v p g n) = paradigm (paraVerbI m p g n)
 
           inEntry = case entity e of
 
-              Verb fs _ is _ jt jv _
+              Verb fs _ is _ _ jt jv
 
                 | maybe False (/= v) jv || maybe False (== Perfect) jt -> []
 
@@ -942,7 +948,7 @@ inflectVerb (Lexeme r e) x@(VerbC m     g n) = paradigm (paraVerbC m g n)
 
           inEntry = case entity e of
 
-              Verb fs _ ys is jt jv _
+              Verb fs _ ys is _ jt jv
 
                 | maybe False (/= Active) jv || maybe False (== Perfect) jt -> []
 
@@ -1193,13 +1199,13 @@ inflectNoun (Lexeme r e) (NounN n c s) = (map (inRules r c s x) . inEntry n) e
     where x = except e
 
 
-inEntry Plural e = case entity e of Noun l _ _ _ -> l
-                                    Num  l _     -> l
+inEntry Plural e = case entity e of Noun l _ _ -> l
+                                    Num  l _   -> l
 
-inEntry Dual   e = case entity e of Noun l _ _ _ | null l    -> []
-                                                 | otherwise -> [morphs e |< An]
-                                    Num  l _     | null l    -> []
-                                                 | otherwise -> [morphs e |< An]
+inEntry Dual   e = case entity e of Noun l _ _ | null l    -> []
+                                               | otherwise -> [morphs e |< An]
+                                    Num  l _   | null l    -> []
+                                               | otherwise -> [morphs e |< An]
 
 inEntry _ e = [morphs e]
 
@@ -1252,9 +1258,9 @@ inEntry' Masculine n e = case n of Plural -> y
                                    Dual   -> [morphs e |< An]
                                    _      -> [morphs e]
 
-    where y = case entity e of Adj  l _ _ | null l    -> [morphs e |< Un]
-                                          | otherwise -> l
-                               _                      -> []
+    where y = case entity e of Adj  l _ | null l    -> [morphs e |< Un]
+                                        | otherwise -> l
+                               _                    -> []
 
 inEntry' Feminine  n e = case n of Plural | null y    -> [morphs e |< At]
                                           | otherwise -> [ i |< At | i <- y ]
@@ -1263,9 +1269,9 @@ inEntry' Feminine  n e = case n of Plural | null y    -> [morphs e |< At]
                                    _      | null y    -> [morphs e |< aT]
                                           | otherwise -> [ i | i <- y ]
 
-    where y = case entity e of Adj  _ f _ -> f
-                               Num  _ f   -> f
-                               _          -> []
+    where y = case entity e of Adj  _ f -> f
+                               Num  _ f -> f
+                               _        -> []
 
 
 prefix :: Morphing a b => String -> a -> Morphs b

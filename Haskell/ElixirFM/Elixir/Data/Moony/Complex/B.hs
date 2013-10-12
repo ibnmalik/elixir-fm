@@ -31,8 +31,7 @@ cluster_2   = cluster
 
     MuFaCCiL                  `noun`    {- <mu'arri_h> -}      [ ['h','i','s','t','o','r','i','a','n'], ['c','h','r','o','n','i','c','l','e','r'] ]
                               `plural`     MuFaCCiL |< Un
-                           
-    `derives` otherwise,
+                              `femini`     MuFaCCiL |< aT,
 
     MuFaCCaL                  `adj`     {- <mu'arra_h> -}      [ ['d','a','t','e','d'], ['r','e','p','o','r','t','e','d'] ] ]
 
@@ -92,8 +91,7 @@ cluster_8   = cluster
 
     _____ |< Iy               `noun`    {- <'aristuqrA.tIy> -} [ ['a','r','i','s','t','o','c','r','a','t'] ]
                               `plural`     _____ |< Iy |< Un
-                           
-    `derives` otherwise,
+                              `femini`     _____ |< Iy |< aT,
 
     _____ |< Iy |< aT         `noun`    {- <'aristuqrA.tIyaT> -} [ ['a','r','i','s','t','o','c','r','a','c','y'] ] ]
 
@@ -181,8 +179,7 @@ cluster_16  = cluster
 
     _____ |< Iy               `noun`    {- <'UrU.gUyAnIy> -}   [ ['U','r','u','g','u','a','y','a','n'] ]
                               `plural`     _____ |< Iy |< Un
-                           
-    `derives` otherwise ]
+                              `femini`     _____ |< Iy |< aT ]
 
 
 cluster_17  = cluster
@@ -268,8 +265,7 @@ cluster_22  = cluster
 
     _____ |< Iy               `noun`    {- <'IrAnIy> -}        [ ['I','r','a','n','i','a','n'] ]
                               `plural`     _____ |< Iy |< Un
-                           
-    `derives` otherwise,
+                              `femini`     _____ |< Iy |< aT,
 
     _____ |< Iy               `adj`     {- <'IrAnIy> -}        [ ['I','r','a','n','i','a','n'] ] ]
 
@@ -377,8 +373,7 @@ cluster_32  = cluster
 
     _____ |< Iy               `noun`    {- <'ar^gantInIy> -}   [ ['A','r','g','e','n','t','i','n','e'] ]
                               `plural`     _____ |< Iy |< Un
-                           
-    `derives` otherwise ]
+                              `femini`     _____ |< Iy |< aT ]
 
 
 cluster_33  = cluster
@@ -447,8 +442,7 @@ cluster_39  = cluster
 
     _____ |< Iy               `noun`    {- <'urdunnIy> -}      [ ['J','o','r','d','a','n','i','a','n'] ]
                               `plural`     _____ |< Iy |< Un
-                           
-    `derives` otherwise ]
+                              `femini`     _____ |< Iy |< aT ]
 
 
 cluster_40  = cluster
@@ -514,8 +508,7 @@ cluster_47  = cluster
 
     _____ |< Iy               `noun`    {- <'IrlandIy> -}      [ ['I','r','i','s','h'] ]
                               `plural`     _____ |< Iy |< Un
-                           
-    `derives` otherwise,
+                              `femini`     _____ |< Iy |< aT,
 
     _____ |< Iy               `adj`     {- <'IrlandIy> -}      [ ['I','r','i','s','h'] ] ]
 
@@ -525,8 +518,7 @@ cluster_47  = cluster
 
     _____ |< Iy               `noun`    {- <'irlandIy> -}      [ ['I','r','i','s','h'] ]
                               `plural`     _____ |< Iy |< Un
-                           
-    `derives` otherwise,
+                              `femini`     _____ |< Iy |< aT,
 
     _____ |< Iy               `adj`     {- <'irlandIy> -}      [ ['I','r','i','s','h'] ] ]
 
@@ -539,8 +531,7 @@ cluster_48  = cluster
 
     _____ |< Iy               `noun`    {- <'armInIy> -}       [ ['A','r','m','e','n','i','a','n'] ]
                               `plural`     _____ |< Iy |< Un
-                           
-    `derives` otherwise,
+                              `femini`     _____ |< Iy |< aT,
 
     _____ |< Iy               `adj`     {- <'armInIy> -}       [ ['A','r','m','e','n','i','a','n'] ] ]
 
@@ -549,8 +540,7 @@ cluster_48  = cluster
     _____ |< Iy               `noun`    {- <'armanIy> -}       [ ['A','r','m','e','n','i','a','n'] ]
                               `plural`     _____ |< Iy |< Un
                               `plural`     _____
-                           
-    `derives` otherwise,
+                              `femini`     _____ |< Iy |< aT,
 
     _____ |< Iy               `adj`     {- <'armanIy> -}       [ ['A','r','m','e','n','i','a','n'] ]
                               `plural`     _____ ]
@@ -563,8 +553,7 @@ cluster_49  = cluster
     _____ |< Iy               `noun`    {- <'arnAwu.tIy> -}    [ ['A','l','b','a','n','i','a','n'] ]
                               `plural`     _____ |< Iy |< Un
                               `plural`     _____
-                           
-    `derives` otherwise,
+                              `femini`     _____ |< Iy |< aT,
 
     _____ |< Iy               `adj`     {- <'arnAwu.tIy> -}    [ ['A','l','b','a','n','i','a','n'] ] ]
 
@@ -659,8 +648,7 @@ cluster_55  = cluster
 
     MuFtaCiL                  `noun`    {- <mu'tazir> -}       [ ['s','u','p','p','o','r','t','e','r'] ]
                               `plural`     MuFtaCiL |< Un
-                           
-    `derives` otherwise ]
+                              `femini`     MuFtaCiL |< aT ]
 
 
 cluster_56  = cluster
@@ -744,8 +732,7 @@ cluster_61  = cluster
 
     MaFCUL                    `noun`    {- <ma'zUm> -}         [ unwords [ ['c','r','i','s','i','s'], ['v','i','c','t','i','m'] ] ]
                               `plural`     MaFCUL |< Un
-                           
-    `derives` otherwise,
+                              `femini`     MaFCUL |< aT,
 
     MaFCUL                    `adj`     {- <ma'zUm> -}         [ ['c','r','i','t','i','c','a','l'], ['c','h','a','g','r','i','n','e','d'] ],
 
@@ -808,8 +795,7 @@ cluster_67  = cluster
 
     _____ |< Iy               `noun`    {- <'UzbakistAnIy> -}  [ ['U','z','b','e','k','i','s','t','a','n','i'] ]
                               `plural`     _____ |< Iy |< Un
-                           
-    `derives` otherwise ]
+                              `femini`     _____ |< Iy |< aT ]
 
 
 cluster_68  = cluster
@@ -852,8 +838,7 @@ cluster_71  = cluster
     KuRDAS                    `noun`    {- <'ustA_d> -}        [ ['p','r','o','f','e','s','s','o','r'] ]
                               `plural`     KaRADIS
                               `plural`     KaRADiS |< aT
-                           
-    `derives` otherwise,
+                              `femini`     KuRDAS |< aT,
 
     KuRDAS |< Iy              `adj`     {- <'ustA_dIy> -}      [ ['p','r','o','f','e','s','s','o','r','i','a','l'] ],
 
@@ -948,8 +933,7 @@ cluster_78  = cluster
                               `plural`     FaCLY
                               `plural`     FuCaLA'
                               `plural`     FaCALY
-                           
-    `derives` otherwise,
+                              `femini`     FaCIL |< aT,
 
     TaFCIL                    `noun`    {- <ta'sIr> -}         [ unwords [ ['w','e','b','b','i','n','g'], "(", ['c','h','a','i','r'], ")" ] ]
                               `plural`     TaFCIL |< At,

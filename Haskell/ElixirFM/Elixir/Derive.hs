@@ -1,7 +1,7 @@
 -- |
 --
 -- Module      :  Elixir.Derive
--- Copyright   :  Otakar Smrz 2005-2012
+-- Copyright   :  Otakar Smrz 2005-2013
 -- License     :  GPL
 --
 -- Maintainer  :  otakar-smrz users.sf.net
@@ -14,7 +14,13 @@
 module Elixir.Derive where
 
 
-import Elixir.Lexicon
+import Elixir.Template
+
+import Elixir.Patterns
+
+import Elixir.System
+
+import Elixir.Entity
 
 import Elixir.Pretty
 
@@ -128,7 +134,7 @@ instance Derive Lexeme TagsNoun where
 
                                                let z = Lexeme r (m `noun` (reflex e)) ] ]
 
-            where Verb fs _ _ _ _ _ ms = entity e
+            where Verb fs _ _ _ ms _ _ = entity e
 
     derive (Lexeme r e) x = [ (y, z) |
 
@@ -175,9 +181,9 @@ lookupForm r e = case entity e of
 
         Verb fs _ _ _ _ _ _ -> fs
 
-        Noun _ _ _ _        -> [ f | f <- [I ..], or [ p == b || p == c || m == d | (_, b, c, d) <- nounStems f r ] ]
+        Noun _ _ _          -> [ f | f <- [I ..], or [ p == b || p == c || m == d | (_, b, c, d) <- nounStems f r ] ]
 
-        Adj  _ _ _          -> [ f | f <- [I ..], or [ p == b || p == c           | (_, b, c, _) <- nounStems f r ] ]
+        Adj  _ _            -> [ f | f <- [I ..], or [ p == b || p == c           | (_, b, c, _) <- nounStems f r ] ]
 
         _                   -> []
 

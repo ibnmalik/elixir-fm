@@ -91,8 +91,7 @@ cluster_4   = cluster
 
     _____ |< Iy               `noun`    {- <dirAmAtUr^gIy> -}  [ ['d','r','a','m','a','t','u','r','g','i','s','t'] ]
                               `plural`     _____ |< Iy |< Un
-                           
-    `derives` otherwise ]
+                              `femini`     _____ |< Iy |< aT ]
 
 
 cluster_5   = cluster
@@ -129,8 +128,7 @@ cluster_6   = cluster
 
     MutaFaCCiL                `noun`    {- <mutadarrin> -}     [ unwords [ ['t','u','b','e','r','c','u','l','o','s','i','s'], ['p','a','t','i','e','n','t'] ] ]
                               `plural`     MutaFaCCiL |< Un
-                           
-    `derives` otherwise ]
+                              `femini`     MutaFaCCiL |< aT ]
 
 
 cluster_7   = cluster
@@ -613,8 +611,7 @@ cluster_41  = cluster
 
     MuFACiL                   `noun`    {- <mudAfi`> -}        [ ['d','e','f','e','n','d','e','r'], ['a','d','v','o','c','a','t','e'] ]
                               `plural`     MuFACiL |< Un
-                           
-    `derives` otherwise ]
+                              `femini`     MuFACiL |< aT ]
 
 
 cluster_42  = cluster
@@ -763,8 +760,7 @@ cluster_53  = cluster
 
     KuRDUS                    `noun`    {- <duktUr> -}         [ ['d','o','c','t','o','r'] ]
                               `plural`     KaRADiS |< aT
-                           
-    `derives` otherwise,
+                              `femini`     KuRDUS |< aT,
 
     KuRDUS |<< "Ah"           `noun`    {- <duktUrAh> -}       [ ['d','o','c','t','o','r','a','t','e'] ] ]
 
@@ -1257,8 +1253,7 @@ cluster_89  = cluster
 
     _____ |< Iy               `noun`    {- <dImU.grAfIy> -}    [ ['d','e','m','o','g','r','a','p','h','e','r'] ]
                               `plural`     _____ |< Iy |< Un
-                           
-    `derives` otherwise ]
+                              `femini`     _____ |< Iy |< aT ]
 
 
 cluster_90  = cluster
@@ -1357,8 +1352,7 @@ cluster_95  = cluster
 
     MuFCiL                    `noun`    {- <mudmin> -}         [ ['a','d','d','i','c','t'] ]
                               `plural`     MuFCiL |< Un
-                           
-    `derives` otherwise,
+                              `femini`     MuFCiL |< aT,
 
     MuFCiL                    `adj`     {- <mudmin> -}         [ ['a','d','d','i','c','t','e','d'], ['d','e','v','o','t','e','d'] ] ]
 

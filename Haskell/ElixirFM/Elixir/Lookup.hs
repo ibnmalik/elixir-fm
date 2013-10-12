@@ -118,7 +118,7 @@ instance Pretty Clips where
 
 display :: Morphing a a => Entity a -> [(String, [Morphs a])]
 
-display x = case x of     Verb f p i c t v m  ->
+display x = case x of     Verb f p i c m t v  ->
 
                                 eraseEmpty p [("-P--------", map morph p)]
                                 ++
@@ -128,11 +128,11 @@ display x = case x of     Verb f p i c t v m  ->
                                 ++
                                 eraseEmpty m [("N---------", m)]
 
-                          Noun l e g d        ->
+                          Noun l f e          ->
 
                                 eraseEmpty l [("-------P--", l)]
 
-                          Adj  l f n          ->
+                          Adj  l f            ->
 
                                 eraseEmpty l [("-------P--", l)]
                                 ++
@@ -314,9 +314,9 @@ instance Lookup Form where
 
                         Verb fs _ _ _ _ _ _ -> or [ x == f | f <- fs ]
 
-                        Noun _ _ _ _        -> or [ any (morphs e ==) [morph b, morph c, d] | (_, b, c, d) <- nounStems x r ]
+                        Noun _ _ _          -> or [ any (morphs e ==) [morph b, morph c, d] | (_, b, c, d) <- nounStems x r ]
 
-                        Adj  _ _ _          -> or [ any (morphs e ==) [morph b, morph c]    | (_, b, c, _) <- nounStems x r ]
+                        Adj  _ _            -> or [ any (morphs e ==) [morph b, morph c]    | (_, b, c, _) <- nounStems x r ]
 
                         _                   -> or []
 

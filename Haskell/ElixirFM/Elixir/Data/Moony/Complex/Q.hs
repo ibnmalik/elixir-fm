@@ -189,8 +189,7 @@ cluster_15  = cluster
     FaCIL                     `noun`    {- <yatIm> -}          [ ['o','r','p','h','a','n'], ['u','n','i','q','u','e'] ]
                               `plural`     HaFCAL
                               `plural`     FaCALY
-                           
-    `derives` otherwise,
+                              `femini`     FaCIL |< aT,
 
     MaFCaL                    `noun`    {- <maytam> -}         [ ['o','r','p','h','a','n','a','g','e'] ]
                               `plural`     MaFACiL,
@@ -267,8 +266,7 @@ cluster_23  = cluster
     FaCaL                     `noun`    {- <yara`> -}          [ ['c','o','w','a','r','d','l','i','n','e','s','s'] ],
 
     FaCAL                     `noun`    {- <yarA`> -}          [ unwords [ ['r','e','e','d'], ['p','e','n'] ], ['f','i','r','e','f','l','y'] ]
-                           
-    `derives` otherwise,
+                              `femini`     FaCAL |< aT,
 
     FaCAL                     `adj`     {- <yarA`> -}          [ ['c','o','w','a','r','d','l','y'] ] ]
 
@@ -921,8 +919,7 @@ cluster_72  = cluster
 
     MuFACaL                   `noun`    {- <muyAwam> -}        [ unwords [ ['d','a','y'], ['l','a','b','o','r','e','r'] ] ]
                               `plural`     MuFACaL |< Un
-                           
-    `derives` otherwise ]
+                              `femini`     MuFACaL |< aT ]
 
 
 cluster_73  = cluster

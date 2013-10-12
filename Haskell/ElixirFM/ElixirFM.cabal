@@ -9,7 +9,7 @@ maintainer:         otakar-smrz users.sf.net
 homepage:           http://otakar-smrz.users.sf.net/
 package-url:        http://sourceforge.net/projects/elixir-fm/
 category:           Text, Natural Language Processing
-build-depends:      Encode, Cabal, base, containers, wl-pprint > 1.0
+build-depends:      Encode, Cabal, base < 5.0, containers, wl-pprint > 1.0
 build-type:         Simple
 synopsis:           Functional Arabic Morphology
 description:        The "ElixirFM" library implements a computational model of the morphological
@@ -42,14 +42,9 @@ exposed-modules:    ElixirFM,
                                 Elixir.Data.Sunny.Regular,
                         Elixir.Compose,
                         Elixir.Derive,
+                        Elixir.Entity,
                         Elixir.Inflect,
                         Elixir.Lexicon,
-                            Elixir.Lexicon.Pretty,
-                                --  Elixir.Lexicon.Pretty.Haskell,
-                                --  Elixir.Lexicon.Pretty.LaTeX,
-                                --  Elixir.Lexicon.Pretty.Perl,
-                                Elixir.Lexicon.Pretty.XML,
-                            Elixir.Lexicon.System,
                         Elixir.Lookup,
                         Elixir.Patterns,
                             Elixir.Patterns.Literal,
@@ -268,14 +263,9 @@ other-modules:      ElixirFM,
                                     Elixir.Data.Sunny.Regular.R,
                         Elixir.Compose,
                         Elixir.Derive,
+                        Elixir.Entity,
                         Elixir.Inflect,
                         Elixir.Lexicon,
-                            Elixir.Lexicon.Pretty,
-                                --  Elixir.Lexicon.Pretty.Haskell,
-                                --  Elixir.Lexicon.Pretty.LaTeX,
-                                --  Elixir.Lexicon.Pretty.Perl,
-                                Elixir.Lexicon.Pretty.XML,
-                            Elixir.Lexicon.System,
                         Elixir.Lookup,
                         Elixir.Patterns,
                             Elixir.Patterns.Literal,
