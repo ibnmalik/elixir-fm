@@ -127,7 +127,7 @@ sub change_entity_N {
 
     my $new = change_entity('Noun', Treex::PML::Factory->createStructure());
 
-    foreach (qw 'plural gender number derive') {
+    foreach (qw 'plural femini') {
 
         $new->{$_} = $old->{$_} if exists $old->{$_};
     }
@@ -139,7 +139,10 @@ sub change_entity_N {
             $new->{'plural'} = Treex::PML::Factory->createList([$this->{'morphs'} . ' |< Un']);
         }
 
-        $new->{'derive'} = '------F---';
+        unless (exists $new->{'femini'} and @{$new->{'femini'}}) {
+
+            $new->{'femini'} = Treex::PML::Factory->createList([$this->{'morphs'} . ' |< aT']);
+        }
     }
 
     ChangingFile(1);
@@ -156,7 +159,7 @@ sub change_entity_A {
 
     my $new = change_entity('Adj', Treex::PML::Factory->createStructure());
 
-    foreach (qw 'plural femini number') {
+    foreach (qw 'plural femini') {
 
         $new->{$_} = $old->{$_} if exists $old->{$_};
     }
@@ -164,6 +167,11 @@ sub change_entity_A {
     if (exists $new->{'plural'} and @{$new->{'plural'}} == 1) {
 
         delete $new->{'plural'} if $new->{'plural'}[0] eq $this->{'morphs'} . ' |< Un';
+    }
+
+    if (exists $new->{'femini'} and @{$new->{'femini'}} == 1) {
+
+        delete $new->{'femini'} if $new->{'femini'}[0] eq $this->{'morphs'} . ' |< aT';
     }
 
     ChangingFile(1);
@@ -274,10 +282,7 @@ sub enforce_literal {
 
         $_ =~ s/^((?:.+\>\| )?)[^ ]+((?: \|\<.+)?)$/$1_____$2/
 
-            foreach $_->{'morphs'},
-                    exists $_->{'entity'} ?
-                    ((exists $_->{'entity'}[0][0][1]{'plural'} ? @{$_->{'entity'}[0][0][1]{'plural'}} : ()),
-                     (exists $_->{'entity'}[0][0][1]{'femini'} ? @{$_->{'entity'}[0][0][1]{'femini'}} : ())) : ();
+            foreach $_->{'morphs'}, ElixirFM::plurals($_), ElixirFM::feminis($_);
     }
 
     ChangingFile(1);
@@ -309,10 +314,7 @@ sub enforce_string {
 
         $_ =~ s/^((?:.+\>\| )?)[^ ]+((?: \|\<.+)?)$/$1"$node->{'root'}"$2/
 
-            foreach $_->{'morphs'},
-                    exists $_->{'entity'} ?
-                    ((exists $_->{'entity'}[0][0][1]{'plural'} ? @{$_->{'entity'}[0][0][1]{'plural'}} : ()),
-                     (exists $_->{'entity'}[0][0][1]{'femini'} ? @{$_->{'entity'}[0][0][1]{'femini'}} : ())) : ();
+            foreach $_->{'morphs'}, ElixirFM::plurals($_), ElixirFM::feminis($_);
     }
 
     $node->{'root'} = join ' ', split /(?<![._^,])/, $node->{'root'};
@@ -337,9 +339,7 @@ sub enforce_variant {
 
     foreach ($node->children()) {
 
-        foreach ($_->{'morphs'}, exists $_->{'entity'} ?
-                    ((exists $_->{'entity'}[0][0][1]{'plural'} ? @{$_->{'entity'}[0][0][1]{'plural'}} : ()),
-                     (exists $_->{'entity'}[0][0][1]{'femini'} ? @{$_->{'entity'}[0][0][1]{'femini'}} : ())) : ()) {
+        foreach ($_->{'morphs'}, ElixirFM::plurals($_), ElixirFM::feminis($_)) {
 
             my $morphs = ElixirFM::morphs($_);
 

@@ -44,4 +44,4 @@ revised :: String -> Version
 revised revision = fst . last . readP_to_S parseVersion $ words revision !! 1
 
 
-version = Version [1, 2, 1] ["October 2013"]
+version = Version [1, 2, 1] ["December 2013"]

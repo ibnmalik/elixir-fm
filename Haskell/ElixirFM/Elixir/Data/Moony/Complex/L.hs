@@ -28,7 +28,7 @@ cluster_2   = cluster
 
     FACaL                     `verb`    {- <qAwam> -}          [ ['r','e','s','i','s','t'], ['o','p','p','o','s','e'] ],
 
-    HaFAL                     `verb`    {- <'aqAm> -}          [ ['i','n','s','t','a','l','l'], ['e','s','t','a','b','l','i','s','h'], ['e','r','e','c','t'], unwords [ ['t','a','k','e'], ['p','l','a','c','e'] ] ],
+    HaFAL                     `verb`    {- <'aqAm> -}          [ ['i','n','s','t','a','l','l'], ['e','s','t','a','b','l','i','s','h'], ['e','r','e','c','t'], unwords [ ['t','a','k','e'], ['p','l','a','c','e'] ], ['r','e','s','i','d','e'], ['l','i','v','e'] ],
 
     IstaFAL                   `verb`    {- <istaqAm> -}        [ unwords [ ['b','e'], ['s','t','r','a','i','g','h','t'] ], unwords [ ['b','e'], ['r','i','g','h','t'] ] ],
 

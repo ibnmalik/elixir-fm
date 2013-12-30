@@ -916,7 +916,8 @@ cluster_78  = cluster
  |> "' s r" <| [
 
     FaCaL                     `verb`    {- <'asar> -}          [ ['c','a','p','t','u','r','e'], unwords [ ['t','a','k','e'], ['p','r','i','s','o','n','e','r'] ] ]
-                              `imperf`     FCiL,
+                              `imperf`     FCiL
+                              `masdar`     FaCL,
 
     IstaFCaL                  `verb`    {- <ista'sar> -}       [ ['s','u','r','r','e','n','d','e','r'] ],
 

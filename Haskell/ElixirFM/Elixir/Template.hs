@@ -1,7 +1,7 @@
 -- |
 --
 -- Module      :  Elixir.Template
--- Copyright   :  Otakar Smrz 2005-2012
+-- Copyright   :  Otakar Smrz 2005-2013
 -- License     :  GPL
 --
 -- Maintainer  :  otakar-smrz users.sf.net
@@ -182,17 +182,17 @@ isClosed _ = True
 
 'A' -<- x = case x of   AT      -> "AT"
                         Iy      -> "awIy"   -- "AwIy"
-                        Un      -> "awn"
-                        In      -> "ayn"
+                        -- Un      -> "awn"
+                        -- In      -> "ayn"
 
                         Suffix ""       -> "a"
 
-                        Suffix "Una"    -> "awna"
-                        Suffix "U"      -> "aw"
+                        -- Suffix "Una"    -> "awna"
+                        -- Suffix "U"      -> "aw"
                         Suffix "UW"     -> "aW"
 
-                        Suffix "Ina"    -> "ayna"
-                        Suffix "I"      -> "ay"
+                        -- Suffix "Ina"    -> "ayna"
+                        -- Suffix "I"      -> -- "ay"
 
                         Suffix x | x `elem` ["a",  "i",  "u"]  -> "A"
                                  | x `elem` ["aN", "iN", "uN"] -> "aN"

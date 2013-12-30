@@ -484,7 +484,8 @@ cluster_43  = cluster
 
  |> "' w f" <| [
 
-    FAL |< aT                 `noun`    {- <'AfaT> -}          [ ['v','i','c','e'], ['p','l','a','g','u','e'] ],
+    FAL |< aT                 `noun`    {- <'AfaT> -}          [ ['v','i','c','e'], ['p','l','a','g','u','e'] ]
+                              `plural`     FAL |< At,
 
     MaFUL                     `adj`     {- <ma'Uf> -}          [ ['d','a','m','a','g','e','d'], ['e','p','i','d','e','m','i','c','a','l'] ] ]
 
@@ -518,7 +519,9 @@ cluster_45  = cluster
  |> "' w l" <| [
 
     FAL                       `verb`    {- <'Al> -}            [ ['a','r','r','i','v','e'], ['l','e','a','d'], ['r','e','t','u','r','n'] ]
-                              `imperf`     FUL,
+                              `imperf`     FUL
+                              `masdar`     FaCL
+                              `masdar`     maFAL,
 
     FaCCaL                    `verb`    {- <'awwal> -}         [ ['e','x','p','l','a','i','n'], ['i','n','t','e','r','p','r','e','t'] ],
 
@@ -604,7 +607,8 @@ cluster_48  = cluster
  |> "' y n" <| [
 
     FAL                       `verb`    {- <'An> -}            [ ['a','r','r','i','v','e'], ['a','p','p','r','o','a','c','h'] ]
-                              `imperf`     FIL ]
+                              `imperf`     FIL
+                              `masdar`     FaCL ]
 
 
 cluster_49  = cluster

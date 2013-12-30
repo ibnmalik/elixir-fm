@@ -1113,7 +1113,8 @@ cluster_48  = cluster
     HiCL                      `noun`    {- <'ir_t> -}          [ ['i','n','h','e','r','i','t','a','n','c','e'], ['h','e','r','i','t','a','g','e'], ['l','e','g','a','c','y'] ],
 
     FaCiL                     `verb`    {- <wari_t> -}         [ ['i','n','h','e','r','i','t'] ]
-                              `imperf`     CiL,
+                              `imperf`     CiL
+                              `masdar`     FiCAL |< aT,
 
     FaCCaL                    `verb`    {- <warra_t> -}        [ ['t','r','a','n','s','m','i','t'], ['b','e','q','u','e','a','t','h'] ],
 

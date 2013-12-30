@@ -88,15 +88,12 @@
                     <member name="plural" type="Plural"/>
                     <member name="femini" type="Femini"/>
                     <member name="except" type="Except"/>
-                    <member name="gender" type="Gender"/>
-                    <member name="derive" type="Derive"/>
                 </structure>
             </element>
             <element name="Adj" >
                 <structure>
                     <member name="plural" type="Plural"/>
                     <member name="femini" type="Femini"/>
-                    <member name="number" type="Number"/>
                 </structure>
             </element>
             <element name="Pron">
@@ -178,27 +175,6 @@
 
     <type name="Femini">
         <list type="Morphs" ordered="1"/>
-    </type>
-
-    <type name="Gender">
-        <choice>
-            <value>Masculine</value>
-            <value>Feminine</value>
-        </choice>
-    </type>
-
-    <type name="Number">
-        <choice>
-            <value>Singular</value>
-            <value>Dual</value>
-            <value>Plural</value>
-        </choice>
-    </type>
-
-    <type name="Derive">
-        <choice>
-            <value>------F---</value>
-        </choice>
     </type>
 
     <type name="Except">

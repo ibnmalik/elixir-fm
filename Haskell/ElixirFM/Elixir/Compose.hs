@@ -137,11 +137,22 @@ harmony (ParaAdj  _)                                    _   = [Nothing]
 harmony (ParaPron (PronD _ _ Nominative))    y
 
     | y `elem` ["kilA", "kiltA"]        = [Nothing, Just ("S------D2-", euphony y)]
+    | y `elem` ["_dU", "_dAtu",
+                "_dawA", "_dAtA",
+                         "_dawAtA",
+                "_dawU", "_dawAtu"]     = [Nothing, Just ("S-------2-", euphony y)]
+    | y `elem` ["'_UlU", "'_UlAtu"]     = [Nothing, Just ("S-------2-", euphony y)]
     | otherwise                         = [Nothing]
 
 harmony (ParaPron (PronD _ _ _))    y
 
     | y `elem` ["kilay", "kiltay"]      = [Nothing, Just ("S------D2-", euphony y)]
+    | y `elem` ["_dI", "_dAti",
+                "_dA", "_dAta",
+                "_daway", "_dAtay",
+                          "_dawAtay",
+                "_dawI", "_dawAti"]     = [Nothing, Just ("S-------2-", euphony y)]
+    | y `elem` ["'_UlI", "'_UlAti"]     = [Nothing, Just ("S-------2-", euphony y)]
     | otherwise                         = [Nothing]
 
 harmony (ParaPron PronS)    "mA"    = [Nothing, Just ("V[PI]I-------", const True),

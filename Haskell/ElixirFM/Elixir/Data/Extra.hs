@@ -1,7 +1,7 @@
 -- |
 --
 -- Module      :  Elixir.Data.Extra
--- Copyright   :  Otakar Smrz 2005-2011
+-- Copyright   :  Otakar Smrz 2005-2013
 -- License     :  GPL
 --
 -- Maintainer  :  otakar-smrz users.sf.net
@@ -239,9 +239,9 @@ lexicon = listing "Extended lexicon"
                                                         <:>     "FA" |<< "ay"
 
                             <.>     "SD----MP1-"
-                                                        <:>     "Faw" |<< "U"
+                                                        <:>     "FA" |<< "U"
                             <.>     "SD----MP[24]-"
-                                                        <:>     "Faw" |<< "I"
+                                                        <:>     "FA" |<< "I"
 
                             <.>     "SD----FS1-"
                                                         <:>     "FA" |<< "t" |<< "u"

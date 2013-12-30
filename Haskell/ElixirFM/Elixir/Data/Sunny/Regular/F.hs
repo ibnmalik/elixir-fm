@@ -1109,7 +1109,7 @@ cluster_64  = cluster
     FaCL                      `noun`    {- <zarq> -}           [ ['i','n','j','e','c','t','i','o','n'], unwords [ ['b','o','r','i','n','g'], ['i','n','t','o'] ] ],
 
     FawCaL                    `noun`    {- <zawraq> -}         [ ['b','o','a','t'], ['s','k','i','f','f'] ]
-                              `plural`     FawCaL,
+                              `plural`     FawACiL,
 
     MiFCAL                    `noun`    {- <mizrAq> -}         [ ['j','a','v','e','l','i','n'] ]
                               `plural`     MaFACIL ]

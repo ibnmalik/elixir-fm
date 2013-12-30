@@ -1086,7 +1086,9 @@ cluster_43  = cluster
  |> ".h y n" <| [
 
     FAL                       `verb`    {- <.hAn> -}           [ ['a','r','r','i','v','e'], ['a','p','p','r','o','a','c','h'] ]
-                              `imperf`     FIL,
+                              `imperf`     FIL
+                              `masdar`     FaCL
+                              `masdar`     FaCLUL |< aT,
 
     TaFaCCaL                  `verb`    {- <ta.hayyan> -}      [ ['w','a','t','c','h'], ['w','a','i','t'] ],
 

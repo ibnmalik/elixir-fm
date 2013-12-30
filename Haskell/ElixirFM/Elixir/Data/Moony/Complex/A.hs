@@ -1370,7 +1370,8 @@ cluster_86  = cluster
  |> "' _d n" <| [
 
     FaCiL                     `verb`    {- <'a_din> -}         [ ['a','u','t','h','o','r','i','z','e'], ['l','i','s','t','e','n'] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FiCL,
 
     FaCCaL                    `verb`    {- <'a_d_dan> -}       [ ['a','n','n','o','u','n','c','e'], ['f','o','r','e','s','e','e'] ],
 

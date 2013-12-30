@@ -479,8 +479,6 @@ cluster_33  = cluster
 
     IFtaCaL                   `verb`    {- <i'talaf> -}        [ unwords [ ['b','e'], ['a','c','c','u','s','t','o','m','e','d'] ], unwords [ ['b','e'], ['h','a','r','m','o','n','i','o','u','s'] ], unwords [ ['f','o','r','m'], "a", ['c','o','a','l','i','t','i','o','n'] ] ],
 
-    IFtaCaL                   `verb`    {- <i'talaf> -}        [ unwords [ ['f','o','r','m'], "a", ['c','o','a','l','i','t','i','o','n'] ] ],
-
     IstaFCaL                  `verb`    {- <ista'laf> -}       [ unwords [ ['a','t','t','e','m','p','t'], ['t','o'], ['b','e','f','r','i','e','n','d'] ] ],
 
     FuCL |< aT                `noun`    {- <'ulfaT> -}         [ ['f','a','m','i','l','i','a','r','i','t','y'], ['f','r','i','e','n','d','s','h','i','p'], ['h','a','r','m','o','n','y'] ],
@@ -1652,7 +1650,9 @@ cluster_95  = cluster
 
     FaCL                      `verb`    {- <'ann> -}           [ ['g','r','o','a','n'], ['m','o','a','n'] ]
                               `imperf`     FiCL
-                              `pfirst`     FaCaL,
+                              `pfirst`     FaCaL
+                              `masdar`     FaCIL
+                              `masdar`     TaFCAL,
 
     TaFCAL                    `noun`    {- <ta'nAn> -}         [ ['m','o','a','n','i','n','g'], ['s','i','g','h','i','n','g'] ],
 
