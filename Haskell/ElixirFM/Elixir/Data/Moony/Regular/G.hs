@@ -1462,7 +1462,8 @@ cluster_56  = cluster
  |> ".h s d" <| [
 
     FaCaL                     `verb`    {- <.hasad> -}         [ ['e','n','v','y'] ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `masdar`     FaCaL,
 
     TaFACaL                   `verb`    {- <ta.hAsad> -}       [ ['e','n','v','y'] ],
 

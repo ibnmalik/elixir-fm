@@ -1,7 +1,7 @@
 -- |
 --
 -- Module      :  Elixir.Version
--- Copyright   :  Otakar Smrz 2005-2013
+-- Copyright   :  Otakar Smrz 2005-2014
 -- License     :  GPL
 --
 -- Maintainer  :  otakar-smrz users.sf.net
@@ -44,4 +44,4 @@ revised :: String -> Version
 revised revision = fst . last . readP_to_S parseVersion $ words revision !! 1
 
 
-version = Version [1, 2, 1] ["December 2013"]
+version = Version [1, 2, 1] ["January 2014"]

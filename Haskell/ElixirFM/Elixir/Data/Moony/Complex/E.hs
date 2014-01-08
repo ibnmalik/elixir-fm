@@ -521,7 +521,7 @@ cluster_45  = cluster
     FAL                       `verb`    {- <'Al> -}            [ ['a','r','r','i','v','e'], ['l','e','a','d'], ['r','e','t','u','r','n'] ]
                               `imperf`     FUL
                               `masdar`     FaCL
-                              `masdar`     maFAL,
+                              `masdar`     MaFAL,
 
     FaCCaL                    `verb`    {- <'awwal> -}         [ ['e','x','p','l','a','i','n'], ['i','n','t','e','r','p','r','e','t'] ],
 

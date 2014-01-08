@@ -3,7 +3,7 @@ version:            1.2.1
 license:            GPL
 license-file:       LICENSE
 extra-source-files: INSTALL, Setup.PL, elixir.svg
-copyright:          2013
+copyright:          2014
 author:             Otakar Smrz
 maintainer:         otakar-smrz users.sf.net
 homepage:           http://otakar-smrz.users.sf.net/

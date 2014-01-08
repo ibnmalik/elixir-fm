@@ -1063,7 +1063,8 @@ cluster_70  = cluster
  |> "b _d l" <| [
 
     FaCaL                     `verb`    {- <ba_dal> -}         [ ['s','t','r','i','v','e'], ['e','x','e','r','t'] ]
-                              `imperf`     FCuL,
+                              `imperf`     FCuL
+                              `masdar`     FaCL,
 
     TaFaCCaL                  `verb`    {- <taba_d_dal> -}     [ unwords [ ['b','e'], ['s','h','a','m','e','l','e','s','s'] ], unwords [ ['l','o','s','e'], ['s','e','l','f'], ['c','o','n','t','r','o','l'] ] ],
 

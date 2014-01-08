@@ -177,7 +177,8 @@ cluster_8   = cluster
 
     FuCUL                     `noun`    {- <bu.dU`> -}         [ ['a','m','p','u','t','a','t','i','o','n'] ],
 
-    FiCL                      `noun`    {- <bi.d`> -}          [ ['s','o','m','e'], ['s','e','v','e','r','a','l'] ],
+    FiCL                      `noun`    {- <bi.d`> -}          [ ['s','o','m','e'], ['s','e','v','e','r','a','l'] ]
+                              `femini`     FiCL |< aT,
 
     FiCAL |< aT               `noun`    {- <bi.dA`aT> -}       [ ['m','e','r','c','h','a','n','d','i','s','e'], ['g','o','o','d','s'] ]
                               `plural`     FaCA'iL,
