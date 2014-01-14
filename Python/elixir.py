@@ -32,9 +32,11 @@ def derive(text, *opts):
 def lookup(text, *opts):
     return elixir('lookup', text, *opts)
 
-def unpretty(data):
+def unpretty(data, mode=None):
+    nest = { 'resolve': 2, 'inflect': 2, 'derive': 2, 'lookup': 4 }
     return [ groups([ item.split('\t') for word in unwords(line)
-                                       for item in word.splitlines() ])
+                                       for item in word.splitlines() ],
+                    nest[mode] if mode in nest else mode)
              for line in unlines(data) ]
 
 def unlines(data):
@@ -45,20 +47,23 @@ def unwords(data):
     return [ word for line in unlines(data)
                   for word in re.split('(?:(?<=\n)\n|(?<=^)\n)', line) ]
 
-def groups(data):
+def groups(data, nest=None):
     tree = [[]]
-    for i in range(len(data)):
-        twig = list(itertools.dropwhile(lambda x: not x.split(), data[i]))
-        if not twig:
-            continue
-        nest = len(data[i]) - len(twig) - len(tree) + 1
-        twig = reduce(lambda x, y: [y, x], reversed(twig[:-1]), [twig[-1]])
-        if nest < 0:
-            tree = tree[:nest]
-        elif nest > 0:
-            for n in range(nest):
+    for line in data:
+        if nest == None:
+            edge = line
+            node = []
+        else:
+            edge = line[:nest]
+            node = line[nest:]
+        edge = list(itertools.dropwhile(lambda x: not x.split(), edge))
+        move = len(line) - len(edge) - len(node) - len(tree) + 1
+        if move < 0:
+            tree = tree[:move]
+        elif move > 0:
+            for _ in range(move):
                 tree.append(tree[-1][-1])
-        tree[-1].append(twig)
+        tree[-1].append(reduce(lambda x, y: [y, x], reversed(edge), node))
     return tree[0]
 
 def main(*args):
@@ -66,8 +71,15 @@ def main(*args):
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "unpretty":
-        data = unpretty(sys.stdin.read())
-        nest = int(sys.argv[2]) if len(sys.argv) > 2 and re.search("^[0-9]+$", sys.argv[2]) else None
+        if len(sys.argv) > 2:
+            if re.search("^-?[0-9]+$", sys.argv[2]):
+                mode = int(sys.argv[2])
+            elif re.search("^(?:[Nn]one|-+)$", sys.argv[2]):
+                mode = None
+            else:
+                mode = sys.argv[2]
+        nest = int(sys.argv[3]) if len(sys.argv) > 3 and re.search("^[0-9]+$", sys.argv[3]) else None
+        data = unpretty(sys.stdin.read(), mode)
         print json.dumps(data, indent=nest)
     else:
         main(*sys.argv[1:])
