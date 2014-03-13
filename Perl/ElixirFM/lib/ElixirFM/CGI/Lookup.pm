@@ -24,9 +24,9 @@ use Encode::Arabic ':modes';
 
 
 our @example = ( [ 'Unicode',   join " ", "school", decode "buckwalter", "drs k t b" ],
-                 [ 'Unicode',   'welcome "and" enjoy' ],
-                 [ 'Unicode',   "be happy" ],
-                 [ 'ArabTeX',   "qAmUs 'lktrny ^g d d" ] );
+		 [ 'Unicode',   'welcome "and" enjoy' ],
+		 [ 'Unicode',   "be happy" ],
+		 [ 'ArabTeX',   "qAmUs 'lktrny ^g d d" ] );
 
 
 sub pretty ($$$) {
@@ -37,25 +37,25 @@ sub pretty ($$$) {
 
     for (my $i = 0; $i < @{$reply}; $i++) {
 
-        my ($data, @data) = @{$reply->[$i][0]};
+	my ($data, @data) = @{$reply->[$i][0]};
 
-        $r .= $q->h3($q->span({-class => "mode"}, ucfirst $mode),
-                     $q->span({-class => "word",
-                               -title => "input word"}, $data));
+	$r .= $q->h3($q->span({-class => "mode"}, ucfirst $mode),
+		     $q->span({-class => "word",
+			       -title => "input word"}, $data));
 
-        next unless @data;
+	next unless @data;
 
-        $r .= $q->ul({-class => 'listexpander'}, $q->li([ map {
+	$r .= $q->ul({-class => 'listexpander'}, $q->li([ map {
 
-                my ($data, @data) = @{$_};
+		my ($data, @data) = @{$_};
 
-                pretty_root($_, $q) . "\n" . $q->ul($q->li([ map {
-            
-                    pretty_entry($_, $q)
-                
-                } @data ] ))
+		pretty_root($_, $q) . "\n" . $q->ul($q->li([ map {
 
-            } @data ]));
+		    pretty_entry($_, $q)
+
+		} @data ] ))
+
+	    } @data ]));
     }
 
     return $r;
@@ -68,13 +68,13 @@ sub pretty_root {
     my $q = $_[1];
 
     return $q->table({-cellspacing => 0, -class => "nest"},
-                     $q->Tr($q->td({-class => "root",
-                                    -title => "common root"}, escape join " ", (decode "zdmg", $root),
-                                                                               (quote decode "arabtex", ElixirFM::cling $root, "|")),
-                            $q->td({-class => "button"},
-                                   $q->a({-title => "lookup all entries under this root",
-                                          -href => 'index.fcgi?mode=lookup' . '&text=' . (escape quote join "+", split " ", decode "arabtex", $root)}, "Lookup"))
-                ));
+		     $q->Tr($q->td({-class => "root",
+				    -title => "common root"}, escape join " ", (decode "zdmg", $root),
+									       (quote decode "arabtex", ElixirFM::cling $root, "|")),
+			    $q->td({-class => "button"},
+				   $q->a({-title => "lookup all entries under this root",
+					  -href => 'index.fcgi?mode=lookup' . '&text=' . (escape quote join "+", split " ", decode "arabtex", $root)}, "Lookup"))
+		));
 }
 
 sub pretty_entry {
@@ -92,58 +92,62 @@ sub pretty_entry {
     my $morphs = $data->[1][1][1][1][0];
     my $reflex = join '", "', split '","', substr $data->[1][1][1][1][1][0], 1, -1;
 
-    my $class = join " ", split ",", substr $data->[1][1][1][1][1][1][0], 1, -1;    
+    my $class = join " ", split ",", substr $data->[1][1][1][1][1][1][0], 1, -1;
 
     return join $",
 
       $q->table({-cellspacing => 0, -class => "lexeme"},
-                $q->Tr($q->td({-class => "xtag",
-                               -title => ElixirFM::describe $xtag}, $xtag),
-                       $q->td({-class => "phon",
-                               -title => "citation form"},           decode "zdmg", $form),
-                       $q->td({-class => "orth",
-                               -title => "citation form"},           decode "arabtex", $form),
-                       $q->td({-class => "morphs",
-                               -title => "morphs of citation form"}, ElixirFM::nice $morphs),
-                       $q->td({-class => "class",
-                               -title => "derivational class"},      $class),
-                       $q->td({-class => "reflex",
-                               -title => "lexical reference"},       escape $reflex), 
+		$q->Tr($q->td({-class => "xtag",
+			       -title => ElixirFM::describe $xtag}, $xtag),
+		       $q->td({-class => "phon",
+			       -title => "citation form"},           decode "zdmg", $form),
+		       $q->td({-class => "orth",
+			       -title => "citation form"},           decode "arabtex", $form),
+		       $q->td({-class => "morphs",
+			       -title => "morphs of citation form"}, ElixirFM::nice $morphs),
+		       $q->td({-class => "class",
+			       -title => "derivational class"},      $class),
+		       $q->td({-class => "reflex",
+			       -title => "lexical reference"},       escape $reflex),
 
-                       $q->td({-class => "button"},
-                              $q->a({-title => "inflect this lexeme",
-                                     -href => 'index.fcgi?mode=inflect' . '&clip=' . $clip}, "Inflect"),
-                              $q->a({-title => "derive other lexemes",
-                                     -href => 'index.fcgi?mode=derive' . '&clip=' . $clip}, "Derive"),
-                              $q->a({-title => "lookup in the lexicon",
-                                     -href => 'index.fcgi?mode=lookup' . '&clip=' . $clip}, "Lookup")),
-            )),
+		       $q->td({-class => "button"},
+			      $q->a({-title => "inflect this lexeme",
+				     -href => 'index.fcgi?mode=inflect' . '&clip=' . $clip}, "Inflect"),
+			      $q->a({-title => "derive other lexemes",
+				     -href => 'index.fcgi?mode=derive' . '&clip=' . $clip}, "Derive"),
+			      $q->a({-title => "lookup in the lexicon",
+				     -href => 'index.fcgi?mode=lookup' . '&clip=' . $clip}, "Lookup")),
+	    )),
 
       (@{$data} == 2) ? () :
 
       $q->ul($q->li($q->table({-cellspacing => 0},
 
-                    $q->Tr([ map { pretty_entity($_, $q) } @{$data}[2 .. @{$data} - 1] ] ) )) );
+		    $q->Tr([ map { pretty_entity($_, $q) } @{$data}[2 .. @{$data} - 1] ] ) )) );
 }
 
 sub pretty_entity {
 
-    my $data = $_[0];
+    my ($data, @data) = @{$_[0]};
 
     my $q = $_[1];
 
-    return join $",
+    my @xtag = ($data, '' x (@data - 1));
 
-        $q->td({-class => "xtag",
-                -title => ElixirFM::describe $data->[0]}, $data->[0]),
-        $q->td({-class => "phon",
-                -title => "inflectional stem"},             decode "zdmg", $data->[1][0]),
-        $q->td({-class => "orth",
-                -title => "inflectional stem"},             decode "arabtex", $data->[1][0]),
-        $q->td({-class => "morphs",
-                -title => "morphs of inflectional stem"},   ElixirFM::nice $data->[1][1][1][0]),
-        $q->td({-class => "dtag",
-                -title => "grammatical parameters"},        ElixirFM::describe $data->[0], 'terse');
+    return map { join $",
+
+	    $q->td({-class => "xtag",
+		    -title => ElixirFM::describe $xtag[$_]},  $xtag[$_]),
+	    $q->td({-class => "phon",
+		    -title => "inflectional stem"},           decode "zdmg", $data[$_]->[0]),
+	    $q->td({-class => "orth",
+		    -title => "inflectional stem"},           decode "arabtex", $data[$_]->[0]),
+	    $q->td({-class => "morphs",
+		    -title => "morphs of inflectional stem"}, ElixirFM::nice $data[$_]->[1][1][0]),
+	    $q->td({-class => "dtag",
+		    -title => "grammatical parameters"},      ElixirFM::describe $xtag[$_], 'terse')
+
+	    } 0 .. @data - 1;
 }
 
 sub main ($) {
@@ -164,37 +168,37 @@ sub main ($) {
 
     if (defined $q->param('submit') and $q->param('submit') eq 'Example') {
 
-        my $idx = rand @example;
+	my $idx = rand @example;
 
-        $q->param('text', $example[$idx][1]);
-        $q->param('code', $example[$idx][0]);
+	$q->param('text', $example[$idx][1]);
+	$q->param('code', $example[$idx][0]);
     }
     else {
 
-        $q->param('text', join ' ', split ' ', defined $q->param('text') ? $q->param('text') : '');
+	$q->param('text', join ' ', split ' ', defined $q->param('text') ? $q->param('text') : '');
 
-        if ($q->param('text') ne '') {
+	if ($q->param('text') ne '') {
 
-            $q->param('text', decode "utf8", $q->param('text'));
-        }
-        elsif (defined $q->param('clip') and $q->param('clip') =~ /^\s*\(\s*(-?)\s*([1-9][0-9]*)\s*,\s*(-?)\s*([1-9][0-9]*)\s*\)\s*$/) {
+	    $q->param('text', decode "utf8", $q->param('text'));
+	}
+	elsif (defined $q->param('clip') and $q->param('clip') =~ /^\s*\(\s*(-?)\s*([1-9][0-9]*)\s*,\s*(-?)\s*([1-9][0-9]*)\s*\)\s*$/) {
 
-            $q->param('clip', "($1$2,$3$4)");
-            $q->param('text', $q->param('clip'));
-        }
-        else {
+	    $q->param('clip', "($1$2,$3$4)");
+	    $q->param('text', $q->param('clip'));
+	}
+	else {
 
-            $q->param('text', $example[0][1]);
-            $q->param('code', $example[0][0]);
+	    $q->param('text', $example[0][1]);
+	    $q->param('code', $example[0][0]);
 
-            $memoize = 'yes';
-        }
+	    $memoize = 'yes';
+	}
     }
 
     $q->param('code', 'Unicode') unless defined $q->param('code');
 
     $r .= $q->p("ElixirFM can lookup lexical entries by the citation form and nests of entries by the root.",
-                "You can even search the dictionary using English.");
+		"You can even search the dictionary using English.");
 
     $r .= display_twitter $c;
 
@@ -206,33 +210,33 @@ sub main ($) {
 
     $r .= $q->table( {-border => 0},
 
-                Tr( {-align => 'left'},
+		Tr( {-align => 'left'},
 
-                    td( {-colspan => 3},
+		    td( {-colspan => 3},
 
-                        $q->textfield(  -name       =>  'text',
-                                        -id         =>  'text',
-                                        -default    =>  $q->param('text'),
-                                        -accesskey  =>  '4',
-                                        -size       =>  60,
-                                        -maxlength  =>  180) ),
+			$q->textfield(  -name       =>  'text',
+					-id         =>  'text',
+					-default    =>  $q->param('text'),
+					-accesskey  =>  '4',
+					-size       =>  60,
+					-maxlength  =>  180) ),
 
-                    td( {-colspan => 2, -style => "vertical-align: middle; padding-left: 20px", -class => 'notice'},
+		    td( {-colspan => 2, -style => "vertical-align: middle; padding-left: 20px", -class => 'notice'},
 
-                        $q->radio_group(-name       =>  'code',
-                                        -values     =>  [ @enc_list ],
-                                        -default    =>  $q->param('code'),
-                                        -accesskey  =>  '5',
-                                        -onchange   =>  "elixirYamli('text')",
-                                        -labelattributes  =>  { 'ArabTeX'    => {-title => "internal phonology-oriented notation"},
-                                                                'Buckwalter' => {-title => "letter-by-letter romanization"},
-                                                                'Unicode'    => {-title => "original script and orthography"} } ) ) ),
+			$q->radio_group(-name       =>  'code',
+					-values     =>  [ @enc_list ],
+					-default    =>  $q->param('code'),
+					-accesskey  =>  '5',
+					-onchange   =>  "elixirYamli('text')",
+					-labelattributes  =>  { 'ArabTeX'    => {-title => "internal phonology-oriented notation"},
+								'Buckwalter' => {-title => "letter-by-letter romanization"},
+								'Unicode'    => {-title => "original script and orthography"} } ) ) ),
 
-                Tr( {-align => 'left'},
+		Tr( {-align => 'left'},
 
-                    td({-align => 'left'},   $q->submit(-name => 'submit', -value => ucfirst $q->param($c->mode_param()))),
-                    td({-align => 'center'}, $q->button(-name => 'clear',  -value => 'Clear', -onclick => "elixirClear('text')")),
-                    td({-align => 'right'},  $q->submit(-name => 'submit', -value => 'Example')) ) );
+		    td({-align => 'left'},   $q->submit(-name => 'submit', -value => ucfirst $q->param($c->mode_param()))),
+		    td({-align => 'center'}, $q->button(-name => 'clear',  -value => 'Clear', -onclick => "elixirClear('text')")),
+		    td({-align => 'right'},  $q->submit(-name => 'submit', -value => 'Example')) ) );
 
     $r .= $q->hidden( -name => $c->mode_param(), -value => $q->param($c->mode_param()) );
 
@@ -258,13 +262,13 @@ sub main ($) {
 
     if ($memoize) {
 
-        $memoize{$mode} = ElixirFM::Exec::elixir @{$reply} unless exists $memoize{$mode};
+	$memoize{$mode} = ElixirFM::Exec::elixir @{$reply} unless exists $memoize{$mode};
 
-        $reply = $memoize{$mode};
+	$reply = $memoize{$mode};
     }
     else {
 
-        $reply = ElixirFM::Exec::elixir @{$reply};
+	$reply = ElixirFM::Exec::elixir @{$reply};
     }
 
     $reply = [ ElixirFM::unpretty $reply ];
@@ -273,13 +277,13 @@ sub main ($) {
 
     unless ($memoize and exists $memoize{$mode}) {
 
-        # open L, '>>', "$mode/index.log";
+	# open L, '>>', "$mode/index.log";
 
-        # print L join "\t", gmtime() . "", $code,
-        #                    ($reply =~ /^\s*$/ ? '--' : '++'),
-        #                    encode "utf8", (join "\t", split "\n", $q->param('text')) . "\n";
+	# print L join "\t", gmtime() . "", $code,
+	#                    ($reply =~ /^\s*$/ ? '--' : '++'),
+	#                    encode "utf8", (join "\t", split "\n", $q->param('text')) . "\n";
 
-        # close L;
+	# close L;
     }
 
     $r .= display_footline $c;
