@@ -6,7 +6,7 @@ package ElixirFM::CGI::Lookup;
 
 use strict;
 
-our $VERSION = '1.1.0';
+our $VERSION = '1.2.1';
 
 
 use ElixirFM::CGI;
@@ -33,100 +33,66 @@ sub pretty ($$$) {
 
     my ($reply, $mode, $q) = @_;
 
-    my @word = ElixirFM::unpretty $reply;
-
-    my @text = split "\n", $q->param('text');
-
     my $r = '';
 
-    $r .= $q->p({-class => 'notice'}, 'The numbers of input and output words are not equal! ' . (scalar @text) . " <> " . (scalar @word)) unless @text == @word;
+    for (my $i = 0; $i < @{$reply}; $i++) {
 
-    for (my $i = 0; $i < @word; $i++) {
+        my ($data, @data) = @{$reply->[$i][0]};
 
         $r .= $q->h3($q->span({-class => "mode"}, ucfirst $mode),
                      $q->span({-class => "word",
-                               -title => "input word"}, $text[$i]));
+                               -title => "input word"}, $data));
 
-        next unless @{$word[$i]};
+        next unless @data;
 
-        $r .= $q->ul({-class => 'listexpander'}, pretty_lookup_tree($word[$i], $q));
+        $r .= $q->ul({-class => 'listexpander'}, $q->li([ map {
+
+                my ($data, @data) = @{$_};
+
+                pretty_root($_, $q) . "\n" . $q->ul($q->li([ map {
+            
+                    pretty_entry($_, $q)
+                
+                } @data ] ))
+
+            } @data ]));
     }
 
     return $r;
 }
 
-sub pretty_lookup_data {
+sub pretty_root {
 
-    my $data = $_[0];
+    my $root = substr $_[0]->[1][1][1][1][0], 1, -1;
 
     my $q = $_[1];
-
-    my $clip = '(' . $_[2]->[0] . ',[])';
 
     return $q->table({-cellspacing => 0, -class => "nest"},
                      $q->Tr($q->td({-class => "root",
-                                    -title => "common root"}, escape join " ", (decode "zdmg", $data->[1][1][2]),
-                                                                               (quote decode "arabtex", ElixirFM::cling $data->[1][1][2], "|")),
+                                    -title => "common root"}, escape join " ", (decode "zdmg", $root),
+                                                                               (quote decode "arabtex", ElixirFM::cling $root, "|")),
                             $q->td({-class => "button"},
                                    $q->a({-title => "lookup all entries under this root",
-                                          -href => 'index.fcgi?mode=lookup' . '&text=' . (escape quote join "+", split " ", decode "arabtex", $data->[1][1][2])}, "Lookup"))
+                                          -href => 'index.fcgi?mode=lookup' . '&text=' . (escape quote join "+", split " ", decode "arabtex", $root)}, "Lookup"))
                 ));
 }
 
-sub pretty_lookup_tree {
-
-    my @data = @{$_[0]};
-
-    my $q = $_[1];
-
-    return $q->li([ map {
-
-        my $data = $_;
-
-        $data->[1][1][2] = substr $data->[1][1][2], 1, -1;
-
-        my $clip = [undef, undef];
-
-        (@{$clip}) = $data->[0] =~ /^\( (-?[1-9][0-9]*) , (?: \[ ([^\]]*) \] ) \)$/x;
-
-        $clip->[1] = [ grep { /^-?[1-9][0-9]*$/ } split ',', $clip->[1] ] if defined $clip->[1];
-
-        pretty_lookup_data($_, $q, $clip) . "\n" . $q->ul($q->li([ map {
-
-            pretty_lookup_entry($data, $q, $clip, $_)
-
-                } 1 .. @{$data} - 1 ] ))
-
-                } @data ]);
-}
-
-sub pretty_lookup_entry {
+sub pretty_entry {
 
     my $data = $_[0];
 
     my $q = $_[1];
 
-    my $ents = $data->[$_[3]];
+    my $clip = $data->[0];
+    my $xtag = substr $data->[1][0], 0, 1;
 
-    my $clip = $ents->[0];     # '(' . $_[2]->[0] . ',' . (defined $_[2]->[1] ? $_[2]->[1][$_[3]] : $_[3] + 1) . ')';
+    my $form = $data->[1][1][0];
+    my $root = substr $data->[1][1][1][0], 1, -1;
 
-    my @info = @{$ents->[1]}[3, 0, 0, 4];    # @{$ents->[1]}{'morphs', 'entity', 'limits', 'reflex'};
+    my $morphs = $data->[1][1][1][1][0];
+    my $reflex = join '", "', split '","', substr $data->[1][1][1][1][1][0], 1, -1;
 
-    my $form = [ split ',', substr $ents->[1][5], 1, -1 ];
-
-    my @entity = map { my $t = $_; [ map { $ents->[$_][0] eq $t ? @{$ents->[$_]}[1 .. @{$ents->[$_]} - 1] : () } 2 .. @{$ents} - 1 ] } "-------P--", "------F---";
-
-    @entity = ((map { [($_ == 0 ? '-------P--' : ''), @{$entity[0][$_]}[0, 2]] } 0 .. @{$entity[0]} - 1),
-               (map { [($_ == 0 ? '------F---' : ''), @{$entity[1][$_]}[0, 2]] } 0 .. @{$entity[1]} - 1));
-
-    my $xtag = substr $info[1], 0, 1;  # $info[1]->[0];
-
-    # $xtag = join ' ', ElixirFM::retrieve $xtag;
-    # $xtag = substr $xtag, 0, 1;
-
-    $info[4] = join " ", map { my $t = $_; map { $ents->[$_][0] eq $t ? map { $_->[2] } @{$ents->[$_]}[1 .. @{$ents->[$_]} - 1] : () } 2 .. @{$ents} - 1 } "-I--------", "-P--------", "-C--------";
-
-    $info[5] = ElixirFM::merge $data->[1][1][2], $info[0];
+    my $class = join " ", split ",", substr $data->[1][1][1][1][1][1][0], 1, -1;    
 
     return join $",
 
@@ -134,17 +100,15 @@ sub pretty_lookup_entry {
                 $q->Tr($q->td({-class => "xtag",
                                -title => ElixirFM::describe $xtag}, $xtag),
                        $q->td({-class => "phon",
-                               -title => "citation form"},           decode "zdmg", $info[5]),
+                               -title => "citation form"},           decode "zdmg", $form),
                        $q->td({-class => "orth",
-                               -title => "citation form"},           decode "arabtex", $info[5]),
+                               -title => "citation form"},           decode "arabtex", $form),
                        $q->td({-class => "morphs",
-                               -title => "morphs of citation form"}, ElixirFM::nice $info[0]),
+                               -title => "morphs of citation form"}, ElixirFM::nice $morphs),
                        $q->td({-class => "class",
-                               -title => "derivational class"},      join " ", @{$form}),
-                       $q->td({-class => "stems",
-                               -title => "inflectional stems"},      ElixirFM::nice $info[4]),
+                               -title => "derivational class"},      $class),
                        $q->td({-class => "reflex",
-                               -title => "lexical reference"},       escape join '", "', split '","', substr $info[3], 1, -1), # escape join ", ", map { '"' . $_ . '"' } @{$info[3]}),
+                               -title => "lexical reference"},       escape $reflex), 
 
                        $q->td({-class => "button"},
                               $q->a({-title => "inflect this lexeme",
@@ -155,31 +119,31 @@ sub pretty_lookup_entry {
                                      -href => 'index.fcgi?mode=lookup' . '&clip=' . $clip}, "Lookup")),
             )),
 
-      (@entity == 0) ? () :
+      (@{$data} == 2) ? () :
 
       $q->ul($q->li($q->table({-cellspacing => 0},
 
-                    $q->Tr([ map { pretty_lookup_entity($_, $q) } @entity ] ) )) );
+                    $q->Tr([ map { pretty_entity($_, $q) } @{$data}[2 .. @{$data} - 1] ] ) )) );
 }
 
-sub pretty_lookup_entity {
+sub pretty_entity {
 
-    my @info = @{$_[0]};
+    my $data = $_[0];
 
     my $q = $_[1];
 
     return join $",
 
         $q->td({-class => "xtag",
-                -title => ElixirFM::describe $info[0]}, $info[0]),
+                -title => ElixirFM::describe $data->[0]}, $data->[0]),
         $q->td({-class => "phon",
-                -title => "inflectional stem"},             decode "zdmg", $info[1]),
+                -title => "inflectional stem"},             decode "zdmg", $data->[1][0]),
         $q->td({-class => "orth",
-                -title => "inflectional stem"},             decode "arabtex", $info[1]),
+                -title => "inflectional stem"},             decode "arabtex", $data->[1][0]),
         $q->td({-class => "morphs",
-                -title => "morphs of inflectional stem"},   ElixirFM::nice $info[2]),
+                -title => "morphs of inflectional stem"},   ElixirFM::nice $data->[1][1][1][0]),
         $q->td({-class => "dtag",
-                -title => "grammatical parameters"},        ElixirFM::describe $info[0], 'terse');
+                -title => "grammatical parameters"},        ElixirFM::describe $data->[0], 'terse');
 }
 
 sub main ($) {
@@ -303,17 +267,19 @@ sub main ($) {
         $reply = ElixirFM::Exec::elixir @{$reply};
     }
 
+    $reply = [ ElixirFM::unpretty $reply ];
+
     $r .= pretty $reply, $mode, $q;
 
     unless ($memoize and exists $memoize{$mode}) {
 
-        open L, '>>', "$mode/index.log";
+        # open L, '>>', "$mode/index.log";
 
-        print L join "\t", gmtime() . "", $code,
-                           ($reply =~ /^\s*$/ ? '--' : '++'),
-                           encode "utf8", (join "\t", split "\n", $q->param('text')) . "\n";
+        # print L join "\t", gmtime() . "", $code,
+        #                    ($reply =~ /^\s*$/ ? '--' : '++'),
+        #                    encode "utf8", (join "\t", split "\n", $q->param('text')) . "\n";
 
-        close L;
+        # close L;
     }
 
     $r .= display_footline $c;

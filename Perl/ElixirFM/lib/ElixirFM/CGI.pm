@@ -6,7 +6,7 @@ package ElixirFM::CGI;
 
 use strict;
 
-our $VERSION = '1.2.0';
+our $VERSION = '1.2.1';
 
 
 use base 'CGI::Application::FastCGI';
@@ -17,8 +17,11 @@ use base 'Exporter';
 
 our @EXPORT = (qw 'display_header display_headline display_footline display_footer',
                qw 'display_twitter escape quote revert',
-               qw '@modes %memoize %enc_hash @enc_list');
+               qw '@modes %memoize %enc_hash @enc_list $JSON');
 
+use JSON;
+
+our $JSON = JSON->new()->allow_nonref();
 
 our @modes = qw 'home resolve inflect derive lookup';
 
@@ -151,7 +154,7 @@ sub display_footline ($) {
     my $r;
 
     $r .= $q->p({'style' => 'margin-top: 30px'},
-                "(C) Otakar Smr\x{017E} 2013, Viktor Bielick\x{00FD} 2012, Tim Buckwalter 2002. GNU General Public License",
+                "(C) Otakar Smr\x{017E} 2014, Viktor Bielick\x{00FD} 2014, Tim Buckwalter 2002. GNU General Public License",
                 $q->a({-href => 'http://www.gnu.org/licenses/'}, "GNU GPL 3") . ".");
 
     $r .= $q->p("ElixirFM is an", $q->a({-href => 'http://sourceforge.net/projects/elixir-fm/'}, "open-source online"), "project.",

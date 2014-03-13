@@ -71,12 +71,11 @@ def main(*args):
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "unpretty":
+        mode = None
         if len(sys.argv) > 2:
             if re.search("^-?[0-9]+$", sys.argv[2]):
                 mode = int(sys.argv[2])
-            elif re.search("^(?:[Nn]one|-+)$", sys.argv[2]):
-                mode = None
-            else:
+            elif not re.search("^(?:[Nn]one|-+)$", sys.argv[2]):
                 mode = sys.argv[2]
         nest = int(sys.argv[3]) if len(sys.argv) > 3 and re.search("^[0-9]+$", sys.argv[3]) else None
         data = unpretty(sys.stdin.read(), mode)

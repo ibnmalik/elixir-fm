@@ -6,7 +6,7 @@ package ElixirFM::CGI::Resolve;
 
 use strict;
 
-our $VERSION = '1.1.0';
+our $VERSION = '1.2.1';
 
 
 use ElixirFM::CGI;
@@ -148,10 +148,6 @@ sub pretty_resolve_lexeme {
 
     $info[1] = join '", "', split '","', substr $info[1], 1, -1;
 
-    my @stem = $info[2] =~ /^Verb \[([^\]]*)\] \[([^\]]*)\] \[([^\]]*)\]$/;
-
-    $info[2] = @stem ? join " ", map { split /[,]/, $stem[$_] } 1, 0, 2 : "";
-
     $info[3] = substr $info[3], 1, -1;
 
     $info[-2] = substr $info[-2], 1, -1;
@@ -173,8 +169,6 @@ sub pretty_resolve_lexeme {
                                -title => "morphs of citation form"}, ElixirFM::nice $info[-1]),
                        $q->td({-class => "class",
                                -title => "derivational class"},      $info[3]),
-                       $q->td({-class => "stems",
-                               -title => "inflectional stems"},      ElixirFM::nice $info[2]),
                        $q->td({-class => "reflex",
                                -title => "lexical reference"},       $info[1]),
 
@@ -330,7 +324,7 @@ sub main ($) {
 
     $r .= $q->end_form();
 
-    $r .= $q->h2('ElixirFM Reply');
+    $r .= $q->h2('ElixirFM Reply Devel');
 
     $r .= $q->p({-class => 'notice'}, "Click on the items in the list of solutions below in order to display or hide their contents.");
 
@@ -346,7 +340,7 @@ sub main ($) {
 
     my @param = map { $q->param($_) ? '--' . $_ : () } 'fuzzy', 'quick';
 
-    my $reply = [$mode, [@param, $code], $text];
+    my $reply = [$mode, ['--tree', @param, $code], $text];
 
     if ($memoize) {
 

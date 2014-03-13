@@ -94,11 +94,7 @@ table.lexeme {
 }
 
 .lexeme td.class {
-    width: 2.5em;
-}
-
-.lexeme td.stems {
-    width: 5em;
+    width: 3em;
 }
 
 .lexeme td.reflex {
