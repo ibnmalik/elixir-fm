@@ -225,7 +225,7 @@ sub main ($) {
 					-id         =>  'text',
 					-default    =>  $q->param('text'),
 					-accesskey  =>  '4',
-					-size       =>  60,
+					-size       =>  50,
 					-maxlength  =>  180) ),
 
 		    td( {-colspan => 1, -align => 'left', -style => "vertical-align: middle; padding-left: 20px"},
@@ -234,7 +234,7 @@ sub main ($) {
 					-id         =>  'clip',
 					-default    =>  $q->param('clip'),
 					-accesskey  =>  '5',
-					-size       =>  30,
+					-size       =>  25,
 					-maxlength  =>  60) ) ),
 
 		Tr( {-align => 'left'},

@@ -218,7 +218,7 @@ sub main ($) {
 					-id         =>  'text',
 					-default    =>  $q->param('text'),
 					-accesskey  =>  '4',
-					-size       =>  60,
+					-size       =>  50,
 					-maxlength  =>  180) ),
 
 		    td( {-colspan => 2, -style => "vertical-align: middle; padding-left: 20px", -class => 'notice'},

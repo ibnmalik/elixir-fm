@@ -291,7 +291,7 @@ sub main ($) {
                                         -id         =>  'text',
                                         -default    =>  $q->param('text'),
                                         -accesskey  =>  '4',
-                                        -size       =>  100,
+                                        -size       =>  80,
                                         -maxlength  =>  180) ) ),
 
                 Tr( {-align => 'center'},
@@ -316,8 +316,9 @@ sub main ($) {
 
     $r .= $q->p("ElixirFM is further documented at", $q->a({-href => 'http://sourceforge.net/apps/trac/elixir-fm/'},
                 "ElixirFM Wiki") . ".",
-                "The multiple scripts of this site are best viewed with", $q->a({-href => 'http://sourceforge.net/projects/dejavu/'},
-                "DejaVu Fonts") . ".");
+                "The multiple scripts of this site are best viewed with", 
+		$q->a({-href => 'http://openfontlibrary.org/en/font/droid-arabic-naskh'}, "Droid Arabic Naskh"), "and",
+		$q->a({-href => 'http://sourceforge.net/projects/dejavu/'}, "DejaVu"), "fonts.");
 
     $r .= $q->h2($q->a({-href => 'index.fcgi?mode=resolve'}, 'Resolve'));
 
