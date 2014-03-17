@@ -1,7 +1,7 @@
 -- |
 --
 -- Module      :  Elixir.Template
--- Copyright   :  Otakar Smrz 2005-2013
+-- Copyright   :  Otakar Smrz 2005-2014
 -- License     :  GPL
 --
 -- Maintainer  :  otakar-smrz users.sf.net
@@ -456,7 +456,9 @@ category x y | isArabic x = isArabic y
 
 isArabic :: Char -> Bool
 
-isArabic x = '\x0620' < x && x < '\x063B' || '\x063F' < x && x < '\x0653' || x == '\x0670'
+isArabic x = '\x0620' < x && x < '\x063B' ||
+             '\x063F' < x && x < '\x0653' ||
+             '\x066F' < x && x < '\x0672'
 
 
 sunny = [ "t", "_t", "d", "_d", "r", "z", "s", "^s",

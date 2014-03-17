@@ -2048,7 +2048,8 @@ cluster_90  = cluster
  |> "w ^s m" <| [
 
     FaCaL                     `verb`    {- <wa^sam> -}         [ ['t','a','t','t','o','o'] ]
-                              `imperf`     CiL,
+                              `imperf`     CiL
+                              `masdar`     FaCL,
 
     FaCCaL                    `verb`    {- <wa^s^sam> -}       [ ['t','a','t','t','o','o'] ],
 

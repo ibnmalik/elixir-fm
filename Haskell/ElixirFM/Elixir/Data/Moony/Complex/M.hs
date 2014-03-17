@@ -1148,11 +1148,9 @@ cluster_61  = cluster
 
  |> "m .d y" <| [
 
-    FaCY                      `verb`    {- <ma.dY> -}          [ ['c','o','n','t','i','n','u','e'], ['p','r','o','c','e','e','d'] ]
-                              `imperf`     FCI,
-
-    FaCY                      `verb`    {- <ma.dY> -}          [ ['e','l','a','p','s','e'], ['e','x','p','i','r','e'] ]
-                              `imperf`     FCI,
+    FaCY                      `verb`    {- <ma.dY> -}          [ ['e','l','a','p','s','e'], ['e','x','p','i','r','e'], ['c','o','n','t','i','n','u','e'], ['p','r','o','c','e','e','d'] ]
+                              `imperf`     FCI
+                              `masdar`     FuCIL,
 
     FaCCY                     `verb`    {- <ma.d.dY> -}        [ ['s','p','e','n','d'] ],
 

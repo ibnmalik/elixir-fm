@@ -671,7 +671,8 @@ cluster_22  = cluster
  |> "q d m" <| [
 
     FaCiL                     `verb`    {- <qadim> -}          [ ['a','r','r','i','v','e'], ['c','o','m','e'], ['a','d','v','a','n','c','e'] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FuCUL,
 
     FaCCaL                    `verb`    {- <qaddam> -}         [ ['o','f','f','e','r'], ['p','r','e','s','e','n','t'], ['i','n','t','r','o','d','u','c','e'] ],
 
