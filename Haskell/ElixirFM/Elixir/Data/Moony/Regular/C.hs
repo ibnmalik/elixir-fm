@@ -539,15 +539,12 @@ cluster_30  = cluster
  |> "b ` _t" <| [
 
     FaCaL                     `verb`    {- <ba`a_t> -}         [ ['s','e','n','d'], ['e','m','i','t'] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FaCL,
 
-    InFaCaL                   `verb`    {- <inba`a_t> -}       [ ['r','e','v','i','v','e'], ['r','e','s','u','r','r','e','c','t'] ],
+    InFaCaL                   `verb`    {- <inba`a_t> -}       [ ['r','e','v','i','v','e'], ['r','e','s','u','r','r','e','c','t'], unwords [ ['b','e'], ['s','e','n','t'], ['o','u','t'] ], unwords [ ['b','e'], ['r','e','v','i','v','e','d'] ] ],
 
-    InFaCaL                   `verb`    {- <inba`a_t> -}       [ unwords [ ['b','e'], ['s','e','n','t'], ['o','u','t'] ], unwords [ ['b','e'], ['r','e','v','i','v','e','d'] ] ],
-
-    IFtaCaL                   `verb`    {- <ibta`a_t> -}       [ ['s','e','n','d'], ['d','i','s','p','a','t','c','h'] ],
-
-    IFtaCaL                   `verb`    {- <ibta`a_t> -}       [ ['e','x','h','u','m','e'], ['r','e','v','i','v','e'] ],
+    IFtaCaL                   `verb`    {- <ibta`a_t> -}       [ ['s','e','n','d'], ['d','i','s','p','a','t','c','h'], ['e','x','h','u','m','e'], ['r','e','v','i','v','e'] ],
 
     FaCL                      `noun`    {- <ba`_t> -}          [ ['e','m','i','s','s','i','o','n'], ['a','w','a','k','e','n','i','n','g'] ],
 
