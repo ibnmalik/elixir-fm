@@ -305,7 +305,12 @@ cluster_21  = cluster
 
     FaCY                      `verb`    {- <ba.gY> -}          [ ['w','a','n','t'], ['d','e','s','i','r','e'] ]
                               `imperf`     FCI
-                              `masdar`     FuCA',
+                              `masdar`     FaCL
+                              `masdar`     FuCL |< aT,
+
+    FaCY                      `verb`    {- <ba.gY> -}          [ ['w','a','n','t'], ['d','e','s','i','r','e'] ]
+                              `imperf`     FCI
+                              `masdar`     FaCL,
 
     InFaCY                    `verb`    {- <inba.gY> -}        [ unwords [ ['b','e'], ['i','n','c','u','m','b','e','n','t'] ], unwords [ ['b','e'], ['n','e','c','e','s','s','a','r','y'] ] ],
 
@@ -444,7 +449,9 @@ cluster_29  = cluster
 
     FaCY                      `verb`    {- <bakY> -}           [ ['c','r','y'], ['w','e','e','p'] ]
                               `imperf`     FCI
-                              `imperf`     FCY,
+                              `imperf`     FCY
+                              `masdar`     FuCA'
+                              `masdar`     FuCY,
 
     FaCI                      `verb`    {- <bakI> -}           [ ['m','o','u','r','n'] ]
                               `imperf`     FCY,

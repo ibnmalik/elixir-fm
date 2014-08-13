@@ -1549,7 +1549,8 @@ cluster_100 = cluster
  |> "b l `" <| [
 
     FaCaL                     `verb`    {- <bala`> -}          [ ['s','w','a','l','l','o','w'], ['a','b','s','o','r','b'] ]
-                              `imperf`     FCaL,
+                              `imperf`     FCaL
+                              `masdar`     FaCL,
 
     FaCiL                     `verb`    {- <bali`> -}          [ ['s','w','a','l','l','o','w'], ['a','b','s','o','r','b'] ]
                               `imperf`     FCaL,
