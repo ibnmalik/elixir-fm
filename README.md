@@ -1,13 +1,14 @@
 ElixirFM
 ========
 
-http://elixir-fm.sf.net/
+http://github.com/otakar-smrz/elixir-fm
+http://otakar-smrz.github.io/elixir-fm
 
 
 New things
 ----------
 
-- The [Haskell](http://github.com/otakar-smrz/elixir-fm/tree/master/Haskell/ElixirFM/) library pretty-prints the output of the [resolve](http://github.com/otakar-smrz/elixir-fm/tree/master/Haskell/ElixirFM/Elixir/Resolve.hs), [inflect](http://github.com/otakar-smrz/elixir-fm/tree/master/Haskell/ElixirFM/Elixir/Inflect.hs), [derive](http://github.com/otakar-smrz/elixir-fm/tree/master/Haskell/ElixirFM/Elixir/Derive.hs), and [lookup](http://github.com/otakar-smrz/elixir-fm/tree/master/Haskell/ElixirFM/Elixir/Lookup.hs) modes in a column-oriented format for both clarity and convenient processing. You can `cut` or `grep` the information on the command line as well as unpretty the output into nested data structures using [Python](http://github.com/otakar-smrz/elixir-fm/tree/master/Python/elixir.py) or [Perl](http://github.com/otakar-smrz/elixir-fm/tree/master/Perl/ElixirFM/lib/ElixirFM.pm).
+- The [Haskell](http://github.com/otakar-smrz/elixir-fm/tree/master/Haskell/ElixirFM/) library and executable pretty-print the output of the [resolve](http://github.com/otakar-smrz/elixir-fm/tree/master/Haskell/ElixirFM/Elixir/Resolve.hs), [inflect](http://github.com/otakar-smrz/elixir-fm/tree/master/Haskell/ElixirFM/Elixir/Inflect.hs), [derive](http://github.com/otakar-smrz/elixir-fm/tree/master/Haskell/ElixirFM/Elixir/Derive.hs), and [lookup](http://github.com/otakar-smrz/elixir-fm/tree/master/Haskell/ElixirFM/Elixir/Lookup.hs) modes in a column-oriented format for both clarity and convenient processing. You can `cut` or `grep` the information on the command line as well as unpretty the output into nested data structures using [Python](http://github.com/otakar-smrz/elixir-fm/tree/master/Python/elixir.py) or [Perl](http://github.com/otakar-smrz/elixir-fm/tree/master/Perl/ElixirFM/lib/ElixirFM.pm).
 
 - There is support for calling the Haskell executable in its different modes from within [Python](http://github.com/otakar-smrz/elixir-fm/tree/master/Python) as if it were a native function.
 
